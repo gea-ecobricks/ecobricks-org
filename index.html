@@ -178,7 +178,9 @@ distribution_key="dist_42";
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 	
-#container {
+/*
+		
+		#container {
 
 	height: 100vh;
 }	
@@ -212,25 +214,38 @@ z-index: -10 !important;
   transition: visibility 0s 2s, opacity 2s linear;
 
 	}
+		
+		*/
 	
-#knack-body {	
+#full-page {	
 	-webkit-animation-delay: 0.75s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 0.25s;
 	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 	}
+		
+			
+#header {  
+	padding-top: 10px;
+	padding-bottom: 5px;
+	z-index: 3;
+	position: relative;
+	background: white;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	
+}
 
 
 		@media screen and (min-width: 770px) and (max-width: 2000px) { 
-#landing-content { 
+#main-content { 
 	max-width: 80%;
 	margin: auto;
 	margin-bottom: 0px;
 	background: none;
 			}}
 	@media screen and (max-width: 769px) { 
-#landing-content { 
+#main-content { 
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 0px;
@@ -419,7 +434,7 @@ text-shadow: 0px 0px 3px #4d4d4d;
 	
 <body>
 
-<body id="knack-body">
+<body id="full-page">
 <div id="header" class="top-menu">
 <a href="index.html"><img src="/svgs/GEA-Logo-Horizontal-logo.svg" width="250" alt="Global Ecobrick Alliance Logo"></a></div> 
 	
@@ -432,7 +447,7 @@ text-shadow: 0px 0px 3px #4d4d4d;
   
 	<div id="top-full-banner"><img src="svgs/top-vision2.svg" width="100%"></div>
   
-  <div id="landing-content">
+  <div id="main-content">
 
 <div id="top-graphic"><img src="/images/earthen-ecobrick.png"></div><div class="main-statement"> Join us towards plastic transition, sequestration & ocean protection.</div>
 
