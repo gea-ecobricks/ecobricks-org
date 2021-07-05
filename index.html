@@ -273,13 +273,21 @@ font-size: 2em;
 	background: #f7fdff url(/svgs/top-clouds.svg) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 1028px;
-	margin-top: 40px;
+	margin-top: 100px;
 	padding-bottom: 40px;
 	
 		}
 		
-#content-section2 img {margin-top: -60px;
+#content-section2 img {margin-top: -80px;
 	margin-bottom: -30px;}
+		
+ @media screen and (min-width: 770px) and (max-width: 2000px) { 
+#content-section2 img {	width: 600px;}
+	}
+		
+ @media screen and (min-width: 0px) and (max-width: 769px) {
+#content-section2 img {	width: 300px;}
+	}
 	
 
 	
@@ -376,7 +384,7 @@ margin-bottom: -150px;
 	  
 <div id="content-section2">
 	<div id="main-content">
-<div id="second-graphic"><img src="/images/earthen-ecobrick.png" width="400px"></div><div class="lead-paragraph"> Join us towards plastic transition, sequestration & ocean protection.</div>
+<div id="second-graphic"><img src="/images/earthen-ecobrick.png"></div><div class="lead-paragraph"> Join us towards plastic transition, sequestration & ocean protection.</div>
 <div class="welcome-news">
 	<p>Did you know that the best way to keep plastic out of the oceans is to avoid supporting large scale ocean fishing?  <a href="https://www.onegreenplanet.org/news/ocean-plastic-made-discarded-fishing-nets/" target="_blank">46% of ocean plastic</a> is estimated to be discarded fishing nets.</p>
 </div>	
