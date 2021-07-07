@@ -377,15 +377,17 @@ font-size: 2em;
 			transform: translateX(-50%);
 		
 
-		
+		opacity:0;
 			    -webkit-animation: slide 0.5s backwards;
-    -webkit-animation-delay: 2s;
+			-webkit-animation:fadeIn ease-in 1;
+    -webkit-animation-delay: 1s;
     animation: slide 0.5s forwards;
+-webkit-animation-fill-mode:forwards;
     animation-delay: 2s;
 			
 			/*-webkit-animation-delay: 3s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.25s;
+	
 	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;*/
 }
