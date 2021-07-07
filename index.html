@@ -411,7 +411,26 @@ margin-bottom: -150px;
 		border-radius: 15px;
 		padding-bottom: 185px;
 		box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
-		}
+			
+			
+	-webkit-animation-delay: 1.0s;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
+		    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
 		
 #slider-image {margin-right: 65%;
 	margin-left: 0%
@@ -445,12 +464,6 @@ margin-bottom: -150px;
 		  font-family: 'Arvo', serif;
 	color: white;
 	
-	
-	-webkit-animation-delay: 1.0s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.25s;
-	-webkit-animation-duration:0.25s;
-	-webkit-animation-fill-mode:forwards;
 		}
 		
 		
@@ -482,7 +495,7 @@ color: #666666;
 }
 
 li a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 	color: black;}
 	
 #desktop-menu { font-size: 1.2em;
@@ -525,9 +538,10 @@ padding-right: 50px;
 	<div id="slider1">
 		<div id="slider-image"><img src="/images/catalyst-logo.png"></div>
 			 <div id="slider-textbox">
-		<div id="slider-date">July 7th, 2021 | GEA Announcements</div>
+		
 			<div id="slider-heading">Version 2.0 of the Enterprise Catalyst Program Launched</div>
 				<div id="slider-body">The new GEA program for keen green companies and organization.  <a href="/aes">Learn more</a></div>
+				 <div id="slider-date">July 7th, 2021 | GEA Announcements</div>
 																    </div>
 																    </div>
 	</div>
