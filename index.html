@@ -273,7 +273,7 @@ font-size: 2em;
 		
 #content-section2 {width: 100%;
 
-	background: #f7fdff url(/svgs/top-clouds4.svg) center top;
+	background: #f7fdff url(/svgs/top-clouds7.svg) center top;
     		box-sizing: border-box;
 		background-size: cover;
 	margin-top: 100px;
@@ -378,12 +378,20 @@ font-size: 2em;
 		
 
 		opacity:0;
+			
 			    -webkit-animation: slide 0.5s backwards;
-			-webkit-animation:fadeIn ease-in 1;
+			-webkit-animation:fadeIn ease-in 1s;
     -webkit-animation-delay: slide 1s;
     animation: slide 0.5s forwards;
+-webkit-animation-fill-mode:slide forwards;
+    animation-delay: slide 1s;
+			
+			-webkit-animation: slide2 0.5s backwards;
+			-webkit-animation:fadeOut ease-in 1s;
+    -webkit-animation-delay: slide2 3s;
+    animation: slide2 0.5s forwards;
 -webkit-animation-fill-mode:forwards;
-    animation-delay: 2s;
+    animation-delay: slide2 3s;
 			
 			/*-webkit-animation-delay: 3s !important;
 	opacity:0;
@@ -400,6 +408,16 @@ font-size: 2em;
 @keyframes slide {
     100% { left: 50%; 
 	opacity: 1;}
+}
+		
+@-webkit-keyframes slide2 {
+    100% { left: 100%; 
+	opacity: 0}
+}
+
+@keyframes slide2 {
+    100% { left: 100%; 
+	opacity: 0;}
 }
 
 
