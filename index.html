@@ -477,7 +477,29 @@ margin-bottom: -150px;
 		}
 	
 		
-		
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+	color: black;}
 
 			
   </style>	
@@ -491,9 +513,15 @@ margin-bottom: -150px;
 <body id="full-page">
 <div id="header" class="top-menu">
 <a href="index.html"><img src="/svgs/prototype-logo2.svg" width="240" alt="Global Ecobrick Alliance Logo"></a></div> 
-	<div id="desktop-menu"><div class="menu-item">ecobricks</div><div class="menu-item">about us</div><div class="menu-item">about ecobricks</div><div class="menu-item">how to</div><div class="menu-item">build</div></div> 
-
-  
+	<div id="desktop-menu">
+		<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="/what">About Ecobricks</a></li>
+  <li><a href="/principles">Principles</a></li>
+  <li><a href="/building">Building</a></li>
+<li><a href="/About">About us</a></li>
+</ul>
+	</div>
   
   <div id="sliders">
 	<div id="slider1">
