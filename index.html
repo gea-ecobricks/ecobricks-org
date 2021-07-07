@@ -273,7 +273,7 @@ font-size: 2em;
 		
 #content-section2 {width: 100%;
 
-	background: #f7fdff url(/svgs/top-clouds7.svg) center top;
+	background: #f7fdff url(/svgs/top-clouds4.svg) center top;
     		box-sizing: border-box;
 		background-size: cover;
 	margin-top: 100px;
@@ -379,25 +379,30 @@ font-size: 2em;
 
 		opacity:0;
 			
-			    -webkit-animation: slide 0.5s backwards;
-			-webkit-animation:fadeIn ease-in 1s;
-    -webkit-animation-delay: slide 1s;
-    animation: slide 0.5s forwards;
--webkit-animation-fill-mode:slide forwards;
-    animation-delay: slide 1s;
+ 	-webkit-animation: slide 0.5s backwards;
+       -webkit-animation-delay: slide 1s;
+	animation: slide 0.5s backwards;
+	animation-delay: slide 1s;
 			
+	-webkit-animation: fadeIn ease-in 1s;
+			-webkit-animation-fill-mode: fadeIn forwards;
+			animation-delay: fadeIn 1s;
+				-webkit-animation-duration: fadeIn 0.5s;
+			
+		
+
+
+  
+			
+			/*
 			-webkit-animation: slide2 0.5s backwards;
 			-webkit-animation:fadeOut ease-in 1s;
     -webkit-animation-delay: slide2 3s;
     animation: slide2 0.5s forwards;
 -webkit-animation-fill-mode:forwards;
     animation-delay: slide2 3s;
+			*/
 			
-			/*-webkit-animation-delay: 3s !important;
-	opacity:0;
-	
-	-webkit-animation-duration:0.25s;
-	-webkit-animation-fill-mode:forwards;*/
 }
 
 @-webkit-keyframes slide {
@@ -543,7 +548,7 @@ padding-right: 50px;
 																    </div>
 	</div>
   
-	<div id="top-full-banner"><img src="svgs/top-vision6.svg" width="100%"></div>
+	<div id="top-full-banner"><img src="svgs/top-vision7.svg" width="100%"></div>
 	
 
 				
