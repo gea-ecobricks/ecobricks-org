@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 
-<html>
+<html amp lang="en">
 
-<head>
+	<head>
+		<meta charset="utf-8">
+		
+		<link rel="canonical" href="https://www.ecobricks.org"> 
+		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	
+	
+	<!--
+	//AMP
+		<script async src="https://cdn.ampproject.org/v0.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	-->
+  
 
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
 	<!-- This calls GEA typography -->
 
@@ -19,7 +30,8 @@
 
 	<!-- This allows Ecobricks.org to be used a PWA on iPhones -->
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="viewport" content="width=device-width, initial-scale=1.8, target-densitydpi=160, maximum-scale=1, user-scalable = no">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.8, target-densitydpi=160, maximum-scale=1, user-scalable = no">
+-->
 <meta name="apple-mobile-web-app-title" content="GoBrik">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 	
@@ -58,12 +70,13 @@
   <meta property="og:image"         content="https://www.ecobricks.org/images/fbbanner.png" >
 
 
-<!-- JAVA SCRIPTS -->
+<!-- JAVA SCRIPTS
 
-	<!-- To the Top button script-->
+	
 	<script>
 
 // When the user clicks on the button, scroll to the top of the document
+
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
@@ -71,7 +84,8 @@ function topFunction() {
 </script>
 	
 		
-<!-- Localise translation scripts-->
+// Localise translation scripts
+
 <script src="https://global.localizecdn.com/localize.js"></script>
 <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
 	
@@ -84,10 +98,10 @@ function topFunction() {
 </script>
 	
 
-<!-- Arc script-->
+//Arc script
 	<script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>
 	
-
+-->
 
 	<style>
 	
@@ -141,7 +155,7 @@ function topFunction() {
 
 <body id="full-page">
 		<div id="header">
-		<a href="index.html"><img src="svgs/prototype-logo2.svg" width="250" alt="Global Ecobrick Alliance Logo"></a>
+		<a href="index.html"><img src="svgs/prototype-logo2.svg" alt="Global Ecobrick Alliance Logo"></a>
 			<div id="desktop-menu">
 				<ul>
  					 <li><a href="what">About Ecobricks</a></li>
@@ -155,28 +169,42 @@ function topFunction() {
 	<div id="sliders">
 		<div id="slider1">
 			<div id="slider-image"><img src="images/catalyst-logo.png"></div>
+				<div id="slider-textbox">
+				<div id="slider-heading">Version 2.0 of the Enterprise Catalyst Program Launched</div>
+				<div id="slider-body">The new GEA program for keen green companies and organization.  <a href="catalyst">Learn more</a></div>
+				<div id="slider-date">July 7th, 2021 | GEA Announcements</div>
+			</div>
+		</div>
+
+		<div id="slider2">
+			<div id="slider-image"><br><img src="svgs/aes.svg"></div>
 			<div id="slider-textbox">
-			<div id="slider-heading">Version 2.0 of the Enterprise Catalyst Program Launched</div>
-			<div id="slider-body">The new GEA program for keen green companies and organization.  <a href="aes">Learn more</a></div>
-			<div id="slider-date">July 7th, 2021 | GEA Announcements</div>
+				<div id="slider-heading">Introducing Authenticated Ecobrick Sequestered Plastic Offsetting</div>
+				<div id="slider-body">The GEA's new plastic offsetting platform is launched!  Balance your plastic consumption.<br><a href="aes">Learn more</a></div>
+				<div id="slider-date">July 9th, 2021 | GEA Announcements</div>
+			</div>
+		</div>
+
+		<div id="slider3">
+			<div id="slider-image"><img src="images/german-pres.png"></div>
+			<div id="slider-textbox">
+				<div id="slider-heading">German Ecobrick Presentation & First Starter Workshop Launched</div>
+				<div id="slider-body">Our team has completed the translation of our Starter Workshop materials into German.  <a href="aes">First Course July 21st</a></div>
+				<div id="slider-date">July 21st, 2021 | GEA Courses</div>
+			</div>
 		</div>
 	</div>
-</div>
 
-
-
-  
-	<div id="top-full-banner"><img src="svgs/top-vision7.svg" width="100%"></div>
+  <div id="extra-clouds"></div>
+	<div id="cloud-banner"><img src="svgs/top-vision7.svg" width="100%"></div>
 	
 
 				
 			
-	
-
 <div id="content-section1">
 	 	 <div id="main-content">
 <div id="top-graphic"><img src="svgs/dolphin-top.svg"></div>
-			 <div class="content-section1-big-header">Welcome to Plastic Transition.</div>
+			 <div class="big-header">Welcome to Plastic Transition.</div>
 <div class="lead-paragraph">Together we can put our plastic on a safe journey out of the biosphere and out of industry and build our greenest visions.
 </div>
 <div class="sub-text">
@@ -192,7 +220,7 @@ function topFunction() {
 	  
 <div id="content-section2">
 	<div id="main-content">
-<div id="second-graphic"><img src="images/earthen-ecobrick.png"></div><div class="lead-paragraph"> Join us towards plastic transition, sequestration & ocean protection.</div>
+<div id="second-graphic"><img src="svgs/earth-service2.svg"></div><div class="lead-paragraph"> Join us towards plastic transition, sequestration & ocean protection.</div>
 <div class="sub-text">
 	<p>Did you know that the best way to keep plastic out of the oceans is to avoid supporting large scale ocean fishing?  <a href="https://www.onegreenplanet.org/news/ocean-plastic-made-discarded-fishing-nets/" target="_blank">46% of ocean plastic</a> is estimated to be discarded fishing nets.</p>
 	 <button class="main-button">Learn More</button></div></div>
@@ -206,10 +234,9 @@ function topFunction() {
 
 <div id="content-section3">
 	<div id="main-content">
-<img src="svgs/build-circular-opt.svg">
-<div class="lead-paragraph">Ecobricks can be used to build modules, furniture, gardens, food forest play parks, and more.</div>
-<div class="sub-text"><p>Ecobricking puts plastic on a safe and secure millennial road out of industry and out of the biosphere.</p>
-	<p>Ecobricking is a way to take personal responsibility for your plastic and begin your plastic transition journey.    Through ecobricking we can apply regenerative principles to our plastic and, following the Earth’s example, put it to good and safe use.</p>
+<div id="second-graphic"><img src="svgs/build-circular-opt.svg"></div>
+<div class="lead-paragraph">Using Ecobricks we can build our Greenest visions.</div>
+<div class="sub-text"><p>Ecobricks can be used to build modules, furniture, gardens, food forest play parks, and more.  Ecobricking applications are fundamentally circular, zero-carbon and regenerative.</p>
 	 <button class="main-button">Learn more</button></div></div>
 	
 <h4><a href="/modules">Milstein Modules</a> | <a href="/dms">Dieleman Modules</a> | <a href="/openspaces">Open Spaces</a> | <a href="earth">Earth Building</a></h4>
@@ -218,11 +245,11 @@ function topFunction() {
 
 <div id="content-section4">
 	<div id="main-content">
-<img src="/svgs/aes.svg">
+<img src="svgs/aes.svg">
 <div class="lead-paragraph">Introducing AES Plastic Offsetting</div>
 <div class="sub-text"><p>Ecobricking follows the Earth’s ancient example of cycling, securing and storing carbon.  When an ecobrick has been authenticated to have sequestered plastic it means a contribution to the greening of the biosphere has been made.</p>
 	<p>Ecobricking is a way to take personal responsibility for your plastic and begin your plastic transition journey.    Through ecobricking we can apply regenerative principles to our plastic and, following the Earth’s example, put it to good and safe use.</p>
-<p><img src="/svgs/3brikcoins.svg" style="width: 175px;"></p>
+<p><img src="svgs/3brikcoins.svg" style="width: 175px;"></p>
 	 <button class="main-button">Learn more</button></div></div>
 	
 <h4><a href="/brikcoins">Brikcoin Manual Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About</a></h4>
