@@ -72,13 +72,27 @@ h3 {
     font-weight: 300;
 }
 
+h4 {font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  text-align: center;
+        line-height: 1.4 ;
+    font-weight: 300;
+  }
+@media screen and (min-width: 770px) {
 h4 {
-	font-size: 1em;
-	font-family: 'Mulish', Arial, Helvetica, sans-serif;
-    text-align: center;
-          line-height: 1.4 ;
-	    font-weight: 300;
-}
+	font-size: 1.3em;
+}}
+
+@media screen and (max-width: 769px) {
+  h4 {
+     font-size: 0.9em; 
+  }}
+
+h4 a {color:#302f2f;
+ text-decoration: underline;}
+
+h4 a:hover {color: #fa8d04;
+ text-decoration: none;
+font-weight: 300;}
 
 
 h5 {
@@ -112,8 +126,19 @@ migrated from GoBrik.com CSS
 	text-align: left;
 	
 }
-	
 
+@media screen and (min-width: 770px) and (max-width: 2000px) { 
+#header img {
+  width: 250px;
+}
+}
+
+
+@media screen and (max-width: 769px) {
+#header img {
+  width: 220px;
+}
+}
 	
 ul {
     list-style-type: none;
@@ -149,6 +174,11 @@ ul {
       margin-top: -50px;
   padding-right: 50px;
           }
+
+@media screen and (max-width: 1000px) {
+  #desktop-menu {
+                display: none;
+          }}
           
 
 
@@ -164,56 +194,104 @@ migrated from GoBrik.com CSS
 	margin-bottom: -500px;
 	position: relative;
 	z-index: 9;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 		}
 
 		
+
+@media screen and (min-width: 770px) and (max-width: 2000px) { 
 #slider-image {
   margin-right: 65%;
   margin-left: 0%;
   height: 400px;
-  margin-bottom: -400px;
+  margin-bottom: 0px;
   text-align: right;
-    }
-          
+  vertical-align: middle;
+ width: fit-content;
+ padding-top: 40px;
+    }}
+
+
+
+@media screen and (max-width: 769px) {
+  #slider-image {
+      display: none;
+}}
+
  #slider-image img {
   width: 80%;
+  margin-top: auto;
+ 
   }
-                
+
+@media screen and (min-width: 770px) and (max-width: 2000px) { 
  #slider-textbox {
    margin-left: 40%;
-   margin-right: 0%;
-   height: 300px;
+   margin-right: 4%;
+   height: fit-content;
    text-align: left;
-   padding-top: 30px;
-   }
-            
+   margin-top: -415px;
+   padding-top: 20px;
+
+   }}
+
+   @media screen and (max-width: 769px) {
+    #slider-textbox {
+      margin-left: 5%;
+      margin-right: 5%;
+      height: fit-content;
+      text-align: left;
+
+      padding-top: 20px;
+
+      }}
                 
- #slider-date {     
-  font-size: 1.1em;
-  text-align: left;
-  color: black;
-  font-family: 'Mulish', sans-serif;
-  padding-right: 20%;
-  color: #666666;
-  padding-top: 20px;
-     }
-                
+ 
+
+@media screen and (min-width: 770px) and (max-width: 2000px) {              
 #slider-heading { 
-  font-size: 4em;
+  font-size: 3.6vw;
+  text-align: left;
+  font-family: 'Arvo', serif;
+  color: white;
+  padding-top: 17px;
+  }
+  }
+
+
+@media screen and (max-width: 769px) {
+#slider-heading { 
+  font-size: 2.3em;
   text-align: left;
   font-family: 'Arvo', serif;
   color: white;
   padding-top: 17px;
     }
-                
-                
+    }
+
+@media screen and (min-width: 770px) and (max-width: 2000px) {   
 #slider-body { 
-  font-size: 2em;
+  font-size: 2vw;
   text-align: left;
   font-family: 'Mulish', sans-serif;
   color: #333333;
   padding-top: 15px;
-                }
+   }
+  }
+
+@media screen and (max-width: 769px) {
+  #slider-body { 
+    font-size: 1.3em;
+    text-align: left;
+    font-family: 'Mulish', sans-serif;
+    color: #333333;
+    padding-top: 8px;
+    }
+    }
+
+
+
 #slider-body a {
   color:  #333333;
   text-decoration: underline;
@@ -223,31 +301,89 @@ migrated from GoBrik.com CSS
   color:  black;
   text-decoration: none;
 }	
-            
-            
-		
+
+@media screen and (min-width: 770px) and (max-width: 2000px) {   
+#slider-date {     
+  font-size: 1.1em;
+  text-align: left;
+  color: black;
+  font-family: 'Mulish', sans-serif;
+  padding-right: 20%;
+  color: #666666;
+  padding-top: 20px;
+     }}
+
+@media screen and (max-width: 769px) {
+#slider-date { 
+  font-size: 0.9em;
+  text-align: left;
+  color: black;
+  font-family: 'Mulish', sans-serif;
+  padding-right: 20%;
+  color: #666666;
+  padding-top: 20px;
+      }
+    }
+
+    @media screen and (max-width: 769px) {
+      #slider-date { 
+        font-size: 0.6em;
+            }
+          }
+
+
+/*SLIDER 1*/
+
+@media screen and (min-width: 1024px) and (max-width: 2000px) { 
 #slider1 {
 		width: 80%;
+    height: fit-content;
 		margin: auto;
-		padding-top: 80px;
-		background-color: rgb(0, 230, 255, 0.4);
-		padding: 100px 20px 20px 2px;
+		background-color: rgb(0, 230, 255, 0.6);
+		padding: 50px 20px 80px 2px;
 		margin-top: -50px;
-		border-radius: 15px;
-		padding-bottom: 185px;
+		border-radius: 20px;
 		box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
-			position: absolute;
-		left: 0;
-    opacity:0;
-			transform: translateX(-50%);
 	
-			
- 	-webkit-animation: slide 16s forwards;
-       -webkit-animation-delay: 1s;
-	animation: slide 14s forwards;
-	animation-delay: 1s;
-			
 }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1024px) { 
+  #slider1 {
+      width: 85%;
+      margin: auto;
+      background-color: rgb(0, 230, 255, 0.7);
+      padding: 30px 20px 40px 10px;
+      margin-top: -50px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+  }
+  }
+
+@media screen and (max-width: 769px) {
+  #slider1 {
+		width: 89%;
+    background-color: rgb(0, 230, 255, 1);
+    padding: 30px 5px 40px 5px;
+    border-radius: 12px;
+    margin-top: -50px;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+    } 
+    }	
+
+    #slider1 {
+
+      height: fit-content;
+    position: absolute;
+	  left: 0;
+    opacity:0;
+	  transform: translateX(-50%);
+    -webkit-animation: slide 12s forwards;
+    -webkit-animation-delay: 1s;
+
+	  animation: slide 12s forwards;
+	  animation-delay: 1s;}
+
 
 @-webkit-keyframes slide {
 0% { 
@@ -269,7 +405,10 @@ opacity: 1;}
 100% {left: 100%;
 opacity: 0;}
 
+
 }
+
+
 
 @keyframes slide {
   0% { 
@@ -295,6 +434,206 @@ opacity: 0;}
 
 
 
+  /* SLIDER 2 */
+
+
+  @media screen and (min-width: 1024px) and (max-width: 2000px) { 
+    #slider2 {
+        width: 80%;
+        height: fit-content;
+        margin: auto;
+        padding: 50px 20px 80px 2px;
+        margin-top: -50px;
+        border-radius: 20px;
+        box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+      
+    }
+    }
+    
+    @media screen and (min-width: 770px) and (max-width: 1024px) { 
+      #slider2 {
+          width: 85%;
+          margin: auto;
+          padding: 30px 20px 40px 10px;
+          margin-top: -50px;
+          border-radius: 15px;
+          box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+      }
+      }
+    
+    @media screen and (max-width: 769px) {
+      #slider2 {
+        width: 89%;
+        padding: 50px 5px 40px 5px;
+        border-radius: 12px;
+        margin-top: -60px;
+        box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+        } 
+        }	
+    
+        #slider2 {
+        background-color: rgba(0, 255, 21, 0.6);
+        height: fit-content;
+        position: absolute;
+        left: 0;
+        opacity:0;
+        transform: translateX(-50%);
+        -webkit-animation: slide2 12s forwards;
+        -webkit-animation-delay: 12s;
+    
+        animation: slide2 12s forwards;
+        animation-delay: 13s;}
+    
+    
+    @-webkit-keyframes slide2 {
+    0% { 
+      left: 0; 
+    opacity: 0;}
+    
+    8% { 
+      left: 54%; 
+    opacity: 1;}
+    
+    12%, 88% { 
+        left: 50%; 
+    opacity: 1;}
+    
+    93% { 
+      left: 46%; 
+    opacity: 1;}
+    
+    100% {left: 100%;
+    opacity: 0;}
+    }
+    
+    
+    
+    @keyframes slide2 {
+      0% { 
+        left: 0; 
+      opacity: 0;}
+      
+      8% { 
+        left: 54%; 
+      opacity: 1;}
+      
+      12%, 88% { 
+          left: 50%; 
+      opacity: 1;}
+      
+      93% { 
+        left: 46%; 
+      opacity: 1;}
+      
+      100% {left: 100%;
+      opacity: 0;}
+      
+      }
+  
+/* SLIDER 3  */
+
+
+  /* SLIDER 3 */
+
+  @media screen and (min-width: 1024px) and (max-width: 2000px) { 
+    #slider3 {
+        width: 80%;
+        height: fit-content;
+        margin: auto;
+        padding: 50px 20px 80px 2px;
+        margin-top: -50px;
+        border-radius: 20px;
+        box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+      
+    }
+    }
+    
+    @media screen and (min-width: 770px) and (max-width: 1024px) { 
+      #slider3 {
+          width: 85%;
+          margin: auto;
+          padding: 30px 20px 40px 10px;
+          margin-top: -50px;
+          border-radius: 15px;
+          box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+      }
+      }
+    
+    @media screen and (max-width: 769px) {
+      #slider3 {
+        width: 89%;
+        padding: 50px 5px 40px 5px;
+        border-radius: 12px;
+        margin-top: -60px;
+        box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+        } 
+        }	
+    
+        #slider3 {
+    
+        background-color: rgba(225, 76, 252, 0.5);
+           height: fit-content;
+        position: absolute;
+        left: 0;
+        opacity:0;
+        transform: translateX(-50%);
+        -webkit-animation: slide3 12s forwards;
+        -webkit-animation-delay: 25s;
+    
+        animation: slide3 12s forwards;
+        animation-delay: 25s;}
+    
+    
+    @-webkit-keyframes slide3 {
+    0% { 
+      left: 0; 
+    opacity: 0;}
+    
+    8% { 
+      left: 54%; 
+    opacity: 1;}
+    
+    12%, 88% { 
+        left: 50%; 
+    opacity: 1;}
+    
+    100% { 
+      left: 50%; 
+    opacity: 1;}
+    /*
+    100% {left: 100%;
+    opacity: 0;}*/
+    }
+    
+    
+    
+    @keyframes slide3 {
+      0% { 
+        left: 0; 
+      opacity: 0;}
+      
+      8% { 
+        left: 54%; 
+      opacity: 1;}
+      
+      12% { 
+          left: 50%; 
+      opacity: 1;}
+
+      100% { 
+        left: 50%; 
+    opacity: 1;}
+      
+      /*93% { 
+        left: 46%; 
+      opacity: 1;}
+      
+      100% {left: 100%;
+      opacity: 0;}*/
+      
+      }
+  
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -305,44 +644,105 @@ opacity: 0;}
 
 
 #main-content { 
-	width: 70% !important;
-	max-width: 70% !important;
-	margin: auto;
+  margin: auto;
+        }
+@media screen and (max-width: 769px) {
+  #main-content { 
+    width: 90%;
+    max-width: 90%;
+  }}
+  @media screen and (min-width: 770px) and (max-width: 1024px) { 
+    #main-content { 
+      width: 80%;
+  }}
+  @media screen and (min-width: 1024px)  { 
+    #main-content { 
+      width: 70% ;
+  }}
 
-			}
+
+.big-header
+		{
+	  font-family: 'Mulish', sans-serif;
+    text-align: center ;
+    line-height: 1.3;
+  	text-shadow: 0px 0px 10px #fff ;
+  	font-weight: 300;
+  	color: rgb(58, 58, 58);
+		}
+
+  @media screen and (max-width: 769px) {
+      .big-header {
+        font-size: 3.5em; 
+      }}
+  @media screen and (min-width: 770px) and (max-width: 1024px) { 
+      .big-header {
+         font-size: 6vw ;
+      }}
+  @media screen and (min-width: 1024px)  { 
+    .big-header {
+      font-size: 3.7vw ;
+   }}
 	
-.lead-paragraph {
-  
- font-family: 'Arvo', serif;
-    text-align: center !important;
-  line-height: 1.2 !important;
+.lead-paragraph { 
+font-family: 'Arvo', serif;
+text-align: center !important;
+line-height: 1.4 !important;
 margin: 20px 0px 13px 0px;
 text-shadow: 0px 0px 6px #fff;
-font-size: 2em;
-	
+color: #302f2f;
 }
-		
+
+@media screen and (max-width: 769px) {
+  .lead-paragraph {
+     font-size: 1.8em; 
+  }}
+  @media screen and (min-width: 770px) and (max-width: 1024px) { 
+    .lead-paragraph {
+     font-size: 2.5vw;
+  }}
+  @media screen and (min-width: 1024px)  { 
+    .lead-paragraph {
+     font-size: 2.2vw;
+  }}
+
+  .sub-text {	
+	  font-family: 'Mulish', sans-serif;
+    text-align: center;
+	  line-height: 1.4;
+	  color: #302f2f;
+	  margin-bottom: 20px;
+		}
+
+    @media screen and (max-width: 769px) {
+      .sub-text {
+         font-size: 1.3em; 
+      }}
+      @media screen and (min-width: 770px) and (max-width: 1024px) { 
+      .sub-text {
+         font-size: 2vw;
+      }}
+      @media screen and (min-width: 1024px)  { 
+      .sub-text {
+         font-size: 1.5vw;
+      }}
+    
+    
 		
 		
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
 .main-statement {
-	  font-size: 2.3em !important;
-	}}
+	  font-size: 2.3vw !important;
+	} 
+  }
 		
  @media screen and (max-width: 769px) {
 .main-statement {
-		  font-size: 1.8em !important;
-	}}
+		  font-size: 2.3em !important;
+	} 
+  }
 		
-.sub-text {	
-	
-	  font-size: 1.3em;
-	font-family: 'Mulish', sans-serif;
-    text-align: center;
-	line-height: 1.4;
-	color: #666666;
-	margin-bottom: 20px;
-		}
+
 
 
 		
@@ -392,56 +792,59 @@ font-size: 2em;
 /*	5. First Content Section (Dolphin & Ecobrick)
 
 /* -------------------------------------------------------------------------- */
+@media screen and (min-width: 1024px) and (max-width: 2000px) { 
+#extra-clouds {
+  display: none;
+}}
 
-#top-full-banner {width: 100%;
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {   
+  #extra-clouds {
+    height: 150px;
+    background-color: #00ffff;
+    width: 100%;
+  }}
+
+@media screen and  (min-width: 10px) and (max-width: 769px) { 
+  #extra-clouds {
+    height: 250px;
+    background-color: #00ffff;
+    width: 100%;
+  }}
+
+#cloud-banner {width: 100%;
     position: relative;
-    z-index: 8;}
+    z-index: 5;
+ }
 
+
+ 
 /*DOLPHIN SECTION*/
-@media screen and (min-width: 770px) and (max-width: 2000px) { 
-#main-content { 
-	width: 70% !important;
-	max-width: 70% !important;
-	margin: auto;
-	margin-bottom: 0px;
-	background: none;
-			}}
-	@media screen and  (min-width: 0px) and (max-width: 769px) { 
-#main-content { 
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 0px;
-	background: none;
-			}}
+
 	
 /*Dolphin image*/
-		#top-graphic img { position: relative;
-			z-index: 8;}
+#top-graphic img { 
+  position: relative;
+	z-index: 8;}
 		
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
-#top-graphic img {	width: 600px;
-  margin-top: -200px;}
+#top-graphic img {	
+  width: 600px;
+  margin-top: -200px;
+  }
 	}
 		
  @media screen and (min-width: 0px) and (max-width: 769px) {
-#top-graphic img {	width: 80%;
-  margin-top: -50px;}
+#top-graphic img {	
+  width: 80%;
+  margin-top: -50px;
+  }
 	}
-		
 
-#content-section1	{width: 100%;
+#content-section1	
+{
+  width: 100%;
 	margin-bottom: 150px;}
-		
-.content-section1-big-header
-		{font-size: 4em !important;
-			font-family: 'Mulish', sans-serif;
-      text-align: center ;
-	  line-height: 1.3;
-	text-shadow: 0px 0px 10px #fff ;
-	 font-weight: 300;
-	color: black;
-
-		}
 		
 
 
@@ -451,28 +854,29 @@ font-size: 2em;
 /* -------------------------------------------------------------------------- */
 
 		
-		
 #content-section2 {width: 100%;
 
-	background: #f7fdff url(/svgs/top-clouds4.svg) center top;
+	background: #f7fdff url(svgs/blue-ode.svg) center top;
     		box-sizing: border-box;
 		background-size: cover;
 	margin-top: 100px;
 	padding-bottom: 30px;
 	margin-bottom: 80px;
-
-	
 		}
 		
 #content-section2 img {margin-top: -80px;
-	margin-bottom: -60px;}
+	margin-bottom: 0px;}
 		
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
-#content-section2 img {	width: 600px;}
+#content-section2 img {	
+  width: 600px;
+  }
 	}
 		
  @media screen and (min-width: 0px) and (max-width: 769px) {
-#content-section2 img {	width: 300px;}
+#content-section2 img {	
+  width: 300px;
+  }
 	}
 		
 
@@ -485,23 +889,46 @@ font-size: 2em;
 
 		
 		
-		#content-section3 {width: 100%;
-			 background:  #ebfaeb;
+		#content-section3 {
+    width: 100%;
 		margin-top: 160px;
 		margin-bottom: 70px;
-		padding-bottom: 50px;}	
+    background: url(svgs/visionscape.svg);
+    box-sizing: border-box;
+ }	
+
+ @media screen and (min-width: 770px) and (max-width: 2000px) { 
+ #content-section3 {
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+ }}
+
+ @media screen and (min-width: 0px) and (max-width: 769px) {
+  #content-section3 {
+
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+  }}
 		
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
-#content-section3 img {	margin-top: -80px;
+#content-section3 img {	
+  margin-top: -80px;
 	width: 600px;
 	}
 	}
 		
  @media screen and (min-width: 0px) and (max-width: 769px) {
-#content-section3 img {	width: 300px;
+#content-section3 img {	
+  width: 300px;
 	margin-top: -40px;
 }
-	}
+}
+
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -510,4 +937,3 @@ font-size: 2em;
 
 /* -------------------------------------------------------------------------- */
 
-		
