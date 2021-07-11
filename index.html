@@ -103,7 +103,16 @@ function topFunction() {
 	<script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>
 	
 	<script>
-		function myFunction() {
+		function mainMenu() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		<script>
+		function languageMenu() {
 		  var x = document.getElementById("myTopnav");
 		  if (x.className === "topnav") {
 			x.className += " responsive";
@@ -160,18 +169,6 @@ background-image: none !important;
 background-color: green !important;
 }
 
-
-
-
-
-
-
-
-
-
-	
-		
-			
   </style>	
 
 </head>
@@ -183,27 +180,7 @@ background-color: green !important;
 			
 		</div>
 			<div id="desktop-menu">
-				
-<!--
-				<div class="topnav" id="myTopnav">
-					<a href="#home" class="active">Home</a>
-					<a href="#news">News</a>
-					<a href="#contact">Contact</a>
-					<div class="dropdown">
-					  <button class="dropbtn">Dropdown 
-						<i class="fa fa-caret-down"></i>
-					  </button>
-					  <div class="dropdown-content">
-						<a href="#">Link 1</a>
-						<a href="#">Link 2</a>
-						<a href="#">Link 3</a>
-					  </div>
-					</div> 
-					<a href="#about">About</a>
-					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-				  </div>
-
-				-->
+			
 
 				<div class="topnav" id="myTopnav">
 					<div class="dropdown">
@@ -233,33 +210,11 @@ background-color: green !important;
 					<a href="#news">About Us</a>
 					<a href="#contact">Building</a>
 					<a href="#home">About Ecobricks</a>
-					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><img src="icons/grey-circle-250px.png" width="30px"></a>
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mainMenu()"><img src="icons/grey-circle-250px.png" width="30px"></a>
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="languageMenu()">ENG</a>
 				</div>
 				</div>
 			
-
-				
-				
-				
-				
-				
-				
-				
-				
-				<!--
-				
-				
-				<ul>
- 					 <li><a href="what">About Ecobricks</a></li>
- 					 <li><a href="principles">Principles</a></li>
-					<li><a href="building">Building</a></li>
-					<li><a href="About">About us</a></li>
-					<li><a class="active" href="index.html">Home</a></li>
-				</ul>
-			</div>
-		</div>
-		<div id="drop-down1">
-		-->
 			
 		</div>
 	<div id="sliders">
