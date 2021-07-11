@@ -97,11 +97,21 @@ function topFunction() {
   });
 </script>
 	
-
 //Arc script
+-->
+
 	<script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>
 	
--->
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
 
 	<style>
 	
@@ -136,8 +146,22 @@ function topFunction() {
 	  visibility: hidden;
   opacity: 0;
   transition: visibility 0s 2s, opacity 2s linear;
+}
 
-	}
+
+#popper header {
+background-image: none !important;
+background-color: green !important;
+}
+
+.arc-iframe-app
+{
+background-image: none !important;
+background-color: green !important;
+}
+
+
+
 
 
 
@@ -156,7 +180,75 @@ function topFunction() {
 <body id="full-page">
 		<div id="header">
 		<a href="index.html"><img src="svgs/prototype-logo2.svg" alt="Global Ecobrick Alliance Logo"></a>
+			
+		</div>
 			<div id="desktop-menu">
+				
+<!--
+				<div class="topnav" id="myTopnav">
+					<a href="#home" class="active">Home</a>
+					<a href="#news">News</a>
+					<a href="#contact">Contact</a>
+					<div class="dropdown">
+					  <button class="dropbtn">Dropdown 
+						<i class="fa fa-caret-down"></i>
+					  </button>
+					  <div class="dropdown-content">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					  </div>
+					</div> 
+					<a href="#about">About</a>
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+				  </div>
+
+				-->
+
+				<div class="topnav" id="myTopnav">
+					<div class="dropdown">
+						<button class="dropbtn"><div id="menu-text">Languages</div>ENG
+							<i class="fa fa-caret-down"></i>
+					 	</button>
+							<div class="dropdown-content-language">
+							  <a href="#">🇮🇩 IND</a>
+							  <a href="#">🇪🇸 ESP</a>
+							  <a href="#">🇩🇪 DE</a>
+						  </div>
+				   </div> 
+
+					<div class="dropdown">
+					  	<button class="dropbtn"><div id="menu-circle"><img src="icons/grey-circle-250px.png" width="30px"></div><div id="menu-text">GEA Servers</div>
+							<i class="fa fa-caret-down"></i>
+					 	</button>
+					  		<div class="dropdown-content">
+								<div id="gobrik-menu"><a href="#">GoBrik <h6>Ecobricking Webapp<br>Manage your ecobricks<br>Connect to the Birkcoin blockchain</h6></a></div>
+								<div id="mattermost-menu"><a href="#">Circles<h6>Ecobrick Community Server<br>Join for support.</h6></a></div>
+								<div id="github-menu"><a href="#">Github<h6>Ecobrick Community Server<br>Join for support.</h6></a></div>
+								<div id="Offsetting-menu"><a href="#">Offset<h6>Ecobrick Community Server<br>Join for support.</h6></a></div>
+							</div>
+					</div> 
+					
+					<a href="#about">Principles</a>
+					<a href="#news">About Us</a>
+					<a href="#contact">Building</a>
+					<a href="#home">About Ecobricks</a>
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><img src="icons/grey-circle-250px.png" width="30px"></a>
+				</div>
+				</div>
+			
+
+				
+				
+				
+				
+				
+				
+				
+				
+				<!--
+				
+				
 				<ul>
  					 <li><a href="what">About Ecobricks</a></li>
  					 <li><a href="principles">Principles</a></li>
@@ -165,6 +257,10 @@ function topFunction() {
 					<li><a class="active" href="index.html">Home</a></li>
 				</ul>
 			</div>
+		</div>
+		<div id="drop-down1">
+		-->
+			
 		</div>
 	<div id="sliders">
 		<div id="slider1">
