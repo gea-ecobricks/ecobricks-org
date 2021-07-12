@@ -1,0 +1,8 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/git-test/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp stylesheet.css $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R icons $DEPLOYPATH
+    - /bin/cp -R svgs $DEPLOYPATH
