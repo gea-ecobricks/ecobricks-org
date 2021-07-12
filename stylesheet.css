@@ -173,8 +173,12 @@ font-weight: 300;
             background-color: white;
             color: black;
             font-weight: 500;
+            cursor: pointer;
           }
           
+#lang-button {
+  padding: 0px 30px 6px 0px;
+}
   .dropdown {
             float: right;
             overflow: hidden;
@@ -236,6 +240,7 @@ font-weight: 300;
   background-color: #666666;
   min-width: 160px;
   z-index: 1;
+
 }
 }
  
@@ -281,8 +286,8 @@ font-weight: 300;
             min-width: 100px;
             z-index: 1;
             margin-left: 0px;
-            width: 100%;
-            float: right;
+            width: 50%;
+            ;
            
           }}
 
@@ -320,8 +325,14 @@ margin-top: 20px;}
 #github-menu {height: 135px;
     margin-top: 0px;}
 
-    #offset-menu {height: 125px;
+#offset-menu {height: 125px;
       margin-top: 0px;}
+
+
+      @media screen and (max-width: 769px) {
+        #gobrik-menu,   #mattermost-menu , #github-menu, #offset-menu {
+          display: none;
+        }
   
   #icon-menu {
   
@@ -405,9 +416,10 @@ migrated from GoBrik.com CSS
 	margin-bottom: -555px;
 	position: relative;
 	z-index: 9;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   margin-top: 120px;
+
 		}
 
 		
@@ -602,7 +614,7 @@ migrated from GoBrik.com CSS
 0% { 
   left: 0; 
 opacity: 0;
-display: none;}
+}
 
 8% { 
   left: 54%; 
@@ -616,11 +628,13 @@ opacity: 1;}
   left: 46%; 
 opacity: 1;}
 
-100% {left: 100%;
+99% {left: 100%;
 opacity: 0;
-display: none;
 }
 
+100% {left: 0;
+  opacity: 1;
+  }
 
 }
 
@@ -647,7 +661,7 @@ display: none;
   
   100% {left: 100%;
   opacity: 0;
-  display: none;}
+  visibility:hidden;}
   
   }
 
@@ -1036,6 +1050,7 @@ display: none;
 #cloud-banner {width: 100%;
     position: relative;
     z-index: 5;
+    min-height: 100vh;
  }
 
 
@@ -1173,14 +1188,14 @@ display: none;
 #content-section4 {
   width: 100%;
   margin-top: 100px;
-  margin-bottom: 70px;
+  margin-bottom: -100px;
   
 }	
 
   
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
 #content-section4 img {	
-margin-top: -80px;
+margin-top: 0;
 width: 500px;
 }
 }
@@ -1188,7 +1203,7 @@ width: 500px;
 @media screen and (min-width: 0px) and (max-width: 769px) {
 #content-section4 img {	
 width: 300px;
-margin-top: -40px;
+margin-top: 0px;
 }
 }
 
