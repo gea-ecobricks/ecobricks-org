@@ -421,15 +421,7 @@ migrated from GoBrik.com CSS
   margin-top: 120px;
 		}
 
-@media screen and (min-width: 770px) and (max-width: 2000px) { 
-#sliders {
-	margin-top: 120px;
-	}}
 
-@media screen and (max-width: 770px) {
-#sliders {
-	margin-top: 20px;
-	}}
 
 
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
@@ -1058,7 +1050,7 @@ opacity: 0;
 #cloud-banner {width: 100%;
     position: relative;
     z-index: 5;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
  }
 
 
