@@ -419,10 +419,18 @@ migrated from GoBrik.com CSS
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   margin-top: 120px;
-
 		}
 
-		
+@media screen and (min-width: 770px) and (max-width: 2000px) { 
+#sliders {
+	margin-top: 120px;
+	}}
+
+@media screen and (max-width: 770px)
+#sliders {
+	margin-top: 50px;
+	}}
+
 
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
 #slider-image {
@@ -486,7 +494,7 @@ migrated from GoBrik.com CSS
 
 @media screen and (max-width: 769px) {
 #slider-heading { 
-  font-size: 2.3em;
+  font-size: 1.8em;
   text-align: left;
   font-family: 'Arvo', serif;
   color: white;
@@ -551,7 +559,7 @@ migrated from GoBrik.com CSS
 
     @media screen and (max-width: 769px) {
       #slider-date { 
-        font-size: 0.6em;
+        font-size: 0.8em;
             }
           }
 
@@ -587,7 +595,7 @@ migrated from GoBrik.com CSS
 @media screen and (max-width: 769px) {
   #slider1 {
 		width: 89%;
-    background-color: rgb(0, 230, 255, 1);
+    background-color: rgb(0, 230, 255, 0.8);
     padding: 10px 5px 40px 5px;
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
