@@ -8,7 +8,8 @@
 		<link rel="canonical" href="https://www.ecobricks.org"> 
 		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 	
-	
+
+
 	<!--
 	//AMP
 		<script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -17,8 +18,11 @@
   
 
 
-	<!-- This calls GEA typography -->
+	<!-- This calls jquery javascript library -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- This calls GEA typography -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet"> 
 	
@@ -123,6 +127,13 @@ function topFunction() {
 		}
 		</script>
 
+	<script>$(function() {
+		setTimeout(function() { $("#slider1").fadeOut(500); }, 12000)
+		setTimeout(function() { $("#slider2").fadeOut(500); }, 24000)
+		
+		
+		})</script>
+
 	<style>
 	
 
@@ -174,7 +185,7 @@ function topFunction() {
 
 				<div class="topnav" id="myTopnav">
 					<div class="dropdown">
-						<button class="dropbtn"><div id="menu-text">Languages</div>ENG &nbsp;&nbsp;
+						<button class="dropbtn"><div id="menu-text">Languages</div><div id="lang-button">EN</div>
 							<i class="fa fa-caret-down"></i>
 					 	</button>
 							<div class="dropdown-content-language">
@@ -201,7 +212,7 @@ function topFunction() {
 					<a href="#news">About Us</a>
 					<a href="#contact">Building</a>
 					<a href="#home">About Ecobricks</a>
-					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mainMenu()"><img src="icons/svgs/grey-emblem.svg.png" width="30px"></a>
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mainMenu()"><img src="svgs/grey-emblem.svg" width="30px"></a>
 					<!--<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="languageMenu()">ENG</a>-->
 				</div>
 				</div>
@@ -211,7 +222,7 @@ function topFunction() {
 			<div id="slider-image"><img src="images/catalyst-logo.png"></div>
 				<div id="slider-textbox">
 				<div id="slider-heading">Version 2.0 of the Enterprise Catalyst Program Launched</div>
-				<div id="slider-body">The new GEA program for keen green companies and organization.  <a href="catalyst">Learn more</a></div>
+				<div id="slider-body">Plastic impact management for keen green companies, organizations and projects.  <a href="catalyst">Learn more</a></div>
 				<div id="slider-date">July 7th, 2021 | GEA Announcements</div>
 			</div>
 		</div>
@@ -247,7 +258,7 @@ function topFunction() {
 		<div class="sub-text">
 			<p>When we save, segregate and pack plastics into bottles, we can make building blocks that can be reused over and over again. Together we can build green spaces that enrich our community and safely secure plastic out of the biosphere.  Together we can transition from plastic to ever greener harmony with Earth’s cycles.</p>
 		</div>
-		 <button class="main-button">About Ecobricks</button>
+		 <a href="what" button class="main-button">About Ecobricks</a>
 		<h4><a href="what">What is an Ecobrick</a> | <a href="how">How to Make</a> | <a href="why">Why Make</a> | <a href="sequest">Plastic Sequestration</a></h4>
 	</div>	
 	
@@ -261,7 +272,7 @@ function topFunction() {
 		<div class="sub-text">
 		<p>Did you know that the best way to keep plastic out of the oceans is to avoid supporting large scale ocean fishing?  <a href="https://www.onegreenplanet.org/news/ocean-plastic-made-discarded-fishing-nets/" target="_blank">46% of ocean plastic</a> is estimated to be discarded fishing nets.</p>
 		</div>
-		<button class="main-button">Plastic Sequestration</button></div>
+		<a href="sequest" button class="main-button">Plastic Sequestration</a>
 		<h4><a href="/ocean">Ocean Ecobricks</a> | <a href="/plastic">Plastic's Primordial Story</a> | <a href="/transition">Plastic Transition</a></h4>
 	</div>
 </div>	
@@ -274,7 +285,7 @@ function topFunction() {
 		<div class="lead-paragraph">Using Ecobricked Plastic we can Build our Greenest Visions.</div>
 		<div class="sub-text"><p>Ecobricks are reusable building blocks intended for building green spaces.  Use them make modules, home furniture, food-forest gardens, play parks, and more.  Ecobricking applications are fundamentally circular, zero-carbon and regenerative.</p>
 		</div> 
-		<a href="#" class="main-button">Builing Applications</a>
+		<a href="build" class="main-button">Builing Applications</a>
 		
 		<h4><a href="/modules">Milstein Modules</a> | <a href="/dms">Dieleman Modules</a> | <a href="/openspaces">Open Spaces</a> | <a href="earth">Earth Building</a></h4>
 	</div>
@@ -283,18 +294,18 @@ function topFunction() {
 
 <div id="content-section4">
 	<div id="main-content">
-		<div id="second-graphic"><img src="svgs/aes.svg"></div>
+		<div id="second-graphic"><img src="svgs/green-balance.svg"></div>
+		<img src="svgs/aes-brk.svg" style="width: 300px;">
 		<div class="lead-paragraph">Introducing AES Plastic Offsetting</div>
-		<div class="sub-text"><p>Ecobricking follows the Earth’s ancient example of cycling, securing and storing carbon.  When an ecobrick has been authenticated to have sequestered plastic it means a contribution to the greening of the biosphere has been made.</p>
-		<p>Ecobricking is a way to take personal responsibility for your plastic and begin your plastic transition journey.    Through ecobricking we can apply regenerative principles to our plastic and, following the Earth’s example, put it to good and safe use.</p>
-		<p><img src="svgs/3brikcoins.svg" style="width: 175px;"></p>
-		</div>
-		 <button class="main-button">Learn more</button>
+		<div class="sub-text"><p>Let's face it.  We live in the plastic age-- no matter how much we minimize, we are all consumin plastic.  But just imagine... if for every 1kg of plastic your consumed you supported the sequestration of 2kg.  That's what we call grey to green plastic transition. </p></div>
+		<a href="what" class="main-button">Plastic Offsetting</a>
 		<h4><a href="/brikcoins">Brikcoin Manual Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About</a></h4>
+		<div class="sub-text">AES Plastic Offsetting operates through the Brikcoin manual blockchain. Our revolutionary proof of value blockchain is based on the authentication of plastic secured out of the biosphere.</div>
+		<div id="second-graphic"><img src="svgs/3brikcoins.svg" style="width: 300px;"></p></div>
 	</div>
 </div>
-	
-  
+
+
 <div id="footer-full">
 	<div class="ocean-vision"><img src="svgs/ocean-footer2.svg" width="100%"; position="absolute"; bottom="0"; ></div>
 	
@@ -304,7 +315,15 @@ function topFunction() {
 			<div class="footer-subtext">We envision a Transition in our Homes, Communities and Companies from Plastic to ever Greener Harmony with Earth's Cycles.</div>
 		<div id="footer2">
 			<div class="footer-header">CC 2021</div>
-			<div class="footer-subtext">All of the educational content on our site (photos, videos and text) are made available for sharing by the Ecobrick Alliance under a Creative Commons Attribution-ShareAlike 4.0 International License. This means you are free to use and share these resources under the same license. Please attribute all content usage back to "Ecobricks.org"Global Ecobrick Alliance, Ecobricks.org and GoBrik logos and emblems are copyright 2020 by the Global Ecobrick Alliance Earth Enterprise. <a href="brk-aes-terms" style="color: #A9CDD8">terms of aquisition</a>.</div>
+			<div class="footer-subtext">All of the educational content on our site (photos, videos and text) are made available for sharing by the Ecobrick Alliance under a Creative Commons Attribution-ShareAlike 4.0 International License. This means you are free to use and share these resources under the same license. Please attribute all content usage back to "Ecobricks.org"Global Ecobrick Alliance, Ecobricks.org and GoBrik logos and emblems are copyright 2020 by the Global Ecobrick Alliance Earth Enterprise.</div>
+		</div>
+		<div id="footer3">
+			<div class="footer-header">Technology</div>
+			<div class="footer-subtext">We're excited to use open source technology from resonant not-for-profit enterprises.</div>
+		</div>
+		<div id="footer4">
+			<div class="footer-header">Follow, Connect, Join.</div>
+			<div class="footer-subtext">Follow us on social media.  But even better, avoid the corporate platforms and join us on our own community server.</div>
 		</div>
 	</div>
 </div>
