@@ -111,6 +111,7 @@ function topFunction() {
 			x.className = "topnav";
 		  }
 		}
+	</script>
 		<script>
 		function languageMenu() {
 		  var x = document.getElementById("myTopnav");
@@ -158,33 +159,22 @@ function topFunction() {
 }
 
 
-#popper header {
-background-image: none !important;
-background-color: green !important;
-}
-
-.arc-iframe-app
-{
-background-image: none !important;
-background-color: green !important;
-}
-
   </style>	
 
 </head>
   
 
 <body id="full-page">
+	<div id="first-load">
 		<div id="header">
-		<a href="index.html"><img src="svgs/prototype-logo2.svg" alt="Global Ecobrick Alliance Logo"></a>
-			
+			<a href="index.html"><img src="svgs/prototype-logo2.svg" alt="Global Ecobrick Alliance Logo"></a>
 		</div>
 			<div id="desktop-menu">
 			
 
 				<div class="topnav" id="myTopnav">
 					<div class="dropdown">
-						<button class="dropbtn"><div id="menu-text">Languages</div>ENG
+						<button class="dropbtn"><div id="menu-text">Languages</div>ENG &nbsp;&nbsp;
 							<i class="fa fa-caret-down"></i>
 					 	</button>
 							<div class="dropdown-content-language">
@@ -192,17 +182,18 @@ background-color: green !important;
 							  <a href="#">🇪🇸 ESP</a>
 							  <a href="#">🇩🇪 DE</a>
 						  </div>
-				   </div> 
+				    </div> 
 
 					<div class="dropdown">
-					  	<button class="dropbtn"><div id="menu-circle"><img src="icons/grey-circle-250px.png" width="30px"></div><div id="menu-text">GEA Servers</div>
+					  	<button class="dropbtn"><div id="menu-circle"><img src="svgs/grey-emblem.svg" width="30px"></div><div id="menu-text">GEA Servers</div>
 							<i class="fa fa-caret-down"></i>
 					 	</button>
-					  		<div class="dropdown-content">
-								<div id="gobrik-menu"><a href="#">GoBrik <h6>Ecobricking Webapp<br>Manage your ecobricks<br>Connect to the Birkcoin blockchain</h6></a></div>
-								<div id="mattermost-menu"><a href="#">Circles<h6>Ecobrick Community Server<br>Join for support.</h6></a></div>
-								<div id="github-menu"><a href="#">Github<h6>Ecobrick Community Server<br>Join for support.</h6></a></div>
-								<div id="Offsetting-menu"><a href="#">Offset<h6>Ecobrick Community Server<br>Join for support.</h6></a></div>
+					  		<div class="dropdown-content-app">
+								<a href="#"><div id="gobrik-menu"><div id="icon-menu"><img src="icons/gobrik.png"></div><div id="apptext-menu"><div class="apptext-header">GoBrik </div><div class="apptext-sub">Ecobricking Webapp<br>Manage your ecobricks<br>Connect to the Birkcoin blockchain</div></div></div></a>
+								<a href="#"><div id="mattermost-menu"><div id="icon-menu"><img src="icons/mattermost.png"></div><div id="apptext-menu"><div class="apptext-header">Circles </div><div class="apptext-sub">Join our free mattermost ecobricker community<br>Share your ecobricking<br>Learn from others</div></div></div></a>
+								<a href="#"><div id="github-menu"><div id="icon-menu"><img src="icons/github.png"></div><div id="apptext-menu"><div class="apptext-header">GEA Github </div><div class="apptext-sub">Join our open source development<br>of content, concepts and software<br>for the plastic transition movement</div></div></div></a>
+								<a href="#"><div id="offset-menu"><div id="icon-menu"><img src="icons/offset.png"></div><div id="apptext-menu"><div class="apptext-header">AES Plastic Offsetting </div><div class="apptext-sub">Offset your plastic footprint<br>on our GoBrik AES Platform</div></div></div></a>
+								
 							</div>
 					</div> 
 					
@@ -210,13 +201,11 @@ background-color: green !important;
 					<a href="#news">About Us</a>
 					<a href="#contact">Building</a>
 					<a href="#home">About Ecobricks</a>
-					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mainMenu()"><img src="icons/grey-circle-250px.png" width="30px"></a>
-					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="languageMenu()">ENG</a>
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mainMenu()"><img src="icons/svgs/grey-emblem.svg.png" width="30px"></a>
+					<!--<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="languageMenu()">ENG</a>-->
 				</div>
 				</div>
-			
-			
-		</div>
+			</div>
 	<div id="sliders">
 		<div id="slider1">
 			<div id="slider-image"><img src="images/catalyst-logo.png"></div>
@@ -246,75 +235,83 @@ background-color: green !important;
 		</div>
 	</div>
 
-  <div id="extra-clouds"></div>
+  	<div id="extra-clouds"></div>
 	<div id="cloud-banner"><img src="svgs/top-vision7.svg" width="100%"></div>
 	
 
-				
-			
-<div id="content-section1">
-	 	 <div id="main-content">
-<div id="top-graphic"><img src="svgs/dolphin-top.svg"></div>
-			 <div class="big-header">Welcome to Plastic Transition.</div>
-<div class="lead-paragraph">Together we can put our plastic on a safe journey out of the biosphere and out of industry and build our greenest visions.
-</div>
-<div class="sub-text">
-	<p>When we save, segregate and pack plastics into bottles, we can make building blocks that can be reused over and over again. Together we can build green spaces that enrich our community and safely secure plastic out of the biosphere.  Together we can transition from plastic to ever greener harmony with Earth’s cycles.</p>
-		  </div>
-		 
-	<button class="main-button">About Ecobricks</button></div>
-	<h4><a href="what">What is an Ecobrick</a> | <a href="how">How to Make</a> | <a href="why">Why Make</a> | <a href="sequest">Plastic Sequestration</a></h4>
-	</div>
+	<div id="content-sect1">
+	 	<div id="main-content">
+		<div id="dolphin-graphic"><img src="svgs/dolphin-top.svg"></div>
+		<div class="big-header">Welcome to Plastic Transition.</div>
+		<div class="lead-paragraph">Together we can put our plastic on a safe journey out of the biosphere and out of industry and build our greenest visions.</div>
+		<div class="sub-text">
+			<p>When we save, segregate and pack plastics into bottles, we can make building blocks that can be reused over and over again. Together we can build green spaces that enrich our community and safely secure plastic out of the biosphere.  Together we can transition from plastic to ever greener harmony with Earth’s cycles.</p>
+		</div>
+		 <button class="main-button">About Ecobricks</button>
+		<h4><a href="what">What is an Ecobrick</a> | <a href="how">How to Make</a> | <a href="why">Why Make</a> | <a href="sequest">Plastic Sequestration</a></h4>
+	</div>	
 	
 </div>
 	  
 	  
-<div id="content-section2">
+<div id="content-sect2">
 	<div id="main-content">
-<div id="second-graphic"><img src="svgs/earth-service2.svg"></div><div class="lead-paragraph"> Join us towards plastic transition, sequestration & ocean protection.</div>
-<div class="sub-text">
-	<p>Did you know that the best way to keep plastic out of the oceans is to avoid supporting large scale ocean fishing?  <a href="https://www.onegreenplanet.org/news/ocean-plastic-made-discarded-fishing-nets/" target="_blank">46% of ocean plastic</a> is estimated to be discarded fishing nets.</p>
-	 <button class="main-button">Learn More</button></div></div>
-	<h4><a href="/ocean">Ocean Ecobricks</a> | <a href="/plastic">Plastic's Primordial Story</a> | <a href="/transition">Plastic Transition</a></h4>
-</div>
-	  
-</div>	
+		<div id="second-graphic"><img src="svgs/earth-service3.svg"></div>
+		<div class="lead-paragraph"> Join us towards plastic transition, sequestration & ocean protection.</div>
+		<div class="sub-text">
+		<p>Did you know that the best way to keep plastic out of the oceans is to avoid supporting large scale ocean fishing?  <a href="https://www.onegreenplanet.org/news/ocean-plastic-made-discarded-fishing-nets/" target="_blank">46% of ocean plastic</a> is estimated to be discarded fishing nets.</p>
+		</div>
+		<button class="main-button">Plastic Sequestration</button></div>
+		<h4><a href="/ocean">Ocean Ecobricks</a> | <a href="/plastic">Plastic's Primordial Story</a> | <a href="/transition">Plastic Transition</a></h4>
 	</div>
-	  </div>
+</div>	
 	  
 
 <div id="content-section3">
 	<div id="main-content">
-<div id="second-graphic"><img src="svgs/build-circular-opt.svg"></div>
-<div class="lead-paragraph">Using Ecobricks we can build our Greenest visions.</div>
-<div class="sub-text"><p>Ecobricks can be used to build modules, furniture, gardens, food forest play parks, and more.  Ecobricking applications are fundamentally circular, zero-carbon and regenerative.</p>
-	 <button class="main-button">Learn more</button></div></div>
-	
-<h4><a href="/modules">Milstein Modules</a> | <a href="/dms">Dieleman Modules</a> | <a href="/openspaces">Open Spaces</a> | <a href="earth">Earth Building</a></h4>
+		<div id="second-graphic"><img src="svgs/build-circular-opt.svg"></div>
+		<div class="big-header">The Problem is the Solution.</div>
+		<div class="lead-paragraph">Using Ecobricked Plastic we can Build our Greenest Visions.</div>
+		<div class="sub-text"><p>Ecobricks are reusable building blocks intended for building green spaces.  Use them make modules, home furniture, food-forest gardens, play parks, and more.  Ecobricking applications are fundamentally circular, zero-carbon and regenerative.</p>
+		</div> 
+		<a href="#" class="main-button">Builing Applications</a>
+		
+		<h4><a href="/modules">Milstein Modules</a> | <a href="/dms">Dieleman Modules</a> | <a href="/openspaces">Open Spaces</a> | <a href="earth">Earth Building</a></h4>
+	</div>
 </div>
-	</div>	</div>
+
 
 <div id="content-section4">
 	<div id="main-content">
-<img src="svgs/aes.svg">
-<div class="lead-paragraph">Introducing AES Plastic Offsetting</div>
-<div class="sub-text"><p>Ecobricking follows the Earth’s ancient example of cycling, securing and storing carbon.  When an ecobrick has been authenticated to have sequestered plastic it means a contribution to the greening of the biosphere has been made.</p>
-	<p>Ecobricking is a way to take personal responsibility for your plastic and begin your plastic transition journey.    Through ecobricking we can apply regenerative principles to our plastic and, following the Earth’s example, put it to good and safe use.</p>
-<p><img src="svgs/3brikcoins.svg" style="width: 175px;"></p>
-	 <button class="main-button">Learn more</button></div></div>
-	
-<h4><a href="/brikcoins">Brikcoin Manual Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About</a></h4>
+		<div id="second-graphic"><img src="svgs/aes.svg"></div>
+		<div class="lead-paragraph">Introducing AES Plastic Offsetting</div>
+		<div class="sub-text"><p>Ecobricking follows the Earth’s ancient example of cycling, securing and storing carbon.  When an ecobrick has been authenticated to have sequestered plastic it means a contribution to the greening of the biosphere has been made.</p>
+		<p>Ecobricking is a way to take personal responsibility for your plastic and begin your plastic transition journey.    Through ecobricking we can apply regenerative principles to our plastic and, following the Earth’s example, put it to good and safe use.</p>
+		<p><img src="svgs/3brikcoins.svg" style="width: 175px;"></p>
+		</div>
+		 <button class="main-button">Learn more</button>
+		<h4><a href="/brikcoins">Brikcoin Manual Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About</a></h4>
+	</div>
 </div>
-	</div>	</div>
-  
-  
-  
-  
+	
   
 <div id="footer-full">
-<div id="background-footer-mobile"></div>
+	<div class="ocean-vision"><img src="svgs/ocean-footer2.svg" width="100%"; position="absolute"; bottom="0"; ></div>
+	
+	<div id="footer-content">
+		<div id="footer1">
+			<div class="footer-header">Our Vision</div>
+			<div class="footer-subtext">We envision a Transition in our Homes, Communities and Companies from Plastic to ever Greener Harmony with Earth's Cycles.</div>
+		<div id="footer2">
+			<div class="footer-header">CC 2021</div>
+			<div class="footer-subtext">All of the educational content on our site (photos, videos and text) are made available for sharing by the Ecobrick Alliance under a Creative Commons Attribution-ShareAlike 4.0 International License. This means you are free to use and share these resources under the same license. Please attribute all content usage back to "Ecobricks.org"Global Ecobrick Alliance, Ecobricks.org and GoBrik logos and emblems are copyright 2020 by the Global Ecobrick Alliance Earth Enterprise. <a href="brk-aes-terms" style="color: #A9CDD8">terms of aquisition</a>.</div>
+		</div>
+	</div>
+</div>
 
-<div id="background-footer-desktop"><img src="/svgs/full-footer-nov.svg" width="100%"></div>
+
+
+<!--
   <div id="footer-text">
 <div class="footer-quote">
       We envision a Transition in our Homes, Communities and Companies from Plastic to ever Greener Harmony with Earth's Cycles.<br></div>
@@ -328,6 +325,8 @@ background-color: green !important;
  </div>
   <div class="footer-foot"><a href="/staging.html"><img src="/images/2021-GEA-Logo-with-perspective-white.png" width="35px" alt="Global Ecobrick Alliance Logo"></a></div>
  </div>
+
+-->
 </div>
 </div>
 </div>

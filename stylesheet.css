@@ -137,46 +137,19 @@ migrated from GoBrik.com CSS
 @media screen and (max-width: 769px) {
 #header img {
   width: 220px;
+  z-index: 5;
 }
 }
-	
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-  color: #666666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-      /*text-decoration: underline;*/
-      color: black;}
-      
-  #desktop-menu { 
-      
-      position: relative;
-      z-index: 11;
-      margin-top: -70px;
-  padding-right: 50px;
-          }
-        
-/*
-@media screen and (max-width: 1000px) {
-  #desktop-menu {
-                display: none;
-          }}
-  */
+
+#desktop-menu {
+  margin-top: -72px;
+  position: relative;
+  z-index: 11;
+width: 100%;
+background-color: white;
+height: fit-content;  }
+
+
 
 .topnav a {
   font-size: 1.3em;
@@ -189,14 +162,8 @@ font-weight: 300;
             text-align: center;
             text-decoration: none;
             float: right;
-           
-
+        
           }
-  /*
-  .active {
-            background-color: #04AA6D;
-            color: red;
-          }*/
           
    .topnav .icon {
             display: none;
@@ -213,40 +180,69 @@ font-weight: 300;
             overflow: hidden;
           }
         
-          /* The circle menu and other dropdowns*/
-  .dropdown .dropbtn {
-            font-size: 1.2em;    
+          /* The text of dropdowns as it appears in the white menu bar*/
+  .dropdown .dropbtn {   
             border: none;
             outline: none;
-            color: black;
+            color: rgb(53, 53, 53);
             padding: 14px 16px;
             background-color: white;
             font-family: inherit; 
             margin-top: 0px;
-            margin-bottom: 7px;
+            margin-bottom: 9px;
             font-size: 1.3em;
             font-family: 'Mulish', sans-serif;
           /*text-shadow: 0px 0px 10px #ccc ;*/
           font-weight: 300;
           }
-        
+
+          /*normal white drop down menu - not yet setup below though*/
+ @media screen and (min-width: 769px) {
   .dropdown-content {
             display: none;
             position: absolute;
-            background-color: #666666;
-            min-width: 400px;
+            background-color: #e2e2e2;
+            width: 400px;
             box-shadow: 0px 3px 5px rgba(85, 84, 84, 0.6);
             z-index: 1;
             border-radius: 0px 0px 15px 15px;
-            margin-left: -200px;
+            margin-left: -290px;
             margin-top: 0px;
-            margin-bottom: 7px;
+            margin-bottom: 6px;
           }
+        }
 
+
+ /*main grey app drop down menu*/
+ @media screen and (min-width: 769px) {
+  .dropdown-content-app {
+            display: none;
+            position: absolute;
+            background-color: #666666;
+            width: 400px;
+            box-shadow: 0px 3px 5px rgba(85, 84, 84, 0.6);
+            border-radius: 0px 0px 15px 15px;
+            margin-left: -290px;
+            margin-top: 0px;
+            margin-bottom: 6px;
+          }
+        }
+
+
+ @media screen and (max-width: 769px) {
+  .dropdown-content-app {
+     display: none;
+  position: absolute;
+  background-color: #666666;
+  min-width: 160px;
+  z-index: 1;
+}
+}
+ 
  
 
 
- .dropdown-content a {
+ .dropdown-content-app a {
             float: none;
             color: rgb(202, 201, 201);
             padding: 12px 16px;
@@ -256,15 +252,15 @@ font-weight: 300;
           }
           
           
-   .dropdown-content a:hover {
+   .dropdown-content-app a:hover {
             background-color: rgb(93, 93, 93);
             color: rgb(251, 251, 251);
           }
           
- .dropdown:hover .dropdown-content {
+ .dropdown:hover .dropdown-content-app {
             display: block;
           }
-
+          @media screen and (min-width: 769px) {
  .dropdown-content-language {
             display: none;
             position: absolute;
@@ -273,9 +269,22 @@ font-weight: 300;
             box-shadow: 0px 3px 3px rgba(85, 84, 84, 0.6);
             z-index: 1;
             border-radius: 0px 0px 5px 5px;
-            margin-left: 0px;
+            margin-left: -30px;
             margin-top: 0px;
-          }
+          }}
+
+          @media screen and (max-width: 769px) {          
+          .dropdown-content-language {
+            display: none;
+            position: absolute;
+            background-color:white;
+            min-width: 100px;
+            z-index: 1;
+            margin-left: 0px;
+            width: 100%;
+            float: right;
+           
+          }}
 
 .dropdown-content-language a {
             float: none;
@@ -295,10 +304,61 @@ font-weight: 300;
           .dropdown:hover .dropdown-content-language {
             display: block;
           }
+#gobrik-menu, #circles-menu, #mattermost-menu, #github-menu {
+  /*background: url(icons/gobrik.png) center left no-repeat;
+  background-size: contain;*/
 
-          #menu-text {display: none;}
+  width: 100%;
+}
 
-          
+#gobrik-menu {height: 122px;
+margin-top: 20px;}
+
+#mattermost-menu {height: 130px;
+  margin-top: 0px;}
+
+#github-menu {height: 135px;
+    margin-top: 0px;}
+
+    #offset-menu {height: 125px;
+      margin-top: 0px;}
+  
+  #icon-menu {
+  
+    width: 30%;
+    float:left;
+    padding: 0px 18px 0px 10px;
+    height: 70px;
+  }
+
+  #icon-menu img {height: 60px;
+  }
+ 
+  #gobrik-menu img {padding-left: 20px;}
+
+  #apptext-menu {width: 70%;
+    float: right;
+    padding: 5px 15px 5px 15px;
+    height: 70px;
+    margin-top: -70px;
+    margin-left: 20px;
+  }
+  
+  .apptext-header {font-size: 1.3em;
+    font-family: Arvo;}
+
+  .apptext-sub {font-size: 0.8em;
+  font-family: Mulish;
+font-weight: 300;}
+
+
+   #menu-text {display: none;}
+   #menu-circle {opacity: 80%;}
+   #menu-circle:hover {opacity: 120%;}
+
+         
+
+         
           @media screen and (max-width: 600px) {
             .topnav a:not(:first-child), .dropdown .dropbtn {
               display: none;
@@ -324,7 +384,7 @@ font-weight: 300;
               text-align: left;
             }
             .topnav.responsive .dropdown {float: none;}
-            .topnav.responsive .dropdown-content .dropdown-content-language {position: relative;}
+            .topnav.responsive .dropdown-content-app .dropdown-content-language {position: relative;}
             .topnav.responsive .dropdown .dropbtn {
               display: block;
               width: 100%;
@@ -342,12 +402,12 @@ migrated from GoBrik.com CSS
 #sliders {
 	width: 100%;
 	height: 500px;
-	margin-bottom: -500px;
+	margin-bottom: -555px;
 	position: relative;
 	z-index: 9;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  margin-top: 60px;
+  margin-top: 120px;
 		}
 
 		
@@ -492,9 +552,9 @@ migrated from GoBrik.com CSS
     height: fit-content;
 		margin: auto;
 		background-color: rgb(0, 230, 255, 0.6);
-		padding: 50px 20px 80px 2px;
+		padding: 10px 20px 80px 2px;
 		margin-top: -50px;
-		border-radius: 20px;
+		border-radius: 0px 0px 20px 20px;
 		box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
 	
 }
@@ -505,9 +565,9 @@ migrated from GoBrik.com CSS
       width: 85%;
       margin: auto;
       background-color: rgb(0, 230, 255, 0.7);
-      padding: 30px 20px 40px 10px;
+      padding: 10px 20px 40px 10px;
       margin-top: -50px;
-      border-radius: 15px;
+      border-radius: 0px 0px 15px 15px;
       box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
   }
   }
@@ -516,10 +576,10 @@ migrated from GoBrik.com CSS
   #slider1 {
 		width: 89%;
     background-color: rgb(0, 230, 255, 1);
-    padding: 30px 5px 40px 5px;
-    border-radius: 12px;
-    margin-top: -50px;
+    padding: 10px 5px 40px 5px;
+    border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+    margin-top: -55px;
     } 
     }	
 
@@ -601,9 +661,9 @@ display: none;
         width: 80%;
         height: fit-content;
         margin: auto;
-        padding: 50px 20px 80px 2px;
+        padding: 10px 20px 80px 2px;
         margin-top: -50px;
-        border-radius: 20px;
+        border-radius: 0px 0px 20px 20px;
         box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
       
     }
@@ -699,9 +759,9 @@ display: none;
         width: 80%;
         height: fit-content;
         margin: auto;
-        padding: 50px 20px 80px 2px;
+        padding: 10px 20px 80px 2px;
         margin-top: -50px;
-        border-radius: 20px;
+        border-radius: 0px 0px 20px 20px;
         box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
       
     }
@@ -807,8 +867,7 @@ display: none;
         }
 @media screen and (max-width: 769px) {
   #main-content { 
-    width: 90%;
-    max-width: 90%;
+    width: 86%; 
   }}
   @media screen and (min-width: 770px) and (max-width: 1024px) { 
     #main-content { 
@@ -832,29 +891,29 @@ display: none;
 
   @media screen and (max-width: 769px) {
       .big-header {
-        font-size: 3.5em; 
+        font-size: 3.1em; 
       }}
   @media screen and (min-width: 770px) and (max-width: 1024px) { 
       .big-header {
-         font-size: 6vw ;
+         font-size: 4em ;
       }}
   @media screen and (min-width: 1024px)  { 
     .big-header {
-      font-size: 3.7vw ;
+      font-size: 3.5em ;
    }}
 	
 .lead-paragraph { 
-font-family: 'Arvo', serif;
-text-align: center !important;
-line-height: 1.4 !important;
-margin: 20px 0px 13px 0px;
-text-shadow: 0px 0px 6px #fff;
-color: #302f2f;
+  font-family: 'Arvo', serif;
+  text-align: center !important;
+  line-height: 1.4 !important;
+  margin: 20px 0px 13px 0px;
+  text-shadow: 0px 0px 6px #fff;
+  color: #302f2f;
 }
 
 @media screen and (max-width: 769px) {
   .lead-paragraph {
-     font-size: 1.8em; 
+     font-size: 1.6em; 
   }}
   @media screen and (min-width: 770px) and (max-width: 1024px) { 
     .lead-paragraph {
@@ -875,7 +934,7 @@ color: #302f2f;
 
     @media screen and (max-width: 769px) {
       .sub-text {
-         font-size: 1.3em; 
+         font-size: 1.2em; 
       }}
       @media screen and (min-width: 770px) and (max-width: 1024px) { 
       .sub-text {
@@ -883,7 +942,7 @@ color: #302f2f;
       }}
       @media screen and (min-width: 1024px)  { 
       .sub-text {
-         font-size: 1.5vw;
+         font-size: 1.4vw;
       }}
     
     
@@ -907,8 +966,8 @@ color: #302f2f;
 		
         .main-button {
             font-family: 'Arvo', serif !important;
-            display: block;
-            margin: auto;
+         
+            
             background: #00a1f2;
             background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
             background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
@@ -925,6 +984,9 @@ color: #302f2f;
             margin-top: 10px;
             margin-bottom: 10px;
               font-weight: 500;
+              cursor: pointer;
+              text-decoration: none;
+              display: inline-block;
           }
           
           
@@ -948,7 +1010,7 @@ color: #302f2f;
 
 /* -------------------------------------------------------------------------- */
 
-/*	5. First Content Section (Dolphin & Ecobrick)
+/*	5. Cloud and Road Slider Section
 
 /* -------------------------------------------------------------------------- */
 @media screen and (min-width: 1024px) and (max-width: 2000px) { 
@@ -977,34 +1039,44 @@ color: #302f2f;
  }
 
 
- 
-/*DOLPHIN SECTION*/
+/* -------------------------------------------------------------------------- */
 
-	
-/*Dolphin image*/
-#top-graphic img { 
-  position: relative;
-	z-index: 8;}
+/*	6. Contect Sect1 - Dolphin Section
+
+/* -------------------------------------------------------------------------- */
+ 
+
+
+#content-sect1 {
+  width: 100%;
+	margin-bottom: 150px;}
 		
- @media screen and (min-width: 770px) and (max-width: 2000px) { 
-#top-graphic img {	
+#dolphin-graphic img { 
+  position: relative;
+	z-index: 10;}
+		
+@media screen and (min-width: 0px) and (max-width: 769px) {
+    #dolphin-graphic img {	
+      width: 80%;
+      margin-top: -80px;
+      }
+      }
+
+  @media screen and (min-width: 770px) and (max-width: 1023px) { 
+        #dolphin-graphic img {	
+          width: 600px;
+          margin-top: -170px;
+          }
+          }
+
+  @media screen and (min-width: 770px) and (max-width: 2000px) { 
+#dolphin-graphic img {	
   width: 600px;
   margin-top: -200px;
   }
 	}
 		
- @media screen and (min-width: 0px) and (max-width: 769px) {
-#top-graphic img {	
-  width: 80%;
-  margin-top: -50px;
-  }
-	}
-
-#content-section1	
-{
-  width: 100%;
-	margin-bottom: 150px;}
-		
+ 
 
 
 /* -------------------------------------------------------------------------- */
@@ -1013,28 +1085,28 @@ color: #302f2f;
 /* -------------------------------------------------------------------------- */
 
 		
-#content-section2 {width: 100%;
-
-	background: #f7fdff url(svgs/blue-ode.svg) center top;
-    		box-sizing: border-box;
-		background-size: cover;
+#content-sect2 {
+  width: 100%;
+	background: url(svgs/blue-ode.svg) center top;
+  box-sizing: border-box;
+	background-size: cover;
 	margin-top: 100px;
 	padding-bottom: 30px;
 	margin-bottom: 80px;
 		}
 		
-#content-section2 img {margin-top: -80px;
-	margin-bottom: 0px;}
+#content-sect2 img {margin-top: -110px;
+	margin-bottom: -20px;}
 		
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
-#content-section2 img {	
-  width: 600px;
+#content-sect2 img {	
+  width: 620px;
   }
 	}
 		
  @media screen and (min-width: 0px) and (max-width: 769px) {
-#content-section2 img {	
-  width: 300px;
+#content-sect2 img {	
+  width: 450px;
   }
 	}
 		
@@ -1050,7 +1122,7 @@ color: #302f2f;
 		
 		#content-section3 {
     width: 100%;
-		margin-top: 160px;
+		margin-top: 100px;
 		margin-bottom: 70px;
     background: url(svgs/visionscape.svg);
     box-sizing: border-box;
@@ -1068,9 +1140,10 @@ color: #302f2f;
   #content-section3 {
 
     background-position: right bottom;
-    background-size: cover;
+    /*background-size: cover;*/
     background-repeat: no-repeat;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    background-size: 800px;
   }}
 		
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
@@ -1082,12 +1155,90 @@ color: #302f2f;
 		
  @media screen and (min-width: 0px) and (max-width: 769px) {
 #content-section3 img {	
-  width: 300px;
+  width: 400px;
 	margin-top: -40px;
 }
 }
 
 
+
+/* -------------------------------------------------------------------------- */
+
+/*	6. Fourth Content Section
+
+/* -------------------------------------------------------------------------- */
+
+		
+		
+#content-section4 {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  
+}	
+
+  
+@media screen and (min-width: 770px) and (max-width: 2000px) { 
+#content-section4 img {	
+margin-top: -80px;
+width: 500px;
+}
+}
+  
+@media screen and (min-width: 0px) and (max-width: 769px) {
+#content-section4 img {	
+width: 300px;
+margin-top: -40px;
+}
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	7. Footer
+
+/* -------------------------------------------------------------------------- */
+
+#footer-full {
+  width: 100%;
+}
+
+.ocean-vision {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+
+}
+
+.ocean-vison img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer-content {
+  margin-top: -25px;
+  padding-top: 60px;
+  background-color: #252b4d;
+  height: 300px;
+}
+
+.footer-header {
+  font-family: Arvo, serif;
+  font-size: 1.0em;
+  color: white;
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+.footer-subtext {
+  font-family: Mulish, sans-serif;
+  font-size: 1.0em;
+  color: white;
+  line-height: 1.3;
+  font-weight: 100;
+}
 
 
 /* -------------------------------------------------------------------------- */
