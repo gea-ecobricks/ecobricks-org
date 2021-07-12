@@ -992,7 +992,7 @@ opacity: 0;
             -moz-border-radius: 8;
             border-radius: 8px !important;
             color: #fff;
-            font-size: 1.5em;
+            font-size: 1.4em;
             padding: 8px 18px 8px 18px !important;
             text-decoration: none !important;
             margin-top: 10px;
@@ -1013,6 +1013,8 @@ opacity: 0;
             background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
             text-decoration: none;
           }
+
+
               
                   
      
@@ -1114,6 +1116,7 @@ opacity: 0;
 	margin-top: 100px;
 	padding-bottom: 30px;
 	margin-bottom: 80px;
+	
 		}
 
 
@@ -1126,6 +1129,7 @@ opacity: 0;
 		margin-top: 100px;
 		padding-bottom: 30px;
 		margin-bottom: 80px;
+		   background-repeat: no-repeat;
  }}
 
  @media screen and (min-width: 0px) and (max-width: 769px) {
@@ -1133,10 +1137,11 @@ opacity: 0;
 		width: 100%;
 		background: url(svgs/blue-ode.svg) center top;
   		box-sizing: border-box;
-		background-size: 1000px;
+		background-size: 800px;
 		margin-top: 100px;
 		padding-bottom: 30px;
 		margin-bottom: 80px;
+	    background-repeat: no-repeat;
  }}
 
 
