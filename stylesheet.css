@@ -905,7 +905,7 @@ opacity: 0;
 
   @media screen and (max-width: 769px) {
       .big-header {
-        font-size: 2.5em; 
+        font-size: 2.3em; 
       }}
   @media screen and (min-width: 770px) and (max-width: 1024px) { 
       .big-header {
@@ -927,7 +927,7 @@ opacity: 0;
 
 @media screen and (max-width: 769px) {
   .lead-paragraph {
-     font-size: 1.4em; 
+     font-size: 1.3em; 
   }}
   @media screen and (min-width: 770px) and (max-width: 1024px) { 
     .lead-paragraph {
@@ -1099,6 +1099,12 @@ opacity: 0;
 /*	6. Second Content Section
 /* -------------------------------------------------------------------------- */
 
+#second-graphic {
+	width:100%;
+	display:block;
+	text-align:center;
+	margin: auto;
+}
 		
 #content-sect2 {
   width: 100%;
