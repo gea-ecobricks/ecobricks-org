@@ -595,7 +595,7 @@ migrated from GoBrik.com CSS
 @media screen and (max-width: 769px) {
   #slider1 {
 		width: 89%;
-    background-color: rgb(0, 230, 255, 0.8);
+    background-color: rgb(0, 230, 255, 0.6);
     padding: 10px 5px 40px 5px;
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
@@ -805,7 +805,7 @@ opacity: 0;
         width: 89%;
         padding: 50px 5px 40px 5px;
         border-radius: 12px;
-        margin-top: -60px;
+        margin-top: -100px;
         box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
         } 
         }	
