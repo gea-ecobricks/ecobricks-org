@@ -428,7 +428,7 @@ migrated from GoBrik.com CSS
 
 @media screen and (max-width: 770px)
 #sliders {
-	margin-top: 50px;
+	margin-top: 20px;
 	}}
 
 
@@ -1050,7 +1050,7 @@ opacity: 0;
 
 @media screen and  (min-width: 10px) and (max-width: 769px) { 
   #extra-clouds {
-    height: 250px;
+    height: 400px;
     background-color: #00ffff;
     width: 100%;
   }}
