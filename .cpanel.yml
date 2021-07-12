@@ -4,5 +4,6 @@ deployment:
     - export DEPLOYPATH=/home/ecobricks/deploy-test/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp stylesheet.css $DEPLOYPATH
-
-    
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R icons $DEPLOYPATH
+    - /bin/cp -R svgs $DEPLOYPATH
