@@ -426,7 +426,7 @@ migrated from GoBrik.com CSS
 	margin-top: 120px;
 	}}
 
-@media screen and (max-width: 770px)
+@media screen and (max-width: 770px) {
 #sliders {
 	margin-top: 20px;
 	}}
