@@ -1096,7 +1096,7 @@ opacity: 0;
 
 /* -------------------------------------------------------------------------- */
 
-/*	6. Second Content Section
+/*	6. Second Content Section2
 /* -------------------------------------------------------------------------- */
 
 #second-graphic {
@@ -1127,7 +1127,7 @@ opacity: 0;
 		
  @media screen and (min-width: 0px) and (max-width: 769px) {
 #content-sect2 img {	
-  width: 450px;
+  width: 88%;
   }
 	}
 		
@@ -1174,9 +1174,9 @@ opacity: 0;
 	}
 	}
 		
- @media screen and (min-width: 0px) and (max-width: 769px) {
+ @media screen and (max-width: 769px) {
 #content-section3 img {	
-  width: 400px;
+  width: 88%;
 	margin-top: -40px;
 }
 }
