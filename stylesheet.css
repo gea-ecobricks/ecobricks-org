@@ -1050,7 +1050,7 @@ opacity: 0;
 
 @media screen and  (min-width: 10px) and (max-width: 769px) { 
   #extra-clouds {
-    height: 400px;
+    height: 350px;
     background-color: #00ffff;
     width: 100%;
   }}
