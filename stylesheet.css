@@ -418,8 +418,6 @@ migrated from GoBrik.com CSS
 	margin-bottom: -555px;
 	position: relative;
 	z-index: 9;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
   margin-top: 120px;
 		}
 
@@ -429,14 +427,18 @@ migrated from GoBrik.com CSS
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
 #slider-image {
   margin-right: 65%;
-  margin-left: 0%;
   height: 400px;
   margin-bottom: 0px;
-  text-align: right;
-  vertical-align: middle;
- width: fit-content;
+  width: 35%;
  padding-top: 40px;
     }}
+
+#slider-image img {
+  width: 100%;
+  top: 0;
+  left: 5%;
+  height: auto;
+  position: relative;}
 
 
 
@@ -445,11 +447,6 @@ migrated from GoBrik.com CSS
       display: none;
 }}
 
- #slider-image img {
-  width: 80%;
-  margin-top: auto;
- 
-  }
 
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
  #slider-textbox {
@@ -560,12 +557,25 @@ migrated from GoBrik.com CSS
 
 /*SLIDER 1*/
 
+#slider1 {
+  background-color: rgba(0, 162, 255, 0.8);
+  height: fit-content;
+  position: absolute;
+  left: 0;
+  opacity:0;
+  transform: translateX(-50%);
+  -webkit-animation: slide 12s forwards;
+  -webkit-animation-delay: 1s;
+
+  animation: slide 12s forwards;
+  animation-delay: 1s;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 2000px) { 
 #slider1 {
 		width: 80%;
     height: fit-content;
 		margin: auto;
-		background-color: rgb(0, 230, 255, 0.6);
 		padding: 10px 20px 80px 2px;
 		margin-top: -50px;
 		border-radius: 0px 0px 20px 20px;
@@ -578,7 +588,6 @@ migrated from GoBrik.com CSS
   #slider1 {
       width: 85%;
       margin: auto;
-      background-color: rgb(0, 230, 255, 0.7);
       padding: 10px 20px 40px 10px;
       margin-top: -50px;
       border-radius: 0px 0px 15px 15px;
@@ -589,7 +598,6 @@ migrated from GoBrik.com CSS
 @media screen and (max-width: 769px) {
   #slider1 {
 		width: 89%;
-    background-color: rgb(0, 230, 255, 0.6);
     padding: 10px 5px 40px 5px;
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
@@ -597,19 +605,7 @@ migrated from GoBrik.com CSS
     } 
     }	
 
-    #slider1 {
 
-      height: fit-content;
-    position: absolute;
-	  left: 0;
-    opacity:0;
-	  transform: translateX(-50%);
-    -webkit-animation: slide 12s forwards;
-    -webkit-animation-delay: 1s;
-
-	  animation: slide 12s forwards;
-	  animation-delay: 1s;
-  }
 
 
 @-webkit-keyframes slide {
@@ -645,8 +641,7 @@ opacity: 0;
 @keyframes slide {
   0% { 
     left: 0; 
-  opacity: 0;
-  display: block;}
+  opacity: 0;}
   
   8% { 
     left: 54%; 
@@ -662,8 +657,7 @@ opacity: 0;
   opacity: 1;}
   
   100% {left: 100%;
-  opacity: 0;
-  visibility:hidden;}
+  opacity: 0;}
   
   }
 
@@ -671,6 +665,19 @@ opacity: 0;
 
   /* SLIDER 2 */
 
+  #slider2 {
+    background-color:rgba(2, 187, 26, 0.8);
+    
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    opacity:0;
+    transform: translateX(-50%);
+    -webkit-animation: slide2 12s forwards;
+    -webkit-animation-delay: 12s;
+
+    animation: slide2 12s forwards;
+    animation-delay: 13s;}
 
   @media screen and (min-width: 1024px) and (max-width: 2000px) { 
     #slider2 {
@@ -706,18 +713,7 @@ opacity: 0;
         } 
         }	
     
-        #slider2 {
-        background-color: rgba(0, 255, 21, 0.6);
-        height: fit-content;
-        position: absolute;
-        left: 0;
-        opacity:0;
-        transform: translateX(-50%);
-        -webkit-animation: slide2 12s forwards;
-        -webkit-animation-delay: 12s;
-    
-        animation: slide2 12s forwards;
-        animation-delay: 13s;}
+
     
     
     @-webkit-keyframes slide2 {
@@ -768,7 +764,19 @@ opacity: 0;
 /* SLIDER 3  */
 
 
-  /* SLIDER 3 */
+#slider3 {
+    
+  background-color: rgba(211, 3, 248, 0.5);
+     height: fit-content;
+  position: absolute;
+  left: 0;
+  opacity:0;
+  transform: translateX(-50%);
+  -webkit-animation: slide3 12s forwards;
+  -webkit-animation-delay: 25s;
+
+  animation: slide3 12s forwards;
+  animation-delay: 25s;}
 
   @media screen and (min-width: 1024px) and (max-width: 2000px) { 
     #slider3 {
@@ -804,19 +812,7 @@ opacity: 0;
         } 
         }	
     
-        #slider3 {
-    
-        background-color: rgba(225, 76, 252, 0.5);
-           height: fit-content;
-        position: absolute;
-        left: 0;
-        opacity:0;
-        transform: translateX(-50%);
-        -webkit-animation: slide3 12s forwards;
-        -webkit-animation-delay: 25s;
-    
-        animation: slide3 12s forwards;
-        animation-delay: 25s;}
+
     
     
     @-webkit-keyframes slide3 {
