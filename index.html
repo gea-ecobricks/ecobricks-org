@@ -126,22 +126,36 @@ function topFunction() {
 		}
 		</script>
 
-	<script>$(function() {
-		setTimeout(function() { $("#slider1").fadeOut(500); }, 12000)
-		setTimeout(function() { $("#slider2").fadeOut(500); }, 24000)
-		
+<!--<script>
+	$(function() {
+		$(document).ready(function(){
+				setTimeout(function() { $("#slider1").fadeOut(500); }, 12000)
+				setTimeout(function() { $("#slider2").fadeOut(500); }, 24000)
 		
 		})</script>
+		-->
+
 
 <script type="text/javascript">
 	$(document).ready(function () {
-		$("#first-load").hide();
+		$(".first-load").hide();
 	});
 </script>
 
 	<style>
 	
+.first-load {
 
+	z-index: 100;	
+	position: fixed;
+ 	left: 0px;
+  	top: 0px;
+  	width: 100%;
+  	height: 100%;
+  	background: url('images/albatross-loader.gif') center no-repeat, #fff;
+	box-sizing: border-box;
+ 	background-size: 250px;
+}
 
 	
 #full-page {
@@ -158,23 +172,12 @@ function topFunction() {
 	}
 
 	
-#first-load {
 
-	z-index: 100;	
-	position: fixed;
- 	 left: 0px;
- 	 top: 0px;
- 	 width: 100%;
- 	 height: 100%;
-  	background: url('/svgs/bottle-loader.svg') center no-repeat, #fff;
-    	box-sizing: border-box;
-	 background-size: 30px;
-}
 
   </style>	
 
 </head>
-<div id="first-load"></div>
+<div class="first-load"></div>
 <body id="full-page">
 	
 		<div id="header">
