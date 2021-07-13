@@ -127,12 +127,17 @@ function topFunction() {
 		</script>
 
 	<script>$(function() {
-		setTimeout(function() { $("#first-load").fadeOut(500); }, 2000)
 		setTimeout(function() { $("#slider1").fadeOut(500); }, 12000)
 		setTimeout(function() { $("#slider2").fadeOut(500); }, 24000)
 		
 		
 		})</script>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#first-load").hide();
+	});
+</script>
 
 	<style>
 	
