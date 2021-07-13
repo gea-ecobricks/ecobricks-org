@@ -105,7 +105,7 @@ function topFunction() {
 //Arc script
 -->
 
-	<script defer src="https://arc.io/widget.min.js#mJFtQsHF"></script>
+	<script src="https://arc.io/widget.min.js#mJFtQsHF" defer></script>
 	
 	<script>
 		function mainMenu() {
@@ -129,6 +129,7 @@ function topFunction() {
 		</script>
 
 	<script>$(function() {
+		setTimeout(function() { $("#first-load").fadeOut(500); }, 2000)
 		setTimeout(function() { $("#slider1").fadeOut(500); }, 12000)
 		setTimeout(function() { $("#slider2").fadeOut(500); }, 24000)
 		
@@ -154,9 +155,9 @@ function topFunction() {
 	}
 
 	
-#first-load-cover {
-		height: 100vh;
-		z-index: -10;	
+#first-load {
+
+	z-index: 100;	
 	position: fixed;
  	 left: 0px;
  	 top: 0px;
@@ -165,12 +166,7 @@ function topFunction() {
   	background: url('/svgs/bottle-loader.svg') center no-repeat, #fff;
     	box-sizing: border-box;
 	 background-size: 30px;
-	
-	  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s 2s, opacity 2s linear;
 }
-
 
   </style>	
 
@@ -254,7 +250,7 @@ function topFunction() {
 
 	<div id="content-sect1">
 	 	<div id="main-content">
-		<div id="dolphin-graphic"><img src="svgs/dolphin-top.svg"></div>
+		<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg"></div>
 		<div class="big-header">Welcome to Plastic Transition.</div>
 		<div class="lead-paragraph">Together we can put our plastic on a safe journey out of the biosphere and out of industry and build our greenest visions.</div>
 		<div class="sub-text">
