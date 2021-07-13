@@ -133,19 +133,37 @@ function topFunction() {
 				setTimeout(function() { $("#slider2").fadeOut(500); }, 24000)
 		
 		})</script>
-		-->
 
-
-<script type="text/javascript">
+		<script type="text/javascript">
 	$(document).ready(function () {
 		$(".first-load").hide();
 	});
 </script>
 
+<script defer src="https://arc.io/widget.min.js#mJFtQsHF"></script>
+
+<script type="text/javascript">
+		setTimeout(function(){	
+		window.onload = function(){
+		document.getElementById("first-load").style.display='none';}
+		}, 2000);
+		  
+</script>
+
+		-->
+<script type="text/javascript">
+
+		window.onload = function(){
+		document.getElementById("first-load").style.display='none';}
+
+		  
+</script>
+
+
+
 	<style>
 	
-.first-load {
-
+#first-load {
 	z-index: 100;	
 	position: fixed;
  	left: 0px;
@@ -177,7 +195,7 @@ function topFunction() {
   </style>	
 
 </head>
-<div class="first-load"></div>
+<div id="first-load"></div>
 <body id="full-page">
 	
 		<div id="header">
@@ -353,8 +371,6 @@ function topFunction() {
 </div>
 </div>
   </div>
-<!--Arc script-->
-<script defer src="https://arc.io/widget.min.js#mJFtQsHF"></script>
 
 </body>
 </html>
