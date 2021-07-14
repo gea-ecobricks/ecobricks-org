@@ -26,6 +26,7 @@
 	<!-- This calls GEA typography -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<!-- This calls our Github hosted stylesheet -->
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -102,38 +103,8 @@ function topFunction() {
     // other options go here, separated by commas
   });
 </script>
-	
 
--->
-	
-	<script>
-		function mainMenu() {
-		  var x = document.getElementById("myTopnav");
-		  if (x.className === "topnav") {
-			x.className += " responsive";
-		  } else {
-			x.className = "topnav";
-		  }
-		}
-	</script>
-		<script>
-		function languageMenu() {
-		  var x = document.getElementById("myTopnav");
-		  if (x.className === "topnav") {
-			x.className += " responsive";
-		  } else {
-			x.className = "topnav";
-		  }
-		}
-		</script>
 
-<!--<script>
-	$(function() {
-		$(document).ready(function(){
-				setTimeout(function() { $("#slider1").fadeOut(500); }, 12000)
-				setTimeout(function() { $("#slider2").fadeOut(500); }, 24000)
-		
-		})</script>
 
 		<script type="text/javascript">
 	$(document).ready(function () {
@@ -149,17 +120,59 @@ function topFunction() {
 		document.getElementById("first-load").style.display='none';}
 		}, 2000);
 		  
-</script>	-->
+</script>	
+
+
+
 
 <script type="text/javascript">
-		window.onload = function(){
-		document.getElementById("first-load").style.display='none';}
+	$(function() {
+		$(document).ready(function(){
+				setTimeout(function() { $("#slider1").style.display='none';}, 12000)
+				setTimeout(function() { $("#slider2").style.display='none';}, 24000)
+		
+		})
 </script>
+
+
+<script type="text/javascript">
+	window.onload = function(){
+	document.getElementById("first-load").style.display='none';}
+</script>
+	
+
+-->
+
+	
+	<script>
+		function appMenu() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+	</script>
+
+	<script>
+		function languageMenu() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive2";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+	</script>
+
+	
+
 
 	
 	<style>
 	
-
+/*
 #first-load {
 	z-index: 100;	
 	position: fixed;
@@ -170,7 +183,7 @@ function topFunction() {
   	background: url('images/albatross-loader.gif') center no-repeat, #fff;
 	box-sizing: border-box;
  	background-size: 250px;
-}
+}*/
 
 
 
@@ -184,6 +197,8 @@ function topFunction() {
 	margin-left: 0px;
 	margin-right: 0px;
 	overflow-x: hidden;
+
+
 
 	}
 
@@ -201,38 +216,61 @@ function topFunction() {
 		</div>
 			<div id="desktop-menu">
 			
+				<div class="topnav-lang" id="myTopnav-lang">
+					
+				
+					<div class="dropdown-lang">
+							<button class="dropbtn-lang">ENG				
+							 </button>
+								<div class="dropdown-content-language">
+								  <a href="#">🇮🇩 IND</a>
+								  <a href="#">🇪🇸 ESP</a>
+								  <a href="#">🇩🇪 DE</a>
+								  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="languageMenu()"></a>
+							</div>
+					
+				</div> 
+				</div>
+					
 
+			
+						
 				<div class="topnav" id="myTopnav">
-					<div class="dropdown">
-						<button class="dropbtn"><div id="menu-text">Languages</div><div id="lang-button">EN</div>
-							<i class="fa fa-caret-down"></i>
-					 	</button>
-							<div class="dropdown-content-language">
-							  <a href="#">🇮🇩 IND</a>
-							  <a href="#">🇪🇸 ESP</a>
-							  <a href="#">🇩🇪 DE</a>
-						  </div>
-				    </div> 
-
+					
+				
+			
 					<div class="dropdown">
 					  	<button class="dropbtn"><div id="menu-circle"><img src="svgs/grey-emblem.svg" width="30px" height="30px"></div><div id="menu-text">GEA Servers</div>
-							<i class="fa fa-caret-down"></i>
-					 	</button>
+							</button>
 					  		<div class="dropdown-content-app">
-								<a href="#"><div id="gobrik-menu"><div id="icon-menu"><img src="icons/gobrik.png" width="60" height="60"></div><div id="apptext-menu"><div class="apptext-header">GoBrik </div><div class="apptext-sub">Ecobricking Webapp<br>Manage your ecobricks<br>Connect to the Birkcoin blockchain</div></div></div></a>
-								<a href="#"><div id="mattermost-menu"><div id="icon-menu"><img src="icons/mattermost.png" width="60" height="60"></div><div id="apptext-menu"><div class="apptext-header">Circles </div><div class="apptext-sub">Join our free mattermost ecobricker community<br>Share your ecobricking<br>Learn from others</div></div></div></a>
-								<a href="#"><div id="github-menu"><div id="icon-menu"><img src="icons/github.png" width="60" height="60"></div><div id="apptext-menu"><div class="apptext-header">GEA Github </div><div class="apptext-sub">Join our open source development<br>of content, concepts and software<br>for the plastic transition movement</div></div></div></a>
-								<a href="#"><div id="offset-menu"><div id="icon-menu"><img src="icons/offset.png" width="60" height="60"></div><div id="apptext-menu"><div class="apptext-header">AES Plastic Offsetting </div><div class="apptext-sub">Offset your plastic footprint<br>on our GoBrik AES Platform</div></div></div></a>
+								<a href="#"><div id="gobrik-menu"><div id="icon-menu"><img src="icons/gobrik.png" width="65px" height="65px"></div><div id="apptext-menu"><div class="apptext-header">GoBrik </div><div class="apptext-sub">Ecobricking Webapp<br>Manage your ecobricks<br>Connect to the Birkcoin blockchain</div></div></div></a>
+								<a href="#"><div id="mattermost-menu"><div id="icon-menu"><img src="icons/mattermost.png" width="65px" height="65px"></div><div id="apptext-menu"><div class="apptext-header">Circles </div><div class="apptext-sub">Join our free mattermost ecobricker community<br>Share your ecobricking<br>Learn from others</div></div></div></a>
+						 <!--	<a href="#"><div id="github-menu"><div id="icon-menu"><img src="icons/github.png"  width="50px" height="50px"></div><div id="apptext-menu"><div class="apptext-header">GEA Github </div><div class="apptext-sub">Join our open source development<br>of content, concepts and software<br>for the plastic transition movement</div></div></div></a>-->
+								<a href="#"><div id="offset-menu"><div id="icon-menu"><img src="icons/offset.png" width="65px" height="65px"></div><div id="apptext-menu"><div class="apptext-header">AES Plastic Offsetting </div><div class="apptext-sub">Offset your plastic footprint<br>on our GoBrik AES Platform</div></div></div></a>
 								
 							</div>
 					</div> 
+
+			
 					
 					<a href="#about">Principles</a>
 					<a href="#news">About Us</a>
 					<a href="#contact">Building</a>
-					<a href="#home">About Ecobricks</a>
-					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mainMenu()"><img src="svgs/grey-emblem.svg"width="30px" height="30px"></a>
-					<!--<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="languageMenu()">ENG</a>-->
+
+					<div class="dropdown">
+						<button class="dropbtn"><div id="drop-text">About Ecobricks 
+						  <i class="fa fa-caret-down"></i></div>
+						</button>
+						<div class="dropdown-content-normal">
+							<a href="#home">What are Ecobricks</a>
+							<a href="#home">How to Make?</a>
+							<a href="#home">Why Ecobricks?</a>
+							<a href="#home">Plastic sequestration</a>
+						</div>
+					</div> 
+				
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem.svg"width="30px" height="30px"></a>
+					
 				</div>
 				</div>
 			</div>
@@ -313,9 +351,9 @@ function topFunction() {
 
 <div id="content-sect4">
 	<div id="main-content">
-		<div class="lead-graphic"><img src="svgs/green-balance.svg"  width="100%" height="100%"></div>
+		<div class="lead-graphic"><img src="webp/balancing-green.webp"  width="100%" height="100%"></div>
 		<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" ></div><!--width="300px" height="254px"-->
-		<div class="lead-paragraph">Introducing AES Plastic Offsetting</div>
+		<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>
 		<div class="sub-text"><p>Let's face it.  We live in the plastic age-- no matter how much we minimize, we are all consumin plastic.  But just imagine... if for every 1kg of plastic your consumed you supported the sequestration of 2kg.  That's what we call grey to green plastic transition. </p></div>
 		<a href="what" class="main-button">Plastic Offsetting</a>
 		<h4><a href="/brikcoins">Brikcoin Manual Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About</a></h4>
@@ -326,51 +364,32 @@ function topFunction() {
 
 
 <div id="footer-full">
-	<div class="ocean-vision"><img src="svgs/ocean-footer2.svg" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
+	<div id="ocean-vision"><img src="svgs/ocean-footer2.svg" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
 	
-	<div id="footer-content">
-		<div id="footer-vision">We envision a Transition in our Homes, Communities and Companies from Plastic to ever Greener Harmony with Earth's Cycles.</div>
-		<div id="footer1">
-			<div class="footer-header">Offset Your Plastic</div>
-			<div class="footer-subtext">Access the AES Offsetting system.</div>
-		<div id="footer2">
-			<div class="footer-header">CC 2021</div>
-			<div class="footer-subtext">All of the educational content on our site (photos, videos and text) are made available for sharing by the Ecobrick Alliance under a Creative Commons Attribution-ShareAlike 4.0 International License. This means you are free to use and share these resources under the same license. Please attribute all content usage back to "Ecobricks.org"Global Ecobrick Alliance, Ecobricks.org and GoBrik logos and emblems are copyright 2020 by the Global Ecobrick Alliance Earth Enterprise.</div>
+	
+			<div class="footer-vision">We envision a Transition in our Homes, Communities and Companies from Plastic to ever Greener Harmony with Earth's Cycles.</div>
+		
+		<div class="footer-content">
+
+			<div class="footer-box">
+				<div class="footer-header">Offset Your Plastic</div>
+				<div class="footer-subtext">Access the AES Offsetting system. and GoBrik logos and emblems are copyright 2020 by the Global Ecobrick Alliance Earth Enterprise</div>
+			</div>
+			<div class="footer-box">
+				<div class="footer-header">CC 2021</div>
+				<div class="footer-subtext">All of the educational content on our site is under a Creative Commons Attribution-ShareAlike 4.0 International License. Please attribute all content usage back to "Ecobricks.org"Global Ecobrick Alliance, Ecobricks.org".</div>
+			</div>
+			<div class="footer-box">
+				<div class="footer-header">Technology</div>
+				<div class="footer-subtext">We're excited to use open source technology from resonant not-for-profit enterprises.</div>
+			</div>
+			<div class="footer-box">
+				<div class="footer-header">Follow, Connect, Join.</div>
+				<div class="footer-subtext">Follow us on social media.  But even better, avoid the corporate platforms and join us on our own community server.</div>
+			</div>
 		</div>
-		<div id="footer3">
-			<div class="footer-header">Technology</div>
-			<div class="footer-subtext">We're excited to use open source technology from resonant not-for-profit enterprises.</div>
-		</div>
-		<div id="footer4">
-			<div class="footer-header">Follow, Connect, Join.</div>
-			<div class="footer-subtext">Follow us on social media.  But even better, avoid the corporate platforms and join us on our own community server.</div>
-		</div>
+		
+			<div id="footer-conclusion">Contribute to the open source development of Ecobricks.org and GoBrik on Github:<a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank" style="color: #A9CDD8">on Github.</a></div>
 	</div>
-</div>
-
-
-
-<!--
-  <div id="footer-text">
-<div class="footer-quote">
-      We envision a Transition in our Homes, Communities and Companies from Plastic to ever Greener Harmony with Earth's Cycles.<br></div>
-  <div class="footer-links"><a href='https://www.gobrik.com/#home' style="color: #fff">Home</a>     |     <a href='javascript:Localize.setLanguage("en")' style="color: #fff">English</a>     |     <a href='javascript:Localize.setLanguage("id")' style="color: #fff">Indonesian</a>    |     <a href='javascript:Localize.setLanguage("es")' style="color: #fff">Spanish</a></font></strong>
- </div>
-<div class="footer-foot">
-	All of the educational content on our site (photos, videos and text) are made available for sharing by the Ecobrick Alliance under a Creative Commons Attribution-ShareAlike 4.0 International License. This means you are free to use and share these resources under the same license. Please attribute all content usage back to "Ecobricks.org"Global Ecobrick Alliance, Ecobricks.org and GoBrik logos and emblems are copyright 2020 by the Global Ecobrick Alliance Earth Enterprise. <a href="brk-aes-terms" style="color: #A9CDD8">terms of aquisition</a>.
-	<br><br>Learn more about<br>
-<a href="/what" style="color: #A9CDD8">About Ecobricks</a>   |  <a href="/about" style="color: #A9CDD8">About Us</a>  |   <a href="/how" style="color: #A9CDD8">How to Make</a> |   <a href="https://gobrik.com" target="_blank" style="color: #A9CDD8">GoBrik</a>
-	<br><br>Contribute to the open source development of Ecobricks.org and GoBrik on Github:<a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank" style="color: #A9CDD8">on Github.</a></font>
- </div>
-  <div class="footer-foot"><a href="/staging.html"><img src="/images/2021-GEA-Logo-with-perspective-white.png" width="35px" alt="Global Ecobrick Alliance Logo"></a></div>
- </div>
-
--->
-</div>
-</div>
-</div>
-  </div>
-
 </body>
 </html>
-
