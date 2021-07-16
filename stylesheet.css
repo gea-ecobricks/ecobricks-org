@@ -1268,6 +1268,7 @@ migrated from GoBrik.com CSS
     position: relative;
     z-index: 5;
     /*min-height: 100vh;*/
+	margin-top: -500px;
  }
  #cloud-banner img {
 	 width: 100% !important;
