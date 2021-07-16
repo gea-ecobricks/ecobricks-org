@@ -1745,7 +1745,7 @@ margin-bottom: -20px;
 
 @media screen and (max-width: 770px) {
   .footer-subtext {
-   font-size: 098em;
+   font-size: 0.9em;
   line-height: 1.2;
   }
 }
