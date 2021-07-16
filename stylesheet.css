@@ -205,12 +205,12 @@ font-weight: 300;
   border: none;
   outline: none;
   color: rgb(53, 53, 53);
-  padding: 20px 25px 30px 15px;
+  padding: 20px 25px 27px 15px;
   background-color: white;
   font-family: inherit; 
   margin-top: 0px;
 
-  font-size: 1.1em;
+  font-size: 1.0em !important;
   font-family: 'Mulish', sans-serif;
 /*text-shadow: 0px 0px 10px #ccc ;*/
 font-weight: 300;
@@ -1269,7 +1269,10 @@ migrated from GoBrik.com CSS
     z-index: 5;
     /*min-height: 100vh;*/
  }
- #cloud-banner img {width: 100% !important}
+ #cloud-banner img {
+	 width: 100% !important;
+	 float: bottom;
+}
 
 
 
