@@ -1292,7 +1292,6 @@ migrated from GoBrik.com CSS
 
 #content-sect1 {
   width: 100%;
-	margin-bottom: 150px;
 }
 		
 #dolphin-graphic { 
@@ -1322,8 +1321,6 @@ migrated from GoBrik.com CSS
 	}
 		
  
-
-
 /* -------------------------------------------------------------------------- */
 
 /*	6. Second Content Section2
@@ -1347,13 +1344,13 @@ migrated from GoBrik.com CSS
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
 	#content-sect2 {
 		background-size: cover;
-		margin-top: 50px;
+		margin-top: 150px;
  }}
 
  @media screen and (min-width: 0px) and (max-width: 769px) {
  #content-sect2 {
 	background-size: 1000px;
-	 margin-top: 5px;
+	 margin-top: 0px;
 
  }}
 
@@ -1385,8 +1382,6 @@ migrated from GoBrik.com CSS
 		
 #content-sect3 {
     	width: 100%;
-   	margin-top: 100px;
-	margin-bottom: 70px;
    	background: url(svgs/visionscape.svg);
     	box-sizing: border-box;
 	/*background-color: #e0f7ff;*/
@@ -1398,6 +1393,7 @@ migrated from GoBrik.com CSS
     background-size: contain;
     background-repeat: no-repeat;
     padding-bottom: 300px;
+    margin-top: 100px;
  }}
 
  @media screen and (min-width: 0px) and (max-width: 769px) {
