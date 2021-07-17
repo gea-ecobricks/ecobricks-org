@@ -1277,6 +1277,7 @@ migrated from GoBrik.com CSS
  #cloud-banner img {
 	 width: 100% !important;
 	 float: bottom;
+	 margin-bottom: -10px;
 }
 
 
@@ -1336,7 +1337,6 @@ migrated from GoBrik.com CSS
 		
 #content-sect2 {
 	 width: 100%;
-	margin-top: 50px;
 	padding-bottom: 30px;
 	margin-bottom: 80px;
 	background: url(svgs/blue-ode.svg) center top;
@@ -1347,11 +1347,13 @@ migrated from GoBrik.com CSS
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
 	#content-sect2 {
 		background-size: cover;
+		margin-top: 50px;
  }}
 
  @media screen and (min-width: 0px) and (max-width: 769px) {
  #content-sect2 {
 	background-size: 1000px;
+	 margin-top: 5px;
 
  }}
 
