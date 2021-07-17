@@ -1246,7 +1246,9 @@ migrated from GoBrik.com CSS
 /* -------------------------------------------------------------------------- */
 @media screen and (min-width: 1024px) and (max-width: 2000px) { 
 #extra-clouds {
-  display: none;
+	    width: 100%;
+	height: 150px;
+	background-color: #00ffff;
   margin-top: -500px;
 }}
 
@@ -1267,9 +1269,11 @@ migrated from GoBrik.com CSS
 	    margin-top: -500px;
   }}
 
-#cloud-banner {width: 100%;
+#cloud-banner {
+	width: 100%;
     position: relative;
-    z-index: 5;
+    z-index: 0;
+    min-height: 80vh;
 	background-color: #00ffff;
     /*min-height: 100vh;*/
 
@@ -1323,7 +1327,7 @@ migrated from GoBrik.com CSS
  
 /* -------------------------------------------------------------------------- */
 
-/*	6. Second Content Section2
+/*	6. Second Content Section2 - blue plastic and earth
 /* -------------------------------------------------------------------------- */
 
 .lead-graphic {
@@ -1343,13 +1347,13 @@ migrated from GoBrik.com CSS
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
 	#content-sect2 {
 		background-size: cover;
-		margin-top: 150px;
+		margin-top: 120px;
  }}
 
  @media screen and (min-width: 0px) and (max-width: 769px) {
  #content-sect2 {
 	background-size: 1000px;
-	 margin-top: -50px;
+	 margin-top: 50px;
 
  }}
 
