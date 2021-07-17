@@ -1503,8 +1503,8 @@ margin-bottom: -20px;
 
   font-size: 1.15em;
   line-height: 1.3;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding-right: 0%;
+  padding-left: 0%;
   }
 }
 
@@ -1542,7 +1542,7 @@ margin-bottom: -20px;
     font-size: 0.9em;
   line-height: 1.3;
   padding-right: 5%;
-  padding-left:%;
+  padding-left: 5%;
   }
 }
 
@@ -1559,7 +1559,7 @@ margin-bottom: -20px;
 
 
 .footer-icons-container {
-  padding-top: 40px;
+
   padding-bottom: 0px;
   background-color: #252b4d;
   display: flex;
@@ -1595,17 +1595,17 @@ margin-bottom: -20px;
 @media (max-width: 800px) {
 
   .footer-icons-container {
-	padding: 0px 3% 0px 3%;
+	padding: 30px 3% 0px 3%;
 }
    .footer-icons {
-	padding: 0px 3px 0px 3px;
+	padding: 0px 4px 0px 4px;
 }
 }
 
 @media (min-width: 800px) {
 
   .footer-icons-container {
-	padding: 0px 6% 0px 6% ;
+	padding: 40px 6% 0px 6% ;
 }
    .footer-icons  {
 	  padding: 0px 10px 0px 10px ;
