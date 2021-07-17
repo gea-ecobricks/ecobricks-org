@@ -1276,8 +1276,8 @@ migrated from GoBrik.com CSS
 
 	background-color: #00ffff;
     /*min-height: 100vh;*/
-
  }
+
  #cloud-banner img {
 	 width: 100% !important;
 	 float: bottom;
@@ -1322,7 +1322,7 @@ migrated from GoBrik.com CSS
   width: 600px;
   margin-top: -200px;
   }
-	}
+}
 		
  
 /* -------------------------------------------------------------------------- */
@@ -1456,10 +1456,7 @@ margin-bottom: -35px;
 @media screen and (min-width: 0px) and (max-width: 769px) {
 #content-sect4 .lead-graphic {	
 width: 300px;
-margin-bottom: -20px;
-	
-
-
+margin-bottom: -20px;	
 }
 }
 
@@ -1607,10 +1604,10 @@ margin-bottom: -20px;
 
 @media (min-width: 800px) {
 
-  .footer-container 
+  .footer-container {
 	padding: 0px 6% 0px 6% ;
 }
-   .footer-icons 
+   .footer-icons  {
 	  padding: 0px 10px 0px 10px ;
 }
 }
