@@ -1594,7 +1594,7 @@ margin-bottom: -20px;
 /* Responsive layout for icons */
 @media (max-width: 800px) {
 
-  .footer-container {
+  .footer-icons-container {
 	padding: 0px 3% 0px 3%;
 }
    .footer-icons {
@@ -1604,7 +1604,7 @@ margin-bottom: -20px;
 
 @media (min-width: 800px) {
 
-  .footer-container {
+  .footer-icons-container {
 	padding: 0px 6% 0px 6% ;
 }
    .footer-icons  {
