@@ -1253,7 +1253,7 @@ migrated from GoBrik.com CSS
 
 @media screen and (min-width: 770px) and (max-width: 1024px) {   
   #extra-clouds {
-    height: 150px;
+    height: 170px;
     background-color: #00ffff;
     width: 100%;
 	margin-top: -500px;
@@ -1261,7 +1261,7 @@ migrated from GoBrik.com CSS
 
 @media screen and  (min-width: 10px) and (max-width: 769px) { 
   #extra-clouds {
-    height: 350px;
+    height: 388px;
     background-color: #00ffff;
     width: 100%;
 	    margin-top: -500px;
@@ -1335,7 +1335,6 @@ migrated from GoBrik.com CSS
 #content-sect2 {
 	 width: 100%;
 	padding-bottom: 30px;
-	margin-bottom: 80px;
 	background: url(svgs/blue-ode.svg) center top;
 	background-repeat: no-repeat;
 		}
@@ -1350,7 +1349,7 @@ migrated from GoBrik.com CSS
  @media screen and (min-width: 0px) and (max-width: 769px) {
  #content-sect2 {
 	background-size: 1000px;
-	 margin-top: 0px;
+	 margin-top: -50px;
 
  }}
 
@@ -1393,7 +1392,7 @@ migrated from GoBrik.com CSS
     background-size: contain;
     background-repeat: no-repeat;
     padding-bottom: 300px;
-    margin-top: 100px;
+    margin-top: 150px;
  }}
 
  @media screen and (min-width: 0px) and (max-width: 769px) {
@@ -1404,6 +1403,7 @@ migrated from GoBrik.com CSS
     background-repeat: no-repeat;
     padding-bottom: 150px;
     background-size: 600px;
+	      margin-top: 40px;
   }
 }
 		
