@@ -1377,16 +1377,17 @@ migrated from GoBrik.com CSS
 
 		
 		
-		#content-section3 {
-    width: 100%;
-		margin-top: 100px;
-		margin-bottom: 70px;
-    background: url(svgs/visionscape.svg);
-    box-sizing: border-box;
+#content-sect3 {
+    	width: 100%;
+   	margin-top: 50px;
+	margin-bottom: 70px;
+   	background: url(svgs/visionscape.svg);
+    	box-sizing: border-box;
+	background-color: #e0f7ff;
  }	
 
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
- #content-section3 {
+ #content-sect3 {
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1394,9 +1395,9 @@ migrated from GoBrik.com CSS
  }}
 
  @media screen and (min-width: 0px) and (max-width: 769px) {
-  #content-section3 {
+  #content-sect3 {
 
-    background-position: right bottom;
+    background-position: center bottom;
     /*background-size: cover;*/
     background-repeat: no-repeat;
     padding-bottom: 250px;
@@ -1404,7 +1405,7 @@ migrated from GoBrik.com CSS
   }}
 		
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
-#content-section3 .lead-graphic {	
+#content-sect3 .lead-graphic {	
   margin-top: -80px;
 	width: 600px;
   margin-bottom: 20px;
@@ -1412,7 +1413,7 @@ migrated from GoBrik.com CSS
 	}
 		
  @media screen and (max-width: 769px) {
-#content-section3 .lead-graphic {	
+#content-sect3 .lead-graphic {	
   width: 88%;
 	margin-top: -40px;
   margin-bottom: 10px;
