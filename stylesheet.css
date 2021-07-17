@@ -1256,6 +1256,7 @@ migrated from GoBrik.com CSS
     height: 150px;
     background-color: #00ffff;
     width: 100%;
+	margin-top: -500px;
   }}
 
 @media screen and  (min-width: 10px) and (max-width: 769px) { 
@@ -1263,6 +1264,7 @@ migrated from GoBrik.com CSS
     height: 350px;
     background-color: #00ffff;
     width: 100%;
+	    margin-top: -500px;
   }}
 
 #cloud-banner {width: 100%;
@@ -1558,7 +1560,7 @@ margin-bottom: -20px;
 
 .footer-icons-container {
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   padding-right: 5%;
   padding-left: 5%;
   background-color: #252b4d;
