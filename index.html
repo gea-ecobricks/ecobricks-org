@@ -155,7 +155,7 @@ function topFunction() {
 
 <script text/javascript">
 	window.onload = function(){
-	document.getElementById("first-load").style.display='none';}
+	document.getElementById("desktop-menu, sliders").style.display='none';}
 </script>
 		
 <script type="text/javascript">
@@ -176,7 +176,7 @@ function topFunction() {
 	
 	<style>
 	
-
+/*
 #first-load {
 	z-index: 100;	
 	position: fixed;
@@ -189,7 +189,7 @@ function topFunction() {
  	background-size: 250px;
 }
 
-
+*/
 
 #full-page {
 	z-index: 0;
@@ -219,7 +219,84 @@ function topFunction() {
 
 	}
 
+#header {  
+	padding-top: 15px;
+	padding-bottom: 18px;
+	padding-left: 21px;
+	z-index: 10;
+	position: relative;
+	background: white;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	text-align: left;
 	
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 2000px) { 
+#header img {
+  width: 250px;
+
+}
+}
+
+
+@media screen and (max-width: 769px) {
+#header img {
+  width: 200px;
+
+}
+}
+
+#desktop-menu {
+  margin-top: -75px;
+  position: relative;
+  z-index: 10;
+width: 100%;
+background-color: white;
+height: fit-content;  
+text-align:right;
+}
+					      
+@media screen and (min-width: 1024px) and (max-width: 2000px) { 
+#extra-clouds {
+	    width: 100%;
+	height: 150px;
+	background-color: #00ffff;
+  margin-top: -500px;
+}}
+
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {   
+  #extra-clouds {
+    height: 170px;
+    background-color: #00ffff;
+    width: 100%;
+	margin-top: -500px;
+  }}
+
+@media screen and  (min-width: 10px) and (max-width: 769px) { 
+  #extra-clouds {
+    height: 400px;
+    background-color: #00ffff;
+    width: 100%;
+	    margin-top: -500px;
+  }}
+
+#cloud-banner {
+	width: 100%;
+    position: relative;
+    z-index: 0;
+
+	background-color: #00ffff;
+    /*min-height: 100vh;*/
+ }
+
+ #cloud-banner img {
+	 width: 100% !important;
+	 float: bottom;
+	 margin-bottom: -10px;
+}
+					      
 
 
   </style>	
