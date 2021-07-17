@@ -1383,7 +1383,7 @@ migrated from GoBrik.com CSS
 	margin-bottom: 70px;
    	background: url(svgs/visionscape.svg);
     	box-sizing: border-box;
-	background-color: #e0f7ff;
+	/*background-color: #e0f7ff;*/
  }	
 
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
@@ -1401,7 +1401,7 @@ migrated from GoBrik.com CSS
     background-size: contain;
     background-repeat: no-repeat;
     padding-bottom: 250px;
-    background-size: 800px;
+    background-size: 600px;
   }}
 		
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
