@@ -1432,7 +1432,7 @@ migrated from GoBrik.com CSS
 #content-sect4 {
   width: 100%;
   margin-top: 100px;
-  margin-bottom: -100px;
+  margin-bottom: 60px;
   
 }	
 
@@ -1449,6 +1449,8 @@ margin-bottom: -35px;
 #content-sect4 .lead-graphic {	
 width: 300px;
 margin-bottom: -20px;
+	
+
 
 }
 }
@@ -1499,14 +1501,14 @@ margin-bottom: -20px;
 
   font-size: 1.2em;
   line-height: 1.3;
-  padding-right: 8%;
-  padding-left:8%;
+  padding-right: 6%;
+  padding-left:6%;
   }
 }
 
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
   .footer-vision {
-  font-size: 1.6em;
+  font-size: 1.7em;
   line-height: 1.3;
   padding-right: 10%;
   padding-left:10%;
@@ -1518,13 +1520,13 @@ margin-bottom: -20px;
 .footer-invite {
 
   font-family: Arvo, serif;
-  color:   #92ccee;
+  color:   #a8aab8;
   text-align: center;
   background-color: #252b4d;
 }
 
 .footer-invite a {
-  color: #92ccee;;
+  color: #a8aab8;
   text-decoration: pointer;
 
 }
@@ -1654,7 +1656,7 @@ margin-bottom: -20px;
 }
 
 .footer-box {
-  padding: 20px;
+  padding: 15px;
   flex: 50%;
 }
 
@@ -1747,14 +1749,14 @@ margin-bottom: -20px;
 }
 
 @media screen and (max-width: 770px) {
-  .footer-subtext {
+  .footer-conclusion {
    font-size: 0.9em;
   line-height: 1.2;
   }
 }
 
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
-  .footer-subtext {
+  .footer-conclusion {
     font-size: 1.0em;
   line-height: 1.3;
 }
