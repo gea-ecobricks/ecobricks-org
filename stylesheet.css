@@ -1398,14 +1398,14 @@ migrated from GoBrik.com CSS
   #content-sect3 {
 
     background-position: center bottom;
-    /*background-size: cover;*/
+    background-size: contain;
     background-repeat: no-repeat;
     padding-bottom: 250px;
     background-size: 800px;
   }}
 		
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
-#content-sect3 .lead-graphic {	
+#content-sect3 .lead-graphic img {	
   margin-top: -140px;
 	width: 600px;
   margin-bottom: 20px;
@@ -1413,7 +1413,7 @@ migrated from GoBrik.com CSS
 	}
 		
  @media screen and (max-width: 769px) {
-#content-sect3 .lead-graphic {	
+#content-sect3 .lead-graphic img {	
   width: 88%;
 	margin-top: -100px;
   margin-bottom: 10px;
