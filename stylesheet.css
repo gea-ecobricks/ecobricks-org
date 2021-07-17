@@ -148,7 +148,7 @@ migrated from GoBrik.com CSS
 }
 
 #desktop-menu {
-  margin-top: -75px;
+  margin-top: -72px;
   position: relative;
   z-index: 10;
 width: 100%;
@@ -164,7 +164,7 @@ text-align:right;
 /*the ENG */
 
 .topnav-lang a {
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-family: 'Mulish', sans-serif;
 /*text-shadow: 0px 0px 10px #ccc ;*/
 font-weight: 300;
@@ -205,12 +205,12 @@ font-weight: 300;
   border: none;
   outline: none;
   color: rgb(53, 53, 53);
-  padding: 20px 25px 27px 15px;
+  padding: 20px 25px 30px 15px;
   background-color: white;
   font-family: inherit; 
   margin-top: 0px;
 
-  font-size: 1.0em !important;
+  font-size: 1.1em;
   font-family: 'Mulish', sans-serif;
 /*text-shadow: 0px 0px 10px #ccc ;*/
 font-weight: 300;
@@ -1268,12 +1268,8 @@ migrated from GoBrik.com CSS
     position: relative;
     z-index: 5;
     /*min-height: 100vh;*/
-	margin-top: -500px;
  }
- #cloud-banner img {
-	 width: 100% !important;
-	 float: bottom;
-}
+ #cloud-banner img {width: 100% !important}
 
 
 
@@ -1288,6 +1284,7 @@ migrated from GoBrik.com CSS
 #content-sect1 {
   width: 100%;
 	margin-bottom: 150px;
+margin-top: 100vh;
 }
 		
 #dolphin-graphic { 
@@ -1377,27 +1374,26 @@ migrated from GoBrik.com CSS
 
 		
 		
-#content-sect3 {
-    	width: 100%;
-   	margin-top: 100px;
-	margin-bottom: 70px;
-   	background: url(svgs/visionscape.svg);
-    	box-sizing: border-box;
-	background-color: #e0f7ff;
+		#content-section3 {
+    width: 100%;
+		margin-top: 100px;
+		margin-bottom: 70px;
+    background: url(svgs/visionscape.svg);
+    box-sizing: border-box;
  }	
 
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
- #content-sect3 {
+ #content-section3 {
     background-position: center bottom;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 300px;
  }}
 
  @media screen and (min-width: 0px) and (max-width: 769px) {
-  #content-sect3 {
+  #content-section3 {
 
-    background-position: center bottom;
+    background-position: right bottom;
     /*background-size: cover;*/
     background-repeat: no-repeat;
     padding-bottom: 250px;
@@ -1405,17 +1401,17 @@ migrated from GoBrik.com CSS
   }}
 		
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
-#content-sect3 .lead-graphic {	
-  margin-top: -140px;
+#content-section3 .lead-graphic {	
+  margin-top: -80px;
 	width: 600px;
   margin-bottom: 20px;
 	}
 	}
 		
  @media screen and (max-width: 769px) {
-#content-sect3 .lead-graphic {	
+#content-section3 .lead-graphic {	
   width: 88%;
-	margin-top: -100px;
+	margin-top: -40px;
   margin-bottom: 10px;
 }
 }
@@ -1433,7 +1429,7 @@ migrated from GoBrik.com CSS
 #content-sect4 {
   width: 100%;
   margin-top: 100px;
-  margin-bottom: 60px;
+  margin-bottom: -100px;
   
 }	
 
@@ -1450,8 +1446,6 @@ margin-bottom: -35px;
 #content-sect4 .lead-graphic {	
 width: 300px;
 margin-bottom: -20px;
-	
-
 
 }
 }
@@ -1465,7 +1459,9 @@ margin-bottom: -20px;
 
 #footer-full {
   width: 100%;
+
 }
+
 
 
 #ocean-vision {
@@ -1473,6 +1469,7 @@ margin-bottom: -20px;
   position: relative;
   z-index: 0;
   margin-bottom: -25px;
+
 }
 
 .ocean-vison img {
@@ -1499,18 +1496,18 @@ margin-bottom: -20px;
 
   font-size: 1.2em;
   line-height: 1.3;
-  padding-right: 6%;
-  padding-left:6%;
+  padding-right: 8%;
+  padding-left:8%;
   }
 }
 
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
   .footer-vision {
-  font-size: 1.7em;
+  font-size: 1.6em;
   line-height: 1.3;
   padding-right: 10%;
   padding-left:10%;
-	}
+}
 }
 
 /*INVITE TO CLICK ICONS*/
@@ -1518,14 +1515,15 @@ margin-bottom: -20px;
 .footer-invite {
 
   font-family: Arvo, serif;
-  color:   #a8aab8;
+  color:   #92ccee;
   text-align: center;
   background-color: #252b4d;
 }
 
 .footer-invite a {
-  color: #a8aab8;
+  color: #92ccee;;
   text-decoration: pointer;
+
 }
 
 .footer-invite a:hover {
@@ -1544,7 +1542,7 @@ margin-bottom: -20px;
 
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
   .footer-invite {
-  font-size: 1.3em;
+      font-size: 1.3em;
   line-height: 1.3;
   padding-right: 10%;
   padding-left:10%;
@@ -1574,10 +1572,15 @@ margin-bottom: -20px;
   flex: 50%;
   text-align: center;
   box-sizing: border-box;
+
+ 
 }
 
 .footer-icons img {
+
   max-width: 100px;
+
+
 }
 
 .footer-icons a img {
@@ -1587,8 +1590,8 @@ margin-bottom: -20px;
 
 .footer-icons a:hover img {
   opacity: 1;
-}
 
+}
 
 /*NOT ACTIVE - PLatform reviews*/
 .icon-name { 
@@ -1617,6 +1620,7 @@ margin-bottom: -20px;
   .icon-name {
     display: none;
   }
+
   .server-review {
     display: none;
   }
@@ -1634,6 +1638,7 @@ margin-bottom: -20px;
   align-items: stretch;
   flex-direction: row;
   box-sizing: border-box;
+  height: fit-content;
 }
 
 
@@ -1646,9 +1651,11 @@ margin-bottom: -20px;
 }
 
 .footer-box {
-  padding: 15px;
+  padding: 20px;
   flex: 50%;
 }
+
+
 
 
 .footer-header {
@@ -1691,18 +1698,18 @@ margin-bottom: -20px;
   text-decoration: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 770px) {
   .footer-subtext {
-   font-size: 0.9em;
+   font-size: 1.1em;
   line-height: 1.2;
   }
 }
 
-@media screen and (min-width: 800px) and (max-width: 2000px) { 
+@media screen and (min-width: 770px) and (max-width: 2000px) { 
   .footer-subtext {
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height: 1.3;
-  }
+}
 }
 
 
@@ -1737,14 +1744,14 @@ margin-bottom: -20px;
 }
 
 @media screen and (max-width: 770px) {
-  .footer-conclusion {
+  .footer-subtext {
    font-size: 0.9em;
   line-height: 1.2;
   }
 }
 
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
-  .footer-conclusion {
+  .footer-subtext {
     font-size: 1.0em;
   line-height: 1.3;
 }
