@@ -1574,8 +1574,7 @@ margin-bottom: -20px;
   box-sizing: border-box;
 }
 
-.footer-icons {
-  padding: 0px 10px 0px 10px ;
+.footer-icons { ;
   flex: 50%;
   text-align: center;
   box-sizing: border-box;
@@ -1599,10 +1598,11 @@ margin-bottom: -20px;
 @media (max-width: 800px) {
 
   .footer-container {
-	padding: 0px 3%x 0px 3%;
+	padding: 0px 3% 0px 3%;
 }
    .footer-icons {
-	padding: 0px 3px 0px 2px ;
+	padding: 0px 3px 0px 3px;
+}
 }
 
 @media (min-width: 800px) {
@@ -1612,6 +1612,7 @@ margin-bottom: -20px;
 }
    .footer-icons 
 	  padding: 0px 10px 0px 10px ;
+}
 }
 		
 		
