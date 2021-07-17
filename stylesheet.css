@@ -1270,6 +1270,7 @@ migrated from GoBrik.com CSS
 #cloud-banner {width: 100%;
     position: relative;
     z-index: 5;
+	background-color: #00ffff;
     /*min-height: 100vh;*/
 
  }
