@@ -739,7 +739,7 @@ migrated from GoBrik.com CSS
   -webkit-animation-delay: 2s;
 
   animation: slide1 10s forwards;
-  animation-delay: 3.5s;  
+  animation-delay: 4.5s;  
 }
 
 @media screen and (min-width: 1024px) and (max-width: 2000px) { 
@@ -849,10 +849,10 @@ migrated from GoBrik.com CSS
     
 
     -webkit-animation: slide2 10s forwards;
-    -webkit-animation-delay: 10s;
+    -webkit-animation-delay: 14s;
 
     animation: slide2 10s forwards;
-    animation-delay: 12s;
+    animation-delay: 14s;
   }
 
   @media screen and (min-width: 1024px) and (max-width: 2000px) { 
@@ -954,10 +954,10 @@ migrated from GoBrik.com CSS
 
 
   -webkit-animation: slide3 12s forwards;
-  -webkit-animation-delay: 25s;
+  -webkit-animation-delay: 27s;
 
   animation: slide3 10s forwards;
-  animation-delay: 22s;}
+  animation-delay: 27s;}
 
   @media screen and (min-width: 1024px) and (max-width: 2000px) { 
     #slider3 {
@@ -1221,7 +1221,38 @@ migrated from GoBrik.com CSS
 
 #content-sect1 {
   width: 100%;
+-webkit-animation: menuFadeIn 1s forwards;
+  -webkit-animation-delay: 3.5s;
+
+  animation: menuFadeIn 1s forwards;
+  animation-delay: 3.5s;  
 }
+		
+@-webkit-keyframes menuFadeIn {
+  0% { 
+  opacity: 0;
+  }
+  100% { 
+  opacity: 1;}
+	
+		}
+	
+@keyframes menuFadeIn {
+  0% { 
+  opacity: 0;
+  }
+  100% { 
+  opacity: 1;}
+	
+}
+
+
+
+
+
+
+
+
 		
 #dolphin-graphic { 
   position: relative;
