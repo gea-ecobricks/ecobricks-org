@@ -25,7 +25,7 @@
 
 	<!-- This calls GEA typography -->
 <link rel="preload" as="image" href="svgs/prototype-logo2.svg">
-<link rel="preload" as="image" href="svgs/svgs/top-vision8.svg">
+<link rel="preload" as="image" href="svgs/svgs/top-vision9.svg">
 		
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
@@ -266,7 +266,32 @@ div#header {
 width: 100%;
 background-color: white;
 height: fit-content;  
-text-align:right;
+text-align: right;
+  opacity: 0;
+
+-webkit-animation: menuFadeIn 1s forwards;
+  -webkit-animation-delay: 3.5s;
+
+  animation: menuFadeIn 1s forwards;
+  animation-delay: 3.5s;  
+}
+		
+@-webkit-keyframes menuFadeIn {
+  0% { 
+  opacity: 0;
+  }
+  100% { 
+  opacity: 1;}
+	
+		}
+	
+@keyframes menuFadeIn {
+  0% { 
+  opacity: 0;
+  }
+  100% { 
+  opacity: 1;}
+	
 }
 					      
 @media screen and (min-width: 1024px) and (max-width: 2000px) { 
