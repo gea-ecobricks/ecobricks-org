@@ -177,6 +177,16 @@ function topFunction() {
 	<style>
 	
 /*
+					      
+div#preloaded-images {
+   position: absolute;
+   overflow: hidden;
+   left: -9999px; 
+   top: -9999px;
+   height: 1px;
+   width: 1px;
+}
+					      
 #first-load {
 	z-index: 100;	
 	position: fixed;
@@ -303,6 +313,15 @@ text-align:right;
 
 </head>
 <div id="first-load"></div>
+
+<!-- PRELOADING -->
+<div id="preloaded-images">
+   <img src="svgs/prototype-logo2.svg" width="1" height="1" alt="Image 01" />
+   <img src="svgs/top-vision8.svg" width="1" height="1" alt="Image 02" />
+   <img src="svgs/dolphin-top-optimized.svg" width="1" height="1" alt="Image 03" />
+</div>		
+											  
+											  
 <body id="full-page">
 	
 		<div id="header">
