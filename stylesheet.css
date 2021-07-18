@@ -1341,7 +1341,7 @@ migrated from GoBrik.com CSS
 		
 #content-sect3 {
     	width: 100%;
-   	background: url(svgs/visionscape.svg);
+
     	box-sizing: border-box;
 	/*background-color: #e0f7ff;*/
  }	
@@ -1353,11 +1353,12 @@ migrated from GoBrik.com CSS
     background-repeat: no-repeat;
     padding-bottom: 300px;
     margin-top: 150px;
+    background: url(webp/visionscape.webp);
  }}
 
  @media screen and (min-width: 0px) and (max-width: 769px) {
   #content-sect3 {
-
+    background: url(webp/visionscape-800.webp);
     background-position: right bottom;
     background-size: contain;
     background-repeat: no-repeat;
