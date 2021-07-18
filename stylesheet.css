@@ -586,6 +586,7 @@ migrated from GoBrik.com CSS
 	margin-bottom: 0;
 	position: relative;
 	z-index: 9;
+  margin-top: 74px;
 		}
 
 
@@ -1496,7 +1497,7 @@ margin-bottom: -20px;
   box-sizing: border-box;
 }
 
-.footer-icons { ;
+.footer-icons { 
   flex: 50%;
   text-align: center;
   box-sizing: border-box;
