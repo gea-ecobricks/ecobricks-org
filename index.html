@@ -41,7 +41,7 @@
 <!--
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></noscript>
-
+-->
 		
 	<!-- This calls our Github hosted stylesheet -->
 		
@@ -140,9 +140,6 @@ function topFunction() {
 		  
 </script>	
 
-
-
-
 <script type="text/javascript">
 	$(function() {
 		$(document).ready(function(){
@@ -150,6 +147,13 @@ function topFunction() {
 				setTimeout(function() { $("#slider2").style.display='none';}, 24000)
 		
 		})
+</script>
+
+
+
+<script type="text/javascript">
+	window.onload = function(){
+	document.getElementById("desktop-menu, sliders").style.display='none';}
 </script>
 
 
@@ -163,23 +167,7 @@ function topFunction() {
 		  }
 		}
 	</script>
-
-<script type="text/javascript">
-	window.onload = function(){
-	document.getElementById("desktop-menu, sliders").style.display='none';}
-</script>
 		
-<script type="text/javascript">
-		function appMenu() {
-		  var x = document.getElementById("myTopnav");
-		  if (x.className === "topnav") {
-			x.className += " responsive";
-		  } else {
-			x.className = "topnav";
-		  }
-		}
-	</script>
-	
 
 					      
 div#preloaded-images {
@@ -220,8 +208,19 @@ div#header {
 
 
 
-
+<!-- enables the nav menu on mobile by click-->
 	
+<script type="text/javascript">
+	function appMenu() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+</script>
+
 
 
 	
@@ -274,7 +273,7 @@ div#header {
 }
 
 #desktop-menu {
-  margin-top: -75px;
+  margin-top: -70px;
   position: relative;
   z-index: 10;
 width: 100%;
@@ -287,7 +286,7 @@ text-align: right;
   -webkit-animation-delay: 2.5s;
 
   animation: menuFadeIn 1s forwards;
-  animation-delay: 2.5s;  
+  animation-delay: 2s;  
 }
 		
 @-webkit-keyframes menuFadeIn {
@@ -361,7 +360,8 @@ text-align: right;
 <body id="full-page">
 	<div id="load-background">
 		<div id="header">
-			<a href="index.html"><img src="svgs/prototype-logo2.svg" alt="Global Ecobrick Alliance Logo" width="250" height="56"></a>
+			<a href="index.html"><object type="image/svg+xml" data="svgs/prototype-logo3.svg" width="250" height="56"></object></a>
+			<!--<img src="svgs/prototype-logo3.svg" alt="Global Ecobrick Alliance Logo" width="250" height="56">-->
 		</div>
 			<div id="desktop-menu">
 			
@@ -509,7 +509,7 @@ text-align: right;
 		<div class="sub-text"><p>Let's face it.  We live in the plastic age-- no matter how much we minimize, we are all consumin plastic.  But just imagine... if for every 1kg of plastic your consumed you supported the sequestration of 2kg.  That's what we call grey to green plastic transition. </p></div>
 		<a href="what" class="main-button">Plastic Offsetting</a>
 		<h4><a href="/brikcoins">Brikcoin Manual Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About</a></h4>
-		<div class="sub-text">AES Plastic Offsetting operates through the Brikcoin manual blockchain. Our revolutionary proof of value blockchain is based on the authentication of plastic secured out of the biosphere.</div>
+		<h4>AES Plastic Offsetting operates through the Brikcoin manual blockchain. Our revolutionary proof of value blockchain is based on the authentication of plastic secured out of the biosphere.</h4>
 		<img src="svgs/3brikcoins.svg" width="30%">
 	</div>
 </div>
@@ -582,12 +582,12 @@ text-align: right;
 			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 		</div>
 
-		<div class="footer-icons"><!--NEXTCLOUD-->
+		<!--<div class="footer-icons">--NEXTCLOUD
 			<a href="https://files.mandala.team/" target="_blank">
 			<img src="icons/nextcloud.svg" width="100%" height="100%"></a>
 			<div class="icon-name">/ecobricks</div>
 			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
-		</div>
+		</div>-->
 			
 	</div>
 	
