@@ -586,7 +586,7 @@ migrated from GoBrik.com CSS
 	margin-bottom: 0;
 	position: relative;
 	z-index: 9;
-  margin-top: 74px;
+  margin-top: 24px;
 		}
 
 
@@ -1348,12 +1348,14 @@ migrated from GoBrik.com CSS
 
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
  #content-sect3 {
-    background-position: center bottom;
+  background: url(webp/visionscape.webp);
+  background-position: center bottom;
     background-size: contain;
     background-repeat: no-repeat;
     padding-bottom: 300px;
     margin-top: 150px;
-    background: url(webp/visionscape.webp);
+    margin-bottom: 100px;
+
  }}
 
  @media screen and (min-width: 0px) and (max-width: 769px) {
@@ -1365,6 +1367,7 @@ migrated from GoBrik.com CSS
     padding-bottom: 120px;
     background-size: 600px;
 	      margin-top: 140px;
+        margin-bottom: -30px;
   }
 }
 		
@@ -1396,7 +1399,7 @@ migrated from GoBrik.com CSS
 		
 #content-sect4 {
   width: 100%;
-  margin-top: 100px;
+
   
   
 }	
@@ -1703,7 +1706,7 @@ margin-bottom: -20px;
   text-align: center;
 
   background-color: #252b4d;
-  padding-top: 5px;
+  padding-top: 0px;
   padding-bottom: 20px;
 
 }
