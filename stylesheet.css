@@ -1295,7 +1295,7 @@ migrated from GoBrik.com CSS
 #content-sect2 {
 	 width: 100%;
 	padding-bottom: 30px;
-	background: url(svgs/blue-ode.svg) center top;
+	background: url(svgs/blue-ode3.svg) center top;
 	background-repeat: no-repeat;
 		}
 
@@ -1706,7 +1706,7 @@ margin-bottom: -20px;
   text-align: center;
 
   background-color: #252b4d;
-  padding-top: 0px;
+  padding-top: 5px;
   padding-bottom: 20px;
 
 }
@@ -1741,11 +1741,21 @@ padding-right: 6%;
 
 /* -------------------------------------------------------------------------- */
 
-/*	7. ARC
+/*	7. WIDGE FORMATTING
 
 /* -------------------------------------------------------------------------- */
 
 #popper header[data-v-219c7484] {
 background-image: none !important;
 background-color: green !important;
+}
+
+#wcb.wcb-d #wcb_a {
+  color: #252b4d !important;
+  background: #8cbdda !important;
+  border-color: #529bc2 !important;
+}
+
+#wcb #wcb_a, #wcb #wcb_g {
+  border:.2em solid #8cbdda !important;
 }
