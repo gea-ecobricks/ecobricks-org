@@ -198,6 +198,9 @@ div#header {
  	background-size: 250px;
 }
 
+
+<script defer src="https://arc.io/widget.min.js#mJFtQsHF"></script>
+
 -->
 
 
@@ -214,9 +217,28 @@ div#header {
 	  }
 	}
 </script>
-		
 
-<script defer src="https://arc.io/widget.min.js#mJFtQsHF"></script>
+
+
+<script type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function(event) {
+	setTimeout(addScript, 5000)
+  });
+  
+  function addScript() {
+  
+	script = document.createElement('script');
+	script.type = 'text/javascript';
+	script.async = true;
+	script.onload = function() {
+	  console.log("Added Script");
+	};
+	script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
+	document.getElementsByTagName('head')[0].appendChild(script);
+  }
+</script>
+
 	
 	<style>
 	
