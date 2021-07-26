@@ -852,7 +852,7 @@ migrated from GoBrik.com CSS
     -webkit-animation-delay: 14s;
 
     animation: slide2 10s forwards;
-    animation-delay: 14s;
+    animation-delay: 10s;
   }
 
   @media screen and (min-width: 1024px) and (max-width: 2000px) { 
@@ -1442,7 +1442,7 @@ margin-bottom: -20px;
 
 .ocean-vison img {
   position: absolute;
-  left: 0;
+  left: 0px;
   bottom: 0;
   width: 100%;
 }
