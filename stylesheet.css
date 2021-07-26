@@ -739,7 +739,7 @@ migrated from GoBrik.com CSS
   -webkit-animation-delay: 2s;
 
   animation: slide1 10s forwards;
-  animation-delay: 0s;  
+  animation-delay: 0.5s;  
 }
 
 @media screen and (min-width: 1024px) and (max-width: 2000px) { 
@@ -782,16 +782,16 @@ migrated from GoBrik.com CSS
 
 
 @-webkit-keyframes slide1 {
-  /*0% { 
+  0% { 
     left: 0%; 
   opacity: 0;
   }
   
-  8% { 
+  4% { 
     left: 54%; 
-  opacity: 1;}*/
+  opacity: 1;}
   
-  0%, 88% { 
+  7%, 88% { 
       left: 50%; 
   opacity: 1;}
   
@@ -809,16 +809,16 @@ migrated from GoBrik.com CSS
 
 
 @keyframes slide1 {
- /* 0% { 
+ 0% { 
     left: 0%; 
   opacity: 0;
   }
   
-  8% { 
+  4% { 
     left: 54%; 
-  opacity: 1;}*/
+  opacity: 1;}
   
-  0%, 88% { 
+  7%, 88% { 
       left: 50%; 
   opacity: 1;}
   
