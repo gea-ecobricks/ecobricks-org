@@ -23,9 +23,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="svgs/cloud-back.svg">
-<link rel="preload" as="image" href="webp/vision-bottom.png">
-<link rel="preload" as="image" href="webp/vision-top.webp">
+<link rel="preload" as="image" href="svgs/top-vision13.svg">
+<link rel="preload" as="image" href="svgs/top-vision9.svg">
 		
 	<!-- This calls GEA typography 
 <link href="https://fonts.googleapis.com">
@@ -304,27 +303,53 @@ text-align: right;
   opacity: 1;}
 	
 }
-
-#clouds {
-	background: url(svgs/cloud-back.svg) center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-	height: 95vh;
-   /* min-height: 500px;*/
+					      
+@media screen and (min-width: 1024px) and (max-width: 2000px) { 
+#extra-clouds {
+	    width: 100%;
+	height: 150px;
 	background-color: #00ffff;
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    margin-top: 0px;
-}
+  margin-top: -500px;
+}}
 
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {   
+  #extra-clouds {
+    height: 170px;
+    background-color: #00ffff;
+    width: 100%;
+	margin-top: -500px;
+  }}
+
+@media screen and  (min-width: 10px) and (max-width: 769px) { 
+  #extra-clouds {
+    height: 400px;
+    background-color: #00ffff;
+    width: 100%;
+	    margin-top: -500px;
+  }}
+
+#cloud-banner {
+	width: 100%;
+    position: relative;
+    z-index: 0;
+	background: url(svgs/top-vision13.svg) center bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #00ffff;
+    /*min-height: 100vh;*/
+ }
 
  #cloud-banner img {
 	 width: 100% !important;
+	 float: bottom;
 	 margin-bottom: -10px;
 }
 		
+		#popper .header-content[data-v-219c7484] {
+    background: #009002 !important;
+		}
+					      
 
 
   </style>	
@@ -411,28 +436,12 @@ text-align: right;
 				</div>
 			</div>
 		</div>
-
-
-    <div id="clouds"><img src="webp/vision-top.webp" width="100%"></div>
-	<div id="cloud-banner"><img src="webp/vision-bottom.png" width="100%"></div>
-
-<!-- SLIDER CONTENT -->
 	
 	<div id="sliders">
-<!--
 		<div id="slider1">
 			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%"></div>
 				<div id="slider-textbox">
 				<div id="slider-heading">Version 2.0 of the Enterprise Catalyst Program Launched</div>
-				<div id="slider-body">Plastic impact management for keen green companies, organizations and projects.  <a href="catalyst">Learn more</a></div>
-				<div id="slider-date">July 7th, 2021 | GEA Announcements</div>
-			</div>
-		</div>
--->
-		<div id="slider1">
-			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%"></div>
-				<div id="slider-textbox">
-				<div id="slider-heading">Imagine a Currency Based on Ecological Value</div>
 				<div id="slider-body">Plastic impact management for keen green companies, organizations and projects.  <a href="catalyst">Learn more</a></div>
 				<div id="slider-date">July 7th, 2021 | GEA Announcements</div>
 			</div>
@@ -457,17 +466,8 @@ text-align: right;
 		</div>
 	</div>
 
-    <!--
-        		<div id="slider3">
-			<div id="slider-image"><img src="webp/german.webp"  width="100%" height="78%"></div>
-			<div id="slider-textbox">
-				<div id="slider-heading">German Ecobrick Presentation & First Starter Workshop Launched</div>
-				<div id="slider-body">Our team has completed the translation of our Starter Workshop materials into German.  <a href="aes">First Course July 21st</a></div>
-				<div id="slider-date">July 21st, 2021 | GEA Courses</div>
-			</div>
-		</div>
-	</div>
-    -->
+	<div id="extra-clouds"></div>
+	<div id="cloud-banner"><img src="svgs/top-vision9.svg" width="100%" height="78%"></div>
 
 
 	<div id="content-sect1">
@@ -479,7 +479,7 @@ text-align: right;
 			<p>When we save, segregate and pack plastics into bottles, we can make building blocks that can be reused over and over again. Together we can build green spaces that enrich our community and safely secure plastic out of the biosphere.  Together we can transition from plastic to ever greener harmony with Earth’s cycles.</p>
 		</div>
 		 <a href="what" button class="main-button">About Ecobricks</a>
-		<h4><a href="what">What is an Ecobrick?</a> | <a href="how">How to Make?</a> | <a href="why">Why Make?</a></h4>
+		<h4><a href="what">What is an Ecobrick</a> | <a href="how">How to Make</a> | <a href="why">Why Make</a> | <a href="sequest">Plastic Sequestration</a></h4>
 	</div>	
 	
 </div>
@@ -488,12 +488,12 @@ text-align: right;
 <div id="content-sect2">
 	<div id="main-content">
 		<div class="lead-graphic"><img src="svgs/earth-service3.svg" width="100%" height="96%"></div>
-		<div class="big-header">A Deep Solution</div>
-        <div class="lead-paragraph">Join the Regenerative Movement</div>
+		<div class="lead-paragraph"> Join us towards plastic transition, sequestration & ocean protection.</div>
 		<div class="sub-text">
-		<p>Ecobricking is way for anyone anywhere to take personal responsibility for their plastic.  Together we can keep it out of the biosphere and out of capital and carbon intensive industrial processing.   Ecobricking follows the Earth's example towares cycling and sequestration.  Based on indegenous wisdom, extensive evaluation and earthen ethics, ecobricking isn't just about packing plastic-- it's about petro-capital transition.
+		<p>Did you know that the best way to keep plastic out of the oceans is to avoid supporting large scale ocean fishing?  <a href="https://www.onegreenplanet.org/news/ocean-plastic-made-discarded-fishing-nets/" target="_blank">46% of ocean plastic</a> is estimated to be discarded fishing nets.</p>
+		</div>
 		<a href="sequest" button class="main-button">Plastic Sequestration</a>
-		<h4><a href="/ocean">Circular Design</a> | <a href="/plastic">Plastic Transition</a> | <a href="/transition">Ayyew Wisdom</a> | <a href="/principles">Regenerative Principles</a> | <a href="/reports">GEA Reports & Whitepapers</a></h4>
+		<h4><a href="/ocean">Ocean Ecobricks</a> | <a href="/plastic">Plastic's Primordial Story</a> | <a href="/transition">Plastic Transition</a></h4>
 	</div>
 </div>	
 	  
@@ -517,10 +517,10 @@ text-align: right;
 		<div class="lead-graphic"><img src="webp/balancing-green.webp"  width="100%" height="100%"></div>
 		<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" ></div><!--width="300px" height="254px"-->
 		<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>
-		<div class="sub-text"><p>We live in the plastic age-- no matter how much we minimize, plastic consumption is inevitable across continents and culture. That's where ecobricking comes in-- and offsetting.   Imagine if for every 1kg of plastic consumed you could support 2kg of plastic sequestration.  The Ecobricks.org manual blockchain enables the authentication, valuation and vitalization of ecobrikcing.  Offset your household or company plastic with us.</p></div>
+		<div class="sub-text"><p>Let's face it.  We live in the plastic age-- no matter how much we minimize, we are all consumin plastic.  But just imagine... if for every 1kg of plastic your consumed you supported the sequestration of 2kg.  That's what we call grey to green plastic transition. </p></div>
 		<a href="what" class="main-button">Plastic Offsetting</a>
-		<h4><a href="/brikcoins">Brikcoin Manual Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About the GEA</a></h4>
-		<h5>Autheticated Ecobrick Sequestered (AES) Plastic Offsetting operates through the Brikcoin manual blockchain. Our revolutionary proof of value blockchain is based on the authentication of plastic secured out of the biosphere.</h5>
+		<h4><a href="/brikcoins">Brikcoin Manual Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About</a></h4>
+		<h4>AES Plastic Offsetting operates through the Brikcoin manual blockchain. Our revolutionary proof of value blockchain is based on the authentication of plastic secured out of the biosphere.</h4>
 		<img src="svgs/3brikcoins.svg" width="30%">
 	</div>
 </div>
