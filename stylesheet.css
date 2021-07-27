@@ -582,7 +582,7 @@ migrated from GoBrik.com CSS
 
 #sliders {
 	width: 100%;
-	height: 500px;
+	
 	margin-bottom: 0;
 	position: absolute;
 	z-index: 9;
@@ -638,6 +638,9 @@ migrated from GoBrik.com CSS
       padding-top: 20px;
 
       }}
+
+
+
                 
  
 
@@ -650,11 +653,9 @@ migrated from GoBrik.com CSS
   padding-top: 17px;
   }
   }
-
-
 @media screen and (max-width: 769px) {
 #slider-heading { 
-  font-size: 1.8em;
+  font-size: 2em;
   text-align: left;
   font-family: 'Arvo', serif;
   color: white;
@@ -662,13 +663,16 @@ migrated from GoBrik.com CSS
     }
     }
 
+
+
 @media screen and (min-width: 770px) and (max-width: 2000px) {   
 #slider-body { 
-  font-size: 2vw;
+  font-size: 2em;
   text-align: left;
   font-family: 'Mulish', sans-serif;
-  color: #333333;
+  color: #181818;
   padding-top: 15px;
+  font-weight: 300;
    }
   }
 
@@ -677,26 +681,48 @@ migrated from GoBrik.com CSS
     font-size: 1.3em;
     text-align: left;
     font-family: 'Mulish', sans-serif;
-    color: #333333;
-    padding-top: 8px;
+    color: #181818;
+    padding-top: 18px;
+    font-weight: 300;
     }
     }
 
 
+@media screen and (min-width: 770px) and (max-width: 2000px) {   
+#slider-link {
+  font-size: 1.8em;
+  text-align: right;
+  font-family: 'Mulish', sans-serif;
+  color:  rgba(255, 255, 255, 0.534);
+  padding: 14px 70px 0px 0px;
+  font-weight: 500;
+}
+}
 
-#slider-body a {
-  color:  #333333;
+@media screen and (max-width: 770px) {   
+  #slider-link {
+    font-size: 1.3em;
+    text-align: right;
+    font-family: 'Mulish', sans-serif;
+    color:  rgba(255, 255, 255, 0.534);
+    padding: 16px 10px 0px 0px;
+    font-weight: 300;
+  }
+}
+
+#slider-link a {
+  color:  #181818;
   text-decoration: underline;
   }
                 
-#slider-body a:hover	{
-  color:  black;
+#slider-link a:hover	{
+  color: white;
   text-decoration: none;
 }	
 
 @media screen and (min-width: 770px) and (max-width: 2000px) {   
 #slider-date {     
-  font-size: 1.1em;
+  font-size: 1.2em;
   text-align: left;
   color: black;
   font-family: 'Mulish', sans-serif;
@@ -717,11 +743,6 @@ migrated from GoBrik.com CSS
       }
     }
 
-    @media screen and (max-width: 769px) {
-      #slider-date { 
-        font-size: 0.9em;
-            }
-          }
 
 
 /*SLIDER 1*/
@@ -735,10 +756,10 @@ migrated from GoBrik.com CSS
   z-index: 9;
   transform: translateX(-50%);
 
- -webkit-animation: slide1 12s forwards;
-  -webkit-animation-delay: 2s;
+ -webkit-animation: slide1 12.5s forwards;
+  -webkit-animation-delay: 0.5s;
 
-  animation: slide1 10s forwards;
+  animation: slide1 12.5s forwards;
   animation-delay: 0.5s;  
 }
 
@@ -747,7 +768,7 @@ migrated from GoBrik.com CSS
 		width: 80%;
     height: fit-content;
 		margin: auto;
-		padding: 50px 20px 50px 2px;
+		padding: 75px 20px 80px 2px;
 		margin-top: 0px;
 		border-radius: 0px 0px 20px 20px;
 		box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
@@ -760,7 +781,7 @@ migrated from GoBrik.com CSS
   #slider1 {
       width: 85%;
       margin: auto;
-      padding: 75px 20px 40px 10px;
+      padding: 75px 20px 70px 10px;
       margin-top: 0px;
       border-radius: 0px 0px 15px 15px;
       box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
@@ -849,10 +870,10 @@ migrated from GoBrik.com CSS
     
 
     -webkit-animation: slide2 10s forwards;
-    -webkit-animation-delay: 14s;
+    -webkit-animation-delay: 13s;
 
     animation: slide2 10s forwards;
-    animation-delay: 10s;
+    animation-delay: 13s;
   }
 
   @media screen and (min-width: 1024px) and (max-width: 2000px) { 
@@ -860,7 +881,7 @@ migrated from GoBrik.com CSS
         width: 80%;
         height: fit-content;
         margin: auto;
-        padding: 100px 20px 50px 2px;
+        padding: 75px 20px 80px 2px;
         border-radius: 0px 0px 20px 20px;
         box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
       
@@ -953,18 +974,18 @@ migrated from GoBrik.com CSS
      transform: translateX(-50%);
 
 
-  -webkit-animation: slide3 12s forwards;
-  -webkit-animation-delay: 27s;
+  -webkit-animation: slide3 10s forwards;
+  -webkit-animation-delay: 23s;
 
   animation: slide3 10s forwards;
-  animation-delay: 27s;}
+  animation-delay: 23s;}
 
   @media screen and (min-width: 1024px) and (max-width: 2000px) { 
     #slider3 {
         width: 80%;
         height: fit-content;
         margin: auto;
-        padding: 50px 20px 50px 2px;
+        padding: 75px 20px 80px 2px;
  
         border-radius: 0px 0px 20px 20px;
         box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
