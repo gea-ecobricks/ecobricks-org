@@ -757,7 +757,7 @@ migrated from GoBrik.com CSS
   transform: translateX(-50%);
 
  -webkit-animation: slide1 12.5s forwards;
-  -webkit-animation-delay: 0.5s;
+  -webkit-animation-delay: 0.4s;
 
   animation: slide1 12.5s forwards;
   animation-delay: 0.5s;  
@@ -772,8 +772,6 @@ migrated from GoBrik.com CSS
 		margin-top: 0px;
 		border-radius: 0px 0px 20px 20px;
 		box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
-
-  
 }
 }
 
@@ -785,7 +783,6 @@ migrated from GoBrik.com CSS
       margin-top: 0px;
       border-radius: 0px 0px 15px 15px;
       box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
-
   }
   }
 
@@ -798,8 +795,6 @@ migrated from GoBrik.com CSS
     margin-top: 0px;
     } 
     }	
-
-
 
 
 @-webkit-keyframes slide1 {
