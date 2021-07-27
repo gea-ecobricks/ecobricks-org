@@ -757,10 +757,10 @@ migrated from GoBrik.com CSS
   transform: translateX(-50%);
 
  -webkit-animation: slide1 12.5s forwards;
-  -webkit-animation-delay: 0.4s;
+  -webkit-animation-delay: 0.3s;
 
   animation: slide1 12.5s forwards;
-  animation-delay: 0.5s;  
+  animation-delay: 0.3s;  
 }
 
 @media screen and (min-width: 1024px) and (max-width: 2000px) { 
@@ -803,11 +803,11 @@ migrated from GoBrik.com CSS
   opacity: 0;
   }
   
-  4% { 
+  3% { 
     left: 54%; 
   opacity: 1;}
   
-  6%, 88% { 
+  5%, 88% { 
       left: 50%; 
   opacity: 1;}
   
@@ -830,11 +830,11 @@ migrated from GoBrik.com CSS
   opacity: 0;
   }
   
-  4% { 
+  3% { 
     left: 54%; 
   opacity: 1;}
   
-  7%, 88% { 
+  5%, 88% { 
       left: 50%; 
   opacity: 1;}
   
