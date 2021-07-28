@@ -758,7 +758,7 @@ migrated from GoBrik.com CSS
 
 
  -webkit-animation: slide1 13s forwards;
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 0.3s;
 
   animation: slide1 13s forwards;
   animation-delay: 0.3s; 
@@ -804,11 +804,11 @@ migrated from GoBrik.com CSS
   opacity: 0;
   }
   
-  3% { 
+  4% { 
     left: 54%; 
   opacity: 1;}
   
-  0%, 88% { 
+  7%, 88% { 
       left: 50%; 
   opacity: 1;}
   
@@ -1312,14 +1312,14 @@ migrated from GoBrik.com CSS
 #content-sect2 {
 	 width: 100%;
 	padding-bottom: 30px;
-	background: url(svgs/blue-ode3.svg) center top;
+	background: url(webp/blue-ode-1600.webp) center top;
 	background-repeat: no-repeat;
 		}
 
 
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
 	#content-sect2 {
-		background-size: cover;
+		background-size: contain;
 		margin-top: 120px;
  }}
 
