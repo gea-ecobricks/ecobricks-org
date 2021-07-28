@@ -9,3 +9,4 @@ deployment:
     - /bin/cp -R icons $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
+    - /bin/cp -R pngs $DEPLOYPATH
