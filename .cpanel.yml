@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/ecobricks/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp stylesheet.css $DEPLOYPATH
     - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH

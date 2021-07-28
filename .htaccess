@@ -71,7 +71,7 @@ php_value max_execution_time = 180
 # New Ecobricks.org landing
 
 <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|webp|gif|js|css|swf|svg)$">
-Header set Cache-Control "max-age=1000, public"
+Header set Cache-Control "max-age=10000, public"
 </FilesMatch>
 
 #Alternate default index pages
