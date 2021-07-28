@@ -757,10 +757,10 @@ migrated from GoBrik.com CSS
   transform: translateX(-50%);
 
 
- -webkit-animation: slide1 13s forwards;
+ -webkit-animation: slide1 12s forwards;
   -webkit-animation-delay: 0s;
 
-  animation: slide1 13s forwards;
+  animation: slide1 12s forwards;
   animation-delay: 0s; 
 }
 
@@ -800,15 +800,15 @@ migrated from GoBrik.com CSS
 
 @-webkit-keyframes slide1 {
   0% { 
-    left: 46%; 
+    left: 47%; 
   opacity: 1;
   }
   
-  5% { 
-    left: 54%; 
+  4% { 
+    left: 53%; 
   opacity: 1;}
   
-  8%, 88% { 
+  7%, 88% { 
       left: 50%; 
   opacity: 1;}
   
@@ -827,15 +827,15 @@ migrated from GoBrik.com CSS
 
 @keyframes slide1 {
   0% { 
-    left: 46%; 
+    left: 47%; 
   opacity: 1;
   }
   
-  5% { 
-    left: 54%; 
+  4% { 
+    left: 53%; 
   opacity: 1;}
   
-  8%, 88% { 
+  7%, 88% { 
       left: 50%; 
   opacity: 1;}
   
@@ -866,10 +866,10 @@ migrated from GoBrik.com CSS
     
 
     -webkit-animation: slide2 10s forwards;
-    -webkit-animation-delay: 13s;
+    -webkit-animation-delay: 12s;
 
     animation: slide2 10s forwards;
-    animation-delay: 13s;
+    animation-delay: 12s;
   }
 
   @media screen and (min-width: 1024px) and (max-width: 2000px) { 
