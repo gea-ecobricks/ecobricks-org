@@ -800,15 +800,15 @@ migrated from GoBrik.com CSS
 
 @-webkit-keyframes slide1 {
   0% { 
-    left: 45%; 
-  opacity: 0;
+    left: 46%; 
+  opacity: 1;
   }
   
-  10% { 
-    left: 55%; 
+  5% { 
+    left: 54%; 
   opacity: 1;}
   
-  15%, 88% { 
+  8%, 88% { 
       left: 50%; 
   opacity: 1;}
   
@@ -827,15 +827,15 @@ migrated from GoBrik.com CSS
 
 @keyframes slide1 {
   0% { 
-    left: 45%; 
-  opacity: 0;
+    left: 46%; 
+  opacity: 1;
   }
   
-  10% { 
-    left: 55%; 
+  5% { 
+    left: 54%; 
   opacity: 1;}
   
-  15%, 88% { 
+  8%, 88% { 
       left: 50%; 
   opacity: 1;}
   
