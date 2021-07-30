@@ -757,7 +757,7 @@ migrated from GoBrik.com CSS
   transform: translateX(-50%);
 
 
- -webkit-animation: slide1 12s forwards;
+  -webkit-animation: slide1 12s forwards;
   -webkit-animation-delay: 0s;
 
   animation: slide1 12s forwards;
@@ -1289,7 +1289,7 @@ migrated from GoBrik.com CSS
           }
           }
 
-  @media screen and (min-width: 770px) and (max-width: 2000px) { 
+  @media screen and (min-width: 1024px) { 
 #dolphin-graphic {	
   width: 600px;
   margin-top: -200px;
