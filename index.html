@@ -83,7 +83,7 @@
 <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 	
-	
+
 	<!-- Meta tags for page display and search engine listing-->
 
 <title>Ecobricks.org</title>
@@ -121,90 +121,6 @@ function topFunction() {
 		
 // Localise translation scripts
 
-<script src="https://global.localizecdn.com/localize.js"></script>
-<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
-	
-	<script>
-  Localize.initialize({
-    key: 'OuoVGmZSN0BEz', 
-    rememberLanguage: true,
-    // other options go here, separated by commas
-  });
-</script>
-
-
-
-		<script type="text/javascript">
-	$(document).ready(function () {
-		$(".first-load").hide();
-	});
-</script>
-
-
-<script type="text/javascript">
-		setTimeout(function(){	
-		window.onload = function(){
-		document.getElementById("first-load").style.display='none';}
-		}, 2000);
-		  
-</script>	
-
-<script type="text/javascript">
-	$(function() {
-		$(document).ready(function(){
-				setTimeout(function() { $("#slider1").style.display='none';}, 12000)
-				setTimeout(function() { $("#slider2").style.display='none';}, 24000)
-		
-		})
-</script>
-
-
-	<script>
-		function languageMenu() {
-		  var x = document.getElementById("myTopnav");
-		  if (x.className === "topnav") {
-			x.className += " responsive2";
-		  } else {
-			x.className = "topnav";
-		  }
-		}
-	</script>
-		
-
-					      
-div#preloaded-images {
-   position: absolute;
-   overflow: hidden;
-   left: -9999px; 
-   top: -9999px;
-   height: 1px;
-   width: 1px;
-}
-
-/*	
-
-					      
-div#wrap {
-	background: url(image_01.png) no-repeat -9999px -9999px;
-	}
-div#jump {
-	background: url(image_02.png) no-repeat -9999px -9999px;
-	}
-div#header {
-	background: url(image_03.png) no-repeat -9999px -9999px;
-	}
-
-#first-load {
-	z-index: 100;	
-	position: fixed;
- 	left: 0px;
-  	top: 0px;
-  	width: 100%;
-  	height: 100%;
-  	background: url('images/albatross-loader.gif') center no-repeat, #fff;
-	box-sizing: border-box;
- 	background-size: 250px;
-}
 
 
 <script defer src="https://arc.io/widget.min.js#mJFtQsHF"></script>
@@ -246,6 +162,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	document.getElementsByTagName('head')[0].appendChild(script);
   }
 </script>
+
+    
+<script src="https://global.localizecdn.com/localize.js"></script>
+<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+
+<script>
+  Localize.initialize({
+    key: '911e632bfc957',
+    rememberLanguage: true,
+  });
+</script>
+
+  
 
 	
 	<style>
@@ -376,13 +305,15 @@ text-align: right;
 							<button class="dropbtn-lang">ENG				
 							 </button>
 								<div class="dropdown-content-language">
-								  <a href="https://www.ecobricks.org/index.php?lang=id">🇮🇩 IND</a>
-								  <a href="#">🇪🇸 ESP</a>
+									<a href='javascript:Localize.setLanguage("id")'🇮🇩 IND</a>
+										<a href='javascript:Localize.setLanguage("es")'>🇪🇸 ESP</a>
 								  <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>
 								  <a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>
 							    </div>
 				    </div> 
 				</div>
+
+
 						
 				<div class="topnav" id="myTopnav">
 					<div class="dropdown">
