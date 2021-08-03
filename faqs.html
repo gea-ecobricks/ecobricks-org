@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+
+<html amp lang="en">
+
+	<head>
+		
+
+<meta charset="utf-8">
+		<link rel="canonical" href="https://www.ecobricks.org"> 
+		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+	<!--
+	
+	//AMP
+		<script async src="https://cdn.ampproject.org/v0.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	-->
+  
+
+
+	<!-- This calls jquery javascript library 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+
+<link rel="preload" as="image" href="logos/gea-horizontal.svg">
+<link rel="preload" as="image" href="svgs/cloud-back.svg">
+<link rel="preload" as="image" href="svgs/vision-bottom.svg">
+<link rel="preload" as="image" href="svgs/mountain-top.svg">
+<link rel="preload" as="image" href="webp/mandalic.webp">
+
+
+		
+	<!-- This calls GEA typography 
+<link href="https://fonts.googleapis.com">
+<link href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap"></noscript>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="print" onload="this.media='all'">
+
+
+-->
+<link href="https://fonts.gstatic.com" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+	
+<!--
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></noscript>
+-->
+		
+	<!-- This calls our Github hosted stylesheet -->
+		
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+		
+		
+	<!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
+<link rel="manifest" href="manifest.webmanifest">-->
+
+	<!-- This allows Ecobricks.org to be used a PWA on iPhones -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.8, target-densitydpi=160, maximum-scale=1, user-scalable = no">
+-->
+<meta http-equiv="Cache-control" content="no-store" Cache-Control: private, max-age=604800>
+<meta name="apple-mobile-web-app-title" content="GoBrik">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+	
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+	
+
+	<!-- Meta tags for page display and search engine listing-->
+
+<title>Ecobricks.org</title>
+<meta name="keywords" content="ecobricks, plastic offsets, ecobrick, plastic solved, eco-brick, gobrik, bottle brick, plastic solution, recycling, upcycling, plastic sequestration">
+<meta name="description" content="Together we can secure plastic out of the biosphere, out of industry and into building the green world for all, that we all long to see.">
+	
+	
+	<!-- Facebook Open Graph Tags for social sharing-->
+
+  <meta property="og:url"           content="https://www.ecobricks.org"/>
+  <meta property="og:type"          content="website">
+ <meta property="og:title"         content="Ecobricks.org | Plastic Transition">
+  <meta property="og:description"   content="Together we can secure plastic out of the biosphere, out of industry and into building the green new world we all long to see."/>
+  <meta property="og:image"         content="https://www.ecobricks.org/pngs/social-banner2.png"/>
+  <meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="638" />
+  <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it."/>
+  <meta property="og:locale" content="en_GB" />
+ 
+
+
+<!-- JAVA SCRIPTS
+
+	
+	<script>
+
+// When the user clicks on the button, scroll to the top of the document
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	
+		
+// Localise translation scripts
+
+<script src="https://global.localizecdn.com/localize.js"></script>
+<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+
+<script>
+  Localize.initialize({
+    key: '911e632bfc957',
+    rememberLanguage: true,
+  });
+</script>
+
+
+
+<script defer src="https://arc.io/widget.min.js#mJFtQsHF"></script>
+
+-->
+
+
+
+<!-- enables the nav menu on mobile by click-->
+	
+<script type="text/javascript">
+	function appMenu() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+</script>
+
+<!-- This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score-->
+
+<script type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function(event) {
+	setTimeout(addScript, 8000)
+  });
+  
+  function addScript() {
+  
+	script = document.createElement('script');
+	script.type = 'text/javascript';
+	script.async = true;
+	script.onload = function() {
+	  console.log("Added Script");
+	};
+	script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
+	document.getElementsByTagName('head')[0].appendChild(script);
+  }
+</script>
+
+    
+
+  
+
+	
+	<style>
+	
+
+
+#full-page {
+	z-index: 0;
+	text-align: center;
+	position: relative;
+	position: bottom;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	overflow-x: hidden !important;
+}
+
+
+
+
+
+#header {  
+	padding-top: 20px;
+	padding-bottom: 14px;
+	padding-left: 21px;
+	z-index: 10;
+	position: relative;
+	background: white;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	text-align: left;
+	box-sizing: border-box;
+	
+	
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 2000px) { 
+#header object {
+  width: 276px;
+  height: 50px
+
+}
+}
+
+
+@media screen and (max-width: 769px) {
+#header img {
+  width: 200px;
+  
+
+}
+}
+
+#desktop-menu {
+  margin-top: -72px;
+  position: relative;
+  z-index: 10;
+width: 100%;
+background-color: white;
+height: fit-content;  
+text-align: right;
+  opacity: 1;
+
+  /*
+-webkit-animation: menuFadeIn 1s forwards;
+  -webkit-animation-delay: .5s;
+
+  animation: menuFadeIn 1s forwards;
+  animation-delay: 2s;  
+}
+		
+@-webkit-keyframes menuFadeIn {
+  0% { 
+  opacity: 0;
+  }
+  100% { 
+  opacity: 1;}
+	
+		}
+	
+@keyframes menuFadeIn {
+  0% { 
+  opacity: 0;
+  }
+  100% { 
+  opacity: 1;}*/
+	
+}
+
+#clouds {
+	background: url(svgs/cloud-back.svg) center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+	height: 95vh;
+   /* min-height: 500px;*/
+	background-color: #00ffff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 0px;
+}
+
+
+ #cloud-banner img {
+	 width: 100% !important;
+	 margin-bottom: -10px;
+}
+		
+#slider1 {
+  will-change: transform, opacity;
+  background-color: rgba(0, 140, 255, 0.9);
+}
+
+  </style>	
+
+</head>
+
+											  
+											  
+<body id="full-page">
+	<div id="load-background">
+		<div id="header">
+			<!--<a href="index.html"><object type="image/svg+xml" data="logos/gea-prototype-logo-animated.svg" width="250" height="56"></object></a>-->
+			<img src="logos/gea-horizontal.svg" alt="Global Ecobrick Alliance Logo" width="308" height="50">
+		</div>
+			<div id="desktop-menu">
+				<div class="topnav-lang" id="myTopnav-lang">
+					<div class="dropdown-lang">
+							<button class="dropbtn-lang">ENG				
+							 </button>
+								<div class="dropdown-content-language">
+									<a href='javascript:Localize.setLanguage("ed")'>🇬🇧 ENG</a>
+									<a href='javascript:Localize.setLanguage("id")'>🇮🇩 IND</a>
+									<a href='javascript:Localize.setLanguage("es")'>🇪🇸 ESP</a>
+								  <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>
+								  <a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>
+							    </div>
+				    </div> 
+				</div>
+
+
+						
+				<div class="topnav" id="myTopnav">
+					<div class="dropdown">
+					  	<button class="dropbtn"><div id="menu-circle"><img src="svgs/grey-emblem.svg" width="30px" height="30px"></div><div id="menu-text">GEA Servers</div>
+							</button>
+					  		<div class="dropdown-content-app">
+								<a href="https://gobrik.com" target="_blank">
+									<div id="gobrik-menu">
+										<div id="icon-menu">
+											<img src="icons/gobrik.svg" width="65px" height="65px">
+										</div>
+										<div id="apptext-menu">
+											<div class="apptext-header">GoBrik </div>
+											<div class="apptext-sub">Ecobricking Webapp<br>Manage your ecobricks<br>Connect to the Brikcoin blockchain</div>
+										</div>
+									</div>
+								</a>
+
+								<a href="https://gea.mandala.team" target="_blank">
+									<div id="mattermost-menu">
+										<div id="icon-menu"><img src="icons/mattermost.svg" width="65px" height="65px">
+										</div>
+										<div id="apptext-menu">
+											<div class="apptext-header">Circles </div>
+											<div class="apptext-sub">Join our free mattermost ecobricker community<br>Share your ecobricking<br>Learn from others</div>
+										</div>
+									</div>
+								</a>
+						 <!--	<a href="#"><div id="github-menu"><div id="icon-menu"><img src="icons/github.png"  width="50px" height="50px"></div><div id="apptext-menu"><div class="apptext-header">GEA Github </div><div class="apptext-sub">Join our open source development<br>of content, concepts and software<br>for the plastic transition movement</div></div></div></a>-->
+						 <a href="https://gobrik.com/#offset" target="_blank">
+							<div id="offset-menu">
+								<div id="icon-menu"><img src="icons/offset.svg" width="65px" height="65px"></div>
+								<div id="apptext-menu">
+									<div class="apptext-header">AES Plastic Offsetting </div>
+									<div class="apptext-sub">Offset your plastic footprint<br>on our GoBrik AES Platform</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div> 
+				<a href="principles">Principles</a>
+					<a href="about">About Us</a>
+					<div class="dropdown">
+						<button class="dropbtn"><div id="drop-text">Building 
+						  <i class="fa fa-caret-down"></i></div>
+						</button>
+						<div class="dropdown-content-normal">
+							<a href="/build">Ideas & Examples</a>
+							<a href="/modules">Modules</a>
+							<a href="/earth">Earth & Ecobricks</a>
+							<a href="/openspaces">Open Spaces</a>
+						</div>
+					</div>
+
+					<div class="dropdown">
+						<button class="dropbtn"><div id="drop-text">About Ecobricks 
+						  <i class="fa fa-caret-down"></i></div>
+						</button>
+						<div class="dropdown-content-normal">
+							<a href="what">What are Ecobricks</a>
+							<a href="how">How to Make?</a>
+							<a href="why">Why Ecobricks?</a>
+							<a href="sequest">Plastic sequestration</a>
+						</div>
+					</div> 
+				
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem.svg"width="30px" height="30px"></a>
+					
+				</div>
+			</div>
+		</div>
+
+
+    <div id="clouds"><img src="webp/faq-top.webp" width="100%"></div>
+	<div id="cloud-banner"><img src="webp/faq-bottom.webp" width="100%"></div>
+
+<!-- SLIDER CONTENT -->
+	
+	<div id="sliders">
+<!--
+		<div id="slider1">
+			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%"></div>
+				<div id="slider-textbox">
+				<div id="slider-heading">Version 2.0 of the Enterprise Catalyst Program Launched</div>
+				<div id="slider-body">Plastic impact management for keen green companies, organizations and projects.  <a href="catalyst">Learn more</a></div>
+				<div id="slider-date">July 7th, 2021 | GEA Announcements</div>
+			</div>
+		</div>
+-->
+		<div id="slider1">
+			<div id="slider-image"><img src="webp/faqs-question.webp"></div>
+			<div id="slider-textbox">
+				<div id="slider-heading">You've Got Ecobrick Questions-- we've got answers!</div>
+				<div id="slider-date">August 2, 2021 | GEA Updated Content</div>
+				<div id="slider-body">Our team has been working on ecobricks issues arising around the world for the last decade.  We've laid out the most frequent questions here-- along with simple answers and links to pages that are way more advanced. </div>
+				<!--<div id="slider-link">>> <a href="mandalas"> Join Circles</a></div>-->
+				
+			</div>
+		</div>
+
+		<div id="slider2">
+
+			<div id="slider-image"><img src="webp/faqs-400px.webp"></div>
+			<div id="slider-textbox">
+				<div id="slider-heading">What is an Ecobrick?</div>
+				<div id="slider-date">July 27th, 2021 | GEA Update Content</div>
+				<div id="slider-body">An ecobrick is a plastic bottle packed with used plastic to a set density to create a reusable building block. Ecobricks can be used for short and long-term applications, including furniture, garden walls and other structures.</div>
+				<div id="slider-link">>> <a href="what"> Ecobrick Basics</a></div>
+			
+			</div>
+		</div>
+
+		<div id="slider3">
+
+			<div id="slider-image"><br><img src="webp/eb-sky-400px.webp"  width="100%" height="85%"></div>
+			<div id="slider-textbox">
+				<div id="slider-heading">How to Make an Ecobrick?</div>
+				<div id="slider-date">July 26th, 2021 | GEA Announcements</div>
+				<div id="slider-body">Ecobricks are made by packing a plastic PET drinking bottle tight with plastics. First, save up and segregate your plastic consumption over a month. Clean and dry it. Choose a medium or small size bottle to start by packing a bottom color...</div>
+				<div id="slider-link">>> <a href="how"> Full 10 Step GUide</a></div>
+			
+			</div>
+		</div>
+	</div>
+
+    <!--
+        		<div id="slider3">
+			<div id="slider-image"><img src="webp/german.webp"  width="100%" height="78%"></div>
+			<div id="slider-textbox">
+				<div id="slider-heading">German Ecobrick Presentation & First Starter Workshop Launched</div>
+				<div id="slider-body">Our team has completed the translation of our Starter Workshop materials into German.  <a href="aes">First Course July 21st</a></div>
+				<div id="slider-date">July 21st, 2021 | GEA Courses</div>
+			</div>
+		</div>
+	</div>
+    -->
+
+    <div id="main-content">
+        <div id="content-block">
+	    	<!--<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg"width="100%" height="76%" ></div>-->
+		    <h1>Frequently Asked Questions</h1>
+		
+            <h4>You've got ecobrick questions... </h4>
+		
+		    <h5>And we've got short answers, long answers, resources and reports!  Click through the common ecobrick questions below.  Need to know more?  Click through to the appropriate page on our site.  Need to go even deeper?  Look for the links to our GEA white papers and reports-- they are free to access and can be cited as per our creative commons BY-SA 4.0 license.</h5>
+
+            <h5><ul>
+                 <li><b>Doing a story on ecobricks?</b>  Be sure to check out <a href="media">our media kit!</a></li>
+                 <li><b>Doing a paper on ecobricks?</b>  Be sure to check out <a href="media">our reports and white papers!</a></li>
+                 <li><b>Training others to make ecobricks?</b> Be sure to check out <a href="trainings">trainer of trainer program</a></li>
+             </ul><h5>
+             
+             <h5>Just need to chat about your idea or question? Join our Mattermost <a href="https://gea.mandala.team/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">ecobricker community</a> and bring it up there!</h5>
+        </div>
+        <div id="content-block">
+
+            <h2>The Big Questions</h2>
+            <h5><ul>
+                <li><a href="#what">What is an Ecobrick?</a>  /what</li>
+                <li><a href="#how">How to make an ecobrick?</a>  /how</li>
+                <li><a href="#why">Why make ecobricks?</a> /why</li>
+                <li><a href="#principles">Why are you guys so excited about ecobricks?</a>  /principles</li>
+                <li><a href="#build">What can you build with ecobricks?</a> /build</li>
+                <li><a href="#circular">What makes ecobricks and ecobrick applications any different from other plastic stuff?</a>  /circular</li>
+                <li><a href="#ptr">Don't ecobricks just encourage people to consume more plastic?</a> /ptr</li>
+                <li><a href="#dropoff">Where can I drop my ecobricks?</a> /dropoff</li>
+                <li><a href="#modules">What are Ecobrick Modules?</a>  /modules</li>
+                <li><a href="#dms">How to make ecobrick Lego</a>? /dms</li>
+                <li><a href="#open">What are Ecobrick Open Spaces?</a>  /openspace</li>
+                <li><a href="#poison">I've heard that plastic can be dangerous, is this why we ecobrick?</a>  /poison</li>
+                <li><a href="#earth">How do you build with ecobricks and earth?</a> /earth</li>
+                <li><a href="#fire">What about Ecobricks and fire? </a>  /fire</li>
+                <li><a href="#ocean">What about beach and ocean plastic?</a>  /ocean</li>
+                <li><a href="#cigbricks">What about cigarette filters?</a> /cigbricks</li>
+                <li><a href="#gobrik">What is GoBrik?</a>  /gobrik</li>
+                <li><a href="#brikcoins">What are Brikcoins?</a>  /brikcoins</li>
+            </ul></h5>
+            <h2>More Questions</h2>
+            <h5><ul>
+                <li><a href="#movement">How to connect with the movement?</a> /movement</li>
+                <li><a href="#about">Who are you guys?</a> /about</li>
+                <li><a href="#trainings">How to get trained to teach ecobricks?</a> /trainings</li>
+                <li><a href="/catalyst">I am a business owner (read: CEO, wealthy person, king, queen). What can I do to help the ecobricks movement and encourage plastic transition with the my company/business/corporation/empire?</a> /catalyst</li>
+                <li><a href="#media">I am with the media.  How do I do a story on ecobricks that avoids the common misconceptions?</a> /media</li>
+                <li><a href="#contribute">How to contribute to the ecobrick movement and GEA?</a> /contribute</li>
+            </ul></h5>
+            <h2>GoBrik Questions</h2>
+            <h5><ul>
+                <li><a href="#serial">Where can I find the post of my logged ecobrick?</a> /flow</li>
+                <li><a href="#start">How to sign up for an account on GoBrik?</a> /start</li>
+                <li><a href="#serial">Where can I find the post of my logged ecobrick?</a> /flow</li>
+                <li><a href="#start">How to sign up for an account on GoBrik?</a> /start</li>
+            </ul></h5>
+<hr />
+<h3><br />The Big Questions</h3>
+<p><a name="what"></a></p>
+<h4>What is an ecobrick?</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>An ecobrick is a plastic bottle packed with used plastic to a set density to create a reusable building block. Ecobricks can be used for short and long-term applications, including furniture, garden walls and other structures. Ecobricks are produced primarily as a means of managing plastic waste by sequestering it and containing it safely, by terminally reducing the net surface area of the packed plastic to effectively secure the plastic from degrading into toxins and microplastics. Ecobricking is a both an individual and collaborative endeavour. The ecobricking movement promotes the personal ecobricking process as a means to raise awareness of the consequences of consumption and the dangers of plastic. It also promotes the collaborative process as a means to encourage communities to take collective responsibility for their plastic waste and to use it to produce a useful product.</p>
+<p><a href="/what">More: What is an Ecobrick?</a></p>
+<p>&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<p><a name="how"></a></p>
+<h4>How to make an ecobrick?</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Ecobricks are made by packing a plastic PET drinking bottle tight with plastics. First, save up and segregate your plastic consumption over a month. Clean it and keep it dry. Choose a medium or small size bottle to start-- be sure that you can access others exactly like it over the next year so that you can complete a household project. Start by inserting a a soft, colored plastic into the bottom to fill the corners. Use a stick to pack the plastic down until you have a 2-3cm base of a single colored plastic. Cut up your soft and hard plastics and insert them losely into the bottle until it is almost full. Use your stick to pack the plastics down by pushing down on the sides while rotating your bottle around. Ensure that the base of your bottle is fully packed solid and the "feet" of the bottle are filled in. Fill the bottle up again with loose plastic and pack down around the sides. Use soft plastics (like bags and cellephanes) to stick down the bouncy hard plastics. Continue this process until the bottle is fully packed. Ensure that the neck is packed as solid as the rest of the bottle, while leaving 1-2cm of clearance between the packed plastic and the top of the bottle. We encourage individual's to log their ecobrick with their community group or school, to track progress. Use our GoBrik web app to assist with this process. Use permanent enamel paint to record your name and date on the bottle and/or serial number. Store your ecobrick in a dedicated storage area where it is safe from sun, rodents, and theft in preparation for building.</p>
+<p><a name="why"></a></p>
+<h4>Why make ecobricks?</h4>
+<p>Ecobricks are a simple, low-energy, zero cost method to take personal responsibility for the plastic we consume.  Ecobricking enables us to terminally reduce the net surface area of plastic, and it secure it out of the biosphere and out of the problematic industrial recycling system.  In so doing, we create reusable building blocks that can used to for all sorts of great short and long-term applications.  These applications unite ecobrickers into collaborative community endeavours. The process making and applying Ecobricks raises ecological consciousness and energizes the plastic transition of individuals, communities and companies.</p>
+<p><a href="/why">More on Why Ecobricks</a></p>
+<p><a name="principles"></a></p>
+<h4>What makes you guys so excited about ecobricks?</h4>
+<p>Ecobricks aren't bricks and they aren't waste management.  Ecobricks are a super exciting way that we can work together to take responsibility for our plastic and transition out of the paradigm that is causing so much anguish to us and the biosphere.   The ecobrick movement and technology are powered by regenerative principles.  This is why the ecobrick movement is growing exponentially around the world, but also why so many people haven't heared of it.  Ecobricks are a non-capital, open source, cradle-to-cradle, collaboration powered technology that transcends age, gender and wealth.   <br /><br /><a href="/principles">Learn more about Ecobrick Principles</a></p>
+<p>&nbsp;</p>
+<p><a name="build"></a></p>
+<h4>What can you build with ecobricks?</h4>
+<p>Ecobricks can be connected using tire bands, silicone, cob, and cement to build furniture, gardens, structures and more. Ecobricks are being used in different ways around the world. Ideally, ecobrick constructions use <a class="mw-redirect" title="Cradle to cradle design" href="https://en.wikipedia.org/wiki/Cradle_to_cradle_design">cradle to cradle design</a> methods of combining the bottles-- ensuring that the ecobricks can be extricated without compromise to the bottle at the end of the construction's life span. <sup id="cite_ref-54" class="reference"></sup> It is useful to differentiate between short-term ecobrick and long term ecobrick applications</p>
+<p><a href="/build">More on Building with Ecobricks...</a></p>
+<p>&nbsp;</p>
+<p><a name="circular"></a></p>
+<h4>What makes ecobricks and ecobrick applications any different from other plastic stuff?</h4>
+<p>The methods of making and building with Ecobricks that are endorsed by the Global Ecobrick Alliance are all cradle-to-cradle.  In other words, ecobrick applications, leverage the long-lasting properties of plastic and apply the principles of circular design, so that ecobricks can be used over and over again. </p>
+<p><a href="/circular">More on Circular Design</a></p>
+<p>&nbsp;</p>
+<p><a name="ptr"></a></p>
+<h4>Don't ecobricks just encourage people to consume more plastic?</h4>
+<p>Ecobrick methods, trainings and applications are design from the ground up to point towards plastic transition and regenerative principles.  In this way, ecobricks serve as a transition technology, or a gateway habit, to guide us out of consuming in the petro-capital economy, away from generating waste, and away from plastic creation.  Ecobricking enables us to measure our personal, household and company Plastic Transition.  Learn how to calculate and track your own Plastic Transition Ratio (PTR).</p>
+<p><a href="/ptr">More on the PTR</a></p>
+<p>&nbsp;</p>
+<p><a name="dropoff"></a></p>
+<h4>Where can I drop off my complete ecobricks?</h4>
+<p>Ecobricks are awesome for building and for exchanging with your community.  You can find the nearest community ecobrick hub on our map.  You can post your request for ecobricks, or your offer to drop ecobricks on our marketplace (comming January 2020!).  But even better, you can put ecobricks to use yourself in your home with simple and applications.</p>
+<p><a href="/dropoff">More on Dropping Off Ecobricks</a></p>
+<p>&nbsp;</p>
+<p><a name="modules"></a></p>
+<h4>What are Ecobrick Modules?</h4>
+<p>Ecobrick modules are a simple, practical application of ecobricks.  All you need are a dozen to start and you can build a simple stool that can later be combined with other modules to make tables and chairs.  Milstein modules are the simplest type of module and allow you to build two layers vertically and expand horizontally to make couches, beds and even stages.<br /><br /><a href="/modules">Learn more about Milstein Modules</a></p>
+<p>&nbsp;</p>
+<p><a name="dms"></a></p>
+<h4>What are Ecobrick Dieleman Modules?</h4>
+<p>Dieleman modules are an exciting way to make life-sized lego out of ecobricks.  Dieleman modules are a geometric configuration of 16 ecobricks that enables vertical and horizontal inter-connection. These modules can be stacked horizontally and vertically indefinitely. Applications include indoor playgrounds, temporary stalls, sheds, and circular structure.<sup id="cite_ref-59" class="reference"></sup></p>
+<p><a href="/dms">Learn more about Dieleman Modules</a></p>
+<p>&nbsp;</p>
+<p><a name="open"></a></p>
+<h4>What are Ecobrick Open Spaces?</h4>
+<p>Ecobrick open spaces are interactive spaces created by mobilizing all of a community's ecobrick modules.  Using dozens (or better hundreds!) of milstein and dieleman modules open spaces for sitting, talking, playing and more can be created for festivals, showcases, markets, fairs, etc.  Open Spaces enable participants to playfully arrange modules to collaboratively create a space that best suits the needs of the moment.</p>
+<p><a href="/openspaces">Learn more about Open Spaces</a></p>
+<p><a name="build"></a></p>
+<h4>How do you build with earth and ecobricks?</h4>
+<p>Building with earth and ecobricks is the ultimate longterm application of ecobricks to make gardens, parks, walls and structures. Earth and ecobrick is fundamentally different from industrial building and is best suited for community spaces such as gardens, parks, and structures.  The first step is enlisting your community to make lots of ecobricks and to come up with a shared vision of how you will put them to use.  Construction makes use of your local soil, sand, straw, hay and organic materials.   You begin with a soil test that determines the ratio for making your cob mortar.  You must then prepare your building site, soaking your soil, preparing the foundation, and organizing your ecobricks.  When you're ready to your community is enlisted to help in the construction process, laying the ecobricks horizontally row upon row.  Once the wall is complete you finish it with a render suited to the useage of your construction.</p>
+<p><a href="/earth">Learn more about Earth and Ecobrick Building</a></p>
+<h4> </h4>
+<p><a name="poison"></a></p>
+<h4>I've heard that plastic can be dangerous, is this why we ecobrick?</h4>
+<p>Yes.  Plastic loose in the environment can degrade into microplastics and toxins.  Preventing plastic from turning into a poison is the man reason we ecobrick.  Ecobricking terminally reduces the surface of plastic, securing it indefinitely inside a bottle, all the while turning it into a useful building block.</p>
+<p><a href="/poison">Learn more about plastic's dangers</a></p>
+<p><a name="fire"></a></p>
+<h4>Are ecobricks a fire hazard since they are made with flammable plastic?</h4>
+<p>Plastic, just like almost everything else, can be flamable.  However, making ecobricks properly according to GEA standards greatlly reduces their flammability.  Furthermore, by building and using ecobricks properly, their fire hazard is further greatly reduced.  Ecobrick and earth building for green spaces, our most recommended ecobrick application, reduces flammability to virtually nil.</p>
+<p><a href="/fire">Learn more about Ecobricks and Fire</a></p>
+<p>&nbsp;</p>
+<p><a name="ocean"></a></p>
+<h4>What about plastic I pick up in the ditch or on the beach-- can it be ecobricked?</h4>
+<p>Yes... and no!  Normal ecobricks are all about the mindful repurposing of the plastic that we consume personally.  This means caring for our plastic by segregating it, recording it, cleaning and drying it.  The plastic that has washed up on the beach or we find on the road side tends to be irreparably dirty.  However, it poses a contamination danger to the environment just as much as any plastic.  To take care of it, you can pack it into what we call an ocean ecobrick.  Ocean ecobricks are made by cutting two PET bottles, packing both tight, and merging them into one.</p>
+<p><a href="/ocean">Learn more about Ocean Ecobricks</a></p>
+<p>&nbsp;</p>
+<p><a name="cigbrick"></a></p>
+<h4>What about cigarette filters-- can they be ecobricked?</h4>
+<p>YES.  Cigarette filters are made from plastic, and although small, are one of the biggest source of plastic pollution.  We've thus come up with a special technique and ecobricking just for cigarette butts.  Whenyou're done smoking, simply peel of the paper and remove the ash (this can be safely discarded).  Then, place the filter into your ecobrick.  If you're really keen, you can make an ecobrick entirely out of cigarette filters.  We call this a Cigbrick!</p>
+<p><a href="/cigbricks">Learn more about Cigbricks</a></p>
+<p>&nbsp;</p>
+<p><a name="gobrik"></a></p>
+<h4>What is this GoBrik app for ecobricking?</h4>
+<p>The GoBrik platform serves ecobrickers around the world, enabling them to log, manage, validate, authenticate and exchange their ecobricks. Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. Once logged, ecobricks are automatically submitted to the validation queue where they are reviewed by the community of ecobrickers. Ecobricks that are successfully authenticated (the reviewers concur on the visible data) are then eligible to be exchanged and traded on the platform.</p>
+<p><a href="/gobrik">Learn more About GoBrik</a></p>
+<p>&nbsp;</p>
+<p><a name="brikcoins"></a></p>
+<h4>What are these Brikcoins I keep hearing about?</h4>
+<p>Brikcoins (<strong><span class="">ß</span></strong>) are a new medium of exchange founded on community collaboration and a healthy planet. Brikcoins are based on ecobricked, sequestered, plastic. Brikcoins are earned by helping to authenticate ecobricks on GoBrik and prove the sequestration of plastic. Every Brikcoin is backed by 100g of packed and secured plastic. Anyone with an account can start earning earning Brikcoins which can then be used to pay for GEA course, exchange with GoBrik users, and more.</p>
+<p><a href="/Brikcoins">Learn more about Brikcoins</a></p>
+<h3><br />More Questions</h3>
+<p><a name="movement"></a></p>
+<h4><a href="#movement">How to connect with the movement?</a> /movement</h4>
+<p>Ecobrick movements are all over the world!  While many of these movements are not online at all, many are and use social media to answer questions and connect ecobrickers with insights and inspiration.  Check out our list of social media pages around the world.</p>
+<p><a href="/movement">Learn more about the Ecobrick Movement</a></p>
+<p><a name="about"></a></p>
+<h4>Who are you guys? What is the GEA?</h4>
+<p>The global ecobrick alliance focused on supporting the local and global ecobrick movements and energizing plastic transition.  We're not a company, a charity or NGO-- we're what we call an earth enterprise.  Unlike many companies we don't have shareholders or owners who profit from excess revenue.  Unlike many Charitie and NGOs we generate our revenue from our own products and services.  We are guided by our publically available intention map and principles. </p>
+<p><a href="/about">Learn more about the GEA</a></p>
+<p><a name="trainings"></a></p>
+<h4><br />How to get trained to teach ecobricks?</h4>
+<p>The GEA offers all sorts of training programs locally and online to learn about ecobricks.<br /><br /><a href="/trainings">Learn more about GEA Trainings</a></p>
+<p><a name="catalyst"></a></p>
+<h4>I am a business owner (read: CEO, wealthy person, king, queen). What can I do to help the ecobricks movement and encourage plastic transition with the my business/corporation/empire?</h4>
+<p>The GEA has developed guidelines, a program, and software to assist companies in their plastic transition.  We call it the GEA Catalyst program because it enables companies to connect with their local communities as an inspirational and energizing force in a way that is quantifiable and replicable by other companies.</p>
+<p><a href="/catalyst">Learn more about the GEA Catalyst Program</a></p>
+<p><a name="media"></a></p>
+<h4>I am with the media and want to do a story.  What are the most common mistakes journalists make about ecobricks?</h4>
+<p>Thanks for pursuit of the truth!  The most common misconceptions about ecobricks are that they are for poor people, that they are used to build schools and that they are packed with trash.  We've got a special page just for journalists that address these misconceptions.  <br /><br /><a href="/media">See our media kit and learn more</a><br /><br /></p>
+<h4>How can I contribute to the ecobrick movement or to the GEA?</h4>
+<p>The best way to contribute to the movement is to personally take responsiblity for your plastic by ecobricking.  You can also join the GEA trainer team, become a member of our mandala team and contribute to the Earth Enterprise.  You can financially contribute to the movement by making an encouragement.  You can also purchase Brikcoins on our GoBrik platform which directly values the authenticated, ecobricked sequestration of plastic. </p>
+<p><a href="/contribute">Contribute to the GEA</a></p>
+<h3><strong>GoBrik Questions</strong></h3>
+<p><a name="serial"></a></p>
+<h4>I've logged my ecobrick on GoBrik.  Where can I find the post of my logged ecobrick to share?</h4>
+<p>All ecobricks that are logged as "Selfies for posting" are logged onto Ecobricks.org so that they can be shared and featured.  Usually, you can find your ecobrick by typing the serial number of your ecobrick after the domain name.  i.e. Ecobricks.org/SERIAL  Meanwhile, all the latest ecobricks are feature on our flow of Ecobricks page:</p>
+<p><a href="/flow">See the flow of latest posted ecobricks</a><br /><br /></p>
+<p><a name="start"></a></p>
+<h4>How to sign up for a GoBrik.com account?</h4>
+<p>GoBrik accounts are free!  GoBrik is a web app.  This means you can sign up and use it on your desktop computer-- or on your phone.  Signing up is easy with either your email address or your Facebook account.  We'll ask you some questions about your ecobricking, and then you're set to log ecobricks, earn brikcoins, and exchange ecobricks on our marketplace.  Visit GoBrik.com or reregister right here on Ecobricks.org</p>
+<p><a href="/start">Register for a GoBrik account</a></p>
+
+
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer-full">
+	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
+	
+	
+	<div class="footer-vision">We envision a Transition in our Households, Communities and Enterprises from Plastic to ever Greener Harmony with Earth's Cycles.</div>
+	
+	
+	<div class="footer-invite">Connect with us on our various platfroms and servers.</div>
+	</div>
+
+	<div class="footer-icons-container">
+		<div class="footer-icons"><!--WIKIPEDIA-->
+			<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">
+			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page"></a>
+			<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+		</div>
+
+		<div class="footer-icons">
+			<a href="https://circles.ecobricks.org" target="_blank"><!--MATTERMOST-->
+			<img src="icons/mattermost.svg" width="100%" height="100%" alt="JOIn our Circles Ecobrick Support Community"></a>
+			<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+		</div>
+
+		<div class="footer-icons"><!--GOBRIK-->
+			<a href="https://gobrik.com" target="_blank">
+			<img src="icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app"></a>
+			<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+		</div>
+
+		<div class="footer-icons">
+			<a href="https://medium.com/earthen/" target="_blank"><!--MEDIUM-->
+			<img src="icons/medium.svg" width="100%" height="100%" alt="Follow our Medium Earthen publication"></a>
+			<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+		</div>
+
+		<div class="footer-icons"> <!--GITHUB-->
+			<a href="https://github.com/gea-ecobricks/ecobricks-org" target="_blank">
+			<img src="icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository"></a>
+			<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+		</div>
+		
+		<div class="footer-icons"><!--FACEBOOK-->
+			<a href="https://facebook.com/ecobricks.org" target="_blank">
+			<img src="icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"></a>
+			<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+		</div>
+
+		<div class="footer-icons"><!--YOUTUBE-->
+			<a href="https://www.youtube.com/c/Ecobricks" target="_blank">
+			<img src="icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"></a>
+			<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+		</div>
+
+		<div class="footer-icons"><!--INSTAGRAM-->
+			<a href="https://www.instagram.com/ecobricks.plastic.transition/" target="_blank">
+			<img src="icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"></a>
+			<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+		</div>
+
+		<!--<div class="footer-icons">--NEXTCLOUD
+			<a href="https://files.mandala.team/" target="_blank">
+			<img src="icons/nextcloud.svg" width="100%" height="100%"></a>
+			<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+		</div>-->
+			
+	</div>
+	
+		<div class="footer-content">
+
+			<div class="footer-box">
+				<div class="footer-header">Wikipedia Ecobricks</div>
+				<div class="footer-subtext">Also know as Eco Bricks, Eco-Bricks, Ecolladrillos, and bottle bricks the Global Ecobrick Alliance and <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia</a> endorse <i>'ecobrick'</i> to refer to the sequestration of plastic in a PET bottle to make a reusable building block.<br><br>
+				</div>
+				<div class="footer-header">Tech Partners</div>
+				<div class="footer-subtext">Thank you to our Technology Partners <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a>, <a href="https://wpml.org/" target="_blank">WPML The WordPress Multilingual Plugin</a><a href="https://Knack.com" target="_blank"></a> and <a href="https://statically.io" target="_blank">Statically</a> who give us special access to their amazing services.</div>
+			</div>
+			<div class="footer-box">
+				<div class="footer-header">Ecobricker Support</div>
+				<div class="footer-subtext">Got questions about ecobricking?  Well, there's a community for that!  Join Circles, our free Hosted on our own fully independent server, our Circles platform runs on Mattermost-- so you can join using your web browser or mobile apps and get help from our hundreds of trainers around the world. <a href="https://gea.mandala.team/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">Sign up!</a><br><br></div>
+				<!--<div class="footer-header">Trainer Support</div>-->
+				<div class="footer-subtext">GEA Trainers access your <a href="https://www.ecobricks.org/webmail" target="_blank">webmail</a>, <a href="https://www.ecobricks.org/wp-admin" target="_blank">wordpress</a>, <a href="https://gobrik.com/#my-trainer" target="_blank">GoBrik</a> or <a href="https://files.mandala.team" target="_blank">NextCloud File Server</a> panels.</div>
+			</div>
+			<div class="footer-box">
+				<div class="footer-header">Earth Enterprise</div>
+				<div class="footer-subtext">The <a href="/about">Global Ecobrick Alliance</a> is a for-Earth, not-for-profit, enterprise based on <a href="/principles">regenerative principles.</a><br><br></div>
+			<!--<div class="footer-header">Deep Green</div>-->
+				<div class="footer-subtext">On principle we have no corporate, government or company sponsors and receive no grants nor billionaire donations. We generate revenue by providing <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0">deep green</a> ecological <a href="brikcoins">value</a>.<br><br>We fully disclose our receipt and usage of funds on our <a href="https://gobrik.com/#openbooks" target="_blank">open books system.</a></div>
+			</div>
+			<div class="footer-box">
+				<div class="footer-header">Our Ecological Impact</div>
+				<div class="footer-subtext">This means we make sure to subtract more CO2 and plastic than we add to the biosphere, acheive circularity in all our creations, increase biodiversity in our spaces, put ecological contribution before profit, and fully disclose all our ecological impacts. <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">Check out our full, live data accounting for 2021.</a><br><br>
+					<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/"><img src="webp/disclose-500px.webp" width="100%" height="34%" alt="Click through to see a full and live breakdownof our 2021 ecological impacts on the GoBrik.com"></a></div>
+					<div id="wcb" class="carbonbadge wcb-d"></div>
+					<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+			</div>
+		</div>
+	<div class="footer-bottom">
+		<div class="footer-conclusion">	
+			<p>The educational content of this site is made available by the Ecobrick Alliance under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Please attribute all usage to "Ecobricks.org - Global Ecobrick Alliance" using the same license.</p>
+			<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/></a>
+		</div>
+		<div class="footer-invite">
+			This website is a 100% volunteer and open source project.  Contribute on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank">Github.</a>
+		</div>
+		<div class="footer-conclusion">	
+			<p>The AES, GEA and GoBrik logos and emblems are copyright 2021 by the Global Ecobrick Alliance.</p>
+		</div>
+	</div>
+</body>
+</html>
