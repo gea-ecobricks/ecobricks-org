@@ -887,10 +887,10 @@ migrated from GoBrik.com CSS
     transform: translateX(-50%);
     
 
-    -webkit-animation: sliders 10s forwards;
+    -webkit-animation: slider2 10s forwards;
     -webkit-animation-delay: 11s;
 
-    animation: sliders 10s forwards;
+    animation: slider2 10s forwards;
     animation-delay: 11s;
   }
 
@@ -925,7 +925,7 @@ migrated from GoBrik.com CSS
         } 
         }	
 
-@-webkit-keyframes sliders {
+@-webkit-keyframes slider2 {
   0% { 
     left: 0%; 
   opacity: 0;
@@ -950,7 +950,7 @@ migrated from GoBrik.com CSS
   }
 
 
-@keyframes sliders {
+@keyframes slider2 {
   0% { 
     left: 0%; 
   opacity: 0;
@@ -991,10 +991,10 @@ migrated from GoBrik.com CSS
      transform: translateX(-50%);
 
 
-  -webkit-animation: sliders 10s forwards;
+  -webkit-animation: slider3 10s forwards;
   -webkit-animation-delay: 23s;
 
-  animation: sliders 10s forwards;
+  animation: slider3 10s forwards;
   animation-delay: 23s;}
 
   @media screen and (min-width: 1024px) and (max-width: 2000px) { 
@@ -1029,6 +1029,58 @@ migrated from GoBrik.com CSS
         } 
         }	
     
+
+
+
+@-webkit-keyframes slider3 {
+  0% { 
+    left: 0%; 
+  opacity: 0;
+  }
+  
+  8% { 
+    left: 54%; 
+  opacity: 1;}
+  
+  12%, 88% { 
+      left: 50%; 
+  opacity: 1;}
+  
+  93% { 
+    left: 46%; 
+  opacity: 1;}
+  
+  100% {left: 100%;
+  opacity: 0;
+  }
+  
+  }
+
+
+@keyframes slider3 {
+  0% { 
+    left: 0%; 
+  opacity: 0;
+  }
+  
+  8% { 
+    left: 54%; 
+  opacity: 1;}
+  
+  12%, 88% { 
+      left: 50%; 
+  opacity: 1;}
+  
+  93% { 
+    left: 46%; 
+  opacity: 1;}
+  
+  100% {left: 100%;
+  opacity: 0;
+  }
+
+  
+  }
 
 
   #slider4 {
