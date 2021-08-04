@@ -888,10 +888,10 @@ migrated from GoBrik.com CSS
     
 
     -webkit-animation: sliders 10s forwards;
-    -webkit-animation-delay: 12s;
+    -webkit-animation-delay: 11s;
 
     animation: sliders 10s forwards;
-    animation-delay: 12s;
+    animation-delay: 11s;
   }
 
   @media screen and (min-width: 1024px) and (max-width: 2000px) { 
@@ -946,7 +946,6 @@ migrated from GoBrik.com CSS
   100% {left: 100%;
   opacity: 0;
   }
-  
   
   }
 
@@ -1030,6 +1029,8 @@ migrated from GoBrik.com CSS
         } 
         }	
     
+
+
   #slider4 {
     
       will-change: transform, opacity;
@@ -1045,7 +1046,8 @@ migrated from GoBrik.com CSS
       -webkit-animation-delay: 33s;
     
       animation: sliderEnd 10s forwards;
-      animation-delay: 33s;}
+      animation-delay: 33s;
+    }
     
       
       @media screen and (min-width: 1024px) and (max-width: 2000px) { 
@@ -1094,12 +1096,12 @@ migrated from GoBrik.com CSS
   12%, 100% { 
       left: 50%; 
   opacity: 1;}
-  
+
   
   }
 
 
-@keyframes sliders {
+@keyframes sliderEnd {
   0% { 
     left: 0%; 
   opacity: 0;
