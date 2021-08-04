@@ -1306,8 +1306,8 @@ migrated from GoBrik.com CSS
             font-size: 1.4em;
             padding: 8px 18px 8px 18px !important;
             text-decoration: none !important;
-            margin-top: 10px;
-            margin-bottom: 15px;
+            margin-top: 18px;
+            margin-bottom: 16px;
               font-weight: 500;
               cursor: pointer;
               text-decoration: none;
@@ -1832,9 +1832,9 @@ margin-bottom: -20px;
 
 .footer-conclusion {
   font-family: Mulish, sans;
-  color: #9fdafc;
+  color: #8cbdda;
   line-height: 1.3;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
 
   background-color: #252b4d;
