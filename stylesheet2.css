@@ -141,6 +141,15 @@ h6 {
     font-weight: 300 !important;
 }
 
+#faq-content-block {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5%;
+    background-color: #d4d4d4;
+    border-radius: 10px;
+}
+
 
 #content-block {
     text-align: left;

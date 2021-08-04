@@ -7,6 +7,7 @@ deployment:
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet.css $DEPLOYPATH
     - /bin/cp stylesheet2.css $DEPLOYPATH
+    - /bin/cp faqs.html $DEPLOYPATH
     - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH

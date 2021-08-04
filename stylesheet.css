@@ -40,7 +40,7 @@ p {
 	font-size: 1.3em;
 	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
-  	line-height: 1.3;
+  	line-height: 1.5;
   margin: 12px 0px 5px 0px;
   color: #222222;
 
@@ -100,7 +100,7 @@ h4 {
   font-size: 2.3em;  
   line-height: 1.4;
   font-weight: 500;
-  margin: 10px 0px 5px 0px;
+  margin: 18px 0px 2px 0px;
   
   }
 
@@ -129,9 +129,9 @@ h5 {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #222222;
 	font-size: 1.5em;
-  line-height: 1.5;
+  line-height: 1.7;
   font-weight: 300;
-  margin: 10px 0px 5px 0px;
+  margin: 14px 0px 5px 0px;
 }
 
 h6 {
@@ -141,11 +141,45 @@ h6 {
     font-weight: 300 !important;
 }
 
+#faq-content-block {
+    text-align: left;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding: 5%;
+    background-color: #f0efef;
+    border-radius: 10px;
+}
+
 
 #content-block {
     text-align: left;
     margin-top: 50px;
     margin-bottom: 50px;}
+
+.faq {width: 100%;
+  padding: 20px 0px 20px 0px;}
+
+.faq-box {
+  display: flex;
+}
+
+.faq-texts {
+  margin-bottom: 0px;
+  flex: 75%;
+ padding-right: 15px;
+}
+
+.faq-image {
+  flex: 25%;
+  text-align: center;
+  margin: auto;
+}
+
+.faq-image img {width: 90%;
+ margin-block: auto;}
+
+.faq-link h5 {font-weight: 500;
+}
 
 /* -------------------------------------------------------------------------- */
 
