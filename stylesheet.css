@@ -887,10 +887,10 @@ migrated from GoBrik.com CSS
     transform: translateX(-50%);
     
 
-    -webkit-animation: slide2 10s forwards;
+    -webkit-animation: sliders 10s forwards;
     -webkit-animation-delay: 12s;
 
-    animation: slide2 10s forwards;
+    animation: sliders 10s forwards;
     animation-delay: 12s;
   }
 
@@ -925,7 +925,7 @@ migrated from GoBrik.com CSS
         } 
         }	
 
-@-webkit-keyframes slide2 {
+@-webkit-keyframes sliders {
   0% { 
     left: 0%; 
   opacity: 0;
@@ -951,7 +951,7 @@ migrated from GoBrik.com CSS
   }
 
 
-@keyframes slide2 {
+@keyframes sliders {
   0% { 
     left: 0%; 
   opacity: 0;
@@ -992,10 +992,10 @@ migrated from GoBrik.com CSS
      transform: translateX(-50%);
 
 
-  -webkit-animation: slide3 10s forwards;
+  -webkit-animation: sliders 10s forwards;
   -webkit-animation-delay: 23s;
 
-  animation: slide3 10s forwards;
+  animation: sliders 10s forwards;
   animation-delay: 23s;}
 
   @media screen and (min-width: 1024px) and (max-width: 2000px) { 
@@ -1030,60 +1030,57 @@ migrated from GoBrik.com CSS
         } 
         }	
     
+        #slider4 {
+    
+          will-change: transform, opacity;
+          background-color: rgba(250, 146, 26, 0.5);
+             height: fit-content;
+             opacity:0;
+             position: absolute;
+             z-index: 9;
+             transform: translateX(-50%);
+        
+        
+          -webkit-animation: sliders 10s forwards;
+          -webkit-animation-delay: 23s;
+        
+          animation: sliders 10s forwards;
+          animation-delay: 23s;}
+        
+          @media screen and (min-width: 1024px) and (max-width: 2000px) { 
+            #slider4 {
+                width: 80%;
+                height: fit-content;
+                margin: auto;
+                padding: 75px 20px 80px 2px;
+         
+                border-radius: 0px 0px 20px 20px;
+                box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+              
+            }
+            }
+            
+            @media screen and (min-width: 770px) and (max-width: 1024px) { 
+              #slider4 {
+                  width: 85%;
+                  margin: auto;
+                  padding: 50px 20px 25px 10px;
+                  border-radius: 0px 0px 20px 20px;
+                  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+              }
+              }
+            
+            @media screen and (max-width: 769px) {
+              #slider4 {
+                width: 89%;
+                padding: 70px 5px 30px 5px;
+                border-radius: 0px 0px 20px 20px; 
+                box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+                } 
+                }	
 
     
   
-
-@-webkit-keyframes slide3{
-  0% { 
-    left: 0%; 
-  opacity: 0;
-  }
-  
-  8% { 
-    left: 54%; 
-  opacity: 1;}
-  
-  12%, 88% { 
-      left: 50%; 
-  opacity: 1;}
-  
-  93% { 
-    left: 50%; 
-  opacity: 1;}
-  
-  100% {left: 50%;
-  opacity: 1;
-  }
-  
-  }
-
-
-@keyframes slide3 {
-  0% { 
-    left: 0%; 
-  opacity: 0;
-  }
-  
-  8% { 
-    left: 54%; 
-  opacity: 1;}
-  
-  12%, 88% { 
-      left: 50%; 
-  opacity: 1;}
-  
-  93% { 
-    left: 50%; 
-  opacity: 1;}
-  
-  100% {left: 50%;
-  opacity: 1;
-  }
-
-  
-  }
-
 
 
 
