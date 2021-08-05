@@ -37,13 +37,9 @@ img {
 
 p {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
-	font-size: 1.3em;
 	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
-  	line-height: 1.5;
-  margin: 12px 0px 5px 0px;
   color: #222222;
-
 }
 
 p a {color:#424242;
@@ -54,9 +50,28 @@ p a:hover {color: #000000;
   text-decoration: none;
  font-weight: 300;}
 
+ @media screen and (max-width: 769px) {
+  p { font-size: 1.2em;
+    line-height: 1.3;
+    margin: 10px 0px 5px 0px;
+  }
+}
 
+  @media screen and (min-width: 769px) {
+   p { font-size: 1.3em;
+    line-height: 1.5;
+    margin: 12px 0px 5px 0px;
+  }
+  }
 
+ul {font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  font-size: inherit;
+  font-weight: 300;
+  line-height: 1.4;
+  color:  #222222;;
+}
 
+li {margin-bottom: 7px;}
 
 b {	font-weight: 500;}
 
@@ -67,12 +82,25 @@ strong {font-weight: 500;
 h1 {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #222222;
-  font-size: 4em;
-  line-height: 1.3;
+ 
   font-weight: 300;
 	text-shadow: 0px 0px 10px #fff;
-  margin: 50px 0px 10px 0px;
 
+
+}
+
+@media screen and (max-width: 769px) {
+  h1 { font-size: 3.3em;
+    line-height: 1.3;
+    margin: 50px 0px 10px 0px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  h1 {  font-size: 4em;
+    line-height: 1.3;
+    margin: 50px 0px 10px 0px;
+  }
 }
 
 h2 {
@@ -128,11 +156,22 @@ font-weight: 300;}
 h5 {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #222222;
-	font-size: 1.5em;
-  line-height: 1.7;
   font-weight: 300;
-  margin: 14px 0px 5px 0px;
 }
+
+@media screen and (max-width: 769px) {
+  h5 { 	font-size: 1.4em;
+    line-height: 1.6;
+    margin: 12px 0px 5px 0px;
+  }
+
+@media screen and (min-width: 769px) {
+  h5 { 	font-size: 1.5em;
+    line-height: 1.6;
+    margin: 14px 0px 5px 0px;
+  }
+}
+
 
 h6 {
 	font-size: 14px !important;
@@ -145,7 +184,7 @@ h6 {
     text-align: left;
     margin-top: -50px;
     margin-bottom: 50px;
-    padding: 5%;
+    padding: 4%;
     background-color: #f0efef;
     border-radius: 10px;
 }
@@ -1226,7 +1265,7 @@ migrated from GoBrik.com CSS
         }
 @media screen and (max-width: 769px) {
   #main-content { 
-    width: 86%; 
+    width: 90%; 
   }}
   @media screen and (min-width: 770px) and (max-width: 1024px) { 
     #main-content { 
