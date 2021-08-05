@@ -231,17 +231,19 @@ h6 { font-size: 1.2em;
 
 @media screen and (max-width: 770px) {
 .faq-texts {
-  margin-bottom: 0px;
-  flex: 100%;
- padding-right: 15px;
+    margin-bottom: 0px;
+    flex: 100%;
+    padding-right: 15px;
 }
-
+}
 @media screen and (min-width: 770px) {
   .faq-texts {
     margin-bottom: 0px;
     flex: 75%;
    padding-right: 15px;
   }
+}
+
 
 
 @media screen and (max-width: 770px) {
@@ -251,12 +253,14 @@ h6 { font-size: 1.2em;
   margin: auto;
   display: none;
 }
+}
   @media screen and (min-width: 770px) {
   .faq-image {
     flex: 25%;
     text-align: center;
     margin: auto;
   }
+}
 
 
 .faq-image img {width: 90%;
