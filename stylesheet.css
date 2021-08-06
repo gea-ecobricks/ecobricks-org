@@ -265,6 +265,7 @@ h6 { font-size: 1.1em;
 
 
 .faq-image img {width: 90%;
+  max-width: 450px;
  margin-block: auto;}
 
 .faq-link h5 {font-weight: 500;
