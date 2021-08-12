@@ -203,6 +203,25 @@ h6 { font-size: 1.1em;
   }
 
 
+  #faq-banner {
+    padding: 20px 20px 20px 20px;
+    background-color: #f0efef;
+    border-radius: 12px;
+    margin: 60px 0px 20px 0px;
+}
+
+#top-link {text-align: right !important;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  font-size: 1.4em;  
+    font-weight: 500;
+    color: #222222;}
+
+    #top-link a {color: #222222;
+    text-decoration: underline;}
+
+    #top-link a:hover {color: #1d3085;
+      text-decoration: none;}
+
 
  
 
@@ -916,10 +935,10 @@ migrated from GoBrik.com CSS
   transform: translateX(-50%);
 
 
-  -webkit-animation: slider1 12s forwards;
+  -webkit-animation:  SLIDES 48s forwards infinite;
   -webkit-animation-delay: 0s;
 
-  animation: slider1 12s forwards;
+  animation: SLIDES 48s forwards infinite;
   animation-delay: 0s; 
 }
 
@@ -957,7 +976,7 @@ migrated from GoBrik.com CSS
     }	
 
 
-@-webkit-keyframes slider1 {
+@-webkit-keyframes SLIDES {
   0% { 
     left: 47%; 
   opacity: 1;
@@ -982,7 +1001,7 @@ migrated from GoBrik.com CSS
   }
 
 
-@keyframes slider1 {
+@keyframes SLIDES {
   0% { 
     left: 47%; 
   opacity: 1;}
