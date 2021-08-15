@@ -7,6 +7,7 @@ deployment:
     - /bin/cp faqs.html $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
+    - /bin/cp test.php $DEPLOYPATH
     - /bin/cp stylesheet.css $DEPLOYPATH
     - /bin/cp stylesheet2.css $DEPLOYPATH
     - /bin/cp faqs.html $DEPLOYPATH
