@@ -159,14 +159,14 @@ h5 a:hover {color: #000000;
  font-weight: 300;}
 
 @media screen and (max-width: 769px) {
-  h5 { 	font-size: 1.4em;
+  h5 { 	font-size: 1.5em;
     line-height: 1.4;
     margin: 12px 0px 5px 0px;
   }
 }
 
 @media screen and (min-width: 769px) {
-  h5 { 	font-size: 1.4em;
+  h5 { 	font-size: 1.6em;
     line-height: 1.5;
     margin: 14px 0px 5px 0px;
   }
@@ -774,9 +774,9 @@ migrated from GoBrik.com CSS
 #slider-image {
   margin-right: 65%;
   height: 400px;
-  margin-bottom: 0px;
+  margin-bottom:50px;
   width: 35%;
- padding-top: 40px;
+ padding-top: 30px;
  padding-left: 5%;
     }}
 
@@ -935,10 +935,10 @@ migrated from GoBrik.com CSS
   transform: translateX(-50%);
 
 
-  -webkit-animation:  SLIDES 48s forwards infinite;
+  -webkit-animation: slider1 12s forwards;
   -webkit-animation-delay: 0s;
 
-  animation: SLIDES 48s forwards infinite;
+  animation: slider1 12s forwards;
   animation-delay: 0s; 
 }
 
@@ -976,53 +976,53 @@ migrated from GoBrik.com CSS
     }	
 
 
-@-webkit-keyframes SLIDES {
-  0% { 
-    left: 47%; 
-  opacity: 1;
-  }
-  
-  4% { 
-    left: 53%; 
-  opacity: 1;}
-  
-  7%, 88% { 
-      left: 50%; 
-  opacity: 1;}
-  
-  93% { 
-    left: 46%; 
-  opacity: 1;}
-  
-  100% {
-    left: 100%;
-  opacity: 0;}
-  
-  }
-
-
-@keyframes SLIDES {
-  0% { 
-    left: 47%; 
-  opacity: 1;}
-  
-  4% { 
-    left: 53%; 
-  opacity: 1;}
-  
-  7%, 88% { 
-      left: 50%; 
-  opacity: 1;}
-  
-  93% { 
-    left: 46%; 
-  opacity: 1;}
-  
-  100% {left: 100%;
-  opacity: 0;}
-
-  
-  }
+    @-webkit-keyframes slider1 {
+      0% { 
+        left: 47%; 
+      opacity: 1;
+      }
+      
+      4% { 
+        left: 53%; 
+      opacity: 1;}
+      
+      7%, 88% { 
+          left: 50%; 
+      opacity: 1;}
+      
+      93% { 
+        left: 46%; 
+      opacity: 1;}
+      
+      100% {
+        left: 100%;
+      opacity: 0;}
+      
+      }
+    
+    
+    @keyframes slider1 {
+      0% { 
+        left: 47%; 
+      opacity: 1;}
+      
+      4% { 
+        left: 53%; 
+      opacity: 1;}
+      
+      7%, 88% { 
+          left: 50%; 
+      opacity: 1;}
+      
+      93% { 
+        left: 46%; 
+      opacity: 1;}
+      
+      100% {left: 100%;
+      opacity: 0;}
+    
+      
+      }
 
 
 
