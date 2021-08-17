@@ -107,7 +107,7 @@ h2 {
 
 h3 {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: #222222;
+  /*color: #222222;*/
   font-size: 3em;  
   line-height: 1.4;
   font-weight: 500;
@@ -205,9 +205,10 @@ h6 { font-size: 1.1em;
 
   #faq-banner {
     padding: 20px 20px 20px 20px;
-    background-color: #f0efef;
+    background-color: #c7c5c5;
     border-radius: 12px;
-    margin: 60px 0px 20px 0px;
+    margin: 60px -20px 20px -20px;
+    color: #fff !important;
 }
 
 #top-link {text-align: right !important;
