@@ -937,10 +937,10 @@ migrated from GoBrik.com CSS
 
 
   -webkit-animation: slider1 12s forwards;
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 0.3s;
 
   animation: slider1 12s forwards;
-  animation-delay: 0s; 
+  animation-delay: 0.3s; 
 }
 
 @media screen and (min-width: 1024px) and (max-width: 2000px) { 
