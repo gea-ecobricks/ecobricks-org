@@ -213,18 +213,20 @@ h6 { font-size: 1.1em;
 
 #top-link {text-align: right !important;
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  font-size: 1.4em;  
+  font-size: 1.2em;  
     font-weight: 500;
-    color: #222222;}
+    margin: 10px 20% 10px 0px;
+    color: #585858;
+    padding-right: 15%;
+  
+  }
 
-    #top-link a {color: #222222;
+    #top-link a {color: #585858;
     text-decoration: underline;}
 
     #top-link a:hover {color: #1d3085;
       text-decoration: none;}
 
-
- 
 
 #faq-content-block {
     text-align: left;

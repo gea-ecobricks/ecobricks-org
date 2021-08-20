@@ -213,16 +213,20 @@ h6 { font-size: 1.1em;
 
 #top-link {text-align: right !important;
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  font-size: 1.4em;  
+  font-size: 1.2em;  
     font-weight: 500;
-    color: #222222;}
+   
+    color: #585858;
+    
+    margin: -30px 20px 10px 0px;
+  
+  }
 
-    #top-link a {color: #222222;
+    #top-link a {color: #585858;
     text-decoration: underline;}
 
     #top-link a:hover {color: #1d3085;
       text-decoration: none;}
-
 
  
 
@@ -280,13 +284,15 @@ h6 { font-size: 1.1em;
     flex: 25%;
     text-align: center;
     margin: auto;
+    
   }
 }
 
 
 .faq-image img {width: 90%;
   max-width: 450px;
- margin-block: auto;}
+ margin-block: auto;
+ min-width: 360px;}
 
 .faq-link h5 {font-weight: 500;
 }
