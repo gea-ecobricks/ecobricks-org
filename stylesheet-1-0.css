@@ -84,35 +84,61 @@ h1 {
 @media screen and (max-width: 769px) {
   h1 { font-size: 3.4em;
     line-height: 1.3;
-    margin: 70px 0px 10px 0px;
+    margin: 30px 0px 10px 0px;
   }
 }
 
 @media screen and (min-width: 769px) {
   h1 {  font-size: 4em;
     line-height: 1.3;
-    margin: 50px 0px 10px 0px;
+    margin: 40px 0px 10px 0px;
   }
 }
 
 h2 {
 	font-family: 'Arvo', Georgia, serif;
   color: #4e4e4e;
-  font-size: 3em;
+  
+	text-shadow: 0px 0px 10px #fff;
+  margin: 15px 0px 15px 0px;
+}
+
+
+@media screen and (max-width: 769px) {
+  h2 {
+    font-size: 2em;
   line-height: 1.3;
 	font-weight: 400;
-	text-shadow: 0px 0px 10px #fff;
-  margin: 15px 0px 5px 0px;
-}
+  }}
+
+
+    @media screen and (min-width: 770px) {
+      h2 {   font-size: 2.5em;
+        line-height: 1.3;
+        font-weight: 400;;
+      }}
 
 h3 {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   /*color: #222222;*/
-  font-size: 3em;  
-  line-height: 1.4;
-  font-weight: 500;
-  margin: 10px 0px 5px 0px;
+
 }
+
+@media screen and (max-width: 769px) {
+  h3 {
+    font-size: 3em;  
+    line-height: 1.4;
+    font-weight: 500;
+    margin: 10px 0px 5px 0px;
+  }}
+
+
+    @media screen and (min-width: 770px) {
+      h3 {   font-size: 2em;  
+        line-height: 1.3;
+        font-weight: 500;
+        margin: 10px 0px 5px 0px;
+      }}
 
 h4 {
   font-family: 'Arvo', Georgia, serif;
@@ -218,7 +244,7 @@ h6 { font-size: 1.1em;
    
     color: #585858;
     
-    margin: -30px 20px 10px 0px;
+    margin: -0px 20px 10px 0px;
   
   }
 
@@ -228,13 +254,21 @@ h6 { font-size: 1.1em;
     #top-link a:hover {color: #1d3085;
       text-decoration: none;}
 
- 
+      #faq-content-block-1 {
+        text-align: left;
+        padding: 5.5%;
+        padding-top: 100px;
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+        background-color: #9ec4fd6b;
+        border-radius: 12px;
+    }
 
 #faq-content-block {
     text-align: left;
-    margin-top: -50px;
-    margin-bottom: 50px;
     padding: 5.5%;
+    padding-top: 30px;
+    margin-bottom: 30px;
     padding-bottom: 30px;
     background-color: #f0efef;
     border-radius: 12px;
