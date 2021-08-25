@@ -185,14 +185,14 @@ h5 a:hover {color: #000000;
  font-weight: 300;}
 
 @media screen and (max-width: 769px) {
-  h5 { 	font-size: 1.5em;
+  h5 { 	font-size: 1.3em;
     line-height: 1.4;
     margin: 12px 0px 5px 0px;
   }
 }
 
 @media screen and (min-width: 769px) {
-  h5 { 	font-size: 1.6em;
+  h5 { 	font-size: 1.4em;
     line-height: 1.5;
     margin: 14px 0px 5px 0px;
   }
@@ -237,22 +237,35 @@ h6 { font-size: 1.1em;
     color: #fff !important;
 }
 
-#top-link {text-align: right !important;
+#top-link-right {text-align: right !important;
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-size: 1.2em;  
+  font-weight: 500;
+  color: #585858;
+  margin: -0px 20px 10px 0px;
+
+}
+
+
+#top-link {text-align: left !important;
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-size: 1em;  
     font-weight: 500;
-   
     color: #585858;
-    
-    margin: -0px 20px 10px 0px;
+    margin: 10px 20px 10px 0px;
   
   }
 
-    #top-link a {color: #585858;
-    text-decoration: underline;}
+    #top-link a {
+      color: #585858;
+     text-decoration: underline;
+    }
 
-    #top-link a:hover {color: #1d3085;
-      text-decoration: none;}
+    #top-link a:hover {
+      color: #1d3085;
+      text-decoration: none;
+    }
+
 
       #faq-content-block-1 {
         text-align: left;
@@ -324,7 +337,7 @@ h6 { font-size: 1.1em;
 
 
 .faq-image img {width: 90%;
-  max-width: 450px;
+  max-width: 400px;
  margin-block: auto;
  min-width: 360px;}
 
