@@ -2,7 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ecobricks/public_html/
-    - export DEPLOYPATH=/home/ecobricks/public_html/id
+    - export DEPLOYPATH=/home/ecobricks/public_html/id/
+    - export DEPLOYPATH=/home/ecobricks/public_html/es/
+     - export DEPLOYPATH=/home/ecobricks/public_html/en/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp faqs.html $DEPLOYPATH
