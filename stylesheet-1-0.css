@@ -185,14 +185,14 @@ h5 a:hover {color: #000000;
  font-weight: 300;}
 
 @media screen and (max-width: 769px) {
-  h5 { 	font-size: 1.3em;
+  h5 { 	font-size: 1.4em;
     line-height: 1.4;
     margin: 12px 0px 5px 0px;
   }
 }
 
 @media screen and (min-width: 769px) {
-  h5 { 	font-size: 1.4em;
+  h5 { 	font-size: 1.5em;
     line-height: 1.5;
     margin: 14px 0px 5px 0px;
   }
@@ -203,7 +203,7 @@ h6 {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
 	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
-  color: #222222;
+  color: #222222;faq
 }
 
 h6 a {color:#424242;
@@ -215,14 +215,14 @@ h6 a:hover {color: #000000;
  font-weight: 300;}
 
  @media screen and (max-width: 769px) {
-h6 { font-size: 1.1em;
+h6 { font-size: 1.15em;
     line-height: 1.3;
     margin: 15px 0px 5px 0px;
   }
 }
 
   @media screen and (min-width: 769px) {
-   h6 { font-size: 1.2em;
+   h6 { font-size: 1.25em;
     line-height: 1.5;
     margin: 18px 0px 5px 0px;
   }
