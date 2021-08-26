@@ -97,8 +97,8 @@ h1 {
 
 h2 {
 	font-family: 'Arvo', Georgia, serif;
-  color: #4e4e4e;
-	text-shadow: 0px 0px 10px #fff;
+  color: #2c2c2c;
+	/*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0px 15px 0px;
 }
 
@@ -271,13 +271,15 @@ h6 { font-size: 1.15em;
 #faq-content-block-1 {
   text-align: left;
   padding: 5.5%;
-  padding-top: 100px;
-  margin-bottom: 50px;
+  padding-top: 150px;
   padding-bottom: 100px;
-  background-color:#51c5ff;
-
+  background: rgb(179,239,225);
+  background: linear-gradient(180deg, rgba(179,239,225,1) 0%, rgba(81,197,255,1) 100%); 
   border-radius: 12px;
   margin: 0px -3% -50px -3%;
+  border-color: black;
+  border-width: 5px;
+  
 }
 
 #faq-content-block {
@@ -294,19 +296,23 @@ h6 { font-size: 1.15em;
 }
 
 .reddish { 
-  background-color: #e7bfbf;
+  background-color: #e4d4d4;
 }
 
 .greenish { 
-  background-color: #bfe7bf;
+  background-color: #d9e6d9;
 }
 
 .blueish { 
-  background-color: #bfe7e5;
+  background-color: #d3e6e5;
 }
 
 .orangeish { 
-  background-color: #fdddb8;
+  background-color: #ece5dc;
+}
+
+.pinkish { 
+  background-color: #ebdfe9;
 }
 
 
