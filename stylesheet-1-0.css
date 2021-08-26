@@ -231,7 +231,6 @@ h6 { font-size: 1.15em;
 
   #faq-banner {
     padding: 20px 20px 20px 20px;
-    background-color: #c7c5c5;
     border-radius: 12px;
     margin: 60px -20px 20px -20px;
     color: #fff !important;
@@ -283,9 +282,29 @@ h6 { font-size: 1.15em;
     padding-top: 30px;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    background-color: #f0efef;
+
     border-radius: 12px;
 }
+
+.grey  {
+  background-color: #f0efef;
+}
+
+.reddish { 
+  background-color: #e7bfbf;
+}
+
+.greenish { 
+  background-color: #bfe7bf;
+}
+
+.blueish { 
+  background-color: #bfe7e5;
+}
+
+
+
+
 
 
 #content-block {
