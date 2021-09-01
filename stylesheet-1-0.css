@@ -325,11 +325,13 @@ h6 { font-size: 1.15em;
       padding: 10px 15px 10px 15px;
       border-radius: 7px;
       color: #000000ad;
+      cursor: pointer;
   }
   }
 
-  .hover:toggle {border: 1px;
-  background: white;}
+  button:hover {border: 1px;
+  background: rgba(255, 255, 255, 0.815);
+  cursor:pointer;}
 
 .grey  {
     background: rgb(235,235,235);
