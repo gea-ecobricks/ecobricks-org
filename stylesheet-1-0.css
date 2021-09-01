@@ -293,22 +293,43 @@ h6 { font-size: 1.15em;
 
 #faq-content-block {
     text-align: left;
-    padding: 5.5%;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding: 4%;
+    padding-top: 20px;
+    padding-bottom: 0px;
     border-radius: 12px;
 }
 
+
+@media screen and (min-width: 1000px) {
 .toggle {
     margin-top: 18px;
     font-size: 1.2em;
     background-color: #ffffff82;
     padding: 10px 15px 10px 15px;
-    border-radius: 5px;
+    border-radius: 11px 11px 0px 0px;
     color: #000000ad;
-    margin-left: 79%;
-width: 20%;
+    margin-left: 70%;
+    width: 30%;
+    max-width: 250px;
+    min-width: 200px;
+    border: none;
 }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .toggle {
+      margin-top: 18px;
+      font-size: 1.0em;
+      background-color: #ffffff82;
+      padding: 10px 15px 10px 15px;
+      border-radius: 7px;
+      color: #000000ad;
+  }
+  }
+
+  .hover:toggle {border: 1px;
+  background: white;}
 
 .grey  {
     background: rgb(235,235,235);
