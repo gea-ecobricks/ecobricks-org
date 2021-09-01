@@ -60,6 +60,9 @@
 		
 <link rel="stylesheet" type="text/css" href="stylesheet-1-0.css?v1.2">
 
+<link rel="stylesheet" href="print.css" type="text/css" media="print">
+
+
 		
 		
 	<!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
@@ -374,7 +377,36 @@ z-index: 5 ;
 }
 }
 
+.hide {float: right;
+	text-align: right;
+	/*
+padding-right: 20px;
+margin-top: -50px;
+*/
+}
 
+
+.show {display: none;
+
+text-align: right;
+float: right;
+margin-bottom: 30px;
+/*
+padding-right: 20px;
+margin-top: -50px;
+background: white;*/
+ }
+
+.hide:focus + .show {display: inline;}
+		
+	/*text-align: right;
+	float: right; */
+      .hide:focus { display: none; 
+		float: right;}
+      .tran1 {-o-transition: all 1s;-moz-transition: all 1s;-webkit-transition: all 1s;}
+      #secret {opacity: 0;
+	display: none;}
+      .hide:focus ~ #secret {opacity: 1; display: inline;}
 
   </style>	
 
@@ -495,149 +527,202 @@ z-index: 5 ;
 	<h1>Frequently Asked Questions</h1>
 	<h5>You've got questions about ecobricks. We've got answers!</h5>
 </div>
+
+
+<div id="content-sect1">
 	
-<!-- SLIDER CONTENT -->
+<!-- QUESTIONS CONTENT -->
 	
 
 
 <a name="top"></a>
-    <div id="main-content">
-		
-        <div id="faq-content-block-1">
-	    	<!--<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg"width="100%" height="76%" ></div>-->
-		    
-			<h2>Our team has been working on ecobricks issues for the last decade.</h2>
-			<h5>  We've organized short answers to the most common questions in four main categories:  </h5>
-
-          <h6>
-			  <ul>
-				<li><a href="#general"><b>General Questions</b></a>  The basics.</a></li>
-                 <li><a href="#concerns"><b>Ecobrick Concerns</b></a>  Common worries about ecobricks and plastic.</li>
-                 <li><a href="#building-q"><b>Building Questions</b></a> All about making stuff.</li>
-				 <li><a href="#gea-q"><b>The Movement Questions</b></a> About the Global Ecobrick Alliance and the movement.</li>
-				 <li><a href="#gobrik-q"><b>GoBrik Questions</b></a> All about our app.</li>
-				 <li><a href="#misc"><b>More Questions</b></a> Miscellaneous.</li>
-			</ul>
-		</h6>
-	
-    </div>
-
-    <div id="faq-content-block" class="grey">
-		<a name="general"></a>
-        <h4>General Questions</h4>
-		<p> After the short answer, if you want to go deeper, click through to the full content page. </p>
-        <h6>
-			<ul>
-				<li><a href="#plastic">What is plastic exactly?</a></li>
-				<li><a href="#dangerous">Why should I be concerned about my plastic?</a></li>
-				<li><a href="#dangerous">But isn't there more important stuff to worry about?</a></li>
-				<li><a href="#what">So what is an ecobrick exactly?</a></li>
-				<li><a href="#why">Why make ecobricks?</a></li>
-				<li><a href="#how">How to make an ecobrick?</a></li>
-				<li><a href="#build">What can you build with ecobricks?</a></li>
-				<!--<li><a href="#build">How to start an Ecobrick Project?</a></li>-->
-				<li><a href="#principles">What makes ecobricks different from other plastic stuff?</a></li>
-				<li><a href="#dumping">Why not just landfill or dump my plastic?</a></li>
-				<li><a href="#burning">Why not just burn or send my plastic to be incienerated?</a></li>
-				<li><a href="#recycled">Why not just recycle my plastic?</a></li>
-				<li><a href="#sequestration">So how is ecobricking different from recycling, dumping or burning?</a></li>
-				<li><a href="#keen">I am keen to get going with ecobricking! What's the best way to start?</a></li>
-	
-				
-			</ul>
-		</h6><br>
-		<div id="top-link-right"><a href="#top">Back to Top</a></div>
-	</div>
-
-	<div id="faq-content-block" class="reddish">
-		<a name="concerns"></a><h4>Ecobrick Concerns</h4>
-        <h6>
-		<ul>
-			<li><a href="#dangerous">How is plastic dangerous?</a></li>
-			<li><a href="#transition">Don't ecobricks just encourage people to consume more plastic?</a></li>
-				<li><a href="#sequest1">I've heared that ecobricks can leach poisons out into the environment.  Is it true?</a></li>
-				<li><a href="#circular1">How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?</a></li>
-
-		</ul></h6><br>
-		<div id="top-link-right"><a href="#top">Back to Top</a></div>
-	</div>
-
-
-	<div id="faq-content-block" class="greenish">
-        <a name="building-q"></a> 
-		<h4>Building Questions</h4>
-        <h6>
-			<ul>
-				<li><a href="#few">What can I build with a dozen ecobricks?</a></li>
-				<li><a href="#dozens">What can I build with a dozen ecobricks?</a></li>
-				<li><a href="#hundreds">What can I build with hundreds of ecobricks?</a></li>
-				<li><a href="#thousands">What can I build with thousands of ecobricks?</a></li>
-				<li><a href="#tens-thousands">What can I build with tens of thousands of ecobricks?</a></li>
-				<li><a href="#circular">What happens when a module comes to it's end?</a></li>
-				<li><a href="#earth">What exactly is Earth and Ecobrick building?</a></li>
-				<li><a href="#earth-methods">How to build with Ecobricks and Earth?</a></li>
-				<li><a href="#fire">What about Ecobricks and fire-- isn't it dangerous? </a></li>
-				<li><a href="#circular3">But isn't building with ecobricks just delaying the problem?  How is this a final solution for plastic?</a></li>
-			 </ul>
-		</h5><br>
-		<div id="top-link-right"><a href="#top">Back to Top</a></div>
-	</div>
-
-	<div id="faq-content-block" class="pinkish">
-		<a name="movement-q"></a><h4>Movement Questions</h4>
-        <h6>
-		<ul>
-				<li><a href="#about-gea">Who are you guys?</a></li>
-				<li><a href="#funds">If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</a></li>
-				<li><a href="#trainer-what">What is a "GEA certified Trainer"?</a></li>
-		
-				<li><a href="#movement">How to connect with the ecobrick movement?</a></li>
-				<li><a href="#catalyst">How can companies support ecobricking and plastic transition?</a></li>
-				<li><a href="#trainings">How can I become a certified ecobrick trainer?</a></li>
-				<li><a href="#media">I am with the media.  How do I do a story on ecobricks that avoids the common misconceptions?</a></li>
-				<li><a href="#eco-bricks">How do you spell it?  Eco bricks?  Eco-bricks? Ecobricks? (answer pending)</a></li>
-		</ul></h6><br>
-		<div id="top-link-right"><a href="#top">Back to Top</a></div>
-	</div>
-
-
-	<div id="faq-content-block" class="blueish">
-		<a name="gobrik-q"></a> 
-		<h4>GoBrik Questions</h4>
-        <h6>
-			<ul>
-                <li><a href="#gobrik">What is GoBrik?</a></li>
-                <li><a href="#brikcoins">What are Brikcoins?</a></li>
-                <li><a href="#start">How to sign up for an account on GoBrik?</a></li>
-				<li><a href="#why-log">Why log ecobricks? (answer pending)</a></li>
-            </ul>
-		</h6><br>
-		<div id="top-link-right"><a href="#top">Back to Top</a></div>
-	</div>
-
-	<div id="faq-content-block" class="orangeish">
-		<a name="misc"></a>
-		<h4>More Questions</h4>
-		<h6>
-			<ul>
-				<li><a href="#ocean">What about plastic I pick up in on the beach-- can it be ecobricked?</a></li>
-				<li><a href="#cigbrick">What about cigarette filters-- can they be ecobricked?</a></li>
-				
-
-				<li><a href="#keen">I am keen to get going with ecobricking! What's the best way to start?</a></li>
-				<li><a href="#dropoff">How can I drop off my completed ecobricks?</a></li>
+<div id="main-content">
 
 			
+			<div id="faq-content-block-1">
+				<!--<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg"width="100%" height="76%" ></div>-->
+				
+				<h2>Our team has been working on ecobricks issues for the last decade.</h2>
+				<h5>  We've organized short answers to the most common questions in four main categories:  </h5>
+
+			<!-- <h6>
+				<ul>
+					<li><a href="#general"><b>General Questions</b></a>  The basics.</a></li>
+					<li><a href="#concerns"><b>Ecobrick Concerns</b></a>  Common worries about ecobricks and plastic.</li>
+					<li><a href="#building-q"><b>Building Questions</b></a> All about making stuff.</li>
+					<li><a href="#gea-q"><b>The Movement Questions</b></a> About the Global Ecobrick Alliance and the movement.</li>
+					<li><a href="#gobrik-q"><b>GoBrik Questions</b></a> All about our app.</li>
+					<li><a href="#misc"><b>More Questions</b></a> Miscellaneous.</li>
+				</ul>
+			</h6>-->
+		
+		</div>
+
+		<div id="block-border" class="greyish">
+			<div id="faq-content-block" class="grey">
+				
+				
+				<a name="general"></a>
+				<h4>General Questions</h4>
+				<p>The basics about plastic and ecobricks.</p>
+				<h6>
+				<div id="hope">	<a href="#" class="hide">[show]</a>
+					<a href="#" class="show">[hide]</a></div>
+					<span id="secret" class="tran1">
+				
+				<div id="list">
+					<ul>
+						<li><a href="#plastic">What is plastic exactly?</a></li>
+						<li><a href="#concern">Why should I be concerned about my plastic?</a></li>
+						<li><a href="#worry">But isn't there more important stuff to worry about?</a></li>
+						<li><a href="#dangerous">How is plastic troublesome and dangerous?</a></li>
+						<li><a href="#what">So what is an ecobrick exactly?</a></li>
+						<li><a href="#why">Why make ecobricks?</a></li>
+						<li><a href="#how">How to make an ecobrick?</a></li>
+						<li><a href="#build">What can you build with ecobricks?</a></li>
+						<!--<li><a href="#build">How to start an Ecobrick Project?</a></li>-->
+						<li><a href="#principles">What makes ecobricks different from other plastic stuff?</a></li>
+						<li><a href="#dumping">Why not just landfill or dump my plastic?</a></li>
+						<li><a href="#burning">Why not just burn or send my plastic to be incienerated?</a></li>
+						<li><a href="#recycled">Why not just recycle my plastic?</a></li>
+						<li><a href="#sequestration">So how is ecobricking different from recycling, dumping or burning?</a></li>
+						<li><a href="#keen">I am keen to get going with ecobricking! What's the best way to start?</a></li>
+					</ul>
+
+					<div id="top-link-right"><a href="#top">Back to Top</a></div>
+				</h6>
+			</div>
+		</div>
+
+		<div id="block-border" class="greyish">
+			<div id="faq-content-block" class="reddish">
+				<a name="concerns"></a><h4>Ecobrick Concerns</h4>
+				<p>The worries and critiques.</p>
+				<h6>
+					<a href="#" class="hide">[show]</a>
+					<a href="#" class="show">[hide]</a>
+					<span id="secret" class="tran1">
+				
+				<div id="list">
+					<ul>
+					<li><a href="#dangerous">How does plastic get to be dangerous and toxic?</a></li>
+					<li><a href="#transition">Don't ecobricks just encourage people to consume more plastic?</a></li>
+						<li><a href="#sequest1">I've heared that ecobricks can leach poisons out into the environment.  Is it true?</a></li>
+						<li><a href="#circular1">How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?</a></li>
+				</ul>
+				<div id="top-link-right"><a href="#top">Back to Top</a></div>
+			</h6><br>
+				
+			</div>
+		</div>
+
+		<div id="block-border" class="greyish">
+		<div id="faq-content-block" class="greenish">
+			<a name="building-q"></a> 
+			<h4>Building Questions</h4>
+			<p>All about ecobrick applications.</p>
+			<h6>
+				<a href="#" class="hide">[show]</a>
+				<a href="#" class="show">[hide]</a>
+				<span id="secret" class="tran1">
+			<div id="list">
+				<ul>
+					<li><a href="#few">What can I build with a dozen ecobricks?</a></li>
+					<li><a href="#dozens">What can I build with a dozen ecobricks?</a></li>
+					<li><a href="#hundreds">What can I build with hundreds of ecobricks?</a></li>
+					<li><a href="#thousands">What can I build with thousands of ecobricks?</a></li>
+					<li><a href="#tens-thousands">What can I build with tens of thousands of ecobricks?</a></li>
+					<li><a href="#circular">What happens when a module comes to it's end?</a></li>
+					<li><a href="#earth">What exactly is Earth and Ecobrick building?</a></li>
+					<li><a href="#earth-methods">How to build with Ecobricks and Earth?</a></li>
+					<li><a href="#fire">What about Ecobricks and fire-- isn't it dangerous? </a></li>
+					<li><a href="#circular3">But isn't building with ecobricks just delaying the problem?  How is this a final solution for plastic?</a></li>
+				</ul>
+				<div id="top-link-right"><a href="#top">Back to Top</a></div>
+				</h6>
+			
+			</div>
+			
+		</div>
+		<div id="block-border" class="greyish">
+		<div id="faq-content-block" class="pinkish">
+			<a name="movement-q"></a><h4>Movement Questions</h4>
+			<p>About us and the global plastic transition and ecobrick movement.</p>
+			<h6>
+				<a href="#" class="hide">[show]</a>
+				<a href="#" class="show">[hide]</a>
+				<span id="secret" class="tran1">
+			
+			<div id="list">
+				<ul>
+					<li><a href="#about-gea">Who are you guys?</a></li>
+					<li><a href="#funds">If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</a></li>
+					<li><a href="#trainer-what">What is a "GEA certified Trainer"?</a></li>
+			
+					<li><a href="#movement">How to connect with the ecobrick movement?</a></li>
+					<li><a href="#catalyst">How can companies support ecobricking and plastic transition?</a></li>
+					<li><a href="#trainings">How can I become a certified ecobrick trainer?</a></li>
+					<li><a href="#media">I am with the media.  How do I do a story on ecobricks that avoids the common misconceptions?</a></li>
+					<li><a href="#eco-bricks">How do you spell it?  Eco bricks?  Eco-bricks? Ecobricks? (answer pending)</a></li>
 			</ul>
-		</h6><br> 
-		<div id="top-link-right"><a href="#top">Back to Top</a></div>
-	</div>	
+			<div id="top-link-right"><a href="#top">Back to Top</a></div></h6><br>
+			</div>
+			
+		</div>
 
+		<div id="block-border" class="greyish">
+		<div id="faq-content-block" class="blueish">
 
+			<a name="gobrik-q"></a> 
+			<h4>GoBrik Questions</h4>
+			<p>All about our web based ecobrick app.</p>
+			<h6>
+				<a href="#" class="hide">[show]</a>
+				<a href="#" class="show">[hide]</a>
+				<span id="secret" class="tran1">
+			
+			<div id="list">
+				<ul>
+					<li><a href="#gobrik">What is GoBrik?</a></li>
+					<li><a href="#brikcoins">What are Brikcoins?</a></li>
+					<li><a href="#start">How to sign up for an account on GoBrik?</a></li>
+					<li><a href="#why-log">Why log ecobricks? (answer pending)</a></li>
+				</ul>
+				<div id="top-link-right"><a href="#top">Back to Top</a></div>
+			</h6><br>
+			</div>
+		</div>
+
+		<div id="block-border" class="greyish">
+		<div id="faq-content-block" class="orangeish">
+			<a name="misc"></a>
+			<h4>More Questions</h4>
+			<p>All those other questions we haven't answered yet!</p>
+			<h6>
+				<a href="#" class="hide">[show]</a>
+				<a href="#" class="show">[hide]</a>
+				<span id="secret" class="tran1">
+			
+			<div id="list">
+				<ul>
+					<li><a href="#ocean">What about plastic I pick up in on the beach-- can it be ecobricked?</a></li>
+					<li><a href="#cigbrick">What about cigarette filters-- can they be ecobricked?</a></li>
+					<li><a href="#keen">I am keen to get going with ecobricking! What's the best way to start?</a></li>
+					<li><a href="#dropoff">How can I drop off my completed ecobricks?</a></li>
+				</ul>
+				<div id="top-link-right"><a href="#top">Back to Top</a></div>
+			</h6>
+		
+		</div>	
+		</div>
+
+</div>
+
+<div id="main-content">
         
 	
 <div id="content-block">  <!--GENERAL QUESTIONS-->
-    <div id="faq-banner" class="grey"><h3>General Questions</h3></div>
+	<div id="block-border" class="greyish"> <div id="faq-banner" class="grey"><h3>General Questions</h3></div></div>
 
      <div class="faq">
          <a name="plastic"></a>
@@ -648,40 +733,54 @@ z-index: 5 ;
                          <div class="faq-link"><h5>Learn more: <a href="plastic">The Long Story of Plastic</h5></a></div>
 						 <div id="top-link">Back to <a href="#general">General Questions</a></div>
                     </div>
-                    <div class="faq-image"><img src="webp/plastic-origins.webp"></div>
+                    <div class="faq-image"><img src="webp/compacted-carbon.webp"></div>
 					
                 </div>
 				
             </div>
 
 			<div class="faq">
-				<a name="conern"></a>
+				<a name="concern"></a>
 					<div class="faq-box">
 						   <div class="faq-texts">
 							   <div class="faq-header"><h4>Why should I be concerned about my plastic?</h4></div>
-							   <p>Your plastic represents an incredible opportunity! With your everyday plastic you can make tiny ripples that over time will turn into giant waves of ecological enrichment.  Plastic is the tip of the iceberg of a massive system based on the extraction of fossil fuels at the expense of ecosystems. Nobody wants to see an animal suffer.  Nor a rich ecosystem die.  Unfortunately, there is a direct correlation between what consume today and these consequences tomorrow.  Tiny choices to take our plastic out of this system, reduce its momentum into the future, compounding into great greening consequences.  Not only can make sure our plastic stays out of ecosystems for generations to come, we can put it towards accelerating a different kind of system and way of life-- one with less plastic and alot richer ecosystems.   </p>
+							   <p>Your plastic represents an incredible opportunity! With your everyday plastic you can make tiny ripples that over time will turn into giant waves of ecological enrichment.  Plastic is the tip of the iceberg of a massive system based on the extraction of fossil fuels at the expense of ecosystems. Nobody wants to see an animal suffer.  Nor a rich ecosystem die.  Unfortunately, there is a direct correlation between what we consume today and these consequences tomorrow.  By being concerned about our plastic, we start to making tiny choices to take it out of this system.  Concerned choices today reduce the system's momentum into the future and compound into great greening consequences-- like accelerating a different kind of system! In particular, a way of life with alot less plastic and alot richer ecosystems.   </p>
 							   <div class="faq-link"><h5>Learn more: <a href="plastic">The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
-						   <div class="faq-image"><img src="pngs/fire.png"></div>
+						   <div class="faq-image"><img src="webp/plastic-origins.webp"></div>
 					</div>
 					
 				</div>
 
 
 			<div class="faq">
-				<a name="conern"></a>
+				<a name="worry"></a>
 					<div class="faq-box">
 						   <div class="faq-texts">
-							   <div class="faq-header"><h4>But isn't there bigger issues to be concerned about?</h4></div>
-							   <p>Climate change.  Ocean acidification.  Species extinction.  These are big issues!  But they all have one thing in common.  The way we humans are living on Earth.  It makes it easy to hate the way corporations conspire, billionaires bully and how plastic persists.  However, no matter how much we despair, there's no more powerful way to express change than by living it first ourselves.  As a petro-capital by-product, plastic represents the old way humans having been living on Earth more than anything else.  By changing the way we see plastic and what we do with it, we can shift our attitude from hate and despair to love and care.  By loving and caring for our plastic we can plant the seeds that resolve not just plastic pollution... but get at the root causes of all those other big issues.</p>
+							   <div class="faq-header"><h4>But aren't there bigger issues to worry about?</h4></div>
+							   <p>Climate change.  Ocean acidification.  Species extinction.  These are big issues!  And they all have one thing in common:  <i>The way we humans are living on Earth.</i>  Corporations.  Billionaires.  Pollution.  Indeed, the way our world is working makes it easy to worry!   However, no matter how much we despair, there's no more powerful way to manifest change than by living it first ourselves.  As a petro-capital by-product, plastic is the ultimate representation of the old way we have been living on Earth.  By changing the way we see plastic and what we do with it, we can shift our attitude from worry and despair to love and care.  By loving and caring for our troublesome and dangerous plastic we can begin to heal its roots.  The very same roots that of all the other big issues happen to share.</p>
 							   <div class="faq-link"><h5>Learn more: <a href="plastic">The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
-						   <div class="faq-image"><img src="pngs/fire.png"></div>
+						   <div class="faq-image"><img src="webp/petro-capital-age.webp"></div>
 					</div>
 					
 				</div>
+
+				<div class="faq">
+					<a name="dangerous"></a>
+						<div class="faq-box">
+							   <div class="faq-texts">
+								   <div class="faq-header"><h4>How is plastic troublesome and dangerous?</h4></div>
+								   <p>Plastic is an incredibly useful and versatile material.  But in the wrong place it can become dangerous-- poisonous to us, animals and ecosystems as both chemicals and as particles.  When plastic gets loose in the biosphere plastic degrades from the effects of friction, heat and sun.  As it degrades, dangerous chemicals are released.  These are toxins that don't fit into ecological systems and contaminate.  Plastic's degradation also leads to smaller and smaller particles of plastic.  Organisms and animals that consume these 'micro-plastics' clog up their digestion and get sick.  Many die.  Eventually both chemical toxins and physical micro-plastics pass through the food chain to humans.  In our bodies they upset our hormonal balances, cause growth problems, and trigger cancer and health issues of all kinds. </p>
+									<div class="faq-link"><h5>Learn more: <a href="poison">The Dangers of Plastic</h5></a></div>
+									<div id="top-link">Back to <a href="#general">General Questions</a></div>
+							   </div>
+							   <div class="faq-image"><img src="pngs/fire.png"></div>
+						</div>
+						
+					</div>
     
             
 
@@ -708,7 +807,7 @@ z-index: 5 ;
 				<div class="faq-texts">
 					<div class="faq-header"><h4>Why make ecobricks?</h4></div>
 					
-					<p>Plastic is part of our petro-capital age.  No matter your culture or continent, you're going to be consuming some plastic!  Unlike other plastic management methods, ecobricking allows us to be 100% sure our plastic doesn't get into the biosphere.  Because ecobricking is hard work, it motivates us to consume less.  Having to pack our consumption piece by piece, it gets us thinking about the whole system behind our plastic!  And since building with ecobricks is a hands-on, collaboration powered process, it brings us together with friends and family to make great green spaces that serve our communities.</p>
+					<p>Plastic is part of our petro-capital age.  No matter your culture or continent, you're going to be consuming some plastic!  Unlike other plastic management methods, ecobricking allows us to be 100% sure our plastic doesn't get into the biosphere.  Because ecobricking is hard work, it motivates us to consume less.  Having to pack our consumption piece by piece, it gets us thinking about the whole system behind our plastic!  And since we're not putting it back in the system, we can be confident lots more carbon and plastic aren't produced.  Then, since building with ecobricks is a hands-on, collaboration powered process, it brings us together with friends and family to make great green spaces that serve our communities.  As far as we know, there's nothing better one can do with the plastic that we've got now-- and the fastest way to speed up our transition from it.</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="why">Why Make Ecobricks?</h5></a></div> 
 						<div id="top-link">Back to <a href="#general">General Questions</a></div>                   
@@ -724,8 +823,8 @@ z-index: 5 ;
                 <div class="faq-box">
                        <div class="faq-texts">
                            <div class="faq-header"><h4>How to make an Ecobrick?</h4></div>
-                           <p>First, save up and segregate your plastic, keeping them seperate from the organics.  If necessary clean and dry plastics. For your first ecobrick, start with a small, clear PET bottle that is common in your community (for projects you'll need bottles that are the same!).  Make sure you've got a solid stick (dowel, drumstick, branch, earthwand etc.). Start by inserting a soft, colored plastic down to bottom of the bottle. Stuff it down with other plastics of the same color until you have a 2-3cm base. Cut up other plastics and insert them losely into the bottle until it is almost full. Use your stick to pack the plastics down by pushing around on the sides.  Fill, pack and repeat! Leave 1-2cm of space at the top of the bottle.  Cap.  Then weigh your ecobrick.  Make sure your ecobrick's density is over the GEA's recomended minimum 0.33g/ml (divide weight by the bottle's volume to get the density).  Good ecobricks are >0.4g/ml.  Log your ecobrick (keep a list or use our handy GoBrik.com app).  Store securely. Then, when you've got enough... Build!</p>
-                            <div class="faq-link"><h5>Learn more: <a href="how">Comprehensive 10 Step Guide</h5></a></div>
+                           <p>Deep breath... First, save up and segregate your plastic, keeping them seperate from the organics.  Iff your plastics are dirty, clean and dry them. For your first ecobrick, start with a small, clear PET bottle that is common in your community (for projects you'll need bottles that are the same!).  Make sure you've got a solid stick (dowel, drumstick, branch, earthwand etc.). Start by inserting a soft, colored plastic down to bottom of the bottle. Stuff it down with other plastics of the same color until you have a 2-3cm base. Cut up other plastics and insert them losely into the bottle until it is almost full. Use your stick to pack the plastics down by pushing around on the sides.  Fill, pack, repeat. Leave 1-2cm of space at the top of the bottle.  Cap.  Then, weigh your ecobrick.  Make sure your ecobrick's density is over the GEA's recomended minimum 0.33g/ml (divide weight by the bottle's volume to get the density).  Good ecobricks are >0.4g/ml.  Log your ecobrick (keep a list or use our handy <a href="https://gobrik.com" target="_blank">GoBrik.com app</a>).  Store securely. Then, when you've got enough, put them together in a project.  And exhale!</p>
+                            <div class="faq-link"><h5>Answer's a little too dense yeah? Better see: <a href="how">Our Comprehensive 10 Step Ecobricking Guide</h5></a></div>
 							<div id="top-link">Back to <a href="#general">General Questions</a></div>
 							</div>
                        <div class="faq-image"><img src="webp/eb-sky-400px.webp"></div>
@@ -740,7 +839,7 @@ z-index: 5 ;
 			<div class="faq-texts">
 				<div class="faq-header"><h4>What can you build with ecobricks?</h4></div>
 				
-				<p>So many things!  Ecobricks can be connected with tire bands, silicone, and cob to build furniture, gardens, structures and more. Ecobricks are being used in different ways around the world. Some homes make a few modules for sitting while some cafes deploy hundreds to make their interactive co-working space. The best way to build with ecobricks though is with earth.  Ecobrick and earth building is ideal for making parks, gardens and green spaces of all kinds.  Some build simple circle benches will others build shelters and structures.  Your imagination is the limit! </p>
+				<p>So many things!  Ecobricks can be connected with tire bands, silicone, and cob to build furniture, gardens, green spaces and more. Ecobricks are being used in different ways around the world. Some households make a few modules for sitting stools while some cafes deploy hundreds to make their interactive co-working spaces. The ultimate way to build with ecobricks though is with earth.  Ecobrick and earth building is ideal for making parks, gardens and green spaces of all kinds for your community.  Some folks build simple circle benches and plant a tree inside, while others build shelters and structures.  Only your imagination is the limit! </p>
 
 				<div class="faq-link"><h5>Learn more: <a href="build">General Ecobrick Applications</h5></a></div>                    
 			</div>
@@ -755,7 +854,7 @@ z-index: 5 ;
 			<div class="faq-texts">
 				<div class="faq-header"><h4>What makes ecobricks and ecobrick applications different from other plastic stuff?</h4></div>
 				
-				<p>The methods of making ecobricks and building with them are guided by principles that are what we call "regenerative".  Regenerative principles are fundamentally different from the principles of "sustainability"  This means that from the ground up ecobricks and their applications are net-zero, localized, mandalic, transcaste, earthen, circular and open source.  Yep... that's alot of new words!  And that's the point-- ecobricking is all about applying a whole new paradigm to our plastic so that we avoid sustainaing the same problems and pollutions that come from the old way of doing things.</p>
+				<p>The methods of making ecobricks and building with them are guided by principles that are what we call "regenerative".  Regenerative principles are fundamentally different from the principles of "sustainability"  This means that from the ground up ecobricks making and applications are fundamentally different from our old uses of plastic.  Ecobrick applications are net-zero, localized, mandalic, transcaste, earthen, circular and open source.  Yep... that's alot of new words and concepts!  But that's actually the point-- ecobricking is all about applying a whole new paradigm to our plastic so that we avoid sustainaing the same problems and pollutions that came from the old way of doing things.</p>
 
 				<div class="faq-link"><h5>Learn more: <a href="principles">Ecobrick Regenerative Principles</h5></a>
 					<div id="top-link">Back to <a href="#general">General Questions</a></div>
@@ -851,8 +950,11 @@ z-index: 5 ;
 
 
 
-<div id="content-block">  <!--ECOBRICK CONCERNS-->
+<div id="content-block">    <!--ECOBRICK CONCERNS-->
+	
+	<div id="block-border" class="greyish">
 		<div id="faq-banner" class="reddish"><h3>Ecobrick Concerns</h3></div>
+	</div>
 
 
 		           
@@ -868,7 +970,7 @@ z-index: 5 ;
 					   <div class="faq-image"><img src="pngs/fire.png"></div>
 				</div>
 				
-			</div>
+		</div>
 
 
 		<div class="faq">
@@ -920,12 +1022,15 @@ z-index: 5 ;
 					<!--<div class="faq-image"></div>-->
 			</div>
 			
-
+		</div>
+	
+	</div> <!-- STRAY-->
 	
 
 <div id="content-block">
-    <div id="faq-banner" class="greenish"><h3>Building Questions</h3></div>
-
+	<div id="block-border" class="greyish">
+		 <div id="faq-banner" class="greenish"><h3>Building Questions</h3></div>
+	</div>
 		
 
 		<div class="faq">
@@ -940,7 +1045,8 @@ z-index: 5 ;
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
 				</div>
 				<div class="faq-image"><img src="webp/milstein.webp"></div>
-				
+				</div>
+
 		</div>
 
 		<div class="faq">
@@ -1054,108 +1160,77 @@ z-index: 5 ;
 		</div>
 	
 
-	<div class="faq">
-		<p><a name="fire"></a></p>
-		<div class="faq-box">
-			<div class="faq-texts">
-				<div class="faq-header"><h4>Are ecobricks a fire hazard since they are made with flammable plastic?</h4></div>
-				
-				<p>Plastic, just like pretty much everything else, can be flamable.  Whether your building with ecobricks or wood, it's all about building safely.  It all starts by making ecobricks properly.  When ecobricks are made according to GEA density standards, flammability is greatly reduced.  Furthermore, by building and using ecobricks properly, their fire hazard is further reduced.  Ecobrick and earth building for green spaces, our most recommended ecobrick application, reduces flammability to virtually nil.</p>
+		<div class="faq">
+			<p><a name="fire"></a></p>
+			<div class="faq-box">
+				<div class="faq-texts">
+					<div class="faq-header"><h4>Are ecobricks a fire hazard since they are made with flammable plastic?</h4></div>
+					
+					<p>Plastic, just like pretty much everything else, can be flamable.  Whether your building with ecobricks or wood, it's all about building safely.  It all starts by making ecobricks properly.  When ecobricks are made according to GEA density standards, flammability is greatly reduced.  Furthermore, by building and using ecobricks properly, their fire hazard is further reduced.  Ecobrick and earth building for green spaces, our most recommended ecobrick application, reduces flammability to virtually nil.</p>
 
-				<div class="faq-link"><h5>Learn more: <a href="fire">Ecobricks & Fire Security</a></h5></p></div>  
-				<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
+					<div class="faq-link"><h5>Learn more: <a href="fire">Ecobricks & Fire Security</a></h5></p></div>  
+					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
+				</div>
+				<div class="faq-image"><img src="webp/fire.webp"></div>
 			</div>
-			<div class="faq-image"><img src="webp/fire.webp"></div>
 		</div>
-	</div>
 
 
-	<div class="faq">
-		<p><a name="circular3"></a></p>
-		<div class="faq-box">
-			<div class="faq-texts">
-				<div class="faq-header"><h4>But isn't building with ecobricks just delaying the problem? How is this a final solution to plastic?</h4></div>
-				
-				<p>For hundreds of millions of years the molecules that make up our plastic weren't problematic.  In fact, by having secured carbon under ground, the Earth greened it's surface.  In the Earth's ecosystems "Final solutions" aren't the way things work. Thinking in lines is the way our petro-capital system tries to work when we buy, use, and throw-away. Ecosystems instead work in circles, cycling molecules over and over with less and less energy. By ecobricking our carbon/plastic we're getting out of 'final' thinking and back to following the example of the Earth. Ecobricks are designed to both secure their carbon/plastic and to be local building blocks-- just like in ecosystems! In the same way the Earth gifted us densely packed carbon (i.e. fossil fuels), we can gift our carbon to others in the future. Like the dinausaurs, we can't imagine how our plastic/carbon  will used in the future. However, we can be certain that it makes a better gift compacted and concentrated into useful buildings rather than scattered and dispersed, loose and leaching. </p>
+		<div class="faq">
+			<p><a name="circular3"></a></p>
+			<div class="faq-box">
+				<div class="faq-texts">
+					<div class="faq-header"><h4>But isn't building with ecobricks just delaying the problem? How is this a final solution to plastic?</h4></div>
+					
+					<p>For hundreds of millions of years the molecules that make up our plastic weren't problematic.  In fact, by having secured carbon under ground, the Earth greened it's surface.  In the Earth's ecosystems "Final solutions" aren't the way things work. Thinking in lines is the way our petro-capital system tries to work when we buy, use, and throw-away. Ecosystems instead work in circles, cycling molecules over and over with less and less energy. By ecobricking our carbon/plastic we're getting out of 'final' thinking and back to following the example of the Earth. Ecobricks are designed to both secure their carbon/plastic and to be local building blocks-- just like in ecosystems! In the same way the Earth gifted us densely packed carbon (i.e. fossil fuels), we can gift our carbon to others in the future. Like the dinausaurs, we can't imagine how our plastic/carbon  will used in the future. However, we can be certain that it makes a better gift compacted and concentrated into useful buildings rather than scattered and dispersed, loose and leaching. </p>
 
-				<div class="faq-link"><h5>Learn more: <a href="sequest">Plastic Sequestration</a></h5></p></div>   
-				<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                 
+					<div class="faq-link"><h5>Learn more: <a href="sequest">Plastic Sequestration</a></h5></p></div>   
+					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                 
+				</div>
+				<div class="faq-image"><img src="webp/circular.webp"></div>
 			</div>
-			<div class="faq-image"><img src="webp/circular.webp"></div>
+			
 		</div>
-		
-</div>
 
+	
 
 
 	<div id="content-block">
+		<div id="block-border" class="greyish">
 		<div id="faq-banner" class="pinkish"><h3>About the Movement</h3></div>
-
-
-	<div class="faq">
-		<p><a name="about-gea"></a></p>
-		<div class="faq-box">
-			<div class="faq-texts">
-				<div class="faq-header"><h4>Who are you guys?</h4></div>
-				
-				<p>We're a global alliance of ecobrickers!  We've come together to form the Global Ecobrick Alliance as a way to support the conceptual and technological infracstructure of the plastic transition movement.  We beleive that the problem of plastic unites us across continents and cultures, and as such... isn't so much a problem, as a grand opportunity for collective ecological action.  We're not a company, a charity or NGO-- we're what we call an Earth Enterprise.  Unlike many companies we don't have shareholders or owners who profit from excess revenue.  Unlike many Charities and NGOs we generate our own revenue-- specifically by providing the valuable ecological service of plastic sequestration.</p>
-
-				<div class="faq-link"><h5>Learn more: <a href="about">Learn more about the GEA</h5></p></div>                    
-			</div>
-			<div class="faq-image"><img src="svgs/shanti.svg"></div>
-		</div>
-		<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
-	</div>
-
-
-	<div class="faq">
-		<p><a name="funds"></a></p>
-		<div class="faq-box">
-			<div class="faq-texts">
-				<div class="faq-header"><h4>If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</h4></div>
-				
-				<p>Good question!  Asking where an enterprise gets its funds is important to understand their priority.  We generate our funds by providing ecological service and by raising ecological awareness.  Folks around the world join our on-site and online traings and our Trainer remit 20% to the the GEA.  In addition our trainers sell our EarthWand ecobrick stick and remit 50% back to the GEA.  Finally, through GoBrik.com all the ecobricking that our block chain authenticates is quantied and available for purchase as AES plastic offset credits.  Buying Authenticated Ecobrick Sequestered plastic credits is a great way to take responsibility for your plastic generation and energize our work-- and through it the global plastic transition movement.</p>
-
-				<div class="faq-link"><h5>Start: <a href="about">Buy AES Offset Credits</h5></p></div>  
-					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
-			</div>
-			<div class="faq-image"><img src="webp/brk-cascade.webp"></div>
 		</div>	
-	</div>
 
-	<div class="faq">
-		<p><a name="trainer-what"></a></p>
-		<div class="faq-box">
-			<div class="faq-texts">
-				<div class="faq-header"><h4>what is a "GEA Certified Trainer"?</h4></div>
-				
-				<p>These are every day folks who are passionate about the planet and who have complete our intensive Global Ecobrick Alliance trainer of trainer program.  They learned the fundamental principles of the ecobrick movement as well as the best techniques and practices from our experts.  They've got experience in mandalic collaboration and moblizing communities through ecobrick starter workshops.  Our master trainers have signed off on their understanding and commitment and they are part of our global network.  Trainers are available to run ecobrick starter workshops for your group, company, or community.  They qualify to ask for a GEA standardized fee which varies by country and currency.</p>
 
-				<div class="faq-link"><h5>Learn more <a href="trainings">GEA Training Programs & etwork</h5></p></div>  
-					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
-			</div>
-			<div class="faq-image"><img src="webp/brk-cascade.webp"></div>
-		</div>	
-	</div>
-
-	
-
-	<div class="faq">
-			<p><a name="trainings"></a></p>
+		<div class="faq">
+			<a name="about-gea"></a>
 			<div class="faq-box">
 				<div class="faq-texts">
-					<div class="faq-header"><h4>How can I become an ecobrick trainer?</h4></div>
-				
-					<p>Start by joining one of the GEA's starter workshops!  We've got them going on pretty much everyday, online and on site around the world.  Once your household ecobricking is well established, then you can join one our five session GEA Trainer of Trainer workshops.  Usually these are online, but sometimes we do them for cities, governments and companies that comission our master trainers.  We also have Earth & Building starter and trainer workshops too!</p>
+					<div class="faq-header"><h4>Who are you guys?</h4></div>
+					
+					<p>We're a global alliance of ecobrickers!  We've come together to form the Global Ecobrick Alliance as a way to support the conceptual and technological infracstructure of the plastic transition movement.  We beleive that the problem of plastic unites us across continents and cultures, and as such... isn't so much a problem, as a grand opportunity for collective ecological action.  We're not a company, a charity or NGO-- we're what we call an Earth Enterprise.  Unlike many companies we don't have shareholders or owners who profit from excess revenue.  Unlike many Charities and NGOs we generate our own revenue-- specifically by providing the valuable ecological service of plastic sequestration.</p>
 
-					<div class="faq-link"><h5>Learn more: <a href="movement">GEA Trainer Programs</h5></a></div>              
+					<div class="faq-link"><h5>Learn more: <a href="about">Learn more about the GEA</h5></p></div>  
+					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
+				</div>
+				<div class="faq-image"><img src="svgs/shanti.svg"></div>
+			</div>
+		</div>
+
+
+		<div class="faq">
+			<a name="movement"></a>
+			<div class="faq-box">
+				<div class="faq-texts">
+					<div class="faq-header"><h4>How does the ecobrick movement spread?  Are people paid to do this?</h4></div>
+				
+					<p>Nope!  Nobody gets paid to ecobrick.  The ecobrick movement is a non-capital movement powered by collaboration and green spirit.  In other words, the motivation to see our earth clean and green is first and foremost what inspires not just ecobricking, but the trainings done by our trainers, and the operation of the Global Ecobrick Alliance.  By holding to clear principles and methodologies the movement spreads mandalically.  This quiet, subtle yet powerful social spread is what we call mandalic collaboration.</p>
+
+					<div class="faq-link"><h5>Learn more: <a href="mandalas">Mandalic Collaboration</h5></a></div>                    
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 				</div>
-				
+				<div class="faq-image"><img src="webp/mandalic.webp"></div>
 			</div>
-			
-	
-
+		</div>
 
 
 		<div class="faq">
@@ -1172,27 +1247,11 @@ z-index: 5 ;
 			
 				<div class="faq-image"><img src="pngs/catalyst.png"></div>
 			</div>
-			
 		</div>
 
-		<div class="faq">
-			<p><a name="movement"></a></p>
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>How does the ecobrick movement spread?  Are people paid to do this?</h4></div>
-				
-					<p>Nope!  Nobody gets paid to ecobrick.  The ecobrick movement is a non-capital movement powered by collaboration and green spirit.  In other words, the motivation to see our earth clean and green is first and foremost what inspires not just ecobricking, but the trainings done by our trainers, and the operation of the Global Ecobrick Alliance.  By holding to clear principles and methodologies the movement spreads mandalically.  This quiet, subtle yet powerful social spread is what we call mandalic collaboration.</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="mandalas">Mandalic Collaboration</h5></a></div>                    
-					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
-				</div>
-				<div class="faq-image"><img src="webp/mandalic.webp"></div>
-			</div>
-			
-		</div>
 
 		<div class="faq">
-			<p><a name="movement"></a></p>
+			<a name="movement"></a>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How to connect with the ecobrick movement?</h4></div>
@@ -1202,24 +1261,67 @@ z-index: 5 ;
 					<div class="faq-link"><h5>Learn more: <a href="movement">Global Ecobrick Movement</h5></a></div>                    
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 				</div>
-				
 			</div>
-			
 		</div>
 
-	
 
-	
+		<div class="faq">
+			<a name="funds"></a>
+			<div class="faq-box">
+				<div class="faq-texts">
+					<div class="faq-header"><h4>If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</h4></div>
+					
+					<p>Good question!  Asking where an enterprise gets its funds is important to understand their priority.  We generate our funds by providing ecological service and by raising ecological awareness.  Folks around the world join our on-site and online traings and our Trainer remit 20% to the the GEA.  In addition our trainers sell our EarthWand ecobrick stick and remit 50% back to the GEA.  Finally, through GoBrik.com all the ecobricking that our block chain authenticates is quantied and available for purchase as AES plastic offset credits.  Buying Authenticated Ecobrick Sequestered plastic credits is a great way to take responsibility for your plastic generation and energize our work-- and through it the global plastic transition movement.</p>
 
+					<div class="faq-link"><h5>Start: <a href="about">Buy AES Offset Credits</h5></p></div>  
+					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
+				</div>
+			</div>	
+		</div>
+
+		<div class="faq">
+			<p><a name="trainer-what"></a></p>
+			<div class="faq-box">
+				<div class="faq-texts">
+					<div class="faq-header"><h4>What is a "GEA Certified Trainer"?</h4></div>
+					
+					<p>These are every day folks who are passionate about the planet and who have complete our intensive Global Ecobrick Alliance trainer of trainer program.  They learned the fundamental principles of the ecobrick movement as well as the best techniques and practices from our experts.  They've got experience in mandalic collaboration and moblizing communities through ecobrick starter workshops.  Our master trainers have signed off on their understanding and commitment and they are part of our global network.  Trainers are available to run ecobrick starter workshops for your group, company, or community.  They qualify to ask for a GEA standardized fee which varies by country and currency.</p>
+
+					<div class="faq-link"><h5>Learn more <a href="trainings">GEA Training Programs & etwork</h5></p></div>  
+					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
+				</div>
+			</div>	
+		</div>
+
+		
+
+		<div class="faq">
+				<p><a name="trainings"></a></p>
+				<div class="faq-box">
+					<div class="faq-texts">
+						<div class="faq-header"><h4>How can I become an ecobrick trainer?</h4></div>
+					
+						<p>Start by joining one of the GEA's starter workshops!  We've got them going on pretty much everyday, online and on site around the world.  Once your household ecobricking is well established, then you can join one our five session GEA Trainer of Trainer workshops.  Usually these are online, but sometimes we do them for cities, governments and companies that comission our master trainers.  We also have Earth & Building starter and trainer workshops too!</p>
+
+						<div class="faq-link"><h5>Learn more: <a href="movement">GEA Trainer Programs</h5></a></div>              
+						<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
+					</div>
+				</div>
+		</div>
+
+	</div>
+</div>
 
 
 	
 
 	<div id="content-block">
-		<div id="faq-banner" class="blueish"><h3>GoBrik Questions</h3></div>
+		<div id="block-border" class="greyish">
+			<div id="faq-banner" class="blueish"><h3>GoBrik Questions</h3></div>
+		</div>
 
 		<div class="faq">
-			<p><a name="gobrik"></a></p>
+			<p><a name="gobrik"></a></p>	
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What is this GoBrik app for ecobricking?</h4></div>
@@ -1276,7 +1378,9 @@ z-index: 5 ;
 
 
     <div id="content-block">
-    	<div id="faq-banner" class="orangeish"><h3>More Questions</h3></div>
+    	<div id="block-border" class="greyish">
+		<div id="faq-banner" class="orangeish"><h3>More Questions</h3></div>
+	</div>
 
 
 		<div class="faq">
@@ -1343,9 +1447,7 @@ z-index: 5 ;
 				<div class="faq-image"><img src="svgs/Cigbrick.svg"></div>
 			</div>
 			
-		</div>
-
-		
+		</div>	
 
 		<div class="faq">
 			<p><a name="media"></a></p>
@@ -1362,7 +1464,6 @@ z-index: 5 ;
 			</div>
 			
 		</div>
-
 
 		<div class="faq">
 			<p><a name="eco-bricks"></a></p>
@@ -1384,24 +1485,29 @@ z-index: 5 ;
 
 	</div>
 
+	<br><br><br>
 
 
 
-	<div id="faq-content-block" class="grey">
-		<h2>Need to know more?</h2><h5>In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:  </h5>
-	
-			  <h6><ul>
-				<li><b>Ecobricks & Brikcoin Whitepaper</b> <a href="https://files.mandala.team/s/depPsJ7YKnMRMHN" target="_blank">The Commodification of Sequestered Plastic</a></li>
-				<li><b>Journalists:</b>  Be sure to check out <a href="media">our media kit!</a></li>
-					<!--<li><b>Academics:</b>  Be sure to check out <a href="media">our reports and white papers!</a></li>--> 
-					 <li><b>Learn from a trainer</b>  Check out the current <a href="https://gobrik.com/#courses">Ecobrick Starter Workshop</a> course listing by certified GEA Trainers.</li>
-					 <li><b>Training others to make ecobricks?</b> Be sure to check out <a href="trainings">trainer of trainer program</a></li>
-				</ul></h6>
-	
-	<h5>Need to chat about your idea or question? Join our Mattermost <a href="https://gea.mandala.team/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">ecobricker community</a> and bring it up there!</h5><br><br>
+
+	<div id="block-border" class="greyish">
+		<div id="faq-content-block" class="grey">
+			<h2>Need to know more?</h2>
+			<h5>In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:  </h5>
+		
+				<h6><ul>
+					<li><b>Ecobricks & Brikcoin Whitepaper</b> <a href="https://files.mandala.team/s/depPsJ7YKnMRMHN" target="_blank">The Commodification of Sequestered Plastic</a></li>
+					<li><b>Journalists:</b>  Be sure to check out <a href="media">our media kit!</a></li>
+						<!--<li><b>Academics:</b>  Be sure to check out <a href="media">our reports and white papers!</a></li>--> 
+						<li><b>Learn from a trainer</b>  Check out the current <a href="https://gobrik.com/#courses">Ecobrick Starter Workshop</a> course listing by certified GEA Trainers.</li>
+						<li><b>Training others to make ecobricks?</b> Be sure to check out <a href="trainings">trainer of trainer program</a></li>
+					</ul></h6>
+		
+				<h5>Need to chat about your idea or question? Join our Mattermost <a href="https://gea.mandala.team/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">ecobricker community</a> and bring it up there!</h5><br><br>
+		</div>
 	</div>
 	</div>
-
+</div>
 
 
 

@@ -268,17 +268,26 @@ h6 { font-size: 1.15em;
     }
 
 
+
+
+
+
+
+
+
 #faq-content-block-1 {
   text-align: left;
   padding: 5.5%;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 130px;
+  padding-bottom: 40px;
+
+  /*
   background: rgb(179,239,225);
   background: linear-gradient(180deg, rgba(179,239,225,1) 0%, rgba(81,197,255,1) 100%); 
   border-radius: 12px;
   margin: 0px -3% -50px -3%;
   border-color: black;
-  border-width: 5px;
+  border-width: 5px;*/
   
 }
 
@@ -286,15 +295,14 @@ h6 { font-size: 1.15em;
     text-align: left;
     padding: 5.5%;
     padding-top: 30px;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     border-radius: 12px;
 }
 
 .grey  {
-  background: rgb(235,235,235);
-  background: linear-gradient(132deg, rgba(235,235,235,1) 0%, rgba(199,199,199,1) 100%); 
-}
+    background: rgb(235,235,235);
+    background: linear-gradient(132deg, rgba(235,235,235,1) 0%, rgba(199,199,199,1) 100%); 
+  }
 
 .reddish { 
   background: rgb(255,238,238);
@@ -319,6 +327,15 @@ background: linear-gradient(132deg, rgba(235,253,255,1) 0%, rgba(195,250,254,1) 
 .pinkish { 
   background: rgb(254,235,255);
   background: linear-gradient(132deg, rgba(254,235,255,1) 0%, rgba(248,195,254,1) 100%); 
+}
+
+.greyish { 
+  background: rgb(212,212,212);
+  background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%); 
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom:30px;
+  
 }
 
 
