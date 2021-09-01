@@ -299,12 +299,16 @@ h6 { font-size: 1.15em;
     border-radius: 12px;
 }
 
-.toggle
-{padding: 6px;
-margin-top: 12px;
-margin-right: 30px;
-font-size: 1.1em;
-right: 0;}
+.toggle {
+    margin-top: 18px;
+    font-size: 1.2em;
+    background-color: #ffffff82;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: #000000ad;
+    margin-left: 79%;
+width: 20%;
+}
 
 .grey  {
     background: rgb(235,235,235);
