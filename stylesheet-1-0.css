@@ -276,18 +276,18 @@ h6 { font-size: 1.15em;
 
 
 #faq-content-block-1 {
-  text-align: left;
+  text-align: center;
   padding: 5.5%;
   padding-top: 130px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 
-  /*
+  
   background: rgb(179,239,225);
   background: linear-gradient(180deg, rgba(179,239,225,1) 0%, rgba(81,197,255,1) 100%); 
   border-radius: 12px;
   margin: 0px -3% -50px -3%;
   border-color: black;
-  border-width: 5px;*/
+  border-width: 5px;
   
 }
 
@@ -298,6 +298,13 @@ h6 { font-size: 1.15em;
     padding-bottom: 50px;
     border-radius: 12px;
 }
+
+.toggle
+{padding: 6px;
+margin-top: 12px;
+margin-right: 30px;
+font-size: 1.1em;
+right: 0;}
 
 .grey  {
     background: rgb(235,235,235);

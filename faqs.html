@@ -162,6 +162,78 @@ function topFunction() {
 	}
 </script>
 
+<!--TOGGLES-->
+
+<script>
+	function general() {
+	  var x = document.getElementById("general-questions");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function concerns() {
+	  var x = document.getElementById("concerns-questions");
+	  if (x.style.display === "block") {
+		x.style.display = "none";
+	  } else {
+		x.style.display = "block";
+	  }
+	}
+	</script>
+
+<script>
+	function building() {
+	  var x = document.getElementById("building-questions");
+	  if (x.style.display === "block") {
+		x.style.display = "none";
+	  } else {
+		x.style.display = "block";
+	  }
+	}
+	</script>
+
+<script>
+	function movement() {
+	  var x = document.getElementById("movement-questions");
+	  if (x.style.display === "block") {
+		x.style.display = "none";
+	  } else {
+		x.style.display = "block";
+	  }
+	}
+	</script>
+
+
+<script>
+	function gobrik() {
+	  var x = document.getElementById("gobrik-questions");
+	  if (x.style.display === "block") {
+		x.style.display = "none";
+	  } else {
+		x.style.display = "block";
+	  }
+	}
+	</script>
+
+<script>
+	function more() {
+	  var x = document.getElementById("more-questions");
+	  if (x.style.display === "block") {
+		x.style.display = "none";
+	  } else {
+		x.style.display = "block";
+	  }
+	}
+	</script>
+
+
+
+
 <!-- This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score-->
 
 <script type="text/javascript">
@@ -183,13 +255,26 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
 </script>
 
-    
+
 
   
 
 	
 	<style>
 	
+	#concerns-questions {display: none;}
+
+	#building-questions {display: none;}
+
+	#movement-questions {display: none;}
+
+	#gobrik-questions {display: none;}
+
+	#more-questions {display: none;}
+
+	
+
+
 
 
 #full-page {
@@ -348,7 +433,7 @@ height: 25vh;}
 	
 
 
-@media screen and (min-width: 770px) and (max-width: 2000px) { 
+@media screen and (min-width: 770px) { 
 #header-content-block {
     text-align: center;
     background-color: #74acffb2;
@@ -357,14 +442,12 @@ height: 25vh;}
 	padding: 25px 7% 25px 7%;
 	margin-bottom: 5%;
 	margin: -70vh 10% 10px 10%;
-z-index: 5 ;
-
-
+z-index: 5;
 }
 }
 
 @media screen and (max-width: 770px) { 
-	#header-content-block {
+#header-content-block {
     text-align: center;
     background-color: #74acffb2;
     border-radius: 12px;
@@ -372,41 +455,9 @@ z-index: 5 ;
 	padding: 25px 7% 25px 7%;
 	margin-bottom: 5%;
 	margin: -78vh 5% 10px 5%;
-z-index: 5 ;
-
+	z-index: 5;
 }
 }
-
-.hide {float: right;
-	text-align: right;
-	/*
-padding-right: 20px;
-margin-top: -50px;
-*/
-}
-
-
-.show {display: none;
-
-text-align: right;
-float: right;
-margin-bottom: 30px;
-/*
-padding-right: 20px;
-margin-top: -50px;
-background: white;*/
- }
-
-.hide:focus + .show {display: inline;}
-		
-	/*text-align: right;
-	float: right; */
-      .hide:focus { display: none; 
-		float: right;}
-      .tran1 {-o-transition: all 1s;-moz-transition: all 1s;-webkit-transition: all 1s;}
-      #secret {opacity: 0;
-	display: none;}
-      .hide:focus ~ #secret {opacity: 1; display: inline;}
 
   </style>	
 
@@ -523,6 +574,7 @@ background: white;*/
 	<div id="page-header">Frequently Asked Questions</div>
 	<div id="page-header-sub">You've got questions about ecobricks. We've got answers!</div>-->
 </div>
+
 <div id="header-content-block">
 	<h1>Frequently Asked Questions</h1>
 	<h5>You've got questions about ecobricks. We've got answers!</h5>
@@ -530,6 +582,8 @@ background: white;*/
 
 
 <div id="content-sect1">
+
+
 	
 <!-- QUESTIONS CONTENT -->
 	
@@ -565,12 +619,14 @@ background: white;*/
 				<a name="general"></a>
 				<h4>General Questions</h4>
 				<p>The basics about plastic and ecobricks.</p>
-				<h6>
-				<div id="hope">	<a href="#" class="hide">[show]</a>
-					<a href="#" class="show">[hide]</a></div>
-					<span id="secret" class="tran1">
 				
-				<div id="list">
+
+				<button onclick="general()" class="toggle">Hide / Show</button>
+
+				<div id="general-questions">
+				
+				<h6>
+				
 					<ul>
 						<li><a href="#plastic">What is plastic exactly?</a></li>
 						<li><a href="#concern">Why should I be concerned about my plastic?</a></li>
@@ -588,9 +644,7 @@ background: white;*/
 						<li><a href="#sequestration">So how is ecobricking different from recycling, dumping or burning?</a></li>
 						<li><a href="#keen">I am keen to get going with ecobricking! What's the best way to start?</a></li>
 					</ul>
-
-					<div id="top-link-right"><a href="#top">Back to Top</a></div>
-				</h6>
+				</h6></div>
 			</div>
 		</div>
 
@@ -598,20 +652,19 @@ background: white;*/
 			<div id="faq-content-block" class="reddish">
 				<a name="concerns"></a><h4>Ecobrick Concerns</h4>
 				<p>The worries and critiques.</p>
-				<h6>
-					<a href="#" class="hide">[show]</a>
-					<a href="#" class="show">[hide]</a>
-					<span id="secret" class="tran1">
+			
+				<button onclick="concerns()" class="toggle">Show / Hide</button>
+				<div id="concerns-questions">
+					<h6>
 				
-				<div id="list">
 					<ul>
 					<li><a href="#dangerous">How does plastic get to be dangerous and toxic?</a></li>
 					<li><a href="#transition">Don't ecobricks just encourage people to consume more plastic?</a></li>
 						<li><a href="#sequest1">I've heared that ecobricks can leach poisons out into the environment.  Is it true?</a></li>
 						<li><a href="#circular1">How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?</a></li>
 				</ul>
-				<div id="top-link-right"><a href="#top">Back to Top</a></div>
-			</h6><br>
+				
+			</h6><br></div>
 				
 			</div>
 		</div>
@@ -622,10 +675,9 @@ background: white;*/
 			<h4>Building Questions</h4>
 			<p>All about ecobrick applications.</p>
 			<h6>
-				<a href="#" class="hide">[show]</a>
-				<a href="#" class="show">[hide]</a>
-				<span id="secret" class="tran1">
-			<div id="list">
+				<button onclick="building()" class="toggle">Show/Hide</button>
+			
+			<div id="building-questions">
 				<ul>
 					<li><a href="#few">What can I build with a dozen ecobricks?</a></li>
 					<li><a href="#dozens">What can I build with a dozen ecobricks?</a></li>
@@ -638,7 +690,7 @@ background: white;*/
 					<li><a href="#fire">What about Ecobricks and fire-- isn't it dangerous? </a></li>
 					<li><a href="#circular3">But isn't building with ecobricks just delaying the problem?  How is this a final solution for plastic?</a></li>
 				</ul>
-				<div id="top-link-right"><a href="#top">Back to Top</a></div>
+			
 				</h6>
 			
 			</div>
@@ -648,12 +700,10 @@ background: white;*/
 		<div id="faq-content-block" class="pinkish">
 			<a name="movement-q"></a><h4>Movement Questions</h4>
 			<p>About us and the global plastic transition and ecobrick movement.</p>
-			<h6>
-				<a href="#" class="hide">[show]</a>
-				<a href="#" class="show">[hide]</a>
-				<span id="secret" class="tran1">
 			
-			<div id="list">
+			<button onclick="movement()" class="toggle">Show/Hide</button>
+			<div id="movement-questions">
+				<h6>
 				<ul>
 					<li><a href="#about-gea">Who are you guys?</a></li>
 					<li><a href="#funds">If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</a></li>
@@ -665,7 +715,8 @@ background: white;*/
 					<li><a href="#media">I am with the media.  How do I do a story on ecobricks that avoids the common misconceptions?</a></li>
 					<li><a href="#eco-bricks">How do you spell it?  Eco bricks?  Eco-bricks? Ecobricks? (answer pending)</a></li>
 			</ul>
-			<div id="top-link-right"><a href="#top">Back to Top</a></div></h6><br>
+		
+			</div>
 			</div>
 			
 		</div>
@@ -676,20 +727,18 @@ background: white;*/
 			<a name="gobrik-q"></a> 
 			<h4>GoBrik Questions</h4>
 			<p>All about our web based ecobrick app.</p>
+			<button onclick="gobrik()" class="toggle">Show/Hide</button>
+			<div id="gobrik-questions">
 			<h6>
-				<a href="#" class="hide">[show]</a>
-				<a href="#" class="show">[hide]</a>
-				<span id="secret" class="tran1">
-			
-			<div id="list">
+
 				<ul>
 					<li><a href="#gobrik">What is GoBrik?</a></li>
 					<li><a href="#brikcoins">What are Brikcoins?</a></li>
 					<li><a href="#start">How to sign up for an account on GoBrik?</a></li>
 					<li><a href="#why-log">Why log ecobricks? (answer pending)</a></li>
 				</ul>
-				<div id="top-link-right"><a href="#top">Back to Top</a></div>
-			</h6><br>
+				
+			</h6><br></div>
 			</div>
 		</div>
 
@@ -698,19 +747,17 @@ background: white;*/
 			<a name="misc"></a>
 			<h4>More Questions</h4>
 			<p>All those other questions we haven't answered yet!</p>
+			<button onclick="more()" class="toggle">Show/Hide</button>
 			<h6>
-				<a href="#" class="hide">[show]</a>
-				<a href="#" class="show">[hide]</a>
-				<span id="secret" class="tran1">
 			
-			<div id="list">
+			<div id="more-questions">
 				<ul>
 					<li><a href="#ocean">What about plastic I pick up in on the beach-- can it be ecobricked?</a></li>
 					<li><a href="#cigbrick">What about cigarette filters-- can they be ecobricked?</a></li>
 					<li><a href="#keen">I am keen to get going with ecobricking! What's the best way to start?</a></li>
 					<li><a href="#dropoff">How can I drop off my completed ecobricks?</a></li>
 				</ul>
-				<div id="top-link-right"><a href="#top">Back to Top</a></div>
+				
 			</h6>
 		
 		</div>	
@@ -891,11 +938,12 @@ background: white;*/
 				
 				<p>Whether plastic is burned on the side of the road or in a high-tech waste-to-energy plant, it is a tremendous waste.  Plastic, as a fosil fuel by-product, is the result of hundreds of millions of years of work by the Earth to remove carbon from the atmosphere, to compact and secure it, and to green the biosphere.  When plastic is burned, in an instant it's carbon is dispersed loose back into the atmosphere.  In many cases poisonous and toxic chemicals are also released. Incinerating plastic also encorages more new plastic to be made.  Because it is so deceptively easy to dispose of plastic by burning it, it makes it seem like there's no problem using it in the first place.  Because of this it is essential to keep our plastic from energy this dangerous and dirty spiral. The more plastic that is incinerated, the more ancient carbon is extracted, the more plastic is made, thrown away and the more carbon and toxins disperse into the biosphere.  </p>
 
-				<div class="faq-link"><h5>Learn more: <a href="posion">Plastic can be Poisonous</h5></a></div>                    
+				<div class="faq-link"><h5>Learn more: <a href="posion">Plastic can be Poisonous</h5></a></div>   
+				<div id="top-link"><a href="#general">Back to General Questions</a></div>                 
 			</div>
 			<div class="faq-image"><img src="webp/incineration.webp"></div>
 		</div>
-		<div id="top-link"><a href="#general">Back to General Questions</a></div>
+	
 	</div>
 
 
@@ -1526,58 +1574,50 @@ background: white;*/
 	<div class="footer-icons-container">
 		<div class="footer-icons"><!--WIKIPEDIA-->
 			<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">
-			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page"></a>
-			<div class="icon-name">/ecobricks</div>
-			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page"></a>
+			
 		</div>
 
 		<div class="footer-icons">
 			<a href="https://circles.ecobricks.org" target="_blank"><!--MATTERMOST-->
-			<img src="icons/mattermost.svg" width="100%" height="100%" alt="JOIn our Circles Ecobrick Support Community"></a>
-			<div class="icon-name">/ecobricks</div>
-			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+			<img src="icons/mattermost.svg" width="100%" height="100%" alt="Join our Circles Ecobrick Support Community"  title="Join our Circles Ecobrick Support Community"></a>
+			<!--<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>-->
 		</div>
 
 		<div class="footer-icons"><!--GOBRIK-->
 			<a href="https://gobrik.com" target="_blank">
-			<img src="icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app"></a>
-			<div class="icon-name">/ecobricks</div>
-			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+			<img src="icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app"></a>
+			
 		</div>
 
 		<div class="footer-icons">
 			<a href="https://medium.com/earthen/" target="_blank"><!--MEDIUM-->
-			<img src="icons/medium.svg" width="100%" height="100%" alt="Follow our Medium Earthen publication"></a>
-			<div class="icon-name">/ecobricks</div>
-			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+			<img src="icons/medium.svg" width="100%" height="100%" alt="Follow our Medium.com Earthen publication"  title="Follow our Medium.com Earthen publication"></a>
+			
 		</div>
 
 		<div class="footer-icons"> <!--GITHUB-->
 			<a href="https://github.com/gea-ecobricks/ecobricks-org" target="_blank">
-			<img src="icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository"></a>
-			<div class="icon-name">/ecobricks</div>
-			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+			<img src="icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository" title="Contribute to our Ecobricks.org Github repository"></a>
+			
 		</div>
 		
 		<div class="footer-icons"><!--FACEBOOK-->
 			<a href="https://facebook.com/ecobricks.org" target="_blank">
-			<img src="icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"></a>
-			<div class="icon-name">/ecobricks</div>
-			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+			<img src="icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"  title="Follow our Facebook page"></a>
 		</div>
 
 		<div class="footer-icons"><!--YOUTUBE-->
 			<a href="https://www.youtube.com/c/Ecobricks" target="_blank">
-			<img src="icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"></a>
-			<div class="icon-name">/ecobricks</div>
-			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+			<img src="icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"  title="Subscribe to our Ecobricks YouTube channel"></a>
+			
 		</div>
 
 		<div class="footer-icons"><!--INSTAGRAM-->
 			<a href="https://www.instagram.com/ecobricks.plastic.transition/" target="_blank">
-			<img src="icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"></a>
-			<div class="icon-name">/ecobricks</div>
-			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+			<img src="icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"  title="Instagram: Ecobricks.Plastic.Transition"></a>
+			
 		</div>
 
 		<!--<div class="footer-icons">--NEXTCLOUD
@@ -1595,14 +1635,14 @@ background: white;*/
 
 		<div class="footer-box">
 			<div class="footer-header">Wikipedia Ecobricks</div>
-				<div class="footer-subtext">Also know as Eco Bricks, Eco-Bricks, Ecolladrillos, and bottle bricks the Global Ecobrick Alliance and <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia</a> endorse <i>'ecobrick'</i> to refer to the sequestration of plastic in a PET bottle to make a reusable building block.<br><br>
+				<div class="footer-subtext">Also know as eco bricks, eco-bricks, EcoBricks, ecolladrillos, and bottle bricks the Global Ecobrick Alliance and <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia</a> endorse <i>'ecobrick'</i> to refer to the sequestration of plastic in a PET bottle to make a reusable building block.<br><br>
 				</div>
 				<div class="footer-header">Tech Partners</div>
 				<div class="footer-subtext">Thank you to our Technology Partners <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a>, <a href="https://wpml.org/" target="_blank">WPML The WordPress Multilingual Plugin</a><a href="https://Knack.com" target="_blank"></a> and <a href="https://statically.io" target="_blank">Statically</a> who give us special access to their amazing services.</div>
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Ecobricker Support</div>
-				<div class="footer-subtext">Got questions about ecobricking?  Well, there's a community for that!  Join Circles, our free Hosted on our own fully independent server, our Circles platform runs on Mattermost-- so you can join using your web browser or mobile apps and get help from our hundreds of trainers around the world. <a href="https://gea.mandala.team/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">Sign up!</a><br><br></div>
+				<div class="footer-subtext">Got questions about ecobricking?  Join Circles, our own communication platform, running on opensource Mattermost.  Get help from trainers and ecobrickers around the world. <a href="https://gea.mandala.team/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">Sign up!</a><br><br></div>
 				<!--<div class="footer-header">Trainer Support</div>-->
 				<div class="footer-subtext">GEA Trainers access your <a href="https://www.ecobricks.org/webmail" target="_blank">webmail</a>, <a href="https://www.ecobricks.org/wp-admin" target="_blank">wordpress</a>, <a href="https://gobrik.com/#my-trainer" target="_blank">GoBrik</a> or <a href="https://files.mandala.team" target="_blank">NextCloud File Server</a> panels.</div>
 			</div>
@@ -1610,12 +1650,12 @@ background: white;*/
 				<div class="footer-header">Earth Enterprise</div>
 				<div class="footer-subtext">The <a href="/about">Global Ecobrick Alliance</a> is a for-Earth, not-for-profit, enterprise based on <a href="/principles">regenerative principles.</a><br><br></div>
 			<!--<div class="footer-header">Deep Green</div>-->
-				<div class="footer-subtext">On principle we have no corporate, government or company sponsors and receive no grants nor billionaire donations. We generate revenue by providing <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0">deep green</a> ecological <a href="brikcoins">value</a>.<br><br>We fully disclose our receipt and usage of funds on our <a href="https://gobrik.com/#openbooks" target="_blank">open books system.</a></div>
+				<div class="footer-subtext">On principle we have no corporate, government or company sponsors and receive no grants nor donations. We generate revenue by providing <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0">deep green</a> ecological <a href="brikcoins">value</a>.<br><br>We fully disclose our receipt and usage of funds on our <a href="https://gobrik.com/#openbooks" target="_blank">open books system.</a></div>
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Our Ecological Impact</div>
-				<div class="footer-subtext">This means we make sure to subtract more CO2 and plastic than we add to the biosphere, acheive circularity in all our creations, increase biodiversity in our spaces, put ecological contribution before profit, and fully disclose all our ecological impacts. <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">Check out our full, live data accounting for 2021.</a><br><br>
-					<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/"><img src="webp/disclose-500px.webp" width="100%" height="34%" alt="Click through to see a full and live breakdownof our 2021 ecological impacts on the GoBrik.com"></a></div>
+				<div class="footer-subtext">We make sure to subtract more CO2 and plastic than we add to the biosphere, to acheive circularity in all our creations, increase biodiversity in all our spaces, put ecological contribution before profit, and to fully disclose all our ecological impacts.  See our <a href="https://files.mandala.team/s/nptzWnNRkX3cJfr" target="_blank">Regenerativity Report for 2020</a>.  See our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">live ecological impact accounting for 2021.</a><br><br>
+					<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/"><img src="webp/disclose-500px.webp" width="100%" height="34%" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a></div>
 					<div id="wcb" class="carbonbadge wcb-d"></div>
 					<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 			</div>
@@ -1634,7 +1674,6 @@ background: white;*/
 		</div>
 	</div>
 </div>
-
 	<!--FOOTER ENDS-->
 </div>
 </body>
