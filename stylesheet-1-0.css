@@ -271,7 +271,8 @@ h6 { font-size: 1.15em;
 
 
 
-
+    #raised-text {z-index: 10;
+    position: relative;}
 
 
     @media screen and (min-width: 1000px) {
@@ -311,8 +312,9 @@ h6 { font-size: 1.15em;
     text-align: left;
     padding: 4%;
     padding-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 9px;
     border-radius: 12px;
+    margin-bottom: 5px;
 }
 
 
@@ -329,6 +331,7 @@ h6 { font-size: 1.15em;
     max-width: 250px;
     min-width: 200px;
     border: none;
+    margin-bottom: -8px;
 }
 }
 
@@ -338,11 +341,12 @@ h6 { font-size: 1.15em;
       margin-top: 18px;
       font-size: 1.0em;
       background-color: #ffffff82;
-      padding: 8px 10px 10px 8px;
+      padding: 8px 8px 8px 8px;
       border-radius: 11px 11px 0px 0px;
       color: #000000ad;
-      border: none;
-      margin-left: 50%;
+      border: none; 
+      margin-left: 60%;
+      margin-bottom: -8px;
   }
   }
 
@@ -497,17 +501,17 @@ font-weight: 300;
           }
 
        
-/* The ENG of dropdowns as it appears in the white menu bar*/
+/* The language icon as it appears in the white menu bar*/
 .dropdown-lang .dropbtn-lang {   
   border: none;
   outline: none;
   color: rgb(53, 53, 53);
-  padding: 20px 25px 27px 15px;
+  padding: 11px 25px 10px 15px;
   background-color: white;
   font-family: inherit; 
   margin-top: 0px;
 
-  font-size: 1.0em !important;
+  font-size: 1.8em !important;
   font-family: 'Mulish', sans-serif;
 /*text-shadow: 0px 0px 10px #ccc ;*/
 font-weight: 300;
@@ -608,7 +612,8 @@ font-weight: 300;
       display: block;
     }
 
-    #menu-circle {display: none;}
+    #menu-circle {display: none;
+    padding: 1px;}
   }
 
   @media screen and (max-width: 1000px) {
