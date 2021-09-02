@@ -469,8 +469,9 @@ font-weight: 300;
             padding: 0px 0px 9px 0px;
           }
 
-       
+     
 /* The language icon as it appears in the white menu bar*/
+@media screen and (max-width: 800px) {
 .dropdown-lang .dropbtn-lang {   
   border: none;
   outline: none;
@@ -480,7 +481,27 @@ font-weight: 300;
   font-family: inherit; 
   margin-top: 0px;
 
-  font-size: 1.5em;
+  font-size: 1.42em;
+  font-family: 'Mulish', sans-serif;
+/*text-shadow: 0px 0px 10px #ccc ;*/
+font-weight: 300;
+  margin-right: 0px;
+  float: right;
+  font-family: 'Mulish', sans-serif;
+}
+}
+
+@media screen and (min-width: 800px) {
+.dropdown-lang .dropbtn-lang {   
+  border: none;
+  outline: none;
+  color: rgb(53, 53, 53);
+  padding: 11px 25px 10px 15px;
+  background-color: white;
+  font-family: inherit; 
+  margin-top: 0px;
+
+  font-size: 1.8em;
   font-family: 'Mulish', sans-serif;
 /*text-shadow: 0px 0px 10px #ccc ;*/
 font-weight: 300;
