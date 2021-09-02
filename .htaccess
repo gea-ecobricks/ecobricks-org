@@ -76,3 +76,7 @@ Header set Cache-Control "max-age=10000, public"
 
 #Alternate default index pages
 DirectoryIndex index.html index.php
+
+RedirectMatch "^/faqs\/?$" "http://example.com/newfile.php"
+
+RedirectMatch "^/existingfile\.html/?$" "http://example.com/newfile.php"
