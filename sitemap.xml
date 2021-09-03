@@ -5,7 +5,25 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
    <url>
-      <loc>https://ecobricks.org/index.html</loc>
+      <loc>https://ecobricks.org/</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+      <url>
+      <loc>https://ecobricks.org/en/</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+      <url>
+      <loc>https://ecobricks.org/es/</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+      <url>
+      <loc>https://ecobricks.org/id/</loc>
       <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.00</priority>
@@ -16,12 +34,36 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
       <changefreq>daily</changefreq>
       <priority>1.00</priority>
    </url>
-   <url>
-      <loc>https://ecobricks.org/faqs.html/</loc>
+        <loc>https://ecobricks.org/faqs.html</loc>
       <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>daily</changefreq>
-      <priority>0.95</priority>
+      <priority>1.00</priority>
    </url>
+      <url>
+      <loc>https://ecobricks.org/en/faqs.html</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+      <url>
+      <loc>https://ecobricks.org/es/faqs.html</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+      <url>
+      <loc>https://ecobricks.org/id/faqs.html</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+   <url>
+      <loc>https://www.ecobricks.org/?lang=id</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+
    <url>
       <loc>https://ecobricks.org/what/</loc>
       <lastmod>2019-12-22T21:46:06+00:00</lastmod>

@@ -147,14 +147,14 @@ h4 {
 
 @media screen and (min-width: 770px) {
 h4 {
-  font-size: 2.3em;  
+  font-size: 2.0em;  
   line-height: 1.3;
   margin: 15px 0px 0px 0px;
 }}
 
 @media screen and (max-width: 769px) {
   h4 {
-    font-size: 2em;  
+    font-size: 1.8em;  
     line-height: 1.4;
     margin: 16px 0px 1px 0px;
   }}
@@ -279,19 +279,19 @@ h6 { font-size: 1.15em;
 #faq-content-block {
     text-align: left;
     padding: 4%;
-    padding-top: 20px;
-    padding-bottom: 9px;
+    padding-top: 15px;
+    padding-bottom: 0px;
     border-radius: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 
 @media screen and (min-width: 1000px) {
 .toggle {
-    margin-top: 18px;
+    margin-top: 0px;
     font-size: 1.2em;
     background-color: #ffffff82;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 15px 15px 15px;
     border-radius: 11px 11px 0px 0px;
     color: #000000ad;
     margin-left: 70%;
@@ -299,7 +299,7 @@ h6 { font-size: 1.15em;
     max-width: 250px;
     min-width: 200px;
     border: none;
-    margin-bottom: -9px;
+    margin-bottom: -8px;
 }
 }
 
@@ -356,9 +356,9 @@ background: linear-gradient(132deg, rgba(235,253,255,1) 0%, rgba(195,250,254,1) 
 .greyish { 
   background: rgb(212,212,212);
   background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%); 
-  padding: 10px;
-  border-radius: 12px;
-  margin-bottom:30px;
+  padding: 6px;
+  border-radius: 15px;
+  margin-bottom:20px;
   
 }
 
@@ -418,6 +418,49 @@ background: linear-gradient(132deg, rgba(235,253,255,1) 0%, rgba(195,250,254,1) 
 
 .faq-link h5 {font-weight: 500;
 }
+
+/* OBSOLETE?
+
+
+@media screen and (min-width: 1000px) {
+
+#faq-content-block-1 {
+  text-align: center;
+  padding: 5.5%;
+  padding-top: 130px;
+  padding-bottom: 100px;
+
+  
+  background: rgb(179,239,225);
+  background: linear-gradient(180deg, rgba(179,239,225,1) 0%, rgba(81,197,255,1) 100%); 
+  border-radius: 12px;
+  margin: 0px -3% -50px -3%;
+  border-color: black;
+  border-width: 5px;
+  
+}}
+
+
+@media screen and (max-width: 1000px) {
+
+  #faq-content-block-1 {
+    text-align: center;
+    padding: 6%;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    margin: 0px -3% -50px -3%;}
+  }
+  */
+	
+#concerns-questions {display: none;}
+
+#building-questions {display: none;}
+
+#movement-questions {display: none;}
+
+#gobrik-questions {display: none;}
+
+#more-questions {display: none;}
 
 /* -------------------------------------------------------------------------- */
 
@@ -566,6 +609,22 @@ font-weight: 300;
     z-index: 9;
   }
 
+  #faq-icon {
+    margin-right: -5px;
+    font-size: 1.35em;
+  }
+
+  @media screen and (max-width: 1000px) {
+    #faq-icon {
+    display:none;
+  }
+}
+  @media screen and (min-width: 1000px) {
+    #faq-menu-text {
+      display:none;
+    }
+  }
+
 
 
          
@@ -582,6 +641,8 @@ font-weight: 300;
     #menu-circle {display: none;
     padding: 1px;}
   }
+
+
 
   @media screen and (max-width: 1000px) {
     .topnav-lang.responsive {position: relative;}
