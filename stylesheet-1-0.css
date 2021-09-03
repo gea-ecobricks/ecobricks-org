@@ -521,7 +521,7 @@ font-weight: 300;
   font-family: inherit; 
   margin-top: 0px;
 
-  font-size: 1.8em;
+  
   font-family: 'Mulish', sans-serif;
 /*text-shadow: 0px 0px 10px #ccc ;*/
 font-weight: 300;
@@ -530,6 +530,17 @@ font-weight: 300;
   font-family: 'Mulish', sans-serif;
 }
 
+@media screen and (min-width: 1000px) {
+  .dropdown-lang .dropbtn-lang {
+    font-size: 1.8em; 
+  }}
+
+  @media screen and (max-width: 1000px) {
+    .dropdown-lang .dropbtn-lang {
+      font-size: 1.3em; 
+    }}
+
+  
 
 
 
@@ -642,7 +653,7 @@ font-weight: 300;
     padding: 1px;}
   }
 
-
+  
 
   @media screen and (max-width: 1000px) {
     .topnav-lang.responsive {position: relative;}
@@ -940,7 +951,7 @@ font-weight: 300;}
               text-align: left;
             }
           }
-
+        
 /* -------------------------------------------------------------------------- */
 
 /*	3. Slider
@@ -1510,7 +1521,7 @@ migrated from GoBrik.com CSS
     
   
 
-
+  
 
 /* -------------------------------------------------------------------------- */
 
@@ -1715,7 +1726,7 @@ migrated from GoBrik.com CSS
 }
 
 
-
+  
 
 
 		
@@ -1795,7 +1806,7 @@ migrated from GoBrik.com CSS
   }
 	}
 		
-
+  
 
 /* -------------------------------------------------------------------------- */
 
