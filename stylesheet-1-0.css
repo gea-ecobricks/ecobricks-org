@@ -533,6 +533,7 @@ font-weight: 300;
 @media screen and (min-width: 1000px) {
   .dropdown-lang .dropbtn-lang {
     font-size: 1.8em; 
+    padding: 12px 25px 23px 13px;
   }}
 
   @media screen and (max-width: 1000px) {
