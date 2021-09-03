@@ -78,6 +78,6 @@ Header set Cache-Control "max-age=10000, public"
 DirectoryIndex index.html index.php
 
 RedirectMatch "^/faqs\/?$" "/faqs.html"
-RedirectMatch "^/faq\/?$" "/faqs.html"
+RedirectMatch "^/faq\/?$" "www.ecobricks.org/faqs.html"
 
 
