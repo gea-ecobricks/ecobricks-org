@@ -299,7 +299,7 @@ h6 { font-size: 1.15em;
     max-width: 250px;
     min-width: 200px;
     border: none;
-    margin-bottom: -8px;
+    margin-bottom: -9px;
 }
 }
 
@@ -309,7 +309,7 @@ h6 { font-size: 1.15em;
       margin-top: 18px;
       font-size: 1.0em;
       background-color: #ffffff82;
-      padding: 8px 8px 8px 8px;
+      padding: 8px 8px 15px 8px;
       border-radius: 11px 11px 0px 0px;
       color: #000000ad;
       border: none; 
@@ -537,7 +537,7 @@ font-weight: 300;
 
   @media screen and (max-width: 1000px) {
     .dropdown-lang .dropbtn-lang {
-      font-size: 1.3em; 
+      font-size: 1.6em; 
     }}
 
   
@@ -1738,21 +1738,21 @@ migrated from GoBrik.com CSS
 @media screen and (min-width: 0px) and (max-width: 769px) {
     #dolphin-graphic {	
       width: 90%;
-      margin-top: -80px;
+      margin-top: -130px;
       }
       }
 
   @media screen and (min-width: 770px) and (max-width: 1023px) { 
         #dolphin-graphic {	
           width: 600px;
-          margin-top: -170px;
+          margin-top: 0px;
           }
           }
 
   @media screen and (min-width: 1024px) { 
 #dolphin-graphic {	
   width: 600px;
-  margin-top: -200px;
+  margin-top: 0px;
   min-height: 200px;
   }
 }
