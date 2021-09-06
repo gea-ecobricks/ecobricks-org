@@ -297,7 +297,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 								</div>
 							</a>
 
-							<a href="https://gea.mandala.team" target="_blank">
+							<a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank">
 								<div id="mattermost-menu">
 									<div id="icon-menu"><img src="icons/mattermost.svg" width="65px" height="65px"></div>
 										
@@ -321,10 +321,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 						</div>
 				</div> 
 				
-				<a href="faqs.html">
-					<div id="faq-icon" title="FAQs" style="margin-right: -5px;font-size: 1.35em;">🤔</div>
+				<a href="faqs.html">FAQs</a>
+				
+
+					<!--<div id="faq-icon" title="FAQs" style="margin-right: -5px;font-size: 1.35em;">🤔</div>
+					<div id="faq-icon2" title="FAQs" style="margin-right: -5px;font-size: 1.35em;">🤓</div>
 					<div id="faq-menu-text">FAQs</div>
-				</a>
+				</a>-->
+				
 				<a href="principles">Principles</a>
 				<a href="about">About Us</a>
 					<div class="dropdown">
@@ -340,7 +344,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 					</div>
 
 					<div class="dropdown">
-						<button class="dropbtn"><div id="drop-text">About Ecobricks 
+						<button class="dropbtn"><div id="drop-text">Ecobricks 
 						  <i class="fa fa-caret-down"></i></div>
 						</button>
 						<div class="dropdown-content-normal">
@@ -390,17 +394,36 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	  } else {
 		x.style.display = "none";
 	  }
+
+	
+  var x = document.getElementById("toggle-hide");
+  if (x.innerHTML === "⬆ Hide") {
+    x.innerHTML = "⬇ Show";
+  } else {
+    x.innerHTML = "⬆ Hide";
+  }
+
+
+
+
 	}
 	</script>
 
 <script>
 	function concerns() {
 	  var x = document.getElementById("concerns-questions");
-	  if (x.style.display === "block") {
-		x.style.display = "none";
-	  } else {
-		x.style.display = "block";
-	  }
+		if (x.style.display === "block") {
+			x.style.display = "none";
+		} else {
+			x.style.display = "block";
+		}
+	
+	var x = document.getElementById("toggle-show");
+		if (x.innerHTML === "⬇ Show") {
+			x.innerHTML = "⬆ Hide";
+		} else {
+			x.innerHTML = "⬇ Show";
+		}
 	}
 	</script>
 
@@ -412,7 +435,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	  } else {
 		x.style.display = "block";
 	  }
+
+	  var x = document.getElementById("toggle-show2");
+		if (x.innerHTML === "⬇ Show") {
+			x.innerHTML = "⬆ Hide";
+		} else {
+			x.innerHTML = "⬇ Show";
+		}
 	}
+	
 	</script>
 
 <script>
@@ -423,6 +454,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	  } else {
 		x.style.display = "block";
 	  }
+
+	  var x = document.getElementById("toggle-show3");
+		if (x.innerHTML === "⬇ Show") {
+			x.innerHTML = "⬆ Hide";
+		} else {
+			x.innerHTML = "⬇ Show";
+		}
 	}
 	</script>
 
@@ -435,6 +473,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	  } else {
 		x.style.display = "block";
 	  }
+
+	  var x = document.getElementById("toggle-show4");
+		if (x.innerHTML === "⬇ Show") {
+			x.innerHTML = "⬆ Hide";
+		} else {
+			x.innerHTML = "⬇ Show";
+		}
 	}
 	</script>
 
@@ -446,6 +491,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	  } else {
 		x.style.display = "block";
 	  }
+
+	  var x = document.getElementById("toggle-show5");
+		if (x.innerHTML === "⬇ Show") {
+			x.innerHTML = "⬆ Hide";
+		} else {
+			x.innerHTML = "⬇ Show";
+		}
 	}
 	</script>
 
@@ -473,7 +525,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				<p>The basics about plastic and ecobricks.</p>
 				
 
-				<button onclick="general()" class="toggle">↕ Show</button>
+				<button onclick="general()" class="toggle" id="toggle-hide">⬆ Hide</button>
 
 				<div id="general-questions">
 				<hr>
@@ -507,7 +559,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				<h4>Ecobrick Concerns</h4>
 				<p>The worries and critiques.</p>
 			
-				<button onclick="concerns()" class="toggle">↕ Show</button>
+				<button onclick="concerns()" class="toggle" id="toggle-show">⬇ Show</button>
 
 				<div id="concerns-questions">
 					<hr>
@@ -537,7 +589,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			<h4>Building Questions</h4>
 			<p>All about ecobrick applications.</p>
 			
-				<button onclick="building()" class="toggle">↕ Show</button>
+				<button onclick="building()" class="toggle" id="toggle-show2">⬇ Show</button>
 				<div id="building-questions">
 					<hr>
 					<h6>
@@ -567,7 +619,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			<a name="movement-q"></a><h4>Movement Questions</h4>
 			<p>About us and the global plastic transition and ecobrick movement.</p>
 			
-			<button onclick="movement()" class="toggle">↕ Show</button>
+			<button onclick="movement()" class="toggle" id="toggle-show3">⬇ Show</id></button>
 			<div id="movement-questions">
 				<hr>
 				<h6>
@@ -593,7 +645,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			<a name="gobrik-q"></a> 
 			<h4>GoBrik Questions</h4>
 			<p>All about our web based ecobrick app.</p>
-			<button onclick="gobrik()" class="toggle">↕ Show</button>
+			<button onclick="gobrik()" class="toggle" id="toggle-show4">⬇ Show</button>
 			<div id="gobrik-questions">
 				<hr>
 			<h6>
@@ -614,10 +666,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			<a name="misc"></a>
 			<h4>More Questions</h4>
 			<p>All those other questions we haven't answered yet!</p>
-			<button onclick="more()" class="toggle">↕ Show</button>
+			<button onclick="more()" class="toggle" id="toggle-show5">⬇ Show</button>
 			<div id="more-questions">
+				<hr>
 				<h6>
-					<hr>
 				<ul>
 					<li><a href="#ocean">What about plastic I pick up from the beach-- can it be ecobricked?</a></li>
 					<li><a href="#cigbrick">What about cigarette filters-- can they be ecobricked?</a></li>
@@ -646,14 +698,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
                     <div class="faq-texts">
                         <div class="faq-header"><h4>What is plastic?</h4></div>
                         <p>Plastic.  That convenient, colorful and ever so troublesome material that we all use every day is very easy to take for granted.  Fact is, it's crazily unique and valuable-- you literally can't find anything like it in elsewhere in our solar system.  Plastic is a petroleum by-product.  That means it is made from the carbon of ancient organisms-- algae, forest, dinausaurs that lived and died hundreds of millions of years ago.  As their bodies were buried, the Earth compacted and secured their carbon underground.  It was a process that removed more and more carbon from the atmosphere and greened the biosphere.  Today, we dig up these deposits as 'fossil fuels'.  But, this ancient carbon was never meant to be fuel!  Refining fossil fuels leads to lots of leftover chemicals-- which are perfect for making plastic and dangerous when let loose into the environment.  </p>
-                         <div class="faq-link"><h5>Learn more: <a href="plastic">The Long Story of Plastic</h5></a></div>
-						 <div id="top-link">Back to <a href="#general">General Questions</a></div>
+                       
                     </div>
-                    <div class="faq-image"><img src="webp/compacted-carbon.webp"></div>
+                    <div class="faq-image"><img src="webp/compacted-carbon.webp">
+				</div>
 					
-                </div>
-				
-            </div>
+             </div>
+			<div class="faq-link"><h5>Learn more: <a href="plastic">The Long Story of Plastic</h5></a></div>
+			<div id="top-link">Back to <a href="#general">General Questions</a>
+			</div>		
+         </div>
 
 			<div class="faq">
 				<a name="concern"></a>
@@ -1420,7 +1474,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 						<li><b>Training others to make ecobricks?</b> Be sure to check out <a href="trainings">trainer of trainer program</a></li>
 					</ul></h6>
 		
-				<h5>Need to chat about your idea or question? Join our Mattermost <a href="https://gea.mandala.team/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">ecobricker community</a> and bring it up there!</h5><br><br>
+				<h5>Need to chat about your idea or question? Join our Mattermost <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">ecobricker community</a> and bring it up there!</h5><br><br>
 		</div>
 	</div>
 	</div>
@@ -1511,7 +1565,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Ecobricker Support</div>
-				<div class="footer-subtext">Got questions about ecobricking?  Join Circles, our own communication platform, running on opensource Mattermost.  Get help from trainers and ecobrickers around the world. <a href="https://gea.mandala.team/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">Sign up!</a><br><br></div>
+				<div class="footer-subtext">Got questions about ecobricking?  Join Circles, our own communication platform, running on opensource Mattermost.  Get help from trainers and ecobrickers around the world. <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">Sign up!</a><br><br></div>
 				<!--<div class="footer-header">Trainer Support</div>-->
 				<div class="footer-subtext">GEA Trainers access your <a href="https://www.ecobricks.org/webmail" target="_blank">webmail</a>, <a href="https://www.ecobricks.org/wp-admin" target="_blank">wordpress</a>, <a href="https://gobrik.com/#my-trainer" target="_blank">GoBrik</a> or <a href="https://files.mandala.team" target="_blank">NextCloud File Server</a> panels.</div>
 			</div>

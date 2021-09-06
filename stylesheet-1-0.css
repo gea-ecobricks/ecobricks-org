@@ -371,22 +371,34 @@ background: linear-gradient(132deg, rgba(235,253,255,1) 0%, rgba(195,250,254,1) 
 .faq {width: 100%;
   padding: 20px 0px 20px 0px;}
 
-.faq-box {
+  @media screen and (max-width: 770px) {
+    .faq-box {
   display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
 }
+  }
+
+@media screen and (min-width: 770px) {
+  .faq-box {
+display: flex;
+box-sizing: border-box;
+flex-direction: row;
+}}
 
 
 @media screen and (max-width: 770px) {
 .faq-texts {
     margin-bottom: 0px;
-    flex: 100%;
+    flex: 50%;
     padding-right: 15px;
+    
 }
 }
 @media screen and (min-width: 770px) {
   .faq-texts {
     margin-bottom: 0px;
-    flex: 75%;
+    flex: 50%;
    padding-right: 15px;
   }
 }
@@ -395,17 +407,17 @@ background: linear-gradient(132deg, rgba(235,253,255,1) 0%, rgba(195,250,254,1) 
 
 @media screen and (max-width: 770px) {
 .faq-image {
-  flex: 0%;
-  text-align: center;
+  flex: 50%;
+  text-align: left;
   margin: auto;
-  display: none;
+ 
 }
 }
   @media screen and (min-width: 770px) {
   .faq-image {
     flex: 25%;
     text-align: center;
-    margin: auto;
+    
     
   }
 }
