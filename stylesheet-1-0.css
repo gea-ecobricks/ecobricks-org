@@ -980,6 +980,14 @@ migrated from GoBrik.com CSS
   top: 24px;
 		} 
 
+    #under-sliders {
+      width: 100%;
+      position: relative; 
+      z-index: 1;
+      top: 124px;
+      margin-bottom: 
+        } 
+
 
 
 
