@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="156.14009mm"
+   height="38.323418mm"
+   viewBox="0 0 156.1401 38.323417"
+   version="1.1"
+   id="svg16107"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   sodipodi:docname="vision-bottom-bottom.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview16109"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.6478921"
+     inkscape:cx="39.140912"
+     inkscape:cy="119.24324"
+     inkscape:window-width="1476"
+     inkscape:window-height="800"
+     inkscape:window-x="60"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs16104">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient19270">
+      <stop
+         style="stop-color:#00ffff;stop-opacity:1;"
+         offset="0"
+         id="stop19266" />
+      <stop
+         style="stop-color:#6161ff;stop-opacity:1"
+         offset="1"
+         id="stop19268" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient26253"
+       x1="80.204002"
+       x2="79.717003"
+       y1="175.28"
+       y2="218.82001"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0024,0,0,1,-4.13683,-48.339872)">
+      <stop
+         stop-color="#2cff2c"
+         offset="0"
+         id="stop37496" />
+      <stop
+         stop-color="#009e00"
+         offset="1"
+         id="stop37498" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient19270"
+       id="linearGradient19272"
+       x1="115.2381"
+       y1="129.23306"
+       x2="115.37125"
+       y2="175.81004"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-22.618585,-119.28832)">
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke-width:0.39168;stroke-linecap:round;stroke-dasharray:0.78336, 0.78336"
+       id="rect21472"
+       width="156.10721"
+       height="9.8631535"
+       x="22.618586"
+       y="119.28832"
+       ry="0.014725364" />
+    <path
+       d="m 22.618585,125.62222 c 58.82769,-0.38308 126.507315,0.24488 156.140085,0.62466 l 0.12944,24.56565 c -52.21035,9.36412 -110.72989,7.6959 -156.01689,0.72461 z"
+       fill="url(#linearGradient26253)"
+       id="path38653"
+       style="fill:url(#linearGradient19272);fill-opacity:1;stroke-width:1.0012"
+       sodipodi:nodetypes="ccccc" />
+    <image
+       width="60.854168"
+       height="49.741665"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOYAAAC8CAYAAABsf9IqAAAABHNCSVQICAgIfAhkiAAAAkFJREFU
+eJzt1UERACEQA0GOOv+WFwEIYB7dCvKZyrdmZgEp+/UA4CZMCBImBAkTgoQJQcKEIGFCkDAhSJgQ
+JEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChCBhQpAwIUiYECRMCBImBAkTgoQJ
+QcKEIGFCkDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChCBhQpAwIUiY
+ECRMCBImBAkTgoQJQcKEIGFCkDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KE
+CUHChCBhQpAwIUiYECRMCBImBAkTgoQJQcKEIGFCkDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFI
+mBAkTAgSJgQJE4KECUHChCBhQpAwIUiYECRMCBImBAkTgoQJQcKEIGFCkDAhSJgQJEwIEiYECROC
+hAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChCBhQpAwIeif1wuAi8eEIGFCkDAhSJgQJEwIEiYE
+CROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChCBhQpAwIUiYECRMCBImBAkTgoQJQcKEIGFC
+kDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChCBhQpAwIUiYECRMCBIm
+BAkTgoQJQcKEIGFCkDAhSJgQJEwIEiYECROChAlBwoQgYUKQMCFImBAkTAgSJgQJE4KECUHChCBh
+QtABEtIFdqEPKkkAAAAASUVORK5CYII=
+"
+       id="image16548"
+       x="160.92578"
+       y="68.828194" />
+  </g>
+</svg>

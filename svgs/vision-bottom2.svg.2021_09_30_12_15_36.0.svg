@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    width="155.16397mm"
-   height="47.080906mm"
+   height="50mm"
    version="1.1"
-   viewBox="0 0 155.16397 47.080907"
+   viewBox="0 0 155.16397 50.000001"
    id="svg39279"
-   sodipodi:docname="vision-bottom.svg"
+   sodipodi:docname="vision-bottom2.svg"
    inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
    inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/vision-bottom2.webp"
-   inkscape:export-xdpi="196.37685"
-   inkscape:export-ydpi="196.37685"
+   inkscape:export-xdpi="245.54668"
+   inkscape:export-ydpi="245.54668"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,7 +26,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.3097449"
-     inkscape:cx="306.93"
+     inkscape:cx="287.0788"
      inkscape:cy="121.01593"
      inkscape:window-width="1476"
      inkscape:window-height="800"
@@ -734,6 +734,42 @@
        y1="81.216003"
        x2="458.98999"
        y2="80.958" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter6539"
+       x="-0.045029477"
+       y="-0.28856317"
+       width="1.090059"
+       height="1.6014051">
+      <feFlood
+         flood-opacity="0.784314"
+         flood-color="rgb(3,3,3)"
+         result="flood"
+         id="feFlood6529" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite6531" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2.90965"
+         result="blur"
+         id="feGaussianBlur6533" />
+      <feOffset
+         dx="0"
+         dy="0.58754"
+         result="offset"
+         id="feOffset6535" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite6537" />
+    </filter>
   </defs>
   <g
      transform="translate(0.29333982,-72.920662)"
@@ -819,6 +855,12 @@
       <g
          transform="matrix(1.0024,0,0,1,-27.429,-89.799)"
          id="g38657">
+        <path
+           d="m 26.753645,188.94398 c 18.217,-3.5351 44.97,-8.526 69.883,-6.8621 l 14.030995,-0.17267 c 37.881,-0.18501 51.758,3.7479 71.013,7.8828 l 0.15276,9.93302 c -52.08535,9.36412 -109.711435,7.12329 -154.89,0.152 z"
+           fill="url(#linearGradient26253)"
+           id="path6218"
+           style="fill:url(#linearGradient26253);filter:url(#filter6539)"
+           sodipodi:nodetypes="ccccccc" />
         <path
            d="m 49.382,169.61 c 42.849,-9.1902 75.998,-13.082 113.54,0 l 1.573,4.6247 H 51.065 Z"
            fill="url(#linearGradient43157)"
@@ -3199,15 +3241,17 @@
            id="path38651"
            style="fill:url(#linearGradient59952)" />
         <path
-           d="m 26.945,181.02 c 18.217,-3.5351 44.97,-8.526 69.883,-6.8621 l 14.031,-0.17267 c 37.881,-0.18501 51.758,3.7479 71.013,7.8828 l -0.0386,17.857 c -42.23,12.77 -117.56,12.362 -154.89,0.152 z"
+           d="m 26.945,181.02 c 18.217,-3.5351 44.97,-8.526 69.883,-6.8621 l 14.031,-0.17267 c 37.881,-0.18501 51.758,3.7479 71.013,7.8828 l -0.0386,17.857 c -52.08535,9.36412 -109.711435,7.12329 -154.89,0.152 z"
            fill="url(#linearGradient26253)"
            id="path38653"
-           style="fill:url(#linearGradient26253)" />
+           style="fill:url(#linearGradient26253)"
+           sodipodi:nodetypes="ccccccc" />
         <path
-           d="m 96.828,174.16 c 5.7417,20.216 -21.831,11.4 -21.346,34.196 21.294,2.3161 42.107,1.664 64.025,-0.6576 -32.539,-15.853 -13.702,-23.597 -30.136,-33.883"
+           d="m 96.828,174.16 c 5.7417,20.216 -21.831,8.225 -21.346,31.021 21.294,2.3161 41.60671,2.19599 63.52471,-0.12561 -32.539,-15.853 -13.20171,-20.95399 -29.63571,-31.23999"
            fill="url(#linearGradient59498)"
            id="path38655"
-           style="fill:url(#linearGradient59498)" />
+           style="fill:url(#linearGradient59498)"
+           sodipodi:nodetypes="cccc" />
       </g>
       <g
          transform="matrix(0.90073,0,0,0.90073,0.76656,-63.48)"
