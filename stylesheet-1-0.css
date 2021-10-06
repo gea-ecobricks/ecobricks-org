@@ -982,28 +982,39 @@ migrated from GoBrik.com CSS
 
 #content-sect0 {
   width: 100%;
-  position: relative;
-  height: 50vh;
+  position: absolute;
+  height: 40vh;
 }
 #content-sect0-curved-bottom {
   width: 100%;
-height: 500px;
-position: absolute;
+  /*background: url(svgs/vision-bottom-bottom.svg);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;*/
+height: 100vh;  
+margin-top:0px;
+margin-bottom: -500px;
+position: relative;
+
 }
 
 #under-sliders {
       width: 100%;
       position: absolute; 
       z-index: 1;
-      height: 90vh;
-      background: #00ffff;
+      height: 80vh;
+      background:#dadddd;
+      background: url(svgs/vision-bottom-bottom.svg);
+      background-position: center bottom;
+      background-size: cover;
+       background-repeat: no-repeat;*/
         } 
   
 
 
 @media screen and (min-width: 0px) and (max-width: 800px) { 
   #under-sliders {
-    margin-top: -50px;
+    margin-top: 0px;
   }}
 
 
