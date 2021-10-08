@@ -17,6 +17,9 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
     - export DEPLOYPATH=/home/ecobricks/public_html/
+    - /bin/cp index-beta2.php $DEPLOYPATH
+    - /bin/cp header.php $DEPLOYPATH
+    - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp faqs.html $DEPLOYPATH
