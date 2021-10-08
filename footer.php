@@ -1,8 +1,118 @@
-<div id="footer"> 	&copy;2017</div>
-		<!-- jQuery library -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" 
-		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!--FOOTER STARTS HERE-->
+	
+	<div id="footer-full">
+	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; position="absolute"; bottom="0"; ></div>
+	
+	
+	<div class="footer-vision">We envision a Transition in our Households, Communities and Enterprises from Plastic to ever Greener Harmony with Earth's Cycles.</div>
+	
+	
+	<div class="footer-invite">Connect with us on our various platfroms and servers.</div>
+	</div>
+
+	<div class="footer-icons-container">
+		<div class="footer-icons"><!--WIKIPEDIA-->
+			<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">
+			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page"></a>
+			
+		</div>
+
+		<div class="footer-icons">
+			<a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener"><!--MATTERMOST-->
+			<img src="icons/mattermost.svg" width="100%" height="100%" alt="Join our Circles Ecobrick Support Community"  title="Join our Circles Ecobrick Support Community"></a>
+			<!--<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>-->
+		</div>
+
+		<div class="footer-icons"><!--GOBRIK-->
+			<a href="https://gobrik.com" target="_blank">
+			<img src="icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app"></a>
+			
+		</div>
+
+		<div class="footer-icons">
+			<a href="https://medium.com/earthen/" target="_blank" rel="noopener"><!--MEDIUM-->
+			<img src="icons/medium.svg" width="100%" height="100%" alt="Follow our Medium.com Earthen publication"  title="Follow our Medium.com Earthen publication"></a>
+			
+		</div>
+
+		<div class="footer-icons"> <!--GITHUB-->
+			<a href="https://github.com/gea-ecobricks/ecobricks-org" target="_blank" rel="noopener">
+			<img src="icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository" title="Contribute to our Ecobricks.org Github repository"></a>
+			
+		</div>
+		
+		<div class="footer-icons"><!--FACEBOOK-->
+			<a href="https://facebook.com/ecobricks.org" target="_blank" rel="noopener">
+			<img src="icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"  title="Follow our Facebook page"></a>
+		</div>
+
+		<div class="footer-icons"><!--YOUTUBE-->
+			<a href="https://www.youtube.com/c/Ecobricks" target="_blank" rel="noopener">
+			<img src="icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"  title="Subscribe to our Ecobricks YouTube channel"></a>
+			
+		</div>
+
+		<div class="footer-icons"><!--INSTAGRAM-->
+			<a href="https://www.instagram.com/ecobricks.plastic.transition/" target="_blank" rel="noopener">
+			<img src="icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"  title="Instagram: Ecobricks.Plastic.Transition"></a>
+			
+		</div>
+
+		<!--<div class="footer-icons">--NEXTCLOUD
+			<a href="https://files.mandala.team/" target="_blank" rel="noopener">
+			<img src="icons/nextcloud.svg" width="100%" height="100%"></a>
+			<div class="icon-name">/ecobricks</div>
+			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+		</div>-->
+			
+	</div>
+
+
+	
+	<div class="footer-content">
+
+		<div class="footer-box">
+			<div class="footer-header">Wikipedia Ecobricks</div>
+				<div class="footer-subtext">Also know as eco bricks, eco-bricks, EcoBricks, ecolladrillos, and bottle bricks the Global Ecobrick Alliance and <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia</a> endorse <i>'ecobrick'</i> to refer to the sequestration of plastic in a PET bottle to make a reusable building block.<br><br>
+				</div>
+				<div class="footer-header">Tech Partners</div>
+				<div class="footer-subtext">Thank you to our Technology Partners <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a>, <a href="https://wpml.org/" target="_blank" rel="noopener">WPML The WordPress Multilingual Plugin</a><a href="https://Knack.com" target="_blank"></a> and <a href="https://statically.io" target="_blank" rel="noopener">Statically</a> who give us special access to their amazing services.</div>
+			</div>
+			<div class="footer-box">
+				<div class="footer-header">Ecobricker Support</div>
+				<div class="footer-subtext">Got questions about ecobricking?  Join Circles, our own communication platform, running on opensource Mattermost.  Get help from trainers and ecobrickers around the world. <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">Sign up!</a><br><br></div>
+				<!--<div class="footer-header">Trainer Support</div>-->
+				<div class="footer-subtext">GEA Trainers access your <a href="https://www.ecobricks.org/webmail" target="_blank">webmail</a>, <a href="https://www.ecobricks.org/wp-admin" target="_blank" rel="noopener">wordpress</a>, <a href="https://gobrik.com/#my-trainer" target="_blank" rel="noopener">GoBrik</a> or <a href="https://files.mandala.team" target="_blank" rel="noopener">NextCloud File Server</a> panels.</div>
+			</div>
+			<div class="footer-box">
+				<div class="footer-header">Earth Enterprise</div>
+				<div class="footer-subtext">The <a href="/about">Global Ecobrick Alliance</a> is a for-Earth, not-for-profit, enterprise based on <a href="/principles">regenerative principles.</a><br><br></div>
+			<!--<div class="footer-header">Deep Green</div>-->
+				<div class="footer-subtext">On principle we have no corporate, government or company sponsors and receive no grants nor donations. We generate revenue by providing <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0">deep green</a> ecological <a href="brikcoins">value</a>.<br><br>We fully disclose our receipt and usage of funds on our <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">open books system.</a></div>
+			</div>
+			<div class="footer-box">
+				<div class="footer-header">Our Ecological Impact</div>
+				<div class="footer-subtext">We make sure to subtract more CO2 and plastic than we add to the biosphere, to acheive circularity in all our creations, increase biodiversity in all our spaces, put ecological contribution before profit, and to fully disclose all our ecological impacts.  See our <a href="https://files.mandala.team/s/nptzWnNRkX3cJfr" target="_blank" rel="noopener">Regenerativity Report for 2020</a>.  See our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">live ecological impact accounting for 2021.</a><br><br>
+					<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/"><img src="webp/disclose-500px.webp" width="100%" height="34%" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a></div>
+					<!--<div id="wcb" class="carbonbadge wcb-d"></div>
+					<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+			</div>-->
+		</div>
+	<div class="footer-bottom">
+		<div class="footer-conclusion">	
+			The educational content of this site is made available by the Ecobrick Alliance under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Please attribute all usage to "Ecobricks.org - Global Ecobrick Alliance" using the same license.</div>
+		<div class="footer-conclusion">	
+				<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/></a>
+		</div>
+		<div class="footer-invite">
+			This website is a 100% volunteer and open source project.  Contribute on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank" rel="noopener">Github.</a>
+		</div>
+		<div class="footer-conclusion">	
+			The AES, GEA and GoBrik logos and emblems are copyright 2021 by the Global Ecobrick Alliance.
+		</div>
+	</div>
+</div>
+
+	<!--FOOTER ENDS-->
