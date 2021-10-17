@@ -1,6 +1,7 @@
+
 <!DOCTYPE html>
 
-<html amp lang="en">
+<html amp lang="<?php include 'lang.php';?>">
 
 <HEAD>
 
@@ -11,13 +12,13 @@
 
 
 	<meta charset="utf-8">
-	<link rel="canonical" href="https://www.ecobricks.org/"> 
+	<link rel="canonical" href="https://www.ecobricks.org/<?php include 'lang.php';?>/"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
-	<link rel="alternate" href="https://ecobricks.org/" hreflang="en" />
+	<link rel="alternate" href="https://ecobricks.org/en/" hreflang="en" />
 	<link rel="alternate" href="https://ecobricks.org/id/" hreflang="id" /> 
 	<link rel="alternate" href="https://ecobricks.org/es/" hreflang="es" /> 
-	<link rel="alternate" href="http://ecobricks.org/" hreflang="x-default" />
+	<link rel="alternate" href="http://ecobricks.org/en/" hreflang="x-default" />
 
 
 	<!-- Meta tags for page display and search engine listing-->
@@ -32,7 +33,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-  <meta property="og:url"           content="https://www.ecobricks.org"/>
+  <meta property="og:url"           content="https://www.ecobricks.org/en/">
   <meta property="og:type"          content="website">
  <meta property="og:title"         content="Ecobricks.org | Plastic Transition">
   <meta property="og:description"   content="Together we can secure plastic out of the biosphere, out of industry and into building the green new world we all long to see."/>
