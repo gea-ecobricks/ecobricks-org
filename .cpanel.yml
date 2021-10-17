@@ -16,11 +16,13 @@ deployment:
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
-    - export DEPLOYPATH=/home/ecobricks/public_html/
+
     - /bin/cp index-beta2.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
+
+    - export DEPLOYPATH=/home/ecobricks/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp faqs.html $DEPLOYPATH
@@ -35,6 +37,12 @@ deployment:
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
+
+    - /bin/cp index-beta2.php $DEPLOYPATH
+    - /bin/cp header.php $DEPLOYPATH
+    - /bin/cp footer.php $DEPLOYPATH
+    - /bin/cp menu-bar.php $DEPLOYPATH
+
     - export DEPLOYPATH=/home/ecobricks/public_html/es/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
@@ -51,6 +59,12 @@ deployment:
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
+
+    - /bin/cp index-beta2.php $DEPLOYPATH
+    - /bin/cp header.php $DEPLOYPATH
+    - /bin/cp footer.php $DEPLOYPATH
+    - /bin/cp menu-bar.php $DEPLOYPATH
+
     - export DEPLOYPATH=/home/ecobricks/public_html/id/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
@@ -66,5 +80,10 @@ deployment:
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
+
+    - /bin/cp index-beta2.php $DEPLOYPATH
+    - /bin/cp header.php $DEPLOYPATH
+    - /bin/cp footer.php $DEPLOYPATH
+    - /bin/cp menu-bar.php $DEPLOYPATH
 
     
