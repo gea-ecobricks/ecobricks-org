@@ -1,26 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ecobricks/public_html/en/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.html $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
-    - /bin/cp arc-sw.js $DEPLOYPATH
-    - /bin/cp test.php $DEPLOYPATH
-    - /bin/cp stylesheet.css $DEPLOYPATH
-    - /bin/cp stylesheet-1-0.css $DEPLOYPATH
-    - /bin/cp .cpanel.yml $DEPLOYPATH
-    - /bin/cp -R logos $DEPLOYPATH
-    - /bin/cp -R icons $DEPLOYPATH
-    - /bin/cp -R svgs $DEPLOYPATH
-    - /bin/cp -R webp $DEPLOYPATH
-    - /bin/cp -R pngs $DEPLOYPATH
 
-    - /bin/cp index-beta2.php $DEPLOYPATH
-    - /bin/cp header.php $DEPLOYPATH
-    - /bin/cp footer.php $DEPLOYPATH
-    - /bin/cp menu-bar.php $DEPLOYPATH
 
     - export DEPLOYPATH=/home/ecobricks/public_html/
     - /bin/cp index.html $DEPLOYPATH
@@ -38,10 +19,37 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
 
-    - /bin/cp index-beta2.php $DEPLOYPATH
+
+    - /bin/cp stylesheet-1-1.css $DEPLOYPATH
+    - /bin/cp index2.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
+
+
+
+    - export DEPLOYPATH=/home/ecobricks/public_html/en/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp gea-webhead.html $DEPLOYPATH
+    - /bin/cp faqs.html $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp arc-sw.js $DEPLOYPATH
+    - /bin/cp test.php $DEPLOYPATH
+    - /bin/cp stylesheet.css $DEPLOYPATH
+    - /bin/cp stylesheet-1-0.css $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp -R logos $DEPLOYPATH
+    - /bin/cp -R icons $DEPLOYPATH
+    - /bin/cp -R svgs $DEPLOYPATH
+    - /bin/cp -R webp $DEPLOYPATH
+    - /bin/cp -R pngs $DEPLOYPATH
+
+    - /bin/cp index2.php $DEPLOYPATH
+    - /bin/cp stylesheet-1-1.css $DEPLOYPATH
+    - /bin/cp header.php $DEPLOYPATH
+    - /bin/cp footer.php $DEPLOYPATH
+    - /bin/cp menu-bar.php $DEPLOYPATH
+
 
     - export DEPLOYPATH=/home/ecobricks/public_html/es/
     - /bin/cp index.html $DEPLOYPATH
@@ -60,10 +68,13 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
 
-    - /bin/cp index-beta2.php $DEPLOYPATH
+    - /bin/cp index2.php $DEPLOYPATH
+    - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
+
+
 
     - export DEPLOYPATH=/home/ecobricks/public_html/id/
     - /bin/cp index.html $DEPLOYPATH
@@ -81,7 +92,8 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
 
-    - /bin/cp index-beta2.php $DEPLOYPATH
+    - /bin/cp index2.php $DEPLOYPATH
+    - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH

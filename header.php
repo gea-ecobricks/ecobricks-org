@@ -9,16 +9,18 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
 
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> -->
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+
+<link rel="defer" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> -->
 	
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="defer" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> 
-<link  href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet">
+
+<link  href="https://fonts.googleapis.com/css2?family=Arvo&Mulish:wght@300;500&display=swap" rel="stylesheet">
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-1-0.css?v2.92">
+<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.1">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
