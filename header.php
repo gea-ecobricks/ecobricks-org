@@ -63,7 +63,7 @@
 <!-- Localise translation scripts-->
 
 
-<script src="https://global.localizecdn.com/localize.js"></script>
+<!--<script src="https://global.localizecdn.com/localize.js"></script>
 <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
 
 <script>
@@ -71,7 +71,13 @@
     key: '911e632bfc957',
     rememberLanguage: true,
   });
+</script>-->
+
+<script type="text/javascript">
+  var _jipt = [];
+  _jipt.push(['project', 'ecobricksorg']);
 </script>
+<script type="text/javascript" src="//cdn.crowdin.com/jipt/jipt.js"></script>
 
 
 <!-- enables the nav menu on mobile by click-->
