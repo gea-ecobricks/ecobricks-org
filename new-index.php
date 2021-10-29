@@ -222,7 +222,7 @@
 		<div class="lead-graphic"><img src="webp/build-circular4.webp" width="100%" height="90%"></div>
 		<div class="big-header">The Problem is the Solution.</div>
 		<!--<div class="lead-paragraph">Using Ecobricked Plastic we can Build our Greenest Visions.</div>-->
-		<div class="sub-text"><p>Ecobricks make reusable building blocks ideal for building green spaces.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build the solution.</p>
+		<div class="sub-text"><p><br><br>Ecobricks make reusable building blocks ideal for building green spaces.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build the solution.</p>
 		</div> 
 		<a href="build" class="main-button">Building Applications</a>
 		
