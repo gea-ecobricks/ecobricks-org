@@ -122,11 +122,11 @@
 
 
 		<div id="slider1">
-			<div id="slider-image"><img src="photos/prtmadog-500px.webp "  width="100%"></div>
+			<div id="slider-image"><img src="photos/portmadog.webp"  width="100%"></div>
 			<div id="slider-textbox">
 				<div id="slider-heading">Carbon Zero Building Award</div>
 				<div id="slider-body">
-					We're excited to announce that one of our GEA Trainer Earth & Ecobrick projects in  at Bwyd Bendigedig Port/Incredible Edible's base (Wales, UK) is the second place finalist in the Carbon Zero Efficient Building Award in the UK. </div>
+                The Earth & Ecobrick Roundhouse project in Bwyd Bendigedig Portmadog, by Incredible Edible's Lizzie Wynn (Wales, GEA UK) is the second place finalist in the Carbon Zero Efficient Building Award in the UK. </div>
 				<div id="slider-date">October 27th, 2021 | GEA News</div>
 				<div id="slider-link">>> <a href="https://www.thenational.wales/environment/19652035.carbon-zero-efficient-building-award/" target="_blank">The National Reporting, Wales, UK</a></div>
 			</div>

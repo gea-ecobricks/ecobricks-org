@@ -7,16 +7,19 @@
 
 <link href="https://fonts.gstatic.com" rel="stylesheet" media="print" onload="this.media='all'">
 
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
 
 <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+
+
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;400&display=swap" rel="stylesheet"> 
 
 <link rel="defer" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> -->
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;400&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
