@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 
-<html amp lang="<?php include 'lang.php';?>">
+<html lang="<?php include 'lang.php';?>">
 
 <HEAD>
 
 
 
 	<meta charset="utf-8">
-	<link rel="canonical" href="https://www.ecobricks.org/"> 
+	<link rel="canonical" href="https://www.ecobricks.org/<?php include 'lang.php';?>/welcome.php"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
-	<link rel="alternate" href="https://ecobricks.org/" hreflang="en" />
-	<link rel="alternate" href="https://ecobricks.org/id/" hreflang="id" /> 
-	<link rel="alternate" href="https://ecobricks.org/es/" hreflang="es" /> 
-	<link rel="alternate" href="http://ecobricks.org/<?php include 'lang.php';?>/" hreflang="x-default" />
+	<link rel="alternate" href="https://ecobricks.org/en/welcome.php" hreflang="en" />
+	<link rel="alternate" href="https://ecobricks.org/id/welcome.php" hreflang="id" /> 
+	<link rel="alternate" href="https://ecobricks.org/es/welcome.php" hreflang="es" /> 
+	<link rel="alternate" href="http://ecobricks.org/<?php include 'lang.php';?>/welcome.php" hreflang="x-default" />
 
 
 	<link rel="preload" as="image" href="logos/gea-horizontal.svg">
