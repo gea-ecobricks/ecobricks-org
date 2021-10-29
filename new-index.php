@@ -222,7 +222,7 @@
 		<div class="lead-graphic"><img src="webp/build-circular4.webp" width="100%" height="90%"></div>
 		<div class="big-header">The Problem is the Solution.</div>
 		<!--<div class="lead-paragraph">Using Ecobricked Plastic we can Build our Greenest Visions.</div>-->
-		<div class="sub-text"><p><br><br>Ecobricks make reusable building blocks ideal for building green spaces.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build the solution.</p>
+		<div class="sub-text"><p>Ecobricks make reusable building blocks ideal for building green spaces.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build the solution.</p>
 		</div> 
 		<a href="build" class="main-button">Building Applications</a>
 		
@@ -236,7 +236,7 @@
 		<div class="lead-graphic"><img src="webp/balancing-green.webp"  width="100%" height="100%"></div>
 		<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" ></div><!--width="300px" height="254px"-->
 		<!--<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>-->
-		<div class="sub-text"><p>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
+		<div class="sub-text"><p><br><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
 		<a href="what" class="main-button">Plastic Offsetting</a>
 		<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About the GEA</a></h6><br><br>
 		<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobrikcing.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</p><br>
