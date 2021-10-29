@@ -135,6 +135,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	overflow-x: hidden !important;
 	width: 100%;
 	max-width: 100%;
+	background-color: #00ffff;
 }
 
 #header {  
@@ -191,6 +192,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	z-index: 4;
 	position: relative;
 	height: 25vh;
+	background-color: #00ffff;
 }
 
  #cloud-banner img {
