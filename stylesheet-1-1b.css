@@ -969,7 +969,7 @@ migrated from GoBrik.com CSS
   height: 40vh;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
 #content-sect0-curved-bottom {
   width: 100%;
   /*background: url(svgs/vision-bottom-bottom.svg);
@@ -978,12 +978,12 @@ background-size: cover;
 background-repeat: no-repeat;*/
   height: 100vh;
   margin-top: 0;
-  margin-bottom: -500px;
+  margin-bottom: -180px;
   position: relative;
 
 }}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     #content-sect0-curved-bottom {
     width: 100%;
     /*background: url(svgs/vision-bottom-bottom.svg);
@@ -992,8 +992,9 @@ background-repeat: no-repeat;*/
   background-repeat: no-repeat;*/
     height: 100vh;
     margin-top: 0;
-    margin-bottom: -180px;
+    margin-bottom: -300px;
     position: relative;
+    background: #eceeee;
     }
     }
 
@@ -1002,13 +1003,14 @@ background-repeat: no-repeat;*/
   width: 100%;
   position: absolute;
   z-index: 1;
-  height: 80vh;
-  background: #dadddd;
-  background: url("svgs/vision-bottom-bottom.svg");
+  height: 100vh;  
+ 
+  background: url("svgs/vision-bottom-bottom2.svg");
   background-position: center bottom;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  ;
+ 
+  
 }
 @media screen and (min-width: 0px) and (max-width: 800px) {
   #under-sliders {
@@ -1162,10 +1164,10 @@ background-repeat: no-repeat;*/
   transform: translateX(-50%);
 
   -webkit-animation: slider1 12s forwards;
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 0.3s;
 
   animation: slider1 12s forwards;
-  animation-delay: 0s;
+  animation-delay: 0.3s;
 }
 @media screen and (min-width: 1024px) and (max-width: 2000px) {
   #slider1 {
@@ -1198,7 +1200,7 @@ background-repeat: no-repeat;*/
   }
 }
 @-webkit-keyframes slider1 {
-/*  0% {
+  0% {
       left: 47%;
       opacity: 1;
   }
@@ -1206,17 +1208,7 @@ background-repeat: no-repeat;*/
   4% {
       left: 53%;
       opacity: 1;
-  }*/
-
-  0% {
-    left: 50%;
-    opacity: 1;
-}
-
-4% {
-  left: 50%;
-  opacity: 1;
-}
+  }
 
   7%,
   88% {
@@ -1237,13 +1229,13 @@ background-repeat: no-repeat;*/
 }
 @keyframes slider1 {
   0% {
-    left: 50%;
-    opacity: 1;
+      left: 47%;
+      opacity: 1;
   }
 
   4% {
-    left: 50%;
-    opacity: 1;
+      left: 53%;
+      opacity: 1;
   }
 
   7%,
@@ -1568,11 +1560,14 @@ background-repeat: no-repeat;*/
 @media screen and (min-width: 770px) and (max-width: 1024px) {
   #main-content {
       width: 80%;
+ 
+    
   }
 }
 @media screen and (min-width: 1024px) {
   #main-content {
       width: 70%;
+      margin-top: -200px;
   }
 }
 
@@ -1704,6 +1699,7 @@ background-repeat: no-repeat;*/
 
 #content-sect1 {
   width: 100%;
+  margin-top:80vh;
 
   /*
 -webkit-animation: menuFadeIn 1s forwards;

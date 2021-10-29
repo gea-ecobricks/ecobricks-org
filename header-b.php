@@ -12,11 +12,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
 
 <link rel="defer" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> -->
-
-
+	
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;400&display=swap" rel="stylesheet"> 
+
+<link  href="https://fonts.googleapis.com/css2?family=Arvo&Mulish:wght@300;500&display=swap" rel="stylesheet">
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
@@ -115,7 +115,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
 
-
 <STYLE>
 	
 
@@ -176,7 +175,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-	height: 70vh;
+	height: 65vh;
    /* min-height: 500px;*/
 	background-color: #00ffff;
     display: flex;
@@ -195,8 +194,47 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	margin-bottom: -10px;
 }
 	
+@media screen and (max-width: 500px) { 
+#header-content-block {
+    text-align: center;
+    background-color: #59c1fdb2;  /*#74acffb2;*/
+    border-radius: 12px;
+	height: 70vh;
+	padding: 25px 4% 25px 4%;
+	margin-bottom: 0px;
+	margin: -86vh 6% -60px 6%;
+	z-index: 5;
+}
+}
 
-@media screen and (min-width: 770px) { 
+@media screen and (min-width: 500px) and (max-width: 900px) { 
+#header-content-block {
+    text-align: center;
+    background-color: #59c1fdb2;
+    border-radius: 12px;
+	height: 100vh;
+	padding: 53px 7% 50px 7%;
+	margin: -85vh 5% -150px 5%;
+	z-index: 5;
+}
+}
+
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1150px){ 
+#header-content-block {
+    text-align: center;
+    background-color: #59c1fdb2;
+    border-radius: 12px;
+	height: 100vh;
+	padding: 25px 7% 50px 7%;
+	margin: -85vh 7% -100px 7%;
+	z-index: 5;
+}
+}
+
+@media screen and (min-width: 1150px)and (max-width: 1450px) { 
 #header-content-block {
     text-align: center;
     background-color: #59c1fdb2;
@@ -208,19 +246,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
 }
 }
 
-@media screen and (max-width: 770px) { 
+@media screen and (min-width: 1450px) { 
 #header-content-block {
     text-align: center;
-    background-color: #59c1fdb2;  /*#74acffb2;*/
+    background-color: #59c1fdb2;
     border-radius: 12px;
-	height: 80vh;
-	padding: 25px 3% 25px 3%;
-	margin-bottom: 0px;
-	margin: -86vh 2.9% -60px 2.9%;
+	height: 100vh;
+	padding: 25px 7% 50px 7%;
+	margin: -85vh 10% 0px 10%;
 	z-index: 5;
 }
 }
-
-
 
 </style>	

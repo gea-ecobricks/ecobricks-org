@@ -96,10 +96,11 @@
 				<div class="footer-header">Our Ecological Impact</div>
 				<div class="footer-subtext">We make sure to subtract more CO2 and plastic than we add to the biosphere, to acheive circularity in all our creations, increase biodiversity in all our spaces, put ecological contribution before profit, and to fully disclose all our ecological impacts.  See our <a href="https://files.mandala.team/s/nptzWnNRkX3cJfr" target="_blank" rel="noopener">Regenerativity Report for 2020</a>.  See our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">live ecological impact accounting for 2021.</a><br><br>
 					<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/"><img src="webp/disclose-500px.webp" width="100%" height="34%" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a></div>
-					<!--<div id="wcb" class="carbonbadge wcb-d"></div>
+					<div id="wcb" class="carbonbadge wcb-d"></div>
 					<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
-			</div>-->
+			</div>
 		</div>
+				
 	<div class="footer-bottom">
 		<div class="footer-conclusion">	
 			The educational content of this site is made available by the Ecobrick Alliance under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Please attribute all usage to "Ecobricks.org - Global Ecobrick Alliance" using the same license.</div>
