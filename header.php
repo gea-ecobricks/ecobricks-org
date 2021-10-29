@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	overflow-x: hidden !important;
 	width: 100%;
 	max-width: 100%;
-	background-color: #00ffff;
+
 }
 
 #header {  
