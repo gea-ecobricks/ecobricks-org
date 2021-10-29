@@ -122,6 +122,7 @@
 		</div>
 		<div class="footer-conclusion">	
 			The AES, GEA and GoBrik logos and emblems are copyright 2021 by the Global Ecobrick Alliance.
+			<br><br>
 		</div>
 	</div>
 </div>
