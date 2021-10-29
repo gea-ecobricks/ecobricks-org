@@ -197,7 +197,7 @@
 			<p>Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
 			<!--<p>When we save, segregate and pack plastics into bottles, we can make building blocks that can be reused over and over again. Together we can build green spaces that enrich our community and safely secure plastic out of the biosphere.  Together we can transition from plastic to ever greener harmony with Earth’s cycles.</p>-->
 			</div>
-			 <a href="faqs.html" button class="main-button">Full Ecobrick FAQs</a>
+			 <a href="faqs.php" button class="main-button">All About Ecobricks</a>
 			<h6><a href="what">What is an Ecobrick?</a> | <a href="how">How to Make?</a> | <a href="why">Why Make?</a></h6>
 		</div>	
 	

@@ -10,7 +10,7 @@
         <div class="dropdown-lang">
             <button class="dropbtn-lang">🌏</button>
             <div class="dropdown-content-language">
-              <<a href='/en' onclick='javascript:Localize.setLanguage("ed")'>🇬🇧 ENG</a>
+                <a href='/en' onclick='javascript:Localize.setLanguage("ed")'>🇬🇧 ENG</a>
                 <a href='/id' onclick='javascript:Localize.setLanguage("id")'>🇮🇩 IND</a>
                 <a href='/es' onclick='javascript:Localize.setLanguage("es")'>🇪🇸 ESP</a>
                 <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>
@@ -18,7 +18,8 @@
                 <a href='https://www.ecobricks.org/en/' >🇬🇧 ENG</a>
                 <a href='https://www.ecobricks.org/id/'>🇮🇩 IND</a>
                 <a href='https://www.ecobricks.org/es/'>🇪🇸 ESP</a>
-                <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>-->
+                <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>
+            -->
                 
                 <a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>
             </div>
@@ -67,7 +68,7 @@
                 </div>
         </div> 
         
-        <a href="faqs.html">FAQs
+        <a href="faqs.php">FAQs
         <!--	<div id="faq-icon" title="FAQs" style="margin-right: -5px;font-size: 1.35em;">🤔</div>
             <div id="faq-menu-text">FAQs</div>-->
         </a>
@@ -102,4 +103,4 @@
         </div>
     </div>
 </div>
-<!--END OF HEADER-->
+<!--END OF MENU-->
