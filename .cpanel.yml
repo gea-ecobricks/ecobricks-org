@@ -6,7 +6,7 @@ deployment:
     - export DEPLOYPATH=/home/ecobricks/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.html $DEPLOYPATH
+    - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp test.php $DEPLOYPATH
@@ -31,7 +31,7 @@ deployment:
     - export DEPLOYPATH=/home/ecobricks/public_html/en/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.html $DEPLOYPATH
+    - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp test.php $DEPLOYPATH
@@ -55,7 +55,7 @@ deployment:
     - export DEPLOYPATH=/home/ecobricks/public_html/es/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.html $DEPLOYPATH
+    - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp index-beta.html $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
@@ -81,7 +81,7 @@ deployment:
     - export DEPLOYPATH=/home/ecobricks/public_html/id/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.html $DEPLOYPATH
+    - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp test.php $DEPLOYPATH
