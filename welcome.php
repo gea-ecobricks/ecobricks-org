@@ -19,7 +19,7 @@
 	<link rel="preload" as="image" href="logos/gea-horizontal.svg">
 	<link rel="preload" as="image" href="svgs/cloud-back.svg">
 	<link rel="preload" as="image" href="svgs/vision-bottom.svg">
-	<link rel="preload" as="image" href="svgs/mountain-top.svg">
+	<link rel="preload" as="image" href="webp/mountain-top2.webp">
 
 
 
@@ -54,7 +54,7 @@
 	<?php include 'menu-bar.php';?>
 
 
-    <div id="clouds"><img src="svgs/mountain-top.svg" width="100%"></div>
+    <div id="clouds"><img src="webp/mountain-top2.webp" width="100%"></div>
 	<div id="cloud-banner"><img src="svgs/vision-bottom.svg" width="100%"></div>
 
 <!-- SLIDER CONTENT -->
