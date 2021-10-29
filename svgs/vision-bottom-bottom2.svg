@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="156.26953mm"
-   height="52.486095mm"
-   viewBox="0 0 156.26954 52.486095"
+   width="156.29405mm"
+   height="53.176197mm"
+   viewBox="0 0 156.29406 53.176197"
    version="1.1"
    id="svg16107"
-   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
    sodipodi:docname="vision-bottom-bottom2.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,7 +26,7 @@
      showgrid="false"
      inkscape:zoom="0.82394605"
      inkscape:cx="334.36655"
-     inkscape:cy="90.418541"
+     inkscape:cy="89.20487"
      inkscape:window-width="1476"
      inkscape:window-height="800"
      inkscape:window-x="60"
@@ -78,7 +78,15 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-22.618585,-104.81961)">
+     transform="translate(-22.618586,-104.93905)">
+    <rect
+       style="opacity:1;fill:#ffffff;stroke-width:0.465;stroke-linecap:round;stroke-dasharray:0.93, 0.93"
+       id="rect2042"
+       width="156.29405"
+       height="53.176197"
+       x="22.618586"
+       y="104.93905"
+       ry="0.0082008662" />
     <path
        d="m 22.618585,104.93905 c 58.82769,-0.38308 126.507315,0.24488 156.140085,0.62466 l 0.12944,45.24882 c -52.21035,9.36412 -110.72989,7.6959 -156.01689,0.72461 z"
        fill="url(#linearGradient26253)"
