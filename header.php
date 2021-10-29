@@ -66,7 +66,7 @@
 <!-- Localise translation scripts-->
 
 
-<script src="https://global.localizecdn.com/localize.js" defer></script>
+<script src="https://global.localizecdn.com/localize.js" async></script>
 <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
 
 <script>
