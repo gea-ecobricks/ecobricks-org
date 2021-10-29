@@ -53,11 +53,8 @@
 											  
 <BODY id="full-page">
 	<div id="load-background">
-
-		 <!--START OF HEADER-->   
          
-         <?php include 'menu-bar.php';?>
-<!--END OF HEADER-->
+	<?php include 'menu-bar.php';?>
 
 
 <div id="cloud-box">
@@ -77,8 +74,6 @@
 
 <div id="content-sect1">
 
-
-	
 <!-- QUESTIONS CONTENT -->
 
 <var>   <!--TOGGLES-->
@@ -98,12 +93,8 @@
   } else {
     x.innerHTML = "⬆ Hide";
   }
-
-
-
-
 	}
-	</script>
+</script>
 
 <script>
 	function concerns() {
@@ -121,7 +112,7 @@
 			x.innerHTML = "⬇ Show";
 		}
 	}
-	</script>
+</script>
 
 <script>
 	function building() {
@@ -195,9 +186,8 @@
 			x.innerHTML = "⬇ Show";
 		}
 	}
-	</script>
+</script>
 
-</var>
 
 <a name="top"></a>
 <div id="main-content">
