@@ -21,7 +21,7 @@ deployment:
 
 
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
-    - /bin/cp index2.php $DEPLOYPATH
+    - /bin/cp new-index.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
@@ -44,7 +44,7 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
 
-    - /bin/cp index2.php $DEPLOYPATH
+    - /bin/cp new-index.php $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
@@ -68,7 +68,7 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
 
-    - /bin/cp index2.php $DEPLOYPATH
+    - /bin/cp new-index.php $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
@@ -92,7 +92,7 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
 
-    - /bin/cp index2.php $DEPLOYPATH
+    - /bin/cp new-index.php $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
