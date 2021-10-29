@@ -20,7 +20,7 @@
 	<link rel="preload" as="image" href="svgs/cloud-back.svg">
 	<link rel="preload" as="image" href="svgs/vision-bottom.svg">
 	<link rel="preload" as="image" href="svgs/mountain-top.svg">
-	<link rel="preload" as="image" href="webp/mandalic.webp">
+
 
 
 	<!-- Meta tags for page display and search engine listing-->

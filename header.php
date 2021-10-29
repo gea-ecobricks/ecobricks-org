@@ -16,11 +16,11 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;400&display=swap" rel="stylesheet"> 
+<link rel="defer" href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;400&display=swap" rel="stylesheet"> 
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.1">
+<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.2">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
