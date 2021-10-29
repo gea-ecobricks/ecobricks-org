@@ -10,15 +10,15 @@
         <div class="dropdown-lang">
             <button class="dropbtn-lang">🌏</button>
             <div class="dropdown-content-language">
-              <!--  <a href='javascript:Localize.setLanguage("ed")'>🇬🇧 ENG</a>
-                <a href='javascript:Localize.setLanguage("id")'>🇮🇩 IND</a>
-                <a href='javascript:Localize.setLanguage("es")'>🇪🇸 ESP</a>
-                <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>-->
-
-                <a href='https://www.ecobricks.org/en/'>🇬🇧 ENG</a>
+              <<a href='/en' onclick='javascript:Localize.setLanguage("ed")'>🇬🇧 ENG</a>
+                <a href='/id' onclick='javascript:Localize.setLanguage("id")'>🇮🇩 IND</a>
+                <a href='/es' onclick='javascript:Localize.setLanguage("es")'>🇪🇸 ESP</a>
+                <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>
+<!--
+                <a href='https://www.ecobricks.org/en/' >🇬🇧 ENG</a>
                 <a href='https://www.ecobricks.org/id/'>🇮🇩 IND</a>
                 <a href='https://www.ecobricks.org/es/'>🇪🇸 ESP</a>
-                <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>
+                <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>-->
                 
                 <a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>
             </div>
