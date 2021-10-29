@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	z-index: 4;
 	position: relative;
 	height: 25vh;
-	background-color: #00ffff;
+	/*background-color: #00ffff;*/
 }
 
  #cloud-banner img {
