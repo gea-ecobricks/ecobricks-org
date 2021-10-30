@@ -192,6 +192,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 }
 
 #cloud-banner {
+	background-color: #00ffff;
 	background: url(webp/vision-bottom3.webp) center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,7 +200,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	position: relative;
 	width: 100%;
 	height: 31%;
-	background-color: #00ffff;
 	min-height: 25vh;
 }
 
