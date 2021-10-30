@@ -1,13 +1,17 @@
-
+<?php
+	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
+	$name = $parts [count($parts)-1];
+	;?>
+	
 
 	<meta charset="utf-8">
-	<link rel="canonical" href="https://www.ecobricks.org/<?php include 'lang.php';?>/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>"> 
+	<link rel="canonical" href="https://www.ecobricks.org/<?php include 'lang.php';?>/<?php echo ($name); ;?>"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
-	<link rel="alternate" href="https://ecobricks.org/en/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>" hreflang="en" />
-	<link rel="alternate" href="https://ecobricks.org/id/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>" hreflang="id" /> 
-	<link rel="alternate" href="https://ecobricks.org/es/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>" hreflang="es" /> 
-	<link rel="alternate" href="http://ecobricks.org/<?php include 'lang.php';?>/welcome.php" hreflang="x-default" />
+	<link rel="alternate" href="https://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="en" />
+	<link rel="alternate" href="https://ecobricks.org/id/<?php echo ($name); ;?>" hreflang="id" /> 
+	<link rel="alternate" href="https://ecobricks.org/es/<?php echo ($name); ;?>" hreflang="es" /> 
+	<link rel="alternate" href="http://ecobricks.org/<?php include 'lang.php';?>/<?php echo ($name); ;?>" hreflang="x-default" />
 
 
 
