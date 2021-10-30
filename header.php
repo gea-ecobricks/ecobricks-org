@@ -10,7 +10,7 @@
 	<link rel="alternate" href="http://ecobricks.org/<?php include 'lang.php';?>/welcome.php" hreflang="x-default" />
 
 
-	
+
 <noscript>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
 </noscript>
@@ -37,7 +37,7 @@
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.4">
+<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.5">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-	height: 70vh;
+	height: 73vh;
    /* min-height: 500px;*/
 	background-color: #00ffff;
     display: flex;
