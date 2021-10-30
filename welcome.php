@@ -55,7 +55,7 @@
 
 
     <div id="clouds"><img src="webp/mountain-top2.webp" width="100%"></div>
-	<div id="cloud-banner"><img src="webp/vision-bottom3b.webp" width="100%"></div>
+	<div id="cloud-banner"><img src="webp/vision-bottom4.webp" width="100%" height="31%"></div>
 
 <!-- SLIDER CONTENT -->
 	
