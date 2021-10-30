@@ -10,7 +10,6 @@
 
 <link href="https://fonts.gstatic.com" rel="stylesheet" media="print" onload="this.media='all'">
 
-
 <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
 
 
