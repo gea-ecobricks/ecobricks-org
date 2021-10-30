@@ -1,4 +1,16 @@
 
+
+	<meta charset="utf-8">
+	<link rel="canonical" href="https://www.ecobricks.org/<?php include 'lang.php';?>/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>"> 
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+	<link rel="alternate" href="https://ecobricks.org/en/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>" hreflang="en" />
+	<link rel="alternate" href="https://ecobricks.org/id/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>" hreflang="id" /> 
+	<link rel="alternate" href="https://ecobricks.org/es/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>" hreflang="es" /> 
+	<link rel="alternate" href="http://ecobricks.org/<?php include 'lang.php';?>/welcome.php" hreflang="x-default" />
+
+
+	
 <noscript>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
 </noscript>
@@ -25,7 +37,7 @@
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.3">
+<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.4">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
