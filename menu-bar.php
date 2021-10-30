@@ -10,9 +10,9 @@
         <div class="dropdown-lang">
             <button class="dropbtn-lang">🌏</button>
             <div class="dropdown-content-language">
-                <a href='../en/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>' onclick='javascript:Localize.setLanguage("ed")'>🇬🇧 ENG</a>
-                <a href='../id/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>' onclick='javascript:Localize.setLanguage("id")'>🇮🇩 IND</a>
-                <a href='../es/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>' onclick='javascript:Localize.setLanguage("es")'>🇪🇸 ESP</a>
+                <a href='https://ecobricks.org/en/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>' onclick='javascript:Localize.setLanguage("ed")'>🇬🇧 ENG</a>
+                <a href='https://ecobricks.org/id/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>' onclick='javascript:Localize.setLanguage("id")'>🇮🇩 IND</a>
+                <a href='https://ecobricks.org/es/<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>' onclick='javascript:Localize.setLanguage("es")'>🇪🇸 ESP</a>
                 <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>
 <!--
                 <a href='https://www.ecobricks.org/en/' >🇬🇧 ENG</a>
