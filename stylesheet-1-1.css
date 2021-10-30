@@ -1064,7 +1064,8 @@ background-repeat: no-repeat;*/
   #slider-heading {
       font-size: 3.6vw;
       text-align: left;
-      font-family: 'Arvo', serif;
+      font-family: 'Mulish', sans-serif;
+      font-weight: 500;
       color: white;
       padding-top: 17px;
   }
@@ -1073,7 +1074,8 @@ background-repeat: no-repeat;*/
   #slider-heading {
       font-size: 2em;
       text-align: left;
-      font-family: 'Arvo', serif;
+      font-family: 'Mulish', sans-serif;
+      font-weight: 500;
       color: white;
       padding-top: 17px;
   }
@@ -1751,7 +1753,7 @@ opacity: 1;}*/
 @media screen and (min-width: 1024px) {
   #dolphin-graphic {
       width: 600px;
-      margin-top: -200px;
+      margin-top: -201px;
       min-height: 200px;
   }
 }
