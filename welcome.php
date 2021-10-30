@@ -15,6 +15,13 @@
 	<link rel="alternate" href="https://ecobricks.org/es/welcome.php" hreflang="es" /> 
 	<link rel="alternate" href="http://ecobricks.org/<?php include 'lang.php';?>/welcome.php" hreflang="x-default" />
 
+	<?php	echo ($_SERVER ['QUERY_STRING']);;?>
+
+
+	<?php   echo (__FILE__ );;?>
+
+<?php	echo ($_SERVER ['SCRIPT_NAME']);;?>
+
 
 	<link rel="preload" as="image" href="logos/gea-horizontal.svg">
 	<link rel="preload" as="image" href="svgs/cloud-back.svg">
