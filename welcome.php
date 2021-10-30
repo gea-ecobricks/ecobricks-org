@@ -18,7 +18,7 @@
 
 	<link rel="preload" as="image" href="logos/gea-horizontal.svg">
 	<link rel="preload" as="image" href="svgs/cloud-back.svg">
-	<link rel="preload" as="image" href="svgs/vision-bottom.svg">
+	<link rel="preload" as="image" href="webp/vision-bottom3b.webp">
 	<link rel="preload" as="image" href="webp/mountain-top2.webp">
 
 
@@ -55,7 +55,7 @@
 
 
     <div id="clouds"><img src="webp/mountain-top2.webp" width="100%"></div>
-	<div id="cloud-banner"><img src="svgs/vision-bottom.svg" width="100%"></div>
+	<div id="cloud-banner"><img src="webp/vision-bottom3b.webp" width="100%"></div>
 
 <!-- SLIDER CONTENT -->
 	

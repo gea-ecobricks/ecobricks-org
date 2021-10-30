@@ -1,4 +1,7 @@
 
+<noscript>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
+</noscript>
 
 <!-- This calls GEA typography -->
 
@@ -15,11 +18,11 @@
 
 <link rel="defer" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> -->
 
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
@@ -189,10 +192,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
 }
 
 #cloud-banner {
+	background: url(webp/vision-bottom3.webp) center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 	z-index: 4;
 	position: relative;
 	height: 25vh;
-	/*background-color: #00ffff;*/
+	background-color: #00ffff;
 }
 
  #cloud-banner img {
