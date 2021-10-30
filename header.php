@@ -192,7 +192,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 }
 
 #cloud-banner {
-	#cloud-banner {
 	background: url(webp/vision-bottom3.webp) center top;
     background-repeat: no-repeat;
     background-size: cover;
