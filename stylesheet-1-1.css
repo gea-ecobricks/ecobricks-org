@@ -1738,8 +1738,8 @@ opacity: 1;}*/
 }
 @media screen and (min-width: 0px) and (max-width: 769px) {
   #dolphin-graphic {
-      width: 90%;
-      margin-top: -130px;
+      width: 80%;
+      margin-top: -200px;
   }
 }
 @media screen and (min-width: 770px) and (max-width: 1023px) {
@@ -1751,7 +1751,7 @@ opacity: 1;}*/
 @media screen and (min-width: 1024px) {
   #dolphin-graphic {
       width: 600px;
-      margin-top: 0;
+      margin-top: -200px;
       min-height: 200px;
   }
 }
