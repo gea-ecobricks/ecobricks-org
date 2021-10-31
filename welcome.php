@@ -37,6 +37,68 @@
   <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it."/>
 	
 	<?php include 'header.php';?>
+
+<style>
+#clouds {
+	background: url(svgs/cloud-back.svg) center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+	height: 73vh;
+   /* min-height: 500px;*/
+	background-color: #00ffff;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 0px;
+}
+
+#cloud-banner {
+	
+	background: url(webp/vision-bottom5.webp) center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+	z-index: 4;
+	position: relative;
+	width: 100%;
+	height: 31%;
+	min-height: 25vh;
+	background-color: #00ffff;
+}
+
+ #cloud-banner img {
+	width: 100% !important;
+	margin-bottom: -10px;
+}
+	
+
+@media screen and (min-width: 770px) { 
+#header-content-block {
+    text-align: center;
+    background-color: #59c1fdb2;
+    border-radius: 12px;
+	height: 100vh;
+	padding: 25px 7% 50px 7%;
+	margin: -85vh 10% -50px 10%;
+	z-index: 5;
+}
+}
+
+@media screen and (max-width: 770px) { 
+#header-content-block {
+    text-align: center;
+    background-color: #59c1fdb2;  /*#74acffb2;*/
+    border-radius: 12px;
+	height: 80vh;
+	padding: 25px 3% 25px 3%;
+	margin-bottom: 0px;
+	margin: -86vh 2.9% -60px 2.9%;
+	z-index: 5;
+}
+}
+
+</style>
+
+
 </head>
 	
 	
