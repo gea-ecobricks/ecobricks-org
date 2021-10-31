@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="155.16397mm"
-   height="50mm"
+   width="155.05238mm"
+   height="48.518642mm"
    version="1.1"
-   viewBox="0 0 155.16397 50.000001"
+   viewBox="0 0 155.05238 48.518643"
    id="svg39279"
    sodipodi:docname="vision-bottom2.svg"
-   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
-   inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/vision-bottom2.webp"
-   inkscape:export-xdpi="163.95319"
-   inkscape:export-ydpi="163.95319"
+   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
+   inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/vision-bottom4.webp"
+   inkscape:export-xdpi="286.51199"
+   inkscape:export-ydpi="286.51199"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,32 +25,36 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.3097449"
-     inkscape:cx="176.75198"
-     inkscape:cy="121.01593"
-     inkscape:window-width="1476"
-     inkscape:window-height="800"
-     inkscape:window-x="60"
-     inkscape:window-y="27"
+     inkscape:zoom="1.852259"
+     inkscape:cx="264.2719"
+     inkscape:cy="137.93967"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g38657"
+     inkscape:current-layer="g10435"
      showguides="true"
      inkscape:guide-bbox="true"
      gridtolerance="1"
      objecttolerance="1"
      guidetolerance="1">
     <sodipodi:guide
-       position="175.87418,125.10696"
+       position="175.78895,70.723699"
        orientation="0,-1"
        id="guide5376" />
     <sodipodi:guide
-       position="102.87881,47.581158"
+       position="102.79359,-6.8021021"
        orientation="0,-1"
        id="guide88901" />
     <sodipodi:guide
-       position="80.242385,47.581159"
+       position="80.157161,-6.8021011"
        orientation="0,-1"
        id="guide89017" />
+    <sodipodi:guide
+       position="-38.265366,48.51864"
+       orientation="0,-1"
+       id="guide20605" />
   </sodipodi:namedview>
   <defs
      id="defs37507">
@@ -770,14 +774,39 @@
          result="composite2"
          id="feComposite6537" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient26253"
+       id="linearGradient21957"
+       gradientUnits="userSpaceOnUse"
+       x1="80.204002"
+       y1="175.28"
+       x2="79.717003"
+       y2="218.82001" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient26253"
+       id="linearGradient21959"
+       gradientUnits="userSpaceOnUse"
+       x1="80.204002"
+       y1="175.28"
+       x2="79.717003"
+       y2="218.82001" />
   </defs>
   <g
-     transform="translate(0.29333982,-72.920662)"
+     transform="translate(0.20811628,-72.718648)"
      id="g39277">
     <g
        id="g10435"
        clip-path="url(#clipPath21150)"
        transform="translate(0.05228038,-0.38792665)">
+      <rect
+         style="opacity:1;fill:#ffffff;stroke-width:0.464222;stroke-linecap:round;stroke-dasharray:0.928446, 0.928446"
+         id="rect21505"
+         width="155.05238"
+         height="48.518642"
+         x="-0.26039666"
+         y="73.106575" />
       <g
          transform="matrix(1.0038,0,0,1,-0.42018,25.707)"
          id="g37529">
@@ -859,7 +888,7 @@
            d="m 26.753645,188.94398 c 18.217,-3.5351 44.97,-8.526 69.883,-6.8621 l 14.030995,-0.17267 c 37.881,-0.18501 51.758,3.7479 71.013,7.8828 l 0.15276,9.93302 c -52.08535,9.36412 -109.711435,7.12329 -154.89,0.152 z"
            fill="url(#linearGradient26253)"
            id="path6218"
-           style="fill:url(#linearGradient26253);filter:url(#filter6539)"
+           style="fill:url(#linearGradient21957);filter:url(#filter6539)"
            sodipodi:nodetypes="ccccccc" />
         <path
            d="m 49.382,169.61 c 42.849,-9.1902 75.998,-13.082 113.54,0 l 1.573,4.6247 H 51.065 Z"
@@ -3244,7 +3273,7 @@
            d="m 26.945,181.02 c 18.217,-3.5351 44.97,-8.526 69.883,-6.8621 l 14.031,-0.17267 c 37.881,-0.18501 51.758,3.7479 71.013,7.8828 l -0.0386,17.857 c -52.08535,9.36412 -109.711435,7.12329 -154.89,0.152 z"
            fill="url(#linearGradient26253)"
            id="path38653"
-           style="fill:url(#linearGradient26253)"
+           style="fill:url(#linearGradient21959)"
            sodipodi:nodetypes="ccccccc" />
         <path
            d="m 96.828,174.16 c 5.7417,20.216 -21.831,8.225 -21.346,31.021 21.294,2.3161 41.60671,2.19599 63.52471,-0.12561 -32.539,-15.853 -13.20171,-20.95399 -29.63571,-31.23999"
