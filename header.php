@@ -102,7 +102,7 @@
 <script type="text/javascript" defer>
 
 document.addEventListener("DOMContentLoaded", function(event) {
-	setTimeout(addScript, 8000)
+	setTimeout(addScript, 7000)
   });
   
   function addScript() {
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 <!-- Arc CDN Script without delay -- turned off for the moment-->
 
-<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
+<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
 
 <!-- Inline styling to lay out the most important part of the page for first load view-->
 

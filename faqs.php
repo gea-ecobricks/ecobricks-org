@@ -1235,7 +1235,7 @@
 	</div>
 	</div>
 </div>
-                           </div>
+</div>
 
 	<!--FOOTER STARTS HERE-->
 
