@@ -24,7 +24,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://www.ecobricks.org"/>
+	<meta property="og:url"           content="https://www.ecobricks.org/<?php include 'lang.php';?>/<?php echo ($name); ;?>"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Ecobricks.org | Frequently Asked Questions">
   	<meta property="og:description"   content="All the answers about ecobrick concerns and critiques.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon and the petro-capital economy."/>
