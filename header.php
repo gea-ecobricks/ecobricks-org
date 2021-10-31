@@ -1,8 +1,9 @@
+<!-- PHP starts by laying out canonical URLs for the page and language -->
+
 <?php
 	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
 	$name = $parts [count($parts)-1];
 	;?>
-	
 
 	<meta charset="utf-8">
 	<link rel="canonical" href="https://www.ecobricks.org/<?php include 'lang.php';?>/<?php echo ($name); ;?>"> 
@@ -13,35 +14,24 @@
 	<link rel="alternate" href="https://ecobricks.org/es/<?php echo ($name); ;?>" hreflang="es" /> 
 	<link rel="alternate" href="http://ecobricks.org/<?php include 'lang.php';?>/<?php echo ($name); ;?>" hreflang="x-default" />
 
-
-
-<noscript>
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
-</noscript>
-
 <!-- This calls GEA typography -->
-
-<!-- Menu icons -- not so necessary
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="print" onload="this.media='all'">
-
-<link href="https://fonts.gstatic.com" rel="stylesheet" media="print" onload="this.media='all'">
-
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
-
-
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;400&display=swap" rel="stylesheet"> 
-
-<link rel="defer" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+<!-- Mulish loads first for first page view-->
+
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
 
+<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this-->
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
+</noscript>
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.5">
+<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.6">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
@@ -53,6 +43,7 @@
 
 <!--<meta name="viewport" content="width=device-width, initial-scale=1.8, target-densitydpi=160, maximum-scale=1, user-scalable = no">
 -->
+
 <!-- WHAT"S THIS? <meta http-equiv="Cache-control" content="no-store" Cache-Control: private, max-age=604800>
 -->
 <meta name="apple-mobile-web-app-title" content="Ecobricks.org">
@@ -75,14 +66,11 @@
 <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 	
- 
-
 
 <!-- UNIVERSAL SITE JAVA SCRIPTS-->
 	
 		
 <!-- Localise translation scripts-->
-
 
 <script src="https://global.localizecdn.com/localize.js"></script>
 <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
@@ -95,7 +83,7 @@
 </script>
 
 
-<!-- enables the nav menu on mobile by click-->
+<!-- Enables the nav menu grey circle on mobile by click-->
 	
 <script type="text/javascript">
 	function appMenu() {
@@ -107,6 +95,7 @@
 	  }
 	}
 </script>
+
 
 <!-- ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score-->
 
@@ -130,17 +119,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
 </script>
 
 
-<!-- Arc CDN Script 
+<!-- Arc CDN Script without delay -- turned off for the moment-->
 
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
 
-
-
+<!-- Inline styling to lay out the most important part of the page for first load view-->
 
 <STYLE>
-	
 
-	#full-page {
+#cloud-banner img {
+	width: 100% !important;
+	margin-bottom: -10px;
+}
+	
+#full-page {
 	z-index: 0;
 	text-align: center;
 	position: relative;
@@ -191,7 +183,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	text-align: right;
 	opacity: 1;
 }
-
-
 
 </style>	

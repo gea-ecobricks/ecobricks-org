@@ -1,20 +1,10 @@
 <!DOCTYPE html>
 
-
+<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
 <html lang="<?php include 'lang.php';?>">
 
+
 <HEAD>
-
-
-
-	<meta charset="utf-8">
-	<link rel="canonical" href="https://www.ecobricks.org/<?php include 'lang.php';?>/faqs.php"> 
-	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-
-	<link rel="alternate" href="https://ecobricks.org/en/faqs.php" hreflang="en" />
-	<link rel="alternate" href="https://ecobricks.org/id/faqs.php" hreflang="id" /> 
-	<link rel="alternate" href="https://ecobricks.org/es/faqs.php" hreflang="es" /> 
-	<link rel="alternate" href="http://ecobricks.org/<?php include 'lang.php';?>/faqs.php" hreflang="x-default" />
 
 <!--Image files to preload that are unique to this page-->
 
@@ -22,7 +12,6 @@
 <link rel="preload" as="image" href="svgs/cloud-back.svg">
 <link rel="preload" as="image" href="webp/faq-top.webp">
 <link rel="preload" as="image" href="webp/faq-bottom.webp">
-
 
 
 <!-- Meta tags for page display and search engine listing-->
@@ -33,109 +22,24 @@
 
 <meta name="description" content="All the answers about ecobrick concerns and critiques.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon, offsetting and regenerating out of the petro-capital economy.">
 	
-	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-  <meta property="og:url"           content="https://www.ecobricks.org"/>
-  <meta property="og:type"          content="website">
- <meta property="og:title"         content="Ecobricks.org | Frequently Asked Questions">
-  <meta property="og:description"   content="All the answers about ecobrick concerns and critiques.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon and the petro-capital economy."/>
-  <meta property="og:image"         content="https://www.ecobricks.org/pngs/question.png"/>
-  <meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="1129" />
-  <meta property="og:image:alt"     content="A floating question mark made with ecobricks"/>
- 
+	<meta property="og:url"           content="https://www.ecobricks.org"/>
+	<meta property="og:type"          content="website">
+ 	<meta property="og:title"         content="Ecobricks.org | Frequently Asked Questions">
+  	<meta property="og:description"   content="All the answers about ecobrick concerns and critiques.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon and the petro-capital economy."/>
+  	<meta property="og:image"         content="https://www.ecobricks.org/pngs/question.png"/>
+  	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="1129" />
+  	<meta property="og:image:alt"     content="A floating question mark made with ecobricks"/>
  
 
   <?php include 'header.php';?>
 
 
 
-<STYLE>
+<!--CUSTOM PAGE SCRIPTS-->
 
-#clouds {
-	background: url(svgs/cloud-back.svg) center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-	height: 70vh;
-   /* min-height: 500px;*/
-	background-color: #00ffff;
-    display: flex;
-    align-items: flex-end;
-    margin-top: 0px;
-}
-
-#cloud-banner {
-	z-index: 4;
-	position: relative;
-	height: 25vh;
-}
-
- #cloud-banner img {
-	width: 100% !important;
-	margin-bottom: -10px;
-}
-	
-
-@media screen and (min-width: 770px) { 
-#header-content-block {
-    text-align: center;
-    background-color: #59c1fdb2;
-    border-radius: 12px;
-	height: 100vh;
-	padding: 25px 7% 50px 7%;
-	margin: -85vh 10% -50px 10%;
-	z-index: 5;
-}
-}
-
-@media screen and (max-width: 770px) { 
-#header-content-block {
-    text-align: center;
-    background-color: #59c1fdb2;  /*#74acffb2;*/
-    border-radius: 12px;
-	height: 80vh;
-	padding: 25px 3% 25px 3%;
-	margin-bottom: 0px;
-	margin: -86vh 2.9% -60px 2.9%;
-	z-index: 5;
-}
-}
-
-
-</style>	
-
-
-</head>
-							  
-											  
-<BODY id="full-page">
-	<div id="load-background">
-         
-	<?php include 'menu-bar.php';?>
-
-
-<div id="cloud-box">
-    <div id="clouds"><img src="webp/faq-top.webp" width="100%"></div>
-	<div id="cloud-banner"><img src="webp/faq-bottom.webp" width="100%"><!--</div>
-	<div id="page-header">Frequently Asked Questions</div>
-	<div id="page-header-sub">You've got questions about ecobricks. We've got answers!</div>-->
-</div>
-
-<div id="header-content-block">
-	<div id="raised-text">
-			<h1>Frequently Asked Questions</h1>
-	<h5>You've got questions🤔 about ecobricks.  We've got answers💡</h5></div>
-</div>
-
-
-
-<div id="content-sect1">
-
-<!-- QUESTIONS CONTENT -->
-
-<var>   <!--TOGGLES-->
 <script>
 	function general() {
 	  var x = document.getElementById("general-questions");
@@ -246,6 +150,88 @@
 		}
 	}
 </script>
+
+<STYLE>
+
+#clouds {
+	background: url(svgs/cloud-back.svg) center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+	height: 70vh;
+   /* min-height: 500px;*/
+	background-color: #00ffff;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 0px;
+}
+
+#cloud-banner {
+	z-index: 4;
+	position: relative;
+	height: 25vh;
+}
+
+	
+
+@media screen and (min-width: 770px) { 
+	#header-content-block {
+		text-align: center;
+		background-color: #59c1fdb2;
+		border-radius: 12px;
+		height: 100vh;
+		padding: 25px 7% 50px 7%;
+		margin: -85vh 10% -50px 10%;
+		z-index: 5;
+}
+}
+
+@media screen and (max-width: 770px) { 
+	#header-content-block {
+		text-align: center;
+		background-color: #59c1fdb2;  /*#74acffb2;*/
+		border-radius: 12px;
+		height: 80vh;
+		padding: 25px 3% 25px 3%;
+		margin-bottom: 0px;
+		margin: -86vh 2.9% -60px 2.9%;
+		z-index: 5;
+	}
+}
+
+</style>	
+
+</head>
+							  
+											  
+<BODY id="full-page">
+
+	<div id="load-background">
+
+<!-- Menu bar-->	
+         
+		<?php include 'menu-bar.php';?>
+
+<!--Page banner-->
+
+		<div id="cloud-box">
+			<div id="clouds"><img src="webp/faq-top.webp" width="100%"></div>
+			<div id="cloud-banner"><img src="webp/faq-bottom.webp" width="100%"><!--</div>
+			<div id="page-header">Frequently Asked Questions</div>
+			<div id="page-header-sub">You've got questions about ecobricks. We've got answers!</div>-->
+		</div>
+
+		<div id="header-content-block">
+			<div id="raised-text">
+					<h1>Frequently Asked Questions</h1>
+			<h5>🤔 You've got questions about ecobricks.  We've got answers.💡</h5></div>
+		</div>
+
+
+
+		<div id="content-sect1">
+
+<!-- QUESTIONS CONTENT -->
 
 
 <a name="top"></a>

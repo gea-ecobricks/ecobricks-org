@@ -53,7 +53,6 @@
 }
 
 #cloud-banner {
-	
 	background: url(webp/vision-bottom5.webp) center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,10 +64,6 @@
 	background-color: #00ffff;
 }
 
- #cloud-banner img {
-	width: 100% !important;
-	margin-bottom: -10px;
-}
 	
 
 @media screen and (min-width: 770px) { 
