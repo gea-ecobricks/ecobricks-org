@@ -16,12 +16,14 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
     - /bin/cp -R photos $DEPLOYPATH
+    - /bin/cp -R meta-tags/faqs-en.php $DEPLOYPATH
 
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
+
 
 
 
@@ -44,6 +46,7 @@ deployment:
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
+    
 
 
     - export DEPLOYPATH=/home/ecobricks/public_html/es/
@@ -80,7 +83,7 @@ deployment:
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
-    - /bin/cp -R photos $DEPLOYPATH
+    - /bin/cp -R photos $DEPLOYPATH    -
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
