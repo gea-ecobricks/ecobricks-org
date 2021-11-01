@@ -14,15 +14,19 @@
 <link rel="preload" as="image" href="webp/faq-bottom.webp">
 
 
-<!-- Meta tags for page display and search engine listing-->
+<?php include '/meta-tags/faqs*';?>
+
+<!-- Meta tags for page display and search engine listing
 
 <title>Ecobricks.org | FAQs</title>
 
 <meta name="keywords" content="ecobricks, plastic offsets, ecobrick, plastic solved, eco-brick, gobrik, bottle brick, plastic solution, recycling, upcycling, plastic sequestration, ecobrick questions, faq questions, frequently asked ecobrick questions, recycling, incineration, pollution, plastic pollution">
 
 <meta name="description" content="All the answers about ecobrick concerns and critiques.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon, offsetting and regenerating out of the petro-capital economy.">
-	
-	<!-- Facebook Open Graph Tags for social sharing-->
+	-->
+
+
+	<!-- Facebook Open Graph Tags for social sharing
 
 	<meta property="og:url"           content="https://www.ecobricks.org/<?php include 'lang.php';?>/<?php echo ($name); ;?>"/>
 	<meta property="og:type"          content="website">
@@ -32,6 +36,8 @@
   	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="1129" />
   	<meta property="og:image:alt"     content="A floating question mark made with ecobricks"/>
+
+	  -->
  
 
   <?php include 'header.php';?>
