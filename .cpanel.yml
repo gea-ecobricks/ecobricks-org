@@ -91,5 +91,4 @@ deployment:
 
     - export DEPLOYPATH=/home/ecobricks/public_html/meta/
     - /bin/cp -R meta/faqs_en.php $DEPLOYPATH
-
     
