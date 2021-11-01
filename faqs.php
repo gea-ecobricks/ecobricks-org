@@ -14,7 +14,7 @@
 <link rel="preload" as="image" href="webp/faq-bottom.webp">
 
 
-<?php include '/meta-tags/faqs*';?>
+<?php include echo ($name) . -en.php;?>
 
 <!-- Meta tags for page display and search engine listing
 
