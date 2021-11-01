@@ -90,4 +90,4 @@ deployment:
     - /bin/cp menu-bar.php $DEPLOYPATH
 
     - export DEPLOYPATH=/home/ecobricks/public_html/meta/
-    - /bin/cp -R meta/faq_en.php $DEPLOYPATH
+    - /bin/cp faq_en.php $DEPLOYPATH
