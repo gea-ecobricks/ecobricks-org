@@ -91,4 +91,15 @@ deployment:
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
 
-    
+
+    - export DEPLOYPATH=/home/ecobricks/public_html/meta-tags/
+    - /bin/cp meta-tags/faqs-en.php $DEPLOYPATH
+
+    - export DEPLOYPATH=/home/ecobricks/public_html/id/meta-tags/
+    - /bin/cp meta-tags/faqs-id.php $DEPLOYPATH
+
+    - export DEPLOYPATH=/home/ecobricks/public_html/en/meta-tags/
+    - /bin/cp meta-tags/faqs-en.php $DEPLOYPATH
+
+    - export DEPLOYPATH=/home/ecobricks/public_html/es/meta-tags/
+    - /bin/cp meta-tags/faqs-es.php $DEPLOYPATH
