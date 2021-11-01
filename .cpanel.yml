@@ -16,7 +16,7 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
     - /bin/cp -R photos $DEPLOYPATH
-    - /bin/cp -R meta-tags/faqs-en.php $DEPLOYPATH
+    - /bin/cp meta-tags/faqs-en.php $DEPLOYPATH
 
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp welcome.php $DEPLOYPATH
