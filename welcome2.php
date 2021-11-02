@@ -14,12 +14,13 @@ echo <<<_END
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="svgs/cloud-back.svg">
-<link rel="preload" as="image" href="webp/faq-top.webp">
-<link rel="preload" as="image" href="webp/faq-bottom.webp">
+<!--<link rel="preload" as="image" href="webp/vision-bottom3b.webp">-->
+<link rel="preload" as="image" href="webp/mountain-top2.webp">
+
 
 _END;?>
 
-<?php require_once ("meta/faqs_$lang.php");?>
+<?php require_once ("meta/welcome_$lang.php");?>
 
 <?php require_once ("header.php");?>
 
