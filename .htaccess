@@ -81,10 +81,9 @@ Header set Cache-Control "max-age=536000, public"
 #Alternate default index pages
 DirectoryIndex welcome.php index.php
 
-Redirect faq faqs.php
+RedirectMatch "^/faq\/?$" "/en/faqs.php"
 
-Redirect faqs faqs.php
-
+RedirectMatch "^/faqs\/?$" "/en/faqs.php"
 
 
 
