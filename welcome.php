@@ -1,4 +1,4 @@
-<?php require_once ("lang.php"); 
+<?php require_once ("lang.php");
 echo <<<_END
 
 <!DOCTYPE html>
@@ -19,9 +19,9 @@ echo <<<_END
 
 	_END;?>
 
-<?php require_once ("meta/welcome_$lang.php");?>
-
-<?php require_once ("header.php");?>
+	<?php require_once ("meta/welcome_$lang.php");?>
+	
+	<?php require_once ("header.php");?>
 
 
 <style>
@@ -283,7 +283,7 @@ echo <<<_END
 
 
 
-	<?php require_once ("footer.php");?>
+<?php require_once ("footer.php");?>
 
 
 	<!--FOOTER ENDS HERE-->
