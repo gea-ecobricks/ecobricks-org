@@ -1,7 +1,9 @@
+<?php include 'lang.php';?>
+
 <!DOCTYPE html>
 
 <!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
-<html lang="<?php include 'lang.php';?>">
+<html lang="$lang">
 
 
 <HEAD>
