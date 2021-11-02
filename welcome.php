@@ -1,4 +1,4 @@
-<?php include 'lang.php';?>
+<?php require_once ("lang.php"); echo <<<_END
 
 <!DOCTYPE html>
 
@@ -6,10 +6,6 @@
 <html lang="$lang">
 
 <HEAD>
-
-
-
-
 
 	<link rel="preload" as="image" href="logos/gea-horizontal.svg">
 	<link rel="preload" as="image" href="svgs/cloud-back.svg">
@@ -19,27 +15,12 @@
 
 
 	<!-- Meta tags for page display and search engine listing-->
+	_END;?>
 
+<?php require_once ("meta/welcome_$lang.php");?>
 
-    <title>Ecobricks.org | Plastic Transition</title>
+<?php require_once ("header.php");?>
 
-<meta name="keywords" content="ecobricks, plastic offsets, ecobrick, plastic solved, eco-brick, gobrik, bottle brick, plastic solution, recycling, upcycling, plastic sequestration, plastic transition, petrocapital transition">
-
-<meta name="description" content="Together we can secure plastic out of the biosphere, out of industry and into building the green world for all, that we all long to see.">
-	
-	
-	<!-- Facebook Open Graph Tags for social sharing-->
-
-  <meta property="og:url"           content="https://www.ecobricks.org/en/">
-  <meta property="og:type"          content="website">
- <meta property="og:title"         content="Ecobricks.org | Plastic Transition">
-  <meta property="og:description"   content="Together we can secure plastic out of the biosphere, out of industry and into building the green new world we all long to see."/>
-  <meta property="og:image"         content="https://www.ecobricks.org/pngs/social-banner2.png"/>
-  <meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="638" />
-  <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it."/>
-	
-	<?php include 'header.php';?>
 
 <style>
 #clouds {
@@ -299,7 +280,8 @@
 	<!--FOOTER STARTS HERE-->
 
 
-	<?php include 'footer.php'; ?>
+
+	<?php require_once ("footer.php");?>
 
 
 	<!--FOOTER ENDS HERE-->
