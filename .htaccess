@@ -83,7 +83,9 @@ DirectoryIndex welcome.php index.php
 
 RedirectMatch "^/faq\/?$" "/en/faqs.php"
 
-RedirectMatch "^/faqs\/?$" "/en/faqs.php"
+Redirect /faqs /faqs.php
+
+Redirect /faqs/ /faqs.php
 
 
 
