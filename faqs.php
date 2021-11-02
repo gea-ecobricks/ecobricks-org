@@ -1,10 +1,8 @@
-<?php require_once ("lang.php");
-echo <<<_END
+<?php include '$lang.php';?>
 
 <!DOCTYPE html>
 
 <!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
-
 <html lang="$lang">
 
 
@@ -17,16 +15,38 @@ echo <<<_END
 <link rel="preload" as="image" href="webp/faq-top.webp">
 <link rel="preload" as="image" href="webp/faq-bottom.webp">
 
-_END;
-
 
 <?php include "meta/faqs_$lang.php"?>
 
-<?php include 'header.php';?>
+<!-- Meta tags for page display and search engine listing
 
-echo <<<_END
+<title>Ecobricks.org | FAQs</title>
 
-<!-- CUSTOM PAGE SCRIPTS-->
+<meta name="keywords" content="ecobricks, plastic offsets, ecobrick, plastic solved, eco-brick, gobrik, bottle brick, plastic solution, recycling, upcycling, plastic sequestration, ecobrick questions, faq questions, frequently asked ecobrick questions, recycling, incineration, pollution, plastic pollution">
+
+<meta name="description" content="All the answers about ecobrick concerns and critiques.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon, offsetting and regenerating out of the petro-capital economy.">
+	-->
+
+
+	<!-- Facebook Open Graph Tags for social sharing
+
+	<meta property="og:url"           content="https://www.ecobricks.org/<?php include 'lang.php';?>/<?php echo ($name); ;?>"/>
+	<meta property="og:type"          content="website">
+ 	<meta property="og:title"         content="Ecobricks.org | Frequently Asked Questions">
+  	<meta property="og:description"   content="All the answers about ecobrick concerns and critiques.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon and the petro-capital economy."/>
+  	<meta property="og:image"         content="https://www.ecobricks.org/pngs/question.png"/>
+  	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="1129" />
+  	<meta property="og:image:alt"     content="A floating question mark made with ecobricks"/>
+
+	  -->
+ 
+
+  <?php include 'header.php';?>
+
+
+
+<!--CUSTOM PAGE SCRIPTS-->
 
 <script>
 	function general() {
@@ -1235,4 +1255,3 @@ echo <<<_END
 </div>
 </body>
 </html>
-_END;
