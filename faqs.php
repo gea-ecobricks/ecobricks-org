@@ -17,11 +17,11 @@ echo <<<_END
 <link rel="preload" as="image" href="webp/faq-top.webp">
 <link rel="preload" as="image" href="webp/faq-bottom.webp">
 
-_END;
+_END;?>
 
-<?php require_once ("meta/faqs_$lang.php");
+<?php require_once ("meta/faqs_$lang.php");?>
 
-<?php include 'header.php';?>
+<?php include 'header.php';
 
 echo <<<_END
 
