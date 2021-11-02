@@ -46,8 +46,6 @@ deployment:
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
 
-    - export DEPLOYPATH=/home/ecobricks/public_html/meta/
-    - /bin/cp meta/faqs_en.php $DEPLOYPATH
 
 
     - export DEPLOYPATH=/home/ecobricks/public_html/es/
@@ -94,3 +92,10 @@ deployment:
 
     - export DEPLOYPATH=/home/ecobricks/public_html/meta/
     - /bin/cp meta/faqs_en.php $DEPLOYPATH
+
+
+    - export DEPLOYPATH=/home/ecobricks/public_html/en/meta/
+    - /bin/cp meta/faqs_en.php $DEPLOYPATH
+
+    - export DEPLOYPATH=/home/ecobricks/public_html/es/meta/
+    - /bin/cp meta/faqs_es.php $DEPLOYPATH
