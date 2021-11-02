@@ -141,3 +141,41 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 </div>
 
 	<!--FOOTER ENDS-->
+
+
+
+<!-- ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score-->
+
+<script type="text/javascript" defer>
+
+document.addEventListener("DOMContentLoaded", function(event) {
+	setTimeout(addScript, 7000)
+  });
+  
+  function addScript() {
+  
+	script = document.createElement('script');
+	script.type = 'text/javascript';
+	script.async = true;
+	script.onload = function() {
+	  console.log("Added Script");
+	};
+	script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
+	document.getElementsByTagName('head')[0].appendChild(script);
+  }
+</script>
+
+<!-- UNIVERSAL SITE JAVA SCRIPTS-->
+	
+		
+<!-- Localise translation scripts-->
+
+<script src="https://global.localizecdn.com/localize.js"></script>
+<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+
+<script>
+  Localize.initialize({
+    key: '911e632bfc957',
+    rememberLanguage: true,
+  });
+</script>
