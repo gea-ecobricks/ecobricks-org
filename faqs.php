@@ -21,9 +21,9 @@ _END;?>
 
 <?php require_once ("meta/faqs_$lang.php");?>
 
-<?php include 'header.php';
+<?php require_once ("header.php");?>
 
-echo <<<_END
+echo <<< _END
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
@@ -1226,7 +1226,7 @@ echo <<<_END
 </div>
 
 	<!--FOOTER STARTS HERE-->
-
+	_END;?>
 
 	<?php include 'footer.php'; ?>
 
@@ -1235,4 +1235,4 @@ echo <<<_END
 </div>
 </body>
 </html>
-_END;
+
