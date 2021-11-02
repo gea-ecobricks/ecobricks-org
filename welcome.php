@@ -13,6 +13,8 @@ echo <<<_END
 
 
 	_END;?>
+	
+	<?php require_once ("meta/faqs_$lang.php");?>
 
 	
 	<?php require_once ("header.php");?>

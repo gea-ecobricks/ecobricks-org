@@ -81,7 +81,5 @@ Header set Cache-Control "max-age=536000, public"
 #Alternate default index pages
 DirectoryIndex welcome.php index.php
 
-RedirectMatch "^/faqs\/?$" "/faqs.html"
-RedirectMatch "^/faq\/?$" "www.ecobricks.org/faqs.html"
 
 
