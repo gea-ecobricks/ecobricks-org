@@ -1,8 +1,10 @@
-<?php include '$lang.php';?>
+<?php require_once ("lang.php");
+echo <<<_END
 
 <!DOCTYPE html>
 
 <!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
+
 <html lang="$lang">
 
 
@@ -15,14 +17,16 @@
 <link rel="preload" as="image" href="webp/faq-top.webp">
 <link rel="preload" as="image" href="webp/faq-bottom.webp">
 
+_END;
 
-<?php include "meta/faqs_$lang.php"?>
- 
- <?php include 'header.php';?>
+<?php require_once ("meta/faqs_$lang.php");
+
+<?php include 'header.php';?>
+
+echo <<<_END
 
 
-
-<!--CUSTOM PAGE SCRIPTS-->
+<!-- CUSTOM PAGE SCRIPTS-->
 
 <script>
 	function general() {
@@ -1231,3 +1235,4 @@
 </div>
 </body>
 </html>
+_END;
