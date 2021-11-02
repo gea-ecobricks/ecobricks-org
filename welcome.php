@@ -1,4 +1,5 @@
-<?php require_once ("lang.php"); echo <<<_END
+<?php require_once ("lang.php"); 
+echo <<<_END
 
 <!DOCTYPE html>
 
@@ -15,6 +16,7 @@
 
 
 	<!-- Meta tags for page display and search engine listing-->
+
 	_END;?>
 
 <?php require_once ("meta/welcome_$lang.php");?>
