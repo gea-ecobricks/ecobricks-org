@@ -1,8 +1,10 @@
-<?php include 'lang.php';?>
+<?php require_once ("lang.php");
+echo <<<_END
 
 <!DOCTYPE html>
 
 <!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
+
 <html lang="$lang">
 
 
@@ -30,7 +32,7 @@
 
 	<!-- Facebook Open Graph Tags for social sharing
 
-	<meta property="og:url"           content="https://www.ecobricks.org/<?php include 'lang.php';?>/<?php echo ($name); ;?>"/>
+	<meta property="og:url"           content="https://www.ecobricks.org/$lang/$name"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Ecobricks.org | Frequently Asked Questions">
   	<meta property="og:description"   content="All the answers about ecobrick concerns and critiques.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon and the petro-capital economy."/>
@@ -1255,3 +1257,4 @@
 </div>
 </body>
 </html>
+_END;
