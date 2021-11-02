@@ -29,36 +29,26 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
       <priority>1.00</priority>
    </url>
    <url>
-      <loc>https://www.ecobricks.org/?lang=id</loc>
+      <loc>https://www.ecobricks.org/index.php?lang=de</loc>
       <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.00</priority>
    </url>
-        <loc>https://ecobricks.org/faqs.html</loc>
+   
+      <url>
+      <loc>https://ecobricks.org/en/faqs.php</loc>
       <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.00</priority>
    </url>
       <url>
-      <loc>https://ecobricks.org/en/faqs.html</loc>
+      <loc>https://ecobricks.org/es/faqs.php</loc>
       <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.00</priority>
    </url>
       <url>
-      <loc>https://ecobricks.org/es/faqs.html</loc>
-      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
-      <changefreq>daily</changefreq>
-      <priority>1.00</priority>
-   </url>
-      <url>
-      <loc>https://ecobricks.org/id/faqs.html</loc>
-      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
-      <changefreq>daily</changefreq>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://www.ecobricks.org/?lang=id</loc>
+      <loc>https://ecobricks.org/id/faqs.php</loc>
       <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.00</priority>
