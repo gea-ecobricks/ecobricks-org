@@ -18,7 +18,7 @@ echo <<<_END
 <link rel="preload" as="image" href="webp/faq-bottom.webp">
 
 _END;
-?>
+
 
 <?php include "meta/faqs_$lang.php"?>
 
