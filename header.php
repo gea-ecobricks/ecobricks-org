@@ -6,13 +6,13 @@
 	;?>
 
 	<meta charset="utf-8">
-	<link rel="canonical" href="https://www.ecobricks.org/<?php include 'lang.php';?>/<?php echo ($name); ;?>"> 
+	<link rel="canonical" href="https://www.ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
 	<link rel="alternate" href="https://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="en" />
 	<link rel="alternate" href="https://ecobricks.org/id/<?php echo ($name); ;?>" hreflang="id" /> 
 	<link rel="alternate" href="https://ecobricks.org/es/<?php echo ($name); ;?>" hreflang="es" /> 
-	<link rel="alternate" href="http://ecobricks.org/<?php include 'lang.php';?>/<?php echo ($name); ;?>" hreflang="x-default" />
+	<link rel="alternate" href="http://ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" hreflang="x-default" />
 
 <!-- This calls GEA typography -->
 

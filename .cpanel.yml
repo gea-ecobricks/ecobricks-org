@@ -64,6 +64,7 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
     - /bin/cp -R photos $DEPLOYPATH
+    - /bin/cp -R meta $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
@@ -86,6 +87,7 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R pngs $DEPLOYPATH
     - /bin/cp -R photos $DEPLOYPATH
+    - /bin/cp -R meta $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
