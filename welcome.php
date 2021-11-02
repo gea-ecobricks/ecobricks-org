@@ -1,10 +1,13 @@
-<?php require_once ("lang.php");
-echo <<<_END
-
 
 <!DOCTYPE html>
 
+<html lang="<?php include 'lang.php';?>">
+
 <HEAD>
+
+
+
+
 
 	<link rel="preload" as="image" href="logos/gea-horizontal.svg">
 	<link rel="preload" as="image" href="svgs/cloud-back.svg">
@@ -12,14 +15,6 @@ echo <<<_END
 	<link rel="preload" as="image" href="webp/mountain-top2.webp">
 
 
-	_END;?>
-	
-	<?php require_once ("meta/faqs_$lang.php");?>
-
-	
-	<?php require_once ("header.php");?>
-	
-	
 
 	<!-- Meta tags for page display and search engine listing-->
 
