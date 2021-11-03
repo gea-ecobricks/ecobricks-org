@@ -222,9 +222,7 @@ margin-bottom: -80px;
 		<div id="header-content-block">
 			<div id="raised-text">
 					<h1>Speed & Green Your Data</h1>
-			<h3>Connect Kilobytes of Data Accleration 
-				<br>to Kilogram of Plastic Sequestration<br>
-			with Arc.io & Ecobricks.org</h3>
+			<h3>Arc.io and Ecobricks.org speeding up the internet and keeping plastic out of the biosphere.</h3>
 		<img src="webp/arc-aes.webp">
 	</div>
 		</div>
