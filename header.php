@@ -1,3 +1,7 @@
+<!-- Sets the meta tags-->
+
+
+
 <!-- PHP starts by laying out canonical URLs for the page and language -->
 
 <?php
@@ -13,6 +17,7 @@
 	<link rel="alternate" href="https://ecobricks.org/id/<?php echo ($name); ;?>" hreflang="id" /> 
 	<link rel="alternate" href="https://ecobricks.org/es/<?php echo ($name); ;?>" hreflang="es" /> 
 	<link rel="alternate" href="http://ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" hreflang="x-default" />
+
 
 <!-- This calls GEA typography -->
 

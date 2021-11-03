@@ -19,7 +19,11 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/faqs_$lang.php");?>
+<!-- sets page meta tags:  be sure to add page name-->
+
+<?php require_once ("meta/faqs-$lang.php");?>
+
+<!--page header-->
 
 <?php require_once ("header.php");?>
 

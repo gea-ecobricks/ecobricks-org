@@ -20,9 +20,15 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/welcome_$lang.php");?>
+<!-- sets page meta tags:  be sure to add page name-->
+
+<?php require_once ("meta/welcome-$lang.php");?>
+
+<!--page header-->
 
 <?php require_once ("header.php");?>
+
+<!--custom page CSS-->
 
 <style>
 #clouds {

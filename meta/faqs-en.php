@@ -2,9 +2,9 @@
 
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Ecobricks.org | FAQs</title>
+<title>Plastic & Ecobricks FAQs | Ecobricks.org</title>
 
-<meta name="keywords" content="ecobricks, eco-bricks, ecobrique, ecolladrillos, plastic, plastic management, carbon sequestration, earth ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, ecobrick questions, faq questions, frequently asked ecobrick questions, recycling, incineration, pollution, plastic pollution">
+<meta name="keywords" content="ecobricks, eco-bricks, ecobrique, ecolladrillos, plastic, plastic management, carbon sequestration, earth ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, ecobrick questions, faq questions, frequently asked ecobrick questions, recycling, incineration, pollution, plastic pollution, drop off, FAQs">
 
 <meta name="description" content="Answers to ecobrick concerns, critiques & questions.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon, offsetting and regenerating out of the petro-capital economy.">
 	
@@ -18,3 +18,4 @@
   	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="1129" />
   	<meta property="og:image:alt"     content="A floating question mark made with ecobricks"/>
+	  <meta property="og:locale" content="en_GB" />
