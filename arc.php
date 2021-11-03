@@ -250,6 +250,27 @@ margin-bottom: -80px;
 
 		<div id="block-border" class="greyish">
 			<div id="faq-content-block" class="grey">
+
+			<div id="content-block">  <!--GENERAL QUESTIONS-->
+	<div id="block-border" class="greyish"> <div id="faq-banner" class="grey"><h3>General Questions</h3></div></div>
+
+     <div class="faq">
+         <a name="plastic"></a>
+             <div class="faq-box">
+                    <div class="faq-texts">
+                        <div class="faq-header"><h4>What is plastic?</h4></div>
+                        <p>Plastic.  That convenient, colorful and ever so troublesome material that we all use every day is very easy to take for granted.  Fact is, it's crazily unique and valuable-- you literally can't find anything like it in elsewhere in our solar system.  Plastic is a petroleum by-product.  That means it is made from the carbon of ancient organisms-- algae, forest, dinausaurs that lived and died hundreds of millions of years ago.  As their bodies were buried, the Earth compacted and secured their carbon underground.  It was a process that removed more and more carbon from the atmosphere and greened the biosphere.  Today, we dig up these deposits as 'fossil fuels'.  But, this ancient carbon was never meant to be fuel!  Refining fossil fuels leads to lots of leftover chemicals-- which are perfect for making plastic and dangerous when let loose into the environment.  </p>
+                       
+                    </div>
+                    <div class="faq-image"><img src="webp/compacted-carbon.webp">
+				</div>
+					
+             </div>
+			<div class="faq-link"><h5>Learn more: <a href="plastic">The Long Story of Plastic</h5></a></div>
+			<div id="top-link">Back to <a href="#general">General Questions</a>
+			</div>		
+         </div>
+		 </div>
 				
 				
 				<a name="general"></a>

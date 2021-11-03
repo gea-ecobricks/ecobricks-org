@@ -24,6 +24,7 @@ deployment:
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
+    - /bin/cp arc.php $DEPLOYPATH
     
 
 
