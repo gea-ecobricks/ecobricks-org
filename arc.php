@@ -269,7 +269,7 @@ margin-bottom: -80px;
 			<div id="top-link">Back to <a href="#general">General Questions</a>
 			</div>		
          </div>
-		 </div>
+	
 
 
 		 <div class="faq">
