@@ -1,9 +1,11 @@
- <!--START OF HEADER-->       
+ <!--START OF MENU BAR-->       
 
  <div id="header">
     <!--<a href="index.html"><object type="image/svg+xml" data="logos/gea-prototype-logo-animated.svg" width="250" height="56"></object></a>-->
     <a href="<?php include 'lang.php';?>/welcome.php"><img src="logos/gea-horizontal.svg" alt="Global Ecobrick Alliance Logo" width="308" height="50"></a>
 </div>
+
+<!-- be great to add an if statement here to set $name to blank if its 'welcome' or 'index'-->
 
 <div id="desktop-menu">
     <div class="topnav-lang" id="myTopnav-lang">
@@ -19,6 +21,8 @@
                 <a href='https://www.ecobricks.org/id/'>🇮🇩 IND</a>
                 <a href='https://www.ecobricks.org/es/'>🇪🇸 ESP</a>
                 <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>
+
+                
             -->
                 
                 <a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>

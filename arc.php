@@ -278,7 +278,7 @@ margin-bottom: -80px;
                         <div class="faq-header"><h4>Ecobricks.org | Plastic Offseting</h4></div>
                         <p>Ecobricks.org is an Earth Enterprise focused on securing plastic out of the biosphere and accelerating plastic transition. They provide a platform where ecobrickers around the world can log their hard work sequestering plastic into Ecobricks. This sequestration is authenticated on their manual blockchain through peer review. Authenticated plastic can then be purchased on their offsetting system in kilograms in a way that support Ecobricks.org and renumerates ecobrickers for their hard work.  </p>
                        
-                   <!-- </div>
+                  </div> <!-- 
                     <div class="faq-image"><img src="webp/compacted-carbon.webp">
 				</div>-->
 					
@@ -303,7 +303,7 @@ margin-bottom: -80px;
 
 <p>Currently, the green popper is available only by request and manual configuation. Contact the Ecobricks.org team if you would like to be part of the beta test. </p>
                        
-                   <!-- </div>
+                 </div> <!-- 
                     <div class="faq-image"><img src="webp/compacted-carbon.webp">
 				</div>-->
 					

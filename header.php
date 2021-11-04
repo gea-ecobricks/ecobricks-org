@@ -1,6 +1,3 @@
-<!-- Sets the meta tags-->
-
-
 
 <!-- PHP starts by laying out canonical URLs for the page and language -->
 
@@ -8,6 +5,7 @@
 	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
 	$name = $parts [count($parts)-1];
 	;?>
+	
 
 	<meta charset="utf-8">
 	<link rel="canonical" href="https://www.ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>"> 

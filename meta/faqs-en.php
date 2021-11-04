@@ -14,8 +14,8 @@
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Ecobricks.org | Frequently Asked Questions">
   	<meta property="og:description"   content="All the answers about ecobrick concerns & critiques.  Learn how eco bricks relates to plastic 'waste', recycling, incineration, sequestration, carbon and the petro-capital economy."/>
-  	<meta property="og:image"         content="https://www.ecobricks.org/pngs/question.png"/>
+  	<meta property="og:image"         content="https://www.ecobricks.org/pngs/faq-banner2.png"/>
   	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="1129" />
+	<meta property="og:image:height" content="686" />
   	<meta property="og:image:alt"     content="A floating question mark made with ecobricks"/>
 	  <meta property="og:locale" content="en_GB" />
