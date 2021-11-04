@@ -14,9 +14,9 @@
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="FAQ Plastik & Ecobrick | Ecobrick.org ">
   	<meta property="og:description"   content="Jawaban atas kekhawatiran, kritik & pertanyaan ecobrick. Pelajari bagaimana batu bata ramah lingkungan berhubungan dengan plastik, daur ulang, pembakaran, penyerapan, karbon, penyeimbangan dan regenerasi dari ekonomi petro-modal."/>
-  	<meta property="og:image"         content="https://www.ecobricks.org/pngs/question.png"/>
+  	<meta property="og:image"         content="https://www.ecobricks.org/webp/faq-banner2.webp"/>
   	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="1129" />
+	<meta property="og:image:height" content="686" />
   	<meta property="og:image:alt"     content="Tanda tanya mengambang yang dibuat dengan ecobrick "/>
 
 	  <meta property="og:locale" content="id_ID" />
