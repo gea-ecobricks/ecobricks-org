@@ -14,8 +14,8 @@
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Preguntas Frecuentes Plastic & Ecobricks | Ecobricks.org">
   	<meta property="og:description"   content="Todas las respuestas sobre las preocupaciones y críticas de ecobrick. Aprenda cómo los ecoladrillos se relacionan con el plástico, el reciclaje, la incineración, el secuestro, el carbono y la economía del petrocapital."/>
-  	<meta property="og:image"         content="https://www.ecobricks.org/pngs/question.png"/>
+	  <meta property="og:image"         content="https://www.ecobricks.org/pngs/faq-banner2.png"/>
   	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="1129" />
+	<meta property="og:image:height" content="686" />
   	<meta property="og:image:alt"     content="Un signo de interrogación flotante hecho con ecobricks"/>
 	  <meta property="og:locale" content="es_ES" />
