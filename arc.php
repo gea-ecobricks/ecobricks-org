@@ -255,14 +255,15 @@ margin-bottom: -80px;
          <a name="plastic"></a>
              <div class="faq-box">
                     <div class="faq-texts">
-                        <div class="faq-header"><h4>Arc.io | Content Delievery Network</h4></div>
+                        <div class="faq-header"><h4>Arc.io | Content Delivery Network</h4></div>
                         <p>Arc is a content delivery network that distributes data over a decentralized network of web page visitors. Arc is a two-sided marketplace. On one side of the market, websites buy a fast, low-cost peer-to-peer CDN. On the other side, websites make money by contributing bandwidth to the peer-to-peer CDN. Arc's widget provides access to both sides. Arc turns bandwidth into dollars by uniting browsers into a distributed content delivery network that we rent. Think screaming-fast BitTorrent for every website that's seamless and native to the web. Websites pay Arc to make their sites faster by serving their static content (images, videos, JS, CSS, etc) from Arc's global, distributed network of browsers instead of from slower, more expensive, centralized servers.   </p>
                        
-                   <!-- </div>
+                   </div><!-- 
                     <div class="faq-image"><img src="webp/compacted-carbon.webp">
 				</div>-->
 					
              </div>
+
 			<div class="faq-link"><h5>Learn more: <a href="plastic">Arc's Frequently Asked Questions</h5></a></div>
 			<div class="faq-link"><h5>Get Arc: <a href="plastic">Arc for your website</h5></a></div>
 			<div id="top-link">Back to <a href="#general">General Questions</a>
@@ -316,6 +317,9 @@ margin-bottom: -80px;
          </div>
 		 </div>
 				
+
+
+</div>
 				<a name="general"></a>
 				<h2>Arc.io and Ecobricks.org speeding up the internet and keeping plastic out of the biosphere.</h2>
 				<h3>Arc.io | Content Delievery Network</h3>
