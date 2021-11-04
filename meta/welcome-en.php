@@ -1,9 +1,9 @@
 
     <title>Plastic Transition  | Ecobricks.org</title>
 
-<meta name="keywords" content="ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution">
+<meta name="keywords" content="ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste"> 
 
-<meta name="description" content="Ecobricks prevent plastic from becoming pollution, from being recycled or incinerated.  Eco bricks create the building blocks for the green world for all, that we all long to see.">
+<meta name="description" content="Ecobricks prevent plastic from becoming trash, waste, recycling, incineration or pollution.  Eco bricks create the building blocks for the green world for all, that we all long to see.">
 	
 	
 	<!-- Facebook Open Graph Tags for social sharing-->

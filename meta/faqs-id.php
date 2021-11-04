@@ -2,19 +2,21 @@
 
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Ecobricks.org | FAQs</title>
+<title>FAQ Plastik & Ecobrick | Ecobrick.org </title>
 
-<meta name="keywords" content="ecobricks, eco-bricks, ecobrique, ecolladrillos, plastic, plastic management, carbon sequestration, earth ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, ecobrick questions, faq questions, frequently asked ecobrick questions, recycling, incineration, pollution, plastic pollution">
+<meta name="keywords" content="ecobrick, eco-brick, waste management, mengolah sampah, sampah, sampah plastik, sampah plastik indonesia, isu plastik, plastik, penyerapan karbon, etika bumi, plastik, alternatif daur ulang, daur ulang, insinerasi, recycling, offset plastik, solusi plastik, upcycling, penyerapan plastik, pertanyaan ecobrick, pertanyaan faq, pertanyaan ecobrick yang sering diajukan, daur ulang, pembakaran, polusi, polusi plastik">
 
-<meta name="description" content="Answers to ecobrick concerns, critiques & questions.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon, offsetting and regenerating out of the petro-capital economy.">
+<meta name="description" content="Ecobrick mencegah plastik menjadi sampah, limbah, daur ulang, pembakaran, atau polusi. Batu bata ramah lingkungan menciptakan blok bangunan untuk dunia hijau untuk semua, yang ingin kita semua lihat.">
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://www.ecobricks.org/en/faqs.php"/>
+	<meta property="og:url"           content="https://www.ecobricks.org/id/faqs.php"/>
 	<meta property="og:type"          content="website">
- 	<meta property="og:title"         content="Ecobricks.org | Frequently Asked Questions">
-  	<meta property="og:description"   content="All the answers about ecobrick concerns & critiques.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon and the petro-capital economy."/>
+ 	<meta property="og:title"         content="FAQ Plastik & Ecobrick | Ecobrick.org ">
+  	<meta property="og:description"   content="Jawaban atas kekhawatiran, kritik & pertanyaan ecobrick. Pelajari bagaimana batu bata ramah lingkungan berhubungan dengan plastik, daur ulang, pembakaran, penyerapan, karbon, penyeimbangan dan regenerasi dari ekonomi petro-modal."/>
   	<meta property="og:image"         content="https://www.ecobricks.org/pngs/question.png"/>
   	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="1129" />
-  	<meta property="og:image:alt"     content="A floating question mark made with ecobricks"/>
+  	<meta property="og:image:alt"     content="Tanda tanya mengambang yang dibuat dengan ecobrick "/>
+
+	  <meta property="og:locale" content="id_ID" />

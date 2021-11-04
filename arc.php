@@ -249,27 +249,72 @@ margin-bottom: -80px;
 		<div id="block-border" class="greyish">
 			<div id="faq-content-block" class="grey">
 
-			<div id="content-block">  <!--GENERAL QUESTIONS-->
-	<div id="block-border" class="greyish"> <div id="faq-banner" class="grey"><h3>General Questions</h3></div></div>
+<h3>Speed up your website & Support the removal of plastic from the biosphere</h3>
 
      <div class="faq">
          <a name="plastic"></a>
              <div class="faq-box">
                     <div class="faq-texts">
-                        <div class="faq-header"><h4>What is plastic?</h4></div>
-                        <p>Plastic.  That convenient, colorful and ever so troublesome material that we all use every day is very easy to take for granted.  Fact is, it's crazily unique and valuable-- you literally can't find anything like it in elsewhere in our solar system.  Plastic is a petroleum by-product.  That means it is made from the carbon of ancient organisms-- algae, forest, dinausaurs that lived and died hundreds of millions of years ago.  As their bodies were buried, the Earth compacted and secured their carbon underground.  It was a process that removed more and more carbon from the atmosphere and greened the biosphere.  Today, we dig up these deposits as 'fossil fuels'.  But, this ancient carbon was never meant to be fuel!  Refining fossil fuels leads to lots of leftover chemicals-- which are perfect for making plastic and dangerous when let loose into the environment.  </p>
+                        <div class="faq-header"><h4>Arc.io | Content Delievery Network</h4></div>
+                        <p>Arc is a content delivery network that distributes data over a decentralized network of web page visitors. Arc is a two-sided marketplace. On one side of the market, websites buy a fast, low-cost peer-to-peer CDN. On the other side, websites make money by contributing bandwidth to the peer-to-peer CDN. Arc's widget provides access to both sides. Arc turns bandwidth into dollars by uniting browsers into a distributed content delivery network that we rent. Think screaming-fast BitTorrent for every website that's seamless and native to the web. Websites pay Arc to make their sites faster by serving their static content (images, videos, JS, CSS, etc) from Arc's global, distributed network of browsers instead of from slower, more expensive, centralized servers.   </p>
                        
-                    </div>
+                   <!-- </div>
                     <div class="faq-image"><img src="webp/compacted-carbon.webp">
-				</div>
+				</div>-->
 					
              </div>
-			<div class="faq-link"><h5>Learn more: <a href="plastic">The Long Story of Plastic</h5></a></div>
+			<div class="faq-link"><h5>Learn more: <a href="plastic">Arc's Frequently Asked Questions</h5></a></div>
+			<div class="faq-link"><h5>Get Arc: <a href="plastic">Arc for your website</h5></a></div>
+			<div id="top-link">Back to <a href="#general">General Questions</a>
+			</div>		
+         </div>
+		 </div>
+
+
+		 <div class="faq">
+         <a name="plastic"></a>
+             <div class="faq-box">
+                    <div class="faq-texts">
+                        <div class="faq-header"><h4>Ecobricks.org | Plastic Offseting</h4></div>
+                        <p>Ecobricks.org is an Earth Enterprise focused on securing plastic out of the biosphere and accelerating plastic transition. They provide a platform where ecobrickers around the world can log their hard work sequestering plastic into Ecobricks. This sequestration is authenticated on their manual blockchain through peer review. Authenticated plastic can then be purchased on their offsetting system in kilograms in a way that support Ecobricks.org and renumerates ecobrickers for their hard work.  </p>
+                       
+                   <!-- </div>
+                    <div class="faq-image"><img src="webp/compacted-carbon.webp">
+				</div>-->
+					
+             </div>
+			<div class="faq-link"><h5>Learn more: <a href="plastic">AES Plastic Offsetting</h5></a></div>
+			<div class="faq-link"><h5>Learn more: <a href="plastic">Plastic Sequestration</h5></a></div>
+			<div class="faq-link"><h5>Learn more: <a href="plastic">About Ecobricks</h5></a></div>
 			<div id="top-link">Back to <a href="#general">General Questions</a>
 			</div>		
          </div>
 		 </div>
 				
+
+		 <div class="faq">
+         <a name="plastic"></a>
+             <div class="faq-box">
+                    <div class="faq-texts">
+                        <div class="faq-header"><h4>Green Popper | BETA</h4></div>
+                        <p>Ecobricks.org and Arc are experimenting with a green popper. This unique Arc installation, enables websites and webmasters to speed up their site and contribute to the sequestration of plastic. Revenue from CDN traffic is directed to Ecobricks.org and directly correlated with the value of AES plastic.</p>
+
+<p>By browsing a web page with the Arc + Ecobricks.org widget installed, extra bandwidth is used to help localize digital content for others viewing the same information. Instead of connecting to content on a server on the other side of the planet, the content can be served by the computer nearest you. This saves time and energy and is valuable service that websites pay for. By directing the service payments of the CDN clients through the Ecobricks.org manual blockchain, dollars, kilobytes and kilograms of plastic can directly correlated. Your visit to Arc websites with the green popper results in AES plastic offset credits purchased and the valuzation of the removal of plastic from the biosphere by ecobrickers around the world.</p>
+
+<p>Currently, the green popper is available only by request and manual configuation. Contact the Ecobricks.org team if you would like to be part of the beta test. </p>
+                       
+                   <!-- </div>
+                    <div class="faq-image"><img src="webp/compacted-carbon.webp">
+				</div>-->
+					
+             </div>
+			<div class="faq-link"><h5>Request: <a href="plastic">Access to BETA</h5></a></div>
+			<div class="faq-link"><h5>Get: <a href="plastic">Normal Arc for your site</h5></a></div>
+	
+			<div id="top-link">Back to <a href="#general">General Questions</a>
+			</div>		
+         </div>
+		 </div>
 				
 				<a name="general"></a>
 				<h2>Arc.io and Ecobricks.org speeding up the internet and keeping plastic out of the biosphere.</h2>

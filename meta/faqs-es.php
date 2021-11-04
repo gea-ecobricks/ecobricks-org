@@ -4,7 +4,7 @@
 
 <title>Preguntas Frecuentes Plastic & Ecobricks | Ecobricks.org | FAQs</title>
 
-<meta name="keywords" content="ecobricks, eco-bricks, ecobrique, ecolladrillos, plastic, plastic management, carbon sequestration, earth ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, ecobrick questions, faq questions, frequently asked ecobrick questions, recycling, incineration, pollution, plastic pollution, FAQs, drop off">
+<meta name="keywords" content="ecobrique, eco-ladrillos, ecobrique, ecolladrillos, el plastico, manejo de plastico, residuos plasticos, secuestro de carbono, el plastico, manejo de desechos, reciclaje, basura plastica, el plastico, alternativas de reciclaje, incineracion, compensaciones de plastico, soluciones plasticas, upcycling, plastico secuestro, preguntas sobre ladrillos ecológicos, preguntas frecuentes, preguntas frecuentes sobre ladrillos ecológicos, reciclaje, incineración, contaminación, contaminación plástica, entrega, preguntas frecuentes">
 
 <meta name="description" content="Respuestas a preocupaciones, críticas y preguntas de ecobrick. Aprenda cómo los ladrillos ecológicos se relacionan con el plástico, el reciclaje, la incineración, el secuestro, el carbono, la compensación y la regeneración de la economía del petrocapital.">
 	
