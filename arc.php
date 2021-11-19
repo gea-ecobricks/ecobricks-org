@@ -157,7 +157,7 @@ _END;?>
 #grey-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #ececec;
+	background-color: #f3f3f3;
 	height:100px;
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
@@ -348,13 +348,35 @@ text-align: right;}
 				<h3><span class="intro-quote">Arc.io & Ecobricks.org are developing a way to speed up your website & support the removal of plastic from the biosphere</h3>
 			</div>-->
 
+			<div class="lead-page-paragraph"><p>Arc.io & Ecobricks.org are developing a way to speed up your website & support the removal of plastic from the biosphere.</p></div>
+
+			<div class="faq">
+						<a name="plastic"></a>
+						<div class="faq-box">
+							<div class="faq-texts">
+								<div class="faq-header"><h4>What is Arc?</h4></div>
+								<p>Arc is a content delivery network service that distributes data over a decentralized network of web page visitors. Arc works like a two-sided marketplace. On one side of the market, websites buy a fast, low-cost peer-to-peer CDN. On the other side, websites make money by contributing bandwidth to the peer-to-peer CDN. Arc's widget (the green popper you see in the bottom left corner of the page) provides access to both sides. Arc turns bandwidth into dollars by uniting browsers into a distributed content delivery network that we rent. Think screaming-fast BitTorrent for every website that's seamless and native to the web. Websites pay Arc to make their sites faster by serving their static content (images, videos, JS, CSS, etc) from Arc's global, distributed network of browsers instead of from slower, more expensive, centralized servers.   </p>
+								
+							</div><!-- 
+							<div class="faq-image"><img src="webp/compacted-carbon.webp">
+						</div>-->
+							
+						</div>
+
+					<div class="faq-link"><h5>Learn more: <a href="plastic">Arc's Frequently Asked Questions</h5></a></div>
+					<div class="faq-link"><h5>Get Arc: <a href="plastic">Arc for your website</h5></a></div>
+					<div id="top-link">Back to <a href="#general">General Questions</a>
+					</div>		
+					</div>
+
+
+
 			<div class="faq">
 					<a name="plastic"></a>
 							<div class="faq-box">
 								<div class="faq-texts">
 								
-									<div class="lead-page-paragraph"><p>Arc.io & Ecobricks.org are developing a way to speed up your website & support the removal of plastic from the biosphere by connection Arc's CDN to the GEA's brikcoin blockchain.</p></div>
-
+									
 									<p>By browsing a web page with the Arc + Ecobricks.org widget installed, extra bandwidth is used to help localize digital content for others viewing the same information. Instead of connecting to content on a server on the other side of the planet, the content can be served by the computer nearest you. This saves time and energy and is valuable service that websites pay for. By directing the service payments of the CDN clients through the Ecobricks.org manual blockchain, dollars, kilobytes and kilograms of plastic can directly correlated. Your visit to Arc websites with the green popper results in AES plastic offset credits purchased and the valuzation of the removal of plastic from the biosphere by ecobrickers around the world.</p>
 
 														
@@ -370,26 +392,7 @@ text-align: right;}
 							</div>		
 					</div>
 
-					<div class="faq">
-						<a name="plastic"></a>
-						<div class="faq-box">
-							<div class="faq-texts">
-								<div class="faq-header"><h4>Arc.io | Content Delivery Network</h4></div>
-								<p>Arc is a content delivery network that distributes data over a decentralized network of web page visitors. Arc is a two-sided marketplace. On one side of the market, websites buy a fast, low-cost peer-to-peer CDN. On the other side, websites make money by contributing bandwidth to the peer-to-peer CDN. Arc's widget provides access to both sides. Arc turns bandwidth into dollars by uniting browsers into a distributed content delivery network that we rent. Think screaming-fast BitTorrent for every website that's seamless and native to the web. Websites pay Arc to make their sites faster by serving their static content (images, videos, JS, CSS, etc) from Arc's global, distributed network of browsers instead of from slower, more expensive, centralized servers.   </p>
-								
-							</div><!-- 
-							<div class="faq-image"><img src="webp/compacted-carbon.webp">
-						</div>-->
-							
-						</div>
-
-					<div class="faq-link"><h5>Learn more: <a href="plastic">Arc's Frequently Asked Questions</h5></a></div>
-					<div class="faq-link"><h5>Get Arc: <a href="plastic">Arc for your website</h5></a></div>
-					<div id="top-link">Back to <a href="#general">General Questions</a>
-					</div>		
-					</div>
-
-
+				
 					<div class="faq">
 						<a name="plastic"></a>
 							<div class="faq-box">
