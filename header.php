@@ -6,7 +6,7 @@
 	$name = $parts [count($parts)-1];
 	;?>
 	
-
+ 
 	<meta charset="utf-8">
 	<link rel="canonical" href="https://www.ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -34,7 +34,7 @@
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.6">
+<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.7">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
@@ -102,8 +102,9 @@
 }
 	
 #full-page {
+
 	z-index: 0;
-	text-align: center;
+
 	position: relative;
 	position: bottom;
 	margin-top: 0px;
