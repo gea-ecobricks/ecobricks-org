@@ -1706,6 +1706,7 @@ background-repeat: no-repeat;*/
 
 #content-sect1 {
   width: 100%;
+  text-align: center;
 
   /*
 -webkit-animation: menuFadeIn 1s forwards;
@@ -1774,6 +1775,7 @@ opacity: 1;}*/
   padding-bottom: 30px;
   background: url("webp/blue-ode-1600.webp") center top;
   background-repeat: no-repeat;
+  text-align: center;
 }
 @media screen and (min-width: 770px) and (max-width: 2000px) {
   #content-sect2 {
@@ -1822,6 +1824,7 @@ opacity: 1;}*/
       padding-bottom: 300px;
       margin-top: 150px;
       margin-bottom: 100px;
+      text-align: center;
 
   }
 }
@@ -1860,6 +1863,7 @@ opacity: 1;}*/
 
 #content-sect4 {
   width: 100%;
+  text-align: center;
 
 }
 @media screen and (min-width: 770px) and (max-width: 2000px) {
