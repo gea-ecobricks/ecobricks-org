@@ -347,7 +347,7 @@ text-align: right;}
 
 			<div class="lead-page-paragraph">
 				
-			<p>Arc.io & Ecobricks are developing a way to speed up your website & support securing of plastic out of the biosphere.</p>
+			<p>Arc.io & Ecobricks.org are developing a way to speed up your website & support securing of plastic out of the biosphere.</p>
 		
 			</div>
 
@@ -416,7 +416,8 @@ text-align: right;}
 				<div class="faq-link"><h5>Get: <a href="plastic">Normal Arc for your site</h5></a></div>		
 			</div>
 		
-		
+					</DIV>
+					</DIV>
 		
 
 		<div class="side">
