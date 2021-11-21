@@ -344,11 +344,12 @@ text-align: right;}
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
-			<!--<div id="quote">
-				<h3><span class="intro-quote">Arc.io & Ecobricks.org are developing a way to speed up your website & support the removal of plastic from the biosphere</h3>
-			</div>-->
 
-			<div class="lead-page-paragraph"><p>Arc.io & Ecobricks.org are developing a way to speed up your website & support securing of plastic out of the biosphere.</p></div>
+			<div class="lead-page-paragraph">
+				
+			<p>Arc.io & Ecobricks are developing a way to speed up your website & support securing of plastic out of the biosphere.</p>
+		
+			</div>
 
 			<div class="faq">
 				<a name="plastic"></a>
@@ -415,7 +416,7 @@ text-align: right;}
 				<div class="faq-link"><h5>Get: <a href="plastic">Normal Arc for your site</h5></a></div>		
 			</div>
 		
-		</DIV>
+		
 		
 
 		<div class="side">
