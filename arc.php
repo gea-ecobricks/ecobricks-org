@@ -367,7 +367,6 @@ text-align: right;}
 
 				
 			<div class="faq">
-				<a name="plastic"></a>
 				<div class="faq-box">
 					<div class="faq-texts">
 						<div class="faq-header"><h4>What does Ecobricks.org do?</h4></div>
@@ -385,7 +384,6 @@ text-align: right;}
 
 
 			<div class="faq">
-				<a name="plastic"></a>
 				<div class="faq-box">
 					<div class="faq-texts">
 					<div class="faq-header"><h4>So how does it work?</h4></div>
@@ -403,21 +401,22 @@ text-align: right;}
 
 
 			<div class="faq">
-			<a name="plastic"></a>
-					<div class="faq-box">
-						<div class="faq-texts">
-							<div class="faq-header"><h4>Help us beta test the Green Popper</h4></div>
+				<div class="faq-box">
+					<div class="faq-texts">
+						<div class="faq-header"><h4>Help us beta test the Green Popper</h4></div>
 
-							<p>The green popper is now in beta testing!  We're looking for webmasters with high traffic websites, who have they authorization and technical capabilities to manually add a javascipt embed to their site.</p>
+						<p>The green popper is now in beta testing!  We're looking for webmasters with high traffic websites, who have they authorization and technical capabilities to manually add a javascipt embed to their site.</p>
 
-							<p>Contact: devteam (at) ecocobricks.org</p>
-						</div>
+						<p>Contact: devteam (at) ecocobricks.org</p>
 					</div>
+				</div>
 
-					<div class="faq-link"><h5>Request: <a href="plastic">Access to BETA</h5></a></div>
-					<div class="faq-link"><h5>Get: <a href="plastic">Normal Arc for your site</h5></a></div>		
+				<div class="faq-link"><h5>Request: <a href="plastic">Access to BETA</h5></a></div>
+				<div class="faq-link"><h5>Get: <a href="plastic">Normal Arc for your site</h5></a></div>		
 			</div>
-		</div>
+		
+		</DIV>
+		
 
 		<div class="side">
 
