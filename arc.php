@@ -55,7 +55,7 @@ _END;?>
 		background: url(webp/arc-purple.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
-		background-color: #F3F3F3;
+		background-color: #ECECEC;
 		margin-top: 50px;
 
 	}
@@ -157,8 +157,8 @@ _END;?>
 #grey-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #F3F3F3;
-	height:100px;
+	background-color: #ECECEC;
+	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
 	z-index: 1;
@@ -357,7 +357,7 @@ text-align: right;}
 					<div class="faq-texts">
 						<div class="faq-header"><h4>What is Arc?</h4></div>
 
-						<p>Arc is a website content delivery network service (CDN).  Their service can be installed by webmasters onto any site.  We've got it running on our site right now! Rather than loading sites from centralized servers that are often far away (ours is in Singapore) instead Arc can use the internet to share the data from our site that someone else in your city has downloaded just before you!  It saves time, server work, redunancy and energy.  It is also a service that sites like ours pay for so that our page loads fast for you.</p>
+						<p>Arc is a website content delivery network service (CDN).  Their service can be installed by webmasters onto any site.  We've got it running on our site right now! Rather than loading sites from centralized servers that are often far away (ours is in Singapore) instead Arc can use the internet to share the data from our site that someone else in your city has downloaded just before you!  It saves time, server work and energy.</p>
 
 						<p>It's like a screaming-fast BitTorrent for websites in which everyone wins.</p>						
 					</div>
@@ -374,7 +374,7 @@ text-align: right;}
 
 						<p>Ecobricks.org is us-- the Gobal Ecobrik Alliance.  We're an <a href="/about">Earth Enterprise</a> focused on securing plastic out of the biosphere and accelerating plastic transition. Among <a href="/about">many other things</a>, we maintain the <a href="https://gobrik.com" target="_blank">GoBrik</a> platform where ecobrickers around the world can log their hard work sequestering plastic into Ecobricks. </p>
 
-						<p>Each ecobrick is peer reviewed to determine whether its plastic has been properly sequestered. Each authenticated ecobricked gram of plastic is recorded on our <a href="/brikcoins">manual blockchain</a>.  Authenticated plastic can then be purchased on their offsetting system in kilograms in a way that supports Ecobricks.org and renumerates ecobrickers for their hard work.</p>
+						<p>Each ecobrick is peer reviewed to determine whether its plastic meets the stringent requirements of plastic sequestration. Each authenticated gram of sequestered plastic is then recorded on our <a href="/brikcoins">manual blockchain</a>.  To support ecobrikers around the world doing the hard work of sequestration and the platform, Authenticated plastic offset credits can then be purchased through the GEA.</p>
 					</div> 	
 				</div>
 				<div class="faq-link"><h5>Learn more: <a href="plastic">AES Plastic Offsetting</h5></a></div>
@@ -389,13 +389,15 @@ text-align: right;}
 					<div class="faq-texts">
 					<div class="faq-header"><h4>So how does it work?</h4></div>
 						
-					<p>Arc pays websites hosting the widget on their sites.  Arc works like a two-sided marketplace. On one side of the market, websites buy a fast, low-cost peer-to-peer CDN. On the other side, websites make money by contributing bandwidth to the peer-to-peer CDN. Arc's widget (the floating circle you see in the bottom left corner of our site) provides access to both sides.</p> 
+					<p>Arc works like a two-sided marketplace. On one side of the market, websites buy a fast, low-cost peer-to-peer CDN. On the other side, arc pays websites running Arc on their sites and which enable the network.  Arc's widget (the floating circle you see in the bottom left corner of our site) provides access to both sides.</p> 
 
 					<p>Websites share the revenue for the kilobytes of accelerated data that has been paid to Arc by CDN clients.  This opportunity is available for any website now-- <a href="https://arc.io/?ref=ecobricks.org#signUp" target="_blank">it only takes a few lines of code to get their purple widget going.</a></p>
-							
-					<p>To make things even more awesome, Arc & Ecobricks.org have developed a version of their widget in which websites opt to direct their revnue generation directly to plastic offsetting.  By connecting this revenue to the purchase of AES plastic on the Brikcoin blockchain, we can track the amount of plastic sequestered by your website down to the gram.  AES offset certification, with a record in the blockchain, can then be issued annually to participant websites.  Soon this will also include CO2 offset credit.</p>
+					
+					<div class="faq-header"><h4>Going Green</h4></div>
 
-					<p>It's a no cost way that you can speed up your website and contribute to the global plastic tansition movement</p>
+					<p>To make things even more awesome, Arc & Ecobricks.org have developed a version of their widget in which websites opt to direct their revnue generation directly to plastic offsetting.  By connecting this revenue to the purchase of AES plastic on the Brikcoin blockchain, we can track the amount of plastic sequestered by your website down to the gram.  AES offset certification (with a record in the blockchain) is then be issued annually to participating websites.  Soon this will also include CO2 offset credits.</p>
+
+					<p>It's a no cost way that you can speed up your website and contribute to the global plastic tansition movement.</p>
 					
 				</div>
 			</div>
