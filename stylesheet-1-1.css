@@ -1706,7 +1706,7 @@ background-repeat: no-repeat;*/
 
 #content-sect1 {
   width: 100%;
-  text-align: center;
+  text-align: center !important;
 
   /*
 -webkit-animation: menuFadeIn 1s forwards;

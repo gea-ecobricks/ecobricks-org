@@ -375,14 +375,14 @@ text-align: right;}
 							<div class="faq-texts">
 								<div class="faq-header"><h4>What does Ecobricks.org do?</h4></div>
 								<p>Ecobricks.org is us-- the Gobal Ecobrik Alliance.  We're an <a href="/about">Earth Enterprise</a> focused on securing plastic out of the biosphere and accelerating plastic transition. Among <a href="/about">many other things</a>, we maintain the <a href="https://gobrik.com" target="_blank">GoBrik</a> platform where ecobrickers around the world can log their hard work sequestering plastic into Ecobricks. </p>
-								<p>Each ecobrick is peer reviewed to determine whether its plastic has been properly sequestered. Each authenticated ecobricked gram of plastic is recorded on our manual blockchain.  Authenticated plastic can then be purchased on their offsetting system in kilograms in a way that supports Ecobricks.org and renumerates ecobrickers for their hard work.</p>
+								<p>Each ecobrick is peer reviewed to determine whether its plastic has been properly sequestered. Each authenticated ecobricked gram of plastic is recorded on our <a href="/brikcoins">manual blockchain</a>.  Authenticated plastic can then be purchased on their offsetting system in kilograms in a way that supports Ecobricks.org and renumerates ecobrickers for their hard work.</p>
 							
 							</div> 	
 					</div>
 					<div class="faq-link"><h5>Learn more: <a href="plastic">AES Plastic Offsetting</h5></a></div>
 					<div class="faq-link"><h5>Learn more: <a href="plastic">Plastic Sequestration</h5></a></div>
 					<div class="faq-link"><h5>Learn more: <a href="plastic">About Ecobricks</h5></a></div>
-					<div id="top-link">Back to <a href="#general">General Questions</a>
+					
 					</div>		
 			</div>
 
@@ -431,7 +431,7 @@ text-align: right;}
 							<div class="faq-link"><h5>Request: <a href="plastic">Access to BETA</h5></a></div>
 							<div class="faq-link"><h5>Get: <a href="plastic">Normal Arc for your site</h5></a></div>
 				
-							<div id="top-link">Back to <a href="#general">General Questions</a>
+							
 							</div>		
 					</div>
 				</div>
