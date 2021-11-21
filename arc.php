@@ -414,8 +414,6 @@ text-align: right;}
 
 							<p>The green popper is now in beta testing!  We're looking for webmasters with high traffic websites, who have they authorization and technical capabilities to manually add a javascipt embed to their site.</p>
 							<p>Contact: devteam (at) ecocobricks.org</p>
-												
-						</div> 
 						
 					</div>
 					<div class="faq-link"><h5>Request: <a href="plastic">Access to BETA</h5></a></div>
