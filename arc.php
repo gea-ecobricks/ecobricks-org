@@ -401,7 +401,7 @@ text-align: right;}
 					<p>To make things even more awesome, Arc & Ecobricks.org have developed a version of their widget in which websites opt to direct their revnue generation directly to plastic offsetting.  By connecting this revenue to the purchase of AES plastic on the Brikcoin blockchain, we can track the amount of plastic sequestered by your website down to the gram.  AES offset certification, with a record in the blockchain, can then be issued annually to participant websites.  Soon this will also include CO2 offset credit.</p>
 
 					<p>It's a no cost way that you can speed up your website and contribute to the global plastic tansition movement</p>
-					</div> 
+					
 				</div>
 			</div>
 
