@@ -55,7 +55,7 @@ _END;?>
 		background: url(webp/arc-purple.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
-		background-color: #ececec;
+		background-color: #F3F3F3;
 		margin-top: 50px;
 
 	}
@@ -72,7 +72,7 @@ _END;?>
 		background: url(webp/arc-purple.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
-		background-color: #ececec;
+		background-color: #F3F3F3;
 		margin: 0 0 -20px 0;
 
 }
@@ -157,7 +157,7 @@ _END;?>
 #grey-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #ECECEC;
+	background-color: #F3F3F3;
 	height:100px;
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
