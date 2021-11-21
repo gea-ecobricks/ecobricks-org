@@ -351,18 +351,18 @@ text-align: right;}
 			<div class="lead-page-paragraph"><p>Arc.io & Ecobricks.org are developing a way to speed up your website & support securing of plastic out of the biosphere.</p></div>
 
 			<div class="faq">
-						<a name="plastic"></a>
-						<div class="faq-box">
-							<div class="faq-texts">
-								<div class="faq-header"><h4>What is Arc?</h4></div>
-								<p>Arc is a website content delivery network service (CDN).  Their service can be installed by webmasters onto any site.  We've got it running on our site right now! Rather than loading sites from centralized servers that are often far away (ours is in Singapore) instead Arc can use the internet to share the data from our site that someone else in your city has downloaded just before you!  It saves time, server work, redunancy and energy.  It is also a service that sites like ours pay for so that our page loads fast for you.</p>
+				<a name="plastic"></a>
+				<div class="faq-box">
+					<div class="faq-texts">
+						<div class="faq-header"><h4>What is Arc?</h4></div>
+						<p>Arc is a website content delivery network service (CDN).  Their service can be installed by webmasters onto any site.  We've got it running on our site right now! Rather than loading sites from centralized servers that are often far away (ours is in Singapore) instead Arc can use the internet to share the data from our site that someone else in your city has downloaded just before you!  It saves time, server work, redunancy and energy.  It is also a service that sites like ours pay for so that our page loads fast for you.</p>
 
-								<p>It's like a screaming-fast BitTorrent for websites in which everyone wins.</p>
-													
-							</div>
-							
-							
-						</div>
+						<p>It's like a screaming-fast BitTorrent for websites in which everyone wins.</p>						
+					</div>
+					
+					
+				</div>
+			
 
 					<div class="faq-link"><h5>Learn more: <a href="plastic">Arc's Frequently Asked Questions</h5></a></div>	
 			</div>
@@ -371,98 +371,82 @@ text-align: right;}
 				
 			<div class="faq">
 				<a name="plastic"></a>
-					<div class="faq-box">
-							<div class="faq-texts">
-								<div class="faq-header"><h4>What does Ecobricks.org do?</h4></div>
-								<p>Ecobricks.org is us-- the Gobal Ecobrik Alliance.  We're an <a href="/about">Earth Enterprise</a> focused on securing plastic out of the biosphere and accelerating plastic transition. Among <a href="/about">many other things</a>, we maintain the <a href="https://gobrik.com" target="_blank">GoBrik</a> platform where ecobrickers around the world can log their hard work sequestering plastic into Ecobricks. </p>
-								<p>Each ecobrick is peer reviewed to determine whether its plastic has been properly sequestered. Each authenticated ecobricked gram of plastic is recorded on our <a href="/brikcoins">manual blockchain</a>.  Authenticated plastic can then be purchased on their offsetting system in kilograms in a way that supports Ecobricks.org and renumerates ecobrickers for their hard work.</p>
-							
-							</div> 	
-					</div>
-					<div class="faq-link"><h5>Learn more: <a href="plastic">AES Plastic Offsetting</h5></a></div>
-					<div class="faq-link"><h5>Learn more: <a href="plastic">Plastic Sequestration</h5></a></div>
-					<div class="faq-link"><h5>Learn more: <a href="plastic">About Ecobricks</h5></a></div>
+				<div class="faq-box">
+					<div class="faq-texts">
+						<div class="faq-header"><h4>What does Ecobricks.org do?</h4></div>
+						<p>Ecobricks.org is us-- the Gobal Ecobrik Alliance.  We're an <a href="/about">Earth Enterprise</a> focused on securing plastic out of the biosphere and accelerating plastic transition. Among <a href="/about">many other things</a>, we maintain the <a href="https://gobrik.com" target="_blank">GoBrik</a> platform where ecobrickers around the world can log their hard work sequestering plastic into Ecobricks. </p>
+						<p>Each ecobrick is peer reviewed to determine whether its plastic has been properly sequestered. Each authenticated ecobricked gram of plastic is recorded on our <a href="/brikcoins">manual blockchain</a>.  Authenticated plastic can then be purchased on their offsetting system in kilograms in a way that supports Ecobricks.org and renumerates ecobrickers for their hard work.</p>
 					
-					</div>		
+					</div> 	
+				</div>
+				<div class="faq-link"><h5>Learn more: <a href="plastic">AES Plastic Offsetting</h5></a></div>
+				<div class="faq-link"><h5>Learn more: <a href="plastic">Plastic Sequestration</h5></a></div>
+				<div class="faq-link"><h5>Learn more: <a href="plastic">About Ecobricks</h5></a></div>
+					
+				</div>		
 			</div>
 
 
 
 			<div class="faq">
-					<a name="plastic"></a>
-							<div class="faq-box">
-								<div class="faq-texts">
-								<div class="faq-header"><h4>So how does it work?</h4></div>
-									
-								<p>Arc pays websites hosting the widget on their sites.  Arc works like a two-sided marketplace. On one side of the market, websites buy a fast, low-cost peer-to-peer CDN. On the other side, websites make money by contributing bandwidth to the peer-to-peer CDN. Arc's widget (the floating circle you see in the bottom left corner of our site) provides access to both sides.</p> 
+				<a name="plastic"></a>
+				<div class="faq-box">
+					<div class="faq-texts">
+					<div class="faq-header"><h4>So how does it work?</h4></div>
+						
+					<p>Arc pays websites hosting the widget on their sites.  Arc works like a two-sided marketplace. On one side of the market, websites buy a fast, low-cost peer-to-peer CDN. On the other side, websites make money by contributing bandwidth to the peer-to-peer CDN. Arc's widget (the floating circle you see in the bottom left corner of our site) provides access to both sides.</p> 
 
-								<p>Websites share the revenue for the kilobytes of accelerated data that has been paid to Arc by CDN clients.  This opportunity is available for any website now-- <a href="https://arc.io/?ref=ecobricks.org#signUp" target="_blank">it only takes a few lines of code to get their purple widget going.</a></p>
-										
-								<p>To make things even more awesome, Arc & Ecobricks.org have developed a version of their widget in which websites opt to direct their revnue generation directly to plastic offsetting.  By connecting this revenue to the purchase of AES plastic on the Brikcoin blockchain, we can track the amount of plastic sequestered by your website down to the gram.  AES offset certification, with a record in the blockchain, can then be issued annually to participant websites.  Soon this will also include CO2 offset credit.</p>
-
-								<p>It's a no cost way that you can speed up your website and contribute to the global plastic tansition movement</p>
-								</div> 
-							</div>
-
-										
-				
-										<!--
-							, CDN traffic revenue generations can use their site's traffic to support AES  By browsing a web page with the Arc widget installed, extra bandwidth is used to help localize digital content for others viewing the same information. Instead of connecting to content on a server on the other side of the planet, the content can be served by the computer nearest you. This saves time and energy and is valuable service that websites pay for.</p>
-							<p>
-							By directing the service payments of the CDN clients through the Ecobricks.org manual blockchain, dollars, kilobytes and kilograms of plastic can directly correlated. Your visit to Arc websites with the green popper results in AES plastic offset credits purchased and the valuzation of the removal of plastic from the biosphere by ecobrickers around the world.</p>-->
-
-														
-					
-					</div>
-
-
-					<div class="faq">
-					<a name="plastic"></a>
-							<div class="faq-box">
-								<div class="faq-texts">
-									<div class="faq-header"><h4>Help us beta test the Green Popper</h4></div>
-
-									<p>The green popper is now in beta testing!  We're looking for webmasters with high traffic websites, who have they authorization and technical capabilities to manually add a javascipt embed to their site.</p>
-									<p>Contact: devteam (at) ecocobricks.org</p>
-														
-							</div> 
-								
-							</div>
-							<div class="faq-link"><h5>Request: <a href="plastic">Access to BETA</h5></a></div>
-							<div class="faq-link"><h5>Get: <a href="plastic">Normal Arc for your site</h5></a></div>
-				
+					<p>Websites share the revenue for the kilobytes of accelerated data that has been paid to Arc by CDN clients.  This opportunity is available for any website now-- <a href="https://arc.io/?ref=ecobricks.org#signUp" target="_blank">it only takes a few lines of code to get their purple widget going.</a></p>
 							
-							</div>		
+					<p>To make things even more awesome, Arc & Ecobricks.org have developed a version of their widget in which websites opt to direct their revnue generation directly to plastic offsetting.  By connecting this revenue to the purchase of AES plastic on the Brikcoin blockchain, we can track the amount of plastic sequestered by your website down to the gram.  AES offset certification, with a record in the blockchain, can then be issued annually to participant websites.  Soon this will also include CO2 offset credit.</p>
+
+					<p>It's a no cost way that you can speed up your website and contribute to the global plastic tansition movement</p>
+					</div> 
+				</div>
+			</div>
+
+
+			<div class="faq">
+			<a name="plastic"></a>
+					<div class="faq-box">
+						<div class="faq-texts">
+							<div class="faq-header"><h4>Help us beta test the Green Popper</h4></div>
+
+							<p>The green popper is now in beta testing!  We're looking for webmasters with high traffic websites, who have they authorization and technical capabilities to manually add a javascipt embed to their site.</p>
+							<p>Contact: devteam (at) ecocobricks.org</p>
+												
+						</div> 
+						
 					</div>
+					<div class="faq-link"><h5>Request: <a href="plastic">Access to BETA</h5></a></div>
+					<div class="faq-link"><h5>Get: <a href="plastic">Normal Arc for your site</h5></a></div>	
+			</div>
+		</div>
+
+		<div class="side">
+
+			<div id="side-module-desktop-mobile">
+				<img src="webp/arc-green-popper.webp" width="70%">
+				<h4>Arc.io</h4>
+				<h5>Arc has pioneered a decentralized content delivery network to provide an alternative to online advertisements.</h5>
 				</div>
 
-	<div class="side">
+			<div id="side-module-desktop-only">
+			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
+			<h4>Plastic Sequestration</h4>
+			<h5>Ecobricking is based on the concept of following the Earth's example in concentrating and securing our plastic indefinitely"</h5>
+			</div>
 
-	<div id="side-module-desktop-mobile">
-		<img src="webp/arc-green-popper.webp" width="70%">
-		<h4>Arc.io</h4>
-		<h5>Arc has pioneered a decentralized content delivery network to provide an alternative to online advertisements.</h5>
+	
+			<div id="side-module-desktop-mobile">
+			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/GEA-Logo-v2.3-with-perspective-1000px-300x300.png" width="80%">
+			<h4>Global Ecobrick Alliance</h4>
+			<h5>The GEA is an Earth Enterprise dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5>
+			</div>
+
 		</div>
-
-
-		<div id="side-module-desktop-only">
-		<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
-		<h4>Plastic Sequestration</h4>
-		<h5>Ecobricking is based on the concept of following the Earth's example in concentrating and securing our plastic indefinitely"</h5>
-		</div>
-
-		
-
-		<div id="side-module-desktop-mobile">
-		<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/GEA-Logo-v2.3-with-perspective-1000px-300x300.png" width="80%">
-		<h4>Global Ecobrick Alliance</h4>
-		<h5>The GEA is an Earth Enterprise dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5>
-		</div>
-
 
 	</div>
-
-</div>
 </div>
 
 
