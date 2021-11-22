@@ -157,7 +157,7 @@ _END;?>
 #grey-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #ECECEC;
+	background-color: #F3F3F3;
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
@@ -377,9 +377,9 @@ text-align: right;}
 						<p>Each ecobrick is peer reviewed to determine whether its plastic meets the stringent requirements of plastic sequestration. Each authenticated gram of sequestered plastic is then recorded on our <a href="/brikcoins">manual blockchain</a>.  To support ecobrikers around the world doing the hard work of sequestration and the platform, Authenticated plastic offset credits can then be purchased through the GEA.</p>
 					</div> 	
 				</div>
-				<div class="faq-link"><h5>Learn more: <a href="plastic">AES Plastic Offsetting</h5></a></div>
-				<div class="faq-link"><h5>Learn more: <a href="plastic">Plastic Sequestration</h5></a></div>
-				<div class="faq-link"><h5>Learn more: <a href="plastic">About Ecobricks</h5></a></div>		
+				<div class="faq-link"><h5>Learn more: <a href="aes">AES Plastic Offsetting</h5></a></div>
+				<div class="faq-link"><h5>Learn more: <a href="sequest">Plastic Sequestration</h5></a></div>
+				<div class="faq-link"><h5>Learn more: <a href="what">About Ecobricks</h5></a></div>		
 			</div>
 
 
@@ -391,7 +391,7 @@ text-align: right;}
 						
 					<p>Arc works like a two-sided marketplace. On one side of the market, websites buy a fast, low-cost peer-to-peer CDN. On the other side, arc pays websites running Arc on their sites and which enable the network.  Arc's widget (the floating circle you see in the bottom left corner of our site) provides access to both sides.</p> 
 
-					<p>Websites share the revenue for the kilobytes of accelerated data that has been paid to Arc by CDN clients.  This opportunity is available for any website now-- <a href="https://arc.io/?ref=ecobricks.org#signUp" target="_blank">it only takes a few lines of code to get their purple widget going.</a></p>
+					<p>Websites share the revenue for the kilobytes of accelerated data that has been paid to Arc by CDN clients.  This opportunity is available for any website now-- <a href="https://arc.io/?ref=ecobricks.org#signUp" target="_blank">it only takes a few lines of code to get their purple widget going.</a></p><br><br>
 					
 					<div class="faq-header"><h4>Going Green</h4></div>
 
@@ -410,12 +410,12 @@ text-align: right;}
 
 						<p>The green popper is now in beta testing!  We're looking for webmasters with high traffic websites, who have they authorization and technical capabilities to manually add a javascipt embed to their site.</p>
 
-						<p>Contact: devteam (at) ecocobricks.org</p>
+						<p>Contact: devteam (at) ecocobricks.org / Let us know your site URL, monthly traffic estimate and intention.</p>
 					</div>
 				</div>
 
-				<div class="faq-link"><h5>Request: <a href="plastic">Access to BETA</h5></a></div>
-				<div class="faq-link"><h5>Get: <a href="plastic">Normal Arc for your site</h5></a></div>		
+				<div class="faq-link"><h5>Request: <a mailto="devteam@ecobricks.org">Access to BETA</h5></a></div>
+				<div class="faq-link"><h5>Get: <a href="https://arc.io/?ref=ecobricks.org#signUp">Normal Arc for your site</h5></a></div>		
 			</div>
 		
 					</DIV>
