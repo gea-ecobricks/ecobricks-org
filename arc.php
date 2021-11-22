@@ -246,7 +246,7 @@ _END;?>
 	padding: 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: #ffffff30;
+	background-color: #DCDCDC;
 	text-align: center;
 	border-color: white;
 }
@@ -258,7 +258,7 @@ _END;?>
 	padding: 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: #ffffff30;
+	background-color: #DCDCDC;
 	text-align: center;
 	border-color: white;
   
