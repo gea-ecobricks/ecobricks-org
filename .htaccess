@@ -87,5 +87,7 @@ Redirect /faqs /faqs.php
 
 Redirect /faqs/ /faqs.php
 
+Redirect /arc /arc.php
+
 
 
