@@ -292,14 +292,14 @@ text-align: right;}
 	.lead-page-paragraph {
       font-size: 1.25em;
       line-height: 1.4;
-      margin: 30px 0px 15px 0px;
+      margin: 37px 0px 15px 0px;
   }
 }
 @media screen and (min-width: 769px) {
 	.lead-page-paragraph {
       font-size: 1.4em;
       line-height: 1.5;
-      margin: 15px 0px 5px 0px;
+      margin: 25px 0px 5px 0px;
   }
 }
 
@@ -425,9 +425,10 @@ text-align: right;}
 				<img src="webp/arc-green-popper.webp" width="70%">
 				<h4>Arc.io</h4>
 				<h5>Arc has pioneered a decentralized content delivery network to provide an alternative to online advertisements.</h5>
-				</div>
 				<h5><a href="https://arc.io/faq" target="_blank">Arc FAQ</a></h5>
 
+				</div>
+				
 			<div id="side-module-desktop-only">
 			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
 			<h4>Plastic Sequestration</h4>
