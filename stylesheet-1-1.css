@@ -149,14 +149,14 @@ h4 {
 }
 @media screen and (min-width: 770px) {
   h4 {
-      font-size: 1.3em;
+      font-size: 1.4em;
       line-height: 1.3;
       margin: 15px 0 0;
   }
 }
 @media screen and (max-width: 769px) {
   h4 {
-      font-size: 1.3em;
+      font-size: 1.1em;
       line-height: 1.3;
       margin: 16px 0 1px;
   }
@@ -190,7 +190,7 @@ h5 a:hover {
 }
 @media screen and (max-width: 769px) {
   h5 {
-      font-size: 1.4em;
+      font-size: 1.1em;
       line-height: 1.4;
       margin: 12px 0 5px;
   }

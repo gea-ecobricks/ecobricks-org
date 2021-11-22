@@ -102,6 +102,7 @@ _END;?>
   color: green;
   font-weight: 300;
   text-shadow: 0 0 10px #fff;
+  line-height: 1.2;
 }
 
 @media screen and (max-width: 700px) {
@@ -286,23 +287,19 @@ mark{
 #quote {padding: 30px 15px 15px 5px;
 text-align: right;}
 
-.lead-page-paragraph {
-	font-size: 
-
-}
 
 @media screen and (max-width: 769px) {
 	.lead-page-paragraph {
       font-size: 1.25em;
       line-height: 1.4;
-      margin: 10px 0 25px 0;
+      margin: 20px 0px 25px 0px;
   }
 }
 @media screen and (min-width: 769px) {
 	.lead-page-paragraph {
       font-size: 1.4em;
       line-height: 1.5;
-      margin: 12px 0 5px;
+      margin: 15px 0px 5px 0px;
   }
 }
 
@@ -434,6 +431,7 @@ text-align: right;}
 			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
 			<h4>Plastic Sequestration</h4>
 			<h5>Ecobricking is based on the concept of following the Earth's example in concentrating and securing our plastic indefinitely"</h5>
+			<h4><a href="sequest">Plastic Sequestration</a></h4>
 			</div>
 
 	
