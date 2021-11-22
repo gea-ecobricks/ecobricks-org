@@ -72,7 +72,7 @@ _END;?>
 		background: url(webp/arc-purple.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
-		background-color: #F3F3F3;
+		background-color: #ECECEC;
 		margin: 0 0 -20px 0;
 
 }
@@ -102,13 +102,13 @@ _END;?>
   color: green;
   font-weight: 300;
   text-shadow: 0 0 10px #fff;
-  line-height: 1.2;
+
 }
 
 @media screen and (max-width: 700px) {
 	.header-heading {
-      font-size: 3.7em;
-      line-height: 1.3;
+      font-size: 3.6em;
+      line-height: 1.1;
       margin: 10px 0;
   }
 }
@@ -158,7 +158,7 @@ _END;?>
 #grey-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #F3F3F3;
+	background-color: #ECECEC;
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
@@ -247,7 +247,7 @@ _END;?>
 	padding: 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: #DCDCDC;
+	background-color: #ECECEC;
 	text-align: center;
 	border-color: white;
 }
@@ -259,7 +259,7 @@ _END;?>
 	padding: 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: #DCDCDC;
+	background-color: #ECECEC;
 	text-align: center;
 	border-color: white;
   
@@ -292,7 +292,7 @@ text-align: right;}
 	.lead-page-paragraph {
       font-size: 1.25em;
       line-height: 1.4;
-      margin: 20px 0px 25px 0px;
+      margin: 30px 0px 15px 0px;
   }
 }
 @media screen and (min-width: 769px) {
@@ -426,12 +426,13 @@ text-align: right;}
 				<h4>Arc.io</h4>
 				<h5>Arc has pioneered a decentralized content delivery network to provide an alternative to online advertisements.</h5>
 				</div>
+				<h5><a href="https://arc.io/faq" target="_blank">Arc FAQ</a></h5>
 
 			<div id="side-module-desktop-only">
 			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
 			<h4>Plastic Sequestration</h4>
 			<h5>Ecobricking is based on the concept of following the Earth's example in concentrating and securing our plastic indefinitely"</h5>
-			<h4><a href="sequest">Plastic Sequestration</a></h4>
+			<h5><a href="sequest">Plastic Sequestration</a></h5>
 			</div>
 
 	
@@ -439,6 +440,7 @@ text-align: right;}
 			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/GEA-Logo-v2.3-with-perspective-1000px-300x300.png" width="80%">
 			<h4>Global Ecobrick Alliance</h4>
 			<h5>The GEA is an Earth Enterprise dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5>
+			<h5><a href="about">About Us</a></h5>
 			</div>
 
 		</div>
