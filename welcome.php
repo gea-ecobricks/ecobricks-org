@@ -129,7 +129,7 @@ _END;?>
 			<div id="slider-textbox">
 				<div id="slider-heading">Inspired by Igorot Ancestral Wisdom</div>
 				<div id="slider-date">July 27th, 2021 | GEA Update Content</div>
-				<div id="slider-body">Ecobricking principles are inspired by the deep green ways and wisdom of the Igorots-- the unconquered indegenous people of the Filipino Cordilleras.  Learn more about how ancient wisdom inspires a modern modvement</div>
+				<div id="slider-body">Ecobricking principles are inspired by the deep green ways and wisdom of the Igorots-- the unconquered indigenous people of the Filipino Cordilleras.  Learn more about how ancient wisdom inspires a modern modvement</div>
 				<div id="slider-link">>> <a href="ayyew"> Ayyew Inspired</a></div>
 			
 			</div>
@@ -179,7 +179,7 @@ _END;?>
 			<div id="slider-textbox">
 				<div id="slider-heading">Inspired by Igorot Ancestral Wisdom</div>
 				<div id="slider-date">Sep 15th, 2021 | GEA Update Content</div>
-				<div id="slider-body">Ecobricking principles are inspired by the deep green ways and wisdom of the Igorots the indegenous people of the Filipino Cordilleras.  Learn how their Ayyew ecological ethos inspires a modern modvement</div>
+				<div id="slider-body">Ecobricking principles are inspired by the deep green ways and wisdom of the Igorots the indigenous people of Northern Luzon.  Learn how their Ayyew ecological ethos inspires a modern movement</div>
 				<div id="slider-link">>> <a href="ayyew"> Ayyew Inspired</a></div>
 			
 			</div>
@@ -251,7 +251,7 @@ _END;?>
 		<div class="big-header">An Earth Based Solution</div>
         <!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 		<div class="sub-text">
-		<p>Ecobricking follows the Earth's example of carbon sequestration.  Based on indegenous wisdom, the science of plastic degradation and earthen ethics, ecobricking is a non-capital and zero-carbon alternative to industrial plastic management.</p></div>
+		<p>Ecobricking follows the Earth's example of carbon sequestration.  Based on indigenous wisdom, the science of plastic degradation and earthen ethics, ecobricking is a non-capital and zero-carbon alternative to industrial plastic management.</p></div>
 		<a href="sequest" button class="main-button">Plastic Sequestration</a>
 		<h6><a href="/ayyew">Ayyew Inspired</a> | <a href="/circular">Circular by Design</a> | <a href="/plastic">Towards Transition</a> | <a href="/principles">Regenerative</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
 	</div>
