@@ -13,7 +13,7 @@ echo <<<_END
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="webp/arc-purple.webp">
+<link rel="preload" as="image" href="webp/arc-purple2.webp">
 <link rel="preload" as="image" href="webp/arc-logos.webp">
 <link rel="preload" as="image" href="webp/faq-bottom.webp">
 
@@ -52,7 +52,7 @@ _END;?>
 		padding: 10vh 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background: url(webp/arc-purple.webp) right top;
+		background: url(webp/arc-purple2.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -69,7 +69,7 @@ _END;?>
 		padding: 20vh 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		background: url(webp/arc-purple.webp) right top;
+		background: url(webp/arc-purple2.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -392,7 +392,7 @@ text-align: right;}
 					
 					<div class="faq-header"><h4>Going Green</h4></div>
 
-					<p>To make things even more awesome, Arc & Ecobricks.org have developed a version of their widget in which websites opt to direct their revnue generation directly to plastic offsetting.  By connecting this revenue to the purchase of AES plastic on the Brikcoin blockchain, we can track the amount of plastic sequestered by your website down to the gram.  AES offset certification (with a record in the blockchain) is then be issued annually to participating websites.  Soon this will also include CO2 offset credits.</p>
+					<p>To make things even more awesome, Arc & Ecobricks.org have developed a version of their widget in which websites opt to direct their revenue generation directly to plastic offsetting.  By connecting this revenue to the purchase of AES plastic on the Brikcoin blockchain, we can track the amount of plastic sequestered by your website down to the gram.  AES offset certification (with a record in the blockchain) is then be issued annually to participating websites.  Soon this will also include CO2 offset credits.</p>
 
 					<p>It's a no cost way that you can speed up your website and contribute to the global plastic tansition movement.</p>
 					
@@ -425,7 +425,7 @@ text-align: right;}
 				<img src="webp/arc-green-popper.webp" width="70%">
 				<h4>Arc.io</h4>
 				<h5>Arc has pioneered a decentralized content delivery network to provide an alternative to online advertisements.</h5>
-				<h5><a href="https://arc.io/faq" target="_blank">Arc FAQ</a></h5>
+				<div class="module-btn"><a href="https://arc.io/faq" target="_blank">Arc FAQ</a></div>
 
 				</div>
 				
@@ -433,15 +433,22 @@ text-align: right;}
 			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
 			<h4>Plastic Sequestration</h4>
 			<h5>Ecobricking is based on the concept of following the Earth's example in concentrating and securing our plastic indefinitely"</h5>
-			<h5><a href="sequest">Plastic Sequestration</a></h5>
+			<div class="module-btn"><a href="sequest">Plastic Sequestration</a></div>
 			</div>
 
 	
 			<div id="side-module-desktop-mobile">
 			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/GEA-Logo-v2.3-with-perspective-1000px-300x300.png" width="80%">
 			<h4>Global Ecobrick Alliance</h4>
-			<h5>The GEA is an Earth Enterprise dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5>
-			<h5><a href="about">About Us</a></h5>
+			<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5>
+			<div class="module-btn"><a href="about">About Us</a></div>
+			</div>
+
+			<div id="side-module-desktop-mobile">
+			<img src="webp/for-earth-500px.webp" width="90%">
+			<h4>For-Earth Enterprise</h4>
+			<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5>
+			<div class="module-btn"><a href="about">About Us</a></div>
 			</div>
 
 		</div>
