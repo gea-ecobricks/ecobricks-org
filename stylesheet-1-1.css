@@ -1659,6 +1659,14 @@ background-repeat: no-repeat;*/
   }
 }
 
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. BUTTONS
+migrated from GoBrik.com CSS
+/* -------------------------------------------------------------------------- */
+
 .main-button {
   font-family: 'Arvo', serif !important;
 
@@ -1689,6 +1697,23 @@ background-repeat: no-repeat;*/
   background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.module-btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  background: #c5c6c7;
+  padding: 7px 14px 7px 14px;
+  text-decoration: none;
+}
+
+.module-btn:hover {
+  background: #b8b8b8;
   text-decoration: none;
 }
 
