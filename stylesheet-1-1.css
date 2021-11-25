@@ -1700,12 +1700,40 @@ migrated from GoBrik.com CSS
   text-decoration: none;
 }
 
+
+#side-module-desktop-only {
+	
+	border-radius: 12px;
+	margin-bottom: 40px;
+	padding: 15px;
+	border-width: 1px;
+	text-align: center;
+	background-color: #ECECEC;
+	text-align: center;
+	border-color: white;
+}
+
+#side-module-desktop-mobile {
+	
+	border-radius: 12px;
+	margin-bottom: 40px;
+	padding: 15px;
+	border-width: 1px;
+	text-align: center;
+	background-color: #ECECEC;
+	text-align: center;
+	border-color: white;
+  
+  }
+
+
+
 .module-btn {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
   font-family: Mulish;
-  margin-top: 15px;
+  top: 18px;
   color: #ffffff;
   font-size: 14px;
   background: #c5c6c7;

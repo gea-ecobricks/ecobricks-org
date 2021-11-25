@@ -240,30 +240,6 @@ _END;?>
 	}
 	}
 
-#side-module-desktop-only {
-	
-	border-radius: 12px;
-	margin-bottom: 20px;
-	padding: 15px;
-	border-width: 1px;
-	text-align: center;
-	background-color: #ECECEC;
-	text-align: center;
-	border-color: white;
-}
-
-#side-module-desktop-mobile {
-	
-	border-radius: 12px;
-	margin-bottom: 20px;
-	padding: 15px;
-	border-width: 1px;
-	text-align: center;
-	background-color: #ECECEC;
-	text-align: center;
-	border-color: white;
-  
-  }
 
 @media screen and (max-width: 700px) {
   .row {   
