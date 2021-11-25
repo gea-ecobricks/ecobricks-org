@@ -416,10 +416,10 @@ text-align: right;}
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth-500px.webp" width="90%">
+				<img src="webp/for-earth500px.webp" width="90%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<div class="module-btn"><a href="about">About Us</a>
+				<div class="module-btn" href="about">About Us</a>
 			</div>
 
 		</div>
