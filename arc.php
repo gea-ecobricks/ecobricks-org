@@ -425,7 +425,7 @@ text-align: right;}
 				<img src="webp/arc-green-popper.webp" width="70%">
 				<h4>Arc.io</h4>
 				<h5>Arc has pioneered a decentralized content delivery network to provide an alternative to online advertisements.</h5>
-				<div class="module-btn"><a href="https://arc.io/faq" target="_blank">Arc FAQ</a></div>
+				<a href="https://arc.io/faq" target="_blank" class="module-btn">Arc FAQ</a>
 
 				</div>
 				
@@ -433,7 +433,7 @@ text-align: right;}
 			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
 			<h4>Plastic Sequestration</h4>
 			<h5>Ecobricking is based on the concept of following the Earth's example in concentrating and securing our plastic indefinitely"</h5>
-			<div class="module-btn"><a href="sequest">Plastic Sequestration</a></div>
+			<a class="module-btn" href="sequest">Plastic Sequestration</a></div>
 			</div>
 
 	
@@ -441,7 +441,7 @@ text-align: right;}
 			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/GEA-Logo-v2.3-with-perspective-1000px-300x300.png" width="80%">
 			<h4>Global Ecobrick Alliance</h4>
 			<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5>
-			<div class="module-btn"><a href="about">About Us</a></div>
+			<a class="module-btn" href="about">About Us</a></div>
 			</div>
 
 			<div id="side-module-desktop-mobile">
