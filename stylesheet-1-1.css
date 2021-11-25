@@ -1704,7 +1704,7 @@ migrated from GoBrik.com CSS
 #side-module-desktop-only {
 	
 	border-radius: 12px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	padding: 15px;
 	border-width: 1px;
 	text-align: center;
@@ -1716,7 +1716,7 @@ migrated from GoBrik.com CSS
 #side-module-desktop-mobile {
 	
 	border-radius: 12px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	padding: 15px;
 	border-width: 1px;
 	text-align: center;
@@ -1733,7 +1733,6 @@ migrated from GoBrik.com CSS
   -moz-border-radius: 10;
   border-radius: 10px;
   font-family: Mulish;
-  top: 18px;
   color: #ffffff;
   font-size: 14px;
   background: #c5c6c7;

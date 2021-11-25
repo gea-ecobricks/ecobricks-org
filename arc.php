@@ -170,11 +170,6 @@ _END;?>
   transform: skewY(-3deg);
 
 	margin-bottom: 40px;
-
-
-    
-    }
-    }
 }
 
 
@@ -247,7 +242,7 @@ _END;?>
   }
 }
 
-mark{
+mark {
  background-color:#c0ffc8;
  color: white;	
 }
@@ -403,28 +398,28 @@ text-align: right;}
 				<h5>Arc has pioneered a decentralized content delivery network to provide an alternative to online advertisements.</h5><br>
 				<a href="https://arc.io/faq" target="_blank" class="module-btn">Arc FAQ</a>
 
-				</div>
+			</div>
 				
 			<div id="side-module-desktop-only">
-			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
-			<h4>Plastic Sequestration</h4>
-			<h5>Ecobricking is based on the concept of following the Earth's example in concentrating and securing our plastic indefinitely"</h5><br>
-			<a class="module-btn" href="sequest">Plastic Sequestration</a></div>
+				<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
+				<h4>Plastic Sequestration</h4>
+				<h5>Ecobricking is based on the concept of following the Earth's example in concentrating and securing our plastic indefinitely"</h5><br>
+				<a class="module-btn" href="sequest">Plastic Sequestration</a></div>
 			</div>
 
 	
 			<div id="side-module-desktop-mobile">
-			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/GEA-Logo-v2.3-with-perspective-1000px-300x300.png" width="80%">
-			<h4>Global Ecobrick Alliance</h4>
-			<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-			<a class="module-btn" href="about">About Us</a></div>
+				<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/GEA-Logo-v2.3-with-perspective-1000px-300x300.png" width="80%">
+				<h4>Global Ecobrick Alliance</h4>
+				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
+				<a class="module-btn" href="about">About Us</a></div>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-			<img src="webp/for-earth-500px.webp" width="90%">
-			<h4>For-Earth Enterprise</h4>
-			<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-			<div class="module-btn"><a href="about">About Us</a></div>
+				<img src="webp/for-earth-500px.webp" width="90%">
+				<h4>For-Earth Enterprise</h4>
+				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
+				<div class="module-btn"><a href="about">About Us</a></div>
 			</div>
 
 		</div>
