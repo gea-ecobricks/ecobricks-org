@@ -25,6 +25,7 @@ deployment:
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
     - /bin/cp arc.php $DEPLOYPATH
+    - /bin/cp what-beta.php $DEPLOYPATH
     
 
 
@@ -51,6 +52,7 @@ deployment:
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
     - /bin/cp arc.php $DEPLOYPATH
+    - /bin/cp what-beta.php $DEPLOYPATH
 
 
 
@@ -75,6 +77,7 @@ deployment:
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
     - /bin/cp arc.php $DEPLOYPATH
+    - /bin/cp what-beta.php $DEPLOYPATH
 
 
 
@@ -99,6 +102,7 @@ deployment:
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
     - /bin/cp arc.php $DEPLOYPATH
+    - /bin/cp what-beta.php $DEPLOYPATH
 
 
 

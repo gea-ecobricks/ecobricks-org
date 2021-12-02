@@ -386,8 +386,8 @@ text-align: right;}
 				<div class="faq-link"><h5>Get: <a href="https://arc.io/?ref=ecobricks.org#signUp">Normal Arc for your site</h5></a></div>		
 			</div>
 		
-					</DIV>
-					</DIV>
+		</DIV>
+		</DIV>
 		
 
 		<div class="side">

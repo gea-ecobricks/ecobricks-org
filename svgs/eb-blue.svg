@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="145.7038mm"
+   height="160.29286mm"
+   viewBox="0 0 145.7038 160.29286"
+   version="1.1"
+   id="svg12894"
+   sodipodi:docname="eb-blue.svg"
+   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
+   inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+   inkscape:export-xdpi="69.722382"
+   inkscape:export-ydpi="69.722382"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs12888">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter146682"
+       x="-0.066285614"
+       y="-0.076980147"
+       width="1.1428904"
+       height="1.1668756">
+      <feFlood
+         flood-opacity="0.372549"
+         flood-color="rgb(3,3,3)"
+         result="flood"
+         id="feFlood146672" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="out"
+         result="composite1"
+         id="feComposite146674" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3.28507"
+         result="blur"
+         id="feGaussianBlur146676" />
+      <feOffset
+         dx="1.3"
+         dy="1.4"
+         result="offset"
+         id="feOffset146678" />
+      <feComposite
+         in="offset"
+         in2="SourceGraphic"
+         operator="atop"
+         result="composite2"
+         id="feComposite146680" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.78177115"
+     inkscape:cx="278.85398"
+     inkscape:cy="388.22103"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g13394"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1480"
+     inkscape:window-height="800"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0" />
+  <metadata
+     id="metadata12891">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-33.628599,-18.825665)">
+    <g
+       id="g13394">
+      <g
+         id="g141408"
+         style="opacity:0.3;fill:#333333;stroke:none"
+         transform="matrix(3.2530699,0,0,3.2530699,-239.90799,-222.99106)">
+        <path
+           style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.141355px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 92.113328,119.04967 -0.399106,0.15516 c -0.005,0.0617 -0.36457,0.0878 -0.299365,0.24138 0.195676,0.46095 1.154903,0.64569 1.818384,0.55011 0.121623,-0.0175 0.333673,-0.10541 0.419273,-0.13666 l 9.120376,-3.20638 -2.47371,-0.6361"
+           id="path20456-3"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccssccc"
+           inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+           inkscape:export-xdpi="230.86954"
+           inkscape:export-ydpi="230.86954" />
+        <path
+           d="m 126.37479,112.45038 c 0,2.55546 -8.70018,4.62765 -19.43192,4.62765 -10.731743,0 -19.431915,-2.07219 -19.431915,-4.62765 0,-2.55545 8.700172,-4.62773 19.431915,-4.62773 10.73174,0 19.43192,2.07228 19.43192,4.62773 z"
+           id="path12548-5-9"
+           inkscape:connector-curvature="0"
+           style="fill:#333333;stroke:none;stroke-width:0.0918767"
+           inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+           inkscape:export-xdpi="230.86954"
+           inkscape:export-ydpi="230.86954" />
+        <path
+           style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.141355px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 102.27313,118.49803 -0.98409,0.50218 c -0.16207,0.0985 -0.36696,0.4356 0.23269,0.4865 l 12.35747,1.31161 c 0.96158,0.13785 1.39962,0.0656 1.90365,-0.50536 l 5.57318,-6.03558 -9.25874,-0.70677"
+           id="path20458-1"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccc"
+           inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+           inkscape:export-xdpi="230.86954"
+           inkscape:export-ydpi="230.86954" />
+      </g>
+      <path
+         style="opacity:0.77;fill:#ffffff;stroke-width:0.0414014"
+         d="m 153.72387,102.14903 c -1.54097,0.40877 -2.08057,1.17473 -4.0705,1.21266 -2.00555,-0.58617 -3.86984,-3.08621 -4.31379,-1.04602 -1.924,-0.86953 -4.07825,1.38853 -3.16466,3.26866 0.54551,1.46963 2.21036,1.60845 3.54919,1.51017 2.83164,-0.0325 5.67154,0.0655 8.49795,-0.0501 1.09598,-0.16525 7.18606,-0.0784 7.32873,-1.07946 0.12849,-0.90254 -5.58793,-2.87975 -6.44482,-3.39334 -0.40471,-0.275 -0.89281,-0.42382 -1.3821,-0.42244 z"
+         id="path102457"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954"
+         sodipodi:nodetypes="ccccccscc" />
+      <path
+         style="opacity:0.77;fill:#ffffff;stroke-width:0.0537879"
+         d="m 69.480157,77.104107 c -2.014645,0.07983 -2.929149,-4.702878 -6.254004,-3.703925 -4.41316,10.340195 -11.627539,7.101431 -14.899903,6.251329 -1.423329,0.617982 -2.91381,2.524057 -1.235663,3.348638 2.551956,1.25394 9.467058,1.303584 11.722406,0.740228 3.763473,-0.04344 7.536305,0.08761 11.293792,-0.0674 16.280039,-1.572795 -0.626628,-10.035054 -0.626628,-6.56886 z"
+         id="path26505"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="70.613838"
+         inkscape:export-ydpi="70.613838"
+         sodipodi:nodetypes="sccsccss" />
+      <path
+         style="opacity:0.77;fill:#ffffff;stroke-width:0.0424964"
+         d="m 143.10059,57.38917 c -1.70592,-0.194599 -3.15698,-4.244457 -6.08599,-2.620022 -2.17561,1.07172 -2.2744,3.159205 -4.84905,3.053627 -1.01704,0.700168 -8.86431,3.258736 -8.86431,3.258736 0.36911,1.411739 9.79905,1.892171 11.47617,1.383928 3.098,-0.109242 6.25344,0.232985 9.31084,-0.199446 17.85471,-0.282432 4.48598,-4.812792 -0.98766,-4.876823 z"
+         id="path102459"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="70.613838"
+         inkscape:export-ydpi="70.613838"
+         sodipodi:nodetypes="cccsccc" />
+      <g
+         transform="matrix(0.29888123,0,0,0.29888123,-61.368065,-513.78146)"
+         id="g12564-3-0"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954">
+        <path
+           style="fill:#00ff00;stroke:#231f20;stroke-width:1.67529;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           d="m 688.42191,2166.9566 c -2.45086,16.0531 -22.76029,25.6551 -36.53561,16.7141 -13.53088,-5.3669 -31.90182,-7.166 -38.04605,-22.5812 -6.43351,-18.071 3.76526,-36.0706 7.09825,-53.6537 4.32253,-14.8482 4.61914,-34.0628 19.65438,-42.6957 14.30124,-6.5169 27.91933,4.6657 41.65837,7.3116 15.7605,4.0191 26.07729,22.034 20.54451,37.5192 -4.20517,19.2721 -9.7573,38.2137 -14.37385,57.3857 z"
+           id="path12550-5-8"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:0.5;fill:#ffffff;stroke-width:0.837643"
+           d="m 680.8937,2158.9126 c -2.84131,16.6625 -23.62597,22.9868 -37.16328,14.9123 -14.09544,-3.2907 -27.37647,-16.525 -23.99873,-31.908 2.07533,-16.5552 8.24866,-32.2547 11.43545,-48.5637 4.51219,-12.7684 21.07253,-20.1649 33.12859,-13.1286 14.12459,2.8697 29.42884,13.8139 27.66967,29.8816 -1.02567,16.1666 -7.48939,31.3141 -10.63897,47.1079 -0.14425,0.5662 -0.28849,1.1323 -0.43273,1.6985 z"
+           id="path12552-6-8"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ff7113;fill-opacity:1;stroke:#231f20;stroke-width:1.72624;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           d="m 430.44056,2096.3229 c 11.28434,-0.4216 26.84592,-7.6313 35.58231,-4.0092 7.12702,25.2428 14.25403,50.4855 21.38105,75.7282 -26.33625,6.8717 -52.67252,13.7433 -79.00876,20.615 -9.57589,-32.0308 -19.15181,-64.0615 -28.7277,-96.0923 24.92088,-11.7605 49.84168,-23.5212 74.76256,-35.2817 10.41298,15.1478 -7.46215,22.9068 -16.4801,32.2677 -2.50312,2.2574 -5.00627,4.5149 -7.50936,6.7723 z"
+           id="polygon12554-2-5"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ffffff;stroke-width:0.86312"
+           d="m 463.21535,2137.2976 c 0.78994,23.0469 -32.47263,34.4868 -47.41563,17.9702 -15.54324,-12.8921 -5.65181,-41.1384 13.93972,-43.2143 15.6002,-3.6681 33.89985,8.4583 33.47591,25.2441 z"
+           id="circle12556-9-0"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ff00ff;stroke:#231f20;stroke-width:1.94842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           d="m 527.46492,2170.9271 c -5.55802,15.9842 -24.78446,18.5242 -39.39102,19.4499 -15.77334,0.6415 -32.94669,0.5038 -46.94946,-7.7065 -11.32241,-6.5724 -10.35904,-20.8934 -9.26609,-32.1214 0.82361,-12.4111 7.79897,-28.4022 22.5002,-27.6614 28.02549,4.171 52.99535,21.4503 71.02701,42.8168 0.9575,1.6564 1.86433,3.2864 2.07936,5.2226 z"
+           id="path12558-1-9"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:0.5;fill:#ffffff"
+           d="m 472.25688,2153.9929 c -0.31259,17.9621 -25.03542,9.4609 -21.17654,-4.9 4.51924,-9.82 21.78931,-6.6816 21.17654,4.9 z"
+           id="path12560-2-6"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:0.5;fill:#ffffff"
+           d="m 494.80488,2171.0519 c -4.23751,12.9011 -15.03022,-1.9442 -5.61499,-5.2848 2.59781,0.7458 4.13677,3.2259 5.61499,5.2848 z"
+           id="path12562-7-3"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         transform="matrix(1.7379667,0,0,1.7379667,-783.70076,177.17632)"
+         id="g15600"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954">
+        <g
+           transform="matrix(0.066922,-4.5962358e-4,4.5962358e-4,0.066922,575.08093,-79.526969)"
+           id="g34078-75"
+           inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/GoBrik Development/Main Page HTML/images/dense-ecobrick.png"
+           inkscape:export-xdpi="149.85301"
+           inkscape:export-ydpi="149.85301">
+          <path
+             inkscape:connector-curvature="0"
+             id="path34054-9"
+             d="m -812.7,574.274 c 12.22001,-65.05148 27.67339,-136.40162 -0.71059,-199.08844 -22.05493,-41.08342 -95.06313,-48.66016 -82.61491,-105.53756 17.5704,-57.22882 -38.92836,-58.16687 -77.9815,-54.253 -68.9413,-11.6896 -23.4822,72.58271 -52.9272,100.79884 -35.449,28.34208 -83.8539,54.54957 -81.5554,107.22753 -14.061,80.2696 32.3612,158.0195 11.6304,238.22151 -9.6866,61.45276 -13.2176,125.05979 -4.1827,186.62151 22.9448,57.26455 94.1216,61.54423 147.1879,62.61061 53.18726,-1.23616 123.64418,-3.90098 150.77761,-58.28047 12.50873,-48.42657 5.01494,-100.2133 2.03997,-149.62201 C -806.41677,660.16795 -818.09819,617.77341 -812.7,574.274 Z"
+             style="fill:#99fff0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path34056-62"
+             d="m -812.7,574.274 c 12.22001,-65.05148 27.67339,-136.40162 -0.71059,-199.08844 -22.05493,-41.08342 -95.06313,-48.66016 -82.61491,-105.53756 17.5704,-57.22882 -38.92836,-58.16687 -77.9815,-54.253 -68.9413,-11.6896 -23.4822,72.58271 -52.9272,100.79884 -35.449,28.34208 -83.8539,54.54957 -81.5554,107.22753 -14.061,80.2696 32.3612,158.0195 11.6304,238.22151 -9.6866,61.45276 -13.2176,125.05979 -4.1827,186.62151 22.9448,57.26455 94.1216,61.54423 147.1879,62.61061 53.18726,-1.23616 123.64418,-3.90098 150.77761,-58.28047 12.50873,-48.42657 5.01494,-100.2133 2.03997,-149.62201 C -806.41677,660.16795 -818.09819,617.77341 -812.7,574.274 Z"
+             style="fill:none;stroke:#231f20;stroke-width:9.38384;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none" />
+          <g
+             id="g34068-1">
+            <path
+               inkscape:connector-curvature="0"
+               id="path34058-7"
+               d="m -837.348,384.082 c -27.98785,-26.66362 -74.14263,-59.32348 -87.25626,-82.07757 -31.11975,16.41129 -71.22598,-20.81243 -75.13413,24.20333 -32.00871,34.44759 -88.17301,56.84525 -85.06561,112.50083 -2.0504,48.58379 -1.4064,100.30875 23.7738,143.39011 12.0224,25.88777 24.0448,51.77553 36.0672,77.6633 36.102,0 72.204,0 108.306,0 29.83527,-38.04358 59.67055,-76.08717 89.50582,-114.13075 4.47974,-52.87902 13.93705,-112.13179 -10.19682,-161.54925 z"
+               style="fill:#00ff00" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path34060-8"
+               d="m -820.88,756.104 c -9.36976,-40.7213 12.81583,-119.10458 -48.02298,-118.4153 -45.63066,-11.33886 -87.54319,11.87914 -127.35992,28.81901 -30.9208,12.12987 -80.9554,-43.18367 -74.7643,11.87835 -1.2143,32.7799 -26.6285,94.75434 27.314,75.6236 50.51065,1.6624 95.85251,35.93874 147.79277,24.82618 26.03852,-3.19348 51.67959,-10.75518 75.04043,-22.73184 z"
+               style="fill:#ff00ff" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path34062-5"
+               d="m -975.491,659.238 c 41.3661,-28.26285 96.81552,-30.2962 142.401,-11.469 -13.12749,-28.44725 12.16428,-91.34014 -1.97472,-98.2588 -50.07671,23.23983 -111.53096,22.63412 -158.55413,-7.79328 -41.83195,-22.27469 -106.42935,-1.97986 -74.84755,51.87264 -1.0849,38.28126 2.6234,72.10514 49.4486,72.10365 14.6057,2.38605 30.78983,2.03096 43.5268,-6.45521 z"
+               style="fill:#ffff00" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path34064-7"
+               d="m -820.789,760.688 c -26.8874,2.89223 -78.1679,27.8113 -116.62624,18.5051 -45.19307,-5.15243 -101.03736,-42.24095 -140.62176,-17.2781 -10.4112,54.58505 16.4546,112.05713 78.89816,113.12867 58.17402,6.67686 140.96043,14.26137 174.69498,-44.49999 5.97282,-22.54781 2.83238,-46.7036 3.65486,-69.85568 z"
+               style="fill:#ff0000" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path34066-4"
+               d="m -1076.3567,555.27902 c -5.8211,-40.93773 -23.6247,-112.44948 2.3977,-135.72067 47.3582,8.70182 90.41178,51.44824 141.16453,28.65495 37.07964,-5.87099 121.17316,-64.3936 112.62692,6.76298 -1.16253,42.94605 7.88031,106.12818 -50.52072,108.90975 -47.60748,13.70518 -93.62337,-5.96388 -136.50263,-24.48015 -25.3558,-12.69606 -50.0955,-2.51054 -69.1658,15.87314 z"
+               style="fill:#ff7400;fill-opacity:1;stroke:none;stroke-width:2.50595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          </g>
+          <path
+             inkscape:connector-curvature="0"
+             id="path34072-1"
+             d="m -879.09219,260.434 c -3.81639,-25.81237 0.65519,-54.22674 -9.24989,-78.15969 -37.86421,-25.03372 -98.288,-29.31174 -135.08582,-1.25313 -3.8178,25.94271 -9.9316,52.93814 -8.9534,78.93594 34.87094,29.19339 87.50113,26.58116 129.96236,17.86413 8.59278,-3.13438 21.69141,-6.48616 23.32675,-17.38725 z"
+             style="fill:#99fff0;stroke:#231f20;stroke-width:9.38384;stroke-miterlimit:10;stroke-dasharray:none" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path34074-8"
+             d="m -879.33219,233.13 c -0.85681,-24.66337 2.53986,-49.92026 -0.9513,-74.21603 -35.70149,-28.17106 -88.22693,-24.0638 -130.42231,-14.12647 -31.8366,4.48215 -21.128,37.49298 -23.1662,59.43278 -8.8579,31.27395 16.0379,51.9104 46.83007,51.76924 34.00908,2.06435 86.43741,9.02693 107.70974,-22.85952 z"
+             style="fill:#2479b3;fill-opacity:1;stroke:#231f20;stroke-width:9.38384;stroke-miterlimit:10;stroke-dasharray:none" />
+          <path
+             inkscape:connector-curvature="0"
+             id="ellipse34076-59"
+             d="m -880.14535,159.65742 c -20.00682,29.82483 -67.46044,22.86555 -99.45668,22.97755 -18.56845,2.62741 -77.92687,-16.98753 -40.67377,-36.55821 42.732,-14.30176 94.26887,-16.55933 134.91311,4.86531 2.64536,2.12592 5.21854,5.12036 5.21734,8.71535 z"
+             style="opacity:1;fill:#3f9ad8;fill-opacity:1;stroke:#231f20;stroke-width:8.81603;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path209956-7"
+             d="m -913.01782,379.91309 c 30.2688,-47.29108 87.86543,30.14852 76.48704,69.55711 16.52895,49.416 -66.69269,46.57744 -41.55911,-2.26339 0.97307,-26.86541 -11.26093,-53.45012 -34.92793,-67.29372 z"
+             style="fill:#ffffff;stroke:none;stroke-width:4.89309px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <g
+           id="flowRoot943-9-0-3-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px;opacity:0.6;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0.1811882,0,0,0.173555,399.23766,-55.584691)"
+           aria-label="Ani Himawati 18/15/2017  235g ">
+          <path
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.6973px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
+             d="m 598.92308,156.27592 c -0.70209,-9.73368 16.75641,-1.11648 8.43093,3.86761 -2.67377,0.69681 -3.83671,4.93809 -0.018,3.75519 0.13426,7.87759 -13.25311,-1.30792 -4.42852,-3.07829 5.85598,-1.79009 -0.34514,-7.78395 -2.86424,-2.94138 -0.82584,0.0322 -0.97745,-1.06927 -1.12019,-1.60313 z"
+             id="path13124"
+             inkscape:connector-curvature="0" />
+          <path
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.6973px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
+             d="m 612.12837,152.53459 c 5.38171,-2.03814 5.019,7.14539 6.78466,9.84915 -0.29702,4.63924 -9.68357,5.49296 -7.77189,1.52272 4.72455,0.41 5.88273,-4.79427 1.04589,-5.23074 0.90521,-2.70933 0.91553,-3.68947 -2.01361,-3.48806 -0.77038,-1.19825 0.73908,-2.70865 1.95495,-2.65307 z"
+             id="path13126"
+             inkscape:connector-curvature="0" />
+          <path
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.6973px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
+             d="m 630.28685,153.05395 c -0.47002,3.468 -12.00157,1.93137 -6.26863,5.07938 7.3686,-2.66548 3.72556,13.49791 -0.50584,7.01128 6.95868,-4.79398 -7.22445,-3.24961 -3.5198,-9.72024 1.41578,-4.36727 7.32199,-6.70532 10.29427,-2.37042 z"
+             id="path13128"
+             inkscape:connector-curvature="0" />
+          <path
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.6973px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
+             d="m 638.25042,156.60293 c 5.04251,2.96923 3.50165,12.12749 -1.66583,14.03273 -3.22205,-0.37524 -3.24188,-1.63595 -0.80527,-2.68524 -5.91621,-1.77937 -7.71058,-10.86061 -0.20718,-11.82699 0.91689,-0.053 1.83847,0.11744 2.67828,0.4795 z m -1.00025,3.01038 c -8.9118,-1.73962 2.51733,12.26791 0.49056,0.74586 z"
+             id="path13130"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="flowRoot943-9-0-5-1-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px;opacity:0.6;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0,-0.28409641,0.27814009,0,471.82308,134.42084)"
+           aria-label="A12X5      ">
+          <path
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2314px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
+             d="m 590.11773,132.08822 c 0.87491,-3.36059 5.53168,-2.60248 7.18363,-0.30073 1.8643,2.79796 0.17818,6.42931 1.82348,9.3683 1.44199,1.7583 0.57192,9.10762 -2.11598,5.10387 -2.39888,-2.80205 -8.01341,-1.25665 -8.67123,2.44418 -2.80126,-2.52574 -1.01421,-6.52911 0.1812,-9.39546 0.75114,-2.35604 0.88623,-4.85446 1.5989,-7.22016 z m 1.83493,9.73312 c 3.59947,1.9007 5.01503,-4.43302 2.51441,-6.19753 -3.75976,-0.77222 -3.48907,3.99905 -2.51441,6.19753 z"
+             id="path13133"
+             inkscape:connector-curvature="0" />
+          <path
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2314px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
+             d="m 604.11905,130.29318 c 3.55057,-0.63753 4.50504,3.85042 3.58769,6.44765 -1.21131,3.05748 -0.34004,6.3374 -1.20786,9.4401 -2.32833,4.42415 -4.32991,-2.00689 -3.12316,-4.34584 0.49447,-3.20504 -0.78766,-6.29629 -0.64421,-9.47547 0.08,-0.85378 0.58627,-1.70872 1.38754,-2.06644 z"
+             id="path13135"
+             inkscape:connector-curvature="0" />
+          <path
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2314px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
+             d="m 608.79945,135.07996 c -0.46517,-6.63693 9.66767,-9.4199 13.34393,-4.27234 2.95261,4.29173 -0.30477,9.5661 -3.95843,12.20722 -1.57475,1.13036 -2.44631,1.72278 -0.0319,1.12547 3.22687,0.0358 4.09969,5.30797 0.53033,5.66941 -3.12936,0.55146 -7.53168,0.006 -8.59384,-3.55192 -0.49149,-3.53794 3.95617,-4.25203 6.11695,-5.93512 2.87214,-1.07561 3.3629,-5.8897 -0.0983,-6.41903 -2.73358,-0.3635 -5.80161,6.69545 -7.30871,1.17631 z"
+             id="path13137"
+             inkscape:connector-curvature="0" />
+          <path
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2314px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
+             d="m 628.65128,129.60176 c -0.54796,3.60969 4.92306,5.16566 4.87661,0.8001 4.12407,-1.68943 3.83852,3.77034 1.04558,5.2452 -2.30107,3.19319 0.56608,6.87691 0.67452,10.29318 0.38057,4.88546 -3.22485,1.03306 -4.78762,-0.47527 -0.99433,1.52888 -4.50086,5.63431 -5.06779,1.09508 1.6411,-3.00659 4.47166,-5.7579 2.4776,-9.5649 -0.43125,-1.92006 -2.35183,-7.31467 0.7811,-7.39339 z"
+             id="path13139"
+             inkscape:connector-curvature="0" />
+          <path
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2314px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
+             d="m 653.06383,130.6256 c -0.27349,3.64362 -4.77776,3.04616 -7.26739,2.36899 -3.5665,-1.15616 -5.82313,4.17181 -1.98204,5.29636 2.79958,0.98726 6.80641,0.40461 8.14682,3.7364 1.5877,4.30904 -4.22737,9.52253 -8.20895,6.74115 -0.16806,-2.58274 6.67437,-5.55083 1.79482,-6.97955 -3.21114,0.59791 -6.88371,-0.90631 -7.5681,-4.3919 -0.77392,-3.6911 1.06234,-8.24746 5.10963,-9.01002 3.41224,-0.76411 7.10924,0.35903 9.97521,2.23857 z"
+             id="path13141"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g12605-7-8"
+         transform="matrix(0.29888123,0,0,0.29888123,-63.532563,-513.1312)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954">
+        <path
+           style="fill:#c98441;stroke:#231f20;stroke-width:3.0031;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           d="m 645.775,2175.964 c -77.06734,25.7723 -154.13466,51.5447 -231.202,77.317 6.70394,14.5678 1.98161,14.1124 8.85478,16.1395 70.19758,-25.2316 162.62297,-58.9771 232.93952,-83.8768 6.98917,-6.9406 -5.3845,-10.9764 -10.5923,-9.5797 z"
+           id="path12595-5-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#d6a370;fill-opacity:1;stroke:#231f20;stroke-width:3.0031;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           d="m 427.845,2265.817 c -12.52952,15.7881 -23.24322,-22.7531 -4.37706,-10.2729 3.89424,1.7784 5.27946,6.3327 4.37706,10.2729 z"
+           id="path12597-9-6"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ff0000;stroke:#231f20;stroke-width:1.78387;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           d="m 758.92579,2185.1245 c -6.22251,20.5703 -32.5727,19.3524 -49.996,19.6505 -15.3407,-0.4256 -39.66587,-3.9307 -40.21756,-23.4234 -2.03204,-13.2576 12.36946,-47.4045 27.49855,-30.8143 10.25481,19.5687 20.75347,-5.241 22.92991,-16.1936 2.01007,-7.0661 7.25449,-21.0203 10.42905,-7.0467 9.82386,19.0738 27.41784,35.527 29.35605,57.8275 z"
+           id="path12599-2-1"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g13274">
+          <path
+             style="opacity:0.5;fill:#ffffff;stroke-width:0.937633"
+             d="m 738.65298,2167.0149 c -2.36329,17.7065 -31.69542,-1.1295 -11.03818,-7.3131 4.75677,-0.9009 10.90574,1.8374 11.03818,7.3131 z"
+             id="ellipse12601-2-1"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#231f20;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+             d="m 689.35812,2161.863 c 3.999,5.1012 8.6321,13.8335 16.513,11.404"
+             id="path12603-8-5"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g20454-9"
+           transform="matrix(0.86131674,0,0,0.81591476,84.444522,411.3382)">
+          <path
+             style="fill:#ffff00;fill-opacity:1;stroke:#231f20;stroke-width:1.50139;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+             d="m 336.73086,2186.3436 c 13.72786,19.6787 40.75445,17.17 61.80598,16.0668 16.02934,1.5957 42.35676,-2.2145 36.72594,-24.7063 -6.46476,-14.4837 -22.26504,-34.0872 -38.25441,-17.642 -21.37022,15.4532 -5.8118,-32.7355 -28.53396,-23.2664 -24.58684,2.5827 -32.62169,28.3841 -31.74355,49.5479 z"
+             id="path12599-2-7-8"
+             inkscape:connector-curvature="0" />
+          <path
+             style="opacity:0.5;fill:#ffffff;stroke-width:0.718154"
+             d="m 404.81232,2182.1797 c 12.35137,19.3512 18.36449,-16.8779 0.53152,-2.1491 z"
+             id="ellipse12601-2-3-4"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:none;stroke:#231f20;stroke-width:1.43631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+             d="m 408.08351,2161.9664 c -2.79217,3.518 -6.30392,10.1477 -11.85887,8.1898"
+             id="path12603-8-6-8"
+             inkscape:connector-curvature="0" />
+        </g>
+        <path
+           style="opacity:0.9;fill:#ffffff;stroke-width:1"
+           d="m 403.93966,2181.0896 c -2.52042,18.8843 -33.80369,-1.2047 -11.7724,-7.7995 5.07316,-0.9608 11.63115,1.9596 11.7724,7.7995 z"
+           id="ellipse12601-2-1-7"
+           inkscape:connector-curvature="0" />
+      </g>
+      <path
+         style="fill:#666666;stroke:#000000;stroke-width:0.459837px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+         d="m 132.10071,167.54701 19.68316,-19.74782 c 0.61636,-0.47954 0.51001,-0.89779 0.51001,-1.63377 l 0.0406,-1.58479 -19.68163,18.91637"
+         id="path1183-0"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954" />
+      <path
+         style="fill:#808080;stroke:#000000;stroke-width:0.459837px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 91.454066,159.86524 c -0.664506,0.17535 -0.76122,0.59414 -0.671596,1.09277 l 0.02928,1.52655 c -0.08165,0.97019 0.727972,1.34224 1.382098,1.3804 l 39.095792,3.87792 c 0.93095,0.14579 1.5341,-1.11544 1.5916,-1.65705 l -0.0982,-2.56502 v 0"
+         id="path1181-3"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954" />
+      <path
+         style="fill:#333333;stroke:#000000;stroke-width:0.460559;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 125.3061,142.23312 -34.006459,17.59439 40.289209,3.6507 c 0.36001,-0.0163 1.3983,-0.16005 1.91525,-0.67678 l 18.72128,-18.27828 z"
+         id="path1179-04"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954" />
+      <path
+         style="fill:#dff7f4;fill-opacity:1;stroke:#000000;stroke-width:0.459837px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 125.66244,143.119 -23.56666,12.87542 32.18855,3.21888 15.92193,-14.25496 z"
+         id="path1185-4"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954" />
+      <path
+         style="fill:#666666;stroke:#000000;stroke-width:0.459837px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 113.3567,158.19644 5.52764,0.44708 c 0.46292,0.0227 0.63532,0.3227 0.44708,0.77225 l -1.34125,1.3006 c -0.32044,0.59701 -0.75319,0.52103 -1.17867,0.48775 l -7.03318,-0.63143 c -0.58315,-0.17632 -0.48862,-0.35225 -0.32499,-0.52839 l 2.72484,-1.44141 c 0.29766,-0.1991 0.56681,-0.41697 1.17869,-0.40645 z"
+         id="path1533-3"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954" />
+      <image
+         y="231.38809"
+         x="315.59476"
+         id="image16711-1"
+         xlink:href="data:image/png;base64,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 SUVORK5CYII= "
+         preserveAspectRatio="none"
+         height="8.0161695"
+         width="19.823284"
+         transform="matrix(0.99765369,0.0684625,-0.83843512,0.54500143,0,0)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954" />
+    </g>
+  </g>
+</svg>
