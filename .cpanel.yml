@@ -20,12 +20,11 @@ deployment:
 
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp welcome.php $DEPLOYPATH
-    - /bin/cp welcome2.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
     - /bin/cp arc.php $DEPLOYPATH
-    - /bin/cp what-beta.php $DEPLOYPATH
+
     
 
 
