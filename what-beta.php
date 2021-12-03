@@ -756,7 +756,7 @@ text-decoration: none;
 							<p>
 							The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="https://www.ecobricks.org/sequest">criteria for plastic sequestration</a>.  The GEA ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the <a href="https://www.ecobricks.org/plastic">Earth’s example of greening the biosphere</a>.</p>
 							</div>
-							<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png">
+							<div class="side2"><img src="webp/brik-cascade.webp" width="100%">
 							</div>
 						</div>
 
@@ -799,10 +799,16 @@ text-decoration: none;
 				</div>
 
 				<div id="preclosed2">
-					
-					<p>Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
+					<div class="row">
+						<div class="main2">
+						<p>Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
 
-					<p>Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy flammability while increasing its durability and re-usability.</p>
+						</div>
+						<div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2021/01/authenticated-ecobrick.png" width="100%">
+							</div>
+						</div>
+
+						<p>Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy flammability while increasing its durability and re-usability.</p>
 
 					<p>To be an ecobrick, the following standards must be met:</p>
 					<p>
