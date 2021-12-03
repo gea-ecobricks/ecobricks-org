@@ -666,7 +666,7 @@ ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
   color: #222222;
-  font-size: 1.2em;
+  font-size: 1.07em;
       line-height: 1.3;
   
 }
@@ -751,12 +751,13 @@ text-decoration: none;
 					<div id="preclosed1">
 						<br>
 						<div class="row">
-							<div class="main2"><p>The <a href="https://www.ecobricks.org/about">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="https://www.ecobricks.org/transition">petro-capital transition</a> and plastic sequestration.</p>
+							<div class="main2">
+								<p>The <a href="https://www.ecobricks.org/about">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="https://www.ecobricks.org/transition">petro-capital transition</a> and plastic sequestration.</p>
 					
 							<p>
 							The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="https://www.ecobricks.org/sequest">criteria for plastic sequestration</a>.  The GEA ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the <a href="https://www.ecobricks.org/plastic">Earth’s example of greening the biosphere</a>.</p>
 							</div>
-							<div class="side2"><img src="webp/brik-cascade.webp" width="100%">
+							<div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2021/01/authenticated-ecobrick.png" width="100%">
 							</div>
 						</div>
 
@@ -804,7 +805,7 @@ text-decoration: none;
 						<p>Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
 
 						</div>
-						<div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2021/01/authenticated-ecobrick.png" width="100%">
+						<div class="side2"><img src="webp/brik-cascade.webp" width="200px">
 							</div>
 						</div>
 
@@ -849,7 +850,13 @@ text-decoration: none;
 
 				<div id="preclosed3">
 					<br>
+					<div class="row">
+						<div class="main2">
 					<p>Cigbricks are a new class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</p>
+					</div>
+						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="200px">
+							</div>
+						</div>
 
 					<p>To be a Cigbrick the following standards must be met:</p>
 
@@ -891,9 +898,13 @@ text-decoration: none;
 			<div id="preclosed4">
 				<br>
 					
-					<strong><img class="alignright" style="display: block; margin-left: auto; margin-right: auto;" src="https://www.gobrik.com/images/oceanecobrick.png" width="175" height="163" /></strong>
-
+				<div class="row">
+							<div class="main2">
 				<p>The Ocean Ecobrick is a  class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique						 enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
+				</div>
+						<div class="side2"><img src="https://www.gobrik.com/images/oceanecobrick.png" width="100%">
+							</div>
+						</div>
 
 				<strong>To be an Ocean Ecobrick the following standards must be met:</strong>
 				<ul>
