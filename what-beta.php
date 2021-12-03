@@ -805,7 +805,7 @@ text-decoration: none;
 						<p>Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
 
 						</div>
-						<div class="side2"><img src="webp/brik-cascade.webp" width="200px">
+						<div class="side2"><img src="webp/brik-cascade.webp" width="150px">
 							</div>
 						</div>
 
@@ -854,7 +854,7 @@ text-decoration: none;
 						<div class="main2">
 					<p>Cigbricks are a new class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</p>
 					</div>
-						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="200px">
+						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="100%">
 							</div>
 						</div>
 
@@ -906,7 +906,7 @@ text-decoration: none;
 							</div>
 						</div>
 
-				<strong>To be an Ocean Ecobrick the following standards must be met:</strong>
+				<p>To be an Ocean Ecobrick the following standards must be met:</p>
 				<ul>
 					<li>A density higher than 0.25 g/ml</li>
 					<li>A maximum density of 0.70 g/ml</li>
@@ -923,7 +923,7 @@ text-decoration: none;
 				<p>Only ocean ecobricks that meet these standards can be authenticated and count as <a href="/sequest">sequestered plastic</a>.</p>
 
 				<h6><a href="/ocean"><strong>Learn more about Ocean Ecobricks</strong></a></h6>
-			</div>
+			</div><br><br>
 		</div>
 
 		
