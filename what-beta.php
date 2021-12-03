@@ -400,6 +400,24 @@ _END;?>
 }
 }
 
+
+@media screen and (min-width: 700px) {
+.main2 {
+  flex: 70%;
+
+  padding: 0px;
+  box-sizing: border-box;
+}
+}
+
+@media screen and (max-width: 700px) {
+.main2 {
+  flex: 100%;
+
+  box-sizing: border-box;
+}
+}
+
 /* Sidebar/right column */
 
 @media screen and (min-width: 700px) {
@@ -419,6 +437,23 @@ _END;?>
 	flex: 24%;
 	padding: 20px;
 	box-sizing: border-box;
+	
+	}
+	}
+
+/* Sidebar/right column */
+
+@media screen and (min-width: 700px) {
+	.side2 {
+	flex: 24%;
+	padding-left: 10px;
+	box-sizing: border-box;
+		}
+	}
+
+@media screen and (max-width: 700px) {
+	.side2 {
+	display: none;
 	
 	}
 	}
@@ -715,10 +750,15 @@ text-decoration: none;
 
 					<div id="preclosed1">
 						<br>
-						<p>The <a href="https://www.ecobricks.org/about">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="https://www.ecobricks.org/transition">petro-capital transition</a> and plastic sequestration.</p>
+						<div class="row">
+							<div class="main2"><p>The <a href="https://www.ecobricks.org/about">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="https://www.ecobricks.org/transition">petro-capital transition</a> and plastic sequestration.</p>
 					
-						<p>
-						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="https://www.ecobricks.org/sequest">criteria for plastic sequestration</a>.  The GEA ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the <a href="https://www.ecobricks.org/plastic">Earth’s example of greening the biosphere</a>.</p>
+							<p>
+							The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="https://www.ecobricks.org/sequest">criteria for plastic sequestration</a>.  The GEA ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the <a href="https://www.ecobricks.org/plastic">Earth’s example of greening the biosphere</a>.</p>
+							</div>
+							<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png">
+							</div>
+						</div>
 
 						<p>
 						An ecobrick must…
