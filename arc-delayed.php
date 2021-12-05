@@ -21,15 +21,27 @@ _END;?>
 
 <?php require_once ("meta/arc-$lang.php");?>
 
-	<!--<?php require_once ("header.php");?>-->
+	<?php require_once ("header.php");?>
 
+	<script type="text/javascript" defer>
 
+document.addEventListener("DOMContentLoaded", function(event) {
+	setTimeout(addScript, 7000)
+  });
+  
+  function addScript() {
+  
+	script = document.createElement('script');
+	script.type = 'text/javascript';
+	script.async = true;
+	script.onload = function() {
+	  console.log("Added Script");
+	};
+	script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
+	document.getElementsByTagName('head')[0].appendChild(script);
+  }
+</script>
 
-
-<!-- Arc CDN Script without delay - turned off for the moment
-<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
-
--->
 
 <STYLE>
 
@@ -439,24 +451,7 @@ text-align: right;}
 
 	<!--FOOTER STARTS HERE-->
 
-    <script type="text/javascript" defer>
-
-document.addEventListener("DOMContentLoaded", function(event) {
-	setTimeout(addScript, 7000)
-  });
-  
-  function addScript() {
-  
-	script = document.createElement('script');
-	script.type = 'text/javascript';
-	script.async = true;
-	script.onload = function() {
-	  console.log("Added Script");
-	};
-	script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
-	document.getElementsByTagName('head')[0].appendChild(script);
-  }
-</script>
+   
 
 	<!--SCRIPT TO DEFER ARVO FONT LOAD TIL END-->
 	

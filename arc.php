@@ -21,12 +21,12 @@ _END;?>
 
 <?php require_once ("meta/arc-$lang.php");?>
 
-	<!--<?php require_once ("header.php");?>-->
+	<?php require_once ("header.php");?>
 
 
 
 
-<!-- Arc CDN Script without delay - turned off for the moment-->
+<!-- Arc CDN Script without delay-->
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
 
 
