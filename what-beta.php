@@ -372,13 +372,20 @@ _END;?>
 }
 
 /* Column container */
+
+/* Create two unequal columns that sits next to each other */
+
 .row {  
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
 
-/* Create two unequal columns that sits next to each other */
+.row2 {  
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
 
 
 /* Main column */
@@ -521,6 +528,12 @@ _END;?>
 
 @media screen and (max-width: 700px) {
   .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .row2 {   
     flex-direction: column;
   }
 }
@@ -784,7 +797,7 @@ text-decoration: none;
 						<div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2021/01/authenticated-ecobrick.png" width="100%">
 						</div>
 					</div>
-					<div class="row">
+					<div class="row2">
 						<div class="main3">
 						<p>An ecobrick must fulfil the following crieria:</p>
 						</div>
@@ -835,7 +848,7 @@ text-decoration: none;
 
 					<p>Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy flammability while increasing its durability and re-usability.</p>
 
-					<div class="row">
+					<div class="row2">
 						<div class="main3">
 						<p>To be an ecobrick, the following standards must be met:</p>
 						</div>
@@ -884,7 +897,7 @@ text-decoration: none;
 						</div>
 					</div>
 
-					<div class="row">
+					<div class="row2">
 						<div class="main3">
 						<p>To be a Cigbrick the following standards must be met:</p>
 						<div>
@@ -935,7 +948,7 @@ text-decoration: none;
 						</div>
 					</div>
 
-					<div class="row">
+					<div class="row2">
 						<div class="main3">
 						<p>To be an Ocean Ecobrick the following standards must be met:</p>
 						</div>
@@ -966,12 +979,10 @@ text-decoration: none;
 		
 		<div class="page-paragraph">
 			<br><br>
-		<h4>Learn More</h4>
-
-
-		<p>Ecobricks put our plastic to good use in short and long term applications that are circular, awaring and a greening contribution to the biosphere.</p>
 		
 		<p>Ecobricking is a both an individual and collaborative endeavour.  It unites across class, continents and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raise awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="/transition">plastic transition</a>. The collaborative process gives individual and communities an hands on experience of <a href="/principles">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="/earth">earth building</a> and permaculture.</p>
+
+		<h4>Learn More</h4>
 		
 		<p>We’ve developed extensive, free and open source resource to get you started ecobricking right!  Our goal is to empower you and your community with the know-how to make ecobricks and build with them.  The pages on this site are the result of years of research, experimentation and trial and error by our trainer network around the world.
 					</p>
