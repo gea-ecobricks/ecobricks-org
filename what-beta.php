@@ -428,8 +428,8 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 .main3 {
-  flex: 70%;
-  padding: 0px;
+  flex: 50%;
+  padding-top: 15px;
   box-sizing: border-box;
 }
 }
@@ -492,9 +492,10 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.side3 {
-	flex: 24%;
+	flex: 40%;
 	padding-left: 10px;
 	box-sizing: border-box;
+	text-align: center
 		}
 	}
 
