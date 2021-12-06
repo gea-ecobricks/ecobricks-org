@@ -733,7 +733,7 @@ text-decoration: none;
 <div class="header-content-block">
 	
 <div class="header-box">
-		<div class="header-heading">Ecobricks are a simple, low-tech plastic transition technology that follows the Earth’s ancient example in carbon care.</div>
+		<div class="header-heading">Ecobricks are a simple, low-tech plastic transition technology that follows the Earth’s example of carbon care.</div>
 
 		
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
@@ -897,19 +897,19 @@ text-decoration: none;
 					<br>
 					<div class="row">
 						<div class="main2">
-					<p>Cigbricks are a class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</p>
-					</div>
+						<p>Cigbricks are a class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</p>
+						</div>
 						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="100%">
-							</div>
 						</div>
+					</div>
 
-						<div class="row">
-							<div class="main3">
-							<p>To be a Cigbrick the following standards must be met:</p>
-							<div>
-							<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="50px">
-							</div>
+					<div class="row">
+						<div class="main3">
+						<p>To be a Cigbrick the following standards must be met:</p>
+						<div>
+						<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="50px">
 						</div>
+					</div>
 			
 
 					<p><ul>
@@ -951,12 +951,12 @@ text-decoration: none;
 				<br>
 					
 				<div class="row">
-							<div class="main2">
-				<p>The Ocean Ecobrick is a  class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique						 enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
+					<div class="main2">
+					<p>The Ocean Ecobrick is a  class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique						 enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
+					</div>
+					<div class="side2"><img src="https://www.gobrik.com/images/oceanecobrick.png" width="100%">
+					</div>
 				</div>
-						<div class="side2"><img src="https://www.gobrik.com/images/oceanecobrick.png" width="100%">
-							</div>
-						</div>
 
 				<div class="row">
 					<div class="main3">
@@ -983,7 +983,8 @@ text-decoration: none;
 				<p>Only ocean ecobricks that meet these standards can be authenticated and count as <a href="/sequest">sequestered plastic</a>.</p>
 
 				<h6><a href="/ocean"><strong>Learn more about Ocean Ecobricks</strong></a></h6>
-			</div><br><br>
+				<br><br>
+			</div>
 		</div>
 
 		
