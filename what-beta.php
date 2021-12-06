@@ -796,6 +796,7 @@ text-decoration: none;
 						<div class="row">
 							<div class="main3">
 							<p>An ecobrick must fulfil the following crieria:</p>
+							</div>
 							<div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2021/01/authenticated-ecobrick.png" width="35px">
 							</div>
 						</div>
@@ -851,6 +852,7 @@ text-decoration: none;
 						<div class="row">
 							<div class="main3">
 							<p>To be an ecobrick, the following standards must be met:</p>
+							</div>
 							<div class="side3"><img src="webp/brik-cascade.webp" width="50px">
 							</div>
 						</div>
@@ -902,6 +904,7 @@ text-decoration: none;
 						<div class="row">
 							<div class="main3">
 							<p>To be a Cigbrick the following standards must be met:</p>
+							<div>
 							<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="50px">
 							</div>
 						</div>
