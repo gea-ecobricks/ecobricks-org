@@ -911,11 +911,13 @@ text-decoration: none;
 				</div>
 			</div>
 
+					</div>
+
 			<div class="reg-content-block" id="block4">
 				<div class="opener-header">
 					<div class="opener-header-text">
 					<h4>Ocean Ecobricks</h4>
-					<h5>Ecobricks for ocean and river collected plastic.</h5><br>
+					<h5>Sequestration for plastic collected from beaches, ocean and rivers.</h5><br>
 					</div>
 
 					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
