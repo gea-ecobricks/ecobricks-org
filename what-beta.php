@@ -737,7 +737,7 @@ text-decoration: none;
 
 		
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
-	</div>
+	
 	<div class="header-image"><img src="svgs/eb-blue.svg" style="width: 80%;"></div>
 
 	
