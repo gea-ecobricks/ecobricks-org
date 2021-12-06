@@ -476,6 +476,13 @@ _END;?>
 
 /* Sidebar/right column */
 
+@media screen and (min-width: 700px) {
+	.side3 {
+	display: none;
+	
+	}
+	}
+
 @media screen and (max-width: 700px) {
 	.side3 {
 	flex: 24%;
@@ -484,12 +491,7 @@ _END;?>
 		}
 	}
 
-@media screen and (min-width: 700px) {
-	.side2 {
-	display: none;
-	
-	}
-	}
+
 
 #side-module-desktop-only {
 	
@@ -959,6 +961,7 @@ text-decoration: none;
 				<div class="row">
 					<div class="main3">
 					<p>To be an Ocean Ecobrick the following standards must be met:</p>
+					</div>
 					<div class="side3"><img src="https://www.gobrik.com/images/oceanecobrick.png" width="50px">
 					</div>
 				</div>
