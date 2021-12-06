@@ -912,6 +912,7 @@ text-decoration: none;
 			</div>
 
 					</div>
+					</div>
 
 			<div class="reg-content-block" id="block4">
 				<div class="opener-header">
