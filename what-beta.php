@@ -418,6 +418,22 @@ _END;?>
 }
 }
 
+
+@media screen and (max-width: 700px) {
+.main3 {
+  flex: 70%;
+  padding: 0px;
+  box-sizing: border-box;
+}
+}
+
+@media screen and (min-width: 700px) {
+.main3 {
+  flex: 100%;
+  box-sizing: border-box;
+}
+}
+
 /* Sidebar/right column */
 
 @media screen and (min-width: 700px) {
@@ -452,6 +468,23 @@ _END;?>
 	}
 
 @media screen and (max-width: 700px) {
+	.side2 {
+	display: none;
+	
+	}
+	}
+
+/* Sidebar/right column */
+
+@media screen and (max-width: 700px) {
+	.side3 {
+	flex: 24%;
+	padding-left: 10px;
+	box-sizing: border-box;
+		}
+	}
+
+@media screen and (min-width: 700px) {
 	.side2 {
 	display: none;
 	
@@ -698,7 +731,7 @@ text-decoration: none;
 <div class="header-content-block">
 	
 <div class="header-box">
-		<div class="header-heading">Ecobricks are a simple, low-tech solution to our plastic that follows the Earth’s ancient example in carbon care.</div>
+		<div class="header-heading">Ecobricks are a simple, low-tech plastic transition technology that follows the Earth’s ancient example in carbon care.</div>
 
 		
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
@@ -721,11 +754,11 @@ text-decoration: none;
 
 			<div class="lead-page-paragraph">
 				
-			<p>An ecobrick is a PET bottle packed solid with clean and dry used <a href="/plastic">plastic</a>.  Ecobricks are made to a set density to <a href="/build">create reusable building blocks</a> that <a href="/sequest">sequester plastic</a></p>
+			<p>We make ecobricks as a way to take personal responsibility for our plastic by keeping it out of industry and out of the biosphere.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>We make ecobricks as a way to take personal responsibility for our plastic and it of industry and out of the biosphere. Ecobricks are a form of plastic sequestration that keep plastic from <a href="/why">degrading into toxins and microplastics</a>. Ecobricks can be put to short term use in <a href="/modules">modular units</a>, <a href="https://www.ecobricks.org/dms/">lego-furniture </a>and <a href="https://www.ecobricks.org/openspace/">open spaces.</a> Ecobrick can also be put to long-term use in <a href="/earth">earthen gardens and structures</a>.  In their making and in all their applications ecobrick's embody <a href="/principles">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on Earthen Ethics— the following of the Earth's ancient example in our care of carbon.</p>
+				<p> An ecobrick is a PET bottle packed solid with clean and dry used <a href="/plastic">plastic</a>.  Ecobricks are made to a set density to <a href="/build">create reusable building blocks</a> that <a href="/sequest">sequester plastic</a>.  Ecobricks are a form of plastic sequestration that keeps plastic from <a href="/why">degrading into toxins and microplastics and from out of emission intensive industrial processes.</a>.Ecobricks can be put to short term use in <a href="/modules">modular units</a>, <a href="https://www.ecobricks.org/dms/">lego-furniture </a>and <a href="https://www.ecobricks.org/openspace/">open spaces.</a> Ecobrick can also be put to long-term use in <a href="/earth">earthen gardens and structures</a>.  In their making and in all their applications ecobrick's embody <a href="/principles">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on Earthen Ethics— the following of the Earth's ancient example in our care of carbon.</p>
 			</div>
 		<!--	
 			
@@ -760,9 +793,13 @@ text-decoration: none;
 							<div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2021/01/authenticated-ecobrick.png" width="100%">
 							</div>
 						</div>
+						<div class="row">
+							<div class="main3">
+							<p>An ecobrick must fulfil the following crieria:</p>
+							<div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2021/01/authenticated-ecobrick.png" width="35px">
+							</div>
+						</div>
 
-						<p>
-						An ecobrick must…
 						<ul>
 							<li>Be a short-term building block that can be indefinitely reused in the short term.</li>
 							<li>Compact, secured and store plastic safely out of industry and out of the biosphere for the long-term</li>
@@ -811,8 +848,12 @@ text-decoration: none;
 
 						<p>Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy flammability while increasing its durability and re-usability.</p>
 
-					<p>To be an ecobrick, the following standards must be met:</p>
-					<p>
+						<div class="row">
+							<div class="main3">
+							<p>To be an ecobrick, the following standards must be met:</p>
+							<div class="side3"><img src="webp/brik-cascade.webp" width="50px">
+							</div>
+						</div>
 						<ul>
 						<li>The ecobrick is made using a transparent PET bottle</li>
 						<li>The ecobrick is only packed with used plastics that have been cleaned and dried.</li>
@@ -841,7 +882,7 @@ text-decoration: none;
 					
 					<div class="opener-header-text">
 					<h4>Cigbricks</h4>
-					<h5>A normal PET packed with plastic</h5>
+					<h5>Plastic sequestration for cigarette filers.</h5>
 					<br>
 					</div>
 
@@ -852,13 +893,19 @@ text-decoration: none;
 					<br>
 					<div class="row">
 						<div class="main2">
-					<p>Cigbricks are a new class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</p>
+					<p>Cigbricks are a class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</p>
 					</div>
 						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="100%">
 							</div>
 						</div>
 
-					<p>To be a Cigbrick the following standards must be met:</p>
+						<div class="row">
+							<div class="main3">
+							<p>To be a Cigbrick the following standards must be met:</p>
+							<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="50px">
+							</div>
+						</div>
+			
 
 					<p><ul>
 						<li>A density higher than 0.29 g/ml
@@ -906,7 +953,14 @@ text-decoration: none;
 							</div>
 						</div>
 
-				<p>To be an Ocean Ecobrick the following standards must be met:</p>
+				<div class="row">
+					<div class="main3">
+					<p>To be an Ocean Ecobrick the following standards must be met:</p>
+					<div class="side3"><img src="https://www.gobrik.com/images/oceanecobrick.png" width="50px">
+					</div>
+				</div>
+
+				
 				<ul>
 					<li>A density higher than 0.25 g/ml</li>
 					<li>A maximum density of 0.70 g/ml</li>
