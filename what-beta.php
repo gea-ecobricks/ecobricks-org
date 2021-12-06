@@ -495,7 +495,6 @@ _END;?>
 	flex: 40%;
 	padding-left: 10px;
 	box-sizing: border-box;
-	text-align: center
 		}
 	}
 
@@ -952,7 +951,7 @@ text-decoration: none;
 						<div class="main3">
 						<p>To be an Ocean Ecobrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="https://www.gobrik.com/images/oceanecobrick.png" width="120px">
+						<div class="side3"><img src="https://www.gobrik.com/images/oceanecobrick.png" width="150px">
 						</div>
 					</div>
 
