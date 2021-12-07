@@ -428,7 +428,7 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 .main3 {
-  flex: 50%;
+  flex: 40%;
   padding-top: 15px;
   box-sizing: border-box;
 }
