@@ -1004,22 +1004,29 @@ text-decoration: none;
 		<div class="side">
 
 			<div id="side-module-desktop-mobile">
-			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
+			<img src="webp/earth-home.webp" width="90%">
 				<h4>Plastic Sequestration</h4>
 				<h5>Ecobricking is a form of plastic sequestration – it secures plastics out of the biosphere and accelerates plastic transition.</h5><br>
-				<a href="sequester" target="_blank" class="module-btn">Plastic Sequestration</a>
+				<a href="sequester" target="_blank" class="module-btn">Learn More</a>
 			</div>
 				
 			<div id="side-module-desktop-only">
-			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/Bare-biosphere-1000px-3-297x300.png" width="80%">
+			<img src="webp/earth-example.webp" width="90%">
 				<h4>Regenerative</h4>
 				<h5>Ecobricking is based on following the Earth's example and is guided by seven green principles.</h5><br>
 				<a class="module-btn" href="princles">Principles</a>
 			</div>
 
+			<div id="side-module-desktop-mobile">
+				<img src="webp/circular-design.webp" width="80%">
+				<h4>Circular</h4>
+				<h5>Ecobricks and their applications are circular by design.</h5><br>
+				<a class="module-btn" href="circular">Learn More</a>
+			</div>
+
 	
 			<div id="side-module-desktop-mobile">
-				<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/GEA-Logo-v2.3-with-perspective-1000px-300x300.png" width="80%">
+				<img src="webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about">About Us</a>
