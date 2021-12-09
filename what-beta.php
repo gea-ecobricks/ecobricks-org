@@ -1004,7 +1004,7 @@ text-decoration: none;
 		<div class="side">
 
 			<div id="side-module-desktop-mobile">
-			<img src="webp/earth-home.webp" width="90%">
+			<img src="webp/earth-home2.webp" width="90%">
 				<h4>Plastic Sequestration</h4>
 				<h5>Ecobricking is a form of plastic sequestration – it secures plastics out of the biosphere and accelerates plastic transition.</h5><br>
 				<a href="sequester" target="_blank" class="module-btn">Learn More</a>
@@ -1018,9 +1018,9 @@ text-decoration: none;
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/circular-design.webp" width="80%">
+				<img src="webp/circular-design2.webp" width="80%">
 				<h4>Circular</h4>
-				<h5>Ecobricks and their applications are circular by design.</h5><br>
+				<h5>Ecobricks and their building applications are circular by design.</h5><br>
 				<a class="module-btn" href="circular">Learn More</a>
 			</div>
 
