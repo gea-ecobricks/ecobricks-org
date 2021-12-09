@@ -1004,9 +1004,9 @@ text-decoration: none;
 		<div class="side">
 
 			<div id="side-module-desktop-mobile">
-			<img src="webp/earth-home2.webp" width="90%">
+			<img src="webp/earth-home.webp" width="90%">
 				<h4>Plastic Sequestration</h4>
-				<h5>Ecobricking is a form of plastic sequestration – it secures plastics out of the biosphere and accelerates plastic transition.</h5><br>
+				<h5>Ecobricking is a form of plastic sequestration.  Ecobricks secure plastics out of the biosphere and accelerates plastic transition.</h5><br>
 				<a href="sequester" target="_blank" class="module-btn">Learn More</a>
 			</div>
 				
