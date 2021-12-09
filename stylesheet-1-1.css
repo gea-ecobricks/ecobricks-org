@@ -1735,13 +1735,13 @@ migrated from GoBrik.com CSS
   font-family: Mulish;
   color: #ffffff;
   font-size: 16px;
-  background: #c5c6c7;
+  background: #b8b8b8;
   padding: 8px 15px 8px 15px;
   text-decoration: none;
 }
 
 .module-btn:hover {
-  background: #b8b8b8;
+  background: #c5c6c7;
   text-decoration: none;
 }
 

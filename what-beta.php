@@ -1011,7 +1011,7 @@ text-decoration: none;
 			</div>
 				
 			<div id="side-module-desktop-only">
-			<img src="webp/earth-example.webp" width="90%">
+			<img src="webp/earth-example.webp" width="80%">
 				<h4>Regenerative</h4>
 				<h5>Ecobricking is based on following the Earth's example and is guided by seven green principles.</h5><br>
 				<a class="module-btn" href="princles">Principles</a>
