@@ -752,7 +752,7 @@ text-decoration: none;
 
 			<div class="lead-page-paragraph">
 				
-			<p>Making ecobricks is a simple way to take personal responsibility for our plastic by keeping it out of industry and out of the biosphere.</p>
+			<p>Ecobricking is a simple way to take personal responsibility for our plastic by keeping it out of industry and out of the biosphere.</p>
 			</div>
 
 			<div class="page-paragraph">
