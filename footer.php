@@ -123,7 +123,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			<div class="virtue">
 					
 				<a href="https://files.mandala.team/s/nptzWnNRkX3cJfr"><img src="webp/for-earth-banner-300px.webp" width="325px" height="" alt="Click through to see our current enterprise regen report" title="Click through to see our current enterprise regen report"></a>
-					
+			</div>
 			<div class="virtue">
 
 				<a href="https://www.websitecarbon.com/website/ecobricks-org/"><img src="webp/web-carbon.webp" width="330px"></a>
