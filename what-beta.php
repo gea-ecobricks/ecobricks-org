@@ -192,7 +192,7 @@ _END;?>
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #00E6FF;
-		margin-top: 50px;
+		margin-top: 45px;
 		width: 100%;
 		display: flex;
  		box-sizing: border-box;
@@ -212,7 +212,7 @@ _END;?>
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #00E6FF;
-		margin: 0 0 -20px 0;
+		margin: -3px 0 -20px 0;
 		display: flex;
  		 flex-wrap: wrap;
  		 box-sizing: border-box;
@@ -650,19 +650,7 @@ text-align: right;}
 	flex: 85%;
 }
 
-/*
-.opener-header-toggler {
-	flex: 15%;
-	margin-top: 18px;
-      font-size: 3.0em;
-      background-color: #ffffff82;
-      padding: 8px 8px 15px;
-      border-radius: 11px 11px 0 0;
-      color: #000000ad;
-      border: none;
 
-}
-*/
 
 @media screen and (max-width: 700px) {
   .block-toggle {
@@ -745,7 +733,7 @@ text-decoration: none;
 	
 <div class="header-content-block">
 	<div class="header-box">
-		<div class="header-heading">Ecobricks are a simple, low-tech plastic transition technology that follows the Earth’s example of carbon care.</div>
+		<div class="header-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
 	<div class="header-image"><img src="svgs/eb-blue.svg" style="width: 80%;"></div>	
@@ -764,11 +752,11 @@ text-decoration: none;
 
 			<div class="lead-page-paragraph">
 				
-			<p>We make ecobricks as a way to take personal responsibility for our plastic by keeping it out of industry and out of the biosphere.</p>
+			<p>Making ecobricks is a simple way to take personal responsibility for our plastic by keeping it out of industry and out of the biosphere.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p> An ecobrick is a PET bottle packed solid with clean and dry used <a href="/plastic">plastic</a>.  Ecobricks are made to a set density to <a href="/build">create reusable building blocks</a> that <a href="/sequest">sequester plastic</a>.  Ecobricks are a form of plastic sequestration that keeps plastic from <a href="/why">degrading into toxins and microplastics and from out of emission intensive industrial processes.</a>.Ecobricks can be put to short term use in <a href="/modules">modular units</a>, <a href="https://www.ecobricks.org/dms/">lego-furniture </a>and <a href="https://www.ecobricks.org/openspace/">open spaces.</a> Ecobrick can also be put to long-term use in <a href="/earth">earthen gardens and structures</a>.  In their making and in all their applications ecobrick's embody <a href="/principles">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on Earthen Ethics— the following of the Earth's ancient example in our care of carbon.</p>
+				<p> An ecobrick is a PET bottle packed solid with clean and dry used <a href="/plastic">plastic</a>.  Ecobricks are made manually to a set density to <a href="/build"> to <a href="/sequest">sequester plastic</a> and create reusable building blocks</a>.  In this way ecobricks keep plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes-- and through hands-on action, raise our awareness of all these issues.  Ecobricks can be put to short term use in <a href="/modules">modular units</a>, <a href="https://www.ecobricks.org/dms/">lego-furniture </a>and <a href="https://www.ecobricks.org/openspace/">open spaces.</a> Ecobrick can also be put to long-term use in <a href="/earth">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="/principles">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="plastic">"Earth's ancient example</a> of securing loose carbon to enrich the biosphere.</p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">
@@ -789,26 +777,26 @@ text-decoration: none;
 					<br>
 					<div class="row">
 						<div class="main2">
-							<p>The <a href="https://www.ecobricks.org/about">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="https://www.ecobricks.org/transition">petro-capital transition</a> and plastic sequestration.</p>
+							<p>The <a href="https://www.ecobricks.org/about">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="https://www.ecobricks.org/transition">petro-capital transition</a> and <a href="https://www.ecobricks.org/sequest">plastic sequestration.</a></p>
 				
 						<p>
 						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="https://www.ecobricks.org/sequest">criteria for plastic sequestration</a>.  The GEA ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the <a href="https://www.ecobricks.org/plastic">Earth’s example of greening the biosphere</a>.</p>
 						</div>
-						<div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2021/01/authenticated-ecobrick.png" width="100%">
+						<div class="side2"><img src="wp-content/uploads/2021/01/authenticated-ecobrick.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>An ecobrick must fulfil the following crieria:</p>
 						</div>
-						<div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2021/01/authenticated-ecobrick.png" width="125px">
+						<div class="side3"><img src="wp-content/uploads/2021/01/authenticated-ecobrick.png" width="125px">
 						</div>
 					</div>
 
 					<ul>
-						<li>Be a short-term building block that can be indefinitely reused in the short term.</li>
+						<li>Be a short-term, manually-made, building block that can be indefinitely reused in the short term.</li>
 						<li>Compact, secured and store plastic safely out of industry and out of the biosphere for the long-term</li>
-						<li>Result in more plastic and CO2 being subtracted from the biosphere than was added by the process</li>
+						<li>Result in more plastic and CO2 being subtracted from the biosphere than was added by the process of making</li>
 						<li>Raise the individual and collective ecological consciousness of those involved in the process</li>
 						<li>Contributing to the maintenance and encouragement of biodiversity</li>
 						<li>Be created with the priority of biosphere benefit</li>
@@ -817,13 +805,10 @@ text-decoration: none;
 					Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="https://www.ecobricks.org/brikcoin">Brikcoin blockchain</a> and the <a href="https://www.ecobricks.org/gobrik">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="https://www.ecobricks.org/aes">authenticated ecobricked plastic.</a></p>
 
 					<p>Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.  Ecobricking standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
-
 					<h6>
-
 					Learn more about the <a href="https://www.ecobricks.org/sequest"><strong>criteria of plastic sequestration.</strong></a>
 
 					Learn more about the<a href="https://www.ecobricks.org/plastic"><strong> Earth’s Example</strong></a>
-
 					</h6>
 				</div>	
 			</div>
