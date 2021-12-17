@@ -90,8 +90,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			<div class="footer-header">Wikipedia Ecobricks</div>
 				<div class="footer-subtext">Also know as eco bricks, eco-bricks, EcoBricks, ecolladrillos, and bottle bricks the Global Ecobrick Alliance and <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia</a> endorse <i>'ecobrick'</i> to refer to the sequestration of plastic in a PET bottle to make a reusable building block.<br><br>
 				</div>
-				<div class="footer-header">Tech Partners</div>
-				<div class="footer-subtext">Thank you to our Technology Partners <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a>, <a href="https://wpml.org/" target="_blank" rel="noopener">WPML The WordPress Multilingual Plugin</a><a href="https://Knack.com" target="_blank"></a> and <a href="https://statically.io" target="_blank" rel="noopener">Statically</a> who give us special access to their amazing services.</div>
+				
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Ecobricker Support</div>
@@ -101,13 +100,13 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Earth Enterprise</div>
-				<div class="footer-subtext">The <a href="/about">Global Ecobrick Alliance</a> is a for-Earth, not-for-profit, enterprise based on <a href="/principles">regenerative principles.</a><br><br></div>
-			<!--<div class="footer-header">Deep Green</div>-->
-				<div class="footer-subtext">On principle we have no corporate, government or company sponsors and receive no grants nor donations. We generate revenue by providing <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0">deep green</a> ecological <a href="brikcoins">value</a>.<br><br>We fully disclose our receipt and usage of funds on our <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">open books system.</a></div>
+				<div class="footer-subtext">The <a href="/about">Global Ecobrick Alliance</a> is a for-Earth, not-for-profit, enterprise based on <a href="/principles">regenerative principles.</a> We fully disclose our receipt and usage of funds on our <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">open books system.</a>We make sure to subtract more CO2 and plastic than we add to the biosphere and to fully disclose all our ecological impacts.  See our <a href="https://files.mandala.team/s/nptzWnNRkX3cJfr" target="_blank" rel="noopener">Regenerativity Report for 2020</a>.  See our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">live ecological impact accounting for 2021.</a></div>
 			</div>
 			<div class="footer-box">
-				<div class="footer-header">Our Ecological Impact</div>
-				<div class="footer-subtext">We make sure to subtract more CO2 and plastic than we add to the biosphere, to acheive circularity in all our creations, increase biodiversity in all our spaces, put ecological contribution before profit, and to fully disclose all our ecological impacts.  See our <a href="https://files.mandala.team/s/nptzWnNRkX3cJfr" target="_blank" rel="noopener">Regenerativity Report for 2020</a>.  See our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">live ecological impact accounting for 2021.</a>
+
+			<div class="footer-header">Tech Partners</div>
+				<div class="footer-subtext">Thank you to our Technology Partners <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a>, <a href="https://wpml.org/" target="_blank" rel="noopener">WPML The WordPress Multilingual Plugin</a><a href="https://Knack.com" target="_blank"></a> and <a href="https://statically.io" target="_blank" rel="noopener">Statically</a> who give us special access to their amazing services.</div>
+
 				</div>
 			</div>
 		</div>
@@ -147,7 +146,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 				<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/></a>
 		</div>
 		<div class="footer-invite">
-			This website is a 100% volunteer and open source project.  Contribute on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank" rel="noopener">Github.</a>
+			This page is a 100% volunteer hand-coded and open-source.  Contribute on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank" rel="noopener">Github.</a>
 		</div>
 		<div class="footer-conclusion">	
 			The AES, GEA and GoBrik logos and emblems are copyright 2021 by the Global Ecobrick Alliance.
