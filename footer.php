@@ -118,25 +118,27 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		<div class="row">
 
 		<div class="virtue">
-					<a href="about"><img src="webp/for-earth-banner-400px.webp" width="325px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
+					<a href="about"><img src="webp/forearth-black-500px.webp" width="335px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
 				</div>
 
 			<div class="virtue">
-				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="webp/disclose2-500px.webp" width="350px" height="" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a>
+				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="webp/disclose-black-500px.webp" width="350px" height="" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a>
 			</div>
 		
 
 			<div class="virtue">
-			<a href="https://gobrik.com/openbooks" target="_blank"><img src="webp/openbooks-banner-500px.webp" width="325px" height="" alt="Click through to see our current enterprise regen report" title="Click through to see our current enterprise regen report"></a>
+			<a href="https://gobrik.com/openbooks" target="_blank"><img src="webp/openbooks-black-500px.webp" width="325px" height="" alt="Click through to see our current enterprise regen report" title="Click through to see our current enterprise regen report"></a>
 
 			
 			</div>
 			
 		</div>
 
-		<a href="https://www.websitecarbon.com/website/ecobricks-org/"><img src="webp/web-carbon.webp" width="330px"></a>
-				<!--<div id="wcb" class="carbonbadge wcb-d"></div>
-					<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>-->
+		
+				<div id="wcb" class="carbonbadge wcb-d"></div>
+					<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+				<!--
+				<a href="https://www.websitecarbon.com/website/ecobricks-org/"><img src="webp/web-carbon.webp" width="330px"></a>-->
 					<br><br>
 
 		<div class="footer-conclusion">	
