@@ -594,8 +594,8 @@ text-decoration: none;
 			</div>
 
 			<div class="page-paragraph">
-				<p> An ecobrick is a PET bottle packed solid with clean and dry used plastic.  Ecobricks are made manually to a set density to  to <a href="/sequest">sequester plastic</a> and create reusable building blocks.  In this way ecobricks keep plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes.  But most of all, and through the hands-on process of ecobricking, our awareness of all these issues is deepened– a process we call <a href="transition">plastic transition</a>.  
-				
+				<p> An ecobrick is a PET bottle packed solid with clean and dry used plastic.  Ecobricks are made manually to a set density to  to <a href="/sequest">sequester plastic</a> and create reusable building blocks.  In this way ecobricks keep plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes.  But most of all, and through the hands-on process of ecobricking, our awareness of all these issues is deepened– a process we call <a href="transition">plastic transition</a>.</p>
+				<p>
 				Once many ecobricks are available, they can be put to short-term use in <a href="/modules">modular units</a>, <a href="https://www.ecobricks.org/dms/">lego-furniture </a>and <a href="https://www.ecobricks.org/openspace/">open spaces.</a> Ecobrick can also be put to long-term use in <a href="/earth">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="/principles">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="plastic">Earth's example</a> of securing loose carbon to green the biosphere.</p>
 			</div>	
 

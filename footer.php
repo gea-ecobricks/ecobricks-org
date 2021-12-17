@@ -119,11 +119,11 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		<div class="row">
 
 		<div class="virtue">
-					<a href="https://files.mandala.team/s/nptzWnNRkX3cJfr" target="_blank"><img src="webp/for-earth-banner-400px.webp" width="325px" height="" alt="Click through to see our current enterprise regen report" title="Click through to see our current enterprise regen report"></a>
+					<a href="about"><img src="webp/for-earth-banner-400px.webp" width="325px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
 				</div>
 
 			<div class="virtue">
-				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="webp/disclose-500px.webp" width="350px" height="" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a>
+				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="webp/disclose2-500px.webp" width="350px" height="" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a>
 			</div>
 		
 
