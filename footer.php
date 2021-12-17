@@ -122,7 +122,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 					
 					<a href="https://files.mandala.team/s/nptzWnNRkX3cJfr"><img src="webp/for-earth-banner-300px.webp" width="325px" height="" alt="Click through to see our current enterprise regen report" title="Click through to see our current enterprise regen report"></a>
 				</div>
-				
+
 			<div class="virtue">
 				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/"><img src="webp/disclose-500px.webp" width="350px" height="" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a>
 			</div>
@@ -130,16 +130,15 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 			<div class="virtue">
 			<a href="https://gobrik.com/openbooks"><img src="webp/openbooks-banner-400px.webp" width="325px" height="" alt="Click through to see our current enterprise regen report" title="Click through to see our current enterprise regen report"></a>
-			
 
 			
 			</div>
-			<a href="https://www.websitecarbon.com/website/ecobricks-org/"><img src="webp/web-carbon.webp" width="330px"></a>
-				<!--<div id="wcb" class="carbonbadge wcb-d"></div>
-					<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>-->
+			
 		</div>
 
-				
+		<a href="https://www.websitecarbon.com/website/ecobricks-org/"><img src="webp/web-carbon.webp" width="330px"></a>
+				<!--<div id="wcb" class="carbonbadge wcb-d"></div>
+					<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>-->
 
 		<div class="footer-conclusion">	
 			The educational content of this site is made available by the Ecobrick Alliance under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Please attribute all usage to "Ecobricks.org - Global Ecobrick Alliance" using the same license.</div>
