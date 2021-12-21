@@ -127,7 +127,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		
 
 			<div class="virtue">
-			<a href="https://gobrik.com/openbooks" target="_blank"><img src="webp/openbooks-black-500px.webp" width="325px" height="" alt="Click through to see our current enterprise regen report" title="Click through to see our current enterprise regen report"></a>
+			<a href="https://gobrik.com/#openbooks" target="_blank"><img src="webp/openbooks-black-500px.webp" width="325px" height="" alt="Click through to see our current enterprise regen report" title="Click through to see our current enterprise regen report"></a>
 
 			
 			</div>
