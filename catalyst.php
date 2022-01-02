@@ -188,24 +188,17 @@ _END;?>
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background-color: #88A176;*/
+		background-color: #88A176;
 		background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) cover top;
     	background-repeat: no-repeat;
-		
 		margin-top: 45px;
 		width: 100%;
 		display: flex;
  		box-sizing: border-box;
 		flex-direction: column;
-		
+
 		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
-	z-index: 0;
-	-webkit-transform: skewY(-3deg);
-  -moz-transform: skewY(-3deg);
-  -ms-transform: skewY(-3deg);
-  -o-transform: skewY(-3deg);
-  transform: skewY(-3deg);
 
 	margin-bottom: 40px;
 	}
@@ -219,16 +212,21 @@ _END;?>
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) contain top;
+		background-color: #88A176;
+		background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) cover top;
     	background-repeat: no-repeat;
-    	background-size: contain;
-		/*background-color: #FF13FF;*/
 		margin: -3px 0 -20px 0;
 		display: flex;
  		 flex-wrap: wrap;
  		 box-sizing: border-box;
 		  flex-direction: row;
 		  width: 100%;
+
+		  box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+	position: relative;
+
+
+	margin-bottom: 40px;
 
 }
 }
