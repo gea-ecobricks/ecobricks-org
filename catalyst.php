@@ -348,6 +348,26 @@ _END;?>
   transform: skewY(-3deg);
 
 	margin-bottom: 40px;
+
+}
+
+
+#header-bar2 {
+	margin-top: -50px;
+	width: 100%;
+	background-color: #95B97E;
+	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
+	height:100px;	
+	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+	position: relative;
+	z-index: 0;
+	-webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+
+	margin-bottom: 40px;
     }
     }
 }
@@ -574,12 +594,13 @@ text-decoration: none;
 	
 <div class="header-content-block">
 	<div class="header-box">
-		<div class="header-heading">Our Plastic Transition Catalyst Program for Keen Green Enterprises.</div>
+		<div class="header-heading">A Plastic Transition Program for Keen Green Enterprises to Amplify their Impacts.</div>
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
 	<div class="header-image"><img src="wp-content/uploads/2021/04/Catalyst-Company-Logo-square-v1.3-with-shadow-500px-2.png" style="width: 60%;"></div>	
 </div>
 <div id="header-bar"></div>
+<div id="header-bar2"></div>
 
 
 <!-- PAGE CONTENT-->
@@ -593,7 +614,7 @@ text-decoration: none;
 
 			<div class="lead-page-paragraph">
 				
-			<p>Take your green leadership to next level through the tracking and disclosure of your plastic transition.</p>
+			<p>Take your green leadership to next level through the tracking, disclosure and offsetting of your plastic transition.</p>
 			</div>
 
 			<div class="page-paragraph">
@@ -756,8 +777,8 @@ text-decoration: none;
 			<div class="reg-content-block" id="block4">
 				<div class="opener-header">
 					<div class="opener-header-text">
-					<h4>Ocean Ecobricks</h4>
-					<h5>Sequestration for plastic collected from beaches, ocean and rivers.</h5><br>
+					<h4>Catalyst Success Stories</h4>
+					<h5>Four years of developing the program with keen green partner enterprises.</h5><br>
 					</div>
 
 					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
