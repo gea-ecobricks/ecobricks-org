@@ -600,7 +600,7 @@ text-decoration: none;
 	<div class="header-image"><img src="wp-content/uploads/2021/04/Catalyst-Company-Logo-square-v1.3-with-shadow-500px-2.png" style="width: 60%;"></div>	
 </div>
 <div id="header-bar"></div>
-<div id="header-bar2"></div>
+<!--<div id="header-bar2"></div>-->
 
 
 <!-- PAGE CONTENT-->
@@ -614,11 +614,11 @@ text-decoration: none;
 
 			<div class="lead-page-paragraph">
 				
-			<p>Take your green leadership to next level through the tracking, disclosure and offsetting of your plastic transition.</p>
+			<p>Take your enterprise's green leadership to next level through the tracking, disclosure and offsetting of your plastic transition.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>An enterprise's transition from platic generation to zero waste and from zero-waste to net-subtraction is one of the most telling indicators of its greeness.  Through company plastic tracking and disclosure you can start to lead by example.  Through company ecobricking, community outreach and plastic offsetting, you can amplify your impact.  Our free enterprise catalyst accounts you can do all this and more. The GEA, as a third party, Earth Enterprise, can then certify your progress and results for maximum inspiration to other companies striving to go green.</p>
+				<p>An enterprise's transition from platic generation to zero-waste and far beyond is one of the most telling indicators of its greeness.  And it starts through tracking and disclosure.  Our free enterprise catalyst accounts you can do all this and more. The GEA, as a third party Earth Enterprise, can then certify your progress and results for maximum inspiration to other companies striving to go green.</p>
 
 			</div>	
 
