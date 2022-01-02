@@ -211,7 +211,7 @@ _END;?>
 		/*background: url(svgs/cloud-back.svg) right top;*/
     	background-repeat: no-repeat;
     	background-size: contain;
-		background-color: #00E6FF;
+		background-color: #FF13FF;
 		margin: -3px 0 -20px 0;
 		display: flex;
  		 flex-wrap: wrap;
@@ -330,7 +330,7 @@ _END;?>
 #header-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #00E6FF;
+	background-color: #FF13FF;
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
@@ -571,10 +571,10 @@ text-decoration: none;
 	
 <div class="header-content-block">
 	<div class="header-box">
-		<div class="header-heading">A Plastic Transition Catalyst Program for Keen Green Enterprises.</div>
+		<div class="header-heading">Our Plastic Transition Catalyst Program for Keen Green Enterprises.</div>
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
-	<div class="header-image"><img src="wp-content/uploads/2021/04/Catalyst-Company-Logo-square-v1.3-with-shadow-500px-2.png" style="width: 80%;"></div>	
+	<div class="header-image"><img src="wp-content/uploads/2021/04/Catalyst-Company-Logo-square-v1.3-with-shadow-500px-2.png" style="width: 60%;"></div>	
 </div>
 <div id="header-bar"></div>
 
@@ -590,11 +590,11 @@ text-decoration: none;
 
 			<div class="lead-page-paragraph">
 				
-			<p>Ecobricking is a simple way to take personal responsibility for our plastic by keeping it out of industry and out of the biosphere.</p>
+			<p>Take your green leadership to next level through the tracking and disclosure of your plastic transition.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p> An ecobrick is a PET bottle packed solid with clean and dry used plastic.  Ecobricks are made manually to a set density to  to <a href="/sequest">sequester plastic</a> and create reusable building blocks.  In this way ecobricks keep plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes.  But most of all, the hands-on process of ecobricking deepens our awareness of these issues and their regenerative alternatives– what we call <a href="transition">plastic transition</a>.</p>
+				<p> The inspirational potential of keen green and commited comapanies is immense.  Managers of companies large and small know all too well how difficult it can be to transition from plastic.  Breaking the reliance on plastic can appear daunting, if not impossible!  Through company ecobricking, you can start to lead by example.  Through the tools, workshops and software of our Catalyst Program we can work together to track and accelerate your positive impact. The GEA, as a third party, Earth Enterprise, can then certify your progress and results for maximum inspiration to other companies striving to go green.</p>
 				<p>
 				Once many ecobricks are available, they can be put to short-term use in <a href="/modules">modular units</a>, <a href="https://www.ecobricks.org/dms/">lego-furniture </a>and <a href="https://www.ecobricks.org/openspace/">open spaces.</a> Ecobrick can also be put to long-term use in <a href="/earth">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="/principles">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="plastic">Earth's example</a> of securing loose carbon to green the biosphere.</p>
 			</div>	
