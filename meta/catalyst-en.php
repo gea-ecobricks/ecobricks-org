@@ -10,12 +10,12 @@
 
 	<meta property="og:url"           content="https://www.ecobricks.org/en/what-beta.php"/>
 	<meta property="og:type"          content="website">
- 	<meta property="og:title"         content="What is an ecobrick? | Ecobricks.org">
-  	<meta property="og:description"   content="Ecobricks are a plastic transition solution to make reusable buidling blocks of sequestered plastic."/>
-  	<meta property="og:image"         content="https://www.ecobricks.org/pngs/what-page-ecobrick-banner-1024px.png"/>
-  	<meta property="og:image:width" content="1024" />
-	<meta property="og:image:height" content="1017" />
-  	<meta property="og:image:alt"     content="An ecobrick being packed with plastic using a wooden stick."/>
+ 	<meta property="og:title"         content="Enterprise Catalyst Program | Ecobricks.org">
+  	<meta property="og:description"   content="A Plastic Transition Catalyst Program for Keen Green Enterprises."/>
+  	<meta property="og:image"         content="wp-content/uploads/2021/04/Catalyst-Company-Logo-square-v1.3-with-shadow-500px-2.png"/>
+  	<meta property="og:image:width" content="500px" />
+	<meta property="og:image:height" content="500px" />
+  	<meta property="og:image:alt"     content="Catalyst Program Logo by the Global Ecobrick Alliance."/>
 	  <meta property="og:locale" content="en_GB" />
 
 	
