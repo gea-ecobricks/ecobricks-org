@@ -288,8 +288,8 @@ _END;?>
 .header-heading { 
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: white;
-  font-weight: 300;
-  text-shadow: 0 0 10px #4c4b4b;
+  font-weight: 500;
+  text-shadow: 0 0 8px black;
 
 }
 
@@ -341,7 +341,7 @@ _END;?>
 	width: 100%;
 	background-color: #88A176;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
-	height:70px;	
+	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
 	z-index: 0;
@@ -352,7 +352,6 @@ _END;?>
   transform: skewY(-3deg);
 
 	margin-bottom: 40px;
-	display: none;
     }
     }
 }
@@ -602,7 +601,9 @@ text-decoration: none;
 			</div>
 
 			<div class="page-paragraph">
-				<p> The inspirational potential of keen green and commited comapanies is immense.  Managers of companies large and small know all too well how difficult it can be to transition from plastic.  Breaking the reliance on plastic can appear daunting, if not impossible!  Through company ecobricking, you can start to lead by example.  Through the tools, workshops and software of our Catalyst Program we can work together to track and accelerate your positive impact. The GEA, as a third party, Earth Enterprise, can then certify your progress and results for maximum inspiration to other companies striving to go green.</p>
+				<p>An enterprise's transition from platic generation to zero waste and from zero-waste to net-subtraction is one of the most telling indicators of its greeness.  Through company plastic tracking and disclosure you can start to lead by example.  Through company ecobricking, community outreach and plastic offsetting, you can amplify your impact.  Our free enterprise catalyst accounts you can do all this and more. The GEA, as a third party, Earth Enterprise, can then certify your progress and results for maximum inspiration to other companies striving to go green.</p>
+
+				The inspirational potential of keen green and commited comapanies is immense.  
 				<p>
 				We’ve watched as our partner companies have transformed their dependence on plastic into profound connections with their staff, local communities and the world.  Splitvision, Swedish company has helped us catalyze half of dozen Training of Trainer worshops around the world, accounting for 5 tons of plastic secured in the last two year.  Meanwhile, PT Marimas has catalyzed hundreds of Ecobrick Starter Workshops while using our Ecobrikable Designator to take its plastic products down the road of circular design.  Ubud Raw Chocolate has used ecobrikcing to connect deeper with its staff, the local community and move steadily towards being fully zero waste (their are at 10% this year!).   Our program enables everyone in your company, from CEOs to security guards, to implement personal, trackable, real-time plastic transition so that you and and your company can lead by example in the regenerative business revolution.
 
@@ -840,26 +841,8 @@ The GEA is a not for profit Earth Enterprise focused on empowering deep plastic 
 
 		<div class="side">
 
-			<div id="side-module-desktop-mobile">
-			<img src="webp/earth-home.webp" width="90%">
-				<h4>Plastic Sequestration</h4>
-				<h5>Ecobricking is a form of plastic sequestration.  Ecobricks secure plastics out of the biosphere and accelerates plastic transition.</h5><br>
-				<a href="sequester" target="_blank" class="module-btn">Learn More</a>
-			</div>
-				
-			<div id="side-module-desktop-only">
-			<img src="webp/earth-example.webp" width="80%">
-				<h4>Regenerative</h4>
-				<h5>Ecobricking is based on following the Earth's example and is guided by seven green principles.</h5><br>
-				<a class="module-btn" href="princles">Principles</a>
-			</div>
 
-			<div id="side-module-desktop-mobile">
-				<img src="webp/circular-design2.webp" width="80%">
-				<h4>Circular</h4>
-				<h5>Ecobricks and their building applications are circular by design.</h5><br>
-				<a class="module-btn" href="circular">Learn More</a>
-			</div>
+			
 
 	
 			<div id="side-module-desktop-mobile">
@@ -874,6 +857,13 @@ The GEA is a not for profit Earth Enterprise focused on empowering deep plastic 
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="about">About Us</a>
+			</div>
+
+			<div id="side-module-desktop-mobile">
+				<img src="webp/balancing-green.webp" width="80%">
+				<h4>Plastic Offsetting</h4>
+				<h5>Our Catalyst Program allows you to offset your plastic generation and support the global ecobrick movement.</h5><br>
+				<a class="module-btn" href="aes">Learn More</a>
 			</div>
 
 		</div>
