@@ -17,7 +17,7 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/what-beta-$lang.php");?>
+<?php require_once ("meta/what-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
