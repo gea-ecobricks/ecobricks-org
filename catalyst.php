@@ -199,8 +199,6 @@ _END;?>
 
 		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
-
-	margin-bottom: 40px;
 	}
 }
 
@@ -225,8 +223,6 @@ _END;?>
 		  box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
 
-
-	margin-bottom: 40px;
 
 }
 }
@@ -603,11 +599,6 @@ text-decoration: none;
 			<div class="page-paragraph">
 				<p>An enterprise's transition from platic generation to zero waste and from zero-waste to net-subtraction is one of the most telling indicators of its greeness.  Through company plastic tracking and disclosure you can start to lead by example.  Through company ecobricking, community outreach and plastic offsetting, you can amplify your impact.  Our free enterprise catalyst accounts you can do all this and more. The GEA, as a third party, Earth Enterprise, can then certify your progress and results for maximum inspiration to other companies striving to go green.</p>
 
-				The inspirational potential of keen green and commited comapanies is immense.  
-				<p>
-				We’ve watched as our partner companies have transformed their dependence on plastic into profound connections with their staff, local communities and the world.  Splitvision, Swedish company has helped us catalyze half of dozen Training of Trainer worshops around the world, accounting for 5 tons of plastic secured in the last two year.  Meanwhile, PT Marimas has catalyzed hundreds of Ecobrick Starter Workshops while using our Ecobrikable Designator to take its plastic products down the road of circular design.  Ubud Raw Chocolate has used ecobrikcing to connect deeper with its staff, the local community and move steadily towards being fully zero waste (their are at 10% this year!).   Our program enables everyone in your company, from CEOs to security guards, to implement personal, trackable, real-time plastic transition so that you and and your company can lead by example in the regenerative business revolution.
-
-The GEA is a not for profit Earth Enterprise focused on empowering deep plastic transition.  Our catalyst program is our way to work with companies to see our vision through.   As countries impose taxes on plastic usage, as government implement laws on Extended Producer Responsibility, and as consumers demand company accountability, the GEA is positioned as a third party, independent arbiter.   We’ve been hard at work for years developing the tools and infrastructure to quantify meaningful plastic transition progress.  Read on!</p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">
@@ -615,8 +606,8 @@ The GEA is a not for profit Earth Enterprise focused on empowering deep plastic 
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Ecobricking Standards</h4>
-						<h5>The GEA maintains standards for ecobricking that are divided into six categories</h5>
+						<h4>Plastic Transition Tracking</h4>
+						<h5>Monitor your grey and green impacts over the year.</h5>
 					</div>
 					
 
@@ -667,8 +658,8 @@ The GEA is a not for profit Earth Enterprise focused on empowering deep plastic 
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
 					<div class="opener-header-text">
-						<h4>Regular Ecobricks</h4>
-						<h5>A normal PET packed with plastic</h5><br>
+						<h4>Plastic Transition Disclosure</h4>
+						<h5>Certification & Hosting of your Report</h5><br>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 				</div>
@@ -715,8 +706,8 @@ The GEA is a not for profit Earth Enterprise focused on empowering deep plastic 
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>Cigbricks</h4>
-					<h5>Plastic sequestration for cigarette filers.</h5>
+					<h4>Plastic Transition Acceleration</h4>
+					<h5>Ecobricking, Offseting & Workshop Catalyzation.</h5>
 					<br>
 					</div>
 
