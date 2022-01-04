@@ -616,9 +616,9 @@ margin-top: 40px;
 <div class="header-content-block">
 	<div class="header-box">
 		<div class="header-heading">A Program for Keen Green Enterprises to Track, Disclose & Accelerate their Plastic Transition.</div>
-		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
+		<!--<div class="header-sub">A Solution For Plastic transition</div>wp-content/uploads/2021/04/Catalyst-Company-Logo-square-v1.3-with-shadow-500px-2.png-->
 	</div>
-	<div class="header-image"><img src="wp-content/uploads/2021/04/Catalyst-Company-Logo-square-v1.3-with-shadow-500px-2.png" style="width: 60%;"></div>	
+	<div class="header-image"><img src="svgs/catalyst-logo.svg" style="width: 60%;"></div>	
 </div>
 <div id="header-bar"></div>
 <!--<div id="header-bar2"></div>-->
