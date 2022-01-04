@@ -329,13 +329,10 @@ _END;?>
 }
 
 
-
-
-
 #header-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #88A176;
+	background-color: #96B77F;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -640,39 +637,24 @@ text-decoration: none;
 					<br>
 					<div class="row">
 						<div class="main2">
-							<p>The <a href="about">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition">petro-capital transition</a> and <a href="sequest">plastic sequestration.</a></p>
+							<p>Today its clear that the vast majority of the plastic we use eventually makes its way to the biosphere. Tracking your company's production and consumption of plastic is the first step in reducing one's grey impact on the environment.</p>
 				
-						<p>
-						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics and the<a href="plastic">Earth’s example of greening the biosphere</a>.</p>
-						</div>
-						<div class="side2"><img src="wp-content/uploads/2021/01/authenticated-ecobrick.png" width="100%">
+						
+						<div class="side2"><img src="webp/balancing-green.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>An ecobrick must fulfil the following crieria:</p>
+						<p>10 minute setyp, year-long tracking.</p>
 						</div>
-						<div class="side3"><img src="wp-content/uploads/2021/01/authenticated-ecobrick.png" width="125px">
+						<div class="side3"><img src="webp/balancing-green.webp" width="125px">
 						</div>
 					</div>
-
-					<ul>
-						<li>Be created by a not-for-profit process that is for-Earth benefit.</li>
-						<li>Manually compact and secure used plastic into a transparent, building block that can be indefinitely reused in the short and long term.</li>
-						<li>Result in more plastic and CO2 being subtracted from the biosphere than was added by the process of making</li>
-						<li>Result in building applications that contribute to the maintenance and encouragement of biodiversity</li>
-						<li>Raise the individual and collective ecological consciousness of those involved in the process.</li>
-					</ul></p>
 					<p>
-					Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="brikcoin">Brikcoin blockchain</a> and the <a href="gobrik">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="aes">authenticated ecobricked plastic.</a></p>
-
-					<p>Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.
-					<p>Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
-					<h6>
-					Learn more about the <a href="https://www.ecobricks.org/sequest"><strong>criteria of plastic sequestration.</strong></a>
-
-					Learn more about the<a href="https://www.ecobricks.org/plastic"><strong> Earth’s Example</strong></a>
-					</h6>
+						The Catalyst program gets you going in 10 minutes using your estimates of your yearly plastic generation.  Month by month, your team will receive reports, reminding them of these impacts and ecouraging them to step up their reduction and subtraction initiatives.</p>
+						<p>For more advanced companies that are already keeping detailed stats on their plastic generation, the program allows for month by month data entry.</p>
+						<p>Meanwhile, all the ecobricking done by your staff is logged and credited to your enterprise.  Reaching out to your community?  Those ecobricks can be credited to your enterprise also!  Over the course of the year you can track in real time the increase of your green impact.</p>
+						</div>
 				</div>	
 			</div>
 
@@ -688,37 +670,22 @@ text-decoration: none;
 				<div id="preclosed2">
 					<div class="row">
 						<div class="main2">
-						<p>Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
+						<p>You're passionate about the planet and so is your enterprise.  So let the world know.  Plastic transition disclosure allows you to showcase your efforts, lead by example and inspire others.</p>
 						</div>
-						<div class="side2"><img src="webp/brik-cascade.webp" width="150px">
+						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="150px">
 						</div>
 					</div>
 
-					<p>Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy <a href="fire">flammability</a> while maximizing its durability and re-usability.</p>
+					<p>The Catalyst allows you to create yearly plastic impact reports that summarize your grey and green impacts.  As a third-party host, we certify your green plastic impacts so that you can confidently share them with your customers, clients and government reviews.</p>
 
 					<div class="row2">
 						<div class="main3">
-						<p>To be an ecobrick, the following standards must be met:</p>
+						<p>Link to your reports and showcase your plastic transition.</p>
 						</div>
 						<div class="side3"><img src="https://ecobricks.org/svgs/eb-blue.svg" width="120px">
 						</div>
 					</div>
-					<ul>
-					<li>The ecobrick is made using a transparent PET bottle</li>
-					<li>The ecobrick is only packed with used plastics that have been cleaned and dried.</li>
-					<li>The ecobrick’s density is higher than 0.33g/ml</li>
-					<li>The ecobrick must have a density of 0.70g/ml or less</li>
-					<li>The ecobrick is sealed tight with a screw down lid.</li>
-					<li>Care has been taken taken to prepare the ecobrick as a reusable building block:
-						<ul>
-						<li>The label has been removed and ecobricked.</li>
-						<li>A bottom color has been added</li>
-						<li>The weight has been permanently recorded on the outside.</li>
-						</ul></li>
-					</ul></p>
-					<p>Only ecobricks that meet these standards can be authenticated and count as sequestered plastic.</p>
-					<br>
-					<h6><a href="/how">View our 10 Step Guide on Making an Ecobrick</a></h6>
+					<p>Showcase your plastic transition with our GEA certified banners on your website, products and marketing.</p>
 				</div>
 			</div>
 
@@ -739,36 +706,29 @@ text-decoration: none;
 					<br>
 					<div class="row">
 						<div class="main2">
-						<p>Cigbricks are a class of ecobrick to secure the potentially toxic plastic/acetate of the cigarette filters. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</p>
+						<p>But best of all, the Catalyst program allows you to take decisive and quantifiable action to green your company's impact.  You can use our system to log your ecobricks, buy plastic offsets and mobilize communities.  The green impact of all these goes to the credit of your enterprise.</p>
 						</div>
-						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="100%">
+						<div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2020/09/AES-Plastic-Logo-full-vector-shadowed.svg" width="100%">
 						</div>
 					</div>
 
 					<div class="row2">
 						<div class="main3">
-						<p>To be a Cigbrick the following standards must be met:</p>
+						<p>There are three types of green impacts that can be certified as AES credit.</p>
 						</div>
-						<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="120px">
+						<div class="side3"><img src="https://www.ecobricks.org/wp-content/uploads/2020/09/AES-Plastic-Logo-full-vector-shadowed.svg" width="120px">
 						</div>
 					</div>
 			
 
-					<p><ul>
-						<li>A density higher than 0.29 g/ml
-						<li>A maximum density of 0.70g/ml
-						<li>Only packed with acetate cigarette butts – the paper and ash have been removed.
-						<li>The cigbrick is sealed tight with a screw down lid.
-						<li>Care has been taken taken to prepare the cigbrick as a reuseable building block:
-							<ul>
-							<li>The label has been removed and ecobricked.
-							<li>A bottom color has been added
-							<li>The weight has been recorded on the outside.
-							</ul></li>
-						</ul></p>
-
-						<p>Only cigbricks that meet these standards can be authenticated and count as sequestered plastic.</p>
-					<h6><a href="/cigbricks">Learn more about Cibricks</a></h6>
+					<p><b>Ecobricking</b></p>
+						Ecobricks logged by the staff in your company, then which are successfully authenticated on the Brikcoin blockchain, qualify as AES plastic.
+					<p><b>Plastic Offsetting</b></p>
+					<p>Your enterprise can purchase plastic offset credit on the GoBrik platform using Brikcoins or cash, to credit you year end reporting.</p>
+					<p>Community Catalyzation</p>
+					<p>By sponsoring workshops in your community, the ecobricks of new ecobrickers are credited to your enterprise.  By sponsoring GEA training of trainers workshops, the future trainers in these events, their ecobrickers and the communities they start, generate AES credits for your enterprise.
+					</p>
+					<h6><a href="/trainings">Learn more about GEA Trainings</a></h6>
 				</div>
 			</div>
 
@@ -827,22 +787,23 @@ text-decoration: none;
 		<div class="page-paragraph">
 			<br><br>
 		
-		<h4>Personal & Community Empowerment</h4>
-		<p>Ecobricking is a both an individual and collaborative endeavour.  It unites across class, continents and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raise awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="/transition">plastic transition</a>. The collaborative process gives individual and communities an hands on experience of <a href="/principles">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="/earth">earth building</a> and permaculture.</p>
+		<h4>Setup Your Catalyst Account</h4>
+		<p>As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  All you need is a personal GoBrik account to get started!</p>
+		<br>
+		<a class="module-btn" href="https://gobrik.com/#catalyze">>> Launch Catalyst Accoun Setup</a>
 		<br><br>
 
 		<h4>Learn More</h4>
 		
-		<p>The Global Ecobrick Alliance has developed extensive, free and open source resources (like this page!) to get you started ecobricking right.  Our goal is to empower you and your community with the know-how to make ecobricks and build with them.  The pages on this site are the result of years of research, experimentation and trial and error by plastic transition leaders around the world.
+		<p>Many powerful concepts underlie the Catalyst Program. .
 		</p>
 		<ul>
-			<li><a href="why">Why Make Ecobricks?</a></li>
-			<li><a href="how">How to Ecobrick?</a></li>
-			<li><a href="circular">Cradle to Cradle</a></li>
-			<li><a href="build">Building with Ecobricks</a></li>
-			<li><a href="movement">The Movement</a></li>
-			<li><a href="dropoff">Dropping off ecobricks?</a></li>
-			<li><a href="trainings">Ecobrick Trainings</a></li>
+			<li><a href="aes">AES Plastic Offsetting</a></li>
+			<li><a href="brikcion">Brikcoin Manual Blockchain</a></li>
+			<li><a href="sequest">Plastic Sequestration</a></li>
+			<li><a href="mandalas">Leading by Example</a></li>
+			<li><a href="principles">Regenerative Principles</a></li>
+			<li><a href="https://medium.com/earthen">The Earthen Ethics Theory of Green</a></li>
 		</ul>
 		</div>
 
