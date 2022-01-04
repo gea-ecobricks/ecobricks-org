@@ -577,6 +577,25 @@ ul a:hover {
 text-decoration: none;
 }
 
+.action-btn {
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+font-family: Mulish;
+color: #fff;
+font-size: 20px;
+background: #3BB74B;
+padding: 12px 18px;
+text-decoration: none;
+font-weight: 500;
+margin-top: 40px;
+}
+
+.module-btn:hover {
+  background: #00A317;
+  text-decoration: none;
+}
+
 	
 </style>	
 
@@ -596,7 +615,7 @@ text-decoration: none;
 	
 <div class="header-content-block">
 	<div class="header-box">
-		<div class="header-heading">A Plastic Transition Program for Keen Green Enterprises to Amplify their Impacts.</div>
+		<div class="header-heading">A Program for Keen Green Enterprises to Track, Disclose & Accelerate their Plastic Transition.</div>
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
 	<div class="header-image"><img src="wp-content/uploads/2021/04/Catalyst-Company-Logo-square-v1.3-with-shadow-500px-2.png" style="width: 60%;"></div>	
@@ -616,7 +635,7 @@ text-decoration: none;
 
 			<div class="lead-page-paragraph">
 				
-			<p>Take your enterprise's green leadership to next level through the tracking, disclosure and offsetting of your plastic transition.</p>
+			<p>Take your enterprise's green leadership to next level by transforming your plastic problem into your regenerative launch pad.</p>
 			</div>
 
 			<div class="page-paragraph">
@@ -740,12 +759,11 @@ text-decoration: none;
 			
 		
 		<div class="page-paragraph">
-			<br><br>
 		
 		<h4>Get Started!</h4>
-		<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  All you need is a personal GoBrik account to get started!</p>
-		<br>
-		<a class="module-btn" href="https://gobrik.com/#catalyze">>> Launch Catalyst Account Setup</a>
+		<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  Use your GoBrik account to get started (or register first for a free personal account).</p>
+		<br><br>
+		<a class="module-btn" href="https://gobrik.com/#catalyze">🚀 Launch Catalyst Setup</a>
 		<br><br>
 <!--
 		<h4>Learn More</h4>
