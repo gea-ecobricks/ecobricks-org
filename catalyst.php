@@ -192,6 +192,7 @@ _END;?>
 		background: url(webp/gray-to-green-catalyst-banner.webp) top;
 		background-color: #88A176;
     	background-repeat: no-repeat;
+		background-size: cover;
 		margin-top: 45px;
 		width: 100%;
 		display: flex;
@@ -200,6 +201,7 @@ _END;?>
 
 		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
+
 	}
 }
 
@@ -221,6 +223,7 @@ _END;?>
  		 box-sizing: border-box;
 		  flex-direction: row;
 		  width: 100%;
+		  background-size: cover;
 
 		  box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
@@ -735,66 +738,16 @@ text-decoration: none;
 			</div>
 
 			
-
-			<div class="reg-content-block" id="block4">
-				<div class="opener-header">
-					<div class="opener-header-text">
-					<h4>Catalyst Success Stories</h4>
-					<h5>Four years of developing the program with keen green partner enterprises.</h5><br>
-					</div>
-
-					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
-				</div>
-
-				<div id="preclosed4">
-					<br>	
-					<div class="row">
-						<div class="main2">
-						<p>Ocean Ecobricks are a class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
-						</div>
-						<div class="side2">
-						<img src="https://www.gobrik.com/images/oceanecobrick.png" width="100%">
-						</div>
-					</div>
-
-					<div class="row2">
-						<div class="main3">
-						<p>To be an Ocean Ecobrick the following standards must be met:</p>
-						</div>
-						<div class="side3"><img src="https://www.gobrik.com/images/oceanecobrick.png" width="150px">
-						</div>
-					</div>
-
-					<ul>
-						<li>A density higher than 0.25 g/ml</li>
-						<li>A maximum density of 0.70 g/ml</li>
-						<li>Are packed with as much plastic as possible</li>
-						<li>Sealed tight (but not air tight).</li>
-						<li>Care has been taken taken to prepare the ocean ecobrick as a reuseable building block:
-					<ul>
-						<li>The bottle's label has been removed and ecobricked.</li>
-						<li>A bottom color has been added</li>
-						<li>The weight has been recorded on the outside.</li>
-					</ul>
-					</li>
-					</ul>
-					<p>Only ocean ecobricks that meet these standards can be authenticated and count as <a href="/sequest">sequestered plastic</a>.</p>
-
-					<h6><a href="/ocean"><strong>Learn more about Ocean Ecobricks</strong></a></h6>
-					<br><br>
-				</div>
-			</div>
-
 		
 		<div class="page-paragraph">
 			<br><br>
 		
-		<h4>Setup Your Catalyst Account</h4>
-		<p>As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  All you need is a personal GoBrik account to get started!</p>
+		<h4>Get Started!</h4>
+		<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  All you need is a personal GoBrik account to get started!</p>
 		<br>
-		<a class="module-btn" href="https://gobrik.com/#catalyze">>> Launch Catalyst Accoun Setup</a>
+		<a class="module-btn" href="https://gobrik.com/#catalyze">>> Launch Catalyst Account Setup</a>
 		<br><br>
-
+<!--
 		<h4>Learn More</h4>
 		
 		<p>Many powerful concepts underlie the Catalyst Program. .
@@ -807,6 +760,7 @@ text-decoration: none;
 			<li><a href="principles">Regenerative Principles</a></li>
 			<li><a href="https://medium.com/earthen">The Earthen Ethics Theory of Green</a></li>
 		</ul>
+-->
 		</div>
 
 	</div>
