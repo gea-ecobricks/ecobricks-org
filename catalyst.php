@@ -188,8 +188,9 @@ _END;?>
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
+		
+		background: url(webp/gray-to-green-catalyst-banner.webp) top;
 		background-color: #88A176;
-		background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) top;
     	background-repeat: no-repeat;
 		margin-top: 45px;
 		width: 100%;
@@ -210,8 +211,9 @@ _END;?>
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
+		
+		background: url(svgs/gray-to-green-catalyst-banner2.svg) top;
 		background-color: #88A176;
-		background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) top;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
