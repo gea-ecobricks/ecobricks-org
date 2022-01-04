@@ -663,13 +663,13 @@ margin-top: 40px;
 						<div class="main2">
 							<p>Today its clear that the vast majority of the plastic we use eventually makes its way to the biosphere. Tracking your company's production and consumption of plastic is the first step in reducing one's grey impact on the environment.</p>
 				
-						
+					</div>
 						<div class="side2"><img src="webp/balancing-green.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>10 minute setyp, year-long tracking.</p>
+						<p>10 minute setupp, year-long tracking.</p>
 						</div>
 						<div class="side3"><img src="webp/balancing-green.webp" width="125px">
 						</div>
@@ -759,11 +759,11 @@ margin-top: 40px;
 			
 		
 		<div class="page-paragraph">
-		
+		<br>
 		<h4>Get Started!</h4>
 		<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  Use your GoBrik account to get started (or register first for a free personal account).</p>
 		<br><br>
-		<a class="module-btn" href="https://gobrik.com/#catalyze">🚀 Launch Catalyst Setup</a>
+		<a class="action-btn" href="https://gobrik.com/#catalyze">🚀 Launch Catalyst Setup</a>
 		<br><br>
 <!--
 		<h4>Learn More</h4>
