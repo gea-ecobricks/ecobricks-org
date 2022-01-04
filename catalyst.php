@@ -663,21 +663,22 @@ margin-top: 40px;
 						<div class="main2">
 							<p>Today its clear that the vast majority of the plastic we use eventually makes its way to the biosphere. Tracking your company's production and consumption of plastic is the first step in reducing one's grey impact on the environment.</p>
 						</div>
-						<div class="side2"><img src="webp/balancing-green.webp" width="100%">
+						<div class="side2"><img src="webp/balancing-green.webp" width="80%">
 						</div>
 					</div>
+
 					<div class="row2">
 						<div class="main3">
-						<p>10 minute setup, year-long tracking.</p>
+						<p>The Catalyst program gets you going in 10 minutes using your estimates of your yearly plastic generation.</p>
 						</div>
 						<div class="side3"><img src="webp/balancing-green.webp" width="125px">
 						</div>
 					</div>
 					<p>
-						The Catalyst program gets you going in 10 minutes using your estimates of your yearly plastic generation.  Month by month, your team will receive reports, reminding them of these impacts and ecouraging them to step up their reduction and subtraction initiatives.</p>
-						<p>For more advanced companies that are already keeping detailed stats on their plastic generation, the program allows for month by month data entry.</p>
-						<p>Meanwhile, all the ecobricking done by your staff is logged and credited to your enterprise.  Reaching out to your community?  Those ecobricks can be credited to your enterprise also!  Over the course of the year you can track in real time the increase of your green impact.</p>
-						</div>
+					Month by month, your team will receive reports, reminding them of these impacts and ecouraging them to step up their reduction and subtraction initiatives.</p>
+				<p>For more advanced companies that are already keeping detailed stats on their plastic generation, the program allows for month by month data entry.</p>
+				<p>Meanwhile, all the ecobricking done by your staff is logged and credited to your enterprise.  Reaching out to your community?  Those ecobricks can be credited to your enterprise also!  Over the course of the year you can track in real time the increase of your green impact.</p>
+						
 				</div>	
 			</div>
 
@@ -758,12 +759,13 @@ margin-top: 40px;
 			
 		
 		<div class="page-paragraph">
-		<br>
-		<h4>Get Started!</h4>
-		<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  Use your GoBrik account to get started (or register first for a free personal account).</p>
-		<br><br>
-		<a class="action-btn" href="https://gobrik.com/#catalyze">🚀 Launch Catalyst Setup</a>
-		<br><br>
+			<br>
+			<h4>Get Started!</h4>
+			<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  Use your GoBrik account to get started (or register first for a free personal account).</p>
+			<br><br>
+			<a class="action-btn" href="https://gobrik.com/#catalyze">🚀 Launch Catalyst Setup</a>
+			<br><br>
+		</div>
 <!--
 		<h4>Learn More</h4>
 		
@@ -778,7 +780,7 @@ margin-top: 40px;
 			<li><a href="https://medium.com/earthen">The Earthen Ethics Theory of Green</a></li>
 		</ul>
 -->
-		</div>
+		
 
 	</div>
 
