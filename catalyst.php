@@ -618,7 +618,7 @@ margin-top: 40px;
 		<div class="header-heading">A Program for Keen Green Enterprises to Track, Disclose & Accelerate their Plastic Transition.</div>
 		<!--<div class="header-sub">A Solution For Plastic transition</div>wp-content/uploads/2021/04/Catalyst-Company-Logo-square-v1.3-with-shadow-500px-2.png-->
 	</div>
-	<div class="header-image"><img src="svgs/catalyst-logo.svg" style="width: 60%;"></div>	
+	<div class="header-image"><img src="webp/catalyst-logo.webp" style="width: 70%;"></div>	
 </div>
 <div id="header-bar"></div>
 <!--<div id="header-bar2"></div>-->
@@ -763,8 +763,8 @@ margin-top: 40px;
 			<h4>Get Started!</h4>
 			<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  Use your GoBrik account to get started (or register first for a free personal account).</p>
 			<br><br>
-			<a class="action-btn" href="https://gobrik.com/#catalyze">🚀 Launch Catalyst Setup</a>
-			<br><br>
+			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
+			<br><h6>We'll send you over to GoBrik in a new window.</a>
 		</div>
 <!--
 		<h4>Learn More</h4>
