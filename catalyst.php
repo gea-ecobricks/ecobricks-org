@@ -190,7 +190,7 @@ _END;?>
 		z-index: 5;
 		
 		background: url(webp/gray-to-green-catalyst-banner.webp) top;
-		background-color: #88A176;
+		background-color: #5A8D37;
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -215,7 +215,7 @@ _END;?>
 		position: relative;
 		
 		background: url(svgs/gray-to-green-catalyst-banner2.svg) top;
-		background-color: #88A176;
+		background-color: #5A8D37;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -591,7 +591,7 @@ font-weight: 500;
 margin-top: 40px;
 }
 
-.module-btn:hover {
+.action-btn:hover {
   background: #00A317;
   text-decoration: none;
 }
@@ -662,14 +662,13 @@ margin-top: 40px;
 					<div class="row">
 						<div class="main2">
 							<p>Today its clear that the vast majority of the plastic we use eventually makes its way to the biosphere. Tracking your company's production and consumption of plastic is the first step in reducing one's grey impact on the environment.</p>
-				
-					</div>
+						</div>
 						<div class="side2"><img src="webp/balancing-green.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>10 minute setupp, year-long tracking.</p>
+						<p>10 minute setup, year-long tracking.</p>
 						</div>
 						<div class="side3"><img src="webp/balancing-green.webp" width="125px">
 						</div>
