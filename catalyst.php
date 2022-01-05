@@ -635,12 +635,13 @@ margin-top: 40px;
 
 			<div class="lead-page-paragraph">
 				
-			<p>Take your enterprise's green intentions to next level. Transform your plastic problem into your launch into regenerative, net-green and subtractive operations.</p>
+			<p>Take your enterprise's green intentions to next level. Transform your plastic problem into a regenerative launch pad.  Blast off with us into regenerative, net-green and net-subtractive operations.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>An enterprise's transition from platic generation to zero-waste and from zero-waste to far beyond is one of the most telling indicators of its greeness.  And there's only one starting point. Plastic tracking and disclosure.  This is so important that for 2022, we're waiting all the old fees to the tools we've developed that enable just this. Then, the GEA, as a third party Earth Enterprise, can then certify your progress and results for maximum inspiration to other companies striving to go green.</p>
-			<p>Together we can catalyze plastic transition in our local and global communities</p>
+				<p>An enterprise's transition from platic generation to zero-waste and from zero-waste to far beyond is one of the most telling indicators of its greeness.  And there's only one starting point. Plastic tracking and disclosure.<p>
+					<p>This is so important, that for 2022, we're waiving all the fees for our program that does just this.  We're making the platform we've developed over the last four years accessible to everyone. Then, using the data from our Brikcoin blockchain, we can certify your progress as third party.  You then can disclose your transition and help inspire other enterprises striving to go green.</p>
+			<p>Together we can catalyze <a href="transition">plastic transition</a> in our local and global communities.</p>
 
 			</div>	
 
@@ -650,7 +651,7 @@ margin-top: 40px;
 					
 					<div class="opener-header-text">
 						<h4>Plastic Transition Tracking</h4>
-						<h5>Monitor your grey and green impacts over the year.</h5>
+						<h5>Monitor your grey and green plastic impacts over the year.</h5>
 					</div>
 					
 
@@ -747,10 +748,10 @@ margin-top: 40px;
 			
 
 					<p><b>Ecobricking</b></p>
-						Ecobricks logged by the staff in your company, then which are successfully authenticated on the Brikcoin blockchain, qualify as AES plastic.
+						<p>Ecobricks logged by the staff in your company, then which are successfully authenticated on the Brikcoin blockchain, qualify as AES plastic.</p>
 					<p><b>Plastic Offsetting</b></p>
 					<p>Your enterprise can purchase plastic offset credit on the GoBrik platform using Brikcoins or cash, to credit you year end reporting.</p>
-					<p>Community Catalyzation</p>
+					<b><p>Community Catalyzation</p></b>
 					<p>By sponsoring workshops in your community, the ecobricks of new ecobrickers are credited to your enterprise.  By sponsoring GEA training of trainers workshops, the future trainers in these events, their ecobrickers and the communities they start, generate AES credits for your enterprise.
 					</p>
 					<h6><a href="/trainings">Learn more about GEA Trainings</a></h6>
@@ -765,23 +766,15 @@ margin-top: 40px;
 			<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  Use your GoBrik account to get started (or register first for a free personal account).</p>
 			<br><br>
 			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-			<br><p style="font-size: 0.8em">We'll send you over to GoBrik in a new window.</a></p>
+			<br><br><p style="font-size: 0.85em">We'll send you over to GoBrik in a new window.</a></p>
 		</div>
 
 		<div class="page-paragraph">
-			<br>
-			<h4>Get Started!</h4>
-			<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  Use your GoBrik account to get started (or register first for a free personal account).</p>
-			<br><br>
-			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-			<br><h6>We'll send you over to GoBrik in a new window.</a>
-		</div>
-
-		<div class="page-paragraph">
-			<br>
+			
 			<h4>See How We Do It</h4>
-			<p>The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p>
+			<p>The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br><br>
 			<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-300px.png"></a>
+			<br><br><p style="font-size: 0.85em">This will open our report in a new window.</a></p>
 		
 		</div>
 <!--
