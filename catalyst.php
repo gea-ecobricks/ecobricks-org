@@ -616,9 +616,9 @@ margin-top: 40px;
 <div class="header-content-block">
 	<div class="header-box">
 		<div class="header-heading">A Program for Keen Green Enterprises to Track, Disclose & Accelerate their Plastic Transition.</div>
-		<!--<div class="header-sub">A Solution For Plastic transition</div>wp-content/uploads/2021/04/Catalyst-Company-Logo-square-v1.3-with-shadow-500px-2.png-->
+		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
-	<div class="header-image"><img src="webp/catalyst-logo.webp" style="width: 70%;"></div>	
+	<div class="header-image"><img src="wp-content/uploads/2021/04/Catalyst-Company-Logo-square-v1.3-with-shadow-500px-2.png" style="width: 70%;"></div>	
 </div>
 <div id="header-bar"></div>
 <!--<div id="header-bar2"></div>-->
@@ -635,11 +635,12 @@ margin-top: 40px;
 
 			<div class="lead-page-paragraph">
 				
-			<p>Take your enterprise's green leadership to next level by transforming your plastic problem into your regenerative launch pad.</p>
+			<p>Take your enterprise's green intentions to next level. Transform your plastic problem into your launch into regenerative, net-green and subtractive operations.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>An enterprise's transition from platic generation to zero-waste and far beyond is one of the most telling indicators of its greeness.  And it starts through tracking and disclosure.  Our free enterprise catalyst accounts you can do all this and more. The GEA, as a third party Earth Enterprise, can then certify your progress and results for maximum inspiration to other companies striving to go green.</p>
+				<p>An enterprise's transition from platic generation to zero-waste and from zero-waste to far beyond is one of the most telling indicators of its greeness.  And there's only one starting point. Plastic tracking and disclosure.  This is so important that for 2022, we're waiting all the old fees to the tools we've developed that enable just this. Then, the GEA, as a third party Earth Enterprise, can then certify your progress and results for maximum inspiration to other companies striving to go green.</p>
+			<p>Together we can catalyze plastic transition in our local and global communities</p>
 
 			</div>	
 
@@ -764,7 +765,24 @@ margin-top: 40px;
 			<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  Use your GoBrik account to get started (or register first for a free personal account).</p>
 			<br><br>
 			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
+			<br><p style="font-size: 0.8em">We'll send you over to GoBrik in a new window.</a></p>
+		</div>
+
+		<div class="page-paragraph">
+			<br>
+			<h4>Get Started!</h4>
+			<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  Use your GoBrik account to get started (or register first for a free personal account).</p>
+			<br><br>
+			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
 			<br><h6>We'll send you over to GoBrik in a new window.</a>
+		</div>
+
+		<div class="page-paragraph">
+			<br>
+			<h4>See How We Do It</h4>
+			<p>The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p>
+			<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-300px.png"></a>
+		
 		</div>
 <!--
 		<h4>Learn More</h4>
