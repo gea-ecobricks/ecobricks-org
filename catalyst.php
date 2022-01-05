@@ -748,13 +748,13 @@ margin-top: 40px;
 			
 
 					<p><b>Ecobricking</b></p>
-						<p>Ecobricks logged by the staff in your company, then which are successfully authenticated on the Brikcoin blockchain, qualify as AES plastic.</p>
+						<p>Ecobricks logged by the staff in your company, then which are successfully authenticated on the Brikcoin blockchain, qualify as AES plastic.</p><br>
 					<p><b>Plastic Offsetting</b></p>
-					<p>Your enterprise can purchase plastic offset credit on the GoBrik platform using Brikcoins or cash, to credit you year end reporting.</p>
-					<b><p>Community Catalyzation</p></b>
+					<p>Your enterprise can purchase plastic offset credit on the GoBrik platform using Brikcoins or cash, to credit you year end reporting.</p><br>
+					<p><b>Community Catalyzation</b></p>
 					<p>By sponsoring workshops in your community, the ecobricks of new ecobrickers are credited to your enterprise.  By sponsoring GEA training of trainers workshops, the future trainers in these events, their ecobrickers and the communities they start, generate AES credits for your enterprise.
 					</p>
-					<h6><a href="/trainings">Learn more about GEA Trainings</a></h6>
+					<h6><a href="/trainings">Learn more about GEA Trainings</a></h6><br>
 				</div>
 			</div>
 
@@ -766,7 +766,7 @@ margin-top: 40px;
 			<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  Use your GoBrik account to get started (or register first for a free personal account).</p>
 			<br><br>
 			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-			<br><br><p style="font-size: 0.85em">We'll send you over to GoBrik in a new window.</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
 		</div>
 
 		<div class="page-paragraph">
@@ -774,7 +774,7 @@ margin-top: 40px;
 			<h4>See How We Do It</h4>
 			<p>The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br><br>
 			<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-300px.png"></a>
-			<br><br><p style="font-size: 0.85em">This will open our report in a new window.</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">This will open our report in a new window.</a></p>
 		
 		</div>
 <!--
