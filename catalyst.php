@@ -639,7 +639,8 @@ margin-top: 40px;
 			</div>
 
 			<div class="page-paragraph">
-				<p>An enterprise's transition from platic generation to zero-waste and from zero-waste to far beyond is one of the most telling indicators of its greeness.  And there's only one starting point. Plastic tracking and disclosure.<p>
+				<p>An enterprise's plastic transition is one of the most telling indicators of its green.  Whether your on your way down to zero waste, or whether your already moving beyond, there's only one starting point: Plastic tracking and disclosure.<p>
+
 					<p>This is so important, that for 2022, we're waiving all the fees for our program that does just this.  We're making the platform we've developed over the last four years accessible to everyone. Then, using the data from our Brikcoin blockchain, we can certify your progress as third party.  You then can disclose your transition and help inspire other enterprises striving to go green.</p>
 			<p>Together we can catalyze <a href="transition">plastic transition</a> in our local and global communities.</p>
 
@@ -774,7 +775,7 @@ margin-top: 40px;
 			<h4>See How We Do It</h4>
 			<p>The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br>
 			<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-300px.png"></a>
-			<p style="font-size: 0.85em; margin-top:12px;">This will open our report in a new window.</a></p>
+			<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
 		
 		</div>
 <!--
