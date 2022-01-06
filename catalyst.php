@@ -807,7 +807,7 @@ margin-top: 40px;
 			
 				<h4>Get Started</h4>
 				<h5>Setup your Catalyst Account today.</h5><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
+				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Setup</a>
 			</div>
 
 	
