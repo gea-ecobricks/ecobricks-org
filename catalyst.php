@@ -795,7 +795,7 @@ margin-top: 40px;
 		<div class="page-paragraph">
 			<br>
 			<h4>Get Started!</h4>
-			<p>Setup your Catalyst account today.  As of 2022, we're doing away with out old fee structure.  All catalyst accounts, for enterprises large and small are free.  Use your GoBrik account to get started (or register first for a free personal account).</p>
+			<p>Setup your Catalyst account today.  Use your GoBrik account to get started (or register first for a free personal account).</p>
 			<br><br>
 			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
 			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
