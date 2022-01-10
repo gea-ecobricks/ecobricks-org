@@ -826,10 +826,10 @@ margin-top: 40px;
 
 				<div id="preclosed4">
 					<br>
-					The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:
+					<p>The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br><p>
 					
 						<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-300px.png"></a>
-			<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
+					<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
 			
 				</div>
 			</div>
@@ -864,7 +864,7 @@ margin-top: 40px;
 -->
 		
 
-	</div>
+
 
 	
 
