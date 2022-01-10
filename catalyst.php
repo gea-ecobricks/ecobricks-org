@@ -214,7 +214,7 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		background: url(svgs/gray-to-green-catalyst-banner2.svg) top;
+		background: url(svgs/gray-to-green-catalyst-banner3.svg) top;
 		background-color: #4f8a28ff;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
@@ -676,7 +676,7 @@ margin-top: 40px;
 
 					<div class="row2">
 						<div class="main3">
-						<p><b>Get started in 15 minutes for the year.</b></p>
+						<br><p><b>Get started in 15 minutes</b></p>
 						<p>The Catalyst program gets you going in no time using a process of estimation refinement. As an owner, manager of president of your enterprise you can estimate better than anyone else how much plastic you are currently using.</p>
 						</div>
 						<div class="side3"><img src="webp/balancing-green.webp" width="125px">
@@ -684,9 +684,9 @@ margin-top: 40px;
 					</div>
 					<p>
 					Month by month, you and your team will receive Plastic Transition reports.  These reports will remind you and your team to step up their reduction and subtraction initiatives.  As you put attention on your plastic you can refine your estimates.</p>
-					<p><b>Detailed Tracking</b></p>
+					<br><p><b>Detailed Tracking</b></p>
 				<p>Once your enterprise has established systems for detailed plastic tracking and weighing, you can enabled month by month data entry.  Managers can observe the enterprise's plastic transition charted over the year. </p>
-				<p><b>Reaching out to your community?</b></p>
+				<br><p><b>Reaching out to communities</b></p>
 				<p>By catalyzing ecobrick workshops in communities, you can gain credit for the ecobricks made by participants.  Over the course of the year, our system can track in real time the social increase of your green impact.</p>
 						
 				</div>	
@@ -706,7 +706,7 @@ margin-top: 40px;
 						<div class="main2">
 						<p>You're passionate about the planet and so is your enterprise.  So let the world know!  Plastic transition disclosure allows you to showcase your efforts, lead by example and inspire others.</p>
 						</div>
-						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="200px">
+						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="175px">
 						</div>
 					</div>
 
@@ -714,9 +714,10 @@ margin-top: 40px;
 
 					<div class="row">
 						<div class="main2">
+						<p><b>Automated Reporting</b></p>
 						<p>The Catalyst program allows you to create yearly plastic impact reports that summarize your grey and green impacts.  As a third-party host, we certify your green plastic impacts so that you can confidently share them with your customers, clients and government reviews.</p>
 						</div>
-						<div class="side2"><br><img src="https://www.ecobricks.org/wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="200px">
+						<div class="side2"><br><img src="https://www.ecobricks.org/wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="175px">
 						</div>
 					</div>
 
@@ -726,13 +727,13 @@ margin-top: 40px;
 
 					<div class="row2">
 						<div class="main3">
-						<b>Lead by Example</b>
+						<br><p><b>Lead by Example</b></p>
 						<p>Link to your reports and showcase your plastic transition.</p>
 						</div>
 						<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="150px">
 						</div>
 					</div>
-					<p>Showcase your plastic transition with our GEA certified banners on your website, products and marketing.</p>
+					<p>Showcase your plastic transition with our GEA certified banners on your website, products and marketing.  Like this...</p><br>
 					<p>
 					<img src="https://www.ecobricks.org/banners/gea-disclose-300px.png" width="250px"></p>
 				</div>
@@ -829,7 +830,7 @@ margin-top: 40px;
 			
 				<h4>Get Started</h4>
 				<h5>Use a free Catalyst Account to ignite your plastic transition.</h5><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Setup</a><br>
+				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Setup</a><br><br>
 			</div>
 
 	
