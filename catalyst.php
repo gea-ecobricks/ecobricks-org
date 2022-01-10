@@ -821,15 +821,16 @@ margin-top: 40px;
 					<br>
 					</div>
 
-					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show3">+</button>
+					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
 				</div>
 
 				<div id="preclosed4">
-					<br>
+					
 					<p>The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br><p>
 					
 						<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-300px.png"></a>
 					<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
+					<hr><br>
 			
 				</div>
 			</div>
@@ -840,7 +841,7 @@ margin-top: 40px;
 
 		<div class="page-paragraph">
 			<br>
-			<h4>Get Started!</h4>
+			<h2>Get Started!</h2>
 			<p>Setup your Catalyst account today.  Use your GoBrik account to get started.  If you don't have a GoBrik account yet, be sure to register first for a free personal account.</p>
 			<br><br>
 			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
