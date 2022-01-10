@@ -215,7 +215,7 @@ _END;?>
 		position: relative;
 		
 		background: url(svgs/gray-to-green-catalyst-banner2.svg) top;
-		background-color: #5A8D37;
+		background-color: #4f8a28ff;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -337,7 +337,7 @@ _END;?>
 #header-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #96B77F;
+	background-color: #4f8a28ff;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -635,14 +635,18 @@ margin-top: 40px;
 
 			<div class="lead-page-paragraph">
 				
-			<p>Take your enterprise's green intentions to next level. Transform your plastic problem into a regenerative launch pad.  Blast off with us into regenerative, net-green and net-subtractive operations.</p>
+			<p>Use your enterprise's plastic problem to launch into regenerative transition!  Blast off with us into net-green and net-subtractive operations.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>An enterprise's plastic transition is one of the most telling indicators of its green.  Whether your on your way down to zero waste, or whether your already moving beyond, there's only one starting point: Plastic tracking and disclosure.<p>
+				<p>An enterprise's plastic transition is one of the most telling indicators of its green.  Whether your on your way down to zero waste or whether your already moving beyond into net-green, there's only one starting point: Plastic tracking and disclosure.<p>
 
-					<p>This is so important, that for 2022, we're waiving all the fees for our program that does just this.  We're making the platform we've developed over the last four years accessible to everyone. Then, using the data from our Brikcoin blockchain, we can certify your progress as third party.  You then can disclose your transition and help inspire other enterprises striving to go green.</p>
-			<p>Together we can catalyze <a href="transition">plastic transition</a> in our local and global communities.</p>
+				<p>Our Catalyst program let's you do just this.  Track, disclose and transition from your use of plastic with us.</p>
+
+					<p>This is so important that for 2022, we're waiving all fees for the GEA catalyst program.  We're making the platform we've developed over the last four years accessible to bussiness large and small for free.
+					
+					<p>Then, by using the data connected to your enterprise on the Brikcoin blockchain, we can certify your stats and transition.  You then can disclose your third-party-certified transition to public and in government reporting.  </p>
+			<p>And... best of all inspire other enterprises striving to go green to transition from their plastic too.  Together we can catalyze <a href="transition">plastic transition</a> in our local and global communities.</p>
 
 			</div>	
 
@@ -652,7 +656,7 @@ margin-top: 40px;
 					
 					<div class="opener-header-text">
 						<h4>Plastic Transition Tracking</h4>
-						<h5>Monitor your grey and green plastic impacts over the year.</h5>
+						<h5>Monitor your subtractive and additive plastic impacts over the year.</h5>
 					</div>
 					
 
@@ -664,7 +668,7 @@ margin-top: 40px;
 					<br>
 					<div class="row">
 						<div class="main2">
-							<p>Today its clear that the vast majority of the plastic we use eventually makes its way to the biosphere. Tracking your company's production and consumption of plastic is the first step in reducing one's grey impact on the environment.</p>
+							<p>Today its clear that the vast majority of the plastic we use eventually makes its way to the biosphere.  When your enterprise consumes or produces plastic, we call this a "grey plastic impact".  Tracking your company's production and consumption of plastic is the first step in reducing one's grey impact on the environment.</p>
 						</div>
 						<div class="side2"><img src="webp/balancing-green.webp" width="80%">
 						</div>
@@ -672,15 +676,18 @@ margin-top: 40px;
 
 					<div class="row2">
 						<div class="main3">
-						<p>The Catalyst program gets you going in 10 minutes using your estimates of your yearly plastic generation.</p>
+						<b>Get started in 15 minutes for the year.</b>
+						<p>The Catalyst program gets you going in no time using a process of estimation refinement. As an owner, manager of president of your enterprise you can estimate better than anyone else how much plastic you are currently using.</p>
 						</div>
 						<div class="side3"><img src="webp/balancing-green.webp" width="125px">
 						</div>
 					</div>
 					<p>
-					Month by month, your team will receive reports, reminding them of these impacts and ecouraging them to step up their reduction and subtraction initiatives.</p>
-				<p>For more advanced companies that are already keeping detailed stats on their plastic generation, the program allows for month by month data entry.</p>
-				<p>Meanwhile, all the ecobricking done by your staff is logged and credited to your enterprise.  Reaching out to your community?  Those ecobricks can be credited to your enterprise also!  Over the course of the year you can track in real time the increase of your green impact.</p>
+					Month by month, you and your team will receive Plastic Transition reports.  These reports will remind you and your team to step up their reduction and subtraction initiatives.  As you put attention on your plastic you can refine your estimates.</p>
+					<b>Detailed Tracking</b>
+				<p>Once your enterprise has established systems for detailed plastic tracking and weighing, you can enabled month by month data entry.  Managers can observe the enterprise's plastic transition charted over the year. </p>
+				<b>Reaching out to your community?</b>
+				<p>By catalyzing ecobrick workshops in communities, you can gain credit for the ecobricks made by participants.  Over the course of the year, our system can track in real time the social increase of your green impact.</p>
 						
 				</div>	
 			</div>
@@ -697,22 +704,35 @@ margin-top: 40px;
 				<div id="preclosed2">
 					<div class="row">
 						<div class="main2">
-						<p>You're passionate about the planet and so is your enterprise.  So let the world know.  Plastic transition disclosure allows you to showcase your efforts, lead by example and inspire others.</p>
+						<p>You're passionate about the planet and so is your enterprise.  So let the world know!  Plastic transition disclosure allows you to showcase your efforts, lead by example and inspire others.</p>
 						</div>
 						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="150px">
 						</div>
 					</div>
 
-					<p>The Catalyst allows you to create yearly plastic impact reports that summarize your grey and green impacts.  As a third-party host, we certify your green plastic impacts so that you can confidently share them with your customers, clients and government reviews.</p>
+					
+
+					<div class="row">
+						<div class="main2">
+						<p>The Catalyst program allows you to create yearly plastic impact reports that summarize your grey and green impacts.  As a third-party host, we certify your green plastic impacts so that you can confidently share them with your customers, clients and government reviews.</p>
+						</div>
+						<div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="150px">
+						</div>
+					</div>
+
+
+
+					
 
 					<div class="row2">
 						<div class="main3">
 						<p>Link to your reports and showcase your plastic transition.</p>
 						</div>
-						<div class="side3"><img src="https://ecobricks.org/svgs/eb-blue.svg" width="120px">
+						<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="150px">
 						</div>
 					</div>
 					<p>Showcase your plastic transition with our GEA certified banners on your website, products and marketing.</p>
+					<img src="https://www.ecobricks.org/banners/gea-disclose-300px.png" width="250px">
 				</div>
 			</div>
 
@@ -733,7 +753,7 @@ margin-top: 40px;
 					<br>
 					<div class="row">
 						<div class="main2">
-						<p>But best of all, the Catalyst program allows you to take decisive and quantifiable action to green your company's impact.  You can use our system to log your ecobricks, buy plastic offsets and mobilize communities.  The green impact of all these goes to the credit of your enterprise.</p>
+						<p>But best of all, the Catalyst program allows you to take decisive and quantifiable action to green your enterprise's impact.  You can use our system to log your ecobricks, buy plastic offsets and mobilize communities.  The green impact of all these goes to the credit of your enterprise.</p>
 						</div>
 						<div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2020/09/AES-Plastic-Logo-full-vector-shadowed.svg" width="100%">
 						</div>
