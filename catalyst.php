@@ -189,7 +189,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
 		
-		background: url(webp/gray-to-green-catalyst-banner.webp) top;
+		background: url(webp/gray-to-green-catalyst-banner.webp) bottom;
 		background-color: #5A8D37;
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -198,8 +198,6 @@ _END;?>
 		display: flex;
  		box-sizing: border-box;
 		flex-direction: column;
-
-		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
 
 	}
@@ -635,18 +633,17 @@ margin-top: 40px;
 
 			<div class="lead-page-paragraph">
 				
-			<p>Use your plastic consumption to launch into regenerative transition!  Blast off with us into net-green and net-subtractive operations.</p>
+			<p>An enterprise's plastic transition is one of the most telling indicators of its greeness.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>An enterprise's plastic transition is one of the most telling indicators of its greeness.  Whether you are on your way down to zero waste or whether you are already far beyond into net-green, there's only one way to truly lead by example and make a difference: Plastic tracking and disclosure.<p>
+				<p>Whether your enterprise is on its way down to zero-waste or whether you are already far beyond into net-green, there's only one way to truly lead by example and make a difference: Plastic tracking and disclosure.<p>
 
-				<p>Our Catalyst program let's you do just this.  Track, disclose and transition from your use of plastic with us.</p>
-
-					<p>This is so important that for 2022, we're waiving all fees for the GEA catalyst program.  We're making the platform we've developed over the last four years accessible to bussiness large and small for free.
-					
-					<p>Then, by using the data connected to your enterprise on the Brikcoin blockchain, we can certify your stats and transition.  You then can disclose your third-party-certified transition to public and in government reporting.  </p>
-			<p>And... best of all inspire other enterprises striving to go green to transition from their plastic too.  Together we can catalyze <a href="transition">plastic transition</a> in our local and global communities.</p>
+				<p>Our Catalyst program let's you do just this.  Track, disclose and transition from your use of plastic with us.  We feel this is so important,for 2022, we're waiving all fees for the GEA catalyst program.</p>
+				
+				<p>Once your account is setup, the Global Ecobrick Alliance can host your reporting and certify your subtractive plastic impacts.  As third-party certified stats, you can use it for your public and in government reporting.  And inspire others!  Together we can catalyze <a href="transition">plastic transition</a> in our local and global communities.</p>
+				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
+			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
 
 			</div>	
 
@@ -677,11 +674,12 @@ margin-top: 40px;
 					<div class="row2">
 						<div class="main3">
 						<br><p><b>Get started in 15 minutes</b></p>
-						<p>The Catalyst program gets you going in no time using a process of estimation refinement. As an owner, manager of president of your enterprise you can estimate better than anyone else how much plastic you are currently using.</p>
+					
 						</div>
 						<div class="side3"><img src="webp/balancing-green.webp" width="125px">
 						</div>
 					</div>
+					<p>The Catalyst program gets you going in no time using a process of estimation refinement. As an owner, manager of president of your enterprise you can estimate better than anyone else how much plastic you are currently using.</p>
 					<p>
 					Month by month, you and your team will receive Plastic Transition reports.  These reports will remind you and your team to step up their reduction and subtraction initiatives.  As you put attention on your plastic you can refine your estimates.</p>
 					<br><p><b>Detailed Tracking</b></p>
@@ -727,13 +725,14 @@ margin-top: 40px;
 
 					<div class="row2">
 						<div class="main3">
-						<br><p><b>Lead by Example</b></p>
-						<p>Link to your reports and showcase your plastic transition.</p>
+						<br><p><b>Public Disclosure</b></p>
+						
 						</div>
 						<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="150px">
 						</div>
 					</div>
-					<p>Showcase your plastic transition with our GEA certified banners on your website, products and marketing.  Like this...</p><br>
+					
+					<p>Showcase your plastic transition with our GEA certified banners on your website, products and marketing.  Link to your reports and showcase your plastic transition.  Like this...</p><br>
 					<p>
 					<img src="https://www.ecobricks.org/banners/gea-disclose-300px.png" width="250px"></p>
 				</div>
@@ -784,6 +783,15 @@ margin-top: 40px;
 
 			
 		
+
+		<div class="page-paragraph">
+			
+			<h4>See How We Do It</h4>
+			<p>The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br>
+			<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-300px.png"></a>
+			<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
+
+
 		<div class="page-paragraph">
 			<br>
 			<h4>Get Started!</h4>
@@ -792,13 +800,6 @@ margin-top: 40px;
 			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
 			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
 		</div>
-
-		<div class="page-paragraph">
-			
-			<h4>See How We Do It</h4>
-			<p>The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br>
-			<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-300px.png"></a>
-			<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
 		
 		</div>
 <!--
@@ -826,7 +827,7 @@ margin-top: 40px;
 
 
 			
-		<div id="side-module-desktop-mobile">
+		<div id="side-module-desktop-only">
 			
 				<h4>Get Started</h4>
 				<h5>Use a free Catalyst Account to ignite your plastic transition.</h5><br>

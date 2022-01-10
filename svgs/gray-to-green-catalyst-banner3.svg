@@ -8,7 +8,7 @@
    <stop stop-color="#4a0" offset="0"/>
    <stop stop-color="#5e5e5e" offset="1"/>
   </radialGradient>
-  <linearGradient id="linearGradient1326" x1="270.32" x2="274.15" y1="203.52" y2="99.524" gradientTransform="matrix(1 0 0 1.8109 0 -167.16)" gradientUnits="userSpaceOnUse">
+  <linearGradient id="linearGradient1326" x1="270.32" x2="267.76" y1="203.52" y2="97.841" gradientTransform="matrix(1 0 0 1.8109 0 -167.16)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#4f8a28" offset="0"/>
    <stop stop-color="#808080" stop-opacity="0" offset="1"/>
   </linearGradient>
