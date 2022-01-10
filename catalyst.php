@@ -154,6 +154,34 @@ _END;?>
 </script>
 
 
+<script>
+	function preclosed5() {
+	  var x = document.getElementById("preclosed5");
+		if (x.style.display === "block") {
+			x.style.display = "none";
+		} else {
+			x.style.display = "block";
+		}
+
+	var y = document.getElementById("block5");
+	if (y.style.display === "grid") {
+		y.style.background = "#f6f6f6";
+		y.style.display = "block";
+	} else {
+		y.style.background = "#fff";
+		y.style.display = "grid";
+	}
+	
+	var x = document.getElementById("block-toggle-show5");
+		if (x.innerHTML === "+") {
+			x.innerHTML = "-";
+		} else {
+			x.innerHTML = "+";
+		}
+	}
+</script>
+
+
 
 <STYLE>
 
@@ -781,21 +809,39 @@ margin-top: 40px;
 				</div>
 			</div>
 
-			
-		
 
-		<div class="page-paragraph">
-			
-			<br><h4>See How We Do It</h4>
-			<p>The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br>
-			<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-300px.png"></a>
+
+			<div class="reg-content-block" id="block4">
+
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+					<h4>See How We do It.</h4>
+					<h5>How the GEA and other Enterprises Use the Program</h5>
+					<br>
+					</div>
+
+					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show3">+</button>
+				</div>
+
+				<div id="preclosed4">
+					<br>
+					The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:
+					
+						<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-300px.png"></a>
 			<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
+			
+				</div>
+			</div>
+
+			
+	
 
 
 		<div class="page-paragraph">
 			<br>
 			<h4>Get Started!</h4>
-			<p>Setup your Catalyst account today.  Use your GoBrik account to get started (or register first for a free personal account).</p>
+			<p>Setup your Catalyst account today.  Use your GoBrik account to get started.  If you don't have a GoBrik account yet, be sure to register first for a free personal account.</p>
 			<br><br>
 			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
 			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
