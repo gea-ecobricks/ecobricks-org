@@ -664,11 +664,13 @@ margin-top: 40px;
 			</div>
 
 			<div class="page-paragraph">
-				<p>Whether your enterprise is on its way down to zero-waste or whether you are already far beyond into net-green, there's only one way to truly lead by example and make a difference: Plastic tracking and disclosure.<p>
+				<p>Whether your enterprise is reducing down to zero-waste or accelerating into net-green, there's only one way to truly lead by example and make a difference: Plastic tracking and disclosure.<p>
 
-				<p>Our Catalyst program let's you do just this.  Track, disclose and transition from your use of plastic with us.  We feel this is so important,for 2022, we're waiving all fees for the GEA catalyst program.</p>
+				<p>Our Catalyst program let's you do just this.  We feel this is so important, that for 2022, we're waiving all upfront fees.  We are excited to open the platform that our team and partner companies has developed over the last three years to all keen green companies, NGOs and projects.</p>
 				
-				<p>Once your account is setup, the Global Ecobrick Alliance can host your reporting and certify your subtractive plastic impacts.  As third-party certified stats, you can use it for your public and in government reporting.  And inspire others!  Together we can catalyze <a href="transition">plastic transition</a> in our local and global communities.</p>
+				<p>In a 15 minute set up process, we can help you estimate your enterprise's yearly plastic generation based on local averages in your country.  Then, refine your stats over the year and steadily green you impact through ecobricking, offsetting and community collaboration! </p>
+					
+				<p>Our system automatically generates your plastic transition reporting.  Share you stats publicly and inspire others!  Together we can catalyze <a href="transition">plastic transition</a> in our locally and globally.</p>
 				<br><br>
 				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
 			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
