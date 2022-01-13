@@ -93,5 +93,8 @@ Redirect /what /what.php
 
 Redirect /catalyst /catalyst.php
 
+Redirect /catalysts /catalyst.php
+
+
 
 
