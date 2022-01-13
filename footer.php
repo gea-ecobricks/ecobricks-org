@@ -122,7 +122,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 				</div>
 
 			<div class="virtue">
-				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="webp/disclose-black-500px.webp" width="350px" height="" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a>
+				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="pngs/gea-disclose-grey-300px.png" width="325px" height="" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a>
 			</div>
 		
 
