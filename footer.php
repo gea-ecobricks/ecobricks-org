@@ -118,16 +118,16 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		<div class="row">
 
 		<div class="virtue">
-					<a href="about"><img src="webp/forearth-black-500px.webp" width="335px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
+					<a href="about"><img src="banners/forearth-dark-350px.png" width="335px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
 				</div>
 
 			<div class="virtue">
-				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-grey-300px.png" width="325px" height="" alt="Click through to see a our 2021 Plastic Transition Report" title="Click through to see a our 2021 Plastic Transition Report"></a>
+				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-dark-350px.png" width="325px" height="" alt="Click through to see a our 2021 Plastic Transition Report" title="Click through to see a our 2021 Plastic Transition Report"></a>
 			</div>
 		
 
 			<div class="virtue">
-			<a href="https://gobrik.com/#openbooks" target="_blank"><img src="webp/openbooks-black-500px.webp" width="325px" height="" alt="Click through to see our current enterprise open books accounting." title="Click through to see our open books accounting."></a>
+			<a href="https://gobrik.com/#openbooks" target="_blank"><img src="banners/openbooks-dark-350px.png" width="325px" height="" alt="Click through to see our current enterprise open books accounting." title="Click through to see our open books accounting."></a>
 
 			
 			</div>
