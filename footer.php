@@ -118,7 +118,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		<div class="row">
 
 		<div class="virtue">
-					<a href="about"><img src="banners/forearth-dark-350px.png" width="335px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
+					<a href="about"><img src="banners/forearth-dark-350px.png" width="325px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
 				</div>
 
 			<div class="virtue">
