@@ -91,7 +91,11 @@ Redirect /arc /arc.php
 
 Redirect /what /what.php
 
+Redirect /what/ /what.php
+
 Redirect /catalyst /catalyst.php
+
+Redirect /catalyst/ /catalyst.php
 
 
 
