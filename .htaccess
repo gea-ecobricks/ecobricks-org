@@ -89,9 +89,9 @@ Redirect /faqs/ /faqs.php
 
 Redirect /arc /arc.php
 
-Redirect /what /arc.php
+Redirect /what /what.php
 
-Redirect /catalyst /arc.php
+Redirect /catalyst /catalyst.php
 
 
 
