@@ -664,13 +664,14 @@ margin-top: 40px;
 			</div>
 
 			<div class="page-paragraph">
-				<p>Whether your enterprise is reducing down to zero-waste or accelerating into net-green, there's only one way to truly lead by example and make a difference: Plastic tracking and disclosure.<p>
+				<p>Whether your enterprise is reducing down to zero-waste or accelerating up into net-green, there's only one way to truly lead by example and make a definitive difference: <i>Plastic tracking and disclosure.</i><p>
 
-				<p>Our Catalyst program let's you do just this.  We feel this is so important, that for 2022, we're waiving all upfront fees.  We are excited to open the platform that our team and partner companies has developed over the last three years to all keen green companies, NGOs and projects.</p>
+				<p>Our Catalyst program let's you do just this.</p>  
+				<p>We feel that plastic transition is so important, that starting January 2022, we're waiving all upfront program fees.  The platform that our GEA team and company partners have developed over the last three years, is now open to all keen green companies, NGOs and projects.</p>
 				
-				<p>In a 15 minute set up process, we can help you estimate your enterprise's yearly plastic generation based on local averages in your country.  Then, refine your stats over the year and steadily green you impact through ecobricking, offsetting and community collaboration! </p>
+				<p>In a 15 minute set up process, we help you estimate your enterprise's yearly plastic generation based on the local per capita averages in your country.  Then, over the year, you can refine your plastic measurement while steadily tracking and accelerating your green impacts.  Our system automatically credits you for all your ecobricking, offsetting and the community engagement. </p>
 					
-				<p>Our system automatically generates your plastic transition reporting.  Share you stats publicly and inspire others!  Together we can catalyze <a href="transition">plastic transition</a> in our locally and globally.</p>
+				<p>The Catalyst platform automatically generates live and year reports.  This way you can disclose your plastic transition professionaly and publicly on our third-party platform to inspire others with your efforts, courage and transparency.  Together we can catalyze <a href="transition">plastic transition</a> in our local and global communities.</p>
 				<br><br>
 				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
 			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
@@ -732,7 +733,7 @@ margin-top: 40px;
 				<div id="preclosed2">
 					<div class="row">
 						<div class="main2">
-						<p>You're passionate about the planet and so is your enterprise.  So let the world know!  Plastic transition disclosure allows you to showcase your efforts, lead by example and inspire others.</p>
+						<p>You're passionate about the planet and so is your enterprise.  So let the world know through open accounting and transparency!  Plastic transition disclosure allows you to showcase your efforts, lead by example and inspire others.</p>
 						</div>
 						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="175px">
 						</div>
@@ -743,7 +744,7 @@ margin-top: 40px;
 					<div class="row">
 						<div class="main2">
 						<p><b>Automated Reporting</b></p>
-						<p>The Catalyst program allows you to create yearly plastic impact reports that summarize your grey and green impacts.  As a third-party host, we certify your green plastic impacts so that you can confidently share them with your customers, clients and government reviews.</p>
+						<p>The Catalyst program allows you to create yearly plastic impact reports that summarize your grey and green impacts.  As a third-party host, we certify your AES plastic impacts so that you can confidently share them with your customers, clients and in government sustainability reviews.</p>
 						</div>
 						<div class="side2"><br><img src="https://www.ecobricks.org/wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="175px">
 						</div>
@@ -880,7 +881,7 @@ margin-top: 40px;
 			
 				<h4>Get Started</h4>
 				<h5>Use a free Catalyst Account to ignite your plastic transition.</h5><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Setup</a><br><br>
+				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch</a><br><br>
 			</div>
 
 	
