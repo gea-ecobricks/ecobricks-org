@@ -218,7 +218,7 @@ _END;?>
 		z-index: 5;
 		
 		/*background: url(webp/gray-to-green-catalyst-banner2.webp) bottom;*/
-		background-color: #989898;
+		background-color: #4F8A28;
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -241,7 +241,7 @@ _END;?>
 		position: relative;
 		
 		/*background: url(svgs/gray-to-green-catalyst-banner3.svg) bottom;*/
-		background-color: #989898;
+		background-color: #4F8A28;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -314,7 +314,7 @@ _END;?>
 .header-heading { 
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: white;
-  font-weight: 500;
+  font-weight: 300;
   text-shadow: 0 0 8px black;
 
 }
@@ -643,7 +643,7 @@ margin-top: 40px;
 		<div class="header-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</div>
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
-	<div class="header-image"><img src="wp-content/uploads/2020/07/GEA-Logo-v2.3-with-perspective-1000px-300x300.png" style="width: 70%;"></div>	
+	<div class="header-image"><img src="webp/gea-logo-400px.webp" style="width: 70%;"></div>	
 </div>
 <div id="header-bar"></div>
 <!--<div id="header-bar2"></div>-->
@@ -660,21 +660,17 @@ margin-top: 40px;
 
 			<div class="lead-page-paragraph">
 				
-			<p>An enterprise's plastic transition is one of the most telling indicators of its greeness.</p>
+			<p>The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition and sequestration.  We do so through the mandalic dissemination of principled and practical ecobricking to raise ecological consciousness.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>Whether your enterprise is reducing down to zero-waste or accelerating up into net-green, there's only one way to truly lead by example and make a definitive difference: <i>Plastic tracking and disclosure.</i><p>
+				<p>The Global Ecobrick Alliance (GEA) represents the coming together of plastic transition leaders around the world.  We’re made of 300+ trainers from all walks of life, ages and backgrounds from around the world.  We share a deep concern for the biosphere and its harm by plastic pollution.  We are united by our passion for transitioning from plastic to ever greener modes of living.  </i><p>
 
-				<p>Our Catalyst program let's you do just this.</p>  
-				<p>We feel that plastic transition is so important, that starting January 2022, we're waiving all upfront program fees.  The platform that our GEA team and company partners have developed over the last three years, is now open to all keen green companies, NGOs and projects.</p>
+				<p>To do so, we beleive that raising our personal and collective ecological consciousness is crucial.</p>  
+
+				<p>The GEA was started in the green valley of the Chico River in the land of Igorot people– the indegenous people of the Filipino Cordilleras.  We are guided by their Ayyew vision and regenerative principles.  After seeing the failure of capital and profit guided plastic initiatives, we are convinced that truly solving plastic requires a new and careful relationship with petro-capital.  As such we established the GEA as a not-for-profit Earth Enterprise.  In this way we can maintain global standards for ecobricking and the criteria of plastic sequestration, without profit motif, and instead with a full focus on Earth service.</p>
 				
-				<p>In a 15 minute set up process, we help you estimate your enterprise's yearly plastic generation based on the local per capita averages in your country.  Then, over the year, you can refine your plastic measurement while steadily tracking and accelerating your green impacts.  Our system automatically credits you for all your ecobricking, offsetting and the community engagement. </p>
-					
-				<p>The Catalyst platform automatically generates live and year reports.  This way you can disclose your plastic transition professionaly and publicly on our third-party platform to inspire others with your efforts, courage and transparency.  Together we can catalyze <a href="transition">plastic transition</a> in our local and global communities.</p>
-				<br><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
+			
 
 			</div>	
 
@@ -878,15 +874,15 @@ margin-top: 40px;
 
 			
 		<div id="side-module-desktop-only">
-			
-				<h4>Get Started</h4>
-				<h5>Use a free Catalyst Account to ignite your plastic transition.</h5><br>
+        <img src="wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="90%">
+				<h4>2021 Regen Report</h4>
+				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
 				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch</a><br><br>
 			</div>
 
 	
 			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
+				
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about">About Us</a>
