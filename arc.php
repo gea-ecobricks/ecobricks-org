@@ -321,7 +321,7 @@ text-align: right;}
 
 			<div class="lead-page-paragraph">
 				
-			<p>Arc.io & Ecobricks.org are developing a way to speed up your website & support securing of plastic out of the biosphere.</p>
+			<p>Arc & Ecobricks.org are developing a way to speed up your website & support securing of plastic out of the biosphere.</p>
 		
 			</div>
 
@@ -400,7 +400,7 @@ text-align: right;}
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/arc-green-popper.webp" width="70%">
-				<h4>Arc.io</h4>
+				<h4>Arc</h4>
 				<h5>Arc has pioneered a decentralized content delivery network to provide an alternative to online advertisements.</h5><br>
 				<a href="https://arc.io/faq" target="_blank" class="module-btn">Arc FAQ</a>
 
