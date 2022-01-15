@@ -17,7 +17,7 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/catalyst-$lang.php");?>
+<?php require_once ("meta/about-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
@@ -217,8 +217,8 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
 		
-		background: url(webp/gray-to-green-catalyst-banner2.webp) bottom;
-		background-color: #5A8D37;
+		/*background: url(webp/gray-to-green-catalyst-banner2.webp) bottom;*/
+		background-color: #989898;
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -240,8 +240,8 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		background: url(svgs/gray-to-green-catalyst-banner3.svg) bottom;
-		background-color: #4f8a28ff;
+		/*background: url(svgs/gray-to-green-catalyst-banner3.svg) bottom;*/
+		background-color: #989898;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -640,10 +640,10 @@ margin-top: 40px;
 	
 <div class="header-content-block">
 	<div class="header-box">
-		<div class="header-heading">A Program for Keen Green Enterprises to Track, Disclose & Accelerate their Plastic Transition.</div>
+		<div class="header-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</div>
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
-	<div class="header-image"><img src="pngs/catalyst-logo-500px.png" style="width: 70%;"></div>	
+	<div class="header-image"><img src="wp-content/uploads/2020/07/GEA-Logo-v2.3-with-perspective-1000px-300x300.png" style="width: 70%;"></div>	
 </div>
 <div id="header-bar"></div>
 <!--<div id="header-bar2"></div>-->

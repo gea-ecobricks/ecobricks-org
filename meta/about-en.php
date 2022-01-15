@@ -1,6 +1,6 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Enterprise Catalyst Program | Ecobricks.org</title>
+<title>About the GEA | Ecobricks.org</title>
 
 <meta name="keywords" content="ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste">
 

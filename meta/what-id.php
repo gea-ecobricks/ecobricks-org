@@ -8,7 +8,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://www.ecobricks.org/en/what-beta.php"/>
+	<meta property="og:url"           content="https://www.ecobricks.org/id/what.php"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Apa itu ecobrick? | Ecobricks.org">
   	<meta property="og:description"   content="Ecobrick adalah solusi transisi plastik untuk membuat blok bangunan yang dapat digunakan kembali dari plastik yang diasingkan."/>

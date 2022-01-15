@@ -28,6 +28,7 @@ deployment:
     - /bin/cp catalyst.php $DEPLOYPATH
     - /bin/cp arc-delayed.php $DEPLOYPATH
     - /bin/cp what.php $DEPLOYPATH
+    - /bin/cp about.php $DEPLOYPATH
 
     
 
