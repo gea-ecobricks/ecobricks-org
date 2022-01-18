@@ -832,13 +832,13 @@ margin-top: 40px;
 					<p><b>The Global Ecobrick Alliance</b> </p>
 					<p>We're an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br><p>
 					
-						<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/762-disclose-light-350px.png"></a>
+						<a href="https://www.gobrik.com/#my-catalyst/2021-report/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/762-disclose-light-350px.png"></a>
 					<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
 					<br>
 					<p><b>Ubud Raw Chocoloate</b> </p>
 					<p>These guys make amazing chocoloate in Bali, Indonesia.  They are also super keen to transition from plastic! They use the Catalyst program to monitor their monthly consumption of plastic from their suppliers, to the plastic they use for their product packaging.  In 2021 they attained 105% zero-waste!</p><br><p>
 					
-						<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/100-disclose-light-350px.png"></a>
+						<a href="https://www.gobrik.com/#my-catalyst/2021-report/5b8c2b0922ddfb2591bf67be/" target="_blank"><img src="banners/100-disclose-light-350px.png"></a>
 					<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
 					<br>
 			
