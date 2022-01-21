@@ -660,17 +660,15 @@ margin-top: 40px;
 
 			<div class="lead-page-paragraph">
 				
-			<p>The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition and sequestration.  We do so through the mandalic dissemination of principled and practical ecobricking to raise ecological consciousness.</p>
-			</div>
+				<p>The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition.  We do so through the mandalic dissemination of principled and practical ecobricking to raise ecological consciousness.</p>
+				</div>
 
 			<div class="page-paragraph">
-				<p>The Global Ecobrick Alliance (GEA) represents the coming together of plastic transition leaders around the world.  We’re made of 300+ trainers from all walks of life, ages and backgrounds from around the world.  We share a deep concern for the biosphere and its harm by plastic pollution.  We are united by our passion for transitioning from plastic to ever greener modes of living.  </i><p>
+				  
 
-				<p>To do so, we beleive that raising our personal and collective ecological consciousness is crucial.</p>  
-
-				<p>The GEA was started in the green valley of the Chico River in the land of Igorot people– the indigenous people of the Filipino Cordilleras.  We are guided by their Ayyew vision and regenerative principles.  After seeing the failure of capital and profit guided plastic initiatives, we are convinced that truly solving plastic requires a new and careful relationship with petro-capital.  As such we established the GEA as a not-for-profit Earth Enterprise.  In this way we can maintain global standards for ecobricking and the criteria of plastic sequestration, without profit motif, and instead with a full focus on Earth service.</p>
+				<p>The Global Ecobrick Alliance began in the green mountains of the Chico River in the land of Igorot people– the indigenous people of the Filipino Cordilleras.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the Igorot Ayyew ethos.  Today, ecobricking principles and methods are a means for homes, businesses and communities around the world to accelerate their plastic transition.</p>
 				
-			
+				<p>The Global Ecobrick Alliance (GEA) is composed of 400+ trainers from all walks of life, ages and backgrounds from around the world.  We are connected in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in ecobricking as a means of transitioning from plastic to ever greener living. <p>
 
 			</div>	
 
@@ -683,33 +681,20 @@ margin-top: 40px;
 						<h5>We strive to lead by example.</h5>
 					</div>
 					
-
 					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
 					
 				</div>
 
 				<div id="preclosed1">
 					<br>
-					<div class="row">
-						<div class="main2">
-							<p>As ecobrickers ourselves, we have been ecobricking our own plastic and building with our ecobricks for a while now.  Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than banning straws or bringing a bag shopping.  While such small steps are essential, deeply solving plastic requires an extensive journey from personal, to household, to community, to economic shift.</p>
-						</div>
-						<div class="side2"><img src="webp/balancing-green.webp" width="80%">
-						</div>
-					</div>
-
-					<div class="row2">
-						<div class="main3">
-						<br><p><b>We observe that the consumption and production of plastic is rooted in the global petro-capital economy.</b></p>
+					<p>As ecobrickers ourselves, we have been ecobricking our own plastic and building with our ecobricks for a while now.  Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than banning straws or bringing a bag shopping.  While such small steps are essential, deeply solving plastic requires an extensive journey from personal, to household, to community, to economic shift.</p>
 					
-						</div>
-						<div class="side3"><img src="webp/balancing-green.webp" width="125px">
-						</div>
-					</div>
+					<p><b>We observe that the consumption and production of plastic is rooted in the global petro-capital economy.</b></p>
+					
 					<p>Plastic is bound to the petroleum and capital that makes the global economy spin.  However, rather than stress about these big system issues, we’ve chosen to focus on our own personal plastic consumption.  This is something we can be sure to do something about!<p> 
+
 					<P>Although seemingly small, we feel that our own plastic is so important that ‘leading by personal example’ is one of our core principles.  As we have come together as the Global Ecobrick Alliance, we’ve realized that to deeply solve plastic, we also have to lead by our allied action, enterprise structure and principles…</p>
-					
-						
+	
 				</div>	
 			</div>
 
@@ -723,15 +708,19 @@ margin-top: 40px;
 				</div>
 
 				<div id="preclosed2">
-				<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that unlike many companies, we have no share-holders or owners to whom profits are funneled.  It aso, means that unlike many organizations, we do not receive charity, grants or CSR funds from companies.  Instead, our enterprise generates tangible ecological value, that is quantified and sold (see AES plastic offsets).  We also provide workshops and trainings that raise ecological consciousness and promote the generation of further ecological enrichment.</p>
-				<p>Unlike many companies and organizations, our trainers, members and core team are not remunerated for their work generating profit, but for the value they bring fulfilling our mission and vision.  We hold the space and set the parameters to ensure that our trainers and our principles can receive a fair and abundant remuneration for their valuable service to the earth.  Our trainers, members and core team are fully autonomous and instead receive renumeration for the GEA trainings, workshops, consultations, services and products that they provide indepently.  Many of them work hard and contribute greatly of their own time and energy to build the infrastructure to enable this.</p>
-				<p><b>Unlike a Foundation…</b></p>
-				<p>Unlike many foundations and companies we spend no money on advertising or marketing– instead relying on our authenticity and the principles of collaborative mandalic manifestation.</p>
-				<p>Unlike an NGO we do not rely on volunteers to make things happen– all of our operations are manifested through our GEA Trainer and Core Team– folks who have been through one of our advanced trainings and are perpetually committed and resonant with our mission, vision and principles.  Our trainer team is constantly running GEA Trainings around the world, and are remunerated professionally for these services by the community groups, companies, governments, NGOs or organizations that hire them.</p>
-				<br>
-				<p><i>    “In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.”</i></p>
+					<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that unlike many companies, we have no share-holders or owners to whom profits are funneled.  It aso, means that unlike many organizations, we do not receive charity, grants or CSR funds from companies.  Instead, our enterprise generates tangible ecological value, that is quantified and sold (see AES plastic offsets).  We also provide workshops and trainings that raise ecological consciousness and promote the generation of further ecological enrichment.</p>
 
-				<p>– How on Earth, Hinton & Maclurcan (2016)</p>
+					<p>Unlike many companies and organizations, our trainers, members and core team are not remunerated for their work generating profit, but for the value they bring fulfilling our mission and vision.  We hold the space and set the parameters to ensure that our trainers and our principles can receive a fair and abundant remuneration for their valuable service to the earth.  Our trainers, members and core team are fully autonomous and instead receive renumeration for the GEA trainings, workshops, consultations, services and products that they provide indepently.  Many of them work hard and contribute greatly of their own time and energy to build the infrastructure to enable this.</p>
+
+					<p><b>Unlike a Foundation…</b></p>
+
+					<p>Unlike many foundations and companies we spend no money on advertising or marketing– instead relying on our authenticity and the principles of collaborative mandalic manifestation.</p>
+					
+					<p>Unlike an NGO we do not rely on volunteers to make things happen– all of our operations are manifested through our GEA Trainer and Core Team– folks who have been through one of our advanced trainings and are perpetually committed and resonant with our mission, vision and principles.  Our trainer team is constantly running GEA Trainings around the world, and are remunerated professionally for these services by the community groups, companies, governments, NGOs or organizations that hire them.</p>
+					<br>
+					<p><i>    “In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.”</i></p>
+
+					<p>– How on Earth, Hinton & Maclurcan (2016)</p>
 				</div>
 			</div>	
 
@@ -753,26 +742,33 @@ margin-top: 40px;
 					<br>
 
 					<p><b>1. For-Earth</b></p>
-						<p>We track and disclose our ecological impacts to ensure that the net result of our enterprise is the subtraction of CO2 and plastic from the biosphere and the support of biodiversification.  We work to raise ecological consciousness and empower others to follow our example.</p><br>
+
+					<p>We track and disclose our ecological impacts to ensure that the net result of our enterprise is the subtraction of CO2 and plastic from the biosphere and the support of biodiversification.  We work to raise ecological consciousness and empower others to follow our example.</p><br>
 
 					<p><b>2. Leading by Example</b></p>
+
 					<p>We ensure that the processes, methods, products and services of our enterprise are fully in line with the principles of the ecobrick movement and the other Earth Enterprise principles below.  We are careful to ensure, through our trainings and organizational parameters, that every member of our team instantiates and embodies these principles in their life and work.  The operation of our enterprise, of our core team embodies the principles of collaborative mandalic manifestation.  The GEA does this by holding the space (the core intentions and principles) of the mandalically unfolding  global ecobrick movement.</p><br>
 
 					<p><b>3. Open Source</b></p>
+
 					<p>By sponsoring workshops in your community, the ecobricks of new ecobrickers are credited to your enterprise.  By sponsoring GEA training of trainers workshops, the future trainers in these events, their ecobrickers and the communities they start, generate AES credits for your enterprise.
 					</p>
 
 					<p><b>4. Gender, Age, Status Transcendent</b></p>
+
 					<p>We strive to craft methods and processes that do not restrict the involvement and participation from men and women, young and old, rich and poor and everyone in between.  Furthermore we recognize and actively encourage co-creative partnerships between folks on the extremes of age, gender, and status.
 					</p>
 
 					<p><b>5. Fair & Abundant Remuneration for Earth Service</b></p>
+
 					<p>We actively cultivate the space and parameters so that our trainers, staff and principles receive fair and abundant remuneration for their service to the earth.  As our enterprise expands we will ensure a wage bracket to maintain a defined ratio from the highest to the lowest paid person in the organization.
 					</p>
 					<p><b>6. Financial and Impact Transparency</b></p>
 					<p>We strive to make all our financials, both in fiat currency and on our Brikcoin blockchain transparent and accessible.  We also disclose our net impacts in terms of CO2 and Plastic.
 					</p>
+
 					<p><b>7. Not for Profit</b></p>
+
 					<p>No individuals or shareholders will profit from the operation of the enterprise.  At the end of the year, any unspent funds will be reinvested back into the fulfillment of our mission and vision.	
 					</p>
 
@@ -784,42 +780,42 @@ margin-top: 40px;
 
 				<div class="opener-header">	
 					<div class="opener-header-text">
-					<h4>Our Work.</h4>
-					<h5>What we do.</h5>
-					<br>
+						<h4>Our Work.</h4>
+						<h5>What we do.</h5>
+						<br>
 					</div>
 
 					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
 				</div>
 
-			<div id="preclosed4">
-					
-				<p>The GEA maintains and develops the technical and philosophical infrastructure to serve local and global ecobrick movements and energize plastic transition. </p>
+				<div id="preclosed4">
+						
+					<p>The GEA maintains and develops the technical and philosophical infrastructure to serve local and global ecobrick movements and energize plastic transition. </p>
 
-				<p><b>Ecobricks.org</b></p>
-				<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.  The site is run our own Ubuntu server using WordPress software.</p>
+					<p><b>Ecobricks.org</b></p>
+					<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.  The site is run our own Ubuntu server using WordPress software.</p>
 
-				<p><b>GoBrik.com</b></p>
-				<p>The GEA maintains and develops the free GoBrik.com web app to support and connect ecobrickers and their communities.  The platform is run on the Knack database development platform.</p>
+					<p><b>GoBrik.com</b></p>
+					<p>The GEA maintains and develops the free GoBrik.com web app to support and connect ecobrickers and their communities.  The platform is run on the Knack database development platform.</p>
 
-				<p><b>Brikcoin Manual Blockchain</b></p>
-				<p>
-				The GEA has developed and now maintains the Brikcoin manual blockchain as a means to value the plastic sequestration service of ecobrickers and to develop a medium of exchange based on the value of secured plastic.  Brikcoins are generated and exchanged on our GoBrik webapp platform with free account signup.</p>
+					<p><b>Brikcoin Manual Blockchain</b></p>
+					<p>
+					The GEA has developed and now maintains the Brikcoin manual blockchain as a means to value the plastic sequestration service of ecobrickers and to develop a medium of exchange based on the value of secured plastic.  Brikcoins are generated and exchanged on our GoBrik webapp platform with free account signup.</p>
 
-				<p><b>Ecobrick Best Practices</p>
-				<p>
-				We maintain and develop ecobrick best practices for the making and application of ecobricks.  We strive to develop, make available, and disseminate guides and resources to facilitate and encourage the adoption of best practice methods.</p>
+					<p><b>Ecobrick Best Practices</p>
+					<p>
+					We maintain and develop ecobrick best practices for the making and application of ecobricks.  We strive to develop, make available, and disseminate guides and resources to facilitate and encourage the adoption of best practice methods.</p>
 
-				<p><b>Circle - Community Server</b></p>
-				<p>We maintain GEA Circles as a social media alternative for the global ecobricker community</p>
+					<p><b>Circle - Community Server</b></p>
+					<p>We maintain GEA Circles as a social media alternative for the global ecobricker community</p>
 
-				<p><b>Reports & Whitepapers</b></p>
-				<p>We actively are developing and releasing reports, research and white papers on ecobrick and plastic transition topics.</p>
+					<p><b>Reports & Whitepapers</b></p>
+					<p>We actively are developing and releasing reports, research and white papers on ecobrick and plastic transition topics.</p>
 
-				<p><b>Ecobrick Learning Resources</b.</p>
-				<p>The GEA develops and deploys resources such as video tuturials on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and ecobrick trainings.</p>
+					<p><b>Ecobrick Learning Resources</b.</p>
+					<p>The GEA develops and deploys resources such as video tuturials on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and ecobrick trainings.</p>
+				</div>
 			</div>
-		</div>
 
 			<div class="page-paragraph">
 				<br>
