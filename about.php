@@ -831,6 +831,7 @@ margin-top: 40px;
 			</div>
 		
 		</div>
+</div>
 <!--
 		<h4>Learn More</h4>
 		
