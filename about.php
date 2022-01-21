@@ -732,8 +732,8 @@ margin-top: 40px;
 				<p><i>    “In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.”</i></p>
 
 				<p>– How on Earth, Hinton & Maclurcan (2016)</p>
-
-				
+				</div>
+			</div>	
 
 
 			<div class="reg-content-block" id="block3">
@@ -777,7 +777,7 @@ margin-top: 40px;
 					<p>No individuals or shareholders will profit from the operation of the enterprise.  At the end of the year, any unspent funds will be reinvested back into the fulfillment of our mission and vision.	
 					</p>
 
-					<h6><a href="/trainings">Learn more about GEA Trainings</a></h6><br>
+					<h6><a href="/principles">Learn more about ecobricking principles</a></h6><br>
 				</div>
 			</div>
 
@@ -800,28 +800,28 @@ margin-top: 40px;
 					
 				<p>The GEA maintains and develops the technical and philosophical infrastructure to serve local and global ecobrick movements and energize plastic transition. </p>
 
-<p><b>Ecobricks.org</b></p>
-<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.  The site is run our own Ubuntu server using WordPress software.</p>
+				<p><b>Ecobricks.org</b></p>
+				<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.  The site is run our own Ubuntu server using WordPress software.</p>
 
-<p><b>GoBrik.com</b></p>
-<p>The GEA maintains and develops the free GoBrik.com web app to support and connect ecobrickers and their communities.  The platform is run on the Knack database development platform.</p>
+				<p><b>GoBrik.com</b></p>
+				<p>The GEA maintains and develops the free GoBrik.com web app to support and connect ecobrickers and their communities.  The platform is run on the Knack database development platform.</p>
 
-<p><b>Brikcoin Manual Blockchain</b></p>
-<p>
-The GEA has developed and now maintains the Brikcoin manual blockchain as a means to value the plastic sequestration service of ecobrickers and to develop a medium of exchange based on the value of secured plastic.  Brikcoins are generated and exchanged on our GoBrik webapp platform with free account signup.</p>
+				<p><b>Brikcoin Manual Blockchain</b></p>
+				<p>
+				The GEA has developed and now maintains the Brikcoin manual blockchain as a means to value the plastic sequestration service of ecobrickers and to develop a medium of exchange based on the value of secured plastic.  Brikcoins are generated and exchanged on our GoBrik webapp platform with free account signup.</p>
 
-<p><b>Ecobrick Best Practices</p>
-<p>
-We maintain and develop ecobrick best practices for the making and application of ecobricks.  We strive to develop, make available, and disseminate guides and resources to facilitate and encourage the adoption of best practice methods.</p>
+				<p><b>Ecobrick Best Practices</p>
+				<p>
+				We maintain and develop ecobrick best practices for the making and application of ecobricks.  We strive to develop, make available, and disseminate guides and resources to facilitate and encourage the adoption of best practice methods.</p>
 
-<p><b>Circle - Community Server</b></p>
-<p>We maintain GEA Circles as a social media alternative for the global ecobricker community</p>
+				<p><b>Circle - Community Server</b></p>
+				<p>We maintain GEA Circles as a social media alternative for the global ecobricker community</p>
 
-<p><b>Reports & Whitepapers</b></p>
-<p>We actively are developing and releasing reports, research and white papers on ecobrick and plastic transition topics.</p>
+				<p><b>Reports & Whitepapers</b></p>
+				<p>We actively are developing and releasing reports, research and white papers on ecobrick and plastic transition topics.</p>
 
-<p><b>Ecobrick Learning Resources</b.</p>
-<p>The GEA develops and deploys resources such as video tuturials on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and ecobrick trainings.</p>
+				<p><b>Ecobrick Learning Resources</b.</p>
+				<p>The GEA develops and deploys resources such as video tuturials on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and ecobrick trainings.</p>
 
 			
 				</div>
@@ -831,14 +831,14 @@ We maintain and develop ecobrick best practices for the making and application o
 	
 
 
-		<div class="page-paragraph">
-			<br>
-			<h2>Get Started!</h2>
-			<p>Setup your Catalyst account today.  Use your GoBrik account to get started.  If you don't have a GoBrik account yet, be sure to register first for a free personal account.</p>
-			<br><br>
-			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
-		</div>
+			<div class="page-paragraph">
+				<br>
+				<h2>Get Started!</h2>
+				<p>Setup your Catalyst account today.  Use your GoBrik account to get started.  If you don't have a GoBrik account yet, be sure to register first for a free personal account.</p>
+				<br><br>
+				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
+				<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
+			</div>
 		
 		</div>
 <!--
