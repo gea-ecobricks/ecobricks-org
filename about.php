@@ -218,7 +218,7 @@ _END;?>
 		z-index: 5;
 		
 		background: url(webp/about-banner-1400px.webp) bottom;
-		background-color: #4F8A28;
+		background-color: #5CAF34;
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -241,7 +241,7 @@ _END;?>
 		position: relative;
 		
 		background: url(webp/about-banner-1400px.webp) bottom;
-		background-color: #4F8A28;
+		background-color: #5CAF34;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -362,7 +362,7 @@ _END;?>
 #header-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #4f8a28ff;
+	background-color: #5CAF34;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -378,26 +378,6 @@ _END;?>
 
 }
 
-
-#header-bar2 {
-	margin-top: -50px;
-	width: 100%;
-	background-color: #95B97E;
-	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
-	height:100px;	
-	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-	position: relative;
-	z-index: 0;
-	-webkit-transform: skewY(-5deg);
-  -moz-transform: skewY(-5deg);
-  -ms-transform: skewY(-5deg);
-  -o-transform: skewY(-5deg);
-  transform: skewY(-5deg);
-
-	margin-bottom: 40px;
-    }
-    }
-}
 
 
 #main-content {
@@ -646,7 +626,7 @@ margin-top: 40px;
 	<div class="header-image"><img src="webp/gea-logo-400px.webp" style="width: 70%;"></div>	
 </div>
 <div id="header-bar"></div>
-<!--<div id="header-bar2"></div>-->
+
 
 
 <!-- PAGE CONTENT-->
@@ -793,30 +773,6 @@ margin-top: 40px;
 				<div id="preclosed4">
 						
 				
-					<br>
-
-					<p><b>Ecobricks.org</b></p>
-					<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.</p><br>
-
-					<p><b>GoBrik.com</b></p>
-					<p>The GEA maintains and develops the free <a href="https://gobrik.com" target="_blank">GoBrik.com web app to support and connect ecobrickers and their communities.</p><br>
-
-					<p><b>Brikcoin Manual Blockchain</b></p>
-					<p>
-					The GEA has developed and now maintains the <a href="/brikcoins">Brikcoin manual blockchain</a> as a means to value the plastic sequestration ecobricking and to develop a medium of exchange based on ecological value.  Brikcoins are generated and exchanged on the GoBrik webapp.</p><br>
-
-					<p><b>Ecobrick Best Practices</p>
-					<p>
-					We maintain best practives and standards for<a href="/what">the making of ecobricks</a> and the <a href="/build">building applications</a> of them.</p><br>
-
-					<p><b>Circles - Ecobrick Community Server</b></p>
-					<p>We maintain <a href="https://circles.ecobricks.org" target="_blank">GEA Circles</a> as a social media alternative for the global ecobricker community</p><br>
-
-					<p><b>Reports & Whitepapers</b></p>
-					<p>We actively are developing and releasing reports, research and white papers on ecobrick and plastic transition topics.</p><br>
-
-					<p><b>Ecobrick Educational Resources</b></p>
-					<p>The GEA develops and deploys resources such as <a href="https://youtube.com/ecobricks">video tutorials</a> on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and <a href="/trainings">ecobrick trainings</a>.</p><br>
 				</div>
 			</div>
 		
