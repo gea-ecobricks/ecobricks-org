@@ -783,7 +783,7 @@ margin-top: 40px;
 				<div class="opener-header">	
 					<div class="opener-header-text">
 						<h4>Our Work.</h4>
-						<h5>What we do.</h5>
+						<h5>We maintain the technical and philosophical infrastructure for the local and global ecobrick movements.</h5>
 						<br>
 					</div>
 
@@ -792,31 +792,31 @@ margin-top: 40px;
 
 				<div id="preclosed4">
 						
-					<p>The GEA maintains and develops the technical and philosophical infrastructure to serve local and global ecobrick movements and energize plastic transition. </p>
+				
 					<br>
 
 					<p><b>Ecobricks.org</b></p>
-					<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.  The site is run our own Ubuntu server using WordPress software.</p><br>
+					<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.</p><br>
 
 					<p><b>GoBrik.com</b></p>
-					<p>The GEA maintains and develops the free GoBrik.com web app to support and connect ecobrickers and their communities.  The platform is run on the Knack database development platform.</p><br>
+					<p>The GEA maintains and develops the free <a href="https://gobrik.com" target="_blank">GoBrik.com web app to support and connect ecobrickers and their communities.</p><br>
 
 					<p><b>Brikcoin Manual Blockchain</b></p>
 					<p>
-					The GEA has developed and now maintains the Brikcoin manual blockchain as a means to value the plastic sequestration service of ecobrickers and to develop a medium of exchange based on the value of secured plastic.  Brikcoins are generated and exchanged on our GoBrik webapp platform with free account signup.</p><br>
+					The GEA has developed and now maintains the <a href="/brikcoins">Brikcoin manual blockchain</a> as a means to value the plastic sequestration ecobricking and to develop a medium of exchange based on ecological value.  Brikcoins are generated and exchanged on the GoBrik webapp.</p><br>
 
 					<p><b>Ecobrick Best Practices</p>
 					<p>
-					We maintain and develop ecobrick best practices for the making and application of ecobricks.  We strive to develop, make available, and disseminate guides and resources to facilitate and encourage the adoption of best practice methods.</p><br>
+					We maintain best practives and standards for<a href="/what">the making of ecobricks</a> and the <a href="/build">building applications</a> of them.</p><br>
 
 					<p><b>Circles - Ecobrick Community Server</b></p>
-					<p>We maintain GEA Circles as a social media alternative for the global ecobricker community</p><br>
+					<p>We maintain <a href="https://circles.ecobricks.org" target="_blank">GEA Circles</a> as a social media alternative for the global ecobricker community</p><br>
 
 					<p><b>Reports & Whitepapers</b></p>
 					<p>We actively are developing and releasing reports, research and white papers on ecobrick and plastic transition topics.</p><br>
 
 					<p><b>Ecobrick Educational Resources</b></p>
-					<p>The GEA develops and deploys resources such as video tuturials on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and ecobrick trainings.</p><br>
+					<p>The GEA develops and deploys resources such as <a href="https://youtube.com/ecobricks">video tutorials</a> on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and <a href="/trainings">ecobrick trainings</a>.</p><br>
 				</div>
 			</div>
 
