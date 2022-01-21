@@ -217,7 +217,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
 		
-		/*background: url(webp/gray-to-green-catalyst-banner2.webp) bottom;*/
+		background: url(webp/about-banner-1400px.webp) bottom;
 		background-color: #4F8A28;
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -240,7 +240,7 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		/*background: url(svgs/gray-to-green-catalyst-banner3.svg) bottom;*/
+		background: url(webp/about-banner-1400px.webp) bottom;
 		background-color: #4F8A28;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
@@ -818,15 +818,6 @@ margin-top: 40px;
 					<p><b>Ecobrick Educational Resources</b></p>
 					<p>The GEA develops and deploys resources such as <a href="https://youtube.com/ecobricks">video tutorials</a> on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and <a href="/trainings">ecobrick trainings</a>.</p><br>
 				</div>
-			</div>
-
-			<div class="page-paragraph">
-				<br>
-				<h2>You can go For-Earth Too!</h2>
-				<p>Where are you in your Plastic Transition?  An enterprise's relationship with plastic is a primary Key Green Indicator.  We've been working hard over the last three years with a dozen companies to develop a platform in which enterprises can track, and disclose and accelerate their plastic transition.</p>
-				<br><br>
-				<a class="action-btn" href="/catalyst" target="_blank">🚀 Catalyst Program</a>
-				
 			</div>
 		
 		</div>
