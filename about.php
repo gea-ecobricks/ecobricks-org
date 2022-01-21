@@ -668,7 +668,7 @@ margin-top: 40px;
 
 				<p>To do so, we beleive that raising our personal and collective ecological consciousness is crucial.</p>  
 
-				<p>The GEA was started in the green valley of the Chico River in the land of Igorot people– the indegenous people of the Filipino Cordilleras.  We are guided by their Ayyew vision and regenerative principles.  After seeing the failure of capital and profit guided plastic initiatives, we are convinced that truly solving plastic requires a new and careful relationship with petro-capital.  As such we established the GEA as a not-for-profit Earth Enterprise.  In this way we can maintain global standards for ecobricking and the criteria of plastic sequestration, without profit motif, and instead with a full focus on Earth service.</p>
+				<p>The GEA was started in the green valley of the Chico River in the land of Igorot people– the indigenous people of the Filipino Cordilleras.  We are guided by their Ayyew vision and regenerative principles.  After seeing the failure of capital and profit guided plastic initiatives, we are convinced that truly solving plastic requires a new and careful relationship with petro-capital.  As such we established the GEA as a not-for-profit Earth Enterprise.  In this way we can maintain global standards for ecobricking and the criteria of plastic sequestration, without profit motif, and instead with a full focus on Earth service.</p>
 				
 			
 
@@ -679,8 +679,8 @@ margin-top: 40px;
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Plastic Transition Tracking</h4>
-						<h5>Monitor your subtractive and additive plastic impacts over the year.</h5>
+						<h4>Being the Change</h4>
+						<h5>We strive to lead by example.</h5>
 					</div>
 					
 
@@ -692,7 +692,7 @@ margin-top: 40px;
 					<br>
 					<div class="row">
 						<div class="main2">
-							<p>Today its clear that the vast majority of the plastic we use eventually makes its way to the biosphere.  When your enterprise consumes or produces plastic, we call this a "grey plastic impact".  Tracking your company's production and consumption of plastic is the first step in reducing one's grey impact on the environment.</p>
+							<p>As ecobrickers ourselves, we have been ecobricking our own plastic and building with our ecobricks for a while now.  Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than banning straws or bringing a bag shopping.  While such small steps are essential, deeply solving plastic requires an extensive journey from personal, to household, to community, to economic shift.</p>
 						</div>
 						<div class="side2"><img src="webp/balancing-green.webp" width="80%">
 						</div>
@@ -700,19 +700,15 @@ margin-top: 40px;
 
 					<div class="row2">
 						<div class="main3">
-						<br><p><b>Get started in 15 minutes</b></p>
+						<br><p><b>We observe that the consumption and production of plastic is rooted in the global petro-capital economy.</b></p>
 					
 						</div>
 						<div class="side3"><img src="webp/balancing-green.webp" width="125px">
 						</div>
 					</div>
-					<p>The Catalyst program gets you going in no time using a process of estimation refinement. As an owner, manager of president of your enterprise you can estimate better than anyone else how much plastic you are currently using.</p>
-					<p>
-					Month by month, you and your team will receive Plastic Transition reports.  These reports will remind you and your team to step up their reduction and subtraction initiatives.  As you put attention on your plastic you can refine your estimates.</p>
-					<br><p><b>Detailed Tracking</b></p>
-				<p>Once your enterprise has established systems for detailed plastic tracking and weighing, you can enabled month by month data entry.  Managers can observe the enterprise's plastic transition charted over the year. </p>
-				<br><p><b>Reaching out to communities</b></p>
-				<p>By catalyzing ecobrick workshops in communities, you can gain credit for the ecobricks made by participants.  Over the course of the year, our system can track in real time the social increase of your green impact.</p>
+					<p>Plastic is bound to the petroleum and capital that makes the global economy spin.  However, rather than stress about these big system issues, we’ve chosen to focus on our own personal plastic consumption.  This is something we can be sure to do something about!<p> 
+					<P>Although seemingly small, we feel that our own plastic is so important that ‘leading by personal example’ is one of our core principles.  As we have come together as the Global Ecobrick Alliance, we’ve realized that to deeply solve plastic, we also have to lead by our allied action, enterprise structure and principles…</p>
+					
 						
 				</div>	
 			</div>
@@ -720,58 +716,33 @@ margin-top: 40px;
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
 					<div class="opener-header-text">
-						<h4>Plastic Transition Disclosure</h4>
-						<h5>Certification & Hosting of your Report</h5><br>
+						<h4>Earth Enterprise</h4>
+						<h5>Our not-for-profit enterprise is focused on Earth service.</h5><br>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 				</div>
 
 				<div id="preclosed2">
-					<div class="row">
-						<div class="main2">
-						<p>You're passionate about the planet and so is your enterprise.  So let the world know through open accounting and transparency!  Plastic transition disclosure allows you to showcase your efforts, lead by example and inspire others.</p>
-						</div>
-						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="175px">
-						</div>
-					</div>
+				<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that unlike many companies, we have no share-holders or owners to whom profits are funneled.  It aso, means that unlike many organizations, we do not receive charity, grants or CSR funds from companies.  Instead, our enterprise generates tangible ecological value, that is quantified and sold (see AES plastic offsets).  We also provide workshops and trainings that raise ecological consciousness and promote the generation of further ecological enrichment.</p>
+				<p>Unlike many companies and organizations, our trainers, members and core team are not remunerated for their work generating profit, but for the value they bring fulfilling our mission and vision.  We hold the space and set the parameters to ensure that our trainers and our principles can receive a fair and abundant remuneration for their valuable service to the earth.  Our trainers, members and core team are fully autonomous and instead receive renumeration for the GEA trainings, workshops, consultations, services and products that they provide indepently.  Many of them work hard and contribute greatly of their own time and energy to build the infrastructure to enable this.</p>
+				<p><b>Unlike a Foundation…</b></p>
+				<p>Unlike many foundations and companies we spend no money on advertising or marketing– instead relying on our authenticity and the principles of collaborative mandalic manifestation.</p>
+				<p>Unlike an NGO we do not rely on volunteers to make things happen– all of our operations are manifested through our GEA Trainer and Core Team– folks who have been through one of our advanced trainings and are perpetually committed and resonant with our mission, vision and principles.  Our trainer team is constantly running GEA Trainings around the world, and are remunerated professionally for these services by the community groups, companies, governments, NGOs or organizations that hire them.</p>
+				<br>
+				<p><i>    “In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.”</i></p>
 
-					
+				<p>– How on Earth, Hinton & Maclurcan (2016)</p>
 
-					<div class="row">
-						<div class="main2">
-						<p><b>Automated Reporting</b></p>
-						<p>The Catalyst program allows you to create yearly plastic impact reports that summarize your grey and green impacts.  As a third-party host, we certify your AES plastic impacts so that you can confidently share them with your customers, clients and in government sustainability reviews.</p>
-						</div>
-						<div class="side2"><br><img src="https://www.ecobricks.org/wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="175px">
-						</div>
-					</div>
+				
 
-
-
-					
-
-					<div class="row2">
-						<div class="main3">
-						<br><p><b>Public Disclosure</b></p>
-						
-						</div>
-						<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="150px">
-						</div>
-					</div>
-					
-					<p>Showcase your plastic transition with our GEA certified banners on your website, products and marketing.  Link to your reports and showcase your plastic transition.  Like this...</p><br>
-					<p>
-					<img src="https://www.ecobricks.org/banners/gea-disclose-300px.png" width="250px"></p>
-				</div>
-			</div>
 
 			<div class="reg-content-block" id="block3">
 
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>Plastic Transition Acceleration</h4>
-					<h5>Ecobricking, Offseting & Workshop Catalyzation.</h5>
+					<h4>Principled Practice</h4>
+					<h5>As an Earth Enterprise the GEA follows seven principles that ensure our goals, operations and our results are deeply in line with our vision and mission in both the short and long-term…</h5>
 					<br>
 					</div>
 
@@ -780,30 +751,32 @@ margin-top: 40px;
 
 				<div id="preclosed3">
 					<br>
-					<div class="row">
-						<div class="main2">
-						<p>But best of all, the Catalyst program allows you to take decisive and quantifiable action to green your enterprise's impact.  You can use our system to log your ecobricks, buy plastic offsets and mobilize communities.  The green impact of all these goes to the credit of your enterprise.</p>
-						</div>
-						<div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2020/09/AES-Plastic-Logo-full-vector-shadowed.svg" width="100%">
-						</div>
-					</div>
+					
 
-					<div class="row2">
-						<div class="main3">
-						<p>There are three types of green impacts that can be certified as AES credit.</p>
-						</div>
-						<div class="side3"><img src="https://www.ecobricks.org/wp-content/uploads/2020/09/AES-Plastic-Logo-full-vector-shadowed.svg" width="120px">
-						</div>
-					</div>
-			
+					<p><b>1. For-Earth</b></p>
+						<p>The methods, techniques, process and principles of our work are focused on serving the ecological health of the planet by enriching the cycles of interdependence between us and our fellow species.  We ensure that our enterprise is regenerative by accounting for our ecological impacts– both greening and greying– and ensuring that our net impact is green.</p><br>
 
-					<p><b>Ecobricking</b></p>
-						<p>Ecobricks logged by the staff in your company, then which are successfully authenticated on the Brikcoin blockchain, qualify as AES plastic.</p><br>
-					<p><b>Plastic Offsetting</b></p>
-					<p>Your enterprise can purchase plastic offset credit on the GoBrik platform using Brikcoins or cash, to credit you year end reporting.</p><br>
-					<p><b>Community Catalyzation</b></p>
+					<p><b>2. Leading by Example</b></p>
+					<p>We ensure that the processes, methods, products and services of our enterprise are fully in line with the principles of the ecobrick movement and the other Earth Enterprise principles below.  We are careful to ensure, through our trainings and organizational parameters, that every member of our team instantiates and embodies these principles in their life and work.  The operation of our enterprise, of our core team embodies the principles of collaborative mandalic manifestation.  The GEA does this by holding the space (the core intentions and principles) of the mandalically unfolding  global ecobrick movement.</p><br>
+
+					<p><b>3. Open Source</b></p>
 					<p>By sponsoring workshops in your community, the ecobricks of new ecobrickers are credited to your enterprise.  By sponsoring GEA training of trainers workshops, the future trainers in these events, their ecobrickers and the communities they start, generate AES credits for your enterprise.
 					</p>
+
+					<p><b>4. Gender, Age, Status Transcendent</b></p>
+					<p>We strive to craft methods and processes that do not restrict the involvement and participation from men and women, young and old, rich and poor and everyone in between.  Furthermore we recognize and actively encourage co-creative partnerships between folks on the extremes of age, gender, and status.
+					</p>
+
+					<p><b>5. Fair & Abundant Remuneration for Earth Service</b></p>
+					<p>We actively cultivate the space and parameters so that our trainers, staff and principles receive fair and abundant remuneration for their service to the earth.  As our enterprise expands we will ensure a wage bracket to maintain a defined ratio from the highest to the lowest paid person in the organization.
+					</p>
+					<p><b>6. Financial and Impact Transparency</b></p>
+					<p>We strive to make all our financials, both in fiat currency and on our Brikcoin blockchain transparent and accessible.  We also disclose our net impacts in terms of CO2 and Plastic.
+					</p>
+					<p><b>7. Not for Profit</b></p>
+					<p>No individuals or shareholders will profit from the operation of the enterprise.  At the end of the year, any unspent funds will be reinvested back into the fulfillment of our mission and vision.	
+					</p>
+
 					<h6><a href="/trainings">Learn more about GEA Trainings</a></h6><br>
 				</div>
 			</div>
@@ -815,8 +788,8 @@ margin-top: 40px;
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>See How We do It.</h4>
-					<h5>How the GEA and other Enterprises Use the Program</h5>
+					<h4>Our Work.</h4>
+					<h5>What we do.</h5>
 					<br>
 					</div>
 
@@ -825,11 +798,31 @@ margin-top: 40px;
 
 				<div id="preclosed4">
 					
-					<p>The Global Ecobrick Alliance is an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br><p>
-					
-						<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/gea-disclose-300px.png"></a>
-					<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
-					<hr><br>
+				<p>The GEA maintains and develops the technical and philosophical infrastructure to serve local and global ecobrick movements and energize plastic transition. </p>
+
+<p><b>Ecobricks.org</b></p>
+<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.  The site is run our own Ubuntu server using WordPress software.</p>
+
+<p><b>GoBrik.com</b></p>
+<p>The GEA maintains and develops the free GoBrik.com web app to support and connect ecobrickers and their communities.  The platform is run on the Knack database development platform.</p>
+
+<p><b>Brikcoin Manual Blockchain</b></p>
+<p>
+The GEA has developed and now maintains the Brikcoin manual blockchain as a means to value the plastic sequestration service of ecobrickers and to develop a medium of exchange based on the value of secured plastic.  Brikcoins are generated and exchanged on our GoBrik webapp platform with free account signup.</p>
+
+<p><b>Ecobrick Best Practices</p>
+<p>
+We maintain and develop ecobrick best practices for the making and application of ecobricks.  We strive to develop, make available, and disseminate guides and resources to facilitate and encourage the adoption of best practice methods.</p>
+
+<p><b>Circle - Community Server</b></p>
+<p>We maintain GEA Circles as a social media alternative for the global ecobricker community</p>
+
+<p><b>Reports & Whitepapers</b></p>
+<p>We actively are developing and releasing reports, research and white papers on ecobrick and plastic transition topics.</p>
+
+<p><b>Ecobrick Learning Resources</b.</p>
+<p>The GEA develops and deploys resources such as video tuturials on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and ecobrick trainings.</p>
+
 			
 				</div>
 			</div>
