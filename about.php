@@ -623,7 +623,7 @@ margin-top: 40px;
 		<div class="header-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</div>
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
-	<div class="header-image"><img src="webp/gea-logo-400px.webp" style="width: 70%;"></div>	
+	<div class="header-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
 <div id="header-bar"></div>
 
@@ -773,6 +773,19 @@ margin-top: 40px;
 				<div id="preclosed4">
 						
 				
+					<br>
+
+					<p><b>Ecobricks.org</b></p>
+					<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.</p><br>
+
+					<p><b>GoBrik.com</b></p>
+					<p>The GEA maintains and develops the free <a href="https://gobrik.com" target="_blank">GoBrik.com web app to support and connect ecobrickers and their communities.</p><br>
+
+					<p><b>Brikcoin Manual Blockchain</b></p>
+					<p>
+					The GEA has developed and now maintains the <a href="/brikcoins">Brikcoin manual blockchain</a> as a means to value the plastic sequestration ecobricking and to develop a medium of exchange based on ecological value.  Brikcoins are generated and exchanged on the GoBrik webapp.</p><br>
+
+					
 				</div>
 			</div>
 		
@@ -781,7 +794,7 @@ margin-top: 40px;
 		<div class="side">
 
 		<div id="side-module-desktop-mobile">
-				
+				<img src="webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about">About Us</a>
