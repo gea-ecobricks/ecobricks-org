@@ -724,6 +724,69 @@ margin-top: 40px;
 				</div>
 			</div>	
 
+
+			<div class="reg-content-block" id="block3">
+
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+					<h4>Principled Practice</h4>
+					<h5>As an Earth Enterprise the GEA follows seven principles that ensure our goals, operations and our results are deeply in line with our vision and mission in both the short and long-term…</h5>
+					<br>
+					</div>
+
+					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+				</div>
+
+				<div id="preclosed3">
+					<br>
+
+					<p><b>1. For-Earth</b></p>
+
+					<p>We track and disclose our ecological impacts to ensure that the net result of our enterprise is the subtraction of CO2 and plastic from the biosphere and the support of biodiversification.  We work to raise ecological consciousness and empower others to follow our example.</p><br>
+
+					<p><b>2. Leading by Example</b></p>
+
+					<p>We ensure that the processes, methods, products and services of our enterprise are fully in line with the principles of the ecobrick movement and the other Earth Enterprise principles below.  We are careful to ensure, through our trainings and organizational parameters, that every member of our team instantiates and embodies these principles in their life and work.  The operation of our enterprise, of our core team embodies the principles of collaborative mandalic manifestation.  The GEA does this by holding the space (the core intentions and principles) of the mandalically unfolding  global ecobrick movement.</p><br>
+
+					<p><b>3. Open Source</b></p>
+
+					<p>By sponsoring workshops in your community, the ecobricks of new ecobrickers are credited to your enterprise.  By sponsoring GEA training of trainers workshops, the future trainers in these events, their ecobrickers and the communities they start, generate AES credits for your enterprise.
+					</p><br>
+
+					<p><b>4. Gender, Age, Status Transcendent</b></p>
+
+					<p>We strive to craft methods and processes that do not restrict the involvement and participation from men and women, young and old, rich and poor and everyone in between.  Furthermore we recognize and actively encourage co-creative partnerships between folks on the extremes of age, gender, and status.
+					</p><br>
+
+					<p><b>5. Fair & Abundant Remuneration for Earth Service</b></p>
+
+					<p>We actively cultivate the space and parameters so that our trainers, staff and principles receive fair and abundant remuneration for their service to the earth.  As our enterprise expands we will ensure a wage bracket to maintain a defined ratio from the highest to the lowest paid person in the organization.
+					</p><br>
+
+					<p><b>6. Financial and Impact Transparency</b></p>
+
+					<p>We strive to make all our financials, both in fiat currency and on our Brikcoin blockchain transparent and accessible.  We also disclose our net impacts in terms of CO2 and Plastic.
+					</p><br>
+
+					<p><b>7. Not for Profit</b></p>
+
+					<p>No individuals or shareholders will profit from the operation of the enterprise.  At the end of the year, any unspent funds will be reinvested back into the fulfillment of our mission and vision.	
+					</p>
+
+					<h6><a href="/principles">Learn more about ecobricking principles</a></h6><br>
+				</div>
+			</div>
+
+
+			<div class="page-paragraph">
+				<br>
+				<h2>You can go For-Earth Too!</h2>
+				<p>Where are you in your Plastic Transition?  An enterprise's relationship with plastic is a primary Key Green Indicator.  We've been working hard over the last three years with a dozen companies to develop a platform in which enterprises can track, and disclose and accelerate their plastic transition.</p>
+				<br><br>
+				<a class="action-btn" href="/catalyst" target="_blank">🚀 Catalyst Program</a>
+				
+			</div>
 		
 		</div>
 
