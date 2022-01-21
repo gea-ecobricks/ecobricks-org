@@ -823,67 +823,37 @@ margin-top: 40px;
 
 			<div class="page-paragraph">
 				<br>
-				<h2>Get Started!</h2>
-				<p>Setup your Catalyst account today.  Use your GoBrik account to get started.  If you don't have a GoBrik account yet, be sure to register first for a free personal account.</p>
+				<h2>You can go For-Earth Too!</h2>
+				<p>Where are you in your Plastic Transition?  An enterprise's relationship with plastic is a primary Key Green Indicator.  We've been working hard over the last three years with a dozen companies to develop a platform in which enterprises can track, and disclose and accelerate their plastic transition.</p>
 				<br><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-				<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
+				<a class="action-btn" href="/catalyst" target="_blank">🚀 Catalyst Program</a>
+				
 			</div>
 		
 		</div>
-</div>
-<!--
-		<h4>Learn More</h4>
-		
-		<p>Many powerful concepts underlie the Catalyst Program. .
-		</p>
-		<ul>
-			<li><a href="aes">AES Plastic Offsetting</a></li>
-			<li><a href="brikcion">Brikcoin Manual Blockchain</a></li>
-			<li><a href="sequest">Plastic Sequestration</a></li>
-			<li><a href="mandalas">Leading by Example</a></li>
-			<li><a href="principles">Regenerative Principles</a></li>
-			<li><a href="https://medium.com/earthen">The Earthen Ethics Theory of Green</a></li>
-		</ul>
--->
-		
-
-
-
-	
-
 
 		<div class="side">
 
-
-			
-		<div id="side-module-desktop-only">
-        <img src="wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="90%">
-				<h4>2021 Regen Report</h4>
-				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch</a><br><br>
-			</div>
-
-	
-			<div id="side-module-desktop-mobile">
+		<div id="side-module-desktop-mobile">
 				
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
+			
+		<div id="side-module-desktop-only">
+        <img src="wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="90%">
+				<h4>2021 Regen Report</h4>
+				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
+				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">View</a><br><br>
+			</div>
+
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="about">About Us</a>
-			</div>
-
-			<div id="side-module-desktop-mobile">
-				<img src="webp/balancing-green.webp" width="80%">
-				<h4>Plastic Offsetting</h4>
-				<h5>Our Catalyst Program allows you to offset your plastic generation and support the global ecobrick movement.</h5><br>
-				<a class="module-btn" href="aes">Learn More</a>
 			</div>
 
 		</div>
