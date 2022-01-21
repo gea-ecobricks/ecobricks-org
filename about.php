@@ -786,17 +786,14 @@ margin-top: 40px;
 					The GEA has developed and now maintains the <a href="/brikcoins">Brikcoin manual blockchain</a> as a means to value the plastic sequestration ecobricking and to develop a medium of exchange based on ecological value.  Brikcoins are generated and exchanged on the GoBrik webapp.</p><br>
 
 					<p><b>Ecobrick Best Practices</p>
-					<p>
-					We maintain best practives and standards for<a href="/what">the making of ecobricks</a> and the <a href="/build">building applications</a> of them.</p><br>
+
+					<p>We maintain best practives and standards for<a href="/what">the making of ecobricks</a> and the <a href="/build">building applications</a> of them.</p><br>
 
 					<p><b>Circles - Ecobrick Community Server</b></p>
+
 					<p>We maintain <a href="https://circles.ecobricks.org" target="_blank">GEA Circles</a> as a social media alternative for the global ecobricker community</p><br>
 
-					<p><b>Reports & Whitepapers</b></p>
-					<p>We actively are developing and releasing reports, research and white papers on ecobrick and plastic transition topics.</p><br>
-
-					<p><b>Ecobrick Educational Resources</b></p>
-					<p>The GEA develops and deploys resources such as <a href="https://youtube.com/ecobricks">video tutorials</a> on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and <a href="/trainings">ecobrick trainings</a>.</p><br>
+					
 				</div>
 			</div>
 		
