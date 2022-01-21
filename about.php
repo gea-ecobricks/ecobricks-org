@@ -751,10 +751,9 @@ margin-top: 40px;
 
 				<div id="preclosed3">
 					<br>
-					
 
 					<p><b>1. For-Earth</b></p>
-						<p>The methods, techniques, process and principles of our work are focused on serving the ecological health of the planet by enriching the cycles of interdependence between us and our fellow species.  We ensure that our enterprise is regenerative by accounting for our ecological impacts– both greening and greying– and ensuring that our net impact is green.</p><br>
+						<p>We track and disclose our ecological impacts to ensure that the net result of our enterprise is the subtraction of CO2 and plastic from the biosphere and the support of biodiversification.  We work to raise ecological consciousness and empower others to follow our example.</p><br>
 
 					<p><b>2. Leading by Example</b></p>
 					<p>We ensure that the processes, methods, products and services of our enterprise are fully in line with the principles of the ecobrick movement and the other Earth Enterprise principles below.  We are careful to ensure, through our trainings and organizational parameters, that every member of our team instantiates and embodies these principles in their life and work.  The operation of our enterprise, of our core team embodies the principles of collaborative mandalic manifestation.  The GEA does this by holding the space (the core intentions and principles) of the mandalically unfolding  global ecobrick movement.</p><br>
@@ -781,12 +780,9 @@ margin-top: 40px;
 				</div>
 			</div>
 
-
-
 			<div class="reg-content-block" id="block4">
 
-				<div class="opener-header">
-					
+				<div class="opener-header">	
 					<div class="opener-header-text">
 					<h4>Our Work.</h4>
 					<h5>What we do.</h5>
@@ -796,7 +792,7 @@ margin-top: 40px;
 					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
 				</div>
 
-				<div id="preclosed4">
+			<div id="preclosed4">
 					
 				<p>The GEA maintains and develops the technical and philosophical infrastructure to serve local and global ecobrick movements and energize plastic transition. </p>
 
@@ -822,14 +818,8 @@ margin-top: 40px;
 
 				<p><b>Ecobrick Learning Resources</b.</p>
 				<p>The GEA develops and deploys resources such as video tuturials on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and ecobrick trainings.</p>
-
-			
-				</div>
 			</div>
-
-			
-	
-
+		</div>
 
 			<div class="page-paragraph">
 				<br>
