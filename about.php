@@ -621,7 +621,7 @@ margin-top: 40px;
 <div class="header-content-block">
 	<div class="header-box">
 		<div class="header-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</div>
-		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
+		<div class="header-sub">-- GEA Vision</div>
 	</div>
 	<div class="header-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
@@ -646,9 +646,9 @@ margin-top: 40px;
 			<div class="page-paragraph">
 				  
 
-				<p>The Global Ecobrick Alliance began in the green mountains of the Chico River in the land of Igorot people– the indigenous people of the Filipino Cordilleras.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the Igorot Ayyew ethos.  Today, ecobricking principles and methods are a means for homes, businesses and communities around the world to accelerate their plastic transition.</p>
+				<p>The Global Ecobrick Alliance began in the green mountains of the Chico River in the land of Igorot people– the indigenous people of the Filipino Cordilleras.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="ayyew">Igorot Ayyew ethos</a>.  Today, ecobricking principles and methods are a means for homes, businesses and communities around the world to accelerate their <a href="transition">plastic transition.</a></p>
 				
-				<p>The Global Ecobrick Alliance (GEA) is composed of 400+ trainers from all walks of life, ages and backgrounds from around the world.  We are connected in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in ecobricking as a means of transitioning from plastic to ever greener living. <p>
+				<p>The Global Ecobrick Alliance (GEA) is composed of 400+ trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in ecobricking as a means of transitioning from plastic to ever greener living. <p>
 
 			</div>	
 
@@ -668,11 +668,11 @@ margin-top: 40px;
 				<div id="preclosed1">
 					<br>
 					<p>As ecobrickers ourselves, we packed our plastic, track and work hard to minimize our plastic consumption.  We build our home furniture and gardens with our ecobricks.  We use plastic offsetting to make sure our household and our enterprises are net green.</p>
-					<p>  Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than banning straws or bringing a bag shopping.  While such small steps are essential, deeply solving plastic requires an extensive journey from personal, to household, to community, to economic shift.</p>
+					<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
 					
 					<p><b>We observe that the consumption and production of plastic is rooted in the global petro-capital economy.</b></p>
 					
-					<p>Plastic is bound to the petroleum and capital that makes the global economy spin.  However, rather than stress about these big system issues, we’ve chosen to focus on our own personal plastic consumption.  This is something we can be sure to do something about!<p> 
+					<p>Plastic is bound to the petroleum and capital that makes the global economy spin.  However, rather than stress about these big system issues, we’ve chosen to focus on our own personal plastic consumption.  This is something we can be sure to do something about.</p> 
 
 					<P>Although seemingly small, we feel that our own plastic is so important that ‘leading by personal example’ is one of our core principles.  As we have come together as the Global Ecobrick Alliance, we’ve realized that to deeply solve plastic, we also have to lead by our allied action, enterprise structure and principles.</p>
 	
@@ -828,12 +828,7 @@ margin-top: 40px;
 
 		<div class="side">
 
-		<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about">About Us</a>
-			</div>
+		
 			
 		<div id="side-module-desktop-only">
         <img src="wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="90%">
@@ -847,6 +842,13 @@ margin-top: 40px;
 				<img src="webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
+				<a class="module-btn" href="about">About Us</a>
+			</div>
+
+			<div id="side-module-desktop-mobile">
+				<img src="webp/gea-logo-400px.webp" width="90%">
+				<h4>Global Ecobrick Alliance</h4>
+				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
