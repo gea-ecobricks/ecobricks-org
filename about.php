@@ -338,7 +338,7 @@ _END;?>
 
 .header-sub {
   font-family: 'Arvo', Georgia, serif;
-  color: grey;
+  color: #40B208;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
 }
@@ -352,7 +352,7 @@ _END;?>
 }
 @media screen and (min-width: 700px) {
 	.header-sub {
-		font-size: 2.3em;
+		font-size: 1.5em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -362,7 +362,7 @@ _END;?>
 #header-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #5CAF34;
+	background-color: #3FB104;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -621,7 +621,7 @@ margin-top: 40px;
 <div class="header-content-block">
 	<div class="header-box">
 		<div class="header-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</div>
-		<div class="header-sub">-- GEA Vision</div>
+		<div class="header-sub">— GEA Vision Statement</div>
 	</div>
 	<div class="header-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
@@ -701,7 +701,7 @@ margin-top: 40px;
 					<br>
 					<p><i>    “In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.”</i></p>
 
-					<p>– How on Earth, Hinton & Maclurcan (2016)</p>
+					<h5>– How on Earth, Hinton & Maclurcan (2016)</h5>
 				</div>
 			</div>	
 
