@@ -689,12 +689,14 @@ margin-top: 40px;
 				</div>
 
 				<div id="preclosed2">
-					<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that unlike many companies, we have no share-holders or owners to whom profits are funneled.  It aso, means that unlike many organizations, we do not receive charity, grants or CSR funds from companies.  Instead, our enterprise generates tangible ecological value, that is quantified and sold (see AES plastic offsets).  We also provide workshops and trainings that raise ecological consciousness and promote the generation of further ecological enrichment.</p>
-
-					<p>Unlike many companies and organizations, our trainers, members and core team are not remunerated for their work generating profit, but for the value they bring fulfilling our mission and vision.  We hold the space and set the parameters to ensure that our trainers and our principles can receive a fair and abundant remuneration for their valuable service to the earth.  Our trainers, members and core team are fully autonomous and instead receive renumeration for the GEA trainings, workshops, consultations, services and products that they provide indepently.  Many of them work hard and contribute greatly of their own time and energy to build the infrastructure to enable this.</p>
-
-					<p>We spend no money on advertising or marketing– instead relying on our authenticity and the principles of collaborative mandalic manifestation.</p>
+					<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that unlike many companies, we have no share-holders or owners to whom profits are extracted.  It aso, means that unlike many organizations, we do not receive charity, grants or CSR funds.  
+						
+					<p>As a deep green enterprise our focus is on generating authentic ecological value.  Through our Brikcoin blockchain this value is quantified and we sell it to fund our operations (see <a href="aes">AES plastic offsets</a>).  
 					
+					<p>The GEA develops workshops and trainings that raise ecological consciousness around the dangers of plastic.  These courses are lead by our trainer team, and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
+
+					<p>The GEA develops regenerative, open source products that are made to specification by makers local to the country in which they are sold.  These products are sold by our trainers to assist with their practice (see <a href="/EarthWands">our EarthWand page for an example).</p>
+
 					<p>All of our operations are manifested through our GEA Trainer and Core Team– folks who have been through one of our advanced trainings and are perpetually committed and resonant with our mission, vision and principles.  Our trainer team is constantly running GEA Trainings around the world, and are remunerated professionally for these services by the community groups, companies, governments, NGOs or organizations that hire them.</p>
 					<br>
 					<p><i>    “In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.”</i></p>
@@ -726,7 +728,7 @@ margin-top: 40px;
 
 					<p><b>2. Leading by Example</b></p>
 
-					<p>We ensure that the processes, methods, products and services of our enterprise are fully in line with the principles of the ecobrick movement and the other Earth Enterprise principles below.  We are careful to ensure, through our trainings and organizational parameters, that every member of our team instantiates and embodies these principles in their life and work.  The operation of our enterprise, of our core team embodies the principles of collaborative mandalic manifestation.  The GEA does this by holding the space (the core intentions and principles) of the mandalically unfolding  global ecobrick movement.</p><br>
+					<p>We ensure that the processes, methods, products and services of our enterprise are fully in line with our principles.  We are careful to ensure, through our trainings and organizational parameters, that every member of our team instantiates and embodies these principles in their life and work.  The operation of our enterprise, of our core team embodies the principles of collaborative mandalic manifestation.  The GEA does this by holding the space (the core intentions and principles) of the mandalically unfolding  global ecobrick movement.</p><br>
 
 					<p><b>3. Open Source</b></p>
 
@@ -800,6 +802,22 @@ margin-top: 40px;
 					<p>The GEA develops and deploys resources such as <a href="https://youtube.com/ecobricks">video tutorials</a> on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and <a href="/trainings">ecobrick trainings</a>.</p><br>
 				</div>
 			</div>
+
+			<p><b>Vision</b></p>
+			<p>We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</p><br>
+
+			<p><b>Our Mission</b></p>
+			<p>To raise Ecological Consciousness through the spread of Ecobricking and the transformation of global plastic into local solutions.</p><br>
+
+			<p><b>Dedication</b></p>
+			<p>Our work is dedicated to our Children, our Children’s Children… and the children of all species, for all time.</p><br>
+
+			<p><i>Together we can be the transition to ever increasing harmony with the cycles of life.</i></p>
+
+			
+
+
+
 		
 		</div>
 
