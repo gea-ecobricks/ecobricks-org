@@ -695,7 +695,7 @@ margin-top: 40px;
 					
 					<p>The GEA develops workshops and trainings that raise ecological consciousness around the dangers of plastic.  These courses are lead by our trainer team, and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
 
-					<p>The GEA develops regenerative, open source products that are made to specification by makers local to the country in which they are sold.  These products are sold by our trainers to assist with their practice (see <a href="/EarthWands">our EarthWand page for an example).</p>
+					<p>The GEA develops regenerative, open source products that are made to specification by makers local to the country in which they are sold.  These products are sold by our trainers to assist with their practice (see <a href="/earthwand">our EarthWand page for an example).</a></p>
 
 					<p>All of our operations are manifested through our GEA Trainer and Core Team– folks who have been through one of our advanced trainings and are perpetually committed and resonant with our mission, vision and principles.  Our trainer team is constantly running GEA Trainings around the world, and are remunerated professionally for these services by the community groups, companies, governments, NGOs or organizations that hire them.</p>
 					<br>
@@ -724,25 +724,27 @@ margin-top: 40px;
 
 					<p><b>1. For-Earth</b></p>
 
-					<p>We track and disclose our ecological impacts to ensure that the net result of our enterprise is the subtraction of CO2 and plastic from the biosphere and the support of biodiversification.  We work to raise ecological consciousness and empower others to follow our example.</p><br>
+					<p>Our enterprise follows the <a href="plastic">Earth's example</a> in generating ecological value.  We follow the <a href="https://earthen.io/the-earthen-ways/" target="_blank">six principles of Earthen ethics</a> to sequester carbon, distibute benefit upwards, support biodiversity, raise ecological awareness and acheive overall net-subtraction in our endeavours.</p><br>
 
 					<p><b>2. Leading by Example</b></p>
 
-					<p>We ensure that the processes, methods, products and services of our enterprise are fully in line with our principles.  We are careful to ensure, through our trainings and organizational parameters, that every member of our team instantiates and embodies these principles in their life and work.  The operation of our enterprise, of our core team embodies the principles of collaborative mandalic manifestation.  The GEA does this by holding the space (the core intentions and principles) of the mandalically unfolding  global ecobrick movement.</p><br>
+					<p>
+					We ensure that the processes, methods, products and services of our enterprise are fully in line with our principles.  We track and disclose our ecological impacts to ensure that the net result of our enterprise is the subtraction of CO2 and plastic from the biosphere and the support of biodiversification.  We work to raise ecological consciousness and empower others to follow our example.
+						</p><br>
 
 					<p><b>3. Open Source</b></p>
 
-					<p>By sponsoring workshops in your community, the ecobricks of new ecobrickers are credited to your enterprise.  By sponsoring GEA training of trainers workshops, the future trainers in these events, their ecobrickers and the communities they start, generate AES credits for your enterprise.
+					<p>We strive to make our resources, guides, and software open under the Creative Commons Attribution-ShareAlike 4.0 International License. 
 					</p><br>
 
 					<p><b>4. Gender, Age, Status Transcendent</b></p>
 
-					<p>We strive to craft methods and processes that do not restrict the involvement and participation from men and women, young and old, rich and poor and everyone in between.  Furthermore we recognize and actively encourage co-creative partnerships between folks on the extremes of age, gender, and status.
+					<p>We strive to craft methods and processes that enable the participation of men and women, young and old, rich and poor and everyone in between.
 					</p><br>
 
 					<p><b>5. Fair & Abundant Remuneration for Earth Service</b></p>
 
-					<p>We actively cultivate the space and parameters so that our trainers, staff and principles receive fair and abundant remuneration for their service to the earth.  As our enterprise expands we will ensure a wage bracket to maintain a defined ratio from the highest to the lowest paid person in the organization.
+					<p>We actively cultivate the space and parameters so that our trainers, staff and principals receive fair and abundant remuneration for their service to the earth.  As our enterprise expands we will ensure a wage bracket to maintain a defined ratio from the highest to the lowest paid person in the organization.
 					</p><br>
 
 					<p><b>6. Financial and Impact Transparency</b></p>
@@ -803,18 +805,21 @@ margin-top: 40px;
 				</div>
 			</div>
 
-			<p><b>Vision</b></p>
-			<p>We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</p><br>
+			<div class="page-paragraph">
+				<br><br>
 
-			<p><b>Our Mission</b></p>
-			<p>To raise Ecological Consciousness through the spread of Ecobricking and the transformation of global plastic into local solutions.</p><br>
+				<p><b>Vision</b></p>
+				<p>We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</p><br>
 
-			<p><b>Dedication</b></p>
-			<p>Our work is dedicated to our Children, our Children’s Children… and the children of all species, for all time.</p><br>
+				<p><b>Our Mission</b></p>
+				<p>To raise Ecological Consciousness through the spread of Ecobricking and the transformation of global plastic into local solutions.</p><br>
 
-			<p><i>Together we can be the transition to ever increasing harmony with the cycles of life.</i></p>
+				<p><b>Dedication</b></p>
+				<p>Our work is dedicated to our Children, our Children’s Children… and the children of all species, for all time.</p><br>
 
-			
+				<p><i>Together we can be the transition to ever increasing harmony with the cycles of life.</i></p>
+
+			</div>
 
 
 
