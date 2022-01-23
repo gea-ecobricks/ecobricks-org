@@ -34,7 +34,7 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(webp/about-banner-1500px.webp) bottom;
+		background: url(webp/about-banner-1500px-b.webp) bottom;
 		background-color: #5CAF34;
 		
 		text-align: left;
@@ -58,7 +58,7 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(webp/about-banner-1500px.webp) bottom;
+		background: url(webp/about-banner-1500px-b.webp) bottom;
 		background-color: #5CAF34;
 		
 		text-align: left;
@@ -157,7 +157,7 @@ _END;?>
 
 .splash-sub {
   font-family: 'Arvo', Georgia, serif;
-  color: #FEFEFE;
+  color: #8DD2BF;
   margin: 15px 0;
 	/*text-shadow: 0px 0px 10px #fff;*/
 }
