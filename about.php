@@ -287,9 +287,9 @@ _END;?>
 				</div>
 
 				<div id="preclosed2">
-					<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It aso, means that unlike some organizations, we do not receive charity, grants or CSR funds.  
+					<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It aso, means that unlike an organizations, we do not receive charity, grants or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor a mandate of growth and profits.
 						
-					<p>As a deep green enterprise our focus is on generation and sale of authentic ecological value.  Through our Brikcoin blockchain this value is quantified and we sell it to fund our operations (see <a href="aes">AES plastic offsets</a>).  
+					<p>As an Earth enterprise our focus is on generation authentic ecological value.  Through our Brikcoin blockchain this value is authenticated, quantified and valued in regular currency.  We then sell Authenticated Ecobrick Sequestrated Plastic (<a href="aes">AES plastic offsets</a>) to fund our operations.  
 					
 					<p>The GEA develops workshops and trainings that raise ecological consciousness around the dangers of plastic.  These courses are lead by our trainer team, and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
 
