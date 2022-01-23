@@ -157,7 +157,7 @@ _END;?>
 
 .splash-sub {
   font-family: 'Arvo', Georgia, serif;
-  color: #3E8D67;
+  color: #FEFEFE;
   margin: 15px 0;
 	/*text-shadow: 0px 0px 10px #fff;*/
 }
@@ -218,7 +218,7 @@ _END;?>
 	
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</div>
+		<div class="splash-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises towards an ever Greener Harmony with Earth’s Cycles.</div>
 		<div class="splash-sub">— GEA Vision Statement</div>
 	</div>
 	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
@@ -429,10 +429,10 @@ _END;?>
 		
 			
 		<div id="side-module-desktop-only">
-        <img src="wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="90%">
-				<h4>2021 Regen Report</h4>
+        <img src="webp/2020-regen-report.webp" width="90%">
+				<h4>NEW! 2021 Regen Report</h4>
 				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
-				<a class="module-btn" href="https://gobrik.com/#catalyze" target="_blank">View</a><br><br>
+				<a class="module-btn" href="https://gobrik.com/#catalyze" target="_blank">Access Report</a><br><br>
 			</div>
 
 
