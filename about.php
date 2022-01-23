@@ -35,7 +35,7 @@ _END;?>
 	.splash-content-block {
 		
 		background: url(webp/about-banner-1500px-b.webp) bottom;
-		background-color: #5CAF34;
+		background-color: #3FB104;;
 		
 		text-align: left;
 		height: 70vh;
@@ -59,7 +59,7 @@ _END;?>
 	.splash-content-block {
 		
 		background: url(webp/about-banner-1500px-b.webp) bottom;
-		background-color: #5CAF34;
+		background-color: #3FB104;;
 		
 		text-align: left;
 		height: 60vh;
@@ -141,7 +141,7 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-heading {
-      font-size: 2.0em;
+      font-size: 1.8em;
       line-height: 1.1;
       margin: 10px 0;
   }
@@ -149,7 +149,7 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 3em;
+      font-size: 2.9em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
