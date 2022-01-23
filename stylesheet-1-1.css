@@ -1895,6 +1895,242 @@ migrated from GoBrik.com CSS
 }
 
 
+
+.action-btn {
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+font-family: Mulish;
+color: #fff;
+font-size: 20px;
+background: #4f8a28ff;
+padding: 11px 17px;
+text-decoration: none;
+font-weight: 500;
+margin-top: 40px;
+}
+
+.action-btn:hover {
+  background: #00A317;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.module-btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Mulish;
+  color: #ffffff;
+  font-size: 16px;
+  background: #b8b8b8;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+}
+
+.module-btn:hover {
+  background: #c5c6c7;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .block-toggle {
+      margin: 5px;
+      font-size: 2.0em;
+      background: #ffffff;
+      padding: 15px 20px 15px 20px;
+      border-radius: 10px;
+      color: grey;
+      border: none;
+	  flex: 15%;
+	 
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .block-toggle {
+
+      font-size: 3em;
+      background: #fff;
+      padding: 15px;
+      border-radius: 15px;
+      color: grey;
+	  flex: 15%;
+      margin-bottom: 10px;
+	  border: none;
+	  border: gray;
+
+  }
+}
+
+button:hover {
+  background: white;
+  cursor: pointer;
+  color: black;
+  border-bottom: black;
+  border-bottom-width: 1px;
+
+  /*
+	  border-top-width: 1px;
+border-right-width: 1px;
+
+border-left-width: 1px;
+		border-style: dashed;*/
+}
+
+/* -------------------------------------------------------------------------- */
+
+/*	5. Document Setup 
+
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+#main-content {
+  margin: auto;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 700px) {
+  #main-content {
+      width: 100%;
+	  margin-top: 0px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  #main-content {
+      width: 90%%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main-content {
+      width: 80%;
+  }
+}
+
+
+
+@media screen and (max-width: 700px) {
+	.lead-page-paragraph {
+      font-size: 1.25em;
+      line-height: 1.4;
+      margin: 35px 6% 25px 6%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+	.page-paragraph {
+      font-size: 1em;
+      line-height: 1.4;
+      margin: 20px 5% 30px 5%;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+	.lead-page-paragraph {
+      font-size: 1.4em;
+      line-height: 1.5;
+      margin: 25px 10px 5px 10px;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+	.page-paragraph {
+      font-size: 1.1em;
+      line-height: 1.3;
+      margin: 25px 10px 50px 10px;
+  }
+}
+
+
+@media screen and (max-width: 700px)  {
+		.reg-content-block {
+		text-align: left;
+		padding: 15px 7% 15px 7%;
+		border-radius: 0px;
+		margin: 35px 0px 0px 0px;
+/*
+		border-color: grey;
+		border-width: 1px;
+		border-style: dashed;*/
+}
+	}
+
+
+	@media screen and (min-width: 700px) {
+		.reg-content-block {
+			text-align: left;
+			padding: 18px 5% 22px 5%;
+			border-radius: 15px;
+			margin: 30px 0px 20px 0px;
+			
+			border-color: grey;
+			border-width: 1px;
+			border-style: dashed;
+ 
+}
+	}
+
+#block1 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block2 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block3 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block4 {
+	background: #f6f6f6;
+	display: block;
+}
+
+.opener-header {
+	display: flex;
+  box-sizing: border-box;
+
+}
+
+.opener-header-text {
+	flex: 85%;
+}
+
+
+
+
+ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  color: #222222;
+  font-size: 1.07em;
+      line-height: 1.3;
+  
+}
+
+ul a {
+	color: #222222;
+}
+ul a:hover {
+text-decoration: none;
+}
+
+
+
 #side-module-desktop-only {
 	
 	border-radius: 12px;
@@ -1921,28 +2157,32 @@ migrated from GoBrik.com CSS
   }
 
 
-.module-btn {
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  font-family: Mulish;
-  color: #ffffff;
-  font-size: 16px;
-  background: #b8b8b8;
-  padding: 8px 15px 8px 15px;
-  text-decoration: none;
+
+
+
+
+
+
+
+
+
+
+#clouds {
+  width: 100%;
+height: 70vh;
+  display: flex;
+  align-items: flex-end;
+/*  margin-bottom: -70px;*/
 }
 
-.module-btn:hover {
-  background: #c5c6c7;
-  text-decoration: none;
-}
 
-/* -------------------------------------------------------------------------- */
+/*
+#cloud-banner {
+z-index: 4;
+position: relative;
+height: 25vh;
+}*/
 
-/*	5. Cloud and Road Slider Section
-
-/* -------------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------------- */
 

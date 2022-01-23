@@ -20,6 +20,7 @@ deployment:
     - /bin/cp -R banners $DEPLOYPATH
 
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
+    - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
@@ -53,6 +54,7 @@ deployment:
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
+    - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
@@ -82,6 +84,7 @@ deployment:
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
+    - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
@@ -111,6 +114,7 @@ deployment:
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
+    - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH

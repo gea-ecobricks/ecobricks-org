@@ -34,7 +34,7 @@
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.18">
+<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.19">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
@@ -71,10 +71,8 @@
 	
 
 
-
-
 <!-- Enables the nav menu grey circle on mobile by click-->
-	
+
 <script type="text/javascript">
 	function appMenu() {
 	  var x = document.getElementById("myTopnav");
@@ -87,6 +85,7 @@
 </script>
 
 
+	
 
 <!-- Arc CDN Script without delay - turned off for the moment
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
@@ -153,5 +152,15 @@
 	text-align: right;
 	opacity: 1;
 }
+
+
+
+#preclosed1 {display: none;}
+#preclosed2 {display: none;}
+#preclosed3 {display: none;}
+#preclosed4 {display: none;}
+#preclosed5 {display: none;}
+
+
 
 </style>	

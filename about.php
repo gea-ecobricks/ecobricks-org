@@ -24,201 +24,24 @@ _END;?>
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<script>
-	function preopen() {
-	  var x = document.getElementById("preopen");
-	  if (x.style.display === "none") {
-		x.style.display = "block";
-	  } else {
-		x.style.display = "none";
-	  }
-
-	
-  var x = document.getElementById("toggle-hide");
-  if (x.innerHTML === "⬆ Hide") {
-    x.innerHTML = "⬇ Show";
-  } else {
-    x.innerHTML = "⬆ Hide";
-  }
-	}
-</script>
-
-<script>
-	function preclosed1() {
-	  var x = document.getElementById("preclosed1");
-		if (x.style.display === "block") {
-			x.style.display = "none";
-		} else {
-			x.style.display = "block";
-		}
-
-	var y = document.getElementById("block1");
-	if (y.style.display === "grid") {
-		y.style.background = "#f6f6f6";
-		y.style.display = "block";
-	} else {
-		y.style.background = "#fff";
-		y.style.display = "grid";
-	}
-	
-	var x = document.getElementById("block-toggle-show1");
-		if (x.innerHTML === "+") {
-			x.innerHTML = "-";
-		} else {
-			x.innerHTML = "+";
-		}
-	}
-</script>
-
-<script>
-	function preclosed2() {
-	  var x = document.getElementById("preclosed2");
-		if (x.style.display === "block") {
-			x.style.display = "none";
-		} else {
-			x.style.display = "block";
-		}
-
-	
-		var y = document.getElementById("block2");
-	if (y.style.display === "grid") {
-		y.style.background = "#f6f6f6";
-		y.style.display = "block";
-	} else {
-		y.style.background = "#fff";
-		y.style.display = "grid";
-	}
-	
-	var x = document.getElementById("block-toggle-show2");
-		if (x.innerHTML === "+") {
-			x.innerHTML = "-";
-		} else {
-			x.innerHTML = "+";
-		}
-	}
-</script>
-
-<script>
-	function preclosed3() {
-	  var x = document.getElementById("preclosed3");
-		if (x.style.display === "block") {
-			x.style.display = "none";
-		} else {
-			x.style.display = "block";
-		}
-
-	var y = document.getElementById("block3");
-	if (y.style.display === "grid") {
-		y.style.background = "#f6f6f6";
-		y.style.display = "block";
-	} else {
-		y.style.background = "#fff";
-		y.style.display = "grid";
-	}
-	
-	var x = document.getElementById("block-toggle-show3");
-		if (x.innerHTML === "+") {
-			x.innerHTML = "-";
-		} else {
-			x.innerHTML = "+";
-		}
-	}
-</script>
-
-
-<script>
-	function preclosed4() {
-	  var x = document.getElementById("preclosed4");
-		if (x.style.display === "block") {
-			x.style.display = "none";
-		} else {
-			x.style.display = "block";
-		}
-
-	var y = document.getElementById("block4");
-	if (y.style.display === "grid") {
-		y.style.background = "#f6f6f6";
-		y.style.display = "block";
-	} else {
-		y.style.background = "#fff";
-		y.style.display = "grid";
-	}
-	
-	var x = document.getElementById("block-toggle-show4");
-		if (x.innerHTML === "+") {
-			x.innerHTML = "-";
-		} else {
-			x.innerHTML = "+";
-		}
-	}
-</script>
-
-
-<script>
-	function preclosed5() {
-	  var x = document.getElementById("preclosed5");
-		if (x.style.display === "block") {
-			x.style.display = "none";
-		} else {
-			x.style.display = "block";
-		}
-
-	var y = document.getElementById("block5");
-	if (y.style.display === "grid") {
-		y.style.background = "#f6f6f6";
-		y.style.display = "block";
-	} else {
-		y.style.background = "#fff";
-		y.style.display = "grid";
-	}
-	
-	var x = document.getElementById("block-toggle-show5");
-		if (x.innerHTML === "+") {
-			x.innerHTML = "-";
-		} else {
-			x.innerHTML = "+";
-		}
-	}
-</script>
-
-
+<script src="accordion-scripts.js"></script> 
 
 <STYLE>
 
 
-#preclosed1 {display: none;}
-#preclosed2 {display: none;}
-#preclosed3 {display: none;}
-#preclosed4 {display: none;}
+/*This sets up the the first splash content block that is unique to the top of each page*/
 
-#clouds {
-
-    width: 100%;
-	height: 70vh;
-    display: flex;
-    align-items: flex-end;
-  /*  margin-bottom: -70px;*/
-}
-
-
-/*
-#cloud-banner {
-	z-index: 4;
-	position: relative;
-	height: 25vh;
-}*/
-
-	
 @media screen and (max-width: 700px) { 
-	.header-content-block {
+	.splash-content-block {
+		
+		background: url(webp/about-banner-1500px.webp) bottom;
+		background-color: #5CAF34;
+		
 		text-align: left;
 		height: 70vh;
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		
-		background: url(webp/about-banner-1500px.webp) bottom;
-		background-color: #5CAF34;
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -226,92 +49,89 @@ _END;?>
 		display: flex;
  		box-sizing: border-box;
 		flex-direction: column;
-	position: relative;
+		position: relative;
 
 	}
 }
 
 
 @media screen and (min-width: 700px) { 
-	.header-content-block {
+	.splash-content-block {
+		
+		background: url(webp/about-banner-1500px.webp) bottom;
+		background-color: #5CAF34;
+		
 		text-align: left;
 		height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		
-		background: url(webp/about-banner-1500px.webp) bottom;
-		background-color: #5CAF34;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
- 		 flex-wrap: wrap;
- 		 box-sizing: border-box;
-		  flex-direction: row;
-		  width: 100%;
-		  background-size: cover;
-
-	position: relative;
-
-
+ 		flex-wrap: wrap;
+ 		box-sizing: border-box;
+		flex-direction: row;
+		width: 100%;
+		background-size: cover;
+		position: relative;
 }
 }
 
 
-@media screen and (min-width: 700px) { 
-.header-image {
-  z-index: 5;
-  position: relative;
-  text-align: center;
-  flex: 35%;
-	padding: 0px;
-	box-sizing: border-box;
-	margin-top: 0px;
-}
-}
 
-
-@media screen and (min-width: 700px) { 
-.header-box {
-  z-index: 5;
-  position: relative;
-  flex: 65%;
-	padding: 10px 30px 0px 0px;
-	box-sizing: border-box;
-	text-align: right;
-}
-}
-
+/*This is the text box on the left of the splash that holds the splash header and sub text*/
 
 
 @media screen and (max-width: 700px) { 
-.header-image {
-  z-index: 5;
-  position: relative;
-  text-align: left;
-  flex: 25%;
-  width: 250px;
-	padding: 0px;
-	box-sizing: border-box;
-	margin: 0px 0px 0px 10px;
+.splash-text-box {
+		position: relative;
+		flex: 100%;
+		padding: 10px 10px 0px 0px;
+		box-sizing: border-box;
+		text-align: right;
 }
 }
 
+@media screen and (min-width: 700px) { 
+.splash-text-box {
+		z-index: 5;
+		position: relative;
+		flex: 65%;
+		padding: 10px 30px 0px 0px;
+		box-sizing: border-box;
+		text-align: right;
+}
+}
 
 
 @media screen and (max-width: 700px) { 
-.header-box {
-	position: relative;
-  flex: 100%;
-	padding: 10px 10px 0px 0px;
-	box-sizing: border-box;
-	text-align: right;
+.splash-image {
+		z-index: 5;
+		position: relative;
+		text-align: left;
+		flex: 25%;
+		width: 250px;
+		padding: 0px;
+		box-sizing: border-box;
+		margin: 0px 0px 0px 10px;
 }
 }
 
+/*This is the image on the right of the content block*/
+@media screen and (min-width: 700px) { 
+.splash-image {
+		z-index: 5;
+		position: relative;
+		text-align: center;
+		flex: 35%;
+		padding: 0px;
+		box-sizing: border-box;
+		margin-top: 0px;
+}
+}
 
-
-.header-heading { 
+.splash-heading { 
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: white;
   font-weight: 300;
@@ -320,7 +140,7 @@ _END;?>
 }
 
 @media screen and (max-width: 700px) {
-	.header-heading {
+	.splash-heading {
       font-size: 2.0em;
       line-height: 1.1;
       margin: 10px 0;
@@ -328,30 +148,29 @@ _END;?>
 }
 
 @media screen and (min-width: 700px) {
-	.header-heading {
+	.splash-heading {
       font-size: 3em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
 }
 
-
-.header-sub {
+.splash-sub {
   font-family: 'Arvo', Georgia, serif;
-  color: #40B208;
-  /*text-shadow: 0px 0px 10px #fff;*/
+  color: #3E8D67;
   margin: 15px 0;
+	/*text-shadow: 0px 0px 10px #fff;*/
 }
 
 @media screen and (max-width: 700px) {
-	.header-sub {
+	.splash-sub {
 		font-size: 1.2em;
 		line-height: 1.5;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
-	.header-sub {
+	.splash-sub {
 		font-size: 1.5em;
 		line-height: 1.3;
 		font-weight: 400;
@@ -359,7 +178,9 @@ _END;?>
 }
 
 
-#header-bar {
+/*This is the angled bar at the bottom of the intro splash block*/
+
+#splash-bar {
 	margin-top: -50px;
 	width: 100%;
 	background-color: #3FB104;
@@ -368,237 +189,14 @@ _END;?>
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
 	z-index: 0;
-	-webkit-transform: skewY(-3deg);
-  -moz-transform: skewY(-3deg);
-  -ms-transform: skewY(-3deg);
-  -o-transform: skewY(-3deg);
-  transform: skewY(-3deg);
-
 	margin-bottom: 40px;
 
-}
+	-webkit-transform: skewY(-3deg);
+ 	 -moz-transform: skewY(-3deg);
+ 	 -ms-transform: skewY(-3deg);
+ 	 -o-transform: skewY(-3deg);
+ 	 transform: skewY(-3deg);
 
-
-
-#main-content {
-  margin: auto;
-  box-sizing: border-box;
-}
-@media screen and (max-width: 700px) {
-  #main-content {
-      width: 100%;
-	  margin-top: 0px;
-  }
-}
-@media screen and (min-width: 700px) and (max-width: 1024px) {
-  #main-content {
-      width: 90%%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #main-content {
-      width: 80%;
-  }
-}
-
-/* Column container */
-
-/* Create two unequal columns that sits next to each other */
-
-/*
-mark{
- background-color:#c0ffc8;
- color: white;	
-}
-
-.intro-quote {
-	color: white ! important;
-	text-align: right;
-	background-color: #7440f5;
-	padding: 0px 10px 0px 10px;
-	line-height: 1.5;
-}
-
-#quote {padding: 30px 15px 15px 5px;
-text-align: right;}
-
-*/
-
-
-@media screen and (max-width: 700px) {
-	.lead-page-paragraph {
-      font-size: 1.25em;
-      line-height: 1.4;
-      margin: 35px 6% 25px 6%;
-  }
-}
-
-@media screen and (max-width: 700px) {
-	.page-paragraph {
-      font-size: 1em;
-      line-height: 1.4;
-      margin: 20px 5% 30px 5%;
-  }
-}
-
-
-@media screen and (min-width: 700px) {
-	.lead-page-paragraph {
-      font-size: 1.4em;
-      line-height: 1.5;
-      margin: 25px 10px 5px 10px;
-  }
-}
-
-
-@media screen and (min-width: 700px) {
-	.page-paragraph {
-      font-size: 1.1em;
-      line-height: 1.3;
-      margin: 25px 10px 50px 10px;
-  }
-}
-
-
-@media screen and (max-width: 700px)  {
-		.reg-content-block {
-		text-align: left;
-		padding: 15px 7% 15px 7%;
-		border-radius: 0px;
-		margin: 35px 0px 0px 0px;
-/*
-		border-color: grey;
-		border-width: 1px;
-		border-style: dashed;*/
-}
-	}
-
-
-	@media screen and (min-width: 700px) {
-		.reg-content-block {
-			text-align: left;
-			padding: 18px 5% 22px 5%;
-			border-radius: 15px;
-			margin: 30px 0px 20px 0px;
-			
-			border-color: grey;
-			border-width: 1px;
-			border-style: dashed;
- 
-}
-	}
-
-#block1 {
-	background: #f6f6f6;
-	display: block;
-}
-
-#block2 {
-	background: #f6f6f6;
-	display: block;
-}
-
-#block3 {
-	background: #f6f6f6;
-	display: block;
-}
-
-#block4 {
-	background: #f6f6f6;
-	display: block;
-}
-
-.opener-header {
-	display: flex;
-  box-sizing: border-box;
-
-}
-
-.opener-header-text {
-	flex: 85%;
-}
-
-
-
-@media screen and (max-width: 700px) {
-  .block-toggle {
-      margin: 5px;
-      font-size: 2.0em;
-      background: #ffffff;
-      padding: 15px 20px 15px 20px;
-      border-radius: 10px;
-      color: grey;
-      border: none;
-	  flex: 15%;
-	 
-  }
-}
-
-@media screen and (min-width: 700px) {
-  .block-toggle {
-
-      font-size: 3em;
-      background: #fff;
-      padding: 15px;
-      border-radius: 15px;
-      color: grey;
-	  flex: 15%;
-      margin-bottom: 10px;
-	  border: none;
-	  border: gray;
-
-  }
-}
-
-button:hover {
-  background: white;
-  cursor: pointer;
-  color: black;
-  border-bottom: black;
-  border-bottom-width: 1px;
-
-  /*
-	  border-top-width: 1px;
-border-right-width: 1px;
-
-border-left-width: 1px;
-		border-style: dashed;*/
-}
-
-
-ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  -webkit-font-smoothing: antialiased;
-  color: #222222;
-  font-size: 1.07em;
-      line-height: 1.3;
-  
-}
-
-ul a {
-	color: #222222;
-}
-ul a:hover {
-text-decoration: none;
-}
-
-.action-btn {
-  -webkit-border-radius: 14px;
-  -moz-border-radius: 14px;
-  border-radius: 14px;
-font-family: Mulish;
-color: #fff;
-font-size: 20px;
-background: #4f8a28ff;
-padding: 11px 17px;
-text-decoration: none;
-font-weight: 500;
-margin-top: 40px;
-}
-
-.action-btn:hover {
-  background: #00A317;
-  text-decoration: none;
 }
 
 	
@@ -615,17 +213,17 @@ margin-top: 40px;
          
 		<?php include 'menu-bar.php';?>
 
-<!--PAGE BANNER-->
+<!--SPLASH SECTION-->
 
 	
-<div class="header-content-block">
-	<div class="header-box">
-		<div class="header-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</div>
-		<div class="header-sub">— GEA Vision Statement</div>
+<div class="splash-content-block">
+	<div class="splash-text-box">
+		<div class="splash-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</div>
+		<div class="splash-sub">— GEA Vision Statement</div>
 	</div>
-	<div class="header-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
-<div id="header-bar"></div>
+<div id="splash-bar"></div>
 
 
 
@@ -648,7 +246,7 @@ margin-top: 40px;
 
 				<p>The Global Ecobrick Alliance began in the green mountains of the Chico River in the land of Igorot people– the indigenous people of the Filipino Cordilleras.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="ayyew">Igorot Ayyew ethos</a>.  Today, ecobricking principles and methods are a means for homes, businesses and communities around the world to accelerate their <a href="transition">plastic transition.</a></p>
 				
-				<p>The Global Ecobrick Alliance (GEA) is composed of 400+ trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in ecobricking as a means of transitioning from plastic to ever greener living. <p>
+				<p>The Global Ecobrick Alliance (GEA) is made up of 400+ trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in ecobricking as a means of transitioning from plastic to ever greener living. <p>
 
 			</div>	
 
@@ -658,7 +256,7 @@ margin-top: 40px;
 					
 					<div class="opener-header-text">
 						<h4>Being the Change</h4>
-						<h5>We strive to lead by example.</h5>
+						<h5>We strive to lead by example in our homes and enterprises.</h5>
 					</div>
 					
 					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
@@ -689,9 +287,9 @@ margin-top: 40px;
 				</div>
 
 				<div id="preclosed2">
-					<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that unlike many companies, we have no share-holders or owners to whom profits are extracted.  It aso, means that unlike many organizations, we do not receive charity, grants or CSR funds.  
+					<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It aso, means that unlike some organizations, we do not receive charity, grants or CSR funds.  
 						
-					<p>As a deep green enterprise our focus is on generating authentic ecological value.  Through our Brikcoin blockchain this value is quantified and we sell it to fund our operations (see <a href="aes">AES plastic offsets</a>).  
+					<p>As a deep green enterprise our focus is on generation and sale of authentic ecological value.  Through our Brikcoin blockchain this value is quantified and we sell it to fund our operations (see <a href="aes">AES plastic offsets</a>).  
 					
 					<p>The GEA develops workshops and trainings that raise ecological consciousness around the dangers of plastic.  These courses are lead by our trainer team, and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
 
@@ -712,7 +310,7 @@ margin-top: 40px;
 					
 					<div class="opener-header-text">
 					<h4>Principled Practice</h4>
-					<h5>As an Earth Enterprise the GEA follows seven principles that ensure our goals, operations and our results are deeply in line with our vision and mission in both the short and long-term…</h5>
+					<h5>As an Earth Enterprise the GEA follows seven principles that ensure our goals, operations and our results are deeply in line with our vision and mission in both the short and long-term.</h5>
 					<br>
 					</div>
 
@@ -734,7 +332,7 @@ margin-top: 40px;
 
 					<p><b>3. Open Source</b></p>
 
-					<p>We strive to make our resources, guides, and software open under the Creative Commons Attribution-ShareAlike 4.0 International License. 
+					<p>We make our resources, guides, and code open under Creative Commons Attribution-ShareAlike 4.0 International Licenses.
 					</p><br>
 
 					<p><b>4. Gender, Age, Status Transcendent</b></p>
@@ -834,7 +432,7 @@ margin-top: 40px;
         <img src="wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="90%">
 				<h4>2021 Regen Report</h4>
 				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">View</a><br><br>
+				<a class="module-btn" href="https://gobrik.com/#catalyze" target="_blank">View</a><br><br>
 			</div>
 
 
