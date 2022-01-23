@@ -30,6 +30,7 @@ deployment:
     - /bin/cp arc-delayed.php $DEPLOYPATH
     - /bin/cp what.php $DEPLOYPATH
     - /bin/cp about.php $DEPLOYPATH
+    - /bin/cp coefficients.php $DEPLOYPATH
 
     
 
@@ -63,6 +64,7 @@ deployment:
     - /bin/cp arc-delayed.php $DEPLOYPATH
     - /bin/cp what.php $DEPLOYPATH
     - /bin/cp about.php $DEPLOYPATH
+    - /bin/cp coefficients.php $DEPLOYPATH
 
 
 
@@ -93,6 +95,7 @@ deployment:
     - /bin/cp arc-delayed.php $DEPLOYPATH
     - /bin/cp what.php $DEPLOYPATH
     - /bin/cp about.php $DEPLOYPATH
+    - /bin/cp coefficients.php $DEPLOYPATH
 
 
 
@@ -123,3 +126,4 @@ deployment:
     - /bin/cp arc-delayed.php $DEPLOYPATH
     - /bin/cp what.php $DEPLOYPATH
     - /bin/cp about.php $DEPLOYPATH
+    - /bin/cp coefficients.php $DEPLOYPATH

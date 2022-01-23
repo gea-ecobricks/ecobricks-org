@@ -34,8 +34,8 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(webp/about-banner-1500px-b.webp) bottom;
-		background-color: #5CAF34;
+		/*background: url(webp/about-banner-1500px-b.webp) bottom;*/
+		background-color: #FFDE00;
 		
 		text-align: left;
 		height: 70vh;
@@ -58,8 +58,8 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(webp/about-banner-1500px-b.webp) bottom;
-		background-color: #5CAF34;
+		/*background: url(webp/about-banner-1500px-b.webp) bottom;*/
+		background-color: #FFDE00;
 		
 		text-align: left;
 		height: 60vh;
@@ -183,7 +183,7 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #3FB104;
+	background-color: #FFDE00;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -218,8 +218,8 @@ _END;?>
 	
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises towards an ever Greener Harmony with Earth’s Cycles.</div>
-		<div class="splash-sub">— GEA Vision Statement</div>
+		<div class="splash-heading">2021 Plastic Co-Effecients</div>
+		<div class="splash-sub">— For Regenerativity Reporting </div>
 	</div>
 	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
@@ -238,15 +238,14 @@ _END;?>
 
 			<div class="lead-page-paragraph">
 				
-				<p>The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition.  We do so through the mandalic dissemination of principled and practical ecobricking to raise ecological consciousness.</p>
+				<p>The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition.  We maintain and publish global coeffecients for plastic consumption, production and CO2 equivalency for enterprises who are tracking and disclosing their plastic impacts.</p>
 				</div>
 
 			<div class="page-paragraph">
 				  
 
-				<p>The Global Ecobrick Alliance began in the green mountains of the Chico River in the land of Igorot people– the indigenous people of the Filipino Cordilleras.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="ayyew">Igorot Ayyew ethos</a>.  Today, ecobricking principles and methods are a means for homes, businesses and communities around the world to accelerate their <a href="transition">plastic transition.</a></p>
+				<p>In 2021 the GEA began a compendium of plastic generation coeffecients based on the extensive experience of our 400 trainers working with plastic around the world.</p>
 				
-				<p>The Global Ecobrick Alliance (GEA) is made up of 400+ trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in ecobricking as a means of transitioning from plastic to ever greener living. <p>
 
 			</div>	
 
@@ -255,8 +254,8 @@ _END;?>
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Being the Change</h4>
-						<h5>We strive to lead by example in our homes and enterprises.</h5>
+						<h4>Plastic Production Coeffecients</h4>
+						<h5>For Plastic used within one's own facilities.</h5>
 					</div>
 					
 					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
@@ -265,14 +264,14 @@ _END;?>
 
 				<div id="preclosed1">
 					<br>
-					<p>As ecobrickers ourselves, we packed our plastic, track and work hard to minimize our plastic consumption.  We build our home furniture and gardens with our ecobricks.  We use plastic offsetting to make sure our household and our enterprises are net green.</p>
-					<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
+				
 					
-					<p><b>We observe that the consumption and production of plastic is rooted in the global petro-capital economy.</b></p>
+					<p><b>Laptop</b></p>
 					
-					<p>Plastic is bound to the petroleum and capital that makes the global economy spin.  However, rather than stress about these big system issues, we’ve chosen to focus on our own personal plastic consumption.  This is something we can be sure to do something about.</p> 
+					<p>The purchase and use of a laptop entails plastic generation (packaging, cables, casing, screen, ketboard, etc)</p> 
 
-					<P>Although seemingly small, we feel that our own plastic is so important that ‘leading by personal example’ is one of our core principles.  As we have come together as the Global Ecobrick Alliance, we’ve realized that to deeply solve plastic, we also have to lead by our allied action, enterprise structure and principles.</p>
+					<h5>0.5 Kg over lifetime of use</h5>
+                    <h6>Examining the Carbon Footprint of Devices, Microsoft, Sustainable Software, 2020</h6>
 	
 				</div>	
 			</div>
@@ -280,8 +279,8 @@ _END;?>
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
 					<div class="opener-header-text">
-						<h4>Earth Enterprise</h4>
-						<h5>Our not-for-profit enterprise is focused on Earth service.</h5><br>
+						<h4>Plastic Production</h4>
+						<h5>Plastic generated or sent outside of your facilities.</h5><br>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 				</div>
@@ -289,17 +288,7 @@ _END;?>
 				<div id="preclosed2">
 					<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It aso, means that unlike an organizations, we do not receive charity, grants or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor a mandate of growth and profits.
 						
-					<p>As an Earth enterprise our focus is on generation authentic ecological value.  Through our Brikcoin blockchain this value is authenticated, quantified and valued in regular currency.  We then sell Authenticated Ecobrick Sequestrated Plastic (<a href="aes">AES plastic offsets</a>) to fund our operations.  
 					
-					<p>The GEA develops workshops and trainings that raise ecological consciousness around the dangers of plastic.  These courses are lead by our trainer team, and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
-
-					<p>The GEA develops regenerative, open source products that are made to specification by makers local to the country in which they are sold.  These products are sold by our trainers to assist with their practice (see <a href="/earthwand">our EarthWand page for an example).</a></p>
-
-					<p>All of our operations are manifested through our GEA Trainer and Core Team– folks who have been through one of our advanced trainings and are perpetually committed and resonant with our mission, vision and principles.  Our trainer team is constantly running GEA Trainings around the world, and are remunerated professionally for these services by the community groups, companies, governments, NGOs or organizations that hire them.</p>
-					<br>
-					<p><i>    “In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.”</i></p>
-
-					<h5>– How on Earth, Hinton & Maclurcan (2016)</h5>
 				</div>
 			</div>	
 
@@ -309,8 +298,8 @@ _END;?>
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>Principled Practice</h4>
-					<h5>As an Earth Enterprise the GEA follows seven principles that ensure our goals, operations and our results are deeply in line with our vision and mission in both the short and long-term.</h5>
+					<h4>Plastic CO2 Equivalencies</h4>
+					<h5>Various flows of plastic have significant carbon emissions.</h5>
 					<br>
 					</div>
 
@@ -320,7 +309,7 @@ _END;?>
 				<div id="preclosed3">
 					<br>
 
-					<p><b>1. For-Earth</b></p>
+					    <p><b>1. For-Earth</b></p>
 
 					<p>Our enterprise follows the <a href="plastic">Earth's example</a> in generating ecological value.  We follow the <a href="https://earthen.io/the-earthen-ways/" target="_blank">six principles of Earthen ethics</a> to sequester carbon, distibute benefit upwards, support biodiversity, raise ecological awareness and acheive overall net-subtraction in our endeavours.</p><br>
 
@@ -400,10 +389,6 @@ _END;?>
 					<p><b>Ecobrick Educational Resources</b></p>
 
 					<p>The GEA develops and deploys resources such as <a href="https://youtube.com/ecobricks">video tutorials</a> on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and <a href="/trainings">ecobrick trainings</a>.</p><br>
-
-					<p><b>Plastic Accounting Coeffecients</b></p>
-
-					<p>The GEA researches, publishes and maintains <a href="coeffecients">standards for plastic equivalencies</a> for regenerative accounting.</a>.</p><br>
 				</div>
 			</div>
 
