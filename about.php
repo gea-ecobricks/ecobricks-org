@@ -432,7 +432,7 @@ _END;?>
 
 		
 			
-		<div id="side-module-desktop-only">
+		<div id="side-module-desktop-mobile">
         <img src="webp/2020-regen-report.webp" width="90%">
 				<h4>NEW! 2021 Regen Report</h4>
 				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
