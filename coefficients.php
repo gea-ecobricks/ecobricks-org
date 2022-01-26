@@ -271,7 +271,7 @@ if (!$conn) {
 	</div>
 		
 	<?php
-
+/*
 
 		$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran;"
 		$result = $conn->query($sql);
@@ -287,7 +287,7 @@ if (!$conn) {
 		echo "0 results";
 		}
 		$conn->close();
-
+*/
 	?>   
 
 		
