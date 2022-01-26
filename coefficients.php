@@ -247,26 +247,29 @@ _END;?>
 				<p>In 2021 the GEA began a compendium of plastic generation coeffecients based on the extensive experience of our 400 trainers working with plastic around the world. This page and our listing here are still in development.</p>
 
 
-				<h3>About The Brikchain</h3>
+				<h3>From The Brikchain</h3>
 			
+
+
+	<?php require('db.php'); ?>
 		
-		<?php
+	<?php
 
 
-$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran;"
-$result = $conn->query($sql);
+		$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran;"
+		$result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-  // output data of each row
-  while($row = $result->fetch_assoc()) {
+		if ($result->num_rows > 0) {
+		// output data of each row
+		while($row = $result->fetch_assoc()) {
 
 
-    echo "Transaction ID" . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br>";
-  }
-} else {
-  echo "0 results";
-}
-$conn->close();
+			echo "Transaction ID" . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br>";
+		}
+		} else {
+		echo "0 results";
+		}
+		$conn->close();
 
 	?>       
 
