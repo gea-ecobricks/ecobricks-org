@@ -5,11 +5,7 @@ deployment:
 
     - export DEPLOYPATH=/home/ecobricks/public_html/
 
-    - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.php $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
-    - /bin/cp arc-sw.js $DEPLOYPATH
-    - /bin/cp .cpanel.yml $DEPLOYPATH
+
     - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH
@@ -19,8 +15,12 @@ deployment:
     - /bin/cp -R meta $DEPLOYPATH
     - /bin/cp -R banners $DEPLOYPATH
 
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
+
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
@@ -30,6 +30,8 @@ deployment:
     - /bin/cp what.php $DEPLOYPATH
     - /bin/cp about.php $DEPLOYPATH
     - /bin/cp coefficients.php $DEPLOYPATH
+    - /bin/cp gea-webhead.html $DEPLOYPATH
+    - /bin/cp faqs.php $DEPLOYPATH
 
     
 
@@ -37,11 +39,7 @@ deployment:
 
     - export DEPLOYPATH=/home/ecobricks/public_html/en/
 
-    - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.php $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
-    - /bin/cp arc-sw.js $DEPLOYPATH
-    - /bin/cp .cpanel.yml $DEPLOYPATH
+
     - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH
@@ -50,11 +48,14 @@ deployment:
     - /bin/cp -R photos $DEPLOYPATH
     - /bin/cp -R meta $DEPLOYPATH
     - /bin/cp -R banners $DEPLOYPATH
-    
 
-    - /bin/cp welcome.php $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
+
+    - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
@@ -63,16 +64,14 @@ deployment:
     - /bin/cp what.php $DEPLOYPATH
     - /bin/cp about.php $DEPLOYPATH
     - /bin/cp coefficients.php $DEPLOYPATH
+    - /bin/cp gea-webhead.html $DEPLOYPATH
+    - /bin/cp faqs.php $DEPLOYPATH
 
 
 
     - export DEPLOYPATH=/home/ecobricks/public_html/es/
 
-    - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.php $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
-    - /bin/cp arc-sw.js $DEPLOYPATH
-    - /bin/cp .cpanel.yml $DEPLOYPATH
+
     - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH
@@ -82,9 +81,13 @@ deployment:
     - /bin/cp -R meta $DEPLOYPATH
     - /bin/cp -R banners $DEPLOYPATH
 
-    - /bin/cp welcome.php $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
+
+    - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
@@ -93,16 +96,14 @@ deployment:
     - /bin/cp what.php $DEPLOYPATH
     - /bin/cp about.php $DEPLOYPATH
     - /bin/cp coefficients.php $DEPLOYPATH
+    - /bin/cp gea-webhead.html $DEPLOYPATH
+    - /bin/cp faqs.php $DEPLOYPATH
 
 
 
     - export DEPLOYPATH=/home/ecobricks/public_html/id/
 
-    - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.php $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
-    - /bin/cp arc-sw.js $DEPLOYPATH
-    - /bin/cp .cpanel.yml $DEPLOYPATH
+
     - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH
@@ -112,9 +113,13 @@ deployment:
     - /bin/cp -R meta $DEPLOYPATH
     - /bin/cp -R banners $DEPLOYPATH
 
-    - /bin/cp welcome.php $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
+
+    - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp menu-bar.php $DEPLOYPATH
@@ -123,3 +128,5 @@ deployment:
     - /bin/cp what.php $DEPLOYPATH
     - /bin/cp about.php $DEPLOYPATH
     - /bin/cp coefficients.php $DEPLOYPATH
+    - /bin/cp gea-webhead.html $DEPLOYPATH
+    - /bin/cp faqs.php $DEPLOYPATH
