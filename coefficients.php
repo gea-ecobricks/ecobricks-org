@@ -17,7 +17,7 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/coeficients-$lang.php");?>
+<?php require_once ("meta/coefficients-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
