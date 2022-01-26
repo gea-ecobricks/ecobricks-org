@@ -35,7 +35,7 @@ _END;?>
 	.splash-content-block {
 		
 		/*background: url(webp/about-banner-1500px-b.webp) bottom;*/
-		background-color: #FFDE00;
+		background-color: #FCC32F;
 		
 		text-align: left;
 		height: 70vh;
@@ -59,7 +59,7 @@ _END;?>
 	.splash-content-block {
 		
 		/*background: url(webp/about-banner-1500px-b.webp) bottom;*/
-		background-color: #FFDE00;
+		background-color: #FCC32F;
 		
 		text-align: left;
 		height: 60vh;
@@ -183,7 +183,7 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #FFDE00;
+	background-color: #FCC32F;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -245,6 +245,32 @@ _END;?>
 				  
 
 				<p>In 2021 the GEA began a compendium of plastic generation coeffecients based on the extensive experience of our 400 trainers working with plastic around the world. This page and our listing here are still in development.</p>
+
+
+				<h3>About The Brikchain</h3>
+			
+		
+		<?php
+
+
+$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran;"
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+
+
+    echo "Transaction ID" . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br>";
+  }
+} else {
+  echo "0 results";
+}
+$conn->close();
+
+	?>       
+
+			</div>
 				
 
 			</div>	
