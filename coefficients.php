@@ -218,8 +218,8 @@ _END;?>
 	
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">2021 Plastic Co-Effecients</div>
-		<div class="splash-sub">— For Regenerativity Reporting </div>
+		<div class="splash-heading">2021<br>Plastic Coefficients</div>
+		<div class="splash-sub">For Regenerativity Reporting </div>
 	</div>
 	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
@@ -239,7 +239,7 @@ _END;?>
 			<div class="lead-page-paragraph">
 				
 				<p>The Global Ecobrick Alliance maintains and publish global coeffecients for plastic consumption, production and CO2 equivalency for enterprises who are tracking and disclosing their plastic impacts.</p>
-				</div>
+			</div>
 
 			<div class="page-paragraph">
 				  
@@ -249,10 +249,13 @@ _END;?>
 
 				<h3>From The Brikchain</h3>
 			
-    
+			</div>
+				
+			<div class="page-paragraph">
+				
 
 <?php
-/*
+
 $servername = "localhost";
 $username = "ecobricks_php_api_user";
 $password = "12345";
@@ -263,9 +266,9 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-*/
-?>
 
+?>
+	</div>
 		
 	<?php
 /*
@@ -287,10 +290,7 @@ if (!$conn) {
 */
 	?>   
 
-			</div>
-				
-
-			</div>	
+		
 
 			<div class="reg-content-block" id="block1">
 				
