@@ -218,8 +218,8 @@ _END;?>
 	
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">2021<br>Plastic Coefficients</div>
-		<div class="splash-sub">For Regenerativity Reporting </div>
+		<div class="splash-heading">2021 Plastic Coefficients<br>for Regenerativity Reporting</div>
+		<div class="splash-sub">by the Global Ecobrick Alliance EE</div>
 	</div>
 	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
@@ -271,7 +271,7 @@ if (!$conn) {
 	</div>
 		
 	<?php
-/*
+
 
 		$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran;"
 		$result = $conn->query($sql);
@@ -287,7 +287,7 @@ if (!$conn) {
 		echo "0 results";
 		}
 		$conn->close();
-*/
+
 	?>   
 
 		
