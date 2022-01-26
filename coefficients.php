@@ -17,7 +17,7 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/about-$lang.php");?>
+<?php require_once ("meta/coeficients-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
@@ -251,8 +251,8 @@ _END;?>
 			
 
 
-				<?php
-$servername = " localhost:3306";
+<?php
+$servername = "localhost:3306";
 $username = "ecobricks_php_api_user";
 $password = "12345";
 $dbname = "ecobricks_msql_db";
