@@ -252,6 +252,7 @@ _END;?>
 
 
 <?php
+/*
 $servername = "localhost";
 $username = "ecobricks_php_api_user";
 $password = "12345";
@@ -262,10 +263,29 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
+*/
 ?>
 
 		
-    
+	<?php
+/*
+
+		$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran;"
+		$result = $conn->query($sql);
+
+		if ($result->num_rows > 0) {
+		// output data of each row
+		while($row = $result->fetch_assoc()) {
+
+
+			echo "Transaction ID" . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br>";
+		}
+		} else {
+		echo "0 results";
+		}
+		$conn->close();
+*/
+	?>       
 
 			</div>
 				
