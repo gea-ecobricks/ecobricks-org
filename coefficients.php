@@ -252,26 +252,9 @@ _END;?>
 
 
 	<?php require('db.php'); ?>
+
+	<!--
 		
-	<?php
-
-
-		$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran;"
-		$result = $conn->query($sql);
-
-		if ($result->num_rows > 0) {
-		// output data of each row
-		while($row = $result->fetch_assoc()) {
-
-
-			echo "Transaction ID" . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br>";
-		}
-		} else {
-		echo "0 results";
-		}
-		$conn->close();
-
-	?>       
 
 			</div>
 				
