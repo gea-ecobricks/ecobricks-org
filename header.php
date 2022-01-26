@@ -87,9 +87,9 @@
 
 	
 
-<!-- Arc CDN Script without delay - turned off for the moment
+<!-- Arc CDN Script without delay - turned off for the moment-->
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
--->
+
 
 <!-- Inline styling to lay out the most important part of the page for first load view-->
 

@@ -23,7 +23,7 @@ _END;?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
-
+<!--
 <script>
 	function preopen() {
 	  var x = document.getElementById("preopen");
@@ -153,36 +153,19 @@ _END;?>
 	}
 </script>
 
+-->
+
+<script src="accordion-scripts.js"></script> 
+
+
 
 
 <STYLE>
 
 
-#preclosed1 {display: none;}
-#preclosed2 {display: none;}
-#preclosed3 {display: none;}
-#preclosed4 {display: none;}
-
-#clouds {
-
-    width: 100%;
-	height: 70vh;
-    display: flex;
-    align-items: flex-end;
-  /*  margin-bottom: -70px;*/
-}
-
-
-/*
-#cloud-banner {
-	z-index: 4;
-	position: relative;
-	height: 25vh;
-}*/
-
 	
 @media screen and (max-width: 700px) { 
-	.header-content-block {
+	.splash-content-block {
 		text-align: left;
 		height: 70vh;
 		padding: 50px 5% 25px 5%;
@@ -202,7 +185,7 @@ _END;?>
 
 
 @media screen and (min-width: 700px) { 
-	.header-content-block {
+	.splash-content-block {
 		text-align: left;
 		height: 60vh;
 		padding: 50px 7% 50px 7%;
@@ -224,7 +207,7 @@ _END;?>
 
 
 @media screen and (min-width: 700px) { 
-.header-image {
+.splash-image {
   z-index: 5;
   position: relative;
   text-align: center;
@@ -237,7 +220,7 @@ _END;?>
 
 
 @media screen and (min-width: 700px) { 
-.header-box {
+.splash-box {
   z-index: 5;
   position: relative;
   flex: 65%;
@@ -250,7 +233,7 @@ _END;?>
 
 
 @media screen and (max-width: 700px) { 
-.header-image {
+.splash-image {
   z-index: 5;
   position: relative;
   text-align: left;
@@ -265,7 +248,7 @@ _END;?>
 
 
 @media screen and (max-width: 700px) { 
-.header-box {
+.splash-box {
 	position: relative;
   flex: 100%;
 	padding: 10px 10px 0px 0px;
@@ -276,7 +259,7 @@ _END;?>
 
 
 
-.header-heading { 
+.splash-heading { 
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: white;
   font-weight: 300;
@@ -285,7 +268,7 @@ _END;?>
 }
 
 @media screen and (max-width: 700px) {
-	.header-heading {
+	.splash-heading {
       font-size: 2.0em;
       line-height: 1.1;
       margin: 10px 0;
@@ -293,7 +276,7 @@ _END;?>
 }
 
 @media screen and (min-width: 700px) {
-	.header-heading {
+	.splash-heading {
       font-size: 3em;
       line-height: 1.3;
       margin: 40px 0 10px;
@@ -301,7 +284,7 @@ _END;?>
 }
 
 
-.header-sub {
+.splash-sub {
   font-family: 'Arvo', Georgia, serif;
   color: grey;
   /*text-shadow: 0px 0px 10px #fff;*/
@@ -309,14 +292,14 @@ _END;?>
 }
 
 @media screen and (max-width: 700px) {
-	.header-sub {
+	.splash-sub {
 		font-size: 1.2em;
 		line-height: 1.5;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
-	.header-sub {
+	.splash-sub {
 		font-size: 2.3em;
 		line-height: 1.3;
 		font-weight: 400;
@@ -327,7 +310,7 @@ _END;?>
 
 
 
-#header-bar {
+#splash-bar {
 	margin-top: -50px;
 	width: 100%;
 	background-color: #00E6FF;
@@ -349,208 +332,6 @@ _END;?>
     }
 }
 
-
-#main-content {
-  margin: auto;
-  box-sizing: border-box;
-}
-@media screen and (max-width: 700px) {
-  #main-content {
-      width: 100%;
-	  margin-top: 0px;
-  }
-}
-@media screen and (min-width: 700px) and (max-width: 1024px) {
-  #main-content {
-      width: 90%%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #main-content {
-      width: 80%;
-  }
-}
-
-/* Column container */
-
-/* Create two unequal columns that sits next to each other */
-
-/*
-mark{
- background-color:#c0ffc8;
- color: white;	
-}
-
-.intro-quote {
-	color: white ! important;
-	text-align: right;
-	background-color: #7440f5;
-	padding: 0px 10px 0px 10px;
-	line-height: 1.5;
-}
-
-#quote {padding: 30px 15px 15px 5px;
-text-align: right;}
-
-*/
-
-
-@media screen and (max-width: 700px) {
-	.lead-page-paragraph {
-      font-size: 1.25em;
-      line-height: 1.4;
-      margin: 35px 6% 25px 6%;
-  }
-}
-
-@media screen and (max-width: 700px) {
-	.page-paragraph {
-      font-size: 1em;
-      line-height: 1.4;
-      margin: 20px 5% 30px 5%;
-  }
-}
-
-
-@media screen and (min-width: 700px) {
-	.lead-page-paragraph {
-      font-size: 1.4em;
-      line-height: 1.5;
-      margin: 25px 10px 5px 10px;
-  }
-}
-
-
-@media screen and (min-width: 700px) {
-	.page-paragraph {
-      font-size: 1.1em;
-      line-height: 1.3;
-      margin: 25px 10px 50px 10px;
-  }
-}
-
-
-@media screen and (max-width: 700px)  {
-		.reg-content-block {
-		text-align: left;
-		padding: 15px 7% 15px 7%;
-		border-radius: 0px;
-		margin: 35px 0px 0px 0px;
-/*
-		border-color: grey;
-		border-width: 1px;
-		border-style: dashed;*/
-}
-	}
-
-
-	@media screen and (min-width: 700px) {
-		.reg-content-block {
-			text-align: left;
-			padding: 18px 5% 22px 5%;
-			border-radius: 15px;
-			margin: 30px 0px 20px 0px;
-			
-			border-color: grey;
-			border-width: 1px;
-			border-style: dashed;
- 
-}
-	}
-
-#block1 {
-	background: #f6f6f6;
-	display: block;
-}
-
-#block2 {
-	background: #f6f6f6;
-	display: block;
-}
-
-#block3 {
-	background: #f6f6f6;
-	display: block;
-}
-
-#block4 {
-	background: #f6f6f6;
-	display: block;
-}
-
-.opener-header {
-	display: flex;
-  box-sizing: border-box;
-
-}
-
-.opener-header-text {
-	flex: 85%;
-}
-
-
-
-@media screen and (max-width: 700px) {
-  .block-toggle {
-      margin: 5px;
-      font-size: 2.0em;
-      background: #ffffff;
-      padding: 15px 20px 15px 20px;
-      border-radius: 10px;
-      color: grey;
-      border: none;
-	  flex: 15%;
-	 
-  }
-}
-
-@media screen and (min-width: 700px) {
-  .block-toggle {
-
-      font-size: 3em;
-      background: #fff;
-      padding: 15px;
-      border-radius: 15px;
-      color: grey;
-	  flex: 15%;
-      margin-bottom: 10px;
-	  border: none;
-	  border: gray;
-
-  }
-}
-
-button:hover {
-  background: white;
-  cursor: pointer;
-  color: black;
-  border-bottom: black;
-  border-bottom-width: 1px;
-
-  /*
-	  border-top-width: 1px;
-border-right-width: 1px;
-
-border-left-width: 1px;
-		border-style: dashed;*/
-}
-
-
-ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  -webkit-font-smoothing: antialiased;
-  color: #222222;
-  font-size: 1.07em;
-      line-height: 1.3;
-  
-}
-
-ul a {
-	color: #222222;
-}
-ul a:hover {
-text-decoration: none;
-}
 
 	
 </style>	
@@ -882,6 +663,20 @@ text-decoration: none;
 
 
 	<!--FOOTER ENDS HERE-->
+
+	<!-- Localise translation script-->
+
+<script src="https://global.localizecdn.com/localize.js"></script>
+<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+
+<script>
+  Localize.initialize({
+    key: '911e632bfc957',
+    rememberLanguage: true,
+  });
+</script>
+
+
 </div>
 </body>
 </html>

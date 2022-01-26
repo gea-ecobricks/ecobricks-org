@@ -149,7 +149,7 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 3em;
+      font-size: 4.3em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
@@ -157,7 +157,7 @@ _END;?>
 
 .splash-sub {
   font-family: 'Arvo', Georgia, serif;
-  color: #8DD2BF;
+  color: #fff;
   margin: 15px 0;
 	/*text-shadow: 0px 0px 10px #fff;*/
 }
@@ -238,13 +238,13 @@ _END;?>
 
 			<div class="lead-page-paragraph">
 				
-				<p>The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition.  We maintain and publish global coeffecients for plastic consumption, production and CO2 equivalency for enterprises who are tracking and disclosing their plastic impacts.</p>
+				<p>The Global Ecobrick Alliance maintains and publish global coeffecients for plastic consumption, production and CO2 equivalency for enterprises who are tracking and disclosing their plastic impacts.</p>
 				</div>
 
 			<div class="page-paragraph">
 				  
 
-				<p>In 2021 the GEA began a compendium of plastic generation coeffecients based on the extensive experience of our 400 trainers working with plastic around the world.</p>
+				<p>In 2021 the GEA began a compendium of plastic generation coeffecients based on the extensive experience of our 400 trainers working with plastic around the world. This page and our listing here are still in development.</p>
 				
 
 			</div>	
@@ -270,8 +270,26 @@ _END;?>
 					
 					<p>The purchase and use of a laptop entails plastic generation (packaging, cables, casing, screen, ketboard, etc)</p> 
 
-					<h5>0.5 Kg over lifetime of use</h5>
-                    <h6>Examining the Carbon Footprint of Devices, Microsoft, Sustainable Software, 2020</h6>
+					<span title="Examining the Carbon Footprint of Devices, Microsoft, Sustainable Software, 2020"><h5>0.5 Kg over lifetime of use</h5></span>
+                   
+					<p><b>Smart Phone</b></p>
+					
+					<p>The purchase and use of a smart phone entails plastic generation (packaging, cables, casing, screen, ketboard, etc)</p> 
+
+					<span title="Examining the Carbon Footprint of Devices, Microsoft, Sustainable Software, 2020"><h5>0.4 Kg over lifetime of use</h5></span>
+                   
+					<p><b>Domestic Air Travel</b></p>
+					
+					<p>Domestic air travel results in the generation of plastic (ticket, stickers, food and drink service, snacks, meal, etc.)</p> 
+
+					<span title="GEA Estimate"><h5>0.550 per ticket</h5></span>
+
+					<p><b>International Air Travel</b></p>
+					
+					<p>International air travel results in the generation of plastic (ticket, stickers, food and drink service, snacks, meal, etc.)</p> 
+
+					<span title="GEA Estimate"><h5>0.750 per ticket</h5></span>
+                   
 	
 				</div>	
 			</div>

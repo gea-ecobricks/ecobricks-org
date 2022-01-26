@@ -434,9 +434,9 @@ _END;?>
 			
 		<div id="side-module-desktop-mobile">
         <img src="webp/2020-regen-report.webp" width="90%">
-				<h4>NEW! 2021 Regen Report</h4>
+				<h4>NEW: 2021 Regen Report</h4>
 				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
-				<a class="module-btn" href="https://gobrik.com/#catalyze" target="_blank">Access Report</a><br><br>
+				<a class="module-btn" href="https://files.mandala.team/s/FTfHeqfaMWzeZS4" target="_blank">Access Report</a><br><br>
 			</div>
 
 
@@ -470,6 +470,21 @@ _END;?>
 
 
 	<!--FOOTER ENDS HERE-->
+
+
+<!-- Localise translation script-->
+
+<script src="https://global.localizecdn.com/localize.js"></script>
+<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+
+<script>
+  Localize.initialize({
+    key: '911e632bfc957',
+    rememberLanguage: true,
+  });
+</script>
+
+
 </div>
 </body>
 </html>
