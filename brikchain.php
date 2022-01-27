@@ -34,7 +34,7 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(svgs/eb-blue.svg) top;
+		background: url(svgs/cloud-back.svg) top;
 		background-color: #00E6FF;
 		
 		text-align: left;
@@ -58,7 +58,7 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(svgs/eb-blue.svg) bottom;
+		background: url(svgs/cloud-back.svg) bottom;
 		background-color: #00E6FF;
 		
 		text-align: left;
@@ -183,7 +183,7 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #FCC32F;
+	background-color: #00E6FF;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -260,15 +260,16 @@ _END;?>
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
 
-					echo '<div class="page-paragraph">';
+					echo '<div class="page-paragraph"><p>';
 					echo "Transaction ID:  " . $row["transaction_id"]. "   |  Name: " . $row["transaction_name"]. "   Type:" . $row["block_tran_type"]. "   |   Amount:" . $row["transaction_amount"]. "<br>";
-					echo '</div>';
+					echo '</p></div>';
 				}
 				} else {
 				echo "0 results";
 				}
 				$conn->close();
 			?>   
+		</div>
 
 		
 	
