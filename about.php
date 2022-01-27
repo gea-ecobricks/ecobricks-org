@@ -408,7 +408,7 @@ _END;?>
 			</div>
 
 
-			<div class="reg-content-block" id="block4">
+			<div class="reg-content-block" id="block5">
 
 				<div class="opener-header">	
 					<div class="opener-header-text">
@@ -417,10 +417,10 @@ _END;?>
 						<br>
 					</div>
 
-					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+					<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
 				</div>
 
-				<div id="preclosed4">
+				<div id="preclosed5">
 						
 				
 					<br>

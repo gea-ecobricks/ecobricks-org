@@ -17,7 +17,7 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/coefficients-$lang.php");?>
+<?php require_once ("meta/brikchain-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
@@ -218,8 +218,8 @@ _END;?>
 	
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">2021 Plastic Coefficients<br>for Regenerativity Reporting</div>
-		<div class="splash-sub">by the Global Ecobrick Alliance EE</div>
+		<div class="splash-heading">Brikchain Explorer</div>
+		<div class="splash-sub">Search the Full Brikcoin Blockchain</div>
 	</div>
 	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
@@ -238,17 +238,14 @@ _END;?>
 
 			<div class="lead-page-paragraph">
 				
-				<p>The Global Ecobrick Alliance maintains and publish global coeffecients for plastic consumption, production and CO2 equivalency for enterprises who are tracking and disclosing their plastic impacts.</p>
+				<p>The Global Ecobrick Alliance maintains the Brikcoin blockchain and provides the Brikchain Explorer tool as a means to search the full chain of transactions and ecobricks.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
 
-				<p>In 2021 the GEA began a compendium of plastic generation coeffecients based on the extensive experience of our 400 trainers working with plastic around the world. This page and our listing here are still in development.</p>
+				<p>For the moment here's a full table of all the current birkcoin transactions.  Not that this feature is still under development!</p>
 
-
-				<h3>From The Brikchain</h3>
-			
 			</div>
 				
 			<div class="page-paragraph">
@@ -256,6 +253,23 @@ _END;?>
 
             <?php include 'db.php';?>
 		
+	<?php
+
+		$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran;"
+		$result = $conn->query($sql);
+
+		if ($result->num_rows > 0) {
+		// output data of each row
+		while($row = $result->fetch_assoc()) {
+
+
+			echo "Transaction ID:  " . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br>";
+		}
+		} else {
+		echo "0 results";
+		}
+		$conn->close();
+	?>   
 
 		
 
