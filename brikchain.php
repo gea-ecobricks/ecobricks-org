@@ -262,7 +262,7 @@ _END;?>
 				while($row = $result->fetch_assoc()) {
 
 					
-					echo $str"Transaction ID:  " . $row["transaction_id"]. " |   Name: " . $row["transaction_name"]. "   Type:" . $row["block_tran_type"]. "|   Amount:" . $row["transaction_amount"]. "<br></div>";
+					echo $str"Transaction ID:  " . $row["transaction_id"]. "   |  Name: " . $row["transaction_name"]. "   Type:" . $row["block_tran_type"]. "   |   Amount:" . $row["transaction_amount"]. "<br></div>";
 				}
 				} else {
 				echo "0 results";
