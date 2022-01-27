@@ -252,6 +252,8 @@ _END;?>
 		
 			<?php
 
+				$str = '<div class="page-paragraph">'
+
 				$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran";
 				$result = $conn->query($sql);
 
@@ -259,8 +261,8 @@ _END;?>
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
 
-
-					echo "<div class="page-paragraph"> Transaction ID:  " . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br></div>";
+					echo htmlentities($str);
+					echo "Transaction ID:  " . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br></div>";
 				}
 				} else {
 				echo "0 results";
