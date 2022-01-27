@@ -34,8 +34,8 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		/*background: url(webp/about-banner-1500px-b.webp) bottom;*/
-		background-color: #FCC32F;
+		background: url(svgs/eb-blue.svg) top;
+		background-color: #00E6FF;
 		
 		text-align: left;
 		height: 70vh;
@@ -58,8 +58,8 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		/*background: url(webp/about-banner-1500px-b.webp) bottom;*/
-		background-color: #FCC32F;
+		background: url(svgs/eb-blue.svg) bottom;
+		background-color: #00E6FF;
 		
 		text-align: left;
 		height: 60vh;
@@ -261,8 +261,8 @@ _END;?>
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
 
-					echo $str;
-					echo "Transaction ID:  " . $row["transaction_id"]. " |   Name: " . $row["transaction_name"]. "   Type:" . $row["block_tran_type"]. "|   Amount:" . $row["transaction_amount"]. "<br></div>";
+					
+					echo $str"Transaction ID:  " . $row["transaction_id"]. " |   Name: " . $row["transaction_name"]. "   Type:" . $row["block_tran_type"]. "|   Amount:" . $row["transaction_amount"]. "<br></div>";
 				}
 				} else {
 				echo "0 results";
