@@ -221,7 +221,7 @@ _END;?>
 		<div class="splash-heading">Brikchain Explorer</div>
 		<div class="splash-sub">Search the Full Brikcoin Blockchain</div>
 	</div>
-	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5abaea5dfdbfad4d03858fe2/5b4c1165d44d5804c418a27e/original/brikcoinchaintransparency.png" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -248,209 +248,25 @@ _END;?>
 
 			</div>
 				
-			<div class="page-paragraph">
-				
-
             <?php include 'db.php';?>
 		
-	<?php
+			<?php
 
-		$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran";
-		$result = $conn->query($sql);
+				$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran";
+				$result = $conn->query($sql);
 
-		if ($result->num_rows > 0) {
-		// output data of each row
-		while($row = $result->fetch_assoc()) {
-
-
-			echo "Transaction ID:  " . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br>";
-		}
-		} else {
-		echo "0 results";
-		}
-		$conn->close();
-	?>   
-
-		
-
-			<div class="reg-content-block" id="block1">
-				
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-						<h4>Plastic Production Coeffecients</h4>
-						<h5>For Plastic used within one's own facilities.</h5>
-					</div>
-					
-					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-					
-				</div>
-
-				<div id="preclosed1">
-					<br>
-				
-					
-					<p><b>Laptop</b></p>
-					
-					<p>The purchase and use of a laptop entails plastic generation (packaging, cables, casing, screen, ketboard, etc)</p> 
-
-					<span title="Examining the Carbon Footprint of Devices, Microsoft, Sustainable Software, 2020"><h5>0.5 Kg over lifetime of use</h5></span>
-                   
-					<p><b>Smart Phone</b></p>
-					
-					<p>The purchase and use of a smart phone entails plastic generation (packaging, cables, casing, screen, ketboard, etc)</p> 
-
-					<span title="Examining the Carbon Footprint of Devices, Microsoft, Sustainable Software, 2020"><h5>0.4 Kg over lifetime of use</h5></span>
-                   
-					<p><b>Domestic Air Travel</b></p>
-					
-					<p>Domestic air travel results in the generation of plastic (ticket, stickers, food and drink service, snacks, meal, etc.)</p> 
-
-					<span title="GEA Estimate"><h5>0.550 per ticket</h5></span>
-
-					<p><b>International Air Travel</b></p>
-					
-					<p>International air travel results in the generation of plastic (ticket, stickers, food and drink service, snacks, meal, etc.)</p> 
-
-					<span title="GEA Estimate"><h5>0.750 per ticket</h5></span>
-                   
-	
-				</div>	
-			</div>
-
-			<div class="reg-content-block" id="block2">
-				<div class="opener-header">
-					<div class="opener-header-text">
-						<h4>Plastic Production</h4>
-						<h5>Plastic generated or sent outside of your facilities.</h5><br>
-					</div>
-					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-				</div>
-
-				<div id="preclosed2">
-					<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It aso, means that unlike an organizations, we do not receive charity, grants or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor a mandate of growth and profits.
-						
-					
-				</div>
-			</div>	
+				if ($result->num_rows > 0) {
+				// output data of each row
+				while($row = $result->fetch_assoc()) {
 
 
-			<div class="reg-content-block" id="block3">
-
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-					<h4>Plastic CO2 Equivalencies</h4>
-					<h5>Various flows of plastic have significant carbon emissions.</h5>
-					<br>
-					</div>
-
-					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-				</div>
-
-				<div id="preclosed3">
-					<br>
-
-					    <p><b>1. For-Earth</b></p>
-
-					<p>Our enterprise follows the <a href="plastic">Earth's example</a> in generating ecological value.  We follow the <a href="https://earthen.io/the-earthen-ways/" target="_blank">six principles of Earthen ethics</a> to sequester carbon, distibute benefit upwards, support biodiversity, raise ecological awareness and acheive overall net-subtraction in our endeavours.</p><br>
-
-					<p><b>2. Leading by Example</b></p>
-
-					<p>
-					We ensure that the processes, methods, products and services of our enterprise are fully in line with our principles.  We track and disclose our ecological impacts to ensure that the net result of our enterprise is the subtraction of CO2 and plastic from the biosphere and the support of biodiversification.  We work to raise ecological consciousness and empower others to follow our example.
-						</p><br>
-
-					<p><b>3. Open Source</b></p>
-
-					<p>We make our resources, guides, and code open under Creative Commons Attribution-ShareAlike 4.0 International Licenses.
-					</p><br>
-
-					<p><b>4. Gender, Age, Status Transcendent</b></p>
-
-					<p>We strive to craft methods and processes that enable the participation of men and women, young and old, rich and poor and everyone in between.
-					</p><br>
-
-					<p><b>5. Fair & Abundant Remuneration for Earth Service</b></p>
-
-					<p>We actively cultivate the space and parameters so that our trainers, staff and principals receive fair and abundant remuneration for their service to the earth.  As our enterprise expands we will ensure a wage bracket to maintain a defined ratio from the highest to the lowest paid person in the organization.
-					</p><br>
-
-					<p><b>6. Financial and Impact Transparency</b></p>
-
-					<p>We strive to make all our financials, both in fiat currency and on our Brikcoin blockchain transparent and accessible.  We also disclose our net impacts in terms of CO2 and Plastic.
-					</p><br>
-
-					<p><b>7. Not for Profit</b></p>
-
-					<p>No individuals or shareholders will profit from the operation of the enterprise.  At the end of the year, any unspent funds will be reinvested back into the fulfillment of our mission and vision.	
-					</p>
-
-					<h6><a href="/principles">Learn more about ecobricking principles</a></h6><br>
-				</div>
-			</div>
-
-			<div class="reg-content-block" id="block4">
-
-				<div class="opener-header">	
-					<div class="opener-header-text">
-						<h4>Our Work.</h4>
-						<h5>We maintain the technical and philosophical infrastructure for the local and global ecobrick movements.</h5>
-						<br>
-					</div>
-
-					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
-				</div>
-
-				<div id="preclosed4">
-						
-				
-					<br>
-
-					<p><b>Ecobricks.org</b></p>
-					<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.</p><br>
-
-					<p><b>GoBrik.com</b></p>
-					<p>The GEA maintains and develops the free <a href="https://gobrik.com" target="_blank">GoBrik.com web app to support and connect ecobrickers and their communities.</p><br>
-
-					<p><b>Brikcoin Manual Blockchain</b></p>
-					<p>
-					The GEA has developed and now maintains the <a href="/brikcoins">Brikcoin manual blockchain</a> as a means to value the plastic sequestration ecobricking and to develop a medium of exchange based on ecological value.  Brikcoins are generated and exchanged on the GoBrik webapp.</p><br>
-
-					<p><b>Ecobrick Best Practices</b></p>
-					
-					<p>We maintain best practives and standards for<a href="/what">the making of ecobricks</a> and the <a href="/build">building applications</a> of them.</p><br>
-
-					<p><b>Circles - Ecobrick Community Server</b></p>
-
-					<p>We maintain <a href="https://circles.ecobricks.org" target="_blank">GEA Circles</a> as a social media alternative for the global ecobricker community</p><br>
-
-					<p><b>Reports & Whitepapers</b></p>
-					<p>We actively developing and publishing reports, research and white papers on ecobrick and plastic transition topics.</p><br>
-
-					<p><b>Ecobrick Educational Resources</b></p>
-
-					<p>The GEA develops and deploys resources such as <a href="https://youtube.com/ecobricks">video tutorials</a> on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and <a href="/trainings">ecobrick trainings</a>.</p><br>
-				</div>
-			</div>
-
-			<div class="page-paragraph">
-				<br><br>
-
-				<p><b>Vision</b></p>
-				<p>We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</p><br>
-
-				<p><b>Our Mission</b></p>
-				<p>To raise Ecological Consciousness through the spread of Ecobricking and the transformation of global plastic into local solutions.</p><br>
-
-				<p><b>Dedication</b></p>
-				<p>Our work is dedicated to our Children, our Children’s Children… and the children of all species, for all time.</p><br>
-
-				<p><i>Together we can be the transition to ever increasing harmony with the cycles of life.</i></p>
-
-			</div>
-
-
+					echo "<div class="page-paragraph"> Transaction ID:  " . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br></div>";
+				}
+				} else {
+				echo "0 results";
+				}
+				$conn->close();
+			?>   
 
 		
 		</div>
