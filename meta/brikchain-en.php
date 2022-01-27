@@ -12,7 +12,7 @@
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Plastic Coefficients | Ecobricks.org">
   	<meta property="og:description"   content="Explore the Brikcoin blockchain."/>
-  	<meta property="og:image"         content="pngs/gea-perspective-1000px.png"/>
+  	<meta property="og:image"         content="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5abaea5dfdbfad4d03858fe2/5b4c1165d44d5804c418a27e/original/brikcoinchaintransparency.png"/>
   	<meta property="og:image:width" content="1000px" />
 	<meta property="og:image:height" content="1039px" />
   	<meta property="og:image:alt"     content="Our GEA seven circle, mandalic, hexagonal logo that resembles a milstein ecobrick module with each color of the spectrum represented and progressing."/>
