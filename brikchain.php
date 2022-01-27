@@ -255,7 +255,7 @@ _END;?>
 		
 	<?php
 
-		$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran;"
+		$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran";
 		$result = $conn->query($sql);
 
 		if ($result->num_rows > 0) {
