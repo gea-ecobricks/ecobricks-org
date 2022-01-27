@@ -35,7 +35,7 @@ _END;?>
 	.splash-content-block {
 		
 		background: url(svgs/cloud-back.svg) top;
-		background-color: #00E6FF;
+		background-color: #00FFFF;
 		
 		text-align: left;
 		height: 70vh;
@@ -59,7 +59,7 @@ _END;?>
 	.splash-content-block {
 		
 		background: url(svgs/cloud-back.svg) bottom;
-		background-color: #00E6FF;
+		background-color: #00FFFF;
 		
 		text-align: left;
 		height: 60vh;
@@ -183,7 +183,7 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #00E6FF;
+	background-color: #00FFFF;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -218,7 +218,7 @@ _END;?>
 	
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">Brikchain Explorer</div>
+		<div class="splash-heading"><br>Brikchain Explorer</div>
 		<div class="splash-sub">Search the Full Brikcoin Blockchain</div>
 	</div>
 	<div class="splash-image"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5abaea5dfdbfad4d03858fe2/5b4c1165d44d5804c418a27e/original/brikcoinchaintransparency.png" style="width: 70%;"></div>	
@@ -261,7 +261,7 @@ _END;?>
 				while($row = $result->fetch_assoc()) {
 
 					echo '<div class="page-paragraph"><p>';
-					echo "Transaction ID:  " . $row["transaction_id"]. "   |  Name: " . $row["transaction_name"]. "   Type:" . $row["block_tran_type"]. "   |   Amount:" . $row["transaction_amount"]. "<br>";
+					echo "<b>ID:</b>  " . $row["transaction_id"]. "   | " . $row["transaction_name"]. "  |   <b>Type:</b> " . $row["block_tran_type"]. "   |   <strong>Amount:</strong>" . $row["transaction_amount"]. "<br>";
 					echo '</p></div>';
 				}
 				} else {
