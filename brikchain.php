@@ -261,8 +261,8 @@ _END;?>
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
 
-					echo "$str";
-					echo "Transaction ID:  " . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br></div>";
+					echo $str;
+					echo "Transaction ID:  " . $row["transaction_id"]. " |   Name: " . $row["transaction_name"]. "   Type:" . $row["block_tran_type"]. "|   Amount:" . $row["transaction_amount"]. "<br></div>";
 				}
 				} else {
 				echo "0 results";
