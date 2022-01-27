@@ -261,7 +261,7 @@ _END;?>
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
 
-					echo htmlentities($str);
+					echo "$str";
 					echo "Transaction ID:  " . $row["transaction_id"]. "Name: " . $row["transaction_name"]. "Type:" . $row["block_tran_type"]. "Amount:" . $row["block_tran_type"]. "<br></div>";
 				}
 				} else {
@@ -271,7 +271,7 @@ _END;?>
 			?>   
 
 		
-		</div>
+	
 
 		<div class="side">
 
