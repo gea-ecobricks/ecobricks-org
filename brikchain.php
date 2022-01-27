@@ -252,7 +252,7 @@ _END;?>
 		
 			<?php
 
-				$str = '<div class="page-paragraph">'
+				$str = '<div class="page-paragraph">';
 
 				$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran";
 				$result = $conn->query($sql);
