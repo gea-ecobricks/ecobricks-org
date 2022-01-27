@@ -403,9 +403,51 @@ _END;?>
 
 					<p><b>Plastic Accounting Coeffecients</b></p>
 
-					<p>The GEA researches, publishes and maintains <a href="coeffecients">standards for plastic equivalencies</a> for regenerative accounting.</a>.</p><br>
+					<p>The GEA researches, publishes and maintains <a href="coefficients">standards for plastic equivalencies</a> for regenerative accounting.</a>.</p><br>
 				</div>
 			</div>
+
+
+			<div class="reg-content-block" id="block4">
+
+				<div class="opener-header">	
+					<div class="opener-header-text">
+						<h4>Contact Us</h4>
+						<h5>Drop our teams a line</h5>
+						<br>
+					</div>
+
+					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+				</div>
+
+				<div id="preclosed4">
+						
+				
+					<br>
+
+					<p><b>UK GEA Base</b></p>
+					<p>uk@ecobricks.org</p><br>
+
+					<p><b>Indonesian GEA Base</b></p>
+					<p>indonesia@ecobricks.org</p><br>
+
+					<p><b>Development Team</b></p>
+					<p>
+					support@ecobricks.org</p><br>
+
+					<p><b>Validator Circle</b></p>
+					
+					<p>validators@ecobricks.org</p><br>
+
+					<p><b>Circles - Ecobrick Community Server</b></p>
+
+					<p>Alternatively, you can connect with on <a href="https://circles.ecobricks.org" target="_blank">GEA Circles</a>, our social media alternative for the global ecobricker community</p><br>
+
+					
+				</div>
+			</div>
+
+
 
 			<div class="page-paragraph">
 				<br><br>

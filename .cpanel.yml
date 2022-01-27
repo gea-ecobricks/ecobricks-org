@@ -20,6 +20,7 @@ deployment:
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
+    - /bin/cp db.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -32,6 +33,7 @@ deployment:
     - /bin/cp coefficients.php $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp faqs.php $DEPLOYPATH
+    - /bin/cp brikchain.php $DEPLOYPATH 
 
     
 
@@ -54,6 +56,7 @@ deployment:
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
+    - /bin/cp db.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -66,6 +69,7 @@ deployment:
     - /bin/cp coefficients.php $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp faqs.php $DEPLOYPATH
+    - /bin/cp brikchain.php $DEPLOYPATH 
 
 
 
@@ -86,6 +90,7 @@ deployment:
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
+    - /bin/cp db.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -98,6 +103,7 @@ deployment:
     - /bin/cp coefficients.php $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp faqs.php $DEPLOYPATH
+    - /bin/cp brikchain.php $DEPLOYPATH 
 
 
 
@@ -118,6 +124,7 @@ deployment:
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
+    - /bin/cp db.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -130,3 +137,4 @@ deployment:
     - /bin/cp coefficients.php $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp faqs.php $DEPLOYPATH
+    - /bin/cp brikchain.php $DEPLOYPATH 

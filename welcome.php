@@ -101,16 +101,16 @@ _END;?>
 <!-- SLIDER CONTENT -->
 	
 	<div id="sliders">
-<!--
+
 		<div id="slider1">
 			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%"></div>
 				<div id="slider-textbox">
 				<div id="slider-heading">Version 2.0 of the Enterprise Catalyst Program Launched</div>
 				<div id="slider-body">Plastic impact management for keen green companies, organizations and projects.  <a href="catalyst">Learn more</a></div>
-				<div id="slider-date">July 7th, 2021 | GEA Announcements</div>
+				<div id="slider-date">Jan 25, 2022 | GEA Announcements</div>
 			</div>
 		</div>
--->
+
 	<!--	<div id="slider1">
 			<div id="slider-image"><img src="webp/german.webp"  width="100%" height="78%"></div>
 			<div id="slider-textbox">
@@ -162,18 +162,18 @@ _END;?>
 		-->
 
 
-		<div id="slider1">
-			<div id="slider-image"><img src="photos/portmadog.webp"  width="100%"></div>
+		<div id="slider2">
+			<div id="slider-image"><img src="photos/earth-rumoer.png"  width="100%"></div>
 			<div id="slider-textbox">
-				<div id="slider-heading">Carbon Zero Building Award</div>
+				<div id="slider-heading">Featured Project</div>
 				<div id="slider-body">
-                The Earth & Ecobrick Roundhouse project in Bwyd Bendigedig Portmadog, by Incredible Edible's (GEA Trainer Lizzie Wynn, Wales, UK) is the third place finalist in the UK's Carbon Zero Efficient Building Awards. </div>
-				<div id="slider-date">October 28th, 2021 | GEA News</div>
-				<div id="slider-link">>> <a href="https://www.thenational.wales/environment/19652035.carbon-zero-efficient-building-award/" target="_blank">The National Reporting, Wales, UK</a></div>
+                The Earth & Ecobrick Roundhouse project in Bwyd Bendigedig Portmadog was featured in Rumoer magazine's Earth building issue as an example of negative carbon building </div>
+				<div id="slider-date">Jan 27, 2022 | GEA News</div>
+				<div id="slider-link">>> <a href="https://issuu.com/rumoer/docs/issue78-2/96" target="_blank">The National Reporting, Wales, UK</a></div>
 			</div>
 		</div>
 
-		<div id="slider2">
+		<div id="slider3">
 
 			<div id="slider-image"><img src="webp/ayyew.webp"></div>
 			<div id="slider-textbox">
@@ -193,22 +193,8 @@ _END;?>
 				<div id="slider-date">September 11th, 2021 | GEA Courses</div>
 				<div id="slider-link">>> <a href="https://gobrik.com/#courses/review-course/60f243eacd377c001faa6c57/" target="_blank">Intro Course Sept. 11th</a></div>
 			</div>
-		</div>-->
 
-		
-		<div id="slider3">
-
-			<div id="slider-image"><img src="webp/2020-regen-report.webp"></div>
-			<div id="slider-textbox">
-				<div id="slider-heading">GEA 2020 Regen Report Released</div>
-				<div id="slider-date">Sept. 20, 2021 | GEA Center Circle</div>
-				<div id="slider-body">We've issued an exhaustive ecological impact accounting for the GEA's operations in the previous year.  In 2020, we removed over 30,000 kg of carbon and 10,000 kg of plastic for the biosphere 🎉.</div>
-				<div id="slider-link">>> <a href="2020-gea-regenerativity-report-launched/"> 2020 Regen Report</a></div>
-			
-			</div>
-		</div>
-
-		<div id="slider4">
+				<div id="slider4">
 
 			<div id="slider-image"><br><img src="svgs/aes.svg"  width="100%" height="85%"></div>
 			<div id="slider-textbox">
@@ -219,6 +205,22 @@ _END;?>
 			
 			</div>
 		</div>
+		</div>-->
+
+		
+		<div id="slider4">
+
+			<div id="slider-image"><img src="webp/2020-regen-report.webp"></div>
+			<div id="slider-textbox">
+				<div id="slider-heading">GEA 2021 Regen Report Released</div>
+				<div id="slider-date">Jan 27, 2022 | GEA Center Circle</div>
+				<div id="slider-body">Our annual ecological impact accounting for the GEA's operations in the previous year.  In 2021, we removed over 30,000 kg of carbon and 10,000 kg of plastic for the biosphere 🎉.</div>
+				<div id="slider-link">>> <a href="2020-gea-regenerativity-report-launched/"> 2020 Regen Report</a></div>
+			
+			</div>
+		</div>
+
+	
 
 	</div>
 
