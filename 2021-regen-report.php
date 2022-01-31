@@ -219,8 +219,8 @@ _END;?>
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">The Global Ecobrick Aliiance 2021 Renerativity Report</div>
-		<!--<div class="splash-sub">A Solution For Plastic transition</div>-->
+		<div class="splash-heading">The Global Ecobrick Alliance 2021 Renerativity Report</div>
+	<div class="splash-sub">Published January 30th 2022</div>
 	</div>
 	<div class="splash-image"><img src="webp/balancing-green.webp" style="width: 70%;"></div>	
 </div>
@@ -238,9 +238,9 @@ _END;?>
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				
-			<p>Our 2021 Ecological Accounting of our enterprise's Plastic, Carbon and Biodiversity impacts is now published and publicly available.</p>
+				<p>Our 2021 Ecological Accounting of our enterprise's Plastic, Carbon and Biodiversity impacts is now published and publicly available.</p>
 			</div>
+			
 			<div class="row">
 				<div class="main2">
 					<div class="page-paragraph">
@@ -258,7 +258,8 @@ _END;?>
 				</div>
 
 			
-					</div>
+			</div>
+		
 
 			<!--
 			<div class="reg-content-block" id="block1">
@@ -445,7 +446,7 @@ _END;?>
 -->
 		<h4>Learn More</h4>
 		
-		<p>Many more about the concepts underlying regenerative reporting. .
+		<p>Learn more about the concepts underlying regenerative reporting. .
 		</p>
 		<ul>
 			<li><a href="aes">AES Plastic Offsetting</a></li>
@@ -454,7 +455,9 @@ _END;?>
 			<li><a href="mandalas">Leading by Example</a></li>
 			<li><a href="principles">Regenerative Principles</a></li>
 			<li><a href="https://medium.com/earthen">The Earthen Ethics Theory of Green</a></li>
+			<li><a href="catalyst">Do your own Regen Reporting with our catalyst program</a></li>
 		</ul>
+	</div>
 
 		
 
@@ -467,13 +470,7 @@ _END;?>
 
 
 			
-		<div id="side-module-desktop-only">
-			
-			
-				<h4>Get Started</h4>
-				<h5>Use a free Catalyst Account to ignite your plastic transition.</h5><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch</a><br><br>
-			</div>
+		
 
 	
 			<div id="side-module-desktop-mobile">
@@ -491,11 +488,14 @@ _END;?>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/balancing-green.webp" width="80%">
-				<h4>Plastic Offsetting</h4>
-				<h5>Our Catalyst Program allows you to offset your plastic generation and support the global ecobrick movement.</h5><br>
-				<a class="module-btn" href="aes">Learn More</a>
+				<img src="<div id="side-module-desktop-only">
+				<img src="pngs/catalyst-logo-500px.png" width="80%">
+				<h4>Do Your Own Regen Report!</h4>
+				<h5>Our Catalyst Program for keen green enterprises allows you to generate automatic and certificed regenerative reports.</h5><br>
+				<a class="module-btn" href="catalyst">🚀 Learn More</a>
 			</div>
+
+		
 
 		</div>
 
