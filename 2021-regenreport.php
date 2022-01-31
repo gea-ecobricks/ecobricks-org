@@ -222,7 +222,7 @@ _END;?>
 		<div class="splash-heading">The Global Ecobrick Alliance 2021 Renerativity Report</div>
 	<div class="splash-sub">Published January 30th 2022</div>
 	</div>
-	<div class="splash-image"><img src="icons/balance-glow-500px.webp" style="width: 90%;"></div>	
+	<div class="splash-image"><img src="icons/balance-glow-500px.webp" style="width: 80%;"></div>	
 </div>
 <div id="splash-bar"></div>
 <!--<div id="header-bar2"></div>-->
@@ -254,7 +254,7 @@ _END;?>
 				</div>
 
 				<div class="side2">
-					<br><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i"><img src="webp/2020-regen-report.webp" width="100%"></a>
+					<br><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i" target="_blank"><img src="webp/2020-regen-report.webp" width="100%"></a>
 				</div>
 
 			
@@ -446,7 +446,7 @@ _END;?>
 -->
 
 		<div class="page-paragraph">
-			<hr><br><br>
+			<hr><br>
 				<h4>Past Years</h4>
 				
 				<p>Access our reports from previous years:</p>
@@ -455,10 +455,11 @@ _END;?>
 					<li><a href="https://files.mandala.team/s/4Fmz3GX8Xr7JLaB" target="_blank">2020 Regen Report</a></li>
 					<li>2019 Regen Report (Not available)</li>
 				</ul>
+				<br>
 				
 				
 				
-			<hr><br><br>
+			<hr><br>
 				<h4>Learn More</h4>
 				
 				<p>Learn more about the concepts underlying regenerative reporting.
