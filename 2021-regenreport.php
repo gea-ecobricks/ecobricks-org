@@ -254,7 +254,7 @@ _END;?>
 				</div>
 
 				<div class="side2">
-					<br><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i"><img src="webp/2020-regen-report.webp" width="80%"></a>
+					<br><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i"><img src="webp/2020-regen-report.webp" width="100%"></a>
 				</div>
 
 			
@@ -443,7 +443,7 @@ _END;?>
 		</div>
 		
 		</div>
--->
+--><hr><br><br>
 		<h4>Learn More</h4>
 		
 		<p>Learn more about the concepts underlying regenerative reporting. .
