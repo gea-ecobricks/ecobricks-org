@@ -102,7 +102,19 @@ _END;?>
 	
 	<div id="sliders">
 
-		<div id="slider1">
+			<div id="slider1">
+
+				<div id="slider-image"><img src="webp/2020-regen-report.webp"></div>
+				<div id="slider-textbox">
+					<div id="slider-heading">GEA 2021 Regen Report Released</div>
+					<div id="slider-date">Jan 27, 2022 | GEA Center Circle</div>
+					<div id="slider-body">Our annual ecological impact accounting for the GEA's operations in the previous year.  In 2021, we removed over 30,000 kg of carbon and 10,000 kg of plastic for the biosphere 🎉.</div>
+					<div id="slider-link">>> <a href="2021-regen-report.php"> 2021 Regen Report</a></div>
+
+				</div>
+		</div>
+
+		<div id="slider2">
 			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%"></div>
 				<div id="slider-textbox">
 				<div id="slider-heading">Version 2.0 of the Enterprise Catalyst Program Launched</div>
@@ -162,18 +174,18 @@ _END;?>
 		-->
 
 
-		<div id="slider2">
+		<div id="slider3">
 			<div id="slider-image"><img src="photos/earth-rumoer.png"  width="100%"></div>
 			<div id="slider-textbox">
 				<div id="slider-heading">Featured Project</div>
 				<div id="slider-body">
                 The Earth & Ecobrick Roundhouse project in Bwyd Bendigedig Portmadog was featured in Rumoer magazine's Earth building issue as an example of negative carbon building </div>
 				<div id="slider-date">Jan 27, 2022 | GEA News</div>
-				<div id="slider-link">>> <a href="https://issuu.com/rumoer/docs/issue78-2/96" target="_blank">The National Reporting, Wales, UK</a></div>
+				<div id="slider-link">>> <a href="https://issuu.com/rumoer/docs/issue78-2/96" target="_blank">Rumoer Earth Feature</a></div>
 			</div>
 		</div>
 
-		<div id="slider3">
+		<div id="slider4">
 
 			<div id="slider-image"><img src="webp/ayyew.webp"></div>
 			<div id="slider-textbox">
@@ -208,17 +220,7 @@ _END;?>
 		</div>-->
 
 		
-		<div id="slider4">
-
-			<div id="slider-image"><img src="webp/2020-regen-report.webp"></div>
-			<div id="slider-textbox">
-				<div id="slider-heading">GEA 2021 Regen Report Released</div>
-				<div id="slider-date">Jan 27, 2022 | GEA Center Circle</div>
-				<div id="slider-body">Our annual ecological impact accounting for the GEA's operations in the previous year.  In 2021, we removed over 30,000 kg of carbon and 10,000 kg of plastic for the biosphere 🎉.</div>
-				<div id="slider-link">>> <a href="2020-gea-regenerativity-report-launched/"> 2020 Regen Report</a></div>
-			
-			</div>
-		</div>
+		
 
 	
 

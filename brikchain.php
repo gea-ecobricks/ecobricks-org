@@ -261,7 +261,7 @@ _END;?>
 				while($row = $result->fetch_assoc()) {
 
 					echo '<div class="page-paragraph"><p>';
-					echo "<b>ID:</b>  " . $row["transaction_id"]. "   | " . $row["transaction_name"]. "  |   <b>Type:</b> " . $row["block_tran_type"]. "   |   <strong>Amount:</strong>" . $row["transaction_amount"]. "<br>";
+					echo "<b>ID:</b>  " . $row["transaction_id"]. "  |   <b>Type:</b> " . $row["block_tran_type"]. "   |   <strong>Amount:  </strong>" . $row["transaction_amount"]. "  | " . $row["transaction_name"]. "<br>";
 					echo '</p></div>';
 				}
 				} else {

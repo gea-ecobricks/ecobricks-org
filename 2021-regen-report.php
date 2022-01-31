@@ -17,7 +17,7 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/catalyst-$lang.php");?>
+<?php require_once ("meta/2021-regen-report-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
@@ -219,12 +219,13 @@ _END;?>
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">A Program for Keen Green Enterprises to Track, Disclose & Accelerate their Plastic Transition.</div>
+		<div class="splash-heading">The Global Ecobrick Aliiance 2021 Renerativity Report</div>
 		<!--<div class="splash-sub">A Solution For Plastic transition</div>-->
 	</div>
-	<div class="splash-image"><img src="pngs/catalyst-logo-500px.png" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="webp/balancing-green.webp" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
+<!--<div id="header-bar2"></div>-->
 
 
 <!-- PAGE CONTENT-->
@@ -238,32 +239,35 @@ _END;?>
 
 			<div class="lead-page-paragraph">
 				
-			<p>An enterprise's plastic transition is one of the most telling indicators of its greeness.</p>
+			<p>Our 2021 Ecological Accounting of our enterprise's Plastic, Carbon and Biodiversity impacts is now published and publicly available.</p>
 			</div>
+			<div class="row">
+				<div class="main2">
+					<div class="page-paragraph">
+						<p>Persuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts to ensure that our net impact, across the board, is green.  To do so, we use a GoBrik Catalyst account to track our plastic, and we manually track our carbon and biodiveristy.</p>
+							
+						<p><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i">Download our official 2021 Regenerativity Report (PDF 1.2MB).</i><p> 
 
-			<div class="page-paragraph">
-				<p>Whether your enterprise is reducing down to zero-waste or accelerating up into net-green, there's only one way to truly lead by example and make a definitive difference: <i>Plastic tracking and disclosure.</i><p> 
+						<!--<p>You can also find a summary of the main categories of our reporting below.</p>-->
 
-				<p>Developed over the last three years with over a dozen companies small and large, from Sweden to Indonesia, the Catalyst program, allows you to do just this.  And more!  Starting January 2022, we're waiving all upfront program fees is open to companies, NGOs and projects willing to commit to plastic transition.</p>
-				
-				<p>Using an automated estimation algorythm, your enterprise's 2022 plastic tracking can be setup in 15 minutes.  Then, over the year, improve your reporting while increasing your green impacts. All your ecobricking, offsetting and community engagement are automatically credited to your account through the <a href="brikcoins">brikcoin</a> blockchain.</p>
-					
-				<p>Meanwhile, automatic live and year reports are generated summarizing your net impact.  This way you can disclose your plastic transition professionaly and publicly on our third-party platform to inspire others with your efforts, courage and transparency.</p>
-					
-				<p>Together we can catalyze <a href="transition">plastic transition</a> in our local and global communities.</p>
-				<br><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
+					</div>	
+				</div>
 
-			</div>	
+				<div class="side2">
+					<br><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i"><img src="https://www.ecobricks.org/wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="175px"></a>
+				</div>
 
+			
+					</div>
+
+			<!--
 			<div class="reg-content-block" id="block1">
 				
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Plastic Transition Tracking</h4>
-						<h5>Monitor your subtractive and additive plastic impacts over the year.</h5>
+						<h4>Plastic</h4>
+						<h5>1943% Zero Waste in 2021</h5>
 					</div>
 					
 
@@ -303,8 +307,8 @@ _END;?>
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
 					<div class="opener-header-text">
-						<h4>Plastic Transition Disclosure</h4>
-						<h5>Certification & Hosting of your Report</h5><br>
+						<h4>Biodiversity</h4>
+						<h5>We increased our support of biodiversity by 29% in 2021.</h5><br>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 				</div>
@@ -353,8 +357,8 @@ _END;?>
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>Plastic Transition Acceleration</h4>
-					<h5>Ecobricking, Offseting & Workshop Catalyzation.</h5>
+					<h4>Carbon</h4>
+					<h5>We were 100% Net zero..</h5>
 					<br>
 					</div>
 
@@ -438,10 +442,10 @@ _END;?>
 		</div>
 		
 		</div>
-<!--
+-->
 		<h4>Learn More</h4>
 		
-		<p>Many powerful concepts underlie the Catalyst Program. .
+		<p>Many more about the concepts underlying regenerative reporting. .
 		</p>
 		<ul>
 			<li><a href="aes">AES Plastic Offsetting</a></li>
@@ -451,7 +455,7 @@ _END;?>
 			<li><a href="principles">Regenerative Principles</a></li>
 			<li><a href="https://medium.com/earthen">The Earthen Ethics Theory of Green</a></li>
 		</ul>
--->
+
 		
 
 
