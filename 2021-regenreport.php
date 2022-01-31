@@ -222,7 +222,7 @@ _END;?>
 		<div class="splash-heading">The Global Ecobrick Alliance 2021 Renerativity Report</div>
 	<div class="splash-sub">Published January 30th 2022</div>
 	</div>
-	<div class="splash-image"><img src="webp/balancing-green.webp" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="icons/balance-glow-500px.webp" style="width: 90%;"></div>	
 </div>
 <div id="splash-bar"></div>
 <!--<div id="header-bar2"></div>-->

@@ -252,10 +252,10 @@ _END;?>
 <div id="content-sect2">
 	<div id="main-content">
 		<div class="lead-graphic"><img src="svgs/earth-service3.svg" width="100%" height="96%"></div>
-		<div class="big-header">An Earth Based Solution</div>
+		<div class="big-header">Follow the Earth's Example</div>
         <!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 		<div class="sub-text">
-		<p>Ecobricking follows the Earth's example of carbon sequestration.  Based on indigenous wisdom, the science of plastic degradation and earthen ethics, ecobricking is a non-capital and zero-carbon alternative to industrial plastic management.</p></div>
+		<p>Ecobricking follows the Earth's example of concentrating and securing carbon out of the biosphere.  Following the science of plastic degradation and Earthen principles, ecobricking is a non-capital, net-zero means of plastic sequestration.</p></div>
 		<a href="sequest" button class="main-button">Plastic Sequestration</a>
 		<h6><a href="/ayyew">Ayyew Inspired</a> | <a href="/circular">Circular by Design</a> | <a href="/plastic">Towards Transition</a> | <a href="/principles">Regenerative</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
 	</div>
@@ -267,7 +267,7 @@ _END;?>
 		<div class="lead-graphic"><img src="webp/build-circular4.webp" width="100%" height="90%"></div>
 		<div class="big-header">The Problem is the Solution.</div>
 		<!--<div class="lead-paragraph">Using Ecobricked Plastic we can Build our Greenest Visions.</div>-->
-		<div class="sub-text"><p>Ecobricks make reusable building blocks ideal for building green spaces.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build the solution.</p>
+		<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for building green spaces.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build our greenest visions.</p>
 		</div> 
 		<a href="build" class="main-button">Building Applications</a>
 		
