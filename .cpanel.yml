@@ -34,13 +34,9 @@ deployment:
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp brikchain.php $DEPLOYPATH 
-    - /bin/cp 2021-regen-report.php $DEPLOYPATH
-    
+    - /bin/cp 2021-regenreport.php $DEPLOYPATH
 
-    
-
-
-
+  
     - export DEPLOYPATH=/home/ecobricks/public_html/en/
 
 
@@ -72,7 +68,7 @@ deployment:
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp brikchain.php $DEPLOYPATH 
-    - /bin/cp 2021-regen-report.php $DEPLOYPATH
+    - /bin/cp 2021-regenreport.php $DEPLOYPATH
 
 
 
@@ -107,7 +103,7 @@ deployment:
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp brikchain.php $DEPLOYPATH 
-    - /bin/cp 2021-regen-report.php $DEPLOYPATH
+    - /bin/cp 2021-regenreport.php $DEPLOYPATH
 
 
 
@@ -142,4 +138,4 @@ deployment:
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp brikchain.php $DEPLOYPATH 
-    - /bin/cp 2021-regen-report.php $DEPLOYPATH
+    - /bin/cp 2021-regenreport.php $DEPLOYPATH

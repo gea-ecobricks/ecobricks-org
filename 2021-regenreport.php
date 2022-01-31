@@ -17,7 +17,7 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/2021-regen-report-$lang.php");?>
+<?php require_once ("meta/2021-regenreport-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
@@ -159,21 +159,21 @@ _END;?>
 
 .splash-sub {
   font-family: 'Arvo', Georgia, serif;
-  color: grey;
+  color: #53594F;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
 }
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.2em;
-		line-height: 1.5;
+		font-size: 1.0em;
+		line-height: 1.3;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 2.3em;
+		font-size: 1.8em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -246,7 +246,7 @@ _END;?>
 					<div class="page-paragraph">
 						<p>Persuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts to ensure that our net impact, across the board, is green.  To do so, we use a GoBrik Catalyst account to track our plastic, and we manually track our carbon and biodiveristy.</p>
 							
-						<p><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i">Download our official 2021 Regenerativity Report (PDF 1.2MB).</i><p> 
+						<p><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i" target="_blank">Download our official 2021 Regenerativity Report (PDF 1.2MB).</i><p> 
 
 						<!--<p>You can also find a summary of the main categories of our reporting below.</p>-->
 
@@ -254,7 +254,7 @@ _END;?>
 				</div>
 
 				<div class="side2">
-					<br><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i"><img src="https://www.ecobricks.org/wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="175px"></a>
+					<br><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i"><img src="webp/2020-regen-report.webp" width="250px"></a>
 				</div>
 
 			
