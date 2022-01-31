@@ -158,7 +158,7 @@ _END;?>
 
 
 .splash-sub {
-  font-family: 'Arvo', Georgia, serif;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #53594F;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
@@ -254,7 +254,7 @@ _END;?>
 				</div>
 
 				<div class="side2">
-					<br><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i"><img src="webp/2020-regen-report.webp" width="250px"></a>
+					<br><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i"><img src="webp/2020-regen-report.webp" width="80%"></a>
 				</div>
 
 			
@@ -488,9 +488,8 @@ _END;?>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="<div id="side-module-desktop-only">
 				<img src="pngs/catalyst-logo-500px.png" width="80%">
-				<h4>Do Your Own Regen Report!</h4>
+				<h4>Generate Your Regen Report!</h4>
 				<h5>Our Catalyst Program for keen green enterprises allows you to generate automatic and certificed regenerative reports.</h5><br>
 				<a class="module-btn" href="catalyst">🚀 Learn More</a>
 			</div>
