@@ -443,20 +443,36 @@ _END;?>
 		</div>
 		
 		</div>
---><hr><br><br>
-		<h4>Learn More</h4>
-		
-		<p>Learn more about the concepts underlying regenerative reporting. .
-		</p>
-		<ul>
-			<li><a href="aes">AES Plastic Offsetting</a></li>
-			<li><a href="brikcion">Brikcoin Manual Blockchain</a></li>
-			<li><a href="sequest">Plastic Sequestration</a></li>
-			<li><a href="mandalas">Leading by Example</a></li>
-			<li><a href="principles">Regenerative Principles</a></li>
-			<li><a href="https://medium.com/earthen">The Earthen Ethics Theory of Green</a></li>
-			<li><a href="catalyst">Do your own Regen Reporting with our catalyst program</a></li>
-		</ul>
+-->
+
+		<div class="page-paragraph">
+			<hr><br><br>
+				<h4>Past Years</h4>
+				
+				<p>Access our reports from previous years:</p>
+				
+				<ul>
+					<li><a href="https://files.mandala.team/s/4Fmz3GX8Xr7JLaB" target="_blank">2020 Regen Report</a></li>
+					<li>2019 Regen Report (Not available)</li>
+				</ul>
+				
+				
+				
+			<hr><br><br>
+				<h4>Learn More</h4>
+				
+				<p>Learn more about the concepts underlying regenerative reporting.
+				</p>
+				<ul>
+					<li><a href="aes">AES Plastic Offsetting</a></li>
+					<li><a href="brikcion">Brikcoin Manual Blockchain</a></li>
+					<li><a href="sequest">Plastic Sequestration</a></li>
+					<li><a href="mandalas">Leading by Example</a></li>
+					<li><a href="principles">Regenerative Principles</a></li>
+					<li><a href="https://medium.com/earthen">The Earthen Ethics Theory of Green</a></li>
+					<li><a href="catalyst">Do your own Regen Reporting with our catalyst program</a></li>
+				</ul>
+		</div>
 	</div>
 
 		
