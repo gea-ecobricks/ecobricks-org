@@ -382,25 +382,37 @@ _END;?>
 					
 					<p>Recycling plastic has various carbon emissions (transportation, reprocessing, etc.)</p> 
 
-					<span title="GEA Certified"><h5>1kg recycled plastic = 3.1 Kg of CO2</h5></span>
+					<span title="GEA Certified"><h5>1kg recycled plastic = 0.65 Kg of CO2</h5></span>
 
 					<p><b>Incineration</b></p>
 					
-					<p>A brikcoin on the GoBrik blockchain corresponds to a certain amount of plastic sequestered.  This changes each year.</p> 
+					<p>When plastic is burned it's carbon molecules join with oxygen molecules to generate carbon dioxide.</p> 
 
-					<span title="GEA 2020 value"><h5>1 BRK = 0.988 Kg plastic</h5></span>
+					<span title="GEA 2020 value"><h5>1 kg plast = 3.1 Kg CO2</h5></span>
 
 					<p><b>Landfilling</b></p>
 					
-					<p>A brikcoin on the GoBrik blockchain corresponds to a certain amount of plastic sequestered.  This changes each year.</p> 
+					<p>Plastic that is not recycled, incinerated or sequestered ends up in the earth, air and land.</p> 
 
-					<span title="GEA 2020 value"><h5>1 BRK = 0.988 Kg plastic</h5></span>
+					<span title="GEA 2020 value"><h5>1 Kg plastic = 1.26kg </h5></span>
 
-					<p><b>AES Plastic</b></p>
+					<p><b>One time CO2 impact of plastic</b></p>
 					
-					<p>A brikcoin on the GoBrik blockchain corresponds to a certain amount of plastic sequestered.  This changes each year.</p> 
+					<p>The GEA has calculated the one time impact of 1 kg of consumed plastic.</p> 
 
-					<span title="GEA 2020 value"><h5>1 BRK = 0.988 Kg plastic</h5></span>
+					<span title="GEA 2020 value"><h5>1 Kg plastic = 6.06kg CO2</h5></span>
+
+					<p>The GEA has calculated the net impact of 1 kg of consumed plastic over time.</p> 
+
+					<span title="GEA 2020 value"><h5>1 Kg plastic = 4,16kg</h5></span>
+
+					<p><b>Plastic Sequestration</b></p>
+					
+					<p>Plastic that is kept out of industrial processing (i.e recycling, incineration and landfilling) has a substractive CO2e ipact of:</p> 
+
+					<span title="GEA 2020 value"><h5>1 AES Plastic = 6.05 CO2e</h5></span>
+
+					<img src="https://miro.medium.com/max/500/1*p4H-oNd9oUZvmJD4VjcERg.png" width="600px">
 
 				</div>
 			</div>
