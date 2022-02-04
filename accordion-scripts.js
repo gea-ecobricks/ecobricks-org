@@ -225,6 +225,59 @@
 			  x.innerHTML = "+";
 		  }
 	  }
+
+
+	function preclosed9() {
+		var x = document.getElementById("preclosed9");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block9");
+	  if (y.style.display === "grid") {
+		  y.style.background = "#f6f6f6";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "#fff";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show9");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }
+
+
+
+	function preclosed9() {
+		var x = document.getElementById("preclosed9");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block9");
+	  if (y.style.display === "grid") {
+		  y.style.background = "#f6f6f6";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "#fff";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show9");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }
   
   
 

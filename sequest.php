@@ -62,7 +62,7 @@ _END;?>
 		position: relative;
 		
 		background: url(wp-content/uploads/2020/05/BlUE-ode-to-plastic-Sequestration.svg) bottom;
-		background-color: #fff;
+		/*background-color: #fff;*/
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -162,6 +162,7 @@ _END;?>
   color: #fff;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
+  text-shadow: 0 0 7px black;
 }
 
 @media screen and (max-width: 700px) {
@@ -173,7 +174,7 @@ _END;?>
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 2em;
+		font-size: 2.1em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -189,16 +190,16 @@ _END;?>
 	position: relative;
 	z-index: 0;
 
-/*    box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);*/
+/*    box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
     background-color: #fff;
 
 	-webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
   -ms-transform: skewY(-3deg);
   -o-transform: skewY(-3deg);
-  transform: skewY(-3deg);
+  transform: skewY(-3deg);*/
 
-	margin-bottom: 40px;
+	margin-bottom: -20px;
 
 }
 
@@ -290,7 +291,7 @@ _END;?>
                     <br>
                     </div>
 
-                    <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show2">+</button>
+                    <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
                 </div>
 
                 <div id="preclosed2">
@@ -341,7 +342,7 @@ _END;?>
 
 					<div class="row2">
 						<div class="main3">
-						<br><p><b>Keeping plastic that has already been produced as plastic is an effective way to keep its carbon from getting loose.</b></p>
+						<br><p>Keeping plastic that has already been produced as plastic as plastic is an effective way to keep its carbon from getting loose.</p>
 						
 						</div>
 						<div class="side3"><img src="webp/compacted-carbon.webp" width="150px">
@@ -627,10 +628,11 @@ _END;?>
                 </div>
 
                 <div class="row">
+                <br>
+                            <h4>A Safe Road into Time</h4>
                     <div class="main2">
                         <div class="page-paragraph">
-                            <br>
-                            <h4>A Safe Road into Time</h4>
+                            
                             <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future–  what we call putting plastic on a safe millennial road.</p>
 
                             <p>If we can do this, then the chances are it will be safe for even longer and a gift for a future age.</p> 
@@ -644,10 +646,11 @@ _END;?>
                 </div>
 
                 <div class="row">
+                <br>
+                            <h4>Ecobricks as Plastic Sequestration</h4>
                     <div class="main2">
                         <div class="page-paragraph">
-                            <br>
-                            <h4>Ecobricks as Plastic Sequestration</h4>
+                            
                             <p>The Global Ecobrick Alliance advocates ecobricking as a means of plastic sequestration.  The ecobricking proces raises ecological consciousness to accelereate plastic transition.  Ecobricks that meet GEA standards, have compacted plastic, secured it out of industry and out of profit enterprise to put plastic on a safe millenial road. 
                             </p>
                             <p>
@@ -661,12 +664,12 @@ _END;?>
                 </div>
 
         
-                  
+                <br>
+                            <h4>Is sequestration a final solution for plastic?</h4>
                 <div class="row">
                     <div class="main2">
                         <div class="page-paragraph">
-                            <br>
-                            <h4>Is sequestration a final solution for plastic?</h4>
+                            
                             <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
 
                             <p>Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in billions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it on another spin in this cycle.  In the same way the carbon was a gift to our age, we can gift our carbon to another. </p>
