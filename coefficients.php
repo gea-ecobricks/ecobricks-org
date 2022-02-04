@@ -304,7 +304,7 @@ _END;?>
 					
 					<p>Plastic involved in the consumption of one LPG tank (any size)</p> 
 
-					<span title="GEA Estimate"><h5>0.001 per cannister</h5></span>
+					<span title="GEA Estimate"><h5>0.001 Kg of plastic per cannister</h5></span>
 
 					<p><b>Laptop</b></p>
 					
@@ -337,13 +337,13 @@ _END;?>
 					
 				<p><b>Recycling</b></p>
 					
-					<p>Plastic that is recycling often ends up returning to the environment.  Thus only a percentage of recycled plastic can be claimed as being truly removed from the biosphere.</p> 
+					<p>The global average for full recovery and ongoing reuse of recyled plastic is 9%.  Enterprise's should track the percentage of their plastic production and consumption that is recycled and then multiply accordingly.</p> 
 
-					<span title="https://advances.sciencemag.org/content/3/7/e1700782"><h5>0.09Kg per 1 Kg of recycled plastic</h5></span>
+					<span title="https://advances.sciencemag.org/content/3/7/e1700782"><h5>0.09 Kg per 1 Kg of recycled plastic</h5></span>
 
 					<p><b>AES Plastic</b></p>
 					
-					<p>Authenticated Ecobrick Sequestered Plastic</p> 
+					<p>Plastic that has been ecobricked and authenticated as having met the criteria of plastic sequestration, can be claimed as authenticated Ecobrick Sequestered Plastic.</p> 
 
 					<span title="GEA Certified"><h5>1kg of AES plastic = 1 Kg of plastic removed from the biosphere</h5></span>
 
@@ -394,15 +394,17 @@ _END;?>
 
 					<span title="GEA 2020 value"><h5>1 Kg plastic = 1.26kg </h5></span>
 
+					<hr>
+					<br>
 					<p><b>One time CO2 impact of plastic</b></p>
 					
-					<p>The GEA has calculated the one time impact of 1 kg of consumed plastic.</p> 
+					<p>The GEA has calculated the one time impact of consuming 1 kg of consumed plastic.</p> 
 
 					<span title="GEA 2020 value"><h5>1 Kg plastic = 6.06kg CO2</h5></span>
 
 					<p>The GEA has calculated the net impact of 1 kg of consumed plastic over time.</p> 
 
-					<span title="GEA 2020 value"><h5>1 Kg plastic = 4,16kg</h5></span>
+					<span title="GEA 2020 value"><h5>1 Kg plastic = Data pending</h5></span>
 
 					<p><b>Plastic Sequestration</b></p>
 					
@@ -428,9 +430,9 @@ _END;?>
 			
 		<div id="side-module-desktop-only">
         <img src="webp/2020-regen-report.webp" width="90%">
-				<h4>NEW! 2021 Regen Report</h4>
+				<h4>2021 Regen Report</h4>
 				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
-				<a class="module-btn" href="https://gobrik.com/#catalyze" target="_blank">Access Report</a><br><br>
+				<a class="module-btn" href="2021-regenreport" target="_blank">Access Report</a><br><br>
 			</div>
 
 

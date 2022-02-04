@@ -148,3 +148,84 @@
 
 
 
+	function preclosed6() {
+		var x = document.getElementById("preclosed6");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block6");
+	  if (y.style.display === "grid") {
+		  y.style.background = "#f6f6f6";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "#fff";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show6");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }
+  
+
+	
+	  function preclosed7() {
+		var x = document.getElementById("preclosed7");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block7");
+	  if (y.style.display === "grid") {
+		  y.style.background = "#f6f6f6";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "#fff";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show7");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }
+
+
+	function preclosed8() {
+		var x = document.getElementById("preclosed8");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block8");
+	  if (y.style.display === "grid") {
+		  y.style.background = "#f6f6f6";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "#fff";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show8");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }
+  
+  
+
+

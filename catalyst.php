@@ -445,7 +445,7 @@ _END;?>
 		</p>
 		<ul>
 			<li><a href="aes">AES Plastic Offsetting</a></li>
-			<li><a href="brikcion">Brikcoin Manual Blockchain</a></li>
+			<li><a href="brikcoin">Brikcoin Manual Blockchain</a></li>
 			<li><a href="sequest">Plastic Sequestration</a></li>
 			<li><a href="mandalas">Leading by Example</a></li>
 			<li><a href="principles">Regenerative Principles</a></li>
