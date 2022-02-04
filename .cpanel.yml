@@ -35,7 +35,7 @@ deployment:
     - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp brikchain.php $DEPLOYPATH 
     - /bin/cp 2021-regenreport.php $DEPLOYPATH
-   - /bin/cp sequest.php $DEPLOYPATH
+    - /bin/cp sequest.php $DEPLOYPATH
 
   
     - export DEPLOYPATH=/home/ecobricks/public_html/en/
