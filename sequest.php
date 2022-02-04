@@ -159,21 +159,21 @@ _END;?>
 
 .splash-sub {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: #D5D5D5;
+  color: #fff;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
 }
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.0em;
+		font-size: 1.2em;
 		line-height: 1.3;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 1.8em;
+		font-size: 2em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -183,16 +183,20 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #8BBAF0;
+	
 	height:100px;	
-	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+	
 	position: relative;
 	z-index: 0;
+
+/*
+    background-color: #fff;
+    box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	-webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
   -ms-transform: skewY(-3deg);
   -o-transform: skewY(-3deg);
-  transform: skewY(-3deg);
+  transform: skewY(-3deg);*/
 
 	margin-bottom: 40px;
 
@@ -661,15 +665,15 @@ _END;?>
                 <div class="row">
                     <div class="main2">
                         <div class="page-paragraph">
-                        <br>
-                        <h4>Is sequestration a final solution for plastic?</h4>
-                        <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
+                            <br>
+                            <h4>Is sequestration a final solution for plastic?</h4>
+                            <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
 
-                        <p>Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in billions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it on another spin in this cycle.  In the same way the carbon was a gift to our age, we can gift our carbon to another. </p>
+                            <p>Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in billions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it on another spin in this cycle.  In the same way the carbon was a gift to our age, we can gift our carbon to another. </p>
 
-                        <p>Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.</p>
-                        <p>
-
+                            <p>Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.</p>
+                        </div>
+                    </div>
                     <div class="side2">
                         <br><img src="webp/ayyew.webp" width="100%"></a>
                     </div>
