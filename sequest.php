@@ -62,7 +62,7 @@ _END;?>
 		position: relative;
 		
 		background: url(wp-content/uploads/2020/05/BlUE-ode-to-plastic-Sequestration.svg) bottom;
-		background-color: #8BBAF0;
+		background-color: #fff;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -189,14 +189,14 @@ _END;?>
 	position: relative;
 	z-index: 0;
 
-/*
+/*    box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);*/
     background-color: #fff;
-    box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+
 	-webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
   -ms-transform: skewY(-3deg);
   -o-transform: skewY(-3deg);
-  transform: skewY(-3deg);*/
+  transform: skewY(-3deg);
 
 	margin-bottom: 40px;
 
