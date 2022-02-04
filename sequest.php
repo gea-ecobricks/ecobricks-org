@@ -219,7 +219,7 @@ _END;?>
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Plastic Sequestration</div>
-	<div class="splash-sub">By following the Earth’s example with our plastic we can make a greening contribution to the biosphere.</div>
+	<div class="splash-sub">By following the Earth’s example with our plastic we can make a green contribution to the biosphere.</div>
 	</div>
 	<div class="splash-image"><img src="https://storage.arc.io/cdn-8f68538f8fb193eb1cc8/cdn.ecobricks.org%2Fwp-content%2Fuploads%2F2020%2F12%2FBare-biosphere-1000px-3.png?_arc_client=serviceWorker&propertyId=Z7EC7Cze" style="width: 80%;"></div>	
 </div>
@@ -237,16 +237,16 @@ _END;?>
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>The science is clear:  Plastic loose in the biosphere harms ecologies, humans and animals.  The research is also clear:  For the last fifty years, industrial methods of plastic processing have accelerated plastic consumption, production and pollution while becoming a major source of global CO2 emissions.</p>
+				<p>The science is clear:  Plastic loose in the biosphere harms ecologies, humans and animals.  The research is also clear:  For the last fifty years, industrial and for-profit plastic processes have accelerated plastic consumption, production and pollution while becoming a major source of global CO2 emissions. Transitioning from net-grey processes has never been more important.</p>
 			</div>
 			
 			
 			<div class="page-paragraph">
-						<p>Securing our plastic, as well as transitioning from it, has never been more important.  Fortunately, we have an epic example to follow.</p>
+						<p>Plastic sequestration follows the Earth's example of sequestering carbon to enrich the biosphere.  Plastic sequestration is by definition a non-industrial, not-for-profit method of not only securing plastic but of accelerating our transition from it.  As such the Global Ecobrick Alliance maintains a six criteria for plastic sequestration based on the principles of Earthen Ethics.</p>
 
-                        <p>Just as the Earth sequestered carbon to cultivate and green the biosphere, so too can we compact, secure, cycle and store our plastic. By following the Earth’s example of biosphere benefit, consciousness raising and net-greening we can be confident of making a valuable ecological contribution.</p>
+                        <!--<p>Just as the Earth sequestered carbon to cultivate and green the biosphere, so too can we compact, secure, cycle and store our plastic. By following the Earth’s example of biosphere benefit, consciousness raising and net-greening we can be confident of making a valuable ecological contribution.</p>
 
-                        <p>We call this, plastic sequestration.</p>
+                        <p>We call this, plastic sequestration.</p>-->
 							
             </div>	
 			
@@ -269,54 +269,82 @@ _END;?>
 
 				<div id="preclosed1">
 					<br>
-                    <p>The Global Ecobrick Alliance, has developed five criteria for the sequestration of plastic to ensure it is of benefit to the biosphere.  In order for plastic to be considered sequestered, it must meet these criteria– and it must be independently authenticated to have done so.  These criteria are based on following the ancient example of the Earth in greening the planet’s biosphere.
+                    <p>As a third-party Earth enterprise with a mandate of biosphere benefit, the Global Ecobrick Alliance, maintains six criteria for the sequestration of plastic to ensure it is of benefit to the biosphere.  In order for plastic to be considered sequestered, it must not only meet these criteria, it must also be independently authenticated to have done so.  These criteria are based on following the ancient example of the Earth in greening the planet’s biosphere.
                     </p>
 				</div>	
 			</div>
 
+
+
 			<div class="reg-content-block" id="block2">
+
+                <div class="opener-header">
+                    
+                    <div class="opener-header-text">
+                    <h4>Spiral Design</h4>
+                    <h5>In the same way that the Earth used its carbon in cycles that spiralled into ecological enrichment so too must the process of plastic sequestration.</h5>
+                    <br>
+                    </div>
+
+                    <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show2">+</button>
+                </div>
+
+                <div id="preclosed2">
+                    <br>
+                    <div class="row">
+                        <div class="main2">
+                        <p>The Earth made use of carbon blocks to create circles of life that spiralled into ever greater diversity, concentration and enrichment.  The process of plastic sequestration, when it results in bi-products, must also put plastic into cycles of reuse that do the same.</p>
+                        </div>
+                        <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/cyclical-1.png" width="100%">
+                        </div>
+                    </div>
+
+                    <div class="row2">
+                        <div class="main3">
+                        <p>As such plastic sequestration is by-definiton a non-industrial process.</p>
+                        </div>
+                        <div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/cyclical-1.png" width="120px">
+                        </div>
+                    </div>
+
+                    <p>Industrial plastic plastic management methods are by definition linear and circular.  Plastic recylcing, incineration and landfilling spirals plastic towards dispersion, the reduction of biodiversity and the depletion of ecosystems.</p>
+
+
+                    <p>In comparison, the Earth has used carbon as a means– in a circular process.  Carbon molecules such as nucleic acids, proteins, lipids and glycans make up all organisms– and when one organism comes to an end, another begins by building itself with the other’s blocks.  This continues indefinitely, until the carbon is subsumed into long-term sequestration.</p><br>
+
+                    <p>Putting creations into greening cycles of reuse is also know as spiral design.  In this way, when our sequestration of plastic leads to short-term creations, they must be by spiral by design– with their next life built in.</p>
+                    
+                </div>
+                </div>
+
+			<div class="reg-content-block" id="block3">
 				<div class="opener-header">
 					<div class="opener-header-text">
 						<h4>Secured Concentration</h4>
 						<h5>In the same way that the Earth sequestered carbon by concentrating, securing and storing it indefinitely, plastic sequestration must do the same.</h5><br>
 					</div>
-					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 				</div>
 
-				<div id="preclosed2">
+				<div id="preclosed3">
 					<div class="row">
 						<div class="main2">
-						<p>The Earth’s process of carbon compaction led to more and more carbon being protected from all forms of solar, chemical and organic degradation.  In the same way, by compacting our plastic we can put it into long-term, indefinite storage and contribute to the biosphere.</p>
+						<p>The Earth’s process of carbon compaction led to more and more carbon being secured from all forms of solar, chemical and organic degradation.  In the same way, plastic sequestration must concentrate plastic into long-term, indefinite and secured storage.</p>
 						</div>
-						<div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/Plastic-Sequestration-1-500px.png" width="175px">
-						</div>
-					</div>
-
-					
-
-					<div class="row">
-						<div class="main2">
-						
-						<p>Keeping plastic that has already been produced as plastic is an effective way to keep its carbon from getting loose.</p>
-						</div>
-						<div class="side2"><br><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/Plastic-Sequestration-1-500px.png" width="175px">
+						<div class="side2"><img src="webp/compacted-carbon.webp" width="175px">
 						</div>
 					</div>
-
-
-
-					
 
 					<div class="row2">
 						<div class="main3">
-						<br><p><b>Public Disclosure</b></p>
+						<br><p><b>Keeping plastic that has already been produced as plastic is an effective way to keep its carbon from getting loose.</b></p>
 						
 						</div>
-						<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="150px">
+						<div class="side3"><img src="webp/compacted-carbon.webp" width="150px">
 						</div>
 					</div>
 					
-					<p>However, plastic degrades quickly when it is exposed to sun, fire, oxygen and/or friction.  Its degradation is in proportion to its surface area.   As the majority of of modern plastic is in the form of thin films, when it is loose and exposed, it is prone to rapid degradation. Plastic degrades by fragmenting into smaller and smaller particles, known as micro-plastics, green house gases and toxins.</p>
+					<p>Plastic degrades quickly when it is exposed to sun, fire, oxygen and/or friction.  Its degradation is in proportion to its surface area.   As the majority of of modern plastic is in the form of thin films, when it is loose and exposed, it is prone to rapid degradation. Plastic degrades by fragmenting into smaller and smaller particles, known as micro-plastics, green house gases and toxins.</p>
 
                     <p>By compacting thin, high-surface area plastic, the net exposed area is reduced a thousand-fold.  The GEA has found that a reaching a density of 0.33 g/ml achieves a terminal reduction of net surface area for the majority of modern thin film plastics.  Once compacted and contained plastic is secured from degradation and can remain intact indefinitely.</p>
 
@@ -328,63 +356,68 @@ _END;?>
 				</div>
 			</div>
 
-			<div class="reg-content-block" id="block3">
 
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-					<h4>Cycles that Spiral</h4>
-					<h5>In the same way that the Earth used its carbon in spiralling cycles, so too must plastic sequestration.</h5>
-					<br>
-					</div>
+            <div class="reg-content-block" id="block4">
 
-					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-				</div>
-
-				<div id="preclosed3">
-					<br>
-					<div class="row">
-						<div class="main2">
-						<p>The Earth made us of carbon as building blocks that could be used over and over again in the short-term.  This circularity was key to cultivating an increasingly biodiverse, stable and abundant biosphere.  Likewise, in order to be an ecological contribution, plastic sequestration must be circular by design– especially when it involves creations used in the short-term (i.e. bricks, tiles, lego, etc.) as they transition to long-term storage.</p>
-						</div>
-						<div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/cyclical-1.png" width="100%">
-						</div>
-					</div>
-
-					<div class="row2">
-						<div class="main3">
-						<p>Today’s single-use plastic, fuels, oils, etc. are all examples of using carbon as an ends– in a linear process.</p>
-						</div>
-						<div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/cyclical-1.png" width="120px">
-						</div>
-					</div>
-			
-
-					<p>When our fuels are burned, or when our products come to an end, the leftovers don’t fit back into ecological cycles. The more we used the carbon and plastic as end-products, the more ecological cycles have been clogged.</p>
-
-                    <p>In comparison, the Earth has used carbon as a means– in a circular process.  Carbon molecules such as nucleic acids, proteins, lipids and glycans make up all organisms– and when one organism comes to an end, another begins by building itself with the other’s blocks.  This continues indefinitely, until the carbon is subsumed into long-term sequestration.</p><br>
-
-					<p>Putting creations into cycles of reuse is also know as circular design.  In this way, when our sequestration of plastic leads to short-term creations, they must be by circular by design– with their next life built in.</p>
+                <div class="opener-header">
                     
-				</div>
-			</div>
+                    <div class="opener-header-text">
+                    <h4>For-Earth Enterprise</h4>
+                    <h5>In the same way that the Earth’s processes distribute benefits outwards, we must ensure that our plastic sequestration is first and foremost to benefit the Earth.</h5>
+                    <br>
+                    </div>
+
+                    <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+                </div>
+
+                <div id="preclosed4">
+
+                    <div class="row">
+                            <div class="main2">
+                            <p>At all levels of the biosphere, we can see that its many parts contribute to the benefit of the whole.   In the way the cells of a leaf, the leaves of a tree, and the trees of a forests always work to the enrichment of the whole, the Earth’s ecosystems have steadily enriched the whole biosphere. In the same way, to be an ecological contribution, our plastic sequestration must be first and foremost for the benefit of the biosphere.</p>
+                            </div>
+                            <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/Bare-biosphere-1000px-1-297x300.png" width="100%">
+                            </div>
+                        </div>
+
+                        <div class="row2">
+                            <div class="main3">
+                            <p>Industrial methods of plastic processing are driven by for-profit enterprise.</p>
+                            </div>
+                            <div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/Bare-biosphere-1000px-1-297x300.png" width="120px">
+                            </div>
+                        </div>
+                    
+                    <p>Here, the profit of the part (the enterprise) is prioritized over the benefit of the whole (the biosphere).  When the focus of an enterprise is to recoup costs, to generate revenue and create profits for shareholders, ecological contribution comes second.   As we have seen, when enterprises prioritize profit, the result is the steady degradation of the biosphere.</p>
+
+                    <p>While industrial systems may have the best intentions, they operate within the petro-capital economy.  As such they are constrained to its forces. Industrial methods are driven by profit to recover the recover the capital-value of plastic. Once this value is exhausted, plastic is cycled out of industry to the biosphere.</p>
+
+                    <p>As such, the enterprise of plastic processing must be must be not-for-profit and for the biosphere’s benefit if it is to be considered plastic sequestration.</p>
+
+                    <p>Only if the process and its short and long-term result support of existing biodiversity and promote increases in diversity can it be considered plastic sequestration.</p>
+                    <br>
+
+                </div>
+                </div>
 
 
 
-			<div class="reg-content-block" id="block4">
+
+
+			<div class="reg-content-block" id="block5">
 
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
 					<h4>Net-Subtractive</h4>
-					<h5>Plastic Sequestration must subtract more carbon and plastic than it adds into the biosphere.</h5>
+					<h5>Just as the Earth's cycles subtract more carbon from the biosphere than they add, so too must plastic Sequestration.</h5>
 					<br>
 					</div>
 
-					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+					<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
 				</div>
 
-				<div id="preclosed4">
+				<div id="preclosed5">
 
                     <div class="row">
                             <div class="main2">
@@ -412,54 +445,14 @@ _END;?>
 				</div>
 			</div>
 
-            <div class="reg-content-block" id="block5">
-
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-					<h4>Impact Tracking & Disclosure</h4>
-					<h5>In the same way that the Earth has managed its carbon to cultivate consciousness, we must do the same through our plastic sequestration.</h5>
-					<br>
-					</div>
-
-					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show5">+</button>
-				</div>
-
-				<div id="preclosed5">
-
-                    <div class="row">
-                            <div class="main2">
-                            <p>The Earth’s management of carbon has led to consciousness that was more and more aware of its inter-connectivity.  From single-cell, to multi-cell, to bacteria ever larger organisms (like us!), the Earth has cultivated an ever more diverse and aware biosphere.  To be an ecological contribution, the sequestration of plastic must likewise increase our individual and collective ecological consciousness.</p>
-                            </div>
-                            <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/eco-consciousness-500.png" width="100%">
-                            </div>
-                        </div>
-
-                        <div class="row2">
-                            <div class="main3">
-                            <p>In the past, industrial plastic processing distanced consumers from the ecological consequences of plastic consumption.</p>
-                            </div>
-                            <div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/eco-consciousness-500.png" width="120px">
-                            </div>
-                        </div>
-					
-					<p>Industrial  plastic management removed consumer participation and agency in the process.  Through propaganda and the long-distance export of plastics and marketing the accumulation of plastic pollution was hidden from those consuming it.</p>
-
-					<p>In contrast, plastic sequestration must be transparent, open and accountable and spread accurate information about plastic itself.  It must involve those consuming plastic and it must involve an accounting of its ecological impacts near and far.  In so doing, it must raise awareness of plastic’s story, its dangers and its connection to petro-capital economy.</p>
-
-					<p>Only if the processing of plastic raises  individual and collective consciousness can it be considered plastic sequestration.</p>
-					<br>
-			
-				</div>
-			</div>
 
             <div class="reg-content-block" id="block6">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Supporting of Biodiversity</h4>
-                    <h5>In the same way that the Earth’s used its carbon to support biodiversity in the short-term and increased it in the long-term, so too must our process of plastic sequestration.</h5>
+                    <h4>Supporting Biodiversity</h4>
+                    <h5>In the same way that the Earth’s used its carbon towards biodiversication, so too must our process of plastic sequestration.</h5>
                     <br>
                     </div>
 
@@ -497,48 +490,50 @@ _END;?>
                
             </div>
 
-            <div class="reg-content-block" id="block6">
 
-                <div class="opener-header">
-                    
-                    <div class="opener-header-text">
-                    <h4>For Earth Enterprise</h4>
-                    <h5>In the same way that the Earth’s processes distribute benefits outwards, we must ensure that our plastic sequestration is first and foremost to benefit the Earth.</h5>
-                    <br>
-                    </div>
+            <div class="reg-content-block" id="block7">
 
-                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
-                </div>
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+					<h4>Ecological Awaring</h4>
+					<h5>In the same way that the Earth has cultivated ever greater ecological awareness, the enterprise of plastic sequestration must do the same through ecological impact accounting and disclosure.</h5>
+					<br>
+					</div>
 
-                <div id="preclosed5">
+					<button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+				</div>
+
+				<div id="preclosed7">   
 
                     <div class="row">
                             <div class="main2">
-                            <p>At all levels of the biosphere, we can see that its many parts contribute to the benefit of the whole.   In the way the cells of a leaf, the leaves of a tree, and the trees of a forests always work to the enrichment of the whole, the Earth’s ecosystems have steadily enriched the whole biosphere. In the same way, to be an ecological contribution, our plastic sequestration must be first and foremost for the benefit of the biosphere.</p>
+                            <p>The Earth’s management of carbon has led to consciousness that was more and more aware of its inter-connectivity.  From single-celled, to multi-celled, to bacteria ever larger organisms (like us!), the Earth has cultivated an ever more aware biosphere.  The sequestration of plastic must likewise increase our individual and collective ecological consciousness through an accounting and disclosure of the ecological impacts of the process.</p>
                             </div>
-                            <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/Bare-biosphere-1000px-1-297x300.png" width="100%">
+                            <div class="side2"><img src="pngs/eco-consciousness-500.png" width="90%">
                             </div>
                         </div>
 
                         <div class="row2">
                             <div class="main3">
-                            <p>Industrial methods of plastic processing are driven by for-profit enterprise.</p>
+                            <p>In the past, industrial plastic processing distanced consumers from the ecological consequences of plastic consumption.</p>
                             </div>
-                            <div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/Bare-biosphere-1000px-1-297x300.png" width="120px">
+                            <div class="side3"><img src="pngs/eco-consciousness-500.png" width="120px">
                             </div>
                         </div>
-                    
-                    <p>Here, the profit of the part (the enterprise) is prioritized over the benefit of the whole (the biosphere).  When the focus of an enterprise is to recoup costs, to generate revenue and create profits for shareholders, ecological contribution comes second.   As we have seen, when enterprises prioritize profit, the result is the steady degradation of the biosphere.</p>
+					
+					<p>Industrial  plastic management removed consumer participation and agency in the process.  Through propaganda and the long-distance export of plastics and marketing the accumulation of plastic pollution was hidden from those consuming it.</p>
 
-                    <p>While industrial systems may have the best intentions, they operate within the petro-capital economy.  As such they are constrained to its forces. Industrial methods are driven by profit to recover the recover the capital-value of plastic. Once this value is exhausted, plastic is cycled out of industry to the biosphere.</p>
+					<p>In contrast, plastic sequestration must be transparent, open and accountable and spread accurate information about plastic itself.  It must involve those consuming plastic and it must involve an accounting of its ecological impacts near and far.  In so doing, it must raise awareness of plastic’s story, its dangers and its connection to petro-capital economy.</p>
 
-                    <p>As such, the enterprise of plastic processing must be must be not-for-profit and for the biosphere’s benefit if it is to be considered plastic sequestration.</p>
+					<p>Only if the processing of plastic raises  individual and collective consciousness can it be considered plastic sequestration.</p>
+					<br>
+			
+				</div>
+			</div>
 
-                    <p>Only if the process and its short and long-term result support of existing biodiversity and promote increases in diversity can it be considered plastic sequestration.</p>
-                    <br>
 
-                </div>
-            </div>
+     
 
             <div class="reg-content-block" id="block7">
 
@@ -640,7 +635,7 @@ _END;?>
                     </div>
 
                     <div class="side2">
-                        <br><img src="https://www.ecobricks.org/wp-content/uploads/2020/09/Ecobrick-and-1000-year-journey-no-ecobrick.svg" width="100%"></a>
+                        <br><img src="webp/road-500px.webp" width="100%"></a>
                     </div>
                 </div>
 
@@ -657,21 +652,29 @@ _END;?>
                     </div>
 
                     <div class="side2">
-                        <br><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/2020-Ecobrick-and-Blue-Sky-1-277x300.png" width="100%"></a>
+                        <br><img src="webp/eb-sky-400px.webp" width="100%"></a>
                     </div>
                 </div>
 
         
                   
-                <div class="page-paragraph">
-                    <br>
-                    <h4>Is sequestration a final solution for plastic?</h4>
-                    <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
+                <div class="row">
+                    <div class="main2">
+                        <div class="page-paragraph">
+                        <br>
+                        <h4>Is sequestration a final solution for plastic?</h4>
+                        <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
 
-                    <p>Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in billions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it on another spin in this cycle.  In the same way the carbon was a gift to our age, we can gift our carbon to another. </p>
+                        <p>Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in billions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it on another spin in this cycle.  In the same way the carbon was a gift to our age, we can gift our carbon to another. </p>
 
-                    <p>Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.</p>
-                    <p>
+                        <p>Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.</p>
+                        <p>
+
+                    <div class="side2">
+                        <br><img src="webp/ayyew.webp" width="100%"></a>
+                    </div>
+
+                    
                 </div>	
             
         </div>
@@ -680,29 +683,29 @@ _END;?>
 		<div class="side">
 	
 			<div id="side-module-desktop-mobile">
-				<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/09/Ancient-Future-of-Plastic-banner-1200.png" width="90%">
-				<h4>A long, long time ago...</h4>
-				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient and modern history of plastic.</h5><br>
+				<img src="webp/plastic-origins.webp" width="90%">
+				<h4>Following the Earth's Example</h4>
+				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
 				<a class="module-btn" href="about">Plastic's Long Story</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="webp/tens-thousands.webp" width="80%">
 				<h4>Ayyew</h4>
-				<h5>Plastic sequestration operates within the Ayyew paradigm.  This means we don’t see plastic as ‘waste’ but rather as a opportunity to move towards greater ecological harmony.</h5><br>
+				<h5>Plastic sequestration is Ayyew.  This means that rather than see plastic as ‘waste’ we can see it as opportunity to move towards greener ecological harmony.</h5><br>
 				<a class="module-btn" href="about">About Ayyew</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="pngs/catalyst-logo-500px.png" width="80%">
+				<img src="webp/eb-sky-400px.webp" width="80%">
 				<h4>Ecobricks</h4>
 				<h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
 				<a class="module-btn" href="catalyst">🚀 Learn More</a>
 			</div>
 
             <div id="side-module-desktop-mobile">
-				<img src="pngs/catalyst-logo-500px.png" width="80%">
-				<h4>Earthen Ethics</h4>
+				<img src="webp/aes-400px.webp" width="80%">
+				<h4>Authenticated Ecobrick Sequestration</h4>
 				<h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
 				<a class="module-btn" href="catalyst">🚀 Learn More</a>
 			</div>

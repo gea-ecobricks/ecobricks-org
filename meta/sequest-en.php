@@ -2,7 +2,7 @@
 
 <title>Plastic Sequestration | Ecobricks.org</title>
 
-<meta name="keywords" content="plastic sequestration, sequestratio of plastic, plastic offsetting, aes plastic.">
+<meta name="keywords" content="plastic sequestration, recycling, alternative, sequestratio of plastic, plastic offsetting, aes plastic.">
 
 <meta name="description" content="Our 2021 Ecological Accounting of our enterprise's Plastic, Carbon and Biodiversity impacts is now published and publicly available.">
 	

@@ -160,6 +160,11 @@
 #preclosed3 {display: none;}
 #preclosed4 {display: none;}
 #preclosed5 {display: none;}
+#preclosed6 {display: none;}
+#preclosed7 {display: none;}
+#preclosed8 {display: none;}
+#preclosed9 {display: none;}
+#preclosed10 {display: none;}
 
 
 
