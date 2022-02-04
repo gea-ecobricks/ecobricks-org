@@ -226,7 +226,7 @@ _END;?>
 		<div class="splash-heading">Plastic Sequestration</div>
 	<div class="splash-sub">By following the Earth’s example with our plastic we can make a green contribution to the biosphere.</div>
 	</div>
-	<div class="splash-image"><img src="https://storage.arc.io/cdn-8f68538f8fb193eb1cc8/cdn.ecobricks.org%2Fwp-content%2Fuploads%2F2020%2F12%2FBare-biosphere-1000px-3.png?_arc_client=serviceWorker&propertyId=Z7EC7Cze" style="width: 80%;"></div>	
+	<div class="splash-image"><img src="webp/earth-floating-500px.webp" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 <!--<div id="header-bar2"></div>-->
@@ -242,11 +242,14 @@ _END;?>
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>The science is clear:  Plastic loose in the biosphere harms ecologies, humans and animals.  The research is also clear:  For the last fifty years, industrial and for-profit plastic processes have accelerated plastic consumption, production and pollution while becoming a major source of global CO2 emissions. Transitioning from net-grey processes has never been more important.</p>
+				<p>The science is clear:  Plastic loose in the biosphere harms ecologies, humans and animals.  The research is also clear:  For the last fifty years, industrial and for-profit plastic processes have accelerated plastic consumption, production and pollution while becoming a major source of global CO2 emissions.</p>
+    
 			</div>
 			
 			
 			<div class="page-paragraph">
+                        <p> Transitioning from net-grey processes has never been more important.</p>
+                        
 						<p>Plastic sequestration follows the Earth's example of sequestering carbon to enrich the biosphere.  Plastic sequestration is by definition a non-industrial, not-for-profit method of not only securing plastic but of accelerating our transition from it.  As such the Global Ecobrick Alliance maintains a six criteria for plastic sequestration based on the principles of Earthen Ethics.</p>
 
                         <!--<p>Just as the Earth sequestered carbon to cultivate and green the biosphere, so too can we compact, secure, cycle and store our plastic. By following the Earth’s example of biosphere benefit, consciousness raising and net-greening we can be confident of making a valuable ecological contribution.</p>
@@ -381,7 +384,7 @@ _END;?>
                             <div class="main2">
                             <p>At all levels of the biosphere, we can see that its many parts contribute to the benefit of the whole.   In the way the cells of a leaf, the leaves of a tree, and the trees of a forests always work to the enrichment of the whole, the Earth’s ecosystems have steadily enriched the whole biosphere. In the same way, to be an ecological contribution, our plastic sequestration must be first and foremost for the benefit of the biosphere.</p>
                             </div>
-                            <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/Bare-biosphere-1000px-1-297x300.png" width="100%">
+                            <div class="side2"><img src="webp/for-earth500px.webp" width="100%">
                             </div>
                         </div>
 
@@ -389,7 +392,7 @@ _END;?>
                             <div class="main3">
                             <p>Industrial methods of plastic processing are driven by for-profit enterprise.</p>
                             </div>
-                            <div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/Bare-biosphere-1000px-1-297x300.png" width="120px">
+                            <div class="side3"><img src="webp/for-earth500px.webp" width="120px">
                             </div>
                         </div>
                     
@@ -628,9 +631,11 @@ _END;?>
                 </div>
              </div>
 
+             <br>
+            <h4>A Safe Road into Time</h4>
+
              <div class="row">
-                <br>
-                <h4>A Safe Road into Time</h4>
+                
                 <div class="main2">
                     <div class="page-paragraph">
                         
@@ -642,7 +647,7 @@ _END;?>
                 </div>
 
                  <div class="side2">
-                    <br><img src="webp/road-500px.webp" width="100%"></a>
+                    <br><img src="webp/road-500px.webp" width="100%">
                 </div>
              </div>
 
@@ -690,10 +695,11 @@ _END;?>
 		<div class="side">
 	
 			<div id="side-module-desktop-mobile">
-				<img src="webp/plastic-origins.webp" width="90%">
-				<h4>Following the Earth's Example</h4>
+				<!--<img src="webp/plastic-origins.webp" width="90%">-->
+				<br><h4>Following the Earth's Example</h4>
 				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
 				<a class="module-btn" href="about">Plastic's Long Story</a>
+                <br>
 			</div>
 
 			<div id="side-module-desktop-mobile">
