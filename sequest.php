@@ -588,7 +588,7 @@ _END;?>
                     <br>
                     </div>
 
-                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show9">+</button>
+                    <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9">+</button>
                 </div>
 
                 <div id="preclosed9">
@@ -625,48 +625,49 @@ _END;?>
 				</ul>
 
                 </div>
+             </div>
+
+             <div class="row">
+                <br>
+                <h4>A Safe Road into Time</h4>
+                <div class="main2">
+                    <div class="page-paragraph">
+                        
+                        <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future–  what we call putting plastic on a safe millennial road.</p>
+
+                        <p>If we can do this, then the chances are it will be safe for even longer and a gift for a future age.</p> 
+
+                    </div>	
                 </div>
 
-                <div class="row">
+                 <div class="side2">
+                    <br><img src="webp/road-500px.webp" width="100%"></a>
+                </div>
+             </div>
+
+            <div class="row">
                 <br>
-                            <h4>A Safe Road into Time</h4>
-                    <div class="main2">
-                        <div class="page-paragraph">
-                            
-                            <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future–  what we call putting plastic on a safe millennial road.</p>
-
-                            <p>If we can do this, then the chances are it will be safe for even longer and a gift for a future age.</p> 
-
-                        </div>	
-                    </div>
-
-                    <div class="side2">
-                        <br><img src="webp/road-500px.webp" width="100%"></a>
-                    </div>
+                <h4>Ecobricks as Plastic Sequestration</h4>
+                <div class="main2">
+                    <div class="page-paragraph">
+                        
+                        <p>The Global Ecobrick Alliance advocates ecobricking as a means of plastic sequestration.  The ecobricking proces raises ecological consciousness to accelereate plastic transition.  Ecobricks that meet GEA standards, have compacted plastic, secured it out of industry and out of profit enterprise to put plastic on a safe millenial road. 
+                        </p>
+                        <p>
+                        When validated as such, the plastic inside the ecobrick is referred to as authenticated ecobrik sequestered plastic (AES Plastic).</p> 
+                    </div>	
                 </div>
 
-                <div class="row">
-                <br>
-                            <h4>Ecobricks as Plastic Sequestration</h4>
-                    <div class="main2">
-                        <div class="page-paragraph">
-                            
-                            <p>The Global Ecobrick Alliance advocates ecobricking as a means of plastic sequestration.  The ecobricking proces raises ecological consciousness to accelereate plastic transition.  Ecobricks that meet GEA standards, have compacted plastic, secured it out of industry and out of profit enterprise to put plastic on a safe millenial road. 
-                            </p>
-                            <p>
-                            When validated as such, the plastic inside the ecobrick is referred to as authenticated ecobrik sequestered plastic (AES Plastic).</p> 
-                        </div>	
-                    </div>
-
-                    <div class="side2">
+                <div class="side2">
                         <br><img src="webp/eb-sky-400px.webp" width="100%"></a>
-                    </div>
                 </div>
+            </div>
 
         
-                <br>
-                            <h4>Is sequestration a final solution for plastic?</h4>
+               
                 <div class="row">
+                    <br>
+                    <h4>Is sequestration a final solution for plastic?</h4>
                     <div class="main2">
                         <div class="page-paragraph">
                             
@@ -680,8 +681,6 @@ _END;?>
                     <div class="side2">
                         <br><img src="webp/ayyew.webp" width="100%"></a>
                     </div>
-
-                    
                 </div>	
             
         </div>
