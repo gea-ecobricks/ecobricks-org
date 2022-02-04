@@ -73,7 +73,6 @@ deployment:
     - /bin/cp sequest.php $DEPLOYPATH
 
 
-
     - export DEPLOYPATH=/home/ecobricks/public_html/es/
 
 
