@@ -535,7 +535,7 @@ _END;?>
 
      
 
-            <div class="reg-content-block" id="block7">
+            <div class="reg-content-block" id="block8">
 
                 <div class="opener-header">
                     
@@ -545,10 +545,10 @@ _END;?>
                     <br>
                     </div>
 
-                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
+                    <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
                 </div>
 
-                <div id="preclosed5">
+                <div id="preclosed8">
 
                     <div class="row">
                             <div class="main2">
@@ -573,7 +573,7 @@ _END;?>
                 </div>
                 </div>
 
-                <div class="reg-content-block" id="block8">
+                <div class="reg-content-block" id="block9">
 
                 <div class="opener-header">
                     
@@ -583,10 +583,10 @@ _END;?>
                     <br>
                     </div>
 
-                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show8">+</button>
+                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show9">+</button>
                 </div>
 
-                <div id="preclosed8">
+                <div id="preclosed9">
 
                     <div class="row">
                             <div class="main2">
