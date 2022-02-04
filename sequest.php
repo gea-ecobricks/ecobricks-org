@@ -23,7 +23,7 @@ _END;?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
-<script src="accordion-scripts.js"></script> 
+<script src="accordion-scripts.js?v1"></script> 
 
 
 <STYLE>
@@ -150,7 +150,7 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 3em;
+      font-size: 3.3em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
@@ -199,7 +199,7 @@ _END;?>
   -o-transform: skewY(-3deg);
   transform: skewY(-3deg);*/
 
-	margin-bottom: -20px;
+	margin-bottom: -50px;
 
 }
 
