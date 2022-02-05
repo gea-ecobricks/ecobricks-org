@@ -133,7 +133,8 @@ _END;?>
 
 
 .splash-heading { 
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    /*font-family: 'Mulish', Arial, Helvetica, sans-serif;*/
+  font-family: 'Arvo, serif';
   color: white;
   font-weight: 500;
   text-shadow: 0 0 8px black;
@@ -249,7 +250,7 @@ _END;?>
 			
 			<div class="page-paragraph">
                         <p> Transitioning from net-grey processes has never been more important.</p>
-                        
+
 						<p>Plastic sequestration follows the Earth's example of sequestering carbon to enrich the biosphere.  Plastic sequestration is by definition a non-industrial, not-for-profit method of not only securing plastic but of accelerating our transition from it.  As such the Global Ecobrick Alliance maintains a six criteria for plastic sequestration based on the principles of Earthen Ethics.</p>
 
                         <!--<p>Just as the Earth sequestered carbon to cultivate and green the biosphere, so too can we compact, secure, cycle and store our plastic. By following the Earth’s example of biosphere benefit, consciousness raising and net-greening we can be confident of making a valuable ecological contribution.</p>
@@ -695,7 +696,7 @@ _END;?>
 		<div class="side">
 	
 			<div id="side-module-desktop-mobile">
-				<!--<img src="webp/plastic-origins.webp" width="90%">-->
+				<img src="earthen-story-400px.webp" width="90%">
 				<br><h4>Following the Earth's Example</h4>
 				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
 				<a class="module-btn" href="about">Plastic's Long Story</a>
@@ -704,21 +705,21 @@ _END;?>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/tens-thousands.webp" width="80%">
-				<h4>Ayyew</h4>
-				<h5>Plastic sequestration is Ayyew.  This means that rather than see plastic as ‘waste’ we can see it as opportunity to move towards greener ecological harmony.</h5><br>
+				<h4>Regenerative</h4>
+				<h5>Plastic sequestration is a regeneartive technologiy. This means that rather than see plastic as ‘waste’ we can see it as opportunity to move towards greener ecological harmony.</h5><br>
 				<a class="module-btn" href="about">About Ayyew</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/eb-sky-400px.webp" width="80%">
+				<img src="webp/build-blue-450px.webp" width="80%">
 				<h4>Ecobricks</h4>
 				<h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
 				<a class="module-btn" href="catalyst">🚀 Learn More</a>
 			</div>
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/aes-400px.webp" width="80%">
-				<h4>Authenticated Ecobrick Sequestration</h4>
+				<img src="webp/eb-sky-400px.webp" width="80%">
+				<h4>Ecobricking as Sequestration</h4>
 				<h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
 				<a class="module-btn" href="catalyst">🚀 Learn More</a>
 			</div>
