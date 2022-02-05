@@ -134,7 +134,7 @@ _END;?>
 
 .splash-heading { 
     /*font-family: 'Mulish', Arial, Helvetica, sans-serif;*/
-  font-family: 'Arvo, serif';
+    font-family: Arvo, serif;
   color: white;
   font-weight: 500;
   text-shadow: 0 0 8px black;
@@ -299,12 +299,12 @@ _END;?>
                 </div>
 
                 <div id="preclosed2">
-                    <br>
+                    
                     <div class="row">
                         <div class="main2">
-                        <p>The Earth made use of carbon blocks to create circles of life that spiralled into ever greater diversity, concentration and enrichment.  The process of plastic sequestration, when it results in bi-products, must also put plastic into cycles of reuse that do the same.</p>
+                        <br><p>The Earth's cycles of life spiral ever greener.  The Earth's cycles spiral towards ever greater diversity, concentration and enrichment.  In the same way, the process of plastic sequestration, must do the same.  The products and process of plastic sequestration must also spiral towards concentration, diversity and enrichment.  This way we can be sure it is a net-green process.</p>
                         </div>
-                        <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/cyclical-1.png" width="100%">
+                        <div class="side2"><img src="webp/cyclical-500px.png" width="80%">
                         </div>
                     </div>
 
@@ -312,7 +312,7 @@ _END;?>
                         <div class="main3">
                         <p>As such plastic sequestration is by-definiton a non-industrial process.</p>
                         </div>
-                        <div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/cyclical-1.png" width="120px">
+                        <div class="side3"><img src="webp/cyclical-500px.pngg" width="120px">
                         </div>
                     </div>
 
@@ -338,9 +338,9 @@ _END;?>
 				<div id="preclosed3">
 					<div class="row">
 						<div class="main2">
-						<p>The Earth’s process of carbon compaction led to more and more carbon being secured from all forms of solar, chemical and organic degradation.  In the same way, plastic sequestration must concentrate plastic into long-term, indefinite and secured storage.</p>
+						<br><p>The Earth’s process of carbon compaction led to more and more carbon being secured from all forms of solar, chemical and organic degradation.  In the same way, plastic sequestration must concentrate plastic must do the same.  Keeping plastic as plastic and securing it into long-term, indefinite and secured storage is key to its sequestration. </p>
 						</div>
-						<div class="side2"><img src="webp/compacted-carbon.webp" width="175px">
+						<div class="side2"><img src="webp/compacted-carbon.webp" width="90%">
 						</div>
 					</div>
 
@@ -696,12 +696,12 @@ _END;?>
 		<div class="side">
 	
 			<div id="side-module-desktop-mobile">
-				<img src="earthen-story-400px.webp" width="90%">
+				<img src="webp/earthen-story-400px.webp" width="90%">
 				<br><h4>Following the Earth's Example</h4>
 				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
 				<a class="module-btn" href="about">Plastic's Long Story</a>
                 <br>
-			</div>
+			</div>  
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/tens-thousands.webp" width="80%">
