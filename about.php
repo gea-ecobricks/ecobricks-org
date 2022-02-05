@@ -271,7 +271,7 @@ _END;?>
                             <p>As ecobrickers ourselves, we packed our plastic, track and work hard to minimize our plastic consumption.  We build our home furniture and gardens with our ecobricks.  We use plastic offsetting to make sure our household and our enterprises are net green.</p>
 							<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
                             </div>
-                            <div class="side2"><img src="svgs/shanti.svg" width="75%">
+                            <div class="side2"><img src="svgs/shanti.svg" width="88%">
                             </div>
                         </div>
 
@@ -357,7 +357,7 @@ _END;?>
 								<p>Our enterprise follows the <a href="plastic">Earth's example</a> in generating ecological value.  We follow the <a href="https://earthen.io/the-earthen-ways/" target="_blank">six principles of Earthen ethics</a> to sequester carbon, distibute benefit upwards, support biodiversity, raise ecological awareness and acheive overall net-subtraction in our endeavours.</p><br>
 
                         </div>
-						<div class="side2"><img src="webp/earthservice-400px.webp" width="95%"></div>
+						<div class="side2"><img src="webp/earthservice-400px.webp" width="950%"></div>
 						<div class="side3"><img src="webp/earthservice-400px.webp" width="120px"></div>
 					</div>
 

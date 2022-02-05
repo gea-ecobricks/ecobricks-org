@@ -726,7 +726,7 @@ _END;?>
 			</div>
 
             <div id="side-module-desktop-mobile">
-				<img src="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" width="80%">
+				<img src="webp/earthen-500px.webp" width="80%">
 				<h4>Earthen Ethics</h4>
 				<h5>Plastic Sequestration is based on following the Earth's example of ecological enrichment. The philosophy of Earthen Ethics.</h5><br>
 				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Learn More</a>
