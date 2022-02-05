@@ -244,9 +244,9 @@ _END;?>
 			<div class="page-paragraph">
 				  
 
-				<p>The Global Ecobrick Alliance began in the green mountains of the Chico River in the land of Igorot people– the indigenous people of the Filipino Cordilleras.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="ayyew">Igorot Ayyew ethos</a>.  Today, ecobricking principles and methods are a means for homes, businesses and communities around the world to accelerate their <a href="transition">plastic transition.</a></p>
+				<p>The Global Ecobrick Alliance began in the green mountains of the Chico River in the land of Igorot people– the indigenous people of the Filipino Cordilleras.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="ayyew">Igorot Ayyew ethos</a>.  Today, ecobricking principles and methods are a means for households, enterprises and communities around the world to accelerate their <a href="transition">plastic transition.</a></p>
 				
-				<p>The Global Ecobrick Alliance (GEA) is made up of 400+ trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in ecobricking as a means of transitioning from plastic to ever greener living. <p>
+				<p>The Global Ecobrick Alliance (GEA) is made up of 400+ trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in our ecobricking to transition from plastic to ever greener living. <p>
 
 			</div>	
 
@@ -264,11 +264,28 @@ _END;?>
 				</div>
 
 				<div id="preclosed1">
+
+
+					<div class="row">
+                            <div class="main2">
+                            <p>As ecobrickers ourselves, we packed our plastic, track and work hard to minimize our plastic consumption.  We build our home furniture and gardens with our ecobricks.  We use plastic offsetting to make sure our household and our enterprises are net green.</p>
+							<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
+                            </div>
+                            <div class="side2"><img src="svgs/shanti.svg" width="85%">
+                            </div>
+                        </div>
+
+                        <div class="row2">
+                            <div class="main3">
+                            
+							<p><b>We observe that the consumption and production of plastic is rooted in the global petro-capital economy.</b></p>
+                            </div>
+                            <div class="side3"><img src="svgs/shanti.svg" width="120px">
+                            </div>
+                        </div>
+					</div>
 					<br>
-					<p>As ecobrickers ourselves, we packed our plastic, track and work hard to minimize our plastic consumption.  We build our home furniture and gardens with our ecobricks.  We use plastic offsetting to make sure our household and our enterprises are net green.</p>
-					<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
 					
-					<p><b>We observe that the consumption and production of plastic is rooted in the global petro-capital economy.</b></p>
 					
 					<p>Plastic is bound to the petroleum and capital that makes the global economy spin.  However, rather than stress about these big system issues, we’ve chosen to focus on our own personal plastic consumption.  This is something we can be sure to do something about.</p> 
 
@@ -287,9 +304,24 @@ _END;?>
 				</div>
 
 				<div id="preclosed2">
-					<p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It aso, means that unlike an organizations, we do not receive charity, grants or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor a mandate of growth and profits.
+
+				<div class="row">
+                            <div class="main2">
+                            <p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It aso, means that unlike an organizations, we do not receive charity, grants or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor a mandate of growth and profits.</p>
+                            </div>
+                            <div class="side2"><img src="webp/for-earth500px.webp" width="95%">
+                            </div>
+                        </div>
+
+                        <div class="row2">
+                            <div class="main3">
+                            <p>As an Earth enterprise our focus is on generation authentic ecological value. </p>
+                            </div>
+                            <div class="side3"><img src="webp/for-earth500px.webp" width="120px">
+                            </div>
+                        </div>
 						
-					<p>As an Earth enterprise our focus is on generation authentic ecological value.  Through our Brikcoin blockchain this value is authenticated, quantified and valued in regular currency.  We then sell Authenticated Ecobrick Sequestrated Plastic (<a href="aes">AES plastic offsets</a>) to fund our operations.  
+					<p>  Through our Brikcoin blockchain this value is authenticated, quantified and valued in regular currency.  We then sell Authenticated Ecobrick Sequestrated Plastic (<a href="aes">AES plastic offsets</a>) to fund our operations.  </p>
 					
 					<p>The GEA develops workshops and trainings that raise ecological consciousness around the dangers of plastic.  These courses are lead by our trainer team, and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
 
@@ -318,11 +350,22 @@ _END;?>
 				</div>
 
 				<div id="preclosed3">
-					<br>
+				<div class="row">
+                            <div class="main2">
+								<p><b>1. For-Earth</b></p>
 
-					<p><b>1. For-Earth</b></p>
+								<p>Our enterprise follows the <a href="plastic">Earth's example</a> in generating ecological value.  We follow the <a href="https://earthen.io/the-earthen-ways/" target="_blank">six principles of Earthen ethics</a> to sequester carbon, distibute benefit upwards, support biodiversity, raise ecological awareness and acheive overall net-subtraction in our endeavours.</p><br>
 
-					<p>Our enterprise follows the <a href="plastic">Earth's example</a> in generating ecological value.  We follow the <a href="https://earthen.io/the-earthen-ways/" target="_blank">six principles of Earthen ethics</a> to sequester carbon, distibute benefit upwards, support biodiversity, raise ecological awareness and acheive overall net-subtraction in our endeavours.</p><br>
+                            </div>
+                            <div class="side2"><img src="webp/earthservice-400px.webp" width="95%">
+							<div class="side3"><img src="webp/earthservice-400px.webp" width="120px">
+                            </div>
+                        </div>
+
+                
+
+
+					
 
 					<p><b>2. Leading by Example</b></p>
 
@@ -403,7 +446,7 @@ _END;?>
 
 					<p><b>Plastic Accounting Coeffecients</b></p>
 
-					<p>The GEA researches, publishes and maintains <a href="coefficients">standards for plastic equivalencies</a> for regenerative accounting.</a>.</p><br>
+					<p>The GEA researches, publishes and maintains <a href="coefficients.php">standards for plastic equivalencies</a> for regenerative accounting.</a>.</p><br>
 				</div>
 			</div>
 
@@ -427,6 +470,7 @@ _END;?>
 
 					<p><b>UK GEA Base</b></p>
 					<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p>
+					<br>
 
 					<p><b>Indonesian GEA Base</b></p>
 					<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#105;&#110;&#100;&#111;&#110;&#101;&#115;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
@@ -434,7 +478,7 @@ _END;?>
 
 					<p><b>Development Team</b></p>
 					<p>
-					<a href="javascript:location='mailto:\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0065\u0063\u006f\u0062\u0072\u0069\u0063\u006b\u0073\u002e\u006f\u0072\u0067';void 0"><script type="text/javascript">document.write('\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0065\u0063\u006f\u0062\u0072\u0069\u0063\u006b\u0073\u002e\u006f\u0072\u0067')</script></a><br>
+					<a href="javascript:location='mailto:\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0065\u0063\u006f\u0062\u0072\u0069\u0063\u006b\u0073\u002e\u006f\u0072\u0067';void 0"><script type="text/javascript">document.write('\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0065\u0063\u006f\u0062\u0072\u0069\u0063\u006b\u0073\u002e\u006f\u0072\u0067')</script></a></p><br>
 
 					<p><b>Media Enquiries</b></p>
 					
