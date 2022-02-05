@@ -357,7 +357,7 @@ _END;?>
 								<p>Our enterprise follows the <a href="plastic">Earth's example</a> in generating ecological value.  We follow the <a href="https://earthen.io/the-earthen-ways/" target="_blank">six principles of Earthen ethics</a> to sequester carbon, distibute benefit upwards, support biodiversity, raise ecological awareness and acheive overall net-subtraction in our endeavours.</p><br>
 
                         </div>
-						<div class="side2"><img src="webp/earthservice-400px.webp" width="950%"></div>
+						<div class="side2"><img src="webp/earthservice-400px.webp" width="95%"></div>
 						<div class="side3"><img src="webp/earthservice-400px.webp" width="120px"></div>
 					</div>
 
