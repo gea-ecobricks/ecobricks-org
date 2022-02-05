@@ -476,7 +476,7 @@ _END;?>
                             <div class="main2">
                             <p>The Earth’s use of carbon enabled not just the building blocks of life, but also through sequestration, the stabilization of the planet’s climate so that even more life could emerge.</p>
                             </div>
-                            <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2021/02/spkoski-300x249.png" width="100%">
+                            <div class="side2"><img src="webp/biodiversity-500px.webp" width="100%">
                             </div>
                         </div>
 
@@ -484,7 +484,7 @@ _END;?>
                             <div class="main3">
                             <p>Likewise, the short-term use of sequestered plastic must be such that it supports life in the short term and enables biodiversity in the long-term.</p>
                             </div>
-                            <div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/eco-consciousness-500.png" width="120px">
+                            <div class="side3"><img src="webp/biodiversity-500px.webp" width="120px">
                             </div>
                         </div>
                     
@@ -635,7 +635,9 @@ _END;?>
              </div>
 
              <br>
-            <h4>A Safe Road into Time</h4>
+             <div class="page-paragraph">
+                 <h4>A Safe Road into Time</h4>
+            </div>
 
              <div class="row">
                 
@@ -656,7 +658,9 @@ _END;?>
 
             <div class="row">
                 <br>
+                <div class="page-paragraph">
                 <h4>Ecobricks as Plastic Sequestration</h4>
+                </div>
                 <div class="main2">
                     <div class="page-paragraph">
                         
@@ -676,7 +680,9 @@ _END;?>
                
                 <div class="row">
                     <br>
+                    <div class="page-paragraph">
                     <h4>Is sequestration a final solution for plastic?</h4>
+                    </div>
                     <div class="main2">
                         <div class="page-paragraph">
                             
