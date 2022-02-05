@@ -426,10 +426,11 @@ _END;?>
 					<br>
 
 					<p><b>UK GEA Base</b></p>
-					<p>uk@ecobricks.org</p><br>
+					<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a>
 
 					<p><b>Indonesian GEA Base</b></p>
-					<p>indonesia@ecobricks.org</p><br>
+					<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#100;&#111;&#110;&#101;&#115;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#73;&#110;&#100;&#111;&#110;&#101;&#115;&#105;&#97;&#110;&#32;&#69;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#32;&#84;&#101;&#97;&#109;</a></p><br>
+
 
 					<p><b>Development Team</b></p>
 					<p>
@@ -478,7 +479,7 @@ _END;?>
         <img src="webp/2020-regen-report.webp" width="90%">
 				<h4>NEW: 2021 Regen Report</h4>
 				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
-				<a class="module-btn" href="https://files.mandala.team/s/FTfHeqfaMWzeZS4" target="_blank">Access Report</a><br><br>
+				<a class="module-btn" href="/2021-regenreport.php">Access Report</a><br><br>
 			</div>
 
 
@@ -486,14 +487,14 @@ _END;?>
 				<img src="webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="about">About Us</a>
+				
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about">About Us</a>
+				
 			</div>
 
 		</div>

@@ -38,8 +38,8 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
 		
-		background: url(wp-content/uploads/2020/05/BlUE-ode-to-plastic-Sequestration.svg) bottom;
-		background-color: #8BBAF0;
+		background: url(svgs/BlUE-ode-to-plastic-Sequestration.svg) bottom;
+		/*background-color: #8BBAF0;*/
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -61,7 +61,7 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		background: url(wp-content/uploads/2020/05/BlUE-ode-to-plastic-Sequestration.svg) bottom;
+		background: url(svgs/BlUE-ode-to-plastic-Sequestration.svg) bottom;
 		/*background-color: #fff;*/
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
