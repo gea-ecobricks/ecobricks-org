@@ -413,7 +413,7 @@ _END;?>
 				<div class="opener-header">	
 					<div class="opener-header-text">
 						<h4>Contact Us</h4>
-						<h5>Drop our teams a line</h5>
+						<h5>Connect with us directly.</h5>
 						<br>
 					</div>
 
@@ -426,23 +426,23 @@ _END;?>
 					<br>
 
 					<p><b>UK GEA Base</b></p>
-					<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a>
+					<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p>
 
 					<p><b>Indonesian GEA Base</b></p>
-					<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#100;&#111;&#110;&#101;&#115;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#73;&#110;&#100;&#111;&#110;&#101;&#115;&#105;&#97;&#110;&#32;&#69;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#32;&#84;&#101;&#97;&#109;</a></p><br>
+					<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#105;&#110;&#100;&#111;&#110;&#101;&#115;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
 
 
 					<p><b>Development Team</b></p>
 					<p>
-					support@ecobricks.org</p><br>
+					<a href="javascript:location='mailto:\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0065\u0063\u006f\u0062\u0072\u0069\u0063\u006b\u0073\u002e\u006f\u0072\u0067';void 0"><script type="text/javascript">document.write('\u0073\u0075\u0070\u0070\u006f\u0072\u0074\u0040\u0065\u0063\u006f\u0062\u0072\u0069\u0063\u006b\u0073\u002e\u006f\u0072\u0067')</script></a><br>
 
-					<p><b>Validator Circle</b></p>
+					<p><b>Media Enquiries</b></p>
 					
-					<p>validators@ecobricks.org</p><br>
+					<p><a href="javascript:location='mailto:\u006d\u0065\u0064\u0069\u0061\u0040\u0065\u0063\u006f\u0062\u0072\u0069\u0063\u006b\u0073\u002e\u006f\u0072\u0067';void 0"><script type="text/javascript">document.write('\u006d\u0065\u0064\u0069\u0061\u0040\u0065\u0063\u006f\u0062\u0072\u0069\u0063\u006b\u0073\u002e\u006f\u0072\u0067')</script></a></p><br>
 
 					<p><b>Circles - Ecobrick Community Server</b></p>
 
-					<p>Alternatively, you can connect with on <a href="https://circles.ecobricks.org" target="_blank">GEA Circles</a>, our social media alternative for the global ecobricker community</p><br>
+					<p>Even better, you can connect with us directly on <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank">GEA Circles</a>, our social media alternative for the global ecobricker community</p><br>
 
 					
 				</div>

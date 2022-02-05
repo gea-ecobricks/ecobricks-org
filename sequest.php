@@ -302,9 +302,9 @@ _END;?>
                     
                     <div class="row">
                         <div class="main2">
-                        <br><p>The Earth's cycles of life spiral ever greener.  The Earth's cycles spiral towards ever greater diversity, concentration and enrichment.  In the same way, the process of plastic sequestration, must do the same.  The products and process of plastic sequestration must also spiral towards concentration, diversity and enrichment.  This way we can be sure it is a net-green process.</p>
+                        <p>The Earth's cycles of life spiral ever greener.  The Earth's cycles spiral towards ever greater diversity, concentration and enrichment.  In the same way, the process of plastic sequestration, must do the same.  The products and process of plastic sequestration must also spiral towards concentration, diversity and enrichment.  This way we can be sure it is a net-green process.</p>
                         </div>
-                        <div class="side2"><img src="webp/cyclical-500px.png" width="80%">
+                        <div class="side2"><img src="pngs/cyclical-500px.png" width="80%">
                         </div>
                     </div>
 
@@ -322,6 +322,8 @@ _END;?>
                     <p>In comparison, the Earth has used carbon as a means– in a circular process.  Carbon molecules such as nucleic acids, proteins, lipids and glycans make up all organisms– and when one organism comes to an end, another begins by building itself with the other’s blocks.  This continues indefinitely, until the carbon is subsumed into long-term sequestration.</p><br>
 
                     <p>Putting creations into greening cycles of reuse is also know as spiral design.  In this way, when our sequestration of plastic leads to short-term creations, they must be by spiral by design– with their next life built in.</p>
+
+                    <a href="https://medium.com/earthen/towards-cycles-that-spiral-a2cea98b59c4">Learn more about the Earthen Ethic principle of spiral cycling.</a>
                     
                 </div>
                 </div>
@@ -338,9 +340,9 @@ _END;?>
 				<div id="preclosed3">
 					<div class="row">
 						<div class="main2">
-						<br><p>The Earth’s process of carbon compaction led to more and more carbon being secured from all forms of solar, chemical and organic degradation.  In the same way, plastic sequestration must concentrate plastic must do the same.  Keeping plastic as plastic and securing it into long-term, indefinite and secured storage is key to its sequestration. </p>
+						<p>The Earth’s process of carbon compaction led to more and more carbon being secured from all forms of solar, chemical and organic degradation.  In the same way, plastic sequestration must concentrate plastic must do the same.  Keeping plastic as plastic and securing it into long-term, indefinite and secured storage is key to its sequestration. </p>
 						</div>
-						<div class="side2"><img src="webp/compacted-carbon.webp" width="90%">
+						<div class="side2"><img src="webp/compacted-carbon.webp" width="92%">
 						</div>
 					</div>
 
@@ -359,7 +361,7 @@ _END;?>
 
                     <p>To be considered plastic sequestration, the processing of plastic must achieve the minimum density of 0.33 g/ml and ensure secure, indefinite storage.</p>
 
-                    <p>Learn more about Plastic: <a href="plastic">The Long Story</a></p>
+                    <p>Learn more: <a href="https://medium.com/earthen/the-oysters-example-6172c62a9a0b" target="_blank">About the Earthen principle of Concentration</a></p>
 
                     <p>
 				</div>
@@ -385,7 +387,7 @@ _END;?>
                             <div class="main2">
                             <p>At all levels of the biosphere, we can see that its many parts contribute to the benefit of the whole.   In the way the cells of a leaf, the leaves of a tree, and the trees of a forests always work to the enrichment of the whole, the Earth’s ecosystems have steadily enriched the whole biosphere. In the same way, to be an ecological contribution, our plastic sequestration must be first and foremost for the benefit of the biosphere.</p>
                             </div>
-                            <div class="side2"><img src="webp/for-earth500px.webp" width="100%">
+                            <div class="side2"><img src="webp/for-earth500px.webp" width="95%">
                             </div>
                         </div>
 
@@ -432,7 +434,7 @@ _END;?>
                             <div class="main2">
                             <p>Over the last four billion years, the net result of the Earth’s ecological processes has been the removal and storage of carbon from the biosphere.  This led over time to the stabilization of the planet’s climate and the increasing livability of the biosphere.   In the same way,  to be an ecological contribution, plastic sequestration must not add more CO2 or plastic to the biosphere than it removes.</p>
                             </div>
-                            <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/06/Impact-Assessment-Balance-Logo-300x300.png" width="100%">
+                            <div class="side2"><img src="icons/balance-glow-500px.webp" width="100%">
                             </div>
                         </div>
 
@@ -440,7 +442,7 @@ _END;?>
                             <div class="main3">
                             <p>The processing of plastic within industry (recycling, incineration, dumping, etc.) requires significant energy and transportation to move it from factory to factory around the world.</p>
                             </div>
-                            <div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/06/Impact-Assessment-Balance-Logo-300x300.png" width="120px">
+                            <div class="side3"><img src="icons/balance-glow-500px.webp" width="120px">
                             </div>
                         </div>
 					
@@ -718,10 +720,10 @@ _END;?>
 			</div>
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/eb-sky-400px.webp" width="80%">
-				<h4>Ecobricking as Sequestration</h4>
-				<h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
-				<a class="module-btn" href="catalyst">🚀 Learn More</a>
+				<img src="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" width="80%">
+				<h4>Earthen Ethics</h4>
+				<h5>Plastic Sequestration is based on following the Earth's example of ecological enrichment. The philosophy of Earthen Ethics.</h5><br>
+				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Learn More</a>
 			</div>
 
 		
