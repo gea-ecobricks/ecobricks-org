@@ -118,7 +118,8 @@ _END;?>
 			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brickenterprise program"></div>
 				<div id="slider-textbox">
 				<div id="slider-heading">2022 Catalyst Program Launched!</div>
-				<div id="slider-body">Keen green companies, organizations and projects can now use our automated plastic transition tracking, disclosure and acceleration platfrom-- all fees are waived!<a href="catalyst">Learn more</a></div>
+				<div id="slider-body">Keen green companies, organizations and projects can now use our automated plastic transition tracking, disclosure and acceleration platfrom-- all fees are waived!</div>
+				<div id="slider-link"><a href="catalyst">Learn more</a></div>
 				<div id="slider-date">Feb. 6, 2022 | GEA Announcements</div>
 			</div>
 		</div>
@@ -284,12 +285,13 @@ _END;?>
 		<div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
 		<a href="what" class="main-button">Plastic Offsetting</a>
 		<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About the GEA</a></h6><br><br>
-		<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</p><br>
+		<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>
 		<img src="svgs/3brikcoins.svg" width="30%">
 
+		<br><br>
 		<h4>Eco-brick, eco brick, or ecobrick?</h4>
 
-		<p>Back in the early days of putting plastic into a bottle we called it just that-- plastic bottle bricks!  Then when we realized it was helpful to the ecosystems around us, the name changed to eco bricks. Then we got more confident and added a hyphen: eco-bricks! However, once eco bricks were an established global phenomenon the official wikipedia page was updated to make it a full fledged word was appropriate: ecobricks! (no space, no hypen, no strange capitalization) as the official term.  <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">See the official wikipedia entry</a></p>
+		<p>Back in the early days of putting plastic into a bottle we called it just that-- plastic bottle bricks!  Then when we realized it was helpful to the ecosystems around us, the name changed to eco bricks. Then we got more confident and added a hyphen: eco-bricks! However, once eco bricks were an established global phenomenon the official wikipedia page was updated to make it a full fledged word was appropriate: ecobricks! (no space, no hypen, no strange capitalization) as <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">the official term.</a></p>
 		
 	</div>
 </div>
