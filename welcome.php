@@ -109,7 +109,7 @@ _END;?>
 					<div id="slider-heading">GEA 2021 Regen Report Released</div>
 					<div id="slider-date">Jan 27, 2022 | GEA Center Circle</div>
 					<div id="slider-body">Our annual ecological impact accounting for the GEA's operations in the previous year.  In 2021, we removed over 30,000 kg of carbon and 10,000 kg of plastic for the biosphere 🎉.</div>
-					<div id="slider-link">>> <a href="2021-regen-report.php"> 2021 Regen Report</a></div>
+					<div id="slider-link">>> <a href="2021-regenreport.php"> 2021 Regen Report</a></div>
 
 				</div>
 		</div>
@@ -117,9 +117,9 @@ _END;?>
 		<div id="slider2">
 			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%"></div>
 				<div id="slider-textbox">
-				<div id="slider-heading">Version 2.0 of the Enterprise Catalyst Program Launched</div>
-				<div id="slider-body">Plastic impact management for keen green companies, organizations and projects.  <a href="catalyst">Learn more</a></div>
-				<div id="slider-date">Jan 25, 2022 | GEA Announcements</div>
+				<div id="slider-heading">2022 Catalyst Program Launched!</div>
+				<div id="slider-body">Keen green companies, organizations and projects can now use our automated plastic transition tracking, disclosure and acceleration platfrom-- all fees are waived!<a href="catalyst">Learn more</a></div>
+				<div id="slider-date">Feb. 6, 2022 | GEA Announcements</div>
 			</div>
 		</div>
 
