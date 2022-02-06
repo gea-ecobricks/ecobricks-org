@@ -84,18 +84,33 @@ DirectoryIndex welcome.php index.php
 RedirectMatch "^/faq\/?$" "/en/faqs.php"
 
 Redirect /faqs /faqs.php
-
 Redirect /faqs/ /faqs.php
 
 Redirect /arc /arc.php
+Redirect /arc/ /arc.php
 
 Redirect /what /what.php
-
 Redirect /what/ /what.php
 
 Redirect /catalyst /catalyst.php
-
 Redirect /catalyst/ /catalyst.php
+
+Redirect /about /about.php
+Redirect /about/ /about.php
+
+Redirect /sequest /sequest.php
+Redirect /sequest/ /sequest.php
+
+Redirect /2021-regenreport /2021-regenreport
+Redirect /2021-regenreport/ /2021-regenreport
+Redirect /2021-regen-report /2021-regenreport
+Redirect /2021-regen-report/ /2021-regenreport
+
+Redirect /coefficients /coefficients.php
+Redirect /coefficients/ /coeffecients.php
+Redirect /coeffecients /coefficients.php
+Redirect /coeffecients/ /coeffecients.php
+
 
 
 
