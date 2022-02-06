@@ -425,7 +425,7 @@ _END;?>
                         <p>Plastic.  That convenient, colorful and ever so troublesome material that we all use every day is very easy to take for granted.  Fact is, it's crazily unique and valuable-- you literally can't find anything like it in elsewhere in our solar system.  Plastic is a petroleum by-product.  That means it is made from the carbon of ancient organisms-- algae, forest, dinausaurs that lived and died hundreds of millions of years ago.  As their bodies were buried, the Earth compacted and secured their carbon underground.  It was a process that removed more and more carbon from the atmosphere and greened the biosphere.  Today, we dig up these deposits as 'fossil fuels'.  But, this ancient carbon was never meant to be fuel!  Refining fossil fuels leads to lots of leftover chemicals-- which are perfect for making plastic and dangerous when let loose into the environment.  </p>
                        
                     </div>
-                    <div class="faq-image"><img src="webp/compacted-carbon.webp">
+                    <div class="faq-image"><img src="webp/compacted-carbon.webp" alt="compacted plastic eco brick sequestration">
 				</div>
 					
              </div>
