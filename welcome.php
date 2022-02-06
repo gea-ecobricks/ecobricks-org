@@ -104,7 +104,7 @@ _END;?>
 
 			<div id="slider1">
 
-				<div id="slider-image"><img src="webp/2020-regen-report.webp"></div>
+				<div id="slider-image"><img src="webp/2020-regen-report.webp" alt="2022 regen Report"></div>
 				<div id="slider-textbox">
 					<div id="slider-heading">GEA 2021 Regen Report Released</div>
 					<div id="slider-date">Jan 27, 2022 | GEA Center Circle</div>
@@ -115,7 +115,7 @@ _END;?>
 		</div>
 
 		<div id="slider2">
-			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%"></div>
+			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brickenterprise program"></div>
 				<div id="slider-textbox">
 				<div id="slider-heading">2022 Catalyst Program Launched!</div>
 				<div id="slider-body">Keen green companies, organizations and projects can now use our automated plastic transition tracking, disclosure and acceleration platfrom-- all fees are waived!<a href="catalyst">Learn more</a></div>
@@ -175,7 +175,7 @@ _END;?>
 
 
 		<div id="slider3">
-			<div id="slider-image"><img src="photos/earth-rumoer.png"  width="100%"></div>
+			<div id="slider-image"><img src="photos/earth-rumoer.png"  width="100%" alt="eco brick round house"></div>
 			<div id="slider-textbox">
 				<div id="slider-heading">Featured Project</div>
 				<div id="slider-body">
@@ -187,7 +187,7 @@ _END;?>
 
 		<div id="slider4">
 
-			<div id="slider-image"><img src="webp/ayyew.webp"></div>
+			<div id="slider-image"><img src="webp/ayyew.webp" alt="The eco brick ayyew philosophy"></div>
 			<div id="slider-textbox">
 				<div id="slider-heading">Inspired by Igorot Ancestral Wisdom</div>
 				<div id="slider-date">Sep 15th, 2021 | GEA Update Content</div>
@@ -235,11 +235,11 @@ _END;?>
 
 	<div id="content-sect1">
 	 	<div id="main-content">
-			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg"width="100%" height="76%" ></div>
+			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg"width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean"></div>
 			<div class="big-header">Welcome to Plastic Transition</div>
 			<!--<div class="lead-paragraph">Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</div>-->
 			<div class="sub-text">
-			<p>Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
+			<p>Together we can keep our plastic out of the oceans.  With eco bricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
 			<!--<p>When we save, segregate and pack plastics into bottles, we can make building blocks that can be reused over and over again. Together we can build green spaces that enrich our community and safely secure plastic out of the biosphere.  Together we can transition from plastic to ever greener harmony with Earth’s cycles.</p>-->
 			</div>
 			 <a href="faqs.php" button class="main-button">All About Ecobricks</a>
@@ -251,7 +251,7 @@ _END;?>
 	  
 <div id="content-sect2">
 	<div id="main-content">
-		<div class="lead-graphic"><img src="svgs/earth-service3.svg" width="100%" height="96%"></div>
+		<div class="lead-graphic"><img src="svgs/earth-service3.svg" width="100%" height="96%" alt="eco bricks follow the Earth's example."></div>
 		<div class="big-header">Follow the Earth's Example</div>
         <!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 		<div class="sub-text">
@@ -264,7 +264,7 @@ _END;?>
 
 <div id="content-sect3">
 	<div id="main-content">
-		<div class="lead-graphic"><img src="webp/build-circular4.webp" width="100%" height="90%"></div>
+		<div class="lead-graphic"><img src="webp/build-circular4.webp" width="100%" height="90%" alt="eco brick plastic brick building"></div>
 		<div class="big-header">The Problem is the Solution.</div>
 		<!--<div class="lead-paragraph">Using Ecobricked Plastic we can Build our Greenest Visions.</div>-->
 		<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for building green spaces.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build our greenest visions.</p>
@@ -279,13 +279,18 @@ _END;?>
 <div id="content-sect4">
 	<div id="main-content">
 		<div class="lead-graphic"><img src="webp/balancing-green.webp"  width="100%" height="100%"></div>
-		<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" ></div><!--width="300px" height="254px"-->
+		<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="autehtnticated eco brick sequetration"></div><!--width="300px" height="254px"-->
 		<!--<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>-->
 		<div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
 		<a href="what" class="main-button">Plastic Offsetting</a>
 		<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About the GEA</a></h6><br><br>
-		<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobrikcing.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</p><br>
+		<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</p><br>
 		<img src="svgs/3brikcoins.svg" width="30%">
+
+		<h4>Eco-brick, eco brick, or ecobrick?</h4>
+
+		<p>Back in the early days of putting plastic into a bottle we called it just that-- plastic bottle bricks!  Then when we realized it was helpful to the ecosystems around us, the name changed to eco bricks. Then we got more confident and added a hyphen: eco-bricks! However, once eco bricks were an established global phenomenon the official wikipedia page was updated to make it a full fledged word was appropriate: ecobricks! (no space, no hypen, no strange capitalization) as the official term.  <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">See the official wikipedia entry</a></p>
+		
 	</div>
 </div>
 

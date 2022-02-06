@@ -87,8 +87,8 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<div class="footer-content">
 
 		<div class="footer-box">
-			<div class="footer-header">Wikipedia Ecobricks</div>
-				<div class="footer-subtext">Also know as eco bricks, eco-bricks, EcoBricks, ecolladrillos, and bottle bricks the Global Ecobrick Alliance and <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia</a> endorse <i>'ecobrick'</i> to refer to the sequestration of plastic in a PET bottle to make a reusable building block.<br><br>
+			<div class="footer-header">Wikipedia</div>
+				<div class="footer-subtext">Also know as eco bricks, eco-bricks, EcoBricks, ecolladrillos, and bottle bricks, the Global Ecobrick Alliance and Wikipedia recognize <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">'ecobrick'</a> as the official term for the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">sequestration of plastic</a> inside a PET bottle to make a reusable building block.<br><br>
 				</div>
 				
 			</div>

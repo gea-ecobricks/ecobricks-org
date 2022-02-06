@@ -101,10 +101,12 @@ Redirect /about/ /about.php
 Redirect /sequest /sequest.php
 Redirect /sequest/ /sequest.php
 
-Redirect /2021-regenreport /2021-regenreport
-Redirect /2021-regenreport/ /2021-regenreport
-Redirect /2021-regen-report /2021-regenreport
-Redirect /2021-regen-report/ /2021-regenreport
+Redirect /2021-regenreport /2021-regenreport.php
+Redirect /2021-regenreport/ /2021-regenreport.php
+Redirect /2021-regen-report /2021-regenreport.php
+Redirect /2021-regen-report/ /2021-regenreport.php
+Redirect /2021-regen-report.php /2021-regenreport.php
+
 
 Redirect /coefficients /coefficients.php
 Redirect /coefficients/ /coeffecients.php
