@@ -428,7 +428,8 @@ _END;?>
 
 					<p>In this way, plastic sequestration must account for its various additive (grey) and subtractive (green) ecological impacts and it must show that the net result of the process is the subtraction of plastic and CO2 from the biosphere.  Only when it is net-subtractive can it be considered plastic sequestration.</p>
 
-					<p>Learn more about <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0" target="_blank">the Earthern principle of net-subtraction</a></p>
+                    <br><br>
+					<h5>Learn more about <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0" target="_blank">the Earthern principle of net-subtraction</a></h5>
 					<br>
 			
 				</div>
@@ -440,7 +441,7 @@ _END;?>
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Supporting Biodiversity</h4>
+                    <h4>5. Supporting Biodiversity</h4>
                     <h5>In the same way that the Earth’s cycles steadily increased biodiversication, so too must our process of plastic sequestration.</h5>
                     <br>
                     </div>
@@ -474,7 +475,8 @@ _END;?>
 
                     <p>Only if the process and its short and long-term result support of existing biodiversity and promote increases in diversity can it be considered plastic sequestration.</p>
                     
-                    <br>
+                    <br><br>
+                    <h5>Learn more about <a href="https://medium.com/earthen/the-ethic-of-biodiversity-b5b600bc4a70" target="_blank">the Earthen Ethic of diversification</h5>
 
                 </div>
                
@@ -486,7 +488,7 @@ _END;?>
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>Ecological Awaring</h4>
+					<h4>6. Ecological Awaring</h4>
 					<h5>In the same way that the Earth has cultivated ever greater ecological awareness, the enterprise of plastic sequestration must do the same through ecological impact accounting and disclosure.</h5>
 					<br>
 					</div>
@@ -512,12 +514,13 @@ _END;?>
                             </div>
                         </div>
 					
-					<p>Industrial  plastic management removed consumer participation and agency in the process.  Through propaganda and the long-distance export of plastics and marketing the accumulation of plastic pollution was hidden from those consuming it.< This has led to a steady increase of plastic consumption and production over the last 50 years.  By marketing itself as a solution for plastic, it has encouraged the unabated consumption of plastic.  Industrial plastic processing results in the addition of plastic to the biosphere.</p>
+					<p>Industrial  plastic management removed consumer participation and agency in the process.  Through propaganda and the long-distance export of plastics and marketing the accumulation of plastic pollution was hidden from those consuming it. This has led to a steady increase of plastic consumption and production over the last 50 years.  By marketing itself as a solution for plastic, it has encouraged the unabated consumption of plastic.  Industrial plastic processing results in the addition of plastic to the biosphere.</p>
 
 					<p>In contrast, plastic sequestration must be transparent, open and accountable and spread accurate information about plastic itself.  It must involve those consuming plastic and it must involve an accounting of its ecological impacts near and far.  In so doing, it must raise awareness of plastic’s story, its dangers and its connection to petro-capital economy.</p>
 
 					<p>Only if the processing of plastic raises  individual and collective consciousness can it be considered plastic sequestration.</p>
-					<br>
+					<br><br>
+                    <h5>Learn more about <a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">the Earthen ethic of awarensss</h5>
 			
 				</div>
 			</div>
@@ -531,7 +534,7 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>Independent Authentication</h4>
-                    <h5>Plastic Sequestration must be independently validated that the above criteria have been met</h5>
+                    <h5>Plastic Sequestration must be independently validated to authenticate that the above criteria have been met</h5>
                     <br>
                     </div>
 
@@ -618,9 +621,9 @@ _END;?>
                  <h4>A Safe Road into Time</h4>
            
 
-             <div class="row">
+                 <div class="row">
                 
-                <div class="main2">
+                      <div class="main2">
                     
                         
                         <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future–  what we call putting plastic on a safe millennial road.</p>
@@ -628,13 +631,13 @@ _END;?>
                         <p>If we can do this, then the chances are it will be safe for even longer and a gift for a future age.</p> 
 
                     </div>	
-                </div>
-                </div>
+                    </div>
 
-                 <div class="side2">
-                    <br><img src="webp/road-500px.webp" width="100%">
+                    <div class="side2">
+                        <br><img src="webp/road-500px.webp" width="100%">
+                    </div>
                 </div>
-             </div>
+            </div>
 
             <div class="row">
                 <br>
