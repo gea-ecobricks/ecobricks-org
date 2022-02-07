@@ -425,7 +425,6 @@ _END;?>
                         </div>
 					
 					
-
 					<p>In this way, plastic sequestration must account for its various additive (grey) and subtractive (green) ecological impacts and it must show that the net result of the process is the subtraction of plastic and CO2 from the biosphere.  Only when it is net-subtractive can it be considered plastic sequestration.</p>
 
                     <br><br>
