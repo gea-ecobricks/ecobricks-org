@@ -259,7 +259,41 @@ _END;?>
 							
             </div>	
 			
-		
+            <div class="reg-content-block" id="block1">
+
+                <div class="opener-header">
+                    
+                    <div class="opener-header-text">
+                    <h4>Theory & Science</h4>
+                    <h5>How to keep plastic out of industry and the biosphere?</h5>
+                    <br>
+                    </div>
+
+                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+                </div>
+
+                <div id="preclosed1">
+
+                <p>The goal of plastic sequestration is to prevent the physical and chemical degradation of plastic and the emissions and dispersal of industrial processing. Plastic degradation occurs physically (such as cracking, embrittlement, and flaking) and chemically (such as leaching).  Emissions and dispersal occur when plastic is industrially processed through recycling, incineration and land-filling.<p>
+
+                <p>In order to prevent these outcomes, plastic sequestration most divert plastic from industry and block the chemical and physical degration of plastic from the effects of light, heat, acids, friction, microbial action etc.  To ensure that this is acheived in way that is green ecological contribution, the Global Ecobrick alliance. 
+
+
+                <p><b>Preventing Degradation</b><p>
+
+                <p>Research into the polymer degradation shows that in the environment, degradation occurs on the exposed surface are aof plastic—and that net degradation is directly proportional to the amount of surface area exposed. further research indicates that that a thin film of HDPE plastic (high surface area) can degrade 1100 times faster than a bead of plastic of the same weight (low surface area). Whereas a thin film of plastic will degrade in 1.8 ± 0.4 years a bead of plastic will endure for 2000 ± 400 years.</p>
+                <p>In this way, by reducing the specific surface degradation rate (SSDR) of the low-surface-area plastic, it's lifetime can be extended significantly.  By further removing exposure to all forms of chemical and physical degration through appropriate applications, plastic can remain intact indefinitely.</p>
+
+                <p><b>Preventing Carbon Emissions</b><p>
+                <p>On average globally, each metric ton of plastic processed by recycling, land-filing and incineration generates 689kg, 65Kg and 2967kg of CO2e respectively. Plastic sequestration prevent these emissions.
+                    
+                <p><b>Preventing Industrial Dispersion</b></p>
+                <p>Research also shows that of all the plastic generated over all-time, the industrial processing of plastic has dispersed 91% of all plastic into the biosphere. There it is subject to the chemical and physical degradation pathways mentioned above. Plastic sequestration methods prevent this dispersion.</p>
+
+                <p>Indefinite Reuse in Secure Earthen Applications</p>
+                <p>Research has shown that covering plastic in earth is an effective method of preventing abiotic plastic degradation (i.e. preventing exposure to sunlight, friction, heat, etc.). Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are prevented. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) can further slow plastic degradation.
+                </div>
+                </div>
 
 
 			<div class="reg-content-block" id="block2">
@@ -281,7 +315,7 @@ _END;?>
                         <div class="main2">
                         <p>The Earth's process tend towards cycles of indefinite reuse.  These cycles spiral towards ever greater diversity, concentration and enrichment.  In the same way, the process of plastic sequestration, must do the same.  The products and process of plastic sequestration must also spiral towards concentration, diversity and enrichment.  This way we can be sure it is a net-green process.</p>
                         </div>
-                        <div class="side2"><img src="pngs/cyclical-500px.png" width="80%">
+                        <div class="side2"><img src="webp/spiral-design-381px.webp" width="80%">
                         </div>
                     </div>
 
@@ -289,7 +323,7 @@ _END;?>
                         <div class="main3">
                         <p>As such plastic sequestration is by-definiton a non-industrial process.</p>
                         </div>
-                        <div class="side3"><img src="webp/cyclical-500px.png" width="120px">
+                        <div class="side3"><img src="webp/spiral-design-381px.webp" width="120px">
                         </div>
                     </div>
 
@@ -499,9 +533,9 @@ _END;?>
 
                     <div class="row">
                             <div class="main2">
-                            <p>The Earth’s management of carbon has led to consciousness that was more and more aware of its inter-connectivity.  From single-celled, to multi-celled, to bacteria ever larger organisms (like us!), the Earth has cultivated an ever more aware biosphere.  The sequestration of plastic must likewise increase our individual and collective ecological consciousness through an accounting and disclosure of the ecological impacts of the process.</p>
+                            <p>The Earth’s cycles lead to the an ever increasing awareness of those impacted in an ecosystem.  Plastic sequestration must likewise increase our awareness through an accounting and disclosure of the ecological impacts of the process.</p>
                             </div>
-                            <div class="side2"><img src="pngs/eco-consciousness-500.png" width="90%">
+                            <div class="side2"><img src="webp/ecological-consciousness-500px.webp" width="90%">
                             </div>
                         </div>
 
@@ -509,17 +543,17 @@ _END;?>
                             <div class="main3">
                             <p>In the past, industrial plastic processing distanced consumers from the ecological consequences of plastic consumption.</p>
                             </div>
-                            <div class="side3"><img src="pngs/eco-consciousness-500.png" width="120px">
+                            <div class="side3"><img src="webp/ecological-consciousness-500px.webp" width="120px">
                             </div>
                         </div>
 					
-					<p>Industrial  plastic management removed consumer participation and agency in the process.  Through propaganda and the long-distance export of plastics and marketing the accumulation of plastic pollution was hidden from those consuming it. This has led to a steady increase of plastic consumption and production over the last 50 years.  By marketing itself as a solution for plastic, it has encouraged the unabated consumption of plastic.  Industrial plastic processing results in the addition of plastic to the biosphere.</p>
+					<p>Industrial  plastic management removed consumer participation and agency in the process.  Through long-distance export, the ecological impact of plastic processing was hidden from plastic consumer. By purporting to have solve plastic, industry encouraged the unabated consumption of plastic.  This led to a steady increase of plastic consumption, production and pollution over the last 50 years.</p>
 
-					<p>In contrast, plastic sequestration must be transparent, open and accountable and spread accurate information about plastic itself.  It must involve those consuming plastic and it must involve an accounting of its ecological impacts near and far.  In so doing, it must raise awareness of plastic’s story, its dangers and its connection to petro-capital economy.</p>
+					<p>Plastic sequestration must be transparent, open and accountable.  Plastic sequestration must return accurate data to those consuming plastic through an accounting of its ecological impacts near and far.</p>
 
-					<p>Only if the processing of plastic raises  individual and collective consciousness can it be considered plastic sequestration.</p>
+					<p>Only if the process raises individual and collective awareness can it be considered plastic sequestration.</p>
 					<br><br>
-                    <h5>Learn more about <a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">the Earthen ethic of awarensss</h5>
+                    <h5>Learn more about <a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">the Earthen ethic of awareness</a></h5>
 			
 				</div>
 			</div>
@@ -614,6 +648,9 @@ _END;?>
 
                 </div>
              </div>
+
+            
+
 
              <br>
              <div class="page-paragraph">

@@ -88,7 +88,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 		<div class="footer-box">
 			<div class="footer-header">Wikipedia</div>
-				<div class="footer-subtext">Also know as eco bricks, eco-bricks, EcoBricks, ecolladrillos, and bottle bricks, the Global Ecobrick Alliance and Wikipedia recognize <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">'ecobrick'</a> as the official term for the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">sequestration of plastic</a> inside a PET bottle to make a reusable building block.<br><br>
+				<div class="footer-subtext">Also know as eco bricks, eco-bricks, EcoBricks, ecolladrillos, plastic bricks and bottle bricks the Global Ecobrick Alliance and Wikipedia recognize <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">'ecobrick'</a> as the official term for the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">sequestration of plastic</a> inside a PET bottle to make a reusable building block.<br><br>
 				</div>
 				
 			</div>
@@ -147,8 +147,15 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		<div class="footer-conclusion">	
 				<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/></a>
 		</div>
+
+		<?php
+	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
+	$name = $parts [count($parts)-1];
+	;?>
+
+	
 		<div class="footer-invite">
-			This page is a 100% volunteer hand-coded and open-source.  Contribute on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank" rel="noopener">Github.</a>
+			This page is a 100% volunteer hand-coded and open-source.    <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page on Github.</a>
 		</div>
 		<div class="footer-conclusion">	
 			The AES, GEA and GoBrik logos and emblems are copyright 2021 by the Global Ecobrick Alliance.
