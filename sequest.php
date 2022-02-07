@@ -475,7 +475,7 @@ _END;?>
                     <p>Only if the process and its short and long-term result support of existing biodiversity and promote increases in diversity can it be considered plastic sequestration.</p>
                     
                     <br><br>
-                    <h5>Learn more about <a href="https://medium.com/earthen/the-ethic-of-biodiversity-b5b600bc4a70" target="_blank">the Earthen Ethic of diversification</h5>
+                    <h5>Learn more about <a href="https://medium.com/earthen/the-ethic-of-biodiversity-b5b600bc4a70" target="_blank">the Earthen Ethic of diversification</a></h5>
 
                 </div>
                
