@@ -153,9 +153,9 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	$name = $parts [count($parts)-1];
 	;?>
 
-	
+
 		<div class="footer-invite">
-			This page is a 100% volunteer hand-coded and open-source.    <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page on Github.</a>
+			This page is a 100% volunteer hand-coded and open-source page hosted on Github.<br>+<a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page's text or code</a>
 		</div>
 		<div class="footer-conclusion">	
 			The AES, GEA and GoBrik logos and emblems are copyright 2021 by the Global Ecobrick Alliance.
