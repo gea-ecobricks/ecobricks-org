@@ -573,10 +573,10 @@ _END;?>
 
 <!-- Localise translation script-->
 
-<script src="https://global.localizecdn.com/localize.js"></script>
+<script src="https://global.localizecdn.com/localize.js" defer></script>
 <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
 
-<script>
+<script defer>
   Localize.initialize({
     key: '911e632bfc957',
     rememberLanguage: true,
@@ -585,7 +585,7 @@ _END;?>
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<script src="accordion-scripts.js"></script> 
+<script src="accordion-scripts.js" defer></script> 
 
 
 </div>
