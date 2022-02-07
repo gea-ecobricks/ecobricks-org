@@ -245,9 +245,9 @@ _END;?>
 			<div class="page-paragraph">
 				  
 
-				<p>The <a href="story">story</a> of the Global Ecobrick Alliance begins in the traditional territory of the Igorot people (<i>Kaigorotan</i>) in the highlands of northern Luzon in the West Philippine Sea.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="ayyew">Igorot Ayyew ethos</a>.  Today, ecobricking principles and methods, inspired by indigenous wisdom, are a means for households, enterprises and communities arou	nd the world to accelerate their <a href="transition">plastic transition.</a></p>
+				<p>The <a href="story">story</a> of the Global Ecobrick Alliance begins in the traditional territory of the Igorot people (<i>Kaigorotan</i>) in the highlands of northern Luzon in the West Philippine Sea.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="ayyew">Igorot Ayyew ethos</a>.  Inspired by indigenous wisdowm, today ecobricking principles and methods are a means for households, enterprises and communities around the world to accelerate their <a href="transition">plastic transition.</a></p>
 				
-				<p>The Global Ecobrick Alliance (GEA) is made up of 400+ plastic transition trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in our ecobricking to <a href="transition">transition</a> from plastic to ever greener living. <p>
+				<p>The Global Ecobrick Alliance (GEA) is made up of 400+ transition trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in our ecobricking to <a href="transition">transition</a> from plastic to ever greener living. <p>
 
 			</div>	
 
@@ -296,7 +296,7 @@ _END;?>
 
 
 
-					<p><i>    “When you sit in council for the welfare of the people, you must not think of yourself or of your family, not even of your generation. Make your decisions on behalf of the seven generations coming, so that they may enjoy what you have today.</i></p>
+					<br><br><h5><i>    “When you sit in council for the welfare of the people, you must not think of yourself or of your family, not even of your generation. Make your decisions on behalf of the seven generations coming, so that they may enjoy what you have today.</i></h5>
 
 					<h5>— Oren Lyons (Seneca), Onondaga Nation</h5>
 
@@ -342,8 +342,8 @@ _END;?>
 					<p>The GEA develops regenerative, open source products that are made to specification by makers local to the country in which they are sold.  These products are sold by our trainers to assist with their practice (see <a href="/earthwand">our EarthWand page for an example).</a></p>
 
 					<p>All of our operations are manifested through our GEA Trainer and Core Team– folks who have been through one of our advanced trainings and are perpetually committed and resonant with our mission, vision and principles.  Our trainer team is constantly running <a href="trainings">GEA Trainings</a> around the world, and are remunerated professionally for these services by the community groups, companies, governments, NGOs or organizations that hire them.</p>
-					<br>
-					<p><i>    “In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.”</i></p>
+					<br><br>
+					<h5><i>    “In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.”</i></h5>
 
 					<h5>– How on Earth, Hinton & Maclurcan (2016)</h5>
 				</div>
@@ -366,13 +366,13 @@ _END;?>
 				<div id="preclosed3">
 					<div class="row">
                         <div class="main2">
-								<p><b>1. For-Earth< Service/b></p>
+								<p><b>1. For-Earth Service</b></p>
 
 								<p>Our enterprise follows the <a href="plastic">Earth's example</a> in generating ecological value.  We strive to follow the <a href="https://earthen.io/the-earthen-ways/" target="_blank">six principles of Earthen ethics</a> to sequester carbon, distibute benefit upwards, support biodiversity, raise ecological awareness and acheive overall net-subtraction in our endeavours.</p><br>
 
                         </div>
-						<div class="side2"><img src="webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
-						<div class="side3"><img src="webp/earthservice-400px.webp" width="120px" alt="eco bricks are a form of earth service"></div>
+							<div class="side2"><img src="webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
+							<div class="side3"><img src="webp/earthservice-400px.webp" width="120px" alt="an eco brick is a form of earth service"></div>
 					</div>
 
 					<p><b>2. Leading by Example</b></p>
@@ -391,7 +391,7 @@ _END;?>
 					<p>We strive to craft methods and processes that enable the participation of men and women, young and old, rich and poor and everyone in between.
 					</p><br>
 
-					<p><b>5. Fair & Abundant Remuneration for Earth Service</b></p>
+					<p><b>5. Fair Remuneration for Earth Service</b></p>
 
 					<p>We strive to cultivate a space and parameters so that our trainers, specialists and principals receive fair and abundant remuneration for their service to the earth.  As our enterprise expands we will ensure a wage bracket to maintain a defined ratio from the highest to the lowest paid person in the organization.
 					</p><br>
@@ -403,8 +403,8 @@ _END;?>
 
 					<p><b>7. Not for Profit</b></p>
 
-					<p>We commit to not-for-profit, so that no individuals or shareholders will profit from the operation of the enterprise.  At the end of the year, any unspent funds will be reinvested back into the fulfillment of our mission and vision.	
-					</p>
+					<p>We commit to not-for-profit enterprise without shareholders or owners.  At the end of the year, any unspent funds will be reinvested back into the fulfillment of our mission and vision.	
+					</p><br>
 
 					<h6><a href="/principles">Learn more about ecobricking principles</a></h6><br>
 				</div>
