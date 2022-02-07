@@ -618,7 +618,6 @@ _END;?>
              <br>
              <div class="page-paragraph">
                  <h4>A Safe Road into Time</h4>
-           
 
                  <div class="row">
                 
@@ -630,56 +629,52 @@ _END;?>
                         <p>If we can do this, then the chances are it will be safe for even longer and a gift for a future age.</p> 
 
                     </div>	
+
+                    <div class="side2">
+                        <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="page-paragraph">
+                <h4>Ecobricks as Plastic Sequestration</h4>
+                 <div class="row">
+                    <div class="main2">
+                            
+                            <p>The Global Ecobrick Alliance advocates ecobricking as a means of plastic sequestration.  The ecobricking proces raises ecological consciousness to accelereate plastic transition.  Ecobricks that meet GEA standards, have compacted plastic, secured it out of industry and out of profit enterprise to put plastic on a safe millenial road. 
+                            </p>
+                            <p>
+                            When validated as such, the plastic inside the ecobrick is referred to as authenticated ecobrik sequestered plastic (AES Plastic).</p> 
+                        
                     </div>
 
                     <div class="side2">
-                        <br><img src="webp/road-500px.webp" width="100%">
+                            <br><img src="webp/eb-sky-400px.webp" width="100%"></a>
                     </div>
-                </div>
+                 </div>
             </div>
 
-            <div class="row">
-                <br>
-                <div class="page-paragraph">
-                <h4>Ecobricks as Plastic Sequestration</h4>
-                </div>
-                <div class="main2">
-                    <div class="page-paragraph">
-                        
-                        <p>The Global Ecobrick Alliance advocates ecobricking as a means of plastic sequestration.  The ecobricking proces raises ecological consciousness to accelereate plastic transition.  Ecobricks that meet GEA standards, have compacted plastic, secured it out of industry and out of profit enterprise to put plastic on a safe millenial road. 
-                        </p>
-                        <p>
-                        When validated as such, the plastic inside the ecobrick is referred to as authenticated ecobrik sequestered plastic (AES Plastic).</p> 
-                    </div>	
-                </div>
-
-                <div class="side2">
-                        <br><img src="webp/eb-sky-400px.webp" width="100%"></a>
-                </div>
-            </div>
-
-        
-               
+            <br>
+            <div class="page-paragraph">
+            <h4>Is sequestration a final solution for plastic?</h4>
+    
                 <div class="row">
-                    <br>
-                    <div class="page-paragraph">
-                    <h4>Is sequestration a final solution for plastic?</h4>
-                    </div>
+                    
                     <div class="main2">
-                        <div class="page-paragraph">
                             
                             <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
 
                             <p>Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in billions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it on another spin in this cycle.  In the same way the carbon was a gift to our age, we can gift our carbon to another. </p>
 
                             <p>Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.</p>
-                        </div>
-                    </div>
+                     </div>
+
                     <div class="side2">
                         <br><img src="webp/ayyew.webp" width="100%"></a>
                     </div>
                 </div>	
             
+            </div>
         </div>
 	
 
