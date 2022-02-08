@@ -262,7 +262,7 @@ _END;?>
 					echo "<table><tr><th>ID</th><th>Type</th><th>Amount</th></tr>";
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
-					echo "<tr><td>".$row["tra_id"]."</td><td>".$row["block_tran_type"]."</td><td> ".$row["individual_amt"]."</td></tr>";
+					echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td> ".$row["individual_amt"]."</td></tr>";
 				  }
 				  echo "</table>";
 				} else {
@@ -273,15 +273,6 @@ _END;?>
 					
 
 					
-
-					echo "<b>ID:</b>  " . $row["tran_id"]. "  |   <b>Type:</b> " . $row["block_tran_type"]. "   |   <strong>Amount:  </strong>" . $row["individual_amt"]. "  | " . $row["tran_name"]. "<br>";
-					echo '</p></div>';
-				}
-				} else {
-				echo "0 results";
-				}
-				$conn->close();
-			?>   
 		</div>
 
 		
