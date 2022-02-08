@@ -285,7 +285,7 @@ _END;?>
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
 					
-					echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["block_tran_type"]."</td></tr>".$row["individual_amt"]."</td><td>";
+					echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["block_tran_type"]."</td></td>".$row["individual_amt"]."</td></tr>";
 				  }
 				  echo "</table>";
 				} else {
