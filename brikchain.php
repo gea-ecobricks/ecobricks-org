@@ -205,16 +205,16 @@ _END;?>
   width: 100%;
 }
 
-#customers td, #customers th {
+#brikchain td, #brikchain th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#customers tr:nth-child(even){background-color: #f2f2f2;}
+#brikchain tr:nth-child(even){background-color: #f2f2f2;}
 
-#customers tr:hover {background-color: #ddd;}
+#brikchain tr:hover {background-color: #ddd;}
 
-#customers th {
+#brikchain th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -259,7 +259,7 @@ _END;?>
 	
 
 			<div class="lead-page-paragraph">
-				
+				<br><br>
 				<p>The Global Ecobrick Alliance maintains the Brikcoin blockchain and provides the Brikchain Explorer tool as a means to search the full chain of transactions and ecobricks.</p>
 			</div>
 
@@ -275,7 +275,7 @@ _END;?>
 			<?php
 
 
-				$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt FROM brk_transaction";
+				$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker FROM brk_transaction";
 				$result = $conn->query($sql);
 
 				if ($result->num_rows > 0) {
@@ -285,7 +285,7 @@ _END;?>
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
 					
-					echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td></tr>";
+					echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["sender_ecobricker"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td></tr>";
 				  }
 				  echo "</table>";
 				} else {
