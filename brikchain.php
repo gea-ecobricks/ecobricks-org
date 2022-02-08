@@ -233,8 +233,7 @@ _END;?>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
-	<div class="row">
-		<div class="main">
+	
 
 			<div class="lead-page-paragraph">
 				
@@ -258,11 +257,13 @@ _END;?>
 
 				if ($result->num_rows > 0) {
 				
-					echo '<div class="page-paragraph"><p>';
+					
 					echo "<table><tr><th>ID</th><th>Type</th><th>Amount</th></tr>";
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
+					echo '<div class="page-paragraph"><p>';
 					echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td> ".$row["individual_amt"]."</td></tr>";
+					echo '</p></div>';
 				  }
 				  echo "</table>";
 				} else {
