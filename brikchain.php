@@ -218,7 +218,7 @@ _END;?>
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #04AA6D;
+  background-color: #E39009;
   color: white;
 }
 
@@ -280,7 +280,7 @@ _END;?>
 
 				if ($result->num_rows > 0) {
 				
-					echo'<table id="brikchain"><tr><th>ID</th><th>Transaction Name</th><th>Block Type</th><th>Amount</th></tr>';
+					echo'<table id="brikchain"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
 				
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
