@@ -281,11 +281,11 @@ _END;?>
 				if ($result->num_rows > 0) {
 				
 					
-					echo "<table id="brikchain">><tr><th>ID</th><th>Transaction Name</th><th>Block Type</th><th>Amount</th></tr>";
+					echo "<table id="brikchain"><tr><th>ID</th><th>Transaction Name</th><th>Block Type</th><th>Amount</th></tr>";
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
 					
-					echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td> ".$row["block_tran_type"]."</td></tr> " .$row["individual_amt"]."</td><td> ";
+					echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["block_tran_type"]."</td></tr>".$row["individual_amt"]."</td><td>";
 				  }
 				  echo "</table>";
 				} else {
