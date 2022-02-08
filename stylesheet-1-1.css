@@ -2458,14 +2458,15 @@ opacity: 1;}*/
   color: #a8aab8;
   text-align: center;
   background-color: #252b4d;
+  line-height: 1.3;
 }
 
 .footer-invite a {
-  color: #a8aab8;
+  color: #a8aab8 !important;
   text-decoration: pointer;
 }
 .footer-invite a:hover {
-  color: #a8aab8;
+  color: #9fdafc !important;
   text-decoration: none;
 }
 @media screen and (max-width: 800px) {
