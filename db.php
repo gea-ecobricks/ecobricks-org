@@ -2,9 +2,9 @@
 <?php
 
 $servername = "localhost";
-$username = "ecobricks_php_api_user";
+$username = "ecobricks_russs";
 $password = "12345";
-$dbname = "ecobricks_msql_db";
+$dbname = "ecobricks_gobrik_msql_db";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection

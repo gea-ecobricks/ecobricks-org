@@ -253,7 +253,7 @@ _END;?>
 			<?php
 
 
-				$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran";
+				$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt FROM brk_transaction";
 				$result = $conn->query($sql);
 
 				if ($result->num_rows > 0) {
@@ -261,7 +261,7 @@ _END;?>
 				while($row = $result->fetch_assoc()) {
 
 					echo '<div class="page-paragraph"><p>';
-					echo "<b>ID:</b>  " . $row["transaction_id"]. "  |   <b>Type:</b> " . $row["block_tran_type"]. "   |   <strong>Amount:  </strong>" . $row["transaction_amount"]. "  | " . $row["transaction_name"]. "<br>";
+					echo "<b>ID:</b>  " . $row["tran_id"]. "  |   <b>Type:</b> " . $row["block_tran_type"]. "   |   <strong>Amount:  </strong>" . $row["individual_amt"]. "  | " . $row["tran_name"]. "<br>";
 					echo '</p></div>';
 				}
 				} else {
