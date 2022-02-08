@@ -253,7 +253,7 @@ _END;?>
 
 						<p>To acheive both, plastic sequestration follows the <a href="plastic">Earth's example of sequestering carbon to enrich the biosphere</a> and the ensuing principles of <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Earthen ethics</a>.  As a third-party Earth enterprise with a mandate of biosphere benefit, the <a href="about">Global Ecobrick Alliance</a>, maintains six criteria for the sequestration of plastic to ensure it is of benefit to the biosphere.  In order for plastic to be considered sequestered, it must not only meet these six criteria, it must also be independently authenticated to have done so.</p>
 
-                        <!--<p>Just as the Earth sequestered carbon to cultivate and green the biosphere, so too can we compact, secure, cycle and store our plastic. By following the Earth’s example of biosphere benefit, consciousness raising and net-greening we can be confident of making a valuable ecological contribution.</p>
+                        <!--<p>Just as the Earth sequestered carbon to cultivate and green the biosphere, so too can we compact, secure, cycle and store our plastic for the short and long-term. By following the Earth’s example we can be confident our enterprise of plastic management is making a valuable ecological contribution.</p>
 
                         <p>We call this, plastic sequestration.</p>-->
 							
@@ -265,7 +265,7 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>Theory & Science</h4>
-                    <h5>How to keep plastic out of industry and the biosphere?</h5>
+                    <h5>The goal of plastic sequestration is to prevent the physical and chemical degradation of plastic and the emissions and dispersal of industrial processing.</h5>
                     <br>
                     </div>
 
@@ -274,15 +274,13 @@ _END;?>
 
                 <div id="preclosed1">
 
-                <p>The goal of plastic sequestration is to prevent the physical and chemical degradation of plastic and the emissions and dispersal of industrial processing. Plastic degradation occurs physically (such as cracking, embrittlement, and flaking) and chemically (such as leaching).  Emissions and dispersal occur when plastic is industrially processed through recycling, incineration and land-filling.<p>
-
-                <p>In order to prevent these outcomes, plastic sequestration most divert plastic from industry and block the chemical and physical degration of plastic from the effects of light, heat, acids, friction, microbial action etc.  To ensure that this is acheived in way that is green ecological contribution, the Global Ecobrick alliance. 
+                <p>Plastic degradation occurs physically (such as cracking, embrittlement, and flaking) and chemically (such as leaching).  Emissions and dispersal occur when plastic is industrially processed through recycling, incineration and land-filling.  In order to prevent these outcomes, plastic sequestration diverts plastic from industry and prevents the chemical and physical degration of plastic from the effects of light, heat, acids, friction, microbial action etc. 
 
 
                 <p><b>Preventing Degradation</b><p>
 
-                <p>Research into the polymer degradation shows that in the environment, degradation occurs on the exposed surface are aof plastic—and that net degradation is directly proportional to the amount of surface area exposed. further research indicates that that a thin film of HDPE plastic (high surface area) can degrade 1100 times faster than a bead of plastic of the same weight (low surface area). Whereas a thin film of plastic will degrade in 1.8 ± 0.4 years a bead of plastic will endure for 2000 ± 400 years.</p>
-                <p>In this way, by reducing the specific surface degradation rate (SSDR) of the low-surface-area plastic, it's lifetime can be extended significantly.  By further removing exposure to all forms of chemical and physical degration through appropriate applications, plastic can remain intact indefinitely.</p>
+                <p>Plastic polymer degradation occurs on the exposed surface are of plastic.  Consequently, the rate of degradation is directly proportional to the amount of surface area exposed. Research indicates that that a thin film of HDPE plastic (which has a very large surface area) can degrade 1100 times faster than a bead of plastic of the same weight (very small surface area). For example a thin film of plastic will degrade in 1.8 ± 0.4 years a bead of plastic will endure for 2000 ± 400 years, in the same conditions.</p>
+                <p>In this way, plastic sequestration is all about reducing the "specific surface degradation rate" (SSDR) of collected plastic.  By decreasing net surface area, the lifetime of collected plastic can be extended significantly.  By further removing exposure to all forms of chemical and physical degration through appropriate applications, plastic can remain intact almost indefinitely.</p>
 
                 <p><b>Preventing Carbon Emissions</b><p>
                 <p>On average globally, each metric ton of plastic processed by recycling, land-filing and incineration generates 689kg, 65Kg and 2967kg of CO2e respectively. Plastic sequestration prevent these emissions.
@@ -290,7 +288,13 @@ _END;?>
                 <p><b>Preventing Industrial Dispersion</b></p>
                 <p>Research also shows that of all the plastic generated over all-time, the industrial processing of plastic has dispersed 91% of all plastic into the biosphere. There it is subject to the chemical and physical degradation pathways mentioned above. Plastic sequestration methods prevent this dispersion.</p>
 
-                <p>Indefinite Reuse in Secure Earthen Applications</p>
+                <p><b>Preventing Ecological Disruption</b></p>
+                <p>Plastic once loose in the biosphere has been shown to interfere with ecological cycles.  This can impeded the ability of phytoplankton to sequester carbon and disrupt food chains.  Plastic sequestration prevents these disruptions.
+
+                <p><b>Accelerating Plastic Transtion</b><p>
+                <p>All plastic disposal methods, result in the indirect production of replacement plastic.  Within traditional industrial disposal of plastic for every 1kg of plastic disposed, 0.91kg of plastic can be estimated to replace it.  The awareness raising process of plastic sequestration must be shown to reduce replacement rates to >0.80kg per 1kg.
+
+                <p><b>Indefinite Reuse in Secure Earthen Applications</b></p>
                 <p>Research has shown that covering plastic in earth is an effective method of preventing abiotic plastic degradation (i.e. preventing exposure to sunlight, friction, heat, etc.). Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are prevented. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) can further slow plastic degradation.
                 </div>
                 </div>

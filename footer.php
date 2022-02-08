@@ -158,7 +158,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			This page is a 100% volunteer hand-coded and open-source page hosted on Github.<br>+<a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page's text or code</a>
 		</div>
 		<div class="footer-conclusion">	
-			The AES, GEA and GoBrik logos and emblems are copyright 2021 by the Global Ecobrick Alliance.
+			The AES, GEA and GoBrik logos and emblems are copyright 2022 by the Global Ecobrick Alliance.
 			<br><br>
 		</div>
 	</div>
