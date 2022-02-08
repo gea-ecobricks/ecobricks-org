@@ -281,7 +281,7 @@ _END;?>
 				if ($result->num_rows > 0) {
 				
 					
-					echo "<table id="brikchain"><tr><th>ID</th><th>Transaction Name</th><th>Block Type</th><th>Amount</th></tr>";
+					echo "<table><tr><th>ID</th><th>Transaction Name</th><th>Block Type</th><th>Amount</th></tr>";
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
 					
