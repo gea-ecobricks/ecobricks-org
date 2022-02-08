@@ -257,10 +257,23 @@ _END;?>
 				$result = $conn->query($sql);
 
 				if ($result->num_rows > 0) {
+				
+					echo '<div class="page-paragraph"><p>';
+					echo "<table><tr><th>ID</th><th>Type</th><th>Amount</th></tr>";
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
+					echo "<tr><td>".$row["tra_id"]."</td><td>".$row["block_tran_type"]."</td><td> ".$row["individual_amt"]."</td></tr>";
+				  }
+				  echo "</table>";
+				} else {
+				  echo "0 results";
+				}
+				$conn->close();
+				?>
+					
 
-					echo '<div class="page-paragraph"><p>';
+					
+
 					echo "<b>ID:</b>  " . $row["tran_id"]. "  |   <b>Type:</b> " . $row["block_tran_type"]. "   |   <strong>Amount:  </strong>" . $row["individual_amt"]. "  | " . $row["tran_name"]. "<br>";
 					echo '</p></div>';
 				}
@@ -273,37 +286,6 @@ _END;?>
 
 		
 	
-
-		<div class="side">
-
-		
-			
-		<div id="side-module-desktop-only">
-        <img src="webp/2020-regen-report.webp" width="90%">
-				<h4>NEW! 2021 Regen Report</h4>
-				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
-				<a class="module-btn" href="https://gobrik.com/#catalyze" target="_blank">Access Report</a><br><br>
-			</div>
-
-
-			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
-				<h4>For-Earth Enterprise</h4>
-				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="about">About Us</a>
-			</div>
-
-			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about">About Us</a>
-			</div>
-
-		</div>
-
-	</div>
-</div>
 
 
 
