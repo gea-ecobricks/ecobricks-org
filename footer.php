@@ -142,11 +142,17 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 					<br><br>
 
 		<div class="footer-conclusion">	
-			The educational content of this site is made available by the Ecobrick Alliance under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Please attribute all usage to "Ecobricks.org - Global Ecobrick Alliance" using the same license.</div>
-			
-		<div class="footer-conclusion">	
-				<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/></a>
+			<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/></a>
 		</div>
+		
+		<div class="footer-conclusion">	
+			The educational content of this site is made available by the Ecobrick Alliance under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Please attribute all usage to "Ecobricks.org - Global Ecobrick Alliance" using the same license.</div>
+			<div class="footer-conclusion">	
+			The AES, GEA and GoBrik logos and emblems are copyright 2022 by the Global Ecobrick Alliance.
+			<br><br>
+		</div>
+			
+		
 
 		<?php
 	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
@@ -157,10 +163,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		<div class="footer-invite">
 			This page is a 100% volunteer hand-coded and open-source page hosted on Github.<br>+<a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page's text or code</a>
 		</div>
-		<div class="footer-conclusion">	
-			The AES, GEA and GoBrik logos and emblems are copyright 2022 by the Global Ecobrick Alliance.
-			<br><br>
-		</div>
+		<br><br>
 	</div>
 </div>
 
