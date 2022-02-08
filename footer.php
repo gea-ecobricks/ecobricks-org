@@ -152,16 +152,12 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			<br><br>
 		</div>
 			
-		
 
-		<?php
-	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
-	$name = $parts [count($parts)-1];
-	;?>
+
 
 
 		<div class="footer-invite">
-			This page is a 100% volunteer hand-coded and open-source page hosted on Github.<br>+<a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page's text or code</a>
+			This page is a 100% volunteer hand-coded and open-source page hosted on Github.<br>📝<a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page's text or code</a>
 		</div>
 		<br><br>
 	</div>
