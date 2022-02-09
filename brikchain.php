@@ -233,14 +233,18 @@ _END;?>
 
 
 <script>
-$(document).ready( function () {
-    $('#table_id').DataTable();
-    serverSide: true,
+
+	
+$(document).ready(function() {
+    $('#example').DataTable( {
+        "processing": true,
+        "serverSide": true,
+    } );
 } );
 
-</script>
-
 <script>
+
+
 $(document).ready( function () {
     $('#table_id2').DataTable();
 
