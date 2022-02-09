@@ -280,7 +280,7 @@ $(document).ready( function () {
 			<div class="page-paragraph">
 				  
 
-				<p>For the moment here's a full table of all the current birkcoin transactions.  Not that this feature is still under development!</p>
+				<p>For the moment here's a full table of all the current brikcoin transactions.  Note that this feature is still under development!</p>
 
 			</div>
 				
