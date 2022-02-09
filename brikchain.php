@@ -235,9 +235,8 @@ _END;?>
 <script>
 $(document).ready( function () {
     $('#table_id').DataTable();
-	"processing": true,
-    "serverSide": true,
-	"ajax": "ajax.php"
+    serverSide: true,
+    ajax: '/data-source'
 } );
 
 </script>
