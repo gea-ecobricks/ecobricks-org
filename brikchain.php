@@ -236,10 +236,10 @@ _END;?>
 
 	
 $(document).ready(function() {
-    $('#brikchain2').DataTable( {
-        "paging":   true,
-        "ordering": true,
-        "info":     true
+    $('#brikchain3').DataTable( {
+        "processing": true,
+        "serverSide": true,
+        "ajax": "ajax.php"
     } );
 } );
 
@@ -324,6 +324,11 @@ $(document).ready(function() {
 					
 
 					<br><br>
+
+					<table id="brikchain3" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>
+
+			</table>
+			<br><br>
 
 					<table id="table_id2" class="display">
     <thead>
