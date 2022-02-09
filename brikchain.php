@@ -236,14 +236,13 @@ _END;?>
 
 	
 $(document).ready(function() {
-    $('#brikchain2').DataTable();
+    $('#brikchain2').DataTable( {
+        "paging":   true,
+        "ordering": true,
+        "info":     true
+    } );
 } );
 
-
-$(document).ready( function () {
-    $('#table_id2').DataTable();
-
-} );
 
 </script>
 
