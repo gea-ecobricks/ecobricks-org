@@ -289,7 +289,7 @@ _END;?>
 
 				if ($result->num_rows > 0) {
 				
-					echo'<table id="table_id2" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
+					echo'<table id="table_id" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
 				
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
