@@ -233,21 +233,29 @@ _END;?>
 
 
 <script>
+setTimeout(
+  function() 
+  {
+    $('#brikchain2').DataTable();
+}, 5000);
 
-	
+</script>
+
+
+	<!--
+
+	$(document).ready(function() {
+    $('#brikchain2').DataTable();
+} );
+
+
 $(document).ready(function() {
     $('#brikchain3').DataTable( {
         "processing": true,
         "serverSide": true,
         "ajax": "ajax.php"
     } );
-} );
-
-
-</script>
-
-
-
+} );-->
 
 </head>
 							  
