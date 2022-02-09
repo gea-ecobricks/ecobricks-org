@@ -297,8 +297,29 @@ $(document).ready( function () {
 			</div>
 				
             
-			<table id="table_id" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>
-			
+			<?php include 'db.php';?>
+		
+			<?php
+
+
+				$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker FROM brk_transaction";
+				$result = $conn->query($sql);
+
+				if ($result->num_rows > 0) {
+				
+					echo'<table id="table_id" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
+				
+				// output data of each row
+				while($row = $result->fetch_assoc()) {
+					
+					echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["sender_ecobricker"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td></tr>";
+				  }
+				  echo "</table>";
+				} else {
+				  echo "0 results";
+				}
+				$conn->close();
+				?>
 			
 			
 			</table>
