@@ -236,13 +236,8 @@ _END;?>
 
 	
 $(document).ready(function() {
-    $('#table_id').DataTable( {
-        "processing": true,
-        "serverSide": true,
-    } );
+    $('#brikchain2').DataTable();
 } );
-
-<script>
 
 
 $(document).ready( function () {
@@ -310,7 +305,7 @@ $(document).ready( function () {
 
 				if ($result->num_rows > 0) {
 				
-					echo'<table id="table_id" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
+					echo'<table id="brikchain2" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
 				
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
