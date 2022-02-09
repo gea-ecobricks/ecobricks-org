@@ -304,6 +304,10 @@ _END;?>
 				$conn->close();
 				?>
 					
+			</table>
+
+					<br><br>
+
 			
 
 					
