@@ -232,6 +232,25 @@ _END;?>
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
 
 
+<script>
+$(document).ready( function () {
+    $('#table_id').DataTable();
+	"processing": true,
+        "serverSide": true,
+} );
+
+</script>
+
+<script>
+$(document).ready( function () {
+    $('#table_id2').DataTable();
+	"processing": true,
+        "serverSide": true,
+} );
+
+</script>
+
+
 
 
 </head>
@@ -281,7 +300,6 @@ _END;?>
 				
             <?php include 'db.php';?>
 		
-			<table id="table_id" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>
 			<?php
 
 
@@ -290,25 +308,41 @@ _END;?>
 
 				if ($result->num_rows > 0) {
 				
-				
+					echo'<table id="table_id" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
 				
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
 					
 					echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["sender_ecobricker"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td></tr>";
 				  }
-			
+				  echo "</table>";
 				} else {
 				  echo "0 results";
 				}
 				$conn->close();
 				?>
 					
-			</table>
 
 					<br><br>
 
-			
+					<table id="table_id2" class="display">
+    <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1 Data 1</td>
+            <td>Row 1 Data 2</td>
+        </tr>
+        <tr>
+            <td>Row 2 Data 1</td>
+            <td>Row 2 Data 2</td>
+        </tr>
+    </tbody>
+</table>
 
 					
 		</div>
@@ -316,12 +350,6 @@ _END;?>
 		
 	
 
-		<script>
-$(document).ready( function () {
-    $('#table_id').DataTable();
-} );
-
-</script>
 
 
 
