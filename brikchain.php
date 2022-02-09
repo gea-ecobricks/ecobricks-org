@@ -231,12 +231,7 @@ _END;?>
   
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
 
-<script>
-$(document).ready( function () {
-    $('#table_id').DataTable();
-} );
 
-</script>
 
 
 </head>
@@ -294,7 +289,7 @@ $(document).ready( function () {
 
 				if ($result->num_rows > 0) {
 				
-					echo'<table id="table_id" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
+					echo'<table id="table_id2" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
 				
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
@@ -336,7 +331,12 @@ $(document).ready( function () {
 		
 	
 
+		<script>
+$(document).ready( function () {
+    $('#table_id').DataTable();
+} );
 
+</script>
 
 
 
