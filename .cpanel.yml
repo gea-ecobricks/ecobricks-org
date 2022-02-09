@@ -21,6 +21,7 @@ deployment:
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
+    - /bin/cp ajax.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH

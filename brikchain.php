@@ -236,7 +236,8 @@ _END;?>
 $(document).ready( function () {
     $('#table_id').DataTable();
 	"processing": true,
-        "serverSide": true,
+    "serverSide": true,
+	"ajax": "ajax.php"
 } );
 
 </script>
@@ -244,8 +245,7 @@ $(document).ready( function () {
 <script>
 $(document).ready( function () {
     $('#table_id2').DataTable();
-	"processing": true,
-        "serverSide": true,
+
 } );
 
 </script>
@@ -297,29 +297,13 @@ $(document).ready( function () {
 
 			</div>
 				
-            <?php include 'db.php';?>
+            
+			<table id="table_id" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>
+			
+			
+			
+			</table>
 		
-			<?php
-
-
-				$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker FROM brk_transaction";
-				$result = $conn->query($sql);
-
-				if ($result->num_rows > 0) {
-				
-					echo'<table id="table_id" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
-				
-				// output data of each row
-				while($row = $result->fetch_assoc()) {
-					
-					echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["sender_ecobricker"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td></tr>";
-				  }
-				  echo "</table>";
-				} else {
-				  echo "0 results";
-				}
-				$conn->close();
-				?>
 					
 
 					<br><br>
