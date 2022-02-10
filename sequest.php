@@ -716,7 +716,7 @@ _END;?>
 
 
             <br>
-            <div class="page-paragraph">
+            <div class="page-paragraph-reg">
             <h4>Is sequestration a final solution for plastic?</h4>
     
                 <div class="row">

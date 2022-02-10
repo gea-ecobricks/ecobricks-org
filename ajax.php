@@ -46,7 +46,7 @@ $columns = array(
         'db'        => 'block_amt',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return 'ß'.number_format($d);
+            return number_format($d).'ß';
         }
     )
 );

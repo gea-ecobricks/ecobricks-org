@@ -342,7 +342,7 @@ $(document).ready(function() {
         </tfoot>
     </table>
 		
-	
+</div>
 
 
 
