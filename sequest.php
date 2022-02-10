@@ -285,41 +285,37 @@ _END;?>
                 <p>Plastic polymer degradation occurs on the exposed surface are of plastic.  Consequently, the rate of degradation is directly proportional to the amount of surface area exposed. Research indicates that that a thin film of HDPE plastic (which has a very large surface area) can degrade 1100 times faster than a bead of plastic of the same weight (very small surface area). For example a thin film of plastic will <a href="https://pubs.acs.org/doi/10.1021/acssuschemeng.9b06635">degrade in 1.8 ± 0.4 years a bead of plastic will endure for 2000 ± 400 years</a>, in the same conditions.</p>
                 <p>In this way, plastic sequestration must reduce the specific surface degradation rate (SSDR) of plastic.  By decreasing net surface area, the lifetime of collected plastic can be extended significantly.  By further removing exposure to all forms of chemical and physical degration through appropriate applications, plastic can remain intact almost indefinitely.</p>
 
-                <p><b>2. Preventing Industrial Emissions & Dispersion</b><p>
-                <p>Plastic that enters into industry results in a wide range of energy intensive activities from transportation, to smelting, to re-molding.  On average globally, each metric ton of plastic processed by recycling, land-filing and incineration <a href="coefficients.php#co2">generates 689kg, 65Kg and 2967kg of CO2e respectively</a>.
+                <br><p><b>2. Preventing Industrial Emissions & Dispersion</b><p>
+                   
+                
+                <p>Plastic that enters into industry results in a wide range of energy intensive activities from transportation, to smelting, to re-molding. The 2019 report, Plastic & Climate: The Hidden Costs of a Plastic Planet concluded that <i>“the plastic pollution crisis that overwhelms our oceans is also a significant and growing threat to the Earth’s climate.”</i> The report examined the CO2 produced at various points in the life-cycle of plastic and concluded that the plastic industry will add more than 850 million metric tons of greenhouse gases to the atmosphere—equal to the emissions from 189 five- hundred-megawatt coal power plants. At present rates, these greenhouse gas emissions from the plastic lifecycle threaten the ability of the global community to meet carbon emissions targets.</p>
                 
                 <p>The goal of plastic sequestration is to prevent these emissions.</p>
                     
-                <p><b>Preventing Industrial Plastic Dispersion</b></p>
+                <br><p><b>Preventing Industrial Plastic Dispersion</b></p>
                 <p>Plastic that enters into industry is inevitably dispersed around the globe.  Research shows that of all the plastic generated over all-time, the industrial processing of plastic has dispersed <a href="https://www.science.org/doi/10.1126/sciadv.1700782">91% of all plastic into the biosphere</a>. There it is subject to the chemical and physical degradation pathways mentioned above.</p>
                 
                 <p>The goal of plastic sequestration is to prevent this dispersion.</p>
 
-                <p><b>Preventing Ecological Disruption</b></p>
+                <br><p><b>Preventing Ecological Disruption</b></p>
                 <p>Plastic once loose in the biosphere has been shown to interfere with ecological cycles.  This can impede the ability of <a href="https://www.nature.com/articles/s41467-021-22554-w">phytoplankton to circulate oxygen</a> and <a href="https://www.theguardian.com/environment/2016/jun/02/microplastics-killing-fish-before-they-reach-reproductive-age-study-finds">disrupt fish reproduction</a>, and more.</p>
                 <p>The goal of plastic sequestration is to prevents these disruptions.</p>
 
                 <p><b>3. Net-Green Ecological Service</b><p>
-                <p><b>Indefinite Reuse in Secure Earthen Applications</b></p>
+
                 <p>Research has shown that covering plastic in earth is an effective method of preventing abiotic plastic degradation (i.e. preventing exposure to sunlight, friction, heat, etc.). Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are prevented. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) can further slow plastic.</p>
+
                 <p>The Earth's billion year process of carbon sequestration has greened the planet.  To ensure that our process of plastic sequestration does the same, we follow the six principles of the Earth's example.  This way we can be sure that plastic sequestration is in fact an ecological contribution.</p>
-
-                <!--
                 
-                
-                <p><b>Accelerating Plastic Transtion</b><p>
-                <p>All plastic disposal methods, result in the indirect production of replacement plastic.  Within traditional industrial disposal of plastic for every 1kg of plastic disposed, 0.91kg of plastic can be estimated to replace it.  The awareness raising process of plastic sequestration must be shown to reduce replacement rates to >0.80kg per 1kg.
-
--->
-
-                </degradation>
+                 
                 </div>
                 </div>
 
-                <div class="page-paragraph">
-                    <p>
-                 As a third-party Earth enterprise with a mandate of biosphere benefit, the <a href="about">Global Ecobrick Alliance</a>, maintains six criteria for the sequestration of plastic to ensure it is of benefit to the biosphere.  In order for plastic to be considered sequestered, it must not only meet these six criteria, it must also be independently authenticated to have done so.</p>
-                </div>
+        <h2>Criteria & Standards</h2>
+        <div class="page-paragraph">
+            <p>
+            The Global Ecobrick Alliance, as a third-party Earth enterprise with a mandate of biosphere benefit, <a href="about">Global Ecobrick Alliance</a>, has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide to enterprises wishing to develope their own methodology or technology for plastic sequestration.  Our standards assists enterprises already sequestering plastic to ensure their outputs are of the highest quality-- and an ecological service.  In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
+        </div>
 
                 
                 
@@ -638,56 +634,6 @@ _END;?>
                 </div>
                 </div>
 
-                <a name="CO2"></a>
-                <div class="reg-content-block" id="block9">
-
-                <div class="opener-header">
-                    
-                    <div class="opener-header-text">
-                    <h4>CO2 Equivalency</h4>
-                    <h5>Plastic Sequestration also prevents the release of CO2 from plastic degradation and industrial processing.</h5>
-                    <br>
-                    </div>
-
-                    <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9">+</button>
-                </div>
-
-                <div id="preclosed9">
-
-                    <div class="row">
-                            <div class="main2">
-                            <p>The 2019 report, Plastic & Climate: The Hidden Costs of a Plastic Planet concluded that <i>“the plastic pollution crisis that overwhelms our oceans is also a significant and growing threat to the Earth’s climate.”</i> The report examined the CO2 produced at various points in the life-cycle of plastic.</p>
-                            </div>
-                            <div class="side2"><img src="https://www.ciel.org/wp-content/uploads/2019/05/CIEL-FIG-2-Emissions-growth-summary-01.png" width="100%">
-                            </div>
-                        </div>
-
-                        <div class="row2">
-                            <div class="main3">
-                            <p>It examined the impact of extraction and transport, refining and manufacture, waste management and plastic in the environment.</p>
-                            </div>
-                            <div class="side3"><img src="https://www.ciel.org/wp-content/uploads/2019/05/CIEL-FIG-2-Emissions-growth-summary-01.png" width="120px">
-                            </div>
-                        </div>
-                    
-                    <p> The report also observed that the production and incineration of plastic will add more than 850 million metric tons of greenhouse gases to the atmosphere—equal to the emissions from 189 five- hundred-megawatt coal power plants. At present rates, these greenhouse gas emissions from the plastic lifecycle threaten the ability of the global community to meet carbon emissions targets.</p>
-
-                    <p>In this way, plastic sequestration, by keeping plastic out of industry, has a subtractive CO2 equivalency impact.</p>
-
-                    <ul>
-					<li><a href="https://gaia.org" target="_blank">Sequestered plastic won’t be incinerated and won’t release its stored carbon</a></li>
-					<li><a href="https://www.ciel.org/plasticandclimate/">Sequestered plastic won’t generate more CO2 through its processing in the recycling industry</a></li>
-					<li><a href="https://www.ciel.org/plasticandclimate/">Sequestered plastic won’t photodegrade releasing CO2 and other green house gases</a></li>
-					<li><a href="https://www.ciel.org/plasticandclimate/">Sequestered plastic won’t degrade into 
-                        micro-plastics and interfere with zoo plankton and their work sequestering carbon in the oceans</a></li>
-					<li><a href="principles">Sequestration, as a by-definition, non-capital activity, represents time not spent participating in the petro-capital economy (buying, consuming, etc) and the CO2 generation.</a></li>
-					<li><a href="https://medium.com/earthen">Sequestration raises ecological consciousness and encourages the lowering of plastic consumption and its associated CO2 generation</a></li>
-					<li><a href="catalyst">Sequestration accelerates plastic transition and disassociation from the petrol-capital economy and its CO2 generation.</a></li>
-				</ul>
-
-                </div>
-             </div>
-
             
 
 
@@ -712,23 +658,58 @@ _END;?>
                 </div>
             </div>
             <br>
-            <div class="page-paragraph">
-                <h4>Ecobricks as Plastic Sequestration</h4>
-                 <div class="row">
-                    <div class="main2">
-                            
-                            <p>The Global Ecobrick Alliance advocates ecobricking as a means of plastic sequestration.  The ecobricking proces raises ecological consciousness to accelereate plastic transition.  Ecobricks that meet GEA standards, have compacted plastic, secured it out of industry and out of profit enterprise to put plastic on a safe millenial road. 
-                            </p>
-                            <p>
-                            When validated as such, the plastic inside the ecobrick is referred to as authenticated ecobrik sequestered plastic (AES Plastic).</p> 
-                        
+           <
+                <a name="CO2"></a>
+                <div class="reg-content-block" id="block9">
+
+                <div class="opener-header">
+                    
+                    <div class="opener-header-text">
+                    <h4>CO2 Equivalency</h4>
+                    <h5>Plastic Sequestration prevents the release of CO2 from plastic degradation and industrial processing in way that can be calculated and quantified.</h5>
+                    <br>
                     </div>
 
-                    <div class="side2">
-                            <br><img src="webp/eb-sky-400px.webp" width="100%"></a>
-                    </div>
-                 </div>
-            </div>
+                    <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9">+</button>
+                </div>
+
+                <div id="preclosed9">
+
+                    <div class="row">
+                            <div class="main2">
+                            <p>The 2019 report, Plastic & Climate: The Hidden Costs of a Plastic Planet concluded that <i>“the plastic pollution crisis that overwhelms our oceans is also a significant and growing threat to the Earth’s climate.”</i> The report examined the CO2 produced at various points in the life-cycle of plastic.</p>
+                            </div>
+                            <div class="side2"><img src="https://www.ciel.org/wp-content/uploads/2019/05/CIEL-FIG-2-Emissions-growth-summary-01.png" width="100%">
+                            </div>
+                        </div>
+
+                        <div class="row2">
+                            <div class="main3">
+                            <p>It examined the impact of extraction and transport, refining and manufacture, waste management and plastic in the environment.</p>
+                            </div>
+                            <div class="side3"><img src="https://www.ciel.org/wp-content/uploads/2019/05/CIEL-FIG-2-Emissions-growth-summary-01.png" width="120px">
+                            </div>
+                        </div>
+                    
+                    <p> According to CIEL's 2019 report <i>Plastic & Climate: The Hidden Costs of a Plastic Planet</i> the production and incineration of plastic will add more than 850 million metric tons of greenhouse gases to the atmosphere—equal to the emissions from 189 five- hundred-megawatt coal power plants. At present rates, these greenhouse gas emissions from the plastic lifecycle threaten the ability of the global community to meet carbon emissions targets.</p>
+
+                    <p>In this way, plastic sequestration, by keeping plastic out of industry, has a subtractive CO2 equivalency impact.</p>
+
+                    <p><b>2. Preventing Industrial Emissions & Dispersion</b><p>
+                <p>Plastic that enters into industry results in a wide range of energy intensive activities from transportation, to smelting, to re-molding.  On average globally, each metric ton of plastic processed by recycling, land-filing and incineration <a href="coefficients.php#co2">generates 689kg, 65Kg and 2967kg of CO2e respectively.  Given that on average globally 18% of plastics are recycled, 24% are incinerated and the remaining 58% are landfilled or directly reach the envioronment, on average each 1kg of industrially managed plastic results in  </a>.
+
+
+                <p><b>Accelerating Plastic Transtion</b><p>
+                <p>All plastic disposal methods, result in the production of replacement plastic.  Once plastic is used and dispose, more must be made to replace the product or packaging that was just consumed.  Within traditional industrial disposal of plastic for every 1kg of plastic disposed, 0.91kg of plastic can be estimated to replace it.  In other words, industrial disposal has a 91% replacement rate.  Each replacement cycle results in the carbon emissions of the virgin plastic produced to replace it, the emissions of its disposal, replacement, disposal and so on, echoing through time until the original amount has been fully subsumed.</p>
+                <p>In comparison, various plastic sequestration methodes result in different replacement rates.  The research of the Global Ecobrick Alliance estimates that a regular ecobrick has a replacement rate of 61%, cigbricks have a 75% replacement rate, and ocean ecobricks of 80%.  These methods still result in the production of virgin plastic, but not as much as before-- and without the carbon emissions of dispoal.</p>
+                <p>Using the replacement rate of a particular method of plastic sequestration, the equivalent amount of carbon emissions prevented from industrial processing can be calculated for each kilogram of plastic that is authenticated as sequestered.</p>
+                
+                
+
+                </div>
+             </div>
+
+-->
 
             <br>
             <div class="page-paragraph">

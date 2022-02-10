@@ -235,7 +235,7 @@ _END;?>
 <script>
 
 $(document).ready(function() {
-    $('#brikchain2').DataTable( {
+    $('#brikchain3').DataTable( {
         "processing": true,
         "serverSide": true,
         "ajax": "ajax.php"
@@ -342,31 +342,30 @@ $(document).ready(function() {
 		
 					
 
-					<br><br>
+		
 
-					<table id="brikchain3" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>
-
-			</table>
-			<br><br>
-
-					<table id="table_id2" class="display">
-    <thead>
-        <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Row 1 Data 1</td>
-            <td>Row 1 Data 2</td>
-        </tr>
-        <tr>
-            <td>Row 2 Data 1</td>
-            <td>Row 2 Data 2</td>
-        </tr>
-    </tbody>
-</table>
+			<table id="brikchain2" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+    </table>
 
 					
 		</div>
