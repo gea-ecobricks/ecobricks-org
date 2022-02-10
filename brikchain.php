@@ -238,7 +238,7 @@ $(document).ready(function() {
     $('#brikchain2').DataTable( {
         "processing": true,
         "serverSide": true,
-        "ajax": "ajax.php"
+        "ajax": "ajax.txt"
     } );
 } );
 
