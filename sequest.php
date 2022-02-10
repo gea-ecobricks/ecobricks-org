@@ -310,7 +310,7 @@ _END;?>
 
                 <hr>
 
-                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">About the six Earthen principles</a></h5>
+                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">The Six Earthen Principles</a></h5>
 
                 
                  
@@ -365,7 +365,7 @@ _END;?>
                     <p>To be considered plastic sequestration, the processing of plastic must achieve the minimum density of 0.33 g/ml and ensure secure, indefinite storage.</p>
                     <br><hr>
 
-                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-oysters-example-6172c62a9a0b" target="_blank">The Earthen principle of Concentration</a></h5>
+                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-oysters-example-6172c62a9a0b" target="_blank">The Earthen Principle of Concentration</a></h5>
 
                     <p>
 				</div>
@@ -414,7 +414,7 @@ _END;?>
                 <p>Putting creations into greening cycles of reuse is also know as spiral design.  In this way, when our sequestration of plastic leads to short-term creations, they must be by spiral by design– with their next life-cycle built in.</p>
                 <br><hr>
 
-                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/towards-cycles-that-spiral-a2cea98b59c4" target="_blank">The Earthen principle of Spiral Cycling</a></h5>
+                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/towards-cycles-that-spiral-a2cea98b59c4" target="_blank">The Earthen Principle of Spiral Cycling</a></h5>
             
                 
             </div>
@@ -460,7 +460,7 @@ _END;?>
                     <p>As such, the enterprise of plastic sequestration must be must be not-for-profit and for the biosphere’s benefit.</p>
                     <br><hr>
 
-                    <h5>🌍 Learn more: <a href="https://medium.com/@russellmaier/the-salmon-its-sharing-of-surpluses-a4f981978360" target="_blank">The Earthen principle of Biosphere Benefit</a></h5>
+                    <h5>🌍 Learn more: <a href="https://medium.com/@russellmaier/the-salmon-its-sharing-of-surpluses-a4f981978360" target="_blank">The Earthen Principle of Biosphere Benefit</a></h5>
 
 
                 </div>
@@ -507,7 +507,7 @@ _END;?>
 					<p>In this way, plastic sequestration must account for its various additive (grey) and subtractive (green) ecological impacts and it must show that the net result of the process is the subtraction of plastic and CO2 from the biosphere.  Only when it is net-subtractive can it be considered plastic sequestration.</p>
                     <br><hr>
 
-                    <h5>🌍 Learn more: <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0" target="_blank">the Earthern principle of net-subtraction</a></h5>
+                    <h5>🌍 Learn more: <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0" target="_blank">The Earthern Principle of Net-Subtraction</a></h5>
 
                   
 			
@@ -557,7 +557,7 @@ _END;?>
                     <p>Only if the process and its short and long-term result support of existing biodiversity and promote increases in diversity can it be considered plastic sequestration.</p>
                     
                     <br><hr>
-                    <h5>🌍 Learn more about <a href="https://medium.com/earthen/the-ethic-of-biodiversity-b5b600bc4a70" target="_blank">the Earthen Ethic of diversification</a></h5>
+                    <h5>🌍 Learn more:<a href="https://medium.com/earthen/the-ethic-of-biodiversity-b5b600bc4a70" target="_blank">The Earthen Principle of Diversification</a></h5>
 
                 </div>
                
@@ -604,7 +604,7 @@ _END;?>
 					<p>Only if the process raises individual and collective awareness can it be considered plastic sequestration.</p>
 					<br><hr>
                     
-                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">The Earthen ethic of awareness</a></h5>
+                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">The Earthen Ethic of Awareness</a></h5>
 			
 				</div>
 			</div>
@@ -704,7 +704,7 @@ _END;?>
                 <p>In comparison, various plastic sequestration methodes result in different replacement rates.  The research of the Global Ecobrick Alliance estimates that a regular ecobrick has a replacement rate of 61%, cigbricks have a 75% replacement rate, and ocean ecobricks of 80%.  These methods still result in the production of virgin plastic, but not as much as before-- and without the carbon emissions of dispoal.</p>
                 <p>Using the replacement rate of a particular method of plastic sequestration, the equivalent amount of carbon emissions prevented from industrial processing can be calculated for each kilogram of plastic that is authenticated as sequestered.</p>
                 <br><hr>
-                Learn more: <a href="aes">See our AES Plastic Page</a>
+                Learn more: <a href="aes">AES Plastic</a>
                 
                 
 
