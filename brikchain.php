@@ -322,8 +322,8 @@ $(document).ready(function() {
 			<table id="example" class="display" style="width:100%">
         <thead>
             <tr>
-                <th>Transaction Name</th>
-                <th>Block Type</th>
+                <th>Sent</th>
+                <th>Sender</th>
                 <th>Individual Amount</th>
                 <th>Sender.</th>
                 <th>Send date</th>
