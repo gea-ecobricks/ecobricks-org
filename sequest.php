@@ -243,13 +243,13 @@ _END;?>
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>The science is clear:  Plastic loose in the biosphere harms ecosystems, humans and animals.  The research is also clear:  For the last fifty years, industrial and for-profit plastic processes have accelerated plastic consumption, production and pollution while becoming a major source of global CO2 emissions.</p>
+				<p>The science is clear:  Plastic loose in the biosphere harms ecosystems, humans and animals.  The research is also clear:  For the last fifty years, industrial plastic management has lead to the dispersal of most plastic into the the biosphere while becoming a major source of carbon emissions.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
-                        <p>It has never been more important to take care of our plastic and to transition from it.  As evidence mounts of the failure of traditional plastic management methods and the continued increase in plastic production, plastic sequestration provides a principled alternative.  By applying the Earth's ancient example of carbon sequestration to our plastic, we have a proven methodology to follow that can not only secure our plastic but accelerate our transition from it.  </p>
+                        <p>It has never been more important to take care of our plastic and to transition from it.  Plastic sequestration provides a principled alternative to industrial plastic management that can secure plastic indfeinitely.  By following the Earth's ancient example of carbon sequestration with our plastic, we have a proven methodology to follow that can not only secure our plastic but to transition to net-green green enterprise.  </p>
 
                         <!--<p>
                             
@@ -285,7 +285,7 @@ _END;?>
                 <p>Plastic polymer degradation occurs on the exposed surface are of plastic.  Consequently, the rate of degradation is directly proportional to the amount of surface area exposed. Research indicates that that a thin film of HDPE plastic (which has a very large surface area) can degrade 1100 times faster than a bead of plastic of the same weight (very small surface area). For example a thin film of plastic will <a href="https://pubs.acs.org/doi/10.1021/acssuschemeng.9b06635">degrade in 1.8 ± 0.4 years a bead of plastic will endure for 2000 ± 400 years</a>, in the same conditions.</p>
                 <p>In this way, plastic sequestration must reduce the specific surface degradation rate (SSDR) of plastic.  By decreasing net surface area, the lifetime of collected plastic can be extended significantly.  By further removing exposure to all forms of chemical and physical degration through appropriate applications, plastic can remain intact almost indefinitely.</p>
 
-                <p><b>2. Preventing Industrial Carbon Emissions</b><p>
+                <p><b>2. Preventing Industrial Emissions & Dispersion</b><p>
                 <p>Plastic that enters into industry results in a wide range of energy intensive activities from transportation, to smelting, to re-molding.  On average globally, each metric ton of plastic processed by recycling, land-filing and incineration <a href="coefficients.php#co2">generates 689kg, 65Kg and 2967kg of CO2e respectively</a>.
                 
                 <p>The goal of plastic sequestration is to prevent these emissions.</p>
@@ -299,8 +299,10 @@ _END;?>
                 <p>Plastic once loose in the biosphere has been shown to interfere with ecological cycles.  This can impede the ability of <a href="https://www.nature.com/articles/s41467-021-22554-w">phytoplankton to circulate oxygen</a> and <a href="https://www.theguardian.com/environment/2016/jun/02/microplastics-killing-fish-before-they-reach-reproductive-age-study-finds">disrupt fish reproduction</a>, and more.</p>
                 <p>The goal of plastic sequestration is to prevents these disruptions.</p>
 
-                <p><b>Net-Green Ecological Service</b><p>
-                <p>The Earth's billion year process of carbon sequestration has greened the planet.  To ensure that our process of plastic sequestration does the same, we follow the six principles of the Earth's example.  This way we can be sure that plastic sequestration is in fact an ecological contribution.
+                <p><b>3. Net-Green Ecological Service</b><p>
+                <p><b>Indefinite Reuse in Secure Earthen Applications</b></p>
+                <p>Research has shown that covering plastic in earth is an effective method of preventing abiotic plastic degradation (i.e. preventing exposure to sunlight, friction, heat, etc.). Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are prevented. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) can further slow plastic.</p>
+                <p>The Earth's billion year process of carbon sequestration has greened the planet.  To ensure that our process of plastic sequestration does the same, we follow the six principles of the Earth's example.  This way we can be sure that plastic sequestration is in fact an ecological contribution.</p>
 
                 <!--
                 
@@ -308,15 +310,15 @@ _END;?>
                 <p><b>Accelerating Plastic Transtion</b><p>
                 <p>All plastic disposal methods, result in the indirect production of replacement plastic.  Within traditional industrial disposal of plastic for every 1kg of plastic disposed, 0.91kg of plastic can be estimated to replace it.  The awareness raising process of plastic sequestration must be shown to reduce replacement rates to >0.80kg per 1kg.
 
-                <p><b>Indefinite Reuse in Secure Earthen Applications</b></p>
-                <p>Research has shown that covering plastic in earth is an effective method of preventing abiotic plastic degradation (i.e. preventing exposure to sunlight, friction, heat, etc.). Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are prevented. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) can further slow plastic <degradation class="-->
+-->
 
                 </degradation>
                 </div>
                 </div>
 
                 <div class="page-paragraph">
-                 As a third-party Earth enterprise with a mandate of biosphere benefit, the <a href="about">Global Ecobrick Alliance</a>, maintains six criteria for the sequestration of plastic to ensure it is of benefit to the biosphere.  In order for plastic to be considered sequestered, it must not only meet these six criteria, it must also be independently authenticated to have done so.
+                    <p>
+                 As a third-party Earth enterprise with a mandate of biosphere benefit, the <a href="about">Global Ecobrick Alliance</a>, maintains six criteria for the sequestration of plastic to ensure it is of benefit to the biosphere.  In order for plastic to be considered sequestered, it must not only meet these six criteria, it must also be independently authenticated to have done so.</p>
                 </div>
 
                 
