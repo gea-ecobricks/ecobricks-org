@@ -42,7 +42,7 @@ $columns = array(
 ),
     array( 'db' => 'sender_ecobricker',     'dt' => 2 ),
     array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
-    array( 'db' => 'tran_name', 'dt' => 4 ),
+    array( 'db' => 'block_tran_type', 'dt' => 4 ),
    
     array(
         'db'        => 'block_amt',
