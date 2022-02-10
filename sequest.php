@@ -306,17 +306,22 @@ _END;?>
 
                 <p>Research has shown that covering plastic in earth is an effective method of preventing abiotic plastic degradation (i.e. preventing exposure to sunlight, friction, heat, etc.). Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are prevented. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) can further slow plastic.</p>
 
-                <p>The Earth's billion year <a href="plastic">process of carbon sequestration</a> helped greened the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="">the six principles of the Earth's example</a>.  This way we can be sure that plastic sequestration is in fact an ecological contribution.</p>
+                <p>The Earth's billion year <a href="plastic">process of carbon sequestration</a> helped greened the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">the six principles of the Earth's example</a>.  This way we can be sure that plastic sequestration is in fact an ecological contribution.</p>
+
+                <hr>
+
+                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">About the six Earthen principles</a></h5>
+
                 
                  
                 </div>
                 </div>
 
-        <br><hr>
+        <br>
         <div class="page-paragraph-reg">
         <h3>Criteria & Standards</h3>
             <p>The <a href="about">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, , has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide to enterprises wishing to develope their own methodology or technology for plastic sequestration.  Our standards assists enterprises already sequestering plastic to ensure their outputs are of the highest quality-- and an ecological service.  In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
-            </div>
+         </div>
 
                 
                 
@@ -360,7 +365,7 @@ _END;?>
                     <p>To be considered plastic sequestration, the processing of plastic must achieve the minimum density of 0.33 g/ml and ensure secure, indefinite storage.</p>
                     <br><hr>
 
-                    <h5>🌍Learn more: <a href="https://medium.com/earthen/the-oysters-example-6172c62a9a0b" target="_blank">The Earthen principle of Concentration</a></h5>
+                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-oysters-example-6172c62a9a0b" target="_blank">The Earthen principle of Concentration</a></h5>
 
                     <p>
 				</div>
@@ -382,10 +387,11 @@ _END;?>
             </div>
 
             <div id="preclosed2">
-                
+            <p><b>In the same way that the Earth's processes led to cycles of spiralling ecological enrichment so too must the process of plastic sequestration.</b></p>
+
                 <div class="row">
                     <div class="main2">
-                    <p><b>In the same way that the Earth's processes led to cycles of spiralling ecological enrichment so too must the process of plastic sequestration.</b></p>
+                   
                     <p>The Earth's process tend towards cycles of indefinite reuse.  These cycles spiral towards ever greater diversity, concentration and enrichment.  In the same way, the process of plastic sequestration, must do the same.  The products and process of plastic sequestration must also spiral towards concentration, diversity and enrichment.  This way we can be sure it is a net-green process.</p>
                     </div>
                     <div class="side2"><img src="webp/spiral-design-381px.webp" width="80%">
@@ -408,7 +414,7 @@ _END;?>
                 <p>Putting creations into greening cycles of reuse is also know as spiral design.  In this way, when our sequestration of plastic leads to short-term creations, they must be by spiral by design– with their next life-cycle built in.</p>
                 <br><hr>
 
-                    <h5>🌍Learn more: <a href="https://medium.com/earthen/towards-cycles-that-spiral-a2cea98b59c4" target="_blank">The Earthen principle of Spiral Cycling</a></h5>
+                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/towards-cycles-that-spiral-a2cea98b59c4" target="_blank">The Earthen principle of Spiral Cycling</a></h5>
             
                 
             </div>
@@ -429,10 +435,10 @@ _END;?>
                 </div>
 
                 <div id="preclosed4">
-
+                <p></b>In the same way that the Earth’s processes distribute benefits outwards, we must ensure that our plastic sequestration is first and foremost to benefit the biosphere.</p></b>
                     <div class="row">
                             <div class="main2">
-                            <p></b>In the same way that the Earth’s processes distribute benefits outwards, we must ensure that our plastic sequestration is first and foremost to benefit the biosphere.</p></b>
+                            
                             <p>At all levels of the biosphere, we can see that its many parts contributing upwards to the benefit of the whole.   In the way the cells of a leaf, the leaves of a tree, and the trees of a forests always work to the enrichment of the whole, the Earth’s ecosystems have steadily enriched the whole biosphere. In the same way, to be an ecological contribution, the enterprise of plastic sequestration must be first-and-foremost be for the benefit of the biosphere.</p>
                             </div>
                             <div class="side2"><img src="webp/for-earth500px.webp" width="95%">
@@ -454,7 +460,7 @@ _END;?>
                     <p>As such, the enterprise of plastic sequestration must be must be not-for-profit and for the biosphere’s benefit.</p>
                     <br><hr>
 
-                    <h5>🌍Learn more: <a href="https://medium.com/@russellmaier/the-salmon-its-sharing-of-surpluses-a4f981978360" target="_blank">The Earthen principle of Biosphere Benefit</a></h5>
+                    <h5>🌍 Learn more: <a href="https://medium.com/@russellmaier/the-salmon-its-sharing-of-surpluses-a4f981978360" target="_blank">The Earthen principle of Biosphere Benefit</a></h5>
 
 
                 </div>
@@ -499,10 +505,11 @@ _END;?>
 					
 					
 					<p>In this way, plastic sequestration must account for its various additive (grey) and subtractive (green) ecological impacts and it must show that the net result of the process is the subtraction of plastic and CO2 from the biosphere.  Only when it is net-subtractive can it be considered plastic sequestration.</p>
+                    <br><hr>
 
-                    <br><br>
-					<h5>Learn more about <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0" target="_blank">the Earthern principle of net-subtraction</a></h5>
-					<br>
+                    <h5>🌍 Learn more: <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0" target="_blank">the Earthern principle of net-subtraction</a></h5>
+
+                  
 			
 				</div>
 			</div>
@@ -527,21 +534,21 @@ _END;?>
 
                     <div class="row">
                             <div class="main2">
-                            <p>The Earth’s use of carbon enabled not just the building blocks of life, but also through sequestration, the stabilization of the planet’s climate so that even more life could emerge.</p>
+                            <p>The Earth’s use of carbon enabled not just the building blocks of life, but also through sequestration, the stabilization of the planet’s climate so that even more life could emerge. Likewise, the short-term use of sequestered plastic must be such that it supports life in the short term and enables biodiversity in the long-term.</p>
                             </div>
-                            <div class="side2"><img src="webp/biodiversity-500px.webp" width="100%">
+                            <div class="side2"><img src="webp/biodiversity-500px.webp" width="85%">
                             </div>
                         </div>
 
                         <div class="row2">
                             <div class="main3">
-                            <p>Likewise, the short-term use of sequestered plastic must be such that it supports life in the short term and enables biodiversity in the long-term.</p>
+                            <p>When sequestration leads to short-term building blocks, these can be used in the creation of green spaces,  gardens and food-forest and the decontamination of plastic polluted areas.</p>
                             </div>
                             <div class="side3"><img src="webp/biodiversity-500px.webp" width="120px">
                             </div>
                         </div>
                     
-                    <p>When sequestration leads to short-term building blocks, these can be used in the creation of green spaces,  gardens and food-forest and the decontamination of plastic polluted areas.  Critically, the plastic blocks must be used in such a way that they do not degrade or contaminate and thus impede life.</p>
+                    <p>Critically, the plastic blocks must be used in such a way that they do not degrade or contaminate and thus impede life.</p>
 
                     <p>In the long-term sequestered plastic must be entirely protected from all forms of degradation (heat, light, friction, oxygen and micro-organism) so that it also does not contaminate or leach and impact life.</p>
 
@@ -549,8 +556,8 @@ _END;?>
 
                     <p>Only if the process and its short and long-term result support of existing biodiversity and promote increases in diversity can it be considered plastic sequestration.</p>
                     
-                    <br><br>
-                    <h5>Learn more about <a href="https://medium.com/earthen/the-ethic-of-biodiversity-b5b600bc4a70" target="_blank">the Earthen Ethic of diversification</a></h5>
+                    <br><hr>
+                    <h5>🌍 Learn more about <a href="https://medium.com/earthen/the-ethic-of-biodiversity-b5b600bc4a70" target="_blank">the Earthen Ethic of diversification</a></h5>
 
                 </div>
                
@@ -562,7 +569,7 @@ _END;?>
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>6. Ecological Awaring</h4>
+					<h4>6. Awaring</h4>
 					<h5>The process of plastic sequestration must track its plastic, carbon and biodiversity impacts and publicly disclose them so as to aware all those involved of its net ecological impacts.</h5>
 					<br>
 					</div>
@@ -595,8 +602,9 @@ _END;?>
 					<p>Plastic sequestration must be transparent, open and accountable.  Plastic sequestration must return accurate data to those consuming plastic through an accounting of its ecological impacts near and far.</p>
 
 					<p>Only if the process raises individual and collective awareness can it be considered plastic sequestration.</p>
-					<br><br>
-                    <h5>Learn more about <a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">the Earthen ethic of awareness</a></h5>
+					<br><hr>
+                    
+                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">The Earthen ethic of awareness</a></h5>
 			
 				</div>
 			</div>
@@ -646,7 +654,7 @@ _END;?>
 
 
              <br>
-             <div class="page-paragraph">
+             <div class="page-paragraph-reg">
                  <h4>A Safe Road into Time</h4>
 
                  <div class="row">
@@ -695,6 +703,8 @@ _END;?>
                 <p>All plastic disposal methods, result in the production of replacement plastic.  Once plastic is used and dispose, more must be made to replace the product or packaging that was just consumed.  Within traditional industrial disposal of plastic for every 1kg of plastic disposed, 0.91kg of plastic can be estimated to replace it.  In other words, industrial disposal has a 91% replacement rate.  Each replacement cycle results in the carbon emissions of the virgin plastic produced to replace it, the emissions of its disposal, replacement, disposal and so on, echoing through time until the original amount has been fully subsumed.</p>
                 <p>In comparison, various plastic sequestration methodes result in different replacement rates.  The research of the Global Ecobrick Alliance estimates that a regular ecobrick has a replacement rate of 61%, cigbricks have a 75% replacement rate, and ocean ecobricks of 80%.  These methods still result in the production of virgin plastic, but not as much as before-- and without the carbon emissions of dispoal.</p>
                 <p>Using the replacement rate of a particular method of plastic sequestration, the equivalent amount of carbon emissions prevented from industrial processing can be calculated for each kilogram of plastic that is authenticated as sequestered.</p>
+                <br><hr>
+                Learn more: <a href="aes">See our AES Plastic Page</a>
                 
                 
 
