@@ -704,9 +704,9 @@ _END;?>
                 <!--<br><p><b>Accelerating Plastic Transtion</b><p>
                 <p>All plastic disposal methods, result in the production of replacement plastic.  Once plastic is used and dispose, more must be made to replace the product or packaging that was just consumed.  Within traditional industrial disposal of plastic for every 1kg of plastic disposed, 0.91kg of plastic can be estimated to replace it.  In other words, industrial disposal has a 91% replacement rate.  Each replacement cycle results in the carbon emissions of the virgin plastic produced to replace it, the emissions of its disposal, replacement, disposal and so on, echoing through time until the original amount has been fully subsumed.</p>
                 <p>In comparison, various plastic sequestration methodes result in different replacement rates.  The research of the Global Ecobrick Alliance estimates that a regular ecobrick has a replacement rate of 61%, cigbricks have a 75% replacement rate, and ocean ecobricks of 80%.  These methods still result in the production of virgin plastic, but not as much as before-- and without the carbon emissions of dispoal.</p>
-                <p>Using the replacement rate of a particular method of plastic sequestration, the equivalent amount of carbon emissions prevented from industrial processing can be calculated for each kilogram of plastic that is authenticated as sequestered.</p>
-                <br><hr>-->
-                Learn more: <a href="aes">AES Plastic</a>
+                <p>Using the replacement rate of a particular method of plastic sequestration, the equivalent amount of carbon emissions prevented from industrial processing can be calculated for each kilogram of plastic that is authenticated as sequestered.</p>-->
+                <br><hr>
+                <p>Learn more: <a href="aes">AES Plastic</a></p>
                 
                 
 
@@ -723,9 +723,7 @@ _END;?>
                     
                     <div class="main2">
                             
-                            <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
-
-                            <p>Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in billions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it on another spin in this cycle.  In the same way the carbon was a gift to our age, we can gift our carbon to another. </p>
+                            <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.  Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in billions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it on another spin in this cycle.  In the same way the carbon was a gift to our age, we can gift our carbon to another. </p>
 
                             <p>Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.</p>
                      </div>

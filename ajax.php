@@ -1,5 +1,4 @@
 
-<?php include 'db.php';?>
 
         <?php
  
@@ -47,7 +46,7 @@ $columns = array(
         'db'        => 'block_amt',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return '$'.number_format($d);
+            return 'ß'.number_format($d);
         }
     )
 );
