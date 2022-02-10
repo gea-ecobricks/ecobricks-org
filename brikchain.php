@@ -236,7 +236,10 @@ _END;?>
 
 $(document).ready(function() {
     $('#example').DataTable( {
-        "ajax": "ajax.php"
+		"processing": true,
+        "serverSide": true,
+		"ajax": "ajax.php"
+
     } );
 } );
 
