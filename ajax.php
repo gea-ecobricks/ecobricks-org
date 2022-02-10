@@ -48,7 +48,8 @@ $columns = array(
         'db'        => 'block_amt',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return number_format($d).'ß';
+            return number_format($d,2,".",",")'ß';
+            
         }
     )
 );

@@ -322,22 +322,22 @@ $(document).ready(function() {
 			<table id="example" class="display" style="width:100%">
         <thead>
             <tr>
+                <th>ID</th>
                 <th>Sent</th>
                 <th>Sender</th>
-                <th>Individual Amount</th>
-                <th>Sender.</th>
-                <th>Send date</th>
-                <th>Block Amount</th>
+                <th>Receivers</th>
+                <th>Type</th>
+				<th>Amount</th>
             </tr>
         </thead>
         <tfoot>
             <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Extn.</th>
-                <th>Start date</th>
-                <th>Salary</th>
+				<th>ID</th>
+                <th>Sent</th>
+                <th>Sender</th>
+                <th>Receivers</th>
+                <th>Type</th>
+				<th>Amount</th>
             </tr>
         </tfoot>
     </table>
