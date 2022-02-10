@@ -311,8 +311,9 @@ _END;?>
                 </div>
                 </div>
 
-        <h2>Criteria & Standards</h2>
+        <br>
         <div class="page-paragraph">
+        <h3>Criteria & Standards</h3>
             <p>
             The Global Ecobrick Alliance, as a third-party Earth enterprise with a mandate of biosphere benefit, <a href="about">Global Ecobrick Alliance</a>, has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide to enterprises wishing to develope their own methodology or technology for plastic sequestration.  Our standards assists enterprises already sequestering plastic to ensure their outputs are of the highest quality-- and an ecological service.  In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
         </div>
@@ -658,7 +659,7 @@ _END;?>
                 </div>
             </div>
             <br>
-           <
+           
                 <a name="CO2"></a>
                 <div class="reg-content-block" id="block9">
 
@@ -675,31 +676,15 @@ _END;?>
 
                 <div id="preclosed9">
 
-                    <div class="row">
-                            <div class="main2">
-                            <p>The 2019 report, Plastic & Climate: The Hidden Costs of a Plastic Planet concluded that <i>“the plastic pollution crisis that overwhelms our oceans is also a significant and growing threat to the Earth’s climate.”</i> The report examined the CO2 produced at various points in the life-cycle of plastic.</p>
-                            </div>
-                            <div class="side2"><img src="https://www.ciel.org/wp-content/uploads/2019/05/CIEL-FIG-2-Emissions-growth-summary-01.png" width="100%">
-                            </div>
-                        </div>
-
-                        <div class="row2">
-                            <div class="main3">
-                            <p>It examined the impact of extraction and transport, refining and manufacture, waste management and plastic in the environment.</p>
-                            </div>
-                            <div class="side3"><img src="https://www.ciel.org/wp-content/uploads/2019/05/CIEL-FIG-2-Emissions-growth-summary-01.png" width="120px">
-                            </div>
-                        </div>
                     
-                    <p> According to CIEL's 2019 report <i>Plastic & Climate: The Hidden Costs of a Plastic Planet</i> the production and incineration of plastic will add more than 850 million metric tons of greenhouse gases to the atmosphere—equal to the emissions from 189 five- hundred-megawatt coal power plants. At present rates, these greenhouse gas emissions from the plastic lifecycle threaten the ability of the global community to meet carbon emissions targets.</p>
-
-                    <p>In this way, plastic sequestration, by keeping plastic out of industry, has a subtractive CO2 equivalency impact.</p>
-
-                    <p><b>2. Preventing Industrial Emissions & Dispersion</b><p>
-                <p>Plastic that enters into industry results in a wide range of energy intensive activities from transportation, to smelting, to re-molding.  On average globally, each metric ton of plastic processed by recycling, land-filing and incineration <a href="coefficients.php#co2">generates 689kg, 65Kg and 2967kg of CO2e respectively.  Given that on average globally 18% of plastics are recycled, 24% are incinerated and the remaining 58% are landfilled or directly reach the envioronment, on average each 1kg of industrially managed plastic results in  </a>.
+                
+                <p> According to CIEL's 2019 report <i>Plastic & Climate: The Hidden Costs of a Plastic Planet</i> the production and incineration of plastic will add more than 850 million metric tons of greenhouse gases to the atmosphere—equal to the emissions from 189 five- hundred-megawatt coal power plants. At present rates, these greenhouse gas emissions from the plastic lifecycle threaten the ability of the global community to meet carbon emissions targets.</p>
 
 
-                <p><b>Accelerating Plastic Transtion</b><p>
+                <br><p><b>Preventing Industrial Emissions & Dispersion</b><p>
+                <p>Plastic that enters into industry results in a wide range of energy intensive activities from transportation, to smelting, to re-molding.  On average globally, each metric ton of plastic processed by recycling, land-filing and incineration <a href="coefficients.php#co2">generates 689kg, 65Kg and 2967kg of CO2e respectively</a>.  This can be prevented by plastic sequestration.<!--Given that on average globally 18% of plastics are recycled, 24% are incinerated and the remaining 58% are landfilled or directly reach the envioronment, on average each 1kg of industrially managed plastic results in-->
+
+                <br><p><b>Accelerating Plastic Transtion</b><p>
                 <p>All plastic disposal methods, result in the production of replacement plastic.  Once plastic is used and dispose, more must be made to replace the product or packaging that was just consumed.  Within traditional industrial disposal of plastic for every 1kg of plastic disposed, 0.91kg of plastic can be estimated to replace it.  In other words, industrial disposal has a 91% replacement rate.  Each replacement cycle results in the carbon emissions of the virgin plastic produced to replace it, the emissions of its disposal, replacement, disposal and so on, echoing through time until the original amount has been fully subsumed.</p>
                 <p>In comparison, various plastic sequestration methodes result in different replacement rates.  The research of the Global Ecobrick Alliance estimates that a regular ecobrick has a replacement rate of 61%, cigbricks have a 75% replacement rate, and ocean ecobricks of 80%.  These methods still result in the production of virgin plastic, but not as much as before-- and without the carbon emissions of dispoal.</p>
                 <p>Using the replacement rate of a particular method of plastic sequestration, the equivalent amount of carbon emissions prevented from industrial processing can be calculated for each kilogram of plastic that is authenticated as sequestered.</p>
@@ -709,7 +694,7 @@ _END;?>
                 </div>
              </div>
 
--->
+
 
             <br>
             <div class="page-paragraph">
