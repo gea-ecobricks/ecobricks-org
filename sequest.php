@@ -312,12 +312,11 @@ _END;?>
                 </div>
                 </div>
 
-        <br>
-        <div class="page-paragraph">
-        <h3>Criteria & Standards</h3></div>
-            <p>
-            The <a href="about">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, , has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide to enterprises wishing to develope their own methodology or technology for plastic sequestration.  Our standards assists enterprises already sequestering plastic to ensure their outputs are of the highest quality-- and an ecological service.  In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
-        
+        <br><hr>
+        <div class="page-paragraph-reg">
+        <h3>Criteria & Standards</h3>
+            <p>The <a href="about">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, , has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide to enterprises wishing to develope their own methodology or technology for plastic sequestration.  Our standards assists enterprises already sequestering plastic to ensure their outputs are of the highest quality-- and an ecological service.  In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
+            </div>
 
                 
                 
@@ -361,7 +360,7 @@ _END;?>
                     <p>To be considered plastic sequestration, the processing of plastic must achieve the minimum density of 0.33 g/ml and ensure secure, indefinite storage.</p>
                     <br><hr>
 
-                    <h5>Learn more: <a href="https://medium.com/earthen/the-oysters-example-6172c62a9a0b" target="_blank">About the Earthen principle of Concentration</a></h5>
+                    <h5>🌍Learn more: <a href="https://medium.com/earthen/the-oysters-example-6172c62a9a0b" target="_blank">The Earthen principle of Concentration</a></h5>
 
                     <p>
 				</div>
@@ -374,7 +373,7 @@ _END;?>
             <div class="opener-header">
                 
                 <div class="opener-header-text">
-                <h4>1. Spiral Design</h4>
+                <h4>2. Spiral Design</h4>
                 <h5>The outputs of plastic sequestration must be reusable indefinitely, while tending towards earthen immersion and overall net-green impact.</h5>
                 <br>
                 </div>
@@ -407,8 +406,10 @@ _END;?>
                 <p>In comparison, the Earth has used carbon as a means– in a circular process.  Carbon molecules such as nucleic acids, proteins, lipids and glycans make up all organisms– and when one organism comes to an end, another begins by building itself with the other’s blocks.  This continues indefinitely, until the carbon is subsumed into long-term sequestration.</p><br>
 
                 <p>Putting creations into greening cycles of reuse is also know as spiral design.  In this way, when our sequestration of plastic leads to short-term creations, they must be by spiral by design– with their next life-cycle built in.</p>
+                <br><hr>
 
-                <br><h5><a href="https://medium.com/earthen/towards-cycles-that-spiral-a2cea98b59c4">Learn more about the Earthen Ethic principle of spiral cycling.</h5></a>
+                    <h5>🌍Learn more: <a href="https://medium.com/earthen/towards-cycles-that-spiral-a2cea98b59c4" target="_blank">The Earthen principle of Spiral Cycling</a></h5>
+            
                 
             </div>
             </div>
@@ -451,9 +452,10 @@ _END;?>
                     <p>While industrial systems may have the best intentions, they operate within the petro-capital economy.  As such they are constrained to its forces. Industrial methods are driven by profit to recover the recover the capital-value of plastic. Once this value is exhausted, plastic is cycled out of industry to the biosphere.</p>
 
                     <p>As such, the enterprise of plastic sequestration must be must be not-for-profit and for the biosphere’s benefit.</p>
-                    <br>
+                    <br><hr>
 
-                    <h5>Learn more about the <a href="https://medium.com/@russellmaier/the-salmon-its-sharing-of-surpluses-a4f981978360" taret=_blank">Earthen principle of biosphere benefit.</a></h5>
+                    <h5>🌍Learn more: <a href="https://medium.com/@russellmaier/the-salmon-its-sharing-of-surpluses-a4f981978360" target="_blank">The Earthen principle of Biosphere Benefit</a></h5>
+
 
                 </div>
                 </div>

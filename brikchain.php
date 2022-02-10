@@ -236,7 +236,7 @@ _END;?>
 
 $(document).ready(function() {
     $('#example').DataTable( {
-        "ajax": "ajax.txt"
+        "ajax": "ajax.php"
     } );
 } );
 
