@@ -359,7 +359,7 @@ _END;?>
 
 
 			
-
+			<a name="co2"></a>
 			<div class="reg-content-block" id="block3">
 
 				<div class="opener-header">
@@ -380,19 +380,22 @@ _END;?>
 					
 					<p>Recycling plastic has various carbon emissions (transportation, reprocessing, etc.)</p> 
 
-					<span title="GEA Certified"><h5>1kg recycled plastic = 0.65 Kg of CO2</h5></span>
+					<span title="GEA Certified"><h5>1kg recycled plastic = 0.689 Kg of CO2</h5></span>
+					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">>Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
 
 					<p><b>Incineration</b></p>
 					
 					<p>When plastic is burned it's carbon molecules join with oxygen molecules to generate carbon dioxide.</p> 
 
-					<span title="GEA 2020 value"><h5>1 kg plast = 3.1 Kg CO2</h5></span>
+					<span title="GEA 2020 value"><h5>1 kg plastic = 2.97 Kg CO2</h5></span>
+					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">>Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
 
 					<p><b>Landfilling</b></p>
 					
 					<p>Plastic that is not recycled, incinerated or sequestered ends up in the earth, air and land.</p> 
 
-					<span title="GEA 2020 value"><h5>1 Kg plastic = 1.26kg </h5></span>
+					<span title="GEA 2020 value"><h5>1 Kg plastic = 0.065kg </h5></span>
+					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">>Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
 
 					<hr>
 					<br>
