@@ -235,7 +235,7 @@ _END;?>
 <script>
 
 $(document).ready(function() {
-    $('#brikchain3').DataTable( {
+    $('#brikchain2').DataTable( {
         "processing": true,
         "serverSide": true,
         "ajax": "ajax.php"
