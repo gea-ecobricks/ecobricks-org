@@ -1,5 +1,5 @@
 
-
+<?php include 'db.php';?>
 
         <?php
  
@@ -22,13 +22,7 @@
  }
  $conn->close();
  
-// SQL server connection information
-$sql_details = array(
-    'user' => 'ecobricks_russs',
-    'pass' => '12345',
-    'db'   => 'ecobricks_gobrik_msql_db',
-    'host' => 'localhost'
-);
+
  
 		
 			

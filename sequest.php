@@ -307,6 +307,7 @@ _END;?>
                 <p>Research has shown that covering plastic in earth is an effective method of preventing abiotic plastic degradation (i.e. preventing exposure to sunlight, friction, heat, etc.). Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are prevented. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) can further slow plastic.</p>
 
                 <p>The Earth's billion year <a href="plastic">process of carbon sequestration</a> helped greened the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">the six principles of the Earth's example</a>.  This way we can be sure that plastic sequestration is in fact an ecological contribution.</p>
+                <br>
 
                 <hr>
 
@@ -697,13 +698,14 @@ _END;?>
 
 
                 <br><p><b>Preventing Industrial Emissions & Dispersion</b><p>
-                <p>Plastic that enters into industry results in a wide range of energy intensive activities from transportation, to smelting, to re-molding.  On average globally, each metric ton of plastic processed by recycling, land-filing and incineration <a href="coefficients.php#co2">generates 689kg, 65Kg and 2967kg of CO2e respectively</a>.  This can be prevented by plastic sequestration.<!--Given that on average globally 18% of plastics are recycled, 24% are incinerated and the remaining 58% are landfilled or directly reach the envioronment, on average each 1kg of industrially managed plastic results in-->
+                <p>Plastic that enters into industry results in a wide range of energy intensive activities from transportation, to smelting, to re-molding.  On average globally, each metric ton of plastic processed by recycling, land-filing and incineration <a href="coefficients.php#co2">generates 689kg, 65Kg and 2967kg of CO2e respectively</a>.  This can be prevented by plastic sequestration. Given that on average globally 18% of plastics are recycled, 24% are incinerated and the remaining 58% are landfilled or directly reach the envioronment, preventing the industrial processing of plastic avoids 0.88Kg of CO2 per Kg of plastic.</p>
+                <p>Plastic sequestration also prevents the embedded carbon of the plastic from dispersing loose into the biosphere.  The Global Ecobrick Alliance estimates that this prevents <a href="aes">3.1Kg of carbon per 1kg of plastic</a> from the chemical and biotic degradation of plastic over time.</p>
 
-                <br><p><b>Accelerating Plastic Transtion</b><p>
+                <!--<br><p><b>Accelerating Plastic Transtion</b><p>
                 <p>All plastic disposal methods, result in the production of replacement plastic.  Once plastic is used and dispose, more must be made to replace the product or packaging that was just consumed.  Within traditional industrial disposal of plastic for every 1kg of plastic disposed, 0.91kg of plastic can be estimated to replace it.  In other words, industrial disposal has a 91% replacement rate.  Each replacement cycle results in the carbon emissions of the virgin plastic produced to replace it, the emissions of its disposal, replacement, disposal and so on, echoing through time until the original amount has been fully subsumed.</p>
                 <p>In comparison, various plastic sequestration methodes result in different replacement rates.  The research of the Global Ecobrick Alliance estimates that a regular ecobrick has a replacement rate of 61%, cigbricks have a 75% replacement rate, and ocean ecobricks of 80%.  These methods still result in the production of virgin plastic, but not as much as before-- and without the carbon emissions of dispoal.</p>
                 <p>Using the replacement rate of a particular method of plastic sequestration, the equivalent amount of carbon emissions prevented from industrial processing can be calculated for each kilogram of plastic that is authenticated as sequestered.</p>
-                <br><hr>
+                <br><hr>-->
                 Learn more: <a href="aes">AES Plastic</a>
                 
                 
