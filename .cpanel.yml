@@ -23,6 +23,8 @@ deployment:
     - /bin/cp db.php $DEPLOYPATH
     - /bin/cp ajax.php $DEPLOYPATH
     - /bin/cp ajax.txt $DEPLOYPATH
+    - /bin/cp ssp.class.php $DEPLOYPATH
+    
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
