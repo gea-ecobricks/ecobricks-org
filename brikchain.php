@@ -235,11 +235,10 @@ _END;?>
 <script>
 
 $(document).ready(function() {
-    $('#brikchain2').DataTable( {
+    $('#example').DataTable( {
         "ajax": "ajax.txt"
     } );
 } );
-
 
 </script>
 
@@ -342,32 +341,28 @@ $(document).ready(function() {
 
 		
 
-			<table id="brikchain2" class="display" style="width:100%">
+			<table id="example" class="display" style="width:100%">
         <thead>
             <tr>
-                <th>First name</th>
-                <th>Last name</th>
+                <th>Name</th>
                 <th>Position</th>
                 <th>Office</th>
+                <th>Extn.</th>
                 <th>Start date</th>
                 <th>Salary</th>
             </tr>
         </thead>
         <tfoot>
             <tr>
-                <th>First name</th>
-                <th>Last name</th>
+                <th>Name</th>
                 <th>Position</th>
                 <th>Office</th>
+                <th>Extn.</th>
                 <th>Start date</th>
                 <th>Salary</th>
             </tr>
         </tfoot>
     </table>
-
-					
-		</div>
-
 		
 	
 
