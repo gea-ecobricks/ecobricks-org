@@ -98,8 +98,8 @@ Redirect /catalyst/ /catalyst.php
 Redirect /about /about.php
 Redirect /about/ /about.php
 
-Redirect /sequest /sequest.php
-Redirect /sequest/ /sequest.php
+
+RedirectMatch "^/sequest\/?$" "sequest.php"
 
 Redirect /2021-regenreport /2021-regenreport.php
 Redirect /2021-regenreport/ /2021-regenreport.php
