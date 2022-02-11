@@ -677,7 +677,6 @@ _END;?>
                          <h4>A Safe Road into Time</h4>
                         
                         <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
-
                     </div>	
 
                     <div class="side2">
@@ -685,7 +684,7 @@ _END;?>
                     </div>
                 </div>
             </div>
-            <br>
+            
            
                 <a name="CO2"></a>
                 <div class="reg-content-block" id="block9">
