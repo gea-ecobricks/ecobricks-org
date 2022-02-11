@@ -99,8 +99,8 @@ Redirect /about /about.php
 Redirect /about/ /about.php
 
 
-Redirect /sequest en/sequest.php
-Redirect /sequest/ en/sequest.php
+RedirectMatch "/sequest" "/en/sequest.php"
+RedirectMatch "/sequest/" "/en/sequest.php"
 
 
 
