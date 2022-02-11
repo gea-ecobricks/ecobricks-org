@@ -8,7 +8,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://www.ecobricks.org/en/sequest"/>
+	<meta property="og:url"           content="https://ecobricks.org/en/sequest"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Plastic Sequestration | Ecobricks.org">
   	<meta property="og:description"   content="The theory, criteria and standards of plastic sequestration."/>
