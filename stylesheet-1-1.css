@@ -128,7 +128,7 @@ h3 {
 }
 @media screen and (max-width: 769px) {
   h3 {
-      font-size: 3em;
+      font-size: 2em;
       line-height: 1.4;
       font-weight: 500;
       margin: 10px 0 5px;

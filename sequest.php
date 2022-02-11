@@ -318,7 +318,7 @@ _END;?>
 
         <br>
         <div class="page-paragraph-reg">
-        <h4>Criteria & Standards</h4>
+        <h3>Criteria & Standards</h3>
             <p>The <a href="about">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, , has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide to enterprises wishing to develope their own methodology or technology for plastic sequestration.  Our standards assists enterprises already sequestering plastic to ensure their outputs are of the highest quality-- and an ecological service.  In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
             <br>
          </div>

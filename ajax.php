@@ -52,13 +52,7 @@ $columns = array(
         }
     ),
   
-    array(
-        'db'        => 'ecobrick_serial_no',
-        'dt'        => 6,
-        'formatter' => function( $d, $row ) {
-            return 'test'.number_format($d);
-        }
-    )
+    array( 'db' => 'ecobrick_serial_no',     'dt' => 6 )
 
 
 // SQL server connection information
