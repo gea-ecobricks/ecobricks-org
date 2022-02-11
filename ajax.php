@@ -54,7 +54,7 @@ $columns = array(
     array( 'db' => 'ecobrick_serial_no',    
            'dt' => 6,
            'formatter' => function( $d, $row ) {
-            return number_format('test'.$d).'test'; )
+            return 'test'.number_format($d).'test'; )
 );
  
 // SQL server connection information

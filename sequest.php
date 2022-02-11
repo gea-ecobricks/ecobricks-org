@@ -320,6 +320,7 @@ _END;?>
         <div class="page-paragraph-reg">
         <h3>Criteria & Standards</h3>
             <p>The <a href="about">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, , has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide to enterprises wishing to develope their own methodology or technology for plastic sequestration.  Our standards assists enterprises already sequestering plastic to ensure their outputs are of the highest quality-- and an ecological service.  In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
+            <br>
          </div>
 
                 
@@ -539,7 +540,7 @@ _END;?>
 
                 <div id="preclosed6">
 
-                <p></b>In the same way that the Earth’s cycles steadily increased biodiversication, so too must our process of plastic sequestration.</b></p>
+                <p><b>In the same way that the Earth’s cycles steadily increased biodiversication, so too must our process of plastic sequestration.</b></p>
 
                     <div class="row">
                             <div class="main2">
@@ -566,7 +567,7 @@ _END;?>
                     <p>Only if the process and its short and long-term result support of existing biodiversity and promote increases in diversity can it be considered plastic sequestration.</p>
                     <br>
                     <p><b>Plastic Transition Standards</b><p>
-                    <p>Outputs of plastic sequestration must be designed for applications that demonstrably support life and its diversification.  Plastic sequestration enterprises must track and disclose their net-impact on local biodiversity.</p><br><hr>
+                    <p>Outputs of plastic sequestration must be designed for applications that demonstrably support life and its diversification.  Plastic sequestration enterprises must track and disclose their net-impact on local biodiversity.</p>
                     
                     <br><hr>
                     <h5>🌍 Learn more:<a href="https://medium.com/earthen/the-ethic-of-biodiversity-b5b600bc4a70" target="_blank">The Earthen Principle of Diversification</a></h5>
@@ -616,7 +617,7 @@ _END;?>
 					<p>Only if the process raises individual and collective awareness can it be considered plastic sequestration.</p>
                     <br>
                     <p><b>Plastic Transition Standards</b><p>
-                    <p>The enterprise of plastic sequestration must track and publically disclose in carbon, plastic and biodiversity impacts.</p><br><hr>
+                    <p>The enterprise of plastic sequestration must track and publically disclose in carbon, plastic and biodiversity impacts.</p>
 					<br><hr>
                     
                     <h5>🌍 Learn more: <a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">The Earthen Ethic of Awareness</a></h5>
@@ -670,12 +671,11 @@ _END;?>
 
              <br>
              <div class="page-paragraph-reg">
-                 <h4>A Safe Road into Time</h4>
-
+                 
                  <div class="row">
                 
                       <div class="main2">
-                    
+                         <h4>A Safe Road into Time</h4>
                         
                         <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
 
