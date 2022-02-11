@@ -386,12 +386,12 @@ _END;?>
             </div>
 
             <div id="preclosed2">
-            <p><b>In the same way that the Earth's processes led to cycles of spiralling ecological enrichment so too must the process of plastic sequestration.</b></p>
+            <p><b>In the same way that the Earth's processes led to the circular use of carbon in cycles that spiralled towards sequestration so too must the process of plastic sequestration.</b></p>
 
                 <div class="row">
                     <div class="main2">
                    
-                    <p>The Earth's process tend towards cycles of indefinite reuse.  These cycles spiral towards ever greater diversity, concentration and enrichment.  In the same way, the process of plastic sequestration, must do the same.  The products and process of plastic sequestration must also spiral towards concentration, diversity and enrichment.  This way we can be sure it is a net-green process.</p>
+                    <p>The Earth's processes used carbon based building blocks that were resuable over and over by organisms and ecosystems.  Overtime, this biomass tended towards concentration and sequestration under the earth.  In the same way, the outputs of plastic sequestration, must intend the same.</p>
                     </div>
                     <div class="side2"><img src="webp/spiral-design-381px.webp" width="80%">
                     </div>
@@ -405,12 +405,15 @@ _END;?>
                     </div>
                 </div>
 
-                <p>Industrial plastic plastic management methods are by definition linear and circular.  Plastic recycling, incineration and landfilling spirals plastic towards dispersion, the reduction of biodiversity and the depletion of ecosystems.</p>
+                <p>Industrial plastic plastic management methods are by definition linear and circular.  Plastic recycling, incineration and landfilling spirals plastic towards dispersion.  Industrial methods are powered by fossil fuels that are decompacted and burned, loosening their carbon into the atmosphere.</p>
 
 
                 <p>In comparison, the Earth has used carbon as a means– in a circular process.  Carbon molecules such as nucleic acids, proteins, lipids and glycans make up all organisms– and when one organism comes to an end, another begins by building itself with the other’s blocks.  This continues indefinitely, until the carbon is subsumed into long-term sequestration.</p><br>
 
-                <p>Putting creations into greening cycles of reuse is also know as spiral design.  In this way, when our sequestration of plastic leads to short-term creations, they must be by spiral by design– with their next life-cycle built in.</p>
+                <p>Intending net-green outputs that can be reused indefinitely until they are eventually sequestered earthen applications is known as spiral design.</p>
+
+                <br><p><b>Plastic Sequestration Standard</b><p>
+                <p>To be considered sequestered, plastic sequestration outputs must be demonstrably reusable.  Their application must prevent abiotic and biotic degradation, reducing  specific surface degradation rate (SSDR) of the plastic to below 0.1 μm year–1.</p>
                 <br><hr>
 
                     <h5>🌍 Learn more: <a href="https://medium.com/earthen/towards-cycles-that-spiral-a2cea98b59c4" target="_blank">The Earthen Principle of Spiral Cycling</a></h5>
