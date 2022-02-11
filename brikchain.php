@@ -199,8 +199,49 @@ _END;?>
 
 }
 
+
+	
+</style>	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.11.4/dataRender/hyperLink.js"></script>
+
+
+
+
+<script>
+
+$(document).ready(function() {
+    $('#brikchain').DataTable( {
+		"processing": true,
+        "serverSide": true,
+		"ajax": "ajax.php"
+
+    } );
+} );
+
+</script>
+
+<script>
+
+// Display the hyperlink with 'Download', which open hyperlink in popup
+  //        with size 600as width and 400 as height
+  $('#brikchain').DataTable( {
+    columnDefs: [ {
+      targets: 2,
+      render: $.fn.dataTable.render.hyperLink( 'Download', 'popup' )
+    } ]
+  } );
+</script>
+
+<style>
 #brikchain {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -221,52 +262,9 @@ _END;?>
   background-color: #E39009;
   color: white;
 }
-
-	
-</style>	
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
-  
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
+</style>
 
 
-<script>
-
-$(document).ready(function() {
-    $('#example').DataTable( {
-		"processing": true,
-        "serverSide": true,
-		"ajax": "ajax.php"
-
-    } );
-} );
-
-</script>
-
-
-	<!--
-
-	setTimeout(
-  function() 
-  {
-    $('#brikchain2').DataTable();
-}, 5000);
-
-
-	$(document).ready(function() {
-    $('#brikchain2').DataTable();
-} );
-
-
-$(document).ready(function() {
-    $('#brikchain3').DataTable( {
-        "processing": true,
-        "serverSide": true,
-        "ajax": "ajax.php"
-    } );
-} );-->
 
 </head>
 							  
@@ -319,7 +317,7 @@ $(document).ready(function() {
 
 		
 
-			<table id="example" class="display" style="width:100%">
+			<table id="brikchain" class="display" style="width:100%">
         <thead>
             <tr>
                 <th>ID</th>
@@ -328,6 +326,8 @@ $(document).ready(function() {
                 <th>Receivers</th>
                 <th>Type</th>
 				<th>Amount</th>
+				<th>View</th>
+				
             </tr>
         </thead>
         <tfoot>
@@ -337,7 +337,8 @@ $(document).ready(function() {
                 <th>Sender</th>
                 <th>Receivers</th>
                 <th>Type</th>
-				<th>Amount</th>
+				<th>View</th>
+			
             </tr>
         </tfoot>
     </table>
