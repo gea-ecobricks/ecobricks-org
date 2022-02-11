@@ -318,7 +318,7 @@ _END;?>
 
         <br>
         <div class="page-paragraph-reg">
-        <h3>Criteria & Standards</h3>
+        <h4>Criteria & Standards</h4>
             <p>The <a href="about">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, , has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide to enterprises wishing to develope their own methodology or technology for plastic sequestration.  Our standards assists enterprises already sequestering plastic to ensure their outputs are of the highest quality-- and an ecological service.  In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
             <br>
          </div>
@@ -353,13 +353,13 @@ _END;?>
 						<p>Keeping plastic that has already been produced as plastic as plastic is an effective way to keep its carbon from getting loose.</p>
 						
 						</div>
-						<div class="side3"><img src="webp/compacted-carbon.webp" width="150px">
+						<div class="side3"><br><img src="webp/compacted-carbon.webp" width="150px">
 						</div>
 					</div>
 					
 					<p>Plastic degrades quickly when it is exposed to sun, fire, oxygen and/or friction.  Its degradation is in proportion to its surface area.   As the majority of of modern plastic is in the form of thin films, when it is loose and exposed, it is prone to rapid degradation. Plastic degrades by fragmenting into smaller and smaller particles, known as micro-plastics, green house gases and toxins.</p>
 
-                    <p>By compacting thin, high-surface area plastic, the net exposed area is reduced a thousand-fold.  The GEA has found that a reaching a density of 0.33 g/ml achieves a terminal reduction of net surface area for the majority of modern thin film plastics.  Once compacted and contained plastic is secured from degradation and can remain intact indefinitely.</p>
+                    <p>By compacting thin, high-surface area plastic, the net exposed area is reduced a thousand-fold.  The GEA has found that a reaching a density of 0.33 g/ml achieves a terminal reduction of net surface area for the majority of modern thin film plastics.  Once compacted and contained plastic is secured from degradation and can remain intact indefinitely.</p><br>
 
                     <p><b>Sequestration Standard</b></p>
                     <p>To be considered plastic sequestration, the processing of plastic must achieve the minimum density of 0.33 g/ml and ensure secure, indefinite storage.</p>
@@ -402,7 +402,7 @@ _END;?>
                     <div class="main3">
                     <p>As such plastic sequestration is by-definiton a non-industrial process.</p>
                     </div>
-                    <div class="side3"><img src="webp/spiral-design-381px.webp" width="120px">
+                    <div class="side3"><br><img src="webp/spiral-design-381px.webp" width="120px">
                     </div>
                 </div>
 
@@ -452,7 +452,7 @@ _END;?>
                             <div class="main3">
                             <p>Industrial methods of plastic processing are driven by for-profit enterprise.</p>
                             </div>
-                            <div class="side3"><img src="webp/for-earth500px.webp" width="120px">
+                            <div class="side3"><br><img src="webp/for-earth500px.webp" width="120px">
                             </div>
                         </div>
                     
@@ -503,9 +503,9 @@ _END;?>
 
                         <div class="row2">
                             <div class="main3">
-                            <p>The processing of plastic within industry (recycling, incineration, dumping, etc.) results in the net-addition of carbon into the atmosphere and the creation of more plastic.</p>
+                            <p>The processing of plastic within industry results in the net-addition of carbon into the atmosphere and the creation of more plastic.</p>
                             </div>
-                            <div class="side3"><img src="icons/balance-glow-500px.webp" width="120px">
+                            <div class="side3"><br><img src="icons/balance-glow-500px.webp" width="120px">
                             </div>
                         </div>
 					
@@ -531,7 +531,7 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>5. Supporting Biodiversity</h4>
-                    <h5>The process supports the diversification of life.</h5>
+                    <h5>The process and its outputs support the diversification of life.</h5>
                     <br>
                     </div>
 
@@ -540,11 +540,11 @@ _END;?>
 
                 <div id="preclosed6">
 
-                <p><b>In the same way that the Earth’s cycles steadily increased biodiversication, so too must our process of plastic sequestration.</b></p>
+                <p><b>In the same way that the Earth’s process steadily increased biodiversication, so too must our process of plastic sequestration.</b></p>
 
                     <div class="row">
                             <div class="main2">
-                            <p>The Earth’s use of carbon enabled not just the building blocks of life, but also through sequestration, the stabilization of the planet’s climate so that even more life could emerge. Likewise, the short-term use of sequestered plastic must be such that it supports life in the short term and enables biodiversity in the long-term.</p>
+                            <p>The Earth’s use of carbon enabled life to flourish and diversify. Likewise, the short-term use of sequestered plastic must be such that it supports life in the short term and enables biodiversity in the long-term.</p>
                             </div>
                             <div class="side2"><img src="webp/biodiversity-500px.webp" width="85%">
                             </div>
@@ -552,19 +552,18 @@ _END;?>
 
                         <div class="row2">
                             <div class="main3">
-                            <p>When sequestration leads to short-term building blocks, these can be used in the creation of green spaces,  gardens and food-forest and the decontamination of plastic polluted areas.</p>
+                            <p>The outputs of plastic sequestration must be intended for applications that support biodiversity.</p>
                             </div>
-                            <div class="side3"><img src="webp/biodiversity-500px.webp" width="120px">
+                            <div class="side3"><br><img src="webp/biodiversity-500px.webp" width="120px">
                             </div>
                         </div>
                     
-                    <p>Critically, the plastic blocks must be used in such a way that they do not degrade or contaminate and thus impede life.</p>
+                    <p>When sequestration leads to short-term building blocks, these can be used in the creation of green spaces,  gardens and food-forest and the decontamination of plastic polluted areas.Critically, the plastic blocks must be used in such a way that they do not degrade or contaminate and thus impede life.</p>
 
-                    <p>In the long-term sequestered plastic must be entirely protected from all forms of degradation (heat, light, friction, oxygen and micro-organism) so that it also does not contaminate or leach and impact life.</p>
+                    <p>In the long-term sequestered plastic must be entirely protected from all forms of degradation (heat, light, friction, oxygen and micro-organism) so that it also does not contaminate and harm life and its diversity.</p>
 
                     <p>In contrast industrial plastic processing relies on factories, facilities and dump sites that occupy the spaces of what were once fields and forests.  These spaces can no longer support the surrounding ecology and result in a net decrease in biodiversity.</p>
 
-                    <p>Only if the process and its short and long-term result support of existing biodiversity and promote increases in diversity can it be considered plastic sequestration.</p>
                     <br>
                     <p><b>Plastic Transition Standards</b><p>
                     <p>Outputs of plastic sequestration must be designed for applications that demonstrably support life and its diversification.  Plastic sequestration enterprises must track and disclose their net-impact on local biodiversity.</p>
@@ -606,7 +605,7 @@ _END;?>
                             <div class="main3">
                             <p>In the past, industrial plastic processing distanced consumers from the ecological consequences of plastic consumption.</p>
                             </div>
-                            <div class="side3"><img src="webp/ecological-consciousness-500px.webp" width="120px">
+                            <div class="side3"><br><img src="webp/ecological-consciousness-500px.webp" width="120px">
                             </div>
                         </div>
 					

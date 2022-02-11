@@ -51,12 +51,16 @@ $columns = array(
             return number_format($d,2).'ß';
         }
     ),
-    array( 'db' => 'ecobrick_serial_no',    
-           'dt' => 6,
-           'formatter' => function( $d, $row ) {
-            return 'test'.number_format($d).'test'; )
-);
- 
+  
+    array(
+        'db'        => 'ecobrick_serial_no',
+        'dt'        => 6,
+        'formatter' => function( $d, $row ) {
+            return 'test'.number_format($d);
+        }
+    )
+
+
 // SQL server connection information
 $sql_details = array(
     'user' => 'ecobricks_russs',
