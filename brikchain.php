@@ -227,6 +227,7 @@ $(document).ready(function() {
 
 </script>
 
+<!--
 <script>
 
 // Display the hyperlink with 'Download', which open hyperlink in popup
@@ -238,6 +239,8 @@ $(document).ready(function() {
     } ]
   } );
 </script>
+
+-->
 
 <style>
 #brikchain {
