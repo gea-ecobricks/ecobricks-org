@@ -347,38 +347,44 @@ $(document).ready(function() {
             </tr>
         </tfoot>
     </table>
+
+
+		
+			
+	
+<?php include 'db.php';?>
+		
+<?php
+
+
+	$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker, (SELECT total_brk FROM sum_brk_by_year WHERE sum_brk_by_year.year = YEAR(brk_transaction.send_dt) as 'yearly_total') FROM brk_transaction";
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+	
+		echo'<table id="brikcoin" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th><th>Total this Year</th></tr>';
+	
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+		
+		echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["sender_ecobricker"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td><td>".$row["yearly_total"]."</td></tr>";
+		}
+		echo "</table>";
+	} else {
+		echo "0 results";
+	}
+	$conn->close();
+	?>
+
+
+
 		
 </div>
 
 
 
 			
-			
-			
-<?php include 'db.php';?>
 		
-		<?php
-
-
-			$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker, (SELECT total_brk FROM sum_brk_by_year WHERE sum_brk_by_year.year = YEAR(brk_transaction.send_dt) as 'yearly_total') FROM brk_transaction";
-			$result = $conn->query($sql);
-
-			if ($result->num_rows > 0) {
-			
-				echo'<table id="table_id" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th><th>Total this Year</th></tr>';
-			
-			// output data of each row
-			while($row = $result->fetch_assoc()) {
-				
-				echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["sender_ecobricker"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td><td>".$row["yearly_total"]."</td></tr>";
-			  }
-			  echo "</table>";
-			} else {
-			  echo "0 results";
-			}
-			$conn->close();
-			?>
-
 
 
 
