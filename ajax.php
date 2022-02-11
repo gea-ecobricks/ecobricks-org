@@ -50,7 +50,8 @@ $columns = array(
         'formatter' => function( $d, $row ) {
             return number_format($d,2).'ß';
         }
-    )
+    ),
+    array( 'db' => 'serial',     'dt' => 6 )
 );
  
 // SQL server connection information

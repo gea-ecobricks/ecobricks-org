@@ -249,7 +249,7 @@ _END;?>
 			
 			
 			<div class="page-paragraph">
-                        <p>It has never been more important to take care of our plastic.  Plastic sequestration provides a principled alternative to industrial plastic management.  Following the <a href="plastic">Earth's example of carbon sequestration</a>, we have a proven methodology to not only secure our plastic out of the biosphere and out of industry, but also to accelerate our <a href="transition">plastic transition</a>.  </p>
+                        <p>It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a principled alternative to industrial plastic management.  Following the <a href="plastic">Earth's example of carbon sequestration</a>, we have a proven methodology to not only secure our plastic out of the biosphere and out of industry, but also to embody <a href="principles">regenerative principles</a> and to accelerate our <a href="transition">plastic transition</a>.</p>
 
                         <!--<p>
                             
@@ -269,7 +269,7 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>Theory & Science</h4>
-                    <h5>The goal of plastic sequestration is to follow the Earth's example of carbon sequestration as an ecological service.  This means preventing the degradation of plastic, the emissions and dispersal of industry in a way that is net-green.</h5>
+                    <h5>The goal of plastic sequestration is to follow the <a hre="plastic">Earth's example</a> of carbon sequestration as an ecological service.  This means preventing the degradation of plastic, the emissions and dispersal of industry in a way that is net-green.</h5>   
                     <br>
                     </div>
 
@@ -279,8 +279,6 @@ _END;?>
                 <div id="preclosed1">
 
                 
-                
-
                 <p>Plastic degradation occurs physically (such as cracking, embrittlement, and flaking) and chemically (such as leaching).  Emissions and dispersal occur when plastic is industrially processed through recycling, incineration and land-filling.  In order to prevent these outcomes, plastic sequestration diverts plastic from industry and prevents the chemical and physical degration of plastic from the effects of light, heat, acids, friction, microbial action etc.</p>
                 <br>
                 <p><b>1. Preventing Degradation</b><p>
@@ -304,9 +302,9 @@ _END;?>
 
                 <br><p><b>5. Net-Green Ecological Service</b><p>
 
-                <p>Research has shown that covering plastic in earth is an effective method of preventing abiotic plastic degradation (i.e. preventing exposure to sunlight, friction, heat, etc.). Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are prevented. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) can further slow plastic.</p>
+                <p>Research has shown that <a href="https://www.sciencedirect.com/science/article/pii/S0141391013003066?via%3Dihub" target="_blank">enclosing plastic in earth</a> prevents abiotic plastic degradation by preventing exposure to sunlight, friction, heat, and oxygen. Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are <a href="https://pubs.acs.org/doi/10.1021/acs.est.8b06984" target="_blank">prevented</a>. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) <a href="https://aip.scitation.org/doi/abs/10.1063/1.4985426" target="_blank">can further significantly impede biotic plastic degradation.</a></p>
 
-                <p>The Earth's billion year <a href="plastic">process of carbon sequestration</a> helped greened the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">the six principles of the Earth's example</a>.  This way we can be sure that plastic sequestration is in fact an ecological contribution.</p>
+                <p>The Earth's billion year <a href="plastic">process of carbon sequestration</a> helped green the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">the six principles of the Earth's example</a>.  This way we can be sure that plastic sequestration is in fact an ecological contribution.</p>
                 <br>
 
                 <hr>
@@ -331,7 +329,7 @@ _END;?>
 				<div class="opener-header">
 					<div class="opener-header-text">
 						<h4>1. Secured Concentration</h4>
-						<h5>The process of plastic degradation must secure plastic from industrial processing and from all forms of chemical and physical degradation.</h5><br>
+						<h5>The process secures plastic from all forms of chemical and physical degradation and from industrial processing.</h5><br>
 					</div>
 					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 				</div>
@@ -380,7 +378,7 @@ _END;?>
                 
                 <div class="opener-header-text">
                 <h4>2. Spiral Design</h4>
-                <h5>The outputs of plastic sequestration must be reusable indefinitely, while tending towards earthen immersion and overall net-green impact.</h5>
+                <h5>Outputs are indefinitely reusable, while tending towards applications that are of long-term earthen immersion.</h5>
                 <br>
                 </div>
 
@@ -428,7 +426,7 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>3. For-Earth Enterprise</h4>
-                    <h5>The process of plastic sequestration must be firstly a not-for-profit enterprise with the priority of Earth service (as opposed to for-profit enterprise).</h5>
+                    <h5>The process must be conducted as a not-for-profit, for-Earth enterprise.</h5>
                     <br>
                     </div>
 
@@ -477,7 +475,7 @@ _END;?>
 					
 					<div class="opener-header-text">
 					<h4>4. Net-Subtractive</h4>
-					<h5>The process of plastic sequestration must result in the subtraction of more carbon and more plastic from the biosphere than it adds through emissions and replacement (as opposed to net-additive or zero-waste industry).</h5>
+					<h5>The process results in the sequestration of more carbon and more plastic than is added through emissions and replacement plastic.</h5>
 					<br>
 					</div>
 
@@ -522,7 +520,7 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>5. Supporting Biodiversity</h4>
-                    <h5>The process and outputs of plastic sequestration must support biodiversity (as opposed to large and contaminating processing, storage and dumping facilities).</h5>
+                    <h5>The process supports the diversification of life.</h5>
                     <br>
                     </div>
 
@@ -571,7 +569,7 @@ _END;?>
 					
 					<div class="opener-header-text">
 					<h4>6. Awaring</h4>
-					<h5>The process of plastic sequestration must track its plastic, carbon and biodiversity impacts and publicly disclose them so as to aware all those involved of its net ecological impacts.</h5>
+					<h5>The enterprise tracks and publically discloses all the plastic, carbon and biodiversity impacts of its processes.</h5>
 					<br>
 					</div>
 
@@ -627,7 +625,7 @@ _END;?>
                 </div>
 
                 <div id="preclosed8">
-                    <p><b>Plastic Sequestration must be independently validated to authenticate that the above criteria have been met.</b></p>
+                    <p><b>Outputs must be independently validated to authenticate that the criteria of plastic sequestration have been met.</b></p>
                     <div class="row">
                             <div class="main2">
                             <p>The way that plastic is processed can either harm or benefit the biosphere for centuries.  The resulting mass of plastic is either of ecological value– or not. Because the stakes are high, efforts at plastic sequestration must be reviewed to make sure that standards and the criteria above are met.</p>
@@ -717,15 +715,13 @@ _END;?>
 
             <br>
             <div class="page-paragraph-reg">
-            <h4>Is sequestration a final solution for plastic?</h4>
+            <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
     
                 <div class="row">
                     
                     <div class="main2">
                             
-                            <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.  Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in billions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it on another spin in this cycle.  In the same way the carbon was a gift to our age, we can gift our carbon to another. </p>
-
-                            <p>Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.</p>
+                            <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.  Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in hundreds of millions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it into another cycle.  In the way that plastic was a gift to our age, we can gift our carbon to another. </p>
                      </div>
 
                     <div class="side2">

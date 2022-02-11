@@ -244,6 +244,7 @@ $(document).ready(function() {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  font-weight: 300;
 }
 
 #brikchain td, #brikchain th {
@@ -337,6 +338,7 @@ $(document).ready(function() {
                 <th>Sender</th>
                 <th>Receivers</th>
                 <th>Type</th>
+				<th>Amount</th>
 				<th>View</th>
 			
             </tr>
