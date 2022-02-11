@@ -461,7 +461,7 @@ _END;?>
 
                     <p>As such, the enterprise of plastic sequestration must be must be not-for-profit and for the biosphere’s benefit.</p>
 
-                    <p><b>Plastic Sequestration Standards</b><p>
+                    <br><p><b>Plastic Sequestration Standards</b><p>
                     <p>Enterprises undertaking the process of plastic sequestration must formally declare their not-for-profit, for-Earth structure.</p>
                     <br><hr>
 
@@ -512,7 +512,7 @@ _END;?>
 					<p>In this way, the enterprise of plastic sequestration must account for its various additive (grey) and subtractive (green) ecological impacts and it must show that the net result of the process is the subtraction of plastic and CO2 from the biosphere.  Only when it is net-subtractive can it be considered plastic sequestration.</p>
                     <br>
                     <p><b>Plastic Transition Standards</b><p>
-                    <p>Enterprises publically declare their net-green intention.  Enterprises account yearly for their subtractive and additive impacts and ensure that are net-green.<br><hr>
+                    <p>Enterprises publically declare their net-green intention.  Enterprises account yearly for their subtractive and additive impacts and ensure that are net-green.</p><br><hr>
 
                 
 
@@ -564,6 +564,9 @@ _END;?>
                     <p>In contrast industrial plastic processing relies on factories, facilities and dump sites that occupy the spaces of what were once fields and forests.  These spaces can no longer support the surrounding ecology and result in a net decrease in biodiversity.</p>
 
                     <p>Only if the process and its short and long-term result support of existing biodiversity and promote increases in diversity can it be considered plastic sequestration.</p>
+                    <br>
+                    <p><b>Plastic Transition Standards</b><p>
+                    <p>Outputs of plastic sequestration must be designed for applications that demonstrably support life and its diversification.  Plastic sequestration enterprises must track and disclose their net-impact on local biodiversity.</p><br><hr>
                     
                     <br><hr>
                     <h5>🌍 Learn more:<a href="https://medium.com/earthen/the-ethic-of-biodiversity-b5b600bc4a70" target="_blank">The Earthen Principle of Diversification</a></h5>
@@ -606,11 +609,14 @@ _END;?>
                             </div>
                         </div>
 					
-					<p>Industrial  plastic management removed consumer participation and agency in the process.  Through long-distance export, the ecological impact of plastic processing was hidden from plastic consumer. By purporting to have solve plastic, industry encouraged the unabated consumption of plastic.  This led to a steady increase of plastic consumption, production and pollution over the last 50 years.</p>
+					<p>Industrial plastic management removes consumer participation and agency in the process.  Through long-distance export, the ecological impact of plastic processing is hidden from consumers. By purporting to have a plastic solution, industry has encouraged the unabated consumption of plastic.  This has led to a steady increase of plastic consumption, production and pollution over the last 50 years.</p>
 
 					<p>Plastic sequestration must be transparent, open and accountable.  Plastic sequestration must return accurate data to those consuming plastic through an accounting of its ecological impacts near and far.</p>
 
 					<p>Only if the process raises individual and collective awareness can it be considered plastic sequestration.</p>
+                    <br>
+                    <p><b>Plastic Transition Standards</b><p>
+                    <p>The enterprise of plastic sequestration must track and publically disclose in carbon, plastic and biodiversity impacts.</p><br><hr>
 					<br><hr>
                     
                     <h5>🌍 Learn more: <a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">The Earthen Ethic of Awareness</a></h5>
@@ -638,7 +644,7 @@ _END;?>
                     <p><b>Outputs must be independently validated to authenticate that the criteria of plastic sequestration have been met.</b></p>
                     <div class="row">
                             <div class="main2">
-                            <p>The way that plastic is processed can either harm or benefit the biosphere for centuries.  The resulting mass of plastic is either of ecological value– or not. Because the stakes are high, efforts at plastic sequestration must be reviewed to make sure that standards and the criteria above are met.</p>
+                            <p>The way that plastic is processed can either harm or benefit the biosphere for centuries. Because the stakes are high, the outputs of plastic sequestration must be validated to make sure that standards and the criteria above are met.</p>
                             </div>
                             <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/confirmedexchange.png" width="100%">
                             </div>
@@ -654,7 +660,7 @@ _END;?>
                     
                     <p>In this way, authenticated sequestered plastic can then be quantified.  Sequestered plastic can then be referred to with confidence in terms of net weight (i.e. X kg of authenticated sequestered plastic).</p>
 
-                    <p>Just like the process of plastic sequestration itself, the process of authentication must also be not-for-profit, net-greening and driven by biosphere benefit.    Only then can the mass be considered authenticated sequestered plastic.</p>
+                    <p>Just like the process of plastic sequestration itself, the process of authentication must also be not-for-profit and for-earth. Only after an independent review can the outputs net-weight be considered authenticated sequestered plastic.</p>
 
                 </div>
                 </div>
@@ -671,9 +677,7 @@ _END;?>
                       <div class="main2">
                     
                         
-                        <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future–  what we call putting plastic on a safe millennial road.</p>
-
-                        <p>If we can do this, then the chances are it will be safe for even longer and a gift for a future age.</p> 
+                        <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
 
                     </div>	
 
