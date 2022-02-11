@@ -582,8 +582,8 @@ _END;?>
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>6. Awaring</h4>
-					<h5>The enterprise tracks and publically discloses all the plastic, carbon and biodiversity impacts of its processes.</h5>
+					<h4>6. Awareness Raising</h4>
+					<h5>The enterprise tracks and publically discloses all the plastic, carbon and biodiversity impacts of its process.</h5>
 					<br>
 					</div>
 
