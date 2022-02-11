@@ -412,7 +412,7 @@ _END;?>
 
                 <p>Intending net-green outputs that can be reused indefinitely until they are eventually sequestered earthen applications is known as spiral design.</p>
 
-                <br><p><b>Plastic Sequestration Standard</b><p>
+                <br><p><b>Plastic Sequestration Standards</b><p>
                 <p>To be considered sequestered, plastic sequestration outputs must be demonstrably reusable.  Their application must prevent abiotic and biotic degradation, reducing  specific surface degradation rate (SSDR) of the plastic to below 0.1 μm year–1.</p>
                 <br><hr>
 
@@ -437,11 +437,11 @@ _END;?>
                 </div>
 
                 <div id="preclosed4">
-                <p></b>In the same way that the Earth’s processes distribute benefits outwards, we must ensure that our plastic sequestration is first and foremost to benefit the biosphere.</p></b>
+                <p><b>In the same way that the Earth’s processes tend towards the benefit the biosphere, the enterprise of plastic plastic sequestration must intend the same.</p></b>
                     <div class="row">
                             <div class="main2">
                             
-                            <p>At all levels of the biosphere, we can see that its many parts contributing upwards to the benefit of the whole.   In the way the cells of a leaf, the leaves of a tree, and the trees of a forests always work to the enrichment of the whole, the Earth’s ecosystems have steadily enriched the whole biosphere. In the same way, to be an ecological contribution, the enterprise of plastic sequestration must be first-and-foremost be for the benefit of the biosphere.</p>
+                            <p>At all levels of the biosphere, we can see that its many parts contribute upwards to the benefit of the whole.   The cells of a leaf, the leaves of a tree, and the trees of a forests spiral benefits upwards to the whole. In the same way, the enterprise of plastic sequestration must be structured to prioritize the upwards benefit of the whole rather than the downwards benefit of a few.</p>
                             </div>
                             <div class="side2"><img src="webp/for-earth500px.webp" width="95%">
                             </div>
@@ -460,6 +460,9 @@ _END;?>
                     <p>While industrial systems may have the best intentions, they operate within the petro-capital economy.  As such they are constrained to its forces. Industrial methods are driven by profit to recover the recover the capital-value of plastic. Once this value is exhausted, plastic is cycled out of industry to the biosphere.</p>
 
                     <p>As such, the enterprise of plastic sequestration must be must be not-for-profit and for the biosphere’s benefit.</p>
+
+                    <p><b>Plastic Sequestration Standards</b><p>
+                    <p>Enterprises undertaking the process of plastic sequestration must formally declare their not-for-profit, for-Earth structure.</p>
                     <br><hr>
 
                     <h5>🌍 Learn more: <a href="https://medium.com/@russellmaier/the-salmon-its-sharing-of-surpluses-a4f981978360" target="_blank">The Earthen Principle of Biosphere Benefit</a></h5>
@@ -487,11 +490,11 @@ _END;?>
 
 				<div id="preclosed5">
 
-                    <p><b>Just as the Earth's cycles subtract more carbon from the biosphere than they add, so too must plastic Sequestration.</b></b>
+                    <p><b>Just as the Earth's cycles subtract more carbon from the biosphere than they add, so too must the enterprise of plastic sequestration.</b></b>
 
                     <div class="row">
                             <div class="main2">
-                            <p>The net result of the Earth's cycles has been the subtraction of more carbon from the atmosphere than was added back into it.  The steady sequestration of carbon led over time to the greening of the biosphere.   In the same way, plastic sequestration must subtract more carbon into secure storage than it adds back out.</p>
+                            <p>The net result of the Earth's cycles has been the subtraction of more carbon from the atmosphere than was added back into it.  The steady sequestration of carbon led over time to the greening of the biosphere.   In the same way, the enterprise of plastic sequestration must subtract more carbon into secure storage than it emits and adds.</p>
                             </div>
                             <div class="side2"><img src="icons/balance-glow-500px.webp" width="100%">
                             </div>
@@ -499,15 +502,19 @@ _END;?>
 
                         <div class="row2">
                             <div class="main3">
-                            <p>The processing of plastic within industry (recycling, incineration, dumping, etc.) results in the net-addition of significant carbon into the atmosphere.</p>
+                            <p>The processing of plastic within industry (recycling, incineration, dumping, etc.) results in the net-addition of carbon into the atmosphere and the creation of more plastic.</p>
                             </div>
                             <div class="side3"><img src="icons/balance-glow-500px.webp" width="120px">
                             </div>
                         </div>
 					
 					
-					<p>In this way, plastic sequestration must account for its various additive (grey) and subtractive (green) ecological impacts and it must show that the net result of the process is the subtraction of plastic and CO2 from the biosphere.  Only when it is net-subtractive can it be considered plastic sequestration.</p>
-                    <br><hr>
+					<p>In this way, the enterprise of plastic sequestration must account for its various additive (grey) and subtractive (green) ecological impacts and it must show that the net result of the process is the subtraction of plastic and CO2 from the biosphere.  Only when it is net-subtractive can it be considered plastic sequestration.</p>
+                    <br>
+                    <p><b>Plastic Transition Standards</b><p>
+                    <p>Enterprises publically declare their net-green intention.  Enterprises account yearly for their subtractive and additive impacts and ensure that are net-green.<br><hr>
+
+                
 
                     <h5>🌍 Learn more: <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0" target="_blank">The Earthern Principle of Net-Subtraction</a></h5>
 
