@@ -8,7 +8,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/id/sequest"/>
+	<meta property="og:url"           content="https://ecobricks.org/id/sequest.php"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Sekuestrasi Plastik | Ecobricks.org">
   	<meta property="og:description"   content="Teori, kriteria dan standar sekuestrasi plastik."/>

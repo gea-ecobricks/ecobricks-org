@@ -8,7 +8,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/es/sequest"/>
+	<meta property="og:url"           content="https://ecobricks.org/es/sequest.php"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Secuestro de plástico | Ecobricks.org">
   	<meta property="og:description"   content="La teoría, criterios y normas del secuestro plástico."/>
