@@ -13,7 +13,7 @@ echo <<<_END
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="svgs/webp/earth-floating-500px.webp">
+<link rel="preload" as="image" href="webp/earthen-400px.webp">
 <link rel="preload" as="image" href="webp/blue-ode-750px.webp">
 
 
@@ -25,8 +25,6 @@ _END;?>
 <?php require_once ("header.php");?>
 
 
-<!-- CUSTOM PAGE SCRIPTS-->
-<script src="accordion-scripts.js?v2" defer></script> 
 
 
 <STYLE>
@@ -36,7 +34,7 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 70vh;
+		height: 77vh;
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
@@ -230,7 +228,7 @@ _END;?>
 		<div class="splash-heading">Plastic Sequestration</div>
 	<div class="splash-sub">By following the Earth’s example with our plastic we can make a green contribution to the biosphere.</div>
 	</div>
-	<div class="splash-image"><img src="webp/earthen-400px.webp" style="width: 80%;"></div>	
+	<div class="splash-image"><img src="webp/earthen-400px.webp" style="width: 85%;"></div>	
 </div>
 <div id="splash-bar"></div>
 <!--<div id="header-bar2"></div>-->
@@ -832,6 +830,10 @@ _END;?>
     rememberLanguage: true,
   });
 </script>
+
+
+<!-- CUSTOM PAGE SCRIPTS-->
+<script src="accordion-scripts.js?v2" defer></script> 
 
 </div>
 </body>
