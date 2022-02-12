@@ -249,7 +249,7 @@ _END;?>
 			
 			
 			<div class="page-paragraph">
-                        <p>It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a principled alternative to industrial plastic management.  Following the <a href="plastic">Earth's example of carbon sequestration</a>, we have a proven methodology to not only secure our plastic out of the biosphere and out of industry, but also to embody <a href="principles">regenerative principles</a> and to accelerate our <a href="transition">plastic transition</a>.  The Global Ecobrick Alliance maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
+                        <p>It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="plastic">Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition">plastic transition</a>. The Global Ecobrick Alliance maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
 
                         <!--<p>
                             
@@ -269,7 +269,7 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>Theory & Science</h4>
-                    <h5>The goal of plastic sequestration is to follow the Earth's example of carbon sequestration as an ecological service.  This means preventing the degradation of plastic, the emissions and dispersal of industry in a way that is net-green.</h5>   
+                    <h5>The goal of plastic sequestration is to follow the Earth's example of carbon sequestration as an ecological service that prevents the degradation of plastic, and the emissions and dispersal of industry .</h5>   
                     <br>
                     </div>
 
@@ -316,11 +316,11 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>Criteria & Standards</h4>
-                    <h5>The Global Ecobrick Alliance maintains criteria and standards to ensure that the enterprise, process and outputs of plastic sequestration are an authentic ecological service.</h5>   
+                    <h5>A framework to ensure authentic ecological service.</h5>   
                     <br>
                     </div>
 
-                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show10">+</button>
+                    <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10">+</button>
                 </div>
 
                 <div id="preclosed10">
@@ -328,9 +328,13 @@ _END;?>
 
             <p>The <a href="about">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide for methodologies and technologies aspiring to plastic sequestration.</p>
 
-            <p>The Earth's billion year <a href="plastic">process of carbon sequestration</a> helped green the planet.  To ensure that our process of plastic sequestration does the same, we have followed <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">the six principles of the Earth's example.  Using them we've established six criteria and associated standards for plastic sequestration</a>.  This way we can be sure that plastic sequestration is in fact an ecological contribution.</p>
+            <p>The Earth's billion year <a href="plastic">process of carbon sequestration</a> helped green the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">the six principles of the Earth's example.</a>  Using them we've established six criteria and associated standards for plastic sequestration.</p>
+
+            <p>Our criteria help us all ensure that the enterprise, outputs and processes of plastic sequestration are in fact an authentic ecological contribution.</p>
               
-            <p>Our standards assists enterprises already sequestering plastic to ensure their outputs are of the highest quality-- and an ecological service.  In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
+            <p>Our standards assists enterprises to measure the calibre and quality of their plastic sequestration outputs and processes.</p>
+
+            <p> In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
             <br>
 
             <hr>
