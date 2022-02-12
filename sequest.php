@@ -13,7 +13,10 @@ echo <<<_END
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="svgs/eb-blue.svg">
+<link rel="preload" as="image" href="svgs/webp/earth-floating-500px.webp">
+<link rel="preload" as="image" href="webp/blue-ode-800px.webp">
+
+
 
 _END;?>
 
@@ -38,7 +41,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
 		
-		background: url(svgs/BlUE-ode-to-plastic-Sequestration.svg) bottom;
+		background: url(webp/blue-ode-800px.webp) bottom;
 		/*background-color: #8BBAF0;*/
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -300,9 +303,10 @@ _END;?>
                 <p>Plastic once loose in the biosphere has been shown to interfere with ecological cycles.  This can impede the ability of <a href="https://www.nature.com/articles/s41467-021-22554-w">phytoplankton to circulate oxygen</a> and <a href="https://www.theguardian.com/environment/2016/jun/02/microplastics-killing-fish-before-they-reach-reproductive-age-study-finds">disrupt fish reproduction</a>, and more.</p>
                 <p>The goal of plastic sequestration is to prevents these disruptions.</p>
 
-                <br><p><b>5. Net-Green Ecological Service</b><p>
+                <br><p><b>5. Earthen Enclosure</b><p>
 
                 <p>Research has shown that <a href="https://www.sciencedirect.com/science/article/pii/S0141391013003066?via%3Dihub" target="_blank">enclosing plastic in earth</a> prevents abiotic plastic degradation by preventing exposure to sunlight, friction, heat, and oxygen. Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are <a href="https://pubs.acs.org/doi/10.1021/acs.est.8b06984" target="_blank">prevented</a>. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) <a href="https://aip.scitation.org/doi/abs/10.1063/1.4985426" target="_blank">can further significantly impede biotic plastic degradation.</a></p>
+                <p>By enclosing the outputs of plastic sequestration in inert, net-zero earthen building materials such as cob and adobe, the outputs of plastic sequestration can be secured.</p>
 
             
                  
