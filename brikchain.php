@@ -209,11 +209,9 @@ _END;?>
   
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
 
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.11.4/dataRender/hyperLink.js"></script>
 
 
 
-<!--
 <script>
 
 $(document).ready(function() {
@@ -226,6 +224,12 @@ $(document).ready(function() {
 } );
 
 </script>
+
+
+<!--
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.11.4/dataRender/hyperLink.js"></script>
+
 
 
 <script>
@@ -328,9 +332,9 @@ $(document).ready(function() {
                 <th>Sent</th>
                 <th>Sender</th>
                 <th>Receivers</th>
-                <th>Type</th>
-				<th>Amount</th>
-				<th>View</th>
+                <th>Block Amount</th>
+				<th>Single Amount</th>
+				<th>Ecobrick</th>
 				
             </tr>
         </thead>
@@ -341,8 +345,9 @@ $(document).ready(function() {
                 <th>Sender</th>
                 <th>Receivers</th>
                 <th>Type</th>
-				<th>Amount</th>
-				<th>View</th>
+				<th>Block Amount</th>
+				<th>Single Amount</th>
+				<th>Ecobrick</th>
 			
             </tr>
         </tfoot>

@@ -43,22 +43,29 @@ $columns = array(
     array( 'db' => 'sender_ecobricker',     'dt' => 2 ),
     array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
     array( 'db' => 'block_tran_type', 'dt' => 4 ),
+    array( 'db' => 'ecobrick_serial_no',     'dt' => 5 ),
    
     array(
         'db'        => 'block_amt',
-        'dt'        => 5,
+        'dt'        => 6,
         'formatter' => function( $d, $row ) {
             return number_format($d,2).'ß';
         }
     ),
-    array( 'db' => 'ecobrick_serial_no',     'dt' => 6 ),
-    
+    array(
+        'db'        => 'individual_amt',
+        'dt'        => 7,
+        'formatter' => function( $d, $row ) {
+            return number_format($d,2).'ß';
+        }
+    ),
   
 );
+
  
 // SQL server connection information
 $sql_details = array(
-    'user' => 'ecobricks_russs',
+    'user' => 'ecobricks_api_user',
     'pass' => '12345',
     'db'   => 'ecobricks_gobrik_msql_db',
     'host' => 'localhost'
