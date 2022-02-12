@@ -356,7 +356,7 @@ $(document).ready(function() {
 		
 <?php
 
-$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker, (SELECT total_brk FROM sum_brk_by_year WHERE sum_brk_by_year.year = YEAR(brk_transaction.send_dt) as 'yearly_total') FROM brk_transaction";
+$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker, ecobrick_id FROM brk_transaction";
 
 	
 	$result = $conn->query($sql);
@@ -368,7 +368,7 @@ $sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobr
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["sender_ecobricker"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td><td>".$row["yearly_total"]."</td></tr>";
+		echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["sender_ecobricker"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td><td>".$row["ecobrick_id"]."</td></tr>";
 		}
 		echo "</table>";
 	} else {
