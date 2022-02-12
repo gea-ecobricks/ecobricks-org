@@ -254,15 +254,15 @@
 
 
 
-	function preclosed9() {
-		var x = document.getElementById("preclosed9");
+	function preclosed10() {
+		var x = document.getElementById("preclosed10");
 		  if (x.style.display === "block") {
 			  x.style.display = "none";
 		  } else {
 			  x.style.display = "block";
 		  }
   
-	  var y = document.getElementById("block9");
+	  var y = document.getElementById("block10");
 	  if (y.style.display === "grid") {
 		  y.style.background = "#f6f6f6";
 		  y.style.display = "block";
@@ -271,7 +271,7 @@
 		  y.style.display = "grid";
 	  }
 	  
-	  var x = document.getElementById("block-toggle-show9");
+	  var x = document.getElementById("block-toggle-show10");
 		  if (x.innerHTML === "+") {
 			  x.innerHTML = "-";
 		  } else {

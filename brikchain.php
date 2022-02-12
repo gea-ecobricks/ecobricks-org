@@ -356,9 +356,9 @@ $(document).ready(function() {
 		
 <?php
 
+$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker, (SELECT total_brk FROM sum_brk_by_year WHERE sum_brk_by_year.year = YEAR(brk_transaction.send_dt) as 'yearly_total') FROM brk_transaction";
 
-$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker FROM brk_transaction";
-
+	
 	$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {
