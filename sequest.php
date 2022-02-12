@@ -14,7 +14,7 @@ echo <<<_END
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="svgs/webp/earth-floating-500px.webp">
-<link rel="preload" as="image" href="webp/blue-ode-800px.webp">
+<link rel="preload" as="image" href="webp/blue-ode-800px.webp?v2">
 
 
 
