@@ -213,7 +213,7 @@ _END;?>
 
 
 
-
+<!--
 <script>
 
 $(document).ready(function() {
@@ -239,7 +239,7 @@ $(document).ready(function() {
     } ]
   } );
 </script>
-
+-->
 
 
 <style>
@@ -351,7 +351,7 @@ $(document).ready(function() {
 
 		
 			
-	
+
 <?php include 'db.php';?>
 		
 <?php

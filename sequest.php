@@ -249,7 +249,7 @@ _END;?>
 			
 			
 			<div class="page-paragraph">
-                        <p>It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a principled alternative to industrial plastic management.  Following the <a href="plastic">Earth's example of carbon sequestration</a>, we have a proven methodology to not only secure our plastic out of the biosphere and out of industry, but also to embody <a href="principles">regenerative principles</a> and to accelerate our <a href="transition">plastic transition</a>.</p>
+                        <p>It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a principled alternative to industrial plastic management.  Following the <a href="plastic">Earth's example of carbon sequestration</a>, we have a proven methodology to not only secure our plastic out of the biosphere and out of industry, but also to embody <a href="principles">regenerative principles</a> and to accelerate our <a href="transition">plastic transition</a>.  The Global Ecobrick Alliance maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
 
                         <!--<p>
                             
@@ -269,7 +269,7 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>Theory & Science</h4>
-                    <h5>The goal of plastic sequestration is to follow the <a hre="plastic">Earth's example</a> of carbon sequestration as an ecological service.  This means preventing the degradation of plastic, the emissions and dispersal of industry in a way that is net-green.</h5>   
+                    <h5>The goal of plastic sequestration is to follow the Earth's example of carbon sequestration as an ecological service.  This means preventing the degradation of plastic, the emissions and dispersal of industry in a way that is net-green.</h5>   
                     <br>
                     </div>
 
@@ -304,24 +304,41 @@ _END;?>
 
                 <p>Research has shown that <a href="https://www.sciencedirect.com/science/article/pii/S0141391013003066?via%3Dihub" target="_blank">enclosing plastic in earth</a> prevents abiotic plastic degradation by preventing exposure to sunlight, friction, heat, and oxygen. Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are <a href="https://pubs.acs.org/doi/10.1021/acs.est.8b06984" target="_blank">prevented</a>. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) <a href="https://aip.scitation.org/doi/abs/10.1063/1.4985426" target="_blank">can further significantly impede biotic plastic degradation.</a></p>
 
-                <p>The Earth's billion year <a href="plastic">process of carbon sequestration</a> helped green the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">the six principles of the Earth's example</a>.  This way we can be sure that plastic sequestration is in fact an ecological contribution.</p>
-                <br>
-
-                <hr>
-
-                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">The Six Earthen Principles</a></h5>
-
-                
+            
                  
                 </div>
                 </div>
 
+                <a name="CRITERIA"></a>
+            <div class="reg-content-block" id="block10">
+
+                <div class="opener-header">
+                    
+                    <div class="opener-header-text">
+                    <h4>Criteria & Standards</h4>
+                    <h5>The Global Ecobrick Alliance maintains criteria and standards to ensure that the enterprise, process and outputs of plastic sequestration are an authentic ecological service.</h5>   
+                    <br>
+                    </div>
+
+                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show10">+</button>
+                </div>
+
+                <div id="preclosed10">
         <br>
-        <div class="page-paragraph-reg">
-        <h3>Criteria & Standards</h3>
-            <p>The <a href="about">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, , has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide to enterprises wishing to develope their own methodology or technology for plastic sequestration.  Our standards assists enterprises already sequestering plastic to ensure their outputs are of the highest quality-- and an ecological service.  In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
+
+            <p>The <a href="about">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide for methodologies and technologies aspiring to plastic sequestration.</p>
+
+            <p>The Earth's billion year <a href="plastic">process of carbon sequestration</a> helped green the planet.  To ensure that our process of plastic sequestration does the same, we have followed <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">the six principles of the Earth's example.  Using them we've established six criteria and associated standards for plastic sequestration</a>.  This way we can be sure that plastic sequestration is in fact an ecological contribution.</p>
+              
+            <p>Our standards assists enterprises already sequestering plastic to ensure their outputs are of the highest quality-- and an ecological service.  In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
             <br>
+
+            <hr>
+
+                <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">The Six Earthen Principles</a></h5>
+
          </div>
+        </div>
 
                 
                 
@@ -666,26 +683,6 @@ _END;?>
                 </div>
 
             
-
-
-             <br>
-             <div class="page-paragraph-reg">
-                 
-                 <div class="row">
-                
-                      <div class="main2">
-                         <h4>A Safe Road into Time</h4>
-                        
-                        <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
-                    </div>	
-
-                    <div class="side2">
-                        <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
-                    </div>
-                </div>
-            </div>
-            
-           
                 <a name="CO2"></a>
                 <div class="reg-content-block" id="block9">
 
@@ -723,6 +720,26 @@ _END;?>
                 </div>
              </div>
 
+
+
+             <br>
+             <div class="page-paragraph-reg">
+                 
+                 <div class="row">
+                
+                      <div class="main2">
+                         <h4>A Safe Road into Time</h4>
+                        
+                        <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
+                    </div>	
+
+                    <div class="side2">
+                        <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
+                    </div>
+                </div>
+            </div>
+            
+           
 
 
             <br>
