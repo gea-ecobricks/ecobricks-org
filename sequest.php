@@ -23,7 +23,7 @@ _END;?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
-<script src="accordion-scripts.js?v1"></script> 
+<script src="accordion-scripts.js?v2"></script> 
 
 
 <STYLE>
@@ -56,7 +56,7 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 60vh;
+		height: 70vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
@@ -269,7 +269,7 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>Theory & Science</h4>
-                    <h5>The goal of plastic sequestration is to follow the Earth's example of carbon sequestration as an ecological service that prevents the degradation of plastic, and the emissions and dispersal of industry .</h5>   
+                    <h5>The goal of plastic sequestration is to provide an ecological service by following the Earth's example of carbon sequestration in preventing the degradation of plastic and the emissions and dispersal of industry .</h5>   
                     <br>
                     </div>
 
@@ -309,14 +309,14 @@ _END;?>
                 </div>
                 </div>
 
-                <a name="CRITERIA"></a>
+            <a name="CRITERIA"></a>
             <div class="reg-content-block" id="block10">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
                     <h4>Criteria & Standards</h4>
-                    <h5>A framework to ensure authentic ecological service.</h5>   
+                    <h5>A framework to ensure that plastic sequestration is of authentic ecological service.</h5>   
                     <br>
                     </div>
 
@@ -706,10 +706,7 @@ _END;?>
                 </div>
             </div>
             
-           
-
-
-            <br>
+        
             <div class="page-paragraph-reg">
             <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
     
@@ -766,7 +763,7 @@ _END;?>
              </div>
 
 
-             
+
         </div>
 	
 
