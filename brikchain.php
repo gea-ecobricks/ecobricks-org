@@ -332,28 +332,30 @@ $(document).ready(function() {
                 <th>Sent</th>
                 <th>Sender</th>
                 <th>Receivers</th>
+				<th>Type</th>
+				<th>Ecobrick</th>
                 <th>Block Amount</th>
 				<th>Single Amount</th>
-				<th>Ecobrick</th>
+				
 				
             </tr>
         </thead>
         <tfoot>
             <tr>
-				<th>ID</th>
+			<th>ID</th>
                 <th>Sent</th>
                 <th>Sender</th>
                 <th>Receivers</th>
-                <th>Type</th>
-				<th>Block Amount</th>
-				<th>Single Amount</th>
+				<th>Type</th>
 				<th>Ecobrick</th>
+                <th>Block Amount</th>
+				<th>Single Amount</th>
 			
             </tr>
         </tfoot>
     </table>
 
-
+<br><br>
 		
 			
 
@@ -361,19 +363,19 @@ $(document).ready(function() {
 		
 <?php
 
-$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker, (SELECT total_brk FROM sum_brk_by_year WHERE sum_brk_by_year.year = YEAR(brk_transaction.send_dt) as 'yearly_total') FROM brk_transaction";
+$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker FROM brk_transaction";
 
 	
 	$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {
 	
-		echo'<table id="brikcoin" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th><th>Total this Year</th></tr>';
+		echo'<table id="brikcoin" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["sender_ecobricker"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td><td>".$row["yearly_total"]."</td></tr>";
+		echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["sender_ecobricker"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td></tr>";
 		}
 		echo "</table>";
 	} else {

@@ -65,7 +65,7 @@ $columns = array(
  
 // SQL server connection information
 $sql_details = array(
-    'user' => 'ecobricks_api_user',
+    'user' => 'ecobricks_russs',
     'pass' => '12345',
     'db'   => 'ecobricks_gobrik_msql_db',
     'host' => 'localhost'
