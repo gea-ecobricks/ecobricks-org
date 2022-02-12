@@ -14,7 +14,7 @@ echo <<<_END
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="svgs/webp/earth-floating-500px.webp">
-<link rel="preload" as="image" href="webp/blue-ode-800px.webp?v2">
+<link rel="preload" as="image" href="webp/blue-ode-750px.webp">
 
 
 
@@ -41,7 +41,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
 		
-		background: url(webp/blue-ode-800px.webp) bottom;
+		background: url(webp/blue-ode-750px.webp) bottom;
 		/*background-color: #8BBAF0;*/
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -230,7 +230,7 @@ _END;?>
 		<div class="splash-heading">Plastic Sequestration</div>
 	<div class="splash-sub">By following the Earth’s example with our plastic we can make a green contribution to the biosphere.</div>
 	</div>
-	<div class="splash-image"><img src="webp/earth-floating-500px.webp" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="webp/earthen-400px.webp" style="width: 80%;"></div>	
 </div>
 <div id="splash-bar"></div>
 <!--<div id="header-bar2"></div>-->
