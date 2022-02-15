@@ -2,7 +2,7 @@
 <?php
 
 $servername = "localhost";
-$username = "ecobricks_russs";
+$username = "ecobricks_api_user";
 $password = "12345";
 $dbname = "ecobricks_gobrik_msql_db";
 // Create connection
