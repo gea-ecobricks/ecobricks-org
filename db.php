@@ -3,7 +3,7 @@
 
 $servername = "localhost";
 $username = "ecobricks_api_user";
-$password = "12345";
+$password = "g0br1k";
 $dbname = "ecobricks_gobrik_msql_db";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);

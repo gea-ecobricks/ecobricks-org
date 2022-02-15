@@ -363,19 +363,19 @@ $(document).ready(function() {
 		
 <?php
 
-$sql = "SELECT tran_id, tran_name, block_tran_type, individual_amt, sender_ecobricker FROM brk_transaction";
+$sql = "SELECT * FROM sum_brk_by_year Order by `year` ASC";
 
 	
 	$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {
 	
-		echo'<table id="brikcoin" class="display"><tr><th>ID</th><th>Transaction Name</th><th>Sender</th><th>Block Type</th><th>Amount</th></tr>';
+		echo'<table id="brikcoin" class="display"><tr><th>From Date</th><th>To Date</th><th>Year</th><th>Total</th></tr>';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["tran_id"]."</td><td>".$row["tran_name"]."</td><td>".$row["sender_ecobricker"]."</td><td>".$row["block_tran_type"]."</td><td>".$row["individual_amt"]."</td></tr>";
+		echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["year"]."</td><td>".$row["total_brk"]."</td></tr>";
 		}
 		echo "</table>";
 	} else {
