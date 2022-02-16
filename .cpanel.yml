@@ -23,7 +23,6 @@ deployment:
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
     - /bin/cp ajax.php $DEPLOYPATH
-    - /bin/cp ajax.txt $DEPLOYPATH
     - /bin/cp ssp.class.php $DEPLOYPATH
     
 
@@ -61,6 +60,8 @@ deployment:
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
+    - /bin/cp ajax.php $DEPLOYPATH
+    - /bin/cp ssp.class.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -96,6 +97,8 @@ deployment:
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
+    - /bin/cp ajax.php $DEPLOYPATH
+    - /bin/cp ssp.class.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -132,6 +135,8 @@ deployment:
     - /bin/cp stylesheet-1-1.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
+    - /bin/cp ajax.php $DEPLOYPATH
+    - /bin/cp ssp.class.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
