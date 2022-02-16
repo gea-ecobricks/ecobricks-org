@@ -110,15 +110,14 @@ Redirect /2021-regen-report /2021-regenreport.php
 Redirect /2021-regen-report/ /2021-regenreport.php
 Redirect /2021-regen-report.php /2021-regenreport.php
 
-
 Redirect /coefficients /coefficients.php
 Redirect /coefficients/ /coeffecients.php
 Redirect /coeffecients /coefficients.php
 Redirect /coeffecients/ /coeffecients.php
 
 
-RedirectMatch "^/sequest" "/en/brikchain.php"
-RedirectMatch "^/sequest/" "/en/brikchain.php"
+RedirectMatch "^/brikchain" "/en/brikchain.php"
+RedirectMatch "^/brikchain/" "/en/brikchain.php"
 
 
 
