@@ -14,6 +14,7 @@ deployment:
     - /bin/cp -R photos $DEPLOYPATH
     - /bin/cp -R meta $DEPLOYPATH
     - /bin/cp -R banners $DEPLOYPATH
+    - /bin/cp -R dev $DEPLOYPATH
 
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH

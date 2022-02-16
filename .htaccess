@@ -116,8 +116,9 @@ Redirect /coefficients/ /coeffecients.php
 Redirect /coeffecients /coefficients.php
 Redirect /coeffecients/ /coeffecients.php
 
-Redirect /brikchain /brikchain.php
-Redirect /brikchain/ /brikchain.php
+
+RedirectMatch "^/sequest" "/en/brikchain.php"
+RedirectMatch "^/sequest/" "/en/brikchain.php"
 
 
 
