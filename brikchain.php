@@ -356,6 +356,8 @@ $(document).ready(function() {
     </table>
 
 <br><br>
+<h3>Brikcoin Money Supply</h3>
+<p>An overview of the brikcoins generated each year on the brikchain</p>
 		
 			
 
