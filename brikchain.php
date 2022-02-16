@@ -309,19 +309,23 @@ $(document).ready(function() {
 
 			<div class="lead-page-paragraph">
 				<br><br>
-				<p>The Global Ecobrick Alliance maintains the Brikcoin blockchain and provides the Brikchain Explorer tool as a means to search the full chain of transactions and ecobricks.</p>
+				<p>The Global Ecobrick Alliance maintains the Brikcoin blockchain and provides the Brikchain Explorer inline with <a href="principles">our principles</a> of transparency and Earth service.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>For the moment here's a full table of all the current brikcoin transactions.  Note that this feature is still under development!</p>
+				<p>Here you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and <a href="aes">ecobrick authenticated plastic</a>.</p>
 
 			</div>
+			<hr>
+			<br><br>
 				
             
 		
 		
 					
+			<h3>Brikcoin Money Supply</h3>
+<p>An overview of the brikcoins generated each year on the brikchain</p>
 
 		
 
