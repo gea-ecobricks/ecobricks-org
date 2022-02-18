@@ -381,9 +381,13 @@ _END;?>
 					<p>Before we were simply focused on reducing our grey harm (i.e. “reducing footprints”, “zero waste” and “carbon neutral”) by focusing on our green impacts, we can way beyond.   In the Ayyew spirit, our green contributions can go many times beyond of our grey and put us on a journey of cultivating ever greener harmony with the cycles of life around us.</p>
 
 					<p>The Global Ecobrick Alliance has developed fomulas, standards and indicators to generate a Plastic Transtion Score on the GoBrik.com app.  By comparing our subtraction to additive plastic impacts we measure our transition.</p>
-                    <br>
+                    
+                    <br><hr>
 
-					<img src="webp/ptr-examples-900px.webp" width="100%">
+                    <h5>🟢 Determine your socre: <a href="https://gobrik.com" target="_blank">Sign up for a GoBrik account</a></h5>
+            <br>
+
+					
 				</div>
 			</div>
 
@@ -441,6 +445,8 @@ _END;?>
 
 					<p>In otherwords, if you’re generating and ecobricking exactly the same amounts of plastic, then your score is 100 (i.e. 100% of zero waste).  A PTR below 100 shows your household is still putting plastic into the biosphere.  A score above 100 means you are removing plastic from the biosphere.</p>
                     <br>
+                    <img src="webp/ptr-examples-900px.webp" width="100%">
+                    <br>
 				</div>
 			</div>
 
@@ -486,14 +492,17 @@ _END;?>
                     <ul>
 						<li>Validating:  Validating that ecobricks have in fact been packed properly is an important part of sequestration.  Through the GoBrik platform, validators can earn Brikcoins for the hard work of reviewing an authenticating.</li>
 						<li>Brikcoins can be redeemed for the amount of AES plastic they represent.</li>
-                        <li>
-    The GEA Catalyst Program:  Our program for businesses enables you to catalyze ecobrick trainings in your community and receive credits for the ecobricked plastic that results.</li>
+                        
+                        <li>The GEA Catalyst Program:  Our program for businesses enables you to catalyze ecobrick trainings in your community and receive credits for the ecobricked plastic that results.</li>
 						<li>Selling Products and Services:  Users can sell their products on the GoBrik store for Brikcoins. Brikcoins can be redeemed for the amount of AES plastic they represent.</li>
 						<li> Becoming a Trainer:  GEA Trainers can run courses on GoBrik and charge in Brikcoins for registrations. Brikcoins can be redeemed for the amount of AES plastic they represent.</li>
 						
-					<ul></p><br><hr>
+                    </ul>
 
-                    <h5>✳️ Learn more: <a href="catalyst" target="_blank">The GEA Catalyst Program</a></h5>
+                    </p>
+                    <br><hr>
+
+                    <h5>🟢 Learn more: <a href="catalyst" target="_blank">The GEA Catalyst Program</a></h5>
             <br>
 
 					
@@ -518,7 +527,7 @@ _END;?>
                             <div class="main2">
                             <p>Plastic transition is particularily important for companies that still rely on plastic and petroleum for their operations.  Tracking and accounting for grey and green impacts is the first step.  Tracking plastic generation is in particular relevant to companies and organizations that use plastic in their business practices– whether that involves office meals and office supplies, the packaging of products, or the products themselves.<p>
                             </div>
-                            <div class="side2"><img src="webp/catalyst-logo.webp" width="88%">
+                            <div class="side2"><img src="webp/catalyst-logo.webp" width="95%">
                             </div>
                         </div>
 
@@ -570,31 +579,20 @@ _END;?>
 		
         <div id="side-module-desktop-mobile">
 			<img src="webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry">
-					<h4>Plastic is By-Product of Petro-Capital Economy</h4>
-					<h5>As petroleum has been refined into the fuels that power our economies, the leftovers chemicals are ideal for producing plastics, resulting in an abundance of cheap plastic being produced.</h5><br>
+					<h4>Plastic & the Petro-Capital Economy</h4>
+					<h5>As petroleum is refined into the fuels that power our economies, the leftovers chemicals are used to produce plastics.</h5><br>
 					<a class="module-btn" href="plastics">Plastic's Full Story</a><br><br>
 				</div>
 
 
-			<div id="side-module-desktop-mobile">
-			<img src="webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
-					<h4>Our Regen Report</h4>
-					<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
-					<a class="module-btn" href="/2021-regenreport.php">Access Report</a><br><br>
-				</div>
-
-
-				<div id="side-module-desktop-mobile">
-					<img src="webp/for-earth500px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
-					<h4>For-Earth Enterprise</h4>
-					<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-					
-				</div>
+			
 
 				<div id="side-module-desktop-mobile">
 					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
 					<h4>Global Ecobrick Alliance</h4>
-					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
+					<h5>The GEA is an Earth Enterprise dedicated to accelerating plastic transition.</h5><br>
+                    <a class="module-btn" href="about">About Us</a>
+			</div>
 					
 				</div>
 
@@ -611,6 +609,16 @@ _END;?>
 				<h5>Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
 				<a class="module-btn" href="about">About Ayyew</a>
 			</div>
+
+            <div id="side-module-desktop-mobile">
+			<img src="webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
+					<h4>Our Regen Report</h4>
+					<h5>We're proud to disclose our net-green ecological impact for the past year.</h5><br>
+					<a class="module-btn" href="/2021-regenreport.php">Access Report</a><br><br>
+				</div>
+
+
+				
 
 		</div>
 
