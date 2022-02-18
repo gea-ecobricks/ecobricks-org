@@ -26,15 +26,20 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
 
-<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this-->
+<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  
 
 <noscript>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
-</noscript>
+</noscript>-->
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.25">
+<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.26">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
@@ -87,7 +92,7 @@
 
 	
 
-<!-- Arc CDN Script without delay - turned off for the moment-->
+<!-- Arc CDN Script without delay-->
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
 
 
