@@ -81,27 +81,14 @@ Header set Cache-Control "max-age=536000, public"
 #Alternate default index pages
 DirectoryIndex welcome.php index.php
 
-RedirectMatch "^/faq\/?$" "/en/faqs.php"
 
-Redirect /faqs /faqs.php
-Redirect /faqs/ /faqs.php
 
 Redirect /arc /arc.php
 Redirect /arc/ /arc.php
 
-Redirect /what /what.php
-Redirect /what/ /what.php
 
 Redirect /catalyst /catalyst.php
 Redirect /catalyst/ /catalyst.php
-
-Redirect /about /about.php
-Redirect /about/ /about.php
-
-
-RedirectMatch "^/sequest" "/en/sequest.php"
-RedirectMatch "^/sequest/" "/en/sequest.php"
-
 
 
 Redirect /2021-regenreport /2021-regenreport.php
@@ -115,6 +102,12 @@ Redirect /coefficients/ /coeffecients.php
 Redirect /coeffecients /coefficients.php
 Redirect /coeffecients/ /coeffecients.php
 
+RedirectMatch "^/faq\/?$" "/en/faqs.php"
+
+
+RedirectMatch "^/sequest" "/en/sequest.php"
+RedirectMatch "^/sequest/" "/en/sequest.php"
+
 
 RedirectMatch "^/brikchain" "/en/brikchain.php"
 RedirectMatch "^/brikchain/" "/en/brikchain.php"
@@ -122,6 +115,16 @@ RedirectMatch "^/brikchain/" "/en/brikchain.php"
 
 RedirectMatch "^/transition" "/en/transition.php"
 RedirectMatch "^/transition/" "/en/transition.php"
+
+
+RedirectMatch "^/about" "/en/about.php"
+RedirectMatch "^/about/" "/en/about.php"
+
+
+RedirectMatch "^/what" "/en/what.php"
+RedirectMatch "^/what/" "/en/what.php"
+
+
 
 
 
