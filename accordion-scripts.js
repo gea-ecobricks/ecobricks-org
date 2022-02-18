@@ -351,10 +351,10 @@
 			x.innerHTML = "⬇ Show";
 		}
 	}
-	</script>
 
 
-<script>
+
+
 	function gobrik() {
 	  var x = document.getElementById("gobrik-questions");
 	  if (x.style.display === "block") {
@@ -370,9 +370,7 @@
 			x.innerHTML = "⬇ Show";
 		}
 	}
-	</script>
 
-<script>
 	function more() {
 	  var x = document.getElementById("more-questions");
 	  if (x.style.display === "block") {

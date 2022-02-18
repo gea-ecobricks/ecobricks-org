@@ -29,8 +29,6 @@ _END;?>
 <?php require_once ("header.php");?>
 
 
-
-
 <STYLE>
 
 #clouds {
@@ -1157,7 +1155,7 @@ _END;?>
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<script src="accordion-scripts.js" defer></script> 
+<script src="accordion-scripts.js?v2.1" defer></script> 
 
 
 </div>
