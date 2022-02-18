@@ -402,14 +402,14 @@ _END;?>
 						<p>
 						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics and the<a href="plastic">Earth’s example of greening the biosphere</a>.</p>
 						</div>
-						<div class="side2"><img src="wp-content/uploads/2021/01/authenticated-ecobrick.png" width="100%">
+						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>An ecobrick must fulfil the following crieria:</p>
 						</div>
-						<div class="side3"><img src="wp-content/uploads/2021/01/authenticated-ecobrick.png" width="125px">
+						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="125px">
 						</div>
 					</div>
 
@@ -657,18 +657,8 @@ _END;?>
 
 	<!--FOOTER STARTS HERE-->
 
+	<?php include 'footer.php'; ?>
 
-<!-- Localise translation script-->
-
-<script src="https://global.localizecdn.com/localize.js" defer></script>
-<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
-
-<script defer>
-  Localize.initialize({
-    key: '911e632bfc957',
-    rememberLanguage: true,
-  });
-</script>
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
