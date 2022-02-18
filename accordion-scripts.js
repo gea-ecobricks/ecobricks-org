@@ -281,4 +281,113 @@
   
   
 
+	  //to move!!
+
+
+
+
+	function general() {
+	  var x = document.getElementById("general-questions");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+
+	
+  var x = document.getElementById("toggle-hide");
+  if (x.innerHTML === "⬆ Hide") {
+    x.innerHTML = "⬇ Show";
+  } else {
+    x.innerHTML = "⬆ Hide";
+  }
+	}
+
+	function concerns() {
+	  var x = document.getElementById("concerns-questions");
+		if (x.style.display === "block") {
+			x.style.display = "none";
+		} else {
+			x.style.display = "block";
+		}
+	
+	var x = document.getElementById("toggle-show");
+		if (x.innerHTML === "⬇ Show") {
+			x.innerHTML = "⬆ Hide";
+		} else {
+			x.innerHTML = "⬇ Show";
+		}
+	}
+
+	function building() {
+	  var x = document.getElementById("building-questions");
+	  if (x.style.display === "block") {
+		x.style.display = "none";
+	  } else {
+		x.style.display = "block";
+	  }
+
+	  var x = document.getElementById("toggle-show2");
+		if (x.innerHTML === "⬇ Show") {
+			x.innerHTML = "⬆ Hide";
+		} else {
+			x.innerHTML = "⬇ Show";
+		}
+	}
+	
+	
+	function movement() {
+	  var x = document.getElementById("movement-questions");
+	  if (x.style.display === "block") {
+		x.style.display = "none";
+	  } else {
+		x.style.display = "block";
+	  }
+
+	  var x = document.getElementById("toggle-show3");
+		if (x.innerHTML === "⬇ Show") {
+			x.innerHTML = "⬆ Hide";
+		} else {
+			x.innerHTML = "⬇ Show";
+		}
+	}
+	</script>
+
+
+<script>
+	function gobrik() {
+	  var x = document.getElementById("gobrik-questions");
+	  if (x.style.display === "block") {
+		x.style.display = "none";
+	  } else {
+		x.style.display = "block";
+	  }
+
+	  var x = document.getElementById("toggle-show4");
+		if (x.innerHTML === "⬇ Show") {
+			x.innerHTML = "⬆ Hide";
+		} else {
+			x.innerHTML = "⬇ Show";
+		}
+	}
+	</script>
+
+<script>
+	function more() {
+	  var x = document.getElementById("more-questions");
+	  if (x.style.display === "block") {
+		x.style.display = "none";
+	  } else {
+		x.style.display = "block";
+	  }
+
+	  var x = document.getElementById("toggle-show5");
+		if (x.innerHTML === "⬇ Show") {
+			x.innerHTML = "⬆ Hide";
+		} else {
+			x.innerHTML = "⬇ Show";
+		}
+	}
+
+
 
