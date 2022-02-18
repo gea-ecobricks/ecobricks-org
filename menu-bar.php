@@ -77,7 +77,7 @@
             <div id="faq-menu-text">FAQs</div>-->
         </a>
         <a href="principles">Principles</a>
-        <a href="about">About Us</a>
+        <a href="about.php">About Us</a>
             <div class="dropdown">
                 <button class="dropbtn"><div id="drop-text">Building 
                   <i class="fa fa-caret-down"></i></div>
@@ -95,10 +95,10 @@
                   <i class="fa fa-caret-down"></i></div>
                 </button>
                 <div class="dropdown-content-normal">
-                    <a href="what">What are Ecobricks</a>
+                    <a href="what.php">What are Ecobricks</a>
                     <a href="how">How to Make?</a>
                     <a href="why">Why Ecobricks?</a>
-                    <a href="sequest">Plastic sequestration</a>
+                    <a href="sequest.php">Plastic sequestration</a>
                 </div>
             </div> 
         
