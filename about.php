@@ -288,7 +288,7 @@ _END;?>
 					<br>
 					
 					
-					<p>In this way, the plastic that we handle each day is the tip of the iceberg of the petro-capital system that is at the root of today's many of our ecological crises.  As such, plastic allows us to physically touch the petro-capital system that otherwise looms large and unseen around us.   Our every plastic choice, from purchasing to disposing, results in factories spinning, trucks transporting, and oil refined-- or, not. 
+					<p>In this way, the plastic that we handle each day is the tip of the iceberg of the petro-capital system that is at the root of today's many of our ecological crises.  As such, plastic allows us to physically touch the petro-capital system that otherwise looms large and unseen around us.   Our every plastic choice, from purchasing to disposing, results in factories spinning, trucks transporting, and oil refined-- or, not.</p>
 						
 					<p>What we do with our plastic, as it adds or decreases the momentum of the petro-capital economy has imminent ecological consequence.  Even though our personal choices may seem small, we observe that over time as our choices reverberate with others, they gather a momemtum over that time that has enormous ecological consequences. In this way, ‘leading by personal example’ is one of our <a href="principles">core principles</a>.</p>
 					
