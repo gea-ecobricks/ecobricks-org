@@ -91,9 +91,7 @@ Redirect /catalyst /catalyst.php
 Redirect /catalyst/ /catalyst.php
 
 
-
-
-RedirectMatch "^/2021-regen\/?$" "/en/2021-regenreport.php"
+Redirect 301 /2021-regen /en/2021-regenreport.php
 
 
 Redirect /coefficients /coefficients.php
