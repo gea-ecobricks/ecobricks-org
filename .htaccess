@@ -91,7 +91,11 @@ Redirect /catalyst /catalyst.php
 Redirect /catalyst/ /catalyst.php
 
 
-Redirect 301 /2021-regen /en/2021-regenreport.php
+Redirect /2021-regenreport en/2021-regenreport.php
+Redirect /2021-regenreport/ en/2021-regenreport.php
+Redirect /2021-regen-report en/2021-regenreport.php
+Redirect /2021-regen-report/ en/2021-regenreport.php
+Redirect /2021-regen-report.php en/2021-regenreport.php
 
 
 Redirect /coefficients /coefficients.php
