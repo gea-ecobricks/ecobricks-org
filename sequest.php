@@ -781,9 +781,9 @@ _END;?>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/tens-thousands.webp" width="80%">
-				<h4>Regenerative</h4>
-				<h5>Plastic sequestration is a regeneartive technologiy. This means that rather than see plastic as ‘waste’ we can see it as opportunity to move towards greener ecological harmony.</h5><br>
-				<a class="module-btn" href="about">About Ayyew</a>
+				<h4>Plastic Transition</h4>
+				<h5>Plastic sequestration is a transition technology. Rather than see plastic as ‘waste’ we see it as a portal towards petro-capital transition.</h5><br>
+				<a class="module-btn" href="transition">Learn More</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
@@ -796,7 +796,7 @@ _END;?>
             <div id="side-module-desktop-mobile">
 				<img src="webp/earthen-500px.webp" width="80%">
 				<h4>Earthen Ethics</h4>
-				<h5>Plastic Sequestration is based on following the Earth's example of ecological enrichment. The philosophy of Earthen Ethics.</h5><br>
+				<h5>Plastic Sequestration is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
 				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Learn More</a>
 			</div>
 

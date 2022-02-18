@@ -132,17 +132,19 @@ _END;?>
 }
 }
 
+
 .splash-heading { 
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    /*font-family: 'Mulish', Arial, Helvetica, sans-serif;*/
+    font-family: Arvo, serif;
   color: white;
-  font-weight: 300;
+  font-weight: 500;
   text-shadow: 0 0 8px black;
 
 }
 
 @media screen and (max-width: 700px) {
 	.splash-heading {
-      font-size: 1.8em;
+      font-size: 2.0em;
       line-height: 1.1;
       margin: 10px 0;
   }
@@ -150,29 +152,31 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 2.9em;
+      font-size: 3.3em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
 }
 
+
 .splash-sub {
-  font-family: 'Arvo', Georgia, serif;
-  color: #8DD2BF;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: #fff;
+  /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
-	/*text-shadow: 0px 0px 10px #fff;*/
+  text-shadow: 0 0 7px black;
 }
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.5em;
-		line-height: 1.5;
+		font-size: 1.2em;
+		line-height: 1.3;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 1.6em;
+		font-size: 2.1em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -222,7 +226,7 @@ _END;?>
 		<div class="splash-heading">Plastic Transition</div>
 		<div class="splash-sub">Our plastic is a portal out of our old grey world and into the green world for all we all long to see.</div>
 	</div>
-	<div class="splash-image"><img src="webp/floating-dial-500px.webp" style="width: 80%;"></div>	
+	<div class="splash-image"><img src="webp/floating-dial-500px.webp" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -402,7 +406,7 @@ _END;?>
                             <div class="main2">
                             <p>The Global Ecobrick Alliance has develop a Plastic Transition Score to track plastic transition on its GoBrik.com platform.  All accounts on GoBrik now allow the generation of a user’s score.  Scores are calculated by household– families or groups of people living under the same roof.<p>
                             </div>
-                            <div class="side2"><img src="webp/webp/floating-dial-500px.webp" width="88%">
+                            <div class="side2"><img src="webp/floating-dial-500px.webp" width="88%">
                             </div>
                         </div>
 
@@ -411,7 +415,7 @@ _END;?>
                             
 							<p><b>The first step is simple yet crucial: assessing how much plastic one’s household generates!  </b></p>
                             </div>
-                            <div class="side3"><img src="webp/webp/floating-dial-500px.webp" width="120px">
+                            <div class="side3"><img src="webp/floating-dial-500px.webp" width="120px">
                             </div>
                         </div>
 					
@@ -459,7 +463,7 @@ _END;?>
                             <div class="main2">
                             <p>The Global Ecobrick Alliance has develop a Plastic Transition Score to track plastic transition on its GoBrik.com platform.  All accounts on GoBrik now allow the generation of a user’s score.  Scores are calculated by household– families or groups of people living under the same roof.<p>
                             </div>
-                            <div class="side2"><img src="webp/aes-400px.webp" width="88%">
+                            <div class="side2"><img src="webp/aes-400px.webp" width="95%">
                             </div>
                         </div>
 
@@ -487,14 +491,16 @@ _END;?>
 						<li>Selling Products and Services:  Users can sell their products on the GoBrik store for Brikcoins. Brikcoins can be redeemed for the amount of AES plastic they represent.</li>
 						<li> Becoming a Trainer:  GEA Trainers can run courses on GoBrik and charge in Brikcoins for registrations. Brikcoins can be redeemed for the amount of AES plastic they represent.</li>
 						
-					<ul> 
-                </p>
+					<ul></p><br><hr>
+
+                    <h5>✳️ Learn more: <a href="catalyst" target="_blank">The GEA Catalyst Program</a></h5>
+            <br>
 
 					
 				</div>
 			</div>
 
-            <div class="reg-content-block" id="block6">
+            <div class="reg-content-block" id="block7">
 
 				<div class="opener-header">	
 					<div class="opener-header-text">
@@ -503,10 +509,10 @@ _END;?>
 						<br>
 					</div>
 
-					<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
+					<button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
 				</div>
 
-				<div id="preclosed5">
+				<div id="preclosed7">
 						
                 <div class="row">
                             <div class="main2">
@@ -531,7 +537,7 @@ _END;?>
 
                     <br><hr>
                     
-                    <h5>✳️ 🟢Learn more: <a href="catalyst" target="_blank">The GEA Catalyst Program</a></h5>
+                    <h5>🟢 Learn more: <a href="catalyst" target="_blank">The GEA Catalyst Program</a></h5>
 
                 </div>
             </div>
@@ -544,11 +550,11 @@ _END;?>
 				<p>Plastic transition is based on several key regenerative concepts.</p>
 
                 <ul>
-						<li>Following the <a href="plastic">Earth’s example</a> to be certain our processes are green</li>
+						<li>Following the <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">Earth’s example</a> to be certain our processes are green</li>
 						<li>Understanding the way that <a href="plastic">Earth sequestered its carbon to green the biosphere</a></li>
 						<li>The concept of <a href="sequest">plastic sequestration</a></li>
-						<li>Following <a href="principles">regenerative principles</a> as a for-Earth Enterprise</li>
-                        <li> The Regenerative <a href="ayyew">Concept of Ayyew</a> </li>
+						<li>Following <a href="principles">regenerative principles</a>.</li>
+                        <li> The regenerative <a href="ayyew">concept of Ayyew</a> </li>
 					<ul> 
                 </p>
 
@@ -591,6 +597,20 @@ _END;?>
 					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 					
 				</div>
+
+                <div id="side-module-desktop-mobile">
+				<img src="webp/earthen-500px.webp" width="80%">
+				<h4>Earthen Ethics</h4>
+				<h5>Plastic transition is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
+				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Learn More</a>
+			</div>
+
+            <div id="side-module-desktop-mobile">
+				<img src="webp/tens-thousands.webp" width="80%">
+				<h4>Regenerative</h4>
+				<h5>Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
+				<a class="module-btn" href="about">About Ayyew</a>
+			</div>
 
 		</div>
 
