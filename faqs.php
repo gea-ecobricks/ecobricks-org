@@ -12,10 +12,11 @@ echo <<<_END
 
 <!--Image files to preload that are unique to this page-->
 
+<link rel="preload" as="image" href="webp/faq-bottom.webp">
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="svgs/cloud-back.svg">
 <link rel="preload" as="image" href="webp/faq-top.webp">
-<link rel="preload" as="image" href="webp/faq-bottom.webp">
+
 
 _END;?>
 
@@ -29,119 +30,6 @@ _END;?>
 
 
 
-
-<!-- CUSTOM PAGE SCRIPTS-->
-
-<script>
-	function general() {
-	  var x = document.getElementById("general-questions");
-	  if (x.style.display === "none") {
-		x.style.display = "block";
-	  } else {
-		x.style.display = "none";
-	  }
-
-	
-  var x = document.getElementById("toggle-hide");
-  if (x.innerHTML === "⬆ Hide") {
-    x.innerHTML = "⬇ Show";
-  } else {
-    x.innerHTML = "⬆ Hide";
-  }
-	}
-</script>
-
-<script>
-	function concerns() {
-	  var x = document.getElementById("concerns-questions");
-		if (x.style.display === "block") {
-			x.style.display = "none";
-		} else {
-			x.style.display = "block";
-		}
-	
-	var x = document.getElementById("toggle-show");
-		if (x.innerHTML === "⬇ Show") {
-			x.innerHTML = "⬆ Hide";
-		} else {
-			x.innerHTML = "⬇ Show";
-		}
-	}
-</script>
-
-<script>
-	function building() {
-	  var x = document.getElementById("building-questions");
-	  if (x.style.display === "block") {
-		x.style.display = "none";
-	  } else {
-		x.style.display = "block";
-	  }
-
-	  var x = document.getElementById("toggle-show2");
-		if (x.innerHTML === "⬇ Show") {
-			x.innerHTML = "⬆ Hide";
-		} else {
-			x.innerHTML = "⬇ Show";
-		}
-	}
-	
-	</script>
-
-<script>
-	function movement() {
-	  var x = document.getElementById("movement-questions");
-	  if (x.style.display === "block") {
-		x.style.display = "none";
-	  } else {
-		x.style.display = "block";
-	  }
-
-	  var x = document.getElementById("toggle-show3");
-		if (x.innerHTML === "⬇ Show") {
-			x.innerHTML = "⬆ Hide";
-		} else {
-			x.innerHTML = "⬇ Show";
-		}
-	}
-	</script>
-
-
-<script>
-	function gobrik() {
-	  var x = document.getElementById("gobrik-questions");
-	  if (x.style.display === "block") {
-		x.style.display = "none";
-	  } else {
-		x.style.display = "block";
-	  }
-
-	  var x = document.getElementById("toggle-show4");
-		if (x.innerHTML === "⬇ Show") {
-			x.innerHTML = "⬆ Hide";
-		} else {
-			x.innerHTML = "⬇ Show";
-		}
-	}
-	</script>
-
-<script>
-	function more() {
-	  var x = document.getElementById("more-questions");
-	  if (x.style.display === "block") {
-		x.style.display = "none";
-	  } else {
-		x.style.display = "block";
-	  }
-
-	  var x = document.getElementById("toggle-show5");
-		if (x.innerHTML === "⬇ Show") {
-			x.innerHTML = "⬆ Hide";
-		} else {
-			x.innerHTML = "⬇ Show";
-		}
-	}
-</script>
 
 <STYLE>
 
@@ -1254,17 +1142,23 @@ _END;?>
 
 	<!--FOOTER ENDS HERE-->
 
-	<!-- Localise translation script-->
+	
+<!-- Localise translation script-->
 
-<script src="https://global.localizecdn.com/localize.js"></script>
+<script src="https://global.localizecdn.com/localize.js" defer></script>
 <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
 
-<script>
+<script defer>
   Localize.initialize({
     key: '911e632bfc957',
     rememberLanguage: true,
   });
 </script>
+
+<!-- CUSTOM PAGE SCRIPTS-->
+
+<script src="accordion-scripts.js" defer></script> 
+
 
 </div>
 </body>
