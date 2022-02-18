@@ -120,6 +120,11 @@ RedirectMatch "^/brikchain" "/en/brikchain.php"
 RedirectMatch "^/brikchain/" "/en/brikchain.php"
 
 
+RedirectMatch "^/transition" "/en/transition.php"
+RedirectMatch "^/transition/" "/en/transition.php"
+
+
+
 
 
 

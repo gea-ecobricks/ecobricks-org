@@ -384,7 +384,7 @@ _END;?>
                     
                     <br><hr>
 
-                    <h5>🟢 Determine your socre: <a href="https://gobrik.com" target="_blank">Sign up for a GoBrik account</a></h5>
+                    <h5>🟢 Determine your transition score: <a href="https://gobrik.com" target="_blank">Sign up for a GoBrik account</a></h5>
             <br>
 
 					
@@ -592,11 +592,11 @@ _END;?>
 					<h4>Global Ecobrick Alliance</h4>
 					<h5>The GEA is an Earth Enterprise dedicated to accelerating plastic transition.</h5><br>
                     <a class="module-btn" href="about">About Us</a>
-			</div>
+			    </div>
 					
-				</div>
+				
 
-                <div id="side-module-desktop-mobile">
+            <div id="side-module-desktop-mobile">
 				<img src="webp/earthen-500px.webp" width="80%">
 				<h4>Earthen Ethics</h4>
 				<h5>Plastic transition is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
