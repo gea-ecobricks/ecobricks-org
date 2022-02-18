@@ -22,8 +22,6 @@ _END;?>
 <?php require_once ("header.php");?>
 
 
-<!-- CUSTOM PAGE SCRIPTS-->
-<script src="accordion-scripts.js"></script> 
 
 
 <STYLE>
@@ -510,17 +508,9 @@ _END;?>
 
 	<!--FOOTER ENDS HERE-->
 
-	<!-- Localise translation script-->
 
-<script src="https://global.localizecdn.com/localize.js"></script>
-<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
-
-<script>
-  Localize.initialize({
-    key: '911e632bfc957',
-    rememberLanguage: true,
-  });
-</script>
+<!-- CUSTOM PAGE SCRIPTS-->
+<script src="accordion-scripts.js" defer></script> 
 
 </div>
 </body>
