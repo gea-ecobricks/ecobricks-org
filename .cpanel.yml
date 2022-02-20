@@ -41,6 +41,7 @@ deployment:
     - /bin/cp 2021-regenreport.php $DEPLOYPATH
     - /bin/cp sequest.php $DEPLOYPATH
     - /bin/cp transition.php $DEPLOYPATH
+    - /bin/cp build.php $DEPLOYPATH
 
   
     - export DEPLOYPATH=/home/ecobricks/public_html/en/
@@ -79,6 +80,7 @@ deployment:
     - /bin/cp 2021-regenreport.php $DEPLOYPATH
     - /bin/cp sequest.php $DEPLOYPATH
     - /bin/cp transition.php $DEPLOYPATH
+    - /bin/cp build.php $DEPLOYPATH
 
 
     - export DEPLOYPATH=/home/ecobricks/public_html/es/
@@ -117,6 +119,7 @@ deployment:
     - /bin/cp 2021-regenreport.php $DEPLOYPATH
     - /bin/cp sequest.php $DEPLOYPATH
     - /bin/cp transition.php $DEPLOYPATH
+    - /bin/cp build.php $DEPLOYPATH
 
 
 
@@ -156,3 +159,4 @@ deployment:
     - /bin/cp 2021-regenreport.php $DEPLOYPATH
     - /bin/cp sequest.php $DEPLOYPATH
     - /bin/cp transition.php $DEPLOYPATH
+    - /bin/cp build.php $DEPLOYPATH
