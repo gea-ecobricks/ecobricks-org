@@ -106,6 +106,8 @@ Redirect /coeffecients /coefficients.php
 Redirect /coeffecients/ /coeffecients.php
 
 RedirectMatch "^/faq\/?$" "/en/faqs.php"
+RedirectMatch "^/faqs\/?$" "/en/faqs.php"
+
 
 
 RedirectMatch "^/sequest" "/en/sequest.php"
