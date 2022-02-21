@@ -252,7 +252,7 @@ _END;?>
 			<div class="page-paragraph">
                         <p>That said, building with plastic is a big responsibility.  It is key to build mindfully with ecobricks– plastic let loose in the environment can can be toxic and our building methods must ensure that it is fully secured.  To make sure that our plastic is safe and secure for the short and the long term the Global Ecobrick Alliance (GEA) has established guidelines and standards for ecobrick building and best-practices.</p>
 
-                        <p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
+                        <p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>
 							
             </div>	
 			<a name="APPROVED"></a>
@@ -302,16 +302,11 @@ _END;?>
                 <div id="preclosed10">
         <br>
 
-            <p>The <a href="about">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide for methodologies and technologies aspiring to plastic sequestration.</p>
+            <img src="http://russs.net/wp-content/uploads/2019/08/IMG_20190802_134629.jpg" width="100%">
 
-            <p>The Earth's billion year <a href="plastic">process of carbon sequestration</a> helped green the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">the six principles of the Earth's example.</a>  Using them we've established six criteria and associated standards for plastic sequestration.</p>
+            <p>Before you build with ecobricks, it is essential to store them properly.  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements.  Ecobricks are best stacked horizontally with their bottom pointed outwards.  This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.</p>
 
-            <p>Our criteria help us all ensure that the enterprise, outputs and processes of plastic sequestration are in fact an authentic ecological contribution.</p>
-              
-            <p>Our standards assists enterprises to measure the calibre and quality of their plastic sequestration outputs and processes.</p>
-
-            <p> In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
-            <br>
+            
 
             <hr>
 
@@ -334,35 +329,28 @@ _END;?>
 
 				<div id="preclosed3">
 
-                <p><b>In the same way that the Earth sequestered carbon by concentrating, securing and storing it indefinitely, plastic sequestration must do the same.</b></p>
-
-					<div class="row">
-						<div class="main2">
-						
-                        <p>The Earth’s cycles steadily led to to more and more carbon being secured from all forms of solar, chemical and organic degradation.  In the same way, plastic sequestration must concentrate plastic must do the same.  Keeping plastic as plastic and securing it into long-term, indefinite and secured storage is key to its sequestration. </p>
-						</div>
-						<div class="side2"><img src="webp/compacted-carbon.webp" width="92%">
-						</div>
-					</div>
-
-					<div class="row2">
-						<div class="main3">
-						<p>Keeping plastic that has already been produced as plastic as plastic is an effective way to keep its carbon from getting loose.</p>
-						
-						</div>
-						<div class="side3"><br><img src="webp/compacted-carbon.webp" width="150px">
-						</div>
-					</div>
+                <img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2019/10/Milstein-modules-flat.svg" width="100%">
+        
+				
 					
-					<p>Plastic degrades quickly when it is exposed to sun, fire, oxygen and/or friction.  Its degradation is in proportion to its surface area.   As the majority of of modern plastic is in the form of thin films, when it is loose and exposed, it is prone to rapid degradation. Plastic degrades by fragmenting into smaller and smaller particles, known as micro-plastics, green house gases and toxins.</p>
+					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need is 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs . Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
 
-                    <p>By compacting thin, high-surface area plastic, the net exposed area is reduced a thousand-fold.  The GEA has found that a reaching a density of 0.33 g/ml achieves a terminal reduction of net surface area for the majority of modern thin film plastics.  Once compacted and contained plastic is secured from degradation and can remain intact indefinitely.</p><br>
+                    <hr>
+                    <h3>Caution</h3>
+                    <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.<p>Ecobricks modules should only be used in indoors</p>
 
-                    <p><b>Sequestration Standard</b></p>
-                    <p>To be considered plastic sequestration, the processing of plastic must achieve the minimum density of 0.33 g/ml and ensure secure, indefinite storage.</p>
+                    <h3>Maintenance</h3>
+                    <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
+
+                    <h3>Next Life</h3>
+                    <p>  Well used ecobrick Milstein Modules wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.
+
+                    <h3>Caution</h3>
+                    <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.
+                    <p>
                     <br><hr>
 
-                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-oysters-example-6172c62a9a0b" target="_blank">The Earthen Principle of Concentration</a></h5>
+                    <h5>🌍 Learn more: <a href="milstein">All About Milstein Modules</a></h5>
 
                     <p>
 				</div>
@@ -664,21 +652,21 @@ _END;?>
 		<div class="side">
 	
 			<div id="side-module-desktop-mobile">
-				<img src="svgs/circle-bench.svg" width="90%">
+				<img src="svgs/circle-bench.svg" width="100%">
 				<br><h4>Following the Earth's Example</h4>
 				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
 				<a class="module-btn" href="about">Plastic's Long Story</a>
                 <br>
 			</div>  
             <div id="side-module-desktop-mobile">
-                <img src="webp/tens-thousands.webp" width="80%">
+                <img src="webp/tens-thousands.webp" width="100%">
                 <h4>Ecobricks</h4>
                 <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
                 <a class="module-btn" href="catalyst">🚀 Learn More</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
+				<img src="webp/earth-home-400px.webp" width="80%">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
 				<a class="module-btn" href="transition">Learn More</a>
@@ -712,17 +700,7 @@ _END;?>
 
 	<!--FOOTER ENDS HERE-->
 
-	<!-- Localise translation script-->
-
-<script src="https://global.localizecdn.com/localize.js" defer></script>
-<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
-
-<script defer>
-  Localize.initialize({
-    key: '911e632bfc957',
-    rememberLanguage: true,
-  });
-</script>
+	
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
