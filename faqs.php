@@ -687,7 +687,7 @@ _END;?>
 					
 					<p>Ecobrick open spaces!  By combining dozens, or hundreds of milstein and dieleman modules you've got a ecobrick lego that can be deployed at any time to make a customized social space.  Ideal for sitting, talking, meeting and playing open spaces, they can be deployed for festivals, showcases, markets, fairs, etc.  The modularity enables participants to playfully arrange a space that best suits the needs of the moment.</p>
 
-					<div class="faq-link"><h5>Learn more: <a href="openspaces">More about Ecobrick Open Spaces</a></h5></div>        
+					<div class="faq-link"><h5>Learn more: <a href="openspace">More about Ecobrick Open Spaces</a></h5></div>        
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>               
 				</div>
 				<div class="faq-image"><img src="webp/openspace.webp" alt="Eco bricks can make open spaces"></div>

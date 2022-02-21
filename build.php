@@ -335,8 +335,8 @@ _END;?>
 					
 					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need is 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs . Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
 
-                    <hr>
-                    <h3>Caution</h3>
+                    <br><br>
+                    <h4>Caution</h4>
                     <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.<p>Ecobricks modules should only be used in indoors</p>
 
                     <h3>Maintenance</h3>
@@ -372,37 +372,37 @@ _END;?>
             </div>
 
             <div id="preclosed2">
-            <p><b>In the same way that the Earth's processes led to the circular use of carbon in cycles that spiralled towards sequestration so too must the process of plastic sequestration.</b></p>
+            <img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2019/10/Dm-modules-flat.svg" width="100%">
 
                 <div class="row">
                     <div class="main2">
                    
-                    <p>The Earth's processes used carbon based building blocks that were resuable over and over by organisms and ecosystems.  Overtime, this biomass tended towards concentration and sequestration under the earth.  In the same way, the outputs of plastic sequestration, must intend the same.</p>
+                    <p>So this is pretty cool– ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.  DMs interconnect just like Legos.  They stack one upon the other and enable you to make walls, towers and columns, quickly and easily without any glue or mortar.</p>
                     </div>
-                    <div class="side2"><img src="webp/spiral-design-381px.webp" width="80%">
+                    <div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2019/02/46377573_1021267181367108_2012240595342327808_o-300x224.jpg" width="80%">
                     </div>
                 </div>
 
                 <div class="row2">
                     <div class="main3">
-                    <p>As such plastic sequestration is by-definiton a non-industrial process.</p>
+                    <p>The DMs can then be disassembled just as easily.</p>
                     </div>
-                    <div class="side3"><br><img src="webp/spiral-design-381px.webp" width="120px">
+                    <div class="side3"><br><img src="https://www.ecobricks.org/wp-content/uploads/2019/02/46377573_1021267181367108_2012240595342327808_o-300x224.jpg" width="120px">
                     </div>
                 </div>
 
-                <p>Industrial plastic plastic management methods are by definition linear and circular.  Plastic recycling, incineration and landfilling spirals plastic towards dispersion.  Industrial methods are powered by fossil fuels that are decompacted and burned, loosening their carbon into the atmosphere.</p>
+                <p>Usage:  Awesome for indoor playgrounds and building structures for concerts or fairs in minutes. Can be taken apart and stored just as fast!</p>
 
 
-                <p>In comparison, the Earth has used carbon as a means– in a circular process.  Carbon molecules such as nucleic acids, proteins, lipids and glycans make up all organisms– and when one organism comes to an end, another begins by building itself with the other’s blocks.  This continues indefinitely, until the carbon is subsumed into long-term sequestration.</p><br>
+                <p>Maintenance:  Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
 
-                <p>Intending net-green outputs that can be reused indefinitely until they are eventually sequestered earthen applications is known as spiral design.</p>
+                <p>Next Life:  Well used ecobrick Milstein Modules wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.</p>
 
-                <br><p><b>Plastic Sequestration Standards</b><p>
-                <p>To be considered sequestered, plastic sequestration outputs must be demonstrably reusable.  Their application must prevent abiotic and biotic degradation, reducing  specific surface degradation rate (SSDR) of the plastic to below 0.1 μm year–1.</p>
+                <p>Caution:  For indoor use only.  Ecobricks are exposed and thus the furniture cannot be used outside– UV rays will degrade and fade your ecobricks. Untested for outdoor long-term building projects.<p>
+                
                 <br><hr>
 
-                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/towards-cycles-that-spiral-a2cea98b59c4" target="_blank">The Earthen Principle of Spiral Cycling</a></h5>
+                    <h5>🌍 Learn more: <a href="dms">All About Dieleman Modules</a></h5>
             
                 
             </div>
@@ -423,35 +423,13 @@ _END;?>
                 </div>
 
                 <div id="preclosed4">
-                <p><b>In the same way that the Earth’s processes tend towards the benefit the biosphere, the enterprise of plastic plastic sequestration must intend the same.</p></b>
-                    <div class="row">
-                            <div class="main2">
-                            
-                            <p>At all levels of the biosphere, we can see that its many parts contribute upwards to the benefit of the whole.   The cells of a leaf, the leaves of a tree, and the trees of a forests spiral benefits upwards to the whole. In the same way, the enterprise of plastic sequestration must be structured to prioritize the upwards benefit of the whole rather than the downwards benefit of a few.</p>
-                            </div>
-                            <div class="side2"><img src="webp/for-earth500px.webp" width="95%">
-                            </div>
-                        </div>
 
-                        <div class="row2">
-                            <div class="main3">
-                            <p>Industrial methods of plastic processing are driven by for-profit enterprise.</p>
-                            </div>
-                            <div class="side3"><br><img src="webp/for-earth500px.webp" width="120px">
-                            </div>
-                        </div>
-                    
-                    <p>In for-profit enterprise, profit has priority over all other intentions, and spirals benefits downward towards owners and shareholder.  This is contrary to the geometry of the Earth's ecological systems.</p>
+                <img src="https://cdn.ecobricks.org/wp-content/uploads/2021/01/Ashims-Module.png" width=100%">
 
-                    <p>While industrial systems may have the best intentions, they operate within the petro-capital economy.  As such they are constrained to its forces. Industrial methods are driven by profit to recover the recover the capital-value of plastic. Once this value is exhausted, plastic is cycled out of industry to the biosphere.</p>
-
-                    <p>As such, the enterprise of plastic sequestration must be must be not-for-profit and for the biosphere’s benefit.</p>
-
-                    <br><p><b>Plastic Sequestration Standards</b><p>
-                    <p>Enterprises undertaking the process of plastic sequestration must formally declare their not-for-profit, for-Earth structure.</p>
+                <p>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.  These modules are an ideal place to start to learn the basics of Earth building.  We use their construction in GEA Builder courses as a simple, non-structural start to the fundamental earth building techniques.</p>
                     <br><hr>
 
-                    <h5>🌍 Learn more: <a href="https://medium.com/@russellmaier/the-salmon-its-sharing-of-surpluses-a4f981978360" target="_blank">The Earthen Principle of Biosphere Benefit</a></h5>
+                    <h5>🌍 Learn more: <a href="earth" target="_blank">Earth & Ecobrick Building</a></h5>
 
 
                 </div>
@@ -476,33 +454,30 @@ _END;?>
 
 				<div id="preclosed5">
 
-                    <p><b>Just as the Earth's cycles subtract more carbon from the biosphere than they add, so too must the enterprise of plastic sequestration.</b></b>
+                    <img src="https://www.ecobricks.org/wp-content/uploads/2019/10/48389253_10217573596633499_5321135820256575488_n.jpg" width="100%">
 
                     <div class="row">
                             <div class="main2">
-                            <p>The net result of the Earth's cycles has been the subtraction of more carbon from the atmosphere than was added back into it.  The steady sequestration of carbon led over time to the greening of the biosphere.   In the same way, the enterprise of plastic sequestration must subtract more carbon into secure storage than it emits and adds.</p>
+                            <p>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands.  These ecobricks can then be combined into an assortment of Milstein and Dieleman modules to create a diverse set of several hundred modules.   These modules can then be deployed for confernces, exhibtions, fairs and other special events to create customized interactive spaces.   These spaces can either be setup in advance or invite participants to interact, play and create their own space.  </p>
                             </div>
-                            <div class="side2"><img src="icons/balance-glow-500px.webp" width="100%">
+                            <div class="side2"><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="100%">
                             </div>
                         </div>
 
                         <div class="row2">
                             <div class="main3">
-                            <p>The processing of plastic within industry results in the net-addition of carbon into the atmosphere and the creation of more plastic.</p>
+                            <p>Ecobrick communities that have amassed Open Space sets often rent out to events and venues to show case ecobrick modular technology and regenerative principles.</p>
                             </div>
-                            <div class="side3"><br><img src="icons/balance-glow-500px.webp" width="120px">
+                            <div class="side3"><br><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="120px">
                             </div>
                         </div>
 					
 					
-					<p>In this way, the enterprise of plastic sequestration must account for its various additive (grey) and subtractive (green) ecological impacts and it must show that the net result of the process is the subtraction of plastic and CO2 from the biosphere.  Only when it is net-subtractive can it be considered plastic sequestration.</p>
-                    <br>
-                    <p><b>Plastic Transition Standards</b><p>
-                    <p>Enterprises publically declare their net-green intention.  Enterprises account yearly for their subtractive and additive impacts and ensure that are net-green.</p><br><hr>
+					<br><hr>
 
                 
 
-                    <h5>🌍 Learn more: <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0" target="_blank">The Earthern Principle of Net-Subtraction</a></h5>
+                    <h5>🌍 Learn more: <a href="openspace" target="_blank">Ecobrick Open Spaces</a></h5>
 
                   
 			
@@ -666,7 +641,7 @@ _END;?>
             </div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/earth-home-400px.webp" width="80%">
+				<img src="webp/earthhome-400px.webp" width="100%">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
 				<a class="module-btn" href="transition">Learn More</a>
