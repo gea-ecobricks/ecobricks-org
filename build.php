@@ -339,21 +339,25 @@ _END;?>
 					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need is 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs . Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
 
                     <br><br>
-                    <h4>🟠 Caution</h4>
-                    <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.<p>Ecobricks modules should only be used in indoors</p>
-
+                    <hr>
+                    
                     <h4>🟡 Maintenance</h4>
                     <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
+                    <br>
+                    <hr>
 
                     <h4>🟢 Next Life</h4>
                     <p>  Well used ecobrick Milstein Modules wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.
-
+                    <br>
+                    <hr>
                     <h4>🔴 Caution</h4>
                     <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.
                     <p>
                     <br>
+                    <hr>
 
-                    <a class="action-btn" href="milstein">ℹ️ All About Milstein Modules</a>
+                    <a class="action-btn" href="milstein">▶🚀 Get started with Modules!</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Milstein modules.</a></p>
 
                     <p>
 				</div>
@@ -596,7 +600,7 @@ _END;?>
                       <div class="main2">
                          <h4>A Safe Road into Time</h4>
                         
-                        <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
+                        <p>By putting ecobricks to use in ways that follow the criteria of plastic sequestration, our goal is to put our plastic on a safe road through time.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
                     </div>	
 
                     <div class="side2">
@@ -605,23 +609,6 @@ _END;?>
                 </div>
             </div>
             
-        
-            <div class="page-paragraph-reg">
-            <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
-    
-                <div class="row">
-                    
-                    <div class="main2">
-                            
-                            <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.  Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in hundreds of millions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it into another cycle.  In the way that plastic was a gift to our age, we can gift our carbon to another. </p>
-                     </div>
-
-                    <div class="side2">
-                        <br><img src="webp/ayyew.webp" width="100%"></a>
-                    </div>
-                </div>	
-            
-            </div>
 
 
         </div>
