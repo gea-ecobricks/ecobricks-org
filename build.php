@@ -205,7 +205,11 @@ _END;?>
 
 }
 
-
+hr {border: gray;
+border-style: dashed;
+border-width: 1px;
+margin-top: 20px;
+margin-bottom: 20px;}
 	
 </style>	
 
@@ -354,9 +358,9 @@ _END;?>
                     <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.
                     <p>
                     <br>
-                    <hr>
+                    
 
-                    <a class="action-btn" href="milstein">▶🚀 Get started with Modules!</a>
+                    <a class="action-btn" href="milstein">🚀 Get started with Modules!</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Milstein modules.</a></p>
 
                     <p>
@@ -601,7 +605,10 @@ _END;?>
                          <h4>A Safe Road into Time</h4>
                         
                         <p>By putting ecobricks to use in ways that follow the criteria of plastic sequestration, our goal is to put our plastic on a safe road through time.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
-                    </div>	
+                        <b><p>End of Life Agreements</p></b>
+                        <p>The Global Ecobrick Alliance recommends that in community and commercial ecobrick builds (in particular using earthen construction) that end-of-life agreements be established.  These agreements plan for the end of the construction and the removal, responsibility and resuse of the ecobricks.</p>
+                        <p><a href="">See a sample, free use, agreement here.</a>
+                    </div></p>
 
                     <div class="side2">
                         <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
