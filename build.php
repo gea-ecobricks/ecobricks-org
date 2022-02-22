@@ -38,9 +38,9 @@ _END;?>
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-	
-		/*background: url(svgs/BlUE-ode-to-plastic-Sequestration.svg) bottom;*/
-		background-color: #FA8D04;
+        background-color: #FA8D04;
+		background: url(ecobricks-org/webp/build-banner-1400px.webp) top;
+		
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -57,13 +57,14 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 70vh;
+		height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
 		
-		/*background: url(svgs/BlUE-ode-to-plastic-Sequestration.svg) bottom;*/
-		background-color: #FA8D04;
+        background-color: #FA8D04;
+		background: url(ecobricks-org/webp/build-banner-1400px.webp) top;
+		
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -201,15 +202,15 @@ box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
   -o-transform: skewY(-3deg);
   transform: skewY(-3deg);*/
 
-	margin-bottom: -50px;
+	margin-bottom: 40px;
 
 }
 
 hr {border: gray;
 border-style: dashed;
 border-width: 1px;
-margin-top: 40px;
-margin-bottom: 20px;}
+margin-top: 35px;
+margin-bottom: 35px;}
 	
 </style>	
 
@@ -358,6 +359,7 @@ margin-bottom: 20px;}
                     <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.
                     <p>
                     <hr>
+                    <br>
                     
 
                     <a class="action-btn" href="milstein">🚀 Get started with Modules!</a>
