@@ -447,12 +447,33 @@ margin-bottom: 31px;}
 
                 <div id="preclosed4">
 
-                <img src="https://cdn.ecobricks.org/wp-content/uploads/2021/01/Ashims-Module.png" width=100%">
+                <img src="photos/earth-module-623px.jpg" width=100%">
 
                 <p>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.  These modules are an ideal place to start to learn the basics of Earth building.  We use their construction in GEA Builder courses as a simple, non-structural start to the fundamental earth building techniques.</p>
-                    <br><hr>
+                    <br>
 
-                    <h5>🌍 Learn more: <a href="earth" target="_blank">Earth & Ecobrick Building</a></h5>
+                 
+                    
+                <hr>
+                    
+                    <h4>🟡 Maintenance</h4>
+                    <p>Modules must be move around carefully.</p>
+                    
+                    <hr>
+
+                    <h4>🟢 Next Life</h4>
+                    <p>  Once broken or cracked, modules can be broken and their ecobricks extracted and reused.
+                    
+                    <hr>
+                    <h4>🔴 Caution</h4>
+                    <p>Avoid building with cement as the ecobricks won't be removeable.  Final modules can also be very heavy.
+                    <p>
+                    <hr>
+                    <br>
+                    
+
+                    <a class="action-btn" href="dms">🚀 Get started with Earth Modules!</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about earth and ecobrick building.</a></p>
 
 
                 </div>
@@ -477,11 +498,13 @@ margin-bottom: 31px;}
 
 				<div id="preclosed5">
 
-                    <img src="https://www.ecobricks.org/wp-content/uploads/2019/10/48389253_10217573596633499_5321135820256575488_n.jpg" width="100%">
+                    <img src="photos/openspace-960px.jpg" width="100%">
+
+                    <p>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands.  These ecobricks can then be combined into an assortment of Milstein and Dieleman modules to create a diverse set of several hundred modules.</p>
 
                     <div class="row">
                             <div class="main2">
-                            <p>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands.  These ecobricks can then be combined into an assortment of Milstein and Dieleman modules to create a diverse set of several hundred modules.   These modules can then be deployed for confernces, exhibtions, fairs and other special events to create customized interactive spaces.   These spaces can either be setup in advance or invite participants to interact, play and create their own space.  </p>
+                               <p>These modules can then be deployed for confernces, exhibtions, fairs and other special events to create customized interactive spaces.   These spaces can either be setup in advance or invite participants to interact, play and create their own space.  </p>
                             </div>
                             <div class="side2"><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="100%">
                             </div>
@@ -616,8 +639,8 @@ margin-bottom: 31px;}
                       <div class="main2">
                          <h4>A Safe Road into Time</h4>
                         
-                        <p>By putting ecobricks to use in ways that follow the criteria of plastic sequestration, our goal is to put our plastic on a safe road through time.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
-                        <b><p>End of Life Agreements</p></b>
+                        <p>By putting ecobricks to use in ways that follow the criteria of plastic sequestration, our goal is to put our plastic on a safe road through time.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p><br>
+                        <p><b>End of Life Agreements</b></p>
                         <p>The Global Ecobrick Alliance recommends that in community and commercial ecobrick builds (in particular using earthen construction) that end-of-life agreements be established.  These agreements plan for the end of the construction and the removal, responsibility and resuse of the ecobricks.</p>
                         <p><a href="">See a sample, free use, agreement here.</a>
                     </div></p>
