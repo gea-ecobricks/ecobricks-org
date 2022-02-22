@@ -39,7 +39,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
         background-color: #FA8D04;
-		background: url(webp/build-banner-1400px.webp) top;
+		background: url(webp/build-banner-1400px.webp) bottom;
 		
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -63,7 +63,7 @@ _END;?>
 		position: relative;
 		
         background-color: #FA8D04;
-		background: url(webp/build-banner-1400px.webp) top;
+		background: url(webp/build-banner-1400px.webp) bottom;
 		
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
@@ -306,18 +306,18 @@ margin-bottom: 31px;}
                 <div id="preclosed10">
         <br>
 
-            <img src="http://russs.net/wp-content/uploads/2019/08/IMG_20190802_134629.jpg" width="100%">
+            <img src="photos/eco-brick-storage-1000px" width="100%" alt="An example of an eco brick storage depot to prepare for building">
 
             <br>
             <p>Before you build with ecobricks, it is essential to store them properly.  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements.  Ecobricks are best stacked horizontally with their bottom pointed outwards.  This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.</p>
 
-            <img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/10-Store-your-ecobrik-1000px.png" width="100%">
+            <img src="webp/storage-banner-990px.webp" width="100%">
 
             
 
             <br>
 
-                <h5>🌍 Learn more about making ecobricks properly and their storage: <a href="how" target="_blank">How to make an ecobrick</a></h5>
+                <h5>🌍 Learn more about making ecobricks properly and their storage: <a href="how">How to make an ecobrick</a></h5>
 
          </div>
         </div>
