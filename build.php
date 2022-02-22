@@ -38,9 +38,9 @@ _END;?>
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		
-		background: url(webp/blue-ode-750px.webp) bottom;
-		/*background-color: #8BBAF0;*/
+	
+		/*background: url(svgs/BlUE-ode-to-plastic-Sequestration.svg) bottom;*/
+		background-color: #FA8D04;
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -62,8 +62,8 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		background: url(svgs/BlUE-ode-to-plastic-Sequestration.svg) bottom;
-		/*background-color: #fff;*/
+		/*background: url(svgs/BlUE-ode-to-plastic-Sequestration.svg) bottom;*/
+		background-color: #FA8D04;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -192,8 +192,8 @@ _END;?>
 	position: relative;
 	z-index: 0;
 
-/*    box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-    background-color: #fff;
+box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+    background-color: #FA8D04;
 
 	-webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
@@ -208,7 +208,7 @@ _END;?>
 hr {border: gray;
 border-style: dashed;
 border-width: 1px;
-margin-top: 20px;
+margin-top: 40px;
 margin-bottom: 20px;}
 	
 </style>	
@@ -336,28 +336,28 @@ margin-bottom: 20px;}
 
 				<div id="preclosed3">
 
-                <img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2019/10/Milstein-modules-flat.svg" width="100%">
+                <img src="webp/milstein-modules-750px.webp" width="100%">
         
 				
 					
 					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need is 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs . Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
 
-                    <br><br>
+                    
                     <hr>
                     
                     <h4>🟡 Maintenance</h4>
                     <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
-                    <br>
+                    
                     <hr>
 
                     <h4>🟢 Next Life</h4>
                     <p>  Well used ecobrick Milstein Modules wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.
-                    <br>
+                    
                     <hr>
                     <h4>🔴 Caution</h4>
                     <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.
                     <p>
-                    <br>
+                    <hr>
                     
 
                     <a class="action-btn" href="milstein">🚀 Get started with Modules!</a>
