@@ -39,7 +39,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
         background-color: #FA8D04;
-		background: url(ecobricks-org/webp/build-banner-1400px.webp) top;
+		background: url(webp/build-banner-1400px.webp) top;
 		
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -63,7 +63,7 @@ _END;?>
 		position: relative;
 		
         background-color: #FA8D04;
-		background: url(ecobricks-org/webp/build-banner-1400px.webp) top;
+		background: url(webp/build-banner-1400px.webp) top;
 		
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
@@ -200,8 +200,7 @@ box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
   -moz-transform: skewY(-3deg);
   -ms-transform: skewY(-3deg);
   -o-transform: skewY(-3deg);
-  transform: skewY(-3deg);*/
-
+  transform: skewY(-3deg);
 	margin-bottom: 40px;
 
 }
@@ -209,8 +208,8 @@ box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 hr {border: gray;
 border-style: dashed;
 border-width: 1px;
-margin-top: 35px;
-margin-bottom: 35px;}
+margin-top: 31px;
+margin-bottom: 31px;}
 	
 </style>	
 
@@ -249,15 +248,15 @@ margin-bottom: 35px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Ecobricks can build furniture, gardens, play parks, structures and more. The only limit is our imaginations and the collaboration of your community.</p>
+				<p>Ecobricks can build furniture, gardens, play parks, structures and more. The only limit is our imagination!</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
-                        <p>That said, building with plastic is a big responsibility.  It is key to build mindfully with ecobricks– plastic let loose in the environment can can be toxic and our building methods must ensure that it is fully secured.  To make sure that our plastic is safe and secure for the short and the long term the Global Ecobrick Alliance (GEA) has established guidelines and standards for ecobrick building and best-practices.</p>
+                        <p>That said, building with ecobricks, and the plastic they contain, is a big responsibility.   To make sure that our plastic is <a href="sequest">sequestered</a> for the short and the long term the Global Ecobrick Alliance recommends certain ecobrick applications and has developed guidelines and building principles to help guide safe and secure construction.</p>
 
-                        <p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>
+                        <!--<p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
 							
             </div>	
 			<a name="APPROVED"></a>
@@ -266,7 +265,7 @@ margin-bottom: 35px;}
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>GEA Approved Applications</h4>
+                    <h4>Recommended Applications</h4>
                     <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
                     <br>
                     </div>
