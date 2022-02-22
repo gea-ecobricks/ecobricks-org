@@ -306,7 +306,7 @@ margin-bottom: 31px;}
                 <div id="preclosed10">
         <br>
 
-            <img src="photos/eco-brick-storage-1000px" width="100%" alt="An example of an eco brick storage depot to prepare for building">
+            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building">
 
             <br>
             <p>Before you build with ecobricks, it is essential to store them properly.  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements.  Ecobricks are best stacked horizontally with their bottom pointed outwards.  This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.</p>
@@ -317,7 +317,7 @@ margin-bottom: 31px;}
 
             <br>
 
-                <h5>🌍 Learn more about making ecobricks properly and their storage: <a href="how">How to make an ecobrick</a></h5>
+                <h5>ℹ️ Learn more about making ecobricks properly and their storage: <a href="how">How to make an ecobrick</a></h5>
 
          </div>
         </div>
@@ -364,7 +364,7 @@ margin-bottom: 31px;}
                     <a class="action-btn" href="milstein">🚀 Get started with Modules!</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Milstein modules.</a></p>
 
-                    <p>
+                    
 				</div>
 			</div>
 
@@ -384,12 +384,14 @@ margin-bottom: 31px;}
             </div>
 
             <div id="preclosed2">
+            
+            <p> <p>So this is pretty cool– ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.</p>
             <img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2019/10/Dm-modules-flat.svg" width="100%">
 
                 <div class="row">
                     <div class="main2">
                    
-                    <p>So this is pretty cool– ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.  DMs interconnect just like Legos.  They stack one upon the other and enable you to make walls, towers and columns, quickly and easily without any glue or mortar.</p>
+                     <p>DMs interconnect just like Legos.  They stack one upon the other and enable you to make walls, towers and columns, quickly and easily without any glue or mortar.  Best Usage:  Awesome for open spaces, indoor playgrounds and building structures for concerts or fairs in minutes. Can be taken apart and stored just as fast!</p>
                     </div>
                     <div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2019/02/46377573_1021267181367108_2012240595342327808_o-300x224.jpg" width="80%">
                     </div>
@@ -403,20 +405,29 @@ margin-bottom: 31px;}
                     </div>
                 </div>
 
-                <p>Usage:  Awesome for indoor playgrounds and building structures for concerts or fairs in minutes. Can be taken apart and stored just as fast!</p>
+              
+                    
+                <hr>
+                    
+                    <h4>🟡 Maintenance</h4>
+                    <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
+                    
+                    <hr>
 
+                    <h4>🟢 Next Life</h4>
+                    <p>  Well-used DMs wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.
+                    
+                    <hr>
+                    <h4>🔴 Caution</h4>
+                    <p>For indoor use only.  The UV rays in sunlight will degrade and fade your DMs and weaken the ecobrick's plastic.
+                    <p>
+                    <hr>
+                    <br>
+                    
 
-                <p>Maintenance:  Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
+                    <a class="action-btn" href="dms">🚀 Get started with Modules!</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Dieleman modules.</a></p>
 
-                <p>Next Life:  Well used ecobrick Milstein Modules wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.</p>
-
-                <p>Caution:  For indoor use only.  Ecobricks are exposed and thus the furniture cannot be used outside– UV rays will degrade and fade your ecobricks. Untested for outdoor long-term building projects.<p>
-                
-                <br><hr>
-
-                    <h5>🌍 Learn more: <a href="dms">All About Dieleman Modules</a></h5>
-            
-                
             </div>
             </div>
 
