@@ -304,13 +304,16 @@ _END;?>
 
             <img src="http://russs.net/wp-content/uploads/2019/08/IMG_20190802_134629.jpg" width="100%">
 
+            <br>
             <p>Before you build with ecobricks, it is essential to store them properly.  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements.  Ecobricks are best stacked horizontally with their bottom pointed outwards.  This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.</p>
+
+            <img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/10-Store-your-ecobrik-1000px.png" width="100%">
 
             
 
-            <hr>
+            <br>
 
-                <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">The Six Earthen Principles</a></h5>
+                <h5>🌍 Learn more about making ecobricks properly and their storage: <a href="how" target="_blank">How to make an ecobrick</a></h5>
 
          </div>
         </div>
@@ -336,21 +339,21 @@ _END;?>
 					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need is 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs . Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
 
                     <br><br>
-                    <h4>Caution</h4>
+                    <h4>🟠 Caution</h4>
                     <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.<p>Ecobricks modules should only be used in indoors</p>
 
-                    <h3>Maintenance</h3>
+                    <h4>🟡 Maintenance</h4>
                     <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
 
-                    <h3>Next Life</h3>
+                    <h4>🟢 Next Life</h4>
                     <p>  Well used ecobrick Milstein Modules wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.
 
-                    <h3>Caution</h3>
+                    <h4>🔴 Caution</h4>
                     <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.
                     <p>
-                    <br><hr>
+                    <br>
 
-                    <h5>🌍 Learn more: <a href="milstein">All About Milstein Modules</a></h5>
+                    <a class="action-btn" href="milstein">ℹ️ All About Milstein Modules</a>
 
                     <p>
 				</div>
@@ -363,8 +366,8 @@ _END;?>
             <div class="opener-header">
                 
                 <div class="opener-header-text">
-                <h4>2. Spiral Design</h4>
-                <h5>Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.</h5>
+                <h4>2. Dieleman Modules</h4>
+                <h5>Ecobricks can be combined into modules that can be used to build vertically and horizontally much like LEGO.</h5>
                 <br>
                 </div>
 
