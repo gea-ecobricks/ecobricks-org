@@ -145,7 +145,7 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-heading {
-      font-size: 2.0em;
+      font-size: 3.0em;
       line-height: 1.1;
       margin: 10px 0;
   }
@@ -153,7 +153,7 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 3.3em;
+      font-size: 4em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
@@ -170,14 +170,14 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.2em;
+		font-size: 1.9em;
 		line-height: 1.3;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 2.1em;
+		font-size: 2.5em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -188,7 +188,7 @@ _END;?>
 	margin-top: -50px;
 	width: 100%;
 	
-	height:100px;	
+	height:80px;	
 	
 	position: relative;
 	z-index: 0;
@@ -351,7 +351,7 @@ margin-bottom: 31px;}
                     <hr>
 
                     <h4>🟢 Next Life</h4>
-                    <p>  Well used ecobrick Milstein Modules wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.
+                    <p>  Well used ecobrick Milstein Modules wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.</p>
                     
                     <hr>
                     <h4>🔴 Caution</h4>
@@ -384,9 +384,13 @@ margin-bottom: 31px;}
             </div>
 
             <div id="preclosed2">
+
+            <img src="webp/dm-modules-1000px.webp" width="100%">
             
             <p> <p>So this is pretty cool– ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.</p>
-            <img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2019/10/Dm-modules-flat.svg" width="100%">
+
+            <img src="https://www.ecobricks.org/wp-content/uploads/2019/02/46377573_1021267181367108_2012240595342327808_o-300x224.jpg" width="100%">
+            
 
                 <div class="row">
                     <div class="main2">
@@ -415,7 +419,7 @@ margin-bottom: 31px;}
                     <hr>
 
                     <h4>🟢 Next Life</h4>
-                    <p>  Well-used DMs wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.
+                    <p>  Well-used DMs wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.</p>
                     
                     <hr>
                     <h4>🔴 Caution</h4>
@@ -431,7 +435,7 @@ margin-bottom: 31px;}
             </div>
             </div>
 
-            <a name="EARTHEN"></a>
+            <a name="EARTHMODS"></a>
             <div class="reg-content-block" id="block4">
 
                 <div class="opener-header">
@@ -462,7 +466,7 @@ margin-bottom: 31px;}
                     <hr>
 
                     <h4>🟢 Next Life</h4>
-                    <p>  Once broken or cracked, modules can be broken and their ecobricks extracted and reused.
+                    <p>  Once broken or cracked, modules can be broken and their ecobricks extracted and reused.</p>
                     
                     <hr>
                     <h4>🔴 Caution</h4>
@@ -529,6 +533,63 @@ margin-bottom: 31px;}
 			
 				</div>
 			</div>
+
+
+			<a name="EARTEHN"></a>
+            <div class="reg-content-block" id="block6">
+
+            <div class="opener-header">
+                
+                <div class="opener-header-text">
+                <h4>5. Earth & Ecobrick Building</h4>
+                <h5>The most enduring and greenest way to build with ecobricks is using Earth Building techniques.</h5>
+                <br>
+                </div>
+
+                <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
+            </div>
+
+            <div id="preclosed6">
+
+            <img src="https://cdn.ecobricks.org/wp-content/uploads/2019/11/circle-bench-earth-building.png" width="100%">
+            
+            <p>Our number one choice for structural building!  This method is strong, earthquake resilient, allows curved walls and designs, allows ecobricks to be recycled at the end of the construction, and relies only on 100% organic, locally-sourced materials that cost next to nothing.</p>
+            
+            <p> Earth building was used by our ancestors to build homes and structures that have endured for centuries.  This general method is known by different names in different languages and continents– cob, adobe, wattle-and-daub, etc.  By using local earth, straw and sand to make the mortar for the ecobricks we can build in ways that are resilient, strong, beautiful, and thermal-retentive.</p>
+
+            <p>Earth building is in full resonance with our principles— it is simple and replicable, non-capital, non-petroleum, collaboration powered, cradle-to-cradle and potently regenerative. Earth building techniques are gender and age transcendent:  involving men and women, young and old, and everyone in between in the building process.</p>
+
+            <p>Earth and Ecobrick Building is ideal for constructing simple garden spaces – playgrounds and what we call ‘food forest play parks‘.  The Ecobrick and Earth Building techniques can then be extrapolated for wall and structure construction.</p>
+
+            <p>The Earth Building technique can completely cover ecobricks, effectively securing them indefinitely in the construction.  This keeps them safe from UV light and other forms of degradation.  After 10, 20 or 100 years, when your structure comes to its end (as everything eventually does) the ecobricks can be extricated undamaged and fully repurposed.</p>
+
+        
+                    
+                <hr>
+                    
+                    <h4>🟡 Maintenance</h4>
+                    <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
+                    
+                    <hr>
+
+                    <h4>🟢 Next Life</h4>
+                    <p>  Earth and ecobrick constructions disassemble into crumbled cob mortar which can be returned to the earth without problem (or reused in another earth construction!).  The ecobricks can be removed from the crumbled cob to be reused in any way.</p>
+                    
+                    <hr>
+                    <h4>🔴 Caution</h4>
+                    <p>  It’s outside of the corporate construction paradigm: your bank won’t give you a mortgage, insurance companies won’t cover it, and your hands and feet will get dirty.
+                    <p>
+                    <hr>
+                    <br>
+                    
+
+                    <a class="action-btn" href="dms">🚀 Get started with Modules!</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Dieleman modules.</a></p>
+
+            </div>
+            </div>
+
+
 
             <a name="MORE"></a>
             <div class="reg-content-block" id="block6">
