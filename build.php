@@ -38,8 +38,9 @@ _END;?>
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-        background-color: #FA8D04;
+       
 		background: url(webp/build-banner-1400px.webp) bottom;
+        background-color: #FA8D04;
 		
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -390,7 +391,7 @@ margin-bottom: 31px;}
             
             <p> <p>So this is pretty cool– ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.</p>
 
-            <img src="https://www.ecobricks.org/wp-content/uploads/2019/02/46377573_1021267181367108_2012240595342327808_o-300x224.jpg" width="100%">
+            <img src="" width="100%">
             
 
                 <div class="row">
@@ -398,7 +399,7 @@ margin-bottom: 31px;}
                    
                      <p>DMs interconnect just like Legos.  They stack one upon the other and enable you to make walls, towers and columns, quickly and easily without any glue or mortar.  Best Usage:  Awesome for open spaces, indoor playgrounds and building structures for concerts or fairs in minutes. Can be taken apart and stored just as fast!</p>
                     </div>
-                    <div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2019/02/46377573_1021267181367108_2012240595342327808_o-300x224.jpg" width="80%">
+                    <div class="side2"><img src="photos/dms-300px.jpg" width="300px">
                     </div>
                 </div>
 
@@ -406,7 +407,7 @@ margin-bottom: 31px;}
                     <div class="main3">
                     <p>The DMs can then be disassembled just as easily.</p>
                     </div>
-                    <div class="side3"><br><img src="https://www.ecobricks.org/wp-content/uploads/2019/02/46377573_1021267181367108_2012240595342327808_o-300x224.jpg" width="120px">
+                    <div class="side3"><br><img src="photos/dms-300px.jpg" width="120px">
                     </div>
                 </div>
 
@@ -457,9 +458,6 @@ margin-bottom: 31px;}
                 <p>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.  These modules are an ideal place to start to learn the basics of Earth building.  We use their construction in GEA Builder courses as a simple, non-structural start to the fundamental earth building techniques.</p>
                     <br>
 
-                 
-                    
-                <hr>
                     
                     <h4>🟡 Maintenance</h4>
                     <p>Earth modules must be move around carefully as they can crack and break.</p>
@@ -494,7 +492,7 @@ margin-bottom: 31px;}
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>Modular Open Spaces</h4>
+					<h4>Open Spaces</h4>
 					<h5>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands. </h5>
 					<br>
 					</div>
@@ -525,10 +523,8 @@ margin-bottom: 31px;}
                         </div>
 					
 					
-					<br><hr>
+					<br>
 
-                    
-                    <hr>
                     
                     <h4>🟡 Maintenance</h4>
                     <p>Open space modules sets should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
@@ -546,8 +542,8 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="openspaces">🚀 Get started with open spaes!</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Open Spaces.</a></p>
+                    <a class="action-btn" href="openspaces">🚀 Build an Open Space!</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ecobrick Open Spaces.</a></p>
 
                   
 			
@@ -581,7 +577,7 @@ margin-bottom: 31px;}
                             <div class="main2">
                             <p>Earth building is in full resonance with our principles— it is simple and replicable, non-capital, non-petroleum, collaboration powered, cradle-to-cradle and potently regenerative. Earth building techniques are gender and age transcendent:  involving men and women, young and old, and everyone in between in the building process.</p>
                             </div>
-                            <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2019/11/circle-bench-earth-building.png" width="100%">
+                            <div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2020/04/cricle-bench-and-mango-tree-simple.svg" width="100%">
                             </div>
                         </div>
 
@@ -589,7 +585,7 @@ margin-bottom: 31px;}
                             <div class="main3">
                             <p>Earth and Ecobrick Building is ideal for constructing simple garden spaces – playgrounds and what we call ‘food forest play parks‘.</p>
                             </div>
-                            <div class="side3"><br><img src="https://cdn.ecobricks.org/wp-content/uploads/2019/11/circle-bench-earth-building.png" width="120px">
+                            <div class="side3"><br><img src="https://www.ecobricks.org/wp-content/uploads/2020/04/cricle-bench-and-mango-tree-simple.svg" width="120px">
                             </div>
                         </div>
                         
@@ -648,7 +644,8 @@ margin-bottom: 31px;}
 
                 <img src="https://www.ecobricks.org/wp-content/uploads/2019/10/17264529_672787756215054_6682259577377211329_n.jpg" width="100%">
 
-                <p>People around the world are building all sorts of great and unique things with their ecobrick!  Did you know that Ecobricks float really well?  We can’t wait to see the first Ecobrick boats and islands. Have you seen or developed useful applications?  Please share with us, or help our team develop this page further.   Share your photos on the web with the hash tag #ecobricks.  Post your ideas and photos in the comments section below. From baseball bats to boats, the sky is the limit on what you can use Ecobricks for!  Ecobricks can be used for getting fit, for games and more.</p>
+                <p>People around the world are building all sorts of great and unique things with their ecobrick!  Did you know that Ecobricks float really well?  We can’t wait to see the first Ecobrick boats and islands. Have you seen or developed useful applications?  Please share with us, or help our team develop this page further.   Share your photos on the web with the hash tag #ecobricks.</p>
+                <p>From baseball bats to boats, the sky is the limit on what you can use Ecobricks for!  Ecobricks can be used for getting fit, for games and more.</p>
 
 
                 </div>
@@ -656,7 +653,7 @@ margin-bottom: 31px;}
             </div>
 
             <a name="MAINTENANCE"></a>
-            <div class="reg-content-block" id="block7">
+            <div class="reg-content-block" id="block8">
 
 				<div class="opener-header">
 					
@@ -666,10 +663,10 @@ margin-bottom: 31px;}
 					<br>
 					</div>
 
-					<button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+					<button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
 				</div>
 
-				<div id="preclosed7">   
+				<div id="preclosed8">   
 
                 <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintence and the end of the construction is key.</p>
 
@@ -736,7 +733,7 @@ margin-bottom: 31px;}
                 <img src="webp/tens-thousands.webp" width="100%">
                 <h4>Ecobricks</h4>
                 <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
-                <a class="module-btn" href="catalyst">🚀 Learn More</a>
+                <a class="module-btn" href="sequest">Plastic Sequestration</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
