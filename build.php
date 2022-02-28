@@ -62,8 +62,9 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-        background-color: #FA8D04;
+        
 		background: url(webp/build-banner-1400px.webp) bottom;
+        background-color: #FA8D04;
 		
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
@@ -461,16 +462,17 @@ margin-bottom: 31px;}
                 <hr>
                     
                     <h4>🟡 Maintenance</h4>
-                    <p>Modules must be move around carefully.</p>
+                    <p>Earth modules must be move around carefully as they can crack and break.</p>
                     
                     <hr>
 
                     <h4>🟢 Next Life</h4>
-                    <p>  Once broken or cracked, modules can be broken and their ecobricks extracted and reused.</p>
+                    <p>  Once broken or cracked, modules can be destroyed and their ecobricks extracted and reused.  If pure cob has been used, this too can be wet and reused in earth building projects.</p>
                     
                     <hr>
                     <h4>🔴 Caution</h4>
-                    <p>Avoid building with cement as the ecobricks won't be removeable.  Final modules can also be very heavy.
+                    <p>Avoid building fully with cement.  Cementing ecobricks make them often impossible to remove without the bottle being ruptured.</p>
+                    <p>Often earth modules can also be very heavy and care must be used in moving them.
                     <p>
                     <hr>
                     <br>
@@ -525,9 +527,27 @@ margin-bottom: 31px;}
 					
 					<br><hr>
 
-                
+                    
+                    <hr>
+                    
+                    <h4>🟡 Maintenance</h4>
+                    <p>Open space modules sets should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
+                    
+                    <hr>
 
-                    <h5>🌍 Learn more: <a href="openspace" target="_blank">Ecobrick Open Spaces</a></h5>
+                    <h4>🟢 Next Life</h4>
+                    <p>  Well used ecobrick modules wil last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.</p>
+                    
+                    <hr>
+                    <h4>🔴 Caution</h4>
+                    <p>Open spaces should be indoor or in covered spaces only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.
+                    <p>
+                    <hr>
+                    <br>
+                    
+
+                    <a class="action-btn" href="openspaces">🚀 Get started with open spaes!</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Open Spaces.</a></p>
 
                   
 			
@@ -551,24 +571,43 @@ margin-bottom: 31px;}
 
             <div id="preclosed6">
 
-            <img src="https://cdn.ecobricks.org/wp-content/uploads/2019/11/circle-bench-earth-building.png" width="100%">
+            <img src="https://www.ecobricks.org/wp-content/uploads/2017/05/green-space.jpg" width="100%">
             
             <p>Our number one choice for structural building!  This method is strong, earthquake resilient, allows curved walls and designs, allows ecobricks to be recycled at the end of the construction, and relies only on 100% organic, locally-sourced materials that cost next to nothing.</p>
             
             <p> Earth building was used by our ancestors to build homes and structures that have endured for centuries.  This general method is known by different names in different languages and continents– cob, adobe, wattle-and-daub, etc.  By using local earth, straw and sand to make the mortar for the ecobricks we can build in ways that are resilient, strong, beautiful, and thermal-retentive.</p>
 
-            <p>Earth building is in full resonance with our principles— it is simple and replicable, non-capital, non-petroleum, collaboration powered, cradle-to-cradle and potently regenerative. Earth building techniques are gender and age transcendent:  involving men and women, young and old, and everyone in between in the building process.</p>
+            <div class="row">
+                            <div class="main2">
+                            <p>Earth building is in full resonance with our principles— it is simple and replicable, non-capital, non-petroleum, collaboration powered, cradle-to-cradle and potently regenerative. Earth building techniques are gender and age transcendent:  involving men and women, young and old, and everyone in between in the building process.</p>
+                            </div>
+                            <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2019/11/circle-bench-earth-building.png" width="100%">
+                            </div>
+                        </div>
 
-            <p>Earth and Ecobrick Building is ideal for constructing simple garden spaces – playgrounds and what we call ‘food forest play parks‘.  The Ecobrick and Earth Building techniques can then be extrapolated for wall and structure construction.</p>
+                        <div class="row2">
+                            <div class="main3">
+                            <p>Earth and Ecobrick Building is ideal for constructing simple garden spaces – playgrounds and what we call ‘food forest play parks‘.</p>
+                            </div>
+                            <div class="side3"><br><img src="https://cdn.ecobricks.org/wp-content/uploads/2019/11/circle-bench-earth-building.png" width="120px">
+                            </div>
+                        </div>
+                        
+                        
+
+            
+            
+            <p>The Ecobrick and Earth Building techniques can then be extrapolated for wall and structure construction.</p>
+
+            
 
             <p>The Earth Building technique can completely cover ecobricks, effectively securing them indefinitely in the construction.  This keeps them safe from UV light and other forms of degradation.  After 10, 20 or 100 years, when your structure comes to its end (as everything eventually does) the ecobricks can be extricated undamaged and fully repurposed.</p>
 
-        
-                    
+         
                 <hr>
                     
                     <h4>🟡 Maintenance</h4>
-                    <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
+                    <p>Earth modules need to be regularily inspected.  Cracks and breaks to the wall are best quickly repaired to avoid erosion to the structure.</p>
                     
                     <hr>
 
@@ -583,8 +622,8 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="dms">🚀 Get started with Modules!</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Dieleman modules.</a></p>
+                    <a class="action-btn" href="earth">🚀 Get started with Earth Building!</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Earth & Ecobrick Building.</a></p>
 
             </div>
             </div>
@@ -592,7 +631,7 @@ margin-bottom: 31px;}
 
 
             <a name="MORE"></a>
-            <div class="reg-content-block" id="block6">
+            <div class="reg-content-block" id="block7">
 
                 <div class="opener-header">
                     
@@ -602,41 +641,15 @@ margin-bottom: 31px;}
                     <br>
                     </div>
 
-                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
+                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
                 </div>
 
                 <div id="preclosed6">
 
-                <p><b>In the same way that the Earth’s process steadily increased biodiversication, so too must our process of plastic sequestration.</b></p>
+                <img src="https://www.ecobricks.org/wp-content/uploads/2019/10/17264529_672787756215054_6682259577377211329_n.jpg" width="100%">
 
-                    <div class="row">
-                            <div class="main2">
-                            <p>The Earth’s use of carbon enabled life to flourish and diversify. Likewise, the short-term use of sequestered plastic must be such that it supports life in the short term and enables biodiversity in the long-term.</p>
-                            </div>
-                            <div class="side2"><img src="webp/biodiversity-500px.webp" width="85%">
-                            </div>
-                        </div>
+                <p>People around the world are building all sorts of great and unique things with their ecobrick!  Did you know that Ecobricks float really well?  We can’t wait to see the first Ecobrick boats and islands. Have you seen or developed useful applications?  Please share with us, or help our team develop this page further.   Share your photos on the web with the hash tag #ecobricks.  Post your ideas and photos in the comments section below. From baseball bats to boats, the sky is the limit on what you can use Ecobricks for!  Ecobricks can be used for getting fit, for games and more.</p>
 
-                        <div class="row2">
-                            <div class="main3">
-                            <p>The outputs of plastic sequestration must be intended for applications that support biodiversity.</p>
-                            </div>
-                            <div class="side3"><br><img src="webp/biodiversity-500px.webp" width="120px">
-                            </div>
-                        </div>
-                    
-                    <p>When sequestration leads to short-term building blocks, these can be used in the creation of green spaces,  gardens and food-forest and the decontamination of plastic polluted areas.Critically, the plastic blocks must be used in such a way that they do not degrade or contaminate and thus impede life.</p>
-
-                    <p>In the long-term sequestered plastic must be entirely protected from all forms of degradation (heat, light, friction, oxygen and micro-organism) so that it also does not contaminate and harm life and its diversity.</p>
-
-                    <p>In contrast industrial plastic processing relies on factories, facilities and dump sites that occupy the spaces of what were once fields and forests.  These spaces can no longer support the surrounding ecology and result in a net decrease in biodiversity.</p>
-
-                    <br>
-                    <p><b>Plastic Transition Standards</b><p>
-                    <p>Outputs of plastic sequestration must be designed for applications that demonstrably support life and its diversification.  Plastic sequestration enterprises must track and disclose their net-impact on local biodiversity.</p>
-                    
-                    <br><hr>
-                    <h5>🌍 Learn more:<a href="https://medium.com/earthen/the-ethic-of-biodiversity-b5b600bc4a70" target="_blank">The Earthen Principle of Diversification</a></h5>
 
                 </div>
                
@@ -658,35 +671,28 @@ margin-bottom: 31px;}
 
 				<div id="preclosed7">   
 
-                <p><b>In the same way that the Earth has cultivated ever greater ecological awareness, the enterprise of plastic sequestration must do the same through ecological impact accounting and disclosure.</b></p>
+                <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintence and the end of the construction is key.</p>
 
-                    <div class="row">
-                            <div class="main2">
-                            <p>The Earth’s cycles lead to the an ever increasing awareness of those impacted in an ecosystem.  Plastic sequestration must likewise increase our awareness through an accounting and disclosure of the ecological impacts of the process.</p>
-                            </div>
-                            <div class="side2"><img src="webp/ecological-consciousness-500px.webp" width="90%">
-                            </div>
-                        </div>
-
-                        <div class="row2">
-                            <div class="main3">
-                            <p>In the past, industrial plastic processing distanced consumers from the ecological consequences of plastic consumption.</p>
-                            </div>
-                            <div class="side3"><br><img src="webp/ecological-consciousness-500px.webp" width="120px">
-                            </div>
-                        </div>
+                   
 					
 					<p>Industrial plastic management removes consumer participation and agency in the process.  Through long-distance export, the ecological impact of plastic processing is hidden from consumers. By purporting to have a plastic solution, industry has encouraged the unabated consumption of plastic.  This has led to a steady increase of plastic consumption, production and pollution over the last 50 years.</p>
 
-					<p>Plastic sequestration must be transparent, open and accountable.  Plastic sequestration must return accurate data to those consuming plastic through an accounting of its ecological impacts near and far.</p>
+					<h4>Short Term Applications</h4>
 
-					<p>Only if the process raises individual and collective awareness can it be considered plastic sequestration.</p>
-                    <br>
-                    <p><b>Plastic Transition Standards</b><p>
-                    <p>The enterprise of plastic sequestration must track and publically disclose in carbon, plastic and biodiversity impacts.</p>
+					<p>Ecobrick furniture and modules need regular cleaning and repair.  Our GEA Trainer Team who have several hundred ecobrick modules that they regularily rent out to cities and exhibitions, spend one day a year cleaning their modules with a high powered hose and soap.  They also dismantle weak modules and repair them with silicone.</p>
+                    
+                    <p>Part of ensuring the longevity of ecobrick modules is to train those who use the modules how to handle them.  Modules should always be moved with two hands.  This is especially important with ecobrick Dieleman lego which new users are often tempted to grab with one hand.</p>
+
+                    <p><b>Long-Term Applications</b><p>
+                    <p> Earth and Ecobrick builds often represent large amounts of secured plastic.  When building on government or community land, it is key to establish a long term maintenance agreement with the custodians of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks.<p> 
+
+                    <p>View a sample GEA Ecobrick Construction Long term Custodian agreement:</p>
+
+                    <p><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank">GEA Earth Building Terms of Transfer ENG</a></p>
+                    <p><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank">GEA Earth Building Terms of Transfer INDONESIAN</a></p>
 					<br><hr>
                     
-                    <h5>🌍 Learn more: <a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">The Earthen Ethic of Awareness</a></h5>
+                
 			
 				</div>
 			</div>

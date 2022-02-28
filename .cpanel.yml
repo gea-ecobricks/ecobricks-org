@@ -81,6 +81,8 @@ deployment:
     - /bin/cp sequest.php $DEPLOYPATH
     - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
+    - /bin/cp media.php $DEPLOYPATH
+
 
 
     - export DEPLOYPATH=/home/ecobricks/public_html/es/
@@ -120,6 +122,7 @@ deployment:
     - /bin/cp sequest.php $DEPLOYPATH
     - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
+    - /bin/cp media.php $DEPLOYPATH
 
 
 
@@ -160,3 +163,4 @@ deployment:
     - /bin/cp sequest.php $DEPLOYPATH
     - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
+    - /bin/cp media.php $DEPLOYPATH
