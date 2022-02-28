@@ -240,7 +240,7 @@ _END;?>
 			</div>
 
 			<div class="page-paragraph">
-				<p>The Global Ecobrick Alliance, is a not-for-profit Earth Enterprises that uses the spelling and terminology that have been collectively determined by the global ecobrick movement and established on Wikipedia over the last decade.  As attempts to appropriate many of these terms and concepts are being made by for-profit companies and corporations,  we encourage the usage of the Wikipedia accepted terms and concepts (as laid out below and on <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia</a>) by ecobrickers, researchers and journalist to add consistentcy and momentum to local and global grass roots plastic transition movements.<p> 
+				<p>The Global Ecobrick Alliance uses the spelling and terminology that have been collectively determined by the global ecobrick movement and established on the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks article</a>.  We encourage the same usage of terminology and concepts by researchers and journalist to add consistentcy and momentum to local and global grass roots plastic transition movements.  We provide a handy layout of these terms, general misconcptions and the various creative commons licenses surrounding our own materials here.<p> 
 
 			</div>	
 
@@ -262,9 +262,10 @@ _END;?>
 					<br>
 					
 					<p><b>Ecobrick</b></p>
-                    <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2016, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.  The agreement was made to spell ‘ecobrick‘, as a common noun (non-hyphenated, without spaces or special capitalization).  Since 2017 this is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">wikipedia.org/wiki/<b>Ecobricks.</b></a>
+                    <p>"ecobrick" -- no space, hyphen or added capitalization is the recongnized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">wikipedia.org/wiki/<b>Ecobricks.</b></a></p>
+                    <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2016, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.  
                     </p>
-                    NOTE:  Many other brick making technologies borrow the term ecobrick.  However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick">recognized wikipedia disambiguation.</a><br>
+                    NOTE:  Other brick making technologies borrow the term ecobrick.  Corporations such as Nestle have attempted to appropriate the word for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick">recognized wikipedia disambiguation for the non-hyphenated spelling.</a><br>
                     <p><b>Plastic Sequestration</b></p>
                     <p>The goal of ecobricking is the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sequestration of plastic</a>.  This is the official term as defined on wikipedia.</p>
                     <br>
@@ -290,7 +291,7 @@ _END;?>
 					<p>
 
                     <ul>
-			<li>“Ecobricks are made with plastic trash”— No where in Global Ecobrick Alliance materials do we refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.</li>
+			<li><b><i>“Ecobricks are made with plastic trash"</i></b> The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.</li>
             <li>“Ecobricks are for building schools and homes”— Although you can build structures with them, 99% of ecobricks are being used for small home, school and community creations.  We focus on tiny applications, like furniture models, Lego, and especially gardens as per our principles.</li>
             <li>“Ecobricks are for developing countries and poor people”— Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  See our transcaste principle.</li>
             <li>“Ecobricks are for places where recycling isn’t an option” — Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the failing recycling industry.</li>
