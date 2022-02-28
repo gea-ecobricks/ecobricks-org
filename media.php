@@ -59,8 +59,8 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		background: url(svgs/gray-to-green-catalyst-banner3.svg) bottom;
-		background-color: #4f8a28ff;
+		background: url(svgs/gray-to-blue-media-banner.svg) bottom;
+		background-color: #4a4affe9;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -182,8 +182,7 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #4f8a28ff;
-	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
+	background-color: #4a4affe9;
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
@@ -241,9 +240,7 @@ _END;?>
 			</div>
 
 			<div class="page-paragraph">
-				<p>The Global Ecobrick Alliance endorses the spelling and terminology that have been collectively determined by the ecobrick movement and we encourage like usage.   The terminology, principles and concepts listed here are mirrored on the official wikipedia Ecobricks page.  For Global Ecobrick Alliance content, please follow our attribution guidelines for quotations, videos and photos.><p> 
-
-				
+				<p>The Global Ecobrick Alliance, is a not-for-profit Earth Enterprises that uses the spelling and terminology that have been collectively determined by the global ecobrick movement and established on Wikipedia over the last decade.  As attempts to appropriate many of these terms and concepts are being made by for-profit companies and corporations,  we encourage the usage of the Wikipedia accepted terms and concepts (as laid out below and on <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia</a>) by ecobrickers, researchers and journalist to add consistentcy and momentum to local and global grass roots plastic transition movements.<p> 
 
 			</div>	
 
@@ -264,8 +261,21 @@ _END;?>
 				<div id="preclosed1">
 					<br>
 					
-					<p>In 2016, ecobrick leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.  The agreement was made to spell ‘ecobrick‘, as a common noun (non-hyphenated, without spaces or special capitalization).  Since 2017 this is the endorsed spelling of the ecobrick’s Wikipedia entry and url: https://en.wikipedia.org/wiki/Ecobricks.  We refer to the act and lifestyle of making ecobricks as ‘ecobricking’ and those who make ecobricks as ‘ecobrickers’.</p>
+					<p><b>Ecobrick</b></p>
+                    <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2016, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.  The agreement was made to spell ‘ecobrick‘, as a common noun (non-hyphenated, without spaces or special capitalization).  Since 2017 this is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">wikipedia.org/wiki/<b>Ecobricks.</b></a>
+                    </p>
+                    NOTE:  Many other brick making technologies borrow the term ecobrick.  However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick">recognized wikipedia disambiguation.</a><br>
+                    <p><b>Plastic Sequestration</b></p>
+                    <p>The goal of ecobricking is the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sequestration of plastic</a>.  This is the official term as defined on wikipedia.</p>
+                    <br>
+                    <p><b>Ecobricker</b></p>
+                    <p>Someone who makes an ecobricks or who has committed to ecobricking all their plastic</p><br>
+                    <p><b>Ecobricking</b><p>
+                    <p>The act of sequestering plastic inside an ecobrick</p>
+                    <br>
+                    <p><b>
                     
+                
 						
 				</div>	
 			</div>
@@ -377,10 +387,23 @@ _END;?>
 
             <div id="preclosed6">
                 
-                <p>Contact our team to arrange interviews:</p>
-                <p>Interational: vision@ecobricks.org</p>
-                <p>UK: ukecobricks@gmail.com</p>
-                <br>
+            <br>
+
+            <p><b>The GEA in the United Kingdom</b></p>
+            <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p>
+            <br>
+
+            <p><b>The GEA in Indonesia</b></p>
+            <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#105;&#110;&#100;&#111;&#110;&#101;&#115;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
+
+
+            <p><b>Our Development Team</b></p>
+            <p>
+            <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
+
+            <p><b>Direct Media Enquiries</b></p>
+
+            <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#101;&#100;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#109;&#101;&#100;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
 
             </div>
             </div>
