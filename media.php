@@ -60,7 +60,7 @@ _END;?>
 		position: relative;
 		
 		background: url(svgs/gray-to-blue-media-banner.svg) bottom;
-		background-color: #4a4affe9;
+		background-color: #4A4AFF;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -182,7 +182,7 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #4a4affe9;
+	background-color: #4A4AFF;
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
@@ -273,10 +273,7 @@ _END;?>
                     <p><b>Ecobricking</b><p>
                     <p>The act of sequestering plastic inside an ecobrick</p>
                     <br>
-                    <p><b>
-                    
-                
-						
+                 			
 				</div>	
 			</div>
 
@@ -290,14 +287,17 @@ _END;?>
 				</div>
 
 				<div id="preclosed2">
-					<p>:
+					<p>
 
-“Ecobricks are made with plastic trash”— No where in Global Ecobrick Alliance materials do we refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.
-“Ecobricks are for building schools and homes”— Although you can build structures with them, 99% of ecobricks are being used for small home, school and community creations.  We focus on tiny applications, like furniture models, Lego, and especially gardens as per our principles.
-“Ecobricks are for developing countries and poor people”— Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  See our transcaste principle.
-“Ecobricks are for places where recycling isn’t an option” — Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the failing recycling industry.
-“Ecobricks is a Sustainable Development technology”: The ecobrick movement explicitly differentiates itself from “sustainabity” and “development” paradigms. Please do not refer to ecobricks in this light. Ecobricks is a non-capital, collaboration powered, regenerative technology.
-“The GEA is a Company or an NGO”: The Global Ecobrick Alliance is not a company nor an NGO.  We are a not-for-profit Earth Enterprise.</p>
+                    <ul>
+			<li>“Ecobricks are made with plastic trash”— No where in Global Ecobrick Alliance materials do we refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.</li>
+            <li>“Ecobricks are for building schools and homes”— Although you can build structures with them, 99% of ecobricks are being used for small home, school and community creations.  We focus on tiny applications, like furniture models, Lego, and especially gardens as per our principles.</li>
+            <li>“Ecobricks are for developing countries and poor people”— Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  See our transcaste principle.</li>
+            <li>“Ecobricks are for places where recycling isn’t an option” — Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the failing recycling industry.</li>
+            <li>“Ecobricks is a Sustainable Development technology”: The ecobrick movement explicitly differentiates itself from “sustainabity” and “development” paradigms. Please do not refer to ecobricks in this light. Ecobricks is a non-capital, collaboration powered, regenerative technology.</li>
+            <li>
+            “The GEA is a Company or an NGO”: The Global Ecobrick Alliance is not a company nor an NGO.  We are a not-for-profit Earth Enterprise.</li>
+            </p>
 
 				</div>
 			</div>
@@ -346,7 +346,7 @@ _END;?>
                 <br>
 
             </div>
-            </div>
+        </div>
 
 
 
@@ -408,6 +408,7 @@ _END;?>
             </div>
             </div>
 
+
             <div class="reg-content-block" id="block7">
 
             <div class="opener-header">
@@ -439,11 +440,6 @@ _END;?>
 
             </div>
             </div>
-
-			
-	
-
-
 		<div class="page-paragraph">
 			<br><br>
 			<h2>Try it Yourself!</h2>
@@ -453,7 +449,7 @@ _END;?>
 			<p style="font-size: 0.85em; margin-top:20px;">Follow our 10 Steps Guide to Ecobricking</a></p>
 		</div>
 		
-		</div>
+	</div>
 <!--
 		<h4>Learn More</h4>
 		
