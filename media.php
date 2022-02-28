@@ -131,7 +131,8 @@ _END;?>
 
 
 .splash-heading { 
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    /*font-family: 'Mulish', Arial, Helvetica, sans-serif;*/
+    font-family: Arvo, serif;
   color: white;
   font-weight: 500;
   text-shadow: 0 0 8px black;
@@ -140,7 +141,7 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-heading {
-      font-size: 2.0em;
+      font-size: 3.0em;
       line-height: 1.1;
       margin: 10px 0;
   }
@@ -148,7 +149,7 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 3em;
+      font-size: 4em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
@@ -156,27 +157,27 @@ _END;?>
 
 
 .splash-sub {
-  font-family: 'Arvo', Georgia, serif;
-  color: grey;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: #fff;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
+  text-shadow: 0 0 7px black;
 }
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.2em;
-		line-height: 1.5;
+		font-size: 1.9em;
+		line-height: 1.3;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 2.3em;
+		font-size: 2.5em;
 		line-height: 1.3;
 		font-weight: 400;
   }
 }
-
 
 #splash-bar {
 	margin-top: -50px;
@@ -422,7 +423,7 @@ _END;?>
 
 		<div class="page-paragraph">
 			<br><br>
-			<h2>Try Making an Ecobrick Yourself</h2>
+			<h2>Try it Yourself!</h2>
 			<p>Perhaps the best way to document ecobricks is to try it yourself.  We encourage you to save your household plastic for a month, weight it then ecobrick it.  Then save and weigh your plastic the next month and observe the reduction in your plastic generation.</p>
 			<br><br>
 			<a class="action-btn" href="how" target="_blank">How to Make An Ecobrick</a>
@@ -449,12 +450,11 @@ _END;?>
 
 
 			
-		<div id="side-module-desktop-only">
-			
-			
-				<h4>Get Started</h4>
-				<h5>Use a free Catalyst Account to ignite your plastic transition.</h5><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch</a><br><br>
+        <div id="side-module-desktop-mobile">
+				<img src="webp/earthhome-400px.webp" width="100%">
+				<h4>Plastic Transition</h4>
+				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
+				<a class="module-btn" href="transition">Learn More</a>
 			</div>
 
 	
@@ -472,12 +472,12 @@ _END;?>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
-			<div id="side-module-desktop-mobile">
-				<img src="webp/balancing-green.webp" width="80%">
-				<h4>Plastic Offsetting</h4>
-				<h5>Our Catalyst Program allows you to offset your plastic generation and support the global ecobrick movement.</h5><br>
-				<a class="module-btn" href="aes">Learn More</a>
-			</div>
+            <div id="side-module-desktop-mobile">
+                <img src="webp/tens-thousands.webp" width="100%">
+                <h4>Ecobricks</h4>
+                <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
+                <a class="module-btn" href="sequest">Plastic Sequestration</a>
+            </div>
 
 		</div>
 
