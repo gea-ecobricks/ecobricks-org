@@ -59,7 +59,7 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		background: url(svgs/gray-to-blue-media-banner.svg) bottom;
+		background: url(svgs/gray-to-blue-media-banner2.svg) bottom;
 		background-color: #4A4AFF;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
@@ -266,7 +266,8 @@ _END;?>
 					<p><b>Ecobrick</b></p>
                     <p>"ecobrick" -- no space, hyphen or added capitalization is the recongnized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">wikipedia.org/wiki/<b>ecobricks.</b></a></p>
 
-                    <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2016, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.</p>  
+                    <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2016, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.</p> 
+                    <br> 
                     
                     <p>NOTE:  Other brick making technologies borrow the term ecobrick by using a variety of spellings.  Corporations such as Nestle have attempted to appropriate 'ecobrick' for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick">recognized wikipedia disambiguation for the non-hyphenated spelling.</a><br>
                     <p><b>Plastic Sequestration</b></p>
@@ -294,13 +295,19 @@ _END;?>
 					<p>
 
                     <ul>
-			<li><b><i>“Ecobricks are made with plastic trash"</i></b> The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.  See our <a href="ayyew">Ayyew Principle.</a></li>
-            <li>“Ecobricks are for building schools and homes”— Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. See <a href="build">Ecobrick Applications</a></li>
-            <li>“Ecobricks are for developing countries and poor people”— Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  Currently, there are more ecobrickers from the UK on our GoBrik app than anywhere else in the world. See <a href="https://www.gobrik.com/#global/country-stats/">GoBrik country stats</a></li>
-            <li>“Ecobricks are for places where recycling isn’t an option” — Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the problematic recycling industry (preventing emissions and plastics eventual dispersion). See <a href="sequest">Plastic Sequestration</a></li>
-            <li>“Ecobricks is a Sustainable Development technology”: The GEA explicitly differentiates itself from “sustainabity” and “development” paradigms. Instead: Ecobricks are a non-capital, collaboration powered, regenerative technology. See our <a href="principles">principles</a></li>
-            <li>
-            “The GEA is a Company or an NGO”: The Global Ecobrick Alliance is not a company nor an NGO.  We are a not-for-profit Earth Enterprise.  See <a href="about">About us</a></li>
+			<li><b><i>“Ecobricks are made with plastic trash"</i></b> <br><br>
+            The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.<br>See our <a href="ayyew">Ayyew Principle.</a></li>
+            <li><b><i>“Ecobricks are for building schools and homes”</i></b> <br><br>
+             Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. 
+             <br>See <a href="build">Ecobrick Applications</a></li>
+            <li><b><i>“Ecobricks are for developing countries and poor people"</i></b> <br>
+             Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  Currently, there are more ecobrickers from the UK on our GoBrik app than anywhere else in the world. See <a href="https://www.gobrik.com/#global/country-stats/">GoBrik country stats</a></li>
+            <li><b><i>“Ecobricks are for places where recycling isn’t an option”</i></b> <br>
+             Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the problematic recycling industry (preventing emissions and plastics eventual dispersion). See <a href="sequest">Plastic Sequestration</a></li>
+            <li><b><i>“Ecobricks is a Sustainable Development technology”</i></b> <br>
+             The GEA explicitly differentiates itself from “sustainabity” and “development” paradigms. Instead: Ecobricks are a non-capital, collaboration powered, regenerative technology. See our <a href="principles">principles</a></li>
+            <li><b><i>“The GEA is a Company or an NGO”</i></b> <br>
+             The Global Ecobrick Alliance is not a company nor an NGO.  We are a not-for-profit Earth Enterprise.  See <a href="about">About us</a></li>
             </p>
 
 				</div>
@@ -311,7 +318,7 @@ _END;?>
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>Text Quotations</h4>
+					<h4>Quoting our texts</h4>
 					<h5>Guidelines for using snippets from this site.</h5>
 					<br>
 					</div>
@@ -320,10 +327,7 @@ _END;?>
 				</div>
 
 				<div id="preclosed3">
-					<br>
 					
-			
-
 					<p>When using written content from our site our resources please attribute to “The Global Ecobrick Alliance – Ecobricks.org”.  ‘Ecobricks.org” is not necessary if a hyperlink is added to the attribution.</p>
                     <p>For hyper-links, please use: https://ecobricks.org</p><br>
                     
@@ -337,8 +341,8 @@ _END;?>
             <div class="opener-header">
                 
                 <div class="opener-header-text">
-                <h4>Photos</h4>
-                <h5>Guidelines for using our photos.</h5>
+                <h4>Photos & Images</h4>
+                <h5>Guidelines for using and attritubuting our images.</h5>
                 <br>
                 </div>
 
@@ -347,9 +351,10 @@ _END;?>
 
             <div id="preclosed4">
                 
-                <p>All the photos on this site (unless containing specific photo credits) available for you to use under our Creative Commons Attribution-ShareAlike 4.0 International License. Please attribute to Ecobricks.org</p>
+                <p>All the photos and images on ecobricks.org are available for use under a Creative Commons Attribution-ShareAlike 4.0 International License. unless noted otherwise (such as our logos, icons and emblems).</p>
+                <p>Please attribute to "The Global Ecobrick Alliance - Ecobricks.org"</p>
                 <p><b>Galley of Stock Ecobrick Photos</b></p>
-                <p>We've assembled a wide ranging of ecobrick related photos that you can freely use under our CC-A-SA-4.0 license.  <a href="gallery">Ecobrick Gallery</a></p>
+                <p>We've assembled a <a href="gallery">gallery of wide ranging of ecobrick related photos</a> that you can freely use under our CC-A-SA-4.0 license.</p>
                 <br>
 
             </div>
@@ -372,8 +377,9 @@ _END;?>
 
 				<div id="preclosed5">
 					
-					<p>All the videos on this site and on our YouTube channel are available for you use under the Creative Commons Attribution-ShareAlike 4.0 International License. Please attribute to Ecobricks.org</p>
-                    <p><a href="https://youtube.com/ecobricks" tagert="_blank">Our Youtube Channel</a></p>
+					<p>All the videos on this site and on our <a href="https://youtube.com/ecobricks" tagert="_blank">Our Youtube Channel</a> are available for use under a Creative Commons Attribution-ShareAlike 4.0 International License unless otherwise noted.</p>
+                    
+                    <p> Please attribute to "The Global Ecobrick Alliance - Ecobricks.org"</p>
 					<br>
 			
 				</div>
@@ -404,11 +410,6 @@ _END;?>
             <p><b>The GEA in Indonesia</b></p>
             <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#105;&#110;&#100;&#111;&#110;&#101;&#115;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
 
-
-            <p><b>Our Development Team</b></p>
-            <p>
-            <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
-
             <p><b>Direct Media Enquiries</b></p>
 
             <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#101;&#100;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#109;&#101;&#100;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
@@ -432,17 +433,17 @@ _END;?>
 
             <div id="preclosed7">
                 
-                <p>CNN Indonesia:  60 minute Interview with Desi Anwar, Ani Himawati, and Russell Maier on the Ecobrick movement</p>
+                <p>CNN Indonesia:  <a href="https://www.youtube.com/watch?v=peDg7qwWMKU" target="_blank">60 minute Interview with Desi Anwar, Ani Himawati, and Russell Maier on the Ecobrick movement</a></p>
 
-                <p>Ecobricks Feature on National Korean TV</p>
+                <p>Korea <a href="http://www.ytn.co.kr/_sp/0930_201603122050037614" target="_blank">Ecobricks Feature on National Korean TV</a></p>
 
-                <p>Ecobrick Convergence Featured on Jogja city TV</p>
+                <p>Indonesia / Jogja TV: <a href="http://jogjatv.tv/pemkot-luncurkan-ecobricks-untuk-atasi-sampah-plastik/" target="_blank">Ecobrick Convergence Featured on Jogja city TV</a></p>
 
-                <p>Ecobrick Spread in Jogjakarta and the Jogja Ecobrick Team Featured on NET.TV</p>
+                <p>Indonesia / NET.TV:<a href="https://www.youtube.com/watch?v=fK-cc8SfSW8" target="_blank">Ecobrick Spread in Jogjakarta and the Jogja Ecobrick Team Featured on NET.TV</a></p>
 
-                <p>Spot.ph:  An interview on Russell’s time in the Philippines and the history and current state of Ecobricking there.</p>
+                <p>Philippiines / Spot.ph:<a href="http://www.spot.ph/newsfeatures/newsfeatures-peopleparties/71089/interview-russel-maier-ecobricks-a00171-20170810-lfrm2" target="_blank">The history of ecobricking in the Philippines.</a></p>
 
-                <p>Solving Plastic One Bottle at a Time in the Northern Philippines: 10 minute documentary on Russell Maier, Irene Angway and the spread of Ecobricks in the Norther Philippines.</p>
+                <p>Documentary <a href="https://www.youtube.com/watch?v=Ynh0RYORsOM" target="_blank">Solving Plastic One Bottle at a Time in the Northern Philippines: 10 minute documentary on Russell Maier, Irene Angway and the spread of Ecobricks in the Norther Philippines.</a></p>
 
             </div>
             </div>
