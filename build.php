@@ -492,7 +492,7 @@ margin-bottom: 31px;}
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>Open Spaces</h4>
+					<h4>4. Open Spaces</h4>
 					<h5>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands. </h5>
 					<br>
 					</div>
@@ -683,11 +683,7 @@ margin-bottom: 31px;}
                     <p><b>Long-Term Applications</b><p>
                     <p> Earth and Ecobrick builds often represent large amounts of secured plastic.  When building on government or community land, it is key to establish a long term maintenance agreement with the custodians of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks.<p> 
 
-                    <p>View a sample GEA Ecobrick Construction Long term Custodian agreement:</p>
-
-                    <p><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank">GEA Earth Building Terms of Transfer ENG</a></p>
-                    <p><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank">GEA Earth Building Terms of Transfer INDONESIAN</a></p>
-					<br><hr>
+                    
                     
                 
 			
@@ -701,12 +697,19 @@ margin-bottom: 31px;}
                  <div class="row">
                 
                       <div class="main2">
-                         <h4>A Safe Road into Time</h4>
+                         <h4>A Safe Road through Time</h4>
                         
-                        <p>By putting ecobricks to use in ways that follow the criteria of plastic sequestration, our goal is to put our plastic on a safe road through time.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p><br>
+                         <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintence and the end of the construction is key.</p>
+                         <p>By putting ecobricks to use in ways that follow the criteria of plastic sequestration, our goal is to put our plastic on a safe road through time.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p><br>
                         <p><b>End of Life Agreements</b></p>
                         <p>The Global Ecobrick Alliance recommends that in community and commercial ecobrick builds (in particular using earthen construction) that end-of-life agreements be established.  These agreements plan for the end of the construction and the removal, responsibility and resuse of the ecobricks.</p>
                         <p><a href="">See a sample, free use, agreement here.</a>
+                        <p>View a sample GEA Ecobrick Construction Long term Custodian agreement:</p>
+
+                    <p><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank">GEA Earth Building Terms of Transfer ENG</a></p>
+                    <p><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank">GEA Earth Building Terms of Transfer INDONESIAN</a></p>
+					<br><hr>
+                    
                     </div></p>
 
                     <div class="side2">

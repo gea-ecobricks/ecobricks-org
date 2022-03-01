@@ -240,7 +240,9 @@ _END;?>
 			</div>
 
 			<div class="page-paragraph">
-				<p>The Global Ecobrick Alliance uses the spelling and terminology that have been collectively determined by the global ecobrick movement and established on the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks article</a>.  We encourage the same usage of terminology and concepts by researchers and journalist to add consistentcy and momentum to local and global grass roots plastic transition movements.  We provide a handy layout of these terms, general misconcptions and the various creative commons licenses surrounding our own materials here.<p> 
+				<p>The Global Ecobrick Alliance uses the spelling and terminology that have been collectively determined by the global ecobrick movement and established on the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks article</a> throughout our site and resources.</p>  
+                <p>We encourage the same usage of terminology by journalist, researchers and ecobrickers to add consistentcy and momentum to local and global grass roots plastic transition movements.</p>
+                <p>Below we provide a handy layout of ecobrick terms, misconcptions and the various creative commons licenses surrounding our own materials.<p> 
 
 			</div>	
 
@@ -262,17 +264,18 @@ _END;?>
 					<br>
 					
 					<p><b>Ecobrick</b></p>
-                    <p>"ecobrick" -- no space, hyphen or added capitalization is the recongnized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">wikipedia.org/wiki/<b>Ecobricks.</b></a></p>
-                    <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2016, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.  
-                    </p>
-                    NOTE:  Other brick making technologies borrow the term ecobrick.  Corporations such as Nestle have attempted to appropriate the word for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick">recognized wikipedia disambiguation for the non-hyphenated spelling.</a><br>
+                    <p>"ecobrick" -- no space, hyphen or added capitalization is the recongnized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">wikipedia.org/wiki/<b>ecobricks.</b></a></p>
+
+                    <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2016, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.</p>  
+                    
+                    <p>NOTE:  Other brick making technologies borrow the term ecobrick by using a variety of spellings.  Corporations such as Nestle have attempted to appropriate 'ecobrick' for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick">recognized wikipedia disambiguation for the non-hyphenated spelling.</a><br>
                     <p><b>Plastic Sequestration</b></p>
-                    <p>The goal of ecobricking is the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sequestration of plastic</a>.  This is the official term as defined on wikipedia.</p>
+                    <p>The goal of ecobricking is the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sequestration of plastic</a>.  This is the official term as defined and recognized on wikipedia.</p>
                     <br>
                     <p><b>Ecobricker</b></p>
                     <p>Someone who makes an ecobricks or who has committed to ecobricking all their plastic</p><br>
                     <p><b>Ecobricking</b><p>
-                    <p>The act of sequestering plastic inside an ecobrick</p>
+                    <p>The act of sequestering plastic inside an ecobrick.</p>
                     <br>
                  			
 				</div>	
@@ -291,13 +294,13 @@ _END;?>
 					<p>
 
                     <ul>
-			<li><b><i>“Ecobricks are made with plastic trash"</i></b> The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.</li>
-            <li>“Ecobricks are for building schools and homes”— Although you can build structures with them, 99% of ecobricks are being used for small home, school and community creations.  We focus on tiny applications, like furniture models, Lego, and especially gardens as per our principles.</li>
-            <li>“Ecobricks are for developing countries and poor people”— Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  See our transcaste principle.</li>
-            <li>“Ecobricks are for places where recycling isn’t an option” — Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the failing recycling industry.</li>
-            <li>“Ecobricks is a Sustainable Development technology”: The ecobrick movement explicitly differentiates itself from “sustainabity” and “development” paradigms. Please do not refer to ecobricks in this light. Ecobricks is a non-capital, collaboration powered, regenerative technology.</li>
+			<li><b><i>“Ecobricks are made with plastic trash"</i></b> The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.  See our <a href="ayyew">Ayyew Principle.</a></li>
+            <li>“Ecobricks are for building schools and homes”— Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. See <a href="build">Ecobrick Applications</a></li>
+            <li>“Ecobricks are for developing countries and poor people”— Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  Currently, there are more ecobrickers from the UK on our GoBrik app than anywhere else in the world. See <a href="https://www.gobrik.com/#global/country-stats/">GoBrik country stats</a></li>
+            <li>“Ecobricks are for places where recycling isn’t an option” — Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the problematic recycling industry (preventing emissions and plastics eventual dispersion). See <a href="sequest">Plastic Sequestration</a></li>
+            <li>“Ecobricks is a Sustainable Development technology”: The GEA explicitly differentiates itself from “sustainabity” and “development” paradigms. Instead: Ecobricks are a non-capital, collaboration powered, regenerative technology. See our <a href="principles">principles</a></li>
             <li>
-            “The GEA is a Company or an NGO”: The Global Ecobrick Alliance is not a company nor an NGO.  We are a not-for-profit Earth Enterprise.</li>
+            “The GEA is a Company or an NGO”: The Global Ecobrick Alliance is not a company nor an NGO.  We are a not-for-profit Earth Enterprise.  See <a href="about">About us</a></li>
             </p>
 
 				</div>
@@ -321,7 +324,8 @@ _END;?>
 					
 			
 
-					<p>When using written content from our site our resources please attribute to “The Global Ecobrick Alliance – Ecobricks.org”.  ‘Ecobricks.org” is not necessary if a hyperlink is added to the attribution.</p><br>
+					<p>When using written content from our site our resources please attribute to “The Global Ecobrick Alliance – Ecobricks.org”.  ‘Ecobricks.org” is not necessary if a hyperlink is added to the attribution.</p>
+                    <p>For hyper-links, please use: https://ecobricks.org</p><br>
                     
 				</div>
 			</div>
@@ -344,6 +348,8 @@ _END;?>
             <div id="preclosed4">
                 
                 <p>All the photos on this site (unless containing specific photo credits) available for you to use under our Creative Commons Attribution-ShareAlike 4.0 International License. Please attribute to Ecobricks.org</p>
+                <p><b>Galley of Stock Ecobrick Photos</b></p>
+                <p>We've assembled a wide ranging of ecobrick related photos that you can freely use under our CC-A-SA-4.0 license.  <a href="gallery">Ecobrick Gallery</a></p>
                 <br>
 
             </div>
@@ -367,6 +373,7 @@ _END;?>
 				<div id="preclosed5">
 					
 					<p>All the videos on this site and on our YouTube channel are available for you use under the Creative Commons Attribution-ShareAlike 4.0 International License. Please attribute to Ecobricks.org</p>
+                    <p><a href="https://youtube.com/ecobricks" tagert="_blank">Our Youtube Channel</a></p>
 					<br>
 			
 				</div>
@@ -420,14 +427,12 @@ _END;?>
                 <br>
                 </div>
 
-                <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
+                <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
             </div>
 
-            <div id="preclosed6">
+            <div id="preclosed7">
                 
-                <p>CNN Indonesia:  60 minute Inrussmaier@gmail.com, lizrex08@gmail.comsight Interview with Desi Anwar, Ani Himawati, and Russell Maier on the Ecobrick movement</p>
-
-                <p>Spot.ph:  “This Canadian Accidentally Discovered How to Solve Our Plastic Problem” An interview on Russell’s time in the Philippines and the history and current state of Ecobricking there.</p>
+                <p>CNN Indonesia:  60 minute Interview with Desi Anwar, Ani Himawati, and Russell Maier on the Ecobrick movement</p>
 
                 <p>Ecobricks Feature on National Korean TV</p>
 
@@ -435,15 +440,15 @@ _END;?>
 
                 <p>Ecobrick Spread in Jogjakarta and the Jogja Ecobrick Team Featured on NET.TV</p>
 
-                <p>Life Athletics Pod Cast with Nik Wood:  Rusell Maier Ecobricks and Frisboo</p>
+                <p>Spot.ph:  An interview on Russell’s time in the Philippines and the history and current state of Ecobricking there.</p>
 
-                <p>Solving Plastic One Bottle at a Time in the Northern Philippines: 10 minute documentary on Russell Maier and the spread of Ecobricks in the Norther Philippines.</p>
+                <p>Solving Plastic One Bottle at a Time in the Northern Philippines: 10 minute documentary on Russell Maier, Irene Angway and the spread of Ecobricks in the Norther Philippines.</p>
 
             </div>
             </div>
 		<div class="page-paragraph">
 			<br><br>
-			<h2>Try it Yourself!</h2>
+			<h3>Try it Yourself!</h3>
 			<p>Perhaps the best way to document ecobricks is to try it yourself.  We encourage you to save your household plastic for a month, weight it then ecobrick it.  Then save and weigh your plastic the next month and observe the reduction in your plastic generation.</p>
 			<br><br>
 			<a class="action-btn" href="how" target="_blank">How to Make An Ecobrick</a>
@@ -451,20 +456,8 @@ _END;?>
 		</div>
 		
 	</div>
-<!--
-		<h4>Learn More</h4>
+
 		
-		<p>Many powerful concepts underlie the Catalyst Program. .
-		</p>
-		<ul>
-			<li><a href="aes">AES Plastic Offsetting</a></li>
-			<li><a href="brikcoin">Brikcoin Manual Blockchain</a></li>
-			<li><a href="sequest">Plastic Sequestration</a></li>
-			<li><a href="mandalas">Leading by Example</a></li>
-			<li><a href="principles">Regenerative Principles</a></li>
-			<li><a href="https://medium.com/earthen">The Earthen Ethics Theory of Green</a></li>
-		</ul>
--->
 		
 		<div class="side">
 
