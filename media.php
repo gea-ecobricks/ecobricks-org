@@ -220,7 +220,7 @@ _END;?>
 		<div class="splash-heading">Media Kit</div>
 		<div class="splash-sub">Key points for the coverage of ecobricks and the plastic transition movement.</div>
 	</div>
-	<div class="splash-image"><img src="svgs/question.svg" style="width: 90%;"></div>	
+	<div class="splash-image"><img src="webp/faqs-400px.webp" style="width: 90%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -264,12 +264,12 @@ _END;?>
 					<br>
 					
 					<p><b>Ecobrick</b></p>
-                    <p>"ecobrick" -- no space, hyphen or added capitalization is the recongnized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/<b>ecobricks.</b></a></p>
+                    <p><b>"ecobrick"</b> -- no space, hyphen or added capitalization is the recongnized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/<b>ecobricks.</b></a></p>
 
                     <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2016, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.</p> 
-                    <br> 
                     
-                    <p>NOTE:  Other brick making technologies borrow the term ecobrick by using a variety of spellings.  Corporations such as Nestle have attempted to appropriate 'ecobrick' for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick" target="_blank">recognized wikipedia disambiguation for the non-hyphenated spelling.</a><br>
+                    <p>NOTE:  Other brick making technologies borrow the term ecobrick by using a variety of spellings.  Corporations such as Nestle have attempted to appropriate 'ecobrick' for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick" target="_blank">recognized wikipedia disambiguation for the non-hyphenated spelling.</a></p><br>
+
                     <p><b>Plastic Sequestration</b></p>
                     <p>The goal of ecobricking is the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sequestration of plastic</a>.  This is the official term as defined and recognized on wikipedia.</p>
                     <br>
@@ -296,10 +296,9 @@ _END;?>
 
                     <ul>
 			<li><b><i>“Ecobricks are made with plastic trash"</i></b> <br><br>
-            The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.<br>See our <a href="ayyew">Ayyew Principle.</a></li>
+            The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.  See our <a href="ayyew">Ayyew Principle.</a><br></li>
             <li><b><i>“Ecobricks are for building schools and homes”</i></b> <br><br>
-             Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. 
-             <br>See <a href="build">Ecobrick Applications</a></li>
+             Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. See <a href="build">Ecobrick Applications</a><br></li>
             <li><b><i>“Ecobricks are for developing countries and poor people"</i></b> <br>
              Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  Currently, there are more ecobrickers from the UK on our GoBrik app than anywhere else in the world. See <a href="https://www.gobrik.com/#global/country-stats/">GoBrik country stats</a></li>
             <li><b><i>“Ecobricks are for places where recycling isn’t an option”</i></b> <br>
