@@ -13,7 +13,8 @@ echo <<<_END
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="svgs/eb-blue.svg">
+<link rel="preload" as="image" href="webp/earthcenter-banner-400px.webp">
+<link rel="preload" as="image" href="svgs/gray-to-blue-media-banner2.svg">
 
 _END;?>
 
@@ -36,7 +37,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
 		
-		background: url(webp/gray-to-green-catalyst-banner2.webp) bottom;
+		background: url(svgs/gray-to-blue-media-banner2.svg) bottom;
 		background-color: #5A8D37;
     	background-repeat: no-repeat;
 		background-size: cover;
