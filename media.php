@@ -237,13 +237,13 @@ _END;?>
 
 			<div class="lead-page-paragraph">
 				
-			<p>We’ve assembled this kit to guide journalists on the generally accepted spelling and terms of the movement, how to properly attribute our content and to help avoid common misconceptions. </p>
+			<p>We’ve assembled this kit as a guide to the generally accepted ecobrick terms and their spellings, how to properly attribute our content and to how to avoid common misconceptions. </p>
 			</div>
 
 			<div class="page-paragraph">
 				<p>The Global Ecobrick Alliance uses the spelling and terminology that have been collectively determined by the global ecobrick movement and established on the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks article</a> throughout our site and resources.</p>  
                 <p>We encourage the same usage of terminology by journalist, researchers and ecobrickers to add consistentcy and momentum to local and global grass roots plastic transition movements.</p>
-                <p>Below we provide a handy layout of ecobrick terms, misconcptions and the various creative commons licenses surrounding our own materials.<p> 
+                <p>Below we provide a handy layout of ecobrick terms, misconcptions and the creative commons licenses applied to our content, and our requisite attribution tags for text, photo and video.<p> 
 
 			</div>	
 
