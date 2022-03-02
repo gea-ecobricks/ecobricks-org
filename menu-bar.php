@@ -10,7 +10,7 @@
 <div id="desktop-menu">
     <div class="topnav-lang" id="myTopnav-lang">
         <div class="dropdown-lang">
-            <button class="dropbtn-lang">🌏</button>
+            <button class="dropbtn-lang">ENG</button>
             <div class="dropdown-content-language">
                 <a href='https://ecobricks.org/en/<?php echo ($name); ;?>' onclick='javascript:Localize.setLanguage("ed")'>🇬🇧 ENG</a>
                 <a href='https://ecobricks.org/id/<?php echo ($name); ;?>' onclick='javascript:Localize.setLanguage("id")'>🇮🇩 IND</a>

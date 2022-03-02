@@ -1927,13 +1927,14 @@ margin-top: 40px;
   font-family: Mulish;
   color: #ffffff;
   font-size: 16px;
-  background: #b8b8b8;
+  background: #a8a8a8;
   padding: 8px 15px 8px 15px;
   text-decoration: none;
+  overflow-x: none;
 }
 
 .module-btn:hover {
-  background: #c5c6c7;
+  background: #818181;
   text-decoration: none;
 }
 
