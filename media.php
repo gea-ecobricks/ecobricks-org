@@ -220,7 +220,7 @@ _END;?>
 		<div class="splash-heading">Media Kit</div>
 		<div class="splash-sub">Key points for the coverage of ecobricks and the plastic transition movement.</div>
 	</div>
-	<div class="splash-image"><img src="webp/faqs-400px.webp" style="width: 90%;"></div>	
+	<div class="splash-image"><img src="webp/earthcenter-banner-400px.webp" style="width: 80%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -296,15 +296,15 @@ _END;?>
 
                     <ul>
 			<li><b><i>“Ecobricks are made with plastic trash"</i></b> <br><br>
-            The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.  See our <a href="ayyew">Ayyew Principle.</a><br></li>
+            The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.  See our <a href="ayyew">Ayyew Principle.</a><br><br></li>
             <li><b><i>“Ecobricks are for building schools and homes”</i></b> <br><br>
-             Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. See <a href="build">Ecobrick Applications</a><br></li>
-            <li><b><i>“Ecobricks are for developing countries and poor people"</i></b> <br>
-             Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  Currently, there are more ecobrickers from the UK on our GoBrik app than anywhere else in the world. See <a href="https://www.gobrik.com/#global/country-stats/">GoBrik country stats</a></li>
-            <li><b><i>“Ecobricks are for places where recycling isn’t an option”</i></b> <br>
-             Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the problematic recycling industry (preventing emissions and plastics eventual dispersion). See <a href="sequest">Plastic Sequestration</a></li>
-            <li><b><i>“Ecobricks is a Sustainable Development technology”</i></b> <br>
-             The GEA explicitly differentiates itself from “sustainabity” and “development” paradigms. Instead: Ecobricks are a non-capital, collaboration powered, regenerative technology. See our <a href="principles">principles</a></li>
+             Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. See <a href="build">Ecobrick Applications</a><br><br></li>
+            <li><b><i>“Ecobricks are for developing countries and poor people"</i></b> <br><br>
+             Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  Currently, there are more ecobrickers from the UK on our GoBrik app than anywhere else in the world. See <a href="https://www.gobrik.com/#global/country-stats/">GoBrik country stats</a></li><br><br>
+            <li><b><i>“Ecobricks are for places where recycling isn’t an option”</i></b><br><br>
+             Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the problematic recycling industry (preventing emissions and plastics eventual dispersion). See <a href="sequest">Plastic Sequestration</a><br><br></li>
+            <li><b><i>“Ecobricks is a Sustainable Development technology”</i></b><br><br>
+             The GEA explicitly differentiates itself from “sustainabity” and “development” paradigms. Instead: Ecobricks are a non-capital, collaboration powered, regenerative technology. See our <a href="principles">principles</a><br><br></li>
             <li><b><i>“The GEA is a Company or an NGO”</i></b> <br>
              The Global Ecobrick Alliance is not a company nor an NGO.  We are a not-for-profit Earth Enterprise.  See <a href="about">About us</a></li>
             </p>
@@ -431,18 +431,19 @@ _END;?>
             </div>
 
             <div id="preclosed7">
-                
-                <p><b>CNN Indonesia</b> | <a href="https://www.youtube.com/watch?v=peDg7qwWMKU" target="_blank">60 minute Interview with Desi Anwar, Ani Himawati, and Russell Maier on the Ecobrick movement</a></p>
+			<ul>
+                <li><p><b>CNN Indonesia</b> | <a href="https://www.youtube.com/watch?v=peDg7qwWMKU" target="_blank">60 minute Interview with Desi Anwar, Ani Himawati, and Russell Maier on the Ecobrick movement</a></p></li>
 
-                <p><b>Korea TV</b>  |  <a href="http://www.ytn.co.kr/_sp/0930_201603122050037614" target="_blank">Ecobricks Feature on National Korean TV</a></p>
+                <li><p><b>Korea TV</b>  |  <a href="http://www.ytn.co.kr/_sp/0930_201603122050037614" target="_blank">Ecobricks Feature on National Korean TV</a></p></li>
 
-                <p><b>Indonesia, Jogja TV</b>  |  <a href="http://jogjatv.tv/pemkot-luncurkan-ecobricks-untuk-atasi-sampah-plastik/" target="_blank">Ecobrick Convergence Featured on Jogja city TV</a></p>
+                <li><p><b>Indonesia, Jogja TV</b>  |  <a href="http://jogjatv.tv/pemkot-luncurkan-ecobricks-untuk-atasi-sampah-plastik/" target="_blank">Ecobrick Convergence Featured on Jogja city TV</a></p></li>
 
-                <p><b>Indonesia, NET.TV</b>  |  <a href="https://www.youtube.com/watch?v=fK-cc8SfSW8" target="_blank">Ecobrick Spread in Jogjakarta and the Jogja Ecobrick Team Featured on NET.TV</a></p>
+                <li><p><b>Indonesia, NET.TV</b>  |  <a href="https://www.youtube.com/watch?v=fK-cc8SfSW8" target="_blank">Ecobrick Spread in Jogjakarta and the Jogja Ecobrick Team Featured on NET.TV</a></p></li>
 
-                <p><b>Philippiines, Spot.ph</b>  | <a href="http://www.spot.ph/newsfeatures/newsfeatures-peopleparties/71089/interview-russel-maier-ecobricks-a00171-20170810-lfrm2" target="_blank">The history of ecobricking in the Philippines.</a></p>
+                <li><p><b>Philippiines, Spot.ph</b>  | <a href="http://www.spot.ph/newsfeatures/newsfeatures-peopleparties/71089/interview-russel-maier-ecobricks-a00171-20170810-lfrm2" target="_blank">The history of ecobricking in the Philippines.</a></p></li>
 
-                <p><b>Independent Documentary</b>  | <a href="https://www.youtube.com/watch?v=Ynh0RYORsOM" target="_blank">Solving Plastic One Bottle at a Time in the Northern Philippines: 10 minute documentary on Russell Maier, Irene Angway and the spread of Ecobricks in the Norther Philippines.</a></p>
+                <li><p><b>Independent Documentary</b>  | <a href="https://www.youtube.com/watch?v=Ynh0RYORsOM" target="_blank">Solving Plastic One Bottle at a Time in the Northern Philippines: 10 minute documentary on Russell Maier, Irene Angway and the spread of Ecobricks in the Norther Philippines.</a></p></li>
+				<br><br>
 
             </div>
             </div>
@@ -452,7 +453,8 @@ _END;?>
                  <div class="row">
                 
                       <div class="main2">
-                         <h3>Try it Yourself.</h3>
+                         <br>
+						 <h3>Try it Yourself.</h3>
                         
                          <p>Perhaps the best way to document ecobricks is to try it yourself.  We encourage you to save your household plastic for a month, weight it then ecobrick it.  Then save and weigh your plastic the next month and observe the reduction in your plastic generation.</p>
 			<br><br>
