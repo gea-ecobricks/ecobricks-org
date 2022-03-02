@@ -236,7 +236,7 @@ _END;?>
 
 			<div class="lead-page-paragraph">
 				
-			<p>We’ve assembled this guide to help journalists avoid common misconceptions and connect with generally accepted ecobrick concepts and principles. </p>
+			<p>We’ve assembled this kit to guide journalists on the generally accepted spelling and terms of the movement, how to properly attribute our content and to help avoid common misconceptions. </p>
 			</div>
 
 			<div class="page-paragraph">
@@ -477,7 +477,13 @@ _END;?>
 		<div class="side">
 
 
-			
+		<div id="side-module-desktop-mobile">
+				<img src="webp/gea-logo-400px.webp" width="90%">
+				<h4>Global Ecobrick Alliance</h4>
+				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
+				<a class="module-btn" href="about">About Us</a>
+			</div>
+
         <div id="side-module-desktop-mobile">
 				<img src="webp/earthhome-400px.webp" width="100%">
 				<h4>Plastic Transition</h4>
@@ -486,12 +492,7 @@ _END;?>
 			</div>
 
 	
-			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about">About Us</a>
-			</div>
+		
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/for-earth500px.webp" width="80%">
@@ -501,9 +502,9 @@ _END;?>
 			</div>
 
             <div id="side-module-desktop-mobile">
-                <img src="webp/tens-thousands.webp" width="100%">
+                <img src="webp/faqs-400px.webp" width="100%">
                 <h4>Ecobricks</h4>
-                <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
+                <h5>The GEA advocates ecobricking as a means to sequester plastic.</h5><br>
                 <a class="module-btn" href="sequest">Plastic Sequestration</a>
             </div>
 
