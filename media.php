@@ -468,16 +468,6 @@ _END;?>
                 </div>
             </div>
 
-
-
-		<div class="page-paragraph">
-			<br><br>
-			<h3>Try it Yourself!</h3>
-			<p>Perhaps the best way to document ecobricks is to try it yourself.  We encourage you to save your household plastic for a month, weight it then ecobrick it.  Then save and weigh your plastic the next month and observe the reduction in your plastic generation.</p>
-			<br><br>
-			<a class="action-btn" href="how" target="_blank">How to Make An Ecobrick</a>
-			<p style="font-size: 0.85em; margin-top:20px;">Follow our 10 Steps Guide to Ecobricking</a></p>
-		</div>
 		
 	</div>
 
