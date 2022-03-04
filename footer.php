@@ -142,7 +142,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 					<br><br>
 
 		<div class="footer-conclusion">	
-			<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/> loading="lazy"</a>
+			<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px" loading="lazy"/> </a>
 		</div>
 		
 		<div class="footer-conclusion">	

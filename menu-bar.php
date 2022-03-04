@@ -21,11 +21,11 @@
                 <a href='https://www.ecobricks.org/id/'>🇮🇩 IND</a>
                 <a href='https://www.ecobricks.org/es/'>🇪🇸 ESP</a>
                 <a href="https://www.ecobricks.org/index.php?lang=de">🇩🇪 DE</a>
-
+<a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>
                 
             -->
                 
-                <a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>
+                
             </div>
         </div> 
     </div>
@@ -39,7 +39,7 @@
                     <a href="https://gobrik.com" target="_blank" rel="noopener">
                         <div id="gobrik-menu">
                             <div id="icon-menu">
-                            <img src="icons/gobrik.svg" width="65px" height="65px">
+                            <img src="icons/gobrik.svg" width="65px" height="65px" loading="lazy">
                             </div>
                             <div id="apptext-menu">
                                 <div class="apptext-header">GoBrik </div>
@@ -62,7 +62,7 @@
 
                     <a href="https://gobrik.com/#offset" target="_blank" rel="noopener">
                         <div id="offset-menu">
-                            <div id="icon-menu"><img src="icons/offset.svg" width="65px" height="65px"></div>
+                            <div id="icon-menu"><img src="icons/offset.svg" width="65px" height="65px" loading="lazy"></div>
                             <div id="apptext-menu">
                                 <div class="apptext-header">AES Plastic Offsetting </div>
                                 <div class="apptext-sub">Offset your plastic footprint<br>on our GoBrik AES Platform</div>
@@ -102,7 +102,7 @@
                 </div>
             </div> 
         
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem.svg"width="30px" height="30px"></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem.svg"width="30px" height="30px" loading="lazy"></a>
             
         </div>
     </div>
