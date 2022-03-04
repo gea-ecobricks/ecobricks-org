@@ -237,13 +237,13 @@ _END;?>
 
 			<div class="lead-page-paragraph">
 				
-			<p>We’ve assembled this kit as a guide to the generally accepted ecobrick terms and their spellings, how to properly attribute our content and to how to avoid common misconceptions. </p>
+			<p>We’ve assembled this kit as a guide to the generally accepted ecobrick terminology, how to properly attribute our content and to how to avoid common misconceptions. </p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>The Global Ecobrick Alliance uses the spelling and terminology that have been collectively determined by the global ecobrick movement and established on the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks article</a> throughout our site and resources.</p>  
-                <p>We encourage the same usage of terminology by journalist, researchers and ecobrickers to add consistentcy and momentum to local and global grass roots plastic transition movements.</p>
-                <p>Below we provide a handy layout of ecobrick terms, misconcptions and the creative commons licenses applied to our content, and our requisite attribution tags for text, photo and video.<p> 
+				<p>The Global Ecobrick Alliance uses terminology that has been collectively determined by the global ecobrick movement and established on the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks article</a> throughout our site and resources.</p>  
+                <p>We encourage the same usage of terms and spellings by journalist, researchers and ecobrickers to add consistentcy and momentum to local and global grass roots plastic transition movements.</p>
+                <p>Below we provide an overview of ecobrick terms, misconceptions, our creative commons licenses and our requisite attribution tags for using or texts, photos and videos.<p> 
 
 			</div>	
 
@@ -267,7 +267,7 @@ _END;?>
 					<p><b>Ecobrick</b></p>
                     <p><b>"ecobrick"</b> -- no space, hyphen or added capitalization is the recongnized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/<b>ecobricks.</b></a></p>
 
-                    <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2016, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.</p> 
+                    <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2014, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.  The ecobrick wikipedia page was updated accordingly in 2016.</p> 
                     
                     <p>NOTE:  Other brick making technologies borrow the term ecobrick by using a variety of spellings.  Corporations such as Nestle have attempted to appropriate 'ecobrick' for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick" target="_blank">recognized wikipedia disambiguation for the non-hyphenated spelling.</a></p><br>
 
@@ -297,7 +297,7 @@ _END;?>
 
                     <ul>
 			<li><b><i>“Ecobricks are made with plastic trash"</i></b> <br><br>
-            The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “trash” or “garbage”.  See our <a href="ayyew">Ayyew Principle.</a><br><br></li>
+            The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “waste” or “trash” and rather as "used plastic" or "discarded plastic".  See our <a href="ayyew">Ayyew Principle.</a><br><br></li>
             <li><b><i>“Ecobricks are for building schools and homes”</i></b> <br><br>
              Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. See <a href="build">Ecobrick Applications</a><br><br></li>
             <li><b><i>“Ecobricks are for developing countries and poor people"</i></b> <br><br>
@@ -306,9 +306,10 @@ _END;?>
              Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the problematic recycling industry (preventing emissions and plastics eventual dispersion). See <a href="sequest">Plastic Sequestration</a><br><br></li>
             <li><b><i>“Ecobricks is a Sustainable Development technology”</i></b><br><br>
              The GEA explicitly differentiates itself from “sustainabity” and “development” paradigms. Instead: Ecobricks are a non-capital, collaboration powered, regenerative technology. See our <a href="principles">principles</a><br><br></li>
-            <li><b><i>“The GEA is a Company or an NGO”</i></b> <br>
+            <li><b><i>“The GEA is a Company or an NGO”</i></b> <br><br>
              The Global Ecobrick Alliance is not a company nor an NGO.  We are a not-for-profit Earth Enterprise.  See <a href="about">About us</a></li>
             </p>
+			<br>
 
 				</div>
 			</div>
@@ -457,7 +458,7 @@ _END;?>
                          <br>
 						 <h3>Try it Yourself.</h3>
                         
-                         <p>Perhaps the best way to document ecobricks is to try it yourself.  We encourage you to save your household plastic for a month, weight it then ecobrick it.  Then save and weigh your plastic the next month and observe the reduction in your plastic generation.</p>
+                         <p>Perhaps the best way to document ecobricks is to try it yourself!  We encourage you to save your household plastic for a month, weight it then ecobrick it.  Then save and weigh your plastic consumption the next month. Subrtrating your second month of consumption from your first, will show your <a href="transition">plastic transition</a> progress.  Now, that's a good story! 👍</p>
 			<br><br>
 			<a class="action-btn" href="how" target="_blank">How to Make An Ecobrick</a>
 			<p style="font-size: 0.85em; margin-top:20px;">Follow our 10 Steps Guide to Ecobricking</a></p>
