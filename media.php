@@ -60,8 +60,8 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		background: url(svgs/gray-to-blue-media-banner2.svg) bottom;
-		background-color: #0066FF;
+		/*background: url(svgs/gray-to-blue-media-banner2.svg) bottom;*/
+		background-color: #5A8D37;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -167,7 +167,7 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.9em;
+		font-size: 1.5em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -219,7 +219,7 @@ _END;?>
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Media Kit</div>
-		<div class="splash-sub">Key points for the coverage of ecobricks and the plastic transition movement.</div>
+		<div class="splash-sub">Key points for the coverage of ecobricks & the plastic transition movement.</div>
 	</div>
 	<div class="splash-image"><img src="webp/earthcenter-banner-400px.webp" style="width: 80%;"></div>	
 </div>

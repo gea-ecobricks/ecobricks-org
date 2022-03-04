@@ -129,6 +129,9 @@ RedirectMatch "^/about/" "/en/about.php"
 RedirectMatch "^/what" "/en/what.php"
 RedirectMatch "^/what/" "/en/what.php"
 
+RedirectMatch "^/media" "/en/media.php"
+RedirectMatch "^/media/" "/en/media.php"
+
 
 
 

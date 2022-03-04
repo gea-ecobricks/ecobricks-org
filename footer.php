@@ -15,7 +15,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<!--FOOTER STARTS HERE-->
 	
 	<div id="footer-full">
-	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; position="absolute"; bottom="0"; ></div>
+	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; position="absolute"; bottom="0"; ></div>
 	
 	
 	<div class="footer-vision">We envision a Transition in our Households, Communities and Enterprises from Plastic to ever Greener Harmony with Earth's Cycles.</div>
@@ -118,16 +118,16 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		<div class="row">
 
 		<div class="virtue">
-					<a href="about"><img src="banners/forearth-dark-350px.png" width="325px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
+					<a href="about"><img src="banners/forearth-dark-350px.png" width="325px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure" loading="lazy"></a>
 				</div>
 
 			<div class="virtue">
-				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5b8c2b0922ddfb2591bf67be/" target="_blank"><img src="https://ecobricks.org/banners/762-disclose-light-350px.png" width="325px" height="" alt="Proudly Net-Green: We track, disclose and accelerate our plastic transition. View our 2021 Report." title="Click through to see a our 2021 Plastic Transition Report"></a>
+				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5b8c2b0922ddfb2591bf67be/" target="_blank"><img src="https://ecobricks.org/banners/762-disclose-light-350px.png" width="325px" height="" alt="Proudly Net-Green: We track, disclose and accelerate our plastic transition. View our 2021 Report." title="Click through to see a our 2021 Plastic Transition Report" loading="lazy"></a>
 			</div>
 		
 
 			<div class="virtue">
-			<a href="https://gobrik.com/#openbooks" target="_blank"><img src="banners/openbooks-dark-350px.png" width="325px" height="" alt="Click through to see our current enterprise open books accounting." title="Click through to see our open books accounting."></a>
+			<a href="https://gobrik.com/#openbooks" target="_blank"><img src="banners/openbooks-dark-350px.png" width="325px" height="" alt="Click through to see our current enterprise open books accounting." title="Click through to see our open books accounting." loading="lazy"></a>
 
 			
 			</div>
