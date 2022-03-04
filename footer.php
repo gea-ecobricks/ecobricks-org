@@ -27,49 +27,49 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<div class="footer-icons-container">
 		<div class="footer-icons"><!--WIKIPEDIA-->
 			<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">
-			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page"></a>
+			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page" loading="lazy"></a>
 			
 		</div>
 
 		<div class="footer-icons">
 			<a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener"><!--MATTERMOST-->
-			<img src="icons/mattermost.svg" width="100%" height="100%" alt="Join our Circles Ecobrick Support Community"  title="Join our Circles Ecobrick Support Community"></a>
+			<img src="icons/mattermost.svg" width="100%" height="100%" alt="Join our Circles Ecobrick Support Community"  title="Join our Circles Ecobrick Support Community" loading="lazy"></a>
 			<!--<div class="icon-name">/ecobricks</div>
 			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>-->
 		</div>
 
 		<div class="footer-icons"><!--GOBRIK-->
 			<a href="https://gobrik.com" target="_blank">
-			<img src="icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app"></a>
+			<img src="icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app" loading="lazy"></a>
 			
 		</div>
 
 		<div class="footer-icons">
 			<a href="https://medium.com/earthen/" target="_blank" rel="noopener"><!--MEDIUM-->
-			<img src="icons/medium.svg" width="100%" height="100%" alt="Follow our Medium.com Earthen publication"  title="Follow our Medium.com Earthen publication"></a>
+			<img src="icons/medium.svg" width="100%" height="100%" alt="Follow our Medium.com Earthen publication"  title="Follow our Medium.com Earthen publication" loading="lazy"></a>
 			
 		</div>
 
 		<div class="footer-icons"> <!--GITHUB-->
 			<a href="https://github.com/gea-ecobricks/ecobricks-org" target="_blank" rel="noopener">
-			<img src="icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository" title="Contribute to our Ecobricks.org Github repository"></a>
+			<img src="icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository" title="Contribute to our Ecobricks.org Github repository" loading="lazy"></a>
 			
 		</div>
 		
 		<div class="footer-icons"><!--FACEBOOK-->
 			<a href="https://facebook.com/ecobricks.org" target="_blank" rel="noopener">
-			<img src="icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"  title="Follow our Facebook page"></a>
+			<img src="icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"  title="Follow our Facebook page" loading="lazy"></a>
 		</div>
 
 		<div class="footer-icons"><!--YOUTUBE-->
 			<a href="https://www.youtube.com/c/Ecobricks" target="_blank" rel="noopener">
-			<img src="icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"  title="Subscribe to our Ecobricks YouTube channel"></a>
+			<img src="icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"  title="Subscribe to our Ecobricks YouTube channel" loading="lazy"></a>
 			
 		</div>
 
 		<div class="footer-icons"><!--INSTAGRAM-->
 			<a href="https://www.instagram.com/ecobricks.plastic.transition/" target="_blank" rel="noopener">
-			<img src="icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"  title="Instagram: Ecobricks.Plastic.Transition"></a>
+			<img src="icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"  title="Instagram: Ecobricks.Plastic.Transition" loading="lazy"></a>
 			
 		</div>
 
@@ -142,7 +142,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 					<br><br>
 
 		<div class="footer-conclusion">	
-			<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/></a>
+			<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/> loading="lazy"</a>
 		</div>
 		
 		<div class="footer-conclusion">	
@@ -157,7 +157,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 
 		<div class="footer-invite">
-			This page is a 100% volunteer hand-coded and open-source page hosted on Github.<br>📝<a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page's text or code</a>
+			This page is a 100% volunteer hand-coded and open-source page hosted on Github.<br>📝 <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page's text or code</a>
 		</div>
 		<br><br>
 	</div>
