@@ -355,7 +355,7 @@ _END;?>
                 <p>All the photos and images on ecobricks.org are available for use under a Creative Commons Attribution-ShareAlike 4.0 International License. unless noted otherwise (such as our logos, icons and emblems).</p>
                 <p>Please attribute to "The Global Ecobrick Alliance - Ecobricks.org"</p><br>
                 <p><b>Galley of Stock Ecobrick Photos</b></p>
-                <p>We've assembled a <a href="gallery">gallery of wide ranging of ecobrick related photos</a> that you can freely use under our CC-A-SA-4.0 license.</p>
+                <p>We've assembled a <a href="gallery-kit">gallery of wide ranging of ecobrick related photos</a> that you can freely use under our CC-A-SA-4.0 license.</p>
                 <br>
 
             </div>
