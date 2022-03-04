@@ -37,8 +37,8 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
 		
-		background: url(svgs/gray-to-blue-media-banner2.svg) bottom;
-		background-color: #5A8D37;
+		/*background: url(svgs/gray-to-blue-media-banner2.svg) bottom;*/
+		background-color: #0066FF;
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -60,8 +60,8 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		/*background: url(svgs/gray-to-blue-media-banner2.svg) bottom;*/
-		background-color: #5A8D37;
+		background: url(svgs/gray-to-blue-media-banner2.svg) bottom;
+		background-color: #0066FF;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -167,7 +167,7 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.5em;
+		font-size: 1.8em;
 		line-height: 1.3;
 		font-weight: 400;
   }
