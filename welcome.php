@@ -106,7 +106,7 @@ _END;?>
 
 				<div id="slider-image"><img src="webp/2020-regen-report.webp" alt="2022 regen Report"></div>
 				<div id="slider-textbox">
-					<div id="slider-heading">GEA 2021 Regen Report Released</div>
+					<div id="slider-heading">GEA 2022 Regen Report Released</div>
 					<div id="slider-date">Jan 27, 2022 | GEA Center Circle</div>
 					<div id="slider-body">Our annual ecological impact accounting for the GEA's operations in the previous year.  In 2021, we removed over 30,000 kg of carbon and 10,000 kg of plastic for the biosphere 🎉.</div>
 					<div id="slider-link">>> <a href="2021-regenreport.php"> 2021 Regen Report</a></div>
@@ -117,8 +117,8 @@ _END;?>
 		<div id="slider2">
 			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brickenterprise program"></div>
 				<div id="slider-textbox">
-				<div id="slider-heading">2022 Catalyst Program Launched!</div>
-				<div id="slider-body">Keen green companies, organizations and projects can now use our automated plastic transition tracking, disclosure and acceleration platfrom-- all fees are waived!</div>
+				<div id="slider-heading">Plastic Transition Platform for Enterprises</div>
+				<div id="slider-body">Our Catalyst program for keen green companies, organizations and projects is now live!  Track, disclose and accelerate your plastic transition.</div>
 				<div id="slider-link"><a href="catalyst">Learn more</a></div>
 				<div id="slider-date">Feb. 6, 2022 | GEA Announcements</div>
 			</div>
@@ -236,8 +236,8 @@ _END;?>
 
 	<div id="content-sect1">
 	 	<div id="main-content">
-			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg"width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean"></div>
-			<div class="big-header">Welcome to Plastic Transition</div>
+			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg"width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
+			<div class="big-header">Accelerating Plastic Transition</div>
 			<!--<div class="lead-paragraph">Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</div>-->
 			<div class="sub-text">
 			<p>Together we can keep our plastic out of the oceans.  With eco bricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
@@ -252,7 +252,7 @@ _END;?>
 	  
 <div id="content-sect2">
 	<div id="main-content">
-		<div class="lead-graphic"><img src="svgs/earth-service3.svg" width="100%" height="96%" alt="eco bricks follow the Earth's example."></div>
+		<div class="lead-graphic"><img src="webp/earth-service-500px.webp" width="100%" height="96%" alt="eco bricks follow the Earth's example." loading="lazy"></div>
 		<div class="big-header">Follow the Earth's Example</div>
         <!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 		<div class="sub-text">
@@ -265,14 +265,14 @@ _END;?>
 
 <div id="content-sect3">
 	<div id="main-content">
-		<div class="lead-graphic"><img src="webp/build-circular4.webp" width="100%" height="90%" alt="eco brick plastic brick building"></div>
+		<div class="lead-graphic"><img src="webp/spiral-circular-600px.webp" width="100%" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
 		<div class="big-header">The Problem is the Solution.</div>
 		<!--<div class="lead-paragraph">Using Ecobricked Plastic we can Build our Greenest Visions.</div>-->
-		<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for building green spaces.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build our greenest visions.</p>
+		<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build our greenest visions.</p>
 		</div> 
 		<a href="build" class="main-button">Building Applications</a>
 		
-		<h6><a href="earth">Earth & Ecobrick Building</a> | <a href="earth-methods">E&B Methods</a> | <a href="modules">Milstein Modules</a> | <a href="dms">Dieleman Modules</a> | <a href="openspaces">Open Spaces</a> | <a href="fire">Fire Safety</a></h6>
+		<h6><a href="earth">Earth & Ecobrick Building</a> | <a href="earth-methods">E&B Methods</a> | <a href="modules">Milstein Modules</a> | <a href="circular">Spiral & Circular</a> | <a href="openspaces">Open Spaces</a> | <a href="fire">Fire Safety</a></h6>
 	</div>
 </div>
 
@@ -291,7 +291,7 @@ _END;?>
 		<br><br>
 		<h4>Eco-brick, eco brick, or ecobrick?</h4>
 
-		<p>Back in the early days of putting plastic into a bottle we called it just that-- plastic bottle bricks!  Then when we realized it was helpful to the ecosystems around us, the name changed to eco bricks. Then we got more confident and added a hyphen: eco-bricks! However, once eco bricks were an established global phenomenon the official wikipedia page was updated to make it a full fledged word was appropriate: ecobricks! (no space, no hypen, no strange capitalization) as <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">the official term.</a></p>
+		<p>Back in the early days of putting plastic into a bottle we called it just that-- plastic bottle bricks!  Then when we realized it was helpful to the <b>eco</b>systems around us, the name changed to "eco bricks" or "eco-brick". Today 'ecobrick' is the <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia recongnized</a> term for the go-to, non-capital, zero-carbon solution for <a href="https://en.wikipedia.org/wiki/plastic_sequestration" target="_blank">plastic sequestration</a></a></p>
 		
 	</div>
 </div>
