@@ -252,7 +252,7 @@ _END;?>
 	  
 <div id="content-sect2">
 	<div id="main-content">
-		<div class="lead-graphic"><img src="webp/earth-service-500px.webp" width="100%" height="96%" alt="eco bricks follow the Earth's example." loading="lazy"></div>
+		<div class="lead-graphic"><img src="webp/earth-service-700px.webp" width="100%" height="96%" alt="eco bricks follow the Earth's example." loading="lazy"></div>
 		<div class="big-header">Follow the Earth's Example</div>
         <!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 		<div class="sub-text">
