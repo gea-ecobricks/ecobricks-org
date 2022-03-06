@@ -78,8 +78,7 @@ Header set Cache-Control "max-age=31536000, public"
 Header set Cache-Control "max-age=536000, public"
 </FilesMatch>
 
-#Alternate default index pages
-DirectoryIndex welcome.php index.php
+
 
 
 
@@ -132,6 +131,14 @@ RedirectMatch "^/what/" "/en/what.php"
 RedirectMatch "^/media" "/en/media.php"
 RedirectMatch "^/media/" "/en/media.php"
 
+RedirectMatch "^/index" "/en/media.php"
+RedirectMatch "^/index/" "/en/media.php"
+
+RedirectMatch "^/media" "/en/media.php"
+RedirectMatch "^/media/" "/en/media.php"
+
+#Alternate default index pages
+DirectoryIndex welcome.php
 
 
 
