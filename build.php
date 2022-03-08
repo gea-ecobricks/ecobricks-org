@@ -342,10 +342,6 @@ margin-bottom: 31px;}
 
                 <img src="photos/milsteins-800px.jpg" width="100%">
             
-
-                
-				
-					
 					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need is 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs . Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
 
                     <img src="webp/milstein-modules-750px.webp" width="100%">
@@ -404,12 +400,7 @@ margin-bottom: 31px;}
 
             <img src="webp/dm-modules-1000px.webp" width="100%">
 
-            
         
-
-              
-                    
-                <hr>
                     
                     <h4>🟡 Maintenance</h4>
                     <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
@@ -695,17 +686,18 @@ margin-bottom: 31px;}
                  <div class="row">
                 
                       <div class="main2">
-                         <h4>A Safe Road through Time</h4>
+                         <h4>Safe Passage through Time</h4>
                         
-                         <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintence and the end of the construction is key.</p>
-                         <p>By putting ecobricks to use in ways that follow the criteria of plastic sequestration, our goal is to put our plastic on a safe road through time.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p><br>
+                         <p>Building with ecobricks is a significant responsibilty.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
+                        <p>  Planning for the maintence and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p><br>
                         <p><b>End of Life Agreements</b></p>
-                        <p>The Global Ecobrick Alliance recommends that in community and commercial ecobrick builds (in particular using earthen construction) that end-of-life agreements be established.  These agreements plan for the end of the construction and the removal, responsibility and resuse of the ecobricks.</p>
+                        <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life agreements be established with the constudians of the site.  These agreements must lay out the responsibilities for the construction's maintenance and end.  A plan must be made for the eventual removal, responsibility and resuse of the ecobricks.</p>
                         <p><a href="">See a sample, free use, agreement here.</a>
                         <p>View a sample GEA Ecobrick Construction Long term Custodian agreement:</p>
-
-                    <p><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank">GEA Earth Building Terms of Transfer ENG</a></p>
-                    <p><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank">GEA Earth Building Terms of Transfer INDONESIAN</a></p>
+                    <ul>
+                        <li>
+                    <a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank">GEA Earth Building Terms of Transfer ENG</a></p></li>
+                    <li><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank">GEA Earth Building Terms of Transfer INDONESIAN</a></li>
 					<br><hr>
                     
                     </div></p>
