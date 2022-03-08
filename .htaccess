@@ -131,8 +131,8 @@ RedirectMatch "^/what/" "/en/what.php"
 RedirectMatch "^/media" "/en/media.php"
 RedirectMatch "^/media/" "/en/media.php"
 
-RedirectMatch "^/welcome" "/en/welcome.php"
-RedirectMatch "^/welcome/" "/en/welcome.php"
+RedirectMatch "^/index" "/en/welcome.php"
+RedirectMatch "^/index/" "/en/welcome.php"
 
 #Alternate default index pages
 DirectoryIndex welcome.php

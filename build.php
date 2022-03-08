@@ -256,7 +256,7 @@ margin-bottom: 31px;}
 			
 			
 			<div class="page-paragraph">
-                        <p>That said, building with ecobricks, and the plastic they contain, is a big responsibility.   To make sure that our plastic is <a href="sequest">sequestered</a> for the short and the long term the Global Ecobrick Alliance recommends certain ecobrick applications and has developed guidelines and building principles to help guide safe and secure construction.</p>
+                        <p>That said, building with ecobricks, and the plastic they contain, is a big responsibility.   To make sure that our plastic is safe and <a href="sequest">sequestered</a> the Global Ecobrick Alliance has developed building recommendations, standards and principles principles to ensure your ecobrick applications are great over the short-term and the long.</p>
 
                         <!--<p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
 							
@@ -267,7 +267,7 @@ margin-bottom: 31px;}
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Recommended Applications</h4>
+                    <h4>Thinking Short and Long</h4>
                     <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
                     <br>
                     </div>
@@ -280,11 +280,13 @@ margin-bottom: 31px;}
                 <br>
                 <p><b>Short-term Applications</b><p>
 
-                <p>Silicone or inner-tube-bands can be used as short-term, non-permanent attachment methods to create ecobrick applications that last for months and up to several years. As short-term applications are not usually covered up, they are typically for indoor use, in order to prevent the UV photodegradation of the bottles.  As short term methods have less barriers to replicability, they assist the spread of the ecobrick social movement by empowering the makers.  The benefit of short-term applications are practicality, utility, replicability, social empowerment and the dissemination of ecobricking</p>
+                <p>Silicone or inner-tube-bands can be used as short-term, non-permanent attachment methods to create ecobrick applications that last for months and up to several years.</p>
+                <p> As short-term applications are not usually covered up, they are typically for indoor use, in order to prevent the UV photodegradation of the bottles.  As short term methods have less barriers to replicability, they assist the spread of the ecobrick social movement by empowering the makers.  The benefit of short-term applications are practicality, utility, replicability, social empowerment and the dissemination of ecobricking</p>
 
                 <br><p><b>Long-term Applications</b><p>
                 
-                <p>Earth and Ecobrick building techniques are used to create structures that can last years or decades (it is not uncommon for traditional constructions to last centuries!).  Earth mixes (i.e Cob (material), Wattle and daub, adobe) are used to lay ecobricks horizontally and completely cover them for full protection against all forms of degradation.  The main benefit of long-term applications is plastic sequestration– fully securing plastic from all forms of degradation for the long-haul.</p>
+                <p>Earth and Ecobrick building techniques are used to create structures that can last years or decades (it is not uncommon for traditional constructions to last centuries!).  Earth mixes (i.e Cob (material), Wattle and daub, adobe) are used to lay ecobricks horizontally and completely cover them for full protection against all forms of degradation.</p>
+                <p>The main benefit of long-term applications is plastic sequestration– fully securing plastic from all forms of degradation for the long-haul.</p>
                 
                 
                  
@@ -338,14 +340,17 @@ margin-bottom: 31px;}
 
 				<div id="preclosed3">
 
-                <img src="webp/milstein-modules-750px.webp" width="100%">
-        
+                <img src="photos/milsteins-800px.jpg" width="100%">
+            
+
+                
 				
 					
 					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need is 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs . Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
 
-                    
-                    <hr>
+                    <img src="webp/milstein-modules-750px.webp" width="100%">
+        
+        
                     
                     <h4>🟡 Maintenance</h4>
                     <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
@@ -387,29 +392,20 @@ margin-bottom: 31px;}
 
             <div id="preclosed2">
 
-            <img src="webp/dm-modules-1000px.webp" width="100%">
+            
+            <img src="photos/dielemans-900px.jpg" width="100%">
+
             
             <p> <p>So this is pretty cool– ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.</p>
 
-            <img src="" width="100%">
+            <p>DMs interconnect just like Legos.  They stack one upon the other and enable you to make walls, towers and columns, quickly and easily without any glue or mortar.  Best Usage:  Awesome for open spaces, indoor playgrounds and building structures for concerts or fairs in minutes. Can be taken apart and stored just as fast!</p>
+
+            <p>The DMs can then be disassembled just as easily.</p>
+
+            <img src="webp/dm-modules-1000px.webp" width="100%">
+
             
-
-                <div class="row">
-                    <div class="main2">
-                   
-                     <p>DMs interconnect just like Legos.  They stack one upon the other and enable you to make walls, towers and columns, quickly and easily without any glue or mortar.  Best Usage:  Awesome for open spaces, indoor playgrounds and building structures for concerts or fairs in minutes. Can be taken apart and stored just as fast!</p>
-                    </div>
-                    <div class="side2"><img src="photos/dms-300px.jpg" width="300px">
-                    </div>
-                </div>
-
-                <div class="row2">
-                    <div class="main3">
-                    <p>The DMs can then be disassembled just as easily.</p>
-                    </div>
-                    <div class="side3"><br><img src="photos/dms-300px.jpg" width="120px">
-                    </div>
-                </div>
+        
 
               
                     
@@ -457,6 +453,7 @@ margin-bottom: 31px;}
 
                 <p>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.  These modules are an ideal place to start to learn the basics of Earth building.  We use their construction in GEA Builder courses as a simple, non-structural start to the fundamental earth building techniques.</p>
                     <br>
+                    <hr>
 
                     
                     <h4>🟡 Maintenance</h4>
@@ -524,6 +521,7 @@ margin-bottom: 31px;}
 					
 					
 					<br>
+                    <hr>
 
                     
                     <h4>🟡 Maintenance</h4>
@@ -599,7 +597,7 @@ margin-bottom: 31px;}
 
             <p>The Earth Building technique can completely cover ecobricks, effectively securing them indefinitely in the construction.  This keeps them safe from UV light and other forms of degradation.  After 10, 20 or 100 years, when your structure comes to its end (as everything eventually does) the ecobricks can be extricated undamaged and fully repurposed.</p>
 
-         
+         <br>
                 <hr>
                     
                     <h4>🟡 Maintenance</h4>
@@ -640,7 +638,7 @@ margin-bottom: 31px;}
                     <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
                 </div>
 
-                <div id="preclosed6">
+                <div id="preclosed7">
 
                 <img src="https://www.ecobricks.org/wp-content/uploads/2019/10/17264529_672787756215054_6682259577377211329_n.jpg" width="100%">
 
