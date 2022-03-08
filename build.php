@@ -641,6 +641,8 @@ margin-bottom: 31px;}
                
             </div>
 
+            <!--
+
             <a name="MAINTENANCE"></a>
             <div class="reg-content-block" id="block8">
 
@@ -678,6 +680,7 @@ margin-bottom: 31px;}
 			
 				</div>
 			</div>
+-->
 
 
              <br>
@@ -690,15 +693,7 @@ margin-bottom: 31px;}
                         
                          <p>Building with ecobricks is a significant responsibilty.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
                         <p>  Planning for the maintence and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p><br>
-                        <p><b>End of Life Agreements</b></p>
-                        <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life agreements be established with the constudians of the site.  These agreements must lay out the responsibilities for the construction's maintenance and end.  A plan must be made for the eventual removal, responsibility and resuse of the ecobricks.</p>
-                        <p><a href="">See a sample, free use, agreement here.</a>
-                        <p>View a sample GEA Ecobrick Construction Long term Custodian agreement:</p>
-                    <ul>
-                        <li>
-                    <a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank">GEA Earth Building Terms of Transfer ENG</a></p></li>
-                    <li><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank">GEA Earth Building Terms of Transfer INDONESIAN</a></li>
-					<br><hr>
+                        
                     
                     </div></p>
 
@@ -706,6 +701,15 @@ margin-bottom: 31px;}
                         <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
                     </div>
                 </div>
+                <p><b>End of Life Agreements</b></p>
+                        <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life agreements be established with the constudians of the site.  These agreements must lay out the responsibilities for the construction's maintenance and end.  A plan must be made for the eventual removal, responsibility and resuse of the ecobricks.</p>
+                        <p><a href="">See a sample, free use, agreement here.</a>
+                        <p>View a sample GEA Ecobrick Construction Long term Custodian agreement:</p>
+                    <ul>
+                        <li>
+                    <a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank">GEA Earth Building Terms of Transfer ENG</a></p></li>
+                    <li><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank">GEA Earth Building Terms of Transfer INDONESIAN</a></li>
+					<br>
             </div>
             
 
