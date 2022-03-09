@@ -104,12 +104,12 @@ _END;?>
 
 			<div id="slider1">
 
-				<div id="slider-image"><img src="webp/2020-regen-report.webp" alt="2022 regen Report"></div>
+				<div id="slider-image"><img src="webp/faqs-400px.webp" alt="2022 regen Report"></div>
 				<div id="slider-textbox">
-					<div id="slider-heading">GEA 2022 Regen Report Released</div>
-					<div id="slider-date">Jan 27, 2022 | GEA Center Circle</div>
-					<div id="slider-body">Our annual ecological impact accounting for the GEA's operations in the previous year.  In 2021, we removed over 30,000 kg of carbon and 10,000 kg of plastic for the biosphere 🎉.</div>
-					<div id="slider-link">>> <a href="2021-regenreport.php"> 2021 Regen Report</a></div>
+					<div id="slider-heading">New Media Kit Release</div>
+					<div id="slider-date">March 9th, 2022 | GEA Updates</div>
+					<div id="slider-body">Want to cover the ecobrick movement or technology?  Our media kit is fully updated for 2022 with our latest guidelines.</div>
+					<div id="slider-link">>> <a href="media.php"> Media Kit</a></div>
 
 				</div>
 		</div>

@@ -310,12 +310,12 @@ margin-bottom: 31px;}
                 <div id="preclosed10">
         <br>
 
-            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building">
+            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
 
             <br>
             <p>Before you build with ecobricks, it is essential to store them properly.  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements.  Ecobricks are best stacked horizontally with their bottom pointed outwards.  This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.</p>
 
-            <img src="webp/storage-banner-990px.webp" width="100%">
+            <img src="webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="An example of how to store eco bricks properly">
 
             
 
@@ -340,11 +340,11 @@ margin-bottom: 31px;}
 
 				<div id="preclosed3">
 
-                <img src="photos/milsteins-800px.jpg" width="100%">
+                <img src="photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="GEA trainers sitting at a table with eco brick milstein modules made from plastic">
             
 					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need is 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs . Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
 
-                    <img src="webp/milstein-modules-750px.webp" width="100%">
+                    <img src="webp/milstein-modules-750px.webp" width="100%" loading="lazy" alt="milstein eco-brick module building">
         
         
                     
@@ -389,7 +389,7 @@ margin-bottom: 31px;}
             <div id="preclosed2">
 
             
-            <img src="photos/dielemans-900px.jpg" width="100%">
+            <img src="photos/dielemans-900px.jpg" width="100%" loading="lazy" alt="Dieleman lego eco brick modules">
 
             
             <p> <p>So this is pretty cool– ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.</p>
@@ -398,7 +398,7 @@ margin-bottom: 31px;}
 
             <p>The DMs can then be disassembled just as easily.</p>
 
-            <img src="webp/dm-modules-1000px.webp" width="100%">
+            <img src="webp/dm-modules-1000px.webp" width="100%" loading="lazy" alt="Examples of the different types of dieleman lego modules">
 
         
                     
@@ -440,7 +440,7 @@ margin-bottom: 31px;}
 
                 <div id="preclosed4">
 
-                <img src="photos/earth-module-623px.jpg" width=100%">
+                <img src="photos/earth-module-623px.jpg" width="100%" loading="lazy" alt="Eco brick earth modules for sitting or coffee table">
 
                 <p>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.  These modules are an ideal place to start to learn the basics of Earth building.  We use their construction in GEA Builder courses as a simple, non-structural start to the fundamental earth building techniques.</p>
                     <br>
@@ -490,7 +490,7 @@ margin-bottom: 31px;}
 
 				<div id="preclosed5">
 
-                    <img src="photos/openspace-960px.jpg" width="100%">
+                    <img src="photos/openspace-960px.jpg" width="100%" alt="Eco-brick open spaces for use with eco brick modules of all kinds" loading="lazy">
 
                     <p>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands.  These ecobricks can then be combined into an assortment of Milstein and Dieleman modules to create a diverse set of several hundred modules.</p>
 
@@ -498,7 +498,7 @@ margin-bottom: 31px;}
                             <div class="main2">
                                <p>These modules can then be deployed for confernces, exhibtions, fairs and other special events to create customized interactive spaces.   These spaces can either be setup in advance or invite participants to interact, play and create their own space.  </p>
                             </div>
-                            <div class="side2"><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="100%">
+                            <div class="side2"><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="100%" loading="lazy" alt="Examples of an eco brik open space".>
                             </div>
                         </div>
 
@@ -506,7 +506,7 @@ margin-bottom: 31px;}
                             <div class="main3">
                             <p>Ecobrick communities that have amassed Open Space sets often rent out to events and venues to show case ecobrick modular technology and regenerative principles.</p>
                             </div>
-                            <div class="side3"><br><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="120px">
+                            <div class="side3"><br><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="120px" loading="lazy" alt="Example eco brick open space">
                             </div>
                         </div>
 					
@@ -556,7 +556,7 @@ margin-bottom: 31px;}
 
             <div id="preclosed6">
 
-            <img src="https://www.ecobricks.org/wp-content/uploads/2017/05/green-space.jpg" width="100%">
+            <img src="https://www.ecobricks.org/wp-content/uploads/2017/05/green-space.jpg" width="100%" tag="eco brik green spaces" loading="lazy">
             
             <p>Our number one choice for structural building!  This method is strong, earthquake resilient, allows curved walls and designs, allows ecobricks to be recycled at the end of the construction, and relies only on 100% organic, locally-sourced materials that cost next to nothing.</p>
             
@@ -566,15 +566,15 @@ margin-bottom: 31px;}
                             <div class="main2">
                             <p>Earth building is in full resonance with our principles— it is simple and replicable, non-capital, non-petroleum, collaboration powered, cradle-to-cradle and potently regenerative. Earth building techniques are gender and age transcendent:  involving men and women, young and old, and everyone in between in the building process.</p>
                             </div>
-                            <div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2020/04/cricle-bench-and-mango-tree-simple.svg" width="100%">
-                            </div>
+                            <div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2020/04/cricle-bench-and-mango-tree-simple.svg" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                            </div><!--svgs/circle-bench.svg-->
                         </div>
 
                         <div class="row2">
                             <div class="main3">
                             <p>Earth and Ecobrick Building is ideal for constructing simple garden spaces – playgrounds and what we call ‘food forest play parks‘.</p>
                             </div>
-                            <div class="side3"><br><img src="https://www.ecobricks.org/wp-content/uploads/2020/04/cricle-bench-and-mango-tree-simple.svg" width="120px">
+                            <div class="side3"><br><img src="https://www.ecobricks.org/wp-content/uploads/2020/04/cricle-bench-and-mango-tree-simple.svg" width="120px" loading="lazy" alt="eco brik and earth building can make tree benches">
                             </div>
                         </div>
                         
@@ -631,10 +631,10 @@ margin-bottom: 31px;}
 
                 <div id="preclosed7">
 
-                <img src="https://www.ecobricks.org/wp-content/uploads/2019/10/17264529_672787756215054_6682259577377211329_n.jpg" width="100%">
+                <img src="https://www.ecobricks.org/wp-content/uploads/2019/10/17264529_672787756215054_6682259577377211329_n.jpg" width="100%" loading="lazy" alt="Eco brick book shelf">
 
-                <p>People around the world are building all sorts of great and unique things with their ecobrick!  Did you know that Ecobricks float really well?  We can’t wait to see the first Ecobrick boats and islands. Have you seen or developed useful applications?  Please share with us, or help our team develop this page further.   Share your photos on the web with the hash tag #ecobricks.</p>
-                <p>From baseball bats to boats, the sky is the limit on what you can use Ecobricks for!  Ecobricks can be used for getting fit, for games and more.</p>
+                <p>People around the world are building all sorts of great and unique things with their ecobrick!  Did you know that Ecobricks float really well?  We can’t wait to see the first ecobrick boats and islands. Have you seen or developed useful applications?  Please share with us, or help our team develop this page further.   Share your photos on the web with the hash tag #ecobricks.</p>
+                <p>From baseball bats to boats, the sky is the limit on what you can use ecobricks for!  Ecobricks can be used for getting fit, for games and more.</p>
 
 
                 </div>
@@ -689,7 +689,7 @@ margin-bottom: 31px;}
                  <div class="row">
                 
                       <div class="main2">
-                         <h4>Safe Passage through Time</h4>
+                         <h4>A Safe Passage Through Time</h4>
                         
                          <p>Building with ecobricks is a significant responsibilty.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
                         <p>  Planning for the maintence and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p><br>
@@ -698,7 +698,7 @@ margin-bottom: 31px;}
                     </div></p>
 
                     <div class="side2">
-                        <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
+                        <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                     </div>
                 </div>
                 <p><b>End of Life Agreements</b></p>
@@ -720,21 +720,21 @@ margin-bottom: 31px;}
 		<div class="side">
 	
 			<div id="side-module-desktop-mobile">
-				<img src="svgs/circle-bench.svg" width="100%">
+				<img src="svgs/circle-bench.svg" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
 				<br><h4>Following the Earth's Example</h4>
 				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
 				<a class="module-btn" href="about">Plastic's Long Story</a>
                 <br>
 			</div>  
             <div id="side-module-desktop-mobile">
-                <img src="webp/tens-thousands.webp" width="100%">
+                <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make community centers">
                 <h4>Ecobricks</h4>
                 <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
                 <a class="module-btn" href="sequest">Plastic Sequestration</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/earthhome-400px.webp" width="100%">
+				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
 				<a class="module-btn" href="transition">Learn More</a>
@@ -743,7 +743,7 @@ margin-bottom: 31px;}
 			
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/circular.webp" width="80%">
+				<img src="webp/circular.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
 				<h4>Spiral Design</h4>
 				<h5>Plastic Sequestration follows the principles of cyclical spiral design.</h5><br>
 				<a class="module-btn" href="circular">Learn More</a>
