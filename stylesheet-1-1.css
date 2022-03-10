@@ -894,23 +894,9 @@ display: none;
   z-index: 12;
 }
 
-.topnav .dropdown-content-normal a {
-  font-size: 1.3em;
-  font-family: 'Mulish', sans-serif;
-  /*text-shadow: 0px 0px 10px #ccc ;*/
-  font-weight: 300;
-  padding: 14px 16px;
-  display: block;
+.single-menu a {
   color: #666666;
   text-align: center;
-  text-decoration: none;
-  float: right;
-  position: relative;
-  z-index: 12;
-}
-
-.single-menu a {
-
   text-decoration: none;
 }
 
