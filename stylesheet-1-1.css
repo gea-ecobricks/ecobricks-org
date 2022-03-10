@@ -894,7 +894,13 @@ display: none;
   z-index: 12;
 }
 
-.single-menu a {
+.topnav .dropdown-content-normal a {
+  font-family: 'Mulish', sans-serif;
+  color: #666666;
+
+}
+
+.drop-text a {
   color: #666666;
   text-align: center;
   text-decoration: none;
