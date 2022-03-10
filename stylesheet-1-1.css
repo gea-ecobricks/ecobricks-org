@@ -879,7 +879,7 @@ display: none;
   display: none;
 }
 
-.topnav a {
+.topnav .single-menu a {
   font-size: 1.3em;
   font-family: 'Mulish', sans-serif;
   /*text-shadow: 0px 0px 10px #ccc ;*/
