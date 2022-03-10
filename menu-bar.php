@@ -78,10 +78,12 @@
         </a>
         <a href="sequest">Sequestration</a>
         <a href="about">About Us</a>
-            <div class="dropdown">
-                <button class="dropbtn"><div id="drop-text"><a href="build">Building</a>
-                  <i class="fa fa-caret-down"></i></div>
-                </button>
+        <div class="dropdown">
+        <a href="build">
+            <button class="dropbtn">
+            <div id="drop-text">building
+                  <i class="fa fa-caret-down"></i></div></a>
+                </button></a>
                 <div class="dropdown-content-normal">
                     <a href="/build">Recommended Methods</a>
                     <a href="/modules">Lego Modules</a>
@@ -91,14 +93,14 @@
             </div>
 
             <div class="dropdown">
-                <button class="dropbtn"><div id="drop-text"><a href="about">About Ecobricks</a>
-                  <i class="fa fa-caret-down"></i></div>
+                <button class="dropbtn"><a href="what"><div id="drop-text">About Ecobricks
+                  <i class="fa fa-caret-down"></i></div></a>
                 </button>
                 <div class="dropdown-content-normal">
-                    <a href="what.php">What are Ecobricks</a>
+                    <a href="what">What are Ecobricks</a>
                     <a href="how">How to Make?</a>
                     <a href="why">Why Ecobricks?</a>
-                    <a href="sequest.php">Plastic sequestration</a>
+                    <a href="plastic">Plastic's Story</a>
                 </div>
             </div> 
         
