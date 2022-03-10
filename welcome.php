@@ -176,7 +176,7 @@ _END;?>
 
 
 		<div id="slider3">
-			<div id="slider-image"><img src="photos/earth-rumoer.png"  width="100%" alt="eco brick round house"></div>
+			<div id="slider-image"><img src="photos/rumoer.jpg"  width="100%" alt="eco brick round house"></div>
 			<div id="slider-textbox">
 				<div id="slider-heading">Featured Project</div>
 				<div id="slider-body">
@@ -252,7 +252,7 @@ _END;?>
 	  
 <div id="content-sect2">
 	<div id="main-content">
-		<div class="lead-graphic"><img src="webp/earth-service-700px.webp" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
+		<div class="lead-graphic"><img src="webp/earth-service-700px.webp" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px">
 		</div>
 		<div class="big-header">Follow the Earth's Example</div>
         <!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
@@ -267,7 +267,7 @@ _END;?>
 
 <div id="content-sect3">
 	<div id="main-content">
-		<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
+		<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building"></div>
 		<div class="big-header">The Problem is the Solution.</div>
 		<!--<div class="lead-paragraph">Using Ecobricked Plastic we can Build our Greenest Visions.</div>-->
 		<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build our greenest visions.</p>
