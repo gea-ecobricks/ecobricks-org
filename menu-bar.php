@@ -90,7 +90,7 @@
             </div>
 
             <div class="dropdown">
-                <button class="dropbtn"><a href="what"><div id="drop-text">About Ecobricks
+                <button class="dropbtn"><a href="what.php"><div id="drop-text">About Ecobricks
                   <i class="fa fa-caret-down"></i></div></a>
                 </button>
                 <div class="dropdown-content-normal">
