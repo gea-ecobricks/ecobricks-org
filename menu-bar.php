@@ -79,13 +79,13 @@
         <a href="sequest">Sequestration</a>
         <a href="about">About Us</a>
         <div class="dropdown">
-        <a href="build">
+        
             <button class="dropbtn">
-            <div id="drop-text">building
+            <div id="drop-text">Building
                   <i class="fa fa-caret-down"></i></div></a>
-                </button></a>
+                </button>
                 <div class="dropdown-content-normal">
-                    <a href="/build">Recommended Methods</a>
+                    <a href="/build">Building Methods</a>
                     <a href="/modules">Lego Modules</a>
                     <a href="/earth">Earth & Ecobricks</a>
                     <a href="/openspaces">Open Spaces</a>
