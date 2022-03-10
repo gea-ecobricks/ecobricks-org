@@ -897,10 +897,11 @@ display: none;
 .topnav .dropdown-content-normal a {
   font-family: 'Mulish', sans-serif;
   color: #666666;
+  font-size: 1.3em;
 
 }
 
-.drop-text a {
+#drop-text a {
   color: #666666;
   text-align: center;
   text-decoration: none;
