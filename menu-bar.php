@@ -76,22 +76,22 @@
         <!--	<div id="faq-icon" title="FAQs" style="margin-right: -5px;font-size: 1.35em;">🤔</div>
             <div id="faq-menu-text">FAQs</div>-->
         </a>
-        <a href="principles">Principles</a>
-        <a href="about.php">About Us</a>
+        <a href="sequest">Sequestration</a>
+        <a href="about">About Us</a>
             <div class="dropdown">
-                <button class="dropbtn"><div id="drop-text">Building 
+                <button class="dropbtn"><div id="drop-text"><a href="build">Building</a>
                   <i class="fa fa-caret-down"></i></div>
                 </button>
                 <div class="dropdown-content-normal">
-                    <a href="/build">Ideas & Examples</a>
-                    <a href="/modules">Modules</a>
+                    <a href="/build">Recommended Methods</a>
+                    <a href="/modules">Lego Modules</a>
                     <a href="/earth">Earth & Ecobricks</a>
                     <a href="/openspaces">Open Spaces</a>
                 </div>
             </div>
 
             <div class="dropdown">
-                <button class="dropbtn"><div id="drop-text">About Ecobricks 
+                <button class="dropbtn"><div id="drop-text"><a href="about">About Ecobricks</a>
                   <i class="fa fa-caret-down"></i></div>
                 </button>
                 <div class="dropdown-content-normal">
