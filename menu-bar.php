@@ -72,9 +72,9 @@
                 </div>
         </div> 
         
-        <div class="single-menu"><a href="faqs.php">FAQs</a></div>
-        <div class="single-menu"><a href="sequest.php">Sequestration</a></div>
-        <div class="single-menu"><a href="about.php">About Us</a></div>
+        <a href="faqs.php">FAQs</a></div>
+        <a href="sequest.php">Sequestration</a></div>
+        <a href="about.php">About Us</a></div>
         <div class="dropdown">
         
             <button class="dropbtn">
