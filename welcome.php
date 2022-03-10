@@ -119,7 +119,7 @@ _END;?>
 				<div id="slider-textbox">
 				<div id="slider-heading">Plastic Transition Platform for Enterprises</div>
 				<div id="slider-body">Our Catalyst program for keen green companies, organizations and projects is now live!  Track, disclose and accelerate your plastic transition.</div>
-				<div id="slider-link"><a href="catalyst">Learn more</a></div>
+				<div id="slider-link"><a href="catalyst.php">Learn more</a></div>
 				<div id="slider-date">Feb. 6, 2022 | GEA Announcements</div>
 			</div>
 		</div>
@@ -193,7 +193,7 @@ _END;?>
 				<div id="slider-heading">Inspired by Igorot Ancestral Wisdom</div>
 				<div id="slider-date">Sep 15th, 2021 | GEA Update Content</div>
 				<div id="slider-body">Ecobricking principles are inspired by the deep green ways and wisdom of the Igorots the indigenous people of Northern Luzon.  Learn how their Ayyew ecological ethos inspires a modern movement</div>
-				<div id="slider-link">>> <a href="ayyew"> Ayyew Inspired</a></div>
+				<div id="slider-link">>> <a href="/ayyew"> Ayyew Inspired</a></div>
 			
 			</div>
 		</div>
@@ -244,7 +244,7 @@ _END;?>
 			<!--<p>When we save, segregate and pack plastics into bottles, we can make building blocks that can be reused over and over again. Together we can build green spaces that enrich our community and safely secure plastic out of the biosphere.  Together we can transition from plastic to ever greener harmony with Earth’s cycles.</p>-->
 			</div>
 			 <a href="faqs.php" button class="main-button">All About Ecobricks</a>
-			<h6><a href="what">What is an Ecobrick?</a> | <a href="how">How to Make?</a> | <a href="why">Why Make?</a></h6>
+			<h6><a href="what">What is an Ecobrick?</a> | <a href="/how">How to Make?</a> | <a href="/why">Why Make?</a></h6>
 		</div>	
 	
 	</div>
@@ -259,7 +259,7 @@ _END;?>
 		<div class="sub-text">
 		<p>Ecobricking follows the Earth's example of concentrating and securing carbon out of the biosphere.  Following the science of plastic degradation and Earthen principles, ecobricking is a non-capital, net-zero means of plastic sequestration.</p>
 		</div>
-		<a href="sequest" button class="main-button">Plastic Sequestration</a>
+		<a href="sequest.php" button class="main-button">Plastic Sequestration</a>
 		<h6><a href="/ayyew">Ayyew Inspired</a> | <a href="/circular">Circular by Design</a> | <a href="/plastic">Towards Transition</a> | <a href="/principles">Regenerative</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
 	</div>
 </div>	
@@ -272,9 +272,9 @@ _END;?>
 		<!--<div class="lead-paragraph">Using Ecobricked Plastic we can Build our Greenest Visions.</div>-->
 		<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build our greenest visions.</p>
 		</div> 
-		<a href="build" class="main-button">Building Applications</a>
+		<a href="build.php" class="main-button">Building Applications</a>
 		
-		<h6><a href="earth">Earth & Ecobrick Building</a> | <a href="earth-methods">E&B Methods</a> | <a href="modules">Milstein Modules</a> | <a href="circular">Spiral & Circular</a> | <a href="openspaces">Open Spaces</a> | <a href="fire">Fire Safety</a></h6>
+		<h6><a href="/earth">Earth & Ecobrick Building</a> | <a href="/earth-methods">E&B Methods</a> | <a href="/modules">Milstein Modules</a> | <a href="/circular">Spiral & Circular</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6>
 	</div>
 </div>
 
@@ -285,8 +285,8 @@ _END;?>
 		<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="autehtnticated eco brick sequetration"></div><!--width="300px" height="254px"-->
 		<!--<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>-->
 		<div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
-		<a href="what" class="main-button">Plastic Offsetting</a>
-		<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about">About the GEA</a></h6><br><br>
+		<a href="what.php" class="main-button">Plastic Offsetting</a>
+		<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about.php">About the GEA</a></h6><br><br>
 		<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>
 		<img src="svgs/3brikcoins.svg" width="30%">
 

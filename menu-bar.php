@@ -73,8 +73,8 @@
         </div> 
         
         <div class="single-menu"><a href="faqs.php">FAQs</a></div>
-        <div class="single-menu"><a href="sequest">Sequestration</a></div>
-        <div class="single-menu"><a href="about">About Us</a></div>
+        <div class="single-menu"><a href="sequest.php">Sequestration</a></div>
+        <div class="single-menu"><a href="about.php">About Us</a></div>
         <div class="dropdown">
         
             <button class="dropbtn">
@@ -82,7 +82,7 @@
                   <i class="fa fa-caret-down"></i></div></a>
                 </button>
                 <div class="dropdown-content-normal">
-                    <a href="/build">Building Methods</a>
+                    <a href="/build.php">Building Methods</a>
                     <a href="/modules">Lego Modules</a>
                     <a href="/earth">Earth & Ecobricks</a>
                     <a href="/openspaces">Open Spaces</a>
@@ -94,10 +94,10 @@
                   <i class="fa fa-caret-down"></i></div></a>
                 </button>
                 <div class="dropdown-content-normal">
-                    <a href="what">What are Ecobricks</a>
-                    <a href="how">How to Make?</a>
-                    <a href="why">Why Ecobricks?</a>
-                    <a href="plastic">Plastic's Story</a>
+                    <a href="what.php">What are Ecobricks</a>
+                    <a href="/how">How to Make?</a>
+                    <a href="/why">Why Ecobricks?</a>
+                    <a href="/plastic">Plastic's Story</a>
                 </div>
             </div> 
         
