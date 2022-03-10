@@ -42,7 +42,7 @@
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.33">
+<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.34">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
