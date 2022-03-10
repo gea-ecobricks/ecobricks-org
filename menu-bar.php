@@ -72,12 +72,9 @@
                 </div>
         </div> 
         
-        <a href="faqs.php">FAQs
-        <!--	<div id="faq-icon" title="FAQs" style="margin-right: -5px;font-size: 1.35em;">🤔</div>
-            <div id="faq-menu-text">FAQs</div>-->
-        </a>
-        <a href="sequest">Sequestration</a>
-        <a href="about">About Us</a>
+        <div class="single-menu"><a href="faqs.php">FAQs</a></div>
+        <div class="single-menu"><a href="sequest">Sequestration</a></div>
+        <div class="single-menu"><a href="about">About Us</a></div>
         <div class="dropdown">
         
             <button class="dropbtn">
