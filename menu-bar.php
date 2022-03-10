@@ -79,7 +79,7 @@
         
             <button class="dropbtn">
             <div id="drop-text">Building
-                  <i class="fa fa-caret-down"></i></div></a>
+                  <i class="fa fa-caret-down"></i></div>
                 </button>
                 <div class="dropdown-content-normal">
                     <a href="build.php">Building Methods</a>
@@ -90,8 +90,8 @@
             </div>
 
             <div class="dropdown">
-                <button class="dropbtn"><a href="what.php"><div id="drop-text">About Ecobricks
-                  <i class="fa fa-caret-down"></i></div></a>
+                <button class="dropbtn"><div id="drop-text">About Ecobricks
+                  <i class="fa fa-caret-down"></i></div>
                 </button>
                 <div class="dropdown-content-normal">
                     <a href="what.php">What are Ecobricks</a>

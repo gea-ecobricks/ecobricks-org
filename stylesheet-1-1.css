@@ -879,7 +879,7 @@ display: none;
   display: none;
 }
 
-.topnav .single-menu a {
+.topnav a {
   font-size: 1.3em;
   font-family: 'Mulish', sans-serif;
   /*text-shadow: 0px 0px 10px #ccc ;*/
@@ -894,6 +894,8 @@ display: none;
   z-index: 12;
 }
 
+/*
+
 .topnav .dropdown-content-normal a {
   font-family: 'Mulish', sans-serif;
   color: #666666;
@@ -901,11 +903,12 @@ display: none;
 
 }
 
-#drop-text a {
+.dropbtn a {
   color: #666666;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
 }
+*/
 
 .topnav .icon {
   display: none;
