@@ -24,6 +24,7 @@ deployment:
     - /bin/cp db.php $DEPLOYPATH
     - /bin/cp ajax.php $DEPLOYPATH
     - /bin/cp ssp.class.php $DEPLOYPATH
+    - /bin/cp stylesheet-landing.css $DEPLOYPATH
     
 
     - /bin/cp welcome.php $DEPLOYPATH
@@ -67,6 +68,7 @@ deployment:
     - /bin/cp db.php $DEPLOYPATH
     - /bin/cp ajax.php $DEPLOYPATH
     - /bin/cp ssp.class.php $DEPLOYPATH
+    - /bin/cp stylesheet-landing.css $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -108,6 +110,7 @@ deployment:
     - /bin/cp db.php $DEPLOYPATH
     - /bin/cp ajax.php $DEPLOYPATH
     - /bin/cp ssp.class.php $DEPLOYPATH
+    - /bin/cp stylesheet-landing.css $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -149,6 +152,7 @@ deployment:
     - /bin/cp db.php $DEPLOYPATH
     - /bin/cp ajax.php $DEPLOYPATH
     - /bin/cp ssp.class.php $DEPLOYPATH
+    - /bin/cp stylesheet-landing.css $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
