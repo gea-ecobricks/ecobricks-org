@@ -17,7 +17,7 @@ echo <<<_END
 <!--<link rel="preload" as="image" href="webp/vision-bottom4.webp">-->
 <link rel="preload" as="image" href="webp/mountain-top2.webp">
 
-<link rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.2">
+<link rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.3">
 
 
 _END;?>
@@ -36,9 +36,8 @@ _END;?>
 <style>
 
 
-
 @media screen and (min-width: 700px) { 
-.splash-image {
+.slider-image {
   z-index: 5;
   position: relative;
   text-align: center;
@@ -51,7 +50,7 @@ _END;?>
 
 
 @media screen and (min-width: 700px) { 
-.splash-box {
+.slider-textbox {
   z-index: 5;
   position: relative;
   flex: 65%;
@@ -64,7 +63,7 @@ _END;?>
 
 
 @media screen and (max-width: 700px) { 
-.splash-image {
+.slider-image {
   z-index: 5;
   position: relative;
   text-align: left;
@@ -79,7 +78,7 @@ _END;?>
 
 
 @media screen and (max-width: 700px) { 
-.splash-box {
+.slider-textbox {
 	position: relative;
   flex: 100%;
 	padding: 10px 10px 0px 0px;
@@ -89,55 +88,6 @@ _END;?>
 }
 
 
-
-.splash-heading { 
-    /*font-family: 'Mulish', Arial, Helvetica, sans-serif;*/
-    font-family: Arvo, serif;
-  color: white;
-  font-weight: 500;
-  text-shadow: 0 0 8px black;
-
-}
-
-@media screen and (max-width: 700px) {
-	.splash-heading {
-      font-size: 3.0em;
-      line-height: 1.1;
-      margin: 10px 0;
-  }
-}
-
-@media screen and (min-width: 700px) {
-	.splash-heading {
-      font-size: 4em;
-      line-height: 1.3;
-      margin: 40px 0 10px;
-  }
-}
-
-
-.splash-sub {
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: #fff;
-  /*text-shadow: 0px 0px 10px #fff;*/
-  margin: 15px 0;
-  text-shadow: 0 0 7px black;
-}
-
-@media screen and (max-width: 700px) {
-	.splash-sub {
-		font-size: 1.9em;
-		line-height: 1.3;
-		font-weight: 400;
-  }
-}
-@media screen and (min-width: 700px) {
-	.splash-sub {
-		font-size: 2.5em;
-		line-height: 1.3;
-		font-weight: 400;
-  }
-}
 
 
 
@@ -258,14 +208,14 @@ _END;?>
 -->
 
 		<div id="slider2">
-			<div class="splash-box">
+			<div class="slider-textbox">
 				<div class="slider-heading">New Ecobrick Applications Page</div>
 				<div id="slider-date">March 11th, 2022 | GEA Update Content</div>
 				<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
 				<div id="slider-link">>> <a href="build.php">Ecobrick Building</a></div>
 			</div>
 			<div class="splash-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
-			</div>									
+											
 		</div>
 
 
