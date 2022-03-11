@@ -360,7 +360,7 @@ _END;?>
 		<!--<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>-->
 		<div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
 		<a href="what.php" class="main-button">Plastic Offsetting</a>
-		<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="/transition">Plastic Transition</a> | <a href="about.php">About the GEA</a></h6><br><br>
+		<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="transition.php">Plastic Transition</a> | <a href="about.php">About the GEA</a></h6><br><br>
 		<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>
 		<img src="svgs/3brikcoins.svg" width="30%">
 
