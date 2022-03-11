@@ -17,7 +17,7 @@ echo <<<_END
 <!--<link rel="preload" as="image" href="webp/vision-bottom4.webp">-->
 <link rel="preload" as="image" href="webp/mountain-top2.webp">
 
-<link rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.1">
+<link rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.2">
 
 
 _END;?>
@@ -34,6 +34,113 @@ _END;?>
 
 
 <style>
+
+
+
+@media screen and (min-width: 700px) { 
+.splash-image {
+  z-index: 5;
+  position: relative;
+  text-align: center;
+  flex: 35%;
+	padding: 0px;
+	box-sizing: border-box;
+	margin-top: 0px;
+}
+}
+
+
+@media screen and (min-width: 700px) { 
+.splash-box {
+  z-index: 5;
+  position: relative;
+  flex: 65%;
+	padding: 10px 30px 0px 0px;
+	box-sizing: border-box;
+	text-align: right;
+}
+}
+
+
+
+@media screen and (max-width: 700px) { 
+.splash-image {
+  z-index: 5;
+  position: relative;
+  text-align: left;
+  flex: 25%;
+  width: 250px;
+	padding: 0px;
+	box-sizing: border-box;
+	margin: 0px 0px 0px 10px;
+}
+}
+
+
+
+@media screen and (max-width: 700px) { 
+.splash-box {
+	position: relative;
+  flex: 100%;
+	padding: 10px 10px 0px 0px;
+	box-sizing: border-box;
+	text-align: right;
+}
+}
+
+
+
+.splash-heading { 
+    /*font-family: 'Mulish', Arial, Helvetica, sans-serif;*/
+    font-family: Arvo, serif;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 0 8px black;
+
+}
+
+@media screen and (max-width: 700px) {
+	.splash-heading {
+      font-size: 3.0em;
+      line-height: 1.1;
+      margin: 10px 0;
+  }
+}
+
+@media screen and (min-width: 700px) {
+	.splash-heading {
+      font-size: 4em;
+      line-height: 1.3;
+      margin: 40px 0 10px;
+  }
+}
+
+
+.splash-sub {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: #fff;
+  /*text-shadow: 0px 0px 10px #fff;*/
+  margin: 15px 0;
+  text-shadow: 0 0 7px black;
+}
+
+@media screen and (max-width: 700px) {
+	.splash-sub {
+		font-size: 1.9em;
+		line-height: 1.3;
+		font-weight: 400;
+  }
+}
+@media screen and (min-width: 700px) {
+	.splash-sub {
+		font-size: 2.5em;
+		line-height: 1.3;
+		font-weight: 400;
+  }
+}
+
+
+
 #clouds {
 	background: url(svgs/cloud-back.svg) center top;
     background-repeat: no-repeat;
@@ -146,13 +253,14 @@ _END;?>
 			</div>
 		</div>
 
+
 		<div id="slider3">
 			<div class="splash-box">
-			<div class="splash-heading">Ecobrick Applications</div>
-		<div class="splash-sub">Practical & Principled Ecobrick Building.</div>
-		</div>
-		<div class="splash-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
-	</div>									
+				<div class="splash-heading">Ecobrick Applications</div>
+				<div class="splash-sub">Practical & Principled Ecobrick Building.</div>
+			</div>
+			<div class="splash-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
+			</div>									
 		</div>
 
 

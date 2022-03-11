@@ -851,10 +851,11 @@
   
   #content-sect3 {
     width: 100%;
-  
     box-sizing: border-box;
-    /*background-color: #e0f7ff;*/
+    text-align: center;
   }
+
+  
   @media screen and (min-width: 770px) and (max-width: 2000px) {
     #content-sect3 {
         background: url("webp/visionscape.webp");
@@ -920,5 +921,5 @@
     }
   }
 
-  
+
 
