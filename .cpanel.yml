@@ -19,7 +19,7 @@ deployment:
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
-    - /bin/cp stylesheet-1-1.css $DEPLOYPATH
+    - /bin/cp stylesheet-general.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
     - /bin/cp ajax.php $DEPLOYPATH
@@ -63,7 +63,7 @@ deployment:
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
-    - /bin/cp stylesheet-1-1.css $DEPLOYPATH
+    - /bin/cp stylesheet-general.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
     - /bin/cp ajax.php $DEPLOYPATH
@@ -105,7 +105,7 @@ deployment:
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
-    - /bin/cp stylesheet-1-1.css $DEPLOYPATH
+    - /bin/cp stylesheet-general.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
     - /bin/cp ajax.php $DEPLOYPATH
@@ -147,7 +147,7 @@ deployment:
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
-    - /bin/cp stylesheet-1-1.css $DEPLOYPATH
+    - /bin/cp stylesheet-general.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
     - /bin/cp ajax.php $DEPLOYPATH
