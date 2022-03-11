@@ -193,7 +193,7 @@ _END;?>
 				</div>
 		</div>
 
-		<!--
+	
 
 		<div id="slider2">
 			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brickenterprise program"></div>
@@ -205,8 +205,8 @@ _END;?>
 			</div>
 		</div>
 
--->
 
+<!--
 		<div id="slider2">
 			<div class="slider-textbox">
 				<div id="slider-heading">New Ecobrick Applications Page</div>
@@ -218,8 +218,6 @@ _END;?>
 											
 		</div>
 
-
-			<!--
 		<div id="slider2">
 
 			<div id="slider-image"><img src="webp/ayyew.webp"></div>
