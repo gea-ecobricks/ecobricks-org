@@ -232,9 +232,10 @@ margin-bottom: 31px;}
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Ecobrick Applications</div>
-	<div class="splash-sub">Practical & Principled Ecobrick Building.</div>
+	    <div class="splash-sub">Practical & Principled Ecobrick Building.</div>
 	</div>
-	<div class="splash-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
+	<div class="splash-image"><img src="webp/build-blue-450px.webp" style="width: 85%">
+    </div>	
 </div>
 <div id="splash-bar"></div>
 <!--<div id="header-bar2"></div>-->
