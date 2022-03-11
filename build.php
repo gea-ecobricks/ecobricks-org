@@ -34,7 +34,7 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 77vh;
+		height: 73vh;
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
@@ -281,7 +281,7 @@ margin-bottom: 31px;}
                 <p><b>Short-term Applications</b><p>
 
                 <p>Silicone or inner-tube-bands can be used as short-term, non-permanent attachment methods to create ecobrick applications that last for months and up to several years.</p>
-                <p> As short-term applications are not usually covered up, they are typically for indoor use, in order to prevent the UV photodegradation of the bottles.  As short term methods have less barriers to replicability, they assist the spread of the ecobrick social movement by empowering the makers.  The benefit of short-term applications are practicality, utility, replicability, social empowerment and the dissemination of ecobricking</p>
+                <p> As short-term applications are not usually covered up, they are typically for indoor use, in order to prevent the UV photodegradation of the bottles.  Short term application are easier for people to make and accelerate the <a href="/mandalas">mandalic spread</a> of ecobricking. </p>
 
                 <br><p><b>Long-term Applications</b><p>
                 
@@ -364,7 +364,7 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="milstein">🚀 Get started with Modules!</a>
+                    <a class="action-btn" href="milstein">🚀 Learn more & make</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Milstein modules.</a></p>
 
                     
@@ -418,7 +418,7 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="dms">🚀 Get started with Modules!</a>
+                    <a class="action-btn" href="dms">🚀 Learn More & Make</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Dieleman modules.</a></p>
 
             </div>
@@ -464,7 +464,7 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="dms">🚀 Get started with Earth Modules!</a>
+                    <a class="action-btn" href="dms">🚀 Learn More & Make</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about earth and ecobrick building.</a></p>
 
 
@@ -531,7 +531,7 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="openspaces">🚀 Build an Open Space!</a>
+                    <a class="action-btn" href="openspaces">🚀 Learn More & Make</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ecobrick Open Spaces.</a></p>
 
                   
@@ -607,7 +607,7 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="earth">🚀 Get started with Earth Building!</a>
+                    <a class="action-btn" href="earth">🚀 Learn More & Make</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Earth & Ecobrick Building.</a></p>
 
             </div>
