@@ -14,7 +14,7 @@ echo <<<_END
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="svgs/cloud-back.svg">
-<!--<link rel="preload" as="image" href="webp/vision-bottom3b.webp">-->
+<!--<link rel="preload" as="image" href="webp/vision-bottom4.webp">-->
 <link rel="preload" as="image" href="webp/mountain-top2.webp">
 
 
@@ -29,6 +29,9 @@ _END;?>
 <?php require_once ("header.php");?>
 
 <!--custom page CSS-->
+
+<link rel="stylesheet" type="text/css" href="stylesheet-landing?v0.1">
+
 
 <style>
 #clouds {
@@ -83,6 +86,25 @@ _END;?>
 }
 }
 
+#main-content {
+  margin: auto;
+}
+@media screen and (max-width: 769px) {
+  #main-content {
+      width: 90%;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+  #main-content {
+      width: 80%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main-content {
+      width: 70%;
+  }
+}
+
 </style>
 
 
@@ -90,10 +112,10 @@ _END;?>
 	
 	
 <BODY id="full-page">
+
 	<div id="load-background">
 
 	<?php include 'menu-bar.php';?>
-
 
     <div id="clouds"><img src="webp/mountain-top2.webp" width="100%"></div>
 	<div id="cloud-banner"><img src="webp/vision-bottom4.webp" width="100%" height="31%"></div>
@@ -124,14 +146,13 @@ _END;?>
 			</div>
 		</div>
 
-	<!--	<div id="slider1">
-			<div id="slider-image"><img src="webp/german.webp"  width="100%" height="78%"></div>
-			<div id="slider-textbox">
-				<div id="slider-heading">German Resources & Courses Ready!</div>
-				<div id="slider-body">Our team has completed the translation of our GEA core resources into German.  Free online starter workshop now open for Augst 14th. </div>
-				<div id="slider-date">August, 2021 | GEA Courses</div>
-				<div id="slider-link">>> <a href="https://www.gobrik.com/#courses/review-course/60c0ea65e9e88a001ff2d740/" target="_blank">First German Course August 14th</a></div>
-			</div>
+		<div id="slider3">
+			<div class="splash-box">
+			<div class="splash-heading">Ecobrick Applications</div>
+		<div class="splash-sub">Practical & Principled Ecobrick Building.</div>
+		</div>
+		<div class="splash-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
+	</div>									
 		</div>
 
 
@@ -240,7 +261,7 @@ _END;?>
 			<div class="big-header">Accelerating Plastic Transition</div>
 			<!--<div class="lead-paragraph">Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</div>-->
 			<div class="sub-text">
-			<p>Together we can keep our plastic out of the oceans.  With eco‎bricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
+			<p>Together we can keep our plastic out of the oceans.  With eco<div id="space"></div>bricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
 			<!--<p>When we save, segregate and pack plastics into bottles, we can make building blocks that can be reused over and over again. Together we can build green spaces that enrich our community and safely secure plastic out of the biosphere.  Together we can transition from plastic to ever greener harmony with Earth’s cycles.</p>-->
 			</div>
 			 <a href="faqs.php" button class="main-button">All About Ecobricks</a>
@@ -269,10 +290,10 @@ _END;?>
 	<div id="main-content">
 		<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building"></div>
 		<div class="big-header">The Problem is the Solution.</div>
-		<!--<div class="lead-paragraph">Using Ecobricked Plastic we can Build our Greenest Visions.</div>-->
 		<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build our greenest visions.</p>
 		</div> 
-		<a href="build.php" class="main-button">Building Applications</a>
+
+		<a href="build.php" button class="main-button">Building Applications</a>
 		
 		<h6><a href="/earth">Earth & Ecobrick Building</a> | <a href="/earth-methods">E&B Methods</a> | <a href="/modules">Milstein Modules</a> | <a href="/circular">Spiral & Circular</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6>
 	</div>
