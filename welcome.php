@@ -172,14 +172,15 @@ _END;?>
 
 	<div id="load-background">
 
-	<?php include 'menu-bar.php';?>
+		<?php include 'menu-bar.php';?>
 
-    <div id="clouds"><img src="webp/mountain-top2.webp" width="100%"></div>
-	<div id="cloud-banner"><img src="webp/vision-bottom4.webp" width="100%" height="31%"></div>
+		<div id="clouds"><img src="webp/mountain-top2.webp" width="100%"></div>
+		<div id="cloud-banner"><img src="webp/vision-bottom4.webp" width="100%" height="31%"></div>
 
-<!-- SLIDER CONTENT -->
+
+	<!-- SLIDER CONTENT -->
 	
-	<div id="sliders">
+		<div id="sliders">
 
 			<div id="slider1">
 
@@ -191,129 +192,120 @@ _END;?>
 					<div id="slider-link">>> <a href="media.php"> Media Kit</a></div>
 
 				</div>
-		</div>
+			</div>
 
 	
 
-		<div id="slider2">
-			<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brickenterprise program"></div>
-				<div id="slider-textbox">
-				<div id="slider-heading">Plastic Transition Platform for Enterprises</div>
-				<div id="slider-body">Our Catalyst program for keen green companies, organizations and projects is now live!  Track, disclose and accelerate your plastic transition.</div>
-				<div id="slider-link"><a href="catalyst.php">Learn more</a></div>
-				<div id="slider-date">Feb. 6, 2022 | GEA Announcements</div>
+			<div id="slider2">
+				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brickenterprise program"></div>
+					<div id="slider-textbox">
+					<div id="slider-heading">Plastic Transition Platform for Enterprises</div>
+					<div id="slider-body">Our Catalyst program for keen green companies, organizations and projects is now live!  Track, disclose and accelerate your plastic transition.</div>
+					<div id="slider-link"><a href="catalyst.php">Learn more</a></div>
+					<div id="slider-date">Feb. 6, 2022 | GEA Announcements</div>
+				</div>
 			</div>
-		</div>
 
 
 <!--
-		<div id="slider2">
-			<div class="slider-textbox">
-				<div id="slider-heading">New Ecobrick Applications Page</div>
-				<div id="slider-date">March 11th, 2022 | GEA Update Content</div>
-				<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
-				<div id="slider-link">>> <a href="build.php">Ecobrick Building</a></div>
+			<div id="slider2">
+				<div class="slider-textbox">
+					<div id="slider-heading">New Ecobrick Applications Page</div>
+					<div id="slider-date">March 11th, 2022 | GEA Update Content</div>
+					<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
+					<div id="slider-link">>> <a href="build.php">Ecobrick Building</a></div>
+				</div>
+				<div class="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
+												
 			</div>
-			<div class="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
-											
-		</div>
 
-		<div id="slider2">
+			<div id="slider2">
 
-			<div id="slider-image"><img src="webp/ayyew.webp"></div>
-			<div id="slider-textbox">
-				<div id="slider-heading">Inspired by Igorot Ancestral Wisdom</div>
-				<div id="slider-date">July 27th, 2021 | GEA Update Content</div>
-				<div id="slider-body">Ecobricking principles are inspired by the deep green ways and wisdom of the Igorots-- the unconquered indigenous people of the Filipino Cordilleras.  Learn more about how ancient wisdom inspires a modern modvement</div>
-				<div id="slider-link">>> <a href="ayyew"> Ayyew Inspired</a></div>
-			
-			</div>
-		</div>
-
-
-		<div id="slider4">
-			<div id="slider-image"><img src="webp/mandalic.webp"></div>
-			<div id="slider-textbox">
-				<div id="slider-heading">The Ancient Future of Working Together</div>
-				<div id="slider-date">July 27th, 2021 | GEA Updated Content</div>
-				<div id="slider-body">Ecobricking and its spread is powered by the principles of mandalic collaboration.  Learn more about the decentralized mobilization of the plastic transition movement.</div>
-				<div id="slider-link">>> <a href="mandalas"> Mandalic Collaboration</a></div>
+				<div id="slider-image"><img src="webp/ayyew.webp"></div>
+				<div id="slider-textbox">
+					<div id="slider-heading">Inspired by Igorot Ancestral Wisdom</div>
+					<div id="slider-date">July 27th, 2021 | GEA Update Content</div>
+					<div id="slider-body">Ecobricking principles are inspired by the deep green ways and wisdom of the Igorots-- the unconquered indigenous people of the Filipino Cordilleras.  Learn more about how ancient wisdom inspires a modern modvement</div>
+					<div id="slider-link">>> <a href="ayyew"> Ayyew Inspired</a></div>
 				
+				</div>
 			</div>
-		</div>
+
+
+			<div id="slider4">
+				<div id="slider-image"><img src="webp/mandalic.webp"></div>
+				<div id="slider-textbox">
+					<div id="slider-heading">The Ancient Future of Working Together</div>
+					<div id="slider-date">July 27th, 2021 | GEA Updated Content</div>
+					<div id="slider-body">Ecobricking and its spread is powered by the principles of mandalic collaboration.  Learn more about the decentralized mobilization of the plastic transition movement.</div>
+					<div id="slider-link">>> <a href="mandalas"> Mandalic Collaboration</a></div>
+					
+				</div>
+			</div>
 
 			<div id="slider1">
-			<div id="slider-image"><img src="webp/ToT-course-icon.webp"  width="100%" height="73%"></div>
-			<div id="slider-textbox">
-				<div id="slider-heading">September Training of Trainer Course</div>
-				<div id="slider-body">
-					Join an intensive, five week online course that will get you up and running as a GEA Ecobrick Trainer. Learn the principles and techniques behind ecobricking, how to build, and how to share ecobricks. </div>
-				<div id="slider-date">September 16th, 2021 | GEA Courses</div>
-				<div id="slider-link">>> <a href="https://www.gobrik.com/#courses/review-course/6127c35fe67f24001e6f60c4/" target="_blank">Intro Course Sept. 11th</a></div>
+				<div id="slider-image"><img src="webp/ToT-course-icon.webp"  width="100%" height="73%"></div>
+				<div id="slider-textbox">
+					<div id="slider-heading">September Training of Trainer Course</div>
+					<div id="slider-body">
+						Join an intensive, five week online course that will get you up and running as a GEA Ecobrick Trainer. Learn the principles and techniques behind ecobricking, how to build, and how to share ecobricks. </div>
+					<div id="slider-date">September 16th, 2021 | GEA Courses</div>
+					<div id="slider-link">>> <a href="https://www.gobrik.com/#courses/review-course/6127c35fe67f24001e6f60c4/" target="_blank">Intro Course Sept. 11th</a></div>
+				</div>
 			</div>
-		</div>
 
 
 		-->
 
 
-		<div id="slider3">
-			<div id="slider-image"><img src="photos/rumoer.jpg"  width="100%" alt="eco brick round house"></div>
-			<div id="slider-textbox">
-				<div id="slider-heading">Featured Project</div>
-				<div id="slider-body">
-                The Earth & Ecobrick Roundhouse project in Bwyd Bendigedig Portmadog was featured in Rumoer magazine's Earth building issue as an example of negative carbon building </div>
-				<div id="slider-date">Jan 27, 2022 | GEA News</div>
-				<div id="slider-link">>> <a href="https://issuu.com/rumoer/docs/issue78-2/96" target="_blank">Rumoer Earth Feature</a></div>
+			<div id="slider3">
+				<div id="slider-image"><img src="photos/rumoer.jpg"  width="100%" alt="eco brick round house"></div>
+				<div id="slider-textbox">
+					<div id="slider-heading">Featured Project</div>
+					<div id="slider-body">
+					The Earth & Ecobrick Roundhouse project in Bwyd Bendigedig Portmadog was featured in Rumoer magazine's Earth building issue as an example of negative carbon building </div>
+					<div id="slider-date">Jan 27, 2022 | GEA News</div>
+					<div id="slider-link">>> <a href="https://issuu.com/rumoer/docs/issue78-2/96" target="_blank">Rumoer Earth Feature</a></div>
+				</div>
 			</div>
+	<!--
+			<div id="slider4">
+
+				<div id="slider-image"><img src="webp/ayyew.webp" alt="The eco brick ayyew philosophy"></div>
+				<div id="slider-textbox">
+					<div id="slider-heading">Inspired by Igorot Ancestral Wisdom</div>
+					<div id="slider-date">Sep 15th, 2021 | GEA Update Content</div>
+					<div id="slider-body">Ecobricking principles are inspired by the deep green ways and wisdom of the Igorots the indigenous people of Northern Luzon.  Learn how their Ayyew ecological ethos inspires a modern movement</div>
+					<div id="slider-link">>> <a href="/ayyew"> Ayyew Inspired</a></div>
+				
+				</div>
+			</div>
+
+			<div id="slider2">
+				<div id="slider-image"><img src="webp/starter-course-icon.webp"  width="100%" height="73%"></div>
+				<div id="slider-textbox">
+					<div id="slider-heading">Learn the Basics of Ecobricking</div>
+					<div id="slider-body">Join a Starter Workshop!  This September our Indian trainers are running an open online presentation of 'Plastic, the Biosphere & Ecobricks'.  Learn the fundamentals from experts!</div>
+					<div id="slider-date">September 11th, 2021 | GEA Courses</div>
+					<div id="slider-link">>> <a href="https://gobrik.com/#courses/review-course/60f243eacd377c001faa6c57/" target="_blank">Intro Course Sept. 11th</a></div>
+				</div>
+			</div>
+	-->
+			<div id="slider4">
+
+				<div id="slider-image"><br><img src="svgs/aes.svg"  width="100%" height="85%"></div>
+				<div id="slider-textbox">
+					<div id="slider-heading">Offset Your Plastic</div>
+					<div id="slider-date">GEA Services</div>
+					<div id="slider-body">Our plastic offsetting system allows you to take personal responsibility for your household or enterprise plastic generation... and energize the global plastic transition movement!</div>
+					<div id="slider-link">>> <a href="aes"> AES Plastic & Offsetting</a></div>
+				
+				</div>
+			</div>
+
 		</div>
-
-		<div id="slider4">
-
-			<div id="slider-image"><img src="webp/ayyew.webp" alt="The eco brick ayyew philosophy"></div>
-			<div id="slider-textbox">
-				<div id="slider-heading">Inspired by Igorot Ancestral Wisdom</div>
-				<div id="slider-date">Sep 15th, 2021 | GEA Update Content</div>
-				<div id="slider-body">Ecobricking principles are inspired by the deep green ways and wisdom of the Igorots the indigenous people of Northern Luzon.  Learn how their Ayyew ecological ethos inspires a modern movement</div>
-				<div id="slider-link">>> <a href="/ayyew"> Ayyew Inspired</a></div>
-			
-			</div>
-		</div>
-<!--
-		<div id="slider2">
-			<div id="slider-image"><img src="webp/starter-course-icon.webp"  width="100%" height="73%"></div>
-			<div id="slider-textbox">
-				<div id="slider-heading">Learn the Basics of Ecobricking</div>
-				<div id="slider-body">Join a Starter Workshop!  This September our Indian trainers are running an open online presentation of 'Plastic, the Biosphere & Ecobricks'.  Learn the fundamentals from experts!</div>
-				<div id="slider-date">September 11th, 2021 | GEA Courses</div>
-				<div id="slider-link">>> <a href="https://gobrik.com/#courses/review-course/60f243eacd377c001faa6c57/" target="_blank">Intro Course Sept. 11th</a></div>
-			</div>
-
-				<div id="slider4">
-
-			<div id="slider-image"><br><img src="svgs/aes.svg"  width="100%" height="85%"></div>
-			<div id="slider-textbox">
-				<div id="slider-heading">Offset Your Plastic</div>
-				<div id="slider-date">GEA Services</div>
-				<div id="slider-body">Our plastic offsetting system allows you to take personal responsibility for your household or enterprise plastic generation... and energize the global plastic transition movement!</div>
-				<div id="slider-link">>> <a href="aes"> AES Plastic & Offsetting</a></div>
-			
-			</div>
-		</div>
-		</div>-->
 
 		
-		
-
-	
-
-	</div>
-
-   
-        		
-		</div>
-	</div>
- 
 
 
 	<div id="content-sect1">
