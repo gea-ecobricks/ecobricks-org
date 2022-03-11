@@ -35,7 +35,7 @@ _END;?>
 
 <style>
 
-
+/*
 @media screen and (min-width: 700px) { 
 .slider-image {
   z-index: 5;
@@ -87,7 +87,7 @@ _END;?>
 }
 }
 
-
+*/
 
 
 
