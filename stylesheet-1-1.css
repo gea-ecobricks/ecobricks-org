@@ -1770,24 +1770,6 @@ background-repeat: no-repeat;*/
 
 /* -------------------------------------------------------------------------- */
 
-#main-content {
-  margin: auto;
-}
-@media screen and (max-width: 769px) {
-  #main-content {
-      width: 90%;
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 1024px) {
-  #main-content {
-      width: 80%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #main-content {
-      width: 70%;
-  }
-}
 
 .big-header {
   font-family: 'Mulish', sans-serif;
@@ -2008,7 +1990,27 @@ border-left-width: 1px;
 
 
 
-/* -------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------
+#main-content {
+  margin: auto;
+}
+@media screen and (max-width: 769px) {
+  #main-content {
+      width: 90%;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+  #main-content {
+      width: 80%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main-content {
+      width: 70%;
+  }
+}
+
+--- */
 
 
 
@@ -2018,18 +2020,18 @@ border-left-width: 1px;
 }
 @media screen and (max-width: 700px) {
   #main-content {
-      width: 100%;
+      width: 90%;
 	  margin-top: 0px;
   }
 }
 @media screen and (min-width: 700px) and (max-width: 1024px) {
   #main-content {
-      width: 90%%;
+      width: 85%;
   }
 }
 @media screen and (min-width: 1024px) {
   #main-content {
-      width: 80%;
+      width: 77%;
   }
 }
 
