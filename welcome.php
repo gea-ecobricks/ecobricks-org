@@ -314,7 +314,7 @@ _END;?>
 			<div class="big-header">Accelerating Plastic Transition</div>
 			<!--<div class="lead-paragraph">Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</div>-->
 			<div class="sub-text">
-			<p>Together we can keep our plastic out of the oceans.  With eco<div id="space"></div>bricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
+			<p>Together we can keep our plastic out of the oceans.  With eco<div class="space"> </div>bricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
 			<!--<p>When we save, segregate and pack plastics into bottles, we can make building blocks that can be reused over and over again. Together we can build green spaces that enrich our community and safely secure plastic out of the biosphere.  Together we can transition from plastic to ever greener harmony with Earth’s cycles.</p>-->
 			</div>
 			 <a href="faqs.php" button class="main-button">All About Ecobricks</a>
@@ -356,10 +356,10 @@ _END;?>
 <div id="content-sect4">
 	<div id="main-content">
 		<div class="lead-graphic"><img src="webp/balancing-green.webp"  width="100%" height="100%"></div>
-		<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="autehtnticated eco brick sequetration"></div><!--width="300px" height="254px"-->
+		<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration"></div><!--width="300px" height="254px"-->
 		<!--<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>-->
 		<div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
-		<a href="what.php" class="main-button">Plastic Offsetting</a>
+		<a href="https://gobrik.com/#offset" target="_blank" class="main-button">Plastic Offsetting</a>
 		<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="transition.php">Plastic Transition</a> | <a href="about.php">About the GEA</a></h6><br><br>
 		<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>
 		<img src="svgs/3brikcoins.svg" width="30%">
@@ -368,6 +368,8 @@ _END;?>
 		<h4>Eco-brick, eco brick, or ecobrick?</h4>
 
 		<p>Back in the early days of putting plastic into a bottle we called it just that-- plastic bottle bricks!  Then when we realized it was helpful to the <b>eco</b>systems around us, the name changed to "eco bricks" or "eco-brick". Today 'ecobrick' is the <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia recongnized</a> term for the go-to, non-capital, zero-carbon solution for <a href="https://en.wikipedia.org/wiki/plastic_sequestration" target="_blank">plastic sequestration</a></a></p>
+			<p>Learn about the main focus of the ecobrick movement and technology:</p>
+			<a href="transition.php" button class="main-button">Plastic Transition</a>
 		
 	</div>
 </div>
