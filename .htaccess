@@ -138,7 +138,7 @@ RedirectMatch "^/build" "/en/build.php"
 RedirectMatch "^/build/" "/en/build.php"
 
 #Alternate default index pages
-DirectoryIndex welcome.php
+DirectoryIndex welcome.php index.php
 
 
 
