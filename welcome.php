@@ -162,6 +162,8 @@ _END;?>
   }
 }
 
+.space {font-size: 0.2em !important}
+
 </style>
 
 
@@ -314,7 +316,7 @@ _END;?>
 			<div class="big-header">Accelerating Plastic Transition</div>
 			<!--<div class="lead-paragraph">Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</div>-->
 			<div class="sub-text">
-			<p>Together we can keep our plastic out of the oceans.  With eco<div class="space"> </div>bricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
+			<p>Together we can keep our plastic out of the oceans.  With eco<span class="space"> </span>bricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
 			<!--<p>When we save, segregate and pack plastics into bottles, we can make building blocks that can be reused over and over again. Together we can build green spaces that enrich our community and safely secure plastic out of the biosphere.  Together we can transition from plastic to ever greener harmony with Earth’s cycles.</p>-->
 			</div>
 			 <a href="faqs.php" button class="main-button">All About Ecobricks</a>
