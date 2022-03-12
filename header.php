@@ -14,7 +14,7 @@
 	<link rel="alternate" href="https://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="en" />
 	<link rel="alternate" href="https://ecobricks.org/id/<?php echo ($name); ;?>" hreflang="id" /> 
 	<link rel="alternate" href="https://ecobricks.org/es/<?php echo ($name); ;?>" hreflang="es" /> 
-	<link rel="alternate" href="http://ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" hreflang="x-default" />
+	<link rel="alternate" href="http://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="x-default" />
 
 
 <!-- This calls GEA typography -->
