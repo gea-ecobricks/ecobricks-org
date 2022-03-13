@@ -17,7 +17,7 @@ echo <<<_END
 <!--<link rel="preload" as="image" href="webp/vision-bottom4.webp">-->
 <link rel="preload" as="image" href="webp/mountain-top2.webp">
 
-<link rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.3">
+<link rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.4">
 
 
 _END;?>
