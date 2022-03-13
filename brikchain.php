@@ -225,6 +225,19 @@ $(document).ready(function() {
 
 </script>
 
+<script>
+
+$(document).ready(function() {
+    $('#ecobricks').DataTable( {
+		"processing": true,
+        "serverSide": true,
+		"ajax": "ajax-ecobricks.php"
+
+    } );
+} );
+
+</script>
+
 
 <!--
 
@@ -390,7 +403,45 @@ $sql = "SELECT * FROM sum_brk_by_year Order by `year` DESC;";
 	$conn->close();
 	?>
 
+<h3>Authenticated Ecobricks</h3>
+<p>All the ecobricks authenticated on the chain.</p>
 
+		
+
+			<table id="brikchain" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Pic</th>
+                <th>Serial</th>
+                <th>Maker</th>
+                <th>Weight</th>
+				<th>Made</th>
+				<th>Value</th>
+                <th>Block Trans</th>
+				<th>Kind</th>
+				
+				
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+			<th>Pic</th>
+                <th>Serial</th>
+                <th>Maker</th>
+                <th>Weight</th>
+				<th>Made</th>
+				<th>Value</th>
+                <th>Block Trans</th>
+				<th>Kind</th>
+			
+            </tr>
+        </tfoot>
+    </table>
+
+<br><br>
+<h3>Brikcoin Money Supply</h3>
+<p>An overview of the brikcoins generated each year on the brikchain</p>
+		
 
 		
 </div>
