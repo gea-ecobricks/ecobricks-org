@@ -19,6 +19,7 @@ deployment:
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp sitemap-multilingual.xml $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-general.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
