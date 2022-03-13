@@ -197,7 +197,7 @@
         margin-top: 0;
     }
   }
-  @media screen and (min-width: 770px) and (max-width: 2000px) {
+  @media screen and (min-width: 770px) /*and (max-width: 2000px)*/ {
     #slider-image {
         margin-right: 65%;
         height: 400px;
@@ -208,6 +208,7 @@
     }
   }
   
+  @media screen and (min-width: 770px) {
   #slider-image img {
     width: 85%;
   
@@ -215,9 +216,14 @@
   
     margin: auto;
   }
+}
+
   @media screen and (max-width: 769px) {
     #slider-image {
-        display: none;
+        display: block;
+        width: 230px;
+        text-align: right;
+
     }
   }
   @media screen and (min-width: 770px) and (max-width: 2000px) {
