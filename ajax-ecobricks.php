@@ -40,7 +40,7 @@ $columns = array(
         return date( 'jS M y', strtotime($d));
     }
 ),
-    array( 'db' => 'ecobrick_maker',     'dt' => 2 ),
+    array( 'db' => 'ecobricker_maker',     'dt' => 2 ),
     array( 'db' => 'validator_1',     'dt' => 3 ),
     array( 'db' => 'validator_2', 'dt' => 4 ),
     array( 'db' => 'sequestration_type',     'dt' => 5 ),
