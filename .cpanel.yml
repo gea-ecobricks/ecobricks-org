@@ -25,6 +25,7 @@ deployment:
     - /bin/cp ajax.php $DEPLOYPATH
     - /bin/cp ssp.class.php $DEPLOYPATH
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
+    - /bin/cp ajax-ecobricks.php $DEPLOYPATH
     
 
     - /bin/cp welcome.php $DEPLOYPATH

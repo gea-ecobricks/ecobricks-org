@@ -286,6 +286,33 @@ $(document).ready(function() {
 </style>
 
 
+<style>
+#ecobricks {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: 300;
+}
+
+#ecobricks td, #ecobricks th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#ecobricks tr:nth-child(even){background-color: #f2f2f2;}
+
+#ecobricks tr:hover {background-color: #ddd;}
+
+#ecobricks th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #E39009;
+  color: white;
+}
+</style>
+
+
 
 </head>
 							  
@@ -373,8 +400,8 @@ $(document).ready(function() {
     </table>
 
 <br><br>
-<h3>Brikcoin Money Supply</h3>
-<p>An overview of the brikcoins generated each year on the brikchain</p>
+<h3>Central Reserve Satus</h3>
+<p>Running and yearly brikchain totals.</p>
 		
 			
 
@@ -382,7 +409,7 @@ $(document).ready(function() {
 		
 <?php
 
-$sql = "SELECT * FROM sum_brk_by_year Order by `year` DESC;";
+$sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 
 	
 	$result = $conn->query($sql);
@@ -408,40 +435,36 @@ $sql = "SELECT * FROM sum_brk_by_year Order by `year` DESC;";
 
 		
 
-			<table id="brikchain" class="display" style="width:100%">
+			<table id="ecobricks" class="display" style="width:100%">
         <thead>
             <tr>
-                <th>Pic</th>
                 <th>Serial</th>
+                <th>Made</th>
                 <th>Maker</th>
-                <th>Weight</th>
-				<th>Made</th>
-				<th>Value</th>
-                <th>Block Trans</th>
-				<th>Kind</th>
+                <th>Density</th>
+				<th>Weight</th>
+				<th>Type</th>
+                <th>Volume</th>
+				<th>CO2</th>
 				
 				
             </tr>
         </thead>
         <tfoot>
             <tr>
-			<th>Pic</th>
-                <th>Serial</th>
+		   		 <th>Serial</th>
+                <th>Made</th>
                 <th>Maker</th>
-                <th>Weight</th>
-				<th>Made</th>
-				<th>Value</th>
-                <th>Block Trans</th>
-				<th>Kind</th>
+                <th>Density</th>
+				<th>Weight</th>
+				<th>Type</th>
+                <th>Volume</th>
+				<th>CO2</th>
 			
             </tr>
         </tfoot>
     </table>
 
-<br><br>
-<h3>Brikcoin Money Supply</h3>
-<p>An overview of the brikcoins generated each year on the brikchain</p>
-		
 
 		
 </div>
