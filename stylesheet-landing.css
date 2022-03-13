@@ -223,20 +223,21 @@
         display: block;
         width: 200px;
         margin: auto;
+        margin-right: 10px;
+        margin-bottom: -28px;
    
 
     }
   }
 
-  @media screen and (min-width: 770px) {
+  @media screen and (max-width: 770px) {
     #slider-image img {
-      width: 85%;
     
-      height: 150px;
-    
-      margin-right: 15px;
+      max-height: 150px;
+
     }
   }
+
 
 
   @media screen and (min-width: 770px) and (max-width: 2000px) {
