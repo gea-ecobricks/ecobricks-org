@@ -33,30 +33,25 @@ $primaryKey = 'serial_no';
 // indexes
 $columns = array(
   array( 'db' => 'serial_no',     'dt' => 0 ),
-  array(
-    'db'        => 'date_logged_ts',
-    'dt'        => 1,
-    'formatter' => function( $d, $row ) {
-        return date( 'jS M y', strtotime($d));
-    }
+  array( 'db' => 'validator_1',     'dt' => 1 ),
 ),
     array( 'db' => 'ecobricker_maker',     'dt' => 2 ),
     array( 'db' => 'validator_1',     'dt' => 3 ),
-    array( 'db' => 'validator_2', 'dt' => 4 ),
+    array( 'db' => 'basic_pic_url', 'dt' => 4 ),
     array( 'db' => 'sequestration_type',     'dt' => 5 ),
    
     array(
         'db'        => 'volume_ml',
         'dt'        => 6,
         'formatter' => function( $d, $row ) {
-            return number_format($d,2).'mL';
+            return number_format($d,2).'m';
         }
     ),
     array(
         'db'        => 'CO2_kg',
         'dt'        => 7,
         'formatter' => function( $d, $row ) {
-            return number_format($d,2).'kg';
+            return number_format($d,2).'k';
         }
     ),
   
