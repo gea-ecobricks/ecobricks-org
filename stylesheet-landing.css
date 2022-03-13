@@ -221,8 +221,14 @@
   @media screen and (max-width: 769px) {
     #slider-image {
         display: block;
-        width: 230px;
+        width: 200px;
         text-align: right;
+        margin: auto;
+         margin-right: auto;
+        margin-bottom: auto;
+        margin-right: 10px;
+        margin-bottom: -30px;
+        max-height: 150px;
 
     }
   }
