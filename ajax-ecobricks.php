@@ -21,10 +21,10 @@
  */
  
 // DB table to use
-$table = 'tb_brk_transaction';
+$table = 'tb_ecobricks';
  
 // Table's primary key
-$primaryKey = 'tran_id';
+$primaryKey = 'serial_no';
  
 
 // Array of database columns which should be read and sent back to DataTables.
@@ -32,31 +32,31 @@ $primaryKey = 'tran_id';
 // parameter represents the DataTables column identifier. In this case simple
 // indexes
 $columns = array(
-  array( 'db' => 'tran_id',     'dt' => 0 ),
+  array( 'db' => 'serial_no',     'dt' => 0 ),
   array(
-    'db'        => 'send_dt',
+    'db'        => 'date_logged_ts',
     'dt'        => 1,
     'formatter' => function( $d, $row ) {
         return date( 'jS M y', strtotime($d));
     }
 ),
-    array( 'db' => 'sender_ecobricker',     'dt' => 2 ),
-    array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
-    array( 'db' => 'block_tran_type', 'dt' => 4 ),
-    array( 'db' => 'ecobrick_serial_no',     'dt' => 5 ),
+    array( 'db' => 'ecobricker_maker',     'dt' => 2 ),
+    array( 'db' => 'validator_1',     'dt' => 3 ),
+    array( 'db' => 'basic_pic_url', 'dt' => 4 ),
+    array( 'db' => 'sequestration_type',     'dt' => 5 ),
    
     array(
-        'db'        => 'block_amt',
+        'db'        => 'volume_ml',
         'dt'        => 6,
         'formatter' => function( $d, $row ) {
-            return number_format($d,2).'ß';
+            return number_format($d,2).'mL';
         }
     ),
     array(
-        'db'        => 'individual_amt',
+        'db'        => 'CO2_kg',
         'dt'        => 7,
         'formatter' => function( $d, $row ) {
-            return number_format($d,2).'ß';
+            return number_format($d,2).'kg';
         }
     ),
   
