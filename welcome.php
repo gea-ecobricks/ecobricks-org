@@ -17,7 +17,7 @@ echo <<<_END
 <!--<link rel="preload" as="image" href="webp/vision-bottom4.webp">-->
 <link rel="preload" as="image" href="webp/mountain-top2.webp">
 
-<link rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.13">
+<link rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.5">
 
 
 _END;?>
@@ -186,9 +186,11 @@ _END;?>
 
 			<div id="slider1">
 
-				<div id="slider-image"><img src="webp/faqs-400px.webp" alt="2022 regen Report"></div>
+				<div id="slider-image">
+					<img src="webp/faqs-400px.webp" width="92%" height="100%" alt="Our eco brick enterprise program">
+				</div>
 				<div id="slider-textbox">
-					<div id="slider-heading">New Media Kit Release</div>
+					<div id="slider-heading">New Media Kit</div>
 					<div id="slider-date">March 9th, 2022 | GEA Updates</div>
 					<div id="slider-body">Want to cover the ecobrick movement or technology?  Our media kit is fully updated for 2022 with our latest guidelines.</div>
 					<div id="slider-link">>> <a href="media.php"> Media Kit</a></div>
@@ -199,7 +201,7 @@ _END;?>
 	
 
 			<div id="slider2">
-				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brickenterprise program"></div>
+				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brick enterprise program"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Plastic Transition Platform for Enterprises</div>
 					<div id="slider-body">Our Catalyst program for keen green companies, organizations and projects is now live!  Track, disclose and accelerate your plastic transition.</div>
