@@ -41,19 +41,19 @@ $columns = array(
     }
 ),
     array( 'db' => 'ecobrick_maker',     'dt' => 2 ),
-    array( 'db' => 'density',     'dt' => 3 ),
-    array( 'db' => 'weight_g', 'dt' => 4 ),
+    array( 'db' => 'validator_1',     'dt' => 3 ),
+    array( 'db' => 'validator_2', 'dt' => 4 ),
     array( 'db' => 'sequestration_type',     'dt' => 5 ),
    
     array(
-        'db'        => 'volume',
+        'db'        => 'volume_ml',
         'dt'        => 6,
         'formatter' => function( $d, $row ) {
             return number_format($d,2).'mL';
         }
     ),
     array(
-        'db'        => 'CO2',
+        'db'        => 'CO2_kg',
         'dt'        => 7,
         'formatter' => function( $d, $row ) {
             return number_format($d,2).'kg';

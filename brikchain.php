@@ -429,6 +429,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 	}
 	$conn->close();
 	?>
+	<br><br>
 
 <h3>Authenticated Ecobricks</h3>
 <p>All the ecobricks authenticated on the chain.</p>
