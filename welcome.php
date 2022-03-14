@@ -1,33 +1,20 @@
 <!DOCTYPE html>
-
-
+<!-- lang.php is grabbing the language extension i.e. EN or ID-->
 <?php require_once ("lang.php");
 echo <<<_END
-
-
-
-<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
-
 <html lang="$lang">
-
-
+_END;?>
 <HEAD>
 <meta charset="utf-8">
-<!--Image files to preload that are unique to this page-->
+<!-- sets page meta tags:  be sure to add page name-->
+<?php require_once ("meta/welcome-$lang.php");?>
 
+<!--Image files to preload that are unique to this page-->
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="svgs/cloud-back.svg">
 <!--<link rel="preload" as="image" href="webp/vision-bottom4.webp">-->
 <link rel="preload" as="image" href="webp/mountain-top2.webp">
-
 <link rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.52">
-
-
-_END;?>
-
-<!-- sets page meta tags:  be sure to add page name-->
-
-<?php require_once ("meta/welcome-$lang.php");?>
 
 <!--page header-->
 
