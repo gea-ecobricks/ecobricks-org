@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
+
 
 <?php require_once ("lang.php");
 echo <<<_END
@@ -12,7 +12,7 @@ echo <<<_END
 
 
 <HEAD>
-
+<meta charset="utf-8">
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
