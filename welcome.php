@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<?php require_once ("lang.php"); echo <<<_END 
+<?php require_once ("lang.php");
+echo <<<_END
 <html lang="$lang">
 _END;?>
 
 <HEAD>
+	
 <meta charset="utf-8">
 <!-- sets page meta tags:  be sure to add page name-->
 <?php require_once ("meta/welcome-$lang.php");?>
