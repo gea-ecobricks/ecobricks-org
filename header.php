@@ -81,7 +81,7 @@
 
 <!-- Enables the nav menu grey circle on mobile by click-->
 
-<script type="text/javascript">
+<script>
 	function appMenu() {
 	  var x = document.getElementById("myTopnav");
 	  if (x.className === "topnav") {
@@ -113,7 +113,6 @@
 	z-index: 0;
 
 	position: relative;
-	position: bottom;
 	margin-top: 0px;
 	padding-bottom: 0px;
 	margin-left: 0px;
