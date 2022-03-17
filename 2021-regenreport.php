@@ -482,22 +482,13 @@ _END;?>
 		</div>
 		<div class="page-paragraph-reg">
                  
-                 <div class="row">
-                
-                      <div class="main2">
+        
                          <h4>Do your own Regen Reporting</h4>
                         
                          <p>Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project.</p><br>
                         
-                    
-                    </div>
-
-                    <div class="side2">
-                        <br><img src="webp/catalyst-logo.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
-                    </div>
-                </div>
 				<a class="action-btn" href="catalyst.php" target="_blank">🚀 Catalyst Program</a>
-			<p style="font-size: 0.85em; margin-top:20px;">Learn more about our free program and platform.</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">Learn more about our free program & platform.</a></p>
 		</div>
 </div>
 
