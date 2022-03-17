@@ -141,9 +141,3 @@ RedirectMatch "^/build/" "/en/build.php"
 DirectoryIndex welcome.php index.php
 
 
-
-
-
-
-
-

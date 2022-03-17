@@ -7,7 +7,8 @@
 	;?>
 	
  
-	<meta charset="utf-8">
+	<meta charset="utf-8"> <!--OBSOLETE BUT MUST BE ADDED TO ALL OTHER PAGES FIRST-->
+
 	<link rel="canonical" href="https://www.ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
@@ -42,7 +43,7 @@
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-general.css?v0.1">
+<link rel="stylesheet" type="text/css" href="stylesheet-general.css?v0.11">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 

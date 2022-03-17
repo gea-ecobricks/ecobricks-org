@@ -196,7 +196,7 @@ _END;?>
 		<div id="faq-content-block" class="greenish">
 			<a name="building-q"></a> 
 			<h4>Building Questions</h4>
-			<p>All about ecobrick applications.</p>
+			<p>All about eco<span class="eco-brick"> </span>bricks applications.</p>
 			
 				<button onclick="building()" class="toggle" id="toggle-show2">⬇ Show</button>
 				<div id="building-questions">
@@ -226,7 +226,7 @@ _END;?>
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="pinkish">
 			<a name="movement-q"></a><h4>Movement Questions</h4>
-			<p>About us and the global plastic transition and ecobrick movement.</p>
+			<p>About us and the global plastic transition and eco<span class="eco-brick"> </span>bricks movement.</p>
 			
 			<button onclick="movement()" class="toggle" id="toggle-show3">⬇ Show</id></button>
 			<div id="movement-questions">
@@ -563,7 +563,7 @@ _END;?>
 					
 					<p>"Final solutions" aren't the way the Earth and its ecosystems work.  Rather than lines that start and end, ecosystems instead work in spiralling cycles-- using carbon molecules as building blocks that are used over and over again in a journey towards sequestration. By ecobricking our plastic (which is mainly carbon!) we're taking it out of the linear industrial systems,  and final-thinking paradigm.  Ecobricks are designed to be building blocks tha can be used over and over again.  Just like ecosystem they can be built with locally and with no extra energy.  This way our ecobricks can spiral through time and become gifts for future generations.  In the same way the Earth gifted us densely packed carbon (i.e. fossil fuels), we can gift our carbon to another age.  Like the dinausaurs, we can't imagine how the carbon of our age will be used in the future. However, we can be certain that it makes a better gift compacted and concentrated rather than scattered and dispersed, loose and leaching. </p>
 
-					<div class="faq-link"><h5>Learn more: <a href="circular">Circular Design</h5></a></div>  
+					<div class="faq-link"><h5>Learn more: <a href="circular">Spiral & Circular Design</h5></a></div>  
 					<div id="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>                  
 				</div>
 				
@@ -719,10 +719,10 @@ _END;?>
 					<p>Good question!  It's important to think about the next life of things we make-- what will happen to them when they come to their end.  We provide guidelines to make sure all ecobrick applications-- like modules-- have their next life built in.  By making modules with silicione or tire-bands, ecobricks can be removed from the module without damaging them.  Basically, we're leveraging the long lasting properties of plastic to make our design circular.  That means the module can be disbanded, rebuilt, repaired... or the ecobricks can be taken and used for an earth build.
 					</p>
 
-					<div class="faq-link"><h5>Learn more: <a href="circular">Ecobrick Circular Design</a></h5></div>                    
+					<div class="faq-link"><h5>Learn more: <a href="circular">Ecobrick Spiral & Circular Design</a></h5></div>                    
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="webp/circular-basic.webp" width="400px" alt="Circular eco brick design applies to a module"></div>
+				<div class="faq-image"><img src="webp/spiral-circular-400px.webp" width="400px" alt="Spiral & Circular eco brick design applies to a module"></div>
 			</div>
 			
 		</div>
@@ -738,7 +738,7 @@ _END;?>
 					<div class="faq-link"><h5>Learn more: <a href="earth">Earth & Ecobrick Buidling</a></h5></div>     
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
 				</div>
-				<div class="faq-image"><img src="svgs/circle-bench.svg" alt="A circular eco brick bench"></div>
+				<div class="faq-image"><img src="webp/earth-tree-400px.webp" alt="A circular eco brick bench"></div>
 			</div>
 			
 		</div>

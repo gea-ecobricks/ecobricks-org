@@ -178,7 +178,7 @@ _END;?>
 			<div id="slider1">
 
 				<div id="slider-image">
-					<img src="webp/faqs-400px.webp" width="92%" height="100%" alt="Our eco brick enterprise program">
+					<img src="webp/earth-tree-400px.webp" width="92%" height="100%" alt="Our eco brick enterprise program">
 				</div>
 				<div id="slider-textbox">
 					<div id="slider-heading">New Building Guide!</div>

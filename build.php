@@ -251,13 +251,13 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Ecobricks can build furniture, gardens, play parks, structures and more. The only limit is our imagination!</p>
+				<p>Eco<span class="eco-brick">bricks </span> can build furniture, gardens, play parks, structures and more. The only limit is our imagination!</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
-                        <p>That said, building with ecobricks, and the plastic they contain, is a big responsibility.   To make sure that our plastic is safe and <a href="sequest">sequestered</a> the Global Ecobrick Alliance has developed building recommendations, standards and principles principles to ensure your ecobrick applications are great over the short-term and the long.</p>
+                        <p>That said, building with eco<span class="eco-brick"> </span>bricks, and the plastic they contain, is a big responsibility.   To make sure that our plastic is safe and <a href="sequest">sequestered</a> the Global Ecobrick Alliance has developed building recommendations, standards and principles principles to ensure your ecobrick applications are great over the short-term and the long.</p>
 
                         <!--<p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
 							
@@ -721,17 +721,17 @@ margin-bottom: 31px;}
 		<div class="side">
 	
 			<div id="side-module-desktop-mobile">
-				<img src="svgs/circle-bench.svg" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+				<img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
 				<br><h4>Following the Earth's Example</h4>
-				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
-				<a class="module-btn" href="about">Plastic's Long Story</a>
+				<h5>Plastic Sequestration follows the Earth’s ancient example of compacting and securing carbon.</h5><br>
+				<a class="module-btn" href="about">Learn More</a>
                 <br>
 			</div>  
             <div id="side-module-desktop-mobile">
                 <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make community centers">
                 <h4>Ecobricks</h4>
-                <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
-                <a class="module-btn" href="sequest">Plastic Sequestration</a>
+                <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only eco<span class="eco-brick"> </span>bricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
+                <a class="module-btn" href="sequest">Learn More</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
@@ -744,8 +744,8 @@ margin-bottom: 31px;}
 			
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/circular.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
-				<h4>Spiral Design</h4>
+				<img src="webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
+				<h4>Circular & Spiral Design</h4>
 				<h5>Plastic Sequestration follows the principles of cyclical spiral design.</h5><br>
 				<a class="module-btn" href="circular">Learn More</a>
 			</div>
