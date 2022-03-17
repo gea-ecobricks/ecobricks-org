@@ -702,14 +702,16 @@ margin-bottom: 31px;}
                         <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                     </div>
                 </div>
-                <p><b>End of Life Agreements</b></p>
-                        <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life agreements be established with the constudians of the site.  These agreements must lay out the responsibilities for the construction's maintenance and end.  A plan must be made for the eventual removal, responsibility and resuse of the ecobricks.</p>
-                        <p><a href="">See a sample, free use, agreement here.</a>
-                        <p>View a sample GEA Ecobrick Construction Long term Custodian agreement:</p>
+                <p><b>Ecobrick Building Custodianship Agreements</b></p>
+                        <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the constudians of the site.  These terms of transfer agreements must lay out the responsibilities for the construction's maintenance and end as well as the responsibilities that the site's custodian aquires for the construction's ecobricks.  This agreement must account for the eventual removal and resuse of the ecobricks.</p>
+                        <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement.  Download the PDF and ODG versions here:</p>
                     <ul>
-                        <li>
-                    <a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank">GEA Earth Building Terms of Transfer ENG</a></p></li>
-                    <li><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank">GEA Earth Building Terms of Transfer INDONESIAN</a></li>
+                        <li>GEA Earth Building Terms of Transfer
+                    <a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank"> </a> ENGLIGH - PDF - 500kb</p></li>
+                    <li>GEA Earth Building Terms of Transfer
+                    <a href="https://files.mandala.team/s/xXWSjDiqHDnXMJq" target="_blank"> </a> ENGLIGH - ODG (editable) - 100kb</p></li>
+                    <li><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank">GEA Earth Building Terms of Transfer - INDONESIAN - PDF</a></li>
+                    li><a href="https://files.mandala.team/s/ERj6ya4N8seRsGL" target="_blank">GEA Earth Building Terms of Transfer - INDONESIAN - ODG (editable) - 2.1 MB </a></li>
 					<br>
             </div>
             
