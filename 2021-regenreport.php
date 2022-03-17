@@ -13,7 +13,12 @@ echo <<<_END
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="svgs/eb-blue.svg">
+<link rel="preload" as="image" href="svgs/gray-to-green-catalyst-banner3.svg">
+<link rel="preload" as="image" href="svgs/gray-to-green-catalyst-banner3.svg">
+<link rel="preload" as="image" href="icons/balance-glow-500px.webp">
+
+
+
 
 _END;?>
 
@@ -150,7 +155,7 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 3em;
+      font-size: 3.2em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
@@ -166,14 +171,14 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.0em;
+		font-size: 1.1em;
 		line-height: 1.3;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 1.8em;
+		font-size: 2em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -184,7 +189,6 @@ _END;?>
 	margin-top: -50px;
 	width: 100%;
 	background-color: #4f8a28ff;
-	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
@@ -220,7 +224,7 @@ _END;?>
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">The Global Ecobrick Alliance 2021 Renerativity Report</div>
-	<div class="splash-sub">Published January 30th 2022</div>
+	<div class="splash-sub">Published March 17th 2022</div>
 	</div>
 	<div class="splash-image"><img src="icons/balance-glow-500px.webp" style="width: 80%;"></div>	
 </div>
@@ -238,13 +242,14 @@ _END;?>
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Our 2021 Ecological Accounting of our enterprise's Plastic, Carbon and Biodiversity impacts is now published and publicly available.</p>
+				<p>Over the last year, the GEA's UK and Indonesian household bases increased their spacial support of biodiversity by 32% (268 m2) while hosting 152 species. We directly removed 1,472 kg of plastic through our trainer ecobricking.  We also removed 4,448kg of CO2 from the biosphere through our trees, carbon offsetting and ecobricking carbon equivalency.  </p>
 			</div>
 			
 			<div class="row">
 				<div class="main2">
 					<div class="page-paragraph">
-						<p>Persuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts to ensure that our net impact, across the board, is green.  To do so, we use a GoBrik Catalyst account to track our plastic, and we manually track our carbon and biodiveristy.</p>
+					<p>Our 2021 Ecological Accounting of our enterprise's Plastic, Carbon and Biodiversity impacts is now published and publicly available.</p>
+						<p>Persuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts to ensure that our net impact, across the board, is green.  To do so, we use a <a href="catalyst.php"> Catalyst account to track our plastic, and we manually track our carbon and biodiveristy and yearly publish our full Regen Report here on ecobricks.org.</p>
 							
 						<p><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i" target="_blank">Download our official 2021 Regenerativity Report (PDF 1.2MB).</i><p> 
 
@@ -453,27 +458,48 @@ _END;?>
 				
 				<ul>
 					<li><a href="https://files.mandala.team/s/4Fmz3GX8Xr7JLaB" target="_blank">2020 Regen Report</a></li>
-					<li>2019 Regen Report (Not available)</li>
+					<li>2019 Regen Report (reformat pending)</li>
 				</ul>
 				<br>
 				
 				
 				
-			<hr><br>
+			<br>
 				<h4>Learn More</h4>
 				
 				<p>Learn more about the concepts underlying regenerative reporting.
 				</p>
 				<ul>
 					<li><a href="aes">AES Plastic Offsetting</a></li>
-					<li><a href="brikcion">Brikcoin Manual Blockchain</a></li>
+					<li><a href="brikcoins">Brikcoin Manual Blockchain</a></li>
 					<li><a href="sequest">Plastic Sequestration</a></li>
 					<li><a href="mandalas">Leading by Example</a></li>
 					<li><a href="principles">Regenerative Principles</a></li>
 					<li><a href="https://medium.com/earthen">The Earthen Ethics Theory of Green</a></li>
-					<li><a href="catalyst">Do your own Regen Reporting with our catalyst program</a></li>
+					
 				</ul>
+
+				<h4></a>
+				 with our catalyst program<a href="catalyst"></a></li>
 		</div>
+		<div class="page-paragraph-reg">
+                 
+                 <div class="row">
+                
+                      <div class="main2">
+                         <h4>Do your own Regen Reporting</h4>
+                        
+                         <p>Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project.</p><br>
+                        
+                    
+                    </div></p>
+
+                    <div class="side2">
+                        <br><img src="webp/catalyst-logo.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                    </div>
+                </div>
+				<a class="action-btn" href="catalyst.php" target="_blank">🚀 Catalyst Program</a>
+			<p style="font-size: 0.85em; margin-top:20px;">Learn more about our free program and platform.</a></p>
 	</div>
 
 		
