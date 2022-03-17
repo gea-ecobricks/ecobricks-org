@@ -297,17 +297,17 @@ _END;?>
 
                     <ul>
 			<li><b><i>“Ecobricks are made with plastic trash"</i></b> <br><br>
-            The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “waste” or “trash” and rather as "used plastic" or "discarded plastic".  See our <a href="ayyew">Ayyew Principle.</a><br><br></li>
+            The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “waste” or “trash” and rather as "used plastic" or "discarded plastic".  See our <a href="/ayyew">Ayyew Principle.</a><br><br></li>
             <li><b><i>“Ecobricks are for building schools and homes”</i></b> <br><br>
-             Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. See <a href="build">Ecobrick Applications</a><br><br></li>
+             Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. See <a href="build.php">Ecobrick Applications</a><br><br></li>
             <li><b><i>“Ecobricks are for developing countries and poor people"</i></b> <br><br>
              Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  Currently, there are more ecobrickers from the UK on our GoBrik app than anywhere else in the world. See <a href="https://www.gobrik.com/#global/country-stats/">GoBrik country stats</a></li><br><br>
             <li><b><i>“Ecobricks are for places where recycling isn’t an option”</i></b><br><br>
-             Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the problematic recycling industry (preventing emissions and plastics eventual dispersion). See <a href="sequest">Plastic Sequestration</a><br><br></li>
+             Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the problematic recycling industry (preventing emissions and plastics eventual dispersion). See <a href="sequest.php">Plastic Sequestration</a><br><br></li>
             <li><b><i>“Ecobricks is a Sustainable Development technology”</i></b><br><br>
-             The GEA explicitly differentiates itself from “sustainabity” and “development” paradigms. Instead: Ecobricks are a non-capital, collaboration powered, regenerative technology. See our <a href="principles">principles</a><br><br></li>
+             The GEA explicitly differentiates itself from “sustainabity” and “development” paradigms. Instead: Ecobricks are a non-capital, collaboration powered, regenerative technology. See our <a href="/principles">principles</a><br><br></li>
             <li><b><i>“The GEA is a Company or an NGO”</i></b> <br><br>
-             The Global Ecobrick Alliance is not a company nor an NGO.  We are a not-for-profit Earth Enterprise.  See <a href="about">About us</a></li>
+             The Global Ecobrick Alliance is not a company nor an NGO.  We are a not-for-profit Earth Enterprise.  See <a href="about.php">About us</a></li>
             </p>
 			<br>
 
@@ -355,7 +355,7 @@ _END;?>
                 <p>All the photos and images on ecobricks.org are available for use under a Creative Commons Attribution-ShareAlike 4.0 International License. unless noted otherwise (such as our logos, icons and emblems).</p>
                 <p>Please attribute to "The Global Ecobrick Alliance - Ecobricks.org"</p><br>
                 <p><b>Galley of Stock Ecobrick Photos</b></p>
-                <p>We've assembled a <a href="gallery-kit">gallery of wide ranging of ecobrick related photos</a> that you can freely use under our CC-A-SA-4.0 license.</p>
+                <p>We've assembled a <a href="/gallery-kit">gallery of wide ranging of ecobrick related photos</a> that you can freely use under our CC-A-SA-4.0 license.</p>
                 <br>
 
             </div>

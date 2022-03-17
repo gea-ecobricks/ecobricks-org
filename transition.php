@@ -560,10 +560,10 @@ _END;?>
 
                 <ul>
 						<li>Following the <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">Earth’s example</a> to be certain our processes are green</li>
-						<li>Understanding the way that <a href="plastic">Earth sequestered its carbon to green the biosphere</a></li>
-						<li>The concept of <a href="sequest">plastic sequestration</a></li>
-						<li>Following <a href="principles">regenerative principles</a>.</li>
-                        <li> The regenerative <a href="ayyew">concept of Ayyew</a> </li>
+						<li>Understanding the way that <a href="/plastic">Earth sequestered its carbon to green the biosphere</a></li>
+						<li>The concept of <a href="sequest.php">plastic sequestration</a></li>
+						<li>Following <a href="/principles">regenerative principles</a>.</li>
+                        <li> The regenerative <a href="/ayyew">concept of Ayyew</a> </li>
 					<ul> 
                 </p>
 
@@ -581,7 +581,7 @@ _END;?>
 			<img src="webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry">
 					<h4>Plastic & the Petro-Capital Economy</h4>
 					<h5>As petroleum is refined into the fuels that power our economies, the leftovers chemicals are used to produce plastics.</h5><br>
-					<a class="module-btn" href="plastics">Plastic's Full Story</a><br><br>
+					<a class="module-btn" href="/plastics">Plastic's Full Story</a><br><br>
 				</div>
 
 
@@ -591,7 +591,7 @@ _END;?>
 					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
 					<h4>Global Ecobrick Alliance</h4>
 					<h5>The GEA is an Earth Enterprise dedicated to accelerating plastic transition.</h5><br>
-                    <a class="module-btn" href="about">About Us</a>
+                    <a class="module-btn" href="about.php">About Us</a>
 			    </div>
 					
 				
@@ -607,14 +607,14 @@ _END;?>
 				<img src="webp/tens-thousands.webp" width="80%">
 				<h4>Regenerative</h4>
 				<h5>Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
-				<a class="module-btn" href="about">About Ayyew</a>
+				<a class="module-btn" href="about.php">About Ayyew</a>
 			</div>
 
             <div id="side-module-desktop-mobile">
 			<img src="webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
 					<h4>Our Regen Report</h4>
 					<h5>We're proud to disclose our net-green ecological impact for the past year.</h5><br>
-					<a class="module-btn" href="/2021-regenreport.php">Access Report</a><br><br>
+					<a class="module-btn" href="2021-regenreport.php">Access Report</a><br><br>
 				</div>
 
 

@@ -474,21 +474,21 @@ _END;?>
 				<img src="webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about">About Us</a>
+				<a class="module-btn" href="about.php">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="about">About Us</a>
+				<a class="module-btn" href="2021-regen-report.php">Learn More</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/balancing-green.webp" width="80%">
 				<h4>Plastic Offsetting</h4>
 				<h5>Our Catalyst Program allows you to offset your plastic generation and support the global ecobrick movement.</h5><br>
-				<a class="module-btn" href="aes">Learn More</a>
+				<a class="module-btn" href="/aes">Learn More</a>
 			</div>
 
 		</div>

@@ -4,13 +4,28 @@
 
   <!--MAIN LANDING-->
 
-   <url>
-      <loc>https://ecobricks.org/</loc>
-      <xhtml:link rel="alternate" hreflang="es" href="https://ecobricks.org/es/welcome.php"/>
 
+
+ <url>
+      <loc>https://ecobricks.org/gallery-kit/</loc>
+      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
    </url>
 
+    <url>
+      <loc>https://ecobricks.org/plastic/</loc>
+      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+   </url>   
 
+    <url>
+      <loc>https://ecobricks.org/aes/</loc>
+      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+   </url>
 
  <url>
       <loc>https://ecobricks.org/how/</loc>
@@ -148,12 +163,7 @@
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
    </url>
-   <url>
-      <loc>https://ecobricks.org/media</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
-      <changefreq>daily</changefreq>
-      <priority>0.5</priority>
-   </url>
+
   
    <url>
       <loc>https://ecobricks.org/gobrik</loc>
