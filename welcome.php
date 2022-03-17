@@ -181,10 +181,10 @@ _END;?>
 					<img src="webp/faqs-400px.webp" width="92%" height="100%" alt="Our eco brick enterprise program">
 				</div>
 				<div id="slider-textbox">
-					<div id="slider-heading">New Media Kit</div>
-					<div id="slider-date">March 9th, 2022 | GEA Updates</div>
-					<div id="slider-body">Want to cover the ecobrick movement or technology?  Our media kit is fully updated for 2022 with our latest guidelines.</div>
-					<div id="slider-link">>> <a href="media.php"> Media Kit</a></div>
+					<div id="slider-heading">New Building Guide!</div>
+					<div id="slider-date">March 17th, 2022 | GEA Updates</div>
+					<div id="slider-body">We're excited to launch our fully updated overview of recommended ecobrick building methods.</div>
+					<div id="slider-link">>> <a href="build.php"> Building Overview</a></div>
 
 				</div>
 			</div>

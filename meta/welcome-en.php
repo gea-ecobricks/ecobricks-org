@@ -1,7 +1,7 @@
 
     <title>Ecobrick Powered Plastic Transition  | Ecobricks.org</title>
 
-<meta name="keywords" content="eco, brick, ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste, non-capital, zero-waste, net-zero, plastic sequestration"> 
+<meta name="keywords" content="eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste, non-capital, zero-waste, net-zero, plastic sequestration"> 
 
 <meta name="description" content="Ecobricks prevent plastic from becoming trash, waste, recycling, incineration or pollution.  Eco bricks enable non-capital, zero-waste, net-zero, plastic sequestration.">
 	
