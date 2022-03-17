@@ -726,21 +726,21 @@ margin-bottom: 31px;}
 				<img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
 				<br><h4>Following the Earth's Example</h4>
 				<h5>Plastic Sequestration follows the Earth’s ancient example of compacting and securing carbon.</h5><br>
-				<a class="module-btn" href="about">Learn More</a>
+				<a class="module-btn" href="/plastic">Learn More</a>
                 <br>
 			</div>  
             <div id="side-module-desktop-mobile">
                 <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make community centers">
                 <h4>Ecobricks</h4>
                 <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only eco<span class="eco-brick"> </span>bricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
-                <a class="module-btn" href="sequest">Learn More</a>
+                <a class="module-btn" href="sequest.php">Learn More</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
-				<a class="module-btn" href="transition">Learn More</a>
+				<a class="module-btn" href="transition.php">Learn More</a>
 			</div>
 
 			
@@ -749,7 +749,7 @@ margin-bottom: 31px;}
 				<img src="webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
 				<h4>Circular & Spiral Design</h4>
 				<h5>Plastic Sequestration follows the principles of cyclical spiral design.</h5><br>
-				<a class="module-btn" href="circular">Learn More</a>
+				<a class="module-btn" href="/circular">Learn More</a>
 			</div>
 
 		
