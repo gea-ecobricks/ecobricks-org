@@ -709,7 +709,7 @@ margin-bottom: 31px;}
                         <li>Sample GEA Earth & Ecobrick Building Custodianship Agreement
                     <a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank"> ENGLIGH - PDF - 500kb</a> </p></li>
                     <li>Template GEA Earth & Ecobrick Building Custodianship Agreement
-                    <a href="https://files.mandala.team/s/xXWSjDiqHDnXMJq" target="_blank"> </a> ENGLIGH - ODG (editable) - 100kb</p></li>
+                    <a href="https://files.mandala.team/s/xXWSjDiqHDnXMJq" target="_blank">ENGLIGH - ODG (editable) - 100kb</a> </p></li>
                     <li>Sample GEA Earth Building Terms of Transfer<a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank"> INDONESIAN - PDF</a></li>
                     <li>Template GEA Earth Building Terms of Transfer Agreement<a href="https://files.mandala.team/s/ERj6ya4N8seRsGL" target="_blank"> INDONESIAN - ODG (editable) - 2.1 MB </a></li>
 					<br>
