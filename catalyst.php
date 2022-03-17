@@ -432,7 +432,7 @@ _END;?>
 			<p>Setup your Catalyst account today.  Use your GoBrik account to get started.  If you don't have a GoBrik account yet, be sure to register first for a free personal account.</p>
 			<br><br>
 			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window!</a></p>
 		</div>
 		
 		</div>

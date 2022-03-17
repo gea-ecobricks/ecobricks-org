@@ -285,7 +285,7 @@ _END;?>
 					<div id="slider-link">>> <a href="https://gobrik.com/#courses/review-course/60f243eacd377c001faa6c57/" target="_blank">Intro Course Sept. 11th</a></div>
 				</div>
 			</div>
-	-->
+
 			<div id="slider4">
 
 				<div id="slider-image"><br><img src="svgs/aes.svg"  width="100%" height="85%"></div>
@@ -294,7 +294,16 @@ _END;?>
 					<div id="slider-date">GEA Services</div>
 					<div id="slider-body">Our plastic offsetting system allows you to take personal responsibility for your household or enterprise plastic generation... and energize the global plastic transition movement!</div>
 					<div id="slider-link">>> <a href="aes"> AES Plastic & Offsetting</a></div>
-				
+	-->
+			<div id="slider4">
+
+				<div id="slider-image"><br><img src="webp/2020-regen-report.webp"  width="100%" height="85%"></div>
+				<div id="slider-textbox">
+					<div id="slider-heading">GEA Regen Report Published!</div>
+					<div id="slider-date">March 17th, 2022</div>
+					<div id="slider-body">Over the last year the GEA is proud to have supported 182 species, increased the space by which we host them by 32%, and directly removed 1,472kgs of plastic and 4,448kg of plastic from the biosphere! The full 2021 accounting of our enterprise's ecological accounting is now up for public disclosure!</div>
+					<div id="slider-link">>> <a href="2021-regenreport.php"> Regen Report</a></div>
+					
 				</div>
 			</div>
 
