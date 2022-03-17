@@ -706,12 +706,12 @@ margin-bottom: 31px;}
                         <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the constudians of the site.  These terms of transfer agreements must lay out the responsibilities for the construction's maintenance and end as well as the responsibilities that the site's custodian aquires for the construction's ecobricks.  This agreement must account for the eventual removal and resuse of the ecobricks.</p>
                         <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement.  Download the PDF and ODG versions here:</p>
                     <ul>
-                        <li>GEA Earth Building Terms of Transfer
-                    <a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank"> </a> ENGLIGH - PDF - 500kb</p></li>
-                    <li>GEA Earth Building Terms of Transfer
+                        <li>Sample GEA Earth & Ecobrick Building Custodianship Agreement
+                    <a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank"> ENGLIGH - PDF - 500kb</a> </p></li>
+                    <li>Template GEA Earth & Ecobrick Building Custodianship Agreement
                     <a href="https://files.mandala.team/s/xXWSjDiqHDnXMJq" target="_blank"> </a> ENGLIGH - ODG (editable) - 100kb</p></li>
-                    <li><a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank">GEA Earth Building Terms of Transfer - INDONESIAN - PDF</a></li>
-                    li><a href="https://files.mandala.team/s/ERj6ya4N8seRsGL" target="_blank">GEA Earth Building Terms of Transfer - INDONESIAN - ODG (editable) - 2.1 MB </a></li>
+                    <li>Sample GEA Earth Building Terms of Transfer<a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank"> INDONESIAN - PDF</a></li>
+                    <li>Template GEA Earth Building Terms of Transfer Agreement<a href="https://files.mandala.team/s/ERj6ya4N8seRsGL" target="_blank"> INDONESIAN - ODG (editable) - 2.1 MB </a></li>
 					<br>
             </div>
             
