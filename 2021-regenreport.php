@@ -249,7 +249,7 @@ _END;?>
 				<div class="main2">
 					<div class="page-paragraph">
 					<p>Our 2021 Ecological Accounting of our enterprise's Plastic, Carbon and Biodiversity impacts is now published and publicly available.</p>
-						<p>Persuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts to ensure that our net impact, across the board, is green.  To do so, we use a <a href="catalyst.php"> Catalyst account to track our plastic, and we manually track our carbon and biodiveristy and yearly publish our full Regen Report here on ecobricks.org.</p>
+						<p>Persuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts to ensure that our net impact, across the board, is green.  To do so, we use a <a href="catalyst.php"> Catalyst account</a> to track our plastic, and we manually track our carbon and biodiveristy and yearly publish our full Regen Report here on ecobricks.org.</p>
 							
 						<p><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i" target="_blank">Download our official 2021 Regenerativity Report (PDF 1.2MB).</i><p> 
 
