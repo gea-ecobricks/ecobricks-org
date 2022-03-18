@@ -32,7 +32,11 @@ $primaryKey = 'serial_no';
 // parameter represents the DataTables column identifier. In this case simple
 // indexes
 $columns = array(
-  array( 'db' => 'serial_no',     'dt' => 0 ),
+  array( 'db' => 'serial_no',     
+        'dt' => 0 ),
+        'formatter' => function( $d, $row ) {
+        return text(($d));
+}
   array(
     'db'        => 'date_logged_ts',
     'dt'        => 1,
