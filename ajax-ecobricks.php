@@ -36,7 +36,7 @@ $columns = array(
     'dt' => 0,
 'formatter' => function( $d, $row ) {
     return '<img src="'.($d).'" width="100" alt="Ecobrick basic pic"/>';
-    }
+}
 ),
 
   array(
@@ -47,21 +47,11 @@ $columns = array(
     }
 ),
 
-    array( 'db' => 'ecobricker_maker', 'dt' => 2 ),
+    array( 'db' => 'ecobricker_maker',     'dt' => 2 ),
 
-    array( 'db' => 'weight_g', 
-           'dt'        => 3,
-           'formatter' => function( $d, $row ) {
-            return ($d).'g';
-        }
-    ),
+    array( 'db' => 'validator_1',     'dt' => 3 ),
     
-    array( 'db' => 'ecobrick_brikcoin_value',   
-            'dt'        => 4,
-            'formatter' => function( $d, $row ) {
-            return $d.'ß';
-        } 
-    ),
+    array( 'db' => 'sequestration_type',     'dt' => 4 ),
    
     array(
         'db'        => 'volume_ml',
@@ -78,13 +68,13 @@ $columns = array(
             return number_format($d,2).'kg';
         }
     ),
-
     array( 'db' => 'serial_no',     
         'dt' => 7,
         'formatter' => function( $d, $row ) {
             return '<a href="details.php?='.($d).'">'.($d).'</a>';
         }
     ),
+  
 );
 
  
