@@ -35,7 +35,7 @@ $columns = array(
   array( 'db' => 'serial_no',     
         'dt' => 0,
         'formatter' => function( $d, $row ) {
-            return 'b'.($d).'b';
+            return '<a href="details.php?=">'.($d).'</a>';
         }
     ),
   array(
