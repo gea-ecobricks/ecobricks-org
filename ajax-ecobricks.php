@@ -46,22 +46,33 @@ $columns = array(
         return date( 'jS M y', strtotime($d));
     }
 ),
-    array( 'db' => 'ecobricker_maker',     'dt' => 2 ),
-    array( 'db' => 'validator_1',     'dt' => 3 ),
-    
 
-    array( 'db' => 'sequestration_type',     'dt' => 4 ),
+    array( 'db' => 'ecobricker_maker',     'dt' => 2 ),
+
+    array( 'db' => 'weight_g', 
+           'dt'        => 3,
+           'formatter' => function( $d, $row ) {
+            return number_format($d,2).' g';
+        }
+    ),
+    
+    array( 'db' => 'ecobrick_brikcoin_value',   
+            'dt'        => 4,
+            'formatter' => function( $d, $row ) {
+            return number_format($d,2).' ß';
+ } 
    
     array(
         'db'        => 'volume_ml',
-        'dt'        => 6,
+        'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return number_format($d,2).'mL';
+            return number_format($d,2).' mL';
         }
     ),
+
     array(
         'db'        => 'CO2_kg',
-        'dt'        => 7,
+        'dt'        => 6,
         'formatter' => function( $d, $row ) {
             return number_format($d,2).'kg';
         }

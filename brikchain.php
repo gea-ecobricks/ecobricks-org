@@ -442,8 +442,8 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
                 <th>Image</th>
                 <th>Logged</th>
                 <th>Maker</th>
-                <th>Validator</th>
-				<th>Type</th>
+                <th>Weight</th>
+				<th>Value</th>
 				<th>Volume</th>
                 <th>CO2</th>
 				<th>Serial</th>
@@ -456,12 +456,11 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 			<th>Image</th>
                 <th>Logged</th>
                 <th>Maker</th>
-                <th>Validator</th>
-				<th>Type</th>
+                <th>Weight</th>
+				<th>Value</th>
 				<th>Volume</th>
                 <th>CO2</th>
 				<th>Serial</th>
-			
             </tr>
         </tfoot>
     </table>
