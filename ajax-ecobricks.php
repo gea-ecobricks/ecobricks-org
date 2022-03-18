@@ -35,9 +35,9 @@ $columns = array(
   array( 'db' => 'serial_no',     
         'dt' => 0,
         'formatter' => function( $d, $row ) {
-        return text($d).'test';
-    }
-),
+            return number_format($d,2).'mL';
+        }
+    ),
   array(
     'db'        => 'date_logged_ts',
     'dt'        => 1,
