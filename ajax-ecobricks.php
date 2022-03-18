@@ -32,12 +32,13 @@ $primaryKey = 'serial_no';
 // parameter represents the DataTables column identifier. In this case simple
 // indexes
 $columns = array(
-  array( 'db' => 'serial_no',     
-        'dt' => 0,
-        'formatter' => function( $d, $row ) {
-            return '<a href="details.php?='.($d).'">'.($d).'</a>';
-        }
-    ),
+    array( 'db' => 'basic_pic_url',
+    'dt' => 0,
+'formatter' => function( $d, $row ) {
+    return '<img src="'.($d).'" width="100" alt="Ecobrick basic pic"/>';
+}
+),
+
   array(
     'db'        => 'date_logged_ts',
     'dt'        => 1,
@@ -47,14 +48,9 @@ $columns = array(
 ),
     array( 'db' => 'ecobricker_maker',     'dt' => 2 ),
     array( 'db' => 'validator_1',     'dt' => 3 ),
-    array( 'db' => 'basic_pic_url',
-            'dt' => 4,
-        'formatter' => function( $d, $row ) {
-            return '<img src="'.($d).'" width="150px" />';
-        }
-    ),
+    
 
-    array( 'db' => 'sequestration_type',     'dt' => 5 ),
+    array( 'db' => 'sequestration_type',     'dt' => 4 ),
    
     array(
         'db'        => 'volume_ml',
@@ -68,6 +64,12 @@ $columns = array(
         'dt'        => 7,
         'formatter' => function( $d, $row ) {
             return number_format($d,2).'kg';
+        }
+    ),
+    array( 'db' => 'serial_no',     
+        'dt' => 7,
+        'formatter' => function( $d, $row ) {
+            return '<a href="details.php?='.($d).'">'.($d).'</a>';
         }
     ),
   

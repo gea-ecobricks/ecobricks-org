@@ -439,28 +439,28 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 			<table id="ecobricks" class="display" style="width:100%">
         <thead>
             <tr>
-                <th>Serial</th>
-                <th>Made</th>
+                <th>Image</th>
+                <th>Logged</th>
                 <th>Maker</th>
-                <th>Density</th>
-				<th>Weight</th>
+                <th>Validator</th>
 				<th>Type</th>
-                <th>Volume</th>
-				<th>CO2</th>
+				<th>Volume</th>
+                <th>CO2</th>
+				<th>Serial</th>
 				
 				
             </tr>
         </thead>
         <tfoot>
             <tr>
-		   		 <th>Serial</th>
-                <th>Made</th>
+			<th>Image</th>
+                <th>Logged</th>
                 <th>Maker</th>
-                <th>Density</th>
-				<th>Weight</th>
+                <th>Validator</th>
 				<th>Type</th>
-                <th>Volume</th>
-				<th>CO2</th>
+				<th>Volume</th>
+                <th>CO2</th>
+				<th>Serial</th>
 			
             </tr>
         </tfoot>
