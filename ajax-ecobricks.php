@@ -35,7 +35,7 @@ $columns = array(
   array( 'db' => 'serial_no',     
         'dt' => 0,
         'formatter' => function( $d, $row ) {
-            return number_format($d,2).'mL';
+            return number_format($d).'</a>';
         }
     ),
   array(
