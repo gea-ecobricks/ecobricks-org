@@ -47,7 +47,17 @@ $columns = array(
 ),
     array( 'db' => 'ecobricker_maker',     'dt' => 2 ),
     array( 'db' => 'validator_1',     'dt' => 3 ),
-    array( 'db' => 'basic_pic_url', 'dt' => 4 ),
+    array( 'db' => 'basic_pic_url',
+            'dt' => 4,
+        'formatter' => function( $d, $row ) {
+            return '<img src="'.($d).'" width="150px" />';
+        }
+    ),
+    
+    
+    
+    
+    'dt' => 4 ),
     array( 'db' => 'sequestration_type',     'dt' => 5 ),
    
     array(
