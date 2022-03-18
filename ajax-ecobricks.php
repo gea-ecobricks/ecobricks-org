@@ -57,13 +57,12 @@ $columns = array(
         }
     ),
     
-    array( 'db' => 'ecobrick_brikcoin_value',   
+    array( 'db' => 'ecobrick_brk_amt',   
             'dt'        => 4,
             'formatter' => function( $d, $row ) {
-            return $d.'ß';
+                return number_format($d,2).'ß';
         } 
     ),
-
    
     array(
         'db'        => 'volume_ml',
