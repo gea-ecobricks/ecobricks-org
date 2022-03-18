@@ -49,7 +49,13 @@ $columns = array(
 
     array( 'db' => 'ecobricker_maker',     'dt' => 2 ),
 
-    array( 'db' => 'validator_1',     'dt' => 3 ),
+
+    array( 'db' => 'weight_g', 
+           'dt'        => 3,
+           'formatter' => function( $d, $row ) {
+            return ($d).'g';
+        }
+    ),
     
     array( 'db' => 'sequestration_type',     'dt' => 4 ),
    
