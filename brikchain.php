@@ -149,7 +149,7 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 4.3em;
+      font-size: 5em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
@@ -171,7 +171,7 @@ _END;?>
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 1.5em;
+		font-size: 2em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -377,9 +377,9 @@ $(document).ready(function() {
                 <th>Sender</th>
                 <th>Receivers</th>
 				<th>Type</th>
-				<th>Ecobrick</th>
                 <th>Block Amount</th>
 				<th>Single Amount</th>
+				<th>Ecobrick</th>
 				
 				
             </tr>
@@ -391,9 +391,9 @@ $(document).ready(function() {
                 <th>Sender</th>
                 <th>Receivers</th>
 				<th>Type</th>
-				<th>Ecobrick</th>
                 <th>Block Amount</th>
 				<th>Single Amount</th>
+				<th>Ecobrick</th>
 			
             </tr>
         </tfoot>

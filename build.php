@@ -257,7 +257,7 @@ margin-bottom: 31px;}
 			
 			
 			<div class="page-paragraph">
-                        <p>That said, building with eco<span class="eco-brick"> </span>bricks, and the plastic they contain, is a big responsibility.   To make sure that our plastic is safe and <a href="sequest">sequestered</a> the Global Ecobrick Alliance has developed building recommendations, standards and principles principles to ensure your ecobrick applications are great over the short-term and the long.</p>
+                        <p>That said, building with eco<span class="eco-brick"> </span>bricks, and the plastic they contain, is a big responsibility.   To make sure that our plastic is safe and <a href="sequest.php">sequestered</a> the Global Ecobrick Alliance has developed building recommendations, standards and principles principles to ensure your ecobrick applications are great over the short-term and the long.</p>
 
                         <!--<p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
 							
@@ -322,7 +322,7 @@ margin-bottom: 31px;}
 
             <br>
 
-                <h5>ℹ️ Learn more about making ecobricks properly and their storage: <a href="how">How to make an ecobrick</a></h5>
+                <h5>ℹ️ Learn more about making ecobricks properly and their storage: <a href="/how">How to make an ecobrick</a></h5>
 
          </div>
         </div>
@@ -365,7 +365,7 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="milstein">🚀 Learn more & make</a>
+                    <a class="action-btn" href="/modules">🚀 Learn more & make</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Milstein modules.</a></p>
 
                     
@@ -419,7 +419,7 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="dms">🚀 Learn More & Make</a>
+                    <a class="action-btn" href="/dms">🚀 Learn More & Make</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Dieleman modules.</a></p>
 
             </div>
@@ -465,7 +465,7 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="dms">🚀 Learn More & Make</a>
+                    <a class="action-btn" href="/dms">🚀 Learn More & Make</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about earth and ecobrick building.</a></p>
 
 
@@ -532,7 +532,7 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="openspaces">🚀 Learn More & Make</a>
+                    <a class="action-btn" href="/openspace">🚀 Learn More & Make</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ecobrick Open Spaces.</a></p>
 
                   
@@ -608,7 +608,7 @@ margin-bottom: 31px;}
                     <br>
                     
 
-                    <a class="action-btn" href="earth">🚀 Learn More & Make</a>
+                    <a class="action-btn" href="/earth">🚀 Learn More & Make</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Earth & Ecobrick Building.</a></p>
 
             </div>
