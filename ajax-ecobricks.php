@@ -52,14 +52,14 @@ $columns = array(
     array( 'db' => 'weight_g', 
            'dt'        => 3,
            'formatter' => function( $d, $row ) {
-            return number_format($d).'g';
+            return ($d).'g';
         }
     ),
     
     array( 'db' => 'ecobrick_brikcoin_value',   
             'dt'        => 4,
             'formatter' => function( $d, $row ) {
-            return number_format($d,2).'ß';
+            return $d.'ß';
         } 
     ),
    
@@ -67,7 +67,7 @@ $columns = array(
         'db'        => 'volume_ml',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return number_format($d,2).' mL';
+            return number_format($d,2).'mL';
         }
     ),
 
@@ -85,7 +85,6 @@ $columns = array(
             return '<a href="details.php?='.($d).'">'.($d).'</a>';
         }
     ),
-),
 );
 
  
