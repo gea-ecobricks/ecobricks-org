@@ -53,11 +53,7 @@ $columns = array(
             return '<img src="'.($d).'" width="150px" />';
         }
     ),
-    
-    
-    
-    
-    'dt' => 4 ),
+
     array( 'db' => 'sequestration_type',     'dt' => 5 ),
    
     array(
