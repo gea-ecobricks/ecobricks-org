@@ -32,7 +32,13 @@ $primaryKey = 'tran_id';
 // parameter represents the DataTables column identifier. In this case simple
 // indexes
 $columns = array(
-  array( 'db' => 'tran_id',     'dt' => 0 ),
+  array( 'db' => 'tran_id',     'dt' => 0,
+  'formatter' => function( $d, $row ) {
+    return '<a href="details.php?='.($d).'">'.($d).'</a>';
+}
+),
+
+
   array(
     'db'        => 'send_dt',
     'dt'        => 1,
@@ -43,7 +49,12 @@ $columns = array(
     array( 'db' => 'sender_ecobricker',     'dt' => 2 ),
     array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
     array( 'db' => 'block_tran_type', 'dt' => 4 ),
-    array( 'db' => 'ecobrick_serial_no',     'dt' => 5 ),
+    array( 'db' => 'ecobrick_serial_no',
+    'dt' => 5,
+    'formatter' => function( $d, $row ) {
+    return '<a href="details.php?='.($d).'">'.($d).'</a>';
+}
+),
    
     array(
         'db'        => 'block_amt',
