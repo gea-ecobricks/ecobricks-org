@@ -57,7 +57,13 @@ $columns = array(
         }
     ),
     
-    array( 'db' => 'sequestration_type',     'dt' => 4 ),
+    array( 'db' => 'ecobrick_brikcoin_value',   
+            'dt'        => 4,
+            'formatter' => function( $d, $row ) {
+            return $d.'ß';
+        } 
+    ),
+
    
     array(
         'db'        => 'volume_ml',
