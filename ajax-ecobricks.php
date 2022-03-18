@@ -33,10 +33,11 @@ $primaryKey = 'serial_no';
 // indexes
 $columns = array(
   array( 'db' => 'serial_no',     
-        'dt' => 0 ),
+        'dt' => 0,
         'formatter' => function( $d, $row ) {
-        return text(($d));
-}
+        return text($d).'test';
+    }
+),
   array(
     'db'        => 'date_logged_ts',
     'dt'        => 1,
