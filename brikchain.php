@@ -151,13 +151,13 @@ _END;?>
 	.splash-heading {
       font-size: 6em;
       line-height: 1.3;
-      margin: 40px 0 10px;
+      margin: auto;
   }
 }
 
 .splash-sub {
   font-family: 'Arvo', Georgia, serif;
-  color: #4C4C4C;
+  color: #fff;
   margin: 15px 0;
 	/*text-shadow: 0px 0px 10px #fff;*/
 }
@@ -171,7 +171,7 @@ _END;?>
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 3em;
+		font-size: 2.2em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -315,8 +315,8 @@ $(document).ready(function() {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
 }
 
-#ecobricks .table.dataTable {
-	padding: 0px !important;
+#ecobricks td {
+	padding: 0px 10px 0px 0px;
 
 
 }
