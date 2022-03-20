@@ -127,7 +127,7 @@ _END;?>
 		flex: 35%;
 		padding: 0px;
 		box-sizing: border-box;
-		margin-top: 0px;
+		margin: auto;
 }
 }
 
@@ -149,7 +149,7 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 5em;
+      font-size: 6em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
@@ -157,7 +157,7 @@ _END;?>
 
 .splash-sub {
   font-family: 'Arvo', Georgia, serif;
-  color: #fff;
+  color: #4C4C4C;
   margin: 15px 0;
 	/*text-shadow: 0px 0px 10px #fff;*/
 }
@@ -171,7 +171,7 @@ _END;?>
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 2em;
+		font-size: 3em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -310,6 +310,15 @@ $(document).ready(function() {
   background-color: #E39009;
   color: white;
 }
+
+.dataTables_info {
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+}
+
+#ecobricks .table.dataTable {
+	padding: 0px !important}
+}
+
 </style>
 
 
