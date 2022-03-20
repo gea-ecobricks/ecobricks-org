@@ -296,7 +296,7 @@ $(document).ready(function() {
 
 #ecobricks td, #ecobricks th {
   border: 1px solid #ddd;
-  padding: 8px;
+  /*padding: 8px;*/
 }
 
 #ecobricks tr:nth-child(even){background-color: #f2f2f2;}
@@ -304,8 +304,8 @@ $(document).ready(function() {
 #ecobricks tr:hover {background-color: #ddd;}
 
 #ecobricks th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  /*padding-top: 12px;
+  padding-bottom: 12px;*/
   text-align: left;
   background-color: #E39009;
   color: white;
@@ -439,7 +439,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 			<table id="ecobricks" class="display" style="width:100%">
         <thead>
             <tr>
-                <th>Image</th>
+                <th style="width: 150px;max-width: 150px !important;">Image</th>
                 <th>Logged</th>
                 <th>Maker</th>
                 <th>Weight</th>
