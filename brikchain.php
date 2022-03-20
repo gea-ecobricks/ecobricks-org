@@ -311,12 +311,14 @@ $(document).ready(function() {
   color: white;
 }
 
-.dataTables_info {
+.dataTables_wrapper {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
 }
 
 #ecobricks .table.dataTable {
-	padding: 0px !important}
+	padding: 0px !important;
+	
+
 }
 
 </style>
