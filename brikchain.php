@@ -317,7 +317,7 @@ $(document).ready(function() {
 
 #ecobricks .table.dataTable {
 	padding: 0px !important;
-	
+
 
 }
 
@@ -450,7 +450,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 			<table id="ecobricks" class="display" style="width:100%">
         <thead>
             <tr>
-                <th style="width: 150px;max-width: 150px !important;">Image</th>
+                <th style="width: 150px !important;">Image</th>
                 <th>Logged</th>
                 <th>Maker</th>
                 <th>Weight</th>
