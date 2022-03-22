@@ -47,6 +47,7 @@ deployment:
     - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
+    - /bin/cp brikcoins.php $DEPLOYPATH
 
 
 
@@ -91,6 +92,7 @@ deployment:
     - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
+    - /bin/cp brikcoins.php $DEPLOYPATH
 
 
 
@@ -133,6 +135,7 @@ deployment:
     - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
+    - /bin/cp brikcoins.php $DEPLOYPATH
 
 
 
@@ -175,3 +178,4 @@ deployment:
     - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
+    - /bin/cp brikcoins.php $DEPLOYPATH

@@ -342,9 +342,9 @@ $(document).ready(function() {
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading"><br>Brikchain Explorer</div>
-		<div class="splash-sub">Search the Full Brikcoin Blockchain</div>
+		<div class="splash-sub">Browse the Full Brikcoin Blockchain</div>
 	</div>
-	<div class="splash-image"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5abaea5dfdbfad4d03858fe2/5b4c1165d44d5804c418a27e/original/brikcoinchaintransparency.png" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
