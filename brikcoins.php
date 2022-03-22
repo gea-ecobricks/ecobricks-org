@@ -13,9 +13,9 @@ echo <<<_END
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="webp/arc-purple2.webp">
-<link rel="preload" as="image" href="webp/arc-logos.webp">
-<link rel="preload" as="image" href="webp/faq-bottom.webp">
+<link rel="preload" as="image" href="webp/brikcoins-blue.webp">
+<link rel="preload" as="image" href="webp/brikcoins-450px.webp">
+
 
 _END;?>
 
@@ -58,7 +58,7 @@ _END;?>
 		padding: 10vh 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background: url(webp/arc-purple2.webp) right top;
+		background: url(webp/brikcoins-blue.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -75,7 +75,7 @@ _END;?>
 		padding: 20vh 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		background: url(webp/arc-purple2.webp) right top;
+		background: url(webp/brikcoins-blue.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -105,7 +105,7 @@ _END;?>
 
 .header-heading { 
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: green;
+  color: black;
   font-weight: 300;
   text-shadow: 0 0 10px #fff;
 
@@ -121,7 +121,7 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.header-heading {
-      font-size: 4em;
+      font-size: 5em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
@@ -147,6 +147,7 @@ _END;?>
 		font-size: 2.3em;
 		line-height: 1.3;
 		font-weight: 400;
+		width: 60%;
   }
 }
 
@@ -301,8 +302,7 @@ text-align: right;}
 <div id="header-content-block">
 	<div id="header-box">
 		<div class="header-heading">Brikcoins</div>
-		<div class="header-sub">A manual proof-of-value blockchain based on the sequestration of plastic<br>
-		from the biosphere</div>
+		<div class="header-sub">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere</div>
 		<img src="webp/brikcoins-450px.webp">
 	</div>
 </div>
@@ -433,8 +433,6 @@ text-align: right;}
             </div>
 
 
-		
-		</DIV>
 		</DIV>
 		
 
@@ -478,6 +476,9 @@ text-align: right;}
 
 
 
+
+<!-- CUSTOM PAGE SCRIPTS-->
+<script src="accordion-scripts.js?v2" defer></script> 
 
 
 	<!--FOOTER STARTS HERE-->
