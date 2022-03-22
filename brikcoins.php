@@ -19,7 +19,7 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/arc-$lang.php");?>
+<?php require_once ("meta/brikcoins-$lang.php");?>
 
 	<?php require_once ("header.php");?>
 
@@ -346,12 +346,24 @@ text-align: right;}
 
                 <div id="preclosed1">
 
-                <br>
-                <img src="https://www.ecobricks.org/wp-content/uploads/2020/04/2020-Plastic-Offset-Credits-2.svg" width="100%" alt="Plastic sequestration">
+                <div class="row">
+						<div class="main2">
 
-                <p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance in pursuit of our mission and vision of plastic transition.  As a not-for profit Earth Enterprise our mandate is the generation of ecological value by following the Earth's example of carbon sequestration.</p>  
+                		<p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance in pursuit of our mission and vision of plastic transition.  As a not-for profit Earth Enterprise our mandate is the generation of ecological value by following the Earth's example of carbon sequestration.</p>  
+
+						</div>
+						<div class="side2"><img src="webp/earthen-400px.webp" width="100%">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.</p>
+						</div>
+						<div class="side3"><img src="webp/earthen-400px.webp" width="150px">
+						</div>
+					</div>
 				
-				<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.  Brikcoins are based on this value.  Coins are generated only when this value has been manually proved by independent evaluation.</p>
+				<p>Brikcoins are based on this value.  Coins are generated only when this value has been manually proved by independent evaluation.</p>
 
 				<p>The Brikcoin blockchain is permissionless, meaning that its ledger is centralized on GEA managed databases to enable decentralized and massively distributed ecological service.  The GEA has chosen this structure to minimize the server impact and energy consumption of the maintenance of our ledger.</p>
 
@@ -369,7 +381,7 @@ text-align: right;}
                     <br>
                     </div>
 
-                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show2">+</button>
+                    <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
                 </div>
 
                 <div id="preclosed2">
@@ -417,16 +429,26 @@ text-align: right;}
 
                 <div id="preclosed3">
 
-                <br>
-                <p>On Earthday 2020, the GEA released version 1.0 of the Ecobricks & Brikcoin Whitepaper, on The Commodiciation of Manually Sequestered Plastic.</p>
+				<div class="row">
+						<div class="main2">
 
-				<p>The 32 page document is the culmination of two years of framework-building by half a dozen contributors who are specialist in fields from micro-plastic research, alternative currencies, philosophy, community development and database development.  Our whitepaper lays out the context, science and concept for plastic “waste” as an opportunity for a root-level, right-now, you-and-can-do-it, systemic solution.</p>
+                		<p><p>On Earthday 2020, the GEA released version 1.0 of the Ecobricks & Brikcoin Whitepaper, on The Commodiciation of Manually Sequestered Plastic.  The 32 page document is the work of half a dozen contributors specializing in fields ranging from micro-plastic research, alternative currencies, philosophy, community development and database development.</p>
 
-				<p>The document presents ecobricking as a essential set in personal and global plastic transition, and a meaning means of plastic sequestration.  The whitepaper provides exhaustive footnoting to the science behind our assumptions and arguments. It then lays out the core concepts of the Brikcoin people-powered, manual blockchain, that gives plastic a revolutionary new value.</p>
+						</div>
+						<div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/04/White-Paper-Icon2-400px.png" width="100%">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p>The white paper lays out the framework for basing a currency on the ecological value of plastic sequestration.</p>
+						</div>
+						<div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/04/White-Paper-Icon2-400px.png" width="150px">
+						</div>
+					</div>
+				
+				<p>The white paper is updated as of March 2022 to reflect three years of beta-usage by our 50,000 gobrik users, over 150,000 ecobricks and a pool of over 250,000 ß (as of March, 2022).</p>
 
-				<p>The white paper is further based on two years of field operations with our beta GoBrik app and over 40,000 users.  Over this period, the platform has authenticated over 20,000 Kg of sequestered plastic, and generated a pool of over 100,000 ß (as of April, 2020).</p>
-
-				<p>The Commodification of Sequestered Plastic – GEA White Paper
+				<p><a href="https://files.mandala.team/s/depPsJ7YKnMRMHN">The Commodification of Sequestered Plastic – GEA White Paper - PDF 2MB</a></p>
 </p>
 
                 </div>

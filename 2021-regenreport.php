@@ -479,9 +479,7 @@ _END;?>
 					
 				</ul>
 
-		</div>
-		<div class="page-paragraph-reg">
-                 
+<br>
         
                          <h4>Do your own Regen Reporting</h4>
                         
@@ -502,10 +500,7 @@ _END;?>
 		<div class="side">
 
 
-			
-		
 
-	
 			<div id="side-module-desktop-mobile">
 				<img src="webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
@@ -548,15 +543,6 @@ _END;?>
 
 	<!-- Localise translation script-->
 
-<script src="https://global.localizecdn.com/localize.js"></script>
-<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
-
-<script>
-  Localize.initialize({
-    key: '911e632bfc957',
-    rememberLanguage: true,
-  });
-</script>
 
 </div>
 </body>
