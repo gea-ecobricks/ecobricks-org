@@ -432,7 +432,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."ß </td></tr>";
+		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."ß </var></td></tr>";
 		}
 		echo "</table>";
 	} else {

@@ -34,7 +34,7 @@ $primaryKey = 'tran_id';
 $columns = array(
   array( 'db' => 'tran_id',     'dt' => 0,
   'formatter' => function( $d, $row ) {
-    return '<a href="details.php?='.($d).'">'.($d).'</a>';
+    return '<a href="details.php?='.($d).'"><var>'.($d).'</var></a>';
 }
 ),
 
@@ -43,7 +43,7 @@ $columns = array(
     'db'        => 'send_dt',
     'dt'        => 1,
     'formatter' => function( $d, $row ) {
-        return date( 'jS M y', strtotime($d));
+        return '<var>'.date( 'jS M y', strtotime($d)).'<var>';
     }
 ),
     array( 'db' => 'sender_ecobricker',     'dt' => 2 ),
@@ -54,14 +54,14 @@ $columns = array(
         'db'        => 'block_amt',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return number_format($d,2).'ß';
+            return '<var>'.number_format($d,2).'ß</var>';
         }
     ),
     array(
         'db'        => 'individual_amt',
         'dt'        => 6,
         'formatter' => function( $d, $row ) {
-            return number_format($d,2).'ß';
+            return '<var>'.number_format($d,2).'ß</var>';
         }
     ),
 
