@@ -94,7 +94,7 @@ Redirect /2021-regenreport /en/2021-regenreport.php
 Redirect /2021-regenreport/ /en/2021-regenreport.php
 Redirect /2021-regen-report /en/2021-regenreport.php
 Redirect /2021-regen-report/ /en/2021-regenreport.php
-Redirect /2021-regen-report.php /en/2021-regenreport.php
+Redirect en/2021-regen-report.php /en/2021-regenreport.php
 
 RedirectMatch "^/2021-regenreport\/?$" "/en/2021-regenreport.php"
 
