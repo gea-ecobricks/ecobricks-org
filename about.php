@@ -245,9 +245,9 @@ _END;?>
 			<div class="page-paragraph">
 				  
 
-				<p>The <a href="story">story</a> of the Global Ecobrick Alliance begins in the traditional territory of the Igorot people (<i>Kaigorotan</i>) in the highlands of northern Luzon in the West Philippine Sea.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="ayyew">Igorot Ayyew ethos</a>.  Inspired by indigenous wisdowm, today ecobricking principles and methods are a means for households, enterprises and communities around the world to accelerate their <a href="transition">plastic transition.</a></p>
+				<p>The <a href="/story">story</a> of the Global Ecobrick Alliance begins in the traditional territory of the Igorot people (<i>Kaigorotan</i>) in the highlands of northern Luzon in the West Philippine Sea.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="/ayyew">Igorot Ayyew ethos</a>.  Inspired by indigenous wisdowm, today ecobricking principles and methods are a means for households, enterprises and communities around the world to accelerate their <a href="transition.php">plastic transition.</a></p>
 				
-				<p>The Global Ecobrick Alliance (GEA) is made up of 400+ transition trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in our ecobricking to <a href="transition">transition</a> from plastic to ever greener living. <p>
+				<p>The Global Ecobrick Alliance (GEA) is made up of 400+ transition trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in our ecobricking to <a href="transition.php">transition</a> from plastic to ever greener living. <p>
 
 			</div>	
 
@@ -269,7 +269,7 @@ _END;?>
 
 					<div class="row">
                             <div class="main2">
-                            <p>As ecobrickers ourselves, we keep track of how much plastic we consume each month, clean and wash it, and put it aside.  We pack our plastic into ecobricks which we use in our homes to make our furniture and gardens.  We lead <a href="trainings">ecobrick trainings</a> for companies, communities near and far.  For both our households and enterprises we offset our plastic to make sure our household and our enterprises are net green.  We track and disclose our plastic transition progress, just like the Global Ecobrick Alliance <a href="2021-regenreport">does each year</a>.</p>
+                            <p>As ecobrickers ourselves, we keep track of how much plastic we consume each month, clean and wash it, and put it aside.  We pack our plastic into ecobricks which we use in our homes to make our furniture and gardens.  We lead <a href="/trainings">ecobrick trainings</a> for companies, communities near and far.  For both our households and enterprises we offset our plastic to make sure our household and our enterprises are net green.  We track and disclose our plastic transition progress, just like the Global Ecobrick Alliance <a href="2021-regenreport.php">does each year</a>.</p>
 							<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
                             </div>
                             <div class="side2"><img src="svgs/shanti.svg" width="88%">
@@ -290,13 +290,13 @@ _END;?>
 					
 					<p>In this way, the plastic that we handle each day is the tip of the iceberg of the petro-capital system that is at the root of today's many of our ecological crises.  As such, plastic allows us to physically touch the petro-capital system that otherwise looms large and unseen around us.   Our every plastic choice, from purchasing to disposing, results in factories spinning, trucks transporting, and oil refined-- or, not.</p>
 						
-					<p>What we do with our plastic, as it adds or decreases the momentum of the petro-capital economy has imminent ecological consequence.  Even though our personal choices may seem small, we observe that over time as our choices reverberate with others, they gather a momemtum over that time that has enormous ecological consequences. In this way, ‘leading by personal example’ is one of our <a href="principles">core principles</a>.</p>
+					<p>What we do with our plastic, as it adds or decreases the momentum of the petro-capital economy has imminent ecological consequence.  Even though our personal choices may seem small, we observe that over time as our choices reverberate with others, they gather a momemtum over that time that has enormous ecological consequences. In this way, ‘leading by personal example’ is one of our <a href="/principles">core principles</a>.</p>
 					
-					<p>As we have come together as the Global Ecobrick Alliance, we’ve realized that to deeply solve plastic, we also have to lead by our allied action, enterprise structure and principles in manifesting <a href="transition">plastic transition</a>, ecological value and Earth service.</p>
+					<p>As we have come together as the Global Ecobrick Alliance, we’ve realized that to deeply solve plastic, we also have to lead by our allied action, enterprise structure and principles in manifesting <a href="transition.php">plastic transition</a>, ecological value and Earth service.</p>
 
 
 
-					<br><br><h5><i>    “When you sit in council for the welfare of the people, you must not think of yourself or of your family, not even of your generation. Make your decisions on behalf of the seven generations coming, so that they may enjoy what you have today.</i></h5>
+					<br><br><h5><i>“When you sit in council for the welfare of the people, you must not think of yourself or of your family, not even of your generation. Make your decisions on behalf of the seven generations coming, so that they may enjoy what you have today.</i></h5>
 
 					<h5>— Oren Lyons (Seneca), Onondaga Nation</h5>
 
@@ -335,13 +335,13 @@ _END;?>
 
 					<p><b>Revenue Generation</b></p>
 						
-					<p>  Through our <a href="brikcoins">Brikcoin blockchain</a> this value is authenticated, quantified and valued in regular currency.  We then sell Authenticated Ecobrick Sequestrated Plastic (<a href="aes">AES plastic offsets</a>) to fund our operations.</p>
+					<p>  Through our <a href="brikcoins.php">Brikcoin blockchain</a> this value is authenticated, quantified and valued in regular currency.  We then sell Authenticated Ecobrick Sequestrated Plastic (<a href="aes">AES plastic offsets</a>) to fund our operations.</p>
 					
-					<p>The GEA develops <a href="trainings">workshops and trainings</a> that raise ecological consciousness around the dangers of plastic.  These courses are lead by our trainer team, and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
+					<p>The GEA develops <a href="/trainings">workshops and trainings</a> that raise ecological consciousness around the dangers of plastic.  These courses are lead by our trainer team, and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
 
 					<p>The GEA develops regenerative, open source products that are made to specification by makers local to the country in which they are sold.  These products are sold by our trainers to assist with their practice (see <a href="/earthwand">our EarthWand page for an example).</a></p>
 
-					<p>All of our operations are manifested through our GEA Trainer and Core Team– folks who have been through one of our advanced trainings and are perpetually committed and resonant with our mission, vision and principles.  Our trainer team is constantly running <a href="trainings">GEA Trainings</a> around the world, and are remunerated professionally for these services by the community groups, companies, governments, NGOs or organizations that hire them.</p>
+					<p>All of our operations are manifested through our GEA Trainer and Core Team– folks who have been through one of our advanced trainings and are perpetually committed and resonant with our mission, vision and principles.  Our trainer team is constantly running <a href="/trainings">GEA Trainings</a> around the world, and are remunerated professionally for these services by the community groups, companies, governments, NGOs or organizations that hire them.</p>
 					<br><br>
 					<h5><i>    “In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.”</i></h5>
 
@@ -368,7 +368,7 @@ _END;?>
                         <div class="main2">
 								<p><b>1. For-Earth Service</b></p>
 
-								<p>Our enterprise follows the <a href="plastic">Earth's example</a> in generating ecological value.  To do so we strive to follow the principles of <a href="https://earthen.io/the-earthen-ways/" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p><br>
+								<p>Our enterprise follows the <a href="/plastic">Earth's example</a> in generating ecological value.  To do so we strive to follow the principles of <a href="https://earthen.io/the-earthen-ways/" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p><br>
 
                         </div>
 							<div class="side2"><img src="webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
@@ -435,11 +435,11 @@ _END;?>
 
 					<p><b>Brikcoin Manual Blockchain</b></p>
 					<p>
-					The GEA has developed and now maintains the <a href="/brikcoins">Brikcoin manual blockchain</a> as a means to value the plastic sequestration ecobricking and to develop a medium of exchange based on ecological value.  Brikcoins are generated and exchanged on the GoBrik webapp.</p><br>
+					The GEA has developed and now maintains the <a href="brikcoins.php">Brikcoin manual blockchain</a> as a means to value the plastic sequestration ecobricking and to develop a medium of exchange based on ecological value.  Brikcoins are generated and exchanged on the GoBrik webapp.</p><br>
 
 					<p><b>Ecobrick Best Practices</b></p>
 					
-					<p>We maintain best practives and standards for<a href="/what">the making of ecobricks</a> and the <a href="/build">building applications</a> of them.</p><br>
+					<p>We maintain best practives and standards for<a href="what.php">the making of ecobricks</a> and the <a href="build.php">building applications</a> of them.</p><br>
 
 					<p><b>Circles - Ecobrick Community Server</b></p>
 

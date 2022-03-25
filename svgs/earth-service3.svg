@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="185.49mm"
-   height="198.14mm"
+   width="169.3567mm"
+   height="186.4364mm"
    version="1.1"
-   viewBox="0 0 185.49 198.14"
+   viewBox="0 0 169.3567 186.4364"
    id="svg2679"
    sodipodi:docname="earth-service3.svg"
-   inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/earth-service-700px.webp"
-   inkscape:export-xdpi="95.887756"
-   inkscape:export-ydpi="95.887756"
+   inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/gobrik/webp/earth-service-700px.webp"
+   inkscape:export-xdpi="105.04064"
+   inkscape:export-ydpi="105.04064"
    inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.1123343"
-     inkscape:cx="350.16452"
-     inkscape:cy="374.43779"
+     inkscape:cx="292.62785"
+     inkscape:cy="375.3368"
      inkscape:window-width="1864"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -72,10 +72,10 @@
     </filter>
     <filter
        id="filter2724"
-       x="-0.55944756"
-       y="-0.61154033"
+       x="-0.55944759"
+       y="-0.61154032"
        width="2.1188951"
-       height="2.2230807"
+       height="2.2230806"
        color-interpolation-filters="sRGB">
       <feFlood
          flood-color="rgb(0,0,0)"
@@ -136,9 +136,45 @@
          result="composite2"
          id="feComposite2034" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter145455"
+       x="-0.075442975"
+       y="-0.072878864"
+       width="1.1718319"
+       height="1.1634699">
+      <feFlood
+         flood-opacity="0.372549"
+         flood-color="rgb(3,3,3)"
+         result="flood"
+         id="feFlood145445" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="out"
+         result="composite1"
+         id="feComposite145447" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="6.12851"
+         result="blur"
+         id="feGaussianBlur145449" />
+      <feOffset
+         dx="4.08364"
+         dy="3.57467"
+         result="offset"
+         id="feOffset145451" />
+      <feComposite
+         in="offset"
+         in2="SourceGraphic"
+         operator="atop"
+         result="composite2"
+         id="feComposite145453" />
+    </filter>
   </defs>
   <g
-     transform="translate(-12.297,-49.606)"
+     transform="translate(-21.37668,-59.861989)"
      id="g2677">
     <g
        transform="matrix(-0.5176,0,0,-0.57091,371,541.28)"
@@ -146,38 +182,48 @@
        id="g2675">
       <g
          fill="#00ffff"
-         id="g2045">
+         id="g2045"
+         transform="translate(0,-7.4150624)"
+         style="stroke:none">
         <ellipse
-           transform="matrix(-0.87606,0,0,-0.82818,72.617,126.1)"
-           cx="-511.69"
-           cy="-663.47998"
-           rx="111.29"
-           ry="101.81"
-           filter="url(#filter2724)"
-           stop-color="#000000"
-           style="paint-order:fill markers stroke"
-           id="ellipse2039" />
-        <ellipse
-           transform="matrix(-0.85132,0,0,-0.80921,81.186,153.98)"
-           cx="-511.69"
-           cy="-663.47998"
-           rx="111.29"
-           ry="101.81"
-           filter="url(#filter2724)"
-           stop-color="#000000"
-           style="paint-order:fill markers stroke"
-           id="ellipse2041" />
-        <ellipse
-           transform="matrix(-0.96804,0,0,-0.81621,12.247,157.95)"
-           cx="-511.69"
-           cy="-663.47998"
-           rx="111.29"
-           ry="101.81"
-           filter="url(#filter2724)"
-           stop-color="#000000"
-           style="paint-order:fill markers stroke"
-           id="ellipse2043" />
+           style="fill:#00ffff;stroke:none;stroke-width:0.231322;stroke-linecap:round;filter:url(#filter145455)"
+           id="path143300"
+           cx="115.20341"
+           cy="121.62077"
+           rx="97.480408"
+           ry="100.91008"
+           inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/faqs-question.webp"
+           inkscape:export-xdpi="60.019142"
+           inkscape:export-ydpi="60.019142"
+           transform="matrix(-1.3550729,0,0,-1.22854,666.8812,845.32924)" />
       </g>
+      <path
+         style="opacity:0.77;fill:#ffffff;stroke-width:0.0832307"
+         d="m 458.56717,765.32838 c 0,0 5.06832,7.40914 11.09303,4.3798 4.47507,-1.99861 9.09784,-7.70443 14.39369,-7.50757 2.09198,-1.3057 20.87918,-4.31443 20.87918,-4.31443 -0.75926,-2.63267 -25.79612,-2.97202 -29.24581,-2.02422 -6.37234,0.20391 -12.86281,-0.43435 -19.15165,0.37188 -36.72565,0.52658 -9.22728,8.97509 2.03156,9.09448 z"
+         id="path102459"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/gobrik/webp/earth-service-700px.webp"
+         inkscape:export-xdpi="558.51001"
+         inkscape:export-ydpi="558.51001"
+         sodipodi:nodetypes="cccscccc" />
+      <path
+         style="opacity:0.77;fill:#ffffff;stroke-width:0.0925313"
+         d="m 428.28151,711.05222 c 3.90101,0.40331 7.21926,8.79977 13.9172,5.43192 4.97514,-2.22193 5.20103,-6.54973 11.08866,-6.33087 2.32575,-1.4516 20.27063,-6.75609 20.27063,-6.75609 -0.8441,-2.92684 -22.40816,-3.92291 -26.24334,-2.8692 -7.0844,0.2267 -14.30015,-0.48289 -21.29173,0.41344 -40.82953,0.58543 -10.25837,9.97801 2.25858,10.11073 z"
+         id="path39257"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954"
+         sodipodi:nodetypes="cccsccc" />
+      <path
+         style="opacity:0.77;fill:#ffffff;stroke-width:0.087393"
+         d="m 570.76319,722.40869 c 3.43775,-0.12351 4.99825,7.2756 10.67177,5.73016 7.53056,-15.99684 19.84116,-10.98631 25.42508,-9.67113 2.42874,-0.95605 4.97211,-3.90485 2.1085,-5.18053 -4.3546,-1.93988 -16.1545,-2.01674 -20.00302,-1.14518 -6.42197,0.0674 -12.85987,-0.13537 -19.27161,0.10418 -27.78017,2.43319 1.06928,15.52476 1.06928,10.16237 z"
+         id="path26505"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/eb-sky-400px.webp"
+         inkscape:export-xdpi="230.86954"
+         inkscape:export-ydpi="230.86954"
+         sodipodi:nodetypes="sccsccss" />
       <path
          class="cls-5"
          transform="matrix(-0.79561,0,0,-0.72132,697.38,863.35)"
@@ -190,12 +236,6 @@
          stroke-width="5"
          id="path2047" />
       <path
-         class="cls-2"
-         d="m 597.25,716.35 a 9.2543,8.3902 0 0 0 3.1477,-0.54223 14.952,13.556 0 0 0 29.557,0 9.1284,8.276 0 0 0 3.1477,0.54223 9.0026103,8.162 0 0 0 0,-16.324 h -35.853 a 9.0026103,8.162 0 1 0 0,16.324 z"
-         fill="#ffffff"
-         opacity="0.8"
-         id="path2049" />
-      <path
          d="m 638.26,662.12 c -79.342,33.728 -212.75,26.274 -256.74,-0.71006 68.851,-22.916 195.21,-25.67 256.74,0.71006 z"
          fill="#00aa00"
          stroke="#333333"
@@ -204,16 +244,10 @@
          id="path2051" />
       <path
          class="cls-2"
-         d="m 570.76,769.76 a 6.1864,5.6087 0 0 0 2.1042,-0.36247 9.995,9.0617 0 0 0 19.758,0 6.1022,5.5324 0 0 0 2.1042,0.36247 6.018,5.4561 0 0 0 0,-10.912 h -23.967 a 6.018,5.4561 0 1 0 0,10.912 z"
+         d="m 704.72963,782.46911 a 6.1864,5.6087 0 0 0 2.1042,-0.36247 9.995,9.0617 0 0 0 19.758,0 6.1022,5.5324 0 0 0 2.1042,0.36247 6.018,5.4561 0 0 0 0,-10.912 h -23.967 a 6.018,5.4561 0 1 0 0,10.912 z"
          fill="#ffffff"
          opacity="0.89"
          id="path2053" />
-      <path
-         class="cls-2"
-         d="m 396.49,714.39 a 9.3336,8.0268 0 0 0 3.1112,-0.53514 14.778,12.709 0 0 0 29.214,0 9.3336,8.0268 0 0 0 3.1112,0.53514 8.9291,7.679 0 0 0 0,-15.331 h -35.437 a 8.9291,7.679 0 0 0 0,15.331 z"
-         fill="#ffffff"
-         opacity="0.84"
-         id="path2055" />
       <line
          class="cls-5"
          x1="604.84998"
@@ -569,7 +603,7 @@
              opacity="0.5"
              id="path2189" />
           <polygon
-             points="1333.2,-1638.9 1309,-1615.6 1339.2,-1621.2 1358.1,-1549.5 1290,-1530.5 1265.3,-1619.1 1329.7,-1651.6 "
+             points="1290,-1530.5 1265.3,-1619.1 1329.7,-1651.6 1333.2,-1638.9 1309,-1615.6 1339.2,-1621.2 1358.1,-1549.5 "
              enable-background="new    "
              fill="#ffff00"
              stroke="#231f20"
@@ -1189,7 +1223,7 @@
          stroke-width="1.7171"
          id="path2411" />
       <g
-         transform="matrix(-0.062076,0,0,-0.05628,721.76,506.94)"
+         transform="matrix(-0.06895976,0,0,-0.06252103,743.62897,490.64861)"
          id="g2538">
         <g
            transform="matrix(0.74373,0,0,0.74373,1088.5,-734.07)"
@@ -1478,12 +1512,12 @@
             </g>
           </g>
           <polygon
-             points="3273.3,-2948.8 3272.8,-2959.3 3266.1,-2951.1 3255.6,-2950.6 3263.8,-2943.9 3264.3,-2933.4 3270.9,-2941.6 3281.4,-2942.1 "
+             points="3272.8,-2959.3 3266.1,-2951.1 3255.6,-2950.6 3263.8,-2943.9 3264.3,-2933.4 3270.9,-2941.6 3281.4,-2942.1 3273.3,-2948.8 "
              fill="#ffffff"
              stroke-width="13.378"
              id="polygon2532" />
           <polygon
-             points="3321.7,-2878 3313.9,-2885.1 3315,-2874.6 3307.9,-2866.8 3318.4,-2867.9 3326.2,-2860.8 3325.1,-2871.3 3332.2,-2879.1 "
+             points="3313.9,-2885.1 3315,-2874.6 3307.9,-2866.8 3318.4,-2867.9 3326.2,-2860.8 3325.1,-2871.3 3332.2,-2879.1 3321.7,-2878 "
              fill="#ffffff"
              stroke-width="13.378"
              id="polygon2534" />
@@ -1523,12 +1557,6 @@
          stroke-width="2.8143"
          id="path2546" />
       <path
-         class="cls-2"
-         d="m 445,751.92 a 4.7962,4.3484 0 0 0 1.6314,-0.28103 7.749,7.0255 0 0 0 15.319,0 4.731,4.2892 0 0 0 1.6314,0.28103 4.6657,4.2301 0 0 0 0,-8.4602 h -18.581 a 4.6657,4.2301 0 1 0 0,8.4602 z"
-         fill="#ffffff"
-         opacity="0.8"
-         id="path2548" />
-      <path
          class="cls-6"
          d="m 560.86,642.87 c 5.029,-0.37911 22.514,5.2574 22.514,-1.1674 0,-6.4248 -6.6967,-18.03 -11.726,-18.409 -4.1904,-0.0685 -7.8706,-3.5672 -9.1188,-8.669 l -5.1626,-31.926 c -1.2393,-4.8963 -7.8431,-8.3896 -11.831,-7.612 -3.988,0.77761 -0.29364,-1.4137 -0.32911,3.7311 l -1.0159,18.443 c -14.586,27.293 -3.3376,24.597 -2.9597,33.039 26.18,0.0657 7.0822,8.9945 19.629,12.57 z"
          fill="#44aa00"
@@ -1565,7 +1593,7 @@
          stroke-width="1.7171"
          id="path2562" />
       <g
-         transform="matrix(-0.06071262,0,0,-0.05504325,586.62605,510.54364)"
+         transform="matrix(-0.07344423,0,0,-0.06658598,591.07279,481.50762)"
          id="g2673">
         <g
            transform="translate(46.729,-26.703)"
