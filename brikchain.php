@@ -141,7 +141,7 @@ _END;?>
   
   color: white;
   font-weight: 300;
-  text-shadow: 0 0 8px black;
+  text-shadow: 0 0 8px #ddd;
 
 }
 
@@ -165,6 +165,7 @@ _END;?>
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #fff;
   margin: 15px 0;
+  text-shadow: 0 0 6px #ddd;
 	/*text-shadow: 0px 0px 10px #fff;*/
 }
 
@@ -302,7 +303,7 @@ $(document).ready(function() {
 
 #ecobricks td, #ecobricks th {
   border: 1px solid #ddd;
-  /*padding-left: 8px;*/
+  padding-left: 8px;
 }
 
 #ecobricks tr:nth-child(even){background-color: #f2f2f2;}
@@ -310,8 +311,8 @@ $(document).ready(function() {
 #ecobricks tr:hover {background-color: #ddd;}
 
 #ecobricks th {
-  /*padding-top: 12px;
-  padding-bottom: 12px;*/
+  padding-top: 12px;
+  padding-bottom: 12px;
   text-align: left;
   background-color: #E39009;
   color: white;
@@ -328,7 +329,7 @@ $(document).ready(function() {
 }
 
 .overflow {
-	margin: 4px;
+	margin: 5px;
 	overflow: scroll;
 }
 
@@ -353,7 +354,7 @@ $(document).ready(function() {
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading"><br>Brikchain Explorer</div>
-		<div class="splash-sub">Browse the Full Brikcoin Blockchain</div>
+		<div class="splash-sub">Browse the ecobricks and transactions of the full brikcoin blockchain</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	
 </div>
@@ -377,7 +378,7 @@ $(document).ready(function() {
 
 			<div class="page-paragraph">
 				  
-				<p>Here you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and <a href="aes">ecobrick authenticated plastic</a>.</p>
+				<p>Here you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and ecobricked authenticated plastic (<a href="aes">AES plastic</a>).</p>
 			</div>
 
 			<br>
