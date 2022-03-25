@@ -302,7 +302,7 @@ $(document).ready(function() {
 
 #ecobricks td, #ecobricks th {
   border: 1px solid #ddd;
-  /*padding: 8px;*/
+  /*padding-left: 8px;*/
 }
 
 #ecobricks tr:nth-child(even){background-color: #f2f2f2;}
@@ -322,7 +322,7 @@ $(document).ready(function() {
 }
 
 #ecobricks td {
-	padding: 0px 10px 0px 0px;
+	padding: 0px 0px 0px 10px;
 
 
 }
