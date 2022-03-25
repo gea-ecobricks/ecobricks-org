@@ -141,7 +141,7 @@ _END;?>
   
   color: white;
   font-weight: 300;
-  text-shadow: 0 0 8px #ddd;
+  text-shadow: 0 0 0 8px #ddd;
 
 }
 
@@ -165,7 +165,7 @@ _END;?>
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #fff;
   margin: 15px 0;
-  text-shadow: 0 0 6px #ddd;
+  text-shadow: 0 0 0 6px #ddd;
 	/*text-shadow: 0px 0px 10px #fff;*/
 }
 
