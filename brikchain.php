@@ -36,14 +36,15 @@ _END;?>
 		
 		background: url(svgs/loud-back-logo-blue.svg) top;
 		background-color: #00E6FF;
+		background-repeat: no-repeat;
+		background-size: cover;
 		
 		text-align: left;
 		height: 70vh;
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-    	background-repeat: no-repeat;
-		background-size: cover;
+    	
 		margin-top: 45px;
 		width: 100%;
 		display: flex;
@@ -58,8 +59,10 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(svgs/cloud-back.svg) bottom;
-		background-color: #00FFFF;
+		background: url(svgs/loud-back-logo-blue.svg) top;
+		background-color: #00E6FF;
+		background-repeat: no-repeat;
+		background-size: cover;
 		
 		text-align: left;
 		height: 60vh;

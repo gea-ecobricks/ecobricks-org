@@ -166,17 +166,16 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		background: url(svgs/cloud-back-logo-blue.svg) top;
+		background-repeat: no-repeat;
+    	background-size: cover;
+		background-color: #00E6FF;
 		
 
 		text-align: left;
 		height: 70vh;
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
-		z-index: 5;
-		/*background: url(webp/arc-purple2.webp) right top;*/
-    	background-repeat: no-repeat;
-    	background-size: cover;
-		background-color: #00E6FF;
+		z-index: 5;    	
 		margin-top: 45px;
 		width: 100%;
 		display: flex;
@@ -188,18 +187,16 @@ _END;?>
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-		background: url(svgs/cloud-back.svg) bottom;
-		background-color: #00FFFF;
+		background: url(svgs/cloud-back-logo-blue.svg) top;
+		background-repeat: no-repeat;
+    	background-size: cover;
+		background-color: #00E6FF;
 
 		text-align: left;
 		height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		/*background: url(svgs/cloud-back.svg) right top;
-    	background-repeat: no-repeat;
-    	background-size: contain;
-		background-color: #00E6FF;*/
 		margin: -3px 0 -20px 0;
 		display: flex;
  		 flex-wrap: wrap;
