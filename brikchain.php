@@ -59,8 +59,8 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(svgs/loud-back-logo-blue.svg) top;
 		background-color: #00E6FF;
+		background: url(svgs/loud-back-logo-blue.svg) top;
 		background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -186,7 +186,7 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #00FFFF;
+	background-color: #00E6FF;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);

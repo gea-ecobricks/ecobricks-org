@@ -165,10 +165,11 @@ _END;?>
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
+		background-color: #00E6FF;
 		background: url(svgs/cloud-back-logo-blue.svg) top;
 		background-repeat: no-repeat;
     	background-size: cover;
-		background-color: #00E6FF;
+		
 		
 
 		text-align: left;
@@ -187,10 +188,11 @@ _END;?>
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
+		background-color: #00E6FF;
 		background: url(svgs/cloud-back-logo-blue.svg) top;
 		background-repeat: no-repeat;
     	background-size: cover;
-		background-color: #00E6FF;
+		
 
 		text-align: left;
 		height: 60vh;
