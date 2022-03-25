@@ -46,7 +46,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
     	
-		margin-top: 45px;
+		margin-top: 25px;
 		width: 100%;
 		display: flex;
  		box-sizing: border-box;
@@ -465,7 +465,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 <h6>All the ecobricks authenticated on the chain.</h6>
 </div>
 
-
+<div class="overflow">
 			<table id="ecobricks" class="display" style="width:100%">
         <thead>
             <tr>
@@ -494,7 +494,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
             </tr>
         </tfoot>
     </table>
-
+</div>
 
 </div>
 </div>
