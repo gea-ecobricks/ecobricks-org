@@ -147,8 +147,8 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-heading {
-      font-size: 2.0em;
-      line-height: 1.1;
+      font-size: 3.0em;
+      line-height: 1.3;
       margin: 10px 0;
   }
 }
@@ -170,7 +170,7 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.2em;
+		font-size: 2em;
 		line-height: 1.5;
 		font-weight: 400;
   }
@@ -365,13 +365,14 @@ $(document).ready(function() {
 	
 
 			<div class="lead-page-paragraph">
-				<br><br>
+				
 				<p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">Brikcoin</a> blockchain and provides the Brikchain Explorer inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
 				<p>Here you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and <a href="aes">ecobrick authenticated plastic</a>.</p>
+			</div>
 
 			<br>
 			<hr>
@@ -380,12 +381,13 @@ $(document).ready(function() {
             
 		
 		
-					
-			<h3>Brikcoin Money Supply</h3>
-<p>An overview of the brikcoins generated each year on the brikchain</p>
+			<div class="page-paragraph">
+			<h4>Brikcoin Money Supply</h4>
+			<h5>An overview of the brikcoins generated each year on the brikchain</h5>
+			</div>
 
 		
-
+			<div class="overflow">
 			<table id="brikchain" class="display" style="width:100%">
         <thead>
             <tr>
@@ -415,13 +417,15 @@ $(document).ready(function() {
             </tr>
         </tfoot>
     </table>
+</div>
 
 <br><br>
+<div class="page-paragraph">
 <h3>Central Reserve Satus</h3>
 <p>Running and yearly brikchain totals.</p>
-		
+</div>		
 			
-
+<div class="overflow">
 <?php include 'db.php';?>
 		
 <?php
@@ -446,12 +450,15 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 	}
 	$conn->close();
 	?>
+	</div>
 	<br><br>
+
+	<div class="page-paragraph">
 
 <h3>Authenticated Ecobricks</h3>
 <p>All the ecobricks authenticated on the chain.</p>
+</div>
 
-		
 
 			<table id="ecobricks" class="display" style="width:100%">
         <thead>
