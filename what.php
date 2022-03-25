@@ -165,18 +165,18 @@ _END;?>
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-		background: url(svgs/cloud-back.svg) bottom;
-		background-color: #00FFFF;
+		background: url(svgs/cloud-back-logo-blue.svg) top;
+		
 
 		text-align: left;
 		height: 70vh;
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		/*background: url(webp/arc-purple2.webp) right top;
+		/*background: url(webp/arc-purple2.webp) right top;*/
     	background-repeat: no-repeat;
-    	background-size: contain;
-		background-color: #00E6FF;*/
+    	background-size: cover;
+		background-color: #00E6FF;
 		margin-top: 45px;
 		width: 100%;
 		display: flex;
