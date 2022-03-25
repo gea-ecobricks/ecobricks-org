@@ -31,28 +31,18 @@ _END;?>
 
 
 
+
+
+
+
 <STYLE>
 
-#clouds {
 
-    width: 100%;
-	height: 70vh;
-    display: flex;
-    align-items: flex-end;
-  /*  margin-bottom: -70px;*/
-}
-
-
-/*
-#cloud-banner {
-	z-index: 4;
-	position: relative;
-	height: 25vh;
-}*/
+/*This sets up the the first splash content block that is unique to the top of each page*/
 
 	
 @media screen and (max-width: 700px) { 
-	#header-content-block {
+	#splash-content-block {
 		text-align: left;
 		height: 50vh;
 		padding: 10vh 5% 25px 5%;
@@ -69,7 +59,7 @@ _END;?>
 
 
 @media screen and (min-width: 700px) { 
-	#header-content-block {
+	#splash-content-block {
 		text-align: left;
 		height: 60vh;
 		padding: 20vh 7% 50px 7%;
@@ -86,7 +76,7 @@ _END;?>
 
 
 @media screen and (max-width: 700px) { 
-#header-box {
+#splash-box {
   z-index: 5;
   position: relative;
   width: 100%;
@@ -95,7 +85,7 @@ _END;?>
 }
 
 @media screen and (min-width: 700px) { 
-#header-box {
+#splash-box {
   z-index: 5;
   position: relative;
   width: 80%;
@@ -103,7 +93,7 @@ _END;?>
 }
 
 
-.header-heading { 
+.splash-heading { 
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: black;
   font-weight: 300;
@@ -112,7 +102,7 @@ _END;?>
 }
 
 @media screen and (max-width: 700px) {
-	.header-heading {
+	.splash-heading {
       font-size: 3.8em;
       line-height: 1.1;
       margin: 10px 0;
@@ -120,7 +110,7 @@ _END;?>
 }
 
 @media screen and (min-width: 700px) {
-	.header-heading {
+	.splash-heading {
       font-size: 5em;
       line-height: 1.3;
       margin: 40px 0 10px;
@@ -128,7 +118,7 @@ _END;?>
 }
 
 
-.header-sub {
+.splash-sub {
   font-family: 'Arvo', Georgia, serif;
   color: grey;
   /*text-shadow: 0px 0px 10px #fff;*/
@@ -137,14 +127,14 @@ _END;?>
 }
 
 @media screen and (max-width: 700px) {
-	.header-sub {
+	.splash-sub {
 		font-size: 1.4em;
 		line-height: 1.5;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
-	.header-sub {
+	.splash-sub {
 		font-size: 2.3em;
 		line-height: 1.3;
 		font-weight: 400;
@@ -155,7 +145,7 @@ _END;?>
 
 @media screen and (max-width: 769px) {
 
-#header-box img {
+#splash-box img {
 
 	width: 60%;
 	margin-left: 40%;
@@ -163,7 +153,7 @@ _END;?>
 }
 
 
-#grey-bar {
+#splash-bar {
 	margin-top: -50px;
 	width: 100%;
 	background-color: #ECECEC;
@@ -180,110 +170,7 @@ _END;?>
 	margin-bottom: 40px;
 }
 
-
-#main-content {
-  margin: auto;
-  box-sizing: border-box;
-}
-@media screen and (max-width: 700px) {
-  #main-content {
-      width: 90%;
-	  margin-top: -20px;
-  }
-}
-@media screen and (min-width: 700px) and (max-width: 1024px) {
-  #main-content {
-      width: 90%%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #main-content {
-      width: 80%;
-  }
-}
-
-/* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-}
-
-/* Create two unequal columns that sits next to each other */
-
-
-/* Main column */
-.main {
-  flex: 70%;
-  background-color: white;
-  padding: 15px 15px 15px 0px;
-  box-sizing: border-box;
-}
-
-/* Sidebar/right column */
-
-@media screen and (min-width: 700px) {
-	.side {
-	flex: 24%;
-	padding: 20px;
-	box-sizing: border-box;
-	margin-top: -80px;
-	padding-top: 80px;
-	background: rgb(212,212,212);
-	background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);
-	}
-	}
-
-@media screen and (max-width: 700px) {
-	.side {
-	flex: 24%;
-	padding: 20px;
-	box-sizing: border-box;
 	
-	}
-	}
-
-
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-mark {
- background-color:#c0ffc8;
- color: white;	
-}
-
-.intro-quote {
-	color: white ! important;
-	text-align: right;
-	background-color: #7440f5;
-	padding: 0px 10px 0px 10px;
-	line-height: 1.5;
-}
-
-#quote {padding: 30px 15px 15px 5px;
-text-align: right;}
-
-
-@media screen and (max-width: 769px) {
-	.lead-page-paragraph {
-      font-size: 1.25em;
-      line-height: 1.4;
-      margin: 37px 0px 15px 0px;
-  }
-}
-@media screen and (min-width: 769px) {
-	.lead-page-paragraph {
-      font-size: 1.4em;
-      line-height: 1.5;
-      margin: 25px 0px 5px 0px;
-  }
-}
-
-
-
 </style>	
 
 </head>
@@ -297,41 +184,43 @@ text-align: right;}
          
 		<?php include 'menu-bar.php';?>
 
-<!--PAGE BANNER-->
+<!--SPLASH SECTION-->
 
 	
-<div id="header-content-block">
-	<div id="header-box">
-		<div class="header-heading">Brikcoins</div>
-		<div class="header-sub">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere</div>
+<div class="splash-content-block">
+	<div class="splash-text-box">
+		<div class="splash-heading">Brikcoins</div>
+		<div class="splash-sub">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere</div>
 		<img src="webp/brikcoins-450px.webp">
 	</div>
+	
 </div>
-<div id="grey-bar"></div>
+<div id="splash-bar"></div>
+
+
+	
+
+
 
 <!-- PAGE CONTENT-->
 
-
 <a name="top"></a>
-
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
 
-			<div class="lead-page-paragraph">
-				
-				<p>The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition.  We do so through the mandalic dissemination of principled and practical ecobricking to raise ecological consciousness.</p>
-				</div>
+		<div class="lead-page-paragraph">				
+			<p>By valuing real world ecological service we can accelerate our transition from petro-capital dependence.</p>
+		</div>
 
-			<div class="page-paragraph">
-				  
+		<p>Blockchain innovations have enabled a revolutionary means of exchanging value and recording transactions through cryptographic verification. However, the ever increasing amount of computer work and hardware required has all too often results in higher and higher environmental costs-- all without creating anything of human or ecological value and exacerbating the divide between rich and poor.</p>
 
-				<p>The <a href="/story">story</a> of the Global Ecobrick Alliance begins in the traditional territory of the Igorot people (<i>Kaigorotan</i>) in the highlands of northern Luzon in the West Philippine Sea.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="/ayyew">Igorot Ayyew ethos</a>.  Inspired by indigenous wisdowm, today ecobricking principles and methods are a means for households, enterprises and communities around the world to accelerate their <a href="transition.php">plastic transition.</a></p>
-				
-				<p>The Global Ecobrick Alliance (GEA) is made up of 400+ transition trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in our ecobricking to <a href="transition.php">transition</a> from plastic to ever greener living. <p>
+		<p>In contrast, the Brikcoin manual blockchain (BRK / β)) is based on the generation of ecological value by human work.  Unlike other  blockchains that simply prove the consistency of a digital ledger, Brikcoins operate on the concept of 'proof-of-value'.  Much like ancient currencies were based on gold or silver that had a value in-itself, Brikcoins are based on the ecological value of securing plastic out of the biosphere.</p>
+			
+		<p>The <a href="brikchain.php">Brickchain</a> of transactions is generated by a permissionless (centralized) process that is maintained and developed by the Global Ecobrick Alliance.  This enables the decentralized authentication of plastic sequestration by anyone anywhere around the world who is willing to work with their hands.</p>
 
-			</div>	
+
 
 		
 			<a name="ECO-VALUE"></a>
