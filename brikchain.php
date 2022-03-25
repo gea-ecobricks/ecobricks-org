@@ -34,8 +34,8 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(svgs/cloud-back.svg) top;
-		background-color: #00FFFF;
+		background: url(svgs/loud-back-logo-blue.svg) top;
+		background-color: #00E6FF;
 		
 		text-align: left;
 		height: 70vh;
