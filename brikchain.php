@@ -322,7 +322,7 @@ $(document).ready(function() {
 }
 
 #ecobricks td {
-	padding: 0px 0px 0px 10px;
+	padding: 3px 3px 0px 10px;
 
 
 }
