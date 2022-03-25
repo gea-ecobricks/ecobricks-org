@@ -34,9 +34,9 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background-color: #00E6FF;
-		background: url(svgs/cloud-back-logo-blue.svg) top;
 		
+		background: url(svgs/cloud-back-logo-blue.svg) top;
+		background-color: #00E6FF;
 		background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -149,7 +149,7 @@ _END;?>
 	.splash-heading {
       font-size: 3.0em;
       line-height: 1.3;
-      margin: 10px 0;
+      margin: 0px 0;
   }
 }
 
@@ -170,8 +170,8 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 2em;
-		line-height: 1.5;
+		font-size: 1.45em;
+		line-height: 1.3;
 		font-weight: 400;
   }
 }
@@ -327,6 +327,11 @@ $(document).ready(function() {
 
 }
 
+.overflow {
+	margin: 4px;
+	overflow: scroll;
+}
+
 </style>
 
 
@@ -366,7 +371,8 @@ $(document).ready(function() {
 
 			<div class="lead-page-paragraph">
 				
-				<p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">Brikcoin</a> blockchain and provides the Brikchain Explorer inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
+				<br>
+				<br><p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">Brikcoin</a> blockchain and provides the Brikchain Explorer inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
 			</div>
 
 			<div class="page-paragraph">
@@ -383,7 +389,7 @@ $(document).ready(function() {
 		
 			<div class="page-paragraph">
 			<h4>Brikcoin Money Supply</h4>
-			<h5>An overview of the brikcoins generated each year on the brikchain</h5>
+			<h6>An overview of the brikcoins generated each year on the brikchain</h6>
 			</div>
 
 		
@@ -421,8 +427,8 @@ $(document).ready(function() {
 
 <br><br>
 <div class="page-paragraph">
-<h3>Central Reserve Satus</h3>
-<p>Running and yearly brikchain totals.</p>
+<h4>Central Reserve Satus</h4>
+<h6>Running and yearly brikchain totals.</h6>
 </div>		
 			
 <div class="overflow">
@@ -455,8 +461,8 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 
 	<div class="page-paragraph">
 
-<h3>Authenticated Ecobricks</h3>
-<p>All the ecobricks authenticated on the chain.</p>
+<h4>Authenticated Ecobricks</h4>
+<h6>All the ecobricks authenticated on the chain.</h6>
 </div>
 
 
