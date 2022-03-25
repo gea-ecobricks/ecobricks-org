@@ -373,7 +373,7 @@ $(document).ready(function() {
 				  
 				<p>Here you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and <a href="aes">ecobrick authenticated plastic</a>.</p>
 
-			</div>
+			<br>
 			<hr>
 			<br><br>
 				
@@ -483,7 +483,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
     </table>
 
 
-		
+</div>
 </div>
 
 
