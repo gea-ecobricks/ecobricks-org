@@ -34,8 +34,9 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(svgs/loud-back-logo-blue.svg) top;
 		background-color: #00E6FF;
+		background: url(svgs/cloud-back-logo-blue.svg) top;
+		
 		background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -60,7 +61,7 @@ _END;?>
 	.splash-content-block {
 		
 		background-color: #00E6FF;
-		background: url(svgs/loud-back-logo-blue.svg) top;
+		background: url(svgs/cloud-back-logo-blue.svg) top;
 		background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -135,7 +136,9 @@ _END;?>
 }
 
 .splash-heading { 
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+
+	font-family: 'Arvo', Georgia, serif;
+  
   color: white;
   font-weight: 300;
   text-shadow: 0 0 8px black;
@@ -159,7 +162,7 @@ _END;?>
 }
 
 .splash-sub {
-  font-family: 'Arvo', Georgia, serif;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #fff;
   margin: 15px 0;
 	/*text-shadow: 0px 0px 10px #fff;*/
