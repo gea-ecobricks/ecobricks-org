@@ -360,7 +360,7 @@ $(document).ready(function() {
 
 			<div class="lead-page-paragraph">
 				<br><br>
-				<p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">Brikcoin blockchain</a> and provides the Brikchain Explorer inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
+				<p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">Brikcoin</a> blockchain and provides the Brikchain Explorer inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
 			</div>
 
 			<div class="page-paragraph">

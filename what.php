@@ -188,15 +188,18 @@ _END;?>
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
+		background: url(svgs/cloud-back.svg) bottom;
+		background-color: #00FFFF;
+
 		text-align: left;
 		height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		/*background: url(svgs/cloud-back.svg) right top;*/
+		/*background: url(svgs/cloud-back.svg) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
-		background-color: #00E6FF;
+		background-color: #00E6FF;*/
 		margin: -3px 0 -20px 0;
 		display: flex;
  		 flex-wrap: wrap;
@@ -243,7 +246,7 @@ _END;?>
   width: 250px;
 	padding: 0px;
 	box-sizing: border-box;
-	margin: -40px 0px 0px 10px;
+	margin: auto;
 }
 }
 
