@@ -187,8 +187,8 @@ _END;?>
 <!--SPLASH SECTION-->
 
 	
-<div class="splash-content-block">
-	<div class="splash-text-box">
+<div id="splash-content-block">
+	<div id="splash-box">
 		<div class="splash-heading">Brikcoins</div>
 		<div class="splash-sub">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere</div>
 		<img src="webp/brikcoins-450px.webp">
