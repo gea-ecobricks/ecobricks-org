@@ -360,7 +360,7 @@ $(document).ready(function() {
 
 			<div class="lead-page-paragraph">
 				<br><br>
-				<p>The Global Ecobrick Alliance maintains the Brikcoin blockchain and provides the Brikchain Explorer inline with <a href="principles">our principles</a> of transparency and Earth service.</p>
+				<p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">Brikcoin blockchain</a> and provides the Brikchain Explorer inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
 			</div>
 
 			<div class="page-paragraph">
@@ -432,7 +432,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."ß </var></td></tr>";
+		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."β) </var></td></tr>";
 		}
 		echo "</table>";
 	} else {
