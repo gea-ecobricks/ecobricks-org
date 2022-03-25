@@ -97,7 +97,7 @@ _END;?>
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: black;
   font-weight: 300;
-  text-shadow: 0 0 10px #fff;
+  text-shadow: 0 0 10px #666666;
 
 }
 
@@ -123,7 +123,7 @@ _END;?>
   color: grey;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
-  text-shadow: 0 0 8px #fff;
+  text-shadow: 0 0 8px #666666;
 }
 
 @media screen and (max-width: 700px) {
