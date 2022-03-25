@@ -42,7 +42,7 @@ _END;?>
 		
 		text-align: left;
 		height: 70vh;
-		padding: 50px 5% 25px 5%;
+		padding: 20px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
     	
@@ -372,7 +372,7 @@ $(document).ready(function() {
 			<div class="lead-page-paragraph">
 				
 				<br>
-				<br><p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">Brikcoin</a> blockchain and provides the Brikchain Explorer inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
+				<br><p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">brikcoin currency's</a> blockchain and provides the Brikchain Explorer inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
 			</div>
 
 			<div class="page-paragraph">
