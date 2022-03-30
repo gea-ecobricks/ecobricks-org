@@ -60,10 +60,11 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background-color: #00E6FF;
+		
 		background: url(svgs/cloud-back-logo-blue.svg) top;
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-color: #00E6FF;
 		
 		text-align: left;
 		height: 60vh;
@@ -350,7 +351,7 @@ $(document).ready(function() {
 	
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading"><br>Brikchain Explorer</div>
+		<div class="splash-heading"><br>The Brikchain Explorer</div>
 		<div class="splash-sub">Browse the ecobricks and transactions of the full brikcoin blockchain</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	

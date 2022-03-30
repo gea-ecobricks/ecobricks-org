@@ -21,7 +21,7 @@
  */
  
 // DB table to use
-$table = 'tb_ecobricks';
+$table = 'vw_ecobricks_desc';
  
 // Table's primary key
 $primaryKey = 'serial_no';
