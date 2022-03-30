@@ -233,7 +233,6 @@ $(document).ready(function() {
 <script>
 
 	$.extend( $.fn.dataTable.defaults, {
-    searching: false,
     ordering:  false
 
 } );
@@ -300,6 +299,67 @@ $(document).ready(function() {
 }
 </style>
 
+<style>
+#brikchain {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: 300;
+}
+
+#brikchain td, #brikchain th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#brikchain tr:nth-child(even){background-color: #f2f2f2;}
+
+#brikchain tr:hover {background-color: #ddd;}
+
+#brikchain th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #E39009;
+  color: white;
+}
+</style>
+
+
+<style>
+#cash_tran {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: 300;
+}
+
+#cash_tran td, #cash_tran th {
+  border: 1px solid #ddd;
+  padding-left: 8px;
+}
+
+#cash_tran tr:nth-child(even){background-color: #f2f2f2;}
+
+#cash_tran tr:hover {background-color: #ddd;}
+
+#cash_tran th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #E39009;
+  color: white;
+}
+
+.dataTables_wrapper {
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+}
+
+#cash_tran td {
+	padding: 3px 3px 0px 10px;
+	
+	</style>
+
 
 <style>
 #ecobricks {
@@ -332,8 +392,6 @@ $(document).ready(function() {
 
 #ecobricks td {
 	padding: 3px 3px 0px 10px;
-
-
 }
 
 .overflow {
@@ -361,7 +419,7 @@ $(document).ready(function() {
 	
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading"><br>The Brikchain Explorer</div>
+		<div class="splash-heading"><br>Brikchain Explorer</div>
 		<div class="splash-sub">Browse the ecobricks and transactions of the full brikcoin blockchain</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	
@@ -504,6 +562,49 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
         </tfoot>
     </table>
 </div>
+<br><br>
+
+	<div class="page-paragraph">
+
+<h4>Cash Transactions</h4>
+<h6>All the GEA's fiat currency transactions.</h6>
+</div>
+
+<div class="overflow">
+			<table id="cash_tran" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th style="width: 150px !important;">Image</th>
+                <th>Logged</th>
+                <th>Maker</th>
+                <th>Weight</th>
+				<th>Value</th>
+				<th>Volume</th>
+                <th>CO2</th>
+				<th>Serial</th>
+				
+				
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+			<th>Image</th>
+                <th>Logged</th>
+                <th>Maker</th>
+                <th>Weight</th>
+				<th>Value</th>
+				<th>Volume</th>
+                <th>CO2</th>
+				<th>Serial</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+</div>
+</div>
+
+
 
 </div>
 </div>
