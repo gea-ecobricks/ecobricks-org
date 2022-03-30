@@ -226,16 +226,19 @@ $(document).ready(function() {
 		"ajax": "ajax.php"
 
     } );
-	// Disable search and ordering by default
-$.extend( $.fn.dataTable.defaults, {
+} );
+
+</script>
+
+<script>
+
+	$.extend( $.fn.dataTable.defaults, {
     searching: false,
     ordering:  false
 
 } );
 
 </script>
-
-
 
 <script>
 
