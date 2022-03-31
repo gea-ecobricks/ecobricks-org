@@ -43,7 +43,7 @@ $columns = array(
     'db'        => 'date_logged_ts',
     'dt'        => 1,
     'formatter' => function( $d, $row ) {
-        return date( 'jS M y', strtotime($d));
+        return '<var>'.date( 'jS M y', strtotime($d)).'</var>';
     }
 ),
 
@@ -73,7 +73,7 @@ $columns = array(
         'db'        => 'volume_ml',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d,2).'mL</var>';
+            return '<var>'.number_format($d).'mL</var>';
         }
     ),
 
