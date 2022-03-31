@@ -47,20 +47,25 @@ $columns = array(
     }
 ),
 
-    array( 'db' => 'ecobricker_maker',     'dt' => 2 ),
+    array( 'db' => 'ecobricker_maker',
+            'dt' => 2,
+            'formatter' => function( $d, $row ) {
+                return '<var>'.($d).'</var>';
+            }
+        ),
 
 
     array( 'db' => 'weight_g', 
            'dt'        => 3,
            'formatter' => function( $d, $row ) {
-            return ($d).'g';
+            return '<var>'.($d).'g</var>';
         }
     ),
     
     array( 'db' => 'ecobrick_brk_amt',   
             'dt'        => 4,
             'formatter' => function( $d, $row ) {
-                return number_format($d,2).'ß';
+               return '<var>'.number_format($d,2).'ß</var>';
         } 
     ),
    
@@ -68,7 +73,7 @@ $columns = array(
         'db'        => 'volume_ml',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return number_format($d,2).'mL';
+            return '<var>'.number_format($d,2).'mL</var>';
         }
     ),
 
@@ -76,7 +81,7 @@ $columns = array(
         'db'        => 'CO2_kg',
         'dt'        => 6,
         'formatter' => function( $d, $row ) {
-            return number_format($d,2).'kg';
+            return '<var>'.number_format($d,2).'kg</var>';
         }
     ),
     array( 'db' => 'serial_no',     

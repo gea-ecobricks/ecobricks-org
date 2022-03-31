@@ -54,14 +54,14 @@ $columns = array(
         'db'        => 'block_amt',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d,2).'β)</var>';
+            return '<var>'.number_format($d,2).'β</var>';
         }
     ),
     array(
         'db'        => 'individual_amt',
         'dt'        => 6,
         'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d,2).'β)</var>';
+            return '<var>'.number_format($d,2).'ß</var>';
         }
     ),
 
