@@ -311,8 +311,9 @@ margin-bottom: 31px;}
 
             <br>
             <p>Some ecobrickers offer the service of collecting, storing and distributing ecobricks to community projects.  This involves costs to them that they defer by charging for the service of collecting ecobricks or serving as drop-off centers.</p>
+            <p>We refer to these locations as "Ecobrick Community Hubs".  They include cafes, zero-waste shops, restaurant and community centers that are helping accelerate plastic transition in their area.  Paying their requested 'hub fee' is a way to support their valuable service.</p>
 
-            <img src="webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="An example of how to store eco bricks properly">
+           
 
             
 
@@ -388,10 +389,10 @@ margin-bottom: 31px;}
 				</div>
 
             <div id="side-module-desktop-mobile">
-                <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make community centers">
-                <h4>Ecobricks</h4>
-                <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only eco<span class="eco-brick"> </span>bricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
-                <a class="module-btn" href="sequest.php">Learn More</a>
+                <img src="webp/brikcoins-450px.webp" width="100%" loading="lazy" alt="eco brik brikcoin blockchain">
+                <h4>Brikcoin Blockchain</h4>
+                <h5>The Brikmarket makes use of authenticated ecobrick sequestered plastic that has been validated on our chain.</h5><br>
+                <a class="module-btn" href="brikcoins.php">Learn More</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
