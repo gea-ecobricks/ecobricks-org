@@ -279,15 +279,7 @@ margin-bottom: 31px;}
                 <div id="preclosed1">
 
                 <br>
-                <p><b>Short-term Applications</b><p>
-
-                <p>Silicone or inner-tube-bands can be used as short-term, non-permanent attachment methods to create ecobrick applications that last for months and up to several years.</p>
-                <p> As short-term applications are not usually covered up, they are typically for indoor use, in order to prevent the UV photodegradation of the bottles.  Short term application are easier for people to make and accelerate the <a href="/mandalas">mandalic spread</a> of ecobricking. </p>
-
-                <br><p><b>Long-term Applications</b><p>
-                
-                <p>Earth and Ecobrick building techniques are used to create structures that can last years or decades (it is not uncommon for traditional constructions to last centuries!).  Earth mixes (i.e Cob (material), Wattle and daub, adobe) are used to lay ecobricks horizontally and completely cover them for full protection against all forms of degradation.</p>
-                <p>The main benefit of long-term applications is plastic sequestration– fully securing plastic from all forms of degradation for the long-haul.</p>
+                <p>Ecobricks are ideal for making small scale projects at home.  However, should you have more ecobricks than you need, you can make an offer to drop them off in your community.  Often ecobrickers are in need of many ecobricks for a particular project.  The Brik Market is a way to connect supply and demand.</p>
                 
                 
                  
@@ -314,7 +306,7 @@ margin-bottom: 31px;}
             <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
 
             <br>
-            <p>Before you build with ecobricks, it is essential to store them properly.  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements.  Ecobricks are best stacked horizontally with their bottom pointed outwards.  This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.</p>
+            <p>Some ecobrickers offer the service of collecting, storing and distributing ecobricks to community projects.  This involves costs to them that they defer by charging for the service of collecting ecobricks or serving as drop-off centers.</p>
 
             <img src="webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="An example of how to store eco bricks properly">
 
@@ -343,9 +335,9 @@ margin-bottom: 31px;}
 
                 <img src="photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="GEA trainers sitting at a table with eco brick milstein modules made from plastic">
             
-					<p>On the Brik Market, ecobricks are bought and sold by their net weight as a batch. This enables a consistent price per kg across offers. 
+					<p>On the Brik Market, only ecobricks that have been logged and authenticated on the GoBrik system are eligible for exchange.  This system ensures that only high quality ecobricks that have been indipendently validated to meet GEA standards are being exchanged.</p>  . 
 </p>
-<p>"Authenticated Ecobrick Sequestered Plastic" (AES plastic for short) represents the valuable ecological service of securing plastic, making a building block and of accelerating plastic transition. Three independent validators review each ecobrick and must concur that it is has been made according to GEA Best Practices and Guidelines. in order for the it to be fully authenticated. This process ensures that the plastic has been effectively sequestered, is safe to use as a building block and won't be processed industrially. Brikcoins are generated each time ecobricked plastic is authenticated. AES credits can be purchased with Brikcoins and with cash as a way to offset personal and business plastic footprints. </p>
+<p>In order to provide a consistent means of pricing ecobricks across their various sizes and shapes, we cost then per kg of AES plastic.</p>
 
 
                     
@@ -371,7 +363,7 @@ margin-bottom: 31px;}
                     </div></p>
 
                     <div class="side2">
-                        <br><img src="webp/albo-offer-350px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                        <br><img src="webp/albo-offer-350px.webp" width="100%" alt="eco brick being bought with a brikcoin by a bird" loading="lazy" alt="eco brick being bought with a brikcoin by a bird.">
                     </div>
                 </div>
                 <p>Sign up button coming soon.</p><br>
@@ -385,13 +377,14 @@ margin-bottom: 31px;}
 
 		<div class="side">
 	
-			<div id="side-module-desktop-mobile">
-				<img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-				<br><h4>Following the Earth's Example</h4>
-				<h5>Plastic Sequestration follows the Earth’s ancient example of compacting and securing carbon.</h5><br>
-				<a class="module-btn" href="/plastic">Learn More</a>
-                <br>
-			</div>  
+        <div id="side-module-desktop-mobile">
+					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
+					<h4>Global Ecobrick Alliance</h4>
+					<h5>The GEA is dedicated to accelerating plastic transition.  	We preside over the GoBrik platform and the Brikcoin blockchain.</h5><br>
+                    <a class="module-btn" href="about.php">Learn More</a>
+					
+				</div>
+
             <div id="side-module-desktop-mobile">
                 <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make community centers">
                 <h4>Ecobricks</h4>
