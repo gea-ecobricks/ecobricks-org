@@ -1022,7 +1022,7 @@ _END;?>
 			<p><a name="ocean"></a></p>
 			<div class="faq-box">
 				<div class="faq-texts">
-					<div class="faq-header"><h4>What about plastic I pick up from the beach-- can it be ecobricked?</h4></div>
+					<div class="faq-header"><h4>What about plastic I pick up from the beach— can it be ecobricked?</h4></div>
 				
 					<p>Yes... and no!  Normal ecobricks are all about the mindful repurposing of the plastic that we consume personally.  This means caring for our plastic by segregating, cleaning and drying it.  The plastic that has washed up on the beach (or we find on the road side) tends to be wet, dirty and chunky.  So its not ideal for putting into a normal ecobrick.  However, it poses a contamination danger to the environment just as much as any other plastic.  To take care of it, you can pack it into what we call an ocean ecobrick.  Ocean ecobricks are made by cutting two PET bottles, packing both tight, and merging them into one.</p>
 
@@ -1039,9 +1039,9 @@ _END;?>
 			<p><a name="cigbrick"></a></p>
 			<div class="faq-box">
 				<div class="faq-texts">
-					<div class="faq-header"><h4>What about cigarette filters-- can they be ecobricked?</h4></div>
+					<div class="faq-header"><h4>What about cigarette filters— can they be ecobricked?</h4></div>
 				
-					<p>YES.  Cigarette filters are made from plastic, and although small, are one of the biggest source of plastic pollution.  We've thus come up with a special technique and ecobricking just for cigarette butts.  Whenyou're done smoking, simply peel of the paper and remove the ash (this can be safely discarded).  Then, place the filter into your ecobrick.  If you're really keen, you can make an ecobrick entirely out of cigarette filters.  We call this a Cigbrick!</p>
+					<p>YES!  Cigarette filters are made from plastic, and although small, are one of the biggest source of plastic pollution.  We've thus come up with a special technique and ecobricking just for cigarette butts.  When you're done smoking, simply peel of the paper and remove the ash (this can be safely discarded).  Then, place the filter into your ecobrick.  If you're really keen, you can make an ecobrick entirely out of cigarette filters.  We call this a "cigbrick"!</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/cigbrick">Cigbricks</h5></a>
 					</div>                    

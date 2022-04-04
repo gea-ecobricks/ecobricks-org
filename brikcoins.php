@@ -29,14 +29,7 @@ _END;?>
 <!-- Arc CDN Script without delay-->
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
 
-
-
-
-
-
-
 <STYLE>
-
 
 /*This sets up the the first splash content block that is unique to the top of each page*/
 
@@ -169,7 +162,6 @@ _END;?>
 
 	margin-bottom: 40px;
 }
-
 	
 </style>	
 
