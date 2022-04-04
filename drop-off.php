@@ -39,7 +39,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
        
-		/*background: url(webp/build-banner-1400px.webp) bottom;*/
+		background: url(svgs/brik-market-banner.svg) bottom;
         background-color: #2A91DA;
 		
     	background-repeat: no-repeat;
@@ -64,7 +64,7 @@ _END;?>
 		position: relative;
 		
         
-		/*background: url(webp/build-banner-1400px.webp) bottom;*/
+		background: url(svg/brik-market-banner.svg) bottom;
         background-color: #2A91DA;
 		
     	background-repeat: no-repeat;
@@ -234,7 +234,7 @@ margin-bottom: 31px;}
 		<div class="splash-heading">The Brik Market</div>
 	    <div class="splash-sub">Drop off, sell, trade or buy ecobricks or offer your space as a community exchange hub.</div>
 	</div>
-	<div class="splash-image"><img src="https://gobrik.com/webp/market-ecobricks-450px.webp" style="width: 85%">
+	<div class="splash-image"><img src="webp/brik-market-400px.webp" style="width: 85%">
     </div>	
 </div>
 <div id="splash-bar"></div>
