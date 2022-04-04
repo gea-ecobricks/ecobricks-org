@@ -12,9 +12,9 @@
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Drop off & Exchange | Ecobricks.org">
   	<meta property="og:description"   content="Buy, sell, trade, by droping off your ecobricks at local community hubs."/>
-  	<meta property="og:image"         content="https://gobrik.com/webp/market-ecobricks-450px.webp"/>
+  	<meta property="og:image"         content="https://ecobricks.org/pngs/brik-market-1000px.png"/>
   	<meta property="og:image:width" content="1000px" />
-	<meta property="og:image:height" content="841px" />
+	<meta property="og:image:height" content="1028px" />
   	<meta property="og:image:alt"     content="Ecobricks for trade and sale"/>
 	  <meta property="og:locale" content="en_GB" />
 
