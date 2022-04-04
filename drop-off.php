@@ -104,6 +104,7 @@ _END;?>
 	padding: 10px 30px 0px 0px;
 	box-sizing: border-box;
 	text-align: right;
+    margin: auto;
 }
 }
 
@@ -127,10 +128,11 @@ _END;?>
 @media screen and (max-width: 700px) { 
 .splash-box {
 	position: relative;
-  flex: 100%;
+    flex: 100%;
 	padding: 10px 10px 0px 0px;
 	box-sizing: border-box;
 	text-align: right;
+    margin: auto;
 }
 }
 
@@ -232,7 +234,7 @@ margin-bottom: 31px;}
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">The Brik Market</div>
-	    <div class="splash-sub">Drop off, sell, trade or buy ecobricks or offer your space as a community exchange hub.</div>
+	    <div class="splash-sub">Drop off, sell, trade, buy ecobricks or offer your space as a community exchange hub.</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikmarket-400px.webp" style="width: 85%">
     </div>	
@@ -251,13 +253,15 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Introducing a new service to facilitate the trade of ecobricks amoung ecobrickers, projects, businesses and communities.</p>
+				<p>Introducing a new service to facilitate the trade of ecobricks among ecobrickers, projects, businesses and communities.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
                         <p>Connecting ecobrick makers, builders, project leaders and investors in plastic sequestration our new Brik Market enables the exchange of authenticated sequestered plastic.  Post your ecobricks for pickup.  Share your service of receiving ecobricks.  Ask for ecobricks for a project.</p>
+
+                        <p>The Brik Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.  The market is maintained by the <a href="about.php">Global Ecobrick Alliance</a> pursuing its mission of accelerating <a href="transition.php">petro-capital and plastic transition</a>.</p>
 
                       
 							
@@ -336,10 +340,8 @@ margin-bottom: 31px;}
                 <img src="photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="GEA trainers sitting at a table with eco brick milstein modules made from plastic">
             
 					<p>On the Brik Market, only ecobricks that have been logged and authenticated on the GoBrik system are eligible for exchange.  This system ensures that only high quality ecobricks that have been indipendently validated to meet GEA standards are being exchanged.</p>  . 
-</p>
-<p>In order to provide a consistent means of pricing ecobricks across their various sizes and shapes, we cost then per kg of AES plastic.</p>
 
-
+                    <p>In order to provide a consistent means of pricing ecobricks across their various sizes and shapes, we cost then per kg of AES plastic.</p>
                     
 				</div>
 			</div>
