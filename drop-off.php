@@ -259,10 +259,10 @@ margin-bottom: 31px;}
 			<div class="page-paragraph">
                         <p>Connecting ecobrick makers, builders, project leaders and investors in plastic sequestration our new Brik Market enables the exchange of authenticated sequestered plastic.  Post your ecobricks for pickup.  Share your service of receiving ecobricks.  Ask for ecobricks for a project.</p>
 
-                        <!--<p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
+                      
 							
             </div>	
-			<a name="APPROVED"></a>
+			<a name="DROP"></a>
             <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">
@@ -343,7 +343,9 @@ margin-bottom: 31px;}
 
                 <img src="photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="GEA trainers sitting at a table with eco brick milstein modules made from plastic">
             
-					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need is 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs . Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
+					<p>On the Brik Market, ecobricks are bought and sold by their net weight as a batch. This enables a consistent price per kg across offers. 
+</p>
+<p>"Authenticated Ecobrick Sequestered Plastic" (AES plastic for short) represents the valuable ecological service of securing plastic, making a building block and of accelerating plastic transition. Three independent validators review each ecobrick and must concur that it is has been made according to GEA Best Practices and Guidelines. in order for the it to be fully authenticated. This process ensures that the plastic has been effectively sequestered, is safe to use as a building block and won't be processed industrially. Brikcoins are generated each time ecobricked plastic is authenticated. AES credits can be purchased with Brikcoins and with cash as a way to offset personal and business plastic footprints. </p>
 
 
                     
@@ -363,25 +365,16 @@ margin-bottom: 31px;}
                          <h4>Start Exchanging</h4>
                         
                          <p>Starting perusing the Brik Market today!  You'll need your GoBrik account to take or post offers, but that's ok, its easy and free to create one</p>
-                        <p>Sign up button coming soon.</p><br>
+                        
                         
                     
                     </div></p>
 
                     <div class="side2">
-                        <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                        <br><img src="webp/albo-offer-350px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                     </div>
                 </div>
-                <p><b>Ecobrick Building Custodianship Agreements</b></p>
-                        <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the constudians of the site.  These terms of transfer agreements must lay out the responsibilities for the construction's maintenance and end as well as the responsibilities that the site's custodian aquires for the construction's ecobricks.  This agreement must account for the eventual removal and resuse of the ecobricks.</p>
-                        <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement.  Download the PDF and ODG versions here:</p>
-                    <ul>
-                        <li>Sample GEA Earth & Ecobrick Building Custodianship Agreement
-                    <a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank"> ENGLIGH - PDF - 500kb</a> </p></li>
-                    <li>Template GEA Earth & Ecobrick Building Custodianship Agreement
-                    <a href="https://files.mandala.team/s/xXWSjDiqHDnXMJq" target="_blank">ENGLIGH - ODG (editable) - 100kb</a> </p></li>
-                    <li>Sample GEA Earth Building Terms of Transfer<a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank"> INDONESIAN - PDF</a></li>
-                    <li>Template GEA Earth Building Terms of Transfer Agreement<a href="https://files.mandala.team/s/ERj6ya4N8seRsGL" target="_blank"> INDONESIAN - ODG (editable) - 2.1 MB </a></li>
+                <p>Sign up button coming soon.</p><br>
 					<br>
             </div>
             
