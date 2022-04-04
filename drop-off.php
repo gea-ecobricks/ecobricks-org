@@ -257,7 +257,7 @@ margin-bottom: 31px;}
 			
 			
 			<div class="page-paragraph">
-                        <p>That said, building with eco<span class="eco-brick"> </span>bricks, and the plastic they contain, is a big responsibility.   To make sure that our plastic is safe and <a href="sequest.php">sequestered</a> the Global Ecobrick Alliance has developed building recommendations, standards and principles principles to ensure your ecobrick applications are great over the short-term and the long.</p>
+                        <p>Connecting ecobrick makers, builders, project leaders and investors in plastic sequestration our new Brik Market enables the exchange of authenticated sequestered plastic.  Post your ecobricks for pickup.  Share your service of receiving ecobricks.  Ask for ecobricks for a project.</p>
 
                         <!--<p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
 							
@@ -268,8 +268,8 @@ margin-bottom: 31px;}
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Thinking Short and Long</h4>
-                    <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
+                    <h4>Dropping Off Ecobricks</h4>
+                    <h5>Use the Brik Market to find community hubs and projects that are taking ecobricks.</h5>   
                     <br>
                     </div>
 
@@ -294,14 +294,14 @@ margin-bottom: 31px;}
                 </div>
                 </div>
 
-            <a name="STORAGE"></a>
+            <a name="HUBS"></a>
             <div class="reg-content-block" id="block10">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Ecobrick Storage</h4>
-                    <h5>Before you build with ecobricks, it is essential to store them properly.</h5>   
+                    <h4>Ecobrick Community Hubs</h4>
+                    <h5>Register to receive payment for collecting, storing and distrubuting ecobricks for community projects.</h5>   
                     <br>
                     </div>
 
@@ -329,12 +329,12 @@ margin-bottom: 31px;}
 
                 
                 
-            <a name="MILSTEINS"></a>
+            <a name="PRICING"></a>
 			<div class="reg-content-block" id="block3">
 				<div class="opener-header">
 					<div class="opener-header-text">
-						<h4>1. Milstein Modules</h4>
-						<h5>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Module horizontal lego.</h5><br>
+						<h4>Pricing Ecobricked Plastic</h4>
+						<h5>On the Brik Market We a use a system of pricing per Kg of authenticated ecobricked plastic.</h5><br>
 					</div>
 					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 				</div>

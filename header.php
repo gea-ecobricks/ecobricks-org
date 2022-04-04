@@ -100,10 +100,7 @@
 
 <STYLE>
 
-#cloud-banner img {
-	width: 100% !important;
-	margin-bottom: -10px;
-}
+
 	
 #full-page {
 
@@ -157,18 +154,6 @@
 	opacity: 1;
 }
 
-
-
-#preclosed1 {display: none;}
-#preclosed2 {display: none;}
-#preclosed3 {display: none;}
-#preclosed4 {display: none;}
-#preclosed5 {display: none;}
-#preclosed6 {display: none;}
-#preclosed7 {display: none;}
-#preclosed8 {display: none;}
-#preclosed9 {display: none;}
-#preclosed10 {display: none;}
 
 
 

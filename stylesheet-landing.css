@@ -5,6 +5,11 @@
 
 /* -------------------------------------------------------------------------- */
 
+#cloud-banner img {
+	width: 100% !important;
+	margin-bottom: -10px;
+}
+
 
 .big-header {
     font-family: 'Mulish', sans-serif;
