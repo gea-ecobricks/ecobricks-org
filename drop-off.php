@@ -91,7 +91,7 @@ _END;?>
   flex: 35%;
 	padding: 0px;
 	box-sizing: border-box;
-	margin-top: 0px;
+	margin: auto;
 }
 }
 
@@ -236,7 +236,7 @@ margin-bottom: 31px;}
 		<div class="splash-heading">The Brik Market</div>
 	    <div class="splash-sub">Drop off, sell, trade, buy ecobricks or offer your space as a community exchange hub.</div>
 	</div>
-	<div class="splash-image"><img src="webp/brikmarket-400px.webp" style="width: 85%">
+	<div class="splash-image"><img src="webp/brikmarket-400px.webp?v1.1" style="width: 80%">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -319,7 +319,7 @@ margin-bottom: 31px;}
 
             <br>
 
-                <h5>ℹ️ Learn more about making ecobricks properly and their storage: <a href="/how">How to make an ecobrick</a></h5>
+                <h5>ℹ️ Learn about ecobrick storage: <a href="/how">How to make an ecobrick</a></h5>
 
          </div>
         </div>
@@ -338,7 +338,7 @@ margin-bottom: 31px;}
 
 				<div id="preclosed3">
 
-                <img src="photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="GEA trainers sitting at a table with eco brick milstein modules made from plastic">
+                <img src="https://cdn.ecobricks.org/wp-content/uploads/2020/04/2020-Manual-Blockchain.svg.png" width="90%" loading="lazy" alt="eco brik authentification process">
             
 					<p>On the Brik Market, only ecobricks that have been logged and authenticated on the GoBrik system are eligible for exchange.  This system ensures that only high quality ecobricks that have been indipendently validated to meet GEA standards are being exchanged.</p>  . 
 
