@@ -398,18 +398,10 @@ margin-bottom: 31px;}
 			<div id="side-module-desktop-mobile">
 				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
-				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
+				<h5>Using ecobricks as a means of community barter and exchange is another way to go local and accelerate petro-capital transition.</h5><br>
 				<a class="module-btn" href="transition.php">Learn More</a>
 			</div>
 
-			
-
-            <div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
-				<h4>Circular & Spiral Design</h4>
-				<h5>Plastic Sequestration follows the principles of cyclical spiral design.</h5><br>
-				<a class="module-btn" href="/circular">Learn More</a>
-			</div>
 
 		
 
