@@ -251,13 +251,13 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Eco<span class="eco-brick">bricks </span> can build furniture, gardens, play parks, structures and more. The only limit is our imagination!</p>
+				<p>Ecobricks can build furniture, gardens, play parks, structures and more. The only limit is our imagination!</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
-                        <p>That said, building with ecobricks, and the plastic they contain, is a big responsibility.   To make sure that our plastic is safe and <a href="sequest.php">sequestered</a> the Global Ecobrick Allianc<a href="about.php">GEA</a>) has developed building recommendations, standards and principles principles to ensure your ecobrick applications are great over the short-term and the long.</p>
+                        <p>That said, building with ecobricks, and the plastic they contain, is a big responsibility.   To make sure that our plastic is safe and <a href="sequest.php">sequestered</a> the Global Ecobrick Alliance (<a href="about.php">GEA</a>) has developed building recommendations, standards and principles principles to ensure your ecobrick applications are great over the short-term and the long.</p>
 
                         <!--<p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
 							
