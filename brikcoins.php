@@ -235,7 +235,7 @@ _END;?>
                 <div class="row">
 						<div class="main2">
 
-                		<p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance in pursuit of our mission and vision of plastic transition.  As a not-for profit Earth Enterprise our mandate is the generation of ecological value by following the Earth's example of carbon sequestration.</p>  
+                		<p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance in pursuit of our mission and vision of plastic transition.  As a <a href="about.php">not-for profit Earth Enterprise</a> our mandate is the generation of ecological value by following the Earth's example of carbon sequestration.</p>  
 
 						</div>
 						<div class="side2"><img src="webp/earthen-400px.webp" width="100%">
