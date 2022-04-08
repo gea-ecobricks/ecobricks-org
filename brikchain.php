@@ -223,7 +223,7 @@ $(document).ready(function() {
     $('#brikchain').DataTable( {
 		"processing": true,
         "serverSide": true,
-		"ajax": "ajax.php"
+		"ajax": "ajax-brk-trans.php"
 
     } );
 } );
@@ -246,6 +246,19 @@ $(document).ready(function() {
 		"processing": true,
         "serverSide": true,
 		"ajax": "ajax-ecobricks.php"
+
+    } );
+} );
+
+</script>
+
+<script>
+
+$(document).ready(function() {
+    $('#cash-tran').DataTable( {
+		"processing": true,
+        "serverSide": true,
+		"ajax": "ajax-cash-trans.php"
 
     } );
 } );
@@ -357,11 +370,13 @@ $(document).ready(function() {
 
 #cash_tran td {
 	padding: 3px 3px 0px 10px;
+}
 	
 	</style>
 
 
 <style>
+
 #ecobricks {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -574,28 +589,26 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 			<table id="cash_tran" class="display" style="width:100%">
         <thead>
             <tr>
-                <th style="width: 150px !important;">Image</th>
-                <th>Logged</th>
-                <th>Maker</th>
-                <th>Weight</th>
-				<th>Value</th>
-				<th>Volume</th>
-                <th>CO2</th>
-				<th>Serial</th>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Sender</th>
+                <th>Receiver</th>
+				<th>Amount</th>
+				<th>Currency</th>
+                <th>Type</th>
 				
 				
             </tr>
         </thead>
         <tfoot>
             <tr>
-			<th>Image</th>
-                <th>Logged</th>
-                <th>Maker</th>
-                <th>Weight</th>
-				<th>Value</th>
-				<th>Volume</th>
-                <th>CO2</th>
-				<th>Serial</th>
+			<th>ID</th>
+                <th>Date</th>
+                <th>Sender</th>
+                <th>Receiver</th>
+				<th>Amount</th>
+				<th>Currency</th>
+                <th>Type</th>
             </tr>
         </tfoot>
     </table>
