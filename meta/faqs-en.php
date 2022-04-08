@@ -4,7 +4,7 @@
 
 <title>Plastic & Ecobricks FAQs | Ecobricks.org</title>
 
-<meta name="keywords" content="eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, plastic waste, carbon sequestration, earth ethics, waste management, recycling, plastic trash, trash, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, ecobrick questions, faq questions, frequently asked ecobrick questions, recycling, incineration, pollution, plastic pollution, drop off, FAQs">
+<meta name="keywords" content="ecobricks, eco-bricks, ecobrique, ecolladrillos, plastic, plastic management, plastic waste, carbon sequestration, earth ethics, waste management, recycling, plastic trash, trash, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, ecobrick questions, faq questions, frequently asked ecobrick questions, recycling, incineration, pollution, plastic pollution, drop off, FAQs">
 
 <meta name="description" content="Answers to ecobrick concerns, critiques & questions.  Learn how eco bricks relates to plastic, recycling, incineration, sequestration, carbon, offsetting and regenerating out of the petro-capital economy.">
 	

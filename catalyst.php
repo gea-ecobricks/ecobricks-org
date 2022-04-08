@@ -22,6 +22,8 @@ _END;?>
 <?php require_once ("header.php");?>
 
 
+<!-- CUSTOM PAGE SCRIPTS-->
+<script src="accordion-scripts.js"></script> 
 
 
 <STYLE>
@@ -29,7 +31,7 @@ _END;?>
 
 	
 @media screen and (max-width: 700px) { 
-	.splash-content-block {
+	.header-content-block {
 		text-align: left;
 		height: 70vh;
 		padding: 50px 5% 25px 5%;
@@ -52,7 +54,7 @@ _END;?>
 
 
 @media screen and (min-width: 700px) { 
-	.splash-content-block {
+	.header-content-block {
 		text-align: left;
 		height: 60vh;
 		padding: 50px 7% 50px 7%;
@@ -78,7 +80,7 @@ _END;?>
 
 
 @media screen and (min-width: 700px) { 
-.splash-image {
+.header-image {
   z-index: 5;
   position: relative;
   text-align: center;
@@ -91,7 +93,7 @@ _END;?>
 
 
 @media screen and (min-width: 700px) { 
-.splash-box {
+.header-box {
   z-index: 5;
   position: relative;
   flex: 65%;
@@ -104,7 +106,7 @@ _END;?>
 
 
 @media screen and (max-width: 700px) { 
-.splash-image {
+.header-image {
   z-index: 5;
   position: relative;
   text-align: left;
@@ -119,7 +121,7 @@ _END;?>
 
 
 @media screen and (max-width: 700px) { 
-.splash-box {
+.header-box {
 	position: relative;
   flex: 100%;
 	padding: 10px 10px 0px 0px;
@@ -130,7 +132,7 @@ _END;?>
 
 
 
-.splash-heading { 
+.header-heading { 
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: white;
   font-weight: 500;
@@ -139,7 +141,7 @@ _END;?>
 }
 
 @media screen and (max-width: 700px) {
-	.splash-heading {
+	.header-heading {
       font-size: 2.0em;
       line-height: 1.1;
       margin: 10px 0;
@@ -147,7 +149,7 @@ _END;?>
 }
 
 @media screen and (min-width: 700px) {
-	.splash-heading {
+	.header-heading {
       font-size: 3em;
       line-height: 1.3;
       margin: 40px 0 10px;
@@ -155,7 +157,7 @@ _END;?>
 }
 
 
-.splash-sub {
+.header-sub {
   font-family: 'Arvo', Georgia, serif;
   color: grey;
   /*text-shadow: 0px 0px 10px #fff;*/
@@ -163,14 +165,14 @@ _END;?>
 }
 
 @media screen and (max-width: 700px) {
-	.splash-sub {
+	.header-sub {
 		font-size: 1.2em;
 		line-height: 1.5;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
-	.splash-sub {
+	.header-sub {
 		font-size: 2.3em;
 		line-height: 1.3;
 		font-weight: 400;
@@ -178,7 +180,7 @@ _END;?>
 }
 
 
-#splash-bar {
+#header-bar {
 	margin-top: -50px;
 	width: 100%;
 	background-color: #4f8a28ff;
@@ -215,14 +217,15 @@ _END;?>
 <!--PAGE BANNER-->
 
 	
-<div class="splash-content-block">
-	<div class="splash-box">
-		<div class="splash-heading">A Program for Keen Green Enterprises to Track, Disclose & Accelerate their Plastic Transition.</div>
-		<!--<div class="splash-sub">A Solution For Plastic transition</div>-->
+<div class="header-content-block">
+	<div class="header-box">
+		<div class="header-heading">A Program for Keen Green Enterprises to Track, Disclose & Accelerate their Plastic Transition.</div>
+		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
-	<div class="splash-image"><img src="pngs/catalyst-logo-500px.png" style="width: 70%;"></div>	
+	<div class="header-image"><img src="pngs/catalyst-logo-500px.png" style="width: 70%;"></div>	
 </div>
-<div id="splash-bar"></div>
+<div id="header-bar"></div>
+<!--<div id="header-bar2"></div>-->
 
 
 <!-- PAGE CONTENT-->
@@ -432,7 +435,7 @@ _END;?>
 			<p>Setup your Catalyst account today.  Use your GoBrik account to get started.  If you don't have a GoBrik account yet, be sure to register first for a free personal account.</p>
 			<br><br>
 			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window!</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
 		</div>
 		
 		</div>
@@ -443,7 +446,7 @@ _END;?>
 		</p>
 		<ul>
 			<li><a href="aes">AES Plastic Offsetting</a></li>
-			<li><a href="brikcoin">Brikcoin Manual Blockchain</a></li>
+			<li><a href="brikcion">Brikcoin Manual Blockchain</a></li>
 			<li><a href="sequest">Plastic Sequestration</a></li>
 			<li><a href="mandalas">Leading by Example</a></li>
 			<li><a href="principles">Regenerative Principles</a></li>
@@ -474,21 +477,21 @@ _END;?>
 				<img src="webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
+				<a class="module-btn" href="about">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="2021-regen-report.php">Learn More</a>
+				<a class="module-btn" href="about">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/balancing-green.webp" width="80%">
 				<h4>Plastic Offsetting</h4>
 				<h5>Our Catalyst Program allows you to offset your plastic generation and support the global ecobrick movement.</h5><br>
-				<a class="module-btn" href="/aes">Learn More</a>
+				<a class="module-btn" href="aes">Learn More</a>
 			</div>
 
 		</div>
@@ -508,9 +511,17 @@ _END;?>
 
 	<!--FOOTER ENDS HERE-->
 
+	<!-- Localise translation script-->
 
-<!-- CUSTOM PAGE SCRIPTS-->
-<script src="accordion-scripts.js" defer></script> 
+<script src="https://global.localizecdn.com/localize.js"></script>
+<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+
+<script>
+  Localize.initialize({
+    key: '911e632bfc957',
+    rememberLanguage: true,
+  });
+</script>
 
 </div>
 </body>

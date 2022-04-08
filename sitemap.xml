@@ -1,179 +1,285 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.4" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <!--MAIN LANDING-->
-
-
-
- <url>
-      <loc>https://ecobricks.org/gallery-kit/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+   <url>
+      <loc>https://ecobricks.org/</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+      <url>
+      <loc>https://ecobricks.org/en/</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+      <url>
+      <loc>https://ecobricks.org/es/</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+      <url>
+      <loc>https://ecobricks.org/id/</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+   <url>
+      <loc>https://www.ecobricks.org/index.php?lang=de</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+   
+      <url>
+      <loc>https://ecobricks.org/en/faqs.php</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+      <url>
+      <loc>https://ecobricks.org/es/faqs.php</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+      <url>
+      <loc>https://ecobricks.org/id/faqs.php</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
    </url>
 
-    <url>
-      <loc>https://ecobricks.org/plastic/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+   <url>
+      <loc>https://ecobricks.org/en/what</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-   </url>   
-
-    <url>
-      <loc>https://ecobricks.org/aes/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
+      <priority>0.9</priority>
    </url>
-
- <url>
-      <loc>https://ecobricks.org/how/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+   <url>
+      <loc>https://ecobricks.org/id/what</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.9</priority>
    </url>
 
+    <url>
+      <loc>https://ecobricks.org/en/catalyst</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://ecobricks.org/id/catalyst</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+ 
+      <loc>https://ecobricks.org/how/</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.9</priority>
+   </url>
    <url>
       <loc>https://ecobricks.org/how/?lang=id</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
-      <changefreq>monthly</changefreq>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
       <priority>0.9</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/why/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/why/?lang=id</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
    </url>
-
-  <url>
+   <url>
+      <loc>https://ecobricks.org/build/</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://ecobricks.org/build/?lang=id</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+   <url>
       <loc>https://ecobricks.org/principles</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.9</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/circular</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/circular/?lang=id</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/ptr</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/dropoff/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/modules/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/dms/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/openspaces/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/earth/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/fire/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/ocean</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/cigbrick</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/cigbrick/?lang=id</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/movement</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
    </url>
-   
+   <url>
+      <loc>https://ecobricks.org/about/</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
    <url>
       <loc>https://ecobricks.org/trainings/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/trainings/?lang=id</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.6</priority>
    </url>
-  
+   <url>
+      <loc>https://ecobricks.org/catalyst</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
+   <url>
+      <loc>https://ecobricks.org/catalyst/?lang=id</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+   </url>
    <url>
       <loc>https://ecobricks.org/movement</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/poison</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.5</priority>
    </url>
-
-  
+   <url>
+      <loc>https://ecobricks.org/media</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://ecobricks.org/media/?lang=id</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>https://ecobricks.org/flow</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.4</priority>
+   </url>
+   <url>
+      <loc>https://ecobricks.org/contribute</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.2</priority>
+   </url>
+   <url>
+      <loc>https://ecobricks.org/start</loc>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
    <url>
       <loc>https://ecobricks.org/gobrik</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
    </url>
    <url>
       <loc>https://ecobricks.org/brikcoins</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <lastmod>2019-12-22T21:46:06+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
    </url>

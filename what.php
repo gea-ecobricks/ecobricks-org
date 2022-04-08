@@ -155,6 +155,7 @@ _END;?>
 
 -->
 
+<script src="accordion-scripts.js"></script> 
 
 
 
@@ -165,18 +166,15 @@ _END;?>
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-		background-color: #00E6FF;
-		background: url(svgs/cloud-back-logo-blue.svg) top;
-		background-repeat: no-repeat;
-    	background-size: cover;
-		
-		
-
 		text-align: left;
 		height: 70vh;
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
-		z-index: 5;    	
+		z-index: 5;
+		/*background: url(webp/arc-purple2.webp) right top;*/
+    	background-repeat: no-repeat;
+    	background-size: contain;
+		background-color: #00E6FF;
 		margin-top: 45px;
 		width: 100%;
 		display: flex;
@@ -188,17 +186,15 @@ _END;?>
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-		background-color: #00E6FF;
-		background: url(svgs/cloud-back-logo-blue.svg) top;
-		background-repeat: no-repeat;
-    	background-size: cover;
-		
-
 		text-align: left;
 		height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
+		/*background: url(svgs/cloud-back.svg) right top;*/
+    	background-repeat: no-repeat;
+    	background-size: contain;
+		background-color: #00E6FF;
 		margin: -3px 0 -20px 0;
 		display: flex;
  		 flex-wrap: wrap;
@@ -245,7 +241,7 @@ _END;?>
   width: 250px;
 	padding: 0px;
 	box-sizing: border-box;
-	margin: auto;
+	margin: -40px 0px 0px 10px;
 }
 }
 
@@ -379,9 +375,9 @@ _END;?>
 			</div>
 
 			<div class="page-paragraph">
-				<p> An ecobrick is a PET bottle packed solid with clean and dry used plastic.  Ecobricks are made manually to a set density to  to <a href="sequest.php">sequester plastic</a> and create reusable building blocks.  In this way ecobricks keep plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes.  But most of all, the hands-on process of ecobricking deepens our awareness of these issues and their regenerative alternatives– what we call <a href="transition.php">plastic transition</a>.</p>
+				<p> An ecobrick is a PET bottle packed solid with clean and dry used plastic.  Ecobricks are made manually to a set density to  to <a href="/sequest">sequester plastic</a> and create reusable building blocks.  In this way ecobricks keep plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes.  But most of all, the hands-on process of ecobricking deepens our awareness of these issues and their regenerative alternatives– what we call <a href="transition">plastic transition</a>.</p>
 				<p>
-				Once many ecobricks are available, they can be put to short-term use in <a href="/modules">modular units</a>, <a href="/dms">lego-furniture </a>and <a href="/openspace">open spaces.</a> Ecobrick can also be put to long-term use in <a href="/earth">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="/principles">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="/plastic">Earth's example</a> of securing loose carbon to green the biosphere.</p>
+				Once many ecobricks are available, they can be put to short-term use in <a href="/modules">modular units</a>, <a href="https://www.ecobricks.org/dms/">lego-furniture </a>and <a href="https://www.ecobricks.org/openspace/">open spaces.</a> Ecobrick can also be put to long-term use in <a href="/earth">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="/principles">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="plastic">Earth's example</a> of securing loose carbon to green the biosphere.</p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">
@@ -402,19 +398,19 @@ _END;?>
 					<br>
 					<div class="row">
 						<div class="main2">
-							<p>The <a href="about.php">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition.php">petro-capital transition</a> and <a href="sequest.php">plastic sequestration.</a></p>
+							<p>The <a href="about">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition">petro-capital transition</a> and <a href="sequest">plastic sequestration.</a></p>
 				
 						<p>
-						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics and the<a href="/plastic">Earth’s example of greening the biosphere</a>.</p>
+						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics and the<a href="plastic">Earth’s example of greening the biosphere</a>.</p>
 						</div>
-						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="100%">
+						<div class="side2"><img src="wp-content/uploads/2021/01/authenticated-ecobrick.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>An ecobrick must fulfil the following crieria:</p>
 						</div>
-						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="125px">
+						<div class="side3"><img src="wp-content/uploads/2021/01/authenticated-ecobrick.png" width="125px">
 						</div>
 					</div>
 
@@ -426,14 +422,14 @@ _END;?>
 						<li>Raise the individual and collective ecological consciousness of those involved in the process.</li>
 					</ul></p>
 					<p>
-					Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="/brikcoin">Brikcoin blockchain</a> and the <a href="/gobrik">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="/aes">authenticated ecobricked plastic.</a></p>
+					Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="brikcoin">Brikcoin blockchain</a> and the <a href="gobrik">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="aes">authenticated ecobricked plastic.</a></p>
 
 					<p>Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.
 					<p>Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
 					<h6>
-					Learn more about the <a href="sequest.php"><strong>criteria of plastic sequestration.</strong></a>
+					Learn more about the <a href="https://www.ecobricks.org/sequest"><strong>criteria of plastic sequestration.</strong></a>
 
-					Learn more about the<a href="/plastic"><strong> Earth’s Example</strong></a>
+					Learn more about the<a href="https://www.ecobricks.org/plastic"><strong> Earth’s Example</strong></a>
 					</h6>
 				</div>	
 			</div>
@@ -456,7 +452,7 @@ _END;?>
 						</div>
 					</div>
 
-					<p>Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy <a href="/fire">flammability</a> while maximizing its durability and re-usability.</p>
+					<p>Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy <a href="fire">flammability</a> while maximizing its durability and re-usability.</p>
 
 					<div class="row2">
 						<div class="main3">
@@ -578,7 +574,7 @@ _END;?>
 					</ul>
 					</li>
 					</ul>
-					<p>Only ocean ecobricks that meet these standards can be authenticated and count as <a href="sequest.php">sequestered plastic</a>.</p>
+					<p>Only ocean ecobricks that meet these standards can be authenticated and count as <a href="/sequest">sequestered plastic</a>.</p>
 
 					<h6><a href="/ocean"><strong>Learn more about Ocean Ecobricks</strong></a></h6>
 					<br><br>
@@ -590,7 +586,7 @@ _END;?>
 			<br><br>
 		
 		<h4>Personal & Community Empowerment</h4>
-		<p>Ecobricking is a both an individual and collaborative endeavour.  It unites across class, continents and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raise awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="transition.php">plastic transition</a>. The collaborative process gives individual and communities an hands on experience of <a href="/principles">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="/earth">earth building</a> and permaculture.</p>
+		<p>Ecobricking is a both an individual and collaborative endeavour.  It unites across class, continents and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raise awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="/transition">plastic transition</a>. The collaborative process gives individual and communities an hands on experience of <a href="/principles">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="/earth">earth building</a> and permaculture.</p>
 		<br><br>
 
 		<h4>Learn More</h4>
@@ -598,13 +594,13 @@ _END;?>
 		<p>The Global Ecobrick Alliance has developed extensive, free and open source resources (like this page!) to get you started ecobricking right.  Our goal is to empower you and your community with the know-how to make ecobricks and build with them.  The pages on this site are the result of years of research, experimentation and trial and error by plastic transition leaders around the world.
 		</p>
 		<ul>
-			<li><a href="/why">Why Make Ecobricks?</a></li>
-			<li><a href="/how">How to Ecobrick?</a></li>
-			<li><a href="/circular">Cradle to Cradle</a></li>
-			<li><a href="build.php">Building with Ecobricks</a></li>
-			<li><a href="/movement">The Movement</a></li>
-			<li><a href="/dropoff">Dropping off ecobricks?</a></li>
-			<li><a href="/trainings">Ecobrick Trainings</a></li>
+			<li><a href="why">Why Make Ecobricks?</a></li>
+			<li><a href="how">How to Ecobrick?</a></li>
+			<li><a href="circular">Cradle to Cradle</a></li>
+			<li><a href="build">Building with Ecobricks</a></li>
+			<li><a href="movement">The Movement</a></li>
+			<li><a href="dropoff">Dropping off ecobricks?</a></li>
+			<li><a href="trainings">Ecobrick Trainings</a></li>
 		</ul>
 		</div>
 
@@ -619,21 +615,21 @@ _END;?>
 			<img src="webp/earth-home.webp" width="90%">
 				<h4>Plastic Sequestration</h4>
 				<h5>Ecobricking is a form of plastic sequestration.  Ecobricks secure plastics out of the biosphere and accelerates plastic transition.</h5><br>
-				<a href="sequest.php" target="_blank" class="module-btn">Learn More</a>
+				<a href="sequester" target="_blank" class="module-btn">Learn More</a>
 			</div>
 				
 			<div id="side-module-desktop-only">
 			<img src="webp/earth-example.webp" width="80%">
 				<h4>Regenerative</h4>
 				<h5>Ecobricking is based on following the Earth's example and is guided by seven green principles.</h5><br>
-				<a class="module-btn" href="/principles">Principles</a>
+				<a class="module-btn" href="princles">Principles</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="90%">
-				<h4>Spiral & Circular</h4>
+				<img src="webp/circular-design2.webp" width="80%">
+				<h4>Circular</h4>
 				<h5>Ecobricks and their building applications are circular by design.</h5><br>
-				<a class="module-btn" href="/circular">Learn More</a>
+				<a class="module-btn" href="circular">Learn More</a>
 			</div>
 
 	
@@ -641,14 +637,14 @@ _END;?>
 				<img src="webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
+				<a class="module-btn" href="about">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="2021-regenreport.php">Learn More</a>
+				<a class="module-btn" href="about">About Us</a>
 			</div>
 
 		</div>
@@ -662,12 +658,23 @@ _END;?>
 
 	<!--FOOTER STARTS HERE-->
 
+
 	<?php include 'footer.php'; ?>
 
 
-<!-- CUSTOM PAGE SCRIPTS-->
+	<!--FOOTER ENDS HERE-->
 
-<script src="accordion-scripts.js" defer></script>
+	<!-- Localise translation script-->
+
+<script src="https://global.localizecdn.com/localize.js"></script>
+<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+
+<script>
+  Localize.initialize({
+    key: '911e632bfc957',
+    rememberLanguage: true,
+  });
+</script>
 
 
 </div>
