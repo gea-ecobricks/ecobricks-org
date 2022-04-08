@@ -58,14 +58,14 @@ $columns = array(
     array( 'db' => 'weight_g', 
            'dt'        => 3,
            'formatter' => function( $d, $row ) {
-            return '<var>'.($d).'g</var>';
+            return '<var>'.($d).'&#8202;g</var>';
         }
     ),
     
     array( 'db' => 'ecobrick_brk_amt',   
             'dt'        => 4,
             'formatter' => function( $d, $row ) {
-               return '<var>'.number_format($d,2).'ß</var>';
+               return '<var>'.number_format($d,2).'&#8202;ß</var>';
         } 
     ),
    
@@ -73,7 +73,7 @@ $columns = array(
         'db'        => 'volume_ml',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d).'mL</var>';
+            return '<var>'.number_format($d).'&#8202;mL</var>';
         }
     ),
 
@@ -81,7 +81,7 @@ $columns = array(
         'db'        => 'CO2_kg',
         'dt'        => 6,
         'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d,2).'kg</var>';
+            return '<var>'.number_format($d,2).'&#8202;kg</var>';
         }
     ),
     array( 'db' => 'serial_no',     

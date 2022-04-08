@@ -61,7 +61,7 @@ $columns = array(
         'db'        => 'individual_amt',
         'dt'        => 6,
         'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d,2).' ß</var>';
+            return '<var>'.number_format($d,2).'&#8202;ß</var>';
         }
     ),
 
