@@ -54,21 +54,21 @@ $columns = array(
         'db'        => 'block_amt',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d,2).'&thinsp;ß</var>';
+            return '<var>'.number_format($d,2).'&#8202;ß</var>';
         }
     ),
     array(
         'db'        => 'individual_amt',
         'dt'        => 6,
         'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d,2).' ß</var>';
+            return '<var>'.number_format($d,2).' ß</var>';
         }
     ),
 
     array( 'db' => 'ecobrick_serial_no',
     'dt' => 7,
     'formatter' => function( $d, $row ) {
-    return '<a href="details.php?='.($d).'">'.($d).' ß</a>';
+    return '<a href="details.php?='.($d).'">'.($d).'</a>';
 }
 ),
   
