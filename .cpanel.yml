@@ -28,7 +28,7 @@ deployment:
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
     - /bin/cp ajax-ecobricks.php $DEPLOYPATH
     - /bin/cp ajax-cash-trans.php $DEPLOYPATH
-    - /bin/cp ajax-brik-trans.php $DEPLOYPATH
+    - /bin/cp ajax-brk-trans.php $DEPLOYPATH
     
 
     - /bin/cp welcome.php $DEPLOYPATH
@@ -78,7 +78,7 @@ deployment:
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
     - /bin/cp ajax-ecobricks.php $DEPLOYPATH
     - /bin/cp ajax-cash-trans.php $DEPLOYPATH
-    - /bin/cp ajax-brik-trans.php $DEPLOYPATH
+    - /bin/cp ajax-brk-trans.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -126,7 +126,7 @@ deployment:
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
     - /bin/cp ajax-ecobricks.php $DEPLOYPATH
     - /bin/cp ajax-cash-trans.php $DEPLOYPATH
-    - /bin/cp ajax-brik-trans.php $DEPLOYPATH
+    - /bin/cp ajax-brk-trans.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -174,7 +174,7 @@ deployment:
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
     - /bin/cp ajax-ecobricks.php $DEPLOYPATH
     - /bin/cp ajax-cash-trans.php $DEPLOYPATH
-    - /bin/cp ajax-brik-trans.php $DEPLOYPATH
+    - /bin/cp ajax-brk-trans.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
