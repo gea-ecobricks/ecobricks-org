@@ -24,10 +24,11 @@ deployment:
     - /bin/cp stylesheet-general.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
-    - /bin/cp ajax.php $DEPLOYPATH
     - /bin/cp ssp.class.php $DEPLOYPATH
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
     - /bin/cp ajax-ecobricks.php $DEPLOYPATH
+    - /bin/cp ajax-cash-trans.php $DEPLOYPATH
+    - /bin/cp ajax-brik-trans.php $DEPLOYPATH
     
 
     - /bin/cp welcome.php $DEPLOYPATH
@@ -67,14 +68,17 @@ deployment:
 
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp sitemap-multilingual.xml $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-general.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
-    - /bin/cp ajax.php $DEPLOYPATH
     - /bin/cp ssp.class.php $DEPLOYPATH
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
     - /bin/cp ajax-ecobricks.php $DEPLOYPATH
+    - /bin/cp ajax-cash-trans.php $DEPLOYPATH
+    - /bin/cp ajax-brik-trans.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -112,13 +116,17 @@ deployment:
 
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp sitemap-multilingual.xml $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-general.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
-    - /bin/cp ajax.php $DEPLOYPATH
     - /bin/cp ssp.class.php $DEPLOYPATH
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
+    - /bin/cp ajax-ecobricks.php $DEPLOYPATH
+    - /bin/cp ajax-cash-trans.php $DEPLOYPATH
+    - /bin/cp ajax-brik-trans.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
@@ -156,13 +164,17 @@ deployment:
 
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp sitemap-multilingual.xml $DEPLOYPATH
     - /bin/cp arc-sw.js $DEPLOYPATH
     - /bin/cp stylesheet-general.css $DEPLOYPATH
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
-    - /bin/cp ajax.php $DEPLOYPATH
     - /bin/cp ssp.class.php $DEPLOYPATH
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
+    - /bin/cp ajax-ecobricks.php $DEPLOYPATH
+    - /bin/cp ajax-cash-trans.php $DEPLOYPATH
+    - /bin/cp ajax-brik-trans.php $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
     - /bin/cp header.php $DEPLOYPATH
