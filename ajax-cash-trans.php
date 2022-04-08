@@ -38,7 +38,6 @@ $columns = array(
 }
 ),
 
-
   array(
     'db'        => 'datetime_sent_ts',
     'dt'        => 1,
@@ -46,10 +45,10 @@ $columns = array(
         return '<var>'.date($d).'<var>';
     }
 ),
-    array( 'db' => 'sender_for_display ',     'dt' => 2 ),
-    array( 'db' => 'receiver_for_display ',     'dt' => 3 ),
+
+    array( 'db' => 'sender_for_display',     'dt' => 2 ),
+    array( 'db' => 'receiver_for_display',     'dt' => 3 ),
     array( 'db' => 'tran_name_desc ', 'dt' => 4 ),
-   
     array(
         'db'        => 'native_ccy_amt',
         'dt'        => 5,
