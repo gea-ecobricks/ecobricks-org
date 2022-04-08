@@ -31,6 +31,19 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
 migrated from GoBrik.com CSS
 /* -------------------------------------------------------------------------- */
 
+/* NEEDED?
+
+#clouds {
+  width: 100%;
+height: 70vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+*/
+
+
+
 img {
   aspect-ratio: attr(width) / attr(height);
 }
@@ -56,14 +69,14 @@ p a:hover {
   p {
       font-size: 1.2em;
       line-height: 1.3;
-      margin: 10px 0 5px;
+      margin: 10px 0 10px 0;
   }
 }
 @media screen and (min-width: 769px) {
   p {
       font-size: 1.3em;
-      line-height: 1.3;
-      margin: 12px 0 5px;
+      line-height: 1.4;
+      margin: 12px 0 12px;
   }
 }
 
@@ -128,7 +141,7 @@ h3 {
 }
 @media screen and (max-width: 769px) {
   h3 {
-      font-size: 3em;
+      font-size: 2em;
       line-height: 1.4;
       font-weight: 500;
       margin: 10px 0 5px;
@@ -724,7 +737,7 @@ migrated from GoBrik.com CSS
   outline: none;
   color: rgb(53, 53, 53);
   padding: 12px 25px 23px 13px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   font-family: inherit;
   margin-top: 0;
 
@@ -737,13 +750,14 @@ migrated from GoBrik.com CSS
 }
 @media screen and (min-width: 1000px) {
   .dropdown-lang .dropbtn-lang {
-      font-size: 1.8em;
-      padding: 12px 25px 23px 13px;
+      font-size: 1.3em;
+      padding: 17px 25px 26px 13px;
   }
 }
 @media screen and (max-width: 1000px) {
   .dropdown-lang .dropbtn-lang {
-      font-size: 1.5em;
+      font-size: 1.2em;
+      padding: 18px 20px 26px 3px;
   }
 }
 
@@ -892,6 +906,22 @@ display: none;
   position: relative;
   z-index: 12;
 }
+
+/*
+
+.topnav .dropdown-content-normal a {
+  font-family: 'Mulish', sans-serif;
+  color: #666666;
+  font-size: 1.3em;
+
+}
+
+.dropbtn a {
+  color: #666666;
+  text-align: center;
+  text-decoration: none !important;
+}
+*/
 
 .topnav .icon {
   display: none;
@@ -1142,635 +1172,13 @@ background-size: contain;*/
   }
 }
 
-/* -------------------------------------------------------------------------- */
-
-/*	3. Slider
-migrated from GoBrik.com CSS
-/* -------------------------------------------------------------------------- */
-
-#sliders {
-  width: 100%;
-
-  margin-bottom: 0;
-  position: absolute;
-  z-index: 9;
-  top: 24px;
-}
-
-#content-sect0 {
-  width: 100%;
-  position: absolute;
-  height: 40vh;
-}
-
-@media screen and (min-width: 1000px) {
-#content-sect0-curved-bottom {
-  width: 100%;
-  /*background: url(svgs/vision-bottom-bottom.svg);
-background-position: center top;
-background-size: cover;
-background-repeat: no-repeat;*/
-  height: 100vh;
-  margin-top: 0;
-  margin-bottom: -500px;
-  position: relative;
-
-}}
-
-@media screen and (max-width: 1000px) {
-    #content-sect0-curved-bottom {
-    width: 100%;
-    /*background: url(svgs/vision-bottom-bottom.svg);
-  background-position: center top;
-  background-size: cover;
-  background-repeat: no-repeat;*/
-    height: 100vh;
-    margin-top: 0;
-    margin-bottom: -180px;
-    position: relative;
-    }
-    }
-
-
-#under-sliders {
-  width: 100%;
-  position: absolute;
-  z-index: 1;
-  height: 80vh;
-  background: #dadddd;
-  background: url("svgs/vision-bottom-bottom.svg");
-  background-position: center bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  ;
-}
-@media screen and (min-width: 0px) and (max-width: 800px) {
-  #under-sliders {
-      margin-top: 0;
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 2000px) {
-  #slider-image {
-      margin-right: 65%;
-      height: 400px;
-      margin-bottom: 50px;
-      width: 35%;
-      padding-top: 30px;
-      padding-left: 5%;
-  }
-}
-
-#slider-image img {
-  width: 85%;
-
-  height: auto;
-
-  margin: auto;
-}
-@media screen and (max-width: 769px) {
-  #slider-image {
-      display: none;
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 2000px) {
-  #slider-textbox {
-      margin-left: 40%;
-      margin-right: 4%;
-      height: fit-content;
-      text-align: left;
-      margin-top: -415px;
-      padding-top: 20px;
-
-  }
-}
-@media screen and (max-width: 769px) {
-  #slider-textbox {
-      margin-left: 5%;
-      margin-right: 5%;
-      height: fit-content;
-      text-align: left;
-
-      padding-top: 20px;
-
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 2000px) {
-  #slider-heading {
-      font-size: 3.6vw;
-      text-align: left;
-      font-family: 'Mulish', sans-serif;
-      font-weight: 500;
-      color: white;
-      padding-top: 17px;
-  }
-}
-@media screen and (max-width: 769px) {
-  #slider-heading {
-      font-size: 2em;
-      text-align: left;
-      font-family: 'Mulish', sans-serif;
-      font-weight: 500;
-      color: white;
-      padding-top: 17px;
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 2000px) {
-  #slider-body {
-      font-size: 2em;
-      text-align: left;
-      font-family: 'Mulish', sans-serif;
-      color: #181818;
-      padding-top: 15px;
-      font-weight: 300;
-  }
-}
-@media screen and (max-width: 769px) {
-  #slider-body {
-      font-size: 1.3em;
-      text-align: left;
-      font-family: 'Mulish', sans-serif;
-      color: #181818;
-      padding-top: 18px;
-      font-weight: 300;
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 2000px) {
-  #slider-link {
-      font-size: 1.8em;
-      text-align: right;
-      font-family: 'Mulish', sans-serif;
-      color: rgba(255, 255, 255, 0.534);
-      padding: 14px 70px 0 0;
-      font-weight: 500;
-  }
-}
-@media screen and (max-width: 770px) {
-  #slider-link {
-      font-size: 1.3em;
-      text-align: right;
-      font-family: 'Mulish', sans-serif;
-      color: rgba(255, 255, 255, 0.534);
-      padding: 16px 10px 0 0;
-      font-weight: 300;
-  }
-}
-
-#slider-link a {
-  color: #181818;
-  text-decoration: underline;
-}
-#slider-link a:hover {
-  color: white;
-  text-decoration: none;
-}
-@media screen and (min-width: 770px) and (max-width: 2000px) {
-  #slider-date {
-      font-size: 1.2em;
-      text-align: left;
-      color: black;
-      font-family: 'Mulish', sans-serif;
-      padding-right: 20%;
-      color: #3d3d3d;
-      padding-top: 20px;
-  }
-}
-@media screen and (max-width: 769px) {
-  #slider-date {
-      font-size: 0.9em;
-      text-align: left;
-      color: black;
-      font-family: 'Mulish', sans-serif;
-      padding-right: 20%;
-      color: #333333;
-      padding-top: 20px;
-  }
-}
-
-/*SLIDER 1*/
-
-#slider1 {
-  will-change: transform, opacity;
-  background-color: rgba(5, 163, 255, 0.8);
-  height: fit-content;
-  opacity: 1;
-  position: absolute;
-  z-index: 9;
-  transform: translateX(-50%);
-
-  -webkit-animation: slider1 12s forwards;
-  -webkit-animation-delay: 0s;
-
-  animation: slider1 12s forwards;
-  animation-delay: 0s;
-}
-@media screen and (min-width: 1024px) and (max-width: 2000px) {
-  #slider1 {
-      width: 80%;
-      height: fit-content;
-      margin: auto;
-      padding: 75px 20px 80px 2px;
-      margin-top: 0;
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 1024px) {
-  #slider1 {
-      width: 85%;
-      margin: auto;
-      padding: 75px 20px 70px 10px;
-      margin-top: 0;
-      border-radius: 0 0 15px 15px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-  }
-}
-@media screen and (max-width: 769px) {
-  #slider1 {
-      width: 89%;
-      padding: 80px 5px 30px;
-      border-radius: 0 0 15px 15px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-      margin-top: 0;
-  }
-}
-@-webkit-keyframes slider1 {
-/*  0% {
-      left: 47%;
-      opacity: 1;
-  }
-
-  4% {
-      left: 53%;
-      opacity: 1;
-  }*/
-
-  0% {
-    left: 50%;
-    opacity: 1;
-}
-
-4% {
-  left: 50%;
-  opacity: 1;
-}
-
-  7%,
-  88% {
-      left: 50%;
-      opacity: 1;
-  }
-
-  93% {
-      left: 46%;
-      opacity: 1;
-  }
-
-  100% {
-      left: 100%;
-      opacity: 0;
-  }
-
-}
-@keyframes slider1 {
-  0% {
-    left: 50%;
-    opacity: 1;
-  }
-
-  4% {
-    left: 50%;
-    opacity: 1;
-  }
-
-  7%,
-  88% {
-      left: 50%;
-      opacity: 1;
-  }
-
-  93% {
-      left: 46%;
-      opacity: 1;
-  }
-
-  100% {
-      left: 100%;
-      opacity: 0;
-  }
-
-}
-
-/* SLIDER 2 */
-
-#slider2 {
-  will-change: transform, opacity;
-  background-color: rgba(2, 187, 26, 0.8);
-  height: fit-content;
-  position: absolute;
-  opacity: 0;
-  z-index: 9;
-  transform: translateX(-50%);
-
-  -webkit-animation: slider2 10s forwards;
-  -webkit-animation-delay: 12s;
-
-  animation: slider2 10s forwards;
-  animation-delay: 12s;
-}
-@media screen and (min-width: 1024px) and (max-width: 2000px) {
-  #slider2 {
-      width: 80%;
-      height: fit-content;
-      margin: auto;
-      padding: 75px 20px 80px 2px;
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 1024px) {
-  #slider2 {
-      width: 85%;
-      margin: auto;
-      padding: 70px 20px 35px 10px;
-      border-radius: 0 0 15px 15px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-  }
-}
-@media screen and (max-width: 769px) {
-  #slider2 {
-      width: 89%;
-      padding: 80px 5px 30px;
-      border-radius: 0 0 15px 15px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-  }
-}
-@-webkit-keyframes slider2 {
-  0% {
-      left: 0;
-      opacity: 0;
-  }
-
-  8% {
-      left: 54%;
-      opacity: 1;
-  }
-
-  12%,
-  88% {
-      left: 50%;
-      opacity: 1;
-  }
-
-  93% {
-      left: 46%;
-      opacity: 1;
-  }
-
-  100% {
-      left: 100%;
-      opacity: 0;
-  }
-
-}
-@keyframes slider2 {
-  0% {
-      left: 0;
-      opacity: 0;
-  }
-
-  8% {
-      left: 54%;
-      opacity: 1;
-  }
-
-  12%,
-  88% {
-      left: 50%;
-      opacity: 1;
-  }
-
-  93% {
-      left: 46%;
-      opacity: 1;
-  }
-
-  100% {
-      left: 100%;
-      opacity: 0;
-  }
-
-}
-
-/* SLIDER 3  */
-
-#slider3 {
-
-  will-change: transform, opacity;
-  background-color: rgba(211, 3, 248, 0.5);
-  height: fit-content;
-  opacity: 0;
-  position: absolute;
-  z-index: 9;
-  transform: translateX(-50%);
-
-  -webkit-animation: slider3 10s forwards;
-  -webkit-animation-delay: 23s;
-
-  animation: slider3 10s forwards;
-  animation-delay: 23s;
-}
-@media screen and (min-width: 1024px) and (max-width: 2000px) {
-  #slider3 {
-      width: 80%;
-      height: fit-content;
-      margin: auto;
-      padding: 75px 20px 80px 2px;
-
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 1024px) {
-  #slider3 {
-      width: 85%;
-      margin: auto;
-      padding: 50px 20px 25px 10px;
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-  }
-}
-@media screen and (max-width: 769px) {
-  #slider3 {
-      width: 89%;
-      padding: 70px 5px 30px;
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-  }
-}
-@-webkit-keyframes slider3 {
-  0% {
-      left: 0;
-      opacity: 0;
-  }
-
-  8% {
-      left: 54%;
-      opacity: 1;
-  }
-
-  12%,
-  88% {
-      left: 50%;
-      opacity: 1;
-  }
-
-  93% {
-      left: 46%;
-      opacity: 1;
-  }
-
-  100% {
-      left: 100%;
-      opacity: 0;
-  }
-
-}
-@keyframes slider3 {
-  0% {
-      left: 0;
-      opacity: 0;
-  }
-
-  8% {
-      left: 54%;
-      opacity: 1;
-  }
-
-  12%,
-  88% {
-      left: 50%;
-      opacity: 1;
-  }
-
-  93% {
-      left: 46%;
-      opacity: 1;
-  }
-
-  100% {
-      left: 100%;
-      opacity: 0;
-  }
-
-}
-
-#slider4 {
-
-  will-change: transform, opacity;
-  background-color: rgba(248, 135, 6, 0.849);
-  height: fit-content;
-  opacity: 0;
-  position: absolute;
-  z-index: 9;
-  transform: translateX(-50%);
-
-  -webkit-animation: sliderEnd 10s forwards;
-  -webkit-animation-delay: 33s;
-
-  animation: sliderEnd 10s forwards;
-  animation-delay: 33s;
-}
-@media screen and (min-width: 1024px) and (max-width: 2000px) {
-  #slider4 {
-      width: 80%;
-      height: fit-content;
-      margin: auto;
-      padding: 75px 20px 80px 2px;
-
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 1024px) {
-  #slider4 {
-      width: 85%;
-      margin: auto;
-      padding: 50px 20px 25px 10px;
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-  }
-}
-@media screen and (max-width: 769px) {
-  #slider4 {
-      width: 89%;
-      padding: 70px 5px 30px;
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
-  }
-}
-@-webkit-keyframes sliderEnd {
-  0% {
-      left: 0;
-      opacity: 0;
-  }
-
-  8% {
-      left: 54%;
-      opacity: 1;
-  }
-
-  100%,
-  12% {
-      left: 50%;
-      opacity: 1;
-  }
-
-}
-@keyframes sliderEnd {
-  0% {
-      left: 0;
-      opacity: 0;
-  }
-
-  8% {
-      left: 54%;
-      opacity: 1;
-  }
-
-  100%,
-  12% {
-      left: 50%;
-      opacity: 1;
-  }
-
-}
 
 /* -------------------------------------------------------------------------- */
 
-/*	4. Generic Content Formating
+/*	4. Main page Content Formating
 
 /* -------------------------------------------------------------------------- */
 
-#main-content {
-  margin: auto;
-}
-@media screen and (max-width: 769px) {
-  #main-content {
-      width: 90%;
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 1024px) {
-  #main-content {
-      width: 80%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #main-content {
-      width: 70%;
-  }
-}
 
 .big-header {
   font-family: 'Mulish', sans-serif;
@@ -1927,13 +1335,14 @@ margin-top: 40px;
   font-family: Mulish;
   color: #ffffff;
   font-size: 16px;
-  background: #b8b8b8;
+  background: #a8a8a8;
   padding: 8px 15px 8px 15px;
   text-decoration: none;
+  overflow-x: none;
 }
 
 .module-btn:hover {
-  background: #c5c6c7;
+  background: #818181;
   text-decoration: none;
 }
 
@@ -1990,7 +1399,10 @@ border-left-width: 1px;
 
 
 
-/* -------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------
+
+
+--- */
 
 
 
@@ -2006,14 +1418,18 @@ border-left-width: 1px;
 }
 @media screen and (min-width: 700px) and (max-width: 1024px) {
   #main-content {
-      width: 90%%;
+      width: 85%;
   }
 }
 @media screen and (min-width: 1024px) {
   #main-content {
-      width: 80%;
+      width: 77%;
   }
 }
+
+
+
+
 
 
 
@@ -2027,9 +1443,17 @@ border-left-width: 1px;
 
 @media screen and (max-width: 700px) {
 	.page-paragraph {
-      font-size: 1em;
+      font-size: 1.1em;
       line-height: 1.4;
       margin: 20px 5% 30px 5%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+	.page-paragraph-reg {
+      font-size: 1em;
+      line-height: 1.3;
+      margin: 20px 5% 50px 5%;
   }
 }
 
@@ -2048,6 +1472,14 @@ border-left-width: 1px;
       font-size: 1.15em;
       line-height: 1.4;
       margin: 25px 10px 50px 10px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+	.page-paragraph-reg {
+      font-size: 1em;
+      line-height: 1.3;
+      margin: 20px 7px 50px 7px;
   }
 }
 
@@ -2096,6 +1528,36 @@ border-left-width: 1px;
 }
 
 #block4 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block5 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block6 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block7 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block8 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block9 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block10 {
 	background: #f6f6f6;
 	display: block;
 }
@@ -2166,205 +1628,6 @@ text-decoration: none;
 
 
 
-
-#clouds {
-  width: 100%;
-height: 70vh;
-  display: flex;
-  align-items: flex-end;
-/*  margin-bottom: -70px;*/
-}
-
-
-/*
-#cloud-banner {
-z-index: 4;
-position: relative;
-height: 25vh;
-}*/
-
-
-/* -------------------------------------------------------------------------- */
-
-/*	6. Contect Sect1 - Dolphin Section
-
-/* -------------------------------------------------------------------------- */
-
-#content-sect1 {
-  width: 100%;
-  text-align: center !important;
-
-  /*
--webkit-animation: menuFadeIn 1s forwards;
--webkit-animation-delay: 3.5s;
-
-animation: menuFadeIn 1s forwards;
-animation-delay: 3.5s;  
-}
-  
-@-webkit-keyframes menuFadeIn {
-0% { 
-opacity: 0;
-}
-100% { 
-opacity: 1;}
-
-  }
-
-@keyframes menuFadeIn {
-0% { 
-opacity: 0;
-}
-100% { 
-opacity: 1;}*/
-
-}
-
-#dolphin-graphic {
-  position: relative;
-  z-index: 8;
-  margin: auto;
-}
-@media screen and (min-width: 0px) and (max-width: 769px) {
-  #dolphin-graphic {
-      width: 80%;
-      margin-top: -122px;
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 1023px) {
-  #dolphin-graphic {
-      width: 600px;
-      margin-top: 0;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #dolphin-graphic {
-      width: 600px;
-      margin-top: -201px;
-      min-height: 200px;
-  }
-}
-
-/* -------------------------------------------------------------------------- */
-
-/*	6. Second Content Section2 - blue plastic and earth
-/* -------------------------------------------------------------------------- */
-
-.lead-graphic {
-  display: block;
-  text-align: center;
-  margin: auto;
-}
-
-#content-sect2 {
-  width: 100%;
-  padding-bottom: 30px;
-  background: url("webp/blue-ode-1600.webp") center top;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-@media screen and (min-width: 770px) and (max-width: 2000px) {
-  #content-sect2 {
-      background-size: contain;
-      margin-top: 120px;
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 769px) {
-  #content-sect2 {
-      background-size: 1000px;
-      margin-top: 50px;
-
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 2000px) {
-  #content-sect2 .lead-graphic {
-      width: 600px;
-      margin-bottom: -20px;
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 769px) {
-  #content-sect2 .lead-graphic {
-      width: 95%;
-      margin-bottom: -20px;
-  }
-}
-
-/* -------------------------------------------------------------------------- */
-
-/*	6. Third Content Section - building
-
-/* -------------------------------------------------------------------------- */
-
-#content-sect3 {
-  width: 100%;
-
-  box-sizing: border-box;
-  /*background-color: #e0f7ff;*/
-}
-@media screen and (min-width: 770px) and (max-width: 2000px) {
-  #content-sect3 {
-      background: url("webp/visionscape.webp");
-      background-position: center bottom;
-      background-size: contain;
-      background-repeat: no-repeat;
-      padding-bottom: 300px;
-      margin-top: 150px;
-      margin-bottom: 100px;
-      text-align: center;
-
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 769px) {
-  #content-sect3 {
-      background: url("webp/visionscape-800.webp");
-      background-position: right bottom;
-      background-size: contain;
-      background-repeat: no-repeat;
-      padding-bottom: 120px;
-      background-size: 600px;
-      margin-top: 140px;
-      margin-bottom: -30px;
-  }
-}
-@media screen and (min-width: 770px) and (max-width: 2000px) {
-  #content-sect3 .lead-graphic img {
-      margin-top: -100px;
-      width: 600px;
-      margin-bottom: 20px;
-  }
-}
-@media screen and (max-width: 769px) {
-  #content-sect3 .lead-graphic img {
-      width: 88%;
-      margin-top: -100px;
-      margin-bottom: 10px;
-  }
-}
-
-/* -------------------------------------------------------------------------- */
-
-/*	6. Fourth Content Section
-
-/* -------------------------------------------------------------------------- */
-
-#content-sect4 {
-  width: 100%;
-  text-align: center;
-
-}
-@media screen and (min-width: 770px) and (max-width: 2000px) {
-  #content-sect4 .lead-graphic {
-      margin-top: 0;
-      width: 475px;
-      margin-bottom: -35px;
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 769px) {
-  #content-sect4 .lead-graphic {
-      width: 300px;
-      margin-bottom: -20px;
-  }
-}
  
 /* -------------------------------------------------------------------------- */
 
@@ -2428,14 +1691,15 @@ opacity: 1;}*/
   color: #a8aab8;
   text-align: center;
   background-color: #252b4d;
+  line-height: 1.3;
 }
 
 .footer-invite a {
-  color: #a8aab8;
+  color: #a8aab8 !important;
   text-decoration: pointer;
 }
 .footer-invite a:hover {
-  color: #a8aab8;
+  color: #9fdafc !important;
   text-decoration: none;
 }
 @media screen and (max-width: 800px) {
@@ -2667,6 +1931,7 @@ opacity: 1;}*/
 #wcb #wcb_g {
   border: 0.2em solid #8cbdda !important;
 }
+
 
 #slider6 {
   will-change: transform, opacity;

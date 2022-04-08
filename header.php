@@ -7,14 +7,15 @@
 	;?>
 	
  
-	<meta charset="utf-8">
+	<meta charset="utf-8"> <!--OBSOLETE BUT MUST BE ADDED TO ALL OTHER PAGES FIRST-->
+
 	<link rel="canonical" href="https://www.ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
 	<link rel="alternate" href="https://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="en" />
 	<link rel="alternate" href="https://ecobricks.org/id/<?php echo ($name); ;?>" hreflang="id" /> 
 	<link rel="alternate" href="https://ecobricks.org/es/<?php echo ($name); ;?>" hreflang="es" /> 
-	<link rel="alternate" href="http://ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" hreflang="x-default" />
+	<link rel="alternate" href="http://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="x-default" />
 
 
 <!-- This calls GEA typography -->
@@ -26,15 +27,19 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
 
-<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this-->
+<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  
 
 <noscript>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
 </noscript>
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" media="print" onload="this.media='all'">-->
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-1-1.css?v0.20">
+<link rel="stylesheet" type="text/css" href="stylesheet-general.css?v0.14">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
@@ -73,7 +78,7 @@
 
 <!-- Enables the nav menu grey circle on mobile by click-->
 
-<script type="text/javascript">
+<script>
 	function appMenu() {
 	  var x = document.getElementById("myTopnav");
 	  if (x.className === "topnav") {
@@ -87,7 +92,7 @@
 
 	
 
-<!-- Arc CDN Script without delay - turned off for the moment-->
+<!-- Arc CDN Script without delay-->
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
 
 
@@ -95,17 +100,13 @@
 
 <STYLE>
 
-#cloud-banner img {
-	width: 100% !important;
-	margin-bottom: -10px;
-}
+
 	
 #full-page {
 
 	z-index: 0;
 
 	position: relative;
-	position: bottom;
 	margin-top: 0px;
 	padding-bottom: 0px;
 	margin-left: 0px;
@@ -153,13 +154,6 @@
 	opacity: 1;
 }
 
-
-
-#preclosed1 {display: none;}
-#preclosed2 {display: none;}
-#preclosed3 {display: none;}
-#preclosed4 {display: none;}
-#preclosed5 {display: none;}
 
 
 

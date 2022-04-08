@@ -15,7 +15,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<!--FOOTER STARTS HERE-->
 	
 	<div id="footer-full">
-	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; position="absolute"; bottom="0"; ></div>
+	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; position="absolute"; bottom="0"; ></div>
 	
 	
 	<div class="footer-vision">We envision a Transition in our Households, Communities and Enterprises from Plastic to ever Greener Harmony with Earth's Cycles.</div>
@@ -27,49 +27,49 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<div class="footer-icons-container">
 		<div class="footer-icons"><!--WIKIPEDIA-->
 			<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">
-			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page"></a>
+			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page" loading="lazy"></a>
 			
 		</div>
 
 		<div class="footer-icons">
 			<a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener"><!--MATTERMOST-->
-			<img src="icons/mattermost.svg" width="100%" height="100%" alt="Join our Circles Ecobrick Support Community"  title="Join our Circles Ecobrick Support Community"></a>
+			<img src="icons/mattermost.svg" width="100%" height="100%" alt="Join our Circles Ecobrick Support Community"  title="Join our Circles Ecobrick Support Community" loading="lazy"></a>
 			<!--<div class="icon-name">/ecobricks</div>
 			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>-->
 		</div>
 
 		<div class="footer-icons"><!--GOBRIK-->
 			<a href="https://gobrik.com" target="_blank">
-			<img src="icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app"></a>
+			<img src="icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app" loading="lazy"></a>
 			
 		</div>
 
 		<div class="footer-icons">
 			<a href="https://medium.com/earthen/" target="_blank" rel="noopener"><!--MEDIUM-->
-			<img src="icons/medium.svg" width="100%" height="100%" alt="Follow our Medium.com Earthen publication"  title="Follow our Medium.com Earthen publication"></a>
+			<img src="icons/medium.svg" width="100%" height="100%" alt="Follow our Medium.com Earthen publication"  title="Follow our Medium.com Earthen publication" loading="lazy"></a>
 			
 		</div>
 
 		<div class="footer-icons"> <!--GITHUB-->
 			<a href="https://github.com/gea-ecobricks/ecobricks-org" target="_blank" rel="noopener">
-			<img src="icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository" title="Contribute to our Ecobricks.org Github repository"></a>
+			<img src="icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository" title="Contribute to our Ecobricks.org Github repository" loading="lazy"></a>
 			
 		</div>
 		
 		<div class="footer-icons"><!--FACEBOOK-->
 			<a href="https://facebook.com/ecobricks.org" target="_blank" rel="noopener">
-			<img src="icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"  title="Follow our Facebook page"></a>
+			<img src="icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"  title="Follow our Facebook page" loading="lazy"></a>
 		</div>
 
 		<div class="footer-icons"><!--YOUTUBE-->
 			<a href="https://www.youtube.com/c/Ecobricks" target="_blank" rel="noopener">
-			<img src="icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"  title="Subscribe to our Ecobricks YouTube channel"></a>
+			<img src="icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"  title="Subscribe to our Ecobricks YouTube channel" loading="lazy"></a>
 			
 		</div>
 
 		<div class="footer-icons"><!--INSTAGRAM-->
 			<a href="https://www.instagram.com/ecobricks.plastic.transition/" target="_blank" rel="noopener">
-			<img src="icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"  title="Instagram: Ecobricks.Plastic.Transition"></a>
+			<img src="icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"  title="Instagram: Ecobricks.Plastic.Transition" loading="lazy"></a>
 			
 		</div>
 
@@ -87,8 +87,8 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<div class="footer-content">
 
 		<div class="footer-box">
-			<div class="footer-header">Wikipedia Ecobricks</div>
-				<div class="footer-subtext">Also know as eco bricks, eco-bricks, EcoBricks, ecolladrillos, and bottle bricks the Global Ecobrick Alliance and <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia</a> endorse <i>'ecobrick'</i> to refer to the sequestration of plastic in a PET bottle to make a reusable building block.<br><br>
+			<div class="footer-header">Wikipedia</div>
+				<div class="footer-subtext">Also know as eco bricks, eco-bricks, EcoBricks, ecolladrillos, plastic bricks and bottle bricks the Global Ecobrick Alliance and Wikipedia recognize <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">'ecobrick'</a> as the official term for the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">sequestration of plastic</a> inside a PET bottle to make a reusable building block.<br><br>
 				</div>
 				
 			</div>
@@ -118,16 +118,16 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		<div class="row">
 
 		<div class="virtue">
-					<a href="about"><img src="banners/forearth-dark-350px.png" width="325px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
+					<a href="about"><img src="banners/forearth-dark-350px.png" width="325px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure" loading="lazy"></a>
 				</div>
 
 			<div class="virtue">
-				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5b8c2b0922ddfb2591bf67be/" target="_blank"><img src="https://ecobricks.org/banners/762-disclose-light-350px.png" width="325px" height="" alt="Proudly Net-Green: We track, disclose and accelerate our plastic transition. View our 2021 Report." title="Click through to see a our 2021 Plastic Transition Report"></a>
+				<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5b8c2b0922ddfb2591bf67be/" target="_blank"><img src="https://ecobricks.org/banners/762-disclose-light-350px.png" width="325px" height="" alt="Proudly Net-Green: We track, disclose and accelerate our plastic transition. View our 2021 Report." title="Click through to see a our 2021 Plastic Transition Report" loading="lazy"></a>
 			</div>
 		
 
 			<div class="virtue">
-			<a href="https://gobrik.com/#openbooks" target="_blank"><img src="banners/openbooks-dark-350px.png" width="325px" height="" alt="Click through to see our current enterprise open books accounting." title="Click through to see our open books accounting."></a>
+			<a href="https://gobrik.com/#openbooks" target="_blank"><img src="banners/openbooks-dark-350px.png" width="325px" height="" alt="Click through to see our current enterprise open books accounting." title="Click through to see our open books accounting." loading="lazy"></a>
 
 			
 			</div>
@@ -142,18 +142,24 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 					<br><br>
 
 		<div class="footer-conclusion">	
+			<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px" loading="lazy"/> </a>
+		</div>
+		
+		<div class="footer-conclusion">	
 			The educational content of this site is made available by the Ecobrick Alliance under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Please attribute all usage to "Ecobricks.org - Global Ecobrick Alliance" using the same license.</div>
-			
-		<div class="footer-conclusion">	
-				<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/></a>
-		</div>
-		<div class="footer-invite">
-			This page is a 100% volunteer hand-coded and open-source.  Contribute on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank" rel="noopener">Github.</a>
-		</div>
-		<div class="footer-conclusion">	
-			The AES, GEA and GoBrik logos and emblems are copyright 2021 by the Global Ecobrick Alliance.
+			<div class="footer-conclusion">	
+			The AES, GEA and GoBrik logos and emblems are copyright 2022 by the Global Ecobrick Alliance.
 			<br><br>
 		</div>
+			
+
+
+
+
+		<div class="footer-invite">
+			This page is a 100% volunteer hand-coded and open-source page hosted on Github.<br>📝 <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page's text or code</a>
+		</div>
+		<br><br>
 	</div>
 </div>
 
@@ -180,9 +186,21 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
 	document.getElementsByTagName('head')[0].appendChild(script);
   }
-</script>-->
+</script>
+-->
 
 
 <!-- UNIVERSAL SITE JAVA SCRIPTS-->
+
+
+<script src="https://global.localizecdn.com/localize.js"></script>
+<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+
+<script>
+  Localize.initialize({
+    key: '911e632bfc957',
+    rememberLanguage: true,
+  });
+</script>
 	
 		

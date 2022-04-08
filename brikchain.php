@@ -34,17 +34,19 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(svgs/cloud-back.svg) top;
-		background-color: #00FFFF;
+		
+		background: url(svgs/cloud-back-logo-blue.svg) top;
+		background-color: #00E6FF;
+		background-repeat: no-repeat;
+		background-size: cover;
 		
 		text-align: left;
 		height: 70vh;
-		padding: 50px 5% 25px 5%;
+		padding: 20px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-    	background-repeat: no-repeat;
-		background-size: cover;
-		margin-top: 45px;
+    	
+		margin-top: 25px;
 		width: 100%;
 		display: flex;
  		box-sizing: border-box;
@@ -58,8 +60,11 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(svgs/cloud-back.svg) bottom;
-		background-color: #00FFFF;
+		
+		background: url(svgs/cloud-back-logo-blue.svg) top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: #00E6FF;
 		
 		text-align: left;
 		height: 60vh;
@@ -127,51 +132,54 @@ _END;?>
 		flex: 35%;
 		padding: 0px;
 		box-sizing: border-box;
-		margin-top: 0px;
+		margin: auto;
 }
 }
 
 .splash-heading { 
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+
+	font-family: 'Arvo', Georgia, serif;
+  
   color: white;
   font-weight: 300;
-  text-shadow: 0 0 8px black;
+  text-shadow: 0px 0px 8px #666;
 
 }
 
 @media screen and (max-width: 700px) {
 	.splash-heading {
-      font-size: 2.0em;
-      line-height: 1.1;
-      margin: 10px 0;
+      font-size: 3.0em;
+      line-height: 1.3;
+      margin: 0px 0;
   }
 }
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 4.3em;
+      font-size: 6em;
       line-height: 1.3;
-      margin: 40px 0 10px;
+      margin: auto;
   }
 }
 
 .splash-sub {
-  font-family: 'Arvo', Georgia, serif;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #fff;
   margin: 15px 0;
+  text-shadow: 0px 0px 6px #666;
 	/*text-shadow: 0px 0px 10px #fff;*/
 }
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.2em;
-		line-height: 1.5;
+		font-size: 1.45em;
+		line-height: 1.3;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 1.5em;
+		font-size: 2.2em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -183,7 +191,7 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #00FFFF;
+	background-color: #00E6FF;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -199,8 +207,201 @@ _END;?>
 
 }
 
+
 	
 </style>	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
+
+
+<script>
+$(document).ready(function() {
+    $('#brikchain').DataTable( {
+		"processing": true,
+        "serverSide": true,
+		"ajax": "ajax.php"
+
+    } );
+} );
+
+</script>
+
+<script>
+
+	$.extend( $.fn.dataTable.defaults, {
+    ordering:  false
+
+} );
+
+</script>
+
+<script>
+
+$(document).ready(function() {
+    $('#ecobricks').DataTable( {
+		"processing": true,
+        "serverSide": true,
+		"ajax": "ajax-ecobricks.php"
+
+    } );
+} );
+
+</script>
+
+
+<!--
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.11.4/dataRender/hyperLink.js"></script>
+
+
+
+<script>
+
+// Display the hyperlink with 'Download', which open hyperlink in popup
+  //        with size 600as width and 400 as height
+  $('#brikchain').DataTable( {
+    columnDefs: [ {
+      targets: 2,
+      render: $.fn.dataTable.render.hyperLink( 'Download', 'popup' )
+    } ]
+  } );
+</script>
+-->
+
+
+<style>
+#brikchain {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: 300;
+}
+
+#brikchain td, #brikchain th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#brikchain tr:nth-child(even){background-color: #f2f2f2;}
+
+#brikchain tr:hover {background-color: #ddd;}
+
+#brikchain th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #E39009;
+  color: white;
+}
+</style>
+
+<style>
+#brikchain {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: 300;
+}
+
+#brikchain td, #brikchain th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#brikchain tr:nth-child(even){background-color: #f2f2f2;}
+
+#brikchain tr:hover {background-color: #ddd;}
+
+#brikchain th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #E39009;
+  color: white;
+}
+</style>
+
+
+<style>
+#cash_tran {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: 300;
+}
+
+#cash_tran td, #cash_tran th {
+  border: 1px solid #ddd;
+  padding-left: 8px;
+}
+
+#cash_tran tr:nth-child(even){background-color: #f2f2f2;}
+
+#cash_tran tr:hover {background-color: #ddd;}
+
+#cash_tran th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #E39009;
+  color: white;
+}
+
+.dataTables_wrapper {
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+}
+
+#cash_tran td {
+	padding: 3px 3px 0px 10px;
+	
+	</style>
+
+
+<style>
+#ecobricks {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: 300;
+}
+
+#ecobricks td, #ecobricks th {
+  border: 1px solid #ddd;
+  padding-left: 8px;
+}
+
+#ecobricks tr:nth-child(even){background-color: #f2f2f2;}
+
+#ecobricks tr:hover {background-color: #ddd;}
+
+#ecobricks th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #E39009;
+  color: white;
+}
+
+.dataTables_wrapper {
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+}
+
+#ecobricks td {
+	padding: 3px 3px 0px 10px;
+}
+
+.overflow {
+	margin: 5px;
+	overflow: scroll;
+}
+
+</style>
+
+
 
 </head>
 							  
@@ -219,9 +420,9 @@ _END;?>
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading"><br>Brikchain Explorer</div>
-		<div class="splash-sub">Search the Full Brikcoin Blockchain</div>
+		<div class="splash-sub">Browse the ecobricks and transactions of the full brikcoin blockchain</div>
 	</div>
-	<div class="splash-image"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5abaea5dfdbfad4d03858fe2/5b4c1165d44d5804c418a27e/original/brikcoinchaintransparency.png" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -233,79 +434,185 @@ _END;?>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
-	<div class="row">
-		<div class="main">
+	
 
 			<div class="lead-page-paragraph">
 				
-				<p>The Global Ecobrick Alliance maintains the Brikcoin blockchain and provides the Brikchain Explorer tool as a means to search the full chain of transactions and ecobricks.</p>
+				<br>
+				<br><p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">brikcoin currency's</a> blockchain and provides the Brikchain Explorer inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-
-				<p>For the moment here's a full table of all the current birkcoin transactions.  Not that this feature is still under development!</p>
-
+				<p>Here you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and ecobricked authenticated plastic (<a href="aes">AES plastic</a>).</p>
 			</div>
+
+			<br>
+			<hr>
+			<br><br>
 				
-            <?php include 'db.php';?>
+            
 		
-			<?php
-
-
-				$sql = "SELECT transaction_id, transaction_name, block_tran_type, transaction_amount FROM brk_tran";
-				$result = $conn->query($sql);
-
-				if ($result->num_rows > 0) {
-				// output data of each row
-				while($row = $result->fetch_assoc()) {
-
-					echo '<div class="page-paragraph"><p>';
-					echo "<b>ID:</b>  " . $row["transaction_id"]. "  |   <b>Type:</b> " . $row["block_tran_type"]. "   |   <strong>Amount:  </strong>" . $row["transaction_amount"]. "  | " . $row["transaction_name"]. "<br>";
-					echo '</p></div>';
-				}
-				} else {
-				echo "0 results";
-				}
-				$conn->close();
-			?>   
-		</div>
+		
+			<div class="page-paragraph">
+			<h4>Brikcoin Money Supply</h4>
+			<h6>An overview of the brikcoins generated each year on the brikchain</h6>
+			</div>
 
 		
-	
-
-		<div class="side">
-
-		
+			<div class="overflow">
+			<table id="brikchain" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Sent</th>
+                <th>Sender</th>
+                <th>Receivers</th>
+				<th>Type</th>
+                <th>Block Amount</th>
+				<th>Single Amount</th>
+				<th>Ecobrick</th>
+				
+				
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+			<th>ID</th>
+                <th>Sent</th>
+                <th>Sender</th>
+                <th>Receivers</th>
+				<th>Type</th>
+                <th>Block Amount</th>
+				<th>Single Amount</th>
+				<th>Ecobrick</th>
 			
-		<div id="side-module-desktop-only">
-        <img src="webp/2020-regen-report.webp" width="90%">
-				<h4>NEW! 2021 Regen Report</h4>
-				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
-				<a class="module-btn" href="https://gobrik.com/#catalyze" target="_blank">Access Report</a><br><br>
-			</div>
+            </tr>
+        </tfoot>
+    </table>
+</div>
 
+<br><br>
+<div class="page-paragraph">
+<h4>Central Reserve Satus</h4>
+<h6>Running and yearly brikchain totals.</h6>
+</div>		
+			
+<div class="overflow">
+<?php include 'db.php';?>
+		
+<?php
 
-			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
-				<h4>For-Earth Enterprise</h4>
-				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="about">About Us</a>
-			</div>
+$sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 
-			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about">About Us</a>
-			</div>
+	
+	$result = $conn->query($sql);
 
-		</div>
-
+	if ($result->num_rows > 0) {
+	
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>From Date</th><th>To Date</th><th>Total</th></tr>';
+	
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+		
+		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."β) </var></td></tr>";
+		}
+		echo "</table>";
+	} else {
+		echo "0 results";
+	}
+	$conn->close();
+	?>
 	</div>
+	<br><br>
+
+	<div class="page-paragraph">
+
+<h4>Authenticated Ecobricks</h4>
+<h6>All the ecobricks authenticated on the chain.</h6>
+</div>
+
+<div class="overflow">
+			<table id="ecobricks" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th style="width: 150px !important;">Image</th>
+                <th>Logged</th>
+                <th>Maker</th>
+                <th>Weight</th>
+				<th>Value</th>
+				<th>Volume</th>
+                <th>CO2</th>
+				<th>Serial</th>
+				
+				
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+			<th>Image</th>
+                <th>Logged</th>
+                <th>Maker</th>
+                <th>Weight</th>
+				<th>Value</th>
+				<th>Volume</th>
+                <th>CO2</th>
+				<th>Serial</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+<br><br>
+
+	<div class="page-paragraph">
+
+<h4>Cash Transactions</h4>
+<h6>All the GEA's fiat currency transactions.</h6>
+</div>
+
+<div class="overflow">
+			<table id="cash_tran" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th style="width: 150px !important;">Image</th>
+                <th>Logged</th>
+                <th>Maker</th>
+                <th>Weight</th>
+				<th>Value</th>
+				<th>Volume</th>
+                <th>CO2</th>
+				<th>Serial</th>
+				
+				
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+			<th>Image</th>
+                <th>Logged</th>
+                <th>Maker</th>
+                <th>Weight</th>
+				<th>Value</th>
+				<th>Volume</th>
+                <th>CO2</th>
+				<th>Serial</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+</div>
 </div>
 
 
+
+</div>
+</div>
+
+
+
+			
+		
 
 
 
