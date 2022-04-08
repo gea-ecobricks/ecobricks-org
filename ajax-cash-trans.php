@@ -24,7 +24,7 @@
 $table = 'vw_cash_tran_desc';
  
 // Table's primary key
-$primaryKey = 'knack_record_id';
+$primaryKey = 'cash_tran_id';
  
 
 // Array of database columns which should be read and sent back to DataTables.

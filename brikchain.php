@@ -255,7 +255,7 @@ $(document).ready(function() {
 <script>
 
 $(document).ready(function() {
-    $('#cash-tran').DataTable( {
+    $('#cash_tran').DataTable( {
 		"processing": true,
         "serverSide": true,
 		"ajax": "ajax-cash-trans.php"
