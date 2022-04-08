@@ -21,10 +21,10 @@
  */
  
 // DB table to use
-$table = 'vw_brk_tran_desc';
+$table = 'vw_cash_tran_desc ';
  
 // Table's primary key
-$primaryKey = 'tran_id';
+$primaryKey = 'cash_tran_id';
  
 
 // Array of database columns which should be read and sent back to DataTables.
@@ -32,44 +32,38 @@ $primaryKey = 'tran_id';
 // parameter represents the DataTables column identifier. In this case simple
 // indexes
 $columns = array(
-  array( 'db' => 'tran_id',     'dt' => 0,
+  array( 'db' => 'cash_tran_id',     'dt' => 0,
   'formatter' => function( $d, $row ) {
-    return '<a href="details.php?='.($d).'"><var>'.($d).'</var></a>';
+    return '<a href="cash-details.php?='.($d).'"><var>'.($d).'</var></a>';
 }
 ),
 
 
   array(
-    'db'        => 'send_dt',
+    'db'        => 'datetime_sent_ts',
     'dt'        => 1,
     'formatter' => function( $d, $row ) {
         return '<var>'.date($d).'<var>';
     }
 ),
-    array( 'db' => 'sender_ecobricker',     'dt' => 2 ),
-    array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
-    array( 'db' => 'block_tran_type', 'dt' => 4 ),
+    array( 'db' => 'sender_for_display ',     'dt' => 2 ),
+    array( 'db' => 'receiver_for_display ',     'dt' => 3 ),
+    array( 'db' => 'tran_name_desc ', 'dt' => 4 ),
    
     array(
-        'db'        => 'block_amt',
+        'db'        => 'native_ccy_amt',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d,2).'&thinsp;ß</var>';
+            return '<var>'.number_format($d,2).'</var>';
         }
     ),
     array(
-        'db'        => 'individual_amt',
+        'db'        => 'currency_code ',
         'dt'        => 6,
-        'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d,2).' ß</var>';
-        }
     ),
 
-    array( 'db' => 'ecobrick_serial_no',
+    array( 'db' => 'type_of_transaction',
     'dt' => 7,
-    'formatter' => function( $d, $row ) {
-    return '<a href="details.php?='.($d).'">'.($d).' ß</a>';
-}
 ),
   
 );
