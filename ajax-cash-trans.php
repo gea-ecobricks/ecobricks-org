@@ -48,7 +48,7 @@ $columns = array(
 
     array( 'db' => 'sender_for_display',     'dt' => 2 ),
     array( 'db' => 'receiver_for_display',     'dt' => 3 ),
-    array( 'db' => 'tran_name_desc ', 'dt' => 4 ),
+    array( 'db' => 'tran_name_desc', 'dt' => 4 ),
     array(
         'db'        => 'native_ccy_amt',
         'dt'        => 5,
