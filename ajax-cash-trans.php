@@ -57,7 +57,7 @@ $columns = array(
         }
     ),
     array(
-        'db'        => 'currency_code ',
+        'db'        => 'currency_code',
         'dt'        => 6,
     ),
 
