@@ -234,7 +234,7 @@ margin-bottom: 31px;}
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">The Brik Market</div>
-	    <div class="splash-sub">Drop off, sell, trade, buy ecobricks or offer your space as a community exchange hub.</div>
+	    <div class="splash-sub">Drop off, sell, buy or trade ecobricks. Or offer your space as a community exchange hub and earn by receiving ecobricks.</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikmarket-400px.webp?v1.1" style="width: 80%">
     </div>	
@@ -253,18 +253,17 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Introducing a new service to facilitate the trade of ecobricks among ecobrickers, projects, businesses and communities.</p>
+				<p>The Brik Market is a new service to facilitate the trade of ecobricks among ecobrickers, projects, businesses and communities.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
-                        <p>Connecting ecobrick makers, builders, project leaders and investors in plastic sequestration our new Brik Market enables the exchange of authenticated sequestered plastic.  Post your ecobricks for pickup.  Share your service of receiving ecobricks.  Ask for ecobricks for a project.</p>
+                       
+            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> connects local ecobrick makers, builders and community hubs to enable the exchange of authenticated sequestered plastic.  Post your ecobricks for pickup.  Share your service of receiving ecobricks.  Or ask for ecobricks for a project.</p>
 
-                        <p>The Brik Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.  The market is maintained by the <a href="about.php">Global Ecobrick Alliance</a> pursuing its mission of accelerating <a href="transition.php">petro-capital and plastic transition</a>.</p>
-
-                      
-							
+                        <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> is maintained by the <a href="about.php">Global Ecobrick Alliance</a> is pursuit of accelerating <a href="transition.php">plastic transition</a>.  It is part of our work develop plastic's non-capital value and valuing the ecological service of ecobrickers. The Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.
+		
             </div>	
 			<a name="DROP"></a>
             <div class="reg-content-block" id="block1">
@@ -272,8 +271,8 @@ margin-bottom: 31px;}
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Dropping Off Ecobricks</h4>
-                    <h5>Use the Brik Market to find community hubs and projects that are taking ecobricks.</h5>   
+                    <h4>Give Ecobricks</h4>
+                    <h5>Use the Brik Market to donate, sell or pay to drop off your ecobricks.</h5>   
                     <br>
                     </div>
 
@@ -283,7 +282,27 @@ margin-bottom: 31px;}
                 <div id="preclosed1">
 
                 <br>
-                <p>Ecobricks are ideal for making small scale projects at home.  However, should you have more ecobricks than you need, you can make an offer to drop them off in your community.  Often ecobrickers are in need of many ecobricks for a particular project.  The Brik Market is a way to connect supply and demand.</p>
+                <p>Often ecobrickers do not have space in their home to store their ecobricks or to build with them.  Often ecobrick projects are in need of ecobricks!  On the Brik Market you can post an offer to give your ecobricks to others.  You can also post an offer request for specific ecobricks.</p>
+
+                <p><b>Authenticated Ecobricks Only</b></p>
+
+                <p>The Brik Market only works with ecobricks that have been logged onto the GoBrik app and that have been sucessfully authenticated to meet GEA standards.  This way, community hubs and project leaders can review the ecobricks that are being offered, and be confident that they are properly made</p>
+
+                <p><b>Sell</b></p>
+                <p>On the Brik Market you can offer your ecobricks for sale.  Ecobricks are priced on the Market per kg of authenticated ecobricked plastic.  Once you have offered the rate by which you wish to sell, the system calculates the batch price of your offer using the logged weight of the ecobricks you have selected to offer for sale.</p>
+
+                <p><b>Offer for Nothing at All</b><p>
+                <p>Alternatively you can offer your ecobricks gratis. Be sure to specify the details for delivery when you make your offer</p>
+                
+                <p><b>Trade & Barter</b></p>
+                <p>Not yet available, but coming soon!</p>
+
+                <p><b>Pay for Pick Up</b></p>
+                <p>Not yet available, but coming soon!</p>
+
+                <p><b>Sell using Brikcoins</b></p>
+                <p>Not yet available, but coming soon!</p>
+                
                 
                 
                  
@@ -296,8 +315,8 @@ margin-bottom: 31px;}
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Ecobrick Community Hubs</h4>
-                    <h5>Register to receive payment for collecting, storing and distrubuting ecobricks for community projects.</h5>   
+                    <h4>Receive Ecobricks</h4>
+                    <h5>Receive ecobricks for your projects or for a fee</h5>   
                     <br>
                     </div>
 
@@ -310,12 +329,11 @@ margin-bottom: 31px;}
             <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
 
             <br>
-            <p>Some ecobrickers offer the service of collecting, storing and distributing ecobricks to community projects.  This involves costs to them that they defer by charging for the service of collecting ecobricks or serving as drop-off centers.</p>
-            <p>We refer to these locations as "Ecobrick Community Hubs".  They include cafes, zero-waste shops, restaurant and community centers that are helping accelerate plastic transition in their area.  Paying their requested 'hub fee' is a way to support their valuable service.</p>
-
-           
-
+            <p><b>Community Hubs</b></p>
             
+            <p>Some ecobrickers offer the service of collecting, storing and distributing ecobricks to community projects.  This involves costs to them that they defer by charging for the service of collecting ecobricks or serving as drop-off centers.</p>
+
+            <p>We refer to these locations as "Ecobrick Community Hubs".  They include cafes, zero-waste shops, restaurant and community centers that are helping accelerate plastic transition in their area.  Paying their requested 'hub fee' is a way to support their valuable service.</p>
 
             <br>
 
@@ -369,7 +387,9 @@ margin-bottom: 31px;}
                         <br><img src="webp/albo-offer-350px.webp" width="100%" alt="eco brick being bought with a brikcoin by a bird" loading="lazy" alt="eco brick being bought with a brikcoin by a bird.">
                     </div>
                 </div>
-                <p>Sign up button coming soon.</p><br>
+                <br><br>
+			<a class="action-btn" href="https://gobrik.com/#market" target="_blank">🚀 Launch the Brik Market</a>
+			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window!</a></p>
 					<br>
             </div>
             
