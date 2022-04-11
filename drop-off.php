@@ -260,9 +260,9 @@ margin-bottom: 31px;}
 			
 			<div class="page-paragraph">
                        
-            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> connects local ecobrick makers, builders and community hubs to enable the exchange of authenticated sequestered plastic.  Post your ecobricks for pickup.  Share your service of receiving ecobricks.  Or ask for ecobricks for a project.</p>
+            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> connects local ecobrick makers, builders and community hubs to enable the exchange of authenticated sequestered plastic.  Post your available ecobricks, share your service of receiving ecobricks, or ask the community for ecobricks for your project.</p>
 
-                        <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> is maintained by the <a href="about.php">Global Ecobrick Alliance</a> is pursuit of accelerating <a href="transition.php">plastic transition</a>.  It is part of our work develop plastic's non-capital value and valuing the ecological service of ecobrickers. The Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.
+            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> is maintained by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of accelerating <a href="transition.php">plastic transition</a>.  We envision it as a tool to empower local, trade and barter and to further add fungibility value to plastic sequestration. The Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.
 		
             </div>	
 			<a name="DROP"></a>
@@ -281,33 +281,47 @@ margin-bottom: 31px;}
 
                 <div id="preclosed1">
 
+                <div class="row">
+						<div class="main2">
+
+                		<p>Often ecobrickers do not have space in their home to store their ecobricks or to build with them.  Often ecobrick projects are in need of ecobricks!  On the Brik Market you can post an offer to give your ecobricks to others.</p>
+
+						</div>
+						<div class="side2"><img src="webp/various-briks-400px.webp" width="100%">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p>You can also post an offer request for specific ecobricks.</p>
+						</div>
+						<div class="side3"><img src="webp/various-briks-400px.webp" width="150px">
+						</div>
+					</div>
+
                 <br>
-                <p>Often ecobrickers do not have space in their home to store their ecobricks or to build with them.  Often ecobrick projects are in need of ecobricks!  On the Brik Market you can post an offer to give your ecobricks to others.  You can also post an offer request for specific ecobricks.</p>
 
                 <p><b>Authenticated Ecobricks Only</b></p>
 
                 <p>The Brik Market only works with ecobricks that have been logged onto the GoBrik app and that have been sucessfully authenticated to meet GEA standards.  This way, community hubs and project leaders can review the ecobricks that are being offered, and be confident that they are properly made</p>
 
+                <br>
                 <p><b>Sell</b></p>
                 <p>On the Brik Market you can offer your ecobricks for sale.  Ecobricks are priced on the Market per kg of authenticated ecobricked plastic.  Once you have offered the rate by which you wish to sell, the system calculates the batch price of your offer using the logged weight of the ecobricks you have selected to offer for sale.</p>
 
-                <p><b>Offer for Nothing at All</b><p>
+                <br><p><b>Offer for Nothing at All</b><p>
                 <p>Alternatively you can offer your ecobricks gratis. Be sure to specify the details for delivery when you make your offer</p>
                 
-                <p><b>Trade & Barter</b></p>
+                <br><p><b>Trade & Barter</b></p>
                 <p>Not yet available, but coming soon!</p>
 
-                <p><b>Pay for Pick Up</b></p>
+                <br><p><b>Pay for Pick Up</b></p>
                 <p>Not yet available, but coming soon!</p>
 
-                <p><b>Sell using Brikcoins</b></p>
+                <br><p><b>Sell using Brikcoins</b></p>
                 <p>Not yet available, but coming soon!</p>
                 
-                
-                
-                 
                 </div>
-                </div>
+            </div>
 
             <a name="HUBS"></a>
             <div class="reg-content-block" id="block10">

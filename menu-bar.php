@@ -33,7 +33,7 @@
     <div class="topnav" id="myTopnav">
         <div class="dropdown">
                   <button class="dropbtn">
-                    <div id="menu-circle"><img src="svgs/grey-emblem.svg" width="30px" height="30px" alt="Global Ecobrick Alliance Emblem"></div><div id="menu-text">GEA Servers</div>
+                    <div id="menu-circle"><img src="svgs/grey-emblem-button.svg" width="30px" height="30px" alt="Global Ecobrick Alliance Emblem"></div><div id="menu-text">GEA Servers</div>
                 </button>
                   <div class="dropdown-content-app">
                     <a href="https://gobrik.com" target="_blank" rel="noopener">
@@ -101,7 +101,7 @@
                 </div>
             </div> 
         
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem.svg"width="30px" height="30px" loading="lazy"></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem-button.svg"width="30px" height="30px" loading="lazy"></a>
             
         </div>
     </div>
