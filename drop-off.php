@@ -236,7 +236,7 @@ margin-bottom: 31px;}
 		<div class="splash-heading">The Brik Market</div>
 	    <div class="splash-sub">Drop off, sell, buy or trade ecobricks. Or offer your space as a community exchange hub and earn by receiving ecobricks.</div>
 	</div>
-	<div class="splash-image"><img src="webp/brikmarket-400px.webp?v1.1" style="width: 80%">
+	<div class="splash-image"><img src="webp/brikmarket-400px.webp?v1.2" style="width: 80%">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -253,7 +253,7 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>The Brik Market is a new service to facilitate the trade of ecobricks among ecobrickers, projects, businesses and communities.</p>
+				<p>For EarthDay 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market: the place to trade, buy and sell ecobricks with ecobrickers and community hubs around the world.</p>
     
 			</div>
 			
