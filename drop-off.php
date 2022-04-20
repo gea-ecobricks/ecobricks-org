@@ -260,11 +260,7 @@ margin-bottom: 31px;}
 			
 			<div class="page-paragraph">
 
-            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> is maintained by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of our mission of accelerating <a href="transition.php">plastic transition</a>.  Through the Brik Market we provide a space to further the value of ecobricks by increasing their inherent utility as a unit of exchange.  The market is an extension of our <a href="/principles">moving on from petro-capital</a>.  While cash, brikcoin and barter will soon be available on the market, they revolve around the  ecobricked plastic as a fungible medium for trade and barter.</p>
-			
-			<p>The Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.</p>
-
-
+            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> has been under development for the last three years by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of our mission of accelerating <a href="transition.php">plastic transition</a> and further valuing the ecological service of <a href="sequest.php">plastic sequestration</a>.  The Brik Market provides a space where ecobricked plastic can be used as a medium of local exchange and currency. The Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.</p>
 		
             </div>	
 			<a name="DROP"></a>
