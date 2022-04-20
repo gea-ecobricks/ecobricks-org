@@ -234,7 +234,7 @@ margin-bottom: 31px;}
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">The Brik Market</div>
-	    <div class="splash-sub">The place to arrange ecobrick exchanges, barters and drop-offs.</div>
+	    <div class="splash-sub">The place to arrange ecobrick exchanges, hubs, barters and drop-offs.</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikmarket-400px.webp?v1.2" style="width: 80%">
     </div>	
@@ -253,7 +253,7 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market!  Got ecobricks?  Need ecobricks?  This is the place to arrange exchanges with ecobrickers and community hubs that are local to you.</p>
+				<p>For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market!  Got ecobricks?  Need ecobricks?  This is the place to arrange exchanges with local ecobrickers and community hubs.</p>
     
 			</div>
 			
