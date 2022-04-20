@@ -339,7 +339,7 @@ margin-bottom: 31px;}
             
             <p>Some ecobrickers offer the service of collecting, storing and distributing ecobricks to community projects.  This involves costs to them that they defer by charging for the service of collecting ecobricks or serving as drop-off centers.</p>
 
-            <p>We refer to these locations as "Ecobrick Community Hubs".  They include cafes, zero-waste shops, restaurant and community centers that are helping accelerate plastic transition in their area.  Paying their requested 'hub fee' is a way to support their valuable service.</p>
+            <p>We refer to these locations as "Ecobrick Community Hubs".  They include cafes, zero-waste shops, restaurant and community centers that are helping accelerate plastic transition in their area.  Paying their requested 'hub fee' is a way to support their valuable service.  Hub fees are calculated as per Kg of AES plastic.  When offering ecobricks, the system will automatically calculate the net weight of your batch and the total fee to be paid to the community hub upon delivery.</p>
 
             <br>
 
@@ -364,9 +364,9 @@ margin-bottom: 31px;}
 
                 <img src="https://cdn.ecobricks.org/wp-content/uploads/2020/04/2020-Manual-Blockchain.svg.png" width="90%" loading="lazy" alt="eco brik authentification process">
             
-					<p>On the Brik Market, only ecobricks that have been logged and authenticated on the GoBrik system are eligible for exchange.  This system ensures that only high quality ecobricks that have been indipendently validated to meet GEA standards are being exchanged.</p>  . 
+				<p>In order to provide a consistent means of pricing ecobricks across their various sizes and shapes, we cost then per kg of authenticated ecobricked sequestered plastic (AES plastic).  As only ecobricks that have been logged and authenticated on the GoBrik system are eligible for exchange, the net weight of each ecobrick is already recorded.  This enables the calculation of the total weight of the batch of selected ecobricks being offered for exchanges.</p>  . 
 
-                    <p>In order to provide a consistent means of pricing ecobricks across their various sizes and shapes, we cost then per kg of AES plastic.</p>
+                 <p>Community Hubs specify their fee per Kg of AES plastic.  This fee is arbitrary, however it is guided by the global AES price set by the GEA each year (Current price: <a href="https://gobrik.com/#kg/" target="_blank"> 2.71$ USD per Kg of AES plastic</a>).  This fee is multiplied by the net weight of the offered batch up ecobricks. </p>
                     
 				</div>
 			</div>
