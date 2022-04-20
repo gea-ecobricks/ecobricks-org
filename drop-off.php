@@ -234,7 +234,7 @@ margin-bottom: 31px;}
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">The Brik Market</div>
-	    <div class="splash-sub">Drop off, sell, buy or trade ecobricks. Or offer your space as a community exchange hub and earn by receiving ecobricks.</div>
+	    <div class="splash-sub">The place to arrange exchanges and drop offs of ecobricks.</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikmarket-400px.webp?v1.2" style="width: 80%">
     </div>	
@@ -262,7 +262,7 @@ margin-bottom: 31px;}
                        
             <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> connects local ecobrick makers, builders and community hubs to enable the exchange of authenticated sequestered plastic.  Post your available ecobricks, arrange drop-offs, propose trades and barters!  Help a community ecobrick project or fast forward your own project!</p>
 
-            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> is maintained by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of accelerating <a href="transition.php">plastic transition</a>.  Through the Brik Market we aim to further develop the value of ecobricks, by increasing their inherent utility as a unit of exchange.  The market is an extension of our <a href="/principles">trans-capital principle</a>.  While cash, brikcoin and barter will soon be available on the market, they revolve around the fungibility of ecobricks as a unit for trade and barter.</p>
+            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> is maintained by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of our mission of accelerating <a href="transition.php">plastic transition</a>.  Through the Brik Market we provide a space to further the value of ecobricks by increasing their inherent utility as a unit of exchange.  The market is an extension of our <a href="/principles">moving on from petro-capital</a>.  While cash, brikcoin and barter will soon be available on the market, they revolve around the  ecobricked plastic as a fungible medium for trade and barter.</p>
 			
 			<p>The Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.</p>
 
@@ -309,17 +309,14 @@ margin-bottom: 31px;}
                 <p>The Brik Market only works with ecobricks that have been logged onto the GoBrik app and that have been sucessfully authenticated to meet GEA standards.  This way, community hubs and project leaders can review the ecobricks that are being offered, and be confident that they are properly made</p>
 
                 <br>
-                <p><b>Sell</b></p>
-                <p>On the Brik Market you can offer your ecobricks for sale.  Ecobricks are priced on the Market per kg of authenticated ecobricked plastic.  Once you have offered the rate by which you wish to sell, the system calculates the batch price of your offer using the logged weight of the ecobricks you have selected to offer for sale.</p>
+                <!--<p><b>Sell</b></p>
+                <p>On the Brik Market you can offer your ecobricks for exchange or delivery.  Ecobricks are priced on the Market per kg of authenticated ecobricked plastic.  Once you have offered the rate by which you wish to sell, the system calculates the batch price of your offer using the logged weight of the ecobricks you have selected to offer for sale.</p>-->
 
                 <br><p><b>Offer for Nothing at All</b><p>
                 <p>Alternatively you can offer your ecobricks gratis. Be sure to specify the details for delivery when you make your offer</p>
                 
                 <br><p><b>Trade & Barter</b></p>
-                <p>Not yet available, but coming soon!</p>
-
-                <br><p><b>Pay for Pick Up</b></p>
-                <p>Not yet available, but coming soon!</p>
+                <p>Offer your ecobricks for a product or service.  You get to specify what you'd like to offer for exchange.</p>
 
                 <br><p><b>Sell using Brikcoins</b></p>
                 <p>Not yet available, but coming soon!</p>
