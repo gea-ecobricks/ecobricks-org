@@ -234,7 +234,7 @@ margin-bottom: 31px;}
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">The Brik Market</div>
-	    <div class="splash-sub">The place to arrange exchanges and drop offs of ecobricks.</div>
+	    <div class="splash-sub">The place to arrange ecobrick exchanges, barters and drop-offs.</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikmarket-400px.webp?v1.2" style="width: 80%">
     </div>	
@@ -253,14 +253,12 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market!  This is the place to arrange exchanges, barters and drops of ecobricks with ecobrickers and community hubs that are local to you.</p>
+				<p>For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market!  Got ecobricks?  Need ecobricks?  This is the place to arrange exchanges with ecobrickers and community hubs that are local to you.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
-                       
-            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> connects local ecobrick makers, builders and community hubs to enable the exchange of authenticated sequestered plastic.  Post your available ecobricks, arrange drop-offs, propose trades and barters!  Help a community ecobrick project or fast forward your own project!</p>
 
             <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> is maintained by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of our mission of accelerating <a href="transition.php">plastic transition</a>.  Through the Brik Market we provide a space to further the value of ecobricks by increasing their inherent utility as a unit of exchange.  The market is an extension of our <a href="/principles">moving on from petro-capital</a>.  While cash, brikcoin and barter will soon be available on the market, they revolve around the  ecobricked plastic as a fungible medium for trade and barter.</p>
 			
@@ -276,7 +274,7 @@ margin-bottom: 31px;}
                     
                     <div class="opener-header-text">
                     <h4>Provide Ecobricks</h4>
-                    <h5>Use the Brik Market to exchange or arrange drop off your ecobricks.</h5>   
+                    <h5>Use the Brik Market to arrange exchanges or drop-offs of your ecobricks.</h5>   
                     <br>
                     </div>
 
@@ -288,7 +286,7 @@ margin-bottom: 31px;}
                 <div class="row">
 						<div class="main2">
 
-                		<p>Often ecobrickers do not have space in their home to store their ecobricks or to build with them.  Often ecobrick projects are in need of ecobricks!  On the Brik Market you can post an offer to give your ecobricks to others.</p>
+                		<p>Ecobricks are awesome for small home projects.  However, sometimes ecobrickers do not have space in their home or they want to assist projects in their community.  On the Brik Market you can post an offer to give your ecobricks away, to trade or barter with them.  All you need is a (free) GoBrik account, a selection of logged and authenticated ecobricks.</p>
 
 						</div>
 						<div class="side2"><img src="webp/various-briks-400px.webp" width="100%">
@@ -296,15 +294,12 @@ margin-bottom: 31px;}
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>You can also post an offer request for specific ecobricks.</p>
+						<p><b>Authenticated Ecobricks Only</b></p>
 						</div>
 						<div class="side3"><img src="webp/various-briks-400px.webp" width="150px">
 						</div>
 					</div>
-
-                <br>
-
-                <p><b>Authenticated Ecobricks Only</b></p>
+                
 
                 <p>The Brik Market only works with ecobricks that have been logged onto the GoBrik app and that have been sucessfully authenticated to meet GEA standards.  This way, community hubs and project leaders can review the ecobricks that are being offered, and be confident that they are properly made</p>
 
@@ -331,7 +326,7 @@ margin-bottom: 31px;}
                     
                     <div class="opener-header-text">
                     <h4>Receive Ecobricks</h4>
-                    <h5>Receive ecobricks for your projects or for a fee</h5>   
+                    <h5>Source ecobricks for your projects or store them for the community.</h5>   
                     <br>
                     </div>
 
@@ -418,7 +413,7 @@ margin-bottom: 31px;}
         <div id="side-module-desktop-mobile">
 					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
 					<h4>Global Ecobrick Alliance</h4>
-					<h5>The GEA is dedicated to accelerating plastic transition.  	We preside over the GoBrik platform and the Brikcoin blockchain.</h5><br>
+					<h5>The GEA is dedicated to accelerating plastic transition.  	We preside over the GoBrik and Brik Market platforms.</h5><br>
                     <a class="module-btn" href="about.php">Learn More</a>
 					
 				</div>
@@ -426,14 +421,14 @@ margin-bottom: 31px;}
             <div id="side-module-desktop-mobile">
                 <img src="webp/brikcoins-450px.webp" width="100%" loading="lazy" alt="eco brik brikcoin blockchain">
                 <h4>Brikcoin Blockchain</h4>
-                <h5>The Brikmarket makes use of authenticated ecobrick sequestered plastic that has been validated on our chain.</h5><br>
+                <h5>The Brik Market makes use of authenticated ecobrick sequestered plastic that has been validated on our chain.</h5><br>
                 <a class="module-btn" href="brikcoins.php">Learn More</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
-				<h5>Using ecobricks as a means of community barter and exchange is another way to go local and accelerate petro-capital transition.</h5><br>
+				<h5>Using ecobricks as a means of community barter and exchange is another way to go local and reduce our reliance on the petro-capital economy.</h5><br>
 				<a class="module-btn" href="transition.php">Learn More</a>
 			</div>
 
