@@ -253,16 +253,20 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>For EarthDay 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market: the place to trade, buy and sell ecobricks with ecobrickers and community hubs around the world.</p>
+				<p>For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market!  This is the place to arrange exchanges, barters and drops of ecobricks with ecobrickers and community hubs that are local to you.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
                        
-            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> connects local ecobrick makers, builders and community hubs to enable the exchange of authenticated sequestered plastic.  Post your available ecobricks, share your service of receiving ecobricks, or ask the community for ecobricks for your project.</p>
+            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> connects local ecobrick makers, builders and community hubs to enable the exchange of authenticated sequestered plastic.  Post your available ecobricks, arrange drop-offs, propose trades and barters!  Help a community ecobrick project or fast forward your own project!</p>
 
-            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> is maintained by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of accelerating <a href="transition.php">plastic transition</a>.  We envision it as a tool to empower local, trade and barter and to further add fungibility value to plastic sequestration. The Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.
+            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> is maintained by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of accelerating <a href="transition.php">plastic transition</a>.  Through the Brik Market we aim to further develop the value of ecobricks, by increasing their inherent utility as a unit of exchange.  The market is an extension of our <a href="/principles">trans-capital principle</a>.  While cash, brikcoin and barter will soon be available on the market, they revolve around the fungibility of ecobricks as a unit for trade and barter.</p>
+			
+			<p>The Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.</p>
+
+
 		
             </div>	
 			<a name="DROP"></a>
@@ -271,8 +275,8 @@ margin-bottom: 31px;}
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Give Ecobricks</h4>
-                    <h5>Use the Brik Market to donate, sell or pay to drop off your ecobricks.</h5>   
+                    <h4>Provide Ecobricks</h4>
+                    <h5>Use the Brik Market to exchange or arrange drop off your ecobricks.</h5>   
                     <br>
                     </div>
 
