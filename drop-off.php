@@ -253,14 +253,14 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Got ecobricks?  Need ecobricks? For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market!  This is the place to arrange exchanges with local ecobrickers and community hubs!</p>
+				<p>Got ecobricks?  Need ecobricks? For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market!  This is the place to arrange ecobrick exchanges with local ecobrickers and community hubs.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
 
-            <p>The<a ref="https://gobrik.com/#market" target="_blank"> Brik Market</a> has been under development for the last three years by the <a href="about.php">Global Ecobrick Alliance (GEA)</a>.  It is a space where ecobricked plastic can be used as a medium of local exchange and currency-- a key part of the GEA's mission of accelerating <a href="transition.php">plastic transition</a> and adding further value the ecological service of <a href="sequest.php">plastic sequestration</a>.  The Brik Market<a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.</p>
+            <p>The <a href="https://gobrik.com/#market" target="_blank">Brik Market</a> has been under development for the last three years by the <a href="about.php">Global Ecobrick Alliance (GEA)</a>.  It is a space where ecobricked plastic can be used as a medium of local exchange and currency-- a key part of the GEA's mission of accelerating <a href="transition.php">plastic transition</a> and adding further value the ecological service of <a href="sequest.php">plastic sequestration</a>.  The Brik Market <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">brikcoin manual blockchain</a>.</p>
 		
             </div>	
 			<a name="DROP"></a>
@@ -310,7 +310,8 @@ margin-bottom: 31px;}
                 <p>Offer your ecobricks for a product or service.  You get to specify what you'd like to offer for exchange.</p>
 
                 <br><p><b>Sell using Brikcoins</b></p>
-                <p>Not yet available, but coming soon!</p>
+                <p>Soon you'll be able to use your <a href="brikcoins.php">brikcoins</a> on the market to avail of offers, barters and sales.  This is not yet available, but coming soon!</p>
+				<br><br>
                 
                 </div>
             </div>
@@ -350,7 +351,7 @@ margin-bottom: 31px;}
 				<div class="opener-header">
 					<div class="opener-header-text">
 						<h4>Pricing Ecobricked Plastic</h4>
-						<h5>On the Brik Market We a use a system of pricing per Kg of authenticated ecobricked plastic.</h5><br>
+						<h5>On the Brik Market ecobricks are priced per Kg of AES plastic.</h5><br>
 					</div>
 					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 				</div>
@@ -359,9 +360,9 @@ margin-bottom: 31px;}
 
                 <img src="https://cdn.ecobricks.org/wp-content/uploads/2020/04/2020-Manual-Blockchain.svg.png" width="90%" loading="lazy" alt="eco brik authentification process">
             
-				<p>In order to provide a consistent means of pricing ecobricks across their various sizes and shapes, we cost then per kg of authenticated ecobricked sequestered plastic (AES plastic).  As only ecobricks that have been logged and authenticated on the GoBrik system are eligible for exchange, the net weight of each ecobrick is already recorded.  This enables the calculation of the total weight of the batch of selected ecobricks being offered for exchanges.</p>  . 
+				<p>In order to provide a consistent means of pricing ecobricks across their various sizes and shapes, we cost then per kg of <a href="/aes">authenticated ecobricked sequestered plastic</a> (AES plastic).  As only ecobricks that have been logged and authenticated on the GoBrik system are eligible for exchange, the net weight of each ecobrick is already recorded.  This enables the calculation of the total weight of the batch of selected ecobricks being offered for exchanges.</p>  . 
 
-                 <p>Community Hubs specify their fee per Kg of AES plastic.  This fee is arbitrary, however it is guided by the global AES price set by the GEA each year (Current price: <a href="https://gobrik.com/#kg/" target="_blank"> 2.71$ USD per Kg of AES plastic</a>).  This fee is multiplied by the net weight of the offered batch up ecobricks. </p>
+                 <p>Community Hubs specify their fee per Kg of AES plastic.  This fee is arbitrary and set manually by the Hub.  However, pricing is guided by the global AES price set by the GEA each year (Current price: <a href="https://gobrik.com/#kg/" target="_blank"> 2.71$ USD per Kg of AES plastic</a>).  This fee is multiplied by the net weight of the offered batch up ecobricks. </p>
                     
 				</div>
 			</div>
@@ -378,20 +379,16 @@ margin-bottom: 31px;}
                       <div class="main2">
                          <h4>Start Exchanging</h4>
                         
-                         <p>Starting perusing the Brik Market today!  You'll need your GoBrik account to take or post offers, but that's ok, its easy and free to create one</p>
-                        
-                        
-                    
-                    </div></p>
+                         <p>Starting perusing the Brik Market today.  You'll need your GoBrik account to take or post offers. But that's ok, its easy and free to create one!</p>
+
+                    </div>
 
                     <div class="side2">
-                        <br><img src="webp/albo-offer-350px.webp" width="100%" alt="eco brick being bought with a brikcoin by a bird" loading="lazy" alt="eco brick being bought with a brikcoin by a bird.">
+                        <br><img src="webp/albo-offer-350px.webp" width="90%" alt="eco brick being bought with a brikcoin by a bird" loading="lazy" alt="eco brick being bought with a brikcoin by a bird.">
                     </div>
                 </div>
-                
 			<a class="action-btn" href="https://gobrik.com/#market" target="_blank">🚀 Launch the Brik Market</a>
 			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window!</a></p>
-					<br>
             </div>
             
 
