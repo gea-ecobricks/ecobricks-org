@@ -327,7 +327,7 @@ _END;?>
 			<div id="slider4">
 
 				<div id="slider-image">
-					<img src="photos/russell-earth-day-ecobrick-2022-450px.jpg" width="92%" height="100%" alt="Log an earth day selfie">
+					<img src="photos/russell-earth-day-ecobrick-2022-375px.jpg" width="92%" height="100%" alt="Log an earth day selfie">
 				</div>
 				<div id="slider-textbox">
 					<div id="slider-heading">Share an Earth Day Selfie!</div>
