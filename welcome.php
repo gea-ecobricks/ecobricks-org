@@ -181,8 +181,8 @@ _END;?>
 				<div id="slider-image"><img src="webp/earthday-2022-400px.webp" width="92%" height="100%" alt="Happy Earth Day"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Happy Earth Week!</div>
-					<div id="slider-body">This week is a great time to celebrate ecobricking and plastic transition.  To do so we're launch our new Brik Market for the local and global ecobrick movement.</div>
-					<div id="slider-link"><a href="drop-off.php">The Brik Market</a></div>
+					<div id="slider-body">This week is a great time to celebrate ecobricking and plastic transition.  To do so we're launch our new <var>Brik Market</var> for the local and global ecobrick movement.</div>
+					<div id="slider-link"><a href="drop-off.php">The <var>Brik Market</var></a></div>
 					<div id="slider-date">April 21, 2022 | GEA Announcements</div>
 				</div>
 			</div>
@@ -193,10 +193,10 @@ _END;?>
 					<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
 				</div>
 				<div id="slider-textbox">
-					<div id="slider-heading">The Brik Market is Launched</div>
+					<div id="slider-heading">The <var>Brik Market</var> is Launched</div>
 					<div id="slider-date">April 22, 2022 | GEA Annoucement</div>
 					<div id="slider-body">After three years of development, we're excited to launch a place to exchange, trade, barter and drop-off your ecobricks.</div>
-					<div id="slider-link">>> <a href="drop-off.php">The Brik Market</a></div>
+					<div id="slider-link">>> <a href="drop-off.php">The <var>Brik Market</var></a></div>
 
 				</div>
 			</div>
