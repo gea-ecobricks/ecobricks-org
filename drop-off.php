@@ -253,14 +253,14 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market!  Got ecobricks?  Need ecobricks?  This is the place to arrange exchanges with local ecobrickers and community hubs.</p>
+				<p>Got ecobricks?  Need ecobricks?  This is the place to arrange exchanges with local ecobrickers and community hubs.  For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market!</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
 
-            <p><a ref="https://gobrik.com/#market" target="_blank">The Brik Market</a> has been under development for the last three years by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of our mission of accelerating <a href="transition.php">plastic transition</a> and further valuing the ecological service of <a href="sequest.php">plastic sequestration</a>.  The Brik Market provides a space where ecobricked plastic can be used as a medium of local exchange and currency. The Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.</p>
+            <p>The<a ref="https://gobrik.com/#market" target="_blank"> Brik Market</a> has been under development for the last three years by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of our mission of accelerating <a href="transition.php">plastic transition</a> and further valuing the ecological service of <a href="sequest.php">plastic sequestration</a>.  The Brik Market provides a space where ecobricked plastic can be used as a medium of local exchange and currency. The Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.</p>
 		
             </div>	
 			<a name="DROP"></a>
