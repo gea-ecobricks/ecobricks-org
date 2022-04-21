@@ -253,14 +253,14 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Got ecobricks?  Need ecobricks?  This is the place to arrange exchanges with local ecobrickers and community hubs.  For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market!</p>
+				<p>Got ecobricks?  Need ecobricks? For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new Brik Market!  This is the place to arrange exchanges with local ecobrickers and community hubs!</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
 
-            <p>The<a ref="https://gobrik.com/#market" target="_blank"> Brik Market</a> has been under development for the last three years by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of our mission of accelerating <a href="transition.php">plastic transition</a> and further valuing the ecological service of <a href="sequest.php">plastic sequestration</a>.  The Brik Market provides a space where ecobricked plastic can be used as a medium of local exchange and currency. The Market is part of <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.</p>
+            <p>The<a ref="https://gobrik.com/#market" target="_blank"> Brik Market</a> has been under development for the last three years by the <a href="about.php">Global Ecobrick Alliance (GEA)</a>.  It is a space where ecobricked plastic can be used as a medium of local exchange and currency-- a key part of the GEA's mission of accelerating <a href="transition.php">plastic transition</a> and adding further value the ecological service of <a href="sequest.php">plastic sequestration</a>.  The Brik Market<a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">Brikcoin manual blockchain</a>.</p>
 		
             </div>	
 			<a name="DROP"></a>
@@ -340,11 +340,6 @@ margin-bottom: 31px;}
             <p>Some ecobrickers offer the service of collecting, storing and distributing ecobricks to community projects.  This involves costs to them that they defer by charging for the service of collecting ecobricks or serving as drop-off centers.</p>
 
             <p>We refer to these locations as "Ecobrick Community Hubs".  They include cafes, zero-waste shops, restaurant and community centers that are helping accelerate plastic transition in their area.  Paying their requested 'hub fee' is a way to support their valuable service.  Hub fees are calculated as per Kg of AES plastic.  When offering ecobricks, the system will automatically calculate the net weight of your batch and the total fee to be paid to the community hub upon delivery.</p>
-
-            <br>
-
-                <h5>ℹ️ Learn about ecobrick storage: <a href="/how">How to make an ecobrick</a></h5>
-
          </div>
         </div>
 
@@ -393,7 +388,7 @@ margin-bottom: 31px;}
                         <br><img src="webp/albo-offer-350px.webp" width="100%" alt="eco brick being bought with a brikcoin by a bird" loading="lazy" alt="eco brick being bought with a brikcoin by a bird.">
                     </div>
                 </div>
-                <br><br>
+                
 			<a class="action-btn" href="https://gobrik.com/#market" target="_blank">🚀 Launch the Brik Market</a>
 			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window!</a></p>
 					<br>
@@ -409,7 +404,7 @@ margin-bottom: 31px;}
         <div id="side-module-desktop-mobile">
 					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
 					<h4>Global Ecobrick Alliance</h4>
-					<h5>The GEA is dedicated to accelerating plastic transition.  	We preside over the GoBrik and Brik Market platforms.</h5><br>
+					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik and Brik Market platforms.</h5><br>
                     <a class="module-btn" href="about.php">Learn More</a>
 					
 				</div>

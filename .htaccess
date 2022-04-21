@@ -136,6 +136,15 @@ RedirectMatch "^/index/" "/en/welcome.php"
 RedirectMatch "^/build" "/en/build.php"
 RedirectMatch "^/build/" "/en/build.php"
 
+RedirectMatch "^/drop-off" "/en/drop-off.php"
+RedirectMatch "^/drop-off/" "/en/drop-off.php"
+RedirectMatch "^/drop" "/en/drop-off.php"
+RedirectMatch "^/drop/" "/en/drop-off.php"
+RedirectMatch "^/market/" "/en/drop-off.php"
+RedirectMatch "^/market" "/en/drop-off.php"
+RedirectMatch "^/marketplace/" "/en/drop-off.php"
+RedirectMatch "^/marketplace" "/en/drop-off.php"
+
 #Alternate default index pages
 DirectoryIndex welcome.php index.php
 
