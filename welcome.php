@@ -201,7 +201,21 @@ _END;?>
 				</div>
 			</div>
 
-	
+			
+
+			<div id="slider3">
+
+<div id="slider-image">
+	<img src="photos/russell-earth-day-ecobrick-2022-450px.jpg" width="92%" height="100%" alt="Log an earth day selfie">
+</div>
+<div id="slider-textbox">
+	<div id="slider-heading">Share an Earth Day Selfie!</div>
+	<div id="slider-date">April 22, 2022 | GEA Annoucement</div>
+	<div id="slider-body">Keeping some plastic out of the biosphere is a great way to celebrate Earth Day.  Use our Earth Week frame, and share!</div>
+	<div id="slider-link">>> <a href="https://www.twibbonize.com/earthdayecobrick" target="_blank"><var>Earth Day Selfie Frame</var></a></div>
+
+</div>
+</div>
 
 
 <!--
