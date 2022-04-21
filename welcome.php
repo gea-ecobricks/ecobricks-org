@@ -178,13 +178,13 @@ _END;?>
 			<div id="slider1">
 
 				<div id="slider-image">
-					<img src="webp/earth-tree-400px.webp" width="92%" height="100%" alt="Our eco brick enterprise program">
+					<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
 				</div>
 				<div id="slider-textbox">
-					<div id="slider-heading">New Building Guide!</div>
-					<div id="slider-date">March 17th, 2022 | GEA Updates</div>
-					<div id="slider-body">We're excited to launch our fully updated overview of recommended ecobrick building methods.</div>
-					<div id="slider-link">>> <a href="build.php"> Building Overview</a></div>
+					<div id="slider-heading">The Brik Market is Launched</div>
+					<div id="slider-date">April 21, 2022 | GEA Annoucement</div>
+					<div id="slider-body">After three years of development, we're excited to launch a place to exchange, trade, barter and drop-off your ecobricks.</div>
+					<div id="slider-link">>> <a href="drop-off.php">The Brik Market</a></div>
 
 				</div>
 			</div>

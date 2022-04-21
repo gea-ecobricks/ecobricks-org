@@ -236,7 +236,7 @@ margin-bottom: 31px;}
 		<div class="splash-heading">The Brik Market</div>
 	    <div class="splash-sub">The place to arrange ecobrick exchanges, hubs, barters and drop-offs.</div>
 	</div>
-	<div class="splash-image"><img src="webp/brikmarket-400px.webp?v1.2" style="width: 80%">
+	<div class="splash-image"><img src="webp/brikmarket-400px.webp?v1.3" style="width: 80%">
     </div>	
 </div>
 <div id="splash-bar"></div>
