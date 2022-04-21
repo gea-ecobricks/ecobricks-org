@@ -251,7 +251,7 @@ _END;?>
 					<p>Our 2021 Ecological Accounting of our enterprise's Plastic, Carbon and Biodiversity impacts is now published and publicly available.</p>
 						<p>Persuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts to ensure that our net impact, across the board, is green.  To do so, we use a <a href="catalyst.php"> Catalyst account</a> to track our plastic, and we manually track our carbon and biodiveristy and yearly publish our full Regen Report here on ecobricks.org.</p>
 							
-						<p><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i" target="_blank">Download our official 2021 Regenerativity Report (PDF 1.2MB).</i><p> 
+						<p><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">Download our official 2021 Regenerativity Report (PDF 1.2MB).</i><p> 
 
 						<!--<p>You can also find a summary of the main categories of our reporting below.</p>-->
 
@@ -259,7 +259,7 @@ _END;?>
 				</div>
 
 				<div class="side2">
-					<br><a href="https://files.mandala.team/s/CDK3qx2o8Pnxy5i" target="_blank"><img src="webp/2020-regen-report.webp" width="100%"></a>
+					<br><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank"><img src="webp/2020-regen-report.webp" width="100%"></a>
 				</div>
 
 			
@@ -454,10 +454,12 @@ _END;?>
 			<hr><br>
 				<h4>Past Years</h4>
 				
-				<p>Access our reports from previous years:</p>
+				<p>Access our reports from all years:</p>
 				
 				<ul>
-					<li><a href="https://files.mandala.team/s/4Fmz3GX8Xr7JLaB" target="_blank">2020 Regen Report</a></li>
+					<li>2022 GEA Regen Report (to be published January 1st, 2023)
+					<li><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">2021 GEA Regen Report</a></li>
+					<li><a href="https://files.ecobricks.org/s/ANNmsTJtHA4LSzP" target="_blank">2020 Regen Report</a></li>
 					<li>2019 Regen Report (reformat pending)</li>
 				</ul>
 				<br>
