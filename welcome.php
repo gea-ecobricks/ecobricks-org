@@ -203,19 +203,6 @@ _END;?>
 
 			
 
-			<div id="slider3">
-
-<div id="slider-image">
-	<img src="photos/russell-earth-day-ecobrick-2022-450px.jpg" width="92%" height="100%" alt="Log an earth day selfie">
-</div>
-<div id="slider-textbox">
-	<div id="slider-heading">Share an Earth Day Selfie!</div>
-	<div id="slider-date">April 22, 2022 | GEA Annoucement</div>
-	<div id="slider-body">Keeping some plastic out of the biosphere is a great way to celebrate Earth Day.  Use our Earth Week frame, and share!</div>
-	<div id="slider-link">>> <a href="https://www.twibbonize.com/earthdayecobrick" target="_blank"><var>Earth Day Selfie Frame</var></a></div>
-
-</div>
-</div>
 
 
 <!--
@@ -321,8 +308,8 @@ _END;?>
 					<div id="slider-date">GEA Services</div>
 					<div id="slider-body">Our plastic offsetting system allows you to take personal responsibility for your household or enterprise plastic generation... and energize the global plastic transition movement!</div>
 					<div id="slider-link">>> <a href="aes"> AES Plastic & Offsetting</a></div>
-	-->
-			<div id="slider4">
+
+						<div id="slider4">
 
 				<div id="slider-image"><br><img src="webp/2020-regen-report.webp"  width="100%" height="85%"></div>
 				<div id="slider-textbox">
@@ -331,6 +318,23 @@ _END;?>
 					<div id="slider-body">Over the last year the GEA is proud to have supported 182 species, increased the space by which we host them by 32%, and directly removed 1,472kgs of plastic and 4,448kg of plastic from the biosphere! The full 2021 accounting of our enterprise's ecological accounting is now up for public disclosure!</div>
 					<div id="slider-link">>> <a href="2021-regenreport.php"> Regen Report</a></div>
 					
+				</div>
+			</div>
+	-->
+		
+
+
+			<div id="slider4">
+
+				<div id="slider-image">
+					<img src="photos/russell-earth-day-ecobrick-2022-450px.jpg" width="92%" height="100%" alt="Log an earth day selfie">
+				</div>
+				<div id="slider-textbox">
+					<div id="slider-heading">Share an Earth Day Selfie!</div>
+					<div id="slider-date">April 22, 2022 | GEA Annoucement</div>
+					<div id="slider-body">Keeping some plastic out of the biosphere is a great way to celebrate Earth Day.  Use our Earth Week frame, and share!</div>
+					<div id="slider-link">>> <a href="https://www.twibbonize.com/earthdayecobrick" target="_blank"><var>Earth Day Selfie Frame</var></a></div>
+
 				</div>
 			</div>
 
