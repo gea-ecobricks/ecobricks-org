@@ -270,7 +270,7 @@ margin-bottom: 31px;}
                     
                     <div class="opener-header-text">
                     <h4>Provide Ecobricks</h4>
-                    <h5>Use the <var>brik market</var> to arrange exchanges or drop-offs of your ecobricks.</h5>   
+                    <h5>"Where can I deliver ecobricks near me?"</h5>   
                     <br>
                     </div>
 
@@ -282,7 +282,8 @@ margin-bottom: 31px;}
                 <div class="row">
 						<div class="main2">
 
-                		<p>Ecobricks are awesome for small home projects.  However, sometimes ecobrickers do not have space in their home or they want to assist projects in their community.  On the <var>brik market</var> you can post an offer to give your ecobricks away, to trade or barter with them.  All you need is a (free) GoBrik account, a selection of logged and authenticated ecobricks.</p>
+                		<p>Use the <var>brik market</var> to arrange exchanges or drop-offs of your ecobricks.</p>
+						<p>Ecobricks are awesome for small home projects.  However, sometimes ecobrickers do not have space in their home or they want to assist projects in their community.  On the <var>brik market</var> you can post an offer to give your ecobricks away, to trade or barter with them.  All you need is a (free) GoBrik account, a selection of logged and authenticated ecobricks.</p>
 
 						</div>
 						<div class="side2"><img src="webp/various-briks-400px.webp" width="100%">
@@ -323,7 +324,7 @@ margin-bottom: 31px;}
                     
                     <div class="opener-header-text">
                     <h4>Receive Ecobricks</h4>
-                    <h5>Source ecobricks for your projects or store them for the community.</h5>   
+                    <h5>"Where can I find ecobricks near me?".</h5>   
                     <br>
                     </div>
 

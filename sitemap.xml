@@ -77,12 +77,7 @@
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
-   <url>
-      <loc>https://ecobricks.org/dropoff/</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
+
    <url>
       <loc>https://ecobricks.org/modules/</loc>
       <lastmod>2022-03-11T21:46:06+00:00</lastmod>
@@ -171,11 +166,6 @@
       <changefreq>monthly</changefreq>
       <priority>0.4</priority>
    </url>
-   <url>
-      <loc>https://ecobricks.org/brikcoins</loc>
-      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.4</priority>
-   </url>
+
   
 </urlset> 

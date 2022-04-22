@@ -838,6 +838,79 @@
                href="https://ecobricks.org/en/media.php"/>
    </url>
 
+<!--DROP OFF-->
+
+   <url>
+      <loc>https://ecobricks.org/en/drop-off.php</loc>
+      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+
+      <xhtml:link
+               rel="alternate"
+               hreflang="es"
+               href="https://ecobricks.org/es/drop-off.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="id"
+               href="https://ecobricks.org/id/drop-off.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/en/drop-off.php"/>
+   </url>
+
+   <url>
+      <loc>https://ecobricks.org/es/drop-off.php</loc>
+      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+
+      <xhtml:link
+               rel="alternate"
+               hreflang="es"
+               href="https://ecobricks.org/es/drop-off.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="id"
+               href="https://ecobricks.org/id/drop-off.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/en/drop-off.php"/>
+   </url>
+
+   <url>
+      <loc>https://ecobricks.org/id/drop-off.php</loc>
+      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+
+       <xhtml:link
+               rel="alternate"
+               hreflang="es"
+               href="https://ecobricks.org/es/drop-off.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="id"
+               href="https://ecobricks.org/id/drop-off.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/en/drop-off.php"/>
+   </url>
+
+   <!--BRIKCOINS-->
+
+   <url>
+      <loc>https://ecobricks.org/brikcoins.php</loc>
+      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.7</priority>
+
+   </url>
+
+
 
   
 </urlset> 
