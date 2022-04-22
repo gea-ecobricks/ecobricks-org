@@ -233,7 +233,7 @@ margin-bottom: 31px;}
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">The <var><var>brik market</var></var></div>
+		<div class="splash-heading">The <var><var>Brik Market</var></var></div>
 	    <div class="splash-sub">The place to arrange ecobrick exchanges, hubs, barters and drop-offs.</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikmarket-400px.webp?v1.3" style="width: 80%">
@@ -253,14 +253,14 @@ margin-bottom: 31px;}
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Got ecobricks?  Need ecobricks? For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new <var>brik market</var>!  This is the place to arrange ecobrick exchanges with local ecobrickers and community hubs.</p>
+				<p>Got ecobricks?  Need ecobricks? For Earth Day 2022, the Global Ecobrick Alliance is excited to launch the new <var>Brik Market</var>!  This is the place to arrange ecobrick exchanges with local ecobrickers and community hubs.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
 
-            <p>The <a href="https://gobrik.com/#market" target="_blank"><var>brik market</var></a> has been under development for the last three years by the <a href="about.php">Global Ecobrick Alliance (GEA)</a>.  It is a space where ecobricked plastic can be used as a medium of local exchange and currency-- a key part of the GEA's mission of accelerating <a href="transition.php">plastic transition</a> and adding further value the ecological service of <a href="sequest.php">plastic sequestration</a>.  The <var>brik market</var> <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">brikcoin manual blockchain</a>.</p>
+            <p>The <a href="https://gobrik.com/#market" target="_blank"><var>Brik Market</var></a> has been under development for the last three years by the <a href="about.php">Global Ecobrick Alliance (GEA)</a>.  It is a space where ecobricked plastic can be used as a medium of local exchange and currency-- a key part of the GEA's mission of accelerating <a href="transition.php">plastic transition</a> and adding further value the ecological service of <a href="sequest.php">plastic sequestration</a>.  The <var>Brik Market</var> <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">brikcoin manual blockchain</a>.</p>
 		
             </div>	
 			<a name="DROP"></a>
@@ -270,7 +270,7 @@ margin-bottom: 31px;}
                     
                     <div class="opener-header-text">
                     <h4>Provide Ecobricks</h4>
-                    <h5>"Where can I deliver ecobricks near me?"</h5>   
+                    <h5>"Where can I drop, donate or deliver ecobricks near me?"</h5>   
                     <br>
                     </div>
 
@@ -282,27 +282,27 @@ margin-bottom: 31px;}
                 <div class="row">
 						<div class="main2">
 
-                		<p>Use the <var>brik market</var> to arrange exchanges or drop-offs of your ecobricks.</p>
-						<p>Ecobricks are awesome for small home projects.  However, sometimes ecobrickers do not have space in their home or they want to assist projects in their community.  On the <var>brik market</var> you can post an offer to give your ecobricks away, to trade or barter with them.  All you need is a (free) GoBrik account, a selection of logged and authenticated ecobricks.</p>
+                		<p>Use the <var>Brik Market</var> to arrange exchanges or drop-offs of your ecobricks.</p>
+						<p>Ecobricks are awesome for small home projects.  However, sometimes ecobrickers do not have space in their home or they want to assist projects in their community.  On the <var>Brik Market</var> you can post an offer to give your ecobricks away, to trade or barter with them.  All you need is a (free) GoBrik account, a selection of logged and authenticated ecobricks.</p>
 
 						</div>
-						<div class="side2"><img src="webp/various-briks-400px.webp" width="100%">
+						<div class="side2"><img src="webp/various-briks-400px.webp" width="100%" alt="where to donate ecobricks near me?">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p><b>Authenticated Ecobricks Only</b></p>
 						</div>
-						<div class="side3"><img src="webp/various-briks-400px.webp" width="150px">
+						<div class="side3"><img src="webp/various-briks-400px.webp" width="150px" alt="where to donate eco bricks near me?">
 						</div>
 					</div>
                 
 
-                <p>The <var>brik market</var> only works with ecobricks that have been logged onto the GoBrik app and that have been sucessfully authenticated to meet GEA standards.  This way, community hubs and project leaders can review the ecobricks that are being offered, and be confident that they are properly made</p>
+                <p>The <var>Brik Market</var> only works with ecobricks that have been logged onto the GoBrik app and that have been sucessfully authenticated to meet GEA standards.  This way, community hubs and project leaders can review the ecobricks that are being offered, and be confident that they are properly made</p>
 
                 <br>
                 <!--<p><b>Sell</b></p>
-                <p>On the <var>brik market</var> you can offer your ecobricks for exchange or delivery.  Ecobricks are priced on the Market per kg of authenticated ecobricked plastic.  Once you have offered the rate by which you wish to sell, the system calculates the batch price of your offer using the logged weight of the ecobricks you have selected to offer for sale.</p>-->
+                <p>On the <var>Brik Market</var> you can offer your ecobricks for exchange or delivery.  Ecobricks are priced on the Market per kg of authenticated ecobricked plastic.  Once you have offered the rate by which you wish to sell, the system calculates the batch price of your offer using the logged weight of the ecobricks you have selected to offer for sale.</p>-->
 
                 <br><p><b>Offer for Nothing at All</b><p>
                 <p>Alternatively you can offer your ecobricks gratis. Be sure to specify the details for delivery when you make your offer</p>
@@ -328,13 +328,13 @@ margin-bottom: 31px;}
                     <br>
                     </div>
 
-                    <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10">+</button>
+                    <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10" alt="Where can I find ecobricks near me?">+</button>
                 </div>
 
                 <div id="preclosed10">
         <br>
 
-            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
+            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="Where can I find ecobricks near me?" loading="lazy">
 
             <br>
             <p><b>Community Hubs</b></p>
@@ -352,7 +352,7 @@ margin-bottom: 31px;}
 				<div class="opener-header">
 					<div class="opener-header-text">
 						<h4>Pricing Ecobricked Plastic</h4>
-						<h5>On the <var>brik market</var> ecobricks are priced per Kg of AES plastic.</h5><br>
+						<h5>On the <var>Brik Market</var> ecobricks are priced per Kg of AES plastic.</h5><br>
 					</div>
 					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 				</div>
@@ -380,7 +380,7 @@ margin-bottom: 31px;}
                       <div class="main2">
                          <h4>Start Exchanging</h4>
                         
-                         <p>Starting perusing the <var><var>brik market</var></var> today.  You'll need your GoBrik account to take or post offers. But that's ok, its easy and free to create one!</p>
+                         <p>Starting perusing the <var><var>Brik Market</var></var> today.  You'll need your GoBrik account to take or post offers. But that's ok, its easy and free to create one!</p>
 
                     </div>
 
@@ -388,7 +388,7 @@ margin-bottom: 31px;}
                         <br><img src="webp/albo-offer-350px.webp" width="90%" alt="eco brick being bought with a brikcoin by a bird" loading="lazy" alt="eco brick being bought with a brikcoin by a bird.">
                     </div>
                 </div>
-			<a class="action-btn" href="https://gobrik.com/#market" target="_blank">🚀 Launch the <var><var>brik market</var></var></a>
+			<a class="action-btn" href="https://gobrik.com/#market" target="_blank">🚀 Launch the <var><var>Brik Market</var></var></a>
 			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window!</a></p>
             </div>
             
@@ -402,7 +402,7 @@ margin-bottom: 31px;}
         <div id="side-module-desktop-mobile">
 					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
 					<h4>Global Ecobrick Alliance</h4>
-					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik and <var><var>brik market</var></var> platforms.</h5><br>
+					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik and <var><var>Brik Market</var></var> platforms.</h5><br>
                     <a class="module-btn" href="about.php">Learn More</a>
 					
 				</div>
@@ -410,7 +410,7 @@ margin-bottom: 31px;}
             <div id="side-module-desktop-mobile">
                 <img src="webp/brikcoins-450px.webp" width="100%" loading="lazy" alt="eco brik brikcoin blockchain">
                 <h4>Brikcoin Blockchain</h4>
-                <h5>The <var><var>brik market</var></var> makes use of authenticated ecobrick sequestered plastic that has been validated on our chain.</h5><br>
+                <h5>The <var><var>Brik Market</var></var> makes use of authenticated ecobrick sequestered plastic that has been validated on our chain.</h5><br>
                 <a class="module-btn" href="brikcoins.php">Learn More</a>
             </div>
 

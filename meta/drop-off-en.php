@@ -2,7 +2,7 @@
 
 <title>The Brik Market  |  Drop off & Exchange Ecobricks</title>
 
-<meta name="keywords" content="ecobrick drop off, ecobrick near me, eco bricks near me, drop, dropoff, ecobrick community hub, exchange, trade, seel, buy, ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions,">
+<meta name="keywords" content="ecobrick drop off, ecobrick near me, eco bricks near me, drop, dropoff, ecobrick community hub, exchange, trade, seel, buy, ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, where to donate ecobricks near me">
 
 <meta name="description" content="The place to arrange ecobrick exchanges, hubs, barters and drop-offs.">
 	
