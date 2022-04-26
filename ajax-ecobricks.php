@@ -25,7 +25,6 @@ $table = 'vw_ecobricks_desc';
  
 // Table's primary key
 $primaryKey = 'serial_no';
- 
 
 // Array of database columns which should be read and sent back to DataTables.
 // The `db` parameter represents the column name in the database, while the `dt`
@@ -87,7 +86,7 @@ $columns = array(
     array( 'db' => 'serial_no',     
         'dt' => 7,
         'formatter' => function( $d, $row ) {
-            return '<a href="brik.php?='.($d).'">'.($d).'</a>';
+            return '<a href="ecobrick-detail.php?serial_no='.($d).'">'.($d).'</a>';
         }
     ),
   
