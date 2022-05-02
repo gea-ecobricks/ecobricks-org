@@ -1,0 +1,1 @@
+Specific details will appear here on the selected Cash Transaction.
