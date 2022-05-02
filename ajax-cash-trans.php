@@ -34,7 +34,7 @@ $primaryKey = 'cash_tran_id';
 $columns = array(
   array( 'db' => 'cash_tran_id',     'dt' => 0,
   'formatter' => function( $d, $row ) {
-    return '<a href="cash-details.php?='.($d).'"><var>'.($d).'</var></a>';
+    return '<a href="details-cash-trans.php?='.($d).'" target="_blank"><var>'.($d).'</var></a>';
 }
 ),
 

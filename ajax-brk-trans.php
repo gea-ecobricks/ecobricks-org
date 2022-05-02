@@ -34,7 +34,7 @@ $primaryKey = 'tran_id';
 $columns = array(
   array( 'db' => 'tran_id',     'dt' => 0,
   'formatter' => function( $d, $row ) {
-    return '<a href="brk-trans-details.php?='.($d).'"><var>'.($d).'</var></a>';
+    return '<a href="details-brk-trans.php?='.($d).'"><var>'.($d).'</var></a>';
 }
 ),
 
@@ -68,7 +68,7 @@ $columns = array(
     array( 'db' => 'ecobrick_serial_no',
     'dt' => 7,
     'formatter' => function( $d, $row ) {
-    return '<a href="ecobrick-details.php?='.($d).'">'.($d).'</a>';
+    return '<a href="details-ecobrick.php?='.($d).'">'.($d).'</a>';
 }
 ),
   
