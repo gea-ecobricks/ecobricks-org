@@ -320,7 +320,7 @@ $(document).ready(function() {
 $serialNo = $_GET['serial_no'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM vw_ecobricks_desc WHERE serial_no = " . $serialNo;
+$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = " . $serialNo;
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -351,9 +351,9 @@ if ($result->num_rows > 0) {
 		echo " Community = <var>" . $array["community_name"] ."</var></br>" ;
 		echo " Brand  = <var>" . $array["brand_name"] ."</var></br>" ;
 		echo " Bottom colour = <var>" . $array["bottom_colour"] ."</var></br>" ;
-		echo " Plastic from  = <var>" . $array["plastic_from"] ."</var></br>" ;
+		echo " <p>Plastic from  = <var>" . $array["plastic_from"] ."</var></p></br>" ;
 		echo " <p>Display value = " . $array["ecobrick_brk_display_value"] ."</p></br>" ;
-		echo " Brickcoin amount = " . $array["ecobrick_brk_amt"] ."&#8202;ß</br>" ;
+		echo " <p>Brikcoin amount = " . $array["ecobrick_brk_amt"] ."&#8202;ß</p></br>" ;
 		
     }
 } else {
