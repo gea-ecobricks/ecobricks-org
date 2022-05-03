@@ -330,11 +330,11 @@ if ($result->num_rows > 0) {
 
 		echo "</br><h3> Recovered Detail for Ecobrick Serial No: #" . $array["serial_no"] ."</h3> </br>";
 		echo " Owner = " . $array["owner"] ." </br>" ;
-		echo " Volume  = " . $array["volume_ml"] ." ml </br>" ;
-		echo " Weight = " . $array["weight_g"] ." g </br>" ;
-		echo " Density = " . $array["density"] ." </br>" ;
-		echo " Dated = " . $array["date_logged_ts"] ." </br>" ;
-		echo " CO2 = " . $array["CO2_kg"] ." kg </br>" ;
+		echo " <p>Volume  = " . $array["volume_ml"] ."&#8202;ml</p></br>" ;
+		echo " <p>Weight = " . $array["weight_g"] ."&#8202;g</p></br>" ;
+		echo " <p>Density = " . $array["density"] ." </p></br>" ;
+		echo " <p>Dated = " . $array["date_logged_ts"] ." </p></br>" ;
+		echo " <p>CO2e = <var>" . $array["CO2_kg"] ."&#8202;kg</p></var></br>" ;
 		echo " Sequestration type = <var>" . $array["sequestration_type"]."</var></br>" ;
 		echo " Last validation time = " . $array["last_validation_ts"] ."</br>" ;
 		echo " Validator 1 = <var>" . $array["validator_1"] ."</var> </br>" ;
