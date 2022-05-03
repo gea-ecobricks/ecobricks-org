@@ -352,8 +352,8 @@ if ($result->num_rows > 0) {
 		echo " Brand  = <var>" . $array["brand_name"] ."</var></br>" ;
 		echo " Bottom colour = <var>" . $array["bottom_colour"] ."</var></br>" ;
 		echo " Plastic from  = <var>" . $array["plastic_from"] ."</var></br>" ;
-		echo " Display value = " . $array["ecobrick_brk_display_value"] ."</br>" ;
-		echo " BrickCoin amount = " . $array["ecobrick_brk_amt"] ."BRK </br>" ;
+		echo " <p>Display value = " . $array["ecobrick_brk_display_value"] ."</p></br>" ;
+		echo " Brickcoin amount = " . $array["ecobrick_brk_amt"] ."&#8202;ß</br>" ;
 		
     }
 } else {
