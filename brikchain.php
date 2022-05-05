@@ -469,6 +469,8 @@ Open Link in Popup<br></a></p>
 
 <a href="#" onclick="window.open('brikchain.php', 'yourWindowName', 'width=200,height=150');">Test2</a>
 
+<a href="details-ecobrick.php?serial_no=186501" target="popup" onclick="window.open('details-ecobrick.php?serial_no=186501','popup','width=600,height=800'); return false;">186501</a>
+
 
 			</div>
 

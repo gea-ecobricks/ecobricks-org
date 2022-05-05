@@ -87,7 +87,7 @@ $columns = array(
         'dt' => 7,
         'formatter' => function( $d, $row ) {
             return '<a href="details-ecobrick.php?serial_no='.($d).'" target="popup"
-            onclick="window.open(\'details-ecobrick.php?serial_no='.($d).',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
+            onclick="window.open(\'details-ecobrick.php?serial_no='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
         }
     ),
   
