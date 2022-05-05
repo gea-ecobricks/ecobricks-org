@@ -454,12 +454,21 @@ $(document).ready(function() {
 			<div class="lead-page-paragraph">
 				
 				<br>
-				<br><p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">brikcoin currency's</a> blockchain and provides the Brikchain Explorer inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
+				<br><p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">brikcoin manual blockchain</a> inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
 				<p>Here you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and ecobricked authenticated plastic (<a href="aes">AES plastic</a>).</p>
+			
+
+<p><a href="http://kanishkkunal.com" 
+  target="popup" 
+  onclick="window.open('http://kanishkkunal.com','popup','width=600,height=600'); return false;">
+    Open Link in Popup
+</a></p>
+
+
 			</div>
 
 			<br>
@@ -544,7 +553,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 	<div class="page-paragraph">
 
 <h4>Authenticated Ecobricks</h4>
-<h6>All the ecobricks authenticated on the chain.</h6>
+<h6>All the ecobricks authenticated and archived on chain.</h6>
 </div>
 
 <div class="overflow">
