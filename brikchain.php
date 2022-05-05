@@ -463,7 +463,7 @@ $(document).ready(function() {
 			
 
 <p><a href="http://kanishkkunal.com" target="popup" onclick="window.open('/brikchain','popup','width=600,height=600'); return false;" rel="noopener"><br>
-Open Link in Popup<br></p>
+Open Link in Popup<br></a></p>
 
 <a href="javascript:window.open('brikchain.php', 'Hello Friend', 'width=200,height=150');">Test</a>
 
