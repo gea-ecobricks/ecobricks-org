@@ -59,7 +59,7 @@ if ($result->num_rows > 0) {
     //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row
     while($array = $result->fetch_assoc()) {
 
-		echo '<img src="'. $array["ecobrick_full_photo_url"] .' width="500" alt="Ecobrick basic pic"/>';
+		echo '<img src="'. $array["ecobrick_full_photo_url"] .'" width="500" alt="Ecobrick basic pic"/>';
 		echo "</br><h3>Ecobrick Serial No: <var>" . $array["serial_no"] ."</var></h3> </br>";
 		echo " <p><b>Owner:</b> <var>" . $array["owner"] ."</var> </p>" ;
 		echo " <p><b>Volume:</b> <var>" . $array["volume_ml"] ."&#8202;ml</p>" ;
