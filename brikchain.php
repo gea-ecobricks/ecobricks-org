@@ -454,23 +454,12 @@ $(document).ready(function() {
 			<div class="lead-page-paragraph">
 				
 				<br>
-				<br><p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">brikcoin manual blockchain</a> inline with <a href="/principles">our principles</a> of transparency and Earth service.</p>
+				<br><p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">brikcoin manual blockchain</a> inline with <a href="/principles">our regenerative and for-Earth principles</a>.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>Here you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and ecobricked authenticated plastic (<a href="aes">AES plastic</a>).</p>
-			
-
-<p><a href="http://kanishkkunal.com" target="popup" onclick="window.open('/brikchain','popup','width=600,height=600'); return false;" rel="noopener"><br>
-Open Link in Popup<br></a></p>
-
-<a href="javascript:window.open('brikchain.php', 'Hello Friend', 'width=200,height=150');">Test</a>
-
-<a href="#" onclick="window.open('brikchain.php', 'yourWindowName', 'width=200,height=150');">Test2</a>
-
-<a href="details-ecobrick.php?serial_no=186501" target="popup" onclick="window.open('details-ecobrick.php?serial_no=186501','popup','width=600,height=800'); return false;">186501</a>
-
+				<p>Here on the Brikchain explorer you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and ecobricked authenticated plastic (<a href="aes">AES plastic</a>).</p>
 
 			</div>
 
