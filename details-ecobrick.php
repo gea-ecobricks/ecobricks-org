@@ -70,7 +70,7 @@ if ($result->num_rows > 0) {
 		echo " <p><b>Validation score avg:</b> <var>" . $array["validation_score_avg"] ."</var></p>" ;
 		echo " <p><b>Last ownership change:</b> <var>" . $array["last_ownership_change"] ."</var></p>" ;
 		echo " <p><b>Final validation score:</b> <var>" . $array["final_validation_score"] ."</var></p>" ;
-		echo " <p><b>Authenticated weight:</b> <var> " . $array["weight_authenticated_kg"] ."#8202;kg</var></p>" ;
+		echo " <p><b>Authenticated weight:</b> <var> " . $array["weight_authenticated_kg"] ."&#8202;kg</var></p>" ;
 		echo " <p><b>Country:</b> " . $array["location_country"] ."</p>" ;
 		echo " <p><b>Region:</b> <var>" . $array["location_region"] ."</var></p>" ;
 		echo " <p><b>City:</b> <var>" . $array["location_city"] ."</var></p>" ;
