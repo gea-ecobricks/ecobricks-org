@@ -122,6 +122,7 @@ if ($result->num_rows > 0) {
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
 
+		echo '<img src="'. $array["ecobrick_thumb_photo_url"] .' width="500" alt="Ecobrick basic pic"/>';
 		echo "</br><h3>Ecobrick Serial No: <var>" . $array["serial_no"] ."</var></h3> </br>";
 		echo " <p>Owner: <var>" . $array["owner"] ."</var> </p>" ;
 		echo " <p>Volume: <var>" . $array["volume_ml"] ."&#8202;ml</p>" ;
@@ -148,6 +149,10 @@ if ($result->num_rows > 0) {
 		echo " <p>Plastic from  = <var>" . $array["plastic_from"] ."</var></p></br>" ;
 		echo " <p>Display value = " . $array["ecobrick_brk_display_value"] ."</p></br>" ;
 		echo " <p>Brikcoin amount = " . $array["ecobrick_brk_amt"] ."&#8202;ß</p></br>" ;
+		echo " <p>Brikcoin amount = " . $array["ecobrick_dec_brk_val"] ."&#8202;ß</p></br>" ;
+
+
+		
 		
     }
 } else {

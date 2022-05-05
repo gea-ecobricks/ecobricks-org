@@ -86,17 +86,20 @@ $columns = array(
     array( 'db' => 'serial_no',     
         'dt' => 7,
         'formatter' => function( $d, $row ) {
-            return '<a href="details-ecobrick.php?serial_no='.($d)." target="popup"
-            onclick="window.open('details-ecobrick.php?serial_no='.($d).','popup','width=600,height=600'); return false;">'.($d).'</a>';
+            return '<a href="details-ecobrick.php?serial_no='.($d).'">'.($d).'</a>';
         }
     ),
   
 );
 
-
-
-
-
+/*    array( 'db' => 'serial_no',     
+        'dt' => 7,
+        'formatter' => function( $d, $row ) {
+            return '<a href="details-ecobrick.php?serial_no='.($d)." target="popup"
+            onclick="window.open('details-ecobrick.php?serial_no='.($d).','popup','width=600,height=600'); return false;">'.($d).'</a>';
+        }
+    ),
+    */
 
  
 // SQL server connection information
