@@ -462,11 +462,8 @@ $(document).ready(function() {
 				<p>Here you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and ecobricked authenticated plastic (<a href="aes">AES plastic</a>).</p>
 			
 
-<p><a href="http://kanishkkunal.com" 
-  target="popup" 
-  onclick="window.open('http://kanishkkunal.com','popup','width=600,height=600'); return false;">
-    Open Link in Popup
-</a></p>
+<p><a href="http://kanishkkunal.com" target="popup" onclick="window.open('/brikchain','popup','width=600,height=600'); return false;" rel="noopener"><br>
+Open Link in Popup<br></p>
 
 
 			</div>
