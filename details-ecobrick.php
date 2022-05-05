@@ -61,8 +61,8 @@ if ($result->num_rows > 0) {
 
 		echo '<img src="'. $array["ecobrick_thumb_photo_url"] .' width="500" alt="Ecobrick basic pic"/>';
 		echo "</br><h3>Ecobrick Serial No: <var>" . $array["serial_no"] ."</var></h3> </br>";
-		echo " <p>Owner: <var>" . $array["owner"] ."</var> </p>" ;
-		echo " <p>Volume: <var>" . $array["volume_ml"] ."&#8202;ml</p>" ;
+		echo " <p><b>Owner:</b> <var>" . $array["owner"] ."</var> </p>" ;
+		echo " <p><b>Volume:</b> <var>" . $array["volume_ml"] ."&#8202;ml</p>" ;
 		echo " <p>Weight: <var>" . $array["weight_g"] ."&#8202;g</var></p>" ;
 		echo " <p>Density: <var>" . $array["density"] ."</var></p>" ;
 		echo " <p>Dated: <var>" . $array["date_logged_ts"] ."</var></p>" ;
