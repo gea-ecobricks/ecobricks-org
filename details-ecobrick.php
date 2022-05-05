@@ -1,87 +1,24 @@
-	
+<!-- This calls GEA typography -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Mulish loads first for first page view-->
+
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+
+<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  -->
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
+</noscript>
+		
+<!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
+		
+<link rel="stylesheet" type="text/css" href="stylesheet-general.css?v0.14">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
-  
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
-
-<script>
-
-$(document).ready(function() {
-    $('#brikchain').DataTable( {
-		"processing": true,
-        "serverSide": true,
-		"ajax": "ajax.php"
-
-    } );
-} );
-
-</script>
-<script>
-
-$(document).ready(function() {
-    $('#ecobricks').DataTable( {
-		"processing": true,
-        "serverSide": true,
-		"ajax": "ajax-ecobricks.php"
-
-    } );
-} );
-
-</script>
-
-<style>
-#brikchain {
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  font-weight: 300;
-}
-
-#brikchain td, #brikchain th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#brikchain tr:nth-child(even){background-color: #f2f2f2;}
-
-#brikchain tr:hover {background-color: #ddd;}
-
-#brikchain th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #E39009;
-  color: white;
-}
-</style>
-
-<style>
-#ecobricks {
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  font-weight: 300;
-}
-
-#ecobricks td, #ecobricks th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#ecobricks tr:nth-child(even){background-color: #f2f2f2;}
-
-#ecobricks tr:hover {background-color: #ddd;}
-
-#ecobricks th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #E39009;
-  color: white;
-}
-</style>
 
 </head>
 
@@ -118,8 +55,8 @@ $sql = "SELECT * FROM tb_ecobricks WHERE serial_no = " . $serialNo;
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
-	echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>";
-    //  Output data of each row
+	
+    //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row
     while($array = $result->fetch_assoc()) {
 
 		echo '<img src="'. $array["ecobrick_thumb_photo_url"] .' width="500" alt="Ecobrick basic pic"/>';
@@ -137,7 +74,7 @@ if ($result->num_rows > 0) {
 		echo " <p>Validator 3: <var>" . $array["validator_3"] ."</var> </p>" ;
 		echo " <p>Validation score avg: <var>" . $array["validation_score_avg"] ."</var></p>" ;
 		echo " <p>Last ownership change: " . $array["last_ownership_change"] ."</var></p>" ;
-		echo " Final validation score = " . $array["final_validation_score"] ."</br>" ;
+		echo " <p>Final validation score: " . $array["final_validation_score"] ."</br>" ;
 		echo " Weight authenticated = " . $array["weight_authenticated_kg"] ."kg</br>" ;
 		echo " Country = <var>" . $array["location_country"] ."</var></br>" ;
 		echo " Region = <var>" . $array["location_region"] ."</var></br>" ;
@@ -166,11 +103,6 @@ $conn->close();
 
 </div>
 
-	<!--FOOTER STARTS HERE-->
-
-	<?php include 'footer.php'; ?>
-
-	<!--FOOTER ENDS HERE-->
 </div>
 </body>
 </html>
