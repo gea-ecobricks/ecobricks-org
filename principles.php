@@ -47,6 +47,15 @@ _END;?>
 		background-color: #667C09;
 		margin-top: 50px;
 
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: 45px;
+		width: 100%;
+		display: flex;
+ 		box-sizing: border-box;
+		flex-direction: column;
+		position: relative;
+
 	}
 }
 
@@ -63,6 +72,16 @@ _END;?>
     	background-size: contain;
 		background-color: #667C09;
 		margin: 0 0 -20px 0;
+
+		background-repeat: no-repeat;
+		margin: -3px 0 -20px 0;
+		display: flex;
+ 		flex-wrap: wrap;
+ 		box-sizing: border-box;
+		flex-direction: row;
+		width: 100%;
+		background-size: cover;
+		position: relative;
 
 }
 }
@@ -183,7 +202,7 @@ _END;?>
 	<div id="splash-box">
 		<div class="splash-heading">Regenerative Principles</div>
 		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
-		</div>
+	</div>
 	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp"style="width: 80%;">
 	</div>
 </div>
@@ -221,8 +240,8 @@ _END;?>
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Ecological Value</h4>
-                    <h5>In following the Earth's example we can generate authentic ecological value.</h5>   
+                    <h4>Following the Earth's Example</h4>
+                    <h5>We strive to emulate the Earth’s example of ever greening the biosphere.</h5>   
                     <br>
                     </div>
 
@@ -262,8 +281,8 @@ _END;?>
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Proof of Value</h4>
-                    <h5>Brikcoins are based on the ecological value of sequestered plastic and petro-capital transition.</h5>   
+                    <h4>Leading by Example</h4>
+                    <h5>Ghandi once said “be the change you want to see in the world“. </h5>   
                     <br>
                     </div>
 
@@ -304,7 +323,7 @@ _END;?>
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>A Manual Blockchain</h4>
+                    <h4>Locally Replicable</h4>
                     <h5>Brikcoins are generated and verified by human labour.</h5>   
                     <br>
                     </div>
@@ -347,7 +366,7 @@ _END;?>
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>White Paper</h4>
+                    <h4>Circular</h4>
                     <h5>The Commodification of Sequestered Plastic</h5>   
                     <br>
                     </div>
