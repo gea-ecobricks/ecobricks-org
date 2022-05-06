@@ -104,7 +104,7 @@ _END;?>
   flex: 65%;
 	padding: 10px 30px 0px 0px;
 	box-sizing: border-box;
-	text-align: right;
+	text-align: left;
 }
 }
 
@@ -138,10 +138,10 @@ _END;?>
 
 
 .splash-heading { 
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: white;
-  font-weight: 500;
-  text-shadow: 0 0 8px black;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 300;
+  text-shadow: 0 0 10px #fff;
 
 }
 
@@ -163,10 +163,11 @@ _END;?>
 
 
 .splash-sub {
-  font-family: 'Arvo', Georgia, serif;
-  color: grey;
+	font-family: 'Arvo', Georgia, serif;
+  color: white;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
+  text-shadow: 0 0 8px black;
 }
 
 @media screen and (max-width: 700px) {
