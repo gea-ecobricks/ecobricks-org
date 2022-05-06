@@ -76,7 +76,6 @@ _END;?>
  		 box-sizing: border-box;
 		  flex-direction: row;
 		  width: 100%;
-		  background-size: cover;
 
 	position: relative;
 
@@ -223,13 +222,12 @@ _END;?>
 
 <!--SPLASH SECTION-->
 
-<div id="splash-bar"></div>
 
 
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Regenerative Principles</div>
-		<!--<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>-->
+		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
 	</div>
 	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 70%;"></div>	
 </div>
