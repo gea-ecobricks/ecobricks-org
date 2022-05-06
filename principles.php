@@ -66,21 +66,19 @@ _END;?>
 		height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
-		position: relative;
-		
         
 		background: url(webp/principles-banner-1600px.webp) top;
         background-color: #667C09;
-		background-size: contain;
+		background-size: cover;
 		
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
- 		 flex-wrap: wrap;
- 		 box-sizing: border-box;
-		  flex-direction: row;
-		  width: 100%;
-		  background-size: cover;
+ 		flex-wrap: wrap;
+ 		box-sizing: border-box;
+		flex-direction: row;
+		width: 100%;
+		background-size: cover;
 
 	position: relative;
 
@@ -204,7 +202,7 @@ _END;?>
 	z-index: 0;
 
 box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-    background-color: #2A91DA;
+    background-color: #667C09;
 
 	-webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
@@ -243,8 +241,7 @@ margin-bottom: 31px;}
 		<div class="splash-heading">Regenerative Principles</div>
 		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp"style="width: 80%;">
-	</div>
+	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 80%;"></div>
 </div>
 <div id="splash-bar"></div>
 
