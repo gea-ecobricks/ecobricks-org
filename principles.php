@@ -41,10 +41,10 @@ _END;?>
 		padding: 10vh 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background: url(webp/principles-banner-1600px.webp) right top;
+		background: url(webp/principles-banner-1600px.webp) top;
     	background-repeat: no-repeat;
     	background-size: contain;
-		background-color: #ECECEC;
+		background-color: #667C09;
 		margin-top: 50px;
 
 	}
@@ -58,10 +58,10 @@ _END;?>
 		padding: 20vh 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		background: url(webp/principles-banner-1600px.webp) right top;
+		background: url(webp/principles-banner-1600px.webp) top;
     	background-repeat: no-repeat;
     	background-size: contain;
-		background-color: #ECECEC;
+		background-color: #667C09;
 		margin: 0 0 -20px 0;
 
 }
@@ -73,7 +73,7 @@ _END;?>
   z-index: 5;
   position: relative;
   width: 100%;
-  align: left;
+  text-align: left;
 }
 }
 
@@ -113,10 +113,10 @@ _END;?>
 
 .splash-sub {
   font-family: 'Arvo', Georgia, serif;
-  color: grey;
+  color: #fff;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
-  text-shadow: 0 0 8px #fff;
+  text-shadow: 0 0 8px black;
 }
 
 @media screen and (max-width: 700px) {
@@ -149,7 +149,7 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #ECECEC;
+	background-color: #667C09;
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
@@ -183,9 +183,9 @@ _END;?>
 	<div id="splash-box">
 		<div class="splash-heading">Regenerative Principles</div>
 		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
-		<img src="https://www.ecobricks.org/webp/earthhome-400px.webp">
+		</div>
+	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp"style="width: 80%;">
 	</div>
-	
 </div>
 <div id="splash-bar"></div>
 
