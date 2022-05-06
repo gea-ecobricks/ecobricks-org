@@ -52,6 +52,7 @@ deployment:
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
     - /bin/cp drop-off.php $DEPLOYPATH
+    - /bin/cp principles.php $DEPLOYPATH
 
 
 

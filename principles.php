@@ -41,7 +41,7 @@ _END;?>
 		padding: 10vh 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background: url(webp/brikcoins-blue.webp) right top;
+		background: url(svgs/principles-banner.svg) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -58,7 +58,7 @@ _END;?>
 		padding: 20vh 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		background: url(webp/brikcoins-blue.webp) right top;
+		background: url(svgs/principles-banner.svg) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -181,9 +181,9 @@ _END;?>
 	
 <div id="splash-content-block">
 	<div id="splash-box">
-		<div class="splash-heading">Brikcoins</div>
-		<div class="splash-sub">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere</div>
-		<img src="webp/brikcoins-450px.webp">
+		<div class="splash-heading">Regenerative Principles</div>
+		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
+		<img src="webp/earthday-2022-400px.webp">
 	</div>
 	
 </div>
