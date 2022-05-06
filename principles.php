@@ -30,8 +30,6 @@ _END;?>
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
 
 
-webp/principles-banner-1600px.webp) top;
-        background-color: #667C09;
 
 
 		<STYLE>
@@ -46,8 +44,8 @@ webp/principles-banner-1600px.webp) top;
 		margin-bottom: 0px;
 		z-index: 5;
 		
-		background: url(webp/gray-to-green-catalyst-banner2.webp) bottom;
-		background-color: #5A8D37;
+		background: url(webp/principles-banner-1600px.webpp) bottom;
+		background-color: #667C09;
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -69,8 +67,8 @@ webp/principles-banner-1600px.webp) top;
 		z-index: 5;
 		position: relative;
 		
-		background: url(svgs/gray-to-green-catalyst-banner3.svg) bottom;
-		background-color: #4f8a28ff;
+		background: url(webp/principles-banner-1600px.webp) bottom;
+		background-color: #667C09;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -191,7 +189,7 @@ webp/principles-banner-1600px.webp) top;
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #4f8a28ff;
+	background-color: #667C09;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -225,13 +223,15 @@ webp/principles-banner-1600px.webp) top;
 
 <!--SPLASH SECTION-->
 
-	
-<div id="splash-content-block">
-	<div id="splash-box">
+<div id="splash-bar"></div>
+
+
+<div class="splash-content-block">
+	<div class="splash-box">
 		<div class="splash-heading">Regenerative Principles</div>
-		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
+		<!--<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>-->
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 80%;"></div>
+	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
