@@ -34,7 +34,7 @@ $primaryKey = 'tran_id';
 $columns = array(
   array( 'db' => 'tran_id',     'dt' => 0,
   'formatter' => function( $d, $row ) {
-    return '<a href="details-brk-trans.php?='.($d).'"><var>'.($d).'</var></a>';
+    return '<a href="details-brk-trans.php?tran_id='.($d).'"><var>'.($d).'</var></a>';
 }
 ),
 
