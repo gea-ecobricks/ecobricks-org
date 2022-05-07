@@ -76,9 +76,8 @@ _END;?>
  		box-sizing: border-box;
 		flex-direction: row;
 		width: 100%;
-
-	position: relative;
-
+		position: relative;
+		margin: auto;
 
 }
 }
@@ -86,10 +85,10 @@ _END;?>
 
 @media screen and (min-width: 700px) { 
 .splash-image {
-  z-index: 5;
-  position: relative;
-  text-align: center;
-  flex: 35%;
+  	z-index: 5;
+  	position: relative;
+  	text-align: center;
+  	flex: 35%;
 	padding: 0px;
 	box-sizing: border-box;
 	margin-top: 0px;
@@ -139,9 +138,9 @@ _END;?>
 
 .splash-heading { 
 	font-family: 'Arvo', Georgia, serif;
-  color: white;
-  font-weight: 300;
-  text-shadow: 0 0 10px grey;
+  	color: white;
+  	font-weight: 300;
+  	text-shadow: 0 0 10px #243f01;
 }
 
 @media screen and (max-width: 700px) {
@@ -163,10 +162,10 @@ _END;?>
 
 .splash-sub {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: black;
+  	color: #243f01;
   /*text-shadow: 0px 0px 10px #fff;*/
-  margin: 15px 0;
-  text-shadow: 0 0 8px white;
+  	margin: 15px 0;
+  	text-shadow: 0 0 8px white;
 }
 
 @media screen and (max-width: 700px) {
@@ -246,7 +245,7 @@ _END;?>
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Far more than a simple solution for plastic, ecobricking has come to embody an array of regenerative principles.  Recognizing, our place in a petro capital age, ecobricking provides a means to deeply transform our daily plastic from a inevitaly pollution into a transition solution.</p>
+			<p>Ecobricking is far more than a simple solution for plastic.  Deeply inspired by the ecological ethos of the indigenous people of the Northern Phillipines, ecobricking is powered by an array of regenerative principles.  Thus guided, the problem of plastic plastic becomes our portal into the green world for all that we all long see.</p>
 		</div>
 
 		<div class="page-paragraph">
