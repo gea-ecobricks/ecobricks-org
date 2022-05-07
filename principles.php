@@ -70,7 +70,7 @@ _END;?>
 		background: url(webp/principles-banner-1600px.webp?v1) bottom left;
 		background-color: #4B8501;
     	background-repeat: no-repeat;
-		margin: -3px 0 -20px 0;
+		/*margin: -3px 0 -20px 0;*/
 		display: flex;
  		flex-wrap: wrap;
  		box-sizing: border-box;
@@ -78,7 +78,6 @@ _END;?>
 		width: 100%;
 		position: relative;
 		margin: auto;
-
 }
 }
 
@@ -104,6 +103,7 @@ _END;?>
 	padding: 10px 30px 0px 0px;
 	box-sizing: border-box;
 	text-align: left;
+	margin: auto;
 }
 }
 
@@ -162,10 +162,10 @@ _END;?>
 
 .splash-sub {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  	color: #243f01;
+  	color: black;
   /*text-shadow: 0px 0px 10px #fff;*/
   	margin: 15px 0;
-  	text-shadow: 0 0 8px white;
+  	
 }
 
 @media screen and (max-width: 700px) {
@@ -177,7 +177,7 @@ _END;?>
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 2.5em;
+		font-size: 2.3em;
 		line-height: 1.3;
 		font-weight: 400;
   }
