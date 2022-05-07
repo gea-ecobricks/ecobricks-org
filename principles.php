@@ -45,7 +45,7 @@ _END;?>
 		z-index: 5;
 		
 		background: url(webp/principles-banner-1600px.webpp) bottom;
-		background-color: #667C09;
+		background-color: #4B8501;
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -67,8 +67,8 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		background: url(webp/principles-banner-1600px.webp) bottom left;
-		background-color: #667C09;
+		background: url(webp/principles-banner-1600px.webp?v1) bottom left;
+		background-color: #4B8501;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
@@ -138,11 +138,10 @@ _END;?>
 
 
 .splash-heading { 
-	font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: black;
+	font-family: 'Arvo', Georgia, serif;
+  color: white;
   font-weight: 300;
-  text-shadow: 0 0 10px #fff;
-
+  text-shadow: 0 0 10px grey;
 }
 
 @media screen and (max-width: 700px) {
@@ -155,7 +154,7 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 3em;
+      font-size: 4em;
       line-height: 1.3;
       margin: 40px 0 10px;
   }
@@ -163,11 +162,11 @@ _END;?>
 
 
 .splash-sub {
-	font-family: 'Arvo', Georgia, serif;
-  color: white;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: black;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
-  text-shadow: 0 0 8px black;
+  text-shadow: 0 0 8px white;
 }
 
 @media screen and (max-width: 700px) {
@@ -179,7 +178,7 @@ _END;?>
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 2.3em;
+		font-size: 2.5em;
 		line-height: 1.3;
 		font-weight: 400;
   }
@@ -190,7 +189,6 @@ _END;?>
 	margin-top: -50px;
 	width: 100%;
 	background-color: #4b8501ff;
-	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
