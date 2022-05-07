@@ -26,8 +26,8 @@ _END;?>
 
 
 
-<!-- Arc CDN Script without delay-->
-<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
+<!-- Arc CDN Script without delay
+<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
 
 
 
@@ -67,15 +67,15 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		background: url(webp/principles-banner-1600px.webp) bottom;
+		background: url(webp/principles-banner-1600px.webp) bottom left;
 		background-color: #667C09;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
- 		 flex-wrap: wrap;
- 		 box-sizing: border-box;
-		  flex-direction: row;
-		  width: 100%;
+ 		flex-wrap: wrap;
+ 		box-sizing: border-box;
+		flex-direction: row;
+		width: 100%;
 
 	position: relative;
 
@@ -189,7 +189,7 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #667C09;
+	background-color: #4b8501ff;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -248,19 +248,19 @@ _END;?>
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>The Global Ecobrick Alliance emerged out of the land of the Igorots in the Northern Philippines.   For centuries, the ancestral wisdom of the Igorots, one of the few unconquered indigenous peoples of the South East Asia, enabled them to live in ecological harmony.  Today, their ethos inspires the global ecobrick movement’s vision of plastic transition.</p>
+			<p>Far more than a simple solution for plastic, ecobricking has come to embody an array of regenerative principles.  Recognizing, our place in a petro capital age, ecobricking provides a means to deeply transform our daily plastic from a inevitaly pollution into a transition solution.</p>
 		</div>
 
 		<div class="page-paragraph">
 	
 
-		<pThe way of life of the Igorot people was guided by ‘Ayyew‘– their virtue of cultivating ever increasing harmony with ecological cycles.  Having integrated this ethos, the ecobrick movement, has come to be discern ten principles to guide us forward.  The Global Ecobrick Alliance strives towards these principles in our methods and collaboration, builds and best practices. </p>
+		<p>The asian ecobrick emerged out of the ancestral lands of the Igorot people in the Northern Philippines over a decade ago.  Their remarkable ecological ethic of Ayyew has greatly inspired the way we make and use ecobricks today.</p>
 			
 		</div>
 
 
 		
-			<a name="ECO-VALUE"></a>
+			<a name="EARTH-EXAMPLE"></a>
             <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">
@@ -301,14 +301,14 @@ _END;?>
 
 
 
-			<a name="NEW-VALUE"></a>
+			<a name="LEADING"></a>
             <div class="reg-content-block" id="block2">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
                     <h4>Leading by Example</h4>
-                    <h5>Ghandi once said “be the change you want to see in the world“. </h5>   
+                    <h5>Be the change you want to see in the world.</h5>   
                     <br>
                     </div>
 
@@ -335,11 +335,6 @@ _END;?>
 					</div>
 				
 				<p>Brikcoins are based on this value.  Coins are generated only when this value has been manually proved by independent evaluation.</p>
-
-				<p>The Brikcoin blockchain is permissionless, meaning that its ledger is centralized on GEA managed databases to enable decentralized and massively distributed ecological service.  The GEA has chosen this structure to minimize the server impact and energy consumption of the maintenance of our ledger.</p>
-
-				
-
                 </div>
             </div>
 
@@ -350,7 +345,7 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>Locally Replicable</h4>
-                    <h5>Brikcoins are generated and verified by human labour.</h5>   
+                    <h5>Low tech, carbon-negative, open and accessibly methodolgies</h5>   
                     <br>
                     </div>
 
