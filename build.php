@@ -77,10 +77,11 @@ _END;?>
 		  background-size: cover;
 
 	position: relative;
+    margin: auto;
 
 
 }
-}
+} 
 
 
 @media screen and (min-width: 700px) { 
@@ -322,7 +323,7 @@ margin-bottom: 31px;}
 
             <br>
 
-                <h5>ℹ️ Learn more about making ecobricks properly and their storage: <a href="/how">How to make an ecobrick</a></h5>
+                <h5>ℹ️ Learn more how to make and store ecobricks properly: <a href="/how">How to make an ecobrick</a></h5>
 
          </div>
         </div>

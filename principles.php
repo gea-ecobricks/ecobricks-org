@@ -245,14 +245,13 @@ _END;?>
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Ecobricking is far more than a simple solution for plastic.  Deeply inspired by the ecological ethos of the indigenous people of the Northern Phillipines, ecobricking is powered by an array of regenerative principles.  Thus guided, the problem of plastic plastic becomes our portal into the green world for all that we all long see.</p>
+			<p>Ecobricking is far more than a simple solution for plastic.  Our principled approach enables us to transform not just the way we manage our plastic, but the way we see it.  </p>
 		</div>
 
 		<div class="page-paragraph">
 	
 
-		<p>The asian ecobrick emerged out of the ancestral lands of the Igorot people in the Northern Philippines over a decade ago.  Their remarkable ecological ethic of Ayyew has greatly inspired the way we make and use ecobricks today.</p>
-			
+		<p>The regenerative ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines over a decade ago.  Deeply inspired and guided by their ecological ayyew ethos, ecobricking enables us to rise above the old paradigm of plastic as a problematic 'waste'.  Instead, our plastic becomes a valuable opportunity.  In particular, to follow the ancient Earth's example of carbon management.  In this way, as a non-capital, localized, replicable,spiral and net-green process can accelerate our transition from plastic to ever greener harmony with the Earth's cycles.</p>	
 		</div>
 
 
@@ -264,7 +263,7 @@ _END;?>
                     
                     <div class="opener-header-text">
                     <h4>Following the Earth's Example</h4>
-                    <h5>We strive to emulate the Earth’s example of ever greening the biosphere.</h5>   
+                    <h5>We strive to emulate the Earth’s ancient example of carbon management to  green the biosphere.</h5>   
                     <br>
                     </div>
 
@@ -275,9 +274,9 @@ _END;?>
 
                 <div class="row">
 						<div class="main2">
-						<p>The rapid spread of blockchain cryptocurrencies has revolutionized the way value is exchanged and recorded. However, the ever increasing amount of computer work and hardware required resulted in higher and higher environmental costs-- all without creating anything of human or ecological value.</p>
+						<p>For the last billion years, the Earth has been slow and steady greening the surface of our common home.  The way that the Earth has cycled and stored carbon has led to a biosphere unique in our galaxy– while provided us a fantastic example to follow to make it even greener!   With our carbon-dense plastic we can emulate the Earth’s example and participate in the continued enrichment of our common home.</p>
 
-						<p>Unlike other  blockchains that simply prove the consistency of a digital ledger, Brikcoins operate on the concept of 'proof-of-value'.</p> 
+						 
 
 						</div>
 						<div class="side2"><img src="webp/earthen-400px.webp" width="100%">
@@ -285,13 +284,28 @@ _END;?>
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.</p>
+						<p>Ecobricking is guided by the six Earthen Ethics as we strive to emulate the Earth’s example with our plastic:</p>
 						</div>
 						<div class="side3"><img src="webp/earthen-400px.webp" width="150px">
 						</div>
 					</div>
 				
-				<p>Brikcoins are based on this value.  Coins are generated only when this value has been manually proved by independent evaluation.</p>
+				<p><ul>
+					<li><b>Cycles that Spiral:</b>  In the same way that the earth has used its carbon to create building blocks for life (virtually all lifeforms on Earth are carbon based) we can do the same.  In particular, with plastic (which is 95% carbon based) we can create building blocks that can be indefinitely cycled (see our cradle to cradle principle).</li>
+
+    				<li><b>Towards Sequestration:</b>  In the same way that the Earth steadily compacted and stored carbon for the indefinite long-term, we can do the same by compacting and concentrating our plastic through plastic sequestration.</li>
+    
+					<li><b>For Biosphere Benefit:</b> In the same way that the Earth’s processes spun their surpluses up to the benefit of the biosphere as whole, so too can we.  Rather than for-profit or not-for-profit, we are a for-Earth enterprise who’s top priority is ecological contribution.</li>
+
+    				<li><b>Towards Subtraction:</b>  The net effect of all of  Earth’s processes subtracted  more carbon than they added, leading to more and more life.  We can do the same.  By keeping track and accounting for our impacts we be sure that our net impact is subtractive and greening too– what we call ‘regenerative living’.</li>
+
+    				<li><b>Towards Diversity:</b>  In the same way that the Earth’s processes tended towards ever greater biodiversity, so too do we make the support and acceleration of biodiversity our focus.</li>
+    				<li><b>Towards Awareness:</b> In the same way that the Earth cultivated higher levels of consciousness through its carbon cycling, we can do the same by connecting plastic cycling with experiential learning.</li>
+
+				</ul>
+				<h5>ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
+				<h5>ℹ️ Learn about: <a href="https://earthen.io/image" target="_blank">Earthen Ethics</a></h5>
+
 
                 </div>
             </div>
