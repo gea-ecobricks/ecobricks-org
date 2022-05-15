@@ -350,11 +350,11 @@ _END;?>
 			<div class="big-header">Accelerating Plastic Transition</div>
 			<!--<div class="lead-paragraph">Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</div>-->
 			<div class="sub-text">
-			<p>Together we can keep our plastic out of the oceans.  With eco<span class="eco-brick"> </span>bricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
+			<p>Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
 			<!--<p>When we save, segregate and pack plastics into bottles, we can make building blocks that can be reused over and over again. Together we can build green spaces that enrich our community and safely secure plastic out of the biosphere.  Together we can transition from plastic to ever greener harmony with Earth’s cycles.</p>-->
 			</div>
 			 <a href="faqs.php" button class="main-button">All About Ecobricks</a>
-			<h6><a href="what.php">What is an Eco<span class="eco-brick"> </span>brick?</a> | <a href="/how">How to Make?</a> | <a href="/why">Why Make?</a></h6>
+			<h6><a href="what.php">What is an ecobrick?</a> | <a href="/how">How to Make?</a> | <a href="/why">Why Make?</a></h6>
 		</div>	
 	
 	</div>
@@ -379,12 +379,12 @@ _END;?>
 	<div id="main-content">
 		<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building"></div>
 		<div class="big-header">The Problem is the Solution.</div>
-		<div class="sub-text"><p>Eco<span class="eco-brick"> </span>bricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build our greenest visions.</p>
+		<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build our greenest visions.</p>
 		</div> 
 
 		<a href="build.php" button class="main-button">Building Applications</a>
 		
-		<h6><a href="/earth">Earth & Eco<span class="eco-brick"> </span>brick Building</a> | <a href="/earth-methods">E&B Methods</a> | <a href="/modules">Milstein Modules</a> | <a href="/circular">Spiral & Circular</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6>
+		<h6><a href="/earth">Earth & Ecobrick Building</a> | <a href="/earth-methods">E&B Methods</a> | <a href="/modules">Milstein Modules</a> | <a href="/circular">Spiral & Circular</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6>
 	</div>
 </div>
 
@@ -397,7 +397,7 @@ _END;?>
 		<div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
 		<a href="https://gobrik.com/#offset" target="_blank" class="main-button">Plastic Offsetting</a>
 		<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="transition.php">Plastic Transition</a> | <a href="about.php">About the GEA</a></h6><br><br>
-		<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of eco<span class="eco-brick"> </span>bricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>
+		<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>
 		<img src="svgs/3brikcoins.svg" width="30%">
 
 		<br><br>
