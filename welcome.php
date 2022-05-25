@@ -190,15 +190,29 @@ _END;?>
 			<div id="slider1">
 
 				<div id="slider-image">
-					<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
+					<img src="svgs/eb-blue.svg" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
 				</div>
 				<div id="slider-textbox">
-					<div id="slider-heading">The <var>Brik Market</var> is Launched</div>
-					<div id="slider-date">May 2nd, 2022 | GEA Annoucement</div>
-					<div id="slider-body">After three years of development, we're excited to launch a place to exchange, trade, barter and drop-off your ecobricks.</div>
-					<div id="slider-link">>> <a href="drop-off.php">The <var>Brik Market</var></a></div>
+					<div id="slider-heading">What is an Ecobrick?</div>
+					<div id="slider-date">May 25th, 2022 | Content Feature</div>
+					<div id="slider-body">Ecobricking follows the Earth's ancient example to secure and store carbon out of the biosphere for the long-term.</div>
+					<div id="slider-link">>> <a href="what.php">Ecobricks</var></a></div>
 
 				</div>
+			</div>
+
+			<div id="slider2">
+
+			<div id="slider-image">
+				<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
+			</div>
+			<div id="slider-textbox">
+				<div id="slider-heading">The <var>Brik Market</var> is Launched</div>
+				<div id="slider-date">May 2nd, 2022 | GEA Annoucement</div>
+				<div id="slider-body">After three years of development, we're excited to launch a place to exchange, trade, barter and drop-off your ecobricks.</div>
+				<div id="slider-link">>> <a href="drop-off.php">The <var>Brik Market</var></a></div>
+
+			</div>
 			</div>
 
 			
@@ -207,7 +221,7 @@ _END;?>
 
 
 
-<div id="slider2">
+			<div id="slider3">
 				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brick enterprise program"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Plastic Transition Platform for Enterprises</div>
@@ -268,7 +282,7 @@ _END;?>
 		-->
 
 
-			<div id="slider3">
+			<div id="slider4">
 				<div id="slider-image"><img src="photos/rumoer.jpg"  width="100%" alt="eco brick round house"></div>
 				<div id="slider-textbox">
 					<div id="slider-heading">Featured Project</div>
@@ -325,19 +339,6 @@ _END;?>
 		
 
 
-			<div id="slider4">
-
-				<div id="slider-image">
-					<img src="photos/russell-earth-day-ecobrick-2022-375px.jpg" width="92%" height="100%" alt="Log an earth day selfie">
-				</div>
-				<div id="slider-textbox">
-					<div id="slider-heading">Share an Earth Day Selfie!</div>
-					<div id="slider-date">April 22, 2022 | GEA Annoucement</div>
-					<div id="slider-body">Keeping some plastic out of the biosphere is a great way to celebrate Earth Day.  Use our Earth Week frame, and share!</div>
-					<div id="slider-link">>> <a href="https://www.twibbonize.com/earthdayecobrick" target="_blank"><var>Earth Day Selfie Frame</var></a></div>
-
-				</div>
-			</div>
 
 		</div>
 
