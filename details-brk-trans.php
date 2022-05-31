@@ -1,7 +1,7 @@
 <?php require_once ("lang.php");
 <<<_END
 <!DOCTYPE html>
-<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
+<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables test-->
 <!-- https://github.com/gea-ecobricks/ecobricks-org  -->
 <html lang="$lang">
 <HEAD>
