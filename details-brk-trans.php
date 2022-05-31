@@ -25,10 +25,10 @@ _END;
 
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-		
+
 		background: url(svgs/cloud-back.svg) top;
 		background-color: #00FFFF;
-		
+
 		text-align: left;
 		height: 70vh;
 		padding: 50px 5% 25px 5%;
@@ -48,10 +48,10 @@ _END;
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-		
+
 		background: url(svgs/cloud-back.svg) bottom;
 		background-color: #00FFFF;
-		
+
 		text-align: left;
 		height: 60vh;
 		padding: 50px 7% 50px 7%;
@@ -184,13 +184,13 @@ _END;
  	 transform: skewY(-3deg);
 
 }
-	
+
 </style>	
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
-  
+
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
 
 <script>
@@ -271,13 +271,13 @@ $(document).ready(function() {
 </style>
 
 </head>
-							  										  
+
 <BODY id="full-page">
 
 	<div id="load-background">
 
 <!-- MENU BAR-->	
-         
+
 		<?php include 'menu-bar.php';?>
 
 <!--SPLASH SECTION-->
@@ -355,7 +355,7 @@ if ($result->num_rows > 0) {
 		echo " <p>Currency for shipping = " . $array["currency_for_shipping"] . "</p>" ;
 		echo " <p>Credit other ecobricker Y/N = " . $array["credit_other_ecobricker_yn"] . "</p>" ;
 		echo " <p>Catalyst name = <var>" . $array["catalyst_name"] . "</var></p>" ;
-		
+
     }
 } else {
     echo "No results found for selected transaction number";
