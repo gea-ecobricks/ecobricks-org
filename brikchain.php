@@ -183,7 +183,7 @@ _END;?>
 		line-height: 1.3;
 		font-weight: 400;
   }
-}
+} 
 
 
 /*This is the angled bar at the bottom of the intro splash block*/
