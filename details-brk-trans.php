@@ -43,7 +43,7 @@
 // Get the contents from the Transaction table as an ordered View, using the transaction id from the URL.
 $transactionId = $_GET['tran_id'];
 
-$sql = "SELECT * FROM vw_brk_tran_desc WHERE trans_id = " . $transactionId;
+$sql = "SELECT * FROM tb_brk_transaction WHERE tran_id = " . $transactionId;
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
