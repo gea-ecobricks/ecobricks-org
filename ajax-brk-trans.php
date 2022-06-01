@@ -2,7 +2,7 @@
 
         <?php
  
-/*
+/* 
  * DataTables example server-side processing script.
  *
  * Please note that this script is intentionally extremely simple to show how
@@ -31,11 +31,16 @@ $primaryKey = 'tran_id';
 // The `db` parameter represents the column name in the database, while the `dt`
 // parameter represents the DataTables column identifier. In this case simple
 // indexes
+
+
+
 $columns = array(
-  array( 'db' => 'tran_id',     'dt' => 0,
-  'formatter' => function( $d, $row ) {
-    return '<a href="details-brk-trans.php?tran_id='.($d).'"><var>'.($d).'</var></a>';
-}
+  array(    'db' => 'tran_id',     
+            'dt' => 0,
+            'formatter' => function( $d, $row ) {
+                return '<a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
+                onclick="window.open(\'details-brk-trans.php?tran_id='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
+            }
 ),
 
 
