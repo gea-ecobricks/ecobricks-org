@@ -2,7 +2,7 @@
 
         <?php
  
-/*
+/* 
  * DataTables example server-side processing script.
  *
  * Please note that this script is intentionally extremely simple to show how
