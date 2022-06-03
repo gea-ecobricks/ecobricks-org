@@ -30,10 +30,10 @@
 	<div id="load-background">
 
 <a name="top"></a>
-<!--
+
 <div id="main-content">
 
-			<div class="page-paragraph">
+			<div class="page-paragraph"><!--
 				<h6>Blockchain Transaction Overview.</a>.</h6><hr>
 -->
 
@@ -52,16 +52,16 @@ if ($result->num_rows > 0) {
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
 		echo " <h5><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </h5><hr>" ;
-		echo " <h3><b>Block amount:</b> " . $array["block_amt"] ."&#8202;ß</var></h3>" ;
-		echo " <p><b>Shard amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></p>" ;
+		echo " <h3><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></h3>" ;
+		echo " <p><b>Shard:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></p>" ;
 		echo " <h4><i><var>" . $array["tran_name"] . "</var></i></h4><hr>" ;
 		echo " <p><b>Date:</b> " . $array["send_ts"] . "</p>" ;
 		
 		echo " <p><b>Status:</b> " . $array["status"] . "</p>" ;
 
-		echo " <p><b>Sender:</b><var>" . $array["sender_ecobricker"] . "</var></p>" ;
-		echo " <p><b>Ecobrick Serial:</b> <var>" . $array["ecobrick_serial_no"] . "</var></p>";
-		echo " <p><b>Block Type:</b> <var>" . $array["block_tran_type"] . "</var></p>" ;
+		echo " <p><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></p>" ;
+		echo " <p><b>Ecobrick Serial:</b> " . $array["ecobrick_serial_no"] . "</var></p>";
+		echo " <p><b>Block Type:</b> " . $array["block_tran_type"] . "</p>" ;
 		echo " <p><b>Receiver(s):</b> <var>" . $array["receiver_or_receivers"] . "</var></p>" ;
 		//echo " <p><b>Receiver 1:</b> <var>" . $array["receiver_1"] . "</var> </p>" ;
 		//echo " <p>Receiver 2: <var>" . $array["receiver_2"] . "</var> </p>" ;
