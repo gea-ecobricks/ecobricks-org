@@ -58,11 +58,11 @@ if ($result->num_rows > 0) {
 		echo " <p><b>Date:</b> " . $array["send_ts"] . "</p>" ;
 		
 		echo " <p><b>Status:</b> " . $array["status"] . "</p>" ;
-
-		echo " <p><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></p>" ;
-		echo " <p><b>Ecobrick Serial:</b> " . $array["ecobrick_serial_no"] . "</var></p>";
+		echo " <p><b>Authenticated Ecobrick:</b> " . $array["ecobrick_serial_no"] . "</var></p>";
 		echo " <p><b>Block Type:</b> " . $array["block_tran_type"] . "</p>" ;
+		echo " <p><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></p>" ;
 		echo " <p><b>Receiver(s):</b> <var>" . $array["receiver_or_receivers"] . "</var></p>" ;
+		echo " <p><b>Authenticator:</b> Version " . $array["authenticator_version"] . "</var></p>" ;
 		//echo " <p><b>Receiver 1:</b> <var>" . $array["receiver_1"] . "</var> </p>" ;
 		//echo " <p>Receiver 2: <var>" . $array["receiver_2"] . "</var> </p>" ;
 		//echo " <p>Receiver 3: <var>" . $array["receiver_3"] . "</var> </p>" ;
@@ -72,7 +72,7 @@ if ($result->num_rows > 0) {
 		echo " <p><b>Product:</b> <var>" . $array["product"] . "</var></p>" ;
 		//echo " <p>Send date = " . $array["send_dt"] . "</p>" ;
 		echo " <p><b>Payment:</b> <var>" . $array["accomp_payment"] . "</var></p>" ;
-		echo " <p><b>Authenticator:</b> <var>" . $array["authenticator_version"] . "</var></p>" ;
+		
 		echo " <p><b>Expense type:</b> <var>" . $array["expense_type"] . "</var></p>" ;
 		echo " <p><b>Accounting category:</b> <var> " . $array["gea_accounting_category"] . "</var></p>" ;
 		echo " <p><b>Shipping:</b> <var> " . $array["shipping_cost_brk"] . "&#8202;ß</var></p>" ;
