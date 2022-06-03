@@ -34,7 +34,7 @@
 <div id="main-content">
 
 			<div class="page-paragraph">
-				<p>Blockchain Transaction Overview.</a>.</p><hr>
+				<h6>Blockchain Transaction Overview.</a>.</h6><hr>
 			
 <!-- The DB connection creator -->
 <?php include 'db.php';?>
@@ -50,12 +50,14 @@ if ($result->num_rows > 0) {
 	//echo "</br><h3>" . $transactionId . "</h1>";
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
-		echo " <h3><b>Transaction:</b> <var>" . $array["tran_id"] . "</var> </h3>" ;
-		echo " <h2><b>Block amount:</b> " . $array["block_amt"] ."&#8202;ß</var></h2>" ;
+		echo " <h5><b>Transaction ID:</b>" . $array["tran_id"] . " </h5>" ;
+		echo " <h3><b>Block amount:</b> " . $array["block_amt"] ."&#8202;ß</var></h3>" ;
+		echo " <p><b>Shard amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></p>" ;
 		echo " <h4><i><var>" . $array["tran_name"] . "</var></i></h4><hr>" ;
-		echo " <p><b>Shard Amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></p>" ;
-		echo " <p><b>Status:</b> <var>" . $array["status"] . "</var></p>" ;
-		echo " <p><b>Date:</b> <var>" . $array["send_ts"] . "</var></p>" ;
+		echo " <p><b>Date:</b> " . $array["send_ts"] . "</p>" ;
+		
+		echo " <p><b>Status:</b> " . $array["status"] . "</p>" ;
+
 		echo " <p><b>Sender:</b><var>" . $array["sender_ecobricker"] . "</var></p>" ;
 		echo " <p><b>Ecobrick Serial:</b> <var>" . $array["ecobrick_serial_no"] . "</var></p>";
 		echo " <p><b>Block Type:</b> <var>" . $array["block_tran_type"] . "</var></p>" ;
