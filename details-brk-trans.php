@@ -34,7 +34,7 @@
 <div id="main-content">
 
 			<div class="page-paragraph">
-				<p>Blockchain Transaction Overview.</a>.</p>
+				<p>Blockchain Transaction Overview.</a>.</p><hr>
 			
 <!-- The DB connection creator -->
 <?php include 'db.php';?>
@@ -51,8 +51,8 @@ if ($result->num_rows > 0) {
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
 		echo " <h3><b>Transaction:</b> <var>" . $array["tran_id"] . "</var> </h3>" ;
-		echo " <h2><b>Block amount:</h2> " . $array["block_amt"] ."&#8202;ß</var><p>" ;
-		echo " <h4><var>" . $array["tran_name"] . "</var></h4>" ;
+		echo " <h2><b>Block amount:</b> " . $array["block_amt"] ."&#8202;ß</var></h2>" ;
+		echo " <h4><i><var>" . $array["tran_name"] . "</var></i></h4><hr>" ;
 		echo " <p><b>Shard Amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></p>" ;
 		echo " <p><b>Status:</b> <var>" . $array["status"] . "</var></p>" ;
 		echo " <p><b>Date:</b> <var>" . $array["send_ts"] . "</var></p>" ;
