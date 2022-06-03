@@ -30,12 +30,13 @@
 	<div id="load-background">
 
 <a name="top"></a>
-
+<!--
 <div id="main-content">
 
 			<div class="page-paragraph">
 				<h6>Blockchain Transaction Overview.</a>.</h6><hr>
-			
+-->
+
 <!-- The DB connection creator -->
 <?php include 'db.php';?>
 <?php
@@ -50,7 +51,7 @@ if ($result->num_rows > 0) {
 	//echo "</br><h3>" . $transactionId . "</h1>";
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
-		echo " <h5><b>Transaction ID:</b>" . $array["tran_id"] . " </h5>" ;
+		echo " <h5><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </h5><hr>" ;
 		echo " <h3><b>Block amount:</b> " . $array["block_amt"] ."&#8202;ß</var></h3>" ;
 		echo " <p><b>Shard amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></p>" ;
 		echo " <h4><i><var>" . $array["tran_name"] . "</var></i></h4><hr>" ;
