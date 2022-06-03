@@ -34,7 +34,7 @@
 <div id="main-content">
 
 			<div class="page-paragraph">
-				<p>The full overview of the transaction on the Brikcoin blockchain.</a>.</p>
+				<p>Blockchain Transaction Overview.</a>.</p>
 			
 <!-- The DB connection creator -->
 <?php include 'db.php';?>
@@ -47,42 +47,40 @@ $sql = "SELECT * FROM tb_brk_transaction WHERE tran_id = " . $transactionId;
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
-	echo "<h1> Use Transaction Number from URL => " . $transactionId . "</h1>";
+	//echo "</br><h3>" . $transactionId . "</h1>";
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
-
-		echo " <h3>Ecobrick Serial No: <var>" . $array["ecobrick_serial_no"] . "</var></h3> </br>";
-		echo " <p>Transaction id: <var>" . $array["tran_id"] . "</var> </p>" ;
-		echo " <p>Transaction name: <var>" . $array["tran_name"] . "</var></p>" ;
-		echo " <p>Individual amount: <var>" . $array["individual_amt"] . "</var></p>" ;
-		echo " <p>Status: <var>" . $array["status"] . "</var></p>" ;
-		echo " <p>Dated: <var>" . $array["send_ts"] . "</var></p>" ;
-		echo " <p>Sender ecobricker = <var>" . $array["sender_ecobricker"] . "</var></p>" ;
-		echo " <p>Block transaction type: <var>" . $array["block_tran_type"] . "</var></p>" ;
-		echo " <p>Block amountt = " . $array["block_amt"] ."</var><p>" ;
-		echo " <p>Receiver or receivers: <var>" . $array["receiver_or_receivers"] . "</var></p>" ;
-		echo " <p>Receiver 1: <var>" . $array["receiver_1"] . "</var> </p>" ;
-		echo " <p>Receiver 2: <var>" . $array["receiver_2"] . "</var> </p>" ;
-		echo " <p>Receiver 3: <var>" . $array["receiver_3"] . "</var> </p>" ;
-		echo " <p>Receiver central reserve: <var>" . $array["receiver_central_reserve"] . "</var></p>" ;
-		echo " <p>Sender central reserve: <var>" . $array["sender_central_reserve"] . "</var></p>" ;
-		echo " <p>Transaction sender note <var>" . $array["tran_sender_note"] . "</var></p>" ;
-		echo " <p>Product = <var>" . $array["product"] . "</var></p>" ;
-		echo " <p>Send date = " . $array["send_dt"] . "</p>" ;
-		echo " <p>Accomp payment = " . $array["accomp_payment"] . "</p>" ;
-		echo " <p>Authenticator version = " . $array["authenticator_version"] . "</p>" ;
-		echo " <p>Expense type = <var>" . $array["expense_type"] . "</var></p>" ;
-		echo " <p>Gea accounting category = <var>" . $array["gea_accounting_category"] . "</var></p>" ;
-		echo " <p>Shipping cost brk  = " . $array["shipping_cost_brk"] . "</p>" ;
-		echo " <p>Product cost brk = " . $array["product_cost_brk"] . "</p>" ;
-		echo " <p>Total cost incl shipping  = " . $array["total_cost_incl_shipping"] . "</p>" ;
-		echo " <p>Shipping with currency = " . $array["shipping_with_currency"] . "</p>" ;
-		echo " <p>Aes officially purchased = " . $array["aes_officially_purchased"] . "&#8202;ß</p>" ;
-		echo " <p>Country of buyer = <var>" . $array["country_of_buyer"] . "</var></br>" ;
-		echo " <p>Currency for shipping = " . $array["currency_for_shipping"] . "</p>" ;
-		echo " <p>Credit other ecobricker Y/N = " . $array["credit_other_ecobricker_yn"] . "</p>" ;
-		echo " <p>Catalyst name = <var>" . $array["catalyst_name"] . "</var></p>" ;
-
+		echo " <h3><b>Transaction:</b> <var>" . $array["tran_id"] . "</var> </h3>" ;
+		echo " <h2><b>Block amount:</h2> " . $array["block_amt"] ."&#8202;ß</var><p>" ;
+		echo " <h4><var>" . $array["tran_name"] . "</var></h4>" ;
+		echo " <p><b>Shard Amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></p>" ;
+		echo " <p><b>Status:</b> <var>" . $array["status"] . "</var></p>" ;
+		echo " <p><b>Date:</b> <var>" . $array["send_ts"] . "</var></p>" ;
+		echo " <p><b>Sender:</b><var>" . $array["sender_ecobricker"] . "</var></p>" ;
+		echo " <p><b>Ecobrick Serial:</b> <var>" . $array["ecobrick_serial_no"] . "</var></p>";
+		echo " <p><b>Block Type:</b> <var>" . $array["block_tran_type"] . "</var></p>" ;
+		echo " <p><b>Receiver(s):</b> <var>" . $array["receiver_or_receivers"] . "</var></p>" ;
+		//echo " <p><b>Receiver 1:</b> <var>" . $array["receiver_1"] . "</var> </p>" ;
+		//echo " <p>Receiver 2: <var>" . $array["receiver_2"] . "</var> </p>" ;
+		//echo " <p>Receiver 3: <var>" . $array["receiver_3"] . "</var> </p>" ;
+		//echo " <p>Receiver central reserve: <var>" . $array["receiver_central_reserve"] . "</var></p>" ;
+		//echo " <p>Sender central reserve: <var>" . $array["sender_central_reserve"] . "</var></p>" ;
+		echo " <p><b>Transaction note:</b> <var>" . $array["tran_sender_note"] . "</var></p>" ;
+		echo " <p><b>Product:</b> <var>" . $array["product"] . "</var></p>" ;
+		//echo " <p>Send date = " . $array["send_dt"] . "</p>" ;
+		echo " <p><b>Payment:</b> <var>" . $array["accomp_payment"] . "</var></p>" ;
+		echo " <p><b>Authenticator:</b> <var>" . $array["authenticator_version"] . "</var></p>" ;
+		echo " <p><b>Expense type:</b> <var>" . $array["expense_type"] . "</var></p>" ;
+		echo " <p><b>Accounting category:</b> <var> " . $array["gea_accounting_category"] . "</var></p>" ;
+		echo " <p><b>Shipping:</b> <var> " . $array["shipping_cost_brk"] . "&#8202;ß</var></p>" ;
+		echo " <p><b>Product cost:</b> <var> " . $array["product_cost_brk"] . "&#8202;ß</var></p>" ;
+		echo " <p><b>Total w/ shipping:</b> <var> " . $array["total_cost_incl_shipping"] . "&#8202;ß</var></p>" ;
+		echo " <p><b>Shipping:</b> <var> " . $array["shipping_with_currency"] . "&#8202;ß</var></p>" ;
+		echo " <p><b>AES Purchased:</b> <var>" . $array["aes_officially_purchased"] . "&#8202;kg</var></p>" ;
+		echo " <p><b>Country of buyer:</b> " . $array["country_of_buyer"] . "</p>" ;
+		echo " <p><b>Currency for shipping:</b><var> " . $array["currency_for_shipping"] . "</var></p>" ;
+		echo " <p><b>Credit other ecobricker:</b> " . $array["credit_other_ecobricker_yn"] . "</p>" ;
+		echo " <p><b>Catalyst:</b> <var>" . $array["catalyst_name"] . "</var></p>" ;
     }
 } else {
     echo "No results found for selected transaction number";
