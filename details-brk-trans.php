@@ -34,8 +34,8 @@
 <div id="main-content">
 
 			<div class="page-paragraph">
-				<h6>Click here to close this window and return to the Brikchain</h6>
-				 <button onClick="javascript:window.close('','_parent','');">Close</button><br><hr>
+				
+				<h5 style="text-align: right;"> <button onClick="javascript:window.close('','_parent','');">Close & Return to Brikchain</button></h5><br><br>
 
 
 <!-- The DB connection creator -->
@@ -52,19 +52,18 @@ if ($result->num_rows > 0) {
 	//echo "</br><h3>" . $transactionId . "</h1>";
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
-		echo " <h5><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </h5>" ;
+		echo " <h5><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </h5><hr>" ;
 		echo " <h3><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></h3>" ;
+		echo " <p><b>Block type:</b> " . $array["block_tran_type"] . "</h4>" ;
 		echo " <p><b>Shard:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></p>" ;
-		echo " <p><h4>Block Type:</b> " . $array["block_tran_type"] . "</h4>" ;
-		echo " <p><b>Date:</b> " . $array["send_ts"] . "</p>" ;
+		echo " <p><b>Generated:</b> " . $array["send_ts"] . "</p>" ;
 		echo " <p><b>Status:</b> " . $array["status"] . "</p><hr>
 		" ;
 		echo " <p><b>Authenticated Ecobrick:</b> " . $array["ecobrick_serial_no"] . "</var></p>";
-		
 		echo " <p><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></p>" ;
 		echo " <p><b>Receiver(s):</b> <var>" . $array["receiver_or_receivers"] . "</var></p>" ;
 		echo " <p><b>Authenticator:</b> Version " . $array["authenticator_version"] . "</var></p>" ;
-		echo " <p><b>Description:</b> <var>" . $array["tran_name"] . "</var></i></h4><hr>" ;
+		echo " <p><b>Description:</b> <var>" . $array["tran_name"] . "</var></i></h4>" ;
 		//echo " <p><b>Receiver 1:</b> <var>" . $array["receiver_1"] . "</var> </p>" ;
 		//echo " <p>Receiver 2: <var>" . $array["receiver_2"] . "</var> </p>" ;
 		//echo " <p>Receiver 3: <var>" . $array["receiver_3"] . "</var> </p>" ;
