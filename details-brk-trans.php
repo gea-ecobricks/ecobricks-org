@@ -54,7 +54,7 @@ if ($result->num_rows > 0) {
     while($array = $result->fetch_assoc()) {
 		echo " <h5><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </h5><hr>" ;
 		echo " <h3><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></h3>" ;
-		echo " <p><b>Block type:</b> " . $array["block_tran_type"] . "</h4>" ;
+		echo " <h4><b>" . $array["block_tran_type"] . "</b>" ;
 		echo " <p><b>Shard:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></p>" ;
 		echo " <p><b>Generated:</b> " . $array["send_ts"] . "</p>" ;
 		echo " <p><b>Status:</b> " . $array["status"] . "</p><hr>
