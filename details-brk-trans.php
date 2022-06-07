@@ -55,14 +55,21 @@ if ($result->num_rows > 0) {
 		echo " <h5><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </h5><hr>" ;
 		echo " <h3><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></h3>" ;
 		echo " <h4><b>" . $array["block_tran_type"] . "</b>" ;
-		echo " <p><b>Shard:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></p>" ;
+		echo " <p><b>Transfer amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></p>" ;
 		echo " <p><b>Generated:</b> " . $array["send_ts"] . "</p>" ;
-		echo " <p><b>Status:</b> " . $array["status"] . "</p><hr>
-		" ;
-		echo " <p><b>Authenticated Ecobrick:</b> " . $array["ecobrick_serial_no"] . "</var></p>";
+		echo " <p><b>Status:</b> " . $array["status"] . "</p><hr>" ;
+
+		if ( isset($array["ecobrick_serial_no"]) && $array["ecobrick_serial_no"] != '' ) {  
+			echo " <p><b>Authenticated Ecobrick:</b> " . $array["ecobrick_serial_no"] . "</var></p>";
+		}
+
 		echo " <p><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></p>" ;
 		echo " <p><b>Receiver(s):</b> <var>" . $array["receiver_or_receivers"] . "</var></p>" ;
-		echo " <p><b>Authenticator:</b> Version " . $array["authenticator_version"] . "</var></p>" ;
+		
+		if ( isset($array["authenticator_version"]) && $array["authenticator_version"] != '' ) {  
+			echo " <p><b>Authenticator:</b> Version " . $array["authenticator_version"] . "</var></p>" ;
+		}
+
 		echo " <p><b>Description:</b> <var>" . $array["tran_name"] . "</var></i></h4>" ;
 		//echo " <p><b>Receiver 1:</b> <var>" . $array["receiver_1"] . "</var> </p>" ;
 		//echo " <p>Receiver 2: <var>" . $array["receiver_2"] . "</var> </p>" ;
@@ -75,11 +82,11 @@ if ($result->num_rows > 0) {
 		
 		if ( isset($array["accomp_payment"]) && $array["accomp_payment"] != '' ) {                                              //|AT4737|GEA|DNC|
 			echo " <p><b>Payment1:</b> <var>" . $array["accomp_payment"] . "</var></p>" ;
- }
-		
-		echo " <p><b>Payment2:</b> <var>" . $array["accomp_payment"] . "</var></p>" ;
-		
+ }		
+ 		if ( isset($array["expense_type"]) && $array["expense_type"] != '' ) { 
 		echo " <p><b>Expense type:</b> <var>" . $array["expense_type"] . "</var></p>" ;
+		 }
+		 
 		echo " <p><b>Accounting category:</b> <var> " . $array["gea_accounting_category"] . "</var></p>" ;
 		echo " <p><b>Shipping:</b> <var> " . $array["shipping_cost_brk"] . "&#8202;ß</var></p>" ;
 		echo " <p><b>Product cost:</b> <var> " . $array["product_cost_brk"] . "&#8202;ß</var></p>" ;
