@@ -72,6 +72,11 @@ if ($result->num_rows > 0) {
 		echo " <p><b>Transaction note:</b> <var>" . $array["tran_sender_note"] . "</var></p>" ;
 		echo " <p><b>Product:</b> <var>" . $array["product"] . "</var></p>" ;
 		//echo " <p>Send date = " . $array["send_dt"] . "</p>" ;
+		
+		if ( isset($array["accomp_payment"]) && $array["accomp_payment"] != '' ) {                                              //|AT4737|GEA|DNC|
+			echo " <p><b>Payment:</b> <var>" . $array["accomp_payment"] . "</var></p>" ;
+ }
+		
 		echo " <p><b>Payment:</b> <var>" . $array["accomp_payment"] . "</var></p>" ;
 		
 		echo " <p><b>Expense type:</b> <var>" . $array["expense_type"] . "</var></p>" ;
