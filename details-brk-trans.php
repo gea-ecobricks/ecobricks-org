@@ -15,8 +15,6 @@
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="stylesheet-general.css?v0.14">
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -110,15 +108,12 @@ button {
 							  										  
 <BODY id="full-page">
 
-	<div id="load-background">
+
 
 <a name="top"></a>
 
-<div id="main-content">
-
-			<div class="page-paragraph">
 				
-				<h2 style="text-align: right;"> <button onClick="javascript:window.close('','_parent','');">Close & Return</button></h2><br><br>
+				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br>
 
 
 <!-- The DB connection creator -->
@@ -235,8 +230,5 @@ $conn->close();
 	
 <br><br>
 
-</div>
-
-</div>
 </body>
 </html>
