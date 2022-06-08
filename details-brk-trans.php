@@ -9,9 +9,8 @@
 
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  -->
 
-<noscript>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
-</noscript>
+
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
@@ -44,11 +43,11 @@ button {
 #main-details {
 	background-color: #ded9d9;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	margin-right: 0px;
 	margin-left: -7px;
 	width: 100%;
-	padding: 5% 5% 1% 5%;
+	padding: 5% 5% 5% 5%;
 }
 
 
@@ -64,7 +63,7 @@ button {
   	color: #222222;
   	line-height: 1.2;
     font-weight: 400;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 .block {
@@ -90,6 +89,7 @@ button {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
   	line-height: 1.3;
+	  font-weight: 300
 }
 
 .status {
@@ -97,6 +97,7 @@ button {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
   	line-height: 1.3;
+	  font-weight: 300
 }
 
 .general-field {
@@ -105,10 +106,10 @@ button {
   	color: #222222;
   	line-height: 1.3;
 	margin-top: 12px;
-	font-weight: 400;
+	font-weight: 300;
 }
 
-b {font-weight: 600;}
+b {font-weight: 500;}
 
 
 </style>
