@@ -181,7 +181,7 @@ _END;?>
 				<div id="slider-image"><img src="webp/world-ocean-day-2022-600px.webp?v2" width="92%" height="100%" alt="Happy Earth Day"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Happy World Ocean Day!</div>
-					<div id="slider-body">This week is a great time to focus on keeping the oceans free of our plastic.  To celebrate, post a 	selfie of you and your ecobrick using our frame for the day!</div>
+					<div id="slider-body">This week is a great time to focus on keeping the oceans free of our plastic.  To celebrate, post a selfie of you and your ecobrick using our frame for the day!</div>
 					<div id="slider-link"><a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</var></a></div>
 					<div id="slider-date">June 8th, 2022 | World Ocean Day</div>
 				</div>
