@@ -33,6 +33,7 @@ button {
       margin-bottom: 15px;
 	  text-align: right;
 	  border: 1px;
+	  border-color: grey;
 
 }
 
@@ -96,7 +97,10 @@ button {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
   	line-height: 1.3;
+	margin-top: 10px;
 }
+
+b {font-weight: bolder;}
 
 
 </style>
@@ -108,8 +112,8 @@ button {
 							  										  
 <BODY id="full-page">
 
-
-
+<div id="details-content">
+<div id="main-details">
 <a name="top"></a>
 
 				
