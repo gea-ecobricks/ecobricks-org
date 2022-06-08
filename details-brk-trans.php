@@ -45,6 +45,7 @@ button {
 	margin-right: 0px;
 	margin-left: 0px;
 	width: 100%;
+	padding: 5%;
 }
 
 
@@ -75,6 +76,7 @@ button {
 	font-family: 'Arvo', Georgia, sans-serif;
   	color: black;
   	line-height: 1.3;
+	font-weight: bolder;
 
 }
 
@@ -100,7 +102,7 @@ button {
 	margin-top: 10px;
 }
 
-b {font-weight: bolder;}
+b {font-weight: 600;}
 
 
 </style>
@@ -113,7 +115,7 @@ b {font-weight: bolder;}
 <BODY id="full-page">
 
 <div id="details-content">
-<div id="main-details">
+
 <a name="top"></a>
 
 				
@@ -134,9 +136,9 @@ if ($result->num_rows > 0) {
 	//echo "</br><h3>" . $transactionId . "</h1>";
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
-		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div><hr>" ;
+		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div><hr></div>" ;
 
-		echo " <div class=\"block\"><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></div>" ;
+		echo " <div class=\"main-details\"><div class=\"block\"><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></div>" ;
 
 		echo " <div class=\"type\">" . $array["block_tran_type"] . "</div>" ;
 
