@@ -20,6 +20,88 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+
+
+<style>
+
+button {
+      margin-top: 15px;
+      font-size: 1.1em;
+      background-color: #ffffff82;
+      padding: 8px 10px 8px 10px;
+      border-radius: 8px;
+      border: none;
+      margin-left: 60%;
+      margin-bottom: 15px;
+	  text-align: right;
+	  border: 1px;
+
+}
+
+
+#main-details {
+	background-color: #ffffff82;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 100%;
+}
+
+
+#details-content {
+	margin: auto;
+ 	box-sizing: border-box;
+  	width: 90%;
+}
+
+.transaction {
+	font-size: 1.0em;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  	color: #222222;
+  	line-height: 1.2;
+    font-weight: 400;
+}
+
+.block {
+	font-size: 3.0em;
+	font-family: 'Arvo', Georgia, sans-serif;
+  	color: black;
+  	line-height: 1.3;
+
+}
+
+.type {
+	font-size: 1.2em;
+	font-family: 'Arvo', Georgia, sans-serif;
+  	color: black;
+  	line-height: 1.3;
+
+}
+
+.amount {
+	font-size: 1.5em;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  	color: #222222;
+  	line-height: 1.3;
+}
+
+.generated {
+	font-size: 1.5em;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  	color: #222222;
+  	line-height: 1.3;
+}
+
+.general-field {
+	font-size: 1.2em;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  	color: #222222;
+  	line-height: 1.3;
+}
+
+
+</style>
  
 </head>
 
