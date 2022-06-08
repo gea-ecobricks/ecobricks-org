@@ -26,6 +26,8 @@ button {
       margin-top: 15px;
       font-size: 1.3em;
 	  padding: 8px 10px 8px 10px;
+	  float: right;
+	  margin-bottom: 20px;
       /*background: #ded9d9;
 
       border-radius: 8px;
@@ -43,10 +45,10 @@ button {
 	background-color: #ded9d9;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-right: 4px;
-	margin-left: 0px;
+	margin-right: 0px;
+	margin-left: -5px;
 	width: 100%;
-	padding: 5% 5% 3% 5%;
+	padding: 5% 5% 1% 5%;
 }
 
 
@@ -89,7 +91,7 @@ button {
   	line-height: 1.3;
 }
 
-.generated {
+.status {
 	font-size: 1.5em;
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
@@ -147,8 +149,8 @@ if ($result->num_rows > 0) {
 
 		echo " <div class=\"amount\"><b>Transfer amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></div>" ;
 
-		echo "  <div class=\"generated\"><b>Generated:</b> " . $array["send_ts"] . "</p>" ;
-		echo " <p><b>Status:</b> " . $array["status"] . "</div></div><div id=\"details-content\">" ;
+		echo "  <div class=\"status\"><b>Generated:</b> " . $array["send_ts"] . "</p>" ;
+		echo " <div class=\"status\"><b> " . $array["status"] . "</div></div><div id=\"details-content\">" ;
 
 
 
