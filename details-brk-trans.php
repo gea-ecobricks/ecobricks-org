@@ -35,7 +35,7 @@
 
 			<div class="page-paragraph">
 				
-				<h5 style="text-align: right;"> <button onClick="javascript:window.close('','_parent','');">Close & Return to Brikchain</button></h5><br><br>
+				<h2 style="text-align: right;"> <button onClick="javascript:window.close('','_parent','');">Close & Return</button></h2><br><br>
 
 
 <!-- The DB connection creator -->
@@ -86,7 +86,7 @@ if ($result->num_rows > 0) {
  		if ( isset($array["expense_type"]) && $array["expense_type"] != '' ) { 
 		echo " <p><b>Expense type:</b> <var>" . $array["expense_type"] . "</var></p>" ;
 		 }
-		 
+
 		echo " <p><b>Accounting category:</b> <var> " . $array["gea_accounting_category"] . "</var></p>" ;
 		echo " <p><b>Shipping:</b> <var> " . $array["shipping_cost_brk"] . "&#8202;ß</var></p>" ;
 		echo " <p><b>Product cost:</b> <var> " . $array["product_cost_brk"] . "&#8202;ß</var></p>" ;

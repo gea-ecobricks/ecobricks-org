@@ -177,17 +177,17 @@ _END;?>
 
 
 			
-		<!--<div id="slider1">
-				<div id="slider-image"><img src="webp/earthday-2022-400px.webp" width="92%" height="100%" alt="Happy Earth Day"></div>
+		<div id="slider1">
+				<div id="slider-image"><img src="webp/world-ocean-day-2022-600px.webp" width="92%" height="100%" alt="Happy Earth Day"></div>
 					<div id="slider-textbox">
-					<div id="slider-heading">Happy Earth Week!</div>
-					<div id="slider-body">This week is a great time to celebrate ecobricking and plastic transition.  To do so we're launch our new <var>Brik Market</var> for the local and global ecobrick movement.</div>
-					<div id="slider-link"><a href="drop-off.php">The <var>Brik Market</var></a></div>
-					<div id="slider-date">April 21, 2022 | GEA Announcements</div>
+					<div id="slider-heading">Happy World Ocean Day!</div>
+					<div id="slider-body">This week is a great time to celebrate keeping the oceans plastic free of our plastic.  To celebrate, post a selfie of you and your ecobrick using our frame for the day!</div>
+					<div id="slider-link"><a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</var></a></div>
+					<div id="slider-date">June 8th, 2022 | GEA Announcements</div>
 				</div>
-			</div>-->
+			</div>
 
-			<div id="slider1">
+			<!--<div id="slider1">
 
 				<div id="slider-image">
 					<img src="svgs/eb-blue.svg" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
@@ -199,7 +199,7 @@ _END;?>
 					<div id="slider-link">>> <a href="what.php">Ecobricks</var></a></div>
 
 				</div>
-			</div>
+			</div>-->
 
 			<div id="slider2">
 
