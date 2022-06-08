@@ -43,7 +43,7 @@ button {
 #main-details {
 	background-color: #ded9d9;
 	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	margin-right: 0px;
 	margin-left: -7px;
 	width: 100%;
@@ -58,7 +58,7 @@ button {
 }
 
 .transaction {
-	font-size: 1.0em;
+	font-size: 1.1em;
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
   	line-height: 1.2;
@@ -67,7 +67,7 @@ button {
 }
 
 .block {
-	font-size: 3.0em;
+	font-size: 3.2em;
 	font-family: 'Arvo', Georgia, sans-serif;
   	color: black;
   	line-height: 1.3;
@@ -75,17 +75,17 @@ button {
 }
 
 .type {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-family: 'Arvo', Georgia, sans-serif;
   	color: black;
   	line-height: 1.3;
 	font-weight: bolder;
-	padding-bottom: 8px;
+	padding-bottom: 15px;
 
 }
 
 .amount {
-	font-size: 1.5em;
+	font-size: 1.6em;
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
   	line-height: 1.3;
@@ -93,15 +93,15 @@ button {
 }
 
 .status {
-	font-size: 1.5em;
+	font-size: 1.6em;
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
-  	line-height: 1.3;
+  	line-height: 1.4;
 	  font-weight: 300
 }
 
 .general-field {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
   	line-height: 1.3;
