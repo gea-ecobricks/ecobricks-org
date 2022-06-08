@@ -29,15 +29,16 @@
 
 button {
       margin-top: 15px;
-      font-size: 1.5em;
+      font-size: 1.1em;
       background-color: #ffffff82;
       padding: 8px 8px 15px;
-      border-radius: 11px 11px 0 0;
+      border-radius: 8px;
       color: #000000ad;
       border: none;
-      margin-left: 67%;
+      margin-left: 60%;
       margin-bottom: 15px;
 	  text-align: right;
+	  border: 1px;
 
 }
 
@@ -132,14 +133,9 @@ if ($result->num_rows > 0) {
     while($array = $result->fetch_assoc()) {
 		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div><hr>" ;
 
-		echo " <div class=\"block\"><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></div>" ;
+		
 
-		echo " <div class=\"type\">" . $array["block_tran_type"] . "</div>" ;
-
-		echo " <div class=\"amount\"><b>Transfer amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></div>" ;
-
-		echo "  <div class=\"generated\"><b>Generated:</b> " . $array["send_ts"] . "</p>" ;
-		echo " <p><b>Status:</b> " . $array["status"] . "</div></div>" ;
+		
     }
 } else {
     echo "No results found for selected transaction number";
