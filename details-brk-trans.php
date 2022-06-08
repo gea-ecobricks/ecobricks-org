@@ -25,11 +25,11 @@
 button {
       margin-top: 15px;
       font-size: 1.1em;
-      background-color: #ffffff82;
+      background: #ded9d9;
       padding: 8px 10px 8px 10px;
       border-radius: 8px;
       border: none;
-      margin-left: 60%;
+      margin-left: 70%;
       margin-bottom: 15px;
 	  text-align: right;
 	  border: 1px;
@@ -38,7 +38,7 @@ button {
 
 
 #main-details {
-	background-color: #ffffff82;
+	background-color: #ded9d9;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-right: 0px;
