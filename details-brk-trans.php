@@ -25,7 +25,7 @@
 button {
       margin-top: 15px;
       font-size: 1.1em;
-      background: #ded9d9;
+      /*background: #ded9d9;
       padding: 8px 10px 8px 10px;
       border-radius: 8px;
       border: none;
@@ -33,7 +33,7 @@ button {
       margin-bottom: 15px;
 	  text-align: right;
 	  border: 1px;
-	  border-color: grey;
+	  border-color: grey;*/
 
 }
 
@@ -138,7 +138,7 @@ if ($result->num_rows > 0) {
     while($array = $result->fetch_assoc()) {
 		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div><hr></div>" ;
 
-		echo " <div class=\"main-details\"><div class=\"block\"><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></div>" ;
+		echo " <div id=\"main-details\"><div class=\"block\"><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></div>" ;
 
 		echo " <div class=\"type\">" . $array["block_tran_type"] . "</div>" ;
 
