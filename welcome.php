@@ -178,7 +178,7 @@ _END;?>
 
 			
 		<div id="slider1">
-				<div id="slider-image"><img src="webp/world-ocean-day-2022-600px.webp?v1.0" width="92%" height="100%" alt="Happy Earth Day"></div>
+				<div id="slider-image"><img src="webp/world-ocean-day-2022-600px.webp?v1.1" width="92%" height="100%" alt="Happy Earth Day"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Happy World Ocean Day!</div>
 					<div id="slider-body">This week is a great time to focus on keeping the oceans free of our plastic.  To celebrate, post a 	selfie of you and your ecobrick using our frame for the day!</div>
