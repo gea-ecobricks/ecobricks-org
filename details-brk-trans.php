@@ -24,14 +24,17 @@
 
 button {
       margin-top: 15px;
-      font-size: 1.1em;
+      font-size: 1.3em;
+	  margin-left: 70%;
+	  text-align: right;
+	  padding: 8px 10px 8px 10px;
       /*background: #ded9d9;
-      padding: 8px 10px 8px 10px;
+
       border-radius: 8px;
       border: none;
-      margin-left: 70%;
+
       margin-bottom: 15px;
-	  text-align: right;
+
 	  border: 1px;
 	  border-color: grey;*/
 
@@ -42,10 +45,10 @@ button {
 	background-color: #ded9d9;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-right: 0px;
+	margin-right: 4px;
 	margin-left: 0px;
 	width: 100%;
-	padding: 5%;
+	padding: 5% 5% 3% 5%;
 }
 
 
@@ -77,6 +80,7 @@ button {
   	color: black;
   	line-height: 1.3;
 	font-weight: bolder;
+	padding-bottom: 8px;
 
 }
 
@@ -99,7 +103,8 @@ button {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
   	line-height: 1.3;
-	margin-top: 10px;
+	margin-top: 12px;
+	font-weight: 400;
 }
 
 b {font-weight: 600;}
@@ -136,7 +141,7 @@ if ($result->num_rows > 0) {
 	//echo "</br><h3>" . $transactionId . "</h1>";
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
-		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div><hr></div>" ;
+		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div></div>" ;
 
 		echo " <div id=\"main-details\"><div class=\"block\"><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></div>" ;
 
@@ -145,7 +150,7 @@ if ($result->num_rows > 0) {
 		echo " <div class=\"amount\"><b>Transfer amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></div>" ;
 
 		echo "  <div class=\"generated\"><b>Generated:</b> " . $array["send_ts"] . "</p>" ;
-		echo " <p><b>Status:</b> " . $array["status"] . "</div></div>" ;
+		echo " <p><b>Status:</b> " . $array["status"] . "</div></div><div id=\"main-details\">" ;
 
 
 
