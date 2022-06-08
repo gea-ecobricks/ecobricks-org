@@ -25,8 +25,6 @@
 button {
       margin-top: 15px;
       font-size: 1.3em;
-	  margin-left: 70%;
-	  text-align: right;
 	  padding: 8px 10px 8px 10px;
       /*background: #ded9d9;
 
@@ -150,7 +148,7 @@ if ($result->num_rows > 0) {
 		echo " <div class=\"amount\"><b>Transfer amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></div>" ;
 
 		echo "  <div class=\"generated\"><b>Generated:</b> " . $array["send_ts"] . "</p>" ;
-		echo " <p><b>Status:</b> " . $array["status"] . "</div></div><div id=\"main-details\">" ;
+		echo " <p><b>Status:</b> " . $array["status"] . "</div></div><div id=\"details-content\">" ;
 
 
 
