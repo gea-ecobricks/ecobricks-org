@@ -7,7 +7,9 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
 
-<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  -->
+<noscript>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
+</noscript>
 
 <noscript>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
@@ -16,10 +18,10 @@
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
 <!--<link rel="stylesheet" type="text/css" href="stylesheet-general.css?v0.14">
-
+-->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
--->
+
 
 </head>
 
