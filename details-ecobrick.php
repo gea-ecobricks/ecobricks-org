@@ -143,7 +143,7 @@ img {padding-right: 5%;}
 
 				
 				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br><br><br>
-				<p>An overview of the ecobrick recorded on the brikchain upon its authentication.</a>.</p><br>
+				<p>An overview of the ecobrick recorded on the brikchain upon its authentication.</p><br>
 </div>
 		
 
