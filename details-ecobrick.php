@@ -55,7 +55,7 @@ button {
 	margin: auto;
  	box-sizing: border-box;
   	width: 90%;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .transaction {
@@ -124,6 +124,9 @@ b {font-weight: 500;}
 
 img {padding-right: 5%;}
 
+#photo {width: 100%;
+	background-color: #ded9d9;}
+
 
 </style>
  
@@ -140,7 +143,7 @@ img {padding-right: 5%;}
 
 				
 				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br><br><br>
-				<p>An overview of the ecobrick recorded on the brikchain upon its authentication.</a>.</p><br><br>
+				<p>An overview of the ecobrick recorded on the brikchain upon its authentication.</a>.</p><br>
 </div>
 		
 
@@ -161,7 +164,7 @@ if ($result->num_rows > 0) {
     //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row
     while($array = $result->fetch_assoc()) {
 
-		echo '<img src="'. $array["ecobrick_full_photo_url"] .'" width="100%" alt="Ecobrick basic pic"/>';
+		echo '<div id="photo"><img src="'. $array["ecobrick_full_photo_url"] .'" width="100%" alt="Ecobrick basic pic"/></div>';
 		echo "<div id=\"main-details\"><div class=\"serial\">Serial: <var>" . $array["serial_no"] ."</var></div> </br>";
 		echo " <div class=\"date\"><b>Logged on </b><var>" . $array["date_logged_ts"] ."</var></div>" ;
 
