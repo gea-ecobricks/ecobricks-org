@@ -128,7 +128,6 @@ b {font-weight: 500;}
 				
 				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br>
 
-
 <!-- The DB connection creator -->
 <?php include 'db.php';?>
 <?php
