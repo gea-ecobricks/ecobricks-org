@@ -162,7 +162,7 @@ if ($result->num_rows > 0) {
     while($array = $result->fetch_assoc()) {
 
 		echo '<img src="'. $array["ecobrick_full_photo_url"] .'" width="100%" alt="Ecobrick basic pic"/>';
-		echo "<div id="\main-details\"><div class=\"serial\">Serial: <var>" . $array["serial_no"] ."</var></div> </br>";
+		echo "<div id=\"main-details\"><div class=\"serial\">Serial: <var>" . $array["serial_no"] ."</var></div> </br>";
 		echo " <div class=\"date\"><b>Logged on </b><var>" . $array["date_logged_ts"] ."</var></div>" ;
 
 	
