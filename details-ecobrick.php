@@ -120,6 +120,8 @@ p {
 
 b {font-weight: 500;}
 
+img {margin-left: 22px;}
+
 
 </style>
  
@@ -169,24 +171,32 @@ if ($result->num_rows > 0) {
 		echo " <div class=\"main\"><b>Brikcoin value:</b> <var>" . $array["ecobrick_dec_brk_val"] ."&#8202;ß</var></div></div>" ;
 
 
-		echo "  <div id=\"details-content\"><div class=\"general-field\"><b>First Owner:</b> <var><i>" . $array["owner"] ."</i></var> </div>" ;
-		echo "  <div class=\"general-field\"><b>Sequestration type:</b> <var>" . $array["sequestration_type"]."</var></div>" ;
-		echo "  <div class=\"general-field\"><b>Last validation time:</b> " . $array["last_validation_ts"] ."</var></div>" ;
+		echo "  <div id=\"details-content\"><div class=\"general-field\"><b>Maker:</b> <var><i>" . $array["owner"] ."</i></var> </div>" ;
+		echo "  <div class=\"general-field\"><b>Sequestration:</b> <var>" . $array["sequestration_type"]."</var></div>" ;
+		echo " <div class=\"general-field\"><b>Brand:</b> <var>" . $array["brand_name"] ."</var></div>" ;
+		echo "  <div class=\"general-field\"><b>Bottom colour:</b> " . $array["bottom_colour"] ."</var></div><hr>" ;
+		
+		echo "  <div class=\"general-field\"><b>Plastic source:</b> " . $array["plastic_from"] ."</var></div>" ;
+
+		echo "  <div class=\"general-field\"><b>Community:</b> <var>" . $array["community_name"] ."</var></div>" ;
+		echo "  <div class=\"general-field\"><b>City:</b> <var>" . $array["location_city"] ."</var></div>" ;
+		echo "  <div class=\"general-field\"><b>Region:</b> <var>" . $array["location_region"] ."</var></div>" ;
+		echo "  <div class=\"general-field\"><b>Country:</b> " . $array["location_country"] ."</div>" ;
+		echo "  <div class=\"general-field\"><b>Full location:</b> <var>" . $array["location_full"] ."</var></div><hr>" ;
+
+
+		echo "  <div class=\"general-field\"><b>Validation:</b> " . $array["last_validation_ts"] ."</var></div>" ;
 		echo "  <div class=\"general-field\"><b>Validator 1:</b> <var>" . $array["validator_1"] ."</var> </div>" ;
 		echo " <div class=\"general-field\"><b>Validator 2:</b> <var>" . $array["validator_2"] ."</var> </div>" ;
 		echo "  <div class=\"general-field\"><b>Validator 3:</b> <var>" . $array["validator_3"] ."</var> </div>" ;
-		echo "  <div class=\"general-field\"><b>Validation score avg:</b> <var>" . $array["validation_score_avg"] ."</var></div>" ;
+		echo "  <div class=\"general-field\"><b>Validation score avg.:</b> <var>" . $array["validation_score_avg"] ."</var></div>" ;
 		//echo " <p><b>Last ownership change:</b> <var>" . $array["last_ownership_change"] ."</var></p>" ;
 		echo "  <div class=\"general-field\"><b>Validation score final:</b> <var>" . $array["final_validation_score"] ."</var></div>" ;
 		echo " <div class=\"general-field\"><b>Authenticated weight:</b> <var> " . $array["weight_authenticated_kg"] ."&#8202;kg</var></div>" ;
-		echo "  <div class=\"general-field\"><b>Country:</b> " . $array["location_country"] ."</div>" ;
-		echo "  <div class=\"general-field\"><b>Region:</b> <var>" . $array["location_region"] ."</var></div>" ;
-		echo "  <div class=\"general-field\"><b>City:</b> <var>" . $array["location_city"] ."</var></div>" ;
-		echo "  <div class=\"general-field\"><b>Full location:</b> <var>" . $array["location_full"] ."</var></div>" ;
-		echo "  <div class=\"general-field\"><b>Community:</b> <var>" . $array["community_name"] ."</var></div>" ;
-		echo " <div class=\"general-field\"><b>Brand:</b> <var>" . $array["brand_name"] ."</var></div>" ;
-		echo "  <div class=\"general-field\"><b>Bottom colour:</b> " . $array["bottom_colour"] ."</var></div>" ;
-		echo "  <div class=\"general-field\"><b>Plastic source:</b> " . $array["plastic_from"] ."</var></div>" ;
+
+
+
+		
 	
 
 
