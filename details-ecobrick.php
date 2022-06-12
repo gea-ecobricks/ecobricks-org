@@ -156,7 +156,7 @@ if ($result->num_rows > 0) {
     //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row
     while($array = $result->fetch_assoc()) {
 
-		echo '<div class=\"main-details\"><img src="'. $array["ecobrick_full_photo_url"] .'" width="500" alt="Ecobrick basic pic"/>';
+		echo '<div id="main-details"><img src="'. $array["ecobrick_full_photo_url"] .'" width="100%" alt="Ecobrick basic pic"/>';
 		echo "<div class=\"serial\">Serial: <var>" . $array["serial_no"] ."</var></div> </br>";
 		echo " <div class=\"date\"><b>Logged on </b><var>" . $array["date_logged_ts"] ."</var></div>" ;
 
@@ -170,7 +170,7 @@ if ($result->num_rows > 0) {
 
 		echo "  <div class=\"general-field\"><b>First Owner:</b> <var><i>" . $array["owner"] ."</i></var> </div>" ;
 		echo "  <div class=\"general-field\"><b>Sequestration type:</b> <var>" . $array["sequestration_type"]."</var></div>" ;
-		echo "  <div class=\"general-field\"><b>Last validation time:</b> " . $array["last_validation_ts"] ."</var><div>" ;
+		echo "  <div class=\"general-field\"><b>Last validation time:</b> " . $array["last_validation_ts"] ."</var></div>" ;
 		echo "  <div class=\"general-field\"><b>Validator 1:</b> <var>" . $array["validator_1"] ."</var> </div>" ;
 		echo " <div class=\"general-field\"><b>Validator 2:</b> <var>" . $array["validator_2"] ."</var> </div>" ;
 		echo "  <div class=\"general-field\"><b>Validator 3:</b> <var>" . $array["validator_3"] ."</var> </div>" ;
