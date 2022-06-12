@@ -43,7 +43,7 @@ button {
 #main-details {
 	background-color: #ded9d9;
 	margin-top: 0px;
-	margin-bottom: 20px;
+	margin-bottom: 35px;
 	margin-right: 0px;
 	margin-left: -7px;
 	width: 100%;
@@ -124,8 +124,9 @@ b {font-weight: 500;}
 
 img {padding-right: 5%;}
 
-#photo {width: 100%;
-	background-color: #ded9d9;}
+#photo {width: 110%;
+	background-color: #ded9d9;
+	margin-left:-5%;}
 
 
 </style>
