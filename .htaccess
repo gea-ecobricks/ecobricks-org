@@ -148,6 +148,8 @@ RedirectMatch "^/exchange" "/en/drop-off.php"
 RedirectMatch "^/exchange/" "/en/drop-off.php"
 RedirectMatch "^/exchange/dropoff-map/" "/en/drop-off.php"
 
+RedirectMatch "^/brikcoins" "/en/brikcoins.php"
+RedirectMatch "^/brikcoins/" "/en/brikcoins.php"
 
 #Alternate default index pages
 DirectoryIndex welcome.php index.php
