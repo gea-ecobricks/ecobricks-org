@@ -103,7 +103,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			<div class="footer-box">
 
 			<div class="footer-header">Tech Partners</div>
-				<div class="footer-subtext">Thank you to our Technology Partners <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a>, <a href="https://wpml.org/" target="_blank" rel="noopener">WPML The WordPress Multilingual Plugin</a><a href="https://Knack.com" target="_blank"></a> and <a href="https://statically.io" target="_blank" rel="noopener">Statically</a> who give us special access to their amazing services.</div>
+				<div class="footer-subtext">Transitioning from plastic is a global collaboration!  We are grateful to our parners who have given the GEA full access to their awesome technologies.  Thanks to <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a> whose server hosts this site, <a href="https://wpml.org/" target="_blank" rel="noopener">to WPML whose plugin makes our wordpress pages multilingual</a>, to <a href="https://Knack.com" target="_blank">Knack</a> whose database development platform is behind our GoBrik app, and <a href="https://svgator.com" target="_blank" rel="noopener">SVGator</a> whose awesome animation platform gives life to our graphics.</div>
 
 				</div>
 			</div>
