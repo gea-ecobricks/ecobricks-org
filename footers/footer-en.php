@@ -103,7 +103,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			<div class="footer-box">
 
 			<div class="footer-header">Tech Partners</div>
-				<div class="footer-subtext">Transitioning from plastic is a global collaboration!  We are grateful to our parners who have given the GEA full access to their awesome technologies.  Thanks to <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a> whose server hosts this site, <a href="https://wpml.org/" target="_blank" rel="noopener">to WPML whose plugin makes our wordpress pages multilingual</a>, to <a href="https://Knack.com" target="_blank">Knack</a> whose database development platform is behind our GoBrik app, and <a href="https://svgator.com" target="_blank" rel="noopener">SVGator</a> whose awesome animation platform gives life to our graphics.</div>
+				<div class="footer-subtext">Plastic transition is a global collaboration!  We are grateful to our partners who have given us full access to their awesome technologies.  Thank you to <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a> whose servers host our sites, <a href="https://wpml.org/" target="_blank" rel="noopener">to WPML whose plugin makes our wordpress pages multilingual</a>, to <a href="https://Knack.com" target="_blank">Knack</a> whose database development platform is behind our GoBrik app, and to <a href="https://svgator.com" target="_blank" rel="noopener">SVGator</a> whose animation platform gives life to our graphics.</div>
 
 				</div>
 			</div>
@@ -157,6 +157,17 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		<div class="footer-invite">
 			This page is a 100% volunteer hand-coded and open-source page hosted on Github.<br>📝 <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page's text or code</a>
 		</div>
+
+		<br>
+
+		<div class="footer-invite">
+			<!--This page has not been translated to your language yet. Know HTML?-->
+			<!--Join the collaborative translation of this page on GitHub.-->
+			
+			Halaman ini belum diterjemahkan ke bahasa Anda. Tahu HTML?  📝 <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Bergabunglah dengan terjemahan kolaboratif halaman ini di GitHub.</a>
+		</div>
+
+
 		<br><br>
 	</div>
 </div>
