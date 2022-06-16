@@ -53,7 +53,7 @@ _END;?>
 		<div id="sliders">
 
 		<div id="slider1">
-				<div id="slider-image"><img src="webp/ecobrickable-200px.webp" width="80%" alt="How to make an ecobrick"></div>
+				<div id="slider-image"><img src="webp/ecobrickable-200px.webp" width="50px" alt="How to make an ecobrick"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Ecobrick Standards</div>
 					<div id="slider-date">2022 Updated | Guidelines</div>
