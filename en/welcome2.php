@@ -53,7 +53,7 @@ _END;?>
 		<div id="sliders">
 
 		<div id="slider1">
-				<div id="slider-image"><img src="icons/gobrik.svg" width="200px" alt="How to make an ecobrick"></div>
+				<div id="slider-image"><img src="webp/ecobrickable-200px.webp" width="200px" alt="How to make an ecobrick"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Ecobrick Standards</div>
 					<div id="slider-date">2022 Updated | Guidelines</div>
@@ -91,9 +91,9 @@ _END;?>
 
 			
 			<div id="slider4">
-			<div class="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
+			<div id="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
 				<div class="slider-textbox">
-					<div id="slider-heading">Learn how to build with Ecobricks</div>
+					<div id="slider-heading">Build with Ecobricks</div>
 					<div id="slider-date">GEA Updated Content</div>
 					<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
 					<div id="slider-link"><a href="build.php">Ecobrick Building</a></div>
