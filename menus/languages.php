@@ -1,9 +1,5 @@
-<!--<a href='https://ecobricks.org/en/<?php echo ($name); ;?>' onclick='javascript:Localize.setLanguage("en")'>🇬🇧 ENG</a>
-<a href='https://ecobricks.org/id/<?php echo ($name); ;?>' onclick='javascript:Localize.setLanguage("id")'>🇮🇩 IND</a>
-<a href='https://ecobricks.org/es/<?php echo ($name); ;?>' onclick='javascript:Localize.setLanguage("es")'>🇪🇸 ESP</a>
--->          
-
-<a href='https://www.ecobricks.org/en/<?php echo ($name); ;?>' >🇬🇧 ENG</a>
+         
+<a href='https://www.ecobricks.org/en/<?php echo ($name); ;?>' >🇬🇧 ENT</a>
 <a href='https://www.ecobricks.org/id/<?php echo ($name); ;?>'>🇮🇩 IND</a>
 <a href='https://www.ecobricks.org/es/<?php echo ($name); ;?>'>🇪🇸 ESP</a>-->
                 

@@ -10,10 +10,11 @@
 <div id="desktop-menu">
     <div class="topnav-lang" id="myTopnav-lang">
         <div class="dropdown-lang">
-            <button class="dropbtn-lang">ENG</button>
+            <button class="dropbtn-lang">ENT</button>
             <div class="dropdown-content-language">
               
             <!-- This loads the universal laguage list-->
+
             <?php require_once ("languages.php");?>
                 
             </div>
