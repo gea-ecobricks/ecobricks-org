@@ -15,8 +15,8 @@ _END;?>
 <link rel="preload" as="image" href="svgs/cloud-back.svg">
 <link rel="preload" as="image" href="webp/earthday-2022-400px.webp">
 <link rel="preload" as="image" href="webp/mountain-top2.webp">
-<link rel="preload" rel="stylesheet" type="text/css" href="stylesheet-first-load.css?v0.1">
-<link rel="preload" rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.54">
+<link rel="stylesheet" type="text/css" href="stylesheet-first-load.css?v0.1">
+<link rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.54">
 
 
 <!--This loads the page's header-->
