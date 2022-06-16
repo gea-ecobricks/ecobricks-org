@@ -15,11 +15,11 @@ _END;?>
 <!--  Set any page specific graphics to preload-->
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="svgs/cloud-back.svg">
-<link rel="preload" as="image" href="webp/earthday-2022-400px.webp">
+<link rel="preload" as="image" href="webp/ecobrickable-200px.webp">
 <link rel="preload" as="image" href="webp/mountain-top2.webp">
+<link rel="preload" as="image" href="webp/vision-bottom4.webp">
 
-<link rel="stylesheet" type="text/css" href="stylesheet-first-load.css?v0.3">
-<link rel="stylesheet" type="text/css" href="stylesheet-landing.css?v0.57">
+
 
 <!--This loads the page's header-->
 
@@ -53,7 +53,7 @@ _END;?>
 		<div id="sliders">
 
 		<div id="slider1">
-				<div id="slider-image"><img src="webp/ecobrickable-200px.webp" width="50px" alt="How to make an ecobrick"></div>
+				<div id="slider-image"><img src="webp/ecobrickable-200px.webp" width="50px" height="108px" alt="How to make an ecobrick"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Ecobrick Standards</div>
 					<div id="slider-date">2022 Updated | Guidelines</div>
