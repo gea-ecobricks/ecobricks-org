@@ -53,7 +53,7 @@ _END;?>
 		<div id="sliders">
 
 		<div id="slider1">
-		<div id="slider-image"><img src="svgs/ecobrickable-square" alt="How to make an ecobrick"></div>
+		<div id="slider-image"><img src="svgs/ecobrickable-square.svg" alt="How to make an ecobrick"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Ecobrick Guidelines</div>
 					<div id="slider-date">2022 Updated | Standardss</div>
@@ -92,10 +92,10 @@ _END;?>
 			
 			<div id="slider4">
 
-			<div id="slider-image"><img src="svgs/ecobrickable-square" alt="How to make an ecobrick"></div>
+			<div id="slider-image"><img src="svgs/ecobrickable-square.svg" alt="How to make an ecobrick"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Ecobrick Guidelines</div>
-					<div id="slider-date">2022 Updated | Standardss</div>
+					<div id="slider-date">2022 Updated | Standards</div>
 					<div id="slider-body">Did you know there are several kinds of ecobricks? Learn about what makes an ecobrick an ecobrick!  </div>
 					<div id="slider-link"><a href="/what">About Ecobricks</var></a></div>
 					
