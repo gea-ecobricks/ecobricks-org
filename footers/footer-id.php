@@ -18,7 +18,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; position="absolute"; bottom="0"; ></div>
 	
 	
-	<div class="footer-vision">We envision a Transition in our Households, Communities and Enterprises from Plastic to ever Greener Harmony with Earth's Cycles.</div>
+	<div class="footer-vision">Kami membayangkan Transisi di Rumah Tangga, Komunitas, dan Perusahaan kami dari Plastik menjadi Lebih Hijau Harmoni dengan Siklus Bumi.</div>
 	
 	<!--
 	<div class="footer-invite">Connect with us on our various platforms and servers.</div>-->
@@ -72,13 +72,6 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			<img src="icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"  title="Instagram: Ecobricks.Plastic.Transition" loading="lazy"></a>
 			
 		</div>
-
-		<!--<div class="footer-icons">--NEXTCLOUD
-			<a href="https://files.mandala.team/" target="_blank" rel="noopener">
-			<img src="icons/nextcloud.svg" width="100%" height="100%"></a>
-			<div class="icon-name">/ecobricks</div>
-			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
-		</div>-->
 			
 	</div>
 	
@@ -86,15 +79,16 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 		<div class="footer-box">
 			<div class="footer-header">Wikipedia</div>
-				<div class="footer-subtext">Also know as eco bricks, eco-bricks, EcoBricks, ecolladrillos, plastic bricks and bottle bricks the Global Ecobrick Alliance and Wikipedia recognize <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">'ecobrick'</a> as the official term for the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">sequestration of plastic</a> inside a PET bottle to make a reusable building block.<br><br>
+				<div class="footer-subtext">Juga dikenal sebagai batu bata ramah lingkungan, batu bata (brick) - ramah lingkungan (eco), EcoBrick, ecolladrilos, batu bata plastik, dan batu bata botol yang diakui oleh Global Ecobrick Alliance dan Wikipedia <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">'ecobrick'</a>'ecobrick' sebagai istilah resmi untuk <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">penyerapan plastik</a> di dalam botol PET untuk membuat blok bangunan yang dapat digunakan kembali.
+                <br><br>
 				</div>
 				
 			</div>
 			<div class="footer-box">
-				<div class="footer-header">Ecobricker Support</div>
-				<div class="footer-subtext">Got questions about ecobricking?  Join Circles, our own communication platform, running on opensource Mattermost.  Get help from trainers and ecobrickers around the world. <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">Sign up!</a><br><br></div>
+				<div class="footer-header">Dukungan Ecobricker</div>
+				<div class="footer-subtext">Punya pertanyaan tentang ecobrick? Bergabunglah dalam lingkaran, platform komunikasi kami sendiri, yang berjalan di Mattermost opensource. Dapatkan bantuan dari pelatih dan ecobricker di seluruh dunia. <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">Daftar!</a><br><br></div>
 				<!--<div class="footer-header">Trainer Support</div>-->
-				<div class="footer-subtext">GEA Trainers access your <a href="https://www.ecobricks.org/webmail" target="_blank">webmail</a>, <a href="https://www.ecobricks.org/wp-admin" target="_blank" rel="noopener">wordpress</a>, <a href="https://gobrik.com/#my-trainer" target="_blank" rel="noopener">GoBrik</a> or <a href="https://files.mandala.team" target="_blank" rel="noopener">NextCloud File Server</a> panels.</div>
+				<div class="footer-subtext">Pelatih GEA mengakses panel <a href="https://www.ecobricks.org/webmail" target="_blank">webmail</a>, <a href="https://www.ecobricks.org/wp-admin" target="_blank" rel="noopener">wordpress</a>, <a href="https://gobrik.com/#my-trainer" target="_blank" rel="noopener">GoBrik</a> atau <a href="https://files.mandala.team" target="_blank" rel="noopener">NextCloud File Server</a> panels.</div>
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Earth Enterprise</div>
