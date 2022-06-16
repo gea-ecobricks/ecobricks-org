@@ -23,7 +23,11 @@ _END;?>
 
 <!--This loads the page's header-->
 
-<?php require_once ("headers/header-$lang.php");?>
+<?php require_once ("header.php");?>
+
+<!--This loads the page's header-->
+
+<?php require_once ("styles-landing.php");?>
 
 </head>
 
@@ -49,7 +53,7 @@ _END;?>
 		<div id="sliders">
 
 		<div id="slider1">
-				<div id="slider-image"><img src="icons/gobrik.svg" width="92%" height="100%" alt="How to make an ecobrick"></div>
+				<div id="slider-image"><img src="icons/gobrik.svg" width="200px" alt="How to make an ecobrick"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Ecobrick Standards</div>
 					<div id="slider-date">2022 Updated | Guidelines</div>
@@ -95,7 +99,7 @@ _END;?>
 					<div id="slider-link"><a href="build.php">Ecobrick Building</a></div>
 				</div>
 			</div>
-					
+
 		</div>
 
 	<!--FIRST CONTENT SECTION-->
