@@ -34,7 +34,7 @@
                             </div>
                             <div id="apptext-menu">
                                 <div class="apptext-header">GoBrik </div>
-                                <div class="apptext-sub">Ecobricking Webapp<br>Manage your ecobricks<br>Connect to the Brikcoin blockchain</div>
+                                <div class="apptext-sub">Webapp untuk ecobrick<br>Kelola ecobrick anda.<br>Packet brikcoins.</div>
                             </div>
                         </div>
                     </a>
@@ -45,7 +45,7 @@
                                 
                             <div id="apptext-menu">
                                 <div class="apptext-header">Circles </div>
-                                <div class="apptext-sub">Join our free mattermost ecobricker community<br>Share your ecobricking<br>Learn from others</div>
+                                <div class="apptext-sub">Ikut komunitas ecobrick<br>di platform mattermost<br>kami</div>
                             </div>
                         </div>
                     
@@ -56,7 +56,7 @@
                             <div id="icon-menu"><img src="icons/offset.svg" width="65px" height="65px" loading="lazy"></div>
                             <div id="apptext-menu">
                                 <div class="apptext-header">AES Plastic Offsetting </div>
-                                <div class="apptext-sub">Offset your plastic footprint<br>on our GoBrik AES Platform</div>
+                                <div class="apptext-sub">Offset jejak plastik anda<br>di platform GoBrik AES</div>
                             </div>
                         </div>
                     </a>
@@ -64,31 +64,31 @@
         </div> 
         
         <a href="faqs.php">FAQs</a>
-        <a href="sequest.php">Sequestration</a>
-        <a href="about.php">About Us</a>
+        <a href="sequest.php">Sekuestrasi</a>
+        <a href="about.php">Tentang Kami</a>
         <div class="dropdown">
         
             <button class="dropbtn">
-            <div id="drop-text">Building
+            <div id="drop-text">Banguan
                   <i class="fa fa-caret-down"></i></div>
                 </button>
                 <div class="dropdown-content-normal">
-                    <a href="build.php">Building Methods</a>
-                    <a href="/modules">Lego Modules</a>
-                    <a href="/earth">Earth & Ecobricks</a>
+                    <a href="build.php">Metode</a>
+                    <a href="/modules">Genis Modul</a>
+                    <a href="/earth">Tanah dan Ecobrick</a>
                     <a href="/openspaces">Open Spaces</a>
                 </div>
             </div>
 
             <div class="dropdown">
-                <button class="dropbtn"><div id="drop-text">About Ecobricks
+                <button class="dropbtn"><div id="drop-text">Tentang Ecobricks
                   <i class="fa fa-caret-down"></i></div>
                 </button>
                 <div class="dropdown-content-normal">
-                    <a href="what.php">What are Ecobricks</a>
-                    <a href="/how">How to Make?</a>
-                    <a href="/why">Why Ecobricks?</a>
-                    <a href="/plastic">Plastic's Story</a>
+                    <a href="what.php">Apa itu Ecobricks</a>
+                    <a href="/how">Bagaimana membuat?</a>
+                    <a href="/why">Mangapa Ecobricks?</a>
+                    <a href="/plastic">Cerita Plastik</a>
                 </div>
             </div> 
         
