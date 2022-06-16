@@ -92,8 +92,8 @@
 
 	
 
-<!-- Arc CDN Script without delay-->
-<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
+<!-- Arc CDN Script without delay
+<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
 
 
 <!-- Inline styling to lay out the most important part of the page for first load view-->

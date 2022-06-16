@@ -173,7 +173,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 <script type="text/javascript" defer>
 
 document.addEventListener("DOMContentLoaded", function(event) {
-	setTimeout(addScript, 7000)
+	setTimeout(addScript, 8000)
   });
   
   function addScript() {
