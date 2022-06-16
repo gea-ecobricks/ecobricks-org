@@ -21,7 +21,7 @@ _END;?>
 
 <!--This loads the page's header-->
 
-<?php require_once ("headers/header-$lang.php");?>
+<?php require_once ("header.php");?>
 
 </head>
 
