@@ -1,3 +1,5 @@
+<!--PAGE LANGUAGE:  ENGLISH--> 
+
 <!DOCTYPE html>
 <?php require_once ("lang.php");
 echo <<<_END
@@ -47,12 +49,13 @@ _END;?>
 		<div id="sliders">
 
 		<div id="slider1">
-				<div id="slider-image"><img src="webp/faqs-400px.webp" width="92%" height="100%" alt="How to make an ecobrick"></div>
+				<div id="slider-image"><img src="icons/gobrik.svg" width="92%" height="100%" alt="How to make an ecobrick"></div>
 					<div id="slider-textbox">
-					<div id="slider-heading">Ecobricks Guidelines & Standards</div>
-					<div id="slider-body">Learn about what makes an ecobrick an ecobrick!  Did you know there are several kinds of ecobricks?</div>
+					<div id="slider-heading">Ecobrick Standards</div>
+					<div id="slider-date">2022 Updated | Guidelines</div>
+					<div id="slider-body">Did you know there are several kinds of ecobricks? Learn about what makes an ecobrick an ecobrick!  </div>
 					<div id="slider-link"><a href="/what">About Ecobricks</var></a></div>
-					<div id="slider-date">June 16th, 2022 | Site updates</div>
+					
 				</div>
 			</div>
 
@@ -63,10 +66,10 @@ _END;?>
 				<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
 			</div>
 			<div id="slider-textbox">
-				<div id="slider-heading">The <var>Brik Market</var> is Launched</div>
-				<div id="slider-date">May 2nd, 2022 | GEA Annoucement</div>
+				<div id="slider-heading">The Brik Market is Launched</div>
+				<div id="slider-date">June, 2022 | GEA Annoucement</div>
 				<div id="slider-body">After three years of development, we're excited to launch a place to exchange, trade, barter and drop-off your ecobricks.</div>
-				<div id="slider-link">>> <a href="drop-off.php">The <var>Brik Market</var></a></div>
+				<div id="slider-link">>> <a href="drop-off.php">The Brik Market</a></div>
 
 				</div>
 			</div>
@@ -76,9 +79,9 @@ _END;?>
 				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brick enterprise program"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Plastic Transition Platform for Enterprises</div>
+					<div id="slider-date">GEA Announcements</div>
 					<div id="slider-body">Our Catalyst program for keen green companies, organizations and projects is now live!  Track, disclose and accelerate your plastic transition.</div>
 					<div id="slider-link"><a href="catalyst.php">Learn more</a></div>
-					<div id="slider-date">Feb. 6, 2022 | GEA Announcements</div>
 				</div>
 			</div>
 
@@ -87,11 +90,12 @@ _END;?>
 			<div class="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
 				<div class="slider-textbox">
 					<div id="slider-heading">Learn how to build with Ecobricks</div>
-					<div id="slider-date">June 16th, 2022 | GEA Update Content</div>
+					<div id="slider-date">GEA Updated Content</div>
 					<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
-					<div id="slider-link">>> <a href="build.php">Ecobrick Building</a></div>
+					<div id="slider-link"><a href="build.php">Ecobrick Building</a></div>
 				</div>
-			</div>		
+			</div>
+					
 		</div>
 
 	<!--FIRST CONTENT SECTION-->
