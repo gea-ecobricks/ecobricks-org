@@ -101,7 +101,6 @@
 <STYLE>
 
 
-	
 #full-page {
 
 	z-index: 0;
@@ -153,8 +152,5 @@
 	text-align: right;
 	opacity: 1;
 }
-
-
-
 
 </style>	

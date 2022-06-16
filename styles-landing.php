@@ -1,4 +1,4 @@
-
+<style>
 
 #clouds {
 	background: url(svgs/cloud-back.svg) center top;
@@ -1065,5 +1065,6 @@
     }
   }
 
+  </style>
 
 

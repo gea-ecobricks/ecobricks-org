@@ -37,7 +37,7 @@ deployment:
     - /bin/cp details-brk-trans.php $DEPLOYPATH
 
     - /bin/cp stylesheet-general.css $DEPLOYPATH
-    - /bin/cp stylesheet-landing.css $DEPLOYPATH
+    - /bin/cp styles-landing.php $DEPLOYPATH
     - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
@@ -94,7 +94,7 @@ deployment:
     - /bin/cp details-brk-trans.php $DEPLOYPATH
 
     - /bin/cp stylesheet-general.css $DEPLOYPATH
-    - /bin/cp stylesheet-landing.css $DEPLOYPATH
+    - /bin/cp styles-landing.php $DEPLOYPATH
     - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
@@ -149,7 +149,7 @@ deployment:
     - /bin/cp details-brk-trans.php $DEPLOYPATH
 
     - /bin/cp stylesheet-general.css $DEPLOYPATH
-    - /bin/cp stylesheet-landing.css $DEPLOYPATH
+    - /bin/cp styles-landing.php $DEPLOYPATH
     - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
@@ -204,7 +204,7 @@ deployment:
     - /bin/cp details-brk-trans.php $DEPLOYPATH
 
     - /bin/cp stylesheet-general.css $DEPLOYPATH
-    - /bin/cp stylesheet-landing.css $DEPLOYPATH
+    - /bin/cp styles-landing.php $DEPLOYPATH
     - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
     - /bin/cp welcome.php $DEPLOYPATH
