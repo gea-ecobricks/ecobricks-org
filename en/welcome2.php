@@ -84,14 +84,13 @@ _END;?>
 
 			
 			<div id="slider4">
+			<div class="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
 				<div class="slider-textbox">
 					<div id="slider-heading">Learn how to build with Ecobricks</div>
 					<div id="slider-date">June 16th, 2022 | GEA Update Content</div>
 					<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
 					<div id="slider-link">>> <a href="build.php">Ecobrick Building</a></div>
 				</div>
-				<div class="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
-												
 			</div>		
 		</div>
 
