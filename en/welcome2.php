@@ -15,7 +15,7 @@ _END;?>
 <!--  Set any page specific graphics to preload-->
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="svgs/cloud-back.svg">
-<link rel="preload" as="image" href="svgs/ecobrickable-square.svg">
+<link rel="preload" as="image" href="svgs/ecobrickable-square.svg?v0.3">
 <link rel="preload" as="image" href="webp/mountain-top2.webp">
 <link rel="preload" as="image" href="webp/vision-bottom4.webp">
 
@@ -53,10 +53,10 @@ _END;?>
 		<div id="sliders">
 
 		<div id="slider1">
-		<div id="slider-image"><img src="svgs/ecobrickable-square.svg?v0.2" alt="How to make an ecobrick" width="100%" height="102%"></div>
+		<div id="slider-image"><img src="svgs/ecobrickable-square.svg?v0.3" alt="How to make an ecobrick" width="100%" height="102%"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Ecobrick Guidelines</div>
-					<div id="slider-date">2022 Updated | Standardss</div>
+					<div id="slider-date">2022 Updated | Standards</div>
 					<div id="slider-body">Did you know there are several kinds of ecobricks? Learn about what makes an ecobrick an ecobrick!  </div>
 					<div id="slider-link"><a href="/what">About Ecobricks</var></a></div>
 						
