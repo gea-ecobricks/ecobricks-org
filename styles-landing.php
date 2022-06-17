@@ -352,6 +352,7 @@
     #slider-image {
         display: block;
         width: 175px;
+        min-width: 175px;
         margin: auto;
         margin-right: 10px;
         margin-bottom: -28px;

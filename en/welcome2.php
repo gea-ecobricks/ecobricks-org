@@ -53,7 +53,7 @@ _END;?>
 		<div id="sliders">
 
 		<div id="slider1">
-		<div id="slider-image"><img src="svgs/ecobrickable-square.svg?v0.3" alt="How to make an ecobrick" width="100%" height="102%"></div>
+		<div id="slider-image"><img src="svgs/ecobrickable-square.svg?v0.3" alt="How to make an ecobrick" width="100%" height="102%" style="min-width:175px;"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Ecobrick Guidelines</div>
 					<div id="slider-date">2022 Updated | Standards</div>
@@ -91,19 +91,6 @@ _END;?>
 
 			
 			<div id="slider4">
-
-			<div id="slider-image"><img src="svgs/ecobrickable-square.svg" alt="How to make an ecobrick"></div>
-					<div id="slider-textbox">
-					<div id="slider-heading">Ecobrick Guidelines</div>
-					<div id="slider-date">2022 Updated | Standards</div>
-					<div id="slider-body">Did you know there are several kinds of ecobricks? Learn about what makes an ecobrick an ecobrick!  </div>
-					<div id="slider-link"><a href="/what">About Ecobricks</var></a></div>
-					
-				</div>
-			</div>
-			
-			
-			<!--
 			<div id="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
 				<div id="slider-textbox">
 					<div id="slider-heading">Build with Ecobricks</div>
@@ -111,7 +98,8 @@ _END;?>
 					<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
 					<div id="slider-link"><a href="build.php">Ecobrick Building</a></div>
 				</div>
-			</div>-->
+			</div>
+
 
 		</div>
 
