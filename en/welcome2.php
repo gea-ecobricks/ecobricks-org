@@ -15,7 +15,7 @@ _END;?>
 <!--  Set any page specific graphics to preload-->
 <link rel="preload" as="image" href="logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="svgs/cloud-back.svg">
-<link rel="preload" as="image" href="svgs/ecobrickable-square.svg?v0.3">
+<link rel="preload" as="image" href="https://www.ecobricks.org/en/svgs/ecobrickable-square.svg?v0.4">
 <link rel="preload" as="image" href="webp/mountain-top2.webp">
 <link rel="preload" as="image" href="webp/vision-bottom4.webp">
 
