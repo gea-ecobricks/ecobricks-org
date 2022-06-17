@@ -15,19 +15,17 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<!--FOOTER STARTS HERE-->
 	
 	<div id="footer-full">
-	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; position="absolute"; bottom="0"; ></div>
+	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="100%" height="63%" alt="Menjaga laut bebas dari polusi plastik"; position="absolute"; bottom="0"; ></div>
 	
 	
 	<div class="footer-vision">Kami membayangkan Transisi di Rumah Tangga, Komunitas, dan Perusahaan kami dari Plastik menjadi Lebih Hijau Harmoni dengan Siklus Bumi.</div>
 	
-	<!--
-	<div class="footer-invite">Connect with us on our various platforms and servers.</div>-->
 	</div>
 
 	<div class="footer-icons-container">
 		<div class="footer-icons"><!--WIKIPEDIA-->
 			<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">
-			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page" loading="lazy"></a>
+			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Lihat halaman wikipedia Ecobricks resmi." title="Lihat halaman wikipedia Ecobricks resmi." loading="lazy"></a>
 			
 		</div>
 
@@ -91,13 +89,12 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 				<div class="footer-subtext">Pelatih GEA mengakses panel <a href="https://www.ecobricks.org/webmail" target="_blank">webmail</a>, <a href="https://www.ecobricks.org/wp-admin" target="_blank" rel="noopener">wordpress</a>, <a href="https://gobrik.com/#my-trainer" target="_blank" rel="noopener">GoBrik</a> atau <a href="https://files.mandala.team" target="_blank" rel="noopener">NextCloud File Server</a> panels.</div>
 			</div>
 			<div class="footer-box">
-				<div class="footer-header">Earth Enterprise</div>
-				<div class="footer-subtext">The <a href="/about">Global Ecobrick Alliance</a> is a for-Earth, not-for-profit, enterprise based on <a href="/principles">regenerative principles.</a> We fully disclose our receipt and usage of funds on our <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">open books system.</a>We make sure to subtract more CO2 and plastic than we add to the biosphere and to fully disclose all our ecological impacts.  See our <a href="https://files.mandala.team/s/nptzWnNRkX3cJfr" target="_blank" rel="noopener">Regenerativity Report for 2020</a>.  See our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">live ecological impact accounting for 2021.</a></div>
+				<a href="/about">Global Ecobrick Alliance</a> adalah perusahaan untuk Bumi, nirlaba, berdasarkan <a href="/principles">prinsip-prinsip regeneratif.</a> Kami sepenuhnya mengungkapkan penerimaan dan penggunaan dana kami pada <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">sistem buku terbuka kami.</a> Kami memastikan untuk mengurangi lebih banyak CO2 dan plastik daripada yang kami tambahkan ke biosfer dan untuk sepenuhnya mengungkapkan semua dampak ekologis kami. Lihat <a href="2021-regenreport.php">Laporan Regenerasi kami untuk tahun lalu</a> . Lihat <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">penghitungan dampak ekologis langsung kami untuk tahun ini.</a>
 			</div>
 			<div class="footer-box">
 
 			<div class="footer-header">Tech Partners</div>
-				<div class="footer-subtext">Plastic transition is a global collaboration!  We are grateful to our partners who have given us full access to their awesome technologies.  Thank you to <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a> whose servers host our sites, <a href="https://wpml.org/" target="_blank" rel="noopener">to WPML whose plugin makes our wordpress pages multilingual</a>, to <a href="https://Knack.com" target="_blank">Knack</a> whose database development platform is behind our GoBrik app, and to <a href="https://svgator.com" target="_blank" rel="noopener">SVGator</a> whose animation platform gives life to our graphics.</div>
+				Transisi plastik adalah kolaborasi global! Kami berterima kasih kepada mitra kami yang telah memberi kami akses penuh ke teknologi luar biasa mereka. Terima kasih kepada <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a> yang servernya menghosting situs kami, <a href="https://wpml.org/" target="_blank" rel="noopener">kepada WPML yang pluginnya membuat halaman wordpress kami multibahasa</a>, kepada <a href="https://Knack.com" target="_blank">Knack</a> yang platform pengembangan basis datanya berada di belakang aplikasi GoBrik kami, dan kepada <a href="https://svgator.com" target="_blank" rel="noopener">SVGator</a> yang platform animasinya menghidupkan grafis kami.
 
 				</div>
 			</div>
@@ -138,9 +135,9 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		</div>
 		
 		<div class="footer-conclusion">	
-			The educational content of this site is made available by the Ecobrick Alliance under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Please attribute all usage to "Ecobricks.org - Global Ecobrick Alliance" using the same license.</div>
+		Konten pendidikan dari situs ini disediakan oleh Ecobrick Alliance di bawah <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> . Harap hubungkan semua penggunaan ke "Ecobricks.org - Global Ecobrick Alliance" menggunakan lisensi yang sama.
 			<div class="footer-conclusion">	
-			The AES, GEA and GoBrik logos and emblems are copyright 2022 by the Global Ecobrick Alliance.
+			Logo dan emblem AES, GEA dan GoBrik adalah hak cipta 2022 oleh Global Ecobrick Alliance. 
 			<br><br>
 		</div>
 			
@@ -149,7 +146,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 
 		<div class="footer-invite">
-			This page is a 100% volunteer hand-coded and open-source page hosted on Github.<br>📝 <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Propose a change to this page's text or code</a>
+			Halaman ini adalah halaman kode tangan dan sumber terbuka 100% sukarelawan yang dihosting di Github.<br>📝 <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/welcome.php" target="_blank" rel="noopener">Usulkan perubahan pada teks atau kode halaman ini</a>
 		</div>
 
 		<br>
