@@ -89,12 +89,13 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 				<div class="footer-subtext">Pelatih GEA mengakses panel <a href="https://www.ecobricks.org/webmail" target="_blank">webmail</a>, <a href="https://www.ecobricks.org/wp-admin" target="_blank" rel="noopener">wordpress</a>, <a href="https://gobrik.com/#my-trainer" target="_blank" rel="noopener">GoBrik</a> atau <a href="https://files.mandala.team" target="_blank" rel="noopener">NextCloud File Server</a> panels.</div>
 			</div>
 			<div class="footer-box">
-				<a href="/about">Global Ecobrick Alliance</a> adalah perusahaan untuk Bumi, nirlaba, berdasarkan <a href="/principles">prinsip-prinsip regeneratif.</a> Kami sepenuhnya mengungkapkan penerimaan dan penggunaan dana kami pada <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">sistem buku terbuka kami.</a> Kami memastikan untuk mengurangi lebih banyak CO2 dan plastik daripada yang kami tambahkan ke biosfer dan untuk sepenuhnya mengungkapkan semua dampak ekologis kami. Lihat <a href="2021-regenreport.php">Laporan Regenerasi kami untuk tahun lalu</a> . Lihat <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">penghitungan dampak ekologis langsung kami untuk tahun ini.</a>
+			<div class="footer-header">Enterprise Hijau</div>
+			<div class="footer-subtext"><a href="/about">Global Ecobrick Alliance</a> adalah perusahaan untuk Bumi, nirlaba, berdasarkan <a href="/principles">prinsip-prinsip regeneratif.</a> Kami sepenuhnya mengungkapkan penerimaan dan penggunaan dana kami pada <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">sistem buku terbuka kami.</a> Kami memastikan untuk mengurangi lebih banyak CO2 dan plastik daripada yang kami tambahkan ke biosfer dan untuk sepenuhnya mengungkapkan semua dampak ekologis kami. Lihat <a href="2021-regenreport.php">Laporan Regenerasi kami untuk tahun lalu</a> . Lihat <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">penghitungan dampak ekologis langsung kami untuk tahun ini.</a></div>
 			</div>
 			<div class="footer-box">
 
 			<div class="footer-header">Tech Partners</div>
-				Transisi plastik adalah kolaborasi global! Kami berterima kasih kepada mitra kami yang telah memberi kami akses penuh ke teknologi luar biasa mereka. Terima kasih kepada <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a> yang servernya menghosting situs kami, <a href="https://wpml.org/" target="_blank" rel="noopener">kepada WPML yang pluginnya membuat halaman wordpress kami multibahasa</a>, kepada <a href="https://Knack.com" target="_blank">Knack</a> yang platform pengembangan basis datanya berada di belakang aplikasi GoBrik kami, dan kepada <a href="https://svgator.com" target="_blank" rel="noopener">SVGator</a> yang platform animasinya menghidupkan grafis kami.
+			<div class="footer-subtext">Transisi plastik adalah kolaborasi global! Kami berterima kasih kepada mitra kami yang telah memberi kami akses penuh ke teknologi luar biasa mereka. Terima kasih kepada <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a> yang servernya menghosting situs kami, <a href="https://wpml.org/" target="_blank" rel="noopener">kepada WPML yang pluginnya membuat halaman wordpress kami multibahasa</a>, kepada <a href="https://Knack.com" target="_blank">Knack</a> yang platform pengembangan basis datanya berada di belakang aplikasi GoBrik kami, dan kepada <a href="https://svgator.com" target="_blank" rel="noopener">SVGator</a> yang platform animasinya menghidupkan grafis kami.</div>
 
 				</div>
 			</div>
@@ -151,12 +152,14 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 		<br>
 
+		<!--
+
 		<div class="footer-invite">
-			<!--This page has not been translated to your language yet. Know HTML?-->
-			<!--Join the collaborative translation of this page on GitHub.-->
 			
 			Halaman ini belum diterjemahkan ke bahasa Anda. Tahu HTML?  📝 <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Bergabunglah dengan terjemahan kolaboratif halaman ini di GitHub.</a>
+			
 		</div>
+			-->
 
 
 		<br><br>

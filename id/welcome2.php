@@ -53,12 +53,12 @@ _END;?>
 		<div id="sliders">
 
 		<div id="slider1">
-		<div id="slider-image"><img src="svgs/ecobrickable-square.svg?v0.3" alt="How to make an ecobrick" width="100%" height="102%" style="min-width:175px;"></div>
+		<div id="slider-image"><img src="svgs/ecobrickable-square.svg?v0.3" alt="Cara membuat ecobrick" width="100%" height="102%" style="min-width:175px;"></div>
 					<div id="slider-textbox">
-					<div id="slider-heading">Ecobrick Guidelines</div>
-					<div id="slider-date">2022 Updated | Standards</div>
-					<div id="slider-body">Did you know there are several kinds of ecobricks? Learn about what makes an ecobrick an ecobrick!  </div>
-					<div id="slider-link"><a href="/what">About Ecobricks</var></a></div>
+					<div id="slider-heading">Pedoman Ecobrick</div>
+					<div id="slider-date">2022 Diperbarui | Standar</div>
+					<div id="slider-body">Tahukah Anda bahwa ada beberapa jenis ecobrick? Pelajari tentang apa yang membuat ecobrick menjadi ecobrick!  </div>
+					<div id="slider-link"><a href="/what">Tentang Ecobricks</var></a></div>
 						
 				</div>
 			</div>
@@ -67,36 +67,36 @@ _END;?>
 			<div id="slider2">
 
 			<div id="slider-image">
-				<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
+				<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Pasar eco brick kami untuk mengatur perdagangan dan mengantar ecobrick">
 			</div>
 			<div id="slider-textbox">
-				<div id="slider-heading">The Brik Market is Launched</div>
-				<div id="slider-date">June, 2022 | GEA Annoucement</div>
-				<div id="slider-body">After three years of development, we're excited to launch a place to exchange, trade, barter and drop-off your ecobricks.</div>
-				<div id="slider-link">>> <a href="drop-off.php">The Brik Market</a></div>
+				<div id="slider-heading">Pasar Brik Diluncurkan</div>
+				<div id="slider-date">Juni, 2022 | Pengumuman GEA</div>
+				<div id="slider-body">Setelah tiga tahun pengembangan, kami dengan senang hati meluncurkan tempat untuk menukar, memperdagangkan, barter, dan menyerahkan ecobrick Anda.</div>
+				<div id="slider-link">>> <a href="drop-off.php">Brik Market</a></div>
 
 				</div>
 			</div>
 
 
 			<div id="slider3">
-				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brick enterprise program"></div>
+				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Program eco brick perusahaan"></div>
 					<div id="slider-textbox">
-					<div id="slider-heading">Plastic Transition Platform for Enterprises</div>
-					<div id="slider-date">GEA Announcements</div>
-					<div id="slider-body">Our Catalyst program for keen green companies, organizations and projects is now live!  Track, disclose and accelerate your plastic transition.</div>
-					<div id="slider-link"><a href="catalyst.php">Learn more</a></div>
+					<div id="slider-heading">Platform Transisi Plastik untuk Perusahaan</div>
+					<div id="slider-date">Pengumuman GEA</div>
+					<div id="slider-body">Program Catalyst kami untuk perusahaan, organisasi, dan proyek yang ramah lingkungan sekarang aktif! Lacak, ungkap, dan percepat transisi plastik Anda.</div>
+					<div id="slider-link"><a href="catalyst.php">Belajarlah lagi</a></div>
 				</div>
 			</div>
 
 			
 			<div id="slider4">
-			<div id="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
+			<div id="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;" alt="Bangun dengan Ecobrick"></div>	
 				<div id="slider-textbox">
-					<div id="slider-heading">Build with Ecobricks</div>
-					<div id="slider-date">GEA Updated Content</div>
-					<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
-					<div id="slider-link"><a href="build.php">Ecobrick Building</a></div>
+					<div id="slider-heading">Bangun dengan Ecobrick</div>
+					<div id="slider-date">Konten Unggulan GEA</div>
+					<div id="slider-body">Pelajari tentang berbagai cara memanfaatkan ecobrick dengan baik dalam segala hal mulai dari modul hingga konstruksi tanah.</div>
+					<div id="slider-link"><a href="build.php">Banguan</a></div>
 				</div>
 			</div>
 
