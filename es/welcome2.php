@@ -45,7 +45,7 @@ _END;?>
 
 	<!-- This loads the page's top graphics-->
 
-		<div id="clouds"><img src="webp/mountain-top2.webp" width="100%"></div>
+		<div id="clouds"><img src="webp/mountain-top2.webp?v1" width="100%"></div>
 		<div id="cloud-banner"><img src="webp/vision-bottom4.webp" width="100%" height="31%"></div>
 
 
@@ -56,10 +56,10 @@ _END;?>
 		<div id="slider1">
 		<div id="slider-image"><img src="svgs/ecobrickable-square.svg?v0.3" alt="How to make an ecobrick" width="100%" height="102%" style="min-width:175px;"></div>
 					<div id="slider-textbox">
-					<div id="slider-heading">Ecobrick Guidelines</div>
-					<div id="slider-date">2022 Updated | Standards</div>
-					<div id="slider-body">Did you know there are several kinds of ecobricks? Learn about what makes an ecobrick an ecobrick!  </div>
-					<div id="slider-link"><a href="/what">About Ecobricks</var></a></div>
+					<div id="slider-heading">Estándares Ecobrick</div>
+					<div id="slider-date">2022 pautas</div>
+					<div id="slider-body">¿Sabías que existen varios tipos de ecobricks? ¡Aprende sobre lo que hace que un ecoladrillo sea un ecoladrillo!  </div>
+					<div id="slider-link"><a href="/what">Sobre Ecobricks</var></a></div>
 						
 				</div>
 			</div>
