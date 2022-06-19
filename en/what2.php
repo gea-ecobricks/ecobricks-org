@@ -354,7 +354,7 @@ _END;?>
 						<div class="main2">
 						<p>Cigbricks are a class of ecobrick to secure the potentially toxic plastic/acetate of the cigarette filters. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</p>
 						</div>
-						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="100%">
+						<div class="side2"><img src="svgs/Cigbrick.svg" width="100%">
 						</div>
 					</div>
 
@@ -362,7 +362,7 @@ _END;?>
 						<div class="main3">
 						<p>To be a Cigbrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5cfc9bc8451bc4000aef50a0/original/cigbrickstandalone.png" width="120px">
+						<div class="side3"><img src="svgs/Cigbrick.svg" width="120px">
 						</div>
 					</div>
 			
@@ -404,7 +404,7 @@ _END;?>
 						<p>Ocean Ecobricks are a class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
 						</div>
 						<div class="side2">
-						<img src="https://www.gobrik.com/images/oceanecobrick.png" width="100%">
+						<img src="webp/oeb-400px.webp" width="100%">
 						</div>
 					</div>
 
@@ -412,7 +412,7 @@ _END;?>
 						<div class="main3">
 						<p>To be an Ocean Ecobrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="https://www.gobrik.com/images/oceanecobrick.png" width="150px">
+						<div class="side3"><img src="webp/oeb-400px.webp" width="150px">
 						</div>
 					</div>
 
@@ -451,7 +451,7 @@ _END;?>
 		<ul>
 			<li><a href="/why">Why Make Ecobricks?</a></li>
 			<li><a href="/how">How to Ecobrick?</a></li>
-			<li><a href="/circular">Cradle to Cradle</a></li>
+			<li><a href="/circular">Circular Design</a></li>
 			<li><a href="build.php">Building with Ecobricks</a></li>
 			<li><a href="/movement">The Movement</a></li>
 			<li><a href="/dropoff">Dropping off ecobricks?</a></li>
