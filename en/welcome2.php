@@ -25,7 +25,7 @@ _END;?>
 
 <?php require_once ("header.php");?>
 
-<!--This loads the page's header-->
+<!--This loads CSS specific to the landing page-->
 
 <?php require_once ("styles-landing.php");?>
 
