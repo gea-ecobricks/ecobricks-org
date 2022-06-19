@@ -4,7 +4,7 @@
 
     #clouds {
       background-color: #00ffff;
-      background: url(svgs/top-clouds-animated-desktop?v3) center top;
+      background: url(svgs/top-clouds-animated-desktop.svg?v3) center top;
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;
