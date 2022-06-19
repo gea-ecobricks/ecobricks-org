@@ -266,8 +266,8 @@ _END;?>
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Ecobricking Standards</h4>
-						<h5>The GEA maintains standards for ecobricking that are divided into six categories</h5>
+						<h4>Standar Ecobrick</h4>
+						<h5>GEA mempertahankan standar untuk ecobrick yang dibagi menjadi enam kategori</h5>
 					</div>
 					
 
@@ -279,7 +279,7 @@ _END;?>
 					<br>
 					<div class="row">
 						<div class="main2">
-							<p>The <a href="about.php">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition.php">petro-capital transition</a> and <a href="sequest.php">plastic sequestration.</a></p>
+							<p>The <a href="about.php">Global Ecobrick Alliance (GEA)</a> menganjurkan ecobrick sebagai sarana<a href="transition.php">transisi petro-capital</a> dan <a href="sequest.php">sekuestrasi plastik.</a></p>
 				
 						<p>
 						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics and the<a href="/plastic">Earth’s example of greening the biosphere</a>.</p>
