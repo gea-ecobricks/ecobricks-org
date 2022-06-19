@@ -187,7 +187,7 @@ _END;?>
 	margin-bottom: 40px;  
     }
 
-
+    @media screen and (min-width: 700px) { 
 #translation-required {
   padding: 20px;
   background-color: #FDE21F;
@@ -202,9 +202,10 @@ _END;?>
   position: absolute;
   top: 100px;
   z-index: 6;
-  right: 20px;
+  right: 30px;
   box-shadow: 0 5px 5px rgba(85, 84, 84, 0.4);
 }
+    }
     
 
 </style>	
