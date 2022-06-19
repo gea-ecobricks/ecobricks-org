@@ -165,12 +165,16 @@ img {padding-right: 5%;}
                 while($array = $result->fetch_assoc()) {
 
                     echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="100%" alt="Cash transaction photo"/></div>';
-                    echo "<div id=\"main-details\"><div class=\"general-field\"> Transaction id: " . $array["cash_tran_id"] ."</div>";
-                    echo " <div class=\"general-field\"><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
-                    echo " <div class=\"general-field\"><b>Datetime sent:</b> <var>" . $array["datetime_sent_ts"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Type of transaction:</b> <var>" . $array["sequestration_type"]."</var></div></div>" ;
-                    echo " <div class=\"general-field\"><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></div>" ;
+                    echo "<div id=\"main-details\"><div class=\"main\"> Transaction id: " . $array["cash_tran_id"] ."</div>";
+                    echo " <div class=\"main\"><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
+                    echo " <div class=\"main\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
+                    echo " <div class=\"main\"><b>Datetime sent:</b> <var>" . $array["datetime_sent_ts"] ."</var></div>" ;
+                
+                    echo " <div class=\"main\"><b>Type of transaction:</b> <var>" . $array["type_of_transaction"]."</var></div></div>" ;
+                    echo " <div class=\"main\"><b>Amount:</b> <var>" . $array["native_ccy_amt"] ." " ;
+                    echo " " . $array["currency_code"] ."</var></div>" ;
+
+                    echo " <div id=\"details-content\"><div class=\"general-field\"><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></div>" ;
                     echo " <div class=\"general-field\"><b>Native ccy amt</b> <var>" . $array["native_ccy_amt"] ."</var> </div>" ;
                     echo " <div class=\"general-field\"><b>Currency code:</b><var> " . $array["currency_code"] ."</var></div>" ;
                     echo " <div class=\"general-field\"><b>Exchange ratio</b> <var>" . $array["exchange_ratio"] ."</var> </div>" ;
@@ -179,11 +183,11 @@ img {padding-right: 5%;}
                     echo " <div class=\"general-field\"><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></div>" ;
                     echo " <div class=\"general-field\"><b>Transaction date:</b> <var>" . $array["transaction_date_dt"] ."</var></div>" ;
                     echo " <div class=\"general-field\"><b>Total product cost+ccy display:</b> <var> " . $array["total_product_cost_+ccy_display"] ."&#8202;kg</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Receiving gea acct</b> " . $array["location_country"] ."</div>" ;
+                    echo " <div class=\"general-field\"><b>Receiving GEA acct:</b> " . $array["location_country"] ."</div>" ;
                     echo " <div class=\"general-field\"><b>Sender for display</b> <var>" . $array["sender_for_display"] ."</var></div>" ;
                     echo " <div class=\"general-field\"><b>Receiver for display:</b> <var>" . $array["receiver_for_display"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Purchase method</b> <var>" . $array["purchase_method"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Paymentt record:</b> <var>" . $array["paymt_record_url"] ."</var></div>" ;
+                    echo " <div class=\"general-field\"><b>Purchase method:</b> <var>" . $array["purchase_method"] ."</var></div>" ;
+                    echo " <div class=\"general-field\"><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></div>" ;
                 }
             } else {
                 echo "No results found for the specified Cash Transaction ID number";
