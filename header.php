@@ -34,12 +34,11 @@
 </noscript>
 
 
-
 <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" media="print" onload="this.media='all'">-->
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v0.17">
+<link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v0.18">
 
 	
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
