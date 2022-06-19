@@ -3,13 +3,14 @@
 @media screen and (min-width: 770px) { 
 
     #clouds {
+      background-color: #00ffff;
       background: url(svgs/top-clouds-animated-desktop?v2) center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
       height: 73vh;
       /* min-height: 500px;*/
-      background-color: #00ffff;
+      
         display: flex;
         align-items: flex-end;
         margin-top: 0px;
@@ -20,13 +21,14 @@
 @media screen and (max-width: 769px) { 
 
     #clouds {
+      background-color: #00ffff;
       background: url(svgs/top-clouds-mobile.svg?v2) center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
       height: 85vh;
       /* min-height: 500px;*/
-      background-color: #00ffff;
+      
         display: flex;
         align-items: flex-end;
         margin-top: 0px;
@@ -46,7 +48,7 @@
 	min-height: 25vh;
 	background-color: #00ffff;
 }
-}
+
 
 #clouds {
 	background: url(svgs/cloud-back.svg) center top;
