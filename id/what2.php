@@ -187,18 +187,25 @@ _END;?>
 	margin-bottom: 40px;  
     }
 
-#translation-required {
-    padding: 10px;
-    background-color: yellow;
-    font-family: Mulish;
-    font-size: 1.2em;
-		line-height: 1.5;
-		font-weight: 400;
-    text-align: right;
-    border-radius: 12px;
-	margin-top: -20px;
 
+#translation-required {
+  padding: 20px;
+  background-color: #FDE21F;
+  font-family: Mulish;
+  font-size: 0.9em;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: left;
+  border-radius: 12px;
+  margin-top: -20px;
+  width: 18%;
+  position: absolute;
+  top: 100px;
+  z-index: 6;
+  right: 20px;
+  box-shadow: 0 5px 5px rgba(85, 84, 84, 0.4);
 }
+    
 
 </style>	
 
@@ -213,12 +220,15 @@ _END;?>
 
     <?php require_once ("menus/menu-$lang.php");?>
 
-<!--Page Banner-->
+
 
 <!--MAIN CONTENT FOR TRANSLATION-->
 
-<div id="translation-required">This page is not yet translated into your language.  Know HTML? Help us translate on Github</div>
+<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
+<?php require_once ("translate-please.php");?>
 
+
+<!--Page Banner-->
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">
