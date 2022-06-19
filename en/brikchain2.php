@@ -156,7 +156,7 @@ $(document).ready(function() {
 		z-index: 5;
 		position: relative;
     	background-repeat: no-repeat;
-		margin: -30px 0 -20px 0;
+		margin: 0px 0 -20px 0;
 		display: flex;
  		flex-wrap: wrap;
  		box-sizing: border-box;
@@ -231,7 +231,7 @@ $(document).ready(function() {
 
 @media screen and (max-width: 700px) {
 	.splash-heading {
-      font-size: 3.0em;
+      font-size: 2.6em;
       line-height: 1.3;
       margin: 0px 0;
   }
@@ -639,20 +639,12 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 </div>
 </div>
 
-
-
-			
-		
-
-
-
 	<!--FOOTER STARTS HERE-->
 
-
-	<?php include 'footer.php'; ?>
-
+	<?php require_once ("footers/footer-$lang.php");?>
 
 	<!--FOOTER ENDS HERE-->
+	
 </div>
 </body>
 </html>
