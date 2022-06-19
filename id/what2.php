@@ -45,10 +45,10 @@ _END;?>
     	background-size: cover;
 		text-align: left;
 		height: 70vh;
-		padding: 50px 5% 25px 5%;
+		padding: 10px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;    	
-		margin-top: 45px;
+		margin-top: 20px;
 		width: 100%;
 		display: flex;
  		box-sizing: border-box;
@@ -187,25 +187,6 @@ _END;?>
 	margin-bottom: 40px;  
     }
 
-    @media screen and (min-width: 700px) { 
-#translation-required {
-  padding: 20px;
-  background-color: #FDE21F;
-  font-family: Mulish;
-  font-size: 0.9em;
-  line-height: 1.5;
-  font-weight: 400;
-  text-align: left;
-  border-radius: 12px;
-  margin-top: -20px;
-  width: 18%;
-  position: absolute;
-  top: 100px;
-  z-index: 6;
-  right: 30px;
-  box-shadow: 0 5px 5px rgba(85, 84, 84, 0.4);
-}
-    }
     
 
 </style>	
