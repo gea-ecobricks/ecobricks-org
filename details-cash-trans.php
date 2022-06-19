@@ -167,7 +167,7 @@ img {padding: 8%;}
                     echo "<div id=\"main-details\"><div class=\"date\"> Transaction ID: " . $array["cash_tran_id"] ."</div>";
 
                     if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] != '' ) {  
-                        echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%" alt="Cash transaction photo"/></div>';
+                        echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%" alt="No cash transaction photo"/></div>';
                     }
 
                     echo " <div class=\"serial\"><b>Amount:</b> <var>" . $array["native_ccy_amt"] ." " ;
@@ -193,9 +193,10 @@ img {padding: 8%;}
                     echo " <div class=\"general-field\"><b>Receiver for display:</b> <var>" . $array["receiver_for_display"] ."</var></div>" ;
                     echo " <div class=\"general-field\"><b>Purchase method:</b> <var>" . $array["purchase_method"] ."</var></div></div>" ;
 
-                    echo " <div class=\"general-field\"><b>Transaction date:</b> <var>" . $array["transaction_date_dt"] ."</var></div>" ;
+                    
                     echo " <div id=\"details-content\"><div class=\"general-field\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
                     echo " <div class=\"general-field\"><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></div>" ;
+                    echo " <div class=\"general-field\"><b>Transaction date:</b> " . $array["transaction_date_dt"] ."</var></div>" ;
                 }
             } else {
                 echo "No results found for the specified Cash Transaction ID number";
