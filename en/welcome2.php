@@ -14,9 +14,10 @@ _END;?>
 
 <!--  Set any page specific graphics to preload-->
 <link rel="preload" as="image" href="https://www.ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/cloud-back.svg">
+<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-mobile.svg">
+<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop">
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/ecobrickable-square.svg?v0.4">
-<link rel="preload" as="image" href="https://www.ecobricks.org/webp/mountain-top2.webp">
+<link rel="preload" as="image" href="https://www.ecobricks.org/webp/mountain-top2.webp?v2">
 <link rel="preload" as="image" href="https://www.ecobricks.org/webp/vision-bottom4.webp">
 
 
