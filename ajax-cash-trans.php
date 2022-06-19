@@ -34,8 +34,10 @@ $primaryKey = 'cash_tran_id';
 $columns = array(
   array( 'db' => 'cash_tran_id',     'dt' => 0,
   'formatter' => function( $d, $row ) {
-    return '<a href="details-cash-trans.php?cash_tran_id='.($d).'" target="_blank"><var>'.($d).'</var></a>';
+    return '<a href="details-ecobrick.php?serial_no='.($d).'" target="popup"
+    onclick="window.open(\'details-cash-trans.php?cash_tran_id='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
 }
+
 ),
 
   array(
@@ -45,7 +47,6 @@ $columns = array(
         return '<var>'.date($d).'<var>';
     }
 ),
-
     array( 'db' => 'sender_for_display',     'dt' => 2 ),
     array( 'db' => 'receiver_for_display',     'dt' => 3 ),
     array( 'db' => 'tran_name_desc', 'dt' => 4 ),
