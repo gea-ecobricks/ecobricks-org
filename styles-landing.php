@@ -3,7 +3,7 @@
 @media screen and (min-width: 770px) { 
 
     #clouds {
-      background: url(svgs/top-clouds-animated-desktop) center top;
+      background: url(svgs/top-clouds-animated-desktop?v1) center top;
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -20,7 +20,7 @@
 @media screen and (max-width: 769px) { 
 
     #clouds {
-      background: url(svgs/top-clouds-mobile.svg) center top;
+      background: url(svgs/top-clouds-mobile.svg?v1) center top;
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
