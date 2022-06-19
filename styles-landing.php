@@ -4,7 +4,7 @@
 
     #clouds {
       background-color: #00ffff;
-      background: url(svgs/top-clouds-animated-desktop?v2) center top;
+      background: url(svgs/top-clouds-animated-desktop?v3) center top;
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;
@@ -49,6 +49,7 @@
 	background-color: #00ffff;
 }
 
+/*
 
 #clouds {
 	background: url(svgs/cloud-back.svg) center top;
@@ -56,12 +57,13 @@
     background-size: cover;
     width: 100%;
 	height: 73vh;
-   /* min-height: 500px;*/
 	background-color: #00ffff;
     display: flex;
     align-items: flex-end;
     margin-top: 0px;
 }
+
+*/
 
 #cloud-banner {
 	background: url(webp/vision-bottom5.webp) center top;
