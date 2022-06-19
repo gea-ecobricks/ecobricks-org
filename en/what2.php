@@ -513,11 +513,12 @@ _END;?>
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php include 'footer.php'; ?>
+	<?php require_once ("footers/footer-$lang.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
+<!-- This script is for pages that use the accordion content system-->
 <script src="accordion-scripts.js" defer></script>
 
 
