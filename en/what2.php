@@ -210,7 +210,7 @@ _END;?>
 		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
-	<div class="splash-image"><img src="svgs/eb-blue.svg" style="width: 80%;"></div>	
+	<div class="splash-image"><img src="svgs/eb-blue-no-clouds.svg" style="width: 90%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -462,7 +462,7 @@ _END;?>
 	</div>
 
 	
-<!-- PAGE SIDE BAR STARTS HERE-->$_COOKIE
+<!-- PAGE SIDE BAR STARTS HERE-->
 
 		<div class="side">
 
