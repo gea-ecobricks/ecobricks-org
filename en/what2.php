@@ -284,8 +284,8 @@ _END;?>
 					<h6>
 					Learn more about the <a href="sequest.php"><strong>criteria of plastic sequestration.</strong></a>
 
-					Learn more about the<a href="/plastic"><strong> Earth’s Example</strong></a>
-					</h6>
+					<h5>ℹ️ Learn more about <a href="/plastic">the Earth's example.</a></h5>
+
 				</div>	
 			</div>
 
@@ -331,7 +331,9 @@ _END;?>
 					</ul></p>
 					<p>Only ecobricks that meet these standards can be authenticated and count as sequestered plastic.</p>
 					<br>
-					<h6><a href="/how">View our 10 Step Guide on Making an Ecobrick</a></h6>
+					<a class="action-btn" href="/how">How to Make</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">View our 10 Step Guide on Making an Ecobrick</a></p>
+
 				</div>
 			</div>
 
@@ -381,7 +383,11 @@ _END;?>
 						</ul></p>
 
 						<p>Only cigbricks that meet these standards can be authenticated and count as sequestered plastic.</p>
-					<h6><a href="/cigbricks">Learn more about Cibricks</a></h6>
+
+						<a class="action-btn" href="/cigbricks">Make a Cigbrick</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Learn more about Cibricks.</a></p>
+
+
 				</div>
 			</div>
 
@@ -431,8 +437,9 @@ _END;?>
 					</ul>
 					<p>Only ocean ecobricks that meet these standards can be authenticated and count as <a href="sequest.php">sequestered plastic</a>.</p>
 
-					<h6><a href="/ocean"><strong>Learn more about Ocean Ecobricks</strong></a></h6>
-					<br><br>
+					<a class="action-btn" href="/ocean">Make an Ocean Ecobrick</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ocean Ecobricks.</a></p>
+
 				</div>
 			</div>
 
