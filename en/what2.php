@@ -281,10 +281,11 @@ _END;?>
 
 					<p>Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.
 					<p>Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
-					<h6>
-					Learn more about the <a href="sequest.php"><strong>criteria of plastic sequestration.</strong></a>
+					<br><br>
+					<h5>ℹ️ Learn more about <a href="sequest.php"><strong>criteria of plastic sequestration.</strong></a></h5>
 
 					<h5>ℹ️ Learn more about <a href="/plastic">the Earth's example.</a></h5>
+					<br>
 
 				</div>	
 			</div>
@@ -328,10 +329,10 @@ _END;?>
 						<li>A bottom color has been added</li>
 						<li>The weight has been permanently recorded on the outside.</li>
 						</ul></li>
-					</ul></p>
+					</ul>
 					<p>Only ecobricks that meet these standards can be authenticated and count as sequestered plastic.</p>
-					<br>
-					<a class="action-btn" href="/how">How to Make</a>
+					<br><br>
+					<a class="action-btn" href="/how">ℹ️ How to Make</a>
                     <p style="font-size: 0.85em; margin-top:20px;">View our 10 Step Guide on Making an Ecobrick</a></p>
 
 				</div>
@@ -369,7 +370,7 @@ _END;?>
 					</div>
 			
 
-					<p><ul>
+					<ul>
 						<li>A density higher than 0.29 g/ml
 						<li>A maximum density of 0.70g/ml
 						<li>Only packed with acetate cigarette butts – the paper and ash have been removed.
@@ -380,11 +381,12 @@ _END;?>
 							<li>A bottom color has been added
 							<li>The weight has been recorded on the outside.
 							</ul></li>
-						</ul></p>
+						</ul>
 
 						<p>Only cigbricks that meet these standards can be authenticated and count as sequestered plastic.</p>
+						<br><br>
 
-						<a class="action-btn" href="/cigbricks">Make a Cigbrick</a>
+						<a class="action-btn" href="/cigbricks">ℹ️ Make a Cigbrick</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Learn more about Cibricks.</a></p>
 
 
@@ -428,16 +430,15 @@ _END;?>
 						<li>Are packed with as much plastic as possible</li>
 						<li>Sealed tight (but not air tight).</li>
 						<li>Care has been taken taken to prepare the ocean ecobrick as a reuseable building block:
-					<ul>
 						<li>The bottle's label has been removed and ecobricked.</li>
 						<li>A bottom color has been added</li>
 						<li>The weight has been recorded on the outside.</li>
 					</ul>
-					</li>
-					</ul>
+				
 					<p>Only ocean ecobricks that meet these standards can be authenticated and count as <a href="sequest.php">sequestered plastic</a>.</p>
+					<br><br>
 
-					<a class="action-btn" href="/ocean">Make an Ocean Ecobrick</a>
+					<a class="action-btn" href="/ocean">ℹ️ Make an Ocean Ecobrick</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ocean Ecobricks.</a></p>
 
 				</div>
