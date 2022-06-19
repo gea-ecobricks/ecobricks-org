@@ -187,6 +187,19 @@ _END;?>
 	margin-bottom: 40px;  
     }
 
+#translation-required {
+    padding: 10px;
+    background-color: yellow;
+    font-family: Mulish;
+    font-size: 1.2em;
+		line-height: 1.5;
+		font-weight: 400;
+    text-align: right;
+    border-radius: 12px;
+	margin-top: -20px;
+
+}
+
 </style>	
 
 </head>
@@ -204,7 +217,8 @@ _END;?>
 
 <!--MAIN CONTENT FOR TRANSLATION-->
 
-	
+<div id="translation-required">This page is not yet translated into your language.  Know HTML? Help us translate on Github</div>
+
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">
