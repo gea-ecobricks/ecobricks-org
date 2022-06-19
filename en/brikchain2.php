@@ -152,11 +152,11 @@ $(document).ready(function() {
 		
 		text-align: left;
 		height: 60vh;
-		padding: 50px 7% 50px 7%;
+		padding: 0px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
     	background-repeat: no-repeat;
-		margin: -3px 0 -20px 0;
+		margin: -30px 0 -20px 0;
 		display: flex;
  		flex-wrap: wrap;
  		box-sizing: border-box;

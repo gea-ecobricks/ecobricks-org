@@ -45,10 +45,10 @@ _END;?>
     	background-size: cover;
 		text-align: left;
 		height: 70vh;
-		padding: 10px 5% 25px 5%;
+		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;    	
-		margin-top: 20px;
+		margin-top: 45px;
 		width: 100%;
 		display: flex;
  		box-sizing: border-box;
@@ -186,6 +186,7 @@ _END;?>
     transform: skewY(-3deg);
 	margin-bottom: 40px;  
     }
+
 
     
 
