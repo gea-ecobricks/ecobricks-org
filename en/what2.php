@@ -1,6 +1,6 @@
 <!--PAGE LANGUAGE:  ENGLISH--> 
 
-<!-- Translators:  Please scroll down to the section where the page begins.  Follow the instructions to replace all the English text in beteen html tags (i.e <>) with text in your own language.-->
+<!-- Translators:  Please scroll down to the section where you see the text "Main Content for translation".  Replace all the English text snippets with html tags. Don't worry about translating these comments.  Be sure NOT to translate english page names, file names or actual code.-->
 
 <?php require_once ("lang.php");
 echo <<<_END
@@ -23,7 +23,7 @@ _END;?>
 
 
 
-<!-- This loads the page's meta tags:  *be sure to add the page's name!*-->
+<!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
 <?php require_once ("meta/what-$lang.php");?>
 
@@ -39,7 +39,8 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		background-color: #00E6FF;
-		background: url(svgs/cloud-back-logo-blue.svg) top;
+		background: url(svgs/top-clouds-mobile.svg) top;
+		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-repeat: no-repeat;
     	background-size: cover;
 		text-align: left;
@@ -73,7 +74,6 @@ _END;?>
  		box-sizing: border-box;
 		flex-direction: row;
 		width: 100%;
-
 }
 }
 
@@ -200,15 +200,15 @@ _END;?>
 
     <?php require_once ("menus/menu-$lang.php");?>
 
-<!--PAGE BANNER-->
+<!--Page Banner-->
 
-<!--TRANSLATION BEGINS HERE-->
+<!--MAIN CONTENT FOR TRANSLATION-->
 
 	
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
-		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
+		
 	</div>
 	<div class="splash-image"><img src="svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
 </div>
