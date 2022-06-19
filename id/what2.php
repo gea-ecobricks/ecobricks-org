@@ -1,6 +1,6 @@
 <!--PAGE LANGUAGE:  INDONESIAN--> 
 
-<!-- Translators:  Please scroll down to the section where you see the text "Main Content for translation".  Replace all the English text snippets with html tags. Don't worry about translating these comments.  Be sure NOT to translate english page names, file names or actual code.-->
+<!-- Dear Translators & Contributors:  To edit this page, you'll first need a Github account. Once your logged in with your account, we suggest you set the page view to Word Wrap' for easier text editing.  Translators: please scroll down to the section where you see the text "Main Content for translation".  Replace all the English text snippets with html tags. Don't worry about translating these comments.  Be sure NOT to translate english page names, file names or actual code.-->
 
 <?php require_once ("lang.php");
 echo <<<_END
