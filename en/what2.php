@@ -282,7 +282,7 @@ _END;?>
 					<p>Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.
 					<p>Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
 					<br><br>
-					<h5>ℹ️ Learn more about <a href="sequest.php"><strong>criteria of plastic sequestration.</strong></a></h5>
+					<h5>ℹ️ Learn more about <a href="sequest.php">criteria of plastic sequestration.</a></h5>
 
 					<h5>ℹ️ Learn more about <a href="/plastic">the Earth's example.</a></h5>
 					<br>
@@ -355,7 +355,7 @@ _END;?>
 					<br>
 					<div class="row">
 						<div class="main2">
-						<p>Cigbricks are a class of ecobrick to secure the potentially toxic plastic/acetate of the cigarette filters. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</p>
+						<p>Cigbricks are a class of ecobrick to secure the potentially toxic plastic/acetate of the cigarette filters-- one of the most prevalent and damaging of all plastic pollutants. Cigbricks are made exclusively from the packed acetate filters of cigarette butts once the paper and ash has been fully removed.</p>
 						</div>
 						<div class="side2"><img src="svgs/Cigbrick.svg" width="100%">
 						</div>
@@ -375,11 +375,11 @@ _END;?>
 						<li>A maximum density of 0.70g/ml
 						<li>Only packed with acetate cigarette butts – the paper and ash have been removed.
 						<li>The cigbrick is sealed tight with a screw down lid.
-						<li>Care has been taken taken to prepare the cigbrick as a reuseable building block:
+						<li>Care has been taken taken to prepare the cigbrick as a reuseable building block:</li>
 							<ul>
-							<li>The label has been removed and ecobricked.
-							<li>A bottom color has been added
-							<li>The weight has been recorded on the outside.
+							<li>The label has been removed and ecobricked.</li>
+							<li>A bottom color has been added</li>
+							<li>The weight has been recorded on the outside.</li>
 							</ul></li>
 						</ul>
 
