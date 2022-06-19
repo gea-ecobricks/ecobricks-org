@@ -19,7 +19,7 @@ _END;?>
 
 <link rel="preload" as="image" href="https://www.ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/eb-blue-no-clouds.svg">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg">
+<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1">
 
 
 
@@ -59,7 +59,7 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		background-color: #00E6FF;
-		background: url(svgs/top-clouds-animated-desktop.svg) top;
+		background: url(svgs/top-clouds-animated-desktop.svg?v1) top;
 		background-repeat: no-repeat;
     	background-size: cover;
 		text-align: left;
@@ -210,7 +210,7 @@ _END;?>
 		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
-	<div class="splash-image"><img src="svgs/eb-blue-no-clouds.svg" style="width: 90%;"></div>	
+	<div class="splash-image"><img src="svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -467,14 +467,14 @@ _END;?>
 		<div class="side">
 
 			<div id="side-module-desktop-mobile">
-			<img src="webp/earth-home.webp" width="90%">
+			<img src="webp/earthen-400px.webp" width="90%">
 				<h4>Plastic Sequestration</h4>
-				<h5>Ecobricking is a form of plastic sequestration.  Ecobricks secure plastics out of the biosphere and accelerates plastic transition.</h5><br>
+				<h5>Ecobricking follows the Earth's example of carbon care to sequester plastics out of the biosphere.</h5><br>
 				<a href="sequest.php" target="_blank" class="module-btn">Learn More</a>
 			</div>
 				
 			<div id="side-module-desktop-only">
-			<img src="webp/earth-example.webp" width="80%">
+			<img src="webp/earth-home.webp" width="85%">
 				<h4>Regenerative</h4>
 				<h5>Ecobricking is based on following the Earth's example and is guided by seven green principles.</h5><br>
 				<a class="module-btn" href="/principles">Principles</a>
@@ -482,7 +482,7 @@ _END;?>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/spiral-circular-400px.webp" width="90%">
-				<h4>Spiral & Circular</h4>
+				<h4>Circular Design</h4>
 				<h5>Ecobricks and their building applications are circular by design.</h5><br>
 				<a class="module-btn" href="/circular">Learn More</a>
 			</div>
