@@ -164,7 +164,7 @@ img {padding: 8%;}
                 //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row
                 while($array = $result->fetch_assoc()) {
 
-                    echo "<div id=\"main-details\"><div class=\"date\"> Transaction id: " . $array["cash_tran_id"] ."</div>";
+                    echo "<div id=\"main-details\"><div class=\"date\"> Transaction ID: " . $array["cash_tran_id"] ."</div>";
 
                     if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] != '' ) {  
                         echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%" alt="Cash transaction photo"/></div>';
@@ -190,10 +190,10 @@ img {padding: 8%;}
                     echo " <div class=\"general-field\"><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></div>" ;
                     echo " <div class=\"general-field\"><b>Total product cost+ccy display:</b> <var> " . $array["total_product_cost_+ccy_display"] ."&#8202;kg</var></div>" ;
                     echo " <div class=\"general-field\"><b>Receiving GEA acct:</b> " . $array["location_country"] ."</div>" ;
-                   
                     echo " <div class=\"general-field\"><b>Receiver for display:</b> <var>" . $array["receiver_for_display"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Transaction date:</b> <var>" . $array["transaction_date_dt"] ."</var></div>" ;
                     echo " <div class=\"general-field\"><b>Purchase method:</b> <var>" . $array["purchase_method"] ."</var></div></div>" ;
+
+                    echo " <div class=\"general-field\"><b>Transaction date:</b> <var>" . $array["transaction_date_dt"] ."</var></div>" ;
                     echo " <div id=\"details-content\"><div class=\"general-field\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
                     echo " <div class=\"general-field\"><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></div>" ;
                 }
