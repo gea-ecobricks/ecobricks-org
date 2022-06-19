@@ -1,3 +1,7 @@
+<!--PAGE LANGUAGE:  INDONESIAN--> 
+
+<!-- Dear Translators & Contributors:  To edit this page, you'll first need a Github account. Once your logged in with your account, we suggest you set the page view to Word Wrap' for easier text editing.  Translators: please scroll down to the section where you see the text "Main Content for translation".  Replace all the English text snippets with html tags. Don't worry about translating these comments.  Be sure NOT to translate english page names, file names or actual code.-->
+
 <?php require_once ("lang.php");
 echo <<<_END
 
@@ -12,30 +16,110 @@ echo <<<_END
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="svgs/eb-blue.svg">
+<!--Image files to preload that are unique to this page-->
+
+<link rel="preload" as="image" href="https://www.ecobricks.org/logos/gea-horizontal.svg">
+<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/eb-blue-no-clouds.svg">
+<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1">
 
 _END;?>
 
+<!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
+
 <?php require_once ("meta/brikchain-$lang.php");?>
+
+<!--This loads the page's header-->
 
 <?php require_once ("header.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<script src="accordion-scripts.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
+
+
+<script>
+$(document).ready(function() {
+    $('#brikchain').DataTable( {
+		"processing": true,
+        "serverSide": true,
+		"ajax": "ajax-brk-trans.php"
+
+    } );
+} );
+
+</script>
+
+<script>
+
+	$.extend( $.fn.dataTable.defaults, {
+    ordering:  false
+
+} );
+
+</script>
+
+<script>
+
+$(document).ready(function() {
+    $('#ecobricks').DataTable( {
+		"processing": true,
+        "serverSide": true,
+		"ajax": "ajax-ecobricks.php"
+
+    } );
+} );
+
+</script>
+
+<script>
+
+$(document).ready(function() {
+    $('#cash_tran').DataTable( {
+		"processing": true,
+        "serverSide": true,
+		"ajax": "ajax-cash-trans.php"
+
+    } );
+} );
+
+</script>
+
+
+<!--
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.11.4/dataRender/hyperLink.js"></script>
+
+
+
+<script>
+
+// Display the hyperlink with 'Download', which open hyperlink in popup
+  //        with size 600as width and 400 as height
+  $('#brikchain').DataTable( {
+    columnDefs: [ {
+      targets: 2,
+      render: $.fn.dataTable.render.hyperLink( 'Download', 'popup' )
+    } ]
+  } );
+</script>
+-->
+
+<!--This loads CSS specific to this page-->
 
 <STYLE>
-
 
 /*This sets up the the first splash content block that is unique to the top of each page*/
 
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		
-		background: url(svgs/cloud-back-logo-blue.svg) top;
+		background: url(svgs/top-clouds-mobile.svg) top;
+		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-color: #00E6FF;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -60,8 +144,8 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		
-		background: url(svgs/cloud-back-logo-blue.svg) top;
+		background: url(svgs/top-clouds-animated-desktop.svg?v1) top;
+		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-color: #00E6FF;
@@ -86,7 +170,6 @@ _END;?>
 
 
 /*This is the text box on the left of the splash that holds the splash header and sub text*/
-
 
 @media screen and (max-width: 700px) { 
 .splash-text-box {
@@ -211,79 +294,7 @@ _END;?>
 	
 </style>	
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
-  
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
-
-
-<script>
-$(document).ready(function() {
-    $('#brikchain').DataTable( {
-		"processing": true,
-        "serverSide": true,
-		"ajax": "ajax-brk-trans.php"
-
-    } );
-} );
-
-</script>
-
-<script>
-
-	$.extend( $.fn.dataTable.defaults, {
-    ordering:  false
-
-} );
-
-</script>
-
-<script>
-
-$(document).ready(function() {
-    $('#ecobricks').DataTable( {
-		"processing": true,
-        "serverSide": true,
-		"ajax": "ajax-ecobricks.php"
-
-    } );
-} );
-
-</script>
-
-<script>
-
-$(document).ready(function() {
-    $('#cash_tran').DataTable( {
-		"processing": true,
-        "serverSide": true,
-		"ajax": "ajax-cash-trans.php"
-
-    } );
-} );
-
-</script>
-
-
-<!--
-
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.11.4/dataRender/hyperLink.js"></script>
-
-
-
-<script>
-
-// Display the hyperlink with 'Download', which open hyperlink in popup
-  //        with size 600as width and 400 as height
-  $('#brikchain').DataTable( {
-    columnDefs: [ {
-      targets: 2,
-      render: $.fn.dataTable.render.hyperLink( 'Download', 'popup' )
-    } ]
-  } );
-</script>
--->
 
 
 <style>
@@ -416,22 +427,27 @@ $(document).ready(function() {
 
 </style>
 
-
-
 </head>
 							  
 											  
+									  
 <BODY id="full-page">
 
 	<div id="load-background">
 
-<!-- MENU BAR-->	
-         
-		<?php include 'menu-bar.php';?>
+	<!-- This loads the page's language specific menu -->
 
-<!--SPLASH SECTION-->
+    <?php require_once ("menus/menu-$lang.php");?>
 
-	
+
+<!--MAIN CONTENT FOR TRANSLATION-->
+
+<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
+<?php require_once ("translate-please.php");?>
+
+
+<!--Page Banner-->
+
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading"><br>Brikchain Explorer</div>

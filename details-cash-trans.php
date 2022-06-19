@@ -164,12 +164,12 @@ img {padding-right: 5%;}
                 //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row
                 while($array = $result->fetch_assoc()) {
 
-                    echo '<img src="'. $array["ecobrick_full_photo_url"] .'" width="500" alt="Ecobrick basic pic"/>';
-                    echo "</br><h3>Cash transaction id: <var>" . $array["cash_tran_id"] ."</var></h3> </br>";
-                    echo " <div class=\"general-field\"><b>Sender ecobricker:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Sender ecobricker:</b> <var><i>" . $array["sender_ecobricker"] ."</i></var> </div>" ;
+                    echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="100%" alt="Cash transaction photo"/></div>';
+                    echo "<div id=\"main-details\"><div class=\"general-field\"> Transaction id: " . $array["cash_tran_id"] ."</div>";
+                    echo " <div class=\"general-field\"><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
+                    echo " <div class=\"general-field\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
                     echo " <div class=\"general-field\"><b>Datetime sent:</b> <var>" . $array["datetime_sent_ts"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Type of transaction:</b> <var>" . $array["sequestration_type"]."</var></div>" ;
+                    echo " <div class=\"general-field\"><b>Type of transaction:</b> <var>" . $array["sequestration_type"]."</var></div></div>" ;
                     echo " <div class=\"general-field\"><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></div>" ;
                     echo " <div class=\"general-field\"><b>Native ccy amt</b> <var>" . $array["native_ccy_amt"] ."</var> </div>" ;
                     echo " <div class=\"general-field\"><b>Currency code:</b><var> " . $array["currency_code"] ."</var></div>" ;

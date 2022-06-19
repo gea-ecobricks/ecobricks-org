@@ -10,7 +10,6 @@
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  -->
 
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
-
 		
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
@@ -162,7 +161,7 @@ $sql = "SELECT * FROM tb_ecobricks WHERE serial_no = " . $serialNo;
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 	
-    //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row
+    //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row 
     while($array = $result->fetch_assoc()) {
 
 		echo '<div id="photo"><img src="'. $array["ecobrick_full_photo_url"] .'" width="100%" alt="Ecobrick basic pic"/></div>';
