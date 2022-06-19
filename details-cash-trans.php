@@ -121,7 +121,7 @@ p {
 
 b {font-weight: 500;}
 
-img {padding-right: 5%;}
+img {padding: 8%;}
 
 #photo {width: 110%;
 	background-color: #ded9d9;
@@ -164,17 +164,21 @@ img {padding-right: 5%;}
                 //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row
                 while($array = $result->fetch_assoc()) {
 
-                    echo '<div id=\"main-details\"><div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%" alt="Cash transaction photo"/></div></div>';
+                    echo "<div id=\"main-details\"><div class=\"date\"> Transaction id: " . $array["cash_tran_id"] ."</div>";
 
-                    echo " <div id=\"main-details\"><div class=\"serial\"><b>Amount:</b> <var>" . $array["native_ccy_amt"] ." " ;
+                    if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] != '' ) {  
+                        echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%" alt="Cash transaction photo"/></div>';
+                    }
+
+                    echo " <div class=\"serial\"><b>Amount:</b> <var>" . $array["native_ccy_amt"] ." " ;
                     echo " " . $array["currency_code"] ."</var></div>" ;
 
-                    echo "<div class=\"date\"> Transaction id: " . $array["cash_tran_id"] ."</div>";
+                    
                     echo " <div class=\"main\"><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
-                    echo " <div class=\"main\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
-                    echo " <div class=\"main\"><b>Datetime sent:</b> <var>" . $array["datetime_sent_ts"] ."</var></div>" ;
+                    
+                    echo " <div class=\"main\"><b>Sent:</b> <var>" . $array["datetime_sent_ts"] ."</var></div>" ;
                 
-                    echo " <div class=\"main\"><b>Type of transaction:</b> <var>" . $array["type_of_transaction"]."</var></div></div>" ;
+                    echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div></div>" ;
                     
 
                     echo " <div id=\"details-content\"><div class=\"general-field\"><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></div>" ;
@@ -184,12 +188,13 @@ img {padding-right: 5%;}
                     echo " <div class=\"general-field\"><b>Total product cost incl shipping:</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </div>" ;
                     echo " <div class=\"general-field\"><b>Product</b> <var>" . $array["product"] ."</var></div>" ;
                     echo " <div class=\"general-field\"><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Transaction date:</b> <var>" . $array["transaction_date_dt"] ."</var></div>" ;
                     echo " <div class=\"general-field\"><b>Total product cost+ccy display:</b> <var> " . $array["total_product_cost_+ccy_display"] ."&#8202;kg</var></div>" ;
                     echo " <div class=\"general-field\"><b>Receiving GEA acct:</b> " . $array["location_country"] ."</div>" ;
-                    echo " <div class=\"general-field\"><b>Sender for display</b> <var>" . $array["sender_for_display"] ."</var></div>" ;
+                   
                     echo " <div class=\"general-field\"><b>Receiver for display:</b> <var>" . $array["receiver_for_display"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Purchase method:</b> <var>" . $array["purchase_method"] ."</var></div>" ;
+                    echo " <div class=\"general-field\"><b>Transaction date:</b> <var>" . $array["transaction_date_dt"] ."</var></div>" ;
+                    echo " <div class=\"general-field\"><b>Purchase method:</b> <var>" . $array["purchase_method"] ."</var></div></div>" ;
+                    echo " <div id=\"details-content\"><div class=\"general-field\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
                     echo " <div class=\"general-field\"><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></div>" ;
                 }
             } else {
