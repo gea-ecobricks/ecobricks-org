@@ -143,23 +143,14 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		</div>
 			
 
-
-
-
-		<div class="footer-invite">
-			Halaman ini adalah halaman kode tangan dan sumber terbuka 100% sukarelawan yang dihosting di Github.<br>📝 <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/welcome.php" target="_blank" rel="noopener">Usulkan perubahan pada teks atau kode halaman ini</a>
-		</div>
-
-		<br>
-
-		<!--
-
 		<div class="footer-invite">
 			
-			Halaman ini belum diterjemahkan ke bahasa Anda. Tahu HTML?  📝 <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($name); ;?>" target="_blank" rel="noopener">Bergabunglah dengan terjemahan kolaboratif halaman ini di GitHub.</a>
+			 📝 Bantu sempurnakan halaman ini dan terjemahannya. <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" target="_blank" rel="noopener">Edit kode dan teks menggunakan Github</a>
+
+			 <br>
 			
 		</div>
-			-->
+			
 
 
 		<br><br>
