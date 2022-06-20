@@ -19,6 +19,7 @@ _END;?>
 
 <link rel="preload" as="image" href="https://www.ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/eb-blue-no-clouds.svg">
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-mobile.svg?v1">
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1">
 
 
@@ -39,7 +40,7 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		background-color: #00E6FF;
-		background: url(svgs/top-clouds-mobile.svg) top;
+		background: url(https://ecobricks.org/svgs/top-clouds-mobile.svg?v1) top;
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-repeat: no-repeat;
     	background-size: cover;
@@ -60,7 +61,7 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		background-color: #00E6FF;
-		background: url(svgs/top-clouds-animated-desktop.svg?v1) top;
+		background: url(https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1) top;
 		background-repeat: no-repeat;
     	background-size: cover;
 		text-align: left;
@@ -210,7 +211,7 @@ _END;?>
 		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
 		
 	</div>
-	<div class="splash-image"><img src="svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
 </div>
 <div id="splash-bar"></div>
 

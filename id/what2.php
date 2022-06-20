@@ -13,12 +13,14 @@ echo <<<_END
 
 _END;?>
 
+
 <HEAD>
 
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="https://www.ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/eb-blue-no-clouds.svg">
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-mobile.svg?v1">
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1">
 
 
@@ -39,7 +41,7 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		background-color: #00E6FF;
-		background: url(svgs/top-clouds-mobile.svg) top;
+		background: url(https://ecobricks.org/svgs/top-clouds-mobile.svg?v1) top;
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-repeat: no-repeat;
     	background-size: cover;
@@ -60,7 +62,7 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		background-color: #00E6FF;
-		background: url(svgs/top-clouds-animated-desktop.svg?v1) top;
+		background: url(https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1) top;
 		background-repeat: no-repeat;
     	background-size: cover;
 		text-align: left;

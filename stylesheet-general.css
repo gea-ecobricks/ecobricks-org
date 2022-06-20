@@ -42,7 +42,7 @@ height: 70vh;
 
 */
 
-@media screen and (min-width: 700px) { 
+@media screen and (min-width: 769px) { 
   #translation-required {
     padding: 30px 20px 20px 20px;
     background-color: #FDE21F;
@@ -62,6 +62,12 @@ height: 70vh;
   }
       }
 
+ @media screen and (min-width: 700px) { 
+        #translation-required {
+
+          display: none;
+        }
+        }
       
 
 .eco-brick {font-size: 0.2em !important}
