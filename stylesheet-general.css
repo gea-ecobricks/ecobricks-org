@@ -62,7 +62,7 @@ height: 70vh;
   }
       }
 
- @media screen and (min-width: 700px) { 
+ @media screen and (max-width: 768px) { 
         #translation-required {
 
           display: none;
