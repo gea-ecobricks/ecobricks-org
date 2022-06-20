@@ -44,7 +44,7 @@ height: 70vh;
 
 @media screen and (min-width: 700px) { 
   #translation-required {
-    padding: 20px;
+    padding: 30px 20px 20px 20px;
     background-color: #FDE21F;
     font-family: Mulish;
     font-size: 0.9em;
@@ -52,7 +52,7 @@ height: 70vh;
     font-weight: 400;
     text-align: left;
     border-radius: 12px;
-    margin-top: -20px;
+    margin-top: -30px;
     width: 18%;
     position: absolute;
     top: 110px;

@@ -94,10 +94,10 @@ _END;?>
 			<div id="slider4">
 			<div id="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
 				<div id="slider-textbox">
-					<div id="slider-heading">Build with Ecobricks</div>
-					<div id="slider-date">GEA Updated Content</div>
-					<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
-					<div id="slider-link"><a href="build.php">Ecobrick Building</a></div>
+					<div id="slider-heading">Aplicaciones de construcción</div>
+					<div id="slider-date"></div>
+					<div id="slider-body">Conozca las diversas formas de hacer un buen uso de los ecoladrillos en todo, desde la construcción de módulos hasta la tierra.</div>
+					<div id="slider-link"><a href="build.php">Construcción</a></div>
 				</div>
 			</div>
 
