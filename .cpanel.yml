@@ -16,6 +16,8 @@ deployment:
     - /bin/cp -R banners $DEPLOYPATH
     - /bin/cp -R menus $DEPLOYPATH
     - /bin/cp -R footers $DEPLOYPATH
+    - /bin/cp -R includes $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
 
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -70,6 +72,8 @@ deployment:
     - /bin/cp -R banners $DEPLOYPATH
     - /bin/cp -R menus $DEPLOYPATH
     - /bin/cp -R footers $DEPLOYPATH
+    - /bin/cp -R includes $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
 
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -124,6 +128,8 @@ deployment:
     - /bin/cp -R banners $DEPLOYPATH
     - /bin/cp -R menus $DEPLOYPATH
     - /bin/cp -R footers $DEPLOYPATH
+    - /bin/cp -R includes $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
 
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -182,6 +188,8 @@ deployment:
     - /bin/cp -R banners $DEPLOYPATH
     - /bin/cp -R menus $DEPLOYPATH
     - /bin/cp -R footers $DEPLOYPATH
+    - /bin/cp -R includes $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
 
     - /bin/cp -R en $DEPLOYPATH
     - /bin/cp -R id $DEPLOYPATH
