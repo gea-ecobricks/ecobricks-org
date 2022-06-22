@@ -2,11 +2,10 @@
 
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
 
-<?php require_once ("what-config.php");?>
+<?php require_once ("includes/what-inc.php");?>
 
 <!--TOP PAGE BANNER-->
 
-	
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
