@@ -97,9 +97,6 @@ $(document).ready(function() {
 
 <!--This loads CSS specific to this page-->
 
-<STYLE>
-
-
 </head>
 							  
 											  
