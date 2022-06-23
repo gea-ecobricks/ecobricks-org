@@ -1,40 +1,8 @@
-<!--PAGE LANGUAGE:  ENGLISH--> 
+<!--PAGE LANGUAGE:  ENGLISH-->  
 
-<!DOCTYPE html>
-<?php require_once ("lang.php");
-echo <<<_END
-<html lang="$lang">
-_END;?>
-
-<HEAD>
-	
-<meta charset="utf-8">
-<!-- This loads the page's meta tags:  *be sure to add the page's name!*-->
-<?php require_once ("meta/welcome-$lang.php");?>
-
-<!--  Set any page specific graphics to preload-->
-<link rel="preload" as="image" href="https://www.ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-mobile.svg?v1">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop?v1">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/ecobrickable-square.svg?v0.4">
-<link rel="preload" as="image" href="https://www.ecobricks.org/webp/mountain-top2.webp?v2">
-<link rel="preload" as="image" href="https://www.ecobricks.org/webp/vision-bottom4.webp">
-
-
-
-<!--This loads the page's header-->
-
-<?php require_once ("header.php");?>
-
-<!--This loads CSS specific to the landing page-->
-
-<?php require_once ("styles-landing.php");?>
-
-</head>
 
 <!--MAIN CONTENT-->
-	
-	
+		
 <BODY id="full-page">
 
 	<div id="load-background">
