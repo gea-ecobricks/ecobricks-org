@@ -84,9 +84,7 @@ Header set Cache-Control "max-age=536000, public"
 
 Redirect /arc /en/arc.php
 Redirect /arc/ /en/arc.php
-
-Redirect /brikchain /en/brikchain.php
-Redirect /brikcahin/ /en/brikchain.php
+Redirect /arc.php /en/arc.php
 
 
 Redirect /catalyst /catalyst.php
@@ -155,4 +153,6 @@ RedirectMatch "^/es/welcome.php" "/es/"
 RedirectMatch "^/id/welcome.php" "/id/"
 
 RedirectMatch "^/fr/welcome.php" "/fr/"
+
+RedirectMatch "^/brikchain" "/en/brikchain.php"
 
