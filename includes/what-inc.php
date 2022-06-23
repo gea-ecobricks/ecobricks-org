@@ -18,7 +18,7 @@ _END;?>
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-mobile.svg?v1">
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1">
 <!--This loads CSS specific to this page-->
-<link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/what.css?v1.0">
+<link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/what.css?v1.1">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
