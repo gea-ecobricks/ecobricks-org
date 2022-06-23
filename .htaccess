@@ -155,3 +155,5 @@ RedirectMatch "^/es/welcome.php" "/es/"
 
 RedirectMatch "^/id/welcome.php" "/id/"
 
+RedirectMatch "^/fr/welcome.php" "/fr/"
+
