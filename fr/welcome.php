@@ -30,7 +30,7 @@
 		<div id="slider-textbox">
 				<div id="slider-heading">Directives Ecobrick</div>
 				<div id="slider-date">Normes mises à jour 2022</div>
-				<div id="slider-body">Saviez-vous qu'il existe plusieurs types d'écobriques ? Découvrez ce qui fait d'une écobrique une écobrique ! </div>
+				<div id="slider-body">Saviez-vous qu'il existe plusieurs types d'écobriques ? Découvrez ce qui fait d'une écobrique une écobrique! </div><br>
 				<div id="slider-link"><a href="/what">À propos des écobricks</var></a></div>
 				</div>
 			</div>
@@ -122,7 +122,7 @@
 	<div id="content-sect4">
 		<div id="main-content">
 			<div class="lead-graphic"><img src="webp/balancing-green.webp" width="100%" height="100%"></div>
-			<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration"></div>< ! --largeur="300px" hauteur="254px"-->
+			<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration"></div>
 			<!--<div class="lead-paragraph"><br>Présentation de la compensation plastique AES</div>-->
 			<div class="sub-text"><p><br>Accélérez votre parcours vers le zéro déchet grâce à la compensation plastique. Les compensations plastiques sont directement corrélées au plastique ecobrick authentifié via la blockchain manuelle Brikcoin.</p></div>
 			<a href="https://gobrik.com/#offset" target="_blank" class="main-button">Compensation plastique</a>

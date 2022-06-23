@@ -5,7 +5,7 @@
 <?php require_once ("includes/what-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!--<?php require_once ("translate-please.php");?>-->
 
 <!--TOP PAGE BANNER-->
 

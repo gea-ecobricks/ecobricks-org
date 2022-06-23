@@ -5,7 +5,7 @@
 <?php require_once ("includes/what-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!--<?php require_once ("translate-please.php");?>-->
 
 
 <!--Page Banner-->
@@ -215,7 +215,7 @@
 					<br>	
 					<div class="row">
 						<div class="main2">
-						<p>Ocean Ecobricks are a class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
+						<p>Ocean Ecobrick adalah kelas ecobrick yang dirancang untuk plastik yang ditemukan di pantai, sungai, dan laut. Plastik ini cenderung besar, tebal, kotor, dan basah dan tidak cocok untuk membuat ecobrick biasa. Teknik Ocean Ecobrick memungkinkan plastik ini dengan mudah diubah menjadi blok bangunan yang praktis, berguna, dan dapat digunakan kembali.</p>
 						</div>
 						<div class="side2">
 						<img src="webp/oeb-400px.webp" width="100%">
@@ -224,28 +224,28 @@
 
 					<div class="row2">
 						<div class="main3">
-						<p>To be an Ocean Ecobrick the following standards must be met:</p>
+						<p>Untuk menjadi Ocean Ecobrick, standar berikut harus dipenuhi:</p>
 						</div>
 						<div class="side3"><img src="webp/oeb-400px.webp" width="150px">
 						</div>
 					</div>
 
 					<ul>
-						<li>A density higher than 0.25 g/ml</li>
-						<li>A maximum density of 0.70 g/ml</li>
-						<li>Are packed with as much plastic as possible</li>
-						<li>Sealed tight (but not air tight).</li>
-						<li>Care has been taken taken to prepare the ocean ecobrick as a reuseable building block:
-						<li>The bottle's label has been removed and ecobricked.</li>
-						<li>A bottom color has been added</li>
-						<li>The weight has been recorded on the outside.</li>
+					<li>Kepadatan lebih tinggi dari 0,25 g/ml</li>
+					<li>Kepadatan maksimum 0,70 g/ml</li>
+					<li>Dikemas dengan plastik sebanyak mungkin</li>
+					<li>Tertutup rapat (tapi tidak kedap udara).</li>
+					<li>Kehati-hatian telah diambil untuk mempersiapkan ecobrick laut sebagai blok bangunan yang dapat digunakan kembali:
+					<li>Label botol telah dilepas dan dibuat ecobrick.</li>
+					<li>Warna bawah telah ditambahkan</li>
+					<li>Berat telah dicatat di luar.</li>
 					</ul>
 				
-					<p>Only ocean ecobricks that meet these standards can be authenticated and count as <a href="sequest.php">sequestered plastic</a>.</p>
+					<p>Hanya ecobrick laut yang memenuhi standar ini yang dapat diautentikasi dan dihitung sebagai <a href="sequest.php">plastik yang diasingkan</a>.</p>
 					<br><br>
 
-					<a class="action-btn" href="/ocean">ℹ️ Make an Ocean Ecobrick</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ocean Ecobricks.</a></p>
+					<a class="action-btn" href="/ocean">ℹ️ Membuat Ecobrick Laut</a>
+                     <p style="font-size: 0.85em; margin-top:20px;">Periksa halaman kami tentang Ocean Ecobricks.</a></p>
 
 				</div>
 			</div>
@@ -254,22 +254,22 @@
 		<div class="page-paragraph">
 			<br><br>
 		
-		<h4>Personal & Community Empowerment</h4>
-		<p>Ecobricking is a both an individual and collaborative endeavour.  It unites across class, continents and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raise awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="transition.php">plastic transition</a>. The collaborative process gives individual and communities an hands on experience of <a href="/principles">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="/earth">earth building</a> and permaculture.</p>
+			<h4>Pemberdayaan Pribadi & Komunitas</h4>
+			<p>Ecobricking adalah upaya individu dan kolaboratif. Ini menyatukan lintas kelas, benua dan budaya di sekitar niat bersama untuk merawat biosfer lokal dan global. Proses ecobrick pribadi meningkatkan kesadaran akan konsekuensi konsumsi dan bahaya plastik untuk mempercepat <a href="transition.php">transisi plastik</a>. Proses kolaboratif memberikan individu dan komunitas pengalaman langsung <a href="/principles">kehidupan regeneratif</a> dan menunjukkan arah teknologi regeneratif lainnya, seperti <a href="/earth">pembangunan bumi </a> dan permakultur.</p>
 		<br><br>
 
-		<h4>Learn More</h4>
-		
-		<p>The Global Ecobrick Alliance has developed extensive, free and open source resources (like this page!) to get you started ecobricking right.  Our goal is to empower you and your community with the know-how to make ecobricks and build with them.  The pages on this site are the result of years of research, experimentation and trial and error by plastic transition leaders around the world.
+		<h4>Pelajari Lebih Lanjut</h4>
+
+		<p>The Global Ecobrick Alliance telah mengembangkan sumber daya yang ekstensif, gratis, dan sumber terbuka (seperti halaman ini!) untuk membantu Anda memulai ecobrick dengan benar. Tujuan kami adalah untuk memberdayakan Anda dan komunitas Anda dengan pengetahuan cara membuat ecobrick dan membangun bersama mereka. Halaman-halaman di situs ini adalah hasil penelitian, eksperimen, dan trial and error selama bertahun-tahun oleh para pemimpin transisi plastik di seluruh dunia.
 		</p>
 		<ul>
-			<li><a href="/why">Why Make Ecobricks?</a></li>
-			<li><a href="/how">How to Ecobrick?</a></li>
-			<li><a href="/circular">Circular Design</a></li>
-			<li><a href="build.php">Building with Ecobricks</a></li>
-			<li><a href="/movement">The Movement</a></li>
-			<li><a href="/dropoff">Dropping off ecobricks?</a></li>
-			<li><a href="/trainings">Ecobrick Trainings</a></li>
+		<li><a href="/why">Mengapa Membuat Ecobrick?</a></li>
+		<li><a href="/how">Bagaimana Cara Membuat Ecobrick?</a></li>
+		<li><a href="/circular">Desain Melingkar</a></li>
+		<li><a href="build.php">Membangun dengan Ecobrick</a></li>
+		<li><a href="/movement">Gerakan</a></li>
+		<li><a href="/dropoff">Melepaskan ecobrick?</a></li>
+		<li><a href="/trainings">Pelatihan Ecobrick</a></li>
 		</ul>
 		</div>
 
@@ -282,38 +282,38 @@
 
 			<div id="side-module-desktop-mobile">
 			<img src="webp/earthen-400px.webp" width="90%">
-				<h4>Plastic Sequestration</h4>
-				<h5>Ecobricking follows the Earth's example of carbon care to sequester plastics out of the biosphere.</h5><br>
-				<a href="sequest.php" target="_blank" class="module-btn">Learn More</a>
+			<h4>Sekuestrasi Plastik</h4>
+			<h5>Ecobricking mengikuti contoh kepedulian bumi terhadap karbon untuk menyerap plastik dari biosfer.</h5><br>
+			<a href="sequest.php" target="_blank" class="module-btn">Pelajari Lebih Lanjut</a>
 			</div>
 				
 			<div id="side-module-desktop-only">
 			<img src="webp/earth-home.webp" width="85%">
-				<h4>Regenerative</h4>
-				<h5>Ecobricking is based on following the Earth's example and is guided by seven green principles.</h5><br>
-				<a class="module-btn" href="/principles">Principles</a>
+			<h4>Regeneratif</h4>
+			<h5>Ecobricking didasarkan pada mengikuti contoh Bumi dan dipandu oleh tujuh prinsip hijau.</h5><br>
+			<a class="module-btn" href="/principles">Prinsip</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/spiral-circular-400px.webp" width="90%">
-				<h4>Circular Design</h4>
-				<h5>Ecobricks and their building applications are circular by design.</h5><br>
-				<a class="module-btn" href="/circular">Learn More</a>
+				<h4>Desain Melingkar</h4>
+				<h5>Ecobrick dan aplikasi bangunannya didesain melingkar.</h5><br>
+				<a class="module-btn" href="/circular">Pelajari Lebih Lanjut</a>
 			</div>
 
 	
 			<div id="side-module-desktop-mobile">
 				<img src="webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
-				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
+				<h5>GEA didedikasikan untuk mempercepat transisi plastik. Kami memimpin aplikasi GoBrik dan blockchain Brikcoin.</h5><br>
+				<a class="module-btn" href="about.php">Tentang Kami</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
-				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="2021-regenreport.php">Learn More</a>
+				<h5>Dengan mengungkapkan dampak karbon, plastik, dan keanekaragaman hayati kami dan dengan memastikan bahwa semuanya ramah lingkungan, GEA berkomitmen untuk for-Earth Enterprise</h5><br>
+<a class="module-btn" href="2021-regenreport.php">Pelajari Lebih Lanjut</a>
 			</div>
 
 		</div>
