@@ -1,4 +1,4 @@
- <!--ENGLISH-->
+ <!--FRANCAIS-->
 
  <!--START OF MENU BAR-->       
 
@@ -12,7 +12,7 @@
 <div id="desktop-menu">
     <div class="topnav-lang" id="myTopnav-lang">
         <div class="dropdown-lang">
-            <button class="dropbtn-lang">EN</button>
+            <button class="dropbtn-lang">FR</button>
             <div class="dropdown-content-language">
               
             <!-- This loads the universal laguage list-->
@@ -36,7 +36,7 @@
                             </div>
                             <div id="apptext-menu">
                                 <div class="apptext-header">GoBrik </div>
-                                <div class="apptext-sub">Ecobricking Webapp<br>Manage your ecobricks<br>Connect to the Brikcoin blockchain</div>
+                                <div class="apptext-sub">Ecobricking Webapp<br>Manage your ecobricks<br>Connectez-vous à la blockchain Brikcoin</div>
                             </div>
                         </div>
                     </a>
@@ -47,7 +47,7 @@
                                 
                             <div id="apptext-menu">
                                 <div class="apptext-header">Circles </div>
-                                <div class="apptext-sub">Join our free mattermost ecobricker community<br>Share your ecobricking<br>Learn from others</div>
+                                <div class="apptext-sub">Rejoignez notre communauté d'écobrickers Mattermost<br>Partagez votre écobrique<br>Apprendre des autres</div>
                             </div>
                         </div>
                     
@@ -57,40 +57,40 @@
                         <div id="offset-menu">
                             <div id="icon-menu"><img src="icons/offset.svg" width="65px" height="65px" loading="lazy"></div>
                             <div id="apptext-menu">
-                                <div class="apptext-header">AES Plastic Offsetting </div>
-                                <div class="apptext-sub">Offset your plastic footprint<br>on our GoBrik AES Platform</div>
+                                <div class="apptext-header">Décalage plastique AES </div>
+                                <div class="apptext-sub">Compensez votre empreinte plastique<br>sur GoBrik.com</div>
                             </div>
                         </div>
                     </a>
                 </div>
         </div> 
         
-        <a href="faqs.php">FAQs</a>
-        <a href="sequest.php">Sequestration</a>
-        <a href="about.php">About Us</a>
+        <a href="faqs.php">FAQ</a>
+        <a href="sequest.php">Séquestration</a>
+        <a href="about.php">Nous</a>
         <div class="dropdown">
         
             <button class="dropbtn">
-            <div id="drop-text">Building
+            <div id="drop-text">Construction
                   <i class="fa fa-caret-down"></i></div>
                 </button>
                 <div class="dropdown-content-normal">
-                    <a href="build.php">Building Methods</a>
+                    <a href="build.php">Méthodes de construction</a>
                     <a href="/modules">Lego Modules</a>
-                    <a href="/earth">Earth & Ecobricks</a>
+                    <a href="/earth">Terre & Ecobricks</a>
                     <a href="/openspaces">Open Spaces</a>
                 </div>
             </div>
 
             <div class="dropdown">
-                <button class="dropbtn"><div id="drop-text">About Ecobricks
+                <button class="dropbtn"><div id="drop-text">Les Ecobricks
                   <i class="fa fa-caret-down"></i></div>
                 </button>
                 <div class="dropdown-content-normal">
-                    <a href="what.php">What are Ecobricks</a>
-                    <a href="/how">How to Make?</a>
-                    <a href="/why">Why Ecobricks?</a>
-                    <a href="/plastic">Plastic's Story</a>
+                    <a href="what.php">Que sont les Ecobricks</a>
+                    <a href="/how">Comment faire?</a>
+                    <a href="/why">Pourquoi les Ecobricks?</a>
+                    <a href="/plastic">L'histoire du plastique</a>
                 </div>
             </div> 
         

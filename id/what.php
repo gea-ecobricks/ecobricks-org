@@ -16,7 +16,7 @@
 </div>
 		
 	</div>
-	<div class="splash-image"><img src="svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
+	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
 </div>
 <div id="splash-bar"></div>
 

@@ -4,7 +4,7 @@
 
     #clouds {
       background-color: #00ffff;
-      background: url(svgs/top-clouds-animated-desktop.svg?v3) center top;
+      background: url("/svgs/top-clouds-animated-desktop.svg?v3") center top;
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;
@@ -22,7 +22,7 @@
 
     #clouds {
       background-color: #00ffff;
-      background: url(svgs/top-clouds-mobile.svg?v2) center top;
+      background: url("/svgs/top-clouds-mobile.svg?v2") center top;
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;
@@ -38,7 +38,7 @@
 
 
 #cloud-banner {
-	background: url(webp/vision-bottom5.webp) center top;
+	background: url("/webp/vision-bottom5.webp") center top;
     background-repeat: no-repeat;
     background-size: cover;
 	z-index: 4;
@@ -66,7 +66,7 @@
 */
 
 #cloud-banner {
-	background: url(webp/vision-bottom5.webp) center top;
+	background: url(/webp/vision-bottom5.webp) center top;
     background-repeat: no-repeat;
     background-size: cover;
 	z-index: 4;
@@ -288,7 +288,7 @@
   @media screen and (min-width: 1000px) {
   #content-sect0-curved-bottom {
     width: 100%;
-    /*background: url(svgs/vision-bottom-bottom.svg);
+    /*background: url(/svgs/vision-bottom-bottom.svg);
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;*/
@@ -302,7 +302,7 @@
   @media screen and (max-width: 1000px) {
       #content-sect0-curved-bottom {
       width: 100%;
-      /*background: url(svgs/vision-bottom-bottom.svg);
+      /*background: url(/svgs/vision-bottom-bottom.svg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;*/
@@ -320,7 +320,7 @@
     z-index: 1;
     height: 80vh;
     background: #dadddd;
-    background: url("svgs/vision-bottom-bottom.svg");
+    background: url("/svgs/vision-bottom-bottom.svg");
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1011,7 +1011,7 @@
   #content-sect2 {
     width: 100%;
     padding-bottom: 30px;
-    background: url("webp/blue-ode-1600.webp") center top;
+    background: url("/webp/blue-ode-1600.webp") center top;
     background-repeat: no-repeat;
     text-align: center;
   }
@@ -1056,7 +1056,7 @@
 
   @media screen and (min-width: 770px) and (max-width: 2000px) {
     #content-sect3 {
-        background: url("webp/visionscape.webp");
+        background: url("/webp/visionscape.webp");
         background-position: center bottom;
         background-size: contain;
         background-repeat: no-repeat;
@@ -1069,7 +1069,7 @@
   }
   @media screen and (min-width: 0px) and (max-width: 769px) {
     #content-sect3 {
-        background: url("webp/visionscape-800.webp");
+        background: url("/webp/visionscape-800.webp");
         background-position: right bottom;
         background-size: contain;
         background-repeat: no-repeat;

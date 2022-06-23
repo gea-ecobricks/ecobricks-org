@@ -1,4 +1,6 @@
- <!--START OF MENU BAR-->       
+  <!--ESPANOL-->
+  
+  <!--START OF MENU BAR-->       
 
  <div id="header">
     <!--<a href="index.html"><object type="image/svg+xml" data="logos/gea-prototype-logo-animated.svg" width="250" height="56"></object></a>-->

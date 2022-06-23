@@ -1,4 +1,4 @@
- <!--ENGLISH-->
+ <!--FRANCAIS-->
 
 <!--SCRIPT THAT LOADS ARVO FONT at end of page load-->
 	
@@ -19,7 +19,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; position="absolute"; bottom="0"; ></div>
 	
 	
-	<div class="footer-vision">We envision a Transition in our Households, Communities and Enterprises from Plastic to ever Greener Harmony with Earth's Cycles.</div>
+	<div class="footer-vision">Nous envisageons une transition dans nos foyers, communautés et entreprises du plastique vers une harmonie toujours plus verte avec les cycles de la Terre.</div>
 	
 	<!--
 	<div class="footer-invite">Connect with us on our various platforms and servers.</div>-->
