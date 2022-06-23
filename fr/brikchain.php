@@ -12,7 +12,7 @@
 
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading"><br>Explorateur Brikchain</div>
+		<div class="splash-heading"><br>Explorateur du Brikchain</div>
 		<div class="splash-sub">Parcourez les écobricks et les transactions de la blockchain complète de brikcoin</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	
