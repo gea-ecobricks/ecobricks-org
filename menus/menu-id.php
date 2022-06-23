@@ -4,7 +4,7 @@
 
  <div id="header">
     <!--<a href="index.html"><object type="image/svg+xml" data="logos/gea-prototype-logo-animated.svg" width="250" height="56"></object></a>-->
-    <a href="<?php include 'lang.php';?>/welcome.php"><img src="https://www.ecobricks.org/logos/gea-horizontal.svg" alt="Global Ecobrick Alliance Logo" width="308" height="50"></a>
+    <a href="https://ecobricks.org/id/welcome.php"><img src="https://www.ecobricks.org/logos/gea-horizontal.svg" alt="Global Ecobrick Alliance Logo" width="308" height="50"></a>
 </div>
 
 <!-- be great to add an if statement here to set $name to blank if its 'welcome' or 'index'-->

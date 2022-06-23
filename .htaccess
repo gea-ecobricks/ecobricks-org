@@ -130,9 +130,6 @@ RedirectMatch "^/what/" "/en/what.php"
 RedirectMatch "^/media" "/en/media.php"
 RedirectMatch "^/media/" "/en/media.php"
 
-RedirectMatch "^/index" "/en/welcome.php"
-RedirectMatch "^/index/" "/en/welcome.php"
-
 RedirectMatch "^/build" "/en/build.php"
 RedirectMatch "^/build/" "/en/build.php"
 
@@ -150,6 +147,9 @@ RedirectMatch "^/exchange/dropoff-map/" "/en/drop-off.php"
 
 RedirectMatch "^/brikcoins" "/en/brikcoins.php"
 RedirectMatch "^/brikcoins/" "/en/brikcoins.php"
+
+RedirectMatch "^/index" "/en/welcome.php"
+RedirectMatch "^/index/" "/en/welcome.php"
 
 #Alternate default index pages
 DirectoryIndex welcome.php index.php
