@@ -59,38 +59,38 @@
 					<br>
 					<div class="row">
 						<div class="main2">
-							<p>The <a href="about.php">Global Ecobrick Alliance (GEA)</a> menganjurkan ecobrick sebagai sarana<a href="transition.php">transisi petro-capital</a> dan <a href="sequest.php">sekuestrasi plastik.</a></p>
-				
+						<p>The <a href="about.php">Global Ecobrick Alliance (GEA)</a> memahami ecobrick sebagai sarana<a href="transition.php">transisi petro-capital</a> dan <a href ="sequest.php">sekuestrasi plastik.</a></p>
+
 						<p>
-						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics and the<a href="/plastic">Earth’s example of greening the biosphere</a>.</p>
+						GEA mempertahankan standar untuk ecobrick yang dibagi menjadi enam kategori berdasarkan enam <a href="sequest.php">kriteria penyerapan plastik</a> GEA. Standar ecobrick GEA memastikan bahwa kriteria penyerapan plastik telah terpenuhi dan bahwa ecobriking kami sejalan dengan prinsip Earthen Ethics dan<a href="/plastic">contoh Bumi dalam menghijaukan biosfer</a>.< /p>
 						</div>
 						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>An ecobrick must fulfil the following crieria:</p>
+						<p>Sebuah ecobrick harus memenuhi kriteria berikut:</p>
 						</div>
 						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="125px">
 						</div>
 					</div>
 
 					<ul>
-						<li>Be created by a not-for-profit process that is for-Earth benefit.</li>
-						<li>Manually compact and secure used plastic into a transparent, building block that can be indefinitely reused in the short and long term.</li>
-						<li>Result in more plastic and CO2 being subtracted from the biosphere than was added by the process of making</li>
-						<li>Result in building applications that contribute to the maintenance and encouragement of biodiversity</li>
-						<li>Raise the individual and collective ecological consciousness of those involved in the process.</li>
+					<li>Diciptakan oleh proses nirlaba yang bermanfaat bagi Bumi.</li>
+					<li>Memadat dan mengamankan plastik bekas secara manual menjadi blok bangunan transparan yang dapat digunakan kembali tanpa batas dalam jangka pendek dan panjang.</li>
+					<li>Menghasilkan lebih banyak plastik dan CO2 yang dikurangi dari biosfer daripada yang ditambahkan oleh proses pembuatan</li>
+					<li>Menghasilkan pembuatan aplikasi yang berkontribusi pada pemeliharaan dan dorongan keanekaragaman hayati</li>
+					<li>Tingkatkan kesadaran ekologis individu dan kolektif dari mereka yang terlibat dalam proses tersebut.</li>
 					</ul></p>
 					<p>
-					Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="/brikcoin">Brikcoin blockchain</a> and the <a href="/gobrik">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="/aes">authenticated ecobricked plastic.</a></p>
+					Plastik yang telah dikemas menurut standar ini dan diautentikasi seperti itu dianggap oleh GEA sebagai kontribusi ekologis yang berharga. GEA mengelola <a href="/brikcoin">blockchain Brikcoin</a> dan <a href="/gobrik">platform GoBrik</a> untuk mengaktifkan otentikasi ecobrick sesuai dengan standar ini. Otentikasi menghasilkan komodifikasi <a href="/aes">plastik ecobrick yang diautentikasi.</a></p>
 
-					<p>Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.
-					<p>Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
+					<p>Saat ini, GEA mengenal tiga jenis ecobrick, yaitu ecobrick biasa, cigbrick, dan ecobrick laut. Lihat di bawah standar teknis untuk setiap jenis ecobrick.
+					<p>Standar ecobrick dan sekuestrasi dikembangkan oleh ecobricker di seluruh dunia dan telah disempurnakan serta dikelola oleh GEA.</p>
 					<br><br>
-					<h5>ℹ️ Learn more about <a href="sequest.php">criteria of plastic sequestration.</a></h5>
+					<h5>ℹ️ Pelajari lebih lanjut tentang <a href="sequest.php">kriteria penyerapan plastik.</a></h5>
 
-					<h5>ℹ️ Learn more about <a href="/plastic">the Earth's example.</a></h5>
+					<h5>ℹ️ Pelajari lebih lanjut tentang <a href="/plastic">contoh Bumi.</a></h5>
 					<br>
 
 				</div>	
@@ -99,8 +99,8 @@
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
 					<div class="opener-header-text">
-						<h4>Regular Ecobricks</h4>
-						<h5>A normal PET packed with plastic</h5><br>
+					<h4>Ecobrick Biasa</h4>
+					<h5>PET biasa dikemas dengan plastik</h5><br>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 				</div>
