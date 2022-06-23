@@ -151,4 +151,7 @@ RedirectMatch "^/brikcoins/" "/en/brikcoins.php"
 #Alternate default index pages
 DirectoryIndex welcome.php index.php
 
+RedirectMatch "^/es/welcome.php" "/es/"
+
+RedirectMatch "^/id/welcome.php" "/id/"
 
