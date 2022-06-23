@@ -1,4 +1,6 @@
 
+<?php require_once ("lang.php");?>
+
 <?php echo <<<_END
 
 <!DOCTYPE html>
