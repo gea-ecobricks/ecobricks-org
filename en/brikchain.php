@@ -1,19 +1,8 @@
 <!--PAGE LANGUAGE:  ENGLISH-->  
 
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
-<?php require_once ("lang.php");
-echo <<<_END
 
-<!DOCTYPE html>
-
-<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
-
-<html lang="$lang">
-
-
-<HEAD>
-
-_END;?>
+<?php require_once ("lang.php");?>
 
 <?php require_once ("includes/brikchain-inc.php");?>
 
@@ -184,8 +173,8 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
                 <th>Date</th>
                 <th>Sender</th>
                 <th>Receiver</th>
+				<th>Description</th>
 				<th>Amount</th>
-				<th>Currency</th>
                 <th>Type</th>
 				
 				
@@ -193,12 +182,12 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
         </thead>
         <tfoot>
             <tr>
-			<th>ID</th>
+		    <th>ID</th>
                 <th>Date</th>
                 <th>Sender</th>
                 <th>Receiver</th>
+				<th>Description</th>
 				<th>Amount</th>
-				<th>Currency</th>
                 <th>Type</th>
             </tr>
         </tfoot>

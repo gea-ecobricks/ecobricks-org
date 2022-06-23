@@ -1,5 +1,16 @@
 
+<?php echo <<<_END
 
+<!DOCTYPE html>
+
+<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
+
+<html lang="$lang">
+
+
+<HEAD>
+
+_END;?>
 
 <!--Image files to preload that are unique to this page-->
 

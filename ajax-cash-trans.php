@@ -24,7 +24,7 @@
 $table = 'vw_cash_tran_desc';
  
 // Table's primary key
-$primaryKey = 'cash_tran_id';
+$primaryKey = 'cash_tran_id'; 
  
 
 // Array of database columns which should be read and sent back to DataTables.
@@ -41,7 +41,7 @@ $columns = array(
 ),
 
   array(
-    'db'        => 'datetime_sent_ts',
+    'db'        => 'transaction_date_dt',
     'dt'        => 1,
     'formatter' => function( $d, $row ) {
         return '<var>'.date($d).'<var>';
