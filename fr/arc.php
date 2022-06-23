@@ -5,7 +5,7 @@
 <?php require_once ("includes/arc-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--PAGE BANNER-->
 	
@@ -46,7 +46,7 @@
                         <p>C'est comme un BitTorrent ultra-rapide pour les sites Web où tout le monde est gagnant.</p>
         </div>
 				</div>
-				<div class="faq-link"><h5>En savoir plus : <a href="https://arc.io/faq" target="_blank">Foire aux questions d'Arc</h5></a>< /div>
+				<div class="faq-link"><h5>En savoir plus : <a href="https://arc.io/faq" target="_blank">Foire aux questions d'Arc</h5></a></div>
                 </div>
 
 
