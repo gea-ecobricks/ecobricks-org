@@ -175,6 +175,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
                 <th>Receiver</th>
 				<th>Description</th>
 				<th>Amount</th>
+				<th>Currency</th>
                 <th>Type</th>
 				
 				
@@ -188,6 +189,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
                 <th>Receiver</th>
 				<th>Description</th>
 				<th>Amount</th>
+				<th>Currency</th>
                 <th>Type</th>
             </tr>
         </tfoot>
