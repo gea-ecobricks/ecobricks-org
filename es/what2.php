@@ -36,7 +36,7 @@
 			<div class="page-paragraph">
 				<p>Un ecobrick es una botella de PET envasada sólidamente con plástico usado limpio y seco. Los ecoladrillos se fabrican manualmente a una densidad establecida para <a href="sequest.php">secuestrar plástico</a> y crear bloques de construcción reutilizables. De esta forma, los ecoladrillos evitan que el plástico <a href="/why">se degrade en toxinas y microplásticos</a> y quede fuera de los procesos industriales de alta energía y altas emisiones. Pero, sobre todo, el proceso práctico de ecobricking profundiza nuestra conciencia sobre estos problemas y sus alternativas regenerativas, lo que llamamos <a href="transition.php">transición plástica</a>.</p>
 				<p>
-				Una vez que muchos ecoladrillos estén disponibles, se pueden utilizar a corto plazo en <a href="/modules">unidades modulares</a>, <a href="/dms">muebles de lego </a>y < a href="/openspace">espacios abiertos.</a> Ecobrick también se puede utilizar a largo plazo en <a href="/earth">jardines y estructuras de tierra</a>. En su fabricación y aplicación, los ecoladrillos incorporan <a href="/principles">principios regenerativos</a> y una <a href="/ayyew">visión ayyew</a> que se basa en seguir las <a href= "/plastic">El ejemplo de la Tierra</a> de asegurar el carbono suelto para reverdecer la biosfera.</p>
+				Una vez que muchos ecoladrillos estén disponibles, se pueden utilizar a corto plazo en <a href="/modules">unidades modulares</a>, <a href="/dms">muebles de lego </a>y <a href="/openspace">espacios abiertos.</a> Ecobrick también se puede utilizar a largo plazo en <a href="/earth">jardines y estructuras de tierra</a>. En su fabricación y aplicación, los ecoladrillos incorporan <a href="/principles">principios regenerativos</a> y una <a href="/ayyew">visión ayyew</a> que se basa en seguir las <a href= "/plastic">El ejemplo de la Tierra</a> de asegurar el carbono suelto para reverdecer la biosfera.</p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">
@@ -66,29 +66,29 @@
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>An ecobrick must fulfil the following crieria:</p>
+						<p>Un ecoladrillo debe cumplir los siguientes criterios:</p>
 						</div>
 						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="125px">
 						</div>
 					</div>
 
 					<ul>
-						<li>Be created by a not-for-profit process that is for-Earth benefit.</li>
-						<li>Manually compact and secure used plastic into a transparent, building block that can be indefinitely reused in the short and long term.</li>
-						<li>Result in more plastic and CO2 being subtracted from the biosphere than was added by the process of making</li>
-						<li>Result in building applications that contribute to the maintenance and encouragement of biodiversity</li>
-						<li>Raise the individual and collective ecological consciousness of those involved in the process.</li>
-					</ul></p>
-					<p>
-					Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="/brikcoin">Brikcoin blockchain</a> and the <a href="/gobrik">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="/aes">authenticated ecobricked plastic.</a></p>
+						<li>Ser creado por un proceso sin fines de lucro que es para el beneficio de la Tierra.</li>
+						<li>El plástico usado se compacta y se asegura manualmente en un bloque de construcción transparente que se puede reutilizar indefinidamente a corto y largo plazo.</li>
+						<li>El resultado es que se sustrae más plástico y CO2 de la biosfera que el que se agregó en el proceso de fabricación</li>
+						<li>Dar como resultado la creación de aplicaciones que contribuyan al mantenimiento y fomento de la biodiversidad</li>
+						<li>Elevar la conciencia ecológica individual y colectiva de los involucrados en el proceso.</li>
+						</ul></p>
+						<p>
+						El plástico que ha sido empacado de acuerdo con estos estándares y autenticado como tal es considerado por GEA como una valiosa contribución ecológica. La GEA mantiene la <a href="/brikcoin">cadena de bloques Brikcoin</a> y la <a href="/gobrik">plataforma GoBrik</a> para permitir la autenticación de ecobricks de acuerdo con estos estándares. La autenticación da como resultado la mercantilización del <a href="/aes">plástico ecoladrillo autenticado.</a></p>
 
-					<p>Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.
-					<p>Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
-					<br><br>
-					<h5>ℹ️ Learn more about <a href="sequest.php">criteria of plastic sequestration.</a></h5>
+						<p>Actualmente, GEA reconoce tres tipos de ecoladrillos, ecoladrillos regulares, cigbricks y ecoladrillos oceánicos. Consulte a continuación las normas técnicas para cada tipo de ecoladrillo.
+						<p>Los estándares de ecoladrillo y secuestro fueron desarrollados por ecoladrillos de todo el mundo y han sido refinados y mantenidos por GEA.</p>
+						<br><br>
+						<h5>ℹ️ Obtenga más información sobre los <a href="sequest.php">criterios de secuestro de plástico.</a></h5>
 
-					<h5>ℹ️ Learn more about <a href="/plastic">the Earth's example.</a></h5>
-					<br>
+						<h5>ℹ️ Obtenga más información sobre <a href="/plastic">el ejemplo de la Tierra</a></h5>
+						<br>
 
 				</div>	
 			</div>
