@@ -2,7 +2,7 @@
 
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/what-inc.php");?>
+<?php require_once ("includes/brikchain-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
@@ -12,7 +12,7 @@
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading"><br>Brikchain Explorer</div>
-		<div class="splash-sub">Browse the ecobricks and transactions of the full brikcoin blockchain</div>
+		<div class="splash-sub">Browse the ecobricks & transactions of the full brikcoin blockchain</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	
 </div>
