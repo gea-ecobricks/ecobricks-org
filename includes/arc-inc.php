@@ -187,7 +187,7 @@ _END;?>
 }
 @media screen and (min-width: 700px) and (max-width: 1024px) {
   #main-content {
-      width: 90%%;
+      width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {

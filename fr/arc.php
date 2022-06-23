@@ -44,7 +44,7 @@
 						<p>Arc est un service de réseau de diffusion de contenu (CDN) de site Web. Leur service peut être installé par les webmasters sur n'importe quel site. Nous l'avons en cours d'exécution sur notre site en ce moment ! Plutôt que de charger des sites à partir de serveurs centralisés souvent éloignés (le nôtre est à Singapour), Arc peut utiliser Internet pour partager les données de notre site que quelqu'un d'autre dans votre ville a téléchargées juste avant vous ! Cela permet d'économiser du temps, du travail sur le serveur et de l'énergie.</p>
 
                         <p>C'est comme un BitTorrent ultra-rapide pour les sites Web où tout le monde est gagnant.</p>
-                </div>
+        </div>
 				</div>
 				<div class="faq-link"><h5>En savoir plus : <a href="https://arc.io/faq" target="_blank">Foire aux questions d'Arc</h5></a>< /div>
                 </div>
