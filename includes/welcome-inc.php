@@ -23,10 +23,10 @@ _END;?>
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-mobile.svg?v1">
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop?v1">
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/ecobrickable-square.svg?v0.4">
-<link rel="preload" as="image" href="https://www.ecobricks.org/webp/mountain-top2.webp?v2">
+<link rel="preload" as="image" href="https://www.ecobricks.org/webp/mountain-top2.webp">
 <link rel="preload" as="image" href="https://www.ecobricks.org/webp/vision-bottom4.webp">
 <!--This loads CSS specific to the landing page-->
-<link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/welcome.css?v1.2">
+<link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/welcome.css?v1.3">
 
 <!-- This loads the page's meta tags:  *be sure to add the page's name!*-->
 <?php require_once ("meta/welcome-$lang.php");?>

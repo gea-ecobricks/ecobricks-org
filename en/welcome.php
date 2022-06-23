@@ -9,7 +9,7 @@
 		
 <BODY id="full-page">
 
-	<div id="load-background">
+	<div id="load-background"> 
 
 	<!-- This loads the page's language specific menu -->
 
@@ -17,8 +17,8 @@
 
 	<!-- This loads the page's top graphics-->
 
-		<div id="clouds"><img src="webp/mountain-top2.webp" width="100%"></div>
-		<div id="cloud-banner"><img src="webp/vision-bottom4.webp" width="100%" height="31%"></div>
+		<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp" width="100%"></div>
+		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp" width="100%" height="31%"></div>
 
 
 	<!-- SLIDER CONTENT -->

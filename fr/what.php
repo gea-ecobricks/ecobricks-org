@@ -5,13 +5,13 @@
 <?php require_once ("includes/what-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
+		<div class="splash-heading">Les écobricks empêchent le plastique de devenir un déchet, un déchet, un recyclage, une incinération ou une pollution. Les briques écologiques permettent une séquestration du plastique sans capital, zéro déchet, net zéro.</div>
 		
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
@@ -30,13 +30,13 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p>Ecobricking is a simple way to take personal responsibility for our plastic by keeping it out of industry and out of the biosphere.</p>
+			<p>L'écobricking est un moyen simple d'assumer personnellement la responsabilité de notre plastique en le gardant hors de l'industrie et hors de la biosphère.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>An ecobrick is a PET bottle packed solid with clean and dry used plastic.  Ecobricks are made manually to a set density to <a href="sequest.php">sequester plastic</a> and create reusable building blocks.  In this way ecobricks keep plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes.  But most of all, the hands-on process of ecobricking deepens our awareness of these issues and their regenerative alternatives– what we call <a href="transition.php">plastic transition</a>.</p>
+				<p>Une ecobrick est une bouteille en PET solidement emballée avec du plastique usagé propre et sec. Les écobricks sont fabriqués manuellement à une densité définie pour <a href="sequest.php">séquestrer le plastique</a> et créer des blocs de construction réutilisables. De cette manière, les écobricks empêchent le plastique de <a href="/why">se dégrader en toxines et en microplastiques</a> et d'éviter les processus industriels à haute énergie et à fortes émissions. Mais surtout, le processus pratique d'écobriquetage approfondit notre conscience de ces problèmes et de leurs alternatives régénératrices - ce que nous appelons la <a href="transition.php">transition plastique</a>.</p>
 				<p>
-				Once many ecobricks are available, they can be put to short-term use in <a href="/modules">modular units</a>, <a href="/dms">lego-furniture </a>and <a href="/openspace">open spaces.</a> Ecobrick can also be put to long-term use in <a href="/earth">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="/principles">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="/plastic">Earth's example</a> of securing loose carbon to green the biosphere.</p>
+				Une fois que de nombreuses écobriques sont disponibles, elles peuvent être utilisées à court terme dans des <a href="/modules">unités modulaires</a>, <a href="/dms">lego-meubles</a>et < a href="/openspace">espaces ouverts.</a> Ecobrick peut également être utilisé à long terme dans les <a href="/earth">jardins et structures en terre</a>. Dans leur fabrication et leur application, les écobriques incarnent des <a href="/principes">principes régénératifs</a> et une <a href="/ayyew">vision ayyew</a> basée sur  <a href= "/plastic">l'exemple de la Terre</a> de sécurisation du carbone libre pour verdir la biosphère.</p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">
