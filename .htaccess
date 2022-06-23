@@ -154,6 +154,6 @@ RedirectMatch "^/index.php" "/en/welcome.php"
 RedirectMatch "^/index.php/" "/en/welcome.php"
 
 #Alternate default index pages
-DirectoryIndex welcome.php
+DirectoryIndex welcome.php index.php
 
 
