@@ -1,23 +1,19 @@
 <?php require_once ("lang.php");
 echo <<<_END
-
 <!DOCTYPE html>
-
-<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
-
 <html lang="$lang">
-
+_END;?>
 
 <HEAD>
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="webp/arc-purple2.webp">
-<link rel="preload" as="image" href="webp/arc-logos.webp">
-<link rel="preload" as="image" href="webp/faq-bottom.webp">
+<link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
+<link rel="preload" as="image" href="https://ecobricks.org/webp/arc-purple2.webp">
+<link rel="preload" as="image" href="https://ecobricks.org/webp/arc-logos.webp">
+<link rel="preload" as="image" href="https://ecobricks.org/webp/faq-bottom.webp">
 
-_END;?>
+
 
 <?php require_once ("meta/arc-$lang.php");?>
 
@@ -58,7 +54,7 @@ _END;?>
 		padding: 10vh 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background: url(webp/arc-purple2.webp) right top;
+		background: url(https://ecobricks.org/webp/arc-purple2.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -75,7 +71,7 @@ _END;?>
 		padding: 20vh 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		background: url(webp/arc-purple2.webp) right top;
+		background: url(https://ecobricks.org/webp/arc-purple2.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -90,7 +86,7 @@ _END;?>
   z-index: 5;
   position: relative;
   width: 100%;
-  align: left;
+  text-align: left;
 }
 }
 
