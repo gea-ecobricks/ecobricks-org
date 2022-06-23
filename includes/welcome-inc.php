@@ -26,7 +26,7 @@ _END;?>
 <link rel="preload" as="image" href="https://www.ecobricks.org/webp/mountain-top2.webp?v2">
 <link rel="preload" as="image" href="https://www.ecobricks.org/webp/vision-bottom4.webp">
 <!--This loads CSS specific to the landing page-->
-<link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/welcome.css?v1.1">
+<link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/welcome.css?v1.2">
 
 <!-- This loads the page's meta tags:  *be sure to add the page's name!*-->
 <?php require_once ("meta/welcome-$lang.php");?>
