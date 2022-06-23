@@ -23,8 +23,8 @@ _END;?>
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-mobile.svg?v1">
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop?v1">
 <link rel="preload" as="image" href="https://www.ecobricks.org/svgs/ecobrickable-square.svg?v0.4">
-<link rel="preload" as="image" href="https://www.ecobricks.org/webp/mountain-top2.webp">
-<link rel="preload" as="image" href="https://www.ecobricks.org/webp/vision-bottom4.webp">
+<link rel="preload" as="image" href="https://www.ecobricks.org/webp/mountain-top2.webp?v3">
+<link rel="preload" as="image" href="https://www.ecobricks.org/webp/vision-bottom4.webp?v2">
 <!--This loads CSS specific to the landing page
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/welcome.css?v1.3">-->
 

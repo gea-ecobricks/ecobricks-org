@@ -17,8 +17,8 @@
 
 	<!-- This loads the page's top graphics-->
 
-		<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp" width="100%"></div>
-		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp" width="100%" height="31%"></div>
+		<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v3" width="100%"></div>
+		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v2" width="100%" height="31%"></div>
 
 
 	<!-- SLIDER CONTENT -->
@@ -26,7 +26,7 @@
 		<div id="sliders">
 
 		<div id="slider1">
-		<div id="slider-image"><img src="svgs/ecobrickable-square.svg?v0.3" alt="How to make an ecobrick" width="100%" height="102%" style="min-width:175px;"></div>
+		<div id="slider-image"><img src="https://www.ecobricks.org/svgs/ecobrickable-square.svg?v0.4" alt="How to make an ecobrick" width="100%" height="102%" style="min-width:175px;"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Ecobrick Guidelines</div>
 					<div id="slider-date">2022 Updated | Standards</div>
@@ -80,7 +80,7 @@
 
 	<div id="content-sect1">
 	 	<div id="main-content">
-			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg"width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
+			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v4" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<div class="big-header">Accelerating Plastic Transition</div>
 			<div class="sub-text">
 			<p>Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
