@@ -108,38 +108,38 @@
 				<div id="preclosed2">
 					<div class="row">
 						<div class="main2">
-						<p>Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
-						</div>
+						<p>Ecobrick normal dibuat dengan botol plastik PET transparan ukuran berapa pun. Botol dan plastik kemasan bersih dan kering untuk mencegah pertumbuhan bakteri. Biasanya, ecobricker menggunakan tongkat kayu atau bambu untuk mengemas plastik secara manual ke dalam botol plastik. Plastik dipotong atau disobek menjadi potongan-potongan kecil kemudian dikemas sedikit demi sedikit, bergantian antara menambahkan plastik dan memadatkannya, lapis demi lapis. Botol diputar dengan setiap tekanan untuk memastikan plastik dipadatkan secara merata di seluruh botol. Ini membantu mencegah rongga dan kemasan mencapai soliditas yang diperlukan untuk aplikasi blok penyusun.</p>
+					</div>
 						<div class="side2"><img src="webp/brik-cascade.webp" width="150px">
 						</div>
 					</div>
 
-					<p>Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy <a href="/fire">flammability</a> while maximizing its durability and re-usability.</p>
+					<p>Ecobrick yang telah selesai dikemas cukup padat sehingga dapat menahan beban seseorang tanpa mengalami deformasi dan untuk mencegah <a href="/fire">mudah terbakar</a> sekaligus memaksimalkan daya tahan dan kegunaannya kembali.</p >
 
 					<div class="row2">
 						<div class="main3">
-						<p>To be an ecobrick, the following standards must be met:</p>
+						<p>Untuk menjadi ecobrick, standar berikut harus dipenuhi:</p>
 						</div>
 						<div class="side3"><img src="https://ecobricks.org/svgs/eb-blue.svg" width="120px">
 						</div>
 					</div>
 					<ul>
-					<li>The ecobrick is made using a transparent PET bottle</li>
-					<li>The ecobrick is only packed with used plastics that have been cleaned and dried.</li>
-					<li>The ecobrick’s density is higher than 0.33g/ml</li>
-					<li>The ecobrick must have a density of 0.70g/ml or less</li>
-					<li>The ecobrick is sealed tight with a screw down lid.</li>
-					<li>Care has been taken taken to prepare the ecobrick as a reusable building block:
-						<ul>
-						<li>The label has been removed and ecobricked.</li>
-						<li>A bottom color has been added</li>
-						<li>The weight has been permanently recorded on the outside.</li>
-						</ul></li>
+					<li>Ecobrick dibuat menggunakan botol PET transparan</li>
+					<li>Ecobrick hanya dikemas dengan plastik bekas yang telah dibersihkan dan dikeringkan.</li>
+					<li>Kepadatan ecobrick lebih tinggi dari 0,33g/ml</li>
+					<li>Ecobrick harus memiliki kepadatan 0,70g/ml atau kurang</li>
+					<li>Ecobrick disegel rapat dengan tutup sekrup.</li>
+					<li>Kehati-hatian telah diambil untuk mempersiapkan ecobrick sebagai blok bangunan yang dapat digunakan kembali:
+					<ul>
+					<li>Label telah dilepas dan dibuat ecobrick.</li>
+					<li>Warna bawah telah ditambahkan</li>
+					<li>Berat telah dicatat secara permanen di luar.</li>
+					</ul></li>
 					</ul>
-					<p>Only ecobricks that meet these standards can be authenticated and count as sequestered plastic.</p>
+					<p>Hanya ecobrick yang memenuhi standar ini yang dapat diautentikasi dan dihitung sebagai plastik yang diasingkan.</p>
 					<br><br>
-					<a class="action-btn" href="/how">ℹ️ How to Make</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">View our 10 Step Guide on Making an Ecobrick</a></p>
+					<a class="action-btn" href="/how">ℹ️ Cara Membuat</a>
+					<p style="font-size: 0.85em; margin-top:20px;">Lihat Panduan 10 Langkah kami untuk Membuat Ecobrick</a></p>
 
 				</div>
 			</div>
@@ -149,8 +149,8 @@
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>Cigbricks</h4>
-					<h5>Plastic sequestration for cigarette filers.</h5>
+					<h4>Cigbrick</h4>
+					<h5>Sekuestrasi plastik untuk pemilah rokok.</h5>
 					<br>
 					</div>
 
@@ -161,8 +161,8 @@
 					<br>
 					<div class="row">
 						<div class="main2">
-						<p>Cigbricks are a class of ecobrick to secure the potentially toxic plastic/acetate of the cigarette filters-- one of the most prevalent and damaging of all plastic pollutants. Cigbricks are made exclusively from the packed acetate filters of cigarette butts once the paper and ash has been fully removed.</p>
-						</div>
+						<p>Cigbrick adalah kelas ecobrick untuk mengamankan plastik/asetat yang berpotensi beracun dari filter rokok-- salah satu polutan plastik yang paling umum dan merusak. Cigbrick dibuat secara eksklusif dari filter asetat yang dikemas dari puntung rokok setelah kertas dan abunya benar-benar hilang.</p>
+					</div>
 						<div class="side2"><img src="svgs/Cigbrick.svg" width="100%">
 						</div>
 					</div>
