@@ -197,7 +197,7 @@ deployment:
     - /bin/cp details-cash-trans.php $DEPLOYPATH
     - /bin/cp details-brk-trans.php $DEPLOYPATH
 
-        - /bin/cp brikchain.php $DEPLOYPATH
+    - /bin/cp brikchain.php $DEPLOYPATH
 
     - /bin/cp stylesheet-general.css $DEPLOYPATH
     - /bin/cp styles-landing.php $DEPLOYPATH
