@@ -6,7 +6,7 @@ Content Page template: v.1.0.1-->
 <?php require_once ("includes/sequest-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 							  
@@ -45,7 +45,7 @@ Content Page template: v.1.0.1-->
                          <p>La science est claire : le plastique en vrac dans la biosphère nuit aux écosystèmes, aux humains et aux animaux. La recherche est également claire : au cours des cinquante dernières années, la transformation industrielle a dispersé le plastique dans l'environnement tout en devenant une source majeure d'émissions de carbone.</p>
                      </div>
                 
-                    <div class="page-paragraphe">
+                    <div class="page-paragraph">
                          <p>Il n'a jamais été aussi important de prendre soin de notre plastique. <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">La séquestration du plastique</a> fournit une alternative <a href="/principles">régénérative</a> à l'industrie gestion du plastique. En suivant l'<a href="/plastic">exemple de séquestration du carbone de la Terre</a>, nous avons une voie éprouvée non seulement pour protéger notre plastique hors de la biosphère et hors de l'industrie, mais aussi pour accélérer notre <a href= "transition.php">transition plastique</a>. La <a href="/about">Global Ecobrick Alliance</a> maintient des critères et des normes pour la séquestration du plastique afin de garantir qu'il s'agit d'un service écologique authentique.</p>
 
                         <!--<p>
@@ -506,12 +506,12 @@ Content Page template: v.1.0.1-->
                     
                     
                 <br><br>
-                    <div class="page-paragraph-reg">
-                    <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
             
                         <div class="row">
                             
                             <div class="main2">
+                            <div class="page-paragraph-reg">
+                    <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
                                     
                             <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
                             

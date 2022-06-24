@@ -45,7 +45,7 @@ Content Page template: v.1.0.1-->
                         <p>La ciencia es clara: el plástico suelto en la biosfera daña los ecosistemas, los humanos y los animales. La investigación también es clara: durante los últimos cincuenta años, el procesamiento industrial ha dispersado el plástico en el medio ambiente y se ha convertido en una fuente importante de emisiones de carbono.</p>
                     </div>
                 
-                    <div class="página-párrafo">
+                    <div class="page-paragraph">
                          <p>Nunca ha sido más importante cuidar nuestro plástico. <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">El secuestro de plástico</a> proporciona una alternativa <a href="/principles">regenerativa</a> a la industria Manejo de plásticos. Siguiendo el <a href="/plastic">ejemplo de secuestro de carbono de la Tierra</a>, tenemos un camino comprobado no solo para asegurar nuestro plástico fuera de la biosfera y fuera de la industria, sino también para acelerar nuestro <a href= "transition.php">transición plástica</a>. La <a href="/about">Global Ecobrick Alliance</a> mantiene criterios y estándares para el secuestro de plástico para garantizar que sea un auténtico servicio ecológico.</p>
 
                         <!--<p>
@@ -506,12 +506,14 @@ Content Page template: v.1.0.1-->
                     
                     
                 <br><br>
-                    <div class="page-paragraph-reg">
-                    <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
+                    
             
                         <div class="row">
                             
                             <div class="main2">
+
+                            <div class="page-paragraph-reg">
+                             <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
                                     
                             <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
                             
