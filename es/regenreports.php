@@ -1,4 +1,4 @@
-<!--PAGE LANGUAGE:  ENGLISH
+<!--PAGE LANGUAGE:  ESPANOL
 Content Page template: v.1.0.0-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
@@ -6,15 +6,15 @@ Content Page template: v.1.0.0-->
 <?php require_once ("includes/regenreports-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--PAGE BANNER-->
 
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Our Ecological Accounting</div>
-	<div class="splash-sub">Public disclosure of the Global Ecobrick Alliance's annual plastic, carbon & biodiversity impacts.</div>
+		<div class="splash-heading">Nuestra Contabilidad Ecológica</div>
+	<div class="splash-sub">Divulgación pública de los impactos anuales del plástico, el carbono y la biodiversidad de la Global Ecobrick Alliance.</div>
 	</div>
 	<div class="splash-image"><img src="icons/balance-glow-500px.webp" style="width: 80%;"></div>	
 </div>
@@ -32,7 +32,7 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-			<p>Persuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts.  This way we (and you) can be sure that our net-impact is green. </p>
+			<p>De acuerdo con nuestro mandato como Empresa de la Tierra, rastreamos y divulgamos nuestros impactos ecológicos. De esta manera, nosotros (y usted) podemos estar seguros de que nuestro impacto neto es verde.</p>
 			</div>
 
 			
@@ -40,19 +40,17 @@ Content Page template: v.1.0.0-->
 				<div class="main2">
 					<div class="page-paragraph">
 
-					
+					<p>¡Nuestro Informe Regen 2022 del año anterior de impactos ecológicos de nuestra empresa ya está publicado y disponible públicamente! Esto incluye una contabilidad de nuestros impactos de carbono, plástico y biodiversidad.</p>
 
-					<p>Our 2022 Regen Report of our enterprise's previous year of ecological impacts is now published and publicly available!  This includes an accounting of our carbon, plastic and biodiversity impacts.</p>
+					<p>Durante 2021, las bases de hogares de GEA en el Reino Unido e Indonesia aumentaron su soporte espacial de biodiversidad en un 32 % (268 m2) y albergaron 152 especies. Retiramos directamente 1.472 kg de plástico a través de nuestro entrenador ecobricking. También eliminamos 4.448 kg de CO2 de la biosfera a través de nuestros árboles, la compensación de carbono y la equivalencia de carbono de ecobrick. </p>
 
-					<p>Over 2021, the GEA's UK and Indonesian household bases increased their spacial support of biodiversity by 32% (268 m2) while hosting 152 species. We directly removed 1,472 kg of plastic through our trainer ecobricking.  We also removed 4,448kg of CO2 from the biosphere through our trees, carbon offsetting and ecobricking carbon equivalency.  </p>
-							
-						<p>📥 <a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">Download our full 2022 Regenerativity Report (PDF 1.2MB).</i><p> 
+					<p>📥 Descarga nuestro <a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">Informe de regeneratividad 2022 completo (PDF 1,2 MB).</i><p>
 
-					</div>	
+					</div>
 				</div>
 
 				<div class="side2">
-					<br><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank"><img src="webp/2020-regen-report.webp" width="100%"></a>
+					<br><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank"><img src="webp/2020-regen-report.webp" width="100%" loading="lazy"></a>
 				</div>
 
 			
@@ -83,7 +81,7 @@ Content Page template: v.1.0.0-->
 						</ul>
 						<br>
 						</div>
-						<div class="side2"><img src="webp/balancing-green.webp" width="80%"><br><br>
+						<div class="side2"><img src="webp/balancing-green.webp" width="80%" loading="lazy"><br><br>
 						</div>
 					</div>
 				</div>	
@@ -115,7 +113,7 @@ Content Page template: v.1.0.0-->
 
 						<br>
 						</div>
-						<div class="side2"><img src="pngs/disclosedial.png" width="80%" alt="Ecological account methods and means">
+						<div class="side2"><img src="webp/dial-question.webp" width="80%" alt="Ecological accounting methods and means" loading="lazy">
 						</div>
 					</div>
 
@@ -148,21 +146,21 @@ Content Page template: v.1.0.0-->
 		<div class="side">
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
+				<img src="webp/gea-logo-400px.webp" width="90%" loading="lazy">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="webp/for-earth500px.webp" width="80%" loading="lazy">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="pngs/catalyst-logo-500px.png" width="80%">
+				<img src="webp/catalyst-logo.webp" width="80%" loading="lazy">
 				<h4>Generate Your Regen Report!</h4>
 				<h5>Our Catalyst Program for keen green enterprises allows you to generate automatic and certificed regenerative reports.</h5><br>
 				<a class="module-btn" href="catalyst">🚀 Learn More</a>
@@ -176,21 +174,17 @@ Content Page template: v.1.0.0-->
 </div>
 
 
-
-
-
 	<!--FOOTER STARTS HERE-->
 
+	<?php require_once ("footers/footer-$lang.php");?>
 
-	<?php include 'footer.php'; ?>
-
-
-	<!--FOOTER ENDS HERE-->
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
 <script src="accordion-scripts.js" defer></script>
+
+
 
 
 

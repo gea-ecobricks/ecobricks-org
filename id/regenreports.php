@@ -6,15 +6,15 @@ Content Page template: v.1.0.0-->
 <?php require_once ("includes/regenreports-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--PAGE BANNER-->
 
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Our Ecological Accounting</div>
-	<div class="splash-sub">Public disclosure of the Global Ecobrick Alliance's annual plastic, carbon & biodiversity impacts.</div>
+		<div class="splash-heading">Akuntansi Ekologis kami</div>
+	<div class="splash-sub">Pengungkapan publik tentang dampak plastik, karbon, dan keanekaragaman hayati tahunan Global Ecobrick Alliance.</div>
 	</div>
 	<div class="splash-image"><img src="icons/balance-glow-500px.webp" style="width: 80%;"></div>	
 </div>
@@ -32,7 +32,7 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-			<p>Persuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts.  This way we (and you) can be sure that our net-impact is green. </p>
+			<p>Sesuai dengan mandat kami sebagai Earth Enterprise, kami melacak dan mengungkapkan dampak ekologis kami. Dengan cara ini kami (dan Anda) dapat yakin bahwa dampak bersih kami berwarna hijau.</p>
 			</div>
 
 			
@@ -42,17 +42,17 @@ Content Page template: v.1.0.0-->
 
 					
 
-					<p>Our 2022 Regen Report of our enterprise's previous year of ecological impacts is now published and publicly available!  This includes an accounting of our carbon, plastic and biodiversity impacts.</p>
+					<p>Laporan Regen 2022 kami tentang dampak ekologis tahun sebelumnya dari perusahaan kami sekarang diterbitkan dan tersedia untuk umum! Ini termasuk penghitungan dampak karbon, plastik, dan keanekaragaman hayati.</p>
 
-					<p>Over 2021, the GEA's UK and Indonesian household bases increased their spacial support of biodiversity by 32% (268 m2) while hosting 152 species. We directly removed 1,472 kg of plastic through our trainer ecobricking.  We also removed 4,448kg of CO2 from the biosphere through our trees, carbon offsetting and ecobricking carbon equivalency.  </p>
-							
-						<p>📥 <a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">Download our full 2022 Regenerativity Report (PDF 1.2MB).</i><p> 
+					<p>Selama tahun 2021, basis rumah tangga GEA di Inggris dan Indonesia meningkatkan dukungan spasial keanekaragaman hayati sebesar 32% (268 m2) sambil menampung 152 spesies. Kami langsung membuang 1.472 kg plastik melalui ecobrick pelatih kami. Kami juga menghilangkan 4.448 kg CO2 dari biosfer melalui pohon kami, penyeimbangan karbon, dan kesetaraan karbon ecobrick. </p>
+
+					<p>📥 Unduh <a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">Laporan Regenerasi 2022 kami (PDF 1.2MB) lengkap.</i><p>
 
 					</div>	
 				</div>
 
 				<div class="side2">
-					<br><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank"><img src="webp/2020-regen-report.webp" width="100%"></a>
+					<br><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank"><img src="webp/2020-regen-report.webp" width="100%" loading="lazy"></a>
 				</div>
 
 			
@@ -83,7 +83,7 @@ Content Page template: v.1.0.0-->
 						</ul>
 						<br>
 						</div>
-						<div class="side2"><img src="webp/balancing-green.webp" width="80%"><br><br>
+						<div class="side2"><img src="webp/balancing-green.webp" width="80%" loading="lazy"><br><br>
 						</div>
 					</div>
 				</div>	
@@ -115,7 +115,7 @@ Content Page template: v.1.0.0-->
 
 						<br>
 						</div>
-						<div class="side2"><img src="pngs/disclosedial.png" width="80%" alt="Ecological account methods and means">
+						<div class="side2"><img src="webp/dial-question.webp" width="80%" alt="Ecological accounting methods and means" loading="lazy">
 						</div>
 					</div>
 
@@ -148,21 +148,21 @@ Content Page template: v.1.0.0-->
 		<div class="side">
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
+				<img src="webp/gea-logo-400px.webp" width="90%" loading="lazy">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="webp/for-earth500px.webp" width="80%" loading="lazy">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="pngs/catalyst-logo-500px.png" width="80%">
+				<img src="webp/catalyst-logo.webp" width="80%" loading="lazy">
 				<h4>Generate Your Regen Report!</h4>
 				<h5>Our Catalyst Program for keen green enterprises allows you to generate automatic and certificed regenerative reports.</h5><br>
 				<a class="module-btn" href="catalyst">🚀 Learn More</a>
@@ -176,21 +176,17 @@ Content Page template: v.1.0.0-->
 </div>
 
 
-
-
-
 	<!--FOOTER STARTS HERE-->
 
+	<?php require_once ("footers/footer-$lang.php");?>
 
-	<?php include 'footer.php'; ?>
-
-
-	<!--FOOTER ENDS HERE-->
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
 <script src="accordion-scripts.js" defer></script>
+
+
 
 
 
