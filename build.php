@@ -50,7 +50,7 @@ Content Page template: v.1.0.0-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Thinking Short, Long and Very Long</h4>
+                    <h4>Thinking Short, Long & Very Long</h4>
                     <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
                     <br>
                     </div>
@@ -73,9 +73,8 @@ Content Page template: v.1.0.0-->
                 <br><p><b>Very long-term</b><p>
                 <p>Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelyhood of plastic staying safe, secure and contained is much more likely than currently available alternatives.</p>
                 
-                 
-                </div>
-                </div>
+                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>
+                <p style="font-size: 0.85em; margin-top:20px;">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
 
             <a name="STORAGE"></a>
             <div class="reg-content-block" id="block10">
@@ -426,6 +425,7 @@ Content Page template: v.1.0.0-->
                     <h4>Long-Term maintenance</h4>
                     <p> Earth and Ecobrick builds often represent large amounts of secured plastic.  When building on government or community land, it is key to establish a long term maintenance agreement with the custodians of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks.<p> 	
                     <p>Access our free <a href="/earth-methods">Community Custodianship Agreements</a> for Ecobrick Earth Parks and Buildings.</p>		
+                    <br><br>
 				</div>
 			</div>
 
@@ -452,6 +452,7 @@ Content Page template: v.1.0.0-->
 
                 <p>People around the world are building all sorts of great and unique things with their ecobrick!  Did you know that Ecobricks float really well?  We can’t wait to see the first ecobrick boats and islands. Have you seen or developed useful applications?  Please share with us, or help our team develop this page further.   Share your photos on the web with the hash tag #ecobricks.</p>
                 <p>From baseball bats to boats, the sky is the limit on what you can use ecobricks for!  Ecobricks can be used for getting fit, for games and more.</p>
+                <br><br>
 
 
                 </div>
@@ -470,12 +471,12 @@ Content Page template: v.1.0.0-->
                          <h4>A Safe Passage Through Time</h4>
                         
                          <p>Building with ecobricks is a significant responsibilty.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
-                        <p>  Planning for the maintenance and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p><br>
-                        <p>Keep learning about ecobricking building, by diving into the core concepts of Earth and Ecobrick Building.</p>
+                        <p>  Planning for the maintenance and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p>
+                        <p>Go deeper into putting ecobricks to good use.  Learn about the core concepts of buidling with ecobricks and earth.</p>
                         <br><p>
                     
                         <a class="action-btn" href="/earth">🚀 Earth & Ecobrick Building</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building concepts and methods.</a></p>
+                    <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</a></p>
                         
                     
                     </div>
