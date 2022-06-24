@@ -117,6 +117,7 @@ _END;?>
 		padding: 10px 30px 0px 0px;
 		box-sizing: border-box;
 		text-align: right;
+        margin: auto;
 }
 }
 
@@ -169,7 +170,7 @@ _END;?>
 	.splash-heading {
       font-size: 3.3em;
       line-height: 1.3;
-      margin: 40px 0 10px;
+      margin: 10px 0px 10px 0px;
   }
 }
 
