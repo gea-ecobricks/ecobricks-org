@@ -11,7 +11,7 @@
 	<meta property="og:url"           content="https://www.ecobricks.org/en/regenreports.php"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="GEA Regen Reports | Ecobricks.org">
-  	<meta property="og:description"   content="Our 2021 Ecological Accounting of our enterprise's Plastic, Carbon and Biodiversity impacts is now published and publicly available."/>
+  	<meta property="og:description"   content="The Ecological Accounting of our enterprise's Plastic, Carbon and Biodiversity impacts are publicly disclosed each year."/>
   	<meta property="og:image"         content="https://www.ecobricks.org/wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp"/>
   	<meta property="og:image:width" content="" />
 	<meta property="og:image:height" content="" />
