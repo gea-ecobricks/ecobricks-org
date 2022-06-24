@@ -9,7 +9,7 @@ echo <<<_END
 
 _END;?>
 
-<HEAD>
+<HEAD> 
 
 <!--Image files to preload that are unique to this page-->
 
