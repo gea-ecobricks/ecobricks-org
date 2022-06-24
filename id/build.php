@@ -531,11 +531,6 @@ Content Page template: v.1.0.0-->
 	</div>
 </div>
 
-
-
-
-
-
 	<!--FOOTER STARTS HERE-->
 
 	<?php require_once ("footers/footer-$lang.php");?>
