@@ -505,7 +505,7 @@ Content Page template: v.1.0.1-->
 
                     
                     
-                
+                <br><br>
                     <div class="page-paragraph-reg">
                     <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
             
@@ -521,8 +521,9 @@ Content Page template: v.1.0.1-->
                             </div>
 
                             <div class="side2">
-                                <br><img src="webp/ayyew.webp" width="100%"></a><br>
-                                <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
+                                
+                                <img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
+                                <br><br><img src="webp/ayyew.webp" width="100%"></a><br>
                             </div>
                         </div>	
                     
