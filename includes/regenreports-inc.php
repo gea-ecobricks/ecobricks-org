@@ -104,7 +104,7 @@ _END;?>
     margin: auto;
 }
 }
-
+ 
 @media screen and (max-width: 700px) { 
 .splash-image {
   z-index: 5;
