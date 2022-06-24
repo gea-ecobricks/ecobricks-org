@@ -418,30 +418,17 @@
 
 
 
+
+
 	<!--FOOTER STARTS HERE-->
 
+	<?php require_once ("footers/footer-$lang.php");?>
 
-	<?php include 'footer.php'; ?>
-
-
-	<!--FOOTER ENDS HERE-->
-
-
-<!-- Localise translation script-->
-
-<script src="https://global.localizecdn.com/localize.js" defer></script>
-<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
-
-<script defer>
-  Localize.initialize({
-    key: '911e632bfc957',
-    rememberLanguage: true,
-  });
-</script>
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<script src="accordion-scripts.js" defer></script> 
+<!-- This script is for pages that use the accordion content system-->
+<script src="accordion-scripts.js" defer></script>
 
 
 </div>
