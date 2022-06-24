@@ -6,7 +6,7 @@ Content Page template: v.1.0.0-->
 <?php require_once ("includes/regenreports-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!--<?php require_once ("translate-please.php");?>-->
 
 <!--PAGE BANNER-->
 
@@ -85,7 +85,7 @@ Content Page template: v.1.0.0-->
 						</ul>
 						<br>
 						</div>
-						<div class="side2"><img src="webp/balancing-green.webp" width="80%">
+						<div class="side2"><img src="webp/balancing-green.webp" width="80%"><br><br>
 						</div>
 					</div>
 				</div>	
@@ -95,8 +95,8 @@ Content Page template: v.1.0.0-->
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
 					<div class="opener-header-text">
-						<h4>Methodology</h4>
-						<h5>The principles and coeffecients behind our calculations.</h5><br>
+						<h4>Methods & Means</h4>
+						<h5>The principles, methodology & coeffecients behind our accounting.</h5><br>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 				</div>
@@ -106,18 +106,18 @@ Content Page template: v.1.0.0-->
 						<div class="main2">
 						<p>Learn more about the concepts underlying regenerative reporting.</p>
 						<ul>
+							<li><a href="coeffecients">Plastic Impact Coeffecients</a></li>
 							<li><a href="aes">AES Plastic Offsetting</a></li>
 							<li><a href="brikcoins">Brikcoin Manual Blockchain</a></li>
 							<li><a href="sequest">Plastic Sequestration</a></li>
 							<li><a href="mandalas">Leading by Example</a></li>
 							<li><a href="principles">Regenerative Principles</a></li>
-							<li><a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d">The Earthen Ethics Theory of Ecological Disclosure & Awareness Raising</a></li>
-							
+							<li><a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">The Earthen Ethics Theory of Ecological Disclosure & Awareness Raising</a></li>
 						</ul>
 
 						<br>
 						</div>
-						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="175px">
+						<div class="side2"><img src="pngs/disclosedial.png" width="80%" alt="Ecological account methods and means">
 						</div>
 					</div>
 

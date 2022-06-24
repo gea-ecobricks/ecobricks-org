@@ -99,7 +99,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Earth Enterprise</div>
-				<div class="footer-subtext">El <a href="/about">Global Ecobrick Alliance</a> es una empresa a favor de la Tierra, sin fines de lucro, basada en  <a href="/principles">principios regenerativos.</a> Revelamos completamente nuestro recibo y uso de fondos en nuestro <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">system open books.</a>Nos aseguramos de sustraer más CO2 y plástico del que añadimos a la biosfera y de divulgar por completo todos nuestros impactos ecológicos. Vea nuestro<a href="2021-regenreport.php">Regenerativity Report para el ultimo ano</a>.  Vea nuestra<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/"> contabilidad de impacto ecológico por este ano.</a></div>
+				<div class="footer-subtext">El <a href="/about">Global Ecobrick Alliance</a> es una empresa a favor de la Tierra, sin fines de lucro, basada en  <a href="/principles">principios regenerativos.</a> Revelamos completamente nuestro recibo y uso de fondos en nuestro <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">system open books.</a>Nos aseguramos de sustraer más CO2 y plástico del que añadimos a la biosfera y de divulgar por completo todos nuestros impactos ecológicos. Vea nuestro<a href="regenreports.php">Regenerativity Report para el ultimo ano</a>.  Vea nuestra<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/"> contabilidad de impacto ecológico por este ano.</a></div>
 			</div>
 			<div class="footer-box">
 

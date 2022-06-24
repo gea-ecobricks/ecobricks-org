@@ -99,7 +99,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Earth Enterprise</div>
-				<div class="footer-subtext">The <a href="/about">Global Ecobrick Alliance</a> is a for-Earth, not-for-profit, enterprise based on <a href="/principles">regenerative principles.</a> We fully disclose our receipt and usage of funds on our <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">open books system.</a>We make sure to subtract more CO2 and plastic than we add to the biosphere and to fully disclose all our ecological impacts.  See our <a href="2021-regenreport.php">Regenerativity Report for the past year</a>.  See our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">live ecological impact accounting for the current year.</a></div>
+				<div class="footer-subtext">The <a href="/about">Global Ecobrick Alliance</a> is a for-Earth, not-for-profit, enterprise based on <a href="/principles">regenerative principles.</a> We fully disclose our receipt and usage of funds on our <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">open books system.</a>We make sure to subtract more CO2 and plastic than we add to the biosphere and to fully disclose all our ecological impacts.  See our <a href="regenreports.php">Regenerativity Report for the past year</a>.  See our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">live ecological impact accounting for the current year.</a></div>
 			</div>
 			<div class="footer-box">
 

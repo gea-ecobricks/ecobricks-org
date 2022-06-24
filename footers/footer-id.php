@@ -90,7 +90,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			</div>
 			<div class="footer-box">
 			<div class="footer-header">Enterprise Hijau</div>
-			<div class="footer-subtext"><a href="/about">Global Ecobrick Alliance</a> adalah perusahaan untuk Bumi, nirlaba, berdasarkan <a href="/principles">prinsip-prinsip regeneratif.</a> Kami sepenuhnya mengungkapkan penerimaan dan penggunaan dana kami pada <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">sistem buku terbuka kami.</a> Kami memastikan untuk mengurangi lebih banyak CO2 dan plastik daripada yang kami tambahkan ke biosfer dan untuk sepenuhnya mengungkapkan semua dampak ekologis kami. Lihat <a href="2021-regenreport.php">Laporan Regenerasi kami untuk tahun lalu</a> . Lihat <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">penghitungan dampak ekologis langsung kami untuk tahun ini.</a></div>
+			<div class="footer-subtext"><a href="/about">Global Ecobrick Alliance</a> adalah perusahaan untuk Bumi, nirlaba, berdasarkan <a href="/principles">prinsip-prinsip regeneratif.</a> Kami sepenuhnya mengungkapkan penerimaan dan penggunaan dana kami pada <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">sistem buku terbuka kami.</a> Kami memastikan untuk mengurangi lebih banyak CO2 dan plastik daripada yang kami tambahkan ke biosfer dan untuk sepenuhnya mengungkapkan semua dampak ekologis kami. Lihat <a href="regenreports.php">Laporan Regenerasi kami untuk tahun lalu</a> . Lihat <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">penghitungan dampak ekologis langsung kami untuk tahun ini.</a></div>
 			</div>
 			<div class="footer-box">
 
