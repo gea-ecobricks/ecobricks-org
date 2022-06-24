@@ -75,6 +75,8 @@ Content Page template: v.1.0.0-->
                 
                 <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>
                 <p style="font-size: 0.85em; margin-top:20px;">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
+</div>
+</div>
 
             <a name="STORAGE"></a>
             <div class="reg-content-block" id="block10">
