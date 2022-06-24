@@ -1,4 +1,4 @@
-<!--PAGE LANGUAGE:  ENGLISH
+<!--PAGE LANGUAGE:  INDONESIA
 Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
@@ -6,7 +6,7 @@ Content Page template: v.1.0.1-->
 <?php require_once ("includes/sequest-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 							  
@@ -23,8 +23,8 @@ Content Page template: v.1.0.1-->
 
         <div class="splash-content-block">
             <div class="splash-box">
-                <div class="splash-heading">Plastic Sequestration</div>
-            <div class="splash-sub">By following the Earth’s example of carbon care we can keep our plastic safe and secure out the biosphere and out of industry.</div>
+                <div class="splash-heading">Sekuestrasi Plastik</div>
+            <div class="splash-sub">Dengan mengikuti contoh kepedulian terhadap karbon di Bumi, kita dapat menjaga plastik kita tetap aman dari biosfer dan keluar dari industri.</div>
             </div>
             <div class="splash-image"><img src="webp/earth-service-700px.webp" style="width: 85%;"></div>	
         </div>
@@ -41,12 +41,12 @@ Content Page template: v.1.0.1-->
             <div class="row">
                 <div class="main">
 
-                    <div class="lead-page-paragraph">
-                        <p>The science is clear:  Plastic loose in the biosphere harms ecosystems, humans and animals.  The research is also clear:  For the last fifty years, industrial processing has dispersed plastic into the environment while becoming a major source of carbon emissions.</p>
-                    </div>
+                <div class="lead-page-paragraph">
+                         <p>Ilmunya jelas: Plastik yang lepas di biosfer membahayakan ekosistem, manusia, dan hewan. Penelitiannya juga jelas: Selama lima puluh tahun terakhir, pemrosesan industri telah menyebarkan plastik ke lingkungan sekaligus menjadi sumber utama emisi karbon.</p>
+                     </div>
                 
-                    <div class="page-paragraph">
-                        <p>It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="/plastic">Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The <a href="/about">Global Ecobrick Alliance</a> maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
+                     <div class="page-paragraph">
+                         <p>Menjaga plastik menjadi lebih penting. <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Sequestration plastik</a> memberikan <a href="/principles">alternatif regeneratif</a> untuk industri manajemen plastik. Mengikuti <a href="/plastic">contoh penyerapan karbon di Bumi</a>, kami memiliki jalan yang terbukti tidak hanya mengamankan plastik kami dari biosfer dan keluar dari industri, tetapi juga untuk mempercepat <a href= "transition.php">transisi plastik</a>. <a href="/about">Global Ecobrick Alliance</a> mempertahankan kriteria dan standar untuk penyerapan plastik untuk memastikan bahwa itu adalah layanan ekologi yang otentik.</p>
 
                         <!--<p>
                             

@@ -1,4 +1,4 @@
-<!--PAGE LANGUAGE:  ENGLISH
+<!--PAGE LANGUAGE:  ESPANOL
 Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
@@ -6,7 +6,7 @@ Content Page template: v.1.0.1-->
 <?php require_once ("includes/sequest-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 							  
@@ -23,8 +23,8 @@ Content Page template: v.1.0.1-->
 
         <div class="splash-content-block">
             <div class="splash-box">
-                <div class="splash-heading">Plastic Sequestration</div>
-            <div class="splash-sub">By following the Earth’s example of carbon care we can keep our plastic safe and secure out the biosphere and out of industry.</div>
+                <div class="splash-heading">Secuestro de plástico</div>
+            <div class="splash-sub">Siguiendo el ejemplo de la Tierra de secuestro de carbono con nuestro plástico, podemos prevenir la contaminación de la biosfera y las emisiones de la industria.</div>
             </div>
             <div class="splash-image"><img src="webp/earth-service-700px.webp" style="width: 85%;"></div>	
         </div>
@@ -42,11 +42,11 @@ Content Page template: v.1.0.1-->
                 <div class="main">
 
                     <div class="lead-page-paragraph">
-                        <p>The science is clear:  Plastic loose in the biosphere harms ecosystems, humans and animals.  The research is also clear:  For the last fifty years, industrial processing has dispersed plastic into the environment while becoming a major source of carbon emissions.</p>
+                        <p>La ciencia es clara: el plástico suelto en la biosfera daña los ecosistemas, los humanos y los animales. La investigación también es clara: durante los últimos cincuenta años, el procesamiento industrial ha dispersado el plástico en el medio ambiente y se ha convertido en una fuente importante de emisiones de carbono.</p>
                     </div>
                 
-                    <div class="page-paragraph">
-                        <p>It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="/plastic">Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The <a href="/about">Global Ecobrick Alliance</a> maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
+                    <div class="página-párrafo">
+                         <p>Nunca ha sido más importante cuidar nuestro plástico. <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">El secuestro de plástico</a> proporciona una alternativa <a href="/principles">regenerativa</a> a la industria Manejo de plásticos. Siguiendo el <a href="/plastic">ejemplo de secuestro de carbono de la Tierra</a>, tenemos un camino comprobado no solo para asegurar nuestro plástico fuera de la biosfera y fuera de la industria, sino también para acelerar nuestro <a href= "transition.php">transición plástica</a>. La <a href="/about">Global Ecobrick Alliance</a> mantiene criterios y estándares para el secuestro de plástico para garantizar que sea un auténtico servicio ecológico.</p>
 
                         <!--<p>
                             
