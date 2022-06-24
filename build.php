@@ -413,17 +413,19 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed8">   
 
-                <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintence and the end of the construction is a key part of plastic sequestration!</p>
+                <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintence and the end of the construction is a key part of plastic sequestration!</p><br><br>
 
 
-					<h4>Short Term Applications</h4>
+					<h4>Short-Term Maintenance</h4>
 
 					<p>Ecobrick furniture and modules need regular cleaning and repair.  Our GEA Trainer Team who have several hundred ecobrick modules that they regularily rent out to cities and exhibitions, spend one day a year cleaning their modules with a high powered hose and soap.  They also dismantle weak modules and repair them with silicone.</p>
                     
                     <p>Part of ensuring the longevity of ecobrick modules is to train those who use the modules how to handle them.  Modules should always be moved with two hands.  This is especially important with ecobrick Dieleman lego which new users are often tempted to grab with one hand.</p>
+                    <br><br>
 
-                    <p><b>Long-Term Applications</b><p>
-                    <p> Earth and Ecobrick builds often represent large amounts of secured plastic.  When building on government or community land, it is key to establish a long term maintenance agreement with the custodians of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks.<p> 			
+                    <h4>Long-Term maintenance</h4>
+                    <p> Earth and Ecobrick builds often represent large amounts of secured plastic.  When building on government or community land, it is key to establish a long term maintenance agreement with the custodians of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks.<p> 	
+                    <p>Access our free <a href="/earth-methods">Community Custodianship Agreements</a> for Ecobrick Earth Parks and Buildings.</p>		
 				</div>
 			</div>
 
@@ -469,11 +471,11 @@ Content Page template: v.1.0.0-->
                         
                          <p>Building with ecobricks is a significant responsibilty.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
                         <p>  Planning for the maintenance and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p><br>
-                        <p>Access our free Community Custodianship Agreementsfor Ecobrick Earth Parks and Buildings.</p>
+                        <p>Keep learning about ecobricking building, by diving into the core concepts of Earth and Ecobrick Building.</p>
                         <br><p>
                     
                         <a class="action-btn" href="/earth">🚀 Earth & Ecobrick Building</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page on the core concepts of Earth & Ecobrick Building.</a></p>
+                    <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building concepts and methods.</a></p>
                         
                     
                     </div>
@@ -497,7 +499,7 @@ Content Page template: v.1.0.0-->
                 <br>
 			</div>  
             <div id="side-module-desktop-mobile">
-                <img src="webp/ten-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Plastic Sequestration</h4>
                 <h5>The GEA advocates ecobrick building to sequester plastic.  Only builds that follow best-practices, embody earth principles and use authenticated eco<span class="eco-brick"> </span>bricks sequester plastic.</h5><br>
                 <a class="module-btn" href="sequest.php">Learn More</a>
