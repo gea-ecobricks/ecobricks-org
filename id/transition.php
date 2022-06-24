@@ -1,5 +1,5 @@
-<!--PAGE LANGUAGE:  FRENCH-->  
- 
+<!--PAGE LANGUAGE:  INDONESIAN-->  
+  
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
 <?php require_once ("includes/transition-inc.php");?>
@@ -9,10 +9,11 @@
 
 <!--TOP PAGE BANNER-->
 
+
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">Transition Plastique</div>
-		<div class="splash-sub">Notre plastique est un portail hors de notre vieux monde gris a le monde vert que nous toutes aspirons tous à voir.</div>
+		<div class="splash-heading">Transisi Plastik</div>
+		<div class="splash-sub">Plastik kami adalah portal keluar dari dunia abu-abu lama kami dan masuk ke dunia hijau untuk semua yang ingin kita lihat.</div>
 	</div>
 	<div class="splash-image"><img src="webp/floating-dial-500px.webp" style="width: 100%;"></div>	
 </div>
@@ -29,27 +30,27 @@
 	<div class="row">
 		<div class="main">
 
-			<div class="lead-page-paragraph">
-				
-				<p>La transition plastique est la clé de notre passage de la participation pétro-capitaliste à la régénération de la biosphère.</p>
-				</div>
+        <div class="lead-page-paragraph">
 
-			<div class="page-paragraph">
-				  
+<p>Transisi plastik adalah kunci peralihan kita dari partisipasi petro-modal ke regenerasi biosfer.</p>
+</div>
 
-            <p>Il peut être accablant d'entendre parler de toutes les crises écologiques de notre époque. Le changement climatique, la déforestation, l'acidification des océans font que la pollution plastique semble un problème mineur en comparaison. Cependant, comme tous nos problèmes écologiques, la pollution plastique est un symptôme de notre économie pétro-capitaliste - la façon dont notre argent et notre énergie sont alimentés par l'extraction et la combustion de combustibles fossiles. Mais cela rend la pollution plastique unique !
+<div class="page-paragraph">
+
+
+                <p>Mendengar tentang semua krisis ekologi di zaman kita ini bisa membuat kita kewalahan. Perubahan iklim, penggundulan hutan, pengasaman laut membuat polusi plastik tampak sebagai masalah kecil dibandingkan. Namun, seperti semua masalah ekologi kita, polusi plastik adalah gejala ekonomi petro-modal kita– cara uang dan energi kita ditenagai oleh ekstraksi dan pembakaran bahan bakar fosil. Tapi ini membuat polusi plastik unik!</p>
                 
-                <p>C'est le seul problème que nous pouvons toucher - et à travers lui, le système d'exploitation pétro-capital à la base de tout cela.</p>
+                <p>Ini adalah satu-satunya masalah yang dapat kami sentuh– dan melaluinya sistem operasi petro-capital menjadi akar dari semuanya.</p>
 
-            <p>Parce que nous l'utilisons tous, le plastique offre une opportunité unique d'action collective. Chacun de nos choix en matière de plastique, de l'achat à l'élimination, entraîne la rotation des usines, le transport des camions et le raffinage du pétrole - <b>ou pas</b>. </p>
+                <p>Karena kita semua menggunakannya, plastik memberikan kesempatan unik untuk tindakan kolektif. Setiap pilihan plastik kami, mulai dari pembelian hingga pembuangan, menghasilkan pemintalan pabrik, pengangkutan truk, dan penyulingan minyak– <b>atau, tidak</b>. </p>
                 
-                <p>Ce que nous faisons avec notre plastique, car il tourne ou ralentit l'économie du pétro-capital a de grandes conséquences écologiques.<p>
+                <p>Apa yang kita lakukan dengan plastik kita, karena memutar atau memperlambat ekonomi petro-modal memiliki konsekuensi ekologi yang besar.<p>
 
-                <p>Notre plastique quotidien nous permet de faire des choix petits mais significatifs pour réduire notre participation à l'économie du pétro-capital. De manière sûre et stable, nous pouvons passer du plastique et du système alimenté au pétrole qui le sous-tend. C'est un passage de l'ajout de CO2 et de plastique à la biosphère à l'élimination et à la prévention des deux.</p>
+                <p>Plastik harian kami memungkinkan kami membuat pilihan kecil namun bermakna untuk mengurangi partisipasi kami dalam ekonomi petro-modal. Yakin dan mantap kita dapat beralih dari plastik dan sistem bertenaga minyak bumi di belakangnya. Ini adalah pergeseran dari menambahkan CO2 dan plastik ke biosfer menjadi menghilangkan dan mencegah keduanya.</p>
 
-                <p>Cette transition est l'objectif de l'écobrique ! C'est un passage des impacts grisants de la participation au pétro-capital à ce que nous appelons la vie régénérative.</p>
+                <p>Transisi ini adalah tujuan dari eco-bricking! Ini adalah pergeseran dari dampak abu-abu dari partisipasi petro-capital ke apa yang kita sebut hidup regeneratif.</p>
 
-			</div>	
+</div>
 
 			<div class="reg-content-block" id="block1">
 				
@@ -388,7 +389,7 @@
 				<img src="webp/earthen-500px.webp" width="80%">
 				<h4>Earthen Ethics</h4>
 				<h5>Plastic transition is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
-				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Learn More</a>
+				<a class="module-btn" href="https://earthen.io/green">Learn More</a>
 			</div>
 
             <div id="side-module-desktop-mobile">

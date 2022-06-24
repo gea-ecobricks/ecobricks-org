@@ -1,19 +1,19 @@
-<!--PAGE LANGUAGE:  ENGLISH-->  
- 
+<!--PAGE LANGUAGE:  SPANISH-->  
+  
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
 <?php require_once ("includes/transition-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 
 
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">Plastic Transition</div>
-		<div class="splash-sub">Our plastic is a portal out of our old grey world and into the green world for all we all long to see.</div>
+		<div class="splash-heading">Transición Plástica</div>
+		<div class="splash-sub">Nuestro plástico es un portal fuera de nuestro viejo mundo gris y hacia el mundo verde que anhelamos ver.</div>
 	</div>
 	<div class="splash-image"><img src="webp/floating-dial-500px.webp" style="width: 100%;"></div>	
 </div>
@@ -32,25 +32,25 @@
 
 			<div class="lead-page-paragraph">
 				
-				<p>Plastic transition is the key to our shift from petro-capital participation to the regeneration of the biosphere.</p>
-				</div>
+			<p>La transición plástica es la clave para nuestro cambio de la participación del petrocapital a la regeneración de la biosfera.</p>
+</div>
 
-			<div class="page-paragraph">
-				  
+<div class="página-párrafo">
 
-				<p>It can be overwhelming to hear about all the ecological crises of our day.  Climate change, deforestation, ocean acidification make plastic pollution seem minor issue in comparison. However, like all our ecological issues, plastic pollution is a symptom of our petro-capital economy– the way our money and energy is powered by the extraction and burning of fossil fuels.  But this makes plastic pollution is unique! 
+
+<p>Puede ser abrumador escuchar acerca de todas las crisis ecológicas de nuestros días. El cambio climático, la deforestación, la acidificación de los océanos hacen que la contaminación plástica parezca un problema menor en comparación. Sin embargo, como todos nuestros problemas ecológicos, la contaminación plástica es un síntoma de nuestra economía de petrocapital, la forma en que nuestro dinero y energía se alimentan de la extracción y quema de combustibles fósiles. ¡Pero esto hace que la contaminación plástica sea única!
                 
-                <p>It is the only issue we can touch– and through it the petro-capital operating system at the root of it all.</p>
-				
-				<p>Because we all use it, plastic provides a unique opportunity for collective action.  Our every plastic choice, from purchasing to disposing, results in factories spinning, trucks transporting, and oil refined– <b>or, not</b>. </p>
-                
-                <p>What we do with our plastic, as it spins or slows the petro-capital economy has big ecological consequence.<p>
+                <p>Es el único problema que podemos tocar, y a través de él, el sistema operativo de petro-capital está en la raíz de todo.</p>
 
-                <p>Our daily plastic enables us to make small yet meaningful choices to reduce our participation in the petro-capital economy. Sure and steady we can transition from plastic and the petroleum powered system behind it.  Its a shift from adding CO2 and plastic to the biosphere to removing and preventing them both.</p>
+				<p>Debido a que todos lo usamos, el plástico brinda una oportunidad única para la acción colectiva. Todas nuestras elecciones de plástico, desde la compra hasta la eliminación, dan como resultado fábricas que giran, camiones que transportan y petróleo refinado, <b>o no</b>. </p>
+								
+                <p>Lo que hacemos con nuestro plástico, ya que gira o ralentiza la economía del petrocapital, tiene una gran consecuencia ecológica.<p>
 
-                <p>This transition is the goal of ecobricking! It is a shift from the greying impacts of petro-capital participation to what we call regenerative living.</p>
+                <p>Nuestro plástico diario nos permite tomar decisiones pequeñas pero significativas para reducir nuestra participación en la economía del petrocapital. Seguro y constante podemos hacer la transición del plástico y el sistema de petróleo detrás de él. Es un cambio de agregar CO2 y plástico a la biosfera a eliminarlos y prevenirlos.</p>
 
-			</div>	
+                <p>¡Esta transición es el objetivo del ecobricking! Es un cambio de los impactos envejecedores de la participación del petro-capital a lo que llamamos vida regenerativa.</p>
+
+</div>
 
 			<div class="reg-content-block" id="block1">
 				
@@ -389,7 +389,7 @@
 				<img src="webp/earthen-500px.webp" width="80%">
 				<h4>Earthen Ethics</h4>
 				<h5>Plastic transition is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
-				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Learn More</a>
+				<a class="module-btn" href="https://earthen.io/green">Learn More</a>
 			</div>
 
             <div id="side-module-desktop-mobile">

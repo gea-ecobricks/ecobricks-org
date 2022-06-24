@@ -44,12 +44,13 @@ _END;?>
 
 <STYLE>
 
+
 /*This sets up the the first splash content block that is unique to the top of each page*/
 
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(webp/about-banner-800px.webp) bottom;
+		background: url(https://www.ecobricks.org/webp/about-banner-800px.webp) bottom;
 		background-color: #3FB104;;
 		
 		text-align: left;
@@ -73,7 +74,7 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(webp/about-banner-1500px-b.webp) bottom;
+		background: url(https://www.ecobricks.org/webp/about-banner-1500px-b.webp) bottom;
 		background-color: #3FB104;;
 		
 		text-align: left;
@@ -116,6 +117,7 @@ _END;?>
 		padding: 10px 30px 0px 0px;
 		box-sizing: border-box;
 		text-align: right;
+        margin: auto;
 }
 }
 
@@ -168,7 +170,7 @@ _END;?>
 	.splash-heading {
       font-size: 3.3em;
       line-height: 1.3;
-      margin: 40px 0 10px;
+      margin: 0px 0px 10px 0px;
   }
 }
 
@@ -203,7 +205,7 @@ _END;?>
 	margin-top: -50px;
 	width: 100%;
 	background-color: #3FB104;
-	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
+	/*background: url(https://www.ecobricks.org/wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
@@ -227,9 +229,9 @@ _END;?>
 <BODY id="full-page">
 
 	<div id="load-background">
+        
+	<!-- This loads the page's language specific menu -->
 
-<!-- MENU BAR-->	
-         
-		<?php include 'menu-bar.php';?>
+    <?php require_once ("menus/menu-$lang.php");?>
 
 <!--SPLASH SECTION-->
