@@ -32,7 +32,7 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-			<p>Persuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts to be sure that our net impact, across the board, is green. And so you can be sure too.</p>
+			<p>Persuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts.  This way we (and you) can be sure that our net-impact is green. </p>
 			</div>
 
 			
@@ -42,7 +42,7 @@ Content Page template: v.1.0.0-->
 
 					
 
-					<p>Our 2022 Ecological Accounting of our enterprise's Plastic, Carbon and Biodiversity impacts is now published and publicly available!</p>
+					<p>Our 2022 Regen Report of our enterprise's previous year of ecological impacts is now published and publicly available!  This includes an accounting of our carbon, plastic and biodiversity impacts.</p>
 
 					<p>Over 2021, the GEA's UK and Indonesian household bases increased their spacial support of biodiversity by 32% (268 m2) while hosting 152 species. We directly removed 1,472 kg of plastic through our trainer ecobricking.  We also removed 4,448kg of CO2 from the biosphere through our trees, carbon offsetting and ecobricking carbon equivalency.  </p>
 							
@@ -82,7 +82,6 @@ Content Page template: v.1.0.0-->
 							<li>2022 GEA Regen Report (to be published January 1st, 2023)
 							<li><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">2021 GEA Regen Report</a></li>
 							<li><a href="https://files.ecobricks.org/s/ANNmsTJtHA4LSzP" target="_blank">2020 Regen Report</a></li>
-							<li>2019 Regen Report (reformat pending)</li>
 						</ul>
 						<br>
 						</div>
@@ -148,7 +147,6 @@ Content Page template: v.1.0.0-->
 			</div>
 		</div>
 
-
 		<div class="side">
 
 			<div id="side-module-desktop-mobile">
@@ -191,7 +189,11 @@ Content Page template: v.1.0.0-->
 
 	<!--FOOTER ENDS HERE-->
 
-	<!-- Localise translation script-->
+<!-- CUSTOM PAGE SCRIPTS-->
+
+<!-- This script is for pages that use the accordion content system-->
+<script src="accordion-scripts.js" defer></script>
+
 
 
 </div>
