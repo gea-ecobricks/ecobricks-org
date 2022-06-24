@@ -176,21 +176,17 @@ Content Page template: v.1.0.0-->
 </div>
 
 
-
-
-
 	<!--FOOTER STARTS HERE-->
 
+	<?php require_once ("footers/footer-$lang.php");?>
 
-	<?php include 'footer.php'; ?>
-
-
-	<!--FOOTER ENDS HERE-->
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
 <script src="accordion-scripts.js" defer></script>
+
+
 
 
 
