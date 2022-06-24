@@ -47,8 +47,8 @@ Content Page template: v.1.0.1-->
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Being the Change</h4>
-						<h5>We strive to lead by example in our households and enterprises.</h5>
+						<h4>Être le changement</h4>
+						<h5>Nous nous efforçons de montrer l'exemple dans nos foyers et nos entreprises.</h5>
 					</div>
 					
 					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
@@ -60,8 +60,8 @@ Content Page template: v.1.0.1-->
 
 					<div class="row">
                             <div class="main2">
-                            <p>As ecobrickers ourselves, we keep track of how much plastic we consume each month, clean and wash it, and put it aside.  We pack our plastic into ecobricks which we use in our homes to make our furniture and gardens.  We lead <a href="/trainings">ecobrick trainings</a> for companies, communities near and far.  For both our households and enterprises we offset our plastic to make sure our household and our enterprises are net green.  We track and disclose our plastic transition progress, just like the Global Ecobrick Alliance <a href="regenreports.php">does each year</a>.</p>
-							<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
+                            <p>En tant qu'écobrickers nous-mêmes, nous gardons une trace de la quantité de plastique que nous consommons chaque mois, le nettoyons et le lavons, et le mettons de côté. Nous emballons notre plastique dans des écobriques que nous utilisons dans nos maisons pour fabriquer nos meubles et nos jardins. Nous organisons des <a href="/trainings">formations ecobrick</a> pour les entreprises, les communautés proches et lointaines. Pour nos ménages et nos entreprises, nous compensons notre plastique pour nous assurer que notre ménage et nos entreprises sont nets verts. Nous suivons et divulguons nos progrès en matière de transition plastique, tout comme la Global Ecobrick Alliance <a href="regenreports.php">le fait chaque année</a>.</p>
+							<p>Notre ecobricking nous a donné l'occasion de réfléchir à notre propre consommation de plastique. Nous pensons que résoudre le plastique est beaucoup plus complexe que les interdictions et le bambou. Bien que de telles étapes soient essentielles, la résolution profonde du plastique nécessite une transition profonde de la manière même dont notre culture moderne s'intègre à la biosphère.<p>
                             </div>
                             <div class="side2"><img src="svgs/shanti.svg" width="88%">
                             </div>

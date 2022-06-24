@@ -6,7 +6,7 @@ Content Page template: v.1.0.1-->
 <?php require_once ("includes/about-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 							  
@@ -47,8 +47,8 @@ Content Page template: v.1.0.1-->
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Being the Change</h4>
-						<h5>We strive to lead by example in our households and enterprises.</h5>
+						<h4>Siendo el cambio</h4>
+						<h5>Nos esforzamos por predicar con el ejemplo en nuestros hogares y empresas.</h5>
 					</div>
 					
 					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
@@ -60,8 +60,8 @@ Content Page template: v.1.0.1-->
 
 					<div class="row">
                             <div class="main2">
-                            <p>As ecobrickers ourselves, we keep track of how much plastic we consume each month, clean and wash it, and put it aside.  We pack our plastic into ecobricks which we use in our homes to make our furniture and gardens.  We lead <a href="/trainings">ecobrick trainings</a> for companies, communities near and far.  For both our households and enterprises we offset our plastic to make sure our household and our enterprises are net green.  We track and disclose our plastic transition progress, just like the Global Ecobrick Alliance <a href="regenreports.php">does each year</a>.</p>
-							<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
+                            <p>Como ecobrickers, hacemos un seguimiento de la cantidad de plástico que consumimos cada mes, lo limpiamos, lo lavamos y lo guardamos. Empacamos nuestro plástico en ecoladrillos que usamos en nuestros hogares para hacer nuestros muebles y jardines. Dirigimos <a href="/trainings">capacitaciones sobre ecoladrillos</a> para empresas, comunidades cercanas y lejanas. Tanto para nuestros hogares como para nuestras empresas, compensamos nuestro plástico para asegurarnos de que nuestro hogar y nuestras empresas sean ecológicos netos. Realizamos un seguimiento y divulgamos nuestro progreso en la transición al plástico, al igual que la Global Ecobrick Alliance <a href="regenreports.php">lo hace cada año</a>.</p>
+							<p>Nuestro ecobricking nos ha dado la oportunidad de reflexionar sobre nuestro propio consumo de plástico. Creemos que resolver el plástico es mucho más complejo que las prohibiciones y el bambú. Si bien estos pasos son esenciales, resolver profundamente el plástico requiere una transición extensa de la forma en que nuestra cultura moderna se integra con la biosfera.<p>
                             </div>
                             <div class="side2"><img src="svgs/shanti.svg" width="88%">
                             </div>
