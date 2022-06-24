@@ -50,7 +50,6 @@ deployment:
     - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp 2021-regenreport.php $DEPLOYPATH
     - /bin/cp sequest.php $DEPLOYPATH
-    - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
@@ -105,7 +104,6 @@ deployment:
     - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp 2021-regenreport.php $DEPLOYPATH
     - /bin/cp sequest.php $DEPLOYPATH
-    - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
@@ -160,7 +158,6 @@ deployment:
     - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp 2021-regenreport.php $DEPLOYPATH
     - /bin/cp sequest.php $DEPLOYPATH
-    - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
@@ -197,8 +194,6 @@ deployment:
     - /bin/cp details-cash-trans.php $DEPLOYPATH
     - /bin/cp details-brk-trans.php $DEPLOYPATH
 
-    - /bin/cp brikchain.php $DEPLOYPATH
-
     - /bin/cp stylesheet-general.css $DEPLOYPATH
     - /bin/cp styles-landing.php $DEPLOYPATH
     - /bin/cp stylesheet-first-load.css $DEPLOYPATH
@@ -215,7 +210,6 @@ deployment:
     - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp 2021-regenreport.php $DEPLOYPATH
     - /bin/cp sequest.php $DEPLOYPATH
-    - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
@@ -281,7 +275,6 @@ deployment:
 
     - /bin/cp 2021-regenreport.php $DEPLOYPATH
     - /bin/cp sequest.php $DEPLOYPATH
-    - /bin/cp transition.php $DEPLOYPATH
     - /bin/cp build.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
