@@ -1,4 +1,4 @@
-<!--PAGE LANGUAGE:  ENGLISH
+<!--PAGE LANGUAGE:  FRENCH
 Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
@@ -6,14 +6,14 @@ Content Page template: v.1.0.1-->
 <?php require_once ("includes/about-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 							  
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises towards an ever Greener Harmony with Earth’s Cycles.</div>
-		<div class="splash-sub">— GEA Vision Statement</div>
+		<div class="splash-heading">Nous envisageons une transition du plastique dans nos foyers, communautés et entreprises vers une harmonie toujours plus verte avec les cycles de la Terre.</div>
+		<div class="splash-sub">— Déclaration de vision de GEA</div>
 	</div>
 	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
@@ -30,15 +30,15 @@ Content Page template: v.1.0.1-->
 
 			<div class="lead-page-paragraph">
 				
-				<p>The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition.  We do so through the mandalic dissemination of principled and practical ecobricking to raise ecological consciousness.</p>
-				</div>
+			<p>La Global Ecobrick Alliance est une Earth Enterprise qui accélère la transition plastique locale et mondiale. Nous le faisons grâce à la diffusion mandalique d'écobriques fondées sur des principes et pratiques pour élever la conscience écologique.</p>
+</div>
 
 			<div class="page-paragraph">
 				  
 
-				<p>The <a href="/story">story</a> of the Global Ecobrick Alliance begins in the traditional territory of the Igorot people (<i>Kaigorotan</i>) in the highlands of northern Luzon in the West Philippine Sea.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="/ayyew">Igorot Ayyew ethos</a>.  Inspired by indigenous wisdowm, today ecobricking principles and methods are a means for households, enterprises and communities around the world to accelerate their <a href="transition.php">plastic transition.</a></p>
+			<p>L'<a href="/story">histoire</a> de la Global Ecobrick Alliance commence sur le territoire traditionnel du peuple Igorot (<i>Kaigorotan</i>) dans les hautes terres du nord de Luzon dans le Mer des Philippines occidentales. En nous efforçant de garder notre plastique hors de la rivière, nous avons développé des moyens et des méthodes pour nos maisons et nos communautés qui incarnaient la <a href="/ayyew">éthique Igorot Ayyew</a>. Inspirés par la sagesse indigène, les principes et méthodes d'écobrique sont aujourd'hui un moyen pour les ménages, les entreprises et les communautés du monde entier d'accélérer leur <a href="transition.php">transition plastique.</a></p>
 				
-				<p>The Global Ecobrick Alliance (GEA) is made up of 400+ transition trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in our ecobricking to <a href="transition.php">transition</a> from plastic to ever greener living. <p>
+			<p>La Global Ecobrick Alliance (GEA) est composée de plus de 400 formateurs en transition de tous horizons, âges et origines. Nous sommes connectés dans le monde entier dans notre préoccupation pour la biosphère et ses dommages par la pollution plastique. Nous sommes unis par la solution que nous avons trouvée dans notre écobrique pour <a href="transition.php">transition</a> du plastique vers une vie toujours plus verte. <p>
 
 			</div>	
 

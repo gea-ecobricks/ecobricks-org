@@ -1,4 +1,4 @@
-<!--PAGE LANGUAGE:  ENGLISH
+<!--PAGE LANGUAGE:  INDONESIA
 Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
@@ -6,14 +6,14 @@ Content Page template: v.1.0.1-->
 <?php require_once ("includes/about-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 							  
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises towards an ever Greener Harmony with Earth’s Cycles.</div>
-		<div class="splash-sub">— GEA Vision Statement</div>
+		<div class="splash-heading">Kami membayangkan Transisi dari Plastik di Rumah Tangga, Komunitas, dan Perusahaan kami menuju Harmoni yang Lebih Hijau dengan Siklus Bumi.</div>
+		<div class="splash-sub">— Visi GEA</div>
 	</div>
 	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
@@ -30,15 +30,15 @@ Content Page template: v.1.0.1-->
 
 			<div class="lead-page-paragraph">
 				
-				<p>The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition.  We do so through the mandalic dissemination of principled and practical ecobricking to raise ecological consciousness.</p>
+				<p>Global Ecobrick Alliance adalah Earth Enterprise yang mempercepat transisi plastik lokal dan global. Kami melakukannya melalui penyebaran mandala dari ecobrick yang berprinsip dan praktis untuk meningkatkan kesadaran ekologis.</p>
 				</div>
 
 			<div class="page-paragraph">
 				  
 
-				<p>The <a href="/story">story</a> of the Global Ecobrick Alliance begins in the traditional territory of the Igorot people (<i>Kaigorotan</i>) in the highlands of northern Luzon in the West Philippine Sea.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="/ayyew">Igorot Ayyew ethos</a>.  Inspired by indigenous wisdowm, today ecobricking principles and methods are a means for households, enterprises and communities around the world to accelerate their <a href="transition.php">plastic transition.</a></p>
+            <p><a href="/story">Kisah</a> Aliansi Ecobrick Global dimulai di wilayah tradisional suku Igorot (<i>Kaigorotan</i>) di dataran tinggi Luzon utara di Laut Filipina Barat. Berusaha keras untuk menjauhkan plastik dari sungai, kami mengembangkan cara dan metode untuk rumah dan komunitas kami yang mewujudkan <a href="/ayyew">etos Igorot Ayyew</a>. Terinspirasi oleh kearifan lokal, prinsip dan metode ecobrick saat ini menjadi sarana bagi rumah tangga, perusahaan, dan komunitas di seluruh dunia untuk mempercepat <a href="transition.php">transisi plastik mereka.</a></p>
 				
-				<p>The Global Ecobrick Alliance (GEA) is made up of 400+ transition trainers from all walks of life, ages and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in our ecobricking to <a href="transition.php">transition</a> from plastic to ever greener living. <p>
+            <p>Global Ecobrick Alliance (GEA) terdiri dari 400+ pelatih transisi dari semua lapisan masyarakat, usia, dan latar belakang. Kami terhubung di seluruh dunia dalam kepedulian kami terhadap biosfer dan bahayanya oleh polusi plastik. Kami dipersatukan oleh solusi yang kami temukan dalam ecobrick kami untuk <a href="transition.php">transisi</a> dari plastik ke kehidupan yang lebih hijau. <p>
 
 			</div>	
 
