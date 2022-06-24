@@ -8,14 +8,14 @@
 <!--<?php require_once ("translate-please.php");?>-->
 
 <!--TOP PAGE BANNER-->
-
+ 
 
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading">Plastic Transition</div>
 		<div class="splash-sub">Our plastic is a portal out of our old grey world and into the green world for all we all long to see.</div>
 	</div>
-	<div class="splash-image"><img src="webp/floating-dial-500px.webp" style="width: 100%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -413,12 +413,6 @@
 
 	</div>
 </div>
-
-
-
-
-
-
 
 	<!--FOOTER STARTS HERE-->
 

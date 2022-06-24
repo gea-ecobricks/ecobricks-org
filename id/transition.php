@@ -15,7 +15,7 @@
 		<div class="splash-heading">Transisi Plastik</div>
 		<div class="splash-sub">Plastik kami adalah portal keluar dari dunia abu-abu lama kami dan masuk ke dunia hijau untuk semua yang ingin kita lihat.</div>
 	</div>
-	<div class="splash-image"><img src="webp/floating-dial-500px.webp" style="width: 100%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 

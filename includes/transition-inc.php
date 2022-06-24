@@ -1,3 +1,5 @@
+<!--Content Page template: v.1.0.0-->
+
 <?php require_once ("lang.php");
 echo <<<_END
 
@@ -234,4 +236,3 @@ _END;?>
 
     <?php require_once ("menus/menu-$lang.php");?>
 
-<!--SPLASH SECTION-->

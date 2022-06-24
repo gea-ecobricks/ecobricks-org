@@ -15,7 +15,7 @@
 		<div class="splash-heading">Transición Plástica</div>
 		<div class="splash-sub">Nuestro plástico es un portal fuera de nuestro viejo mundo gris y hacia el mundo verde que anhelamos ver.</div>
 	</div>
-	<div class="splash-image"><img src="webp/floating-dial-500px.webp" style="width: 100%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
