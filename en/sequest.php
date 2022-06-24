@@ -6,7 +6,7 @@ Content Page template: v.1.0.1-->
 <?php require_once ("includes/sequest-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!--<?php require_once ("translate-please.php");?>-->
 
 <!--TOP PAGE BANNER-->
 							  
@@ -43,7 +43,6 @@ Content Page template: v.1.0.1-->
 
                     <div class="lead-page-paragraph">
                         <p>The science is clear:  Plastic loose in the biosphere harms ecosystems, humans and animals.  The research is also clear:  For the last fifty years, industrial processing has dispersed plastic into the environment while becoming a major source of carbon emissions.</p>
-            
                     </div>
                 
                     <div class="page-paragraph">
@@ -66,7 +65,7 @@ Content Page template: v.1.0.1-->
                             
                             <div class="opener-header-text">
                                 <h4>Theory & Science</h4>
-                                <h5>The goal of plastic sequestration is to follow the Earth's example of carbon care in preventing the degradation despersal of plastic into the biosphere-- and in keeping it out of industry.</h5>   
+                                <h5>The goal of plastic sequestration is to follow the Earth's example of carbon care in preventing the degradation despersal of plastic into the biosphere— and in keeping it out of industry.</h5>   
                                 <br>
                             </div>
 
@@ -467,40 +466,6 @@ Content Page template: v.1.0.1-->
                         </div>
                         </div>
 
-                    <br>
-                    <div class="page-paragraph-reg">
-                        
-                        <div class="row">
-                        
-                            <div class="main2">
-                                <h4>A Safe Road into Time</h4>
-                                
-                                <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
-                            </div>	
-
-                            <div class="side2">
-                                <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
-                            </div>
-                        </div>
-                    </div>
-                    
-                
-                    <div class="page-paragraph-reg">
-                    <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
-            
-                        <div class="row">
-                            
-                            <div class="main2">
-                                    
-                                    <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.  Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in hundreds of millions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it into another cycle.  In the way that plastic was a gift to our age, we can gift our carbon to another. </p>
-                            </div>
-
-                            <div class="side2">
-                                <br><img src="webp/ayyew.webp" width="100%"></a>
-                            </div>
-                        </div>	
-                    
-                    </div>
 
 
                     <a name="CO2"></a>
@@ -535,6 +500,44 @@ Content Page template: v.1.0.1-->
 
                         </div>
                     </div>
+
+                    <br>
+                    <div class="page-paragraph-reg">
+                        
+                        <div class="row">
+                        
+                            <div class="main2">
+                                <h4>A Safe Road into Time</h4>
+                                
+                                <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
+                            </div>	
+
+                            <div class="side2">
+                                <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    
+                
+                    <div class="page-paragraph-reg">
+                    <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
+            
+                        <div class="row">
+                            
+                            <div class="main2">
+                                    
+                                    <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.  Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in hundreds of millions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it into another cycle.  In the way that plastic was a gift to our age, we can gift our carbon to another. </p>
+                            </div>
+
+                            <div class="side2">
+                                <br><img src="webp/ayyew.webp" width="100%"></a>
+                            </div>
+                        </div>	
+                    
+                    </div>
+
 
 
 

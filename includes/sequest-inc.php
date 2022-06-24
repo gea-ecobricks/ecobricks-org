@@ -60,7 +60,7 @@ _END;?>
 	.splash-content-block {
 		text-align: left;
 		height: 70vh;
-		padding: 50px 7% 50px 7%;
+		padding: 10px 7% 10px 7%;
 		z-index: 5;
 		position: relative;
 		
