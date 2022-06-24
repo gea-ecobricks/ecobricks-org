@@ -46,9 +46,7 @@ Content Page template: v.1.0.0-->
 
 					<p>Over 2021, the GEA's UK and Indonesian household bases increased their spacial support of biodiversity by 32% (268 m2) while hosting 152 species. We directly removed 1,472 kg of plastic through our trainer ecobricking.  We also removed 4,448kg of CO2 from the biosphere through our trees, carbon offsetting and ecobricking carbon equivalency.  </p>
 							
-						<p><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">Download our full 2022 Regenerativity Report (PDF 1.2MB).</i><p> 
-
-						<!--<p>You can also find a summary of the main categories of our reporting below.</p>-->
+						<p>📥 <a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">Download our full 2022 Regenerativity Report (PDF 1.2MB).</i><p> 
 
 					</div>	
 				</div>
@@ -132,13 +130,13 @@ Content Page template: v.1.0.0-->
 
 		
 				
-				
+			<br><br>
 
 			<div class="page-paragraph">
         
 				<h4>Do your own Regen Reporting</h4>
 			
-				<p>To do our ecological accounting we use a <a href="catalyst.php"> Catalyst account</a> to track our plastic. You can do so too!</p>
+				<p>To do our ecological accounting we use an <a href="catalyst.php"> enterprise atalyst account</a> on the GoBrik platform.  It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
 				
 				<p>Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project.  New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
                         
