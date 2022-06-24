@@ -389,7 +389,7 @@
 				<img src="webp/earthen-500px.webp" width="80%">
 				<h4>Earthen Ethics</h4>
 				<h5>Plastic transition is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
-				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Learn More</a>
+				<a class="module-btn" href="https://earthen.io/green">Learn More</a>
 			</div>
 
             <div id="side-module-desktop-mobile">
