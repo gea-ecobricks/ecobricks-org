@@ -14,7 +14,7 @@ Content Page template: v.1.0.0-->
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Our Ecological Accounting</div>
-	<div class="splash-sub">Public disclosure of our plastic, carbon & biodiversity impacts.</div>
+	<div class="splash-sub">Public disclosure of the Global Ecobrick Alliance's annual plastic, carbon & biodiversity impacts.</div>
 	</div>
 	<div class="splash-image"><img src="icons/balance-glow-500px.webp" style="width: 80%;"></div>	
 </div>
@@ -77,9 +77,9 @@ Content Page template: v.1.0.0-->
 						<div class="main2">
 						<p>Access our reports from all years:</p>
 						<ul>
-							<li>2022 GEA Regen Report (to be published January 1st, 2023)
-							<li><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">2021 GEA Regen Report</a></li>
-							<li><a href="https://files.ecobricks.org/s/ANNmsTJtHA4LSzP" target="_blank">2020 Regen Report</a></li>
+							<li>2022 GEA Regen Report | To be published January, 2023)
+							<li><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">2021 GEA Regen Report</a> | Published: March 22, 2022)</li>
+							<li><a href="https://files.ecobricks.org/s/ANNmsTJtHA4LSzP" target="_blank">2020 GEA Regen Report</a> | Published August 21, 2021</li>
 						</ul>
 						<br>
 						</div>
@@ -136,7 +136,7 @@ Content Page template: v.1.0.0-->
         
 				<h4>Do your own Regen Reporting</h4>
 			
-				<p>To do our ecological accounting we use an <a href="catalyst.php"> enterprise atalyst account</a> on the GoBrik platform.  It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
+				<p>To do our ecological accounting we use an <a href="catalyst.php"> enterprise catalyst account</a> on the GoBrik platform.  It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
 				
 				<p>Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project.  New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
                         
