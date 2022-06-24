@@ -1,19 +1,15 @@
+<!--PAGE LANGUAGE:  ENGLISH
+Content Page template: v.1.0.1-->
+  
+<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
+ 
+<?php require_once ("includes/build-inc.php");?>
 
+<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
+<!--<?php require_once ("translate-please.php");?>-->
 
-</head>
+<!--TOP PAGE BANNER-->
 							  
-											  
-<BODY id="full-page">
-
-	<div id="load-background">
-
-<!-- MENU BAR-->	
-         
-		<?php include 'menu-bar.php';?>
-
-<!--SPLASH SECTION-->
-
-	
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises towards an ever Greener Harmony with Earth’s Cycles.</div>
