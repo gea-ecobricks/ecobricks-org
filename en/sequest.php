@@ -394,10 +394,12 @@ Content Page template: v.1.0.1-->
 
                         <div id="preclosed7">   
 
-                        <p><b>In the same way that the Earth has cultivated ever greater ecological awareness, the enterprise of plastic sequestration must do the same through ecological impact accounting and disclosure.</b></p>
+                        <
 
                             <div class="row">
                                     <div class="main2">
+                                    p><b>In the same way that the Earth has cultivated ever greater ecological awareness, the enterprise of plastic sequestration must do the same through ecological impact accounting and disclosure.</b></p>
+                                    
                                     <p>The Earth’s cycles lead to the an ever increasing awareness of those impacted in an ecosystem.  Plastic sequestration must likewise increase our awareness through an accounting and disclosure of the ecological impacts of the process.</p>
                                     </div>
                                     <div class="side2"><img src="webp/ecological-consciousness-500px.webp" width="90%">
@@ -501,24 +503,7 @@ Content Page template: v.1.0.1-->
                         </div>
                     </div>
 
-                    <br>
-                    <div class="page-paragraph-reg">
-                        
-                        <div class="row">
-                        
-                            <div class="main2">
-                                <h4>A Safe Road into Time</h4>
-                                
-                                <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
-                            </div>	
-
-                            <div class="side2">
-                                <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
-                            </div>
-                        </div>
-
-                        
-                    </div>
+                    
                     
                 
                     <div class="page-paragraph-reg">
@@ -528,11 +513,16 @@ Content Page template: v.1.0.1-->
                             
                             <div class="main2">
                                     
-                                    <p>In the cyclical systems of the biosphere, there’s never such thing as ‘final’.  Ecological cycles can be very short and they can be very long.   The Earth’s sequestration is an example of the latter– measured in hundreds of millions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it into another cycle.  In the way that plastic was a gift to our age, we can gift our carbon to another. </p>
+                            <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
+                            
+                            <p>However, it is in important to remember that in the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
+                                
+                            <p>Ecological cycles can be very short, long and very long.   The Earth’s sequestration is an example of the latter– measured in hundreds of millions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it into another cycle.  In the way that plastic was a gift to our age, we can gift our carbon to another. </p>
                             </div>
 
                             <div class="side2">
-                                <br><img src="webp/ayyew.webp" width="100%"></a>
+                                <br><img src="webp/ayyew.webp" width="100%"></a><br>
+                                <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
                             </div>
                         </div>	
                     
