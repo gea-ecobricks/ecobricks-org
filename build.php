@@ -469,12 +469,14 @@ Content Page template: v.1.0.0-->
                         
                          <p>Building with ecobricks is a significant responsibilty.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
                         <p>  Planning for the maintenance and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p><br>
-                        <p>Access our free Community Custodianship Agreementsfor Ecobrick Earth Parks and Buildings.</a>
+                        <p>Access our free Community Custodianship Agreementsfor Ecobrick Earth Parks and Buildings.</p>
+                        <br><p>
+                    
                         <a class="action-btn" href="/earth">🚀 Earth & Ecobrick Building</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page on the core concepts of Earth & Ecobrick Building.</a></p>
                         
                     
-                    </div></p>
+                    </div>
 
                     <div class="side2">
                         <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
@@ -488,16 +490,16 @@ Content Page template: v.1.0.0-->
 		<div class="side">
 	
 			<div id="side-module-desktop-mobile">
-				<img src="webp/earth-service-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building follows the Earth's example of carbon care">
-				<br><h4>Following the Earth's Example</h4>
-				<h5>Plastic Sequestration follows the Earth’s ancient example of compacting and securing carbon for the long-term.</h5><br>
+            <img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+				<br><h4>Good Use</h4>
+				<h5>Ecobrick building let's us put our plastic to good use in the short-term, while securing it out of industry and the biosphere for the long-term.</h5><br>
 				<a class="module-btn" href="/plastic">Learn More</a>
                 <br>
 			</div>  
             <div id="side-module-desktop-mobile">
-                <img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Ecobrick Sequestration</h4>
-                <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only eco<span class="eco-brick"> </span>bricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
+                <img src="webp/ten-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <h4>Plastic Sequestration</h4>
+                <h5>The GEA advocates ecobrick building to sequester plastic.  Only builds that follow best-practices, embody earth principles and use authenticated eco<span class="eco-brick"> </span>bricks sequester plastic.</h5><br>
                 <a class="module-btn" href="sequest.php">Learn More</a>
             </div>
 
