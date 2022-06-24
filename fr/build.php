@@ -70,7 +70,7 @@ Content Page template: v.1.0.0-->
                 <br><p><b>Very long-term</b><p>
                 <p>Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelyhood of plastic staying safe, secure and contained is much more likely than currently available alternatives.</p>
                 
-                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>
+                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>
                 <p style="font-size: 0.85em; margin-top:20px;">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
 </div>
 </div>
