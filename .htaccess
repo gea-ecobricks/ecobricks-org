@@ -91,13 +91,13 @@ Redirect /catalyst /catalyst.php
 Redirect /catalyst/ /catalyst.php
 
 
-Redirect /2021-regenreport /en/2021-regenreport.php
-Redirect /2021-regenreport/ /en/2021-regenreport.php
-Redirect /2021-regen-report /en/2021-regenreport.php
-Redirect /2021-regen-report/ /en/2021-regenreport.php
-Redirect en/2021-regen-report.php /en/2021-regenreport.php
+Redirect /2021-regenreport /en/regenreports.php
+Redirect /2021-regenreport/ /en/regenreports.php
+Redirect /2021-regen-report /en/regenreports.php
+Redirect /2021-regen-report/ /en/regenreports.php
+Redirect en/2021-regen-report.php /en/regenreports.php
 
-RedirectMatch "^/2021-regenreport\/?$" "/en/2021-regenreport.php"
+RedirectMatch "^/regenreports\/?$" "/en/regenreports.php"
 
 
 Redirect /coefficients /coefficients.php

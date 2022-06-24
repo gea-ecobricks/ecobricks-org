@@ -159,7 +159,7 @@ _END;?>
 
 .splash-sub {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: #D5D5D5;
+  color: #EEEDED;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
 }
