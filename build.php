@@ -39,7 +39,7 @@ Content Page template: v.1.0.0-->
 			
 			
 			<div class="page-paragraph">
-                        <p>That said, building with ecobricks, and the plastic they contain, is a big responsibility.   To make sure that our plastic is safe and <a href="sequest.php">sequestered</a> the Global Ecobrick Alliance (<a href="about.php">GEA</a>) has developed building recommendations, standards and principles principles to ensure your ecobrick applications are great over the short-term and the long.</p>
+                        <p>That said, building with ecobricks is a big responsibility.   To make sure that ecobricks and the plastic they contain are safe and secure the Global Ecobrick Alliance (<a href="about.php">GEA</a>) has developed building guidelines, standards and principles.  By following these best-practices, we can be sure our ecobrick applications keep plastic <a href="sequest.php">sequestered</a> over the short-term and the long.</p>
 
                         <!--<p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
 							
@@ -50,7 +50,7 @@ Content Page template: v.1.0.0-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Thinking Short and Long</h4>
+                    <h4>Thinking Short, Long and Very Long</h4>
                     <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
                     <br>
                     </div>
@@ -64,13 +64,14 @@ Content Page template: v.1.0.0-->
                 <p><b>Short-term Applications</b><p>
 
                 <p>Silicone or inner-tube-bands can be used as short-term, non-permanent attachment methods to create ecobrick applications that last for months and up to several years.</p>
-                <p> As short-term applications are not usually covered up, they are typically for indoor use, in order to prevent the UV photodegradation of the bottles.  Short term application are easier for people to make and accelerate the <a href="/mandalas">mandalic spread</a> of ecobricking. </p>
+                <p> As short-term applications are not usually covered up, they are typically for indoor use, in order to prevent the UV photodegradation of the bottles.  Short term application are easier for people to make and accelerate the <a href="/mandalas">mandalic spread</a> of ecobricking and the regenerative principles they embody. </p>
 
                 <br><p><b>Long-term Applications</b><p>
                 
                 <p>Earth and Ecobrick building techniques are used to create structures that can last years or decades (it is not uncommon for traditional constructions to last centuries!).  Earth mixes (i.e Cob (material), Wattle and daub, adobe) are used to lay ecobricks horizontally and completely cover them for full protection against all forms of degradation.</p>
-                <p>The main benefit of long-term applications is plastic sequestration – fully securing plastic from all forms of degradation for the long-haul.</p>
-                
+
+                <br><p><b>Very long-term</b><p>
+                <p>Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelyhood of plastic staying safe, secure and contained is much more likely than currently available alternatives.</p>
                 
                  
                 </div>
@@ -104,7 +105,7 @@ Content Page template: v.1.0.0-->
 
             <br>
 
-                <h5>ℹ️ Learn more how to make and store ecobricks properly: <a href="/how">How to make an ecobrick</a></h5>
+                <h5>ℹ️ Learn more how to make and store ecobricks properly: <a href="/how">10 Step Ecobricking Guide</a></h5>
 
          </div>
         </div>
@@ -147,8 +148,8 @@ Content Page template: v.1.0.0-->
                     <br>
                     
 
-                    <a class="action-btn" href="/modules">🚀 Learn more & make</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Milstein modules.</a></p>
+                    <a class="action-btn" href="/modules">🚀 Ecobrick Milstein Modules</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about the various horizonal ecobrick module variations.</a></p>
 
                     
 				</div>
@@ -201,7 +202,7 @@ Content Page template: v.1.0.0-->
                     <br>
                     
 
-                    <a class="action-btn" href="/dms">🚀 Learn More & Make</a>
+                    <a class="action-btn" href="/dms">🚀 Ecobrick LEGO Modules</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Dieleman modules.</a></p>
 
             </div>
@@ -247,10 +248,8 @@ Content Page template: v.1.0.0-->
                     <br>
                     
 
-                    <a class="action-btn" href="/dms">🚀 Learn More & Make</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about earth and ecobrick building.</a></p>
-
-
+                    <a class="action-btn" href="/earth-methods">🚀 Earth Building Methods</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page on earth and ecobrick building techniques.</a></p>
                 </div>
                 </div>
 
@@ -314,7 +313,7 @@ Content Page template: v.1.0.0-->
                     <br>
                     
 
-                    <a class="action-btn" href="/openspace">🚀 Learn More & Make</a>
+                    <a class="action-btn" href="/openspace">🚀 Ecobrick Open Spaces</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ecobrick Open Spaces.</a></p>
 
                   
@@ -390,8 +389,8 @@ Content Page template: v.1.0.0-->
                     <br>
                     
 
-                    <a class="action-btn" href="/earth">🚀 Learn More & Make</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Earth & Ecobrick Building.</a></p>
+                    <a class="action-btn" href="/earth">🚀 Earth & Ecobrick Building</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page on the core concepts of Earth & Ecobrick Building.</a></p>
 
             </div>
             </div>
@@ -476,6 +475,7 @@ Content Page template: v.1.0.0-->
                         
                          <p>Building with ecobricks is a significant responsibilty.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
                         <p>  Planning for the maintence and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p><br>
+                        <p>Access our free <a href="/earth">Community Custodianship Agreements</a> for Ecobrick Earth Parks and Buildings.</a>
                         
                     
                     </div></p>
@@ -484,20 +484,6 @@ Content Page template: v.1.0.0-->
                         <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                     </div>
                 </div>
-                <p><b>Ecobrick Building Custodianship Agreements</b></p>
-                        <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the constudians of the site.  These terms of transfer agreements must lay out the responsibilities for the construction's maintenance and end as well as the responsibilities that the site's custodian aquires for the construction's ecobricks.  This agreement must account for the eventual removal and resuse of the ecobricks.</p>
-                        <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement.  Download the PDF and ODG versions here:</p>
-                    <ul>
-                        <li>Sample GEA Earth & Ecobrick Building Custodianship Agreement
-                    <a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ENG.pdf" target="_blank"> ENGLIGH - PDF - 500kb</a> </p></li>
-                    <li>Template GEA Earth & Ecobrick Building Custodianship Agreement
-                    <a href="https://files.mandala.team/s/xXWSjDiqHDnXMJq" target="_blank">ENGLIGH - ODG (editable) - 100kb</a> </p></li>
-                    <li>Sample GEA Earth Building Terms of Transfer<a href="https://www.ecobricks.org/wp-content/uploads/2019/10/GEA-Earth-Building-Terms-of-Transfer-ID.pdf" target="_blank"> INDONESIAN - PDF</a></li>
-                    <li>Template GEA Earth Building Terms of Transfer Agreement<a href="https://files.mandala.team/s/ERj6ya4N8seRsGL" target="_blank"> INDONESIAN - ODG (editable) - 2.1 MB </a></li>
-					<br>
-            </div>
-            
-
 
         </div>
 	
@@ -505,15 +491,15 @@ Content Page template: v.1.0.0-->
 		<div class="side">
 	
 			<div id="side-module-desktop-mobile">
-				<img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+				<img src="webp/earth-service-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
 				<br><h4>Following the Earth's Example</h4>
-				<h5>Plastic Sequestration follows the Earth’s ancient example of compacting and securing carbon.</h5><br>
+				<h5>Plastic Sequestration follows the Earth’s ancient example of compacting and securing carbon for the long-term.</h5><br>
 				<a class="module-btn" href="/plastic">Learn More</a>
                 <br>
 			</div>  
             <div id="side-module-desktop-mobile">
-                <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make community centers">
-                <h4>Ecobricks</h4>
+                <img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make community centers">
+                <h4>Ecobrick Sequetration</h4>
                 <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only eco<span class="eco-brick"> </span>bricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
                 <a class="module-btn" href="sequest.php">Learn More</a>
             </div>
@@ -529,8 +515,8 @@ Content Page template: v.1.0.0-->
 
             <div id="side-module-desktop-mobile">
 				<img src="webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
-				<h4>Circular & Spiral Design</h4>
-				<h5>Plastic Sequestration follows the principles of cyclical spiral design.</h5><br>
+				<h4>Circular Design</h4>
+				<h5>Ecobrick applications follows the principles of circular design to put our plastic into indefinite greening cycles of reuse.</h5><br>
 				<a class="module-btn" href="/circular">Learn More</a>
 			</div>
 
