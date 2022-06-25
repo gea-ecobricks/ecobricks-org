@@ -17,9 +17,13 @@ _END;?>
 
 <link rel="preload" as="image" href="https://ecobricks.org/webp/faq-bottom.webp">
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/svgs/cloud-back.svg">
+<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop?v1">
 <link rel="preload" as="image" href="https://ecobricks.org/webp/faq-top.webp">
+
+
+
 <!--This loads CSS specific to this page
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/cloud-back.svg">
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/what.css?v1.1">-->
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
@@ -31,7 +35,7 @@ _END;?>
 <STYLE>
 
 #clouds {
-	background: url(http://ecobricks.org/svgs/cloud-back.svg) center top;
+	background: url(https://www.ecobricks.org/svgs/top-clouds-animated-desktop?v1) center top;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -203,6 +207,9 @@ button:hover {
   padding: 6px;
   border-radius: 15px;
   margin-bottom: 20px;
+  border-style: dashed;
+  border-color: grey;
+  border-width: 1px;
 
 }
 

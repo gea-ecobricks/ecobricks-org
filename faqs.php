@@ -22,7 +22,7 @@ Content Page template: v.1.0.0-->
 		<div id="header-content-block">
 			<div id="raised-text">
 					<h1>Frequently Asked Questions</h1>
-			<h5>🤔 You've got questions about ecobricks.  We've got answers.💡</h5></div>
+			<h5>Our team has been working with ecobricks and plastic for the last decade. Here's our answers to the common questions about the two.</h5></div>
 		</div>
 
 
@@ -39,8 +39,7 @@ Content Page template: v.1.0.0-->
 		<div id="faq-content-block-1">
 			
 				
-				<h2>Our team has been working on ecobricks issues for the last decade.</h2>
-				<p>  We've organized short answers to the most common questions in four main categories:  </p>
+				<h2>  </p>
 
 		
 		</div>-->
