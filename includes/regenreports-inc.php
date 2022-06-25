@@ -7,7 +7,7 @@ echo <<<_END
 
 <!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
 
-<html lang="$lang">
+<html lang="$lang"> 
 
 _END;?>
 

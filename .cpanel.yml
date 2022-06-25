@@ -45,7 +45,6 @@ deployment:
     - /bin/cp catalyst.php $DEPLOYPATH
     - /bin/cp coefficients.php $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
     - /bin/cp drop-off.php $DEPLOYPATH
