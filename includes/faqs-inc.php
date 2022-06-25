@@ -41,7 +41,7 @@ _END;?>
     width: 100%;
 	height: 70vh;
    /* min-height: 500px;*/
-	background-color: #00ffff;
+	background-color: #19E8FF;
     display: flex;
     align-items: flex-end;
     margin-top: 0px;
