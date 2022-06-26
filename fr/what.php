@@ -11,7 +11,7 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Les écobricks empêchent le plastique de devenir un déchet, un déchet, un recyclage, une incinération ou une pollution. Les briques écologiques permettent une séquestration du plastique sans capital, zéro déchet, net zéro.</div>
+		<div class="splash-heading">Les écobricks suivent l'exemple de la terre en matière de protection du carbone pour empêcher le plastique de devenir un déchet, d'être recyclé ou incinéré.</div>
 		
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
@@ -44,8 +44,8 @@
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Ecobricking Standards</h4>
-						<h5>The GEA maintains standards for ecobricking that are divided into six categories</h5>
+					<h4>Normes d'écobrique</h4>
+					<h5>La GEA maintient des normes pour l'écobrique qui sont divisées en six catégories</h5>
 					</div>
 					
 
@@ -57,10 +57,10 @@
 					<br>
 					<div class="row">
 						<div class="main2">
-							<p>The <a href="about.php">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition.php">petro-capital transition</a> and <a href="sequest.php">plastic sequestration.</a></p>
-				
+						<p>La <a href="about.php">Global Ecobrick Alliance (GEA)</a> préconise l'écobricking comme moyen de <a href="transition.php">transition pétro-capitale</a> et <a href="sequest.php">séquestration plastique.</a></p>
+
 						<p>
-						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics and the<a href="/plastic">Earth’s example of greening the biosphere</a>.</p>
+						La GEA maintient des normes pour l'écobrique qui sont divisées en six catégories basées sur les six <a href="sequest.php">critères de la GEA pour la séquestration du plastique</a>. Les normes d'écobriques de la GEA garantissent que les critères de séquestration du plastique ont été respectés et que notre écobriking est conforme aux principes de l'éthique terrestre et à l'<a href="/plastic">exemple de la Terre pour verdir la biosphère</a>.< /p>
 						</div>
 						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="100%">
 						</div>
