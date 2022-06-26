@@ -6,7 +6,7 @@ Content Page template: v.1.0.0-->
 <?php require_once ("includes/faqs-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 
@@ -14,7 +14,9 @@ Content Page template: v.1.0.0-->
 
 		<div id="cloud-box">
 			<div id="clouds"><img src="http://ecobricks.org/webp/faq-top.webp?v1.0" width="100%"></div>
-			<div id="cloud-banner"><img src="http://ecobricks.org/webp/faq-bottom.webp" width="100%"></div>
+			<div id="cloud-banner"><img src="http://ecobricks.org/webp/faq-bottom.webp" width="100%"><!--</div>
+			<div id="page-header">Frequently Asked Questions</div>
+			<div id="page-header-sub">You've got questions about ecobricks. We've got answers!</div>-->
 		</div>
 
 		<div id="header-content-block">

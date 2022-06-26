@@ -1,4 +1,4 @@
-<!--PAGE LANGUAGE:  ENGLISH
+<!--PAGE LANGUAGE:  INDONESIA
 Content Page template: v.1.0.0-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
@@ -6,7 +6,7 @@ Content Page template: v.1.0.0-->
 <?php require_once ("includes/faqs-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 
@@ -15,12 +15,12 @@ Content Page template: v.1.0.0-->
 		<div id="cloud-box">
 			<div id="clouds"><img src="http://ecobricks.org/webp/faq-top.webp?v1.0" width="100%"></div>
 			<div id="cloud-banner"><img src="http://ecobricks.org/webp/faq-bottom.webp" width="100%"></div>
-		</div>
+				</div>
 
 		<div id="header-content-block">
 			<div id="raised-text">
-					<h1>Frequently Asked Questions</h1>
-			<p>Our team has been working with ecobricks and plastic for the last decade. Here's our answers to the common questions about each.</p></div>
+            <h1>Pertanyaan Umum</h1>
+<p>Tim kami telah bekerja dengan ecobrick dan plastik selama satu dekade terakhir. Inilah jawaban kami atas pertanyaan umum tentang masing-masing.</p></div>
 		</div>
 
 
@@ -41,8 +41,8 @@ Content Page template: v.1.0.0-->
 				
 				
 				<a name="general"></a>
-				<h4>General Questions</h4>
-				<p>The basics about plastic and ecobricks.</p>
+				<h4>Pertanyaan Umum</h4>
+<p>Dasar-dasar tentang plastik dan ecobrick.</p>
 				
 
 				<button onclick="general()" class="toggle" id="toggle-hide">⬆ Hide</button>
@@ -51,21 +51,21 @@ Content Page template: v.1.0.0-->
 				<hr>
 				<h6>
 					<ul>
-						<li><a href="#plastic">What is plastic exactly?</a></li>
-						<li><a href="#concern">Why should I be concerned about my plastic?</a></li>
-						<li><a href="#worry">But isn't there more important stuff to worry about?</a></li>
-						<li><a href="#dangerous">How is plastic troublesome and dangerous?</a></li>
-						<li><a href="#what">So what is an ecobrick exactly?</a></li>
-						<li><a href="#why">Why make ecobricks?</a></li>
-						<li><a href="#how">How to make an ecobrick?</a></li>
-						<li><a href="#build">What can you build with ecobricks?</a></li>
-						<!--<li><a href="#build">How to start an Ecobrick Project?</a></li>-->
-						<li><a href="#principles">What makes ecobricks different from other plastic stuff?</a></li>
-						<li><a href="#dumping">Why not just landfill or dump my plastic?</a></li>
-						<li><a href="#burning">Why not just burn or send my plastic to be incinerated?</a></li>
-						<li><a href="#recycled">Why not just recycle my plastic?</a></li>
-						<li><a href="#sequestration">So how is ecobricking different from recycling, dumping or burning?</a></li>
-						<li><a href="#keen">I am keen to get going with ecobricking! What's the best way to start?</a></li>
+                    <li><a href="#plastic">Apa sebenarnya plastik itu?</a></li>
+                    <li><a href="#concern">Mengapa saya harus khawatir dengan plastik saya?</a></li>
+                    <li><a href="#worry">Tapi tidak adakah hal yang lebih penting untuk dikhawatirkan?</a></li>
+                    <li><a href="#dangerous">Bagaimana plastik menyusahkan dan berbahaya?</a></li>
+                    <li><a href="#what">Jadi sebenarnya apa itu ecobrick?</a></li>
+                    <li><a href="#why">Mengapa membuat ecobrick?</a></li>
+                    <li><a href="#how">Bagaimana cara membuat ecobrick?</a></li>
+                    <li><a href="#build">Apa yang dapat Anda bangun dengan ecobrick?</a></li>
+                    <!--<li><a href="#build">Bagaimana cara memulai Proyek Ecobrick?</a></li>-->
+                    <li><a href="#principles">Apa yang membuat ecobrick berbeda dari bahan plastik lainnya?</a></li>
+                    <li><a href="#dumping">Mengapa tidak menimbun atau membuang plastik saya saja?</a></li>
+                    <li><a href="#burning">Mengapa tidak membakar atau mengirim plastik saya untuk dibakar?</a></li>
+                    <li><a href="#recycled">Mengapa tidak mendaur ulang plastik saya saja?</a></li>
+                    <li><a href="#sequestration">Jadi, apa bedanya ecobrick dengan daur ulang, pembuangan, atau pembakaran?</a></li>
+                    <li><a href="#keen">Saya tertarik untuk memulai ecobrick! Apa cara terbaik untuk memulai?</a></li>
 					</ul>
 					<br>
 				</h6></div>
@@ -78,8 +78,8 @@ Content Page template: v.1.0.0-->
 			<div id="faq-content-block" class="reddish">
 
 				<a name="concerns"></a>
-				<h4>Ecobrick Concerns</h4>
-				<p>The worries and critiques.</p>
+				<h4>Kekhawatiran Ecobrick</h4>
+                <p>Kekhawatiran dan kritik.</p>
 			
 				<button onclick="concerns()" class="toggle" id="toggle-show">⬇ Show</button>
 
@@ -89,13 +89,13 @@ Content Page template: v.1.0.0-->
 					<h6>
 
 					<ul>
-						<li><a href="#dangerous-2">How does plastic get to be dangerous and toxic?</a></li>
-						<li><a href="#matter">How can ecobricks be a final solution for plastic? Won't the plastic escape one day no matter what we do?</a></li>
-						<li><a href="#transition">Don't ecobricks just encourage people to consume more plastic?</a></li>
-						<li><a href="#sequest1">I've heared that ecobricks can leach poisons out into the environment.  Is it true?</a></li>
-						<li><a href="#circular1">How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?</a></li>
-						<li><a href="#fire">What about Ecobricks and fire— isn't it dangerous? </a></li>
-						<li><a href="#circular3">But isn't building with ecobricks just delaying the problem?  How is this a final solution for plastic?</a></li>
+                    <li><a href="#dangerous-2">Bagaimana plastik bisa menjadi berbahaya dan beracun?</a></li>
+                    <li><a href="#matter">Bagaimana Ecobrick bisa menjadi solusi akhir untuk plastik? Tidakkah plastik akan terlepas suatu hari tidak peduli apa yang kita lakukan?</a></li>
+                    <li><a href="#transition">Bukankah ecobrick hanya mendorong orang untuk mengonsumsi lebih banyak plastik?</a></li>
+                    <li><a href="#sequest1">Saya pernah mendengar bahwa ecobrick dapat mengeluarkan racun ke lingkungan. Benarkah?</a></li>
+                    <li><a href="#circular1">Bagaimana Ecobrick bisa menjadi solusi akhir untuk plastik? Tidakkah plastik akan terlepas suatu hari tidak peduli apa yang kita lakukan?</a></li>
+                    <li><a href="#fire">Bagaimana dengan Ecobrick dan api— bukankah berbahaya? </a></li>
+                    <li><a href="#circular3">Tetapi bukankah membangun dengan ecobrick hanya menunda masalah? Bagaimana ini solusi akhir untuk plastik?</a></li>
 						
 					</ul>
 					<br>
@@ -109,8 +109,8 @@ Content Page template: v.1.0.0-->
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="greenish">
 			<a name="building-q"></a> 
-			<h4>Building Questions</h4>
-			<p>All about eco<span class="eco-brick"> </span>bricks applications.</p>
+			<h4>Membangun Pertanyaan</h4>
+            <p>Semua tentang eco<span class="eco-brick"> </span>aplikasi bata.</p>
 			
 				<button onclick="building()" class="toggle" id="toggle-show2">⬇ Show</button>
 				<div id="building-questions">
@@ -118,16 +118,16 @@ Content Page template: v.1.0.0-->
 					<h6>
 			
 				<ul>
-					<li><a href="#few">What can I build with a few ecobricks?</a></li>
-					<li><a href="#dozens">What can I build with a dozen ecobricks?</a></li>
-					<li><a href="#hundreds">What can I build with hundreds of ecobricks?</a></li>
-					<li><a href="#thousands">What can I build with thousands of ecobricks?</a></li>
-					<li><a href="#tens-thousands">What can I build with tens of thousands of ecobricks?</a></li>
-					<li><a href="#circular">What happens when a module comes to it's end?</a></li>
-					<li><a href="#earth">What exactly is Earth and Ecobrick building?</a></li>
-					<li><a href="#earth-methods">How to build with Ecobricks and Earth?</a></li>
-					<li><a href="#fire">What about Ecobricks and fire— isn't it dangerous? </a></li>
-					<li><a href="#circular3">But isn't building with ecobricks just delaying the problem?  How is this a final solution for plastic?</a></li>
+                <li><a href="#few">Apa yang dapat saya bangun dengan beberapa ecobrick?</a></li>
+                <li><a href="#dozens">Apa yang bisa saya bangun dengan selusin ecobrick?</a></li>
+                <li><a href="#hundreds">Apa yang dapat saya bangun dengan ratusan ecobrick?</a></li>
+                <li><a href="#thousands">Apa yang dapat saya bangun dengan ribuan ecobrick?</a></li>
+                <li><a href="#tens-thousands">Apa yang dapat saya bangun dengan puluhan ribu ecobrick?</a></li>
+                <li><a href="#circular">Apa yang terjadi ketika sebuah modul berakhir?</a></li>
+                <li><a href="#earth">Apa sebenarnya bangunan Earth dan Ecobrick itu?</a></li>
+                <li><a href="#earth-methods">Bagaimana cara membangun dengan Ecobrick dan Earth?</a></li>
+                <li><a href="#fire">Bagaimana dengan Ecobrick dan api— bukankah berbahaya? </a></li>
+                <li><a href="#circular3">Tetapi bukankah membangun dengan ecobrick hanya menunda masalah? Bagaimana ini solusi akhir untuk plastik?</a></li>
 				</ul>
 				<br><br>
 				</h6>
