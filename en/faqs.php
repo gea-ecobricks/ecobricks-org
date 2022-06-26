@@ -235,7 +235,7 @@ Content Page template: v.1.0.0-->
 						<div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
 						<div id="top-link">Back to <a href="#general">General Questions</a></div>
 					</div>
-					<div class="faq-image"><img src="webp/compacted-carbon.webp" alt="compacted plastic eco brick sequestration">
+					<div class="faq-image"><img src="webp/compacted-carbon.webp" alt="compacted plastic eco brick sequestration" loading="lazy">
 				</div>
              </div>		
          </div>
@@ -249,7 +249,7 @@ Content Page template: v.1.0.0-->
 							   <div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
-						   <div class="faq-image"><img src="webp/plastic-origins.webp"></div>
+						   <div class="faq-image"><img src="webp/plastic-origins.webp" alt="eco bricks and the orgins of plastic" loading="lazy"></div>
 					</div>
 					
 				</div>
@@ -264,7 +264,7 @@ Content Page template: v.1.0.0-->
 							   <div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
-						   <div class="faq-image"><img src="webp/petro-capital-age.webp"></div>
+						   <div class="faq-image"><img src="webp/petro-capital-age.webp" alt="petro capital transition" loading="lazy"></div>
 					</div>
 					
 				</div>
@@ -278,7 +278,7 @@ Content Page template: v.1.0.0-->
 									<div class="faq-link"><h5>Learn more: <a href="/poison">The Dangers of Plastic</h5></a></div>
 									<div id="top-link">Back to <a href="#general">General Questions</a></div>
 							   </div>
-							   <div class="faq-image"><img src="pngs/fire.png"></div>
+							   <div class="faq-image"><img src="pngs/fire.png" alt="eco bricks and fire safty.  Make sure ecobricks are used safely" loading="lazy"></div>
 						</div>
 						
 					</div>
@@ -296,7 +296,7 @@ Content Page template: v.1.0.0-->
                     <div class="faq-link"><h5>Learn more: <a href="what.php">Ecobrick Basics</h5></a></div>   
 					<div id="top-link">Back to <a href="#general">General Questions</a></div>                 
                 </div>
-                <div class="faq-image"><img src="webp/faqs-400px.webp" alt="What is an eco brick?"></div>
+                <div class="faq-image"><img src="webp/faqs-400px.webp" alt="What is an eco brick?" loading="lazy"></div>
             </div>
 			
         </div>
@@ -429,7 +429,7 @@ Content Page template: v.1.0.0-->
 
 				<div class="faq-link"><h5>Learn more: <a href="/sequest">The Principles of Plastic Sequestration</h5></p></div>                    
 			</div>
-			<div class="faq-image"></div>
+			<div class="faq-image"><img src="webp/floating-dial-500px.webp" alt="Eco bricks are beyond zero waste"></div>
 		</div>
 		<div id="top-link"><a href="#general">Back to General Questions</a></div>
 	</div>
@@ -445,7 +445,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/how">How to Make an Ecobrick</h5></a></div>                    
 					<div id="top-link">Back to <a href="#general">General Questions</a></div>
 				</div>
-			<!--<div class="faq-image"></div>-->
+			<div class="faq-image"><img src="pngs/howmuchconsumption.png" alt="Eco bricks are an alternative to recycling."></div>
 		</div>
 	</div>
 
@@ -637,15 +637,15 @@ Content Page template: v.1.0.0-->
 			<p><a name="circular"></a></p>
 			<div class="faq-box">
 				<div class="faq-texts">
-					<div class="faq-header"><h4>What happens when a module comes to it's end?</h4></div>
+					<div class="faq-header"><h4>What happens when an ecobrick application comes to it's end?</h4></div>
 					
-					<p>Good question!  It's important to think about the next life of things we make-- what will happen to them when they come to their end.  We provide guidelines to make sure all ecobrick applications-- like modules-- have their next life built in.  By making modules with silicione or tire-bands, ecobricks can be removed from the module without damaging them.  Basically, we're leveraging the long lasting properties of plastic to make our design circular.  That means the module can be disbanded, rebuilt, repaired... or the ecobricks can be taken and used for an earth build.
+					<p>Good question!  It's important to think about the next life of things we make-- what will happen to them when they come to their end.  We provide guidelines to make sure all ecobrick applications-- from modules to earth build-- have their next life built in.  By making modules with silicione or tire-bands, ecobricks can be removed from the module without damaging them.  Basically, we're leveraging the long lasting properties of plastic to make our design circular.  That means the module can be disbanded, rebuilt, repaired... or the ecobricks can be taken and used for an earth build.
 					</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/circular">Ecobrick Spiral & Circular Design</a></h5></div>                    
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="webp/spiral-circular-400px.webp" width="400px" alt="Spiral & Circular eco brick design applies to a module"></div>
+				<div class="faq-image"><img src="svgs/circular-applications.svg" width="400px" alt="Spiral & Circular eco brick design applies to a module" ></div>
 			</div>
 			
 		</div>
@@ -709,7 +709,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</a></h5></p></div>   
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                 
 				</div>
-				<div class="faq-image"><img src="webp/circular.webp" alt="eco brick circular design"></div>
+				<div class="faq-image"><img src="webp/spiral-circular-400px.webp" alt="eco brick circular design"></div>
 			</div>
 			
 		</div>
@@ -922,7 +922,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="https://gobrik.com/#hubs" target="_blank">Community Hub Map</h5></a></div>                    
 						<div id="top-link">Back to <a href="#misc">More Questions</a></div>
 				</div>
-				<!--<div class="faq-image"></div>-->
+				<div class="faq-image"><img src="webp/brikmarket-400px.webp" alt="eco brick making"></div>
 			</div>
 		</div>
 	
