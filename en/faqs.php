@@ -443,10 +443,10 @@ Content Page template: v.1.0.0-->
 
 				<p>Start by writing down today's date.  Then, save your plastic for the next month!  Every single piece that comes into your household, be sure that it doesn't leave-- but instead gets cleaned, dried and placed in a special bin.  After 30 days, weigh all the plastic that your household has consumed, transfer it to another bin and... begin ecobricking (see the how to ecobrick).  If you don't finish all the plastic in one sitting that's ok.  Keep putting the plastic you consume in bin #1 and every month transfer your ecobrickable plastic into bin #2.  This way you're not only efficiently ecobricking, you're tracking your consumption, plastic reduction and plastic transition.  A year from now, keep track of a month of your plastic consumption.  Note the difference!</p>
 
-					<div class="faq-link"><h5>Learn more: <a href="/how">How to Make an Ecobrick</h5></a></div>                    
-					<div id="top-link">Back to <a href="#general">General Questions</a></div>
-				</div>
-			<div class="faq-image"><img src="webp/weigh-plastic.webp" alt="Eco bricks are an alternative to recycling. Start by plastic tracking."></div>
+				<div class="faq-link"><h5>Learn more: <a href="/how">How to Make an Ecobrick</h5></a></div>                    
+				<div id="top-link">Back to <a href="#general">General Questions</a></div>
+			</div>
+			<div class="faq-image"><img src="webp/weigh-plastic.webp" style="width: 70% !important;"  alt="Eco bricks are an alternative to recycling. Start by plastic tracking."></div>
 		</div>
 	</div>
 
@@ -906,10 +906,10 @@ Content Page template: v.1.0.0-->
 
 
 
-    <div id="content-block">
+<div id="content-block">
     	<div id="block-border" class="greyish">
-		<div id="faq-banner" class="orangeish"><h3>More Questions</h3></div>
-	</div>
+			<div id="faq-banner" class="orangeish"><h3>More Questions</h3></div>
+		</div>
 
 
 		<div class="faq">
