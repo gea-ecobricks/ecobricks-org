@@ -32,14 +32,14 @@ Content Page template: v.1.0.0-->
 <!-- QUESTIONS CONTENT -->
 
 
-<a name="top"></a>
-<div id="main-content-faq">
+		<a name="top"></a>
+		<div id="main-content-faq">
 
 
 		<!--GENERAL QUESTION-->
 		
-		<div id="block-border" class="greyish">
-			<div id="faq-content-block" class="grey">
+			<div id="block-border" class="greyish">
+				<div id="faq-content-block" class="grey">
 				
 				
 				<a name="general"></a>
@@ -1036,14 +1036,28 @@ Content Page template: v.1.0.0-->
 				<div class="faq-image"><img src="webp/arc-green-popper.webp" alt="green cdn service" loading="lazy"></div>
 			</div>
 		</div>
+
+		<div class="faq">
+			<p><a name="cigbrick"></a></p>
+			<div class="faq-box">
+				<div class="faq-texts">
+					<div class="faq-header"><h4>What about cigarette filters— can they be ecobricked?</h4></div>
+				
+					<p>YES!  Cigarette filters are made from plastic, and although small, are one of the biggest source of plastic pollution.  We've thus come up with a special technique and ecobricking just for cigarette butts.  When you're done smoking, simply peel of the paper and remove the ash (this can be safely discarded).  Then, place the filter into your ecobrick.  If you're really keen, you can make an ecobrick entirely out of cigarette filters.  We call this a "cigbrick"!</p>
+
+					<div class="faq-link"><h5>Learn more: <a href="/cigbrick">Cigbricks</h5></a>
+					</div>                    
+					<div id="top-link">Back to <a href="#misc">More Questions</a></div>
+				</div>
+				<div class="faq-image"><img src="svgs/Cigbrick.svg" alt="Cigbricks eco brick" loading="lazy"></div>
+			</div>
+			
+		</div>	
 	</div>
 
-	
+
 
 	<br><br><br>
-
-
-
 
 	<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="grey">
@@ -1061,7 +1075,7 @@ Content Page template: v.1.0.0-->
 				<h5>Need to chat about your idea or question? Join our Mattermost <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">ecobricker community</a> and bring it up there!</h5><br><br>
 		</div>
 	</div>
-	</div>
+</div>
 </div>
 </div>
 
