@@ -342,11 +342,12 @@ Content Page template: v.1.0.0-->
 				
 				<p>So many things!  Ecobricks can be connected with tire bands, silicone, and cob to build furniture, gardens, green spaces and more. Ecobricks are being used in different ways around the world. Some households make a few modules for sitting stools while some cafes deploy hundreds to make their interactive co-working spaces. The ultimate way to build with ecobricks though is with earth.  Ecobrick and earth building is ideal for making parks, gardens and green spaces of all kinds for your community.  Some folks build simple circle benches and plant a tree inside, while others build shelters and structures.  Only your imagination is the limit! </p>
 
-				<div class="faq-link"><h5>Learn more: <a href="build.php">General Ecobrick Applications</h5></a></div>                    
+				<div class="faq-link"><h5>Learn more: <a href="build.php">General Ecobrick Applications</h5></a></div>         
+				<div id="top-link">Back to <a href="#general">General Questions</a></div>           
 			</div>
 			<div class="faq-image"><img src="webp/build-blue-450px.webp" alt="Eco bricks can build all sorts of stuff"></div>
 		</div>
-		<div id="top-link">Back to <a href="#general">General Questions</a></div>
+		
 	</div>
 
 	<div class="faq">
@@ -516,7 +517,7 @@ Content Page template: v.1.0.0-->
 			<p><a name="sequest1"></a></p>
 			<div class="faq-box">
 				<div class="faq-texts">
-					<div class="faq-header"><h4> I've heard that ecobricks can leach poisons out into the environment.  Is it true?</h4></div>
+					<div class="faq-header"><h4>I've heard that ecobricks can leach poisons out into the environment.  Is it true?</h4></div>
 					
 					<p>Yes!  If you were to set an ecobrick on fire, leave it in the sun, or boil it in a bucket of water, it certainly would leach poisons.  Just like pretty much anything made from plastic!  In fact, anything used the wrong way can be dangerous.  This is he point of ecobricking: to secure plastic and keep it safe.  Ecobricking is done based on the knowledge that plastic is susceptible to degradation and leaching to the extent that its surface area is exposed to the elements.  When we pack plastic densely into a bottle we reduce the net-surface area a thousand-fold.  Then, when we put ecobricks to use in applications that cover and protect the plastic, the danger of leaching is near nil!  Oh... and don't forget, by not recycling plastic we avoid all the carbon that would be released industrially!</p>
 
@@ -879,7 +880,7 @@ Content Page template: v.1.0.0-->
 						</div> 
 						<div id="top-link">Back to <a href="#gobrik-q">GoBrik Questions</a></div> 
 					</div>   
-					<div class="faq-image"><img src="webp/brk-cascade.webp" width="80%" alt="various eco bricks cascading" loading="lazy"></div>
+					<div class="faq-image"><img src="webp/brk-cascade.webp" width="60%" alt="various eco bricks cascading" loading="lazy"></div>
 				</div>
 				
 			</div>
@@ -915,13 +916,16 @@ Content Page template: v.1.0.0-->
 			<p><a name="dropoff"></a></p>
 			<div class="faq-box">
 				<div class="faq-texts">
-					<div class="faq-header"><h4>How can I drop off my completed ecobricks?</h4></div>
+					<div class="faq-header"><h4>How can I drop off my completed ecobricks to a community project?</h4></div>
 					
-					<p>Before contributing your ecobricks to a community project, it's essential to make sure your ecobricks are high quality-- no one wants bottles filled with loose dirty plastic!  It's good to follow the GEA best practices.  It's even better to get your ecobricks first authenticated by peers-- you can do that on our GoBrik app.  When your ecobricks are ready, look for a community ecobrick hub near you.  We've got a searchable map on our GoBrik app and a marketplace where you can search for ecobrick requests.<br><br>
-						
-					<b>IMPORTANT:</b> Remember that ecobricks are all about taking personal responsibility for our plastic-- not a fancy way to get rid of it!  Putting your own ecobricks to use in your own projects is the essence of the movement.  Of course, more and more there's bigger ecobrick building projects happening...</p>
+					<p>Remember that ecobricks are all about taking personal responsibility for our plastic and not another way to dispose of it.  Putting your own ecobricks to use in your own projects is the essence of the movement.  Of course, more and more ecobrick building projects happening that need ecobrick contributions.</p>
+					
+					<p>Before contributing your ecobricks to a community project, it's essential to make sure your ecobricks are high quality-- no one wants bottles filled with loose dirty plastic!  B sure to follow the <a href="about.php">GEA best practices</a>.  Even better: get your ecobricks authenticated. You can do that by logging your ecobricks on our GoBrik app, where they are validated through a peer review process.</p>
+					<p>When your ecobricks are ready, look for a community ecobrick hub near you that is taking ecobricks.  To help you connect with community hubs and projects we maintain a Brik Market on the GoBrik app.  Here you can post your ecobricks to see if anyone needs them, or find people looking for them.<br><br>
 	
-					<div class="faq-link"><h5>Learn more: <a href="https://gobrik.com/#hubs" target="_blank">Community Hub Map</h5></a></div>                    
+					<div class="faq-link"><h5>Learn more: <a href="dropoff.php">About the Brik Market</h5></a></div> 
+					<div class="faq-link"><h5>Launch: <a href="https://gobrik.com/#market " target="_blank">The Brik Market</h5></a></div>
+					                  
 						<div id="top-link">Back to <a href="#misc">More Questions</a></div>
 				</div>
 				<div class="faq-image"><img src="webp/brikmarket-400px.webp" alt="eco brick making" loading="lazy"></div>
@@ -934,9 +938,12 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How can I get ecobricks for my project?</h4></div>
 					
-					<p>It's important to remember that ecobricks aren't 'bricks' in the tradition sense of the word.  If you're keen to build something, in most cases your better off using normal bricks and construction techniques!  But if you're keen to build a space for your community, you can set yourself up as an Ecobrick Hub-- where folks drop off their ecobricks to help you with your project.</p>
+					<p>It's important to remember that ecobricks aren't 'bricks' in the traditional sense of the word.  The making of ecobricks and building with them is a fundamentally collaborative process.  In fact, ff you're keen to build a normal building for yourself, in most cases your better off using normal bricks and construction techniques.  Of course, if you're keen to build a space for your community, you can set yourself up as an Ecobrick Hub-- where folks drop off their ecobricks to help you with your project.</p>
+					<p>To faciliate the sourcing of ecobricks from your community for projects, we maitain the Brik Market.  There you can post your requests for ecobricks-- while specifying the specifics of the ecobricks you require.</p>
 	
-					<div class="faq-link"><h5>Learn more: <a href="https://gobrik.com/#hubs" target="_blank">Community Hub Map</h5></a></div>                    
+					<div class="faq-link"><h5>Learn more: <a href="dropoff.php">About the Brik Market</h5></a></div> 
+					<div class="faq-link"><h5>Launch: <a href="https://gobrik.com/#market " target="_blank">The Brik Market</h5></a></div>
+					                  
 					<div id="top-link">Back to <a href="#misc">More Questions</a></div>
 				</div>
 				<div class="faq-image"><img src="webp/various-briks-400px.webp" alt="eco brick making" loading="lazy"></div>
@@ -1026,9 +1033,9 @@ Content Page template: v.1.0.0-->
 
 							<div class="faq-link"><h5>Learn more: <a href="arc.php">Arc CDN</h5></a></div>   
 							<div id="top-link">Back to <a href="#misc">More Questions</a></div>                
-						</div>
-						<div class="faq-image"><img src="webp/arc-green-popper.webp" alt="green cdn service" loading="lazy"></div>
 						
+						<div class="faq-image"><img src="webp/arc-green-popper.webp" alt="green cdn service" loading="lazy"></div>
+						</div>
 					</div>
 
 				</div>
@@ -1045,11 +1052,11 @@ Content Page template: v.1.0.0-->
 			<h5>In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:  </h5>
 		
 				<h6><ul>
-					<li><b>Ecobricks & Brikcoin Whitepaper</b> <a href="https://files.mandala.team/s/depPsJ7YKnMRMHN" target="_blank">The Commodification of Sequestered Plastic</a></li>
-					<li><b>Journalists:</b>  Be sure to check out <a href="media">our media kit!</a></li>
+					<li><b>Ecobricks & Brikcoin Whitepaper</b> <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic</a></li>
+					<li><b>Journalists:</b>  Be sure to check out <a href="media.php">our media kit!</a></li>
 						<!--<li><b>Academics:</b>  Be sure to check out <a href="media">our reports and white papers!</a></li>--> 
 						<li><b>Learn from a trainer</b>  Check out the current <a href="https://gobrik.com/#courses">Ecobrick Starter Workshop</a> course listing by certified GEA Trainers.</li>
-						<li><b>Training others to make ecobricks?</b> Be sure to check out <a href="trainings">trainer of trainer program</a></li>
+						<li><b>Training others to make ecobricks?</b> Be sure to check out <a href="/trainings">trainer of trainer program</a></li>
 					</ul></h6>
 		
 				<h5>Need to chat about your idea or question? Join our Mattermost <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">ecobricker community</a> and bring it up there!</h5><br><br>
