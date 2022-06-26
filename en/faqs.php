@@ -13,7 +13,7 @@ Content Page template: v.1.0.0-->
 <!--Page banner-->
 
 		<div id="cloud-box">
-			<div id="clouds"><img src="http://ecobricks.org/webp/faq-top.webp" width="100%"></div>
+			<div id="clouds"><img src="http://ecobricks.org/webp/faq-top.webp?v1.0" width="100%"></div>
 			<div id="cloud-banner"><img src="http://ecobricks.org/webp/faq-bottom.webp" width="100%"><!--</div>
 			<div id="page-header">Frequently Asked Questions</div>
 			<div id="page-header-sub">You've got questions about ecobricks. We've got answers!</div>-->
@@ -22,7 +22,7 @@ Content Page template: v.1.0.0-->
 		<div id="header-content-block">
 			<div id="raised-text">
 					<h1>Frequently Asked Questions</h1>
-			<h5>Our team has been working with ecobricks and plastic for the last decade. Here's our answers to the common questions about the two.</h5></div>
+			<p>Our team has been working with ecobricks and plastic for the last decade. Here's our answers to the common questions about each.</p></div>
 		</div>
 
 
