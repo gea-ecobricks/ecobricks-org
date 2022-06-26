@@ -734,7 +734,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/movement">Global Ecobrick Movement</h5></a></div>                    
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="pngs/community" loading="lazy"></div>
+				<div class="faq-image"><img src="pngs/community.png" loading="lazy"></div>
 			</div>
 		</div>
 
@@ -750,7 +750,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="about.php">Learn more about the GEA</h5></p></div>  
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
 				</div>
-				<div class="faq-image"><img src="svgs/shanti.svg" width="80%" loading="lazy"></div>
+				<div class="faq-image"><img src="svgs/shanti.svg" width="60%" loading="lazy"></div>
 			</div>
 		</div>
 
@@ -880,7 +880,7 @@ Content Page template: v.1.0.0-->
 						</div> 
 						<div id="top-link">Back to <a href="#gobrik-q">GoBrik Questions</a></div> 
 					</div>   
-					<div class="faq-image"><img src="webp/brk-cascade.webp" width="60%" alt="various eco bricks cascading" loading="lazy"></div>
+					<div class="faq-image"><img src="webp/brk-cascade.webp" width="300px" alt="various eco bricks cascading" loading="lazy"></div>
 				</div>
 				
 			</div>
@@ -943,7 +943,7 @@ Content Page template: v.1.0.0-->
 	
 					<div class="faq-link"><h5>Learn more: <a href="dropoff.php">About the Brik Market</h5></a></div> 
 					<div class="faq-link"><h5>Launch: <a href="https://gobrik.com/#market " target="_blank">The Brik Market</h5></a></div>
-					                  
+
 					<div id="top-link">Back to <a href="#misc">More Questions</a></div>
 				</div>
 				<div class="faq-image"><img src="webp/various-briks-400px.webp" alt="eco brick making" loading="lazy"></div>
