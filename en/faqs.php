@@ -1024,16 +1024,14 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What's that green circle on the bottom of your webpage?  What is Arc.io doing?</h4></div>
 				
-					<p>Ecobricks.org and Arc enable websites to be faster and greener.  Using Arc, anyone with a website can support both the decentralization of the internet and the removal of plastic from the biosphere.  Arc's peer-to-peer content delivery network enables website users to by-pass centralized servers, speed up connectivity and transition on from invasive ad-driven revenue.  Meanwhile, Ecobricks.org and our AES plastic offsetting system connect directly to the decentralized global ecobrick movement.<p>
-
-					<p>The Arc + Ecobricks.org widget enables other visitors of a site that are geographically local to you to share access to the same data.  Instead of connecting to content on a server on the other side of the planet, the content can be served by the computer nearest you.  This saves time and energy and is valuable service that websites pay for.  By directing the service payments of the CDN clients through the Ecobricks.org manual blockchain, dollars, kilobytes and kilograms of plastic can directly correlated.  Your visit to arc websites results in AES plastic offset credits purchased and the valuzation of the removal of plastic from the biosphere by ecobrickers around the world.
+					<p>The green circle shows that our Green Arc.io service is operating.  This content delivery netwrok system enables websites to be faster and greener by enabling common visitors of a website that are local to each other.  The Arc + Ecobricks.org widget enables other visitors of a site that are geographically local to you to share access to the same data.  Instead of connecting to content on a server on the other side of the planet, the content can be served by the computer nearest you.  This saves time and energy and is valuable service that websites pay for.  By directing the service payments of the CDN clients through the Ecobricks.org manual blockchain, dollars, kilobytes and kilograms of plastic can directly correlated.  Your visit to arc websites results in AES plastic offset credits purchased and the valuzation of the removal of plastic from the biosphere by ecobrickers around the world.
 					</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="arc.php">Arc CDN</h5></a>
 					</div>                    
 					<div id="top-link">Back to <a href="#misc">More Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="webp/arc-green-popper.webp" alt="green cdn service" loading="lazy"></div>
+				<div class="faq-image"><img src="webp/arc-green-popper.webp" alt="green cdn service" loading="lazy" style="width: 50% !important;"></div>
 			</div>
 			
 		</div>	
