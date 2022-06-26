@@ -22,7 +22,8 @@ Content Page template: v.1.0.0-->
 		<div id="header-content-block">
 			<div id="raised-text">
 					<h1>Questions fréquemment posées</h1>
-			<p>Notre équipe travaille avec des écobriques et du plastique depuis une décennie. Voici nos réponses aux questions courantes sur chacun.</p></div>
+			<p>Notre équipe travaille avec des écobriques et du plastique depuis une décennie.</p>
+			<p>Voici nos réponses aux questions courantes sur chacun.</p></div>
 		</div>
 
 
