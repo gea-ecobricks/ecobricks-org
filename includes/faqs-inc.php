@@ -34,6 +34,29 @@ _END;?>
 
 <STYLE>
 
+#main-content-faq {
+  margin: auto;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 700px) {
+  #main-content-faq {
+      width: 90%;
+	  margin-top: 0px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  #main-content-faq {
+      width: 85%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main-content-faq {
+      width: 77%;
+  }
+}
+
+
+
 #clouds {
 	background: url(https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1) center top;
     background-repeat: no-repeat;

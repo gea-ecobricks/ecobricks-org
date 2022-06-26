@@ -33,17 +33,11 @@ Content Page template: v.1.0.0-->
 
 
 <a name="top"></a>
-<div id="main-content">
+<div id="main-content-faq">
 
-			<!--
-		<div id="faq-content-block-1">
-			
-				
-				<h2>  </p>
 
+		<!--GENERAL QUESTION-->
 		
-		</div>-->
-
 		<div id="block-border" class="greyish">
 			<div id="faq-content-block" class="grey">
 				
@@ -80,6 +74,8 @@ Content Page template: v.1.0.0-->
 			</div>
 		</div>
 
+		<!--ECOBRICK CONCERNS-->
+
 		<div id="block-border" class="greyish">
 			<div id="faq-content-block" class="reddish">
 
@@ -110,6 +106,7 @@ Content Page template: v.1.0.0-->
 			</div>
 		</div>
 
+		<!--BUILD QUESTIONS-->
 
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="greenish">
@@ -142,6 +139,8 @@ Content Page template: v.1.0.0-->
 		</div>
 
 
+		<!--MOVEMENT Q-->
+
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="pinkish">
 			<a name="movement-q"></a><h4>Movement Questions</h4>
@@ -167,6 +166,8 @@ Content Page template: v.1.0.0-->
 			
 		</div>
 
+		<!--GOBRIK-->
+
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="blueish">
 
@@ -188,6 +189,9 @@ Content Page template: v.1.0.0-->
 			</h6>	<br><br></div>
 			</div>
 		</div>
+
+
+		<!--MORE QUESTIONS-->
 
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="orangeish">
@@ -216,7 +220,7 @@ Content Page template: v.1.0.0-->
 
 </div>
 
-<div id="main-content">
+<div id="main-content-faq">
         
 	
 <div id="content-block">  <!--GENERAL QUESTIONS-->
