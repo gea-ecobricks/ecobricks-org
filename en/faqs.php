@@ -1029,32 +1029,16 @@ Content Page template: v.1.0.0-->
 					<p>The Arc + Ecobricks.org widget enables other visitors of a site that are geographically local to you to share access to the same data.  Instead of connecting to content on a server on the other side of the planet, the content can be served by the computer nearest you.  This saves time and energy and is valuable service that websites pay for.  By directing the service payments of the CDN clients through the Ecobricks.org manual blockchain, dollars, kilobytes and kilograms of plastic can directly correlated.  Your visit to arc websites results in AES plastic offset credits purchased and the valuzation of the removal of plastic from the biosphere by ecobrickers around the world.
 					</p>
 
-					<div class="faq-link"><h5>Learn more: <a href="arc.php">Arc CDN</h5></a></div>   
-					<div id="top-link">Back to <a href="#misc">More Questions</a><div>                
-				</div>
-				<div class="faq-image"><img src="webp/arc-green-popper.webp" alt="green cdn service" loading="lazy"></div>
-			</div>
-		</div>
-		</div>
-
-		<div class="faq">
-			<p><a name="cigbrick"></a></p>
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What about cigarette filters— can they be ecobricked?</h4></div>
-				
-					<p>YES!  Cigarette filters are made from plastic, and although small, are one of the biggest source of plastic pollution.  We've thus come up with a special technique and ecobricking just for cigarette butts.  When you're done smoking, simply peel of the paper and remove the ash (this can be safely discarded).  Then, place the filter into your ecobrick.  If you're really keen, you can make an ecobrick entirely out of cigarette filters.  We call this a "cigbrick"!</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="/cigbrick">Cigbricks</h5></a>
+					<div class="faq-link"><h5>Learn more: <a href="arc.php">Arc CDN</h5></a>
 					</div>                    
 					<div id="top-link">Back to <a href="#misc">More Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="svgs/Cigbrick.svg" alt="Cigbricks eco brick" loading="lazy"></div>
+				<div class="faq-image"><img src="webp/arc-green-popper.webp" alt="green cdn service" loading="lazy"></div>
 			</div>
 			
 		</div>	
+					
 	</div>
-
 
 
 	<br><br><br>
