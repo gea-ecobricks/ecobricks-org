@@ -35,7 +35,7 @@ _END;?>
 <STYLE>
 
 #clouds {
-	background: url(https://www.ecobricks.org/svgs/top-clouds-animated-desktop?v1) center top;
+	background: url(https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1) center top;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
