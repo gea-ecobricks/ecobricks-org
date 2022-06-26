@@ -1,22 +1,22 @@
-<!—PAGE LANGUAGE:  ENGLISH
-Content Page template: v.1.0.0—>
+<!--PAGE LANGUAGE:  ENGLISH
+Content Page template: v.1.0.0-->
   
-<!— TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.—>
+<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
 <?php require_once ("includes/faqs-inc.php");?>
 
-<!—Once translation is completed, you can remove the line below to take the translation notice off the page—>
+<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
 
-<!—TOP PAGE BANNER—>
+<!--TOP PAGE BANNER-->
 
-<!—Page banner—>
+<!--Page banner-->
 
 		<div id="cloud-box">
 			<div id="clouds"><img src="http://ecobricks.org/webp/faq-top.webp?v1.0" width="100%"></div>
-			<div id="cloud-banner"><img src="http://ecobricks.org/webp/faq-bottom.webp" width="100%"><!—</div>
+			<div id="cloud-banner"><img src="http://ecobricks.org/webp/faq-bottom.webp" width="100%"><!--</div>
 			<div id="page-header">Frequently Asked Questions</div>
-			<div id="page-header-sub">You've got questions about ecobricks. We've got answers!</div>—>
+			<div id="page-header-sub">You've got questions about ecobricks. We've got answers!</div>-->
 		</div>
 
 		<div id="header-content-block">
@@ -29,14 +29,14 @@ Content Page template: v.1.0.0—>
 
 		<div id="content-sect1">
 
-<!— QUESTIONS CONTENT —>
+<!-- QUESTIONS CONTENT -->
 
 
 		<a name="top"></a>
 		<div id="main-content-faq">
 
 
-		<!—GENERAL QUESTION—>
+		<!--GENERAL QUESTION-->
 		
 			<div id="block-border" class="greyish">
 				<div id="faq-content-block" class="grey">
@@ -61,7 +61,7 @@ Content Page template: v.1.0.0—>
 						<li><a href="#why">Why make ecobricks?</a></li>
 						<li><a href="#how">How to make an ecobrick?</a></li>
 						<li><a href="#build">What can you build with ecobricks?</a></li>
-						<!—<li><a href="#build">How to start an Ecobrick Project?</a></li>—>
+						<!--<li><a href="#build">How to start an Ecobrick Project?</a></li>-->
 						<li><a href="#principles">What makes ecobricks different from other plastic stuff?</a></li>
 						<li><a href="#dumping">Why not just landfill or dump my plastic?</a></li>
 						<li><a href="#burning">Why not just burn or send my plastic to be incinerated?</a></li>
@@ -74,7 +74,7 @@ Content Page template: v.1.0.0—>
 			</div>
 		</div>
 
-		<!—ECOBRICK CONCERNS—>
+		<!--ECOBRICK CONCERNS-->
 
 		<div id="block-border" class="greyish">
 			<div id="faq-content-block" class="reddish">
@@ -106,7 +106,7 @@ Content Page template: v.1.0.0—>
 			</div>
 		</div>
 
-		<!—BUILD QUESTIONS—>
+		<!--BUILD QUESTIONS-->
 
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="greenish">
@@ -139,7 +139,7 @@ Content Page template: v.1.0.0—>
 		</div>
 
 
-		<!—MOVEMENT Q—>
+		<!--MOVEMENT Q-->
 
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="pinkish">
@@ -166,7 +166,7 @@ Content Page template: v.1.0.0—>
 			
 		</div>
 
-		<!—GOBRIK—>
+		<!--GOBRIK-->
 
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="blueish">
@@ -191,7 +191,7 @@ Content Page template: v.1.0.0—>
 		</div>
 
 
-		<!—MORE QUESTIONS—>
+		<!--MORE QUESTIONS-->
 
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="orangeish">
@@ -223,7 +223,7 @@ Content Page template: v.1.0.0—>
 <div id="main-content-faq">
         
 	
-<div id="content-block">  <!—GENERAL QUESTIONS—>
+<div id="content-block">  <!--GENERAL QUESTIONS-->
 	<div id="block-border" class="greyish"> <div id="faq-banner" class="grey"><h3>General Questions</h3></div></div>
 
      <div class="faq">
@@ -455,7 +455,7 @@ Content Page template: v.1.0.0—>
 
 
 
-<div id="content-block">    <!—ECOBRICK CONCERNS—>
+<div id="content-block">    <!--ECOBRICK CONCERNS-->
 	
 	<div id="block-border" class="greyish">
 		<div id="faq-banner" class="reddish"><h3>Ecobrick Concerns</h3></div>
@@ -508,7 +508,7 @@ Content Page template: v.1.0.0—>
 					<div class="faq-link"><h5>Learn more: <a href="transition.php">Plastic Transition</h5></a></div>     
 					<div id="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>                  
 				</div>
-				<!—<div class="faq-image"></div>—>
+				<!--<div class="faq-image"></div>-->
 			</div>
 			
 		</div>
@@ -525,7 +525,7 @@ Content Page template: v.1.0.0—>
 					<div id="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>   
 
 				</div>
-					<!—<div class="faq-image"></div>—>
+					<!--<div class="faq-image"></div>-->
 			</div>
 			
 		</div>
@@ -542,12 +542,12 @@ Content Page template: v.1.0.0—>
 					<div id="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>   
 
 				</div>
-					<!—<div class="faq-image"></div>—>
+					<!--<div class="faq-image"></div>-->
 			</div>
 			
 		</div>
 	
-	</div> <!— STRAY—>
+	</div> <!-- STRAY-->
 	
 
 <div id="content-block">
@@ -1051,7 +1051,7 @@ Content Page template: v.1.0.0—>
 				<h6><ul>
 					<li><b>Ecobricks & Brikcoin Whitepaper</b> <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic</a></li>
 					<li><b>Journalists:</b>  Be sure to check out <a href="media.php">our media kit!</a></li>
-						<!—<li><b>Academics:</b>  Be sure to check out <a href="media">our reports and white papers!</a></li>—> 
+						<!--<li><b>Academics:</b>  Be sure to check out <a href="media">our reports and white papers!</a></li>--> 
 						<li><b>Learn from a trainer</b>  Check out the current <a href="https://gobrik.com/#courses">Ecobrick Starter Workshop</a> course listing by certified GEA Trainers.</li>
 						<li><b>Training others to make ecobricks?</b> Be sure to check out <a href="/trainings">trainer of trainer program</a></li>
 					</ul></h6>
@@ -1062,15 +1062,15 @@ Content Page template: v.1.0.0—>
 </div>
 </div>
 </div>
-
-	<!—FOOTER STARTS HERE—>
+  
+	<!--FOOTER STARTS HERE-->
 
 	<?php require_once ("footers/footer-$lang.php");?>
 
 
-<!— CUSTOM PAGE SCRIPTS—>
+<!-- CUSTOM PAGE SCRIPTS-->
 
-<!— This script is for pages that use the accordion content system—>
+<!-- This script is for pages that use the accordion content system-->
 <script src="accordion-scripts.js" defer></script>
 
 
