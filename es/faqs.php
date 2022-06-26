@@ -1,4 +1,4 @@
-<!--PAGE LANGUAGE:  ENGLISH
+<!--PAGE LANGUAGE:  ESPANOL
 Content Page template: v.1.0.0-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
@@ -21,9 +21,9 @@ Content Page template: v.1.0.0-->
 
 		<div id="header-content-block">
 			<div id="raised-text">
-					<h1>Frequently Asked Questions</h1>
-			<p>Our team has been working with ecobricks and plastic for the last decade. Here's our answers to the common questions about each.</p></div>
-		</div>
+			<h1>Preguntas frecuentes</h1>
+			<p>Nuestro equipo ha estado trabajando con ecoladrillos y plástico durante la última década. Aquí están nuestras respuestas a las preguntas comunes sobre cada uno.</p></div>
+			</div>
 
 
 
@@ -43,8 +43,8 @@ Content Page template: v.1.0.0-->
 				
 				
 				<a name="general"></a>
-				<h4>General Questions</h4>
-				<p>The basics about plastic and ecobricks.</p>
+				<h4>Preguntas generales</h4>
+				<p>Lo básico sobre plástico y ecoladrillos.</p>
 				
 
 				<button onclick="general()" class="toggle" id="toggle-hide">⬆ Hide</button>
@@ -53,21 +53,21 @@ Content Page template: v.1.0.0-->
 				<hr>
 				<h6>
 					<ul>
-						<li><a href="#plastic">What is plastic exactly?</a></li>
-						<li><a href="#concern">Why should I be concerned about my plastic?</a></li>
-						<li><a href="#worry">But isn't there more important stuff to worry about?</a></li>
-						<li><a href="#dangerous">How is plastic troublesome and dangerous?</a></li>
-						<li><a href="#what">So what is an ecobrick exactly?</a></li>
-						<li><a href="#why">Why make ecobricks?</a></li>
-						<li><a href="#how">How to make an ecobrick?</a></li>
-						<li><a href="#build">What can you build with ecobricks?</a></li>
-						<!--<li><a href="#build">How to start an Ecobrick Project?</a></li>-->
-						<li><a href="#principles">What makes ecobricks different from other plastic stuff?</a></li>
-						<li><a href="#dumping">Why not just landfill or dump my plastic?</a></li>
-						<li><a href="#burning">Why not just burn or send my plastic to be incinerated?</a></li>
-						<li><a href="#recycled">Why not just recycle my plastic?</a></li>
-						<li><a href="#sequestration">So how is ecobricking different from recycling, dumping or burning?</a></li>
-						<li><a href="#keen">I am keen to get going with ecobricking! What's the best way to start?</a></li>
+					<li><a href="#plastic">¿Qué es exactamente el plástico?</a></li>
+					<li><a href="#concern">¿Por qué debo preocuparme por mi plástico?</a></li>
+					<li><a href="#worry">¿Pero no hay cosas más importantes de las que preocuparse?</a></li>
+					<li><a href="#dangerous">¿Por qué el plástico es problemático y peligroso?</a></li>
+					<li><a href="#what">Entonces, ¿qué es exactamente un ecoladrillo?</a></li>
+					<li><a href="#why">¿Por qué hacer ecoladrillos?</a></li>
+					<li><a href="#how">¿Cómo hacer un ecoladrillo?</a></li>
+					<li><a href="#build">¿Qué puedes construir con ecoladrillos?</a></li>
+					<!--<li><a href="#build">¿Cómo iniciar un Proyecto Ecoladrillo?</a></li>-->
+					<li><a href="#principles">¿Qué diferencia a los ecoladrillos de otros materiales plásticos?</a></li>
+					<li><a href="#dumping">¿Por qué no tirar mi plástico a un vertedero o tirarlo a la basura?</a></li>
+					<li><a href="#burning">¿Por qué no quemar o enviar mi plástico para que sea incinerado?</a></li>
+					<li><a href="#recycled">¿Por qué no reciclar mi plástico?</a></li>
+					<li><a href="#sequestration">Entonces, ¿en qué se diferencian los ladrillos ecológicos del reciclaje, el vertido o la quema?</a></li>
+					<li><a href="#keen">¡Estoy deseando empezar con ecobricking! ¿Cuál es la mejor manera de empezar?</a></li>
 					</ul>
 					<br>
 				</h6></div>
@@ -80,8 +80,8 @@ Content Page template: v.1.0.0-->
 			<div id="faq-content-block" class="reddish">
 
 				<a name="concerns"></a>
-				<h4>Ecobrick Concerns</h4>
-				<p>The worries and critiques.</p>
+				<h4>Preocupaciones sobre ecoladrillos</h4>
+				<p>Las preocupaciones y las críticas.</p>
 			
 				<button onclick="concerns()" class="toggle" id="toggle-show">⬇ Show</button>
 
@@ -91,13 +91,13 @@ Content Page template: v.1.0.0-->
 					<h6>
 
 					<ul>
-						<li><a href="#dangerous-2">How does plastic get to be dangerous and toxic?</a></li>
-						<li><a href="#matter">How can ecobricks be a final solution for plastic? Won't the plastic escape one day no matter what we do?</a></li>
-						<li><a href="#transition">Don't ecobricks just encourage people to consume more plastic?</a></li>
-						<li><a href="#sequest1">I've heared that ecobricks can leach poisons out into the environment.  Is it true?</a></li>
-						<li><a href="#circular1">How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?</a></li>
-						<li><a href="#fire">What about Ecobricks and fire— isn't it dangerous? </a></li>
-						<li><a href="#circular3">But isn't building with ecobricks just delaying the problem?  How is this a final solution for plastic?</a></li>
+					<li><a href="#dangerous-2">¿Cómo llega a ser peligroso y tóxico el plástico?</a></li>
+					<li><a href="#matter">¿Cómo pueden ser los ecoladrillos una solución definitiva para el plástico? ¿No se escapará el plástico algún día sin importar lo que hagamos?</a></li>
+					<li><a href="#transition">¿No animan los ecoladrillos a las personas a consumir más plástico?</a></li>
+					<li><a href="#sequest1">Escuché que los ecoladrillos pueden filtrar venenos al medio ambiente. ¿Es cierto?</a></li>
+					<li><a href="#circular1">¿Cómo pueden ser los ecoladrillos una solución definitiva para el plástico? ¿No se escapará el plástico algún día sin importar lo que hagamos?</a></li>
+					<li><a href="#fire">¿Qué pasa con los ecoladrillos y el fuego? ¿No es peligroso? </a></li>
+					<li><a href="#circular3">¿Pero construir con ecoladrillos no está retrasando el problema? ¿Cómo es esta una solución final para el plástico?</a></li>
 						
 					</ul>
 					<br>

@@ -19,7 +19,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="header-content-block">
 			<div id="raised-text">
-            <h1>Pertanyaan Umum</h1>
+            <h1>Pertanyaan yang Sering Diajukan</h1>
 <p>Tim kami telah bekerja dengan ecobrick dan plastik selama satu dekade terakhir. Inilah jawaban kami atas pertanyaan umum tentang masing-masing.</p></div>
 		</div>
 
