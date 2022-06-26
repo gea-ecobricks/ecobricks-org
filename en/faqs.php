@@ -1016,6 +1016,7 @@ Content Page template: v.1.0.0-->
 				</div>
 				
 			</div>
+		</div>
 
 		<div class="faq">
 			<p><a name="arcio"></a></p>
@@ -1033,6 +1034,7 @@ Content Page template: v.1.0.0-->
 				</div>
 				<div class="faq-image"><img src="webp/arc-green-popper.webp" alt="green cdn service" loading="lazy"></div>
 			</div>
+		</div>
 		</div>
 
 		<div class="faq">
