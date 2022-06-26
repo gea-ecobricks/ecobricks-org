@@ -361,7 +361,7 @@ Content Page template: v.1.0.0-->
 					<div id="top-link">Back to <a href="#general">General Questions</a></div>
 				</div>                    
 			</div>
-			<div class="faq-image"><img src="webp/balancing-green.webp" alt="Eco bricks are different from other plastic stuff in several ways."></div>
+			<div class="faq-image"><img src="webp/balancing-green.webp" width="80%" alt="Eco bricks are different from other plastic stuff in several ways." loading="lazy"></div>
 		</div>
 		
 	</div>
@@ -429,7 +429,7 @@ Content Page template: v.1.0.0-->
 
 				<div class="faq-link"><h5>Learn more: <a href="/sequest">The Principles of Plastic Sequestration</h5></p></div>                    
 			</div>
-			<div class="faq-image"><img src="webp/floating-dial-500px.webp" alt="Eco bricks are beyond zero waste"></div>
+			<div class="faq-image"><img src="webp/dial-example.webp" alt="Eco bricks are beyond zero waste"></div>
 		</div>
 		<div id="top-link"><a href="#general">Back to General Questions</a></div>
 	</div>
@@ -445,7 +445,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/how">How to Make an Ecobrick</h5></a></div>                    
 					<div id="top-link">Back to <a href="#general">General Questions</a></div>
 				</div>
-			<div class="faq-image"><img src="pngs/howmuchconsumption.png" alt="Eco bricks are an alternative to recycling."></div>
+			<div class="faq-image"><img src="webp/weigh-plastic.webp" alt="Eco bricks are an alternative to recycling. Start by plastic tracking."></div>
 		</div>
 	</div>
 
@@ -733,6 +733,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/movement">Global Ecobrick Movement</h5></a></div>                    
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 				</div>
+				<div class="faq-image"><img src="pngs/community" loading="lazy"></div>
 			</div>
 		</div>
 
@@ -748,7 +749,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="about.php">Learn more about the GEA</h5></p></div>  
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
 				</div>
-				<div class="faq-image"><img src="svgs/shanti.svg"></div>
+				<div class="faq-image"><img src="svgs/shanti.svg" width="80%" loading="lazy"></div>
 			</div>
 		</div>
 
@@ -781,7 +782,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/mandalas">Mandalic Collaboration</h5></a></div>                    
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="webp/mandalic.webp" alt="than mandalic unfolding of eco bricks"></div>
+				<div class="faq-image"><img src="webp/mandalic.webp" alt="than mandalic unfolding of eco bricks" loading="lazy"></div>
 			</div>
 		</div>
 
@@ -800,6 +801,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more <a href="trainings">GEA Training Programs & etwork</h5></p></div>  
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
 				</div>
+				<div class="faq-image"><img src="webp/gea-logo-400px.webp" alt="than mandalic unfolding of eco bricks" loading="lazy"></div>
 			</div>	
 		</div>
 
@@ -833,7 +835,7 @@ Content Page template: v.1.0.0-->
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 				</div>
 			
-				<div class="faq-image"><img src="pngs/catalyst.png" alt="enterprises to go green"></div>
+				<div class="faq-image"><img src="webp/catalyst-logo.webp" alt="enterprises to go green" loading="lazy"></div>
 			</div>
 		</div>
 </div>
@@ -859,7 +861,7 @@ Content Page template: v.1.0.0-->
 					</div> 
 					<div id="top-link">Back to <a href="#gobrik-q">GoBrik Questions</a></div>  
 				</div>   
-				<div class="faq-image"><img src="webp/eb-sky-400px.webp" alt="An eco brick being made"></div>
+				<div class="faq-image"><img src="webp/eb-sky-400px.webp" alt="An eco brick being made" loading="lazy"></div>
 			</div>
 			
 		</div>
@@ -877,7 +879,7 @@ Content Page template: v.1.0.0-->
 						</div> 
 						<div id="top-link">Back to <a href="#gobrik-q">GoBrik Questions</a></div> 
 					</div>   
-					<div class="faq-image"><img src="webp/brk-cascade.webp" alt="various eco bricks cascading"></div>
+					<div class="faq-image"><img src="webp/brk-cascade.webp" width="80%" alt="various eco bricks cascading" loading="lazy"></div>
 				</div>
 				
 			</div>
@@ -895,7 +897,7 @@ Content Page template: v.1.0.0-->
 						</div> 
 						<div id="top-link">Back to <a href="#gobrik-q">GoBrik Questions</a></div> 
 					</div>   
-					<div class="faq-image"><img src="webp/eb-sky-400px.webp" alt="eco brick making"></div>
+					<div class="faq-image"><img src="webp/eb-sky-400px.webp" alt="eco brick making" loading="lazy"></div>
 				</div>
 				
 			</div>
@@ -922,7 +924,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="https://gobrik.com/#hubs" target="_blank">Community Hub Map</h5></a></div>                    
 						<div id="top-link">Back to <a href="#misc">More Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="webp/brikmarket-400px.webp" alt="eco brick making"></div>
+				<div class="faq-image"><img src="webp/brikmarket-400px.webp" alt="eco brick making" loading="lazy"></div>
 			</div>
 		</div>
 	
@@ -937,6 +939,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="https://gobrik.com/#hubs" target="_blank">Community Hub Map</h5></a></div>                    
 					<div id="top-link">Back to <a href="#misc">More Questions</a></div>
 				</div>
+				<div class="faq-image"><img src="webp/various-briks-400px.webp" alt="eco brick making" loading="lazy"></div>
 				
 			</div>
 		</div>
@@ -953,7 +956,7 @@ Content Page template: v.1.0.0-->
 					<div id="top-link">Back to <a href="#misc">More Questions</a></div>                 
 				</div>
 				
-				<div class="faq-image"><img src="webp/oeb-400px.webp" alt="ocean eco bricks"></div>
+				<div class="faq-image"><img src="webp/oeb-400px.webp" alt="ocean eco bricks" loading="lazy"></div>
 			</div>
 			
 		</div>
@@ -970,7 +973,7 @@ Content Page template: v.1.0.0-->
 					</div>                    
 					<div id="top-link">Back to <a href="#misc">More Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="svgs/Cigbrick.svg" alt="Cigbricks eco brick"></div>
+				<div class="faq-image"><img src="svgs/Cigbrick.svg" alt="Cigbricks eco brick" loading="lazy"></div>
 			</div>
 			
 		</div>	
@@ -1021,9 +1024,10 @@ Content Page template: v.1.0.0-->
 							<p>By browsing a web page with the Arc + Ecobricks.org widget installed your extra bandwidth is used to help localize digital content for others viewing the same information.  Instead of connecting to content on a server on the other side of the planet, the content can be served by the computer nearest you!  This saves time and energy and is valuable service that websites pay for.  By directing the service payments of the CDN clients through the Ecobricks.org manual blockchain, dollars, kilobytes and kilograms of plastic can directly correlated.  Your visit to arc websites results in AES plastic offset credits purchased and the valuzation of the removal of plastic from the biosphere by ecobrickers around the world.
 							</p>
 
-							<div class="faq-link"><h5>Learn more: <a href="https://arc.io/about">Arc CDN</h5></a></div>   
-							<div id="top-link">Back to <a href="#misc">More Questions</a></div>                 
+							<div class="faq-link"><h5>Learn more: <a href="arc.php">Arc CDN</h5></a></div>   
+							<div id="top-link">Back to <a href="#misc">More Questions</a></div>                
 						</div>
+						<div class="faq-image"><img src="webp/arc-green-popper.webp" alt="green cdn service" loading="lazy"></div>
 						
 					</div>
 
