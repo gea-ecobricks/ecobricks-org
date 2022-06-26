@@ -225,9 +225,9 @@ button:hover {
 }
 
 .greyish {
-  background: rgb(212,212,212);
-  background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);
-  padding: 6px;
+  background: #F6F6F6;
+  /*background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);*/
+  padding: 4px;
   border-radius: 15px;
   margin-bottom: 20px;
   border-style: dashed;

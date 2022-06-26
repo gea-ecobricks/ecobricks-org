@@ -230,17 +230,14 @@ Content Page template: v.1.0.0-->
          <a name="plastic"></a>
              <div class="faq-box">
                     <div class="faq-texts">
-                        <div class="faq-header"><h4>What is plastic?</h4></div>
-                        <p>Plastic.  That convenient, colorful and ever so troublesome material that we all use every day is very easy to take for granted.  Fact is, it's crazily unique and valuable-- you literally can't find anything like it in elsewhere in our solar system.  Plastic is a petroleum by-product.  That means it is made from the carbon of ancient organisms-- algae, forest, dinausaurs that lived and died hundreds of millions of years ago.  As their bodies were buried, the Earth compacted and secured their carbon underground.  It was a process that removed more and more carbon from the atmosphere and greened the biosphere.  Today, we dig up these deposits as 'fossil fuels'.  But, this ancient carbon was never meant to be fuel!  Refining fossil fuels leads to lots of leftover chemicals-- which are perfect for making plastic and dangerous when let loose into the environment.  </p>
-                       
-                    </div>
-                    <div class="faq-image"><img src="webp/compacted-carbon.webp" alt="compacted plastic eco brick sequestration">
+                        <div class="faq-header"><h4>What is plastic exactly?</h4></div>
+                        <p>Plastic.  That convenient, colorful and ever so troublesome material that we all use every day is very easy to take for granted.  Fact is, it's incredibly unique and valuable-- you literally can't find anything like it in elsewhere in our solar system!  Plastic is a petroleum by-product.  That means it is made from the carbon of ancient organisms-- algae, forest, dinausaurs that lived and died hundreds of millions of years ago.  As their bodies were buried, the Earth compacted and secured their carbon underground. Over time, this process of carbon sequestration removed more and more carbon from the atmosphere and greened the biosphere.  Today, we dig up these deposits as 'fossil fuels'.  But, this ancient carbon was never meant to be fuel!  Refining fossil fuels leads to lots of leftover chemicals-- which are perfect for making plastic and dangerous when let loose into the environment.</p>
+						<div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
+						<div id="top-link">Back to <a href="#general">General Questions</a></div>
+					</div>
+					<div class="faq-image"><img src="webp/compacted-carbon.webp" alt="compacted plastic eco brick sequestration">
 				</div>
-					
-             </div>
-			<div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
-			<div id="top-link">Back to <a href="#general">General Questions</a>
-			</div>		
+             </div>		
          </div>
 
 			<div class="faq">
@@ -248,7 +245,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-box">
 						   <div class="faq-texts">
 							   <div class="faq-header"><h4>Why should I be concerned about my plastic?</h4></div>
-							   <p>Your plastic is an incredible opportunity! With your everyday plastic you can make tiny ripples that over time will turn into giant waves of ecological enrichment.  Plastic is the tip of the iceberg of a massive system based on the extraction of fossil fuels at the expense of ecosystems. Nobody wants to see an animal suffer.  Nor a rich ecosystem die.  Unfortunately, there is a direct correlation between what we consume today and these consequences tomorrow.  Concern about our plastic, ripples into tiny choices that takes our plastic, and us, out of the petrocapital system.  Such choices today reduce the system's momentum into the future and compounds into great greening consequences: the acceleration of a whole different kind of system! Ways of life with a lot less plastic and a lot richer ecosystems.   </p>
+							   <p>Your plastic represents an incredible opportunity! With your everyday plastic you can make tiny ripples that over time will turn into giant waves of ecological enrichment.  Plastic is the tip of the iceberg of a massive system powered by the extraction and burning of ancient carbon deposits.  As this carbon gets loose in the atmosphere and oceans, it adversely effects the biosphere. While no one wants to see a rich ecosystem deplete or an animal suffer, unfortunately there is a direct correlation between the plastic that we consume today and these consequences tomorrow.  Small adjustments in our relationship with plastic can thus point us out of the petro-capital system.  Small choices today can reduce the system's momentum into the future and compounds into great greening consequences: the acceleration of a whole different kind of system with a lot less plastic and a lot richer ecosystems.   </p>
 							   <div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
@@ -263,7 +260,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-box">
 						   <div class="faq-texts">
 							   <div class="faq-header"><h4>But aren't there bigger issues to worry about?</h4></div>
-							   <p>Climate change.  Ocean acidification.  Species extinction.  These are big issues!  And they all have one thing in common:  <i>The way we humans are living on Earth.</i>  From brash billionaires to poisonous pollution... indeed, the way our world is working makes it easy to worry!   However, no matter how much we despair, there's no more powerful way to manifest change than by living it first ourselves.  As a petro-capital by-product, plastic is the penultimate representation of the Old Way we've been residing on Earth.  By changing the way we see plastic and what we do with it, we can shift our attitude from worry and despair to love and care.  By loving and caring for our plastic, we can begin to heal the roots of relationship with it and the Earth.  The very same roots that all the other big issues happen to share.</p>
+							   <p>Climate change.  Ocean acidification.  Species extinction.  These are big issues!  And they all have one thing in common:  <i>The way we humans relate to the Earth.</i>  From brash billionaires to poisonous pollution... indeed, the way we currently relate, makes it easy to worry!   However, there's no more powerful way to manifest change than by living it first ourselves.  As a product of both the Earth and the petro-capital economy, plastic is the ultimate representation of the old Way we've been relating to the Earth.  By changing the way we see plastic and what we do with it, we can shift our attitude from worry and despair to love and care.  By loving and caring for our plastic, we can begin to heal the roots of our relationship with it and the Earth:  The very same roots that all the other big issues happen to share.</p>
 							   <div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
@@ -277,7 +274,7 @@ Content Page template: v.1.0.0-->
 						<div class="faq-box">
 							   <div class="faq-texts">
 								   <div class="faq-header"><h4>How is plastic troublesome and dangerous?</h4></div>
-								   <p>Plastic is an incredibly useful and versatile material.  But in the wrong place it can become dangerous-- poisonous to us, animals and ecosystems as both chemicals and as particles.  When plastics get loose in the biosphere, the plastic degrades from the effects of friction, heat and sun.  As it degrades, dangerous chemicals are released.  These are toxins that don't fit into ecological systems and so contaminate.  Plastic's degradation also leads to smaller and smaller particles of plastic.  Organisms and animals that consume these 'micro-plastics' clog up their digestion and get sick.  Many die.  Eventually both chemical toxins and physical micro-plastics pass through the food chain to humans.  In our bodies they upset our hormonal balances, cause growth problems, and trigger cancer and health issues of all kinds. </p>
+								   <p>Plastic is an incredibly useful and versatile material.  However, in the wrong place plastic can become poisonous to humans, animals and ecosystems.  When plastics get loose in the biosphere, they degrade through friction, heat and sun into chemicals and into particles.   These are chemicals don't fit into ecological systems, so they contaminate ecosystems and poison organisms.  Plastic's degradation also leads to smaller and smaller particles of plastic.  When organisms consume these 'micro-plastics' their digestion gets clogged up and they get sick.  Many die.  Eventually both chemical toxins and physical micro-plastics pass through the food chain to humans.  In our bodies they upset our hormonal balances, cause growth problems, and trigger cancer and health issues of all kinds. </p>
 									<div class="faq-link"><h5>Learn more: <a href="/poison">The Dangers of Plastic</h5></a></div>
 									<div id="top-link">Back to <a href="#general">General Questions</a></div>
 							   </div>
@@ -311,7 +308,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>Why make ecobricks?</h4></div>
 					
-					<p>Plastic is part of our petro-capital age.  No matter your culture or continent, you're going to be consuming some plastic!  Unlike other plastic management methods, ecobricking allows us to be 100% sure our plastic doesn't get into the biosphere.  Because ecobricking is hard work, it motivates us to consume less.  Having to pack our consumption piece by piece, it gets us thinking about the whole system behind our plastic!  And since we're not putting it back in the system, we can be confident lots more carbon and plastic aren't produced.  Then, since building with ecobricks is a hands-on, collaboration powered process, it brings us together with friends and family to make great green spaces that serve our communities.  As far as we know, there's nothing better one can do with the plastic that we've got now-- and the fastest way to speed up our transition from it.</p>
+					<p>Plastic is part of our petro-capital age.  No matter your culture or continent, you're going to be consuming some plastic!  Unlike other plastic management methods, ecobricking allows us to be 100% sure our plastic doesn't get into the biosphere or cause more factories to spin.  Because ecobricking is hard work, it motivates us to consume less.  If you've made an ecobrick, you know that having to pack one's consumption piece by piece, gets one thinking about the whole system behind our plastic!  And since we're not putting it back in the system, we can be confident lots more carbon and plastic aren't produced.  Finally, since building with ecobricks is a hands-on, collaboration powered process, it brings us together with friends and family to make great green spaces that serve our communities.  As far as we know, there's nothing better one can do with the plastic that we've got now-- and the fastest way to speed up our transition from it.</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/why">Why Make Ecobricks?</h5></a></div> 
 						<div id="top-link">Back to <a href="#general">General Questions</a></div>                   
@@ -327,8 +324,8 @@ Content Page template: v.1.0.0-->
                 <div class="faq-box">
                        <div class="faq-texts">
                            <div class="faq-header"><h4>How to make an Ecobrick?</h4></div>
-                           <p>Deep breath... First, save up and segregate your plastic, keeping them seperate from the organics.  If your plastics are dirty, clean and dry them. For your first ecobrick, start with a small, clear PET bottle that is common in your community (for projects you'll need bottles that are the same!).  Make sure you've got a solid stick (dowel, drumstick, branch, earthwand etc.). Start by inserting a soft, colored plastic down to bottom of the bottle. Stuff it down with other plastics of the same color until you have a 2-3cm base. Cut up other plastics and insert them losely into the bottle until it is almost full. Use your stick to pack the plastics down by pushing around on the sides.  Fill, pack, repeat. Leave 1-2cm of space at the top of the bottle.  Cap.  Then, weigh your ecobrick.  Make sure your ecobrick's density is over the GEA's recomended minimum 0.33g/ml (divide weight by the bottle's volume to get the density).  Good ecobricks are >0.4g/ml.  Log your ecobrick (keep a list or use our handy <a href="https://gobrik.com" target="_blank">GoBrik.com app</a>).  Store securely. Then, when you've got enough, put them together in a project.  And exhale!</p>
-                            <div class="faq-link"><h5>Answer's a little too dense yeah? Better see: <a href="how">Our Comprehensive 10 Step Ecobricking Guide</h5></a></div>
+                           <p>Deep breath... First, save up and segregate your plastic, keeping them seperate from the organics.  If your plastics are dirty, clean and dry them. For your first ecobrick, start with a small, clear PET bottle that is common in your community.  Make sure you've got a solid stick (dowel, drumstick, branch, <a href="/earthwand">earthwand</a> etc.). Start by inserting a soft, colored plastic down to bottom of the bottle. Stuff it down with other plastics of the same color until you have a 2-3cm base. Cut up other kinds of plastics and insert them losely into the bottle until it is almost full. Use your stick to pack the plastics down by pushing around on the sides.  Fill, pack, repeat and repeat! Leave 1-2cm of space at the top of the bottle.  Cap.  Then, weigh your ecobrick.  Make sure your ecobrick's density is over the GEA's recomended minimum 0.33g/ml (divide weight by the bottle's volume to get the density).  Good ecobricks are above 0.4g/ml.  Log your ecobrick (keep a list, spreadsheet or use our handy <a href="https://gobrik.com" target="_blank">GoBrik.com app</a>).  Store securely. Then, when you've got enough, put them together in a project... and exhale!</p>
+                            <div class="faq-link"><h5>Answer's a little too dense? Better: <a href="how">Our Comprehensive 10 Step Ecobricking Guide</h5></a></div>
 							<div id="top-link">Back to <a href="#general">General Questions</a></div>
 							</div>
                        <div class="faq-image"><img src="webp/eb-sky-400px.webp" alt="How to make an eco brick?"></div>
@@ -356,9 +353,9 @@ Content Page template: v.1.0.0-->
 		<a name="principles"></a>
 		<div class="faq-box">
 			<div class="faq-texts">
-				<div class="faq-header"><h4>What makes ecobricks and ecobrick applications different from other plastic stuff?</h4></div>
+				<div class="faq-header"><h4>What makes ecobricks and ecobrick applications different from other plastic products?</h4></div>
 				
-				<p>The methods of making ecobricks and building with them are guided by principles that are what we call "regenerative".  Regenerative principles are fundamentally different from the principles of "sustainability"  This means that from the ground up ecobricks making and applications are fundamentally different from our old uses of plastic.  Ecobrick applications are net-zero, localized, mandalic, transcaste, earthen, circular and open source.  Yep... that's a lot of new words and concepts!  But that's actually the point-- ecobricking is all about applying a whole new paradigm to our plastic so that we avoid sustaining the same problems and polluting results that came from the old way of doing things.</p>
+				<p>The methods of making ecobricks and building with them are guided by regeneartive principles.  Regenerative principles are fundamentally different from the principles of "sustainability"  This means that from the ground up ecobricks making and applications are fundamentally different from our old uses of plastic.  Ecobrick applications are net-zero, localized, mandalic, transcaste, earthen, circular and open source.  Yep... that's a lot of new words and concepts!  But that's actually the point-- ecobricking is all about applying a whole new paradigm to our plastic so that we avoid sustaining the same problems and polluting results that came from the old way of doing things.</p>
 
 				<div class="faq-link"><h5>Learn more: <a href="/principles">Ecobrick Regenerative Principles</h5></a>
 					<div id="top-link">Back to <a href="#general">General Questions</a></div>
@@ -376,7 +373,7 @@ Content Page template: v.1.0.0-->
 			<div class="faq-texts">
 				<div class="faq-header"><h4>Why not just landfill or dump my plastic?</h4></div>
 				
-				<p>When plastic is dumped or landfilled it's surface area ends up fully exposed to the sun, friction, fire and/or water.  The more plastic is exposed, the more plastic degrades-- releasing CO2, other green house gases, and toxins.  Eventually plastic breaks down into smaller and smaller pieces called micro-plastics.  Increasingly, scientists are showing that these toxins and micro-plastic infiltrate ecosystems causing problems for plants and animals.  Eventually, plastic's molecules reach us and our children where they adversely impact human metabolisms. Because of this, its important to not let our plastic get loose into the biosphere by littering or dumping it.</p>
+				<p>When plastic is dumped or landfilled it's surface area ends up fully exposed to the sun, to friction, fire and/or water.  The more plastic is exposed, the more plastic degrades-- releasing CO2, other green house gases, and toxins.  Eventually plastic breaks down into smaller and smaller pieces called micro-plastics.  Increasingly, scientists are realizing that these toxins and micro-plastic infiltrate ecosystems causing problems for plants and animals.  Eventually, plastic's molecules reach us and our children where they adversely impact human metabolisms. Because of this, its important to not let our plastic get loose into the biosphere by littering or dumping it.</p>
 
 				<div class="faq-link"><h5>Learn more: <a href="/posion">Plastic can be Poisonous</h5></a>
 					<div id="top-link">Back to <a href="#general">General Questions</a></div>
@@ -393,7 +390,8 @@ Content Page template: v.1.0.0-->
 			<div class="faq-texts">
 				<div class="faq-header"><h4>Why not just burn or send my plastic to be incinerated?</h4></div>
 				
-				<p>Whether plastic is burned on the side of the road or in a high-tech waste-to-energy plant, it is a tremendous waste.  Plastic, as a fosil fuel by-product, is the result of hundreds of millions of years of work by the Earth to remove carbon from the atmosphere, to compact and secure it, and to green the biosphere.  When plastic is burned, in an instant, it's carbon is dispersed and released back into the atmosphere.  In many cases poisonous and toxic chemicals are also released. Incinerating plastic also encourages more new plastic to be made.  Because it is so deceptively easy to dispose of plastic by burning it, it makes it seem like there's no problem using it in the first place.  Because of this it is essential to keep our plastic from entering this dangerous and dirty spiral. The more plastic that is incinerated, the more ancient carbon is extracted, the more plastic is made, thrown away and the more carbon and toxins disperse into the biosphere.  </p>
+				<p>Whether plastic is burned on the side of the road or in a high-tech waste-to-energy plant, it is a momentous tragedy.  The carbon that composes our modern plastic is the result of hundreds of millions of years of work by the Earth to remove carbon from the atmosphere.  Through the Earth's gradual subtraction of this carbon underground, the Earth's climate stabilized and the biosphere greened.  When plastic is burned, in an instant, millions of years of Earthen process are reversed.  Plastic's carbon is dispersed and released back into the atmosphere, while poisonous and toxic chemicals are often created through the combustion.</p>
+				<p>Worse, incinerating plastic also encourages more new plastic to be made, more ancient carbon to be extraction, and yet more incineration.  Because it seems so easy to dispose of plastic by burning it, it makes it seem like there's no problem using plastic in the first place.  Because of this, it is essential to keep our plastic from entering this dangerous spiral.</p>
 
 				<div class="faq-link"><h5>Learn more: <a href="/posion">Plastic can be Poisonous</h5></a></div>   
 				<div id="top-link"><a href="#general">Back to General Questions</a></div>                 
@@ -410,7 +408,8 @@ Content Page template: v.1.0.0-->
 			<div class="faq-texts">
 				<div class="faq-header"><h4>Why not just recycle my plastic?</h4></div>
 				
-				<p>Recyling plastic is a great idea-- in theory!  Unfortunately, when recycling is done <i>for-profit</i> rather than <i>for-Earth</i>, it doesn't work so well.  It has been clearly shown that industrial recycling only cyles plastic a few times before it ends up loose in the biosphere.  It has been also clearly shown that industrial recycling is designed to reduce consumer ecological consciousness. Industrial recycling also takes lots of energy.  The transportation, processing and smelting of pffinllastic is a process that is non-local and net-additive.  In other words, it adds lots of carbon back into the biosphere!  Recycling plastic, also leads to more products made from plastic-- the old plastic that being reused and necessarily new plastic additions.  Making new plastic products not only requires lots of energy, it most often also requires new plastic to be mixed in.  Putting plastics into industrial recycling puts energy into more industry, more plastic and more pollution.</p>
+				<p>Recyling plastic is a great idea-- in theory!  Unfortunately, when recycling is done <i>for-profit</i> rather than <i>for-Earth</i>, it does not acheive the green effects we hope for.  In fact, the very opposite.  Industrial recycling tends to downcycle plastic into lower and lower grades that have less and less likelyhood of being recycled.  Eventually the utility value of the old plastic is exhausted and no more profit can be made.  This plastic then ends up <a href="#dump">dumping</a> or <a href="burning">burned</a>-- causing the ecological issues mentioned in the answers above.  Its also important to remember that industrial recycle is hardly ever local.  Plastic must be transported, melted, molded, repackage and transported again-- often between stores and far-away factories.  This requires fuel, energy and releases further carbon into the biosphere.</p>
+				<p>Most significantly, recycling plastic leads to more and more products made from plastic.  Precisely because recycling seems to be a solution, it encourages us to keep consuming things made from plastic.  And those new products made with old plastic?  They not only requires lots of energy, but most often new plastic to be mixed in.  In short, putting plastics into industrial recycling encourages more industry, more plastic and more pollution.</p>
 
 				<div class="faq-link"><h5>Learn more: <a href="/recycled">Industrial Plastic Recycling</h5></a></div>                    
 				<div id="top-link">Back to <a href="#general">General Questions</a></div>
@@ -426,7 +425,7 @@ Content Page template: v.1.0.0-->
 			<div class="faq-texts">
 				<div class="faq-header"><h4>So how is ecobricking different from recycling, dumping or burning?</h4></div>
 				
-				<p>Ecobricking is a form of plastic sequestration.  That means there's six principled reasons that set ecobricking apart.  Rather than being for-profit ecobricking is for-Earth.  Rather than letting plastic and carbon loose, ecobricking is all about their compaction and concentration.  Rather than cycling plastic only a few times, ecobriking creates indefinitely reusable building blocks. Rather than rely on marketing that lowers ecoogical awareness, ecobricking is a hands-on learning experience that raises it.  Rather than result in more products and factories that harm plants and animals, ecobricking leads to green spaces that give them a home.  Rather than un-attentive disposal, ecobricking is all about measuring, tracking and disclosing our plastics.  To sum it up... ecobricking is all about following the Earth's example to make sure that we're transitioning from plastic to greener ways of living. </p>
+				<p>Ecobricking is a form of <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">plastic sequestration</a>.  That means there's six principled reasons that set ecobricking apart.  Rather than being for-profit ecobricking is for-Earth.  Rather than letting plastic and carbon loose, ecobricking is all about their compaction and concentration.  Rather than cycling plastic only a few times, ecobriking creates indefinitely reusable building blocks. Rather than rely on marketing that lowers ecoogical awareness, ecobricking is a hands-on learning experience that raises it.  Rather than result in more products and factories that harm plants and animals, ecobricking leads to green spaces that give them a home.  Rather than un-attentive disposal, ecobricking is all about measuring, tracking and disclosing our plastics.  To sum it up... ecobricking is all about following the Earth's example of carbon care to make sure that we're transitioning from plastic to greener ways of living. </p>
 
 				<div class="faq-link"><h5>Learn more: <a href="/sequest">The Principles of Plastic Sequestration</h5></p></div>                    
 			</div>
@@ -441,7 +440,7 @@ Content Page template: v.1.0.0-->
 			<div class="faq-texts">
 				<div class="faq-header"><h4>I am keen to get going with ecobricking!  What's the best way to start?</h4></div>
 
-				<p>Start by writing down today's date.  Then, save your plastic for the next month!  Every single piece that comes into your household, be sure that it doesn't leave-- but instead gets cleaned, dried and placed in a special bin.  After 30 days, weigh all the plastic that your household has consumed, transfer it to another bin and... begin ecobricking (see the how to ecobrick).  If you don't finish all the plastic in one sitting that's ok.  Keep putting the plastic you consume in bin #1 and every month transfer your ecobrickable plastic into bin #2.  This way you're not only efficiently ecobricking, you're tracking your consumption, plastic reduction and plastic transition.</p>
+				<p>Start by writing down today's date.  Then, save your plastic for the next month!  Every single piece that comes into your household, be sure that it doesn't leave-- but instead gets cleaned, dried and placed in a special bin.  After 30 days, weigh all the plastic that your household has consumed, transfer it to another bin and... begin ecobricking (see the how to ecobrick).  If you don't finish all the plastic in one sitting that's ok.  Keep putting the plastic you consume in bin #1 and every month transfer your ecobrickable plastic into bin #2.  This way you're not only efficiently ecobricking, you're tracking your consumption, plastic reduction and plastic transition.  A year from now, keep track of a month of your plastic consumption.  Note the difference!</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/how">How to Make an Ecobrick</h5></a></div>                    
 					<div id="top-link">Back to <a href="#general">General Questions</a></div>
@@ -484,7 +483,8 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?</h4></div>
 					
-					<p>"Final solutions" aren't the way the Earth and its ecosystems work.  Rather than lines that start and end, ecosystems instead work in spiralling cycles-- using carbon molecules as building blocks that are used over and over again in a journey towards sequestration. By ecobricking our plastic (which is mainly carbon!) we're taking it out of the linear industrial systems,  and final-thinking paradigm.  Ecobricks are designed to be building blocks tha can be used over and over again.  Just like ecosystem they can be built with locally and with no extra energy.  This way our ecobricks can spiral through time and become gifts for future generations.  In the same way the Earth gifted us densely packed carbon (i.e. fossil fuels), we can gift our carbon to another age.  Like the dinausaurs, we can't imagine how the carbon of our age will be used in the future. However, we can be certain that it makes a better gift compacted and concentrated rather than scattered and dispersed, loose and leaching. </p>
+					<p>"Final solutions" aren't the way the Earth and its ecosystems work.  Rather than lines that start and end, ecosystems instead work in spiralling cycles-- using carbon molecules as building blocks that are used over and over again in a journey towards sequestration. By ecobricking our plastic (which is mainly carbon!) we're taking it out of linear industrial systems and the "final solution" paradigm.</p>
+					<p>In contrast, ecobricks are designed to be building blocks tha can be used over and over again.  Just like in an ecosystem, ecobrick are used locally and with no extra energy needed.  This way our ecobricks can spiral through time and become gifts for future generations.  In the same way the Earth gifted us densely packed carbon (i.e. fossil fuels), we can gift our compacted carbon to another age.  Like the dinausaurs, we can't imagine how the carbon of our age will be used in the future. However, we can be certain that it makes a better gift compacted and concentrated rather than scattered and dispersed, loose and leaching. </p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/circular">Spiral & Circular Design</h5></a></div>  
 					<div id="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>                  
@@ -502,7 +502,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>Don't ecobricks just encourage people to consume more plastic?</h4></div>
 					
-					<p>This is a question we get a lot from people who have yet to make an ecobrick.  Once you commit to taking full responsibility for your plastic and start packing every piece, you get very choosy about the plastic you buy!  Let's be honest, ecobricking isn't fun-- nor washing, drying your plastics every day to prep them for bricking.  In a 2021 cross-sectional survey of ecobrickers, we found that on average their monthly plastic consumption had decreased to 61% of their per capita average.  Rather than give an excuse to continue consuming plastic, ecobricking helps to increase plastic awareness and accelerate plastic transition.</p>
+					<p>This is a question we get a lot from people who have yet to make an ecobrick.  Once you commit to taking full responsibility for your plastic and start packing every piece, you get very choosy about the plastic you buy!  Let's be honest, ecobricking isn't fun-- nor is washing and drying your plastics every day to prep them for ecobricking!  In a 2021 cross-sectional survey of ecobrickers, we found that on average their monthly plastic consumption had decreased to 61% of their per capita average.  Rather than give an excuse to continue consuming plastic, ecobricking helps to increase plastic awareness and accelerate plastic transition.</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="transition.php">Plastic Transition</h5></a></div>     
 					<div id="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>                  
@@ -518,7 +518,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4> I've heard that ecobricks can leach poisons out into the environment.  Is it true?</h4></div>
 					
-					<p>Yes!  If you were to set an ecobrick on fire, leave it in the sun, or boil it in a bucket of water, it certainly would leach poisons.  Just like pretty much anything made from plastic!  Anything used the wrong way can be dangerous.  This is he point of ecobricking: to secure plastic and keep it safe.  Plastic is susceptible to degradation and leaching to the extent that its surface area is exposed to the elements.  When we pack plastic densely into a bottle we reduce the net-surface area a thousand-fold.  Then, when we put ecobricks to use in applications that cover and protect the plastic, the danger of leaching is near nil!  And don't forget, by not recycling plastic we avoid all the carbon that would be released industrially!</p>
+					<p>Yes!  If you were to set an ecobrick on fire, leave it in the sun, or boil it in a bucket of water, it certainly would leach poisons.  Just like pretty much anything made from plastic!  In fact, anything used the wrong way can be dangerous.  This is he point of ecobricking: to secure plastic and keep it safe.  Ecobricking is done based on the knowledge that plastic is susceptible to degradation and leaching to the extent that its surface area is exposed to the elements.  When we pack plastic densely into a bottle we reduce the net-surface area a thousand-fold.  Then, when we put ecobricks to use in applications that cover and protect the plastic, the danger of leaching is near nil!  Oh... and don't forget, by not recycling plastic we avoid all the carbon that would be released industrially!</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="transition.php">Plastic Sequestration</h5></a></div>                    
 					<div id="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>   
@@ -624,7 +624,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What can I make with tens of thousands of ecobricks?</h4></div>
 					
-					<p>A green space!  By combining ecobricks with tradional earth building techniques you can build parks, play areas, garden and food forests for your home or community.  Ecobricks are laid horizontally in earthen mortar (i.e. cob, adobe, etc.) to build up benches, garden beds, walls and even structures.  Of course, technically you only need dozens of ecobricks to start earth building-- but thousands is where the real possibilities begin!</p>
+					<p>A green space!  By combining ecobricks with tradional earth building techniques you can build parks, play areas, garden and food forests for your home or community.  Ecobricks are laid horizontally in earthen mortar (i.e. cob, adobe, etc.) to build up benches, garden beds, walls and even structures.  Of course, technically you only need dozens of ecobricks to start earth building-- but when you've got thousands, that is when the real fun begin!</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/earth">More about Earth & Ecobrick Building</a></h5></div>                    
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>   
@@ -656,7 +656,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What exactly is Earth and Ecobrick building?</h4></div>
 					
-					<p>Building with earth is an ancient tradition.  By combining it with ecobricks, anyone can build simple non-structural constructions.  In particular, earth and ecobrick building is ideal for making planters, benches and garden beds-- parks, food-forests, and in general green spaces that can serve our community and be a home for plants and other species.  Using local earth to make cob mortar, our ecobricks are covered up and secured from all forms of degradation.</p>
+					<p>Building with earth is an ancient human tradition found around the world in nations ancient and ongoing.  By combining it with ecobricks, anyone can build simple non-structural constructions.  In particular, earth and ecobrick building is ideal for making planters, benches and garden beds-- parks, food-forests, and in general green spaces that can serve our community and be a home for plants and other species.  Using local earth to make cob mortar, our ecobricks are covered up and secured from all forms of degradation.</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/earth">Earth & Ecobrick Buidling</a></h5></div>     
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
@@ -672,7 +672,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How to build with Ecobricks and Earth?</h4></div>
 					
-					<p>Building with earth and ecobricks is... well, pretty awesome!  First you start by learning about the ancient traditions in your area.  Then you get your ecobricks, friends and community together.  Using nothing but local materials you then get down and dirty digging a foundation, laying it down and building on up.  Layer by layer you add ecobricks, cob, ecobricks, cob.  As you go you curve and sculpt your bench, planter or wall.  When it's up and it's dry then you choose the appropriate outer skin and render it on.<br>That's obviously too short a summary! If you're serious, you'll want to check out our step by step directions and suggested techniques.    </p>
+					<p>Building with earth and ecobricks is... pretty awesome!  First you start by learning about the ancient earth traditions in your area.  Then you get your ecobricks, friends and community together.  Using nothing but local materials you then get down and dirty digging a foundation, laying it down and building on up.  Layer by layer you add ecobricks, cob, ecobricks, cob.  As you go you curve and sculpt your bench, planter or wall.  When it's up and it's dry then you choose the appropriate outer skin and render it on.<br>That's obviously too short a summary! If you're serious, you'll want to check out our step by step directions and suggested techniques.</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/earth-methods">Earth & Ecobrick Methods</a></h5></div>                    
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>
@@ -688,7 +688,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>Are ecobricks a fire hazard since they are made with flammable plastic?</h4></div>
 					
-					<p>Plastic, just like pretty much everything else, can be flammable.  Whether you're building with ecobricks or wood, it's all about building safely.  It all starts by making ecobricks properly.  When ecobricks are made according to GEA density standards, flammability is critically reduced.  Furthermore, by building and using ecobricks properly, their fire hazard is further reduced.  Ecobrick and earth building for green spaces, our most recommended ecobrick application, reduces flammability to virtually nil.</p>
+					<p>Yes. Plastic, just like pretty much everything else, can be flammable.  Whether you're building with wood, bamboo or ecobrikcks it's all about doing so to minimize fire harzards.  Ecobrick fire safety, starts by making ecobricks properly.  When ecobricks are made according to GEA density standards, flammability is critically reduced.  Furthermore, by building with ecobricks properly, their flamability is yet further reduced.  In fact, ecobrick and earth building for outdoor green spaces (our recommended ecobrick application) reduces flammability to virtually nil by completely encasing ecobricks in cob.  In fact, other than test earth and ecobrick walls that have been deliberately set on fire (and it wasn't easy), we know of no ecobrick green spaces that have ever caught fire. </p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/fire">Ecobricks & Fire Security</a></h5></p></div>  
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
@@ -728,7 +728,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How to connect with the ecobrick movement?</h4></div>
 				
-					<p>The global ecobrick movement is a fundamentally decentralized and distributed network of keen green folks, communities and companies around the world.  And there's tons of diversity!  Depending on what's available folks ecobrick in unique ways across culture and continents.  While many of these folks are not online at all, many are and use social media to connect and support their local ecobrick communities.  We keep a far-from-completelist of web pages and social media pages around the world to follow, make friends and join.</p>
+					<p>The global ecobrick movement is a fundamentally decentralized and distributed network of keen green folks, communities and companies around the world.  And there's tons of diversity!  Depending on what's available folks ecobrick in unique ways across culture and continents.  While many of these folks are not online at all, many are and use social media to connect and support their local ecobrick communities.  We keep a far-from-complete list of web pages and social media pages around the world to follow, make friends and join.</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/movement">Global Ecobrick Movement</h5></a></div>                    
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
@@ -743,7 +743,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>Who are you guys?</h4></div>
 					
-					<p>We're a global alliance of ecobrickers!  We've come together to form the Global Ecobrick Alliance as a way to support the conceptual and technological infracstructure of the plastic transition movement.  Despite the diversity of the movement around the world, the problem of plastic connects us all.  So too does the consistentcy of PET bottles and plastic packaging!  We see plastic as a grand opportunity for collective ecological action.  We're not a company, a charity or NGO-- we're what we call an Earth Enterprise.  Unlike many companies we don't have shareholders or owners who profit from excess revenue.  Unlike many Charities and NGOs we generate our own revenue-- specifically by providing the valuable social service of training ecobrickers and the value ecological service of authenticating plastic sequestration.</p>
+					<p>We're a global alliance of ecobrickers!  We've come together to form the Global Ecobrick Alliance as a way to support the conceptual and technological infracstructure of the plastic transition movement.  Despite the diversity of the movement around the world, the problem of plastic connects us all.  And so too does the consistentcy of PET bottles and plastic packaging!  We see plastic as a grand opportunity for collective ecological action.  We're not a company, a charity or NGO-- we're what we call an Earth Enterprise.  Unlike many companies we don't have shareholders or owners who profit from excess revenue.  Unlike many Charities and NGOs we generate our own revenue-- specifically by providing valuable social service of training ecobrickers and the valuable ecological service of authenticating plastic sequestration.</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="about.php">Learn more about the GEA</h5></p></div>  
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
@@ -761,7 +761,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</h4></div>
 					
-					<p>Good question!  Asking where an enterprise gets its funds is important to understand their priority.  We generate our funds by providing ecological service and by raising ecological awareness.  Folks around the world join our on-site and online training and our Trainers remit 20% to the the GEA.  In addition our trainers sell our EarthWand ecobrick stick and remit 50% back to the GEA.  Finally, through GoBrik.com all the ecobricking that our block chain authenticates is quantified and available for purchase as AES plastic offset credits.  Buying Authenticated Ecobrick Sequestered plastic credits is a great way to take responsibility for your plastic generation and energize our work-- and through it the global plastic transition movement.</p>
+					<p>Good question!  Asking where an enterprise receives its funding is key to understanding their priorities and principles.  We generate our funds by providing ecological service and by raising ecological awareness.  Folks around the world join our on-site and online <a href="/trainings">training</a> and our Trainers remit 20% to the the GEA.  In addition our trainers sell our <a href="/earthwands">EarthWand</a> ecobrick stick and remit 50% back to the GEA.  Finally, through GoBrik.com all the ecobricking that our block chain authenticates is quantified and available for purchase as <a href="https://gobrik.com/offset" target="_blank"> AES plastic offset credits</a>.  Buying Authenticated Ecobrick Sequestered plastic credits is a great way to take responsibility for your plastic generation and energize our work-- and through it the global plastic transition movement.</p>
 
 					<div class="faq-link"><h5>Start: <a href="about">Buy AES Offset Credits</h5></p></div>  
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
@@ -776,7 +776,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How does the ecobrick movement spread?  Are people paid to do this?</h4></div>
 				
-					<p>Nope!  Nobody gets paid to ecobrick.  The ecobrick movement is a non-capital movement powered by collaboration and green spirit.  In other words, the motivation to see our earth clean and green is firstly and foremostly what inspires not just ecobricking, but the training sessions done by our trainers, and the operation of the Global Ecobrick Alliance.  By adhering to clear principles and methodologies, the movement spread mandalically.   This quiet, subtle yet powerful social spread is what we call mandalic collaboration.   This philosophy helps to make sense of the paradox of our decentalized movement with a centralized focus!</p>
+					<p>Nope!  Nobody gets paid to ecobrick.  The ecobrick movement is a non-capital movement powered by collaboration and green spirit.  In other words, the motivation to see our earth clean and green is firstly and foremostly what inspires not just ecobricking, but the training sessions done by our trainers, and the operation of the Global Ecobrick Alliance.  By adhering to clear principles and methodologies, the movement spreads "mandalically".   This quiet and subtle yet potent and powerful social spread is what we call mandalic collaboration.   This philosophy helps to make sense of the paradox of our decentalized movement presided over by a centralized for-Earth enterprise.</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/mandalas">Mandalic Collaboration</h5></a></div>                    
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
@@ -813,7 +813,7 @@ Content Page template: v.1.0.0-->
 					
 						<p>We love to add your planet passion to our network.  There's no prequisites-- other than experience making your own ecobricks!  To get a feel for what's involved, you can join one of the GEA's starter workshops!  We've got them going on all the time, online and onffline around the world.  Once you're ready, you can register for one of our five session GEA Trainer of Trainer workshops.  While our ToTs happen online very two months, we also do them onsite by commision: for cities, governments and companies keen to deploy a local ecobricking movement.  We also have Earth & Building starter and trainer workshops too!</p>
 
-						<div class="faq-link"><h5>Learn more: <a href="/movement">GEA Trainer Programs</h5></a></div>              
+						<div class="faq-link"><h5>Learn more: <a href="/trainings">GEA Trainer Programs</h5></a></div>              
 						<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 					</div>
 				</div>
@@ -888,7 +888,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How to join GoBrik?</h4></div>
 					
-					<p>GoBrik accounts are free!  GoBrik is a web app.  This means you can sign up and use it on your desktop computer-- or on your phone.  Signing up is easy with either your email address or your Facebook account.  We'll ask you some questions about your ecobricking, and then you're set to log ecobricks, earn brikcoins, and exchange ecobricks on our marketplace.  Visit GoBrik.com or reregister right here on Ecobricks.org</p>
+					<p>GoBrik accounts are free!  GoBrik is a web app.  This means you can sign up and use it on your desktop computer-- or on your phone.  Signing up is easy with either your email address or your Facebook account.  We'll ask you some questions about your ecobricking, and then you're set to log ecobricks, earn brikcoins, and exchange ecobricks on our marketplace.  Visit GoBrik.com to register.</p>
 
 					<div class="faq-link"><h5>Learn more: <a href="/gobrik">GoBrik Platform</a><br>
 						Launch: <a href="gobrik">GoBrik.com</a></h5>
