@@ -750,7 +750,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="about.php">Learn more about the GEA</h5></p></div>  
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
 				</div>
-				<div class="faq-image"><img src="svgs/shanti.svg" width="60%" loading="lazy"></div>
+				<div class="faq-image"><img src="svgs/shanti.svg" width="80% !important" loading="lazy"></div>
 			</div>
 		</div>
 
@@ -1033,9 +1033,9 @@ Content Page template: v.1.0.0-->
 
 							<div class="faq-link"><h5>Learn more: <a href="arc.php">Arc CDN</h5></a></div>   
 							<div id="top-link">Back to <a href="#misc">More Questions</a></div>                
-						
+							</div>
 						<div class="faq-image"><img src="webp/arc-green-popper.webp" alt="green cdn service" loading="lazy"></div>
-						</div>
+						
 					</div>
 
 				</div>
