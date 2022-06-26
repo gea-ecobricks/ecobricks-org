@@ -1017,8 +1017,6 @@ Content Page template: v.1.0.0-->
 				
 			</div>
 
-		</div>
-
 		<div class="faq">
 			<p><a name="arcio"></a></p>
 			<div class="faq-box">
