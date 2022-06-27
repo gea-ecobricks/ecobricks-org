@@ -1,4 +1,4 @@
-<!--PAGE LANGUAGE:  ENGLISH
+<!--PAGE LANGUAGE:  INDONESIA
 Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
@@ -6,14 +6,14 @@ Content Page template: v.1.0.1-->
 <?php require_once ("includes/drop-off-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">The Brik Market</div>
-	    <div class="splash-sub">The place to arrange ecobrick exchanges, hubs, barters and drop-offs.</div>
+		<div class="splash-heading">Pasar Ecobrick</div>
+	    <div class="splash-sub">Tempat untuk mengatur pertukaran ecobrick, hub, barter dan drop-off.</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/webp/brikmarket-400px.webp?v1.3" style="width: 70%">
     </div>	
@@ -32,14 +32,14 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Got ecobricks?  Need ecobricks? For Earth Day 2022, the Global Ecobrick Alliance launched the Brik Market:  a space to post and arrange ecobrick exchanges with local ecobrickers, projects and hubs.</p>
+            <p>Punya ecobrick? Butuh ecobrick? Untuk Hari Bumi 2022, Aliansi Ecobrick Global meluncurkan Pasar Brik: ruang untuk memposting dan mengatur pertukaran ecobrick dengan ecobrick, proyek, dan hub lokal.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
 
-            <p>The <a href="https://gobrik.com/#market" target="_blank">Brik Market</a> has been under development for the last three years by the <a href="about.php">Global Ecobrick Alliance (GEA)</a>.  It is a space where ecobricked plastic can be used as a medium of local exchange and currency— a key part of the GEA's mission of accelerating <a href="transition.php">plastic transition</a> and adding further value the ecological service of <a href="sequest.php">plastic sequestration</a>.  The Brik Market <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">brikcoin manual blockchain</a>.</p>
+            <p><a href="https://gobrik.com/#market" target="_blank">Brik Market</a> telah dikembangkan selama tiga tahun terakhir oleh <a href="about. php">Aliansi Ecobrick Global (GEA)</a>. Ini adalah ruang di mana plastik ecobrick dapat digunakan sebagai media pertukaran dan mata uang lokal— bagian penting dari misi GEA untuk mempercepat <a href="transition.php">transisi plastik</a> dan menambahkan nilai lebih lanjut terhadap ekologi layanan <a href="sequest.php">sekuestrasi plastik</a>. <a href="/gobrik">Platform GoBrik</a> Brik Market dan terhubung ke <a href="brikcoins.php">blockchain manual brikcoin</a>.</p>
 		
             </div>	
 			<a name="DROP"></a>
