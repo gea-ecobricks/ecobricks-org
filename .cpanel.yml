@@ -45,7 +45,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp catalyst.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
   - /bin/cp media.php $DEPLOYPATH
@@ -87,7 +86,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp catalyst.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
   - /bin/cp media.php $DEPLOYPATH
@@ -130,7 +128,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp catalyst.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
   - /bin/cp media.php $DEPLOYPATH
@@ -172,7 +169,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp catalyst.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
   - /bin/cp media.php $DEPLOYPATH
@@ -214,7 +210,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp catalyst.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
   - /bin/cp media.php $DEPLOYPATH
