@@ -46,10 +46,17 @@ deployment:
 
   - export DEPLOYPATH=/home/ecobricks/public_html/
 
+  - /bin/cp -R en $DEPLOYPATH
+  - /bin/cp -R fr $DEPLOYPATH
+  - /bin/cp -R es $DEPLOYPATH
+  - /bin/cp -R id $DEPLOYPATH
+
   - /bin/cp -R logos $DEPLOYPATH
   - /bin/cp -R icons $DEPLOYPATH
   - /bin/cp -R svgs $DEPLOYPATH
   - /bin/cp -R webp $DEPLOYPATH
+
+
   - /bin/cp -R pngs $DEPLOYPATH
   - /bin/cp -R photos $DEPLOYPATH
   - /bin/cp -R meta $DEPLOYPATH
