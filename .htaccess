@@ -87,8 +87,8 @@ Redirect /arc/ /en/arc.php
 Redirect /arc.php /en/arc.php
 
 
-Redirect /catalyst /catalyst.php
-Redirect /catalyst/ /catalyst.php
+Redirect /catalyst /en/catalyst.php
+Redirect /catalyst/ /en/catalyst.php
 
 
 Redirect /2021-regenreport /en/regenreports.php

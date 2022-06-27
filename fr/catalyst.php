@@ -31,20 +31,22 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
+			<p>La façon dont une entreprise gère son plastique est l'un de ses indicateurs écologiques clés les plus révélateurs.</p>
+			</div>
 				
 			<div class="page-paragraphe">
-			<p>Nous vivons à l'ère de la transition vers les combustibles fossiles. En tant que sous-produit du pétrole, la façon dont votre entreprise gère son plastique est un indicateur révélateur de l'endroit où il se trouve dans le processus d'éloignement de la dépendance aux combustibles fossiles. Que votre entreprise passe au zéro déchet ou passe au net vert, il n'y a qu'une seule façon de donner l'exemple et de faire une différence définitive : <i>Suivi et divulgation du plastique.</i><p>
+				<p>Nous vivons à l'ère de la transition vers les combustibles fossiles. En tant que sous-produit du pétrole, la façon dont votre entreprise gère son plastique est un indicateur révélateur de l'endroit où il se trouve dans le processus d'éloignement de la dépendance aux combustibles fossiles. Que votre entreprise passe au zéro déchet ou passe au net vert, il n'y a qu'une seule façon de donner l'exemple et de faire une différence définitive : <i>Suivi et divulgation du plastique.</i><p>
 
-			<p>Développé au cours des trois dernières années avec plus d'une douzaine de petites et grandes entreprises, de la Suède à l'Indonésie, notre programme Catalyst permet aux entreprises de faire exactement cela. Et bien plus !</p>
+				<p>Développé au cours des trois dernières années avec plus d'une douzaine de petites et grandes entreprises, de la Suède à l'Indonésie, notre programme Catalyst permet aux entreprises de faire exactement cela. Et bien plus !</p>
 
-			<p>À l'aide d'un algorithme d'estimation automatisé, le suivi annuel du plastique de votre entreprise peut être configuré en 15 minutes. Puis, au fil de l'année, améliorez votre reporting tout en augmentant vos impacts verts. Tous vos écobriques, compensations et engagements communautaires sont automatiquement crédités sur votre compte via la blockchain <a href="brikcoins">brikcoin</a>.</p>
+				<p>À l'aide d'un algorithme d'estimation automatisé, le suivi annuel du plastique de votre entreprise peut être configuré en 15 minutes. Puis, au fil de l'année, améliorez votre reporting tout en augmentant vos impacts verts. Tous vos écobriques, compensations et engagements communautaires sont automatiquement crédités sur votre compte via la blockchain <a href="brikcoins">brikcoin</a>.</p>
 
-			<p>En attendant, des rapports automatiques en direct et annuels sont générés résumant votre impact net. De cette façon, vous pouvez divulguer votre transition plastique professionnellement et publiquement sur notre plateforme tierce pour inspirer les autres avec vos efforts, votre courage et votre transparence.</p>
+				<p>En attendant, des rapports automatiques en direct et annuels sont générés résumant votre impact net. De cette façon, vous pouvez divulguer votre transition plastique professionnellement et publiquement sur notre plateforme tierce pour inspirer les autres avec vos efforts, votre courage et votre transparence.</p>
 
-			<p>Ensemble, nous pouvons catalyser la <a href="transition">transition plastique</a> dans nos communautés locales et mondiales.</p>
-			<br><br>
-			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Lancer la configuration de Catalyst</a>
-			<p style="font-size: 0.85em; margin-top:20px;">Nous vous redirigerons vers GoBrik dans une nouvelle fenêtre.</a></p>
+				<p>Ensemble, nous pouvons catalyser la <a href="transition">transition plastique</a> dans nos communautés locales et mondiales.</p>
+				<br><br>
+				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Lancer la configuration de Catalyst</a>
+				<p style="font-size: 0.85em; margin-top:20px;">Nous vous redirigerons vers GoBrik dans une nouvelle fenêtre.</a></p>
 
 			</div>	
 
