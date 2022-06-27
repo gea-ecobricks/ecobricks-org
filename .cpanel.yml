@@ -97,7 +97,7 @@ deployment:
     - export DEPLOYPATH=/home/ecobricks/public_html/id/
 
 
-     - /bin/cp -R logos $DEPLOYPATH
+    - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
@@ -185,11 +185,6 @@ deployment:
     - /bin/cp brikcoins.php $DEPLOYPATH
 
 
-
-
-
-
-
     - export DEPLOYPATH=/home/ecobricks/public_html/
 
 
@@ -238,4 +233,3 @@ deployment:
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
-
