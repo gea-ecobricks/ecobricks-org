@@ -106,6 +106,7 @@ _END;?>
 	padding: 10px 30px 0px 0px;
 	box-sizing: border-box;
 	text-align: right;
+    margin: auto;
 }
 }
 
@@ -120,7 +121,7 @@ _END;?>
   width: 250px;
 	padding: 0px;
 	box-sizing: border-box;
-	margin: 0px 0px 0px 10px;
+	margin: 40px 0px 0px 10px;
 }
 }
 
@@ -130,10 +131,10 @@ _END;?>
 .splash-box {
 	position: relative;
   flex: 100%;
-	padding: 10px 10px 0px 0px;
+	padding: 20px 10px 0px 0px;
 	box-sizing: border-box;
 	text-align: right;
-    margin: auto;
+
 }
 }
 
@@ -159,7 +160,7 @@ _END;?>
 	.splash-heading {
       font-size: 3em;
       line-height: 1.3;
-      margin: 40px 0 10px;
+      margin: 0px 0px 10px 0px;
   }
 }
 

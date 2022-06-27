@@ -71,7 +71,7 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 							<p>Today its clear that the vast majority of the plastic we use eventually makes its way to the biosphere.  When your enterprise consumes or produces plastic, we call this a "grey plastic impact".  Tracking your company's production and consumption of plastic is the first step in reducing one's grey impact on the environment.</p>
 						</div>
-						<div class="side2"><img src="webp/balancing-green.webp" width="80%">
+						<div class="side2"><img src="webp/balancing-green.webp" width="60%" alt="net green impact" loading="lazy">
 						</div>
 					</div>
 
@@ -80,7 +80,7 @@ Content Page template: v.1.0.1-->
 						<br><p><b>Get started in 15 minutes</b></p>
 					
 						</div>
-						<div class="side3"><img src="webp/balancing-green.webp" width="125px">
+						<div class="side3"><img src="webp/balancing-green.webp" width="125px" loading="lazy">
 						</div>
 					</div>
 					<p>The Catalyst program gets you going in no time using a process of estimation refinement. As an owner, manager of president of your enterprise you can estimate better than anyone else how much plastic you are currently using.</p>
@@ -108,19 +108,17 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 						<p>You're passionate about the planet and so is your enterprise.  So let the world know through open accounting and transparency!  Plastic transition disclosure allows you to showcase your efforts, lead by example and inspire others.</p>
 						</div>
-						<div class="side2"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="175px">
+						<div class="side2"><img src="webp/floating-dial-500px.webp" width="175px" alt="ecological accounting score" loading="lazy">
 						</div>
 					</div>
 
 					
 
 					<div class="row">
-						<div class="main2">
+						
 						<p><b>Automated Reporting</b></p>
 						<p>The Catalyst program allows you to create yearly plastic impact reports that summarize your grey and green impacts.  As a third-party host, we certify your AES plastic impacts so that you can confidently share them with your customers, clients and in government sustainability reviews.</p>
-						</div>
-						<div class="side2"><br><img src="https://www.ecobricks.org/wp-content/uploads/2021/08/Regen-Report-2021-GEA.webp" width="175px">
-						</div>
+						
 					</div>
 
 
@@ -132,7 +130,7 @@ Content Page template: v.1.0.1-->
 						<br><p><b>Public Disclosure</b></p>
 						
 						</div>
-						<div class="side3"><img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/60c86875d6dbb7001ef8ed79/original/disclosedial.png" width="150px">
+						<div class="side3"><img src="pngs/disclosedial.png" width="150px" alt="ecological accounting score" loading="lazy">
 						</div>
 					</div>
 					
@@ -159,9 +157,9 @@ Content Page template: v.1.0.1-->
 					<br>
 					<div class="row">
 						<div class="main2">
-						<p>But best of all, the Catalyst program allows you to take decisive and quantifiable action to green your enterprise's impact.  You can use our system to log your ecobricks, buy plastic offsets and mobilize communities.  The green impact of all these goes to the credit of your enterprise.</p>
+						<p>But best of all, the Catalyst program allows you to take decisive and quantifiable action to green your enterprise's impact.  You can use our system to log your ecobricks, buy AES plastic offsets and mobilize communities.  The green impact of all these goes to the green credit of your enterprise.  This credit shows up in your year end ecological accounting to balance off your grey impacts.</p>
 						</div>
-						<div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2020/09/AES-Plastic-Logo-full-vector-shadowed.svg" width="100%">
+						<div class="side2"><img src="svgs/aes-no-shadow.svg" width="80%" alt="Authenticated Ecobrick Sequestered Plastic">
 						</div>
 					</div>
 
@@ -169,7 +167,7 @@ Content Page template: v.1.0.1-->
 						<div class="main3">
 						<p>There are three types of green impacts that can be certified as AES credit.</p>
 						</div>
-						<div class="side3"><img src="https://www.ecobricks.org/wp-content/uploads/2020/09/AES-Plastic-Logo-full-vector-shadowed.svg" width="120px">
+						<div class="side3"><img src="svgs/aes-no-shadow.svg" width="120px" alt="Authenticated Ecobrick Sequestered Plastic">
 						</div>
 					</div>
 			
@@ -232,25 +230,8 @@ Content Page template: v.1.0.1-->
 		</div>
 		
 		</div>
-<!--
-		<h4>Learn More</h4>
-		
-		<p>Many powerful concepts underlie the Catalyst Program. .
-		</p>
-		<ul>
-			<li><a href="aes">AES Plastic Offsetting</a></li>
-			<li><a href="brikcoin">Brikcoin Manual Blockchain</a></li>
-			<li><a href="sequest">Plastic Sequestration</a></li>
-			<li><a href="mandalas">Leading by Example</a></li>
-			<li><a href="principles">Regenerative Principles</a></li>
-			<li><a href="https://medium.com/earthen">The Earthen Ethics Theory of Green</a></li>
-		</ul>
--->
-		
 
 
-
-	
 
 
 		<div class="side">
