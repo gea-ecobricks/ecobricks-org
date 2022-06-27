@@ -17,7 +17,7 @@ _END;?>
 
 <link rel="preload" as="image" href="https://ecobricks.org/webp/faq-bottom.webp">
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop?v1">
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-animated-desktop?v1">
 <link rel="preload" as="image" href="https://ecobricks.org/webp/faq-top.webp">
 
 
@@ -58,7 +58,7 @@ _END;?>
 
 
 #clouds {
-	background: url(https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1) center top;
+	background: url(https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1) center top;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

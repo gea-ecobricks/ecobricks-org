@@ -35,7 +35,6 @@ deployment:
     - /bin/cp details-brk-trans.php $DEPLOYPATH
 
     - /bin/cp stylesheet-general.css $DEPLOYPATH
-    - /bin/cp styles-landing.php $DEPLOYPATH
     - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
 
@@ -47,14 +46,12 @@ deployment:
     - /bin/cp gea-webhead.html $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
-    - /bin/cp drop-off.php $DEPLOYPATH
 
 
 
     - export DEPLOYPATH=/home/ecobricks/public_html/es/
 
-
-    - /bin/cp -R logos $DEPLOYPATH
+ - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
@@ -83,7 +80,6 @@ deployment:
     - /bin/cp details-brk-trans.php $DEPLOYPATH
 
     - /bin/cp stylesheet-general.css $DEPLOYPATH
-    - /bin/cp styles-landing.php $DEPLOYPATH
     - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
 
@@ -93,18 +89,15 @@ deployment:
     - /bin/cp catalyst.php $DEPLOYPATH
     - /bin/cp coefficients.php $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.php $DEPLOYPATH
-
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
-    - /bin/cp drop-off.php $DEPLOYPATH
 
 
 
     - export DEPLOYPATH=/home/ecobricks/public_html/id/
 
 
-    - /bin/cp -R logos $DEPLOYPATH
+     - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
@@ -133,7 +126,6 @@ deployment:
     - /bin/cp details-brk-trans.php $DEPLOYPATH
 
     - /bin/cp stylesheet-general.css $DEPLOYPATH
-    - /bin/cp styles-landing.php $DEPLOYPATH
     - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
 
@@ -143,15 +135,15 @@ deployment:
     - /bin/cp catalyst.php $DEPLOYPATH
     - /bin/cp coefficients.php $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
-    - /bin/cp drop-off.php $DEPLOYPATH
+
+
 
     - export DEPLOYPATH=/home/ecobricks/public_html/fr/
 
 
-    - /bin/cp -R logos $DEPLOYPATH
+     - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
@@ -180,7 +172,6 @@ deployment:
     - /bin/cp details-brk-trans.php $DEPLOYPATH
 
     - /bin/cp stylesheet-general.css $DEPLOYPATH
-    - /bin/cp styles-landing.php $DEPLOYPATH
     - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
 
@@ -190,10 +181,8 @@ deployment:
     - /bin/cp catalyst.php $DEPLOYPATH
     - /bin/cp coefficients.php $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.php $DEPLOYPATH
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
-    - /bin/cp drop-off.php $DEPLOYPATH
 
 
 
@@ -209,7 +198,7 @@ deployment:
     - /bin/cp -R es $DEPLOYPATH
     - /bin/cp -R fr $DEPLOYPATH
 
-    - /bin/cp -R logos $DEPLOYPATH
+     - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
@@ -230,7 +219,6 @@ deployment:
     - /bin/cp accordion-scripts.js $DEPLOYPATH
     - /bin/cp db.php $DEPLOYPATH
     - /bin/cp ssp.class.php $DEPLOYPATH
-
     - /bin/cp ajax-ecobricks.php $DEPLOYPATH
     - /bin/cp ajax-cash-trans.php $DEPLOYPATH
     - /bin/cp ajax-brk-trans.php $DEPLOYPATH
@@ -239,7 +227,6 @@ deployment:
     - /bin/cp details-brk-trans.php $DEPLOYPATH
 
     - /bin/cp stylesheet-general.css $DEPLOYPATH
-    - /bin/cp styles-landing.php $DEPLOYPATH
     - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
 
@@ -249,10 +236,6 @@ deployment:
     - /bin/cp catalyst.php $DEPLOYPATH
     - /bin/cp coefficients.php $DEPLOYPATH
     - /bin/cp gea-webhead.html $DEPLOYPATH
-    - /bin/cp faqs.php $DEPLOYPATH
-
     - /bin/cp media.php $DEPLOYPATH
     - /bin/cp brikcoins.php $DEPLOYPATH
-    - /bin/cp drop-off.php $DEPLOYPATH
-    - /bin/cp principles.php $DEPLOYPATH
 
