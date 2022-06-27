@@ -32,17 +32,17 @@ Content Page template: v.1.0.1-->
 
 			<div class="lead-page-paragraph">
 				
-			<p>An enterprise's plastic transition is one of the most telling indicators of its greeness.</p>
+			<p>The way in which an Enterprise manages its plastic is one of its most telling Key Green Indicators.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>Whether your enterprise is reducing down to zero-waste or accelerating up into net-green, there's only one way to truly lead by example and make a definitive difference: <i>Plastic tracking and disclosure.</i><p> 
+				<p>We live in the age of fossil fuel transition.  As petroleum by-product, how your enterprise manages its plastic is an telling indicator of where it is in the journey away from fossil fuel dependence.  Whether your enterprise is reducing down to zero-waste or accelerating up into net-green, there's only one way to truly lead by example and make a definitive difference: <i>Plastic tracking and disclosure.</i><p> 
 
-				<p>Developed over the last three years with over a dozen companies small and large, from Sweden to Indonesia, the Catalyst program, allows you to do just this.  And more!  Starting January 2022, we're waiving all upfront program fees is open to companies, NGOs and projects willing to commit to plastic transition.</p>
+				<p>Developed over the last three years with over a dozen companies small and large, from Sweden to Indonesia, our Catalyst program, allows enterprises to do just this.  And more!</p>
 				
-				<p>Using an automated estimation algorythm, your enterprise's 2022 plastic tracking can be setup in 15 minutes.  Then, over the year, improve your reporting while increasing your green impacts. All your ecobricking, offsetting and community engagement are automatically credited to your account through the <a href="brikcoins">brikcoin</a> blockchain.</p>
+				<p>Using an automated estimation algorythm, your enterprise's annual plastic tracking can be setup in 15 minutes.  Then, over the year, improve your reporting while increasing your green impacts. All your ecobricking, offsetting and community engagement are automatically credited to your account through the <a href="brikcoins">brikcoin</a> blockchain.</p>
 					
-				<p>Meanwhile, automatic live and year reports are generated summarizing your net impact.  This way you can disclose your plastic transition professionaly and publicly on our third-party platform to inspire others with your efforts, courage and transparency.</p>
+				<p>Meanwhile, automatic live and yearly reports are generated summarizing your net impact.  This way you can disclose your plastic transition professionaly and publicly on our third-party platform to inspire others with your efforts, courage and transparency.</p>
 					
 				<p>Together we can catalyze <a href="transition">plastic transition</a> in our local and global communities.</p>
 				<br><br>
