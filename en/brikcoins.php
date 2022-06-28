@@ -34,12 +34,12 @@ Content Page template: v.1.0.1-->
 		</div>
 
 		<div class="page-paragraph">
-            <p>Blockchain innovations have enabled a revolutionary means of exchanging value and recording transactions through cryptographic verification. However, the ever increasing amount of computer work and hardware required has all too often resulted in higher and higher environmental costs— all without generating any underlying human or ecological value.  All too often, these currencies have favored those already possessing currency, leading to an ever increasing divide between those who have, and those who have not.</p>
+            <p>The advent of blockchain technology has enabled a revolutionary means of exchanging value and recording transactions through cryptographic verification. However, the ever increasing amount of computer work and hardware required has all too often resulted in higher and higher environmental costs— all without generating any underlying human or ecological value.  All too often, these currencies have favored those already possessing currency, leading to an ever increasing divide between those who have, and those who have not.</p>
 
-			<p>In contrast, the Brikcoin manual blockchain (BRK / β)) is based on the generation of ecological value by human work.  Unlike other blockchains focused on proving the consistency of their ledger, Brikcoins are focused on the generation of the value underlying the ledger.  Much like ancient currencies were based on gold or silver that had a value in-itself, Brikcoins are based on secured plastic that has an ecological value in-and-of-itself.  Specifically, the proof that plastic has been secured out of the biosphere and out of industry through ecobricking.</p>
+			<p>In contrast, the Brikcoin manual blockchain (BRK / β)) is based on the generation of ecological value by human work.  Unlike other blockchains focused on proving the consistency of their ledger, Brikcoins are focused on the generation of the value underlying the ledger.  Much like ancient currencies were based on gold or silver that had a value in-and-of-itself, Brikcoins are based on secured plastic that has an ecological value in-and-of-itself.  Specifically: plastic that has been proved to have been secured out of the biosphere and out of industry.</p>
 			</p>
 		
-			<p>This is what we can a proof-of-value manual blockchain. </p>
+			<p>This is what we caall a proof-of-value manual blockchain. </p>
                 
 
         </div>
@@ -112,10 +112,11 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 
                 		<p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance in pursuit of our mission and vision of plastic transition.  As a not-for profit Earth Enterprise our mandate is the generation of ecological value by following the Earth's example of carbon sequestration.</p>  
+						
 						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.</p>
 
 						</div>
-						<div class="side2"><img src="webp/earthen-400px.webp" width="100%">
+						<div class="side2"><img src="webp/earth-service-400px.webp" width="90%">
 						</div>
 					</div>
 					<div class="row2">
