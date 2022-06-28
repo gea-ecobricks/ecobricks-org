@@ -6,14 +6,14 @@
 <?php require_once ("includes/brikchain-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading"><br>Brikchain Explorer</div>
-		<div class="splash-sub">Browse the ecobricks & transactions of the full brikcoin blockchain</div>
+		<div class="splash-sub">Browse the ecobricks & transactions of the full brikcoin blockchain.</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	
 </div>
@@ -38,6 +38,8 @@
 			<div class="page-paragraph">
 				  
 				<p>Here on the Brikchain explorer you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and ecobricked authenticated plastic (<a href="aes">AES plastic</a>).</p>
+
+				<p>NOTE:  This page is still under construction and only a fragment of the Brikchain is represented for testing purposes</p>
 
 			</div>
 

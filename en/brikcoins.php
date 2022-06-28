@@ -112,7 +112,7 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 
                 		<p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance in pursuit of our mission and vision of plastic transition.  As a not-for profit Earth Enterprise our mandate is the generation of ecological value by following the Earth's example of carbon sequestration.</p>  
-						
+
 						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.</p>
 
 						</div>
@@ -204,7 +204,7 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>📥 Download: <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic</a><br><h5>GEA White Paper - PDF 2MB</a></p>
+						<p>📥 Download: <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic</a><br><h5>📄 GEA White Paper | PDF | 2.1 MB</a></p>
 						
 						</div>
 						<div class="side3"><img src="pngs/White-Paper-Icon2-400px.png" width="150px">
@@ -231,7 +231,7 @@ Content Page template: v.1.0.1-->
 
 						<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 						<br><br>
-						<a class="action-btn" href="brikchain" target="_blank">🔎 Browse the Brikchain</a>
+						<a class="action-btn" href="brikchain.php">🔎 Browse the Brikchain</a>
 						<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
                     
                     </div>
