@@ -13,10 +13,10 @@ Content Page template: v.1.0.1-->
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Media Kit</div>
+		<div class="splash-heading">Ecobrick Media Kit</div>
 		<div class="splash-sub">Key points for the coverage of ecobricks & the plastic transition movement.</div>
 	</div>
-	<div class="splash-image"><img src="webp/earthcenter-banner-400px.webp" style="width: 80%;"></div>	
+	<div class="splash-image"><img src="https://ecobricks.org/webp/earthcenter-banner-400px.webp" style="width: 80%;"></div>	
 </div>
 <div id="splash-bar"></div>
 

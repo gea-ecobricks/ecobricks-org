@@ -89,6 +89,7 @@ Redirect /arc.php /en/arc.php
 
 Redirect /catalyst /en/catalyst.php
 Redirect /catalyst/ /en/catalyst.php
+Redirect /catalyst.php/ /en/catalyst.php
 
 
 Redirect /2021-regenreport /en/regenreports.php
@@ -127,6 +128,7 @@ RedirectMatch "^/what/" "/en/what.php"
 
 RedirectMatch "^/media" "/en/media.php"
 RedirectMatch "^/media/" "/en/media.php"
+RedirectMatch "^/media.php/" "/en/media.php"
 
 RedirectMatch "^/build" "/en/build.php"
 RedirectMatch "^/build/" "/en/build.php"

@@ -18,6 +18,7 @@ _END;?>
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://ecobricks.org/webp/earthcenter-banner-400px.webp">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/gray-to-blue-media-banner2.svg">
+<link rel="preload" as="image" href="https://ecobricks.org/webp/gray-to-blue-800px.webp">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
@@ -36,7 +37,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
 		
-		background: url(webp/gray-to-blue-800px.webp) bottom;
+		background: url(https://ecobricks.org/webp/gray-to-blue-800px.webp) bottom;
 		background-color: #0066FF;
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -54,12 +55,12 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 60vh;
+		min-height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
 		
-		background: url(svgs/gray-to-blue-media-banner2.svg) bottom;
+		background: url(https://ecobricks.org/svgs/gray-to-blue-media-banner2.svg) bottom;
 		background-color: #0066FF;
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
@@ -125,6 +126,7 @@ _END;?>
 	padding: 10px 10px 0px 0px;
 	box-sizing: border-box;
 	text-align: right;
+    margin: auto;
 }
 }
 
@@ -151,7 +153,7 @@ _END;?>
 	.splash-heading {
       font-size: 4em;
       line-height: 1.3;
-      margin: 40px 0 10px;
+      margin: 0px 0 10px;
   }
 }
 

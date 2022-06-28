@@ -47,7 +47,6 @@ deployment:
   - /bin/cp menu-bar.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
-  - /bin/cp media.php $DEPLOYPATH
   - /bin/cp brikcoins.php $DEPLOYPATH
 
   - export DEPLOYPATH=/home/ecobricks/public_html/en/
@@ -88,7 +87,6 @@ deployment:
   - /bin/cp menu-bar.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
-  - /bin/cp media.php $DEPLOYPATH
   - /bin/cp brikcoins.php $DEPLOYPATH
 
 
@@ -130,7 +128,6 @@ deployment:
   - /bin/cp menu-bar.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
-  - /bin/cp media.php $DEPLOYPATH
   - /bin/cp brikcoins.php $DEPLOYPATH
 
   - export DEPLOYPATH=/home/ecobricks/public_html/es/
@@ -171,7 +168,6 @@ deployment:
   - /bin/cp menu-bar.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
-  - /bin/cp media.php $DEPLOYPATH
   - /bin/cp brikcoins.php $DEPLOYPATH
 
   - export DEPLOYPATH=/home/ecobricks/public_html/id/
@@ -212,7 +208,6 @@ deployment:
   - /bin/cp menu-bar.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
-  - /bin/cp media.php $DEPLOYPATH
   - /bin/cp brikcoins.php $DEPLOYPATH
 
   
