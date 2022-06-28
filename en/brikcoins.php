@@ -42,7 +42,7 @@ Content Page template: v.1.0.1-->
                 <p>In contrast, the Brikcoin manual blockchain (BRK / β)) is based on the generation of ecological value by human work.  Unlike other blockchains focused on proving the consistency of their ledger, Brikcoins are focused on the generation of the value underlying the ledger.  Much like ancient currencies were based on gold or silver that had a value in-itself, Brikcoins are based on secured plastic that has an ecological value in-and-of-itself.  Specifically, the proof that plastic has been secured out of the biosphere and out of industry through ecobricking.</p>
                 </p>
                 </div>
-                <div class="side2"><img src="webp/earthen-400px.webp" width="100%"></div>
+                <div class="side2"><img src="pngs/albatross-blue-sky.gif" width="100%"></div>
             </div>
             <div class="row2">
                 <div class="main3">
@@ -203,6 +203,7 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 
                 		<p><p>On Earthday 2020, the GEA released version 1.0 of the Ecobricks & Brikcoin Whitepaper, on The Commodiciation of Manually Sequestered Plastic.  The 32 page document is the work of half a dozen contributors specializing in fields ranging from micro-plastic research, alternative currencies, philosophy, community development and database development.</p>
+						<p>The white paper lays out the framework for basing a currency on the ecological value of plastic sequestration.</p>
 
 						</div>
 						<div class="side2"><img src="pngs/White-Paper-Icon2-400px.png" width="100%">
@@ -210,15 +211,16 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>The white paper lays out the framework for basing a currency on the ecological value of plastic sequestration.</p>
+						<p>📥 Download: <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic – GEA White Paper - PDF 2MB</a></p>
+						
 						</div>
 						<div class="side3"><img src="pngs/White-Paper-Icon2-400px.png" width="150px">
 						</div>
 					</div>
-				
+				 
 				<p>The white paper is updated as of March 2022 to reflect three years of beta-usage by our 50,000 gobrik users, over 150,000 ecobricks and a pool of over 250,000 ß (as of March, 2022).</p>
 
-				<p>📥 Download:<a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic – GEA White Paper - PDF 2MB</a></p>
+				
 </p>
 
                 </div>
