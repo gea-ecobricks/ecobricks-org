@@ -164,7 +164,7 @@ img {padding: 8%;}
 
                     echo "<div id=\"main-details\"><div class=\"date\"> Transaction ID: " . $array["cash_tran_id"] ."</div>";
 
-                    if ( $array["paymt_record_url"] > 0 ) {  
+                    if ( isset($array["paymt_record_url"]) ) {  
                         echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%" alt="Cash transaction photo"/></div>';
                     }
 
