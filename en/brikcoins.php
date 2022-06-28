@@ -65,23 +65,29 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 
                 		<p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance in pursuit of our mission and vision of plastic transition.  As a <a href="about.php">not-for profit Earth Enterprise</a> our mandate is the generation of ecological value by following the Earth's example of carbon sequestration.</p>  
-
+						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.</p>
 						</div>
 						<div class="side2"><img src="pngs/albatross-blue-sky.gif" width="80%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.</p>
+						<p>Brikcoins are based on this value.  Coins are generated only when this value has been manually proved by independent evaluation.</p>
 						</div>
 						<div class="side3"><img src="pngs/albatross-blue-sky.gif" width="150px">
 						</div>
 					</div>
 				
-				<p>Brikcoins are based on this value.  Coins are generated only when this value has been manually proved by independent evaluation.</p>
+					<div class="row">
+						<div class="main2">
 
-				<p>The Brikcoin blockchain is permissionless, meaning that its ledger is centralized on GEA managed databases to enable decentralized and massively distributed ecological service.  The GEA has chosen this structure to minimize the server impact and energy consumption of the maintenance of our ledger.</p>
+                		<p>The Brikcoin blockchain is permissionless, meaning that its ledger is centralized on GEA managed databases to enable decentralized and massively distributed ecological service.  The GEA has chosen this structure to minimize the server impact and energy consumption of the maintenance of our ledger.</p>
+						</div>
+						<div class="side2"><img src="webp/2-brikcoins-450px.webp" width="80%">
+						</div>
+					</div>
 
+				
                 </div>
             </div>
 
@@ -106,6 +112,7 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 
                 		<p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance in pursuit of our mission and vision of plastic transition.  As a not-for profit Earth Enterprise our mandate is the generation of ecological value by following the Earth's example of carbon sequestration.</p>  
+						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.</p>
 
 						</div>
 						<div class="side2"><img src="webp/earthen-400px.webp" width="100%">
@@ -113,14 +120,13 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.</p>
+						<p>Brikcoins are based on this value.  Coins are generated only when this value has been manually proved by independent evaluation.</p>
 						</div>
 						<div class="side3"><img src="webp/earthen-400px.webp" width="150px">
 						</div>
 					</div>
 				
-				<p>Brikcoins are based on this value.  Coins are generated only when this value has been manually proved by independent evaluation.</p>
-
+		
 				<p>The Brikcoin blockchain is permissionless, meaning that its ledger is centralized on GEA managed databases to enable decentralized and massively distributed ecological service.  The GEA has chosen this structure to minimize the server impact and energy consumption of the maintenance of our ledger.</p>
 
                 </div>
@@ -143,7 +149,7 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed3">
 
                 <br>
-                <img src="https://cdn.ecobricks.org/wp-content/uploads/2020/04/2020-Manual-Blockchain.svg.png">
+                <img src="pngs/manual-blockchain.pnp" width="90%" loading="lazy">
 
                 <p>Many cryptocurrencies rely on valueless, computer driven work to establish their generation of coins and the authentication of their ledger.  Often this work results in the consumption of significant amounts of energy and the generation of ewaste that have a negative ecological impact.  In contrast the Brikcoin blockchain is based on human work to prove that positive ecological impacts have been acheived.</p>
 
@@ -197,14 +203,14 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>📥 Download: <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic – GEA White Paper - PDF 2MB</a></p>
+						<p>📥 Download: <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic</a><br><h5>GEA White Paper - PDF 2MB</a></p>
 						
 						</div>
 						<div class="side3"><img src="pngs/White-Paper-Icon2-400px.png" width="150px">
 						</div>
 					</div>
 				 
-				<p>The white paper is updated as of March 2022 to reflect three years of beta-usage by our 50,000 gobrik users, over 150,000 ecobricks and a pool of over 250,000 ß (as of March, 2022).</p>
+				<p>The white paper is updated as of March 2022 to reflect three years of beta-usage by our 50,000 gobrik users, over 150,000 ecobricks and a pool of over 250,000 ß (as of March, 2022).</p><br>
 
 				
 </p>
@@ -216,22 +222,21 @@ Content Page template: v.1.0.1-->
                  
                  <div class="row">
                 
-                      <div class="main2">
-                         <br>
+                    <div class="main2">
+                         <br><br>
 						 <h3>The Brikchain</h3>
                         
-                         <p>The proof-of-value manual blockchain that powers Brikcoins is affectionately know as the <a href="brikchain.php">the brikchain</a> it is the full ledger of transactions generated by the authentication of ecobricked plastic around on the world on the GoBrik platform.  GoBrik and the Brikchain are maintained and developed by the Global Ecobrick Alliance as a for-Earth, non-profit enterprise.</p>. </p>
-            
+                         <p>The proof-of-value manual blockchain that powers Brikcoins is affectionately know as the <a href="brikchain.php">the brikchain</a> it is the full ledger of transactions generated by the authentication of ecobricked plastic around on the world on the GoBrik platform.  GoBrik and the Brikchain are maintained and developed by the Global Ecobrick Alliance as a for-Earth, non-profit enterprise.</p>
 
-            <p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-			<br><br>
-			<a class="action-btn" href="brikchain" target="_blank">Browse the Brikchain</a>
-			<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+						<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+						<br><br>
+						<a class="action-btn" href="brikchain" target="_blank">Browse the Brikchain</a>
+						<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
                     
-                    </div></p>
+                    </div>
 
                     <div class="side2">
-                        <br><img src="webp/2-brikcoins-450px.webp" width="90%" alt="brikcoins in action" loading="lazy">
+                        <br><img src="webp/brk-cascade.webp" width="90%" alt="brikcoins in action" loading="lazy">
                     </div>
                 </div>
             </div>
