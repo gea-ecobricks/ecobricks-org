@@ -1,4 +1,4 @@
-<!--PAGE LANGUAGE:  ENGLISH
+<!--PAGE LANGUAGE:  INDONESIA
 Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
@@ -13,8 +13,8 @@ Content Page template: v.1.0.1-->
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobrick Media Kit</div>
-		<div class="splash-sub">A guide to reporting on ecobricks & the plastic transition movement.</div>
+		<div class="splash-heading">Paket Media Ecobrick</div>
+		<div class="splash-sub">Panduan untuk melaporkan ecobrick & gerakan transisi plastik.</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/webp/earthcenter-banner-400px.webp" style="width: 76%;"></div>	
 </div>
@@ -32,13 +32,13 @@ Content Page template: v.1.0.1-->
 
 			<div class="lead-page-paragraph">
 				
-			<p>Covering ecobricks?  We’ve assembled this guide to avoiding ecobrick misconceptions, using generally accepted terminology and attributing our content to help you with your story.</p>
+			<p>Menulis tentang ecobrick? Kami telah menyusun panduan ini untuk menghindari kesalahpahaman tentang ecobrick, menggunakan terminologi yang diterima secara umum dan menghubungkan konten kami untuk membantu Anda dengan cerita Anda.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>The Global Ecobrick Alliance uses terminology that has been collectively determined by the global ecobrick movement and established on the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks article</a> throughout our site and resources.</p>  
-                <p>We encourage the same usage of terms and spellings by journalist, researchers and ecobrickers to add consistentcy and momentum to local and global grass roots plastic transition movements.</p>
-                <p>Below we provide an overview of ecobrick terms, misconceptions, our creative commons licenses and our requisite attribution tags for using or texts, photos and videos.<p> 
+            <p>Aliansi Ecobrick Global menggunakan terminologi yang telah ditentukan secara kolektif oleh gerakan ecobrick global dan ditetapkan di <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobrick artikel</a> di seluruh situs dan sumber daya kami.</p>
+                 <p>Kami mendorong penggunaan istilah dan ejaan yang sama oleh jurnalis, peneliti, dan ecobricker untuk menambah konsistensi dan momentum pada gerakan transisi plastik akar rumput lokal dan global.</p>
+                 <p>Di bawah ini kami memberikan ikhtisar tentang istilah ecobrick, kesalahpahaman, lisensi creative commons kami, dan tag atribusi yang diperlukan untuk penggunaan atau teks, foto, dan video.<p> 
 
 			</div>	
 

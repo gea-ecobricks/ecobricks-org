@@ -13,8 +13,8 @@ Content Page template: v.1.0.1-->
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobrick Media Kit</div>
-		<div class="splash-sub">A guide to reporting on ecobricks & the plastic transition movement.</div>
+		<div class="splash-heading">Kit de medios de ecobrick</div>
+		<div class="splash-sub">Una guía para informar sobre ecobricks y el movimiento de transición plástica.</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/webp/earthcenter-banner-400px.webp" style="width: 76%;"></div>	
 </div>
@@ -32,13 +32,15 @@ Content Page template: v.1.0.1-->
 
 			<div class="lead-page-paragraph">
 				
-			<p>Covering ecobricks?  We’ve assembled this guide to avoiding ecobrick misconceptions, using generally accepted terminology and attributing our content to help you with your story.</p>
-			</div>
+			<p>¿Escribir sobre ecoladrillos? Hemos compilado esta guía para evitar conceptos erróneos sobre ecoladrillos, utilizando terminología generalmente aceptada y atribuyendo nuestro contenido para ayudarlo con su historia.</p>
+</div>
 
 			<div class="page-paragraph">
-				<p>The Global Ecobrick Alliance uses terminology that has been collectively determined by the global ecobrick movement and established on the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks article</a> throughout our site and resources.</p>  
-                <p>We encourage the same usage of terms and spellings by journalist, researchers and ecobrickers to add consistentcy and momentum to local and global grass roots plastic transition movements.</p>
-                <p>Below we provide an overview of ecobrick terms, misconceptions, our creative commons licenses and our requisite attribution tags for using or texts, photos and videos.<p> 
+            <p>La Global Ecobrick Alliance utiliza terminología que ha sido determinada colectivamente por el movimiento global de ecobrick y establecida en <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks artículo</a> en todo nuestro sitio y recursos.</p>
+                 <p>Fomentamos el mismo uso de términos y ortografía por parte de periodistas, investigadores y ecobrickers para agregar consistencia e impulso a los movimientos locales y globales de transición plástica de base.</p>
+                 <p>A continuación, proporcionamos una descripción general de los términos de ecobrick, conceptos erróneos, nuestras licencias creative commons y nuestras etiquetas de atribución necesarias para usar textos, fotos y videos.<p> 
+
+			</div> 
 
 			</div>	
 
