@@ -149,7 +149,7 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed3">
 
                 <br>
-                <img src="pngs/manual-blockchain.pnp" width="90%" loading="lazy">
+                <img src="pngs/manual-blockchain.png" width="90%" loading="lazy" alt="manual proof of value block chain">
 
                 <p>Many cryptocurrencies rely on valueless, computer driven work to establish their generation of coins and the authentication of their ledger.  Often this work results in the consumption of significant amounts of energy and the generation of ewaste that have a negative ecological impact.  In contrast the Brikcoin blockchain is based on human work to prove that positive ecological impacts have been acheived.</p>
 
@@ -230,7 +230,7 @@ Content Page template: v.1.0.1-->
 
 						<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 						<br><br>
-						<a class="action-btn" href="brikchain" target="_blank">Browse the Brikchain</a>
+						<a class="action-btn" href="brikchain" target="_blank">🔎 Browse the Brikchain</a>
 						<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
                     
                     </div>
@@ -286,20 +286,20 @@ Content Page template: v.1.0.1-->
 
 
 
+	<!--FOOTER STARTS HERE-->
+
+	<?php require_once ("footers/footer-$lang.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
-<script src="accordion-scripts.js?v2" defer></script> 
+
+<!-- This script is for pages that use the accordion content system-->
+<script src="accordion-scripts.js" defer></script>
 
 
-	<!--FOOTER STARTS HERE-->
-
-
-	<?php include 'footer.php'; ?>
-
-
-	<!--FOOTER ENDS HERE-->
 </div>
 </body>
 </html>
+
+
 
