@@ -189,6 +189,7 @@ _END;?>
 	position: relative;
 	z-index: 0;
 	margin-bottom: -50px;
+	box-shadow: none !important;
 }
 
 	
