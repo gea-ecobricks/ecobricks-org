@@ -40,7 +40,6 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
-  - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
@@ -80,7 +79,6 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
-  - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
@@ -121,7 +119,6 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
-  - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
@@ -161,7 +158,6 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
-  - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
@@ -201,7 +197,6 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
-  - /bin/cp stylesheet-first-load.css $DEPLOYPATH
 
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
