@@ -21,7 +21,7 @@
 
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v0.6">
+<link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v0.7">
 
 	
 <!-- This calls GEA typography -->
@@ -152,6 +152,22 @@
 	height: fit-content;  
 	text-align: right;
 	opacity: 1;
+}
+
+#splash-bar {
+	margin-top: -50px;
+	width: 100%;
+	height:100px;	
+	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+	position: relative;
+	z-index: 0;
+	-webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  -o-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+    margin-bottom: 40px;
+
 }
 
 </style>	

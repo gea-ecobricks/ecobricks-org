@@ -20,11 +20,11 @@ _END;?>
 
 <!--  Set any page specific graphics to preload-->
 <link rel="preload" as="image" href="https://www.ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-mobile.svg?v1">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop?v1">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/ecobrickable-square.svg?v0.4">
-<link rel="preload" as="image" href="https://www.ecobricks.org/webp/mountain-top2.webp?v4">
-<link rel="preload" as="image" href="https://www.ecobricks.org/webp/vision-bottom4.webp?v3">
+<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-mobile.svg">
+<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop">
+<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/ecobrickable-square.svg">
+<link rel="preload" as="image" href="https://www.ecobricks.org/webp/mountain-top2.webp">
+<link rel="preload" as="image" href="https://www.ecobricks.org/webp/vision-bottom4.webp">
 <!--This loads CSS specific to the landing page
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/welcome.css?v1.3">-->
 
