@@ -32,7 +32,7 @@ Content Page template: v.1.0.1-->
 
 			<div class="lead-page-paragraph">
 				
-			<p>We’ve assembled this kit as a guide to the generally accepted ecobrick terminology, how to properly attribute our content and to how to avoid common misconceptions. </p>
+			<p>Covering ecobricks?  We’ve assembled this guide to avoiding ecobrick misconceptions, using generally accepted terminology and attributing our content to help you with your story.</p>
 			</div>
 
 			<div class="page-paragraph">
@@ -60,7 +60,7 @@ Content Page template: v.1.0.1-->
 					<br>
 					
 					<p><b>Ecobrick</b></p>
-                    <p><b>"ecobrick"</b> -- no space, hyphen or added capitalization is the recongnized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/<b>ecobricks.</b></a></p>
+                    <p><b>"ecobrick"</b> — no space, hyphen or added capitalization is the recongnized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/<b>ecobricks.</b></a></p>
 
                     <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2014, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.  The ecobrick wikipedia page was updated accordingly in 2016.</p> 
                     
@@ -91,18 +91,18 @@ Content Page template: v.1.0.1-->
 					<p>
 
                     <ul>
-			<li><b><i>“Ecobricks are made with plastic trash"</i></b> <br><br>
+			<li><b><i>“Ecobricks are made with plastic trash."</i></b> <br><br>
             The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “waste” or “trash” and rather as "used plastic" or "discarded plastic".  See our <a href="/ayyew">Ayyew Principle.</a><br><br></li>
             <li><b><i>“Ecobricks are for building schools and homes”</i></b> <br><br>
              Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. See <a href="build.php">Ecobrick Applications</a><br><br></li>
             <li><b><i>“Ecobricks are for developing countries and poor people"</i></b> <br><br>
              Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  Currently, there are more ecobrickers from the UK on our GoBrik app than anywhere else in the world. See <a href="https://www.gobrik.com/#global/country-stats/">GoBrik country stats</a></li><br><br>
             <li><b><i>“Ecobricks are for places where recycling isn’t an option”</i></b><br><br>
-             Ecobricks are ideal for places with recycling.  Ecobricks help keep plastic out of the problematic recycling industry (preventing emissions and plastics eventual dispersion). See <a href="sequest.php">Plastic Sequestration</a><br><br></li>
-            <li><b><i>“Ecobricks is a Sustainable Development technology”</i></b><br><br>
+             Ecobricks are ideal for places with recycling!  In fact, avoiding industrial recycling and incineration is precisely why most ecobrickers ecobirck.  Intentionally, ecobricks help keep plastic out of the recycling industry.  This prevents the creation of more factories, prevents the emissions of running these factories and prevents fuel burned for exporting and transporting to and from these factories.  Keeping plastic out of industry also prevents the inevitable dispersion of the plastic that has been shown to eventually result. See <a href="sequest.php">Plastic Sequestration</a><br><br></li>
+            <li><b><i>“Ecobricks are a Sustainable Development technology”</i></b><br><br>
              The GEA explicitly differentiates itself from “sustainabity” and “development” paradigms. Instead: Ecobricks are a non-capital, collaboration powered, regenerative technology. See our <a href="/principles">principles</a><br><br></li>
-            <li><b><i>“The GEA is a Company or an NGO”</i></b> <br><br>
-             The Global Ecobrick Alliance is not a company nor an NGO.  We are a not-for-profit Earth Enterprise.  See <a href="about.php">About us</a></li>
+            <li><b><i>“The GEA is an NGO”</i></b> <br><br>
+             The Global Ecobrick Alliance is not a company nor an NGO.  We distinguish between these two organizational structures and call ourselves are a not-for-profit Earth Enterprise.  See <a href="about.php">About us</a></li>
             </p>
 			<br>
 
@@ -251,12 +251,12 @@ Content Page template: v.1.0.1-->
                 
                       <div class="main2">
                          <br>
-						 <h3>Try it Yourself.</h3>
+						 <h3>And... be sure to try it yourself!</h3>
                         
-                         <p>Perhaps the best way to document ecobricks is to try it yourself!  We encourage you to save your household plastic for a month, weight it then ecobrick it.  Then save and weigh your plastic consumption the next month. Subrtrating your second month of consumption from your first, will show your <a href="transition">plastic transition</a> progress.  Now, that's a good story! 👍</p>
+                         <p>The best way to document ecobricks is to try it yourself.  We encourage you to save your household plastic for a month, weight it then ecobrick it.  Then save and weigh your plastic consumption the next month. Subtracting your second month of consumption from your first, will show your <a href="transition">plastic transition</a> progress.  Now, that's a good story! 👍</p>
 			<br><br>
-			<a class="action-btn" href="how" target="_blank">How to Make An Ecobrick</a>
-			<p style="font-size: 0.85em; margin-top:20px;">Follow our 10 Steps Guide to Ecobricking</a></p>
+			<a class="action-btn" href="/how" target="_blank">Lean How Make An Ecobrick</a>
+			<p style="font-size: 0.85em; margin-top:20px;">See our 10 Steps Guide</a></p>
                     
                     </div></p>
 

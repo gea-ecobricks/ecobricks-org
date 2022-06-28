@@ -99,6 +99,7 @@ _END;?>
 	padding: 10px 30px 0px 0px;
 	box-sizing: border-box;
 	text-align: right;
+    margin: auto;
 }
 }
 
