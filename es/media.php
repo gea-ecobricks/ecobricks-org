@@ -33,14 +33,12 @@ Content Page template: v.1.0.1-->
 			<div class="lead-page-paragraph">
 				
 			<p>¿Escribir sobre ecoladrillos? Hemos compilado esta guía para evitar conceptos erróneos sobre ecoladrillos, utilizando terminología generalmente aceptada y atribuyendo nuestro contenido para ayudarlo con su historia.</p>
-</div>
+            </div>
 
 			<div class="page-paragraph">
-            <p>La Global Ecobrick Alliance utiliza terminología que ha sido determinada colectivamente por el movimiento global de ecobrick y establecida en <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks artículo</a> en todo nuestro sitio y recursos.</p>
+                <p>La Global Ecobrick Alliance utiliza terminología que ha sido determinada colectivamente por el movimiento global de ecobrick y establecida en <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks artículo</a> en todo nuestro sitio y recursos.</p>
                  <p>Fomentamos el mismo uso de términos y ortografía por parte de periodistas, investigadores y ecobrickers para agregar consistencia e impulso a los movimientos locales y globales de transición plástica de base.</p>
                  <p>A continuación, proporcionamos una descripción general de los términos de ecobrick, conceptos erróneos, nuestras licencias creative commons y nuestras etiquetas de atribución necesarias para usar textos, fotos y videos.<p> 
-
-			</div> 
 
 			</div>	
 
