@@ -13,7 +13,7 @@ Content Page template: v.1.0.1-->
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Kit de medios de ecobrick</div>
+		<div class="splash-heading">Carpeta de prensa ecobrick</div>
 		<div class="splash-sub">Una guía para informar sobre ecobricks y el movimiento de transición plástica.</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/webp/earthcenter-banner-400px.webp" style="width: 76%;"></div>	

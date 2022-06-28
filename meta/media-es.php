@@ -1,16 +1,16 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Kit de medios | Ecobricks.org</title>
+<title>Carpeta de prensa | Ecobricks.org</title>
 
-<meta name="keywords" content="ortografía de ladrillos ecológicos, ortografía de ecobrick, historia de ecobrick, pautas para los medios, kit de medios, ecoladrillos, secuestro de plástico, reciclaje, alternativa, secuestro de plástico, compensación de plástico, plástico aes, secuestro de carbono">
+<meta name="keywords" content="Carpeta de prensa, ortografía de ladrillos ecológicos, ortografía de ecobrick, historia de ecobrick, pautas para los medios, kit de medios, ecoladrillos, secuestro de plástico, reciclaje, alternativa, secuestro de plástico, compensación de plástico, plástico aes, secuestro de carbono">
 
-<meta name="description" content="Una guía práctica para quienes documentan la tecnología, el movimiento y los conceptos básicos del ecoladrillo.">
+<meta name="description" content="Una guía para quienes documentan la tecnología, el movimiento y los conceptos básicos del ecoladrillo.">
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
 	<meta property="og:url"           content="https://ecobricks.org/es/media.php"/>
 	<meta property="og:type"          content="website">
- 	<meta property="og:title"         content="Kit de medios | Ecobricks.org">
+ 	<meta property="og:title"         content="Carpeta de prensa | Ecobricks.org">
   	<meta property="og:description"   content="Una guía práctica para quienes documentan la tecnología, el movimiento y los conceptos básicos del ecoladrillo."/>
   	<meta property="og:image"         content="pngs/earthcenter-banner-1000px.webp.png"/>
   	<meta property="og:image:width" content="1000" />
