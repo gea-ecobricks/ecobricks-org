@@ -46,7 +46,7 @@ deployment:
   - /bin/cp menu-bar.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
-  - /bin/cp brikcoins.php $DEPLOYPATH
+
 
   - export DEPLOYPATH=/home/ecobricks/public_html/en/
 
@@ -85,7 +85,7 @@ deployment:
   - /bin/cp menu-bar.php $DEPLOYPATH
   - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
-  - /bin/cp brikcoins.php $DEPLOYPATH
+
 
 
   - export DEPLOYPATH=/home/ecobricks/public_html/fr/
