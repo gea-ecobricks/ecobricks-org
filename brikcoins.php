@@ -88,7 +88,7 @@ Content Page template: v.1.0.1-->
 
 
 			<a name="NEW-VALUE"></a>
-            <div class="reg-content-block" id="block1">
+            <div class="reg-content-block" id="block2">
 
                 <div class="opener-header">
                     
@@ -98,10 +98,10 @@ Content Page template: v.1.0.1-->
                     <br>
                     </div>
 
-                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show2">+</button>
                 </div>
 
-                <div id="preclosed1">
+                <div id="preclosed2">
 
                 <div class="row">
 						<div class="main2">
@@ -128,7 +128,7 @@ Content Page template: v.1.0.1-->
             </div>
 
 			<a name="MANUAL"></a>
-            <div class="reg-content-block" id="block2">
+            <div class="reg-content-block" id="block3">
 
                 <div class="opener-header">
                     
@@ -138,10 +138,10 @@ Content Page template: v.1.0.1-->
                     <br>
                     </div>
 
-                    <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+                    <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show3">+</button>
                 </div>
 
-                <div id="preclosed2">
+                <div id="preclosed3">
 
                 <br>
                 <img src="https://cdn.ecobricks.org/wp-content/uploads/2020/04/2020-Manual-Blockchain.svg.png">
@@ -171,7 +171,7 @@ Content Page template: v.1.0.1-->
             </div>
 
 			<a name="WHITEPAPER"></a>
-            <div class="reg-content-block" id="block3">
+            <div class="reg-content-block" id="block4">
 
                 <div class="opener-header">
                     
@@ -181,10 +181,10 @@ Content Page template: v.1.0.1-->
                     <br>
                     </div>
 
-                    <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+                    <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
                 </div>
 
-                <div id="preclosed3">
+                <div id="preclosed4">
 
 				<div class="row">
 						<div class="main2">
