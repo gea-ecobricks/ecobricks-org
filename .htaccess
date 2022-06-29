@@ -91,4 +91,7 @@ RewriteCond %{HTTP_HOST} ^www\.ecoladrillo\.org [NC]
 RewriteRule ^(.*)$ es/ [NC,QSA] 
 
 
+DirectoryIndex welcome.php index.php
+
+
 
