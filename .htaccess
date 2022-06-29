@@ -78,7 +78,10 @@ Header set Cache-Control "max-age=31536000, public"
 Header set Cache-Control "max-age=536000, public"
 </FilesMatch>
 
-
+RewriteCond %{HTTP_HOST} ^ecobricks\.org [NC] 
+RewriteRule ^(.*)$ /en/ [NC,QSA] 
+RewriteCond %{HTTP_HOST} ^ecoladrillo\.org [NC] 
+RewriteRule ^(.*)$ /es/ [NC,QSA] 
 
 RewriteCond %{HTTP_HOST} ^www\.ecobricks\.org [NC] 
 RewriteRule ^(.*)$ /en/ [NC,QSA] 
