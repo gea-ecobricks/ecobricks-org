@@ -44,7 +44,7 @@ Content Page template: v.1.0.1-->
 	
 
 		<p>The regenerative ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines over a decade ago.  Deeply inspired by their ancestral wisdom and <a href="/ayyew">ayyew eco-ethos</a>, ecobricking enables us to rise above the old paradigm of plastic 'waste'.  Instead, plastic becomes an opportunity to follow the <a href="/plastic">the Earth's tried and tested example</a> of carbon management.</p>
-        </div>
+        
 		<p>In this way, as a non-capital, localized, replicable, spiral and net-green process, ecobricking can accelerate our transition from plastic to ever greener harmony with the Earth's cycles.</p>	
 
 		</div>
