@@ -92,9 +92,9 @@ RewriteRule (.*)$ https://ecobricks.org/en/$1 [R=301,L]
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^ecobricks.org$ [OR]
-RewriteCond %{HTTP_HOST} ^www.ecobricks.org$
-RewriteRule (.*)$ https://ecobricks.org/en/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^ecoladrillo.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www.ecoladrillo.org$
+RewriteRule (.*)$ https://ecoladirllo.org/es/$1 [R=301,L]
 </IfModule>
 
 
