@@ -34,12 +34,16 @@ Content Page template: v.1.0.1-->
 		</div>
 
 		<div class="page-paragraph">
-            <p>The advent of blockchain technology has enabled a revolutionary means of exchanging value and recording transactions through cryptographic verification. However, the ever increasing amount of computer work and hardware required has all too often resulted in higher and higher environmental costs— all without generating any underlying human or ecological value.  All too often, these currencies have favored those already possessing currency, leading to an ever increasing divide between those who have, and those who have not.</p>
+            <p>The advent of blockchain technology has enabled revolutionary cryptographic digital currencies. However, the ever increasing amount of digital work required to generate blocks and maintain their chain, has all too often resulted in higher and higher environmental costs— all without generating any underlying social or ecological value.</p>
+			</div>
+				
+			<p>All too often, these currencies have resulted in carbon emissions, ewaste and the favoring of those already possessing currency.  This has lead to ever increasing environmental costs and an ever increasing divide between those who have, and those who have not.</p>
+
 
 			<p>In contrast, the Brikcoin manual blockchain (BRK / β)) is based on the generation of ecological value by human work.  Unlike other blockchains focused on proving the consistency of their ledger, Brikcoins are focused on the generation of the value underlying the ledger.  Much like ancient currencies were based on gold or silver that had a value in-and-of-itself, Brikcoins are based on secured plastic that has an ecological value in-and-of-itself.  Specifically: plastic that has been proved to have been secured out of the biosphere and out of industry.</p>
 			</p>
 		
-			<p>This is what we caall a proof-of-value manual blockchain. </p>
+			<p>This is what we call a <i>proof-of-value</i> and <i>manual</i> blockchain. </p>
                 
 
         </div>
