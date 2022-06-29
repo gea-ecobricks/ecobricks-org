@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+
+  - export DEPLOYPATH=/home/ecobricks/public_html/
+
+    - /bin/cp welcome.php $DEPLOYPATH
+
+  
+
