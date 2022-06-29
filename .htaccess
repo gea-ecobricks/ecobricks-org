@@ -78,20 +78,12 @@ Header set Cache-Control "max-age=31536000, public"
 Header set Cache-Control "max-age=536000, public"
 </FilesMatch>
 
-
-RewriteCond %{HTTP_HOST} ^ecobricks\.org [NC] 
-RewriteRule ^(.*)$ en/ [NC,QSA] 
-RewriteCond %{HTTP_HOST} ^ecoladrillo\.org [NC] 
-RewriteRule ^(.*)$ es/ [NC,QSA] 
-
-
-RewriteCond %{HTTP_HOST} ^www\.ecobricks\.org [NC] 
-RewriteRule ^(.*)$ en/ [NC,QSA] 
-RewriteCond %{HTTP_HOST} ^www\.ecoladrillo\.org [NC] 
-RewriteRule ^(.*)$ es/ [NC,QSA] 
-
+#Alternate default index pages
 
 DirectoryIndex welcome.php index.php
 
-
+RewriteCond %{HTTP_HOST} ^ecobricks\.org [NC] 
+RewriteRule ^(.*)$ en/welcome.php [NC,QSA] 
+RewriteCond %{HTTP_HOST} ^ecoladrillo\.org [NC] 
+RewriteRule ^(.*)$ es/welcome.php [NC,QSA] 
 
