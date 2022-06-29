@@ -87,3 +87,8 @@ RewriteRule ^(.*)$ en/welcome.php [NC,QSA]
 RewriteCond %{HTTP_HOST} ^ecoladrillo\.org [NC] 
 RewriteRule ^(.*)$ es/welcome.php [NC,QSA] 
 
+RewriteCond %{HTTP_HOST} ^www\.ecobricks\.org [NC] 
+RewriteRule ^(.*)$ en/ [NC,QSA] 
+RewriteCond %{HTTP_HOST} ^www\.ecoladrillo\.org [NC] 
+RewriteRule ^(.*)$ es/ [NC,QSA] 
+
