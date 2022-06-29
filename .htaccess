@@ -80,7 +80,7 @@ Header set Cache-Control "max-age=536000, public"
 
 
 
-
+RedirectMatch "^/ecoladrillo.org\/?$" "ecoladrillo.org/es"
 
 Redirect /arc /en/arc.php
 Redirect /arc/ /en/arc.php
@@ -96,7 +96,7 @@ Redirect /2021-regenreport /en/regenreports.php
 Redirect /2021-regenreport/ /en/regenreports.php
 Redirect /2021-regen-report /en/regenreports.php
 Redirect /2021-regen-report/ /en/regenreports.php
-Redirect en/2021-regen-report.php /en/regenreports.php
+Redirect /en/2021-regen-report.php /en/regenreports.php
 
 RedirectMatch "^/regenreports\/?$" "/en/regenreports.php"
 
