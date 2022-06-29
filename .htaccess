@@ -80,82 +80,14 @@ Header set Cache-Control "max-age=536000, public"
 
 
 
-RedirectMatch "^/ecoladrillo.org\/?$" "ecoladrillo.org/es"
-
-Redirect /arc /en/arc.php
-Redirect /arc/ /en/arc.php
-Redirect /arc.php /en/arc.php
-
-
-Redirect /catalyst /en/catalyst.php
-Redirect /catalyst/ /en/catalyst.php
-Redirect /catalyst.php/ /en/catalyst.php
+RewriteCond %{HTTP_HOST} ^www\.ecobricks\.org [NC] 
+RewriteRule ^(.*)$ /en/ [NC,QSA] 
+RewriteCond %{HTTP_HOST} ^www\.ecoladrillo\.org [NC] 
+RewriteRule ^(.*)$ /es/ [NC,QSA] 
 
 
-Redirect /2021-regenreport /en/regenreports.php
-Redirect /2021-regenreport/ /en/regenreports.php
-Redirect /2021-regen-report /en/regenreports.php
-Redirect /2021-regen-report/ /en/regenreports.php
-Redirect /en/2021-regen-report.php /en/regenreports.php
-
-RedirectMatch "^/regenreports\/?$" "/en/regenreports.php"
-
-
-Redirect /coefficients /coefficients.php
-Redirect /coefficients/ /coeffecients.php
-Redirect /coeffecients /coefficients.php
-Redirect /coeffecients/ /coeffecients.php
-
-RedirectMatch "^/faq\/?$" "/en/faqs.php"
-RedirectMatch "^/faqs\/?$" "/en/faqs.php"
-RedirectMatch "^/faqs.php\/?$" "/en/faqs.php"
-
-
-RedirectMatch "^/sequest" "/en/sequest.php"
-RedirectMatch "^/sequest/" "/en/sequest.php"
-
-
-RedirectMatch "^/transition" "/en/transition.php"
-RedirectMatch "^/transition/" "/en/transition.php"
-
-
-RedirectMatch "^/about" "/en/about.php"
-RedirectMatch "^/about/" "/en/about.php"
-
-
-RedirectMatch "^/what" "/en/what.php"
-RedirectMatch "^/what/" "/en/what.php"
-
-RedirectMatch "^/media" "/en/media.php"
-RedirectMatch "^/media/" "/en/media.php"
-RedirectMatch "^/media.php/" "/en/media.php"
-
-RedirectMatch "^/build" "/en/build.php"
-RedirectMatch "^/build/" "/en/build.php"
-
-RedirectMatch "^/drop-off" "/en/drop-off.php"
-RedirectMatch "^/drop-off/" "/en/drop-off.php"
-RedirectMatch "^/drop" "/en/drop-off.php"
-RedirectMatch "^/drop/" "/en/drop-off.php"
-RedirectMatch "^/market/" "/en/drop-off.php"
-RedirectMatch "^/market" "/en/drop-off.php"
-RedirectMatch "^/marketplace/" "/en/drop-off.php"
-RedirectMatch "^/marketplace" "/en/drop-off.php"
-RedirectMatch "^/exchange" "/en/drop-off.php"
-RedirectMatch "^/exchange/" "/en/drop-off.php"
-RedirectMatch "^/exchange/dropoff-map/" "/en/drop-off.php"
-
-RedirectMatch "^/brikcoins" "/en/brikcoins.php"
-RedirectMatch "^/brikcoins/" "/en/brikcoins.php"
-
-#Alternate default index pages
 DirectoryIndex welcome.php index.php
 
-RedirectMatch "^/es/welcome.php" "/es/"
 
-RedirectMatch "^/id/welcome.php" "/id/"
 
-RedirectMatch "^/fr/welcome.php" "/fr/"
-
-RedirectMatch "^/brikchain" "/en/brikchain.php"
 
