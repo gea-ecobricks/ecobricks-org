@@ -301,7 +301,7 @@ _END;?>
 
 					<h3>Plastic Consumption</h3>
 
-					<p><b>Propane Gas</b></p>
+					<p><b>Propane Gas</b></p> 
 					
 					<p>Plastic involved in the consumption of one LPG tank (any size)</p> 
 
