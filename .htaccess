@@ -90,4 +90,9 @@ RewriteRule ^(.*)$ /en/ [NC,QSA]
 RewriteCond %{HTTP_HOST} ^ecobricks\.org [NC] 
 RewriteRule ^(.*)$ /en/ [NC,QSA] 
 
+RewriteCond %{HTTPS_HOST} ^www\.ecobricks\.org [NC] 
+RewriteRule ^(.*)$ /en/ [NC,QSA] 
+RewriteCond %{HTTPS_HOST} ^ecobricks\.org [NC] 
+RewriteRule ^(.*)$ /en/ [NC,QSA]
+
 
