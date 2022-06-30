@@ -176,25 +176,25 @@ Content Page template: v.1.0.1-->
 					<p>Recycling plastic has various carbon emissions (transportation, reprocessing, etc.)</p> 
 
 					<span title="GEA Certified"><h5>1kg recycled plastic = 0.689 Kg of CO2</h5></span>
-					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">>Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
+					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
 
 					<p><b>Incineration</b></p>
 					
 					<p>When plastic is burned it's carbon molecules join with oxygen molecules to generate carbon dioxide.</p> 
 
 					<span title="GEA 2020 value"><h5>1 kg plastic = 2.97 Kg CO2</h5></span>
-					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">>Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
+					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
 
 					<p><b>Landfilling</b></p>
 					
 					<p>Plastic that is not recycled, incinerated or sequestered ends up in the earth, air and land.</p> 
 
 					<span title="GEA 2020 value"><h5>1 Kg plastic = 0.065kg </h5></span>
-					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">>Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
+					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
 
 					<hr>
 					<br>
-					<p><b>One time CO2 impact of plastic</b></p>
+					<p><b>One-time CO2 impact of plastic</b></p>
 					
 					<p>The GEA has calculated the one time impact of consuming 1 kg of consumed plastic.</p> 
 
@@ -232,7 +232,7 @@ Content Page template: v.1.0.1-->
     <a class="action-btn" href="catalyst.php">🚀 Catalyst Program</a>
     <p style="font-size: 0.85em; margin-top:20px;">Learn more about our free program & platform.</a></p>
 </div>
-</div>
+
 
 
 			
