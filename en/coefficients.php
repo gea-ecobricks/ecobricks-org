@@ -225,7 +225,7 @@ Content Page template: v.1.0.1-->
 
     <h4>Do your own Regen Reporting</h4>
 
-    <p>To do our own <a href="regenerports.php">GEA ecological accounting</a> we use an <a href="catalyst.php"> enterprise catalyst account</a> on the GoBrik platform.  It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
+    <p>To do our own <a href="regenreports.php">GEA ecological accounting</a> we use an <a href="catalyst.php"> enterprise catalyst account</a> on the GoBrik platform.  It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
     
     <p>Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project.  New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
             
@@ -250,7 +250,7 @@ Content Page template: v.1.0.1-->
         <img src="webp/2020-regen-report.webp" width="90%">
 				<h4>GEA Regen Reports</h4>
 				<h5>We're proud to publish our net-green ecological impact each year.</h5><br>
-				<a class="module-btn" href="regenreports.php" target="_blank">Access Report</a><br><br>
+				<a class="module-btn" href="regenreports.php">Access Report</a><br><br>
 			</div>
 
 

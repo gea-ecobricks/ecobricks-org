@@ -125,6 +125,7 @@ Redirect /en/2021-regen-report.php /en/regenreports.php
 
 RedirectMatch "^/regenreports\/?$" "/en/regenreports.php"
 RedirectMatch "^/regenreport\/?$" "/en/regenreports.php"
+RedirectMatch "^/regenreport.php\/?$" "/en/regenreports.php"
 
 
 Redirect /coefficients /en/coefficients.php
