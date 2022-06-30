@@ -5,6 +5,7 @@ deployment:
   - export DEPLOYPATH=/home/ecobricks/public_html/
 
     - /bin/cp welcome.php $DEPLOYPATH
+    - /bin/cp faqs.php $DEPLOYPATH
 
   
 

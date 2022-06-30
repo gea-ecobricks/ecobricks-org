@@ -13,8 +13,6 @@ deployment:
   - /bin/cp -R icons $DEPLOYPATH
   - /bin/cp -R svgs $DEPLOYPATH
   - /bin/cp -R webp $DEPLOYPATH
-
-
   - /bin/cp -R pngs $DEPLOYPATH
   - /bin/cp -R photos $DEPLOYPATH
   - /bin/cp -R meta $DEPLOYPATH
@@ -23,6 +21,8 @@ deployment:
   - /bin/cp -R footers $DEPLOYPATH
   - /bin/cp -R includes $DEPLOYPATH
   - /bin/cp -R css $DEPLOYPATH
+  - /bin/cp -R misc $DEPLOYPATH
+
 
   - /bin/cp .htaccess $DEPLOYPATH
   - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -44,7 +44,7 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp gea-webhead.html $DEPLOYPATH
+  - /bin/cp welcome.php $DEPLOYPATH
 
 
   - export DEPLOYPATH=/home/ecobricks/public_html/en/
@@ -82,8 +82,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp gea-webhead.html $DEPLOYPATH
-
 
 
   - export DEPLOYPATH=/home/ecobricks/public_html/fr/
@@ -121,7 +119,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp gea-webhead.html $DEPLOYPATH
   - /bin/cp brikcoins.php $DEPLOYPATH
 
   - export DEPLOYPATH=/home/ecobricks/public_html/es/
@@ -159,7 +156,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp gea-webhead.html $DEPLOYPATH
   - /bin/cp brikcoins.php $DEPLOYPATH
 
   - export DEPLOYPATH=/home/ecobricks/public_html/id/
@@ -197,7 +193,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp gea-webhead.html $DEPLOYPATH
   - /bin/cp brikcoins.php $DEPLOYPATH
 
   
