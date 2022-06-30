@@ -44,7 +44,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
 
 
@@ -83,7 +82,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
 
 
@@ -123,7 +121,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
   - /bin/cp brikcoins.php $DEPLOYPATH
 
@@ -162,7 +159,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
   - /bin/cp brikcoins.php $DEPLOYPATH
 
@@ -201,7 +197,6 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp coefficients.php $DEPLOYPATH
   - /bin/cp gea-webhead.html $DEPLOYPATH
   - /bin/cp brikcoins.php $DEPLOYPATH
 
