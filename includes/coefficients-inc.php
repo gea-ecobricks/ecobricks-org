@@ -62,7 +62,7 @@ _END;?>
 		background-color: #FCC32F;
 		
 		text-align: left;
-		height: 60vh;
+		min-height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
@@ -101,6 +101,7 @@ _END;?>
 		padding: 10px 30px 0px 0px;
 		box-sizing: border-box;
 		text-align: right;
+		margin: auto;
 }
 }
 

@@ -138,7 +138,7 @@ Content Page template: v.1.0.0-->
 				
 				<p>Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project.  New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
                         
-				<a class="action-btn" href="catalyst.php" target="_blank">🚀 Catalyst Program</a>
+				<a class="action-btn" href="catalyst.php">🚀 Catalyst Program</a>
 				<p style="font-size: 0.85em; margin-top:20px;">Learn more about our free program & platform.</a></p>
 			</div>
 		</div>

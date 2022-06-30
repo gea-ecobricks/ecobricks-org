@@ -13,8 +13,8 @@ Content Page template: v.1.0.1-->
 	
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">Global Plastic Coefficients<br></div>
-		<div class="splash-sub">for Regenerativity Reporting</div>
+		<div class="splash-heading">Global Plastic Coefficients for Ecological Accounting<br></div>
+		<div class="splash-sub">Enterprise Regenerativity Reporting</div>
 	</div>
 	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 75%;"></div>	
 </div>
@@ -215,6 +215,26 @@ Content Page template: v.1.0.1-->
 
 				</div>
 			</div>
+
+
+
+		
+				
+			<br><br>
+
+<div class="page-paragraph">
+
+    <h4>Do your own Regen Reporting</h4>
+
+    <p>To do our own <a href="regenerports.php">GEA ecological accounting</a> we use an <a href="catalyst.php"> enterprise catalyst account</a> on the GoBrik platform.  It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
+    
+    <p>Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project.  New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
+            
+    <a class="action-btn" href="catalyst.php">🚀 Catalyst Program</a>
+    <p style="font-size: 0.85em; margin-top:20px;">Learn more about our free program & platform.</a></p>
+</div>
+</div>
+
 
 			
 
