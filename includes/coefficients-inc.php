@@ -142,7 +142,7 @@ _END;?>
 @media screen and (max-width: 700px) {
 	.splash-heading {
       font-size: 2.0em;
-      line-height: 1.1;
+      line-height: 1.4;
       margin: 10px 0;
   }
 }
