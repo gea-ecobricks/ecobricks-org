@@ -124,12 +124,13 @@ Redirect /2021-regen-report/ /en/regenreports.php
 Redirect /en/2021-regen-report.php /en/regenreports.php
 
 RedirectMatch "^/regenreports\/?$" "/en/regenreports.php"
+RedirectMatch "^/regenreport\/?$" "/en/regenreports.php"
 
 
-Redirect /coefficients /coefficients.php
-Redirect /coefficients/ /coeffecients.php
-Redirect /coeffecients /coefficients.php
-Redirect /coeffecients/ /coeffecients.php
+Redirect /coefficients /en/coefficients.php
+Redirect /coefficients/ /en/coeffecients.php
+Redirect /coeffecients /en/coefficients.php
+Redirect /coeffecients/ /en/coeffecients.php
 
 RedirectMatch "^/faq\/?$" "/en/faqs.php"
 RedirectMatch "^/faqs\/?$" "/en/faqs.php"
