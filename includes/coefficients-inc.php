@@ -16,12 +16,11 @@ _END;?>
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/svgs/eb-blue.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/webp/principles-banner-1600px.webp">
+<link rel="preload" as="image" href="https://ecobricks.org/webp/gea-perspective-400px.webp">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("meta/coeffecients-$lang.php");?>
+<?php require_once ("meta/coefficients-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
