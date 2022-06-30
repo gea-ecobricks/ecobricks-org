@@ -90,7 +90,7 @@ RewriteCond %{HTTP_HOST} ^www.ecoladrillo.org$
 RewriteRule (.*)$ https://ecoladrillo.org/es/$1 [R=301,L]
 </IfModule>
 
-RedirectMatch 301 ^/$ /en/
+
 
 RedirectMatch "^/es/welcome.php" "/es/"
 
