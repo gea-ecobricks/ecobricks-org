@@ -1,4 +1,4 @@
-<!--PAGE LANGUAGE:  ENGLISH
+<!--PAGE LANGUAGE:  FRENCH
 Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
@@ -13,8 +13,8 @@ Content Page template: v.1.0.1-->
 	
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading">Coeficientes plásticos globales para la contabilidad ecológica<br></div>
-		<div class="splash-sub">Informes de regeneración empresarial</div>
+		<div class="splash-heading">Coefficients plastiques pour la comptabilité écologique<br></div>
+		<div class="splash-sub">Rapports sur la régénérativité d'entreprise</div>
 	</div>
 	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 75%;"></div>	
 </div>
@@ -32,15 +32,15 @@ Content Page template: v.1.0.1-->
 
 			<div class="lead-page-paragraph">
 				
-				<p>La Global Ecobrick Alliance mantiene y publica coeficientes para el consumo de plástico, la producción y la equivalencia de CO2 para las empresas que rastrean y divulgan sus impactos plásticos.</p>
+			<p>La Global Ecobrick Alliance maintient et publie des coefficients de consommation, de production et d'équivalence CO2 de plastique pour les entreprises qui suivent et divulguent leurs impacts plastiques.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
 
-			<p>En 2021, GEA inició un compendio de coeficientes de generación de plástico basado en la amplia experiencia de nuestros 400 entrenadores que trabajan con plástico en todo el mundo.</p>
+			<p>En 2021, la GEA a lancé un recueil de coefficients de génération de plastique basé sur la vaste expérience de nos 400 formateurs travaillant avec le plastique dans le monde entier.</p>
 
-			<p>A partir de junio de 2022, esta página y nuestro listado aquí todavía están en desarrollo con el objetivo de formalizar nuestros coeficientes para fin de año.</p>
+			<p>En date de juin 2022, cette page et notre listing ici sont encore en développement dans le but de formaliser nos coefficients pour la fin d'année.</p>
 
 			</div>
 
@@ -51,8 +51,8 @@ Content Page template: v.1.0.1-->
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Additive Plastic Coefficients</h4>
-						<h5>Impacts that add plastic to the biosphere.</h5>
+					<h4>Coefficients plastiques additifs</h4>
+					<h5>Des impacts qui ajoutent du plastique à la biosphère.</h5>
 					</div>
 					
 					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
