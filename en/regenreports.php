@@ -42,7 +42,7 @@ Content Page template: v.1.0.0-->
 
 					<p>Our 2022 Regen Report of our enterprise's previous year of ecological impacts is now published and publicly available!  This includes an accounting of our carbon, plastic and biodiversity impacts.</p>
 
-					<p>Over 2021, the GEA's UK and Indonesian household bases increased their spacial support of biodiversity by 32% (268 m2) while hosting 152 species. We directly removed 1,472 kg of plastic through our trainer ecobricking.  We also removed 4,448kg of CO2 from the biosphere through our trees, carbon offsetting and ecobricking carbon equivalency.  </p>
+					<p>Over 2021, the GEA's UK and Indonesian household bases increased their spacial support of biodiversity by 32% (268 m2) while hosting 152 species. We directly removed 1,472 kg of plastic through our trainer ecobricking.  We also removed 4,448kg of CO2 from the biosphere through our trees, carbon offsetting and ecobricking carbon equivalency.</p>
 							
 						<p>📥 Download our full <a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">2022 Regenerativity Report (PDF 1.2MB).</i><p> 
 
@@ -92,7 +92,7 @@ Content Page template: v.1.0.0-->
 				<div class="opener-header">
 					<div class="opener-header-text">
 						<h4>Methods & Means</h4>
-						<h5>The principles, methodology & coeffecients behind our accounting.</h5><br>
+						<h5>The principles, methodology & coefficients behind our accounting.</h5><br>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 				</div>
@@ -102,7 +102,7 @@ Content Page template: v.1.0.0-->
 						<div class="main2">
 						<p>Learn more about the concepts underlying regenerative reporting.</p>
 						<ul>
-							<li><a href="coeffecients">Plastic Impact Coeffecients</a></li>
+							<li><a href="coefficients">Plastic Impact Coefficients</a></li>
 							<li><a href="aes">AES Plastic Offsetting</a></li>
 							<li><a href="brikcoins">Brikcoin Manual Blockchain</a></li>
 							<li><a href="sequest">Plastic Sequestration</a></li>
