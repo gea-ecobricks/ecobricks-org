@@ -179,21 +179,21 @@ Content Page template: v.1.0.1-->
 					<p>Recycling plastic has various carbon emissions (transportation, reprocessing, etc.)</p> 
 
 					<span title="GEA Certified"><h5>1kg recycled plastic = 0.689 Kg of CO2</h5></span>
-					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
+					<p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
 
 					<p><b>Incineration</b></p>
 					
 					<p>When plastic is burned it's carbon molecules join with oxygen molecules to generate carbon dioxide.</p> 
 
 					<span title="GEA 2020 value"><h5>1 kg plastic = 2.97 Kg CO2</h5></span>
-					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
+					<p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
 
 					<p><b>Landfilling</b></p>
 					
 					<p>Plastic that is not recycled, incinerated or sequestered ends up in the earth, air and land.</p> 
 
 					<span title="GEA 2020 value"><h5>1 Kg plastic = 0.065kg </h5></span>
-					<h6><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</h6>
+					<p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
 
 					<hr>
 					<br>
@@ -201,17 +201,17 @@ Content Page template: v.1.0.1-->
 					
 					<p>The GEA has calculated the one time impact of consuming 1 kg of consumed plastic.</p> 
 
-					<span title="GEA 2020 value"><h5>1 Kg plastic = 6.06kg CO2</h5></span>
+					<span title="GEA 2020 value"><h5>1 Kg plastic = 6.06kg CO2</h5></span><br>
 
 					<p>The GEA has calculated the net impact of 1 kg of consumed plastic over time.</p> 
 
-					<span title="GEA 2020 value"><h5>1 Kg plastic = Data pending</h5></span>
+					<span title="GEA 2020 value"><h5>1 Kg plastic = Data pending</h5></span><br>
 
 					<p><b>Plastic Sequestration</b></p>
 					
 					<p>Plastic that is kept out of industrial processing (i.e recycling, incineration and landfilling) has a substractive CO2e ipact of:</p> 
 
-					<span title="GEA 2020 value"><h5>1 AES Plastic = 6.05 CO2e</h5></span>
+					<span title="GEA 2020 value"><h5>1 AES Plastic = 6.05 CO2e</h5></span><br>
 
 					<img src="https://miro.medium.com/max/500/1*p4H-oNd9oUZvmJD4VjcERg.png" width="90%">
 
@@ -229,7 +229,7 @@ Content Page template: v.1.0.1-->
     <h4>Do your own Regen Reporting</h4>
 
 </div>
-<div class="splash-text-box">
+<div class="page-paragraph">
     <p>To do our own <a href="regenreports.php">GEA ecological accounting</a> we use an <a href="catalyst.php"> enterprise catalyst account</a> on the GoBrik platform.  It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
     
     <p>Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project.  New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
