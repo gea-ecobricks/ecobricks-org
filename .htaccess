@@ -81,7 +81,7 @@ Header set Cache-Control "max-age=536000, public"
 #Alternate default index pages
 
 
-DirectoryIndex welcome.php index.php
+DirectoryIndex welcome.php
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -124,7 +124,9 @@ RedirectMatch "^/regenreport.php\/?$" "/en/regenreports.php"
 Redirect /coefficients /en/coefficients.php
 Redirect /coefficients/ /en/coeffecients.php
 Redirect /coeffecients /en/coefficients.php
-Redirect /coeffecients/ /en/coefficients.php
+Redirect /coeffecients /en/coefficients.php
+RedirectMatch "^/coeffecients\/?$" "/en/coefficients.php"
+
 
 RedirectMatch "^/faq\/?$" "/en/faqs.php"
 RedirectMatch "^/faqs\/?$" "/en/faqs.php"
