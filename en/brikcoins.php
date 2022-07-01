@@ -35,10 +35,10 @@ Content Page template: v.1.0.1-->
 
 		<div class="page-paragraph">
 
-            <p>Block chain innovations have enabled a revolution in digital currencies. However, the increasing computer work required to sustain inumerable chains of digital blocks has resulted in higher and higher environmental costs— all without generating any underlying human or ecological value.  As such, these currencies remain firmly lodged within the petro-capital economy that is at the root of today's ecological crisises.</p>
+            <p>Blockchain innovations have enabled a revolution in digital currencies. However, the increasing computer work required to sustain them has resulted in higher and higher energy demands— all without generating any underlying value.  In so far as these block chains rely on fossil fuel energy for to power their ledgers, they remain firmly emeshed in the petro-capital economy.</p>
 
 
-			<p>In contrast, the Brikcoin manual blockchain (BRK / β)) is based on the generation of real world value and powered by real human work.  Much like ancient currencies were based on gold or silver that had a value in-itself, Brikcoins are based on ecological value.  Rather than simply represent numbers in a ledger, each and every Brikcoin represents something of pressing modern value:  plastic removed from polluting the biosphere and removed from industries that pollute.</p>
+			<p>In contrast, the Brikcoin manual blockchain (BRK / β)) is based on the generation of real world value, powered by real human work.  In the same way that gold and silver based currencies had a value in-and-of-itself, Brikcoins are based on ecological value.  Rather than simply represent numbers in a ledger, every Brikcoin represents something of pressing modern value: plastic removed from polluting the biosphere and removed from industries that pollute.</p>
 			</p>
 			
 			<p>This is what we can a proof-of-value manual blockchain. </p>
@@ -66,7 +66,7 @@ Content Page template: v.1.0.1-->
                 <div class="row">
 						<div class="main2">
 
-                		<p>Two billion years ago, the Earth's atmosphere was full of carbon dioxide, its climate was unstable, and its surface barren.  However, steadily the Earth managed its carbon by putting it into life-cycles that eventually secured it into geological storage under the ground.  With less and less CO2 in the atmosphere, and more and more in the ground, the climate stabilized and the biosphere greened.</p>
+                		<p>Two billion years ago, the Earth's atmosphere was full of carbon dioxide.  The planet's climate was unstable and its surface barren.  However, steadily the Earth managed its carbon by putting it into life-cycles.  These organisms and ecosystem steadily secured more and more carbon into the ground.  With less and less CO2 in the atmosphere, the climate stabilized and the biosphere greened.</p>
 
 						</div>
 						<div class="side2"><img src="webp/earthen-400px.webp" width="80%">
@@ -80,17 +80,19 @@ Content Page template: v.1.0.1-->
 						</div>
 					</div>
 							
-						<p>By managing our modern carbon-based plastic in the same way that the Earth cared for its carbon, we can be of authentic ecological service.  In particular, by making sure our carbon-plastic does not scatter into the biosphere or atmosphere.</p>
-
-						<p>As we all know too well, when plastic is dumped, it degrades into dangerous micro-plastics.  When plastic is incinerated it returns to the atmosphere as CO2.  And when plastic that is processed by industry it causes factories to spin and churn, resulting in more emissions and more plastic products.</p>
-
-						<p>Because of this, there is great ecological value in simply securing plastic out of these routes!  When secure our plastic in a way that doesn't require fossil fuels or petro-capital, and when the resulting secured-plastic furthers non-profit, non-industrial applications that benefit humans and support biodiversity, it is considered, sequestered.</p> 
-							 
-						<p>Ecobricking is one way to acheive plastic sequestration.</p>
+						<p>Today more and more people are managing their carbon-based plastic in the same way that the Earth cared for its carbon. In particular, by making sure our carbon-plastic does not scatter into the biosphere or atmosphere.</p>
 						
-						<p>In this way, ecobricked plastic, <i>if</i> it meets the criteria of plastic sequestration, generates ecological value.  This value can be quantified by the weight of plastic sequestered within it.</p>
+						<p>One of the main ways they are doing so is through ecobricking.</p>
 
-						<p>Brikcoins are based on this ecological value.</p>
+						<p>Afterall, we all know well that when plastic is dumped, it degrades into dangerous micro-plastics.  We also know that when plastic is incinerated it returns to the atmosphere as CO2.  And more and more, we are realizing that when plastic that is processed by industry it causes factories to spin and churn, resulting in more emissions and more plastic products.</p>
+
+						<p>This is the reason for ecobricking: there is great ecological value in simply securing plastic out of these routes!</p>
+						
+						<p>The process of securing our plastic in a way that doesn't require fossil fuels, petro-capital, or industry is called plastic sequestration.  Plastic is only sequestered however, when the resulting secured-plastic furthers non-profit applications that benefit humans and support biodiversity.</p> 
+						
+						<p>In this way, ecobricked plastic, <i>if it meets the criteria of plastic sequestration</i>, generates ecological value.  This value can be quantified by the weight of plastic sequestered within it.</p>
+
+						<p>Brikcoins are based on the ecological value of authenticated ecobrick sequestered plastic.</p>
 				
                 </div>
             </div>
@@ -215,7 +217,7 @@ Content Page template: v.1.0.1-->
 					
 					<div class="row2">
 						<div class="main3">
-							<p>Through a combination of enterprise structure and technology infrastructure, we aim to minimize our grey ecological impacts and maximize of our collective green impact.</p>
+							<p>Through a combination of enterprise structure and server infrastructure, we aim to minimize our grey ecological impacts and maximize of our collective green impact.</p>
 						</div>
 						<div class="side3"><img src="webp/gea-logo-400px.webp" width="130px">
 						</div>
@@ -268,7 +270,7 @@ Content Page template: v.1.0.1-->
                 </div>
             </div>
 
-			
+
 
 			<div class="page-paragraph-reg">
                  
