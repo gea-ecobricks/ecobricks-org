@@ -104,9 +104,9 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Proof of Value</h4>
-                    <h5>Brikcoins are generated through the manual process of authenticating ecobrick sequestered plastic.</h5>   
-                    <br>
+						<h4>Proof of Value</h4>
+						<h5>Brikcoins are generated through the manual process of authenticating ecobrick sequestered plastic.</h5>   
+						<br>
                     </div>
 
                     <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
@@ -117,7 +117,7 @@ Content Page template: v.1.0.1-->
                		 <div class="row">
 						<div class="main2">
 
-						<p>Traditional 'proof of work' crypto currencies are based proving on work has been done.  Alas, this computational 'work' has no intrinsic value.  In fact, many critiques argue that the energy and hardware required, has a negative ecological value from the emissions and ewaste that result.  Proof of stake currencies, though they are not directly based upon computational work, nonetheless have the same net-negative ecological impact.</p>
+							<p>Traditional 'proof of work' crypto currencies are based proving on work has been done.  Alas, this computational 'work' has no intrinsic value.  In fact, many critiques argue that the energy and hardware required, has a negative ecological value from the emissions and ewaste that result.  Proof of stake currencies, though they are not directly based upon computational work, nonetheless have the same net-negative ecological impact.</p>
 
 						</div>
 						<div class="side2"><img src="webp/2-brikcoins-450px.webp" width="90%">
@@ -125,7 +125,7 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>In contrast, the Brikcoin blockchain is based on proving the work of humans (in this case, the making of an ecobrick) has an ecological value in and of itself.  The Brikcoin blockchain is based on the this authenticated value.</p>
+							<p>In contrast, the Brikcoin blockchain is based on proving the work of humans (in this case, the making of an ecobrick) has an ecological value in and of itself.  The Brikcoin blockchain is based on the this authenticated value.</p>
 						</div>
 						<div class="side3"><img src="webp/2-brikcoins-450px.webp" width="150px">
 						</div>
@@ -134,19 +134,20 @@ Content Page template: v.1.0.1-->
 					<div class="row">
 						<div class="main2">
 
-						<p>However, rather than rely on computational and crypotographic means of authentication, the Brikcoin blockchain operates on further manual human work.  The authenticatin process of every ecobrick logged involves the review of three independent and qualifies human inspections.  Only the average reviews of all three validators are positive, does an ecobrick become authenticated.</p>
+							<p>However, rather than rely on computational and crypotographic means of authentication, the Brikcoin blockchain operates on further manual human work.  The authenticatin process of every ecobrick logged involves the review of three independent and qualifies human inspections.  Only the average reviews of all three validators are positive, does an ecobrick become authenticated.</p>
 
 						</div>
 						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="70%">
 						</div>
 					</div>
+					
 					<div class="row2">
 						<div class="main3">
 
-						<p>As a non-capital, manual and community powered process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-
-						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="150px">
+							<p>As a non-capital, manual and community powered process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 						</div>
+
+						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="150px"></div>
 					</div>
 				</div>
 			</div>
