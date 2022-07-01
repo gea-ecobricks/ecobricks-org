@@ -68,7 +68,7 @@ Content Page template: v.1.0.1-->
                 <div class="row">
 						<div class="main2">
 
-                		<p>Two billion years ago, the Earth's atmosphere was full of carbon dioxide.  The planet's climate was unstable and its surface barren.  However, steadily the Earth managed its carbon by putting it into life-cycles.  These organisms and ecosystem steadily secured more and more carbon into the ground.  With less and less CO2 in the atmosphere, the climate stabilized and the biosphere greened.</p>
+                		<p>Two billion years ago, the Earth's atmosphere was full of carbon dioxide.  The planet's climate was unstable and its surface barren.  However, steadily the atmosphere's carbon was cycled into carbon-based life.  Over time, as plants and animals lived and died, their fallen biomass was buried.  Steadily more and more carbon ended up in the ground.  With less and less CO2 in the atmosphere, the climate stabilized and the Earth's biosphere greened.</p>
 
 						</div>
 						<div class="side2"><img src="webp/earthen-400px.webp" width="80%">
@@ -82,13 +82,13 @@ Content Page template: v.1.0.1-->
 						</div>
 					</div>
 							
-						<p>Today more and more people are managing their carbon-based plastic in the same way that the Earth cared for its carbon. In particular, by making sure our carbon-plastic does not scatter into the biosphere or atmosphere.</p>
+						<p>Today, by managing our plastic in the same way that the Earth cared for its carbon, we can be of ecological service. In particular, by making sure our carbon-plastic does not scatter into the biosphere or atmosphere.</p>
 						
-						<p>One of the main ways they are doing so is through ecobricking.</p>
+						<p>One of the main ways people are doing so today is through ecobricking.</p>
 
-						<p>Afterall, we all know well that when plastic is dumped, it degrades into dangerous micro-plastics.  We also know that when plastic is incinerated it returns to the atmosphere as CO2.  And more and more, we are realizing that when plastic that is processed by industry it causes factories to spin and churn, resulting in more emissions and more plastic products.</p>
+						<p>Afterall, when plastic is dumped, it degrades into dangerous micro-plastics.  When plastic is incinerated it returns to the atmosphere as CO2.  And when plastic that is processed by industry it causes factories to spin and churn, resulting in more emissions and more plastic products.</p>
 
-						<p>This is the reason for ecobricking: there is great ecological value in simply securing plastic out of these routes!</p>
+						<p>In other words: there is great ecological value in simply securing plastic out of these routes!</p>
 						
 						<p>The process of securing our plastic in a way that doesn't require fossil fuels, petro-capital, or industry is called plastic sequestration.  Plastic is only sequestered however, when the resulting secured-plastic furthers non-profit applications that benefit humans and support biodiversity.</p> 
 						
