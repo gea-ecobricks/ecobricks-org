@@ -32,23 +32,25 @@
 
 			<div class="lead-page-paragraph">
 				
-				<p>Plastic transition is the key to our shift from petro-capital participation to the regeneration of the biosphere.</p>
+				<p>By transitioning from our plastic we can shift from petro-capital participation to the regeneration of the biosphere.</p>
 				</div>
 
 			<div class="page-paragraph">
 				  
 
-				<p>It can be overwhelming to hear about all the ecological crises of our day.  Climate change, deforestation, ocean acidification make plastic pollution seem minor issue in comparison. However, like all our ecological issues, plastic pollution is a symptom of our petro-capital economy– the way our money and energy is powered by the extraction and burning of fossil fuels.  But this makes plastic pollution is unique! 
-                
-                <p>It is the only issue we can touch– and through it the petro-capital operating system at the root of it all.</p>
+				<p>It can be overwhelming to hear about all the ecological crises of our day.  Climate change, deforestation, ocean acidification-- they make the problem of plastic pollution seem minor issue in comparison! However, like all our ecological issues, plastic pollution is a symptom of our petro-capital economy– the way our money and energy is powered by fossil fuels.</p>
 				
-				<p>Because we all use it, plastic provides a unique opportunity for collective action.  Our every plastic choice, from purchasing to disposing, results in factories spinning, trucks transporting, and oil refined– <b>or, not</b>. </p>
+				<p>Of all ecological issues, this makes plastic unique.</p> 
+                
+                <p>Through our the plastic that passes through our hands each day we can touch-- and impact-- the petro-capital economy that is otherwise so overwhelming huge and invisible.</p>
+				
+				<p>And, because we all use it, plastic provides a unique opportunity for collective action.  Our every plastic choice, compounded together with many other people's,results in factories spinning, trucks transporting, and oil refined– <b>or, not</b>. </p>
                 
                 <p>What we do with our plastic, as it spins or slows the petro-capital economy has big ecological consequence.<p>
 
-                <p>Our daily plastic enables us to make small yet meaningful choices to reduce our participation in the petro-capital economy. Sure and steady we can transition from plastic and the petroleum powered system behind it.  Its a shift from adding CO2 and plastic to the biosphere to removing and preventing them both.</p>
+                <p>Our daily plastic enables us to make small yet meaningful choices to reduce our participation in the petro-capital economy behind it.  Its a shift from adding CO2 and plastic to the biosphere to removing and preventing them both.</p>
 
-                <p>This transition is the goal of ecobricking! It is a shift from the greying impacts of petro-capital participation to what we call regenerative living.</p>
+                <p>This transition is the goal of ecobricking! It is a shift from the greying impacts of petro-capital participation to regenerative living.</p>
 
 			</div>	
 
