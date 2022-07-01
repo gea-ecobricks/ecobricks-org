@@ -30,16 +30,16 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>By valuing real world ecological service we can accelerate our transition from petro-capital dependence.</p>
+			<p>Based on real world ecological value, the Brikcoin blockchain provides a path towards petro-capital transition.</p>
 		</div>
 
 		<div class="page-paragraph">
-            <p>Blockchain innovations have enabled a revolutionary means of exchanging value and recording transactions through cryptographic verification. However, the ever increasing amount of computer work and hardware required has all too often resulted in higher and higher environmental costs— all without generating any underlying human or ecological value.  All too often, these currencies have favored those already possessing currency, leading to an ever increasing divide between those who have, and those who have not.</p>
+            <p>Block chain innovations have enabled a revolution in digital currencies. However, the increasing computer work required to sustain inumerable chains of digital blocks has resulted in higher and higher environmental costs— all without generating any underlying human or ecological value.  As such, these currencies remain firmly lodged within the petro-capital economy that is at the root of today's ecological crisises.</p>
 
             <div class="row">
                 <div class="main2">
 
-                <p>In contrast, the Brikcoin manual blockchain (BRK / β)) is based on the generation of ecological value by human work.  Unlike other blockchains focused on proving the consistency of their ledger, Brikcoins are focused on the generation of the value underlying the ledger.  Much like ancient currencies were based on gold or silver that had a value in-itself, Brikcoins are based on secured plastic that has an ecological value in-and-of-itself.  Specifically, the proof that plastic has been secured out of the biosphere and out of industry through ecobricking.</p>
+                <p>In contrast, the Brikcoin manual blockchain (BRK / β)) is based on the generation of real world value and powered by real human work.  Much like ancient currencies were based on gold or silver that had a value in-itself, Brikcoins are based on ecological value.  Rather than simply represent numbers in a ledger, each and every Brikcoin represents something of pressing modern value:  plastic removed from polluting the biosphere and removed from industries that pollute.</p>
                 </p>
                 </div>
                 <div class="side2"><img src="webp/earthen-400px.webp" width="100%"></div>
