@@ -125,18 +125,29 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>In contrast, the Brikcoin block chain is based on proving the work of humans (in this case, the making of an ecobrick) has an ecological value in and of itself.</p>
+						<p>In contrast, the Brikcoin blockchain is based on proving the work of humans (in this case, the making of an ecobrick) has an ecological value in and of itself.  The Brikcoin blockchain is based on the this authenticated value.</p>
 						</div>
 						<div class="side3"><img src="webp/2-brikcoins-450px.webp" width="150px">
 						</div>
 					</div>
 						
-						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides a valuable ecological service.  The Brikcoin block chain is based on the authenticating of this value.</p>
+					<div class="row">
+						<div class="main2">
 
-						<p>Rather than rely on computational and crypotographic means of authentication, the Brikcoin block chain is instead based on further manual human work.  The authenticatin process of every ecobrick logged involves the review of three independent and qualifies human inspections.
+						<p>However, rather than rely on computational and crypotographic means of authentication, the Brikcoin blockchain operates on further manual human work.  The authenticatin process of every ecobrick logged involves the review of three independent and qualifies human inspections.  Only the average reviews of all three validators are positive, does an ecobrick become authenticated.</p>
 
-						<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+						</div>
+						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="70%">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
 
+						<p>As a non-capital, manual and community powered process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+						
+						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="150px">
+						</div>
+					</div>
                 </div>
             </div>
 
