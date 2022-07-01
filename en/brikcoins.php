@@ -35,10 +35,12 @@ Content Page template: v.1.0.1-->
 
 		<div class="page-paragraph">
 
-            <p>Blockchain innovations have enabled a revolution in digital currencies. However, the increasing computer work required to sustain them has resulted in higher and higher energy demands— all without generating any underlying value.  In so far as these block chains rely on fossil fuel energy for to power their ledgers, they remain firmly emeshed in the petro-capital economy.</p>
+            <p>Blockchain innovations have enabled a revolution in digital currencies. However, the increasing computer work required to sustain them has resulted in higher and higher energy demands— all without generating any underlying value.</p>
 
 
-			<p>In contrast, the Brikcoin manual blockchain (BRK / β)) is based on the generation of real world value, powered by real human work.  In the same way that gold and silver based currencies had a value in-and-of-itself, Brikcoins are based on ecological value.  Rather than simply represent numbers in a ledger, every Brikcoin represents something of pressing modern value: plastic removed from polluting the biosphere and removed from industries that pollute.</p>
+			<p>In contrast, the Brikcoin manual blockchain (BRK / β)) is based on the generation of real world value, powered by real human work.</p>
+
+			<p>In the same way that gold and silver based currencies had a value in-and-of-itself, Brikcoins are based on ecological value.  Rather than simply represent numbers in a ledger, every Brikcoin represents something of pressing ecological importance: plastic removed from polluting the biosphere and removed from industries that pollute.</p>
 			</p>
 			
 			<p>This is what we can a proof-of-value manual blockchain. </p>
@@ -136,17 +138,17 @@ Content Page template: v.1.0.1-->
 					<div class="row">
 						<div class="main2">
 
-							<p>However, rather than rely on computational and crypotographic means of authentication, the Brikcoin blockchain operates on further manual human work.  The authenticatin process of every ecobrick logged involves the review of three independent and qualifies human inspections.  Only when review of all three validators is positive, does an ecobrick and its plastic become authenticated.</p>
+							<p>However, rather than rely on computational and crypotographic means of authentication, the Brikcoin blockchain operates on further manual human work.  The authenticatin process of every ecobrick logged involves the review of three independent human inspections.  Only when the reviews of all three validators is positive, does an ecobrick and its plastic become authenticated.</p>
 
 						</div>
-						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="70%">
+						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="85%">
 						</div>
 					</div>
 					
 					<div class="row2">
 						<div class="main3">
 
-							<p>As a non-capital, manual and community powered process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+							<p>In this way, Brikcoins avoid another pitfall of current blochain currencies.  Rather than favor those who currency to invtest, as a non-capital, manual and community powered process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 						</div>
 
 						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="150px"></div>
