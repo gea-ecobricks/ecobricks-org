@@ -114,7 +114,7 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed2">
 
-                <div class="row">
+               		 <div class="row">
 						<div class="main2">
 
 						<p>Traditional 'proof of work' crypto currencies are based proving on work has been done.  Alas, this computational 'work' has no intrinsic value.  In fact, many critiques argue that the energy and hardware required, has a negative ecological value from the emissions and ewaste that result.  Proof of stake currencies, though they are not directly based upon computational work, nonetheless have the same net-negative ecological impact.</p>
@@ -144,12 +144,13 @@ Content Page template: v.1.0.1-->
 						<div class="main3">
 
 						<p>As a non-capital, manual and community powered process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-						
+
 						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="150px">
 						</div>
 					</div>
-                </div>
-            </div>
+				</div>
+			</div>
+            
 
 			<a name="MANUAL"></a>
             <div class="reg-content-block" id="block3">
