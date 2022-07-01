@@ -54,7 +54,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Ecological Value</h4>
-                    <h5>In following the Earth's example we can generate authentic ecological value.</h5>   
+                    <h5>In following the Earth's example of carbon care we can generate authentic ecological value.</h5>   
                     <br>
                     </div>
 
@@ -66,43 +66,44 @@ Content Page template: v.1.0.1-->
                 <div class="row">
 						<div class="main2">
 
-                		<p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance in pursuit of our mission and vision of plastic transition.  As a <a href="about.php">not-for profit Earth Enterprise</a> our mandate is the generation of ecological value by following the Earth's example of carbon sequestration.</p>  
-						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.</p>
+                		<p>Two billion years ago, the Earth's atmosphere was full of carbon dioxide, its climate was unstable, and its surface barren.  However, steadily the Earth managed its carbon by putting it into life-cycles that eventually secured it into geological storage under the ground.  With less and less CO2 in the atmosphere, and more and more in the ground, the climate stabilized and the biosphere greened.</p>
+
 						</div>
-						<div class="side2"><img src="pngs/albatross-blue-sky.gif" width="80%">
+						<div class="side2"><img src="webp/earthen-400px.webp" width="80%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Brikcoins are based on this value.  Coins are generated only when this value has been manually proved by independent evaluation.</p>
+						<p>Today the petroleum based plastic that passes through our hands comes directly from these ancient underground carbon stores</p>
 						</div>
 						<div class="side3"><img src="pngs/albatross-blue-sky.gif" width="150px">
 						</div>
 					</div>
-				
-					<div class="row">
-						<div class="main2">
+							
+						<p>By managing our modern carbon-based plastic in the same way that the Earth cared for its carbon, we can be of authentic ecological service.  In particular, by making sure our carbon-plastic does not scatter into the biosphere or atmosphere.</p>
 
-                		<p>The Brikcoin blockchain is permissionless, meaning that its ledger is centralized on GEA managed databases to enable decentralized and massively distributed ecological service.  The GEA has chosen this structure to minimize the server impact and energy consumption of the maintenance of our ledger.</p>
-						</div>
-						<div class="side2"><img src="webp/2-brikcoins-450px.webp" width="80%">
-						</div>
-					</div>
-					<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+						<p>As we all know too well, when plastic is dumped, it degrades into dangerous micro-plastics.  When plastic is incinerated it returns to the atmosphere as CO2.  And when plastic that is processed by industry it causes factories to spin and churn, resulting in more emissions and more plastic products.</p>
 
+						<p>Because of this, there is great ecological value in simply securing plastic out of these routes!  When secure our plastic in a way that doesn't require fossil fuels or petro-capital, and when the resulting secured-plastic furthers non-profit, non-industrial applications that benefit humans and support biodiversity, it is considered, sequestered.</p> 
+							 
+						<p>Ecobricking is one way to acheive plastic sequestration.</p>
+						
+						<p>In this way, ecobricked plastic, <i>if</i> it meets the criteria of plastic sequestration, generates ecological value.  This value can be quantified by the weight of plastic sequestered within it.</p>
+
+						<p>Brikcoins are based on this ecological value.</p>
 				
                 </div>
             </div>
 
 
-			<a name="NEW-VALUE"></a>
+			<a name="PROOF-OF-VALUE"></a>
             <div class="reg-content-block" id="block2">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
                     <h4>Proof of Value</h4>
-                    <h5>Brikcoins are based on the ecological value of sequestered plastic and petro-capital transition.</h5>   
+                    <h5>Brikcoins are generated through the manual process of authenticating ecobrick sequestered plastic.</h5>   
                     <br>
                     </div>
 
@@ -114,24 +115,25 @@ Content Page template: v.1.0.1-->
                 <div class="row">
 						<div class="main2">
 
-                		<p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance in pursuit of our mission and vision of plastic transition.  As a not-for profit Earth Enterprise our mandate is the generation of ecological value by following the Earth's example of carbon sequestration.</p>  
-
-						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.</p>
+						<p>Traditional 'proof of work' crypto currencies are based proving on work has been done.  Alas, this computational 'work' has no intrinsic value.  In fact, many critiques argue that the energy and hardware required, has a negative ecological value from the emissions and ewaste that result.  Proof of stake currencies, though they are not directly based upon computational work, nonetheless have the same net-negative ecological impact.</p>
 
 						</div>
-						<div class="side2"><img src="webp/earth-service-400px.webp" width="90%">
+						<div class="side2"><img src="webp/2-brikcoins-450px.webp" width="90%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Brikcoins are based on this value.  Coins are generated only when this value has been manually proved by independent evaluation.</p>
+						<p>In contrast, the Brikcoin block chain is based on proving the work of humans (in this case, the making of an ecobrick) has an ecological value in and of itself.</p>
 						</div>
-						<div class="side3"><img src="webp/earthen-400px.webp" width="150px">
+						<div class="side3"><img src="webp/2-brikcoins-450px.webp" width="150px">
 						</div>
 					</div>
-				
-		
-				<p>The Brikcoin blockchain is permissionless, meaning that its ledger is centralized on GEA managed databases to enable decentralized and massively distributed ecological service.  The GEA has chosen this structure to minimize the server impact and energy consumption of the maintenance of our ledger.</p>
+						
+						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides a valuable ecological service.  The Brikcoin block chain is based on the authenticating of this value.</p>
+
+						<p>Rather than rely on computational and crypotographic means of authentication, the Brikcoin block chain is instead based on further manual human work.  The authenticatin process of every ecobrick logged involves the review of three independent and qualifies human inspections.
+
+						<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 
                 </div>
             </div>
@@ -142,7 +144,7 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>A Manual Blockchain</h4>
+                    <h4>How it works</h4>
                     <h5>Brikcoins are generated and verified by human labour.</h5>   
                     <br>
                     </div>
@@ -152,32 +154,79 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed3">
 
-                <br>
-                <img src="pngs/manual-blockchain.png" width="90%" loading="lazy" alt="manual proof of value block chain">
+					<br>
+					<img src="pngs/manual-blockchain.png" width="90%" loading="lazy" alt="manual proof of value block chain">
 
-                <p>Many cryptocurrencies rely on valueless, computer driven work to establish their generation of coins and the authentication of their ledger.  Often this work results in the consumption of significant amounts of energy and the generation of ewaste that have a negative ecological impact.  In contrast the Brikcoin blockchain is based on human work to prove that positive ecological impacts have been acheived.</p>
+					<p>Many cryptocurrencies rely on valueless, computer driven work to establish their generation of coins and the authentication of their ledger.  Often this work results in the consumption of significant amounts of energy and the generation of ewaste that have a negative ecological impact.  In contrast the Brikcoin blockchain is based on human work to prove that positive ecological impacts have been acheived.</p>
 
-				<p><b>Ecobricking</b></p>
+					<p><b>Ecobricking</b></p>
 
-				<p>The brikcoin blockchain revolves around the ecobricking of used plastic.  Ecobricking is an established means of securing plastic. It is a time-consuming, labor-intensive process that is most effectively done manually.  If done properly an ecobrick can be used for long-term building applications; ensuring that its plastic is secured from industrial processing and release into the biosphere.</p>
+					<p>The brikcoin blockchain revolves around the ecobricking of used plastic.  Ecobricking is an established means of securing plastic. It is a time-consuming, labor-intensive process that is most effectively done manually.  If done properly an ecobrick can be used for long-term building applications; ensuring that its plastic is secured from industrial processing and release into the biosphere.</p>
 
-				<p>Once complete, ecobrickers log their ecobrick on the GoBrik platform.  A serial number is given by the system and the ecobrickers enscribes this permanently on the ecobrick. A photo of the ecobrick with the serial number is taken and the logging completed.<p>
-				
-				<p>The logged ecobrick is then automatically queued for review.  The ecobricker is awarded credits that allow them to validate other ecobricks that have been logged.</p>
+					<p>Once complete, ecobrickers log their ecobrick on the GoBrik platform.  A serial number is given by the system and the ecobrickers enscribes this permanently on the ecobrick. A photo of the ecobrick with the serial number is taken and the logging completed.<p>
+					
+					<p>The logged ecobrick is then automatically queued for review.  The ecobricker is awarded credits that allow them to validate other ecobricks that have been logged.</p>
 
-				<p><b>Validation</b></p>
+					<p><b>Validation</b></p>
 
-				<p>The GEA has defined standards for an ecobrick. Only when a packed bottle meets these standards is it considered an ecobrick, and only then is the plastic it contains considered sequestered.</p> 
-				<p>Using one validation credit, ecobrickers are entitled to validate one ecobrick from the queue. The validator proceeds through a three step process of reviewing ecobrick, to ensure that it meets the criteria and standards of plastic sequestration. In total, each ecobrick is reviewed by three validators in the community.</p>
-				
-				<p><b>Authentication</b></p>
+					<p>The GEA has defined standards for an ecobrick. Only when a packed bottle meets these standards is it considered an ecobrick, and only then is the plastic it contains considered sequestered.</p> 
+					<p>Using one validation credit, ecobrickers are entitled to validate one ecobrick from the queue. The validator proceeds through a three step process of reviewing ecobrick, to ensure that it meets the criteria and standards of plastic sequestration. In total, each ecobrick is reviewed by three validators in the community.</p>
+					
+					<p><b>Authentication</b></p>
 
-				<p>An algorithm calculates a validation score based on the review. The three validation scores are averaged and if the average exceeds the minimum threshold, the ecobrick is authenticated. Brikcoins are then generated and issued to the validators and the GoBrik Central Reserve based on the weight of the ecobrick.</p>
+					<p>An algorithm calculates a validation score based on the review. The three validation scores are averaged and if the average exceeds the minimum threshold, the ecobrick is authenticated. Brikcoins are then generated and issued to the validators and the GoBrik Central Reserve based on the weight of the ecobrick.</p>
 
-				<p>The amount of Brikcoins generated is a function of the weight of the authenticated ecobricked plastic.  This 'plastic standard' is pegged to a ratio of 1 BRK (ß) to 100g of AES plastic. For example, a 322g ecobrick will generate 3.22 ß, while a 0.41 kg ecobrick will generate 4.1 ß.</p>
+					<p>The amount of Brikcoins generated is a function of the weight of the authenticated ecobricked plastic.  This 'plastic standard' is pegged to a ratio of 1 BRK (ß) to 100g of AES plastic. For example, a 322g ecobrick will generate 3.22 ß, while a 0.41 kg ecobrick will generate 4.1 ß.</p>
 
                 </div>
             </div>
+
+
+
+
+
+
+			<a name="CENTRALIZED"></a>
+            <div class="reg-content-block" id="block4">
+
+                <div class="opener-header">
+                    
+                    <div class="opener-header-text">
+                    <h4>Centralized Decentralization</h4>
+                    <h5>The Brikcoin block chain is presided over by the Global Ecobrick Alliance</h5>   
+                    <br>
+                    </div>
+
+                    <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+                </div>
+
+                <div id="preclosed4">
+
+					<div class="row">
+						<div class="main2">
+
+							<p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance.  The GEA does so in pursuit of its mission and vision of plastic transition. As a not-for profit Earth Enterprise, the GEA is guided by a mandate of acheiving net-green ecological impacts and redistributing excess revenue back to the global ecobrick movement.</p>
+						</div>
+						
+						<div class="side2">
+							<img src="webp/gea-logo-400px.webp" width="80%">
+						</div>
+					</div>
+					
+					<div class="row2">
+						<div class="main3">
+							<p>Through a combination of enterprise structure and technology infrastructure, we aim to minimize our grey ecological impacts and maximize of our collective green impact.</p>
+						</div>
+						<div class="side3"><img src="webp/gea-logo-400px.webp" width="130px">
+						</div>
+					</div>
+								
+					<p>The Brikcoin blockchain is permissionless, meaning that its ledger is centralized on GEA managed databases. This structure was elected to minimize the impact of the servers supporting the blockchain, while at the same time maximize the blockchain's empowerment of the decentralized global ecobrick movement.</p>
+				</div>
+			</div>
+
+			
+
 
 			<a name="WHITEPAPER"></a>
             <div class="reg-content-block" id="block4">
@@ -214,13 +263,12 @@ Content Page template: v.1.0.1-->
 						</div>
 					</div>
 				 
-				<p>The white paper is updated as of March 2022 to reflect three years of beta-usage by our 50,000 gobrik users, over 150,000 ecobricks and a pool of over 250,000 ß (as of March, 2022).</p><br>
-
-				
-</p>
+					<p>The white paper is updated as of March 2022 to reflect three years of beta-usage by our 50,000 gobrik users, over 150,000 ecobricks and a pool of over 250,000 ß (as of March, 2022).</p><br>
 
                 </div>
             </div>
+
+			
 
 			<div class="page-paragraph-reg">
                  
