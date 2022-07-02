@@ -132,10 +132,10 @@ Content Page template: v.1.0.1-->
 						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="85%">
 						</div>
 					</div>
-					<div class="row2">
-						<div class="main3">
+					<div class="row">
+						<div class="main2">
 						
-						<p>Only when the peer review of an ecobrick is successful, is an ecobrick deem to have sequestered its plastic.  This simultaneously fulfils the final criteria of plastic sequestration, thereby finalizing the ecobrick's ecological value and generating the Brikcoins that represent it.</p>
+						<p>Only when the peer review of an ecobrick is successful, is the plastic within it deemed have been sequestered.  This simultaneously fulfils the final criteria of plastic sequestration (authentication), thereby finalizing the ecobrick's ecological value.  Brikcoins that represent this value are then generated in a block on the chain.</p>
 									
 						</div>
 						<div class="side2"><img src="webp/2-brikcoins-450px.webp" width="90%">
