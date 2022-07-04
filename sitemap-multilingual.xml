@@ -45,6 +45,10 @@
                rel="alternate"
                hreflang="en"
                href="https://ecobricks.org/en/"/>
+       <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/fr/"/>
    </url>
 
    <url>
@@ -553,7 +557,7 @@
 <!--2021 REGEN REPORT-->
 
 <url>
-      <loc>https://ecobricks.org/en/2021-regenreport.php</loc>
+      <loc>https://ecobricks.org/en/regenreports.php</loc>
       <lastmod>2022-03-11T21:46:06+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.3</priority>
@@ -561,19 +565,19 @@
       <xhtml:link
                rel="alternate"
                hreflang="es"
-               href="https://ecobricks.org/es/2021-regenreport.php"/>
+               href="https://ecobricks.org/es/regenreports.php"/>
       <xhtml:link
                rel="alternate"
                hreflang="id"
-               href="https://ecobricks.org/id/2021-regenreport.php"/>
+               href="https://ecobricks.org/id/regenreports.php"/>
       <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://ecobricks.org/en/2021-regenreport.php"/>
+               href="https://ecobricks.org/en/regenreports.php"/>
    </url>
 
    <url>
-      <loc>https://ecobricks.org/es/2021-regenreport.php</loc>
+      <loc>https://ecobricks.org/es/regenreports.php</loc>
       <lastmod>2022-03-11T21:46:06+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.3</priority>
@@ -581,19 +585,19 @@
       <xhtml:link
                rel="alternate"
                hreflang="es"
-               href="https://ecobricks.org/es/2021-regenreport.php"/>
+               href="https://ecobricks.org/es/regenreports.php"/>
       <xhtml:link
                rel="alternate"
                hreflang="id"
-               href="https://ecobricks.org/id/2021-regenreport.php"/>
+               href="https://ecobricks.org/id/regenreports.php"/>
       <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://ecobricks.org/en/2021-regenreport.php"/>
+               href="https://ecobricks.org/en/regenreports.php"/>
    </url>
 
    <url>
-      <loc>https://ecobricks.org/id/2021-regenreport.php</loc>
+      <loc>https://ecobricks.org/id/regenreports.php</loc>
       <lastmod>2022-03-11T21:46:06+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.3</priority>
@@ -601,15 +605,15 @@
       <xhtml:link
                rel="alternate"
                hreflang="es"
-               href="https://ecobricks.org/es/2021-regenreport.php"/>
+               href="https://ecobricks.org/es/regenreports.php"/>
       <xhtml:link
                rel="alternate"
                hreflang="id"
-               href="https://ecobricks.org/id/2021-regenreport.php"/>
+               href="https://ecobricks.org/id/regenreports.php"/>
       <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://ecobricks.org/en/2021-regenreport.php"/>
+               href="https://ecobricks.org/en/regenreports.php"/>
    </url>
 
 

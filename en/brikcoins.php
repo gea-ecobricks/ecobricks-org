@@ -67,7 +67,7 @@ Content Page template: v.1.0.1-->
                 <div class="row">
 						<div class="main2">
 
-                		<p>Two billion years ago, the Earth's atmosphere was full of carbon dioxide.  The planet's climate was unstable and its surface barren.  However, steadily the atmosphere's CO2 was cycled into carbon-based life.  Over time, as plants and animals lived and died, they were buried one by the other.  As more and more carbon ended up in the ground, there was less and less CO2 in the atmosphere.  Steadily the climate stabilized and the Earth's biosphere blossomed.</p>
+                		<p>Two billion years ago, the Earth's atmosphere was full of carbon dioxide.  The planet's climate was unstable and its surface barren.  However, steadily the atmosphere's CO2 was cycled into carbon-based life.  Over time, as plants and animals lived and died, they were buried one by the other.  As more and more <a href="/plastic">carbon ended up in the ground</a>, there was less and less CO2 in the atmosphere.  Steadily the climate stabilized and the Earth's biosphere blossomed.</p>
 
 						</div>
 						<div class="side2"><img src="webp/earthen-400px.webp" width="80%">
@@ -75,7 +75,7 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Today, our petroleum based plastic comes directly from these ancient underground carbon stores.  As a form of carbon, what we do with our plastic can be of ecological benefit-- or not.</p>
+						<p>Today, our petroleum based plastic comes directly from these ancient underground carbon stores.  As a form of carbon, what we do with our plastic can be of ecological benefit— <i>or not</i>.</p>
 						</div>
 						<div class="side3"><img src="pngs/albatross-blue-sky.gif" width="150px">
 						</div>
@@ -84,24 +84,26 @@ Content Page template: v.1.0.1-->
 
 						<p>When plastic is dumped, it degrades into dangerous micro-plastics.  When plastic is incinerated it returns to the atmosphere as CO2.  And when plastic that is processed by industry it causes factories to spin and churn, resulting in more emissions and more plastic products.</p>
 						
-						<p>In this way securing our plastic out of these routes, has great ecological value.  Especially, when we concentrate and secure plastic in the same way that the Earth once cared for the carbon it contains.
+						<p>In this way securing our plastic out of these routes, has important ecological value.  Especially when we concentrate and secure plastic in the same way that the Earth cares for it carbon.</p>
 						
-						<p>This process is known as plastic sequestration.  It is defined as a manual, net-zero, non-industrial process.  In order to be sequestered, the resulting secured-plastic must meet the criteria of plastic sequestration to ensure that it is in fact green.</p> 
+						<p>This process of <a href="sequest">plastic sequestration</a> is defined as a manual, net-zero, non-industrial process.  In order to be sequestered, the resulting secured-plastic must meet the criteria of plastic sequestration to ensure that it is in fact green.</p> 
 
-						<p>One of the most universal and accessible means of plastic sequestration is ecobricking.</p>
+						<p>One of the most universal and accessible means of plastic sequestration is <a href="what.php">ecobricking</a>.</p>
 						
-						<p>Ecobricked plastic, <i>if it meets the criteria of plastic sequestration</i>, emobodies an ecological value.  This value can be quantified by the weight of plastic sequestered within it.</p>
+						<p>Ecobricked plastic, <i>if it has been authenticated to have met the criteria of plastic sequestration</i>, emobodies an ecological value.  This value can be quantified by the weight of the plastic sequestered within it.</p>
 
-						<p>Brikcoins are based on the ecological value of authenticated ecobrick sequestered plastic.</p>
+						<p>Brikcoins are based on the ecological value of <a href="/aes">authenticated ecobrick sequestered plastic (AES plastic)</a>.</p>
 
 						<br><br>
 						<hr>
 						<h4>Learn More</h4><h4>
-					<h5>ℹ️ <a href="sequest.php">The GEA's criteria for plastic sequestration.</a></h5>
+						<h5>ℹ️ Wikipedia article: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank" >Plastic Sequestration.</a></h5>
+						
+						<h5>ℹ️ <a href="sequest.php">The GEA's criteria for plastic sequestration.</a></h5>
 
-					<h5>ℹ️ <a href="/plastic">The Long Story of Plastic.</a></h5>
+						<h5>ℹ️ <a href="/plastic">The Long Story of Plastic.</a></h5>
 
-					<h5>ℹ️ Wikipedia article: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank" >Plastic Sequestration.</a></h5>
+						<h5>ℹ️ More on: <a href="/aes">AES Plastic.</a></h5>
 
 					<h5>ℹ️ The philosophy of following <a href="https://earthen.io/imagine/" target="_blank">the Earth's example.</a></h5>
 				
