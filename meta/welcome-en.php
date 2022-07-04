@@ -8,7 +8,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-  <meta property="og:url"           content="https://www.ecobricks.org/en/welcome.php">
+  <meta property="og:url"           content="https://www.ecobricks.org/en/">
   <meta property="og:type"          content="website">
  <meta property="og:title"         content="Ecobrick Powered Plastic Transition | Ecobricks.org">
   <meta property="og:description"   content="Ecobricks prevent plastic from becoming trash, waste, recycling, incineration or pollution.  Eco bricks enable non-capital, zero-waste, net-zero, plastic sequestration."/>

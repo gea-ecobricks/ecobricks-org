@@ -13,72 +13,85 @@
       <xhtml:link
                rel="alternate"
                hreflang="es"
-               href="https://ecobricks.org/es/welcome.php"/>
+               href="https://ecobricks.org/es/"/>
     <xhtml:link
                rel="alternate"
                hreflang="id"
-               href="https://ecobricks.org/id/welcome.php"/>
+               href="https://ecobricks.org/id/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://ecobricks.org/en/welcome.php"/>
+               href="https://ecobricks.org/fr/"/>
+       <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/"/>
    </url>
 
    <url>
-      <loc>https://ecobricks.org/en/welcome.php</loc>
+      <loc>https://ecobricks.org/fr/</loc>
       <lastmod>2022-03-11T21:46:06+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.00</priority>
       <xhtml:link
                rel="alternate"
                hreflang="es"
-               href="https://ecobricks.org/es/welcome.php"/>
+               href="https://ecobricks.org/es/"/>
     <xhtml:link
                rel="alternate"
                hreflang="id"
-               href="https://ecobricks.org/id/welcome.php"/>
+               href="https://ecobricks.org/id/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://ecobricks.org/en/welcome.php"/>
+               href="https://ecobricks.org/en/"/>
    </url>
 
    <url>
-      <loc>https://ecobricks.org/es/welcome.php</loc>
+      <loc>https://ecobricks.org/es/</loc>
       <lastmod>2022-03-11T21:46:06+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.00</priority>
       <xhtml:link
                rel="alternate"
                hreflang="es"
-               href="https://ecobricks.org/es/welcome.php"/>
+               href="https://ecobricks.org/es/"/>
     <xhtml:link
                rel="alternate"
                hreflang="id"
-               href="https://ecobricks.org/id/welcome.php"/>
+               href="https://ecobricks.org/id/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://ecobricks.org/en/welcome.php"/>
+               href="https://ecobricks.org/en/"/>
+
+       <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/fr/"/>
    </url>
 
    <url>
-      <loc>https://ecobricks.org/id/welcome.php</loc>
+      <loc>https://ecobricks.org/id/</loc>
       <lastmod>2022-03-11T21:46:06+00:00</lastmod>
       <changefreq>weekly</changefreq>
       <priority>1.00</priority>
       <xhtml:link
                rel="alternate"
                hreflang="es"
-               href="https://ecobricks.org/es/welcome.php"/>
+               href="https://ecobricks.org/es/"/>
     <xhtml:link
                rel="alternate"
                hreflang="id"
-               href="https://ecobricks.org/id/welcome.php"/>
+               href="https://ecobricks.org/id/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://ecobricks.org/en/welcome.php"/>
+               href="https://ecobricks.org/en/"/>
+       <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://ecobricks.org/fr/"/>
    </url>
 
     
@@ -104,6 +117,10 @@
                rel="alternate"
                hreflang="en"
                href="https://ecobricks.org/en/faqs.php"/>
+            <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://ecobricks.org/fr/faqs.php"/>
    </url>
 
    <url>
@@ -124,6 +141,10 @@
                rel="alternate"
                hreflang="en"
                href="https://ecobricks.org/en/faqs.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://ecobricks.org/fr/faqs.php"/>
    </url>
 
    <url>
@@ -144,6 +165,34 @@
                rel="alternate"
                hreflang="en"
                href="https://ecobricks.org/en/faqs.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/fr/faqs.php"/>
+   </url>
+
+   <url>
+      <loc>https://ecobricks.org/fr/faqs.php</loc>
+      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.00</priority>
+
+      <xhtml:link
+               rel="alternate"
+               hreflang="es"
+               href="https://ecobricks.org/es/faqs.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="id"
+               href="https://ecobricks.org/id/faqs.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/en/faqs.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/fr/faqs.php"/>
    </url>
 
     
@@ -168,6 +217,10 @@
                rel="alternate"
                hreflang="en"
                href="https://ecobricks.org/en/what.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/fr/what.php"/>
    </url>
 
     <url>
@@ -188,6 +241,10 @@
                rel="alternate"
                hreflang="en"
                href="https://ecobricks.org/en/what.php"/>
+         <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/fr/what.php"/>
    </url>
 
     <url>
@@ -208,6 +265,34 @@
                rel="alternate"
                hreflang="en"
                href="https://ecobricks.org/en/what.php"/>
+         <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/fr/what.php"/>
+   </url>
+
+    <url>
+      <loc>https://ecobricks.org/fr/what.php</loc>
+      <lastmod>2022-03-11T21:46:06+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.6</priority>
+
+      <xhtml:link
+               rel="alternate"
+               hreflang="es"
+               href="https://ecobricks.org/es/what.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="id"
+               href="https://ecobricks.org/id/what.php"/>
+      <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/en/what.php"/>
+         <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://ecobricks.org/fr/what.php"/>
    </url>
     
     

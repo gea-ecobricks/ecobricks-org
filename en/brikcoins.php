@@ -99,7 +99,7 @@ Content Page template: v.1.0.1-->
 						<h4>Learn More</h4><h4>
 					<h5>ℹ️ <a href="sequest.php">The GEA's criteria for plastic sequestration.</a></h5>
 
-					<h5>ℹ️ <a href="/plastic">the Long Story of Plastic.</a></h5>
+					<h5>ℹ️ <a href="/plastic">The Long Story of Plastic.</a></h5>
 
 					<h5>ℹ️ Wikipedia article: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank" >Plastic Sequestration.</a></h5>
 
@@ -127,9 +127,9 @@ Content Page template: v.1.0.1-->
 
                		 <div class="row">
 						<div class="main2">
-							<p>Brikcoins are based on the ecological value of sequestered plastic-- a concept which is based on folowing the Earth's example in the care of our carbon.  As such, in order for plastic to be considered sequestered it must meet five criteria based on Earthen ethics, that are maintained by the Global Ecobrick Alliance.</p>
+							<p>Brikcoins are based on the ecological value of <a href="sequest.php">sequestered plastic</a>— a concept which is based on folowing the <a href="/plastic">Earth's example</a> of carbon care.  As such, in order for plastic to be considered sequestered it must meet five criteria based on <a href="https://earthen.io/imagine">Earthen ethics</a>, that are maintained by the <a href="about.php">Global Ecobrick Alliance.</a></p>
 							
-							<p>The final criteria of plastic sequestration, is that of independant authentication that all the other criteria have been met.  In order to authenticate ecobricks that have been made around the world as sequestered plastic, the GEA maintains the GoBrik platform.  There every ecobrick logged on the system is peer reviewed by the ecobricker community to ascertain whether it has been made properly.</p>
+							<p>The final criteria of plastic sequestration, is that of <a href="sequest.php/#auth">independant authentication</a> that all the other criteria have been met.  In order to authenticate ecobricks that have been made around the world as sequestered plastic, the GEA maintains the <a href="/gobrik">GoBrik platform</a>.  There every ecobrick logged on the system is peer reviewed by the ecobricker community to ascertain whether it meets <a href="what.php">GEA standards</a>.</p>
 
 						</div>
 						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="85%">
@@ -138,7 +138,7 @@ Content Page template: v.1.0.1-->
 					<div class="row">
 						<div class="main2">
 						
-						<p>Only when the peer review of an ecobrick is successful, is the plastic within it deemed have been sequestered.  This simultaneously fulfils the final criteria of plastic sequestration (authentication), thereby finalizing the ecobrick's ecological value.  Brikcoins that represent this value are then generated in a block on the chain.</p>
+						<p>Only when the peer review of an ecobrick is successful, is the plastic within it deemed have been sequestered.  This simultaneously fulfils the final criteria of plastic sequestration (authentication), thereby finalizing the ecobrick's ecological value.  Brikcoins that represent this value are then generated in a block on the <a href="brikchain.php">brikchain</a>.</p>
 									
 						</div>
 						<div class="side2"><img src="webp/2-brikcoins-450px.webp" width="90%">
