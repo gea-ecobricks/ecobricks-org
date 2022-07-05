@@ -158,6 +158,10 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 </div>
 <br><br>
 
+
+
+
+
 	<div class="page-paragraph">
 
 <h4>Cash Transactions</h4>
@@ -172,6 +176,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
                 <th>Date</th>
                 <th>Sender</th>
                 <th>Receiver</th>
+				<th>Description</th>
 				<th>Amount</th>
 				<th>Currency</th>
                 <th>Type</th>
@@ -181,10 +186,11 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
         </thead>
         <tfoot>
             <tr>
-			<th>ID</th>
+		    <th>ID</th>
                 <th>Date</th>
                 <th>Sender</th>
                 <th>Receiver</th>
+				<th>Description</th>
 				<th>Amount</th>
 				<th>Currency</th>
                 <th>Type</th>
@@ -193,14 +199,14 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
     </table>
 </div>
 
-</div>
-</div>
-
-
 
 </div>
 </div>
 
+
+
+</div>
+</div>
 
 	<!--FOOTER STARTS HERE-->
 
