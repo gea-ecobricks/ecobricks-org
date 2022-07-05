@@ -1,4 +1,6 @@
 
+<!-- The DB connection creator -->
+<?php include 'db.php';?>
 
         <?php
  
@@ -105,4 +107,4 @@ echo json_encode(
 
 ?>
 		
-<?php include 'https://ecobricks.org/includes/mysql.php';?>		
+	
