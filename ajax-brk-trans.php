@@ -90,6 +90,7 @@ $sql_details = array(
     'host' => 'localhost'
 );
  
+require( 'mysql.php' );
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

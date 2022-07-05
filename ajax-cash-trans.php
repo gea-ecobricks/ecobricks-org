@@ -21,7 +21,7 @@
  */
  
 // DB table to use
-$table = 'tb_brk_transaction';
+$table = 'tb_cash_transaction';
  
 // Table's primary key
 $primaryKey = 'cash_tran_id'; 
