@@ -142,9 +142,9 @@ if ($result->num_rows > 0) {
 	//echo "</br><h3>" . $transactionId . "</h1>";
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
-		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div></div>" ;
+		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div></div><div id=\"main-details\">" ;
 		if ( isset($array["ecobrick_serial_no"]) && $array["ecobrick_serial_no"] != '0' ) { 
-		echo " <div id=\"main-details\"><div class=\"block\"><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></div>" ;
+		echo " <div class=\"block\"><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></div>" ;
 	}
 		echo " <div class=\"type\">" . $array["block_tran_type"] . "</div>" ;
 
