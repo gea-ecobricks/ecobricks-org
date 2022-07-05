@@ -48,6 +48,38 @@
 			<br><br>
 				
             
+<div class="page-paragraph">
+<h4>Central Reserve Satus</h4>
+<h6>Running and yearly brikchain totals.</h6>
+</div>		
+			
+<div class="overflow">
+<?php include 'db.php';?>
+		
+<?php
+
+$sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
+
+	
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+	
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>From Date</th><th>To Date</th><th>Total</th></tr>';
+	
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+		
+		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td></tr>";
+		}
+		echo "</table>";
+	} else {
+		echo "0 results";
+	}
+	$conn->close();
+	?>
+	</div>
+	<br><br>
 		
 		
 			<div class="page-paragraph">
@@ -89,38 +121,6 @@
 </div>
 
 <br><br>
-<div class="page-paragraph">
-<h4>Central Reserve Satus</h4>
-<h6>Running and yearly brikchain totals.</h6>
-</div>		
-			
-<div class="overflow">
-<?php include 'db.php';?>
-		
-<?php
-
-$sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
-
-	
-	$result = $conn->query($sql);
-
-	if ($result->num_rows > 0) {
-	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>From Date</th><th>To Date</th><th>Total</th></tr>';
-	
-	// output data of each row
-	while($row = $result->fetch_assoc()) {
-		
-		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td></tr>";
-		}
-		echo "</table>";
-	} else {
-		echo "0 results";
-	}
-	$conn->close();
-	?>
-	</div>
-	<br><br>
 
 	<div class="page-paragraph">
 
@@ -160,6 +160,8 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 </div>
 <br><br>
 
+
+<!--
 	<div class="page-paragraph">
 
 <h4>Cash Transactions</h4>
@@ -196,6 +198,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
         </tfoot>
     </table>
 </div>
+-->
 
 </div>
 </div>

@@ -147,7 +147,7 @@ img {padding: 8%;}
 </div>
 		
 <!-- The DB connection creator -->
-<?php include 'https://ecobricks.org/db.php';?>
+<?php include 'db.php';?>
 <?php
 
 // Get the contents from the Cash Tran table as an ordered View, using the serial_no from the URL.
