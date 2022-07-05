@@ -149,7 +149,7 @@ img {padding-right: 5%;}
 
 
 <!-- The DB connection creator -->
-<?php include 'db.php';?>
+<?php include 'https://ecobricks.org/db.php';?>
 <?php
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.

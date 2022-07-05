@@ -129,7 +129,7 @@ b {font-weight: 500;}
 				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br>
 
 <!-- The DB connection creator -->
-<?php include 'db.php';?>
+<?php include 'https://ecobricks.org/db.php';?>
 <?php
 
 // Get the contents from the Transaction table as an ordered View, using the transaction id from the URL.
@@ -143,9 +143,9 @@ if ($result->num_rows > 0) {
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
 		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div></div>" ;
-
+		if ( isset($array["ecobrick_serial_no"]) && $array["ecobrick_serial_no"] != '0' ) { 
 		echo " <div id=\"main-details\"><div class=\"block\"><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></div>" ;
-
+	}
 		echo " <div class=\"type\">" . $array["block_tran_type"] . "</div>" ;
 
 		echo " <div class=\"amount\"><b>Transfer amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></div>" ;

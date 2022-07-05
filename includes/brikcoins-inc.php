@@ -38,7 +38,7 @@ _END;?>
 		padding: 10vh 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background: url(webp/brikcoins-blue.webp) right top;
+		background: url(https://ecobricks.org/webp/brikcoins-blue.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -55,7 +55,7 @@ _END;?>
 		padding: 20vh 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		background: url(webp/brikcoins-blue.webp) right top;
+		background: url(https://ecobricks.org/webp/brikcoins-blue.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
