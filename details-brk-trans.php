@@ -135,14 +135,14 @@ b {font-weight: 500;}
 // Get the contents from the Transaction table as an ordered View, using the transaction id from the URL.
 $transactionId = $_GET['tran_id'];
 
-$sql = "SELECT * FROM vw_brk_tran_desc WHERE tran_id = " . $transactionId;
+$sql = "SELECT * FROM tb_brk_transaction WHERE tran_id = " . $transactionId;
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 	//echo "</br><h3>" . $transactionId . "</h1>";
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
-		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div></div>" ;
+		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div></div><div id=\"main-details\">" ;
 		if ( isset($array["ecobrick_serial_no"]) && $array["ecobrick_serial_no"] != '0' ) { 
 		echo " <div class=\"block\"><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></div>" ;
 	}
