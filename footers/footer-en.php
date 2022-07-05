@@ -170,7 +170,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 <!-- ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score
                 -->
-
+<!--
 <script type="text/javascript" defer>
 
 document.addEventListener("DOMContentLoaded", function(event) {
@@ -188,23 +188,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
 	document.getElementsByTagName('head')[0].appendChild(script);
   }
-</script>
+</script>-->
 
-
-
-<!-- UNIVERSAL SITE JAVA SCRIPTS
-
-
-<script src="https://global.localizecdn.com/localize.js"></script>
-<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
-
-<script>
-  Localize.initialize({
-    key: '911e632bfc957',
-    rememberLanguage: true,
-  });
-</script>
-
--->
+<!-- Arc CDN Script without delay
+<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
 	
 		
