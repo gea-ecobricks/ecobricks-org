@@ -85,8 +85,8 @@ $columns = array(
  
 // SQL server connection information
 
- 
-include 'mysql.php';
+require( 'mysql.php' );
+
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * If you just want to use the basic configuration for DataTables with PHP
