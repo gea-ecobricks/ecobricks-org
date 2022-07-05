@@ -119,7 +119,7 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp brikcoins.php $DEPLOYPATH
+
 
   - export DEPLOYPATH=/home/ecobricks/public_html/es/
 
@@ -156,7 +156,7 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp brikcoins.php $DEPLOYPATH
+
 
   - export DEPLOYPATH=/home/ecobricks/public_html/id/
 
@@ -193,7 +193,7 @@ deployment:
   - /bin/cp header.php $DEPLOYPATH
   - /bin/cp footer.php $DEPLOYPATH
   - /bin/cp menu-bar.php $DEPLOYPATH
-  - /bin/cp brikcoins.php $DEPLOYPATH
+
 
   
 
