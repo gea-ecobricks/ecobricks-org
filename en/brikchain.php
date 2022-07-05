@@ -39,8 +39,6 @@
 				  
 				<p>Here on the Brikchain explorer you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and ecobricked authenticated plastic (<a href="aes">AES plastic</a>).</p>
 
-				<p>NOTE:  This page is still under construction and only a fragment of the Brikchain is represented for testing purposes</p>
-
 			</div>
 
 			<br>
@@ -48,38 +46,6 @@
 			<br><br>
 				
             
-<div class="page-paragraph">
-<h4>Central Reserve Satus</h4>
-<h6>Running and yearly brikchain totals.</h6>
-</div>		
-			
-<div class="overflow">
-<?php include 'db.php';?>
-		
-<?php
-
-$sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
-
-	
-	$result = $conn->query($sql);
-
-	if ($result->num_rows > 0) {
-	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>From Date</th><th>To Date</th><th>Total</th></tr>';
-	
-	// output data of each row
-	while($row = $result->fetch_assoc()) {
-		
-		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td></tr>";
-		}
-		echo "</table>";
-	} else {
-		echo "0 results";
-	}
-	$conn->close();
-	?>
-	</div>
-	<br><br>
 		
 		
 			<div class="page-paragraph">
@@ -121,6 +87,38 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 </div>
 
 <br><br>
+<div class="page-paragraph">
+<h4>Central Reserve Satus</h4>
+<h6>Running and yearly brikchain totals.</h6>
+</div>		
+			
+<div class="overflow">
+<?php include 'db.php';?>
+		
+<?php
+
+$sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
+
+	
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+	
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>From Date</th><th>To Date</th><th>Total</th></tr>';
+	
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+		
+		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td></tr>";
+		}
+		echo "</table>";
+	} else {
+		echo "0 results";
+	}
+	$conn->close();
+	?>
+	</div>
+	<br><br>
 
 	<div class="page-paragraph">
 
@@ -160,8 +158,6 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 </div>
 <br><br>
 
-
-<!--
 	<div class="page-paragraph">
 
 <h4>Cash Transactions</h4>
@@ -176,7 +172,6 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
                 <th>Date</th>
                 <th>Sender</th>
                 <th>Receiver</th>
-				<th>Description</th>
 				<th>Amount</th>
 				<th>Currency</th>
                 <th>Type</th>
@@ -186,11 +181,10 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
         </thead>
         <tfoot>
             <tr>
-		    <th>ID</th>
+			<th>ID</th>
                 <th>Date</th>
                 <th>Sender</th>
                 <th>Receiver</th>
-				<th>Description</th>
 				<th>Amount</th>
 				<th>Currency</th>
                 <th>Type</th>
@@ -198,7 +192,6 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
         </tfoot>
     </table>
 </div>
--->
 
 </div>
 </div>
@@ -207,6 +200,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 
 </div>
 </div>
+
 
 	<!--FOOTER STARTS HERE-->
 
