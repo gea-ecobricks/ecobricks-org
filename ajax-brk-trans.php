@@ -1,6 +1,5 @@
 
-<!-- The DB connection creator -->
-<?php include 'db.php';?>
+
 
         <?php
  
@@ -85,14 +84,9 @@ $columns = array(
 
  
 // SQL server connection information
-$sql_details = array(
-    'user' => 'ecobricks_russs',
-    'pass' => '1ecobricks!',
-    'db'   => 'ecobricks_gobrik_msql_db',
-    'host' => 'localhost'
-);
- 
 
+ 
+include 'mysql.php';
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * If you just want to use the basic configuration for DataTables with PHP
@@ -104,6 +98,8 @@ require( 'ssp.class.php' );
 echo json_encode(
     SSP::simple( $_GET, $sql_details, $table, $primaryKey, $columns )
 );
+
+
 
 ?>
 		
