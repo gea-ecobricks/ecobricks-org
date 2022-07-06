@@ -211,7 +211,7 @@ if ($result->num_rows > 0) {
 		
     }
 } else {
-    echo "No results found for selected ecobrick serial number";
+    echo "<div id=\"main-details\"><div class=\"serial\">Sorry :-(</div></div><div id=\"details-content\"><div class=\"general-field\">No results found for selected ecobrick serial number . $serialNo .</div>";
 }
 $conn->close();
 

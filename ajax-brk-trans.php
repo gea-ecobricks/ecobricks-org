@@ -21,7 +21,7 @@
  */
  
 // DB table to use
-$table = 'tb_brk_transaction';
+$table = 'vw_brk_tran_desc';
  
 // Table's primary key
 $primaryKey = 'tran_id';
@@ -82,7 +82,7 @@ $columns = array(
 );
 
  
-// SQL server connection information
+// SQL server connection information    
 $sql_details = array(
     'user' => 'ecobricks_russs',
     'pass' => '1ecobricks!',
