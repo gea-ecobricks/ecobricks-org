@@ -123,8 +123,7 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed2">
 
-                <div class="row">
-						<div class="main2">
+                
 
                 		<p>We strive to lead by example with our plastic transition and regenerative living.</p>
 
@@ -133,10 +132,11 @@ Content Page template: v.1.0.1-->
 						<p>Our leading by example, is amplified by our impact accounting and the scoring of our regenerative living.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p>
 
 						<p>Leading by example leverages the full power of mandalic collaboration.  Sharing our example allows others to be inspired by our story, insights, practices and net impact.  In so doing we consciously place ourselves in the center of a replicating, social unfolding.</p>
-                </div>
-            </div>
+                		</div>
+           		 </div>
 
-			<a name="MANUAL"></a>
+
+			<a name="LOCAL"></a>
             <div class="reg-content-block" id="block3">
 
                 <div class="opener-header">
@@ -194,8 +194,7 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed4">
 
-				<div class="row">
-						<div class="main2">
+				
 
                 		<p>Our intentions are powered by mandalic community collaboration.</p>
 
@@ -225,8 +224,7 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed5">
 
-				<div class="row">
-						<div class="main2">
+				
 
                 		<p>We strive to include men and women, young and old, rich and poor… and everyone in between.</p>
 
