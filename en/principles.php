@@ -57,8 +57,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Following the way of the Earth</h4>
-                    <h5>We strive to emulate the Earth’s ancient example of carbon management to green the biosphere.</h5>   
+                    <h4>Following the Earth's Example</h4>
+                    <h5>We strive to emulate the ways the Earth cared for its carbon to green the biosphere.</h5>   
                     <br>
                     </div>
 
@@ -126,21 +126,13 @@ Content Page template: v.1.0.1-->
                 <div class="row">
 						<div class="main2">
 
-                		<p>The Brikcoin blockchain is developed and maintained by the Global Ecobrick Alliance in pursuit of our mission and vision of plastic transition.  As a not-for profit Earth Enterprise our mandate is the generation of ecological value by following the Earth's example of carbon sequestration.</p>  
+                		<p>We strive to lead by example with our plastic transition and regenerative living.</p>
 
-						</div>
-						<div class="side2"><img src="webp/earthen-400px.webp" width="100%">
-						</div>
-					</div>
-					<div class="row2">
-						<div class="main3">
-						<p>Ecobricking, when it meets the criteria of plastic sequestration, provides an ecological service that can be quantified and valued.</p>
-						</div>
-						<div class="side3"><img src="webp/earthen-400px.webp" width="150px">
-						</div>
-					</div>
-				
-				<p>Brikcoins are based on this value.  Coins are generated only when this value has been manually proved by independent evaluation.</p>
+						<p>Ghandi once said “be the change you want to see in the world“.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
+
+						<p>Our leading by example, is amplified by our impact accounting and the scoring of our regenerative living.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p>
+
+						<p>Leading by example leverages the full power of mandalic collaboration.  Sharing our example allows others to be inspired by our story, insights, practices and net impact.  In so doing we consciously place ourselves in the center of a replicating, social unfolding.</p>
                 </div>
             </div>
 
@@ -150,7 +142,7 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Locally Replicable</h4>
+                    <h4>Local & Replicable</h4>
                     <h5>Low tech, carbon-negative, open and accessibly methodolgies</h5>   
                     <br>
                     </div>
@@ -161,39 +153,38 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed3">
 
                 <br>
-                <img src="https://cdn.ecobricks.org/wp-content/uploads/2020/04/2020-Manual-Blockchain.svg.png">
+                
 
-                <p>Many cryptocurrencies rely on valueless, computer driven work to establish their generation of coins and the authentication of their ledger.  Often this work results in the consumption of significant amounts of energy and the generation of ewaste that have a negative ecological impact.  In contrast the Brikcoin blockchain is based on human work to prove that positive ecological impacts have been acheived.</p>
+                <p>We strive towards accessible methods and means that are accessible to anyone, anywhere.</p>
 
-				<p><b>Ecobricking</b></p>
+				<p>Every day thousands of tons of plastic flow loose into the biosphere. Meanwhile, the consumption of plastic and its production are on the increase.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion and economic growth rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
 
-				<p>The brikcoin blockchain revolves around the ecobricking of used plastic.  Ecobricking is an established means of securing plastic. It is a time-consuming, labor-intensive process that is most effectively done manually.  If done properly an ecobrick can be used for long-term building applications; ensuring that its plastic is secured from industrial processing and release into the biosphere.</p>
+				<p>Our principle of replicability encompasses several of our other principles.
 
-				<p>Once complete, ecobrickers log their ecobrick on the GoBrik platform.  A serial number is given by the system and the ecobrickers enscribes this permanently on the ecobrick. A photo of the ecobrick with the serial number is taken and the logging completed.<p>
-				
-				<p>The logged ecobrick is then automatically queued for review.  The ecobricker is awarded credits that allow them to validate other ecobricks that have been logged.</p>
+    			<p>Localized: By designing with local, organic or upcycled materials (that are ideally freely available) we remove resource barriers to replication.
+    			Petro Transition: By designing methods that do not require machines, we remove the barrier of technology, specific skills and dependence on petroleum based energy.
+    			Transcaste: By designing our methods so that they do not require specialized abilities we remove age, gender and geographical barriers to replication and empowerment..
+   				 Open Source: By making our designs open source according to creative commons specifications and easily accessible on the web, we energize and accelerate replication.
+    			Non-Capital:  By designing methods and using materials that do not require capital, we remove the financial barrier to participation and replication.</p>
 
-				<p><b>Validation</b></p>
+				<p>We strive to use locally available resources in our community in the making of ecobricks and when we build with them.  
 
-				<p>The GEA has defined standards for an ecobrick. Only when a packed bottle meets these standards is it considered an ecobrick, and only then is the plastic it contains considered sequestered.</p> 
-				<p>Using one validation credit, ecobrickers are entitled to validate one ecobrick from the queue. The validator proceeds through a three step process of reviewing ecobrick, to ensure that it meets the criteria and standards of plastic sequestration. In total, each ecobrick is reviewed by three validators in the community.</p>
-				
-				<p><b>Authentication</b></p>
+				<p>Ecobricking is all about packing our local plastic.  This begins with the very plastic we have personally consumed, then extends to that consumed in our household and community. Ideally we use PET bottles that come from our community and a stick that comes from our area.  This way we transform plastic that would otherwise cause problems in our area with the minimum amount of energy and the maximum amount of social empowerment.</p>
 
-				<p>An algorithm calculates a validation score based on the review. The three validation scores are averaged and if the average exceeds the minimum threshold, the ecobrick is authenticated. Brikcoins are then generated and issued to the validators and the GoBrik Central Reserve based on the weight of the ecobrick.</p>
+				<p>When it comes to building with ecobricks, the same principal of localized sourcing applies.  We strive to use local materials, processes, skills and culture for our creations.  For example, we have developed the ecobrick tube banding method of bonding ecobricks to make use of the abundance of free and ‘waste’ motorcycle inner-tubes in South East Asia.  In the UK we learn from ancient earth building traditions of wattle and daub to combine ecobricks using local clay, straw and sand.</p>
 
-				<p>The amount of Brikcoins generated is a function of the weight of the authenticated ecobricked plastic.  This 'plastic standard' is pegged to a ratio of 1 BRK (ß) to 100g of AES plastic. For example, a 322g ecobrick will generate 3.22 ß, while a 0.41 kg ecobrick will generate 4.1 ß.</p>
+				<p>By using materials, goods, services and products that come from within our community and ecological region we likewise minimize our dependence on capital and petroleum.</p>
 
                 </div>
             </div>
 
-			<a name="WHITEPAPER"></a>
+			<a name="MANDALIC"></a>
             <div class="reg-content-block" id="block4">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Circular</h4>
+                    <h4>Mandalic Collaboration</h4>
                     <h5>The Commodification of Sequestered Plastic</h5>   
                     <br>
                     </div>
@@ -206,27 +197,80 @@ Content Page template: v.1.0.1-->
 				<div class="row">
 						<div class="main2">
 
-                		<p>On Earthday 2020, the GEA released version 1.0 of the Ecobricks & Brikcoin Whitepaper, on The Commodiciation of Manually Sequestered Plastic.  The 32 page document is the work of half a dozen contributors specializing in fields ranging from micro-plastic research, alternative currencies, philosophy, community development and database development.</p>
+                		<p>Our intentions are powered by mandalic community collaboration.</p>
 
-						</div>
-						<div class="side2"><img src="pngs/White-Paper-Icon2-400px.png" width="100%">
-						</div>
-					</div>
-					<div class="row2">
-						<div class="main3">
-						<p>The white paper lays out the framework for basing a currency on the ecological value of plastic sequestration.</p>
-						</div>
-						<div class="side3"><img src="pngs/White-Paper-Icon2-400px.png" width="150px">
-						</div>
-					</div>
-				
-				<p>The white paper is updated as of March 2022 to reflect three years of beta-usage by our 50,000 gobrik users, over 150,000 ecobricks and a pool of over 250,000 ß (as of March, 2022).</p>
+						<p>There are different words for it in cultures around the world– the Igorots call it Obo’obo, in Africa its know as ubuntu, in Indonesia gotongrayong, in the Philippines Kawasan.  Whatever the term, the dynamic is the same: a community coming together to realize a shared vision and intention.</p>
 
-				<p><a href="https://files.ecobricks.org/s/pC52memM4S2a6LX">The Commodification of Sequestered Plastic – GEA White Paper - PDF 2MB</a></p>
-</p>
+						<p>Most often, this is an intention that is for the whole community’s benefit– such as building a bridge or a well.  In our case, it is our common intention of keeping plastic out of the biosphere.  By holding a mission that is to the benefit of individuals, people, communities and the planet, the GEA enables this formidable force to power the realization of its vision.</p>
 
+						<p>This principle is in contrast to the means by which capital economy motivates and inspires participation through financial remuneration.  As a non-capital technology, ecobricking taps a deeper, more potent values such as community cleanliness, the health of children, the richness of the local ecology, to inspire participation, action and long term vision commitment.</p>
+
+						<p>For example, these very words are translated into other languages– not because we have paid anyone– but because they are in full resonance with the ecological passion of others who, resonating with our mission and vision, have offered their linguistic and programming expertise to make this happen.</p>
                 </div>
             </div>
+
+			<a name="TRANSCASTE"></a>
+            <div class="reg-content-block" id="block5">
+
+                <div class="opener-header">
+                    
+                    <div class="opener-header-text">
+                    <h4>Transcaste</h4>
+                    <h5>Open to all</h5>   
+                    <br>
+                    </div>
+
+                    <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
+                </div>
+
+                <div id="preclosed5">
+
+				<div class="row">
+						<div class="main2">
+
+                		<p>We strive to include men and women, young and old, rich and poor… and everyone in between.</p>
+
+						<p>In our methods, projects and intentions we strive to rise above old notions of roles and ability and accessibility.  We encourage the collaboration of  groups that are often perceived to have different social rankings (i.e. ‘castes’) to work together on a equal platform of participation.  In other words, rather than a child doing one task and an adult doing another, we design the method so that both can do it together.</p>
+
+						<p>For example the work of making an ecobrick, making a module or building with earth are designed to be equally accessible to just about everybody– and in such a way that no one has advantage by virtue of skill, strength or experience.   In this way, men and women, boys and girls can be equally involved in the cocreative process without traditional castes causing alienation.</p>
+
+						<p>This enables us to rise above old gender and generational divides to supercharge our collaborations with many variations of human creativity while further lowering the barriers of replication.</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+			<div class="page-paragraph-reg">
+                 
+                 <div class="row">
+                
+                    <div class="main2">
+                         <br><br>
+						 <h3>its Not About Sustainability</h3>
+
+
+			<p>It can be helpful to better understand the ecobrick ethos, by clarifying what it is not.  Ecobricking is often mistakenly referred to as a ‘sustainable’ technology or as promoting ‘sustainability’.  In so far as the popular use of the term ‘sustainable’ refers to enabling the status quo and allowing our current petro-capital economy to continue, ecobricking is not this. From the principles above, the ecobricking ethos distinguishes itself from sustaining the continuation of plastic consumption, sustaining the role of petro-powered industrial systems, and sustaining economy powered by fossil fuels.</p>
+
+			<p>To be clear, the ecobricking movement and ethos are not against industry or the petro-capital economy.  We would not have come to our principles without our experience of them.  We acknowledge that yesterday’s use of Earth gifted carbon has been an important formative and learning phase for us all– individually and collectively.</p>
+
+			<p>With this we move on from sustaining.  In so far as a system sustains a direction that conflicts with the Earth’s example of carbon management (see our first principle) we strive to transition from it.  We also strive to heal and ‘regenerate’ any past damage that we are responsible for.  Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our greening impact.</p>
+
+			<br><br>
+			<a class="action-btn" href="brikchain.php">🔎 About Ayyew</a>
+			<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+                    
+		</div>
+
+         <div class="side2">
+			<br><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/2020-Regenerative-Living-vs-Capital-Economy-1500px-2-300x212.png" width="90%" alt="sustaining vs. regenerative" loading="lazy">
+		</div>
+	</div>
+</div>
 
 
 		</DIV>
