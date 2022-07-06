@@ -104,7 +104,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 
 	if ($result->num_rows > 0) {
 	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>From Date</th><th>To Date</th><th>Total</th></tr>';
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>From</th><th>To</th><th>Total BRK</th><th>Total Briks</th><th>Total Weight</th></tr>';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
