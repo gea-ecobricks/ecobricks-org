@@ -16,7 +16,7 @@ Content Page template: v.1.0.1-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">OUr Regenerative Principles</div>
+		<div class="splash-heading">Our Regenerative Principles</div>
 		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
 	</div>
 	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 70%;"></div>	
@@ -37,7 +37,7 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Ecobricking is more than just a simple solution for plastic.  Guided by regenerative principles, ecobricking doesn't just prevent a problem, it provides a hands on experience of the regenerative principles that must underly our transition from fossil-fuels.	.</p>
+			<p>Ecobricking is more than just a simple solution for plastic.  Guided by regenerative principles, ecobricking doesn't just prevent a problem, it provides a hands on experience of the regenerative principles that must underly our transition from fossil-fuels.</p>
 		</div>
 
 		<div class="page-paragraph">
@@ -70,7 +70,7 @@ Content Page template: v.1.0.1-->
 
                 <div class="row">
 						<div class="main2">
-						<h4>For the last billion years, the Earth has been slow and steady greening the surface of our common home.  The way that the Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing humans an example to follow to ensure their own processes are green!  With our plastic-- which happens to be created from ancient carbon stores-- we can emulate the Earth’s example and participate in the continued enrichment of our common home.</h4>
+						<div class="lead-page-paragraph">For the last billion years, the Earth has been slow and steady greening the surface of our common home.  The way that the Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing humans an example to follow to ensure their own processes are green!  With our plastic-- which happens to be created from ancient carbon stores-- we can emulate the Earth’s example and participate in the continued enrichment of our common home.</div>
 
 						 
 
@@ -125,7 +125,7 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed2">
 
-                		<h3>We strive to lead by example with our plastic transition and regenerative living.</h3>
+				<div class="lead-page-paragraph">We strive to lead by example with our plastic transition and regenerative living.</div>
 
 						<p>Ghandi once said “be the change you want to see in the world“.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
 
@@ -243,21 +243,25 @@ Content Page template: v.1.0.1-->
 
 			<div class="page-paragraph-reg">
                  
-                 <div class="row">
+                
+			
+			<p>It can be helpful to better understand the ecobrick ethos, by clarifying what it is not.  Ecobricking is often mistakenly referred to as a ‘sustainable’ technology or as promoting ‘sustainability’.  In so far as the popular use of the term ‘sustainable’ refers to enabling the status quo and allowing our current petro-capital economy to continue, ecobricking is not this. From the principles above, the ecobricking ethos distinguishes itself from sustaining the continuation of plastic consumption, sustaining the role of petro-powered industrial systems, and sustaining economy powered by fossil fuels.</p>
+
+			<p>To be clear, the ecobricking movement and ethos are not against industry or the petro-capital economy.  We would not have come to our principles without our experience of them.  We acknowledge that yesterday’s use of Earth gifted carbon has been an important formative and learning phase for us all– individually and collectively.</p>
+			
+			<div class="row">
                 
                     <div class="main2">
                          <br><br>
 						 <h3>Sustainability vs Regenerative</h3>
 
 
-			<p>It can be helpful to better understand the ecobrick ethos, by clarifying what it is not.  Ecobricking is often mistakenly referred to as a ‘sustainable’ technology or as promoting ‘sustainability’.  In so far as the popular use of the term ‘sustainable’ refers to enabling the status quo and allowing our current petro-capital economy to continue, ecobricking is not this. From the principles above, the ecobricking ethos distinguishes itself from sustaining the continuation of plastic consumption, sustaining the role of petro-powered industrial systems, and sustaining economy powered by fossil fuels.</p>
-
-			<p>To be clear, the ecobricking movement and ethos are not against industry or the petro-capital economy.  We would not have come to our principles without our experience of them.  We acknowledge that yesterday’s use of Earth gifted carbon has been an important formative and learning phase for us all– individually and collectively.</p>
+			
 
 			<p>With this we move on from sustaining.  In so far as a system sustains a direction that conflicts with the Earth’s example of carbon management (see our first principle) we strive to transition from it.  We also strive to heal and ‘regenerate’ any past damage that we are responsible for.  Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our greening impact.</p>
 
 			<br><br>
-			<a class="action-btn" href="/ayyew">About Ayyew</a>
+			<a class="action-btn" href="/ayyew">🍃 About Ayyew</a>
 			<p style="font-size: 0.85em; margin-top:20px;">Learn about the indigenous wisdom tradition that underlies the regenerative ecobrick movement.</a></p>
                     
 		</div>
