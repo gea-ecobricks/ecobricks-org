@@ -38,9 +38,10 @@ _END;?>
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		
-		background: url(webp/principles-banner-1600px.webpp) bottom;
 		background-color: #4B8501;
+		
+		background: url(webp/principles-banner-1600px.webp?v1) bottom;
+		
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;

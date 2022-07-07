@@ -16,7 +16,7 @@ Content Page template: v.1.0.1-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Regenerative Principles</div>
+		<div class="splash-heading">OUr Regenerative Principles</div>
 		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
 	</div>
 	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 70%;"></div>	
@@ -37,16 +37,17 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Ecobricking is more than just a simple solution for plastic.  Guided by regenerative principles, ecobricking enables the transformation of not just the way we manage our plastic, but the way we see it and the world around us.</p>
+			<p>Ecobricking is more than just a simple solution for plastic.  Guided by regenerative principles, ecobricking doesn't just prevent a problem, it provides a hands on experience of the regenerative principles that must underly our transition from fossil-fuels.	.</p>
 		</div>
 
 		<div class="page-paragraph">
 	
 
-		<p>The regenerative ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines over a decade ago.  Deeply inspired by their ancestral wisdom and <a href="/ayyew">ayyew eco-ethos</a>, ecobricking enables us to rise above the old paradigm of plastic 'waste'.  Instead, plastic becomes an opportunity to follow the <a href="/plastic">the Earth's tried and tested example</a> of carbon management.</p>
+		<p>The South East Asian ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines.  Inspired by their <a href="/ayyew">ayyew ecological ethos</a>, the work of the Global Ecobrick Alliance has come to be guided by regenerative principles to rise above the old paradigm of plastic 'waste'.  Instead, through ecobricking, our daily plastic becomes a valuable opportunity to follow the <a href="/plastic">the Earth's example</a> of care.</p>
         
+		<!--
 		<p>In this way, as a non-capital, localized, replicable, spiral and net-green process, ecobricking can accelerate our transition from plastic to ever greener harmony with the Earth's cycles.</p>	
-
+-->
 		</div>
 
 
@@ -69,7 +70,7 @@ Content Page template: v.1.0.1-->
 
                 <div class="row">
 						<div class="main2">
-						<p>For the last billion years, the Earth has been slow and steady greening the surface of our common home.  The way that the Earth has cycled and stored carbon has led to a biosphere unique in our galaxy– while providing us a fantastic example to follow to make it even greener!   With our carbon-dense plastic we can emulate the Earth’s example and participate in the continued enrichment of our common home.</p>
+						<h4>For the last billion years, the Earth has been slow and steady greening the surface of our common home.  The way that the Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing humans an example to follow to ensure their own processes are green!  With our plastic-- which happens to be created from ancient carbon stores-- we can emulate the Earth’s example and participate in the continued enrichment of our common home.</h4>
 
 						 
 
@@ -79,23 +80,24 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Ecobricking is guided by the six Earthen Ethics as we strive to emulate the Earth’s example with our plastic:</p>
+						<p>Ecobricking is guided by the five Earthen Ethics:</p>
 						</div>
 						<div class="side3"><img src="webp/earthen-400px.webp" width="150px">
 						</div>
 					</div>
 				
 				<p><ul>
-					<li><b>Cycles that Spiral:</b>  In the same way that the Earth tended its carbon towards cycles is indefinite reuse, so too can turn our plastic into indefinitely reusable building blocks.  In the same way that the Earth spiralled its cycles towards the enrichment of the biosphere, so too can we ensure that our circular designs do the same.</li>
+					<li><b>Cycles that Spiral:</b>  In the same way that the Earth tended its carbon towards cycles is indefinite reuse, so too can turn our plastic into indefinitely reusable building blocks.</li>
 
-    				<li><b>Towards Sequestration:</b>  In the same way that the Earth steadily compacted and stored carbon for the indefinite long-term, we can do the same by compacting and concentrating our plastic through plastic sequestration.</li>
+    				<li><b>Towards Concentration:</b>  In the same way that the Earth steadily compacted and secured loose carbon into long-term, concentrated stores... so too can we with our plastic!  We can do the same by making sure our plastic doesn't get into industry (where it ends up getting loose again) and by compacting and concentrating our plastic into a bottle.</li>
     
-					<li><b>For Biosphere Benefit:</b> In the same way that the Earth’s processes spun their surpluses up to the benefit of the biosphere as whole, so too can we.</li>
+					<li><b>For Biosphere Benefit:</b> In the same way that the Earth’s cycles tended to enrich everything around them, so too can we manage our plastic!  Rather than manage our plastic for personal or company benefit, we can be sure to ecobrick first and foremost for the benefit of our local ecosystem and the global biosphere.</li>
 
     				<li><b>Towards Subtraction:</b>  The net effect of all of Earth’s processes subtracted  more carbon than they added, leading to more and more life.  We can do the same.  By keeping track and accounting for our impacts we be sure that our net impact is subtractive and greening too– what we call ‘regenerative living’.</li>
 
-    				<li><b>Towards Diversity:</b>  In the same way that the Earth’s processes tended towards ever greater biodiversity, so too do we make the support and acceleration of biodiversity our focus.</li>
-    				<li><b>Towards Awareness:</b> In the same way that the Earth cultivated higher levels of consciousness through its carbon cycling, we can do the same by connecting plastic cycling with experiential learning.</li>
+    				<li><b>Towards Diversity:</b>  In the same way that the Earth’s cycles of matter and energy led to more and more diverse cycles and systems, so too can we manage our plastic.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
+
+    				<li><b>Towards Awareness:</b> In the same way that the Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
 
 				</ul>
 				<h5>ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
@@ -123,15 +125,12 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed2">
 
-                
-
-                		<p>We strive to lead by example with our plastic transition and regenerative living.</p>
+                		<h3>We strive to lead by example with our plastic transition and regenerative living.</h3>
 
 						<p>Ghandi once said “be the change you want to see in the world“.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
 
-						<p>Our leading by example, is amplified by our impact accounting and the scoring of our regenerative living.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p>
+						<p>By leading by example in following the Earth's example, we can be a powerful inspiration.  Especially, when our example is amplified by our plastic accounting.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p>
 
-						<p>Leading by example leverages the full power of mandalic collaboration.  Sharing our example allows others to be inspired by our story, insights, practices and net impact.  In so doing we consciously place ourselves in the center of a replicating, social unfolding.</p>
                 		</div>
            		 </div>
 
@@ -155,21 +154,24 @@ Content Page template: v.1.0.1-->
                 <br>
                 
 
-                <p>We strive towards accessible methods and means that are accessible to anyone, anywhere.</p>
+                <h3>We strive towards accessible methods and means that are accessible to anyone, anywhere.</h3>
 
 				<p>Every day thousands of tons of plastic flow loose into the biosphere. Meanwhile, the consumption of plastic and its production are on the increase.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion and economic growth rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
 
 				<p>Our principle of replicability encompasses several of our other principles.
 
-    			<p>Localized: By designing with local, organic or upcycled materials (that are ideally freely available) we remove resource barriers to replication.
-    			Petro Transition: By designing methods that do not require machines, we remove the barrier of technology, specific skills and dependence on petroleum based energy.
-    			Transcaste: By designing our methods so that they do not require specialized abilities we remove age, gender and geographical barriers to replication and empowerment..
-   				 Open Source: By making our designs open source according to creative commons specifications and easily accessible on the web, we energize and accelerate replication.
-    			Non-Capital:  By designing methods and using materials that do not require capital, we remove the financial barrier to participation and replication.</p>
+    			<p><ul>
+					<li><b>Localized:</b> By designing with local, organic or upcycled materials (that are ideally freely available) we remove resource barriers to replication.</li>
 
-				<p>We strive to use locally available resources in our community in the making of ecobricks and when we build with them.  
+    			<li><b>Petro Transition:</b> By designing methods that do not require machines, we remove the barrier of technology, specific skills and dependence on petroleum based energy.
+    			Transcaste: By designing our methods so that they do not require specialized abilities we remove age, gender and geographical barriers to replication and empowerment.</li>
+   				 
+				<li><b>Open Source:</b> By making our designs open source according to creative commons specifications and easily accessible on the web, we energize and accelerate replication.
+    			Non-Capital:  By designing methods and using materials that do not require capital, we remove the financial barrier to participation and replication.  </li>
 
-				<p>Ecobricking is all about packing our local plastic.  This begins with the very plastic we have personally consumed, then extends to that consumed in our household and community. Ideally we use PET bottles that come from our community and a stick that comes from our area.  This way we transform plastic that would otherwise cause problems in our area with the minimum amount of energy and the maximum amount of social empowerment.</p>
+				<li><b>Local:</b>  We strive to use locally available resources in our community in the making of ecobricks and when we build with them.  Ecobricking is all about packing our local plastic.  This begins with the very plastic we have personally consumed, then extends to that consumed in our household and community. Ideally we use PET bottles that come from our community and a stick that comes from our area.  This way we transform plastic that would otherwise cause problems in our area with the minimum amount of energy and the maximum amount of social empowerment.</li>
+
+			</ul>
 
 				<p>When it comes to building with ecobricks, the same principal of localized sourcing applies.  We strive to use local materials, processes, skills and culture for our creations.  For example, we have developed the ecobrick tube banding method of bonding ecobricks to make use of the abundance of free and ‘waste’ motorcycle inner-tubes in South East Asia.  In the UK we learn from ancient earth building traditions of wattle and daub to combine ecobricks using local clay, straw and sand.</p>
 
@@ -196,8 +198,10 @@ Content Page template: v.1.0.1-->
 
 				
 
-                		<p>Our intentions are powered by mandalic community collaboration.</p>
+                		<h3>Our intentions are powered by mandalic community collaboration.</h3>
 
+						<p>Leading by example leverages the full power of mandalic collaboration.  Sharing our example allows others to be inspired by our story, insights, practices and net impact.  In so doing we consciously place ourselves in the center of a replicating, social unfolding.</p>
+						
 						<p>There are different words for it in cultures around the world– the Igorots call it Obo’obo, in Africa its know as ubuntu, in Indonesia gotongrayong, in the Philippines Kawasan.  Whatever the term, the dynamic is the same: a community coming together to realize a shared vision and intention.</p>
 
 						<p>Most often, this is an intention that is for the whole community’s benefit– such as building a bridge or a well.  In our case, it is our common intention of keeping plastic out of the biosphere.  By holding a mission that is to the benefit of individuals, people, communities and the planet, the GEA enables this formidable force to power the realization of its vision.</p>
@@ -226,7 +230,7 @@ Content Page template: v.1.0.1-->
 
 				
 
-                		<p>We strive to include men and women, young and old, rich and poor… and everyone in between.</p>
+                		<h5>We strive to include men and women, young and old, rich and poor… and everyone in between.</h5>
 
 						<p>In our methods, projects and intentions we strive to rise above old notions of roles and ability and accessibility.  We encourage the collaboration of  groups that are often perceived to have different social rankings (i.e. ‘castes’) to work together on a equal platform of participation.  In other words, rather than a child doing one task and an adult doing another, we design the method so that both can do it together.</p>
 
@@ -237,19 +241,13 @@ Content Page template: v.1.0.1-->
             </div>
 
 
-
-
-
-
-
-
 			<div class="page-paragraph-reg">
                  
                  <div class="row">
                 
                     <div class="main2">
                          <br><br>
-						 <h3>its Not About Sustainability</h3>
+						 <h3>Sustainability vs Regenerative</h3>
 
 
 			<p>It can be helpful to better understand the ecobrick ethos, by clarifying what it is not.  Ecobricking is often mistakenly referred to as a ‘sustainable’ technology or as promoting ‘sustainability’.  In so far as the popular use of the term ‘sustainable’ refers to enabling the status quo and allowing our current petro-capital economy to continue, ecobricking is not this. From the principles above, the ecobricking ethos distinguishes itself from sustaining the continuation of plastic consumption, sustaining the role of petro-powered industrial systems, and sustaining economy powered by fossil fuels.</p>
@@ -259,8 +257,8 @@ Content Page template: v.1.0.1-->
 			<p>With this we move on from sustaining.  In so far as a system sustains a direction that conflicts with the Earth’s example of carbon management (see our first principle) we strive to transition from it.  We also strive to heal and ‘regenerate’ any past damage that we are responsible for.  Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our greening impact.</p>
 
 			<br><br>
-			<a class="action-btn" href="brikchain.php">🔎 About Ayyew</a>
-			<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+			<a class="action-btn" href="/ayyew">About Ayyew</a>
+			<p style="font-size: 0.85em; margin-top:20px;">Learn about the indigenous wisdom tradition that underlies the regenerative ecobrick movement.</a></p>
                     
 		</div>
 
