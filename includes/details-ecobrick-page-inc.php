@@ -14,6 +14,9 @@ echo <<<_END
 
 _END;?>
 
+<!-- The DB connection creator -->
+<?php include 'db.php';?>
+
 <HEAD> 
 
 <!--Image files to preload that are unique to this page-->
