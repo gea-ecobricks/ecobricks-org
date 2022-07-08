@@ -23,7 +23,7 @@
 
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v0.7">
+<link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v0.8">
 
 	
 <!-- This calls GEA typography -->
@@ -101,7 +101,6 @@
 #full-page {
 
 	z-index: 0;
-
 	position: relative;
 	margin-top: 0px;
 	padding-bottom: 0px;
@@ -166,4 +165,4 @@
 
 }
 
-</style>	
+</style>
