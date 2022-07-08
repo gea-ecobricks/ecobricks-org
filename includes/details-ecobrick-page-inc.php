@@ -22,6 +22,8 @@ _END;?>
 <link rel="preload" as="image" href="https://ecobricks.org/webp/principles-banner-1600px.webp?v1">
 <link rel="preload" as="image" href="https://ecobricks.org/webp/principles-banner-1600px.webp">
 
+<?php require_once ("header.php");?>
+
 <!-- Required script for something?? -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
