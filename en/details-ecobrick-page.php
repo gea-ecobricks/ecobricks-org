@@ -4,7 +4,7 @@ Special Ecobrick View Page: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/details-ecobrick-page-inc.php");?>
+<!--<?php require_once ("includes/details-ecobrick-page-inc.php");?>-->
 
 
  
@@ -26,25 +26,19 @@ Special Ecobrick View Page: v.1.0.1-->
 
 	<div class="splash-content-block">
 		<div class="splash-box">
-			<div class="splash-heading">The Ecobrick!</div>
+			<div class="splash-heading">
+				
+			
+	<!--		The Ecobrick!</div>
 			<div class="splash-sub">An overview of the ecobrick recorded on the brikchain upon its authentication.</div>
 		</div>
 		<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 70%;"></div>	
 	</div>
-	<div id="splash-bar"></div>
+	<div id="splash-bar"></div>-->
 
 
 
-<!-- PAGE CONTENT-->
 
-<a name="top"></a>
-
-<div id="main-content">
-<!-- The flexible grid (content) -->
-	<div class="row">
-		<div class="main">
-
-       		<!--<div class="page-paragraph">-->
 		
         	<?php
 
@@ -70,6 +64,18 @@ Special Ecobrick View Page: v.1.0.1-->
 			echo " <div class=\"main\"><b>Density:</b> <var>" . $array["density"] ."&#8202;g/ml</var></div>" ;
 			echo " <div class=\"main\"><b>CO2e:</b><var> " . $array["CO2_kg"] ."&#8202;kg</var></div>" ;
 			echo " <div class=\"main\"><b>Brikcoin value:</b> <var>" . $array["ecobrick_dec_brk_val"] ."&#8202;ß</var></div></div>" ;
+
+
+			<!-- PAGE CONTENT-->
+
+<a name="top"></a>
+
+<div id="main-content">
+<!-- The flexible grid (content) -->
+	<div class="row">
+		<div class="main">
+
+       		<!--<div class="page-paragraph">-->
 
 
 			echo "  <div id=\"details-content\"><div class=\"general-field\"><b>Maker:</b> <var><i>" . $array["owner"] ."</i></var> </div>" ;
