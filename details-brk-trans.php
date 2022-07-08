@@ -1,4 +1,21 @@
+<!--Content Includes Page template: v.1.0.2-->
+
+<?php require_once ("lang.php");
+echo <<<_END
+
+<!DOCTYPE html>
+
+<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
+
+<html lang="$lang">
+
+_END;?>
+
+<HEAD> 
+
 <!-- PHP starts by laying out canonical URLs for the page and language -->
+
+<META NAME="robots" CONTENT="noindex">
 
 <?php
 	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
