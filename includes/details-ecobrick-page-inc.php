@@ -212,7 +212,7 @@ button {
 
 }
 
-
+/*
 #main-details {
 	background-color: #ded9d9;
 	margin-top: 0px;
@@ -230,6 +230,8 @@ button {
   	width: 90%;
 	margin-top: 30px;
 }
+
+*/
 
 .transaction {
 	font-size: 1.1em;

@@ -50,32 +50,33 @@ $conn->close();
 
 <BODY id="full-page">
 
-<div id="load-background">
+	<div id="load-background">
   
 <!-- This loads the page's language specific menu -->
 
-<?php require_once ("menus/menu-$lang.php");?>
+	<?php require_once ("menus/menu-$lang.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+	<!--<?php require_once ("translate-please.php");?>-->
 
 
-<!--SPLASH SECTION-->
+	<!--SPLASH SECTION-->
 
-<div class="splash-content-block">
-	<div class="splash-box">
-		<div class="splash-heading">The Ecobrick!</div>
-		<div class="splash-sub">An overview of the ecobrick recorded on the brikchain upon its authentication.</div>
+	<div class="splash-content-block">
+		<div class="splash-box">
+			<div class="splash-heading">The Ecobrick!</div>
+			<div class="splash-sub">An overview of the ecobrick recorded on the brikchain upon its authentication.</div>
+		</div>
+		<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 70%;"></div>	
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 70%;"></div>	
-</div>
-<div id="splash-bar"></div>
+	<div id="splash-bar"></div>
 
 
 
 <!-- PAGE CONTENT-->
 
 <a name="top"></a>
+
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
@@ -134,13 +135,13 @@ $conn->close();
 		
 				}
 			} else {
-				echo "<div id=\"main-details\"><div class=\"serial\">Sorry :-(</div></div><div id=\"details-content\"><div class=\"general-field\">No results for ecobrick serial number $serialNo in the Brikchain.  This is most likely because the Brikchain is still being populated with legacy data.</div>";
+				echo "<div id=\"main-details\"><div class=\"serial\">Sorry :-(</div></div> <div id=\"details-content\"><div class=\"general-field\">No results for ecobrick serial number $serialNo in the Brikchain.  This is most likely because the Brikchain is still being populated with legacy data.</div></div>";
 			}
 			$conn->close();
 
 			?>
 
-    	</DIV>
+    	</div>
 		
 
 		<div class="side">
