@@ -1,9 +1,13 @@
 
-
+<!--PAGE LANGUAGE:  ENGLISH
+Special Ecobrick View Page: v.1.0.1-->
+  
+<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
+ 
+<?php require_once ("includes/details-ecobrick-page-inc.php");?>
 
 <!-- The DB connection creator -->
 <?php include 'db.php';?>
-
 
 
 <?php
