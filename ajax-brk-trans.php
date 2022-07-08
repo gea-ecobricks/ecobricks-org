@@ -38,7 +38,7 @@ $columns = array(
   array(    'db' => 'tran_id',     
             'dt' => 0,
             'formatter' => function( $d, $row ) {
-                return '<a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
+                return '🔎 <a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
                 onclick="window.open(\'details-brk-trans.php?tran_id='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
             }
 ),
@@ -73,7 +73,7 @@ $columns = array(
     array( 'db' => 'ecobrick_serial_no',     
 'dt' => 7,
 'formatter' => function( $d, $row ) {
-    return '<a href="details-ecobrick.php?serial_no='.($d).'" target="popup"
+    return '<a href="details-ecobrick-page.php?serial_no='.($d).'">🔎 </a><a href="details-ecobrick.php?serial_no='.($d).'" target="popup"
     onclick="window.open(\'details-ecobrick.php?serial_no='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
 }
 ),

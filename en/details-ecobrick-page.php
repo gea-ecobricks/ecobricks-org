@@ -32,7 +32,7 @@ if ($result->num_rows > 0) {
         echo '<meta property="og:description"   content="The principles that guide the ecobrick plastic transition movement."/>';
         echo '<meta property="og:image"         content="'. $array["ecobrick_full_photo_url"] .'"/>';
         echo '<meta property="og:image:alt"     content="A metaphorical road heading far out into the distance of time"/>';
-        echo '<meta property="og:locale" content="'  .$lang. '"_GB" />';
+        echo '<meta property="og:locale" content="'  . $lang . '"_GB" />';
         echo '<meta property="og:type"          content="website">';
 
     }
@@ -65,7 +65,7 @@ $conn->close();
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">The Ecobrick!</div>
-		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
+		<div class="splash-sub">An overview of the ecobrick recorded on the brikchain upon its authentication.</div>
 	</div>
 	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 70%;"></div>	
 </div>
@@ -80,13 +80,13 @@ $conn->close();
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
-
+<!--
 		<div class="lead-page-paragraph">	
 
 				
 				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br><br><br>
 				<p>An overview of the ecobrick recorded on the brikchain upon its authentication.</p><br>
-        </div>
+        </div>-->
 
         <div class="page-paragraph">
 		
