@@ -97,7 +97,7 @@
 		
 <?php
 
-$sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
+$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC;";
 
 	
 	$result = $conn->query($sql);
@@ -109,7 +109,7 @@ $sql = "SELECT * FROM vw_brk_by_year Order by `year` DESC;";
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td></tr>";
+		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td><td><var>".$row["brick_count"]."&#8202;briks</var></td><td><var>".$row["weight"]."&#8202;Kg</var></td></tr>";
 		}
 		echo "</table>";
 	} else {
