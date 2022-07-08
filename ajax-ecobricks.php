@@ -86,11 +86,11 @@ $columns = array(
     array( 'db' => 'serial_no',     
         'dt' => 7,
         'formatter' => function( $d, $row ) {
-            return '<a href="details-ecobrick.php?serial_no='.($d).'" target="popup"
+            return '<a href="details-ecobrick-page.php?serial_no='.($d).'">🔎</a><a href="details-ecobrick.php?serial_no='.($d).'" target="popup"
             onclick="window.open(\'details-ecobrick.php?serial_no='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
         }
     ),
-  
+    
 );
 
 
