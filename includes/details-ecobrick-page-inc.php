@@ -64,7 +64,7 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 60vh;
+		min-height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
