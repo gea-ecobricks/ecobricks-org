@@ -94,7 +94,7 @@ echo '<div class="splash-content-block">
 			echo "  <div class=\"general-field\"><b>Validation score avg.:</b> <var>" . $array["validation_score_avg"] ."</var></div>" ;
 			//echo " <p><b>Last ownership change:</b> <var>" . $array["last_ownership_change"] ."</var></p>" ;
 			echo "  <div class=\"general-field\"><b>Validation score final:</b> <var>" . $array["final_validation_score"] ."</var></div>" ;
-			echo " <div class=\"general-field\"><b>Authenticated weight:</b> <var> " . $array["weight_authenticated_kg"] ."&#8202;kg</var></div></div></div>" ;
+			echo " <div class=\"general-field\"><b>Authenticated weight:</b> <var> " . $array["weight_authenticated_kg"] ."&#8202;kg</var></div></div>" ;
 			echo '<br><hr><br> <div class="page-paragraph">
 			<h3>The Brikchain</h3>
 		
@@ -104,6 +104,7 @@ echo '<div class="splash-content-block">
 			<br><br>
 			<a class="action-btn" href="brikchain.php">🔎 Browse the Brikchain</a>
 			<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+		   </div>
 		   </div>';
 		
 				}
@@ -150,7 +151,7 @@ echo '<div id="load-background">
 				<br><br>
 				<a class="action-btn" href="brikchain.php">🔎 Browse the Brikchain</a>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
-			   </div>
+			</div>
 		   <!--<div class="side2">
 		   <br><img src="webp/brk-cascade.webp" width="50%" alt="brikcoins in action" loading="lazy">
 		   </div></div>-->
