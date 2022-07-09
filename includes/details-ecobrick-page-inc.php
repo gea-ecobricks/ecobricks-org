@@ -344,7 +344,16 @@ img {padding-right: 5%;}
 	<!-- This loads the page's language specific menu -->
 
     <?php require_once ("menus/menu-$lang.php");?>
-
+	<div class="splash-content-block">
+		<div class="splash-box">
+			<div class="splash-heading">
+			Brikcoins</div>
+		<div class="splash-sub">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere.</div>
+		<img src="webp/brikcoins-450px.webp">
+	</div>
+	
+</div>
+<div id="splash-bar"></div>
 
 							  
 											  
