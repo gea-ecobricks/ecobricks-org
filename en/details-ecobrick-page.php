@@ -55,7 +55,10 @@ echo '<div class="splash-content-block">
 
 			
 			echo '<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg of plastic has been secured out of industry and the biosphere in '. $array["location_full"] .'  </div></div>' ;
-			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="max-height: 73vh;" alt="Ecobrick Serial '. $array["serial_no"] .' "></div>	
+			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
+			border-color: #2779B4;
+			box-shadow: 0 0px 10px rgba(85, 84, 84, 0.8);
+			border-style: solid;" alt="Ecobrick Serial '. $array["serial_no"] .' "></div>	
 			</div>
 			<div id="splash-bar"></div>';
 			echo '<a name="top"></a><div id="main-content">
