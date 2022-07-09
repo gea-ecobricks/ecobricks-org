@@ -111,7 +111,7 @@ require_once ("translate-please.php");
 echo '<div class="splash-content-block">
 		<div class="splash-box">
 			<div class="splash-heading">';
-		} else {
+	
 			echo 'Sorry! :-(</div>
 			<div class="splash-sub">No results for ecobrick serial number '. $serialNo .' in the Brikchain.  This is most likely because the Brikchain is still being populated with legacy data.</div>
 		</div>
