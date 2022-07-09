@@ -5,32 +5,27 @@ Special Ecobrick View Page: v.1.0.1-->
  
 <?php 
 
-require_once ("includes/details-ecobrick-page-inc.php");?>
+require_once ("includes/details-ecobrick-page-inc.php");
+
+echo '
 
 </head>
 
 <BODY id="full-page">
 
-	  <div id="load-background">
-        
-	<!-- This loads the page's language specific menu -->
-
-    <?php require_once ("menus/menu-$lang.php");?>
-
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-	<?php require_once ("translate-please.php");?>
+	  <div id="load-background">';
 
 
-	<!--SPLASH SECTION-->
+require_once ("menus/menu-$lang.php");
+
+require_once ("translate-please.php");
+
+echo '
 
 	<div class="splash-content-block">
 		<div class="splash-box">
-			<div class="splash-heading">
+			<div class="splash-heading">';
 				
-
-
-		
-        	<?php
 
 			// Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 			$serialNo = $_GET['serial_no'];
@@ -45,8 +40,8 @@ require_once ("includes/details-ecobrick-page-inc.php");?>
 			while($array = $result->fetch_assoc()) {
 
 			
-			echo "Ecobrick " . $array["serial_no"] ."</div>";
-			echo " <div class=\"splash-sub\">Logged on <var>" . $array["date_logged_ts"] ."</var></div></div>" ;
+			echo 'Ecobrick " . $array["serial_no"] ."</div>';
+			echo '<div class="splash-sub">Logged on <var>' . $array["date_logged_ts"] .'</var></div></div>' ;
 			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="width: 100%;"></div>	
 			</div>
 			<div id="splash-bar"></div>';
@@ -130,10 +125,10 @@ require_once ("includes/details-ecobrick-page-inc.php");?>
 		<div class="side">
 
 		<div id="side-module-desktop-mobile">
-				<img src="webp/earthservice-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
-				<br><h4>Following the Earth's Example</h4>
-				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
-				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
+				<img src="webp/eb-sky-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
+				<br><h4>Learn about Ecobricks</h4>
+				<h5>Ecobricks are a simple solution for managing our plastic.</h5><br>
+				<a class="module-btn" href="/abouot">About Ecobricks</a>
                 <br>
 			</div>   
          

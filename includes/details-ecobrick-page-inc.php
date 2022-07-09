@@ -20,11 +20,7 @@ _END;?>
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/brik-market-banner2.svg">
 
 
-<!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
-<?php require_once ("meta/drop-off-$lang.php");?>
-
 <?php require_once ("header.php");?>
-
 
 <!-- Required script for something?? -->
 
