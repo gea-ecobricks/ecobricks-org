@@ -53,9 +53,9 @@ Special Ecobrick View Page: v.1.0.1-->
 			while($array = $result->fetch_assoc()) {
 
 			
-			echo "Ecobrick <var>" . $array["serial_no"] ."</var></div>";
+			echo "Ecobrick " . $array["serial_no"] ."</div>";
 			echo " <div class=\"splash-sub\">Logged on <var>" . $array["date_logged_ts"] ."</var></div></div>" ;
-			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'style="width: 70%;"></div>	
+			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="width: 100%;"></div>	
 			</div>
 			<div id="splash-bar"></div>';
 			echo '<a name="top"></a><div id="main-content">
@@ -97,7 +97,7 @@ Special Ecobrick View Page: v.1.0.1-->
 				}
 			} else {
 				echo 'Sorry! :-(</div>
-				<div class="splash-sub">No results for ecobrick serial number $serialNo in the Brikchain.  This is most likely because the Brikchain is still being populated with legacy data.</div>
+				<div class="splash-sub">No results for ecobrick serial number '. $serialNo .' in the Brikchain.  This is most likely because the Brikchain is still being populated with legacy data.</div>
 			</div>
 			<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 70%;"></div>	
 		</div>
@@ -116,9 +116,7 @@ Special Ecobrick View Page: v.1.0.1-->
 
 			?>
 
-    	</div>
 		
-
 		<div class="side">
 
 		<div id="side-module-desktop-mobile">
