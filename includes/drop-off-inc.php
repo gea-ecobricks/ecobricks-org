@@ -11,23 +11,14 @@ echo <<<_END
 
 _END;?>
 
-<HEAD> 
+<HEAD>  
 
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-<!--<link rel="preload" as="image" href="https://ecobricks.org/webp/blue-ode-750px.webp">
-<link rel="preload" as="image" href="https://ecobricks.org/webp/build-blue-450px.webp">-->
 <link rel="preload" as="image" href="https://ecobricks.org/webp/brikmarket-400px.webp?v1.3">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/brik-market-banner2.svg">
 
-
-
-
-
-<!--This loads CSS specific to this page
-<link rel="preload" as="image" href="https://ecobricks.org/svgs/cloud-back.svg">
-<link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/what.css?v1.1">-->
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
