@@ -54,9 +54,17 @@ Special Ecobrick View Page: v.1.0.1-->
 			//  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row 
 			while($array = $result->fetch_assoc()) {
 
-			echo '<div id="photo"><img src="'. $array["ecobrick_full_photo_url"] .'" width="100%" alt="Ecobrick basic pic"/></div>';
-			echo "<div id=\"main-details\"><div class=\"serial\">Serial: <var>" . $array["serial_no"] ."</var></div> </br>";
-			echo " <div class=\"date\"><b>Logged on </b><var>" . $array["date_logged_ts"] ."</var></div>" ;
+			
+			echo "Ecobrick <var>" . $array["serial_no"] ."</var></div>";
+			echo " <div class=\"splash-sub\">Logged on <var>" . $array["date_logged_ts"] ."</var></div></div>" ;
+			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'style="width: 70%;"></div>	
+			</div>
+			<div id="splash-bar"></div>';
+			echo '<a name="top"></a><div id="main-content">
+			<div class="row">
+				<div class="main">
+		
+					   <div class="page-paragraph">';
 
 		
 			echo " <div class=\"main\"><b>Volume:</b> <var>" . $array["volume_ml"] ."&#8202;ml</div>" ;
@@ -64,19 +72,6 @@ Special Ecobrick View Page: v.1.0.1-->
 			echo " <div class=\"main\"><b>Density:</b> <var>" . $array["density"] ."&#8202;g/ml</var></div>" ;
 			echo " <div class=\"main\"><b>CO2e:</b><var> " . $array["CO2_kg"] ."&#8202;kg</var></div>" ;
 			echo " <div class=\"main\"><b>Brikcoin value:</b> <var>" . $array["ecobrick_dec_brk_val"] ."&#8202;ß</var></div></div>" ;
-
-
-			<!-- PAGE CONTENT-->
-
-<a name="top"></a>
-
-<div id="main-content">
-<!-- The flexible grid (content) -->
-	<div class="row">
-		<div class="main">
-
-       		<!--<div class="page-paragraph">-->
-
 
 			echo "  <div id=\"details-content\"><div class=\"general-field\"><b>Maker:</b> <var><i>" . $array["owner"] ."</i></var> </div>" ;
 			echo "  <div class=\"general-field\"><b>Sequestration:</b> <var>" . $array["sequestration_type"]."</var></div>" ;
