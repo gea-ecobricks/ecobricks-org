@@ -104,7 +104,7 @@ _END;?>
   flex: 65%;
 	padding: 10px 30px 0px 0px;
 	box-sizing: border-box;
-	text-align: right;
+	text-align: left;
     margin: auto;
 }
 }
@@ -193,7 +193,7 @@ _END;?>
 	margin-top: -50px;
 	width: 100%;
 	
-	height:80px;	
+	height:100px;	
 	
 	position: relative;
 	z-index: 0;
