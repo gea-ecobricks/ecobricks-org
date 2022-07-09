@@ -102,10 +102,10 @@ echo '<div class="splash-content-block">
 
 			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 			<br><br>
-			<a class="action-btn" href="brikchain.php">🔎 Browse the Brikchain</a>
+			<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
 			<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 		   </div>
-		   </div>';
+		   </div>';  
 		
 				}
 
@@ -133,7 +133,7 @@ echo '<div id="load-background">
 			echo 'Sorry! :-(</div>
 			<div class="splash-sub">No results for ecobrick serial number '. $serialNo .' in the Brikchain.  This is most likely because the Brikchain is still being populated with legacy data.</div>
 		</div>
-		<div class="splash-image"><img src="webp/faqs-400px.webp" style="width: 70%;"></div>	
+		<div class="splash-image"><img src="webp/empty-ecobrick-450px.webp" style="width: 80%;" alt="empty ecobrick"></div>	
 	</div>
 	<div id="splash-bar"></div>
 
@@ -149,7 +149,7 @@ echo '<div id="load-background">
 
 				<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 				<br><br>
-				<a class="action-btn" href="brikchain.php">🔎 Browse the Brikchain</a>
+				<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 			</div>
 		   <!--<div class="side2">

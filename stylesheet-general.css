@@ -1108,6 +1108,27 @@ margin-top: 40px;
 
 
 
+.action-btn-blue {
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+font-family: Mulish;
+color: #fff;
+font-size: 20px;
+background: #2886C9;
+padding: 11px 17px;
+text-decoration: none;
+font-weight: 500;
+margin-top: 40px;
+}
+
+.action-btn:hover {
+  background: #2A91D9;
+  text-decoration: none;
+}
+
+
+
 
 
 

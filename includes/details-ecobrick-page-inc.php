@@ -88,12 +88,6 @@ _END;?>
   flex: 35%;
 	padding: 0px;
 	box-sizing: border-box;
-	margin-top:-20px;
-	border-width: 10px;
-	border-color: #2779B4;
-	box-shadow: 0 0px 10px rgba(85, 84, 84, 0.8);
-	border-style: solid;
-	max-height: 73vh;
 }
 }
 
