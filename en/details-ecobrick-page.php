@@ -43,7 +43,6 @@ if ($result->num_rows > 0) {
 
 require_once ("menus/menu-$lang.php");
 
-require_once ("translate-please.php");
 
 echo '<div class="splash-content-block">
 		<div class="splash-box">
@@ -123,9 +122,9 @@ echo '<div class="splash-content-block">
 
 require_once ("menus/menu-$lang.php");
 
-require_once ("translate-please.php");
 
-echo '<div id="load-background">
+
+echo '
 <div class="splash-content-block">
 		<div class="splash-box">
 			<div class="splash-heading">';
@@ -133,7 +132,7 @@ echo '<div id="load-background">
 			echo 'Sorry! :-(</div>
 			<div class="splash-sub">No results for ecobrick serial number '. $serialNo .' in the Brikchain.  This is most likely because the Brikchain is still being populated with legacy data.</div>
 		</div>
-		<div class="splash-image"><img src="webp/empty-ecobrick-450px.webp" style="width: 80%;" alt="empty ecobrick"></div>	
+		<div class="splash-image"><img src="webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
 	</div>
 	<div id="splash-bar"></div>
 
