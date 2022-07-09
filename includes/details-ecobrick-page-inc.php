@@ -27,6 +27,7 @@ _END;?>
 
 
 
+
 <STYLE>
 
 	
@@ -213,6 +214,55 @@ border-style: dashed;
 border-width: 1px;
 margin-top: 31px;
 margin-bottom: 31px;}
+
+
+
+.transaction {
+	font-size: 1.1em;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  	color: #222222;
+  	line-height: 1.2;
+    font-weight: 400;
+	margin-top: 40px;
+}
+
+
+.main {
+	font-size: 1.3em;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  	color: #222222;
+  	line-height: 1.3;
+	  font-weight: 300
+}
+
+.status {
+	font-size: 1.1em;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  	color: #222222;
+  	line-height: 1.4;
+	  font-weight: 300
+}
+
+.general-field {
+	font-size: 1.1em;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  	color: #222222;
+  	line-height: 1.3;
+	margin-top: 12px;
+	font-weight: 300;
+}
+ 
+p {
+	font-size: 1.1em;
+	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  	color: #222222;
+  	line-height: 1.3;
+	margin-top: 12px;
+	font-weight: 300;
+}
+
+b {font-weight: 500;}
+
 
 </style>
 
