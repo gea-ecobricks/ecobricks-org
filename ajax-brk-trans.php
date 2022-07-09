@@ -38,7 +38,7 @@ $columns = array(
   array(    'db' => 'tran_id',     
             'dt' => 0,
             'formatter' => function( $d, $row ) {
-                return '🔎 <a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
+                return '<a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
                 onclick="window.open(\'details-brk-trans.php?tran_id='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
             }
 ),

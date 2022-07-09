@@ -40,14 +40,12 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 70vh;
+		min-height: 65vh;
+		max-height: 70vh;
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background-color: #4B8501;
-		
-		background: url(webp/principles-banner-1600px.webp?v1) bottom;
-		
+		background-color: #666666;
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -69,10 +67,8 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		
-		background: url(webp/principles-banner-1600px.webp?v1) bottom left;
-		background-color: #4B8501;
-    	background-repeat: no-repeat;
-		/*margin: -3px 0 -20px 0;*/
+		background-color: #666666;
+
 		display: flex;
  		flex-wrap: wrap;
  		box-sizing: border-box;
@@ -242,6 +238,7 @@ button {
 	margin-top: 40px;
 }
 
+/*
 .serial {
 	font-size: 3.2em;
 	font-family: 'Arvo', Georgia, sans-serif;
@@ -260,9 +257,10 @@ button {
 	padding-bottom: 15px;
 
 }
+*/
 
 .main {
-	font-size: 1.6em;
+	font-size: 1.3em;
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
   	line-height: 1.3;
@@ -270,7 +268,7 @@ button {
 }
 
 .status {
-	font-size: 1.6em;
+	font-size: 1.1em;
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
   	line-height: 1.4;
@@ -278,7 +276,7 @@ button {
 }
 
 .general-field {
-	font-size: 1.3em;
+	font-size: 1.1em;
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
   	color: #222222;
   	line-height: 1.3;
@@ -299,7 +297,7 @@ b {font-weight: 500;}
 
 img {padding-right: 5%;}
 
-#photo {width: 110%;
+#photo {width: 100%;
 	background-color: #ded9d9;
 	margin-left:-5%;}
 
