@@ -22,11 +22,11 @@ if ($result->num_rows > 0) {
     //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row 
     while($array = $result->fetch_assoc()) {
 
-		echo '<meta name="title" content="Ecobrick '. $array["serial_no"] .' | 0.62 Kg of plastic secured by Alnisah Basher in Philippines.">';
+		echo '<meta name="title" content="Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .' of plastic secured by Alnisah Basher in Philippines.">';
 		echo '<meta name="description" content="'. $array["vision"] .'">';
 		echo '<meta name="keywords" content="plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.">';
-		echo '<title>Regenerative Principles | Ecobricks.org</title>' ;
-        echo '<meta property="og:url"           content="https://ecobricks.org/en/sequest.php"/>' ;
+
+        echo '<meta property="og:url"           content="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='. $array["serial_no"] .'"/>' ;
         echo '<meta property="og:title"         content="Regenerative Principles | Ecobricks.org">';
         echo '<meta property="og:description"   content="The principles that guide the ecobrick plastic transition movement."/>';
         echo '<meta property="og:image"         content="'. $array["ecobrick_full_photo_url"] .'"/>';
@@ -60,20 +60,15 @@ echo '<div class="splash-content-block">
 			<div class="splash-heading">';
 				
 
-			// Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
-			$serialNo = $_GET['serial_no'];
-
 			// Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
 			$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = " . $serialNo;
 
 			$result = $conn->query($sql);
 			if ($result->num_rows > 0) {
-	
-			//  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row 
 			while($array = $result->fetch_assoc()) {
 
 			
-			echo 'Ecobrick " . $array["serial_no"] ."</div>';
+			echo 'Ecobrick ' . $array["serial_no"] .'</div>';
 			echo '<div class="splash-sub">Logged on <var>' . $array["date_logged_ts"] .'</var></div></div>' ;
 			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="width: 100%;"></div>	
 			</div>
@@ -127,8 +122,6 @@ echo '<div class="splash-content-block">
 		<div id="main-content">
 			<div class="row">
 				<div class="main">
-		
-				<div class="main2">
 				<br><br>
 				<h3>The Brikchain</h3>
 			   
@@ -139,7 +132,7 @@ echo '<div class="splash-content-block">
 			   <a class="action-btn" href="brikchain.php">🔎 Browse the Brikchain</a>
 			   <p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 		   
-		   </div>
+		   		</div>
 
 		   <div class="side2">
 			   <br><img src="webp/brk-cascade.webp" width="90%" alt="brikcoins in action" loading="lazy">
