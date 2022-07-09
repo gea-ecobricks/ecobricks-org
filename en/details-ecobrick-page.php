@@ -4,9 +4,7 @@ Special Ecobrick View Page: v.1.0.1-->
   
  
 <?php 
-
 require_once ("includes/details-ecobrick-page-inc.php");
-
 
 include 'db.php';
 
@@ -50,7 +48,6 @@ echo '
 
 	  <div id="load-background">';
 
-
 require_once ("menus/menu-$lang.php");
 
 require_once ("translate-please.php");
@@ -59,7 +56,6 @@ echo '<div class="splash-content-block">
 		<div class="splash-box">
 			<div class="splash-heading">';
 				
-
 			// Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
 			$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = " . $serialNo;
 
