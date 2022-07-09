@@ -21,6 +21,7 @@ if ($result->num_rows > 0) {
     while($array = $result->fetch_assoc()) {
 
 		echo '<meta name="title" content="Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .' of plastic secured by Alnisah Basher in '. $array["location_country"] .'">';
+		
 		echo '<meta name="description" content="'. $array["vision"] .'">';
 		echo '<meta name="keywords" content="plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.">';
 
@@ -54,7 +55,7 @@ echo '<div class="splash-content-block">
 
 
 			
-			echo '<div class="splash-sub">'. $array["weight_kg"] .'&#8202;ml of plastic has been secured out of industry and the biosphere in '. $array["location_full"] .'  </div></div>' ;
+			echo '<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg of plastic has been secured out of industry and the biosphere in '. $array["location_full"] .'  </div></div>' ;
 			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="width: 80%;" alt="Ecobrick Serial "></div>	
 			</div>
 			<div id="splash-bar"></div>';
