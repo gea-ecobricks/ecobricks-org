@@ -53,10 +53,10 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		min-height: 60vh;
-		max-height: 60vh;
+		min-height: 65vh;
+		max-height: 65vh;
 
-		padding: 50px 7% 50px 7%;
+		padding: 0px 7% 0px 15%;
 		z-index: 5;
 		position: relative;
 		
@@ -92,8 +92,9 @@ _END;?>
 	max-height: 75vh;
 	margin-top:-30px;
 	border-width: 10px;
-	border-color: #5D5D5D;
+	border-color: #2881C1;
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+	border-style: solid;
 
 
 }
@@ -163,7 +164,7 @@ _END;?>
 	.splash-heading {
       font-size: 4em;
       line-height: 1.3;
-      margin: 40px 0 10px;
+      margin: auto;
   }
 }
 
