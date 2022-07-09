@@ -38,7 +38,7 @@ Content Page template: v.1.0.1-->
 			
 			
 			<div class="page-paragraph">
-
+   
             <p>The <a href="https://gobrik.com/#market" target="_blank">Brik Market</a> has been under development for the last three years by the <a href="about.php">Global Ecobrick Alliance (GEA)</a>.  It is a space where ecobricked plastic can be used as a medium of local exchange and currency— a key part of the GEA's mission of accelerating <a href="transition.php">plastic transition</a> and adding further value the ecological service of <a href="sequest.php">plastic sequestration</a>.  The Brik Market <a href="/gobrik">GoBrik platform</a> and connects to the <a href="brikcoins.php">brikcoin manual blockchain</a>.</p>
 		
             </div>	
