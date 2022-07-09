@@ -53,7 +53,9 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 60vh;
+		min-height: 60vh;
+		max-height: 60vh;
+
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
@@ -87,6 +89,13 @@ _END;?>
 	padding: 0px;
 	box-sizing: border-box;
 	margin: auto;
+	max-height: 75vh;
+	margin-top:-30px;
+	border-width: 10px;
+	border-color: #5D5D5D;
+	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+
+
 }
 }
 
@@ -98,7 +107,7 @@ _END;?>
   flex: 65%;
 	padding: 10px 30px 0px 0px;
 	box-sizing: border-box;
-	text-align: right;
+	text-align: left;
     margin: auto;
 }
 }
