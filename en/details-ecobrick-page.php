@@ -4,10 +4,8 @@ Special Ecobrick View Page: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<!--<?php require_once ("includes/details-ecobrick-page-inc.php");?>-->
+<?php require_once ("includes/details-ecobrick-page-inc.php");?>
 
-
- 
 </head>
 
 <BODY id="full-page">
@@ -98,7 +96,21 @@ Special Ecobrick View Page: v.1.0.1-->
 		
 				}
 			} else {
-				echo "<div id=\"main-details\"><div class=\"serial\">Sorry :-(</div></div> <div id=\"details-content\"><div class=\"general-field\">No results for ecobrick serial number $serialNo in the Brikchain.  This is most likely because the Brikchain is still being populated with legacy data.</div></div>";
+				echo 'Sorry! :-(</div>
+				<div class="splash-sub">No results for ecobrick serial number $serialNo in the Brikchain.  This is most likely because the Brikchain is still being populated with legacy data.</div>
+			</div>
+			<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 70%;"></div>	
+		</div>
+		<div id="splash-bar"></div>
+		<a name="top"></a><div id="main-content">
+			<div class="row">
+				<div class="main">
+		
+					   <div class="page-paragraph">No data to show</div>
+				</div>
+			</div>
+			
+			';
 			}
 			$conn->close();
 
