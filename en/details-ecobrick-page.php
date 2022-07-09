@@ -186,14 +186,14 @@ echo '
 				<img src="webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<!--<h4>AES Plastic</h4>-->
 				<h5>The weight of the plastic inside an authenticated ecobrick is what we call Authenticated Ecobricked Plastic-- or AES plastic for short.are know.</h5><br>
-				<a class="module-btn" href="/aes" target="_blank">Learn More</a>
+				<a class="module-btn" href="/aes" target="_blank">About AES</a><br><br>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/brikchain-450px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>The Brikchain</h4>
 				<h5>When an ecobrick is authenticated it is recorded on the proof-of-value manual blockchain known as the Brikchain.  Brikcoins corresponding to the AES plastic are generated.</h5><br>
-				<a class="module-btn" href="brikcoins.php">Learn More</a>
+				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
 
 
