@@ -133,11 +133,11 @@ echo '<div class="splash-content-block">
 					<a class="action-btn" href="brikchain.php">🔎 Browse the Brikchain</a>
 					<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 		   		</div>
-		   	<div class="side2">
+		   	<!--<div class="side2">
 			   <br><img src="webp/brk-cascade.webp" width="50%" alt="brikcoins in action" loading="lazy">
-		   </div>
+		  	 </div></div>-->
 
-		</div>
+		
 				
 			
 			';
