@@ -24,7 +24,7 @@ _END;?>
 
 <!-- Required script for something?? -->
 
-<?php require_once ("meta/detail-ecobrick-en.php");?>
+<?php require_once ("meta/details-ecobrick-en.php");?>
 
 
 <STYLE>
