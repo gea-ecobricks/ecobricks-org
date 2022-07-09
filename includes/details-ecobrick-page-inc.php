@@ -24,6 +24,9 @@ _END;?>
 
 <!-- Required script for something?? -->
 
+<?php require_once ("detail-ecobrick-en.php");?>
+
+
 <STYLE>
 
 @media screen and (max-width: 700px) { 
@@ -330,6 +333,17 @@ img {padding-right: 5%;}
 	margin-left:-5%;}
 
 </style>
+
+</head>
+							  
+											  
+<BODY id="full-page">
+
+	  <div id="load-background">
+        
+	<!-- This loads the page's language specific menu -->
+
+    <?php require_once ("menus/menu-$lang.php");?>
 
 
 							  
