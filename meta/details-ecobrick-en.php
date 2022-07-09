@@ -14,7 +14,7 @@ if ($result->num_rows > 0) {
     //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row 
     while($array = $result->fetch_assoc()) {
 
-		echo '<meta name="title" content="Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .' of plastic secured by '. $array["owner"] .' in '. $array["location_country"] .'">';
+		echo '<title>Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .' of plastic secured by '. $array["owner"] .' in '. $array["location_country"] .'</title>';
 
 		echo '<meta name="description" content="'. $array["vision"] .'">';
 		echo '<meta name="keywords" content="plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.">';
@@ -30,7 +30,7 @@ if ($result->num_rows > 0) {
 
 } else {
     echo '<META NAME="robots" CONTENT="noindex">';
-    echo '<meta name="title" content="No Ecobrick Found">';
+    echo '<title>"No Ecobrick Found</title>';
 }
 $conn->close();
 

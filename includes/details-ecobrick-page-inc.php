@@ -19,12 +19,10 @@ _END;?>
 <link rel="preload" as="image" href="https://ecobricks.org/webp/brikmarket-400px.webp?v1.3">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/brik-market-banner2.svg">
 
+<?php require_once ("meta/details-ecobrick-en.php");?>
 
 <?php require_once ("header.php");?>
 
-<!-- Required script for something?? -->
-
-<?php require_once ("meta/details-ecobrick-en.php");?>
 
 
 <STYLE>
@@ -339,7 +337,7 @@ img {padding-right: 5%;}
 											  
 <BODY id="full-page">
 
-	
+	  <div id="load-background">
         
 	<!-- This loads the page's language specific menu -->
 
