@@ -2,22 +2,23 @@
 <!--PAGE LANGUAGE:  ENGLISH
 Special Ecobrick View Page: v.1.0.1-->
   
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/details-ecobrick-page-inc.php");?>
+<?php 
+
+require_once ("includes/details-ecobrick-page-inc.php");?>
 
 </head>
 
 <BODY id="full-page">
 
-	<div id="load-background">
-  
-<!-- This loads the page's language specific menu -->
+	  <div id="load-background">
+        
+	<!-- This loads the page's language specific menu -->
 
-	<?php require_once ("menus/menu-$lang.php");?>
+    <?php require_once ("menus/menu-$lang.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-	<!--<?php require_once ("translate-please.php");?>-->
+	<?php require_once ("translate-please.php");?>
 
 
 	<!--SPLASH SECTION-->
@@ -26,15 +27,6 @@ Special Ecobrick View Page: v.1.0.1-->
 		<div class="splash-box">
 			<div class="splash-heading">
 				
-			
-	<!--		The Ecobrick!</div>
-			<div class="splash-sub">An overview of the ecobrick recorded on the brikchain upon its authentication.</div>
-		</div>
-		<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 70%;"></div>	
-	</div>
-	<div id="splash-bar"></div>-->
-
-
 
 
 		
