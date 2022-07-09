@@ -31,7 +31,7 @@ _END;?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<?php require_once ("meta/details-ecobrick-$lang.php");?>
+<!--<?php require_once ("meta/details-ecobrick-$lang.php");?>-->
 <STYLE>
 
 /*This sets up the the first splash content block that is unique to the top of each page*/
