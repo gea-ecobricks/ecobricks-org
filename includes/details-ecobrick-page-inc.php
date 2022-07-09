@@ -339,7 +339,7 @@ img {padding-right: 5%;}
 											  
 <BODY id="full-page">
 
-	  <div id="load-background">
+	
         
 	<!-- This loads the page's language specific menu -->
 
