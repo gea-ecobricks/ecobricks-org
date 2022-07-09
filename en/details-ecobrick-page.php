@@ -50,8 +50,12 @@ echo '<div class="splash-content-block">
 
 
 			echo 'Ecobrick ' . $array["serial_no"] .'</div>';
-			echo '<div class="splash-sub">Logged on <var>' . $array["date_logged_ts"] .'</var></div></div>' ;
-			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="width: 100%;"></div>	
+
+
+
+			
+			echo '<div class="splash-sub">'. $array["weight_g"] .'&#8202;ml of plastic has been secured out of industry and the biosphere in '. $array["location_full"] .'  </div></div>' ;
+			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="width: 100%;" alt="Ecobrick"></div>	
 			</div>
 			<div id="splash-bar"></div>';
 			echo '<a name="top"></a><div id="main-content">
@@ -61,6 +65,7 @@ echo '<div class="splash-content-block">
 					   <div class="page-paragraph">';
 
 		
+			echo " <div class=\"main\"><b>Completed:</b> <var>" . $array["date_logged_ts"] ."</div>" ;
 			echo " <div class=\"main\"><b>Volume:</b> <var>" . $array["volume_ml"] ."&#8202;ml</div>" ;
 			echo " <div class=\"main\"><b>Weight:</b> <var>" . $array["weight_g"] ."&#8202;g</var></div>" ;
 			echo " <div class=\"main\"><b>Density:</b> <var>" . $array["density"] ."&#8202;g/ml</var></div>" ;
