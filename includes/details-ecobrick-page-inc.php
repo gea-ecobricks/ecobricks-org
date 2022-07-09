@@ -1,9 +1,6 @@
-<!--Content Includes Page template: v.1.0.2-->
+<!--Content Page template: v.1.0.0-->
 
-<?php $lang='en';?>
-
-<?php 
-
+<?php require_once ("lang.php");
 echo <<<_END
 
 <!DOCTYPE html>
@@ -14,38 +11,43 @@ echo <<<_END
 
 _END;?>
 
-<!-- The DB connection creator -->
-<?php include 'db.php';?>
-
-<HEAD> 
+<HEAD>  
 
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/webp/principles-banner-1600px.webp?v1">
-<link rel="preload" as="image" href="https://ecobricks.org/webp/principles-banner-1600px.webp">
+<link rel="preload" as="image" href="https://ecobricks.org/webp/brikmarket-400px.webp?v1.3">
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/brik-market-banner2.svg">
+
+
+<!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
+<?php require_once ("meta/drop-off-$lang.php");?>
 
 <?php require_once ("header.php");?>
+
+</style>	
 
 <!-- Required script for something?? -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
+
 <STYLE>
 
-/*This sets up the the first splash content block that is unique to the top of each page*/
 
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		min-height: 65vh;
-		max-height: 70vh;
+		height: 73vh;
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background-color: #666666;
+       
+		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) bottom;
+        background-color: #2A91DA;
+		
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -62,33 +64,40 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		min-height: 60vh;
+		height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
 		
-		background-color: #666666;
-
+        
+		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) bottom;
+        background-color: #2A91DA;
+		
+    	background-repeat: no-repeat;
+		margin: -3px 0 -20px 0;
 		display: flex;
- 		flex-wrap: wrap;
- 		box-sizing: border-box;
-		flex-direction: row;
-		width: 100%;
-		position: relative;
-		margin: auto;
+ 		 flex-wrap: wrap;
+ 		 box-sizing: border-box;
+		  flex-direction: row;
+		  width: 100%;
+		  background-size: cover;
+
+	position: relative;
+
+
 }
 }
 
 
 @media screen and (min-width: 700px) { 
 .splash-image {
-  	z-index: 5;
-  	position: relative;
-  	text-align: center;
-  	flex: 35%;
+  z-index: 5;
+  position: relative;
+  text-align: center;
+  flex: 35%;
 	padding: 0px;
 	box-sizing: border-box;
-	margin-top: 0px;
+	margin: auto;
 }
 }
 
@@ -100,8 +109,8 @@ _END;?>
   flex: 65%;
 	padding: 10px 30px 0px 0px;
 	box-sizing: border-box;
-	text-align: left;
-	margin: auto;
+	text-align: right;
+    margin: auto;
 }
 }
 
@@ -125,25 +134,28 @@ _END;?>
 @media screen and (max-width: 700px) { 
 .splash-box {
 	position: relative;
-  flex: 100%;
+    flex: 100%;
 	padding: 10px 10px 0px 0px;
 	box-sizing: border-box;
 	text-align: right;
+    margin: auto;
 }
 }
 
 
 
 .splash-heading { 
-	font-family: 'Arvo', Georgia, serif;
-  	color: white;
-  	font-weight: 300;
-  	text-shadow: 0 0 10px #243f01;
+    /*font-family: 'Mulish', Arial, Helvetica, sans-serif;*/
+    font-family: Arvo, serif;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 0 8px black;
+
 }
 
 @media screen and (max-width: 700px) {
 	.splash-heading {
-      font-size: 2.0em;
+      font-size: 3.0em;
       line-height: 1.1;
       margin: 10px 0;
   }
@@ -159,33 +171,59 @@ _END;?>
 
 
 .splash-sub {
-	font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  	color:  #e9ffcc;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: #fff;
   /*text-shadow: 0px 0px 10px #fff;*/
-  	margin: 15px 0;
-  	
+  margin: 15px 0;
+  text-shadow: 0 0 7px black;
 }
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.2em;
-		line-height: 1.5;
+		font-size: 1.9em;
+		line-height: 1.3;
 		font-weight: 400;
   }
 }
 @media screen and (min-width: 700px) {
 	.splash-sub {
-		font-size: 2.3em;
+		font-size: 2.5em;
 		line-height: 1.3;
 		font-weight: 400;
   }
 }
 
+
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #4b8501ff; 
+	
+	height:80px;	
+	
+	position: relative;
+	z-index: 0;
+
+box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+    background-color: #2A91DA;
+
+	-webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  -o-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+	margin-bottom: 40px;
+
 }
+
+hr {border: gray;
+border-style: dashed;
+border-width: 1px;
+margin-top: 31px;
+margin-bottom: 31px;}
+	
+
+
+
 
 
 
