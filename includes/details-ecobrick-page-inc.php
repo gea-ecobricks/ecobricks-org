@@ -25,7 +25,6 @@ _END;?>
 
 <?php require_once ("header.php");?>
 
-</style>	
 
 <!-- Required script for something?? -->
 
