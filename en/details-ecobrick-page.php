@@ -108,7 +108,7 @@ Special Ecobrick View Page: v.1.0.1-->
 		
 					   <div class="page-paragraph">No data to show</div>
 				</div>
-			</div>
+				
 			
 			';
 			}
