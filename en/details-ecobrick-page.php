@@ -147,7 +147,7 @@ echo '
 				<br><br>
 
 				<div class="page-paragraph">
-				The data for this ecobrick has not yet been migrated to the blockchain.
+				The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.
 				<br><br><br><br>
 				<h3>The Brikchain</h3>
 			
@@ -157,6 +157,7 @@ echo '
 				<br><br>
 				<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+				</div>
 			</div>
 		   <!--<div class="side2">
 		   <br><img src="webp/brk-cascade.webp" width="50%" alt="brikcoins in action" loading="lazy">
