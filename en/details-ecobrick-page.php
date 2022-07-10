@@ -37,9 +37,9 @@ if ($result->num_rows > 0) {
 			echo '		<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg of plastic has been secured out of the biosphere in '. $array["location_full"] .' .</div>
 						</div>' ;
 			
-			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
-			border-color: #2779B4;
-			width: 88%;
+			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 11px;
+			border-color: #97C4E3;
+			width: 100%;
 			margin-top:-20px;
 			box-shadow: 0 0px 10px rgba(85, 84, 84, 0.8);
 			border-style: solid;" alt="Ecobrick Serial '. $array["serial_no"] .' "></div>	
@@ -53,7 +53,8 @@ if ($result->num_rows > 0) {
 			<div class="row">
 				<div class="main">
 		
-				<div id="main-content">';
+				<div class="lead-page-paragraph">';
+				
 			echo '<p>Baay National High School ecobricked 600 g of community plastic in LICUAN-BAAY, Philippines using a 1500ml bottle to make a Regular Ecobrick.</p></div>
 
 			<div class="page-paragraph">
