@@ -122,6 +122,41 @@
 			</tfoot>
    		</table>
 	</div>
+
+	<br><br>
+		
+	<div class="page-paragraph">
+			<h4>Brikchain Poll</h4>
+			<h6>Running and yearly brikchain totals.  Brikcoin pricing based on the Global Ecobrick Alliance's yearly costs for presiding over the blockhain as disclosed in our <a href="openbooks">Open Books accounting</a></h6>
+	</div>		
+			
+	<div class="overflow">
+	
+	<?php include 'db.php';?>
+		
+	<?php
+
+	$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC;";
+
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+	
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>From</th><th>To</th><th>Total BRK</th><th>Total Briks</th><th>Total Weight</th><th>Year Expenses</th><th>BRK Value</th></tr>';
+	
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+		
+		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td><td><var>".$row["brick_count"]."&#8202;briks</var></td><td><var>".$row["weight"]."&#8202;Kg</var></td></tr>";
+		}
+		echo "</table>";
+	} else {
+		echo "0 results";
+	}
+	$conn->close();
+	?>
+	</div>
+	<br><br>
 				
 
 
