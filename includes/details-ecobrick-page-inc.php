@@ -17,7 +17,7 @@ _END;?>
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://ecobricks.org/webp/brikmarket-400px.webp?v1.3">
-<link rel="preload" as="image" href="https://ecobricks.org/svgs/brik-market-banner2.svg">
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/brik-market-banner3.svg">
 
 <?php require_once ("meta/details-ecobrick-en.php");?>
 
@@ -39,7 +39,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
        
-		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) bottom;
+		background: url(https://ecobricks.org/svgs/brik-market-banner3.svg) bottom;
         background-color: #2A91DA;
 		
     	background-repeat: no-repeat;
@@ -65,7 +65,7 @@ _END;?>
 		position: relative;
 		
         
-		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) bottom;
+		background: url(https://ecobricks.org/svgs/brik-market-banner3.svg) bottom;
         background-color: #2A91DA;
 		
     	background-repeat: no-repeat;

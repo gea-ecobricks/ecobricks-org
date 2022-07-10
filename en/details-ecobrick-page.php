@@ -63,7 +63,7 @@ if ($result->num_rows > 0) {
 			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of 28.00. The ecobrick’s authentication generated 6.00ß. The ecobrick was ranked with the score of 46.88.</p></div>
 			<br><br>
 			<hr>
-			<br>'
+			<br>';
 
 	
 
