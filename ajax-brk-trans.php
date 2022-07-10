@@ -43,9 +43,9 @@ $columns = array(
         return '<var>'.date($d).'<var>';
     }
 ),
-    array( 'db' => 'sender_ecobricker',     'dt' => 2 ),
+    array( 'db' => 'sender_ecobricker',     'dt' => 1 ),
     //array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
-    array( 'db' => 'block_tran_type', 'dt' => 4 ),
+    array( 'db' => 'block_tran_type', 'dt' => 2 ),
    
    // array(
      //   'db'        => 'block_amt',
@@ -56,25 +56,24 @@ $columns = array(
    // ),
     array(
         'db'        => 'individual_amt',
-        'dt'        => 6,
+        'dt'        => 3,
         'formatter' => function( $d, $row ) {
             return '<var>'.number_format($d,2).'&#8202;ß</var>';
         }
     ),
 
     array(    'db' => 'tran_id',     
-    'dt' => 0,
+    'dt' => 4,
     'formatter' => function( $d, $row ) {
         return '<a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
-        onclick="window.open(\'details-brk-trans.php?tran_id='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
+        onclick="window.open(\'details-brk-trans.php?tran_id='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'📂 .($d).'</a>';
     }
 ),
 
     array( 'db' => 'ecobrick_serial_no',     
 'dt' => 7,
 'formatter' => function( $d, $row ) {
-    return '<a href="details-ecobrick-page.php?serial_no='.($d).'">🔎 </a><a href="details-ecobrick.php?serial_no='.($d).'" target="popup"
-    onclick="window.open(\'details-ecobrick.php?serial_no='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
+    return '<a href="details-ecobrick-page.php?serial_no='.($d).'">🔎 '.($d).'</a>';
 }
 ),
 

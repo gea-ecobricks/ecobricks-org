@@ -59,7 +59,7 @@
 		</div>   
          
 	</div>
-<div id="main-content">
+
 
 <br>
 <hr>
@@ -76,18 +76,18 @@
     <thead>
 		<tr>
 			
-			<th>Sent</th>
+			<th>Issued</th>
 			<th>Sender</th>	
 			<th>Type</th>
 			<th>Amount</th>
-			<th>Block</th>
+			<th>Transac</th>
 			<th>Ecobrick</th>
 
 		</tr>
 	</thead>
 	<tfoot>
 		<tr>
-			<th>Sent</th>
+			<th>Issued</th>
 			<th>Sender</th>	
 			<th>Type</th>
 			<th>Amount</th>
@@ -213,7 +213,7 @@ $sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC;";
 </div>
 
 
-</div>
+
 </div>
 
 
