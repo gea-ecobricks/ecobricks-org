@@ -41,36 +41,29 @@
 				<p>All blocks and transaction are recorded for a full and searcable public accounting and to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded assist exchange of physical bricks as non-fungible-tokens and as a historical record of each brik.</p>
 				
 				<p>Use the tools below to search by either transition or by ecobrick.</p>
-
 			</div>
 
-
-		</DIV>
+		</div>
 		
 
 		<div class="side">
 
-		<div id="side-module-desktop-mobile">
+			<div id="side-module-desktop-mobile">
 				<img src="webp/for-earth500px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
 				<h5>The Brikchain is maintained by the Global Ecobrick Alliance, a not-for-profit, for-Earth enterprise dedicated to accelerating plastic transition.</h5><br>
 				<a class="module-btn" href="/about">About the GEA</a>
                 <br>
-		</div>   
+			</div>   
          
+		</div>
 	</div>
-</div>
 
+	<div class="page-paragraph">
+		<h4>Brikcoin Blocks & Transactions</h4>
+		<h6>An overview of all brikcoins generated and exchanged.</h6>
+	</div>
 
-<br>
-
-<div id="main-content">
-<div class="page-paragraph">
-	<h4>Brikcoin Blocks & Transactions</h4>
-	<h6>An overview of all brikcoins generated and exchanged.</h6>
-</div>
-<div>
-<div id="main-content">
 	<div class="overflow">
 		<table id="brikchain" class="display" style="width:100%">
 			<thead>
@@ -97,6 +90,7 @@
 			</tfoot>
 		</table>
 	</div>
+</div>
 
 
 
