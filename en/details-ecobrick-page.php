@@ -102,7 +102,7 @@ if ($result->num_rows > 0) {
 			echo '<br><hr><br> <div class="page-paragraph">
 			<h3>The Brikchain</h3>
 		
-			<p>When an ecobrick is authenticated, it is published to the manual brikcoin blockcahin-- what we call the <a href="brikchain.php">the brikchain</a>.  Here you can find an archived ledger of all the ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
+			<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
 			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 			<br><br>
@@ -153,9 +153,9 @@ echo '
 				<br><br><br><br>
 				<h3>The Brikchain</h3>
 			
-				<p>When an ecobrick is authenticated, it is published to the manual brikcoin blockcahin-- what we call the <a href="brikchain.php">the brikchain</a>.  Here you can find an archived ledger of all the ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
+				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
-				<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 				<br><br>
 				<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
