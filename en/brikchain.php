@@ -29,15 +29,18 @@
 	<div class="row">
 		<div class="main">
 
-		<div class="lead-page-paragraph">
-				
+			<div class="lead-page-paragraph">
 				<br>
-				<br><p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">brikcoin manual blockchain</a> inline with <a href="/principles">our regenerative and for-Earth principles</a>.</p>
+				<p>Explore the full chain of authenticated ecobricks and ledger of transaction that underlies the brikcoin blockchain.</a>.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>Here on the Brikchain explorer you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and ecobricked authenticated plastic (<a href="aes">AES plastic</a>).</p>
+				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik in the brikchain, and its corresponding value is issued in <a href="brikcoins">Brikcoins</a>.  Both the ecobrick and the corresponding block of transactions are issued are recorded here.</p>
+				
+				<p>Transaction are recorded for a full and searcable public accounting and to generate the yearly value of 1Kg of   (<a href="aes">AES plastic</a>).  Ecobricks are recorded to suppliment the exchange of physical bricks and as a historical record for future generations.</p>
+				
+				<p>Use the tools below to search by either transition or by ecobrick.</p>
 
 			</div>
 
@@ -55,7 +58,7 @@
                 <br>
 		</div>   
          
-
+	</div>
 
 			<br>
 			<hr>
