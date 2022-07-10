@@ -187,7 +187,7 @@ $(document).ready(function() {
 		z-index: 5;
 		position: relative;
 		flex: 65%;
-		padding: 10px 30px 0px 0px;
+		padding: 0px 30px 20px 0px;
 		box-sizing: border-box;
 		text-align: right;
 		margin: auto;
