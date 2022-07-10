@@ -175,8 +175,8 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-sub {
-		font-size: 1.9em;
-		line-height: 1.3;
+		font-size: 1.25em;
+		line-height: 1.25;
 		font-weight: 400;
   }
 }

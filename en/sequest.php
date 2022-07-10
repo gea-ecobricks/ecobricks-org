@@ -145,7 +145,7 @@ Content Page template: v.1.0.1-->
                         <div class="opener-header">
                             <div class="opener-header-text">
                                 <h4>1. Secured Concentration</h4>
-                                <h5>The process secures plastic from all forms of chemical and physical degradation and from industrial processing.</h5><br>
+                                <h5>Sequestered plastic has been concentrated to a set density and secured from all forms of chemical and physical degradation and from industrial processing.</h5><br>
                             </div>
                             <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
                         </div>
@@ -157,7 +157,7 @@ Content Page template: v.1.0.1-->
                             <div class="row">
                                 <div class="main2">
                                 
-                                <p>The Earth’s cycles steadily led to to more and more carbon being secured from all forms of solar, chemical and organic degradation.  In the same way, plastic sequestration must concentrate plastic must do the same.  Keeping plastic as plastic and securing it into long-term, indefinite and secured storage is key to its sequestration. </p>
+                                <p>The Earth’s cycles steadily removed carbon out of the atmosphere into biomass then into geological sequestreation.  This secured carbon from all forms of solar, chemical and organic degradation.  In the same way, plastic sequestration must do the same. </p>
                                 </div>
                                 <div class="side2"><img src="webp/compacted-carbon.webp" width="92%">
                                 </div>
@@ -191,8 +191,8 @@ Content Page template: v.1.0.1-->
                     <div class="opener-header">
                         
                         <div class="opener-header-text">
-                            <h4>2. Circuar Design</h4>
-                            <h5>Outputs are indefinitely reusable and lead to indefinite cycles of reuse.</h5>
+                            <h4>2. Circular Outputs</h4>
+                            <h5>Sequestered plastic has been put into a form that is indefinitely reusable.</h5>
                             <br>
                         </div>
 
@@ -200,7 +200,7 @@ Content Page template: v.1.0.1-->
                     </div>
 
                     <div id="preclosed2">
-                        <p><b>In the same way that the Earth's processes led to the circular use of carbon in cycles that spiralled towards sequestration so too must the process of plastic sequestration.</b></p>
+                        <p><b>In the same way that the Earth's processes led to the circular use of carbon in biological cycles that spiralled towards sequestration so too must the process of plastic sequestration.</b></p>
 
                         <div class="row">
                             <div class="main2">
@@ -239,8 +239,8 @@ Content Page template: v.1.0.1-->
                         <div class="opener-header">
                             
                             <div class="opener-header-text">
-                                <h4>3. For-Earth Enterprise</h4>
-                                <h5>The process must be conducted as a not-for-profit, for-Earth enterprise.</h5>
+                                <h4>3. For-Earth</h4>
+                                <h5>The process of plastic sequestration must be conducted as a not-for-profit, for-Earth enterprise.</h5>
                                 <br>
                             </div>
 
@@ -333,8 +333,8 @@ Content Page template: v.1.0.1-->
                         <div class="opener-header">
                             
                             <div class="opener-header-text">
-                            <h4>5. Supporting Biodiversity</h4>
-                            <h5>The process and its outputs support the diversification of life.</h5>
+                            <h4>5. Vitalizing</h4>
+                            <h5>The process and outputs of plastic sequestration vitalize biodiversity.</h5>
                             <br>
                             </div>
 
@@ -343,7 +343,7 @@ Content Page template: v.1.0.1-->
 
                         <div id="preclosed6">
 
-                        <p><b>In the same way that the Earth’s process steadily increased biodiversication, so too must our process of plastic sequestration.</b></p>
+                        <p><b>In the same way that the Earth’s process steadily increased the diversity and vibrancy around them, so too must the process of plastic sequestration.</b></p>
 
                             <div class="row">
                                     <div class="main2">

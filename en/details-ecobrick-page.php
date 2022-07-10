@@ -53,10 +53,22 @@ if ($result->num_rows > 0) {
 			<div class="row">
 				<div class="main">
 		
-					   <div class="page-paragraph">';
+				<div id="main-content">';
+			echo '<p>Baay National High School ecobricked 600 g of community plastic in LICUAN-BAAY, Philippines using a 1500ml bottle to make a Regular Ecobrick.</p></div>
+
+			<div class="page-paragraph">
+			<p>The ecobrick has a density of 0.40g/ml and represents 1.86kg CO2 of sequestered C02. The ecobrick is permanently marked with Serial Number 187732 and on 06/14/2022 was automatically added to the validation queue. It is Andrea kate bolante’s number 1 ecobrick. Based in Abra, their community Baay National High School, is working hard to keep plastic out of the biosphere in Philippines.</p>
+			
+			
+			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of 28.00. The ecobrick’s authentication generated 6.00ß. The ecobrick was ranked with the score of 46.88.</p></div>
+			<br><br>
+			<hr>
+			<br>'
+
+	
 
 		
-			echo " <div class=\"main\"><b>Completed:</b> <var>" . $array["date_logged_ts"] ."</div>" ;
+			echo " <div class=\"main\"><b>Logged:</b> <var>" . $array["date_logged_ts"] ."</div>" ;
 			echo " <div class=\"main\"><b>Volume:</b> <var>" . $array["volume_ml"] ."&#8202;ml</div>" ;
 			echo " <div class=\"main\"><b>Weight:</b> <var>" . $array["weight_g"] ."&#8202;g</var></div>" ;
 			echo " <div class=\"main\"><b>Density:</b> <var>" . $array["density"] ."&#8202;g/ml</var></div>" ;
@@ -121,7 +133,7 @@ echo '
 			<div class="splash-heading">';
 	
 			echo 'Sorry! :-(</div>
-			<div class="splash-sub">No results for ecobrick serial number '. $serialNo .' in the Brikchain.  This is most likely because the Brikchain is still being populated with legacy data.</div>
+			<div class="splash-sub">No results for ecobrick '. $serialNo .' in the Brikchain.  Most likely this is because the Brikchain data is still in migration.</div>
 		</div>
 		<div class="splash-image"><img src="webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
 	</div>

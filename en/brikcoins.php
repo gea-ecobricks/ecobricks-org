@@ -129,7 +129,7 @@ Content Page template: v.1.0.1-->
 
                		 <div class="row">
 						<div class="main2">
-							<p>Brikcoins are based on the ecological value of <a href="sequest.php">sequestered plastic</a>— a concept which is based on folowing the <a href="/plastic">Earth's example</a> of carbon care.  As such, in order for plastic to be considered sequestered it must meet five criteria based on <a href="https://earthen.io/imagine">Earthen ethics</a>, that are maintained by the <a href="about.php">Global Ecobrick Alliance.</a></p>
+							<p>Brikcoins are based on the ecological value of <a href="sequest.php">sequestered plastic</a>— a concept which is based on folowing the <a href="/plastic">Earth's example</a> of carbon care.  Ecobricked plastic, in order to be considered sequestered must meet <a href="https://earthen.io/imagine">Earthen ethics</a> criteria of plastic sequestration developed by the <a href="about.php">Global Ecobrick Alliance.</a></p>
 							
 							<p>The final criteria of plastic sequestration, is that of <a href="sequest.php/#auth">independant authentication</a> that all the other criteria have been met.  In order to authenticate ecobricks that have been made around the world as sequestered plastic, the GEA maintains the <a href="/gobrik">GoBrik platform</a>.  There every ecobrick logged on the system is peer reviewed by the ecobricker community to ascertain whether it meets <a href="what.php">GEA standards</a>.</p>
 
@@ -305,7 +305,7 @@ Content Page template: v.1.0.1-->
 
 						<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 						<br><br>
-						<a class="action-btn" href="brikchain.php">🔎 Browse the Brikchain</a>
+						<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
 						<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
                     
                     </div>
