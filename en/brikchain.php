@@ -6,7 +6,7 @@
 <?php require_once ("includes/brikchain-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("under-construction.php");?>
 
 <!--TOP PAGE BANNER-->
 
@@ -38,7 +38,7 @@
 				  
 				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik in the Brikcoin Manual Blockchain.  With each authentication, the corresponding value of  ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in <a href="brikcoins">Brikcoins</a>.
 				
-				<p>All blocks and transaction are recorded for a full and searcable public accounting and to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded assist exchange of physical bricks as non-fungible-tokens and as a historical record of each brik.</p>
+				<p>All blocks and transaction are recorded for a full and searcable public accounting and to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded assist exchange of physical bricks as non-fungible-tokens and as a historical archive of each brik.</p>
 				
 				<p>Use the tools below to search by either transition or by ecobrick.</p>
 			</div>
@@ -90,7 +90,45 @@
 			</tfoot>
 		</table>
 	</div>
+	
+	<div class="page-paragraph">	
+		<h4>Authenticated Ecobricks</h4>
+		<h6>All the ecobricks authenticated and archived on chain.</h6>
+	</div>
+
+	<div class="overflow">
+		<table id="ecobricks" class="display" style="width:100%">
+			<thead>
+				<tr>
+					<th style="width: 150px !important;">Image</th>
+					<th>Logged</th>
+					<th>Maker</th>
+					<th>Weight</th>
+					<th>Value</th>
+					<th>Volume</th>
+					<th>CO2</th>
+					<th>Serial</th>
+					
+					
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+				<th>Image</th>
+				<th>Logged</th>
+				<th>Maker</th>
+				<th>Weight</th>
+				<th>Value</th>
+				<th>Volume</th>
+				<th>CO2</th>
+				<th>Serial</th>
+				</tr>
+			</tfoot>
+    </table>
 </div>
+<br><br>
+
+
 
 
 
