@@ -31,14 +31,14 @@
 
 			<div class="lead-page-paragraph">
 				<br>
-				<h3>Search and explore the full chain of authenticated ecobricks, blocks and transactions that underly the brikcoin manual blockchain.</a>.</h3>
+				<p><b>Search and explore the full chain of authenticated ecobricks, blocks and transactions that underly the brikcoin manual blockchain.</b></p>
 			</div>
 
 			<div class="page-paragraph">
 				  
 				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik in the Brikcoin Manual Blockchain.  With each authentication, the corresponding value of  ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in <a href="brikcoins">Brikcoins</a>.
 				
-				<p>All blocks and transaction are recorded for a full and searcable public accounting and to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting.  All authenticated ecobricks are recorded assist exchange of physical bricks as non-fungible-tokens and as a historical record of each brik.</p>
+				<p>All blocks and transaction are recorded for a full and searcable public accounting and to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded assist exchange of physical bricks as non-fungible-tokens and as a historical record of each brik.</p>
 				
 				<p>Use the tools below to search by either transition or by ecobrick.</p>
 
@@ -70,8 +70,6 @@
 </div>
 <br>
 
-<div class="page-paragraph">
-	<div class="overflow">
 		<table id="brikchain" class="display" style="width:100%">
 			<thead>
 				<tr>
@@ -97,8 +95,8 @@
 			</tfoot>
 		</table>
 </div>
-</div>
-</div>
+
+
 
 	<!--FOOTER STARTS HERE-->
 
