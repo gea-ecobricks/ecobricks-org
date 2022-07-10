@@ -31,14 +31,14 @@
 
 			<div class="lead-page-paragraph">
 				<br>
-				<p>Explore the full chain of authenticated ecobricks and ledger of transaction that underlies the brikcoin blockchain.</a>.</p>
+				<h3>Search and explore the full chain of authenticated ecobricks, blocks and transactions that underly the brikcoin manual blockchain.</a>.</h3>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik in the brikchain, and its corresponding value is issued in <a href="brikcoins">Brikcoins</a>.  Both the ecobrick and the corresponding block of transactions are issued are recorded here.</p>
+				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik in the Brikcoin Manual Blockchain.  With each authentication, the corresponding value of  ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in <a href="brikcoins">Brikcoins</a>.
 				
-				<p>Transaction are recorded for a full and searcable public accounting and to generate the yearly value of 1Kg of   (<a href="aes">AES plastic</a>).  Ecobricks are recorded to suppliment the exchange of physical bricks and as a historical record for future generations.</p>
+				<p>All blocks and transaction are recorded for a full and searcable public accounting and to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting.  All authenticated ecobricks are recorded assist exchange of physical bricks as non-fungible-tokens and as a historical record of each brik.</p>
 				
 				<p>Use the tools below to search by either transition or by ecobrick.</p>
 
