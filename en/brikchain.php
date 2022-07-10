@@ -62,13 +62,13 @@
 
 
 <br>
-<hr>
-<br><br>
+
 					
 <div class="page-paragraph">
 	<h4>Brikcoin Blocks & Transactions</h4>
 	<h6>An overview of all brikcoins generated and exchanged.</h6>
 </div>
+<br>
 
 <div class="page-paragraph">
 	<div class="overflow">
@@ -97,8 +97,7 @@
 			</tfoot>
 		</table>
 </div>
-
-
+</div>
 </div>
 
 	<!--FOOTER STARTS HERE-->
