@@ -13,7 +13,7 @@
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading"><br>Brikchain Explorer</div>
-		<div class="splash-sub">Browse the ecobricks & transactions of the full brikcoin blockchain.</div>
+		<div class="splash-sub">Browse all the ecobricks & transactions of the Brikcoin manual blockchain.</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	
 </div>
@@ -90,7 +90,9 @@
 			</tfoot>
 		</table>
 	</div>
-	<br><br>
+
+	<br><br><br><br>
+
 	<div class="page-paragraph">	
 		<h4>Authenticated Ecobricks</h4>
 		<h6>All the ecobricks authenticated and archived on chain.</h6>
@@ -101,28 +103,30 @@
 			<thead>
 				<tr>
 					<th style="width: 150px !important;">Brik</th>
-					<th>Logged</th>
-					<th>Weight</th>
+					<th>Authenticated</th>
+					<th>AES Plastic</th>
 					<th>Value</th>
-					<th>CO2</th>
+					<th>CO2e</th>
 					<th>Serial</th>
-					
-					
 				</tr>
 			</thead>
 			<tfoot>
 				<tr>
 					<th style="width: 150px !important;">Brik</th>
 					<th>Logged</th>
-					<th>Weight</th>
+					<th>AES Plastic</th>
 					<th>Value</th>
-					<th>CO2</th>
+					<th>CO2e</th>
 					<th>Serial</th>
 				</tr>
 			</tfoot>
-    </table>
-</div>
-<br><br>
+   		</table>
+	</div>
+				
+
+
+
+</DIV>
 
 
 
