@@ -58,7 +58,6 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 70vh;
 		min-height: 70vh;
 		padding: 0px 7% 0px 7%;
 		z-index: 5;
@@ -229,30 +228,30 @@ margin-bottom: 31px;}
 
 
 .main {
-	font-size: 1.3em;
-	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-family: 'Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace';
   	color: #222222;
-  	line-height: 1.3;
-	  font-weight: 300
+  	line-height: 1.2;
+	font-weight: 300;
 }
 
 .status {
-	font-size: 1.1em;
-	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-family: 'Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace';
   	color: #222222;
   	line-height: 1.4;
-	  font-weight: 300
+	font-weight: 300;
 }
 
 .general-field {
-	font-size: 1.1em;
-	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-family: 'Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace';
   	color: #222222;
   	line-height: 1.3;
 	margin-top: 12px;
 	font-weight: 300;
 }
- 
+ /*
 p {
 	font-size: 1.1em;
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
@@ -260,7 +259,7 @@ p {
   	line-height: 1.3;
 	margin-top: 12px;
 	font-weight: 300;
-}
+}*/
 
 b {font-weight: 500;}
 
