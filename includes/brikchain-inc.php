@@ -178,6 +178,7 @@ $(document).ready(function() {
 		padding: 10px 10px 0px 0px;
 		box-sizing: border-box;
 		text-align: right;
+		
 }
 }
 
@@ -189,6 +190,7 @@ $(document).ready(function() {
 		padding: 10px 30px 0px 0px;
 		box-sizing: border-box;
 		text-align: right;
+		margin: auto;
 }
 }
 
@@ -223,9 +225,9 @@ $(document).ready(function() {
 
 	font-family: 'Arvo', Georgia, serif;
   
-  color: white;
-  font-weight: 300;
-  text-shadow: 0px 0px 8px #666;
+	color: white;
+	font-weight: 300;
+	text-shadow: 0px 0px 8px #666;
 
 }
 
@@ -265,6 +267,7 @@ $(document).ready(function() {
 		font-size: 2.2em;
 		line-height: 1.3;
 		font-weight: 400;
+		padding: 0px 30px 0px 0px;
   }
 } 
 
