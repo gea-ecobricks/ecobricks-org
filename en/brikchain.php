@@ -36,9 +36,9 @@
 
 			<div class="page-paragraph">
 				  
-				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik in the Brikcoin Manual Blockchain.  With each authentication, the corresponding value of  ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in <a href="brikcoins">Brikcoins</a>.
+				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik (NFBs) in the Brikcoin Manual Blockchain.  With each authentication, the corresponding value of  ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in <a href="brikcoins">Brikcoins</a>.
 				
-				<p>All blocks and transaction are recorded for a full and searcable public accounting and to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded assist exchange of physical bricks as non-fungible-tokens and as a historical archive of each brik.</p>
+				<p>All blocks and transaction are recorded for a full and searcable public accounting and to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded as a historical archive of each brik and to assist in the exchange of physical NFBs on the <a href="drop-off">GoBrik Marketplace</a>.</p>
 				
 				<p>Use the tools below to search by either transition or by ecobrick.</p>
 			</div>
