@@ -151,8 +151,8 @@ $(document).ready(function() {
 		background-color: #2A91DA;
 		
 		text-align: left;
-		height: 60vh;
-		padding: 0px 7% 50px 7%;
+		min-height: 69vh;
+		padding: 0px 7% 20px 7%;
 		z-index: 5;
 		position: relative;
     	background-repeat: no-repeat;

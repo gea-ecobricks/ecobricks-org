@@ -63,13 +63,14 @@
 
 <br>
 
-					
+<div id="main-content">
 <div class="page-paragraph">
 	<h4>Brikcoin Blocks & Transactions</h4>
 	<h6>An overview of all brikcoins generated and exchanged.</h6>
 </div>
-<br><br><br>
-
+<div>
+<div id="main-content">
+	<div class="overflow">
 		<table id="brikchain" class="display" style="width:100%">
 			<thead>
 				<tr>
@@ -94,6 +95,7 @@
 				</tr>
 			</tfoot>
 		</table>
+	</div>
 </div>
 
 
