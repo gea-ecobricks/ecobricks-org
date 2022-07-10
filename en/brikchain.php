@@ -126,7 +126,7 @@
 	<br><br>
 		
 	<div class="page-paragraph">
-			<h4>Brikchain Poll</h4>
+			<h4>Brikcoin Yearly Valuations</h4>
 			<h6>Running and yearly brikchain totals.  Brikcoin pricing based on the Global Ecobrick Alliance's yearly costs for presiding over the blockhain as disclosed in our <a href="openbooks">Open Books accounting</a></h6>
 	</div>		
 			
