@@ -34,10 +34,10 @@ if ($result->num_rows > 0) {
 
 
 
-			echo '		<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg of plastic has been secured out of the biosphere in '. $array["location_full"] .' .</div>
+			echo '		<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg of plastic has been secured out of the biosphere in '. $array["location_full"] .'</div>
 						</div>' ;
 			
-			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 11px;
+			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
 			border-color: #97C4E3;
 			width: 85%;
 			margin-top:-20px;
