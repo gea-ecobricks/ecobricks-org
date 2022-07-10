@@ -118,9 +118,9 @@ $(document).ready(function() {
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(svgs/top-clouds-mobile.svg) top;
+		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) top;
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
-		background-color: #00E6FF;
+		background-color: #2A91DA;;
 		background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -144,11 +144,11 @@ $(document).ready(function() {
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1) top;
+		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) top;
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-color: #00E6FF;
+		background-color: #2A91DA;;
 		
 		text-align: left;
 		height: 60vh;
@@ -274,8 +274,8 @@ $(document).ready(function() {
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #00E6FF;
-	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;*/
+	background-color: #2A91DA;;
+	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	position: relative;
@@ -286,7 +286,8 @@ $(document).ready(function() {
  	 -moz-transform: skewY(-3deg);
  	 -ms-transform: skewY(-3deg);
  	 -o-transform: skewY(-3deg);
- 	 transform: skewY(-3deg);
+ 	 transform: skewY(-3deg);*/
+	
 
 }
 
