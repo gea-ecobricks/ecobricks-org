@@ -30,15 +30,15 @@
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<br>
+				
 				<p><b>Search and explore the full chain of authenticated ecobricks, blocks and transactions that underly the brikcoin manual blockchain.</b></p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik (NFBs) in the Brikcoin Manual Blockchain.  With each authentication, the corresponding value of  ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in <a href="brikcoins">Brikcoins</a>.
+				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik (NFB) in the <a href="brikcoins">Brikcoin Manual Blockchain</a>.  With each authentication, the corresponding value of  ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in brikcoins</a>.
 				
-				<p>All blocks and transaction are recorded for a full and searcable public accounting and to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded as a historical archive of each brik and to assist in the exchange of physical NFBs on the <a href="drop-off">GoBrik Marketplace</a>.</p>
+				<p>All blocks and transaction are recorded for a full and searcable public accounting.  Yearly summations of the AES Plastic recorded, brikcoins generated and the cost of running the blockchain are used to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded as a historical archive of each brik and to assist in the exchange of physical NFBs on the <a href="drop-off">GoBrik Marketplace</a>.</p>
 				
 				<p>Use the tools below to search by either transition or by ecobrick.</p>
 			</div>
@@ -73,7 +73,7 @@
 					<th>Sender</th>	
 					<th>Type</th>
 					<th>Amount</th>
-					<th>Transac.</th>
+					<th>Transaction</th>
 					<th>Ecobrick</th>
 
 				</tr>
@@ -84,7 +84,7 @@
 					<th>Sender</th>	
 					<th>Type</th>
 					<th>Amount</th>
-					<th>Transac.</th>
+					<th>Transaction</th>
 					<th>Ecobrick</th>
 				</tr>
 			</tfoot>
@@ -127,7 +127,7 @@
 		
 	<div class="page-paragraph">
 			<h4>Brikcoin Yearly Valuations</h4>
-			<h6>Running and yearly brikchain totals.  Brikcoin pricing based on the Global Ecobrick Alliance's yearly costs for presiding over the blockhain as disclosed in our <a href="openbooks">Open Books accounting</a></h6>
+			<h6>Running and yearly brikchain totals.  Brikcoin pricing based on the Global Ecobrick Alliance's yearly costs for presiding over the blockhain as disclosed the GEA's yearly <a href="openbooks">Open Books</a> financial accounting</h6>
 	</div>		
 			
 	<div class="overflow">
