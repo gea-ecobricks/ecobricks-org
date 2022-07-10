@@ -68,7 +68,7 @@
 	<h4>Brikcoin Blocks & Transactions</h4>
 	<h6>An overview of all brikcoins generated and exchanged.</h6>
 </div>
-<br>
+<br><br><br>
 
 		<table id="brikchain" class="display" style="width:100%">
 			<thead>
@@ -78,7 +78,7 @@
 					<th>Sender</th>	
 					<th>Type</th>
 					<th>Amount</th>
-					<th>Transac</th>
+					<th>Transac.</th>
 					<th>Ecobrick</th>
 
 				</tr>
@@ -89,7 +89,7 @@
 					<th>Sender</th>	
 					<th>Type</th>
 					<th>Amount</th>
-					<th>Block</th>
+					<th>Transac.</th>
 					<th>Ecobrick</th>
 				</tr>
 			</tfoot>
