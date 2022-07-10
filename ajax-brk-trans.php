@@ -35,33 +35,25 @@ $primaryKey = 'tran_id';
 
 
 $columns = array(
-  array(    'db' => 'tran_id',     
-            'dt' => 0,
-            'formatter' => function( $d, $row ) {
-                return '<a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
-                onclick="window.open(\'details-brk-trans.php?tran_id='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
-            }
-),
-
 
   array(
     'db'        => 'send_dt',
-    'dt'        => 1,
+    'dt'        => 0,
     'formatter' => function( $d, $row ) {
         return '<var>'.date($d).'<var>';
     }
 ),
     array( 'db' => 'sender_ecobricker',     'dt' => 2 ),
-    array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
+    //array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
     array( 'db' => 'block_tran_type', 'dt' => 4 ),
    
-    array(
-        'db'        => 'block_amt',
-        'dt'        => 5,
-        'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d,2).'&#8202;ß</var>';
-        }
-    ),
+   // array(
+     //   'db'        => 'block_amt',
+     //   'dt'        => 5,
+     //   'formatter' => function( $d, $row ) {
+     //       return '<var>'.number_format($d,2).'&#8202;ß</var>';
+     //   }
+   // ),
     array(
         'db'        => 'individual_amt',
         'dt'        => 6,
@@ -69,6 +61,14 @@ $columns = array(
             return '<var>'.number_format($d,2).'&#8202;ß</var>';
         }
     ),
+
+    array(    'db' => 'tran_id',     
+    'dt' => 0,
+    'formatter' => function( $d, $row ) {
+        return '<a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
+        onclick="window.open(\'details-brk-trans.php?tran_id='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
+    }
+),
 
     array( 'db' => 'ecobrick_serial_no',     
 'dt' => 7,
