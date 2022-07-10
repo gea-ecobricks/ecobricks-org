@@ -39,7 +39,7 @@ if ($result->num_rows > 0) {
 			
 			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 11px;
 			border-color: #97C4E3;
-			width: 100%;
+			width: 85%;
 			margin-top:-20px;
 			box-shadow: 0 0px 10px rgba(85, 84, 84, 0.8);
 			border-style: solid;" alt="Ecobrick Serial '. $array["serial_no"] .' "></div>	
@@ -51,20 +51,21 @@ if ($result->num_rows > 0) {
 
 			echo '<a name="top"></a><div id="main-content">
 			<div class="row">
-				<div class="main">
-		
-				<div class="lead-page-paragraph">';
-				
-			echo '<p>Baay National High School ecobricked 600 g of community plastic in LICUAN-BAAY, Philippines using a 1500ml bottle to make a Regular Ecobrick.</p></div>
+				<div class="main">';
 
-			<div class="page-paragraph">
-			<p>The ecobrick has a density of 0.40g/ml and represents 1.86kg CO2 of sequestered C02. The ecobrick is permanently marked with Serial Number 187732 and on 06/14/2022 was automatically added to the validation queue. It is Andrea kate bolante’s number 1 ecobrick. Based in Abra, their community Baay National High School, is working hard to keep plastic out of the biosphere in Philippines.</p>
+			echo '<div class="lead-page-paragraph">
+			<p>Baay National High School ecobricked 600 g of community plastic in LICUAN-BAAY, Philippines using a 1500ml bottle to make a Regular Ecobrick.</p></div>';
+
+			echo '<div class="page-paragraph">
+			<p>The ecobrick has a density of 0.40g/ml and represents 1.86kg CO2 of sequestered C02. The ecobrick is permanently marked with Serial Number 187732 and on 06/14/2022 was automatically added to the validation queue. It is Andrea kate bolante’s number 1 ecobrick. Based in Abra, their community Baay National High School, is working hard to keep plastic out of the biosphere in Philippines.</p>';
 			
 			
-			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of 28.00. The ecobrick’s authentication generated 6.00ß. The ecobrick was ranked with the score of 46.88.</p></div>
+			echo '<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of 28.00. The ecobrick’s authentication generated 6.00ß. The ecobrick was ranked with the score of 46.88.</p>
+			</div>
 			<br><br>
 			<hr>
-			<br>';
+			<br>
+			<div class="page-paragraph">';
 
 	
 
