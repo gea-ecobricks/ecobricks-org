@@ -65,39 +65,39 @@
 <hr>
 <br><br>
 					
-	<div class="page-paragraph">
+<div class="page-paragraph">
 	<h4>Brikcoin Blocks & Transactions</h4>
 	<h6>An overview of all brikcoins generated and exchanged.</h6>
-	</div>
-
-		
-	<div class="overflow">
-	<table id="brikchain" class="display" style="width:100%">
-    <thead>
-		<tr>
-			
-			<th>Issued</th>
-			<th>Sender</th>	
-			<th>Type</th>
-			<th>Amount</th>
-			<th>Transac</th>
-			<th>Ecobrick</th>
-
-		</tr>
-	</thead>
-	<tfoot>
-		<tr>
-			<th>Issued</th>
-			<th>Sender</th>	
-			<th>Type</th>
-			<th>Amount</th>
-			<th>Block</th>
-			<th>Ecobrick</th>
-		
-		</tr>
-        </tfoot>
-    </table>
 </div>
+
+<div class="page-paragraph">
+	<div class="overflow">
+		<table id="brikchain" class="display" style="width:100%">
+			<thead>
+				<tr>
+					
+					<th>Issued</th>
+					<th>Sender</th>	
+					<th>Type</th>
+					<th>Amount</th>
+					<th>Transac</th>
+					<th>Ecobrick</th>
+
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th>Issued</th>
+					<th>Sender</th>	
+					<th>Type</th>
+					<th>Amount</th>
+					<th>Block</th>
+					<th>Ecobrick</th>
+				</tr>
+			</tfoot>
+		</table>
+</div>
+
 
 </div>
 
