@@ -59,6 +59,7 @@
 		</div>   
          
 	</div>
+</div>
 
 
 <br>
@@ -96,7 +97,7 @@
 			</tfoot>
 		</table>
 	</div>
-</div>
+
 
 
 
