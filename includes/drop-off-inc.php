@@ -31,7 +31,7 @@ _END;?>
 <STYLE>
 
 
-	
+	 
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
