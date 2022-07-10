@@ -118,9 +118,9 @@ $(document).ready(function() {
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) top;
+		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) bottom;
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
-		background-color: #2A91DA;;
+		background-color: #2A91DA;
 		background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -144,11 +144,11 @@ $(document).ready(function() {
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) top;
+		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) bottom;
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-color: #2A91DA;;
+		background-color: #2A91DA;
 		
 		text-align: left;
 		height: 60vh;
@@ -274,7 +274,7 @@ $(document).ready(function() {
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #2A91DA;;
+	background-color: #2A91DA;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -314,7 +314,7 @@ $(document).ready(function() {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #E39009;
+  background-color: #2A91DA;
   color: white;
 }
 
@@ -342,7 +342,7 @@ $(document).ready(function() {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #E39009;
+  background-color: #2A91DA;
   color: white;
 }
 
@@ -370,7 +370,7 @@ $(document).ready(function() {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #E39009;
+  background-color: #2A91DA;
   color: white;
 }
 
@@ -405,7 +405,7 @@ $(document).ready(function() {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #E39009;
+  background-color: #2A91DA;
   color: white;
 }
 

@@ -24,12 +24,12 @@
 <!-- PAGE CONTENT-->
 
 <a name="top"></a>
-
 <div id="main-content">
 <!-- The flexible grid (content) -->
-	
+	<div class="row">
+		<div class="main">
 
-			<div class="lead-page-paragraph">
+		<div class="lead-page-paragraph">
 				
 				<br>
 				<br><p>The Global Ecobrick Alliance maintains the <a href="brikcoins.php">brikcoin manual blockchain</a> inline with <a href="/principles">our regenerative and for-Earth principles</a>.</p>
@@ -40,6 +40,22 @@
 				<p>Here on the Brikchain explorer you can search and view the full brikchain of transactions, see the total money pool, and track the value of brikcoins and ecobricked authenticated plastic (<a href="aes">AES plastic</a>).</p>
 
 			</div>
+
+
+		</DIV>
+		
+
+		<div class="side">
+
+		<div id="side-module-desktop-mobile">
+				<img src="webp/for-earth500px.webp" width="90%" alt="Following the Earth's example through eco bricking">
+				<br><h4>Earth Enterprise</h4>
+				<h5>The Brikchain is maintained by the Global Ecobrick Alliance, a not-for-profit, for-Earth enterprise dedicated to accelerating plastic transition.</h5><br>
+				<a class="module-btn" href="/about">About the GEA</a>
+                <br>
+		</div>   
+         
+
 
 			<br>
 			<hr>
