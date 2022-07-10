@@ -229,7 +229,7 @@ margin-bottom: 31px;}
 
 .main {
 	font-size: 1.2em;
-	font-family: 'Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace';
+	font-family: 'Courier New,Courier,monospace';
   	color: #222222;
   	line-height: 1.2;
 	font-weight: 300;
@@ -237,7 +237,7 @@ margin-bottom: 31px;}
 
 .status {
 	font-size: 1.0em;
-	font-family: 'Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace';
+	font-family: 'Courier New,Courier,monospace';
   	color: #222222;
   	line-height: 1.4;
 	font-weight: 300;
@@ -245,21 +245,20 @@ margin-bottom: 31px;}
 
 .general-field {
 	font-size: 1.0em;
-	font-family: 'Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace';
+	font-family: 'Courier New,Courier,monospace';
   	color: #222222;
   	line-height: 1.3;
 	margin-top: 12px;
 	font-weight: 300;
 }
- /*
+ 
 p {
-	font-size: 1.1em;
-	font-family: 'Mulish', Arial, Helvetica, sans-serif;
+	font-size: 1em;
   	color: #222222;
   	line-height: 1.3;
 	margin-top: 12px;
 	font-weight: 300;
-}*/
+}
 
 b {font-weight: 500;}
 
