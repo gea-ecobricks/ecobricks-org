@@ -44,7 +44,7 @@ $columns = array(
     'db'        => 'transaction_date_dt',
     'dt'        => 1,
     'formatter' => function( $d, $row ) {
-        return '<var>'.date($d).'<var>';
+        return '<var>'.date($d).'<var>'; 
     }
 ),
     array( 'db' => 'sender_for_display',     'dt' => 2 ),

@@ -40,7 +40,7 @@ $columns = array(
     'db'        => 'send_dt',
     'dt'        => 0,
     'formatter' => function( $d, $row ) {
-        return ''.date($d).'';
+        return ''.date($d).''; 
     }
 ),
     array( 'db' => 'sender_ecobricker',     'dt' => 1 ),

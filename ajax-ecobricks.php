@@ -42,49 +42,35 @@ $columns = array(
     'db'        => 'date_logged_ts',
     'dt'        => 1,
     'formatter' => function( $d, $row ) {
-        return '<var>'.date( 'jS M y', strtotime($d)).'</var>';
+        return ''.date($d).''; 
+       // return '<var>'.date( 'jS M y', strtotime($d)).'</var>'; 
     }
 ),
 
-    array( 'db' => 'ecobricker_maker',
-            'dt' => 2,
-            'formatter' => function( $d, $row ) {
-                return '<var>'.($d).'</var>';
-            }
-        ),
-
 
     array( 'db' => 'weight_g', 
-           'dt'        => 3,
+           'dt'        => 2,
            'formatter' => function( $d, $row ) {
             return '<var>'.($d).'&#8202;g</var>';
         }
     ),
     
     array( 'db' => 'ecobrick_brk_amt',   
-            'dt'        => 4,
+            'dt'        => 3,
             'formatter' => function( $d, $row ) {
                return '<var>'.number_format($d,2).'&#8202;ß</var>';
         } 
     ),
-   
-    array(
-        'db'        => 'volume_ml',
-        'dt'        => 5,
-        'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d).'&#8202;mL</var>';
-        }
-    ),
 
     array(
         'db'        => 'CO2_kg',
-        'dt'        => 6,
+        'dt'        => 4,
         'formatter' => function( $d, $row ) {
             return '<var>'.number_format($d,2).'&#8202;kg</var>';
         }
     ),
     array( 'db' => 'serial_no',     
-        'dt' => 7,
+        'dt' => 5,
         'formatter' => function( $d, $row ) {
             return '<a href="details-ecobrick-page.php?serial_no='.($d).'">🔎 </a><a href="details-ecobrick.php?serial_no='.($d).'" target="popup"
             onclick="window.open(\'details-ecobrick.php?serial_no='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';

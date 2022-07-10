@@ -90,7 +90,7 @@
 			</tfoot>
 		</table>
 	</div>
-	
+	<br><br>
 	<div class="page-paragraph">	
 		<h4>Authenticated Ecobricks</h4>
 		<h6>All the ecobricks authenticated and archived on chain.</h6>
@@ -100,12 +100,10 @@
 		<table id="ecobricks" class="display" style="width:100%">
 			<thead>
 				<tr>
-					<th style="width: 150px !important;">Image</th>
+					<th style="width: 150px !important;">Brik</th>
 					<th>Logged</th>
-					<th>Maker</th>
 					<th>Weight</th>
 					<th>Value</th>
-					<th>Volume</th>
 					<th>CO2</th>
 					<th>Serial</th>
 					
@@ -114,14 +112,12 @@
 			</thead>
 			<tfoot>
 				<tr>
-				<th>Image</th>
-				<th>Logged</th>
-				<th>Maker</th>
-				<th>Weight</th>
-				<th>Value</th>
-				<th>Volume</th>
-				<th>CO2</th>
-				<th>Serial</th>
+					<th style="width: 150px !important;">Brik</th>
+					<th>Logged</th>
+					<th>Weight</th>
+					<th>Value</th>
+					<th>CO2</th>
+					<th>Serial</th>
 				</tr>
 			</tfoot>
     </table>
