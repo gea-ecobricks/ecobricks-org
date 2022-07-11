@@ -1279,6 +1279,7 @@ border-left-width: 1px;
     line-height: 1.4;
     margin: 20px 5% 30px 5%;
 }
+}
 
 @media screen and (max-width: 700px) {
 	.page-paragraph-reg {
