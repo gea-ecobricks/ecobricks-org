@@ -67,7 +67,7 @@ if ($result->num_rows > 0) {
 			<br>
 			<div class="ecobrick-data">';
 
-			echo '<p>>> Raw Brikchain Data Record</b<p><br>
+			echo '<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</b<p><br>
 				<p>--------------------</p>';
 
 			echo ' <p><b>Logged:</b> <var>' . $array["date_logged_ts"] .'</p>' ;
@@ -98,7 +98,7 @@ if ($result->num_rows > 0) {
 			echo ' <p><b>Validation score avg.:</b> <var>' . $array["validation_score_avg"] .'</var></p>' ;
 
 			echo ' <p><b>Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
-			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p></p>' ;
+			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p></div>' ;
 
 			echo '<br><hr><br> <div class="page-paragraph">
 			<h3>The Brikchain</h3>
