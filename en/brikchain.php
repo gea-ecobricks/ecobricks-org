@@ -48,7 +48,7 @@
 
 		<div class="side">
 
-			<div id="side-module-desktop-mobile">
+			<div id="side-module-desktop-only">
 				<img src="webp/for-earth500px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
 				<h5>The Brikchain is maintained by the Global Ecobrick Alliance, a not-for-profit, for-Earth enterprise dedicated to accelerating plastic transition.</h5><br>
@@ -59,9 +59,46 @@
 		</div>
 	</div>
 
+
+	<div class="page-paragraph">	
+		<h4>Authenticated Ecobricks</h4>
+		<p>🚧 Not yet live, data still in migration</p>
+		<h6>All the ecobricks authenticated and archived on chain.</h6>
+
+	</div>
+
+	<div class="overflow">
+		<table id="ecobricks" class="display" style="width:100%">
+			<thead>
+				<tr>
+					<th style="width: 150px !important;">Brik</th>
+					<th>Authenticated</th>
+					<th>AES Plastic</th>
+					<th>Value</th>
+					<th>CO2e</th>
+					<th>Serial</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th style="width: 150px !important;">Brik</th>
+					<th>Logged</th>
+					<th>AES Plastic</th>
+					<th>Value</th>
+					<th>CO2e</th>
+					<th>Serial</th>
+				</tr>
+			</tfoot>
+   		</table>
+	</div>
+
+	<br><br><br><br>
+
+
 	<div class="page-paragraph">
 		<h4>Brikcoin Blocks & Transactions</h4>
 		<h6>An overview of all brikcoins generated and exchanged.</h6>
+		<p>🚧 Not yet live, data still in migration</p>
 	</div>
 
 	<div class="overflow">
@@ -91,42 +128,13 @@
 		</table>
 	</div>
 
-	<br><br><br><br>
-
-	<div class="page-paragraph">	
-		<h4>Authenticated Ecobricks</h4>
-		<h6>All the ecobricks authenticated and archived on chain.</h6>
-	</div>
-
-	<div class="overflow">
-		<table id="ecobricks" class="display" style="width:100%">
-			<thead>
-				<tr>
-					<th style="width: 150px !important;">Brik</th>
-					<th>Authenticated</th>
-					<th>AES Plastic</th>
-					<th>Value</th>
-					<th>CO2e</th>
-					<th>Serial</th>
-				</tr>
-			</thead>
-			<tfoot>
-				<tr>
-					<th style="width: 150px !important;">Brik</th>
-					<th>Logged</th>
-					<th>AES Plastic</th>
-					<th>Value</th>
-					<th>CO2e</th>
-					<th>Serial</th>
-				</tr>
-			</tfoot>
-   		</table>
-	</div>
+	
 
 	<br><br>
 		
 	<div class="page-paragraph">
 			<h4>Brikcoin Yearly Valuations</h4>
+			<p>🚧 Does not yet reflect official values, data still in migration</p>
 			<h6>Running and yearly brikchain totals.  Brikcoin pricing based on the Global Ecobrick Alliance's yearly costs for presiding over the blockhain as disclosed the GEA's yearly <a href="openbooks">Open Books</a> financial accounting</h6>
 	</div>		
 			
