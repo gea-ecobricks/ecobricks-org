@@ -60,44 +60,45 @@ if ($result->num_rows > 0) {
 			
 			
 			echo '<div class="page-paragraph">
-			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p>
+			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p></div>
 			</div>
 			<br><br>
 			<hr>
 			<br>
 			<div class="ecobrick-data">';
 
-			echo '<p><b>Raw Brikchain Data Record</b<p>';
+			echo '<p><b>>>> Raw Brikchain Data Record</b<p><br>
+				<p>--------------------</p>';
 
 			echo ' <p><b>Logged:</b> <var>' . $array["date_logged_ts"] .'</p>' ;
 			echo ' <p><b>Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</p>' ;
 			echo ' <p><b>Weight:</b> <var>' . $array["weight_g"] .'&#8202;g</var></p>' ;
 			echo ' <p><b>Density:</b> <var>' . $array["density"] .'&#8202;g/ml</var></p>' ;
 			echo ' <p><b>CO2e:</b><var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
-			echo ' <p><b>Brikcoin value:</b> <var>' . $array["ecobrick_dec_brk_val"] .'&#8202;ß</var></p></div>' ;
+			echo ' <p><b>Brikcoin value:</b> <var>' . $array["ecobrick_dec_brk_val"] .'&#8202;ß</var></p>' ;
 
-			echo "  <div id=\"details-content\"><div class=\"general-field\"><b>Maker:</b> <var><i>" . $array["owner"] ."</i></var> </div>" ;
-			echo "  <div class=\"general-field\"><b>Sequestration:</b> <var>" . $array["sequestration_type"]."</var></div>" ;
-			echo " <div class=\"general-field\"><b>Brand:</b> <var>" . $array["brand_name"] ."</var></div>" ;
-			echo "  <div class=\"general-field\"><b>Bottom colour:</b> " . $array["bottom_colour"] ."</var></div></div>" ;
+			echo ' <p><b>Maker:</b> <var><i>' . $array["owner"] .'</i></var> </p>' ;
+			echo ' <p><b>Sequestration:</b> <var>' . $array["sequestration_type"].'</var></p>' ;
+			echo ' <p><b>Brand:</b> <var>' . $array["brand_name"] .'</var></p>' ;
+			echo ' <p><b>Bottom colour:</b> ' . $array["bottom_colour"] .'</var></p>' ;
 			
-			echo "  <div id=\"details-content\"><div class=\"general-field\"><b>Plastic source:</b> " . $array["plastic_from"] ."</var></div>" ;
+			echo ' <p><b>Plastic source:</b>' . $array["plastic_from"] .'</var></div>' ;
 
-			echo "  <div class=\"general-field\"><b>Community:</b> <var>" . $array["community_name"] ."</var></div>" ;
-			echo "  <div class=\"general-field\"><b>City:</b> <var>" . $array["location_city"] ."</var></div>" ;
-			echo "  <div class=\"general-field\"><b>Region:</b> <var>" . $array["location_region"] ."</var></div>" ;
-			echo "  <div class=\"general-field\"><b>Country:</b> " . $array["location_country"] ."</div>" ;
-			echo "  <div class=\"general-field\"><b>Full location:</b> <var>" . $array["location_full"] ."</var></div></div>" ;
+			echo ' <p><b>Community:</b> <var>' . $array["community_name"] .'</var></p>' ;
+			echo ' <p><b>City:</b> <var>' . $array["location_city"] .'</var></p>' ;
+			echo ' <p><b>Region:</b> <var>' . $array["location_region"] .'</var></p>' ;
+			echo ' <p><b>Country:</b> ' . $array["location_country"] .'</p>' ;
+			echo ' <p><b>Full location:</b> <var>' . $array["location_full"] .'</var></p>' ;
 
 
-			echo "  <div id=\"details-content\"><div class=\"general-field\"><b>Validation:</b> " . $array["last_validation_ts"] ."</var></div>" ;
-			echo "  <div class=\"general-field\"><b>Validator 1:</b> <var>" . $array["validator_1"] ."</var> </div>" ;
-			echo " <div class=\"general-field\"><b>Validator 2:</b> <var>" . $array["validator_2"] ."</var> </div>" ;
-			echo "  <div class=\"general-field\"><b>Validator 3:</b> <var>" . $array["validator_3"] ."</var> </div>" ;
-			echo "  <div class=\"general-field\"><b>Validation score avg.:</b> <var>" . $array["validation_score_avg"] ."</var></div>" ;
-			//echo " <p><b>Last ownership change:</b> <var>" . $array["last_ownership_change"] ."</var></p>" ;
-			echo "  <div class=\"general-field\"><b>Validation score final:</b> <var>" . $array["final_validation_score"] ."</var></div>" ;
-			echo " <div class=\"general-field\"><b>Authenticated weight:</b> <var> " . $array["weight_authenticated_kg"] ."&#8202;kg</var></div></div>" ;
+			echo ' <p><b>Validation:</b> ' . $array["last_validation_ts"] .'</var></p>' ;
+			echo ' <p><b>Validator 1:</b> <var>' . $array["validator_1"] .'</var> </p>' ;
+			echo ' <p><b>Validator 2:</b> <var>' . $array["validator_2"] .'</var> </p>' ;
+			echo ' <p><b>Validator 3:</b> <var>' . $array["validator_3"] .'</var> </div>' ;
+			echo ' <p><b>Validation score avg.:</b> <var>' . $array["validation_score_avg"] .'</var></p>' ;
+
+			echo ' <p><b>Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></div>' ;
+			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p></div>' ;
 			echo '<br><hr><br> <div class="page-paragraph">
 			<h3>The Brikchain</h3>
 		
