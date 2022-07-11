@@ -13,7 +13,7 @@
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading"><br>Brikchain Explorer</div>
-		<div class="splash-sub">Browse all the ecobricks & transactions of the Brikcoin manual blockchain.</div>
+		<div class="splash-sub">All the Briks, Blocks & Transactions.</div>
 	</div>
 	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	
 </div>
