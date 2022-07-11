@@ -23,7 +23,7 @@
 
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v1.6">
+<link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v1.7">
 
 	
 <!-- This calls GEA typography -->
