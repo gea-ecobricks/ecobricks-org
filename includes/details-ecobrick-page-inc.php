@@ -119,7 +119,7 @@ _END;?>
   width: 250px;
 	padding: 0px;
 	box-sizing: border-box;
-	margin: 0px 0px 0px 10px;
+	margin: 15px 0px 0px 10px;
 }
 }
 
@@ -216,44 +216,9 @@ margin-top: 31px;
 margin-bottom: 31px;}
 
 
-
-.transaction {
-	font-size: 1.1em;
-	font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  	color: #222222;
-  	line-height: 1.2;
-    font-weight: 400;
-	margin-top: 40px;
-}
-
-
-.main {
-	font-size: 1.2em;
-	font-family: 'Courier New,Courier,monospace';
-  	color: #222222;
-  	line-height: 1.2;
-	font-weight: 300;
-}
-
-.status {
-	font-size: 1.0em;
-	font-family: 'Courier New,Courier,monospace';
-  	color: #222222;
-  	line-height: 1.4;
-	font-weight: 300;
-}
-
-.general-field {
-	font-size: 1.0em;
-	font-family: 'Courier New,Courier,monospace';
-  	color: #222222;
-  	line-height: 1.3;
-	margin-top: 12px;
-	font-weight: 300;
-}
  
 p {
-	font-size: 1em;
+	font-size: 0.9em;
   	color: #222222;
   	line-height: 1.3;
 	margin-top: 12px;
