@@ -380,12 +380,12 @@ h6 a:hover {
 @media screen and (min-width: 700px) {
 	.side {
 	flex: 24%;
-	padding: 20px;
+	padding: 70px 20px 0px 20px;
 	box-sizing: border-box;
 	margin-top: -80px;
-	padding-top: 80px;
 	background: rgb(212,212,212);
 	background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);
+  border-radius: 20px;
 	}
 	}
 
