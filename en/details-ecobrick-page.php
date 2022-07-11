@@ -71,8 +71,8 @@ if ($result->num_rows > 0) {
 				<p>--------------------</p>
 				<p>BEGIN BRIK RECORD ></p>';
 
-			echo ' <b>Logged:</b> <var>' . $array["date_logged_ts"] .'</p>' ;
-			echo ' <p><b>Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</p>' ;
+			echo ' <p><b>Logged:</b> ' . $array["date_logged_ts"] .'</p>' ;
+			echo ' <p><b>Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</var></p>' ;
 			echo ' <p><b>Weight:</b> <var>' . $array["weight_g"] .'&#8202;g</var></p>' ;
 			echo ' <p><b>Density:</b> <var>' . $array["density"] .'&#8202;g/ml</var></p>' ;
 			echo ' <p><b>CO2e:</b><var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
@@ -81,9 +81,9 @@ if ($result->num_rows > 0) {
 			echo ' <p><b>Maker:</b> <var><i>' . $array["owner"] .'</i></var> </p>' ;
 			echo ' <p><b>Sequestration:</b> <var>' . $array["sequestration_type"].'</var></p>' ;
 			echo ' <p><b>Brand:</b> <var>' . $array["brand_name"] .'</var></p>' ;
-			echo ' <p><b>Bottom colour:</b> ' . $array["bottom_colour"] .'</var></p>' ;
+			echo ' <p><b>Bottom colour:</b> ' . $array["bottom_colour"] .'</p>' ;
 			
-			echo ' <p><b>Plastic source:</b>' . $array["plastic_from"] .'</var></p>' ;
+			echo ' <p><b>Plastic source:</b>' . $array["plastic_from"] .'</p>' ;
 
 			echo ' <p><b>Community:</b> <var>' . $array["community_name"] .'</var></p>' ;
 			echo ' <p><b>City:</b> <var>' . $array["location_city"] .'</var></p>' ;
@@ -203,7 +203,7 @@ echo '
 			<div id="side-module-desktop-mobile">
 				<img src="webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Brikcoins</h4>
-				<h5>When an ecobrick is authenticated it is recorded on the proof-of-value manual blockchain known as the Brikchain.  Brikcoins corresponding to the AES plastic are generated.</h5><br>
+				<h5>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
 

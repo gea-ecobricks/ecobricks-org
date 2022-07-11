@@ -18,7 +18,7 @@ _END;?>
 
 <link rel="preload" as="image" href="https://www.ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://www.ecobricks.org/webp/brikchain-450px.webp">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1">
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/brik-market-banner3.svg">
 <!--This loads CSS specific to this page
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/brikchain.css">-->
 
@@ -118,7 +118,7 @@ $(document).ready(function() {
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) bottom;
+		background: url(https://ecobricks.org/svgs/brik-market-banner3.svg) bottom;
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-color: #2A91DA;
 		background-repeat: no-repeat;
@@ -144,7 +144,7 @@ $(document).ready(function() {
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(https://ecobricks.org/svgs/brik-market-banner2.svg) bottom;
+		background: url(https://ecobricks.org/svgs/brik-market-banner3.svg) bottom;
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-repeat: no-repeat;
 		background-size: cover;
