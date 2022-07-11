@@ -34,7 +34,8 @@ migrated from GoBrik.com CSS
 
 
 #data-chunk {
-  padding: 15px;}
+  padding: 15px;
+  background: rgb(236, 239, 241);}
 
 
 .ecobrick-data p {
@@ -46,6 +47,7 @@ migrated from GoBrik.com CSS
 	font-weight: 300;
   background: aliceblue;
 padding: 10px;
+border-radius: 5px;
 }
 
 
