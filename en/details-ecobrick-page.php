@@ -153,10 +153,10 @@ echo '
 				<br><br>
 
 				
-				<div id="data-chunk">
+			
 			<div class="ecobrick-data">
 			<p>🚧 The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.
-				</p></div><div><br><br><br><br>
+				</p></div><br><br><br><br>
 				<div class="page-paragraph">
 				<h3>The Brikchain</h3>
 			
