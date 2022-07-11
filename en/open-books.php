@@ -31,14 +31,17 @@
 
 			<div class="lead-page-paragraph">
 				
-				<p>Search and explore all the GEA's revenues and expenses.</p>
+				<br><p>Search and explore all the GEA's revenues and expenses.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>One of the core operational <a href="principles">principles</a> of the <a href="about">Global Ecobrick Alliance as an Earth Enterprise</a> is full financial transparency. Here you will find our custom built Open Books: a live flow of our revenue and expenses. Use this page to review a full real time audit of our financials. Transactions that occur through GoBrik appear here automatically, while other GEA transactions are added monthly by our team.</p>.
+				<p>One of the core operational <a href="principles">principles</a> of the <a href="about">Global Ecobrick Alliance as an Earth Enterprise</a> is full financial transparency. Here you will find our custom built Open Books: a live flow of our revenue and expenses. Use this page to review a full real time audit of our financials. Transactions that occur through GoBrik appear here automatically, while other GEA transactions are added monthly by our team.</p>
 				
-				<p>Brikcoin transactions are recorded seperately on the <a href="brikchain">Brikchain Explorer</a>.
+				<p>Brikcoin transactions are recorded seperately on the <a href="brikchain">Brikchain Explorer</a></p>.
+
+				<p>Our ecological accounting is disclosed seperately in our <a href="regenreports">annual regenerative reports</a>.
+
 </p>
 			</div>
 		</div>
@@ -103,7 +106,7 @@
 	<br><br>
 		
 	<div class="page-paragraph">
-			<h4>Brikcoin Yearly Valuations</h4>
+			<h4>Yearly Totals</h4>
 			
 			<h6>Running and yearly brikchain totals.  Brikcoin pricing based on the Global Ecobrick Alliance's yearly costs for presiding over the blockhain as disclosed the GEA's yearly <a href="openbooks">Open Books</a> financial accounting</h6>
 			<div class="ecobrick-data"><p>🚧 Does not yet reflect official values, data still in migration</p></div>

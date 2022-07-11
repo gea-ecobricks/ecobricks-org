@@ -100,7 +100,7 @@ if ($result->num_rows > 0) {
 
 			echo ' <p><b>Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
 			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p>
-			<p>> END RECORD</p></div></div>' ;
+			<p>> END RECORD.</p></div></div>' ;
 
 			echo '<br><hr><br> <div class="page-paragraph">
 			<h3>The Brikchain</h3>
@@ -153,9 +153,10 @@ echo '
 				<br><br>
 
 				
-				<div class="ecobrick-data">
-				The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.
-				</div><br><br><br><br>
+				<div id="data-chunk">
+			<div class="ecobrick-data">
+			<p>🚧 The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.
+				</p></div><div><br><br><br><br>
 				<div class="page-paragraph">
 				<h3>The Brikchain</h3>
 			
