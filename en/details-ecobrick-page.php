@@ -34,7 +34,7 @@ if ($result->num_rows > 0) {
 
 
 
-			echo '		<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg of plastic has been secured out of the biosphere in '. $array["location_full"] .'</div>
+			echo '		<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg of plastic has been secured out of the biosphere in '. $array["location_full"] .'.</div>
 						</div>' ;
 			
 			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
@@ -61,13 +61,13 @@ if ($result->num_rows > 0) {
 			
 			echo '<div class="page-paragraph">
 			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p></div>
-			</div>
+			
 			<br><br>
 			<hr>
 			<br>
 			<div class="ecobrick-data">';
 
-			echo '<p><b>>>> Raw Brikchain Data Record</b<p><br>
+			echo '<p>>> Raw Brikchain Data Record</b<p><br>
 				<p>--------------------</p>';
 
 			echo ' <p><b>Logged:</b> <var>' . $array["date_logged_ts"] .'</p>' ;
@@ -82,7 +82,7 @@ if ($result->num_rows > 0) {
 			echo ' <p><b>Brand:</b> <var>' . $array["brand_name"] .'</var></p>' ;
 			echo ' <p><b>Bottom colour:</b> ' . $array["bottom_colour"] .'</var></p>' ;
 			
-			echo ' <p><b>Plastic source:</b>' . $array["plastic_from"] .'</var></div>' ;
+			echo ' <p><b>Plastic source:</b>' . $array["plastic_from"] .'</var></p>' ;
 
 			echo ' <p><b>Community:</b> <var>' . $array["community_name"] .'</var></p>' ;
 			echo ' <p><b>City:</b> <var>' . $array["location_city"] .'</var></p>' ;
@@ -94,11 +94,12 @@ if ($result->num_rows > 0) {
 			echo ' <p><b>Validation:</b> ' . $array["last_validation_ts"] .'</var></p>' ;
 			echo ' <p><b>Validator 1:</b> <var>' . $array["validator_1"] .'</var> </p>' ;
 			echo ' <p><b>Validator 2:</b> <var>' . $array["validator_2"] .'</var> </p>' ;
-			echo ' <p><b>Validator 3:</b> <var>' . $array["validator_3"] .'</var> </div>' ;
+			echo ' <p><b>Validator 3:</b> <var>' . $array["validator_3"] .'</var> </p>' ;
 			echo ' <p><b>Validation score avg.:</b> <var>' . $array["validation_score_avg"] .'</var></p>' ;
 
-			echo ' <p><b>Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></div>' ;
-			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p></div>' ;
+			echo ' <p><b>Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
+			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p></p>' ;
+
 			echo '<br><hr><br> <div class="page-paragraph">
 			<h3>The Brikchain</h3>
 		
