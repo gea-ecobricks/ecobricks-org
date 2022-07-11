@@ -262,13 +262,6 @@ p {
 
 b {font-weight: 500;}
 
-.ecobrick-data {
-	font-size: 1.0em;
-	font-family: 'Courier New', monospace;
-  	color: #222222;
-  	line-height: 1.3;
-	margin-top: 12px;
-	font-weight: 300;}
 
 
 

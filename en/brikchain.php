@@ -62,8 +62,9 @@
 
 	<div class="page-paragraph">	
 		<h4>Authenticated Ecobricks</h4>
-		<p>🚧 Not yet live, data still in migration</p>
+		
 		<h6>All the ecobricks authenticated and archived on chain.</h6>
+		<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
 
 	</div>
 
@@ -98,7 +99,7 @@
 	<div class="page-paragraph">
 		<h4>Brikcoin Blocks & Transactions</h4>
 		<h6>An overview of all brikcoins generated and exchanged.</h6>
-		<p>🚧 Not yet live, data still in migration</p>
+		<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
 	</div>
 
 	<div class="overflow">
@@ -134,8 +135,9 @@
 		
 	<div class="page-paragraph">
 			<h4>Brikcoin Yearly Valuations</h4>
-			<p>🚧 Does not yet reflect official values, data still in migration</p>
+			
 			<h6>Running and yearly brikchain totals.  Brikcoin pricing based on the Global Ecobrick Alliance's yearly costs for presiding over the blockhain as disclosed the GEA's yearly <a href="openbooks">Open Books</a> financial accounting</h6>
+			<div class="ecobrick-data"><p>🚧 Does not yet reflect official values, data still in migration</p></div>
 	</div>		
 			
 	<div class="overflow">

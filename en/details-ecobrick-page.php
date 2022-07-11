@@ -45,31 +45,30 @@ if ($result->num_rows > 0) {
 			border-style: solid;" alt="Ecobrick Serial '. $array["serial_no"] .' "></div>	
 			</div>';
 
-			
-
 			echo '<div id="splash-bar"></div>';
 
-			echo '<a name="top"></a><div id="main-content">
+			echo '<a name="top"></a>
+			<div id="main-content">
 			<div class="row">
 				<div class="main">';
 
 			echo '<div class="lead-page-paragraph">
-			<p>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</p></div>';
+			<br><br><b><p>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</p></b></div>';
 
 			echo '<div class="page-paragraph">
-			<p>The ecobrick has a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue. It is '. $array["owner"] .' bolante’s number 1 ecobrick. Based in '. $array["location_region"] .', their community '. $array["community_name"] .', is working hard to keep plastic out of the biosphere in '. $array["location_country"] .'.</p>';
+			<p>The ecobrick has a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue. It is '. $array["owner"] .' bolante’s number 1 ecobrick. Based in '. $array["location_region"] .', their community '. $array["community_name"] .', is working hard to keep plastic out of the biosphere in '. $array["location_country"] .'.</p></div>';
 			
 			
-			echo '<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of 28.00. The ecobrick’s authentication generated 6.00ß. The ecobrick was ranked with the score of 46.88.</p>
+			echo '<div class="page-paragraph">
+			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p>
 			</div>
 			<br><br>
 			<hr>
 			<br>
 			<div class="ecobrick-data">';
 
-	
+			echo '<p><b>Raw Brikchain Data Record</b<p>';
 
-		
 			echo ' <p><b>Logged:</b> <var>' . $array["date_logged_ts"] .'</p>' ;
 			echo ' <p><b>Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</p>' ;
 			echo ' <p><b>Weight:</b> <var>' . $array["weight_g"] .'&#8202;g</var></p>' ;
@@ -148,9 +147,11 @@ echo '
 			<div class="main">
 				<br><br>
 
-				<div class="page-paragraph">
+				
+				<div class="ecobrick-data">
 				The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.
-				<br><br><br><br>
+				</div><br><br><br><br>
+				<div class="page-paragraph">
 				<h3>The Brikchain</h3>
 			
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
@@ -195,7 +196,7 @@ echo '
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/2-brikcoins-450px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
+				<img src="webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Brikcoins</h4>
 				<h5>When an ecobrick is authenticated it is recorded on the proof-of-value manual blockchain known as the Brikchain.  Brikcoins corresponding to the AES plastic are generated.</h5><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
