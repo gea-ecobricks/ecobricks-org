@@ -53,7 +53,7 @@ if ($result->num_rows > 0) {
 				<div class="main">';
 
 			echo '<div class="lead-page-paragraph">
-			<br><br><b><p>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</p></b></div>';
+			<br><b><p>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</p></b></div>';
 
 			echo '<div class="page-paragraph">
 			<p>The ecobrick has a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue. It is '. $array["owner"] .' bolante’s number 1 ecobrick. Based in '. $array["location_region"] .', their community '. $array["community_name"] .', is working hard to keep plastic out of the biosphere in '. $array["location_country"] .'.</p></div>';
@@ -63,14 +63,15 @@ if ($result->num_rows > 0) {
 			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p></div>
 			
 			<br><br>
-			<hr>
-			<br>
+			
+			<div id="data-chunk">
 			<div class="ecobrick-data">';
 
 			echo '<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</b<p><br>
-				<p>--------------------</p>';
+				<p>--------------------</p>
+				<p>BEGIN BRIK RECORD ></p>';
 
-			echo ' <p><b>Logged:</b> <var>' . $array["date_logged_ts"] .'</p>' ;
+			echo ' <b>Logged:</b> <var>' . $array["date_logged_ts"] .'</p>' ;
 			echo ' <p><b>Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</p>' ;
 			echo ' <p><b>Weight:</b> <var>' . $array["weight_g"] .'&#8202;g</var></p>' ;
 			echo ' <p><b>Density:</b> <var>' . $array["density"] .'&#8202;g/ml</var></p>' ;
@@ -98,7 +99,8 @@ if ($result->num_rows > 0) {
 			echo ' <p><b>Validation score avg.:</b> <var>' . $array["validation_score_avg"] .'</var></p>' ;
 
 			echo ' <p><b>Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
-			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p></div>' ;
+			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p>
+			<p>> END RECORD</p></div>' ;
 
 			echo '<br><hr><br> <div class="page-paragraph">
 			<h3>The Brikchain</h3>
@@ -109,6 +111,7 @@ if ($result->num_rows > 0) {
 			<br><br>
 			<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
 			<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+		   </div>
 		   </div>
 		   </div>';  
 		
