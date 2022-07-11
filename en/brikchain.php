@@ -31,7 +31,7 @@
 
 			<div class="lead-page-paragraph">
 				
-				<p><b>Search and explore the full chain of authenticated ecobricks, blocks and transactions that underly the brikcoin manual blockchain.</b></p>
+				<p>Search and explore the full chain of authenticated ecobricks, blocks and transactions that underly the brikcoin manual blockchain.</p>
 			</div>
 
 			<div class="page-paragraph">
@@ -42,7 +42,6 @@
 				
 				<p>Use the tools below to search by either transition or by ecobrick.</p>
 			</div>
-
 		</div>
 		
 

@@ -32,6 +32,11 @@ migrated from GoBrik.com CSS
 /* -------------------------------------------------------------------------- */
 
 
+
+#data-chunk {
+  padding: 15px;}
+
+
 .ecobrick-data p {
 	font-size: 0.9em;
 	font-family: 'Courier New', monospace !important;
@@ -42,9 +47,6 @@ migrated from GoBrik.com CSS
   background: aliceblue;
 padding: 10px;
 }
-
-#data-chunk {
-  padding: 15px;}
 
 
 @media screen and (min-width: 769px) { 
@@ -1258,7 +1260,7 @@ border-left-width: 1px;
 
 @media screen and (max-width: 700px) {
 	.lead-page-paragraph {
-      font-size: 1.25em;
+      font-size: 1.35em;
       line-height: 1.4;
       margin: 35px 6% 25px 6%;
   }

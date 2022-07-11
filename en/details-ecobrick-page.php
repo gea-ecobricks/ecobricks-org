@@ -62,7 +62,7 @@ if ($result->num_rows > 0) {
 			echo '<div class="page-paragraph">
 			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p></div>
 			
-			<br><br>
+		
 			
 			<div id="data-chunk">
 			<div class="ecobrick-data">';
