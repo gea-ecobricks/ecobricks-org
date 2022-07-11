@@ -53,14 +53,14 @@ if ($result->num_rows > 0) {
 				<div class="main">';
 
 			echo '<div class="lead-page-paragraph">
-			<br><b><p>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</p></b></div>';
+			<b><p>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</p></b></div>';
 
 			echo '<div class="page-paragraph">
-			<p>The ecobrick has a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue. It is '. $array["owner"] .' bolante’s number 1 ecobrick. Based in '. $array["location_region"] .', their community '. $array["community_name"] .', is working hard to keep plastic out of the biosphere in '. $array["location_country"] .'.</p></div>';
+			<p>The ecobrick has a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue. It is '. $array["owner"] .' bolante’s number 1 ecobrick. Based in '. $array["location_region"] .', their community '. $array["community_name"] .', is working hard to keep plastic out of the biosphere in '. $array["location_country"] .'.</p>';
 			
 			
-			echo '<div class="page-paragraph">
-			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p></div>
+			echo '
+			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p>
 			
 		
 			
@@ -100,7 +100,7 @@ if ($result->num_rows > 0) {
 
 			echo ' <p><b>Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
 			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p>
-			<p>> END RECORD</p></div>' ;
+			<p>> END RECORD</p></div></div>' ;
 
 			echo '<br><hr><br> <div class="page-paragraph">
 			<h3>The Brikchain</h3>
