@@ -62,16 +62,57 @@
 
 
 	<div class="page-paragraph">	
-		<h4>Revenues and Expenses</h4>
+		<h4>Revenues</h4>
 		
-		<h6>All the GEAs transactions</h6>
+		<h6>All the GEA Revenue transactions</h6>
 		<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
 
 	</div>
 
 
     <div class="overflow">
-			<table id="cash_tran" class="display" style="width:100%">
+			<table id="revenues" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Sender</th>
+                <th>Receiver</th>
+				<th>Tran Name</th>
+				<th>Amount USD</th>
+				<th>Final Amt</th>
+                <th>Type</th>
+				
+				
+            </tr>
+        </thead>
+        <tfoot>
+            <tr> 
+				<th>ID</th>
+                <th>Date</th>
+                <th>Sender</th>
+                <th>Receiver</th>
+				<th>Tran Name</th>
+				<th>Amount USD</th>
+				<th>Final Amt</th>
+                <th>Type</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+
+<div class="page-paragraph">	
+		<h4>Expenses</h4>
+		
+		<h6>All the GEA Revenue transactions</h6>
+		<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
+
+	</div>
+
+
+    <div class="overflow">
+			<table id="expenses" class="display" style="width:100%">
         <thead>
             <tr>
                 <th>ID</th>
