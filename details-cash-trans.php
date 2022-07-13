@@ -225,6 +225,24 @@ img {padding: 8%;}
 	margin-left:-5%;}
 
 
+#data-chunk {
+  padding: 15px;
+  background: #e6f3ff;}
+
+
+.ecobrick-data p {
+	font-size: 0.9em;
+	font-family: 'Courier New', monospace !important;
+  	color: #222222;
+  	line-height: 1.3;
+	margin-top: 12px;
+	font-weight: 300;
+  background: aliceblue;
+padding: 10px;
+border-radius: 5px;
+}
+
+
 </style>
  
 </head>
@@ -261,7 +279,7 @@ img {padding: 8%;}
 
                     echo "<div id=\"main-details\"><div class=\"date\"> Transaction ID: " . $array["cash_tran_id"] ."</div>";
 
-					if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] != '' ) {  
+					if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] > '0' ) {  
 						echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%"/></div>';
 					}
 
@@ -280,13 +298,13 @@ img {padding: 8%;}
 
 					echo '<div class="ecobrick-data">';
 
-                    echo " <div id=\"details-content\"><div class=\"general-field\"><b>Record ID:</b> <var>" . $array["knack_record_id"] ."</var> </div>" ;
+                    echo " <b>Record ID:</b> <var>" . $array["knack_record_id"] ."</var>" ;
 
-					echo " <div class=\"general-field\"><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></div>" ;
+					echo " <b>Transaction name:</b> " . $array["tran_name_desc"] ."</var>" ;
 
-					echo " <div id=\"details-content\"><div class=\"general-field\"><b>Native ccy amt</b> <var>" . $array["native_ccy_amt"] ."</var> </div>" ;
+					echo " <b>Native ccy amt</b> <var>" . $array["native_ccy_amt"] ."</var>" ;
 
-                    echo " <div class=\"general-field\"><b>Currency code:</b><var> " . $array["currency_code"] ."</var></div>" ;
+                    echo " <b>Currency code:</b><var> " . $array["currency_code"] ."</var>" ;
 
 					echo " <div class=\"general-field\"><b>Currency code:</b><var> " . $array["native_ccy_amt_display"] ."</var></div>" ;
 
@@ -309,7 +327,7 @@ img {padding: 8%;}
 
                     echo " <div class=\"general-field\"><b>Receiving GEA acct:</b> " . $array["receiving_gea_acct"] ."</div>" ;
 
-					echo " <div id=\"details-content\"><div class=\"general-field\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
+					echo " <div class=\"general-field\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
 
                     echo " <div class=\"general-field\"><b>Receiver for display:</b> <var>" . $array["receiver_for_display"] ."</var></div>" ;
 
