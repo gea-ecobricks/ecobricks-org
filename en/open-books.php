@@ -3,7 +3,7 @@
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
 
 
-<?php require_once ("includes/brikchain-inc.php");?>
+<?php require_once ("includes/open-books-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>
@@ -80,7 +80,7 @@
                 <th>Receiver</th>
 				<th>Tran Name</th>
 				<th>Amount USD</th>
-				<th>Native Amt</th>
+				<th>Final Amt</th>
                 <th>Type</th>
 				
 				
@@ -88,13 +88,13 @@
         </thead>
         <tfoot>
             <tr> 
-		    <th>ID</th>
+				<th>ID</th>
                 <th>Date</th>
                 <th>Sender</th>
                 <th>Receiver</th>
-				<th>Description</th>
-				<th>Amount</th>
-				<th>Currency</th>
+				<th>Tran Name</th>
+				<th>Amount USD</th>
+				<th>Final Amt</th>
                 <th>Type</th>
             </tr>
         </tfoot>

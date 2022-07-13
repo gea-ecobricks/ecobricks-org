@@ -54,7 +54,7 @@ $columns = array(
         'db'        => 'usd_amount',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
-            return '<var>'.number_format($d,2).'</var>';
+            return '<var>'.number_format($d,2).'&#8202;$ USD</var>';
         }
     ),
     array(
