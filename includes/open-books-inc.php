@@ -78,10 +78,23 @@ $(document).ready(function() {
 <script>
 
 $(document).ready(function() {
-    $('#cash_tran').DataTable( {
+    $('#revenues').DataTable( {
 		"processing": true,
         "serverSide": true,
-		"ajax": "ajax-cash-trans.php"
+		"ajax": "ajax-revenues-trans.php"
+
+    } );
+} );
+
+</script>
+
+<script>
+
+$(document).ready(function() {
+    $('#expenses').DataTable( {
+		"processing": true,
+        "serverSide": true,
+		"ajax": "ajax-espenses-trans.php"
 
     } );
 } );
