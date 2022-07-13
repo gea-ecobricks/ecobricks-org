@@ -21,7 +21,7 @@
  */
  
 // DB table to use
-$table = 'tb_cash_transaction';
+$table = 'vw_cash_tran_desc';
  
 // Table's primary key
 $primaryKey = 'cash_tran_id'; 
@@ -51,14 +51,14 @@ $columns = array(
     array( 'db' => 'receiver_for_display',     'dt' => 3 ),
     array( 'db' => 'tran_name_desc', 'dt' => 4 ),
     array(
-        'db'        => 'native_ccy_amt',
+        'db'        => 'usd_amount',
         'dt'        => 5,
         'formatter' => function( $d, $row ) {
             return '<var>'.number_format($d,2).'</var>';
         }
     ),
     array(
-        'db'        => 'currency_code',
+        'db'        => 'native_ccy_amt_display',
         'dt'        => 6,
     ),
 
