@@ -78,16 +78,16 @@
                 <th>Date</th>
                 <th>Sender</th>
                 <th>Receiver</th>
-				<th>Description</th>
-				<th>Amount</th>
-				<th>Currency</th>
+				<th>Tran Name</th>
+				<th>Amount USD</th>
+				<th>Native Amt</th>
                 <th>Type</th>
 				
 				
             </tr>
         </thead>
         <tfoot>
-            <tr>
+            <tr> 
 		    <th>ID</th>
                 <th>Date</th>
                 <th>Sender</th>
