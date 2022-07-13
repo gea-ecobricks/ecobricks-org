@@ -14,6 +14,7 @@ _END;?>
 <HEAD> 
 
 <META NAME="robots" CONTENT="noindex">
+<title>OpenBooks Accounting | Ecobricks.org</title>
 
 
 <?php
@@ -260,12 +261,14 @@ img {padding: 8%;}
 
                     echo "<div id=\"main-details\"><div class=\"date\"> Transaction ID: " . $array["cash_tran_id"] ."</div>";
 
-                    if ( isset($array["paymt_record_url"]) ) {  
-                        echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%"/></div>';
-                    }
+					if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] != '' ) {  
+						echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%"/></div>';
+					}
 
                     echo " <div class=\"serial\"><b>Amount:</b> <var>" . $array["native_ccy_amt"] ." " ;
                     echo " " . $array["currency_code"] ."</var></div>" ;
+
+					echo " <div class=\"general-field\">" . $array["tran_name_desc"] ."</var></div>" ;
 
                     
                     echo " <div class=\"main\"><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
@@ -275,25 +278,81 @@ img {padding: 8%;}
                     echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div></div>" ;
                     
 
-                    echo " <div id=\"details-content\"><div class=\"general-field\"><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Native ccy amt</b> <var>" . $array["native_ccy_amt"] ."</var> </div>" ;
-                    echo " <div class=\"general-field\"><b>Currency code:</b><var> " . $array["currency_code"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Exchange ratio</b> <var>" . $array["exchange_ratio"] ."</var> </div>" ;
-                    echo " <div class=\"general-field\"><b>Total product cost incl shipping:</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </div>" ;
-                    echo " <div class=\"general-field\"><b>Product</b> <var>" . $array["product"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Total product cost+ccy display:</b> <var> " . $array["total_product_cost_+ccy_display"] ."&#8202;kg</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Receiving GEA acct:</b> " . $array["location_country"] ."</div>" ;
-                    echo " <div class=\"general-field\"><b>Receiver for display:</b> <var>" . $array["receiver_for_display"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Purchase method:</b> <var>" . $array["purchase_method"] ."</var></div></div>" ;
+					echo '<div class="ecobrick-data">';
 
-                    
-                    echo " <div id=\"details-content\"><div class=\"general-field\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
-                    echo " <div class=\"general-field\"><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></div>" ;
-                    echo " <div class=\"general-field\"><b>Transaction date:</b> " . $array["transaction_date_dt"] ."</var></div>" ;
+                    echo " <div id=\"details-content\"><div class=\"general-field\"><b>Record ID:</b> <var>" . $array["knack_record_id"] ."</var> </div>" ;
+
+					echo " <div class=\"general-field\"><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></div>" ;
+
+					echo " <div id=\"details-content\"><div class=\"general-field\"><b>Native ccy amt</b> <var>" . $array["native_ccy_amt"] ."</var> </div>" ;
+
+                    echo " <div class=\"general-field\"><b>Currency code:</b><var> " . $array["currency_code"] ."</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>Currency code:</b><var> " . $array["native_ccy_amt_display"] ."</var></div>" ;
+
+                    echo " <div class=\"general-field\"><b>Exchange ratio</b> <var>" . $array["exchange_ratio"] ."</var> </div>" ;
+
+					echo " <div class=\"general-field\"><b>USD Amount</b> <var>" . $array["usd_amount "] ."</var> </div>" ;
+
+                    echo " <div class=\"general-field\"><b>Total product cost incl shipping:</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </div>" ;
+
+                    echo " <div class=\"general-field\"><b>Product</b> <var>" . $array["product"] ."</var></div>" ;
+
+                    echo " <div class=\"general-field\"><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>Transaction Date:</b> <var> " . $array["transaction_date_dt"] ."&#8202;kg</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>Shipping Cost:</b> <var> " . $array["shipping_cost"] ."&#8202;kg</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>Total Product Cost:</b> <var> " . $array["total_product_cost_+ccy_display"] ."&#8202;kg</var></div>" ; 	
+;
+
+                    echo " <div class=\"general-field\"><b>Receiving GEA acct:</b> " . $array["receiving_gea_acct"] ."</div>" ;
+
+					echo " <div id=\"details-content\"><div class=\"general-field\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
+
+                    echo " <div class=\"general-field\"><b>Receiver for display:</b> <var>" . $array["receiver_for_display"] ."</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>Receiving GEA account:</b> <var> " . $array["receiver_gea_account"] ."&#8202;kg</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>Vendor:</b> <var> " . $array["expense_vendor"] ."&#8202;kg</var></div>" ;
+
+                    echo " <div class=\"general-field\"><b>Purchase method:</b> <var>" . $array["purchase_method"] ."</var></div>" ;
+
+
+					echo " <div class=\"general-field\"><b>Reocurring Period:</b> <var>" . $array["recurring_trans_period"] ."</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>Expense Accounting Type:</b> <var>" . $array["expense_accounting_type"] ."</var></div>" ;
+					
+					echo " <div class=\"general-field\"><b>revenue_accounting_type:</b> <var>" . $array["revenue_accounting_type"] ."</var></div>" ;
+					
+					echo " <div class=\"general-field\"><b>tran_processor:</b> <var>" . $array["tran_processor"] ."</var></div>" ;
+					
+					echo " <div class=\"general-field\"><b>aes_to_usd_rate:</b> <var>" . $array["aes_to_usd_rate"] ."</var></div>" ;
+					
+					echo " <div class=\"general-field\"><b>aes_plastic_offset_purchase_kg:</b> <var>" . $array["aes_plastic_offset_purchase_kg"] ."</var></div>" ;
+					
+					echo " <div class=\"general-field\"><b>usd_payment_for_aes:</b> <var>" . $array["usd_payment_for_aes"] ."</var></div>" ;
+					
+					echo " <div class=\"general-field\"><b>gbp_payment_for_aes:</b> <var>" . $array["gbp_payment_for_aes"] ."</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>native_conversion_of_aes:</b> <var>" . $array["native_conversion_of_aes"] ."</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>brk_cost_of_aes_display:</b> <var>" . $array["brk_cost_of_aes_display"] ."</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>credited_catalyst:</b> <var>" . $array["credited_catalyst"] ."</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>brikcoins_purchased_display:</b> <var>" . $array["brikcoins_purchased_display"] ."</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>usd_paid_for_brk_+ccy_display:</b> <var>" . $array["usd_paid_for_brk_+ccy_display"] ."</var></div>" ;
+
+					echo " <div class=\"general-field\"><b>connected_brk_trans:</b> <var>" . $array["connected_brk_trans"] ."</var></div>" ;
+
+                    echo " <div class=\"general-field\"><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></div></div>" ;
+					
                 }
             } else {
-                echo "No results found for the specified Cash Transaction ID number";
+                echo '<div class="ecobrick-data">No results found for the specified Cash Transaction ID number.</div>';
             }
             $conn->close();
 
