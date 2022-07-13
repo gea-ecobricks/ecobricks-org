@@ -38,8 +38,8 @@ deployment:
   - /bin/cp details-ecobrick.php $DEPLOYPATH
   - /bin/cp details-cash-trans.php $DEPLOYPATH
   - /bin/cp details-brk-trans.php $DEPLOYPATH
-  - /bin/cp details-revenues-trans.php $DEPLOYPATH
-  - /bin/cp details-expenses-trans.php $DEPLOYPATH
+  - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
+  - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -78,8 +78,8 @@ deployment:
   - /bin/cp details-ecobrick.php $DEPLOYPATH
   - /bin/cp details-cash-trans.php $DEPLOYPATH
   - /bin/cp details-brk-trans.php $DEPLOYPATH
-  - /bin/cp details-revenues-trans.php $DEPLOYPATH
-  - /bin/cp details-expenses-trans.php $DEPLOYPATH
+  - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
+  - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -117,8 +117,8 @@ deployment:
   - /bin/cp details-ecobrick.php $DEPLOYPATH
   - /bin/cp details-cash-trans.php $DEPLOYPATH
   - /bin/cp details-brk-trans.php $DEPLOYPATH
-  - /bin/cp details-revenues-trans.php $DEPLOYPATH
-  - /bin/cp details-expenses-trans.php $DEPLOYPATH
+  - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
+  - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -156,8 +156,8 @@ deployment:
   - /bin/cp details-ecobrick.php $DEPLOYPATH
   - /bin/cp details-cash-trans.php $DEPLOYPATH
   - /bin/cp details-brk-trans.php $DEPLOYPATH
-  - /bin/cp details-revenues-trans.php $DEPLOYPATH
-  - /bin/cp details-expenses-trans.php $DEPLOYPATH
+  - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
+  - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -195,8 +195,8 @@ deployment:
   - /bin/cp details-ecobrick.php $DEPLOYPATH
   - /bin/cp details-cash-trans.php $DEPLOYPATH
   - /bin/cp details-brk-trans.php $DEPLOYPATH
-  - /bin/cp details-revenues-trans.php $DEPLOYPATH
-  - /bin/cp details-expenses-trans.php $DEPLOYPATH
+  - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
+  - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
