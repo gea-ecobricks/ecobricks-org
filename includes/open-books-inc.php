@@ -94,7 +94,7 @@ $(document).ready(function() {
     $('#expenses').DataTable( {
 		"processing": true,
         "serverSide": true,
-		"ajax": "ajax-espenses-trans.php"
+		"ajax": "ajax-expenses-trans.php"
 
     } );
 } );
