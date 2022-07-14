@@ -38,9 +38,9 @@
 				  
 				<p>One of the core operational <a href="principles">principles</a> of the <a href="about">Global Ecobrick Alliance as an Earth Enterprise</a> is full financial transparency of our not-for-profit for-Earth management of our revenues and expenses. Here you will find our custom built Open Books: a live flow of our revenue and expenses. Use this page to review a full real time audit of our financials. Transactions that occur through GoBrik appear here automatically, while other GEA transactions are added monthly by our team.</p>
 				
-				<p>Brikcoin transactions are recorded seperately on the <a href="brikchain">Brikchain Explorer</a></p>.
+				<p>ℹ️ Brikcoin transactions are recorded seperately on the <a href="brikchain">Brikchain Explorer</a>.</p>
 
-				<p>Our ecological accounting is disclosed seperately in our <a href="regenreports">annual regenerative reports</a>.
+				<p>ℹ️ Our ecological accounting is disclosed seperately in our <a href="regenreports">annual regenerative reports</a>.
 
 </p>
 			</div>
