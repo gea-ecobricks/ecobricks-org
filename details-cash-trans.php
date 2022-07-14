@@ -307,7 +307,7 @@ strong {
 					echo '<div class="ecobrick-data">
 					
 					<p><b>>> Raw Brikchain Data Record</b><br>
-					---------------------------</p>';
+					----------------------------------------------------</p>';
 
                     echo " <p><strong>Record ID:</strong> <var>" . $array["knack_record_id"] ."</var></p>" ;
 
