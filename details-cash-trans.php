@@ -236,14 +236,14 @@ img {padding: 8%;}
   	color: #222222;
   	line-height: 1.3;
 	margin-top: 12px;
-	font-weight: 300;
-  background: aliceblue;
-padding: 10px;
-border-radius: 5px;
+	/*font-weight: 300;*/
+  	background: aliceblue;
+	padding: 10px;
+	border-radius: 5px;
 }
 
 b {
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 
@@ -291,9 +291,9 @@ b {
                     echo " <div class=\"serial\"><b>Amount:</b> <var>" . $array["native_ccy_amt"] ." " ;
                     echo " " . $array["currency_code"] ."</var></div>" ;
 
-					echo " <div class=\"general-field\">" . $array["tran_name_desc"] ."</var></div>" ;
+					echo " <div class=\"general-field\">" . $array["tran_name_desc"] ."</var><br></div>" ;
 
-                    echo " <div class=\"main\"><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
+                    echo " <div class=\"main\"><b>Sender:</b> <var>" . $array["sender_for_display"] . "</var></div>" ;
                     
                     echo " <div class=\"main\"><b>Sent:</b> <var>" . $array["datetime_sent_ts"] ."</var></div>" ;
                 
@@ -302,7 +302,7 @@ b {
 
 					echo '<div class="ecobrick-data">
 					
-					<p><b>>> Raw Brikchain Data Record,/b></p>
+					<p><b>>> Raw Brikchain Data Record</b></p>
 					<p>---------------------------</p>';
 
                     echo " <p><b>Record ID:</b> <var>" . $array["knack_record_id"] ."</var></p>" ;
