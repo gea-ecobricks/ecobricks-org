@@ -21,7 +21,7 @@
  */
  
 // DB table to use
-$table = 'vw_tot_exp_by_year';
+$table = 'vw_cash_tran_desc';
  
 // Table's primary key
 $primaryKey = 'cash_tran_id'; 
