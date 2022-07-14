@@ -246,6 +246,10 @@ b {
   font-weight: 500 !important;
 }
 
+strong {
+  font-weight: 500 !important;
+}
+
 
 </style>
  
@@ -302,10 +306,10 @@ b {
 
 					echo '<div class="ecobrick-data">
 					
-					<p><b>>> Raw Brikchain Data Record</b></p>
-					<p>---------------------------</p>';
+					<p><b>>> Raw Brikchain Data Record</b><br>
+					---------------------------</p>';
 
-                    echo " <p><b>Record ID:</b> <var>" . $array["knack_record_id"] ."</var></p>" ;
+                    echo " <p><strong>Record ID:</strong> <var>" . $array["knack_record_id"] ."</var></p>" ;
 
 					echo " <p><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></p>" ;
 
