@@ -230,7 +230,7 @@ img {padding: 8%;}
   background: #e6f3ff;}
 
 
-.ecobrick-data {
+.ecobrick-data p{
 	font-size: 0.9em;
 	font-family: 'Courier New', monospace !important;
   	color: #222222;
@@ -277,7 +277,7 @@ border-radius: 5px;
                 //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row
                 while($array = $result->fetch_assoc()) {
 
-                    echo '<div id="ecobrick-data">' ;
+                    
 					echo "<div id=\"main-details\"><div class=\"date\"> Transaction ID: " . $array["cash_tran_id"] ."</div>";
 
 					if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] != 'N/A' ) {  
@@ -293,20 +293,20 @@ border-radius: 5px;
                     
                     echo " <div class=\"main\"><b>Sent:</b> <var>" . $array["datetime_sent_ts"] ."</var></div>" ;
                 
-                    echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div></div></div>" ;
+                    echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div></div>" ;
                     
 
 					echo '<div class="ecobrick-data">';
 
-                    echo " <p><b>Record ID:</b> <var>" . $array["knack_record_id"] ."</var>" ;
+                    echo " <p><b>Record ID:</b> <var>" . $array["knack_record_id"] ."</var></p>" ;
 
-					echo " <b>Transaction name:</b> " . $array["tran_name_desc"] ."</var>" ;
+					echo " <p><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></p>" ;
 
-					echo " <b>Native ccy amt</b> <var>" . $array["native_ccy_amt"] ."</var>" ;
+					echo " <p><b>Native ccy amt</b> <var>" . $array["native_ccy_amt"] ."</var></p>" ;
 
-                    echo " <b>Currency code:</b><var> " . $array["currency_code"] ."</var>" ;
+                    echo " <p><b>Currency code:</b><var> " . $array["currency_code"] ."</var></p>" ;
 
-					echo " <div class=\"general-field\"><b>Native Amount:</b><var> " . $array["native_ccy_amt_display"] ."</var></div>" ;
+					echo " </div><div class=\"general-field\"><b>Native Amount:</b><var> " . $array["native_ccy_amt_display"] ."</var></div>" ;
 
                     echo " <div class=\"general-field\"><b>Exchange ratio</b> <var>" . $array["exchange_ratio"] ."</var> </div>" ;
 
@@ -329,9 +329,13 @@ border-radius: 5px;
 
 					echo " <div class=\"general-field\"><b>Transaction Date:</b> <var> " . $array["transaction_date_dt"] ."&#8202;kg</var></div>" ;
 
-					echo " <div class=\"general-field\"><b>Shipping Cost:</b> <var> " . $array["shipping_cost"] ."&#8202;kg</var></div>" ;
-
+					if ( isset($array["shipping_cost"]) && $array["shipping_cost"] != '' ) {
+						echo " <div class=\"general-field\"><b>Shipping Cost:</b> <var> " . $array["shipping_cost"] ."&#8202;kg</var></div>" ;
+					}
+					
+					if ( isset($array["total_product_cost_+ccy_display"]) && $array["total_product_cost_+ccy_display"] != '' ) {
 					echo " <div class=\"general-field\"><b>Total Product Cost:</b> <var> " . $array["total_product_cost_+ccy_display"] ."&#8202;kg</var></div>" ; 	
+					}
 ;
 
                     echo " <div class=\"general-field\"><b>Receiving GEA acct:</b> " . $array["receiving_gea_acct"] ."</div>" ;
