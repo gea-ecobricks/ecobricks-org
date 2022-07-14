@@ -311,6 +311,11 @@ strong {
 
                     echo " <p><strong>Record ID:</strong> <var>" . $array["knack_record_id"] ."</var></p>" ;
 
+
+					echo " <p><b>Blockchain Transaction ID:</b> " . $array["cash_tran_id"] . " </p>" ;
+
+					echo " <p><b>Transaction Date:</b> <var> " . $array["transaction_date_dt"] ."</var></p>" ;
+
 					echo " <p><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></p>" ;
 
 					echo " <p><b>Native Amount:</b> <var>" . $array["native_ccy_amt"] ."</var></p>" ;
@@ -324,40 +329,41 @@ strong {
 					echo " <p><b>USD Amount:</b> <var>" . $array["usd_amount"] ."</var> </p>" ;
 
                     
-					echo " <p><b>Blockchain Transaction ID:</b> " . $array["cash_tran_id"] . " </p>" ;
 					
 					if ( isset($array["total_product_cost_incl_shipping"]) && $array["total_product_cost_incl_shipping"] != '' ) { 
 					echo " <p><b>Total product cost (incl. shipping):</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </p>" ;
 					}
 
-					if ( isset($array["product"]) && $array["product"] != '' ) { 
-                    echo " <p><b>Product</b> <var>" . $array["product"] ."</var></p>" ;
+					if ( isset($array["product"]) && $array["product"] != '0' ) { 
+                    echo " <p><b>Product Price</b> <var>" . $array["product"] ."</var></p>" ;
 					}
 
                     if ( isset($array["product_cost"]) && $array["product_cost"] != '' ) { 
 						echo " <p><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></p>" ;
 					}
 
-					echo " <p><b>Transaction Date:</b> <var> " . $array["transaction_date_dt"] ."&#8202;kg</var></p>" ;
+					
 
 					if ( isset($array["shipping_cost"]) && $array["shipping_cost"] != '' ) {
-						echo " <p><b>Shipping Cost:</b> <var> " . $array["shipping_cost"] ."&#8202;kg</var></p>" ;
+						echo " <p><b>Shipping Cost:</b> <var> " . $array["shipping_cost"] ."</var></p>" ;
 					}
 					
 					if ( isset($array["total_product_cost_+ccy_display"]) && $array["total_product_cost_+ccy_display"] != '' ) {
-					echo " <p><b>Total Product Cost:</b> <var> " . $array["total_product_cost_+ccy_display"] ."&#8202;kg</var></p>" ; 	
+					echo " <p><b>Total Product Cost:</b> <var> " . $array["total_product_cost_+ccy_display"] ."</var></p>" ; 	
 					}
 ;
 
-                    echo " <p><b>Receiving GEA acct:</b> " . $array["receiving_gea_acct"] ."</p>" ;
-
 					echo " <p><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </p>" ;
 
-                    echo " <p><b>Receiver for display:</b> <var>" . $array["receiver_for_display"] ."</var></p>" ;
+                    echo " <p><b>Receiver (for display):</b> <var>" . $array["receiver_for_display"] ."</var></p>" ;
 
-					echo " <p><b>Receiving GEA account:</b> <var> " . $array["receiver_gea_account"] ."&#8202;kg</var></p>" ;
+					echo " <p><b>Receiving GEA account:</b> <var> " . $array["receiver_gea_account"] ."</var></p>" ;
 
-					echo " <p><b>Vendor:</b> <var> " . $array["expense_vendor"] ."&#8202;kg</var></p>" ;
+
+
+                    echo " <p><b>Receiving GEA acct:</b> " . $array["receiving_gea_acct"] ."</p>" ;
+
+					echo " <p><b>Vendor:</b> <var> " . $array["expense_vendor"] ."</var></p>" ;
 
                     echo " <p><b>Purchase method:</b> <var>" . $array["purchase_method"] ."</var></p>" ;
 
