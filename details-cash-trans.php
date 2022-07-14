@@ -242,6 +242,10 @@ padding: 10px;
 border-radius: 5px;
 }
 
+b {
+  font-weight: 500;
+}
+
 
 </style>
  
@@ -296,7 +300,9 @@ border-radius: 5px;
                     echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div></div>" ;
                     
 
-					echo '<div class="ecobrick-data">';
+					echo '<div class="ecobrick-data">
+					
+					<p>>> Raw Brikchain Data Record</p>';
 
                     echo " <p><b>Record ID:</b> <var>" . $array["knack_record_id"] ."</var></p>" ;
 
@@ -306,84 +312,84 @@ border-radius: 5px;
 
                     echo " <p><b>Currency code:</b><var> " . $array["currency_code"] ."</var></p>" ;
 
-					echo " </div><div class=\"general-field\"><b>Native Amount:</b><var> " . $array["native_ccy_amt_display"] ."</var></div>" ;
+					echo " <p><b>Native Amount:</b><var> " . $array["native_ccy_amt_display"] ."</var></p>" ;
 
-                    echo " <div class=\"general-field\"><b>Exchange ratio</b> <var>" . $array["exchange_ratio"] ."</var> </div>" ;
+                    echo " <p><b>Exchange ratio</b> <var>" . $array["exchange_ratio"] ."</var> </p>" ;
 
-					echo " <div class=\"general-field\"><b>USD Amount</b> <var>" . $array["usd_amount "] ."</var> </div>" ;
+					echo " <p><b>USD Amount</b> <var>" . $array["usd_amount "] ."</var> </p>" ;
 
                     
-					echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div></div><div id=\"main-details\">" ;
+					echo " <p><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </p>" ;
 					
 					if ( isset($array["total_product_cost_incl_shipping"]) && $array["total_product_cost_incl_shipping"] != '' ) { 
-					echo " <div class=\"general-field\"><b>Total product cost incl shipping:</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </div>" ;
+					echo " <p><b>Total product cost (incl. shipping):</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </p>" ;
 					}
 
 					if ( isset($array["product"]) && $array["product"] != '' ) { 
-                    echo " <div class=\"general-field\"><b>Product</b> <var>" . $array["product"] ."</var></div>" ;
+                    echo " <p><b>Product</b> <var>" . $array["product"] ."</var></p>" ;
 					}
 
                     if ( isset($array["product_cost"]) && $array["product_cost"] != '' ) { 
-						echo " <div class=\"general-field\"><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></div>" ;
+						echo " <p><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></p>" ;
 					}
 
-					echo " <div class=\"general-field\"><b>Transaction Date:</b> <var> " . $array["transaction_date_dt"] ."&#8202;kg</var></div>" ;
+					echo " <p><b>Transaction Date:</b> <var> " . $array["transaction_date_dt"] ."&#8202;kg</var></p>" ;
 
 					if ( isset($array["shipping_cost"]) && $array["shipping_cost"] != '' ) {
-						echo " <div class=\"general-field\"><b>Shipping Cost:</b> <var> " . $array["shipping_cost"] ."&#8202;kg</var></div>" ;
+						echo " <p><b>Shipping Cost:</b> <var> " . $array["shipping_cost"] ."&#8202;kg</var></p>" ;
 					}
 					
 					if ( isset($array["total_product_cost_+ccy_display"]) && $array["total_product_cost_+ccy_display"] != '' ) {
-					echo " <div class=\"general-field\"><b>Total Product Cost:</b> <var> " . $array["total_product_cost_+ccy_display"] ."&#8202;kg</var></div>" ; 	
+					echo " <p><b>Total Product Cost:</b> <var> " . $array["total_product_cost_+ccy_display"] ."&#8202;kg</var></p>" ; 	
 					}
 ;
 
-                    echo " <div class=\"general-field\"><b>Receiving GEA acct:</b> " . $array["receiving_gea_acct"] ."</div>" ;
+                    echo " <p><b>Receiving GEA acct:</b> " . $array["receiving_gea_acct"] ."</p>" ;
 
-					echo " <div class=\"general-field\"><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </div>" ;
+					echo " <p><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </p>" ;
 
-                    echo " <div class=\"general-field\"><b>Receiver for display:</b> <var>" . $array["receiver_for_display"] ."</var></div>" ;
+                    echo " <p><b>Receiver for display:</b> <var>" . $array["receiver_for_display"] ."</var></p>" ;
 
-					echo " <div class=\"general-field\"><b>Receiving GEA account:</b> <var> " . $array["receiver_gea_account"] ."&#8202;kg</var></div>" ;
+					echo " <p><b>Receiving GEA account:</b> <var> " . $array["receiver_gea_account"] ."&#8202;kg</var></p>" ;
 
-					echo " <div class=\"general-field\"><b>Vendor:</b> <var> " . $array["expense_vendor"] ."&#8202;kg</var></div>" ;
+					echo " <p><b>Vendor:</b> <var> " . $array["expense_vendor"] ."&#8202;kg</var></p>" ;
 
-                    echo " <div class=\"general-field\"><b>Purchase method:</b> <var>" . $array["purchase_method"] ."</var></div>" ;
+                    echo " <p><b>Purchase method:</b> <var>" . $array["purchase_method"] ."</var></p>" ;
 
 
-					echo " <div class=\"general-field\"><b>Reocurring Period:</b> <var>" . $array["recurring_trans_period"] ."</var></div>" ;
+					echo " <p><b>Reocurring Period:</b> <var>" . $array["recurring_trans_period"] ."</var></p>" ;
 
-					echo " <div class=\"general-field\"><b>Expense Accounting Type:</b> <var>" . $array["expense_accounting_type"] ."</var></div>" ;
+					echo " <p><b>Expense Accounting Type:</b> <var>" . $array["expense_accounting_type"] ."</var></p>" ;
 					
-					echo " <div class=\"general-field\"><b>revenue_accounting_type:</b> <var>" . $array["revenue_accounting_type"] ."</var></div>" ;
+					echo " <p><b>revenue_accounting_type:</b> <var>" . $array["revenue_accounting_type"] ."</var></p>" ;
 					
-					echo " <div class=\"general-field\"><b>tran_processor:</b> <var>" . $array["tran_processor"] ."</var></div>" ;
+					echo " <p><b>tran_processor:</b> <var>" . $array["tran_processor"] ."</var></p>" ;
 					
-					echo " <div class=\"general-field\"><b>aes_to_usd_rate:</b> <var>" . $array["aes_to_usd_rate"] ."</var></div>" ;
+					echo " <p><b>aes_to_usd_rate:</b> <var>" . $array["aes_to_usd_rate"] ."</var></p>" ;
 					
-					echo " <div class=\"general-field\"><b>aes_plastic_offset_purchase_kg:</b> <var>" . $array["aes_plastic_offset_purchase_kg"] ."</var></div>" ;
+					echo " <p><b>aes_plastic_offset_purchase_kg:</b> <var>" . $array["aes_plastic_offset_purchase_kg"] ."</var></p>" ;
 					
-					echo " <div class=\"general-field\"><b>usd_payment_for_aes:</b> <var>" . $array["usd_payment_for_aes"] ."</var></div>" ;
+					echo " <p><b>usd_payment_for_aes:</b> <var>" . $array["usd_payment_for_aes"] ."</var></p>" ;
 					
-					echo " <div class=\"general-field\"><b>gbp_payment_for_aes:</b> <var>" . $array["gbp_payment_for_aes"] ."</var></div>" ;
+					echo " <p><b>gbp_payment_for_aes:</b> <var>" . $array["gbp_payment_for_aes"] ."</var></p>" ;
 
-					echo " <div class=\"general-field\"><b>native_conversion_of_aes:</b> <var>" . $array["native_conversion_of_aes"] ."</var></div>" ;
+					echo "<p><b>Native_conversion_of_aes:</b> <var>" . $array["native_conversion_of_aes"] ."</var></p>" ;
 
-					echo " <div class=\"general-field\"><b>brk_cost_of_aes_display:</b> <var>" . $array["brk_cost_of_aes_display"] ."</var></div>" ;
+					echo " <p><b>brk_cost_of_aes_display:</b> <var>" . $array["brk_cost_of_aes_display"] ."</var></p>" ;
 
-					echo " <div class=\"general-field\"><b>credited_catalyst:</b> <var>" . $array["credited_catalyst"] ."</var></div>" ;
+					echo " <p><b>credited_catalyst:</b> <var>" . $array["credited_catalyst"] ."</var></p>" ;
 
-					echo " <div class=\"general-field\"><b>brikcoins_purchased_display:</b> <var>" . $array["brikcoins_purchased_display"] ."</var></div>" ;
+					echo " <p><b>brikcoins_purchased_display:</b> <var>" . $array["brikcoins_purchased_display"] ."</var></p>" ;
 
-					echo " <div class=\"general-field\"><b>usd_paid_for_brk_+ccy_display:</b> <var>" . $array["usd_paid_for_brk_+ccy_display"] ."</var></div>" ;
+					echo " <p><b>usd_paid_for_brk_+ccy_display:</b> <var>" . $array["usd_paid_for_brk_+ccy_display"] ."</var></p>" ;
 
-					echo " <div class=\"general-field\"><b>connected_brk_trans:</b> <var>" . $array["connected_brk_trans"] ."</var></div>" ;
+					echo " <p><b>connected_brk_trans:</b> <var>" . $array["connected_brk_trans"] ."</var></p>" ;
 
-                    echo " <div class=\"general-field\"><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></div></div>" ;
+                    echo " <p><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></p></div>" ;
 					
                 }
             } else {
-                echo '<div class="ecobrick-data">No results found for the specified Cash Transaction ID number.</div>';
+                echo '<div class="ecobrick-data"><p>No results found for the specified Cash Transaction ID number.</p></div>';
             }
             $conn->close();
 
