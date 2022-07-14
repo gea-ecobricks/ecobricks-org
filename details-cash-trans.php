@@ -398,10 +398,10 @@ strong {
 
                     echo " <p><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></p></div>" ;
 					
-					echo '<< END.'
+					echo '<< END.';
                 }
             } else {
-                echo '<div class="ecobrick-data"><p>No results found for the specified Cash Transaction ID number.</p></div>';
+                echo '<div class="ecobrick-data"><p><h4>Sorry!</h4><br><br>No results found for the specified Cash Transaction ID number.</p></div>';
             }
             $conn->close();
 
