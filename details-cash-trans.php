@@ -280,7 +280,7 @@ border-radius: 5px;
                     echo '<div id="ecobrick-data">' ;
 					echo "<div id=\"main-details\"><div class=\"date\"> Transaction ID: " . $array["cash_tran_id"] ."</div>";
 
-					if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] > '0' ) {  
+					if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] != 'N/A' ) {  
 						echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%"/></div>';
 					}
 
@@ -306,17 +306,26 @@ border-radius: 5px;
 
                     echo " <b>Currency code:</b><var> " . $array["currency_code"] ."</var>" ;
 
-					echo " <div class=\"general-field\"><b>Currency code:</b><var> " . $array["native_ccy_amt_display"] ."</var></div>" ;
+					echo " <div class=\"general-field\"><b>Native Amount:</b><var> " . $array["native_ccy_amt_display"] ."</var></div>" ;
 
                     echo " <div class=\"general-field\"><b>Exchange ratio</b> <var>" . $array["exchange_ratio"] ."</var> </div>" ;
 
 					echo " <div class=\"general-field\"><b>USD Amount</b> <var>" . $array["usd_amount "] ."</var> </div>" ;
 
-                    echo " <div class=\"general-field\"><b>Total product cost incl shipping:</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </div>" ;
+                    
+					echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div></div><div id=\"main-details\">" ;
+					
+					if ( isset($array["total_product_cost_incl_shipping"]) && $array["total_product_cost_incl_shipping"] != '' ) { 
+					echo " <div class=\"general-field\"><b>Total product cost incl shipping:</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </div>" ;
+					}
 
+					if ( isset($array["product"]) && $array["product"] != '' ) { 
                     echo " <div class=\"general-field\"><b>Product</b> <var>" . $array["product"] ."</var></div>" ;
+					}
 
-                    echo " <div class=\"general-field\"><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></div>" ;
+                    if ( isset($array["product_cost"]) && $array["product_cost"] != '' ) { 
+						echo " <div class=\"general-field\"><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></div>" ;
+					}
 
 					echo " <div class=\"general-field\"><b>Transaction Date:</b> <var> " . $array["transaction_date_dt"] ."&#8202;kg</var></div>" ;
 
