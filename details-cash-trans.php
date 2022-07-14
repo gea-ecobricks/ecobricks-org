@@ -243,11 +243,11 @@ img {padding: 8%;}
 }
 
 b {
-  font-weight: 500 !important;
+  font-weight: bold !important;
 }
 
 strong {
-  font-weight: 500 !important;
+  font-weight: bold !important;
 }
 
 
@@ -313,18 +313,18 @@ strong {
 
 					echo " <p><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></p>" ;
 
-					echo " <p><b>Native ccy amt</b> <var>" . $array["native_ccy_amt"] ."</var></p>" ;
+					echo " <p><b>Native Amount:</b> <var>" . $array["native_ccy_amt"] ."</var></p>" ;
 
                     echo " <p><b>Currency code:</b><var> " . $array["currency_code"] ."</var></p>" ;
 
-					echo " <p><b>Native Amount:</b><var> " . $array["native_ccy_amt_display"] ."</var></p>" ;
+					echo " <p><b>Native Currency Amount:</b><var> " . $array["native_ccy_amt_display"] ."</var></p>" ;
 
-                    echo " <p><b>Exchange ratio</b> <var>" . $array["exchange_ratio"] ."</var> </p>" ;
+                    echo " <p><b>Exchange rate:</b> <var>" . $array["exchange_ratio"] ."</var> </p>" ;
 
-					echo " <p><b>USD Amount</b> <var>" . $array["usd_amount "] ."</var> </p>" ;
+					echo " <p><b>USD Amount:</b> <var>" . $array["usd_amount"] ."</var> </p>" ;
 
                     
-					echo " <p><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </p>" ;
+					echo " <p><b>Blockchain Transaction ID:</b> " . $array["cash_tran_id"] . " </p>" ;
 					
 					if ( isset($array["total_product_cost_incl_shipping"]) && $array["total_product_cost_incl_shipping"] != '' ) { 
 					echo " <p><b>Total product cost (incl. shipping):</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </p>" ;
