@@ -306,7 +306,7 @@ strong {
 
 					echo '<div class="ecobrick-data">
 					
-					<p><b>>> Raw Brikchain Data Record</b><br>
+					<p><b>>> Raw Cash Transaction Record</b><br><br>
 					----------------------------------------------------</p>';
 
                     echo " <p><strong>Record ID:</strong> <var>" . $array["knack_record_id"] ."</var></p>" ;
@@ -396,9 +396,9 @@ strong {
 
 					echo " <p><b>connected_brk_trans:</b> <var>" . $array["connected_brk_trans"] ."</var></p>" ;
 
-                    echo " <p><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></p></div>" ;
+                    echo " <p><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></p>" ;
 					
-					echo '<< END.';
+					echo '<p><< END.</p></div>';
                 }
             } else {
                 echo '<div class="ecobrick-data"><p><h4>Sorry!</h4><br><br>No results found for the specified Cash Transaction ID number.</p></div>';
