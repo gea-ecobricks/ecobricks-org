@@ -310,23 +310,23 @@ $(document).ready(function() {
 
 /* Huh? */
 
-#brikchain {
+#revenues {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
   font-weight: 300;
 }
 
-#brikchain td, #brikchain th {
+#revenues td, #revenues th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#brikchain tr:nth-child(even){background-color: #f2f2f2;}
+#revenuesn tr:nth-child(even){background-color: #f2f2f2;}
 
-#brikchain tr:hover {background-color: #ddd;}
+#revenues tr:hover {background-color: #ddd;}
 
-#brikchain th {
+#revenues th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -338,23 +338,23 @@ $(document).ready(function() {
 /* Huh? */
 
 
-#brikchain {
+#expenses {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
   font-weight: 300;
 }
 
-#brikchain td, #brikchain th {
+#expenses td, #expenses th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#brikchain tr:nth-child(even){background-color: #f2f2f2;}
+#expenses tr:nth-child(even){background-color: #f2f2f2;}
 
-#brikchain tr:hover {background-color: #ddd;}
+#expenses tr:hover {background-color: #ddd;}
 
-#brikchain th {
+#expenses th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -362,68 +362,6 @@ $(document).ready(function() {
   color: white;
 }
 
-
-/* Huh? */
-
-
-#cash_tran {
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  font-weight: 300;
-}
-
-#cash_tran td, #cash_tran th {
-  border: 1px solid #ddd;
-  padding-left: 8px;
-}
-
-#cash_tran tr:nth-child(even){background-color: #f2f2f2;}
-
-#cash_tran tr:hover {background-color: #ddd;}
-
-#cash_tran th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #2A91DA;
-  color: white;
-}
-
-.dataTables_wrapper {
-	font-family: 'Mulish', Arial, Helvetica, sans-serif;
-}
-
-#cash_tran td {
-	padding: 3px 3px 0px 10px;
-}
-	
-/* Huh? */
-
-
-#ecobricks {
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  font-weight: 300;
-}
-
-#ecobricks td, #ecobricks th {
-  border: 1px solid #ddd;
-  padding-left: 8px;
-}
-
-#ecobricks tr:nth-child(even){background-color: #f2f2f2;}
-
-#ecobricks tr:hover {background-color: #ddd;}
-
-#ecobricks th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #2A91DA;
-  color: white;
-}
 
 .dataTables_wrapper {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;

@@ -230,7 +230,7 @@ img {padding: 8%;}
   background: #e6f3ff;}
 
 
-.ecobrick-data p {
+.ecobrick-data {
 	font-size: 0.9em;
 	font-family: 'Courier New', monospace !important;
   	color: #222222;
@@ -269,7 +269,7 @@ border-radius: 5px;
             $cashTranId = $_GET['cash_tran_id'];
 
             // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-            $sql = "SELECT * FROM vw_cash_tran_desc WHERE cash_tran_id = " . $cashTranId;
+            $sql = "SELECT * FROM tb_cash_transaction WHERE cash_tran_id = " . $cashTranId;
 
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
@@ -277,7 +277,8 @@ border-radius: 5px;
                 //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row
                 while($array = $result->fetch_assoc()) {
 
-                    echo "<div id=\"main-details\"><div class=\"date\"> Transaction ID: " . $array["cash_tran_id"] ."</div>";
+                    echo '<div id="ecobrick-data">' ;
+					echo "<div id=\"main-details\"><div class=\"date\"> Transaction ID: " . $array["cash_tran_id"] ."</div>";
 
 					if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] > '0' ) {  
 						echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%"/></div>';
@@ -288,17 +289,16 @@ border-radius: 5px;
 
 					echo " <div class=\"general-field\">" . $array["tran_name_desc"] ."</var></div>" ;
 
-                    
                     echo " <div class=\"main\"><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
                     
                     echo " <div class=\"main\"><b>Sent:</b> <var>" . $array["datetime_sent_ts"] ."</var></div>" ;
                 
-                    echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div></div>" ;
+                    echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div></div></div>" ;
                     
 
 					echo '<div class="ecobrick-data">';
 
-                    echo " <b>Record ID:</b> <var>" . $array["knack_record_id"] ."</var>" ;
+                    echo " <p><b>Record ID:</b> <var>" . $array["knack_record_id"] ."</var>" ;
 
 					echo " <b>Transaction name:</b> " . $array["tran_name_desc"] ."</var>" ;
 
