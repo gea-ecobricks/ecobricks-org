@@ -295,7 +295,7 @@ strong {
                     echo " <div class=\"serial\"><b>Amount:</b> <var>" . $array["native_ccy_amt"] ." " ;
                     echo " " . $array["currency_code"] ."</var></div>" ;
 
-					echo " <div class=\"general-field\">" . $array["tran_name_desc"] ."</var><br></div>" ;
+					echo " <div class=\"general-field\">" . $array["tran_name_desc"] ."</var><br><br></div>" ;
 
                     echo " <div class=\"main\"><b>Sender:</b> <var>" . $array["sender_for_display"] . "</var></div>" ;
                     
@@ -398,6 +398,7 @@ strong {
 
                     echo " <p><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></p></div>" ;
 					
+					echo '<< END.'
                 }
             } else {
                 echo '<div class="ecobrick-data"><p>No results found for the specified Cash Transaction ID number.</p></div>';
