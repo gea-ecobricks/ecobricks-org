@@ -130,8 +130,8 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed2">
 
-				<div class="lead-panel-paragraph">
-					We strive to lead by example with our plastic transition and regenerative living.</div>
+				<div class="lead-panel-paragraph"><p>
+					We strive to lead by example with our plastic transition and regenerative living.</p></div>
 					
 						<p>Ghandi once said “be the change you want to see in the world“.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
 
@@ -165,7 +165,7 @@ Content Page template: v.1.0.1-->
                 <br>
                 
 
-                <div class="lead-page-paragraph"><p>We strive towards accessible methods and means that are accessible to anyone, anywhere.</p></div>
+                <div class="lead-panel-paragraph"><p>We strive towards accessible methods and means that are accessible to anyone, anywhere.</p></div>
 
 				<p>Every day thousands of tons of plastic flow loose into the biosphere. Meanwhile, the consumption of plastic and its production are on the increase.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion and economic growth rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
 
@@ -209,7 +209,7 @@ Content Page template: v.1.0.1-->
 
 				
 
-                		<h3>Our intentions are powered by mandalic community collaboration.</h3>
+				<div class="lead-panel-paragraph"><p>Our intentions are powered by mandalic community collaboration.</p></div>
 
 						<p>Leading by example leverages the full power of mandalic collaboration.  Sharing our example allows others to be inspired by our story, insights, practices and net impact.  In so doing we consciously place ourselves in the center of a replicating, social unfolding.</p>
 						
@@ -241,7 +241,7 @@ Content Page template: v.1.0.1-->
 
 				
 
-                		<h5>We strive to include men and women, young and old, rich and poor… and everyone in between.</h5>
+				<div class="lead-panel-paragraph"><p>We strive to include men and women, young and old, rich and poor… and everyone in between.</p></div>
 
 						<p>In our methods, projects and intentions we strive to rise above old notions of roles and ability and accessibility.  We encourage the collaboration of  groups that are often perceived to have different social rankings (i.e. ‘castes’) to work together on a equal platform of participation.  In other words, rather than a child doing one task and an adult doing another, we design the method so that both can do it together.</p>
 
