@@ -65,7 +65,7 @@
 		<h4>Revenues</h4>
 		
 		<h6>All the GEA Revenue transactions</h6>
-		<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
+		<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
 
 	</div>
 
@@ -106,7 +106,7 @@
 		<h4>Expenses</h4>
 		
 		<h6>All the GEA Revenue transactions</h6>
-		<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
+		<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
 
 	</div>
 
@@ -150,7 +150,7 @@
 			<h4>Yearly Totals</h4>
 			
 			<h6>Running and yearly brikchain totals.  Brikcoin pricing based on the Global Ecobrick Alliance's yearly costs for presiding over the blockhain as disclosed the GEA's yearly <a href="openbooks">Open Books</a> financial accounting</h6>
-			<div class="ecobrick-data"><p>🚧 Does not yet reflect official values, data still in migration</p></div>
+			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
 	</div>		
 			
 	<div class="overflow">
