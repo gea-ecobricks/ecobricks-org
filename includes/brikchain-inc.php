@@ -295,32 +295,6 @@ $(document).ready(function() {
 }
 
 
-/* Huh? */
-
-#brikchain {
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  font-weight: 300;
-}
-
-#brikchain td, #brikchain th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#brikchain tr:nth-child(even){background-color: #f2f2f2;}
-
-#brikchain tr:hover {background-color: #ddd;}
-
-#brikchain th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #2A91DA;
-  color: white;
-}
-
 
 /* Huh? */
 
