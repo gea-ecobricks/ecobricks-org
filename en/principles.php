@@ -70,7 +70,7 @@ Content Page template: v.1.0.1-->
 
                 <div class="row">
 						<div class="main2">
-						<div class="lead-page-paragraph"><p>For the last billion years, the Earth has been slow and steady greening the surface of our common home.</p></div>
+						<div class="lead-panel-paragraph"><p>For the last billion years, the Earth has been slow and steady greening the surface of our common home.</p></div>
 						
 						<p>The way that the Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing humans an example to follow to ensure their own processes are green!  With our plastic-- which happens to be created from ancient carbon stores-- we can emulate the Earth’s example and participate in the continued enrichment of our common home.</p>
 
@@ -130,8 +130,8 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed2">
 
-				<div class="lead-page-paragraph">
-					<p>We strive to lead by example with our plastic transition and regenerative living.</p></div>
+				<div class="lead-panel-paragraph">
+					We strive to lead by example with our plastic transition and regenerative living.</div>
 					
 						<p>Ghandi once said “be the change you want to see in the world“.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
 
