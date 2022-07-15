@@ -32,6 +32,11 @@ migrated from GoBrik.com CSS
 /* -------------------------------------------------------------------------- */
 
 
+hr {border: gray;
+  border-style: dashed;
+  border-width: 1px;
+  margin-top: 31px;
+  margin-bottom: 31px;}
 
 #data-chunk {
   padding: 15px;
