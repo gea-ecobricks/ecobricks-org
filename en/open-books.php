@@ -38,9 +38,9 @@
 				  
 				<p>One of the core operational <a href="principles">principles</a> of the <a href="about">Global Ecobrick Alliance as an Earth Enterprise</a> is full financial transparency of our not-for-profit for-Earth management of our revenues and expenses. Here you will find our custom built Open Books: a live flow of our revenue and expenses. Use this page to review a full real time audit of our financials. Transactions that occur through GoBrik appear here automatically, while other GEA transactions are added monthly by our team.</p>
 				
-				<p>ℹ️ Brikcoin transactions are recorded seperately on the <a href="brikchain">Brikchain Explorer</a>.</p>
+				<p>⛓️ Brikcoin transactions are recorded seperately on the <a href="brikchain.php">Brikchain Explorer</a>.</p>
 
-				<p>ℹ️ Our ecological accounting is disclosed seperately in our <a href="regenreports">annual regenerative reports</a>.
+				<p>🍃 Our ecological accounting is disclosed seperately in our <a href="regenreports">annual regenerative reports</a>.
 
 </p>
 			</div> 
@@ -170,7 +170,7 @@
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td><td><var>".$row["brick_count"]."&#8202;briks</var></td><td><var>".$row["weight"]."&#8202;Kg</var></td><td><var>".$row["tot_usd_exp_amt"]."&#8202;$</var></td><td><var>".$row[" 	tot_usd_rev_amt"]."&#8202;Kg</var></td></tr>";
+		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td><td><var>".$row["brick_count"]."&#8202;briks</var></td><td><var>".$row["weight"]."&#8202;Kg</var></td><td><var>".$row["tot_usd_exp_amt"]."&#8202;$</var></td><td><var>".$row["tot_usd_rev_amt"]."&#8202;$</var></td><td><var>[weight/expenses] &#8202;ß</var></td></tr>";
 		}
 		echo "</table>";
 	} else {
