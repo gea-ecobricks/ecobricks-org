@@ -103,6 +103,9 @@ Content Page template: v.1.0.1-->
     				<li><b>Towards Awareness:</b> In the same way that the Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
 
 				</ul>
+				<br><br><hr>
+
+			
 				<h5>ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
 				<h5>ℹ️ Learn about: <a href="https://earthen.io/imagine" target="_blank">Earthen Ethics</a></h5>
 
