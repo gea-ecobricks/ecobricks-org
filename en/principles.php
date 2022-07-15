@@ -108,8 +108,6 @@ Content Page template: v.1.0.1-->
 				<h5>ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
 				<h5>ℹ️ Learn about: <a href="https://earthen.io/imagine" target="_blank">Earthen Ethics</a></h5>
 
-				</div>
-
 
                 </div>
             </div>
