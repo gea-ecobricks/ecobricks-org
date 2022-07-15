@@ -28,6 +28,17 @@ _END;?>
 
 <STYLE>
 
+ul {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: #222222;
+  font-size: 1.2em;
+  line-height: 1.4;}
+
+  li {
+  margin-bottom: 15px;
+}
+
 /*This sets up the the first splash content block that is unique to the top of each page*/
 
 	

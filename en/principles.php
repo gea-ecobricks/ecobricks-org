@@ -59,7 +59,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Following the Earth's Example</h4>
-                    <h5>We strive to emulate the ways the Earth cared for its carbon to green the biosphere.</h5>   
+                    <div class="lead-page-paragraph">We strive to emulate the ways the Earth cared for its carbon to green the biosphere.</div>   
                     <br>
                     </div>
 
@@ -125,11 +125,14 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed2">
 
-				<h1>We strive to lead by example with our plastic transition and regenerative living.</h1>
+				<div class="lead-page-paragraph">We strive to lead by example with our plastic transition and regenerative living.</div>
 
 						<p>Ghandi once said “be the change you want to see in the world“.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
 
 						<p>By leading by example in following the Earth's example, we can be a powerful inspiration.  Especially, when our example is amplified by our plastic accounting.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p>
+
+						<h5>ℹ️ Our <a href="/catalyst">catalyst program</a> allows oraganizations, projects and enterprises to lead by example with their plastic accounting.</h5>
+				<h5>ℹ️ Tracking ones personal or household <a href="transition.php#score">plastic transition score</a> target="_blank">Earthen Ethics is a way to lead by example.</h5>
 
                 		</div>
            		 </div>
@@ -154,7 +157,7 @@ Content Page template: v.1.0.1-->
                 <br>
                 
 
-                <h3>We strive towards accessible methods and means that are accessible to anyone, anywhere.</h3>
+                <div class="lead-page-paragraph">We strive towards accessible methods and means that are accessible to anyone, anywhere.</div>
 
 				<p>Every day thousands of tons of plastic flow loose into the biosphere. Meanwhile, the consumption of plastic and its production are on the increase.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion and economic growth rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
 
