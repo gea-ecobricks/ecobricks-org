@@ -59,7 +59,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Following the Earth's Example</h4>
-                    <div class="lead-page-paragraph">We strive to emulate the ways the Earth cared for its carbon to green the biosphere.</div>   
+                    We strive to emulate the ways the Earth cared for its carbon to green the biosphere.</div>   
                     <br>
                     </div>
 
@@ -70,7 +70,10 @@ Content Page template: v.1.0.1-->
 
                 <div class="row">
 						<div class="main2">
-						<p>For the last billion years, the Earth has been slow and steady greening the surface of our common home.  The way that the Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing humans an example to follow to ensure their own processes are green!  With our plastic-- which happens to be created from ancient carbon stores-- we can emulate the Earth’s example and participate in the continued enrichment of our common home.</p>
+						<div class="lead-page-paragraph"><p>For the last billion years, the Earth has been slow and steady greening the surface of our common home.</p>
+						
+						<div class="page-paragraph">
+						<p>The way that the Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing humans an example to follow to ensure their own processes are green!  With our plastic-- which happens to be created from ancient carbon stores-- we can emulate the Earth’s example and participate in the continued enrichment of our common home.</p>
 
 						 
 
@@ -103,6 +106,8 @@ Content Page template: v.1.0.1-->
 				<h5>ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
 				<h5>ℹ️ Learn about: <a href="https://earthen.io/imagine" target="_blank">Earthen Ethics</a></h5>
 
+				</div>
+
 
                 </div>
             </div>
@@ -125,9 +130,11 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed2">
 
-				<div class="lead-page-paragraph"><p>We strive to lead by example with our plastic transition and regenerative living.</p></div>
-
+				<div class="lead-page-paragraph">
+					<p>We strive to lead by example with our plastic transition and regenerative living.</p></div>
+					<div class="page-paragraph">
 						<p>Ghandi once said “be the change you want to see in the world“.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
+</div>
 
 						<p>By leading by example in following the Earth's example, we can be a powerful inspiration.  Especially, when our example is amplified by our plastic accounting.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p><br><br>
 
