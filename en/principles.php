@@ -59,7 +59,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Following the Earth's Example</h4>
-                    We strive to emulate the ways the Earth cared for its carbon to green the biosphere.</div>   
+                    <h5>We strive to emulate the ways the Earth cared for its carbon to green the biosphere.</h5>   
                     <br>
                     </div>
 
