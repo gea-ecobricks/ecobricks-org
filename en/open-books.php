@@ -192,7 +192,7 @@
 	<div class="overflow">
 	<?php
 
-	$sql = "SELECT * FROM vw_sum_brk_total Order by `from_date` DESC;";
+	$sql = "SELECT * FROM vw_sum_brk_total ;";
 
 	$result = $conn->query($sql);
 
