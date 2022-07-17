@@ -180,6 +180,41 @@
 	?>
 	</div>
 	<br><br>
+
+
+
+	<div class="page-paragraph">
+			<h4>Total Brikcoin Pool</h4>
+			
+			<h6>Running and yearly brikchain totals. </h6>
+			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
+	</div>	
+	<div class="overflow">
+	<?php
+
+	$sql = "SELECT * FROM vw_sum_brk_total Order by `year` DESC;";
+
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+	
+		echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
+	
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+		
+		echo "<tr><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td><td><var>".$row["aes_purchased"]."&#8202;kg</var></td><td><var>".$row["net_brk_in_circulation"]."&#8202;ß</var></td></tr>";
+		}
+		echo "</table>";
+	} else {
+		echo "0 results";
+	}
+	$conn->close();
+	?>
+	</div>
+	<br><br>
+
+
 				
 
 

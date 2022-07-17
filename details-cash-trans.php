@@ -306,8 +306,7 @@ strong {
 
 					echo '<div class="ecobrick-data">
 					
-					<p><b>>> Raw Cash Transaction Record</b><br><br>
-					----------------------------------------------------</p>';
+					<p><b>>> Raw Cash Transaction Record</b></p>';
 
                     echo " <p><strong>Record ID:</strong> <var>" . $array["knack_record_id"] ."</var></p>" ;
 
@@ -394,7 +393,8 @@ strong {
 
 					echo " <p><b>usd_paid_for_brk_+ccy_display:</b> <var>" . $array["usd_paid_for_brk_+ccy_display"] ."</var></p>" ;
 
-					echo " <p><b>connected_brk_trans:</b> <var>" . $array["connected_brk_trans"] ."</var></p>" ;
+					echo ' <p><b>connected_brk_trans:</b><a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
+					onclick="window.open(\'details-brk-trans.php?tran_id=\'' . $array["connected_brk_trans"] .'\',\'popup\',\'width=600,height=800\'); return false;">📂 ' . $array["connected_brk_trans"] .'</a>' ;
 
                     echo " <p><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></p>" ;
 					
