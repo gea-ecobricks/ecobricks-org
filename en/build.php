@@ -71,7 +71,7 @@ Content Page template: v.1.0.0-->
                 <p>Earth and Ecobrick building techniques are used to create structures that can last years or decades (it is not uncommon for traditional constructions to last centuries!).  Earth mixes (i.e Cob (material), Wattle and daub, adobe) are used to lay ecobricks horizontally and completely cover them for full protection against all forms of degradation.</p>
 
                 <br><p><b>Very long-term</b><p>
-                <p>Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelyhood of plastic staying safe, secure and contained is much more likely than currently available alternatives.</p>
+                <p>Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelihood of plastic staying safe, secure and contained is much more likely than currently available alternatives.</p>
                 
                 <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>
                 <p style="font-size: 0.85em; margin-top:20px;">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
@@ -150,7 +150,7 @@ Content Page template: v.1.0.0-->
                     
 
                     <a class="action-btn" href="/modules">🚀 Ecobrick Milstein Modules</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about the various horizonal ecobrick module variations.</a></p>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about the various horizontal ecobrick module variations.</a></p>
 
                     
 				</div>
@@ -179,7 +179,7 @@ Content Page template: v.1.0.0-->
             
             <p> <p>So this is pretty cool – ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.</p>
 
-            <p>DMs interconnect just like Legos.  They stack one upon the other and enable you to make walls, towers and columns, quickly and easily without any glue or mortar.  Best Usage:  Awesome for open spaces, indoor playgrounds and building structures for concerts or fairs in minutes. Can be taken apart and stored just as fast!</p>
+            <p>DMs interconnect just like LEGOs.  They stack one upon the other and enable you to make walls, towers and columns, quickly and easily without any glue or mortar.  Best Usage:  Awesome for open spaces, indoor playgrounds and building structures for concerts or fairs in minutes. Can be taken apart and stored just as fast!</p>
 
             <p>The DMs can then be disassembled just as easily.</p>
 
@@ -279,7 +279,7 @@ Content Page template: v.1.0.0-->
 
                     <div class="row">
                             <div class="main2">
-                               <p>These modules can then be deployed for confernces, exhibtions, fairs and other special events to create customized interactive spaces.   These spaces can either be setup in advance or invite participants to interact, play and create their own space.  </p>
+                               <p>These modules can then be deployed for conferences, exhibitions, fairs and other special events to create customized interactive spaces.   These spaces can either be setup in advance or invite participants to interact, play and create their own space.  </p>
                             </div>
                             <div class="side2"><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="100%" loading="lazy" alt="Examples of an eco brik open space".>
                             </div>
@@ -375,7 +375,7 @@ Content Page template: v.1.0.0-->
                 <hr>
                     
                     <h4>🟡 Maintenance</h4>
-                    <p>Earth modules need to be regularily inspected.  Cracks and breaks to the wall are best quickly repaired to avoid erosion to the structure.</p>
+                    <p>Earth modules need to be regularly inspected.  Cracks and breaks to the wall are best quickly repaired to avoid erosion to the structure.</p>
                     
                     <hr>
 
@@ -414,12 +414,12 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed8">   
 
-                <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintence and the end of the construction is a key part of plastic sequestration!</p><br><br>
+                <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintenance and the end of the construction is a key part of plastic sequestration!</p><br><br>
 
 
 					<h4>Short-Term Maintenance</h4>
 
-					<p>Ecobrick furniture and modules need regular cleaning and repair.  Our GEA Trainer Team who have several hundred ecobrick modules that they regularily rent out to cities and exhibitions, spend one day a year cleaning their modules with a high powered hose and soap.  They also dismantle weak modules and repair them with silicone.</p>
+					<p>Ecobrick furniture and modules need regular cleaning and repair.  Our GEA Trainer Team who have several hundred ecobrick modules that they regularly rent out to cities and exhibitions, spend one day a year cleaning their modules with a high powered hose and soap.  They also dismantle weak modules and repair them with silicone.</p>
                     
                     <p>Part of ensuring the longevity of ecobrick modules is to train those who use the modules how to handle them.  Modules should always be moved with two hands.  This is especially important with ecobrick Dieleman lego which new users are often tempted to grab with one hand.</p>
                     <br><br>
@@ -472,9 +472,9 @@ Content Page template: v.1.0.0-->
                       <div class="main2">
                          <h4>A Safe Passage Through Time</h4>
                         
-                         <p>Building with ecobricks is a significant responsibilty.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
+                         <p>Building with ecobricks is a significant responsibility.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
                         <p>  Planning for the maintenance and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p>
-                        <p>Go deeper into putting ecobricks to good use.  Learn about the core concepts of buidling with ecobricks and earth.</p>
+                        <p>Go deeper into putting ecobricks to good use.  Learn about the core concepts of building with ecobricks and earth.</p>
                         <br><p>
                     
                         <a class="action-btn" href="/earth">🚀 Earth & Ecobrick Building</a>
@@ -497,7 +497,7 @@ Content Page template: v.1.0.0-->
 			<div id="side-module-desktop-mobile">
             <img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
 				<br><h4>Good Use</h4>
-				<h5>Ecobrick building let's us put our plastic to good use in the short-term, while securing it out of industry and the biosphere for the long-term.</h5><br>
+				<h5>Ecobrick building lets us put our plastic to good use in the short-term, while securing it out of industry and the biosphere for the long-term.</h5><br>
 				<a class="module-btn" href="/plastic">Learn More</a>
                 <br>
 			</div>  
