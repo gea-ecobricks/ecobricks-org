@@ -393,7 +393,7 @@ strong {
 
 					echo " <p><b>usd_paid_for_brk_+ccy_display:</b> <var>" . $array["usd_paid_for_brk_+ccy_display"] ."</var></p>" ;
 
-					echo ' <p><b>connected_brk_trans:</b><a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
+					echo ' <p><b>connected_brk_trans:</b><a href="details-brk-trans.php?tran_id='. $array["connected_brk_trans"] .'" target="popup"
 					onclick="window.open(\'details-brk-trans.php?tran_id=\'' . $array["connected_brk_trans"] .'\',\'popup\',\'width=600,height=800\'); return false;">📂 ' . $array["connected_brk_trans"] .'</a>' ;
 
                     echo " <p><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></p>" ;
