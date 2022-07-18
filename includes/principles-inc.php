@@ -51,7 +51,7 @@ ul {
 		z-index: 5;
 		background-color: #4B8501;
 		
-		background: url(webp/principles-banner-1600px.webp?v1) bottom;
+		background: url(webp/principles-banner-1600px.webp?v2) bottom;
 		
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -74,7 +74,7 @@ ul {
 		z-index: 5;
 		position: relative;
 		
-		background: url(webp/principles-banner-1600px.webp?v1) bottom left;
+		background: url(webp/principles-banner-1600px.webp?v2) bottom left;
 		background-color: #4B8501;
     	background-repeat: no-repeat;
 		/*margin: -3px 0 -20px 0;*/

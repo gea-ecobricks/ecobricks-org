@@ -72,7 +72,7 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 						<div class="lead-panel-paragraph"><p>For the last billion years, the Earth has been slow and steady greening the surface of our common home.</p></div>
 						
-						<p>The way that the Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing humans an example to follow to ensure their own processes are green!  With our plastic-- which happens to be created from ancient carbon stores-- we can emulate the Earth’s example and participate in the continued enrichment of our common home.</p>
+						<p>The way that the Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic-- which happens to come from the Earth's ancient carbon stores-- we can emulate the Earth’s example and participate in the continued enrichment of our common home.</p>
 
 						 
 
@@ -89,15 +89,14 @@ Content Page template: v.1.0.1-->
 					</div>
 				
 				<p><ul>
-					<li><b>Cycles that Spiral:</b>  In the same way that the Earth tended its carbon towards cycles is indefinite reuse, so too can turn our plastic into indefinitely reusable building blocks.</li>
+					<li><b>Cycles that Spiral:</b>  In the same way that the Earth tended its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and circular buidlings, we can ensure that our plastic is  indefinitely reusable.</li>
 
-    				<li><b>Towards Concentration:</b>  In the same way that the Earth steadily compacted and secured loose carbon into long-term, concentrated stores... so too can we with our plastic!  We can do the same by making sure our plastic doesn't get into industry (where it ends up getting loose again) and by compacting and concentrating our plastic into a bottle.</li>
+    				<li><b>Towards Concentration:</b>  In the same way that the Earth steadily subtracted, compacted and secured loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or recycling (where it eventually ends up loose again).</li>
     
-					<li><b>For Biosphere Benefit:</b> In the same way that the Earth’s cycles tended to enrich everything around them, so too can we manage our plastic!  Rather than manage our plastic for personal or company benefit, we can be sure to ecobrick first and foremost for the benefit of our local ecosystem and the global biosphere.</li>
+					<li><b>For Biosphere Benefit:</b> In the same way that the Earth’s cycles dispersed more energy out-to-all to enrich than they saved for themselves, so to can we with the enterprise of managing our plastic.  Rather than manage our plastic for personal or company profit, we can be sure to ecobrick first and foremost for the benefit of our local ecosystem and the global biosphere.</li>
 
-    				<li><b>Towards Subtraction:</b>  The net effect of all of Earth’s processes subtracted  more carbon than they added, leading to more and more life.  We can do the same.  By keeping track and accounting for our impacts we be sure that our net impact is subtractive and greening too– what we call ‘regenerative living’.</li>
 
-    				<li><b>Towards Diversity:</b>  In the same way that the Earth’s cycles of matter and energy led to more and more diverse cycles and systems, so too can we manage our plastic.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
+    				<li><b>Towards Diversity:</b>  In the same way that the Earth’s cycles of carbon led to more and more biodiversity, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
 
     				<li><b>Towards Awareness:</b> In the same way that the Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
 
@@ -133,7 +132,7 @@ Content Page template: v.1.0.1-->
 				<div class="lead-panel-paragraph"><p>
 					We strive to lead by example with our plastic transition and regenerative living.</p></div>
 					
-						<p>Ghandi once said “be the change you want to see in the world“.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
+						<p>Ghandi challenged us all to <i>“be the change you want to see in the world“</i>.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
 
 						<p>By leading by example in following the Earth's example, we can be a powerful inspiration.  Especially, when our example is amplified by our plastic accounting.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p><br><br>
 
@@ -303,7 +302,7 @@ Content Page template: v.1.0.1-->
 			</div>
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/earthen-500px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
+				<img src="webp/earthen-500px.webp?v=2" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Earthen Ethics</h4>
 				<h5>Brikcoins are based on the value generated by following the Earth's example of ecological enrichment.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
