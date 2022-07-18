@@ -49,9 +49,9 @@ ul {
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background-color: #4B8501;
+		background-color: #00A215;
 		
-		background: url(webp/principles-banner-1600px.webp?v4) bottom;
+		background: url(webp/principles-banner-1600px.webp?v6) bottom;
 		
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -74,8 +74,8 @@ ul {
 		z-index: 5;
 		position: relative;
 		
-		background: url(webp/principles-banner-1600px.webp?v4) bottom left;
-		background-color: #4B8501;
+		background: url(webp/principles-banner-1600px.webp?v6) bottom left;
+		background-color: #00A215;
     	background-repeat: no-repeat;
 		/*margin: -3px 0 -20px 0;*/
 		display: flex;
@@ -193,7 +193,7 @@ ul {
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #4b8501ff; 
+	background-color: #00A215; 
 
 }
 

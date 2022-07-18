@@ -285,16 +285,10 @@ Content Page template: v.1.0.1-->
 
 		<div class="side">
 
-		<div id="side-module-desktop-mobile">
-				<img src="webp/earthservice-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
-				<br><h4>Following the Earth's Example</h4>
-				<h5>Just as the Earth has greened the planet's surface, so can we follow its ways to do the same.  Learn about the primordial story of the Earth and plastic.</h5><br>
-				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
-                <br>
-			</div>   
+
 
 		<div id="side-module-desktop-mobile">
-				<img src="webp/earthen-ethics-500px.webp?v=2" width="80%" alt="For-Earth Enterprise through eco bricking">
+				<img src="webp/earthen-ethics-500px.webp?v=3" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Earthen Ethics</h4>
 				<h5>Ecobrick principles are based on Earthen Ethics, the philosophy of folowing the Earth's example.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
@@ -313,7 +307,6 @@ Content Page template: v.1.0.1-->
 				<h5>Just as the Earth has vitalized processes that diversify, so too can we.</h5><br>
 				
 			</div>
-
             
 
 			<div id="side-module-desktop-mobile">
@@ -322,6 +315,14 @@ Content Page template: v.1.0.1-->
 					<h5>Just as the Earth dispersed energy out to all, so too can we with our process that manage used plastic.</h5><br>
 					
 				</div>
+
+				<div id="side-module-desktop-mobile">
+				<img src="webp/earthservice-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
+				<br><h4>Following the Earth's Example</h4>
+				<h5>Just as the Earth has greened the planet's surface, so can we follow its ways to do the same.  Learn about the primordial story of the Earth and plastic.</h5><br>
+				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
+                <br>
+			</div>   
 
 
 
