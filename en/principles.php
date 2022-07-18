@@ -308,7 +308,7 @@ Content Page template: v.1.0.1-->
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/vitalizing-biodiversity-400px.webp" width="100%" loading="lazy" alt="supporting biodiversity">
+				<img src="webp/vitalizing-biodiversity-400px.webp?v=2" width="100%" loading="lazy" alt="supporting biodiversity">
 				<h4>Vitalizing Biodiversity</h4>
 				<h5>Just as the Earth has vitalized processes that diversify, so too can we.</h5><br>
 				
