@@ -294,20 +294,18 @@ Content Page template: v.1.0.1-->
 			</div>   
 
 		<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth-full-400px.png" width="80%" alt="For-Earth Enterprise through eco bricking">
-				<h4>Ecological Accounting</h4>
-				<h5>Just as the Earth raised the awareness of interconnection of life, so too can we raise our our awareness of our impacts, by accounting for them.</h5><br>
+				<img src="webp/earthen-ethics-500px.webp?v=2" width="80%" alt="For-Earth Enterprise through eco bricking">
+				<h4>Earthen Ethics</h4>
+				<h5>Ecobrick principles are based on Earthen Ethics, the philosophy of folowing the Earth's example.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/vitalizing-biodiversity-400px.webp" width="100%" loading="lazy" alt="supporting biodiversity">
-				<h4>Vitalizing Biodiversity</h4>
-				<h5>Just as the Earth has vitalized processes that diversify, so too can we.</h5><br>
-				
+				<img src="webp/ecological-accounting-400px.webp" width="90%" alt="For-Earth Enterprise through eco bricking">
+				<h4>Ecological Accounting</h4>
+				<h5>Just as the Earth raised the awareness of interconnection of life, so too can we raise our our awareness of our impacts, by accounting for them.</h5><br>
+				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
 			</div>
-			
-		
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/vitalizing-biodiversity-400px.webp" width="100%" loading="lazy" alt="supporting biodiversity">
