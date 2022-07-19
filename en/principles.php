@@ -42,7 +42,6 @@ Content Page template: v.1.0.1-->
 
 		<div class="page-paragraph">
 	
-
 		<p>The South East Asian ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines.  Inspired by their <a href="/ayyew">ayyew ecological ethos</a>, the work of the Global Ecobrick Alliance has come to be guided by regenerative principles to rise above the old paradigm of plastic 'waste'.  Instead, through ecobricking, our daily plastic becomes a valuable opportunity to follow the <a href="/plastic">the Earth's example</a> of care.</p>
         
 		<!--
@@ -251,10 +250,11 @@ Content Page template: v.1.0.1-->
             </div>
 
 			<br><br>
-						 <h3>Sustainability vs Regenerative</h3>
+						 
 
-			<div class="page-paragraph-reg">
-                 
+			<div class="page-paragraph">
+            
+			<h3>Sustainability vs Regenerative</h3>
                 
 			
 			<p>It can be helpful to better understand the ecobrick ethos, by clarifying what it is not.  Ecobricking is often mistakenly referred to as a ‘sustainable’ technology or as promoting ‘sustainability’.  In so far as the popular use of the term ‘sustainable’ refers to enabling the status quo and allowing our current petro-capital economy to continue, ecobricking is not this. From the principles above, the ecobricking ethos distinguishes itself from sustaining the continuation of plastic consumption, sustaining the role of petro-powered industrial systems, and sustaining economy powered by fossil fuels.</p>
@@ -274,7 +274,7 @@ Content Page template: v.1.0.1-->
 		</div>
 
          <div class="side2">
-			<br><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/2020-Regenerative-Living-vs-Capital-Economy-1500px-2-300x212.png" width="90%" alt="sustaining vs. regenerative" loading="lazy">
+			<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
 		</div>
 	</div>
 </div>
