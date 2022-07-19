@@ -295,7 +295,7 @@ Content Page template: v.1.0.1-->
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/ecological-accounting-icon-from-ecobricks-org.svg?v=5" width="70%" alt="For-Earth Enterprise through eco bricking">
+				<img src="icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="70%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Ecological Accounting</h4>
 				<h5>Just as the Earth raised the awareness of interconnection of life, so too can we raise our our awareness of our impacts, by accounting for them.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>

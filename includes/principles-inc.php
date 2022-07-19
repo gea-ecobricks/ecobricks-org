@@ -95,7 +95,7 @@ ul {
   	position: relative;
   	text-align: center;
   	flex: 35%;
-	padding: 0px;
+	padding: 30px;
 	box-sizing: border-box;
 	margin-top: 0px;
 }
@@ -107,7 +107,7 @@ ul {
   z-index: 5;
   position: relative;
   flex: 65%;
-	padding: 10px 30px 0px 0px;
+	padding: 0px 30px 0px 0px;
 	box-sizing: border-box;
 	text-align: left;
 	margin: auto;
