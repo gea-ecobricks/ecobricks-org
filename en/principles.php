@@ -17,9 +17,9 @@ Content Page template: v.1.0.1-->
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Our Regenerative Principles</div>
-		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
+		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are a part.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=1" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=1" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
