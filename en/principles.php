@@ -19,7 +19,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Our Regenerative Principles</div>
 		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v1.svg" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v2.svg" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -288,7 +288,7 @@ Content Page template: v.1.0.1-->
 
 
 		<div id="side-module-desktop-mobile">
-				<img src="webp/earthen-ethics-500px.webp?v=3" width="80%" alt="For-Earth Enterprise through eco bricking">
+				<img src="icons/earthen-ethics-icon-ecobricks-org.svg" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Earthen Ethics</h4>
 				<h5>Ecobrick principles are based on Earthen Ethics, the philosophy of folowing the Earth's example.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
@@ -302,7 +302,7 @@ Content Page template: v.1.0.1-->
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="100%" loading="lazy" alt="supporting biodiversity">
+				<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="80%" loading="lazy" alt="supporting biodiversity">
 				<h4>Vitalizing Biodiversity</h4>
 				<h5>Just as the Earth has vitalized processes that diversify, so too can we.</h5><br>
 				
@@ -310,14 +310,14 @@ Content Page template: v.1.0.1-->
             
 
 			<div id="side-module-desktop-mobile">
-					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="90%" alt="For-Earth Enterprise">
+					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="80%" alt="For-Earth Enterprise">
 					<h4>For-Earth</h4>
 					<h5>Just as the Earth dispersed energy out to all, so too can we with our process that manage used plastic.</h5><br>
 					
 				</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="90%" alt="Following the Earth's example through eco bricking">
+				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="80%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Towards Concentration</h4>
 				<h5>Just as the Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
 				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
@@ -325,7 +325,7 @@ Content Page template: v.1.0.1-->
 			</div>   
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/cyclical-design-icon-from-ecobricks-org.svg" width="90%" alt="Following the Earth's example through eco bricking">
+				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="80%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Cyclical Design</h4>
 				<h5>We design towards cycles of indefinite reuse.</h5><br>
 				<a class="module-btn" href="/circular">Circular Design</a>
