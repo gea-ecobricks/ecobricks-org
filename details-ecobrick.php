@@ -157,7 +157,7 @@ img {padding-right: 5%;}
 $serialNo = $_GET['serial_no'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM tb_ecobricks WHERE serial_no LIKE " . $serialNo;
+$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = '" . $serialNo . "'";
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
