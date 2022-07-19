@@ -250,14 +250,15 @@ Content Page template: v.1.0.1-->
             </div>
 
 			<br><br>
-						 
+						
+			<div class="lead-page-paragraph"><h3>Sustainability vs Regenerative</h3></div>
 
 			<div class="page-paragraph">
             
-			<h3>Sustainability vs Regenerative</h3>
+			
                 
 			
-			<p>It can be helpful to better understand the ecobrick ethos, by clarifying what it is not.  Ecobricking is often mistakenly referred to as a ‘sustainable’ technology or as promoting ‘sustainability’.  In so far as the popular use of the term ‘sustainable’ refers to enabling the status quo and allowing our current petro-capital economy to continue, ecobricking is not this. From the principles above, the ecobricking ethos distinguishes itself from sustaining the continuation of plastic consumption, sustaining the role of petro-powered industrial systems, and sustaining economy powered by fossil fuels.</p>
+			<p>It can be helpful to better understand what we mean by regenerative by clarifying what it is now.  Ecobricking is often mistaken a ‘sustainable’ technology.  ‘Sustainability’  tends to refer to the virtue of enabling our current human systems and current way of life to continue.  Here, guided by the principles above, ecobricking technology is not this.  Instead, as regenerative technology, we strive to transition from sustaining the current human systems that deplete ecosystems to ways of living that enrich.</p>
 
 			<p>To be clear, the ecobricking movement and ethos are not against industry or the petro-capital economy.  We would not have come to our principles without our experience of them.  We acknowledge that yesterday’s use of Earth gifted carbon has been an important formative and learning phase for us all– individually and collectively.</p>
 			
