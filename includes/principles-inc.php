@@ -17,7 +17,7 @@ _END;?>
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://ecobricks.org/webp/principles-banner-1600px.webp?v3">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg">
+<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=1">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
@@ -69,7 +69,7 @@ ul {
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 60vh;
+		min-height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
