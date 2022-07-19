@@ -19,7 +19,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Our Regenerative Principles</div>
 		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/webp/earthhome-400px.webp" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v1.svg" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -295,14 +295,14 @@ Content Page template: v.1.0.1-->
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/ecological-accounting-400px.webp" width="90%" alt="For-Earth Enterprise through eco bricking">
+				<img src="icons/ecological-accounting-icon-from-ecobricks-org.svg" width="90%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Ecological Accounting</h4>
 				<h5>Just as the Earth raised the awareness of interconnection of life, so too can we raise our our awareness of our impacts, by accounting for them.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/vitalizing-biodiversity-400px.webp?v=2" width="100%" loading="lazy" alt="supporting biodiversity">
+				<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="100%" loading="lazy" alt="supporting biodiversity">
 				<h4>Vitalizing Biodiversity</h4>
 				<h5>Just as the Earth has vitalized processes that diversify, so too can we.</h5><br>
 				
@@ -310,17 +310,25 @@ Content Page template: v.1.0.1-->
             
 
 			<div id="side-module-desktop-mobile">
-					<img src="/webp/for-earth500px.webp" width="90%" alt="For-Earth Enterprise">
+					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="90%" alt="For-Earth Enterprise">
 					<h4>For-Earth</h4>
 					<h5>Just as the Earth dispersed energy out to all, so too can we with our process that manage used plastic.</h5><br>
 					
 				</div>
 
-				<div id="side-module-desktop-mobile">
-				<img src="webp/earthservice-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
-				<br><h4>Following the Earth's Example</h4>
-				<h5>Just as the Earth has greened the planet's surface, so can we follow its ways to do the same.  Learn about the primordial story of the Earth and plastic.</h5><br>
+			<div id="side-module-desktop-mobile">
+				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="90%" alt="Following the Earth's example through eco bricking">
+				<br><h4>Towards Concentration</h4>
+				<h5>Just as the Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
 				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
+                <br>
+			</div>   
+
+			<div id="side-module-desktop-mobile">
+				<img src="icons/cyclical-design-icon-from-ecobricks-org.svg" width="90%" alt="Following the Earth's example through eco bricking">
+				<br><h4>Cyclical Design</h4>
+				<h5>We design towards cycles of indefinite reuse.</h5><br>
+				<a class="module-btn" href="/circular">Circular Design</a>
                 <br>
 			</div>   
 
