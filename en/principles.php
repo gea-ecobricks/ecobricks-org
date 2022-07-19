@@ -295,7 +295,7 @@ Content Page template: v.1.0.1-->
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/ecological-accounting-icon-from-ecobricks-org.svg?v=3" width="70%" alt="For-Earth Enterprise through eco bricking">
+				<img src="icons/ecological-accounting-icon-from-ecobricks-org.svg?v=4" width="70%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Ecological Accounting</h4>
 				<h5>Just as the Earth raised the awareness of interconnection of life, so too can we raise our our awareness of our impacts, by accounting for them.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
@@ -325,9 +325,9 @@ Content Page template: v.1.0.1-->
 			</div>   
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="70%" alt="Following the Earth's example through eco bricking">
+				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Cyclical Design</h4>
-				<h5>We design towards cycles of indefinite reuse.</h5><br>
+				<h5>Ecobricks and all their applicatins are designed for cycles of indefinite reuse.</h5><br>
 				<a class="module-btn" href="/circular">Circular Design</a>
                 <br>
 			</div>   
