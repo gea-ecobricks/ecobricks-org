@@ -158,7 +158,7 @@ $serialNo = $_GET['serial_no'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
 $sql = "SELECT * FROM tb_ecobricks WHERE serial_no = '" . $serialNo . "'";
-
+echo $sql ;
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 	
@@ -212,6 +212,7 @@ if ($result->num_rows > 0) {
     }
 } else {
     echo "<div id=\"main-details\"><div class=\"serial\">Sorry :-(</div></div><div id=\"details-content\"><div class=\"general-field\">No results for ecobrick serial number $serialNo in the Brikchain.  This is most likely because the Brikchain is still being populated with legacy data.</div>";
+	echo $sql ;
 }
 $conn->close();
 
