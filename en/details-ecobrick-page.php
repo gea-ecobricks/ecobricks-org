@@ -12,7 +12,7 @@ include 'db.php';
 $serialNo = $_GET['serial_no'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = " . $serialNo;
+$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = '" . $serialNo . "'";
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -155,8 +155,9 @@ echo '
 				
 			
 			<div class="ecobrick-data">
-			<p>🚧 The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.
+			<p>🚧 TEST The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.
 				</p></div><br><br><br><br>
+				'. $sql .'
 				<div class="page-paragraph">
 				<h3>The Brikchain</h3>
 			
