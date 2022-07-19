@@ -37,16 +37,13 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Guided by regenerative principles, ecobricking doesn't just prevent a problem, it provides a hands on experience of the regenerative principles that must underly our transition from fossil-fuels.</p>
+			<p>Guided by regenerative principles, ecobricking doesn't just prevent pollution, as a hands on experience of the regenerative principles, it embodies our transition from petro-capitalism to a green new world.</p>
 		</div>
 
 		<div class="page-paragraph">
 	
 		<p>The South East Asian ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines.  Inspired by their <a href="/ayyew">ayyew ecological ethos</a>, the work of the Global Ecobrick Alliance has come to be guided by regenerative principles to rise above the old paradigm of plastic 'waste'.  Instead, through ecobricking, our daily plastic becomes a valuable opportunity to follow the <a href="/plastic">the Earth's example</a> of care.</p>
         
-		<!--
-		<p>In this way, as a non-capital, localized, replicable, spiral and net-green process, ecobricking can accelerate our transition from plastic to ever greener harmony with the Earth's cycles.</p>	
--->
 		</div>
 
 
@@ -251,12 +248,9 @@ Content Page template: v.1.0.1-->
 
 			<br><br>
 						
-			<div class="lead-page-paragraph"><p><b>Sustainability vs Regenerative</p></b>
+			<div class="lead-page-paragraph"><p><b>Sustainability vs Regenerative</p></b></div>
 
-			<div class="page-paragraph">
-            
-			
-                
+			<div class="page-paragraph">    
 			
 			<p>It can be helpful to better understand what we mean by regenerative by clarifying what it is now.  Ecobricking is often mistaken a ‘sustainable’ technology.  ‘Sustainability’  tends to refer to the virtue of enabling our current human systems and current way of life to continue.  Here, guided by the principles above, ecobricking technology is not this.  Instead, as regenerative technology, we strive to transition from sustaining the current human systems that deplete ecosystems to ways of living that enrich.</p>
 
