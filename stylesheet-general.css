@@ -1283,11 +1283,7 @@ border-left-width: 1px;
 
 
 @media screen and (max-width: 700px) {
-	.lead-page-paragraph {
-      font-size: 1.35em;
-      line-height: 1.4;
-      margin: 35px 5% 25px 5%;
-  }
+
 
   .lead-page-paragraph p {
     font-size: 1.35em;
@@ -1297,11 +1293,7 @@ border-left-width: 1px;
 }
 
 @media screen and (max-width: 700px) {
-	.page-paragraph {
-      font-size: 1.07em;
-      line-height: 1.4;
-      margin: 20px 5% 30px 5%;
-  }
+
   .page-paragraph p {
     font-size: 1.07em;
     line-height: 1.4;
