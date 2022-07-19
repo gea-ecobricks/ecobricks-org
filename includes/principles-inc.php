@@ -49,9 +49,11 @@ ul {
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background-color: #088408;
+		
 		
 		background: url(webp/principles-banner-1600px.webp?v6) bottom;
+
+		background-color: #088408;
 		
     	background-repeat: no-repeat;
 		background-size: cover;

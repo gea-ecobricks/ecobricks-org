@@ -1427,7 +1427,7 @@ border-left-width: 1px;
 }
 
 
-
+@media screen and (min-width: 770px) and (max-width: 2000px) {
 
 ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-weight: 300;
@@ -1436,8 +1436,21 @@ ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-size: 1.1em;
   line-height: 1.2;
   margin-top: 15px;
-  
 }
+}
+
+@media screen and (max-width: 769px) {
+
+  ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    color: #222222;
+    font-size: 0.95em;
+    line-height: 1.2;
+    margin-top: 15px;
+  }
+}
+
 
 ul a {
 	color: #222222;
