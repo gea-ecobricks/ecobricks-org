@@ -17,7 +17,7 @@ _END;?>
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://ecobricks.org/webp/principles-banner-1600px.webp?v3">
-<link rel="preload" as="image" href="https://www.ecobricks.org/webp/earthhome-400px.webp">
+<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/earth-home-animated-v2.svg">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
@@ -49,7 +49,7 @@ ul {
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background-color: #00A215;
+		background-color: #008000;
 		
 		background: url(webp/principles-banner-1600px.webp?v6) bottom;
 		
@@ -75,7 +75,7 @@ ul {
 		position: relative;
 		
 		background: url(webp/principles-banner-1600px.webp?v6) bottom left;
-		background-color: #00A215;
+		background-color: #008000;
     	background-repeat: no-repeat;
 		/*margin: -3px 0 -20px 0;*/
 		display: flex;
@@ -193,7 +193,7 @@ ul {
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #00A215; 
+	background-color: #008000; 
 
 }
 
