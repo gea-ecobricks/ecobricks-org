@@ -19,7 +19,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Our Regenerative Principles</div>
 		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are immersed.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v2.svg" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -288,14 +288,14 @@ Content Page template: v.1.0.1-->
 
 
 		<div id="side-module-desktop-mobile">
-				<img src="icons/earthen-ethics-icon-ecobricks-org.svg" width="80%" alt="For-Earth Enterprise through eco bricking">
+				<img src="icons/earthen-ethics-icon-ecobricks-org.svg?v=1" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Earthen Ethics</h4>
 				<h5>Ecobrick principles are based on Earthen Ethics, the philosophy of folowing the Earth's example.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/ecological-accounting-icon-from-ecobricks-org.svg?v=2" width="70%" alt="For-Earth Enterprise through eco bricking">
+				<img src="icons/ecological-accounting-icon-from-ecobricks-org.svg?v=3" width="70%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Ecological Accounting</h4>
 				<h5>Just as the Earth raised the awareness of interconnection of life, so too can we raise our our awareness of our impacts, by accounting for them.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
