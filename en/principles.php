@@ -37,7 +37,7 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Ecobricking is more than just a simple solution for plastic.  Guided by regenerative principles, ecobricking doesn't just prevent a problem, it provides a hands on experience of the regenerative principles that must underly our transition from fossil-fuels.</p>
+			<p>Guided by regenerative principles, ecobricking doesn't just prevent a problem, it provides a hands on experience of the regenerative principles that must underly our transition from fossil-fuels.</p>
 		</div>
 
 		<div class="page-paragraph">
@@ -275,6 +275,7 @@ Content Page template: v.1.0.1-->
 
          <div class="side2">
 			<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
+			<p style="font-size: 0.85em; margin-top:20px;">How does ecobricking compare over a thousand years with other plastic management options?</a></p>
 		</div>
 	</div>
 </div>
