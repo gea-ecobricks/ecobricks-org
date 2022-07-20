@@ -206,11 +206,27 @@ Content Page template: v.1.0.1-->
 
 				<div class="lead-panel-paragraph"><p>Our intentions are powered by mandalic community collaboration.</p></div>
 
+				<div class="row">
+						<div class="main2">
 						<p>Leading by example leverages the full power of mandalic collaboration.  Sharing our example allows others to be inspired by our story, insights, practices and net impact.  In so doing we consciously place ourselves in the center of a replicating, social unfolding.</p>
 						
 						<p>There are different words for it in cultures around the world– the Igorots call it Obo’obo, in Africa its know as ubuntu, in Indonesia gotongrayong, in the Philippines Kawasan.  Whatever the term, the dynamic is the same: a community coming together to realize a shared vision and intention.</p>
 
-						<p>Most often, this is an intention that is for the whole community’s benefit– such as building a bridge or a well.  In our case, it is our common intention of keeping plastic out of the biosphere.  By holding a mission that is to the benefit of individuals, people, communities and the planet, the GEA enables this formidable force to power the realization of its vision.</p>
+						 
+
+						</div>
+						<div class="side2"><img src="webp/mandalic.webp" width="100%">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p>Most often, this is an intention that is for the whole community’s benefit– such as building a bridge or a well.</p>
+						</div>
+						<div class="side3"><img src="webp/mandalic.webp" width="150px">
+						</div>
+					</div>
+
+						<p>In our case, it is our common intention of keeping plastic out of the biosphere.  By holding a mission that is to the benefit of individuals, people, communities and the planet, the GEA enables this formidable force to power the realization of its vision.</p>
 
 						<p>This principle is in contrast to the means by which capital economy motivates and inspires participation through financial remuneration.  As a non-capital technology, ecobricking taps a deeper, more potent values such as community cleanliness, the health of children, the richness of the local ecology, to inspire participation, action and long term vision commitment.</p>
 
@@ -234,15 +250,28 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed5">
 
+
 				
 
 				<div class="lead-panel-paragraph"><p>We strive to include men and women, young and old, rich and poor… and everyone in between.</p></div>
 
+				<div class="row">
+						<div class="main2">
 						<p>In our methods, projects and intentions we strive to rise above old notions of roles and ability and accessibility.  We encourage the collaboration of  groups that are often perceived to have different social rankings (i.e. ‘castes’) to work together on a equal platform of participation.  In other words, rather than a child doing one task and an adult doing another, we design the method so that both can do it together.</p>
 
-						<p>For example the work of making an ecobrick, making a module or building with earth are designed to be equally accessible to just about everybody– and in such a way that no one has advantage by virtue of skill, strength or experience.   In this way, men and women, boys and girls can be equally involved in the cocreative process without traditional castes causing alienation.</p>
-
+						</div>
+						<div class="side2"><img src="photos/transcaste.jpg" width="100%">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
 						<p>This enables us to rise above old gender and generational divides to supercharge our collaborations with many variations of human creativity while further lowering the barriers of replication.</p>
+						</div>
+						<div class="side3"><img src="photos/transcaste.jpg" width="150px">
+						</div>
+					</div>
+
+						<p>For example the work of making an ecobrick, making a module or building with earth are designed to be equally accessible to just about everybody– and in such a way that no one has advantage by virtue of skill, strength or experience.   In this way, men and women, boys and girls can be equally involved in the cocreative process without traditional castes causing alienation.</p>
                 </div>
             </div>
 
