@@ -19,7 +19,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Our Regenerative Principles</div>
 		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are a part.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=1" style="width: 100%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -148,7 +148,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Local & Replicable</h4>
-                    <h5>Low tech, carbon-negative, open and accessibly methodolgies</h5>   
+                    <h5>Low tech, carbon-negative, open and accessibly methodologies</h5>   
                     <br>
                     </div>
 
@@ -258,6 +258,7 @@ Content Page template: v.1.0.1-->
 				<div class="row">
 						<div class="main2">
 						<p>In our methods, projects and intentions we strive to rise above old notions of roles and ability and accessibility.  We encourage the collaboration of  groups that are often perceived to have different social rankings (i.e. ‘castes’) to work together on a equal platform of participation.  In other words, rather than a child doing one task and an adult doing another, we design the method so that both can do it together.</p>
+						<p>For example the work of making an ecobrick, making a module or building with earth are designed to be equally accessible to just about everybody– and in such a way that no one has advantage by virtue of skill, strength or experience.   In this way, men and women, boys and girls can be equally involved in the cocreative process without traditional castes causing alienation.</p>
 
 						</div>
 						<div class="side2"><img src="photos/transcaste.jpg" width="100%">
@@ -271,7 +272,7 @@ Content Page template: v.1.0.1-->
 						</div>
 					</div>
 
-						<p>For example the work of making an ecobrick, making a module or building with earth are designed to be equally accessible to just about everybody– and in such a way that no one has advantage by virtue of skill, strength or experience.   In this way, men and women, boys and girls can be equally involved in the cocreative process without traditional castes causing alienation.</p>
+						
                 </div>
             </div>
 
