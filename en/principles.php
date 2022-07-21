@@ -181,7 +181,7 @@ Content Page template: v.1.0.1-->
 
 				<div class="row">
 						<div class="main2">
-						<p>Every day thousands of tons of plastic flow loose into the biosphere. Meanwhile, the consumption of plastic and its production are on the increase.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion and economic growth rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
+						<p>Every day thousands of tons of plastic flow into the biosphere. Meanwhile, the consumption of plastic and its production increase.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion and economic growth rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
 
 						</div>
 						<div class="side2"><img src="webp/eb-sky-400px.webp" width="100%">
