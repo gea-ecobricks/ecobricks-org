@@ -128,14 +128,29 @@ Content Page template: v.1.0.1-->
 				<div class="lead-panel-paragraph"><p>
 					We strive to lead by example with our plastic transition and regenerative living.</p></div>
 					
+					<div class="row">
+						<div class="main2">
+						
 						<p>Ghandi challenged us all to <i>“be the change you want to see in the world“</i>.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
-
-						<p>By leading by example in following the Earth's example, we can be a powerful inspiration.  Especially, when our example is amplified by our plastic accounting.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p><br><br>
+						 
+						</div>
+						<div class="side2"><img src="pngs/community.png" width="100%">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p>By leading by example in following the Earth's example, we can be a powerful inspiration.</p>
+						</div>
+						<div class="side3"><img src="pngs/community.png" width="150px">
+						</div>
+					</div>
+					
+						<p>Especially, when our example is amplified by our plastic accounting.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p><br><br>
 
 						<hr>
 
 						<h5>🟢 Our <a href="/catalyst">catalyst program</a> allows oraganizations, projects and enterprises to lead by example with their plastic accounting.</h5>
-				<h5>🟢 Tracking ones personal or household <a href="transition.php#score">plastic transition score</a> is a way to lead by example.</h5>
+						<h5>🟢 Tracking ones personal or household <a href="transition.php#score">plastic transition score</a> is a way to lead by example.</h5>
 
                 		</div>
            		 </div>
@@ -162,9 +177,23 @@ Content Page template: v.1.0.1-->
 
                 <div class="lead-panel-paragraph"><p>We strive towards accessible methods and means that are accessible to anyone, anywhere.</p></div>
 
-				<p>Every day thousands of tons of plastic flow loose into the biosphere. Meanwhile, the consumption of plastic and its production are on the increase.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion and economic growth rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
+				
 
-				<p>Our principle of replicability encompasses several of our other principles.
+				<div class="row">
+						<div class="main2">
+						<p>Every day thousands of tons of plastic flow loose into the biosphere. Meanwhile, the consumption of plastic and its production are on the increase.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion and economic growth rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
+
+						</div>
+						<div class="side2"><img src="webp/eb-sky-400px.webp" width="100%">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p>Our principle of local replicability encompasses several of our other principles.</p>
+						</div>
+						<div class="side3"><img src="webp/eb-sky-400px.webp" width="150px">
+						</div>
+					</div>
 
     			<p><ul>
 					<li><b>Localized:</b> By designing with local, organic or upcycled materials (that are ideally freely available) we remove resource barriers to replication.</li>
