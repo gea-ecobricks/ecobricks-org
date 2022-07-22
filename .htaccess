@@ -110,6 +110,10 @@ Redirect /arc /en/arc.php
 Redirect /arc/ /en/arc.php
 Redirect /arc.php /en/arc.php
 
+Redirect /principles /en/principles.php
+Redirect /principles/ /en/arc.php
+Redirect /principles.php /en/arc.php
+
 
 Redirect /catalyst /en/catalyst.php
 Redirect /catalyst/ /en/catalyst.php

@@ -8,7 +8,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/en/principles.php"/>
+	<meta property="og:url"           content="https://ecobricks.org/fr/principles.php"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Principes régénératifs | Ecobricks.org">
   	<meta property="og:description"   content="L'écobrique est guidée par des principes qui nous orientent vers une harmonie toujours croissante avec les cycles écologiques dont nous faisons partie."/>
