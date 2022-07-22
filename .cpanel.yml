@@ -30,7 +30,6 @@ deployment:
   - /bin/cp sitemap-multilingual.xml $DEPLOYPATH
   - /bin/cp arc-sw.js $DEPLOYPATH
   - /bin/cp accordion-scripts.js $DEPLOYPATH
-  - /bin/cp db.php $DEPLOYPATH
   - /bin/cp ssp.class.php $DEPLOYPATH
   - /bin/cp ajax-ecobricks.php $DEPLOYPATH
   - /bin/cp ajax-cash-trans.php $DEPLOYPATH
@@ -40,6 +39,8 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+  - /bin/cp principles.php $DEPLOYPATH
+
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -70,7 +71,6 @@ deployment:
   - /bin/cp sitemap-multilingual.xml $DEPLOYPATH
   - /bin/cp arc-sw.js $DEPLOYPATH
   - /bin/cp accordion-scripts.js $DEPLOYPATH
-  - /bin/cp db.php $DEPLOYPATH
   - /bin/cp ssp.class.php $DEPLOYPATH
   - /bin/cp ajax-ecobricks.php $DEPLOYPATH
   - /bin/cp ajax-cash-trans.php $DEPLOYPATH
@@ -80,6 +80,7 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+  - /bin/cp principles.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -109,7 +110,6 @@ deployment:
   - /bin/cp sitemap-multilingual.xml $DEPLOYPATH
   - /bin/cp arc-sw.js $DEPLOYPATH
   - /bin/cp accordion-scripts.js $DEPLOYPATH
-  - /bin/cp db.php $DEPLOYPATH
   - /bin/cp ssp.class.php $DEPLOYPATH
   - /bin/cp ajax-ecobricks.php $DEPLOYPATH
   - /bin/cp ajax-cash-trans.php $DEPLOYPATH
@@ -119,6 +119,7 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+  - /bin/cp principles.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -148,7 +149,6 @@ deployment:
   - /bin/cp sitemap-multilingual.xml $DEPLOYPATH
   - /bin/cp arc-sw.js $DEPLOYPATH
   - /bin/cp accordion-scripts.js $DEPLOYPATH
-  - /bin/cp db.php $DEPLOYPATH
   - /bin/cp ssp.class.php $DEPLOYPATH
   - /bin/cp ajax-ecobricks.php $DEPLOYPATH
   - /bin/cp ajax-cash-trans.php $DEPLOYPATH
@@ -158,6 +158,7 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+  - /bin/cp principles.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -187,7 +188,6 @@ deployment:
   - /bin/cp sitemap-multilingual.xml $DEPLOYPATH
   - /bin/cp arc-sw.js $DEPLOYPATH
   - /bin/cp accordion-scripts.js $DEPLOYPATH
-  - /bin/cp db.php $DEPLOYPATH
   - /bin/cp ssp.class.php $DEPLOYPATH
   - /bin/cp ajax-ecobricks.php $DEPLOYPATH
   - /bin/cp ajax-cash-trans.php $DEPLOYPATH
@@ -197,6 +197,7 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+  - /bin/cp principles.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 

@@ -1,4 +1,4 @@
-{
+/*{
     "cSpell.ignoreWords": [
         "Ecobrick",
         "ecobricking",
@@ -8,5 +8,14 @@
         "Dieleman",
         "Milstein",
         "photodegradation"
-    ]
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-folder-ecobricks-org": {
+            "name": "custom-dictionary-folder-ecobricks-org",
+            "path": "${workspaceFolder:ecobricks-org}/.cspell/custom-dictionary-folder-ecobricks-org.txt",
+            "addWords": true,
+            "scope": "folder"
+        }
+    }
 }
+*/
