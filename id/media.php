@@ -47,8 +47,8 @@ Content Page template: v.1.0.1-->
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Terms & Spellings</h4>
-						<h5>The generally accepted spelling for key terms.</h5>
+						<h4>Syarat & Ejaan</h4>
+						<h5>Ejaan yang diterima secara umum untuk istilah-istilah kunci.</h5>
 					</div>
 					
 
@@ -60,19 +60,19 @@ Content Page template: v.1.0.1-->
 					<br>
 					
 					<p><b>Ecobrick</b></p>
-                    <p><b>"ecobrick"</b> — no space, hyphen or added capitalization is the recongnized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/<b>ecobricks.</b></a></p>
+                    <p><b>"ecobrick"</b> — tidak ada spasi, tanda hubung, atau kapitalisasi tambahan dalam ejaan yang dikenali. Ini adalah ejaan yang dikenali dari entri dan url Wikipedia ecobrick: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/<b>ecobricks.< /b></a></p>
 
-                    <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2014, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.  The ecobrick wikipedia page was updated accordingly in 2016.</p> 
+                    <p>Dulu istilah seperti "bottle brick", "eco brick" dan "eco-brick" telah digunakan untuk merujuk pada botol PET yang dikemas dengan plastik. Pada tahun 2014, para pemimpin transisi plastik di seluruh dunia berunding dan setuju bahwa konsep kami layak mendapatkan kata yang lengkap dan dinormalisasi. Halaman wikipedia ecobrick telah diperbarui pada tahun 2016.</p>
                     
-                    <p>NOTE:  Other brick making technologies borrow the term ecobrick by using a variety of spellings.  Corporations such as Nestle have attempted to appropriate 'ecobrick' for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick" target="_blank">recognized wikipedia disambiguation for the non-hyphenated spelling.</a></p><br>
+                    <p>CATATAN: Teknologi pembuatan batu bata lainnya meminjam istilah ecobrick dengan menggunakan berbagai ejaan. Korporasi seperti Nestle telah berusaha untuk menyesuaikan 'ecobrick' untuk program tanggung jawab sosial perusahaan blok semen mereka. Namun, sekuestrasi plastik dalam botol PET adalah <a href="https://en.wikipedia.org/wiki/Eco-Brick" target="_blank">disambiguasi wikipedia yang diakui untuk ejaan tanpa tanda penghubung.</a ></p><br>
 
-                    <p><b>Plastic Sequestration</b></p>
-                    <p>The goal of ecobricking is the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sequestration of plastic</a>.  This is the official term as defined and recognized on wikipedia.</p>
+                    <p><b>Sekuestrasi Plastik</b></p>
+                    <p>Tujuan dari ecobrick adalah <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sekuestrasi plastik</a>. Ini adalah istilah resmi sebagaimana didefinisikan dan diakui di wikipedia.</p>
                     <br>
                     <p><b>Ecobricker</b></p>
-                    <p>Someone who makes an ecobricks or who has committed to ecobricking all their plastic</p><br>
-                    <p><b>Ecobricking</b><p>
-                    <p>The act of sequestering plastic inside an ecobrick.</p>
+                    <p>Seseorang yang membuat ecobrick atau yang telah berkomitmen untuk ecobrick semua plastiknya</p><br>
+                    <p><b>Ekobrik</b><p>
+                    <p>Tindakan mengikat plastik di dalam ecobrick.</p>
                     <br>
                  			
 				</div>	
