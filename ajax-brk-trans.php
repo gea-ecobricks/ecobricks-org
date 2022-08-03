@@ -43,7 +43,7 @@ $columns = array(
         return ''.date($d).''; 
     }
 ),
-    array( 'db' => 'sender_ecobricker',     'dt' => 1 ),
+    array( 'db' => 'sender',     'dt' => 1 ),
     //array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
     array( 'db' => 'block_tran_type', 'dt' => 2 ),
    

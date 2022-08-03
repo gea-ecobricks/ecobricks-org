@@ -254,7 +254,7 @@ if ($result->num_rows > 0) {
 			echo " <div class=\"general-field\"><b>Authenticated Ecobrick:</b> " . $array["ecobrick_serial_no"] . "</var></div>";
 		}
 
-		echo " <div class=\"general-field\"><b>Sender:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
+		echo " <div class=\"general-field\"><b>Sender:</b> <var>" . $array["sender"] . "</var></div>" ;
 
 		echo " <div class=\"general-field\"><b>Receiver(s):</b> <var>" . $array["receiver_or_receivers"] . "</var></div>" ;
 		
