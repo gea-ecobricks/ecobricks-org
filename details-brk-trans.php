@@ -246,7 +246,7 @@ if ($result->num_rows > 0) {
 		echo " <div class=\"amount\"><b>Transfer amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></div>" ;
 
 		if ( isset($array["ecobrick_serial_no"]) && $array["ecobrick_serial_no"] != '' ) {  
-			echo ' <div class="status"><b>Authenticated Ecobrick:</b><a href="details-ecobrick-page.php?serial_no=' . $array["ecobrick_serial_no"] . '"</a></var></div>';
+			echo ' <div class="status"><b>Authenticated Ecobrick:</b><a href="details-ecobrick-page.php?serial_no=' . $array["ecobrick_serial_no"] . '">' . $array["ecobrick_serial_no"] . '</a></var></div>';
 		}
 
 		echo "  <div class=\"status\"><b>Generated:</b> " . $array["send_ts"] . "</div>" ;
