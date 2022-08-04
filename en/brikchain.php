@@ -115,7 +115,7 @@
 
 	if ($result->num_rows > 0) {
 	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Total BRK</th><th>Total Briks</th><th>Total Weight</th><th>Year Expenses</th><th>BRK Value</th></tr>';
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Authenticated</th><th>Total AES Plastic</th><th>Year Expenses</th><th>BRK Value</th></tr>';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
