@@ -39,7 +39,10 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+
   - /bin/cp principles.php $DEPLOYPATH
+  - /bin/cp brikchain.php $DEPLOYPATH
+  - /bin/cp ecobrickable.php $DEPLOYPATH
 
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
@@ -80,7 +83,10 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+
   - /bin/cp principles.php $DEPLOYPATH
+  - /bin/cp brikchain.php $DEPLOYPATH
+  - /bin/cp ecobrickable.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -119,7 +125,10 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+
   - /bin/cp principles.php $DEPLOYPATH
+  - /bin/cp brikchain.php $DEPLOYPATH
+  - /bin/cp ecobrickable.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -158,7 +167,10 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+
   - /bin/cp principles.php $DEPLOYPATH
+  - /bin/cp brikchain.php $DEPLOYPATH
+  - /bin/cp ecobrickable.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -197,7 +209,10 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+
   - /bin/cp principles.php $DEPLOYPATH
+  - /bin/cp brikchain.php $DEPLOYPATH
+  - /bin/cp ecobrickable.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
