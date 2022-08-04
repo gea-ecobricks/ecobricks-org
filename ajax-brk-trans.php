@@ -36,16 +36,24 @@ $primaryKey = 'tran_id';
 
 $columns = array(
 
-  array(
+    array(    'db' => 'chain_ledger_id',     
+    'dt' => 0,
+    'formatter' => function( $d, $row ) {
+        return '📂 <a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
+        onclick="window.open(\'details-brk-trans.php?tran_id='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">'.($d).'</a>';
+    }
+),
+
+array(
     'db'        => 'send_dt',
-    'dt'        => 0,
+    'dt'        => 1,
     'formatter' => function( $d, $row ) {
         return ''.date($d).''; 
     }
 ),
-    array( 'db' => 'sender',     'dt' => 1 ),
+    array( 'db' => 'sender',     'dt' => 2 ),
     //array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
-    array( 'db' => 'block_tran_type', 'dt' => 2 ),
+    array( 'db' => 'block_tran_type', 'dt' => 3 ),
    
    // array(
      //   'db'        => 'block_amt',
@@ -56,24 +64,18 @@ $columns = array(
    // ),
     array(
         'db'        => 'individual_amt',
-        'dt'        => 3,
+        'dt'        => 4,
         'formatter' => function( $d, $row ) {
             return '<var>'.number_format($d,2).'&#8202;ß</var>';
         }
     ),
 
-    array(    'db' => 'tran_id',     
-    'dt' => 4,
-    'formatter' => function( $d, $row ) {
-        return '<a href="details-brk-trans.php?tran_id='.($d).'" target="popup"
-        onclick="window.open(\'details-brk-trans.php?tran_id='.($d).'\',\'popup\',\'width=600,height=800\'); return false;">📂 '.($d).'</a>';
-    }
-),
+
 
     array( 'db' => 'ecobrick_serial_no',     
 'dt' => 5,
 'formatter' => function( $d, $row ) {
-    return '<a href="details-ecobrick-page.php?serial_no='.($d).'">🔎 '.($d).'</a>';
+    return '🔎 <a href="details-ecobrick-page.php?serial_no='.($d).'">'.($d).'</a>';
 }
 ),
 
