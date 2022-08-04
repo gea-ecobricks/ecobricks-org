@@ -3,7 +3,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/catalyst-inc.php");?>
+<?php require_once ("includes/brickable-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>-->
@@ -36,7 +36,9 @@ Content Page template: v.1.0.1-->
 			</div>
 
 			<div class="page-paragraph">
-				<p>The majority of today’s products are manufactured without thought to where they will go once consumed. Many products are even designed to fail within a certain period to promote further consumption. This design ethic (or lack of it) is one of the root causes of plastic pollution.  Learning from the ecologies around us, the first step is to shift from linear consumption design (and dead-end plastic products) to cradle-to-cradle, circular design.  Afterall, plastic isn’t a ‘bad’ material in and of itself– its how we’ve been putting it to use that has been causing problems.  Designing a product as Ecobrickable, and clearly designating it as so, can be a giant leap for a company into the brave new world of circular design and regenerative business.  The GEA has developed guidelines and a designator symbol to assist companies in their plastic transition.</i><p> 
+				<p>The majority of today’s products are manufactured without thought to where they will go once consumed. Many products are even designed to fail within a certain period to promote further consumption. This design ethic (or lack of it) is one of the root causes of plastic pollution.  </p>
+                    
+                <p>Learning from the ecologies around us, the first step is to shift from linear consumption design (and dead-end plastic products) to cradle-to-cradle, circular design.  Afterall, plastic isn’t a ‘bad’ material in and of itself– its how we’ve been putting it to use that has been causing problems.  Designing a product as Ecobrickable, and clearly designating it as so, can be a giant leap for a company into the brave new world of circular design and regenerative business.  The GEA has developed guidelines and a designator symbol to assist companies in their plastic transition.</i><p> 
 
 				<p>For many companies making the switch to circular design and extended producer responsibility (EPR) appears to require a massive investment in manufacturing, material sourcing as well as implementing new systems to reabsorb their dead products. Furthermore it may seem that the required organic materials are still on the horizon.  The transition can appear daunting!</p>
 				
@@ -44,9 +46,27 @@ Content Page template: v.1.0.1-->
 					
 				<p>With a little forethought and advanced planning, a product can be made easily and effectively ecobrickable.  In this way, ecobrickable designs enables companies and designers to make their first step to cradle-to-cradle and ayyew vision.  Designating a product or package as ecobrickable gives it a next life and purpose.  When ecobricked, the plastic is saved from a fate of industrial recycling, incineration, and/or dumping.  The ecobricked plastic is transformed into a reusable building block. Ecobricks and their applications are themselves cradle-to-cradle and follow regenerative principles, enabling an indefinite, localized cycle of reuse of the ecobricked plastic.</p>
 
-                <h3>Ecobrickable Design Guidelines</h3>
+           
 
-<p>The GEA has established simple criteria to meet when designing your product or packaging.  It is obligatory that your product meet these stipulation in order to use Ecobrickable Designator Symbol your product or packaging must…</p>
+			</div>	
+
+			<div class="reg-content-block" id="block1">
+				
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+						<h4>Brickable Icon Use Requirements</h4>
+						<h5>Design criteria for products to use the designator icon.</h5>
+					</div>
+					
+
+					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+					
+				</div>
+
+				<div id="preclosed1">
+					<br>
+					<p>The GEA has established simple criteria to meet when designing your product or packaging.  It is obligatory that your product meet these stipulation in order to use Ecobrickable Designator Symbol your product or packaging must…</p>
 
 <ul>
 
@@ -57,53 +77,7 @@ Content Page template: v.1.0.1-->
     <li>… not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.</li>
     <li>… not contain reactive chemicals, or if so, these components are clearly marked as un-ecobrickable.</li>
 </ul>
-					
-				<p>The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals.   See copyright notice and terms below.</p>
-				<br><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
-
-			</div>	
-
-			<div class="reg-content-block" id="block1">
-				
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-						<h4>Plastic Transition Tracking</h4>
-						<h5>Monitor your subtractive and additive plastic impacts over the year.</h5>
-					</div>
-					
-
-					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-					
-				</div>
-
-				<div id="preclosed1">
-					<br>
-					<div class="row">
-						<div class="main2">
-							<p>Today its clear that the vast majority of the plastic we use eventually makes its way to the biosphere.  When your enterprise consumes or produces plastic, we call this a "grey plastic impact".  Tracking your company's production and consumption of plastic is the first step in reducing one's grey impact on the environment.</p>
-						</div>
-						<div class="side2"><img src="webp/balancing-green.webp" width="60%" alt="net green impact" loading="lazy">
-						</div>
-					</div>
-
-					<div class="row2">
-						<div class="main3">
-						<br><p><b>Get started in 15 minutes</b></p>
-					
-						</div>
-						<div class="side3"><img src="webp/balancing-green.webp" width="125px" loading="lazy">
-						</div>
-					</div>
-					<p>The Catalyst program gets you going in no time using a process of estimation refinement. As an owner, manager of president of your enterprise you can estimate better than anyone else how much plastic you are currently using.</p>
-					<p>
-					Month by month, you and your team will receive Plastic Transition reports.  These reports will remind you and your team to step up their reduction and subtraction initiatives.  As you put attention on your plastic you can refine your estimates.</p>
-					<br><p><b>Detailed Tracking</b></p>
-				<p>Once your enterprise has established systems for detailed plastic tracking and weighing, you can enabled month by month data entry.  Managers can observe the enterprise's plastic transition charted over the year. </p>
-				<br><p><b>Reaching out to communities</b></p>
-				<p>By catalyzing ecobrick workshops in communities, you can gain credit for the ecobricks made by participants.  Over the course of the year, our system can track in real time the social increase of your green impact.</p>
+		
 						
 				</div>	
 			</div>
@@ -111,48 +85,17 @@ Content Page template: v.1.0.1-->
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
 					<div class="opener-header-text">
-						<h4>Plastic Transition Disclosure</h4>
-						<h5>Certification & Hosting of your Report</h5><br>
+						<h4>Creative Commons License</h4>
+						<h5>Conditions for graphic use</h5><br>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 				</div>
 
 				<div id="preclosed2">
-					<div class="row">
-						<div class="main2">
-						<p>You're passionate about the planet and so is your enterprise.  So let the world know through open accounting and transparency!  Plastic transition disclosure allows you to showcase your efforts, lead by example and inspire others.</p>
-						</div>
-						<div class="side2"><img src="webp/floating-dial-500px.webp" width="175px" alt="ecological accounting score" loading="lazy">
-						</div>
-					</div>
-
-					
-
-					<div class="row">
-						
-						<p><b>Automated Reporting</b></p>
-						<p>The Catalyst program allows you to create yearly plastic impact reports that summarize your grey and green impacts.  As a third-party host, we certify your AES plastic impacts so that you can confidently share them with your customers, clients and in government sustainability reviews.</p>
-						
-					</div>
-
-
-
-					
-
-					<div class="row2">
-						<div class="main3">
-						<br><p><b>Public Disclosure</b></p>
-						
-						</div>
-						<div class="side3"><img src="pngs/disclosedial.png" width="150px" alt="ecological accounting score" loading="lazy">
-						</div>
-					</div>
-					
-					<p>Showcase your plastic transition with our GEA certified banners on your website, products and marketing.  Link to your reports and showcase your plastic transition.  Like this...</p><br>
-					<p>
-					<img src="https://www.ecobricks.org/banners/gea-disclose-300px.png" width="250px"></p>
+                <p>The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals.   See copyright notice and terms below.</p>
 				</div>
 			</div>
+            
 
 			<div class="reg-content-block" id="block3">
 
