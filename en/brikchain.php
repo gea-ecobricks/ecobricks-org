@@ -60,7 +60,7 @@
 
 
 	<div class="page-paragraph">
-		<h4>Brikcoin Blocks & Transactions</h4>
+		<h4>Blocks & Transactions</h4>
 		<h6>An overview of all brikcoins generated and exchanged.</h6>
 		<div class="ecobrick-data"><p>🚧 Not yet live.  Migration completed.  Sync pending.</p></div>
 	</div>
@@ -120,7 +120,7 @@
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td><td><var>".$row["brick_count"]."&#8202;briks</var></td><td><var>".$row["weight"]."&#8202;Kg</var></td></tr>";
+		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td><td><var>".$row["brick_count"]."&#8202;briks</var></td><td><var>".$row["weight"]."&#8202;Kg</var></td><td><var>".$row["tot_usd_exp_amt"]."&#8202;Kg</var></td><td><var>Expenses/Weight</var></td></tr>";
 		}
 		echo "</table>";
 	} else {
