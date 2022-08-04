@@ -48,7 +48,7 @@ _END;?>
 		background-size: cover;
 		
 		text-align: left;
-		height: 70vh;
+		min-height: 70vh;
 		padding: 20px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
