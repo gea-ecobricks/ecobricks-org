@@ -9,7 +9,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-  <meta property="og:url"           content="https://www.ecobricks.org/es/">
+  <meta property="og:url"           content="https://ecobricks.org/es/">
   <meta property="og:type"          content="website">
  <meta property="og:title"         content="Transición Plástica | Ecobricks.org">
   <meta property="og:description"   content="Los ecobricks evitan que el plástico se convierta en contaminación, que se recicle o se incinere. Crean los ecoladrillos para el mundo verde para todos, que todos anhelamos ver."/>

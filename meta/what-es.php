@@ -8,7 +8,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://www.ecobricks.org/es/what.php"/>
+	<meta property="og:url"           content="https://ecobricks.org/es/what.php"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Apa itu ecobrick? | Ecobricks.org">
   	<meta property="og:description"   content="Los ecobricks son una solución de transición plástica para fabricar eco-ladrillos reutilizables de plástico secuestrado."/>

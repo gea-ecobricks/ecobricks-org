@@ -8,11 +8,11 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-  <meta property="og:url"           content="https://www.ecobricks.org/id/">
+  <meta property="og:url"           content="https://ecobricks.org/id/">
   <meta property="og:type"          content="website">
  <meta property="og:title"         content="Transisi Plastik | Ecobricks.org  | GEA Indonesia">
   <meta property="og:description"   content="Ecobrick mencegah plastik menjadi polusi, didaur ulang atau dibakar. Eco brikcs menciptakan blok bangunan untuk dunia hijau untuk semua, yang kita semua ingin melihat."/>
-  <meta property="og:image"         content="https://www.ecobricks.org/pngs/social-banner2.png"/>
+  <meta property="og:image"         content="https://ecobricks.org/pngs/social-banner2.png"/>
   	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="686" />
   <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it."/>

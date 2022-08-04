@@ -8,11 +8,11 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://www.ecobricks.org/id/what.php"/>
+	<meta property="og:url"           content="https://ecobricks.org/id/what.php"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Apa itu ecobrick? | Ecobricks.org">
   	<meta property="og:description"   content="Ecobrick adalah solusi transisi plastik untuk membuat blok bangunan yang dapat digunakan kembali dari plastik yang diasingkan."/>
-  	<meta property="og:image"         content="https://www.ecobricks.org/pngs/what-page-ecobrick-banner-1024px.png"/>
+  	<meta property="og:image"         content="https://ecobricks.org/pngs/what-page-ecobrick-banner-1024px.png"/>
   	<meta property="og:image:width" content="1024" />
 	<meta property="og:image:height" content="1017" />
   	<meta property="og:image:alt"     content="Ecobrick yang dikemas dengan pastic menggunakan tongkat kayu."/>

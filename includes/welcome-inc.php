@@ -19,12 +19,12 @@ _END;?>
 
 
 <!--  Set any page specific graphics to preload-->
-<link rel="preload" as="image" href="https://www.ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-mobile.svg">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/top-clouds-animated-desktop">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/ecobrickable-square.svg">
-<link rel="preload" as="image" href="https://www.ecobricks.org/webp/mountain-top2.webp">
-<link rel="preload" as="image" href="https://www.ecobricks.org/webp/vision-bottom4.webp">
+<link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-mobile.svg">
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-animated-desktop">
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/ecobrickable-square.svg">
+<link rel="preload" as="image" href="https://ecobricks.org/webp/mountain-top2.webp">
+<link rel="preload" as="image" href="https://ecobricks.org/webp/vision-bottom5.webp">
 <!--This loads CSS specific to the landing page
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/welcome.css?v1.3">-->
 
@@ -77,7 +77,7 @@ _END;?>
 
 
 #cloud-banner {
-background: url("/webp/vision-bottom5.webp") center top;
+background: url("https://ecobricks.org/webp/vision-bottom5.webp") center top;
 background-repeat: no-repeat;
 background-size: cover;
 z-index: 4;
@@ -105,7 +105,7 @@ margin-top: 0px;
 */
 
 #cloud-banner {
-background: url(/webp/vision-bottom5.webp) center top;
+background: url(https://ecobricks.org/webp/vision-bottom5.webp) center top;
 background-repeat: no-repeat;
 background-size: cover;
 z-index: 4;
@@ -1095,7 +1095,7 @@ text-align: center;
 
 @media screen and (min-width: 770px) and (max-width: 2000px) {
 #content-sect3 {
-    background: url("/webp/visionscape.webp");
+    background: url("https://ecobricks.org/webp/visionscape.webp");
     background-position: center bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1108,7 +1108,7 @@ text-align: center;
 }
 @media screen and (min-width: 0px) and (max-width: 769px) {
 #content-sect3 {
-    background: url("/webp/visionscape-800.webp");
+    background: url("https://ecobricks.org/webp/visionscape-800.webp");
     background-position: right bottom;
     background-size: contain;
     background-repeat: no-repeat;

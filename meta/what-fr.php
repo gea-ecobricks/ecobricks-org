@@ -8,11 +8,11 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://www.ecobricks.org/en/what.php"/>
+	<meta property="og:url"           content="https://ecobricks.org/en/what.php"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Qu'est-ce qu'une Ecobrick? | Ecobricks.org">
   	<meta property="og:description"   content="Les écobricks sont une solution de transition plastique pour fabriquer des blocs de construction réutilisables en plastique séquestré."/>
-  	<meta property="og:image"         content="https://www.ecobricks.org/pngs/what-page-ecobrick-banner-1024px.png"/>
+  	<meta property="og:image"         content="https://ecobricks.org/pngs/what-page-ecobrick-banner-1024px.png"/>
   	<meta property="og:image:width" content="1024" />
 	<meta property="og:image:height" content="1017" />
   	<meta property="og:image:alt"     content="Une écobrique emballée avec du plastique à l'aide d'un bâton en bois."/>

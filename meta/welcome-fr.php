@@ -8,11 +8,11 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-  <meta property="og:url"           content="https://www.ecobricks.org/fr/">
+  <meta property="og:url"           content="https://ecobricks.org/fr/">
   <meta property="og:type"          content="website">
  <meta property="og:title"         content="Transition de la Plastique | Ecobricks.org">
   <meta property="og:description"   content="Les écobricks empêchent le plastique de devenir un déchet, un déchet, un recyclage, une incinération ou une pollution. Les briques écologiques permettent une séquestration du plastique sans capital, zéro déchet, net zéro."/>
-  <meta property="og:image"         content="https://www.ecobricks.org/pngs/social-banner2.png"/>
+  <meta property="og:image"         content="https://ecobricks.org/pngs/social-banner2.png"/>
   <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="638" />
   <meta property="og:image:alt"     content="Une route métaphorique qui serpente au loin avec diverses constructions écologiques en brique et en terre à ses côtés."/>
