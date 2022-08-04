@@ -14,7 +14,7 @@ Content Page template: v.1.0.1-->
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading">Brickable Design</div>
-		<div class="splash-sub">Make your plastic product circular using the Brikcable Designator Icon.</div>
+		<div class="splash-sub">Make your plastic product or packaging circular using the Brickable Designator Icon.</div>
 	</div>	
 	<div class="splash-image"><img src="https://ecobricks.org/icons/ecobrickable-icon-from-ecobricks-org-white.svg" style="width: 70%;"></div>	
 </div>
