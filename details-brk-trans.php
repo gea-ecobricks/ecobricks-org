@@ -230,14 +230,14 @@ b {font-weight: 500;}
 // Get the contents from the Transaction table as an ordered View, using the transaction id from the URL.
 $transactionId = $_GET['tran_id'];
 
-$sql = "SELECT * FROM tb_brk_transaction WHERE tran_id = " . $transactionId;
+$sql = "SELECT * FROM vw_brk_tran_ledgerid_desc WHERE chain_ledger_id = " . $transactionId;
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 	//echo "</br><h3>" . $transactionId . "</h1>";
     //  Output data of each row
     while($array = $result->fetch_assoc()) {
-		echo " <div class=\"transaction\"><b>Blockchain Transaction ID:</b> " . $array["tran_id"] . " </div></div><div id=\"main-details\">" ;
+		echo " <div class=\"transaction\"><b>Chain Ledger ID:</b> " . $array["chain_ledger_id"] . " </div></div><div id=\"main-details\">" ;
 		if ( isset($array["block_amt"]) && $array["block_amt"] != '0' ) { 
 		echo " <div class=\"block\"><b>Block:</b> " . $array["block_amt"] ."&#8202;ß</var></div>" ;
 	}
@@ -255,6 +255,8 @@ if ($result->num_rows > 0) {
 		}
 
 		echo " <div class=\"general-field\"><b>Sender:</b> <var>" . $array["sender"] . "</var></div>" ;
+		
+		echo " <div class=\"general-field\"><b>Legacy Tran ID:</b> <var>" . $array["tran_id"] . "</var></div>" ;
 
 		echo " <div class=\"general-field\"><b>Receiver(s):</b> <var>" . $array["receiver_or_receivers"] . "</var></div>" ;
 		

@@ -59,46 +59,10 @@
 	</div>
 
 
-	<div class="page-paragraph">	
-		<h4>Authenticated Ecobricks</h4>
-		
-		<h6>All the ecobricks authenticated and archived on chain.</h6>
-		<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
-
-	</div>
-
-	<div class="overflow">
-		<table id="ecobricks" class="display" style="width:100%">
-			<thead>
-				<tr>
-					<th style="width: 150px !important;">Brik</th>
-					<th>Authenticated</th>
-					<th>AES Plastic</th>
-					<th>Value</th>
-					<th>CO2e</th>
-					<th>Serial</th>
-				</tr>
-			</thead>
-			<tfoot>
-				<tr>
-					<th style="width: 150px !important;">Brik</th>
-					<th>Logged</th>
-					<th>AES Plastic</th>
-					<th>Value</th>
-					<th>CO2e</th>
-					<th>Serial</th>
-				</tr>
-			</tfoot>
-   		</table>
-	</div>
-
-	<br><br><br><br>
-
-
 	<div class="page-paragraph">
 		<h4>Brikcoin Blocks & Transactions</h4>
 		<h6>An overview of all brikcoins generated and exchanged.</h6>
-		<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
+		<div class="ecobrick-data"><p>🚧 Not yet live.  Migration completed.  Sync pending.</p></div>
 	</div>
 
 	<div class="overflow">
@@ -106,22 +70,22 @@
 			<thead>
 				<tr>
 					
-					<th>Issued</th>
+				<th>Transaction</th>
+				<th>Issued</th>
 					<th>Sender</th>	
 					<th>Type</th>
 					<th>Amount</th>
-					<th>Transaction</th>
 					<th>Ecobrick</th>
 
 				</tr>
 			</thead>
 			<tfoot>
 				<tr>
-					<th>Issued</th>
+				<th>Transaction</th>
+				<th>Issued</th>
 					<th>Sender</th>	
 					<th>Type</th>
 					<th>Amount</th>
-					<th>Transaction</th>
 					<th>Ecobrick</th>
 				</tr>
 			</tfoot>
@@ -166,6 +130,43 @@
 	?>
 	</div>
 	<br><br>
+
+
+
+	<div class="page-paragraph">	
+		<h4>Authenticated Ecobricks</h4>
+		
+		<h6>All the ecobricks authenticated and archived on chain.</h6>
+		<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
+
+	</div>
+
+	<div class="overflow">
+		<table id="ecobricks" class="display" style="width:100%">
+			<thead>
+				<tr>
+					<th style="width: 150px !important;">Brik</th>
+					<th>Authenticated</th>
+					<th>AES Plastic</th>
+					<th>Value</th>
+					<th>CO2e</th>
+					<th>Serial</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th style="width: 150px !important;">Brik</th>
+					<th>Logged</th>
+					<th>AES Plastic</th>
+					<th>Value</th>
+					<th>CO2e</th>
+					<th>Serial</th>
+				</tr>
+			</tfoot>
+   		</table>
+	</div>
+
+	<br><br><br><br>
 				
 
 
