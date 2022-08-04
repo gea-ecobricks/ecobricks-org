@@ -62,6 +62,42 @@
 
 
 	<div class="page-paragraph">	
+		<h4>Expense Summary</h4>
+		
+		<h6>All the GEA Expense categories</h6>
+		<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
+
+	</div>
+
+    <div class="overflow">
+	
+	<?php include 'db.php';?>
+		
+	<?php
+
+	$sql = "SELECT * FROM vw_exp_by_year_category Order by `year` DESC;";
+
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+	
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Category</th><th>Transactions</th><th>Year Total</th></tr>';
+	
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+		
+		echo "<tr><td>".$row["year"]."</td><td>".$row["expense_category"]."</td><td>".$row["no_of_transactions"]."&#8202;$ USD</td><td>".$row["total_usd"]."&#8202;$ USD</td></tr>";
+		}
+		echo "</table>";
+	} else {
+		echo "0 results";
+	}
+	$conn->close();
+	?>
+	</div>
+	<br><br> 
+
+    <div class="page-paragraph">	
 		<h4>Revenues</h4>
 		
 		<h6>All the GEA Revenue transactions</h6>

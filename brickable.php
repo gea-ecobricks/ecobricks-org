@@ -14,7 +14,7 @@ Content Page template: v.1.0.1-->
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading">Brickable Design</div>
-		<div class="splash-sub">Make your plastic product circular.</div>
+		<div class="splash-sub">Make your plastic product circular using the Brikcable Designator Icon.</div>
 	</div>	
 	<div class="splash-image"><img src="https://ecobricks.org/icons/ecobrickable-icon-from-ecobricks-org-white.svg" style="width: 70%;"></div>	
 </div>
@@ -41,9 +41,6 @@ Content Page template: v.1.0.1-->
 				
 				<p>Making a product ecobrickable is a first step in a business’s plastic transition.</p>
 
-               
-
-           
 
 			</div>	
 
@@ -197,7 +194,7 @@ Content Page template: v.1.0.1-->
 		<div id="side-module-desktop-only">
 			
 		
-		<img src="webp/brickable-kit.webp" width="90%">
+		<img src="webp/brickable-kit.webp?v=1" width="90%">
 				<h4>Get Started</h4>
 				<h5>Download the Brikcable Designator Kit today.</h5><br>
 				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Download</a><br><br>
