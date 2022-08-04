@@ -115,12 +115,12 @@
 
 	if ($result->num_rows > 0) {
 	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Authenticated</th><th>Total AES Plastic</th><th>Year Expenses</th><th>AES Value</th></tr>';
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Authenticated</th><th>Total AES Plastic</th><th>Year Expenses</th><th>1kg AES Value</th></tr>';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." briks</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td><var>Kg AES per $ USD</var></td></tr>"; 
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." briks</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td> &#8202;$ USD</td></tr>"; 
 		}
 		echo "</table>";
 	} else {
