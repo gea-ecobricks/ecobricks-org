@@ -43,6 +43,7 @@ deployment:
   - /bin/cp principles.php $DEPLOYPATH
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
+  - /bin/cp open-books.php $DEPLOYPATH
 
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
@@ -87,6 +88,7 @@ deployment:
   - /bin/cp principles.php $DEPLOYPATH
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
+  - /bin/cp open-books.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -129,6 +131,7 @@ deployment:
   - /bin/cp principles.php $DEPLOYPATH
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
+  - /bin/cp open-books.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -171,6 +174,7 @@ deployment:
   - /bin/cp principles.php $DEPLOYPATH
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
+  - /bin/cp open-books.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -213,6 +217,7 @@ deployment:
   - /bin/cp principles.php $DEPLOYPATH
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
+  - /bin/cp open-books.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 

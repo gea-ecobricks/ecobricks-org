@@ -79,7 +79,7 @@ _END;?>
 		z-index: 5;
 		position: relative;
     	background-repeat: no-repeat;
-		margin: 0px 0 -20px 0;
+		margin: 20px 0 -20px 0;
 		display: flex;
  		flex-wrap: wrap;
  		box-sizing: border-box;
@@ -110,7 +110,7 @@ _END;?>
 		z-index: 5;
 		position: relative;
 		flex: 65%;
-		padding: 0px 30px 20px 0px;
+		padding: 60px 30px 20px 0px;
 		box-sizing: border-box;
 		text-align: right;
 		margin: auto;
