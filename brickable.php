@@ -14,7 +14,7 @@ Content Page template: v.1.0.1-->
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Brickable Design</div>
-		<div class="splash-sub">Make your plastic product circular today with the Brikcable Designator Icon.</div>
+		<div class="splash-sub">Make your plastic product circular.</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/icons/ecobrickable-icon-from-ecobricks-org.svg" style="width: 70%;"></div>	
 </div>
@@ -46,6 +46,49 @@ Content Page template: v.1.0.1-->
            
 
 			</div>	
+
+
+            <div class="reg-content-block" id="block3">
+
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+					<h4>Philosophy</h4>
+					<h5>The context and call for cyclical design.</h5>
+					<br>
+					</div>
+
+					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+				</div>
+
+				<div id="preclosed3">
+					<br>
+					<div class="row">
+						<div class="main2">
+                        <p>The majority of today’s products are manufactured without thought to where they will go once consumed. Many products are even designed to fail within a certain period to promote further consumption. This design ethic (or lack of it) is one of the root causes of plastic pollution.  </p>
+                    
+                   
+						</div>
+						<div class="side2"><img src="icons/cyclical-design-icon-ecobricks-org.svg" width="80%" alt="cyclical design icon">
+						</div>
+					</div>
+
+					<div class="row2">
+						<div class="main3">
+						<p>Learning from the ecologies around us, the first step is to shift from linear consumption design (and dead-end plastic products) to cradle-to-cradle, circular design.</p>
+						</div>
+						<div class="side3"><img src="icons/cyclical-design-icon-ecobricks-org.svg" width="120px" alt="Cyclical Circular Design">
+						</div>
+					</div>
+			
+                    <p>  Afterall, plastic isn’t a ‘bad’ material in and of itself– its how we’ve been putting it to use that has been causing problems.  Designing a product as Ecobrickable, and clearly designating it as so, can be a giant leap for a company into the brave new world of circular design and regenerative business.  The GEA has developed guidelines and a designator symbol to assist companies in their plastic transition.</i><p> 
+                        
+                        <p>With a little forethought and advanced planning, a product can be made easily and effectively ecobrickable.  In this way, ecobrickable designs enables companies and designers to make their first step to cradle-to-cradle and ayyew vision.  Designating a product or package as ecobrickable gives it a next life and purpose.  When ecobricked, the plastic is saved from a fate of industrial recycling, incineration, and/or dumping.  The ecobricked plastic is transformed into a reusable building block. Ecobricks and their applications are themselves cradle-to-cradle and follow regenerative principles, enabling an indefinite, localized cycle of reuse of the ecobricked plastic.</p>
+
+					<h6><a href="/circular">Learn more about Circular Design</a></h6><br>
+				</div>
+			</div>
+            
 
 			<div class="reg-content-block" id="block1">
 				
@@ -94,46 +137,7 @@ Content Page template: v.1.0.1-->
 			</div>
 
 
-			<div class="reg-content-block" id="block3">
-
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-					<h4>Philosophy</h4>
-					<h5>The context and call for cyclical design.</h5>
-					<br>
-					</div>
-
-					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-				</div>
-
-				<div id="preclosed3">
-					<br>
-					<div class="row">
-						<div class="main2">
-                        <p>The majority of today’s products are manufactured without thought to where they will go once consumed. Many products are even designed to fail within a certain period to promote further consumption. This design ethic (or lack of it) is one of the root causes of plastic pollution.  </p>
-                    
-                   
-						</div>
-						<div class="side2"><img src="icons/cyclical-design-icon-ecobricks-org.svg" width="80%" alt="cyclical design icon">
-						</div>
-					</div>
-
-					<div class="row2">
-						<div class="main3">
-						<p>Learning from the ecologies around us, the first step is to shift from linear consumption design (and dead-end plastic products) to cradle-to-cradle, circular design.</p>
-						</div>
-						<div class="side3"><img src="icons/cyclical-design-icon-ecobricks-org.svg" width="120px" alt="Cyclical Circular Design">
-						</div>
-					</div>
 			
-                    <p>  Afterall, plastic isn’t a ‘bad’ material in and of itself– its how we’ve been putting it to use that has been causing problems.  Designing a product as Ecobrickable, and clearly designating it as so, can be a giant leap for a company into the brave new world of circular design and regenerative business.  The GEA has developed guidelines and a designator symbol to assist companies in their plastic transition.</i><p> 
-                        
-                        <p>With a little forethought and advanced planning, a product can be made easily and effectively ecobrickable.  In this way, ecobrickable designs enables companies and designers to make their first step to cradle-to-cradle and ayyew vision.  Designating a product or package as ecobrickable gives it a next life and purpose.  When ecobricked, the plastic is saved from a fate of industrial recycling, incineration, and/or dumping.  The ecobricked plastic is transformed into a reusable building block. Ecobricks and their applications are themselves cradle-to-cradle and follow regenerative principles, enabling an indefinite, localized cycle of reuse of the ecobricked plastic.</p>
-
-					<h6><a href="/circular">Learn more about Circular Design</a></h6><br>
-				</div>
-			</div>
 
 
 
@@ -142,8 +146,8 @@ Content Page template: v.1.0.1-->
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>See How We do It.</h4>
-					<h5>How the GEA and other Enterprises Use the Program</h5>
+					<h4>See How We Use It.</h4>
+					<h5>When we use plastic, we use the icon.</h5>
 					<br>
 					</div>
 
