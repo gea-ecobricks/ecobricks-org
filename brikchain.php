@@ -97,7 +97,7 @@
 	<br><br>
 		
 	<div class="page-paragraph">
-			<h4>Yearly AES Plastic Valuation</h4>
+			<h4>AES Plastic Valuations</h4>
 			
 			<h6>Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the block chain (see the GEA's yearly <a href="open-books.php">Open Books</a> financial accounting)</h6>
 			<div class="ecobrick-data"><p>🚧 Does not yet reflect official values, data still in migration</p></div>
@@ -120,7 +120,7 @@
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." briks</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td> &#8202;$ USD</td></tr>"; 
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." ecobricks</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td> &#8202;$ USD</td></tr>"; 
 		}
 		echo "</table>";
 	} else {

@@ -43,7 +43,7 @@ _END;?>
 		
 		background: url(https://ecobricks.org/svgs/gray-to-orange-brickable-banner.svg) bottom;
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
-		background-color: #2A91DA;
+		background-color: #FF7F2A;
 		background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -71,7 +71,7 @@ _END;?>
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-color: #2A91DA;
+		background-color: #FF7F2A;
 		
 		text-align: left;
 		min-height: 69vh;
@@ -200,7 +200,7 @@ _END;?>
 #splash-bar {
 	margin-top: -50px;
 	width: 100%;
-	background-color: #2A91DA;
+	background-color: #FF7F2A;
 	/*background: url(wp-content/uploads/2020/01/Gray-to-green-catalyst-banner-1.svg) right top;
 	height:100px;	
 	box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);

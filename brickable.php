@@ -20,7 +20,6 @@ Content Page template: v.1.0.1-->
 </div>
 <div id="splash-bar"></div>
 
-
 <!-- PAGE CONTENT-->
 
 <a name="top"></a>
@@ -36,15 +35,13 @@ Content Page template: v.1.0.1-->
 			</div>
 
 			<div class="page-paragraph">
-				<p>The majority of today’s products are manufactured without thought to where they will go once consumed. Many products are even designed to fail within a certain period to promote further consumption. This design ethic (or lack of it) is one of the root causes of plastic pollution.  </p>
-                    
-                <p>Learning from the ecologies around us, the first step is to shift from linear consumption design (and dead-end plastic products) to cradle-to-cradle, circular design.  Afterall, plastic isn’t a ‘bad’ material in and of itself– its how we’ve been putting it to use that has been causing problems.  Designing a product as Ecobrickable, and clearly designating it as so, can be a giant leap for a company into the brave new world of circular design and regenerative business.  The GEA has developed guidelines and a designator symbol to assist companies in their plastic transition.</i><p> 
+				
 
 				<p>For many companies making the switch to circular design and extended producer responsibility (EPR) appears to require a massive investment in manufacturing, material sourcing as well as implementing new systems to reabsorb their dead products. Furthermore it may seem that the required organic materials are still on the horizon.  The transition can appear daunting!</p>
 				
 				<p>Making a product ecobrickable is a first step in a business’s plastic transition.</p>
-					
-				<p>With a little forethought and advanced planning, a product can be made easily and effectively ecobrickable.  In this way, ecobrickable designs enables companies and designers to make their first step to cradle-to-cradle and ayyew vision.  Designating a product or package as ecobrickable gives it a next life and purpose.  When ecobricked, the plastic is saved from a fate of industrial recycling, incineration, and/or dumping.  The ecobricked plastic is transformed into a reusable building block. Ecobricks and their applications are themselves cradle-to-cradle and follow regenerative principles, enabling an indefinite, localized cycle of reuse of the ecobricked plastic.</p>
+
+               
 
            
 
@@ -95,15 +92,15 @@ Content Page template: v.1.0.1-->
                 <p>The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals.   See copyright notice and terms below.</p>
 				</div>
 			</div>
-            
+
 
 			<div class="reg-content-block" id="block3">
 
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>Plastic Transition Acceleration</h4>
-					<h5>Ecobricking, Offseting & Workshop Catalyzation.</h5>
+					<h4>Philosophy</h4>
+					<h5>The context and call for cyclical design.</h5>
 					<br>
 					</div>
 
@@ -114,29 +111,27 @@ Content Page template: v.1.0.1-->
 					<br>
 					<div class="row">
 						<div class="main2">
-						<p>But best of all, the Catalyst program allows you to take decisive and quantifiable action to green your enterprise's impact.  You can use our system to log your ecobricks, buy AES plastic offsets and mobilize communities.  The green impact of all these goes to the green credit of your enterprise.  This credit shows up in your year end ecological accounting to balance off your grey impacts.</p>
+                        <p>The majority of today’s products are manufactured without thought to where they will go once consumed. Many products are even designed to fail within a certain period to promote further consumption. This design ethic (or lack of it) is one of the root causes of plastic pollution.  </p>
+                    
+                   
 						</div>
-						<div class="side2"><img src="svgs/aes-no-shadow.svg" width="80%" alt="Authenticated Ecobrick Sequestered Plastic">
+						<div class="side2"><img src="icons/cyclical-design-icon-ecobricks-org.svg" width="80%" alt="cyclical design icon">
 						</div>
 					</div>
 
 					<div class="row2">
 						<div class="main3">
-						<p>There are three types of green impacts that can be certified as AES credit.</p>
+						<p>Learning from the ecologies around us, the first step is to shift from linear consumption design (and dead-end plastic products) to cradle-to-cradle, circular design.</p>
 						</div>
-						<div class="side3"><img src="svgs/aes-no-shadow.svg" width="120px" alt="Authenticated Ecobrick Sequestered Plastic">
+						<div class="side3"><img src="icons/cyclical-design-icon-ecobricks-org.svg" width="120px" alt="Cyclical Circular Design">
 						</div>
 					</div>
 			
+                    <p>  Afterall, plastic isn’t a ‘bad’ material in and of itself– its how we’ve been putting it to use that has been causing problems.  Designing a product as Ecobrickable, and clearly designating it as so, can be a giant leap for a company into the brave new world of circular design and regenerative business.  The GEA has developed guidelines and a designator symbol to assist companies in their plastic transition.</i><p> 
+                        
+                        <p>With a little forethought and advanced planning, a product can be made easily and effectively ecobrickable.  In this way, ecobrickable designs enables companies and designers to make their first step to cradle-to-cradle and ayyew vision.  Designating a product or package as ecobrickable gives it a next life and purpose.  When ecobricked, the plastic is saved from a fate of industrial recycling, incineration, and/or dumping.  The ecobricked plastic is transformed into a reusable building block. Ecobricks and their applications are themselves cradle-to-cradle and follow regenerative principles, enabling an indefinite, localized cycle of reuse of the ecobricked plastic.</p>
 
-					<p><b>Ecobricking</b></p>
-						<p>Ecobricks logged by the staff in your company, then which are successfully authenticated on the Brikcoin blockchain, qualify as AES plastic.</p><br>
-					<p><b>Plastic Offsetting</b></p>
-					<p>Your enterprise can purchase plastic offset credit on the GoBrik platform using Brikcoins or cash, to credit you year end reporting.</p><br>
-					<p><b>Community Catalyzation</b></p>
-					<p>By sponsoring workshops in your community, the ecobricks of new ecobrickers are credited to your enterprise.  By sponsoring GEA training of trainers workshops, the future trainers in these events, their ecobrickers and the communities they start, generate AES credits for your enterprise.
-					</p>
-					<h6><a href="/trainings">Learn more about GEA Trainings</a></h6><br>
+					<h6><a href="/circular">Learn more about Circular Design</a></h6><br>
 				</div>
 			</div>
 
