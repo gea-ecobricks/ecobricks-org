@@ -230,7 +230,7 @@ b {font-weight: 500;}
 // Get the contents from the Transaction table as an ordered View, using the transaction id from the URL.
 $transactionId = $_GET['tran_id'];
 
-$sql = "SELECT * FROM vw_brk_tran_ledgerid_desc WHERE chain_ledger_id = " . $transactionId;
+$sql = "SELECT * FROM vw_brk_tran_ledgerid_asc WHERE chain_ledger_id = " . $transactionId;
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -245,33 +245,43 @@ if ($result->num_rows > 0) {
 
 		echo " <div class=\"amount\"><b>Transfer amount:</b> <var>" . $array["individual_amt"] . "&#8202;ß</var></div>" ;
 
+		if ( isset($array["ecobrick_serial_no"]) && $array["ecobrick_serial_no"] != '' ) {  
+			echo " <div class=\"status\"><b>Authenticated Ecobrick:</b> " . $array["ecobrick_serial_no"] . "</var></div>";
+		}
+
 		echo "  <div class=\"status\"><b>Generated:</b> " . $array["send_ts"] . "</div>" ;
 		echo " <div class=\"status\"><b>Status:</b> " . $array["status"] . "</div></div><div id=\"details-content\">" ;
 
+	
+//DETAILS
 
-
-		if ( isset($array["ecobrick_serial_no"]) && $array["ecobrick_serial_no"] != '' ) {  
-			echo " <div class=\"general-field\"><b>Authenticated Ecobrick:</b> " . $array["ecobrick_serial_no"] . "</var></div>";
-		}
-
-		echo " <div class=\"general-field\"><b>Sender:</b> <var>" . $array["sender"] . "</var></div>" ;
-		
 		echo " <div class=\"general-field\"><b>Legacy Tran ID:</b> <var>" . $array["tran_id"] . "</var></div>" ;
+
+		if ( isset($array["tran_name"]) && $array["tran_name"] != '' ) {
+			echo " <div class=\"general-field\"><b>Description:</b> <var>" . $array["tran_name"] . "</var></div>" ;
+			}
+		
+		echo " <div class=\"general-field\"><b>Sender:</b> <var>" . $array["sender"] . "</var></div>" ;
+
+		echo " <div class=\"general-field\"><b>Sender Ecobricker:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
+		
+
 
 		echo " <div class=\"general-field\"><b>Receiver(s):</b> <var>" . $array["receiver_or_receivers"] . "</var></div>" ;
 		
 		if ( isset($array["authenticator_version"]) && $array["authenticator_version"] != '' ) {  
 			echo " <div class=\"general-field\"><b>Authenticator:</b> Version " . $array["authenticator_version"] . "</var></div>" ;
 		}
-		if ( isset($array["tran_name"]) && $array["tran_name"] != '' ) {
-		echo " <div class=\"general-field\"><b>Description:</b> <var>" . $array["tran_name"] . "</var></div>" ;
-		}
+
 
 		//echo " <p><b>Receiver 1:</b> <var>" . $array["receiver_1"] . "</var> </p>" ;
 		//echo " <p>Receiver 2: <var>" . $array["receiver_2"] . "</var> </p>" ;
 		//echo " <p>Receiver 3: <var>" . $array["receiver_3"] . "</var> </p>" ;
 		//echo " <p>Receiver central reserve: <var>" . $array["receiver_central_reserve"] . "</var></p>" ;
 		//echo " <p>Sender central reserve: <var>" . $array["sender_central_reserve"] . "</var></p>" ;
+
+
+
 		if ( isset($array["tran_sender_note"]) && $array["tran_sender_note"] != '' ) {
 			echo " <div class=\"general-field\"><b>Transaction note:</b> <var>" . $array["tran_sender_note"] . "</var></div>" ;
 		}
