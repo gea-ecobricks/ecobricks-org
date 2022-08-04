@@ -165,12 +165,12 @@
 
 	if ($result->num_rows > 0) {
 	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>From</th><th>To</th><th>Total BRK</th><th>Total Briks</th><th>Total Sequestered</th><th>Expenses</th><th>Revenue</th><th>BRK Value</th></tr>';
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Expenses</th><th>Revenue</th></tr>';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td><var>".$row["year"]."</var></td><td><var>".$row["from_date"]."</var></td><td>".$row["to_date"]."</var></td><td><var>".$row["total_brk"]."&#8202;ß</var></td><td><var>".$row["brick_count"]."&#8202;briks</var></td><td><var>".$row["weight"]."&#8202;Kg</var></td><td><var>".$row["tot_usd_exp_amt"]."&#8202;$</var></td><td><var>".$row["tot_usd_rev_amt"]."&#8202;$</var></td><td><var>[weight/expenses] &#8202;ß</var></td></tr>";
+		echo "<tr><td>".$row["year"]."</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["tot_usd_rev_amt"]."&#8202;$ USD</var></td></tr>";
 		}
 		echo "</table>";
 	} else {
@@ -179,7 +179,7 @@
 	$conn->close();
 	?>
 	</div>
-	<br><br>
+	<br><br> 
 
 
 

@@ -12,7 +12,7 @@ Content Page template: v.1.0.1-->
 
 	
 <div class="splash-content-block">
-	<div class="splash-box">
+	<div class="splash-text-box">
 		<div class="splash-heading">Brickable Design</div>
 		<div class="splash-sub">Make your plastic product circular.</div>
 	</div>
