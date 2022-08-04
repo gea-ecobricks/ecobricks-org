@@ -25,6 +25,9 @@
 		
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v2.5">
 
+<meta property="og:site_name" content="Ecobricks.org" />
+<meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
+
 	
 <!-- This calls GEA typography -->
 
