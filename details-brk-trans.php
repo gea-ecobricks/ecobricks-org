@@ -268,7 +268,9 @@ if ($result->num_rows > 0) {
 		}
 
 		echo " <div class=\"general-field\"><b>Block Tran Type:</b> <var>" . $array["block_tran_type"] . "</var></div>" ;
-		
+
+		echo " <div class=\"general-field\"><b>Block Amount:</b> <var>" . $array["block_amt"] . "</var></div>" ;
+		 
 
 
 		echo " <div class=\"general-field\"><b>Receiver(s):</b> <var>" . $array["receiver_or_receivers"] . "</var></div>" ;
