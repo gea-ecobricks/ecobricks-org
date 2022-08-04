@@ -21,7 +21,7 @@
  */
  
 // DB table to use
-$table = 'tb_brk_transaction';
+$table = 'vw_brk_tran_ledgerid_asc';
  
 // Table's primary key
 $primaryKey = 'tran_id';

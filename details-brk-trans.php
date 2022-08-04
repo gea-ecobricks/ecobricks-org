@@ -263,7 +263,11 @@ if ($result->num_rows > 0) {
 		
 		echo " <div class=\"general-field\"><b>Sender:</b> <var>" . $array["sender"] . "</var></div>" ;
 
-		echo " <div class=\"general-field\"><b>Sender Ecobricker:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
+		if ( isset($array["sender_ecobricker"]) && $array["sender_ecobricker"] != '' ) {
+			echo " <div class=\"general-field\"><b>Sender Ecobricker:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
+		}
+
+		echo " <div class=\"general-field\"><b>Block Tran Type:</b> <var>" . $array["block_tran_type"] . "</var></div>" ;
 		
 
 
