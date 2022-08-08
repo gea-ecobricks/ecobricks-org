@@ -76,7 +76,7 @@
 	<?php
 
 	$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2021 ORDER BY expense_category Order by `year` DESC;";
-Order by `year` DESC
+
 	$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {
