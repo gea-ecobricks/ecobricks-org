@@ -62,9 +62,9 @@
 
 
 	<div class="page-paragraph">	
-		<h4>Expense Summary</h4>
+		<h4>2022 Expense Summary</h4>
 		
-		<h6>All the GEA Expense categories for 2021</h6>
+		<h6>All the GEA Expense categories for 2022</h6>
 		<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
 
 	</div>
@@ -75,7 +75,7 @@
 		
 	<?php
 
-	$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2021 ORDER BY expense_category;";
+	$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2022 ORDER BY expense_category;";
 
 	$result = $conn->query($sql);
 
@@ -99,9 +99,9 @@
 
 
 	<div class="page-paragraph">	
-		<h4>Revenue Summary</h4>
+		<h4>2022 Revenue Summary</h4>
 		
-		<h6>All the GEA Revenue categories for 2021</h6>
+		<h6>All the GEA Revenue categories for 2022</h6>
 		<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
 
 	</div>
@@ -112,7 +112,7 @@
 		
 	<?php
 
-	$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2021 ORDER BY expense_category Order by `year` DESC;";
+	$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2022 ORDER BY expense_category ;";
 
 	$result = $conn->query($sql);
 
