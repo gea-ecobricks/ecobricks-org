@@ -75,7 +75,7 @@
 		
 	<?php
 
-	$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2021 ORDER BY expense_category Order by `year` DESC;";
+	$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2021 ORDER BY expense_category;";
 
 	$result = $conn->query($sql);
 
@@ -112,7 +112,7 @@
 		
 	<?php
 
-	$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2021 ORDER BY expense_category Order by `year` DESC;";
+	$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2021 ORDER BY expense_category Order by `year` DESC;";
 
 	$result = $conn->query($sql);
 
