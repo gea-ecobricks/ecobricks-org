@@ -112,7 +112,7 @@
 		
 	<?php
 
-	$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2022 ORDER BY expense_category ;";
+	$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2022 ORDER BY revenue_category ;";
 
 	$result = $conn->query($sql);
 
@@ -266,11 +266,11 @@
 	<div class="overflow">
 	<?php
 
-	$sql = "SELECT * FROM vw_sum_brk_total ;";
+	$sql = "SELECT * FROM vw_sum_brk_total Order by `year` DESC;" ;";
 
 	$result = $conn->query($sql);
 
-	if ($result->num_rows > 0) {
+	if ($result->num_rows = 0) {
 	
 		echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
 	
