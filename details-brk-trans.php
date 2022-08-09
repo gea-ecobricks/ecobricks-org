@@ -204,6 +204,33 @@ button {
 	font-weight: 300;
 }
 
+
+#data-chunk {
+  padding: 15px;
+  background: #e6f3ff;}
+
+
+.trans-data p{
+	font-size: 0.9em;
+	font-family: 'Courier New', monospace !important;
+  	color: #222222;
+  	line-height: 1.3;
+	margin-top: 12px;
+	/*font-weight: 300;*/
+  	background: aliceblue;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+b {
+  font-weight: bold !important;
+}
+
+strong {
+  font-weight: bold !important;
+}
+
+
 b {font-weight: 500;}
 
 
@@ -255,13 +282,26 @@ if ($result->num_rows > 0) {
 	
 //DETAILS
 
-		echo " <div class=\"general-field\"><b>Legacy Tran ID:</b> <var>" . $array["tran_id"] . "</var></div>" ;
+echo '<div class="trans-data">
+					
+	<p><b>>> Raw BRK Transaction Record</b></p>';
 
-		if ( isset($array["tran_name"]) && $array["tran_name"] != '' ) {
-			echo " <div class=\"general-field\"><b>Description:</b> <var>" . $array["tran_name"] . "</var></div>" ;
-			}
+echo " <p><strong>Chain Ledger ID:</strong>" . $array["chain_ledger_id"] ."</p>" ;
+
+echo " <p><strong>Legacy Tran ID:</strong>" . $array["tran_id"] ."</p>" ;
+
+
+if ( isset($array["tran_name"]) && $array["tran_name"] != '' ) {
+	echo " <p><strong>Legacy Tran ID:</strong>" . $array["tran_name"] ."</p>" ;
+	}
+if ( isset($array["individual_amt"]) && $array["individual_amt"] != '' ) {
+	echo " <p><strong>Indiv Amt:</strong>" . $array["individual_amt"] ."</p>" ;
+}
+
+if ( isset($array["status"]) && $array["status"] != '' ) {
+	echo " <p><strong>Status:</strong>" . $array["status"] ."</p>" ;
+}
 		
-		echo " <div class=\"general-field\"><b>Sender:</b> <var>" . $array["sender"] . "</var></div>" ;
 
 		if ( isset($array["sender_ecobricker"]) && $array["sender_ecobricker"] != '' ) {
 			echo " <div class=\"general-field\"><b>Sender Ecobricker:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
