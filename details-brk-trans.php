@@ -292,7 +292,7 @@ echo " <p><strong>Legacy Tran ID:</strong>" . $array["tran_id"] ."</p>" ;
 
 
 if ( isset($array["tran_name"]) && $array["tran_name"] != '' ) {
-	echo " <p><strong>Legacy Tran ID:  </strong>" . $array["tran_name"] ."</p>" ;
+	echo " <p><strong>Tran name:  </strong>" . $array["tran_name"] ."</p>" ;
 	}
 if ( isset($array["individual_amt"]) && $array["individual_amt"] != '' ) {
 	echo " <p><strong>Indiv Amt:  </strong>" . $array["individual_amt"] ."</p>" ;
@@ -302,48 +302,54 @@ if ( isset($array["status"]) && $array["status"] != '' ) {
 	echo " <p><strong>Status:  </strong>" . $array["status"] ."</p>" ;
 }
 
-if ( isset($array["send_ts"]) && $array["send_ts:"] != '' ) {
+if ( isset($array["send_ts"]) && $array["send_ts"] != '' ) {
 	echo " <p><strong>Authenticated:  </strong>" . $array["send_ts"] ."</p>" ;
 }
 
-if ( isset($array["sender_ecobricker"]) && $array["sender_ecobricker:"] != '' ) {
+if ( isset($array["sender_ecobricker"]) && $array["sender_ecobricker"] != '' ) {
 	echo " <p><strong>sender_ecobricker:  </strong>" . $array["sender_ecobricker"] ."</p>" ;
 }
 
-if ( isset($array["block_tran_type"]) && $array["block_tran_type:"] != '' ) {
+if ( isset($array["block_tran_type"]) && $array["block_tran_type"] != '' ) {
 	echo " <p><strong>block_tran_type:  </strong>" . $array["block_tran_type"] ."</p>" ;
 } 	
 
-if ( isset($array["block_amt"]) && $array["block_amt:"] != '0' ) {
+if ( isset($array["block_amt"]) && $array["block_amt"] != '0' ) {
 	echo " <p><strong>block_amt:  </strong>" . $array["block_amt"] ."</p>" ;
 } 
 
-if ( isset($array["sender"]) && $array["sender:"] != '' ) {
+if ( isset($array["sender"]) && $array["sender"] != '' ) {
 	echo " <p><strong>sender:  </strong>" . $array["sender"] ."</p>" ;
 } 
 
-if ( isset($array["receiver_or_receivers"]) && $array["receiver_or_receivers:"] != '' ) {
+if ( isset($array["receiver_or_receivers"]) && $array["receiver_or_receivers"] != '' ) {
 	echo " <p><strong>receiver_or_receivers:  </strong>" . $array["receiver_or_receivers"] ."</p>" ;
 } 
 
-if ( isset($array["receiver_1"]) && $array["receiver_1:"] != '' ) {
+if ( isset($array["receiver_1"]) && $array["receiver_1"] != '' ) {
 	echo " <p><strong>receiver_1:  </strong>" . $array["receiver_1"] ."</p>" ;
 } 
 
-if ( isset($array["receiver_2"]) && $array["receiver_2:"] != '' ) {
+if ( isset($array["receiver_2"]) && $array["receiver_2"] != '' ) {
 	echo " <p><strong>receiver_2:  </strong>" . $array["receiver_2"] ."</p>" ;
 } 
-if ( isset($array["receiver_1"]) && $array["receiver_1:"] != '' ) {
+if ( isset($array["receiver_1"]) && $array["receiver_1"] != '' ) {
 	echo " <p><strong>receiver_3:  </strong>" . $array["receiver_3"] ."</p>" ;
 } 
-if ( isset($array["receiver_central_reserve"]) && $array["receiver_central_reserve:"] != '' ) {
+if ( isset($array["receiver_central_reserve"]) && $array["receiver_central_reserve"] != '' ) {
 	echo " <p><strong>receiver_central_reserve:  </strong>" . $array["receiver_central_reserve"] ."</p>" ;
 }
-if ( isset($array["sender_central_reserve"]) && $array["sender_central_reserve:"] != '' ) {
+if ( isset($array["sender_central_reserve"]) && $array["sender_central_reserve"] != '' ) {
 	echo " <p><strong>sender_central_reserve:  </strong>" . $array["sender_central_reserve"] ."</p>" ;
 }
-if ( isset($array["ecobrick_serial_no"]) && $array["ecobrick_serial_no:"] != '' ) {
+if ( isset($array["ecobrick_serial_no"]) && $array["ecobrick_serial_no"] != '0' ) {
 	echo " <p><strong>ecobrick_serial_no:  </strong>" . $array["ecobrick_serial_no"] ."</p>" ;
+}
+if ( isset($array["tran_sender_note"]) && $array["tran_sender_note"] != '' ) {
+	echo " <p><strong>tran_sender_note:  </strong>" . $array["tran_sender_note"] ."</p>" ;
+}
+if ( isset($array["product"]) && $array["product"] != '' ) {
+	echo " <p><strong>product:  </strong>" . $array["product"] ."</p>" ;
 }
 
 		echo " <div class=\"general-field\"><b>Block Amount:</b> <var>" . $array["block_amt"] . "</var></div>" ;
