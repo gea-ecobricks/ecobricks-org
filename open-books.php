@@ -264,11 +264,16 @@
 			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
 	</div>	
 	<div class="overflow">
+
+	<?php include 'db.php';?>
+
 	<?php
 
-	$sql = "SELECT * FROM vw_sum_brk_total  ;";
+	$sql = "SELECT * FROM vw_sum_brk_total ;";
 
 	$result = $conn->query($sql);
+
+	echo $result;
 
 	if ($result->num_rows) {
 	
@@ -281,7 +286,7 @@
 		}
 		echo "</table>";
 	} else {
-		echo "0 results??";
+		echo "0 results??? test1";
 	}
 	$conn->close();
 	?>
