@@ -1,5 +1,4 @@
 
-<?php include 'db.php';?>
 
         <?php
  
@@ -83,8 +82,7 @@ array(
   
 );
 
- 
-
+require( 'db2.php');
 
 
  
