@@ -270,7 +270,7 @@
 
 	$result = $conn->query($sql);
 
-	if ($result->num_rows > -1) {
+	if ($result->num_rows) {
 	
 		echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
 	
