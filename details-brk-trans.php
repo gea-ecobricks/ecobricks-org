@@ -351,6 +351,49 @@ if ( isset($array["tran_sender_note"]) && $array["tran_sender_note"] != '' ) {
 if ( isset($array["product"]) && $array["product"] != '' ) {
 	echo " <p><strong>product:  </strong>" . $array["product"] ."</p>" ;
 }
+if ( isset($array["send_dt"]) && $array["send_dt"] != '' ) {
+	echo " <p><strong>send_dt:  </strong>" . $array["send_dt"] ."</p>" ;
+}
+if ( isset($array["accomp_payment"]) && $array["accomp_payment"] != '' ) {
+	echo " <p><strong>accomp_payment:  </strong>" . $array["accomp_payment"] ."</p>" ;
+}
+if ( isset($array["authenticator_version"]) && $array["authenticator_version"] != '' ) {
+	echo " <p><strong>authenticator_version:  </strong>" . $array["authenticator_version"] ."</p>" ;
+}
+if ( isset($array["expense_type"]) && $array["expense_type"] != '' ) {
+	echo " <p><strong>expense_type:  </strong>" . $array["expense_type"] ."</p>" ;
+}
+if ( isset($array["gea_accounting_category"]) && $array["gea_accounting_category"] != '' ) {
+	echo " <p><strong>gea_accounting_category:  </strong>" . $array["gea_accounting_category"] ."</p>" ;
+}
+if ( isset($array["shipping_brk_cost"]) && $array["shipping_brk_cost"] != '0' ) {
+	echo " <p><strong>shipping_brk_cost:  </strong>" . $array["shipping_brk_cost"] ."</p>" ;
+}
+if ( isset($array["product_cost_brk"]) && $array["product_cost_brk"] != '0' ) {
+	echo " <p><strong>product_cost_brk:  </strong>" . $array["product_cost_brk"] ."</p>" ;
+}
+if ( isset($array["total_cost_incl_shipping"]) && $array["total_cost_incl_shipping"] != '0' ) {
+	echo " <p><strong>total_cost_incl_shipping:  </strong>" . $array["total_cost_incl_shipping"] ."</p>" ;
+}
+if ( isset($array["shipping_with_currency"]) && $array["shipping_with_currency"] != '0' ) {
+	echo " <p><strong>shipping_with_currency:  </strong>" . $array["shipping_with_currency"] ."</p>" ;
+}
+if ( isset($array["aes_officially_purchased"]) && $array["aes_officially_purchased"] != '0' ) {
+	echo " <p><strong>aes_officially_purchased:  </strong>" . $array["aes_officially_purchased"] ."</p>" ;
+}
+if ( isset($array["country_of_buyer"]) && $array["country_of_buyer"] != '' ) {
+	echo " <p><strong>country_of_buyer:  </strong>" . $array["country_of_buyer"] ."</p>" ;
+}
+if ( isset($array["currency_for_shipping"]) && $array["currency_for_shipping"] != '' ) {
+	echo " <p><strong>currency_for_shipping:  </strong>" . $array["currency_for_shipping"] ."</p>" ;
+}
+if ( isset($array["credit_other_ecobricker_yn"]) && $array["credit_other_ecobricker_yn"] != '' ) {
+	echo " <p><strong>credit_other_ecobricker_yn:  </strong>" . $array["credit_other_ecobricker_yn"] ."</p>" ;
+}
+if ( isset($array["catalyst"]) && $array["catalyst"] != '' ) {
+	echo " <p><strong>catalyst:  </strong>" . $array["catalyst"] ."</p>" ;
+}
+
 
 		echo " <div class=\"general-field\"><b>Block Amount:</b> <var>" . $array["block_amt"] . "</var></div>" ;
 		 
