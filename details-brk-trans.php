@@ -292,22 +292,37 @@ echo " <p><strong>Legacy Tran ID:</strong>" . $array["tran_id"] ."</p>" ;
 
 
 if ( isset($array["tran_name"]) && $array["tran_name"] != '' ) {
-	echo " <p><strong>Legacy Tran ID:</strong>" . $array["tran_name"] ."</p>" ;
+	echo " <p><strong>Legacy Tran ID:  </strong>" . $array["tran_name"] ."</p>" ;
 	}
 if ( isset($array["individual_amt"]) && $array["individual_amt"] != '' ) {
-	echo " <p><strong>Indiv Amt:</strong>" . $array["individual_amt"] ."</p>" ;
+	echo " <p><strong>Indiv Amt:  </strong>" . $array["individual_amt"] ."</p>" ;
 }
 
 if ( isset($array["status"]) && $array["status"] != '' ) {
-	echo " <p><strong>Status:</strong>" . $array["status"] ."</p>" ;
+	echo " <p><strong>Status:  </strong>" . $array["status"] ."</p>" ;
 }
+
+if ( isset($array["send_ts"]) && $array["send_ts:"] != '' ) {
+	echo " <p><strong>Authenticated:  </strong>" . $array["send_ts"] ."</p>" ;
+}
+
+if ( isset($array["sender_ecobricker"]) && $array["sender_ecobricker:"] != '' ) {
+	echo " <p><strong>sender_ecobricker:  </strong>" . $array["sender_ecobricker"] ."</p>" ;
+}
+
+if ( isset($array["block_tran_type"]) && $array["block_tran_type:"] != '' ) {
+	echo " <p><strong>block_tran_type:  </strong>" . $array["block_tran_type"] ."</p>" ;
+} 	
+
+if ( isset($array["block_amt"]) && $array["block_amt:"] != '0' ) {
+	echo " <p><strong>block_amt:  </strong>" . $array["block_amt"] ."</p>" ;
+} 
+
+if ( isset($array["sender"]) && $array["sender:"] != '0' ) {
+	echo " <p><strong>sender:  </strong>" . $array["sender"] ."</p>" ;
+} 
+
 		
-
-		if ( isset($array["sender_ecobricker"]) && $array["sender_ecobricker"] != '' ) {
-			echo " <div class=\"general-field\"><b>Sender Ecobricker:</b> <var>" . $array["sender_ecobricker"] . "</var></div>" ;
-		}
-
-		echo " <div class=\"general-field\"><b>Block Tran Type:</b> <var>" . $array["block_tran_type"] . "</var></div>" ;
 
 		echo " <div class=\"general-field\"><b>Block Amount:</b> <var>" . $array["block_amt"] . "</var></div>" ;
 		 

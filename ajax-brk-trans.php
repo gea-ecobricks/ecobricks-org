@@ -1,4 +1,5 @@
 
+<?php include 'db.php';?>
 
         <?php
  
@@ -90,6 +91,8 @@ $sql_details = array(
     'db'   => 'ecobricks_gobrik_msql_db',
     'host' => 'localhost'
 );
+
+
  
 
 
