@@ -273,17 +273,15 @@
 
 	$result = $conn->query($sql);
 
-	echo $result;
-
-	if ($result->num_rows) {
+	if ($result->num_rows > 0) {
 	
 		echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
 	
 	// output data of each row
-	while($row = $result->fetch_assoc()) {
-		
+	//while($row = $result->fetch_assoc()) {
+		$row = $result->fetch_assoc();
 		echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
-		}
+	//	}
 		echo "</table>";
 	} else {
 		echo "0 results??? test1";
