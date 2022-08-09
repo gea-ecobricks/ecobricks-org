@@ -318,9 +318,27 @@ if ( isset($array["block_amt"]) && $array["block_amt:"] != '0' ) {
 	echo " <p><strong>block_amt:  </strong>" . $array["block_amt"] ."</p>" ;
 } 
 
-if ( isset($array["sender"]) && $array["sender:"] != '0' ) {
+if ( isset($array["sender"]) && $array["sender:"] != '' ) {
 	echo " <p><strong>sender:  </strong>" . $array["sender"] ."</p>" ;
 } 
+
+if ( isset($array["receiver_or_receivers"]) && $array["receiver_or_receivers:"] != '' ) {
+	echo " <p><strong>receiver_or_receivers:  </strong>" . $array["receiver_or_receivers"] ."</p>" ;
+} 
+
+if ( isset($array["receiver_1"]) && $array["receiver_1:"] != '' ) {
+	echo " <p><strong>receiver_1:  </strong>" . $array["receiver_1"] ."</p>" ;
+} 
+
+if ( isset($array["receiver_2"]) && $array["receiver_2:"] != '' ) {
+	echo " <p><strong>receiver_2:  </strong>" . $array["receiver_2"] ."</p>" ;
+} 
+if ( isset($array["receiver_1"]) && $array["receiver_1:"] != '' ) {
+	echo " <p><strong>receiver_3:  </strong>" . $array["receiver_3"] ."</p>" ;
+} 
+if ( isset($array["receiver_central_reserve"]) && $array["receiver_central_reserve:"] != '' ) {
+	echo " <p><strong>receiver_central_reserve:  </strong>" . $array["receiver_central_reserve"] ."</p>" ;
+}
 
 		
 
