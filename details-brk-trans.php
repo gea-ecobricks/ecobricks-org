@@ -339,8 +339,12 @@ if ( isset($array["receiver_1"]) && $array["receiver_1:"] != '' ) {
 if ( isset($array["receiver_central_reserve"]) && $array["receiver_central_reserve:"] != '' ) {
 	echo " <p><strong>receiver_central_reserve:  </strong>" . $array["receiver_central_reserve"] ."</p>" ;
 }
-
-		
+if ( isset($array["sender_central_reserve"]) && $array["sender_central_reserve:"] != '' ) {
+	echo " <p><strong>sender_central_reserve:  </strong>" . $array["sender_central_reserve"] ."</p>" ;
+}
+if ( isset($array["ecobrick_serial_no"]) && $array["ecobrick_serial_no:"] != '' ) {
+	echo " <p><strong>ecobrick_serial_no:  </strong>" . $array["ecobrick_serial_no"] ."</p>" ;
+}
 
 		echo " <div class=\"general-field\"><b>Block Amount:</b> <var>" . $array["block_amt"] . "</var></div>" ;
 		 
