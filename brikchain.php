@@ -115,12 +115,12 @@
 
 	if ($result->num_rows > 0) {
 	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Authenticated</th><th>Total AES Plastic</th><th>Year Expenses</th><th>1kg AES Value</th></tr>';
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Authenticated</th><th>Calculated weight</th><th>Total AES Plastic</th><th>Year Expenses</th><th>1kg AES Value</th></tr>';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." ecobricks</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td> &#8202;$ USD</td></tr>"; 
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." ecobricks</td><td>".$row["calculated_total_weight_kg"]."&#8202;Kg</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>"; 
 		}
 		echo "</table>";
 	} else {

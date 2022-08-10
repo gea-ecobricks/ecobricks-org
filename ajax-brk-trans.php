@@ -33,7 +33,6 @@ $primaryKey = 'tran_id';
 // indexes
 
 
-
 $columns = array(
 
     array(    'db' => 'chain_ledger_id',     
