@@ -33,6 +33,7 @@ $primaryKey = 'tran_id';
 // indexes
 
 
+
 $columns = array(
 
     array(    'db' => 'chain_ledger_id',     
@@ -89,6 +90,7 @@ $sql_details = array(
     'db'   => 'ecobricks_gobrik_msql_db',
     'host' => 'localhost'
 );
+
 
  
 
