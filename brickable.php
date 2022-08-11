@@ -130,13 +130,9 @@ Content Page template: v.1.0.1-->
 
 				<div id="preclosed2">
                 <p>The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals.   See copyright notice and terms below.</p><br><br>
-				<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+				<p><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
 				</div>
 			</div>
-
-
-			
-
 
 
 			<div class="reg-content-block" id="block4">
@@ -155,17 +151,32 @@ Content Page template: v.1.0.1-->
 				<div id="preclosed4">
 					
 					<p><b>The Global Ecobrick Alliance</b> </p>
-					<p>We're an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br><p>
+					<p>We're an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  When we and our trainers make use of plastic we make sure to label it with Brickable sticker</p><br>
+					<p>Here's some examples of our useage:</p>
+						
+			
+				</div>
+			</div>
+
+			<div class="reg-content-block" id="block4">
+
+				<div class="opener-header">
 					
-						<a href="https://www.gobrik.com/#my-catalyst/2021-report/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/762-disclose-light-350px.png"></a>
-					<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
+					<div class="opener-header-text">
+					<h4>See How Others Use It.</h4>
+					<h5>Companies and corporations around the world use the designator icon for their non-recyclable packaging.</h5>
 					<br>
-					<p><b>Ubud Raw Chocoloate</b> </p>
-					<p>These guys make amazing chocoloate in Bali, Indonesia.  They are also super keen to transition from plastic! They use the Catalyst program to monitor their monthly consumption of plastic from their suppliers, to the plastic they use for their product packaging.  In 2021 they attained 105% zero-waste!</p><br><p>
+					</div>
+
+					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+				</div>
+
+				<div id="preclosed4">
 					
-						<a href="https://www.gobrik.com/#my-catalyst/2021-report/5b8c2b0922ddfb2591bf67be/" target="_blank"><img src="banners/100-disclose-light-350px.png"></a>
-					<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
-					<br>
+					<p><b>The Global Ecobrick Alliance</b> </p>
+					<p>We're an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  When we and our trainers make use of plastic we make sure to label it with Brickable sticker</p><br>
+					<p>Here's some examples of our useage:</p>
+						
 			
 				</div>
 			</div>
@@ -177,10 +188,10 @@ Content Page template: v.1.0.1-->
 		<div class="page-paragraph">
 			<br><br>
 			<h2>Get Started!</h2>
-			<p>Setup your Catalyst account today.  Use your GoBrik account to get started.  If you don't have a GoBrik account yet, be sure to register first for a free personal account.</p>
+			<p>Download the Brickable Designator Kit today to use on your legacy plastic products and packaging.</p>
 			<br><br>
-			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window!</a></p>
+			<a class="action-btn" href="">🚀 Download Kit</a>
+			<p style="font-size: 0.85em; margin-top:20px;">500kb ZIP file (link not yet active)</a></p>
 		</div>
 		
 		</div>
@@ -197,8 +208,8 @@ Content Page template: v.1.0.1-->
 		
 		<img src="webp/brickable-kit.webp?v=1" width="90%">
 				<h4>Get Started</h4>
-				<h5>Download the Brikcable Designator Kit today.</h5><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Download</a><br><br>
+				<h5>Download the Brickable Designator Kit today.</h5><br>
+				<a class="action-btn" href="">🚀 Download</a><p style="font-size: 0.85em; margin-top:20px;">500kb ZIP file (link not yet active)</a></p><br><br>
 			</div>
 
 	
