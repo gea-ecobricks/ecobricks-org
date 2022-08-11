@@ -92,8 +92,8 @@ Content Page template: v.1.0.1-->
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Brickable Icon Use Requirements</h4>
-						<h5>Design criteria for products to use the designator icon.</h5>
+						<h4>Brickable Icon Useage Criteria</h4>
+						<h5>The material criteria for products to use the designator icon.</h5>
 					</div>
 					
 
@@ -107,12 +107,12 @@ Content Page template: v.1.0.1-->
 
 <ul>
 
-    <li>… not contain substances that will corrode PET plastic over time.</li>
-    <li>… not contain any primary or secondary biodegradable material.</li>
-    <li>… can be easily disassembled, broken or cut into parts that can fit within the 22mm diameter neck of a standard PET bottle.</li>
-    <li>.. maximizes the ease of disassembly for this purpose.</li>
-    <li>… not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.</li>
-    <li>… not contain reactive chemicals, or if so, these components are clearly marked as un-ecobrickable.</li>
+    <li>Must not contain substances that will corrode PET plastic over time.</li>
+    <li>Must not contain any primary or secondary biodegradable material.</li>
+    <li>Must can be easily disassembled, broken or cut into parts that can fit within the 22mm diameter neck of a standard PET bottle.</li>
+    <li>Must maximizes the ease of disassembly for this purpose.</li>
+    <li>Must not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.</li>
+    <li>Must not contain reactive chemicals, or if so, these components are clearly marked as un-brickable.</li>
 </ul>
 		
 						
@@ -129,7 +129,8 @@ Content Page template: v.1.0.1-->
 				</div>
 
 				<div id="preclosed2">
-                <p>The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals.   See copyright notice and terms below.</p>
+                <p>The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals.   See copyright notice and terms below.</p><br><br>
+				<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
 				</div>
 			</div>
 
