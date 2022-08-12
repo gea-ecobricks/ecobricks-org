@@ -23,6 +23,8 @@
 
 <!-- PAGE CONTENT-->
 
+<?php include 'ecobricks_env.php';?>
+
 <a name="top"></a>
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -71,7 +73,7 @@
 
     <div class="overflow">
 	
-	<?php include 'ecobricks_env.php';?>
+	
 		
 	<?php
 
@@ -106,8 +108,8 @@
 
 	</div>
 
-    <div class="overflow">s
-	<?php include 'ecobricks_env.php';?>
+    <div class="overflow">
+	<?php // include 'ecobricks_env.php';?>
 	<?php
 
 	$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2022 ORDER BY revenue_category ;";
@@ -264,7 +266,7 @@
 	</div>	
 	<div class="overflow">
 
-	<?php // include 'https://ecobricks.org/ecobricks_env.php';?>
+	<?php include 'https://ecobricks.org/ecobricks_env.php';?>
 
 	<?php
 
