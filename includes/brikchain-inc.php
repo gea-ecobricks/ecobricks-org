@@ -67,13 +67,17 @@ $(document).ready(function() {
     $('#ecobricks').DataTable( {
 		"processing": true,
         "serverSide": true,
+		"env": "ecobricks_env.php",
 		"ajax": "ajax-ecobricks.php"
+
 
     } );
 } );
 
 </script>
 
+
+<!--
 <script>
 
 $(document).ready(function() {
@@ -88,7 +92,7 @@ $(document).ready(function() {
 </script>
 
 
-<!--
+
 
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.11.4/dataRender/hyperLink.js"></script>
 

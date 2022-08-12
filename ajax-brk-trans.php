@@ -1,6 +1,6 @@
 
 
-        <?php
+ <?php
  
 /* 
  * DataTables example server-side processing script.
@@ -24,7 +24,7 @@
 $table = 'tb_brk_transaction';
  
 // Table's primary key
-$primaryKey = 'tran_id';
+$primaryKey = 'chain_ledger_id';
  
 
 // Array of database columns which should be read and sent back to DataTables.
@@ -83,14 +83,15 @@ array(
 );
 
  
-// SQL server connection information    
+ 
+// SQL server connection information
 $sql_details = array(
     'user' => 'ecobricks_russs',
     'pass' => '1ecobricks!',
     'db'   => 'ecobricks_gobrik_msql_db',
     'host' => 'localhost'
 );
-
+ 
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
