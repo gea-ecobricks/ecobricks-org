@@ -40,7 +40,7 @@
 				
 				<p>All blocks and transaction are recorded for a full and searcable public accounting.  Yearly summations of the AES Plastic recorded, brikcoins generated and the cost of running the blockchain are used to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded as a historical archive of each brik and to assist in the exchange of physical NFBs on the <a href="drop-off">GoBrik Marketplace</a>.</p>
 				
-				<p>Use the tools below to search by either transition or by ecobrick.</p>
+				<p>Use the tools below to search by either transaction or by ecobrick.  You can also view our <a href="open-books.php">Open Books accounting</a>.</p>
 			</div>
 		</div>
 		
@@ -60,39 +60,6 @@
 
 
 
-	<div class="page-paragraph">
-			<h4>Total Brikcoin Pool</h4>
-			
-			<h6>Running and yearly brikchain totals. </h6>
-			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
-	</div>	
-	<div class="overflow">
-
-	<?php include 'ecobricks_env.php';?>
-
-	<?php
-
-	$sql = "SELECT * FROM vw_sum_brk_total ;";
-
-	$result = $conn->query($sql);
-
-	if ($result->num_rows > 0) {
-	
-		echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
-	
-	// output data of each row
-	//until($row = $result->fetch_assoc()) {
-		$row = $result->fetch_assoc();
-		echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
-	//	}
-		echo "</table>";
-	} else {
-		echo "0 results??? test1";
-	}
-
-	?>
-	</div>
-	<br><br>
 
 		
 
@@ -169,6 +136,41 @@
    		</table>
 	</div>
 
+	<br><br><br><br>
+
+
+	<div class="page-paragraph">
+			<h4>Total Brikcoin Pool</h4>
+			
+			<h6>Running and yearly brikchain totals. </h6>
+			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
+	</div>	
+	<div class="overflow">
+
+	<?php include 'ecobricks_env.php';?>
+
+	<?php
+
+	$sql = "SELECT * FROM vw_sum_brk_total ;";
+
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+	
+		echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
+	
+	// output data of each row
+	//until($row = $result->fetch_assoc()) {
+		$row = $result->fetch_assoc();
+		echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
+	//	}
+		echo "</table>";
+	} else {
+		echo "0 results??? test1";
+	}
+
+	?>
+	</div>
 	<br><br><br><br>
 
 	<div class="page-paragraph">
