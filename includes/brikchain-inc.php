@@ -46,7 +46,7 @@ $(document).ready(function() {
     $('#brikchain').DataTable( {
 		"processing": true,
         "serverSide": true,
-		"db": "https://ecobricks.org/db2.php",
+		"db": "ecobricks_env.php",
 		"ajax": "ajax-brk-trans.php"
 
     } );
