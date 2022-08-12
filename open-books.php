@@ -65,13 +65,13 @@
 		<h4>2022 Expense Summary</h4>
 		
 		<h6>All the GEA Expense categories for 2022</h6>
-		<div class="ecobrick-data"><p>🟠 Data in migration.</p></div>
+		<div class="ecobrick-data"><p>🟠 Data in migration...</p></div>
 
 	</div>
 
     <div class="overflow">
 	
-	<?php include 'https://ecobricks.org/ecobricks_env.php';?>
+	<?php include 'https://ecobricks.org/db.php';?>
 		
 	<?php
 
