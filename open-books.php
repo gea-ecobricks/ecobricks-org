@@ -244,7 +244,7 @@
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."</td><td>".$row["tot_usd_exp_usd_amount"]."&#8202;$ USD</td><td>".$row["raw_amt"]."&#8202;$ USD</var></td></tr>";
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."</td><td>".$row["total_exp_usd_amount"]."&#8202;$ USD</td><td>".$row["raw_amt"]."&#8202;$ USD</var></td></tr>";
 		}
 		echo "</table>";
 	} else {
