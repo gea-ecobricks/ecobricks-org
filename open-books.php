@@ -250,8 +250,10 @@
 	} else {
 		echo "0 results";
 	}
-	$conn->close();
+
 	?>
+
+
 
 <?php
 
@@ -266,7 +268,7 @@ if ($result->num_rows > 0) {
 // output data of each row
 while($row = $result->fetch_assoc()) {
 	
-	echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_rev_transactions"]."</td><td>".$row["total_exp_usd_amount"]."&#8202;$ USD</td></tr>";
+	echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_rev_transactions"]."</td><td>".$row["total_rev_usd_amount"]."&#8202;$ USD</td></tr>";
 	}
 	echo "</table>";
 } else {
