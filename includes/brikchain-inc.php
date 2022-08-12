@@ -47,7 +47,6 @@ $(document).ready(function() {
 		"processing": true,
         "serverSide": true,
 		"ajax": "ajax-brk-trans.php"
-
     } );
 } );
 
