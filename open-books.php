@@ -239,12 +239,12 @@
 
 	if ($result->num_rows > 0) {
 	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Expenses</th><th>Revenue</th></tr>';
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Expenses</th><th>Raw</th></tr>';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."&#8202;$ USD</td><td>".$row["tot_usd_exp_amount"]."&#8202;$ USD</td><td>".$row["amt_raw"]."&#8202;$ USD</var></td></tr>";
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."</td><td>".$row["tot_usd_exp_amount"]."&#8202;$ USD</td><td>".$row["amt_raw"]."&#8202;$ USD</var></td></tr>";
 		}
 		echo "</table>";
 	} else {

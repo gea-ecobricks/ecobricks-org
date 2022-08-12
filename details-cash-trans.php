@@ -270,7 +270,7 @@ strong {
 </div>
 		
 <!-- The DB connection creator -->
-<?php include 'ecobricks_env.php.php';?>
+<?php include 'ecobricks_env.php';?>
 <?php
 
 // Get the contents from the Cash Tran table as an ordered View, using the serial_no from the URL.
