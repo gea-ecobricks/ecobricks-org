@@ -149,7 +149,7 @@ img {padding-right: 5%;}
 
 
 <!-- The DB connection creator -->
-<?php include 'ecobricks_env.php.php';?>
+<?php include 'ecobricks_env.php';?>
 
 <?php
 
