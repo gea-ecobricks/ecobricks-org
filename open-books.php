@@ -71,7 +71,7 @@
 
     <div class="overflow">
 	
-	<?php include 'db.php';?>
+	<?php include 'ecobricks_env.php';?>
 		
 	<?php
 
@@ -226,8 +226,6 @@
 	</div>		
 			
 	<div class="overflow">
-	
-	<?php // include 'https://ecobricks.org/ecobricks_env.php';?>
 		
 	<?php
 
