@@ -65,7 +65,7 @@
 		<h4>2022 Expense Summary</h4>
 		
 		<h6>All the GEA Expense categories for 2022</h6>
-		<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
+		<div class="ecobrick-data"><p>🟠 Data in migration.</p></div>
 
 	</div>
 
