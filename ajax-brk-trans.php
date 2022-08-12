@@ -44,6 +44,40 @@ $columns = array(
     }
 ),
 
+array(
+    'db'        => 'send_dt',
+    'dt'        => 1,
+    'formatter' => function( $d, $row ) {
+        return ''.date($d).''; 
+    }
+),
+    array( 'db' => 'sender',     'dt' => 2 ),
+    //array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
+    array( 'db' => 'block_tran_type', 'dt' => 3 ),
+   
+   // array(
+     //   'db'        => 'block_amt',
+     //   'dt'        => 5,
+     //   'formatter' => function( $d, $row ) {
+     //       return '<var>'.number_format($d,2).'&#8202;ß</var>';
+     //   }
+   // ),
+    array(
+        'db'        => 'individual_amt',
+        'dt'        => 4,
+        'formatter' => function( $d, $row ) {
+            return '<var>'.number_format($d,2).'&#8202;ß</var>';
+        }
+    ),
+
+
+
+    array( 'db' => 'ecobrick_serial_no',     
+'dt' => 5,
+'formatter' => function( $d, $row ) {
+    return '🔎 <a href="details-ecobrick-page.php?serial_no='.($d).'">'.($d).'</a>';
+}
+),
 
   
 );
@@ -53,7 +87,7 @@ $columns = array(
 // SQL server connection information
 $sql_details = array(
     'user' => 'ecobricks_russs',
-    'pass' => '1ecobricks!',
+    'pass' => '1ecobricks!!!!',
     'db'   => 'ecobricks_gobrik_msql_db',
     'host' => 'localhost'
 );

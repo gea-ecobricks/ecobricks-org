@@ -67,9 +67,7 @@ $(document).ready(function() {
     $('#ecobricks').DataTable( {
 		"processing": true,
         "serverSide": true,
-		"env": "ecobricks_env.php",
 		"ajax": "ajax-ecobricks.php"
-
 
     } );
 } );
