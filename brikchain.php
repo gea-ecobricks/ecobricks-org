@@ -139,14 +139,6 @@
 	<br><br><br><br>
 
 
-	<div class="page-paragraph">
-			<h4>Total Brikcoin Pool</h4>
-			
-			<h6>Running and yearly brikchain totals. </h6>
-			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
-	</div>	
-	
-		<br><br><br><br>
 	
 	<?php include 'ecobricks_env.php';?>
 	
@@ -184,6 +176,14 @@
 	?>
 
 <br><br><br><br>
+
+<div class="page-paragraph">
+			<h4>Total Brikcoin Pool</h4>
+			
+			<h6>Running and yearly brikchain totals. </h6>
+			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
+	</div>	
+	
 
 	<?php
 
