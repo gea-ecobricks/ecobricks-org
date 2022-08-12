@@ -71,7 +71,7 @@
 
     <div class="overflow">
 	
-	<?php include 'https://ecobricks.org/db.php';?>
+	<?php include 'db.php';?>
 		
 	<?php
 
@@ -108,7 +108,7 @@
 
     <div class="overflow">
 	
-	<?php include 'https://ecobricks.org/ecobricks_env.php';?>
+	<?php // include 'https://ecobricks.org/ecobricks_env.php';?>
 		
 	<?php
 
@@ -229,7 +229,7 @@
 			
 	<div class="overflow">
 	
-	<?php include 'https://ecobricks.org/ecobricks_env.php';?>
+	<?php // include 'https://ecobricks.org/ecobricks_env.php';?>
 		
 	<?php
 
@@ -256,40 +256,6 @@
 	<br><br> 
 
 
-	<div class="page-paragraph">
-			<h4>Yearly Expense Totals</h4>
-			
-			<h6>Running and yearly expense totals from all our open book accounting.</h6>
-			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
-	</div>		
-			
-	<div class="overflow">
-	
-	<?php include 'https://ecobricks.org/ecobricks_env.php';?>
-		
-	<?php
-
-	$sql = "SELECT * FROM vw_tot_exp_by_year` Order by `year` DESC;";
-
-	$result = $conn->query($sql);
-
-	if ($result->num_rows > 0) {
-	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Expenses</th><th>Revenue</th></tr>';
-	
-	// output data of each row
-	while($row = $result->fetch_assoc()) {
-		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."</td><td>".$row["tot_usd_exp_amount"]."&#8202;$ USD</td><td>".$row["raw_amt"]."&#8202;$ USD</var></td></tr>";
-		}
-		echo "</table>";
-	} else {
-		echo "0 results";
-	}
-	$conn->close();
-	?>
-	</div>
-	<br><br> 
 
 
 
@@ -302,7 +268,7 @@
 	</div>	
 	<div class="overflow">
 
-	<?php include 'https://ecobricks.org/ecobricks_env.php';?>
+	<?php // include 'https://ecobricks.org/ecobricks_env.php';?>
 
 	<?php
 
