@@ -24,7 +24,7 @@
 $table = 'vw_brk_tran_ledgerid_desc';
  
 // Table's primary key
-$primaryKey = 'chain_ledger_id';
+$primaryKey = 'tran_id';
  
 
 // Array of database columns which should be read and sent back to DataTables.
