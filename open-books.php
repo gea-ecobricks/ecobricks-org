@@ -24,6 +24,7 @@
 <!-- PAGE CONTENT-->
 
 
+<?php include 'ecobricks_env.php';?> 
 
 <a name="top"></a>
 <div id="main-content">
@@ -72,7 +73,7 @@
 	</div>
 
     <div class="overflow">
-	<?php include 'ecobricks_env.php';?>
+	
 	
 		
 	<?php
@@ -94,7 +95,7 @@
 	} else {
 		echo "0 results";
 	}
-	$conn->close();
+	
 	?>
 	</div>
 	<br><br> 
@@ -129,7 +130,7 @@
 	} else {
 		echo "0 results";
 	}
-	$conn->close();
+	
 	?>
 	</div>
 	<br><br> 
@@ -229,7 +230,6 @@
 			
 	<div class="overflow">
 
-	<?php include 'ecobricks_env.php';?>
 		
 	<?php
 
@@ -253,7 +253,7 @@
 
 	?>
 
-
+<br><br>
 
 <?php
 
@@ -274,18 +274,12 @@ while($row = $result->fetch_assoc()) {
 } else {
 	echo "0 results";
 }
-$conn->close();
+
 ?>
+
+<?php $conn->close(); ?>
 	</div>
 	<br><br> 
-
-
-
-
-
-
-
-				
 
 
 
