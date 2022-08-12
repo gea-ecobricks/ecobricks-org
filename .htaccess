@@ -180,4 +180,12 @@ RedirectMatch "^/exchange/dropoff-map/" "/en/drop-off.php"
 RedirectMatch "^/brikcoins" "/en/brikcoins.php"
 RedirectMatch "^/brikcoins/" "/en/brikcoins.php"
 
+RedirectMatch "^/open-books" "/en/open-books.php"
+RedirectMatch "^/openbooks/" "/en/open-books.php"
+
+RedirectMatch "^/brickable/" "/en/brickable.php"
+RedirectMatch "^/brikable/" "/en/brickable.php"
+RedirectMatch "^/brickable/" "/en/brickable.php"
+
+
 
