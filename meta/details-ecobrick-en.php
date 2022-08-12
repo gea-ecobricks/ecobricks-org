@@ -1,6 +1,6 @@
 <?php
 
-include 'db.php';
+include 'ecobricks_env.php';
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 $serialNo = $_GET['serial_no'];

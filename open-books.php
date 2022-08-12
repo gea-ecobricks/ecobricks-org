@@ -222,9 +222,9 @@
 		
 	<div class="page-paragraph">
 			<h4>Yearly Totals</h4>
-			
-			<h6>Total expenses and revenues by year.</h6>
 			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
+			<h6>Total expenses and revenues by year.</h6>
+			
 	</div>		
 			
 	<div class="overflow">
@@ -239,12 +239,12 @@
 
 	if ($result->num_rows > 0) {
 	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Expenses</th><th>Raw</th></tr>';
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Expenses</th></tr>';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."</td><td>".$row["total_exp_usd_amount"]."&#8202;$ USD</td><td>".$row["raw_amt"]."&#8202;$ USD</var></td></tr>";
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."</td><td>".$row["total_exp_usd_amount"]."&#8202;$ USD</td></tr>";
 		}
 		echo "</table>";
 	} else {
@@ -252,6 +252,28 @@
 	}
 	$conn->close();
 	?>
+
+<?php
+
+$sql = "SELECT * FROM vw_tot_rev_by_year Order by `year` DESC;";
+
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+
+	echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Revenues</th></tr>';
+
+// output data of each row
+while($row = $result->fetch_assoc()) {
+	
+	echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_rev_transactions"]."</td><td>".$row["total_exp_usd_amount"]."&#8202;$ USD</td></tr>";
+	}
+	echo "</table>";
+} else {
+	echo "0 results";
+}
+$conn->close();
+?>
 	</div>
 	<br><br> 
 
