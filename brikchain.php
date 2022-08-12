@@ -145,33 +145,12 @@
 			<h6>Running and yearly brikchain totals. </h6>
 			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
 	</div>	
-	<div class="overflow">
-
+	
+		<br><br><br><br>
+	
 	<?php include 'ecobricks_env.php';?>
-
-	<?php
-
-	$sql = "SELECT * FROM vw_sum_brk_total ;";
-
-	$result = $conn->query($sql);
-
-	if ($result->num_rows > 0) {
 	
-		echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
-	
-	// output data of each row
-	//until($row = $result->fetch_assoc()) {
-		$row = $result->fetch_assoc();
-		echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
-	//	}
-		echo "</table>";
-	} else {
-		echo "0 results??? test1";
-	}
-
-	?>
-	</div>
-	<br><br><br><br>
+	<div class="overflow">
 
 	<div class="page-paragraph">
 			<h4>AES Plastic Valuations</h4>
@@ -196,14 +175,40 @@
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." ecobricks</td><td>".$row["calculated_total_weight_kg"]."&#8202;Kg</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>"; 
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." ecobricks</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>"; 
 		}
 		echo "</table>";
 	} else {
 		echo "0 results";
 	}
-	
 	?>
+
+<br><br><br><br>
+
+	<?php
+
+$sql = "SELECT * FROM vw_sum_brk_total ;";
+
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+
+	echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
+
+// output data of each row
+//until($row = $result->fetch_assoc()) {
+	$row = $result->fetch_assoc();
+	echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
+//	}
+	echo "</table>";
+} else {
+	echo "0 results??? test1";
+}
+
+?>
+</div>
+
+
 	</div>
 
 	<?php 	$conn->close();?>
