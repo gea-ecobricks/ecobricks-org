@@ -91,7 +91,7 @@
                     <a href="/how">Bagaimana membuat?</a>
                     <a href="/why">Mangapa Ecobricks?</a>
                     <a href="/plastic">Cerita Plastik</a>
-                    <a href="/principles.php">Princip</a>
+                    <a href="principles.php">Princip</a>
                 </div>
             </div> 
         

@@ -91,7 +91,7 @@
                     <a href="/how">¿Cómo hacer?</a>
                     <a href="/why">¿Por qué ecoladrillos?</a>
                     <a href="/plastic">Historia del plástico</a>
-                    <a href="/principles.php">Principios</a>
+                    <a href="principles.php">Principios</a>
                 </div>
             </div> 
         

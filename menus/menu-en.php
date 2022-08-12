@@ -91,7 +91,7 @@
                     <a href="/how">How to Make?</a>
                     <a href="/why">Why Ecobricks?</a>
                     <a href="/plastic">Plastic's Story</a>
-                    <a href="/principles.php">Principles</a>
+                    <a href="principles.php">Principles</a>
                 </div>
             </div> 
         

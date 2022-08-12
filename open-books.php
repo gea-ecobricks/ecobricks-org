@@ -223,7 +223,7 @@
 	<div class="page-paragraph">
 			<h4>Yearly Totals</h4>
 			
-			<h6>Running and yearly brikchain totals.  Brikcoin pricing based on the Global Ecobrick Alliance's yearly costs for presiding over the blockhain as disclosed the GEA's yearly <a href="openbooks">Open Books</a> financial accounting</h6>
+			<h6>Total expenses and revenues by year.</h6>
 			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
 	</div>		
 			
@@ -233,7 +233,7 @@
 		
 	<?php
 
-	$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC;";
+	$sql = "SELECT * FROM vw_tot_exp_by_year Order by `year` DESC;";
 
 	$result = $conn->query($sql);
 
@@ -244,7 +244,7 @@
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["tot_usd_rev_amt"]."&#8202;$ USD</var></td></tr>";
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."&#8202;$ USD</td><td>".$row["tot_usd_exp_amount"]."&#8202;$ USD</td><td>".$row["amt_raw"]."&#8202;$ USD</var></td></tr>";
 		}
 		echo "</table>";
 	} else {
@@ -259,40 +259,6 @@
 
 
 
-
-	<div class="page-paragraph">
-			<h4>Total Brikcoin Pool</h4>
-			
-			<h6>Running and yearly brikchain totals. </h6>
-			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
-	</div>	
-	<div class="overflow">
-
-	<?php include 'ecobricks_env.php';?>
-
-	<?php
-
-	$sql = "SELECT * FROM vw_sum_brk_total ;";
-
-	$result = $conn->query($sql);
-
-	if ($result->num_rows > 0) {
-	
-		echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
-	
-	// output data of each row
-	//until($row = $result->fetch_assoc()) {
-		$row = $result->fetch_assoc();
-		echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
-	//	}
-		echo "</table>";
-	} else {
-		echo "0 results??? test1";
-	}
-	$conn->close();
-	?>
-	</div>
-	<br><br>
 
 
 				
