@@ -302,6 +302,13 @@ strong {
                     echo " <div class=\"main\"><b>Sent:</b> <var>" . $array["datetime_sent_ts"] ."</var></div>" ;
                 
                     echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div></div>" ;
+
+					if ( isset($array["expense_accounting_type"]) && $array["expense_accounting_type"] != '' ) { 
+						echo " <p><b>expense_accounting_type:</b> " . $array["expense_accounting_type"] ."</p>" ;
+					}
+					if ( isset($array["revenue_accounting_type"]) && $array["revenue_accounting_type"] != '' ) { 
+						echo " <p><b>revenue_accounting_type:</b> " . $array["revenue_accounting_type"] ."</p>" ;
+					}
                     
 //DETAILS
 					echo '<div class="ecobrick-data">
@@ -330,7 +337,7 @@ strong {
 
 // DETAILS OPTIONAL
 
-if ( isset($array["total_product_cost_incl_shipping"]) && $array["total_product_cost_incl_shipping"] != '' ) { 
+if ( isset($array["total_product_cost_incl_shipping"]) && $array["total_product_cost_incl_shipping"] != '0' ) { 
 	echo " <p><b>Total product cost (incl. shipping):</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </p>" ;
 	}
 
@@ -339,17 +346,17 @@ if ( isset($array["product"]) && $array["product"] != '0' ) {
 		echo " <p><b>Product Price</b> <var>" . $array["product"] ."</var></p>" ;
 		}
 
-if ( isset($array["product_cost"]) && $array["product_cost"] != '' ) { 
+if ( isset($array["product_cost"]) && $array["product_cost"] != '0' ) { 
 			echo " <p><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></p>" ;
 		}
 
 		echo " <p><b>Transaction Date:</b> " . $array["transaction_date_dt"] ."</p>" ;
 
-		if ( isset($array["shipping_cost"]) && $array["shipping_cost"] != '' ) {
+		if ( isset($array["shipping_cost"]) && $array["shipping_cost"] != '0' ) {
 			echo " <p><b>Shipping Cost:</b> <var> " . $array["shipping_cost"] ."</var></p>" ;
 		}
 
-		if ( isset($array["shipping_cost_+ccy_display"]) && $array["shipping_cost_+ccy_display"] != '' ) { 
+		if ( isset($array["shipping_cost_+ccy_display"]) && $array["shipping_cost_+ccy_display"] != '0' ) { 
 					echo " <p><b>shipping_cost_+ccy_display:</b> " . $array["shipping_cost_+ccy_display"] ."</p>" ;
 		}
 
@@ -394,31 +401,31 @@ if ( isset($array["product_cost"]) && $array["product_cost"] != '' ) {
 		if ( isset($array["connected_brk_tran_name"]) && $array["connected_brk_tran_name"] != '' ) { 
 			echo " <p><b>connected_brk_tran_name:</b> " . $array["connected_brk_tran_name"] ."</p>" ;
 		}
-		if ( isset($array["aes_to_usd_rate"]) && $array["aes_to_usd_rate"] != '' ) { 
+		if ( isset($array["aes_to_usd_rate"]) && $array["aes_to_usd_rate"] != '0' ) { 
 			echo " <p><b>aes_to_usd_rate:</b> " . $array["aes_to_usd_rate"] ."</p>" ;
 		}
-		if ( isset($array["aes_plastic_offset_purchase_kg"]) && $array["aes_plastic_offset_purchase_kg"] != '' ) { 
+		if ( isset($array["aes_plastic_offset_purchase_kg"]) && $array["aes_plastic_offset_purchase_kg"] != '0' ) { 
 			echo " <p><b>aes_plastic_offset_purchase_kg:</b> " . $array["aes_plastic_offset_purchase_kg"] ."</p>" ;
 		}
-		if ( isset($array["usd_payment_for_aes"]) && $array["usd_payment_for_aes"] != '' ) { 
+		if ( isset($array["usd_payment_for_aes"]) && $array["usd_payment_for_aes"] != '0' ) { 
 			echo " <p><b>usd_payment_for_aes:</b> " . $array["usd_payment_for_aes"] ."</p>" ;
 		}
-		if ( isset($array["gbp_payment_for_aes"]) && $array["gbp_payment_for_aes"] != '' ) { 
+		if ( isset($array["gbp_payment_for_aes"]) && $array["gbp_payment_for_aes"] != '0' ) { 
 			echo " <p><b>gbp_payment_for_aes:</b> " . $array["gbp_payment_for_aes"] ."</p>" ;
 		}
-		if ( isset($array["native_conversion_of_aes"]) && $array["native_conversion_of_aes"] != '' ) { 
+		if ( isset($array["native_conversion_of_aes"]) && $array["native_conversion_of_aes"] != '0' ) { 
 			echo " <p><b>native_conversion_of_aes:</b> " . $array["native_conversion_of_aes"] ."</p>" ;
 		}
-		if ( isset($array["brk_cost_of_aes_display"]) && $array["brk_cost_of_aes_display"] != '' ) { 
+		if ( isset($array["brk_cost_of_aes_display"]) && $array["brk_cost_of_aes_display"] != '0' ) { 
 			echo " <p><b>brk_cost_of_aes_display:</b> " . $array["brk_cost_of_aes_display"] ."</p>" ;
 		}
 		if ( isset($array["credited_catalyst"]) && $array["credited_catalyst"] != '' ) { 
 			echo " <p><b>credited_catalyst:</b> " . $array["credited_catalyst"] ."</p>" ;
 		}
-		if ( isset($array["brikcoins_purchased_display"]) && $array["brikcoins_purchased_display"] != '' ) { 
+		if ( isset($array["brikcoins_purchased_display"]) && $array["brikcoins_purchased_display"] != '0' ) { 
 			echo " <p><b>brikcoins_purchased_display:</b> " . $array["brikcoins_purchased_display"] ."</p>" ;
 		}
-		if ( isset($array["usd_paid_for_brk_+ccy_display"]) && $array["usd_paid_for_brk_+ccy_display"] != '' ) { 
+		if ( isset($array["usd_paid_for_brk_+ccy_display"]) && $array["usd_paid_for_brk_+ccy_display"] != '0' ) { 
 			echo " <p><b>usd_paid_for_brk_+ccy_display:</b> " . $array["usd_paid_for_brk_+ccy_display"] ."</p>" ;
 		}
 		if ( isset($array["connected_brk_trans"]) && $array["connected_brk_trans"] != '' ) { 
