@@ -303,91 +303,129 @@ strong {
                 
                     echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div></div>" ;
                     
-
+//DETAILS
 					echo '<div class="ecobrick-data">
 					
 					<p><b>>> Raw Cash Transaction Record</b></p>';
 
-                    echo " <p><strong>Record ID:</strong> <var>" . $array["knack_record_id"] ."</var></p>" ;
+                    echo " <p><strong>Record ID:</strong>" . $array["knack_record_id"] ."</p>" ;
+ 
+					echo " <p><b>Cash Transaction ID:</b> " . $array["cash_tran_id"] . " </p>" ;
 
+					echo " <p><b>Sender (for display):</b> " . $array["sender_for_display"] ."</p>" ;
 
-					echo " <p><b>Blockchain Transaction ID:</b> " . $array["cash_tran_id"] . " </p>" ;
+					echo " <p><b>Date Time Sent:</b>  " . $array["datetime_sent_ts"] ." </p>" ;
 
-					echo " <p><b>Transaction Date:</b> <var> " . $array["transaction_date_dt"] ."</var></p>" ;
+					echo " <p><b>type_of_transaction:</b>  " . $array["type_of_transaction"] ." </p>" ;
 
-					echo " <p><b>Transaction name:</b> " . $array["tran_name_desc"] ."</var></p>" ;
+					echo " <p><b>type_of_transaction:</b>  " . $array["type_of_transaction"] ." </p>" ;
 
-					echo " <p><b>Native Amount:</b> <var>" . $array["native_ccy_amt"] ."</var></p>" ;
+					echo " <p><b>Transaction name:</b> " . $array["tran_name_desc"] ."</p>" ;
 
-                    echo " <p><b>Currency code:</b><var> " . $array["currency_code"] ."</var></p>" ;
-
-					echo " <p><b>Native Currency Amount:</b><var> " . $array["native_ccy_amt_display"] ."</var></p>" ;
+					echo " <p><b>Native Currency Amount:</b> " . $array["native_ccy_amt_display"] ."</p>" ;
 
                     echo " <p><b>Exchange rate:</b> <var>" . $array["exchange_ratio"] ."</var> </p>" ;
 
-					echo " <p><b>USD Amount:</b> <var>" . $array["usd_amount"] ."</var> </p>" ;
+					echo " <p><b>Amount USD:</b> <var>" . $array["usd_amount"] ."</var> </p>" ;
 
-                    
-					
-					if ( isset($array["total_product_cost_incl_shipping"]) && $array["total_product_cost_incl_shipping"] != '' ) { 
-					echo " <p><b>Total product cost (incl. shipping):</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </p>" ;
-					}
+// DETAILS OPTIONAL
 
-					if ( isset($array["product"]) && $array["product"] != '0' ) { 
-                    echo " <p><b>Product Price</b> <var>" . $array["product"] ."</var></p>" ;
-					}
-
-                    if ( isset($array["product_cost"]) && $array["product_cost"] != '' ) { 
-						echo " <p><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></p>" ;
-					}
-
-					
-
-					if ( isset($array["shipping_cost"]) && $array["shipping_cost"] != '' ) {
-						echo " <p><b>Shipping Cost:</b> <var> " . $array["shipping_cost"] ."</var></p>" ;
-					}
-					
-					if ( isset($array["total_product_cost_+ccy_display"]) && $array["total_product_cost_+ccy_display"] != '' ) {
-					echo " <p><b>Total Product Cost:</b> <var> " . $array["total_product_cost_+ccy_display"] ."</var></p>" ; 	
-					}
-;
-
-					echo " <p><b>Sender (for display):</b> <var><i>" . $array["sender_for_display"] ."</i></var> </p>" ;
-
-                    echo " <p><b>Receiver (for display):</b> <var>" . $array["receiver_for_display"] ."</var></p>" ;
-
-					echo " <p><b>Receiving GEA account:</b> <var> " . $array["receiver_gea_account"] ."</var></p>" ;
-
-					echo " <p><b>Vendor:</b> <var> " . $array["expense_vendor"] ."</var></p>" ;
-
-                    echo " <p><b>Purchase method:</b> <var>" . $array["purchase_method"] ."</var></p>" ;
+if ( isset($array["total_product_cost_incl_shipping"]) && $array["total_product_cost_incl_shipping"] != '' ) { 
+	echo " <p><b>Total product cost (incl. shipping):</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </p>" ;
+	}
 
 
-					echo " <p><b>Reocurring Period:</b> <var>" . $array["recurring_trans_period"] ."</var></p>" ;
+if ( isset($array["product"]) && $array["product"] != '0' ) { 
+		echo " <p><b>Product Price</b> <var>" . $array["product"] ."</var></p>" ;
+		}
 
-					echo " <p><b>Expense Accounting Type:</b> <var>" . $array["expense_accounting_type"] ."</var></p>" ;
-					
-					echo " <p><b>revenue_accounting_type:</b> <var>" . $array["revenue_accounting_type"] ."</var></p>" ;
-					
-					echo " <p><b>tran_processor:</b> <var>" . $array["tran_processor"] ."</var></p>" ;
-					
-					echo " <p><b>aes_to_usd_rate:</b> <var>" . $array["aes_to_usd_rate"] ."</var></p>" ;
-					
-					echo " <p><b>aes_plastic_offset_purchase_kg:</b> <var>" . $array["aes_plastic_offset_purchase_kg"] ."</var></p>" ;
-					
-					echo " <p><b>usd_payment_for_aes:</b> <var>" . $array["usd_payment_for_aes"] ."</var></p>" ;
-					
-					echo " <p><b>gbp_payment_for_aes:</b> <var>" . $array["gbp_payment_for_aes"] ."</var></p>" ;
+if ( isset($array["product_cost"]) && $array["product_cost"] != '' ) { 
+			echo " <p><b>Product cost:</b> <var>" . $array["product_cost"] ."</var></p>" ;
+		}
 
-					echo "<p><b>Native_conversion_of_aes:</b> <var>" . $array["native_conversion_of_aes"] ."</var></p>" ;
+		echo " <p><b>Transaction Date:</b> " . $array["transaction_date_dt"] ."</p>" ;
 
-					echo " <p><b>brk_cost_of_aes_display:</b> <var>" . $array["brk_cost_of_aes_display"] ."</var></p>" ;
+		if ( isset($array["shipping_cost"]) && $array["shipping_cost"] != '' ) {
+			echo " <p><b>Shipping Cost:</b> <var> " . $array["shipping_cost"] ."</var></p>" ;
+		}
 
-					echo " <p><b>credited_catalyst:</b> <var>" . $array["credited_catalyst"] ."</var></p>" ;
+		if ( isset($array["shipping_cost_+ccy_display"]) && $array["shipping_cost_+ccy_display"] != '' ) { 
+					echo " <p><b>shipping_cost_+ccy_display:</b> " . $array["shipping_cost_+ccy_display"] ."</p>" ;
+		}
 
-					echo " <p><b>brikcoins_purchased_display:</b> <var>" . $array["brikcoins_purchased_display"] ."</var></p>" ;
+		if ( isset($array["total_product_cost_+ccy_display"]) && $array["total_product_cost_+ccy_display"] != '' ) { 
+			echo " <p><b>total_product_cost_+ccy_display:</b> " . $array["total_product_cost_+ccy_display"] ."</p>" ;
+}
 
-					echo " <p><b>usd_paid_for_brk_+ccy_display:</b> <var>" . $array["usd_paid_for_brk_+ccy_display"] ."</var></p>" ;
+		if ( isset($array["receiving_gea_acct"]) && $array["receiving_gea_acct"] != '' ) { 
+			echo " <p><b>receiving_gea_acct:</b> " . $array["receiving_gea_acct"] ."</p>" ;
+		}
+
+		if ( isset($array["sender_for_display"]) && $array["sender_for_display"] != '' ) { 
+			echo " <p><b>sender_for_display:</b> " . $array["sender_for_display"] ."</p>" ;
+		}
+		if ( isset($array["receiver_for_display"]) && $array["receiver_for_display"] != '' ) { 
+			echo " <p><b>receiver_for_display:</b> " . $array["receiver_for_display"] ."</p>" ;
+		}
+		if ( isset($array["receiver_gea_account"]) && $array["receiver_gea_account"] != '' ) { 
+			echo " <p><b>receiver_gea_account:</b> " . $array["receiver_gea_account"] ."</p>" ;
+		}
+		if ( isset($array["expense_vendor"]) && $array["expense_vendor"] != '' ) { 
+			echo " <p><b>expense_vendor:</b> " . $array["expense_vendor"] ."</p>" ;
+		}
+		if ( isset($array["purchase_method"]) && $array["purchase_method"] != '' ) { 
+			echo " <p><b>purchase_method:</b> " . $array["purchase_method"] ."</p>" ;
+		}
+		if ( isset($array["recurring_trans_period"]) && $array["recurring_trans_period"] != '' ) { 
+			echo " <p><b>recurring_trans_period:</b> " . $array["recurring_trans_period"] ."</p>" ;
+		}
+
+		//acct type
+		if ( isset($array["expense_accounting_type"]) && $array["expense_accounting_type"] != '' ) { 
+			echo " <p><b>expense_accounting_type:</b> " . $array["expense_accounting_type"] ."</p>" ;
+		}
+		if ( isset($array["revenue_accounting_type"]) && $array["revenue_accounting_type"] != '' ) { 
+			echo " <p><b>revenue_accounting_type:</b> " . $array["revenue_accounting_type"] ."</p>" ;
+		}
+
+		if ( isset($array["tran_processor"]) && $array["tran_processor"] != '' ) { 
+			echo " <p><b>tran_processor:</b> " . $array["tran_processor"] ."</p>" ;
+		}
+		if ( isset($array["connected_brk_tran_name"]) && $array["connected_brk_tran_name"] != '' ) { 
+			echo " <p><b>connected_brk_tran_name:</b> " . $array["connected_brk_tran_name"] ."</p>" ;
+		}
+		if ( isset($array["aes_to_usd_rate"]) && $array["aes_to_usd_rate"] != '' ) { 
+			echo " <p><b>aes_to_usd_rate:</b> " . $array["aes_to_usd_rate"] ."</p>" ;
+		}
+		if ( isset($array["aes_plastic_offset_purchase_kg"]) && $array["aes_plastic_offset_purchase_kg"] != '' ) { 
+			echo " <p><b>aes_plastic_offset_purchase_kg:</b> " . $array["aes_plastic_offset_purchase_kg"] ."</p>" ;
+		}
+		if ( isset($array["usd_payment_for_aes"]) && $array["usd_payment_for_aes"] != '' ) { 
+			echo " <p><b>usd_payment_for_aes:</b> " . $array["usd_payment_for_aes"] ."</p>" ;
+		}
+		if ( isset($array["gbp_payment_for_aes"]) && $array["gbp_payment_for_aes"] != '' ) { 
+			echo " <p><b>gbp_payment_for_aes:</b> " . $array["gbp_payment_for_aes"] ."</p>" ;
+		}
+		if ( isset($array["native_conversion_of_aes"]) && $array["native_conversion_of_aes"] != '' ) { 
+			echo " <p><b>native_conversion_of_aes:</b> " . $array["native_conversion_of_aes"] ."</p>" ;
+		}
+		if ( isset($array["brk_cost_of_aes_display"]) && $array["brk_cost_of_aes_display"] != '' ) { 
+			echo " <p><b>brk_cost_of_aes_display:</b> " . $array["brk_cost_of_aes_display"] ."</p>" ;
+		}
+		if ( isset($array["credited_catalyst"]) && $array["credited_catalyst"] != '' ) { 
+			echo " <p><b>credited_catalyst:</b> " . $array["credited_catalyst"] ."</p>" ;
+		}
+		if ( isset($array["brikcoins_purchased_display"]) && $array["brikcoins_purchased_display"] != '' ) { 
+			echo " <p><b>brikcoins_purchased_display:</b> " . $array["brikcoins_purchased_display"] ."</p>" ;
+		}
+		if ( isset($array["usd_paid_for_brk_+ccy_display"]) && $array["usd_paid_for_brk_+ccy_display"] != '' ) { 
+			echo " <p><b>usd_paid_for_brk_+ccy_display:</b> " . $array["usd_paid_for_brk_+ccy_display"] ."</p>" ;
+		}
+		if ( isset($array["connected_brk_trans"]) && $array["connected_brk_trans"] != '' ) { 
+			echo " <p><b>connected_brk_trans:</b> " . $array["connected_brk_trans"] ."</p>" ;
+		}
+
+
 
 					if ( isset($array["connected_brk_trans"]) && $array["connected_brk_trans"] != '' ) {
 						
@@ -395,7 +433,9 @@ strong {
 					onclick="window.open(\'details-brk-trans.php?tran_id=\'' . $array["connected_brk_trans"] .'\',\'popup\',\'width=600,height=800\'); return false;">' . $array["connected_brk_trans"] .'</a>' ;
 					}
 
-                    echo " <p><b>Payment record:</b> <var>" . $array["paymt_record_url"] ."</var></p>" ;
+                    if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] != '' ) { 
+						echo " <p><b>paymt_record_url:</b> " . $array["paymt_record_url"] ."</p>" ;
+					}
 					
 					echo '<p><< END.</p></div>';
                 }
