@@ -64,7 +64,6 @@
 		</div>
 	</div>
 
-
 	<div class="page-paragraph">	
 		<h4>2022 Revenue & Expenses Summary</h4>
 		
@@ -73,78 +72,6 @@
 
 	</div>
 
-    <div class="overflow">
-		
-	<?php
-
-	$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2020 ORDER BY expense_category;";
-
-	$result = $conn->query($sql);
-
-	if ($result->num_rows > 0) {
-	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Category</th><th>Transactions</th><th>Year Total</th></tr>';
-	
-	// output data of each row
-	while($row = $result->fetch_assoc()) {
-		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["expense_category"]."</td><td>".$row["no_of_transactions"]."</td><td>".$row["total_usd"]."&#8202;$ USD</td></tr>";
-		}
-		echo "</table>";
-	} else {
-		echo "0 results";
-	}
-	
-	?>
-
-
-<?php
-
-$sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2020;";
-
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-
-	echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Revenues</th></tr>';
-
-// output data of each row
-while($row = $result->fetch_assoc()) {
-	
-	echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_rev_transactions"]."</td><td>".$row["total_rev_usd_amount"]."&#8202;$ USD</td></tr>";
-	}
-	echo "</table>";
-} else {
-	echo "0 results";
-}
-
-?>
-
-	<br><br>
-
-	<?php
-
-	$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2020 ORDER BY revenue_category ;";
-
-	$result = $conn->query($sql);
-
-	if ($result->num_rows > 0) {
-	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Category</th><th>Transactions</th><th>Year Total</th></tr>';
-	
-	// output data of each row
-	while($row = $result->fetch_assoc()) {
-		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["revenue_category"]."</td><td>".$row["no_of_transactions"]."</td><td>".$row["total_usd"]."&#8202;$ USD</td></tr>";
-		}
-		echo "</table>";
-	} else {
-		echo "0 results";
-	}
-	
-	?>
-	</div>
-	<br><br><br><br> 
 
 
 	<div class="reg-content-block" id="block1">
@@ -152,14 +79,149 @@ while($row = $result->fetch_assoc()) {
 		<div class="opener-header">
 			
 			<div class="opener-header-text">
-				<h4>Live Revenues</h4>
-				<h5>A full listing of the GEA's ongoing revenue transactions.</h5>
+				<h4>Current Year Revenue</h4>
+				<h5>A summary of the GEA's current year revenue.</h5>
+				<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
 			</div>
 			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
 
 		</div>
 
 		<div id="preclosed1">
+
+
+    		<div class="overflow">
+		
+				<?php
+
+				$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2020 ORDER BY expense_category;";
+
+				$result = $conn->query($sql);
+
+				if ($result->num_rows > 0) {
+				
+					echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Category</th><th>Transactions</th><th>Year Total</th></tr>';
+				
+				// output data of each row
+				while($row = $result->fetch_assoc()) {
+					
+					echo "<tr><td>".$row["year"]."</td><td>".$row["expense_category"]."</td><td>".$row["no_of_transactions"]."</td><td>".$row["total_usd"]."&#8202;$ USD</td></tr>";
+					}
+					echo "</table>";
+				} else {
+					echo "0 results";
+				}
+				
+				?>
+
+				<?php
+
+				$sql = "SELECT * FROM vw_tot_exp_by_year WHERE year = 2020;";
+
+				$result = $conn->query($sql);
+
+				if ($result->num_rows > 0) {
+
+					echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Total Transactions</th><th>Total Expenses</th></tr>';
+
+				// output data of each row
+				while($row = $result->fetch_assoc()) {
+					
+					echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."</td><td>".$row["total_exp_usd_amount"]."&#8202;$ USD</td></tr>";
+					}
+					echo "</table>";
+				} else {
+					echo "0 results";
+				}
+
+				?>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="reg-content-block" id="block2">
+				
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+						<h4>Current Year Expenses</h4>
+						<h5>A summary of the GEA's current year expenses.</h5>
+						<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
+					</div>
+					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+		
+				</div>
+		
+				<div id="preclosed2">
+		
+		
+					<div class="overflow">
+
+						<?php
+
+						$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2020 ORDER BY revenue_category ;";
+
+						$result = $conn->query($sql);
+
+						if ($result->num_rows > 0) {
+						
+							echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Category</th><th>Transactions</th><th>Year Total</th></tr>';
+						
+						// output data of each row
+						while($row = $result->fetch_assoc()) {
+							
+							echo "<tr><td>".$row["year"]."</td><td>".$row["revenue_category"]."</td><td>".$row["no_of_transactions"]."</td><td>".$row["total_usd"]."&#8202;$ USD</td></tr>";
+							}
+							echo "</table>";
+						} else {
+							echo "0 results";
+						}
+						
+						?>
+
+						<?php
+
+						$sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2020;";
+
+						$result = $conn->query($sql);
+
+						if ($result->num_rows > 0) {
+
+							echo'<table id="brikchain" class="display"><tr><th>Year</th><th>TTotal Transactions</th><th>total Revenue</th></tr>';
+
+						// output data of each row
+						while($row = $result->fetch_assoc()) {
+							
+							echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_rev_transactions"]."</td><td>".$row["total_rev_usd_amount"]."&#8202;$ USD</td></tr>";
+							}
+							echo "</table>";
+						} else {
+							echo "0 results";
+						}
+
+					?>	
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="reg-content-block" id="block3">
+				
+		<div class="opener-header">
+			
+			<div class="opener-header-text">
+				<h4>Live Revenues</h4>
+				<h5>A full listing of the GEA's ongoing revenue transactions.</h5>
+			</div>
+			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+
+		</div>
+
+		<div id="preclosed3">
 
 			<div class="page-paragraph">	
 				<h6>All the GEA Revenue transactions</h6>
@@ -197,7 +259,7 @@ while($row = $result->fetch_assoc()) {
 	</div>
 
 
-	<div class="reg-content-block" id="block2">
+	<div class="reg-content-block" id="block3">
 				
 				<div class="opener-header">
 					
@@ -205,11 +267,11 @@ while($row = $result->fetch_assoc()) {
 						<h4>Live Expenses</h4>
 						<h5>A full listing of the GEA's ongoing expense transactions.</h5>
 					</div>
-					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 		
 				</div>
 		
-				<div id="preclosed2">
+				<div id="preclosed3">
 		
 					<div class="page-paragraph">	
 						<h6>All the GEA Expense transactions</h6>
