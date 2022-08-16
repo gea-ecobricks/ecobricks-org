@@ -60,13 +60,36 @@
 		</div>
 	</div>
 
-	<div class="page-paragraph">	
-		<h4>Global Stats</h4>
-		
-		<h6>A summary of this year's GEA accounting.</h6>
-		<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
 
-	</div>
+	<div class="page-paragraph">
+			<h4>Overview</h4>
+			
+			<h6>The live tabulation of our Open Books financial transaction combined with data from the <a href="brikchain.php">Brikcoin blockchain</a> from our accounting determine the price of 1Kg of AES plastic.</h6>
+			<div class="ecobrick-data"><p>🟠 Data live</p></div>
+	</div>	
+
+	<?php
+
+$sql = "SELECT * FROM vw_sum_brk_total ;";
+
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+
+	echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
+
+// output data of each row
+//until($row = $result->fetch_assoc()) {
+	$row = $result->fetch_assoc();
+	echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
+//	}
+	echo "</table>";
+} else {
+	echo "0 results??? test1";
+}
+
+?>
+</div>
 
 
 
@@ -313,71 +336,96 @@
 
 	
 
-	<br><br>
+			<div class="reg-content-block" id="block5">
+				
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+						<h4>Year Summaries</h4>
+						<h5>OpenBooks totals from 2019 to 2022.</h5>
+					</div>
+					<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
 		
-	<div class="page-paragraph">
-			<h4>Yearly Totals</h4>
-			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
-			<h6>Total expenses and revenues by year.</h6>
-			
-	</div>		
-			
-	<div class="overflow">
-
+				</div>
 		
-	<?php
+				<div id="preclosed5">
+					<br><br>
+						
+					<div class="page-paragraph">
+							<h4>Yearly Totals</h4>
+							
+							<h6>Total expenses and revenues by year.</h6>
+							
+					</div>		
+							
+					<div class="overflow">
 
-	$sql = "SELECT * FROM vw_tot_exp_by_year Order by `year` DESC;";
+						
+					<?php
 
-	$result = $conn->query($sql);
+					$sql = "SELECT * FROM vw_tot_exp_by_year Order by `year` DESC;";
 
-	if ($result->num_rows > 0) {
-	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Expenses</th></tr>';
-	
-	// output data of each row
-	while($row = $result->fetch_assoc()) {
-		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."</td><td>".$row["total_exp_usd_amount"]."&#8202;$ USD</td></tr>";
-		}
-		echo "</table>";
-	} else {
-		echo "0 results";
-	}
+					$result = $conn->query($sql);
 
-	?>
+					if ($result->num_rows > 0) {
+					
+						echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Expenses</th></tr>';
+					
+					// output data of each row
+					while($row = $result->fetch_assoc()) {
+						
+						echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."</td><td>".$row["total_exp_usd_amount"]."&#8202;$ USD</td></tr>";
+						}
+						echo "</table>";
+					} else {
+						echo "0 results";
+					}
 
-<br><br>
+					?>
+					<br><br>
 
-<?php
+					<?php
 
-$sql = "SELECT * FROM vw_tot_rev_by_year Order by `year` DESC;";
+					$sql = "SELECT * FROM vw_tot_rev_by_year Order by `year` DESC;";
 
-$result = $conn->query($sql);
+					$result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
+					if ($result->num_rows > 0) {
 
-	echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Revenues</th></tr>';
+						echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Revenues</th></tr>';
 
-// output data of each row
-while($row = $result->fetch_assoc()) {
-	
-	echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_rev_transactions"]."</td><td>".$row["total_rev_usd_amount"]."&#8202;$ USD</td></tr>";
-	}
-	echo "</table>";
-} else {
-	echo "0 results";
-}
+					// output data of each row
+					while($row = $result->fetch_assoc()) {
+						
+						echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_rev_transactions"]."</td><td>".$row["total_rev_usd_amount"]."&#8202;$ USD</td></tr>";
+						}
+						echo "</table>";
+					} else {
+						echo "0 results";
+					}
 
-?>
+					?>
+				</div>
+		</div>
+	</div>
+
+
 
 <?php $conn->close(); ?>
-	</div>
+
 	<br><br> 
+
+	<div class="page-paragraph">
+			<br><br>
+			<h2>More Accounting & Disclosures</h2>
+			<p>The Global Ecobrick Alliance also maintains an open accounting of its ecological impacts and the full Brikcoin blockchain.</p>
+			<br><br>
 
 	<p>⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p>
 
 <b><p>🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
+
+<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">>financial and ecological energy management, ecological accounting and disclosure.</a></p>
 
 
 
