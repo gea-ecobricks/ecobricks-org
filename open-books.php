@@ -44,6 +44,36 @@
 				<p>All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system. Transactions that occur through our <a href="/gobrik">GoBrik platform</a> appear here automatically, while other GEA transactions are added monthly by our team.</p>
 				
 			</div> 
+
+			<div class="page-paragraph">
+				<h4>Overview</h4>
+				
+				<h6>The live tabulation of our Open Books financial transaction combined with data from the <a href="brikchain.php">Brikcoin blockchain</a> from our accounting determine the price of 1Kg of AES plastic.</h6>
+				<div class="ecobrick-data"><p>🟢 Data live</p></div>
+			</div>	
+			<div class="overflow">
+			<?php
+
+	$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC;";
+
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+	
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Authenticated</th><th>Calculated AES plastic</th><th>Tallied AES Plastic</th><th>GEA Year Expenses</th><th>1kg AES Value</th></tr>';
+	
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+		
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." ecobricks</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>"; 
+		}
+		echo "</table>";
+	} else {
+		echo "0 results";
+	}
+	?>
+		</div>
+
 		</div>
 		
 
@@ -61,35 +91,7 @@
 	</div>
 
 
-	<div class="page-paragraph">
-			<h4>Overview</h4>
-			
-			<h6>The live tabulation of our Open Books financial transaction combined with data from the <a href="brikchain.php">Brikcoin blockchain</a> from our accounting determine the price of 1Kg of AES plastic.</h6>
-			<div class="ecobrick-data"><p>🟠 Data live</p></div>
-	</div>	
-
-	<?php
-
-$sql = "SELECT * FROM vw_sum_brk_total ;";
-
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-
-	echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
-
-// output data of each row
-//until($row = $result->fetch_assoc()) {
-	$row = $result->fetch_assoc();
-	echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
-//	}
-	echo "</table>";
-} else {
-	echo "0 results??? test1";
-}
-
-?>
-</div>
+	
 
 
 
@@ -417,8 +419,8 @@ if ($result->num_rows > 0) {
 
 	<div class="page-paragraph">
 			<br><br>
-			<h2>More Accounting & Disclosures</h2>
-			<p>The Global Ecobrick Alliance also maintains an open accounting of its ecological impacts and the full Brikcoin blockchain.</p>
+			<h2>More Accounting!</h2>
+			<p>Who said accounting is boring?  We're proud to maintain an open accounting of its ecological impacts and the full Brikcoin blockchain.</p>
 			<br><br>
 
 	<p>⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p>
