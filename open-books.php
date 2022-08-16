@@ -43,10 +43,6 @@
 				
 				<p>All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system. Transactions that occur through our <a href="/gobrik">GoBrik platform</a> appear here automatically, while other GEA transactions are added monthly by our team.</p>
 				
-				<p>⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p>
-
-				<b><p>🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
-
 			</div> 
 		</div>
 		
@@ -56,7 +52,7 @@
 			<div id="side-module-desktop-only">
 				<img src="webp/gea-logo-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
-				<h5>The Global Ecobrick Alliance is an Earth enterprise dedicated to accelerating plastic transition.  We account equally for our financial and ecological give and take to meet our not-for-profit and for-Earth mandate.</h5><br>
+				<h5>The Global Ecobrick Alliance is an Earth enterprise dedicated to accelerating plastic transition with a not-for-profit and for-Earth mandate.</h5><br>
 				<a class="module-btn" href="/about">About the GEA</a>
                 <br>
 			</div>   
@@ -65,7 +61,7 @@
 	</div>
 
 	<div class="page-paragraph">	
-		<h4>2022 Revenue & Expenses Summary</h4>
+		<h4>Global Stats</h4>
 		
 		<h6>A summary of this year's GEA accounting.</h6>
 		<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
@@ -79,7 +75,7 @@
 		<div class="opener-header">
 			
 			<div class="opener-header-text">
-				<h4>Current Year Revenue</h4>
+				<h4>2022 Current Year Expenses</h4>
 				<h5>A summary of the GEA's current year revenue.</h5>
 				<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
 			</div>
@@ -100,12 +96,12 @@
 
 				if ($result->num_rows > 0) {
 				
-					echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Category</th><th>Transactions</th><th>Year Total</th></tr>';
+					echo'<table id="brikchain" class="display"><tr><th>Expense</th><th>Transaction count</th><th>Year Total</th></tr>';
 				
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
 					
-					echo "<tr><td>".$row["year"]."</td><td>".$row["expense_category"]."</td><td>".$row["no_of_transactions"]."</td><td>".$row["total_usd"]."&#8202;$ USD</td></tr>";
+					echo "<tr><td>".$row["expense_category"]."</td><td>".$row["no_of_transactions"]."</td><td>".$row["total_usd"]."&#8202;$ USD</td></tr>";
 					}
 					echo "</table>";
 				} else {
@@ -113,6 +109,7 @@
 				}
 				
 				?>
+				<br>
 
 				<?php
 
@@ -135,6 +132,7 @@
 				}
 
 				?>
+				<br><br>
 			</div>
 		</div>
 	</div>
@@ -145,8 +143,8 @@
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Current Year Expenses</h4>
-						<h5>A summary of the GEA's current year expenses.</h5>
+						<h4>2022 Current Year Revenue</h4>
+						<h5>A summary of the GEA's current year revenue.</h5>
 						<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
@@ -166,12 +164,12 @@
 
 						if ($result->num_rows > 0) {
 						
-							echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Category</th><th>Transactions</th><th>Year Total</th></tr>';
+							echo'<table id="brikchain" class="display"><tr><th>Category</th><th>Transactions</th><th>Year Total</th></tr>';
 						
 						// output data of each row
 						while($row = $result->fetch_assoc()) {
 							
-							echo "<tr><td>".$row["year"]."</td><td>".$row["revenue_category"]."</td><td>".$row["no_of_transactions"]."</td><td>".$row["total_usd"]."&#8202;$ USD</td></tr>";
+							echo "<tr><td>".$row["revenue_category"]."</td><td>".$row["no_of_transactions"]."</td><td>".$row["total_usd"]."&#8202;$ USD</td></tr>";
 							}
 							echo "</table>";
 						} else {
@@ -179,6 +177,7 @@
 						}
 						
 						?>
+						<br>
 
 						<?php
 
@@ -188,7 +187,7 @@
 
 						if ($result->num_rows > 0) {
 
-							echo'<table id="brikchain" class="display"><tr><th>Year</th><th>TTotal Transactions</th><th>total Revenue</th></tr>';
+							echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Total Transactions</th><th>total Revenue</th></tr>';
 
 						// output data of each row
 						while($row = $result->fetch_assoc()) {
@@ -201,6 +200,7 @@
 						}
 
 					?>	
+					<br><br>
 			</div>
 		</div>
 	</div>
@@ -374,6 +374,10 @@ while($row = $result->fetch_assoc()) {
 <?php $conn->close(); ?>
 	</div>
 	<br><br> 
+
+	<p>⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p>
+
+<b><p>🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
 
 
 
