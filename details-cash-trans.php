@@ -304,10 +304,10 @@ strong {
                     echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div>" ;
 
 					if ( isset($array["expense_accounting_type"]) && $array["expense_accounting_type"] != '' ) { 
-						echo " <p><b>Category:</b> " . $array["expense_accounting_type"] ."</p>" ;
+						echo " <div class=\"main\"><b>Category:</b> " . $array["expense_accounting_type"] ."</div>" ;
 					}
 					if ( isset($array["revenue_accounting_type"]) && $array["revenue_accounting_type"] != '' ) { 
-						echo " <p><b>Category:</b> " . $array["revenue_accounting_type"] ."</p>" ;
+						echo " <div class=\"main\"><b>Category:</b> " . $array["revenue_accounting_type"] ."</div>" ;
 					}
 
 					echo " <div class=\"main\"><b>Sent:</b>  " . $array["datetime_sent_ts"] ."</div></div>" ;

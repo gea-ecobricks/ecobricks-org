@@ -65,20 +65,18 @@
 
 
 	<div class="page-paragraph">	
-		<h4>2022 Expense Summary</h4>
+		<h4>2022 Revenue & Expenses Summary</h4>
 		
-		<h6>All the GEA Expense categories for 2022</h6>
-		<div class="ecobrick-data"><p>🟠 Data in migration...</p></div>
+		<h6>A summary of this year's GEA accounting.</h6>
+		<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
 
 	</div>
 
     <div class="overflow">
-	
-	
 		
 	<?php
 
-	$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2021 ORDER BY expense_category;";
+	$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2020 ORDER BY expense_category;";
 
 	$result = $conn->query($sql);
 
@@ -97,23 +95,10 @@
 	}
 	
 	?>
-	</div>
-	<br><br> 
 
-
-	<div class="page-paragraph">	
-		<h4>2022 Revenue Summary</h4>
-		
-		<h6>All the GEA Revenue categories for 2022</h6>
-		<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
-
-	</div>
-
-    <div class="overflow">
-	<?php include 'ecobricks_env.php';?>
 	<?php
 
-	$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2021 ORDER BY revenue_category ;";
+	$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2020 ORDER BY revenue_category ;";
 
 	$result = $conn->query($sql);
 
@@ -133,87 +118,108 @@
 	
 	?>
 	</div>
-	<br><br> 
+	<br><br><br><br> 
 
 
-    <div class="page-paragraph">	
-		<h4>Revenues</h4>
-		
-		<h6>All the GEA Revenue transactions</h6>
-		<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
+	<div class="reg-content-block" id="block1">
+				
+		<div class="opener-header">
+			
+			<div class="opener-header-text">
+				<h4>Live Revenues</h4>
+				<h5>A full listing of the GEA's ongoing revenue transactions.</h5>
+			</div>
+			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
 
+		</div>
+
+		<div id="preclosed1">
+
+			<div class="page-paragraph">	
+				<h6>All the GEA Revenue transactions</h6>
+				<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
+			</div>
+			<div class="overflow">
+					<table id="revenues" class="display" style="width:100%">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Date</th>
+						<th>Sender</th>
+						<th>Receiver</th>
+						<th>Tran Name</th>
+						<th>Amount USD</th>
+						<th>Final Amt</th>
+						<th>Type</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr> 
+						<th>ID</th>
+						<th>Date</th>
+						<th>Sender</th>
+						<th>Receiver</th>
+						<th>Tran Name</th>
+						<th>Amount USD</th>
+						<th>Final Amt</th>
+						<th>Type</th>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+	
+
+	<div class="reg-content-block" id="block2">
+				
+		<div class="opener-header">
+			
+			<div class="opener-header-text">
+				<h4>Live Expenses</h4>
+				<h5>A full listing of the GEA's ongoing expense transactions.</h5>
+			</div>
+			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+
+		</div>
+
+		<div id="preclosed2">
+
+			<div class="page-paragraph">	
+				<h6>All the GEA Expense transactions</h6>
+				<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
+			</div>
+			<div class="overflow">
+					<table id="expenses" class="display" style="width:100%">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Date</th>
+						<th>Sender</th>
+						<th>Receiver</th>
+						<th>Tran Name</th>
+						<th>Amount USD</th>
+						<th>Final Amt</th>
+						<th>Type</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr> 
+						<th>ID</th>
+						<th>Date</th>
+						<th>Sender</th>
+						<th>Receiver</th>
+						<th>Tran Name</th>
+						<th>Amount USD</th>
+						<th>Final Amt</th>
+						<th>Type</th>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
 	</div>
 
 
-    <div class="overflow">
-			<table id="revenues" class="display" style="width:100%">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Date</th>
-                <th>Sender</th>
-                <th>Receiver</th>
-				<th>Tran Name</th>
-				<th>Amount USD</th>
-				<th>Final Amt</th>
-                <th>Type</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr> 
-				<th>ID</th>
-                <th>Date</th>
-                <th>Sender</th>
-                <th>Receiver</th>
-				<th>Tran Name</th>
-				<th>Amount USD</th>
-				<th>Final Amt</th>
-                <th>Type</th>
-            </tr>
-        </tfoot>
-    </table>
-</div>
 
-
-<div class="page-paragraph">	
-		<h4>Expenses</h4>
-		
-		<h6>All the GEA Revenue transactions</h6>
-		<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
-
-	</div>
-
-
-    <div class="overflow">
-			<table id="expenses" class="display" style="width:100%">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Date</th>
-                <th>Sender</th>
-                <th>Receiver</th>
-				<th>Tran Name</th>
-				<th>Amount USD</th>
-				<th>Final Amt</th>
-                <th>Type</th>
-				
-				
-            </tr>
-        </thead>
-        <tfoot>
-            <tr> 
-				<th>ID</th>
-                <th>Date</th>
-                <th>Sender</th>
-                <th>Receiver</th>
-				<th>Tran Name</th>
-				<th>Amount USD</th>
-				<th>Final Amt</th>
-                <th>Type</th>
-            </tr>
-        </tfoot>
-    </table>
-</div>
 
 	
 
