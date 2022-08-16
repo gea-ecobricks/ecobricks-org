@@ -301,14 +301,16 @@ strong {
                     
                     echo " <div class=\"main\"><b>Sent:</b> <var>" . $array["datetime_sent_ts"] ."</var></div>" ;
                 
-                    echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div></div>" ;
+                    echo " <div class=\"main\"><b>Type:</b> <var>" . $array["type_of_transaction"]."</var></div>" ;
 
 					if ( isset($array["expense_accounting_type"]) && $array["expense_accounting_type"] != '' ) { 
-						echo " <p><b>expense_accounting_type:</b> " . $array["expense_accounting_type"] ."</p>" ;
+						echo " <p><b>Category:</b> " . $array["expense_accounting_type"] ."</p>" ;
 					}
 					if ( isset($array["revenue_accounting_type"]) && $array["revenue_accounting_type"] != '' ) { 
-						echo " <p><b>revenue_accounting_type:</b> " . $array["revenue_accounting_type"] ."</p>" ;
+						echo " <p><b>Category:</b> " . $array["revenue_accounting_type"] ."</p>" ;
 					}
+
+					echo " <div class=\"main\"><b>Sent:</b>  " . $array["datetime_sent_ts"] ."</div></div>" ;
                     
 //DETAILS
 					echo '<div class="ecobrick-data">
@@ -322,8 +324,6 @@ strong {
 					echo " <p><b>Sender (for display):</b> " . $array["sender_for_display"] ."</p>" ;
 
 					echo " <p><b>Date Time Sent:</b>  " . $array["datetime_sent_ts"] ." </p>" ;
-
-					echo " <p><b>type_of_transaction:</b>  " . $array["type_of_transaction"] ." </p>" ;
 
 					echo " <p><b>type_of_transaction:</b>  " . $array["type_of_transaction"] ." </p>" ;
 
@@ -360,7 +360,7 @@ if ( isset($array["product_cost"]) && $array["product_cost"] != '0' ) {
 					echo " <p><b>shipping_cost_+ccy_display:</b> " . $array["shipping_cost_+ccy_display"] ."</p>" ;
 		}
 
-		if ( isset($array["total_product_cost_+ccy_display"]) && $array["total_product_cost_+ccy_display"] != '' ) { 
+		if ( isset($array["total_product_cost_+ccy_display"]) && $array["total_product_cost_+ccy_display"] != '0' ) { 
 			echo " <p><b>total_product_cost_+ccy_display:</b> " . $array["total_product_cost_+ccy_display"] ."</p>" ;
 }
 
