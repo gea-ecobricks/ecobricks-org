@@ -39,9 +39,9 @@
 
 			<div class="page-paragraph">
 				  
-				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise that follows the principles of ecological contribution.  This means that we manage our financial and ecological give and take so that are of benefit socially and ecological.  It also means, that for full transparency and awareness, our financial accounting is disclosed for public review and audit.</p>
+				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise that follows the principles of <a href="https://earthen.io/imagine">ecological contribution</a>.  This means that we manage our financial and ecological give and take so that are of benefit socially and ecological.  It also means, that for full transparency and awareness, our financial accounting is disclosed for public review and audit.</p>
 				
-				</p>All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system. Transactions that occur through GoBrik appear here automatically, while other GEA transactions are added monthly by our team.</p>
+				<p>All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system. Transactions that occur through our <a href="/gobrik">GoBrik platform</a> appear here automatically, while other GEA transactions are added monthly by our team.</p>
 				
 				<p>⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p>
 
@@ -176,51 +176,52 @@
 
 	<div class="reg-content-block" id="block2">
 				
-		<div class="opener-header">
-			
-			<div class="opener-header-text">
-				<h4>Live Expenses</h4>
-				<h5>A full listing of the GEA's ongoing expense transactions.</h5>
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+						<h4>Live Expenses</h4>
+						<h5>A full listing of the GEA's ongoing expense transactions.</h5>
+					</div>
+					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+		
+				</div>
+		
+				<div id="preclosed2">
+		
+					<div class="page-paragraph">	
+						<h6>All the GEA Expense transactions</h6>
+						<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
+					</div>
+					<div class="overflow">
+						<table id="expense" class="display" style="width:100%">
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>Date</th>
+									<th>Sender</th>
+									<th>Receiver</th>
+									<th>Tran Name</th>
+									<th>Amount USD</th>
+									<th>Final Amt</th>
+									<th>Type</th>
+								</tr>
+							</thead>
+							<tfoot>
+								<tr> 
+									<th>ID</th>
+									<th>Date</th>
+									<th>Sender</th>
+									<th>Receiver</th>
+									<th>Tran Name</th>
+									<th>Amount USD</th>
+									<th>Final Amt</th>
+									<th>Type</th>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
 			</div>
-			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-
-		</div>
-
-		<div id="preclosed2">
-
-			<div class="page-paragraph">	
-				<h6>All the GEA Expense transactions</h6>
-				<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
-			</div>
-			<div class="overflow">
-					<table id="expenses" class="display" style="width:100%">
-				<thead>
-					<tr>
-						<th>ID</th>
-						<th>Date</th>
-						<th>Sender</th>
-						<th>Receiver</th>
-						<th>Tran Name</th>
-						<th>Amount USD</th>
-						<th>Final Amt</th>
-						<th>Type</th>
-					</tr>
-				</thead>
-				<tfoot>
-					<tr> 
-						<th>ID</th>
-						<th>Date</th>
-						<th>Sender</th>
-						<th>Receiver</th>
-						<th>Tran Name</th>
-						<th>Amount USD</th>
-						<th>Final Amt</th>
-						<th>Type</th>
-					</tr>
-				</tfoot>
-			</table>
-		</div>
-	</div>
 
 
 
