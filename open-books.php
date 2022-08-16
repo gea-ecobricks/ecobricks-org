@@ -55,7 +55,7 @@
 			<div id="side-module-desktop-only">
 				<img src="webp/gea-logo-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
-				<h5>The Brikchain is maintained by the Global Ecobrick Alliance, a not-for-profit, for-Earth enterprise dedicated to accelerating plastic transition.</h5><br>
+				<h5>The Global Ecobrick Alliance is an Earth enterprise dedicated to accelerating plastic transition.  We account equally for our financial and ecological give and take to meet our not-for-profit and for-Earth mandate.</h5><br>
 				<a class="module-btn" href="/about">About the GEA</a>
                 <br>
 			</div>   
@@ -95,6 +95,8 @@
 	}
 	
 	?>
+
+	<br><br>
 
 	<?php
 
@@ -140,35 +142,36 @@
 				<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
 			</div>
 			<div class="overflow">
-					<table id="revenues" class="display" style="width:100%">
-				<thead>
-					<tr>
-						<th>ID</th>
-						<th>Date</th>
-						<th>Sender</th>
-						<th>Receiver</th>
-						<th>Tran Name</th>
-						<th>Amount USD</th>
-						<th>Final Amt</th>
-						<th>Type</th>
-					</tr>
-				</thead>
-				<tfoot>
-					<tr> 
-						<th>ID</th>
-						<th>Date</th>
-						<th>Sender</th>
-						<th>Receiver</th>
-						<th>Tran Name</th>
-						<th>Amount USD</th>
-						<th>Final Amt</th>
-						<th>Type</th>
-					</tr>
-				</tfoot>
-			</table>
+				<table id="revenues" class="display" style="width:100%">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Date</th>
+							<th>Sender</th>
+							<th>Receiver</th>
+							<th>Tran Name</th>
+							<th>Amount USD</th>
+							<th>Final Amt</th>
+							<th>Type</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr> 
+							<th>ID</th>
+							<th>Date</th>
+							<th>Sender</th>
+							<th>Receiver</th>
+							<th>Tran Name</th>
+							<th>Amount USD</th>
+							<th>Final Amt</th>
+							<th>Type</th>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
 		</div>
 	</div>
-	
+
 
 	<div class="reg-content-block" id="block2">
 				
