@@ -47,7 +47,7 @@ $columns = array(
         return '<var>'.date($d).'<var>'; 
     }
 ),
-    array( 'db' => 'sender_for_display',     'dt' => 2 ),
+    array( 'db' => 'expense_accounting_type',     'dt' => 2 ),
     array( 'db' => 'receiver_for_display',     'dt' => 3 ),
     array( 'db' => 'tran_name_desc', 'dt' => 4 ),
     array(

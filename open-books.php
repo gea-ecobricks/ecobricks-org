@@ -234,7 +234,7 @@
 							<th>ID</th>
 							<th>Date</th>
 							<th>Sender</th>
-							<th>Receiver</th>
+							<th>Category</th>
 							<th>Tran Name</th>
 							<th>Amount USD</th>
 							<th>Final Amt</th>
@@ -259,7 +259,7 @@
 	</div>
 
 
-	<div class="reg-content-block" id="block3">
+	<div class="reg-content-block" id="block4">
 				
 				<div class="opener-header">
 					
@@ -267,11 +267,11 @@
 						<h4>Live Expenses</h4>
 						<h5>A full listing of the GEA's ongoing expense transactions.</h5>
 					</div>
-					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
 		
 				</div>
 		
-				<div id="preclosed3">
+				<div id="preclosed4">
 		
 					<div class="page-paragraph">	
 						<h6>All the GEA Expense transactions</h6>
@@ -283,7 +283,7 @@
 								<tr>
 									<th>ID</th>
 									<th>Date</th>
-									<th>Sender</th>
+									<th>Category</th>
 									<th>Receiver</th>
 									<th>Tran Name</th>
 									<th>Amount USD</th>
@@ -295,7 +295,7 @@
 								<tr> 
 									<th>ID</th>
 									<th>Date</th>
-									<th>Sender</th>
+									<th>Category</th>
 									<th>Receiver</th>
 									<th>Tran Name</th>
 									<th>Amount USD</th>
