@@ -25,7 +25,7 @@ $table = 'vw_exp_cash_tran_desc';
  
 // Table's primary key
 $primaryKey = 'cash_tran_id'; 
- 
+  
 
 // Array of database columns which should be read and sent back to DataTables.
 // The `db` parameter represents the column name in the database, while the `dt`

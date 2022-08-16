@@ -97,6 +97,29 @@
 	
 	?>
 
+
+<?php
+
+$sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2020;";
+
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+
+	echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Revenues</th></tr>';
+
+// output data of each row
+while($row = $result->fetch_assoc()) {
+	
+	echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_rev_transactions"]."</td><td>".$row["total_rev_usd_amount"]."&#8202;$ USD</td></tr>";
+	}
+	echo "</table>";
+} else {
+	echo "0 results";
+}
+
+?>
+
 	<br><br>
 
 	<?php
@@ -193,7 +216,7 @@
 						<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
 					</div>
 					<div class="overflow">
-						<table id="expense" class="display" style="width:100%">
+						<table id="expenses" class="display" style="width:100%">
 							<thead>
 								<tr>
 									<th>ID</th>
