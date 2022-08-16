@@ -60,7 +60,7 @@
 
 	if ($result->num_rows > 0) {
 	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Authenticated</th><th>Calculated AES plastic</th><th>Tallied AES Plastic</th><th>GEA Year Expenses</th><th>1kg AES Value</th></tr>';
+		echo'<table id="free" class="display"><tr><th>Year</th><th>BRK Generated</th><th>AES plastic</th><th>GEA Year Expenses</th><th>1kg AES Value</th></tr>';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
@@ -271,7 +271,7 @@
 							<th>ID</th>
 							<th>Date</th>
 							<th>Sender</th>
-							<th>Receiver</th>
+							<th>Category</th>
 							<th>Tran Name</th>
 							<th>Amount USD</th>
 							<th>Final Amt</th>
@@ -279,6 +279,7 @@
 						</tr>
 					</tfoot>
 				</table>
+				<br><br>
 			</div>
 		</div>
 	</div>
@@ -329,6 +330,7 @@
 								</tr>
 							</tfoot>
 						</table>
+						<br><br>
 					</div>
 				</div>
 			</div>
@@ -354,7 +356,7 @@
 					<br><br>
 						
 					<div class="page-paragraph">
-							<h4>Yearly Totals</h4>
+					
 							
 							<h6>Total expenses and revenues by year.</h6>
 							
@@ -407,6 +409,7 @@
 					}
 
 					?>
+					<br><br>
 				</div>
 		</div>
 	</div>
@@ -428,6 +431,7 @@
 <b><p>🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
 
 <p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">>financial and ecological energy management, ecological accounting and disclosure.</a></p>
+				</div>
 
 
 
