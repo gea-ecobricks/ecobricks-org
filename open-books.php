@@ -5,6 +5,22 @@
 
 <?php require_once ("includes/open-books-inc.php");?>
 
+<style>
+	#live-data 
+	
+	{font-size: 1.6em;
+font-family: courier new,monospace !important;
+color: #222;
+line-height: 1.3;
+margin-top: 12px;
+font-weight: 300;
+background: #f0f8ff;
+padding: 20px;
+border-radius: 7px;
+}
+
+</style>
+
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>
 
@@ -13,7 +29,7 @@
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading"><br>GEA Open Books</div>
-		<div class="splash-sub">A full disclosure of the Global Ecobrick Alliances Not-for-profit Financial Accounting</div>
+		<div class="splash-sub">The Global Ecobrick Alliance's Not-for-profit Financial Accounting</div>
 	</div>
 	<div class="splash-image"><img src="https://www.ecobricks.org/pngs/openbooks.png" style="width: 80%;"></div>	
 </div>
@@ -59,12 +75,12 @@
 
 	if ($result->num_rows > 0) {
 	
-		echo'<div class="page-paragraph"><div class="ecobrick-data"> ';
+		echo'<div class="page-paragraph"><div class="live-data"> ';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<p>🟢  ".$row["final_aes_plastic_cost"]." &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div>"  ; 
+		echo "<p>🟢  ".$row["final_aes_plastic_cost"]." &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div></div>"  ; 
 		}
 		
 	} else {
