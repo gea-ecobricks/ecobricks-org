@@ -6,15 +6,16 @@
 <?php require_once ("includes/open-books-inc.php");?>
 
 <style>
-	#live-data 
+	.live-data 
 	
-	{font-size: 1.6em;
+	{
+		font-size: 1.6em;
 font-family: courier new,monospace !important;
 color: #222;
 line-height: 1.3;
 margin-top: 12px;
 font-weight: 300;
-background: #f0f8ff;
+background: #fbe9c8;
 padding: 20px;
 border-radius: 7px;
 }
@@ -448,7 +449,7 @@ border-radius: 7px;
 					<p>
 We use our data from the last year to calculate the cost per Kg of plastic offsets for this year.</p>
 
-<p>It works like this: Last year the Global Ecobrick Alliance incurred $29,496.14 expenses in order to authenticate 10,894.85 Kg AES of ecobricked plastic. That works out a cost of 2.71$ USD per Kg in maintaining the block chain and authentication system . This sets our valuation of the price per Kg of AES plastic for 2022.
+<p>It works like this: Last year the Global Ecobrick Alliance incurred $24,483.24  expenses in order to authenticate 10,176.38  Kg AES of ecobricked plastic. That works out a cost of 2.41$ USD per Kg in maintaining the block chain and authentication system . This sets our valuation of the price per Kg of AES plastic for 2022.
 .</p>
 							
 					</div>		
