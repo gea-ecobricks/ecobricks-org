@@ -48,7 +48,7 @@
 			<div class="page-paragraph">
 				
 				<h6>The live tabulation of our Open Books financial transaction combined with data from the <a href="brikchain.php">Brikcoin blockchain</a> from our accounting determine the price of 1Kg of AES plastic.</h6>
-				<div class="ecobrick-data"><p>🟢 Data live</p></div>
+				
 			</div>	
 			<div class="overflow">
 			<?php
@@ -59,12 +59,12 @@
 
 	if ($result->num_rows > 0) {
 	
-		echo'<div class="ecobrick-data"><p>🟢';
+		echo'<div class="page-paragraph"><div class="ecobrick-data"> ';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "Current AES price".$row["final_aes_plastic_cost"]." &#8202;$ USD per Kg </p></div>"  ; 
+		echo "<p>🟢  ".$row["final_aes_plastic_cost"]." &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div>"  ; 
 		}
 		
 	} else {
@@ -88,6 +88,112 @@
          
 		</div>
 	</div>
+
+
+
+	<div class="reg-content-block" id="block3">
+				
+		<div class="opener-header">
+			
+			<div class="opener-header-text">
+				<h4>Live Revenues</h4>
+				<h5>A full listing of the GEA's ongoing revenue transactions.</h5>
+				<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
+			</div>
+			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+
+		</div>
+
+		<div id="preclosed3">
+
+			<div class="page-paragraph">	
+				<h6>All the GEA Revenue transactions</h6>
+				
+			</div>
+			<div class="overflow">
+				<table id="revenues" class="display" style="width:100%">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Date</th>
+							<th>Sender</th>
+							<th>Category</th>
+							<th>Tran Name</th>
+							<th>Amount USD</th>
+							<th>Final Amt</th>
+							<th>Type</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr> 
+							<th>ID</th>
+							<th>Date</th>
+							<th>Sender</th>
+							<th>Category</th>
+							<th>Tran Name</th>
+							<th>Amount USD</th>
+							<th>Final Amt</th>
+							<th>Type</th>
+						</tr>
+					</tfoot>
+				</table>
+				<br><br>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="reg-content-block" id="block4">
+				
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+						<h4>Live Expenses</h4>
+						<h5>A full listing of the GEA's ongoing expense transactions.</h5>
+						<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
+					</div>
+					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+		
+				</div>
+		
+				<div id="preclosed4">
+		
+					<div class="page-paragraph">	
+						<h6>All the GEA Expense transactions</h6>
+						
+					</div>
+					<div class="overflow">
+						<table id="expenses" class="display" style="width:100%">
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>Date</th>
+									<th>Category</th>
+									<th>Receiver</th>
+									<th>Tran Name</th>
+									<th>Amount USD</th>
+									<th>Final Amt</th>
+									<th>Type</th>
+								</tr>
+							</thead>
+							<tfoot>
+								<tr> 
+									<th>ID</th>
+									<th>Date</th>
+									<th>Category</th>
+									<th>Receiver</th>
+									<th>Tran Name</th>
+									<th>Amount USD</th>
+									<th>Final Amt</th>
+									<th>Type</th>
+								</tr>
+							</tfoot>
+						</table>
+						<br><br>
+					</div>
+				</div>
+			</div>
+
 
 
 	
@@ -233,110 +339,6 @@
 
 
 
-	<div class="reg-content-block" id="block3">
-				
-		<div class="opener-header">
-			
-			<div class="opener-header-text">
-				<h4>Live Revenues</h4>
-				<h5>A full listing of the GEA's ongoing revenue transactions.</h5>
-			</div>
-			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-
-		</div>
-
-		<div id="preclosed3">
-
-			<div class="page-paragraph">	
-				<h6>All the GEA Revenue transactions</h6>
-				<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
-			</div>
-			<div class="overflow">
-				<table id="revenues" class="display" style="width:100%">
-					<thead>
-						<tr>
-							<th>ID</th>
-							<th>Date</th>
-							<th>Sender</th>
-							<th>Category</th>
-							<th>Tran Name</th>
-							<th>Amount USD</th>
-							<th>Final Amt</th>
-							<th>Type</th>
-						</tr>
-					</thead>
-					<tfoot>
-						<tr> 
-							<th>ID</th>
-							<th>Date</th>
-							<th>Sender</th>
-							<th>Category</th>
-							<th>Tran Name</th>
-							<th>Amount USD</th>
-							<th>Final Amt</th>
-							<th>Type</th>
-						</tr>
-					</tfoot>
-				</table>
-				<br><br>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="reg-content-block" id="block4">
-				
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-						<h4>Live Expenses</h4>
-						<h5>A full listing of the GEA's ongoing expense transactions.</h5>
-					</div>
-					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
-		
-				</div>
-		
-				<div id="preclosed4">
-		
-					<div class="page-paragraph">	
-						<h6>All the GEA Expense transactions</h6>
-						<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
-					</div>
-					<div class="overflow">
-						<table id="expenses" class="display" style="width:100%">
-							<thead>
-								<tr>
-									<th>ID</th>
-									<th>Date</th>
-									<th>Category</th>
-									<th>Receiver</th>
-									<th>Tran Name</th>
-									<th>Amount USD</th>
-									<th>Final Amt</th>
-									<th>Type</th>
-								</tr>
-							</thead>
-							<tfoot>
-								<tr> 
-									<th>ID</th>
-									<th>Date</th>
-									<th>Category</th>
-									<th>Receiver</th>
-									<th>Tran Name</th>
-									<th>Amount USD</th>
-									<th>Final Amt</th>
-									<th>Type</th>
-								</tr>
-							</tfoot>
-						</table>
-						<br><br>
-					</div>
-				</div>
-			</div>
-
-
-
-
 	
 
 			<div class="reg-content-block" id="block5">
@@ -354,12 +356,6 @@
 				<div id="preclosed5">
 					<br><br>
 						
-					<div class="page-paragraph">
-					
-							
-							<h6>Total expenses and revenues by year.</h6>
-							
-					</div>		
 							
 					<div class="overflow">
 
@@ -415,6 +411,60 @@
 
 
 
+	<div class="reg-content-block" id="block6">
+				
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+						<h4>Historical AES Plastic Values</h4>
+						<h5>Totals and values from 2019 to 2022.</h5>
+					</div>
+					<button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
+		
+				</div>
+		
+				<div id="preclosed6">
+					<br><br>
+						
+					<div class="page-paragraph">
+					
+							
+					<p>
+We use our data from the last year to calculate the cost per Kg of plastic offsets for this year.</p>
+
+<p>It works like this: Last year the Global Ecobrick Alliance incurred $29,496.14 expenses in order to authenticate 10,894.85 Kg AES of ecobricked plastic. That works out a cost of 2.71$ USD per Kg in maintaining the block chain and authentication system . This sets our valuation of the price per Kg of AES plastic for 2022.
+.</p>
+							
+					</div>		
+							
+					<div class="overflow">
+
+					<?php
+
+	$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC;";
+
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+	
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Total AES plastic</th><th>GEA Year Expenses</th><th>1kg AES Value</th></tr>';
+	
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+		
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>"; 
+		}
+		echo "</table>";
+	} else {
+		echo "0 results";
+	}
+	?>
+					</div>
+	</div>
+</div>
+
+
+
 <?php $conn->close(); ?>
 
 	<br><br> 
@@ -428,7 +478,7 @@
 
 <b><p>🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
 
-<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">>financial and ecological energy management, ecological accounting and disclosure.</a></p>
+<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</a></p>
 				</div>
 
 
