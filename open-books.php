@@ -34,18 +34,19 @@
 
 			<div class="lead-page-paragraph">
 				
-				<br><p>Search and explore all the GEA's revenues and expenses.</p>
+				<br><p>As a for-Earth enterprise we account and disclose all of our financials as we strive to meet out our not-for-profit and net-green mandates.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>One of the core operational <a href="principles">principles</a> of the <a href="about">Global Ecobrick Alliance as an Earth Enterprise</a> is full financial transparency of our not-for-profit for-Earth management of our revenues and expenses. Here you will find our custom built Open Books: a live flow of our revenue and expenses. Use this page to review a full real time audit of our financials. Transactions that occur through GoBrik appear here automatically, while other GEA transactions are added monthly by our team.</p>
+				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise that follows the principles of ecological contribution.  This means that we manage our financial and ecological give and take so that are of benefit socially and ecological.  It also means, that for full transparency and awareness, our financial accounting is disclosed for public review and audit.</p>
 				
-				<p>⛓️ Brikcoin transactions are recorded seperately on the <a href="brikchain.php">Brikchain Explorer.</a></p>
+				</p>All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system. Transactions that occur through GoBrik appear here automatically, while other GEA transactions are added monthly by our team.</p>
+				
+				<p>⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p>
 
-				<p>🍃 Our ecological accounting is disclosed seperately in our <a href="regenreports">annual regenerative reports</a>.
+				<b><p>🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
 
-</p>
 			</div> 
 		</div>
 		
@@ -302,6 +303,12 @@ while($row = $result->fetch_assoc()) {
 	<?php require_once ("footers/footer-$lang.php");?>
 
 	<!--FOOTER ENDS HERE-->
+
+	<!-- CUSTOM PAGE SCRIPTS-->
+
+<!-- This script is for pages that use the accordion content system-->
+<script src="accordion-scripts.js" defer></script>
+
 
 </div>
 </body>
