@@ -9,7 +9,7 @@
 	.live-data 
 	
 	{
-		font-size: 1.6em;
+		font-size: 1.3em;
 font-family: courier new,monospace !important;
 color: #222;
 line-height: 1.3;
@@ -17,7 +17,7 @@ margin-top: 12px;
 font-weight: 300;
 background: #fbe9c8;
 padding: 20px;
-border-radius: 7px;
+border-radius: 10px;
 }
 
 </style>
@@ -64,7 +64,7 @@ border-radius: 7px;
 
 			<div class="page-paragraph">
 				
-				<h6>The live tabulation of our Open Books financial transaction combined with data from the <a href="brikchain.php">Brikcoin blockchain</a> from our accounting determine the price of 1Kg of AES plastic.</h6>
+				<h6>The live tabulation of our Open Books financial transaction combined with data from the <a href="brikchain.php">Brikcoin blockchain</a> from our accounting determine the price of 1Kg of AES plastic:</h6>
 				
 			</div>	
 			<div class="overflow">
@@ -76,12 +76,12 @@ border-radius: 7px;
 
 	if ($result->num_rows > 0) {
 	
-		echo'<div class="page-paragraph"><div class="live-data"> ';
+		echo'<div class="live-data"> ';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<p>🟢  ".$row["final_aes_plastic_cost"]." &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div></div>"  ; 
+		echo "<p>🟢  ".$row["final_aes_plastic_cost"]." &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div>"  ; 
 		}
 		
 	} else {
