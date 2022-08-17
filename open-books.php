@@ -456,12 +456,10 @@ border-radius: 10px;
 						
 					<div class="page-paragraph">
 					
-							
-					<p>
-We use our data from the last year to calculate the cost per Kg of plastic offsets for this year.</p>
+						<p>We use our data from the last year to calculate the cost per Kg of plastic offsets for this year.</p>
 
-<p>It works like this: Last year the Global Ecobrick Alliance incurred $24,483.24  expenses in order to authenticate 10,176.38  Kg AES of ecobricked plastic. That works out a cost of 2.41$ USD per Kg in maintaining the block chain and authentication system . This sets our valuation of the price per Kg of AES plastic for 2022.
-.</p>
+						<p>It works like this: Last year the Global Ecobrick Alliance incurred $24,483.24  expenses in order to authenticate 10,176.38  Kg AES of ecobricked plastic. That works out a cost of 2.41$ USD per Kg in maintaining the block chain and authentication system . This sets our valuation of the price per Kg of AES plastic for 2022.
+						.</p>
 							
 					</div>		
 							
@@ -469,7 +467,7 @@ We use our data from the last year to calculate the cost per Kg of plastic offse
 
 					<?php
 
-	$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC WHERE year > 2018;";
+	$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC ;";
 
 	$result = $conn->query($sql);
 
