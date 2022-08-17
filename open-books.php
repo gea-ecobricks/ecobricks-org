@@ -85,12 +85,12 @@ border-radius: 10px;
 
 	if ($result->num_rows > 0) {
 	
-		echo'<div class="live-data"> ';
+		echo'<div class="live-data"><div class="blink"> ';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<p><div class="blink">🟢  </div>".$row["final_aes_plastic_cost"]." &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div>"  ; 
+		echo "<p>🟢  </div>".$row["final_aes_plastic_cost"]." &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div>"  ; 
 		}
 		
 	} else {
@@ -314,7 +314,7 @@ border-radius: 10px;
 
 						<?php
 
-						$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2020 ORDER BY revenue_category ;";
+						$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2022 ORDER BY revenue_category ;";
 
 						$result = $conn->query($sql);
 
@@ -337,7 +337,7 @@ border-radius: 10px;
 
 						<?php
 
-						$sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2020;";
+						$sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2022;";
 
 						$result = $conn->query($sql);
 
