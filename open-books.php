@@ -20,6 +20,15 @@ padding: 20px;
 border-radius: 10px;
 }
 
+.blink {
+	color: #222;
+	-webkit-animation-delay: 0s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
+}
+
 </style>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
@@ -81,7 +90,7 @@ border-radius: 10px;
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<p>🟢  ".$row["final_aes_plastic_cost"]." &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div>"  ; 
+		echo "<p><div class="blink">🟢  </div>".$row["final_aes_plastic_cost"]." &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div>"  ; 
 		}
 		
 	} else {
@@ -115,7 +124,7 @@ border-radius: 10px;
 			<div class="opener-header-text">
 				<h4>Live Revenues</h4>
 				<h5>A full listing of the GEA's ongoing revenue transactions.</h5>
-				<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
+				<div class="ecobrick-data"><p><div class="blink">🟢  </div> Data live & current</p></div>
 			</div>
 			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 
@@ -167,7 +176,7 @@ border-radius: 10px;
 					<div class="opener-header-text">
 						<h4>Live Expenses</h4>
 						<h5>A full listing of the GEA's ongoing expense transactions.</h5>
-						<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
+						<div class="ecobrick-data"><p><div class="blink">🟢  </div> Data live & current</p></div>
 					</div>
 					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
 		
@@ -224,7 +233,7 @@ border-radius: 10px;
 			<div class="opener-header-text">
 				<h4>2022 Current Year Expenses</h4>
 				<h5>A summary of the GEA's current year revenue.</h5>
-				<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
+				<div class="ecobrick-data"><p><div class="blink">🟢  </div> Data live & current</p></div>
 			</div>
 			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
 
@@ -237,7 +246,7 @@ border-radius: 10px;
 		
 				<?php
 
-				$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2020 ORDER BY expense_category;";
+				$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2022 ORDER BY expense_category;";
 
 				$result = $conn->query($sql);
 
@@ -260,7 +269,7 @@ border-radius: 10px;
 
 				<?php
 
-				$sql = "SELECT * FROM vw_tot_exp_by_year WHERE year = 2020;";
+				$sql = "SELECT * FROM vw_tot_exp_by_year WHERE year = 2022;";
 
 				$result = $conn->query($sql);
 
@@ -292,7 +301,7 @@ border-radius: 10px;
 					<div class="opener-header-text">
 						<h4>2022 Current Year Revenue</h4>
 						<h5>A summary of the GEA's current year revenue.</h5>
-						<div class="ecobrick-data"><p>🟢 Data live & current</p></div>
+						<div class="ecobrick-data"><p><div class="blink">🟢  </div> Data live & current</p></div>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 		
