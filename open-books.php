@@ -69,16 +69,12 @@ border-radius: 10px;
 				  
 				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise that follows the principles of <a href="https://earthen.io/imagine">ecological contribution</a>.  This means that we manage our financial and ecological give and take so that are of benefit socially and ecological.  It also means, that for full transparency and awareness, our financial accounting is disclosed for public review and audit.</p>
 				
-				<p>All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system. Transactions that occur through our <a href="/gobrik">GoBrik platform</a> appear here automatically, while other GEA transactions are added monthly by our team.</p>
+				<h6>Our Open Books disclosures provide the cost calculations for the price that the GEA sets each year for the valuation of 1Kg of authenticated ecobrick sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.  This price is then used for <a href="https://gobrik.com/#offset">the sale of AES plastic offsets</a>.</p>
 				
-			</div> 
-
-			<div class="page-paragraph">
-				
-				<h6>The live tabulation of our Open Books financial transaction combined with data from the <a href="brikchain.php">Brikcoin blockchain</a> from our accounting determine the price of 1Kg of AES plastic:</h6>
+				<p>Current 2022 Valuation:</p>
 				
 			</div>	
-			<div class="overflow">
+			
 			<?php
 
 	$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2021;";
@@ -99,7 +95,7 @@ border-radius: 10px;
 		echo "0 results";
 	}
 	?>
-		</div>
+		
 
 		</div>
 		
@@ -109,10 +105,12 @@ border-radius: 10px;
 			<div id="side-module-desktop-only">
 				<img src="webp/gea-logo-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
-				<h5>The Global Ecobrick Alliance is an Earth enterprise dedicated to accelerating plastic transition with a not-for-profit and for-Earth mandate.</h5><br>
+				<h5>The Global Ecobrick Alliance is a not-for-profit for-Earth enterprise dedicated to accelerating plastic transition.</h5><br>
 				<a class="module-btn" href="/about">About the GEA</a>
                 <br>
 			</div>   
+
+			<p>All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system. Transactions that occur through our <a href="/gobrik">GoBrik platform</a> appear here automatically, while other GEA transactions are added monthly by our team.</p>
          
 		</div>
 	</div>
@@ -178,7 +176,7 @@ border-radius: 10px;
 					<div class="opener-header-text">
 						<h4>Live Expenses</h4>
 						<h5>A full listing of the GEA's ongoing expense transactions.</h5>
-						<div class="ecobrick-data"><p><div class="blink">🟢  </div> Data live & current</p></div>
+						<div class="ecobrick-data"><p><span class="blink">🟢  </span> Data live & current</p></div>
 					</div>
 					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
 		
@@ -235,7 +233,7 @@ border-radius: 10px;
 			<div class="opener-header-text">
 				<h4>2022 Current Year Expenses</h4>
 				<h5>A summary of the GEA's current year revenue.</h5>
-				<div class="ecobrick-data"><p><div class="blink">🟢  </div> Data live & current</p></div>
+				<div class="ecobrick-data"><p><span class="blink">🟢  </span> Data live & current</p></div>
 			</div>
 			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
 
@@ -303,7 +301,7 @@ border-radius: 10px;
 					<div class="opener-header-text">
 						<h4>2022 Current Year Revenue</h4>
 						<h5>A summary of the GEA's current year revenue.</h5>
-						<div class="ecobrick-data"><p><div class="blink">🟢  </div> Data live & current</p></div>
+						<div class="ecobrick-data"><p><span class="blink">🟢  </span> Data live & current</p></div>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 		
@@ -390,7 +388,7 @@ border-radius: 10px;
 						
 					<?php
 
-					$sql = "SELECT * FROM vw_tot_exp_by_year Order by `year` DESC;";
+					$sql = "SELECT * FROM vw_tot_exp_by_year WHERE year *= 2022 Order by `year` DESC ;";
 
 					$result = $conn->query($sql);
 
@@ -502,12 +500,14 @@ We use our data from the last year to calculate the cost per Kg of plastic offse
                  <div class="row">
                 
                       <div class="main2">
-                         <h4>More Accounting</h4>
+                         <h4>More Accounting!</h4>
                         
-                         <p>Who said accounting is boring?  We're proud to maintain an open accounting of its ecological impacts and the full Brikcoin blockchain. Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</a></p>
+                         <p>Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our space, as well as our give and take of plastic and CO2.  We also host the <a href="brikcoins.php">Brikcoin manual blockchain</a>, which we provide a full, live digital ledger.</a></p>
 						 <p>⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p> 
 
 						<b><p>🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
+
+						<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</p>
                     
                         <a class="action-btn" href="principles.php">🚀 Our Principles</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Our Accounting is guided by our regenerative principles</a></p>
