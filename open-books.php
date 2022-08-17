@@ -21,13 +21,15 @@ border-radius: 10px;
 }
 
 .blink {
-	color: #222;
-	-webkit-animation-delay: 0s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;
-}
+            animation: blinker 1.5s linear infinite;
+            color: #222;
+            font-family: sans-serif;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
 
 </style>
 
@@ -85,12 +87,12 @@ border-radius: 10px;
 
 	if ($result->num_rows > 0) {
 	
-		echo'<div class="live-data"><div class="blink"> ';
+		echo'<div class="live-data">';
 	
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo "<p>🟢  </div>".$row["final_aes_plastic_cost"]." &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div>"  ; 
+		echo '<p><div class="blink">🟢  </div>'.$row["final_aes_plastic_cost"].' &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div>'  ; 
 		}
 		
 	} else {
