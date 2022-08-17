@@ -481,13 +481,13 @@ Content Page template: v.1.0.0-->
                     <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</a></p>
                         
                     
-                    </div>
+                 </div>
 
                     <div class="side2">
                         <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                     </div>
                 </div>
-        </div>
+             </div>
 
         </div>
 	
