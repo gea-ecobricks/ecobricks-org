@@ -512,11 +512,10 @@ border-radius: 10px;
                         <a class="action-btn" href="principles.php">🚀 Our Principles</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Our Accounting is guided by our regenerative principles</a></p>
                         
-                   
                  </div>
 
                     <div class="side2">
-                        <br><img src=" https://ecobricks.org/en/icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="90%" padding="15%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
+                        <br><img src=" https://ecobricks.org/en/icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
                     </div>
                 </div>
              </div>
