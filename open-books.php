@@ -69,7 +69,7 @@ border-radius: 10px;
 				  
 				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise that follows the principles of <a href="https://earthen.io/imagine">ecological contribution</a>.  This means that we manage our financial and ecological give and take so that are of benefit socially and ecological.  It also means, that for full transparency and awareness, our financial accounting is disclosed for public review and audit.</p>
 				
-				<h6>Our Open Books disclosures provide the cost calculations for the price that the GEA sets each year for the valuation of 1Kg of authenticated ecobrick sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.  This price is then used for <a href="https://gobrik.com/#offset">the sale of AES plastic offsets</a>.</p>
+				<p>Our Open Books disclosures provide the cost calculations for the price that the GEA sets each year for the valuation of 1Kg of authenticated ecobrick sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.  This price is then used for <a href="https://gobrik.com/#offset">the sale of AES plastic offsets</a>.</p>
 				
 				<p>Current 2022 Valuation:</p>
 				
@@ -107,10 +107,12 @@ border-radius: 10px;
 				<br><h4>Earth Enterprise</h4>
 				<h5>The Global Ecobrick Alliance is a not-for-profit for-Earth enterprise dedicated to accelerating plastic transition.</h5><br>
 				<a class="module-btn" href="/about">About the GEA</a>
-                <br>
+                <br><br>
+				<h5>All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system. Transactions that occur through our <a href="/gobrik">GoBrik platform</a> appear here automatically, while other GEA transactions are added monthly by our team.</h5>
+				<br>
 			</div>   
 
-			<p>All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system. Transactions that occur through our <a href="/gobrik">GoBrik platform</a> appear here automatically, while other GEA transactions are added monthly by our team.</p>
+			
          
 		</div>
 	</div>
@@ -388,7 +390,7 @@ border-radius: 10px;
 						
 					<?php
 
-					$sql = "SELECT * FROM vw_tot_exp_by_year WHERE year *= 2022 Order by `year` DESC ;";
+					$sql = "SELECT * FROM vw_tot_exp_by_year Order by `year` DESC ;";
 
 					$result = $conn->query($sql);
 
@@ -467,7 +469,7 @@ We use our data from the last year to calculate the cost per Kg of plastic offse
 
 					<?php
 
-	$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC;";
+	$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC WHERE year > 2018;";
 
 	$result = $conn->query($sql);
 
@@ -484,7 +486,7 @@ We use our data from the last year to calculate the cost per Kg of plastic offse
 	} else {
 		echo "0 results";
 	}
-	?>
+	?><br><br>
 					</div>
 	</div>
 </div>
@@ -503,11 +505,11 @@ We use our data from the last year to calculate the cost per Kg of plastic offse
                          <h4>More Accounting!</h4>
                         
                          <p>Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our space, as well as our give and take of plastic and CO2.  We also host the <a href="brikcoins.php">Brikcoin manual blockchain</a>, which we provide a full, live digital ledger.</a></p>
-						 <p>⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p> 
+						 <p>	⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p> 
 
-						<b><p>🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
+						<b><p>	🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
 
-						<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</p>
+						<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</p><br><br>
                     
                         <a class="action-btn" href="principles.php">🚀 Our Principles</a>
                     <p style="font-size: 0.85em; margin-top:20px;">Our Accounting is guided by our regenerative principles</a></p>
@@ -516,7 +518,7 @@ We use our data from the last year to calculate the cost per Kg of plastic offse
                  </div>
 
                     <div class="side2">
-                        <br><img src=" https://ecobricks.org/en/icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="100%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
+                        <br><img src=" https://ecobricks.org/en/icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="90%" padding="15%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
                     </div>
                 </div>
              </div>
