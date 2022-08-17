@@ -9,7 +9,7 @@
 	.live-data 
 	
 	{
-		font-size: 1.3em;
+		font-size: 1.5em;
 font-family: courier new,monospace !important;
 color: #222;
 line-height: 1.3;
@@ -92,7 +92,7 @@ border-radius: 10px;
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo '<p><div class="blink">🟢  </div>'.$row["final_aes_plastic_cost"].' &#8202;$ USD per Kg of Ecobrick Authenticated Sequestered Plastic</p></div>'  ; 
+		echo '<p><span class="blink">🟢  </span>'.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p></div>'  ; 
 		}
 		
 	} else {
@@ -126,7 +126,7 @@ border-radius: 10px;
 			<div class="opener-header-text">
 				<h4>Live Revenues</h4>
 				<h5>A full listing of the GEA's ongoing revenue transactions.</h5>
-				<div class="ecobrick-data"><p><div class="blink">🟢  </div> Data live & current</p></div>
+				<div class="ecobrick-data"><p><span class="blink">🟢  </span> Data live & current</p></div>
 			</div>
 			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 
@@ -497,17 +497,32 @@ We use our data from the last year to calculate the cost per Kg of plastic offse
 
 	<br><br> 
 
-	<div class="page-paragraph">
-			<br><br>
-			<h2>More Accounting!</h2>
-			<p>Who said accounting is boring?  We're proud to maintain an open accounting of its ecological impacts and the full Brikcoin blockchain.</p>
+	<div class="page-paragraph-reg">
+                 
+                 <div class="row">
+                
+                      <div class="main2">
+                         <h4>More Accounting</h4>
+                        
+                         <p>Who said accounting is boring?  We're proud to maintain an open accounting of its ecological impacts and the full Brikcoin blockchain. Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</a></p>
+						 <p>⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p> 
 
-	<p>⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p>
+						<b><p>🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
+                    
+                        <a class="action-btn" href="principles.php">🚀 Our Principles</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Our Accounting is guided by our regenerative principles</a></p>
+                        
+                   
+                 </div>
 
-<b><p>🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
+                    <div class="side2">
+                        <br><img src=" https://ecobricks.org/en/icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="100%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
+                    </div>
+                </div>
+             </div>
 
-<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</a></p>
-				</div>
+
+
 
 
 
