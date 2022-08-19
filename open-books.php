@@ -22,7 +22,7 @@ border-radius: 10px;
 
 .blink {
             animation: blinker 1.5s linear infinite;
-            color: #008000;
+            color: #DADBAC;
             font-family: sans-serif;
         }
         @keyframes blinker {
@@ -88,7 +88,7 @@ border-radius: 10px;
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo '<p><span class="blink">•◉⚫⬤🟢  <img src="svgs/green-circle.svg" width="20px"></span>'.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p></div>'  ; 
+		echo '<p><span class="blink">◉⬤  <img src="icons/green-circle.svg" style="width: 20px;"></span>'.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p></div>'  ; 
 		}
 		
 	} else {
@@ -130,7 +130,7 @@ border-radius: 10px;
 			<div class="opener-header-text">
 				<h4>Live Revenues</h4>
 				<h5>A full listing of the GEA's ongoing revenue transactions.</h5>
-				<div class="ecobrick-data"><p><span class="blink">🟢  </span> Data live & current</p></div>
+				<div class="ecobrick-data"><p><span class="blink">◉⬤  <img src="icons/green-circle.svg" style="width: 20px;"></span> Data live & current</p></div>
 			</div>
 			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 
