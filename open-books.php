@@ -22,7 +22,7 @@ border-radius: 10px;
 
 .blink {
             animation: blinker 1.5s linear infinite;
-            color: #DADBAC;
+            color: #088408;
             font-family: sans-serif;
         }
         @keyframes blinker {
@@ -88,14 +88,14 @@ border-radius: 10px;
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo '<p><span class="blink">◉⬤  <img src="icons/green-circle.svg" style="width: 20px;"></span>'.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p>'  ; 
+		echo '<p><span class="blink">◉⬤<img src="icons/green-circle.svg?v=2" style="width: 20px;"></span>  '.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p>'  ; 
 		}
 		
 	} else {
 		echo "0 results";
 	}
 	?>
-	<p style="font-size: 0.85em; margin-top:20px;">This price is used for the <a href="https://gobrik.com/#offset">sale of AES plastic offsets</a>.</p></div>
+	<p style="font-size: 0.85em; margin-top:20px;">This is the current price for the <a href="https://gobrik.com/#offset">sale of AES plastic offsets</a>.</p></div>
 
 
 
