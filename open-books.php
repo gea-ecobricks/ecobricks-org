@@ -42,7 +42,7 @@ margin: 12px;
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading"><br>GEA Open Books</div>
-		<div class="splash-sub">The Global Ecobrick Alliance's Not-for-profit Financial Accounting</div>
+		<div class="splash-sub">The Global Ecobrick Alliance's Financial Accounting</div>
 	</div>
 	<div class="splash-image"><img src="https://www.ecobricks.org/pngs/openbooks.png" style="width: 80%;"></div>	
 </div>
@@ -63,12 +63,14 @@ margin: 12px;
 
 			<div class="lead-page-paragraph">
 				
-				<br><p>As a for-Earth enterprise we account and disclose all of our finances to meet out our NFP and net-green mandates.</p>
+				<br><p>As a for-Earth enterprise we account and disclose all of our finances to meet out our not-for-profit and net-green mandates.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="https://earthen.io/imagine">ecological contribution</a> in the management of our finances and ecological impacts to ensure we are of benefit.  It also means, that for full transparency and awareness, our financial and ecological accounting is disclosed for public review and audit.  Here on this page our OpenBooks system provides the disclosure of our finances.  See our <a href="regen-reports">Regen Reporting</a> for ecological accounting.</p>
+				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="https://earthen.io/imagine">ecological contribution</a> in the management of our finances and ecological impacts to ensure we are of benefit.  It also means, that for full transparency and awareness, our financial and ecological accounting is disclosed for public review and audit.</p>
+
+				<p>Here on this page our OpenBooks system provides the disclosure of our finances.  See our <a href="regen-reports">Regen Reporting</a> for ecological accounting.</p>
 				
 				<p>Our financial accounting is joined with our blockchain accounting to generate our annual cost per 1Kg of Authenticated Ecobrick Sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.</p>				
 			</div>	
