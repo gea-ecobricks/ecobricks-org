@@ -10,14 +10,14 @@
 	
 	{
 		font-size: 1.5em;
-font-family: courier new,monospace !important;
+font-family: "courier new, monospace" !important;
 color: #222;
 line-height: 1.3;
-margin-top: 12px;
 font-weight: 300;
 background: #fbe9c8;
 padding: 20px;
 border-radius: 10px;
+margin: 12px;
 }
 
 .blink {
@@ -28,6 +28,7 @@ border-radius: 10px;
         @keyframes blinker {
             50% {
                 opacity: 0;
+				
             }
         }
 
@@ -69,10 +70,7 @@ border-radius: 10px;
 				  
 				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="https://earthen.io/imagine">ecological contribution</a> in the management of our finances and ecological impacts to ensure we are of benefit.  It also means, that for full transparency and awareness, our financial and ecological accounting is disclosed for public review and audit.  Here on this page our OpenBooks system provides the disclosure of our finances.  See our <a href="regen-reports">Regen Reporting</a> for ecological accounting.</p>
 				
-				<p>Our financial accounting is joined with our blockchain accounting to generate our annual cost per 1Kg of Authenticated Ecobrick Sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.</p>
-				
-				<p>Current 2022 Valuation:</p>
-				
+				<p>Our financial accounting is joined with our blockchain accounting to generate our annual cost per 1Kg of Authenticated Ecobrick Sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.</p>				
 			</div>	
 			
 			<?php
@@ -88,7 +86,7 @@ border-radius: 10px;
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo '<p><span class="blink"><img src="icons/green-circle.svg?v=2" style="width: 20px;"></span>  '.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p>'  ; 
+		echo '<p><span class="blink">◉  </span>  '.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p>'  ; 
 		}
 		
 	} else {
@@ -502,12 +500,12 @@ border-radius: 10px;
                  <div class="row">
                 
                       <div class="main2">
-                         <h4>More Accounting!</h4>
+                         <h3>More Accounting!</h3>
                         
                          <p>Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our space, as well as our give and take of plastic and CO2.  We also host the <a href="brikcoins.php">Brikcoin manual blockchain</a>, which we provide a full, live digital ledger.</a></p>
-						 <b><p><span class="blink">  ◉ </span>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p> 
+						 <p>  <span class="blink">◉ </span>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></p> 
 
-						<b><p><span class="blink">  ◉ </span>Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
+						<p>	<span class="blink">◉ </span>Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</p>
 
 						<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</p><br><br>
                     
