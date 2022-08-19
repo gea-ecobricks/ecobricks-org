@@ -34,8 +34,8 @@ margin: 12px;
 
 </style>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("under-construction.php");?>
+<!--Once translation is completed, you can remove the line below to take the translation notice off the page
+<?php require_once ("under-construction.php");?>-->
 
 <!--TOP PAGE BANNER-->
 
