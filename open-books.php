@@ -62,14 +62,14 @@ border-radius: 10px;
 
 			<div class="lead-page-paragraph">
 				
-				<br><p>As a for-Earth enterprise we account and disclose all of our financials as we strive to meet out our not-for-profit and net-green mandates.</p>
+				<br><p>As a for-Earth enterprise we account and disclose all of our finances as we strive to meet out our not-for-profit and net-green mandates.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise that follows the principles of <a href="https://earthen.io/imagine">ecological contribution</a>.  This means that we manage our financial and ecological give and take so that are of benefit socially and ecological.  It also means, that for full transparency and awareness, our financial accounting is disclosed for public review and audit.</p>
+				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="https://earthen.io/imagine">ecological contribution</a> in the management of our finances and ecological impacts to ensure we are of benefit.  It also means, that for full transparency and awareness, our financial and ecological accounting is disclosed for public review and audit.  Here on this page our OpenBooks system provides the disclosure of our finances.  See our <a href="regen-reports">Regen Reporting</a> for ecological accounting.</p>
 				
-				<p>Our Open Books disclosures provide the cost calculations for the price that the GEA sets each year for the valuation of 1Kg of authenticated ecobrick sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.  This price is then used for <a href="https://gobrik.com/#offset">the sale of AES plastic offsets</a>.</p>
+				<p>Our financial accounting is joined with our blockchain accounting to generate our annual cost per 1Kg of Authenticated Ecobrick Sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.</p>
 				
 				<p>Current 2022 Valuation:</p>
 				
@@ -88,13 +88,14 @@ border-radius: 10px;
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo '<p><span class="blink">🟢  </span>'.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p></div>'  ; 
+		echo '<p><span class="blink">•◉⚫⬤🟢  </span>'.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p></div>'  ; 
 		}
 		
 	} else {
 		echo "0 results";
 	}
-	?>
+	?><br>
+	<p style="font-size: 0.85em; margin-top:20px;">This price is used for the<a href="https://gobrik.com/#offset">sale of AES plastic offsets</a>.</p>
 		
 
 		</div>
@@ -105,10 +106,10 @@ border-radius: 10px;
 			<div id="side-module-desktop-only">
 				<img src="webp/gea-logo-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
-				<h5>The Global Ecobrick Alliance is a not-for-profit for-Earth enterprise dedicated to accelerating plastic transition.</h5><br>
+				<h5>The Global Ecobrick Alliance is a not-for-profit for-Earth enterprise dedicated to accelerating plastic transition.  All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system.</h5><br>
 				<a class="module-btn" href="/about">About the GEA</a>
                 <br><br>
-				<h5>All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system. Transactions that occur through our <a href="/gobrik">GoBrik platform</a> appear here automatically, while other GEA transactions are added monthly by our team.</h5>
+				
 				<br>
 			</div>   
 
@@ -467,7 +468,7 @@ border-radius: 10px;
 
 					<?php
 
-	$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC ;";
+	$sql = "SELECT * FROM vw_detail_sums_by_year WHERE year > 2018 Order by `year` DESC ;";
 
 	$result = $conn->query($sql);
 
