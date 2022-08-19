@@ -22,7 +22,7 @@ margin: 12px;
 
 .blink {
             animation: blinker 1.5s linear infinite;
-            color: #2EC424;
+            color: #00AA44;
             font-family: sans-serif;
         }
         @keyframes blinker {
@@ -63,7 +63,7 @@ margin: 12px;
 
 			<div class="lead-page-paragraph">
 				
-				<br><p>As a for-Earth enterprise we account and disclose all of our finances as we strive to meet out our not-for-profit and net-green mandates.</p>
+				<br><p>As a for-Earth enterprise we account and disclose all of our finances to meet out our NFP and net-green mandates.</p>
 			</div>
 
 			<div class="page-paragraph">
