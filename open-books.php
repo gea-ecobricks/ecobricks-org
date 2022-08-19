@@ -88,18 +88,16 @@ border-radius: 10px;
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo '<p><span class="blink">◉⬤  <img src="icons/green-circle.svg" style="width: 20px;"></span>'.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p></div>'  ; 
+		echo '<p><span class="blink">◉⬤  <img src="icons/green-circle.svg" style="width: 20px;"></span>'.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p>'  ; 
 		}
 		
 	} else {
 		echo "0 results";
 	}
-	?><br>
-	<p style="font-size: 0.85em; margin-top:20px;">This price is used for the<a href="https://gobrik.com/#offset">sale of AES plastic offsets</a>.</p>
+	?>
+	<p style="font-size: 0.85em; margin-top:20px;">This price is used for the <a href="https://gobrik.com/#offset">sale of AES plastic offsets</a>.</p></div>
 
-		
-	</p>
-		<p>
+
 
 		</div>
 		
@@ -130,7 +128,7 @@ border-radius: 10px;
 			<div class="opener-header-text">
 				<h4>Live Revenues</h4>
 				<h5>A full listing of the GEA's ongoing revenue transactions.</h5>
-				<div class="ecobrick-data"><p><span class="blink">◉⬤  <img src="icons/green-circle.svg" style="width: 20px;"></span> Data live & current</p></div>
+				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
 			</div>
 			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 
