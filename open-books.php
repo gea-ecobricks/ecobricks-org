@@ -22,7 +22,7 @@ border-radius: 10px;
 
 .blink {
             animation: blinker 1.5s linear infinite;
-            color: #222;
+            color: #008000;
             font-family: sans-serif;
         }
         @keyframes blinker {
@@ -96,6 +96,46 @@ border-radius: 10px;
 	}
 	?><br>
 	<p style="font-size: 0.85em; margin-top:20px;">This price is used for the<a href="https://gobrik.com/#offset">sale of AES plastic offsets</a>.</p>
+
+		<p><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg7518"
+   width="139.74023"
+   height="139.74023"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7522" />
+  <sodipodi:namedview
+     id="namedview7520"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0" />
+  <inkscape:clipboard
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.93333199;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     min="-5.494698e-09,-5.6651824e-07"
+     max="139.74023,139.74023"
+     geom-min="-5.494698e-09,-5.6651824e-07"
+     geom-max="139.74023,139.74023" />
+  <g
+     id="g7524"
+     transform="matrix(3.7795276,0,0,3.7795276,-174.56836,-237.84961)">
+    <path
+       id="path846"
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.933332"
+       d="m 244.43945,237.84961 a 69.869854,69.869854 0 0 0 -69.87109,69.87109 69.869854,69.869854 0 0 0 69.87109,69.86914 69.869854,69.869854 0 0 0 69.86914,-69.86914 69.869854,69.869854 0 0 0 -69.86914,-69.87109 z m 0,44.97656 a 24.894578,24.894578 0 0 1 24.89453,24.89453 24.894578,24.894578 0 0 1 -24.89453,24.89453 24.894578,24.894578 0 0 1 -24.89453,-24.89453 24.894578,24.894578 0 0 1 24.89453,-24.89453 z"
+       transform="scale(0.26458333)" />
+  </g>
+</svg>
+	</p>
 		
 
 		</div>
