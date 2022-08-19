@@ -22,7 +22,7 @@ border-radius: 10px;
 
 .blink {
             animation: blinker 1.5s linear infinite;
-            color: #088408;
+            color: #2EC424;
             font-family: sans-serif;
         }
         @keyframes blinker {
@@ -88,7 +88,7 @@ border-radius: 10px;
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 		
-		echo '<p><span class="blink">◉⬤<img src="icons/green-circle.svg?v=2" style="width: 20px;"></span>  '.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p>'  ; 
+		echo '<p><span class="blink"><img src="icons/green-circle.svg?v=2" style="width: 20px;"></span>  '.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p>'  ; 
 		}
 		
 	} else {
@@ -180,7 +180,7 @@ border-radius: 10px;
 					<div class="opener-header-text">
 						<h4>Live Expenses</h4>
 						<h5>A full listing of the GEA's ongoing expense transactions.</h5>
-						<div class="ecobrick-data"><p><span class="blink">🟢  </span> Data live & current</p></div>
+						<div class="ecobrick-data"><p><span class="blink">◉  </span> Data live & current</p></div>
 					</div>
 					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
 		
@@ -237,7 +237,7 @@ border-radius: 10px;
 			<div class="opener-header-text">
 				<h4>2022 Current Year Expenses</h4>
 				<h5>A summary of the GEA's current year revenue.</h5>
-				<div class="ecobrick-data"><p><span class="blink">🟢  </span> Data live & current</p></div>
+				<div class="ecobrick-data"><p><span class="blink">◉  </span> Data live & current</p></div>
 			</div>
 			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
 
@@ -305,7 +305,7 @@ border-radius: 10px;
 					<div class="opener-header-text">
 						<h4>2022 Current Year Revenue</h4>
 						<h5>A summary of the GEA's current year revenue.</h5>
-						<div class="ecobrick-data"><p><span class="blink">🟢  </span> Data live & current</p></div>
+						<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 		
@@ -505,9 +505,9 @@ border-radius: 10px;
                          <h4>More Accounting!</h4>
                         
                          <p>Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our space, as well as our give and take of plastic and CO2.  We also host the <a href="brikcoins.php">Brikcoin manual blockchain</a>, which we provide a full, live digital ledger.</a></p>
-						 <p>	⛓️ <b>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p> 
+						 <b><p><span class="blink">  ◉ </span>Brikcoin transactions are recorded separately on the <a href="brikchain.php">Brikchain Explorer.</a></b></p> 
 
-						<b><p>	🍃 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
+						<b><p><span class="blink">  ◉ </span>Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</b></p>
 
 						<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</p><br><br>
                     
