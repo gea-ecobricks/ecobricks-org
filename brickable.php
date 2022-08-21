@@ -31,17 +31,19 @@ Content Page template: v.1.0.1-->
 
 			<div class="lead-page-paragraph">
 				
-			<p>The Brickable Designator is a simple symbol that can be placed on single-use plastic to designate that it should be ecobricked.  Our Kit contains all the graphic files necessary to print stickers on insert into your digital packaging designs. Ecobrickable Designation enables companies to start their transition from linear to circular design, today.</p>
+			<p>The Brickable Designator enables enterprises that long to go green with their plastic packaging and products to begin today.  Using the icon enterprises can immediately impliment circularity into their products by dissuading their plastic from being industrially recycled or thoughtlessly consumed and discarded.</p>
 			</div>
 
 			<div class="page-paragraph">
 				
 
+				<p>Transitioning from plastic is not easy.  Nor are industrial solutions for plastic disposal satisfactory.  But plastic's molecules are not the problem.  It's the ideas and intentions (or lack of them) that result in plastic pollution.  In particular, failing to provide a satisfactory next life to the materials we use.</p>
+				
 				<p>For many companies making the switch to circular design and extended producer responsibility (EPR) appears to require a massive investment in manufacturing, material sourcing as well as implementing new systems to reabsorb their dead products. Furthermore it may seem that the required organic materials are still on the horizon.  The transition can appear daunting!</p>
 				
-				<p>Making a product ecobrickable is a first step in a business’s plastic transition.</p>
+				<p>Making a product circular is the first and essential step in a business’s plastic transition.</p>
 
-
+				<p>The Brickable Designator Icon is a simple symbol that can be placed on single-use plastic to designate that it should be ecobricked.  Our Kit contains all the graphic files necessary to print stickers on insert into your digital packaging designs. Ecobrickable Designation enables companies to start their transition from linear to circular design. Today.
 			</div>	
 
 
@@ -66,7 +68,7 @@ Content Page template: v.1.0.1-->
                     
                    
 						</div>
-						<div class="side2"><img src="icons/cyclical-design-icon-ecobricks-org.svg" width="80%" alt="cyclical design icon">
+						<div class="side2"><img src="svgs/vsrecycling.svg" width="80%" alt="cyclical design icon">
 						</div>
 					</div>
 
@@ -78,7 +80,7 @@ Content Page template: v.1.0.1-->
 						</div>
 					</div>
 			
-                    <p>  Afterall, plastic isn’t a ‘bad’ material in and of itself– its how we’ve been putting it to use that has been causing problems.  Designing a product as Ecobrickable, and clearly designating it as so, can be a giant leap for a company into the brave new world of circular design and regenerative business.  The GEA has developed guidelines and a designator symbol to assist companies in their plastic transition.</i><p> 
+                    <p>  After all, plastic isn’t a ‘bad’ material in and of itself– its how we’ve been putting it to use that has been causing problems.  Designing a product as Ecobrickable, and clearly designating it as so, can be a giant leap for a company into the brave new world of circular design and regenerative business.  The GEA has developed guidelines and a designator symbol to assist companies in their plastic transition.</i><p> 
                         
                         <p>With a little forethought and advanced planning, a product can be made easily and effectively ecobrickable.  In this way, ecobrickable designs enables companies and designers to make their first step to cradle-to-cradle and ayyew vision.  Designating a product or package as ecobrickable gives it a next life and purpose.  When ecobricked, the plastic is saved from a fate of industrial recycling, incineration, and/or dumping.  The ecobricked plastic is transformed into a reusable building block. Ecobricks and their applications are themselves cradle-to-cradle and follow regenerative principles, enabling an indefinite, localized cycle of reuse of the ecobricked plastic.</p>
 
@@ -190,8 +192,8 @@ Content Page template: v.1.0.1-->
 			<h2>Get Started!</h2>
 			<p>Download the Brickable Designator Kit today to use on your legacy plastic products and packaging.</p>
 			<br><br>
-			<a class="action-btn" href="">🚀 Download Kit</a>
-			<p style="font-size: 0.85em; margin-top:20px;">500kb ZIP file (link not yet active)</a></p>
+			<a class="action-btn" href="https://files.ecobricks.org/s/EoygiHB5xo2akgC" target="_blank">🚀 Download Kit</a>
+			<p style="font-size: 0.85em; margin-top:20px;">200kb PDF file</a></p>
 		</div>
 		
 		</div>

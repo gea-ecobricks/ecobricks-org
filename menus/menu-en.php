@@ -66,6 +66,7 @@
         </div> 
         
         <a href="faqs.php">FAQs</a>
+        <a href="principles.php">Principles</a>
         <a href="sequest.php">Sequestration</a>
         <a href="about.php">About Us</a>
         <div class="dropdown">
@@ -91,7 +92,7 @@
                     <a href="/how">How to Make?</a>
                     <a href="/why">Why Ecobricks?</a>
                     <a href="/plastic">Plastic's Story</a>
-                    <a href="principles.php">Principles</a>
+                    
                 </div>
             </div> 
         
