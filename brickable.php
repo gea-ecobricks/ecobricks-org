@@ -136,7 +136,7 @@ Content Page template: v.1.0.1-->
 				</div>
 			</div>
 
-
+<!--
 			<div class="reg-content-block" id="block4">
 
 				<div class="opener-header">
@@ -160,12 +160,14 @@ Content Page template: v.1.0.1-->
 				</div>
 			</div>
 
+-->
+
 			<div class="reg-content-block" id="block4">
 
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>See How Others Use It.</h4>
+					<h4>See How Its Used.</h4>
 					<h5>Companies and corporations around the world use the designator icon for their non-recyclable packaging.</h5>
 					<br>
 					</div>
@@ -175,8 +177,8 @@ Content Page template: v.1.0.1-->
 
 				<div id="preclosed4">
 					
-					<p><b>The Global Ecobrick Alliance</b> </p>
-					<p>We're an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  When we and our trainers make use of plastic we make sure to label it with Brickable sticker</p><br>
+					<p><b></b> </p>
+					<p>The designator icon can be used directly in packaging designs or added as sticker to pre-existing packaging and products.</p><br>
 					<p>Here's some examples of our useage:</p>
 
 					<div id="flex-gallery" width="100%">
