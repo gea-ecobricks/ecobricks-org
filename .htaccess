@@ -153,6 +153,7 @@ RedirectMatch "^/transition/" "/en/transition.php"
 
 RedirectMatch "^/about" "/en/about.php"
 RedirectMatch "^/about/" "/en/about.php"
+RedirectMatch "^about" "about.php"
 
 
 RedirectMatch "^/what" "/en/what.php"

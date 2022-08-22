@@ -1,6 +1,6 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Regenerative Principles | Ecobricks.org</title>
+<title>Regenerative Principles</title>
 
 <meta name="keywords" content="regenerative principles, biosphere, ecological ethics, transcaste, for-earth, ecological accounting, circular design, spiral design, biodiversity accounting, cyclical design, earthen ethics, vitalizing biodiversity, plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.">
 
@@ -18,4 +18,15 @@
   	<meta property="og:image:alt"     content="An earth and ecobrick home with a tree growing from inside, a wind turbine turning and a happy bird."/>
 	  <meta property="og:locale" content="en_GB" />
 
-	
+	  <meta name="author" content="Ecobricks.org">
+  
+  <meta property="og:type" content="article" />
+ <meta property="og:site_name" content="Ecobricks.org" />
+ <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
+ <meta property="article:modified_time" content="2022-08-14T09:14:13+00:00" />
+ <meta property="og:image:type" content="image/png" />
+ <meta name="author" content="Global Ecobrick Alliance" />
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="3 minutes" /> 
+	 

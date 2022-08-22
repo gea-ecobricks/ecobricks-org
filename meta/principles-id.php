@@ -1,6 +1,6 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Prinsip Regeneratif | Ecobricks.org</title>
+<title>Prinsip Regeneratif</title>
 
 <meta name="keywords" content="prinsip regeneratif, biosfer, etika ekologi, transcaste, for-earth, perhitungan ekologis, desain melingkar, desain spiral, akuntansi keanekaragaman hayati, desain siklus, etika tanah, vitalisasi keanekaragaman hayati, penyerapan plastik, daur ulang, alternatif, penyerapan plastik, penggantian plastik, aes plastik, penyerapan karbon, etika bumi">
 
@@ -18,4 +18,15 @@
   	<meta property="og:image:alt"     content="Rumah dari tanah dan ecobrick dengan pohon yang tumbuh dari dalam, putaran turbin angin dan burung yang bahagia."/>
 	  <meta property="og:locale" content="id_ID" />
 
+	  <meta name="author" content="Ecobricks.org">
+  
+  <meta property="og:type" content="article" />
+ <meta property="og:site_name" content="Ecobricks.org" />
+ <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
+ <meta property="article:modified_time" content="2022-08-14T09:14:13+00:00" />
+ <meta property="og:image:type" content="image/png" />
+ <meta name="author" content="Global Ecobrick Alliance" />
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:label1" content="Est. reading time" />
+ <meta name="twitter:data1" content="3 minutes" /> 
 	
