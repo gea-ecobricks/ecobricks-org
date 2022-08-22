@@ -36,6 +36,8 @@ _END;?>
 <style>
 
 
+action-btn {background-color: #FF7F2A;}
+
 /*This sets up the the first splash content block that is unique to the top of each page*/
 
 @media screen and (max-width: 700px) { 
