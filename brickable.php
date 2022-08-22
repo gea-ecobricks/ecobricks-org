@@ -107,16 +107,16 @@ Content Page template: v.1.0.1-->
 					<br>
 					<p>The GEA has established simple criteria to meet when designing your product or packaging.  It is obligatory that your product meet these stipulation in order to use Ecobrickable Designator Symbol your product or packaging must…</p>
 
-<p><ul>
+<ul>
 
-    <li>Must not contain substances that will corrode PET plastic over time.</li>
-    <li>Must not contain any primary or secondary biodegradable material.</li>
+<p><li>Must not contain substances that will corrode PET plastic over time.</li></p>
+    <li><p>Must not contain any primary or secondary biodegradable material.</p></li>
     <li>Must can be easily disassembled, broken or cut into parts that can fit within the 22mm diameter neck of a standard PET bottle.</li>
     <li>Must maximizes the ease of disassembly for this purpose.</li>
     <li>Must not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.</li>
     <li>Must not contain reactive chemicals, or if so, these components are clearly marked as un-brickable.</li>
 </ul>
-</p>
+
 		
 						
 				</div>	
