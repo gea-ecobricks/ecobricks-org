@@ -202,7 +202,7 @@ Content Page template: v.1.0.1-->
 			<p>Download the Brickable Designator Kit today to use on your legacy plastic products and packaging.</p>
 			<br><br>
 			<a class="action-btn" href="https://files.ecobricks.org/s/EoygiHB5xo2akgC" target="_blank">🚀 Download Kit</a>
-			<p style="font-size: 0.85em; margin-top:20px;">200kb PDF file</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">Vector & PDF file | 200kb </a></p>
 		</div>
 		
 		</div>
@@ -220,7 +220,8 @@ Content Page template: v.1.0.1-->
 		<img src="webp/brickable-kit.webp?v=1" width="90%">
 				<h4>Get Started</h4>
 				<h5>Download the Brickable Designator Kit today.</h5><br>
-				<a class="action-btn" href="">🚀 Download</a><p style="font-size: 0.85em; margin-top:20px;">500kb ZIP file (link not yet active)</a></p><br><br>
+				<a class="action-btn" href="https://files.ecobricks.org/s/EoygiHB5xo2akgC" target="_blank">🚀 Download Kit</a>
+			<p style="font-size: 0.85em; margin-top:20px;">Vector & PDF file | 200kb </a></p>
 			</div>
 
 	
