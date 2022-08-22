@@ -178,6 +178,12 @@ Content Page template: v.1.0.1-->
 					<p><b>The Global Ecobrick Alliance</b> </p>
 					<p>We're an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  When we and our trainers make use of plastic we make sure to label it with Brickable sticker</p><br>
 					<p>Here's some examples of our useage:</p>
+
+					<div id="flex-gallery" width="100%">
+						<img src="photos/brickable-1-716px.jpeg" width="33%">
+						<img src="photos/brickable-2-716px.jpeg" width="33%">
+						<img src="photos/brickable-3-716px.jpeg" width="33%">
+					</div>
 						
 			
 				</div>
