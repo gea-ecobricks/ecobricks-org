@@ -16,7 +16,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Brickable Design</div>
 		<div class="splash-sub">Make your plastic product or packaging circular using the Brickable Designator Icon.</div>
 	</div>	
-	<div class="splash-image"><img src="https://ecobricks.org/icons/ecobrickable-icon-from-ecobricks-org-white.svg" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="https://ecobricks.org/icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -107,7 +107,7 @@ Content Page template: v.1.0.1-->
 					<br>
 					<p>The GEA has established simple criteria to meet when designing your product or packaging.  It is obligatory that your product meet these stipulation in order to use Ecobrickable Designator Symbol your product or packaging must…</p>
 
-<ul>
+<p><ul>
 
     <li>Must not contain substances that will corrode PET plastic over time.</li>
     <li>Must not contain any primary or secondary biodegradable material.</li>
@@ -116,6 +116,7 @@ Content Page template: v.1.0.1-->
     <li>Must not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.</li>
     <li>Must not contain reactive chemicals, or if so, these components are clearly marked as un-brickable.</li>
 </ul>
+</p>
 		
 						
 				</div>	
@@ -182,9 +183,9 @@ Content Page template: v.1.0.1-->
 					<p>Here's some examples of our useage:</p>
 
 					<div id="flex-gallery" width="100%">
-						<img src="photos/brickable-1-716px.jpeg" width="33%">
-						<img src="photos/brickable-2-716px.jpeg" width="33%">
-						<img src="photos/brickable-3-716px.jpeg" width="33%">
+						<img src="photos/brickable-1-716px.jpeg" width="30%">
+						<img src="photos/brickable-2-716px.jpeg" width="30%">
+						<img src="photos/brickable-3-716px.jpeg" width="30%">
 					</div>
 						
 			
