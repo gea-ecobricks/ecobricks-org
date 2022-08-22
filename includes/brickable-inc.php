@@ -36,7 +36,7 @@ _END;?>
 <style>
 
 
-action-btn {background-color: #FF7F2A;}
+.action-btn {background: #FF7F2A !important;}
 
 /*This sets up the the first splash content block that is unique to the top of each page*/
 
