@@ -92,7 +92,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Enterprise Terreste</div>
-				<div class="footer-subtext">La <a href="/about">Global Ecobrick Alliance</a> est une entreprise pour la Terre (for-Earth), à but non lucratif, basée sur des <a href="/principes">principes régénératifs.</a> Nous divulguer notre réception et l'utilisation des fonds sur notre <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">système de livres ouverts.</a>Nous nous assurons de soustraire plus CO2 et plastique que nous ajoutons à la biosphère et divulguer pleinement tous nos impacts écologiques. Consultez notre <a href="regenreports.php">rapport de régénérativité pour l'année écoulée</a>. Voir notre <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">comptabiliser l'impact écologique en direct pour l'année en cours.</a></div>
+				<div class="footer-subtext">La <a href="/about">Global Ecobrick Alliance</a> est une entreprise pour la Terre (for-Earth), à but non lucratif, basée sur des <a href="/principes">principes régénératifs.</a> Nous divulguer notre réception et l'utilisation des fonds sur notre <a href="open-books.php">système de livres ouverts.</a>Nous nous assurons de soustraire plus CO2 et plastique que nous ajoutons à la biosphère et divulguer pleinement tous nos impacts écologiques. Consultez notre <a href="regenreports.php">rapport de régénérativité pour l'année écoulée</a>. Voir notre <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">comptabiliser l'impact écologique en direct pour l'année en cours.</a></div>
 			</div>
 			<div class="footer-box">
 
@@ -119,7 +119,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		
 
 			<div class="virtue">
-			<a href="https://gobrik.com/#openbooks" target="_blank"><img src="banners/openbooks-dark-350px.png" width="325px" height="" alt="Cliquez pour voir notre comptabilité à livres ouverts actuelle." title="Cliquez pour voir notre comptabilité à livres ouverts." loading="lazy"></a>
+			<a href="open-books.php"><img src="banners/openbooks-dark-350px.png" width="325px" height="" alt="Cliquez pour voir notre comptabilité à livres ouverts actuelle." title="Cliquez pour voir notre comptabilité à livres ouverts." loading="lazy"></a>
 
 			
 			</div>
