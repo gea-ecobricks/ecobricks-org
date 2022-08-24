@@ -100,7 +100,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Earth Enterprise</div>
-				<div class="footer-subtext">The <a href="/about">Global Ecobrick Alliance</a> is a for-Earth, not-for-profit, enterprise based on <a href="/principles">regenerative principles.</a> We fully disclose our receipt and usage of funds on our <a href="https://gobrik.com/#openbooks" target="_blank" rel="noopener">open books system.</a>We make sure to subtract more CO2 and plastic than we add to the biosphere and to fully disclose all our ecological impacts.  See our <a href="https://files.mandala.team/s/nptzWnNRkX3cJfr" target="_blank" rel="noopener">Regenerativity Report for 2020</a>.  See our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">live ecological impact accounting for 2021.</a></div>
+				<div class="footer-subtext">The <a href="/about">Global Ecobrick Alliance</a> is a for-Earth, not-for-profit, enterprise based on <a href="/principles">regenerative principles.</a> We fully disclose our receipt and usage of funds on our <a href="open-books.php">open books system.</a>We make sure to subtract more CO2 and plastic than we add to the biosphere and to fully disclose all our ecological impacts.  See our <a href="https://files.mandala.team/s/nptzWnNRkX3cJfr" target="_blank" rel="noopener">Regenerativity Report for 2020</a>.  See our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">live ecological impact accounting for 2021.</a></div>
 			</div>
 			<div class="footer-box">
 
@@ -127,7 +127,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		
 
 			<div class="virtue">
-			<a href="https://gobrik.com/#openbooks" target="_blank"><img src="banners/openbooks-dark-350px.png" width="325px" height="" alt="Click through to see our current enterprise open books accounting." title="Click through to see our open books accounting." loading="lazy"></a>
+			<a href="open-books.php"><img src="banners/openbooks-dark-350px.png" width="325px" height="" alt="Click through to see our current enterprise open books accounting." title="Click through to see our open books accounting." loading="lazy"></a>
 
 			
 			</div>
