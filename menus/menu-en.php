@@ -66,11 +66,28 @@
         </div> 
         
         <a href="faqs.php">FAQs</a>
-        <a href="principles.php">Principles</a>
+     
         <a href="sequest.php">Sequestration</a>
-        <a href="about.php">About Us</a>
+   
+
         <div class="dropdown">
-        
+            <button class="dropbtn">
+            <div id="drop-text">About us
+                  <i class="fa fa-caret-down"></i></div>
+                </button>
+                <div class="dropdown-content-normal">
+                    <a href="about.php">Global Ecobrick Alliance</a>
+                    <a href="principles.php">Principles</a>
+                    <a href="brikchain.php">Brikchain Explorer</a>
+                    <a href="open-books.php">Open Books</a>
+                    <a href="ayyew">Ayyew Ethos</a>
+                    <a href="ayyew">Mandalic Collaboration</a>
+                    <a href="movement">The Movement</a>
+                </div>
+            </div>
+
+
+        <div class="dropdown">
             <button class="dropbtn">
             <div id="drop-text">Building
                   <i class="fa fa-caret-down"></i></div>
@@ -92,8 +109,9 @@
                     <a href="/how">How to Make?</a>
                     <a href="/why">Why Ecobricks?</a>
                     <a href="/plastic">Plastic's Story</a>
-                    <a href="/brickable.php">Brikcable Design</a>
-                    
+                    <a href="brickable.php">Brickable Design</a>
+                    <a href="/fire">Fire Safety</a>
+
                 </div>
             </div> 
         
