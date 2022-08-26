@@ -245,7 +245,6 @@ margin: 12px;
 
 		<div id="preclosed1">
 
-
     		<div class="overflow">
 		
 				<?php
