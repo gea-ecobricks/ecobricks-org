@@ -250,7 +250,7 @@ margin: 12px;
 		
 				<?php
 
-				$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2022 ORDER BY expense_category;";
+				$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2021 ORDER BY expense_category;";
 
 				$result = $conn->query($sql);
 
@@ -273,7 +273,7 @@ margin: 12px;
 
 				<?php
 
-				$sql = "SELECT * FROM vw_tot_exp_by_year WHERE year = 2022;";
+				$sql = "SELECT * FROM vw_tot_exp_by_year WHERE year = 2021;";
 
 				$result = $conn->query($sql);
 
@@ -318,7 +318,7 @@ margin: 12px;
 
 						<?php
 
-						$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2022 ORDER BY revenue_category ;";
+						$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2021 ORDER BY revenue_category ;";
 
 						$result = $conn->query($sql);
 
@@ -341,7 +341,7 @@ margin: 12px;
 
 						<?php
 
-						$sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2022;";
+						$sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2021;";
 
 						$result = $conn->query($sql);
 
