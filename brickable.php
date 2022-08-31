@@ -40,11 +40,11 @@ Content Page template: v.1.0.1-->
 			<div class="page-paragraph">
 				
 
-			<p>Transitioning from plastic is not easy.  Nor are industrial solutions for plastic disposal satisfactory.  But its not actually plastic that is the problem.  Rather, it's the poor ideas and planning behind plastic that result  pollution.  In particular, failing to provide a satisfactory next life to the materials we use.</p>
+			<p>Transitioning from plastic is not easy.  Nor are today's industrial solutions for plastic disposal satisfactory.  However, plastic in itself is not the problem.  Rather, poor design and planning are the principal cause of pollution.  In particular: <i>failing to provide a next-life for our products that spirals their plastic towards sequestration.</i>.</p>
 				
 				
 				
-				<p>Making a product circular is the first and essential step in a business’s plastic transition.  Ecobrickable Designation enables companies to start their transition from linear to circular design. Today.</p>
+				<p>Making a product circular is the first and essential step in a business’s plastic transition.  Ecobrickable Designation enables companies to start their transition from linear to circular and spiral design. Today.</p>
 
 			</div>	
 
@@ -76,7 +76,7 @@ Content Page template: v.1.0.1-->
 
 					<div class="row2">
 						<div class="main3">
-						<p>As a transition-step, plastic product and packaging can be made brickable!</p> 
+						<p>As a transition-step, plastic products and packaging can be made brickable!</p> 
 						</div>
 						<div class="side3"><img src="icons/cyclical-design-icon-ecobricks-org.svg" width="120px" alt="Cyclical Circular Design">
 						</div>
@@ -204,7 +204,7 @@ Content Page template: v.1.0.1-->
 			<h2>Get Started!</h2>
 			<p>Download the Brickable Designator Kit today to use on your legacy plastic products and packaging.</p>
 			<br><br>
-			<a class="action-btn" href="https://files.ecobricks.org/s/RSsd9GHtbEx3J2N" target="_blank">🚀 Download Kit</a>
+			<a class="action-btn" href="https://files.ecobricks.org/s/oq9xPkNksf2ZPNX" target="_blank">🚀 Download Kit</a>
 			<p style="font-size: 0.85em; margin-top:20px;">ZIP file | 3.2MB </a></p>
 		</div>
 		
@@ -223,7 +223,7 @@ Content Page template: v.1.0.1-->
 		<img src="webp/brickable-kit.webp?v=1" width="90%">
 				<h4>Get Started</h4>
 				<h5>Download the Brickable Designator Kit today.</h5><br>
-				<a class="action-btn" href="https://files.ecobricks.org/s/RSsd9GHtbEx3J2N" target="_blank">🚀 Download Kit</a>
+				<a class="action-btn" href="https://files.ecobricks.org/s/oq9xPkNksf2ZPNX" target="_blank">🚀 Download Kit</a>
 			<p style="font-size: 0.85em; margin-top:20px;">ZIP file | 3.2 MB </a></p>
 			</div>
 
@@ -237,8 +237,8 @@ Content Page template: v.1.0.1-->
 
 			<div id="side-module-desktop-mobile">
 				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following the Earth's example through eco bricking">
-				<br><h4>Cyclical Design</h4>
-				<h5>Ecobricks and all their applicatins are designed for cycles of indefinite reuse.</h5><br>
+				<br><h4>Circular & Spiral Design</h4>
+				<h5>Ecobricks and all their applications are designed for cycles of indefinite reuse.</h5><br>
 				<a class="module-btn" href="/circular">Circular Design</a>
                 <br>
 			</div>   
