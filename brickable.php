@@ -40,7 +40,7 @@ Content Page template: v.1.0.1-->
 			<div class="page-paragraph">
 				
 
-			<p>Transitioning from plastic is not easy.  Nor are industrial solutions for plastic disposal satisfactory.  But plastic's molecules are not the problem.  It's the ideas and intentions (or lack of them) that result in plastic pollution.  In particular, failing to provide a satisfactory next life to the materials we use.</p>
+			<p>Transitioning from plastic is not easy.  Nor are industrial solutions for plastic disposal satisfactory.  But its not actually plastic that is the problem.  Rather, it's the poor ideas and planning behind plastic that result  pollution.  In particular, failing to provide a satisfactory next life to the materials we use.</p>
 				
 				
 				
