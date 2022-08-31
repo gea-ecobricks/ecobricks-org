@@ -106,9 +106,17 @@ RewriteCond %{HTTP:Accept-Language} ^id [NC]
 RewriteCond %{HTTP_HOST} !^(www\.)?ecobricks\.org$ [NC]
 RewriteRule ^$ https://ecobricks.org/id/ [R,L,NC]
 
+RewriteCond %{HTTP:Accept-Language} ^id [NC]
+RewriteCond %{HTTP_HOST} !^ecobricks\.org$ [NC]
+RewriteRule ^$ https://ecobricks.org/id/ [R,L,NC]
+
 # All other languages
 RewriteCond %{HTTP_HOST} !^(www\.)?ecobricks\.org$ [NC]
-RewriteRule ^$ http://ecobricks.org/ [R,L]
+RewriteRule ^$ http://ecobricks.org/en/ [R,L]
+
+# All other languages
+RewriteCond %{HTTP_HOST} !^(www\.)?ecobricks\.org$ [NC]
+RewriteRule ^$ http://ecobricks.org/en/ [R,L]
 
 
 
