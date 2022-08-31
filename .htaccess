@@ -97,9 +97,9 @@ RewriteRule (.*)$ https://ecoladrillo.org/es/$1 [R=301,L]
 #</IfModule>
 
 # Check domain (1), browser language (2) and redirect to subdirectory (3)
-RewriteCond %{HTTP_HOST} .*ecobricks.org [NC]
+RewriteCond %{HTTP_HOST} ^ecoladrillo.org$ [NC]
 RewriteCond %{HTTP:Accept-Language} ^id [NC]
-RewriteRule ^$ https://ecobricks.org/id/ [L,R=301]
+RewriteRule ^$ https://ecobricks.org/id/$ [L,R=301]
 
 # ... copy block above for other languages ...
 
