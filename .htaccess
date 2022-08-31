@@ -103,9 +103,7 @@ RewriteRule ^$ https://ecobricks.org/id/$ [L,R=301]
 
 # ... copy block above for other languages ...
 
-# Fallback for any other language to spanish
-RewriteCond %{HTTP_HOST} .*ecobricks.org [NC]
-RewriteRule ^$ https://%{HTTP_HOST}/es/ [L,R=301]
+
 
 
 
