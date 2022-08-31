@@ -31,7 +31,8 @@ Content Page template: v.1.0.1-->
 
 			<div class="lead-page-paragraph">
 
-			<p>Transitioning from plastic is not easy.  Nor are industrial solutions for plastic disposal satisfactory.  But plastic's molecules are not the problem.  It's the ideas and intentions (or lack of them) that result in plastic pollution.  In particular, failing to provide a satisfactory next life to the materials we use.</p>
+			
+			<p>The Brickable Designator Icon can be placed on single-use plastics to designate its next life as an ecobrick.  The free Kit contains everything you need to make your packaging and products circular.</p>
 				
 			
 			</div>
@@ -39,13 +40,12 @@ Content Page template: v.1.0.1-->
 			<div class="page-paragraph">
 				
 
+			<p>Transitioning from plastic is not easy.  Nor are industrial solutions for plastic disposal satisfactory.  But plastic's molecules are not the problem.  It's the ideas and intentions (or lack of them) that result in plastic pollution.  In particular, failing to provide a satisfactory next life to the materials we use.</p>
 				
 				
-				<p>For many companies making the switch to circular design and extended producer responsibility (EPR) appears to require a massive investment in manufacturing, material sourcing as well as implementing new systems to reabsorb their dead products. Furthermore it may seem that the required organic materials are still on the horizon.  The transition can appear daunting!</p>
 				
-				<p>Making a product circular is the first and essential step in a business’s plastic transition.</p>
+				<p>Making a product circular is the first and essential step in a business’s plastic transition.  Ecobrickable Designation enables companies to start their transition from linear to circular design. Today.</p>
 
-				<p>The Brickable Designator Icon can be placed on single-use plastics to designate that it should be ecobricked.  Our Kit contains all the graphic files necessary to print stickers on insert into your digital packaging designs. Ecobrickable Designation enables companies to start their transition from linear to circular design. Today.
 			</div>	
 
 
@@ -66,7 +66,7 @@ Content Page template: v.1.0.1-->
 					<br>
 					<div class="row">
 						<div class="main2">
-                        <p>The majority of today’s products are manufactured without thought to where they will go once consumed. Many products are even designed to fail within a certain period to promote further consumption. This design ethic (or lack of it) is one of the root causes of plastic pollution.  </p>
+                        <p>For many companies making the transition to regenerative products is daunting.  It appears to require large investments in manufacturing, materials and systems. Furthermore it may seem that alternative organic materials do not yet meet health and safety standards and are not yet cost effective.</p>
                     
                    
 						</div>
@@ -76,19 +76,20 @@ Content Page template: v.1.0.1-->
 
 					<div class="row2">
 						<div class="main3">
-						<p>Learning from the ecologies around us, the first step is to shift from linear consumption design (and dead-end plastic products) to cradle-to-cradle, circular design.</p>
+						<p>As a transition-step, plastic product and packaging can be made brickable!</p> 
 						</div>
 						<div class="side3"><img src="icons/cyclical-design-icon-ecobricks-org.svg" width="120px" alt="Cyclical Circular Design">
 						</div>
 					</div>
-			
-                    <p>  After all, plastic isn’t a ‘bad’ material in and of itself– its how we’ve been putting it to use that has been causing problems.  Designing a product as Ecobrickable, and clearly designating it as so, can be a giant leap for a company into the brave new world of circular design and regenerative business.  The GEA has developed guidelines and a designator symbol to assist companies in their plastic transition.</i><p> 
-                        
-                        <p>With a little forethought and advanced planning, a product can be made easily and effectively ecobrickable.  In this way, ecobrickable designs enables companies and designers to make their first step to cradle-to-cradle and ayyew vision.  Designating a product or package as ecobrickable gives it a next life and purpose.</p>
-							
-						<p>When ecobricked, the plastic is saved from a fate of industrial recycling, incineration, and/or dumping.  The ecobricked plastic is transformed into a reusable building block. Ecobricks and their applications are themselves cradle-to-cradle and follow regenerative principles, enabling an indefinite, localized cycle of reuse of the ecobricked plastic.</p>
+					 
+					
+					<p>Designing a product as Ecobrickable, and clearly designating it as so, is a first step into circular and spiral design.  By designating a product or package as ecobrickable we can keep plastic out of industrial recycling and incineration.  Using the plastic to make it an ecobricks gives it a next life and purpose as a reusable building block.</p>
+					
+					<p>Ecobricks and their applications are themselves fully circular and based on <a href="principles.php">regenerative principles</a>, enabling the plastic's indefinite and localized reuse towards long-term <a href="sequestration.php">sequestration.</a>  Both the Brickable Designator Icon and ecobricking are based on following the Earth's example of carbon care and the ethics of ecologial contribution.</p>
 
-					<h6>🟢  <a href="/circular">Learn more about Circular Design</a></h6><br>
+						<h6>🟢  <a href="https://earthen.io/spirals">Learn more about the Earthen Ethic of Spiralling Cycles</a></h6><br>
+
+					<h6>🟢  <a href="/circular">Learn more about Circular & Spiral Design</a></h6><br>
 				</div>
 			</div>
             
