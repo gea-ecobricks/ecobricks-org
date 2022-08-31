@@ -90,11 +90,25 @@ RewriteCond %{HTTP_HOST} ^www.ecoladrillo.org$
 RewriteRule (.*)$ https://ecoladrillo.org/es/$1 [R=301,L]
 </IfModule>
 
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.ecobricks.org$
-RewriteRule (.*)$ https://ecobricks.org/$1 [R=301,L]
-</IfModule>
+#<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^www.ecobricks.org$
+#RewriteRule (.*)$ https://ecobricks.org/$1 [R=301,L]
+#</IfModule>
+
+# French
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteCond %{HTTP_HOST} !^(www\.)?ecobricks\.org$ [NC]
+RewriteRule ^$ https://ecobricks.org/fr/ [R,L,NC]
+
+# Indonesian
+RewriteCond %{HTTP:Accept-Language} ^id [NC]
+RewriteCond %{HTTP_HOST} !^(www\.)?ecobricks\.org$ [NC]
+RewriteRule ^$ https://ecobricks.org/id/ [R,L,NC]
+
+# All other languages
+RewriteCond %{HTTP_HOST} !^(www\.)?ecobricks\.org$ [NC]
+RewriteRule ^$ http://ecobricks.org/ [R,L]
 
 
 
@@ -189,6 +203,9 @@ RedirectMatch "^/openbooks.php" "/en/open-books.php"
 RedirectMatch "^/brickable/" "/en/brickable.php"
 RedirectMatch "^/brikable/" "/en/brickable.php"
 RedirectMatch "^/brickable/" "/en/brickable.php"
+RedirectMatch "^/brickable" "/en/brickable.php"
+RedirectMatch "^/brikable" "/en/brickable.php"
+RedirectMatch "^/brickable" "/en/brickable.php"
 
 
 
