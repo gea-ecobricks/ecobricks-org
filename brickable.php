@@ -40,7 +40,7 @@ Content Page template: v.1.0.1-->
 			<div class="page-paragraph">
 				
 
-			<p>Transitioning from plastic is not easy.  Nor are today's industrial solutions for plastic disposal satisfactory.  However, plastic in itself is not the problem.  Rather, poor design and planning are the principal cause of pollution.  In particular: <i>failing to provide a next-life for our products that spirals their plastic towards sequestration.</i>.</p>
+			<p>Transitioning from plastic is not easy.  Nor are today's industrial solutions for plastic disposal satisfactory.  However, plastic in itself is not the problem.  Rather, poor design and planning are the principal cause of pollution.  In particular: <i>failing to provide a next-life for our products that spirals their plastic towards sequestration.</i></p>
 				
 				
 				
@@ -87,7 +87,7 @@ Content Page template: v.1.0.1-->
 					
 					<p>Ecobricks and their applications are themselves fully circular and based on <a href="principles.php">regenerative principles</a>, enabling the plastic's indefinite and localized reuse towards long-term <a href="sequestration.php">sequestration.</a>  Both the Brickable Designator Icon and ecobricking are based on following the Earth's example of carbon care and the ethics of ecologial contribution.</p>
 
-						<h6>🟢  <a href="https://earthen.io/spirals">Learn more about the Earthen Ethic of Spiralling Cycles</a></h6><br>
+						<h6>🟢  <a href="https://earthen.io/spirals">Learn more about the Earthen Ethic of Spiralling Cycles</a></h6>
 
 					<h6>🟢  <a href="/circular">Learn more about Circular & Spiral Design</a></h6><br>
 				</div>
@@ -112,15 +112,15 @@ Content Page template: v.1.0.1-->
 					<br>
 					<p>The GEA has established simple criteria to meet when designing your product or packaging.  It is obligatory that your product meet these stipulation in order to use Ecobrickable Designator Symbol your product or packaging must…</p>
 
-<ol>
+			<ol>
 
-<li><p>Must not contain substances that will corrode PET plastic over time.</p></li>
-    <li><p>Must not contain any primary or secondary biodegradable material.</p></li>
-    <li><p>Must can be easily disassembled, broken or cut into parts that can fit within the 22mm diameter neck of a standard PET bottle.</p></li>
-    <li><p>Must maximizes the ease of disassembly for this purpose.</p></li>
-    <li><p>Must not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.</p></li>
-    <li><p>Must not contain reactive chemicals, or if so, these components are clearly marked as un-brickable.</p></li>
-</ol>
+			<li><p>Must not contain substances that will corrode PET plastic over time.</p></li>
+				<li><p>Must not contain any primary or secondary biodegradable material.</p></li>
+				<li><p>Must can be easily disassembled, broken or cut into parts that can fit within the 22mm diameter neck of a standard PET bottle.</p></li>
+				<li><p>Must maximizes the ease of disassembly for this purpose.</p></li>
+				<li><p>Must not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.</p></li>
+				<li><p>Must not contain reactive chemicals, or if so, these components are clearly marked as un-brickable.</p></li>
+			</ol>
 						
 				</div>	
 			</div>
@@ -136,7 +136,7 @@ Content Page template: v.1.0.1-->
 
 				<div id="preclosed2">
                 <p>The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals.   See copyright notice and terms below.</p><br><br>
-				<p><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+				<h6><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</h6>
 				</div>
 			</div>
 
@@ -197,7 +197,7 @@ Content Page template: v.1.0.1-->
 
 			
 	
-
+	<div id="main">
 
 		<div class="page-paragraph">
 			<br><br>
@@ -207,8 +207,9 @@ Content Page template: v.1.0.1-->
 			<a class="action-btn" href="https://files.ecobricks.org/s/oq9xPkNksf2ZPNX" target="_blank">🚀 Download Kit</a>
 			<p style="font-size: 0.85em; margin-top:20px;">ZIP file | 3.2MB </a></p>
 		</div>
+	</div>
 		
-		</div>
+	</div>
 
 
 
