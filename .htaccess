@@ -96,27 +96,17 @@ RewriteRule (.*)$ https://ecoladrillo.org/es/$1 [R=301,L]
 #RewriteRule (.*)$ https://ecobricks.org/$1 [R=301,L]
 #</IfModule>
 
-# French
-RewriteCond %{HTTP:Accept-Language} ^fr [NC]
-RewriteCond %{HTTP_HOST} !^(www\.)?ecobricks\.org$ [NC]
-RewriteRule ^$ https://ecobricks.org/fr/ [R,L,NC]
-
-# Indonesian
+# Check domain (1), browser language (2) and redirect to subdirectory (3)
+RewriteCond %{HTTP_HOST} .*ecobricks.org [NC]
 RewriteCond %{HTTP:Accept-Language} ^id [NC]
-RewriteCond %{HTTP_HOST} !^(www\.)?ecobricks\.org$ [NC]
-RewriteRule ^$ https://ecobricks.org/id/ [R,L,NC]
+RewriteRule ^$ http://%{HTTP_HOST}/id/ [L,R=301]
 
-RewriteCond %{HTTP:Accept-Language} ^id [NC]
-RewriteCond %{HTTP_HOST} !^ecobricks\.org$ [NC]
-RewriteRule ^$ https://ecobricks.org/id/ [R,L,NC]
+# ... copy block above for other languages ...
 
-# All other languages
-RewriteCond %{HTTP_HOST} !^(www\.)?ecobricks\.org$ [NC]
-RewriteRule ^$ http://ecobricks.org/en/ [R,L]
+# Fallback for any other language to spanish
+RewriteCond %{HTTP_HOST} .*ecobricks.org [NC]
+RewriteRule ^$ http://%{HTTP_HOST}/es/ [L,R=301]
 
-# All other languages
-RewriteCond %{HTTP_HOST} !^(www\.)?ecobricks\.org$ [NC]
-RewriteRule ^$ http://ecobricks.org/en/ [R,L]
 
 
 
