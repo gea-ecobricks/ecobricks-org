@@ -98,6 +98,29 @@ RewriteCond %{HTTP:Accept-Language} ^id [NC]
 RewriteRule (.*)$ https://ecobricks.org/id/$1 [R=301,L]
 </IfModule>
 
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
+RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
+RewriteCond %{HTTP:Accept-Language} ^es [NC]
+RewriteRule (.*)$ https://ecobricks.org/es/$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
+RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule (.*)$ https://ecobricks.org/fr/$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
+RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteRule (.*)$ https://ecobricks.org/en/$1 [R=301,L]
+</IfModule>
 
 
 # ... copy block above for other languages ...
