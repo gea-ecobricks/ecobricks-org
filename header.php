@@ -4,6 +4,8 @@
 <?php
 	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
 	$name = $parts [count($parts)-1];
+	if (strcmp($name, "welcome.php") == 0)
+  $name = "";
 	;?>
 	
  
