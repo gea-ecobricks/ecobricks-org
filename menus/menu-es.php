@@ -97,6 +97,7 @@
                  <a href="/modules">Módulos</a>
                  <a href="/earth">Tierra & Ecobricks</a>
                  <a href="/openspaces">Open Spaces</a>
+                 <a href="brickable.php">Diseño Brickable</a>
              </div>
          </div>
 
@@ -113,8 +114,6 @@
                     <a href="/plastic">Historia del plástico</a>
                     <a href="principles.php">Principios</a>
                     <a href="sequest.php">Secustro Plastico</a>
-                    <a href="/plastic">Plastic's Story</a>
-                    <a href="brickable.php">Brickable Design</a>
                     <a href="/fire">Seguridad contra incendios</a>
                 </div>
                 

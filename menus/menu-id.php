@@ -66,10 +66,29 @@
         </div> 
         
         <a href="faqs.php">FAQs</a>
-        <a href="sequest.php">Sekuestrasi</a>
-        <a href="about.php">Tentang Kami</a>
+     
+        <a href="transition.php">Transisi Plastik</a>
+   
+   
+
         <div class="dropdown">
-        
+            <button class="dropbtn">
+            <div id="drop-text">Tentang Kami
+                  <i class="fa fa-caret-down"></i></div>
+                </button>
+                <div class="dropdown-content-normal">
+                    <a href="about.php">Global Ecobrick Alliance</a>
+                    <a href="principles.php">Princip</a>
+                    <a href="brikchain.php">Brikchain Explorer</a>
+                    <a href="open-books.php">Open Books</a>
+                    <a href="ayyew">Ayyew Ethos</a>
+                    <a href="ayyew">Mandalic Collaboration</a>
+                    <a href="movement">The Movement</a>
+                </div>
+            </div>
+
+
+        <div class="dropdown">
             <button class="dropbtn">
             <div id="drop-text">Banguan
                   <i class="fa fa-caret-down"></i></div>
@@ -91,9 +110,13 @@
                     <a href="/how">Bagaimana membuat?</a>
                     <a href="/why">Mangapa Ecobricks?</a>
                     <a href="/plastic">Cerita Plastik</a>
-                    <a href="principles.php">Princip</a>
+                    <a href="principles.php">Princip</a>    
+                    <a href="brickable.php">Brickable Design</a>
+                    <a href="/fire">Awas Api</a>
+
                 </div>
-            </div> 
+            </div>
+
         
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem.svg"width="30px" height="30px" loading="lazy"></a>
             
