@@ -203,7 +203,7 @@ Content Page template: v.1.0.1-->
 			<br><br>
 			<h2><p>Get Started!</p></h2>
 			<p>Download the Brickable Designator Kit today to use on your legacy plastic products and packaging.</p>
-			
+			<br>
 			<p><a class="action-btn" href="https://files.ecobricks.org/s/oq9xPkNksf2ZPNX" target="_blank">🚀 Download Kit</a></p>
 			<p style="font-size: 0.85em; margin-top:20px;">ZIP file | 3.2MB </a></p>
 		</div>
