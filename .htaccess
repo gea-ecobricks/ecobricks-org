@@ -103,7 +103,8 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
 RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
 RewriteCond %{HTTP:Accept-Language} ^es [NC]
-RewriteCond %{REQUEST_URI} !^/fr/$
+RewriteCond %{REQUEST_URI} !^fr/$
+RewriteCond $0 !^fr/
 RewriteRule (.*)$ https://ecobricks.org/es/$1 [R=301,L]
 </IfModule>
 
