@@ -64,36 +64,62 @@
                     </a>
                 </div>
         </div> 
-        
-        <a href="faqs.php">Preguntas Frequentas</a>
-        <a href="sequest.php">Secustro Plastico</a>
-        <a href="about.php">Nosotros</a>
-        <div class="dropdown">
-        
-            <button class="dropbtn">
-            <div id="drop-text">Construcción
-                  <i class="fa fa-caret-down"></i></div>
-                </button>
-                <div class="dropdown-content-normal">
-                    <a href="build.php">Métodos</a>
-                    <a href="/modules">Módulos</a>
-                    <a href="/earth">Tierra & Ecobricks</a>
-                    <a href="/openspaces">Open Spaces</a>
-                </div>
-            </div>
 
-            <div class="dropdown">
-                <button class="dropbtn"><div id="drop-text">Los Ecobricks
-                  <i class="fa fa-caret-down"></i></div>
-                </button>
-                <div class="dropdown-content-normal">
+        <a href="faqs.php">FAQ</a>
+     
+     <a href="transition.php">Transición plástica</a>
+
+
+     <div class="dropdown">
+         <button class="dropbtn">
+         <div id="drop-text">Nosotros
+               <i class="fa fa-caret-down"></i></div>
+             </button>
+             <div class="dropdown-content-normal">
+                 <a href="about.php">Global Ecobrick Alliance</a>
+                 <a href="principles.php">Principios</a>
+                 <a href="brikchain.php">Explorador de Brikchain</a>
+                 <a href="open-books.php">Open Books</a>
+                 <a href="ayyew">Moral Ayyew</a>
+                 <a href="ayyew">Colaboración mandalica</a>
+                 <a href="movement">El movimiento</a>
+             </div>
+         </div>
+
+
+     <div class="dropdown">
+         <button class="dropbtn">
+         <div id="drop-text">Construcción
+               <i class="fa fa-caret-down"></i></div>
+             </button>
+             <div class="dropdown-content-normal">
+                 <a href="build.php">Métodos</a>
+                 <a href="/modules">Módulos</a>
+                 <a href="/earth">Tierra & Ecobricks</a>
+                 <a href="/openspaces">Open Spaces</a>
+             </div>
+         </div>
+
+         <div class="dropdown">
+             <button class="dropbtn"><div id="drop-text">Los Ecobricks
+               <i class="fa fa-caret-down"></i></div>
+             </button>
+             <div class="dropdown-content-normal">
+
+             <div class="dropdown-content-normal">
                     <a href="what.php">¿Qué es?</a>
                     <a href="/how">¿Cómo hacer?</a>
                     <a href="/why">¿Por qué ecoladrillos?</a>
                     <a href="/plastic">Historia del plástico</a>
                     <a href="principles.php">Principios</a>
+                    <a href="sequest.php">Secustro Plastico</a>
+                    <a href="/plastic">Plastic's Story</a>
+                    <a href="brickable.php">Brickable Design</a>
+                    <a href="/fire">Seguridad contra incendios</a>
                 </div>
-            </div> 
+                
+         </div> 
+
         
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem.svg"width="30px" height="30px" loading="lazy"></a>
             
