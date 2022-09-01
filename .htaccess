@@ -102,9 +102,10 @@ RewriteRule (.*)$ https://ecobricks.org/id/$1 [R=301,L]
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
 RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
+RewriteRule ^$ https://example.com/specific-page/ [R=301,L]
 RewriteCond %{HTTP:Accept-Language} ^es [NC]
-RewriteCond $0 !^ecobricks.org/fr/$
-RewriteCond $0 !^www.ecobricks.org/fr/$
+RewriteCond %{HTTP_HOST} !^ecobricks.org/fr/$
+RewriteCond %{HTTP_HOST} !^www.ecobricks.org/fr/$
 RewriteRule (.*)$ https://ecobricks.org/es/$1 [R=301,L]
 </IfModule>
 
