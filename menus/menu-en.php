@@ -67,7 +67,7 @@
         
         <a href="faqs.php">FAQs</a>
      
-        <a href="sequest.php">Sequestration</a>
+        <a href="transition.php">Plastic Transition</a>
    
 
         <div class="dropdown">
@@ -108,6 +108,7 @@
                     <a href="what.php">What are Ecobricks</a>
                     <a href="/how">How to Make?</a>
                     <a href="/why">Why Ecobricks?</a>
+                    <a href="sequest.php">Sequestration</a>
                     <a href="/plastic">Plastic's Story</a>
                     <a href="brickable.php">Brickable Design</a>
                     <a href="/fire">Fire Safety</a>

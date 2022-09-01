@@ -32,7 +32,7 @@ Content Page template: v.1.0.1-->
 			<div class="lead-page-paragraph">
 
 			
-			<p>The Brickable Designator Icon can be placed on single-use plastics to designate its next life as an ecobrick.  The free Kit contains everything you need to make your packaging and products circular.</p>
+			<p>The Brickable Designator Icon can be placed on single-use plastics to designate its next life as an ecobrick.  our free Kit contains everything you need to make your packaging and products circular.</p>
 				
 			
 			</div>
@@ -40,11 +40,11 @@ Content Page template: v.1.0.1-->
 			<div class="page-paragraph">
 				
 
-			<p>Transitioning from plastic is not easy.  Nor are today's industrial solutions for plastic disposal satisfactory.  However, plastic in itself is not the problem.  Rather, poor design and planning are the principal cause of pollution.  In particular: <i>failing to provide a next-life for our products that spirals their plastic towards sequestration.</i></p>
+			<p>Transitioning from plastic is not easy.  Nor are today's industrial solutions for plastic processing satisfactory!  However, plastic in-itself is not the cause of its pollution.  Rather, it is our poor design and planning.  In particular: <i>the failure to designate a next-life for our plastic creations.  And the our failure tend our the plans for plastic towards  sequestration.</i></p>
 				
 				
 				
-				<p>Making a product circular is the first and essential step in a business’s plastic transition.  Ecobrickable Designation enables companies to start their transition from linear to circular and spiral design. Today.</p>
+			<p>Designing a product as circular is the first and essential step in a business’s plastic transition.  Planning our plastic toward's sequestration is the second.  Phasing it out entirely is the third.  Ecobrickable Designation enables companies to start their <a href="transition.php">plastic transition today</a>.</p>
 
 			</div>	
 
