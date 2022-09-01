@@ -114,7 +114,7 @@
                     <a href="/fire">Fire Safety</a>
 
                 </div>
-            </div> 
+            </div>
         
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem.svg"width="30px" height="30px" loading="lazy"></a>
             
