@@ -47,28 +47,29 @@
 
 			<?php
 
-		$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2021;";
+			$sql = "SELECT * FROM vw_sum_brk_total ;";
 
-		$result = $conn->query($sql);
+			$result = $conn->query($sql);
 
-		if ($result->num_rows > 0) {
+					if ($result->num_rows > 0) {
 
-			echo'<div class="live-data">';
+						echo'<div class="live-data">';
 
-		// output data of each row
-		while($row = $result->fetch_assoc()) {
-			
-			echo '<p><span class="blink">◉  </span>  '.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p>'  ; 
-			}
-			
-		} else {
-			echo "0 results";
-		}
-		?>
-		<p style="font-size: 0.85em; margin-top:20px;">This is the current price for the <a href="https://gobrik.com/#offset" target="_blank">sale of AES plastic offsets</a>.</p></div>
+					// output data of each row
+					while($row = $result->fetch_assoc()) {
+						
+						echo '<p><span class="blink">◉  </span>  '.$row["net_brk_in_circulation"].'&#8202;ß</p>' ; 
+						}
+						
+					} else {
+						echo "0 results";
+					}
+					?>
+					<p style="font-size: 0.85em; margin-top:20px;">Current size of the <a href="/brikcoins.php">brikcoin</a>supply.</p></div>
 
-			
-		</div>
+
+
+</div>
 		
 
 		<div class="side">
@@ -88,9 +89,9 @@
 
 	<div class="reg-content-block" id="block3">
 			
-			<div class="opener-header-text">
+		<div class="opener-header-text">
 			<h4>Blocks & Transactions</h4>
-		<h6>An overview of all brikcoins generated and exchanged.</h6>
+			<h6>An overview of all brikcoins generated and exchanged.</h6>
 				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
 			</div>
 			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
@@ -127,6 +128,7 @@
 				</table>
 			</div>
 		</div>
+	</div>
 
 	
 
