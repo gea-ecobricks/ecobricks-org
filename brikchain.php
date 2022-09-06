@@ -88,18 +88,18 @@
 
 
 	<div class="reg-content-block" id="block3">
-			
-		<div class="opener-header-text">
-			<h4>Blocks & Transactions</h4>
-			<h6>An overview of all brikcoins generated and exchanged.</h6>
+		<div class="opener-header">
+			<div class="opener-header-text">
+				<h4>Blocks & Transactions</h4>
+				<h6>An overview of all brikcoins generated and exchanged.</h6>
 				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
 			</div>
+		
 			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 
 		</div>
 
 		<div id="preclosed3">
-		
 
 			<div class="overflow">
 				<table id="brikchain" class="display" style="width:100%">
