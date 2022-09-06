@@ -40,7 +40,7 @@
 				  
 				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik (NFB) in the <a href="brikcoins">Brikcoin Manual Blockchain</a>.  With each authentication, the corresponding value of  ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in brikcoins</a>.
 				
-				<p>All blocks and transaction are recorded for a full and searcable public accounting.  Yearly summations of the AES Plastic recorded, brikcoins generated and the cost of running the blockchain are used to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded as a historical archive of each brik and to assist in the exchange of physical NFBs on the <a href="drop-off">GoBrik Marketplace</a>.</p>
+				<p>All blocks and transaction are recorded for a full and searchable public accounting.  Yearly summations of the AES Plastic recorded, brikcoins generated and the cost of running the blockchain are used to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded as a historical archive of each brik and to assist in the exchange of physical NFBs on the <a href="drop-off">GoBrik Marketplace</a>.</p>
 				
 				<p>Use the tools below to search by either transaction or by ecobrick.  You can also view our <a href="open-books.php">Open Books accounting</a>.</p>
 			</div>
@@ -65,7 +65,7 @@
 						echo "0 results";
 					}
 					?>
-					<p style="font-size: 0.85em; margin-top:20px;">Current size of the <a href="/brikcoins.php">brikcoin</a>supply.</p></div>
+					<p style="font-size: 0.85em; margin-top:20px;">Current size of the <a href="/brikcoins.php">brikcoin</a> money supply.</p></div>
 
 
 
@@ -87,7 +87,7 @@
 
 
 
-	<div class="reg-content-block" id="block3">
+	<div class="reg-content-block" id="block1">
 		<div class="opener-header">
 			<div class="opener-header-text">
 				<h4>Blocks & Transactions</h4>
@@ -95,11 +95,11 @@
 				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
 			</div>
 		
-			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
 
 		</div>
 
-		<div id="preclosed3">
+		<div id="preclosed1">
 
 			<div class="overflow">
 				<table id="brikchain" class="display" style="width:100%">
@@ -138,76 +138,97 @@
 
 
 	<div class="page-paragraph">	
-		<h4>Authenticated Ecobricks</h4>
 		
-		<h6>All the ecobricks authenticated and archived on chain.</h6>
-		<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
 
 	</div>
 
-	<div class="overflow">
-		<table id="ecobricks" class="display" style="width:100%">
-			<thead>
-				<tr>
-					<th style="width: 150px !important;">Brik</th>
-					<th>Authenticated</th>
-					<th>AES Plastic</th>
-					<th>Value</th>
-					<th>CO2e</th>
-					<th>Serial</th>
-				</tr>
-			</thead>
-			<tfoot>
-				<tr>
-					<th style="width: 150px !important;">Brik</th>
-					<th>Logged</th>
-					<th>AES Plastic</th>
-					<th>Value</th>
-					<th>CO2e</th>
-					<th>Serial</th>
-				</tr>
-			</tfoot>
-   		</table>
-	</div>
+
+
+	<div class="reg-content-block" id="block2">
+		<div class="opener-header">
+			<div class="opener-header-text">
+			<h4>Authenticated Ecobricks</h4>
+			<h6>All the ecobricks authenticated and archived on chain.</h6>
+			<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
+		</div>
+		
+			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+
+		</div>
+
+		<div id="preclosed2">
+
+			<div class="overflow">
+
+				<table id="ecobricks" class="display" style="width:100%">
+					<thead>
+						<tr>
+							<th style="width: 150px !important;">Brik</th>
+							<th>Authenticated</th>
+							<th>AES Plastic</th>
+							<th>Value</th>
+							<th>CO2e</th>
+							<th>Serial</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr>
+							<th style="width: 150px !important;">Brik</th>
+							<th>Logged</th>
+							<th>AES Plastic</th>
+							<th>Value</th>
+							<th>CO2e</th>
+							<th>Serial</th>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+
 
 	<br><br><br><br>
 
-
-	
-	<?php include 'ecobricks_env.php';?>
-	
-	<div class="overflow">
-
-	<div class="page-paragraph">
-			<h4>AES Plastic Valuations</h4>
+	<div class="reg-content-block" id="block3">
+				
+		<div class="opener-header">
 			
+			<div class="opener-header-text">
+			<h4>AES Plastic Valuations</h4>
+	
 			<h6>Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the block chain (see the GEA's yearly <a href="open-books.php">Open Books</a> financial accounting)</h6>
 			<div class="ecobrick-data"><p>🚧 Does not yet reflect official values, data still in migration</p></div>
-	</div>		
+			</div>
+			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+
+		</div>
+
+		<div id="preclosed3">
+
+			<div class="overflow">
+
+			<?php
+
+			$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC;";
+
+			$result = $conn->query($sql);
+
+			if ($result->num_rows > 0) {
 			
-	<div class="overflow">
-	
-		
-	<?php
-
-	$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC;";
-
-	$result = $conn->query($sql);
-
-	if ($result->num_rows > 0) {
-	
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Authenticated</th><th>Calculated AES plastic</th><th>Tallied AES Plastic</th><th>GEA Year Expenses</th><th>1kg AES Value</th></tr>';
-	
-	// output data of each row
-	while($row = $result->fetch_assoc()) {
-		
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." ecobricks</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>"; 
-		}
-		echo "</table>";
-	} else {
-		echo "0 results";
-	}
-	?>
+				echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Authenticated</th><th>Calculated AES plastic</th><th>Tallied AES Plastic</th><th>GEA Year Expenses</th><th>1kg AES Value</th></tr>';
+			
+			// output data of each row
+			while($row = $result->fetch_assoc()) {
+				
+				echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." ecobricks</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>"; 
+				}
+				echo "</table>";
+			} else {
+				echo "0 results";
+			}
+			?>
+			</div>
+		</div>
+	</div>
 
 <br><br><br><br> 
 
