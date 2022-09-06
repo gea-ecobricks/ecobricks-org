@@ -114,6 +114,34 @@ $(document).ready(function() {
 <style>
 
 
+.live-data 
+	
+	{
+		font-size: 1.5em;
+font-family: "courier new, monospace" !important;
+color: #222;
+line-height: 1.3;
+font-weight: 300;
+background: #fbe9c8;
+padding: 20px;
+border-radius: 10px;
+margin: 12px;
+}
+
+.blink {
+            animation: blinker 1.5s linear infinite;
+            color: #00AA44;
+            font-family: sans-serif;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+				
+            }
+        }
+
+
+
 /*This sets up the the first splash content block that is unique to the top of each page*/
 
 @media screen and (max-width: 700px) { 

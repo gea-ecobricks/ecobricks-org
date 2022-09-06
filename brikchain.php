@@ -87,8 +87,6 @@
 
 
 	<div class="reg-content-block" id="block3">
-				
-		<div class="opener-header">
 			
 			<div class="opener-header-text">
 			<h4>Blocks & Transactions</h4>
@@ -255,6 +253,9 @@ if ($result->num_rows > 0) {
 
 
 
+
+<!-- This script is for pages that use the accordion content system-->
+<script src="accordion-scripts.js" defer></script>
 
 
 
