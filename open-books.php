@@ -6,31 +6,7 @@
 <?php require_once ("includes/open-books-inc.php");?>
 
 <style>
-	.live-data 
-	
-	{
-		font-size: 1.5em;
-font-family: "courier new, monospace" !important;
-color: #222;
-line-height: 1.3;
-font-weight: 300;
-background: #fbe9c8;
-padding: 20px;
-border-radius: 10px;
-margin: 12px;
-}
 
-.blink {
-            animation: blinker 1.5s linear infinite;
-            color: #00AA44;
-            font-family: sans-serif;
-        }
-        @keyframes blinker {
-            50% {
-                opacity: 0;
-				
-            }
-        }
 
 </style>
 
@@ -41,7 +17,7 @@ margin: 12px;
 
 <div class="splash-content-block">
 	<div class="splash-text-box">
-		<div class="splash-heading"><br>GEA Open Books</div>
+		<div class="splash-heading"><br>Our Open Books</div>
 		<div class="splash-sub">The Global Ecobrick Alliance's Financial Accounting</div>
 	</div>
 	<div class="splash-image"><img src="https://www.ecobricks.org/pngs/openbooks.png" style="width: 80%;"></div>	
@@ -140,7 +116,7 @@ margin: 12px;
 				<h6>All the GEA Revenue transactions</h6>
 				
 			</div>
-			<div class="overflow">
+			
 				<table id="revenues" class="display" style="width:100%">
 					<thead>
 						<tr>
@@ -168,7 +144,7 @@ margin: 12px;
 					</tfoot>
 				</table>
 				<br><br>
-			</div>
+			
 		</div>
 	</div>
 

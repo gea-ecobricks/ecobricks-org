@@ -79,7 +79,7 @@
                     <a href="about.php">Global Ecobrick Alliance</a>
                     <a href="principles.php">Principles</a>
                     <a href="brikchain.php">Brikchain Explorer</a>
-                    <a href="open-books.php">Open Books</a>
+                    <a href="open-books.php">Our Open Books</a>
                     <a href="ayyew">Ayyew Ethos</a>
                     <a href="ayyew">Mandalic Collaboration</a>
                     <a href="movement">The Movement</a>
