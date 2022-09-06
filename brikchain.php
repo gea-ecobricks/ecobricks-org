@@ -130,27 +130,15 @@
 		</div>
 	</div>
 
-	
-
-	<br><br>
-	
-
-
-
-	<div class="page-paragraph">	
-		
-
-	</div>
-
 
 
 	<div class="reg-content-block" id="block2">
 		<div class="opener-header">
 			<div class="opener-header-text">
-			<h4>Authenticated Ecobricks</h4>
-			<h6>All the ecobricks authenticated and archived on chain.</h6>
-			<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
-		</div>
+				<h4>Authenticated Ecobricks</h4>
+				<h6>All the ecobricks authenticated and archived on chain.</h6>
+				<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
+			</div>	
 		
 			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 
@@ -184,9 +172,7 @@
 				</table>
 			</div>
 		</div>
-
-
-	<br><br><br><br>
+	</div>
 
 	<div class="reg-content-block" id="block3">
 				
