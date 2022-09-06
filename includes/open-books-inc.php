@@ -333,6 +333,9 @@ margin: 12px;
 
 }
 
+#block3 {
+	overflow: scroll !important;
+}
 
 /* Huh? */
 
