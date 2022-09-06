@@ -225,7 +225,7 @@
 				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
 			</div>
 		
-			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show4">+</button>
+			<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
 
 		</div>
 
@@ -259,14 +259,43 @@
 		</div>
 	</div>
 
+
 	<?php 	$conn->close();?>
-	<br><br>
-				
+
+
+	<br><br> 
+
+	<div class="page-paragraph-reg">
+                 
+                 <div class="row">
+                
+                      <div class="main2">
+                         <h3>More Accounting!</h3>
+                        
+                         <p>Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our space, as well as our give and take of plastic and CO2.  We also host the <a href="brikcoins.php">Brikcoin manual blockchain</a>, which we provide a full, live digital ledger.</a></p>
+						 <p>  <span class="blink">◉ </span>All our financial transaction are maitained in <a href="brikchain.php">Our Open Books.</a></p> 
+
+						<p>	<span class="blink">◉ </span>Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</p>
+
+						<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</p><br><br>
+                    
+                        <a class="action-btn" href="principles.php">🚀 Our Principles</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Our Accounting is guided by our regenerative principles</a></p>
+                        
+                 </div>
+
+                    <div class="side2">
+                        <br><img src=" https://ecobricks.org/en/icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
+                    </div>
+                </div>
+             </div>
+
+
+
 
 
 
 </DIV>
-
 
 
 
