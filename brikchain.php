@@ -182,7 +182,7 @@
 			<h4>AES Plastic Valuations</h4>
 	
 			<h6>Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the block chain (see the GEA's yearly <a href="open-books.php">Open Books</a> financial accounting)</h6>
-			<div class="ecobrick-data"><p>🚧 Does not yet reflect official values, data still in migration</p></div>
+			<div class="ecobrick-data"><p>🚧 Data still in migration</p></div>
 			</div>
 			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 
@@ -219,10 +219,11 @@
 	<div class="reg-content-block" id="block4">
 				
 		<div class="opener-header">
-			<h4>Total Brikcoin Pool</h4>
-			<h6>Running and yearly brikchain totals. </h6>
-			<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
-		</div>
+			<div class="opener-header-text">
+				<h4>Total Brikcoin Pool</h4>
+				<h6>Running and yearly brikchain totals. </h6>
+				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
+			</div>
 		
 			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show4">+</button>
 
