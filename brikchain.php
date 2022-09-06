@@ -23,6 +23,8 @@
 
 <!-- PAGE CONTENT-->
 
+<?php include 'ecobricks_env.php';?> 
+
 <a name="top"></a>
 <div id="main-content">
 <!-- The flexible grid (content) -->

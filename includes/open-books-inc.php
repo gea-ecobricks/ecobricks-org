@@ -399,7 +399,7 @@ margin: 12px;
 
 .overflow {
 	margin: 5px;
-	overflow: scroll;
+	overflow: scroll !important;
 }
 
 

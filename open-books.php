@@ -116,7 +116,7 @@
 				<h6>All the GEA Revenue transactions</h6>
 				
 			</div>
-			
+			<div class="overflow">
 				<table id="revenues" class="display" style="width:100%">
 					<thead>
 						<tr>
@@ -144,7 +144,7 @@
 					</tfoot>
 				</table>
 				<br><br>
-			
+			</div>
 		</div>
 	</div>
 

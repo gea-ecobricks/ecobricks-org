@@ -397,7 +397,7 @@ $(document).ready(function() {
 
 .overflow {
 	margin: 5px;
-	overflow: scroll;
+	overflow: scroll !important;
 }
 
 </style>
