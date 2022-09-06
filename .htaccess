@@ -119,7 +119,8 @@ RewriteRule (.*)$ https://ecobricks.org/fr/$1 [R=301,L]
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteRule ^(fr/|es/|id/)($) [L]
+RewriteCond ^(fr/|fr)($) [L]
+RewriteRule ^(fr/|fr)($) [L]
 RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
 RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
 RewriteCond %{HTTP:Accept-Language} ^en [NC]

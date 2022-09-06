@@ -35,8 +35,18 @@
 				</div>
 			</div>
 
-
 			<div id="slider2">
+			<div id="slider-image"><img src="svgs/building-methods.svg" style="width: 85%;"></div>	
+				<div id="slider-textbox">
+					<div id="slider-heading">Build with Ecobricks</div>
+					<div id="slider-date">GEA Updated Content</div>
+					<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
+					<div id="slider-link"><a href="build.php">Ecobrick Building</a></div>
+				</div>
+			</div>
+
+
+			<div id="slider3">
 
 			<div id="slider-image">
 				<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
@@ -51,7 +61,7 @@
 			</div>
 
 
-			<div id="slider3">
+			<div id="slider4">
 				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brick enterprise program"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Plastic Transition Platform for Enterprises</div>
@@ -62,15 +72,7 @@
 			</div>
 
 			
-			<div id="slider4">
-			<div id="slider-image"><img src="svgs/building-methods.svg" style="width: 85%;"></div>	
-				<div id="slider-textbox">
-					<div id="slider-heading">Build with Ecobricks</div>
-					<div id="slider-date">GEA Updated Content</div>
-					<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
-					<div id="slider-link"><a href="build.php">Ecobrick Building</a></div>
-				</div>
-			</div>
+		
 
 
 		</div>
