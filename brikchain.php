@@ -62,7 +62,7 @@
 						}
 						
 					} else {
-						echo "0 results";
+						echo "Failed to connect to Brikchain";
 					}
 					?>
 					<p style="font-size: 0.85em; margin-top:20px;">Current size of the <a href="/brikcoins.php">brikcoin</a> money supply.</p></div>
@@ -216,40 +216,46 @@
 		</div>
 	</div>
 
-<br><br><br><br> 
-
-<div class="page-paragraph">
+	<div class="reg-content-block" id="block4">
+				
+		<div class="opener-header">
 			<h4>Total Brikcoin Pool</h4>
-			
 			<h6>Running and yearly brikchain totals. </h6>
-			<div class="ecobrick-data"><p>🟠 Data not yet live: Migrating...</p></div>
-	</div>	
+			<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
+		</div>
+		
+			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show4">+</button>
+
+		</div>
+
+		<div id="preclosed4">
+
+			<div class="overflow">
 	
 
-	<?php
+				<?php
 
-$sql = "SELECT * FROM vw_sum_brk_total ;";
+				$sql = "SELECT * FROM vw_sum_brk_total ;";
 
-$result = $conn->query($sql);
+				$result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
+				if ($result->num_rows > 0) {
 
-	echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
+					echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
 
-// output data of each row
-//until($row = $result->fetch_assoc()) {
-	$row = $result->fetch_assoc();
-	echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
-//	}
-	echo "</table>";
-} else {
-	echo "0 results??? test1";
-}
+				// output data of each row
+				//until($row = $result->fetch_assoc()) {
+					$row = $result->fetch_assoc();
+					echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
+				//	}
+					echo "</table>";
+				} else {
+					echo "Failed to connect to database";
+				}
 
-?>
-</div>
-
-
+			?>
+			</div>
+		</div>
 	</div>
 
 	<?php 	$conn->close();?>
