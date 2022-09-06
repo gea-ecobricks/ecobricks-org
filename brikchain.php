@@ -38,11 +38,9 @@
 
 			<div class="page-paragraph">
 				  
-				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik (NFB) in the <a href="brikcoins">Brikcoin Manual Blockchain</a>.  With each authentication, the corresponding value of  ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in brikcoins</a>.
+				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik (NFB) in the <a href="brikcoins">Brikcoin Manual Blockchain</a>.  With each authentication, the corresponding value of ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in brikcoins</a>.  With each issuance a block of transactions are generated and recorded sequentially in our central database.  This chain of blocks, transaction and ecobricks is fully searchable here.  
 				
-				<p>All blocks and transaction are recorded for a full and searchable public accounting.  Yearly summations of the AES Plastic recorded, brikcoins generated and the cost of running the blockchain are used to generate the yearly value of 1Kg of AES value for <a href="https://gobrikc.om/#offset" target="_blank" rel="noopener" >plastic offseting</a>.  All authenticated ecobricks are recorded as a historical archive of each brik and to assist in the exchange of physical NFBs on the <a href="drop-off">GoBrik Marketplace</a>.</p>
-				
-				<p>Use the tools below to search by either transaction or by ecobrick.  You can also view our <a href="open-books.php">Open Books accounting</a>.</p>
+				<p>Use the tools below to browse this chain of transactions, blocks and ecobricks.  You can also view our <a href="open-books.php">Open Books accounting</a>.</p>
 			</div>
 
 			<?php
@@ -137,7 +135,7 @@
 			<div class="opener-header-text">
 				<h4>Authenticated Ecobricks</h4>
 				<h6>All the ecobricks authenticated and archived on chain.</h6>
-				<div class="ecobrick-data"><p>🚧 Not yet live, data still in migration</p></div>
+				<div class="ecobrick-data"><p>🟠 Not yet live, data still in migration</p></div>
 			</div>	
 		
 			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
@@ -182,7 +180,7 @@
 			<h4>AES Plastic Valuations</h4>
 	
 			<h6>Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the block chain (see the GEA's yearly <a href="open-books.php">Open Books</a> financial accounting)</h6>
-			<div class="ecobrick-data"><p>🚧 Data still in migration</p></div>
+			<div class="ecobrick-data"><p>🟠 Data still in migration</p></div>
 			</div>
 			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 
@@ -272,7 +270,8 @@
                       <div class="main2">
                          <h3>More Accounting!</h3>
                         
-                         <p>Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our space, as well as our give and take of plastic and CO2.  We also host the <a href="brikcoins.php">Brikcoin manual blockchain</a>, which we provide a full, live digital ledger.</a></p>
+                         <p>Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our spaces We also account for our give and take of plastic and CO2.</p>
+						 
 						 <p>  <span class="blink">◉ </span>All our financial transaction are maitained in <a href="brikchain.php">Our Open Books.</a></p> 
 
 						<p>	<span class="blink">◉ </span>Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</p>
