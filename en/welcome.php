@@ -25,7 +25,7 @@
 		<div id="sliders">
 
 		<div id="slider1">
-		<div id="slider-image"><img src="svgs/earth-home-animated-v4.svg" alt="Regenerative principles" width="100%" height="102%" style="min-width:175px;"></div>
+		<div id="slider-image"><img src="svgs/earth-home-animated-v4.svg?v=2" alt="Regenerative principles" width="100%" height="102%" style="min-width:175px;"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Our Principles</div>
 					<div id="slider-date">2022 Updated | Content</div>
@@ -63,7 +63,7 @@
 
 			
 			<div id="slider4">
-			<div id="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
+			<div id="slider-image"><img src="webp/building-methods.svg" style="width: 85%;"></div>	
 				<div id="slider-textbox">
 					<div id="slider-heading">Build with Ecobricks</div>
 					<div id="slider-date">GEA Updated Content</div>
