@@ -38,9 +38,9 @@
 
 			<div class="page-paragraph">
 				  
-				<p>Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded as a non-fungible-brik (NFB) in the <a href="brikcoins">Brikcoin Manual Blockchain</a>.  With each authentication, the corresponding value of ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in brikcoins</a>.  With each issuance a block of transactions are generated and recorded sequentially in our central database.  This chain of blocks, transaction and ecobricks is fully searchable here.  
+				<p>The <a href="brikchain.php">Brikchain is based on the ecological value of plastic <a href="sequest">sequestered</a> out of the biosphere and out of industry.  Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded on the <a href="brikcoins">Brikcoin Manual Blockchain</a>.  With each authentication, the corresponding value of ecobrick sequestered plastic (<a href="aes">AES plastic</a>) is issued in brikcoins</a>.  Each issuance is made through a block of transactions that are recorded sequentially.  This chain of blocks, transaction and ecobricks is fully searchable here.  
 				
-				<p>Use the tools below to browse this chain of transactions, blocks and ecobricks.  You can also view our <a href="open-books.php">Open Books accounting</a>.</p>
+				<p>Use the tools below to browse the Brikchain.  You can also view our <a href="open-books.php">Open Books</a> financial accounting.</p>
 			</div>
 
 			<?php
@@ -271,7 +271,7 @@
                          <h3>More Accounting!</h3>
                         
                          <p>Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our spaces We also account for our give and take of plastic and CO2.</p>
-						 
+
 						 <p>  <span class="blink">◉ </span>All our financial transaction are maitained in <a href="brikchain.php">Our Open Books.</a></p> 
 
 						<p>	<span class="blink">◉ </span>Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</p>
