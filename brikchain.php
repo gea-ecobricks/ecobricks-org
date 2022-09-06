@@ -67,7 +67,7 @@
 		?>
 		<p style="font-size: 0.85em; margin-top:20px;">This is the current price for the <a href="https://gobrik.com/#offset" target="_blank">sale of AES plastic offsets</a>.</p></div>
 
-			</div>
+			
 		</div>
 		
 
