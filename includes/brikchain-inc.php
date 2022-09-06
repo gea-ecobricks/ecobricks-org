@@ -113,19 +113,22 @@ $(document).ready(function() {
 
 <style>
 
+#block1, #block2, #block3, #block4, #block5, #block6 {
+	overflow: scroll ;
+}
 
-.live-data 
-	
-	{
+
+.live-data {
+		
 		font-size: 1.5em;
-font-family: "courier new, monospace" !important;
-color: #222;
-line-height: 1.3;
-font-weight: 300;
-background: #fbe9c8;
-padding: 20px;
-border-radius: 10px;
-margin: 12px;
+		font-family: "courier new, monospace" !important;
+		color: #222;
+		line-height: 1.3;
+		font-weight: 300;
+		background: #fbe9c8;
+		padding: 20px;
+		border-radius: 10px;
+		margin: 12px;
 }
 
 .blink {

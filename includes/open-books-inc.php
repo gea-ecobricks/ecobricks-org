@@ -329,13 +329,12 @@ margin: 12px;
  	 -ms-transform: skewY(-3deg);
  	 -o-transform: skewY(-3deg);
  	 transform: skewY(-3deg);*/
-	
-
 }
 
-#block3 {
+#block1, #block2, #block3, #block4, #block5, #block6 {
 	overflow: scroll !important;
 }
+
 
 /* Huh? */
 
