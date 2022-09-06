@@ -63,7 +63,7 @@
 
 			
 			<div id="slider4">
-			<div id="slider-image"><img src="webp/building-methods.svg" style="width: 85%;"></div>	
+			<div id="slider-image"><img src="svgs/building-methods.svg" style="width: 85%;"></div>	
 				<div id="slider-textbox">
 					<div id="slider-heading">Build with Ecobricks</div>
 					<div id="slider-date">GEA Updated Content</div>
