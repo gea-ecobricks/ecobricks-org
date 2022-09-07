@@ -56,9 +56,9 @@
 					// output data of each row
 					while($row = $result->fetch_assoc()) {
 						
-						echo '<p>Current value of 1 Brikcoin:</p><span class="blink">◉  </span>  '.$row["plastic_value_kg_per_brk"].'&#8202;Kg of AES plastic</p>' ; 
-						echo '<p style="font-size: 0.8em; margin-top:20px;">Unlike other currencies Brikcoins (BRK / ß) are measured in the ecological value of <a href="sequestered.php">plastic sequestered out of the industry & biosphere</a>.' ; 
-						echo '<p style="font-size: 0.8em; margin-top:20px;">Amount of <a href="/brikcoins.php">brikcoin</a> in circulation: '.$row["net_brk_in_circulation"].'&#8202;ß</p>' ; 
+						echo '<p>Current value of 1 Brikcoin:</p><p><span class="blink">◉  </span>  '.$row["plastic_value_kg_per_brk"].'&#8202;Kg of AES plastic</p>' ; 
+						echo '<p style="font-size: 0.8em; margin-top:20px;">Total circulation: '.$row["net_brk_in_circulation"].'&#8202;ß</p>' ; 
+						echo '<p style="font-size: 0.6em; margin-top:20px;">Unlike other currencies <a href="/brikcoins.php">brikcoin (BRK / ß)</a> are measured in the ecological value of <a href="sequestered.php">plastic sequestered out of the industry & biosphere</a>.' ; 
 						echo '<p style="font-size: 0.6em; margin-top:20px;">Last updated: 2022-09-07T09:14:13+00:00</div>' ; 
 						} 
 						
