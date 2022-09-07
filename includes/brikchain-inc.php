@@ -134,7 +134,7 @@ $(document).ready(function() {
 .blink {
             animation: blinker 1.5s linear infinite;
             color: #00AA44;
-            font-family: sans-serif;
+            font-family: "courier new, monospace" !important;
         }
         @keyframes blinker {
             50% {
