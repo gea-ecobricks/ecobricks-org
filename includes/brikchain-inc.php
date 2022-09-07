@@ -121,7 +121,7 @@ $(document).ready(function() {
 .live-data {
 		
 		font-size: 1.5em;
-		font-family: "courier new, monospace" !important;
+		font-family: "monospace" !important;
 		color: #222;
 		line-height: 1.3;
 		font-weight: 300;
@@ -134,7 +134,7 @@ $(document).ready(function() {
 .blink {
             animation: blinker 1.5s linear infinite;
             color: #00AA44;
-            font-family: "courier new, monospace" !important;
+            font-family: "monospace" !important;
         }
         @keyframes blinker {
             50% {
@@ -143,7 +143,7 @@ $(document).ready(function() {
             }
         }
 
-.courier {font-family: "courier new, monospace" !important;}
+.courier {font-family: "monospace" !important;}
 
 
 
