@@ -143,6 +143,8 @@ $(document).ready(function() {
             }
         }
 
+.courier {font-family: "courier new, monospace" !important;}
+
 
 
 /*This sets up the the first splash content block that is unique to the top of each page*/
