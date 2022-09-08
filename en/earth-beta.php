@@ -73,7 +73,7 @@ Content Page template: v.1.0.0-->
 					</div>
                     <div class="flex-gallery" width="100%">
 						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="photos/earth4.jpg" width="90%" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
-						<div class="gal-photo"><a href="photos/earth5.jpg"><img src="photos/earth5.jpg" width="90%" alt="Traditional Syrian Earthen "beehive" homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
+						<div class="gal-photo"><a href="photos/earth5.jpg"><img src="photos/earth5.jpg" width="90%" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
 						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="photos/earth6.jpg" width="90%" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
 					</div>
 
