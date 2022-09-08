@@ -64,20 +64,22 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed1">
 
                 <br>
-                <p><b>Short-term Applications</b><p>
+                <div id="flex-gallery" width="100%">
+						<a href="photos/brickable-1-716px.jpeg"><img src="photos/brickable-1-716px.jpeg" width="30%" alt="A black sticker used on a chocolate powder plastic bag"></a>
+						<a href="photos/brickable-2-716px.jpeg"><img src="photos/brickable-2-716px.jpeg" width="30%" alt="Integrated into the packaging of a Marimas juice product"></a>
+						<a href="photos/brickable-3-716px.jpeg"><img src="photos/brickable-3-716px.jpeg" width="30%" alt="A stick on a home based business health drink product"></a>
+					</div>
+                    
+                <p>If there’s anything that the very different earth building traditions around the world have in common it is that they used what was local to them.  Earth building makes use of the earth (sand, clay, rock, pebbles, etc.) that is nearby along with the local organic materials (wood, bamboo, reeds, grasses, etc).  By keeping it local, we reduce the need for long haul transportation.  This ensures a low-energy impact footprint for our building and it encourages the community management of regrowing trees and bamboo to meet local needs.</p>
 
-                <p>Silicone or inner-tube-bands can be used as short-term, non-permanent attachment methods to create ecobrick applications that last for months and up to several years.</p>
-                <p> As short-term applications are not usually covered up, they are typically for indoor use, in order to prevent the UV photodegradation of the bottles.  Short term application are easier for people to make and accelerate the <a href="/mandalas">mandalic spread</a> of ecobricking and the regenerative principles they embody. </p>
-
-                <br><p><b>Long-term Applications</b><p>
                 
-                <p>Earth and Ecobrick building techniques are used to create structures that can last years or decades (it is not uncommon for traditional constructions to last centuries!).  Earth mixes (i.e Cob (material), Wattle and daub, adobe) are used to lay ecobricks horizontally and completely cover them for full protection against all forms of degradation.</p>
-
-                <br><p><b>Very long-term</b><p>
-                <p>Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelihood of plastic staying safe, secure and contained is much more likely than currently available alternatives.</p>
                 
-                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>
-                <p style="font-size: 0.85em; margin-top:20px;">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
+                <p>There’s an added bonus.  As we’re using the same resources that our neighbours have access to, they can copy us! As we all work with the same resources, we can learn from the trial and error of our neighbours, and they can learn from us.  Sure and steady, our methods get better and greener.  Since our shared resources come from nearby,  we can also work together in the regrowth and management of resources.</p>
+
+               
+                <p>Today’s commercial construction, in contrast, relies on industrial processes and the transportation of materials from far away.  Often these materials involve much energy in their fabrication and transportation.  Because we don’t get to see where they come from, we are often not aware of the mining, smelting, and energy expenditure behind them.</p>
+                
+               
 </div>
 </div>
 

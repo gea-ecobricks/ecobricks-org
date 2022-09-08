@@ -17,6 +17,8 @@ _END;?>
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/building-methods.svg">
+<link rel="preload" as="image" href="https://ecobricks.org/webp/build-banner-1400px.webp">
+
 
 
 <!--This loads CSS specific to this page
@@ -39,7 +41,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
        
-		background: url(webp/build-banner-1400px.webp) bottom;
+		background: url(https://ecobricks.org/webp/build-banner-1400px.webp) bottom;
         background-color: #FA8D04;
 		
     	background-repeat: no-repeat;
@@ -64,7 +66,7 @@ _END;?>
 		position: relative;
 		
         
-		background: url(webp/build-banner-1400px.webp) bottom;
+		background: url(https://ecobricks.org/webp/build-banner-1400px.webp) bottom;
         background-color: #FA8D04;
 		
     	background-repeat: no-repeat;
