@@ -67,7 +67,7 @@ Content Page template: v.1.0.0-->
               
 
                     <div class="flex-gallery" width="100%">
-						<div class="gal-photo"><a href="photos/brickable-1-716px.jpeg"><img src="photos/earth1.jpg" width="90%" alt="A black sticker used on a chocolate powder plastic bag"></a><p>Subtitle</p></div>
+						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg" width="90%" alt="A black sticker used on a chocolate powder plastic bag"></a><p>Subtitle</p></div>
 						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/brickable-2-716px.jpeg" width="90%" alt="Integrated into the packaging of a Marimas juice product"></a><p>Subtitle</p></div>
 						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/brickable-3-716px.jpeg" width="90%" alt="A stick on a home based business health drink product"></a><p>Subtitle</p></div>
 					</div>
@@ -414,13 +414,7 @@ Content Page template: v.1.0.0-->
 
 		<div class="side">
 	
-			<div id="side-module-desktop-mobile">
-            <img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-				<br><h4>Good Use</h4>
-				<h5>Ecobrick building lets us put our plastic to good use in the short-term, while securing it out of industry and the biosphere for the long-term.</h5><br>
-				<a class="module-btn" href="/plastic">Learn More</a>
-                <br>
-			</div>  
+			
             <div id="side-module-desktop-mobile">
                 <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Plastic Sequestration</h4>
