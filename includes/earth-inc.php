@@ -46,7 +46,7 @@ _END;?>
 }
 
 .gal-photo p {font-size: 0.9em;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     
 }
 
