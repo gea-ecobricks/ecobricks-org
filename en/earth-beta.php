@@ -171,7 +171,7 @@ Content Page template: v.1.0.0-->
             <div id="preclosed2">
 
             
-            <img src="photos/dielemans-900px.jpg" width="100%" loading="lazy" alt="Dieleman lego eco brick modules">
+            <img src="photos/green-space.jpg" width="100%" loading="lazy" alt="Dieleman lego eco brick modules">
 
             
             <p> <p>The danger of plastic comes from its exposed surface area.  To the extent that plastic’s surface area is exposed to the elements, it will steadily break down over time into smaller and smaller pieces (microplastics) and leach toxins.  By packing and covering ecobricks we keep the plastic safe and secure.</p>
