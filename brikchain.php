@@ -68,11 +68,11 @@
 					while($row = $result->fetch_assoc()) {
 						
 						 
-						echo '<p style="font-size: 1.4em; margin-top:30px;">Current value of 1 Brikcoin:</p><p class="courier"><span class="blink">◉ </span>'.$row["plastic_value_kg_per_brk"].'Kg AES</p>' ; 
-						echo '<p style="font-size: 1em; margin-top:10px;">Total circulation:<br><b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;ß</b></span></p>' ; 
-						echo '<img src="svgs/aes-brk.svg" width="70%"><p style="font-size: 0.9em; margin-top:15px;"><a href="/brikcoins.php">Unlike other currencies brikcoins (BRK / ß)</a> are valued for the representation of ecological service in kilograms of <a href="sequestered.php">authenticated sequestered plastic</a>.
+						echo '<p style="font-size: 1.4em; margin-top:30px;">Current value of 1 Brikcoin:</p><p class="courier" style="font-size: 2em;><span class="blink">◉ </span>'.$row["plastic_value_kg_per_brk"].'Kg AES</p>' ; 
+						echo '<p style="font-size: 1em; margin-top:10px;">Total circulation:<br><b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;BRK</b></span></p><p style="color: white; font-size: 0.8em; margin-top:0px;">2022-09-07T09:14:13+00:00' ; 
+						echo '<img src="svgs/aes-brk.svg" width="60%"><p style="font-size: 0.9em; margin-top:5px;">Unlike other currencies brikcoins <a href="/brikcoins.php">(BRK / ß)</a> are valued for the representation of ecological service in kilograms of <a href="sequestered.php">authenticated sequestered plastic</a>.
 						' ; 
-						echo '<p style="color: white; font-size: 0.8em; margin-top:0px;">2022-09-07T09:14:13+00:00</div>' ;
+						echo '</div>' ;
 					
 						} 
 						

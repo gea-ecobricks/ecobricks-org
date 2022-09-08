@@ -149,7 +149,7 @@ $(document).ready(function() {
         }
 
 .courier {font-family: "monospace" !important;
-font-size: 1.2em;}
+}
 
 
 
