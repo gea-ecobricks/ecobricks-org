@@ -69,7 +69,7 @@
 						
 						 
 						echo '<img src="svgs/aes-brk.svg?v=2" style="width:70%; margin-top:25px;"><p style="font-size: 1.2em; margin-top:5px;">Current value of 1 Brikcoin:</p>
-						<p><span class="blink" style="font-size: 0.8em;">⬤ </span><span class="courier" style="font-size: 1.5em;">'.$row["plastic_value_kg_per_brk"].'Kg AES</span></p>' ; 
+						<p><span class="blink">⬤ </span><span class="courier" style="font-size: 1.5em;">'.$row["plastic_value_kg_per_brk"].'Kg AES</span></p>' ; 
 						echo '<p style="font-size: 1.2em; margin-top:10px;">Total Circulation:<br><b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;BRK</b></span></p>' ; 
 						echo '<p style="font-size: 0.9em; margin-top:10px;">Unlike other currencies brikcoins <a href="/brikcoins.php">(BRK / ß)</a> are based in ecological value as measured in kilograms of authenticated ecobrick sequestered (<a href="sequestered.php">AES</a>)plastic.</p>
 						<p style="color: white; font-size: 0.8em; margin-top:10px;"> Updated: 2022-09-07T09:14:13+00:00</p></div>' ; 
