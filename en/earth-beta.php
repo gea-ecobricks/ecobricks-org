@@ -3,18 +3,17 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/build-inc.php");?>
+<?php require_once ("includes/earth-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
-
+<?php require_once ("under-construction.php");?>
 <!--TOP PAGE BANNER-->
 
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobrick Applications</div>
-	    <div class="splash-sub">Practical & Principled Ecobrick Building.</div>
+		<div class="splash-heading">Ecobrick & Earth Building</div>
+	    <div class="splash-sub">Build beautiful, strong, circular, resilient and regenerative structures.</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/svgs/building-methods.svg" style="width: 85%">
     </div>	
@@ -33,15 +32,19 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Ecobricks can build furniture, gardens, play parks, structures and more. The only limit is our imagination!</p>
+				<p>By using time-tested local building traditions and the power of community collaboration, we can safely secure plastic while putting it to good use in earthen constructions.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
-                        <p>That said, building with ecobricks is a big responsibility.   To make sure that ecobricks and the plastic they contain are safe and secure the Global Ecobrick Alliance (<a href="about.php">GEA</a>) has developed building guidelines, standards and principles.  By following these best-practices, we can be sure our ecobrick applications keep plastic <a href="sequest.php">sequestered</a> over the short-term and the long.</p>
+                        <p>Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors.  Almost every continent has its ancient methods that have used earth to build structures that have stood for centuries.  By adapting these methods and maintaining their principles, we can put ecobricks to good use.  Not only can we build beautiful, strong and resilient structures, we can secure plastic locally and indefinitely– ensuring that it is on a path that keeps it from ever contaminating the environment.</p>
 
-                        <!--<p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
+                        <p>Earth Building is known by different names around the world– “adobe”, “wattle-and-daub”, “cob”, “organic cement” etc.  These low-energy and low-cost traditions have resulted in incredibly beautiful and varying structures around the world.  Despite their unique shapes and forms they share certain fundamentals in common– such as using local materials, including the community, and enriching the local ecology.  Our ancestors took these principles for granted, but today its more important than ever to learn from the wisdom embedded in their ways.</p>
+
+                        <p>As we will see, Earth and Ecobrick building contrasts starkly with today’s conventional construction methods. Whereas commercial construction methods rely on high energy, industrial process and are ecologically damaging, earthen building is ecologically enriching.  Whereas commercial construction is powered by petroleum energy and dependent on capital, earthen constructions strives to be free of both.  Wheras, commercial construction loosens plastic and CO2 into the biosphere, earthen building strives to secure them.  Whereas commercial construction is has a top-down owner/boss/employee structure, earthen building strives to involve everyone in the community.</p>
+
+                        <p>Read on to learn about the regenerative principles that guide earth building!</p>
 							
             </div>	
 			<a name="APPROVED"></a>
@@ -50,8 +53,8 @@ Content Page template: v.1.0.0-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Thinking Short, Long & Very Long</h4>
-                    <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
+                    <h4>Keeping it Local</h4>
+                    <h5>Earth buidling is all about improvising with what you’ve got.</h5>   
                     <br>
                     </div>
 
@@ -84,8 +87,8 @@ Content Page template: v.1.0.0-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Ecobrick Storage</h4>
-                    <h5>Before you build with ecobricks, it is essential to store them properly.</h5>   
+                    <h4>Circular & Spiral</h4>
+                    <h5>When building with earth we plan for the next destruction of our creation.  </h5>   
                     <br>
                     </div>
 
@@ -95,10 +98,10 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed10">
         <br>
 
-            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
+            <img src="photos/reusing-ecobricks.png" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
 
             <br>
-            <p>Before you build with ecobricks, it is essential to store them properly.  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements.  Ecobricks are best stacked horizontally with their bottom pointed outwards.  This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.</p>
+            <p>In so doing we ensure that the materials we use can be used again and again.  Essential to Earth and Ecobrick building and the effective sequestration of plastic, is circular design.  This is one of the main principles and reasons for the use of earth with ecobricks.</p>
 
             <img src="webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="An example of how to store eco bricks properly">
 
@@ -113,12 +116,12 @@ Content Page template: v.1.0.0-->
 
                 
                 
-            <a name="MILSTEINS"></a>
+            <a name="COLLABORATION"></a>
 			<div class="reg-content-block" id="block3">
 				<div class="opener-header">
 					<div class="opener-header-text">
-						<h4>1. Milstein Modules</h4>
-						<h5>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Module horizontal lego.</h5><br>
+						<h4>Collaboration Powered</h4>
+						<h5>Earth and ecobrick building is powered by community collaboration rather than petroleum or capital.</h5><br>
 					</div>
 					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 				</div>
@@ -157,14 +160,14 @@ Content Page template: v.1.0.0-->
 			</div>
 
 
-			<a name="2. Dieleman Modules"></a>
+			<a name="LONGTERM"></a>
             <div class="reg-content-block" id="block2">
 
             <div class="opener-header">
                 
                 <div class="opener-header-text">
-                <h4>2. Dieleman Modules</h4>
-                <h5>Ecobricks can be combined into modules that can be used to build vertically and horizontally much like LEGO.</h5>
+                <h4>Planning for the long long-term</h4>
+                <h5>Plastic is potentially a toxic material.  When working and building with plastic it is essential to plan ahead for the next thousand years.  Ecobricking and Earth Building are a way to secure plastic within a safe long-term trajectory.</h5>
                 <br>
                 </div>
 
@@ -209,14 +212,14 @@ Content Page template: v.1.0.0-->
             </div>
             </div>
 
-            <a name="EARTHMODS"></a>
+            <a name="CUSTODIAN"></a>
             <div class="reg-content-block" id="block4">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>3. Earth Modules</h4>
-                    <h5>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.</h5>
+                    <h4>Ecobrick Building Custodianship Agreements</h4>
+                    <h5>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site.</h5>
                     <br>
                     </div>
 
@@ -256,71 +259,6 @@ Content Page template: v.1.0.0-->
 
            
 
-
-            <a name="OPENSPACES"></a>
-			<div class="reg-content-block" id="block5">
-
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-					<h4>4. Open Spaces</h4>
-					<h5>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands. </h5>
-					<br>
-					</div>
-
-					<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
-				</div>
-
-				<div id="preclosed5">
-
-                    <img src="photos/openspace-960px.jpg" width="100%" alt="Eco-brick open spaces for use with eco brick modules of all kinds" loading="lazy">
-
-                    <p>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands.  These ecobricks can then be combined into an assortment of Milstein and Dieleman modules to create a diverse set of several hundred modules.</p>
-
-                    <div class="row">
-                            <div class="main2">
-                               <p>These modules can then be deployed for conferences, exhibitions, fairs and other special events to create customized interactive spaces.   These spaces can either be setup in advance or invite participants to interact, play and create their own space.  </p>
-                            </div>
-                            <div class="side2"><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="100%" loading="lazy" alt="Examples of an eco brik open space".>
-                            </div>
-                        </div>
-
-                        <div class="row2">
-                            <div class="main3">
-                            <p>Ecobrick communities that have amassed Open Space sets often rent out to events and venues to show case ecobrick modular technology and regenerative principles.</p>
-                            </div>
-                            <div class="side3"><br><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="120px" loading="lazy" alt="Example eco brick open space">
-                            </div>
-                        </div>
-					
-					
-					<br>
-                    <hr>
-
-                    
-                    <h4>🟡 Maintenance</h4>
-                    <p>Open space modules sets should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
-                    
-                    <hr>
-
-                    <h4>🟢 Next Life</h4>
-                    <p>  Well-used ecobrick modules will last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.</p>
-                    
-                    <hr>
-                    <h4>🔴 Caution</h4>
-                    <p>Open spaces should be indoor or in covered spaces only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.
-                    <p>
-                    <hr>
-                    <br>
-                    
-
-                    <a class="action-btn" href="/openspace">🚀 Ecobrick Open Spaces</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ecobrick Open Spaces.</a></p>
-
-                  
-			
-				</div>
-			</div>
 
 
 			<a name="EARTEHN"></a>
@@ -433,33 +371,6 @@ Content Page template: v.1.0.0-->
 
 
 
-
-            <a name="MORE"></a>
-            <div class="reg-content-block" id="block7">
-
-                <div class="opener-header">
-                    
-                    <div class="opener-header-text">
-                    <h4>And more ideas!</h4>
-                    <h5>People around the world are building all sorts of great and unique things with their ecobricks!</h5>
-                    <br>
-                    </div>
-
-                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
-                </div>
-
-                <div id="preclosed7">
-
-                <img src="photos/book-shelf.jpg" width="100%" loading="lazy" alt="Eco brick book shelf">
-
-                <p>People around the world are building all sorts of great and unique things with their ecobrick!  Did you know that Ecobricks float really well?  We can’t wait to see the first ecobrick boats and islands. Have you seen or developed useful applications?  Please share with us, or help our team develop this page further.   Share your photos on the web with the hash tag #ecobricks.</p>
-                <p>From baseball bats to boats, the sky is the limit on what you can use ecobricks for!  Ecobricks can be used for getting fit, for games and more.</p>
-                <br><br>
-
-
-                </div>
-               
-            </div>
 
           
 

@@ -16,8 +16,8 @@ _END;?>
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/building-methods.svg">
+<link rel="preload" as="image" href="https://ecobricks.org/webp/build-blue-450px.webp">
 
 <!--This loads CSS specific to this page
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/what.css?v1.1">-->
