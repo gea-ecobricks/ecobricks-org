@@ -67,7 +67,7 @@
 					// output data of each row
 					while($row = $result->fetch_assoc()) {
 						
-						 
+			
 						echo '<img src="svgs/aes-brk.svg?v=2" style="width:70%; margin-top:25px;"><p style="font-size: 1.2em; margin-top:5px;">Current value of 1 Brikcoin:</p>
 						<p><span class="courier" style="font-size: 1.5em;"><span class="blink">⬤<span style="font-size: 0.9em;"> </span></span>'.$row["plastic_value_kg_per_brk"].'Kg AES</span></p>' ; 
 						echo '<p style="font-size: 1.2em; margin-top:10px;">Total Circulation:<br><b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;BRK</b></span></p>' ; 
