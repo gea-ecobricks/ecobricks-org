@@ -65,15 +65,15 @@ Content Page template: v.1.0.0-->
 
                 <br>
                 <div id="flex-gallery" width="100%">
-						<div id="photo1"><a href="photos/brickable-1-716px.jpeg"><img src="photos/brickable-1-716px.jpeg" width="30%" alt="A black sticker used on a chocolate powder plastic bag"></a></div>
-						<div id="photo2"><a href="photos/brickable-2-716px.jpeg"><img src="photos/brickable-2-716px.jpeg" width="30%" alt="Integrated into the packaging of a Marimas juice product"></a></div>
-						<div id="photo3"><a href="photos/brickable-3-716px.jpeg"><img src="photos/brickable-3-716px.jpeg" width="30%" alt="A stick on a home based business health drink product"></a><h6>testing some text</h6></div>
+						<div id="gal-photo"><a href="photos/brickable-1-716px.jpeg"><img src="photos/brickable-1-716px.jpeg" width="30%" alt="A black sticker used on a chocolate powder plastic bag"></a></div>
+						<div id="gal-photo"><a href="photos/brickable-2-716px.jpeg"><img src="photos/brickable-2-716px.jpeg" width="30%" alt="Integrated into the packaging of a Marimas juice product"></a></div>
+						<div id="gal-photo"><a href="photos/brickable-3-716px.jpeg"><img src="photos/brickable-3-716px.jpeg" width="30%" alt="A stick on a home based business health drink product"></a><h6>testing some text</h6></div>
 					</div>
 
                     <div id="flex-gallery" width="100%">
-						<div id="photo1"><a href="photos/brickable-1-716px.jpeg"><img src="photos/brickable-1-716px.jpeg" width="30%" alt="A black sticker used on a chocolate powder plastic bag"></a></div>
-						<div id="photo2"><a href="photos/brickable-2-716px.jpeg"><img src="photos/brickable-2-716px.jpeg" width="30%" alt="Integrated into the packaging of a Marimas juice product"></a></div>
-						<div id="photo3"><a href="photos/brickable-3-716px.jpeg"><img src="photos/brickable-3-716px.jpeg" width="30%" alt="A stick on a home based business health drink product"></a><h6>testing some text</h6></div>
+						<div id="gal-photo"><a href="photos/brickable-1-716px.jpeg"><img src="photos/brickable-1-716px.jpeg" width="30%" alt="A black sticker used on a chocolate powder plastic bag"></a></div>
+						<div id="gal-photo"><a href="photos/brickable-2-716px.jpeg"><img src="photos/brickable-2-716px.jpeg" width="30%" alt="Integrated into the packaging of a Marimas juice product"></a></div>
+						<div id="gal-photo"><a href="photos/brickable-3-716px.jpeg"><img src="photos/brickable-3-716px.jpeg" width="30%" alt="A stick on a home based business health drink product"></a><h6>testing some text</h6></div>
 					</div>
 
                 <p>If there’s anything that the very different earth building traditions around the world have in common it is that they used what was local to them.  Earth building makes use of the earth (sand, clay, rock, pebbles, etc.) that is nearby along with the local organic materials (wood, bamboo, reeds, grasses, etc).  By keeping it local, we reduce the need for long haul transportation.  This ensures a low-energy impact footprint for our building and it encourages the community management of regrowing trees and bamboo to meet local needs.</p>

@@ -67,11 +67,12 @@
 					// output data of each row
 					while($row = $result->fetch_assoc()) {
 						
-						echo '<img src="svgs/aes-brk.svg" width="90%"><p style="color: white; font-size: 0.8em; margin-top:0px;">Last updated: 2022-09-07T09:14:13+00:00' ; 
-						echo '<p style="font-size: 1em; margin-top:10px;">Current value of 1 Brikcoin:</p><p><span class="blink">◉ </span><span class="courier">'.$row["plastic_value_kg_per_brk"].'&#8202;Kg AES</p></span>' ; 
+						 
+						echo '<p style="font-size: 1.4em; margin-top:30px;">Current value of 1 Brikcoin:</p><p class="courier"><span class="blink">◉ </span>'.$row["plastic_value_kg_per_brk"].'Kg AES</p>' ; 
 						echo '<p style="font-size: 1em; margin-top:10px;">Total circulation:<br><b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;ß</b></span></p>' ; 
-						echo '<p style="font-size: 0.9em; margin-top:15px;"><a href="/brikcoins.php">Unlike other currencies brikcoins (BRK / ß)</a> are valued for the representation of ecological service in kilograms of <a href="sequestered.php">authenticated sequestered plastic</a>.
-						</div>' ; 
+						echo '<img src="svgs/aes-brk.svg" width="70%"><p style="font-size: 0.9em; margin-top:15px;"><a href="/brikcoins.php">Unlike other currencies brikcoins (BRK / ß)</a> are valued for the representation of ecological service in kilograms of <a href="sequestered.php">authenticated sequestered plastic</a>.
+						' ; 
+						echo '<p style="color: white; font-size: 0.8em; margin-top:0px;">2022-09-07T09:14:13+00:00</div>' ;
 					
 						} 
 						
