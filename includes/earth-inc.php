@@ -37,10 +37,12 @@ _END;?>
     display: flex;
   flex-direction: row;
   justify-content: center;
+  max-width: 100%;
 }
 
 .gal-photo p {font-size: 0.9em;
     margin-bottom: 10px;
+    max-width: fit-content;
 }
 
 @media screen and (max-width: 700px) { 
