@@ -40,9 +40,13 @@ _END;?>
   max-width: 100%;
 }
 
+.gal-photo {
+    height: 200px;
+}
+
 .gal-photo p {font-size: 0.9em;
     margin-bottom: 10px;
-    max-width: fit-content;
+    
 }
 
 @media screen and (max-width: 700px) { 
@@ -73,7 +77,7 @@ _END;?>
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 60vh;
+		min-height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
