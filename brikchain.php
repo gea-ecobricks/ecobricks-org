@@ -46,7 +46,7 @@
 
 
 
-</div>
+		</div>
 		
 
 		<div class="side">
@@ -68,12 +68,11 @@
 					while($row = $result->fetch_assoc()) {
 						
 						 
-						echo '<img src="svgs/aes-brk.svg?v=2" style="width=70%; magin-top:25px;"><p style="font-size: 1.2em; margin-top:5px;">Current value of 1 Brikcoin:</p>
-						<p><span class="blink" style="font-size: 1.5em;">⬤ </span><span class="courier" style="font-size: 1.5em;">'.$row["plastic_value_kg_per_brk"].'Kg AES</span></p>' ; 
+						echo '<img src="svgs/aes-brk.svg?v=2" style="width:70%; margin-top:25px;"><p style="font-size: 1.2em; margin-top:5px;">Current value of 1 Brikcoin:</p>
+						<p><span class="blink" style="font-size: 1.1em;">⬤ </span><span class="courier" style="font-size: 1.5em;">'.$row["plastic_value_kg_per_brk"].'Kg AES</span></p>' ; 
 						echo '<p style="font-size: 1.2em; margin-top:10px;">Total Circulation:<br><b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;BRK</b></span></p>' ; 
 						echo '<p style="font-size: 0.9em; margin-top:10px;">Unlike other currencies brikcoins <a href="/brikcoins.php">(BRK / ß)</a> are based in ecological value as measured in kilograms of authenticated ecobrick sequestered (<a href="sequestered.php">AES</a>)plastic.</p>
-						<p style="color: white; font-size: 0.8em; margin-top:10px;"> Updated: 2022-09-07T09:14:13+00:00</p>' ; 
-						echo '</div>' ;
+						<p style="color: white; font-size: 0.8em; margin-top:10px;"> Updated: 2022-09-07T09:14:13+00:00</p></div>' ; 
 					
 						} 
 						
@@ -81,18 +80,10 @@
 						echo "Failed to connect to Brikchain</div>";
 					}
 					?>
-
-			<!--<div id="side-module-desktop-only">
-				<img src="webp/for-earth500px.webp" width="90%" alt="Following the Earth's example through eco bricking">
-				<br><h4>Earth Enterprise</h4>
-				<h5>The Brikchain is maintained by the Global Ecobrick Alliance, a not-for-profit, for-Earth enterprise dedicated to accelerating plastic transition.</h5><br>
-				<a class="module-btn" href="/about">About the GEA</a>
-                <br>
-			</div>   -->
          
 		</div>
-	</div>
 
+	</div>
 
 
 	<div class="reg-content-block" id="block1">
