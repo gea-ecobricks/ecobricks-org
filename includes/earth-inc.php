@@ -39,8 +39,7 @@ _END;?>
   justify-content: center;
 }
 
-.gal-photo {
-
+.gal-photo p {font-size: 0.9em;
 }
 
 @media screen and (max-width: 700px) { 
