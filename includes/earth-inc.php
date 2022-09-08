@@ -33,6 +33,14 @@ _END;?>
 
 <STYLE>
 
+.flex-gallery {
+    display: flex;
+  flex-direction: row;
+}
+
+.gal-photo {display: flex;
+flex-direction: row;}
+
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
@@ -56,8 +64,7 @@ _END;?>
 	}
 }
 
-#gal-photo {display: flex;
-flex-direction: row;}
+
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
