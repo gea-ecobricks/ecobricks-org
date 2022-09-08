@@ -67,8 +67,8 @@ Content Page template: v.1.0.0-->
               
 
                     <div class="flex-gallery" width="100%">
-						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" width="60%" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
-						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" width="100%" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
+						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" width="50%" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
+						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" width="90%" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
 						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" width="90%" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling</p></div>
 					</div>
                     <div class="flex-gallery" width="100%">
@@ -139,7 +139,7 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed3">
 
-                <img src="photos/Collaboration-Powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
+                <img src="photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
             
 					<p>A common misunderstanding is to confuse building with ecobricks with conventional or commercial building methods: paying builders, using cement and machines, etc.</p>
 
