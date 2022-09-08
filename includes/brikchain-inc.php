@@ -119,7 +119,7 @@ $(document).ready(function() {
 }
 
 #side-module-desktop-mobile {
-	background: #cecece;
+	background: #2a91da85;
 	font-size: 1.1em;
 }
 
@@ -139,7 +139,7 @@ $(document).ready(function() {
 .blink {
             animation: blinker 1.5s linear infinite;
             color: #00AA44;
-            font-family: "monospace" !important;
+            
         }
         @keyframes blinker {
             50% {
