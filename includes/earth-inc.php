@@ -38,10 +38,11 @@ _END;?>
   flex-direction: row;
   justify-content: center;
   max-width: 100%;
+  margin-bottom: 50px;
 }
 
 .gal-photo {
-    height: 200px;
+    padding: 10px;
 }
 
 .gal-photo p {font-size: 0.9em;
