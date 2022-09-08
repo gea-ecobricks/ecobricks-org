@@ -38,7 +38,7 @@ _END;?>
   flex-direction: row;
   justify-content: center;
   max-width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .gal-photo {

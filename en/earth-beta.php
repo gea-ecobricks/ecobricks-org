@@ -66,7 +66,7 @@ Content Page template: v.1.0.0-->
                 <br>
               
 
-                    <div class="flex-gallery" width="100%">
+                    <div class="flex-gallery" max-width="100%">
 						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" height="190px" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
 						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" height="190px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
 						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" height="190px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling</p></div>
