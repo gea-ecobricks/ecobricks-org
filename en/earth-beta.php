@@ -67,13 +67,13 @@ Content Page template: v.1.0.0-->
               
 
                     <div class="flex-gallery" width="100%">
-						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" width="90%" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
-						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" width="90%" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
+						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" width="60%" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
+						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" width="100%" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
 						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" width="90%" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling</p></div>
 					</div>
                     <div class="flex-gallery" width="100%">
 						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="photos/earth4.jpg" width="90%" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
-						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="photos/earth5.jpg" width="90%" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
+						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="photos/earth5.jpg?v=2" width="90%" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
 						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="photos/earth6.jpg" width="90%" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
 					</div>
 
@@ -139,33 +139,16 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed3">
 
-                <img src="photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="GEA trainers sitting at a table with eco brick milstein modules made from plastic">
+                <img src="photos/Collaboration-Powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
             
-					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need are 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs. Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
+					<p>A common misunderstanding is to confuse building with ecobricks with conventional or commercial building methods: paying builders, using cement and machines, etc.</p>
 
-                    <img src="webp/milstein-modules-750px.webp" width="100%" loading="lazy" alt="milstein eco-brick module building">
-        
-        
-                    
-                    <h4>🟡 Maintenance</h4>
-                    <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
-                    
-                    <hr>
 
-                    <h4>🟢 Next Life</h4>
-                    <p>  Well-used ecobrick Milstein Modules will last 2-3 years.  After this time, the silicone joints began to weaken and fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.</p>
-                    
-                    <hr>
-                    <h4>🔴 Caution</h4>
-                    <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.
-                    <p>
-                    <hr>
-                    <br>
-                    
+                    <p>Instead, earth and ecobrick methods are designed from the ground up to be replicable, non-capital, non-petroleum, collaboration powered, using cradle-to-cradle design  </p>
 
-                    <a class="action-btn" href="/modules">🚀 Ecobrick Milstein Modules</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about the various horizontal ecobrick module variations.</a></p>
-
+                    <p>Furthermore, earth building techniques are what we call transcaste– meaning that the building process is non hierarchical and readily involves all genders, ages, rich, poor and everyone in between, on a level playing field of participation.</p>
+                    
+                    <h5>ℹ️ Learn more about our <a href="/principles.php">principles</a></h5>
                     
 				</div>
 			</div>
