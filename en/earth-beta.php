@@ -174,34 +174,22 @@ Content Page template: v.1.0.0-->
             <img src="photos/dielemans-900px.jpg" width="100%" loading="lazy" alt="Dieleman lego eco brick modules">
 
             
-            <p> <p>So this is pretty cool – ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.</p>
+            <p> <p>The danger of plastic comes from its exposed surface area.  To the extent that plastic’s surface area is exposed to the elements, it will steadily break down over time into smaller and smaller pieces (microplastics) and leach toxins.  By packing and covering ecobricks we keep the plastic safe and secure.</p>
 
-            <p>DMs interconnect just like LEGOs.  They stack one upon the other and enable you to make walls, towers and columns, quickly and easily without any glue or mortar.  Best Usage:  Awesome for open spaces, indoor playgrounds and building structures for concerts or fairs in minutes. Can be taken apart and stored just as fast!</p>
+            <p>Packing plastic into an ecobrick results in the terminal reduction of net surface area. An ecobrick is essentially many many square meters of plastic compressed into a very small space!  Using earth to build with ecobricks is a way to further secure plastic.</p>
 
-            <p>The DMs can then be disassembled just as easily.</p>
+            <p>Earth building involves making a mortar (we call it ‘cob’) to completely encase ecobricks. This way not a single square-centimeter of plastic is exposed! Without exposure to sun, friction, or heat the plastic inside the ecobricks can no longer degrade in any way.</p>
 
-            <img src="webp/dm-modules-1000px.webp" width="100%" loading="lazy" alt="Examples of the different types of dieleman lego modules">
+                    <p>It is also important to consider the abandonment of projects. Cob, in contrast to cement, can be more readily populated by plants. Even if long-term structures collapse, earth covered ecobricks have no way to degrade and will remain intact indefinitely. The crumbled earth gradually becomes fertile ground for plants, trees, and forest to cover.</p>
 
-        
+                    <p> By building with earth, using cradle-to-cradle principles, we point our ecobricks towards a long-term journey through time that maximizes its chance of indefinitely securing plastic.</p>
                     
-                    <h4>🟡 Maintenance</h4>
-                    <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
-                    
-                    <hr>
 
-                    <h4>🟢 Next Life</h4>
-                    <p>  Well-used DMs will last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.</p>
-                    
-                    <hr>
-                    <h4>🔴 Caution</h4>
-                    <p>For indoor use only.  The UV rays in sunlight will degrade and fade your DMs and weaken the ecobrick's plastic.
+                    <p>We call this trajectory ‘plastic sequestration‘.
                     <p>
                     <hr>
                     <br>
-                    
-
-                    <a class="action-btn" href="/dms">🚀 Ecobrick LEGO Modules</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Dieleman modules.</a></p>
+                    <h5>ℹ️ Learn more about our <a href="/sequestration.php">plastic sequestration</a></h5>
 
             </div>
             </div>

@@ -40,6 +40,7 @@ _END;?>
 }
 
 .gal-photo p {font-size: 0.9em;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 700px) { 
