@@ -120,15 +120,15 @@ $(document).ready(function() {
 
 .live-data {
 		
-		font-size: 1.5em;
+		font-size: 1.1em;
 		font-family: "monospace" !important;
 		color: #222;
 		line-height: 1.3;
 		font-weight: 300;
 		background: #fbe9c8;
-		padding: 20px;
+		padding: 30px;
 		border-radius: 10px;
-		margin: 12px;
+		margin: 0px;
 }
 
 .blink {
