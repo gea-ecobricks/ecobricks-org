@@ -120,13 +120,13 @@ $(document).ready(function() {
 
 .live-data {
 		
-		font-size: 1.3em;
+		font-size: 1.2em;
 		font-family: "monospace" !important;
 		color: #222;
 		line-height: 1.3;
 		font-weight: 300;
-		background: #f9b12b;
-		padding: 30px;
+		background: #afafae;
+		padding: 25px;
 		border-radius: 10px;
 		margin: 0px;
 }

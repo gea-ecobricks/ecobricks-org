@@ -43,33 +43,6 @@
 				<p>Use the tools below to browse the Brikchain.  You can also view our <a href="open-books.php">Open Books</a> financial accounting.</p>
 			</div>
 
-			<?php
-
-			$sql = "SELECT * FROM vw_sum_brk_total ;";
-
-			$result = $conn->query($sql);
-
-					if ($result->num_rows > 0) {
-
-						echo'<div class="live-data">';
-
-					// output data of each row
-					while($row = $result->fetch_assoc()) {
-						
-						echo '<p style="color: white; font-size: 0.6em; margin-top:0px;">Last updated: 2022-09-07T09:14:13+00:00' ; 
-						echo '<p style="font-size: 0.8em; margin-top:10px;">Current value of 1 Brikcoin:</p><p><span class="blink">◉ </span><span class="courier">'.$row["plastic_value_kg_per_brk"].'&#8202;Kg AES</p></span>' ; 
-						echo '<p style="font-size: 0.8em; margin-top:10px;">Total circulation: <b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;ß</b></span></p>' ; 
-						echo '<p style="font-size: 0.6em; margin-top:15px;"><a href="/brikcoins.php">Unlike other currencies brikcoins (BRK / ß)</a> are valued for the representation of ecological service in kilograms of <a href="sequestered.php">authenticated sequestered plastic</a>.</div>' ; 
-						
-						
-						
-						} 
-						
-					} else {
-						echo "Failed to connect to Brikchain";
-					}
-					?>
-					
 
 
 
@@ -92,7 +65,7 @@
 					while($row = $result->fetch_assoc()) {
 						
 						echo '<p style="color: white; font-size: 0.6em; margin-top:0px;">Last updated: 2022-09-07T09:14:13+00:00' ; 
-						echo '<p style="font-size: 0.8em; margin-top:10px;">Current value of 1 Brikcoin:</p><p><span class="blink">◉ </span><span class="courier">'.$row["plastic_value_kg_per_brk"].'&#8202;Kg AES</p></span>' ; 
+						echo '<p style="font-size: 0.8em; margin-top:10px;">Current value of 1 Brikcoin:</p><p><span class="blink">◉ </span><span class="courier">'.$row["plastic_value_kg_per_brk"].'Kg&#8202;AES</p></span>' ; 
 						echo '<p style="font-size: 0.8em; margin-top:10px;">Total circulation: <b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;ß</b></span></p>' ; 
 						echo '<p style="font-size: 0.6em; margin-top:15px;"><a href="/brikcoins.php">Unlike other currencies brikcoins (BRK / ß)</a> are valued for the representation of ecological service in kilograms of <a href="sequestered.php">authenticated sequestered plastic</a>.</div>' ; 
 						
@@ -133,13 +106,13 @@
 					}
 					?>
 
-			<div id="side-module-desktop-only">
+			<!--<div id="side-module-desktop-only">
 				<img src="webp/for-earth500px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
 				<h5>The Brikchain is maintained by the Global Ecobrick Alliance, a not-for-profit, for-Earth enterprise dedicated to accelerating plastic transition.</h5><br>
 				<a class="module-btn" href="/about">About the GEA</a>
                 <br>
-			</div>   
+			</div>   -->
          
 		</div>
 	</div>

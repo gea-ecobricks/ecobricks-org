@@ -42,7 +42,7 @@ _END;?>
 		z-index: 5;
        
 		background: url(https://ecobricks.org/webp/earth-banner-1400px.webp) bottom;
-        background-color: #FA8D04;
+        background-color: #914D3D;
 		
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -67,7 +67,7 @@ _END;?>
 		
         
 		background: url(https://ecobricks.org/webp/earth-banner-1400px.webp) bottom;
-        background-color: #FA8D04;
+        background-color: #914D3D;
 		
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
@@ -200,7 +200,7 @@ _END;?>
 	z-index: 0;
 
 box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-    background-color: #FA8D04;
+    background-color: #914D3D;
 
 	-webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
