@@ -36,10 +36,13 @@ _END;?>
 .flex-gallery {
     display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
-.gal-photo {display: flex;
-flex-direction: row;}
+.gal-photo {
+ width: 300px;
+ margin: 10px;
+}
 
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
