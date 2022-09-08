@@ -56,6 +56,8 @@ _END;?>
 	}
 }
 
+#gal-photo {display: flex;
+flex-direction: row;}
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
