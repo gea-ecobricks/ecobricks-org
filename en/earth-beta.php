@@ -67,14 +67,14 @@ Content Page template: v.1.0.0-->
               
 
                     <div class="flex-gallery" width="100%">
-						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" width="50%" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
-						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" width="90%" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
-						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" width="90%" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling</p></div>
+						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" height="190px" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
+						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" height="190px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
+						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" height="190px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling</p></div>
 					</div>
-                    <div class="flex-gallery" width="100%">
-						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="photos/earth4.jpg" width="90%" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
-						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="photos/earth5.jpg?v=2" width="90%" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
-						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="photos/earth6.jpg" width="90%" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
+                    <div class="flex-gallery" max-width="100%">
+						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="photos/earth4.jpg" height="190px" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
+						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="photos/earth5.jpg?v=2" height="190px" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
+						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="photos/earth6.jpg" height="190px" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
 					</div>
 
                 <p>If there’s anything that the very different earth building traditions around the world have in common it is that they used what was local to them.  Earth building makes use of the earth (sand, clay, rock, pebbles, etc.) that is nearby along with the local organic materials (wood, bamboo, reeds, grasses, etc).  By keeping it local, we reduce the need for long haul transportation.  This ensures a low-energy impact footprint for our building and it encourages the community management of regrowing trees and bamboo to meet local needs.</p>
