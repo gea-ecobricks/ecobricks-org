@@ -115,8 +115,13 @@ $(document).ready(function() {
 
 #block1, #block2, #block3, #block4, #block5, #block6 {
 	overflow: scroll ;
+
 }
 
+#side-module-desktop-mobile {
+	background: #afafae;
+	font-size: 1.1em;
+}
 
 .live-data {
 		
@@ -143,7 +148,8 @@ $(document).ready(function() {
             }
         }
 
-.courier {font-family: "monospace" !important;}
+.courier {font-family: "monospace" !important;
+font-size: 2em;}
 
 
 
