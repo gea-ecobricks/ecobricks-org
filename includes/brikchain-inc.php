@@ -119,7 +119,7 @@ $(document).ready(function() {
 }
 
 #side-module-desktop-mobile {
-	background: #afafae;
+	background: #cecece;
 	font-size: 1.1em;
 }
 
@@ -149,7 +149,7 @@ $(document).ready(function() {
         }
 
 .courier {font-family: "monospace" !important;
-font-size: 2em;}
+font-size: 1.2em;}
 
 
 
