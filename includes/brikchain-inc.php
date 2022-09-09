@@ -119,7 +119,7 @@ $(document).ready(function() {
 }
 
 #side-module-desktop-mobile {
-	background: #cf59024a;
+	background: #f8b956;
 	font-size: 1.1em;
 }
 
