@@ -47,7 +47,7 @@ Content Page template: v.1.0.0-->
             </div>	
 
             <a name="WHAT"></a>
-            <div class="reg-content-block" id="block1">
+            <div class="reg-content-block" id="block6">
 
                 <div class="opener-header">
                     
@@ -57,10 +57,10 @@ Content Page template: v.1.0.0-->
                     <br>
                     </div>
 
-                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
                 </div>
 
-                <div id="preclosed1">
+                <div id="preclosed6">
 
                 <br>
               
@@ -195,7 +195,7 @@ Content Page template: v.1.0.0-->
             <div class="opener-header">
                 
                 <div class="opener-header-text">
-                <h4>Planning for the long long-term</h4>
+                <h4>A safe Journey through time</h4>
                 <h5>Plastic is potentially a toxic material.  When working and building with plastic it is essential to plan ahead for the next thousand years.  Ecobricking and Earth Building are a way to secure plastic within a safe long-term trajectory.</h5>
                 <br>
                 </div>
@@ -244,9 +244,16 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed4">
 
-                <img src="photos/earth-module-623px.jpg" width="100%" loading="lazy" alt="Eco brick earth modules for sitting or coffee table">
+               
 
-                <p>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.  These modules are an ideal place to start to learn the basics of Earth building.  We use their construction in GEA Builder courses as a simple, non-structural start to the fundamental earth building techniques.</p>
+                <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site. These terms of transfer agreements must lay out the responsibilities for the construction’s maintenance and end as well as the responsibilities that the site’s custodian acquires for the construction’s ecobricks. This agreement must account for the eventual removal and reuse of the ecobricks.</p>
+
+                <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement. Download the PDF and ODG versions here:</p>
+
+    <p>Sample GEA Earth & Ecobrick Building Custodianship Agreement ENGLISH – PDF – 500kb
+    Template GEA Earth & Ecobrick Building Custodianship Agreement ENGLIGH – ODG (editable) – 100kb
+    Sample GEA Earth Building Terms of Transfer INDONESIAN – PDF
+    Template GEA Earth Building Terms of Transfer Agreement INDONESIAN – ODG (editable) – 2.1 MB </p>
                     <br>
                     <hr>
 
@@ -273,7 +280,7 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed8">   
 
-                <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintenance and the end of the construction is a key part of plastic sequestration!</p><br><br>
+                <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintenance and the end of the construction is a key part of plastic sequestration!</p>
 
                     
                    
@@ -327,7 +334,7 @@ Content Page template: v.1.0.0-->
                     
                         <br><p>
                     
-                        <a class="action-btn" href="/earth">🚀 Earth & Ecobrick Methods</a>
+                        <a class="action-btn" href="/earth-methods">🚀 Earth & Ecobrick Methods</a>
                     <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</a></p>
                         
                     
