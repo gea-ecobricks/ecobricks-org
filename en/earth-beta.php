@@ -40,14 +40,55 @@ Content Page template: v.1.0.0-->
 			<div class="page-paragraph">
                         <p>Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors.  Almost every continent has its ancient methods that have used earth to build structures that have stood for centuries.  By adapting these methods and maintaining their principles, we can put ecobricks to good use.  Not only can we build beautiful, strong and resilient structures, we can secure plastic locally and indefinitely– ensuring that it is on a path that keeps it from ever contaminating the environment.</p>
 
-                        <p>Earth Building is known by different names around the world– “adobe”, “wattle-and-daub”, “cob”, “organic cement” etc.  These low-energy and low-cost traditions have resulted in incredibly beautiful and varying structures around the world.  Despite their unique shapes and forms they share certain fundamentals in common– such as using local materials, including the community, and enriching the local ecology.  Our ancestors took these principles for granted, but today its more important than ever to learn from the wisdom embedded in their ways.</p>
-
-                        <p>As we will see, Earth and Ecobrick building contrasts starkly with today’s conventional construction methods. Whereas commercial construction methods rely on high energy, industrial process and are ecologically damaging, earthen building is ecologically enriching.  Whereas commercial construction is powered by petroleum energy and dependent on capital, earthen constructions strives to be free of both.  Wheras, commercial construction loosens plastic and CO2 into the biosphere, earthen building strives to secure them.  Whereas commercial construction is has a top-down owner/boss/employee structure, earthen building strives to involve everyone in the community.</p>
+                        
 
                         <p>Read on to learn about the regenerative principles that guide earth building!</p>
 							
             </div>	
-			<a name="APPROVED"></a>
+
+            <a name="WHAT"></a>
+            <div class="reg-content-block" id="block1">
+
+                <div class="opener-header">
+                    
+                    <div class="opener-header-text">
+                    <h4>What is Earth Building?</h4>
+                    <h5>An ancient tradition with great modern relevance.</h5>   
+                    <br>
+                    </div>
+
+                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+                </div>
+
+                <div id="preclosed1">
+
+                <br>
+              
+
+                    <div class="flex-gallery" max-width="100%">
+						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" height="190px" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
+						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" height="190px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
+						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" height="190px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling</p></div>
+					</div>
+                    
+
+                    <p>Earth Building is known by different names around the world– “adobe”, “wattle-and-daub”, “cob”, “organic cement” etc.  These low-energy and low-cost traditions have resulted in incredibly beautiful and varying structures around the world.  Despite their unique shapes and forms they share certain fundamentals in common– such as using local materials, including the community, and enriching the local ecology.  Our ancestors took these principles for granted, but today its more important than ever to learn from the wisdom embedded in their ways.</p>
+
+                <p>Earth building contrasts starkly with today’s conventional construction methods.</p>
+                <ul>
+                    <li>Whereas commercial construction methods rely on high energy, industrial process and are ecologically damaging, earthen building is ecologically enriching.</li>
+                    <li>Whereas commercial construction is powered by petroleum energy and dependent on capital, earthen constructions strives to be free of both.</li>  
+                    <li>Wheras, commercial construction loosens plastic and CO2 into the biosphere, earthen building strives to secure them.</li>
+                    <li>Whereas commercial construction is has a top-down owner/boss/employee structure, earthen building strives to involve everyone in the community.</li>
+                </p>
+                
+               
+                </div>
+            </div>
+
+
+
+			<a name="LOCAL"></a>
             <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">
@@ -66,11 +107,7 @@ Content Page template: v.1.0.0-->
                 <br>
               
 
-                    <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" height="190px" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
-						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" height="190px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
-						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" height="190px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling</p></div>
-					</div>
+                    
                     <div class="flex-gallery" max-width="100%">
 						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="photos/earth4.jpg" height="190px" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
 						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="photos/earth5.jpg?v=2" height="190px" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
@@ -79,18 +116,16 @@ Content Page template: v.1.0.0-->
 
                 <p>If there’s anything that the very different earth building traditions around the world have in common it is that they used what was local to them.  Earth building makes use of the earth (sand, clay, rock, pebbles, etc.) that is nearby along with the local organic materials (wood, bamboo, reeds, grasses, etc).  By keeping it local, we reduce the need for long haul transportation.  This ensures a low-energy impact footprint for our building and it encourages the community management of regrowing trees and bamboo to meet local needs.</p>
 
-                
-                
                 <p>There’s an added bonus.  As we’re using the same resources that our neighbours have access to, they can copy us! As we all work with the same resources, we can learn from the trial and error of our neighbours, and they can learn from us.  Sure and steady, our methods get better and greener.  Since our shared resources come from nearby,  we can also work together in the regrowth and management of resources.</p>
 
                
                 <p>Today’s commercial construction, in contrast, relies on industrial processes and the transportation of materials from far away.  Often these materials involve much energy in their fabrication and transportation.  Because we don’t get to see where they come from, we are often not aware of the mining, smelting, and energy expenditure behind them.</p>
                 
                
-</div>
-</div>
+                </div>
+            </div>
 
-            <a name="STORAGE"></a>
+            <a name="CIRCULAR"></a>
             <div class="reg-content-block" id="block10">
 
                 <div class="opener-header">
@@ -180,13 +215,12 @@ Content Page template: v.1.0.0-->
 
             <p>Earth building involves making a mortar (we call it ‘cob’) to completely encase ecobricks. This way not a single square-centimeter of plastic is exposed! Without exposure to sun, friction, or heat the plastic inside the ecobricks can no longer degrade in any way.</p>
 
-                    <p>It is also important to consider the abandonment of projects. Cob, in contrast to cement, can be more readily populated by plants. Even if long-term structures collapse, earth covered ecobricks have no way to degrade and will remain intact indefinitely. The crumbled earth gradually becomes fertile ground for plants, trees, and forest to cover.</p>
+            <p>It is also important to consider the abandonment of projects. Cob, in contrast to cement, can be more readily populated by plants. Even if long-term structures collapse, earth covered ecobricks have no way to degrade and will remain intact indefinitely. The crumbled earth gradually becomes fertile ground for plants, trees, and forest to cover.</p>
 
-                    <p> By building with earth, using cradle-to-cradle principles, we point our ecobricks towards a long-term journey through time that maximizes its chance of indefinitely securing plastic.</p>
-                    
+            <p> By building with earth, using cradle-to-cradle principles, we point our ecobricks towards a long-term journey through time that maximizes its chance of indefinitely securing plastic.</p>
+            
 
-                    <p>We call this trajectory ‘plastic sequestration‘.
-                    <p>
+            <p>We call this trajectory ‘plastic sequestration‘.</p>
                     <hr>
                     <br>
                     <h5>ℹ️ Learn more about our <a href="/sequestration.php">plastic sequestration</a></h5>
@@ -217,104 +251,9 @@ Content Page template: v.1.0.0-->
                     <hr>
 
                     
-                    <h4>🟡 Maintenance</h4>
-                    <p>Earth modules must be move around carefully as they can crack and break.</p>
-                    
-                    <hr>
-
-                    <h4>🟢 Next Life</h4>
-                    <p>  Once broken or cracked, modules can be destroyed and their ecobricks extracted and reused.  If pure cob has been used, this too can be wet and reused in earth building projects.</p>
-                    
-                    <hr>
-                    <h4>🔴 Caution</h4>
-                    <p>Avoid building fully with cement.  Cementing ecobricks make them often impossible to remove without the bottle being ruptured.</p>
-                    <p>Often earth modules can also be very heavy and care must be used in moving them.
-                    <p>
-                    <hr>
-                    <br>
-                    
-
-                    <a class="action-btn" href="/earth-methods">🚀 Earth Building Methods</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page on earth and ecobrick building techniques.</a></p>
-                </div>
                 </div>
 
-           
-
-
-
-			<a name="EARTEHN"></a>
-            <div class="reg-content-block" id="block6">
-
-            <div class="opener-header">
-                
-                <div class="opener-header-text">
-                <h4>5. Earth & Ecobrick Building</h4>
-                <h5>The most enduring and greenest way to build with ecobricks is using Earth Building techniques.</h5>
-                <br>
-                </div>
-
-                <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
-            </div>
-
-            <div id="preclosed6">
-
-            <img src="https://www.ecobricks.org/wp-content/uploads/2017/05/green-space.jpg" width="100%" tag="eco brik green spaces" loading="lazy">
-            
-            <p>Our number one choice for structural building!  This method is strong, earthquake resilient, allows curved walls and designs, allows ecobricks to be recycled at the end of the construction, and relies only on 100% organic, locally-sourced materials that cost next to nothing.</p>
-            
-            <p> Earth building was used by our ancestors to build homes and structures that have endured for centuries.  This general method is known by different names in different languages and continents– cob, adobe, wattle-and-daub, etc.  By using local earth, straw and sand to make the mortar for the ecobricks we can build in ways that are resilient, strong, beautiful, and thermal-retentive.</p>
-
-            <div class="row">
-                            <div class="main2">
-                            <p>Earth building is in full resonance with our principles — it is simple and replicable, non-capital, non-petroleum, collaboration powered, cradle-to-cradle and potently regenerative. Earth building techniques are gender and age transcendent:  involving men and women, young and old, and everyone in between in the building process.</p>
-                            </div>
-                            <div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2020/04/cricle-bench-and-mango-tree-simple.svg" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                            </div><!--svgs/circle-bench.svg-->
-                        </div>
-
-                        <div class="row2">
-                            <div class="main3">
-                            <p>Earth and Ecobrick Building is ideal for constructing simple garden spaces – playgrounds and what we call ‘food forest play parks‘.</p>
-                            </div>
-                            <div class="side3"><br><img src="https://www.ecobricks.org/wp-content/uploads/2020/04/cricle-bench-and-mango-tree-simple.svg" width="120px" loading="lazy" alt="eco brik and earth building can make tree benches">
-                            </div>
-                        </div>
-                        
-                        
-
-            
-            
-            <p>The Ecobrick and Earth Building techniques can then be extrapolated for wall and structure construction.</p>
-
-            
-
-            <p>The Earth Building technique can completely cover ecobricks, effectively securing them indefinitely in the construction.  This keeps them safe from UV light and other forms of degradation.  After 10, 20 or 100 years, when your structure comes to its end (as everything eventually does) the ecobricks can be extricated undamaged and fully repurposed.</p>
-
-         <br>
-                <hr>
-                    
-                    <h4>🟡 Maintenance</h4>
-                    <p>Earth modules need to be regularly inspected.  Cracks and breaks to the wall are best quickly repaired to avoid erosion to the structure.</p>
-                    
-                    <hr>
-
-                    <h4>🟢 Next Life</h4>
-                    <p>  Earth and ecobrick constructions disassemble into crumbled cob mortar which can be returned to the earth without problem (or reused in another earth construction!).  The ecobricks can be removed from the crumbled cob to be reused in any way.</p>
-                    
-                    <hr>
-                    <h4>🔴 Caution</h4>
-                    <p>  It’s outside of the corporate construction paradigm: your bank won’t give you a mortgage, insurance companies won’t cover it, and your hands and feet will get dirty.
-                    <p>
-                    <hr>
-                    <br>
-                    
-
-                    <a class="action-btn" href="/earth">🚀 Earth & Ecobrick Building</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page on the core concepts of Earth & Ecobrick Building.</a></p>
-
-            </div>
-            </div>
+        
 
               
 
@@ -336,12 +275,28 @@ Content Page template: v.1.0.0-->
 
                 <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintenance and the end of the construction is a key part of plastic sequestration!</p><br><br>
 
-
-					<h4>Short-Term Maintenance</h4>
-
-					<p>Ecobrick furniture and modules need regular cleaning and repair.  Our GEA Trainer Team who have several hundred ecobrick modules that they regularly rent out to cities and exhibitions, spend one day a year cleaning their modules with a high powered hose and soap.  They also dismantle weak modules and repair them with silicone.</p>
                     
-                    <p>Part of ensuring the longevity of ecobrick modules is to train those who use the modules how to handle them.  Modules should always be moved with two hands.  This is especially important with ecobrick Dieleman lego which new users are often tempted to grab with one hand.</p>
+                   
+            <p>The Earth Building technique can completely cover ecobricks, effectively securing them indefinitely in the construction.  This keeps them safe from UV light and other forms of degradation.  After 10, 20 or 100 years, when your structure comes to its end (as everything eventually does) the ecobricks can be extricated undamaged and fully repurposed.</p>
+
+<br>
+       <hr>
+           
+           <h4>🟡 Maintenance</h4>
+           <p>Earth modules need to be regularly inspected.  Cracks and breaks to the wall are best quickly repaired to avoid erosion to the structure.</p>
+           
+           <hr>
+
+           <h4>🟢 Next Life</h4>
+           <p>  Earth and ecobrick constructions disassemble into crumbled cob mortar which can be returned to the earth without problem (or reused in another earth construction!).  The ecobricks can be removed from the crumbled cob to be reused in any way.</p>
+           
+           <hr>
+           <h4>🔴 Caution</h4>
+           <p>  It’s outside of the corporate construction paradigm: your bank won’t give you a mortgage, insurance companies won’t cover it, and your hands and feet will get dirty.
+           <p>
+           <hr>
+           <br>
+           
                     <br><br>
 
                     <h4>Long-Term maintenance</h4>
@@ -367,10 +322,12 @@ Content Page template: v.1.0.0-->
                         
                          <p>Building with ecobricks is a significant responsibility.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
                         <p>  Planning for the maintenance and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p>
-                        <p>Go deeper into putting ecobricks to good use.  Learn about the core concepts of building with ecobricks and earth.</p>
+
+                        <p>Earth building is in full resonance with our principles — it is simple and replicable, non-capital, non-petroleum, collaboration powered, cradle-to-cradle and potently regenerative. Earth building techniques are gender and age transcendent:  involving men and women, young and old, and everyone in between in the building process.</p>
+                    
                         <br><p>
                     
-                        <a class="action-btn" href="/earth">🚀 Earth & Ecobrick Building</a>
+                        <a class="action-btn" href="/earth">🚀 Earth & Ecobrick Methods</a>
                     <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</a></p>
                         
                     
