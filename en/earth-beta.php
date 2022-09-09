@@ -250,15 +250,18 @@ Content Page template: v.1.0.0-->
 
                 <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement. Download the PDF and ODG versions here:</p>
 
-    <p>Sample GEA Earth & Ecobrick Building Custodianship Agreement ENGLISH – PDF – 500kb
-    Template GEA Earth & Ecobrick Building Custodianship Agreement ENGLIGH – ODG (editable) – 100kb
-    Sample GEA Earth Building Terms of Transfer INDONESIAN – PDF
-    Template GEA Earth Building Terms of Transfer Agreement INDONESIAN – ODG (editable) – 2.1 MB </p>
+    <p><ul>
+        <li>Sample GEA Earth & Ecobrick Building Custodianship Agreement ENGLISH – PDF – 500kb</li>
+        <li>Template GEA Earth & Ecobrick Building Custodianship Agreement ENGLIGH – ODG (editable) – 100kb</li>
+        <li>Sample GEA Earth Building Terms of Transfer INDONESIAN – PDF</li>
+        <li>Template GEA Earth Building Terms of Transfer Agreement INDONESIAN – ODG (editable) – 2.1 MB </li>
+    </ul></p>
                     <br>
                     <hr>
 
                     
                 </div>
+        </div>
 
         
 
