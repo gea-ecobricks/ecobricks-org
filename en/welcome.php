@@ -24,7 +24,7 @@
 	
 		<div id="sliders">
 
-		<?php require_once ("slides/slide-1-$lang.php.php");?>
+		<?php require_once ("slides/slide-1-$lang.php");?>
 
 
 			<div id="slider2">
