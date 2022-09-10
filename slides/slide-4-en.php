@@ -1,7 +1,7 @@
 
 	<!-- ENGLISH SLIDE - template v.1.0 -->
 
-    <div id="slider3">
+    <div id="slider4">
 
     <div id="slider-image"><img src="webp/brickable-kit.webp" style="width: 85%;" alt="Brickable Designator Icon">
         </div>
