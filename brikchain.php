@@ -184,7 +184,7 @@
 	
 			<h6>Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the block chain (see the GEA's yearly <a href="open-books.php">Open Books</a> financial accounting)</h6>
 			<div class="ecobrick-data"><p><span class="blink">⬤  </span> Brikcoin Data live</p></div>
-			<div class="ecobrick-data"><p><span class="blink">⬤  </span> OpenBooks Accounting live</p></div><div class="ecobrick-data"><p>🟠 Ecobrick weight data estimated (pendind archival transfer)</p></div>
+			<div class="ecobrick-data"><p><span class="blink">⬤  </span> OpenBooks Accounting live</p></div><div class="ecobrick-data"><p>🟠 Ecobrick weight data estimated (pending archival transfer)</p></div>
 			</div>
 			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 
@@ -276,9 +276,9 @@
                         
                          <p>Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our spaces We also account for our give and take of plastic and CO2.</p>
 
-						 <p>  🟢 All our financial transaction are maintained in <a href="brikchain.php">Our Open Books.</a></p> 
+						 <p>   🟢 All our financial transaction are maintained in our <a href="open-books.php">Open Books</a> accounting system.</p> 
 
-						<p>	🟢 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</p>
+						<p>  🟢 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</p>
 
 						<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</p><br><br>
                     
