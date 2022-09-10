@@ -8,8 +8,7 @@ deployment:
   - /bin/cp -R fr $DEPLOYPATH
   - /bin/cp -R es $DEPLOYPATH
   - /bin/cp -R id $DEPLOYPATH
-  - /bin/cp -R vi $DEPLOYPATH
-  - /bin/cp -R pt $DEPLOYPATH
+
 
   - /bin/cp -R logos $DEPLOYPATH
   - /bin/cp -R icons $DEPLOYPATH
