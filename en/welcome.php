@@ -34,16 +34,6 @@
 		
 
 
-			<div id="slider4">
-				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brick enterprise program"></div>
-					<div id="slider-textbox">
-					<div id="slider-heading">Plastic Transition Platform for Enterprises</div>
-					<div id="slider-date">GEA Announcements</div>
-					<div id="slider-body">Our Catalyst program for keen green companies, organizations and projects is now live!  Track, disclose and accelerate your plastic transition.</div>
-					<div id="slider-link"><a href="catalyst.php">Learn more</a></div>
-				</div>
-			</div>
-
 			
 		
 
