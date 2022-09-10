@@ -44,8 +44,8 @@ _END;?>
     font-family: Mulish;
     color: #fff;
     font-size: 1.6em;
-    background: #00000075;
-    padding: 8px 15px;
+    background: #00000065;
+    padding: 8px 18px;
     text-decoration: none;
     overflow-x: none;
     margin: 30px 15px 0px 0px;
@@ -53,7 +53,7 @@ _END;?>
 }
 
 .slider-btn:hover {
-    background: #00000040;
+    background: #00000085;
 }
 
 @media screen and (min-width: 770px) { 
