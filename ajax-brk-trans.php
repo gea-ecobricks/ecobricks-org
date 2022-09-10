@@ -57,14 +57,14 @@ array(
    
    array(
         'db'        => 'block_amt',
-        'dt'        => 5,
+        'dt'        => 4,
         'formatter' => function( $d, $row ) {
             return '<var>'.number_format($d,2).'&#8202;ß</var>';
         }
     ),
     array(
         'db'        => 'individual_amt',
-        'dt'        => 4,
+        'dt'        => 5,
         'formatter' => function( $d, $row ) {
             return '<var>'.number_format($d,2).'&#8202;ß</var>';
         }
@@ -73,7 +73,7 @@ array(
 
 
     array( 'db' => 'ecobrick_serial_no',     
-'dt' => 5,
+'dt' => 6,
 'formatter' => function( $d, $row ) {
     return '🔎 <a href="details-ecobrick-page.php?serial_no='.($d).'">'.($d).'</a>';
 }
