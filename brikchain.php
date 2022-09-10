@@ -69,7 +69,7 @@
 						
 			
 						echo '<img src="svgs/aes-brk.svg?v=2" style="width:70%; margin-top:25px;"><p style="font-size: 1.2em; margin-top:5px;">Current value of 1 Brikcoin:</p>
-						<p><span class="courier" style="font-size: 1.5em;"><span class="blink">⬤<span style="font-size: 0.4em;"> </span></span>'.$row["plastic_value_g_per_brk"].'<span style="font-size: 0.4em;"> </span>g<span style="font-size: 0.2em;"> </span>AES</span></p>';
+						<p><span class="courier" style="font-size: 1.5em;"><span class="blink">⬤<span style="font-size: 0.4em;"> </span></span>'.$row["plastic_value_g_per_brk"].'<span style="font-size: 0.1em;"> </span>g<span style="font-size: 0.3em;"> </span>AES</span></p>';
 						echo '<p style="font-size: 1.2em; margin-top:10px;">Total Circulation:<br><b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;BRK</b></span></p>' ; 
 						echo '<p style="font-size: 0.9em; margin-top:10px;">Unlike other currencies brikcoins <a href="/brikcoins.php">(BRK / ß)</a> are based in ecological value as measured in kilograms of authenticated ecobrick sequestered (<a href="sequestered.php">AES</a>)plastic.</p>
 						<p style="color: white; font-size: 0.8em; margin-top:10px;"> Updated every 15 minutes</p></div>' ; 
@@ -90,7 +90,7 @@
 		<div class="opener-header">
 			<div class="opener-header-text">
 				<h4>Blocks & Transactions</h4>
-				<h6>An overview of all brikcoins generated and exchanged.</h6>
+				<h6>The full chain transactions chronicling the generation, exchange and destruction of brikcoins.</h6>
 				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
 			</div>
 		
@@ -137,7 +137,7 @@
 		<div class="opener-header">
 			<div class="opener-header-text">
 				<h4>Authenticated Ecobricks</h4>
-				<h6>All the ecobricks authenticated and archived on chain.</h6>
+				<h6>The archival chain of authenticated ecobricks.</h6>
 				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live</p></div><div class="ecobrick-data"><p>🟠 Historical Data pending transfer</p></div>
 			</div>	
 		
@@ -223,7 +223,7 @@
 		<div class="opener-header">
 			<div class="opener-header-text">
 				<h4>Total Brikcoin Pool</h4>
-				<h6>Running and yearly brikchain totals. </h6>
+				<h6>Running and yearly totals of brikcoins generated, destroyed and in circulation. </h6>
 				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
 			</div>
 		
