@@ -33,7 +33,7 @@
 
 			<div class="lead-page-paragraph">
 				
-				<p>Search and explore the full chain of authenticated ecobricks, blocks and transactions that underly the brikcoin manual blockchain.</p>
+				<p>Search and explore the full chain of authenticated ecobricks, blocks and transactions that make up the brikcoin manual blockchain.</p>
 			</div>
 
 			<div class="page-paragraph">
@@ -109,7 +109,8 @@
 						<th>Issued</th>
 							<th>Sender</th>	
 							<th>Type</th>
-							<th>Amount</th>
+							<th>Block</th>
+							<th>Transfered</th>
 							<th>Ecobrick</th>
 
 						</tr>
@@ -120,7 +121,8 @@
 						<th>Issued</th>
 							<th>Sender</th>	
 							<th>Type</th>
-							<th>Amount</th>
+							<th>Block</th>
+							<th>Transfered</th>
 							<th>Ecobrick</th>
 						</tr>
 					</tfoot>
