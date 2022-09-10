@@ -28,20 +28,10 @@
 
 		<?php require_once ("slides/slide-2-$lang.php");?>
 
+		<?php require_once ("slides/slide-3-$lang.php");?>
 
-			<div id="slider3">
 
-			<div id="slider-image">
-				<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
-			</div>
-			<div id="slider-textbox">
-				<div id="slider-heading">The Brik Market is Launched</div>
-				<div id="slider-date">June, 2022 | GEA Annoucement</div>
-				<div id="slider-body">After three years of development, we're excited to launch a place to exchange, trade, barter and drop-off your ecobricks.</div>
-				<div id="slider-link">>> <a href="drop-off.php">The Brik Market</a></div>
-
-				</div>
-			</div>
+		
 
 
 			<div id="slider4">

@@ -9,7 +9,7 @@
         <div id="slider-textbox">
             <div id="slider-heading">Build with Ecobricks</div>
             <div id="slider-date">Sept 9th, 2022 Updated | Core Content</div>
-            Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
+            <div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
             <a class="module-btn" href="build.php">Learn More</a>	
 		</div>
 	
