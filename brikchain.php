@@ -69,7 +69,7 @@
 						
 			
 						echo '<img src="svgs/aes-brk.svg?v=2" style="width:70%; margin-top:25px;"><p style="font-size: 1.2em; margin-top:5px;">Current value of 1 Brikcoin:</p>
-						<p><span class="courier" style="font-size: 1.5em;"><span class="blink">⬤<span style="font-size: 0.4em;"> </span></span>'.$row["plastic_value_g_per_brk"].'<span style="font-size: 0.4em;"> </span>g<span style="font-size: 0.4em;"> </span>AES</span></p>';
+						<p><span class="courier" style="font-size: 1.5em;"><span class="blink">⬤<span style="font-size: 0.4em;"> </span></span>'.$row["plastic_value_g_per_brk"].'<span style="font-size: 0.4em;"> </span>g<span style="font-size: 0.2em;"> </span>AES</span></p>';
 						echo '<p style="font-size: 1.2em; margin-top:10px;">Total Circulation:<br><b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;BRK</b></span></p>' ; 
 						echo '<p style="font-size: 0.9em; margin-top:10px;">Unlike other currencies brikcoins <a href="/brikcoins.php">(BRK / ß)</a> are based in ecological value as measured in kilograms of authenticated ecobrick sequestered (<a href="sequestered.php">AES</a>)plastic.</p>
 						<p style="color: white; font-size: 0.8em; margin-top:10px;"> Updated every 15 minutes</p></div>' ; 
@@ -183,7 +183,8 @@
 			<h4>AES Plastic Valuations</h4>
 	
 			<h6>Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the block chain (see the GEA's yearly <a href="open-books.php">Open Books</a> financial accounting)</h6>
-			<div class="ecobrick-data"><p>🟠 Data still in migration</p></div>
+			<div class="ecobrick-data"><p><span class="blink">⬤  </span> Brikcoin Data live</p></div>
+			<div class="ecobrick-data"><p><span class="blink">⬤  </span> OpenBooks Accounting live</p></div><div class="ecobrick-data"><p>🟠 Ecobrick weight data estimated (pendind archival transfer)</p></div>
 			</div>
 			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 
