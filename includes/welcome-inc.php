@@ -43,7 +43,7 @@ _END;?>
 
 #clouds {
   background-color: #00ffff;
-  background: url("https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v3") center top;
+  /*background: url("https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v3") center top;*/
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
