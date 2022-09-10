@@ -152,7 +152,7 @@
 				<table id="ecobricks" class="display" style="width:100%">
 					<thead>
 						<tr>
-							<th style="width: 150px !important;">Brik</th>
+							<th style="max-width: 150px !important;">Brik</th>
 							<th>Authenticated</th>
 							<th>AES Plastic</th>
 							<th>Value</th>
@@ -162,7 +162,7 @@
 					</thead>
 					<tfoot>
 						<tr>
-							<th style="width: 150px !important;">Brik</th>
+							<<th style="max-width: 150px !important;">Brik</th>
 							<th>Logged</th>
 							<th>AES Plastic</th>
 							<th>Value</th>
