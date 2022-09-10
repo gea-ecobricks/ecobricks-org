@@ -275,9 +275,9 @@
                         
                          <p>Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our spaces We also account for our give and take of plastic and CO2.</p>
 
-						 <p>  <span class="blink">◉ </span>All our financial transaction are maitained in <a href="brikchain.php">Our Open Books.</a></p> 
+						 <p>  🟢 All our financial transaction are maitained in <a href="brikchain.php">Our Open Books.</a></p> 
 
-						<p>	<span class="blink">◉ </span>Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</p>
+						<p>	🟢 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</p>
 
 						<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</p><br><br>
                     

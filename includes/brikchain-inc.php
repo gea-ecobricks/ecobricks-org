@@ -113,9 +113,10 @@ $(document).ready(function() {
 
 <style>
 
+@media screen and (max-width: 700px) { 
 #block1, #block2, #block3, #block4, #block5, #block6 {
 	overflow: scroll ;
-
+}
 }
 
 #side-module-desktop-mobile {
