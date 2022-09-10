@@ -37,13 +37,42 @@ _END;?>
 
 <style>
 
+.slider-btn {    
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Mulish;
+    color: #fff;
+    font-size: 1.6em;
+    background: #00000075;
+    padding: 8px 15px;
+    text-decoration: none;
+    overflow-x: none;
+    margin: 30px 15px 0px 0px;
+    float: right;
+}
 
+.slider-btn:hover {
+    background: #00000040;
+}
 
 @media screen and (min-width: 770px) { 
 
 #clouds {
   background-color: #00ffff;
-  /*background: url("https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v3") center top;*/
+  /*background: url("https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v3") center top;*/.slider-btn {-webkit-border-radius: 10;
+-moz-border-radius: 10;
+border-radius: 10px;
+font-family: Mulish;
+color: #fff;
+font-size: 1.6em;
+background: #00000075;
+padding: 8px 15px;
+text-decoration: none;
+overflow-x: none;
+margin: 30px 15px 0px 0px;
+float: right;
+}
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
