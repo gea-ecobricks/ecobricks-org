@@ -24,20 +24,14 @@
 	
 		<div id="sliders">
 
-		<?php require_once ("slides/slide-1-$lang.php");?>
+			<?php require_once ("slides/slide-1-$lang.php");?>
 
-		<?php require_once ("slides/slide-2-$lang.php");?>
+			<?php require_once ("slides/slide-2-$lang.php");?>
 
-		<?php require_once ("slides/slide-3-$lang.php");?>
+			<?php require_once ("slides/slide-3-$lang.php");?>
 
-
+			<?php require_once ("slides/slide-4-$lang.php");?>
 		
-
-
-			
-		
-
-
 		</div>
 
 	<!--FIRST CONTENT SECTION-->
