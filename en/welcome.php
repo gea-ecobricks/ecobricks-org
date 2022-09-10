@@ -26,16 +26,7 @@
 
 		<?php require_once ("slides/slide-1-$lang.php");?>
 
-
-			<div id="slider2">
-			<div id="slider-image"><img src="svgs/building-methods.svg" style="width: 85%;"></div>	
-				<div id="slider-textbox">
-					<div id="slider-heading">Build with Ecobricks</div>
-					<div id="slider-date">GEA Updated Content</div>
-					<div id="slider-body">Learn about the various ways to put ecobricks to good use in everything from module to earth construction.</div>
-					<div id="slider-link"><a href="build.php">Ecobrick Building</a></div>
-				</div>
-			</div>
+		<?php require_once ("slides/slide-2-$lang.php");?>
 
 
 			<div id="slider3">
