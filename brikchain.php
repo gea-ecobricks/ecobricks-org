@@ -138,7 +138,7 @@
 			<div class="opener-header-text">
 				<h4>Authenticated Ecobricks</h4>
 				<h6>All the ecobricks authenticated and archived on chain.</h6>
-				<div class="ecobrick-data"><p>🟠 Not yet live, data still in migration</p></div>
+				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live</p></div><div class="ecobrick-data"><p>🟠 Historical Data pending transfer</p></div>
 			</div>	
 		
 			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
