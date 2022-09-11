@@ -309,8 +309,7 @@ Content Page template: v.1.0.0-->
                     <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                 </div>
             </div>
-        </div>
-</div>
+
     
 	
 
