@@ -33,13 +33,28 @@ _END;?>
 
 <STYLE>
 
+
+@media screen and (min-width: 700px) { 
 .flex-gallery {
     display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 100%;
+  width: 85%;
   margin-bottom: 30px;
 }
+}
+
+@media screen and (max-width: 699px) { 
+.flex-gallery {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 10%;
+  margin-bottom: 20px;
+}
+}
+
+
 
 .gal-photo {
     padding: 10px;
