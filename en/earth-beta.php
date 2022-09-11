@@ -249,40 +249,32 @@ Content Page template: v.1.0.0-->
                 </div>
 			</div>
 
-            <a name="CUSTODIAN"></a>
-            <div class="reg-content-block" id="block7">
-                <div class="opener-header"> 
-                    <div class="opener-header-text">
-                        <h4>Ecobrick Building Custodianship Agreements</h4>
-                        <h5>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site.</h5>
-                        <br>
+            
+                 
+            <div class="row">
+                
+                <div class="main2">
+                    <div class="page-paragraph-reg">
+                 
+                        <h4>A Safe Passage Through Time</h4>
+                        
+                         <p>Building with ecobricks is a significant responsibility.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
+                        <p>  Planning for the maintenance and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p>
+
+                        <p>Earth building is in full resonance with our principles — it is simple and replicable, non-capital, non-petroleum, collaboration powered, cradle-to-cradle and potently regenerative. Earth building techniques are gender and age transcendent:  involving men and women, young and old, and everyone in between in the building process.</p>
+                    
+                        <br><p>
+                    
+                        <a class="action-btn" href="/earth-methods">🚀 Earth & Ecobrick Methods</a>
+                        <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</a></p>    
+                    
                     </div>
-                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
                 </div>
 
-                <div id="preclosed7">
-
-                <img src="photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
-
-                    <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site. These terms of transfer agreements must lay out the responsibilities for the construction’s maintenance and end as well as the responsibilities that the site’s custodian acquires for the construction’s ecobricks. This agreement must account for the eventual removal and reuse of the ecobricks.</p>
-
-                    <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement. Download the PDF and ODG versions here:</p>
-                    <br>
-                    <hr>
-                    <p>📄 <b>GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
-                    <ul> 
-                        <li>📥 Sample – PDF – 500kb<br></li>
-                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
-                    </ul>
-                    <hr>
-                    <p><b>Template GEA Earth & Ecobrick Building Custodianship Agreement</p>
-                    <ul>
-                        <li>📄 Editable Template – ODG – 1MB<br></li>
-                        <li>📥 Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
-                    </ul>
+                <div class="side2">
+                    <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                 </div>
             </div>
-        
 </div>
 
 
