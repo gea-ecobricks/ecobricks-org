@@ -155,8 +155,8 @@ Content Page template: v.1.0.0-->
 				</div>
 
 				<div id="preclosed4">
-
-                    <img src="photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
+                
+                    <img src="photos/earth-collab.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
             
 					<p>A common misunderstanding is to confuse building with ecobricks with conventional or commercial building methods: paying builders, using cement and machines, etc.</p>
 
@@ -169,146 +169,9 @@ Content Page template: v.1.0.0-->
                     
 				</div>
 			</div>
+</div>
 
 
-			<a name="LONGTERM"></a>
-            <div class="reg-content-block" id="block5">
-                <div class="opener-header">    
-                    <div class="opener-header-text">
-                        <h4>A safe Journey through time</h4>
-                        <h5>Plastic is potentially a toxic material.  When working and building with plastic it is essential to plan ahead for the next thousand years.  Ecobricking and Earth Building are a way to secure plastic within a safe long-term trajectory.</h5>
-                        <br>
-                    </div>
-                    <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
-                </div>
-
-                <div id="preclosed5">
-
-                    <img src="photos/green-space.jpg" width="100%" loading="lazy" alt="green space balili school food forest park">
-    
-                    <p>The danger of plastic comes from its exposed surface area.  To the extent that plastic’s surface area is exposed to the elements, it will steadily break down over time into smaller and smaller pieces (microplastics) and leach toxins.  By packing and covering ecobricks we keep the plastic safe and secure.</p>
-
-                    <p>Packing plastic into an ecobrick results in the terminal reduction of net surface area. An ecobrick is essentially many many square meters of plastic compressed into a very small space!  Using earth to build with ecobricks is a way to further secure plastic.</p>
-
-                    <p>Earth building involves making a mortar (we call it ‘cob’) to completely encase ecobricks. This way not a single square-centimeter of plastic is exposed! Without exposure to sun, friction, or heat the plastic inside the ecobricks can no longer degrade in any way.</p>
-
-                    <p>It is also important to consider the abandonment of projects. Cob, in contrast to cement, can be more readily populated by plants. Even if long-term structures collapse, earth covered ecobricks have no way to degrade and will remain intact indefinitely. The crumbled earth gradually becomes fertile ground for plants, trees, and forest to cover.</p>
-
-                    <p> By building with earth, using cradle-to-cradle principles, we point our ecobricks towards a long-term journey through time that maximizes its chance of indefinitely securing plastic.</p>
-
-                    <p>We call this trajectory ‘plastic sequestration‘.</p>
-                    
-                    <hr>
-                    <br>
-                    <h5>ℹ️ Learn more about our <a href="/sequestration.php">plastic sequestration</a></h5>
-
-                </div>
-            </div>
-
-        
-
-            <a name="MAINTENANCE"></a>
-            <div class="reg-content-block" id="block6">
-				<div class="opener-header">
-					<div class="opener-header-text">
-					<h4>Maintenance</h4>
-					<h5>It is important not to forget our responsibility when building with plastic.</h5>
-					<br>
-					</div>
-					<button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
-				</div>
-
-				<div id="preclosed6">   
-
-                    <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintenance and the end of the construction is a key part of plastic sequestration!</p>
-                   
-                    <p>The Earth Building technique can completely cover ecobricks, effectively securing them indefinitely in the construction.  This keeps them safe from UV light and other forms of degradation.  After 10, 20 or 100 years, when your structure comes to its end (as everything eventually does) the ecobricks can be extricated undamaged and fully repurposed.</p>
-                    <br>
-                    <hr>
-            
-                    <h4>🟡 Maintenance</h4>
-                    <p>Earth modules need to be regularly inspected.  Cracks and breaks to the wall are best quickly repaired to avoid erosion to the structure.</p>
-                    
-                    <hr>
-
-                    <h4>🟢 Next Life</h4>
-                    <p>  Earth and ecobrick constructions disassemble into crumbled cob mortar which can be returned to the earth without problem (or reused in another earth construction!).  The ecobricks can be removed from the crumbled cob to be reused in any way.</p>
-                    
-                    <hr>
-                    <h4>🔴 Caution</h4>
-                    <p>  It’s outside of the corporate construction paradigm: your bank won’t give you a mortgage, insurance companies won’t cover it, and your hands and feet will get dirty.
-                    <p>
-                    <hr>
-                    <br><br>
-
-                    <h4>Long-Term maintenance</h4>
-                    <p> Earth and Ecobrick builds often represent large amounts of secured plastic.  When building on government or community land, it is key to establish a long term maintenance agreement with the custodians of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks.<p> 	
-                    <p>Access our free <a href="/earth-methods">Community Custodianship Agreements</a> for Ecobrick Earth Parks and Buildings.</p>		
-                    <br><br>
-			
-                </div>
-			</div>
-
-            <a name="CUSTODIAN"></a>
-            <div class="reg-content-block" id="block7">
-                <div class="opener-header"> 
-                    <div class="opener-header-text">
-                        <h4>Ecobrick Building Custodianship Agreements</h4>
-                        <h5>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site.</h5>
-                        <br>
-                    </div>
-                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
-                </div>
-
-                <div id="preclosed7">
-
-                    <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site. These terms of transfer agreements must lay out the responsibilities for the construction’s maintenance and end as well as the responsibilities that the site’s custodian acquires for the construction’s ecobricks. This agreement must account for the eventual removal and reuse of the ecobricks.</p>
-
-                    <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement. Download the PDF and ODG versions here:</p>
-                    <br>
-                    <hr>
-                    <p>📄 <b>GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
-                    <ul> 
-                        <li>📥 Sample – PDF – 500kb<br></li>
-                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
-                    </ul>
-                    <hr>
-                    <p><b>Template GEA Earth & Ecobrick Building Custodianship Agreement</p>
-                    <ul>
-                        <li>📄 Editable Template – ODG – 1MB<br></li>
-                        <li>📥 Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
-                    </ul>
-                </div>
-            </div>
-        
-
-            <br>
-            
-                 
-            <div class="row">
-                
-                <div class="main2">
-                    <div class="page-paragraph-reg">
-                 
-                        <h4>A Safe Passage Through Time</h4>
-                        
-                         <p>Building with ecobricks is a significant responsibility.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
-                        <p>  Planning for the maintenance and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p>
-
-                        <p>Earth building is in full resonance with our principles — it is simple and replicable, non-capital, non-petroleum, collaboration powered, cradle-to-cradle and potently regenerative. Earth building techniques are gender and age transcendent:  involving men and women, young and old, and everyone in between in the building process.</p>
-                    
-                        <br><p>
-                    
-                        <a class="action-btn" href="/earth-methods">🚀 Earth & Ecobrick Methods</a>
-                        <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</a></p>    
-                    
-                    </div>
-                </div>
-
-                <div class="side2">
-                    <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
-                </div>
-            </div>
 
     
 	
