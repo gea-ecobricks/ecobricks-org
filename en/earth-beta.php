@@ -250,6 +250,42 @@ Content Page template: v.1.0.0-->
 			</div>
 
             
+            <a name="CUSTODIAN"></a>
+            <div class="reg-content-block" id="block7">
+                <div class="opener-header"> 
+                    <div class="opener-header-text">
+                        <h4>Ecobrick Building Custodianship Agreements</h4>
+                        <h5>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site.</h5>
+                        <br>
+                    </div>
+                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+                </div>
+
+                <div id="preclosed7">
+
+                    <img src="photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
+
+                    <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site. These terms of transfer agreements must lay out the responsibilities for the construction’s maintenance and end as well as the responsibilities that the site’s custodian acquires for the construction’s ecobricks. This agreement must account for the eventual removal and reuse of the ecobricks.</p>
+
+                    <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement. Download the PDF and ODG versions here:</p>
+                    <br>
+                    <hr>
+                    <p>📄 <b>GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
+                    <ul> 
+                        <li>📥 Sample – PDF – 500kb</li>
+                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
+                    </ul>
+                    <hr>
+                    <p><b>Template GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
+                    <ul>
+                        <li>📄 Editable Template – ODG – 1MB</li>
+                        <li>📥 Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+
+            <br>
                  
             <div class="row">
                 
