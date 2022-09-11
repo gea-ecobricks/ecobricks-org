@@ -32,17 +32,16 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>By using time-tested local building traditions and the power of community collaboration, we can safely secure plastic while putting it to good use in earthen constructions.</p>
+				<p>Combining time-tested local building traditions with ecobricks, we can safely secure our plastic for the long-term in beautiful and functional earthen constructions.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
-                        <p>Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors.  Almost every continent has its ancient methods that have used earth to build structures that have stood for centuries.  By adapting these methods and maintaining their principles, we can put ecobricks to good use.  Not only can we build beautiful, strong and resilient structures, we can secure plastic locally and indefinitely– ensuring that it is on a path that keeps it from ever contaminating the environment.</p>
-
+                        <p>Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors.  Around the world almost every region has its ancient methods of using the local earth to build structures.  Many of these structures have stood for centuries, some for mellenia!  By adapting these methods, we can put our ecobricks to good use within them to guide their shape and give them strength.</p>
                         
+                        <p>Not only can we build beautiful, strong and resilient structures, we can secure plastic locally and indefinitely.  This ensures that our plastic, gardens and homes contributes to our children flourishing-- and the children of the other species in the ecosystems of which we are part.</p>
 
-                        <p>Read on to learn about the regenerative principles that guide earth building!</p>
 							
             </div>	
 
