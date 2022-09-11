@@ -75,7 +75,7 @@ Content Page template: v.1.0.0-->
 
                 <p>Earth building contrasts starkly with today’s conventional construction methods.</p>
                 <ul>
-                    <li>Whereas commercial construction methods rely on high energy, industrial process and are ecologically damaging, earthen building is ecologically enriching.</li>
+                    <p><li>Whereas commercial construction methods rely on high energy, industrial process and are ecologically damaging, earthen building is ecologically enriching.</li></p>
                     <li>Whereas commercial construction is powered by petroleum energy and dependent on capital, earthen constructions strives to be free of both.</li>  
                     <li>Wheras, commercial construction loosens plastic and CO2 into the biosphere, earthen building strives to secure them.</li>
                     <li>Whereas commercial construction is has a top-down owner/boss/employee structure, earthen building strives to involve everyone in the community.</li>
@@ -250,7 +250,11 @@ Content Page template: v.1.0.0-->
                 <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement. Download the PDF and ODG versions here:</p>
 
     <p><ul>
-        <li>Sample GEA Earth & Ecobrick Building Custodianship Agreement ENGLISH – PDF – 500kb</li>
+        <li><p>📄 <b>GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
+            <p>Sample – PDF – 500kb</p>
+            <p>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi">📥 ENGLISH</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP">📥 INDONESIA</a>
+
+            </li>
         <li>Template GEA Earth & Ecobrick Building Custodianship Agreement ENGLIGH – ODG (editable) – 100kb</li>
         <li>Sample GEA Earth Building Terms of Transfer INDONESIAN – PDF</li>
         <li>Template GEA Earth Building Terms of Transfer Agreement INDONESIAN – ODG (editable) – 2.1 MB </li>

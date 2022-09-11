@@ -38,9 +38,7 @@ _END;?>
 .flex-gallery {
     display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 85%;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 }
 
@@ -48,8 +46,7 @@ _END;?>
 .flex-gallery {
     display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 10%;
+  width: 100%;
   margin-bottom: 20px;
 }
 }
