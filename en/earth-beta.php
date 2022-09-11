@@ -206,6 +206,83 @@ Content Page template: v.1.0.0-->
             </div>
 
         
+
+            <a name="MAINTENANCE"></a>
+            <div class="reg-content-block" id="block6">
+				<div class="opener-header">
+					<div class="opener-header-text">
+					<h4>Maintenance</h4>
+					<h5>It is important not to forget our responsibility when building with plastic.</h5>
+					<br>
+					</div>
+					<button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
+				</div>
+
+				<div id="preclosed6">   
+
+                    <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintenance and the end of the construction is a key part of plastic sequestration!</p>
+                   
+                    <p>The Earth Building technique can completely cover ecobricks, effectively securing them indefinitely in the construction.  This keeps them safe from UV light and other forms of degradation.  After 10, 20 or 100 years, when your structure comes to its end (as everything eventually does) the ecobricks can be extricated undamaged and fully repurposed.</p>
+                    <br>
+                    <hr>
+            
+                    <h4>🟡 Maintenance</h4>
+                    <p>Earth modules need to be regularly inspected.  Cracks and breaks to the wall are best quickly repaired to avoid erosion to the structure.</p>
+                    
+                    <hr>
+
+                    <h4>🟢 Next Life</h4>
+                    <p>  Earth and ecobrick constructions disassemble into crumbled cob mortar which can be returned to the earth without problem (or reused in another earth construction!).  The ecobricks can be removed from the crumbled cob to be reused in any way.</p>
+                    
+                    <hr>
+                    <h4>🔴 Caution</h4>
+                    <p>  It’s outside of the corporate construction paradigm: your bank won’t give you a mortgage, insurance companies won’t cover it, and your hands and feet will get dirty.
+                    <p>
+                    <hr>
+                    <br><br>
+
+                    <h4>Long-Term maintenance</h4>
+                    <p> Earth and Ecobrick builds often represent large amounts of secured plastic.  When building on government or community land, it is key to establish a long term maintenance agreement with the custodians of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks.<p> 	
+                    <p>Access our free <a href="/earth-methods">Community Custodianship Agreements</a> for Ecobrick Earth Parks and Buildings.</p>		
+                    <br><br>
+			
+                </div>
+			</div>
+
+            <a name="CUSTODIAN"></a>
+            <div class="reg-content-block" id="block7">
+                <div class="opener-header"> 
+                    <div class="opener-header-text">
+                        <h4>Ecobrick Building Custodianship Agreements</h4>
+                        <h5>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site.</h5>
+                        <br>
+                    </div>
+                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+                </div>
+
+                <div id="preclosed7">
+
+                <img src="photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
+
+                    <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site. These terms of transfer agreements must lay out the responsibilities for the construction’s maintenance and end as well as the responsibilities that the site’s custodian acquires for the construction’s ecobricks. This agreement must account for the eventual removal and reuse of the ecobricks.</p>
+
+                    <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement. Download the PDF and ODG versions here:</p>
+                    <br>
+                    <hr>
+                    <p>📄 <b>GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
+                    <ul> 
+                        <li>📥 Sample – PDF – 500kb<br></li>
+                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
+                    </ul>
+                    <hr>
+                    <p><b>Template GEA Earth & Ecobrick Building Custodianship Agreement</p>
+                    <ul>
+                        <li>📄 Editable Template – ODG – 1MB<br></li>
+                        <li>📥 Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
+                    </ul>
+                </div>
+            </div>
+        
 </div>
 
 
