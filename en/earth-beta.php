@@ -283,6 +283,30 @@ Content Page template: v.1.0.0-->
                     </ul>
                 </div>
             </div>
+
+            <a name="FEATURED"></a>
+            <div class="reg-content-block" id="block8">
+                <div class="opener-header"> 
+                    <div class="opener-header-text">
+                        <h4>Featured Earth & Ecobrick Projects</h4>
+                        <h5>The GEA leads trainings and builds around the world.  Check out our featured projects.</h5>
+                        <br>
+                    </div>
+                    <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
+                </div>
+
+                <div id="preclosed8">
+
+                <br>   
+                <div class="flex-gallery" max-width="100%">
+                    <div class="gal-photo"><a href="https://ecobricks.org/jabung/"><img src="photos/jabung1.jpg" height="190px" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java"></a><p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p></div>
+                    <div class="gal-photo"><a href="https://ecobricks.org/training336/"><img src="photos/ubudraw1.jpg" height="190px" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia"></a><p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p></div>
+                    <div class="gal-photo"><a href="photos/prtmadog-500px.webp"><img src="photos/prtmadog-500px.webp" height="190px" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK "></a><p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK </p></div>
+                </div>
+
+
+                </div>
+            </div>
         
 
             <br>
@@ -344,7 +368,14 @@ Content Page template: v.1.0.0-->
 				<a class="module-btn" href="/circular">Learn More</a>
 			</div>
 
-		
+            <div id="side-module-desktop-mobile">
+				<img src="pngs/transcaste-500px.png" width="80%" loading="lazy" alt="eco brick transcaste construction and building briks.">
+				<h4>Transcate Collaboration</h4>
+				<h5>In contrast to conventional construction, Earth and ecobricking building is transcaste, meaning that it is accessible to men and women, young and old, black and white, and everyone in between!</h5><br>
+				<a class="module-btn" href="principles.php">Learn More</a>
+			</div>
+
+            
 
 		</div>
 
