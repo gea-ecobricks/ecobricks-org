@@ -65,9 +65,9 @@ Content Page template: v.1.0.0-->
               
 
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" height="190px" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
-						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" height="190px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
-						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" height="190px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling</p></div>
+						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" height="175px" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
+						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
+						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" height="175px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling</p></div>
 					</div>
                     
 
@@ -75,10 +75,10 @@ Content Page template: v.1.0.0-->
 
                 <p>Earth building contrasts starkly with today’s conventional construction methods.</p>
                 <ul>
-                    <p><li>Whereas commercial construction methods rely on high energy, industrial process and are ecologically damaging, earthen building is ecologically enriching.</li></p>
-                    <li>Whereas commercial construction is powered by petroleum energy and dependent on capital, earthen constructions strives to be free of both.</li>  
-                    <li>Wheras, commercial construction loosens plastic and CO2 into the biosphere, earthen building strives to secure them.</li>
-                    <li>Whereas commercial construction is has a top-down owner/boss/employee structure, earthen building strives to involve everyone in the community.</li>
+                    <li><p>Whereas commercial construction methods rely on high energy, industrial process and are ecologically damaging, earthen building is ecologically enriching.</p></li>
+                    <li><p>Whereas commercial construction is powered by petroleum energy and dependent on capital, earthen constructions strives to be free of both.</p></li>  
+                    <li><p>Wheras, commercial construction loosens plastic and CO2 into the biosphere, earthen building strives to secure them.</p></li>
+                    <li><p>Whereas commercial construction is has a top-down owner/boss/employee structure, earthen building strives to involve everyone in the community.</p></li>
                 </p>
                 
                
@@ -249,18 +249,21 @@ Content Page template: v.1.0.0-->
 
                 <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement. Download the PDF and ODG versions here:</p>
 
-    <p><ul>
-        <li><p>📄 <b>GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
-            <p>Sample – PDF – 500kb</p>
-            <p>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi">📥 ENGLISH</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP">📥 INDONESIA</a>
-
-            </li>
-        <li>Template GEA Earth & Ecobrick Building Custodianship Agreement ENGLIGH – ODG (editable) – 100kb</li>
-        <li>Sample GEA Earth Building Terms of Transfer INDONESIAN – PDF</li>
-        <li>Template GEA Earth Building Terms of Transfer Agreement INDONESIAN – ODG (editable) – 2.1 MB </li>
-    </ul></p>
-                    <br>
+                <br>
                     <hr>
+
+       <p>📄 <b>GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
+        <ul> 
+            <li>📥 Sample – PDF – 500kb<br></li>
+            <li><p>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi">🇬🇧 ENGLISH</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP">🇮🇩 INDONESIA</a></li>
+        </ul>
+        
+        <p>📄 <b>Template GEA Earth & Ecobrick Building Custodianship Agreement</p>
+        <ul>
+            <li>📥 Sample – ODG – 1MB<br></li>
+            <li><p>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi">🇬🇧 ENGLISH</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP">🇮🇩 INDONESIA</a></li>
+        </ul>
+                    
 
                     
                 </div>
