@@ -374,8 +374,10 @@ Content Page template: v.1.0.0-->
 				<h5>In contrast to conventional construction, Earth and ecobricking building is transcaste, meaning that it is accessible to men and women, young and old, black and white, and everyone in between!</h5><br>
 				<a class="module-btn" href="principles.php">Learn More</a>
 			</div>
+            ding?
 
             <?php require_once ("side-modules/ecobrick-of-the-month.php");?>
+            ding?
 
 
             
