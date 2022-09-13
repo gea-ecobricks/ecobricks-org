@@ -30,11 +30,9 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
             echo'ding2';
         
         
-            } 
-            
         
-     //   } else {
-     //       echo "Failed to connect to Brikchain</div>";
-      //  }
+        } else {
+            echo "Failed to connect to database";
+        }
         
         ?>
