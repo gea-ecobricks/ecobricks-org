@@ -28,4 +28,4 @@
  <meta name="author" content="Global Ecobrick Alliance" />
  <meta name="twitter:card" content="summary" />
  <meta name="twitter:label1" content="Est. reading time" />
- <meta name="twitter:data1" content="6 minutes" /> 
+ <meta name="twitter:data1" content="7 minutes" /> 
