@@ -6,7 +6,7 @@ Content Page template: v.1.0.1-->
 <?php require_once ("includes/brickable-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("under-construction.php");?>-->
+<?php require_once ("under-construction.php");?>
 
 <!--PAGE BANNER-->
 
@@ -32,7 +32,7 @@ Content Page template: v.1.0.1-->
 			<div class="lead-page-paragraph">
 
 			
-			<p>The Brickable Designator Icon can be placed on single-use plastics to designate its next life as an ecobrick.  our free Kit contains everything you need to make your packaging and products circular.</p>
+			<p>The Brickable Designator Icon can be placed on single-use plastics to designate its next life as an ecobrick.  Our free Kit contains everything you need to make your packaging and products circular and spiral.</p>
 				
 			
 			</div>
