@@ -377,7 +377,7 @@ Content Page template: v.1.0.0-->
             ding?
 
             <?php require_once ("side-modules/ecobrick-of-the-month.php");?>
-            ding?
+            
 
 
             
