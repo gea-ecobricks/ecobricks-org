@@ -37,6 +37,24 @@ _END;?>
 
 <style>
 
+@media screen and (max-width: 770px) { 
+.slider-btn {    
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Mulish;
+    color: #fff;
+    font-size: 1.3em;
+    background: #00000065;
+    padding: 6px 15px;
+    text-decoration: none;
+    overflow-x: none;
+    margin: 20px 5px 0px 0px;
+    float: right;
+}
+}
+
+@media screen and (min-width: 770px) { 
 .slider-btn {    
     -webkit-border-radius: 10;
     -moz-border-radius: 10;
@@ -50,6 +68,7 @@ _END;?>
     overflow-x: none;
     margin: 30px 15px 0px 0px;
     float: right;
+}
 }
 
 .slider-btn:hover {
