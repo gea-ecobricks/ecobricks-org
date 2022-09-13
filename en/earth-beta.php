@@ -375,7 +375,8 @@ Content Page template: v.1.0.0-->
 				<a class="module-btn" href="principles.php">Learn More</a>
 			</div>
 
-            
+            <?php require_once ("side-modules/ecobrick-of-the-month.php");?>
+
 
             
 
