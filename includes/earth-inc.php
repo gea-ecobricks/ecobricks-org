@@ -26,7 +26,7 @@ _END;?>
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("meta/build-$lang.php");?>
+<?php require_once ("meta/earth-beta-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
