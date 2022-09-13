@@ -116,6 +116,8 @@ deployment:
   - /bin/cp -R footers $DEPLOYPATH
   - /bin/cp -R includes $DEPLOYPATH
   - /bin/cp -R css $DEPLOYPATH
+  - /bin/cp -R slides $DEPLOYPATH
+  - /bin/cp -R side-modules $DEPLOYPATH
 
   - /bin/cp .htaccess $DEPLOYPATH
   - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -159,6 +161,8 @@ deployment:
   - /bin/cp -R footers $DEPLOYPATH
   - /bin/cp -R includes $DEPLOYPATH
   - /bin/cp -R css $DEPLOYPATH
+  - /bin/cp -R slides $DEPLOYPATH
+  - /bin/cp -R side-modules $DEPLOYPATH
 
   - /bin/cp .htaccess $DEPLOYPATH
   - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -202,6 +206,8 @@ deployment:
   - /bin/cp -R footers $DEPLOYPATH
   - /bin/cp -R includes $DEPLOYPATH
   - /bin/cp -R css $DEPLOYPATH
+  - /bin/cp -R slides $DEPLOYPATH
+  - /bin/cp -R side-modules $DEPLOYPATH
 
   - /bin/cp .htaccess $DEPLOYPATH
   - /bin/cp .cpanel.yml $DEPLOYPATH
