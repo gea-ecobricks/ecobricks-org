@@ -44,12 +44,12 @@ _END;?>
     border-radius: 8px;
     font-family: Mulish;
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.1em;
     background: #00000065;
-    padding: 6px 15px;
+    padding: 5px 14px;
     text-decoration: none;
     overflow-x: none;
-    margin: 20px 5px 0px 0px;
+    margin: 26px 5px 0px 0px;
     float: right;
 }
 }
@@ -430,12 +430,13 @@ margin: auto;
 @media screen and (max-width: 769px) {
 #slider-image {
     display: block;
-    width: 175px;
-    min-width: 175px;
-    min-height:175px;
+    width: 185px;
+    min-width: 185px;
+    min-height:185px;
     margin: auto;
-    margin-right: 10px;
-    margin-bottom: -28px;
+    margin-right: 5px;
+    margin-bottom: -35px;
+    margin-top: 15px;
 
 
 }
