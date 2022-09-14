@@ -202,7 +202,17 @@ Content Page template: v.1.0.1-->
 		<div class="page-paragraph">
 			<br><br>
 			<h2><p>Get Started!</p></h2>
-			<p>Download the Brickable Designator Kit today to use on your legacy plastic products and packaging.</p>
+			<p>Download the Brickable Designator Kit today to use on your legacy plastic products and packaging.  The ZIP package includes:</p>
+			<ul>
+				<li>Icon & Sticker Design Elements (Vector / PDF)</li>
+				<li>Recommended colors (Vector / PDF)</li>
+				<li>Example of A3 sticker printing (JPEG)</li>
+				<li>High, medium and low resolution icons (PNG)</li>
+				<li>Terms and Conditions of use (TXT)</li>
+				<li>Creative Commons Attribution-NoDerivatives 4.0 International License (TXT/PNG)</li>
+			<ul> 
+
+
 			<br>
 			<p><a class="action-btn" href="https://files.ecobricks.org/s/oq9xPkNksf2ZPNX" target="_blank">🚀 Download Kit</a></p>
 			<p style="font-size: 0.85em; margin-top:20px;">ZIP file | 3.2MB </a></p>

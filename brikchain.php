@@ -110,7 +110,7 @@
 							<th>Sender</th>	
 							<th>Type</th>
 							<th>Block</th>
-							<th>Transfered</th>
+							<th>Shard</th>
 							<th>Ecobrick</th>
 
 						</tr>
@@ -122,7 +122,7 @@
 							<th>Sender</th>	
 							<th>Type</th>
 							<th>Block</th>
-							<th>Transfered</th>
+							<th>Shard</th>
 							<th>Ecobrick</th>
 						</tr>
 					</tfoot>
@@ -182,7 +182,7 @@
 			<div class="opener-header-text">
 			<h4>AES Plastic Valuations</h4>
 	
-			<h6>Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the block chain (see the GEA's yearly <a href="open-books.php">Open Books</a> financial accounting)</h6>
+			<h6>Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the blockchain (see the GEA's yearly <a href="open-books.php">Open Books</a> financial accounting)</h6>
 			<div class="ecobrick-data"><p><span class="blink">⬤  </span> Brikcoin Data live</p></div>
 			<div class="ecobrick-data"><p><span class="blink">⬤  </span> OpenBooks Accounting live</p></div><div class="ecobrick-data"><p>🟠 Ecobrick weight data estimated (pending archival transfer)</p></div>
 			</div>
@@ -202,12 +202,25 @@
 
 			if ($result->num_rows > 0) {
 			
-				echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Authenticated</th><th>Calculated AES plastic</th><th>Tallied AES Plastic</th><th>GEA Year Expenses</th><th>1kg AES Value</th></tr>';
+				echo'<table id="brikchain" class="display"><tr>
+				<th>Year</th>
+				<th>BRK Generated</th>
+				<!--<th>Authenticated</th>-->
+				<th>Calculated AES plastic</th>
+				<!--<th>Tallied AES Plastic</th>-->
+				<th>GEA Year Expenses</th>
+				<th>1kg AES Value</th></tr>';
 			
 			// output data of each row
 			while($row = $result->fetch_assoc()) {
 				
-				echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["brick_count"]." ecobricks</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>"; 
+				echo "<tr>
+				<td>".$row["year"]."</td>
+				<td>".$row["total_brk"]."&#8202;ß</td>
+				<!--<td>".$row["brick_count"]." ecobricks</td>-->
+				<td>".$row["calculated_weight"]."&#8202;Kg</td>
+				<!--<td>".$row["weight"]."&#8202;Kg</td>-->
+				<td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>"; 
 				}
 				echo "</table>";
 			} else {
