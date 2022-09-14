@@ -15,7 +15,7 @@ Content Page template: v.1.0.0-->
 		<div class="splash-heading">Ecobrick Top 10</div>
 	    <div class="splash-sub">This months highest ranked authenticated ecobricks!</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/svgs/tree-bench.svg" style="width: 85%">
+	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width: 85%">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -32,7 +32,7 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Every month we list the ecobricks that received the highest authentication scores from the global ecobrick community.</p>
+				<p>Every month we feature the ecobricks that received the highest authentication scores from the global ecobrick community.</p>
 			</div>
 	
 			<div class="page-paragraph">
@@ -51,19 +51,18 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 
     if ($result->num_rows > 0) {
 
-        echo '<div class="page-paragraph">';
+       
 
         // output data of each row
         while($row = $result->fetch_assoc()) {
 
             $row = $result->fetch_assoc();
             
-            echo '<a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="https://ecobricks.org/briks/ecobrick-'.$row["ecobrick_unique_id"].'-file.jpeg" width="80%" alt="Ecobrick '.$row["ecobrick_unique_id"].' basic pic"/></a>';
+            echo '<a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="https://ecobricks.org/briks/ecobrick-'.$row["ecobrick_unique_id"].'-file.jpeg" width="600px" alt="Ecobrick '.$row["ecobrick_unique_id"].' basic pic"/></a>';
             echo '<h4>Ecobrick of the Month!</h4>
             <h5><a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> made the top tens this month with a validation score of '.$row["final_validation_score"].'</h5><br>
             
-            <a class="module-btn" href="top-tens.php">Top Ten Briks</a><br>
-        </div>';
+            <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Check it out</a><br><br>';
             
         
         }

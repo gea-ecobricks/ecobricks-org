@@ -1,17 +1,17 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Earth & Ecobrick Building</title>
+<title>Top Ten Ecobricks of the Month</title>
 
 <meta name="keywords" content="eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, building, earth, cob, adobe, mud, building, construction, earth & ecobricks, earth and ecobrick buidling, plastic sequestration, sequestration building, sponge homes, green building, green construction, net-green building, net-zero building, techniques, regenerative, principles">
 
-<meta name="description" content="Build the greenest gardens, homes and structures using earth and ecobrick construction techniques and principles.">
+<meta name="description" content="Every month we feature the ecobricks that received the highest authentication scores from the global ecobrick community.">
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
 	<meta property="og:url"           content="https://ecobricks.org/en/earth-beta.php"/>
 	<meta property="og:type"          content="website">
- 	<meta property="og:title"         content="Earth & Ecobrick Building">
-  	<meta property="og:description"   content="Build the greenest gardens, homes and structures using earth and ecobrick construction techniques and principles."/>
+ 	<meta property="og:title"         content="Top Ten Ecobricks of the Month">
+  	<meta property="og:description"   content="BEvery month we feature the ecobricks that received the highest authentication scores from the global ecobrick community."/>
   	<meta property="og:image"         content="https://ecobricks.org/pngs/earth-home-banner-1000px.png"/>
   	<meta property="og:image:width" content="1000" />
 	<meta property="og:image:height" content="948" />

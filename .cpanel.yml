@@ -96,6 +96,7 @@ deployment:
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH  
   - /bin/cp top-tens.php $DEPLOYPATH
+  - /bin/cp earth-beta.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -142,6 +143,7 @@ deployment:
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH  
   - /bin/cp top-tens.php $DEPLOYPATH
+  - /bin/cp earth-beta.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -188,6 +190,7 @@ deployment:
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
+  - /bin/cp earth-beta.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -234,6 +237,7 @@ deployment:
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
+  - /bin/cp earth-beta.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
