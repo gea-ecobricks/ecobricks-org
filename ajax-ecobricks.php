@@ -31,7 +31,7 @@ $primaryKey = 'serial_no';
 // parameter represents the DataTables column identifier. In this case simple
 // indexes
 $columns = array(
-    array( 'db' => 'ecobrick_thumb_photo_url',
+    array( 'db' => 'ecobrick_full_photo_url',
     'dt' => 0,
 'formatter' => function( $d, $row ) {
     return '<img src="'.($d).'" width="100" alt="Ecobrick basic pic"/>';

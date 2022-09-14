@@ -20,65 +20,27 @@
 		<div id="clouds"><img src="webp/mountain-top2.webp" width="100%"></div>
 		<div id="cloud-banner"><img src="webp/vision-bottom4.webp" width="100%" height="31%"></div>
 
-
 	<!-- SLIDER CONTENT -->
+
+
+	<div id="sliders">
+
+		<?php require_once ("slides/slide-1-$lang.php");?>
+
+		<?php require_once ("slides/slide-2-$lang.php");?>
+
+		<?php require_once ("slides/slide-3-$lang.php");?>
+
+		<?php require_once ("slides/slide-4-$lang.php");?>
+
+	</div>
 	
-		<div id="sliders">
-
-		<div id="slider1">
-		<div id="slider-image"><img src="svgs/ecobrickable-square.svg?v0.3" alt="How to make an ecobrick" width="100%" height="102%" style="min-width:175px;"></div>
-		<div id="slider-textbox">
-				<div id="slider-heading">Directives Ecobrick</div>
-				<div id="slider-date">Normes mises à jour 2022</div>
-				<div id="slider-body">Saviez-vous qu'il existe plusieurs types d'écobriques ? Découvrez ce qui fait d'une écobrique une écobrique! </div><br>
-				<div id="slider-link"><a href="/what">À propos des écobricks</var></a></div>
-				</div>
-			</div>
-
-
-			<div id="slider2">
-
-			<div id="slider-image">
-				<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
-			</div>
-			<div id="slider-textbox">
-			<div id="slider-heading">Le marché Brik est lancé</div>
-			<div id="slider-date">juin 2022 | Annonce GEA</div>
-			<div id="slider-body">Après trois ans de développement, nous sommes ravis de lancer un lieu d'échange, d'échange, de troc et de dépôt de vos écobricks.</div>
-			<div id="slider-link">>> <a href="drop-off.php">Le Marché Brik</a></div>
-				</div>
-			</div>
-
-
-			<div id="slider3">
-				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brick enterprise program"></div>
-					<div id="slider-textbox">
-					<div id="slider-heading">Plate-forme de transition plastique pour les entreprises</div>
-					<div id="slider-date">Annonces GEA</div>
-					<div id="slider-body">Notre programme Catalyst pour les entreprises, les organisations et les projets écologiques est désormais en ligne ! Suivez, divulguez et accélérez votre transition plastique.</div>
-					<div id="slider-link"><a href="catalyst.php">En savoir plus</a></div>
-				</div>
-			</div>
-
-			
-			<div id="slider4">
-			<div id="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
-				<div id="slider-textbox">
-				<div id="slider-heading">Construire avec des Ecobricks</div>
-				<div id="slider-date">Contenu mis à jour par GEA</div>
-				<div id="slider-body">Découvrez les différentes façons d'utiliser les écobriques à bon escient dans tout, du module à la construction en terre.</div>
-				<div id="slider-link"><a href="build.php">Bâtiment en écobrick</a></div>
-				</div>
-			</div>
-
-
-		</div>
 
 	<!--FIRST CONTENT SECTION-->
 
 	<div id="content-sect1">
 	 	<div id="main-content">
-			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg"width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
+			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v=5" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<div class="big-header">Accélérer la transition plastique</div>
 			<div class="sub-text">
 			<p>Ensemble, nous pouvons garder notre plastique hors des océans. Avec les écobricks, nous pouvons sécuriser le plastique pour construire nos visions les plus vertes et déclencher une transition régénérative.</p>
