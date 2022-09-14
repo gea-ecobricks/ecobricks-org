@@ -137,10 +137,10 @@
 		<div class="opener-header">
 			<div class="opener-header-text">
 				<h4>Authenticated Ecobricks</h4>
-				<h6>The archival chain of authenticated ecobricks.</h6>
+				<h6>The archival chain of authenticated ecobricks.  Updated every six hours with the latest confirmed authentications.</h6>
 				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live</p></div><div class="ecobrick-data"><p>🟠 Historical Data pending transfer</p></div>
-			</div>	
-		
+			</div>
+			
 			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 
 		</div>
