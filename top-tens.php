@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/build-inc.php");?>
+<?php require_once ("includes/top-tens-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>
@@ -12,10 +12,10 @@ Content Page template: v.1.0.0-->
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobrick Top 10</div>
-	    <div class="splash-sub">This months highest ranked authenticated ecobricks!</div>
+		<div class="splash-heading">The Ecobrick Top 10</div>
+	    <div class="splash-sub">This month's highest ranked authenticated ecobricks.</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/pngs/gobriktrophy.png" style="width: 85%">
+	<div class="splash-image"><img src="https://ecobricks.org/pngs/gobriktrophy.png" style="width: 55%">
     <!--https://ecobricks.org/svgs/eb-blue-no-clouds.svg-->
     </div>	
 </div>
