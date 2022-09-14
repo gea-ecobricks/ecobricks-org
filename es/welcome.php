@@ -39,7 +39,7 @@
 
 	<div id="content-sect1">
 	 	<div id="main-content">
-			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v2" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
+			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v6" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<div class="big-header">Acelerando la Transición Plástica</div>
 			<div class="sub-text">
 			<p>Juntos podemos mantener nuestro plástico fuera de los océanos. Con los ladrillos ecológicos podemos asegurar el plástico para construir nuestras visiones más ecológicas y encender la transición regenerativa.</p>
