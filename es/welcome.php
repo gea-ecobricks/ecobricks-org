@@ -23,57 +23,17 @@
 
 	<!-- SLIDER CONTENT -->
 	
-		<div id="sliders">
+	<div id="sliders">
 
-		<div id="slider1">
-		<div id="slider-image"><img src="svgs/ecobrickable-square.svg?v0.3" alt="How to make an ecobrick" width="100%" height="102%" style="min-width:175px;"></div>
-					<div id="slider-textbox">
-					<div id="slider-heading">Estándares Ecobrick</div>
-					<div id="slider-date">2022 pautas</div>
-					<div id="slider-body">¿Sabías que existen varios tipos de ecobricks? ¡Aprende sobre lo que hace que un ecoladrillo sea un ecoladrillo!  </div>
-					<div id="slider-link"><a href="/what">Sobre Ecobricks</var></a></div>
-						
-				</div>
-			</div>
+		<?php require_once ("slides/slide-1-$lang.php");?>
 
+		<?php require_once ("slides/slide-2-$lang.php");?>
 
-			<div id="slider2">
+		<?php require_once ("slides/slide-3-$lang.php");?>
 
-			<div id="slider-image">
-				<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
-			</div>
-			<div id="slider-textbox">
-			<div id="slider-heading">Se lanza el Brik Market</div>
-			<div id="slider-date">Junio de 2022 | Anuncio de GEA</div>
-			<div id="slider-body">Después de tres años de desarrollo, estamos emocionados de lanzar un lugar para intercambiar, intercambiar y dejar sus ecoladrillos.</div>
-			<div id="slider-link">>> <a href="drop-off.php">El Brik Market</a></div>
-				</div>
-			</div>
+		<?php require_once ("slides/slide-4-$lang.php");?>
 
-
-			<div id="slider3">
-				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brick enterprise program"></div>
-				<div id="cuadro de texto deslizante">
-				<div id="slider-heading">Plataforma de Transición de Plástico para Empresas</div>
-				<div id="slider-date">Anuncios de GEA</div>
-				<div id="slider-body">¡Nuestro programa Catalyst para empresas, organizaciones y proyectos ecológicos ya está disponible! Realice un seguimiento, divulgue y acelere su transición plástica.</div>
-				<div id="slider-link"><a href="catalyst.php">Más información</a></div>	
-			</div>
-			</div>
-
-			
-			<div id="slider4">
-			<div id="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
-				<div id="slider-textbox">
-					<div id="slider-heading">Aplicaciones de construcción</div>
-					<div id="slider-date"></div>
-					<div id="slider-body">Conozca las diversas formas de hacer un buen uso de los ecoladrillos en todo, desde la construcción de módulos hasta la tierra.</div>
-					<div id="slider-link"><a href="build.php">Construcción</a></div>
-				</div>
-			</div>
-
-
-		</div>
+	</div>
 
 	<!--FIRST CONTENT SECTION-->
 
