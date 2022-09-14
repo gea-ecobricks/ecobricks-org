@@ -13,7 +13,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
          echo '<div id="side-module-desktop-mobile">';
 
         // output data of each row
-        while($row = $result->fetch_assoc()) {
+        //while($row = $result->fetch_assoc()) {
 
             $row = $result->fetch_assoc();
             

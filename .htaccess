@@ -111,7 +111,7 @@ RewriteRule (.*)$ https://ecobricks.org/es/$1 [R=301,L]
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/?(en|es|id|pt|vi|briks|wp-content|wp-includes|wp-admin)/
+RewriteCond %{REQUEST_URI} !^/?(en|es|id|fr|pt|vi|briks|wp-content|wp-includes|wp-admin)/
 RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
 RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
 RewriteCond %{HTTP:Accept-Language} ^fr [NC]
