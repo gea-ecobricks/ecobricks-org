@@ -150,7 +150,7 @@ _END;?>
   width: 250px;
 	padding: 0px;
 	box-sizing: border-box;
-	margin: 0px 0px 0px 10px;
+	margin: auto;
 }
 }
 
@@ -228,7 +228,7 @@ text-shadow: 0px 0px 6px #666;
 	z-index: 0;
 
 box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-    background-color: #914D3D;
+    background-color: #F98D03;
 
 	-webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);

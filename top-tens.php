@@ -93,13 +93,13 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
                     
                         <a class="action-btn" href="how">🚀 How to Make an Ecobrick</a>
                         <p style="font-size: 0.85em; margin-top:20px;">Our comprehensive 12 step guide.</a></p>    
-                    
+        
                     </div>
                 </div>
 
                 <div class="side2">
                     <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
-                </div>
+                </div> 
             </div>
 </div>
 
@@ -111,7 +111,14 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 		<div class="side">
 	
 			
-            <div id="side-module-desktop-mobile">
+        <div id="side-module-desktop-mobile">
+					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
+					<h4>Global Ecobrick Alliance</h4>
+					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
+					
+				</div>
+                
+                <div id="side-module-desktop-mobile">
                 <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Plastic Sequestration</h4>
                 <h5>The GEA advocates ecobrick building to sequester plastic.  Only builds that follow best-practices, embody earth principles and use authenticated eco<span class="eco-brick"> </span>bricks sequester plastic.</h5><br>
@@ -134,12 +141,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 				<a class="module-btn" href="/circular">Learn More</a>
 			</div>
 
-            <div id="side-module-desktop-mobile">
-				<img src="pngs/transcaste-500px.png" width="80%" loading="lazy" alt="eco brick transcaste construction and building briks.">
-				<h4>Transcate Collaboration</h4>
-				<h5>In contrast to conventional construction, Earth and ecobricking building is transcaste, meaning that it is accessible to men and women, young and old, black and white, and everyone in between!</h5><br>
-				<a class="module-btn" href="principles.php">Learn More</a>
-			</div>
+            
             
          
 
