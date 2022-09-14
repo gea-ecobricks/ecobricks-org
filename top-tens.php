@@ -15,7 +15,8 @@ Content Page template: v.1.0.0-->
 		<div class="splash-heading">Ecobrick Top 10</div>
 	    <div class="splash-sub">This months highest ranked authenticated ecobricks!</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width: 85%">
+	<div class="splash-image"><img src="https://ecobricks.org/pngs/gobriktrophy.png" style="width: 85%">
+    <!--https://ecobricks.org/svgs/eb-blue-no-clouds.svg-->
     </div>	
 </div>
 <div id="splash-bar"></div>
