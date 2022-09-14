@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/earth-inc.php");?>
+<?php require_once ("includes/build-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>
@@ -62,7 +62,8 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
             echo '<h4>Ecobrick of the Month!</h4>
             <h5><a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> made the top tens this month with a validation score of '.$row["final_validation_score"].'</h5><br>
             
-            <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Check it out</a><br><br>';
+            <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Check it out</a>';
+            echo '<br><br><br><br><hr><br>';
             
         
         }
@@ -73,7 +74,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
         
         ?>
             
-            <?php 	$conn->close();?>
+        <?php 	$conn->close();?>
         
 
             <br>
