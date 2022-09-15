@@ -321,14 +321,10 @@ Content Page template: v.1.0.1-->
 		
 
 		<div class="side">
-
-		<div id="side-module-desktop-mobile">
-				<img src="webp/earthen-story-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
-				<br><h4>Following the Earth's Example</h4>
-				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
-				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
-                <br>
-			</div>   
+		<?php include 'ecobricks_env.php';?> 
+		<div class="orange-module">"<?php require_once ("side-modules/brikcoin-live-values.php");?></div>
+		<?php 	$conn->close();?>
+		
          
 
 			<div id="side-module-desktop-mobile">
