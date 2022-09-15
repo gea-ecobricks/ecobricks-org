@@ -79,7 +79,7 @@
 					<thead>
 						<tr>
 							
-						<th>Transaction</th>
+						<th>🔎 Transaction</th>
 						<th>Issued</th>
 							<th>Sender</th>	
 							<th>Type</th>
@@ -89,7 +89,7 @@
 
 						</tr>
 					</thead>
-					<tfoot>
+					<!--<tfoot>
 						<tr>
 						<th>Transaction</th>
 						<th>Issued</th>
@@ -99,7 +99,7 @@
 							<th>Shard</th>
 							<th>Ecobrick</th>
 						</tr>
-					</tfoot>
+					</tfoot>-->
 				</table>
 			</div>
 		</div>
@@ -131,10 +131,10 @@
 							<th>AES Plastic</th>
 							<th>Value</th>
 							<th>CO2e</th>
-							<th>Serial</th>
+							<th>🔎 Serial</th>
 						</tr>
 					</thead>
-					<tfoot>
+					<!--<tfoot>
 						<tr>
 							<<th style="max-width: 150px !important;">Brik</th>
 							<th>Logged</th>
@@ -143,7 +143,7 @@
 							<th>CO2e</th>
 							<th>Serial</th>
 						</tr>
-					</tfoot>
+					</tfoot>-->
 				</table>
 			</div>
 		</div>

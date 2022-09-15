@@ -34,7 +34,7 @@ $columns = array(
     array( 'db' => 'ecobrick_full_photo_url',
     'dt' => 0,
 'formatter' => function( $d, $row ) {
-    return '<img src="'.($d).'" width="100" alt="Ecobrick basic pic"/>';
+    return '<a href="'.($d).'">'.($d).'</a><img src="'.($d).'" width="100px" alt="Ecobrick preview pic"/></a>';
 }
 ),
 
@@ -72,7 +72,7 @@ $columns = array(
     array( 'db' => 'serial_no',     
         'dt' => 5,
         'formatter' => function( $d, $row ) {
-            return '<a href="details-ecobrick-page.php?serial_no='.($d).'">🔎 '.($d).'</a>';
+            return '<a href="details-ecobrick-page.php?serial_no='.($d).'">'.($d).'</a>';
         }
     ),
     
