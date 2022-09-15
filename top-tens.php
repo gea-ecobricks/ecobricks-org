@@ -59,7 +59,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 
             $row = $result->fetch_assoc();
             
-            echo '<a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="https://ecobricks.org/briks/ecobrick-'.$row["ecobrick_unique_id"].'-file.jpeg" width="600px" max-width="90%" alt="Ecobrick '.$row["ecobrick_unique_id"].' basic pic"/></a>';
+            echo '<a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="https://ecobricks.org/briks/ecobrick-'.$row["ecobrick_unique_id"].'-file.jpeg" style="max-width:90%" width:600px;" alt="Ecobrick '.$row["ecobrick_unique_id"].' basic pic"/></a>';
             echo '<h4>Ecobrick of the Month!</h4>
             <h5><a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> made the top tens this month with a validation score of '.$row["final_validation_score"].'</h5><br>
             
