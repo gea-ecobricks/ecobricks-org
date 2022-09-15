@@ -122,7 +122,7 @@ _END;?>
   flex: 35%;
 	padding: 0px;
 	box-sizing: border-box;
-	margin-top: 0px;
+	margin-top: auto;
 }
 }
 
@@ -150,7 +150,7 @@ _END;?>
   width: 250px;
 	padding: 0px;
 	box-sizing: border-box;
-	margin: auto;
+	margin: 0px 0px 0px 10px;
 }
 }
 
