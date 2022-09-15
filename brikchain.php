@@ -82,6 +82,7 @@
 						<th>🔎 Transaction</th>
 						<th>Issued</th>
 							<th>Sender</th>	
+							<th>Recipient</th>	
 							<th>Type</th>
 							<th>Block</th>
 							<th>Shard</th>

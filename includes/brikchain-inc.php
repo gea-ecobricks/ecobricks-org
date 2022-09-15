@@ -119,6 +119,12 @@ $(document).ready(function() {
 } 
 }
 
+@media screen and (min-width: 701px) { 
+#block1, #block2, #block3, #block4, #block5, #block6 {
+	overflow: none ;
+} 
+}
+
 #side-module-desktop-mobile {
 	background: #f8b956;
 	font-size: 1.1em;
