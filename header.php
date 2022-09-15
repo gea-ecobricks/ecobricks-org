@@ -25,7 +25,7 @@
 
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
-<link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v2.5">
+<link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v2.6">
 
 <meta property="og:site_name" content="Ecobricks.org" />
 <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />

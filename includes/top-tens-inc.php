@@ -122,7 +122,7 @@ _END;?>
   flex: 35%;
 	padding: 0px;
 	box-sizing: border-box;
-	margin-top: auto;
+	margin: auto;
 }
 }
 

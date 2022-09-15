@@ -124,34 +124,6 @@ $(document).ready(function() {
 	font-size: 1.1em;
 }
 
-.live-data {
-		
-		font-size: 1.2em;
-		font-family: "monospace" !important;
-		color: #222;
-		line-height: 1.3;
-		font-weight: 300;
-		background: #afafae;
-		padding: 25px;
-		border-radius: 10px;
-		margin: 0px;
-}
-
-.blink {
-            animation: blinker 1.5s linear infinite;
-            color: #00AA44;
-            
-        }
-        @keyframes blinker {
-            50% {
-                opacity: 0;
-				
-            }
-        }
-
-.courier {font-family: "monospace" !important;
-}
-
 
 
 /*This sets up the the first splash content block that is unique to the top of each page*/

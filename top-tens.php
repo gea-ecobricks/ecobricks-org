@@ -41,6 +41,8 @@ Content Page template: v.1.0.0-->
             </div>	
 
             <?php include 'ecobricks_env.php';?> 
+
+            <div class="page-paragraph">
             
 
 
@@ -64,7 +66,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
             <h5><a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> made the top tens this month with a validation score of '.$row["final_validation_score"].'</h5><br>
             
             <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Check it out</a>';
-            echo '<br><br><br><br><hr><br>';
+            echo '<br><hr><br><br><br><br>';
             
         
         }
@@ -74,6 +76,8 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
         }
         
         ?>
+
+    </div>
             
       
         
