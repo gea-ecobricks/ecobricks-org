@@ -52,7 +52,7 @@
 		<div class="side">
 
 		
-		<?php require_once ("side-modules/brikcoin-live-values.php.php");?>
+		<?php require_once ("side-modules/brikcoin-live-values.php");?>
 
          
 		</div>

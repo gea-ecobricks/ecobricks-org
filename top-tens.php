@@ -75,7 +75,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
         
         ?>
             
-        <?php 	$conn->close();?>
+      
         
 
             <br>
@@ -143,9 +143,9 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 
             
             
-            <?php require_once ("side-modules/brikcoin-live-values.php.php");?>
+            <?php require_once ("side-modules/brikcoin-live-values.php");?>
 
-            
+            <?php 	$conn->close();?>
 
 		</div>
 
@@ -157,6 +157,8 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 	<!--FOOTER STARTS HERE-->
 
 	<?php require_once ("footers/footer-$lang.php");?>
+
+    
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
