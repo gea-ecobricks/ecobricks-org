@@ -194,7 +194,9 @@
 				<!--<td>".$row["brick_count"]." ecobricks</td>-->
 				<td>".$row["calculated_weight"]."&#8202;Kg</td>
 				<!--<td>".$row["weight"]."&#8202;Kg</td>-->
-				<td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>"; 
+				<td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td>
+				<td>".$row["final_aes_plastic_cost"]."&#8202;$ USD</td>
+				</tr>"; 
 				}
 				echo "</table>";
 			} else {

@@ -61,7 +61,9 @@ migrated from GoBrik.com CSS
 }
 
 
-
+.orange-module {
+	background: #f8b956;
+}
 
 hr {border: gray;
 border-style: dashed;
