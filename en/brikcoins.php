@@ -322,7 +322,7 @@ Content Page template: v.1.0.1-->
 
 		<div class="side">
 		<?php include 'ecobricks_env.php';?> 
-		<div class="orange-module">"<?php require_once ("side-modules/brikcoin-live-values.php");?></div>
+		<?php require_once ("side-modules/brikcoin-live-values.php");?>
 		<?php 	$conn->close();?>
 		
          

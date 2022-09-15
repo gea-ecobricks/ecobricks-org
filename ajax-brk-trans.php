@@ -52,19 +52,19 @@ array(
     }
 ),
     array( 'db' => 'sender',     'dt' => 2 ),
-    //array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
-    array( 'db' => 'block_tran_type', 'dt' => 3 ),
+    array( 'db' => 'receiver_or_receivers',     'dt' => 3 ),
+    array( 'db' => 'block_tran_type', 'dt' => 4 ),
    
    array(
         'db'        => 'block_amt',
-        'dt'        => 4,
+        'dt'        => 5,
         'formatter' => function( $d, $row ) {
             return ''.number_format($d,2).'&#8202;ß';
         }
     ),
     array(
         'db'        => 'individual_amt',
-        'dt'        => 5,
+        'dt'        => 6,
         'formatter' => function( $d, $row ) {
             return ''.number_format($d,2).'&#8202;ß';
         }
@@ -73,7 +73,7 @@ array(
 
 
     array( 'db' => 'ecobrick_serial_no',     
-'dt' => 6,
+'dt' => 7,
 'formatter' => function( $d, $row ) {
     // return '🔎 <a href="details-ecobrick-page.php?serial_no='.($d).'">'.($d).'</a>';
      return ''.($d).'';
