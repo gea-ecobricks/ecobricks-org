@@ -34,7 +34,7 @@ $columns = array(
     array( 'db' => 'ecobrick_full_photo_url',
     'dt' => 0,
 'formatter' => function( $d, $row ) {
-    return '<a href="'.($d).'">'.($d).'</a><img src="'.($d).'" width="100px" alt="Ecobrick preview pic"/></a>';
+    return '<a href="'.($d).'"</a><img src="'.($d).'" width="100px" alt="Ecobrick preview pic"/></a>';
 }
 ),
 
