@@ -132,15 +132,15 @@ Content Page template: v.1.0.0-->
                 
                 <br>
 
-                <img src="photos/reusing-ecobricks.png" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"><h6>Ecobricks carefully removed from a destroyed construction and ready to be used again.</h6>
+                <img src="photos/reusing-ecobricks.png" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
+                <h5>Ecobricks carefully removed from a destroyed construction and ready to be used again.</h5><hr><br>
 
                 <br>
-                <p>In so doing we ensure that the materials we use can be used again and again.  Essential to Earth and Ecobrick building and the effective sequestration of plastic, is circular design.  This is one of the main principles and reasons for the use of earth with ecobricks.</p>
+                <p>Essential to Earth and Ecobrick building and the effective sequestration of plastic, is circular design.  This means that whenever we build with ecobrick we ensure that at the end of the construction, the ecobricks can be extricated undamaged and used again.</p>
 
-                <p>Unlike cement, when an earthen construction comes to its end, the ecobricks can be extracted and put to use again. Cement is very hard to break up so ecobricks are likely to be damaged in the process, which could also release their contents. Earth completely protects the plastic from all forms of degradation and readily crumbles (especially after some soaking) to release the ecobricks un-scarred. Planning for the next life (or cradle) of a construction is also known as cradle-to-cradle design.</p>
+                <p>This is one of the cheif advantages of buidling with ecobricks and earth.  Unlike cement, when an earthen construction comes to its end, the ecobricks can be extracted undamaed.  During the construction life-span, the earth completely protects the ecobrick from all forms of degradation .  Then at the at its end, cob/adobe/waddle readily crumbles (especially after some soaking) to release the ecobricks un-scarred. Cement, in contrast, crumbles into stiff hard edged rubble that can easily rupture a plastic bottle. </p>
 
-  
-
+                <p>In addition, not only can the released ecobricks be reused, so too can the crubble earth.  As it has already been mixed to the requisite ratio, only water needs to be added.  After some soaking the earth can be remixed and reapplied in a new construction!
                 <br>
 
                 <h5>ℹ️ Learn more about: <a href="/circular">Circular & Spiral Design</a></h5>
@@ -164,13 +164,13 @@ Content Page template: v.1.0.0-->
                 
                     <img src="photos/earth-collab.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
             
-					<p>A common misunderstanding is to confuse building with ecobricks with conventional or commercial building methods: paying builders, using cement and machines, etc.</p>
-
-                    <p>Instead, earth and ecobrick methods are designed from the ground up to be replicable, non-capital, non-petroleum, collaboration powered, using cradle-to-cradle design.</p>
-
-                    <p>Furthermore, earth building techniques are what we call <i>transcaste</i>– meaning that the building process is non hierarchical and readily involves all genders, ages, rich, poor and everyone in between, on a level playing field of participation.</p>
+					<p>Earth and ecobrick building methods are designed from the ground up to be replicable, non-capital, non-petroleum, collaboration powered.</p>
+                    <p>Unlike conventional or commercial building methods, that require paying specialized architects, engineers and builders, every element of earth and ecobrick building is designed to be accessible to the participation and contribution of everyone in the community.   These <i>transcaste</i> building methods are non hierarchical and readily involves all genders and ages in the various processes.</p>
                     
-                    <h5>ℹ️ Learn more about our <a href="principles.php">principles</a></h5>
+                    <p>In this way, rather than require machines and energy-intensive processes and materials, earth and ecobrick construction ideally are built by a community coming together using the principles of mandalic collaboration</p>.
+
+                    
+                    <h5>ℹ️ Learn more about our <a href="mandalic">Mandalic Collaboration</a></h5>
                     
 				</div>
 			</div>
