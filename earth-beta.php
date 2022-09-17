@@ -36,9 +36,9 @@ Content Page template: v.1.0.0-->
 			</div>
 	
 			<div class="page-paragraph">
-                <p>Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors.  Around the world almost every region has its ancient methods of using the local earth to build structures.  Many of these structures have stood for centuries, some for milenia!  By adapting these methods, we can put our ecobricks to good use within them to guide their shape and give them strength.</p>
+                <p>Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors.  Countless cultures around the world have their ancestral traditions of working with the earth to build.  Many of their structures have stood for centuries. Some for millenia!  By adapting their ancient methods to our modern challenges, we can put our ecobricks to good and green use.</p>
                 
-                <p>Not only can we build beautiful, strong and resilient structures, we can secure plastic locally and indefinitely.  This ensures that our plastic, gardens and homes contributes to our children flourishing— and the children of the other species in the ecosystems of which we are part.</p>
+                <p>With earth and ecobrick methods not only can we build beautiful, strong and resilient structures, we can secure our plastic out of industry and out of the biosphere.  Such constructions, rather than result in emissions, actually avoid them, while absorbing physical carbon within them.  This ensures that we are not just creating homes, but so too a common home for all the others with which we share ecosystem and biome.</p>
             </div>	
 
             <a name="WHAT-IS"></a>
@@ -48,7 +48,7 @@ Content Page template: v.1.0.0-->
                     
                     <div class="opener-header-text">
                     <h4>What is Earth Building?</h4>
-                    <h5>The organic traditions of our yesterday have great relevance for our green intentions today.</h5>   
+                    <h5>The organic traditions of yesterday have practical relevance for our green visions today.</h5>   
                     <br>
                     </div>
 
@@ -64,16 +64,22 @@ Content Page template: v.1.0.0-->
 						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
 						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" height="175px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
 					</div>
+
+                    <div class="flex-gallery" max-width="100%">
+						<div class="gal-photo"><a href="photos/earth-garden.jpg"><img src="photos/earth-garden.jpg?v=2" height="175px" alt="A simple raised bed garden bench."></a><p>A simple raised bed garden bench.</p></div>
+						<div class="gal-photo"><a href="photos/earth-well.jpg"><img src="photos/earth-well.jpg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction.</p></div>
+						<div class="gal-photo"><a href="photos/earth-snake.jpg"><img src="photos/earth-snake.jpg" height="175px" alt="An ecobrick snake for a public park."></a><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
+					</div>
                     
 
                     <p>Earth Building is known by different names around the world– “adobe”, “wattle-and-daub”, “cob”, “organic cement” etc.  These low-energy and low-cost traditions have resulted in incredibly beautiful and varying structures around the world.  Despite their unique shapes and forms they share certain fundamentals in common– such as using local materials, including the community, and enriching the local ecology.  Our ancestors took these principles for granted, but today its more important than ever to learn from the wisdom embedded in their ways.</p>
 
                     <p>Earth building contrasts starkly with today’s conventional construction methods.</p>
                     <ul>
-                        <li><p>Whereas commercial construction methods rely on high energy, industrial process and are ecologically damaging, earthen building is ecologically enriching.</p></li>
-                        <li><p>Whereas commercial construction is powered by petroleum energy and dependent on capital, earthen constructions strives to be free of both.</p></li>  
-                        <li><p>Wheras, commercial construction loosens plastic and CO2 into the biosphere, earthen building strives to secure them.</p></li>
-                        <li><p>Whereas commercial construction is has a top-down owner/boss/employee structure, earthen building strives to involve everyone in the community.</p></li>
+                        <li><p>Whereas commercial construction methods rely on energy-intensive, industrial processes and are ecologically depleting, earthen building is ecologically enriching.</p></li>
+                        <li><p>Whereas commercial construction is powered by petroleum energy and dependent on capital, earthen constructions uses local resources and community collaboration.</p></li>  
+                        <li><p>Wheras, commercial construction emits Co2 and releases plastic, earth and ecobrick building strives to secure them.</p></li>
+                        <li><p>Whereas commercial construction has a top-down owner/boss/employee structure, earthen building strives to involve everyone in the community.</p></li>
                     </ul>   
                 </div>
             </div>
@@ -85,7 +91,7 @@ Content Page template: v.1.0.0-->
                 <div class="opener-header">
                     <div class="opener-header-text">
                     <h4>Keeping it Local</h4>
-                    <h5>Earth buidling is all about improvising with what you’ve got.</h5>   
+                    <h5>Earth buidling is all about improvising with what you’ve got beneath your feet.</h5>   
                     <br>
                     </div>
                     <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
@@ -115,7 +121,7 @@ Content Page template: v.1.0.0-->
                     
                     <div class="opener-header-text">
                     <h4>Circular & Spiral</h4>
-                    <h5>When building with earth we plan for the next destruction of our creation.  </h5>   
+                    <h5>When building with earth we plan for the destruction of our creation, the reuse of its materials-- in a way that ensures that the next construction will be enriched by the first.</h5>   
                     <br>
                     </div>
 
@@ -133,11 +139,11 @@ Content Page template: v.1.0.0-->
 
                 <p>Unlike cement, when an earthen construction comes to its end, the ecobricks can be extracted and put to use again. Cement is very hard to break up so ecobricks are likely to be damaged in the process, which could also release their contents. Earth completely protects the plastic from all forms of degradation and readily crumbles (especially after some soaking) to release the ecobricks un-scarred. Planning for the next life (or cradle) of a construction is also known as cradle-to-cradle design.</p>
 
-                <p>It is also important to think of abandoned and forgotten constructions.  Unlike cement, cob is fertile, so plants will easily grow on it.  In the case of a forgotten construction, plants will grow, die, and grow again, effectively subsuming the ecobricks over time in earth.</p>
+  
 
                 <br>
 
-                <h5>ℹ️ Learn more about: <a href="/circular">Circular Design</a></h5>
+                <h5>ℹ️ Learn more about: <a href="/circular">Circular & Spiral Design</a></h5>
 
                 </div>
             </div>
@@ -160,12 +166,11 @@ Content Page template: v.1.0.0-->
             
 					<p>A common misunderstanding is to confuse building with ecobricks with conventional or commercial building methods: paying builders, using cement and machines, etc.</p>
 
+                    <p>Instead, earth and ecobrick methods are designed from the ground up to be replicable, non-capital, non-petroleum, collaboration powered, using cradle-to-cradle design.</p>
 
-                    <p>Instead, earth and ecobrick methods are designed from the ground up to be replicable, non-capital, non-petroleum, collaboration powered, using cradle-to-cradle design  </p>
-
-                    <p>Furthermore, earth building techniques are what we call transcaste– meaning that the building process is non hierarchical and readily involves all genders, ages, rich, poor and everyone in between, on a level playing field of participation.</p>
+                    <p>Furthermore, earth building techniques are what we call <i>transcaste</i>– meaning that the building process is non hierarchical and readily involves all genders, ages, rich, poor and everyone in between, on a level playing field of participation.</p>
                     
-                    <h5>ℹ️ Learn more about our <a href="/principles.php">principles</a></h5>
+                    <h5>ℹ️ Learn more about our <a href="principles.php">principles</a></h5>
                     
 				</div>
 			</div>
@@ -175,8 +180,8 @@ Content Page template: v.1.0.0-->
             <div class="reg-content-block" id="block5">
                 <div class="opener-header">    
                     <div class="opener-header-text">
-                        <h4>A safe Journey through time</h4>
-                        <h5>Plastic is potentially a toxic material.  When working and building with plastic it is essential to plan ahead for the next thousand years.  Ecobricking and Earth Building are a way to secure plastic within a safe long-term trajectory.</h5>
+                        <h4>A safe Journey through time.</h4>
+                        <h5>Plastic is potentially a toxic material.  When working and building with plastic it is essential to plan ahead for the next thousand years.  Ecobricking and Earth Building are a way to secure plastic and put it onto a secure long-term trajectory.</h5>
                         <br>
                     </div>
                     <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
@@ -190,11 +195,11 @@ Content Page template: v.1.0.0-->
 
                     <p>Packing plastic into an ecobrick results in the terminal reduction of net surface area. An ecobrick is essentially many many square meters of plastic compressed into a very small space!  Using earth to build with ecobricks is a way to further secure plastic.</p>
 
-                    <p>Earth building involves making a mortar (we call it ‘cob’) to completely encase ecobricks. This way not a single square-centimeter of plastic is exposed! Without exposure to sun, friction, or heat the plastic inside the ecobricks can no longer degrade in any way.</p>
+                    <p>Earth building involves making a mortar (known as ‘cob’, 'adobe', 'daub', ect.) to completely encase ecobricks. This way not a single square-centimeter of plastic is exposed! Without exposure to sun, friction, or heat the plastic inside the ecobricks can no longer degrade in any way.</p>
 
                     <p>It is also important to consider the abandonment of projects. Cob, in contrast to cement, can be more readily populated by plants. Even if long-term structures collapse, earth covered ecobricks have no way to degrade and will remain intact indefinitely. The crumbled earth gradually becomes fertile ground for plants, trees, and forest to cover.</p>
 
-                    <p> By building with earth, using cradle-to-cradle principles, we point our ecobricks towards a long-term journey through time that maximizes its chance of indefinitely securing plastic.</p>
+                    <p> By building with earth, using circular and spiral principles, we point our ecobricks towards a secured long-term journey through time.</p>
 
                     <p>We call this trajectory ‘plastic sequestration‘.</p>
                     
@@ -238,13 +243,7 @@ Content Page template: v.1.0.0-->
                     <h4>🔴 Caution</h4>
                     <p>  It’s outside of the corporate construction paradigm: your bank won’t give you a mortgage, insurance companies won’t cover it, and your hands and feet will get dirty.
                     <p>
-                    <hr>
-                    <br><br>
-
-                    <h4>Long-Term maintenance</h4>
-                    <p> Earth and Ecobrick builds often represent large amounts of secured plastic.  When building on government or community land, it is key to establish a long term maintenance agreement with the custodians of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks.<p> 	
-                    <p>Access our free <a href="/earth-methods">Community Custodianship Agreements</a> for Ecobrick Earth Parks and Buildings.</p>		
-                    <br><br>
+                
 			
                 </div>
 			</div>
@@ -265,22 +264,24 @@ Content Page template: v.1.0.0-->
 
                     <img src="photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
 
-                    <p>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site. These terms of transfer agreements must lay out the responsibilities for the construction’s maintenance and end as well as the responsibilities that the site’s custodian acquires for the construction’s ecobricks. This agreement must account for the eventual removal and reuse of the ecobricks.</p>
+                    <p> Earth and Ecobrick constructions embody large amounts of secured plastic.  When building on government or community land, it is key to establish a long term custodial agreement with the owners of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks. This agreement must also account for the eventual removal, ownership and reuse of the embodied ecobricks.</p> 
 
                     <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement. Download the PDF and ODG versions here:</p>
                     <br>
                     <hr>
-                    <p>📄 <b>GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
+                    <p>📄 <b>GEA Earth & Ecobrick Building Custodial Agreement</b></p>
                     <ul> 
                         <li>📥 Sample – PDF – 500kb</li>
-                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
+                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
                     </ul>
                     <hr>
                     <p><b>Template GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
                     <ul>
                         <li>📄 Editable Template – ODG – 1MB</li>
-                        <li>📥 Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  /  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
+                        <li>📥 Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
                     </ul>
+
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
                 </div>
             </div>
 
@@ -318,11 +319,7 @@ Content Page template: v.1.0.0-->
                  
                         <h4>A Safe Passage Through Time</h4>
                         
-                         <p>Building with ecobricks is a significant responsibility.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
-                        <p>  Planning for the maintenance and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p>
-
-                        <p>Earth building is in full resonance with our principles — it is simple and replicable, non-capital, non-petroleum, collaboration powered, cradle-to-cradle and potently regenerative. Earth building techniques are gender and age transcendent:  involving men and women, young and old, and everyone in between in the building process.</p>
-                    
+                         <p>Building with ecobricks is a significant responsibility.  Ecobricks represent large amounts of secured plastic that will last a long time. For this reason it is more important than ever to build using methods that embody regenerative principles.</p>
                         <br><p>
                     
                         <a class="action-btn" href="/earth-methods">🚀 Earth & Ecobrick Methods</a>
