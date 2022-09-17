@@ -66,9 +66,9 @@ Content Page template: v.1.0.0-->
 					</div>
 
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth-garden.jpg"><img src="photos/earth-garden.jpg?v=2" height="175px" alt="A simple raised bed garden bench."></a><p>A simple raised bed garden bench.</p></div>
-						<div class="gal-photo"><a href="photos/earth-well.jpg"><img src="photos/earth-well.jpg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction.</p></div>
-						<div class="gal-photo"><a href="photos/earth-snake.jpg"><img src="photos/earth-snake.jpg" height="175px" alt="An ecobrick snake for a public park."></a><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
+						<div class="gal-photo"><a href="photos/earth-garden.jpeg"><img src="photos/earth-garden.jpeg?v=2" height="175px" alt="A simple raised bed garden bench."></a><p>A simple raised bed garden bench.</p></div>
+						<div class="gal-photo"><a href="photos/earth-well.jpeg"><img src="photos/earth-well.jpeg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction.</p></div>
+						<div class="gal-photo"><a href="photos/earth-snake.jpeg"><img src="photos/earth-snake.jpeg" height="175px" alt="An ecobrick snake for a public park."></a><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
 					</div>
                     
 
@@ -132,7 +132,7 @@ Content Page template: v.1.0.0-->
                 
                 <br>
 
-                <img src="photos/reusing-ecobricks.png" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
+                <img src="photos/reusing-ecobricks.png" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"><h6>Ecobricks carefully removed from a destroyed construction and ready to be used again.</h6>
 
                 <br>
                 <p>In so doing we ensure that the materials we use can be used again and again.  Essential to Earth and Ecobrick building and the effective sequestration of plastic, is circular design.  This is one of the main principles and reasons for the use of earth with ecobricks.</p>
@@ -211,6 +211,43 @@ Content Page template: v.1.0.0-->
             </div>
 
         
+            <a name="CUSTODIAN"></a>
+            <div class="reg-content-block" id="block7">
+                <div class="opener-header"> 
+                    <div class="opener-header-text">
+                        <h4>Ecobrick Construction Custodial Arrangements</h4>
+                        <h5>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site and construction.</h5>
+                        <br>
+                    </div>
+                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+                </div>
+
+                <div id="preclosed7">
+
+                    <img src="photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
+
+                    <p> Earth and Ecobrick constructions embody large amounts of secured plastic.  When building on government or community land, it is key to establish a long term custodial agreement with the owners of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks. This agreement must also account for the eventual removal, ownership and reuse of the embodied ecobricks.</p> 
+
+                    <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement. Download the PDF and ODG versions here:</p>
+                    <br>
+                    <hr>
+                    <p>📄 <b>Sample of Ecobrick Construction Custodial Arrangements</b></p>
+                    <ul> 
+                        <li>Sample – PDF – 500kb</li>
+                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
+                    </ul>
+                    <hr>
+                    <p>📄 <b>Template GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
+                    <ul>
+                        <li>Editable Template – ODG – 1MB</li>
+                        <li>📥 Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
+                    </ul>
+                    <br>
+
+                    <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+                </div>
+            </div>
+
 
             <a name="MAINTENANCE"></a>
             <div class="reg-content-block" id="block6">
@@ -249,42 +286,6 @@ Content Page template: v.1.0.0-->
 			</div>
 
             
-            <a name="CUSTODIAN"></a>
-            <div class="reg-content-block" id="block7">
-                <div class="opener-header"> 
-                    <div class="opener-header-text">
-                        <h4>Ecobrick Building Custodianship Agreements</h4>
-                        <h5>The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site.</h5>
-                        <br>
-                    </div>
-                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
-                </div>
-
-                <div id="preclosed7">
-
-                    <img src="photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
-
-                    <p> Earth and Ecobrick constructions embody large amounts of secured plastic.  When building on government or community land, it is key to establish a long term custodial agreement with the owners of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks. This agreement must also account for the eventual removal, ownership and reuse of the embodied ecobricks.</p> 
-
-                    <p>The GEA has developed a free-use sample and template of our Ecobrick Building & Custodianship Agreement. Download the PDF and ODG versions here:</p>
-                    <br>
-                    <hr>
-                    <p>📄 <b>GEA Earth & Ecobrick Building Custodial Agreement</b></p>
-                    <ul> 
-                        <li>📥 Sample – PDF – 500kb</li>
-                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
-                    </ul>
-                    <hr>
-                    <p><b>Template GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
-                    <ul>
-                        <li>📄 Editable Template – ODG – 1MB</li>
-                        <li>📥 Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
-                    </ul>
-
-                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-                </div>
-            </div>
-
             <a name="FEATURED"></a>
             <div class="reg-content-block" id="block8">
                 <div class="opener-header"> 
