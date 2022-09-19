@@ -105,6 +105,11 @@ Content Page template: v.1.0.0-->
 						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="photos/earth5.jpg?v=2" height="190px" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
 						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="photos/earth6.jpg" height="190px" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
 					</div>
+                    <div class="flex-gallery" max-width="100%">
+						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="photos/earth4.jpg" height="190px" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
+						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="photos/earth5.jpg?v=2" height="190px" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
+						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="photos/earth6.jpg" height="190px" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
+					</div>
 
                     <p>If there’s anything that the very different earth building traditions around the world have in common it is that they used what was local to them.  Earth building makes use of the earth (sand, clay, rock, pebbles, etc.) that is nearby along with the local organic materials (wood, bamboo, reeds, grasses, etc).  By keeping it local, we reduce the need for long haul transportation.  This ensures a low-energy impact footprint for our building and it encourages the community management of regrowing trees and bamboo to meet local needs.</p>
 
@@ -266,15 +271,15 @@ Content Page template: v.1.0.0-->
                 <div class="row">
                     <div class="main2">
                         <p>Earth methods are ideal when they completely cover ecobricks.  This effectively inhibits plastic degradation through light, heat, fire, and friction.</p>
-                        </div>
+                    </div>
                     <div class="side2"><img src="photos/maintenance.jpg" width="300px"></div>
 				</div>
 				<div class="row2">
 					<div class="main3">
 						<p>With the goal of inhibiting degradation pathways, we maintain our constructions: </p>
 					</div>
-					<div class="side3"><img src="photos/maintenance.jpg" width="150px">
-				</div>
+					<div class="side3"><img src="photos/maintenance.jpg" width="150px"></div>
+                </div>
 
            
                    <ul>
@@ -307,9 +312,9 @@ Content Page template: v.1.0.0-->
 
                 <br>   
                 <div class="flex-gallery" max-width="100%">
-                    <div class="gal-photo"><a href="https://ecobricks.org/jabung/"><img src="photos/jabung1.jpg" height="190px" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java"></a><p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p></div>
-                    <div class="gal-photo"><a href="https://ecobricks.org/training336/"><img src="photos/ubudraw1.jpg" height="190px" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia"></a><p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p></div>
-                    <div class="gal-photo"><a href="photos/prtmadog-500px.webp"><img src="photos/prtmadog-500px.webp" height="190px" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK "></a><p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK </p></div>
+                    <div class="gal-photo"><a href="https://ecobricks.org/jabung/"><img src="photos/jabung1.jpg" height="190px" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java"></a><p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/jabung/">View project</a></p></div>
+                    <div class="gal-photo"><a href="https://ecobricks.org/training336/"><img src="photos/ubudraw1.jpg" height="190px" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia"></a><p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/training336/">View project</a></p></div>
+                    <div class="gal-photo"><a href="photos/prtmadog-500px.webp"><img src="photos/prtmadog-500px.webp" height="190px" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK "></a><p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK </p><p><a class="module-btn" href="photos/prtmadog-500px.webp">View project</a></p></div>
                 </div>
 
 

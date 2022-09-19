@@ -189,7 +189,7 @@ text-shadow: 0px 0px 8px #666;
 
 @media screen and (min-width: 700px) {
 .splash-heading {
-  font-size: 6em;
+  font-size: 5em;
   line-height: 1.3;
   margin: auto;
 }
