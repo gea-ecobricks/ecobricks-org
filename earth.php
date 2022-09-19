@@ -138,7 +138,7 @@ Content Page template: v.1.0.0-->
                 <br>
 
                 <img src="photos/reusing-ecobricks.png" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
-                <h5>Ecobricks carefully removed from a destroyed construction and ready to be used again.</h5><hr><br>
+                <h5><b>Ecobricks carefully removed from a destroyed construction and ready to be used again.</b></h5><hr>
 
                 <br>
                 <p>Essential to Earth and Ecobrick building and the effective sequestration of plastic, is circular design.  This means that whenever we build with ecobrick we ensure that at the end of the construction, the ecobricks can be extricated undamaged and used again.</p>
@@ -267,12 +267,13 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed6">   
 
-                <p>Building with ecobricks is a big responsibility.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping.  Planning for the maintenance and the end of the construction is a key part of earth building and the overall service of plastic sequestration.</p>
                 <div class="row">
                     <div class="main2">
+                        <p>Building with ecobricks is a big responsibility.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping.  Planning for the maintenance and the end of the construction is a key part of earth building and the overall service of plastic sequestration.</p>
+                
                         <p>Earth methods are ideal when they completely cover ecobricks.  This effectively inhibits plastic degradation through light, heat, fire, and friction.</p>
                     </div>
-                    <div class="side2"><img src="photos/maintenance.jpg" width="300px"></div>
+                    <div class="side2"><img src="photos/maintenance.jpg" width="90%"></div>
 				</div>
 				<div class="row2">
 					<div class="main3">
@@ -283,10 +284,10 @@ Content Page template: v.1.0.0-->
 
            
                    <ul>
-                       <li>Earth and Ecobrick builds need to be regularly inspected.</li>
-                       <li>Cracks quickly repaired with additional cob to avoid erosion to the structure.</li>
-                       <li>The foundation and bottom of constructions are monitored to make sure they are not absorbing water from the ground.</li>
-                       <li>Exposed ecobricks (i.e. colored bottoms) that are receiving too much sun are be covered up.</li>
+                      <p><li>Earth and Ecobrick builds need to be regularly inspected.</li></p>
+                      <p><li>Cracks quickly repaired with additional cob to avoid erosion to the structure.</li></p>
+                      <p><li>The foundation and bottom of constructions are monitored to make sure they are not absorbing water from the ground.</li></p>
+                      <p><li>Exposed ecobricks (i.e. colored bottoms) that are receiving too much sun are be covered up.</li></p>
                    </ul>
 
                    <p>After 10, 20 or 100 years, when a well maintained structure comes to its end the undamaged ecobricks can be extricated undamaged and fully repurposed.</p>
@@ -372,7 +373,7 @@ Content Page template: v.1.0.0-->
 
             <div id="side-module-desktop-mobile">
 				<img src="webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
-				<h4>Circular Design</h4>
+				<h4>Circular & Spiral Design</h4>
 				<h5>Ecobrick applications follows the principles of circular design to put our plastic into indefinite greening cycles of reuse.</h5><br>
 				<a class="module-btn" href="/circular">Learn More</a>
 			</div>
