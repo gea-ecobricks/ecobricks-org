@@ -253,6 +253,57 @@ deployment:
 
 
 
+  - export DEPLOYPATH=/home/ecobricks/public_html/vi/
+
+  - /bin/cp -R logos $DEPLOYPATH
+  - /bin/cp -R icons $DEPLOYPATH
+  - /bin/cp -R svgs $DEPLOYPATH
+  - /bin/cp -R webp $DEPLOYPATH
+  - /bin/cp -R pngs $DEPLOYPATH
+  - /bin/cp -R photos $DEPLOYPATH
+  - /bin/cp -R meta $DEPLOYPATH
+  - /bin/cp -R banners $DEPLOYPATH
+  - /bin/cp -R menus $DEPLOYPATH
+  - /bin/cp -R footers $DEPLOYPATH
+  - /bin/cp -R includes $DEPLOYPATH
+  - /bin/cp -R css $DEPLOYPATH
+  - /bin/cp -R slides $DEPLOYPATH
+  - /bin/cp -R side-modules $DEPLOYPATH
+
+  - /bin/cp .htaccess $DEPLOYPATH
+  - /bin/cp .cpanel.yml $DEPLOYPATH
+  - /bin/cp sitemap.xml $DEPLOYPATH
+  - /bin/cp sitemap-multilingual.xml $DEPLOYPATH
+  - /bin/cp arc-sw.js $DEPLOYPATH
+  - /bin/cp accordion-scripts.js $DEPLOYPATH
+  - /bin/cp ssp.class.php $DEPLOYPATH
+  - /bin/cp ajax-ecobricks.php $DEPLOYPATH
+  - /bin/cp ajax-cash-trans.php $DEPLOYPATH
+  - /bin/cp ajax-brk-trans.php $DEPLOYPATH
+  - /bin/cp details-ecobrick-page.php $DEPLOYPATH
+  - /bin/cp details-cash-trans.php $DEPLOYPATH
+  - /bin/cp details-brk-trans.php $DEPLOYPATH
+  - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
+  - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+
+  - /bin/cp principles.php $DEPLOYPATH
+  - /bin/cp brikchain.php $DEPLOYPATH
+  - /bin/cp brickable.php $DEPLOYPATH
+  - /bin/cp open-books.php $DEPLOYPATH
+  - /bin/cp top-tens.php $DEPLOYPATH
+  - /bin/cp earth.php $DEPLOYPATH
+  - /bin/cp modules-beta.php $DEPLOYPATH
+
+  - /bin/cp stylesheet-general.css $DEPLOYPATH
+
+  - /bin/cp header.php $DEPLOYPATH
+  - /bin/cp footer.php $DEPLOYPATH
+  - /bin/cp menu-bar.php $DEPLOYPATH
+
+
+
+
+
 
 
   
