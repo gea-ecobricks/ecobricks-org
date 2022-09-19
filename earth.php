@@ -270,7 +270,7 @@ Content Page template: v.1.0.0-->
                 <div class="row">
                     <div class="main2">
                         <p>Building with ecobricks is a big responsibility.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping.  Planning for the maintenance and the end of the construction is a key part of earth building and the overall service of plastic sequestration.</p>
-                
+                 
                         <p>Earth methods are ideal when they completely cover ecobricks.  This effectively inhibits plastic degradation through light, heat, fire, and friction.</p>
                     </div>
                     <div class="side2"><img src="photos/maintenance.jpg" width="90%"></div>
