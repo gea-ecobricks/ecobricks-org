@@ -8,7 +8,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/en/earth-beta.php"/>
+	<meta property="og:url"           content="https://ecobricks.org/en/earth.php"/>
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Earth & Ecobrick Building">
   	<meta property="og:description"   content="Build the greenest gardens, homes and structures using earth and ecobrick construction techniques and principles."/>
@@ -23,7 +23,7 @@
   <meta property="og:type" content="article" />
  <meta property="og:site_name" content="Ecobricks.org" />
  <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
- <meta property="article:modified_time" content="2022-09-13T09:14:13+00:00" />
+ <meta property="article:modified_time" content="2022-09-19T09:14:13+00:00" />
  <meta property="og:image:type" content="image/png" />
  <meta name="author" content="Global Ecobrick Alliance" />
  <meta name="twitter:card" content="summary" />

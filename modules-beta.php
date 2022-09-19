@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/earth-inc.php");?>
+<?php require_once ("includes/modules-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>
@@ -12,10 +12,10 @@ Content Page template: v.1.0.0-->
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobrick & Earth Building</div>
-	    <div class="splash-sub">Build beautiful, strong, circular, resilient and regenerative structures.</div>
+		<div class="splash-heading">Ecobrick Modules</div>
+	    <div class="splash-sub">Build simple, easy and awesome modular ecobrick furniture.</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/svgs/tree-bench.svg" style="width: 85%">
+	<div class="splash-image"><img src="https://ecobricks.org/pngs/Feature-Floating-Module-500px.png" style="width: 85%">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -32,13 +32,13 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Combining time-tested local building traditions with ecobricks, we can safely secure our plastic for the long-term in beautiful and functional earthen constructions.</p>
+				<p>Ecobrick Milstein Modules are the easiest, fastest, and perhaps the most fun of all ecobrick applications.</p>
 			</div>
 	
 			<div class="page-paragraph">
-                <p>Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors.  Countless cultures around the world have their ancestral traditions of working with the earth to build.  Many of their structures have stood for centuries. Some for millenia!  By adapting their ancient methods to our modern challenges, we can put our ecobricks to good and green use.</p>
+                <p>Its easy to make versatile, durable and tremendously practical indoor furniture that can be put to use in many ways.  Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces.  People use them for tables, beds, benches and even stages!</p>
                 
-                <p>With earth and ecobrick methods not only can we build beautiful, strong and resilient structures, we can secure our plastic out of industry and out of the biosphere.  Such constructions, rather than result in emissions, actually avoid them, while absorbing physical carbon within them.  This ensures that we are not just creating homes, but so too a common home for all the others with which we share ecosystem and biome.</p>
+                <p>Milstein modules can be made by anyone, anywhere using simple materials and methods.  Using either silicone or tube-banding methods, ecobricks can be put to use right away in applications that honor circular and regenerative principles.</p>
             </div>	
 
             <a name="WHAT-IS"></a>
@@ -262,31 +262,19 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed6">   
 
-                <p>Building with ecobricks is a big responsibility.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping.  Planning for the maintenance and the end of the construction is a key part of earth building and the overall service of plastic sequestration.</p>
-                <div class="row">
-                    <div class="main2">
-                        <p>Earth methods are ideal when they completely cover ecobricks.  This effectively inhibits plastic degradation through light, heat, fire, and friction.</p>
-                        </div>
-                    <div class="side2"><img src="photos/maintenance.jpg" width="300px"></div>
-				</div>
-				<div class="row2">
-					<div class="main3">
-						<p>With the goal of inhibiting degradation pathways, we maintain our constructions: </p>
-					</div>
-					<div class="side3"><img src="photos/maintenance.jpg" width="150px">
-				</div>
-
-           
-                   <ul>
-                       <li>Earth and Ecobrick builds need to be regularly inspected.</li>
-                       <li>Cracks quickly repaired with additional cob to avoid erosion to the structure.</li>
-                       <li>The foundation and bottom of constructions are monitored to make sure they are not absorbing water from the ground.</li>
-                       <li>Exposed ecobricks (i.e. colored bottoms) that are receiving too much sun are be covered up.</li>
-                   </ul>
-
-                   <p>After 10, 20 or 100 years, when a well maintained structure comes to its end the undamaged ecobricks can be extricated undamaged and fully repurposed.</p>
+                    <p>It is important not to forget our responsibility when building with plastic.  Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere.  Planning for the maintenance and the end of the construction is a key part of plastic sequestration!</p>
                    
-               
+                    <p>The Earth Building technique can completely cover ecobricks, effectively securing them indefinitely in the construction.  This keeps them safe from UV light and other forms of degradation.  After 10, 20 or 100 years, when your structure comes to its end (as everything eventually does) the ecobricks can be extricated undamaged and fully repurposed.</p>
+                    <br>
+                    <hr>
+            
+                    <ul>
+                        <li>Earth modules need to be regularly inspected.</li>
+                        <li>Cracks and breaks to the wall are best quickly repaired to avoid erosion to the structure.</li>
+                        <li>Ecobrick bottoms receiving too much sun should be covered</li>
+                    </ul>
+                    
+                
 			
                 </div>
 			</div>
@@ -307,9 +295,9 @@ Content Page template: v.1.0.0-->
 
                 <br>   
                 <div class="flex-gallery" max-width="100%">
-                    <div class="gal-photo"><a href="https://ecobricks.org/jabung/"><img src="photos/jabung1.jpg" height="190px" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java"></a><p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p></div>
-                    <div class="gal-photo"><a href="https://ecobricks.org/training336/"><img src="photos/ubudraw1.jpg" height="190px" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia"></a><p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p></div>
-                    <div class="gal-photo"><a href="photos/prtmadog-500px.webp"><img src="photos/prtmadog-500px.webp" height="190px" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK "></a><p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK </p></div>
+                    <div class="gal-photo"><a href="https://ecobricks.org/jabung/"><img src="photos/jabung1.jpg" height="190px" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java"></a><p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/jabung/">View project</a></p></div>
+                    <div class="gal-photo"><a href="https://ecobricks.org/training336/"><img src="photos/ubudraw1.jpg" height="190px" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia"></a><p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/training336/">View project</a></p></div>
+                    <div class="gal-photo"><a href="photos/prtmadog-500px.webp"><img src="photos/prtmadog-500px.webp" height="190px" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK "></a><p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK </p><p><a class="module-btn" href="photos/prtmadog-500px.webp">View project</a></p></div>
                 </div>
 
 

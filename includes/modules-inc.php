@@ -17,7 +17,7 @@ _END;?>
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/building-methods.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/webp/earth-banner-1400px.webp">
+<link rel="preload" as="image" href="https://ecobricks.org/svgs/module-banner.svg">
 
 
 
@@ -26,7 +26,7 @@ _END;?>
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("meta/earth-$lang.php");?>
+<?php require_once ("meta/modules-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
@@ -70,8 +70,8 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
        
-		background: url(https://ecobricks.org/webp/earth-banner-1400px.webp) bottom;
-        background-color: #914D3D;
+		background: url(https://ecobricks.org/svgs/module-banner.svg) bottom;
+        background-color: #23a3e8ff;
 		
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -96,8 +96,8 @@ _END;?>
 		position: relative;
 		
         
-		background: url(https://ecobricks.org/webp/earth-banner-1400px.webp) bottom;
-        background-color: #914D3D;
+		background: url(https://ecobricks.org/svgs/module-banner.svg) bottom;
+        background-color: #23a3e8ff;
 		
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
@@ -230,7 +230,7 @@ text-shadow: 0px 0px 6px #666;
 	z-index: 0;
 
 box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-    background-color: #914D3D;
+    background-color: #23a3e8ff;
 
 	-webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
