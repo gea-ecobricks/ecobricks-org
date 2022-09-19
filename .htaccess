@@ -152,6 +152,10 @@ RedirectMatch "^/id/welcome.php" "/id/"
 
 RedirectMatch "^/fr/welcome.php" "/fr/"
 
+RedirectMatch "^/vi/welcome.php" "/vi/"
+
+RedirectMatch "^/pt/welcome.php" "/pt/"
+
 RedirectMatch "^/brikchain" "/en/brikchain.php"
 
 Redirect /arc /en/arc.php
@@ -193,6 +197,9 @@ RedirectMatch "^/faqs.php\/?$" "/en/faqs.php"
 
 RedirectMatch "^/sequest" "/en/sequest.php"
 RedirectMatch "^/sequest/" "/en/sequest.php"
+
+RedirectMatch "^/modules-beta" "/en/modules-beta.php"
+RedirectMatch "^/modules-beta/" "/en/modules-beta.php"
 
 
 RedirectMatch "^/transition" "/en/transition.php"
@@ -240,6 +247,13 @@ RedirectMatch "^/brickable/" "/en/brickable.php"
 RedirectMatch "^/brickable" "/en/brickable.php"
 RedirectMatch "^/brikable" "/en/brickable.php"
 RedirectMatch "^/brickable" "/en/brickable.php"
+
+RedirectMatch "^/earth-beta" "earth.php"
+RedirectMatch "^/earth/" "earth.php"
+RedirectMatch "^/earth" "earth.php"
+
+RedirectMatch "^/modules-beta" "/en/modules-beta.php"
+RedirectMatch "^/modules-beta/" "/en/modules-beta.php"
 
 
 
