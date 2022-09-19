@@ -49,7 +49,7 @@ deployment:
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta.php $DEPLOYPATH
+  - /bin/cp modules-beta2.php $DEPLOYPATH
 
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
@@ -99,7 +99,7 @@ deployment:
   - /bin/cp open-books.php $DEPLOYPATH  
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta.php $DEPLOYPATH
+  - /bin/cp modules-beta2.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -147,7 +147,7 @@ deployment:
   - /bin/cp open-books.php $DEPLOYPATH  
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta.php $DEPLOYPATH
+  - /bin/cp modules-beta2.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -195,7 +195,7 @@ deployment:
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta.php $DEPLOYPATH
+  - /bin/cp modules-beta2.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -243,7 +243,7 @@ deployment:
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta.php $DEPLOYPATH
+  - /bin/cp modules-beta2.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -254,6 +254,8 @@ deployment:
 
 
   - export DEPLOYPATH=/home/ecobricks/public_html/vi/
+
+    - /bin/cp -R en $DEPLOYPATH
 
   - /bin/cp -R logos $DEPLOYPATH
   - /bin/cp -R icons $DEPLOYPATH
@@ -292,7 +294,7 @@ deployment:
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta.php $DEPLOYPATH
+  - /bin/cp modules-beta2.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
