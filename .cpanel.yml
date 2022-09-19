@@ -49,6 +49,7 @@ deployment:
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
+  - /bin/cp module-beta.php $DEPLOYPATH
 
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
@@ -98,6 +99,7 @@ deployment:
   - /bin/cp open-books.php $DEPLOYPATH  
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
+  - /bin/cp module-beta.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -145,6 +147,7 @@ deployment:
   - /bin/cp open-books.php $DEPLOYPATH  
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
+  - /bin/cp module-beta.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -192,6 +195,7 @@ deployment:
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
+  - /bin/cp module-beta.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -239,6 +243,7 @@ deployment:
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
+  - /bin/cp module-beta.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
