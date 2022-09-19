@@ -138,14 +138,14 @@ Content Page template: v.1.0.0-->
                 <br>
 
                 <img src="photos/reusing-ecobricks.png" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
-                <h5><b>Ecobricks carefully removed from a destroyed construction and ready to be used again.</b></h5><hr>
+                <h5><b>Ecobricks carefully removed from a destroyed construction and ready to be used again.</b></h5>
 
                 <br>
                 <p>Essential to Earth and Ecobrick building and the effective sequestration of plastic, is circular design.  This means that whenever we build with ecobrick we ensure that at the end of the construction, the ecobricks can be extricated undamaged and used again.</p>
 
-                <p>This is one of the cheif advantages of buidling with ecobricks and earth.  Unlike cement, when an earthen construction comes to its end, the ecobricks can be extracted undamaed.  During the construction life-span, the earth completely protects the ecobrick from all forms of degradation .  Then at the at its end, cob/adobe/waddle readily crumbles (especially after some soaking) to release the ecobricks un-scarred. Cement, in contrast, crumbles into stiff hard edged rubble that can easily rupture a plastic bottle. </p>
+                <p>This is one of the chief advantages of building with ecobricks and earth.  Unlike cement, when an earthen construction comes to its end, the ecobricks can be extracted undamaged.  During the construction life-span, the earth completely protects the ecobrick from all forms of degradation .  Then at the at its end, cob/adobe/waddle readily crumbles (especially after some soaking) to release the ecobricks un-scarred. Cement, in contrast, crumbles into stiff hard edged rubble that can easily rupture a plastic bottle. </p>
 
-                <p>In addition, not only can the released ecobricks be reused, so too can the crubble earth.  As it has already been mixed to the requisite ratio, only water needs to be added.  After some soaking the earth can be remixed and reapplied in a new construction!
+                <p>In addition, not only can the released ecobricks be reused, so too can the rubble earth.  As it has already been mixed to the requisite ratio, only water needs to be added.  After some soaking the earth can be remixed and reapplied in a new construction!
                 <br>
 
                 <h5>ℹ️ Learn more about: <a href="/circular">Circular & Spiral Design</a></h5>
