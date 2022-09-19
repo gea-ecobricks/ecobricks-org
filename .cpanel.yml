@@ -246,9 +246,8 @@ deployment:
   - /bin/cp menu-bar.php $DEPLOYPATH
 
 
-    - export DEPLOYPATH=/home/ecobricks/public_html/vi/
+  - export DEPLOYPATH=/home/ecobricks/public_html/vi/
 
-  - /bin/cp -R en $DEPLOYPATH
 
   - /bin/cp -R logos $DEPLOYPATH
   - /bin/cp -R icons $DEPLOYPATH
