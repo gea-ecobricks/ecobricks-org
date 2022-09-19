@@ -77,7 +77,7 @@ deployment:
   - /bin/cp -R slides $DEPLOYPATH
   - /bin/cp -R side-modules $DEPLOYPATH
 
-    - /bin/cp stylesheet-general.css $DEPLOYPATH
+  - /bin/cp stylesheet-general.css $DEPLOYPATH
 
   - /bin/cp .htaccess $DEPLOYPATH
   - /bin/cp .cpanel.yml $DEPLOYPATH
