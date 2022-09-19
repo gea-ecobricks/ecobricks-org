@@ -1,4 +1,4 @@
- <!--VIATNAMESE-->
+ <!--VIETNAMESE-->
 
  <!--START OF MENU BAR-->       
 
@@ -12,7 +12,7 @@
 <div id="desktop-menu">
     <div class="topnav-lang" id="myTopnav-lang">
         <div class="dropdown-lang">
-            <button class="dropbtn-lang">EN</button>
+            <button class="dropbtn-lang">VI</button>
             <div class="dropdown-content-language">
               
             <!-- This loads the universal laguage list-->
