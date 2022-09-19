@@ -77,6 +77,8 @@ deployment:
   - /bin/cp -R slides $DEPLOYPATH
   - /bin/cp -R side-modules $DEPLOYPATH
 
+    - /bin/cp stylesheet-general.css $DEPLOYPATH
+
   - /bin/cp .htaccess $DEPLOYPATH
   - /bin/cp .cpanel.yml $DEPLOYPATH
   - /bin/cp sitemap.xml $DEPLOYPATH
@@ -93,19 +95,6 @@ deployment:
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
 
-  - /bin/cp principles.php $DEPLOYPATH
-  - /bin/cp brikchain.php $DEPLOYPATH
-  - /bin/cp brickable.php $DEPLOYPATH
-  - /bin/cp open-books.php $DEPLOYPATH  
-  - /bin/cp top-tens.php $DEPLOYPATH
-  - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta2.php $DEPLOYPATH
-
-  - /bin/cp stylesheet-general.css $DEPLOYPATH
-
-  - /bin/cp header.php $DEPLOYPATH
-  - /bin/cp footer.php $DEPLOYPATH
-  - /bin/cp menu-bar.php $DEPLOYPATH
 
 
   - export DEPLOYPATH=/home/ecobricks/public_html/fr/
@@ -151,9 +140,7 @@ deployment:
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
-  - /bin/cp header.php $DEPLOYPATH
-  - /bin/cp footer.php $DEPLOYPATH
-  - /bin/cp menu-bar.php $DEPLOYPATH
+
 
 
   - export DEPLOYPATH=/home/ecobricks/public_html/es/
@@ -199,9 +186,6 @@ deployment:
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
-  - /bin/cp header.php $DEPLOYPATH
-  - /bin/cp footer.php $DEPLOYPATH
-  - /bin/cp menu-bar.php $DEPLOYPATH
 
 
   - export DEPLOYPATH=/home/ecobricks/public_html/id/
@@ -247,9 +231,7 @@ deployment:
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
-  - /bin/cp header.php $DEPLOYPATH
-  - /bin/cp footer.php $DEPLOYPATH
-  - /bin/cp menu-bar.php $DEPLOYPATH
+
 
 
 
