@@ -54,7 +54,7 @@
 	  
 	<div id="content-sect2">
 		<div id="main-content">
-			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
+			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=2" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
 			</div>
 			<div class="big-header">Following Earth's Example</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
@@ -77,7 +77,7 @@
 
 			<a href="build.php" button class="main-button">Building Applications</a>
 			
-			<h6><a href="/earth">Earth & Ecobrick Building</a> | <a href="/earth-methods">E&B Methods</a> | <a href="/modules">Milstein Modules</a> | <a href="/circular">Spiral & Circular</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6>
+			<h6><a href="earth.php">Earth & Ecobrick Building</a> | <a href="/earth-methods">E&B Methods</a> | <a href="/modules">Milstein Modules</a> | <a href="/circular">Spiral & Circular</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6>
 		</div>
 	</div>
 

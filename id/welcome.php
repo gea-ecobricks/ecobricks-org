@@ -58,7 +58,7 @@
 	  
 	<div id="content-sect2">
 		<div id="main-content">
-			<div class="lead-graphic"><img src="webp/earth-service-700px.webp" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px">
+			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=2" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px">
 			</div>
 			<div class="big-header">Mencontoh Bumi</div>
 			
@@ -81,7 +81,7 @@
 
 			<a href="build.php" button class="main-button">Membangun Aplikasi</a>
 			
-			<h6><a href="/earth">Bangunan Tanah & Ecobrick</a> | <a href="/earth-methods"> Metode Bangunan Tanah</a> | <a href="/modules">Modul Milstein</a> | <a href="/circular"> Spiral & Melingkar</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Keamanan Kebakaran</a></h6>
+			<h6><a href="earth.php">Bangunan Tanah & Ecobrick</a> | <a href="/earth-methods"> Metode Bangunan Tanah</a> | <a href="/modules">Modul Milstein</a> | <a href="/circular"> Spiral & Melingkar</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Keamanan Kebakaran</a></h6>
 		</div>
 	</div>
 
