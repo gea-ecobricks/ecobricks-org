@@ -66,9 +66,9 @@ Content Page template: v.1.0.0-->
 					</div>
 
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth-garden.jpeg"><img src="photos/earth-garden.jpeg?v=2" height="175px" alt="A simple raised bed garden bench."></a><p>A simple raised bed garden bench.</p></div>
-						<div class="gal-photo"><a href="photos/earth-well.jpeg"><img src="photos/earth-well.jpeg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction.</p></div>
-						<div class="gal-photo"><a href="photos/earth-snake.jpeg"><img src="photos/earth-snake.jpeg" height="175px" alt="An ecobrick snake for a public park."></a><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
+						<div class="gal-photo"><a href="photos/earth-garden.jpeg"><img src="photos/earth-garden.jpeg?v=2" height="175px" alt="A simple raised bed garden bench."></a><p>A simple raised bed garden bench -- Indonesia</p></div>
+						<div class="gal-photo"><a href="photos/earth-well.jpeg"><img src="photos/earth-well.jpeg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction -- UK</p></div>
+						<div class="gal-photo"><a href="photos/earth-snake.jpeg"><img src="photos/earth-snake.jpeg" height="175px" alt="An ecobrick snake play-bench for a public park."></a><p>An ecobrick snake play-bench for a public park -- Philippines</p></div>
 					</div>
                     
 
@@ -101,9 +101,9 @@ Content Page template: v.1.0.0-->
 
                     <br>   
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="photos/earth4.jpg" height="190px" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
-						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="photos/earth5.jpg?v=2" height="190px" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
-						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="photos/earth6.jpg" height="190px" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
+						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="photos/earth4.jpg" height="200px" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
+						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="photos/earth5.jpg?v=2" height="200px" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
+						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="photos/earth6.jpg" height="200px" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
 					</div>
                     <div class="flex-gallery" max-width="100%">
 						<div class="gal-photo"><a href="photos/lizzie-earth-photo.jpg"><img src="photos/lizzie-earth-photo.jpg" height="190px" alt="Fully organic earth and ecobrick technique"></a><p>Fully organic earth and ecobrick technique -- Wales, UK</p></div>
