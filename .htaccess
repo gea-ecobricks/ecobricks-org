@@ -242,9 +242,9 @@ RedirectMatch "^/brickable" "/en/brickable.php"
 RedirectMatch "^/brikable" "/en/brickable.php"
 RedirectMatch "^/brickable" "/en/brickable.php"
 
-RedirectMatch "^/earth-beta" "/en/earth.php"
-RedirectMatch "^/earth/" "/en/earth.php"
-RedirectMatch "^/earth" "/en/earth.php"
+RedirectMatch "^/earth-beta" "/earth.php"
+RedirectMatch "^/earth/" "/earth.php"
+
 
 RedirectMatch "^/modules-beta" "/en/modules-beta.php"
 RedirectMatch "^/modules-beta/" "/en/modules-beta.php"
