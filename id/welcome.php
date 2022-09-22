@@ -58,7 +58,7 @@
 	  
 	<div id="content-sect2">
 		<div id="main-content">
-			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=3" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px">
+			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=4" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px">
 			</div>
 			<div class="big-header">Mencontoh Bumi</div>
 			
