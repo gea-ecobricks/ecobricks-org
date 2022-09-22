@@ -62,7 +62,7 @@ Content Page template: v.1.0.0-->
                     <div class="flex-gallery" max-width="100%">
 						<div class="gal-photo"><a href="photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg"><img src="photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" height="175px" alt="A rainbow milstein module"></a><p>A rainbow milstein module -- England, UK</p></div>
 						<div class="gal-photo"><a href="photos/modules/first-modules.jpeg"><img src="photos/modules/first-modules.jpeg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made -- Tadjian, Philipinnes</p></div>
-						<div class="gal-photo"><a href="photos/modules/indonesia-module.jpg"><img src="photos/earth3.jpg" height="175px" alt="A module made from square bottles -- Indonesia"></a><p>A module made from square bottles -- Indonesia</p></div>
+						<div class="gal-photo"><a href="photos/modules/indonesia-module.jpg"><img src="photos/modules/indonesia-module.jpg" height="175px" alt="A module made from square bottles -- Indonesia"></a><p>A module made from square bottles -- Indonesia</p></div>
 					</div>
 
                     <div class="flex-gallery" max-width="100%">
