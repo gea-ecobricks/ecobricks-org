@@ -47,8 +47,8 @@ Content Page template: v.1.0.0-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>What is Earth Building?</h4>
-                    <h5>The organic traditions of yesterday have practical relevance for our green visions today.</h5>   
+                    <h4>Milstein Modules</h4>
+                    <h5>Its easy to make versatile, durable and super practical indoor furniture that can be used in all sorts of ways.</h5>   
                     <br>
                     </div>
 
@@ -60,27 +60,27 @@ Content Page template: v.1.0.0-->
                     <br>
             
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" height="175px" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
-						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
-						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" height="175px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
+						<div class="gal-photo"><a href="photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg"><img src="photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" height="175px" alt="A rainbow milstein module"></a><p>A rainbow milstein module -- England, UK</p></div>
+						<div class="gal-photo"><a href="photos/modules/first-modules.jpeg"><img src="photos/modules/first-modules.jpeg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made -- Tadjian, Philipinnes</p></div>
+						<div class="gal-photo"><a href="photos/modules/indonesia-module.jpg"><img src="photos/earth3.jpg" height="175px" alt="A module made from square bottles -- Indonesia"></a><p>A module made from square bottles -- Indonesia</p></div>
 					</div>
 
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth-garden.jpeg"><img src="photos/earth-garden.jpeg?v=2" height="175px" alt="A simple raised bed garden bench."></a><p>A simple raised bed garden bench.</p></div>
-						<div class="gal-photo"><a href="photos/earth-well.jpeg"><img src="photos/earth-well.jpeg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction.</p></div>
-						<div class="gal-photo"><a href="photos/earth-snake.jpeg"><img src="photos/earth-snake.jpeg" height="175px" alt="An ecobrick snake for a public park."></a><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
+						<div class="gal-photo"><a href="photos/modules/kid-sitting-module.jpg"><img src="photos/modules/kid-sitting-module.jpg" height="175px" alt="Simple and practical -- Jogja, Indonesia."></a><p>Simple and practical -- Jogja, Indonesia.</p></div>
+						<div class="gal-photo"><a href="photos/modules/lots-of-modules.jpg"><img src="photos/modules/lots-of-modules.jpg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction.</p></div>
+						<div class="gal-photo"><a href="photos/modules/modules-storage.jpg"><img src="photos/modules/modules-storage.jpg" height="175px" alt="Modules can be easily stored too -- Bali, Indonesia."></a><p>Modules can be easily stored too -- Bali, Indonesia</p></div>
 					</div>
                     
 
-                    <p>Earth Building is known by different names around the world– “adobe”, “wattle-and-daub”, “cob”, “organic cement” etc.  These low-energy and low-cost traditions have resulted in incredibly beautiful and varying structures around the world.  Despite their unique shapes and forms they share certain fundamentals in common– such as using local materials, including the community, and enriching the local ecology.  Our ancestors took these principles for granted, but today its more important than ever to learn from the wisdom embedded in their ways.</p>
+                    <p>Milstein modules require a minimal amount of ecobricks to start.   All you need is a dozen or so ecobricks of the exact same size to get started.  You can use silicone or old inner-tubes to combine them.  Modules are a short-term circular application that with proper care will last years before needing repair.</p>
 
-                    <p>Earth building contrasts starkly with today’s conventional construction methods.</p>
-                    <ul>
-                        <li><p>Whereas commercial construction methods rely on energy-intensive, industrial processes and are ecologically depleting, earthen building is ecologically enriching.</p></li>
-                        <li><p>Whereas commercial construction is powered by petroleum energy and dependent on capital, earthen constructions uses local resources and community collaboration.</p></li>  
-                        <li><p>Wheras, commercial construction emits Co2 and releases plastic, earth and ecobrick building strives to secure them.</p></li>
-                        <li><p>Whereas commercial construction has a top-down owner/boss/employee structure, earthen building strives to involve everyone in the community.</p></li>
-                    </ul>   
+                    <p>The GEA approved methods here do not damage the ecobricks during their life cycle.  This means that modules can easily be repaired or they can be disassembled and the ecobricks put to use in a new application.</p>
+
+                    <p>Milstein Modules can be used individually as convenient seats that are sliding and stackable.  Hexagon milstein modules can be  like honeycomb to create horizontal surfaces like tables, beds, benches and more.  Triangle modules can be interlocked with hexagons to make a second level.  For full vertical building see Dieleman module.</p>
+
+                    <p>Ecobrick modular applications are indefinitely scalable.  The more you have the more you can build.  Eventually with hundreds of milstein and dielman communities create Ecobrick Open Spaces— interactive community spaces that can be built, un-built, and built again during conferences and gatherings to serve the needs of the moment.</p>
+
+                    <p>It is important to use modules indoors. Ecobricks should never be exposed to the sun. Ultra violet (UV) rays will gradually fade the ecobricks colors and photo-degrade the plastic bottle’s PET.  After only two or three years, the brittle bottle risks crack and burst, releasing all our hard packed plastic.  Keeping modules entirely indoors and out of the sun is essential to preventing degradation.</p>
                 </div>
             </div>
 
