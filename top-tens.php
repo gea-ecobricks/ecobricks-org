@@ -44,6 +44,7 @@ Content Page template: v.1.0.0-->
 
             
             
+            <div class="page-paragraph">
 
 
 <?php
@@ -54,14 +55,13 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 
     if ($result->num_rows > 0) {
 
-       
-
+        
         // output data of each row
         while($row = $result->fetch_assoc()) {
 
             //$row = $result->fetch_assoc();
             
-            echo '<div class="page-paragraph"><p><a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'" style="max-width:90%" width:600px;" alt="Ecobrick '.$row["ecobrick_unique_id"].' basic pic"/></a></p>';
+            echo '<p><a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'" style="max-width:90%" width:600px;" alt="Ecobrick '.$row["ecobrick_unique_id"].' basic pic"/></a></p>';
             echo '<p><h4>'.$row["location"].'</h4></p>
             <p><h5>'.$row["ecobrick_owner"].' logged <a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> with a weigh of '.$row["weight_in_g"].'&#8202;g and a density of '.$row["density"].'&#8202;g/ml.   It made this months top ten ecobricks with a validation score of '.$row["final_validation_score"].'</h5></p>
             
@@ -71,7 +71,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
         }
         
         } else {
-            echo "Failed to connect to database";
+            echo "Failed to connect to the Brikchain database";
         }
         
         ?>
