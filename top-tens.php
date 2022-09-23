@@ -66,7 +66,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
             <p><h5>'.$row["ecobrick_owner"].' logged <a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> with a weigh of '.$row["weight_in_g"].'&#8202;g and a density of '.$row["density"].'&#8202;g/ml.   It made this months top ten ecobricks with a validation score of '.$row["final_validation_score"].'</h5></p>
             
             <p><a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Check it out</a>';
-            echo '</p><hr><br><br>';
+            echo '</p><hr><br>';
     
         }
         
