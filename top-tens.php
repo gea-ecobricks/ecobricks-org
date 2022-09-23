@@ -61,11 +61,12 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 
             //$row = $result->fetch_assoc();
             
-            echo '<p><a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'" style="max-width:90%" width:600px;" alt="Top Ten Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].' loading="lazy"/></a></p>';
-            echo '<p><h4>'.$row["location"].'</h4></p>
-            <p><h5>'.$row["ecobrick_owner"].' logged <a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> with a weigh of '.$row["weight_in_g"].'&#8202;g and a density of '.$row["density"].'&#8202;g/ml.   It made this months top ten ecobricks with a validation score of '.$row["final_validation_score"].'</h5></p>
+            echo '<p><a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'" style="max-width:90%" width:600px;" alt="Top Ten Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></p>';
+            echo '<p><h4>'.$row["location"].'</h4></p>';
+            echo '<h4>'.$row["location"].'</h4>';
+            echo '<p><h5>'.$row["ecobrick_owner"].' logged <a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> with a weigh of '.$row["weight_in_g"].'&#8202;g and a density of '.$row["density"].'&#8202;g/ml.   It made this months top ten ecobricks with a validation score of '.$row["final_validation_score"].'.</h5></p>';
             
-            <p><a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Check it out</a>';
+            echo '<p><a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">🔎 Check it out</a>';
             echo '</p><hr><br>';
     
         }
