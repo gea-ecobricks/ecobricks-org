@@ -87,9 +87,10 @@ deployment:
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
-  - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
   - /bin/cp modules-beta2.php $DEPLOYPATH
+  - /bin/cp top-tens.php $DEPLOYPATH
+  - /bin/cp featured.php $DEPLOYPATH
 
 
   - export DEPLOYPATH=/home/ecobricks/public_html/fr/
@@ -128,10 +129,11 @@ deployment:
   - /bin/cp principles.php $DEPLOYPATH
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
-  - /bin/cp open-books.php $DEPLOYPATH  
-  - /bin/cp top-tens.php $DEPLOYPATH
+  - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
   - /bin/cp modules-beta2.php $DEPLOYPATH
+  - /bin/cp top-tens.php $DEPLOYPATH
+  - /bin/cp featured.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -175,9 +177,10 @@ deployment:
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
-  - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
   - /bin/cp modules-beta2.php $DEPLOYPATH
+  - /bin/cp top-tens.php $DEPLOYPATH
+  - /bin/cp featured.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -220,9 +223,10 @@ deployment:
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
-  - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
   - /bin/cp modules-beta2.php $DEPLOYPATH
+  - /bin/cp top-tens.php $DEPLOYPATH
+  - /bin/cp featured.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -269,9 +273,10 @@ deployment:
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
-  - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
   - /bin/cp modules-beta2.php $DEPLOYPATH
+  - /bin/cp top-tens.php $DEPLOYPATH
+  - /bin/cp featured.php $DEPLOYPATH
 
   - /bin/cp en/welcome.php $DEPLOYPATH
 
