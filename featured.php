@@ -33,13 +33,13 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Every month we feature the ecobricks that received the highest authentication scores from the global ecobrick community.</p>
+				<p>Around the world ecobricks are being made, logged and reviewed.  Here's the latest authenticated ecobricks with selfies that have been published to the brikchain.</p>
 			</div>
 	
-			<div class="page-paragraph">
+			<!--<div class="page-paragraph">
                 <p>And here they are...</p>
                 <hr>
-            </div>	
+            </div>	-->
 
             <?php include 'ecobricks_env.php';?> 
 
