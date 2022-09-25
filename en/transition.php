@@ -74,7 +74,8 @@
                             <div class="main2">
                             <p>Imagine if our homes, companies and corporations resulted in the removal of plastic from the oceans and the regeneration of forests.   Reducing our processes that harm and pollute is an important first step.  However, even more important is increasing the ways in which we contribute to the greening of the biosphere.  The Earth, has given us a great example over the last billion years on how to do just this!<p>
                             </div>
-                            <div class="side2"><img src="webp/balancing-green.webp" width="88%">
+                            <div class="side2">
+								<img src="webp/balancing-green.webp" width="88%">
                             </div>
                         </div>
 
