@@ -52,17 +52,17 @@ if ($result->num_rows > 0) {
 			<div class="row">
 				<div class="main">';
 
-			echo '<div class="lead-page-paragraph">
-			<b><p>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</p></b></div>';
+			echo '<div class="row">
+			<div class="main2"><div class="lead-page-paragraph">
+			<b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</b></div>';
 
 			echo '<div class="page-paragraph">
-			<p>The ecobrick has a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue. It is '. $array["owner"] .' bolante’s number 1 ecobrick. Based in '. $array["location_region"] .', their community '. $array["community_name"] .', is working hard to keep plastic out of the biosphere in '. $array["location_country"] .'.</p>';
-			
+			<p>This ecobrick was with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'.</p></div>
+			<div class="side2"><img src="webp/balancing-green.webp" width="88%">
+			</div>';
 			
 			echo '
 			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p><br><br><br>
-			
-		
 			
 			<div id="data-chunk">
 			<div class="ecobrick-data">';
