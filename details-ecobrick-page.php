@@ -53,18 +53,19 @@ if ($result->num_rows > 0) {
 				<div class="main">';
 
 			echo '<div class="row">
-			<div class="main2"><div class="lead-page-paragraph">
-			<b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</b></div>';
+			<div class="main2"><div class="lead-page-paragraph"><p>
+			<b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</b></p></div>';
 
 			echo '<div class="page-paragraph">
 			<p>This ecobrick was with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p>';
 			
 			echo '
 			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p><br><br><br>
+			</div>
 			</div>';
-			
+
 			echo '
-			<div class="side2"><img src="'. $array["selfie_photo_url"] .'" width="88%">
+			<div class="side2"><img src="'. $array["selfie_photo_url"] .'" width="100%">
 			</div>
 			</div>
 			';
