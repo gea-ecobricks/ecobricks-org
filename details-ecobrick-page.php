@@ -51,8 +51,8 @@ echo '
 		<div class="main">
 			<div class="row">
 
-				<h1><b>'. $array["vision"] .'</b></h1>
-				
+				<h1><b>"'. $array["vision"] .'"</b></h1>
+
 				<div class="main2">
 					
 					<div class="lead-page-paragraph">
@@ -63,12 +63,12 @@ echo '
 						<p>This ecobrick was with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p>
 
 						<p>On '. $array["date_logged_ts"] .' the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p>
-						<br><br><br>
+						<br>
 					</div>
 				</div>';
 
 			echo '
-				<div class="side2">
+				<div class="side2" style="margin-top: 30px";>
 					<img src="'. $array["selfie_photo_url"] .'" width="100%">
 				</div>
 			</div>
