@@ -5,6 +5,8 @@ echo <<<_END
 
 <!DOCTYPE html>
 
+<meta charset="UTF-8"> 
+
 <!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
 
 <html lang="$lang">
@@ -216,7 +218,7 @@ margin-top: 31px;
 margin-bottom: 31px;}
 
 
- 
+ /*
 p {
 	font-size: 0.9em;
   	color: #222222;
@@ -227,7 +229,7 @@ p {
 
 b {font-weight: 500;}
 
-
+*/
 
 
 </style>

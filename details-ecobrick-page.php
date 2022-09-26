@@ -50,8 +50,11 @@ echo '
 	<div class="row">
 		<div class="main">
 			<div class="row">
+
+				<h1><b>'. $array["vision"] .'</b></h1>
+				
 				<div class="main2">
-					<h1><b>'. $array["vision"] .'</b></h1>
+					
 					<div class="lead-page-paragraph">
 						<p><b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</b></p>
 					</div>
