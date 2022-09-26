@@ -57,17 +57,20 @@ if ($result->num_rows > 0) {
 			<b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</b></div>';
 
 			echo '<div class="page-paragraph">
-			<p>This ecobrick was with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p></div>
-			<div class="side2"><img src="webp/balancing-green.webp" width="88%">
-			</div>';
+			<p>This ecobrick was with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p>';
 			
 			echo '
 			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p><br><br><br>
+			</div>';
 			
-			<div id="data-chunk">
-			<div class="ecobrick-data">';
+			echo '
+			<div class="side2"><img src="'. $array["selfie_photo_url"] .'" width="88%">
+			</div>
+			</div>
+			';
 
-			echo '<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</b<p><br>
+			echo '<div id="data-chunk">
+			<div class="ecobrick-data"><p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</b<p><br>
 				<p>--------------------</p>
 				<p>BEGIN BRIK RECORD ></p>';
 
