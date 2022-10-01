@@ -100,7 +100,7 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed2">
 
                     <br>   
-                    <img src="webp/module-variations.webp" height="100%" alt="module variations"></a>
+                    <img src="webp/module-variations.webp" width="100%" alt="module variations"></a>
                     
                     
                     <p>Hexagon milstein modules are made with 19 Ecobricks, these modules make the best stools and are the most versatile.  Hexagon modules can combine them like honey-comb.  Use them to build tables, stages, walls and more.</p>
@@ -109,7 +109,7 @@ Content Page template: v.1.0.0-->
 
                     <p>Dieleman modules are another type of ecobrick module.  They are made with 16 ecobricks and enable vertical and horizontal building.  We have a special on Dieleman Modules.</p>
 
-                    <img src="photos/modules/module-stacking-illustration.jpg" height="100%" alt="How modules combine vertically" loading="lazy"></a>
+                    <img src="photos/modules/module-stacking-illustration.jpg" width="30%" alt="How modules combine vertically" loading="lazy"></a>
                 </div>
             </div>
 
@@ -132,6 +132,7 @@ Content Page template: v.1.0.0-->
                 <br>
 
                 <p>Normal, everyday silicone sealant can be used to make mistein modules.  This is the orginal way to make modules, by using silicone sealant.  Builder’s silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrades into microplastics, nor leach toxins or interfere with ecological cycles.  The HDPE plastic bottle can be easily recycled and/or used in your projects.  See the chart at the bottom of the page on how this method compares with others.</p>
+                
                 <h4>Preparation</h4>
                 <p>To start you will need a well ventilated space, a perfectly flat surface, a caulking gun, a tube of silicone, a knife and of course, your ecobricks.  Hopefully, you’ve followed <a href="/how">GEA ecobrick making and storage directions</a>, so that you can easily pick a selection of colored ecobricks to make a cool pattern.</p>
                 
