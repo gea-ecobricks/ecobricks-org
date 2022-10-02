@@ -64,9 +64,7 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
                  
-            <div class="row">
-                
-                <div class="main2">
+            
                     <div class="page-paragraph-reg">
                     
                         <h4>Learn how to make a great ecobrick!</h4>
@@ -79,11 +77,7 @@ Content Page template: v.1.0.0-->
                         <p style="font-size: 0.85em; margin-top:20px;">Our comprehensive 12 step guide.</a></p>    
 
                     </div>
-                </div>
-
-                <div class="side2">
-                    <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
-                </div> 
+               
             </div>
         </div>
 
@@ -91,9 +85,10 @@ Content Page template: v.1.0.0-->
 
             
             <div id="side-module-desktop-mobile">
-                    <img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
-                    <h4>Global Ecobrick Alliance</h4>
-                    <h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
+                    <img src="svgs/eb-blue-no-clouds.svg" width="90%" alt="The Global Eco Brick Alliance">
+                    <h4>How to Make An Ecobrick</h4>
+                    <h5>Making an ecobrick is hard, but... simple and straight-forward!  Start with our 12 step guide.</h5><br>
+                    <a class="module-btn" href="/how">Learn More</a>
                     
             </div>
                 
