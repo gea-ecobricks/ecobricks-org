@@ -65,9 +65,7 @@ _END;?>
 .flex-gallery {
     display: flex;
   flex-direction: column;
-  width: 110%;
-  margin-right: -5%;
-  margin-left: -5%;
+  width: 100%;
   margin-bottom: 20px;
 }
 }
@@ -122,7 +120,7 @@ _END;?>
  		 flex-wrap: wrap;
  		 box-sizing: border-box;
 		  flex-direction: row;
-		  width: 110%;
+		  width: 120%;
   margin-right: -5%;
   margin-left: -5%;
 		  overflow: hidden;
