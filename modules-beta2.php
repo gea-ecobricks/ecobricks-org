@@ -142,7 +142,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed3">
                 
-                <iframe width="100%" src="https://www.youtube.com/embed/9v0VZbBqECA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/9v0VZbBqECA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
                 <p>Normal, everyday silicone sealant can be used to make mistein modules.  This is the orginal way to make modules, by using silicone sealant.  Builder’s silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrades into microplastics, nor leach toxins or interfere with ecological cycles.  The HDPE plastic bottle can be easily recycled and/or used in your projects.  See the chart at the bottom of the page on how this method compares with others.</p>
 
@@ -419,16 +419,11 @@ Content Page template: v.1.0.0-->
                 <img src="webp/modules-circular.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Circular & Spiral</h4>
                 <h5>Milstein modules are 100% circular-- meaning that when their life comes to an end they can be either repaired or disassembled to make something else.</h5><br>
-                
+                <a class="module-btn" href="/circular/">Learn More</a>
             </div>
 	
 			
-            <div id="side-module-desktop-mobile">
-                <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Plastic Sequestration</h4>
-                <h5>The GEA advocates ecobrick building to sequester plastic.  Only builds that follow best-practices, embody earth principles and use authenticated eco<span class="eco-brick"> </span>bricks sequester plastic.</h5><br>
-                <a class="module-btn" href="sequest.php">Learn More</a>
-            </div>
+            
 
 			<div id="side-module-desktop-mobile">
 				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
@@ -438,20 +433,6 @@ Content Page template: v.1.0.0-->
 			</div>
 
 			
-
-            <div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
-				<h4>Circular Design</h4>
-				<h5>Ecobrick applications follows the principles of circular design to put our plastic into indefinite greening cycles of reuse.</h5><br>
-				<a class="module-btn" href="/circular">Learn More</a>
-			</div>
-
-            <div id="side-module-desktop-mobile">
-				<img src="pngs/transcaste-500px.png" width="80%" loading="lazy" alt="eco brick transcaste construction and building briks.">
-				<h4>Transcate Collaboration</h4>
-				<h5>In contrast to conventional construction, Earth and ecobricking building is transcaste, meaning that it is accessible to men and women, young and old, black and white, and everyone in between!</h5><br>
-				<a class="module-btn" href="principles.php">Learn More</a>
-			</div>
             
             <?php include 'ecobricks_env.php';?> 
             <?php require_once ("side-modules/ecobrick-of-the-month.php");?>

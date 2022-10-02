@@ -91,6 +91,7 @@ deployment:
   - /bin/cp modules-beta2.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp featured.php $DEPLOYPATH
+  - /bin/cp gallery.php $DEPLOYPATH
 
 
   - export DEPLOYPATH=/home/ecobricks/public_html/fr/
@@ -277,6 +278,7 @@ deployment:
   - /bin/cp modules-beta2.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp featured.php $DEPLOYPATH
+  - /bin/cp gallery.php $DEPLOYPATH
 
   - /bin/cp en/welcome.php $DEPLOYPATH
 
