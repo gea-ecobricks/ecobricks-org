@@ -33,12 +33,13 @@ _END;?>
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: grey;
+  background-color: white;
+  margin-top: -20px;
 }
 
 .flex-container > .gal-photo {
   background-color: #DFDFDF;
-  margin: 2px;
+  margin: 1px;
   padding: 10px;
  /*text-align: center;*/
 }
@@ -89,7 +90,7 @@ _END;?>
 		z-index: 5;
        
 	
-        background-color: grey;
+        background-color: #DFDFDF;
 		
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -140,7 +141,7 @@ _END;?>
 	z-index: 0;
 
 box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-    background-color: grey;
+    background-color: #DFDFDF;
 
 	-webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
