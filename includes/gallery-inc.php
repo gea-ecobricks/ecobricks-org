@@ -30,6 +30,18 @@ _END;?>
 
 
 <STYLE>
+
+.feed-live p {
+  font-size: .9em;
+  font-family: courier new,monospace !important;
+  color: #222;
+  line-height: 1.3;
+  margin-top: 5px;
+  font-weight: 300;
+
+}
+
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
