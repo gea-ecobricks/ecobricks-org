@@ -143,20 +143,21 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed3">
                 
                 <iframe width="100%" height="500px" src="https://www.youtube.com/embed/9v0VZbBqECA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                    <p><b>Learn from the GEA Master Trainers in Indonesia how to make ecobrick module</p></b><hr>
 
                     <div class="row">
 						<div class="main2">
-						<p>Normal, everyday silicone sealant can be used to make mistein modules.  This is the orginal way to make modules, by using silicone sealant.  Builder’s silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrades into microplastics, nor leach toxins or interfere with ecological cycles.  The HDPE plastic bottle can be easily recycled and/or used in your projects.</p>
+						<p>Normal, everyday silicone sealant can be used to make mistein modules.  This is the orginal way to make modules, by using silicone sealant.  Builder’s silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrades into microplastics, nor leach toxins or interfere with ecological cycles.</p>
 						
 
 						</div>
 						<div class="side2"><img src="webp/siliconing-300px.webp" width="100%" alt="siliconing eco bricks to make a module" loading="lazy">
-                        <p>Use silicone sealand sparingly to bond bottles</p>
+                        
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>See the chart at the bottom of the page on how this method compares with others.</p>
+						<p>This is almost a zero-waste process! The HDPE silicone tube can be easily recycled and/or used in your projects. See the chart at the bottom of the page on how this method compares with the tire banding methode.</p>
 						</div>
 						<div class="side3"><img src="webp/siliconing-300px.webp" width="150px" alt="Lay bottles on a perfectly flat surface. Ensure all bottles are the same size. Arrange a color pattern with caps and bottle bottoms. Silicone junction points. Press together. Let dry 25 hours." loading="lazy">
 						</div>
