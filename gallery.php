@@ -6,7 +6,9 @@ Content Page template: v.1.0.0-->
 <?php require_once ("includes/gallery-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("under-construction.php");?>
+<div id="translation-required"><div class="ecobrick-data"><p><span class="blink">⬤  </span> This is a live data feed of selfie ecobrick from the brikchain.  For the full feed see the <a href="brikchain.php">Brikchain Explorer</a>.</p></div>
+			</div>
+</div>
 <!--TOP PAGE BANNER-->
 
 
@@ -88,9 +90,9 @@ Content Page template: v.1.0.0-->
             
             <div id="side-module-desktop-mobile">
                     <img src="svgs/eb-blue-no-clouds.svg" width="90%" alt="The Global Eco Brick Alliance">
-                    <h4>How to Make An Ecobrick</h4>
-                    <h5>Making an ecobrick is hard, but... simple and straight-forward!  Start with our 12 step guide.</h5><br>
-                    <a class="module-btn" href="/how">Learn More</a>
+                    <h4>What is an Ecobrick Exactly?</h4>
+                    <h5>Learn all about the specs, types and requirements of an ecobrick.</h5><br>
+                    <a class="module-btn" href="/what">Ecobricks</a>
                     
             </div>
                 
