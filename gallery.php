@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/gallery.php");?>
+<?php require_once ("includes/gallery-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>
@@ -55,14 +55,15 @@ $sql = "SELECT * FROM vw_gallery_feed ;";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
-
+ 
         
         // output data of each row
         while($row = $result->fetch_assoc()) {
 
             //$row = $result->fetch_assoc();
             
-            echo '<div><a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["photo_url"].'" style="height:200px;" alt="Top Ten Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></p>';
+            echo '<div>
+            <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["photo_url"].'" style="height:200px;" alt="Top Ten Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></p>';
             echo '<h4><p><b>'.$row["location"].'</b></p></h4>';
             echo '<p>'.$row["ecobrick_owner"].' logged <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> with a weight of '.$row["weight_in_g"].'&#8202;g and a density of '.$row["density"].'&#8202;g/ml.   It made this months top ten ecobricks with a validation score of '.$row["final_validation_score"].'.</p>';
                 

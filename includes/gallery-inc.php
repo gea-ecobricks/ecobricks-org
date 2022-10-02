@@ -43,8 +43,6 @@ _END;?>
   width: 100px;
   margin: 10px;
   text-align: center;
-  line-height: 75px;
-  font-size: 30px;
 }
 
 @media screen and (min-width: 700px) { 

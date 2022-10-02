@@ -144,7 +144,25 @@ Content Page template: v.1.0.0-->
                 
                 <iframe width="100%" height="500px" src="https://www.youtube.com/embed/9v0VZbBqECA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
-                <p>Normal, everyday silicone sealant can be used to make mistein modules.  This is the orginal way to make modules, by using silicone sealant.  Builder’s silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrades into microplastics, nor leach toxins or interfere with ecological cycles.  The HDPE plastic bottle can be easily recycled and/or used in your projects.  See the chart at the bottom of the page on how this method compares with others.</p>
+                    <div class="row">
+						<div class="main2">
+						<p>Normal, everyday silicone sealant can be used to make mistein modules.  This is the orginal way to make modules, by using silicone sealant.  Builder’s silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrades into microplastics, nor leach toxins or interfere with ecological cycles.  The HDPE plastic bottle can be easily recycled and/or used in your projects.</p>
+						
+
+						</div>
+						<div class="side2"><img src="webp/siliconing-300px.webp" width="100%" alt="siliconing eco bricks to make a module" loading="lazy">
+                        <p>Use silicone sealand sparingly to bond bottles</p>
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p>See the chart at the bottom of the page on how this method compares with others.</p>
+						</div>
+						<div class="side3"><img src="webp/siliconing-300px.webp" width="150px" alt="Lay bottles on a perfectly flat surface. Ensure all bottles are the same size. Arrange a color pattern with caps and bottle bottoms. Silicone junction points. Press together. Let dry 25 hours." loading="lazy">
+						</div>
+					</div>
+                    
+                    
 
                 <h4>Preparation</h4>
                 <p>To start you will need a well ventilated space, a perfectly flat surface, a caulking gun, a tube of silicone, a knife and of course, your ecobricks.  Hopefully, you’ve followed <a href="/how">GEA ecobrick making and storage directions</a>, so that you can easily pick a selection of colored ecobricks to make a cool pattern.</p>
@@ -155,10 +173,7 @@ Content Page template: v.1.0.0-->
                 
                 <p>Make sure you’re working outside or with a fan, because as silicone cures it releases vinegar gas (acetic acid).&nbsp; It’s not good for you or your helpers if you breathe too much of this.&nbsp; Ideally, have a partner assist:&nbsp; one person holds and places the ecobricks, the other operates the silicone gun.</p>
                 
-                <div id="attachment_1290" style="width: 215px" class="wp-caption alignright"><a href="https://cdn.statically.io/img/www.ecobricks.org/f=auto%2Cw=800%2Ch=600%2Cq=75/wp-content/uploads/2014/09/14-illustration-1.jpg"><img aria-describedby="caption-attachment-1290" loading="lazy" class="wp-image-1290" src="https://cdn.statically.io/img/www.ecobricks.org/f=auto%2Cw=800%2Ch=600%2Cq=75/wp-content/uploads/2014/09/14-illustration-1-300x212.jpg" alt="Lay bottles on a perfectly flat surface. Ensure all bottles are the same size. Arrange a color pattern with caps and bottle bottoms. Silicone junction points. Press together. Let dry 25 hours." width="205" height="145"></a>
-                
-                <p id="caption-attachment-1290" class="wp-caption-text">Use silicone sealand sparingly to bond bottles</p></div>
-                
+            
                 <h4>To Start…</h4>
                 
                 <ul>
@@ -166,6 +181,8 @@ Content Page template: v.1.0.0-->
                     <li>When you’re pattern is set, remove the cap of the center ecobrick (this will help guide you as the module grows).</li>
                     <li>Insert the silicone tube into your caulking gun and use your knife to cut the top off your silicone tube and the nozzle.&nbsp; Be sure to ecobrick the plastic cuttings!</li>
                 </ul>
+                
+
                 
                 <h4>Siliconing</h4>
                 <ul>
@@ -186,7 +203,7 @@ Content Page template: v.1.0.0-->
                     <li>After 36 hours (i.e. when you can no longer small the silicone drying smell) your module is good to sit and even stand on!</li>
                 </ul>
 
-                <h5>ℹ️ Learn more about: <a href="/circular">Circular & Spiral Design</a></h5>
+                
 
                 </div>
             </div>
