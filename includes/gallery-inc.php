@@ -55,6 +55,9 @@ _END;?>
     display: flex;
   flex-direction: row;
   margin-bottom: 25px;
+  width: 110%;
+  margin-right: -5%;
+  margin-left: -5%;
 }
 }
 
@@ -62,7 +65,9 @@ _END;?>
 .flex-gallery {
     display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 110%;
+  margin-right: -5%;
+  margin-left: -5%;
   margin-bottom: 20px;
 }
 }
@@ -118,10 +123,8 @@ _END;?>
  		 box-sizing: border-box;
 		  flex-direction: row;
 		  width: 100%;
-		  background-size: cover;
-
-	position: relative;
-    margin: auto;
+		  max-width: 100%;
+		  overflow: hidden;
 
 
 }
