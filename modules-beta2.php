@@ -37,7 +37,7 @@ Content Page template: v.1.0.0-->
 	
 			<div class="page-paragraph">
                 <p>Milstein modules can be made by anyone, anywhere using simple materials and methods.  Using either silicone or tube-banding methods, ecobricks can be put to use right away in applications that embody circular and regenerative principles.</p>
-                <p>Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces.  People use them for tables, beds, benches and even stages!</p>
+                <p>Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces.  People use them for tables, beds, benches and even stages!  Milsteins are often combined with <a href="/dms/">Dieleman Modules</a> to create <a href="/openspace/">Ecobrick Open Spaces.</a></p>
                 
                 <p></p>
             </div>	
@@ -87,7 +87,7 @@ Content Page template: v.1.0.0-->
 
 
 
-			<a name="KEEP-IT-LOCAL"></a>
+			<a name="VARIATIONS"></a>
             <div class="reg-content-block" id="block2">
                 <div class="opener-header">
                     <div class="opener-header-text">
@@ -106,11 +106,23 @@ Content Page template: v.1.0.0-->
                     
                     <p>Hexagon milstein modules are made with 19 Ecobricks, these modules make the best stools and are the most versatile.  Hexagon modules can combine them like honey-comb.  Use them to build tables, stages, walls and more.</p>
 
-                    <p>Hexagon and triangle modules can be stacked ontop of each other in a way that interlocks.  This is a nifty and practical way to build a second level to make chairs and tables.</p>
+                    <div class="row">
+						<div class="main2">
+						<p>Milstein modules can also be used as LEGO.  Hexagon and triangle modules can be stacked on-top of each other in a way that interlocks.  This is a nifty and practical way to build a second level to make chairs and tables.</p>
+						
 
-                    <p>Dieleman modules are another type of ecobrick module.  They are made with 16 ecobricks and enable vertical and horizontal building.  We have a special on Dieleman Modules.</p>
+						</div>
+						<div class="side2"><img src="photos/modules/module-stacking-illustration.jpg" width="100%" alt="How modules combine vertically" loading="lazy">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p>Dieleman modules are another type of ecobrick module.  They are made with 16 ecobricks and enable vertical and horizontal building.  We have a special on Dieleman Modules.</p>
+						</div>
+						<div class="side3"><img src="photos/modules/module-stacking-illustration.jpg" width="150px" alt="How modules combine vertically" loading="lazy">
+						</div>
+					</div>
 
-                    <img src="photos/modules/module-stacking-illustration.jpg" width="30%" alt="How modules combine vertically" loading="lazy"></a>
                 </div>
             </div>
 
@@ -130,7 +142,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed3">
                 
-                <br>
+                <iframe width="100%" src="https://www.youtube.com/embed/9v0VZbBqECA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
                 <p>Normal, everyday silicone sealant can be used to make mistein modules.  This is the orginal way to make modules, by using silicone sealant.  Builder’s silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrades into microplastics, nor leach toxins or interfere with ecological cycles.  The HDPE plastic bottle can be easily recycled and/or used in your projects.  See the chart at the bottom of the page on how this method compares with others.</p>
 
@@ -375,7 +387,7 @@ Content Page template: v.1.0.0-->
                 </div>
 
                 <div class="side2">
-                    <br><img src="webp/dielemans.webp" width="400px" alt="ecobrick dieleman lego module" loading="lazy">
+                    <br><img src="webp/dielemans.webp" width="100%" alt="ecobrick dieleman lego module" loading="lazy">
                 </div>
             </div>
 </div>
