@@ -37,13 +37,17 @@ _END;?>
   flex-wrap: wrap;
   background-color: #D4D4D4;
 }
-d
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 210px;
+
+.flex-container > .gal-photo {
+  background-color: white;
   margin: 2px;
   padding: 10px;
- /* text-align: center;*/
+ text-align: center;
+}
+
+.gal-photo {
+    padding: 10px;
+	width: 200px;
 }
 
 @media screen and (min-width: 700px) { 
