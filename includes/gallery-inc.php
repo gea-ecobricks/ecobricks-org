@@ -45,8 +45,8 @@ _END;?>
 
 .gal-photo {
     padding: 10px;
-	width: 225px;
-	max-width:225px;
+	width: 205px;
+	max-width:205px;
 	overflow: hidden;
 }
 

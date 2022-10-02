@@ -33,7 +33,7 @@ Content Page template: v.1.0.0-->
             //$row = $result->fetch_assoc();
 
             echo '<div class="gal-photo">
-            <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["photo_url"].'" style="height:300px" alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></p>';
+            <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["photo_url"].'" style="height:275px" alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></p>';
             echo '<p><b>'.$row["location"].'</b></p>';
             echo '<p>'.$row["ecobrick_owner"].' logged <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> with a weight of '.$row["weight_in_g"].'&#8202;g and a density of '.$row["density"].'&#8202;g/ml.</p>';
                 
@@ -63,23 +63,21 @@ Content Page template: v.1.0.0-->
 	<div class="row">
 		<div class="main">
 
-                 
+            <div class="page-paragraph-reg">
             
-                    <div class="page-paragraph-reg">
-                    
-                        <h4>Learn how to make a great ecobrick!</h4>
-                        
-                            <p>Making a great ecobrick isn't easy.  It requires technique, patience and prepared plastic!  See our twelve step ecobrick guide to up your sequestration game.</p>
-                    
-                        <br><p>
-                    
-                        <a class="action-btn" href="how">🚀 How to Make an Ecobrick</a>
-                        <p style="font-size: 0.85em; margin-top:20px;">Our comprehensive 12 step guide.</a></p>    
+                <h4>Learn how to make a great ecobrick!</h4>
+                
+                    <p>Making a great ecobrick isn't easy.  It requires technique, patience and prepared plastic!  See our twelve step ecobrick guide to up your sequestration game.</p>
+            
+                <br><p>
+            
+                <a class="action-btn" href="how">🚀 How to Make an Ecobrick</a>
+                <p style="font-size: 0.85em; margin-top:20px;">Our comprehensive 12 step guide.</a></p>    
 
-                    </div>
-               
             </div>
+               
         </div>
+        
 
         <div class="side">
 
