@@ -33,14 +33,14 @@ _END;?>
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: #efefef;
   margin-top: -20px;
 }
 
 .flex-container > .gal-photo {
   background-color: #DFDFDF;
-  margin: 0px;
-  padding: 10px;
+  margin: 2px;
+  padding: 8px;
  /*text-align: center;*/
 }
 
