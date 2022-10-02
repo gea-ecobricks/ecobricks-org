@@ -12,7 +12,7 @@ Content Page template: v.1.0.0-->
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobrick Modules</div>
+		<div class="splash-heading">Ecobrick Milstein Modules</div>
 	    <div class="splash-sub">Build simple, easy and awesome modular ecobrick furniture.</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/pngs/Feature-Floating-Module-500px.png" style="width: 85%">
@@ -32,13 +32,14 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Ecobrick Milstein Modules are the easiest, fastest, and perhaps the most fun of all ecobrick applications.</p>
+				<p>Milstein hexagonal and triangular modules fit together to build simple, practical furniture from your ecobricks.  All you need is a dozen to get going!</p>
 			</div>
 	
 			<div class="page-paragraph">
-                <p>Its easy to make versatile, durable and tremendously practical indoor furniture that can be put to use in many ways.  Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces.  People use them for tables, beds, benches and even stages!</p>
+                <p>Milstein modules can be made by anyone, anywhere using simple materials and methods.  Using either silicone or tube-banding methods, ecobricks can be put to use right away in applications that embody circular and regenerative principles.</p>
+                <p>Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces.  People use them for tables, beds, benches and even stages!</p>
                 
-                <p>Milstein modules can be made by anyone, anywhere using simple materials and methods.  Using either silicone or tube-banding methods, ecobricks can be put to use right away in applications that honor circular and regenerative principles.</p>
+                <p></p>
             </div>	
 
             <a name="WHAT-IS"></a>
@@ -132,7 +133,7 @@ Content Page template: v.1.0.0-->
                 <br>
 
                 <p>Normal, everyday silicone sealant can be used to make mistein modules.  This is the orginal way to make modules, by using silicone sealant.  Builder’s silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrades into microplastics, nor leach toxins or interfere with ecological cycles.  The HDPE plastic bottle can be easily recycled and/or used in your projects.  See the chart at the bottom of the page on how this method compares with others.</p>
-                
+
                 <h4>Preparation</h4>
                 <p>To start you will need a well ventilated space, a perfectly flat surface, a caulking gun, a tube of silicone, a knife and of course, your ecobricks.  Hopefully, you’ve followed <a href="/how">GEA ecobrick making and storage directions</a>, so that you can easily pick a selection of colored ecobricks to make a cool pattern.</p>
                 
@@ -350,8 +351,7 @@ Content Page template: v.1.0.0-->
                     
                 <p>Dan supported and encouraged Russell’s parallel work in the early stages of the Asian Ecobrick movement.&nbsp; Dan encouraged Russell through trying times, convinced that Russell was on to something by working with what was commonly viewed as “waste”, “useless” or “trash”.&nbsp; Dan encouraged Russell to see the wisdom in the Igorot people he was living with and to move with confidence and “trust in the universe” in serving people and planet.&nbsp; Russell and Dan built up a strong friendship, although they never met.&nbsp; Dan passed away in 2015 from cancer.&nbsp;</p>
                 
-                <p><a href="https://russs.net/milstein-modules/"><strong>Read more about the history of Ecobricks and Milstein Modules.</strong>
-
+                <p><a href="https://russs.net/milstein-modules/" target="blank"><strong>Read more about the history of Ecobricks and Milstein Modules.</a></strong>
 
                 </div>
             </div>
@@ -363,19 +363,19 @@ Content Page template: v.1.0.0-->
                 <div class="main2">
                     <div class="page-paragraph-reg">
                  
-                        <h4>A Safe Passage Through Time</h4>
+                        <h4>More Modules!</h4>
                         
-                         <p>Building with ecobricks is a significant responsibility.  Ecobricks represent large amounts of secured plastic that will last a long time. For this reason it is more important than ever to build using methods that embody regenerative principles.</p>
+                         <p>Got thousands of ecobricks?  Then maybe you want to consider ecobrick Dieleman Modules!  These modules aren't as practical as the Milsteins, but when you've got lots of them, you can build super cool stuff.</p>
                         <br><p>
                     
-                        <a class="action-btn" href="/earth-methods">🚀 Earth & Ecobrick Methods</a>
-                        <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</a></p>    
+                        <a class="action-btn" href="/earth-methods">🚀 Dieleman Modules</a>
+                        <p style="font-size: 0.85em; margin-top:20px;">An overview of dieleman modules and how they are made.</a></p>    
                     
                     </div>
                 </div>
 
                 <div class="side2">
-                    <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                    <br><img src="webp/dielemans.webp" width="400px" alt="ecobrick dieleman lego module" loading="lazy">
                 </div>
             </div>
 </div>
@@ -386,6 +386,29 @@ Content Page template: v.1.0.0-->
 	
 
 		<div class="side">
+
+        
+
+        <div id="side-module-desktop-mobile">
+                <img src="webp/milstein.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <h4>Get started with 12 Briks!</h4>
+                <h5>To make your first milstein module all you need is twelve ecobricks.  Once that's done, you can keep adding to it, or make others that fit into the first.</h5><br>
+                
+            </div>
+
+            <div id="side-module-desktop-mobile">
+                <img src="webp/module-table.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <h4>Add one module to another</h4>
+                <h5>After one module is done you can keep adding to it, or make others that fit into the first.</h5><br>
+                
+            </div>
+
+            <div id="side-module-desktop-mobile">
+                <img src="webp/modules-circular.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <h4>Circular & Spiral</h4>
+                <h5>Milstein modules are 100% circular-- meaning that when their life comes to an end they can be either repaired or disassembled to make something else.</h5><br>
+                
+            </div>
 	
 			
             <div id="side-module-desktop-mobile">
