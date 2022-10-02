@@ -16,8 +16,6 @@ _END;?>
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/pngs/gobriktrophy.png">
-<link rel="preload" as="image" href="https://ecobricks.org/webp/build-banner-1400px.webp">
 
 
 
@@ -26,7 +24,7 @@ _END;?>
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("meta/top-tens-$lang.php");?>
+<?php require_once ("meta/featured-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
@@ -35,7 +33,7 @@ _END;?>
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: #D4D4D4;
+  background-color: grey;
 }
 
 .flex-container > .gal-photo {
@@ -85,7 +83,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
        
-		background: url(https://ecobricks.org/webp/build-banner-1400px.webp) bottom;
+	
         background-color: #FA8D04;
 		
     	background-repeat: no-repeat;
@@ -110,7 +108,6 @@ _END;?>
 		position: relative;
 		
         
-		background: url(https://ecobricks.org/webp/build-banner-1400px.webp) bottom;
         background-color: #FA8D04;
 		
     	background-repeat: no-repeat;
@@ -178,7 +175,7 @@ _END;?>
   flex: 100%;
 	padding: 10px 10px 0px 0px;
 	box-sizing: border-box;
-	text-align: right;
+
 }
 }
 
