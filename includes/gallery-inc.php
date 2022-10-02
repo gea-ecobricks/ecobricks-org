@@ -39,7 +39,7 @@ _END;?>
 
 .flex-container > .gal-photo {
   background-color: #DFDFDF;
-  margin: 1px;
+  margin: 0px;
   padding: 10px;
  /*text-align: center;*/
 }

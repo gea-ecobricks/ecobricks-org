@@ -65,9 +65,11 @@ Content Page template: v.1.0.0-->
 
             <div class="page-paragraph-reg">
             
-                <h4>Learn how to make a great ecobrick!</h4>
+                <h1>Learn how to make a great ecobrick too!</h1>
                 
-                    <p>Making a great ecobrick isn't easy.  It requires technique, patience and prepared plastic!  See our twelve step ecobrick guide to up your sequestration game.</p>
+                    <p>Making a great ecobrick isn't easy.  It requires technique, patience and prepared plastic!  Then of course, when you're done, you can log it on our GoBrik app.  This way you track the plastic you and your community have sequestered, use and trade the ecobricks with projects-- and have your ecobrick recorded for posterity on the Brikchain.  This way anyone can look up the full details of an ecobrick using the serial number inscribed upon it.</p>
+                        
+                    <p>Get started with our twelve step ecobrick guide to up your sequestration game.</p>
             
                 <br><p>
             
