@@ -42,7 +42,7 @@ _END;?>
   background-color: white;
   margin: 2px;
   padding: 10px;
- text-align: center;
+ /*text-align: center;*/
 }
 
 .gal-photo {

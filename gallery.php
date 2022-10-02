@@ -12,12 +12,45 @@ Content Page template: v.1.0.0-->
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Featured Latest Ecobricks</div>
-	    <div class="splash-sub">The latest authenticated selfie ecobricks from the Brikchain.</div>
-	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/webp/empty-ecobrick-450px.webp?v2" style="width: 75%" alt="Featured ecobricks">
-    <!--https://ecobricks.org/svgs/eb-blue-no-clouds.svg-->
-    </div>	
+    <?php include 'ecobricks_env.php';?> 
+
+            
+            
+<div class="flex-container">
+
+
+<?php
+
+$sql = "SELECT * FROM vw_gallery_feed ;";
+
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+
+
+// output data of each row
+while($row = $result->fetch_assoc()) {
+
+//$row = $result->fetch_assoc();
+
+echo '<div class="gal-photo">
+<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["photo_url"].'" style="height:255px" alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></p>';
+echo '<p><b>'.$row["location"].'</b></p>';
+echo '<p>'.$row["ecobrick_owner"].' logged <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> with a weight of '.$row["weight_in_g"].'&#8202;g and a density of '.$row["density"].'&#8202;g/ml.</p>';
+    
+
+echo '</div>';
+
+}
+
+} else {
+echo "Failed to connect to the Brikchain database";
+}
+
+?>
+
+</div>
+
 </div>
 <div id="splash-bar"></div>
 <!--<div id="header-bar2"></div>-->
@@ -36,49 +69,12 @@ Content Page template: v.1.0.0-->
 				<p>Around the world ecobricks are being made, logged and reviewed.  Here's the latest authenticated ecobricks with selfies that have been published to the brikchain.</p>
 			</div>
 	
-			<!--<div class="page-paragraph">
-                <p>And here they are...</p>
+			<div class="page-paragraph">
+                <p>Learn how to make your own!</p>
                 <hr>
-            </div>	-->
+            </div>
 
-            <?php include 'ecobricks_env.php';?> 
-
-            
-            
-            <div class="flex-container">
-
-
-<?php
-
-$sql = "SELECT * FROM vw_gallery_feed ;";
-
-    $result = $conn->query($sql);
-
-    if ($result->num_rows > 0) {
- 
-        
-        // output data of each row
-        while($row = $result->fetch_assoc()) {
-
-            //$row = $result->fetch_assoc();
-            
-            echo '<div class="gal-photo">
-            <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["photo_url"].'" style="height:255px" alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></p>';
-            echo '<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><p>'.$row["location"].'</b></p></a>';
-            echo '<p>'.$row["ecobrick_owner"].' logged <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> with a weight of '.$row["weight_in_g"].'&#8202;g and a density of '.$row["density"].'&#8202;g/ml.</p>';
-                
            
-            echo '</div>';
-    
-        }
-        
-        } else {
-            echo "Failed to connect to the Brikchain database";
-        }
-        
-        ?>
-
-    </div>
             
       
         

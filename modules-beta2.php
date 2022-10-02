@@ -143,14 +143,14 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed3">
                 
                 <iframe width="100%" height="500px" src="https://www.youtube.com/embed/9v0VZbBqECA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-                    <p style="font-size: 0.85em; margin-top:10px;">Learn from the GEA Master Trainers in Indonesia how to make ecobrick module</p>
+                    <p style="font-size: 0.9em; margin-top:10px; margin-bottom:0px;">Learn from the GEA Master Trainers in Indonesia how to make ecobrick module</p>
                     <hr>
 
-                    <div class="lead-page-paragraph"><p>Normal, everyday silicone sealant can be used to make mistein modules.</p>
+                    <div class="lead-page-paragraph"><p>Normal, everyday silicone sealant can be used to make mistein modules.</p></div>
 
                     <div class="row">
 						<div class="main2">
-						<p>This is the orginal way to make modules, by using silicone sealant.  Builders' silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrades into microplastics, nor leach toxins or interfere with ecological cycles. Silicone breaks down into silicon and oxygen when it degrades.</p>
+						<p>This is the original way to make modules, by using silicone sealant.  Builders' silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrades into microplastics, nor leach toxins or interfere with ecological cycles. Silicone breaks down into silicon and oxygen when it degrades.</p>
 						
 
 						</div>
@@ -181,7 +181,7 @@ Content Page template: v.1.0.0-->
                 <h4>To Start…</h4>
                 
                 <ul>
-                    <li>Go through your available ecobricks and create a beautiful pattern using the bottom colors of the ecobricks.&nbsp; Arrange you ecobricks in the desired module pattern with the bottom down.</li>
+                    <p><li>Go through your available ecobricks and create a beautiful pattern using the bottom colors of the ecobricks.&nbsp; Arrange you ecobricks in the desired module pattern with the bottom down.</li></p>
                     <li>When you’re pattern is set, remove the cap of the center ecobrick (this will help guide you as the module grows).</li>
                     <li>Insert the silicone tube into your caulking gun and use your knife to cut the top off your silicone tube and the nozzle.&nbsp; Be sure to ecobrick the plastic cuttings!</li>
                 </ul>
