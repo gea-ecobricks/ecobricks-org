@@ -78,13 +78,13 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 73vh;
+		min-height: 73vh;
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
        
 	
-        background-color: #FA8D04;
+        background-color: grey;
 		
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -106,9 +106,8 @@ _END;?>
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		
         
-        background-color: #FA8D04;
+        background-color: grey;
 		
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;

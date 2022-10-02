@@ -60,22 +60,25 @@ Content Page template: v.1.0.0-->
 <a name="top"></a>
 
 <div id="main-content">
+<!-- The flexible grid (content) -->
+	<div class="row">
+		<div class="main">
 
                  
             <div class="row">
                 
                 <div class="main2">
                     <div class="page-paragraph-reg">
-                 
+                    
                         <h4>Learn how to make a great ecobrick!</h4>
                         
-                         <p>Making a great ecobrick isn't easy.  It requires technique, patience and prepared plastic!  See our twelve step ecobrick guide to up your sequestration game.</p>
+                            <p>Making a great ecobrick isn't easy.  It requires technique, patience and prepared plastic!  See our twelve step ecobrick guide to up your sequestration game.</p>
                     
                         <br><p>
                     
                         <a class="action-btn" href="how">🚀 How to Make an Ecobrick</a>
                         <p style="font-size: 0.85em; margin-top:20px;">Our comprehensive 12 step guide.</a></p>    
-        
+
                     </div>
                 </div>
 
@@ -83,29 +86,20 @@ Content Page template: v.1.0.0-->
                     <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                 </div> 
             </div>
-</div>
+        </div>
 
+        <div class="side">
 
-
-    
-	
-
-		<div class="side">
-	
-			
-        <div id="side-module-desktop-mobile">
-					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
-					<h4>Global Ecobrick Alliance</h4>
-					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-					
-				</div>
+            
+            <div id="side-module-desktop-mobile">
+                    <img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
+                    <h4>Global Ecobrick Alliance</h4>
+                    <h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
+                    
+            </div>
                 
-               
-
-		</div>
-
+        </div>
 	</div>
-
 </div>
 
 
