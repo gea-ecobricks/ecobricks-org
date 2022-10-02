@@ -122,8 +122,9 @@ _END;?>
  		 flex-wrap: wrap;
  		 box-sizing: border-box;
 		  flex-direction: row;
-		  width: 100%;
-		  max-width: 100%;
+		  width: 110%;
+  margin-right: -5%;
+  margin-left: -5%;
 		  overflow: hidden;
 
 
