@@ -35,14 +35,15 @@ _END;?>
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: DodgerBlue;
+  background-color: #D4D4D4;
 }
-
+d
 .flex-container > div {
   background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
+  width: 210px;
+  margin: 2px;
+  padding: 10px;
+ /* text-align: center;*/
 }
 
 @media screen and (min-width: 700px) { 
