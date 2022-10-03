@@ -85,7 +85,7 @@ _END;?>
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: #efefef;
+  background-color: #DFDFDF;
   margin-top: -20px;
 }
 
@@ -135,7 +135,7 @@ _END;?>
 @media screen and (max-width: 700px) { 
 
 .flex-container > .gal-photo {
-	background-color: grey;
+	background-color: #DFDFDF;
 	margin: 0px;
 	padding: 2px;
 	width: 60px;
@@ -176,7 +176,7 @@ _END;?>
 		min-height: 67vh;
 		z-index: 5;
 		position: relative;   
-        background-color: grey;
+        background-color: #DFDFDF;
 		display: flex;
  		flex-wrap: wrap;
  		box-sizing: border-box;

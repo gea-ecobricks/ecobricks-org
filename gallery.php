@@ -6,7 +6,7 @@ Content Page template: v.1.0.0-->
 <?php require_once ("includes/gallery-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<div id="feeder-note"><div class="feed-live"><p><span class="blink">⬤  </span> This is a live data feed of selfie ecobrick from the brikchain.  For the full feed see the <a href="brikchain.php">Brikchain Explorer</a>.</p></div>
+<div id="feed-note"><div class="feed-live"><p><span class="blink">⬤  </span> This is a live data feed of selfie ecobrick from the brikchain.  For the full feed see the <a href="brikchain.php">Brikchain Explorer</a>.</p></div>
 			</div>
 </div>
 <!--TOP PAGE BANNER-->
