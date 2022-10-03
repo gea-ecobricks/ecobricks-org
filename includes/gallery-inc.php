@@ -54,8 +54,6 @@ _END;?>
 		background-color: #DFDFDF;
 		margin: 2px;
 		padding: 8px;
-		/*text-align: center;*/
-		padding: 10px;
 		width: 205px;
 		max-width:205px;
 		overflow: hidden;
@@ -96,8 +94,10 @@ _END;?>
 	
 }
 
-.gal-photo {
+.gal-photo img {
 	height: 105px;
+	margin: auto;
+	display: block;
 }
 
 .gal-photo-text {
