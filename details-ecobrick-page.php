@@ -12,7 +12,7 @@ include 'ecobricks_env.php';
 $serialNo = $_GET['serial_no'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM tb_ecobricks_latin1 WHERE serial_no = '" . $serialNo . "'";
+$sql = "SELECT * FROM vw_ecobricks_desc WHERE serial_no = '" . $serialNo . "'";
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -79,6 +79,7 @@ echo '
 			';
 
 			echo '
+			<div class="page-paragraph">
 			<div id="data-chunk">
 				<div class="ecobrick-data">
 					<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</p><br>
@@ -116,21 +117,22 @@ echo '
 			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p>
 			<p>> END RECORD.</p>
 				</div>
+			</div>
 			</div>' ;
 
 			echo '
 			<br><hr><br> 
 			<div class="page-paragraph">
-				<h3>The Brikchain</h3>
-
+				<p><h3>The Brikchain</h3></p>
+			
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
-				<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-				<br><br>
-				<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
+			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+				<br>
+				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
-			</div>
-		</div>';  
+				</div>
+			</div>';  
 
 	}
 
@@ -176,13 +178,13 @@ echo '
 				</p></div><br><br><br><br>
 				
 				<div class="page-paragraph">
-				<h3>The Brikchain</h3>
+				<p><h3>The Brikchain</h3></p>
 			
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
 			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-				<br><br>
-				<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
+				<br>
+				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 				</div>
 			</div>
@@ -225,8 +227,6 @@ echo '
 				<h5>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
-
-			<p>Nôtre-Dame-de-Grâce</p>
 
 
 
