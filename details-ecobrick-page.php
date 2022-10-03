@@ -122,7 +122,7 @@ echo '
 
 			echo '
 			<br><hr><br> 
-			<div class="page-paragraph">
+			<div id="main-content">
 				<p><h3>The Brikchain</h3></p>
 			
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
@@ -132,7 +132,17 @@ echo '
 				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 				</div>
-			</div>';  
+			</div>';
+			
+			echo '	<div class="side">
+
+			<div id="side-module-desktop-mobile">
+					<img src="pngs/authenticated-ecobrick.png" width="90%" alt="Following the Earths example through eco bricking">
+					<br><h4>Authenticated!</h4>
+					<h5>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</h5><br>
+					<a class="module-btn" href="/about">About Ecobricks</a>
+					<br><br>
+				</div>   ';
 
 	}
 
@@ -188,6 +198,8 @@ echo '
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 				</div>
 			</div>
+
+			<div class="side">
 		  
 		';
 		}
@@ -204,15 +216,7 @@ echo '
 			
 
 		
-		<div class="side">
-
-		<div id="side-module-desktop-mobile">
-				<img src="pngs/authenticated-ecobrick.png" width="90%" alt="Following the Earth's example through eco bricking">
-				<br><h4>Authenticated!</h4>
-				<h5>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</h5><br>
-				<a class="module-btn" href="/about">About Ecobricks</a>
-                <br><br>
-			</div>   
+	
 
             <div id="side-module-desktop-mobile">
 				<img src="webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
