@@ -130,6 +130,7 @@
 							<th style="max-width: 150px !important;">Brik</th>
 							<th>Authenticated</th>
 							<th>AES Plastic</th>
+							<th>Maker</th>
 							<th>Value</th>
 							<th>CO2e</th>
 							<th>🔎 Serial</th>
