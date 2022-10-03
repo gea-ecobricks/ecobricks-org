@@ -1,14 +1,30 @@
 
 <!--PAGE LANGUAGE:  ENGLISH
 Special Ecobrick View Page: v.1.0.1-->
+<?php
+$mysqli = new mysqli("localhost","ecobricks_brikchain_viewer","desperate-like-the-Dawn","ecobricks_gobrik_msql_db");
 
+if ($mysqli -> connect_errno) {
+  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+  exit();
+}
+
+echo "Initial character set is: " . $mysqli -> character_set_name();
+
+// Change character set to utf8
+$mysqli -> set_charset("utf8");
+
+echo "Current character set is: " . $mysqli -> character_set_name();
+
+$mysqli -> close();
+?> 
  
 <?php 
 require_once ("includes/details-ecobrick-page-inc.php");
 
 include 'ecobricks_env.php';
 
-include 'tester.php';
+
 
 
 
@@ -16,7 +32,7 @@ include 'tester.php';
 $serialNo = $_GET['serial_no'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM vw_ecobricks_desc WHERE serial_no = '" . $serialNo . "'";
+$sql = "SELECT * FROM tb_ecobricks_utf8mb4 WHERE serial_no = '" . $serialNo . "'";
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {

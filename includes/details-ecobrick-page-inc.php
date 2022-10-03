@@ -32,7 +32,7 @@ _END;?>
 
 <STYLE>
 
-#data-chunk {margin: 12px;}
+#data-chunk {margin: 16px;}
 
 	
 @media screen and (max-width: 700px) { 
