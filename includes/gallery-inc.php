@@ -57,17 +57,19 @@ _END;?>
 		width: 205px;
 		max-width:205px;
 		overflow: hidden;
+		text-align: left;
 		
 	}
 
 	.photo-box {
-		max-height: 275px;
+		height: 300px;
+		max-height: 300px;
 		max-width: 205px;
 		overflow: hidden;
 	}
 
 	.gal-photo img {
-		height: 275px;
+		height: 300px;
 		min-width: 205px;
 
 	}
@@ -93,8 +95,8 @@ _END;?>
 
 .flex-container > .gal-photo {
 	background-color: #DFDFDF;
-	margin: 1px;
-	padding: 3px;
+	margin: 0px;
+	padding: 0px;
 	width: 60px;
 	max-width:60px;
 	overflow: hidden;
@@ -102,20 +104,18 @@ _END;?>
 }
 
 .photo-box {
-		max-height: 100px;
+		max-height: 90px;
 		max-width: 60px;
 		overflow: hidden;
 	}
 
 	.gal-photo img {
-		height: 100px;
+		height: 90px;
 		min-width: 60px;
 		display: block;
 		margin: auto;
 
 	}
-
-
 
 .gal-photo-text {
 
@@ -161,45 +161,44 @@ _END;?>
 
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-		text-align: left;
-		min-height: 73vh;
-		/*padding: 50px 5% 25px 5%;*/
-		margin-bottom: 0px;
+		text-align: center;
+		min-height: 67vh;
 		z-index: 5;
-        background-color: #DFDFDF;
-		margin-top: 45px;
-		width: 100%;
+		position: relative;   
+        background-color: grey;
 		display: flex;
+ 		flex-wrap: wrap;
  		box-sizing: border-box;
-		flex-direction: column;
-	position: relative;
-
+		flex-direction: row;
+		width: 120%;
+  		margin-right: -5%;
+  		margin-left: -5%;
+		margin-top: -3px;
+		margin-bottom: -20px;
+		overflow: hidden;
 	}
+
 }
 
 
 @media screen and (min-width: 700px) { 
-	.splash-content-block {
-		text-align: left;
+	.splash-content-block {		
+		text-align: center;
 		min-height: 67vh;
-		/*padding: 50px 7% 50px 7%;*/
 		z-index: 5;
-		position: relative;
-        
+		position: relative;   
         background-color: grey;
-
-		margin: -3px 0 -20px 0;
 		display: flex;
- 		 flex-wrap: wrap;
- 		 box-sizing: border-box;
-		  flex-direction: row;
-		  width: 120%;
-  margin-right: -5%;
-  margin-left: -5%;
-		  overflow: hidden;
-
-
-}
+ 		flex-wrap: wrap;
+ 		box-sizing: border-box;
+		flex-direction: row;
+		width: 120%;
+  		margin-right: -5%;
+  		margin-left: -5%;
+		margin-top: -3px;
+		margin-bottom: -20px;
+		overflow: hidden;
+	}
 } 
 
 
