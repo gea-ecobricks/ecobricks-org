@@ -9,7 +9,6 @@ require_once ("includes/details-ecobrick-page-inc.php");
 include 'ecobricks_env.php';
 
 
-
 echo "Initial character set is: " . $mysqli -> character_set_name();
 
 // Change character set to utf8
