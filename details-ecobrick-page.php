@@ -226,6 +226,8 @@ echo '
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
 
+			<p>Nôtre-Dame-de-Grâce</p>
+
 
 
 		</div>
