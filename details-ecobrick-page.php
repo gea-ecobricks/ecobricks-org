@@ -1,12 +1,14 @@
 
 <!--PAGE LANGUAGE:  ENGLISH
 Special Ecobrick View Page: v.1.0.1-->
-  
+
  
 <?php 
 require_once ("includes/details-ecobrick-page-inc.php");
 
 include 'ecobricks_env.php';
+
+include 'tester.php';
 
 
 
@@ -81,7 +83,7 @@ echo '
 			';
 
 			echo '
-			<div id="main-content">
+			
 			<div id="data-chunk">
 				<div class="ecobrick-data">
 					<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</p><br>
@@ -120,17 +122,17 @@ echo '
 			<p>> END RECORD.</p>
 				</div>
 			</div>
-			</div>' ;
+			' ;
 
 			echo '
 			<br><hr><br> 
 			<div class="page-paragraph">
-				<p><h3>The Brikchain</h3></p>
+				<h3><p>The Brikchain</p></h3>
 			
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
 			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-				<br>
+				
 				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 				</div>
