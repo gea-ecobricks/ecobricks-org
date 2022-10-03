@@ -8,6 +8,8 @@ require_once ("includes/details-ecobrick-page-inc.php");
 
 include 'ecobricks_env.php';
 
+$mysqli -> set_charset("utf8");
+
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 $serialNo = $_GET['serial_no'];
 
@@ -79,7 +81,7 @@ echo '
 			';
 
 			echo '
-			<div class="page-paragraph">
+			<div id="main-content">
 			<div id="data-chunk">
 				<div class="ecobrick-data">
 					<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</p><br>
@@ -122,7 +124,7 @@ echo '
 
 			echo '
 			<br><hr><br> 
-			<div id="main-content">
+			<div class="page-paragraph">
 				<p><h3>The Brikchain</h3></p>
 			
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
