@@ -107,6 +107,7 @@ _END;?>
 		max-height: 300px;
 		max-width: 205px;
 		overflow: hidden;
+		background: grey;
 	}
 
 	.gal-photo img {
@@ -148,6 +149,7 @@ _END;?>
 		max-height: 90px;
 		max-width: 60px;
 		overflow: hidden;
+		background: grey;
 	}
 
 	.gal-photo img {
