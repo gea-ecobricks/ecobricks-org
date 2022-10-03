@@ -55,8 +55,10 @@ $columns = array(
         }
     ),
     
+    array( 'db' => 'owner',     'dt' => 3 ),
+    
     array( 'db' => 'ecobrick_brk_amt',   
-            'dt'        => 3,
+            'dt'        => 4,
             'formatter' => function( $d, $row ) {
                return '<var>'.number_format($d,2).'&#8202;ß</var>';
         } 
@@ -64,13 +66,13 @@ $columns = array(
 
     array(
         'db'        => 'CO2_kg',
-        'dt'        => 4,
+        'dt'        => 5,
         'formatter' => function( $d, $row ) {
             return '<var>'.number_format($d,2).'&#8202;kg</var>';
         }
     ),
     array( 'db' => 'serial_no',     
-        'dt' => 5,
+        'dt' => 6,
         'formatter' => function( $d, $row ) {
             return '<a href="details-ecobrick-page.php?serial_no='.($d).'">'.($d).'</a>';
         }
