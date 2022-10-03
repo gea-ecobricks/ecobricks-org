@@ -12,7 +12,7 @@ include 'ecobricks_env.php';
 $serialNo = $_GET['serial_no'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM tb_ecobricks_utf8mb4 WHERE serial_no = '" . $serialNo . "'";
+$sql = "SELECT * FROM tb_ecobricks_latin1 WHERE serial_no = '" . $serialNo . "'";
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -49,11 +49,15 @@ echo '
 <div id="main-content">
 	<div class="row">
 		<div class="main">
-			<div class="row">
+			<div class="row">';
 
-				<h1><b>"'. $array["vision"] .'"</b></h1>
+	if ( isset($array["vision"]) && $array["vision"] != '' ) {
+				echo '<h1><b>"'. $array["vision"] .'"</b></h1>' ;
+			}
 
-				<div class="main2">
+				
+
+			echo ' <div class="main2">
 					
 					<div class="lead-page-paragraph">
 						<p><b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</b></p>
