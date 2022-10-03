@@ -1,23 +1,7 @@
 
 <!--PAGE LANGUAGE:  ENGLISH
 Special Ecobrick View Page: v.1.0.1-->
-<?php
-$mysqli = new mysqli("localhost","ecobricks_brikchain_viewer","desperate-like-the-Dawn","ecobricks_gobrik_msql_db");
 
-if ($mysqli -> connect_errno) {
-  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
-  exit();
-}
-
-echo "Initial character set is: " . $mysqli -> character_set_name();
-
-// Change character set to utf8
-$mysqli -> set_charset("utf8");
-
-echo "Current character set is: " . $mysqli -> character_set_name();
-
-$mysqli -> close();
-?> 
  
 <?php 
 require_once ("includes/details-ecobrick-page-inc.php");
@@ -26,7 +10,12 @@ include 'ecobricks_env.php';
 
 
 
+echo "Initial character set is: " . $mysqli -> character_set_name();
 
+// Change character set to utf8
+$mysqli -> set_charset("utf8");
+
+echo "Current character set is: " . $mysqli -> character_set_name();
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 $serialNo = $_GET['serial_no'];
