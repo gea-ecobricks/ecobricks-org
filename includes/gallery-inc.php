@@ -62,8 +62,9 @@ _END;?>
 		
 	}
 
-	.gal-photo > img {
+	.gal-photo img {
 		height: 275px;
+
 	}
 
 	.gal-photo-text {
