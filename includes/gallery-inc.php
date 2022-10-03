@@ -142,7 +142,6 @@ _END;?>
 	width: 60px;
 	max-width:60px;
 	overflow: hidden;
-	
 }
 
 .photo-box {
