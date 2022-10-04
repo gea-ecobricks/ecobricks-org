@@ -52,7 +52,6 @@ _END;?>
 @media screen and (max-width: 700px) {
 .main-details {
   flex: 100%;
-
   box-sizing: border-box;
 }
 }
@@ -67,11 +66,14 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.side-details {
-	display: none;
+		flex: 24%;
+	padding: 20px;
+	box-sizing: border-box;
+	
 	
 	}
 	}
-	
+
 #data-chunk {margin: 16px;}
 
 	
