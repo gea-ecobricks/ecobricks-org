@@ -32,6 +32,8 @@ _END;?>
 
 <STYLE>
 
+#splash-block {margin-bottom: 30px;}
+
 .vision-quote {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #222222;
@@ -51,7 +53,8 @@ _END;?>
       font-size: 4em;
       line-height: 1.3;
       padding: 15px;
-	  margin-top: -20px;
+	  margin-top: -40px;
+	  margin-bottom: -20px;
   }
 }
 
