@@ -64,6 +64,8 @@ animation: blinker 50% 2.5s linear infinite;}
 	}
 }
 
+
+
 .photo-box-end a {
 	color: #dfdfdf;
 text-decoration: none;}
