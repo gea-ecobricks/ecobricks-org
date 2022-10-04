@@ -86,7 +86,7 @@ _END;?>
   display: flex;
   flex-wrap: wrap;
   background-color: #DFDFDF;
-  margin-top: -20px;
+  margin-top: -8px;
 }
 
 @media screen and (min-width: 700px) { 
@@ -210,8 +210,7 @@ _END;?>
 		width: 120%;
   		margin-right: -5%;
   		margin-left: -5%;
-		margin-top: -3px;
-		margin-bottom: -20px;
+		margin-top: 0px;
 		overflow: hidden;
 		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
