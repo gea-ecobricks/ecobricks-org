@@ -32,6 +32,46 @@ _END;?>
 
 <STYLE>
 
+/* Sidebar/right column */
+
+.row-details {  
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 700px) {
+.main-details {
+  flex: 70%;
+
+  padding: 0px;
+  box-sizing: border-box;
+}
+}
+
+@media screen and (max-width: 700px) {
+.main-details {
+  flex: 100%;
+
+  box-sizing: border-box;
+}
+}
+
+@media screen and (min-width: 700px) {
+	.side-details {
+	flex: 30%;
+	padding-left: 10px;
+	box-sizing: border-box;
+		}
+	}
+
+@media screen and (max-width: 700px) {
+	.side-details {
+	display: none;
+	
+	}
+	}
+	
 #data-chunk {margin: 16px;}
 
 	

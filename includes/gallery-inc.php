@@ -32,6 +32,8 @@ _END;?>
 <STYLE>
 
 
+
+
 @media screen and (min-width: 769px) { 
   #feed-note {
     padding: 30px 20px 20px 20px;
@@ -188,6 +190,7 @@ _END;?>
 		margin-top: -3px;
 		margin-bottom: -20px;
 		overflow: hidden;
+		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	}
 
 }
@@ -210,6 +213,7 @@ _END;?>
 		margin-top: -3px;
 		margin-bottom: -20px;
 		overflow: hidden;
+		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 	}
 } 
 

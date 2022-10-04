@@ -51,7 +51,7 @@ echo '
 <div id="main-content">
 	<div class="row">
 		<div class="main">
-			<div class="row">';
+			<div class="row-details">';
 
 	if ( isset($array["vision"]) && $array["vision"] != '' ) {
 				echo '<p><h1>"'. $array["vision"] .'"</h1></p>' ;
@@ -59,7 +59,7 @@ echo '
 
 				
 
-			echo ' <div class="main">
+			echo ' <div class="main-details">
 					
 					<div class="lead-page-paragraph">
 						<p><b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</b></p>
@@ -74,7 +74,7 @@ echo '
 				</div>';
 
 			echo '
-				<div class="side" style="margin-top: 30px";>
+				<div class="side-details" style="margin-top: 30px";>
 					<img src="'. $array["selfie_photo_url"] .'" width="100%">
 				</div>
 			</div>
