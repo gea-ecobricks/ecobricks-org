@@ -54,8 +54,12 @@ echo '
 			<div class="row-details">';
 
 	if ( isset($array["vision"]) && $array["vision"] != '' ) {
-				echo '<p><div class="vision-quote">"'. $array["vision"] .'"</div></p>' ;
+				echo '<p><div class="vision-quote">"'. $array["vision"] .'"</div></p>';
 			}
+			
+			echo '<div class="lead-page-paragraph">
+						<p><b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'.</b></p>
+					</div>';
 
 	
 
@@ -63,9 +67,7 @@ echo '
 
 			echo ' <div class="main-details">
 					
-					<div class="lead-page-paragraph">
-						<p><b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</b></p>
-					</div>
+					
 					
 					<div class="page-paragraph">
 						<p>This ecobrick was with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p>
