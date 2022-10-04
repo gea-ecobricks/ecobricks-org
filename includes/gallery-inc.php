@@ -191,6 +191,8 @@ _END;?>
 		margin-bottom: -20px;
 		overflow: hidden;
 		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+		margin-bottom: 40px;
+		padding-bottom: 15px;
 	}
 
 }
@@ -214,6 +216,9 @@ _END;?>
 		margin-bottom: -20px;
 		overflow: hidden;
 		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+		margin-bottom: 40px;
+		padding-bottom: 15px;
+
 	}
 } 
 

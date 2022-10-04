@@ -54,7 +54,11 @@ echo '
 			<div class="row-details">';
 
 	if ( isset($array["vision"]) && $array["vision"] != '' ) {
-				echo '<p><h1>"'. $array["vision"] .'"</h1></p>' ;
+				echo '<h1><p>"'. $array["vision"] .'"</p></h1>' ;
+			}
+
+			if ( isset($array["vision"]) && $array["vision"] != '' ) {
+				echo '<p><div class="quote>"'. $array["vision"] .'"</div></p>' ;
 			}
 
 				
