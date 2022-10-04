@@ -192,10 +192,10 @@ _END;?>
   position: relative;
   text-align: left;
 
-  width: fit-content;
+  width: 100%;
 	padding: 0px;
 	box-sizing: border-box;
-	margin: 32px 8% -25px 0%;
+	margin: 32px 8% -25px 4%;
 }
 }
 
