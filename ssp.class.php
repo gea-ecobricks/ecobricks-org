@@ -406,7 +406,7 @@ class SSP {
 				$sql_details['user'],
 				$sql_details['pass'],
 				array( PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION )
-			);
+			);  
 		}
 		catch (PDOException $e) {
 			self::fatal(
