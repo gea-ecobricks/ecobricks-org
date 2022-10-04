@@ -31,6 +31,24 @@ _END;?>
 
 <STYLE>
 
+@media screen and (max-width: 768px) { 
+.photo-box-end {
+max-height: 90px;
+max-width: 60px;
+overflow: hidden;
+background: grey;
+line-height: 92px;
+color: white;
+text-align: center;
+font-size: 2.5em;
+padding: none;
+text-decoration: none;
+animation: blinker 1.5s linear infinite;}
+}
+
+@media screen and (min-width: 769px) { 
+
+
 
 @media screen and (min-width: 769px) { 
   #feed-note {
