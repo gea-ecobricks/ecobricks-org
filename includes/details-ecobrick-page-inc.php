@@ -40,9 +40,10 @@ _END;?>
 }
 @media screen and (max-width: 769px) {
 	.vision-quote {
-      font-size: 2.75em;
+      font-size: 2.7em;
       line-height: 1.2;
-      padding: 10px 16px 0px 16px;
+      padding: 10px 5%px 0px 5%;
+	  margin-bottom: -8px;
   }
 }
 @media screen and (min-width: 769px) {
@@ -63,7 +64,7 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 .main-details {
-  flex: 70%;
+  flex: 60%;
 
   padding: 0px;
   box-sizing: border-box;
@@ -79,17 +80,22 @@ _END;?>
 
 @media screen and (min-width: 700px) {
 	.side-details {
-	flex: 30%;
+	flex: 40%;
 	padding-left: 10px;
 	box-sizing: border-box;
+	margin-top: 30px;
+	background: #ECECEC;
+	padding: 10px;
 		}
 	}
 
 @media screen and (max-width: 700px) {
 	.side-details {
-		flex: 24%;
-	padding: 20px;
+	flex: 90%;
+	margin: 5%;
 	box-sizing: border-box;
+	background: #ECECEC;
+	padding: 10px;
 	
 	
 	}
