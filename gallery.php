@@ -21,7 +21,7 @@ Content Page template: v.1.0.0-->
             
         <div class="flex-container">
             <div class="gal-photo" style="background:grey;">
-                <div class="photo-box"></div>
+                <div class="photo-box">...</div>
                 <div class="gal-photo-text"></div>
              </div>
          
@@ -56,6 +56,10 @@ Content Page template: v.1.0.0-->
             }
 
             ?>
+        <div class="gal-photo" style="background:grey;">
+                <div class="photo-box">+</div>
+                <div class="gal-photo-text"></div>
+             </div>
         </div>
 </div>
 
