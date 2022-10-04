@@ -1,28 +1,13 @@
 
 <!--PAGE LANGUAGE:  ENGLISH
 Special Ecobrick View Page: v.1.0.1-->
-<?php
-$mysqli = new mysqli("localhost","ecobricks_brikchain_viewer","desperate-like-the-Dawn","ecobricks_gobrik_msql_db");
-
-if ($mysqli -> connect_errno) {
-  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
-  exit();
-}
-
-echo "Initial character set is: " . $mysqli -> character_set_name();
-
-// Change character set to utf8
-$mysqli -> set_charset("utf8");
-
-echo "Current character set is: " . $mysqli -> character_set_name();
-
-$mysqli -> close();
-?> 
  
 <?php 
 require_once ("includes/details-ecobrick-page-inc.php");
 
 include 'ecobricks_env.php';
+
+include 'ssp.class.php';
 
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
@@ -69,12 +54,12 @@ echo '
 			<div class="row">';
 
 	if ( isset($array["vision"]) && $array["vision"] != '' ) {
-				echo '<h1><b>"'. $array["vision"] .'"</b></h1>' ;
+				echo '<p><h1>"'. $array["vision"] .'"</h1></p>' ;
 			}
 
 				
 
-			echo ' <div class="main2">
+			echo ' <div class="main">
 					
 					<div class="lead-page-paragraph">
 						<p><b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</b></p>
@@ -89,7 +74,7 @@ echo '
 				</div>';
 
 			echo '
-				<div class="side2" style="margin-top: 30px";>
+				<div class="side" style="margin-top: 30px";>
 					<img src="'. $array["selfie_photo_url"] .'" width="100%">
 				</div>
 			</div>
