@@ -134,7 +134,6 @@ _END;?>
 	}
 }
 
-
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
