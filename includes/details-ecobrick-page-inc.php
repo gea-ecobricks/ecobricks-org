@@ -190,11 +190,11 @@ _END;?>
   z-index: 5;
   position: relative;
   text-align: left;
-  flex: 25%;
-  width: 270px;
+
+  width: 275px;
 	padding: 0px;
 	box-sizing: border-box;
-	margin: 25px 0px 0px 20px;
+	margin: 35px 0px 10px 10px;
 }
 }
 
