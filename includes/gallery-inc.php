@@ -32,8 +32,6 @@ _END;?>
 <STYLE>
 
 
-
-
 @media screen and (min-width: 769px) { 
   #feed-note {
     padding: 30px 20px 20px 20px;

@@ -32,6 +32,27 @@ _END;?>
 
 <STYLE>
 
+.vision-quote {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: #222222;
+  font-weight: 300;
+  text-shadow: 0 0 10px #fff;
+}
+@media screen and (max-width: 769px) {
+	.vision-quote {
+      font-size: 3.1em;
+      line-height: 1.2;
+      margin: 10px 0;
+  }
+}
+@media screen and (min-width: 769px) {
+	.vision-quote {
+      font-size: 4em;
+      line-height: 1.3;
+      margin: 40px 0 10px;
+  }
+}
+
 /* Sidebar/right column */
 
 .row-details {  
