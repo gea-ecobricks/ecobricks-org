@@ -46,7 +46,16 @@ text-decoration: none;
 animation: blinker 1.5s linear infinite;}
 }
 
+
 @media screen and (min-width: 769px) { 
+	.photo-box-end {
+		height: 300px;
+		max-height: 300px;
+		max-width: 205px;
+		overflow: hidden;
+		background: grey;
+	}
+}
 
 
 
