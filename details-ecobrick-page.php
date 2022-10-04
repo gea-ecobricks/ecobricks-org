@@ -26,7 +26,7 @@ if ($result->num_rows > 0) {
 
 
 echo 
-'<div id="splash-block"><div class="splash-content-block">
+'<div class="splash-content-block">
 	<div class="splash-box">
 
 		<div class="splash-heading">Ecobrick ' . $array["serial_no"] .'</div>
@@ -45,7 +45,7 @@ echo
 </div>
 
 <div id="splash-bar"></div>
-</div>';
+';
 
 echo '
 <a name="top"></a>
