@@ -42,8 +42,8 @@ _END;?>
 	.vision-quote {
       font-size: 2.7em;
       line-height: 1.2;
-      padding: 10px 5%px 0px 5%;
-	  margin-bottom: -8px;
+      padding: 10px 5% 0px 5%;
+	  margin-bottom: -11px;
   }
 }
 @media screen and (min-width: 769px) {
@@ -51,6 +51,7 @@ _END;?>
       font-size: 4em;
       line-height: 1.3;
       padding: 15px;
+	  margin-top: -20px;
   }
 }
 
@@ -86,13 +87,14 @@ _END;?>
 	margin-top: 30px;
 	background: #ECECEC;
 	padding: 10px;
+	height: fit-content;
 		}
 	}
 
 @media screen and (max-width: 700px) {
 	.side-details {
 	flex: 90%;
-	margin: 5%;
+	margin: 0 5% 0 5% 5%;
 	box-sizing: border-box;
 	background: #ECECEC;
 	padding: 10px;
