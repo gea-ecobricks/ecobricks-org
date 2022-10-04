@@ -32,7 +32,7 @@ _END;?>
 
 <STYLE>
 
-#splash-block {height: fit-content;}
+
 
 .main {margin-top: 50px;}
 
@@ -114,7 +114,7 @@ _END;?>
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		height: 73vh;
+		min-height: 73vh;
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;

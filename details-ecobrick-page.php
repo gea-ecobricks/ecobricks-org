@@ -84,12 +84,13 @@ echo '
 				echo '<div class="side-details">
 				<img src="'. $array["selfie_photo_url"] .'" width="100%">
 			</div>
-		</div>';
+		';
 			}
 				
 
 			echo '
 			
+			</div>
 			<div id="data-chunk">
 				<div class="ecobrick-data">
 					<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</p><br>
