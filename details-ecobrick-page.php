@@ -78,7 +78,7 @@ echo '
 				</div>';
 
 			echo '
-				<div class="side-details" style="margin-top: 30px";>
+				<div class="side-details">
 					<img src="'. $array["selfie_photo_url"] .'" width="100%">
 				</div>
 			</div>
