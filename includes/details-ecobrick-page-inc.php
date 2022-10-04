@@ -33,9 +33,6 @@ _END;?>
 <STYLE>
 
 
-
-.main {margin-top: 50px;}
-
 .vision-quote {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #222222;
