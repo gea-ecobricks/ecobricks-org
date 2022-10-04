@@ -78,12 +78,15 @@ echo '
 					</div>
 				</div>';
 
-			echo '
-				<div class="side-details">
-					<img src="'. $array["selfie_photo_url"] .'" width="100%">
-				</div>
+			
+
+			if ( isset($array["selfie_photo_url"]) && $array["selfie_photo_url"] != '' ) {
+				echo '<div class="side-details">
+				<img src="'. $array["selfie_photo_url"] .'" width="100%">
 			</div>
-			';
+		</div>';
+			}
+				
 
 			echo '
 			
