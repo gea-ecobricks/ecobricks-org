@@ -38,7 +38,7 @@ max-width: 60px;
 overflow: hidden;
 background: grey;
 line-height: 92px;
-color: white;
+color: #000000;
 text-align: center;
 font-size: 2.5em;
 padding: none;
@@ -56,6 +56,9 @@ animation: blinker 1.5s linear infinite;}
 		background: grey;
 	}
 }
+
+.photo-box-end a {color: #000000;
+text-decoration: none;}
 
 
 
