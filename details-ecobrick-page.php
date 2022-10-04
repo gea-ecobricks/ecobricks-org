@@ -49,18 +49,19 @@ echo
 echo '
 <a name="top"></a>
 <div id="main-content">
-	<div class="row">';
-		
-
-if ( isset($array["vision"]) && $array["vision"] != '' ) {
-	echo '<p><div class="vision-quote>"'. $array["vision"] .'"</div></p>' ;
-}
-
-
-echo ' 
+	<div class="row">
 		<div class="main">
-			<div class="row-details">
-				<div class="main-details">
+			<div class="row-details">';
+
+	if ( isset($array["vision"]) && $array["vision"] != '' ) {
+				echo '<p><div class="vision-quote">"'. $array["vision"] .'"</div></p>' ;
+			}
+
+	
+
+				
+
+			echo ' <div class="main-details">
 					
 					<div class="lead-page-paragraph">
 						<p><b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</b></p>

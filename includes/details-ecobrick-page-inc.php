@@ -42,14 +42,14 @@ _END;?>
 	.vision-quote {
       font-size: 3.1em;
       line-height: 1.2;
-      margin: 10px 0;
+      padding: 10px;
   }
 }
 @media screen and (min-width: 769px) {
 	.vision-quote {
       font-size: 4em;
       line-height: 1.3;
-      margin: 40px 0 10px;
+      padding: 15px;
   }
 }
 
