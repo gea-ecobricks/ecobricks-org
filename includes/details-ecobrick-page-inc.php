@@ -32,6 +32,8 @@ _END;?>
 
 <STYLE>
 
+#splash-block {height: fit-content;}
+
 .main {margin-top: 50px;}
 
 .vision-quote {
@@ -294,18 +296,7 @@ margin-top: 31px;
 margin-bottom: 31px;}
 
 
- /*
-p {
-	font-size: 0.9em;
-  	color: #222222;
-  	line-height: 1.3;
-	margin-top: 12px;
-	font-weight: 300;
-}
 
-b {font-weight: 500;}
-
-*/
 
 
 </style>
