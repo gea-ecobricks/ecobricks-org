@@ -40,7 +40,7 @@ _END;?>
 }
 @media screen and (max-width: 769px) {
 	.vision-quote {
-      font-size: 2.7em;
+      font-size: 2.5em;
       line-height: 1.2;
       padding: 10px 6% 0px 6%;
 	  margin-bottom: -16px;
@@ -194,7 +194,7 @@ _END;?>
   width: 275px;
 	padding: 0px;
 	box-sizing: border-box;
-	margin: 35px 0px 10px 10px;
+	margin: 35px 0px 10px 9px;
 }
 }
 
