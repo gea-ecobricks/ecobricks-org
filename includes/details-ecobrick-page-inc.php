@@ -32,7 +32,7 @@ _END;?>
 
 <STYLE>
 
-#splash-block {margin-bottom: 30px;}
+.main {margin-top: 50px;}
 
 .vision-quote {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
@@ -42,10 +42,10 @@ _END;?>
 }
 @media screen and (max-width: 769px) {
 	.vision-quote {
-      font-size: 2.5em;
+      font-size: 2.4em;
       line-height: 1.2;
       padding: 10px 6% 0px 6%;
-	  margin-bottom: -16px;
+	  margin-bottom: -18px;
   }
 }
 @media screen and (min-width: 769px) {
