@@ -49,9 +49,9 @@ animation: blinker 50% 2.5s linear infinite;}
 
 @media screen and (min-width: 769px) { 
 	.photo-box-end {
-		height: 300px;
-		max-height: 300px;
-		max-width: 205px;
+
+		max-height: 225px;
+		max-width: 120px;
 		overflow: hidden;
 		background: grey;
 		line-height: 92px;
@@ -68,7 +68,7 @@ animation: blinker 50% 2.5s linear infinite;}
 
 .photo-box-end a {
 	color: #dfdfdf;
-text-decoration: none;}
+	text-decoration: none;}
 
 
 
@@ -143,16 +143,15 @@ text-decoration: none;}
 	}
 
 	.photo-box {
-		height: 300px;
-		max-height: 300px;
-		max-width: 205px;
+		max-height: 225px;
+		max-width: 120px;
 		overflow: hidden;
 		background: grey;
 	}
 
 	.gal-photo img {
-		height: 300px;
-		min-width: 205px;
+		max-height: 225px;
+		max-width: 120px;
 
 	}
 
