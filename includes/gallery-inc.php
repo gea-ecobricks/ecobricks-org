@@ -86,7 +86,7 @@ _END;?>
 	.photo-box-end {
 
 		height: 200px;
-		width: 100%;
+		width: 100px;
 		overflow: hidden;
 		background: grey;
 		line-height: 92px;
@@ -127,6 +127,7 @@ _END;?>
 
 	.photo-box-end {
 		max-height: 90px;
+		width: 30px;
 	
 		overflow: hidden;
 		background: grey;
