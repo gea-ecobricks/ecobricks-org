@@ -54,20 +54,17 @@ _END;?>
 		max-height: 200px;
 		overflow: hidden;
 		text-align: center;
-		
 	}
 
 	.photo-box {
 		max-height: 225px;
-
 		overflow: hidden;
-		background: grey;
+		/*background: grey;*/
 	}
 
 	.gal-photo img {
 		max-height: 200px;
 		height: 200px;
-
 	}
 
 	/*
@@ -89,7 +86,7 @@ _END;?>
 	.photo-box-end {
 
 		height: 200px;
-		width: 130px;
+		width: 100%;
 		overflow: hidden;
 		background: grey;
 		line-height: 92px;
@@ -141,18 +138,6 @@ _END;?>
 		text-decoration: none;
 		animation: blinker 50% 2.5s linear infinite;}
 }
-
-	/*.gal-photo-text {
-
-		display: none;
-	}
-
-	.gal-photo p {
-		font-size: 0.9em;
-	}*/
-
-}
-
 
 
 
