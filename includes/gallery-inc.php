@@ -105,21 +105,21 @@ _END;?>
 		background-color: #DFDFDF;
 		margin: 0px;
 		padding: 2px;
-		width: 60px;
-		max-width:60px;
+		height: 90px;
+
 		overflow: hidden;
 	}
 
 	.photo-box {
 		max-height: 90px;
-		max-width: 60px;
+
 		overflow: hidden;
 		background: grey;
 	}
 
 	.gal-photo img {
 		height: 90px;
-		min-width: 60px;
+
 		display: block;
 		margin: auto;
 
@@ -127,7 +127,7 @@ _END;?>
 
 	.photo-box-end {
 		max-height: 90px;
-		max-width: 60px;
+	
 		overflow: hidden;
 		background: grey;
 		line-height: 75px;
