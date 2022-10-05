@@ -216,9 +216,9 @@ _END;?>
 		margin-top: -3px;
 		margin-bottom: -20px;
 		overflow: hidden;
-		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
-		padding-bottom: 15px;
+		padding-bottom: 15px;*/
 	}
 
 }
@@ -240,9 +240,9 @@ _END;?>
   		margin-left: -5%;
 		margin-top: 0px;
 		overflow: hidden;
-		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
-		padding-bottom: 15px;
+		padding-bottom: 15px;*/
 
 	}
 } 

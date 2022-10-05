@@ -57,6 +57,8 @@ Content Page template: v.1.0.0-->
                 <div class="gal-photo-text"></div>
              </div>
         </div>
+        <div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
+	</div>
 </div>
 
 
@@ -74,7 +76,8 @@ Content Page template: v.1.0.0-->
 
             <div class="page-paragraph-reg">
             
-                <h2>Learn how to make a great ecobrick too!</h2>
+                <br>
+                    <h2>Learn how to make a great ecobrick too!</h2>
                 
                     <p>Making a great ecobrick isn't easy.  But it is straightforward!  All you need is the right technique, patience and prepared plastic.</p>
                     
