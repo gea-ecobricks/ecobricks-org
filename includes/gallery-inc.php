@@ -95,7 +95,7 @@ _END;?>
 		font-size: 2.5em;
 		padding: none;
 		text-decoration: none;
-		animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
+		animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
 
 }
 
@@ -136,7 +136,8 @@ _END;?>
 		font-size: 2.5em;
 		padding: none;
 		text-decoration: none;
-		animation: blinker 50% 2.5s linear infinite;}
+		animation: blinker 50% 2.5s linear infinite;
+	}
 }
 
 
