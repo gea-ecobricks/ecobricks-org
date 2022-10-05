@@ -402,11 +402,11 @@ class SSP {
 	{
 		try {
 			$db = @new PDO(
-				"mysql:host={$sql_detail['host']};dbname={$sql_detail['db']};charset=utf8mb4;",
+				"mysql:host={$sql_details['host']};dbname={$sql_details['db']};charset=utf8mb4;",
 				$sql_details['user'],
 				$sql_details['pass'],
 				array( PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION )
-			);  
+			);
 		}
 		catch (PDOException $e) {
 			self::fatal(

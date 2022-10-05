@@ -8,7 +8,7 @@ Content Page template: v.1.0.0-->
 <!--This is the message indicating it is a live feed-->
 <div id="feed-note">
     <a href="#" style="text-decoration: none; float: right; " onclick="this.parentNode.style.display = 'none'" > ❎ </a><br>
-    <div class="feed-live"><p><span class="blink">⬤  </span> Live feed of authenticated selfie ecobricks from the <a href="brikchain.php">Brikchain</a>.  Click any brik to view.</p></div>
+    <div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
 	</div>
 </div>
 
@@ -20,10 +20,10 @@ Content Page template: v.1.0.0-->
           
             
         <div class="flex-container">
-            <div class="gal-photo">
+         <!--   <div class="gal-photo">
                 <div class="photo-box-end"><a href="brikchain.php">...</a></div>
                 <div class="gal-photo-text"></div>
-             </div>
+             </div>-->
          
             
 
@@ -42,11 +42,7 @@ Content Page template: v.1.0.0-->
             //$row = $result->fetch_assoc();
 
             echo '<div class="gal-photo"><div class="photo-box">
-            <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
-            echo '<div class="gal-photo-text"><p><b>'.$row["location"].'</b></p>';
-            echo '<p>'.$row["ecobrick_owner"].' logged <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> with a weight of '.$row["weight_in_g"].'&#8202;g and a density of '.$row["density"].'&#8202;g/ml.</p></div>';
-                
-
+            <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
             echo '</div>';
 
             }
