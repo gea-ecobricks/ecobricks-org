@@ -57,7 +57,7 @@ Content Page template: v.1.0.0-->
                 <div class="gal-photo-text"></div>
              </div>
             <!-- <div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>-->
-            
+
         </div>
         
 	</div>
@@ -79,13 +79,14 @@ Content Page template: v.1.0.0-->
             <div class="page-paragraph-reg">
             
                 <br>
-                    <h2>Learn how to make a great ecobrick too!</h2>
+                <h1>Let the next Ecobrick be yours!</h1>
+                    <h2>Learn how to make a great ecobrick too.</h2>
                 
-                    <p>Making a great ecobrick isn't easy.  But it is straightforward!  All you need is the right technique, patience and prepared plastic.</p>
+                    <p>Ecobricking is a simple technique to take responsibility for your plastic and accelerate your <a href="transition.php">plastic transition</a>.  While making a great ecobrick isn't easy-- it is straightforward!  All you need is the right technique, patience and prepared plastic.</p>
                     
-                    <p>When you're done, you can log it on our GoBrik app.  This way you track the plastic you and your community have sequestered, use and trade the ecobricks with projects-- and have your ecobrick recorded for posterity on the Brikchain.  This way anyone can look up the full details of an ecobrick using the serial number inscribed upon it.</p>
+                    <p>Then, when you're done, you can log it on our GoBrik app.  Its a away to add your energy to global plastic transition movement.  GoBrik, let's you track the plastic you and your community have sequestered.  Logged ecobricks are added to our manual blockcahin.  There they can be applied to projects, traded and more.  With its unique serial anyone can look up the full details of an ecobrick using the serial number inscribed upon it.</p>
                         
-                    <p>Get started with our twelve step ecobrick guide to up your sequestration game.</p>
+                    <p>Get started with our twelve step guide to making a great ecobrick.</p>
             
                 <br><p>
             
