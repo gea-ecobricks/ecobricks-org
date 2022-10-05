@@ -56,7 +56,8 @@ echo '
 			<div class="row-details">';
 
 	if ( isset($array["vision"]) && $array["vision"] != '' ) {
-				echo '<p><div class="vision-quote">'. $array["vision"] .'</div></p>';
+			//	echo '<p><div class="vision-quote">'. $array["vision"] .'</div></p>';
+		                echo '<p><div class="vision-quote"> "'. str_replace('"', "", $array["vision"]) . '"  </div></p>';
 			}
 			
 			echo '<div class="lead-page-paragraph">
