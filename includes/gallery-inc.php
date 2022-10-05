@@ -88,8 +88,8 @@ _END;?>
 
 	.photo-box-end {
 
-		max-height: 225px;
-		max-width: 120px;
+		height: 200px;
+		width: 130px;
 		overflow: hidden;
 		background: grey;
 		line-height: 92px;
