@@ -31,23 +31,62 @@ _END;?>
 
 <STYLE>
 
-@media screen and (max-width: 768px) { 
-.photo-box-end {
-max-height: 90px;
-max-width: 60px;
-overflow: hidden;
-background: grey;
-line-height: 92px;
-color: #dfdfdf;
-text-align: center;
-font-size: 2.5em;
-padding: none;
-text-decoration: none;
-animation: blinker 50% 2.5s linear infinite;}
+
+
+
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #DFDFDF;
+  margin-top: -8px;
 }
 
 
-@media screen and (min-width: 769px) { 
+@media screen and (min-width: 700px) { 
+
+	.flex-container > .gal-photo {
+		background-color: #DFDFDF;
+		margin: 2px;
+		padding: 2px;
+		max-height: 225px;
+		max-width: 120px;
+		overflow: hidden;
+		text-align: center;
+		
+	}
+
+	.photo-box {
+		max-height: 225px;
+		max-width: 120px;
+		overflow: hidden;
+		background: grey;
+	}
+
+	.gal-photo img {
+		max-height: 225px;
+		max-width: 120px;
+		height: 225px;
+
+	}
+
+	.gal-photo-text {
+		background-color: #DFDFDF;
+		margin: 2px;
+		text-align: center;
+		padding: 8px;
+		width: 205px;
+		max-width:205px;
+		overflow: hidden;
+			margin-bottom: 0px;
+	}
+
+	.gal-photo p {
+		font-size: 0.9em;
+	}
+
 	.photo-box-end {
 
 		max-height: 225px;
@@ -61,8 +100,60 @@ animation: blinker 50% 2.5s linear infinite;}
 		padding: none;
 		text-decoration: none;
 		animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
-	}
+
 }
+
+@media screen and (max-width: 700px) { 
+
+	.flex-container > .gal-photo {
+		background-color: #DFDFDF;
+		margin: 0px;
+		padding: 2px;
+		width: 60px;
+		max-width:60px;
+		overflow: hidden;
+	}
+
+	.photo-box {
+		max-height: 90px;
+		max-width: 60px;
+		overflow: hidden;
+		background: grey;
+	}
+
+	.gal-photo img {
+		height: 90px;
+		min-width: 60px;
+		display: block;
+		margin: auto;
+
+	}
+
+	.photo-box-end {
+		max-height: 90px;
+		max-width: 60px;
+		overflow: hidden;
+		background: grey;
+		line-height: 92px;
+		color: #dfdfdf;
+		text-align: center;
+		font-size: 2.5em;
+		padding: none;
+		text-decoration: none;
+		animation: blinker 50% 2.5s linear infinite;}
+}
+
+	/*.gal-photo-text {
+
+		display: none;
+	}
+
+	.gal-photo p {
+		font-size: 0.9em;
+	}*/
+
+}
+
 
 
 
@@ -95,20 +186,20 @@ animation: blinker 50% 2.5s linear infinite;}
  @media screen and (max-width: 768px) { 
         #feed-note {
 			padding: 15px 10px 15px 15px;
-    background-color: #FDE21F;
-    font-family: Mulish;
-    font-size: 0.7em;
-    line-height: 1.1;
-    font-weight: 400;
-    text-align: left;
-    border-radius: 8px;
-    margin-top: -30px;
-    width: 60%;
-    position: absolute;
-    top: 110px;
-    z-index: 6;
-    right: 10px;
-    box-shadow: 0 4px 4px rgba(85, 84, 84, 0.4);
+			background-color: #FDE21F;
+			font-family: Mulish;
+			font-size: 0.7em;
+			line-height: 1.1;
+			font-weight: 400;
+			text-align: left;
+			border-radius: 8px;
+			margin-top: -30px;
+			width: 60%;
+			position: absolute;
+			top: 110px;
+			z-index: 6;
+			right: 10px;
+			box-shadow: 0 4px 4px rgba(85, 84, 84, 0.4);
         }
         }
 
@@ -119,93 +210,6 @@ animation: blinker 50% 2.5s linear infinite;}
   line-height: 1.3;
   margin-top: 5px;
   font-weight: 300;
-
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #DFDFDF;
-  margin-top: -8px;
-}
-
-@media screen and (min-width: 700px) { 
-
-	.flex-container > .gal-photo {
-		background-color: #DFDFDF;
-		margin: 2px;
-		padding: 8px;
-		width: 205px;
-		max-width:205px;
-		overflow: hidden;
-		text-align: left;
-		
-	}
-
-	.photo-box {
-		max-height: 225px;
-		max-width: 120px;
-		overflow: hidden;
-		background: grey;
-	}
-
-	.gal-photo img {
-		max-height: 225px;
-		max-width: 120px;
-
-	}
-
-	.gal-photo-text {
-		background-color: #DFDFDF;
-		margin: 2px;
-		text-align: center;
-		padding: 8px;
-		width: 205px;
-		max-width:205px;
-		overflow: hidden;
-			margin-bottom: 0px;
-	}
-
-	.gal-photo p {
-		font-size: 0.9em;
-	}
-
-}
-
-@media screen and (max-width: 700px) { 
-
-.flex-container > .gal-photo {
-	background-color: #DFDFDF;
-	margin: 0px;
-	padding: 2px;
-	width: 60px;
-	max-width:60px;
-	overflow: hidden;
-}
-
-.photo-box {
-		max-height: 90px;
-		max-width: 60px;
-		overflow: hidden;
-		background: grey;
-	}
-
-	.gal-photo img {
-		height: 90px;
-		min-width: 60px;
-		display: block;
-		margin: auto;
-
-	}
-
-.gal-photo-text {
-
-	display: none;
-}
-
-.gal-photo p {
-	font-size: 0.9em;
-}
 
 }
 
