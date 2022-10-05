@@ -130,14 +130,14 @@ _END;?>
 		max-width: 60px;
 		overflow: hidden;
 		background: grey;
-		line-height: 92px;
+		line-height: 75px;
 		color: #dfdfdf;
 		text-align: center;
-		font-size: 2.5em;
+		font-size: 2em;
 		padding: none;
 		text-decoration: none;
-		animation: blinker 50% 2.5s linear infinite;
-	}
+		animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
+	
 }
 
 

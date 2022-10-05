@@ -52,12 +52,13 @@ Content Page template: v.1.0.0-->
             }
 
             ?>
-        <div class="gal-photo">
+            <div class="gal-photo">
                 <div class="photo-box-end"><a href="brikchain.php">+</a></div>
                 <div class="gal-photo-text"></div>
              </div>
+             <div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
         </div>
-        <div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
+        
 	</div>
 </div>
 
