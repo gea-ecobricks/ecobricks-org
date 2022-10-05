@@ -80,7 +80,7 @@ Content Page template: v.1.0.0-->
             
                 <br>
                 <h1>Let the next Ecobrick be yours!</h1>
-                    <h2>Learn how to make a great ecobrick too.</h2>
+                    <h3>Learn how to make a great ecobrick too.</h3>
                 
                     <p>Ecobricking is a simple technique to take responsibility for your plastic and accelerate your <a href="transition.php">plastic transition</a>.  While making a great ecobrick isn't easy-- it is straightforward!  All you need is the right technique, patience and prepared plastic.</p>
                     
