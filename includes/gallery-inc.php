@@ -86,14 +86,14 @@ _END;?>
 	.photo-box-end {
 
 		height: 200px;
-		width: 100px;
+		width: 150px;
 		overflow: hidden;
 		background: grey;
 		line-height: 92px;
 		color: #dfdfdf;
 		text-align: center;
 		font-size: 2.5em;
-		padding: none;
+		padding: 2px;
 		text-decoration: none;
 		animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
 
