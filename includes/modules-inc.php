@@ -33,6 +33,10 @@ _END;?>
 
 <STYLE>
 
+.action-btn {
+	background-color: #23A3E8
+}
+
 
 @media screen and (min-width: 700px) { 
 .flex-gallery {

@@ -1,3 +1,5 @@
+<!-- ENGLISH ECOBRICK DETAILS PAGE -->
+
 <?php
 
 include 'ecobricks_env.php';

@@ -1,5 +1,5 @@
 
-<!--PAGE LANGUAGE:  ENGLISH
+<!--PAGE LANGUAGE:  FRENCH
 Special Ecobrick View Page: v.1.1-->
   
  

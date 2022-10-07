@@ -59,6 +59,7 @@ echo '
 			//	echo '<p><div class="vision-quote">'. $array["vision"] .'</div></p>';
 		                echo '<p><div class="vision-quote"> "'. str_replace('"', "", $array["vision"]) . '"  </div></p>';
 			}
+	
 			
 			echo '<div class="lead-page-paragraph">
 						<p><b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'.</b></p>
