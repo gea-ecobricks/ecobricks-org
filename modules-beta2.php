@@ -412,7 +412,7 @@ Content Page template: v.1.0.0-->
                 </div>
 
                 <div class="side2">
-                    <br><img src="webp/dieleman-325px.webp" width="90%" alt="ecobrick dieleman lego module" loading="lazy">
+                    <br><img src="webp/dieleman-325px.webp" width="90%" alt="ecobrick dieleman lego module 18 ecobricks" loading="lazy">
                 </div>
             </div>
 </div>

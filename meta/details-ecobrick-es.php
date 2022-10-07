@@ -26,7 +26,7 @@ if ($result->num_rows > 0) {
 		                echo '<meta name="description" content="'. str_replace('"', "", $array["vision"]) . '">';
 			}
 
-		echo '<meta name="keywords" content="ecobrick, serial '. $array["owner"] .', '. $array["owner"] .', ecobrick, brik, brikchain, brikcoin, eco brik record, plastic sequestration, plastic, ecological service, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["location_full"] .'">';
+		echo '<meta name="keywords" content="ecobrick, ecoladrillo, serial '. $array["owner"] .', '. $array["owner"] .', ecobrick, brik, brikchain, brikcoin, eco brik record, plastic sequestration, plastic, ecological service, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["location_full"] .'">';
 
         echo '<meta property="og:url"           content="https://ecobricks.org/es/details-ecobrick-page.php?serial_no='. $array["serial_no"] .'"/>' ;
         echo '<meta property="og:title"         content="Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .'g de plástico secuestrado por '. $array["owner"] .' in '. $array["location_full"] .'.">';
