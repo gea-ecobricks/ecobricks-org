@@ -12,7 +12,6 @@ Content Page template: v.1.0.1-->
 
 <!--SPLASH SECTION-->
 
- 
 
 <div class="splash-content-block">
 	<div class="splash-box">
