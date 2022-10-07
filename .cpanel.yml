@@ -37,7 +37,6 @@ deployment:
   - /bin/cp ajax-ecobricks.php $DEPLOYPATH
   - /bin/cp ajax-cash-trans.php $DEPLOYPATH
   - /bin/cp ajax-brk-trans.php $DEPLOYPATH
-  - /bin/cp details-ecobrick-page.php $DEPLOYPATH
   - /bin/cp details-cash-trans.php $DEPLOYPATH
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
@@ -77,7 +76,6 @@ deployment:
   - /bin/cp ajax-ecobricks.php $DEPLOYPATH
   - /bin/cp ajax-cash-trans.php $DEPLOYPATH
   - /bin/cp ajax-brk-trans.php $DEPLOYPATH
-  - /bin/cp details-ecobrick-page.php $DEPLOYPATH
   - /bin/cp details-cash-trans.php $DEPLOYPATH
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
@@ -121,7 +119,6 @@ deployment:
   - /bin/cp ajax-ecobricks.php $DEPLOYPATH
   - /bin/cp ajax-cash-trans.php $DEPLOYPATH
   - /bin/cp ajax-brk-trans.php $DEPLOYPATH
-  - /bin/cp details-ecobrick-page.php $DEPLOYPATH
   - /bin/cp details-cash-trans.php $DEPLOYPATH
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
@@ -168,7 +165,6 @@ deployment:
   - /bin/cp ajax-ecobricks.php $DEPLOYPATH
   - /bin/cp ajax-cash-trans.php $DEPLOYPATH
   - /bin/cp ajax-brk-trans.php $DEPLOYPATH
-  - /bin/cp details-ecobrick-page.php $DEPLOYPATH
   - /bin/cp details-cash-trans.php $DEPLOYPATH
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
@@ -214,7 +210,6 @@ deployment:
   - /bin/cp ajax-ecobricks.php $DEPLOYPATH
   - /bin/cp ajax-cash-trans.php $DEPLOYPATH
   - /bin/cp ajax-brk-trans.php $DEPLOYPATH
-  - /bin/cp details-ecobrick-page.php $DEPLOYPATH
   - /bin/cp details-cash-trans.php $DEPLOYPATH
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
@@ -264,7 +259,6 @@ deployment:
   - /bin/cp ajax-ecobricks.php $DEPLOYPATH
   - /bin/cp ajax-cash-trans.php $DEPLOYPATH
   - /bin/cp ajax-brk-trans.php $DEPLOYPATH
-  - /bin/cp details-ecobrick-page.php $DEPLOYPATH
   - /bin/cp details-cash-trans.php $DEPLOYPATH
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH

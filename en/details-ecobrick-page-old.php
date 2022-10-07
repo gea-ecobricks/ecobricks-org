@@ -1,20 +1,18 @@
 
 <!--PAGE LANGUAGE:  ENGLISH
-Special Ecobrick View Page: v.1.0.1-->
+Special Ecobrick View Page: v.1.1-->
+  
  
 <?php 
 require_once ("includes/details-ecobrick-page-inc.php");
 
 include 'ecobricks_env.php';
 
-include 'ssp.class.php';
-
-
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 $serialNo = $_GET['serial_no'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = '" . $serialNo . "'";
+$sql = "SELECT * FROM vw_ecobricks_desc WHERE serial_no = '" . $serialNo . "'";
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -25,80 +23,53 @@ if ($result->num_rows > 0) {
 
 
 
-echo 
-'<div class="splash-content-block">
-	<div class="splash-box">
+			echo 
+			'<div class="splash-content-block">
+					<div class="splash-box">
+						<div class="splash-heading">';
 
-		<div class="splash-heading">Ecobrick ' . $array["serial_no"] .'</div>
-		
-		<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg of plastic has been secured out of the biosphere in '. $array["location_full"] .'.</div>
-	</div>
-	
-	<div class="splash-image">
-		<a href="ecobrick_full_photo_url"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
-	border-color: #97C4E3;
-	width: 85%;
-	margin-top:-20px;
-	box-shadow: 0 0px 10px rgba(85, 84, 84, 0.8);
-	border-style: solid;" alt="Ecobrick Serial '. $array["serial_no"] .' was made in '. $array["location_full"] .' and authenticated on ' . $array["last_validation_ts"] .'"
-	title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>
-	</div>	
-</div>
 
-<div id="splash-bar"></div>
-';
+			echo 		'Ecobrick ' . $array["serial_no"] .'
+						</div>';
 
-echo '
-<a name="top"></a>
-<div id="main-content">
-	<div class="row">
-		<div class="main">
-			<div class="row-details">';
 
-	if ( isset($array["vision"]) && $array["vision"] != '' ) {
-			//	echo '<p><div class="vision-quote">'. $array["vision"] .'</div></p>';
-		                echo '<p><div class="vision-quote"> "'. str_replace('"', "", $array["vision"]) . '"  </div></p>';
-			}
-	
+
+			echo '		<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg of plastic has been secured out of the biosphere in '. $array["location_full"] .'.</div>
+						</div>' ;
 			
+			echo '<div class="splash-image"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
+			border-color: #97C4E3;
+			width: 85%;
+			margin-top:-20px;
+			box-shadow: 0 0px 10px rgba(85, 84, 84, 0.8);
+			border-style: solid;" alt="Ecobrick Serial '. $array["serial_no"] .' "></div>	
+			</div>';
+
+			echo '<div id="splash-bar"></div>';
+
+			echo '<a name="top"></a>
+			<div id="main-content">
+			<div class="row">
+				<div class="main">';
+
 			echo '<div class="lead-page-paragraph">
-						<p><b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'.</b></p>
-					</div>';
+			<b><p>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'</p></b></div>';
 
-	
-
-				
-
-			echo ' <div class="main-details">
-					
-					
-					
-					<div class="page-paragraph">
-						<p>This ecobrick was with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p>
-
-						<p>On '. $array["date_logged_ts"] .' the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p>
-						<br>
-					</div>
-				</div>';
-
+			echo '<div class="page-paragraph">
+			<p>The ecobrick has a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue. It is '. $array["owner"] .' bolante’s number 1 ecobrick. Based in '. $array["location_region"] .', their community '. $array["community_name"] .', is working hard to keep plastic out of the biosphere in '. $array["location_country"] .'.</p>';
 			
-
-			if ( isset($array["selfie_photo_url"]) && $array["selfie_photo_url"] != '' ) {
-				echo '<div class="side-details">
-				<img src="'. $array["selfie_photo_url"] .'" width="100%">
-			</div>
-		';
-			}
-				
-
+			
 			echo '
+			<p>On 06/20/2022 11:20pm the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p><br><br><br>
 			
-			</div>
+		
+			
 			<div id="data-chunk">
-				<div class="ecobrick-data">
-					<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</p><br>
-					<p>--------------------</p>
-					<p>BEGIN BRIK RECORD ></p>';
+			<div class="ecobrick-data">';
+
+			echo '<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</b<p><br>
+				<p>--------------------</p>
+				<p>BEGIN BRIK RECORD ></p>';
 
 			echo ' <p><b>Logged:</b> ' . $array["date_logged_ts"] .'</p>' ;
 			echo ' <p><b>Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</var></p>' ;
@@ -111,7 +82,7 @@ echo '
 			echo ' <p><b>Sequestration:</b> <var>' . $array["sequestration_type"].'</var></p>' ;
 			echo ' <p><b>Brand:</b> <var>' . $array["brand_name"] .'</var></p>' ;
 			echo ' <p><b>Bottom colour:</b> ' . $array["bottom_colour"] .'</p>' ;
-
+			
 			echo ' <p><b>Plastic source:</b>' . $array["plastic_from"] .'</p>' ;
 
 			echo ' <p><b>Community:</b> <var>' . $array["community_name"] .'</var></p>' ;
@@ -129,36 +100,22 @@ echo '
 
 			echo ' <p><b>Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
 			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p>
-			<p>> END RECORD.</p>
-				</div>
-			</div>
-			' ;
+			<p>> END RECORD.</p></div></div>' ;
 
-			echo '
-			<br><hr><br> 
-			<div class="page-paragraph">
-				<h3><p>The Brikchain</p></h3>
-			
-				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
+			echo '<br><hr><br> <div class="page-paragraph">
+			<h3>The Brikchain</h3>
+		
+			<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
 			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-				
-				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
-				</div>
-			</div>';
-			
-			echo '	<div class="side">
-
-			<div id="side-module-desktop-mobile">
-					<img src="pngs/authenticated-ecobrick.png" width="90%" alt="Following the Earths example through eco bricking">
-					<br><h4>Authenticated!</h4>
-					<h5>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</h5><br>
-					<a class="module-btn" href="/about">About Ecobricks</a>
-					<br><br>
-				</div>   ';
-
-	}
+			<br><br>
+			<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
+			<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+		   </div>
+		   </div>
+		   </div>';  
+		
+				}
 
 
 } else {
@@ -202,18 +159,16 @@ echo '
 				</p></div><br><br><br><br>
 				
 				<div class="page-paragraph">
-				<p><h3>The Brikchain</h3></p>
+				<h3>The Brikchain</h3>
 			
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
 			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-				<br>
-				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
+				<br><br>
+				<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 				</div>
 			</div>
-
-			<div class="side">
 		  
 		';
 		}
@@ -230,7 +185,15 @@ echo '
 			
 
 		
-	
+		<div class="side">
+
+		<div id="side-module-desktop-mobile">
+				<img src="pngs/authenticated-ecobrick.png" width="90%" alt="Following the Earth's example through eco bricking">
+				<br><h4>Authenticated!</h4>
+				<h5>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</h5><br>
+				<a class="module-btn" href="/about">About Ecobricks</a>
+                <br><br>
+			</div>   
 
             <div id="side-module-desktop-mobile">
 				<img src="webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
