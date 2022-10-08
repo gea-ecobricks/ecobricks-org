@@ -212,6 +212,13 @@ _END;?>
         }
         }
 
+.live-feed {
+    width: 200px;
+height: 300px;
+text-align: left;
+padding: 10px;
+line-height: 1.5;}
+
 .feed-live p {
   font-size: .9em;
   font-family: courier new,monospace !important;
