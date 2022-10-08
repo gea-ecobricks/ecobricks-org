@@ -66,6 +66,7 @@ Content Page template: v.1.0.0-->
 
 <div id="splash-bar"></div>
 
+<!--
 <div class="block">
   <div class="animation">
     <div class="first">
@@ -86,9 +87,11 @@ Content Page template: v.1.0.0-->
     <div>
       <img src="http://fpoimg.com/200x200">
     </div>
-    <!-- cut -->
+
   </div>
 </div>
+
+          -->
 
 
 
