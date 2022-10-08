@@ -129,28 +129,28 @@ _END;?>
 		background-color: #DFDFDF;
 		margin: 0px;
 		padding: 2px;
-		height: 90px;
+		height: 81px;
 
 		overflow: hidden;
 	}
 
 	.photo-box {
-		max-height: 90px;
+		max-height: 81px;
 
 		overflow: hidden;
 		background: grey;
 	}
 
 	.gal-photo img {
-		height: 90px;
+		height: 81px;
 		display: block;
 		margin: auto;
 
 	}
 
 	.photo-box-end {
-		max-height: 90px;
-		width: 30px;
+		max-height: 91pxpx;
+		width: 60px;
 	
 		overflow: hidden;
 		background: grey;
@@ -212,8 +212,8 @@ _END;?>
         }
         }
 
-.live-feed {
-    width: 200px;
+.feed-live {
+width: 200px;
 height: 300px;
 text-align: left;
 padding: 10px;
