@@ -149,7 +149,7 @@ _END;?>
 	}
 
 	.photo-box-end {
-		max-height: 91pxpx;
+		max-height: 81px;
 		width: 60px;
 	
 		overflow: hidden;
@@ -158,7 +158,7 @@ _END;?>
 		color: #dfdfdf;
 		text-align: center;
 		font-size: 2em;
-		padding: none;
+		padding: 2px;
 		text-decoration: none;
 		animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
 	
