@@ -69,11 +69,7 @@
 
 	<!-- NEW GALLERY-->
 
-	<div id="feed-note">
-    <a href="#" style="text-decoration: none; float: right; " onclick="this.parentNode.style.display = 'none'" > ❎ </a><br>
-    <div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
-	</div>
-</div>
+	
 
 
 <?php include 'ecobricks_env.php';?> 
@@ -118,7 +114,7 @@
 					<div class="photo-box-end"><a href="brikchain.php">+</a></div>
 					<div class="gal-photo-text"></div>
 				 </div>
-				<!-- <div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>-->
+				<div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
 	
 			</div>
 			

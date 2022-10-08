@@ -237,8 +237,10 @@ _END;?>
 		width: 120%;
   		margin-right: -5%;
   		margin-left: -5%;
-		margin-top: -3px;
-		margin-bottom: -20px;
+		margin-top: 33px;
+		margin-bottom: 20px;
+        padding-bottom: 12px;
+        padding-top: 12px;
 		overflow: hidden;
 		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
@@ -254,7 +256,7 @@ _END;?>
 		min-height: 67vh;
 		z-index: 5;
 		position: relative;   
-        background-color: grey;
+        background-color: #dfdfdf;
 		display: flex;
  		flex-wrap: wrap;
  		box-sizing: border-box;
@@ -264,6 +266,10 @@ _END;?>
   		margin-left: -5%;
 		margin-top: 0px;
 		overflow: hidden;
+
+        margin-top: 70px;
+        padding-top: 20px;
+        padding-bottom: 15px;
 		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
 		padding-bottom: 15px;*/
