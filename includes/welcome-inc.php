@@ -295,7 +295,7 @@ line-height: 1.5;}
 @media screen and (min-width: 700px) { 
 	.gallery10-content-block {		
 		text-align: center;
-		min-height: 67vh;
+		/*min-height: 67vh;*/
 		z-index: 5;
 		position: relative;   
         background-color: #dfdfdf;
@@ -319,6 +319,13 @@ line-height: 1.5;}
 	}
 } 
 
+.flex-container10 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #DFDFDF;
+  margin-top: -8px;
+}
+
 
 @media screen and (min-width: 700px) { 
 
@@ -327,7 +334,7 @@ line-height: 1.5;}
     margin: 2px;
     padding: 2px;
     max-height: 520px;
-    overflow: scroll;
+    overflow: hidden;
     text-align: center;
 }
 
