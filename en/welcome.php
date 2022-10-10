@@ -72,7 +72,7 @@
 	
 		<div class="gallery-background">
 		
-				</div>
+				
 			<div class="gallery-content-block">
 			  	
 				<div class="flex-container">
@@ -103,7 +103,7 @@
 					</div>
 			
 				</div>
-				<div class="feed-live"><p><span class="blink">⬤  </span>The live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p>
+				<div class="feed-live"><p><span class="blink">⬤  </span>The live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
 			</div>
 
 			<div id="main-content">
@@ -192,7 +192,7 @@
 			<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="transition.php">Plastic Transition</a> | <a href="about.php">About the GEA</a></h6><br><br>
 			
 			<!--<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>-->
-			
+
 			<img src="svgs/3brikcoins.svg" width="30%">
 
 			<br><br>
