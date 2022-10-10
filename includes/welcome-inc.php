@@ -134,13 +134,13 @@ _END;?>
 		overflow: hidden;
 	}
 
-    /*
+    
 	.photo-box {
 		max-height: 81px;
 
 		overflow: hidden;
 		background: grey;
-	}*/
+	}
 
 	.gal-photo img {
 		height: 81px;
