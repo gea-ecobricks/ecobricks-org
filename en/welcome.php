@@ -123,39 +123,39 @@
 
 	<div class="gallery10-content-block">
 			  	
-				  <div class="flex-container10">
+		<div class="flex-container10">
 				  
-					  <?php
-					  $sql = "SELECT * FROM vw_top_10_last_month ;";
-					  $result = $conn->query($sql);
-					  if ($result->num_rows > 0) {
-					  // output data of each row
-					  while($row = $result->fetch_assoc()) {
-		  
-					  echo '
-					  <div class="gal-photo10">
-					  <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>';
-					  echo '</div>';
-		  
-					  }
-		  
-					  } else {
-					  echo "Failed to connect to the Brikchain database";
-					  }
-		  
-					  ?>
-					  
-					  </div>
-				  </div>
-				  <div id="main-content">
-			
-					<div class="big-header">This Month's Top Ecobricks.</div>
-					<div class="sub-text"><p>Every month the 10 ecobricks, as reviewed by ecobrickers around the world, are featured.</p>
-					</div> 
+			<?php
+			$sql = "SELECT * FROM vw_top_10_last_month ;";
+			$result = $conn->query($sql);
+			if ($result->num_rows > 0) {
+			// output data of each row
+			while($row = $result->fetch_assoc()) {
 
-					<a href="top-tens.php" button class="main-button">The Top 10's</a>
-				</div>
-			</div>
+			echo '
+			<div class="gal-photo10">
+			<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>';
+			echo '</div>';
+
+			}
+
+			} else {
+			echo "Failed to connect to the Brikchain database";
+			}
+
+			?>
+					  
+		</div>
+				
+		<div id="main-content">
+			
+			<div class="big-header">This Month's Top Ecobricks.</div>
+			<div class="sub-text"><p>Every month the 10 ecobricks, as reviewed by ecobrickers around the world, are featured.</p>
+			</div> 
+
+			<a href="top-tens.php" button class="main-button">The Top 10's</a>
+		</div>
+	</div>
 			  
 
 	<!--FOURTH CONTENT SECTION-->
