@@ -121,7 +121,7 @@
 
 	<!-- TOP TEN ECOBRICKS-->
 
-	<div class="gallery10-content-block">
+	<div class="gallery-content-block">
 			  	
 				  <div class="flex-container10">
 				  
