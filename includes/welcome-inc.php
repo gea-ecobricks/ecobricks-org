@@ -248,7 +248,6 @@ line-height: 1.5;}
 		margin-top: 0px;
 		overflow: hidden;
 
-        margin-top: 70px;
         padding-top: 20px;
         padding-bottom: 15px;
 		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -268,6 +267,7 @@ line-height: 1.5;}
     margin-bottom: 120px;
     padding-bottom: 20px;
     background: #e5e5e559;
+    margin-top: 50px;
 }
 
 
