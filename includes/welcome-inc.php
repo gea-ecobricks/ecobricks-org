@@ -295,9 +295,9 @@ line-height: 1.5;}
 @media screen and (min-width: 700px) { 
 	.gallery10-content-block {		
 		text-align: center;
-		/*min-height: 67vh;
+		min-height: 67vh;
 		z-index: 5;
-		position: relative;   */
+		position: relative;   
         background-color: #dfdfdf;
 		display: flex;
  		flex-wrap: wrap;
@@ -307,13 +307,13 @@ line-height: 1.5;}
   		margin-right: -5%;
   		margin-left: -5%;
 		margin-top: 0px;
-		overflow: scroll;
+		overflow: hidden;
 
         margin-top: 70px;
         padding-top: 20px;
         padding-bottom: 15px;
-		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-		/*margin-bottom: 40px;
+		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+		margin-bottom: 40px;
 		padding-bottom: 15px;*/
 
 	}
@@ -327,7 +327,7 @@ line-height: 1.5;}
     margin: 2px;
     padding: 2px;
     max-height: 520px;
-    overflow: hidden;
+    overflow: scroll;
     text-align: center;
 }
 
