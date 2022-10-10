@@ -263,6 +263,13 @@ line-height: 1.5;}
 
 /*TOP TEN GALLERY*/
 
+.gallery-background {
+    text-align: center;
+    margin-bottom: 120px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
 
 @media screen and (max-width: 700px) { 
 	.gallery10-content-block {
