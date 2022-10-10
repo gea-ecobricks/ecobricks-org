@@ -71,6 +71,7 @@
 <?php include 'ecobricks_env.php';?> 
 	
 	<div class="gallery-content-block">
+	<div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
 			  	
 		<div class="flex-container">
 		
@@ -97,9 +98,21 @@
 			<div class="gal-photo">
 				<div class="photo-box-end"><a href="brikchain.php">+</a></div>
 				<div class="gal-photo-text"></div>
-				</div>
-			<div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
 			</div>
+			
+			</div>
+
+			<div id="main-content">
+			
+			<div class="big-header">The Brikchain.</div>
+			<div class="sub-text"><p>Every ecobrick that is authenticated is added to the Brikcoin manual blockchain.</p>
+			</div> 
+
+			<a href="brikchain.php" button class="main-button">Browse the Brikchain</a>
+			
+			<h6><a href="/brikcoins">Brikcoins</a> | <a href="/aes">AES Plastic</a> | <a href="/gobrik">GoBrik Platform</a></h6>
+		</div>
+
 		</div>
 	</div>
 
@@ -155,7 +168,7 @@
 		<div id="main-content">
 			
 			<div class="big-header">This Month's Top Ecobricks.</div>
-			<div class="sub-text"><p>Every month the 10 ecobricks, as reviewed by ecobrickers around the world, are featured.</p>
+			<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
 			</div> 
 
 			<a href="top-tens.php" button class="main-button">The Top 10's</a>
