@@ -134,14 +134,6 @@ _END;?>
 		overflow: hidden;
 	}
 
-    
-	.photo-box {
-		max-height: 81px;
-
-		overflow: hidden;
-		background: grey;
-	}
-
 	.gal-photo img {
 		height: 81px;
 		display: block;
@@ -174,10 +166,11 @@ _END;?>
 
     @media screen and (min-width: 700px) { 
 .feed-live {
-width: 200px;
+width: fit-content;
 text-align: left;
 padding: 10px;
-line-height: 1.5;}
+line-height: 1.5;
+margin: auto;}
 
 .feed-live p {
   font-size: .9em;
@@ -264,6 +257,54 @@ line-height: 1.5;}
 
 	}
 } 
+
+
+
+
+/*TOP TEN GALLERY*/
+
+
+@media screen and (min-width: 700px) { 
+
+.flex-container > .gal-photo10 {
+    background-color: #DFDFDF;
+    margin: 2px;
+    padding: 2px;
+    max-height: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.photo-box10 {
+    max-height: 325px;
+    overflow: hidden;
+    
+}
+
+.gal-photo10 img {
+    max-height: 300px;
+    height: 300px;
+}
+}
+
+/*
+.gal-photo-text {
+    background-color: #DFDFDF;
+    margin: 2px;
+    text-align: center;
+    padding: 8px;
+    width: 205px;
+    max-width:205px;
+    overflow: hidden;
+        margin-bottom: 0px;
+}*/
+
+.gal-photo10 p {
+    font-size: 0.9em;
+}
+
+
 
 </style>
 
