@@ -121,31 +121,36 @@
 
 	<!-- TOP TEN ECOBRICKS-->
 
-	<div class="gallery10-content-block">
-			  	
-		<div class="flex-container10">
-				  
-			<?php
-			$sql = "SELECT * FROM vw_top_10_last_month ;";
-			$result = $conn->query($sql);
-			if ($result->num_rows > 0) {
-			// output data of each row
-			while($row = $result->fetch_assoc()) {
+	<div id="top-tens">
 
-			echo '
-			<div class="gal-photo10">
-			<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>';
-			echo '</div>';
+		<div class="gallery10-content-block">
+					
+			<div class="flex-container10">
+					
+				<?php
+				$sql = "SELECT * FROM vw_top_10_last_month ;";
+				$result = $conn->query($sql);
+				if ($result->num_rows > 0) {
+				// output data of each row
+				while($row = $result->fetch_assoc()) {
 
-			}
+				echo '
+				<div class="gal-photo10">
+				<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>';
+				echo '</div>';
 
-			} else {
-			echo "Failed to connect to the Brikchain database";
-			}
+				}
 
-			?>
-					  
+				} else {
+				echo "Failed to connect to the Brikchain database";
+				}
+
+				?>
+						
+			</div>
 		</div>
+
+		<br><br>
 				
 		<div id="main-content">
 			
