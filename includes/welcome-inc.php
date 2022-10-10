@@ -295,19 +295,20 @@ line-height: 1.5;}
 @media screen and (min-width: 700px) { 
 	.gallery10-content-block {		
 		text-align: center;
-		/*min-height: 67vh;*/
+		/*min-height: 67vh;
+        flex-wrap: wrap;*/
 		z-index: 5;
 		position: relative;   
         background-color: #dfdfdf;
 		display: flex;
- 		flex-wrap: wrap;
+ 		
  		box-sizing: border-box;
 		flex-direction: row;
-		width: 120%;
+		width: 200%;
   		margin-right: -5%;
   		margin-left: -5%;
 		margin-top: 0px;
-		overflow: hidden;
+		overflow-x: scroll;
 
         margin-top: 70px;
         padding-top: 20px;
