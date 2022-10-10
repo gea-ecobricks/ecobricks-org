@@ -70,10 +70,11 @@
 
 <?php include 'ecobricks_env.php';?> 
 	
-	<div class="gallery-content-block">
-	<div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
+	<div class="gallery-background">
+		<div class="gallery-content-block">
+			<div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
 			  	
-		<div class="flex-container">
+			<div class="flex-container">
 		
 			<?php
 
@@ -101,16 +102,18 @@
 			</div>
 			
 			</div>
+	
 
 			<div id="main-content">
 			
-			<div class="big-header">The Brikchain.</div>
-			<div class="sub-text"><p>Every ecobrick that is authenticated is added to the Brikcoin manual blockchain.</p>
-			</div> 
+				<div class="big-header">The Brikchain.</div>
+				<div class="sub-text"><p>Every ecobrick that is authenticated is added to the Brikcoin manual blockchain.</p>
+				</div> 
 
-			<a href="brikchain.php" button class="main-button">Browse the Brikchain</a>
+				<a href="brikchain.php" button class="main-button">Browse the Brikchain</a>
 			
-			<h6><a href="/brikcoins">Brikcoins</a> | <a href="/aes">AES Plastic</a> | <a href="/gobrik">GoBrik Platform</a></h6>
+				<h6><a href="/brikcoins">Brikcoins</a> | <a href="/aes">AES Plastic</a> | <a href="/gobrik">GoBrik Platform</a></h6>
+			</div>
 		</div>
 
 		</div>
@@ -134,7 +137,7 @@
 
 	<!-- TOP TEN ECOBRICKS-->
 
-	<div id="top-tens">
+	<div class="gallery-background">
 
 		<div class="gallery10-content-block">
 					
