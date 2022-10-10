@@ -308,7 +308,7 @@ line-height: 1.5;}
   		margin-right: -5%;
   		margin-left: -5%;
 		margin-top: 0px;
-		overflow-x: scroll;
+
 
         margin-top: 70px;
         padding-top: 20px;
@@ -325,6 +325,7 @@ line-height: 1.5;}
   flex-wrap: wrap;
   background-color: #DFDFDF;
   margin-top: -8px;
+  overflow-x: scroll;
 }
 
 

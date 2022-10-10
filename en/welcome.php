@@ -147,17 +147,16 @@
 					  
 					  </div>
 				  </div>
-			  </div>
-			  <div id="main-content">
-			<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
-			<div class="big-header">This Month's Top Ecobricks.</div>
-			<div class="sub-text"><p>Every month the 10 ecobricks, as reviewed by ecobrickers around the world, are featured.</p>
-			</div> 
-
-			<a href="build.php" button class="top-tens.php">The Top 10's</a>
+				  <div id="main-content">
 			
-			<h6><a href="earth.php">Earth & Ecobrick Building</a> | <a href="/earth-methods">E&B Methods</a> | <a href="/modules">Milstein Modules</a> | <a href="/circular">Spiral & Circular</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6>
-		</div>
+					<div class="big-header">This Month's Top Ecobricks.</div>
+					<div class="sub-text"><p>Every month the 10 ecobricks, as reviewed by ecobrickers around the world, are featured.</p>
+					</div> 
+
+					<a href="top-tens.php" button class="main-button">The Top 10's</a>
+				</div>
+			</div>
+			  
 
 	<!--FOURTH CONTENT SECTION-->
 
