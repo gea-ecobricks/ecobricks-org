@@ -75,20 +75,21 @@ _END;?>
 		background-color: #DFDFDF;
 		margin: 2px;
 		padding: 2px;
-		max-height: 200px;
+		max-height: 190px;
 		overflow: hidden;
 		text-align: center;
 	}
 
-	.photo-box {
+/*	.photo-box {
 		max-height: 225px;
 		overflow: hidden;
-		/*background: grey;*/
+		background: grey;
 	}
+    */
 
 	.gal-photo img {
-		max-height: 200px;
-		height: 200px;
+		max-height: 190px;
+		height: 190px;
 	}
 
 	/*
@@ -109,11 +110,11 @@ _END;?>
 
 	.photo-box-end {
 
-		height: 200px;
-		width: 150px;
+		height: 190px;
+		width: 120px;
 		overflow: hidden;
 		background: grey;
-		line-height: 92px;
+		line-height: 88px;
 		color: #dfdfdf;
 		text-align: center;
 		font-size: 2.5em;

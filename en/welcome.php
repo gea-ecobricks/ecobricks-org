@@ -71,7 +71,7 @@
 <?php include 'ecobricks_env.php';?> 
 	
 		<div class="gallery-background">
-		<div class="feed-live"><p><span class="blink">⬤  </span>The live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p>
+		
 				</div>
 			<div class="gallery-content-block">
 			  	
@@ -103,6 +103,7 @@
 					</div>
 			
 				</div>
+				<div class="feed-live"><p><span class="blink">⬤  </span>The live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p>
 			</div>
 
 			<div id="main-content">
@@ -189,7 +190,9 @@
 			<div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
 			<a href="https://gobrik.com/#offset" target="_blank" class="main-button">Plastic Offsetting</a>
 			<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="transition.php">Plastic Transition</a> | <a href="about.php">About the GEA</a></h6><br><br>
-			<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>
+			
+			<!--<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>-->
+			
 			<img src="svgs/3brikcoins.svg" width="30%">
 
 			<br><br>
