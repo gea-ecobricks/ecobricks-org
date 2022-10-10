@@ -71,9 +71,9 @@
 <?php include 'ecobricks_env.php';?> 
 	
 		<div class="gallery-background">
-			<div class="gallery-content-block">
-				<div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p>
+		<div class="feed-live"><p><span class="blink">⬤  </span>The live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p>
 				</div>
+			<div class="gallery-content-block">
 			  	
 				<div class="flex-container">
 		
@@ -106,7 +106,7 @@
 			</div>
 
 			<div id="main-content">
-			
+			<br><br>
 				<div class="big-header">The Brikchain.</div>
 				<div class="sub-text"><p>Every ecobrick that is authenticated is added to the Brikcoin manual blockchain.</p>
 				</div> 

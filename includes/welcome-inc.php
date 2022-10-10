@@ -267,7 +267,7 @@ line-height: 1.5;}
     text-align: center;
     margin-bottom: 120px;
     padding-bottom: 20px;
-    padding-top: 10px;
+    background: #e5e5e559;
 }
 
 
