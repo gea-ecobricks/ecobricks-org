@@ -126,7 +126,6 @@
 				  <div class="flex-container10">
 				  
 					  <?php
-		  
 					  $sql = "SELECT * FROM vw_top_10_last_month ;";
 					  $result = $conn->query($sql);
 					  if ($result->num_rows > 0) {
