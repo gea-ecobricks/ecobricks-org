@@ -70,39 +70,40 @@
 
 <?php include 'ecobricks_env.php';?> 
 	
-	<div class="gallery-background">
-		<div class="gallery-content-block">
-			<div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
+		<div class="gallery-background">
+			<div class="gallery-content-block">
+				<div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p>
+				</div>
 			  	
-			<div class="flex-container">
+				<div class="flex-container">
 		
-			<?php
+					<?php
 
-			$sql = "SELECT * FROM vw_gallery_feed ;";
-			$result = $conn->query($sql);
-			if ($result->num_rows > 0) {
-			// output data of each row
-			while($row = $result->fetch_assoc()) {
+					$sql = "SELECT * FROM vw_gallery_feed ;";
+					$result = $conn->query($sql);
+					if ($result->num_rows > 0) {
+					// output data of each row
+					while($row = $result->fetch_assoc()) {
 
-			echo '
-			<div class="gal-photo"><div class="photo-box">
-			<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
-			echo '</div>';
+					echo '
+					<div class="gal-photo"><div class="photo-box">
+					<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
+					echo '</div>';
 
-			}
+					}
 
-			} else {
-			echo "Failed to connect to the Brikchain database";
-			}
+					} else {
+					echo "Failed to connect to the Brikchain database";
+					}
 
-			?>
-			<div class="gal-photo">
-				<div class="photo-box-end"><a href="brikchain.php">+</a></div>
-				<div class="gal-photo-text"></div>
-			</div>
+					?>
+					<div class="gal-photo">
+						<div class="photo-box-end"><a href="brikchain.php">+</a></div>
+						<div class="gal-photo-text"></div>
+					</div>
 			
+				</div>
 			</div>
-	
 
 			<div id="main-content">
 			
@@ -114,10 +115,9 @@
 			
 				<h6><a href="/brikcoins">Brikcoins</a> | <a href="/aes">AES Plastic</a> | <a href="/gobrik">GoBrik Platform</a></h6>
 			</div>
-		</div>
 
+		
 		</div>
-	</div>
 
 		
 	<!--THIRD CONTENT SECTION-->
