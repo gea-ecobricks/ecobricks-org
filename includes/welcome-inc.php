@@ -276,8 +276,7 @@ line-height: 1.5;}
 	.gallery10-content-block {
 			
 		text-align: center;
-		/*min-height: 67vh;
-        flex-wrap: wrap;*/
+
 		z-index: 5;
 		position: relative;   
         background-color: #dfdfdf;
@@ -290,7 +289,7 @@ line-height: 1.5;}
 		margin-top: 0px;
         margin-top: 50px;
         padding-top: 20px;
-        padding-bottom: 15px;
+        padding-bottom: 25px;
 		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
 		padding-bottom: 15px;*/
@@ -333,7 +332,8 @@ line-height: 1.5;}
   /*flex-wrap: wrap;
     overflow-x: scroll;*/
   background-color: #DFDFDF;
-  margin-top: -8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 
 }
 

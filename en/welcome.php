@@ -103,13 +103,13 @@
 					</div>
 			
 				</div>
-				<div class="feed-live"><p><span class="blink">⬤  </span>The live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
+				<div class="feed-live"><p><span class="blink">⬤  </span>Live <a href="brikchain.php">Brikchain</a> feed.  Click brik to view.</p></div>
 			</div>
 
 			<div id="main-content">
-			<br><br>
+			
 				<div class="big-header">The Brikchain.</div>
-				<div class="sub-text"><p>Every ecobrick that is authenticated is added to the Brikcoin manual blockchain.</p>
+				<div class="sub-text"><p>Every ecobrick that is authenticated is permenantly recorded onto the Brikcoin blockchain to generate 0.1 BRK for each gram of sequestered plastic that it represents.</p>
 				</div> 
 
 				<a href="brikchain.php" button class="main-button">Browse the Brikchain</a>
@@ -165,13 +165,12 @@
 				?>
 						
 			</div>
+			<div class="feed-live"><p><span class="blink">↔️</span>
 		</div>
-
-		<br><br>
 				
 		<div id="main-content">
-			
-			<div class="big-header">This Month's Top Ecobricks.</div>
+		<p>↔️</p>
+			<div class="big-header"><p>↔️</p>This Month's Top Ecobricks.</div>
 			<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
 			</div> 
 
