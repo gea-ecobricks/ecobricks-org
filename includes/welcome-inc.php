@@ -166,7 +166,7 @@ _END;?>
 
     @media screen and (min-width: 700px) { 
 .feed-live {
-width: fit-content;
+width: 100%;
 text-align: left;
 line-height: 1.5;
 margin: auto;
@@ -188,7 +188,7 @@ margin-bottom: 35px;
 
     @media screen and (max-width: 700px) { 
 .feed-live {
-width: 75%;
+width: 100%;
 text-align: center;
 padding: 10px;
 line-height: 1.5;
@@ -365,14 +365,6 @@ margin-bottom: 25px;}
     
 }
 }
-
-.flex-container > .gal-photo {
-		background-color: #DFDFDF;
-		margin: 0px;
-		padding: 2px;
-		height: 81px;
-		overflow: hidden;
-	}
 
 
 
