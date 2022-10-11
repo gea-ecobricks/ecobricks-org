@@ -289,9 +289,9 @@ margin-bottom: 25px;}
   		margin-right: 0%;
   		margin-left: 0%;
 		margin-top: 0px;
-        margin-top: 50px;
-        padding-top: 20px;
-        padding-bottom: 25px;
+
+        padding-top: 5px;
+        
 		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
 		padding-bottom: 15px;*/
@@ -335,7 +335,7 @@ margin-bottom: 25px;}
     overflow-x: scroll;*/
   background-color: #DFDFDF;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 
@@ -390,7 +390,6 @@ margin-bottom: 25px;}
     background-color: #DFDFDF;
     margin: 0px;
     padding: 4px;
-    max-height: 225px;
     overflow: hidden;
 
 }
@@ -403,8 +402,7 @@ margin-bottom: 25px;}
 }*/
 
 .gal-photo10 img {
-    max-height: 225px;
-    height: 225px;
+    max-width: 235px;
     display: block;
 		margin: auto;
 }
