@@ -154,7 +154,7 @@
 				echo '
 				<div class="gal-photo10">
 				<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>';
-				echo '</div>';
+				echo '<div class="gal-photo-text"></div></div>';
 
 				}
 
@@ -165,11 +165,12 @@
 				?>
 						
 			</div>
+			<div class="feed-live"><p><span class="blink">↔️</span>
 			
 		</div>
 				
 		<div id="main-content">
-		<div class="feed-live"><p><span class="blink">↔️</span>
+		
 			<div class="big-header">This Month's Top Ecobricks.</div>
 			<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
 			</div> 
