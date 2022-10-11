@@ -285,9 +285,9 @@ margin-bottom: 25px;}
 		display: flex;
  		box-sizing: border-box;
 		flex-direction: row;
-		width: 100%;
-  		margin-right: 0%;
-  		margin-left: 0%;
+		width: 110%;
+  		margin-right: -5%;
+  		margin-left: -5%;
 		margin-top: 0px;
 
         padding-top: 5px;
@@ -313,9 +313,9 @@ margin-bottom: 25px;}
 		display: flex;
  		box-sizing: border-box;
 		flex-direction: row;
-		width: 100%;
-  		margin-right: 0%;
-  		margin-left: 0%;
+		width: 120%;
+  		margin-right: -5%;
+  		margin-left: -5%;
 		margin-top: 0px;
         margin-top: 70px;
         padding-top: 20px;
@@ -403,6 +403,7 @@ margin-bottom: 25px;}
 
 .gal-photo10 img {
     max-width: 235px;
+    max-height: 360px;
     display: block;
 		margin: auto;
 }
