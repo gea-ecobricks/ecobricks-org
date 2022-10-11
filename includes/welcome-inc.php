@@ -92,7 +92,7 @@ _END;?>
 		height: 190px;
 	}
 
-	/*
+	
 	.gal-photo-text {
 		background-color: #DFDFDF;
 		margin: 2px;
@@ -102,7 +102,7 @@ _END;?>
 		max-width:205px;
 		overflow: hidden;
 			margin-bottom: 0px;
-	}*/
+	}
 
 	.gal-photo p {
 		font-size: 0.9em;
@@ -368,7 +368,7 @@ margin-bottom: 25px;}
 
 
 
-.gal-photo-text {
+.gal10-photo-text {
     background-color: #DFDFDF;
     margin: 2px;
     text-align: center;
@@ -379,7 +379,7 @@ margin-bottom: 25px;}
     margin-bottom: 0px;
 }
 
-.gal-photo10 p {
+.gal10-photo p {
     font-size: 0.9em;
 }
 

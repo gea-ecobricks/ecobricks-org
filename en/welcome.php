@@ -88,8 +88,8 @@
 					echo '
 					<div class="gal-photo"><div class="photo-box">
 					<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
+					echo '<div class="gal10-photo-text">'.$row["ecobrick_unique_id"].'</div>';
 					echo '</div>';
-
 					}
 
 					} else {
@@ -155,7 +155,7 @@
 				echo '
 				<div class="gal-photo10">
 				<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>';
-				echo '<div class="gal-photo-text"></div></div>';
+				echo '<div class="gal10-photo-text">By '.$row["ecobrick_owner"].' in '.$row["location"].'"</div>';
 
 				}
 
@@ -168,7 +168,7 @@
 			</div>
 			
 		</div>
-		<div class="feed-live"><p><span class="blink">←  view  →</span></div>
+		<div class="feed-live"><p><span class="blink" style="color: grey;">←  view  →</span></div>
 				
 		<div id="main-content">
 		
