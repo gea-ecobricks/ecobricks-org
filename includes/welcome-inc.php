@@ -360,8 +360,8 @@ margin-bottom: 25px;}
 .gal-photo10 img {
 
     height: 520px;
-    display: block;
-	margin: auto;
+    max-height: 520px;
+
     
 }
 }
@@ -388,23 +388,25 @@ margin-bottom: 25px;}
 
 .flex-container10 > .gal-photo10 {
     background-color: #DFDFDF;
-    margin: 2px;
-    padding: 2px;
+    margin: 0px;
+    padding: 4px;
     max-height: 225px;
     overflow: hidden;
-    text-align: center;
+
 }
 
-
+/*
 .photo-box10 {
     max-height: 225px;
     overflow: hidden;
     
-}
+}*/
 
 .gal-photo10 img {
     max-height: 225px;
     height: 225px;
+    display: block;
+		margin: auto;
 }
 }
 
