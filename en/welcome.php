@@ -103,8 +103,9 @@
 					</div>
 			
 				</div>
-				<div class="feed-live"><p><span class="blink">⬤  </span>Live authentication feed.</p></div>
+				
 			</div>
+			<div class="feed-live"><p><span class="blink">⬤  </span>Live authentication feed.</p></div>
 
 			<div id="main-content">
 			
@@ -165,8 +166,9 @@
 				?>
 						
 			</div>
-			<br><div class="feed-live"><p><span class="blink">↔️</span></div>
+			
 		</div>
+		<div class="feed-live"><p><span class="blink">↔️</span></div>
 				
 		<div id="main-content">
 		

@@ -131,7 +131,6 @@ _END;?>
 		margin: 0px;
 		padding: 2px;
 		height: 81px;
-
 		overflow: hidden;
 	}
 
@@ -171,7 +170,9 @@ width: fit-content;
 text-align: left;
 line-height: 1.5;
 margin: auto;
-padding: 10px 0% 0px 0%;
+padding: 10px;
+background-color: #DFDFDF;
+margin-bottom: 35px;
 }
 
 .feed-live p {
@@ -190,7 +191,9 @@ padding: 10px 0% 0px 0%;
 width: 75%;
 text-align: center;
 padding: 10px;
-line-height: 1.5;}
+line-height: 1.5;
+background-color: #DFDFDF;
+margin-bottom: 25px;}
 
 .feed-live p {
   font-size: .8em;
@@ -221,8 +224,6 @@ line-height: 1.5;}
   		margin-right: -5%;
   		margin-left: -5%;
 		margin-top: 33px;
-
-        margin-bottom: 25px;
         padding-top: 12px;
 		overflow: hidden;
 		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
@@ -244,14 +245,14 @@ line-height: 1.5;}
  		flex-wrap: wrap;
  		box-sizing: border-box;
 		flex-direction: row;
-		width: 100%;
-  		margin-right: 0%;
-  		margin-left: 0%;
+		width: 120%;
+  		margin-right: -5%;
+  		margin-left: -5%;
 		margin-top: 0px;
 		overflow: hidden;
 
         padding-top: 10px;
-        margin-bottom: 30px;
+
 		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
 		padding-bottom: 15px;*/
@@ -342,25 +343,37 @@ line-height: 1.5;}
 
 .flex-container10 > .gal-photo10 {
     background-color: #DFDFDF;
-    margin: 2px;
+    margin: 0px;
     padding: 2px;
     max-height: 520px;
     overflow: hidden;
     text-align: center;
 }
 
-
+/*
 .photo-box10 {
     max-height: 520px;
     overflow: hidden;
     
-}
+}*/
 
 .gal-photo10 img {
-    max-height: 500px;
-    height: 500px;
+
+    height: 520px;
+    display: block;
+	margin: auto;
+    
 }
 }
+
+.flex-container > .gal-photo {
+		background-color: #DFDFDF;
+		margin: 0px;
+		padding: 2px;
+		height: 81px;
+		overflow: hidden;
+	}
+
 
 
 .gal-photo-text {
@@ -371,7 +384,7 @@ line-height: 1.5;}
     width: 205px;
     max-width:205px;
     overflow: hidden;
-        margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .gal-photo10 p {
