@@ -340,8 +340,8 @@ margin-bottom: 25px;}
     background-color: #DFDFDF;
     margin: 0px;
     padding: 2px;
-    max-height: 520px;
-    overflow: hidden;
+   /* max-height: 520px;
+    overflow: hidden;*/
     text-align: center;
 }
 
@@ -366,13 +366,13 @@ margin-bottom: 25px;}
 .gal10-photo-text {
     background-color: #DFDFDF;
     margin: 0px;
-    text-align: center;
+    text-align: left;
     padding: 3px;
     overflow: hidden;    
     font-size: 0.8em;
     font-family: Mulish;
     width: 235px;
-    color: gray;
+    color: #504f4f;
 }
 
 
@@ -383,7 +383,7 @@ margin-bottom: 25px;}
     background-color: #DFDFDF;
     margin: 0px;
     padding: 4px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 
 }
 
