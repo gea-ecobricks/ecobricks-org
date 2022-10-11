@@ -165,7 +165,7 @@
 				?>
 						
 			</div>
-			<div class="feed-live"><p><span class="blink">↔️</span>
+			<div class="feed-live"><p><span class="blink">↔️</span></div>
 			
 		</div>
 				
