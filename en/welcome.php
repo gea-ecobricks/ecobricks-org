@@ -168,7 +168,7 @@
 			</div>
 			
 		</div>
-		<div class="feed-live"><p><span class="blink">← </span> view <span class="blink"> →</span></div>
+		<div class="feed-live"><p><span class="blink">←  view  →</span></div>
 				
 		<div id="main-content">
 		
