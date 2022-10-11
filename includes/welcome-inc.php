@@ -369,7 +369,10 @@ margin-bottom: 25px;}
     text-align: center;
     padding: 3px;
     overflow: hidden;    
-    font-size: 0.9em;
+    font-size: 0.8em;
+    font-family: Mulish;
+    width: 235px;
+    color: gray;
 }
 
 
