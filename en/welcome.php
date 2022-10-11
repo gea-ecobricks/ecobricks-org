@@ -103,7 +103,7 @@
 					</div>
 			
 				</div>
-				<div class="feed-live"><p><span class="blink">⬤  </span>Live <a href="brikchain.php">Brikchain</a> feed.  Click brik to view.</p></div>
+				<div class="feed-live"><p><span class="blink">⬤  </span>Live authentication feed.</p></div>
 			</div>
 
 			<div id="main-content">
@@ -165,12 +165,12 @@
 				?>
 						
 			</div>
-			<div class="feed-live"><p><span class="blink">↔️</span>
+			
 		</div>
 				
 		<div id="main-content">
-		<p>↔️</p>
-			<div class="big-header"><p>↔️</p>This Month's Top Ecobricks.</div>
+		<div class="feed-live"><p><span class="blink">↔️</span>
+			<div class="big-header">This Month's Top Ecobricks.</div>
 			<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
 			</div> 
 
