@@ -167,7 +167,7 @@ _END;?>
     @media screen and (min-width: 700px) { 
 .feed-live {
 width: 100%;
-text-align: left;
+text-align: center;
 line-height: 1.5;
 margin: auto;
 padding: 10px;

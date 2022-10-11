@@ -38,7 +38,7 @@
 
 	<div id="content-sect1">
 	 	<div id="main-content">
-			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v7" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
+			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<div class="big-header">Accelerating Plastic Transition</div>
 			<div class="sub-text">
 			<p>Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
@@ -54,7 +54,7 @@
 	  
 	<div id="content-sect2">
 		<div id="main-content">
-			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=4" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
+			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=5" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
 			</div>
 			<div class="big-header">Following Earth's Example</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
@@ -105,11 +105,11 @@
 				</div>
 				
 			</div>
-			<div class="feed-live"><p><span class="blink">⬤  </span>Live authentication feed.</p></div>
+			<div class="feed-live"><p><span class="blink">⬤ </span>Live authentication feed.</p></div>
 
 			<div id="main-content">
 			
-				<div class="big-header">The Brikchain.</div>
+				<div class="big-header">The Brikchain</div>
 				<div class="sub-text"><p>Every ecobrick that is authenticated is permenantly recorded onto the Brikcoin blockchain to generate 0.1 BRK for each gram of sequestered plastic that it represents.</p>
 				</div> 
 
@@ -168,7 +168,7 @@
 			</div>
 			
 		</div>
-		<div class="feed-live"><p><span class="blink">◀️</span> view <span class="blink">▶️</span></div>
+		<div class="feed-live"><p><span class="blink">← </span> view <span class="blink"> →</span></div>
 				
 		<div id="main-content">
 		
