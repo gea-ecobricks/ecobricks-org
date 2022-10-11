@@ -274,27 +274,28 @@ line-height: 1.5;}
 
 @media screen and (max-width: 700px) { 
 	.gallery10-content-block {
-		display: none;
-        /*text-align: center;
-		min-height: 67vh;
+			
+		text-align: center;
+		/*min-height: 67vh;
+        flex-wrap: wrap;*/
 		z-index: 5;
 		position: relative;   
-        background-color: #DFDFDF;
+        background-color: #dfdfdf;
 		display: flex;
- 		flex-wrap: wrap;
  		box-sizing: border-box;
 		flex-direction: row;
-		width: 120%;
+		width: 110%;
   		margin-right: -5%;
   		margin-left: -5%;
-		margin-top: 33px;
-		margin-bottom: 20px;
-        padding-bottom: 12px;
-        padding-top: 12px;
-		overflow: hidden;
-		box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+		margin-top: 0px;
+        margin-top: 50px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
 		padding-bottom: 15px;*/
+        overflow: auto;
+        white-space: nowrap;
 	}
 
 }
@@ -309,15 +310,12 @@ line-height: 1.5;}
 		position: relative;   
         background-color: #dfdfdf;
 		display: flex;
- 		
  		box-sizing: border-box;
 		flex-direction: row;
 		width: 110%;
   		margin-right: -5%;
   		margin-left: -5%;
 		margin-top: 0px;
-
-
         margin-top: 70px;
         padding-top: 20px;
         padding-bottom: 15px;
@@ -332,10 +330,11 @@ line-height: 1.5;}
 
 .flex-container10 {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;
+    overflow-x: scroll;*/
   background-color: #DFDFDF;
   margin-top: -8px;
-  overflow-x: scroll;
+
 }
 
 
@@ -360,6 +359,47 @@ line-height: 1.5;}
 .gal-photo10 img {
     max-height: 500px;
     height: 500px;
+}
+}
+
+/*
+.gal-photo-text {
+    background-color: #DFDFDF;
+    margin: 2px;
+    text-align: center;
+    padding: 8px;
+    width: 205px;
+    max-width:205px;
+    overflow: hidden;
+        margin-bottom: 0px;
+}*/
+
+.gal-photo10 p {
+    font-size: 0.9em;
+}
+
+
+@media screen and (max-width: 700px) { 
+
+.flex-container10 > .gal-photo10 {
+    background-color: #DFDFDF;
+    margin: 2px;
+    padding: 2px;
+    max-height: 225px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.photo-box10 {
+    max-height: 225px;
+    overflow: hidden;
+    
+}
+
+.gal-photo10 img {
+    max-height: 225px;
+    height: 225px;
 }
 }
 
