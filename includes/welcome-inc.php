@@ -189,7 +189,7 @@ padding: 10px 9% 0px 0%;
 .feed-live {
 width: 75%;
 text-align: center;
-padding: 22px;
+padding: 10px;
 line-height: 1.5;}
 
 .feed-live p {
@@ -312,9 +312,9 @@ line-height: 1.5;}
 		display: flex;
  		box-sizing: border-box;
 		flex-direction: row;
-		width: 110%;
-  		margin-right: -5%;
-  		margin-left: -5%;
+		width: 100%;
+  		margin-right: 0%;
+  		margin-left: 0%;
 		margin-top: 0px;
         margin-top: 70px;
         padding-top: 20px;
@@ -363,7 +363,7 @@ line-height: 1.5;}
 }
 }
 
-/*
+
 .gal-photo-text {
     background-color: #DFDFDF;
     margin: 2px;
@@ -373,7 +373,7 @@ line-height: 1.5;}
     max-width:205px;
     overflow: hidden;
         margin-bottom: 0px;
-}*/
+}
 
 .gal-photo10 p {
     font-size: 0.9em;
