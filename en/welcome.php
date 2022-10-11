@@ -90,7 +90,7 @@
 					<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
 					echo '<div class="gal10-photo-text">'.$row["ecobrick_unique_id"].'</div>';
 					echo '</div>';
-					}d
+					}
 
 					} else {
 					echo "Failed to connect to the Brikchain database";

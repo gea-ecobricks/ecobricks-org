@@ -95,18 +95,13 @@ _END;?>
 	
 	.gal-photo-text {
 		background-color: #DFDFDF;
-		margin: 2px;
+		margin: 0px;
 		text-align: center;
-		padding: 8px;
-		width: 205px;
-		max-width:205px;
+		padding: 2px;
 		overflow: hidden;
-			margin-bottom: 0px;
+        font-size: 0.9em;
 	}
 
-	.gal-photo p {
-		font-size: 0.9em;
-	}
 
 	.photo-box-end {
 
@@ -370,18 +365,13 @@ margin-bottom: 25px;}
 
 .gal10-photo-text {
     background-color: #DFDFDF;
-    margin: 2px;
+    margin: 0px;
     text-align: center;
-    padding: 8px;
-    width: 205px;
-    max-width:205px;
-    overflow: hidden;
-    margin-bottom: 0px;
-}
-
-.gal10-photo p {
+    padding: 3px;
+    overflow: hidden;    
     font-size: 0.9em;
 }
+
 
 
 @media screen and (max-width: 700px) { 
