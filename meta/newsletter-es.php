@@ -1,19 +1,19 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Ecobrick Modules</title>
+<title>Fall 2022 Newsletter</title>
 
 <meta name="author" content="Ecobricks.org">    
 
-<meta name="keywords" content="eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, building, guide, applications, constructions, modules, earth building, food forest play parks, planters, earth benches, garden walls, earthen structures, plastic sequestration, silicone modules, milstein modules, open spaces, dieleman modules">
+<meta name="keywords" content="newsletter, fall newsletter, spring, summer, winter, equinox, solstice, news, letter, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, building, guide, applications, constructions, modules, earth building, food forest play parks, planters, earth benches, garden walls, earthen structures, plastic sequestration, silicone modules, milstein modules, open spaces, dieleman modules">
 
-<meta name="description" content="Build simple, easy and awesome modular ecobrick furniture.">
+<meta name="description" content="Featured Projects and Ecobricks from around the world">
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/en/modules.php"/>
+	<meta property="og:url"           content="https://ecobricks.org/en/12-10-2022.php"/>
 	<meta property="og:type"          content="website">
- 	<meta property="og:title"         content="Ecobrick Modules">
-  	<meta property="og:description"   content="Build simple, easy and awesome modular ecobrick lego and furniture."/>
+ 	<meta property="og:title"         content="Fall 2022 Newsletter">
+  	<meta property="og:description"   content="Featured Projects and Ecobricks from around the world."/>
   	<meta property="og:image"         content="https://ecobricks.org/pngs/modules-banner-1200px.png"/>
   	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="1135" />
