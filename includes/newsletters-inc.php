@@ -33,6 +33,8 @@ _END;?>
 
 <STYLE>
 
+.main-content img {width:100%;}
+
 .action-btn {
 	background-color: #23A3E8
 }
@@ -100,6 +102,7 @@ _END;?>
 	padding: 0px;
 	box-sizing: border-box;
 	margin-top: 0px;
+    margin: auto;
 }
 }
 

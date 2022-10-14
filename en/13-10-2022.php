@@ -34,7 +34,7 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<h3>Welcome to our fall Newsletter!</h3> 
+				<p><b>Welcome to our fall Newsletter!</b></p> 
                 <p>As we head in the final quarter of the year, we're excited to share some awesome projects and progress from the global movement.</p>
 			</div>
 	
