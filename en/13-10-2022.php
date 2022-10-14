@@ -34,7 +34,8 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Welcome to our fall Newsletter! As we head in the final quarter of the year, we're excited to share some awesome projects and progress from the global movement.</p>
+				<h3>Welcome to our fall Newsletter!</h3> 
+                <p>As we head in the final quarter of the year, we're excited to share some awesome projects and progress from the global movement.</p>
 			</div>
 	
 			<div class="page-paragraph">
@@ -140,6 +141,7 @@ Content Page template: v.1.0.0-->
         
 </div>
             <br>
+            <hr>
                  
             <div class="row">
                 
@@ -158,7 +160,7 @@ Content Page template: v.1.0.0-->
                 </div>
 
                 <div class="side2">
-                    <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                    <br><img src="webp/brikmarket-400px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                 </div>
             </div>
 </div>
