@@ -3,11 +3,11 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/newsletter-inc.php");?>
+<?php require_once ("/includes/newsletter-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page
 
-<?php require_once ("under-construction.php");?>-->
+<?php require_once ("/under-construction.php");?>-->
 
 <!--TOP PAGE BANNER-->
 
@@ -175,7 +175,7 @@ Content Page template: v.1.0.0-->
                 <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Plastic Sequestration</h4>
                 <h5>The GEA advocates ecobrick building to sequester plastic.  Only builds that follow best-practices, embody earth principles and use authenticated eco<span class="eco-brick"> </span>bricks sequester plastic.</h5><br>
-                <a class="module-btn" href="sequest.php">Learn More</a>
+                <a class="module-btn" href="/sequest.php">Learn More</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
@@ -201,8 +201,8 @@ Content Page template: v.1.0.0-->
 				<a class="module-btn" href="principles.php">Learn More</a>
 			</div>
             
-            <?php include 'ecobricks_env.php';?> 
-            <?php require_once ("side-modules/ecobrick-of-the-month.php");?>
+            <?php include '/ecobricks_env.php';?> 
+            <?php require_once ("/side-modules/ecobrick-of-the-month.php");?>
             
             <?php 	$conn->close();?>
 
@@ -217,14 +217,14 @@ Content Page template: v.1.0.0-->
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("footers/footer-$lang.php");?>
+	<?php require_once ("/footers/footer-$lang.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
-
+<!-- This script is for pages that use the accordion content system
+<script src="/accordion-scripts.js" defer></script>
+-->
 
 </div>
 </body>
