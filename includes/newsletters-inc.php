@@ -35,6 +35,8 @@ _END;?>
 
 .main-content img {width:100%;}
 
+img {width: 100%;}
+
 .action-btn {
 	background-color: #23A3E8
 }

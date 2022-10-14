@@ -40,7 +40,7 @@ Content Page template: v.1.0.0-->
 	
 			<div class="page-paragraph">
  
-<h3>Featured Ecobrick Projects</h3>
+<b>Featured Ecobrick Projects</b>
 <p><img src="https://ecobricks.org/photos/2022-beds-700px.jpg">
 </p>
 <p>Ecobrick and earth benches being <a href="https://www.facebook.com/photo?fbid=5959199730808401&amp;set=pcb.5959210120807362">made by Wast.Ed in South Africa</a>!
