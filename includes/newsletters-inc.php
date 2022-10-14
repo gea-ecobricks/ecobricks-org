@@ -38,34 +38,6 @@ _END;?>
 }
 
 
-@media screen and (min-width: 700px) { 
-.flex-gallery {
-    display: flex;
-  flex-direction: row;
-  margin-bottom: 25px;
-}
-}
-
-@media screen and (max-width: 699px) { 
-.flex-gallery {
-    display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-bottom: 20px;
-}
-}
-
-
-
-.gal-photo {
-    padding: 10px;
-}
-
-.gal-photo p {font-size: 0.9em;
-    margin-bottom: 0px;
-    
-}
-
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
@@ -74,8 +46,8 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
        
-		background: url(https://ecobricks.org/svgs/module-banner.svg) bottom;
-        background-color: #23a3e8ff;
+		background: url(https://ecobricks.org/webp/build-banner-1400px.webp) bottom;
+        background-color: #FA8D04;
 		
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -90,18 +62,17 @@ _END;?>
 }
 
 
-
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		min-height: 60vh;
+		min-height: 67vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
 		
         
-		background: url(https://ecobricks.org/svgs/module-banner.svg) bottom;
-        background-color: #23a3e8ff;
+		background: url(https://ecobricks.org/webp/build-banner-1400px.webp) bottom;
+        background-color: #FA8D04;
 		
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
@@ -173,55 +144,55 @@ _END;?>
 }
 
 
+
 .splash-heading { 
+    /*font-family: 'Mulish', Arial, Helvetica, sans-serif;*/
+    font-family: Arvo, serif;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 0 8px black;
 
-font-family: 'Arvo', Georgia, serif;
-
-color: white;
-font-weight: 300;
-text-shadow: 0px 0px 8px #666;
-
-}
-
-@media screen and (max-width: 700px) {
-.splash-heading {
-  font-size: 2.6em;
-  line-height: 1.3;
-  margin: 0px 0;
-}
-}
-
-@media screen and (min-width: 700px) {
-.splash-heading {
-  font-size: 6em;
-  line-height: 1.3;
-  margin: auto;
-}
-}
-
-.splash-sub {
-font-family: 'Mulish', Arial, Helvetica, sans-serif;
-color: #fff;
-margin: 15px 0;
-text-shadow: 0px 0px 6px #666;
-/*text-shadow: 0px 0px 10px #fff;*/
 }
 
 @media screen and (max-width: 700px) {
-.splash-sub {
-	font-size: 1.45em;
-	line-height: 1.3;
-	font-weight: 400;
+	.splash-heading {
+      font-size: 3.0em;
+      line-height: 1.1;
+      margin: 10px 0;
+  }
 }
+
+@media screen and (min-width: 700px) {
+	.splash-heading {
+      font-size: 4em;
+      line-height: 1.3;
+      margin: 0px 0px 10px 0px;
+  }
+}
+
+
+.splash-sub {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: #fff;
+  /*text-shadow: 0px 0px 10px #fff;*/
+  margin: 15px 0;
+  text-shadow: 0 0 7px black;
+}
+
+@media screen and (max-width: 700px) {
+	.splash-sub {
+		font-size: 1.9em;
+		line-height: 1.3;
+		font-weight: 400;
+  }
 }
 @media screen and (min-width: 700px) {
-.splash-sub {
-	font-size: 2.2em;
-	line-height: 1.3;
-	font-weight: 400;
-	padding: 0px 30px 0px 0px;
+	.splash-sub {
+		font-size: 2.5em;
+		line-height: 1.3;
+		font-weight: 400;
+  }
 }
-} 
 
 
 #splash-bar {
@@ -234,7 +205,7 @@ text-shadow: 0px 0px 6px #666;
 	z-index: 0;
 
 box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-    background-color: #23a3e8ff;
+    background-color: #FA8D04;
 
 	-webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
@@ -251,7 +222,7 @@ border-width: 1px;
 margin-top: 31px;
 margin-bottom: 31px;}
 	
-</style>	
+</style>
 
 </head>
 							  

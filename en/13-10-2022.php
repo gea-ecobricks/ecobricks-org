@@ -17,11 +17,11 @@ Content Page template: v.1.0.0-->
 		<div class="splash-heading">Fall 2022 Newsletter</div>
 	    <div class="splash-sub">After every Equinox and Solstice we send a newlsetter to our full list of Ecobricks.org and GoBrik subscribers.</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/pngs/Feature-Floating-Module-500px.png" style="width: 85%">
+	<div class="splash-image"><img src="https://ecobricks.org/photos/brikchain.jpg" style="width: 95%">
     </div>	
 </div>
 <div id="splash-bar"></div>
-<!--<div id="header-bar2"></div>-->
+<!--<div id="header-bar2">https://ecobricks.org/pngs/Feature-Floating-Module-500px.png</div>-->
 
 
 <!-- PAGE CONTENT-->
@@ -146,13 +146,13 @@ Content Page template: v.1.0.0-->
                 <div class="main2">
                     <div class="page-paragraph-reg">
                  
-                        <h4>A Safe Passage Through Time</h4>
+                        <h4>Get the GEA Ecobrick Newsletter in your inbox!</h4>
                         
-                         <p>Building with ecobricks is a significant responsibility.  Ecobricks represent large amounts of secured plastic that will last a long time. For this reason it is more important than ever to build using methods that embody regenerative principles.</p>
+                         <p>Sign up to our GoBrik platform for a free account.  As per our terms of service, our Equinox/Solstice newsletter is sent out to all our ecobrickers four times a year.  In it we feature the latest projects and projects in the global ecobrick movement.</p>
                         <br><p>
                     
-                        <a class="action-btn" href="/earth-methods">🚀 Earth & Ecobrick Methods</a>
-                        <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</a></p>    
+                        <a class="action-btn" href="https://gobrik.com" target="_blank">🚀 GoBrik</a>
+                        <p style="font-size: 0.85em; margin-top:20px;">Opens the GoBrik webapp in a new window.</a></p>    
                     
                     </div>
                 </div>
@@ -220,10 +220,10 @@ Content Page template: v.1.0.0-->
 	<?php require_once ("footers/footer-$lang.php");?>
 
 
-<!-- CUSTOM PAGE SCRIPTS-->
+<!-- CUSTOM PAGE SCRIPTS
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="accordion-scripts.js" defer></script>-->
 
 
 </div>
