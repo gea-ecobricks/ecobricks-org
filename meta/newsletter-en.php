@@ -1,6 +1,6 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Fall 2022 Newsletter</title>
+<title>GEA Fall 2022 Newsletter</title>
 
 <meta name="author" content="Ecobricks.org">    
 
@@ -10,9 +10,9 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/en/12-10-2022.php"/>
+	<meta property="og:url"           content="https://ecobricks.org/en/13-10-2022.php"/>
 	<meta property="og:type"          content="website">
- 	<meta property="og:title"         content="Fall 2022 Newsletter">
+ 	<meta property="og:title"         content="GEA Fall 2022 Newsletter">
   	<meta property="og:description"   content="Featured Projects and Ecobricks from around the world."/>
   	<meta property="og:image"         content="ttps://ecobricks.org/photos/brikchain.jpg"/>
   	<meta property="og:image:width" content="562" />
