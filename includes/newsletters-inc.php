@@ -26,7 +26,7 @@ _END;?>
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("meta/newsletters-$lang.php");?>
+<?php require_once ("meta/newsletter-$lang.php");?>
 
 <?php require_once ("header.php");?>
 
