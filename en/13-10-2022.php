@@ -40,16 +40,16 @@ Content Page template: v.1.0.0-->
 	
 			<div class="page-paragraph">
  
-<b>Featured Ecobrick Projects</b>
-<p><img src="https://ecobricks.org/photos/2022-beds-700px.jpg">
+<p><h3>Featured Ecobrick Projects</h3></p>
+<p><img src="https://ecobricks.org/photos/2022-beds-700px.jpg" style="width: 100%;">
 </p>
 <p>Ecobrick and earth benches being <a href="https://www.facebook.com/photo?fbid=5959199730808401&amp;set=pcb.5959210120807362">made by Wast.Ed in South Africa</a>!
 </p>
-<p><img src="https://ecobricks.org/photos/2022-earth-bench-700px.jpg">
+<p><img src="https://ecobricks.org/photos/2022-earth-bench-700px.jpg"  style="width: 100%;">
 </p>
 <p>A zero-cement<a href="https://www.facebook.com/photo?fbid=5530933733649731&amp;set=pcb.5518723128216410">garden bed made from earth and ecobricks</a> in the UK!<br><br>
 </p>
-<p><img src="https://ecobricks.org/photos/2022-modules-700px.jpg">
+<p><img src="https://ecobricks.org/photos/2022-modules-700px.jpg"  style="width: 100%;">
 </p>
 <p>An <a href="https://www.youtube.com/shorts/8MrAFWtMGnc">open space of ecobriick modules at GreenFest 2022</a> in the UK!<br><br>
 </p>
