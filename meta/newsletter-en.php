@@ -14,9 +14,9 @@
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Fall 2022 Newsletter">
   	<meta property="og:description"   content="Featured Projects and Ecobricks from around the world."/>
-  	<meta property="og:image"         content="https://ecobricks.org/pngs/modules-banner-1200px.png"/>
-  	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="1135" />
+  	<meta property="og:image"         content="ttps://ecobricks.org/photos/brikchain.jpg"/>
+  	<meta property="og:image:width" content="562" />
+	<meta property="og:image:height" content="364" />
   	<meta property="og:image:alt"     content="Modules being used as seats for a table"/>
 	  <meta property="og:locale" content="en_GB" />
 
