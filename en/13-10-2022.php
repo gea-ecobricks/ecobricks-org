@@ -170,7 +170,17 @@ Content Page template: v.1.0.0-->
 
 		<div class="side">
 	
+        <?php require_once ("side-modules/about-gea.php");?>
+            
 			
+		<?php include 'ecobricks_env.php';?> 
+		<?php require_once ("side-modules/brikcoin-live-values.php");?>
+		<?php 	$conn->close();?>
+            
+            <?php include 'ecobricks_env.php';?> 
+            <?php require_once ("side-modules/ecobrick-of-the-month.php");?>  
+            <?php 	$conn->close();?>
+
             <div id="side-module-desktop-mobile">
                 <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Plastic Sequestration</h4>
@@ -185,28 +195,6 @@ Content Page template: v.1.0.0-->
 				<a class="module-btn" href="transition.php">Learn More</a>
 			</div>
 
-			
-
-            <div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
-				<h4>Circular Design</h4>
-				<h5>Ecobrick applications follows the principles of circular design to put our plastic into indefinite greening cycles of reuse.</h5><br>
-				<a class="module-btn" href="/circular">Learn More</a>
-			</div>
-
-            <div id="side-module-desktop-mobile">
-				<img src="pngs/transcaste-500px.png" width="80%" loading="lazy" alt="eco brick transcaste construction and building briks.">
-				<h4>Transcate Collaboration</h4>
-				<h5>In contrast to conventional construction, Earth and ecobricking building is transcaste, meaning that it is accessible to men and women, young and old, black and white, and everyone in between!</h5><br>
-				<a class="module-btn" href="principles.php">Learn More</a>
-			</div>
-            
-            <?php include 'ecobricks_env.php';?> 
-            <?php require_once ("side-modules/ecobrick-of-the-month.php");?>
-            
-            <?php 	$conn->close();?>
-
-            
 
 		</div>
 
