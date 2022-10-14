@@ -25,6 +25,7 @@ deployment:
   - /bin/cp -R misc $DEPLOYPATH
   - /bin/cp -R slides $DEPLOYPATH
   - /bin/cp -R side-modules $DEPLOYPATH
+  - /bin/cp -R newsletters $DEPLOYPATH
 
 
   - /bin/cp .htaccess $DEPLOYPATH
@@ -63,6 +64,7 @@ deployment:
   - /bin/cp -R css $DEPLOYPATH
   - /bin/cp -R slides $DEPLOYPATH
   - /bin/cp -R side-modules $DEPLOYPATH
+  - /bin/cp -R newsletters $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
 
@@ -107,7 +109,8 @@ deployment:
   - /bin/cp -R includes $DEPLOYPATH
   - /bin/cp -R css $DEPLOYPATH
   - /bin/cp -R slides $DEPLOYPATH
-  - /bin/cp -R side-modules $DEPLOYPATH
+  - /bin/cp -R side-modules $DEPLOYPAT
+  - /bin/cp -R newsletters $DEPLOYPATH
 
   - /bin/cp .htaccess $DEPLOYPATH
   - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -154,6 +157,7 @@ deployment:
   - /bin/cp -R css $DEPLOYPATH
   - /bin/cp -R slides $DEPLOYPATH
   - /bin/cp -R side-modules $DEPLOYPATH
+  - /bin/cp -R newsletters $DEPLOYPATH
 
   - /bin/cp .htaccess $DEPLOYPATH
   - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -199,6 +203,7 @@ deployment:
   - /bin/cp -R css $DEPLOYPATH
   - /bin/cp -R slides $DEPLOYPATH
   - /bin/cp -R side-modules $DEPLOYPATH
+  - /bin/cp -R newsletters $DEPLOYPATH
 
   - /bin/cp .htaccess $DEPLOYPATH
   - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -248,6 +253,7 @@ deployment:
   - /bin/cp -R css $DEPLOYPATH
   - /bin/cp -R slides $DEPLOYPATH
   - /bin/cp -R side-modules $DEPLOYPATH
+  - /bin/cp -R newsletters $DEPLOYPATH
 
   - /bin/cp .htaccess $DEPLOYPATH
   - /bin/cp .cpanel.yml $DEPLOYPATH

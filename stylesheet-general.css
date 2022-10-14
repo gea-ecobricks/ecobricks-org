@@ -93,7 +93,7 @@ border-radius: 5px;
   #translation-required {
     padding: 30px 20px 20px 20px;
     background-color: #FDE21F;
-    font-family: Mulish;
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
     font-size: 0.9em;
     line-height: 1.5;
     font-weight: 400;
@@ -395,24 +395,6 @@ h6 a:hover {
 }
 }
 
-/* Main column */
-
-@media screen and (min-width: 700px) {
-  .virtue {
-    flex: auto;
-    padding: 15px;
-    box-sizing: border-box;
-  }
-  }
-  
-  @media screen and (max-width: 700px) {
-  .virtue {
-    flex: 100%;
-    box-sizing: border-box;
-  }
-  }
-
-
 /* Sidebar/right column */
 
 @media screen and (min-width: 700px) {
@@ -528,7 +510,7 @@ migrated from GoBrik.com CSS
 
 .topnav-lang a {
   font-size: 1.1em;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   /*text-shadow: 0px 0px 10px #ccc ;*/
   font-weight: 300;
   padding: 14px 16px;
@@ -571,12 +553,12 @@ migrated from GoBrik.com CSS
   font-family: inherit;
   margin-top: 0;
 
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   /*text-shadow: 0px 0px 10px #ccc ;*/
   font-weight: 300;
   margin-right: 0;
   float: right;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
 }
 @media screen and (min-width: 1000px) {
   .dropdown-lang .dropbtn-lang {
@@ -724,7 +706,7 @@ display: none;
 
 .topnav a {
   font-size: 1.3em;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   /*text-shadow: 0px 0px 10px #ccc ;*/
   font-weight: 300;
   padding: 14px 16px;
@@ -781,7 +763,7 @@ display: none;
   margin-top: 0;
   margin-bottom: 9px;
   font-size: 1.3em;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   /*text-shadow: 0px 0px 10px #ccc ;*/
   font-weight: 300;
 }
@@ -947,7 +929,7 @@ background-size: contain;*/
 
 .apptext-sub {
   font-size: 0.8em;
-  font-family: Mulish;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-weight: 300;
 }
 
@@ -1138,7 +1120,7 @@ migrated from GoBrik.com CSS
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
   border-radius: 14px;
-font-family: Mulish;
+font-family: 'Mulish', Arial, Helvetica, sans-serif;
 color: #fff;
 font-size: 20px;
 background: #4f8a28ff;
@@ -1159,7 +1141,7 @@ margin-top: 40px;
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
   border-radius: 14px;
-font-family: Mulish;
+font-family: 'Mulish', Arial, Helvetica, sans-serif;
 color: #fff;
 font-size: 20px;
 background: #2886C9;
@@ -1183,7 +1165,7 @@ margin-top: 40px;
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
-  font-family: Mulish;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #ffffff;
   font-size: 16px;
   background: #a8a8a8;
@@ -1556,7 +1538,7 @@ text-decoration: none;
 /* VISION STATEMENT IN FOOTER */
 
 .footer-vision {
-  font-family: Mulish, sans;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #b0fff7;
   font-weight: 500;
   text-align: center;
@@ -1673,7 +1655,7 @@ text-decoration: none;
 
 /*NOT ACTIVE - PLatform reviews*/
 .icon-name {
-  font-family: Mulish, sans;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-size: 0.9em;
   color: #a8aab8;
   line-height: 1.3;
@@ -1683,7 +1665,7 @@ text-decoration: none;
 }
 
 .server-review {
-  font-family: Mulish, sans;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-size: 0.8em;
   color: #a8aab8;
   line-height: 1.3;
@@ -1743,7 +1725,7 @@ text-decoration: none;
 }
 
 .footer-subtext {
-  font-family: Mulish, sans-serif;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #8cbdda;
   font-weight: 300;
   text-align: left;
@@ -1778,7 +1760,7 @@ text-decoration: none;
 }
 
 .footer-conclusion {
-  font-family: Mulish, sans;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: #8cbdda;
   line-height: 1.3;
   font-weight: 300;
@@ -1816,7 +1798,7 @@ text-decoration: none;
 
 /* -------------------------------------------------------------------------- */
 
-/*	7. WIDGE FORMATTING
+/*	7. WIDGET FORMATTING
 
 /* -------------------------------------------------------------------------- */
 
