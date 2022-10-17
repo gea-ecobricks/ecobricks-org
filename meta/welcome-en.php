@@ -1,5 +1,5 @@
 
-    <title>Ecobrick Powered Plastic Transition</title>
+<title>Ecobrick Powered Plastic Transition</title>
 
 <meta name="keywords" content="eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste, non-capital, zero-waste, net-zero, plastic sequestration"> 
 
@@ -23,7 +23,7 @@
   <meta property="og:type" content="article" />
  <meta property="og:site_name" content="Ecobricks.org" />
  <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
- <meta property="article:modified_time" content="2022-08-14T09:14:13+00:00" />
+ <meta property="article:modified_time" content="2022-10-17T09:14:13+00:00" />
  <meta property="og:image:type" content="image/png" />
  <meta name="author" content="Global Ecobrick Alliance" />
  <meta name="twitter:card" content="summary" />
