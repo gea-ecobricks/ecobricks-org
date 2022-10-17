@@ -62,9 +62,13 @@ _END;?>
 /* FEATURED ECOBRICKS GALLERY FORMATING */
 
 .brik-co2 {
-    font-size: 0.5em;
+    font-size: 0.7em;
     color: white;
     font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    margin-top: -60px;
+    text-align: left;
+    padding: 0px 0px 10px 20px;
+    background-color: black !important;
 }
 
 .flex-container {

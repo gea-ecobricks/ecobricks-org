@@ -89,7 +89,7 @@
 					<div class="gal-photo"><div class="photo-box">
 					<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
 				
-					echo '<div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight"].'g<br>'.$row["density"].'g/ml</div>
+					echo '<div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["density"].'g/ml</div>
 					</div>';
 					}
 
@@ -106,7 +106,7 @@
 				</div>
 				
 			</div>
-			<div class="feed-live"><p><span class="blink">⬤ Live Feed:</span> 50 last ecobricks (with selfies) / 34kg of plastic / 150kg CO2e / 340 BRK generated</div>
+			<div class="feed-live"><p><span class="blink">⬤ Live Feed:</span> 50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div>
 
 			<div id="main-content">
 			
