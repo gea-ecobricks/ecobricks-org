@@ -60,6 +60,52 @@
 	</div>
 
 
+
+	<div class="reg-content-block" id="block2">
+		<div class="opener-header">
+			<div class="opener-header-text">
+				<h4>Authenticated Ecobricks</h4>
+				<h6>The archival chain of authenticated ecobricks.  Updated every six hours with the latest confirmed authentications.</h6>
+				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live</p></div><div class="ecobrick-data"><p>🟠 Historical Data pending transfer</p></div>
+			</div>
+			
+			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+
+		</div>
+
+		<div id="preclosed2">
+
+			<div class="overflow">
+
+				<table id="ecobricks" class="display" style="width:100%">
+					<thead>
+						<tr>
+							<th style="max-width: 150px !important;">Brik</th>
+							<th>Authenticated</th>
+							<th>AES Plastic</th>
+							<th>Maker</th>
+							<th>Value</th>
+							<th>CO2e</th>
+							<th>🔎 Serial</th>
+						</tr>
+					</thead>
+					<!--<tfoot>
+						<tr>
+							<<th style="max-width: 150px !important;">Brik</th>
+							<th>Logged</th>
+							<th>AES Plastic</th>
+							<th>Value</th>
+							<th>CO2e</th>
+							<th>Serial</th>
+						</tr>
+					</tfoot>-->
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+
 	<div class="reg-content-block" id="block1">
 		<div class="opener-header">
 			<div class="opener-header-text">
@@ -106,50 +152,6 @@
 		</div>
 	</div>
 
-
-
-	<div class="reg-content-block" id="block2">
-		<div class="opener-header">
-			<div class="opener-header-text">
-				<h4>Authenticated Ecobricks</h4>
-				<h6>The archival chain of authenticated ecobricks.  Updated every six hours with the latest confirmed authentications.</h6>
-				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live</p></div><div class="ecobrick-data"><p>🟠 Historical Data pending transfer</p></div>
-			</div>
-			
-			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-
-		</div>
-
-		<div id="preclosed2">
-
-			<div class="overflow">
-
-				<table id="ecobricks" class="display" style="width:100%">
-					<thead>
-						<tr>
-							<th style="max-width: 150px !important;">Brik</th>
-							<th>Authenticated</th>
-							<th>AES Plastic</th>
-							<th>Maker</th>
-							<th>Value</th>
-							<th>CO2e</th>
-							<th>🔎 Serial</th>
-						</tr>
-					</thead>
-					<!--<tfoot>
-						<tr>
-							<<th style="max-width: 150px !important;">Brik</th>
-							<th>Logged</th>
-							<th>AES Plastic</th>
-							<th>Value</th>
-							<th>CO2e</th>
-							<th>Serial</th>
-						</tr>
-					</tfoot>-->
-				</table>
-			</div>
-		</div>
-	</div>
 
 	<div class="reg-content-block" id="block3">
 				

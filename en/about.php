@@ -108,7 +108,7 @@ Content Page template: v.1.0.1-->
 
 						<div class="row">
                             <div class="main2">
-                            <p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It also means that, unlike organizations, we do not receive charity, grants, or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor a mandates of growth and profits.</p>
+                            <p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It also means that, unlike organizations, we do not receive charity, grants, or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor mandates of growth and profits.</p>
                             </div>
                             <div class="side2"><img src="webp/for-earth500px.webp" width="95%" alt="We make eco bricks to serve the Earth">
                             </div>
@@ -128,7 +128,7 @@ Content Page template: v.1.0.1-->
 						
 					<p>  Through our <a href="brikcoins.php">Brikcoin blockchain</a> this value is authenticated, quantified, and valued in regular currency.  We then sell Authenticated Ecobrick Sequestrated Plastic (<a href="aes">AES plastic offsets</a>) to fund our operations.</p>
 					
-					<p>The GEA develops <a href="/trainings">workshops and trainings</a> that raise ecological consciousness around the dangers of plastic.  These courses are lead by our trainer team and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
+					<p>The GEA develops <a href="/trainings">workshops and trainings</a> that raise ecological consciousness around the dangers of plastic.  These courses are led by our trainer team and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
 
 					<p>The GEA develops regenerative open source products that are made to specification by makers local to the country in which they are sold.  These products are sold by our trainers to assist with their practice (see <a href="/earthwand">our EarthWand page for an example).</a></p>
 
@@ -333,7 +333,7 @@ Content Page template: v.1.0.1-->
 				<div id="side-module-desktop-mobile">
 					<img src="webp/for-earth500px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 					<h4>For-Earth Enterprise</h4>
-					<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
+					<h5>By disclosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 					
 				</div>
 

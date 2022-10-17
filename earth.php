@@ -186,7 +186,7 @@ Content Page template: v.1.0.0-->
                 <div class="opener-header">    
                     <div class="opener-header-text">
                         <h4>A safe Journey through time.</h4>
-                        <h5>Plastic is potentially a toxic material.  When working and building with plastic it is essential to plan ahead for the next thousand years.  Ecobricking and Earth Building are a way to secure plastic and put it onto a secure long-term trajectory.</h5>
+                        <h5>Plastic is potentially a toxic material. Ecobricking and Earth Building are a way to secure plastic and put it onto a safe and secured long-term trajectory.</h5>
                         <br>
                     </div>
                     <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
@@ -194,7 +194,9 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed5">
 
-                    <img src="photos/green-space.jpg" width="100%" loading="lazy" alt="green space balili school food forest park">
+                <img src="photos/earth-building-biodiversity.jpg" width="100%" loading="lazy" alt="green space balili school food forest park">
+                
+                <!--<img src="photos/green-space.jpg" width="100%" loading="lazy" alt="green space balili school food forest park">-->
     
                     <p>The danger of plastic comes from its exposed surface area.  To the extent that plastic’s surface area is exposed to the elements, it will steadily break down over time into smaller and smaller pieces (microplastics) and leach toxins.  By packing and covering ecobricks we keep the plastic safe and secure.</p>
 
@@ -245,11 +247,11 @@ Content Page template: v.1.0.0-->
                     <p>📄 <b>Template GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
                     <ul>
                         <li>Editable Template – ODG – 1MB</li>
-                        <li>📥 Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
+                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
                     </ul>
                     <br>
 
-                    <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+                    <div class="license"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></div><div class="license-text"><h6>The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</h6></div>
                 </div>
             </div>
 
