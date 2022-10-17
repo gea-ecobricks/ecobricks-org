@@ -195,6 +195,10 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed5">
 
                 <img src="photos/earth-building-biodiversity.jpg" width="100%" loading="lazy" alt="green space balili school food forest park">
+
+                <h5><b>Supporting biodiversity: Before and after shots of an earth and ecobrick pond, made with 200 ecobricks in the UK.</b></h5>
+
+                <br>
                 
                 <!--<img src="photos/green-space.jpg" width="100%" loading="lazy" alt="green space balili school food forest park">-->
     
@@ -251,7 +255,7 @@ Content Page template: v.1.0.0-->
                     </ul>
                     <br>
 
-                    <div class="license"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></div><div class="license-text"><h6>The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</h6></div>
+                    <div class="license"><div class="license-image"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></div><div class="license-text"><p style="font-size: 0.85em; margin-top:20px;">The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</span></div></div>
                 </div>
             </div>
 
