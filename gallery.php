@@ -25,8 +25,7 @@ Content Page template: v.1.0.0-->
                 <div class="gal-photo-text"></div>
              </div>-->
          
-            
-
+          
             <?php
 
             $sql = "SELECT * FROM vw_gallery_feed ;";
