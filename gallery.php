@@ -55,6 +55,9 @@ Content Page template: v.1.0.0-->
                 <div class="photo-box-end"><a href="brikchain.php">+</a></div>
                 <div class="gal-photo-text"></div>
              </div>
+
+             <div class="gal-photo" style="width: 200px; padding-top: 20px; margin-top: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
+             50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div>
             <!-- <div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>-->
 
         </div>
