@@ -99,10 +99,9 @@
 					}
 
 					?>
-					<div class="gal-photo">
-						<div class="photo-box-end">Live feed of authenticated ecobricks<a href="brikchain.php">+</a></div>
-						<div class="gal-photo-text">Live feed of authenticated ecobricks</div><div>Live feed of authenticated ecobricks</div>
-					</div>
+					<div class="feed-live"><p>
+					Live feed of authenticated ecobricks</p></div>
+					
 			
 				</div>
 				
