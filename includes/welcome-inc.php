@@ -76,6 +76,7 @@ _END;?>
   flex-wrap: wrap;
   background-color: #DFDFDF;
   margin-top: 10px;
+  flex-wrap: wrap-reverse;
 }
 
 

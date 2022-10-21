@@ -99,12 +99,13 @@ echo '
 					<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</p><br>
 					<p>--------------------</p>
 					<p>BEGIN BRIK RECORD ></p>';
-
+			echo ' <p><b>Link to brk trans:</b><var>No link yet</var></p>' ;
 			echo ' <p><b>Logged:</b> ' . $array["date_logged_ts"] .'</p>' ;
 			echo ' <p><b>Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</var></p>' ;
 			echo ' <p><b>Weight:</b> <var>' . $array["weight_g"] .'&#8202;g</var></p>' ;
 			echo ' <p><b>Density:</b> <var>' . $array["density"] .'&#8202;g/ml</var></p>' ;
 			echo ' <p><b>CO2e:</b><var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
+			echo ' <p><b>Link to brk trans:</b><var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
 			echo ' <p><b>Brikcoin value:</b> <var>' . $array["ecobrick_dec_brk_val"] .'&#8202;ß</var></p>' ;
 
 			echo ' <p><b>Maker:</b> <var><i>' . $array["owner"] .'</i></var> </p>' ;

@@ -100,8 +100,8 @@
 
 					?>
 					<div class="gal-photo">
-						<div class="photo-box-end"><a href="brikchain.php">+</a></div>
-						<div class="gal-photo-text"></div>
+						<div class="photo-box-end">Live feed of authenticated ecobricks<a href="brikchain.php">+</a></div>
+						<div class="gal-photo-text">Live feed of authenticated ecobricks</div><div>Live feed of authenticated ecobricks</div>
 					</div>
 			
 				</div>
