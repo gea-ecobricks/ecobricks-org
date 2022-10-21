@@ -99,7 +99,7 @@
 					}
 
 					?>
-					<div class="gal-photo" style="width: 200px;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
+					<div class="gal-photo" style="width: 200px; padding-top: 20px; margin-top: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
 					Latest authenticated ecobricks</p></div></div>
 					
 			
