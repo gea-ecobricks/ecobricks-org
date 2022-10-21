@@ -99,14 +99,14 @@
 					}
 
 					?>
-					<div class="feed-live"><p>
-					Live feed of authenticated ecobricks</p></div>
+					<div class="gal-photo" style="width: 200px;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
+					Latest authenticated ecobricks</p></div></div>
 					
 			
 				</div>
 				
 			</div>
-			<div class="feed-live"><p><span class="blink">⬤ Live Feed:</span> 50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div>
+			<div class="feed-live"><p><span class="blink">⬤</span> 50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div>
 
 			<div id="main-content">
 			
