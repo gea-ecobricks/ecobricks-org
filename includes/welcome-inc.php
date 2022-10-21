@@ -261,7 +261,7 @@ margin-bottom: 25px;}
 
 		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
-		padding-bottom: 15px;*/
+		padding-bottom: 15px;*/  
 
 	}
 } 
