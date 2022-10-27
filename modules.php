@@ -300,25 +300,23 @@ Content Page template: v.1.0.0-->
                     
                     <p style="font-size: 1em;">An old module can be cut apart and its ecobricks reused.</>
                     <hr><br>
-                
-                    <h4>Maintenance and Precautions</h4>
-
-                    <p>As in all ecobrick applications, be sure to keep your modules out of the direct sunlight.&nbsp;&nbsp; The sun will fade colors and degrade silicone, rubber and plastic.&nbsp;&nbsp;</p>
                     
-                    <p><strong>With the tire banded modules it is critical to keep them out of the sun. &nbsp;</strong> Inner tubes are made from butyl rubber from petrochemicals.&nbsp; Inner tubes are highly succeptible to photodegradation and will weaken within weeks of UV exposure.&nbsp; Butyl rubber degrades by breaking down into small and smaller pieces similar to micro-plastics.&nbsp; These do not biodegrade and instead accumulate in the environment.&nbsp; Butyl rubber is seldom recycled, so it is best to pack broken pieces and cuttings into an ecobrick.</p>
-                    
-                    <p>All in all, you can expect an indoor module to last 3-5 years.&nbsp; After this time, the silicone bonds will begin to fail.&nbsp; Silicone modules, can be easily repaired by removing loose bottles, clearing off their old silicone, cleaning their surface and re-siliconing.&nbsp;&nbsp; The same goes for tire-band modules; simply reattach the bottle.</p>
+                    <p>All in all, you can expect an indoor module to last 3-5 years. After this time, the silicone bonds will begin to fail. Silicone modules, can be easily repaired by removing loose bottles, clearing off their old silicone, cleaning their surface and re-siliconing. The same goes for tire-band modules; simply reattach the bottle.</p>
                     
                     <h4>Next Life</h4>
-                    <div id="attachment_65375" style="width: 310px" class="wp-caption alignright"><a href="https://www.ecobricks.org/wp-content/uploads/2020/07/FullSizeRender.jpg"><img aria-describedby="caption-attachment-65375" loading="lazy" class="wp-image-65375 size-medium" src="https://www.ecobricks.org/wp-content/uploads/2020/07/FullSizeRender-300x225.jpg" alt="" width="300" height="225"></a>
+
                     
-                    <p id="caption-attachment-65375" class="wp-caption-text">Removed ecobricks from an old module.</p></div>
+                    <p>When your module comes to the end of its life, use a sharp knife to cut the bottles out of the pattern. Be sure not to cut the PET of the bottle as you do so – often pulling the bottles apart will suffice.</p>
                     
-                    <p>When your module comes to the end of its life, use a sharp knife to cut the bottles out of the pattern.&nbsp; Be sure not to cut the PET of the bottle as you do so – often pulling the bottles apart will suffice.</p>
+                    <p>For silicone modules, you can also use vinegar or isopropyl alcohol to weaken and dissolve the bonds. Clear the old silicone from the old bottles.& Your ecobricks can now be reused to make modules or applied in <a href="earth.php">earth and ecobrick constructions</a>.</p>
                     
-                    <p>For silicone modules, you can also use vinegar or <span class="ILfuVd NA6bn"><span class="e24Kjd">isopropyl alcohol to weaken and dissolve the bonds</span></span>.&nbsp; Clear the old silicone from the old bottles.&nbsp; Your ecobricks can now be reused to make modules or applied in <a href="/earth">earth and ecobrick constructions</a>.</p>
+                    <p>You can safely dispose of silicone sealant in your garden, ideally in a sunny place. Silicone is not plastic, nor is it petroleum based.&nbsp; It degrades harmless back into its inorganic components of amorphous silica, carbon dioxide, and water vapor (SO, CO2, H2O).</p>
+
+                    <h4>Maintenance and Precautions</h4>
+
+                    <p>As in all ecobrick applications, be sure to keep your modules out of the direct sunlight. The sun will fade colors and degrade silicone, rubber and plastic.</p>
                     
-                    <p>You can safely dispose of silicone sealant in your garden, ideally in a sunny place.&nbsp; Silicone is not plastic, nor is it petroleum based.&nbsp; It degrades harmless back into its inorganic components of amorphous silica, carbon dioxide, and water vapor (SO, CO2, H2O).</p>
+                    <p><strong>With the tire banded modules it is critical to keep them out of the sun.</strong> Inner tubes are made from butyl rubber from petrochemicals. Inner tubes are highly susceptible to photodegradation and will weaken within weeks of UV exposure.  Butyl rubber degrades by breaking down into small and smaller pieces similar to micro-plastics. These do not biodegrade and instead accumulate in the environment. Butyl rubber is seldom recycled, so it is best to pack broken pieces and cuttings into an ecobrick.</p>
                 </div>
             </div>
 
@@ -336,7 +334,14 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed7">
 
-                <p><a href="https://cdn.ecobricks.org/wp-content/uploads/2020/07/Ecobrick-Open-Space-Module-Banner-Indo-v2.0-1.png"><img loading="lazy" class="wp-image-65321  alignright" src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/Ecobrick-Open-Space-Module-Banner-Indo-v2.0-1.png" alt="" width="212" height="315"></a>Milstein module applications are scalable in home and in community spaces.&nbsp;&nbsp; Keeping adding to your collection to build more with them.</p><p>Try also building ecobrick <a href="/dms">dieleman modules</a>.</p><p>When you have a large collection of milstein and dieleman modules you’re able to create <a href="https://www.ecobricks.org/openspace/">Ecobrick Open Spaces</a>— interactive community spaces that can be built, un-built, and built again during conferences and gatherings to serve the needs of the moment.</p><p>And of course, when you’re modules come to an end you can put their ecobricks to next use.&nbsp; Earth and Ecobrick building is the next long-term application for used ecobricks.&nbsp; This method enables the 100% protection of ecobricked plastic from degradation and enables the indefinite <a href="/sequest">sequestration of plastic.</a>
+                <br>   
+                    <img src="photos/modules/open-space.jpg" width="100%" alt="module next life"></a>
+                    
+                    <p style="font-size: 1em;">An old module can be cut apart and its ecobricks reused.</>
+                    <hr><br>
+
+
+                <p>>Milstein module applications are scalable in home and in community spaces.&nbsp;&nbsp; Keeping adding to your collection to build more with them.</p><p>Try also building ecobrick <a href="/dms">dieleman modules</a>.</p><p>When you have a large collection of milstein and dieleman modules you’re able to create <a href="https://www.ecobricks.org/openspace/">Ecobrick Open Spaces</a>— interactive community spaces that can be built, un-built, and built again during conferences and gatherings to serve the needs of the moment.</p><p>And of course, when you’re modules come to an end you can put their ecobricks to next use.&nbsp; Earth and Ecobrick building is the next long-term application for used ecobricks.&nbsp; This method enables the 100% protection of ecobricked plastic from degradation and enables the indefinite <a href="/sequest">sequestration of plastic.</a>
 
                 </div>
             </div>
