@@ -295,6 +295,14 @@ Content Page template: v.1.0.0-->
                 </div>
 
                 <div id="preclosed5">
+
+                <br>   
+                    <img src="photos/modules/module-next-life.jpg" width="100%" alt="module next life"></a>
+                    
+                    
+                    <p style="font-size: 1em;">An old module can be cut apart and its ecobricks reused.</>
+                    <hr><br>
+                
                     <h4>Maintenance and Precautions</h4>
 
                     <p>As in all ecobrick applications, be sure to keep your modules out of the direct sunlight.&nbsp;&nbsp; The sun will fade colors and degrade silicone, rubber and plastic.&nbsp;&nbsp;</p>
