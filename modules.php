@@ -295,10 +295,8 @@ Content Page template: v.1.0.0-->
                 </div>
 
                 <div id="preclosed5">
-
                 <br>   
                     <img src="photos/modules/module-next-life.jpg" width="100%" alt="module next life"></a>
-                    
                     
                     <p style="font-size: 1em;">An old module can be cut apart and its ecobricks reused.</>
                     <hr><br>
