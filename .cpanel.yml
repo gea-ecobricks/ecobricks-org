@@ -89,7 +89,7 @@ deployment:
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta2.php $DEPLOYPATH
+  - /bin/cp modules.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp featured.php $DEPLOYPATH
   - /bin/cp gallery.php $DEPLOYPATH
@@ -132,7 +132,7 @@ deployment:
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta2.php $DEPLOYPATH
+  - /bin/cp modules.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp featured.php $DEPLOYPATH
 
@@ -178,7 +178,7 @@ deployment:
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta2.php $DEPLOYPATH
+  - /bin/cp modules.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp featured.php $DEPLOYPATH
 
@@ -223,7 +223,7 @@ deployment:
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta2.php $DEPLOYPATH
+  - /bin/cp modules.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp featured.php $DEPLOYPATH
 
@@ -272,7 +272,7 @@ deployment:
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp modules-beta2.php $DEPLOYPATH
+  - /bin/cp modules.php $DEPLOYPATH
   - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp featured.php $DEPLOYPATH
   - /bin/cp gallery.php $DEPLOYPATH
