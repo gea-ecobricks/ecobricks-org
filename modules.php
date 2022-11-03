@@ -341,12 +341,35 @@ Content Page template: v.1.0.0-->
                     <hr><br>
 
 
-                <p>>Milstein module applications are scalable in home and in community spaces.&nbsp;&nbsp; Keeping adding to your collection to build more with them.</p><p>Try also building ecobrick <a href="/dms">dieleman modules</a>.</p><p>When you have a large collection of milstein and dieleman modules you’re able to create <a href="https://www.ecobricks.org/openspace/">Ecobrick Open Spaces</a>— interactive community spaces that can be built, un-built, and built again during conferences and gatherings to serve the needs of the moment.</p><p>And of course, when you’re modules come to an end you can put their ecobricks to next use.&nbsp; Earth and Ecobrick building is the next long-term application for used ecobricks.&nbsp; This method enables the 100% protection of ecobricked plastic from degradation and enables the indefinite <a href="/sequest">sequestration of plastic.</a>
+                <p>The great thing about ecobrick modules is that their application is indefinitely scalable.  In other words, the more modules you and your community make, the more things you can build with them.  In Indonesia, some communities pool their modules together into a common collection that they then rent out to be used in eco-events.</p>
+                
+                <p>These large scale applications of many modules are known as ecobrick open spaces— interactive community spaces that can be built, un-built, and built again during conferences and gatherings to serve the needs of the moment.</p>
+                
+                <p>As you keep making modules consider also <a href="/dms">dieleman modules</a>.  This type of ecobrick module can be used to build with vertically as well as horizontally-- though, unlike Milstein modules, many are required in order for them to be practical</p>
+
+                <div class="row">
+						<div class="main2">
+                        <p>And of course, when you’re modules come to an end you can put their ecobricks to next use. Earth and Ecobrick building is the next long-term application for used ecobricks. This method enables the 100% protection of ecobricked plastic from degradation and enables the indefinite <a href="/sequest">sequestration of plastic.</a></p>
+                    
+                   
+						</div>
+						<div class="side2"><img src="webp/modules-circular.webp" width="80%" alt="cyclical design of modular applications">
+						</div>
+					</div>
+
+					<div class="row2">
+						<div class="main3">
+						<p>Of cours, you can also use your ecobricks to make another module too!</p> 
+						</div>
+						<div class="side3"><img src="webp/modules-circular.webp" width="120px" alt="Cyclical Circular Design of module applications">
+						</div>
+					</div>
+                
 
                 </div>
             </div>
 
-
+<!--
             <a name="PRINCIPLED"></a>
             <div class="reg-content-block" id="block6">
 				<div class="opener-header">
@@ -366,7 +389,7 @@ Content Page template: v.1.0.0-->
 			
                 </div>
 			</div>
-
+                    -->
             
             <a name="HISTORY"></a>
             <div class="reg-content-block" id="block8">
