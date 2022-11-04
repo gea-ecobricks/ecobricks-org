@@ -349,7 +349,7 @@ Content Page template: v.1.0.0-->
 
                 <div class="row">
 						<div class="main2">
-                        <p>And of course, when you’re modules come to an end you can put their ecobricks to next use. Earth and Ecobrick building is the next long-term application for used ecobricks. This method enables the 100% protection of ecobricked plastic from degradation and enables the indefinite <a href="/sequest">sequestration of plastic.</a></p>
+                        <p>When you’re modules comes to the end of its life-- now worries!  You can cut the ecobricks out from their silicone or rubber connections, then put them to next use. <a href="eart">Earth and Ecobrick building</a> is a great long-term application for used ecobricks.</p>
                     
                    
 						</div>
@@ -359,7 +359,7 @@ Content Page template: v.1.0.0-->
 
 					<div class="row2">
 						<div class="main3">
-						<p>Of cours, you can also use your ecobricks to make another module too!</p> 
+						<p>Of course, you can also use your ecobricks to make another module too!</p> 
 						</div>
 						<div class="side3"><img src="webp/modules-circular.webp" width="120px" alt="Cyclical Circular Design of module applications">
 						</div>
