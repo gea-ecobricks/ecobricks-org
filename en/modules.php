@@ -406,6 +406,9 @@ Content Page template: v.1.0.0-->
 
                 <img src="photos/glass-modules.jpg" width="100%" alt="Glass bottles make modular furniture">
 
+                <p style="font-size: 1em;">Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.</p>
+                <hr><br>
+
                 <p>The history of the ecobrick module beginsin the Northern Philippines in 2010.  Requiring furniture for his home, but having no means to procure it, Russell Maier, did the next best thing – he made it with what freely available. Living in a small village in the remote Northern Philippines, there weren’t any furniture store near Russell’s home, but there were lots of ‘waste’ glass bottles! Under many houses in the village were stores of unrecyclable gin bottles that had accumulated over the years. Russell began to experiment with the square, brick-like glass bottles that his neighbours were only too happy get rid of.</p>
                 
                 <p>Through trial and error, with the help of Bianca Silva and Russell, <a href="https://russs.net/building-with-bottles-up-in-the-mountains/">discovered that silicone was ideal</a> for attaching glass bottles together to make small modules. Together they created tables, chairs, lamps and much more. Russell exhibited his modular glass bottle furniture for the first time in the <a href="https://russs.net/weve-been-working-hard-at-the-bencab-gallery-in-baguio-city-to-setup-a-functional-installation-of-500-trashed-washed-and-assembled-gin-bottles-more-photos-to-come-of-our-creations/">BenCab gallery in April 2012</a> with the help of Alvin Berto.</p>
