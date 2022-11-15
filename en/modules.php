@@ -404,9 +404,9 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed8">
 
 
-                <img src="photos/glass-modules.jpg" width="100%" alt="Glass bottles make modular furniture">
+                <img src="photos/glass-modules.jpg" style="width:100%" alt="Glass bottles make modular furniture">
 
-                <p style="font-size: 1em;">Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.</p>
+                <p style="font-size: 1em;">Ecobrick modules were inspired by similar modules made from glass bottles in the Northern Philippines.  2014 BenCab Art Gallery, Baguio, Philippines.</p>
                 <hr><br>
 
                 <p>The history of the ecobrick module beginsin the Northern Philippines in 2010.  Requiring furniture for his home, but having no means to procure it, Russell Maier, did the next best thing – he made it with what freely available. Living in a small village in the remote Northern Philippines, there weren’t any furniture store near Russell’s home, but there were lots of ‘waste’ glass bottles! Under many houses in the village were stores of unrecyclable gin bottles that had accumulated over the years. Russell began to experiment with the square, brick-like glass bottles that his neighbours were only too happy get rid of.</p>
@@ -417,9 +417,12 @@ Content Page template: v.1.0.0-->
                 
                 <p>Russell realized that silicone worked just as well to attach plastic bottles together as it did glass. It struck him that with consistently sized ecobricks, the glass bottle building technique could be applied to ecobricks.</p>
                 
-                <img src="photos/Banague-First-Ever-Modules.jpg" alt="Banague and Russell first module">
+                
 
                 <p>The <a href="https://russs.net/ecobrick-breakthrough/">first ecobrick module</a> was made by Russell Maier and Banague Coteng in Monkayan, 2014. Shortly there after other schools in Tadjian and Balili began to follow suite.</p>
+
+                <img src="photos/Banague-First-Ever-Modules.jpg" alt="Banague and Russell first module">
+                <p style="font-size: 1em;">Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.</p>
                 
                 <p>When Russell moved to Indonesia in 2015, Milstein modules were introduced as the primary application of ecobricks. For the first time, in ecobrick workshops, making and building with ecobricks was introduced in the same session. With this simple output-goal the Indonesian ecobrick movement has spread exponentially. Hundreds of thousands of milstein modules have been made in Indonesia. The method has since gained popularity in the Philippines and the UK.</p>
                 
@@ -427,7 +430,7 @@ Content Page template: v.1.0.0-->
                 
                 <p>The tube banding module making technique was also invented by Russell during a visit to a remote island of the remote community of Kampung Laut in Central Java. The community school welcomed Russell and Ani Himawati to show them the ecobricks they had been making to solve their plastic problem. However, it became clear that the community was hard pressed to put their ecobricks to use because of the cost and difficulty to source silicone. The next day Russelll sat down with Nur Hidaya and his Kebonmanis team in Cilacap and came up with the major breakthrough of tube banding.</p>
                 
-               <p><img loading="lazy" src="https://ecobricks.org/photos/dan-milstein-peace-portrait.png" alt="Dan Milstein Teacher of Peace" width="150" height="150"></p>
+               <p><img loading="lazy" src="https://ecobricks.org/photos/dan-milstein-peace-portrait.png" alt="Dan Milstein Teacher of Peace" width="150px" height="150px"></p>
                 
                 <p>Milstein modules are named after a close friend and mentor of Russell, Dan Milstein. Dan, a meditation and Reiki teacher based in California, had spent decades working with inmates in prisons around the world and ex-soldiers. Dan’s mission to bring love and light to those in dark places and discarded by society was an inspiration for Russell while he was <a href="https://russs.net/how-i-fucked-up-my-life-and-became-stranded-in-a-remote-tribal-village-for-four-years/">stranded in the remote Northern Philippines for five years</a>.</p>
                     
