@@ -9,7 +9,6 @@ Content Page template: v.1.0.0-->
 <?php require_once ("under-construction.php");?>
 <!--TOP PAGE BANNER-->
 
-	
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Ecobrick Milstein Modules</div>
@@ -416,7 +415,7 @@ Content Page template: v.1.0.0-->
                 <p>Russell realized that silicone worked just as well to attach plastic bottles together as it did glass. It struck him that with consistently sized ecobricks, the glass bottle building technique could be applied to ecobricks.</p>
                 
                 <img src="photos/Banague-First-Ever-Modules.jpg" alt="Banague and Russell first module">
-                
+
                 <p>The <a href="https://russs.net/ecobrick-breakthrough/">first ecobrick module</a> was made by Russell Maier and Banague Coteng in Monkayan, 2014. Shortly there after other schools in Tadjian and Balili began to follow suite.</p>
                 
                 <p>When Russell moved to Indonesia in 2015, Milstein modules were introduced as the primary application of ecobricks. For the first time, in ecobrick workshops, making and building with ecobricks was introduced in the same session. With this simple output-goal the Indonesian ecobrick movement has spread exponentially. Hundreds of thousands of milstein modules have been made in Indonesia. The method has since gained popularity in the Philippines and the UK.</p>
