@@ -425,22 +425,29 @@ Content Page template: v.1.0.0-->
                 
                
                     
-                <p>However, traditional ecobrick constructions (like walls, schools and structures) required so many ecobricks that they weren't practical for the everyday ecobricking household.  Working from the emerging methodology of mandalic collaboration, Russell realized that it was essential to lower the barriers in building with ecobricks. In this way, homes and communities wouldn’t need to rely on builders to put their ecobricks to use and a significant bottle-neck in the spread and adoption of personal plastic responsiblity could be overcome.</p>
-                
-                <p>Russell realized that silicone worked just as well to attach plastic bottles together as it did glass. It struck him that with consistently sized ecobricks, the glass bottle building technique could be applied to ecobricks.</p>
-                
-                
+                    <div class="row">
+						<div class="main2">
+                        <p>However, traditional ecobrick constructions (like walls, schools and structures) required so many ecobricks that they weren't practical for the everyday ecobricking household.  Working from the emerging methodology of mandalic collaboration, Russell realized that it was essential to lower the barriers in building with ecobricks. In this way, homes and communities wouldn’t need to rely on builders to put their ecobricks to use and a significant bottle-neck in the spread and adoption of personal plastic responsiblity could be overcome.</p>
+
+						</div>
+						<div class="side2"><img src="photos/Banague-First-Ever-Modules.jpg" width="100%" alt="Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines."><p style="font-size: 1em;">Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.</p>
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+                        <p>Russell realized that silicone worked just as well to attach plastic bottles together as it did glass. It struck him that with consistently sized ecobricks, the glass bottle building technique could be applied to ecobricks.</p>
+						</div>
+						<div class="side3"><img src="photos/Banague-First-Ever-Modules.jpg" alt="Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines." width="125px">
+						</div>
+					</div>
 
                 <p>The <a href="https://russs.net/ecobrick-breakthrough/">first ecobrick module</a> was made by Russell Maier and Banague Coteng in Monkayan, 2014. Shortly there after other schools in Tadjian and Balili began to follow suite.</p>
-
-                <img src="photos/Banague-First-Ever-Modules.jpg" alt="Banague and Russell first module" width="300px">
-                <p style="font-size: 1em;">Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.</p>
                 
                 <p>When Russell moved to Indonesia in 2015, Milstein modules were introduced as the primary application of ecobricks. For the first time, in ecobrick workshops, making and building with ecobricks was introduced in the same session. With this simple output-goal the Indonesian ecobrick movement has spread exponentially. Hundreds of thousands of milstein modules have been made in Indonesia. The method has since gained popularity in the Philippines and the UK.</p>
                 
-                <img src="photos/tire-method.jpg" width="300px" alt="The first tire banding module being made">
+              <!--  <img src="photos/tire-method.jpg" width="300px" alt="The first tire banding module being made">
                 
-                <p>The tube banding module making technique was also invented by Russell during a visit to a remote island of the remote community of Kampung Laut in Central Java. The community school welcomed Russell and Ani Himawati to show them the ecobricks they had been making to solve their plastic problem. However, it became clear that the community was hard pressed to put their ecobricks to use because of the cost and difficulty to source silicone. The next day Russelll sat down with Nur Hidaya and his Kebonmanis team in Cilacap and came up with the major breakthrough of tube banding.</p>
+                <p>The tube banding module making technique was also invented by Russell during a visit to a remote island of the remote community of Kampung Laut in Central Java. The community school welcomed Russell and Ani Himawati to show them the ecobricks they had been making to solve their plastic problem. However, it became clear that the community was hard pressed to put their ecobricks to use because of the cost and difficulty to source silicone. The next day Russelll sat down with Nur Hidaya and his Kebonmanis team in Cilacap and came up with the major breakthrough of tube banding.</p>-->
 
 
 
@@ -460,7 +467,7 @@ Content Page template: v.1.0.0-->
 						</div>
 					</div>
 
-                <p>Dan encouraged Russell through trying times, convinced that Russell was on to something by working with what was commonly viewed as “waste”, “useless” or “trash”. Dan encouraged Russell to see the wisdom in the Igorot people he was living with and to move with confidence and “trust in the universe” in serving people and planet. Russell and Dan built up a strong friendship, although they never met. Dan passed away in 2015.</p>
+                <p>Dan encouraged Russell through trying times at the outset of the ecobrick movement.  Dan, helped accentuate the defining theme of the movement of transforming the perspective of plastic as “waste”, “useless” or “trash”. Dan encouraged Russell to see the wisdom in the Igorot people he was living with.  Dan's own example of <i>“trusting in the universe”</i> in serving people and planet inspired Russell to do the same. Although they never met, Russell and Dan built up a strong friendship. Dan passed away in 2015.</p>
                 
                 </div>
             </div>
