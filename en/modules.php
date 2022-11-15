@@ -404,16 +404,28 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed8">
 
 
-                <img src="photos/glass-modules.jpg" style="width:100%" alt="Glass bottles make modular furniture">
+                <p>The history of the ecobrick module begins in the Northern Philippines in 2010.  Requiring furniture for his home, but having no means to procure it, Russell Maier, did the next best thing – he made it with what freely available. Living in a small village in the remote Northern Philippines, there weren’t any furniture store near Russell’s home, but there were lots of ‘waste’ glass bottles! Under many houses in the village were stores of unrecyclable gin bottles that had accumulated over the years. Russell began to experiment with the square, brick-like glass bottles that his neighbours were only too happy get rid of.</p>
 
-                <p style="font-size: 1em;">Ecobrick modules were inspired by similar modules made from glass bottles in the Northern Philippines.  2014 BenCab Art Gallery, Baguio, Philippines.</p>
-                <hr><br>
-
-                <p>The history of the ecobrick module beginsin the Northern Philippines in 2010.  Requiring furniture for his home, but having no means to procure it, Russell Maier, did the next best thing – he made it with what freely available. Living in a small village in the remote Northern Philippines, there weren’t any furniture store near Russell’s home, but there were lots of ‘waste’ glass bottles! Under many houses in the village were stores of unrecyclable gin bottles that had accumulated over the years. Russell began to experiment with the square, brick-like glass bottles that his neighbours were only too happy get rid of.</p>
                 
-                <p>Through trial and error, with the help of Bianca Silva and Russell, <a href="https://russs.net/building-with-bottles-up-in-the-mountains/">discovered that silicone was ideal</a> for attaching glass bottles together to make small modules. Together they created tables, chairs, lamps and much more. Russell exhibited his modular glass bottle furniture for the first time in the <a href="https://russs.net/weve-been-working-hard-at-the-bencab-gallery-in-baguio-city-to-setup-a-functional-installation-of-500-trashed-washed-and-assembled-gin-bottles-more-photos-to-come-of-our-creations/">BenCab gallery in April 2012</a> with the help of Alvin Berto.</p>
+					<div class="row">
+						<div class="main2">
+                        <p>Through trial and error, with the help of Bianca Silva and Russell, <a href="https://russs.net/building-with-bottles-up-in-the-mountains/">discovered that silicone was ideal</a> for attaching glass bottles together to make small modules. Together they created tables, chairs, lamps and much more. Russell exhibited his modular glass bottle furniture for the first time in the <a href="https://russs.net/weve-been-working-hard-at-the-bencab-gallery-in-baguio-city-to-setup-a-functional-installation-of-500-trashed-washed-and-assembled-gin-bottles-more-photos-to-come-of-our-creations/">BenCab gallery in April 2012</a> with the help of Alvin Berto.</p>
+
+						</div>
+						<div class="side2"><img src="photos/glass-modules.jpg" width="100%"><p style="font-size: 1em;">2014 BenCab Art Gallery, Baguio, Philippines.</p>
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p>As the ecobrick movement took off, an abundance of ecobricks were being produced throughout the Northern Philippines.</p>
+						</div>
+						<div class="side3"><img src="photos/glass-modules.jpg" width="125px">
+						</div>
+					</div>
+                
+               
                     
-                <p>As the ecobrick movement took off, an abundance of ecobricks were being produced throughout the Northern Philippines. Russell observed that the methods of building with earth and cement to make walls and structures in Central America, was too prohibitive for homes and communities to put their ecobricks to use.  Working from the emerging methodology of mandalic collaboration, Russell realized that it was essential to lower the barriers in building with ecobricks. In this way, homes and communities wouldn’t need to rely on builders to put their ecobricks to use and a significant bottle-neck in the spread and adoption of personal plastic responsiblity could be overcome.</p>
+                <p>However, traditional ecobrick constructions (like walls, schools and structures) required so many ecobricks that they weren't practical for the everyday ecobricking household.  Working from the emerging methodology of mandalic collaboration, Russell realized that it was essential to lower the barriers in building with ecobricks. In this way, homes and communities wouldn’t need to rely on builders to put their ecobricks to use and a significant bottle-neck in the spread and adoption of personal plastic responsiblity could be overcome.</p>
                 
                 <p>Russell realized that silicone worked just as well to attach plastic bottles together as it did glass. It struck him that with consistently sized ecobricks, the glass bottle building technique could be applied to ecobricks.</p>
                 
@@ -421,20 +433,34 @@ Content Page template: v.1.0.0-->
 
                 <p>The <a href="https://russs.net/ecobrick-breakthrough/">first ecobrick module</a> was made by Russell Maier and Banague Coteng in Monkayan, 2014. Shortly there after other schools in Tadjian and Balili began to follow suite.</p>
 
-                <img src="photos/Banague-First-Ever-Modules.jpg" alt="Banague and Russell first module">
+                <img src="photos/Banague-First-Ever-Modules.jpg" alt="Banague and Russell first module" width="300px">
                 <p style="font-size: 1em;">Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.</p>
                 
                 <p>When Russell moved to Indonesia in 2015, Milstein modules were introduced as the primary application of ecobricks. For the first time, in ecobrick workshops, making and building with ecobricks was introduced in the same session. With this simple output-goal the Indonesian ecobrick movement has spread exponentially. Hundreds of thousands of milstein modules have been made in Indonesia. The method has since gained popularity in the Philippines and the UK.</p>
                 
-                <img src="photos/tire-method.jpg" width="100%" alt="The first tire banding module being made">
+                <img src="photos/tire-method.jpg" width="300px" alt="The first tire banding module being made">
                 
                 <p>The tube banding module making technique was also invented by Russell during a visit to a remote island of the remote community of Kampung Laut in Central Java. The community school welcomed Russell and Ani Himawati to show them the ecobricks they had been making to solve their plastic problem. However, it became clear that the community was hard pressed to put their ecobricks to use because of the cost and difficulty to source silicone. The next day Russelll sat down with Nur Hidaya and his Kebonmanis team in Cilacap and came up with the major breakthrough of tube banding.</p>
-                
-               <p><img loading="lazy" src="https://ecobricks.org/photos/dan-milstein-peace-portrait.png" alt="Dan Milstein Teacher of Peace" width="150px" height="150px"></p>
-                
-                <p>Milstein modules are named after a close friend and mentor of Russell, Dan Milstein. Dan, a meditation and Reiki teacher based in California, had spent decades working with inmates in prisons around the world and ex-soldiers. Dan’s mission to bring love and light to those in dark places and discarded by society was an inspiration for Russell while he was <a href="https://russs.net/how-i-fucked-up-my-life-and-became-stranded-in-a-remote-tribal-village-for-four-years/">stranded in the remote Northern Philippines for five years</a>.</p>
-                    
-                <p>Dan supported and encouraged Russell’s parallel work in the early stages of the Asian Ecobrick movement. Dan encouraged Russell through trying times, convinced that Russell was on to something by working with what was commonly viewed as “waste”, “useless” or “trash”. Dan encouraged Russell to see the wisdom in the Igorot people he was living with and to move with confidence and “trust in the universe” in serving people and planet. Russell and Dan built up a strong friendship, although they never met. Dan passed away in 2015.</p>
+
+
+
+					<div class="row">
+						<div class="main2">
+                        <p><p>Milstein modules are named after a close friend and mentor of Russell, Dan Milstein. Dan, a meditation and Reiki teacher based in California, had spent decades working with inmates in prisons around the world and ex-soldiers. Dan’s mission to bring love and light to those in dark places and discarded by society was an inspiration for Russell while he was <a href="https://russs.net/how-i-fucked-up-my-life-and-became-stranded-in-a-remote-tribal-village-for-four-years/">stranded in the remote Northern Philippines for five years</a>.</p></p>
+
+						</div>
+						<div class="side2"><img src="photos/dan-milstein-peace-portrait.png" width="100%"><p style="font-size: 1em;">Dan Milstein, Teacher of Peace</p>
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p><p>Dan supported and encouraged Russell’s parallel work in the early stages of the Asian Ecobrick movement. </p>
+						</div>
+						<div class="side3"><img src="photos/dan-milstein-peace-portrait.png" width="125px">
+						</div>
+					</div>
+
+                <p>Dan encouraged Russell through trying times, convinced that Russell was on to something by working with what was commonly viewed as “waste”, “useless” or “trash”. Dan encouraged Russell to see the wisdom in the Igorot people he was living with and to move with confidence and “trust in the universe” in serving people and planet. Russell and Dan built up a strong friendship, although they never met. Dan passed away in 2015.</p>
                 
                 </div>
             </div>
