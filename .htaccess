@@ -248,6 +248,7 @@ RedirectMatch "^/earth/" "/earth.php"
 
 RedirectMatch "^/modules-beta" "/en/modules.php"
 RedirectMatch "^/modules-beta/" "/en/modules.php"
+RedirectMatch "^/modules/" "/en/modules.php"
 
 
 
