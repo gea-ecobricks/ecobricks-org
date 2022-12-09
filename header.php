@@ -9,9 +9,6 @@
   $name = "";
 	;?>
 	
- 
-	<meta charset="utf-8"> <!--OBSOLETE BUT MUST BE ADDED TO ALL OTHER PAGES FIRST-->
-
 	<link rel="canonical" href="https://ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
