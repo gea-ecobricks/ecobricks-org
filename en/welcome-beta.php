@@ -47,11 +47,11 @@
 				
 		</div>
 
-		<div class="clouds-new" style="background: url(https://www.ecobricks.org/webp/mountain-top2.webp?v4) no-repeat center bottom;background-size:contain;width:100%;text-align:center;">
+		<div class="clouds-new" style="background: url(https://www.ecobricks.org/webp/mountain-top2.webp?v4) no-repeat center bottom;background-size:cover;width:100%;text-align:center;">
 		
 		<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>
 			
-				<div id="main-content">
+				<div id="main-content" style="margin-bottom: 50px;">
 				
 				<div class="big-header">This Month's Top Ecobricks</div>
 				<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
@@ -92,21 +92,6 @@
 	
 	</div>
 
-	<!-- NEW SLIDERS-->
-
-	<!-- SLIDER CONTENT -->
-	
-	<div id="sliders">
-
-<?php require_once ("slides/slide-1-$lang.php");?>
-
-<?php require_once ("slides/slide-2-$lang.php");?>
-
-<?php require_once ("slides/slide-3-$lang.php");?>
-
-<?php require_once ("slides/slide-4-$lang.php");?>
-
-</div>
 
 
 	<!--SECOND CONTENT SECTION-->
