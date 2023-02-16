@@ -20,19 +20,11 @@
 		<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>
 		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" height="31%"></div>
 
-	<!-- SLIDER CONTENT 
+	<!-- SLIDER CONTENT -->
 	
 		<div id="sliders">
 
-			<?php require_once ("slides/slide-1-$lang.php");?>
-
-			<?php require_once ("slides/slide-2-$lang.php");?>
-
-			<?php require_once ("slides/slide-3-$lang.php");?>
-
-			<?php require_once ("slides/slide-4-$lang.php");?>
-		
-		</div>-->
+			
 
 		<!-- TOP TEN ECOBRICKS-->
 
@@ -65,6 +57,8 @@
 			</div>
 			
 		</div>
+
+			</div>
 
 	<!--FIRST CONTENT SECTION-->
 
