@@ -17,8 +17,8 @@
 
 	<?php include 'ecobricks_env.php';?> 
 
-	<div class="gallery10-content-block">
-						
+			<div class="gallery10-content-block">
+								
 				<div class="flex-container10">
 						
 					<?php
@@ -42,24 +42,26 @@
 					?>
 							
 				</div>
-
-				
-				
-		</div>
-
-		<div class="clouds-new" style="background: url(https://www.ecobricks.org/webp/mountain-top2.webp?v4) no-repeat center bottom;background-size:cover;width:100%;text-align:center;">
 		
-		<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>
-			
-				<div id="main-content" style="margin-bottom: 50px;">
-				
-				<div class="big-header">This Month's Top Ecobricks</div>
-				<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
-				</div> 
-
-				<a href="top-tens.php" button class="main-button">The Top 10's</a>
 			</div>
-		</div>
+
+			<div class="blue-back" style="background: blue;width:100%;">
+		
+				<div class="clouds-new" style="background: url(https://www.ecobricks.org/webp/mountain-top2.webp?v4) no-repeat center bottom;background-size:cover;width:100%;text-align:center;">
+
+		
+		
+					<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>
+			
+					<div id="main-content" style="padding-bottom: 50px;">
+				
+					<div class="big-header">This Month's Top Ecobricks</div>
+					<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
+					</div> 
+
+					<a href="top-tens.php" button class="main-button">The Top 10's</a>
+				</div>
+			</div>
 
 	<!-- This loads the page's top graphics-->
 
