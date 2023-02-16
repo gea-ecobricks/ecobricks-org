@@ -47,7 +47,7 @@
 
 			<div class="blue-back" style="background: #0ff;width:100%;">
 		
-				<div class="clouds-new" style="background: url(https://www.ecobricks.org/webp/mountain-top2.webp?v4) no-repeat center bottom;background-size:cover;width:100%;text-align:center;">
+				<div class="clouds-new">
 
 		
 		

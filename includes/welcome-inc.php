@@ -285,7 +285,7 @@ margin-bottom: 25px;}
 		text-align: center;
 		z-index: 5;
 		position: relative;   
-        background-color: #0ff #dfdfdf;
+        background-color: #0ff;
 		display: flex;
  		box-sizing: border-box;
 		flex-direction: row;
@@ -429,6 +429,28 @@ margin-left: 0px;
 .gal-photo10 p {
     font-size: 0.9em;
 }
+
+.clouds-new  {
+    background: url(https://www.ecobricks.org/webp/mountain-top2.webp?v4) no-repeat center bottom;
+    width:100%;
+    text-align:center;
+}
+
+@media screen and (min-width: 770px) { 
+    .clouds-new  {
+        background-size:cover;
+        padding-bottom: 50px;
+
+    }
+}
+
+@media screen and (max-width: 770px) { 
+    .clouds-new  {
+        background-size:contain;
+        padding-bottom: 10px;
+    }
+}
+
 
 
 
