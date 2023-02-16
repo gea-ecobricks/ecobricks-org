@@ -20,9 +20,9 @@
 		<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>
 		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" height="31%"></div>
 
-	<!-- SLIDER CONTENT -->
+
 	
-		<div id="sliders">
+		
 
 			<!-- TOP TEN ECOBRICKS-->
 
@@ -59,8 +59,6 @@
 	
 </div>
 
-
-</div>
 
 	<!--FIRST CONTENT SECTION-->
 
