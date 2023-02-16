@@ -15,49 +15,48 @@
 
     <?php require_once ("menus/menu-$lang.php");?>
 
+	<?php include 'ecobricks_env.php';?> 
+
 	<!-- This loads the page's top graphics-->
 
 		<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>
 		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" height="31%"></div>
 
 
-	
+		<div id="sliders">
 		
 
 			<!-- TOP TEN ECOBRICKS-->
 
-			<?php include 'ecobricks_env.php';?> 
+			<div class="gallery10-content-block">
+						
+				<div class="flex-container10">
+						
+					<?php
+					$sql = "SELECT * FROM vw_top_10_last_month ;";
+					$result = $conn->query($sql);
+					if ($result->num_rows > 0) {
+					// output data of each row
+					while($row = $result->fetch_assoc()) {
 
+					echo '
+					<div class="gal-photo10">
+					<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>';
+					echo '<div class="gal10-photo-text"><b>Ecobrick '.$row["ecobrick_unique_id"].'</b><br>By '.$row["ecobrick_owner"].'<br>'.$row["location"].'</div></div>';
 
-	<div class="gallery-background">
+					}
 
-<div class="gallery10-content-block">
-			
-	<div class="flex-container10">
-			
-		<?php
-		$sql = "SELECT * FROM vw_top_10_last_month ;";
-		$result = $conn->query($sql);
-		if ($result->num_rows > 0) {
-		// output data of each row
-		while($row = $result->fetch_assoc()) {
+					} else {
+					echo "Failed to connect to the Brikchain database";
+					}
 
-		echo '
-		<div class="gal-photo10">
-		<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>';
-		echo '<div class="gal10-photo-text"><b>Ecobrick '.$row["ecobrick_unique_id"].'</b><br>By '.$row["ecobrick_owner"].'<br>'.$row["location"].'</div></div>';
-
-		}
-
-		} else {
-		echo "Failed to connect to the Brikchain database";
-		}
-
-		?>
+					?>
+							
+				</div>
 				
-	</div>
-	
-</div>
+			</div>
+
+		</div>
 
 
 	<!--FIRST CONTENT SECTION-->

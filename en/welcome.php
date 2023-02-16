@@ -7,7 +7,7 @@
 
 <!--MAIN CONTENT-->
 		
-<BODY id="full-page">
+<BODY id="full-page"> 
 
 	<div id="load-background"> 
 
