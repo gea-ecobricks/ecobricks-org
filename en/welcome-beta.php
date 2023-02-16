@@ -47,7 +47,9 @@
 				
 		</div>
 
-		<!--<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>
+		<div class="clouds-new" style="background: url(https://www.ecobricks.org/webp/mountain-top2.webp?v4) no-repeat center bottom;background-size:contain;width:100%;text-align:center;">
+		
+		<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>
 			
 				<div id="main-content">
 				
@@ -56,11 +58,12 @@
 				</div> 
 
 				<a href="top-tens.php" button class="main-button">The Top 10's</a>
-			</div>-->
+			</div>
+		</div>
 
 	<!-- This loads the page's top graphics-->
 
-		<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>
+		<!--<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>-->
 		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" height="31%"></div>
 
 
@@ -88,6 +91,23 @@
 		</div>	
 	
 	</div>
+
+	<!-- NEW SLIDERS-->
+
+	<!-- SLIDER CONTENT -->
+	
+	<div id="sliders">
+
+<?php require_once ("slides/slide-1-$lang.php");?>
+
+<?php require_once ("slides/slide-2-$lang.php");?>
+
+<?php require_once ("slides/slide-3-$lang.php");?>
+
+<?php require_once ("slides/slide-4-$lang.php");?>
+
+</div>
+
 
 	<!--SECOND CONTENT SECTION-->
 
