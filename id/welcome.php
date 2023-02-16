@@ -59,7 +59,7 @@
 						<div class="sub-text"><p>Setiap bulan ribuan ecobrick dicatat dan ditinjau oleh rekan sejawat. Lihat sepuluh ecobricks yang menerima skor autentikasi tertinggi bulan lalu.</p>
 						</div> 
 
-						<a href="top-tens.php" button class="main-button">Tertas 10</a>
+						<a href="top-tens.php" button class="main-button">10 Tertatas</a>
 					</div>
 				</div>
 			</DIV>
