@@ -47,7 +47,7 @@
 				
 		</div>
 
-		<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>
+		<!--<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>
 			
 				<div id="main-content">
 				
@@ -56,7 +56,7 @@
 				</div> 
 
 				<a href="top-tens.php" button class="main-button">The Top 10's</a>
-			</div>
+			</div>-->
 
 	<!-- This loads the page's top graphics-->
 
