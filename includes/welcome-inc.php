@@ -285,7 +285,7 @@ margin-bottom: 25px;}
 		text-align: center;
 		z-index: 5;
 		position: relative;   
-      /*  background-color: #0ff #dfdfdf;*/
+        background-color: #0ff #dfdfdf;
 		display: flex;
  		box-sizing: border-box;
 		flex-direction: row;
@@ -301,7 +301,7 @@ margin-bottom: 25px;}
 		padding-bottom: 15px;*/
         overflow: auto;
         white-space: nowrap;
-        margin-bottom: -500px;
+     
 	}
 
 }
@@ -330,7 +330,7 @@ margin-bottom: 25px;}
 		padding-bottom: 15px;*/
         overflow: auto;
         white-space: nowrap;
-        margin-bottom: -30px;
+     
 
 	}
 } 
