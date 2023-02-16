@@ -26,6 +26,9 @@
 
 			<!-- TOP TEN ECOBRICKS-->
 
+			<?php include 'ecobricks_env.php';?> 
+
+
 	<div class="gallery-background">
 
 <div class="gallery10-content-block">
@@ -93,7 +96,6 @@
 
 <!-- FULL GALLERY-->
 
-<?php include 'ecobricks_env.php';?> 
 	
 		<div class="gallery-background">
 		
