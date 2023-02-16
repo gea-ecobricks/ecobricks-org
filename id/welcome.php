@@ -8,35 +8,68 @@
 <!--MAIN CONTENT-->
 		
 <BODY id="full-page">
- 
+
 	<div id="load-background"> 
 
 	<!-- This loads the page's language specific menu -->
 
     <?php require_once ("menus/menu-$lang.php");?>
 
+	<?php include 'ecobricks_env.php';?> 
+
+			<div class="gallery10-content-block">
+								
+				<div class="flex-container10">
+						
+					<?php
+					$sql = "SELECT * FROM vw_top_10_last_month ;";
+					$result = $conn->query($sql);
+					if ($result->num_rows > 0) {
+					// output data of each row
+					while($row = $result->fetch_assoc()) {
+
+					echo '
+					<div class="gal-photo10">
+					<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>';
+					echo '<div class="gal10-photo-text"><b>Ecobrick '.$row["ecobrick_unique_id"].'</b><br>By '.$row["ecobrick_owner"].'<br>'.$row["location"].'</div></div>';
+
+					}
+
+					} else {
+					echo "Failed to connect to the Brikchain database";
+					}
+
+					?>
+							
+				</div>
+		
+			</div>
+
+			<div class="blue-back" style="background: #0ff;width:100%;">
+		
+				<div class="clouds-new">
+
+		
+		
+					<!--<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>-->
+			
+					<div id="main-content" style="padding-bottom: 90px; padding-top:15px">
+				
+						<div class="big-header">Top 10 Ecobricks di Bulan</div>
+						<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
+						</div> 
+
+						<a href="top-tens.php" button class="main-button">The Top 10's</a>
+					</div>
+				</div>
+			</DIV>
+
 	<!-- This loads the page's top graphics-->
 
-		<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp" width="100%"></div>
-		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp" width="100%" height="31%"></div>
+		<!--<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>-->
+		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" height="31%"></div>
 
 
-
-
-	<!-- SLIDER CONTENT -->
-
-
-	<div id="sliders">
-
-		<?php require_once ("slides/slide-1-$lang.php");?>
-
-		<?php require_once ("slides/slide-2-$lang.php");?>
-
-		<?php require_once ("slides/slide-3-$lang.php");?>
-
-		<?php require_once ("slides/slide-4-$lang.php");?>
-
-	</div>
 
 
 	<!--FIRST CONTENT SECTION-->
