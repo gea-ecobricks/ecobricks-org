@@ -43,8 +43,9 @@
 							
 				</div>
 
-				<!--	<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>-->
-			<div id="main-content">
+				<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>
+			
+				<div id="main-content">
 				
 				<div class="big-header">This Month's Top Ecobricks</div>
 				<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>

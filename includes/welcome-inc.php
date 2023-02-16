@@ -487,7 +487,7 @@ margin-left: 0px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 73vh;
+  /*height: 73vh;*/
   /* min-height: 500px;*/
   
     display: flex;
