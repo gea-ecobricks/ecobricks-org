@@ -41,7 +41,7 @@ echo
 	margin-top:-20px;
 	box-shadow: 0 0px 10px rgba(85, 84, 84, 0.8);
 	border-style: solid;" alt="Ecobrick Serial '. $array["serial_no"] .' was made in '. $array["location_full"] .' and authenticated on ' . $array["last_validation_ts"] .'"
-	title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>
+	title="Ecobrick Serial '. $array["serial_no"] .' was made in '. $array["location_full"] .' and authenticated on ' . $array["last_validation_ts"] .'"></a>
 	</div>	
 </div>
 
@@ -57,7 +57,7 @@ echo '
 
 	if ( isset($array["vision"]) && $array["vision"] != '' ) {
 			//	echo '<p><div class="vision-quote">'. $array["vision"] .'</div></p>';
-		                echo '<p><div class="vision-quote"> "'. str_replace('"', "", $array["vision"]) . '"  </div></p>';
+		                echo '<p><div class="vision-quote"> '. str_replace('"', "", $array["vision"]) . '  </div></p>';
 			}
 	
 			
@@ -99,13 +99,13 @@ echo '
 					<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</p><br>
 					<p>--------------------</p>
 					<p>BEGIN BRIK RECORD ></p>';
-			echo ' <p><b>Link to brk trans:</b><var>No link yet</var></p>' ;
+			echo ' <p><b>Link to brk trans:</b><var>  No link yet</var></p>' ;
 			echo ' <p><b>Logged:</b> ' . $array["date_logged_ts"] .'</p>' ;
 			echo ' <p><b>Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</var></p>' ;
 			echo ' <p><b>Weight:</b> <var>' . $array["weight_g"] .'&#8202;g</var></p>' ;
 			echo ' <p><b>Density:</b> <var>' . $array["density"] .'&#8202;g/ml</var></p>' ;
-			echo ' <p><b>CO2e:</b><var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
-			echo ' <p><b>Link to brk trans:</b><var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
+			echo ' <p><b>CO2e:</b>  <var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
+			
 			echo ' <p><b>Brikcoin value:</b> <var>' . $array["ecobrick_dec_brk_val"] .'&#8202;ß</var></p>' ;
 
 			echo ' <p><b>Maker:</b> <var><i>' . $array["owner"] .'</i></var> </p>' ;
@@ -113,7 +113,7 @@ echo '
 			echo ' <p><b>Brand:</b> <var>' . $array["brand_name"] .'</var></p>' ;
 			echo ' <p><b>Bottom colour:</b> ' . $array["bottom_colour"] .'</p>' ;
 
-			echo ' <p><b>Plastic source:</b>' . $array["plastic_from"] .'</p>' ;
+			echo ' <p><b>Plastic source:</b>  ' . $array["plastic_from"] .'</p>' ;
 
 			echo ' <p><b>Community:</b> <var>' . $array["community_name"] .'</var></p>' ;
 			echo ' <p><b>City:</b> <var>' . $array["location_city"] .'</var></p>' ;
@@ -143,7 +143,7 @@ echo '
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
 			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-				
+				<br><br>
 				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 				</div>
@@ -208,7 +208,7 @@ echo '
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
 			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-				<br>
+				<br><br><br>
 				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 				</div>
