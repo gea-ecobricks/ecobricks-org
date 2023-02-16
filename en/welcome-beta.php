@@ -17,18 +17,7 @@
 
 	<?php include 'ecobricks_env.php';?> 
 
-	<!-- This loads the page's top graphics-->
-
-		<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>
-		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" height="31%"></div>
-
-
-		<div id="sliders">
-		
-
-			<!-- TOP TEN ECOBRICKS-->
-
-			<div class="gallery10-content-block">
+	<div class="gallery10-content-block">
 						
 				<div class="flex-container10">
 						
@@ -55,6 +44,19 @@
 				</div>
 				
 			</div>
+
+	<!-- This loads the page's top graphics-->
+
+		<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>
+		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" height="31%"></div>
+
+
+		<div id="sliders">
+		
+
+			<!-- TOP TEN ECOBRICKS-->
+
+			
 
 		</div>
 
