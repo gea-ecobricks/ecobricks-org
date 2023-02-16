@@ -55,11 +55,11 @@
 			
 					<div id="main-content" style="padding-bottom: 90px; padding-top:15px">
 				
-						<div class="big-header">Top 10 Ecobricks di Bulan</div>
-						<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
+						<div class="big-header">10 Ecobrick Teratas Bulan Ini</div>
+						<div class="sub-text"><p>Setiap bulan ribuan ecobrick dicatat dan ditinjau oleh rekan sejawat. Lihat sepuluh ecobricks yang menerima skor autentikasi tertinggi bulan lalu.</p>
 						</div> 
 
-						<a href="top-tens.php" button class="main-button">The Top 10's</a>
+						<a href="top-tens.php" button class="main-button">Tertas 10</a>
 					</div>
 				</div>
 			</DIV>
