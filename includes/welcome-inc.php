@@ -287,7 +287,7 @@ margin-bottom: 25px;}
 
 		z-index: 5;
 		position: relative;   
-        background-color: #dfdfdf;
+        background-color: #0ff /*#dfdfdf*/;
 		display: flex;
  		box-sizing: border-box;
 		flex-direction: row;
@@ -375,7 +375,7 @@ margin-bottom: 25px;}
 
 
 .gal10-photo-text {
-    background-color: #DFDFDF;
+    background-color: #8DF9F9 /*#DFDFDF*/;
     margin: 0px;
     text-align: left;
     padding: 3px;
@@ -384,6 +384,12 @@ margin-bottom: 25px;}
     font-family: Mulish;
     width: 235px;
     color: #504f4f;
+    border-radius: 0px 0px 10px 10px;
+padding: 15px;
+width: 80%;
+margin-top: -10px;
+margin-right: auto;
+margin-left: 0px;
 }
 
 
