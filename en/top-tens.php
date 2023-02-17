@@ -6,7 +6,7 @@ Content Page template: v.1.0.0-->
 <?php require_once ("includes/top-tens-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("under-construction.php");?>
+<!--<?php require_once ("under-construction.php");?>-->
 <!--TOP PAGE BANNER-->
 
 	
@@ -38,7 +38,7 @@ Content Page template: v.1.0.0-->
 	
 			<div class="page-paragraph">
                 <p>And here they are...</p>
-                <hr>
+                
             </div>	
 
             <?php include 'ecobricks_env.php';?> 
@@ -67,7 +67,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
             echo '<p>'.$row["ecobrick_owner"].' logged <a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> with a weight of '.$row["weight_in_g"].'&#8202;g and a density of '.$row["density"].'&#8202;g/ml.   It made this months top ten ecobricks with a validation score of '.$row["final_validation_score"].'.</p>';
             
             echo '<p><a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">🔎 Check it out</a>';
-            echo '</p><hr><br>';
+            echo '</p><br><br>';
     
         }
         
