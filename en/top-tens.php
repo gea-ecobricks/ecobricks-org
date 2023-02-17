@@ -119,7 +119,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 
             <?php require_once ("side-modules/sequest-module.php");?>
 
-            <?php require_once ("spiral-design.php");?>
+            <?php require_once ("side-modules/spiral-design.php");?>
                 
             <?php require_once ("side-modules/brikcoin-live-values.php");?>
 
