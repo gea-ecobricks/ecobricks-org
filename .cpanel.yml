@@ -197,7 +197,7 @@ deployment:
   - /bin/cp -R includes $DEPLOYPATH
   - /bin/cp -R css $DEPLOYPATH
   - /bin/cp -R slides $DEPLOYPATH
-  - /bin/cp -R side-modules $DEPLOYPATH
+
 
   - /bin/cp .htaccess $DEPLOYPATH
   - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -219,7 +219,6 @@ deployment:
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
   - /bin/cp earth.php $DEPLOYPATH
-  - /bin/cp top-tens.php $DEPLOYPATH
   - /bin/cp featured.php $DEPLOYPATH
 
   - /bin/cp stylesheet-general.css $DEPLOYPATH
