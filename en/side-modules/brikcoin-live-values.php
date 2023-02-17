@@ -19,7 +19,6 @@ $result = $conn->query($sql);
             echo '<p style="font-size: 1.2em; margin-top:10px;">Total Circulation:<br><b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;BRK</b></span></p>' ; 
             echo '<p style="font-size: 0.9em; margin-top:10px;">Brikcoins <a href="/brikcoins.php">(BRK / ß)</a> are valued in ecological value measured in kilograms of authenticated ecobrick sequestered plastic (<a href="sequestered.php">AES</a>).</p>
             <p><a class="module-btn" href="https://gobrik.com/offset.php" target="_blank">Buy Plastic Offsets</a></p>
-            <!--<p><a class="module-btn" href="https://gobrik.com/#market" target="_blank">Bid for Brikcoins</a></p>-->
             <p style="color: grey; font-size: 0.8em; margin-top:10px;">Links open to the GoBrik platform.</p></div>' ; 
         
             } 
