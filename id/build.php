@@ -50,8 +50,8 @@ Content Page template: v.1.0.0-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Thinking Short, Long & Very Long</h4>
-                    <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
+                    <h4>Berpikir Pendek, Panjang dan Sangat Panjang</h4>
+                    <h5>Ecobrick dapat digunakan untuk aplikasi jangka pendek atau panjang yang menyeimbangkan manfaat kegunaan dan pengamanan plastik.</h5>   
                     <br>
                     </div>
 
@@ -61,20 +61,20 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed1">
 
                 <br>
-                <p><b>Short-term Applications</b><p>
+                <p><b>Aplikasi Jangka Pendek</b><p>
 
-                <p>Silicone or inner-tube-bands can be used as short-term, non-permanent attachment methods to create ecobrick applications that last for months and up to several years.</p>
-                <p> As short-term applications are not usually covered up, they are typically for indoor use, in order to prevent the UV photodegradation of the bottles.  Short term application are easier for people to make and accelerate the <a href="/mandalas">mandalic spread</a> of ecobricking and the regenerative principles they embody. </p>
+                <p>Silikon atau pita ban dalam dapat digunakan sebagai metode pemasangan jangka pendek dan tidak permanen untuk membuat aplikasi ecobrick yang bertahan selama berbulan-bulan hingga beberapa tahun.</p>
+                 <p> Karena aplikasi jangka pendek biasanya tidak tertutup, aplikasi ini biasanya untuk penggunaan di dalam ruangan, guna mencegah fotodegradasi UV pada botol. Penerapan jangka pendek memudahkan orang untuk membuat dan mempercepat <a href="/mandalas">penyebaran mandala</a> ecobricking dan prinsip regeneratif yang terkandung di dalamnya. </p>
 
-                <br><p><b>Long-term Applications</b><p>
+                <br><p><b>Aplikasi Jangka Panjang</b><p>
                 
-                <p>Earth and Ecobrick building techniques are used to create structures that can last years or decades (it is not uncommon for traditional constructions to last centuries!).  Earth mixes (i.e Cob (material), Wattle and daub, adobe) are used to lay ecobricks horizontally and completely cover them for full protection against all forms of degradation.</p>
+                <p>Teknik bangunan tanah dan Ecobrick digunakan untuk membuat struktur yang dapat bertahan bertahun-tahun atau puluhan tahun (tidak jarang konstruksi tradisional bertahan selama berabad-abad!). Campuran tanah (yaitu Cob (material), Wattle dan daub, adobe) digunakan untuk meletakkan ecobrick secara horizontal dan menutupinya sepenuhnya untuk perlindungan penuh terhadap segala bentuk degradasi.</p>
 
-                <br><p><b>Very long-term</b><p>
-                <p>Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelyhood of plastic staying safe, secure and contained is much more likely than currently available alternatives.</p>
+                <br><p><b>Sangat jangka panjang</b><p>
+                <p>Aplikasi ecobrick jangka pendek dan jangka panjang menempatkan plastik ke dalam lintasan spiral siklus ke masa depan, di mana kemungkinan plastik tetap aman, terjamin, dan tertahan jauh lebih mungkin daripada alternatif yang tersedia saat ini.</p>
                 
-                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>
-                <p style="font-size: 0.85em; margin-top:20px;">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
+                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp" width="100%" alt="Pandangan tentang jalur berbagai teknologi manajemen plastik memakan waktu lebih dari 1000 tahun." loading="lazy"></a>
+                <p style="font-size: 0.85em; margin-top:20px;">Lihat <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">bagan berbagai jalur yang dapat diambil plastik</a> selama lebih dari 1000 tahun.</p></p>
 </div>
 </div>
 
@@ -84,8 +84,8 @@ Content Page template: v.1.0.0-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Ecobrick Storage</h4>
-                    <h5>Before you build with ecobricks, it is essential to store them properly.</h5>   
+                    <h4>Penyimpanan Ecobrick</h4>
+                    <h5>Sebelum Anda membangun dengan ecobrick, penting untuk menyimpannya dengan benar.</h5>   
                     <br>
                     </div>
 
@@ -95,18 +95,18 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed10">
         <br>
 
-            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
+            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="Contoh depot penyimpanan eco brick untuk persiapan pembangunan" loading="lazy">
 
             <br>
-            <p>Before you build with ecobricks, it is essential to store them properly.  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements.  Ecobricks are best stacked horizontally with their bottom pointed outwards.  This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.</p>
+            <p>Sebelum Anda membangun dengan ecobrick, penting untuk menyimpannya dengan benar. Idealnya, ecobrick disimpan di atas tanah (di atas lantai atau ditinggikan di atas kayu) dan dilindungi sepenuhnya dari sinar matahari dan cuaca. Ecobrick paling baik ditumpuk secara horizontal dengan bagian bawahnya mengarah ke luar. Hal ini memungkinkan Anda mengatur ecobrick berdasarkan warna dan merek– yang nantinya akan memudahkan perencanaan dan pembuatan proyek.</p>
 
-            <img src="webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="An example of how to store eco bricks properly">
+            <img src="webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="Contoh depot penyimpanan eco brick untuk persiapan pembangunan">
 
             
 
             <br>
 
-                <h5>ℹ️ Learn more how to make and store ecobricks properly: <a href="/how">10 Step Ecobricking Guide</a></h5>
+                <h5>ℹ️ Pelajari lebih lanjut cara membuat dan menyimpan ecobrick dengan benar:<a href="/how">Panduan Ecobrick 10 Langkah</a></h5>
 
          </div>
         </div>
@@ -118,39 +118,38 @@ Content Page template: v.1.0.0-->
 				<div class="opener-header">
 					<div class="opener-header-text">
 						<h4>1. Milstein Modules</h4>
-						<h5>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Module horizontal lego.</h5><br>
+						<h5>Aplikasi ecobrick termudah, tercepat, dan mungkin paling menyenangkan adalah lego horizontal Milstein Module.</h5><br>
 					</div>
 					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 				</div>
 
 				<div id="preclosed3">
 
-                <img src="photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="GEA trainers sitting at a table with eco brick milstein modules made from plastic">
+                <img src="photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="Pelatih GEA duduk di meja dengan modul eco brick milstein yang terbuat dari plastik">
             
-					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need are 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs. Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
+					<p>Aplikasi ecobrick termudah, tercepat, dan mungkin paling menyenangkan adalah Milstein Modules (MMs). Ini adalah konfigurasi ecobrick berbentuk segi enam dan segitiga yang digunakan untuk duduk, tetapi dapat digabungkan bersama untuk membentuk permukaan horizontal satu atau dua tingkat. Aplikasi termasuk meja, tempat tidur, panggung, dll. Yang Anda butuhkan hanyalah 12 ecobrick untuk memulai! Sealant silikon generik atau ban dalam sepeda motor dapat digunakan untuk membuat MM. Modul Ecobrick Milstein kemudian dapat meluncur ke penerapan untuk kelas, konser, rapat, dan lainnya untuk membuat permukaan horizontal. Mereka dapat ditumpuk satu di atas yang lain untuk menambah satu tingkat ketinggian vertikal. Mereka dapat ditumpuk dan disimpan secara vertikal untuk menghemat ruang.</p>
 
-                    <img src="webp/milstein-modules-750px.webp" width="100%" loading="lazy" alt="milstein eco-brick module building">
+                    <img src="webp/milstein-modules-750px.webp" width="100%" loading="lazy" alt="milstein eco-brick module banguan">
         
         
                     
-                    <h4>🟡 Maintenance</h4>
-                    <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
+                    <h4>🟡 Pemeliharaan</h4>
+                    <p>Modul harus dibersihkan setahun sekali. Modul yang rusak dapat diperbaiki dengan silikon.</p>
                     
                     <hr>
 
-                    <h4>🟢 Next Life</h4>
-                    <p>  Well-used ecobrick Milstein Modules will last 2-3 years.  After this time, the silicone joints began to weaken and fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.</p>
+                    <h4>🟢 Kehidupan selanjutnya</h4>
+                    <p>  Ecobrick Milstein Modules yang digunakan dengan baik akan bertahan 2-3 tahun. Setelah itu, sambungan silikon mulai melemah dan rusak. Ecobricks juga mulai kehilangan kilaunya karena warna plastik yang dikandungnya mulai memudar. Ini adalah peluang bagus untuk mentransisikannya ke aplikasi bangunan jangka panjang yang sepenuhnya terlindungi dengan tanah.</p>
                     
                     <hr>
-                    <h4>🔴 Caution</h4>
-                    <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.
-                    <p>
+                    <h4>🔴 Peringatan</h4>
+                    <p>Untuk penggunaan di dalam ruangan saja. Sinar UV di bawah sinar matahari akan menurunkan dan memudarkan ecobrick Anda dan melemahkan plastik botol.</p>
                     <hr>
                     <br>
                     
 
-                    <a class="action-btn" href="/modules">🚀 Ecobrick Milstein Modules</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about the various horizonal ecobrick module variations.</a></p>
+                    <a class="action-btn" href="/modules">🚀 Module Ecobrick Milstein</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Lihat halaman kami tentang berbagai variasi modul ecobrick horizontal.</a></p>
 
                     
 				</div>
@@ -163,8 +162,8 @@ Content Page template: v.1.0.0-->
             <div class="opener-header">
                 
                 <div class="opener-header-text">
-                <h4>2. Dieleman Modules</h4>
-                <h5>Ecobricks can be combined into modules that can be used to build vertically and horizontally much like LEGO.</h5>
+                <h4>2. Modules Dieleman</h4>
+                <h5>Ecobrick dapat digabungkan menjadi modul yang dapat digunakan untuk membangun secara vertikal dan horizontal seperti LEGO.</h5>
                 <br>
                 </div>
 
@@ -177,64 +176,63 @@ Content Page template: v.1.0.0-->
             <img src="photos/dielemans-900px.jpg" width="100%" loading="lazy" alt="Dieleman lego eco brick modules">
 
             
-            <p> <p>So this is pretty cool – ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.</p>
+            <p>Jadi ini keren sekali – ecobrick bisa membuat balok-balok mirip LEGO! Modul Dieleman, atau singkatnya DM, adalah cara untuk mengubah botol menjadi bata modular yang dapat ditumpuk secara vertikal. Enam belas ecobrick disatukan menjadi satu modul DM.</p>
 
-            <p>DMs interconnect just like Legos.  They stack one upon the other and enable you to make walls, towers and columns, quickly and easily without any glue or mortar.  Best Usage:  Awesome for open spaces, indoor playgrounds and building structures for concerts or fairs in minutes. Can be taken apart and stored just as fast!</p>
+            <p>DM saling terhubung seperti Lego. Mereka menumpuk satu sama lain dan memungkinkan Anda membuat dinding, menara, dan kolom, dengan cepat dan mudah tanpa lem atau mortar. Penggunaan Terbaik: Luar biasa untuk ruang terbuka, taman bermain dalam ruangan, dan struktur bangunan untuk konser atau pameran dalam hitungan menit. Dapat dibongkar dan disimpan dengan cepat!</p>
 
-            <p>The DMs can then be disassembled just as easily.</p>
+            <p>DM kemudian dapat dibongkar dengan mudah.</p>
 
-            <img src="webp/dm-modules-1000px.webp" width="100%" loading="lazy" alt="Examples of the different types of dieleman lego modules">
+            <img src="webp/dm-modules-1000px.webp" width="100%" loading="lazy" alt="Contoh berbagai jenis modul lego dieleman" title="Contoh berbagai jenis modul lego dieleman">
 
         
                     
-                    <h4>🟡 Maintenance</h4>
-                    <p>Modules should be cleaned once a year.  Broken modules can be repaired with silicone.</p>
+            <h4>🟡 Pemeliharaan</h4>
+                     <p>Modul harus dibersihkan setahun sekali. Modul yang rusak dapat diperbaiki dengan silikon.</p>
                     
-                    <hr>
+                     <hr>
 
-                    <h4>🟢 Next Life</h4>
-                    <p>  Well-used DMs will last 2-3 years.  After this time, the silicone joints began to weaken and to fail.  Ecobricks also begin to loose their lustre as the colors of the contained plastic begin to fade.  This is a good opportunity to transition them to long term building applications where they are fully protected with earth.</p>
+                     <h4>🟢 Kehidupan Selanjutnya</h4>
+                     <p> DM yang digunakan dengan baik akan bertahan 2-3 tahun. Setelah itu, sambungan silikon mulai melemah dan rusak. Ecobricks juga mulai kehilangan kilaunya karena warna plastik yang dikandungnya mulai memudar. Ini adalah peluang bagus untuk mentransisikannya ke aplikasi bangunan jangka panjang yang sepenuhnya terlindungi dengan tanah.</p>
                     
-                    <hr>
-                    <h4>🔴 Caution</h4>
-                    <p>For indoor use only.  The UV rays in sunlight will degrade and fade your DMs and weaken the ecobrick's plastic.
-                    <p>
-                    <hr>
-                    <br>
+                     <hr>
+                     <h4>🔴 Perhatian</h4>
+                     <p>Hanya untuk penggunaan di dalam ruangan. Sinar UV di bawah sinar matahari akan menurunkan dan memudarkan DM Anda dan melemahkan plastik ecobrick.
+                     </p>
+                     <hr>
+                     <br>
                     
 
-                    <a class="action-btn" href="/dms">🚀 Ecobrick LEGO Modules</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Dieleman modules.</a></p>
+                    <a class="action-btn" href="/dms">🚀 LEGO Modules</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">Periksa halaman kami semua tentang modul Dieleman.</a></p>
 
             </div>
             </div>
 
             <a name="EARTHMODS"></a>
-            <div class="reg-content-block" id="block4">
+        <div class="reg-content-block" id="block4">
 
-                <div class="opener-header">
-                    
-                    <div class="opener-header-text">
-                    <h4>3. Earth Modules</h4>
-                    <h5>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.</h5>
-                    <br>
-                    </div>
-
-                    <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+            <div class="opener-header">
+                
+                <div class="opener-header-text">
+                <h4>3. Modul Tanah</h4>
+                <h5>Gunakan prinsip dasar Bangunan Tanah dan Ecobrick untuk membuat bangku luar ruangan, meja kopi, dan lainnya dengan ecobricks Anda.</h5>
+                <br>
                 </div>
 
-                <div id="preclosed4">
+                <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+            </div>
 
-                <img src="photos/earth-module-623px.jpg" width="100%" loading="lazy" alt="Eco brick earth modules for sitting or coffee table">
+            <div id="preclosed4">
 
-                <p>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.  These modules are an ideal place to start to learn the basics of Earth building.  We use their construction in GEA Builder courses as a simple, non-structural start to the fundamental earth building techniques.</p>
-                    <br>
-                    <hr>
+            <img src="photos/earth-module-623px.jpg" width="100%" loading="lazy" alt="Modul tanah ecobrick untuk tempat duduk atau meja kopi">
 
-                    
-                    <h4>🟡 Maintenance</h4>
-                    <p>Earth modules must be move around carefully as they can crack and break.</p>
-                    
+            <p>Gunakan prinsip dasar Bangunan Tanah dan Ecobrick untuk membuat bangku luar ruangan, meja kopi, dan lainnya dengan ecobricks Anda. Modul ini adalah tempat yang ideal untuk memulai mempelajari dasar-dasar bangunan Tanah. Kami menggunakan konstruksi ini dalam kursus GEA Builder sebagai awal yang sederhana dan non-struktural untuk teknik dasar membangun dengan tanah.</p>
+                <br>
+                <hr>
+
+                
+                <h4>🟡 Pemeliharaan</h4>
+                <p>Modul tanah harus dipindahkan dengan hati-hati karena dapat retak dan pecah.</p> 
                     <hr>
 
                     <h4>🟢 Next Life</h4>
@@ -244,7 +242,7 @@ Content Page template: v.1.0.0-->
                     <h4>🔴 Caution</h4>
                     <p>Avoid building fully with cement.  Cementing ecobricks make them often impossible to remove without the bottle being ruptured.</p>
                     <p>Often earth modules can also be very heavy and care must be used in moving them.
-                    <p>
+                    </p>
                     <hr>
                     <br>
                     

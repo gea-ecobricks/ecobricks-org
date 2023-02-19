@@ -64,7 +64,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
             
             echo '<p><a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'" style="max-width:100%; width:600px;" alt="Top Ten Ecobrick '.$row["ecobrick_unique_id"].' dari '.$row["ecobrick_owner"].' di '.$row["location"].'" loading="lazy"/></a></p>';
             echo '<h4><p><b>'.$row["location"].'</b></p></h4>';
-            echo '<p>'.$row["ecobrick_owner"].' di buat <a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> dengan berat '.$row["weight_in_g"].'&#8202;g dengan kepadatan '.$row["density"].'&#8202;g/ml.   It made this months top ten ecobricks dengan skor validasi sebesar '.$row["final_validation_score"].'.</p>';
+            echo '<p>'.$row["ecobrick_owner"].' di buat <a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> dengan berat '.$row["weight_in_g"].'&#8202;g dengan kepadatan '.$row["density"].'&#8202;g/ml.   Itu membuat sepuluh ecobricks terbaik bulan ini dengan skor validasi sebesar '.$row["final_validation_score"].'.</p>';
             
             echo '<p><a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">🔎 Coba lihat</a>';
             echo '</p><br><br>';
