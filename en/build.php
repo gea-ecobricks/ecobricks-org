@@ -29,7 +29,7 @@ Content Page template: v.1.0.0-->
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
-	<div class="row">
+	<div class="row">  
 		<div class="main">
 
 			<div class="lead-page-paragraph">
@@ -73,7 +73,7 @@ Content Page template: v.1.0.0-->
                 <br><p><b>Very long-term</b><p>
                 <p>Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelihood of plastic staying safe, secure and contained is much more likely than currently available alternatives.</p>
                 
-                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>
+                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp" width="100%" alt="AA view of the paths various plastic management technologies take over 1000 years." loading="lazy"></a>
                 <p style="font-size: 0.85em; margin-top:20px;">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
 </div>
 </div>
@@ -143,8 +143,7 @@ Content Page template: v.1.0.0-->
                     
                     <hr>
                     <h4>🔴 Caution</h4>
-                    <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.
-                    <p>
+                    <p>For indoor use only.   The UV rays in sunlight will degrade and fade your ecobricks and weaken the bottle’s plastic.</p>
                     <hr>
                     <br>
                     
@@ -177,7 +176,7 @@ Content Page template: v.1.0.0-->
             <img src="photos/dielemans-900px.jpg" width="100%" loading="lazy" alt="Dieleman lego eco brick modules">
 
             
-            <p> <p>So this is pretty cool – ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.</p>
+            <p>So this is pretty cool – ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.</p>
 
             <p>DMs interconnect just like LEGOs.  They stack one upon the other and enable you to make walls, towers and columns, quickly and easily without any glue or mortar.  Best Usage:  Awesome for open spaces, indoor playgrounds and building structures for concerts or fairs in minutes. Can be taken apart and stored just as fast!</p>
 
