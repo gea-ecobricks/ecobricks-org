@@ -492,37 +492,17 @@ Content Page template: v.1.0.0-->
 	
 
 		<div class="side">
+
+
+<?php require_once ("side-modules/good-use.php");?>
+
+<?php require_once ("side-modules/sequest-module.php");?>
+
+<?php require_once ("side-modules/spiral-design.php");?>
+    
+<?php require_once ("side-modules/transition-module.php");?>
 	
-			<div id="side-module-desktop-mobile">
-            <img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-				<br><h4>Good Use</h4>
-				<h5>Ecobrick building lets us put our plastic to good use in the short-term, while securing it out of industry and the biosphere for the long-term.</h5><br>
-				<a class="module-btn" href="/plastic">Learn More</a>
-                <br>
-			</div>  
-            <div id="side-module-desktop-mobile">
-                <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Plastic Sequestration</h4>
-                <h5>The GEA advocates ecobrick building to sequester plastic.  Only builds that follow best-practices, embody earth principles and use authenticated eco<span class="eco-brick"> </span>bricks sequester plastic.</h5><br>
-                <a class="module-btn" href="sequest.php">Learn More</a>
-            </div>
-
-			<div id="side-module-desktop-mobile">
-				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
-				<h4>Plastic Transition</h4>
-				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
-				<a class="module-btn" href="transition.php">Learn More</a>
-			</div>
-
-			
-
-            <div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
-				<h4>Circular Design</h4>
-				<h5>Ecobrick applications follows the principles of circular design to put our plastic into indefinite greening cycles of reuse.</h5><br>
-				<a class="module-btn" href="/circular">Learn More</a>
-			</div>
-
+	
 		
 
 		</div>

@@ -12,7 +12,7 @@
 <div id="desktop-menu">
     <div class="topnav-lang" id="myTopnav-lang">
         <div class="dropdown-lang">
-            <button class="dropbtn-lang">EN</button>
+            <button type="button" aria-label="Language Selector" class="dropbtn-lang">EN</button>
             <div class="dropdown-content-language">
               
             <!-- This loads the universal laguage list-->
@@ -25,7 +25,7 @@
 
     <div class="topnav" id="myTopnav">
         <div class="dropdown">
-                  <button class="dropbtn">
+                  <button type="button" aria-label="GEA service menu" class="dropbtn">
                     <div id="menu-circle"><img src="svgs/grey-emblem.svg" width="30px" height="30px" alt="Global Ecobrick Alliance Emblem"></div><div id="menu-text">GEA Servers</div>
                 </button>
                   <div class="dropdown-content-app">
