@@ -7,7 +7,7 @@
 
 <!--MAIN CONTENT-->
 		
-<BODY id="full-page">
+<BODY id="full-page" style="overflow-x:clip";>
 
 	<div id="load-background"> 
 
@@ -116,7 +116,7 @@
 		</div>
 	</div>	
 
-<!-- FULL GALLERY-->
+<!-- FULL GALLERY
 
 	
 		<div class="gallery-background">
@@ -156,6 +156,8 @@
 				
 			</div>
 			<div class="feed-live"><p><span class="blink">⬤</span> 50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div>
+
+		-->
 
 			<div id="main-content">
 			

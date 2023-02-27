@@ -405,8 +405,8 @@ margin-left: 0px;
 
 .gal-photo10 img {
     max-width: 235px;
-    max-height: 365px;
-    height:365px;
+    min-height: 305px;
+
 }
 }
 
