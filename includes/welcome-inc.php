@@ -13,7 +13,6 @@ _END;?>
 
 <!--Image files to preload that are unique to this page-->
 
-<HEAD> 
 	
 <meta charset="utf-8">
 
@@ -332,9 +331,6 @@ margin-bottom: 25px;}
 
 .flex-container10 {
   display: flex;
-  /*flex-wrap: wrap;
-    overflow-x: scroll;*/
-  /*background-color: #0ff #dfdfdf;*/
   margin-top: -10px;
   margin-bottom: 0px;
 }
@@ -343,7 +339,7 @@ margin-bottom: 25px;}
 @media screen and (min-width: 700px) { 
 
 .flex-container10 > .gal-photo10 {
-    background-color: #0ff /*#dfdfdf*/;;
+    background-color: #0ff /*#dfdfdf*/;
     margin: 0px;
     padding: 2px;
    /* max-height: 520px;
@@ -393,7 +389,7 @@ margin-left: 0px;
 @media screen and (max-width: 700px) { 
 
 .flex-container10 > .gal-photo10 {
-    background-color: #0ff #dfdfdf;
+    background-color: #0ff;/*#0ff*/
     margin: 0px;
     padding: 4px;
     /*overflow: hidden;*/
@@ -469,7 +465,7 @@ margin-left: 0px;
     background: #00000065;
     padding: 5px 14px;
     text-decoration: none;
-    overflow-x: none;
+    overflow-x: clip; /*right?*/
     margin: 26px 5px 0px 0px;
     float: right;
 }
@@ -486,7 +482,7 @@ margin-left: 0px;
     background: #00000065;
     padding: 8px 18px;
     text-decoration: none;
-    overflow-x: none;
+    overflow-x: clip; /*right?*/
     margin: 30px 15px 0px 0px;
     float: right;
 }
