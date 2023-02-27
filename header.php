@@ -12,11 +12,11 @@
 	<link rel="canonical" href="https://ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
-	<link rel="alternate" href="https://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="en" />
-	<link rel="alternate" href="https://ecobricks.org/id/<?php echo ($name); ;?>" hreflang="id" /> 
-	<link rel="alternate" href="https://ecobricks.org/es/<?php echo ($name); ;?>" hreflang="es" /> 
-	<link rel="alternate" href="https://ecobricks.org/fr/<?php echo ($name); ;?>" hreflang="fr" /> 
-	<link rel="alternate" href="http://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="x-default" />
+	<link rel="alternate" href="https://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="en">
+	<link rel="alternate" href="https://ecobricks.org/id/<?php echo ($name); ;?>" hreflang="id"> 
+	<link rel="alternate" href="https://ecobricks.org/es/<?php echo ($name); ;?>" hreflang="es"> 
+	<link rel="alternate" href="https://ecobricks.org/fr/<?php echo ($name); ;?>" hreflang="fr"> 
+	<link rel="alternate" href="http://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="x-default">
 
 <!-- Arc CDN Script without delay
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
@@ -25,8 +25,8 @@
 		
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/stylesheet-general.css?v2.9">
 
-<meta property="og:site_name" content="Ecobricks.org" />
-<meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
+<meta property="og:site_name" content="Ecobricks.org">
+<meta property="article:publisher" content="https://web.facebook.com/ecobricks.org">
 
 	
 <!-- This calls GEA typography -->
