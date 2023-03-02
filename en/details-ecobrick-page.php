@@ -23,8 +23,6 @@ if ($result->num_rows > 0) {
     while($array = $result->fetch_assoc()) {
 
 
-
-
 echo 
 '<div class="splash-content-block">
 	<div class="splash-box">
@@ -208,7 +206,7 @@ echo '
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
 			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-				<br><br><br>
+				<br><br>
 				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 				</div>
@@ -243,7 +241,7 @@ echo '
 			<div id="side-module-desktop-mobile">
 				<img src="webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Brikcoins</h4>
-				<h5>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
+				<h5>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its authenticated sequestered plastic.</h5><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
 
