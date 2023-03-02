@@ -7,8 +7,6 @@ require_once ("includes/details-ecobrick-page-inc.php");
 
 include 'ecobricks_env.php';
 
-include 'ssp.class.php';
-
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 $serialNo = $_GET['serial_no'];
@@ -234,8 +232,8 @@ echo '
             <div id="side-module-desktop-mobile">
 				<img src="webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<!--<h4>AES Plastic</h4>-->
-				<h5>The weight of the plastic inside an authenticated ecobrick is what we call Authenticated Ecobricked Plastic (AES plastic) for short.</h5><br>
-				<a class="module-btn" href="/aes" target="_blank">About AES</a><br><br>
+				<h5>The weight of the plastic inside an authenticated ecobrick is what we call Authenticated Ecobricked Sequestered (AES) Plastic.</h5><br>
+				<a class="module-btn" href="/aes" target="_blank">Learn More</a><br><br>
 			</div>
 
 			<div id="side-module-desktop-mobile">
