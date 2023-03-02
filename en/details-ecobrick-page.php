@@ -219,16 +219,6 @@ echo '
 		?>
 
 
-
-				
-	
-
-			
-			
-
-		
-	
-
             <div id="side-module-desktop-mobile">
 				<img src="webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<!--<h4>AES Plastic</h4>-->
