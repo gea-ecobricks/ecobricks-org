@@ -1481,9 +1481,9 @@ text-decoration: none;
 	padding: 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: #ECECEC;
+	background-color: (var(--top-menu));
 	text-align: center;
-	border-color: white;
+
 }
 
 #side-module-desktop-mobile {
@@ -1493,9 +1493,9 @@ text-decoration: none;
 	padding: 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: #ECECEC;
+	background-color: (var(--top-menu));
 	text-align: center;
-	border-color: white;
+
   
   }
 
