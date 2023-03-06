@@ -257,8 +257,8 @@ GEA telah mengembangkan dan sekarang mempertahankan <a href="brikcoins.php">bloc
 
 				<div class="opener-header">	
 					<div class="opener-header-text">
-						<h4>Contact Us</h4>
-						<h5>Connect with us directly.</h5>
+					<h4>Hubungi Kami</h4>
+<h5>Hubungi kami secara langsung.</h5>
 						<br>
 					</div>
 
@@ -274,7 +274,7 @@ GEA telah mengembangkan dan sekarang mempertahankan <a href="brikcoins.php">bloc
 					<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p>
 					<br>
 
-					<p><b>Indonesian GEA Base</b></p>
+					<p><b>GEA Indonesia</b></p>
 					<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#105;&#110;&#100;&#111;&#110;&#101;&#115;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
 
 
@@ -286,9 +286,9 @@ GEA telah mengembangkan dan sekarang mempertahankan <a href="brikcoins.php">bloc
 					
 					<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#101;&#100;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#109;&#101;&#100;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
 
-					<p><b>Circles - Ecobrick Community Server</b></p>
+					<p><b>Circles - Server Komunitas Ecobrick</b></p>
 
-					<p>You can also connect with us directly on <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank">GEA Circles</a>, our social media alternative for the global ecobricker community</p><br>
+<p>Anda juga dapat terhubung langsung dengan kami di<a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank">GEA Circles</a>, alternatif media sosial kami untuk komunitas ecobricker global</p><br>
 
 					
 				</div>
@@ -299,17 +299,16 @@ GEA telah mengembangkan dan sekarang mempertahankan <a href="brikcoins.php">bloc
 			<div class="page-paragraph">
 				<br><br>
 
-				<p><b>Vision</b></p>
-				<p>We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</p><br>
+				<p><b>Visi</b></p>
+<p>Kami membayangkan Transisi dari Plastik di Rumah Tangga, Komunitas, dan Perusahaan kami menuju Harmoni yang Lebih Hijau dengan Siklus Bumi.</p><br>
 
-				<p><b>Our Mission</b></p>
-				<p>To raise Ecological Consciousness through the spread of Ecobricking and the transformation of global plastic into local solutions.</p><br>
+<p><b>Misi Kita</b></p>
+<p>Untuk meningkatkan Kesadaran Ekologis melalui penyebaran Ecobricking dan transformasi plastik global menjadi solusi lokal.</p><br>
 
-				<p><b>Dedication</b></p>
-				<p>Our work is dedicated to our Children, our Children’s Children… and the children of all species, for all time.</p><br>
+<p><b>Dedikasi</b></p>
+<p>Pekerjaan kami didedikasikan untuk Anak-anak kami, Anak-anak dari Anak-anak kami… dan anak-anak dari semua spesies, untuk selamanya.</p><br>
 
-				<p><i>Together we can be the transition to ever increasing harmony with the cycles of life.</i></p>
-
+<p><i>Bersama kita bisa menjadi transisi menuju keharmonisan yang semakin meningkat dengan siklus kehidupan.</i></p>
 			</div>
 
 
@@ -319,29 +318,16 @@ GEA telah mengembangkan dan sekarang mempertahankan <a href="brikcoins.php">bloc
 
 		<div class="side">
 
-		
-			
-			<div id="side-module-desktop-mobile">
-			<img src="webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
-					<h4>Annual Ecological Accounting</h4>
-					<h5>Every year we track, account and disclose our ecological impact in an annual Regenerativity Report.</h5><br>
-					<a class="module-btn" href="regenreports.php">Access Report</a><br><br>
-				</div>
+		<?php require_once ("side-modules/about-gea.php");?>
 
+		<?php require_once ("side-modules/eco-accounting.php");?>
 
-				<div id="side-module-desktop-mobile">
-					<img src="webp/for-earth500px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
-					<h4>For-Earth Enterprise</h4>
-					<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-					
-				</div>
+		<?php require_once ("side-modules/transition-module.php");?>
 
-				<div id="side-module-desktop-mobile">
-					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
-					<h4>Global Ecobrick Alliance</h4>
-					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-					
-				</div>
+<?php require_once ("side-modules/for-earth.php");?>
+    
+
+	
 
 		</div>
 
