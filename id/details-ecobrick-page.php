@@ -146,7 +146,7 @@ echo '
 			echo '	<div class="side">
 
 			<div id="side-module-desktop-mobile">
-					<img src="pngs/authenticated-ecobrick.png" width="90%" alt="Mengikuti contoh Bumi melalui eco bricking">
+					<img src="..webp/auth-brik-455px.webp" width="90%" alt="Mengikuti contoh Bumi melalui eco bricking">
 					<br><h4>Diautentikasi!</h4>
 					<h5>Ecobrick ini telah diautentikasi oleh tiga validator independen yang memenuhi standar sekuestrasi plastik.</h5><br>
 					<a class="module-btn" href="/about">Tentang Ecobricks</a>

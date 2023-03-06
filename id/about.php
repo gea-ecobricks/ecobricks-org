@@ -6,7 +6,7 @@ Content Page template: v.1.0.1-->
 <?php require_once ("includes/about-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!--<?php require_once ("translate-please.php");?>-->
 
 <!--TOP PAGE BANNER-->
 							  
@@ -60,8 +60,8 @@ Content Page template: v.1.0.1-->
 
 					<div class="row">
                             <div class="main2">
-                            <p>As ecobrickers ourselves, we keep track of how much plastic we consume each month, clean and wash it, and put it aside.  We pack our plastic into ecobricks which we use in our homes to make our furniture and gardens.  We lead <a href="/trainings">ecobrick trainings</a> for companies, communities near and far.  For both our households and enterprises we offset our plastic to make sure our household and our enterprises are net green.  We track and disclose our plastic transition progress, just like the Global Ecobrick Alliance <a href="regenreports.php">does each year</a>.</p>
-							<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
+                            <p>Sebagai ecobrickers, kami mencatat seberapa banyak plastik yang kami konsumsi setiap bulan, membersihkannya, dan menyimpannya. Kami mengemas plastik kami menjadi ecobrick yang kami gunakan di rumah kami untuk membuat perabotan dan taman kami. Kami memimpin <a href="/trainings">pelatihan ecobrick</a> untuk perusahaan, komunitas dekat dan jauh. Baik untuk rumah tangga maupun perusahaan kami, kami mengkompensasi plastik kami untuk memastikan rumah tangga dan perusahaan kami netral dalam hal lingkungan. Kami melacak dan mengungkapkan kemajuan transisi plastik kami, seperti yang dilakukan Aliansi Global Ecobrick <a href="regenreports.php">setiap tahun</a>.</p>
+<p>Ecobricking kami memberi kami kesempatan untuk merenungkan konsumsi plastik kami sendiri. Kami merasa bahwa menyelesaikan masalah plastik jauh lebih kompleks daripada pelarangan dan bambu. Meskipun langkah-langkah tersebut sangat penting, menyelesaikan masalah plastik secara mendalam memerlukan peralihan yang luas dari cara budaya modern kita mengintegrasikan diri dengan biosfera.</p>
                             </div>
                             <div class="side2"><img src="svgs/shanti.svg" width="88%">
                             </div>
@@ -70,75 +70,74 @@ Content Page template: v.1.0.1-->
                         <div class="row2">
                             <div class="main3">
                             
-							<p><b>We observe that our consumption and production of plastic is rooted in the global petroleum and capital powered economy.</b></p>
-                            </div>
-                            <div class="side3"><img src="svgs/shanti.svg" width="120px">
-                            </div>
+							<p><b>Kami menyadari bahwa konsumsi dan produksi plastik kami berakar pada ekonomi global yang didukung oleh minyak bumi dan modal.</b></p>
                         </div>
+                        <div class="side3"><img src="svgs/shanti.svg" width="120px">
+                        </div>
+                    </div>
 					
-					<br>
-					
-					
-					<p>In this way, the plastic that we handle each day is the tip of the iceberg of the petro-capital system that is at the root of today's many of our ecological crises.  As such, plastic allows us to physically touch the petro-capital system that otherwise looms large and unseen around us.   Our every plastic choice, from purchasing to disposing, results in factories spinning, trucks transporting, and oil refined-- or, not.</p>
-						
-					<p>What we do with our plastic, as it adds or decreases the momentum of the petro-capital economy has imminent ecological consequence.  Even though our personal choices may seem small, we observe that over time as our choices reverberate with others, they gather a momemtum over that time that has enormous ecological consequences. In this way, ‘leading by personal example’ is one of our <a href="/principles">core principles</a>.</p>
-					
-					<p>As we have come together as the Global Ecobrick Alliance, we’ve realized that to deeply solve plastic, we also have to lead by our allied action, enterprise structure and principles in manifesting <a href="transition.php">plastic transition</a>, ecological value and Earth service.</p>
+								<br>
+			
+			
+			<p>Dengan cara ini, plastik yang kami hadapi setiap hari adalah puncak gunung es dari sistem petro-kapital yang merupakan akar dari banyak krisis ekologis saat ini. Oleh karena itu, plastik memungkinkan kami secara fisik menyentuh sistem petro-kapital yang sebaliknya besar dan tidak terlihat di sekitar kita. Setiap pilihan plastik kami, dari pembelian hingga pembuangan, menghasilkan pabrik berputar, truk mengangkut, dan minyak diolah - atau tidak.</p>
+				
+			<p>Apa yang kami lakukan dengan plastik kami, karena menambah atau mengurangi momentum ekonomi petro-kapital, memiliki konsekuensi ekologis yang mendesak. Meskipun pilihan pribadi kami mungkin terlihat kecil, kami menyadari bahwa seiring waktu ketika pilihan kami berdampak pada orang lain, mereka mengumpulkan momenun yang memiliki konsekuensi ekologis yang sangat besar. Dalam hal ini, 'memimpin dengan contoh pribadi' adalah salah satu dari <a href="/principles">prinsip inti</a> kami.</p>
+			
+			<p>Saat kami berkumpul sebagai Aliansi Global Ecobrick, kami menyadari bahwa untuk menyelesaikan masalah plastik secara mendalam, kami juga harus memimpin dengan tindakan, struktur perusahaan, dan prinsip-prinsip yang terkait dalam mewujudkan <a href="transition.php">transisi plastik</a>, nilai ekologis, dan pelayanan Bumi.</p>
 
 
+			<br><br><h5><i>"Ketika Anda duduk dalam dewan untuk kesejahteraan orang, Anda tidak boleh memikirkan diri sendiri atau keluarga Anda, bahkan tidak untuk generasi Anda. Buat keputusan Anda atas nama tujuh generasi yang akan datang, sehingga mereka dapat menikmati apa yang Anda miliki hari ini."</i></h5>
 
-					<br><br><h5><i>“When you sit in council for the welfare of the people, you must not think of yourself or of your family, not even of your generation. Make your decisions on behalf of the seven generations coming, so that they may enjoy what you have today.</i></h5>
+			<h5>— Oren Lyons (Seneca), Onondaga Nation</h5>
 
-					<h5>— Oren Lyons (Seneca), Onondaga Nation</h5>
-
-	
 				</div>	
 			</div>
 
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
-					<div class="opener-header-text">
-						<h4>Earth Enterprise</h4>
-						<h5>Our not-for-profit enterprise is focused on Earth service.</h5><br>
+				<div class="opener-header-text">
+						<h4>Perusahaan Earth</h4>
+						<h5>Perusahaan nirlaba kami difokuskan pada layanan Bumi.</h5><br>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 				</div>
 
 				<div id="preclosed2">
 
-						<div class="row">
-                            <div class="main2">
-                            <p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It aso, means that unlike an organizations, we do not receive charity, grants or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor a mandate of growth and profits.</p>
-                            </div>
-                            <div class="side2"><img src="webp/for-earth500px.webp" width="95%" alt="We make eco bricks to serve the Earth">
-                            </div>
-                        </div>
+<div class="row">
+	<div class="main2">
+	<p>Global Ecobrick Alliance beroperasi sebagai perusahaan nirlaba dengan mandat untuk layanan Bumi. Ini berarti, berbeda dengan sebuah perusahaan, kami tidak memiliki pemegang saham atau pemilik yang mengumpulkan keuntungan. Ini juga berarti, berbeda dengan organisasi lainnya, kami tidak menerima dana amal, hibah, atau CSR. Dengan cara ini, kami tidak terikat pada agenda di luar misi dan visi kami, juga tidak terikat pada mandat pertumbuhan dan keuntungan.</p>
+	</div>
+	<div class="side2"><img src="webp/for-earth500px.webp" width="95%" alt="Kami membuat ecobrick untuk melayani Bumi">
+	</div>
+</div>
 
-                        <div class="row2">
-                            <div class="main3">
-                            <p>As an Earth enterprise our focus is on generation authentic ecological value. </p>
-                            </div>
-                            <div class="side3"><img src="webp/for-earth500px.webp" width="120px" alt="We make eco bricks to serve the Earth">
-                            </div>
-                        </div>
+<div class="row2">
+	<div class="main3">
+	<p>Sebagai perusahaan Earth, fokus kami adalah pada penciptaan nilai ekologi yang autentik.</p>
+	</div>
+	<div class="side3"><img src="webp/for-earth500px.webp" width="120px" alt="Kami membuat ecobrick untuk melayani Bumi">
+	</div>
+</div>
 
-						<br>
+<br>
 
-					<p><b>Revenue Generation</b></p>
-						
-					<p>  Through our <a href="brikcoins.php">Brikcoin blockchain</a> this value is authenticated, quantified and valued in regular currency.  We then sell Authenticated Ecobrick Sequestrated Plastic (<a href="aes">AES plastic offsets</a>) to fund our operations.</p>
-					
-					<p>The GEA develops <a href="/trainings">workshops and trainings</a> that raise ecological consciousness around the dangers of plastic.  These courses are lead by our trainer team, and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
+<p><b>Generasi Pendapatan</b></p>
 
-					<p>The GEA develops regenerative, open source products that are made to specification by makers local to the country in which they are sold.  These products are sold by our trainers to assist with their practice (see <a href="/earthwand">our EarthWand page for an example).</a></p>
+<p>  Melalui <a href="brikcoins.php">Brikcoin blockchain</a> kami mengautentikasi, mengkuantifikasi, dan menilai nilai tersebut dalam mata uang reguler. Kami kemudian menjual Plastik Terjebak Ecobrick Terotentikasi (<a href="aes">pengimbangan plastik AES</a>) untuk membiayai operasi kami.</p>
 
-					<p>All of our operations are manifested through our GEA Trainer and Core Team– folks who have been through one of our advanced trainings and are perpetually committed and resonant with our mission, vision and principles.  Our trainer team is constantly running <a href="/trainings">GEA Trainings</a> around the world, and are remunerated professionally for these services by the community groups, companies, governments, NGOs or organizations that hire them.</p>
-					<br><br>
-					<h5><i>    “In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.”</i></h5>
+<p>GEA mengembangkan <a href="/trainings">workshop dan pelatihan</a> yang meningkatkan kesadaran ekologi tentang bahaya plastik. Kursus-kursus ini dipimpin oleh tim pelatih kami, dan menjadi sarana bagi mereka untuk membiayai pekerjaan mereka sendiri (keuntungan dibagi 80/20 dengan GEA).</p>
 
-					<h5>– How on Earth, Hinton & Maclurcan (2016)</h5>
-				</div>
-			</div>	
+<p>GEA mengembangkan produk regeneratif open-source yang dibuat sesuai dengan spesifikasi oleh pembuat lokal di negara di mana mereka dijual. Produk-produk ini dijual oleh pelatih kami untuk membantu praktik mereka (lihat <a href="/earthwand">halaman EarthWand kami untuk contoh).</a></p>
+
+<p>Semua operasi kami dilakukan melalui Tim Pelatih dan Tim Inti GEA - orang-orang yang telah mengikuti salah satu pelatihan tingkat lanjut kami dan secara perpetu berkomitmen dan resonansi dengan misi, visi, dan prinsip kami. Tim pelatih kami terus-menerus mengadakan <a href="/trainings">Pelatihan GEA</a> di seluruh dunia
+dan diberi upah secara profesional untuk layanan ini oleh kelompok-kelompok masyarakat, perusahaan, pemerintah, LSM, atau organisasi yang mempekerjakan mereka.</p>
+<br><br>
+<h5><i> “Di dunia dengan NFP bisnis di hatinya, keuntungan adalah cara untuk mencapai kesejahteraan sosial dan lingkungan; bukan tujuan itu sendiri.”</i></h5>
+
+<h5>– <i>How on Earth</i>, Hinton & Maclurcan (2016)</h5>
+			</div>
+		</div>
 
 
 			<div class="reg-content-block" id="block3">
