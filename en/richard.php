@@ -58,6 +58,7 @@ Content Page template: v.1.0.1-->
 
 <p>We will miss him dearly. </p>
 
+</div>
 
 		
 		</div>
@@ -68,11 +69,35 @@ Content Page template: v.1.0.1-->
 		<div id="side-module-desktop-mobile">
 					<img src="photos/richard-ecobrick.jpg" width="80%" alt="For-Earth Enterprise through eco bricking">
 					<h4>Richard's Ecobricks</h4>
-					<h5>Richard's ecobricks were famous for their pioneering use of white plastic inserts with the serial number written on.  This technique ensured the serial number was protected for... pretty much ever!  Meanwhile, as part of the tech team, Richard worked hard to ensure that recorded ecobrick data would last just as long.</h5><br>
+					<h5>Richard's ecobricks were famous for their pioneering use of white plastic inserts with the serial number written on.  This technique ensured the serial number was protected for... pretty much ever!  Meanwhile, as part of the tech team, Richard worked hard to ensure that recorded ecobrick data would last just as long.</h5>
+
+
+                        <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no=191547">Check it out</a>
+
+				</div>
+
+                <div id="side-module-desktop-mobile">
+					<img src="https://ecobricks.org/briks/ecobrick-186125-file.jpeg" width="80%" alt="For-Earth Enterprise through eco bricking">
+					<h4>Always Top Notch</h4>
+					<h5>Richard's ecobricks, as well as his code, were also well known for being top notch-- every detail considered..</h5>
+
+
+                        <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no=186125">Check it out</a>
+
+				</div>
+
+                <div id="side-module-desktop-mobile">
+					<img src="https://ecobricks.org/briks/ecobrick-182514-file.jpeg" width="80%" alt="For-Earth Enterprise through eco bricking">
+					<h4>And Colorful...</h4>
+					<h5>Just like his ecobricks.</h5>
+
+
+                        <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no=182514">Check it out</a>
+
 				</div>
 
 
-
+                
 
 		</div>
 
