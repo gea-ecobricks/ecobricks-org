@@ -47,8 +47,8 @@ Content Page template: v.1.0.1-->
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Being the Change</h4>
-						<h5>We strive to lead by example in our households and enterprises.</h5>
+						<h4>Jadilah perubahan yang ingin Anda lihat di dunia</h4>
+						<h5>Memimpin dengan memberi contoh di rumah tangga dan perusahaan kita.</h5>
 					</div>
 					
 					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
@@ -135,7 +135,7 @@ dan diberi upah secara profesional untuk layanan ini oleh kelompok-kelompok masy
 <br><br>
 <h5><i> “Di dunia dengan NFP bisnis di hatinya, keuntungan adalah cara untuk mencapai kesejahteraan sosial dan lingkungan; bukan tujuan itu sendiri.”</i></h5>
 
-<h5>– <i>How on Earth</i>, Hinton & Maclurcan (2016)</h5>
+<h5>– <b>How on Earth</b>, Hinton & Maclurcan (2016)</h5>
 			</div>
 		</div>
 
@@ -145,128 +145,108 @@ dan diberi upah secara profesional untuk layanan ini oleh kelompok-kelompok masy
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-					<h4>Principled Practice</h4>
-					<h5>As an Earth Enterprise the GEA follows seven principles that ensure our goals, operations and our results are deeply in line with our vision and mission in both the short and long-term.</h5>
+					<h4>Praktik Bermartabat</h4>
+<h5>Sebagai sebuah Usaha Bumi, GEA mengikuti tujuh prinsip yang memastikan bahwa tujuan, operasi, dan hasil kami selaras dengan visi dan misi kami baik dalam jangka pendek maupun jangka panjang.</h5>
+<br>
+</div>
+<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+</div>
+
+<div id="preclosed3">
+	<div class="row">
+		<div class="main2">
+			<p><b>1. Untuk Pelayanan Bumi</b></p>
+			<p>Usaha kami mengikuti contoh Bumi dalam menciptakan nilai ekologis. Oleh karena itu, kami berusaha mengikuti prinsip-prinsip etika Tanah, yaitu melayani Bumi terlebih dahulu dengan mendukung keanekaragaman hayati, meningkatkan kesadaran ekologis, dan mempertahankan pengurangan bersih karbon dan plastik keluar dari biosfer oleh usaha kami.</p>
+			<br>
+		</div>
+		<div class="side2"><img src="webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
+		<div class="side3"><img src="webp/earthservice-400px.webp" width="120px" alt="an eco brick is a form of earth service"></div>
+	</div>
+
+	<p><b>2. Memimpin dengan Contoh</b></p>
+	<p>Kami berusaha memastikan bahwa proses, metode, produk, dan layanan dari usaha kami sepenuhnya sejalan dengan prinsip-prinsip kami. Kami melacak dan mengungkapkan dampak ekologis kami untuk memastikan bahwa hasil bersih usaha kami adalah pengurangan CO2 dan plastik dari biosfer serta mendukung keanekaragaman hayati. Kami bekerja untuk meningkatkan kesadaran ekologis dan memberdayakan orang lain untuk mengikuti contoh kami.</p>
+	<br>
+
+
+		<p><b>3. Sumber Terbuka</b></p>
+	<p>Kami membuat sumber daya, panduan, dan kode kami terbuka di bawah Lisensi Internasional Creative Commons Attribution-ShareAlike 4.0.</p><br>
+	<p><b>4. Transenden Gender, Usia, dan Status</b></p>
+	<p>Kami berusaha untuk menciptakan metode dan proses yang memungkinkan partisipasi laki-laki dan perempuan, muda dan tua, kaya dan miskin, serta semua orang di antaranya.</p><br>
+	<p><b>5. Remunerasi yang Adil untuk Pelayanan Bumi</b></p>
+	<p>Kami berusaha untuk membudayakan ruang dan parameter agar pelatih, spesialis, dan prinsipal kami menerima remunerasi yang adil dan berlimpah atas layanan mereka kepada bumi. Seiring dengan ekspansi perusahaan kami, kami akan memastikan adanya gugus gaji untuk menjaga rasio tertentu dari gaji tertinggi hingga gaji terendah di dalam organisasi.</p><br>
+	<p><b>6. Transparansi Keuangan dan Dampak</b></p>
+	<p>Kami berusaha untuk membuat semua keuangan kami, baik dalam mata uang fiat maupun di blockchain Brikcoin kami, terbuka dan dapat diakses. Kami berkomitmen untuk mengungkapkan dampak bersih kami dalam hal CO2 dan Plastik.</p><br>
+	<p><b>7. Non Profit</b></p>
+	<p>Kami berkomitmen untuk menjalankan perusahaan nirlaba tanpa pemegang saham atau pemilik. Pada akhir tahun, dana yang tidak terpakai akan diinvestasikan kembali dalam pemenuhan misi dan visi kami.</p><br>
+	<h6><a href="/principles">Pelajari lebih lanjut tentang prinsip-prinsip ecobricking</a></h6><br>
+	</div>
+	</div>
+
+	<div class="opener-header">	
+				<div class="opener-header-text">
+					<h4>Karya Kami.</h4>
+					<h5>Kami menjaga infrastruktur teknis dan konseptual untuk gerakan ecobrick lokal dan global.</h5>
 					<br>
-					</div>
-
-					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 				</div>
 
-				<div id="preclosed3">
-					<div class="row">
-                        <div class="main2">
-								<p><b>1. For-Earth Service</b></p>
-
-								<p>Our enterprise follows the <a href="/plastic">Earth's example</a> in generating ecological value.  To do so we strive to follow the principles of <a href="https://earthen.io/the-earthen-ways/" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p><br>
-
-                        </div>
-							<div class="side2"><img src="webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
-							<div class="side3"><img src="webp/earthservice-400px.webp" width="120px" alt="an eco brick is a form of earth service"></div>
-					</div>
-
-					<p><b>2. Leading by Example</b></p>
-
-					<p>
-					We strive to ensure that the processes, methods, products and services of our enterprise are fully in line with our principles.  We track and disclose our ecological impacts to ensure that the net result of our enterprise is the subtraction of CO2 and plastic from the biosphere and the support of biodiversification.  We work to raise ecological consciousness and empower others to follow our example.
-						</p><br>
-
-					<p><b>3. Open Source</b></p>
-
-					<p>We make our resources, guides, and code open under Creative Commons Attribution-ShareAlike 4.0 International Licenses.
-					</p><br>
-
-					<p><b>4. Gender, Age, Status Transcendent</b></p>
-
-					<p>We strive to craft methods and processes that enable the participation of men and women, young and old, rich and poor and everyone in between.
-					</p><br>
-
-					<p><b>5. Fair Remuneration for Earth Service</b></p>
-
-					<p>We strive to cultivate a space and parameters so that our trainers, specialists and principals receive fair and abundant remuneration for their service to the earth.  As our enterprise expands we will ensure a wage bracket to maintain a defined ratio from the highest to the lowest paid person in the organization.
-					</p><br>
-
-					<p><b>6. Financial and Impact Transparency</b></p>
-
-					<p>We strive to make all our financials, both in fiat currency and on our Brikcoin blockchain transparent and accessible.  We commit to disclosing our net impacts in terms of CO2 and Plastic.
-					</p><br>
-
-					<p><b>7. Not for Profit</b></p>
-
-					<p>We commit to not-for-profit enterprise without shareholders or owners.  At the end of the year, any unspent funds will be reinvested back into the fulfillment of our mission and vision.	
-					</p><br>
-
-					<h6><a href="/principles">Learn more about ecobricking principles</a></h6><br>
-				</div>
+				<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
 			</div>
 
-			<div class="reg-content-block" id="block4">
-
-				<div class="opener-header">	
-					<div class="opener-header-text">
-						<h4>Our Work.</h4>
-						<h5>We maintain the technical and conceptual infrastructure for the local and global ecobrick movements.</h5>
-						<br>
-					</div>
-
-					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
-				</div>
-
-				<div id="preclosed4">
-						
-				
-					<br>
-
-					<p><b>Ecobricks.org</b></p>
-					<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.</p><br>
-
-					<p><b>GoBrik.com</b></p>
-					<p>The GEA maintains and develops the free <a href="https://gobrik.com" target="_blank">GoBrik.com web app to support and connect ecobrickers and their communities.</p><br>
-
-					<p><b>Brikcoin Manual Blockchain</b></p>
-					<p>
-					The GEA has developed and now maintains the <a href="brikcoins.php">Brikcoin manual blockchain</a> as a means to value the plastic sequestration ecobricking and to develop a medium of exchange based on ecological value.  Brikcoins are generated and exchanged on the GoBrik webapp.</p><br>
-
-					<p><b>Ecobrick Best Practices</b></p>
+			<div id="preclosed4">
 					
-					<p>We maintain best practives and standards for<a href="what.php">the making of ecobricks</a> and the <a href="build.php">building applications</a> of them.</p><br>
+			
+				<br>
 
-					<p><b>Circles - Ecobrick Community Server</b></p>
+				<p><b>Ecobricks.org</b></p>
+				<p>Kami menjaga Ecobricks.org (situs ini) sebagai sumber informasi ecobrick terkini, metode, data, dan praktik terbaik.</p><br>
 
-					<p>We maintain <a href="https://circles.ecobricks.org" target="_blank">GEA Circles</a> as a social media alternative for the global ecobricker community</p><br>
+				<p><b>GoBrik.com</b></p>
+				<p>GEA menjaga dan mengembangkan aplikasi web gratis <a href="https://gobrik.com" target="_blank">GoBrik.com</a> untuk mendukung dan menghubungkan ecobricker dan komunitas mereka.</p><br>
 
-					<p><b>Reports & Whitepapers</b></p>
-					<p>We actively developing and publishing reports, research and white papers on ecobrick and plastic transition topics.</p><br>
+				<p><b>Brikcoin Manual Blockchain</b></p>
+				<p>
+				GEA telah mengembangkan dan kini menjaga <a href="brikcoins.php">Brikcoin manual blockchain</a> sebagai sarana untuk menilai sekuestrasi plastik dalam ecobrick dan mengembangkan medium pertukaran yang didasarkan pada nilai ekologis. Brikcoin dihasilkan dan dipertukarkan di aplikasi web GoBrik.</p><br>
 
-					<p><b>Ecobrick Educational Resources</b></p>
+				<p><b>Praktik Terbaik Ecobrick</b></p>
+				
+				<p>Kami menjaga praktik terbaik dan standar untuk<a href="what.php">pembuatan ecobrick</a> dan <a href="build.php">aplikasi bangunan</a> mereka.</p><br>
 
-					<p>The GEA develops and deploys resources such as <a href="https://youtube.com/ecobricks">video tutorials</a> on our youtube channel, photocopiable PDF guidebooks,  Ecobrickable Design parameters and <a href="/trainings">ecobrick trainings</a>.</p><br>
+				<p><b>Circles - Ecobrick Community Server</b></p>
 
-					<p><b>Plastic Accounting Coeffecients</b></p>
+				<p>Kami menjaga <a href="https://circles.ecobricks.org" target="_blank">GEA Circles</a> sebagai alternatif media sosial untuk komunitas ecobricker global.</p><br>
+			</div>
+		</div>
+		<p><b>Laporan & Whitepaper</b></p>
+			<p>Kami secara aktif mengembangkan dan menerbitkan laporan, penelitian, dan buku putih tentang topik transisi ecobrick dan plastik.</p><br>
 
-					<p>The GEA researches, publishes and maintains <a href="coefficients.php">standards for plastic equivalencies</a> for regenerative accounting.</a>.</p><br>
+			<p><b>Sumber Daya Edukasi Ecobrick</b></p>
 
-					<p><b>Academic, Scientific and Indigenous People's Dialogue & Support</b></p>
+			<p>GEA mengembangkan dan menerapkan sumber daya seperti <a href="https://youtube.com/ecobricks">video tutorial</a> di saluran youtube kami, buku panduan PDF yang dapat difotokopi, parameter Desain Ecobrickable, dan <a href= "/trainings">pelatihan ecobrick</a>.</p><br>
 
-					<p>The GEA dialogues with the scientists, academics and indigenous leaders to support their work reasearching plastic pollution and developing plastic transition solutions.</a>.</p><br>
-				</div>
+			<p><b>Koefisien Akuntansi Plastik</b></p>
+
+			<p>GEA meneliti, menerbitkan, dan mempertahankan <a href="coefficients.php">standar kesetaraan plastik</a> untuk akuntansi regeneratif.</a>.</p><br>
+
+			<p><b>Dialog & Dukungan Akademik, Ilmiah, dan Masyarakat Adat</b></p>
+
+			<p>GEA berdialog dengan para ilmuwan, akademisi, dan pemimpin masyarakat adat untuk mendukung pekerjaan mereka meneliti polusi plastik dan mengembangkan solusi transisi plastik.</a>.</p><br>
+			</div>
 			</div>
 
 
 			<div class="reg-content-block" id="block5">
 
-				<div class="opener-header">	
-					<div class="opener-header-text">
-						<h4>Contact Us</h4>
-						<h5>Connect with us directly.</h5>
-						<br>
-					</div>
+			<div class="opener-header">
+			<div class="opener-header-text">
+			<h4>Hubungi Kami</h4>
+			<h5>Hubungi kami secara langsung.</h5>
+			<br>
+			</div>
 
-					<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
-				</div>
+			<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
+			</div>
 
-				<div id="preclosed5">
-						
+			<div id="preclosed5">
 				
 					<br>
 
@@ -288,7 +268,7 @@ dan diberi upah secara profesional untuk layanan ini oleh kelompok-kelompok masy
 
 					<p><b>Circles - Ecobrick Community Server</b></p>
 
-					<p>You can also connect with us directly on <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank">GEA Circles</a>, our social media alternative for the global ecobricker community</p><br>
+					<p>Anda juga dapat terhubung langsung dengan kami di <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank">Circles GEA</a>, alternatif media sosial kami untuk komunitas ecobricker global</p><br>
 
 					
 				</div>
@@ -299,18 +279,18 @@ dan diberi upah secara profesional untuk layanan ini oleh kelompok-kelompok masy
 			<div class="page-paragraph">
 				<br><br>
 
-				<p><b>Vision</b></p>
-				<p>We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</p><br>
+				<p><b>Visi</b></p>
+<p>Kami membayangkan Transisi di Rumah Tangga, Komunitas, dan Perusahaan kami dari Plastik menjadi Lebih Hijau Harmoni dengan Siklus Bumi.</p><br>
 
-				<p><b>Our Mission</b></p>
-				<p>To raise Ecological Consciousness through the spread of Ecobricking and the transformation of global plastic into local solutions.</p><br>
+<p><b>Misi Kami</b></p>
+<p>Untuk meningkatkan Kesadaran Ekologis melalui penyebaran Ecobricking dan transformasi plastik global menjadi solusi lokal.</p><br>
 
-				<p><b>Dedication</b></p>
-				<p>Our work is dedicated to our Children, our Children’s Children… and the children of all species, for all time.</p><br>
+<p><b>Dedikasi</b></p>
+<p>Pekerjaan kami didedikasikan untuk Anak-anak kami, Anak-anak dari Anak-anak kami… dan anak-anak dari semua spesies, untuk selamanya.</p><br>
 
-				<p><i>Together we can be the transition to ever increasing harmony with the cycles of life.</i></p>
+<p><i>Bersama kita bisa menjadi transisi menuju keharmonisan yang semakin meningkat dengan siklus kehidupan.</i></p>
 
-			</div>
+</div>
 
 
 
@@ -323,23 +303,23 @@ dan diberi upah secara profesional untuk layanan ini oleh kelompok-kelompok masy
 			
 			<div id="side-module-desktop-mobile">
 			<img src="webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
-					<h4>Annual Ecological Accounting</h4>
-					<h5>Every year we track, account and disclose our ecological impact in an annual Regenerativity Report.</h5><br>
-					<a class="module-btn" href="regenreports.php">Access Report</a><br><br>
-				</div>
+			<h4>Akuntansi Ekologi Tahunan</h4>
+			<h5>Setiap tahun kami melacak, menghitung, dan mengungkapkan dampak ekologis kami dalam Laporan Regenerasi tahunan.</h5><br>
+			<a class="module-btn" href="regenreports.php">Laporan Akses</a><br><br>
+			</div>
 
 
-				<div id="side-module-desktop-mobile">
-					<img src="webp/for-earth500px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
-					<h4>For-Earth Enterprise</h4>
-					<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-					
-				</div>
+			<div id="side-module-desktop-mobile">
+			<img src="webp/for-earth500px.webp" width="80%" alt="For-Earth Enterprise melalui eco bricking">
+			<h4>For-Earth Enterprise</h4>
+			<h5>Dengan mengungkapkan dampak karbon, plastik, dan keanekaragaman hayati kami dan dengan memastikan bahwa semuanya ramah lingkungan, GEA berkomitmen untuk Perusahaan untuk Bumi</h5><br>
 
-				<div id="side-module-desktop-mobile">
-					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
-					<h4>Global Ecobrick Alliance</h4>
-					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
+			</div>
+
+			<div id="side-module-desktop-mobile">
+			<img src="webp/gea-logo-400px.webp" width="90%" alt="Global Eco Brick Alliance">
+			<h4>Aliansi Ecobrick Global</h4>
+			<h5>GEA didedikasikan untuk mempercepat transisi plastik. Kami memimpin aplikasi GoBrik dan blockchain Brikcoin.</h5><br>
 					
 				</div>
 
