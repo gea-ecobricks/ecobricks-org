@@ -15,7 +15,9 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Richard Goldsmith.</div>
 		<div class="splash-sub">— GEA Trainer</div>
 	</div>
-	<div class="splash-image"><img src="photos/richard-goldsmith.webp" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="photos/richard-goldsmith.webp" style="width: 80%; width: 70%;
+border: 10px solid #666;
+border-radius: 10px;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -30,7 +32,7 @@ Content Page template: v.1.0.1-->
 
 			<div class="lead-page-paragraph">
 				
-				<p>It is with a heavy heart that I share the news of our friend and colleague Richard Goldsmith's passing.  Richard, one of our UK trainers, was known to many of you through his work on the GEA's development team. Personally, myself and the other team members, met with with him almost every Tuesday for the last two or three years. </p>
+				<p>It is with a heavy heart that we share the news of our friend and colleague Richard Goldsmith's passing.  Richard, one of our UK trainers, was known to many of you through his work on the GEA's development team. Personally, myself and the other team members, met with with him almost every Tuesday for the last two or three years. </p>
 				</div>
 
 			<div class="page-paragraph">
@@ -97,14 +99,14 @@ Content Page template: v.1.0.1-->
                 <div id="side-module-desktop-mobile">
 					<img src="https://ecobricks.org/briks/ecobrick-182514-file.jpeg" width="80%" alt="For-Earth Enterprise through eco bricking">
 					<h4>And Colorful...</h4>
-					<h5>Just like his ecobricks.</h5><br><br>
+					<h5>Just like his talks.</h5><br><br>
 
 
                         <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no=182514">View</a>
 
 				</div>
 
-
+                </div>
                 
 
 		</div>
@@ -119,8 +121,6 @@ Content Page template: v.1.0.1-->
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
 
 
 </div>
