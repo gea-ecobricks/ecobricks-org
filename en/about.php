@@ -159,7 +159,7 @@ Content Page template: v.1.0.1-->
                         <div class="main2">
 								<p><b>1. For-Earth Service</b></p>
 
-								<p>Our enterprise follows the <a href="/plastic">Earth's example</a> in generating ecological value.  To do so we strive to follow the principles of <a href="https://earthen.io/the-earthen-ways/" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness, and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p><br>
+								<p>Our enterprise follows the <a href="/plastic">Earth's example</a> in generating ecological value.  To do so we strive to follow the principles of <a href="https://book.earthen.io/en/earthen.php" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness, and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p><br>
 
                         </div>
 							<div class="side2"><img src="webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
@@ -321,25 +321,16 @@ Content Page template: v.1.0.1-->
 		<div class="side">
 
 		
-			
-			<div id="side-module-desktop-mobile">
-			<img src="webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
-					<h4>Annual Ecological Accounting</h4>
-					<h5>Every year we track, account and disclose our ecological impact in an annual Regenerativity Report.</h5><br>
-					<a class="module-btn" href="regenreport.php">Access Report</a><br><br>
-				</div>
+		<?php require_once ("side-modules/about-gea.php");?>
+
+<?php require_once ("side-modules/eco-accounting.php");?>
+
+<?php require_once ("side-modules/transition-module.php");?>
+
+<?php require_once ("side-modules/for-earth.php");?>
 
 
-				<div id="side-module-desktop-mobile">
-					<img src="webp/for-earth500px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
-					<h4>For-Earth Enterprise</h4>
-					<h5>By disclosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-					
-				</div>
 
-				<?php include 'ecobricks_env.php';?> 
-				<?php require_once ("side-modules/brikcoin-live-values.php");?>
-				<?php 	$conn->close();?>
 
 		</div>
 
