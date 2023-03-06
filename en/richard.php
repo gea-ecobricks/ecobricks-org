@@ -58,12 +58,19 @@ Content Page template: v.1.0.1-->
 
 <p>We will miss him dearly. </p>
 
+<img src="photos/richard-circle.jpg" width="100%" alt="Richard in our ToT Talking circle">
+
 </div>
 
 		
 		</div>
 
 		<div class="side">
+
+        <div id="side-module-desktop-mobile">
+					<img src="photos/richard-talking.jpg" width="80%" alt="richard talking about plastic">
+					<h4>Richard Goldsmith</h4>
+					<h5>Richard during his practicum at our 2019 Newforest UK Training of Trainers.</h5>
 
 		
 		<div id="side-module-desktop-mobile">
