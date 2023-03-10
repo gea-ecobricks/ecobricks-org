@@ -3,8 +3,8 @@
 
     <div id="slider3">
 
-    <!--<div id="slider-image"><img src="/webp/brikchain-450px.webp" style="width: 85%;" alt="Brikchain Explorer Live">
-        </div>-->
+   <div id="slider-image"><img src="/webp/earthservice-400px" style="width: 85%;" alt="Brikchain Explorer Live">
+        </div>
 		
         <div id="slider-textbox">
             <div id="slider-heading">The Power of Now</div>
