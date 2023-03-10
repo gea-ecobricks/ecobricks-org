@@ -10,7 +10,7 @@
             <div id="slider-date">Speakers, Events & Workshops</div>
             <div id="slider-body">23-30 April 2023</div>
             <a class="slider-btn" href="register.php">Register</a>	
-		    </div>
+		 </div>
 	
     </div>
 
