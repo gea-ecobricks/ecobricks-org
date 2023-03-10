@@ -42,7 +42,7 @@ Content Page template: v.1.0.1-->
 
 			<p>More than just numbers in ledger, every brikcoin correlates directly with plastic that has been secured from from polluting the biosphere— and permanently removed from high-emissions industries. In the same way that ancient gold and silver coins have a value in and of themselves, Brikcoins are based on the ecological value that they represent.</p>
 
-			<p>We call this a <i>proof-of-value, manual blockchain</i></p>
+			<p>We call this a <i>proof-of-value, manual blockchain.</i></p>
          
 
         </div>
@@ -70,7 +70,7 @@ Content Page template: v.1.0.1-->
                 		<p>Two billion years ago, Earth's atmosphere was full of carbon dioxide.  The planet's climate was unstable and its surface barren.  However, steadily the atmosphere's CO2 was cycled into carbon-based life, which, generation after fallen generation, was buried and secured into the ground.  As more and more <a href="/plastic">carbon ended up sequestered</a>, there was less and less CO2 in the atmosphere.  Steadily the climate stabilized and Earth's biosphere blossomed.</p>
 
 						</div>
-						<div class="side2"><img src="webp/earthen-400px.webp" width="80%">
+						<div class="side2"><img src="webp/earth-floating-500px.webp" width="80%">
 						</div>
 					</div>
 					<div class="row2">
@@ -105,7 +105,7 @@ Content Page template: v.1.0.1-->
 
 						<h5>ℹ️ More on: <a href="/aes">AES Plastic.</a></h5>
 
-					<h5>ℹ️ The theory of Earthen Ethics, based on following <a href="https://book.earthen.io" target="_blank">Earth's example.</a></h5>
+					<h5>ℹ️ The theory of <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a> of following Earth's example.</a></h5>
 				
                 </div>
             </div>
@@ -321,6 +321,7 @@ Content Page template: v.1.0.1-->
 		
 
 		<div class="side">
+			
 		<?php include 'ecobricks_env.php';?> 
 		<?php require_once ("side-modules/brikcoin-live-values.php");?>
 		<?php 	$conn->close();?>
