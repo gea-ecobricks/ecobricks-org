@@ -28,7 +28,7 @@ _END;?>
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/welcome.css?v1.3">-->
 
 <!-- This loads the page's meta tags:  *be sure to add the page's name!*-->
-<?php require_once ("meta/symp-$lang.php");?>
+<?php require_once ("meta/symposium-$lang.php");?>
 
 <!--This loads the page's header-->
 
