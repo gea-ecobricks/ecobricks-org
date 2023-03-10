@@ -3,12 +3,12 @@
 
     <div id="slider1">
 
-		<div id="slider-image"><img src="svgs/earth-home-animated-v4.svg?v=2" alt="Regenerative principles" width="100%" height="102%" style="min-width:175px;">
-        </div>
+		<!--<div id="slider-image"><img src="svgs/earth-home-animated-v4.svg?v=2" alt="Regenerative principles" width="100%" height="102%" style="min-width:175px;">
+        </div>-->
 		
-        <div id="slider-textbox">
+        <div id="slider-textbox" style="text-align: center!important">
             <div id="slider-heading">Earthen Ethics Symposium</div>
-            <div id="slider-date">GEA News</div>
+            <div id="slider-date">Speakers, Events & Workshops</div>
             <div id="slider-body">23-30 April 2023</div>
             <a class="slider-btn" href="register.php">Register</a>	
 		    </div>

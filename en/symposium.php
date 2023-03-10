@@ -4,6 +4,40 @@
  
 <?php require_once ("includes/welcome-inc.php");?>
 
+<!-- Display the countdown timer in an element -->
+<p id="countdown"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("April 23, 2023 12:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
 
 <!--MAIN CONTENT-->
 		
@@ -30,7 +64,7 @@
 
 			<?php require_once ("slides/slide-3-$lang.php");?>
 
-			<?php require_once ("slides/slide-4-$lang.php");?>
+			<?php //require_once ("slides/slide-4-$lang.php");?>
 		
 		</div>
 
@@ -40,6 +74,7 @@
 	 	<div id="main-content">
 			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<div class="big-header">Earthen Ethics Symposium</div>
+			<h2 class="countdown"></h2>
 			<div class="sub-text">
 			<p>Worldwide we are all facing the challenge of poisoning our home.
 The aim of this  symposium is to gather people, game changers and experts from different countries, with different stories and different lived experiences into an open space to talk about how we reintegrate with our planet.</p>
@@ -62,37 +97,37 @@ The aim of this  symposium is to gather people, game changers and experts from d
 			<div class="big-header">Composting</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
-			<p>Ecobricking follows Earth's example of concentrating and securing carbon out of the biosphere.  Following the science of plastic degradation and Earthen principles, ecobricking is a non-capital, net-zero means of plastic sequestration.</p>
-			</div>
+			<p>Composting is mother nature's waste management system.  All organic things compost naturally.  The human race can emulate this practice.  Anything from piling leaves to wormeries are considered composting.</p>
 
-			<div class="big-header">Composting</div>
-			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
-			<div class="sub-text">
-			<p>Composting is mother nature's waste management system.  All organic things compost naturally.  The human race can emulate this practice.  Anything from piling leaves to wormeries are considered composting.
+<p>Watch Lucie Mann, New Forest Aquaponics CIC and Global Ecobrick Alliance Core Team explain how she composts all sorts of food waste from the food waste programme being run in the New Forest, UK.</p>
 
-Watch Lucie Mann, New Forest Aquaponics CIC and Global Ecobrick Alliance Core Team explain how she composts all sorts of food waste from the food waste programme being run in the New Forest, UK.
-
-As Lucie and her family run an aquaponics farm, the composting she undertakes is part of a fully circular permaculture ecosystem.
-</p>
+<p>As Lucie and her family run an aquaponics farm, the composting she undertakes is part of a fully circular permaculture ecosystem.</p>
 			</div>
 
 			<div class="big-header">Permaculture</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
-			<p>Permaculture is the development of sustainable and self-efficient agricultural ecosystems.
-
-We have [speaker name] presenting our permaculture offering
-
-Like Mother Nature permaculture is a mandelic act of mindful recycling
+			<p>Permaculture is the development of sustainable and self-efficient agricultural ecosystems. We have [speaker name] presenting our permaculture offering.  Like Mother Nature permaculture is a mandalic act of mindful recycling
 </p>
 			</div>
 
-			<div class="big-header">Mandalic Design</div>
+			<div class="big-header">Mandalic Collaboration</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
 			<p>To improve our connection with the earth’s natural cycles we practise Mandala design principles.
 
 Join Ani Himawati in a mindful mandala meditation.  Training our minds to think circularly through artistic impressions using natural resources.
+
+</p>
+			</div>
+
+			<div class="big-header">Food Poverty/Food Banks</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>Despite there being more than enough food in the world to feed everyone one on the planet, many are still facing food poverty.  Some people are fortunate enough to be able to access food banks (UK) to reduce the impact.</p>
+
+			<p>Join Waterside Food Waste project whilst they share how they set up and operate in their local community and the invaluable impact it has had on the people who live in perceived affluent area but has deep pockets of people living with food poverty due to the cost of living.</p>
+
 
 </p>
 			</div>
