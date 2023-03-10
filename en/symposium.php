@@ -59,11 +59,47 @@ The aim of this  symposium is to gather people, game changers and experts from d
 		<div id="main-content">
 			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=5" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
 			</div>
-			<div class="big-header">Following Earth's Example</div>
+			<div class="big-header">Composting</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
 			<p>Ecobricking follows Earth's example of concentrating and securing carbon out of the biosphere.  Following the science of plastic degradation and Earthen principles, ecobricking is a non-capital, net-zero means of plastic sequestration.</p>
 			</div>
+
+			<div class="big-header">Composting</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>Composting is mother nature's waste management system.  All organic things compost naturally.  The human race can emulate this practice.  Anything from piling leaves to wormeries are considered composting.
+
+Watch Lucie Mann, New Forest Aquaponics CIC and Global Ecobrick Alliance Core Team explain how she composts all sorts of food waste from the food waste programme being run in the New Forest, UK.
+
+As Lucie and her family run an aquaponics farm, the composting she undertakes is part of a fully circular permaculture ecosystem.
+</p>
+			</div>
+
+			<div class="big-header">Permaculture</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>Permaculture is the development of sustainable and self-efficient agricultural ecosystems.
+
+We have [speaker name] presenting our permaculture offering
+
+Like Mother Nature permaculture is a mandelic act of mindful recycling
+</p>
+			</div>
+
+			<div class="big-header">Mandalic Design</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>To improve our connection with the earth’s natural cycles we practise Mandala design principles.
+
+Join Ani Himawati in a mindful mandala meditation.  Training our minds to think circularly through artistic impressions using natural resources.
+
+</p>
+			</div>
+
+
+
+
 			<a href="sequest.php" button class="main-button">Plastic Sequestration</a>
 			<h6><a href="/ayyew">Ayyew Inspired</a> | <a href="/circular">Circular by Design</a> | <a href="/plastic">Towards Transition</a> | <a href="/principles">Regenerative</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
 		</div>
