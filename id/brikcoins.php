@@ -116,8 +116,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-						<h4>Proof of Value</h4>
-						<h5>Brikcoins are generated through the manual process of authenticating ecobrick sequestered plastic.</h5>   
+					<h4>Bukti Nilai</h4>
+					<h5>Brikcoin dihasilkan melalui proses manual mengautentikasi plastik yang diasingkan ecobrick.</h5> 
 						<br>
                     </div>
 
@@ -128,9 +128,9 @@ Content Page template: v.1.0.1-->
 
                		 <div class="row">
 						<div class="main2">
-							<p>Brikcoins are based on the ecological value of <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank" >sequestered plastic</a>— a concept which is based on following <a href="/plastic">Earth's example</a> of carbon care (the principles of <a href="https://earthen.io/imagine">Earthen ethics</a>).  Ecobricked plastic, in order to be considered sequestered must meet the <a href="sequest">criteria of plastic sequestration</a> developed by the <a href="about.php">Global Ecobrick Alliance.</a>  </p>
-							
-							<p>The final criteria of plastic sequestration, is that of <a href="sequest.php/#auth">independent authentication:</a> confirmation that that all the other criteria have been met.  In order to authenticate ecobricks that have been made around the world as sequestered plastic, the GEA maintains the <a href="/gobrik">GoBrik platform</a>.  There every ecobrick logged is peer reviewed by the ecobricker community to confirm whether it meets <a href="what.php">GEA ecobrick standards</a>.</p>
+						<p>Brikcoin didasarkan pada nilai ekologi <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">plastik yang diasingkan</a>— sebuah konsep yang didasarkan pada hal berikut <a href="/plastic">Contoh bumi</a> tentang kepedulian terhadap karbon (prinsip <a href="https://earthen.io/imagine">etika Bumi</a>). Plastik ecobrick, agar dapat dianggap tersingkir harus memenuhi <a href="sequest">kriteria sekuestrasi plastik</a> yang dikembangkan oleh <a href="about.php">Global Ecobrick Alliance.</a> < /p>
+
+<p>Kriteria terakhir sekuestrasi plastik, adalah <a href="sequest.php/#auth">autentikasi independen:</a> konfirmasi bahwa semua kriteria lainnya telah terpenuhi. Untuk mengautentikasi ecobrick yang telah dibuat di seluruh dunia sebagai plastik yang diasingkan, GEA mempertahankan <a href="/gobrik">platform GoBrik</a>. Di sana, setiap log ecobrick ditinjau oleh komunitas ecobrick untuk memastikan apakah memenuhi <a href="what.php">standar ecobrick GEA</a>.</p>
 
 						</div>
 						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="85%">
@@ -139,7 +139,7 @@ Content Page template: v.1.0.1-->
 					<div class="row">
 						<div class="main2">
 						
-						<p>Only when the peer review of an ecobrick is successful, is the plastic within it deemed have been sequestered.  This fulfils the final criteria of plastic sequestration (authentication), thereby both validating and finalizing the ecobrick's ecological value.  The brikcoins that represent this value are then generated in a block on the <a href="brikchain.php">brikchain</a>.</p>
+						<p>Hanya jika tinjauan sejawat terhadap ecobrick berhasil, plastik di dalamnya dianggap telah diasingkan. Hal ini memenuhi kriteria akhir sekuestrasi plastik (autentikasi), sehingga memvalidasi dan memfinalisasi nilai ekologis ecobrick. Brikcoin yang mewakili nilai ini kemudian dihasilkan dalam sebuah blok di <a href="brikchain.php">brikchain</a>.</p>
 									
 						</div>
 						<div class="side2"><img src="webp/2-brikcoins-450px.webp" width="90%">
@@ -152,8 +152,8 @@ Content Page template: v.1.0.1-->
 
 						
 						
-						<p>In this way, Brikcoins avoid another pitfall of other blockhain currencies.  Rather than favor those who have capital to invest, as a non-capital, manual and community powered process, brikcoins favors those willing to work with their hands to make a meaningful ecological contribution regardless of their wealth or location.</p>
-						</div>
+						<p>Dengan cara ini, Brikcoin menghindari jebakan lain dari mata uang blockhain lainnya. Alih-alih mendukung mereka yang memiliki modal untuk diinvestasikan, sebagai proses non-kapital, manual, dan bertenaga komunitas, brikcoin mendukung mereka yang bersedia bekerja dengan tangan mereka untuk memberikan kontribusi ekologi yang berarti terlepas dari kekayaan atau lokasi mereka.</p>
+</div>
 
 						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="150px"></div>
 					</div>
@@ -167,8 +167,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>How it works</h4>
-                    <h5>Brikcoins are generated and verified by human labour.</h5>   
+                    <h4>Cara kerjanya</h4>
+                     <h5>Brikcoin dihasilkan dan diverifikasi oleh tenaga manusia.</h5> 
                     <br>
                     </div>
 
@@ -182,28 +182,28 @@ Content Page template: v.1.0.1-->
 
 					
 
-					<p><b>Step 1: Ecobricking</b></p>
+					<p><b>Langkah 1: Ecobricking</b></p>
 
-					<p>The brikcoin blockchain revolves around the ecobricking of used plastic.  <a href="what">Ecobricking</a> is an established means of securing plastic. It is a time-consuming, labor-intensive process that is most effectively done manually.  If done <a href="/how">properly</a> an ecobrick can be used for long-term <a href="build">building applications</a>; ensuring that its plastic is secured from industrial processing and release into the biosphere.</p>
+<p>Brikcoin blockchain berputar di sekitar ecobricking dari plastik bekas. <a href="what">Ecobricking</a> adalah cara yang sudah mapan untuk mengamankan plastik. Ini adalah proses yang memakan waktu dan padat karya yang paling efektif dilakukan secara manual. Jika dilakukan <a href="/how">dengan benar</a> sebuah ecobrick dapat digunakan untuk <a href="build">membangun aplikasi</a> jangka panjang; memastikan bahwa plastiknya diamankan dari pemrosesan industri dan dilepaskan ke biosfer.</p>
 
-					<p>Once complete, ecobrickers log their ecobrick on the <a href="/gobrik">GoBrik</a> platform.  A serial number is given by the system and the ecobrickers enscribes this permanently on the ecobrick. A photo of the ecobrick with the serial number is taken and the logging completed.<p>
-					
-					<p>The logged ecobrick is then automatically queued for review.  The ecobricker is awarded credits that allow them to validate other ecobricks that have been logged.</p>
+<p>Setelah selesai, ecobrick mencatat ecobrick mereka di platform <a href="/gobrik">GoBrik</a>. Nomor seri diberikan oleh sistem dan para ecobrick menuliskannya secara permanen di ecobrick. Foto ecobrick dengan nomor seri diambil dan logging selesai.<p>
 
-					<br><br>
-					<p><b>Step 2: Validation</b></p>
+<p>Ecobrick yang telah dicatat kemudian secara otomatis diantrekan untuk ditinjau. Ecobrick diberikan kredit yang memungkinkan mereka memvalidasi ecobrick lain yang telah ditebang.</p>
 
-					<p>The GEA has defined standards for an ecobrick. Only when a packed bottle meets these standards is it considered an ecobrick, and only then is the plastic it contains considered sequestered.</p> 
+<br><br>
+<p><b>Langkah 2: Validasi</b></p>
 
-					<p>Using one validation credit, ecobrickers are entitled to validate one ecobrick from the queue. The validator proceeds through a three step process of reviewing ecobrick, to ensure that it meets the criteria and standards of plastic sequestration. In total, each ecobrick is reviewed by three validators in the community.</p>
-					
-					<br><br>
-					<p><b>Step 3: Authentication</b></p>
+<p>GEA telah menetapkan standar untuk ecobrick. Hanya jika botol yang dikemas memenuhi standar ini barulah dianggap sebagai ecobrick, dan barulah plastik yang dikandungnya dianggap diasingkan.</p>
 
-					<p>An algorithm calculates a validation score based on the review. The three validation scores are averaged and if the average exceeds the minimum threshold, the ecobrick is authenticated. Brikcoins are then generated and issued to the validators and the <a href="https://gobrik.com/#cr">GoBrik Central Reserve</a> based on the weight of the ecobrick.</p>
+<p>Dengan menggunakan satu kredit validasi, ecobrick berhak memvalidasi satu ecobrick dari antrean. Validator melanjutkan melalui proses tiga langkah peninjauan ecobrick, untuk memastikan bahwa ecobrick memenuhi kriteria dan standar sekuestrasi plastik. Secara total, setiap ecobrick ditinjau oleh tiga validator di komunitas.</p>
 
-					<p>The amount of Brikcoins generated is a function of the weight of the authenticated ecobricked plastic.  This 'plastic standard' is pegged to a ratio of 1 BRK (ß) to 100g of AES plastic. For example, a 322g ecobrick will generate 3.22 ß, while a 0.41 kg ecobrick will generate 4.10 ß.  As the blockchain operates however, this valuation fluctuates.  See the live <a href="brikchain.php">Brikchain Explorer</a> for the latest valuation.</p>
-					<br><br>
+<br><br>
+<p><b>Langkah 3: Autentikasi</b></p>
+
+<p>Algoritme menghitung skor validasi berdasarkan ulasan. Ketiga skor validasi tersebut dirata-ratakan dan jika rata-rata tersebut melebihi ambang minimum, ecobrick tersebut diautentikasi. Brikcoin kemudian dibuat dan diterbitkan ke validator dan <a href="https://gobrik.com/#cr">GoBrik Central Reserve</a> berdasarkan berat ecobrick.</p>
+
+<p>Jumlah Brikcoin yang dihasilkan merupakan fungsi dari berat plastik ecobrick yang diautentikasi. 'Standar plastik' ini dipatok dengan rasio 1 BRK (ß) untuk 100g plastik AES. Misalnya, ecobrick 322g akan menghasilkan 3,22 ß, sedangkan ecobrick 0,41 kg akan menghasilkan 4,10 ß. Namun, karena blockchain beroperasi, penilaian ini berfluktuasi. Lihat <a href="brikchain.php">Brikchain Explorer</a> langsung untuk penilaian terbaru.</p>
+<br><br>
 
                 </div>
             </div>
@@ -214,8 +214,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Centralized Decentralization</h4>
-                    <h5>The Brikcoin blockchain is presided over by the Global Ecobrick Alliance</h5>   
+					<h4>Desentralisasi Terpusat</h4>
+                     <h5>Blockchain Brikcoin dipimpin oleh Global Ecobrick Alliance</h5>
                     <br>
                     </div>
 
@@ -227,7 +227,7 @@ Content Page template: v.1.0.1-->
 					<div class="row">
 						<div class="main2">
 
-							<p>The brikcoin blockchain is developed and maintained by the <a href="about">Global Ecobrick Alliance</a> in pursuit of its mission and vision of plastic transition. As a not-for profit Earth Enterprise, the GEA is guided by a mandate of achieving net-green ecological impacts and redistributing excess revenue back to the global ecobrick movement.</p>
+						<p>Blockchain Brikcoin dikembangkan dan dikelola oleh <a href="about">Global Ecobrick Alliance</a> dalam mengejar misi dan visi transisi plastik. Sebagai Earth Enterprise nirlaba, GEA dipandu oleh mandat untuk mencapai dampak ekologi hijau bersih dan mendistribusikan kembali kelebihan pendapatan ke gerakan ecobrick global.</p>
 						</div>
 						
 						<div class="side2">
@@ -237,13 +237,13 @@ Content Page template: v.1.0.1-->
 					
 					<div class="row2">
 						<div class="main3">
-							<p>Through a combination of enterprise structure and server infrastructure, we aim to minimize our grey ecological impacts and maximize of our collective green impact.</p>
+						<p>Melalui kombinasi struktur perusahaan dan infrastruktur server, kami bertujuan untuk meminimalkan dampak ekologis abu-abu kami dan memaksimalkan dampak hijau kolektif kami.</p>
 						</div>
 						<div class="side3"><img src="webp/gea-logo-400px.webp" width="130px">
 						</div>
 					</div>
 								
-					<p>The brikcoin blockchain is permissionless, meaning that its ledger is centralized on GEA managed databases. This structure was elected to minimize the impact of the servers supporting the blockchain, while at the same time maximize the blockchain's empowerment of the decentralized global ecobrick movement.</p>
+					<p>Brikcoin blockchain tidak memiliki izin, artinya buku besarnya terpusat pada database yang dikelola GEA. Struktur ini dipilih untuk meminimalkan dampak server yang mendukung blockchain, sekaligus memaksimalkan pemberdayaan blockchain terhadap gerakan ecobrick global yang terdesentralisasi.</p>
 				</div>
 			</div>
 
@@ -256,8 +256,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>White Paper</h4>
-                    <h5>The Commodification of Sequestered Plastic</h5>   
+                    <h4>Laporan Resmi / White Paper</h4>
+                     <h5>Komodifikasi Plastik Diasingkan</h5>  
                     <br>
                     </div>
 
@@ -269,8 +269,8 @@ Content Page template: v.1.0.1-->
 				<div class="row">
 						<div class="main2">
 
-                		<p><p>On Earth Day 2020, the GEA released version 1.0 of the <i>Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic</i>.  The 32 page document is the work of half a dozen contributors specializing in fields ranging from micro-plastic research, alternative currencies, philosophy, community development and database development.</p>
-						<p>The white paper lays out the framework for basing the brikcoin currency on the ecological value of plastic sequestration.</p>
+                		<p>Pada Hari Bumi 2020, GEA merilis <i>Buku Putih Ecobricks & Brikcoin versi 1.0, tentang Komodifikasi Plastik yang Diasingkan Secara Manual</i>. Dokumen setebal 32 halaman ini adalah karya setengah lusin kontributor yang berspesialisasi dalam berbagai bidang mulai dari penelitian mikroplastik, mata uang alternatif, filosofi, pengembangan komunitas, dan pengembangan basis data.</p>
+<p>Laporan teknis menjabarkan kerangka kerja untuk mendasarkan mata uang brikcoin pada nilai ekologis dari penyerapan plastik.</p>
 
 						</div>
 						<div class="side2"><img src="pngs/White-Paper-Icon2-400px.png" width="100%">
@@ -278,14 +278,14 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>📥 Download: <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic</a><br><h5>📄 GEA White Paper | PDF | 2.1 MB</a></p>
+						<p>📥 Unduh: <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic</a><br><h5>📄 GEA White Paper | PDF | 2.1 MB</a></p>
 						
 						</div>
 						<div class="side3"><img src="pngs/White-Paper-Icon2-400px.png" width="150px">
 						</div>
 					</div>
 				 
-					<p>The white paper is updated as of March 2022 to reflect three years of beta-usage by our 50,000 gobrik users, over 150,000 ecobricks and a pool of over 250,000 ß (as of March, 2022).</p><br>
+					<p>Laporan resmi diperbarui per Maret 2022 untuk mencerminkan penggunaan beta selama tiga tahun oleh 50.000 pengguna gobrik kami, lebih dari 150.000 ecobrick, dan kumpulan lebih dari 250.000 ß (per Maret 2022).</p><br >
 
                 </div>
             </div>
@@ -298,14 +298,14 @@ Content Page template: v.1.0.1-->
                 
                     <div class="main2">
                          <br><br>
-						 <h3>The Brikchain</h3>
+						 <h3>Brikchain</h3>
                         
-                         <p>The proof-of-value manual blockchain that powers Brikcoins is affectionately know as the <a href="brikchain.php">the brikchain</a> it is the full ledger of transactions generated by the authentication of ecobricked plastic around on the world on the GoBrik platform.  GoBrik and the Brikchain are maintained and developed by the Global Ecobrick Alliance as a for-Earth, non-profit enterprise.</p>
+                          <p>Blockchain manual proof-of-value yang menggerakkan Brikcoins sangat dikenal sebagai <a href="brikchain.php">brikchain</a> itu adalah buku besar transaksi yang dihasilkan oleh otentikasi plastik ecobricked di sekitar di dunia pada platform GoBrik. GoBrik dan Brikchain dikelola dan dikembangkan oleh Global Ecobrick Alliance sebagai perusahaan nirlaba untuk Bumi.</p>
 
-						<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-						<br><br>
-						<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
-						<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+<p>Sebagai proses manual non-kapital, Brikcoins mendukung siapa pun di mana saja yang mau bekerja dengan tangan mereka untuk memberikan kontribusi ekologis yang bermakna.</p>
+<br><br>
+<a class="action-btn-blue" href="brikchain.php">🔎 Jelajahi Brikchain</a>
+<p style="font-size: 0.85em; margin-top:20px;">Rangkaian langsung transaksi dan ecobrick.</a></p>
                     
                     </div>
 
