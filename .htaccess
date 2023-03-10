@@ -184,6 +184,9 @@ Redirect /coefficients/ /en/coefficients.php
 Redirect /coeffecients /en/coefficients.php
 Redirect /coeffecients /en/coefficients.php
 
+RedirectMatch "^/richard\/?$" "/en/richard.php"
+RedirectMatch "^/symposium\/?$" "/en/symposium.php"
+
 
 
 RedirectMatch "^/faq\/?$" "/en/faqs.php"

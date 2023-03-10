@@ -4,8 +4,6 @@
  
 <?php require_once ("includes/welcome-inc.php");?>
 
-<!-- Display the countdown timer in an element -->
-<p id="countdown"></p>
 
 <script>
 // Set the date we're counting down to
@@ -64,7 +62,7 @@ var x = setInterval(function() {
 
 			<?php require_once ("slides/slide-3-$lang.php");?>
 
-			<?php //require_once ("slides/slide-4-$lang.php");?>
+			
 		
 		</div>
 
