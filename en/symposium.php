@@ -70,7 +70,7 @@ var x = setInterval(function() {
 
 	<!--FIRST CONTENT SECTION-->
 
-	<div id="content-sect1">
+	<div id="content-sect1" style="margin-top: 90vh;">
 	 	<div id="main-content">
 			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<div class="big-header">Earthen Ethics Symposium</div>
