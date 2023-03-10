@@ -202,7 +202,7 @@ Join Ani Himawati in a mindful mandala meditation.  Training our minds to think 
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("footers/footer-$lang.php");?>
+	<?php // require_once ("footers/footer-$lang.php");?>
 
 
 
