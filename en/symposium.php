@@ -62,6 +62,8 @@ var x = setInterval(function() {
 
 			<?php require_once ("slides/slide-3-$lang.php");?>
 
+			<?php require_once ("slides/slide-4-$lang.php");?>
+
 			
 		
 		</div>
@@ -75,11 +77,12 @@ var x = setInterval(function() {
 			<h2 class="countdown"></h2>
 			<div class="sub-text">
 			<p>Worldwide we are all facing the challenge of poisoning our home.
-The aim of this  symposium is to gather people, game changers and experts from different countries, with different stories and different lived experiences into an open space to talk about how we reintegrate with our planet.</p>
-<p>We want to empower and inspire each other by sharing the importance of this topic.
-</p>
+				The aim of this  symposium is to gather people, game changers and experts from different countries, with different stories and different lived experiences into an open space to talk about how we reintegrate with our planet.</p>
+
+				<p>We want to empower and inspire each other by sharing the importance of this topic.
+				</p>
 			</div>
-			 <a href="faqs.php" button class="main-button">All About Ecobricks</a>
+			 <a href="faqs.php" button class="main-button">Register</a>
 			<h6><a href="what.php">Find out more</a> | <a href="/how">Schedule</a> | <a href="/why">Speakers</a></h6>
 		</div>	
 	
@@ -97,9 +100,9 @@ The aim of this  symposium is to gather people, game changers and experts from d
 			<div class="sub-text">
 			<p>Composting is mother nature's waste management system.  All organic things compost naturally.  The human race can emulate this practice.  Anything from piling leaves to wormeries are considered composting.</p>
 
-<p>Watch Lucie Mann, New Forest Aquaponics CIC and Global Ecobrick Alliance Core Team explain how she composts all sorts of food waste from the food waste programme being run in the New Forest, UK.</p>
+			<p>Watch Lucie Mann, New Forest Aquaponics CIC and Global Ecobrick Alliance Core Team explain how she composts all sorts of food waste from the food waste programme being run in the New Forest, UK.</p>
 
-<p>As Lucie and her family run an aquaponics farm, the composting she undertakes is part of a fully circular permaculture ecosystem.</p>
+			<p>As Lucie and her family run an aquaponics farm, the composting she undertakes is part of a fully circular permaculture ecosystem.</p>
 			</div>
 
 			<div class="big-header">Permaculture</div>
@@ -112,11 +115,10 @@ The aim of this  symposium is to gather people, game changers and experts from d
 			<div class="big-header">Mandalic Collaboration</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
-			<p>To improve our connection with the earth’s natural cycles we practise Mandala design principles.
+			<p>To improve our connection with the earth’s natural cycles we practise Mandala design principles.<p>
 
-Join Ani Himawati in a mindful mandala meditation.  Training our minds to think circularly through artistic impressions using natural resources.
+Join Ani Himawati in a mindful mandala meditation.  Training our minds to think circularly through artistic impressions using natural resources.</p>
 
-</p>
 			</div>
 
 			<div class="big-header">Food Poverty/Food Banks</div>
@@ -126,77 +128,17 @@ Join Ani Himawati in a mindful mandala meditation.  Training our minds to think 
 
 			<p>Join Waterside Food Waste project whilst they share how they set up and operate in their local community and the invaluable impact it has had on the people who live in perceived affluent area but has deep pockets of people living with food poverty due to the cost of living.</p>
 
-
-</p>
 			</div>
 
-
-
-
-			<a href="sequest.php" button class="main-button">Plastic Sequestration</a>
+			<a href="sequest.php" button class="main-button">Register</a>
 			<h6><a href="/ayyew">Ayyew Inspired</a> | <a href="/circular">Circular by Design</a> | <a href="/plastic">Towards Transition</a> | <a href="/principles">Regenerative</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
 		</div>
 	</div>	
 
-<!-- FULL GALLERY-->
-
-<?php include 'ecobricks_env.php';?> 
-	
-		<div class="gallery-background">
-		
-				
-			<div class="gallery-content-block">
-			  	
-				<div class="flex-container">
-		
-					<?php
-
-					$sql = "SELECT * FROM vw_gallery_feed ;";
-					$result = $conn->query($sql);
-					if ($result->num_rows > 0) {
-						array_reverse($result);
-					// output data of each row
-					while( $row= $result->fetch_assoc()) {
-
-					echo '
-					<div class="gal-photo"><div class="photo-box">
-					<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
-				
-					echo '<div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e</div>
-					</div>';
-					}
-
-					} else {
-					echo "Failed to connect to the Brikchain database";
-					}
-
-					?>
-					<div class="gal-photo" style="width: 200px; padding-top: 20px; margin-top: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-					Latest authenticated ecobricks</p></div></div>
-					
-			
-				</div>
-				
-			</div>
-			<div class="feed-live"><p><span class="blink">⬤</span> 50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div>
-
-			<div id="main-content">
-			
-				<div class="big-header">The Brikchain</div>
-				<div class="sub-text"><p>Every ecobrick that is authenticated is permenantly recorded onto the Brikcoin blockchain to generate 0.1 BRK for each gram of sequestered plastic that it represents.</p>
-				</div> 
-
-				<a href="brikchain.php" button class="main-button">Browse the Brikchain</a>
-			
-				<h6><a href="/brikcoins">Brikcoins</a> | <a href="/aes">AES Plastic</a> | <a href="/gobrik">GoBrik Platform</a></h6>
-			</div>
-
-		
-		</div>
 
 		
 	<!--THIRD CONTENT SECTION-->
-
+<!--
 	<div id="content-sect3">
 		<div id="main-content">
 			<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
@@ -209,63 +151,22 @@ Join Ani Himawati in a mindful mandala meditation.  Training our minds to think 
 			<h6><a href="earth.php">Earth & Ecobrick Building</a> | <a href="/earth-methods">E&B Methods</a> | <a href="/modules">Milstein Modules</a> | <a href="/circular">Spiral & Circular</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6>
 		</div>
 	</div>
-
-	<!-- TOP TEN ECOBRICKS-->
-
-	<div class="gallery-background">
-
-		<div class="gallery10-content-block">
-					
-			<div class="flex-container10">
-					
-				<?php
-				$sql = "SELECT * FROM vw_top_10_last_month ;";
-				$result = $conn->query($sql);
-				if ($result->num_rows > 0) {
-				// output data of each row
-				while($row = $result->fetch_assoc()) {
-
-				echo '
-				<div class="gal-photo10">
-				<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>';
-				echo '<div class="gal10-photo-text"><b>Ecobrick '.$row["ecobrick_unique_id"].'</b><br>By '.$row["ecobrick_owner"].'<br>'.$row["location"].'</div></div>';
-
-				}
-
-				} else {
-				echo "Failed to connect to the Brikchain database";
-				}
-
-				?>
-						
-			</div>
-			
-		</div>
-	<!--	<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>-->
-				
-		<div id="main-content">
-		
-			<div class="big-header">This Month's Top Ecobricks</div>
-			<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
-			</div> 
-
-			<a href="top-tens.php" button class="main-button">The Top 10's</a>
-		</div>
-	</div>
+-->
 			  
 
 	<!--FOURTH CONTENT SECTION-->
+	<!--
 
 	<div id="content-sect4">
 		<div id="main-content">
 			<div class="lead-graphic"><img src="webp/balancing-green.webp"  width="100%" height="100%" loading="lazy"></div>
-			<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration" loading="lazy"></div><!--width="300px" height="254px"-->
-			<!--<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>-->
+			<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration" loading="lazy"></div>
+
 			<div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
 			<a href="https://gobrik.com/#offset" target="_blank" class="main-button">Plastic Offsetting</a>
 			<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="transition.php">Plastic Transition</a> | <a href="about.php">About the GEA</a></h6><br><br>
 			
-			<!--<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>-->
+			<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>
 
 			<img src="svgs/3brikcoins.svg" width="30%">
 
@@ -278,7 +179,7 @@ Join Ani Himawati in a mindful mandala meditation.  Training our minds to think 
 			
 		</div>
 	</div>
-
+-->
 
 	<!--FOOTER STARTS HERE-->
 
