@@ -7,7 +7,7 @@
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("April 23, 2023 12:00:00").getTime();
+var countDownDate = new Date("Apr 23, 2023 12:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -62,8 +62,6 @@ var x = setInterval(function() {
 
 			<?php require_once ("slides/slide-3-$lang.php");?>
 
-			<?php require_once ("slides/slide-4-$lang.php");?>
-
 			
 		
 		</div>
@@ -74,7 +72,9 @@ var x = setInterval(function() {
 	 	<div id="main-content">
 			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<div class="big-header">Earthen Ethics Symposium</div>
-			<h2 class="countdown"></h2>
+
+			<p class="countdown"></p>
+
 			<div class="sub-text">
 			<p>Worldwide we are all facing the challenge of poisoning our home.
 				The aim of this  symposium is to gather people, game changers and experts from different countries, with different stories and different lived experiences into an open space to talk about how we reintegrate with our planet.</p>
@@ -130,8 +130,25 @@ Join Ani Himawati in a mindful mandala meditation.  Training our minds to think 
 
 			</div>
 
-			<a href="sequest.php" button class="main-button">Register</a>
-			<h6><a href="/ayyew">Ayyew Inspired</a> | <a href="/circular">Circular by Design</a> | <a href="/plastic">Towards Transition</a> | <a href="/principles">Regenerative</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
+			<div class="big-header">Zero Waste Shops</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>There are more and more zero waste shops opening in the UK
+</p>
+
+			</div>
+
+			<div class="big-header">Waste Streams around the World</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>Waste management infrastructure differs greatly around the world.  Often the countries with the least infrastructure are the ones that are taking others waste to fund the country.  </p>
+
+			<p>Join us in this review of how waste management differs around the world and the impact your waste could be having when we entrust it to waste management companies.</p>
+
+			</div>
+
+			 <a href="faqs.php" button class="main-button">Register</a>
+			<h6><a href="what.php">Find out more</a> | <a href="/how">Schedule</a> | <a href="/why">Speakers</a></h6>
 		</div>
 	</div>	
 
