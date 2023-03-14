@@ -62,10 +62,6 @@ var x = setInterval(function() {
 
 			<?php require_once ("slides/slide-3-$lang.php");?>
 
-			
-
-			
-		
 		</div>
 
 	<!--FIRST CONTENT SECTION-->
