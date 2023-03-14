@@ -58,22 +58,22 @@ var x = setInterval(function() {
 	
 		<!-- SLIDER CONTENT -->
 	
-		<div id="sliders">
+		<div id="intro" style="  width: 80%;
+  margin-bottom: 0;
+  position: absolute;
+  z-index: 9;
+  top: 224px;
+  margin: auto;
+  display: block;">
 		<div class="big-header">Earthen Ethics Symposium</div>
 		<div class="sub-text">Worldwide individuals are work daily to create a greater consciousness and greener planet for all living beings</div>
 		<h2 id="demo" style="text-align:center"></h2>
 
-			<?php //require_once ("slides/slide-1-$lang.php");?>
-
-			<?php //require_once ("slides/slide-2-$lang.php");?>
-
-			<?php //require_once ("slides/slide-3-$lang.php");?>
-
-		</div>-->
+		</div>
 
 	<!--FIRST CONTENT SECTION-->
 
-	<div id="content-sect1" style="margin-top: 90vh;">
+	<div id="content-sect1">
 	 	<div id="main-content">
 			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<!--<div class="big-header">Earthen Ethics Symposium</div>-->
