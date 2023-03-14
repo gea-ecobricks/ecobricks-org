@@ -53,14 +53,15 @@ var x = setInterval(function() {
 		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" height="31%"></div>
 
 	<div>
-	<div class="big-header">Earthen Ethics Symposium</div>
-		<h3>Worldwide individuals are work daily to create a greater consciousness and greener planet for all living beings</h3>
-		<h2 id="demo"></h2>
+	
 	
 	
 		<!-- SLIDER CONTENT -->
 	
-		<!--<div id="sliders">
+		<div id="sliders">
+		<div class="big-header">Earthen Ethics Symposium</div>
+		<div class="sub-text">Worldwide individuals are work daily to create a greater consciousness and greener planet for all living beings</div>
+		<h2 id="demo" style="text-align:center"></h2>
 
 			<?php //require_once ("slides/slide-1-$lang.php");?>
 
@@ -75,9 +76,7 @@ var x = setInterval(function() {
 	<div id="content-sect1" style="margin-top: 90vh;">
 	 	<div id="main-content">
 			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
-			<div class="big-header">Earthen Ethics Symposium</div>
-
-			<p class="countdown"></p>
+			<!--<div class="big-header">Earthen Ethics Symposium</div>-->
 
 			<div class="sub-text">
 			<p>Worldwide we are all facing the challenge of poisoning our home.
