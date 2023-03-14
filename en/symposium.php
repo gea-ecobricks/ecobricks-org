@@ -7,7 +7,7 @@
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 23, 2023 12:00:00").getTime();
+var countDownDate = new Date("April 23, 2023 12:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -52,17 +52,23 @@ var x = setInterval(function() {
 		<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>
 		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" height="31%"></div>
 
-	<!-- SLIDER CONTENT -->
+	<div>
+	<div class="big-header">Earthen Ethics Symposium</div>
+		<h3>Worldwide individuals are work daily to create a greater consciousness and greener planet for all living beings</h3>
+		<h2 id="demo"></h2>
 	
-		<div id="sliders">
+	
+		<!-- SLIDER CONTENT -->
+	
+		<!--<div id="sliders">
 
-			<?php require_once ("slides/slide-1-$lang.php");?>
+			<?php //require_once ("slides/slide-1-$lang.php");?>
 
-			<?php require_once ("slides/slide-2-$lang.php");?>
+			<?php //require_once ("slides/slide-2-$lang.php");?>
 
-			<?php require_once ("slides/slide-3-$lang.php");?>
+			<?php //require_once ("slides/slide-3-$lang.php");?>
 
-		</div>
+		</div>-->
 
 	<!--FIRST CONTENT SECTION-->
 
