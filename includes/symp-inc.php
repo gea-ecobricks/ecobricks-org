@@ -128,11 +128,11 @@ _END;?>
 
 #clouds {
   background-color: #00ffff;
-  /*background: url("https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v3") center top;*/
+  background: url("https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v3") center top;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 73vh;
+  height: 65vh;
   /* min-height: 500px;*/
   
     display: flex;
@@ -150,7 +150,7 @@ _END;?>
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 85vh;
+  height: 65vh;
   /* min-height: 500px;*/
   
     display: flex;
@@ -270,7 +270,7 @@ text-align: center;
 line-height: 1.3;
 text-shadow: 0 0 10px #ddd;
 font-weight: 300;
-color: white;
+
 }
 @media screen and (max-width: 769px) {
 .big-header {
@@ -1108,7 +1108,7 @@ margin: auto;
 @media screen and (min-width: 0px) and (max-width: 769px) {
 #dolphin-graphic {
     width: 80%;
-    margin-top: -122px;
+    margin-top: -100px;
 }
 }
 @media screen and (min-width: 770px) and (max-width: 1023px) {
@@ -1120,7 +1120,7 @@ margin: auto;
 @media screen and (min-width: 1024px) {
 #dolphin-graphic {
     width: 600px;
-    margin-top: -201px;
+    margin-top: -101px;
     min-height: 200px;
 }
 }
