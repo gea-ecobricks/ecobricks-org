@@ -265,26 +265,29 @@ margin-bottom: -10px;
 
 
 .big-header {
-font-family: 'Mulish', sans-serif;
+font-family: 'Arvo', sans-serif;
 text-align: center;
 line-height: 1.3;
-text-shadow: 0 0 10px #fff;
+text-shadow: 0 0 10px #ddd;
 font-weight: 300;
-color: rgb(58, 58, 58);
+color: white;
 }
 @media screen and (max-width: 769px) {
 .big-header {
     font-size: 2.3em;
+    padding:12px;
 }
 }
 @media screen and (min-width: 770px) and (max-width: 1024px) {
 .big-header {
     font-size: 4em;
+    padding: 20px;
 }
 }
 @media screen and (min-width: 1024px) {
 .big-header {
-    font-size: 3.5em;
+    font-size: 5em;
+    padding: 30px;
 }
 }
 
