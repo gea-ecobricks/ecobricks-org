@@ -64,7 +64,7 @@ var x = setInterval(function() {
   z-index: 9;
   top: 224px;
 ">
-		<div class="big-header">Earthen Ethics Symposium</div>
+		<div class="big-header" style="color:white;">Earthen Ethics Symposium</div>
 		<div class="sub-text">Worldwide individuals are work daily to create a greater consciousness and greener planet for all living beings</div>
 		<h2 id="demo" style="text-align:center"></h2>
 
