@@ -65,7 +65,7 @@ var x = setInterval(function() {
   top: 224px;
 ">
 		<div class="big-header" style="color:white;">Earthen Ethics Symposium</div>
-		<div class="sub-text">Worldwide individuals are work daily to create a greater consciousness and greener planet for all living beings</div>
+		<div class="sub-text">Speakers, Events & Workshops</div>
 		<h2 id="demo" style="text-align:center"></h2>
 
 		</div>
@@ -75,14 +75,15 @@ var x = setInterval(function() {
 	<div id="content-sect1">
 	 	<div id="main-content">
 			<div id="dolphin-graphic">
-				<!--<img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">-->
-
+				<img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
+<!--
 				<img src="svgs/earth-home-animated-v4.svg?v=2" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
-			</div>
+			</div>-->
 			<!--<div class="big-header">Earthen Ethics Symposium</div>-->
 
 			<div class="sub-text">
-			<p>Worldwide we are all facing the challenge of poisoning our home.
+			<h4>Planet-wide individuals are working daily to cocreate a more hospitable home and greener planet for all living beings.</h4>
+			<p>
 				The aim of this  symposium is to gather people, game changers and experts from different countries, with different stories and different lived experiences into an open space to talk about how we reintegrate with our planet.</p>
 
 				<p>We want to empower and inspire each other by sharing the importance of this topic.
@@ -101,6 +102,12 @@ var x = setInterval(function() {
 		<div id="main-content">
 			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=5" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
 			</div>
+			<div class="sub-text">
+			<h4>
+			In every moment we have the power to contribute with our choices to make the change we want to see in the world.</h4>
+            <p>Every day Counts.  Small changes make a big impact together.</p>
+
+
 			<div class="big-header">Composting</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
@@ -206,7 +213,7 @@ Join Ani Himawati in a mindful mandala meditation.  Training our minds to think 
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php // require_once ("footers/footer-$lang.php");?>
+	<?php require_once ("footers/footer-$lang.php");?>
 
 
 
