@@ -291,6 +291,34 @@ font-weight: 300;
 }
 }
 
+
+.topic-header {
+font-family: 'Arvo', sans-serif;
+text-align: center;
+line-height: 1.3;
+text-shadow: 0 0 10px #ddd;
+font-weight: 300;
+
+}
+@media screen and (max-width: 769px) {
+.topic-header {
+    font-size: 1.8em;
+    padding:12px;
+}
+}
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+.topic-header {
+    font-size: 2em;
+    padding: 20px;
+}
+}
+@media screen and (min-width: 1024px) {
+.topic-header {
+    font-size: 2.3em;
+    padding: 30px;
+}
+}
+
 .lead-paragraph {
 font-family: 'Arvo', serif;
 text-align: center !important;
