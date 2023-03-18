@@ -298,8 +298,10 @@ text-align: center;
 line-height: 1.3;
 text-shadow: 0 0 10px #ddd;
 font-weight: 300;
-
+margin-top: 10px;
+margin-bottom:-15px;
 }
+
 @media screen and (max-width: 769px) {
 .topic-header {
     font-size: 1.8em;
@@ -1136,19 +1138,19 @@ margin: auto;
 @media screen and (min-width: 0px) and (max-width: 769px) {
 #dolphin-graphic {
     width: 80%;
-    margin-top: -100px;
+    margin-top: -120px;
 }
 }
 @media screen and (min-width: 770px) and (max-width: 1023px) {
 #dolphin-graphic {
     width: 600px;
-    margin-top: 0;
+    margin-top: -120px;
 }
 }
 @media screen and (min-width: 1024px) {
 #dolphin-graphic {
     width: 600px;
-    margin-top: -101px;
+    margin-top: -131px;
     min-height: 200px;
 }
 }
@@ -1167,7 +1169,7 @@ margin: auto;
 #content-sect2 {
 width: 100%;
 padding-bottom: 30px;
-background: url("/webp/blue-ode-1600.webp") center top;
+background: url("https://www.ecobricks.org/wp-content/uploads/2020/06/circled-design-banner.png") center top;
 background-repeat: no-repeat;
 text-align: center;
 }
