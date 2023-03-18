@@ -65,7 +65,7 @@ var x = setInterval(function() {
   top: 224px;
 ">
 		<div class="big-header" style="color:white;">Earthen Ethics Symposium</div>
-		<div class="sub-text">Speakers, Events & Workshops</div>
+		<div class="sub-text">Join us for as series of speakers, events & workshops that explore ways that we cam transition to technologies, enterprises and households that are ecological enriching.</div>
 		<h2 id="demo" style="text-align:center"></h2>
 
 		</div>
@@ -75,16 +75,16 @@ var x = setInterval(function() {
 	<div id="content-sect1">
 	 	<div id="main-content">
 			<div id="dolphin-graphic">
-				<img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
+				<img src="svgs/earth-service-01.svg" width="100%" height="76%" alt="humans working to make a common home for all living creatures" loading="lazy">
 <!--
 				<img src="svgs/earth-home-animated-v4.svg?v=2" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
 			</div>-->
 			<!--<div class="big-header">Earthen Ethics Symposium</div>-->
 
 			<div class="sub-text">
-			<h4>Planet-wide individuals are working daily to cocreate a more hospitable home and greener planet for all living beings.</h4>
-			<p>
-				The aim of this  symposium is to gather people, game changers and experts from different countries, with different stories and different lived experiences into an open space to talk about how we reintegrate with our planet.</p>
+			<h4>Around the planet individuals are following Earth's example to cocreate a more hospitable home for us human... and all other living beings.</h4>
+			
+			<p>The aim of this symposium is to gather leaders, activists and experts from different countries, with different stories and different lived experiences into an open space to talk about how we can reintegrate with our planet.</p>
 
 				<p>We want to empower and inspire each other by sharing the importance of this topic.
 				</p>
@@ -100,7 +100,7 @@ var x = setInterval(function() {
 	  
 	<div id="content-sect2">
 		<div id="main-content">
-			<div class="lead-graphic"><img src="png/earthern-ethics-cycles.png" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
+			<div class="lead-graphic"><img src="pngs/earthern-ethics-cycles.png" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
 			</div>
 			<div class="sub-text">
 			<h4>
@@ -108,7 +108,7 @@ var x = setInterval(function() {
             <p>Every day Counts.  Small changes make a big impact together.</p>
 
 
-			<div class="big-header">Composting</div>
+			<div class="topic-header">Composting</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
 			<p>Composting is mother nature's waste management system.  All organic things compost naturally.  The human race can emulate this practice.  Anything from piling leaves to wormeries are considered composting.</p>
@@ -118,14 +118,14 @@ var x = setInterval(function() {
 			<p>As Lucie and her family run an aquaponics farm, the composting she undertakes is part of a fully circular permaculture ecosystem.</p>
 			</div>
 
-			<div class="big-header">Permaculture</div>
+			<div class="topic-header">Permaculture</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
 			<p>Permaculture is the development of sustainable and self-efficient agricultural ecosystems. We have [speaker name] presenting our permaculture offering.  Like Mother Nature permaculture is a mandalic act of mindful recycling
 </p>
 			</div>
 
-			<div class="big-header">Mandalic Collaboration</div>
+			<div class="topic-header">Mandalic Collaboration</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
 			<p>To improve our connection with the earth’s natural cycles we practise Mandala design principles.<p>
@@ -134,7 +134,7 @@ Join Ani Himawati in a mindful mandala meditation.  Training our minds to think 
 
 			</div>
 
-			<div class="big-header">Food Poverty/Food Banks</div>
+			<div class="topic-header">Food Poverty/Food Banks</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
 			<p>Despite there being more than enough food in the world to feed everyone one on the planet, many are still facing food poverty.  Some people are fortunate enough to be able to access food banks (UK) to reduce the impact.</p>
@@ -143,7 +143,7 @@ Join Ani Himawati in a mindful mandala meditation.  Training our minds to think 
 
 			</div>
 
-			<div class="big-header">Zero Waste Shops</div>
+			<div class="topic-header">Zero Waste Shops</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
 			<p>There are more and more zero waste shops opening in the UK
@@ -151,7 +151,7 @@ Join Ani Himawati in a mindful mandala meditation.  Training our minds to think 
 
 			</div>
 
-			<div class="big-header">Waste Streams around the World</div>
+			<div class="topic-header">Waste Streams around the World</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
 			<p>Waste management infrastructure differs greatly around the world.  Often the countries with the least infrastructure are the ones that are taking others waste to fund the country.  </p>
