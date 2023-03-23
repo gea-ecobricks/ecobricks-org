@@ -38,14 +38,9 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
 
-<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  
+<!-- Arvo loads very last to speed up first load.-->
 
-<noscript>
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
-</noscript>
-
-
-<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" media="print" onload="this.media='all'">-->
+<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 		
 
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 

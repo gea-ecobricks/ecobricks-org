@@ -253,5 +253,9 @@ RedirectMatch "^/modules-beta" "/en/modules.php"
 RedirectMatch "^/modules-beta/" "/en/modules.php"
 RedirectMatch "^/modules/" "/en/modules.php"
 
+RedirectMatch "^/symposium" "/en/symposium.php"
+RedirectMatch "^/symposium.php/" "/en/symposium.php"
+RedirectMatch "^/simposium/" "/en/symposium.php"
+
 
 
