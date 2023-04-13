@@ -25,7 +25,7 @@
 
     <div class="topnav" id="myTopnav">
         <div class="dropdown">
-                  <button type="button" aria-label="GEA service menu" class="dropbtn" id="menu-circle"><img src="svgs/grey-emblem.svg" width="30px" height="30px" alt="Open site menu"><!--<span class="menu-text">GEA Servers</span>-->
+                  <button type="button" aria-label="GEA service menu" class="dropbtn" id="menu-circle"><img src="svgs/grey-emblem.svg" width="30" height="30" alt="Open site menu"><!--<span class="menu-text">GEA Servers</span>-->
                 </button>
                   <div class="dropdown-content-app">
                     <a href="https://gobrik.com" target="_blank" rel="noopener">
@@ -54,7 +54,7 @@
 
                     <a href="https://gobrik.com/#offset" target="_blank" rel="noopener">
                         <div id="offset-menu">
-                            <div class="icon-menu"><img src="icons/offset.svg" width="65" height="65" loading="lazy"></div>
+                            <div class="icon-menu"><img src="icons/offset.svg" width="65" height="65" loading="lazy" alt="Offset your plastic consumption"></div>
                             <div class="apptext-menu">
                                 <div class="apptext-header">AES Plastic Offsetting </div>
                                 <div class="apptext-sub">Offset your plastic footprint<br>on our GoBrik AES Platform</div>
@@ -71,8 +71,8 @@
 
         <div class="dropdown">
             <button class="dropbtn">
-            <div id="drop-text">About us
-                  <i class="fa fa-caret-down"></i></div>
+            <span class="drop-text">About us
+                  <i class="fa fa-caret-down"></i></span>
                 </button>
                 <div class="dropdown-content-normal">
                     <a href="about.php">Global Ecobrick Alliance</a>
@@ -88,7 +88,7 @@
 
         <div class="dropdown">
             <button class="dropbtn">
-            <div id="drop-text">Building
+            <div class="drop-text">Building
                   <i class="fa fa-caret-down"></i></div>
                 </button>
                 <div class="dropdown-content-normal">
@@ -100,7 +100,7 @@
             </div>
 
             <div class="dropdown">
-                <button class="dropbtn"><div id="drop-text">About Ecobricks
+                <button class="dropbtn"><div class="drop-text">About Ecobricks
                   <i class="fa fa-caret-down"></i></div>
                 </button>
                 <div class="dropdown-content-normal">

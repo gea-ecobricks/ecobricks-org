@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
 
-<!-- UNIVERSAL SITE JAVA SCRIPTS-->
+<!-- UNIVERSAL SITE JAVA SCRIPTS
 
 
 <script src="https://global.localizecdn.com/localize.js"></script>
@@ -201,6 +201,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     key: '911e632bfc957',
     rememberLanguage: true,
   });
-</script>
+</script>-->
 	
 		
