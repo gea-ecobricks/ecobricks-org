@@ -35,6 +35,9 @@ _END;?>
 
 <STYLE>
 
+.full-page {
+    overflow-x:hidden;
+}
 
 .block {
   overflow: hidden;
