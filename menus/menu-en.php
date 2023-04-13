@@ -88,8 +88,8 @@
 
         <div class="dropdown">
             <button class="dropbtn">
-            <div class="drop-text">Building
-                  <i class="fa fa-caret-down"></i></div>
+            <span class="drop-text">Building
+                  <i class="fa fa-caret-down"></i></span>
                 </button>
                 <div class="dropdown-content-normal">
                     <a href="build.php">Building Methods</a>
@@ -115,7 +115,7 @@
                 </div>
             </div>
         
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem.svg"width="30" height="30" loading="lazy" alt="Open Site menu"></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem.svg" width="30" height="30" loading="lazy" alt="Open Site menu"></a>
             
         </div>
     </div>

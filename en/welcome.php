@@ -179,7 +179,5 @@
 	<!--FOOTER ENDS HERE-->
 
 	
-
-</div>
 </body>
 </html>
