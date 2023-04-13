@@ -25,13 +25,12 @@
 
     <div class="topnav" id="myTopnav">
         <div class="dropdown">
-                  <button type="button" aria-label="GEA service menu" class="dropbtn">
-                    <div id="menu-circle"><img src="svgs/grey-emblem.svg" width="30px" height="30px" alt="Open site menu"></div><div id="menu-text">GEA Servers</div>
+                  <button type="button" aria-label="GEA service menu" class="dropbtn" id="menu-circle"><img src="svgs/grey-emblem.svg" width="30px" height="30px" alt="Open site menu"><span class="menu-text">GEA Servers</span>
                 </button>
                   <div class="dropdown-content-app">
                     <a href="https://gobrik.com" target="_blank" rel="noopener">
                         <div id="gobrik-menu">
-                            <div id="icon-menu">
+                            <div class="icon-menu">
                             <img src="icons/gobrik.svg" width="65" height="65" loading="lazy" alt="GoBrik logo">
                             </div>
                             <div id="apptext-menu">
@@ -43,7 +42,7 @@
 
                     <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener">
                         <div id="mattermost-menu">
-                            <div id="icon-menu"><img src="icons/mattermost.svg" width="65px" height="65px"></div>
+                            <div class="icon-menu"><img src="icons/mattermost.svg" width="65" height="65"></div>
                                 
                             <div id="apptext-menu">
                                 <div class="apptext-header">Circles </div>
@@ -55,7 +54,7 @@
 
                     <a href="https://gobrik.com/#offset" target="_blank" rel="noopener">
                         <div id="offset-menu">
-                            <div id="icon-menu"><img src="icons/offset.svg" width="65px" height="65px" loading="lazy"></div>
+                            <div class="icon-menu"><img src="icons/offset.svg" width="65px" height="65px" loading="lazy"></div>
                             <div id="apptext-menu">
                                 <div class="apptext-header">AES Plastic Offsetting </div>
                                 <div class="apptext-sub">Offset your plastic footprint<br>on our GoBrik AES Platform</div>

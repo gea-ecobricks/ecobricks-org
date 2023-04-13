@@ -37,6 +37,7 @@ _END;?>
 
 .full-page {
     overflow-x:hidden;
+    margin: 0px;
 }
 
 .block {

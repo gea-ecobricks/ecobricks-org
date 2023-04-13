@@ -901,7 +901,7 @@ background-size: contain;*/
   }
 }
 
-#icon-menu {
+.icon-menu {
 
   width: 30%;
   float: left;
@@ -909,7 +909,7 @@ background-size: contain;*/
   height: 70px;
 }
 
-#icon-menu img {
+.icon-menu img {
   width: fit-content;
 }
 
@@ -933,7 +933,7 @@ background-size: contain;*/
   font-weight: 300;
 }
 
-#menu-text {
+.menu-text {
   display: none;
 }
 #menu-circle {
