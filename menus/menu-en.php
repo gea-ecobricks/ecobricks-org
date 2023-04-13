@@ -100,8 +100,8 @@
             </div>
 
             <div class="dropdown">
-                <button class="dropbtn"><div class="drop-text">About Ecobricks
-                  <i class="fa fa-caret-down"></i></div>
+                <button class="dropbtn"><span class="drop-text">About Ecobricks
+                  <i class="fa fa-caret-down"></i></span>
                 </button>
                 <div class="dropdown-content-normal">
                     <a href="what.php">What are Ecobricks</a>
