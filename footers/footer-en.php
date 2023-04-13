@@ -74,12 +74,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			
 		</div>
 
-		<!--<div class="footer-icons">--NEXTCLOUD
-			<a href="https://files.mandala.team/" target="_blank" rel="noopener">
-			<img src="icons/nextcloud.svg" width="100%" height="100%"></a>
-			<div class="icon-name">/ecobricks</div>
-			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
-		</div>-->
+	
 			
 	</div>
 	
@@ -162,6 +157,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 		<br><br>
 	</div>
+</div>
 
 	<!--FOOTER ENDS-->
 
