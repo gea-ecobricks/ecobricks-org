@@ -169,7 +169,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 
 <!-- ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score
-                -->
+                
 
 <script type="text/javascript" defer>
 
@@ -190,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
 
 
-</script>
+</script>-->
 
  <!--Arc CDN Script without delay
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
