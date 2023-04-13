@@ -913,7 +913,7 @@ background-size: contain;*/
   width: fit-content;
 }
 
-#apptext-menu {
+.apptext-menu {
   width: 70%;
   float: right;
   padding: 5px 15px;
@@ -936,6 +936,7 @@ background-size: contain;*/
 .menu-text {
   display: none;
 }
+
 #menu-circle {
   opacity: 80%;
 }
