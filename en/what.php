@@ -93,6 +93,68 @@
 
 				</div>	
 			</div>
+			<h4>
+			In every moment we have the power to contribute with our choices to make the change we want to see in the world.</h4>
+			<p>Every day Counts.  Small changes make a big impact together.</p>
+
+
+			<div class="big-header">Composting</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>Composting is mother nature's waste management system.  All organic things compost naturally.  The human race can emulate this practice.  Anything from piling leaves to wormeries are considered composting.</p>
+
+			<p>Watch Lucie Mann, New Forest Aquaponics CIC and Global Ecobrick Alliance Core Team explain how she composts all sorts of food waste from the food waste programme being run in the New Forest, UK.</p>
+
+			<p>As Lucie and her family run an aquaponics farm, the composting she undertakes is part of a fully circular permaculture ecosystem.</p>
+			</div>
+
+			<div class="big-header">Permaculture</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>Permaculture is the development of sustainable and self-efficient agricultural ecosystems. We have [speaker name] presenting our permaculture offering.  Like Mother Nature permaculture is a mandalic act of mindful recycling
+			</p>
+			</div>
+
+			<div class="big-header">Mandalic Collaboration</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>To improve our connection with the earth’s natural cycles we practise Mandala design principles.<p>
+
+			Join Ani Himawati in a mindful mandala meditation.  Training our minds to think circularly through artistic impressions using natural resources.</p>
+
+			</div>
+
+			<div class="big-header">Food Poverty/Food Banks</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>Despite there being more than enough food in the world to feed everyone one on the planet, many are still facing food poverty.  Some people are fortunate enough to be able to access food banks (UK) to reduce the impact.</p>
+
+			<p>Join Waterside Food Waste project whilst they share how they set up and operate in their local community and the invaluable impact it has had on the people who live in perceived affluent area but has deep pockets of people living with food poverty due to the cost of living.</p>
+
+			</div>
+
+			<div class="big-header">Zero Waste Shops</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>There are more and more zero waste shops opening in the UK
+			</p>
+
+			</div>
+
+			<div class="big-header">Waste Streams around the World</div>
+			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
+			<div class="sub-text">
+			<p>Waste management infrastructure differs greatly around the world.  Often the countries with the least infrastructure are the ones that are taking others waste to fund the country.  </p>
+
+			<p>Join us in this review of how waste management differs around the world and the impact your waste could be having when we entrust it to waste management companies.</p>
+
+			</div>
+
+			 <a href="faqs.php" button class="main-button">Register</a>
+			<h6><a href="what.php">Find out more</a> | <a href="how.php">Schedule</a> | <a href="why.php">Speakers</a></h6>
+		</div>
+	</div>	
+
 
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
