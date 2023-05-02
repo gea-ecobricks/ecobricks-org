@@ -4,6 +4,7 @@
  
 <?php require_once ("includes/symp-inc.php");?>
 
+<!-- Symposium Web Page-->
 
 <script>
 // Set the date we're counting down to
@@ -65,7 +66,7 @@ var x = setInterval(function() {
   top: 224px;
 ">
 		<div class="big-header" style="color:white;">Earthen Ethics Symposium</div>
-		<div class="sub-text">Join us for as series of speakers, events & workshops that explore ways that we cam transition to technologies, enterprises and households that are ecological enriching.</div>
+		<div class="sub-text">Speakers, Events & Workshops</div>
 		<h2 id="demo" style="text-align:center"></h2>
 
 		</div>
@@ -75,16 +76,15 @@ var x = setInterval(function() {
 	<div id="content-sect1">
 	 	<div id="main-content">
 			<div id="dolphin-graphic">
-				<img src="svgs/earth-service-01.svg" width="100%" height="76%" alt="humans working to make a common home for all living creatures" loading="lazy">
+				<img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
 <!--
 				<img src="svgs/earth-home-animated-v4.svg?v=2" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
-			</div>-->
 			<!--<div class="big-header">Earthen Ethics Symposium</div>-->
 
 			<div class="sub-text">
-			<h4>Around the planet individuals are following Earth's example to cocreate a more hospitable home for us human... and all other living beings.</h4>
-			
-			<p>The aim of this symposium is to gather leaders, activists and experts from different countries, with different stories and different lived experiences into an open space to talk about how we can reintegrate with our planet.</p>
+			<h4>Worldwide we are all facing the challenge of poisoning our home.</h4>
+			<p>
+				The aim of this  symposium is to gather people, game changers and experts from different countries, with different stories and different lived experiences into an open space to talk about how we reintegrate with our planet.</p>
 
 				<p>We want to empower and inspire each other by sharing the importance of this topic.
 				</p>
@@ -100,78 +100,18 @@ var x = setInterval(function() {
 	  
 	<div id="content-sect2">
 		<div id="main-content">
-			<div class="lead-graphic"><img src="pngs/earthern-ethics-cycles.png" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
+			<div class="lead-graphic"><img src="png/earthern-ethics-cycles.png" width="100%" height="100%" alt="eco bricks follow the Earth's example." style="opacity:0.4;filter:alpha(opacity=40);" max-width="700px" loading="lazy">
 			</div>
 			<div class="sub-text">
-			<h4>
-			In every moment we have the power to contribute with our choices to make the change we want to see in the world.</h4>
-            <p>Every day Counts.  Small changes make a big impact together.</p>
-
-
-			<div class="topic-header">Composting</div>
-			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
-			<div class="sub-text">
-			<p>Composting is mother nature's waste management system.  All organic things compost naturally.  The human race can emulate this practice.  Anything from piling leaves to wormeries are considered composting.</p>
-
-			<p>Watch Lucie Mann, New Forest Aquaponics CIC and Global Ecobrick Alliance Core Team explain how she composts all sorts of food waste from the food waste programme being run in the New Forest, UK.</p>
-
-			<p>As Lucie and her family run an aquaponics farm, the composting she undertakes is part of a fully circular permaculture ecosystem.</p>
-			</div>
-
-			<div class="topic-header">Permaculture</div>
-			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
-			<div class="sub-text">
-			<p>Permaculture is the development of sustainable and self-efficient agricultural ecosystems. We have [speaker name] presenting our permaculture offering.  Like Mother Nature permaculture is a mandalic act of mindful recycling
-</p>
-			</div>
-
-			<div class="topic-header">Mandalic Collaboration</div>
-			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
-			<div class="sub-text">
-			<p>To improve our connection with the earth’s natural cycles we practise Mandala design principles.<p>
-
-Join Ani Himawati in a mindful mandala meditation.  Training our minds to think circularly through artistic impressions using natural resources.</p>
-
-			</div>
-
-			<div class="topic-header">Food Poverty/Food Banks</div>
-			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
-			<div class="sub-text">
-			<p>Despite there being more than enough food in the world to feed everyone one on the planet, many are still facing food poverty.  Some people are fortunate enough to be able to access food banks (UK) to reduce the impact.</p>
-
-			<p>Join Waterside Food Waste project whilst they share how they set up and operate in their local community and the invaluable impact it has had on the people who live in perceived affluent area but has deep pockets of people living with food poverty due to the cost of living.</p>
-
-			</div>
-
-			<div class="topic-header">Zero Waste Shops</div>
-			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
-			<div class="sub-text">
-			<p>There are more and more zero waste shops opening in the UK
-</p>
-
-			</div>
-
-			<div class="topic-header">Waste Streams around the World</div>
-			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
-			<div class="sub-text">
-			<p>Waste management infrastructure differs greatly around the world.  Often the countries with the least infrastructure are the ones that are taking others waste to fund the country.  </p>
-
-			<p>Join us in this review of how waste management differs around the world and the impact your waste could be having when we entrust it to waste management companies.</p>
-
-			</div>
-
-			 <a href="faqs.php" button class="main-button">Register</a>
-			<h6><a href="what.php">Find out more</a> | <a href="/how">Schedule</a> | <a href="/why">Speakers</a></h6>
-		</div>
-	</div>	
-
-
+	
 		
 	<!--THIRD CONTENT SECTION-->
 <!--
 	<div id="content-sect3">
 		<div id="main-content">
-			<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
+			<div class="lead-graphic"><
+
+="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
 			<div class="big-header">The Problem is the Solution.</div>
 			<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Ecobrick applications range from home furniture, to food-forest gardens to structures.  By transforming the problem, we can build solutions!</p>
 			</div> 
