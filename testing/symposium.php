@@ -90,7 +90,7 @@ var x = setInterval(function() {
 				</p>
 			</div>
 			 <a href="faqs.php" button class="main-button">Register</a>
-			<h6><a href="what.php">Find out more</a> | <a href="/how">Schedule</a> | <a href="/why">Speakers</a></h6>
+			<h6><a href="what.php">Find out more</a> | <a href="schedule.php">Schedule</a> | <a href="why.php">Speakers</a></h6>
 		</div>	
 	
 	</div>
