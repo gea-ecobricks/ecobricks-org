@@ -4,7 +4,7 @@
  
 <?php require_once ("includes/symp-inc.php");?>
 
-<!-- Symposium Web Page-->
+<!-- Symposium Web Page:  Russell doing a little test-->
 
 <script>
 // Set the date we're counting down to
