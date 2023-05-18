@@ -25,6 +25,7 @@ deployment:
   - /bin/cp -R misc $DEPLOYPATH
   - /bin/cp -R slides $DEPLOYPATH
   - /bin/cp -R side-modules $DEPLOYPATH
+  - /bin/cp -R testing $DEPLOYPATH
   
 
 
