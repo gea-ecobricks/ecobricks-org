@@ -6,7 +6,21 @@
 
 <!-- Symposium Web Page:  Russell doing a little test-->
 
+<div id="container">
 
+	<div class="photobanner">
+		<img class="first" src="EES Banner Dates Static.png" alt="" />
+		<img src ="EES Banner Now.png" alt="" />
+		<img src ="EES Banner Power.png" alt="" />
+		<img src ="EES Banner Dates Animated.mp4" alt="" />
+		<img src ="EES Banner Dates Static.png" alt="" />
+		<img src ="EES Banner Now.png" alt="" />
+		<img src ="EES Banner Power.png" alt="" />
+		<img src ="EES Banner Dates Animated.mp4" alt="" />
+		<img src ="EES Banner Dates Static.png" alt="" />		
+		<img src ="EES Banner Now.png" alt="" />
+	</div>
+</div>
 
 <!--MAIN CONTENT-->
 		
