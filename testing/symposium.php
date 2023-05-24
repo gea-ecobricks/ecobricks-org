@@ -6,107 +6,93 @@
 
 <!-- Symposium Web Page:  Russell doing a little test-->
 
-<div id="container">
+<style>
+	{margin: 0; padding: 0;}
 
-	<div class="photobanner">
-		<img class="first" src="EES Banner Dates Static.png" alt="" />
-		<img src ="EES Banner Now.png" alt="" />
-		<img src ="EES Banner Power.png" alt="" />
-		<img src ="EES Banner Dates Animated.mp4" alt="" />
-		<img src ="EES Banner Dates Static.png" alt="" />
-		<img src ="EES Banner Now.png" alt="" />
-		<img src ="EES Banner Power.png" alt="" />
-		<img src ="EES Banner Dates Animated.mp4" alt="" />
-		<img src ="EES Banner Dates Static.png" alt="" />		
-		<img src ="EES Banner Now.png" alt="" />
-	</div>
-</div>
-
-* {margin: 0; padding: 0;}
-
-#container
-{
-	width: 1000px;
-	overflow: hidden;
-	margin: 50px auto;
-	background: white;
-}
-
-.photobanner
-{
-	height: 233px;
-	width: 3550px;
-	margin-bottom: 80px;
-}
-
-.first
-{
-	-static-animation: bannermove 30s
-	-now-animation: bannermove 30s
-	-power-animation: bannermove 30s
-	-animation: bannermove 30s
-}
-
-@keyframes "bannermove"
-{
-	0%
+	#container
 	{
-		margin-left: 0px;
+		width: 1000px;
+		overflow: hidden;
+		margin: 50px auto;
+		background: white;
 	}
-	100%
-	{
-		margin-left: -2125px;
-	}
-}
 
-@-static-animation "bannermove"
-{
-	0%
+	.photobanner
 	{
-		margin-left: 0px;
+		height: 233px;
+		width: 3550px;
+		margin-bottom: 80px;
 	}
-	100%
-	{
-		margin-left: -2125px;
-	}
-}
 
-@-now-animation "bannermove"
-{
-	0%
+	.first
 	{
-		margin-left: 0px;
+		-static-animation: bannermove 30s
+		-now-animation: bannermove 30s
+		-power-animation: bannermove 30s
+		-animation: bannermove 30s
 	}
-	100%
-	{
-		margin-left: -2125px;
-	}
-}
 
-@-power-animation "bannermove"
-{
-	0%
+	@keyframes "bannermove"
 	{
-		margin-left: 0px;
+		0%
+		{
+			margin-left: 0px;
+		}
+		100%
+		{
+			margin-left: -2125px;
+		}
 	}
-	100%
-	{
-		margin-left: -2125px;
-	}
-}
 
-@-animation "bannermove"
-{
-	0%
+	@-static-animation "bannermove"
 	{
-		margin-left: 0px;
+		0%
+		{
+			margin-left: 0px;
+		}
+		100%
+		{
+			margin-left: -2125px;
+		}
 	}
-	100%
-	{
-		margin-left: -2125px;
-	}
-}
 
+	@-now-animation "bannermove"
+	{
+		0%
+		{
+			margin-left: 0px;
+		}
+		100%
+		{
+			margin-left: -2125px;
+		}
+	}
+
+	@-power-animation "bannermove"
+	{
+		0%
+		{
+			margin-left: 0px;
+		}
+		100%
+		{
+			margin-left: -2125px;
+		}
+	}
+
+	@-animation "bannermove"
+	{
+		0%
+		{
+			margin-left: 0px;
+		}
+		100%
+		{
+			margin-left: -2125px;
+		}
+	}
+</style>
+	
 <!--MAIN CONTENT-->
 		
 <BODY id="full-page"> 
@@ -139,7 +125,23 @@
 		<h2 id="demo" style="text-align:center"></h2>
 
 		</div>
+	<div id="container">
 
+		<div class="photobanner">
+			<img class="first" src="EES Banner Dates Static.png" alt="" />
+			<img src ="EES Banner Now.png" alt="" />
+			<img src ="EES Banner Power.png" alt="" />
+			<img src ="EES Banner Dates Animated.mp4" alt="" />
+			<img src ="EES Banner Dates Static.png" alt="" />
+			<img src ="EES Banner Now.png" alt="" />
+			<img src ="EES Banner Power.png" alt="" />
+			<img src ="EES Banner Dates Animated.mp4" alt="" />
+			<img src ="EES Banner Dates Static.png" alt="" />		
+			<img src ="EES Banner Now.png" alt="" />
+		</div>
+	</div>
+
+		
 	<!--FIRST CONTENT SECTION-->
 
 	<div id="content-sect1">
