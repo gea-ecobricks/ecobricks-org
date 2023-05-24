@@ -22,6 +22,91 @@
 	</div>
 </div>
 
+* {margin: 0; padding: 0;}
+
+#container
+{
+	width: 1000px;
+	overflow: hidden;
+	margin: 50px auto;
+	background: white;
+}
+
+.photobanner
+{
+	height: 233px;
+	width: 3550px;
+	margin-bottom: 80px;
+}
+
+.first
+{
+	-static-animation: bannermove 30s
+	-now-animation: bannermove 30s
+	-power-animation: bannermove 30s
+	-animation: bannermove 30s
+}
+
+@keyframes "bannermove"
+{
+	0%
+	{
+		margin-left: 0px;
+	}
+	100%
+	{
+		margin-left: -2125px;
+	}
+}
+
+@-static-animation "bannermove"
+{
+	0%
+	{
+		margin-left: 0px;
+	}
+	100%
+	{
+		margin-left: -2125px;
+	}
+}
+
+@-now-animation "bannermove"
+{
+	0%
+	{
+		margin-left: 0px;
+	}
+	100%
+	{
+		margin-left: -2125px;
+	}
+}
+
+@-power-animation "bannermove"
+{
+	0%
+	{
+		margin-left: 0px;
+	}
+	100%
+	{
+		margin-left: -2125px;
+	}
+}
+
+@-animation "bannermove"
+{
+	0%
+	{
+		margin-left: 0px;
+	}
+	100%
+	{
+		margin-left: -2125px;
+	}
+}
+
 <!--MAIN CONTENT-->
 		
 <BODY id="full-page"> 
