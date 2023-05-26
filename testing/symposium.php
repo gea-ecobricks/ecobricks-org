@@ -120,26 +120,23 @@
   z-index: 9;
   top: 224px;
 ">
-		<div class="big-header" style="color:white;">Earthen Ethics Symposium</div>
-		<div class="sub-text">Speakers, Events & Workshops</div>
-		<h2 id="demo" style="text-align:center"></h2>
-
+		<div id="container">
+			<div class="big-header" style="color:white;">Earthen Ethics Symposium</div>
+			<div class="sub-text">Speakers, Events & Workshops</div>
+			<h2 id="demo" style="text-align:center"></h2>
+			<div class="photobanner">
+				<img class="first" src="EES Banner Dates Static.png" alt="" />
+				<img src ="EES Banner Now.png" alt="" />
+				<img src ="EES Banner Power.png" alt="" />
+				<img src ="EES Banner Dates Animated.mp4" alt="" />
+				<img src ="EES Banner Dates Static.png" alt="" />
+				<img src ="EES Banner Now.png" alt="" />
+				<img src ="EES Banner Power.png" alt="" />
+				<img src ="EES Banner Dates Animated.mp4" alt="" />
+				<img src ="EES Banner Dates Static.png" alt="" />		
+				<img src ="EES Banner Now.png" alt="" />
+			</div>
 		</div>
-	<div id="container">
-
-		<div class="photobanner">
-			<img class="first" src="EES Banner Dates Static.png" alt="" />
-			<img src ="EES Banner Now.png" alt="" />
-			<img src ="EES Banner Power.png" alt="" />
-			<img src ="EES Banner Dates Animated.mp4" alt="" />
-			<img src ="EES Banner Dates Static.png" alt="" />
-			<img src ="EES Banner Now.png" alt="" />
-			<img src ="EES Banner Power.png" alt="" />
-			<img src ="EES Banner Dates Animated.mp4" alt="" />
-			<img src ="EES Banner Dates Static.png" alt="" />		
-			<img src ="EES Banner Now.png" alt="" />
-		</div>
-	</div>
 
 		
 	<!--FIRST CONTENT SECTION-->
@@ -174,7 +171,9 @@
 			<div class="lead-graphic"><img src="png/earthern-ethics-cycles.png" width="100%" height="100%" alt="eco bricks follow the Earth's example." style="opacity:0.4;filter:alpha(opacity=40);" max-width="700px" loading="lazy">
 			</div>
 			<div class="sub-text">
-	
+			</div>
+		</div>
+	</div>
 		
 	<!--THIRD CONTENT SECTION-->
 <!--
