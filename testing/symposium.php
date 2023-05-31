@@ -5,8 +5,10 @@
 <!-- Symposium Web Page:  Russell doing a little test-->
 
 <style>
-    margin: 0;
-    padding: 0;
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
     #container {
         width: 1000px;
