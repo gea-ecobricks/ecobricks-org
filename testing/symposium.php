@@ -94,7 +94,7 @@
         <div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" max-width="100%"></div>
         <div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" max-width="100%" max-height="31%"></div>
 
-        <div>
+    </div>
 
 
 
@@ -217,5 +217,6 @@
 
 
                 </div>
+    </div>
 </BODY>
 </html>
