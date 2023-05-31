@@ -5,10 +5,8 @@
 <!-- Symposium Web Page:  Russell doing a little test-->
 
 <style>
-    {
-        margin: 0;
-        padding: 0;
-    }
+    margin: 0;
+    padding: 0;
 
     #container {
         width: 1000px;
@@ -23,33 +21,24 @@
         margin-bottom: 80px;
     }
 
+    /*keyframe animations*/
     .first {
-        -static-animation: bannermove 30s linear infinite;
-        -now-animation: bannermove 30s linear infinite;
-        -power-animation: bannermove 30s linear infinite;
-        -animation: bannermove 30s linear infinite;
+        -webkit-animation: bannermove 30s linear infinite;
+        -moz-animation: bannermove 30s linear infinite;
+        -o-animation: bannermove 30s linear infinite;
+        animation: bannermove 30s linear infinite;
     }
 
-    @keyframes "bannermove" {
+    @keyframes bannermove {
         0% {
-            margin-left: 0px;
+        margin-left: 0px;
         }
         100% {
-            margin-left: -2125px;
+           margin-left: -2125px;
         }
     }
 
-    @-static-animation "bannermove" {
-        0% {
-            margin-left: 0px;
-        }
-
-        100% {
-            margin-left: -2125px;
-        }
-    }
-
-    @-now-animation "bannermove" {
+    @-webkit-keyframes bannermove {
         0% {
             margin-left: 0px;
         }
@@ -59,7 +48,7 @@
         }
     }
 
-    @-power-animation "bannermove" {
+    @-moz-keyframes bannermove {
         0% {
             margin-left: 0px;
         }
@@ -69,7 +58,7 @@
         }
     }
 
-    @-animation "bannermove" {
+    @-o-keyframes bannermove {
         0% {
             margin-left: 0px;
         }
@@ -82,6 +71,7 @@
 
 <!--MAIN CONTENT-->
 
+<html>
 <BODY id="full-page">
 
     <div id="load-background">
@@ -94,7 +84,7 @@
         <div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" max-width="100%"></div>
         <div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" max-width="100%" max-height="31%"></div>
 
-    </div>
+        </div>
 
 
 
@@ -130,7 +120,7 @@
                 <div id="content-sect1">
                     <div id="main-content">
                         <div id="dolphin-graphic">
-                            <img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
+                            <img src="svgs/dolphin-top-optimized.svg?v8" max-width="100%" max-height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
                             <!--
                                             <img src="svgs/earth-home-animated-v4.svg?v=2" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
                                         <!--<div class="big-header">Earthen Ethics Symposium</div>-->
@@ -157,7 +147,7 @@
                     <div id="content-sect2">
                         <div id="main-content">
                             <div class="lead-graphic">
-                                <img src="png/earthern-ethics-cycles.png" max-width="100%" max-height="100%" alt="eco bricks follow the Earth's example." style="opacity:0.4;filter:alpha(opacity=40);" max-width="700px" loading="lazy">
+                                <img src="png/earthern-ethics-cycles.png" max-height="100%" alt="eco bricks follow the Earth's example." style="opacity:0.4;filter:none;" max-width="700px" loading="lazy">
                             </div>
                             <div class="sub-text">
                             </div>
@@ -217,6 +207,6 @@
 
 
                 </div>
-    </div>
+            </div>
 </BODY>
 </html>
