@@ -103,16 +103,16 @@
                     <div class="sub-text">Speakers, Events & Workshops</div>
                     <h2 id="demo" style="text-align:center"></h2>
                     <div class="photobanner">
-                        <img class="first" src="EES Banner Dates Static.png" alt="" />
-                        <img src="EES Banner Now.png" alt="" />
-                        <img src="EES Banner Power.png" alt="" />
-                        <img src="EES Banner Dates Animated.mp4" alt="" />
-                        <img src="EES Banner Dates Static.png" alt="" />
-                        <img src="EES Banner Now.png" alt="" />
-                        <img src="EES Banner Power.png" alt="" />
-                        <img src="EES Banner Dates Animated.mp4" alt="" />
-                        <img src="EES Banner Dates Static.png" alt="" />
-                        <img src="EES Banner Now.png" alt="" />
+                        <img class="first" src="ees-banner-dates-static.png" alt="" />
+                        <img src="ees-banner-now.png" alt="" />
+                        <img src="ees-banner-power.png" alt="" />
+                        <img src="ees-banner-dates-animated.mp4" alt="" />
+                        <img src="ees-banner-dates-static.png" alt="" />
+                        <img src="ees-banner-now.png" alt="" />
+                        <img src="ees-banner-power.png" alt="" />
+                        <img src="ees-banner-dates-animated.mp4" alt="" />
+                        <img src="ees-banner-dates-static.png" alt="" />
+                        <img src="ees-banner-now.png" alt="" />
                     </div>
                 </div>
 
