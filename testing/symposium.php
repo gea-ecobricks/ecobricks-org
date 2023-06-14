@@ -1,4 +1,4 @@
-<!--PAGE LANGUAGE:  ENGLISH-->
+<!DOCTYPE=HTML>  <!--PAGE LANGUAGE:  ENGLISH-->
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
 <?php require_once ("includes/symp-inc.php");?>
 
@@ -69,6 +69,7 @@
         }
     }
 </style>
+</head>
 
 <!--MAIN CONTENT-->
 
@@ -121,7 +122,7 @@
                         <div id="dolphin-graphic">
                             <img src="svgs/dolphin-top-optimized.svg?v8" max-width="100%" max-height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
                             <!--
-                                            <img src="svgs/earth-home-animated-v4.svg?v=2" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
+                                            <img src="svgs/earth-home-animated-v4.svg?v=2" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">-->
                                         <!--<div class="big-header">Earthen Ethics Symposium</div>-->
 
                             <div class="sub-text">
