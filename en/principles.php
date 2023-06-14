@@ -81,12 +81,12 @@ Content Page template: v.1.0.1-->
 
 					<li><b><a href="https://book.earthen.io/energy" target="_blank">2. For-Earth:</a></b> In the same way that Earth’s cycles disperse  energy outwards from organism, to ecosystem to biosphere, so to can we with the enterprise of managing our plastic.  Rather than manage our plastic for personal or company profit, we can be sure to ecobrick first and foremost for the benefit of our local ecosystem and the global biosphere.</li>
 
-    				<li><b>2. For-Concentration:</b>  In the same way that Earth steadily subtracts, compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or industrially recycling.</li>
+    				<li><b>3. Towards Concentration:</b>  In the same way that Earth steadily subtracts, compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or industrially recycling.</li>
     
 				
-    				<li><b>Towards Diversity:</b>  In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
+    				<li><b>4. Towards Diversity:</b>  In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
 
-    				<li><b>Towards Awareness:</b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
+    				<li><b>5. Towards Awareness:</b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
 
 				</ul>
 				<br><br><hr>
