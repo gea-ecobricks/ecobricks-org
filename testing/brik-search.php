@@ -13,8 +13,8 @@ Content Page template: v.1.0.0-->
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" style="font-size:6em;">Search</div>
-	    <div class="splash-sub">Ecobrick Lookup</div>
+		<div class="splash-heading" style="font-size:6em;">Ecobrik Search</div>
+	    <div class="splash-sub">Lookup by serial, maker & location</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/svgs/search-brik2.svg" style="width: 85%">
     </div>	
@@ -35,13 +35,16 @@ Content Page template: v.1.0.0-->
 			<div class="lead-page-paragraph">
 				<p>Search our brikchain repository of authenticated ecobricks.</p>
                 
-                <input id="search_input" type="text" placeholder="Enter search term..." aria-label="Enter keywords..." style="font-size: large;padding:10px;"></input>
+                <input id="search_input" type="text" placeholder="Enter search term..." aria-label="Enter keywords..." style="font-size: 1.2em;
+border-radius: 5px;
+background: #80808029;
+padding: 10px;"></input>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
-                        <h6>Search by serial number, location and maker.  Our records go back to 2020.</h6>
+                        <p style="font-size:smaller">Search by serial number, location and maker.  Our records go back to 2020.</p>
 <br><br><br>
 
 <hr>
@@ -82,15 +85,12 @@ Content Page template: v.1.0.0-->
 		<div class="side">
 
 
-<?php require_once ("side-modules/good-use.php");?>
-
 <?php require_once ("side-modules/sequest-module.php");?>
 
 <?php require_once ("side-modules/spiral-design.php");?>
     
 <?php require_once ("side-modules/transition-module.php");?>
 
-<?php require_once ("side-modules/earthen-ethics.php");?>
 
 	
 		
