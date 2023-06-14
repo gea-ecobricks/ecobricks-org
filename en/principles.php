@@ -12,8 +12,6 @@ Content Page template: v.1.0.1-->
 
 <!--SPLASH SECTION-->
 
- 
-
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Our Earthen Principles</div>
@@ -22,7 +20,6 @@ Content Page template: v.1.0.1-->
 	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
-
 
 
 <!-- PAGE CONTENT-->
