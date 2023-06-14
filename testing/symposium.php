@@ -149,7 +149,7 @@
                     <div id="content-sect2">
                         <div id="main-content">
                             <div class="lead-graphic">
-                                <img src="png/earthern-ethics-cycles.png" max-height="100%" alt="eco bricks follow the Earth's example." style="opacity:0.4;filter:none;" max-width="100%" loading="lazy">
+                                <img src="png/earthern-ethics-cycles.png" height="700px" alt="eco bricks follow the Earth's example." style="opacity:0.4;filter:none;" width="700px" loading="lazy">
                             </div>
                             <div class="sub-text">
                             </div>
