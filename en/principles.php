@@ -24,9 +24,6 @@ Content Page template: v.1.0.1-->
 <div id="splash-bar"></div>
 
 
-	
-
-
 
 <!-- PAGE CONTENT-->
 
