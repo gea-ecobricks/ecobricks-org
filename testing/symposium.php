@@ -18,7 +18,7 @@
 
     .photobanner {
         height: 233px;
-        width: 3550px;
+        width: auto;
         margin-bottom: 80px;
     }
 
