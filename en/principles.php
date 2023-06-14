@@ -65,14 +65,14 @@ Content Page template: v.1.0.1-->
 						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example and participate in the continued enrichment of our common home.</p>
 
 						</div>
-						<div class="side2"><img src="webp/earthen-400px.webp" width="100%">
+						<div class="side2"><img src="svgs/following-earths-example.svg" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Following Earth's example of carbon care is the basis of <a href="https://book.earthen.io"  target="_blank">Earthen ethics</a>– five principles of green based on our planet's cosmological character.  </p>
 						</div>
-						<div class="side3"><img src="webp/earthen-400px.webp" width="150px">
+						<div class="side3"><img src="svgs/following-earths-example.svg" width="150px">
 						</div>
 					</div>
 				
