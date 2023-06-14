@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/build-inc.php");?>
+<?php require_once ("includes/search-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
@@ -13,10 +13,10 @@ Content Page template: v.1.0.0-->
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" style="font-size:xx-large;">Search</div>
+		<div class="splash-heading" style="font-size:6em">Search</div>
 	    <div class="splash-sub">Ecobrick Lookup</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/svgs/search-brik.svg2" style="width: 85%">
+	<div class="splash-image"><img src="https://ecobricks.org/svgs/search-brik2.svg" style="width: 85%">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -35,7 +35,7 @@ Content Page template: v.1.0.0-->
 			<div class="lead-page-paragraph">
 				<p>Search our brikchain repository of authenticated ecobricks.</p>
                 
-                <input></input>
+                <input font-size: large;></input>
     
 			</div>
 			
