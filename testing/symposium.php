@@ -14,7 +14,6 @@
         width: 1000px;
         overflow: hidden;
         margin: 50px auto;
-        background: white;
     }
 
     .photobanner {
@@ -106,11 +105,9 @@
                         <img class="first" src="ees-banner-dates-static.png" alt="" />
                         <img src="ees-banner-now.png" alt="" />
                         <img src="ees-banner-power.png" alt="" />
-                        <img src="ees-banner-dates-animated.mp4" alt="" />
                         <img src="ees-banner-dates-static.png" alt="" />
                         <img src="ees-banner-now.png" alt="" />
                         <img src="ees-banner-power.png" alt="" />
-                        <img src="ees-banner-dates-animated.mp4" alt="" />
                         <img src="ees-banner-dates-static.png" alt="" />
                         <img src="ees-banner-now.png" alt="" />
                     </div>
