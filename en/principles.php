@@ -336,20 +336,11 @@ Content Page template: v.1.0.1-->
 		<div class="side">
 
 
+		<?php require_once ("includes/earthen-ethics.php");?>
 
-		<div class="side-module-desktop-mobile">
-				<img src="icons/earthen-ethics-icon-ecobricks-org.svg?v=1" width="80%" alt="For-Earth Enterprise through eco bricking">
-				<h4>Earthen Ethics</h4>
-				<h5>Ecobrick principles are based on Earthen Ethics, the philosophy of folowing Earth's example.</h5><br>
-				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
-			</div>
+		<?php require_once ("includes/eco-accounting-principle.php");?>
 
-			<div class="side-module-desktop-mobile">
-				<img src="icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="70%" alt="For-Earth Enterprise through eco bricking">
-				<h4>Ecological Accounting</h4>
-				<h5>Just as Earth raised the awareness of interconnection of life, so too can we raise our our awareness of our impacts, by accounting for them.</h5><br>
-				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
-			</div>
+		
 
 			<div class="side-module-desktop-mobile">
 				<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
