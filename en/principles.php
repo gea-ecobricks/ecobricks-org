@@ -344,11 +344,9 @@ Content Page template: v.1.0.1-->
 				
 			</div>
             
-			<?php include 'side-modules/for-earth.php';?> 
-
 			<div class="side-module-desktop-mobile">
 					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
-					<h4>For-Earth B</h4>
+					<h4>For-Earth</h4>
 					<h5>Just as Earth dispersed energy out to all, so too can we with our process that manage used plastic.</h5><br>
 				</div>
 
@@ -356,22 +354,19 @@ Content Page template: v.1.0.1-->
 				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
 				<br><h4>Towards Concentration</h4>
 				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
-				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
+				<a class="module-btn" href="/plastic">Earth's Example</a>
                 <br>
 			</div>   
 
-			<?php include 'side-modules/cyclical-design.php';?> 
-			
+			<!--<?php include 'side-modules/cyclical-design.php';?> -->
+
 			<div class="side-module-desktop-mobile">
 				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
-				<br><h4>Cyclical Design B</h4>
+				<br><h4>Cyclical Design</h4>
 				<h5>Ecobricks and all their applicatins are designed for cycles of indefinite reuse.</h5><br>
-				<a class="module-btn" href="/circular">Circular Design</a>
+				<a class="module-btn" href="/circular">Learn More</a>
                 <br>
 			</div>   
-
-
-
 		</div>
 
 	</div>
