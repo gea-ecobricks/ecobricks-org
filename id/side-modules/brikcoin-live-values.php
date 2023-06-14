@@ -7,7 +7,7 @@ $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
 
-            echo'<div id="side-module-desktop-mobile">';
+            echo'<div class="side-module-desktop-mobile">';
 
         // output data of each row
         while($row = $result->fetch_assoc()) {
