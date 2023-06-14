@@ -333,9 +333,9 @@ Content Page template: v.1.0.1-->
 		<div class="side">
 
 
-		<?php require_once ("includes/earthen-ethics.php");?>
+		<?php require_once ("side-modules/earthen-ethics.php");?>
 
-		<?php require_once ("includes/eco-accounting-principle.php");?>
+		<?php require_once ("side-modules/eco-accounting-principle.php");?>
 
 		
 
@@ -346,7 +346,7 @@ Content Page template: v.1.0.1-->
 				
 			</div>
             
-			<?php require_once ("includes/for-earth.php");?>
+			<?php require_once ("side-modules/for-earth.php");?>
 
 			<div class="side-module-desktop-mobile">
 					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
@@ -362,7 +362,7 @@ Content Page template: v.1.0.1-->
                 <br>
 			</div>   
 
-			<?php require_once ("includes/spiral-design.php");?>
+			<?php require_once ("side-modules/spiral-design.php");?>
 
 			<div class="side-module-desktop-mobile">
 				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
