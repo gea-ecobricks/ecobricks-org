@@ -15,9 +15,9 @@ Content Page template: v.1.0.1-->
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Cyclical Design</div>
-		<div class="splash-sub">Ecobricks and all its applications are based on the principle of enriching cycles.</div>
+		<div class="splash-sub">Ecobricking and all ecobrick applications are guided by the Earthen principle of enriching cycles.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/icons/cyclical-design-icon-ecobricks-org.svg" style="width: 100%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/icons/cyclical-design-white.svg" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -31,12 +31,14 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Guided by Earth's example, ecobricking doesn't just prevent pollution, as a hands on experience of Earthen and regenerative principles, it embodies our transition from petro-capitalism to a green new world.</p>
+			<p>Ecobricks leverage the resilient properties of plastic to create reusable building blocks.  When we build with ecobricks we plan for the end of the application, for next life of every ecobrick and the enrichment of the ecosystem of which it is part</p>
 		</div>
 
 		<div class="page-paragraph">
 	
-		<p>The South East Asian ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines.  Our ecobricking is deeply guided by their concept of <a href="/ayyew">ayyew</a> an ecological ethos that emulates the very pattern by which planet Earth greened. Rising above the old paradigm of plastic 'waste' through ecobricking, our daily plastic becomes a valuable opportunity to follow the <a href="/plastic">Earth's example</a> of carbon care.</p>
+		<p>
+        Guided by the first principle of Earthen ethics, we ensure that not only are ecobricks indefinitely reusable, we also ensure that that each cycle steadily enriches the system of which it is part.  This means we plan for the destruction of our creations and each that both creation and destruction secure more carbon and plastic than they let loose.
+        </p>
         
 		</div>
 
@@ -332,7 +334,7 @@ Content Page template: v.1.0.1-->
 
 		<div class="side">
 
-		<?php include 'side-modules/earthen-ethics.php';?> 
+		<?php include 'side-modules/earthen-ethics-principle.php';?> 
 
 		<?php include 'side-modules/eco-accounting-principle.php';?> 
 
