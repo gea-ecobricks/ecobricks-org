@@ -16,8 +16,8 @@ Content Page template: v.1.0.1-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Our Regenerative Principles</div>
-		<div class="splash-sub">Ecobricking is guided by principles that point us towards ever increasing harmony with the ecological cycles of which we are a part.</div>
+		<div class="splash-heading">Our Earthen Principles</div>
+		<div class="splash-sub">Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.</div>
 	</div>
 	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;"></div>	
 </div>
@@ -37,12 +37,12 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Guided by regenerative principles, ecobricking doesn't just prevent pollution, as a hands on experience of the regenerative principles, it embodies our transition from petro-capitalism to a green new world.</p>
+			<p>Guided by Earth's example, ecobricking doesn't just prevent pollution, as a hands on experience of Earthen and regenerative principles, it embodies our transition from petro-capitalism to a green new world.</p>
 		</div>
 
 		<div class="page-paragraph">
 	
-		<p>The South East Asian ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines.  Inspired by their <a href="/ayyew">ayyew ecological ethos</a>, the work of the Global Ecobrick Alliance has come to be guided by regenerative principles to rise above the old paradigm of plastic 'waste'.  Instead, through ecobricking, our daily plastic becomes a valuable opportunity to follow the <a href="/plastic">the Earth's example</a> of care.</p>
+		<p>The South East Asian ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines.  Our ecobricking is deeply guided by their concept of <a href="/ayyew">ayyew</a> an ecological ethos that emulates the very pattern by which planet Earth greened. Rising above the old paradigm of plastic 'waste' through ecobricking, our daily plastic becomes a valuable opportunity to follow the <a href="/plastic">Earth's example</a> of carbon care.</p>
         
 		</div>
 
@@ -54,8 +54,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Following the Earth's Example</h4>
-                    <h5>We strive to emulate the ways the Earth cared for its carbon to green the biosphere.</h5>   
+                    <h4>Following Earth's Example</h4>
+                    <h5>We strive to emulate the ways Earth cared for its carbon to green the biosphere.</h5>   
                     <br>
                     </div>
 
@@ -66,11 +66,9 @@ Content Page template: v.1.0.1-->
 
                 <div class="row">
 						<div class="main2">
-						<div class="lead-panel-paragraph"><p>For the last billion years, the Earth has been slow and steady greening the surface of our common home.</p></div>
+						<div class="lead-panel-paragraph"><p>For the last billion years, Earth has been slow and steady greening the surface of our common home.</p></div>
 						
-						<p>The way that the Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic-- which happens to come from the Earth's ancient carbon stores-- we can emulate the Earth’s example and participate in the continued enrichment of our common home.</p>
-
-						 
+						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example and participate in the continued enrichment of our common home.</p>
 
 						</div>
 						<div class="side2"><img src="webp/earthen-400px.webp" width="100%">
@@ -78,30 +76,30 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Ecobricking is guided by the five Earthen Ethics:</p>
+						<p>Following Earth's example of carbon care is the basis of <a href="https://book.earthen.io"  target="_blank">Earthen ethics</a>– five principles of green based on our planet's cosmological character.  </p>
 						</div>
 						<div class="side3"><img src="webp/earthen-400px.webp" width="150px">
 						</div>
 					</div>
 				
 				<p><ul>
-					<li><b>Cycles that Spiral:</b>  In the same way that the Earth tended its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and circular buidlings, we can ensure that our plastic is  indefinitely reusable.</li>
+					<li><b><a href="https://book.earthen.io/spirals"  target="_blank">1. Cyclical:</a></b>  In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.</li>
 
-    				<li><b>Towards Concentration:</b>  In the same way that the Earth steadily subtracted, compacted and secured loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or recycling (where it eventually ends up loose again).</li>
+					<li><b><a href="https://book.earthen.io/energy" target="_blank">2. For-Earth:</a></b> In the same way that Earth’s cycles disperse  energy outwards from organism, to ecosystem to biosphere, so to can we with the enterprise of managing our plastic.  Rather than manage our plastic for personal or company profit, we can be sure to ecobrick first and foremost for the benefit of our local ecosystem and the global biosphere.</li>
+
+    				<li><b>2. For-Concentration:</b>  In the same way that Earth steadily subtracts, compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or industrially recycling.</li>
     
-					<li><b>For Biosphere Benefit:</b> In the same way that the Earth’s cycles dispersed more energy out-to-all to enrich than they saved for themselves, so to can we with the enterprise of managing our plastic.  Rather than manage our plastic for personal or company profit, we can be sure to ecobrick first and foremost for the benefit of our local ecosystem and the global biosphere.</li>
+				
+    				<li><b>Towards Diversity:</b>  In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
 
-
-    				<li><b>Towards Diversity:</b>  In the same way that the Earth’s cycles of carbon led to more and more biodiversity, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
-
-    				<li><b>Towards Awareness:</b> In the same way that the Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
+    				<li><b>Towards Awareness:</b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
 
 				</ul>
 				<br><br><hr>
 
 			
 				<h5>ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
-				<h5>ℹ️ Learn about: <a href="https://earthen.io/imagine" target="_blank">Earthen Ethics</a></h5>
+				<h5>ℹ️ Learn about: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></h5>
 
 
                 </div>
@@ -139,7 +137,7 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>By leading by example in following the Earth's example, we can be a powerful inspiration.</p>
+						<p>By leading by example in following Earth's example, we can be a powerful inspiration.</p>
 						</div>
 						<div class="side3"><img src="pngs/community.png" width="150px">
 						</div>
@@ -319,7 +317,7 @@ Content Page template: v.1.0.1-->
                 
                     <div class="main2">
 
-			<p>With this we move on from sustaining.  In so far as our modern enterprises work in ways that conflicts with the Earth’s example of carbon care, we strive to transition from them.  We also strive to heal and ‘regenerate’ any past damage that we are responsible for.  Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our green impacts.</p>
+			<p>With this we move on from sustaining.  In so far as our modern enterprises work in ways that conflicts with Earth’s example of carbon care, we strive to transition from them.  We also strive to heal and ‘regenerate’ any past damage that we are responsible for.  Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our green impacts.</p>
 
 			<br><br>
 			<p><a class="action-btn" href="/ayyew">🍃 About Ayyew</a></p>
@@ -345,21 +343,21 @@ Content Page template: v.1.0.1-->
 		<div id="side-module-desktop-mobile">
 				<img src="icons/earthen-ethics-icon-ecobricks-org.svg?v=1" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Earthen Ethics</h4>
-				<h5>Ecobrick principles are based on Earthen Ethics, the philosophy of folowing the Earth's example.</h5><br>
+				<h5>Ecobrick principles are based on Earthen Ethics, the philosophy of folowing Earth's example.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="70%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Ecological Accounting</h4>
-				<h5>Just as the Earth raised the awareness of interconnection of life, so too can we raise our our awareness of our impacts, by accounting for them.</h5><br>
+				<h5>Just as Earth raised the awareness of interconnection of life, so too can we raise our our awareness of our impacts, by accounting for them.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
 				<h4>Vitalizing Biodiversity</h4>
-				<h5>Just as the Earth has vitalized processes that diversify, so too can we.</h5><br>
+				<h5>Just as Earth has vitalized processes that diversify, so too can we.</h5><br>
 				
 			</div>
             
@@ -367,20 +365,20 @@ Content Page template: v.1.0.1-->
 			<div id="side-module-desktop-mobile">
 					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
 					<h4>For-Earth</h4>
-					<h5>Just as the Earth dispersed energy out to all, so too can we with our process that manage used plastic.</h5><br>
+					<h5>Just as Earth dispersed energy out to all, so too can we with our process that manage used plastic.</h5><br>
 					
 				</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following the Earth's example through eco bricking">
+				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
 				<br><h4>Towards Concentration</h4>
-				<h5>Just as the Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
+				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
 				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
                 <br>
 			</div>   
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following the Earth's example through eco bricking">
+				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
 				<br><h4>Cyclical Design</h4>
 				<h5>Ecobricks and all their applicatins are designed for cycles of indefinite reuse.</h5><br>
 				<a class="module-btn" href="/circular">Circular Design</a>
