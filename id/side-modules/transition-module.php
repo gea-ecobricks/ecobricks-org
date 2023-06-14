@@ -1,5 +1,5 @@
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Transisi Plastik</h4>
 				<h5>Membangun Ecobrick adalah teknologi transisi. Alih-alih melihat plastik sebagai 'limbah', kami melihatnya sebagai blok bangunan untuk visi hijau kami.</h5><br>
