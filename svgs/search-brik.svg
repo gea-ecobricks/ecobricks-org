@@ -34,7 +34,7 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="e9Hws3FmQn21" />
+     inkscape:current-layer="g58925" />
   <style
      id="style58903"><![CDATA[
 #e9Hws3FmQn27_to {animation: e9Hws3FmQn27_to__to 20000ms linear infinite normal forwards}@keyframes e9Hws3FmQn27_to__to { 0% {transform: translate(1276.930516px,-3134.848022px)} 55.5% {transform: translate(1936.546636px,-3134.848022px)} 100% {transform: translate(1936.546636px,-3134.848022px)}} #e9Hws3FmQn28_to {animation: e9Hws3FmQn28_to__to 20000ms linear infinite normal forwards}@keyframes e9Hws3FmQn28_to__to { 0% {transform: translate(991.096864px,-3134.848022px)} 56% {transform: translate(991.096864px,-3134.848022px)} 100% {transform: translate(1276.930516px,-3134.848022px)}} #e9Hws3FmQn29_to {animation: e9Hws3FmQn29_to__to 20000ms linear infinite normal forwards}@keyframes e9Hws3FmQn29_to__to { 0% {transform: translate(1718.126027px,-3055.81311px)} 11% {transform: translate(1927.004465px,-3055.81311px)} 100% {transform: translate(1927.004465px,-3055.81311px)}} #e9Hws3FmQn210_to {animation: e9Hws3FmQn210_to__to 20000ms linear infinite normal forwards}@keyframes e9Hws3FmQn210_to__to { 0% {transform: translate(1001.343177px,-3055.81311px)} 11% {transform: translate(1001.343177px,-3055.81311px)} 100% {transform: translate(1718.126027px,-3055.81311px)}} #e9Hws3FmQn211_to {animation: e9Hws3FmQn211_to__to 20000ms linear infinite normal forwards}@keyframes e9Hws3FmQn211_to__to { 0% {transform: translate(1330.349723px,-3304.970703px)} 67% {transform: translate(1859.012643px,-3304.970703px)} 100% {transform: translate(1859.012643px,-3304.970703px)}} #e9Hws3FmQn212_to {animation: e9Hws3FmQn212_to__to 20000ms linear infinite normal forwards}@keyframes e9Hws3FmQn212_to__to { 0% {transform: translate(1055.509673px,-3304.970703px)} 68% {transform: translate(1055.509673px,-3304.970703px)} 100% {transform: translate(1330.349723px,-3304.970703px)}}
@@ -59,7 +59,7 @@
          id="g58925">
         <g
            id="e9Hws3FmQn27_to"
-           transform="translate(1324.8108,-3065.8688)">
+           transform="translate(1307.9915,-2986.1733)">
           <path
              d="m 1213.041,-3143.6039 c -2.3667,7e-4 -4.6197,0.4925 -6.7036,1.3446 -3.1179,-13.6157 -14.622,-23.7284 -28.3469,-23.7283 -13.7297,-1e-4 -25.2346,10.1126 -28.3492,23.7281 -2.0827,-0.8527 -4.3412,-1.3439 -6.7054,-1.3438 -10.3245,-10e-5 -18.6932,8.9343 -18.6932,19.9477 0,11.0169 8.3687,19.9474 18.6932,19.9472 3.2396,2e-4 19.436,2e-4 35.0546,2e-4 15.6165,1e-4 31.8105,1e-4 35.0505,-2e-4 10.3235,2e-4 18.6929,-8.9303 18.6928,-19.9474 -10e-5,-11.0131 -8.3693,-19.9476 -18.6928,-19.9479 z"
              transform="translate(-1177.9881,3134.848)"
@@ -79,7 +79,7 @@
         </g>
         <g
            id="e9Hws3FmQn29_to"
-           transform="matrix(1.4198779,0,0,1.4198779,1729.4186,-3147.3879)">
+           transform="matrix(1.4198779,0,0,1.4198779,1729.4186,-3115.5097)">
           <path
              d="m 1760.0651,-3063.0585 c -2.0895,0 -4.0787,0.4069 -5.918,1.1126 -2.7525,-11.267 -12.9085,-19.6355 -25.0256,-19.6357 -12.1209,2e-4 -22.2778,8.3687 -25.0272,19.6356 -1.8383,-0.7054 -3.8327,-1.1124 -5.9196,-1.1124 -9.1149,-1e-4 -16.5029,7.3938 -16.5028,16.5076 -10e-5,9.1165 7.3878,16.5066 16.5029,16.5066 2.8597,3e-4 17.1583,0 30.9468,10e-5 13.7865,-10e-5 28.0831,-10e-5 30.9435,-10e-5 9.1137,0 16.5023,-7.3899 16.5023,-16.5068 0,-9.1136 -7.3887,-16.5074 -16.5023,-16.5075 z"
              transform="translate(-1729.1196,3055.8131)"
@@ -116,16 +116,6 @@
              fill="#ffffff"
              stroke-width="0.220161"
              id="path58922" />
-        </g>
-        <g
-           id="g61162"
-           transform="matrix(0.88641873,0,0,0.88641873,1566.7615,-2977.3065)">
-          <path
-             d="m 1739.7764,-3310.7427 c -1.6645,-6e-4 -3.2489,0.3244 -4.7145,0.8864 -2.1924,-8.9753 -10.2824,-15.6416 -19.9345,-15.6417 -9.6553,1e-4 -17.7463,6.6665 -19.9365,15.6415 -1.4644,-0.5619 -3.053,-0.886 -4.7154,-0.8862 -7.2605,2e-4 -13.1458,5.89 -13.1458,13.1496 -2e-4,7.2624 5.8852,13.1489 13.1459,13.1492 2.2777,0 13.6682,-4e-4 24.6518,0 10.9819,0 22.3703,0 24.6489,0 7.2597,0 13.1456,-5.8869 13.1455,-13.1493 0,-7.2596 -5.8859,-13.1493 -13.1454,-13.1495 z"
-             transform="translate(-1715.1258,3304.9707)"
-             fill="#ffffff"
-             stroke-width="0.220161"
-             id="path61160" />
         </g>
       </g>
       <mask
