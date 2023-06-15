@@ -59,8 +59,8 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed1">
 
                 <div class="row">
-						<div class="lead-panel-paragraph"><p>For the last billion years, Earth has been slow and steady greening the surface of our common home.</p></div>
-						
+						<div class="lead-panel-paragraph"><p>For the last billion years, Earth has been slow and steady greened our common home.</p></div>
+
 						<div class="main2">
 
 						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere while providing us an example to follow.  By following same principles with our modern process we can make sure they are green.  In particular, with our plastic  (which come from Earth's ancient carbon process!) we can emulate Earth’s example and contribute to the ecosystems and biomes of which we are a part.</p>

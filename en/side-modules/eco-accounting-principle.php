@@ -5,4 +5,5 @@
 				<h4>Ecological Accounting</h4>
 				<h5>Accounting for our grey and green ecological impacts is a key component of regenerative enterprise.</h5><br>
 				<a class="module-btn" href="regenreports.php" target="_blank">See Ours</a>
-			</div>
+				<h6 style="font-size:smaller">↗️ See how we account</h6>
+</div>
