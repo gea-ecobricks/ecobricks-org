@@ -31,7 +31,7 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Guided by Earth's example, ecobricking doesn't just prevent pollution, as a hands on experience of Earthen and regenerative principles, it embodies our transition from petro-capitalism to a green new world.</p>
+			<p>Guided by Earth's example, ecobricking doesn't just prevent pollution. As a hands on experience of Earthen and regenerative principles, ecobricking embodies our transition from petro-capitalism to a green new world.</p>
 		</div>
 
 		<div class="page-paragraph">
@@ -59,11 +59,11 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed1">
 
                 <div class="row">
-						<div class="lead-panel-paragraph"><p>For the last billion years, Earth has been slow and steady greened our common home.</p></div>
+						<div class="lead-panel-paragraph"><p>For the last billion years, Earth has been slow and steady greening our common home.</p></div>
 
 						<div class="main2">
 
-						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere while providing us an example to follow.  By following same principles with our modern process we can make sure they are green.  In particular, with our plastic  (which come from Earth's ancient carbon process!) we can emulate Earth’s example and contribute to the ecosystems and biomes of which we are a part.</p>
+						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere while providing us an example to follow.  By following the our planet's principles, we can make sure our modern ways are green too are green.  And our plastic  (which is made using ancient compacted carbon) is the perfect place to start!</p>
 
 						</div>
 						<div class="side2"><img src="svgs/following-earths-example.svg" width="100%">
@@ -375,8 +375,8 @@ Content Page template: v.1.0.1-->
 				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
 				<br><h4>Cyclical Design</h4>
 				<h5>Ecobricks and all their applicatins are designed for cycles of indefinite reuse.</h5><br>
-				<a class="module-btn" hrmore onef="cyclical-design.php">Learn More</a>
-				<h6 style="font-size:smaller">More on this Earthen principle</h6>
+				<a class="module-btn" href="cyclical-design.php">Learn More</a>
+				<h6 style="font-size:smaller">The principle of enriching cycles</h6>
 
                 <br>
 			</div>   
