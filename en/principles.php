@@ -7,7 +7,7 @@ Content Page template: v.1.0.1-->
 <?php require_once ("includes/principles-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!--<?php require_once ("translate-please.php");?>-->
 
 
 <!--SPLASH SECTION-->
@@ -355,7 +355,7 @@ Content Page template: v.1.0.1-->
 					<h4>For-Earth</h4>
 					<h5>Just as Earth dispersed energy out to all, so too can we with our enterprises that manage used plastic.</h5><br>
 					<a class="module-btn" href="about">Our Example</a>
-				<h6 style="font-size:smaller">Learn how we do it</h6>
+				<h6 style="font-size:smaller">See how we do it</h6>
 
 				</div>
 
