@@ -129,7 +129,6 @@ deployment:
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
 
-  - /bin/cp principles.php $DEPLOYPATH
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
@@ -172,7 +171,6 @@ deployment:
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
 
-  - /bin/cp principles.php $DEPLOYPATH
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
@@ -220,7 +218,6 @@ deployment:
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
 
-  - /bin/cp principles.php $DEPLOYPATH
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
@@ -267,7 +264,6 @@ deployment:
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
 
-  - /bin/cp principles.php $DEPLOYPATH
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
@@ -317,7 +313,6 @@ deployment:
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
 
-  - /bin/cp principles.php $DEPLOYPATH
   - /bin/cp brikchain.php $DEPLOYPATH
   - /bin/cp brickable.php $DEPLOYPATH
   - /bin/cp open-books.php $DEPLOYPATH
