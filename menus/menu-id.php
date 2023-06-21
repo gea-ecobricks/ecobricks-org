@@ -25,8 +25,7 @@
 
     <div class="topnav" id="myTopnav">
         <div class="dropdown">
-                  <button class="dropbtn">
-                    <div id="menu-circle"><img src="svgs/grey-emblem.svg" width="30px" height="30px" alt="Global Ecobrick Alliance Emblem"></div><div id="menu-text">GEA Servers</div>
+                  <button type="button" aria-label="GEA service menu" class="dropbtn" id="menu-circle"><img src="svgs/grey-emblem.svg" width="30" height="30" alt="Buka site menu"><!--<span class="menu-text">GEA Servers</span>-->
                 </button>
                   <div class="dropdown-content-app">
                     <a href="https://gobrik.com" target="_blank" rel="noopener">
