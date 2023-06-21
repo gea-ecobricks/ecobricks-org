@@ -77,7 +77,7 @@
                 </button>
                 <div class="dropdown-content-normal">
                     <a href="about.php">Global Ecobrick Alliance</a>
-                    <a href="principles.php">Princip</a>
+                    <a href="principles.php">Princip Bumi</a>
                     <a href="brikchain.php">Brikchain Explorer</a>
                     <a href="open-books.php">Open Books</a>
                     <a href="ayyew">Ayyew Ethos</a>
