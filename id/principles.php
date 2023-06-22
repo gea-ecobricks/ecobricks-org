@@ -36,7 +36,7 @@ Content Page template: v.1.0.1-->
 		
 		</div>
 
-<!-- Accordiion starts-->
+		<!-- Accordiion starts-->
 	
 		<a name="EARTH-EXAMPLE"></a>
 
@@ -355,9 +355,9 @@ Content Page template: v.1.0.1-->
 				<a class="module-btn" href="about">Contoh Kami</a>
 			<h6 style="font-size:smaller">Lihat bagaimana kami melakukannya</h6>
 
-			</div>
+		</div>
 
-			<div class="side-module-desktop-mobile">
+		<div class="side-module-desktop-mobile">
 			<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Mengikuti contoh Bumi melalui ecobrick">
 			<br><h4>Menuju Konsentrasi</h4>
 			<h5>Seperti halnya Bumi mengkonsentrasikan dan mengamankan karbon untuk menghijaukan biosfer, demikian juga kita dapat melakukan hal yang sama dengan plastik melalui ecobricking.</h5><br>
@@ -366,7 +366,8 @@ Content Page template: v.1.0.1-->
 
             <br>
 		</div>   
-
+	</div>
+</div>
             
            
 
