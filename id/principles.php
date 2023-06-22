@@ -63,14 +63,14 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Following Earth's example is the basis of <a href="https://book.earthen.io"  target="_blank">Earthen ethics</a>: five principles of green based on our planet's cosmological character.  </p>
+						<p>Mengikuti contoh Bumi adalah dasar dari <a href="https://book.earthen.io" target="_blank">etika Bumi</a>: lima prinsip hijau berdasarkan karakter kosmologis planet kita.</p>
 						</div>
 						<div class="side3"><img src="svgs/following-earths-example.svg" width="150px">
 						</div>
 					</div>
 				
 				<p><ul>
-					<li><b><a href="https://book.earthen.io/spirals"  target="_blank">1. Cyclical:</a></b>  In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.</li>
+					<li><b><a href="https://book.earthen.io/spirals"  target="_blank">1. Cyclical:</a></b>Dengan cara yang sama seperti Bumi cenderung karbonnya menuju siklus penggunaan kembali yang tidak terbatas, demikian juga kita dengan plastik kita. Dengan mengemas plastik kami ke dalam ecobrick dan menggunakan ecobrick kami dengan benar, kami dapat memastikan bahwa plastik kami dapat digunakan berulang kali tanpa batas.</li>
 
 					<li><b><a href="https://book.earthen.io/energy" target="_blank">2. For-Earth:</a></b> In the same way that Earth’s cycles disperse  energy outwards from organism, to ecosystem to biosphere, so to can we.  In particular: with the enterprise of managing our plastic.  Rather than manage our plastic for profit, we can be sure to ecobrick first and foremost for the benefit of the biosphere.</li>
 
@@ -320,7 +320,7 @@ Content Page template: v.1.0.1-->
 			<p style="font-size: 0.85em; margin-top:20px;">How does ecobricking compare over a thousand years with other plastic management options?</a></p>
 		</div>
 	</div>
-</div>
+
 
 	<div class="side">
 
