@@ -18,23 +18,28 @@ Content Page template: v.1.0.1-->
 <!-- PAGE CONTENT-->
 
 <a name="top"></a>
+
 <div id="main-content">
+
 <!-- The flexible grid (content) -->
 <div class="row">
+
 	<div class="main">
+		
 		<div class="lead-page-paragraph">				
 		<p>Dipandu oleh contoh dari Bumi, ecobricking tidak hanya mencegah polusi. Sebagai pengalaman langsung terhadap prinsip-prinsip Bumi yang berkelanjutan, ecobricking mewujudkan transisi kita dari petro-kapitalisme ke dunia baru yang ramah lingkungan.</p>
 		</div>
 
 		<div class="page-paragraph">
 
-		<p>Gerakan ecobrick Asia Tenggara muncul dari tanah leluhur orang Igorot di Filipina Utara. Ecobricking kami tetap terinspirasi oleh konsep mereka tentang <a href="/ayyew">ayyew</a> - etos ekologis yang meniru prinsip-prinsip yang sama dengan Bumi yang menghijaukan permukaan planet kita.</p>
+			<p>Gerakan ecobrick Asia Tenggara muncul dari tanah leluhur orang Igorot di Filipina Utara. Ecobricking kami tetap terinspirasi oleh konsep mereka tentang <a href="/ayyew">ayyew</a> - etos ekologis yang meniru prinsip-prinsip yang sama dengan Bumi yang menghijaukan permukaan planet kita.</p>
 		
 		</div>
 
-
+<!-- Accordiion starts-->
 	
 		<a name="EARTH-EXAMPLE"></a>
+
         <div class="reg-content-block" id="block1">
 
             <div class="opener-header">
@@ -46,11 +51,12 @@ Content Page template: v.1.0.1-->
                 </div>
 
                 <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+
             </div>
 
             <div id="preclosed1">
 
-            <div class="row">
+            	<div class="row">
 					<div class="lead-panel-paragraph"><p>Selama satu miliar tahun terakhir, Bumi telah secara perlahan menghijaukan rumah bersama kita.</p></div>
 
 					<div class="main2">
@@ -63,30 +69,30 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Mengikuti contoh Bumi adalah dasar dari <a href="https://book.earthen.io" target="_blank">etika Bumi</a>: lima prinsip hijau berdasarkan karakter kosmologis planet kita.</p>
+						<p>Mengikuti contoh Bumi adalah dasar dari <a href="https://book.earthen.io" target="_blank">Silat Bumi</a>: lima prinsip hijau berdasarkan karakter kosmologis planet kita.</p>
 						</div>
 						<div class="side3"><img src="svgs/following-earths-example.svg" width="150px">
 						</div>
 					</div>
 				
 				<p><ul>
-					<li><b><a href="https://book.earthen.io/spirals"  target="_blank">1. Cyclical:</a></b>Dengan cara yang sama seperti Bumi cenderung karbonnya menuju siklus penggunaan kembali yang tidak terbatas, demikian juga kita dengan plastik kita. Dengan mengemas plastik kami ke dalam ecobrick dan menggunakan ecobrick kami dengan benar, kami dapat memastikan bahwa plastik kami dapat digunakan berulang kali tanpa batas.</li>
+					<li><b><a href="https://book.earthen.io/spirals"  target="_blank">1. Cyclical:</a>  </b>Dengan cara yang sama seperti Bumi cenderung karbonnya menuju siklus penggunaan kembali yang tidak terbatas, demikian juga kita dengan plastik kita. Dengan mengemas plastik kami ke dalam ecobrick dan menggunakan ecobrick kami dengan benar, kami dapat memastikan bahwa plastik kami dapat digunakan berulang kali tanpa batas.</li>
 
-					<li><b><a href="https://book.earthen.io/energy" target="_blank">2. For-Earth:</a></b> In the same way that Earth’s cycles disperse  energy outwards from organism, to ecosystem to biosphere, so to can we.  In particular: with the enterprise of managing our plastic.  Rather than manage our plastic for profit, we can be sure to ecobrick first and foremost for the benefit of the biosphere.</li>
+					<li><b><a href="https://book.earthen.io/energy" target="_blank">2. Untuk-Earth:</a> </b> Dengan cara yang sama siklus Bumi menyebarkan energi keluar dari organisme, ke ekosistem ke biosfer, demikian juga kita. Secara khusus: dengan perusahaan yang mengelola plastik kami. Daripada mengelola plastik kita untuk keuntungan, kita bisa yakin untuk ecobrick pertama dan terutama untuk kepentingan biosfer.</li>
 
-    				<li><b>3. Towards Concentration:</b>  In the same way that Earth steadily compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or industrially recycling.</li>
+    				<li><b>3. Menuju Pemusatan:</b> Dengan cara yang sama seperti Bumi secara mantap memadatkan dan mengamankan karbon lepas ke dalam penyimpanan terkonsentrasi jangka panjang, demikian pula kita dengan plastik kita. Dengan memadatkan dan memusatkan plastik kita ke dalam botol, kita dapat memastikan karbon plastik kita tidak terlepas melalui pembuangan, pembakaran, atau daur ulang industri.</li>
     
 				
-    				<li><b>4. Towards Diversity:</b>  In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
+    				<li><b>4. Menuju Keanekaragaman:</b> Dengan cara yang sama seperti siklus karbon Bumi mengarah pada semakin banyak keanekaragaman hayati, kita juga dapat memastikan bahwa siklus plastik ecobrick kita melakukan hal yang sama. Daripada menggunakan plastik hanya untuk manusia, kita bisa membangun ruang hijau yang menyediakan rumah bersama bagi kita, hewan dan tumbuhan!</li>
 
-    				<li><b>5. Towards Awareness:</b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
+    				<li><b>5. Menuju Kesadaran:</b> Dengan cara yang sama seperti Bumi memupuk tingkat kesadaran yang lebih tinggi, kita juga dapat mengelola plastik kita! Daripada membuangnya begitu saja, kita dapat menghitung berapa banyak yang kita gunakan setiap bulan, berapa banyak kita membuat ecobrick dan melacak transisi kita dari plastik dan sistem modal petro yang diwakilinya.</li>
 
 				</ul>
 				<br><br><hr>
 
 			
-				<h5>ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
-				<h5>ℹ️ Learn about: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></h5>
+				<h5>ℹ️Belajar tentang: <a href="/plastic">Cerita Panjang Plastik</a></h5>
+				<h5>ℹ️ Belajar tentang:: <a href="https://book.earthen.io" target="_blank">Silat Bumi</a></h5>
 
 
                 </div>
@@ -100,8 +106,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Leading by Example</h4>
-                    <h5>Be the change you want to see in the world.</h5>   
+                    <h4>Memimpin dengan memberi contoh</h4>
+                    <h5>Jadilah perubahan yang ingin Anda lihat di dunia.</h5>   
                     <br>
                     </div>
 
