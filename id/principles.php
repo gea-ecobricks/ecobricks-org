@@ -55,7 +55,7 @@ Content Page template: v.1.0.1-->
 
 					<div class="main2">
 
-						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere while providing us an example to follow.  By following the our planet's principles, we can make sure our modern ways are green too are green.  And our plastic  (which is made using ancient compacted carbon) is the perfect place to start!</p>
+						<p>Cara Bumi berputar dan menyimpan karbon telah menyebabkan berkembangnya biosfer sambil memberi kita contoh untuk diikuti. Dengan mengikuti prinsip planet kita, kita dapat memastikan cara modern kita juga hijau. Dan plastik kami (yang dibuat menggunakan karbon padat kuno) adalah tempat yang tepat untuk memulai!</p>
 
 						</div>
 						<div class="side2"><img src="svgs/following-earths-example.svg" width="100%">
@@ -307,22 +307,20 @@ Content Page template: v.1.0.1-->
                 
                     <div class="main2">
 
-					<p>Dengan ini kita beralih dari 'mempertahankan'. Sejauh perusahaan modern kami bekerja dengan cara yang bertentangan dengan contoh perawatan karbon Bumi, kami berusaha untuk beralih dari mereka. Kami juga berusaha untuk menyembuhkan dan 'meregenerasi' kerusakan masa lalu yang menjadi tanggung jawab kami. Terakhir, berbeda dengan fokus keberlanjutan untuk meminimalkan dampak abu-abu, sebaliknya kami berusaha dengan semangat menyinkronkan dengan siklus Bumi untuk meningkatkan dampak hijau kami.</p>
+			<p>With this we move on from 'sustaining'.  In so far as our modern enterprises work in ways that conflicts with Earth’s example of carbon care, we strive to transition from them.  We also strive to heal and ‘regenerate’ any past damage that we are responsible for.  Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our green impacts.</p>
 
-					<br><br>
-					<p><a class="action-btn" href="/ayyew">🍃 Tentang Ayyew</a></p>
-					<p style="font-size: 0.85em; margin-top:20px;">Pelajari tentang tradisi kearifan lokal yang mendasari gerakan ecobrick regeneratif.</a></p>
-										
-					</div>
+			<br><br>
+			<p><a class="action-btn" href="/ayyew">🍃 About Ayyew</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">Learn about the indigenous wisdom tradition that underlies the regenerative ecobrick movement.</a></p>
+                    
+		</div>
 
-			<div class="side2">
-				<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
-				<p style="font-size: 0.85em; margin-top:20px;">Bagaimana ecobrick dibandingkan selama seribu tahun dengan opsi pengelolaan plastik lainnya?</a></p>
-			</div>
+         <div class="side2">
+			<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
+			<p style="font-size: 0.85em; margin-top:20px;">How does ecobricking compare over a thousand years with other plastic management options?</a></p>
 		</div>
 	</div>
-</DIV>
-	
+</div>
 
 	<div class="side">
 
