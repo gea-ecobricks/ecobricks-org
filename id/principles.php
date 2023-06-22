@@ -305,33 +305,7 @@ Content Page template: v.1.0.1-->
 
 		<br><br>
 					
-		<div class="lead-page-paragraph"><p><b>Sustainability vs Regenerative</p></b></div>
-
-		<div class="page-paragraph">    
-		
-			<p>It can be helpful to better understand what we mean by regenerative by clarifying what it is now.  Ecobricking is often mistaken a ‘sustainable’ technology.  ‘Sustainability’  tends to refer to the virtue of enabling our current human systems and current way of life to continue.  Here, guided by the Earthen principles above, ecobricking technology is <i>not this</i>.  Instead, as regenerative technology, we strive to transition from sustaining the current human systems that deplete ecosystems to ways of living that enrich.</p>
-
-			<p>In this way, our principles are not anti-industry, nor anti-petro-capital.  Without them, we would not have come to the principles we now hold.  We acknowledge that yesterday’s use of Earth gifted carbon has been an important formative phase that sets us on our current course-correction.</p>
-		
-		<div class="row">
-			
-			<div class="main2">
-
-				<p>With this we move on from 'sustaining'.  In so far as our modern enterprises work in ways that conflicts with Earth’s example of carbon care, we strive to transition from them.  We also strive to heal and ‘regenerate’ any past damage that we are responsible for.  Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our green impacts.</p>
-
-				<br><br>
-				<p><a class="action-btn" href="/ayyew">🍃 About Ayyew</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;">Learn about the indigenous wisdom tradition that underlies the regenerative ecobrick movement.</a></p>
-			
-			</div>
-
-			<div class="side2">
-				<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
-				<p style="font-size: 0.85em; margin-top:20px;">How does ecobricking compare over a thousand years with other plastic management options?</a></p>
-			</div>
-		</div>
-		
-
+	
 		
 	</div>
 
