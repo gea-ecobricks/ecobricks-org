@@ -304,6 +304,36 @@ Content Page template: v.1.0.1-->
 		</div>
 
 		<br><br>
+
+		<div class="lead-page-paragraph"><p><b>Sustainability vs. Regeneratif</p></b></div>
+
+<div class="page-paragraph">    
+
+<p>Akan sangat membantu untuk lebih memahami apa yang kami maksud dengan regeneratif dengan mengklarifikasi apa yang dimaksud dengan regeneratif sekarang. Ecobricking sering disalahartikan sebagai teknologi ‘berkelanjutan’. 'Keberlanjutan' cenderung mengacu pada keutamaan yang memungkinkan sistem manusia kita saat ini dan cara hidup saat ini untuk terus berlanjut. Di sini, dengan berpedoman pada prinsip-prinsip Bumi di atas, teknologi ecobrick <i>bukan seperti ini</i>. Sebagai gantinya, sebagai teknologi regeneratif, kami berusaha untuk beralih dari mempertahankan sistem manusia saat ini yang menguras ekosistem ke cara hidup yang memperkaya.</p>
+
+<p>Dengan cara ini, prinsip kami bukanlah anti-industri, atau anti-modal petrokimia. Tanpa mereka, kita tidak akan sampai pada prinsip yang kita pegang sekarang. Kami mengakui bahwa penggunaan karbon yang diberikan Bumi kemarin telah menjadi fase formatif penting yang mengarahkan kami pada koreksi arah kami saat ini.</p>
+</div>
+
+
+<div class="row">
+	
+	<div class="main2">
+
+	<p>Dengan ini kita beralih dari 'sustainbility'. Sejauh perusahaan modern kami bekerja dengan cara yang bertentangan dengan contoh perawatan karbon Bumi, kami berusaha untuk beralih dari mereka. Kami juga berusaha untuk menyembuhkan dan 'meregenerasi' kerusakan masa lalu yang menjadi tanggung jawab kami. Terakhir, berbeda dengan fokus keberlanjutan untuk meminimalkan dampak abu-abu, sebaliknya kami berusaha dengan semangat menyinkronkan dengan siklus Bumi untuk meningkatkan dampak hijau kami.</p>
+
+		<br><br>
+		<p><a class="action-btn" href="/ayyew">🍃 Untuk Ayyew</a></p>
+		<p style="font-size: 0.85em; margin-top:20px;">Pelajari tentang tradisi kearifan lokal yang mendasari gerakan ecobrick regeneratif.</a></p>
+	
+	</div>
+
+	<div class="side2">
+		<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
+		<p style="font-size: 0.85em; margin-top:20px;">Bagaimana ecobrick dibandingkan selama seribu tahun dengan opsi pengelolaan plastik lainnya?</a></p>
+	</div>
+</div>
+
+
 					
 	
 		
