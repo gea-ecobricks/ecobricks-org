@@ -20,17 +20,17 @@ Content Page template: v.1.0.1-->
 <a name="top"></a>
 <div id="main-content">
 <!-- The flexible grid (content) -->
-	<div class="row">
-		<div class="main">
+<div class="row">
+	<div class="main">
 		<div class="lead-page-paragraph">				
 		<p>Dipandu oleh contoh dari Bumi, ecobricking tidak hanya mencegah polusi. Sebagai pengalaman langsung terhadap prinsip-prinsip Bumi yang berkelanjutan, ecobricking mewujudkan transisi kita dari petro-kapitalisme ke dunia baru yang ramah lingkungan.</p>
-	</div>
+		</div>
 
-	<div class="page-paragraph">
+		<div class="page-paragraph">
 
-	<p>Gerakan ecobrick Asia Tenggara muncul dari tanah leluhur orang Igorot di Filipina Utara. Ecobricking kami tetap terinspirasi oleh konsep mereka tentang <a href="/ayyew">ayyew</a> - etos ekologis yang meniru prinsip-prinsip yang sama dengan Bumi yang menghijaukan permukaan planet kita.</p>
-    
-	</div>
+		<p>Gerakan ecobrick Asia Tenggara muncul dari tanah leluhur orang Igorot di Filipina Utara. Ecobricking kami tetap terinspirasi oleh konsep mereka tentang <a href="/ayyew">ayyew</a> - etos ekologis yang meniru prinsip-prinsip yang sama dengan Bumi yang menghijaukan permukaan planet kita.</p>
+		
+		</div>
 
 
 	
@@ -307,30 +307,28 @@ Content Page template: v.1.0.1-->
                 
                     <div class="main2">
 
-			<p>With this we move on from 'sustaining'.  In so far as our modern enterprises work in ways that conflicts with Earth’s example of carbon care, we strive to transition from them.  We also strive to heal and ‘regenerate’ any past damage that we are responsible for.  Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our green impacts.</p>
+					<p>Dengan ini kita beralih dari 'mempertahankan'. Sejauh perusahaan modern kami bekerja dengan cara yang bertentangan dengan contoh perawatan karbon Bumi, kami berusaha untuk beralih dari mereka. Kami juga berusaha untuk menyembuhkan dan 'meregenerasi' kerusakan masa lalu yang menjadi tanggung jawab kami. Terakhir, berbeda dengan fokus keberlanjutan untuk meminimalkan dampak abu-abu, sebaliknya kami berusaha dengan semangat menyinkronkan dengan siklus Bumi untuk meningkatkan dampak hijau kami.</p>
 
-			<br><br>
-			<p><a class="action-btn" href="/ayyew">🍃 About Ayyew</a></p>
-			<p style="font-size: 0.85em; margin-top:20px;">Learn about the indigenous wisdom tradition that underlies the regenerative ecobrick movement.</a></p>
-                    
-		</div>
+					<br><br>
+					<p><a class="action-btn" href="/ayyew">🍃 Tentang Ayyew</a></p>
+					<p style="font-size: 0.85em; margin-top:20px;">Pelajari tentang tradisi kearifan lokal yang mendasari gerakan ecobrick regeneratif.</a></p>
+										
+					</div>
 
-         <div class="side2">
-			<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
-			<p style="font-size: 0.85em; margin-top:20px;">How does ecobricking compare over a thousand years with other plastic management options?</a></p>
+			<div class="side2">
+				<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
+				<p style="font-size: 0.85em; margin-top:20px;">Bagaimana ecobrick dibandingkan selama seribu tahun dengan opsi pengelolaan plastik lainnya?</a></p>
+			</div>
 		</div>
 	</div>
-</div>
-
-
-		</DIV>
+</DIV>
 	
 
 	<div class="side">
 
-	<?php include 'side-modules/earthen-ethics-principle.php';?> 
+		<?php include 'side-modules/earthen-ethics-principle.php';?> 
 
-	<?php include 'side-modules/eco-accounting-principle.php';?> 
+		<?php include 'side-modules/eco-accounting-principle.php';?> 
 
 	
 		<div class="side-module-desktop-mobile">
