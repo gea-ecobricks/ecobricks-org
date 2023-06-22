@@ -9,7 +9,6 @@ Content Page template: v.1.0.1-->
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
 
-
 <!--SPLASH SECTION-->
 
 <div class="splash-content-block">
@@ -39,9 +38,6 @@ Content Page template: v.1.0.1-->
 		<p>The South East Asian ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines.  Our ecobricking is remains inspired by their concept of <a href="/ayyew">ayyew</a>— an ecological ethos that emulates the very principles by which Earth greened our planet's surface.
         
 		</div>
-
-
-		
 			<a name="EARTH-EXAMPLE"></a>
             <div class="reg-content-block" id="block1">
 
