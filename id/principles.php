@@ -219,8 +219,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Mandalic Collaboration</h4>
-                    <h5>The Commodification of Sequestered Plastic</h5>   
+                    <h4>Kolaborasi Mandalik</h4>
+                    <h5>Our intentions are powered by mandalic community collaboration.</h5>   
                     <br>
                     </div>
 
@@ -228,8 +228,6 @@ Content Page template: v.1.0.1-->
                 </div>
 
                 <div id="preclosed4">
-
-				<div class="lead-panel-paragraph"><p>Our intentions are powered by mandalic community collaboration.</p></div>
 
 				<div class="row">
 						<div class="main2">
@@ -330,6 +328,7 @@ Content Page template: v.1.0.1-->
 	</div>
 	</div>
 	</div>
+</div>
 
 
 	<div class="side">
