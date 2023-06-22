@@ -42,6 +42,7 @@ deployment:
   - /bin/cp details-brk-trans.php $DEPLOYPATH
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
+  - /bin/cp languages.php $DEPLOYPATH
 
 
 
