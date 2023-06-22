@@ -106,9 +106,9 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Memimpin dengan memberi contoh</h4>
-                    <h5>Jadilah perubahan yang ingin Anda lihat di dunia.</h5>   
-                    <br>
+						<h4>Memimpin dengan memberi contoh</h4>
+						<h5>Jadilah perubahan yang ingin Anda lihat di dunia.</h5>   
+						<br>
                     </div>
 
                     <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
@@ -116,35 +116,37 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed2">
 
-				<div class="lead-panel-paragraph"><p>
-					We strive to lead by example with our plastic transition and regenerative living.</p></div>
+					<div class="lead-panel-paragraph"><p>
+					Kami berusaha untuk memimpin dengan memberi contoh dengan transisi plastik dan kehidupan regeneratif kami.</p></div>
 					
 					<div class="row">
 						<div class="main2">
 						
-						<p>Ghandi challenged us all to <i>“be the change you want to see in the world“</i>.  Simple and powerful, this is a fundamental principle of the ecobrick and Earthen movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
+						<p>Ghandi menantang kita semua untuk <i>“menjadi perubahan yang ingin Anda lihat di dunia“</i>. Sederhana dan kuat, ini adalah prinsip dasar gerakan Ecobrick dan Tanah. Karena konsumsi plastik adalah sesuatu yang menghubungkan kita lintas benua dan budaya, apa yang kita lakukan dengan plastik kita, kisah transisi kita sendiri, memberikan suar yang bersinar untuk diikuti orang lain.</p>
 						 
 						</div>
+
 						<div class="side2"><img src="pngs/community.png" width="100%">
 						</div>
 					</div>
+
 					<div class="row2">
 						<div class="main3">
-						<p>By leading by example in following Earth's example, we can be a powerful inspiration.</p>
+						<p>Dengan memimpin dengan memberi contoh dalam mengikuti teladan Bumi, kita bisa menjadi inspirasi yang kuat.</p>
 						</div>
 						<div class="side3"><img src="pngs/community.png" width="150px">
 						</div>
 					</div>
 					
-						<p>Especially, when our example is amplified by our plastic accounting.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p><br><br>
+					<p>Terutama, ketika contoh kita diperkuat dengan perhitungan plastik kita. Lagi pula, bagaimana kita bisa yakin teladan kita benar-benar layak untuk diikuti? Untuk alasan ini, kami berusaha melacak plastik yang kami konsumsi, produksi, ecobrick, dan offset untuk memastikan dampak bersih kami benar-benar ramah lingkungan.</p><br><br>
 
-						<hr>
+					<hr>
 
-						<h5>🟢 Our <a href="/catalyst">catalyst program</a> allows oraganizations, projects and enterprises to lead by example with their plastic accounting.</h5>
-						<h5>🟢 Tracking ones personal or household <a href="transition.php#score">plastic transition score</a> is a way to lead by example.</h5>
+					<h5>🟢 <a href="/catalyst">Program katalis</a> kami memungkinkan organisasi, proyek, dan perusahaan untuk memimpin melalui contoh dengan akuntansi plastik mereka.</h5>
+					<h5>🟢 Melacak <a href="transition.php#score">skor transisi plastik</a> pribadi atau rumah tangga seseorang adalah cara untuk memimpin dengan memberi contoh.</h5>
 
-                		</div>
-           		 </div>
+                </div>
+           	</div>
 
 
 			<a name="LOCAL"></a>
@@ -153,8 +155,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Local & Replicable</h4>
-                    <h5>Low-tech, carbon-negative, open & replicable methodologies</h5>   
+                    <h4>Lokal & Dapat Ditiru</h4>
+                    <h5>Metodologi berteknologi rendah, negatif karbon, terbuka & dapat ditiru</h5>   
                     <br>
                     </div>
 
@@ -166,45 +168,47 @@ Content Page template: v.1.0.1-->
                 <br>
                 
 
-                <div class="lead-panel-paragraph"><p>We strive towards methods and means that are accessible to anyone, anywhere.</p></div>
+                <div class="lead-panel-paragraph"><p>Kami berusaha menuju metode dan sarana yang dapat diakses oleh siapa saja, di mana saja.</p></div>
 
 				
 
 				<div class="row">
-						<div class="main2">
-						<p>Every day thousands of tons of plastic flow into the biosphere. Meanwhile, the consumption of plastic and its production ever increases.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
+					<div class="main2">
+					<p>Setiap hari ribuan ton plastik mengalir ke biosfer. Sementara itu, konsumsi plastik dan produksinya terus meningkat. Untuk menjadi solusi yang mendalam untuk plastik, solusi regeneratif harus menyebar dengan kecepatan lebih cepat daripada kecepatan ekspansi industri. Untuk memaksimalkan penyebaran, adopsi, dan transisi plastik kolektif, kami berusaha untuk memaksimalkan aksesibilitas metode kami sambil meminimalkan hambatan adopsi. Dengan cara ini, kami memberdayakan orang lain untuk membuat dan membangun dengan ecobrick agar mereka dapat memimpin dengan teladan mereka sendiri.</p>
 
-						</div>
-						<div class="side2"><img src="webp/eb-sky-400px.webp" width="100%">
-						</div>
 					</div>
-					<div class="row2">
-						<div class="main3">
-						<p>Our principle of local replicability encompasses several of our other principles.</p>
-						</div>
-						<div class="side3"><img src="webp/eb-sky-400px.webp" width="150px">
-						</div>
+					<div class="side2"><img src="webp/eb-sky-400px.webp" width="100%">
 					</div>
+				</div>
+				<div class="row2">
+					<div class="main3">
+						<p>Prinsip replikasi lokal kami mencakup beberapa prinsip kami yang lain.</p>
+					</div>
+					<div class="side3"><img src="webp/eb-sky-400px.webp" width="150px">
+					</div>
+				</div>
 
-    			<p><ul>
-					<li><b>Localized:</b> By designing with local, organic or upcycled materials (that are ideally freely available) we remove resource barriers to replication.</li>
+    			<p>
+					<ul>
+					<li><b>Dilokalkan:</b> Dengan merancang menggunakan bahan lokal, organik, atau daur ulang (yang idealnya tersedia secara gratis), kami menghilangkan hambatan sumber daya untuk replikasi.</li>
 
-    				<li><b>Petro Transition:</b> By designing methods that do not require machines, we remove the barrier of technology, specific skills and dependence on petroleum based energy.
+     				<li><b>Transisi Petro:</b> Dengan merancang metode yang tidak memerlukan mesin, kami menghilangkan penghalang teknologi, keterampilan khusus, dan ketergantungan pada energi berbasis minyak bumi.
 
 
-    			<li><b>Transcaste:</b> By designing our methods so that they do not require specialized abilities we remove age, gender and geographical barriers to replication and empowerment.</li>
-   				 
-				<li><b>Open Source:</b> By making our designs open source according to creative commons specifications and easily accessible on the web, we energize and accelerate replication.
-    			
-				<li><b>Non-Capital:</b>  By designing methods and using materials that do not require capital, we remove the financial barrier to participation and replication.  </li>
+     				<li><b>Transcast:</b> Dengan merancang metode kami agar tidak memerlukan kemampuan khusus, kami menghilangkan hambatan usia, gender, dan geografis untuk replikasi dan pemberdayaan.</li>
+   
+					<li><b>Open Source:</b> Dengan menjadikan desain kami open source sesuai dengan spesifikasi creative commons dan mudah diakses di web, kami memberi energi dan mempercepat replikasi.
+    
+					<li><b>Non-Capital:</b> Dengan merancang metode dan menggunakan bahan yang tidak memerlukan modal, kami menghilangkan hambatan finansial untuk partisipasi dan replikasi. </li>
 
-				<li><b>Local:</b>  We strive to employ locally available resources in our ecobrick applications.  First and foremost, ecobricking is all about packing our local plastic.  This begins with the very plastic we have personally consumed, then extends to that consumed in our household and community. Ideally we use PET bottles that come from our community and a stick that comes from our area.  This way we transform plastic that would otherwise cause problems in our area with the minimum amount of energy and the maximum amount of social empowerment.</li>
+					<li><b>Lokal:</b> Kami berusaha menggunakan sumber daya yang tersedia secara lokal dalam aplikasi ecobrick kami. Pertama dan terpenting, pembuatan ecobrick adalah tentang mengemas plastik lokal kita. Ini dimulai dari plastik yang kita konsumsi secara pribadi, kemudian meluas ke plastik yang dikonsumsi di rumah tangga dan komunitas kita. Idealnya kami menggunakan botol PET yang berasal dari komunitas kami dan tongkat yang berasal dari daerah kami. Dengan cara ini kami mengubah plastik yang akan menimbulkan masalah di daerah kami dengan jumlah energi minimum dan jumlah maksimum pemberdayaan sosial.</li>
 
-			</ul>
+					</ul>
+				</p>
 
-				<p>When it comes to building with ecobricks, the same principal of localized sourcing applies.  We strive to use local materials, processes, skills and culture for our creations.  For example, we have developed the ecobrick tube banding method of bonding ecobricks to make use of the abundance of free and ‘waste’ motorcycle inner-tubes in South East Asia.  In the UK we learn from ancient earth building traditions of wattle and daub to combine ecobricks using local clay, straw and sand.</p>
+				<p>Dalam hal membangun dengan ecobrick, prinsip yang sama dari sumber daya lokal berlaku. Kami berusaha untuk menggunakan bahan, proses, keterampilan, dan budaya lokal untuk kreasi kami. Sebagai contoh, kami telah mengembangkan metode pita tabung ecobrick untuk mengikat ecobrick untuk memanfaatkan kelimpahan ban dalam sepeda motor bebas dan 'limbah' di Asia Tenggara. Di Inggris Raya, kami belajar dari tradisi bangunan tanah kuno dengan pial dan memulas untuk menggabungkan ecobrick menggunakan tanah liat, jerami, dan pasir setempat.</p>
 
-				<p>By using materials, goods, services and products that come from within our community and region we likewise minimize our dependence on capital and petroleum.</p>
+				<p>Dengan menggunakan bahan, barang, layanan, dan produk yang berasal dari komunitas dan wilayah kami, kami juga meminimalkan ketergantungan kami pada modal dan minyak bumi.</p>
 
                 </div>
             </div>
@@ -224,8 +228,6 @@ Content Page template: v.1.0.1-->
                 </div>
 
                 <div id="preclosed4">
-
-				
 
 				<div class="lead-panel-paragraph"><p>Our intentions are powered by mandalic community collaboration.</p></div>
 
