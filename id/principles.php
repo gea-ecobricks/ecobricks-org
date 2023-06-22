@@ -220,7 +220,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Kolaborasi Mandalik</h4>
-                    <h5>Our intentions are powered by mandalic community collaboration.</h5>   
+                    <h5>Niat kami didukung oleh kolaborasi komunitas.</h5>   
                     <br>
                     </div>
 
@@ -231,9 +231,9 @@ Content Page template: v.1.0.1-->
 
 				<div class="row">
 						<div class="main2">
-						<p>Leading by example leverages the full power of mandalic collaboration.  Sharing our example allows others to be inspired by our story, insights, practices and net impact.  In so doing we consciously place ourselves in the center of a replicating, social unfolding.</p>
+						<p>Memimpin dengan memberi contoh memanfaatkan kekuatan penuh kolaborasi mandala. Berbagi teladan kita memungkinkan orang lain terinspirasi oleh kisah, wawasan, praktik, dan dampak bersih kita. Dengan melakukan itu, kita secara sadar menempatkan diri kita di pusat replikasi, pengungkapan sosial.</p>
 						
-						<p>There are different words for it in cultures around the world– the Igorots call it Obo’obo, in Africa its know as ubuntu, in Indonesia gotongrayong, in the Philippines Kawasan.  Whatever the term, the dynamic is the same: a community coming together to realize a shared vision and intention.</p>
+						<p>Ada berbagai kata untuk itu dalam budaya di seluruh dunia– orang Igorot menyebutnya Obo'obo, di Afrika dikenal sebagai ubuntu, di Indonesia gotongrayong, di Kawasan Filipina. Apapun istilahnya, dinamikanya sama: komunitas berkumpul untuk mewujudkan visi dan niat bersama.</p>
 
 						 
 
@@ -243,17 +243,21 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Most often, this is an intention that is for the whole community’s benefit– such as building a bridge or a well.</p>
+						<p>Paling sering, ini adalah niat untuk keuntungan seluruh komunitas– seperti membangun jembatan atau sumur.</p>
 						</div>
 						<div class="side3"><img src="webp/mandalic-23-900px.webp" width="150px">
 						</div>
 					</div>
 
-						<p>In our case, it is our common intention of keeping plastic out of the biosphere.  By holding a mission that is to the benefit of individuals, people, communities and the planet, the GEA enables this formidable force to power the realization of its vision.</p>
+						<p>Dalam kasus kami, ini adalah niat bersama kami untuk menjauhkan plastik dari biosfer. Dengan memegang misi yang bermanfaat bagi individu, orang, komunitas, dan planet ini, GEA memungkinkan kekuatan yang hebat ini untuk memperkuat realisasi visinya.</p>
 
-						<p>This principle is in contrast to the means by which capital economy motivates and inspires participation through financial remuneration.  As a non-capital technology, ecobricking taps a deeper, more potent values such as community cleanliness, the health of children, the richness of the local ecology, to inspire participation, action and long term vision commitment.</p>
+						<p>Prinsip ini berbeda dengan cara ekonomi modal memotivasi dan menginspirasi partisipasi melalui remunerasi keuangan. Sebagai teknologi non-kapital, ecobrick memanfaatkan nilai-nilai yang lebih dalam dan lebih kuat seperti kebersihan masyarakat, kesehatan anak-anak, kekayaan ekologi lokal, untuk menginspirasi partisipasi, tindakan, dan komitmen visi jangka panjang.</p>
 
-						<p>For example, these very words are translated into other languages– not because we have paid anyone– but because they are in full resonance with the ecological passion of others who, resonating with our mission and vision, have offered their linguistic and programming expertise to make this happen.</p>
+						<p>Misalnya, kata-kata ini diterjemahkan ke dalam bahasa lain– bukan karena kami telah membayar siapa pun–tetapi karena kata-kata tersebut selaras sepenuhnya dengan hasrat ekologis orang lain yang, selaras dengan misi dan visi kami, telah menawarkan keahlian linguistik dan pemrograman mereka untuk dibuat ini terjadi.</p>
+
+						<br><br>
+			<p><a class="action-btn" href="/mandalas">🏵️ Belajarlah lagi</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">Pelajari tentang cara kolaborasi mandala.</a></p>
                 </div>
             </div>
 
@@ -264,7 +268,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Transcaste</h4>
-                    <h5>Open to all</h5>   
+                    <h5>Terbuka untuk semua</h5>   
                     <br>
                     </div>
 

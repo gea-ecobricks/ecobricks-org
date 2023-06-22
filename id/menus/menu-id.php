@@ -23,30 +23,31 @@
         </div> 
     </div>
 
+  
     <div class="topnav" id="myTopnav">
         <div class="dropdown">
-                  <button type="button" aria-label="GEA service menu" class="dropbtn" id="menu-circle"><img src="svgs/grey-emblem.svg" width="30" height="30" alt="Buka site menu"><!--<span class="menu-text">GEA Servers</span>-->
+                  <button type="button" aria-label="GEA service menu" class="dropbtn" id="menu-circle"><img src="svgs/grey-emblem.svg" width="30" height="30" alt="Open site menu"><!--<span class="menu-text">GEA Servers</span>-->
                 </button>
                   <div class="dropdown-content-app">
                     <a href="https://gobrik.com" target="_blank" rel="noopener">
                         <div id="gobrik-menu">
-                            <div id="icon-menu">
+                            <div class="icon-menu">
                             <img src="icons/gobrik.svg" width="65" height="65" loading="lazy" alt="GoBrik logo">
                             </div>
-                            <div id="apptext-menu">
+                            <div class="apptext-menu">
                                 <div class="apptext-header">GoBrik </div>
-                                <div class="apptext-sub">Webapp untuk ecobrick<br>Kelola ecobrick anda.<br>Packet brikcoins.</div>
+                                <div class="apptext-sub">Ecobricking Webapp<br>Manage your ecobricks<br>Connect to the Brikcoin blockchain</div>
                             </div>
                         </div>
                     </a>
 
                     <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener">
                         <div id="mattermost-menu">
-                            <div id="icon-menu"><img src="icons/mattermost.svg" width="65px" height="65px"></div>
+                            <div class="icon-menu"><img src="icons/mattermost.svg" width="65" height="65" alt="Our Ecoobricker Social Server"></div>
                                 
-                            <div id="apptext-menu">
+                            <div class="apptext-menu">
                                 <div class="apptext-header">Circles </div>
-                                <div class="apptext-sub">Ikut komunitas ecobrick<br>di platform mattermost<br>kami</div>
+                                <div class="apptext-sub">Join our free mattermost ecobricker community<br>Share your ecobricking<br>Learn from others</div>
                             </div>
                         </div>
                     
@@ -54,10 +55,10 @@
 
                     <a href="https://gobrik.com/#offset" target="_blank" rel="noopener">
                         <div id="offset-menu">
-                            <div id="icon-menu"><img src="icons/offset.svg" width="65px" height="65px" loading="lazy"></div>
-                            <div id="apptext-menu">
+                            <div class="icon-menu"><img src="icons/offset.svg" width="65" height="65" loading="lazy" alt="Offset your plastic consumption"></div>
+                            <div class="apptext-menu">
                                 <div class="apptext-header">AES Plastic Offsetting </div>
-                                <div class="apptext-sub">Offset jejak plastik anda<br>di platform GoBrik AES</div>
+                                <div class="apptext-sub">Offset your plastic footprint<br>on our GoBrik AES Platform</div>
                             </div>
                         </div>
                     </a>

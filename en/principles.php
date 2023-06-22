@@ -252,6 +252,11 @@ Content Page template: v.1.0.1-->
 						<p>This principle is in contrast to the means by which capital economy motivates and inspires participation through financial remuneration.  As a non-capital technology, ecobricking taps a deeper, more potent values such as community cleanliness, the health of children, the richness of the local ecology, to inspire participation, action and long term vision commitment.</p>
 
 						<p>For example, these very words are translated into other languages– not because we have paid anyone– but because they are in full resonance with the ecological passion of others who, resonating with our mission and vision, have offered their linguistic and programming expertise to make this happen.</p>
+
+						<br><br>
+			<p><a class="action-btn" href="/mandalas">🏵️ Learn More</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">Learn about the way of mandalic collaboration.</a></p>
+                    
                 </div>
             </div>
 
