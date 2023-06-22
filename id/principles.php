@@ -320,6 +320,8 @@ Content Page template: v.1.0.1-->
 			<p style="font-size: 0.85em; margin-top:20px;">How does ecobricking compare over a thousand years with other plastic management options?</a></p>
 		</div>
 	</div>
+	</div>
+	</div>
 
 
 	<div class="side">
