@@ -13,8 +13,8 @@ Content Page template: v.1.0.1-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Our Earthen Principles</div>
-		<div class="splash-sub">Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.</div>
+		<div class="splash-heading">Nuestros Principios Terrenales</div>
+		<div class="splash-sub">Ecobricking se guía por principios regenerativos que nos apuntan hacia una armonía cada vez mayor con los ciclos de la Tierra.</div>
 	</div>
 	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;"></div>	
 </div>
