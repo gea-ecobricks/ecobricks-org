@@ -108,8 +108,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Leading by Example</h4>
-                    <h5>Be the change you want to see in the world.</h5>   
+                    <h4>Montrer l'exemple</h4>
+                    <h5>Soyez le changement que vous voulez voir dans le monde.</h5>   
                     <br>
                     </div>
 
@@ -119,12 +119,12 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed2">
 
 				<div class="lead-panel-paragraph"><p>
-					We strive to lead by example with our plastic transition and regenerative living.</p></div>
+				Nous nous efforçons de donner l'exemple avec notre transition plastique et notre mode de vie régénérateur.</p></div>
 					
 					<div class="row">
 						<div class="main2">
 						
-						<p>Ghandi challenged us all to <i>“be the change you want to see in the world“</i>.  Simple and powerful, this is a fundamental principle of the ecobrick and Earthen movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
+						<p>Ghandi nous a tous mis au défi d'<i>"être le changement que vous voulez voir dans le monde"</i>. Simple et puissant, c'est un principe fondamental du mouvement ecobrick and Earthen. Comme la consommation de plastique est quelque chose qui nous relie à travers les continents et les cultures, ce que nous faisons avec notre plastique, nos propres histoires de transition, fournissent un phare brillant à suivre pour les autres.</p>
 						 
 						</div>
 						<div class="side2"><img src="pngs/community.png" width="100%">
@@ -132,18 +132,18 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>By leading by example in following Earth's example, we can be a powerful inspiration.</p>
+						<p>En donnant l'exemple en suivant l'exemple de la Terre, nous pouvons être une source d'inspiration puissante.</p>
 						</div>
 						<div class="side3"><img src="pngs/community.png" width="150px">
 						</div>
 					</div>
 					
-						<p>Especially, when our example is amplified by our plastic accounting.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p><br><br>
+					<p>Surtout, lorsque notre exemple est amplifié par notre comptabilité plastique. Après tout, comment pouvons-nous être sûrs que nos exemples sont réellement dignes d'être suivis ? Pour cette raison, nous nous efforçons de suivre le plastique que nous consommons, produisons, écobrique et compensons pour nous assurer que leur impact net est bien vert.</p><br><br>
 
-						<hr>
+<h>
 
-						<h5>🟢 Our <a href="/catalyst">catalyst program</a> allows oraganizations, projects and enterprises to lead by example with their plastic accounting.</h5>
-						<h5>🟢 Tracking ones personal or household <a href="transition.php#score">plastic transition score</a> is a way to lead by example.</h5>
+<h5>🟢 Notre <a href="/catalyst">programme catalyseur</a> permet aux organisations, projets et entreprises de donner l'exemple avec leur comptabilité plastique.</h5>
+<h5>🟢 Suivre son <a href="transition.php#score">score de transition plastique</a> personnel ou familial est un moyen de montrer l'exemple.</h5>
 
                 		</div>
            		 </div>
@@ -155,9 +155,9 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Local & Replicable</h4>
-                    <h5>Low-tech, carbon-negative, open & replicable methodologies</h5>   
-                    <br>
+					<h4>Local et reproductible</h4>
+                     <h5>Méthodologies low-tech, négatives en carbone, ouvertes et reproductibles</h5>
+                     <br>
                     </div>
 
                     <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
@@ -168,13 +168,13 @@ Content Page template: v.1.0.1-->
                 <br>
                 
 
-                <div class="lead-panel-paragraph"><p>We strive towards methods and means that are accessible to anyone, anywhere.</p></div>
+                <div class="lead-panel-paragraph"><p>Nous visons des méthodes et des moyens accessibles à tous, partout.</p></div>
 
 				
 
 				<div class="row">
 						<div class="main2">
-						<p>Every day thousands of tons of plastic flow into the biosphere. Meanwhile, the consumption of plastic and its production ever increases.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
+						<p>Chaque jour, des milliers de tonnes de plastique se déversent dans la biosphère. Pendant ce temps, la consommation de plastique et sa production ne cessent d'augmenter. Pour être une solution profonde au plastique, une solution régénérative doit se propager à un rythme plus rapide que les taux d'expansion industrielle. Afin de maximiser la diffusion, l'adoption et la transition plastique collective, nous nous efforçons de maximiser l'accessibilité de nos méthodes tout en minimisant les obstacles à l'adoption. De cette façon, nous donnons aux autres les moyens de fabriquer et de construire avec des écobriques afin qu'ils puissent montrer leur propre exemple.</p>
 
 						</div>
 						<div class="side2"><img src="webp/eb-sky-400px.webp" width="100%">
@@ -182,31 +182,31 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Our principle of local replicability encompasses several of our other principles.</p>
+						<p>Notre principe de réplicabilité locale englobe plusieurs de nos autres principes.</p>
 						</div>
 						<div class="side3"><img src="webp/eb-sky-400px.webp" width="150px">
 						</div>
 					</div>
 
     			<p><ul>
-					<li><b>Localized:</b> By designing with local, organic or upcycled materials (that are ideally freely available) we remove resource barriers to replication.</li>
+				<li><b>Localisé :</b> en concevant avec des matériaux locaux, organiques ou recyclés (qui sont idéalement disponibles gratuitement), nous éliminons les barrières de ressources à la réplication.</li>
 
-    				<li><b>Petro Transition:</b> By designing methods that do not require machines, we remove the barrier of technology, specific skills and dependence on petroleum based energy.
+				<li><b>Transition pétrolière :</b> en concevant des méthodes qui ne nécessitent pas de machines, nous supprimons la barrière de la technologie, des compétences spécifiques et de la dépendance à l'énergie basée sur le pétrole.
 
 
-    			<li><b>Transcaste:</b> By designing our methods so that they do not require specialized abilities we remove age, gender and geographical barriers to replication and empowerment.</li>
-   				 
-				<li><b>Open Source:</b> By making our designs open source according to creative commons specifications and easily accessible on the web, we energize and accelerate replication.
-    			
-				<li><b>Non-Capital:</b>  By designing methods and using materials that do not require capital, we remove the financial barrier to participation and replication.  </li>
+				<li><b>Transcast :</b> en concevant nos méthodes de manière à ce qu'elles ne nécessitent pas de compétences spécialisées, nous supprimons les barrières d'âge, de sexe et géographiques à la réplication et à l'autonomisation.</li>
 
-				<li><b>Local:</b>  We strive to employ locally available resources in our ecobrick applications.  First and foremost, ecobricking is all about packing our local plastic.  This begins with the very plastic we have personally consumed, then extends to that consumed in our household and community. Ideally we use PET bottles that come from our community and a stick that comes from our area.  This way we transform plastic that would otherwise cause problems in our area with the minimum amount of energy and the maximum amount of social empowerment.</li>
+				<li><b>Open Source :</b> En rendant nos conceptions open source conformément aux spécifications Creative Commons et facilement accessibles sur le Web, nous dynamisons et accélérons la réplication.
 
-			</ul>
+				<li><b>Non capital :</b> En concevant des méthodes et en utilisant des matériaux qui ne nécessitent pas de capital, nous supprimons l'obstacle financier à la participation et à la réplication. </li>
 
-				<p>When it comes to building with ecobricks, the same principal of localized sourcing applies.  We strive to use local materials, processes, skills and culture for our creations.  For example, we have developed the ecobrick tube banding method of bonding ecobricks to make use of the abundance of free and ‘waste’ motorcycle inner-tubes in South East Asia.  In the UK we learn from ancient earth building traditions of wattle and daub to combine ecobricks using local clay, straw and sand.</p>
+				<li><b>Local :</b> nous nous efforçons d'employer des ressources disponibles localement dans nos applications d'écobriques. Avant tout, l'écobrique consiste à emballer notre plastique local. Cela commence par le plastique même que nous avons personnellement consommé, puis s'étend à celui consommé dans notre foyer et notre communauté. Idéalement, nous utilisons des bouteilles en PET provenant de notre communauté et un bâtonnet provenant de notre région. De cette façon, nous transformons le plastique qui, autrement, causerait des problèmes dans notre région avec le minimum d'énergie et le maximum d'autonomisation sociale.</li>
 
-				<p>By using materials, goods, services and products that come from within our community and region we likewise minimize our dependence on capital and petroleum.</p>
+				</ul>
+
+				<p>Lorsqu'il s'agit de construire avec des écobriques, le même principe d'approvisionnement localisé s'applique. Nous nous efforçons d'utiliser des matériaux, des processus, des compétences et une culture locaux pour nos créations. Par exemple, nous avons développé la méthode de cerclage de tubes ecobrick pour coller des ecobricks afin de tirer parti de l'abondance de chambres à air de moto gratuites et «déchets» en Asie du Sud-Est. Au Royaume-Uni, nous apprenons des anciennes traditions de construction en terre d'acacia et de torchis pour combiner des écobriques en utilisant de l'argile, de la paille et du sable locaux.</p>
+
+				<p>En utilisant des matériaux, des biens, des services et des produits provenant de notre communauté et de notre région, nous minimisons également notre dépendance au capital et au pétrole.</p>
 
                 </div>
             </div>
@@ -217,8 +217,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Mandalic Collaboration</h4>
-                    <h5>The Commodification of Sequestered Plastic</h5>   
+                    <h4>Collaboration mandalique</h4>
+                    <h5>Nos intentions sont alimentées par la collaboration de la communauté mandalique.</h5>  
                     <br>
                     </div>
 
@@ -227,15 +227,11 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed4">
 
-				
-
-				<div class="lead-panel-paragraph"><p>Our intentions are powered by mandalic community collaboration.</p></div>
-
 				<div class="row">
 						<div class="main2">
-						<p>Leading by example leverages the full power of mandalic collaboration.  Sharing our example allows others to be inspired by our story, insights, practices and net impact.  In so doing we consciously place ourselves in the center of a replicating, social unfolding.</p>
-						
-						<p>There are different words for it in cultures around the world– the Igorots call it Obo’obo, in Africa its know as ubuntu, in Indonesia gotongrayong, in the Philippines Kawasan.  Whatever the term, the dynamic is the same: a community coming together to realize a shared vision and intention.</p>
+						<p>Diriger par l'exemple exploite toute la puissance de la collaboration mandalique. Partager notre exemple permet aux autres de s'inspirer de notre histoire, de nos idées, de nos pratiques et de notre impact net. Ce faisant, nous nous plaçons consciemment au centre d'un déploiement social réplicatif.</p>
+
+						<p>Il y a différents mots pour cela dans les cultures du monde entier - les Igorots l'appellent Obo'obo, en Afrique il s'appelle ubuntu, en Indonésie gotongrayong, aux Philippines Kawasan. Quel que soit le terme, la dynamique est la même : une communauté qui se rassemble pour réaliser une vision et une intention partagées.</p>
 
 						 
 
@@ -245,17 +241,22 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Most often, this is an intention that is for the whole community’s benefit– such as building a bridge or a well.</p>
+						<p>Le plus souvent, il s'agit d'une intention qui profite à toute la communauté, comme la construction d'un pont ou d'un puits.</p>
 						</div>
 						<div class="side3"><img src="webp/mandalic-23-900px.webp" width="150px">
 						</div>
 					</div>
 
-						<p>In our case, it is our common intention of keeping plastic out of the biosphere.  By holding a mission that is to the benefit of individuals, people, communities and the planet, the GEA enables this formidable force to power the realization of its vision.</p>
+					<p>Dans notre cas, notre intention commune est de garder le plastique hors de la biosphère. En détenant une mission qui profite aux individus, aux personnes, aux communautés et à la planète, la GEA permet à cette formidable force d'alimenter la réalisation de sa vision.</p>
 
-						<p>This principle is in contrast to the means by which capital economy motivates and inspires participation through financial remuneration.  As a non-capital technology, ecobricking taps a deeper, more potent values such as community cleanliness, the health of children, the richness of the local ecology, to inspire participation, action and long term vision commitment.</p>
+					<p>Ce principe s'oppose aux moyens par lesquels l'économie du capital motive et inspire la participation par le biais d'une rémunération financière. En tant que technologie non capitale, l'écobrique exploite des valeurs plus profondes et plus puissantes telles que la propreté de la communauté, la santé des enfants, la richesse de l'écologie locale, pour inspirer la participation, l'action et l'engagement à long terme.</p>
 
-						<p>For example, these very words are translated into other languages– not because we have paid anyone– but because they are in full resonance with the ecological passion of others who, resonating with our mission and vision, have offered their linguistic and programming expertise to make this happen.</p>
+					<p>Par exemple, ces mêmes mots sont traduits dans d'autres langues - non pas parce que nous avons payé qui que ce soit - mais parce qu'ils sont en pleine résonance avec la passion écologique d'autres personnes qui, en résonance avec notre mission et notre vision, ont offert leur langage et leur programmation expertise pour y parvenir.</p>
+
+						<br><br>
+			<p><a class="action-btn" href="/mandalas">🏵️ Apprendre encore plus</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">La voie du mandala</a></p>
+                    
                 </div>
             </div>
 
@@ -266,7 +267,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Transcaste</h4>
-                    <h5>Open to all</h5>   
+                    <h5>Ouvert à tous</h5>   
                     <br>
                     </div>
 
@@ -278,7 +279,7 @@ Content Page template: v.1.0.1-->
 
 				
 
-				<div class="lead-panel-paragraph"><p>We strive to include men and women, young and old, rich and poor… and everyone in between.</p></div>
+				<div class="lead-panel-paragraph"><p>Nous nous efforçons d'inclure les hommes et les femmes, les jeunes et les moins jeunes, les riches et les pauvres… et tout le monde entre les deux.</p></div>
 
 				<div class="row">
 						<div class="main2">
