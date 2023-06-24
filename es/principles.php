@@ -350,10 +350,9 @@ Content Page template: v.1.0.1-->
 					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
 					<h4>For-Earth / Para-Tierra</h4>
 					<h5>Así como la Tierra dispersó energía para todos, nosotros también podemos hacerlo con nuestras empresas que gestionan plástico usado.</h5><br>
-					<a class="module-btn" href="about">Our Example</a>
-				<h6 style="font-size:smaller">See how we do it</h6>
-
-				</div>
+					<a class="module-btn" href="about">Nuestro Exemplo</a>
+				<h6 style="font-size:smaller">Mira como lo hacemos</h6>
+			</div>
 
 			<div class="side-module-desktop-mobile">
 				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
@@ -373,7 +372,6 @@ Content Page template: v.1.0.1-->
 				<h5>Los ecoladrillos y todas sus aplicaciones están diseñados para ciclos de reutilización indefinida.</h5><br>
 				<a class="module-btn" href="cyclical-design.php">Aprende más</a>
 				<h6 style="font-size:smaller">El principio de los ciclos de enriquecimiento</h6>
-
                 <br>
 			</div>   
 		</div>
