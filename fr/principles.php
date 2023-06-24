@@ -14,8 +14,8 @@ Content Page template: v.1.0.1-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Our Earthen Principles</div>
-		<div class="splash-sub">Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.</div>
+		<div class="splash-heading">Nos principes terrestres</div>
+		<div class="splash-sub">Nous sommes guidée par des principes régénératifs qui nous orientent vers une harmonie toujours croissante avec les cycles de la Terre.</div>
 	</div>
 	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;"></div>	
 </div>
@@ -31,12 +31,12 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Guided by Earth's example, ecobricking doesn't just prevent pollution. As a hands on experience of Earthen and regenerative principles, ecobricking embodies our transition from petro-capitalism to a green new world.</p>
+			<p>Guidé par l'exemple de la Terre, l'écobrique ne se contente pas d'empêcher la pollution. En tant qu'expérience pratique des principes de terre et de régénération, l'écobrique incarne notre transition du pétro-capitalisme vers un nouveau monde vert.</p>
 		</div>
 
 		<div class="page-paragraph">
 	
-		<p>The South East Asian ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines.  Our ecobricking is remains inspired by their concept of <a href="/ayyew">ayyew</a>— an ecological ethos that emulates the very principles by which Earth greened our planet's surface.
+		<p>Le mouvement des écobriques d'Asie du Sud-Est est né des terres ancestrales du peuple Igorot dans le nord des Philippines. Notre écobrique reste inspirée par leur concept de <a href="/ayyew">ayyew</a> – une philosophie écologique qui imite les principes mêmes par lesquels la Terre a reverdi la surface de notre planète.
         
 		</div>
 
@@ -48,8 +48,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Following Earth's Example</h4>
-                    <h5>We strive to emulate the ways Earth cared for its carbon to green the biosphere.</h5>   
+                    <h4>Suivre l'exemple de la Terre</h4>
+                    <h5>Nous nous efforçons d'imiter la façon dont la Terre a pris soin de son carbone pour verdir la biosphère.</h5>   
                     <br>
                     </div>
 
@@ -59,11 +59,11 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed1">
 
                 <div class="row">
-						<div class="lead-panel-paragraph"><p>For the last billion years, Earth has been slow and steady greening our common home.</p></div>
+						<div class="lead-panel-paragraph"><p>Au cours du dernier milliard d'années, la Terre a régulièrement reverdi notre maison commune.</p></div>
 
 						<div class="main2">
 
-						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere while providing us an example to follow.  By following the our planet's principles, we can make sure our modern ways are green too are green.  And our plastic  (which is made using ancient compacted carbon) is the perfect place to start!</p>
+						<p>La façon dont la Terre a cyclé et stocké le carbone a conduit à l'épanouissement de la biosphère tout en nous fournissant un exemple à suivre. En suivant les principes de notre planète, nous pouvons nous assurer que nos habitudes modernes sont également vertes. Et notre plastique (fabriqué à partir de carbone ancien compacté) est le point de départ idéal!</p>
 
 						</div>
 						<div class="side2"><img src="svgs/following-earths-example.svg" width="100%">
@@ -71,30 +71,30 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Following Earth's example is the basis of <a href="https://book.earthen.io"  target="_blank">Earthen ethics</a>: five principles of green based on our planet's cosmological character.  </p>
+						<p>Suivre l'exemple de la Terre est à la base de l'<a href="https://book.earthen.io" target="_blank">éthique de la Terre</a> : cinq principes verts basés sur le caractère cosmologique de notre planète.</p>
 						</div>
 						<div class="side3"><img src="svgs/following-earths-example.svg" width="150px">
 						</div>
 					</div>
 				
 				<p><ul>
-					<li><b><a href="https://book.earthen.io/spirals"  target="_blank">1. Cyclical:</a></b>  In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.</li>
+					<li><b><a href="https://book.earthen.io/spirals"  target="_blank">1. Cyclique :</a></b> De la même manière que la Terre tend son carbone vers des cycles de réutilisation indéfinie, nous aussi avec notre plastique. En emballant notre plastique dans des écobricks et en utilisant correctement nos écobricks, nous pouvons nous assurer que notre plastique peut être utilisé encore et encore indéfiniment.</li>
 
-					<li><b><a href="https://book.earthen.io/energy" target="_blank">2. For-Earth:</a></b> In the same way that Earth’s cycles disperse  energy outwards from organism, to ecosystem to biosphere, so to can we.  In particular: with the enterprise of managing our plastic.  Rather than manage our plastic for profit, we can be sure to ecobrick first and foremost for the benefit of the biosphere.</li>
+					<li><b><a href="https://book.earthen.io/energy" target="_blank">2. For-Earth:</a></b>De la même manière que les cycles de la Terre dispersent l'énergie vers l'extérieur de l'organisme, de l'écosystème à la biosphère, nous le pouvons aussi. Notamment : avec l'entreprise de gestion de notre plastique. Plutôt que de gérer notre plastique dans un but lucratif, nous pouvons être sûrs d'écobriquer avant tout au profit de la biosphère.</li>
 
-    				<li><b>3. Towards Concentration:</b>  In the same way that Earth steadily compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or industrially recycling.</li>
+    				<li><b>3. Vers la concentration :</b> De la même manière que la Terre compacte et sécurise régulièrement le carbone en vrac dans un stockage concentré à long terme, nous le pouvons également avec notre plastique. En compactant et en concentrant notre plastique dans une bouteille, nous pouvons nous assurer que le carbone de notre plastique ne se détache pas lors du déversement, de l'enfouissement ou du recyclage industriel.</li>
     
 				
-    				<li><b>4. Towards Diversity:</b>  In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
+    				<li><b>4. Vers la diversité :</b> De la même manière que les cycles du carbone de la Terre conduisent à une biodiversité de plus en plus importante, nous pouvons également nous assurer que nos cycles de plastique écobriqué font de même. Plutôt que d'utiliser notre plastique uniquement pour les humains, nous pouvons construire des espaces verts qui offrent une maison commune pour nous, les animaux et les plantes !</li>
 
-    				<li><b>5. Towards Awareness:</b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
+    				<li><b>5. Vers la prise de conscience :</b> De la même manière que la Terre a cultivé des niveaux de conscience plus élevés, nous pouvons également gérer notre plastique ! Plutôt que de simplement le jeter, nous pouvons compter combien nous utilisons chaque mois, combien nous écobriquons et suivre notre transition du plastique et du système pétro-capital qu'il représente.</li>
 
 				</ul>
 				<br><br><hr>
 
 			
-				<h5>ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
-				<h5>ℹ️ Learn about: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></h5>
+				<h5>ℹ️ Découvrez : <a href="/plastic">La longue histoire du plastique</a></h5>
+<h5>ℹ️ En savoir plus sur <a href="https://book.earthen.io" target="_blank">l'éthique terrestre</a></h5>
 
 
                 </div>

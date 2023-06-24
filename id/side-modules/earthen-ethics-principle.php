@@ -3,5 +3,5 @@
 				<h4>Silat Bumi</h4>
 				<h5>Ecobrick didasarkan pada lima prinsip contoh Bumi.</h5><br>
 				<a class="module-btn" href="https://book.earthen.io/summary" target="_blank">Belajarlah lagi</a>
-				<h6 style="font-size:smaller">Summary of Earthen Ethics ⇗</h6>
+				<h6 style="font-size:smaller">Ringkasan Etika Bumi ⇗</h6>
 			</div>
