@@ -348,8 +348,8 @@ Content Page template: v.1.0.1-->
             
 			<div class="side-module-desktop-mobile">
 					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
-					<h4>For-Earth</h4>
-					<h5>Just as Earth dispersed energy out to all, so too can we with our enterprises that manage used plastic.</h5><br>
+					<h4>For-Earth / Para-Tierra</h4>
+					<h5>Así como la Tierra dispersó energía para todos, nosotros también podemos hacerlo con nuestras empresas que gestionan plástico usado.</h5><br>
 					<a class="module-btn" href="about">Our Example</a>
 				<h6 style="font-size:smaller">See how we do it</h6>
 
@@ -357,10 +357,10 @@ Content Page template: v.1.0.1-->
 
 			<div class="side-module-desktop-mobile">
 				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
-				<br><h4>Towards Concentration</h4>
-				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
-				<a class="module-btn" href="/plastic">Earth's Example</a>
-				<h6 style="font-size:smaller">Learn how Earth did it</h6>
+				<br><h4>Hacia la concentración</h4>
+				<h5>Así como la Tierra concentró y aseguró el carbono para reverdecer la biosfera, también podemos hacer lo mismo con nuestro plástico a través de ecobricking.</h5><br>
+				<a class="module-btn" href="/plastic">Ejemplo de la Tierra</a>
+				<h6 style="font-size:smaller">Aprende cómo lo hizo la Tierra</h6>
 
                 <br>
 			</div>   
@@ -369,10 +369,10 @@ Content Page template: v.1.0.1-->
 
 			<div class="side-module-desktop-mobile">
 				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
-				<br><h4>Cyclical Design</h4>
-				<h5>Ecobricks and all their applicatins are designed for cycles of indefinite reuse.</h5><br>
-				<a class="module-btn" href="cyclical-design.php">Learn More</a>
-				<h6 style="font-size:smaller">The principle of enriching cycles</h6>
+				<br><h4>Diseño cíclico</h4>
+				<h5>Los ecoladrillos y todas sus aplicaciones están diseñados para ciclos de reutilización indefinida.</h5><br>
+				<a class="module-btn" href="cyclical-design.php">Aprende más</a>
+				<h6 style="font-size:smaller">El principio de los ciclos de enriquecimiento</h6>
 
                 <br>
 			</div>   
