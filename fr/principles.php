@@ -283,8 +283,9 @@ Content Page template: v.1.0.1-->
 
 				<div class="row">
 						<div class="main2">
-						<p>In our methods, projects and intentions we strive to rise above old notions of roles and ability and accessibility.  We encourage the collaboration of  groups that are often perceived to have different social rankings (i.e. ‘castes’) to work together on a equal platform of participation.  In other words, rather than a child doing one task and an adult doing another, we design the method so that both can do it together.</p>
-						<p>For example the work of making an ecobrick, making a module or building with earth are designed to be equally accessible to just about everybody– and in such a way that no one has advantage by virtue of skill, strength or experience.   In this way, men and women, boys and girls can be equally involved in the cocreative process without traditional castes causing alienation.</p>
+						<p>Dans nos méthodes, nos projets et nos intentions, nous nous efforçons de dépasser les anciennes notions de rôles, de capacités et d'accessibilité. Nous encourageons la collaboration de groupes qui sont souvent perçus comme ayant des classements sociaux différents (c'est-à-dire des «castes») pour travailler ensemble sur une plate-forme de participation égale. En d'autres termes, plutôt qu'un enfant faisant une tâche et un adulte en faisant une autre, nous concevons la méthode pour que les deux puissent la faire ensemble.</p>
+
+					<p>Par exemple, le travail de fabrication d'une écobrique, la fabrication d'un module ou d'un bâtiment en terre sont conçus pour être également accessibles à presque tout le monde - et de telle manière que personne n'ait d'avantage en raison de ses compétences, de sa force ou de son expérience. De cette façon, les hommes et les femmes, les garçons et les filles peuvent être impliqués de manière égale dans le processus de cocréation sans que les castes traditionnelles ne provoquent d'aliénation.</p>
 
 						</div>
 						<div class="side2"><img src="photos/transcaste.jpg" width="100%">
@@ -292,7 +293,7 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>This enables us to rise above old gender and generational divides to supercharge our collaborations with many variations of human creativity while further lowering the barriers of replication.</p>
+						<p>Cela nous permet de nous élever au-dessus des anciens clivages entre les genres et les générations pour dynamiser nos collaborations avec de nombreuses variantes de la créativité humaine tout en abaissant davantage les barrières de la réplication.</p>
 						</div>
 						<div class="side3"><img src="photos/transcaste.jpg" width="150px">
 						</div>
@@ -304,29 +305,28 @@ Content Page template: v.1.0.1-->
 
 			<br><br>
 						
-			<div class="lead-page-paragraph"><p><b>Sustainability vs Regenerative</p></b></div>
+			<div class="lead-page-paragraph"><p><b>Durabilité vs régénérative</p></b></div>
 
 			<div class="page-paragraph">    
 			
-			<p>It can be helpful to better understand what we mean by regenerative by clarifying what it is now.  Ecobricking is often mistaken a ‘sustainable’ technology.  ‘Sustainability’  tends to refer to the virtue of enabling our current human systems and current way of life to continue.  Here, guided by the Earthen principles above, ecobricking technology is <i>not this</i>.  Instead, as regenerative technology, we strive to transition from sustaining the current human systems that deplete ecosystems to ways of living that enrich.</p>
+			<p>Il peut être utile de mieux comprendre ce que nous entendons par régénératif en clarifiant ce que c'est maintenant. L'écobrique est souvent confondue avec une technologie « durable ». La « durabilité » a tendance à faire référence à la vertu de permettre à nos systèmes humains actuels et à notre mode de vie actuel de continuer. Ici, guidée par les principes Earthen ci-dessus, la technologie d'écobrique n'est <i>pas cela</i>. Au lieu de cela, en tant que technologie régénérative, nous nous efforçons de passer du maintien des systèmes humains actuels qui appauvrissent les écosystèmes à des modes de vie qui enrichissent.</p>
 
-			<p>In this way, our principles are not anti-industry, nor anti-petro-capital.  Without them, we would not have come to the principles we now hold.  We acknowledge that yesterday’s use of Earth gifted carbon has been an important formative phase that sets us on our current course-correction.</p>
+<p>Ainsi, nos principes ne sont pas anti-industrie, ni anti-pétro-capital. Sans eux, nous n'en serions pas venus aux principes que nous défendons maintenant. Nous reconnaissons que l'utilisation d'hier du carbone surdoué de la Terre a été une phase de formation importante qui nous place sur notre correction de cap actuelle.</p>
 			
 			<div class="row">
                 
                     <div class="main2">
 
-			<p>With this we move on from 'sustaining'.  In so far as our modern enterprises work in ways that conflicts with Earth’s example of carbon care, we strive to transition from them.  We also strive to heal and ‘regenerate’ any past damage that we are responsible for.  Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our green impacts.</p>
+					<p>Avec cela, nous passons du "soutenir". Dans la mesure où nos entreprises modernes fonctionnent d'une manière qui entre en conflit avec l'exemple de la Terre en matière de protection du carbone, nous nous efforçons de nous en éloigner. Nous nous efforçons également de guérir et de « régénérer » tout dommage passé dont nous sommes responsables. Enfin, contrairement à l'accent mis par la durabilité sur la minimisation des impacts gris, nous nous efforçons plutôt de nous synchroniser avec les cycles de la Terre pour toujours augmenter nos impacts verts.</p>
 
-			<br><br>
-			<p><a class="action-btn" href="/ayyew">🍃 About Ayyew</a></p>
-			<p style="font-size: 0.85em; margin-top:20px;">Learn about the indigenous wisdom tradition that underlies the regenerative ecobrick movement.</a></p>
-                    
+					<br><br>
+					<p><a class="action-btn" href="/ayyew">🍃 À propos d'Ayyew</a></p>
+					<p style="font-size: 0.85em; margin-top:20px;">Découvrez la tradition de la sagesse indigène qui sous-tend le mouvement régénératif des écobriques.</a></p>
 		</div>
 
          <div class="side2">
 			<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
-			<p style="font-size: 0.85em; margin-top:20px;">How does ecobricking compare over a thousand years with other plastic management options?</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">Comment l'écobrique se compare-t-elle sur mille ans aux autres options de gestion du plastique ?</a></p>
 		</div>
 	</div>
 </div>
@@ -344,8 +344,8 @@ Content Page template: v.1.0.1-->
 		
 			<div class="side-module-desktop-mobile">
 				<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
-				<h4>Vitalizing Biodiversity</h4>
-				<h5>Just as Earth has vitalized processes that diversify, so too can we.</h5><br>
+				<h4>Vitaliser la biodiversité</h4>
+<h5>Tout comme la Terre a vitalisé des processus qui se diversifient, nous le pouvons aussi.</h5><br>
 				<!--<a class="module-btn" href="about">Learn More</a>
 				<h6 style="font-size:smaller">See how we track diversity</h6>-->
 				
@@ -353,19 +353,19 @@ Content Page template: v.1.0.1-->
             
 			<div class="side-module-desktop-mobile">
 					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
-					<h4>For-Earth</h4>
-					<h5>Just as Earth dispersed energy out to all, so too can we with our enterprises that manage used plastic.</h5><br>
-					<a class="module-btn" href="about">Our Example</a>
-				<h6 style="font-size:smaller">See how we do it</h6>
+					<h4>Pour-Terre</h4>
+<h5>Tout comme la Terre a distribué de l'énergie à tous, nous le pouvons aussi avec nos entreprises qui gèrent le plastique usagé.</h5><br>
+<a class="module-btn" href="about">Notre exemple</a>
+<h6 style="font-size:smaller">Découvrez comment nous procédons</h6>
 
 				</div>
 
 			<div class="side-module-desktop-mobile">
 				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
-				<br><h4>Towards Concentration</h4>
-				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
-				<a class="module-btn" href="/plastic">Earth's Example</a>
-				<h6 style="font-size:smaller">Learn how Earth did it</h6>
+				<br><h4>Vers la concentration</h4>
+<h5>Tout comme la Terre a concentré et sécurisé le carbone pour verdir la biosphère, nous pouvons également faire de même avec notre plastique grâce à l'écobrique.</h5><br>
+<a class="module-btn" href="/plastic">L'exemple de la Terre</a>
+<h6 style="font-size:smaller">Découvrez comment la Terre a fait</h6>
 
                 <br>
 			</div>   
@@ -374,10 +374,10 @@ Content Page template: v.1.0.1-->
 
 			<div class="side-module-desktop-mobile">
 				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
-				<br><h4>Cyclical Design</h4>
-				<h5>Ecobricks and all their applicatins are designed for cycles of indefinite reuse.</h5><br>
-				<a class="module-btn" href="cyclical-design.php">Learn More</a>
-				<h6 style="font-size:smaller">The principle of enriching cycles</h6>
+				<br><h4>Conception cyclique</h4>
+<h5>Les écobriques et toutes leurs applications sont conçues pour des cycles de réutilisation indéfinis.</h5><br>
+<a class="module-btn" href="cyclical-design.php">En savoir plus</a>
+<h6 style="font-size:smaller">Le principe des cycles d'enrichissement</h6>
 
                 <br>
 			</div>   
