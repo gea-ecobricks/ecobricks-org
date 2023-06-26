@@ -105,7 +105,8 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	
 
 	<div class="footer-conclusion">	
-		<div class="row">
+	<div class="row" style="justify-content:center;">
+
 
 		<div class="virtue">
 					<a href="about"><img src="banners/forearth-dark-350px.png" width="325px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure" loading="lazy"></a>
@@ -138,7 +139,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		<div class="footer-conclusion">	
 		Konten pendidikan dari situs ini disediakan oleh Ecobrick Alliance di bawah <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> . Harap hubungkan semua penggunaan ke "Ecobricks.org - Global Ecobrick Alliance" menggunakan lisensi yang sama.
 			<div class="footer-conclusion">	
-			Logo dan emblem AES, GEA dan GoBrik adalah hak cipta 2022 oleh Global Ecobrick Alliance. 
+			Logo dan emblem AES, GEA dan GoBrik adalah hak cipta 2023 oleh Global Ecobrick Alliance. 
 			<br><br>
 		</div>
 			
