@@ -11,7 +11,7 @@
     }
 
     #container {
-        width: 1000px;
+        width: 1020px;
         overflow: hidden;
         margin: 50px auto;
     }
