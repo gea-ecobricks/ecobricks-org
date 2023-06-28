@@ -147,7 +147,7 @@
                     <div id="content-sect2">
                         <div id="main-content">
                             <div class="lead-graphic">
-                                <img src="pngs/earthern-ethics-cycles.png" height="auto" alt="eco bricks follow the Earth's example." width="700" loading="lazy">
+                                <img src="pngs/earthern-ethics-cycles.png" height="auto" alt="eco bricks follow the Earth's example." width="700">
                             </div>
                             <div class="sub-text">
                             </div>
