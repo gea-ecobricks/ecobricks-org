@@ -17,7 +17,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Cyclical Design</div>
 		<div class="splash-sub">Ecobricking and all ecobrick applications are guided by the Earthen principle of enriching cycles.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/icons/cyclical-design-white.svg" style="width: 100%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/icons/cyclical-design-white.svg?v=2" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
