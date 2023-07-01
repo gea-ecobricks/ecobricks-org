@@ -53,10 +53,9 @@ Content Page template: v.1.0.1-->
 
     <p>This is the reason we build with earth rather than with cement– so that when our bench, garden or home comes to its end, we can extricate the ecobricks undamaged, and put them to use again.</p>
 
-<p>Part of Cyclical Design also includes minimizing the amount of energy and waste produced in the cycling process.  This is where the other ecobrick principles come in!  By ensuring that our methods use local resources, are non-capital, non-petroleum, and community-collaboration powered we minimize the amount of plastic, C02, transportation, and energy required in the cycling.  In this ayyew-way, we’re always striving for tighter and tigher cycling to maximize the regenerative potential of our ecobrick applications.</p>
+<!--<p>Part of Cyclical Design also includes minimizing the amount of energy and waste produced in the cycling process.  This is where the other ecobrick principles come in!  By ensuring that our methods use local resources, are non-capital, non-petroleum, and community-collaboration powered we minimize the amount of plastic, C02, transportation, and energy required in the cycling.  In this ayyew-way, we’re always striving for tighter and tigher cycling to maximize the regenerative potential of our ecobrick applications.</p>-->
 
-    <p>This is why we avoid using tape or plastic glue in joining ecobricks– it results in excess waste when the module comes to its end and the ecobricks are reused.
-    This is why we encourage ecobrick Earth Building— the crumbled cob that results at the end of a construction can return to the earth without any problem.</p>
+  
 
         
 		</div>
@@ -81,11 +80,11 @@ Content Page template: v.1.0.1-->
 
                 <div class="row">
 						<div class="main2">
-						<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."  — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</p></div>
+						<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."</p><h6> — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</p></div>
 						
 						<p>For the last billion years, Earth has been slow and steady greening the surface of our common home.</p>
 						
-						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example and participate in the continued enrichment of our common home.</p>
+						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example of ensuring that our processes and outputs are not only cyclical, but that lead to ever enriching cycles.</p>
 
 						</div>
 						<div class="side2"><img src="webp/spiral-circular-400px.webp" width="100%">
@@ -99,18 +98,9 @@ Content Page template: v.1.0.1-->
 						</div>
 					</div>
 				
-				<p><ul>
-					<li><b><a href="https://book.earthen.io/spirals"  target="_blank">1. Cyclical:</a></b>  In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.</li>
-
-					<li><b><a href="https://book.earthen.io/energy" target="_blank">2. For-Earth:</a></b> In the same way that Earth’s cycles disperse  energy outwards from organism, to ecosystem to biosphere, so to can we with the enterprise of managing our plastic.  Rather than manage our plastic for personal or company profit, we can be sure to ecobrick first and foremost for the benefit of our local ecosystem and the global biosphere.</li>
-
-    				<li><b>2. For-Concentration:</b>  In the same way that Earth steadily subtracts, compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or industrially recycling.</li>
-    
-				
-    				<li><b>Towards Diversity:</b>  In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
-
-    				<li><b>Towards Awareness:</b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
-
+				<p>
+				In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.
+				</p>
 				</ul>
 				<br><br><hr>
 
@@ -122,16 +112,16 @@ Content Page template: v.1.0.1-->
                 </div>
             </div>
 
-<!--
 
-			<a name="LEADING"></a>
+
+			<a name="ECOBRICKING"></a>
             <div class="reg-content-block" id="block2">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Leading by Example</h4>
-                    <h5>Be the change you want to see in the world.</h5>   
+                    <h4>Making Ecobricks</h4>
+                    <h5>The process and output of ecobricking is cyclically designed</h5>   
                     <br>
                     </div>
 
@@ -141,12 +131,12 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed2">
 
 				<div class="lead-panel-paragraph"><p>
-					We strive to lead by example with our plastic transition and regenerative living.</p></div>
+					Cyclical design principle underlies every ecobrick method that the GEA endorses. This way we ensure that every ecobrick remains a reusable building block. This ethic also helps guide the way that we make ecobricks and the GEA recommended ecobricking techniques.</p></div>
 					
 					<div class="row">
 						<div class="main2">
 						
-						<p>Ghandi challenged us all to <i>“be the change you want to see in the world“</i>.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
+						<p>This is the reason that when we start an ecobrick we put a colored plastic on the bottom: we’re thinking of the next phase when we’ll build with it. This is why we use silicone and not glue when we attach ecobricks to make modules– so that when the module/chair/table comes to its end, we can take it apart to use the ecobricks again.</p>
 						 
 						</div>
 						<div class="side2"><img src="pngs/community.png" width="100%">
@@ -160,25 +150,19 @@ Content Page template: v.1.0.1-->
 						</div>
 					</div>
 					
-						<p>Especially, when our example is amplified by our plastic accounting.  After all, how can we be sure our examples are actually worthy of being followed?  For this reason, we strive to track the plastic we consume, produce, ecobrick and offset to make sure our their net impact is in fact green.</p><br><br>
-
-						<hr>
-
-						<h5>🟢 Our <a href="/catalyst">catalyst program</a> allows oraganizations, projects and enterprises to lead by example with their plastic accounting.</h5>
-						<h5>🟢 Tracking ones personal or household <a href="transition.php#score">plastic transition score</a> is a way to lead by example.</h5>
 
                 		</div>
            		 </div>
 
 
-			<a name="LOCAL"></a>
+			<a name="APPLICATIONS"></a>
             <div class="reg-content-block" id="block3">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Local & Replicable</h4>
-                    <h5>Low tech, carbon-negative, open and accessibly methodologies</h5>   
+                    <h4>Ecobrick Applications</h4>
+                    <h5>Ecobrick Applications are designed with their end and next begining in mind.</h5>   
                     <br>
                     </div>
 
@@ -190,9 +174,9 @@ Content Page template: v.1.0.1-->
                 <br>
                 
 
-                <div class="lead-panel-paragraph"><p>We strive towards accessible methods and means that are accessible to anyone, anywhere.</p></div>
+                <div class="lead-panel-paragraph"><p>This is the reason we build with earth rather than with cement– so that when our bench, garden or home comes to its end, we can extricate the ecobricks undamaged, and put them to use again.</p></div>
 
-				
+				<!--
 
 				<div class="row">
 						<div class="main2">
@@ -226,6 +210,8 @@ Content Page template: v.1.0.1-->
 				<p>When it comes to building with ecobricks, the same principal of localized sourcing applies.  We strive to use local materials, processes, skills and culture for our creations.  For example, we have developed the ecobrick tube banding method of bonding ecobricks to make use of the abundance of free and ‘waste’ motorcycle inner-tubes in South East Asia.  In the UK we learn from ancient earth building traditions of wattle and daub to combine ecobricks using local clay, straw and sand.</p>
 
 				<p>By using materials, goods, services and products that come from within our community and ecological region we likewise minimize our dependence on capital and petroleum.</p>
+
+-->
 
                 </div>
             </div>
