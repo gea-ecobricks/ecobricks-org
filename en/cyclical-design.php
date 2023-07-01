@@ -48,12 +48,12 @@ Content Page template: v.1.0.1-->
 
 		<p>Cyclical design principle underlies every ecobrick method that the GEA endorses.  This way we ensure that every ecobrick remains a reusable building block.  This ethic also helps guide the way that we make ecobricks and the GEA recommended ecobricking techniques.</p>
 
-		<p>This is the reason that when we start an ecobrick we put a colored plastic on the bottom: we’re thinking of the next phase when we’ll build with it.
+		<!--<p>This is the reason that when we start an ecobrick we put a colored plastic on the bottom: we’re thinking of the next phase when we’ll build with it.
     This is why we use silicone and not glue when we attach ecobricks to make modules– so that when the module/chair/table comes to its end, we can take it apart to use the ecobricks again.</p>
 
     <p>This is the reason we build with earth rather than with cement– so that when our bench, garden or home comes to its end, we can extricate the ecobricks undamaged, and put them to use again.</p>
 
-<!--<p>Part of Cyclical Design also includes minimizing the amount of energy and waste produced in the cycling process.  This is where the other ecobrick principles come in!  By ensuring that our methods use local resources, are non-capital, non-petroleum, and community-collaboration powered we minimize the amount of plastic, C02, transportation, and energy required in the cycling.  In this ayyew-way, we’re always striving for tighter and tigher cycling to maximize the regenerative potential of our ecobrick applications.</p>-->
+<p>Part of Cyclical Design also includes minimizing the amount of energy and waste produced in the cycling process.  This is where the other ecobrick principles come in!  By ensuring that our methods use local resources, are non-capital, non-petroleum, and community-collaboration powered we minimize the amount of plastic, C02, transportation, and energy required in the cycling.  In this ayyew-way, we’re always striving for tighter and tigher cycling to maximize the regenerative potential of our ecobrick applications.</p>-->
 
   
 
@@ -80,7 +80,7 @@ Content Page template: v.1.0.1-->
 
                 <div class="row">
 						<div class="main2">
-						<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."</p><h6> — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</p></div>
+						<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."</p><h6> — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</a></h6></div>
 						
 						<p>For the last billion years, Earth has been slow and steady greening the surface of our common home.</p>
 						
