@@ -35,10 +35,29 @@ Content Page template: v.1.0.1-->
 		</div>
 
 		<div class="page-paragraph">
+
+		<p>It’s a fact of life: everything comes to its end.  Alas, the vast majority of the products we use today go from their birth in a factory, into our hands, to their grave– which is always someplace within the Earth’s biosphere. Pollution is the result.  Designs that fail to anticipate and plan for the end of a product are known as cradle-to-grave.</p>
+
+		<p>With ecobricks, we do things differently!  </p>
 	
 		<p>
         Guided by the first principle of Earthen ethics, we ensure that not only are ecobricks indefinitely reusable, we also ensure that that each cycle steadily enriches the system of which it is part.  This means we plan for the destruction of our creations and each that both creation and destruction secure more carbon and plastic than they let loose.
         </p>
+
+		<p>Learning from the way ecologies infinitely and perfectly cycle nutrients over and over, we aspire to similar indefinitely cycling.  In other words, we make and we use ecobricks using tehcniques that anticipate their next life cycle.   Instead of the straight line of cradle-to-grave, we draw a circle.  We make sure our ecobricks go from one “cradle” (usage/life/build/application) to the next, to the next with minimal energy and waste. This is known as cyclical design.</p>
+
+		<p>Cyclical design principle underlies every ecobrick method that the GEA endorses.  This way we ensure that every ecobrick remains a reusable building block.  This ethic also helps guide the way that we make ecobricks and the GEA recommended ecobricking techniques.</p>
+
+		<p>This is the reason that when we start an ecobrick we put a colored plastic on the bottom: we’re thinking of the next phase when we’ll build with it.
+    This is why we use silicone and not glue when we attach ecobricks to make modules– so that when the module/chair/table comes to its end, we can take it apart to use the ecobricks again.</p>
+
+    <p>This is the reason we build with earth rather than with cement– so that when our bench, garden or home comes to its end, we can extricate the ecobricks undamaged, and put them to use again.</p>
+
+<p>Part of Cyclical Design also includes minimizing the amount of energy and waste produced in the cycling process.  This is where the other ecobrick principles come in!  By ensuring that our methods use local resources, are non-capital, non-petroleum, and community-collaboration powered we minimize the amount of plastic, C02, transportation, and energy required in the cycling.  In this ayyew-way, we’re always striving for tighter and tigher cycling to maximize the regenerative potential of our ecobrick applications.</p>
+
+    <p>This is why we avoid using tape or plastic glue in joining ecobricks– it results in excess waste when the module comes to its end and the ecobricks are reused.
+    This is why we encourage ecobrick Earth Building— the crumbled cob that results at the end of a construction can return to the earth without any problem.</p>
+
         
 		</div>
 
@@ -51,7 +70,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Following Earth's Example</h4>
-                    <h5>We strive to emulate the ways Earth cared for its carbon to green the biosphere.</h5>   
+                    <h5>Cyclcical design follow's the first principle of Earthen Ethics.</h5>   
                     <br>
                     </div>
 
@@ -62,7 +81,9 @@ Content Page template: v.1.0.1-->
 
                 <div class="row">
 						<div class="main2">
-						<div class="lead-panel-paragraph"><p>For the last billion years, Earth has been slow and steady greening the surface of our common home.</p></div>
+						<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."  — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</p></div>
+						
+						<p>For the last billion years, Earth has been slow and steady greening the surface of our common home.</p>
 						
 						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example and participate in the continued enrichment of our common home.</p>
 
@@ -101,7 +122,7 @@ Content Page template: v.1.0.1-->
                 </div>
             </div>
 
-
+<!--
 
 			<a name="LEADING"></a>
             <div class="reg-content-block" id="block2">
@@ -327,7 +348,7 @@ Content Page template: v.1.0.1-->
 		</div>
 	</div>
 </div>
-
+-->
 
 		</DIV>
 		
@@ -362,13 +383,7 @@ Content Page template: v.1.0.1-->
 
 			<!--<?php include 'side-modules/cyclical-design.php';?> -->
 
-			<div class="side-module-desktop-mobile">
-				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
-				<br><h4>Cyclical Design</h4>
-				<h5>Ecobricks and all their applicatins are designed for cycles of indefinite reuse.</h5><br>
-				<a class="module-btn" href="/circular">Learn More</a>
-                <br>
-			</div>   
+			
 		</div>
 
 	</div>
