@@ -38,17 +38,23 @@ Content Page template: v.1.0.1-->
 
 		<p>It’s a fact of life: everything comes to its end.  Alas, the vast majority of the products we use today go from their birth in a factory, into our hands, to their grave– which is always someplace within the Earth’s biosphere. Pollution is the result.  Designs that fail to anticipate and plan for the end of a product are known as cradle-to-grave.</p>
 
+		<p>Unfortunately, products and materials that are designed to be 'circular' also lead to pollution and ecological depletion.  Although, cradle-to-cradle designs that can be used over are a step in the right direction, if the external impacts of each cycle aren't considered carefully, a spiral of depletion will result.  Alas we see this all too clearly with traditional industrially recycling:  each time a piece of plastic is recycled, large amounts of emission-intensive transportation, sorting, smelting are required.
+
 		<p>With ecobricks, we do things differently!  </p>
 	
 		<p>
-        Guided by the first principle of Earthen ethics, we ensure that not only are ecobricks indefinitely reusable, we also ensure that that each cycle steadily enriches the system of which it is part.  This means we plan for the destruction of our creations and each that both creation and destruction secure more carbon and plastic than they let loose.
+        Guided by the first principle of Earthen ethics, the cycles of ecobricks and their applications are designed to be greening.  To do so we not only plan for the next-life of our application, we also intend spiral of the cycles that we create.  This means that we ensure that not only are ecobricks indefinitely reusable, we also ensure that that each cycle of building and dissembly contributes socially and ecologically. 
         </p>
 
+
+		<p>Cyclical design principle underlies every ecobrick method and application that the GEA endorses. </p>
+
+		<!--
+			
+		 This way we ensure that every ecobrick remains a reusable building block.  This ethic also helps guide the way that we make ecobricks and the GEA recommended ecobricking techniques.
+		 
 		<p>Learning from the way ecologies infinitely and perfectly cycle nutrients over and over, we aspire to similar indefinitely cycling.  In other words, we make and we use ecobricks using tehcniques that anticipate their next life cycle.   Instead of the straight line of cradle-to-grave, we draw a circle.  We make sure our ecobricks go from one “cradle” (usage/life/build/application) to the next, to the next with minimal energy and waste. This is known as cyclical design.</p>
-
-		<p>Cyclical design principle underlies every ecobrick method that the GEA endorses.  This way we ensure that every ecobrick remains a reusable building block.  This ethic also helps guide the way that we make ecobricks and the GEA recommended ecobricking techniques.</p>
-
-		<!--<p>This is the reason that when we start an ecobrick we put a colored plastic on the bottom: we’re thinking of the next phase when we’ll build with it.
+		<p>This is the reason that when we start an ecobrick we put a colored plastic on the bottom: we’re thinking of the next phase when we’ll build with it.
     This is why we use silicone and not glue when we attach ecobricks to make modules– so that when the module/chair/table comes to its end, we can take it apart to use the ecobricks again.</p>
 
     <p>This is the reason we build with earth rather than with cement– so that when our bench, garden or home comes to its end, we can extricate the ecobricks undamaged, and put them to use again.</p>
@@ -69,7 +75,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Following Earth's Example</h4>
-                    <h5>Cyclcical design follow's the first principle of Earthen Ethics.</h5>   
+                    <h5>Cyclcical design emobdies the first principle of Earthen Ethics.</h5>   
                     <br>
                     </div>
 
