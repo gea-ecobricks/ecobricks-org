@@ -46,9 +46,6 @@ deployment:
 
 
 
-
-
-
   - export DEPLOYPATH=/home/ecobricks/public_html/en/
 
   - /bin/cp -R logos $DEPLOYPATH
