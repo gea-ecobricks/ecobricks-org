@@ -17,7 +17,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Cyclical Design</div>
 		<div class="splash-sub">Ecobricking and all ecobrick applications are guided by the Earthen principle of enriching cycles.</div>
 	</div>
-	<div class="splash-image"><img src="icons/cyclical-design-white.svg?v=1" style="width: 100%;"></div>	
+	<div class="splash-image"><img src="icons/cyclical-design-white3.svg" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -52,7 +52,7 @@ Content Page template: v.1.0.1-->
 		<!--
 			
 		 This way we ensure that every ecobrick remains a reusable building block.  This ethic also helps guide the way that we make ecobricks and the GEA recommended ecobricking techniques.
-		 
+
 		<p>Learning from the way ecologies infinitely and perfectly cycle nutrients over and over, we aspire to similar indefinitely cycling.  In other words, we make and we use ecobricks using tehcniques that anticipate their next life cycle.   Instead of the straight line of cradle-to-grave, we draw a circle.  We make sure our ecobricks go from one “cradle” (usage/life/build/application) to the next, to the next with minimal energy and waste. This is known as cyclical design.</p>
 		<p>This is the reason that when we start an ecobrick we put a colored plastic on the bottom: we’re thinking of the next phase when we’ll build with it.
     This is why we use silicone and not glue when we attach ecobricks to make modules– so that when the module/chair/table comes to its end, we can take it apart to use the ecobricks again.</p>
