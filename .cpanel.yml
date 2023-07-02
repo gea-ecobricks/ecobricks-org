@@ -11,7 +11,6 @@ deployment:
 
 
   - /bin/cp -R logos $DEPLOYPATH
-  - /bin/cp -R icons $DEPLOYPATH
   - /bin/cp -R svgs $DEPLOYPATH
   - /bin/cp -R webp $DEPLOYPATH
   - /bin/cp -R pngs $DEPLOYPATH
@@ -52,7 +51,6 @@ deployment:
   - export DEPLOYPATH=/home/ecobricks/public_html/en/
 
   - /bin/cp -R logos $DEPLOYPATH
-  - /bin/cp -R icons $DEPLOYPATH
   - /bin/cp -R svgs $DEPLOYPATH
   - /bin/cp -R webp $DEPLOYPATH
   - /bin/cp -R pngs $DEPLOYPATH
