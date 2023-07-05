@@ -11,7 +11,6 @@
     }
 
     #container {
-        width: 1020px;
         overflow: hidden;
         margin: 50px auto;
     }
@@ -83,7 +82,7 @@
 
         <!-- This loads the page's top graphics-->
 
-        <div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" max-width="100%"></div>
+        <div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>
         <div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" max-width="100%" max-height="31%"></div>
 
         </div>
@@ -103,14 +102,14 @@
                     <div class="sub-text">Speakers, Events & Workshops</div>
                     <h2 id="demo" style="text-align:center"></h2>
                     <div class="photobanner">
-                        <img class="first" src="ees-banner-dates-static.png" height="250px" width="auto" alt="" />
-                        <img src="ees-banner-now.png" height="250px" width="auto" alt="" />
-                        <img src="ees-banner-power.png" height="250px" width="auto" alt="" />
-                        <img src="ees-banner-dates-static.png" height="250px" width="auto" alt="" />
-                        <img src="ees-banner-now.png" height="250px" width="auto" alt="" />
-                        <img src="ees-banner-power.png" height="250px" width="auto" alt="" />
-                        <img src="ees-banner-dates-static.png" height="250px" width="auto" alt="" />
-                        <img src="ees-banner-now.png" height="250px" width="auto" alt="" />
+                        <img class="first" src="ees-banner-dates-static.png" height="233px" width="auto" alt="" />
+                        <img src="ees-banner-now.png" height="233px" width="auto" alt="" />
+                        <img src="ees-banner-power.png" height="233px" width="auto" alt="" />
+                        <img src="ees-banner-dates-static.png" height="233px" width="auto" alt="" />
+                        <img src="ees-banner-now.png" height="233px" width="auto" alt="" />
+                        <img src="ees-banner-power.png" height="233px" width="auto" alt="" />
+                        <img src="ees-banner-dates-static.png" height="233px" width="auto" alt="" />
+                        <img src="ees-banner-now.png" height="233px" width="auto" alt="" />
                     </div>
                 </div>
 
