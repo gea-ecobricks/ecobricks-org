@@ -18,7 +18,6 @@
     .photobanner {
         height: 233px;
         width: auto;
-        margin-bottom: 80px;
     }
 
     /*keyframe animations*/
