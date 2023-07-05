@@ -30,7 +30,7 @@
 
     @keyframes bannermove {
         0% {
-        margin-left: 0px;
+        margin-left: 2125px;
         }
         100% {
            margin-left: -2125px;
@@ -39,7 +39,7 @@
 
     @-webkit-keyframes bannermove {
         0% {
-            margin-left: 0px;
+            margin-left: 2125px;
         }
 
         100% {
@@ -49,7 +49,7 @@
 
     @-moz-keyframes bannermove {
         0% {
-            margin-left: 0px;
+            margin-left: 2125px;
         }
 
         100% {
@@ -59,7 +59,7 @@
 
     @-o-keyframes bannermove {
         0% {
-            margin-left: 0px;
+            margin-left: 2125px;
         }
 
         100% {
