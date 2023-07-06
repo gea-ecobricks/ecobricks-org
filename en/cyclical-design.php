@@ -42,8 +42,7 @@ Content Page template: v.1.0.1-->
 
 		<p>With ecobricks, we do things differently!  </p>
 	
-		<p>
-        Guided by the first principle of Earthen ethics, the cycles of ecobricks and their applications are designed to be greening.  To do so we not only plan for the next-life of our application, we also intend spiral of the cycles that we create.  This means that we ensure that not only are ecobricks indefinitely reusable, we also ensure that that each cycle of building and dissembly contributes socially and ecologically. 
+		<p>Guided by the first principle of <a href="https://book.earthen.io/summaries">Earthen ethics</a>, the cycles of ecobricks and their applications are designed to be greening.  To do so we not only plan for the next-life of our application, we also intend spiral of the cycles that we create.  This means that we ensure that not only are ecobricks indefinitely reusable, we also ensure that that each cycle of building and dissembly contributes socially and ecologically. 
         </p>
 
 
