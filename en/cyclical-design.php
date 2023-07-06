@@ -186,7 +186,7 @@ Content Page template: v.1.0.1-->
                 		</div>
            		 </div>
 
-
+<!--
 			<a name="APPLICATIONS"></a>
             <div class="reg-content-block" id="block3">
 
@@ -208,7 +208,6 @@ Content Page template: v.1.0.1-->
 
                 <div class="lead-panel-paragraph"><p>This is the reason we build with earth rather than with cement– so that when our bench, garden or home comes to its end, we can extricate the ecobricks undamaged, and put them to use again.</p></div>
 
-				<!--
 
 				<div class="row">
 						<div class="main2">
@@ -254,7 +253,7 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Modules to Earth Building</h4>
+                    <h4>Cycle Planning</h4>
                     <h5>From short-term cycles to long-term cycles</h5>   
                     <br>
                     </div>
@@ -277,7 +276,7 @@ Content Page template: v.1.0.1-->
 						 
 
 						</div>
-						<div class="side2"><img src="webp/mandalic.webp" width="100%">
+						<div class="side2"><img src="webp/spiral-circular-400px.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
