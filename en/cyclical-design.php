@@ -76,7 +76,7 @@ Content Page template: v.1.0.1-->
                     <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
                 </div>
 
-                <div id="preclosed1">
+                <div id="preclosed6">
 
 				<div class="lead-panel-paragraph"><p>Alas, the vast majority of the products we use today go from their birth in a factory, into our hands, to their grave– which is always someplace within the Earth’s biosphere. Pollution is the result.  Designs that fail to anticipate and plan for the end of a product are known as cradle-to-grave.</p></div>
 						
@@ -119,7 +119,7 @@ Content Page template: v.1.0.1-->
 						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example of ensuring that our processes and outputs are not only cyclical, but that lead to ever enriching cycles.</p>
 
 						</div>
-						<div class="side2"><img src="svgs/following-earths-example.svg" width="100%"><br><img src="svgs/eco-enrichment.svg" width="100%">
+						<div class="side2"><img src="svgs/following-earths-example.svg" width="100%"><br><img src="../svgs/eco-enrichment.svg" width="100%">
 						</div>
 					</div>
 					<div class="row2">
@@ -171,7 +171,7 @@ Content Page template: v.1.0.1-->
 						<p>This is the reason that when we start an ecobrick we put a colored plastic on the bottom: we’re thinking of the next phase when we’ll build with it. This is why we use silicone and not glue when we attach ecobricks to make modules– so that when the module/chair/table comes to its end, we can take it apart to use the ecobricks again.</p>
 						 
 						</div>
-						<div class="side2"><img src="pngs/community.png" width="100%">
+						<div class="side2"><img src="webp/build-blue-450px.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
@@ -341,15 +341,9 @@ Content Page template: v.1.0.1-->
 
 			<div class="page-paragraph">    
 			
-			<p>It can be helpful to better understand what we mean by cyclical design by clarifying what it is not.  Ecobricking is often mistaken a ‘sustainable’ technology.  ‘Sustainability’  tends to refer to the virtue of enabling our current human systems and current way of life to continue.  Here, guided by the principles above, ecobricking technology is not this.  Instead, as regenerative technology, we strive to transition from sustaining the current human systems that deplete ecosystems to ways of living that enrich.</p>
+			<p>It can be helpful to better understand what we mean by cyclical design by clarifying what it is not.  Ecobricking is often mistaken a ‘sustainable’ and 'circular' technology.  ‘Sustainability’  tends to refer to the virtue of enabling our current human systems and current way of life to continue.  Instead, with our ecobricks we strive to do better-- to be greener!  Instead of a static circle, by intending our cycles we can instead spiral them towards richer societies and richer ecologies.</p>
 
-			<p>In this way, our principles are not anti-industry, nor anti-petro-capital.  Without them, we would not have come to the principles we now hold.  We acknowledge that yesterday’s use of Earth gifted carbon has been an important formative phase that sets us on our current course-correction.</p>
-			
-			<div class="row">
-                
-                    <div class="main2">
-
-			<p>With this we move on from sustaining.  In so far as our modern enterprises work in ways that conflicts with Earth’s example of carbon care, we strive to transition from them.  We also strive to heal and ‘regenerate’ any past damage that we are responsible for.  Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our green impacts.</p>
+			<p>Cyclical design is inspired by the concept of Ayyew in the culture of the Igorot people of Northern Luzon.  In fact, it was this very culture and concept that inspired and guided the early Asian ecobrick movement.</p>
 
 			<br><br>
 			<p><a class="action-btn" href="/ayyew">🍃 About Ayyew</a></p>
@@ -357,13 +351,9 @@ Content Page template: v.1.0.1-->
                     
 		</div>
 
-         <div class="side2">
-			<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
-			<p style="font-size: 0.85em; margin-top:20px;">How does ecobricking compare over a thousand years with other plastic management options?</a></p>
-		</div>
 	</div>
 </div>
--->
+
 
 		</DIV>
 		
