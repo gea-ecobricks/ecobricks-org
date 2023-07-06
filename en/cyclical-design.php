@@ -284,17 +284,15 @@ Content Page template: v.1.0.1-->
 						<div class="main3">
 						<p>Earthen constructions also enable full dissembly.  However, because ecobricks will be dirty upon extrication, they lend themselves to further earth constructions: such as another garden planter or bench.</p>
 						</div>
-						<div class="side3"><img src="webp/mandalic.webp" width="150px">
+						<div class="side3"><img src="webp/spiral-circular-400px.webp" width="150px">
 						</div>
 					</div>
-
-						<p></p>
 
 						<p>As communities accumulate more and more ecobricks, larger and more enduring structural constructions can be built.  Eventually, as communities accumulate thousands of ecobricks, structural earth and ecobrick constructions can be made-- such as those using ecoJoiners to build geodesic domes and hex-lattice walls.  These structures, though significantly more long-term, remain fully capable of being dissassembled.  Both the cob and the ecobricks (which have remained completely secured from degradation all the time they were inside the earthen construction) have the potential for reuse years or decades in the future.</p>
                 </div>
             </div>
 
-			<a name="TRANSCASTE"></a>
+			<a name="DESIGNATOR"></a>
             <div class="reg-content-block" id="block5">
 
                 <div class="opener-header">
@@ -317,7 +315,7 @@ Content Page template: v.1.0.1-->
 
 				<div class="row">
 						<div class="main2">
-						<p>An exciting extension of the cradle-to-cradle principle, is the GEA’s work developing the Ecobrickable Designator Kit.  As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.  Ecobricks allow designers to take their first step to cradle-to-cradle design.  With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable.  This design direction, falls within the transition of a company to full regenerative principles.</p>
+						<p>A practical extension of cyclical design, is the GEA’s work developing the Ecobrickable Designator Kit.  As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.  Ecobricks allow designers to take their first step to cradle-to-cradle design.  With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable.  This design direction, falls within the transition of a company to full regenerative principles.</p>
 
 						</div>
 						<div class="side2"><img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="100%">
@@ -349,10 +347,9 @@ Content Page template: v.1.0.1-->
 			<p><a class="action-btn" href="/ayyew">🍃 About Ayyew</a></p>
 			<p style="font-size: 0.85em; margin-top:20px;">Learn about the indigenous wisdom tradition that underlies the regenerative ecobrick movement.</a></p>
                     
-		</div>
+			</div>
 
-	</div>
-</div>
+		</div>
 
 
 		</DIV>
