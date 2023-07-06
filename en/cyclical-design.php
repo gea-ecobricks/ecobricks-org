@@ -88,16 +88,18 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed1">
 
-                <div class="row">
-						<div class="main2">
-						<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."</p><h6> — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</a></h6></div>
+				<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."</p><h6 style="font-size:smallest;"> — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</a></h6></div>
 						
 						<p>For the last billion years, Earth has been slow and steady greening the surface of our common home.</p>
+
+                <div class="row">
+						<div class="main2">
+						
 						
 						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example of ensuring that our processes and outputs are not only cyclical, but that lead to ever enriching cycles.</p>
 
 						</div>
-						<div class="side2"><img src="svgs/eco-enrichment.svg" width="100%">
+						<div class="side2"><img src="svgs/following-earths-example.svg" width="100%"><br><img src="svgs/eco-enrichment.svg" width="100%">
 						</div>
 					</div>
 					<div class="row2">
@@ -291,12 +293,11 @@ Content Page template: v.1.0.1-->
 
 				
 
-				<div class="lead-panel-paragraph"><p>We strive to include men and women, young and old, rich and poor… and everyone in between.</p></div>
+				<div class="lead-panel-paragraph"><p>A symbol to set products on spiral path.</p></div>
 
 				<div class="row">
 						<div class="main2">
-						<p>In our methods, projects and intentions we strive to rise above old notions of roles and ability and accessibility.  We encourage the collaboration of  groups that are often perceived to have different social rankings (i.e. ‘castes’) to work together on a equal platform of participation.  In other words, rather than a child doing one task and an adult doing another, we design the method so that both can do it together.</p>
-						<p>For example the work of making an ecobrick, making a module or building with earth are designed to be equally accessible to just about everybody– and in such a way that no one has advantage by virtue of skill, strength or experience.   In this way, men and women, boys and girls can be equally involved in the cocreative process without traditional castes causing alienation.</p>
+						<p>An exciting extension of the cradle-to-cradle principle, is the GEA’s work developing the Ecobrickable Designator Kit.  As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.  Ecobricks allow designers to take their first step to cradle-to-cradle design.  With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable.  This design direction, falls within the transition of a company to full regenerative principles.</p>
 
 						</div>
 						<div class="side2"><img src="photos/transcaste.jpg" width="100%">
