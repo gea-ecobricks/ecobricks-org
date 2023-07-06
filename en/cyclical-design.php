@@ -242,10 +242,10 @@ Content Page template: v.1.0.1-->
 
 				<p>By using materials, goods, services and products that come from within our community and ecological region we likewise minimize our dependence on capital and petroleum.</p>
 
--->
+
 
                 </div>
-            </div>
+            </div>-->
 
 			<a name="EARTH BUILDING"></a>
             <div class="reg-content-block" id="block4">
