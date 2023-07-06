@@ -108,7 +108,7 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed1">
 
-				<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."</p><span style="font-size:smallest;"> — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</a></span></div>
+				<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."</p><p style="font-size:smallest;"> — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</a></p></div>
 						
 						<p>For the last billion years, Earth has been slow and steady greening the surface of our common home.</p>
 
@@ -117,9 +117,9 @@ Content Page template: v.1.0.1-->
 						
 						
 						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example of ensuring that our processes and outputs are not only cyclical, but that lead to ever enriching cycles.</p>
-
+<!--<img src="svgs/following-earths-example.svg" width="100%"><br>-->
 						</div>
-						<div class="side2"><img src="svgs/following-earths-example.svg" width="100%"><br><img src="../svgs/eco-enrichment.svg" width="100%">
+						<div class="side2"><img src="svgs/eco-enrichment.svg" width="100%">
 						</div>
 					</div>
 					<div class="row2">
