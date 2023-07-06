@@ -36,6 +36,9 @@ Content Page template: v.1.0.1-->
 
 		<div class="page-paragraph">
 
+		<p>One of the <a href="/principles">six core ecobricking principles</a> is that of cyclical.  Going beyond mere linear and circular design, rather than think solely in lines and circles of use, we make sure to plan for an enriching spiral of reuse of our ecobricks within a procession of short and long-term applications.</p>
+		
+		<h3>The Modern Context</h3>
 		<p>It’s a fact of life: everything comes to its end.  Alas, the vast majority of the products we use today go from their birth in a factory, into our hands, to their grave– which is always someplace within the Earth’s biosphere. Pollution is the result.  Designs that fail to anticipate and plan for the end of a product are known as cradle-to-grave.</p>
 
 		<p>Unfortunately, products and materials that are designed to be 'circular' also lead to pollution and ecological depletion.  Although, cradle-to-cradle designs that can be used over are a step in the right direction, if the external impacts of each cycle aren't considered carefully, a spiral of depletion will result.  Alas we see this all too clearly with traditional industrially recycling:  each time a piece of plastic is recycled, large amounts of emission-intensive transportation, sorting, smelting are required.
@@ -46,9 +49,11 @@ Content Page template: v.1.0.1-->
         </p>
 
 
-		<p>Cyclical design principle underlies every ecobrick method and application that the GEA endorses. </p>
+	
 
 		<!--
+
+			<p>Cyclical design principle underlies every ecobrick method and application that the GEA endorses. </p>
 			
 		 This way we ensure that every ecobrick remains a reusable building block.  This ethic also helps guide the way that we make ecobricks and the GEA recommended ecobricking techniques.
 
@@ -92,14 +97,14 @@ Content Page template: v.1.0.1-->
 						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example of ensuring that our processes and outputs are not only cyclical, but that lead to ever enriching cycles.</p>
 
 						</div>
-						<div class="side2"><img src="webp/spiral-circular-400px.webp" width="100%">
+						<div class="side2"><img src="svgs/eco-enrichment.svg" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Following Earth's example of carbon care is the basis of <a href="https://book.earthen.io"  target="_blank">Earthen ethics</a>– five principles of green based on our planet's cosmological character.  </p>
 						</div>
-						<div class="side3"><img src="webp/spiral-circular-400px.webp" width="150px">
+						<div class="side3"><img src="svgs/eco-enrichment.svg" width="150px">
 						</div>
 					</div>
 				
@@ -166,8 +171,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Ecobrick Applications</h4>
-                    <h5>Ecobrick Applications are designed with their end and next begining in mind.</h5>   
+                    <h4>Avoiding Concrete</h4>
+                    <h5>An Example of cyclica</h5>   
                     <br>
                     </div>
 
@@ -273,8 +278,8 @@ Content Page template: v.1.0.1-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Transcaste</h4>
-                    <h5>Open to all</h5>   
+                    <h4>Ecobrick Designator Icon</h4>
+                    <h5>A clear expression of cyclical intention and design</h5>   
                     <br>
                     </div>
 
@@ -311,11 +316,11 @@ Content Page template: v.1.0.1-->
 
 			<br><br>
 						
-			<div class="lead-page-paragraph"><p><b>Sustainability vs Regenerative</p></b></div>
+			<div class="lead-page-paragraph"><p><b>Cyclical vs Circular Design</p></b></div>
 
 			<div class="page-paragraph">    
 			
-			<p>It can be helpful to better understand what we mean by regenerative by clarifying what it is now.  Ecobricking is often mistaken a ‘sustainable’ technology.  ‘Sustainability’  tends to refer to the virtue of enabling our current human systems and current way of life to continue.  Here, guided by the principles above, ecobricking technology is not this.  Instead, as regenerative technology, we strive to transition from sustaining the current human systems that deplete ecosystems to ways of living that enrich.</p>
+			<p>It can be helpful to better understand what we mean by cyclical design by clarifying what it is not.  Ecobricking is often mistaken a ‘sustainable’ technology.  ‘Sustainability’  tends to refer to the virtue of enabling our current human systems and current way of life to continue.  Here, guided by the principles above, ecobricking technology is not this.  Instead, as regenerative technology, we strive to transition from sustaining the current human systems that deplete ecosystems to ways of living that enrich.</p>
 
 			<p>In this way, our principles are not anti-industry, nor anti-petro-capital.  Without them, we would not have come to the principles we now hold.  We acknowledge that yesterday’s use of Earth gifted carbon has been an important formative phase that sets us on our current course-correction.</p>
 			
