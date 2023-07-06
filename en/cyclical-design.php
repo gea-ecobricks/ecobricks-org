@@ -221,14 +221,14 @@ Content Page template: v.1.0.1-->
                 </div>
             </div>
 
-			<a name="MANDALIC"></a>
+			<a name="EARTH BUILDING"></a>
             <div class="reg-content-block" id="block4">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Mandalic Collaboration</h4>
-                    <h5>The Commodification of Sequestered Plastic</h5>   
+                    <h4>Modules to Earth Building</h4>
+                    <h5>From short-term cycles to long-term cycles</h5>   
                     <br>
                     </div>
 
@@ -239,13 +239,13 @@ Content Page template: v.1.0.1-->
 
 				
 
-				<div class="lead-panel-paragraph"><p>Our intentions are powered by mandalic community collaboration.</p></div>
+				<div class="lead-panel-paragraph"><p>The Global Ecobrick Alliance advocates stages of reusable applications. </p></div>
 
 				<div class="row">
 						<div class="main2">
-						<p>Leading by example leverages the full power of mandalic collaboration.  Sharing our example allows others to be inspired by our story, insights, practices and net impact.  In so doing we consciously place ourselves in the center of a replicating, social unfolding.</p>
+						<p> The first and simplest applications are short-term: such as ecobrick modules.  These initial applications are ideal for first time ecobrickers as they only require a dozen ecobricks.  However, using silicone, these applications enable full dissembly, reuse and making of subsequent modules.</p>
 						
-						<p>There are different words for it in cultures around the world– the Igorots call it Obo’obo, in Africa its know as ubuntu, in Indonesia gotongrayong, in the Philippines Kawasan.  Whatever the term, the dynamic is the same: a community coming together to realize a shared vision and intention.</p>
+						<p>One a household or community has numerous modules, they will also have sufficient ecobricks to build with earth.  Once their modules come to an end, the ecobricks can be removed and used for building earthen gardens or benches.</p>
 
 						 
 
@@ -255,17 +255,15 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Most often, this is an intention that is for the whole community’s benefit– such as building a bridge or a well.</p>
+						<p>Earthen constructions also enable full dissembly.  However, because ecobricks will be dirty upon extrication, they lend themselves to further earth constructions: such as another garden planter or bench.</p>
 						</div>
 						<div class="side3"><img src="webp/mandalic.webp" width="150px">
 						</div>
 					</div>
 
-						<p>In our case, it is our common intention of keeping plastic out of the biosphere.  By holding a mission that is to the benefit of individuals, people, communities and the planet, the GEA enables this formidable force to power the realization of its vision.</p>
+						<p></p>
 
-						<p>This principle is in contrast to the means by which capital economy motivates and inspires participation through financial remuneration.  As a non-capital technology, ecobricking taps a deeper, more potent values such as community cleanliness, the health of children, the richness of the local ecology, to inspire participation, action and long term vision commitment.</p>
-
-						<p>For example, these very words are translated into other languages– not because we have paid anyone– but because they are in full resonance with the ecological passion of others who, resonating with our mission and vision, have offered their linguistic and programming expertise to make this happen.</p>
+						<p>As communities accumulate more and more ecobricks, larger and more enduring structural constructions can be built.  Eventually, as communities accumulate thousands of ecobricks, structural earth and ecobrick constructions can be made-- such as those using ecoJoiners to build geodesic domes and hex-lattice walls.  These structures, though significantly more long-term, remain fully capable of being dissassembled.  Both the cob and the ecobricks (which have remained completely secured from degradation all the time they were inside the earthen construction) have the potential for reuse years or decades in the future.</p>
                 </div>
             </div>
 
