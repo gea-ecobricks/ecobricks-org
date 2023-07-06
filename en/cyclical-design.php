@@ -265,7 +265,7 @@ Content Page template: v.1.0.1-->
 
 				
 
-				<div class="lead-panel-paragraph"><p>The Global Ecobrick Alliance advocates stages of reusable applications. </p></div>
+				<div class="lead-panel-paragraph"><p>The Global Ecobrick Alliance advocates short and longterm cycle planning. </p></div>
 
 				<div class="row">
 						<div class="main2">
