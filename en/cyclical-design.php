@@ -17,7 +17,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Cyclical Design</div>
 		<div class="splash-sub">Ecobricking and all ecobrick applications are guided by the Earthen principle of enriching cycles.</div>
 	</div>
-	<div class="splash-image"><img src="icons/cyclical-design-white3.svg" style="width: 100%;"></div>	
+	<div class="splash-image"><img src="icons/cyclical-design-white3.svg" style="width: 100%;"></div>
 </div>
 <div id="splash-bar"></div>
 
@@ -31,23 +31,14 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Ecobricks leverage the resilient properties of plastic to create reusable building blocks.  When we build with ecobricks we plan for the end of the application, for next life of every ecobrick and the enrichment of the ecosystem of which it is part</p>
+			<p>Ecobricks leverage the resilient properties of plastic to create reusable building blocks.  When we build with ecobricks we plan for the end of the construction, for next application of every ecobrick, and the next after that.  This way we can be sure the cycles that ensue are enriching socially and ecologically.</p>
 		</div>
 
 		<div class="page-paragraph">
 
-		<p>One of the <a href="/principles">six core ecobricking principles</a> is that of cyclical.  Going beyond mere linear and circular design, rather than think solely in lines and circles of use, we make sure to plan for an enriching spiral of reuse of our ecobricks within a procession of short and long-term applications.</p>
+		<p>One of the <a href="/principles">six core ecobricking principles</a> is that of cyclical design.  Going beyond mere linear and circular design, rather than think solely in lines and circles of use, we make sure to plan for an enriching spiral of reuse of our ecobricks within a procession of short and long-term applications.</p>
 		
-		<h3>The Modern Context</h3>
-		<p>It’s a fact of life: everything comes to its end.  Alas, the vast majority of the products we use today go from their birth in a factory, into our hands, to their grave– which is always someplace within the Earth’s biosphere. Pollution is the result.  Designs that fail to anticipate and plan for the end of a product are known as cradle-to-grave.</p>
-
-		<p>Unfortunately, products and materials that are designed to be 'circular' also lead to pollution and ecological depletion.  Although, cradle-to-cradle designs that can be used over are a step in the right direction, if the external impacts of each cycle aren't considered carefully, a spiral of depletion will result.  Alas we see this all too clearly with traditional industrially recycling:  each time a piece of plastic is recycled, large amounts of emission-intensive transportation, sorting, smelting are required.
-
-		<p>With ecobricks, we do things differently!  </p>
 	
-		<p>Guided by the first principle of <a href="https://book.earthen.io/summaries">Earthen ethics</a>, the cycles of ecobricks and their applications are designed to be greening.  To do so we not only plan for the next-life of our application, we also intend spiral of the cycles that we create.  This means that we ensure that not only are ecobricks indefinitely reusable, we also ensure that that each cycle of building and dissembly contributes socially and ecologically. 
-        </p>
-
 
 	
 
@@ -71,6 +62,35 @@ Content Page template: v.1.0.1-->
 		</div>
 
 
+		<a name="CONTEXT"></a>
+            <div class="reg-content-block" id="block6">
+
+                <div class="opener-header">
+                    
+                    <div class="opener-header-text">
+                    <h4>Context</h4>
+                    <h5>It’s a fact of life: everything comes to its end.</h5>   
+                    <br>
+                    </div>
+
+                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
+                </div>
+
+                <div id="preclosed1">
+
+				<div class="lead-panel-paragraph"><p>Alas, the vast majority of the products we use today go from their birth in a factory, into our hands, to their grave– which is always someplace within the Earth’s biosphere. Pollution is the result.  Designs that fail to anticipate and plan for the end of a product are known as cradle-to-grave.</p></div>
+						
+				<p>Unfortunately, products and materials that are designed to be 'circular' also lead to pollution and ecological depletion.  Although, cradle-to-cradle designs that can be used over are a step in the right direction, if the external impacts of each cycle aren't considered carefully, a spiral of depletion will result.  Alas we see this all too clearly with traditional industrially recycling:  each time a piece of plastic is recycled, large amounts of emission-intensive transportation, sorting, smelting are required.</p>
+
+        
+				<p>With ecobricks, we do things differently!  </p>
+	
+		<p>Guided by the first principle of <a href="https://book.earthen.io/summaries">Earthen ethics</a>, the cycles of ecobricks and their applications are designed to be greening.  To do so we not only plan for the next-life of our application, we also intend spiral of the cycles that we create.  This means that we ensure that not only are ecobricks indefinitely reusable, we also ensure that that each cycle of building and dissembly contributes socially and ecologically. 
+        </p>
+
+
+                </div>
+            </div>
 		
 			<a name="EARTH-EXAMPLE"></a>
             <div class="reg-content-block" id="block1">
@@ -88,7 +108,7 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed1">
 
-				<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."</p><h6 style="font-size:smallest;"> — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</a></h6></div>
+				<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."</p><span style="font-size:smallest;"> — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</a></span></div>
 						
 						<p>For the last billion years, Earth has been slow and steady greening the surface of our common home.</p>
 
@@ -300,7 +320,7 @@ Content Page template: v.1.0.1-->
 						<p>An exciting extension of the cradle-to-cradle principle, is the GEA’s work developing the Ecobrickable Designator Kit.  As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.  Ecobricks allow designers to take their first step to cradle-to-cradle design.  With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable.  This design direction, falls within the transition of a company to full regenerative principles.</p>
 
 						</div>
-						<div class="side2"><img src="photos/transcaste.jpg" width="100%">
+						<div class="side2"><img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="100%">
 						</div>
 					</div>
 					<div class="row2">
