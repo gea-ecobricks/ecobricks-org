@@ -838,7 +838,6 @@ display: none;
 .dropdown {
   float: right;
   overflow: hidden;
-  margin-bottom: -10px; /*zebra*/
 }
 
 
@@ -894,9 +893,10 @@ display: none;
       z-index: 1;
       border-radius: 0 0 12px 12px;
       margin-left: 0;
-      margin-top: 9px;
       margin-bottom: 6px;
       padding: 5px;
+      padding-top: 9px;
+
 
   }
 }
