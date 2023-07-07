@@ -838,6 +838,7 @@ display: none;
 .dropdown {
   float: right;
   overflow: hidden;
+  margin-bottom: -10px;
 }
 
 /*Grey app drop down menu items*/

@@ -93,7 +93,7 @@
                 </button>
                 <div class="dropdown-content-normal">
                     <a href="build.php">Building Methods</a>
-                    <a href="/modules">Lego Modules</a>
+                    <a href="/modules">Ecobrick Modules</a>
                     <a href="/earth">Earth & Ecobricks</a>
                     <a href="/openspaces">Open Spaces</a>
                 </div>
