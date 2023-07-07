@@ -35,7 +35,7 @@
                             </div>
                             <div class="apptext-menu">
                                 <div class="apptext-header">GoBrik </div>
-                                <div class="apptext-sub">Ecobricking Webapp<br>Manage your ecobricks<br>Connect to the Brikcoin blockchain</div>
+                                <div class="apptext-sub">Ecobricking Webapp<br>Manage your ecobricks<br>Connect to the Brikchain</div>
                             </div>
                         </div>
                     </a>

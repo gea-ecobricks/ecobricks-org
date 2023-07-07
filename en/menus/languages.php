@@ -1,5 +1,5 @@
          
-<a href='https://ecobricks.org/en/<?php echo ($name); ;?>' >🇬🇧 EN</a>
+<a href='https://ecobricks.org/en/<?php echo ($name); ;?>' title="English">🇬🇧 EN</a>
 <a href='https://ecobricks.org/id/<?php echo ($name); ;?>'>🇮🇩 IN</a>
 <a href='https://ecobricks.org/es/<?php echo ($name); ;?>'>🇪🇸 ES</a>
 <a href='https://ecobricks.org/fr/<?php echo ($name); ;?>'>🇫🇷 FR</a>
