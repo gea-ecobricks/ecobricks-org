@@ -252,24 +252,24 @@
 		<div class="page-paragraph">
 			<br><br>
 		
-		<h4>Personal & Community Empowerment</h4>
-		<p>Ecobricking is a both an individual and collaborative endeavour.  It unites across class, continents and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raise awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="transition.php">plastic transition</a>. The collaborative process gives individual and communities an hands on experience of <a href="/principles">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="/earth">earth building</a> and permaculture.</p>
-		<br><br>
+			<h4>Autonomisation personnelle et communautaire</h4>
+<p>L'écobrication est une entreprise à la fois individuelle et collaborative. Il unit les classes, les continents et les cultures autour de l'intention commune de prendre soin de la biosphère locale et mondiale. Le processus d'écobrique personnelle sensibilise aux conséquences de la consommation et aux dangers du plastique pour accélérer la <a href="transition.php">transition plastique</a>. Le processus collaboratif donne aux individus et aux communautés une expérience pratique de la <a href="/principles">mode de vie régénérateur</a> et oriente vers d'autres technologies régénératives, telles que la <a href="/earth">construction en terre </a> et la permaculture.</p>
+<br><br>
 
-		<h4>Learn More</h4>
-		
-		<p>The Global Ecobrick Alliance has developed extensive, free and open source resources (like this page!) to get you started ecobricking right.  Our goal is to empower you and your community with the know-how to make ecobricks and build with them.  The pages on this site are the result of years of research, experimentation and trial and error by plastic transition leaders around the world.
-		</p>
-		<ul>
-			<li><a href="/why">Why Make Ecobricks?</a></li>
-			<li><a href="/how">How to Ecobrick?</a></li>
-			<li><a href="/circular">Circular Design</a></li>
-			<li><a href="build.php">Building with Ecobricks</a></li>
-			<li><a href="/movement">The Movement</a></li>
-			<li><a href="/dropoff">Dropping off ecobricks?</a></li>
-			<li><a href="/trainings">Ecobrick Trainings</a></li>
-		</ul>
-		</div>
+<h4>En savoir plus</h4>
+
+<p>La Global Ecobrick Alliance a développé des ressources complètes, gratuites et open source (comme cette page !) pour vous aider à bien démarrer l'écobrick. Notre objectif est de vous donner, à vous et à votre communauté, le savoir-faire nécessaire pour fabriquer des écobriques et construire avec elles. Les pages de ce site sont le résultat d'années de recherche, d'expérimentation et d'essais et d'erreurs par des leaders de la transition plastique à travers le monde.
+</p>
+<ul>
+<li><a href="/why">Pourquoi fabriquer des écobricks ?</a></li>
+<li><a href="/how">Comment Ecobrick ?</a></li>
+<li><a href="/circular">Conception circulaire</a></li>
+<li><a href="build.php">Construire avec des Ecobricks</a></li>
+<li><a href="/mouvement">Le Mouvement</a></li>
+<li><a href="/dropoff">Vous déposez des écobriques ?</a></li>
+<li><a href="/trainings">Formations Ecobrick</a></li>
+</ul>
+</div>
 
 	</div>
 
@@ -288,43 +288,6 @@
 <?php require_once ("side-modules/transition-module.php");?>
 
 <?php require_once ("side-modules/earthen-ethics.php");?>
-
-
-			<div id="side-module-desktop-mobile">
-			<img src="webp/earthen-400px.webp" width="90%">
-				<h4>Plastic Sequestration</h4>
-				<h5>Ecobricking follows the Earth's example of carbon care to sequester plastics out of the biosphere.</h5><br>
-				<a href="sequest.php" target="_blank" class="module-btn">Learn More</a>
-			</div>
-				
-			<div id="side-module-desktop-only">
-			<img src="webp/earth-home.webp" width="85%">
-				<h4>Regenerative</h4>
-				<h5>Ecobricking is based on following the Earth's example and is guided by seven green principles.</h5><br>
-				<a class="module-btn" href="/principles">Principles</a>
-			</div>
-
-			<div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="90%">
-				<h4>Circular Design</h4>
-				<h5>Ecobricks and their building applications are circular by design.</h5><br>
-				<a class="module-btn" href="/circular">Learn More</a>
-			</div>
-
-	
-			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
-			</div>
-
-			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
-				<h4>For-Earth Enterprise</h4>
-				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="2021-regenreport.php">Learn More</a>
-			</div>
 
 		</div>
 

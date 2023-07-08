@@ -280,7 +280,19 @@
 
 		<div class="side">
 
-			<div id="side-module-desktop-mobile">
+
+<?php require_once ("side-modules/good-use.php");?>
+
+<?php require_once ("side-modules/sequest-module.php");?>
+
+<?php require_once ("side-modules/spiral-design.php");?>
+    
+<?php require_once ("side-modules/transition-module.php");?>
+
+<?php require_once ("side-modules/earthen-ethics.php");?>
+
+
+		<!--	<div id="side-module-desktop-mobile">
 			<img src="webp/earthen-400px.webp" width="90%">
 			<h4>Sekuestrasi Plastik</h4>
 			<h5>Ecobricking mengikuti contoh kepedulian bumi terhadap karbon untuk menyerap plastik dari biosfer.</h5><br>
@@ -314,7 +326,7 @@
 				<h4>For-Earth Enterprise</h4>
 				<h5>Dengan mengungkapkan dampak karbon, plastik, dan keanekaragaman hayati kami dan dengan memastikan bahwa semuanya ramah lingkungan, GEA berkomitmen untuk for-Earth Enterprise</h5><br>
 <a class="module-btn" href="2021-regenreport.php">Pelajari Lebih Lanjut</a>
-			</div>
+			</div>-->
 
 		</div>
 
