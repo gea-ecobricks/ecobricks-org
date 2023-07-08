@@ -16,7 +16,7 @@ _END;?>
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/svgs/building-methods.svg">
+<link rel="preload" as="image" href="https://www.ecobricks.org/en/webp/eb-sky-400px.webp">
 <link rel="preload" as="image" href="https://ecobricks.org/webp/build-banner-1400px.webp">
 
 <!--This loads CSS specific to this page
@@ -24,7 +24,7 @@ _END;?>
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("meta/build-$lang.php");?>
+<?php require_once ("meta/how-$lang.php");?>
 
 <?php require_once ("header.php");?>
 

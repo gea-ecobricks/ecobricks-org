@@ -97,8 +97,8 @@
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
 					<div class="opener-header-text">
-						<h4>Regular Ecobricks</h4>
-						<h5>A normal PET packed with plastic</h5><br>
+					<h4>Écobriques régulières</h4>
+<h5>Un PET normal emballé avec du plastique</h5><br>
 					</div>
 					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 				</div>
@@ -106,39 +106,37 @@
 				<div id="preclosed2">
 					<div class="row">
 						<div class="main2">
-						<p>Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
-						</div>
+						<p>Les écobriques normales sont fabriquées avec n'importe quelle taille de bouteille en plastique PET transparent. La bouteille et le plastique emballé sont propres et secs pour empêcher la croissance de bactéries. En règle générale, les écobrickers utilisent un bâton en bois ou en bambou pour emballer manuellement le plastique dans la bouteille en plastique. Le plastique est coupé ou déchiré en petits morceaux puis emballé petit à petit, en alternant entre l'ajout du plastique et son compactage, couche par couche. La bouteille est tournée à chaque pression pour s'assurer que le plastique est uniformément compacté dans toute la bouteille. Cela aide à éviter les vides et à ce que la garniture atteigne la solidité requise pour les applications d'un bloc de construction.</p>
+</div>
 						<div class="side2"><img src="webp/brik-cascade.webp" width="150px">
 						</div>
 					</div>
 
-					<p>Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy <a href="/fire">flammability</a> while maximizing its durability and re-usability.</p>
+					<p>Les écobriques terminées sont emballées suffisamment solides pour pouvoir supporter le poids d'une personne sans se déformer et pour interdire l'<a href="/feu">inflammabilité</a> facile tout en maximisant sa durabilité et sa réutilisation.</p >
 
 					<div class="row2">
 						<div class="main3">
-						<p>To be an ecobrick, the following standards must be met:</p>
-						</div>
+						<p>Pour être une écobrique, les normes suivantes doivent être respectées :</p>						</div>
 						<div class="side3"><img src="https://ecobricks.org/svgs/eb-blue.svg" width="120px">
 						</div>
 					</div>
 					<ul>
-					<li>The ecobrick is made using a transparent PET bottle</li>
-					<li>The ecobrick is only packed with used plastics that have been cleaned and dried.</li>
-					<li>The ecobrick’s density is higher than 0.33g/ml</li>
-					<li>The ecobrick must have a density of 0.70g/ml or less</li>
-					<li>The ecobrick is sealed tight with a screw down lid.</li>
-					<li>Care has been taken taken to prepare the ecobrick as a reusable building block:
-						<ul>
-						<li>The label has been removed and ecobricked.</li>
-						<li>A bottom color has been added</li>
-						<li>The weight has been permanently recorded on the outside.</li>
-						</ul></li>
-					</ul>
-					<p>Only ecobricks that meet these standards can be authenticated and count as sequestered plastic.</p>
-					<br><br>
-					<a class="action-btn" href="/how">ℹ️ How to Make</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">View our 10 Step Guide on Making an Ecobrick</a></p>
-
+					<li>L'ecobrick est fabriqué à partir d'une bouteille PET transparente</li>
+<li>L'ecobrick est uniquement emballé avec des plastiques usagés qui ont été nettoyés et séchés.</li>
+<li>La densité de l'ecobrick est supérieure à 0,33 g/ml</li>
+<li>L'ecobrick doit avoir une densité de 0,70 g/ml ou moins</li>
+<li>L'ecobrick est scellé hermétiquement avec un couvercle vissé.</li>
+<li>On a pris soin de préparer l'ecobrick comme un bloc de construction réutilisable :
+<ul>
+<li>L'étiquette a été retirée et écobriquée.</li>
+<li>Une couleur de fond a été ajoutée</li>
+<li>Le poids a été enregistré en permanence à l'extérieur.</li>
+</ul></li>
+</ul>
+<p>Seules les écobriques qui répondent à ces normes peuvent être authentifiées et comptées comme du plastique séquestré.</p>
+<br><br>
+<a class="action-btn" href="/how">ℹ️ Comment faire</a>
+                     <p style="font-size: 0.85em; margin-top:20px;">Consultez notre guide en 10 étapes pour fabriquer une écobrique</a></p>
 				</div>
 			</div>
 
