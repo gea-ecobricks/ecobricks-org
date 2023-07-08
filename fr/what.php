@@ -36,7 +36,7 @@
 			<div class="page-paragraph">
 				<p>Une ecobrick est une bouteille en PET solidement emballée avec du plastique usagé propre et sec. Les écobricks sont fabriqués manuellement à une densité définie pour <a href="sequest.php">séquestrer le plastique</a> et créer des blocs de construction réutilisables. De cette manière, les écobricks empêchent le plastique de <a href="/why">se dégrader en toxines et en microplastiques</a> et d'éviter les processus industriels à haute énergie et à fortes émissions. Mais surtout, le processus pratique d'écobriquetage approfondit notre conscience de ces problèmes et de leurs alternatives régénératrices - ce que nous appelons la <a href="transition.php">transition plastique</a>.</p>
 				<p>
-				Une fois que de nombreuses écobriques sont disponibles, elles peuvent être utilisées à court terme dans des <a href="/modules">unités modulaires</a>, <a href="/dms">lego-meubles</a>et < a href="/openspace">espaces ouverts.</a> Ecobrick peut également être utilisé à long terme dans les <a href="/earth">jardins et structures en terre</a>. Dans leur fabrication et leur application, les écobriques incarnent des <a href="/principes">principes régénératifs</a> et une <a href="/ayyew">vision ayyew</a> basée sur  <a href= "/plastic">l'exemple de la Terre</a> de sécurisation du carbone libre pour verdir la biosphère.</p>
+				Une fois que de nombreuses écobriques sont disponibles, elles peuvent être utilisées à court terme dans des <a href="/modules">unités modulaires</a>, <a href="/dms">lego-meubles</a>et <a href="/openspace">espaces ouverts.</a> Ecobrick peut également être utilisé à long terme dans les <a href="/earth">jardins et structures en terre</a>. Dans leur fabrication et leur application, les écobriques incarnent des <a href="/principles">principes régénératifs</a> et une <a href="/ayyew">vision ayyew</a> basée sur  <a href= "/plastic">l'exemple de la Terre</a> de sécurisation du carbone libre pour verdir la biosphère.</p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">
@@ -277,6 +277,18 @@
 <!-- PAGE SIDE BAR STARTS HERE-->
 
 		<div class="side">
+
+
+<?php require_once ("side-modules/good-use.php");?>
+
+<?php require_once ("side-modules/sequest-module.php");?>
+
+<?php require_once ("side-modules/spiral-design.php");?>
+    
+<?php require_once ("side-modules/transition-module.php");?>
+
+<?php require_once ("side-modules/earthen-ethics.php");?>
+
 
 			<div id="side-module-desktop-mobile">
 			<img src="webp/earthen-400px.webp" width="90%">
