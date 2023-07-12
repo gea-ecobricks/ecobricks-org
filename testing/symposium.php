@@ -12,12 +12,12 @@
 
     #container {
         overflow: hidden;
-        margin: 50px auto;
+        margin: 0px auto;
     }
 
     .photobanner {
         height: 233px;
-        full_width: 200%;
+        /*width: 200%;*/
     }
 
     /*keyframe animations*/
