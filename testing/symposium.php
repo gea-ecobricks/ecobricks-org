@@ -17,8 +17,7 @@
 
     .photobanner {
         height: 233px;
-        width: auto;
-        max_width: 200%;
+        full_width: 200%;
     }
 
     /*keyframe animations*/
