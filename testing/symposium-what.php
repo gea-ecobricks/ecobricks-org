@@ -9,7 +9,7 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
+		<div class="splash-heading">In every moment we have the power to contribute with our choices to make the change we want to see in the world. Every day Counts. Small changes make a big impact together.</div>
 		
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
@@ -22,12 +22,6 @@
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
-		<div class="main">
-			<div class="lead-page-paragraph">
-			<h4>In every moment we have the power to contribute with our choices to make the change we want to see in the world.</h4>
-			<p>Every day Counts.  Small changes make a big impact together.</p>
-		</div>
-
 		<div class="reg-content-block" id="block1">
 			
 			<div class="big-header">Composting</div>
