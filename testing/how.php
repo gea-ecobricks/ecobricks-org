@@ -33,24 +33,24 @@ Content Page template: v.1.0.0-->
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Ecobricks can build furniture, gardens, play parks, structures and more. The only limit is our imagination!</p>
+				<p>Ecobricks can be made by the young, the old and everyone in between — no machines, special skills or experts required!  However, there are important guidelines to follow to ensure the quality and usability of your ecobricks.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
-                        <p>That said, building with ecobricks is a big responsibility.   To make sure that ecobricks and the plastic they contain are safe and secure the Global Ecobrick Alliance (<a href="about.php">GEA</a>) has developed building guidelines, standards and principles.  By following these best-practices, we can be sure our ecobrick applications keep plastic <a href="sequest.php">sequestered</a> over the short-term and the long.</p>
+                        <p>Be sure to start ecobricking right— this is a long-term life habit that you, your household and community are beginning.  Likewise, your ecobricks will set the example for everyone around you.  Sub-standard ecobricks will compromise the quality of furniture modules, constructions and the social spread of ecobricks while, well-done ecobricks can be put to good, safe use and will secure plastic for centuries.  We’ve put this 10 step guide together to help you on your journey of making great ecobricks.</p>
 
-                        <!--<p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
+                
 							
             </div>	
-			<a name="APPROVED"></a>
+			<a name="SAVE"></a>
             <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Thinking Short, Long & Very Long</h4>
+                    <h4>1. Save, Segregate, Clean & Dry Plastics</h4>
                     <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
                     <br>
                     </div>
@@ -61,20 +61,16 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed1">
 
                 <br>
-                <p><b>Short-term Applications</b><p>
+                <img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/01-Save-Segregate-Prep-your-Plastics-800px.png">
 
-                <p>Silicone or inner-tube-bands can be used as short-term, non-permanent attachment methods to create ecobrick applications that last for months and up to several years.</p>
-                <p> As short-term applications are not usually covered up, they are typically for indoor use, in order to prevent the UV photodegradation of the bottles.  Short term application are easier for people to make and accelerate the <a href="/mandalas">mandalic spread</a> of ecobricking and the regenerative principles they embody. </p>
+                <p>Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials.  Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
 
-                <br><p><b>Long-term Applications</b><p>
+                <p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
+
                 
-                <p>Earth and Ecobrick building techniques are used to create structures that can last years or decades (it is not uncommon for traditional constructions to last centuries!).  Earth mixes (i.e Cob (material), Wattle and daub, adobe) are used to lay ecobricks horizontally and completely cover them for full protection against all forms of degradation.</p>
+                <p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
 
-                <br><p><b>Very long-term</b><p>
-                <p>Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelihood of plastic staying safe, secure and contained is much more likely than currently available alternatives.</p>
-                
-                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp" width="100%" alt="AA view of the paths various plastic management technologies take over 1000 years." loading="lazy"></a>
-                <p style="font-size: 0.85em; margin-top:20px;">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
+
 </div>
 </div>
 
@@ -492,6 +488,8 @@ Content Page template: v.1.0.0-->
 	
 
 		<div class="side">
+
+        <iframe width="400" height="230" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 <?php require_once ("side-modules/good-use.php");?>
