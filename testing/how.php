@@ -39,75 +39,81 @@ Content Page template: v.1.0.0-->
 			
 			
 			<div class="page-paragraph">
-                        <p>Be sure to start ecobricking right— this is a long-term life habit that you, your household and community are beginning.  Likewise, your ecobricks will set the example for everyone around you.  Sub-standard ecobricks will compromise the quality of furniture modules, constructions and the social spread of ecobricks while, well-done ecobricks can be put to good, safe use and will secure plastic for centuries.  We’ve put this 10 step guide together to help you on your journey of making great ecobricks.</p>
-
-                
-							
+                <p>Be sure to start ecobricking right— this is a long-term life habit that you, your household and community are beginning.  Likewise, your ecobricks will set the example for everyone around you.  Sub-standard ecobricks will compromise the quality of furniture modules, constructions and the social spread of ecobricks while, well-done ecobricks can be put to good, safe use and will secure plastic for centuries.  We’ve put this 10 step guide together to help you on your journey of making great ecobricks.</p>	
             </div>	
+
+
+
 			<a name="SAVE"></a>
             <div class="reg-content-block" id="block1">
-
                 <div class="opener-header">
-                    
                     <div class="opener-header-text">
-                    <h4>1. Save, Segregate, Clean & Dry Plastics</h4>
-                    <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
-                    <br>
+                        <h4>1. Save, Segregate, Clean & Dry Plastics</h4>
+                        <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
+                        <br>
                     </div>
 
-                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+
+                    </button>
                 </div>
 
                 <div id="preclosed1">
 
-                <br>
-                <img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/01-Save-Segregate-Prep-your-Plastics-800px.png">
+                    <br>
+                    <img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/01-Save-Segregate-Prep-your-Plastics-800px.png">
 
-                <p>Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials.  Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
+                    <p>Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials.  Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
 
-                <p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
+                    <p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
 
-                
-                <p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
+                    
+                    <p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
+                </div>
+            </div>
 
 
-</div>
-</div>
-
-            <a name="STORAGE"></a>
+            <a name="CHOOSE"></a>
             <div class="reg-content-block" id="block10">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Ecobrick Storage</h4>
-                    <h5>Before you build with ecobricks, it is essential to store them properly.</h5>   
-                    <br>
+                        <h4>2. Choose your bottle</h4>
+                        <h5>Before you start ecobricking, choose one specific bottle and stick with it.</h5>   
+                        <br>
                     </div>
 
                     <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10">+</button>
                 </div>
 
                 <div id="preclosed10">
-        <br>
+                    <br>
 
-            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
+                    <img src="www.ecobricks.org/wp-content/uploads/2020/02/02-Choose-your-Bottle-1.svg" width="100%" alt="Choose the ideal bottle type" loading="lazy">
 
-            <br>
-            <p>Before you build with ecobricks, it is essential to store them properly.  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements.  Ecobricks are best stacked horizontally with their bottom pointed outwards.  This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.</p>
+                    <br>
+                    <p>  When it comes time to building, having perfectly identical ecobrick sizes is important for making solid and steady modules.  It also helps having at least the same general size of bottle when it comes to building with earth and ecobricks.  Talk with ecobrickers in your community and make the choice together of what bottle to use.</p>
 
-            <img src="webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="An example of how to store eco bricks properly">
+                    <p>When selecting the bottle that you will use, consider three factors: the bottle’s availability, the volume, and the project you will use the ecobrick for.</p>
 
-            
+                    <ol>
+                        <li><b>Availability</b><br>
+                        The last thing you want to have to do is buy drinks to have a bottle for your ecobricking!  Soon many people will be ecobricking in your community and it is ideal to have everyone using the same brand and bottle.  Be sure to choose a bottle that everyone can easily come by.</li>
 
-            <br>
+                        <li><b>Volume</b><br>
+                        Choose the bottle volume you want to go with.  GEA Trainers teach ecobricking with bottles under 600ml.  Large 1500ml bottles will take a lot of plastic, but also take a long time to make!  Small volume bottles allow first-time ecobrickers to finish their first ecobrick and quickly learn from their mistakes.  Large bottles are best for advanced ecobrickers.</li>
 
-                <h5>ℹ️ Learn more how to make and store ecobricks properly: <a href="/how">10 Step Ecobricking Guide</a></h5>
+                        <li><b>Your Project</b><br>
+                        For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles).  Depending on the size of construction, you will need different size bottles.  For example, small bottles make good walls, and large bottles make good benches.  See our Construction Guide for more information on the different ways ecobricks are applied.</li>
+                    </ol>
 
-         </div>
-        </div>
+                    <h3>Advanced</h3>
 
-                
+                    <p>If you’re thinking of making Dieleman Lego Modules with your ecobricks, you must also consider the top tapper of your bottle. Dieleman modules work best when the distance between the top of the bottle and the start of the tapper is small. This allows more surface area for the inverted peg of the Dieleman module to be attached.</p>
+                </div>
+            </div>
+
+ <!--
                 
             <a name="MILSTEINS"></a>
 			<div class="reg-content-block" id="block3">
@@ -345,7 +351,7 @@ Content Page template: v.1.0.0-->
                             <p>Earth building is in full resonance with our principles — it is simple and replicable, non-capital, non-petroleum, collaboration powered, cradle-to-cradle and potently regenerative. Earth building techniques are gender and age transcendent:  involving men and women, young and old, and everyone in between in the building process.</p>
                             </div>
                             <div class="side2"><img src="https://www.ecobricks.org/wp-content/uploads/2020/04/cricle-bench-and-mango-tree-simple.svg" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                            </div><!--svgs/circle-bench.svg-->
+                            </div>
                         </div>
 
                         <div class="row2">
@@ -455,6 +461,7 @@ Content Page template: v.1.0.0-->
                 </div>
                
             </div>
+-->
 
           
 
@@ -462,49 +469,40 @@ Content Page template: v.1.0.0-->
              <br>
              <div class="page-paragraph-reg">
                  
-                 <div class="row">
+                <div class="row">
                 
                       <div class="main2">
-                         <h4>A Safe Passage Through Time</h4>
+                         <h4>And Build!</h4>
                         
-                         <p>Building with ecobricks is a significant responsibility.  Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade and escape. </p>
-                        <p>  Planning for the maintenance and the eventual end of your construction crucial.  This way we can put our plastic on a safe passage through time.  </p>
-                        <p>Go deeper into putting ecobricks to good use.  Learn about the core concepts of building with ecobricks and earth.</p>
-                        <br><p>
+                         <p>Once you have enough Ecobricks you’re ready to build. There are five main techniques for building with bottles and ecobricks.   The easiest, fastest, and perhaps the most fun Ecobrick application, is to make Milstein modules for horizontal building and Dieleman Lego modules for vertical building. With modules you can create benches, table, chairs, structures and more.  Perhaps the best use for Ecobricks is building community green spaces. Using local earth and ecobricks you and your community can build beautiful spaces that enrich the local environment.</p>
                     
-                        <a class="action-btn" href="/earth">🚀 Earth & Ecobrick Building</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</a></p>
-                        
-                    
-                 </div>
+                        <a class="action-btn" href="/build">🚀 Building Applications</a>
+                        <p style="font-size: 0.85em; margin-top:20px;">An overview of ecobrick building methods</a></p>    
+                    </div>
 
                     <div class="side2">
-                        <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                        <br><img src="webp/build-blue-450px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik building methods.">
                     </div>
                 </div>
-             </div>
+            </div>
 
         </div>
 	
 
 		<div class="side">
 
-        <iframe width="400" height="230" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="400" height="230" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-<?php require_once ("side-modules/good-use.php");?>
+            <?php require_once ("side-modules/good-use.php");?>
 
-<?php require_once ("side-modules/sequest-module.php");?>
+            <?php require_once ("side-modules/sequest-module.php");?>
 
-<?php require_once ("side-modules/spiral-design.php");?>
-    
-<?php require_once ("side-modules/transition-module.php");?>
+            <?php require_once ("side-modules/spiral-design.php");?>
+                
+            <?php require_once ("side-modules/transition-module.php");?>
 
-<?php require_once ("side-modules/earthen-ethics.php");?>
-
-	
-		
-
+            <?php require_once ("side-modules/earthen-ethics.php");?>
 		</div>
 
 	</div>
