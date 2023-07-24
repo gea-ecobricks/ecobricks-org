@@ -468,6 +468,8 @@ Content Page template: v.1.0.0-->
 
              <br>
              <div class="page-paragraph-reg">
+
+             <iframe width="400" height="230" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                  
                 <div class="row">
                 
@@ -491,7 +493,7 @@ Content Page template: v.1.0.0-->
 
 		<div class="side">
 
-            <iframe width="400" height="230" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           
 
 
             <?php require_once ("side-modules/good-use.php");?>
