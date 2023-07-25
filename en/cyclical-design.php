@@ -31,12 +31,12 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Ecobricks leverage the resilient properties of plastic to create reusable building blocks.  When we build with ecobricks we plan for the end of the construction, for next application of every ecobrick, and the next after that.  This way we can be sure the cycles that ensue are enriching socially and ecologically.</p>
+			<p>When we build with ecobricks we plan for the end of the construction, for the next application of every ecobrick, and the next after that.  This way we can be sure the cycles that ensue are enriching socially and ecologically.</p>
 		</div>
 
 		<div class="page-paragraph">
 
-		<p>One of the <a href="/principles">six core ecobricking principles</a> is that of cyclical design.  Going beyond mere linear and circular design, rather than think solely in lines and circles of use, we make sure to plan for an enriching spiral of reuse of our ecobricks within a procession of short and long-term applications.</p>
+		<p>One of the several core<a href="/principles"> ecobricking principles</a> is that of <i>cyclical design</i>.  Unlike linear and circular design, rather than think solely in lines and circles of re-use, we design in spirals.  In this way, we are sure to embed an enriching spiral of short and long-term reuse into our ecobrick designs. </p>
 		
 	
 
@@ -69,7 +69,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Context</h4>
-                    <h5>It’s a fact of life: everything comes to its end.</h5>   
+                    <h5>Everything comes to its end.</h5>   
                     <br>
                     </div>
 
@@ -85,7 +85,9 @@ Content Page template: v.1.0.1-->
         
 				<p>With ecobricks, we do things differently!  </p>
 	
-		<p>Guided by the first principle of <a href="https://book.earthen.io/summaries">Earthen ethics</a>, the cycles of ecobricks and their applications are designed to be greening.  To do so we not only plan for the next-life of our application, we also intend spiral of the cycles that we create.  This means that we ensure that not only are ecobricks indefinitely reusable, we also ensure that that each cycle of building and dissembly contributes socially and ecologically. 
+		<p>Guided by the first principle of <a href="https://book.earthen.io/summaries">Earthen ethics</a>, the cycles of ecobricks and their applications are designed to be <i>greening</i>.  Not only do we plan for the next-life of our application, we also intend spiral of the cycles that we create. </p>
+		
+		<p>To do so, we leverage the resilient properties of plastic to create reusable building blocks that have a procession of short and long-term applications.   This means that we ensure that ecobricks are both indefinitely reusable and that that each cycle of building and dissembly contributes socially and ecologically. 
         </p>
 
 
@@ -163,12 +165,12 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed2">
 
 				<div class="lead-panel-paragraph"><p>
-					Cyclical design principle underlies every ecobrick method that the GEA endorses. This way we ensure that every ecobrick remains a reusable building block. This ethic also helps guide the way that we make ecobricks and the GEA recommended ecobricking techniques.</p></div>
+					Cyclical design underlies every ecobrick method that the GEA endorses. TThis ethic also helps guide the way that we make ecobricks and all the GEA's recommended techniques.</p></div>
 					
 					<div class="row">
 						<div class="main2">
 						
-						<p>This is the reason that when we start an ecobrick we put a colored plastic on the bottom: we’re thinking of the next phase when we’ll build with it. This is why we use silicone and not glue when we attach ecobricks to make modules– so that when the module/chair/table comes to its end, we can take it apart to use the ecobricks again.</p>
+						<p>This is exactly the reason that when we start an ecobrick we put a colored plastic on the bottom: we’re thinking of the next phase when we’ll build with it! This is also why we use silicone and not glue when we attach ecobricks to make modules– so that when the module/chair/table comes to its end, we can take it apart to use the ecobricks again.</p>
 						 
 						</div>
 						<div class="side2"><img src="webp/build-blue-450px.webp" width="100%">
@@ -176,7 +178,7 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>By leading by example in following Earth's example, we can be a powerful inspiration.</p>
+						<p>By leading by example in following Earth's example, our management of plastic can be a powerful inspiration for all our other materials and technologies.</p>
 						</div>
 						<div class="side3"><img src="pngs/community.png" width="150px">
 						</div>
@@ -310,11 +312,11 @@ Content Page template: v.1.0.1-->
 
 				
 
-				<div class="lead-panel-paragraph"><p>A symbol to set products on spiral path.</p></div>
+				<div class="lead-panel-paragraph"><p>A symbol to set products on spiral spin.</p></div>
 
 				<div class="row">
 						<div class="main2">
-						<p>A practical extension of cyclical design, is the GEA’s work developing the Ecobrickable Designator Kit.  As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.  Ecobricks allow designers to take their first step to cradle-to-cradle design.  With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable.  This design direction, falls within the transition of a company to full regenerative principles.</p>
+						<p>A practical extension of cyclical design is the GEA’s work developing the <a href="../ecobrickable">Ecobrickable Designator Kit</a>.  As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.  </p>
 
 						</div>
 						<div class="side2"><img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="100%">
@@ -322,9 +324,9 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>This enables us to rise above old gender and generational divides to supercharge our collaborations with many variations of human creativity while further lowering the barriers of replication.</p>
+						<p>Ecobrickability allow designers to take their first step to cradle-to-cradle design.  With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable.  This design direction, allows the transition of a company to full regenerative principles (see our <a href="catalyst.php">Catalyst company program</a>).</p>
 						</div>
-						<div class="side3"><img src="photos/transcaste.jpg" width="150px">
+						<div class="side3"><img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="150px">
 						</div>
 					</div>
 
@@ -338,13 +340,13 @@ Content Page template: v.1.0.1-->
 
 			<div class="page-paragraph">    
 			
-			<p>It can be helpful to better understand what we mean by cyclical design by clarifying what it is not.  Ecobricking is often mistaken a ‘sustainable’ and 'circular' technology.  ‘Sustainability’  tends to refer to the virtue of enabling our current human systems and current way of life to continue.  Instead, with our ecobricks we strive to do better-- to be greener!  Instead of a static circle, by intending our cycles we can instead spiral them towards richer societies and richer ecologies.</p>
+			<p>It can be helpful to better understand what we mean by cyclical design by clarifying what it is not.  Ecobricking is often mistaken a ‘sustainable’ or 'circular' technology.  These terms tends to refer to enabling our current human systems and current way of life to continue to spin indefinitely.  Instead, with our ecobricks we strive to do better-- to be greener!  Instead of a static circle, by intending our cycles we can instead spiral them towards richer societies and richer ecologies.</p>
 
-			<p>Cyclical design is inspired by the concept of Ayyew in the culture of the Igorot people of Northern Luzon.  In fact, it was this very culture and concept that inspired and guided the early Asian ecobrick movement.</p>
+			<p>Cyclical design is inspired by the concept of Ayyew in the culture of the Igorot people of Northern Luzon.  This Igorot concept inspired and guided the <a href="../story">early Asian ecobrick movement</a>, the work of the <a href="about">GEA</a> and the development of our <a href="principles.php">Earthen principles</a>.</p>
 
 			<br><br>
 			<p><a class="action-btn" href="/ayyew">🍃 About Ayyew</a></p>
-			<p style="font-size: 0.85em; margin-top:20px;">Learn about the indigenous wisdom tradition that underlies the regenerative ecobrick movement.</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">Learn about the indigenous wisdom tradition that underlies the Earthen ecobrick movement.</a></p>
                     
 			</div>
 
