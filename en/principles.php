@@ -374,6 +374,7 @@ Content Page template: v.1.0.1-->
 
 			<?php include 'side-modules/cyclical-design.php';?>
 
+		
 
                 <br>
 			</div>   
