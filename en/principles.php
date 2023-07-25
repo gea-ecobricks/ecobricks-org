@@ -59,11 +59,11 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed1">
 
                 <div class="row">
-						<div class="lead-panel-paragraph"><p>For the last billion years, Earth has been slow and steady greening our common home.</p></div>
+						<div class="lead-panel-paragraph"><p>For the last billion years, Earth has been slow and steady greened our common home.</p></div>
 
 						<div class="main2">
 
-						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere while providing us an example to follow.  By following the our planet's principles, we can make sure our modern ways are green too are green.  And our plastic  (which is made using ancient compacted carbon) is the perfect place to start!</p>
+						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere while providing us an example to follow to do the same.  By following the our planet's principles, we can make sure our methods and means are green.  Our plastic -- which is made using ancient compacted carbon -- is the perfect place to start!</p>
 
 						</div>
 						<div class="side2"><img src="svgs/following-earths-example.svg" width="100%">
@@ -71,23 +71,23 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Following Earth's example is the basis of <a href="https://book.earthen.io"  target="_blank">Earthen ethics</a>: five principles of green based on our planet's cosmological character.  </p>
+						<p>Following Earth's example is the basis of <a href="https://book.earthen.io"  target="_blank">Earthen ethics</a>: five principles based on our planet's cosmological character.  </p>
 						</div>
 						<div class="side3"><img src="svgs/following-earths-example.svg" width="150px">
 						</div>
 					</div>
 				
 				<p><ul>
-					<li><b><a href="https://book.earthen.io/spirals"  target="_blank">1. Cyclical:</a></b>  In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.</li>
+					<li><b>1. <a href="https://book.earthen.io/spirals"  target="_blank">1. Cyclical:</a></b>  In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.</li>
 
-					<li><b><a href="https://book.earthen.io/energy" target="_blank">2. For-Earth:</a></b> In the same way that Earth’s cycles disperse  energy outwards from organism, to ecosystem to biosphere, so to can we.  In particular: with the enterprise of managing our plastic.  Rather than manage our plastic for profit, we can be sure to ecobrick first and foremost for the benefit of the biosphere.</li>
+					<li><b>2. <a href="https://book.earthen.io/energy" target="_blank"> For-Earth:</a></b> In the same way that Earth’s cycles disperse  energy outwards from organism, to ecosystem to biosphere, so to can we.  In particular: with the enterprise of managing our plastic.  Rather than manage our plastic for profit, we can be sure to ecobrick first and foremost for the benefit of the biosphere.</li>
 
-    				<li><b>3. Towards Concentration:</b>  In the same way that Earth steadily compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or industrially recycling.</li>
+    				<li><b>3. <a href="https://book.earthen.io/matter" target="_blank"> Towards Concentration:</a></b>  In the same way that Earth steadily compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or industrially recycling.</li>
     
 				
-    				<li><b>4. Towards Diversity:</b>  In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
+    				<li><b>4. <a href="https://book.earthen.io/diversification" target="_blank"> Towards Diversity:</a></b>  In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</li>
 
-    				<li><b>5. Towards Awareness:</b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
+    				<li><b>5. <a href="https://book.earthen.io/awaring" target="_blank">Towards Awareness:</a></b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</li>
 
 				</ul>
 				<br><br><hr>
@@ -191,7 +191,7 @@ Content Page template: v.1.0.1-->
     			<p><ul>
 					<li><b>Localized:</b> By designing with local, organic or upcycled materials (that are ideally freely available) we remove resource barriers to replication.</li>
 
-    				<li><b>Petro Transition:</b> By designing methods that do not require machines, we remove the barrier of technology, specific skills and dependence on petroleum based energy.
+    				<li><b>Petro-Capital Transition:</b> By designing methods that do not require machines, we remove the barrier of technology, specific skills and dependence on petroleum based energy.
 
 
     			<li><b>Transcaste:</b> By designing our methods so that they do not require specialized abilities we remove age, gender and geographical barriers to replication and empowerment.</li>
@@ -201,6 +201,8 @@ Content Page template: v.1.0.1-->
 				<li><b>Non-Capital:</b>  By designing methods and using materials that do not require capital, we remove the financial barrier to participation and replication.  </li>
 
 				<li><b>Local:</b>  We strive to employ locally available resources in our ecobrick applications.  First and foremost, ecobricking is all about packing our local plastic.  This begins with the very plastic we have personally consumed, then extends to that consumed in our household and community. Ideally we use PET bottles that come from our community and a stick that comes from our area.  This way we transform plastic that would otherwise cause problems in our area with the minimum amount of energy and the maximum amount of social empowerment.</li>
+
+				<li><b>Cyclically Designed:</b>  Ecobricks and all their applicatins are designed for indefinite cycles that are enriching ecologically and socially.</li>
 
 			</ul>
 
@@ -370,14 +372,8 @@ Content Page template: v.1.0.1-->
                 <br>
 			</div>   
 
-			<!--<?php include 'side-modules/cyclical-design.php';?> -->
+			<?php include 'side-modules/cyclical-design.php';?>
 
-			<div class="side-module-desktop-mobile">
-				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
-				<br><h4>Cyclical Design</h4>
-				<h5>Ecobricks and all their applicatins are designed for cycles of indefinite reuse.</h5><br>
-				<a class="module-btn" href="cyclical-design.php">Learn More</a>
-				<h6 style="font-size:smaller">The principle of enriching cycles</h6>
 
                 <br>
 			</div>   
