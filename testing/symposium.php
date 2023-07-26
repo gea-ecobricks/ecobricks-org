@@ -102,11 +102,11 @@
                     <h2 id="demo" style="text-align:center"></h2>
                     <div class="photobanner">
                         <img class="first" src="ees-banner-dates-static.png" height="233px" width="auto" alt="" />
-                        <img src="ees-banner-now.png" height="233px" width="auto" alt="" />
-                        <img src="ees-banner-power.png" height="233px" width="auto" alt="" />
+                        <img src="ees-banner-now.svg" height="233px" width="auto" alt="" />
+                        <img src="ees-banner-power.svg" height="233px" width="auto" alt="" />
                         <img src="ees-banner-dates-static.png" height="233px" width="auto" alt="" />
-                        <img src="ees-banner-now.png" height="233px" width="auto" alt="" />
-                        <img src="ees-banner-power.png" height="233px" width="auto" alt="" />
+                        <img src="ees-banner-now.svg" height="233px" width="auto" alt="" />
+                        <img src="ees-banner-power.svg" height="233px" width="auto" alt="" />
                         <img src="ees-banner-dates-static.png" height="233px" width="auto" alt="" />
                         <img src="ees-banner-now.png" height="233px" width="auto" alt="" />
                     </div>
