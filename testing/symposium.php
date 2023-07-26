@@ -109,7 +109,6 @@
                         <img src="ees-banner-power.svg" height="233px" width="auto" alt="" />
                         <img src="ees-banner-dates-static.svg" height="233px" width="auto" alt="" />
                         <img src="ees-banner-now.png" height="233px" width="auto" alt="" />
-                        <img src="ees-banner-power.svg" height="233px" width="auto" alt="" />
                     </div>
                 </div>
 
