@@ -31,12 +31,12 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>When we build with ecobricks we plan for the end of the construction, for the next application of every ecobrick, and the next after that.  This way we can be sure the cycles that ensue are enriching socially and ecologically.</p>
+			<p>When we build with ecobricks we plan for the end of the construction, for the next application of every ecobrick, and the next after that.  This way we can be sure the cycles that result enrich socially and ecologically.</p>
 		</div>
 
 		<div class="page-paragraph">
 
-		<p>One of the several core<a href="/principles"> ecobricking principles</a> is that of <i>cyclical design</i>.  Unlike linear and circular design, rather than think solely in lines and circles of re-use, we design in spirals.  In this way, we are sure to embed an enriching spiral of short and long-term reuse into our ecobrick designs. </p>
+		<p>One of the several core<a href="/principles"> ecobricking principles</a> is that of <i>cyclical design</i>.  Unlike linear and circular design, rather than plan in lines and circles, we plan in spirals.  This way, we can embed an enriching spin of short and long-term reuse into our ecobrick designs. </p>
 		
 	
 
@@ -78,9 +78,9 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed6">
 
-				<div class="lead-panel-paragraph"><p>Alas, the vast majority of the products we use today go from their birth in a factory, into our hands, to their grave– which is always someplace within the Earth’s biosphere. Pollution is the result.  Designs that fail to anticipate and plan for the end of a product are known as cradle-to-grave.</p></div>
+				<div class="lead-panel-paragraph"><p>Today, the vast majority of the products we use go from their birth in a factory, into our hands, to their grave. Pollution is the result.  Designs that fail to anticipate and plan for the end of a product are known as "cradle-to-grave".</p></div>
 						
-				<p>Unfortunately, products and materials that are designed to be 'circular' also lead to pollution and ecological depletion.  Although, cradle-to-cradle designs that can be used over are a step in the right direction, if the external impacts of each cycle aren't considered carefully, a spiral of depletion will result.  Alas we see this all too clearly with traditional industrially recycling:  each time a piece of plastic is recycled, large amounts of emission-intensive transportation, sorting, smelting are required.</p>
+				<p>Unfortunately, products and materials that are designed to be 'circular' also lead to pollution and ecological depletion.  Although, cradle-to-cradle designs that can be used over are a step in the right direction, if the external impacts of each cycle aren't considered carefully (for example the making and fueling of the factory that makes a product), a spiral of depletion will result.  Alas we see this all too clearly with traditional industrially recycling:  each time a piece of plastic is recycled, large amounts of emission-intensive transportation, sorting, smelting are required.</p>
 
         
 				<p>With ecobricks, we do things differently!  </p>
@@ -165,12 +165,12 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed2">
 
 				<div class="lead-panel-paragraph"><p>
-					Cyclical design underlies every ecobrick method that the GEA endorses. TThis ethic also helps guide the way that we make ecobricks and all the GEA's recommended techniques.</p></div>
+					Cyclical design underlies every ecobrick method that the GEA endorses. This principles also helps guide the way that we make ecobricks and all the GEA's recommended best practices.</p></div>
 					
 					<div class="row">
 						<div class="main2">
 						
-						<p>This is exactly the reason that when we start an ecobrick we put a colored plastic on the bottom: we’re thinking of the next phase when we’ll build with it! This is also why we use silicone and not glue when we attach ecobricks to make modules– so that when the module/chair/table comes to its end, we can take it apart to use the ecobricks again.</p>
+						<p>Some people wonder why, when we start an ecobrick we put a colored plastic on the bootom.  This is exactly why! We’re thinking of the ecobricks's next phase when we’ll build with it. This is also why we use silicone and not glue when we attach ecobricks to make modules– so that when the module/chair/table comes to its end, we can take it apart to use the ecobricks again.</p>
 						 
 						</div>
 						<div class="side2"><img src="webp/build-blue-450px.webp" width="100%">
@@ -340,7 +340,7 @@ Content Page template: v.1.0.1-->
 
 			<div class="page-paragraph">    
 			
-			<p>It can be helpful to better understand what we mean by cyclical design by clarifying what it is not.  Ecobricking is often mistaken a ‘sustainable’ or 'circular' technology.  These terms tends to refer to enabling our current human systems and current way of life to continue to spin indefinitely.  Instead, with our ecobricks we strive to do better-- to be greener!  Instead of a static circle, by intending our cycles we can instead spiral them towards richer societies and richer ecologies.</p>
+			<p>It can be helpful to better understand what we mean by cyclical design by clarifying what it is not.  Ecobricking is often mistaken a ‘sustainable’ or 'circular' technology.  These terms tends to refer to enabling our current human systems to continue to spin on indefinitely by minimizing damage and environmental harm.  Instead, with our ecobricks we strive for a fundamental shift towards net contribution.  Instead of a static circle, by intending our cycles we can spiral them towards richer societies and greener ecosystems.</p>
 
 			<p>Cyclical design is inspired by the concept of Ayyew in the culture of the Igorot people of Northern Luzon.  This Igorot concept inspired and guided the <a href="../story">early Asian ecobrick movement</a>, the work of the <a href="about">GEA</a> and the development of our <a href="principles.php">Earthen principles</a>.</p>
 
