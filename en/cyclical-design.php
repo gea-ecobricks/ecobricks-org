@@ -31,7 +31,7 @@ Content Page template: v.1.0.1-->
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>When we build with ecobricks we plan for the end of the construction, for the next application of every ecobrick, and the next after that.  This way we can be sure the cycles that result enrich socially and ecologically.</p>
+			<p>When we build with ecobricks we plan for the end of the construction, for the next application of every ecobrick, and the next after that.  This way we can be sure the cycles that result, enrich socially and ecologically.</p>
 		</div>
 
 		<div class="page-paragraph">
@@ -80,7 +80,7 @@ Content Page template: v.1.0.1-->
 
 				<div class="lead-panel-paragraph"><p>Today, the vast majority of the products we use go from their birth in a factory, into our hands, to their grave. Pollution is the result.  Designs that fail to anticipate and plan for the end of a product are known as "cradle-to-grave".</p></div>
 						
-				<p>Unfortunately, products and materials that are designed to be 'circular' also lead to pollution and ecological depletion.  Although, cradle-to-cradle designs that can be used over are a step in the right direction, if the external impacts of each cycle aren't considered carefully (for example the making and fueling of the factory that makes a product), a spiral of depletion will result.  Alas we see this all too clearly with traditional industrially recycling:  each time a piece of plastic is recycled, large amounts of emission-intensive transportation, sorting, smelting are required.</p>
+				<p>Unfortunately, products and materials that are designed to be 'circular' also lead to pollution and ecological depletion.  Although, "cradle-to-cradle" designs that can be used over are a step in the right direction, if the external impacts of each cycle aren't considered carefully (for example the making and fueling of the factory that makes a product), a spiral of depletion will result.  Alas we see this all too clearly with traditional industrially recycling:  each time a piece of plastic is recycled, large amounts of emission-intensive transportation, sorting, smelting are required.</p>
 
         
 				<p>With ecobricks, we do things differently!  </p>
@@ -324,7 +324,7 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Ecobrickability allow designers to take their first step to cradle-to-cradle design.  With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable.  This design direction, allows the transition of a company to full regenerative principles (see our <a href="catalyst.php">Catalyst company program</a>).</p>
+						<p>Ecobrickability allow designers to take their first step to cyclical design.  With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable.  This design direction, allows the transition of a company to full regenerative principles (see our <a href="catalyst.php">Catalyst company program</a>).</p>
 						</div>
 						<div class="side3"><img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="150px">
 						</div>
