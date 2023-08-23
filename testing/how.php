@@ -204,7 +204,35 @@ Content Page template: v.1.0.0-->
 			    <div class="learn-more-content">Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic.  By forming a center white ring of plastic you will later have a clear location to label your Ecobrick with a permanent black marker.</div>
 		    </div>
 	</div>
-	
+
+            <a name="GET"></a>
+            <div class="reg-content-block" id="block7">
+
+                   <div class="opener-header-text">
+                        <h4>7. Weigh your Ecobrick to ensure quality</h2>
+		   </div>	
+
+                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show3">+</button>
+                </div>
+
+		<div id="preclosed7">
+                    <br>
+			<p><img loading="lazy" class="size-medium aligncenter" src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/07-Weigh-your-ecobrick-to-ensure-density-FLAT.svg.svg" alt width="818" height="428" /></p>
+
+			<p>The weight vs volume of your ecobrick is a good indicator of the quality of your ecobrick.  Ecobricks that are solid and strong are densely packed.  The full volume is used for plastics and there is no air or spaces inside.  The GEA has determined that an ecobrick's density must be higher than <strong> 0.33 g/ml</strong>.  This means that a 600ml bottle must be above 200 grams and a 1500ml bottle must be above a weight of 500 grams.  Experienced ecobrickers tend to regard 0.37 g/ml and above as the range of a good ecobricks.</p>
+
+			<p>We've discovered that obligating minimum density in your communities ecobricking is essential to ensure quality ecobricks.  Quality ecobricks ensure solid and safe constructions and make the maximize the bottle's volume for securing plastic out of the environment.</p>
+
+			<p>Ecobricks that are below 0.33 g/ml are too squishy to be used for modules and are not ideal for earth building.  Soft ecobricks can compromise structural constructions and will dent easily, which reduces their lifespan.  Low density ecobricks are also<a href="/fire"> fire hazards</a> because of the air pockets remaining inside them,</p>
+
+			<p>That said, a good solid ecobrick that meets all GEA guidelines is something you can be proud and which will inspire others!  An ecobrick&#8217;s heft and quality set an inspiring example for others and energize the social spread of ecobricks.  When others see and hold your ecobrick, they will understand immediately that something important has happened: "waste" has been transformed into something fundamentally useful.</p>
+
+			<h3>Advanced: Max Density</h3>
+
+			<div class="learn-more-content">Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.
+			</div>
+		</div>
+	</div>
 <!--
                 
             <a name="MILSTEINS"></a>
