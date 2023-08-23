@@ -145,7 +145,7 @@ Content Page template: v.1.0.0-->
                         <h4>4. No glass, metal or biodegradables</h4>
                     </div>
 
-	            <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show2">+</button>
+	            <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
                 </div>
 
 		<div id="preclosed4">
@@ -168,7 +168,7 @@ Content Page template: v.1.0.0-->
                         <h4>5. Start by adding a bottom color</h4>
                     </div>
 		    
-                    <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show3">+</button>
+                    <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
                 </div>
 
 		<div id="preclosed5">
@@ -189,7 +189,7 @@ Content Page template: v.1.0.0-->
                         <h4>6. Pack the bottle tight, mixing plastics as you go</h2>
 		   </div>
 
-                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show3">+</button>
+                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
                 </div>		    
 		<div id="preclosed6">
                     <br>
@@ -213,7 +213,7 @@ Content Page template: v.1.0.0-->
                         <h4>7. Weigh your Ecobrick to ensure quality</h2>
 		   </div>	
 
-                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show3">+</button>
+                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
                 </div>
 
 		<div id="preclosed7">
