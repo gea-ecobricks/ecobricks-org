@@ -114,7 +114,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed3">
                 	<br>
-			<img>https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/03-Get-your-stick-ready.svg</img>
+			<img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/03-Get-your-stick-ready.svg">
                         <p>Having the right stick will make a big difference to your ecobricking.   Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle&#8211; and yes, this means you have to start your ecobrick all over again!</p><p>Once you&#8217;ve got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic!  One stick turns in to many!</p> 
 
 			<h3>Advanced</h3>
@@ -139,7 +139,7 @@ Content Page template: v.1.0.0-->
 		<div id="preclosed4">
                 	<br>
 			<a href="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png"><img loading="lazy" class="aligncenter wp-image-56299 size-full" src="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png" alt width="915" height="401" /></a>
-			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul><div class="et-learn-more clearfix">
+			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul>
 				
 			<h3>Advanced</h3>
 			
