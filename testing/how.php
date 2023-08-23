@@ -73,7 +73,7 @@ Content Page template: v.1.0.0-->
 
 
             <a name="CHOOSE"></a>
-            <div class="reg-content-block" id="block10">
+            <div class="reg-content-block" id="block2">
 
                 <div class="opener-header">
                     
@@ -83,10 +83,10 @@ Content Page template: v.1.0.0-->
                         <br>
                     </div>
 
-                    <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10">+</button>
+                    <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
                 </div>
 
-                <div id="preclosed10">
+                <div id="preclosed2">
                     <br>
 
                     <img src="www.ecobricks.org/wp-content/uploads/2020/02/02-Choose-your-Bottle-1.svg" width="100%" alt="Choose the ideal bottle type" loading="lazy">
@@ -113,6 +113,47 @@ Content Page template: v.1.0.0-->
                 </div>
             </div>
 
+            <a name="GET"></a>
+            <div class="reg-content-block" id="block3">
+
+                   <div class="opener-header-text">
+                        <h4>3. Get your stick ready</h4>
+                    </div>
+
+                    <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+                </div>
+
+                <div id="preclosed3">
+                    <br>
+
+			<img>https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/03-Get-your-stick-ready.svg</img>
+                        <p>Ecobrickers like to call their packing stick, their magic wand.  It makes the plastic disappear! Having the right stick will make a big difference to your ecobricking.   Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle&#8211; and yes, this means you have to start your ecobrick all over again!</p><p>Once you&#8217;ve got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic!  One stick turns in to many!</p> 
+
+			<h3>Advanced</h3>
+
+			<div class="learn-more-content"><a href="https://cdn.ecobricks.org/wp-content/uploads/2020/03/EarthWand-Grey-Icon.png"><img loading="lazy" class="wp-image-57356  alignright" src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/EarthWand-Grey-Icon-256x300.png" alt width="108" height="126" /></a>
+			
+			<p>The GEA has developed the optimal ecobricking tool– we call it the EarthWand. Earthwands can usually be purchased from GEA Trainers after a workshop, or you can order them from the <a href="https://www.gobrik.com/#shop" target="_blank" rel="noopener noreferrer">GoBrik Shop</a>. EarthWands are a regenerative product who’s sale goes to support the local and global ecobrick movement. <a href="/earthwands">Learn more.</a></p>
+		</div>
+	    </div>
+			
+            <a name="GET"></a>
+            <div class="reg-content-block" id="block4">
+
+                   <div class="opener-header-text">
+                        <h4>No glass, metal or biodegradables</h4>
+                    </div>
+
+	            <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show2">+</button>
+                </div>
+
+		<div id="preclosed4">
+                    <br>
+			<a href="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png"><img loading="lazy" class="aligncenter wp-image-56299 size-full" src="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png" alt width="915" height="401" /></a>What you <strong>don&#8217;t</strong> put in your ecobrick is just as important as what you do!   The reason we are putting plastic inside a bottle is to secure it&#8211; otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul><div class="et-learn-more clearfix"><h3 class="heading-more">Advanced<span class="et_learnmore_arrow"><span></span></span></h3><div class="learn-more-content">What about combinations of plastic and paper? Putting a little paper (i.e. a plastic sticker attached to an envelope) into your ecobrick isn&#8217;t the end of the world, and as long as it is dry, the contained environment will keep it from degrading. The main reason for not putting dry paper or cotton into an ecobrick is instead to maximize the space for containing plastic.  There are many lively discussions in our social media communities about what should and should not go into an ecobrick.  <a href="/movement">Feel free to join a group near you and ask a question.</a>
+		</div>
+	</div>
+
+			
  <!--
                 
             <a name="MILSTEINS"></a>
