@@ -114,8 +114,8 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed3">
                 	<br>
-			<img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/03-Get-your-stick-ready.svg">
-                        <p>Having the right stick will make a big difference to your ecobricking.   Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle&#8211; and yes, this means you have to start your ecobrick all over again!</p><p>Once you&#8217;ve got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic!  One stick turns in to many!</p> 
+			<img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/03-Get-your-stick-ready.svg" width="100%">
+                        <p>Having the right stick will make a big difference to your ecobricking. Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle&#8211; and yes, this means you have to start your ecobrick all over again!</p><p>Once you&#8217;ve got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic!  One stick turns in to many!</p> 
 
 			<h3>Advanced</h3>
 
@@ -138,7 +138,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed4">
                 	<br>
-			<a href="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png"><img loading="lazy" class="aligncenter wp-image-56299 size-full" src="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png" alt width="915" height="401" /></a>
+			<a href="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png"><img loading="lazy" class="aligncenter wp-image-56299 size-full" src="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png" width = "100%"/></a>
 			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul>
 				
 			<h3>Advanced</h3>
@@ -163,7 +163,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed5">
                 	<br>
-			<img loading="lazy" class="size-medium aligncenter" src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/5-Add-a-bottom-color.svg" alt width="813" height="411" />
+			<img loading="lazy" class="size-medium aligncenter" src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/5-Add-a-bottom-color.svg" width="100%" />
 			<br/>
 			<p>This is part of the <a href="/circular">circular design</a> principle of ecobricking: we're thinking about the next use of the ecobrick.  When your ecobrick is put to use in a module or an earth construction the bottom color will help make patterns and designs.</p>
 			
@@ -186,7 +186,7 @@ Content Page template: v.1.0.0-->
 		<div id="preclosed6">
                     <br>
 		    <div class="et_pb_toggle_content clearfix">
-			    <p><img loading="lazy" class="size-medium aligncenter" src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" alt width="813" height="410" /></p>
+			    <p><img loading="lazy" class="size-medium aligncenter" src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="100%" /></p>
 			    
 			    <p>The smaller the pieces, the denser you'll get!  Fill the bottle up half way with loose plastic, then use your stick to push down around the sides of the bottle.  Keep pushing down as you move around the circumference of the bottle.  Once compressed, add more loose plastics.  To maximize the density, it's good to mix soft, then hard plastic.   If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
 			    
@@ -212,7 +212,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed7">
 			<br>
-			<p><img loading="lazy" class="size-medium aligncenter" src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/07-Weigh-your-ecobrick-to-ensure-density-FLAT.svg.svg" alt width="818" height="428" /></p>
+			<p><img loading="lazy" class="size-medium aligncenter" src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/07-Weigh-your-ecobrick-to-ensure-density-FLAT.svg.svg" width="100%" /></p>
 
 			<p>Ecobricks that are solid and strong are densely packed.  The full volume is used for plastics and there is no air or spaces inside.  The GEA has determined that an ecobrick's density must be higher than <strong> 0.33 g/ml</strong>.  This means that a 600ml bottle must be above 200 grams and a 1500ml bottle must be above a weight of 500 grams.  Experienced ecobrickers tend to regard 0.37 g/ml and above as the range of a good ecobricks.</p>
 
