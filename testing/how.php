@@ -191,7 +191,8 @@ Content Page template: v.1.0.0-->
 
                     <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show3">+</button>
                 </div>		    
-		<br>
+		<div id="preclosed6">
+                    <br>
 		    <div class="et_pb_toggle_content clearfix">
 			    <p><img loading="lazy" class="size-medium aligncenter" src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" alt width="813" height="410" /></p>
 			    
