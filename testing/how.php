@@ -134,6 +134,7 @@ Content Page template: v.1.0.0-->
 			<div class="learn-more-content"><a href="https://cdn.ecobricks.org/wp-content/uploads/2020/03/EarthWand-Grey-Icon.png"><img loading="lazy" class="wp-image-57356  alignright" src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/EarthWand-Grey-Icon-256x300.png" alt width="108" height="126" /></a>
 			
 			<p>The GEA has developed the optimal ecobricking tool– we call it the EarthWand. Earthwands can usually be purchased from GEA Trainers after a workshop, or you can order them from the <a href="https://www.gobrik.com/#shop" target="_blank" rel="noopener noreferrer">GoBrik Shop</a>. EarthWands are a regenerative product who’s sale goes to support the local and global ecobrick movement. <a href="/earthwands">Learn more.</a></p>
+			</div>
 		</div>
 	    </div>
 			
@@ -141,7 +142,7 @@ Content Page template: v.1.0.0-->
             <div class="reg-content-block" id="block4">
 
                    <div class="opener-header-text">
-                        <h4>No glass, metal or biodegradables</h4>
+                        <h4>4. No glass, metal or biodegradables</h4>
                     </div>
 
 	            <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show2">+</button>
@@ -149,12 +150,62 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed4">
                     <br>
-			<a href="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png"><img loading="lazy" class="aligncenter wp-image-56299 size-full" src="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png" alt width="915" height="401" /></a>What you <strong>don&#8217;t</strong> put in your ecobrick is just as important as what you do!   The reason we are putting plastic inside a bottle is to secure it&#8211; otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul><div class="et-learn-more clearfix"><h3 class="heading-more">Advanced<span class="et_learnmore_arrow"><span></span></span></h3><div class="learn-more-content">What about combinations of plastic and paper? Putting a little paper (i.e. a plastic sticker attached to an envelope) into your ecobrick isn&#8217;t the end of the world, and as long as it is dry, the contained environment will keep it from degrading. The main reason for not putting dry paper or cotton into an ecobrick is instead to maximize the space for containing plastic.  There are many lively discussions in our social media communities about what should and should not go into an ecobrick.  <a href="/movement">Feel free to join a group near you and ask a question.</a>
+			<a href="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png"><img loading="lazy" class="aligncenter wp-image-56299 size-full" src="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png" alt width="915" height="401" /></a>
+			<p>What you <strong>don't</strong> put in your ecobrick is just as important as what you do!   The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul><div class="et-learn-more clearfix">
+				
+			<h3>Advanced</h3>
+			
+			<div class="learn-more-content">
+				<p>What about combinations of plastic and paper? Putting a little paper (i.e. a plastic sticker attached to an envelope) into your ecobrick isn't the end of the world, and as long as it is dry, the contained environment will keep it from degrading. The main reason for not putting dry paper or cotton into an ecobrick is instead to maximize the space for containing plastic.  There are many lively discussions in our social media communities about what should and should not go into an ecobrick.  <a href="/movement">Feel free to join a group near you and ask a question.</a></p>
+			</div>
 		</div>
 	</div>
 
+            <a name="GET"></a>
+            <div class="reg-content-block" id="block5">
+
+                   <div class="opener-header-text">
+                        <h4>5. Start by adding a bottom color</h4>
+                    </div>
+		    
+                    <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show3">+</button>
+                </div>
+
+		<div id="preclosed5">
+                    <br>
+			<img loading="lazy" class="size-medium aligncenter" src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/5-Add-a-bottom-color.svg" alt width="813" height="411" />
+			<br/>
+			<p>It is important to start your ecobrick by adding a bottom color.  This is part of the <a href="/circular">circular design</a> principle of ecobricking: we're thinking about the next use of the ecobrick.  When your ecobrick is put to use in a module or an earth construction the bottom color will help make patterns and designs.</p>
 			
- <!--
+			<p>To create your ecobrick's bottom color, choose a soft plastic with a solid color, then push it down to the bottom of your ecobrick.  You'll want to fill the bottle loosely about half way with soft plastic of your chosen color.  Then, pack it in with your stick.  If your bottle has "legs" or dimples at the bottom be sure to pack these solid and full.  Once all your soft plastic is compressed you want it  to fill the first 1-2cms of the bottle.</p>
+			
+			<p>Often schools or companies will ask their ecobrickers to make ecobricks with their community colors.  By giving your ecobrick bottom a color, you open up colorful design possibilities for making <a href="/modules">modules</a> or <a href="/earth">earth and ecobrick walls</a>.</p>
+
+		</div>
+            <a name="GET"></a>
+            <div class="reg-content-block" id="block6">
+
+                   <div class="opener-header-text">
+                        <h4>6. Pack the bottle tight, mixing plastics as you go</h2>
+		   </div>
+
+                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show3">+</button>
+                </div>		    
+		<br>
+		    <div class="et_pb_toggle_content clearfix">
+			    <p><img loading="lazy" class="size-medium aligncenter" src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" alt width="813" height="410" /></p>
+			    
+			    <p>Now it's time to pack away!  Cut or rip up large plastics into smaller pieces.  The smaller the pieces, the denser you'll get!  Fill the bottle up half way with loose plastic, then use your stick to push down around the sides of the bottle.  Keep pushing down as you move around the circumference of the bottle.  Once compressed, add more loose plastics.  To maximize the density, it's good to mix soft, then hard plastic.   If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
+			    
+			    <p>Did you push too hard?  In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again.  Ruptured bottles will not last and can leak plastics.  Cut the bottle open, remove the plastic and start again.  Cut or damaged PET plastic is readily recycled.</p>
+		
+			<h3>Advanced</h3>
+
+			    <div class="learn-more-content">Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic.  By forming a center white ring of plastic you will later have a clear location to label your Ecobrick with a permanent black marker.</div>
+		    </div>
+	</div>
+	
+<!--
                 
             <a name="MILSTEINS"></a>
 			<div class="reg-content-block" id="block3">
