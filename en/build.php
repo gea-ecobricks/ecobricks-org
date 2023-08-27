@@ -50,7 +50,7 @@ Content Page template: v.1.0.0-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Thinking Short, Long & Very Long</h4>
+                    <h4>Thinking short, long & very long</h4>
                     <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
                     <br>
                     </div>
