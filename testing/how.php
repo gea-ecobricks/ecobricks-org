@@ -58,7 +58,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed1">
 			<br>
-			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/01-Save-Segregate-Prep-your-Plastics-800px.png">
+			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/01-Save-Segregate-Prep-your-Plastics-800px.png" width="100%">
 			<p>Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials.  Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
 			<p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
 			<p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
@@ -257,6 +257,57 @@ Content Page template: v.1.0.0-->
 			<p>We've also made a point-chart and sample form in our <a href="https://www.ecobricks.org/download/">Vision Ecobrick Guide</a> that can be photocopied for logging ecobricks in schools.</p>
 		</div>
 	</div>			
+
+	<a name="INSCRIBE"></a>
+	<div class="reg-content-block" id="block9">
+		<div class="opener-header">
+			<div class="opener-header-text">
+				<h4>9. Inscribe</h2>
+				<h5>As you log and record your ecobrick, be sure to record the key data on the ecobrick itself too. </h5>   
+			</div>
+			<button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9">+</button>
+                </div>
+
+		<div id="preclosed9">
+			<br>
+			<p><img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/08-Cap-and-Label.svg" width="100%" /></p>
+			<p>Inscribing the weight, data, serial, etc. onto the ecobrick will indicate that the ecobrick has been logged and registered.  Be sure to use a permanent means of recording your ecobrick.  Your ecobrick will endure for decades and centuries.  The more information we can leave future generations, the richer our gift. After much experimentation, we have found that enamel/oil paint and nail polish work best.</p>
+			<ul>
+				<li>Avoid using paper labels, tape, or stickers to record the data.  These methods will last for several years at best then fall off.</li>
+				<li>Avoid using permanent markers.  Not only does their writing not last long on PET, they are made of non-recyclableable and non-ecobrickable materials.</li>
+				<li>Enamel paint usually comes in a metal can or glass jar.  These containers are effectively recyclable.</li>
+				<li>Use a paint brush to carefully and clearly inscribe the ecobrick's data.  The paint bonds to the plastic and is almost impossible to remove.</li>
+				<li>Use contrasting colors like white and black to make your inscription stand out.</li>
+				<li>Nail polish is a form of oil paint and also permanently inscribes the ecobrick.  However, often the nail polish brush makes it hard to write legibly.  Also the smell of the polish drying is strong.</li>
+			</ul>
+			<p>Some ecobrickers are innovating with other methods-; such as etching onto the ecobrick or inserting a written plastic tag into the bottle itself.</p>
+			<h3>Extra: Add a vision</h3>
+			<div class="learn-more-content"><p>Many ecobrickers write a prayer or a vision on the bottle in a permanent marker.  Your ecobrick will last a long time.  Why not let your grandkids know that you were thinking of them?  For example: "I envision a world where plastic is used seldom and wisely and where we live in harmony with the cycles of nature"</p>
+			</div>
+		</div>
+	</div>			
+
+	<a name="STORE"></a>
+	<div class="reg-content-block" id="block10">
+		<div class="opener-header">
+			<div class="opener-header-text">
+				<h4>10. Store your ecobrick</h2>
+				<h5>Once complete, you will need to store your ecobricks until you have enough for you project. </h5>   
+			</div>
+			<button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10">+</button>
+                </div>
+
+		<div id="preclosed10">
+			<br>
+			<p><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/10-Store-your-ecobrik-1000px.png" width="100%" /></p>
+			<p>Store ecobricks indoors, out of the sun.  If possible protect with a cloth or tarp from accumulating dust and dirt (PET attracts dust and chemicals and is hard to remove).  Stack horizontally, with the ends pointed outward. This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.  It's good to have the ecobricks raised slightly above the floor — rats have been known to chew away at bottles!  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements. Ecobricks are best stacked horizontally with their bottom pointed outwards.</p>
+			<br>
+			<ul class="et_post_gallery clearfix">
+				<li class="et_gallery_item et_pb_gallery_image">
+				</li>
+			</ul>
+		</div>
+	</div>	
 			
 <!--
                 
