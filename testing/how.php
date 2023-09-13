@@ -94,15 +94,15 @@ Content Page template: v.1.0.0-->
                         <li><p><b>Your Project</b></p>
                         <p>For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles).  Depending on the size of construction, you will need different size bottles.  For example, small bottles make good walls, and large bottles make good benches.  See our Construction Guide for more information on the different ways ecobricks are applied.</p></li>
 		    </p></ol>
-                    <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:10px;margin-top:40px;margin-bottom:10px;"> 
+                    <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:10px;margin-top:40px;margin-bottom:10px;color:white;"> 
                         <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
                             <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;">
-                                Advanced
+                            💡 Advanced
                             </div>
                             <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
                             </div>
                         </div>
-                        <div class="advanced-box-content" style="padding:10px;display:none;">
+                        <div class="advanced-box-content" style="padding:10px;display:none;font-size:smaller;">
                             <p>If you’re thinking of making Dieleman Lego Modules with your ecobricks, you must also consider the top tapper of your bottle. Dieleman modules work best when the distance between the top of the bottle and the start of the tapper is small. This allows more surface area for the inverted peg of the Dieleman module to be attached.</p>
                         </div>
                     </div>
