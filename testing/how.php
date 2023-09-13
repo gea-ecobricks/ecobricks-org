@@ -94,9 +94,9 @@ Content Page template: v.1.0.0-->
                         <li><p><b>Your Project</b></p>
                         <p>For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles).  Depending on the size of construction, you will need different size bottles.  For example, small bottles make good walls, and large bottles make good benches.  See our Construction Guide for more information on the different ways ecobricks are applied.</p></li>
 		    </p></ol>
-                    <div class="advanced-box" style="background-color:grey;border-radius:10px;padding:10px;margin-top:20px;margin-bottom:10px;"> 
-                        <div class="advanced-box-header">
-                            <div class="advanced-title" style="display:flex;flex-flow:row;">
+                    <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:10px;margin-top:20px;margin-bottom:10px;"> 
+                        <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;">
+                            <div class="advanced-title" >
                                 <h4>Advanced</h4>
                             </div>
                             <div class="advanced-open-icon">+
