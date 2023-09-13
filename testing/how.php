@@ -88,7 +88,7 @@ Content Page template: v.1.0.0-->
                         <li><p><b>Availability</b></p><br>
                         <p>The last thing you want to have to do is buy drinks to have a bottle for your ecobricking!  Soon many people will be ecobricking in your community and it is ideal to have everyone using the same brand and bottle.  Be sure to choose a bottle that everyone can easily come by.</p></li>
 
-                        <li><b>Volume</b><br>
+                        <li><b>Bottle Volume</b><br>
                         Choose the bottle volume you want to go with.  GEA Trainers teach ecobricking with bottles under 600ml.  Large 1500ml bottles will take a lot of plastic, but also take a long time to make!  Small volume bottles allow first-time ecobrickers to finish their first ecobrick and quickly learn from their mistakes.  Large bottles are best for advanced ecobrickers.</li>
 
                         <li><b>Your Project</b><br>
