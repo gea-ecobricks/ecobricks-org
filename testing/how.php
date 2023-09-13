@@ -133,6 +133,8 @@ function toggleAdvancedBox() {
 let header = document.querySelector('.advanced-box-header');
 header.addEventListener('click', toggleAdvancedBox);
 
+</script>
+
 
 
         <a name="GET"></a>
