@@ -32,7 +32,7 @@ _END;?>
 <STYLE>
 
 .advanced-box-header:hover {
-	color:black;
+	color:white;
 }
 
 .dropdown {
