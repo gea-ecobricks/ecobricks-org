@@ -95,8 +95,8 @@ Content Page template: v.1.0.0-->
                         <p>For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles).  Depending on the size of construction, you will need different size bottles.  For example, small bottles make good walls, and large bottles make good benches.  See our Construction Guide for more information on the different ways ecobricks are applied.</p></li>
 		    </p></ol>
                     <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:10px;margin-top:40px;margin-bottom:10px;"> 
-                        <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
-                            <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;">
+                        <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;" onclick="toggleAdvancedBox()">
+                            <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;">
                                 Advanced
                             </div>
                             <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
@@ -108,6 +108,32 @@ Content Page template: v.1.0.0-->
                     </div>
 		</div>
 	</div>
+
+    <script>
+
+function toggleAdvancedBox() {
+    // Find the content div and toggle its visibility
+    let content = document.querySelector('.advanced-box-content');
+    if (content.style.display === 'none' || content.style.display === '') {
+        content.style.display = 'block';
+    } else {
+        content.style.display = 'none';
+    }
+
+    // Change the icon from + to X and vice versa
+    let icon = document.querySelector('.advanced-open-icon');
+    if (icon.textContent === '+') {
+        icon.textContent = 'X';
+    } else {
+        icon.textContent = '+';
+    }
+}
+
+// Attach the function to the header div's click event
+//let header = document.querySelector('.advanced-box-header');
+//header.addEventListener('click', toggleAdvancedBox);
+
+
 
         <a name="GET"></a>
 	<div class="reg-content-block" id="block3">
@@ -673,7 +699,7 @@ Content Page template: v.1.0.0-->
              <br>
              <div class="page-paragraph-reg">
 
-             <iframe width="400" height="230" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe width="100%" height="230" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                  
                 <div class="row">
                 
