@@ -31,6 +31,10 @@ _END;?>
 
 <STYLE>
 
+.advanced-box:hover {
+	color:black;
+}
+
 .dropdown {
   float: right;
   overflow: hidden;
