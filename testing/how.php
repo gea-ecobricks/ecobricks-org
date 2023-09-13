@@ -110,24 +110,25 @@ Content Page template: v.1.0.0-->
 	</div>
 
     <script>
-
 function toggleAdvancedBox() {
     // Find the content div and toggle its visibility
     let content = document.querySelector('.advanced-box-content');
+    let icon = document.querySelector('.advanced-open-icon');
+    
     if (content.style.display === 'none' || content.style.display === '') {
         content.style.display = 'block';
+        icon.textContent = '×';  // Set to times symbol
     } else {
         content.style.display = 'none';
-    }
-
-    // Change the icon from + to X and vice versa
-    let icon = document.querySelector('.advanced-open-icon');
-    if (icon.textContent === '+') {
-        icon.textContent = 'X';
-    } else {
-        icon.textContent = '+';
+        icon.textContent = '+';  // Set to plus symbol
     }
 }
+
+// Attach the function to the header div's click event
+document.addEventListener("DOMContentLoaded", function() {
+    let header = document.querySelector('.advanced-box-header');
+    header.addEventListener('click', toggleAdvancedBox);
+});
 
 // Attach the function to the header div's click event
 let header = document.querySelector('.advanced-box-header');
