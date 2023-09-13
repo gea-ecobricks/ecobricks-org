@@ -31,7 +31,7 @@ _END;?>
 
 <STYLE>
 
-.advanced-box:hover {
+.advanced-box-header:hover {
 	color:black;
 }
 

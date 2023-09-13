@@ -96,8 +96,8 @@ Content Page template: v.1.0.0-->
 		    </p></ol>
                     <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:10px;margin-top:40px;margin-bottom:10px;color:white;"> 
                         <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
-                            <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;">
-                            💡Advanced:
+                            <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+                            💡 Advanced
                             </div>
                             <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
                             </div>
