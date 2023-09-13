@@ -102,7 +102,7 @@ Content Page template: v.1.0.0-->
                             <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
                             </div>
                         </div>
-                        <div class="advanced-box-content" style="padding:10px;display:none;font-size:smaller;">
+                        <div class="advanced-box-content" style="">
                             <p>💡 If you’re thinking of making Dieleman Lego Modules with your ecobricks, you must also consider the top tapper of your bottle. Dieleman modules work best when the distance between the top of the bottle and the start of the tapper is small. This allows more surface area for the inverted peg of the Dieleman module to be attached.</p>
                         </div>
                     </div>
@@ -110,16 +110,16 @@ Content Page template: v.1.0.0-->
 	</div>
 
     <script>
+
 function toggleAdvancedBox() {
-    // Find the content div and toggle its visibility
     let content = document.querySelector('.advanced-box-content');
     let icon = document.querySelector('.advanced-open-icon');
     
-    if (content.style.display === 'none' || content.style.display === '') {
-        content.style.display = 'block';
+    if (content.style.maxHeight === '0px' || content.style.maxHeight === '') {
+        content.style.maxHeight = content.scrollHeight + 'px';  // Set to its full height
         icon.textContent = '×';  // Set to times symbol
     } else {
-        content.style.display = 'none';
+        content.style.maxHeight = '0px';  // Collapse it
         icon.textContent = '+';  // Set to plus symbol
     }
 }
@@ -130,9 +130,6 @@ document.addEventListener("DOMContentLoaded", function() {
     header.addEventListener('click', toggleAdvancedBox);
 });
 
-// Attach the function to the header div's click event
-let header = document.querySelector('.advanced-box-header');
-header.addEventListener('click', toggleAdvancedBox);
 
 </script>
 
