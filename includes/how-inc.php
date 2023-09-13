@@ -32,11 +32,12 @@ _END;?>
 <STYLE>
 
 .advanced-box-content {
-    padding: 10px;
+    padding: 2px 15px 15px 15px;
     max-height: 0;  /* Initially set to 0 */
     overflow: hidden;  /* Hide any overflowing content */
     transition: max-height 0.5s ease-in-out;  /* Transition effect */
 	font-size:smaller;
+	margin-top:-10px;
 }
 
 
