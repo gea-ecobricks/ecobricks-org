@@ -63,6 +63,21 @@ Content Page template: v.1.0.0-->
 			<p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
 			<p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
 		</div>
+
+        <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
+                        <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
+                            <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+                            Advanced
+                            </div>
+                            <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+                            </div>
+                        </div>
+                        <div class="advanced-box-content" style="">
+                            <p>💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their Plastic Transition Ratio (PTR).  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).    They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!</p>
+                        </div>
+                    </div>
+
+        
 	</div>
 
 	<a name="CHOOSE"></a>
@@ -699,7 +714,7 @@ document.addEventListener("DOMContentLoaded", function() {
              <br>
              <div class="page-paragraph-reg">
 
-             <iframe width="100%" height="230" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:40vh;"></iframe>
                  
                 <div class="row">
                 
