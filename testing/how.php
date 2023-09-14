@@ -62,20 +62,30 @@ Content Page template: v.1.0.0-->
 			<p>Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials.  Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
 			<p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
 			<p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
-		</div>
 
-        <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
-                        <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
-                            <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
-                            Advanced
-                            </div>
-                            <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
-                            </div>
-                        </div>
-                        <div class="advanced-box-content" style="">
+            <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
+                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
+                    <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+                                Advanced
+                    </div>
+                    <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+                    </div>
+                </div>
+                <div class="advanced-box-content">
+                    <div class="row">
+                
+                        <div class="main2">
                             <p>💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their Plastic Transition Ratio (PTR).  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).    They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!</p>
                         </div>
-                    </div>
+
+                        <div class="side2">
+                            <br><img src="pngs/weighed-plastic-150x150.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic">
+                        </div>
+            </div>
+                    
+                </div>
+            </div>
+        </div>
 
         
 	</div>
@@ -714,23 +724,28 @@ document.addEventListener("DOMContentLoaded", function() {
              <br>
              <div class="page-paragraph-reg">
 
-             <iframe width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:40vh;"></iframe>
+             <iframe width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:45vh;"></iframe>
                  
                 <div class="row">
                 
-                      <div class="main2">
+                    <div class="main2">
                          <h4>And Build!</h4>
                         
-                         <p>Once you have enough Ecobricks you’re ready to build. There are five main techniques for building with bottles and ecobricks.   The easiest, fastest, and perhaps the most fun Ecobrick application, is to make Milstein modules for horizontal building and Dieleman Lego modules for vertical building. With modules you can create benches, table, chairs, structures and more.  Perhaps the best use for Ecobricks is building community green spaces. Using local earth and ecobricks you and your community can build beautiful spaces that enrich the local environment.</p>
-                    
-                        <a class="action-btn" href="/build">🚀 Building Applications</a>
-                        <p style="font-size: 0.85em; margin-top:20px;">An overview of ecobrick building methods</a></p>    
+                         <p>Once you have enough Ecobricks you’re ready to build. There are five main techniques for building with bottles and ecobricks.</p>
+
+                           
                     </div>
 
                     <div class="side2">
                         <br><img src="webp/build-blue-450px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik building methods.">
                     </div>
                 </div>
+
+                <p>The easiest, fastest, and perhaps the most fun Ecobrick application, is to make Milstein modules for horizontal building and Dieleman Lego modules for vertical building. With modules you can create benches, table, chairs, structures and more.  Perhaps the best use for Ecobricks is building community green spaces. Using local earth and ecobricks you and your community can build beautiful spaces that enrich the local environment.</p>
+                    
+                <a class="action-btn" href="/build">🚀 Building Applications</a>
+                <p style="font-size: 0.85em; margin-top:20px;">An overview of ecobrick building methods</a></p>  
+
             </div>
 
         </div>
