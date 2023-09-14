@@ -75,12 +75,14 @@ Content Page template: v.1.0.0-->
                     <div class="row">
                 
                         <div class="main2">
-                            <p>💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their Plastic Transition Ratio (PTR).  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).    They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!</p>
+                            <p>💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their Plastic Transition Ratio (PTR).  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).</p>
                         </div>
 
                         <div class="side2">
                             <br><img src="pngs/weighed-plastic-150x150.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic">
                         </div>
+
+                        <p>They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!</p>
             </div>
                     
                 </div>
