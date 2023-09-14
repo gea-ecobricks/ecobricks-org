@@ -83,8 +83,7 @@ Content Page template: v.1.0.0-->
                         </div>
 
                         <p>They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!</p>
-            </div>
-                    
+                    </div>
                 </div>
             </div>
         </div>
@@ -138,9 +137,13 @@ Content Page template: v.1.0.0-->
 
     <script>
 
-function toggleAdvancedBox() {
-    let content = document.querySelector('.advanced-box-content');
-    let icon = document.querySelector('.advanced-open-icon');
+function toggleAdvancedBox(event) {
+    // Get the current advanced box based on the clicked header
+    let currentAdvancedBox = event.currentTarget.parentElement;
+
+    // Find the content and icon specific to this advanced box
+    let content = currentAdvancedBox.querySelector('.advanced-box-content');
+    let icon = currentAdvancedBox.querySelector('.advanced-open-icon');
     
     if (content.style.maxHeight === '0px' || content.style.maxHeight === '') {
         content.style.maxHeight = content.scrollHeight + 'px';  // Set to its full height
@@ -151,14 +154,16 @@ function toggleAdvancedBox() {
     }
 }
 
-// Attach the function to the header div's click event
+// Attach the function to all header div's click events
 document.addEventListener("DOMContentLoaded", function() {
-    let header = document.querySelector('.advanced-box-header');
-    header.addEventListener('click', toggleAdvancedBox);
+    let headers = document.querySelectorAll('.advanced-box-header');
+    headers.forEach(header => {
+        header.addEventListener('click', toggleAdvancedBox);
+    });
 });
 
-
 </script>
+
 
 
 
@@ -728,8 +733,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
              <iframe width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:45vh;"></iframe>
                  
+                <h4>And Build!</h4>
+
                 <div class="row">
-                    <h4>And Build!</h4>
                     <div class="main2">
                          
                         
@@ -745,7 +751,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 <p>With modules you can create benches, table, chairs, structures and more.  Perhaps the best use for Ecobricks is building community green spaces. Using local earth and ecobricks you and your community can build beautiful spaces that enrich the local environment.</p>
 
-                <div style="margin-top:25px">
+                <div style="margin-top:35px">
                     <a class="action-btn" href="/build">🚀 Building Applications</a>
                     <p style="font-size: 0.85em; margin-top:20px;">An overview of ecobrick building methods</a></p>
                 </div>  
