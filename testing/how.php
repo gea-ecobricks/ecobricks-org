@@ -729,11 +729,11 @@ document.addEventListener("DOMContentLoaded", function() {
              <iframe width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:45vh;"></iframe>
                  
                 <div class="row">
-                
+                    <h4>And Build!</h4>
                     <div class="main2">
-                         <h4>And Build!</h4>
+                         
                         
-                         <p>Once you have enough Ecobricks you’re ready to build. There are five main techniques for building with bottles and ecobricks.</p>
+                         <p>Once you have enough Ecobricks you’re ready to build. There are five main techniques for building with bottles and ecobricks.  The easiest, fastest, and perhaps the most fun Ecobrick application, is to make Milstein modules for horizontal building and Dieleman Lego modules for vertical building.</p>
 
                            
                     </div>
@@ -743,10 +743,12 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
                 </div>
 
-                <p>The easiest, fastest, and perhaps the most fun Ecobrick application, is to make Milstein modules for horizontal building and Dieleman Lego modules for vertical building. With modules you can create benches, table, chairs, structures and more.  Perhaps the best use for Ecobricks is building community green spaces. Using local earth and ecobricks you and your community can build beautiful spaces that enrich the local environment.</p>
-                    
-                <a class="action-btn" href="/build">🚀 Building Applications</a>
-                <p style="font-size: 0.85em; margin-top:20px;">An overview of ecobrick building methods</a></p>  
+                <p>With modules you can create benches, table, chairs, structures and more.  Perhaps the best use for Ecobricks is building community green spaces. Using local earth and ecobricks you and your community can build beautiful spaces that enrich the local environment.</p>
+
+                <div style="margin-top:25px">
+                    <a class="action-btn" href="/build">🚀 Building Applications</a>
+                    <p style="font-size: 0.85em; margin-top:20px;">An overview of ecobrick building methods</a></p>
+                </div>  
 
             </div>
 
