@@ -58,7 +58,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed1">
 			<br>
-			<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/01-Save-Segregate-Prep-your-Plastics-800px.png" width="100%">
+			<img src="pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="100%" loading="lazy">
 			<p>Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials.  Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
 			<p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
 			<p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
@@ -161,7 +161,16 @@ Content Page template: v.1.0.0-->
                         <p>Once you&#8217;ve got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic!  One stick turns in to many!</p> 
 
                 
+            <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
+                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
+                    <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+                                Advanced
+                    </div>
+                    <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+                    </div>
+                </div>
                 <div class="advanced-box-content">
+                    
                     <div class="row">
                 
                         <div class="main2">
@@ -175,6 +184,9 @@ Content Page template: v.1.0.0-->
                         <p><a href="/earthwands">Learn more..</p>
                     </div>
                 </div>
+            </div>
+
+             
 
 		</div>
 	</div>
