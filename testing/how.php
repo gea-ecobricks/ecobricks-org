@@ -135,34 +135,7 @@ Content Page template: v.1.0.0-->
 		</div>
 	</div>
 
-    <script>
-
-function toggleAdvancedBox(event) {
-    // Get the current advanced box based on the clicked header
-    let currentAdvancedBox = event.currentTarget.parentElement;
-
-    // Find the content and icon specific to this advanced box
-    let content = currentAdvancedBox.querySelector('.advanced-box-content');
-    let icon = currentAdvancedBox.querySelector('.advanced-open-icon');
-    
-    if (content.style.maxHeight === '0px' || content.style.maxHeight === '') {
-        content.style.maxHeight = content.scrollHeight + 'px';  // Set to its full height
-        icon.textContent = '×';  // Set to times symbol
-    } else {
-        content.style.maxHeight = '0px';  // Collapse it
-        icon.textContent = '+';  // Set to plus symbol
-    }
-}
-
-// Attach the function to all header div's click events
-document.addEventListener("DOMContentLoaded", function() {
-    let headers = document.querySelectorAll('.advanced-box-header');
-    headers.forEach(header => {
-        header.addEventListener('click', toggleAdvancedBox);
-    });
-});
-
-</script>
+   
 
 
 
@@ -182,7 +155,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 	<br>
 			<img src="svgs/03-Get-your-stick-ready.svg" width="100%">
 
-                        <p>Having the right stick will make a big difference to your ecobricking. Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle&#8211; and yes, this means you have to start your ecobrick all over again!</p>
+                        <p>Having the right stick will make a big difference to your ecobricking.</p>
+                        <p>Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle&#8211; and yes, this means you have to start your ecobrick all over again!</p>
                         
                         <p>Once you&#8217;ve got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic!  One stick turns in to many!</p> 
 
@@ -451,6 +425,35 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <!-- This script is for pages that use the accordion content system-->
 <script src="accordion-scripts.js" defer></script>
+
+<script>
+
+function toggleAdvancedBox(event) {
+    // Get the current advanced box based on the clicked header
+    let currentAdvancedBox = event.currentTarget.parentElement;
+
+    // Find the content and icon specific to this advanced box
+    let content = currentAdvancedBox.querySelector('.advanced-box-content');
+    let icon = currentAdvancedBox.querySelector('.advanced-open-icon');
+    
+    if (content.style.maxHeight === '0px' || content.style.maxHeight === '') {
+        content.style.maxHeight = content.scrollHeight + 'px';  // Set to its full height
+        icon.textContent = '×';  // Set to times symbol
+    } else {
+        content.style.maxHeight = '0px';  // Collapse it
+        icon.textContent = '+';  // Set to plus symbol
+    }
+}
+
+// Attach the function to all header div's click events
+document.addEventListener("DOMContentLoaded", function() {
+    let headers = document.querySelectorAll('.advanced-box-header');
+    headers.forEach(header => {
+        header.addEventListener('click', toggleAdvancedBox);
+    });
+});
+
+</script>
 
 
 </div>
