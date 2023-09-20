@@ -80,12 +80,12 @@ Content Page template: v.1.0.1-->
 
 				<div class="lead-panel-paragraph"><p>Today, the vast majority of the products we use go from their birth in a factory, into our hands, to their grave. Pollution is the result.  Designs that fail to anticipate and plan for the end of a product are known as "cradle-to-grave".</p></div>
 						
-				<p>Unfortunately, products and materials that are designed to be 'circular' also lead to pollution and ecological depletion.  Although, "cradle-to-cradle" designs that can be used over are a step in the right direction, if the external impacts of each cycle aren't considered carefully (for example the making and fueling of the factory that makes a product), a spiral of depletion will result.  Alas we see this all too clearly with traditional industrially recycling:  each time a piece of plastic is recycled, large amounts of emission-intensive transportation, sorting, smelting are required.</p>
+				<p>Unfortunately, products and materials that are designed to be 'circular' also lead to pollution and ecological depletion.  Although, "cradle-to-cradle" designs that can be used over are a step in the right direction, if the external impacts of each cycle aren't considered carefully (for example the making and fueling of the factory that makes a product), a spiral of depletion will result.  Alas, we see this all too clearly with traditional industrial recycling:  each time a piece of plastic is recycled, large amounts of emission-intensive transportation, sorting, smelting are required.</p>
 
         
 				<p>With ecobricks, we do things differently!  </p>
 	
-		<p>Guided by the first principle of <a href="https://book.earthen.io/summaries">Earthen ethics</a>, the cycles of ecobricks and their applications are designed to be <i>greening</i>.  Not only do we plan for the next-life of our application, we also intend spiral of the cycles that we create. </p>
+		<p>Guided by the first principle of <a href="https://book.earthen.io/summaries">Earthen ethics</a>, the cycles of ecobricks and their applications are designed to be <i>greening</i>.  Not only do we plan for the next-life of our application, we also plan for its subsequent cycles. </p>
 		
 		<p>To do so, we leverage the resilient properties of plastic to create reusable building blocks that have a procession of short and long-term applications.   This means that we ensure that ecobricks are both indefinitely reusable and that that each cycle of building and dissembly contributes socially and ecologically. 
         </p>
@@ -132,10 +132,9 @@ Content Page template: v.1.0.1-->
 						</div>
 					</div>
 				
-				<p>
-				In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.
+				<p>In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.
 				</p>
-				</ul>
+				
 				<br><br><hr>
 
 			
@@ -170,7 +169,7 @@ Content Page template: v.1.0.1-->
 					<div class="row">
 						<div class="main2">
 						
-						<p>Some people wonder why, when we start an ecobrick we put a colored plastic on the bootom.  This is exactly why! We’re thinking of the ecobricks's next phase when we’ll build with it. This is also why we use silicone and not glue when we attach ecobricks to make modules– so that when the module/chair/table comes to its end, we can take it apart to use the ecobricks again.</p>
+						<p>Some people wonder why, when we start an ecobrick we put a colored plastic on the bottom.  Cyclical design is why: we’re thinking of the ecobricks's next phase when we’ll build with it. This is also why we use cob or silicone when we attach ecobricks to make modules and not glue or cement.  The first materials form a non-permanent bond, while the second are permanent.  This way, when our creation comes to its end, we can take it apart and use the ecobricks again.</p>
 						 
 						</div>
 						<div class="side2"><img src="webp/build-blue-450px.webp" width="100%">
@@ -273,7 +272,7 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 						<p> The first and simplest applications are short-term: such as ecobrick modules.  These initial applications are ideal for first time ecobrickers as they only require a dozen ecobricks.  However, using silicone, these applications enable full dissembly, reuse and making of subsequent modules.</p>
 						
-						<p>One a household or community has numerous modules, they will also have sufficient ecobricks to build with earth.  Once their modules come to an end, the ecobricks can be removed and used for building earthen gardens or benches.</p>
+						<p>Once a household or community has numerous modules, they will also have sufficient ecobricks to build with earth.  Once their modules come to an end, the ecobricks can be removed and used for building earthen gardens or benches.</p>
 
 						 
 
