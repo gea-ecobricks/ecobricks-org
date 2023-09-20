@@ -276,7 +276,7 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>📥 Download: <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic</a><br><h5>📄 GEA White Paper | PDF | 2.1 MB</a></p>
+						<p>📥 Download: <a href="https://nextcloud.ecobricks.org/index.php/s/fNNYjG7A3gxco9n" target="_blank">The Commodification of Sequestered Plastic</a><br><h5>📄 GEA White Paper | PDF | 2.1 MB</a></p>
 						
 						</div>
 						<div class="side3"><img src="pngs/White-Paper-Icon2-400px.png" width="150px">
