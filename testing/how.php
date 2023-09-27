@@ -52,8 +52,7 @@ Content Page template: v.1.0.0-->
                         <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
                         <br>
 			</div>
-			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+
-			</button>
+			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
         	</div>
 
                 <div id="preclosed1">
@@ -158,7 +157,7 @@ Content Page template: v.1.0.0-->
                         <p>Having the right stick will make a big difference to your ecobricking.</p>
                         <p>Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle&#8211; and yes, this means you have to start your ecobrick all over again!</p>
                         
-                        <p>Once you&#8217;ve got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic!  One stick turns in to many!</p> 
+                        <p>Once you've got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic!  One stick turns in to many!</p> 
 
                 
             <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
