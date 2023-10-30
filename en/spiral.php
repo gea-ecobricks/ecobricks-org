@@ -4,7 +4,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/cyclical-inc.php");?>
+<?php require_once ("includes/spiral-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -14,7 +14,7 @@ Content Page template: v.1.0.1-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Cyclical Design</div>
+		<div class="splash-heading">Spiral Design</div>
 		<div class="splash-sub">Ecobricking and all ecobrick applications are guided by the Earthen principle of enriching cycles.</div>
 	</div>
 	<div class="splash-image"><img src="icons/cyclical-design-white3.svg" style="width: 100%;"></div>
@@ -36,7 +36,7 @@ Content Page template: v.1.0.1-->
 
 		<div class="page-paragraph">
 
-		<p>One of the several core<a href="/principles"> ecobricking principles</a> is that of <i>cyclical design</i>.  Unlike linear and circular design, rather than plan in lines and circles, we plan in spirals.  This way, we can embed an enriching spin of short and long-term reuse into our ecobrick designs. </p>
+		<p>One of the several core<a href="/principles"> ecobricking principles</a> is that of <i>spiral design</i>.  Unlike linear and circular design, rather than plan in lines and circles, we plan in spirals.  This way, we can embed an enriching spin of short and long-term reuse into our ecobrick designs. </p>
 		
 	
 
@@ -101,7 +101,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Following Earth's Example</h4>
-                    <h5>Cyclcical design emobdies the first principle of Earthen Ethics.</h5>   
+                    <h5>Spiral design emobdies the first principle of Earthen Ethics.</h5>   
                     <br>
                     </div>
 
@@ -110,7 +110,7 @@ Content Page template: v.1.0.1-->
 
                 <div id="preclosed1">
 
-				<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."</p><p style="font-size:smallest;"> — <a href="https://book.earthen.io/en/spirals.php" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.php">Earthen Ethic No. 2</a></p></div>
+				<div class="lead-panel-paragraph"><p>"Observe the way Earth tends its processes towards cycles that spiral."</p><p style="font-size:smallest;"> — <a href="https://book.earthen.io/en/spirals.html" title="Banayan Angway, Russell Maier, 'Tractatus Ayyew: An Earthen Ethics' (Earthen.io, Philippines, Indonesia, 2022), https://book.earthen.io/en/spirals.html">Earthen Ethic No. 2</a></p></div>
 						
 						<p>For the last billion years, Earth has been slow and steady greening the surface of our common home.</p>
 
@@ -118,7 +118,7 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 						
 						
-						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example of ensuring that our processes and outputs are not only cyclical, but that lead to ever enriching cycles.</p>
+						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example of ensuring that our processes and outputs are not only sprial, but that lead to ever enriching cycles.</p>
 <!--<img src="svgs/following-earths-example.svg" width="100%"><br>-->
 						</div>
 						<div class="side2"><img src="svgs/eco-enrichment.svg" width="100%">
@@ -154,7 +154,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Making Ecobricks</h4>
-                    <h5>The process and output of ecobricking is cyclically designed</h5>   
+                    <h5>The process and output of ecobricking is spirally designed</h5>   
                     <br>
                     </div>
 
@@ -164,12 +164,12 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed2">
 
 				<div class="lead-panel-paragraph"><p>
-					Cyclical design underlies every ecobrick method that the GEA endorses. This principles also helps guide the way that we make ecobricks and all the GEA's recommended best practices.</p></div>
+					Spiral design underlies every ecobrick method that the GEA endorses. This principles also helps guide the way that we make ecobricks and all the GEA's recommended best practices.</p></div>
 					
 					<div class="row">
 						<div class="main2">
 						
-						<p>Some people wonder why, when we start an ecobrick we put a colored plastic on the bottom.  Cyclical design is why: we’re thinking of the ecobricks's next phase when we’ll build with it. This is also why we use cob or silicone when we attach ecobricks to make modules and not glue or cement.  The first materials form a non-permanent bond, while the second are permanent.  This way, when our creation comes to its end, we can take it apart and use the ecobricks again.</p>
+						<p>Some people wonder why, when we start an ecobrick we put a colored plastic on the bottom.  Spiral design is why: we’re thinking of the ecobricks's next phase when we’ll build with it. This is also why we use cob or silicone when we attach ecobricks to make modules and not glue or cement.  The first materials form a non-permanent bond, while the second are permanent.  This way, when our creation comes to its end, we can take it apart and use the ecobricks again.</p>
 						 
 						</div>
 						<div class="side2"><img src="webp/build-blue-450px.webp" width="100%">
@@ -299,7 +299,7 @@ Content Page template: v.1.0.1-->
                     
                     <div class="opener-header-text">
                     <h4>Ecobrick Designator Icon</h4>
-                    <h5>A clear expression of cyclical intention and design</h5>   
+                    <h5>A clear expression of sprial intention and design</h5>   
                     <br>
                     </div>
 
@@ -315,7 +315,7 @@ Content Page template: v.1.0.1-->
 
 				<div class="row">
 						<div class="main2">
-						<p>A practical extension of cyclical design is the GEA’s work developing the <a href="../ecobrickable">Ecobrickable Designator Kit</a>.  As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.  </p>
+						<p>A practical extension of spiral design is the GEA’s work developing the <a href="../ecobrickable">Ecobrickable Designator Kit</a>.  As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.  </p>
 
 						</div>
 						<div class="side2"><img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="100%">
@@ -323,7 +323,7 @@ Content Page template: v.1.0.1-->
 					</div>
 					<div class="row2">
 						<div class="main3">
-						<p>Ecobrickability allow designers to take their first step to cyclical design.  With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable.  This design direction, allows the transition of a company to full regenerative principles (see our <a href="catalyst.php">Catalyst company program</a>).</p>
+						<p>Ecobrickability allow designers to take their first step to sprial design.  With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable.  This design direction, allows the transition of a company to full regenerative principles (see our <a href="catalyst.php">Catalyst company program</a>).</p>
 						</div>
 						<div class="side3"><img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="150px">
 						</div>
@@ -335,13 +335,13 @@ Content Page template: v.1.0.1-->
 
 			<br><br>
 						
-			<div class="lead-page-paragraph"><p><b>Cyclical vs Circular Design</p></b></div>
+			<div class="lead-page-paragraph"><p><b>Spiral vs Circular Design</p></b></div>
 
 			<div class="page-paragraph">    
 			
-			<p>It can be helpful to better understand what we mean by cyclical design by clarifying what it is not.  Ecobricking is often mistaken a ‘sustainable’ or 'circular' technology.  These terms tends to refer to enabling our current human systems to continue to spin on indefinitely by minimizing damage and environmental harm.  Instead, with our ecobricks we strive for a fundamental shift towards net contribution.  Instead of a static circle, by intending our cycles we can spiral them towards richer societies and greener ecosystems.</p>
+			<p>It can be helpful to better understand what we mean by spiral design by clarifying what it is not.  Ecobricking is often mistaken a ‘sustainable’ or 'circular' technology.  These terms tends to refer to enabling our current human systems to continue to spin on indefinitely by minimizing damage and environmental harm.  Instead, with our ecobricks we strive for a fundamental shift towards net contribution.  Instead of a static circle, by intending our cycles we can spiral them towards richer societies and greener ecosystems.</p>
 
-			<p>Cyclical design is inspired by the concept of Ayyew in the culture of the Igorot people of Northern Luzon.  This Igorot concept inspired and guided the <a href="../story">early Asian ecobrick movement</a>, the work of the <a href="about">GEA</a> and the development of our <a href="principles.php">Earthen principles</a>.</p>
+			<p>Spiral design is inspired by the concept of Ayyew in the culture of the Igorot people of Northern Luzon.  This Igorot concept inspired and guided the <a href="../story">early Asian ecobrick movement</a>, the work of the <a href="about">GEA</a> and the development of our <a href="principles.php">Earthen principles</a>.</p>
 
 			<br><br>
 			<p><a class="action-btn" href="/ayyew">🍃 About Ayyew</a></p>

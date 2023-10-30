@@ -257,5 +257,9 @@ RedirectMatch "^/symposium" "/en/symposium.php"
 RedirectMatch "^/symposium.php/" "/en/symposium.php"
 RedirectMatch "^/simposium/" "/en/symposium.php"
 
+RedirectMatch "^/circular" "/en/spiral.php"
+RedirectMatch "^/spiral" "/en/spiral.php"
+RedirectMatch "^/spiral.php/" "/en/spiral.php"
+
 
 
