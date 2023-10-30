@@ -6,9 +6,6 @@ Content Page template: v.1.0.1-->
  
 <?php require_once ("includes/spiral-inc.php");?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
-
 
 <!--SPLASH SECTION-->
 
@@ -17,7 +14,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Spiral Design</div>
 		<div class="splash-sub">Ecobricking and all ecobrick applications are guided by the Earthen principle of enriching cycles.</div>
 	</div>
-	<div class="splash-image"><img src="icons/cyclical-design-white3.svg" style="width: 100%;"></div>
+	<div class="splash-image"><img src="icons/spiral-design-white3.svg" style="width: 100%;"></div>
 </div>
 <div id="splash-bar"></div>
 
@@ -379,8 +376,6 @@ Content Page template: v.1.0.1-->
 				<a class="module-btn" href="/plastic">Earth's Example</a>
                 <br>
 			</div>   
-
-			<!--<?php include 'side-modules/cyclical-design.php';?> -->
 
 			
 		</div>

@@ -17,11 +17,11 @@ _END;?>
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://ecobricks.org/webp/principles-banner-1600px.webp?v3">
-<link rel="preload" as="image" href="https://www.ecobricks.org/icons/cyclical-design-white.svg">
+<link rel="preload" as="image" href="https://www.ecobricks.org/icons/spiral-design-white.svg">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("meta/cyclical-$lang.php");?>
+<?php require_once ("meta/spiral-$lang.php");?>
 
 <?php require_once ("header.php");?>
 

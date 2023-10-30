@@ -17,8 +17,8 @@
 	<link rel="alternate" href="https://ecobricks.org/fr/<?php echo ($name); ;?>" hreflang="fr"> 
 	<link rel="alternate" href="http://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="x-default">
 
-<!-- Arc CDN Script without delay
-<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
+<!-- Arc CDN Script without delay-->
+<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
 
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
