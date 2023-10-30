@@ -44,7 +44,7 @@ Content Page template: v.1.0.1-->
 
 		<!--
 
-			<p>Cyclical design principle underlies every ecobrick method and application that the GEA endorses. </p>
+			<p>Spiral design principle underlies every ecobrick method and application that the GEA endorses. </p>
 			
 		 This way we ensure that every ecobrick remains a reusable building block.  This ethic also helps guide the way that we make ecobricks and the GEA recommended ecobricking techniques.
 
