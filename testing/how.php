@@ -16,7 +16,7 @@ Content Page template: v.1.0.0-->
 		<div class="splash-heading">How to Make an Ecobrick</div>
 	    <div class="splash-sub">10 Step Guide to Making an Ecobrick</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/en/webp/eb-sky-400px.webp" style="width: 85%">
+	<div class="splash-image"><img src="https://ecobricks.org/webp/eb-sky-400px.webp" style="width: 85%">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -207,32 +207,29 @@ Content Page template: v.1.0.0-->
 			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul>
 
 			<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:8px 10px 0px 12px;;margin-top:40px;margin-bottom:10px;"> 
-                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:4px;cursor:pointer;">
-                    <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
-                                Advanced
-                    </div>
-                    <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
-                    </div>
-                </div>
+                		<div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:4px;cursor:pointer;">
+                    			<div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+		                                Advanced
+                    			</div>
+					<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+        	        		</div>
+	        	        </div>
 
 				<div class="advanced-box-content">
                     
-                    <div class="row">
+                    			<div class="row">
                 
-                        <div class="main2">
-                            <p>💡 What about combinations of plastic and paper? What about a sticker on a paper envelope? Putting a little paper into your ecobrick isn't the end of the world. The contained environment will keep it from degrading. The main reason for not putting dry paper (or other organic matterials) into an ecobrick is to maximize the space for containing plastic.  There are many lively discussions in our social media communities about what should and should not go into an ecobrick.  <a href="../movement">Feel free to join a group near you and ask a question.</p>
-                        </div>
-
-                        <div class="side2">
-                            <!-- <br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic"> -->
-                        </div>
-
-                        <!-- <p><a href="../earthwands">Learn more..</p> -->
-                    </div>
-                </div>
-			</DIV>
-				
-	
+		                        	<div class="main2">
+	                		            <p>💡 What about combinations of plastic and paper? What about a sticker on a paper envelope? Putting a little paper into your ecobrick isn't the end of the world. The contained environment will keep it from degrading. The main reason for not putting dry paper (or other organic matterials) into an ecobrick is to maximize the space for containing plastic.  There are many lively discussions in our social media communities about what should and should not go into an ecobrick.  <a href="../movement">Feel free to join a group near you and ask a question.</a></p>
+						</div>
+			                        <div class="side2">
+       	        			             <!-- <br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic"> -->
+			                        </div>
+		
+	                		        <!-- <p><a href="../earthwands">Learn more..</p> -->
+			        	</div>
+		      	          </div>
+			</div>
 		</div>
 	</div>
 
@@ -271,33 +268,37 @@ Content Page template: v.1.0.0-->
 				<button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
 			</div>		    
 			<div id="preclosed6">
-                    <br>
-			    <p><img src="svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="100%" /></p>
+ 	                	<br>
+				    <p><img src="svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="100%" /></p>
 			    
-			    <p>The smaller the pieces, the denser you'll get!  Fill the bottle up half way with loose plastic, then use your stick to push down around the sides of the bottle.  Keep pushing down as you move around the circumference of the bottle.  Once compressed, add more loose plastics.  To maximize the density, it's good to mix soft, then hard plastic.   If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
+				    <p>The smaller the pieces, the denser you'll get!  Fill the bottle up half way with loose plastic, then use your stick to push down around the sides of the bottle.  Keep pushing down as you move around the circumference of the bottle.  Once compressed, add more loose plastics.  To maximize the density, it's good to mix soft, then hard plastic.   If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
 			    
-			    <p>Did you push too hard?  In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again.  Ruptured bottles will not last and can leak plastics.  Cut the bottle open, remove the plastic and start again.  Cut or damaged PET plastic is readily recycled.</p>
+				    <p>Did you push too hard?  In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again.  Ruptured bottles will not last and can leak plastics.  Cut the bottle open, remove the plastic and start again.  Cut or damaged PET plastic is readily recycled.</p>
 
-				<div class="advanced-box-content">
-                    
-                    <div class="row">
-                
-                        <div class="main2">
-                            <p>💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic.  By forming a center white ring of plastic you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
-                        </div>
+				<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:8px 10px 0px 12px;;margin-top:40px;margin-bottom:10px;"> 
+					<div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:4px;cursor:pointer;">
+        					<div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+				                	Advanced
+               			     		</div>
+						<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+			        		</div>
+       	        		 	</div>
+			
+					<div class="advanced-box-content">                    
+        					<div class="row">
+			                        	<div class="main2">
+                        					<p>💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic.  By forming a center white ring of plastic you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
+							</div>
+	                        			<div class="side2">
+        	                    				<br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic">
+        	       	        			</div>
+		                        	<p><a href="../earthwands">Learn more..</a></p>
+		                    		</div>
+	        		        </div><!--Advanced content closed-->    
+				</div>
+			</div>
 
-                        <div class="side2">
-                            <br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic">
-                        </div>
-
-                        <p><a href="../earthwands">Learn more..</p>
-                    </div>
-                </div><!--Advanced content closed-->
-			    
-		
-		    </div>
-		</div>
-	
+	</div>
 	
 	<a name="WEIGH"></a>
 	<div class="reg-content-block" id="block7">
@@ -321,9 +322,22 @@ Content Page template: v.1.0.0-->
 
 			<p>That said, a good solid ecobrick that meets all GEA guidelines is something you can be proud and which will inspire others!  An ecobrick&#8217;s heft and quality set an inspiring example for others and energize the social spread of ecobricks.  When others see and hold your ecobrick, they will understand immediately that something important has happened: "waste" has been transformed into something fundamentally useful.</p>
 
-			<h3>Advanced: Max Density</h3>
 
-			<div class="learn-more-content"><p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
+				<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:8px 10px 0px 12px;;margin-top:40px;margin-bottom:10px;"> 
+			                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:4px;cursor:pointer;">
+        					<div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+			                                Advanced: Max Density
+               		     			</div>
+					<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+                		</div>
+					</div>
+				</div>
+		</div>
+			<div class="advanced-box-content">                    
+        			<div class="row">
+					<div class="learn-more-content"><p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -411,7 +425,7 @@ Content Page template: v.1.0.0-->
              <br>
              <div class="page-paragraph-reg">
 
-             <iframe width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:45vh;"></iframe>
+             <iframe loading="lazy" width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:45vh;"></iframe>
                  
 
                 <div class="row">
