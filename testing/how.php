@@ -230,6 +230,7 @@ Content Page template: v.1.0.0-->
                         <!-- <p><a href="../earthwands">Learn more..</p> -->
                     </div>
                 </div>
+			</DIV>
 				
 	
 		</div>
