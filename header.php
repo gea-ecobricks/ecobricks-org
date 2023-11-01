@@ -29,18 +29,18 @@
 
 	
 <!-- This calls GEA typography -->
-
+<!-- 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 
 <!-- Mulish loads first for first page view-->
-
-<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+<!-- 
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">  -->
 
 <!-- Arvo loads very last to speed up first load.-->
-
+<!-- 
 <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-		
+		 -->
 
 <!-- This calls our webmanifest wich turns our page into a progress web app (PWA) 
 <link rel="manifest" href="manifest.webmanifest">-->
@@ -93,6 +93,21 @@
 <!-- Inline styling to lay out the most important part of the page for first load view-->
 
 <STYLE>
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.ttf");
+  font-display: swap;
+ }
+
+ @font-face {
+  font-family: "Arvo";
+  src: url("../fonts/Arvo-regular.");
+  font-display: swap;
+ }
+
+
+
 
 
 #full-page {
