@@ -11,12 +11,12 @@ echo <<<_END
 
 _END;?>
 
-<HEAD> 
+<HEAD>  
 
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://www.ecobricks.org/en/webp/eb-sky-400px.webp">
+<link rel="preload" as="image" href="https://ecobricks.org/webp/eb-sky-400px.webp">
 <link rel="preload" as="image" href="https://ecobricks.org/webp/build-banner-1400px.webp">
 
 <!--This loads CSS specific to this page
