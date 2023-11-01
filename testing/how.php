@@ -49,7 +49,7 @@ Content Page template: v.1.0.0-->
 		<div class="opener-header">
 			<div class="opener-header-text">
                         <h4>1. Save, Segregate, Clean & Dry Plastics</h4>
-                        <h5>Ecobricks can be used for short or long term applications which balance the benefits of utility and the securing of plastic.</h5>   
+                        <h5>Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials. </h5>   
                         <br>
 			</div>
 			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
@@ -58,7 +58,7 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed1">
 			<br>
 			<img src="pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="100%" loading="lazy">
-			<p>Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials.  Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
+			<p> Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
 			<p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
 			<p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
 
@@ -74,7 +74,7 @@ Content Page template: v.1.0.0-->
                     <div class="row">
                 
                         <div class="main2">
-                            <p>💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their Plastic Transition Ratio (PTR).  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).</p>
+                            <p>💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their <a href="../ptr">Plastic Transition Ratio (PTR)</a>.  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).</p>
                         </div>
 
                         <div class="side2">
@@ -117,7 +117,7 @@ Content Page template: v.1.0.0-->
                         <p>Choose the bottle volume you want to go with.  GEA Trainers teach ecobricking with bottles under 600ml.  Large 1500ml bottles will take a lot of plastic, but also take a long time to make!  Small volume bottles allow first-time ecobrickers to finish their first ecobrick and quickly learn from their mistakes.  Large bottles are best for advanced ecobrickers.</p></li>
 
                         <li><p><b>Your Project</b></p>
-                        <p>For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles).  Depending on the size of construction, you will need different size bottles.  For example, small bottles make good walls, and large bottles make good benches.  See our Construction Guide for more information on the different ways ecobricks are applied.</p></li>
+                        <p>For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles).  Depending on the size of construction, you will need different size bottles.  For example, small bottles make good walls, and large bottles make good benches. </p></li>
 		    </p></ol>
                     <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
                         <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
@@ -128,7 +128,7 @@ Content Page template: v.1.0.0-->
                             </div>
                         </div>
                         <div class="advanced-box-content" style="">
-                            <p>💡 If you’re thinking of making Dieleman Lego Modules with your ecobricks, you must also consider the top tapper of your bottle. Dieleman modules work best when the distance between the top of the bottle and the start of the tapper is small. This allows more surface area for the inverted peg of the Dieleman module to be attached.</p>
+                            <p>💡 If you’re thinking of making <a href="../dms">Dieleman Lego Modules</a> with your ecobricks, you must also consider the top tapper of your bottle. Dieleman modules work best when the distance between the top of the bottle and the start of the tapper is small. This allows more surface area for the inverted peg of the Dieleman module to be attached.</p>
                         </div>
                     </div>
 		</div>
@@ -173,16 +173,16 @@ Content Page template: v.1.0.0-->
                     <div class="row">
                 
                         <div class="main2">
-                            <p>💡 The GEA has developed the optimal ecobricking tool– we call it the EarthWand. Earthwands can usually be purchased from GEA Trainers after a workshop, or you can order them from the <a href="https://www.gobrik.com/#shop" target="_blank" rel="noopener noreferrer">GoBrik Shop</a>. EarthWands are a regenerative product who’s sale goes to support the local and global ecobrick movement.</p>
+                            <p>💡 The GEA has developed the optimal ecobricking tool– we call it the EarthWand. Earthwands can usually be purchased from GEA Trainers after a workshop, or you can order them from the <a href="https://www.gobrik.com/store" target="_blank" rel="noopener noreferrer">GoBrik Shop</a>. EarthWands are a regenerative product who’s sale goes to support the local and global ecobrick movement.</p>
                         </div>
 
                         <div class="side2">
                             <br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic">
                         </div>
 
-                        <p><a href="/earthwands">Learn more..</p>
+                        <p><a href="../earthwands">Learn more..</p>
                     </div>
-                </div>
+                </div><!--Advanced content closed-->
             </div>
 
              
@@ -205,11 +205,27 @@ Content Page template: v.1.0.0-->
                 	<br>
 			<a href="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png"><img loading="lazy" class="aligncenter wp-image-56299 size-full" src="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png" width = "100%"/></a>
 			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul>
+
+			<div class="advanced-box-content">
+                    
+                    <div class="row">
+                
+                        <div class="main2">
+                            <p>💡 What about combinations of plastic and paper? What about a sticker on a paper envelope? Putting a little paper into your ecobrick isn't the end of the world. The contained environment will keep it from degrading. The main reason for not putting dry paper (or other organic matterials) into an ecobrick is to maximize the space for containing plastic.  There are many lively discussions in our social media communities about what should and should not go into an ecobrick.  <a href="../movement">Feel free to join a group near you and ask a question.</p>
+                        </div>
+
+                        <div class="side2">
+                            <!-- <br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic"> -->
+                        </div>
+
+                        <!-- <p><a href="../earthwands">Learn more..</p> -->
+                    </div>
+                </div>
 				
 			<h3>Advanced</h3>
 			
 			<div class="learn-more-content">
-				<p>What about combinations of plastic and paper? Putting a little paper (i.e. a plastic sticker attached to an envelope) into your ecobrick isn't the end of the world, and as long as it is dry, the contained environment will keep it from degrading. The main reason for not putting dry paper or cotton into an ecobrick is instead to maximize the space for containing plastic.  There are many lively discussions in our social media communities about what should and should not go into an ecobrick.  <a href="/movement">Feel free to join a group near you and ask a question.</a></p>
+				<p></a></p>
 			</div>
 		</div>
 	</div>
@@ -228,9 +244,9 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed5">
                 	<br>
-			<img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/5-Add-a-bottom-color.svg" width="100%" height="40vh"/>
+			<img src="svgs/5-Add-a-bottom-color.svg" width="100%" height="40vh"/>
 			<br/>
-			<p>This is part of the <a href="/circular">circular design</a> principle of ecobricking: we're thinking about the next use of the ecobrick.  When your ecobrick is put to use in a module or an earth construction the bottom color will help make patterns and designs.</p>
+			<p>This is part of the <a href="spiral">circular design</a> principle of ecobricking: we're thinking about the next use of the ecobrick.  When your ecobrick is put to use in a module or an earth construction the bottom color will help make patterns and designs.</p>
 			
 			<p>To create your ecobrick's bottom color, choose a soft plastic with a solid color, then push it down to the bottom of your ecobrick.  You'll want to fill the bottle loosely about half way with soft plastic of your chosen color.  Then, pack it in with your stick.  If your bottle has "legs" or dimples at the bottom be sure to pack these solid and full.  Once all your soft plastic is compressed you want it  to fill the first 1-2cms of the bottle.</p>
 			
@@ -240,30 +256,42 @@ Content Page template: v.1.0.0-->
 
 	<a name="PACK"></a>
         <div class="reg-content-block" id="block6">
-		<div class="opener-header">
-			<div class="opener-header-text">
-				<h4>6. Pack the bottle tight, mixing plastics as you go</h2>
-	                        <h5>Now it's time to pack away!  Cut or rip up large plastics into smaller pieces. </h5>   				
-			</div>
+			<div class="opener-header">
+				<div class="opener-header-text">
+					<h4>6. Pack the bottle tight, mixing plastics as you go</h2>
+								<h5>Now it's time to pack away!  Cut or rip up large plastics into smaller pieces. </h5>   				
+				</div>
 
-                    <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
-                </div>		    
-		<div id="preclosed6">
+				<button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
+			</div>		    
+			<div id="preclosed6">
                     <br>
-		    <div class="et_pb_toggle_content clearfix">
-			    <p><img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="100%" /></p>
+			    <p><img src="svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="100%" /></p>
 			    
 			    <p>The smaller the pieces, the denser you'll get!  Fill the bottle up half way with loose plastic, then use your stick to push down around the sides of the bottle.  Keep pushing down as you move around the circumference of the bottle.  Once compressed, add more loose plastics.  To maximize the density, it's good to mix soft, then hard plastic.   If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
 			    
 			    <p>Did you push too hard?  In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again.  Ruptured bottles will not last and can leak plastics.  Cut the bottle open, remove the plastic and start again.  Cut or damaged PET plastic is readily recycled.</p>
-			    
-			    <h3>Advanced</h3>
 
-			    <div class="learn-more-content"><p>Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic.  By forming a center white ring of plastic you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
-			    </div>
+				<div class="advanced-box-content">
+                    
+                    <div class="row">
+                
+                        <div class="main2">
+                            <p>💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic.  By forming a center white ring of plastic you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
+                        </div>
+
+                        <div class="side2">
+                            <br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic">
+                        </div>
+
+                        <p><a href="../earthwands">Learn more..</p>
+                    </div>
+                </div><!--Advanced content closed-->
+			    
+		
 		    </div>
 		</div>
-	</div>
+	
 	
 	<a name="WEIGH"></a>
 	<div class="reg-content-block" id="block7">
