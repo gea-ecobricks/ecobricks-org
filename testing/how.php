@@ -255,7 +255,7 @@ Content Page template: v.1.0.0-->
 			<div class="opener-header">
 				<div class="opener-header-text">
 					<h4>6. Pack the bottle tight, mixing plastics as you go</h2>
-								<h5>Now it's time to pack away!  Cut or rip up large plastics into smaller pieces. </h5>   				
+						<h5>Now it's time to pack away!  Cut or rip up large plastics into smaller pieces. </h5>   				
 				</div>
 
 				<button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
@@ -321,17 +321,16 @@ Content Page template: v.1.0.0-->
         					<div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
 			                                Advanced: Max Density
                		     			</div>
-					<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
-                		</div>
+						<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+						</div>
+						<div class="advanced-box-content">                    
+		        				<div class="row">
+								<div class="main"><p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-		</div>
-			<div class="advanced-box-content">                    
-        			<div class="row">
-					<div class="learn-more-content"><p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 
