@@ -206,7 +206,16 @@ Content Page template: v.1.0.0-->
 			<a href="pngs/no-glass-metal-or-biodegradables-900px-1.png"><img loading="lazy" class="aligncenter wp-image-56299 size-full" src="pngs/no-glass-metal-or-biodegradables-900px-1.png" width = "100%"/></a>
 			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul>
 
-			<div class="advanced-box-content">
+			<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
+                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:7px;cursor:pointer;">
+                    <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+                                Advanced
+                    </div>
+                    <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+                    </div>
+                </div>
+
+				<div class="advanced-box-content">
                     
                     <div class="row">
                 
@@ -301,7 +310,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed7">
 			<br>
-			<p><img loading="lazy" class="size-medium aligncenter" src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/07-Weigh-your-ecobrick-to-ensure-density-FLAT.svg.svg" width="100%" /></p>
+			<p><img loading="lazy" class="size-medium aligncenter" src="svg/07-Weigh-your-ecobrick-to-ensure-density-FLAT.svg" width="100%" /></p>
 
 			<p>Ecobricks that are solid and strong are densely packed.  The full volume is used for plastics and there is no air or spaces inside.  The GEA has determined that an ecobrick's density must be higher than <strong> 0.33 g/ml</strong>.  This means that a 600ml bottle must be above 200 grams and a 1500ml bottle must be above a weight of 500 grams.  Experienced ecobrickers tend to regard 0.37 g/ml and above as the range of a good ecobricks.</p>
 
