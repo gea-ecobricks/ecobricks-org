@@ -427,13 +427,10 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed10">
 			<br>
-			<p><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/03/10-Store-your-ecobrik-1000px.png" width="100%" loading="lazy"/></p>
+			<p><img src="pngs/10-store-your-ecobrik-1000px.png" width="100%" loading="lazy"/></p>
 			<p>Store ecobricks indoors, out of the sun.  If possible protect with a cloth or tarp from accumulating dust and dirt (PET attracts dust and chemicals and is hard to remove).  Stack horizontally, with the ends pointed outward. This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.  It's good to have the ecobricks raised slightly above the floor — rats have been known to chew away at bottles!  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements. Ecobricks are best stacked horizontally with their bottom pointed outwards.</p>
 			<br>
-			<ul class="et_post_gallery clearfix">
-				<li class="et_gallery_item et_pb_gallery_image">
-				</li>
-			</ul>
+			
 		</div>
 	</div>	
 			
