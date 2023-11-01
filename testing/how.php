@@ -324,13 +324,13 @@ Content Page template: v.1.0.0-->
                		     			</div>
 						<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
 						</div>
-						<div class="advanced-box-content">                    
-		        				<div class="row">
-								<div class="main2"><p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
-								</div>
-		                        			<div class="side2">
-	
-								</div>
+					</div>
+					<div class="advanced-box-content">                    
+	        				<div class="row">
+							<div class="main2"><p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
+							</div>
+		                       			<div class="side2">
+								
 							</div>
 						</div>
 					</div>
@@ -402,12 +402,12 @@ Content Page template: v.1.0.0-->
                		     		</div>
 					<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
 					</div>
-					<div class="advanced-box-content">                    
-		        			<div class="row">
-							<div class="main2"><p>Many ecobrickers write a prayer or a vision on the bottle in a permanent marker.  Your ecobrick will last a long time.  Why not let your grandkids know that you were thinking of them?  For example: "I envision a world where plastic is used seldom and wisely and where we live in harmony with the cycles of nature"</p>
-							</div>
-		                       			<div class="side2">
-							</div>
+				</div>
+				<div class="advanced-box-content">                    
+	        			<div class="row">
+						<div class="main2"><p>Many ecobrickers write a prayer or a vision on the bottle in a permanent marker.  Your ecobrick will last a long time.  Why not let your grandkids know that you were thinking of them?  For example: "I envision a world where plastic is used seldom and wisely and where we live in harmony with the cycles of nature"</p>
+						</div>
+	                       			<div class="side2">
 						</div>
 					</div>
 				</div>
