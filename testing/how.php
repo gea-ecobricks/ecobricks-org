@@ -206,8 +206,8 @@ Content Page template: v.1.0.0-->
 			<a href="pngs/no-glass-metal-or-biodegradables-900px-1.png"><img loading="lazy" class="aligncenter wp-image-56299 size-full" src="pngs/no-glass-metal-or-biodegradables-900px-1.png" width = "100%"/></a>
 			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul>
 
-			<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
-                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:7px;cursor:pointer;">
+			<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:8px 10px 0px 12px;;margin-top:40px;margin-bottom:10px;"> 
+                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:4px;cursor:pointer;">
                     <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
                                 Advanced
                     </div>
