@@ -240,7 +240,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed5">
                 	<br>
-			<img src="svgs/5-Add-a-bottom-color.svg" width="100%" height="40vh" loading="lazy"/>
+			<img src="svgs/5-Add-a-bottom-color.svg" width="100%" loading="lazy"/>
 			
 			<p>This is part of the <a href="spiral">circular design</a> principle of ecobricking: we're thinking about the next use of the ecobrick.  When your ecobrick is put to use in a module or an earth construction the bottom color will help make patterns and designs.</p>
 			
@@ -326,7 +326,10 @@ Content Page template: v.1.0.0-->
 						</div>
 						<div class="advanced-box-content">                    
 		        				<div class="row">
-								<div class="main"><p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
+								<div class="main2"><p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
+								</div>
+		                        			<div class="side2">
+	
 								</div>
 							</div>
 						</div>
@@ -392,8 +395,22 @@ Content Page template: v.1.0.0-->
 				<li>Nail polish is a form of oil paint and also permanently inscribes the ecobrick.  However, often the nail polish brush makes it hard to write legibly.  Also the smell of the polish drying is strong.</li>
 			</ul>
 			<p>Some ecobrickers are innovating with other methods-; such as etching onto the ecobrick or inserting a written plastic tag into the bottle itself.</p>
-			<h3>Extra: Add a vision</h3>
-			<div class="learn-more-content"><p>Many ecobrickers write a prayer or a vision on the bottle in a permanent marker.  Your ecobrick will last a long time.  Why not let your grandkids know that you were thinking of them?  For example: "I envision a world where plastic is used seldom and wisely and where we live in harmony with the cycles of nature"</p>
+			<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:8px 10px 0px 12px;;margin-top:40px;margin-bottom:10px;"> 
+				<div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:4px;cursor:pointer;">
+        				<div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+			                               Extra: Add a vision
+               		     		</div>
+					<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+					</div>
+					<div class="advanced-box-content">                    
+		        			<div class="row">
+							<div class="main2"><p>Many ecobrickers write a prayer or a vision on the bottle in a permanent marker.  Your ecobrick will last a long time.  Why not let your grandkids know that you were thinking of them?  For example: "I envision a world where plastic is used seldom and wisely and where we live in harmony with the cycles of nature"</p>
+							</div>
+		                       			<div class="side2">
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>			
