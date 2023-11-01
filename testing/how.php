@@ -290,8 +290,8 @@ Content Page template: v.1.0.0-->
                         					<p>💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic.  By forming a center white ring of plastic you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
 							</div>
 	                        			<div class="side2">
-        	                    				<br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic">
-        	       	        			</div>
+
+							</div>
 		                        	<p><a href="../earthwands">Learn more..</a></p>
 		                    		</div>
 	        		        </div><!--Advanced content closed-->    
