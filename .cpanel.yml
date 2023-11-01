@@ -10,6 +10,7 @@ deployment:
   - /bin/cp -R id $DEPLOYPATH
 
 
+  - /bin/cp -R fonts $DEPLOYPATH
   - /bin/cp -R logos $DEPLOYPATH
   - /bin/cp -R icons $DEPLOYPATH
   - /bin/cp -R svgs $DEPLOYPATH
