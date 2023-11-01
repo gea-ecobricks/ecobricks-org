@@ -160,33 +160,26 @@ Content Page template: v.1.0.0-->
                         <p>Once you've got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic!  One stick turns in to many!</p> 
 
                 
-            <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
-                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
-                    <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
-                                Advanced
-                    </div>
-                    <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
-                    </div>
-                </div>
-                <div class="advanced-box-content">
-                    
-                    <div class="row">
-                
-                        <div class="main2">
-                            <p>💡 The GEA has developed the optimal ecobricking tool– we call it the EarthWand. Earthwands can usually be purchased from GEA Trainers after a workshop, or you can order them from the <a href="https://www.gobrik.com/store" target="_blank" rel="noopener noreferrer">GoBrik Shop</a>. EarthWands are a regenerative product who’s sale goes to support the local and global ecobrick movement.</p>
-                        </div>
-
-                        <div class="side2">
-                            <br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic">
-                        </div>
-
-                        <p><a href="../earthwands">Learn more..</p>
-                    </div>
-                </div><!--Advanced content closed-->
-            </div>
-
-             
-
+			<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
+		                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
+               				<div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+		                                Advanced
+        				</div>
+ 					<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+  					</div>
+		                </div>
+	 	               	<div class="advanced-box-content">
+        				<div class="row">
+        	                		<div class="main2">
+                	            			<p>💡 The GEA has developed the optimal ecobricking tool– we call it the EarthWand. Earthwands can usually be purchased from GEA Trainers after a workshop, or you can order them from the <a href="https://www.gobrik.com/store" target="_blank" rel="noopener noreferrer">GoBrik Shop</a>. EarthWands are a regenerative product who’s sale goes to support the local and global ecobrick movement.</p>
+                        			</div>
+	                        		<div class="side2">
+                            				<br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic">
+                        			</div>
+	                        		<p><a href="../earthwands">Learn more..</a></p>
+                    			</div>
+                		</div><!--Advanced content closed-->
+			</div>
 		</div>
 	</div>
 			
