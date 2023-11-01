@@ -96,6 +96,12 @@
 
 @font-face {
   font-family: "Mulish";
+  src: url("../fonts/Mulish-Light.ttf");
+  font-display: swap;
+ }
+
+ @font-face {
+  font-family: "Mulish";
   src: url("../fonts/Mulish-Regular.ttf");
   font-display: swap;
  }
