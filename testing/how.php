@@ -152,7 +152,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed3">
                 	<br>
-			<img src="svgs/03-Get-your-stick-ready.svg" width="100%" loading="lazy>
+			<img src="svgs/03-Get-your-stick-ready.svg" width="100%" loading="lazy">
 
                         <p>Having the right stick will make a big difference to your ecobricking.</p>
                         <p>Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle&#8211; and yes, this means you have to start your ecobrick all over again!</p>
