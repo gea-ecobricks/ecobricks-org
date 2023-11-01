@@ -203,7 +203,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed4">
                 	<br>
-			<a href="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png"><img loading="lazy" class="aligncenter wp-image-56299 size-full" src="https://cdn.ecobricks.org/wp-content/uploads/2020/02/4-No-glass-metal-or-biodegradables-900px-1.png" width = "100%"/></a>
+			<a href="pngs/no-glass-metal-or-biodegradables-900px-1.png"><img loading="lazy" class="aligncenter wp-image-56299 size-full" src="pngs/no-glass-metal-or-biodegradables-900px-1.png" width = "100%"/></a>
 			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul>
 
 			<div class="advanced-box-content">
@@ -222,11 +222,7 @@ Content Page template: v.1.0.0-->
                     </div>
                 </div>
 				
-			<h3>Advanced</h3>
-			
-			<div class="learn-more-content">
-				<p></a></p>
-			</div>
+	
 		</div>
 	</div>
 
