@@ -20,32 +20,21 @@ _END;?>
 <?php require_once ("meta/how-$lang.php");?>
 
 <script>
-	function isInViewport(element) {
-    const rect = element.getBoundingClientRect();
-    return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-}
-
-function loadIframe() {
+document.getElementById('play-button').addEventListener('click', function() {
+    const iframe = document.createElement('iframe');
+    iframe.setAttribute('loading', 'lazy');
+    iframe.setAttribute('title', 'How to Make an Ecobrick');
+    iframe.setAttribute('width', '600');
+    iframe.setAttribute('height', '400');
+    iframe.setAttribute('src', 'https://www.youtube.com/embed/RQoXtbJTvMs');
+    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+    iframe.setAttribute('allowfullscreen', '');
+    iframe.style.border = 'none';
+    iframe.style.width = '100%';
+    iframe.style.height = '45vh';
+    
     const placeholder = document.getElementById('video-placeholder');
-    if (isInViewport(placeholder)) {
-        const iframe = document.createElement('iframe');
-        iframe.setAttribute('src', 'https://www.youtube.com/embed/RQoXtbJTvMs');
-        iframe.setAttribute('width', '600');
-        iframe.setAttribute('height', '400');
-        iframe.setAttribute('frameborder', '0');
-        iframe.setAttribute('allowfullscreen', '');
-        placeholder.replaceWith(iframe);
-        window.removeEventListener('scroll', loadIframe);
-    }
-}
-
-window.addEventListener('load', () => {
-    window.addEventListener('scroll', loadIframe);
+    placeholder.replaceWith(iframe);
 });
 
 </script>
@@ -56,6 +45,33 @@ window.addEventListener('load', () => {
     width: 100%;
     height: auto;
 }
+
+#play-button {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+#play-button::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 15px 26px;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .advanced-box-content {
     padding: 2px 15px 15px 15px;

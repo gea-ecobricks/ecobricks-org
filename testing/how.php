@@ -440,9 +440,16 @@ Content Page template: v.1.0.0-->
              <div class="page-paragraph-reg">
 
 			 
+			 
+
+			 <div id="video-placeholder" style="width:600px; height:400px; background:url('how-to-preview.webp') center center no-repeat; cursor:pointer; position: relative;">
+    <div id="play-button"></div>
+</div>
+
+<!-- 
 
              <iframe loading="lazy" title="How to make an ecobrick" width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border:none;width:100%;"></iframe>
-                 
+                  -->
 
                 <div class="row">
                     <div class="main2">
