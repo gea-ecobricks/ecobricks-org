@@ -1,7 +1,7 @@
 <!--PAGE LANGUAGE:  ENGLISH
 Content Page template: v.1.0.0-->
    
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
+<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page ids, file ids, div ids, div class ids, or html syntax.-->
  
 <?php require_once ("includes/how-inc.php");?>
 
@@ -16,7 +16,7 @@ Content Page template: v.1.0.0-->
 		<div class="splash-heading">How to Make an Ecobrick</div>
 	    <div class="splash-sub">10 Step Guide to Making an Ecobrick</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/webp/eb-sky-400px.webp" style="width: 85%">
+	<div class="splash-image"><img src="https://ecobricks.org/webp/eb-sky-400px.webp" style="width: 85%" alt="sky background">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -25,7 +25,7 @@ Content Page template: v.1.0.0-->
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
+<a id="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -44,7 +44,7 @@ Content Page template: v.1.0.0-->
 
 
 
-	<a name="SAVE"></a>
+	<a id="SAVE"></a>
         <div class="reg-content-block" id="block1">
 		<div class="opener-header">
 			<div class="opener-header-text">
@@ -57,7 +57,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed1">
 			<br>
-			<img src="pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="100%" loading="lazy">
+			<img src="pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="600" alt="Save and segreate your plastics" loading="lazy" style="width:100%">
 			<p> Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
 			<p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
 			<p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
@@ -90,7 +90,7 @@ Content Page template: v.1.0.0-->
         
 	</div>
 
-	<a name="CHOOSE"></a>
+	<a id="CHOOSE"></a>
 	<div class="reg-content-block" id="block2">
 
         	<div class="opener-header">	
@@ -139,7 +139,7 @@ Content Page template: v.1.0.0-->
 
 
 
-        <a name="GET"></a>
+        <a id="GET"></a>
 	<div class="reg-content-block" id="block3">
            	<div class="opener-header">   
 			<div class="opener-header-text">
@@ -183,7 +183,7 @@ Content Page template: v.1.0.0-->
 		</div>
 	</div>
 			
-        <a name="GLASS"></a>
+        <a id="GLASS"></a>
 	<div class="reg-content-block" id="block4">
 
 		<div class="opener-header">   
@@ -226,7 +226,7 @@ Content Page template: v.1.0.0-->
 		</div>
 	</div>
 
-	<a name="BOTTOM"></a>
+	<a id="BOTTOM"></a>
 	<div class="reg-content-block" id="block5">
 
 		<div class="opener-header">
@@ -250,7 +250,7 @@ Content Page template: v.1.0.0-->
 		</div>
 	</div>
 
-	<a name="PACK"></a>
+	<a id="PACK"></a>
         <div class="reg-content-block" id="block6">
 			<div class="opener-header">
 				<div class="opener-header-text">
@@ -294,7 +294,7 @@ Content Page template: v.1.0.0-->
 	</div>
 	
 	
-	<a name="WEIGH"></a>
+	<a id="WEIGH"></a>
 	<div class="reg-content-block" id="block7">
 		<div class="opener-header">
 			<div class="opener-header-text">
@@ -338,7 +338,7 @@ Content Page template: v.1.0.0-->
 		</div>
 	</div>
 
-	<a name="CAP"></a>
+	<a id="CAP"></a>
 	<div class="reg-content-block" id="block8">
 		<div class="opener-header">
 			<div class="opener-header-text">
@@ -356,7 +356,7 @@ Content Page template: v.1.0.0-->
 			<p>Once capped, it is time to record your ecobrick!  Recording your ecobrick's key data an important part of ecobricking wether your doing it on your own or as part of a community.  This is in particular important for community leaders.  You can use a log sheet, a spread sheet or the GoBrik app to record data such as...</p>
 			
 			<ul>
-				<li>The ecobricker's name</li>
+				<li>The ecobricker's id</li>
 				<li>The final weigh</li>
 				<li>Date and year</li>
 				<li>The intended Project</li>
@@ -364,7 +364,7 @@ Content Page template: v.1.0.0-->
 			
 			<p>Recording ecobricks is key to calculating your overall impact, monitoring quality and preparing for building projects.</p>
 			
-			<p>By recording the weight, you can tally up all your ecobricks and calculate the total plastic you have kept out of the environment.  By recording name and weight you enable quality accountability. By maintaining a record of how many ecobricks you have completed, you'll know when your ready to move to the building stage of your project.  By recording the date you to let people tomorrow know that we cared today about their world.</p>
+			<p>By recording the weight, you can tally up all your ecobricks and calculate the total plastic you have kept out of the environment.  By recording id and weight you enable quality accountability. By maintaining a record of how many ecobricks you have completed, you'll know when your ready to move to the building stage of your project.  By recording the date you to let people tomorrow know that we cared today about their world.</p>
 			
 			<p>We've worked hard to craft a universal web app for you to use to log and connect your ecobricks with those in your community. Simply visit <a href="https://www.gobrik.com" target="_blank" rel="noopener noreferrer">www.GoBrik.com </a>with the web browser on your phone, sign in with Facebook or email, create an account, then begin to log your ecobricks.  GoBrik will do the rest- compiling stats for you and your community.</p>
 			
@@ -372,7 +372,7 @@ Content Page template: v.1.0.0-->
 		</div>
 	</div>			
 
-	<a name="INSCRIBE"></a>
+	<a id="INSCRIBE"></a>
 	<div class="reg-content-block" id="block9">
 		<div class="opener-header">
 			<div class="opener-header-text">
@@ -385,11 +385,11 @@ Content Page template: v.1.0.0-->
 		<div id="preclosed9">
 			<br>
 			<p><img src="https://cdn.statically.io/img/www.ecobricks.org/wp-content/uploads/2020/02/08-Cap-and-Label.svg" width="100%" loading="lazy"/></p>
-			<p>Inscribing the weight, data, serial, etc. onto the ecobrick will indicate that the ecobrick has been logged and registered.  Be sure to use a permanent means of recording your ecobrick.  Your ecobrick will endure for decades and centuries.  The more information we can leave future generations, the richer our gift. After much experimentation, we have found that enamel/oil paint and nail polish work best.</p>
+			<p>Inscribing the weight, data, serial, etc. onto the ecobrick will indicate that the ecobrick has been logged and registered.  Be sure to use a permanent means of recording your ecobrick.  Your ecobrick will endure for decades and centuries.  The more information we can leave future generations, the richer our gift. After much experimentation, we have found that eidl/oil paint and nail polish work best.</p>
 			<ul>
 				<li>Avoid using paper labels, tape, or stickers to record the data.  These methods will last for several years at best then fall off.</li>
 				<li>Avoid using permanent markers.  Not only does their writing not last long on PET, they are made of non-recyclableable and non-ecobrickable materials.</li>
-				<li>Enamel paint usually comes in a metal can or glass jar.  These containers are effectively recyclable.</li>
+				<li>Eidl paint usually comes in a metal can or glass jar.  These containers are effectively recyclable.</li>
 				<li>Use a paint brush to carefully and clearly inscribe the ecobrick's data.  The paint bonds to the plastic and is almost impossible to remove.</li>
 				<li>Use contrasting colors like white and black to make your inscription stand out.</li>
 				<li>Nail polish is a form of oil paint and also permanently inscribes the ecobrick.  However, often the nail polish brush makes it hard to write legibly.  Also the smell of the polish drying is strong.</li>
@@ -415,7 +415,7 @@ Content Page template: v.1.0.0-->
 		</div>
 	</div>			
 
-	<a name="STORE"></a>
+	<a id="STORE"></a>
 	<div class="reg-content-block" id="block10">
 		<div class="opener-header">
 			<div class="opener-header-text">
@@ -437,7 +437,7 @@ Content Page template: v.1.0.0-->
              <br>
              <div class="page-paragraph-reg">
 
-             <iframe loading="lazy" width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%; height:45vh;"></iframe>
+             <iframe loading="lazy" title="How to make an ecobrick" width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border:none;width:100%; height:45vh;"></iframe>
                  
 
                 <div class="row">

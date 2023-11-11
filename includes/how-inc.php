@@ -8,6 +8,8 @@ echo <<<_END
 <!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
 
 <html lang="$lang">
+<meta charset="UTF-8"> 
+
 
 _END;?>
 
@@ -28,7 +30,7 @@ _END;?>
 
 <?php require_once ("header.php");?>
 
-
+ 
 <STYLE>
 
 .advanced-box-content {

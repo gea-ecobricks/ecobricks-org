@@ -17,8 +17,8 @@
 	<link rel="alternate" href="https://ecobricks.org/fr/<?php echo ($name); ;?>" hreflang="fr"> 
 	<link rel="alternate" href="http://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="x-default">
 
-<!-- Arc CDN Script without delay-->
-<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
+<!-- Arc CDN Script without delay
+<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
 
 <!-- This calls our Github hosted stylesheet - if it gets hopelessly cached and doesn't load, up the version number! -->
 		
@@ -96,21 +96,21 @@
 
 @font-face {
   font-family: "Mulish";
-  src: url("../fonts/Mulish-Light.ttf");
+  src: url("fonts/Mulish-Light.ttf");
   font-display: swap;
   font-weight: 300;
  }
 
  @font-face {
   font-family: "Mulish";
-  src: url("../fonts/Mulish-Regular.ttf");
+  src: url("fonts/Mulish-Regular.ttf");
   font-display: swap;
   font-weight: 500;
  } 
 
  @font-face {
   font-family: "Arvo";
-  src: url("../fonts/Arvo-regular.");
+  src: url("fonts/Arvo-regular.");
   font-display: swap;
  }
 
