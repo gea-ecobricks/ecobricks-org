@@ -3,7 +3,7 @@ echo <<<_END
 <html lang="$lang">
 _END;?>
 <HEAD>
-<meta charset="UTF-8"> 
+<?php require_once ("header.php");?>
 
 
 <!--Image files to preload that are unique to this page-->
@@ -19,7 +19,6 @@ _END;?>
 
 <?php require_once ("meta/how-$lang.php");?>
 
-<?php require_once ("header.php");?>
 
  
 <STYLE>

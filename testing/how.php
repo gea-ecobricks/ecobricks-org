@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <?php require_once ("includes/how-inc.php");?>
 
-
 <!--PAGE LANGUAGE:  ENGLISH
 Content Page template: v.1.0.0-->
    
@@ -81,7 +80,7 @@ Content Page template: v.1.0.0-->
                         </div>
 
                         <div class="side2">
-                            <br><img src="pngs/weighed-plastic-150x150.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic">
+                            <br><img src="pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="weighed plastic">
                         </div>
 
                         <p>They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!</p>
@@ -121,7 +120,7 @@ Content Page template: v.1.0.0-->
 
                         <li><p><b>Your Project</b></p>
                         <p>For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles).  Depending on the size of construction, you will need different size bottles.  For example, small bottles make good walls, and large bottles make good benches. </p></li>
-		    </p></ol>
+		    	</ol>
                     <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
                         <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
                             <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">

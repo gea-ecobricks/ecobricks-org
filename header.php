@@ -1,4 +1,4 @@
-
+<meta charset="UTF-8"> 
 <!-- PHP starts by laying out canonical URLs for the page and language -->
 <?php
 	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
