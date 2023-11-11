@@ -59,7 +59,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed1">
 			<br>
-			<img src="pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="640" alt="Save and segreate your plastics" loading="lazy" width="640" loading="lazy" class="full-width-image">
+			<img src="pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="640" alt="Save and segreate your plastics" width="640" loading="lazy" class="full-width-image">
 			<p> Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
 			<p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
 			<p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
@@ -154,7 +154,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed3">
                 	<br>
-			<img src="svgs/03-Get-your-stick-ready.svg" width="640" width="640" loading="lazy" class="full-width-image">
+			<img src="svgs/03-Get-your-stick-ready.svg" width="640" loading="lazy" alt="pack your eco-brick with recycle plastics using a stick" class="full-width-image">
 
                         <p>Having the right stick will make a big difference to your ecobricking.</p>
                         <p>Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle&#8211; and yes, this means you have to start your ecobrick all over again!</p>
@@ -176,7 +176,7 @@ Content Page template: v.1.0.0-->
                 	            			<p>💡 The GEA has developed the optimal ecobricking tool– we call it the EarthWand. Earthwands can usually be purchased from GEA Trainers after a workshop, or you can order them from the <a href="https://www.gobrik.com/store" target="_blank" rel="noopener noreferrer">GoBrik Shop</a>. EarthWands are a regenerative product who’s sale goes to support the local and global ecobrick movement.</p>
                         			</div>
 	                        		<div class="side2">
-                            				<br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic">
+                            				<br><img src="pngs/EarthWand-Grey-Icon-256x300.png" width="150" alt="eco brick road into the distance" loading="lazy">
                         			</div>
 	                        		<p><a href="../earthwand">Learn more..</a></p>
                     			</div>
@@ -198,7 +198,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed4">
                 	<br>
-			<img width="640" loading="lazy" class="full-width-image" class="aligncenter wp-image-56299 size-full" src="pngs/no-glass-metal-or-biodegradables-900px-1.png"/>
+			<img width="640" loading="lazy" class="full-width-image" src="pngs/no-glass-metal-or-biodegradables-900px-1.png" alt="what to put in your eco brick">
 			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul>
 
 			<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:8px 10px 0px 12px;;margin-top:40px;margin-bottom:10px;"> 
@@ -242,7 +242,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed5">
                 	<br>
-			<img src="svgs/5-Add-a-bottom-color.svg" width="640" width="640" loading="lazy" class="full-width-image" alt="Add a bottom color to your eco brick"/>
+			<img src="svgs/5-Add-a-bottom-color.svg" width="640" loading="lazy" class="full-width-image" alt="Add a bottom color to your eco brick">
 			
 			<p>This is part of the <a href="spiral">circular design</a> principle of ecobricking: we're thinking about the next use of the ecobrick.  When your ecobrick is put to use in a module or an earth construction the bottom color will help make patterns and designs.</p>
 			
@@ -256,7 +256,7 @@ Content Page template: v.1.0.0-->
         <div class="reg-content-block" id="block6">
 			<div class="opener-header">
 				<div class="opener-header-text">
-					<h4>6. Pack the bottle tight, mixing plastics as you go</h2>
+					<h4>6. Pack the bottle tight, mixing plastics as you go</h4>
 								<h5>Now it's time to pack away!  Cut or rip up large plastics into smaller pieces. </h5>   				
 				</div>
 
@@ -264,7 +264,7 @@ Content Page template: v.1.0.0-->
 			</div>		    
 			<div id="preclosed6">
  	                	<br>
-				    <p><img src="svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics"/></p>
+				    <p><img src="svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics"/></p>
 			    
 				    <p>The smaller the pieces, the denser you'll get!  Fill the bottle up half way with loose plastic, then use your stick to push down around the sides of the bottle.  Keep pushing down as you move around the circumference of the bottle.  Once compressed, add more loose plastics.  To maximize the density, it's good to mix soft, then hard plastic.   If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
 			    
@@ -308,7 +308,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed7">
 			<br>
-			<p><img width="640" loading="lazy" class="full-width-image"  src="svg/07-Weigh-your-ecobrick-to-ensure-density-FLAT.svg" alt="Weight the eco brick and its recyled plastic waste" /></p>
+			<p><img width="640" loading="lazy" class="full-width-image"  src="svg/07-Weigh-your-ecobrick-to-ensure-density-FLAT.svg" alt="Weight the eco brick and its recyled plastic waste"></p>
 
 			<p>Ecobricks that are solid and strong are densely packed.  The full volume is used for plastics and there is no air or spaces inside.  The GEA has determined that an ecobrick's density must be higher than <strong> 0.33 g/ml</strong>.  This means that a 600ml bottle must be above 200 grams and a 1500ml bottle must be above a weight of 500 grams.  Experienced ecobrickers tend to regard 0.37 g/ml and above as the range of a good ecobricks.</p>
 
@@ -344,7 +344,7 @@ Content Page template: v.1.0.0-->
 	<div class="reg-content-block" id="block8">
 		<div class="opener-header">
 			<div class="opener-header-text">
-				<h4>8. Cap and Log</h2>
+				<h4>8. Cap and Log</h4>
 				<h5>Avoid packing your ecobrick too full.</h5>   
 			</div>
 			<button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
@@ -352,7 +352,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed8">
 			<br>
-			<p><img src="svgs/08-cap-and-log.svg" width="640" loading="lazy" class="full-width-image" alt="Add a cap to your plastic waste packed ecoBrick"/></p>
+			<p><img src="svgs/08-cap-and-log.svg" width="640" loading="lazy" class="full-width-image" alt="Add a cap to your plastic waste packed ecoBrick"></p>
 			<p>So your ecobrick is packed as solid as possible- now its time to cap it!  First, be sure your ecobrick is <strong>not</strong> packed to overflowing.  There should be about 1-2cm between the cap and the plastic inside.  The cap (HDPE) is made of a different type of plastic than the bottle (PET) and is the weakest part of the ecobrick.  If plastic is even slightly pressing up against the lid, the pressure will inevitably crack it over the years.  Also, be sure to avoid flip-tops or sports caps when sealing your ecobrick as they are fragile and will break easily over time.</p>
 			
 			<p>Once capped, it is time to record your ecobrick!  Recording your ecobrick's key data an important part of ecobricking wether your doing it on your own or as part of a community.  This is in particular important for community leaders.  You can use a log sheet, a spread sheet or the GoBrik app to record data such as...</p>
@@ -362,7 +362,8 @@ Content Page template: v.1.0.0-->
 				<li>The final weigh</li>
 				<li>Date and year</li>
 				<li>The intended Project</li>
-				<li>Serial Number (generated by the <a href="https://www.gobrik.com" target="_blank" rel="noopener noreferrer">GoBrik App</a>)</p></li></ul>
+				<li>Serial Number (generated by the <a href="https://www.gobrik.com" target="_blank" rel="noopener noreferrer">GoBrik App</a>)</li>
+			</ul>
 			
 			<p>Recording ecobricks is key to calculating your overall impact, monitoring quality and preparing for building projects.</p>
 			
@@ -378,7 +379,7 @@ Content Page template: v.1.0.0-->
 	<div class="reg-content-block" id="block9">
 		<div class="opener-header">
 			<div class="opener-header-text">
-				<h4>9. Inscribe</h2>
+				<h4>9. Inscribe</h4>
 				<h5>As you log and record your ecobrick, be sure to record the key data on the ecobrick itself too. </h5>   
 			</div>
 			<button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9">+</button>
@@ -386,7 +387,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed9">
 			<br>
-			<img src="svgs/08-Cap-and-Label.svg" width="640" loading="lazy" class="full-width-image" alt="Log your eco brik on our gobrik app"/></p>
+			<img src="svgs/08-Cap-and-Label.svg" width="640" loading="lazy" class="full-width-image" alt="Log your eco brik on our gobrik app"></p>
 			<p>Inscribing the weight, data, serial, etc. onto the ecobrick will indicate that the ecobrick has been logged and registered.  Be sure to use a permanent means of recording your ecobrick.  Your ecobrick will endure for decades and centuries.  The more information we can leave future generations, the richer our gift. After much experimentation, we have found that eidl/oil paint and nail polish work best.</p>
 			<ul>
 				<li>Avoid using paper labels, tape, or stickers to record the data.  These methods will last for several years at best then fall off.</li>
@@ -462,7 +463,7 @@ Content Page template: v.1.0.0-->
                     </div>
 
                     <div class="side2">
-                        <br><img src="webp/build-blue-450px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik building methods.">
+                        <br><img src="webp/build-blue-450px.webp" width="150" loading="lazy" alt="eco brik building methods.">
                     </div>
                 </div>
 
@@ -470,7 +471,7 @@ Content Page template: v.1.0.0-->
 
                 <div style="margin-top:35px">
                     <a class="action-btn" href="build">🚀 Building Applications</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">An overview of ecobrick building methods</a></p>
+                    <p style="font-size: 0.85em; margin-top:20px;">An overview of ecobrick building methods</p>
                 </div>  
 
             </div>
