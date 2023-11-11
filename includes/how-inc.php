@@ -19,25 +19,6 @@ _END;?>
 
 <?php require_once ("meta/how-$lang.php");?>
 
-<script>
-document.getElementById('play-button').addEventListener('click', function() {
-    const iframe = document.createElement('iframe');
-    iframe.setAttribute('loading', 'lazy');
-    iframe.setAttribute('title', 'How to Make an Ecobrick');
-    iframe.setAttribute('width', '600');
-    iframe.setAttribute('height', '400');
-    iframe.setAttribute('src', 'https://www.youtube.com/embed/RQoXtbJTvMs');
-    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
-    iframe.setAttribute('allowfullscreen', '');
-    iframe.style.border = 'none';
-    iframe.style.width = '100%';
-    iframe.style.height = '45vh';
-    
-    const placeholder = document.getElementById('video-placeholder');
-    placeholder.replaceWith(iframe);
-});
-
-</script>
  
 <STYLE>
 
