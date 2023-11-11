@@ -1,6 +1,5 @@
 
 <!-- PHP starts by laying out canonical URLs for the page and language -->
-<meta charset="UTF-8"> 
 <?php
 	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
 	$name = $parts [count($parts)-1];

@@ -1,10 +1,10 @@
 <?php require_once ("lang.php");
 echo <<<_END
 <html lang="$lang">
-<meta charset="UTF-8"> 
 _END;?>
+<HEAD>
+<meta charset="UTF-8"> 
 
-<HEAD>  
 
 <!--Image files to preload that are unique to this page-->
 
