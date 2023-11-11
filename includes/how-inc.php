@@ -1,16 +1,7 @@
-<!--Content Page template: v.1.0.0-->
-
 <?php require_once ("lang.php");
 echo <<<_END
-
-<!DOCTYPE html>
-
-<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
-
 <html lang="$lang">
 <meta charset="UTF-8"> 
-
-
 _END;?>
 
 <HEAD>  
