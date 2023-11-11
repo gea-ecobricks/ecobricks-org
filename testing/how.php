@@ -106,7 +106,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed2">
                     <br>
-                    <img src="../svgs/02-Choose-your-Bottle-1.svg" width="100%" alt="Choose the ideal bottle type" loading="lazy">
+                    <img src="../svgs/02-Choose-your-Bottle-1.svg" width="640" alt="Choose the ideal bottle type" loading="lazy" class="full-width-image">
                     <br>
                     <p>When it comes time to building, having perfectly identical ecobrick sizes is important for making solid and steady modules.  It also helps having at least the same general size of bottle when it comes to building with earth and ecobricks.  Talk with ecobrickers in your community and make the choice together of what bottle to use.</p>
                     <p>When selecting the bottle that you will use, consider three factors: the bottle’s availability, the volume, and the project you will use the ecobrick for.</p>
@@ -439,7 +439,9 @@ Content Page template: v.1.0.0-->
              <br>
              <div class="page-paragraph-reg">
 
-             <iframe loading="lazy" title="How to make an ecobrick" width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border:none;width:100%; height:45vh;"></iframe>
+			 
+
+             <iframe loading="lazy" title="How to make an ecobrick" width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border:none;width:100%;"></iframe>
                  
 
                 <div class="row">

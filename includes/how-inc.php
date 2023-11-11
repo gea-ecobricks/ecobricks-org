@@ -19,9 +19,43 @@ _END;?>
 
 <?php require_once ("meta/how-$lang.php");?>
 
+<script>
+	function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
 
+function loadIframe() {
+    const placeholder = document.getElementById('video-placeholder');
+    if (isInViewport(placeholder)) {
+        const iframe = document.createElement('iframe');
+        iframe.setAttribute('src', 'https://www.youtube.com/embed/RQoXtbJTvMs');
+        iframe.setAttribute('width', '600');
+        iframe.setAttribute('height', '400');
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('allowfullscreen', '');
+        placeholder.replaceWith(iframe);
+        window.removeEventListener('scroll', loadIframe);
+    }
+}
+
+window.addEventListener('load', () => {
+    window.addEventListener('scroll', loadIframe);
+});
+
+</script>
  
 <STYLE>
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+}
 
 .advanced-box-content {
     padding: 2px 15px 15px 15px;
