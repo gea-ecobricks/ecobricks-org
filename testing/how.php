@@ -481,6 +481,7 @@ Content Page template: v.1.0.0-->
 
 
 
+	<?php require_once ("side-modules/good-use.php");?>
 
 	<?php require_once ("side-modules/sequest-module.php");?>
 
