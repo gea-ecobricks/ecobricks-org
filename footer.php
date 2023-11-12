@@ -1,7 +1,7 @@
 
 	<!--SCRIPT TO DEFER ARVO FONT LOAD TIL END-->
 	
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 /* First CSS File */
 var giftofspeed = document.createElement('link');
 giftofspeed.rel = 'stylesheet';
@@ -10,7 +10,7 @@ giftofspeed.type = 'text/css';
 var godefer = document.getElementsByTagName('link')[0];
 godefer.parentNode.insertBefore(giftofspeed, godefer);
 
-</script>
+</script> -->
 	
 	<!--FOOTER STARTS HERE-->
 	
