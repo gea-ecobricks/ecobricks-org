@@ -43,7 +43,6 @@ Content Page template: v.1.0.0-->
 			<div class="page-paragraph">
                 <p>Be sure to start ecobricking right— this is a long-term life habit that you, your household and community are beginning.  Likewise, your ecobricks will set the example for everyone around you.  Sub-standard ecobricks will compromise the quality of furniture modules, constructions and the social spread of ecobricks while, well-done ecobricks can be put to good, safe use and will secure plastic for centuries.  We’ve put this 10 step guide together to help you on your journey of making great ecobricks.</p>	
             </div>	
-</div>
 
 
 
@@ -502,7 +501,7 @@ Content Page template: v.1.0.0-->
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("footers/footer-$lang.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->

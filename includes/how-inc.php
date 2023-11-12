@@ -13,9 +13,10 @@ _END;?>
     connect-src 'self';
     img-src 'self' https://www.youtube.com;
     style-src 'self' 'unsafe-inline';
-    font-src 'self' https://ecobricks.org;
+    font-src 'self' https://www.ecobricks.org/testing/fonts/Arvo-regular.ttf;
     object-src 'none';
 ">
+
 
 
 <!--Image files to preload that are unique to this page-->
