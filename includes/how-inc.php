@@ -82,7 +82,7 @@ _END;?>
 		margin-bottom: 0px;
 		z-index: 5;
        
-		background: url(https://ecobricks.org/webp/build-banner-1400px.webp) bottom;
+		background: url(webp/build-banner-1400px.webp) bottom;
         background-color: #FA8D04;
 		
     	background-repeat: no-repeat;
@@ -107,7 +107,7 @@ _END;?>
 		position: relative;
 		
         
-		background: url(https://ecobricks.org/webp/build-banner-1400px.webp) bottom;
+		background: url(webp/build-banner-1400px.webp) bottom;
         background-color: #FA8D04;
 		
     	background-repeat: no-repeat;

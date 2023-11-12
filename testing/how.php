@@ -18,7 +18,7 @@ Content Page template: v.1.0.0-->
 		<div class="splash-heading">How to Make an Ecobrick</div>
 	    <div class="splash-sub">10 Step Guide to Making an Ecobrick</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/webp/eb-sky-400px.webp" style="width: 85%" alt="sky background">
+	<div class="splash-image"><img src="webp/eb-sky-400px.webp" style="width: 85%" alt="sky background">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -59,7 +59,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed1">
 			<br>
-			<img src="pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="640" alt="Save and segreate your plastics" width="640" loading="lazy" class="full-width-image">
+			<img src="pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" alt="Save and segreate your plastics" width="640" loading="lazy" class="full-width-image">
 			<p> Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
 			<p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
 			<p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>

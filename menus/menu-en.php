@@ -4,7 +4,7 @@
 
  <div id="header">
     <!--<a href="index.html"><object type="image/svg+xml" data="logos/gea-prototype-logo-animated.svg" width="250" height="56"></object></a>-->
-    <a href="https://ecobricks.org/en/welcome.php"><img src="https://www.ecobricks.org/logos/gea-horizontal.svg" alt="Global Ecobrick Alliance Logo" width="308" height="50"></a>
+    <a href="https://ecobricks.org/en/welcome.php"><img src="logos/gea-horizontal.svg" alt="Global Ecobrick Alliance Logo" width="308" height="50"></a>
 </div>
 
 <!-- be great to add an if statement here to set $name to blank if its 'welcome' or 'index'-->
@@ -40,7 +40,7 @@
                         </div>
                     </a>
 
-                    <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener">
+                    <!-- <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener">
                         <div id="mattermost-menu">
                             <div class="icon-menu"><img src="icons/mattermost.svg" width="65" height="65" alt="Our Ecoobricker Social Server"></div>
                                 
@@ -50,9 +50,9 @@
                             </div>
                         </div>
                     
-                    </a>
+                    </a> -->
 
-                    <a href="https://gobrik.com/#offset" target="_blank" rel="noopener">
+                    <a href="https://gobrik.com/go.php#offset" target="_blank" rel="noopener">
                         <div id="offset-menu">
                             <div class="icon-menu"><img src="icons/offset.svg" width="65" height="65" loading="lazy" alt="Offset your plastic consumption"></div>
                             <div class="apptext-menu">
