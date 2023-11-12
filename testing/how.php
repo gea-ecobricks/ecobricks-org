@@ -300,7 +300,7 @@ Content Page template: v.1.0.0-->
 	<div class="reg-content-block" id="block7">
 		<div class="opener-header">
 			<div class="opener-header-text">
-				<h4>7. Weigh your Ecobrick to ensure quality</h2>
+				<h4>7. Weigh your Ecobrick to ensure quality</h4>
 				<h5>Now it's time to pack away!  Cut or rip up large plastics into smaller pieces.</h5>   
 			</div>
 			<button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
@@ -387,7 +387,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed9">
 			<br>
-			<img src="svgs/08-Cap-and-Label.svg" width="640" loading="lazy" class="full-width-image" alt="Log your eco brik on our gobrik app"></p>
+			<img src="svgs/08-Cap-and-Label.svg" width="640" loading="lazy" class="full-width-image" alt="Log your eco brik on our gobrik app">
 			<p>Inscribing the weight, data, serial, etc. onto the ecobrick will indicate that the ecobrick has been logged and registered.  Be sure to use a permanent means of recording your ecobrick.  Your ecobrick will endure for decades and centuries.  The more information we can leave future generations, the richer our gift. After much experimentation, we have found that eidl/oil paint and nail polish work best.</p>
 			<ul>
 				<li>Avoid using paper labels, tape, or stickers to record the data.  These methods will last for several years at best then fall off.</li>
@@ -410,7 +410,7 @@ Content Page template: v.1.0.0-->
 	        			<div class="row">
 						<div class="main2"><p>Many ecobrickers write a prayer or a vision on the bottle in a permanent marker.  Your ecobrick will last a long time.  Why not let your grandkids know that you were thinking of them?  For example: "I envision a world where plastic is used seldom and wisely and where we live in harmony with the cycles of nature"</p>
 						</div>
-	                       			<div class="side2">
+	                     <div class="side2">
 						</div>
 					</div>
 				</div>
@@ -422,7 +422,7 @@ Content Page template: v.1.0.0-->
 	<div class="reg-content-block" id="block10">
 		<div class="opener-header">
 			<div class="opener-header-text">
-				<h4>10. Store your ecobrick</h2>
+				<h4>10. Store your ecobrick</h4>
 				<h5>Once complete, you will need to store your ecobricks until you have enough for you project. </h5>   
 			</div>
 			<button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10">+</button>
