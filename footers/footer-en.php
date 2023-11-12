@@ -16,7 +16,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<!--FOOTER STARTS HERE-->
 	
 	<div id="footer-full">
-	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; position="absolute"; ></div>
+	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; ></div>
 	
 	
 	<div class="footer-vision">We envision a Transition in our Households, Communities and Enterprises from Plastic to ever Greener Harmony with Earth's Cycles.</div>
