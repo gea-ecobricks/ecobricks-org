@@ -12,7 +12,7 @@
 <div id="desktop-menu">
     <div class="topnav-lang" id="myTopnav-lang">
         <div class="dropdown-lang">
-            <button type="button" aria-label="Language Selector" class="dropbtn-lang">EN</button>
+            <button type="button" aria-label="Language button" title="language selector button" class="dropbtn-lang">EN</button>
             <div class="dropdown-content-language">
               
             <!-- This loads the universal laguage list-->
