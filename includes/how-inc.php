@@ -13,7 +13,7 @@ _END;?>
     connect-src 'self';
     img-src 'self' https://www.youtube.com;
     style-src 'self' 'unsafe-inline';
-    font-src 'self' https://www.ecobricks.org/testing/fonts/Arvo-regular.ttf;
+    font-src 'self' https://www.ecobricks.org/testing/fonts/Arvo-Regular.ttf;
     object-src 'none';
 ">
 

@@ -426,74 +426,72 @@ Content Page template: v.1.0.0-->
 				<h5>Once complete, you will need to store your ecobricks until you have enough for you project. </h5>   
 			</div>
 			<button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10">+</button>
-                </div>
+        </div>
 
 		<div id="preclosed10">
 			<br>
-			<p><img src="pngs/10-store-your-ecobrik-1000px.png" width="640" loading="lazy" class="full-width-image" alt="how to store your ecobricks"/></p>
+			<img src="pngs/10-store-your-ecobrik-1000px.png" width="640" loading="lazy" class="full-width-image" alt="how to store your ecobricks"/>
+
 			<p>Store ecobricks indoors, out of the sun.  If possible protect with a cloth or tarp from accumulating dust and dirt (PET attracts dust and chemicals and is hard to remove).  Stack horizontally, with the ends pointed outward. This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.  It's good to have the ecobricks raised slightly above the floor — rats have been known to chew away at bottles!  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements. Ecobricks are best stacked horizontally with their bottom pointed outwards.</p>
 			<br>
 			
 		</div>
 	</div>	
 			
-             <br>
-             <div class="page-paragraph-reg">
+	<br>
+	<div class="page-paragraph-reg">
 
-			 
-			 
-
-			 <div id="video-placeholder" style="width:600px; height:400px; background:url('webp/how-to-preview.webp') center center no-repeat; cursor:pointer; position: relative;">
-    <div id="play-button"></div>
-</div>
+		<div id="video-placeholder" style="width:600px; height:400px; background:url('webp/how-to-preview.webp') center center no-repeat; cursor:pointer; position: relative;">
+			<div id="play-button"></div>
+		</div>
 
 <!-- 
 
              <iframe loading="lazy" title="How to make an ecobrick" width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border:none;width:100%;"></iframe>
                   -->
 
-                <div class="row">
-                    <div class="main2">
-                         
-                    <h4>And Build!</h4>
+		<div class="row">
+			<div class="main2">
+					
+			<h4>And Build!</h4>
 
-                         <p>Once you have enough Ecobricks you’re ready to build. There are five main techniques for building with bottles and ecobricks.  The easiest, fastest, and perhaps the most fun Ecobrick application, is to make Milstein modules for horizontal building and Dieleman Lego modules for vertical building.</p>
+					<p>Once you have enough Ecobricks you’re ready to build. There are five main techniques for building with bottles and ecobricks.  The easiest, fastest, and perhaps the most fun Ecobrick application, is to make Milstein modules for horizontal building and Dieleman Lego modules for vertical building.</p>
 
-                           
-                    </div>
+					
+			</div>
 
-                    <div class="side2">
-                        <br><img src="webp/build-blue-450px.webp" width="150" loading="lazy" alt="eco brik building methods.">
-                    </div>
-                </div>
+			<div class="side2">
+				<br><img src="webp/build-blue-450px.webp" width="150" loading="lazy" alt="eco brik building methods.">
+			</div>
+		</div>
 
-                <p>With modules you can create benches, table, chairs, structures and more.  Perhaps the best use for Ecobricks is building community green spaces. Using local earth and ecobricks you and your community can build beautiful spaces that enrich the local environment.</p>
+		<p>With modules you can create benches, table, chairs, structures and more.  Perhaps the best use for Ecobricks is building community green spaces. Using local earth and ecobricks you and your community can build beautiful spaces that enrich the local environment.</p>
 
-                <div style="margin-top:35px">
-                    <a class="action-btn" href="build">🚀 Building Applications</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">An overview of ecobrick building methods</p>
-                </div>  
+		<div style="margin-top:35px">
+			<a class="action-btn" href="build">🚀 Building Applications</a>
+			<p style="font-size: 0.85em; margin-top:20px;">An overview of ecobrick building methods</p>
+		</div>  
 
-            </div>
+    </div>
 
-        </div>
+</div>
+			 </div>
 	
 
-		<div class="side">
-
-           
+<div class="side">
 
 
-            <?php require_once ("side-modules/good-use.php");?>
 
-            <?php require_once ("side-modules/sequest-module.php");?>
+	<?php require_once ("side-modules/good-use.php");?>
 
-            <?php require_once ("side-modules/spiral-design.php");?>
-                
-            <?php require_once ("side-modules/transition-module.php");?>
+	<?php require_once ("side-modules/sequest-module.php");?>
 
-            <?php require_once ("side-modules/earthen-ethics.php");?>
-		</div>
+	<?php require_once ("side-modules/spiral-design.php");?>
+		
+	<?php require_once ("side-modules/transition-module.php");?>
+
+	<?php require_once ("side-modules/earthen-ethics.php");?>
+</div>
 
 	</div>
 </div>

@@ -109,7 +109,7 @@
 
  @font-face {
   font-family: "Arvo";
-  src: url("fonts/Arvo-regular.ttf");
+  src: url("fonts/Arvo-Regular.ttf");
   font-display: swap;
  }
 
