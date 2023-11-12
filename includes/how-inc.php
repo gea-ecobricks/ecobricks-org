@@ -5,6 +5,17 @@ _END;?>
 <HEAD>
 <?php require_once ("header.php");?>
 
+<meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' https://www.youtube.com https://s.ytimg.com;
+    child-src https://www.youtube.com;
+    frame-src https://www.youtube.com;
+    connect-src 'self';
+    img-src 'self' https://www.youtube.com;
+    style-src 'self' 'unsafe-inline';
+    font-src 'self';
+    object-src 'none';
+">
 
 <!--Image files to preload that are unique to this page-->
 

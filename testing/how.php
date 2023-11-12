@@ -404,7 +404,7 @@ Content Page template: v.1.0.0-->
 			                               Extra
                		     		</div>
 					<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
-					</div>
+					</div> 
 				</div>
 				<div class="advanced-box-content">                    
 	        			<div class="row">
