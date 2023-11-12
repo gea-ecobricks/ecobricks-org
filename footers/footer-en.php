@@ -28,7 +28,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<div class="footer-icons-container">
 		<div class="footer-icons"><!--WIKIPEDIA-->
 			<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">
-			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page" loading="lazy"></a>
+			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="TEST Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page" loading="lazy"></a>
 			
 		</div>
 
