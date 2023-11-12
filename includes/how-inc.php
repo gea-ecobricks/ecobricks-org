@@ -8,14 +8,15 @@ _END;?>
 <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
     script-src 'self' 'unsafe-inline' https://www.youtube.com https://s.ytimg.com https://unpkg.com;
-    child-src https://www.youtube.com;
     frame-src https://www.youtube.com;
     connect-src 'self';
     img-src 'self' https://www.youtube.com;
     style-src 'self' 'unsafe-inline';
-    font-src 'self' https://www.ecobricks.org/testing/fonts/Arvo-Regular.ttf;
+    font-src 'self' https://www.ecobricks.org/testing/fonts/Arvo-regular.ttf;
     object-src 'none';
+    worker-src 'self';
 ">
+
 
 
 
@@ -35,10 +36,7 @@ _END;?>
  
 <STYLE>
 
-.full-width-image {
-    width: 100%;
-    height: auto;
-}
+
 
 #play-button {
     width: 60px;

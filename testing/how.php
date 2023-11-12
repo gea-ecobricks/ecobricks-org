@@ -264,7 +264,7 @@ Content Page template: v.1.0.0-->
 			</div>		    
 			<div id="preclosed6">
  	                	<br>
-				    <p><img src="svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics"/></p>
+				    <p><img src="svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics"></p>
 			    
 				    <p>The smaller the pieces, the denser you'll get!  Fill the bottle up half way with loose plastic, then use your stick to push down around the sides of the bottle.  Keep pushing down as you move around the circumference of the bottle.  Once compressed, add more loose plastics.  To maximize the density, it's good to mix soft, then hard plastic.   If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
 			    
@@ -430,7 +430,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed10">
 			<br>
-			<img src="pngs/10-store-your-ecobrik-1000px.png" width="640" loading="lazy" class="full-width-image" alt="how to store your ecobricks"/>
+			<img src="pngs/10-store-your-ecobrik-1000px.png" width="640" loading="lazy" class="full-width-image" alt="how to store your ecobricks">
 
 			<p>Store ecobricks indoors, out of the sun.  If possible protect with a cloth or tarp from accumulating dust and dirt (PET attracts dust and chemicals and is hard to remove).  Stack horizontally, with the ends pointed outward. This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.  It's good to have the ecobricks raised slightly above the floor — rats have been known to chew away at bottles!  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements. Ecobricks are best stacked horizontally with their bottom pointed outwards.</p>
 			<br>
@@ -474,14 +474,13 @@ Content Page template: v.1.0.0-->
 
     </div>
 
-
+</div>
 	
 
 <div class="side">
 
 
 
-	<?php require_once ("side-modules/good-use.php");?>
 
 	<?php require_once ("side-modules/sequest-module.php");?>
 
@@ -519,7 +518,6 @@ document.getElementById('play-button').addEventListener('click', function() {
     iframe.setAttribute('allowfullscreen', '');
     iframe.style.border = 'none';
     iframe.style.width = '100%';
-    iframe.style.height = '45vh';
     
     const placeholder = document.getElementById('video-placeholder');
     placeholder.replaceWith(iframe);
