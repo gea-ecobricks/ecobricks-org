@@ -264,7 +264,7 @@ Content Page template: v.1.0.0-->
 			</div>		    
 			<div id="preclosed6">
  	                	<br>
-				    <p><img src="svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics"></p>
+				    <p><img src="svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics"/></p>
 			    
 				    <p>The smaller the pieces, the denser you'll get!  Fill the bottle up half way with loose plastic, then use your stick to push down around the sides of the bottle.  Keep pushing down as you move around the circumference of the bottle.  Once compressed, add more loose plastics.  To maximize the density, it's good to mix soft, then hard plastic.   If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
 			    
@@ -300,7 +300,7 @@ Content Page template: v.1.0.0-->
 	<div class="reg-content-block" id="block7">
 		<div class="opener-header">
 			<div class="opener-header-text">
-				<h4>7. Weigh your Ecobrick to ensure quality</h4>
+				<h4>7. Weigh your Ecobrick to ensure quality</h2>
 				<h5>Now it's time to pack away!  Cut or rip up large plastics into smaller pieces.</h5>   
 			</div>
 			<button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
@@ -387,7 +387,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed9">
 			<br>
-			<img src="svgs/08-Cap-and-Label.svg" width="640" loading="lazy" class="full-width-image" alt="Log your eco brik on our gobrik app">
+			<img src="svgs/08-Cap-and-Label.svg" width="640" loading="lazy" class="full-width-image" alt="Log your eco brik on our gobrik app"></p>
 			<p>Inscribing the weight, data, serial, etc. onto the ecobrick will indicate that the ecobrick has been logged and registered.  Be sure to use a permanent means of recording your ecobrick.  Your ecobrick will endure for decades and centuries.  The more information we can leave future generations, the richer our gift. After much experimentation, we have found that eidl/oil paint and nail polish work best.</p>
 			<ul>
 				<li>Avoid using paper labels, tape, or stickers to record the data.  These methods will last for several years at best then fall off.</li>
@@ -404,7 +404,7 @@ Content Page template: v.1.0.0-->
 			                               Extra
                		     		</div>
 					<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
-					</div> 
+					</div>
 				</div>
 				<div class="advanced-box-content">                    
 	        			<div class="row">
@@ -422,7 +422,7 @@ Content Page template: v.1.0.0-->
 	<div class="reg-content-block" id="block10">
 		<div class="opener-header">
 			<div class="opener-header-text">
-				<h4>10. Store your ecobrick</h4>
+				<h4>10. Store your ecobrick</h2>
 				<h5>Once complete, you will need to store your ecobricks until you have enough for you project. </h5>   
 			</div>
 			<button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10">+</button>
@@ -430,7 +430,7 @@ Content Page template: v.1.0.0-->
 
 		<div id="preclosed10">
 			<br>
-			<p><img src="pngs/10-store-your-ecobrik-1000px.png" width="640" loading="lazy" class="full-width-image" alt="how to store your ecobricks"></p>
+			<p><img src="pngs/10-store-your-ecobrik-1000px.png" width="640" loading="lazy" class="full-width-image" alt="how to store your ecobricks"/></p>
 			<p>Store ecobricks indoors, out of the sun.  If possible protect with a cloth or tarp from accumulating dust and dirt (PET attracts dust and chemicals and is hard to remove).  Stack horizontally, with the ends pointed outward. This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.  It's good to have the ecobricks raised slightly above the floor — rats have been known to chew away at bottles!  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements. Ecobricks are best stacked horizontally with their bottom pointed outwards.</p>
 			<br>
 			
