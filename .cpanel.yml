@@ -9,7 +9,6 @@ deployment:
   - /bin/cp -R es $DEPLOYPATH
   - /bin/cp -R id $DEPLOYPATH
 
-
   - /bin/cp -R fonts $DEPLOYPATH
   - /bin/cp -R logos $DEPLOYPATH
   - /bin/cp -R icons $DEPLOYPATH
@@ -25,7 +24,6 @@ deployment:
   - /bin/cp -R misc $DEPLOYPATH
   - /bin/cp -R slides $DEPLOYPATH
   - /bin/cp -R side-modules $DEPLOYPATH
-  - /bin/cp -R testing $DEPLOYPATH
   
 
 
