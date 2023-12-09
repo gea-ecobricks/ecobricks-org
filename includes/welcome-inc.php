@@ -26,7 +26,7 @@ _END;?>
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/welcome.css?v1.3">-->
 
 <!-- This loads the page's meta tags:  *be sure to add the page's name!*-->
-<?php require_once ("meta/welcome-$lang.php");?>
+<?php require_once ("../meta/welcome-$lang.php");?>
 
 <!--This loads the page's header-->
 
@@ -814,7 +814,7 @@ position: absolute;
 z-index: 1;
 height: 80vh;
 background: #dadddd;
-background: url("/svgs/vision-bottom-bottom.svg");
+background: url("../svgs/vision-bottom-bottom.svg");
 background-position: center bottom;
 background-size: cover;
 background-repeat: no-repeat;
@@ -1506,7 +1506,7 @@ margin: auto;
 #content-sect2 {
 width: 100%;
 padding-bottom: 30px;
-background: url("/webp/blue-ode-1600.webp") center top;
+background: url("../webp/blue-ode-1600.webp") center top;
 background-repeat: no-repeat;
 text-align: center;
 }
