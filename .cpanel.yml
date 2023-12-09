@@ -24,7 +24,6 @@ deployment:
   - /bin/cp -R misc $DEPLOYPATH
   - /bin/cp -R slides $DEPLOYPATH
   - /bin/cp -R side-modules $DEPLOYPATH
-  
 
 
   - /bin/cp .htaccess $DEPLOYPATH
@@ -42,8 +41,6 @@ deployment:
   - /bin/cp ajax-revenues-trans.php $DEPLOYPATH
   - /bin/cp ajax-expenses-trans.php $DEPLOYPATH
   - /bin/cp languages.php $DEPLOYPATH
-
-
 
   - export DEPLOYPATH=/home/ecobricks/public_html/en/
 
