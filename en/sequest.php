@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="UTF-8">
+
 <!--PAGE LANGUAGE:  ENGLISH
 Content Page template: v.1.0.1-->
   

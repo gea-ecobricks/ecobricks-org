@@ -3,7 +3,7 @@
 <title>Plastic Sequestration | Ecobricks.org</title>
 
 <meta name="keywords" content="plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.">
-
+ 
 <meta name="description" content="The theory, criteria and standards of plastic sequestration.">
 	
 	<!-- Facebook Open Graph Tags for social sharing-->

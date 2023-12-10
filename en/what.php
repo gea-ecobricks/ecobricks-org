@@ -27,7 +27,7 @@
 
 <a id="top"></a>
 
-<div class="main-content">
+<div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">

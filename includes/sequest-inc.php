@@ -1,17 +1,6 @@
 <!--Content Page template: v.1.0.1-->
 
-<?php require_once ("lang.php");
-echo <<<_END
-
-<!DOCTYPE html>
-
-<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
-
-<html lang="$lang">
-
-_END;?>
-
-<HEAD> 
+<?php require_once ("lang.php");?>
 
 <!--Image files to preload that are unique to this page-->
 
@@ -24,9 +13,9 @@ _END;?>
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("meta/sequest-$lang.php");?>
+<?php require_once ("../meta/sequest-$lang.php");?>
 
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 
 <!-- This loads CSS specific to this page -->
@@ -203,4 +192,4 @@ _END;?>
         
 	<!-- This loads the page's language spearthen-400px.webpecific menu -->
 
-    <?php require_once ("menus/menu-$lang.php");?>
+    <?php require_once ("../menus/menu-$lang.php");?>
