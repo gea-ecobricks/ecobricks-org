@@ -2,7 +2,7 @@
 
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/arc-inc.php");?>
+<?php require_once ("../includes/arc-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -15,7 +15,7 @@
 		<div class="header-sub">Conectar Kbs de aceleración de datos<br>
 a Kgs de plástico removido<br>
 de la biosfera</div>
-		<img src="webp/arc-logos.webp">
+		<img src="../webp/arc-logos.webp">
 	</div>
 </div>
 <div id="grey-bar"></div>
@@ -110,7 +110,7 @@ de la biosfera</div>
 		<div class="side">
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/arc-green-popper.webp" width="70%">
+				<img src="../webp/arc-green-popper.webp" width="70%">
 				<h4>Arc</h4>
 				<h5>Arc has pioneered a decentralized content delivery network to provide an alternative to online advertisements.</h5><br>
 				<a href="https://arc.io/faq" target="_blank" class="module-btn">Arc FAQ</a>
@@ -133,7 +133,7 @@ de la biosfera</div>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="../webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="about.php">About Us</a>

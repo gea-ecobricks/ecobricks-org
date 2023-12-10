@@ -26,9 +26,9 @@ _END;?>
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("meta/top-tens-$lang.php");?>
+<?php require_once ("../meta/top-tens-$lang.php");?>
 
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 
 <STYLE>

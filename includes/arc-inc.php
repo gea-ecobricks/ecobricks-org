@@ -13,9 +13,9 @@ _END;?>
 <link rel="preload" as="image" href="https://ecobricks.org/webp/arc-logos.webp">
 <link rel="preload" as="image" href="https://ecobricks.org/webp/faq-bottom.webp">
 
-<?php require_once ("meta/arc-$lang.php");?>
+<?php require_once ("../meta/arc-$lang.php");?>
 
-	<?php require_once ("header.php");?>
+	<?php require_once ("../header.php");?>
 
 
 

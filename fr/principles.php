@@ -4,7 +4,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/principles-inc.php");?>
+<?php require_once ("../includes/principles-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
@@ -66,14 +66,14 @@ Content Page template: v.1.0.1-->
 						<p>La façon dont la Terre a cyclé et stocké le carbone a conduit à l'épanouissement de la biosphère tout en nous fournissant un exemple à suivre. En suivant les principes de notre planète, nous pouvons nous assurer que nos habitudes modernes sont également vertes. Et notre plastique (fabriqué à partir de carbone ancien compacté) est le point de départ idéal!</p>
 
 						</div>
-						<div class="side2"><img src="svgs/following-earths-example.svg" width="100%">
+						<div class="side2"><img src="../svgs/following-earths-example.svg" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Suivre l'exemple de la Terre est à la base de l'<a href="https://book.earthen.io" target="_blank">éthique de la Terre</a> : cinq principes verts basés sur le caractère cosmologique de notre planète.</p>
 						</div>
-						<div class="side3"><img src="svgs/following-earths-example.svg" width="150px">
+						<div class="side3"><img src="../svgs/following-earths-example.svg" width="150px">
 						</div>
 					</div>
 				
@@ -127,14 +127,14 @@ Content Page template: v.1.0.1-->
 						<p>Ghandi nous a tous mis au défi d'<i>"être le changement que vous voulez voir dans le monde"</i>. Simple et puissant, c'est un principe fondamental du mouvement ecobrick and Earthen. Comme la consommation de plastique est quelque chose qui nous relie à travers les continents et les cultures, ce que nous faisons avec notre plastique, nos propres histoires de transition, fournissent un phare brillant à suivre pour les autres.</p>
 						 
 						</div>
-						<div class="side2"><img src="pngs/community.png" width="100%">
+						<div class="side2"><img src="../pngs/community.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>En donnant l'exemple en suivant l'exemple de la Terre, nous pouvons être une source d'inspiration puissante.</p>
 						</div>
-						<div class="side3"><img src="pngs/community.png" width="150px">
+						<div class="side3"><img src="../pngs/community.png" width="150px">
 						</div>
 					</div>
 					
@@ -177,14 +177,14 @@ Content Page template: v.1.0.1-->
 						<p>Chaque jour, des milliers de tonnes de plastique se déversent dans la biosphère. Pendant ce temps, la consommation de plastique et sa production ne cessent d'augmenter. Pour être une solution profonde au plastique, une solution régénérative doit se propager à un rythme plus rapide que les taux d'expansion industrielle. Afin de maximiser la diffusion, l'adoption et la transition plastique collective, nous nous efforçons de maximiser l'accessibilité de nos méthodes tout en minimisant les obstacles à l'adoption. De cette façon, nous donnons aux autres les moyens de fabriquer et de construire avec des écobriques afin qu'ils puissent montrer leur propre exemple.</p>
 
 						</div>
-						<div class="side2"><img src="webp/eb-sky-400px.webp" width="100%">
+						<div class="side2"><img src="../webp/eb-sky-400px.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Notre principe de réplicabilité locale englobe plusieurs de nos autres principes.</p>
 						</div>
-						<div class="side3"><img src="webp/eb-sky-400px.webp" width="150px">
+						<div class="side3"><img src="../webp/eb-sky-400px.webp" width="150px">
 						</div>
 					</div>
 
@@ -236,14 +236,14 @@ Content Page template: v.1.0.1-->
 						 
 
 						</div>
-						<div class="side2"><img src="webp/mandalic-23-900px.webp" width="100%">
+						<div class="side2"><img src="../webp/mandalic-23-900px.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Le plus souvent, il s'agit d'une intention qui profite à toute la communauté, comme la construction d'un pont ou d'un puits.</p>
 						</div>
-						<div class="side3"><img src="webp/mandalic-23-900px.webp" width="150px">
+						<div class="side3"><img src="../webp/mandalic-23-900px.webp" width="150px">
 						</div>
 					</div>
 
@@ -288,14 +288,14 @@ Content Page template: v.1.0.1-->
 					<p>Par exemple, le travail de fabrication d'une écobrique, la fabrication d'un module ou d'un bâtiment en terre sont conçus pour être également accessibles à presque tout le monde - et de telle manière que personne n'ait d'avantage en raison de ses compétences, de sa force ou de son expérience. De cette façon, les hommes et les femmes, les garçons et les filles peuvent être impliqués de manière égale dans le processus de cocréation sans que les castes traditionnelles ne provoquent d'aliénation.</p>
 
 						</div>
-						<div class="side2"><img src="photos/transcaste.jpg" width="100%">
+						<div class="side2"><img src="../photos/transcaste.jpg" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Cela nous permet de nous élever au-dessus des anciens clivages entre les genres et les générations pour dynamiser nos collaborations avec de nombreuses variantes de la créativité humaine tout en abaissant davantage les barrières de la réplication.</p>
 						</div>
-						<div class="side3"><img src="photos/transcaste.jpg" width="150px">
+						<div class="side3"><img src="../photos/transcaste.jpg" width="150px">
 						</div>
 					</div>
 
@@ -325,7 +325,7 @@ Content Page template: v.1.0.1-->
 		</div>
 
          <div class="side2">
-			<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
+			<br><a href=""><img src="../webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
 			<p style="font-size: 0.85em; margin-top:20px;">Comment l'écobrique se compare-t-elle sur mille ans aux autres options de gestion du plastique ?</a></p>
 		</div>
 	</div>
@@ -343,7 +343,7 @@ Content Page template: v.1.0.1-->
 
 		
 			<div class="side-module-desktop-mobile">
-				<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
+				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
 				<h4>Vitaliser la biodiversité</h4>
 <h5>Tout comme la Terre a vitalisé des processus qui se diversifient, nous le pouvons aussi.</h5><br>
 				<!--<a class="module-btn" href="about">Learn More</a>
@@ -352,7 +352,7 @@ Content Page template: v.1.0.1-->
 			</div>
             
 			<div class="side-module-desktop-mobile">
-					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
+					<img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
 					<h4>Pour-Terre</h4>
 <h5>Tout comme la Terre a distribué de l'énergie à tous, nous le pouvons aussi avec nos entreprises qui gèrent le plastique usagé.</h5><br>
 <a class="module-btn" href="about">Notre exemple</a>
@@ -361,7 +361,7 @@ Content Page template: v.1.0.1-->
 				</div>
 
 			<div class="side-module-desktop-mobile">
-				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
+				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
 				<br><h4>Vers la concentration</h4>
 <h5>Tout comme la Terre a concentré et sécurisé le carbone pour verdir la biosphère, nous pouvons également faire de même avec notre plastique grâce à l'écobrique.</h5><br>
 <a class="module-btn" href="/plastic">L'exemple de la Terre</a>
@@ -373,7 +373,7 @@ Content Page template: v.1.0.1-->
 			<!--<?php include 'side-modules/cyclical-design.php';?> -->
 
 			<div class="side-module-desktop-mobile">
-				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
+				<img src="../icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
 				<br><h4>Conception cyclique</h4>
 <h5>Les écobriques et toutes leurs applications sont conçues pour des cycles de réutilisation indéfinis.</h5><br>
 <a class="module-btn" href="cyclical-design.php">En savoir plus</a>
@@ -396,7 +396,7 @@ Content Page template: v.1.0.1-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

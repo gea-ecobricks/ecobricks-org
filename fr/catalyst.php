@@ -3,7 +3,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/catalyst-inc.php");?>
+<?php require_once ("../includes/catalyst-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -70,7 +70,7 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 							<p>Today its clear that the vast majority of the plastic we use eventually makes its way to the biosphere.  When your enterprise consumes or produces plastic, we call this a "grey plastic impact".  Tracking your company's production and consumption of plastic is the first step in reducing one's grey impact on the environment.</p>
 						</div>
-						<div class="side2"><img src="webp/balancing-green.webp" width="60%" alt="net green impact" loading="lazy">
+						<div class="side2"><img src="../webp/balancing-green.webp" width="60%" alt="net green impact" loading="lazy">
 						</div>
 					</div>
 
@@ -79,7 +79,7 @@ Content Page template: v.1.0.1-->
 						<br><p><b>Get started in 15 minutes</b></p>
 					
 						</div>
-						<div class="side3"><img src="webp/balancing-green.webp" width="125px" loading="lazy">
+						<div class="side3"><img src="../webp/balancing-green.webp" width="125px" loading="lazy">
 						</div>
 					</div>
 					<p>The Catalyst program gets you going in no time using a process of estimation refinement. As an owner, manager of president of your enterprise you can estimate better than anyone else how much plastic you are currently using.</p>
@@ -107,7 +107,7 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 						<p>You're passionate about the planet and so is your enterprise.  So let the world know through open accounting and transparency!  Plastic transition disclosure allows you to showcase your efforts, lead by example and inspire others.</p>
 						</div>
-						<div class="side2"><img src="webp/floating-dial-500px.webp" width="175px" alt="ecological accounting score" loading="lazy">
+						<div class="side2"><img src="../webp/floating-dial-500px.webp" width="175px" alt="ecological accounting score" loading="lazy">
 						</div>
 					</div>
 
@@ -129,7 +129,7 @@ Content Page template: v.1.0.1-->
 						<br><p><b>Public Disclosure</b></p>
 						
 						</div>
-						<div class="side3"><img src="pngs/disclosedial.png" width="150px" alt="ecological accounting score" loading="lazy">
+						<div class="side3"><img src="../pngs/disclosedial.png" width="150px" alt="ecological accounting score" loading="lazy">
 						</div>
 					</div>
 					
@@ -158,7 +158,7 @@ Content Page template: v.1.0.1-->
 						<div class="main2">
 						<p>But best of all, the Catalyst program allows you to take decisive and quantifiable action to green your enterprise's impact.  You can use our system to log your ecobricks, buy AES plastic offsets and mobilize communities.  The green impact of all these goes to the green credit of your enterprise.  This credit shows up in your year end ecological accounting to balance off your grey impacts.</p>
 						</div>
-						<div class="side2"><img src="svgs/aes-no-shadow.svg" width="80%" alt="Authenticated Ecobrick Sequestered Plastic">
+						<div class="side2"><img src="../svgs/aes-no-shadow.svg" width="80%" alt="Authenticated Ecobrick Sequestered Plastic">
 						</div>
 					</div>
 
@@ -166,7 +166,7 @@ Content Page template: v.1.0.1-->
 						<div class="main3">
 						<p>There are three types of green impacts that can be certified as AES credit.</p>
 						</div>
-						<div class="side3"><img src="svgs/aes-no-shadow.svg" width="120px" alt="Authenticated Ecobrick Sequestered Plastic">
+						<div class="side3"><img src="../svgs/aes-no-shadow.svg" width="120px" alt="Authenticated Ecobrick Sequestered Plastic">
 						</div>
 					</div>
 			
@@ -247,21 +247,21 @@ Content Page template: v.1.0.1-->
 
 	
 			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
+				<img src="../webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about.php">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="../webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="2021-regen-report.php">Learn More</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/balancing-green.webp" width="80%">
+				<img src="../webp/balancing-green.webp" width="80%">
 				<h4>Plastic Offsetting</h4>
 				<h5>Our Catalyst Program allows you to offset your plastic generation and support the global ecobrick movement.</h5><br>
 				<a class="module-btn" href="/aes">Learn More</a>
@@ -282,7 +282,7 @@ Content Page template: v.1.0.1-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

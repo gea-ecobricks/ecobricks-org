@@ -4,7 +4,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/spiral-inc.php");?>
+<?php require_once ("../includes/spiral-inc.php");?>
 
 
 <!--SPLASH SECTION-->
@@ -14,7 +14,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Spiral Design</div>
 		<div class="splash-sub">Ecobricking and all ecobrick applications are guided by the Earthen principle of enriching cycles.</div>
 	</div>
-	<div class="splash-image"><img src="icons/spiral-design-white3.svg" style="width: 100%;"></div>
+	<div class="splash-image"><img src="../icons/spiral-design-white3.svg" style="width: 100%;"></div>
 </div>
 <div id="splash-bar"></div>
 
@@ -116,16 +116,16 @@ Content Page template: v.1.0.1-->
 						
 						
 						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere– while providing us an example to follow to ensure their own processes are green!  With our plastic– which happens to come from Earth's ancient carbon stores– we can emulate Earth’s example of ensuring that our processes and outputs are not only sprial, but that lead to ever enriching cycles.</p>
-<!--<img src="svgs/following-earths-example.svg" width="100%"><br>-->
+<!--<img src="../svgs/following-earths-example.svg" width="100%"><br>-->
 						</div>
-						<div class="side2"><img src="svgs/eco-enrichment.svg" width="100%">
+						<div class="side2"><img src="../svgs/eco-enrichment.svg" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Following Earth's example of carbon care is the basis of <a href="https://book.earthen.io"  target="_blank">Earthen ethics</a>– five principles of green based on our planet's cosmological character.  </p>
 						</div>
-						<div class="side3"><img src="svgs/eco-enrichment.svg" width="150px">
+						<div class="side3"><img src="../svgs/eco-enrichment.svg" width="150px">
 						</div>
 					</div>
 				
@@ -169,14 +169,14 @@ Content Page template: v.1.0.1-->
 						<p>Some people wonder why, when we start an ecobrick we put a colored plastic on the bottom.  Spiral design is why: we’re thinking of the ecobricks's next phase when we’ll build with it. This is also why we use cob or silicone when we attach ecobricks to make modules and not glue or cement.  The first materials form a non-permanent bond, while the second are permanent.  This way, when our creation comes to its end, we can take it apart and use the ecobricks again.</p>
 						 
 						</div>
-						<div class="side2"><img src="webp/build-blue-450px.webp" width="100%">
+						<div class="side2"><img src="../webp/build-blue-450px.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>By leading by example in following Earth's example, our management of plastic can be a powerful inspiration for all our other materials and technologies.</p>
 						</div>
-						<div class="side3"><img src="pngs/community.png" width="150px">
+						<div class="side3"><img src="../pngs/community.png" width="150px">
 						</div>
 					</div>
 					
@@ -212,14 +212,14 @@ Content Page template: v.1.0.1-->
 						<p>Every day thousands of tons of plastic flow into the biosphere. Meanwhile, the consumption of plastic and its production increase.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion and economic growth rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
 
 						</div>
-						<div class="side2"><img src="webp/eb-sky-400px.webp" width="100%">
+						<div class="side2"><img src="../webp/eb-sky-400px.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Our principle of local replicability encompasses several of our other principles.</p>
 						</div>
-						<div class="side3"><img src="webp/eb-sky-400px.webp" width="150px">
+						<div class="side3"><img src="../webp/eb-sky-400px.webp" width="150px">
 						</div>
 					</div>
 
@@ -274,14 +274,14 @@ Content Page template: v.1.0.1-->
 						 
 
 						</div>
-						<div class="side2"><img src="webp/spiral-circular-400px.webp" width="100%">
+						<div class="side2"><img src="../webp/spiral-circular-400px.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Earthen constructions also enable full dissembly.  However, because ecobricks will be dirty upon extrication, they lend themselves to further earth constructions: such as another garden planter or bench.</p>
 						</div>
-						<div class="side3"><img src="webp/spiral-circular-400px.webp" width="150px">
+						<div class="side3"><img src="../webp/spiral-circular-400px.webp" width="150px">
 						</div>
 					</div>
 
@@ -315,14 +315,14 @@ Content Page template: v.1.0.1-->
 						<p>A practical extension of spiral design is the GEA’s work developing the <a href="../ecobrickable">Ecobrickable Designator Kit</a>.  As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.  </p>
 
 						</div>
-						<div class="side2"><img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="100%">
+						<div class="side2"><img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Ecobrickability allow designers to take their first step to sprial design.  With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable.  This design direction, allows the transition of a company to full regenerative principles (see our <a href="catalyst.php">Catalyst company program</a>).</p>
 						</div>
-						<div class="side3"><img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="150px">
+						<div class="side3"><img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="150px">
 						</div>
 					</div>
 
@@ -357,20 +357,20 @@ Content Page template: v.1.0.1-->
 
 		
 			<div class="side-module-desktop-mobile">
-				<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
+				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
 				<h4>Vitalizing Biodiversity</h4>
 				<h5>Just as Earth has vitalized processes that diversify, so too can we.</h5><br>
 				
 			</div>
             
 			<div class="side-module-desktop-mobile">
-					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
+					<img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
 					<h4>For-Earth</h4>
 					<h5>Just as Earth dispersed energy out to all, so too can we with our process that manage used plastic.</h5><br>
 				</div>
 
 			<div class="side-module-desktop-mobile">
-				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
+				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
 				<br><h4>Towards Concentration</h4>
 				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
 				<a class="module-btn" href="/plastic">Earth's Example</a>
@@ -393,7 +393,7 @@ Content Page template: v.1.0.1-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

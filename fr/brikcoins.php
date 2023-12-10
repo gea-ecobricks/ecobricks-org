@@ -3,7 +3,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/brikcoins-inc.php");?>
+<?php require_once ("../includes/brikcoins-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -15,7 +15,7 @@ Content Page template: v.1.0.1-->
 	<div id="splash-box">
 		<div class="splash-heading">Brikcoins</div>
 		<div class="splash-sub">Une blockchain manuelle de preuve de valeur basée sur la séquestration du plastique hors de la biosphère.</div>
-		<img src="webp/brikcoins-450px.webp">
+		<img src="../webp/brikcoins-450px.webp">
 	</div>
 	
 </div>
@@ -70,14 +70,14 @@ Content Page template: v.1.0.1-->
                 		<p>Two billion years ago, the Earth's atmosphere was full of carbon dioxide.  The planet's climate was unstable and its surface barren.  However, steadily the atmosphere's CO2 was cycled into carbon-based life.  Over time, as plants and animals lived and died, they were buried one by the other.  As more and more <a href="/plastic">carbon ended up in the ground</a>, there was less and less CO2 in the atmosphere.  Steadily the climate stabilized and the Earth's biosphere blossomed.</p>
 
 						</div>
-						<div class="side2"><img src="webp/earthen-400px.webp" width="80%">
+						<div class="side2"><img src="../webp/earthen-400px.webp" width="80%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Today, our petroleum based plastic comes directly from these ancient underground carbon stores.  As a form of carbon, what we do with our plastic can be of ecological benefit— <i>or not</i>.</p>
 						</div>
-						<div class="side3"><img src="pngs/albatross-blue-sky.gif" width="150px">
+						<div class="side3"><img src="../pngs/albatross-blue-sky.gif" width="150px">
 						</div>
 					</div>
 						
@@ -134,7 +134,7 @@ Content Page template: v.1.0.1-->
 							<p>The final criteria of plastic sequestration, is that of <a href="sequest.php/#auth">independant authentication</a> that all the other criteria have been met.  In order to authenticate ecobricks that have been made around the world as sequestered plastic, the GEA maintains the <a href="/gobrik">GoBrik platform</a>.  There every ecobrick logged on the system is peer reviewed by the ecobricker community to ascertain whether it meets <a href="what.php">GEA standards</a>.</p>
 
 						</div>
-						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="85%">
+						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" width="85%">
 						</div>
 					</div>
 					<div class="row">
@@ -143,7 +143,7 @@ Content Page template: v.1.0.1-->
 						<p>Only when the peer review of an ecobrick is successful, is the plastic within it deemed have been sequestered.  This simultaneously fulfils the final criteria of plastic sequestration (authentication), thereby finalizing the ecobrick's ecological value.  Brikcoins that represent this value are then generated in a block on the <a href="brikchain.php">brikchain</a>.</p>
 									
 						</div>
-						<div class="side2"><img src="webp/2-brikcoins-450px.webp" width="90%">
+						<div class="side2"><img src="../webp/2-brikcoins-450px.webp" width="90%">
 						</div>
 					</div>		
 					
@@ -156,7 +156,7 @@ Content Page template: v.1.0.1-->
 						<p>In this way, Brikcoins avoid another pitfall of current blochain currencies.  Rather than favor those who currency to invtest, as a non-capital, manual and community powered process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 						</div>
 
-						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="150px"></div>
+						<div class="side3"><img src="../pngs/authenticated-ecobrick.png" width="150px"></div>
 					</div>-->
 				</div>
 			</div>
@@ -179,7 +179,7 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed3">
 
 					<br>
-					<img src="pngs/manual-blockchain.png" width="90%" loading="lazy" alt="manual proof of value block chain">
+					<img src="../pngs/manual-blockchain.png" width="90%" loading="lazy" alt="manual proof of value block chain">
 
 					
 
@@ -232,7 +232,7 @@ Content Page template: v.1.0.1-->
 						</div>
 						
 						<div class="side2">
-							<img src="webp/gea-logo-400px.webp" width="80%">
+							<img src="../webp/gea-logo-400px.webp" width="80%">
 						</div>
 					</div>
 					
@@ -240,7 +240,7 @@ Content Page template: v.1.0.1-->
 						<div class="main3">
 							<p>Through a combination of enterprise structure and server infrastructure, we aim to minimize our grey ecological impacts and maximize of our collective green impact.</p>
 						</div>
-						<div class="side3"><img src="webp/gea-logo-400px.webp" width="130px">
+						<div class="side3"><img src="../webp/gea-logo-400px.webp" width="130px">
 						</div>
 					</div>
 								
@@ -274,7 +274,7 @@ Content Page template: v.1.0.1-->
 						<p>The white paper lays out the framework for basing a currency on the ecological value of plastic sequestration.</p>
 
 						</div>
-						<div class="side2"><img src="pngs/White-Paper-Icon2-400px.png" width="100%">
+						<div class="side2"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
@@ -282,7 +282,7 @@ Content Page template: v.1.0.1-->
 						<p>📥 Download: <a href="https://nextcloud.ecobricks.org/index.php/s/fNNYjG7A3gxco9n" target="_blank">The Commodification of Sequestered Plastic</a><br><h5>📄 GEA White Paper | PDF | 2.1 MB</a></p>
 						
 						</div>
-						<div class="side3"><img src="pngs/White-Paper-Icon2-400px.png" width="150px">
+						<div class="side3"><img src="../pngs/White-Paper-Icon2-400px.png" width="150px">
 						</div>
 					</div>
 				 
@@ -311,7 +311,7 @@ Content Page template: v.1.0.1-->
                     </div>
 
                     <div class="side2">
-                        <br><img src="webp/brk-cascade.webp" width="90%" alt="brikcoins in action" loading="lazy">
+                        <br><img src="../webp/brk-cascade.webp" width="90%" alt="brikcoins in action" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -323,7 +323,7 @@ Content Page template: v.1.0.1-->
 		<div class="side">
 
 		<div id="side-module-desktop-mobile">
-				<img src="webp/earthen-story-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
+				<img src="../webp/earthen-story-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Following the Earth's Example</h4>
 				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
 				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
@@ -332,21 +332,21 @@ Content Page template: v.1.0.1-->
          
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
+				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Brikcoins aspire to accelerate petro-capital transition. Rather than see plastic as ‘waste’ we see it's sequestration as the value to base Brikcoins'.</h5><br>
 				<a class="module-btn" href="transition.php">Learn More</a>
 			</div>
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/earthen-500px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
+				<img src="../webp/earthen-500px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Earthen Ethics</h4>
 				<h5>Brikcoins are based on the value generated by following the Earth's example of ecological enrichment.</h5><br>
 				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">Learn More</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
+					<img src="../webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
 					<h4>Global Ecobrick Alliance</h4>
 					<h5>The GEA is dedicated to accelerating plastic transition.  	We preside over the GoBrik platform and the Brikcoin blockchain.</h5><br>
 					
@@ -369,7 +369,7 @@ Content Page template: v.1.0.1-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

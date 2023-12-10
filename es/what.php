@@ -2,7 +2,7 @@
 
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/what-inc.php");?>
+<?php require_once ("../includes/what-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
@@ -61,14 +61,14 @@
 
 							<p>La GEA mantiene estándares para la construcción de ladrillos ecológicos que se dividen en seis categorías según los seis <a href="sequest.php">criterios de la GEA para el secuestro de plástico</a>. Los estándares de ecoladrillos de GEA garantizan que se han cumplido los criterios de secuestro de plástico y que nuestro ecobriking está en línea con los principios de la ética de la Tierra y el <a href="/plastic">ejemplo de la Tierra de ecologizar la biosfera</a>.</p>
 						</div>
-						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="100%">
+						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Un ecoladrillo debe cumplir los siguientes criterios:</p>
 						</div>
-						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="125px">
+						<div class="side3"><img src="../pngs/authenticated-ecobrick.png" width="125px">
 						</div>
 					</div>
 
@@ -107,7 +107,7 @@
 						<div class="main2">
 						<p>Los ecoladrillos normales se fabrican con cualquier tamaño de botella de plástico PET transparente. La botella y el plástico empaquetado están limpios y secos para evitar el crecimiento de bacterias. Por lo general, los ecobrickers usan un palo de madera o bambú para empacar manualmente el plástico en la botella de plástico. El plástico se corta o rasga en pedazos pequeños y luego se empaqueta poco a poco, alternando entre agregar el plástico y compactarlo, capa por capa. La botella se gira con cada presión para garantizar que el plástico se compacte uniformemente en toda la botella. Esto ayuda a evitar vacíos y a que el empaque alcance la solidez requerida para aplicaciones de bloques de construcción.</p>
 						</div>
-						<div class="side2"><img src="webp/brik-cascade.webp" width="150px">
+						<div class="side2"><img src="../webp/brik-cascade.webp" width="150px">
 						</div>
 					</div>
 
@@ -160,7 +160,7 @@
 						<div class="main2">
 						<p>Cigbricks son una clase de ecoladrillo para asegurar el plástico/acetato potencialmente tóxico de los filtros de cigarrillos, uno de los contaminantes plásticos más frecuentes y dañinos. Los Cigbricks se fabrican exclusivamente con los filtros de acetato empaquetados de las colillas de cigarrillos una vez que se ha eliminado completamente el papel y la ceniza.</p>
 					</div>
-						<div class="side2"><img src="svgs/Cigbrick.svg" width="100%">
+						<div class="side2"><img src="../svgs/Cigbrick.svg" width="100%">
 						</div>
 					</div>
 
@@ -168,7 +168,7 @@
 						<div class="main3">
 						<p>Para ser un Cigbrick se deben cumplir los siguientes estándares:</p>
 						</div>
-						<div class="side3"><img src="svgs/Cigbrick.svg" width="120px">
+						<div class="side3"><img src="../svgs/Cigbrick.svg" width="120px">
 						</div>
 					</div>
 			
@@ -213,7 +213,7 @@
 						<p>Ocean Ecobricks son una clase de ecobricks diseñados para plásticos que se encuentran en playas, ríos y en el océano. Estos plásticos tienden a ser grandes, gruesos, sucios y húmedos y no son adecuados para hacer un ecoladrillo normal. La técnica Ocean Ecobrick permite que estos plásticos se transformen fácilmente en un bloque de construcción práctico, útil y reutilizable.</p>
 						</div>
 						<div class="side2">
-						<img src="webp/oeb-400px.webp" width="100%">
+						<img src="../webp/oeb-400px.webp" width="100%">
 						</div>
 					</div>
 
@@ -221,7 +221,7 @@
 						<div class="main3">
 						<p>Para ser un Ocean Ecobrick se deben cumplir los siguientes estándares:</p>
 						</div>
-						<div class="side3"><img src="webp/oeb-400px.webp" width="150px">
+						<div class="side3"><img src="../webp/oeb-400px.webp" width="150px">
 						</div>
 					</div>
 
@@ -276,21 +276,21 @@
 		<div class="side">
 
 			<div id="side-module-desktop-mobile">
-			<img src="webp/earthen-400px.webp" width="90%">
+			<img src="../webp/earthen-400px.webp" width="90%">
 			<h4>Secuestro de plástico</h4>
 			<h5>Ecobricking sigue el ejemplo de la Tierra de cuidado del carbono para secuestrar plásticos fuera de la biosfera.</h5><br>
 				<a href="sequest.php" target="_blank" class="module-btn">Learn More</a>
 			</div>
 				
 			<div id="side-module-desktop-only">
-			<img src="webp/earth-home.webp" width="85%">
+			<img src="../webp/earth-home.webp" width="85%">
 			<h4>Regenerante</h4>
 			<h5>Ecobricking se basa en seguir el ejemplo de la Tierra y se guía por siete principios ecológicos.</h5><br>
 			<a class="module-btn" href="/principios">Principios</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="90%">
+				<img src="../webp/spiral-circular-400px.webp" width="90%">
 				<h4>Diseño circular</h4>
 				<h5>Los ecoladrillos y sus aplicaciones de construcción son circulares por diseño.</h5><br>
 				<a class="module-btn" href="/circular">Más información</a>
@@ -298,14 +298,14 @@
 
 	
 			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
+				<img src="../webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>La GEA se dedica a acelerar la transición plástica. Presidemos la aplicación GoBrik y la cadena de bloques Brikcoin.</h5><br>
 				<a class="module-btn" href="about.php">Sobre nosotros</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="../webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>Al revelar nuestros impactos sobre el carbono, el plástico y la biodiversidad y al garantizar que sean ecológicos, la GEA se compromete con For-Earth Enterprise</h5><br>
 <a class="module-btn" href="2021-regenreport.php">Más información</a>
@@ -328,7 +328,7 @@
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

@@ -3,7 +3,7 @@
 
     <div id="slider2">
 
-    <div id="slider-image"><img src="svgs/building-methods.svg" style="width: 85%;" alt="Métodos de construcción de ecoladrillos regenerativos">
+    <div id="slider-image"><img src="../svgs/building-methods.svg" style="width: 85%;" alt="Métodos de construcción de ecoladrillos regenerativos">
         </div>
 		
         <div id="slider-textbox">

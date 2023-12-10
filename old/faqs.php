@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/faqs-inc.php");?>
+<?php require_once ("../includes/faqs-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -230,7 +230,7 @@ Content Page template: v.1.0.0-->
                         <p>Plastic.  That convenient, colorful and ever so troublesome material that we all use every day is very easy to take for granted.  Fact is, it's crazily unique and valuable-- you literally can't find anything like it in elsewhere in our solar system.  Plastic is a petroleum by-product.  That means it is made from the carbon of ancient organisms-- algae, forest, dinausaurs that lived and died hundreds of millions of years ago.  As their bodies were buried, the Earth compacted and secured their carbon underground.  It was a process that removed more and more carbon from the atmosphere and greened the biosphere.  Today, we dig up these deposits as 'fossil fuels'.  But, this ancient carbon was never meant to be fuel!  Refining fossil fuels leads to lots of leftover chemicals-- which are perfect for making plastic and dangerous when let loose into the environment.  </p>
                        
                     </div>
-                    <div class="faq-image"><img src="webp/compacted-carbon.webp" alt="compacted plastic eco brick sequestration">
+                    <div class="faq-image"><img src="../webp/compacted-carbon.webp" alt="compacted plastic eco brick sequestration">
 				</div>
 					
              </div>
@@ -248,7 +248,7 @@ Content Page template: v.1.0.0-->
 							   <div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
-						   <div class="faq-image"><img src="webp/plastic-origins.webp"></div>
+						   <div class="faq-image"><img src="../webp/plastic-origins.webp"></div>
 					</div>
 					
 				</div>
@@ -263,7 +263,7 @@ Content Page template: v.1.0.0-->
 							   <div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
-						   <div class="faq-image"><img src="webp/petro-capital-age.webp"></div>
+						   <div class="faq-image"><img src="../webp/petro-capital-age.webp"></div>
 					</div>
 					
 				</div>
@@ -277,7 +277,7 @@ Content Page template: v.1.0.0-->
 									<div class="faq-link"><h5>Learn more: <a href="/poison">The Dangers of Plastic</h5></a></div>
 									<div id="top-link">Back to <a href="#general">General Questions</a></div>
 							   </div>
-							   <div class="faq-image"><img src="pngs/fire.png"></div>
+							   <div class="faq-image"><img src="../pngs/fire.png"></div>
 						</div>
 						
 					</div>
@@ -295,7 +295,7 @@ Content Page template: v.1.0.0-->
                     <div class="faq-link"><h5>Learn more: <a href="what.php">Ecobrick Basics</h5></a></div>   
 					<div id="top-link">Back to <a href="#general">General Questions</a></div>                 
                 </div>
-                <div class="faq-image"><img src="webp/faqs-400px.webp" alt="What is an eco brick?"></div>
+                <div class="faq-image"><img src="../webp/faqs-400px.webp" alt="What is an eco brick?"></div>
             </div>
 			
         </div>
@@ -313,7 +313,7 @@ Content Page template: v.1.0.0-->
 						<div id="top-link">Back to <a href="#general">General Questions</a></div>                   
 				</div>
 			
-				<div class="faq-image"><img src="svgs/question.svg" alt="Why make an eco brick?"></div>
+				<div class="faq-image"><img src="../svgs/question.svg" alt="Why make an eco brick?"></div>
 			</div>
 			
 		</div>
@@ -327,7 +327,7 @@ Content Page template: v.1.0.0-->
                             <div class="faq-link"><h5>Answer's a little too dense yeah? Better see: <a href="how">Our Comprehensive 10 Step Ecobricking Guide</h5></a></div>
 							<div id="top-link">Back to <a href="#general">General Questions</a></div>
 							</div>
-                       <div class="faq-image"><img src="webp/eb-sky-400px.webp" alt="How to make an eco brick?"></div>
+                       <div class="faq-image"><img src="../webp/eb-sky-400px.webp" alt="How to make an eco brick?"></div>
                    </div>
 				  
 				
@@ -343,7 +343,7 @@ Content Page template: v.1.0.0-->
 
 				<div class="faq-link"><h5>Learn more: <a href="build.php">General Ecobrick Applications</h5></a></div>                    
 			</div>
-			<div class="faq-image"><img src="webp/build-blue-450px.webp" alt="Eco bricks can build all sorts of stuff"></div>
+			<div class="faq-image"><img src="../webp/build-blue-450px.webp" alt="Eco bricks can build all sorts of stuff"></div>
 		</div>
 		<div id="top-link">Back to <a href="#general">General Questions</a></div>
 	</div>
@@ -360,7 +360,7 @@ Content Page template: v.1.0.0-->
 					<div id="top-link">Back to <a href="#general">General Questions</a></div>
 				</div>                    
 			</div>
-			<div class="faq-image"><img src="webp/balancing-green.webp" alt="Eco bricks are different from other plastic stuff in several ways."></div>
+			<div class="faq-image"><img src="../webp/balancing-green.webp" alt="Eco bricks are different from other plastic stuff in several ways."></div>
 		</div>
 		
 	</div>
@@ -378,7 +378,7 @@ Content Page template: v.1.0.0-->
 					<div id="top-link">Back to <a href="#general">General Questions</a></div>
 				</div>                    
 			</div>
-			<div class="faq-image"><img src="pngs/save-the-plastics.png" alt="Eco bricks prevent plastic from going into a landfill."></div>
+			<div class="faq-image"><img src="../pngs/save-the-plastics.png" alt="Eco bricks prevent plastic from going into a landfill."></div>
 		</div>
 		
 	</div>
@@ -394,7 +394,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-link"><h5>Learn more: <a href="/posion">Plastic can be Poisonous</h5></a></div>   
 				<div id="top-link"><a href="#general">Back to General Questions</a></div>                 
 			</div>
-			<div class="faq-image"><img src="webp/incineration.webp" alt="Eco bricks prevent plastic from being incinerated."></div>
+			<div class="faq-image"><img src="../webp/incineration.webp" alt="Eco bricks prevent plastic from being incinerated."></div>
 		</div>
 	
 	</div>
@@ -411,7 +411,7 @@ Content Page template: v.1.0.0-->
 				<div class="faq-link"><h5>Learn more: <a href="/recycled">Industrial Plastic Recycling</h5></a></div>                    
 				<div id="top-link">Back to <a href="#general">General Questions</a></div>
 			</div>
-			<div class="faq-image"><img src="svgs/vsrecycling.svg" alt="Eco bricks are an alternative to recycling."></div>
+			<div class="faq-image"><img src="../svgs/vsrecycling.svg" alt="Eco bricks are an alternative to recycling."></div>
 		</div>
 		
 	</div>
@@ -468,7 +468,7 @@ Content Page template: v.1.0.0-->
 							<div class="faq-link"><h5>Learn more: <a href="/poison">The Dangers of Plastic</h5></a></div>
 							<div id="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div> 
 					   </div>
-					   <div class="faq-image"><img src="pngs/fire.png" alt="Eco bricks keep plastic safe"></div>
+					   <div class="faq-image"><img src="../pngs/fire.png" alt="Eco bricks keep plastic safe"></div>
 				</div>
 				
 		</div>
@@ -486,7 +486,7 @@ Content Page template: v.1.0.0-->
 					<div id="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>                  
 				</div>
 				
-				<div class="faq-image"><img src="webp/ayyew.webp" alt="Eco bricks apply ayyew principles"></div>
+				<div class="faq-image"><img src="../webp/ayyew.webp" alt="Eco bricks apply ayyew principles"></div>
 			</div>
 			
 		</div>
@@ -562,7 +562,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/modules">Ecobrick Modules</a></h5></div> 
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
 				</div>
-				<div class="faq-image"><img src="webp/milstein.webp" alt="Eco bricks can make sitting stools"></div>
+				<div class="faq-image"><img src="../webp/milstein.webp" alt="Eco bricks can make sitting stools"></div>
 				</div>
 
 		</div>
@@ -578,7 +578,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/milstein"> Ecobrick Milstein Modules</a></h5></div>     
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>         
 				</div>
-				<div class="faq-image"><img src="webp/module-table.webp" alt="Eco bricks can make modules."></div>
+				<div class="faq-image"><img src="../webp/module-table.webp" alt="Eco bricks can make modules."></div>
 			</div>
 			
 		</div>
@@ -594,7 +594,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/dms">Dieleman Lego Modules</a></h5></div>    
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>             
 				</div>
-				<div class="faq-image"><img src="pngs/MD-inter-lock-graphic.png" alt="Eco bricks can make dieleman lego."></div>
+				<div class="faq-image"><img src="../pngs/MD-inter-lock-graphic.png" alt="Eco bricks can make dieleman lego."></div>
 			</div>
 		</div>
 
@@ -609,7 +609,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/openspace">More about Ecobrick Open Spaces</a></h5></div>        
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>               
 				</div>
-				<div class="faq-image"><img src="webp/openspace.webp" alt="Eco bricks can make open spaces"></div>
+				<div class="faq-image"><img src="../webp/openspace.webp" alt="Eco bricks can make open spaces"></div>
 			</div>
 			
 		</div>
@@ -625,7 +625,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/earth">More about Earth & Ecobrick Building</a></h5></div>                    
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>   
 				</div>
-				<div class="faq-image"><img src="webp/tens-thousands.webp" alt="Using tens of thousands of eco bricks to make green spaces"></div>
+				<div class="faq-image"><img src="../webp/tens-thousands.webp" alt="Using tens of thousands of eco bricks to make green spaces"></div>
 			</div>
 		</div>
 
@@ -641,7 +641,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/circular">Ecobrick Spiral & Circular Design</a></h5></div>                    
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="webp/spiral-circular-400px.webp" width="400px" alt="Spiral & Circular eco brick design applies to a module"></div>
+				<div class="faq-image"><img src="../webp/spiral-circular-400px.webp" width="400px" alt="Spiral & Circular eco brick design applies to a module"></div>
 			</div>
 			
 		</div>
@@ -657,7 +657,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/earth">Earth & Ecobrick Buidling</a></h5></div>     
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
 				</div>
-				<div class="faq-image"><img src="webp/earth-tree-400px.webp" alt="A circular eco brick bench"></div>
+				<div class="faq-image"><img src="../webp/earth-tree-400px.webp" alt="A circular eco brick bench"></div>
 			</div>
 			
 		</div>
@@ -673,7 +673,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/earth-methods">Earth & Ecobrick Methods</a></h5></div>                    
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="webp/earth-build.webp" alt="Earth and Eco brick buiding"></div>
+				<div class="faq-image"><img src="../webp/earth-build.webp" alt="Earth and Eco brick buiding"></div>
 			</div>
 		</div>
 	
@@ -689,7 +689,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/fire">Ecobricks & Fire Security</a></h5></p></div>  
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
 				</div>
-				<div class="faq-image"><img src="webp/fire.webp" alt="Eco brick fire safety"></div>
+				<div class="faq-image"><img src="../webp/fire.webp" alt="Eco brick fire safety"></div>
 			</div>
 		</div>
 
@@ -705,7 +705,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</a></h5></p></div>   
 					<div id="top-link">Back to <a href="#building-q">Building Questions</a></div>                 
 				</div>
-				<div class="faq-image"><img src="webp/circular.webp" alt="eco brick circular design"></div>
+				<div class="faq-image"><img src="../webp/circular.webp" alt="eco brick circular design"></div>
 			</div>
 			
 		</div>
@@ -744,7 +744,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="about.php">Learn more about the GEA</h5></p></div>  
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
 				</div>
-				<div class="faq-image"><img src="svgs/shanti.svg"></div>
+				<div class="faq-image"><img src="../svgs/shanti.svg"></div>
 			</div>
 		</div>
 
@@ -777,7 +777,7 @@ Content Page template: v.1.0.0-->
 					<div class="faq-link"><h5>Learn more: <a href="/mandalas">Mandalic Collaboration</h5></a></div>                    
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="webp/mandalic.webp" alt="than mandalic unfolding of eco bricks"></div>
+				<div class="faq-image"><img src="../webp/mandalic.webp" alt="than mandalic unfolding of eco bricks"></div>
 			</div>
 		</div>
 
@@ -829,7 +829,7 @@ Content Page template: v.1.0.0-->
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 				</div>
 			
-				<div class="faq-image"><img src="pngs/catalyst.png" alt="enterprises to go green"></div>
+				<div class="faq-image"><img src="../pngs/catalyst.png" alt="enterprises to go green"></div>
 			</div>
 		</div>
 </div>
@@ -855,7 +855,7 @@ Content Page template: v.1.0.0-->
 					</div> 
 					<div id="top-link">Back to <a href="#gobrik-q">GoBrik Questions</a></div>  
 				</div>   
-				<div class="faq-image"><img src="webp/eb-sky-400px.webp" alt="An eco brick being made"></div>
+				<div class="faq-image"><img src="../webp/eb-sky-400px.webp" alt="An eco brick being made"></div>
 			</div>
 			
 		</div>
@@ -873,7 +873,7 @@ Content Page template: v.1.0.0-->
 						</div> 
 						<div id="top-link">Back to <a href="#gobrik-q">GoBrik Questions</a></div> 
 					</div>   
-					<div class="faq-image"><img src="webp/brk-cascade.webp" alt="various eco bricks cascading"></div>
+					<div class="faq-image"><img src="../webp/brk-cascade.webp" alt="various eco bricks cascading"></div>
 				</div>
 				
 			</div>
@@ -891,7 +891,7 @@ Content Page template: v.1.0.0-->
 						</div> 
 						<div id="top-link">Back to <a href="#gobrik-q">GoBrik Questions</a></div> 
 					</div>   
-					<div class="faq-image"><img src="webp/eb-sky-400px.webp" alt="eco brick making"></div>
+					<div class="faq-image"><img src="../webp/eb-sky-400px.webp" alt="eco brick making"></div>
 				</div>
 				
 			</div>
@@ -949,7 +949,7 @@ Content Page template: v.1.0.0-->
 					<div id="top-link">Back to <a href="#misc">More Questions</a></div>                 
 				</div>
 				
-				<div class="faq-image"><img src="webp/oeb-400px.webp" alt="ocean eco bricks"></div>
+				<div class="faq-image"><img src="../webp/oeb-400px.webp" alt="ocean eco bricks"></div>
 			</div>
 			
 		</div>
@@ -966,7 +966,7 @@ Content Page template: v.1.0.0-->
 					</div>                    
 					<div id="top-link">Back to <a href="#misc">More Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="svgs/Cigbrick.svg" alt="Cigbricks eco brick"></div>
+				<div class="faq-image"><img src="../svgs/Cigbrick.svg" alt="Cigbricks eco brick"></div>
 			</div>
 			
 		</div>	
@@ -1059,7 +1059,7 @@ Content Page template: v.1.0.0-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

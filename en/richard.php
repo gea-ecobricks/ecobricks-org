@@ -3,7 +3,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/richard-inc.php");?>
+<?php require_once ("../includes/richard-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
@@ -16,7 +16,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-sub">— GEA Trainer</div>
 		<div class="splash-sub"><i>in memorandum</i></div>
 	</div>
-	<div class="splash-image"><img src="photos/richard-goldsmith.webp" style="width: 80%; width: 70%;
+	<div class="splash-image"><img src="../photos/richard-goldsmith.webp" style="width: 80%; width: 70%;
 border: 10px solid #666;
 border-radius: 10px;"></div>	
 </div>
@@ -69,7 +69,7 @@ border-radius: 10px;"></div>
 
 <p>We will miss him dearly. </p>
 
-<img src="photos/richard-circle.jpg" width="100%" alt="Richard in our ToT Talking circle">
+<img src="../photos/richard-circle.jpg" width="100%" alt="Richard in our ToT Talking circle">
 
 
 <p>But as we do so, we can be inspired by the great contributions, social and ecological, that are possible with quiet determination, focus and commitment.</p>
@@ -92,14 +92,14 @@ border-radius: 10px;"></div>
 		<div class="side">
 
         <div id="side-module-desktop-mobile">
-					<img src="photos/richard-talking.jpg" width="80%" alt="richard talking about plastic">
+					<img src="../photos/richard-talking.jpg" width="80%" alt="richard talking about plastic">
 					<h4>Richard Goldsmith</h4>
 					<h5>Richard during his practicum at our 2019 Newforest UK Training of Trainers.</h5>
         </div>
 
 		
 		<div id="side-module-desktop-mobile">
-					<img src="photos/richard-ecobrick.jpg" width="80%" alt="For-Earth Enterprise through eco bricking">
+					<img src="../photos/richard-ecobrick.jpg" width="80%" alt="For-Earth Enterprise through eco bricking">
 					<h4>Richard's Ecobricks</h4>
 					<h5>Richard's ecobricks were famous for their pioneering use of white plastic inserts with the serial number written on.  This technique ensured the serial number was protected for... pretty much ever!  Meanwhile, as part of the tech team, Richard worked hard to ensure that recorded ecobrick data would last just as long.</h5>
 

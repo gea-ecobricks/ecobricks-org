@@ -3,7 +3,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/brikcoins-inc.php");?>
+<?php require_once ("../includes/brikcoins-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -15,7 +15,7 @@ Content Page template: v.1.0.1-->
 	<div id="splash-box">
 		<div class="splash-heading">Brikcoins</div>
 		<div class="splash-sub">Blockchain proof-of-value manual berdasarkan penyerapan plastik dari biosfer.</div>
-		<img src="webp/brikcoins-450px.webp">
+		<img src="../webp/brikcoins-450px.webp">
 	</div>
 	
 </div>
@@ -70,14 +70,14 @@ Content Page template: v.1.0.1-->
                 		<p>Dua miliar tahun yang lalu, atmosfer bumi penuh dengan karbon dioksida. Iklim planet tidak stabil dan permukaannya tandus. Namun, terus-menerus CO2 di atmosfer didaur ulang menjadi kehidupan berbasis karbon, yang, dari generasi ke generasi, terkubur dan diamankan ke dalam tanah. Karena semakin banyak <a href="/plastic">karbon yang akhirnya diserap</a>, semakin sedikit CO2 di atmosfer. Iklim terus stabil dan biosfer Bumi berkembang.</p>
 
 						</div>
-						<div class="side2"><img src="webp/earth-floating-500px.webp" width="80%">
+						<div class="side2"><img src="../webp/earth-floating-500px.webp" width="80%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Saat ini, plastik berbasis minyak bumi kami berasal langsung dari simpanan karbon bawah tanah kuno ini. Sebagai salah satu bentuk karbon, apa yang kita lakukan dengan plastik dapat bermanfaat secara ekologis— <i>atau tidak</i>.</p>
 </div>
-						<div class="side3"><img src="pngs/albatross-blue-sky.gif" width="150px">
+						<div class="side3"><img src="../pngs/albatross-blue-sky.gif" width="150px">
 						</div>
 					</div>
 						
@@ -133,7 +133,7 @@ Content Page template: v.1.0.1-->
 <p>Kriteria terakhir sekuestrasi plastik, adalah <a href="sequest.php/#auth">autentikasi independen:</a> konfirmasi bahwa semua kriteria lainnya telah terpenuhi. Untuk mengautentikasi ecobrick yang telah dibuat di seluruh dunia sebagai plastik yang diasingkan, GEA mempertahankan <a href="/gobrik">platform GoBrik</a>. Di sana, setiap log ecobrick ditinjau oleh komunitas ecobrick untuk memastikan apakah memenuhi <a href="what.php">standar ecobrick GEA</a>.</p>
 
 						</div>
-						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="85%">
+						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" width="85%">
 						</div>
 					</div>
 					<div class="row">
@@ -142,7 +142,7 @@ Content Page template: v.1.0.1-->
 						<p>Hanya jika tinjauan sejawat terhadap ecobrick berhasil, plastik di dalamnya dianggap telah diasingkan. Hal ini memenuhi kriteria akhir sekuestrasi plastik (autentikasi), sehingga memvalidasi dan memfinalisasi nilai ekologis ecobrick. Brikcoin yang mewakili nilai ini kemudian dihasilkan dalam sebuah blok di <a href="brikchain.php">brikchain</a>.</p>
 									
 						</div>
-						<div class="side2"><img src="webp/2-brikcoins-450px.webp" width="90%">
+						<div class="side2"><img src="../webp/2-brikcoins-450px.webp" width="90%">
 						</div>
 					</div>		
 					
@@ -155,7 +155,7 @@ Content Page template: v.1.0.1-->
 						<p>Dengan cara ini, Brikcoin menghindari jebakan lain dari mata uang blockhain lainnya. Alih-alih mendukung mereka yang memiliki modal untuk diinvestasikan, sebagai proses non-kapital, manual, dan bertenaga komunitas, brikcoin mendukung mereka yang bersedia bekerja dengan tangan mereka untuk memberikan kontribusi ekologi yang berarti terlepas dari kekayaan atau lokasi mereka.</p>
 </div>
 
-						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="150px"></div>
+						<div class="side3"><img src="../pngs/authenticated-ecobrick.png" width="150px"></div>
 					</div>
 				</div>
 			</div>
@@ -178,7 +178,7 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed3">
 
 					<br>
-					<img src="pngs/manual-blockchain.png" width="90%" loading="lazy" alt="manual proof of value block chain">
+					<img src="../pngs/manual-blockchain.png" width="90%" loading="lazy" alt="manual proof of value block chain">
 
 					
 
@@ -231,7 +231,7 @@ Content Page template: v.1.0.1-->
 						</div>
 						
 						<div class="side2">
-							<img src="webp/gea-logo-400px.webp" width="80%">
+							<img src="../webp/gea-logo-400px.webp" width="80%">
 						</div>
 					</div>
 					
@@ -239,7 +239,7 @@ Content Page template: v.1.0.1-->
 						<div class="main3">
 						<p>Melalui kombinasi struktur perusahaan dan infrastruktur server, kami bertujuan untuk meminimalkan dampak ekologis abu-abu kami dan memaksimalkan dampak hijau kolektif kami.</p>
 						</div>
-						<div class="side3"><img src="webp/gea-logo-400px.webp" width="130px">
+						<div class="side3"><img src="../webp/gea-logo-400px.webp" width="130px">
 						</div>
 					</div>
 								
@@ -273,7 +273,7 @@ Content Page template: v.1.0.1-->
 <p>Laporan teknis menjabarkan kerangka kerja untuk mendasarkan mata uang brikcoin pada nilai ekologis dari penyerapan plastik.</p>
 
 						</div>
-						<div class="side2"><img src="pngs/White-Paper-Icon2-400px.png" width="100%">
+						<div class="side2"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
@@ -281,7 +281,7 @@ Content Page template: v.1.0.1-->
 						<p>📥 Unduh: <a href="https://nextcloud.ecobricks.org/index.php/s/fNNYjG7A3gxco9n" target="_blank">The Commodification of Sequestered Plastic</a><br><h5>📄 GEA White Paper | PDF | 2.1 MB</a></p>
 						
 						</div>
-						<div class="side3"><img src="pngs/White-Paper-Icon2-400px.png" width="150px">
+						<div class="side3"><img src="../pngs/White-Paper-Icon2-400px.png" width="150px">
 						</div>
 					</div>
 				 
@@ -310,7 +310,7 @@ Content Page template: v.1.0.1-->
                     </div>
 
                     <div class="side2">
-                        <br><img src="webp/brk-cascade.webp" width="90%" alt="brikcoins in action" loading="lazy">
+                        <br><img src="../webp/brk-cascade.webp" width="90%" alt="brikcoins in action" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -348,7 +348,7 @@ Content Page template: v.1.0.1-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

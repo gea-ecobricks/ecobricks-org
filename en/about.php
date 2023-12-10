@@ -3,7 +3,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/about-inc.php");?>
+<?php require_once ("../includes/about-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
@@ -15,7 +15,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises towards an ever Greener Harmony with Earth’s Cycles.</div>
 		<div class="splash-sub">— GEA Vision Statement</div>
 	</div>
-	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -63,7 +63,7 @@ Content Page template: v.1.0.1-->
                             <p>As ecobrickers ourselves, we keep track of how much plastic we consume each month, clean and wash it, and put it aside.  We pack our plastic into ecobricks which we use in our homes to make our furniture and gardens.  We lead <a href="/trainings">ecobrick trainings</a> for companies and communities near and far.  For both our households and enterprises we offset our plastic to make sure our household and our enterprises are net green.  We track and disclose our plastic transition progress, just like the Global Ecobrick Alliance <a href="regenreports.php">does each year</a>.</p>
 							<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
                             </div>
-                            <div class="side2"><img src="svgs/shanti.svg" width="88%">
+                            <div class="side2"><img src="../svgs/shanti.svg" width="88%">
                             </div>
                         </div>
 
@@ -72,7 +72,7 @@ Content Page template: v.1.0.1-->
                             
 							<p><b>We observe that our consumption and production of plastic is rooted in the global petroleum and capital powered economy.</b></p>
                             </div>
-                            <div class="side3"><img src="svgs/shanti.svg" width="120px">
+                            <div class="side3"><img src="../svgs/shanti.svg" width="120px">
                             </div>
                         </div>
 					
@@ -110,7 +110,7 @@ Content Page template: v.1.0.1-->
                             <div class="main2">
                             <p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It also means that, unlike organizations, we do not receive charity, grants, or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor mandates of growth and profits.</p>
                             </div>
-                            <div class="side2"><img src="webp/for-earth500px.webp" width="95%" alt="We make eco bricks to serve the Earth">
+                            <div class="side2"><img src="../webp/for-earth500px.webp" width="95%" alt="We make eco bricks to serve the Earth">
                             </div>
                         </div>
 
@@ -118,7 +118,7 @@ Content Page template: v.1.0.1-->
                             <div class="main3">
                             <p>As an Earth enterprise our focus is on generating authentic ecological value. </p>
                             </div>
-                            <div class="side3"><img src="webp/for-earth500px.webp" width="120px" alt="We make eco bricks to serve the Earth">
+                            <div class="side3"><img src="../webp/for-earth500px.webp" width="120px" alt="We make eco bricks to serve the Earth">
                             </div>
                         </div>
 
@@ -162,8 +162,8 @@ Content Page template: v.1.0.1-->
 								<p>Our enterprise follows the <a href="/plastic">Earth's example</a> in generating ecological value.  To do so we strive to follow the principles of <a href="https://book.earthen.io/en/earthen.php" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness, and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p><br>
 
                         </div>
-							<div class="side2"><img src="webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
-							<div class="side3"><img src="webp/earthservice-400px.webp" width="120px" alt="an eco brick is a form of earth service"></div>
+							<div class="side2"><img src="../webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
+							<div class="side3"><img src="../webp/earthservice-400px.webp" width="120px" alt="an eco brick is a form of earth service"></div>
 					</div>
 
 					<p><b>2. Leading by Example</b></p>
@@ -346,7 +346,7 @@ Content Page template: v.1.0.1-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

@@ -3,7 +3,7 @@
 Special Ecobrick View Page: v.1.0.1-->
  
 <?php 
-require_once ("includes/details-ecobrick-page-inc.php");
+require_once ("../includes/details-ecobrick-page-inc.php");
 
 include 'ecobricks_env.php';
 
@@ -151,7 +151,7 @@ echo '
 			echo '	<div class="side">
 
 			<div id="side-module-desktop-mobile">
-					<img src="pngs/authenticated-ecobrick.png" width="90%" alt="Siguiendo el ejemplo de la Tierra a través de la construcción de ladrillos ecológicos">
+					<img src="../pngs/authenticated-ecobrick.png" width="90%" alt="Siguiendo el ejemplo de la Tierra a través de la construcción de ladrillos ecológicos">
 					<br><h4>¡Autenticado!</h4>
 					<h5>Este ecoladrillo ha sido autenticado por tres validadores independientes que cumplen con los estándares de secuestro de plástico.</h5><br>
 					<a class="module-btn" href="/what">Sobre Ecobricks</a>
@@ -184,7 +184,7 @@ echo '
 			echo '¡Lo siento! :-(</div>
 			<div class="splash-sub">No hay resultados para ecobrick '. $serialNo.' en la Brikchain. Lo más probable es que esto se deba a que los datos de Brikchain todavía están en proceso de migración.</div>
 		</div>
-		<div class="splash-image"><img src="webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
+		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
 	</div>
 	<div id="splash-bar"></div>
 
@@ -233,14 +233,14 @@ echo '
 	
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
+				<img src="../webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<!--<h4>AES Plastic</h4>-->
 				<h5>El peso del plástico dentro de un ecoladrillo autenticado es lo que llamamos Plástico Ecoladrillo Autenticado (plástico AES) para abreviar.</h5><br>
 				<a class="module-btn" href="/aes" target="_blank">Sobre AES</a><br><br>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
+				<img src="../webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Brikcoins</h4>
 				<h5>Cuando se autentica un ecobrick, se generan brikcoins para representar el valor ecológico de su plástico AES.</h5><br>
 				<a class="module-btn" href="brikcoins.php">Sobre los Brikcoins</a><br><br>
@@ -263,7 +263,7 @@ echo '
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

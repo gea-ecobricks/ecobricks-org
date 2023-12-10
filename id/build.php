@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/build-inc.php");?>
+<?php require_once ("../includes/build-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 
@@ -73,7 +73,7 @@ Content Page template: v.1.0.0-->
                 <br><p><b>Sangat jangka panjang</b><p>
                 <p>Aplikasi ecobrick jangka pendek dan jangka panjang menempatkan plastik ke dalam lintasan spiral siklus ke masa depan, di mana kemungkinan plastik tetap aman, terjamin, dan tertahan jauh lebih mungkin daripada alternatif yang tersedia saat ini.</p>
                 
-                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp" width="100%" alt="Pandangan tentang jalur berbagai teknologi manajemen plastik memakan waktu lebih dari 1000 tahun." loading="lazy"></a>
+                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp" width="100%" alt="Pandangan tentang jalur berbagai teknologi manajemen plastik memakan waktu lebih dari 1000 tahun." loading="lazy"></a>
                 <p style="font-size: 0.85em; margin-top:20px;">Lihat <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">bagan berbagai jalur yang dapat diambil plastik</a> selama lebih dari 1000 tahun.</p></p>
 </div>
 </div>
@@ -95,12 +95,12 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed10">
         <br>
 
-            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="Contoh depot penyimpanan eco brick untuk persiapan pembangunan" loading="lazy">
+            <img src="../photos/eco-brick-storage-1000px.jpg" width="100%" alt="Contoh depot penyimpanan eco brick untuk persiapan pembangunan" loading="lazy">
 
             <br>
             <p>Sebelum Anda membangun dengan ecobrick, penting untuk menyimpannya dengan benar. Idealnya, ecobrick disimpan di atas tanah (di atas lantai atau ditinggikan di atas kayu) dan dilindungi sepenuhnya dari sinar matahari dan cuaca. Ecobrick paling baik ditumpuk secara horizontal dengan bagian bawahnya mengarah ke luar. Hal ini memungkinkan Anda mengatur ecobrick berdasarkan warna dan merek– yang nantinya akan memudahkan perencanaan dan pembuatan proyek.</p>
 
-            <img src="webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="Contoh depot penyimpanan eco brick untuk persiapan pembangunan">
+            <img src="../webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="Contoh depot penyimpanan eco brick untuk persiapan pembangunan">
 
             
 
@@ -125,11 +125,11 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed3">
 
-                <img src="photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="Pelatih GEA duduk di meja dengan modul eco brick milstein yang terbuat dari plastik">
+                <img src="../photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="Pelatih GEA duduk di meja dengan modul eco brick milstein yang terbuat dari plastik">
             
 					<p>Aplikasi ecobrick termudah, tercepat, dan mungkin paling menyenangkan adalah Milstein Modules (MMs). Ini adalah konfigurasi ecobrick berbentuk segi enam dan segitiga yang digunakan untuk duduk, tetapi dapat digabungkan bersama untuk membentuk permukaan horizontal satu atau dua tingkat. Aplikasi termasuk meja, tempat tidur, panggung, dll. Yang Anda butuhkan hanyalah 12 ecobrick untuk memulai! Sealant silikon generik atau ban dalam sepeda motor dapat digunakan untuk membuat MM. Modul Ecobrick Milstein kemudian dapat meluncur ke penerapan untuk kelas, konser, rapat, dan lainnya untuk membuat permukaan horizontal. Mereka dapat ditumpuk satu di atas yang lain untuk menambah satu tingkat ketinggian vertikal. Mereka dapat ditumpuk dan disimpan secara vertikal untuk menghemat ruang.</p>
 
-                    <img src="webp/milstein-modules-750px.webp" width="100%" loading="lazy" alt="milstein eco-brick module banguan">
+                    <img src="../webp/milstein-modules-750px.webp" width="100%" loading="lazy" alt="milstein eco-brick module banguan">
         
         
                     
@@ -173,7 +173,7 @@ Content Page template: v.1.0.0-->
             <div id="preclosed2">
 
             
-            <img src="photos/dielemans-900px.jpg" width="100%" loading="lazy" alt="Dieleman lego eco brick modules">
+            <img src="../photos/dielemans-900px.jpg" width="100%" loading="lazy" alt="Dieleman lego eco brick modules">
 
             
             <p>Jadi ini keren sekali – ecobrick bisa membuat balok-balok mirip LEGO! Modul Dieleman, atau singkatnya DM, adalah cara untuk mengubah botol menjadi bata modular yang dapat ditumpuk secara vertikal. Enam belas ecobrick disatukan menjadi satu modul DM.</p>
@@ -182,7 +182,7 @@ Content Page template: v.1.0.0-->
 
             <p>DM kemudian dapat dibongkar dengan mudah.</p>
 
-            <img src="webp/dm-modules-1000px.webp" width="100%" loading="lazy" alt="Contoh berbagai jenis modul lego dieleman" title="Contoh berbagai jenis modul lego dieleman">
+            <img src="../webp/dm-modules-1000px.webp" width="100%" loading="lazy" alt="Contoh berbagai jenis modul lego dieleman" title="Contoh berbagai jenis modul lego dieleman">
 
         
                     
@@ -224,7 +224,7 @@ Content Page template: v.1.0.0-->
 
             <div id="preclosed4">
 
-            <img src="photos/earth-module-623px.jpg" width="100%" loading="lazy" alt="Modul tanah ecobrick untuk tempat duduk atau meja kopi">
+            <img src="../photos/earth-module-623px.jpg" width="100%" loading="lazy" alt="Modul tanah ecobrick untuk tempat duduk atau meja kopi">
 
             <p>Gunakan prinsip dasar Bangunan Tanah dan Ecobrick untuk membuat bangku luar ruangan, meja kopi, dan lainnya dengan ecobricks Anda. Modul ini adalah tempat yang ideal untuk memulai mempelajari dasar-dasar bangunan Tanah. Kami menggunakan konstruksi ini dalam kursus GEA Builder sebagai awal yang sederhana dan non-struktural untuk teknik dasar membangun dengan tanah.</p>
                 <br>
@@ -269,7 +269,7 @@ Content Page template: v.1.0.0-->
 
 			<div id="preclosed5">
 
-                <img src="photos/openspace-960px.jpg" width="100%" alt="Ruang terbuka Ecobrick untuk digunakan dengan modul ecobrick dari segala jenis" loading="lazy">
+                <img src="../photos/openspace-960px.jpg" width="100%" alt="Ruang terbuka Ecobrick untuk digunakan dengan modul ecobrick dari segala jenis" loading="lazy">
 
                 <p>Ruang Terbuka Ecobrick untuk masyarakat yang telah menyelesaikan ribuan ecobrick berkualitas tinggi dengan ukuran botol dan merek yang konsisten. Ecobrick-ecobrick ini kemudian dapat digabungkan menjadi berbagai macam modul Milstein dan Dieleman untuk membuat beberapa ratus modul yang berbeda.</p>
 
@@ -433,7 +433,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed7">
 
-                <img src="photos/book-shelf.jpg" width="100%" loading="lazy" alt="Eco brick book shelf">
+                <img src="../photos/book-shelf.jpg" width="100%" loading="lazy" alt="Eco brick book shelf">
 
                 <p>Orang-orang di seluruh dunia sedang membangun segala macam benda hebat dan unik dengan ecobrick mereka! Tahukah Anda bahwa Ecobrick dapat mengapung dengan sangat baik? Kami tidak sabar untuk melihat perahu dan pulau ecobrick pertama. Pernahkah Anda melihat atau mengembangkan aplikasi yang berguna? Silakan berbagi dengan kami, atau bantu tim kami mengembangkan halaman ini lebih lanjut. Bagikan foto Anda di web dengan tag hash #ecobricks.</p>
                 
@@ -468,7 +468,7 @@ Content Page template: v.1.0.0-->
                     </div>
 
                     <div class="side2">
-                        <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik adalah bentuk plastik sekuestrasi dengan aman melalui waktu.">
+                        <br><img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik adalah bentuk plastik sekuestrasi dengan aman melalui waktu.">
                     </div>
                 </div>
         </div>
@@ -503,7 +503,7 @@ Content Page template: v.1.0.0-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

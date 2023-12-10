@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/build-inc.php");?>
+<?php require_once ("../includes/build-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -70,7 +70,7 @@ Content Page template: v.1.0.0-->
                 <br><p><b>Very long-term</b><p>
                 <p>Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelyhood of plastic staying safe, secure and contained is much more likely than currently available alternatives.</p>
                 
-                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>
+                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>
                 <p style="font-size: 0.85em; margin-top:20px;">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
 </div>
 </div>
@@ -92,12 +92,12 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed10">
         <br>
 
-            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
+            <img src="../photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
 
             <br>
             <p>Before you build with ecobricks, it is essential to store them properly.  Ideally, ecobricks are stored off of the ground (on a floor or raised on wood) and fully protected from the sun and the elements.  Ecobricks are best stacked horizontally with their bottom pointed outwards.  This enables you to organize your ecobricks by colour and brand– which later facilitates project planning and making.</p>
 
-            <img src="webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="An example of how to store eco bricks properly">
+            <img src="../webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="An example of how to store eco bricks properly">
 
             
 
@@ -122,11 +122,11 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed3">
 
-                <img src="photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="GEA trainers sitting at a table with eco brick milstein modules made from plastic">
+                <img src="../photos/milsteins-800px.jpg" width="100%" loading="lazy" alt="GEA trainers sitting at a table with eco brick milstein modules made from plastic">
             
 					<p>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc.  All you need are 12 ecobricks to start!  Generic silicone sealant or motorcycle inner tubes can be used to make MMs. Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces.  They can be stacked one on top of the other to add one level of vertical height.  They can be stacked and stored vertically to save space.</p>
 
-                    <img src="webp/milstein-modules-750px.webp" width="100%" loading="lazy" alt="milstein eco-brick module building">
+                    <img src="../webp/milstein-modules-750px.webp" width="100%" loading="lazy" alt="milstein eco-brick module building">
         
         
                     
@@ -171,7 +171,7 @@ Content Page template: v.1.0.0-->
             <div id="preclosed2">
 
             
-            <img src="photos/dielemans-900px.jpg" width="100%" loading="lazy" alt="Dieleman lego eco brick modules">
+            <img src="../photos/dielemans-900px.jpg" width="100%" loading="lazy" alt="Dieleman lego eco brick modules">
 
             
             <p> <p>So this is pretty cool – ecobricks can make LEGO-like blocks!  Dieleman Modules, or DMs for short, are a way to turn bottles into modular bricks that can be stacked vertically.  Sixteen ecobricks are siliconed together to make one DM module.</p>
@@ -180,7 +180,7 @@ Content Page template: v.1.0.0-->
 
             <p>The DMs can then be disassembled just as easily.</p>
 
-            <img src="webp/dm-modules-1000px.webp" width="100%" loading="lazy" alt="Examples of the different types of dieleman lego modules">
+            <img src="../webp/dm-modules-1000px.webp" width="100%" loading="lazy" alt="Examples of the different types of dieleman lego modules">
 
         
                     
@@ -222,7 +222,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed4">
 
-                <img src="photos/earth-module-623px.jpg" width="100%" loading="lazy" alt="Eco brick earth modules for sitting or coffee table">
+                <img src="../photos/earth-module-623px.jpg" width="100%" loading="lazy" alt="Eco brick earth modules for sitting or coffee table">
 
                 <p>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.  These modules are an ideal place to start to learn the basics of Earth building.  We use their construction in GEA Builder courses as a simple, non-structural start to the fundamental earth building techniques.</p>
                     <br>
@@ -270,7 +270,7 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed5">
 
-                    <img src="photos/openspace-960px.jpg" width="100%" alt="Eco-brick open spaces for use with eco brick modules of all kinds" loading="lazy">
+                    <img src="../photos/openspace-960px.jpg" width="100%" alt="Eco-brick open spaces for use with eco brick modules of all kinds" loading="lazy">
 
                     <p>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands.  These ecobricks can then be combined into an assortment of Milstein and Dieleman modules to create a diverse set of several hundred modules.</p>
 
@@ -447,7 +447,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed7">
 
-                <img src="photos/book-shelf.jpg" width="100%" loading="lazy" alt="Eco brick book shelf">
+                <img src="../photos/book-shelf.jpg" width="100%" loading="lazy" alt="Eco brick book shelf">
 
                 <p>People around the world are building all sorts of great and unique things with their ecobrick!  Did you know that Ecobricks float really well?  We can’t wait to see the first ecobrick boats and islands. Have you seen or developed useful applications?  Please share with us, or help our team develop this page further.   Share your photos on the web with the hash tag #ecobricks.</p>
                 <p>From baseball bats to boats, the sky is the limit on what you can use ecobricks for!  Ecobricks can be used for getting fit, for games and more.</p>
@@ -481,7 +481,7 @@ Content Page template: v.1.0.0-->
                     </div>
 
                     <div class="side2">
-                        <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                        <br><img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                     </div>
                 </div>
         </div>
@@ -492,21 +492,21 @@ Content Page template: v.1.0.0-->
 		<div class="side">
 	
 			<div id="side-module-desktop-mobile">
-            <img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+            <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
 				<br><h4>Good Use</h4>
 				<h5>Ecobrick building let's us put our plastic to good use in the short-term, while securing it out of industry and the biosphere for the long-term.</h5><br>
 				<a class="module-btn" href="/plastic">Learn More</a>
                 <br>
 			</div>  
             <div id="side-module-desktop-mobile">
-                <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <img src="../webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Plastic Sequestration</h4>
                 <h5>The GEA advocates ecobrick building to sequester plastic.  Only builds that follow best-practices, embody earth principles and use authenticated eco<span class="eco-brick"> </span>bricks sequester plastic.</h5><br>
                 <a class="module-btn" href="sequest.php">Learn More</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
+				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
 				<a class="module-btn" href="transition.php">Learn More</a>
@@ -515,7 +515,7 @@ Content Page template: v.1.0.0-->
 			
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
+				<img src="../webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
 				<h4>Circular Design</h4>
 				<h5>Ecobrick applications follows the principles of circular design to put our plastic into indefinite greening cycles of reuse.</h5><br>
 				<a class="module-btn" href="/circular">Learn More</a>
@@ -541,7 +541,7 @@ Content Page template: v.1.0.0-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

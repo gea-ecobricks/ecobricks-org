@@ -3,7 +3,7 @@
 
     <div id="slider2">
 
-    <div id="slider-image"><img src="webp/ecological-consciousness-500px.webp" style="width: 85%;" alt="Regenerative ecobrick building methods">
+    <div id="slider-image"><img src="../webp/ecological-consciousness-500px.webp" style="width: 85%;" alt="Regenerative ecobrick building methods">
         </div>
 		
         <div id="slider-textbox">
@@ -15,7 +15,7 @@
     </div>
     <!--    <div id="slider2">
 
-    <div id="slider-image"><img src="svgs/building-methods.svg" style="width: 85%;" alt="Regenerative ecobrick building methods">
+    <div id="slider-image"><img src="../svgs/building-methods.svg" style="width: 85%;" alt="Regenerative ecobrick building methods">
         </div>
 		
         <div id="slider-textbox">

@@ -3,7 +3,7 @@
 
     <div id="slider4">
 
-        <div id="slider-image"><img src="webp/brickable-kit.webp" style="width: 85%;" alt="Icône de désignateur de briques">
+        <div id="slider-image"><img src="../webp/brickable-kit.webp" style="width: 85%;" alt="Icône de désignateur de briques">
          </div>
 
          <div id="slider-textbox">

@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/top-tens-inc.php");?>
+<?php require_once ("../includes/top-tens-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("under-construction.php");?>-->
@@ -102,7 +102,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
                 </div>
 
                 <div class="side2">
-                    <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                    <br><img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                 </div> 
             </div>
 </div>
@@ -142,7 +142,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

@@ -1,6 +1,6 @@
 <!DOCTYPE=HTML>  <!--PAGE LANGUAGE:  ENGLISH-->
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
-<?php require_once ("includes/symp-inc.php");?>
+<?php require_once ("../includes/symp-inc.php");?>
 
 <!-- Symposium Web Page:  Russell doing a little test-->
 
@@ -118,9 +118,9 @@
                 <div id="content-sect1">
                     <div id="main-content">
                         <div id="dolphin-graphic">
-                            <img src="svgs/dolphin-top-optimized.svg?v8" max-width="100%" max-height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
+                            <img src="../svgs/dolphin-top-optimized.svg?v8" max-width="100%" max-height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">
                             <!--
-                                            <img src="svgs/earth-home-animated-v4.svg?v=2" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">-->
+                                            <img src="../svgs/earth-home-animated-v4.svg?v=2" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy">-->
                                         <!--<div class="big-header">Earthen Ethics Symposium</div>-->
 
                             <div class="sub-text">
@@ -145,7 +145,7 @@
                     <div id="content-sect2">
                         <div id="main-content">
                             <div class="lead-graphic">
-                                <img src="pngs/earthern-ethics-cycles.png" height="auto" alt="eco bricks follow the Earth's example." width="700">
+                                <img src="../pngs/earthern-ethics-cycles.png" height="auto" alt="eco bricks follow the Earth's example." width="700">
                             </div>
                             <div class="sub-text">
                             </div>
@@ -174,8 +174,8 @@
 
                         <div id="content-sect4">
                             <div id="main-content">
-                                <div class="lead-graphic"><img src="webp/balancing-green.webp"  width="100%" height="100%" loading="lazy"></div>
-                                <div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration" loading="lazy"></div>
+                                <div class="lead-graphic"><img src="../webp/balancing-green.webp"  width="100%" height="100%" loading="lazy"></div>
+                                <div class="lead-graphic"><img src="../svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration" loading="lazy"></div>
 
                                 <div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
                                 <a href="https://gobrik.com/#offset" target="_blank" class="main-button">Plastic Offsetting</a>
@@ -183,7 +183,7 @@
 
                                 <p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>
 
-                                <img src="svgs/3brikcoins.svg" width="30%">
+                                <img src="../svgs/3brikcoins.svg" width="30%">
 
                                 <br><br>
                                 <h4>Eco-brick, eco brick, or ecobrick?</h4>

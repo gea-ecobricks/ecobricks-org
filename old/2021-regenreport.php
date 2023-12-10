@@ -22,13 +22,13 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/2021-regenreport-$lang.php");?>
+<?php require_once ("../meta/2021-regenreport-$lang.php");?>
 
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
-<script src="accordion-scripts.js"></script> 
+<script src="../scripts/accordion-scripts.js"></script> 
 
 
 <STYLE>
@@ -226,7 +226,7 @@ _END;?>
 		<div class="splash-heading">The Global Ecobrick Alliance 2021 Renerativity Report</div>
 	<div class="splash-sub">Published March 17th 2022</div>
 	</div>
-	<div class="splash-image"><img src="icons/balance-glow-500px.webp" style="width: 80%;"></div>	
+	<div class="splash-image"><img src="../icons/balance-glow-500px.webp" style="width: 80%;"></div>	
 </div>
 <div id="splash-bar"></div>
 <!--<div id="header-bar2"></div>-->
@@ -259,7 +259,7 @@ _END;?>
 				</div>
 
 				<div class="side2">
-					<br><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank"><img src="webp/2020-regen-report.webp" width="100%"></a>
+					<br><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank"><img src="../webp/2020-regen-report.webp" width="100%"></a>
 				</div>
 
 			
@@ -287,7 +287,7 @@ _END;?>
 						<div class="main2">
 							<p>Today its clear that the vast majority of the plastic we use eventually makes its way to the biosphere.  When your enterprise consumes or produces plastic, we call this a "grey plastic impact".  Tracking your company's production and consumption of plastic is the first step in reducing one's grey impact on the environment.</p>
 						</div>
-						<div class="side2"><img src="webp/balancing-green.webp" width="80%">
+						<div class="side2"><img src="../webp/balancing-green.webp" width="80%">
 						</div>
 					</div>
 
@@ -296,7 +296,7 @@ _END;?>
 						<br><p><b>Get started in 15 minutes</b></p>
 					
 						</div>
-						<div class="side3"><img src="webp/balancing-green.webp" width="125px">
+						<div class="side3"><img src="../webp/balancing-green.webp" width="125px">
 						</div>
 					</div>
 					<p>The Catalyst program gets you going in no time using a process of estimation refinement. As an owner, manager of president of your enterprise you can estimate better than anyone else how much plastic you are currently using.</p>
@@ -504,21 +504,21 @@ _END;?>
 
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
+				<img src="../webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="../webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="pngs/catalyst-logo-500px.png" width="80%">
+				<img src="../pngs/catalyst-logo-500px.png" width="80%">
 				<h4>Generate Your Regen Report!</h4>
 				<h5>Our Catalyst Program for keen green enterprises allows you to generate automatic and certificed regenerative reports.</h5><br>
 				<a class="module-btn" href="catalyst">🚀 Learn More</a>

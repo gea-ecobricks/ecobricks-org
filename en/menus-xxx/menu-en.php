@@ -42,7 +42,7 @@
 <!-- 
                     <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener">
                         <div id="mattermost-menu">
-                            <div class="icon-menu"><img src="icons/mattermost.svg" width="65" height="65" alt="Our Ecoobricker Social Server"></div>
+                            <div class="icon-menu"><img src="../icons/mattermost.svg" width="65" height="65" alt="Our Ecoobricker Social Server"></div>
                                 
                             <div class="apptext-menu">
                                 <div class="apptext-header">Circles </div>
@@ -115,7 +115,7 @@
                 </div>
             </div>
         
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="svgs/grey-emblem.svg" width="30" height="30" loading="lazy" alt="Open Site menu"></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="appMenu()"><img src="../svgs/grey-emblem.svg" width="30" height="30" loading="lazy" alt="Open Site menu"></a>
             
         </div>
     </div>

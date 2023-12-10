@@ -17,14 +17,14 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/coefficients-$lang.php");?>
+<?php require_once ("../meta/coefficients-$lang.php");?>
 
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<script src="accordion-scripts.js"></script> 
+<script src="../scripts/accordion-scripts.js"></script> 
 
 <STYLE>
 
@@ -221,7 +221,7 @@ _END;?>
 		<div class="splash-heading">2021 Plastic Coefficients<br>for Regenerativity Reporting</div>
 		<div class="splash-sub">by the Global Ecobrick Alliance EE</div>
 	</div>
-	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -433,7 +433,7 @@ _END;?>
 		
 			
 		<div id="side-module-desktop-only">
-        <img src="webp/2020-regen-report.webp" width="90%">
+        <img src="../webp/2020-regen-report.webp" width="90%">
 				<h4>2021 Regen Report</h4>
 				<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
 				<a class="module-btn" href="2021-regenreport.php" target="_blank">Access Report</a><br><br>
@@ -441,14 +441,14 @@ _END;?>
 
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="../webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="about.php">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
+				<img src="../webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about.php">About Us</a>

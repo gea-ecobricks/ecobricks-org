@@ -3,7 +3,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/drop-off-inc.php");?>
+<?php require_once ("../includes/drop-off-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -65,14 +65,14 @@ Content Page template: v.1.0.1-->
 						<p>Ecobricks are awesome for small home projects.  However, sometimes ecobrickers do not have space in their home or they want to assist projects in their community.  On the Brik Market you can post an offer to give your ecobricks away, to trade or barter with them.  All you need is a GoBrik account and a selection of logged and authenticated ecobricks.</p>
 
 						</div>
-						<div class="side2"><img src="webp/various-briks-400px.webp" width="100%" alt="where to donate ecobricks near me?">
+						<div class="side2"><img src="../webp/various-briks-400px.webp" width="100%" alt="where to donate ecobricks near me?">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p><b>Authenticated Ecobricks Only</b></p>
 						</div>
-						<div class="side3"><img src="webp/various-briks-400px.webp" width="150px" alt="where to donate eco bricks near me?">
+						<div class="side3"><img src="../webp/various-briks-400px.webp" width="150px" alt="where to donate eco bricks near me?">
 						</div>
 					</div>
                 
@@ -113,7 +113,7 @@ Content Page template: v.1.0.1-->
                 <div id="preclosed10">
         <br>
 
-            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="Where can I find ecobricks near me?" loading="lazy">
+            <img src="../photos/eco-brick-storage-1000px.jpg" width="100%" alt="Where can I find ecobricks near me?" loading="lazy">
 
             <br>
             <p><b>Community Hubs</b></p>
@@ -138,7 +138,7 @@ Content Page template: v.1.0.1-->
 
 				<div id="preclosed3">
 
-                <img src="pngs/manual-blockchain.png" width="95%" loading="lazy" alt="eco brik authentification process">
+                <img src="../pngs/manual-blockchain.png" width="95%" loading="lazy" alt="eco brik authentification process">
             
 				<p>In order to provide a consistent means of pricing ecobricks across their various sizes and shapes, we cost then per kg of <a href="/aes">authenticated ecobricked sequestered plastic</a> (AES plastic).  As only ecobricks that have been logged and authenticated on the GoBrik system are eligible for exchange, the net weight of each ecobrick is already recorded.  This enables the calculation of the total weight of the batch of selected ecobricks being offered for exchanges.</p>  . 
 
@@ -164,7 +164,7 @@ Content Page template: v.1.0.1-->
                     </div>
 
                     <div class="side2">
-                        <br><img src="webp/albo-offer-350px.webp" width="90%" alt="eco brick being bought with a brikcoin by a bird" loading="lazy" alt="eco brick being bought with a brikcoin by a bird.">
+                        <br><img src="../webp/albo-offer-350px.webp" width="90%" alt="eco brick being bought with a brikcoin by a bird" loading="lazy" alt="eco brick being bought with a brikcoin by a bird.">
                     </div>
                 </div>
 			<a class="action-btn" href="https://gobrik.com/#market" target="_blank">🚀 Launch the Brik Market</a>
@@ -179,7 +179,7 @@ Content Page template: v.1.0.1-->
 		<div class="side">
 	
         <div id="side-module-desktop-mobile">
-					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
+					<img src="../webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
 					<h4>Global Ecobrick Alliance</h4>
 					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik and Brik Market platforms.</h5><br>
                     <a class="module-btn" href="about.php">Learn More</a>
@@ -187,14 +187,14 @@ Content Page template: v.1.0.1-->
 				</div>
 
             <div id="side-module-desktop-mobile">
-                <img src="webp/brikcoins-450px.webp" width="100%" loading="lazy" alt="eco brik brikcoin blockchain">
+                <img src="../webp/brikcoins-450px.webp" width="100%" loading="lazy" alt="eco brik brikcoin blockchain">
                 <h4>Brikcoin Blockchain</h4>
                 <h5>The Brik Market makes use of authenticated ecobrick sequestered plastic that has been validated on our chain.</h5><br>
                 <a class="module-btn" href="brikcoins.php">Learn More</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
+				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Using ecobricks as a means of community barter and exchange is another way to go local and reduce our reliance on the petro-capital economy.</h5><br>
 				<a class="module-btn" href="transition.php">Learn More</a>
@@ -216,7 +216,7 @@ Content Page template: v.1.0.1-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

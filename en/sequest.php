@@ -298,7 +298,7 @@ Content Page template: v.1.0.1-->
                                     <div class="main2">
                                     <p>The net result of the Earth's cycles has been the subtraction of more carbon from the atmosphere than was added back into it.  The steady sequestration of carbon led over time to the greening of the biosphere.   In the same way, the enterprise of plastic sequestration must subtract more carbon into secure storage than it emits and adds.</p>
                                     </div>
-                                    <div class="side2"><img src="icons/balance-glow-500px.webp" width="100%">
+                                    <div class="side2"><img src="../icons/balance-glow-500px.webp" width="100%">
                                     </div>
                                 </div>
 
@@ -306,7 +306,7 @@ Content Page template: v.1.0.1-->
                                     <div class="main3">
                                     <p>The processing of plastic within industry results in the net-addition of carbon into the atmosphere and the creation of more plastic.</p>
                                     </div>
-                                    <div class="side3"><br><img src="icons/balance-glow-500px.webp" width="120px">
+                                    <div class="side3"><br><img src="../icons/balance-glow-500px.webp" width="120px">
                                     </div>
                                 </div>
                             
@@ -389,11 +389,11 @@ Content Page template: v.1.0.1-->
 
                         <div id="preclosed7">   
 
-                        <
+                        
 
                             <div class="row">
                                     <div class="main2">
-                                    p><b>In the same way that the Earth has cultivated ever greater ecological awareness, the enterprise of plastic sequestration must do the same through ecological impact accounting and disclosure.</b></p>
+                                    <p><b>In the same way that the Earth has cultivated ever greater ecological awareness, the enterprise of plastic sequestration must do the same through ecological impact accounting and disclosure.</b></p>
                                     
                                     <p>The Earth’s cycles lead to the an ever increasing awareness of those impacted in an ecosystem.  Plastic sequestration must likewise increase our awareness through an accounting and disclosure of the ecological impacts of the process.</p>
                                     </div>
@@ -538,20 +538,20 @@ Content Page template: v.1.0.1-->
                 
             
 			<div class="side-module-desktop-mobile">
-				<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
+				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
 				<h4>Vitalizing Biodiversity</h4>
 				<h5>Just as Earth has vitalized processes that diversify, so too can we.</h5><br>
 				
 			</div>
             
 			<div class="side-module-desktop-mobile">
-					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
+					<img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
 					<h4>For-Earth</h4>
 					<h5>Just as Earth dispersed energy out to all, so too can we with our process that manage used plastic.</h5><br>
 				</div>
 
 			<div class="side-module-desktop-mobile">
-				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
+				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
 				<br><h4>Towards Concentration</h4>
 				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
 				<a class="module-btn" href="/plastic">Earth's Example</a>

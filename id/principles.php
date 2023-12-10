@@ -3,7 +3,7 @@
 <!--PAGE LANGUAGE:  INDONESIA
 Content Page template: v.1.0.1-->
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
-<?php require_once ("includes/principles-inc.php");?>
+<?php require_once ("../includes/principles-inc.php");?>
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
 <!--SPLASH SECTION-->
@@ -65,14 +65,14 @@ Content Page template: v.1.0.1-->
 						<p>Cara Bumi berputar dan menyimpan karbon telah menyebabkan berkembangnya biosfer sambil memberi kita contoh untuk diikuti. Dengan mengikuti prinsip planet kita, kita dapat memastikan cara modern kita juga hijau. Dan plastik kami (yang dibuat menggunakan karbon padat kuno) adalah tempat yang tepat untuk memulai!</p>
 
 					</div>
-					<div class="side2"><img src="svgs/following-earths-example.svg" width="100%">
+					<div class="side2"><img src="../svgs/following-earths-example.svg" width="100%">
 					</div>
 				</div>
 				<div class="row2">
 					<div class="main3">
 						<p>Mengikuti contoh Bumi adalah dasar dari <a href="https://book.earthen.io" target="_blank">Silat Bumi</a>: lima prinsip hijau berdasarkan karakter kosmologis planet kita.</p>
 					</div>
-					<div class="side3"><img src="svgs/following-earths-example.svg" width="150px">
+					<div class="side3"><img src="../svgs/following-earths-example.svg" width="150px">
 					</div>
 				</div>
 				
@@ -127,7 +127,7 @@ Content Page template: v.1.0.1-->
 						
 					</div>
 
-					<div class="side2"><img src="pngs/community.png" width="100%">
+					<div class="side2"><img src="../pngs/community.png" width="100%">
 					</div>
 				</div>
 
@@ -135,7 +135,7 @@ Content Page template: v.1.0.1-->
 					<div class="main3">
 					<p>Dengan memimpin dengan memberi contoh dalam mengikuti teladan Bumi, kita bisa menjadi inspirasi yang kuat.</p>
 					</div>
-					<div class="side3"><img src="pngs/community.png" width="150px">
+					<div class="side3"><img src="../pngs/community.png" width="150px">
 					</div>
 				</div>
 				
@@ -178,14 +178,14 @@ Content Page template: v.1.0.1-->
 				<p>Setiap hari ribuan ton plastik mengalir ke biosfer. Sementara itu, konsumsi plastik dan produksinya terus meningkat. Untuk menjadi solusi yang mendalam untuk plastik, solusi regeneratif harus menyebar dengan kecepatan lebih cepat daripada kecepatan ekspansi industri. Untuk memaksimalkan penyebaran, adopsi, dan transisi plastik kolektif, kami berusaha untuk memaksimalkan aksesibilitas metode kami sambil meminimalkan hambatan adopsi. Dengan cara ini, kami memberdayakan orang lain untuk membuat dan membangun dengan ecobrick agar mereka dapat memimpin dengan teladan mereka sendiri.</p>
 
 				</div>
-				<div class="side2"><img src="webp/eb-sky-400px.webp" width="100%">
+				<div class="side2"><img src="../webp/eb-sky-400px.webp" width="100%">
 				</div>
 			</div>
 			<div class="row2">
 				<div class="main3">
 					<p>Prinsip replikasi lokal kami mencakup beberapa prinsip kami yang lain.</p>
 				</div>
-				<div class="side3"><img src="webp/eb-sky-400px.webp" width="150px">
+				<div class="side3"><img src="../webp/eb-sky-400px.webp" width="150px">
 				</div>
 			</div>
 
@@ -239,14 +239,14 @@ Content Page template: v.1.0.1-->
 						
 
 					</div>
-					<div class="side2"><img src="webp/mandalic-23-900px.webp" width="100%">
+					<div class="side2"><img src="../webp/mandalic-23-900px.webp" width="100%">
 					</div>
 				</div>
 				<div class="row2">
 					<div class="main3">
 					<p>Paling sering, ini adalah niat untuk keuntungan seluruh komunitas– seperti membangun jembatan atau sumur.</p>
 					</div>
-					<div class="side3"><img src="webp/mandalic-23-900px.webp" width="150px">
+					<div class="side3"><img src="../webp/mandalic-23-900px.webp" width="150px">
 					</div>
 				</div>
 
@@ -288,7 +288,7 @@ Content Page template: v.1.0.1-->
 
 					</div>
 
-					<div class="side2"><img src="photos/transcaste.jpg" width="100%">
+					<div class="side2"><img src="../photos/transcaste.jpg" width="100%">
 					</div>
 				</div>
 
@@ -297,7 +297,7 @@ Content Page template: v.1.0.1-->
 						<p>Hal ini memungkinkan kami mengatasi perbedaan gender dan generasi lama untuk memperkuat kolaborasi kami dengan berbagai variasi kreativitas manusia sambil semakin mengurangi hambatan replikasi.</p>
 					</div>
 						
-					<div class="side3"><img src="photos/transcaste.jpg" width="150px">
+					<div class="side3"><img src="../photos/transcaste.jpg" width="150px">
 					</div>
 				</div>	
 			</div>
@@ -328,7 +328,7 @@ Content Page template: v.1.0.1-->
 	</div>
 
 	<div class="side2">
-		<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
+		<br><a href=""><img src="../webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
 		<p style="font-size: 0.85em; margin-top:20px;">Bagaimana ecobrick dibandingkan selama seribu tahun dengan opsi pengelolaan plastik lainnya?</a></p>
 	</div>
 </div>
@@ -348,7 +348,7 @@ Content Page template: v.1.0.1-->
 
 	
 		<div class="side-module-desktop-mobile">
-			<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="mendukung keanekaragaman hayati">
+			<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="mendukung keanekaragaman hayati">
 			<h4>Memperkaya Keanekaragaman Hayati</h4>
 			<h5>Seperti halnya Bumi menghidupi proses-proses yang memperkaya keanekaragaman, demikian juga kita dapat melakukannya.</h5><br>
 			<!--<a class="module-btn" href="about">Pelajari Lebih Lanjut</a>
@@ -357,7 +357,7 @@ Content Page template: v.1.0.1-->
 		</div>
         
 		<div class="side-module-desktop-mobile">
-				<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="Enterprise Untuk Bumi">
+				<img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="Enterprise Untuk Bumi">
 				<h4>Untuk Bumi</h4>
 				<h5>Seperti halnya Bumi menyebarkan energi ke semua orang, demikian juga kita melalui perusahaan kami yang mengelola plastik bekas.</h5><br>
 				<a class="module-btn" href="about">Contoh Kami</a>
@@ -366,7 +366,7 @@ Content Page template: v.1.0.1-->
 		</div>
 
 		<div class="side-module-desktop-mobile">
-			<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Mengikuti contoh Bumi melalui ecobrick">
+			<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Mengikuti contoh Bumi melalui ecobrick">
 			<br><h4>Menuju Konsentrasi</h4>
 			<h5>Seperti halnya Bumi mengkonsentrasikan dan mengamankan karbon untuk menghijaukan biosfer, demikian juga kita dapat melakukan hal yang sama dengan plastik melalui ecobricking.</h5><br>
 			<a class="module-btn" href="/plastic">Contoh Bumi</a>
@@ -397,7 +397,7 @@ Content Page template: v.1.0.1-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

@@ -2,7 +2,7 @@
 
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/what-inc.php");?>
+<?php require_once ("../includes/what-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
@@ -64,14 +64,14 @@
 						<p>
 						GEA mempertahankan standar untuk ecobrick yang dibagi menjadi enam kategori berdasarkan enam <a href="sequest.php">kriteria penyerapan plastik</a> GEA. Standar ecobrick GEA memastikan bahwa kriteria penyerapan plastik telah terpenuhi dan bahwa ecobriking kami sejalan dengan prinsip Earthen Ethics dan<a href="/plastic">contoh Bumi dalam menghijaukan biosfer</a>.< /p>
 						</div>
-						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="100%">
+						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Sebuah ecobrick harus memenuhi kriteria berikut:</p>
 						</div>
-						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="125px">
+						<div class="side3"><img src="../pngs/authenticated-ecobrick.png" width="125px">
 						</div>
 					</div>
 
@@ -110,7 +110,7 @@
 						<div class="main2">
 						<p>Ecobrick normal dibuat dengan botol plastik PET transparan ukuran berapa pun. Botol dan plastik kemasan bersih dan kering untuk mencegah pertumbuhan bakteri. Biasanya, ecobricker menggunakan tongkat kayu atau bambu untuk mengemas plastik secara manual ke dalam botol plastik. Plastik dipotong atau disobek menjadi potongan-potongan kecil kemudian dikemas sedikit demi sedikit, bergantian antara menambahkan plastik dan memadatkannya, lapis demi lapis. Botol diputar dengan setiap tekanan untuk memastikan plastik dipadatkan secara merata di seluruh botol. Ini membantu mencegah rongga dan kemasan mencapai soliditas yang diperlukan untuk aplikasi blok penyusun.</p>
 					</div>
-						<div class="side2"><img src="webp/brik-cascade.webp" width="150px">
+						<div class="side2"><img src="../webp/brik-cascade.webp" width="150px">
 						</div>
 					</div>
 
@@ -163,7 +163,7 @@
 						<div class="main2">
 						<p>Cigbrick adalah kelas ecobrick untuk mengamankan plastik/asetat yang berpotensi beracun dari filter rokok-- salah satu polutan plastik yang paling umum dan merusak. Cigbrick dibuat secara eksklusif dari filter asetat yang dikemas dari puntung rokok setelah kertas dan abunya benar-benar hilang.</p>
 					</div>
-						<div class="side2"><img src="svgs/Cigbrick.svg" width="100%">
+						<div class="side2"><img src="../svgs/Cigbrick.svg" width="100%">
 						</div>
 					</div>
 
@@ -171,7 +171,7 @@
 						<div class="main3">
 						<p>To be a Cigbrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="svgs/Cigbrick.svg" width="120px">
+						<div class="side3"><img src="../svgs/Cigbrick.svg" width="120px">
 						</div>
 					</div>
 			
@@ -218,7 +218,7 @@
 						<p>Ocean Ecobrick adalah kelas ecobrick yang dirancang untuk plastik yang ditemukan di pantai, sungai, dan laut. Plastik ini cenderung besar, tebal, kotor, dan basah dan tidak cocok untuk membuat ecobrick biasa. Teknik Ocean Ecobrick memungkinkan plastik ini dengan mudah diubah menjadi blok bangunan yang praktis, berguna, dan dapat digunakan kembali.</p>
 						</div>
 						<div class="side2">
-						<img src="webp/oeb-400px.webp" width="100%">
+						<img src="../webp/oeb-400px.webp" width="100%">
 						</div>
 					</div>
 
@@ -226,7 +226,7 @@
 						<div class="main3">
 						<p>Untuk menjadi Ocean Ecobrick, standar berikut harus dipenuhi:</p>
 						</div>
-						<div class="side3"><img src="webp/oeb-400px.webp" width="150px">
+						<div class="side3"><img src="../webp/oeb-400px.webp" width="150px">
 						</div>
 					</div>
 
@@ -293,21 +293,21 @@
 
 
 		<!--	<div id="side-module-desktop-mobile">
-			<img src="webp/earthen-400px.webp" width="90%">
+			<img src="../webp/earthen-400px.webp" width="90%">
 			<h4>Sekuestrasi Plastik</h4>
 			<h5>Ecobricking mengikuti contoh kepedulian bumi terhadap karbon untuk menyerap plastik dari biosfer.</h5><br>
 			<a href="sequest.php" target="_blank" class="module-btn">Pelajari Lebih Lanjut</a>
 			</div>
 				
 			<div id="side-module-desktop-only">
-			<img src="webp/earth-home.webp" width="85%">
+			<img src="../webp/earth-home.webp" width="85%">
 			<h4>Regeneratif</h4>
 			<h5>Ecobricking didasarkan pada mengikuti contoh Bumi dan dipandu oleh tujuh prinsip hijau.</h5><br>
 			<a class="module-btn" href="/principles">Prinsip</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="90%">
+				<img src="../webp/spiral-circular-400px.webp" width="90%">
 				<h4>Desain Melingkar</h4>
 				<h5>Ecobrick dan aplikasi bangunannya didesain melingkar.</h5><br>
 				<a class="module-btn" href="/circular">Pelajari Lebih Lanjut</a>
@@ -315,14 +315,14 @@
 
 	
 			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
+				<img src="../webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>GEA didedikasikan untuk mempercepat transisi plastik. Kami memimpin aplikasi GoBrik dan blockchain Brikcoin.</h5><br>
 				<a class="module-btn" href="about.php">Tentang Kami</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="../webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>Dengan mengungkapkan dampak karbon, plastik, dan keanekaragaman hayati kami dan dengan memastikan bahwa semuanya ramah lingkungan, GEA berkomitmen untuk for-Earth Enterprise</h5><br>
 <a class="module-btn" href="2021-regenreport.php">Pelajari Lebih Lanjut</a>
@@ -345,7 +345,7 @@
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

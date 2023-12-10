@@ -17,9 +17,9 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/what-$lang.php");?>
+<?php require_once ("../meta/what-$lang.php");?>
 
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 
 
@@ -222,7 +222,7 @@ _END;?>
 		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
 		<!--<div class="header-sub">A Solution For Plastic transition</div>-->
 	</div>
-	<div class="splash-image"><img src="svgs/eb-blue.svg" style="width: 80%;"></div>	
+	<div class="splash-image"><img src="../svgs/eb-blue.svg" style="width: 80%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -270,14 +270,14 @@ _END;?>
 						<p>
 						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics and the<a href="/plastic">Earth’s example of greening the biosphere</a>.</p>
 						</div>
-						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="100%">
+						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>An ecobrick must fulfil the following crieria:</p>
 						</div>
-						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="125px">
+						<div class="side3"><img src="../pngs/authenticated-ecobrick.png" width="125px">
 						</div>
 					</div>
 
@@ -315,7 +315,7 @@ _END;?>
 						<div class="main2">
 						<p>Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
 						</div>
-						<div class="side2"><img src="webp/brik-cascade.webp" width="150px">
+						<div class="side2"><img src="../webp/brik-cascade.webp" width="150px">
 						</div>
 					</div>
 
@@ -479,21 +479,21 @@ _END;?>
 		<div class="side">
 
 			<div id="side-module-desktop-mobile">
-			<img src="webp/earth-home.webp" width="90%">
+			<img src="../webp/earth-home.webp" width="90%">
 				<h4>Plastic Sequestration</h4>
 				<h5>Ecobricking is a form of plastic sequestration.  Ecobricks secure plastics out of the biosphere and accelerates plastic transition.</h5><br>
 				<a href="sequest.php" target="_blank" class="module-btn">Learn More</a>
 			</div>
 				
 			<div id="side-module-desktop-only">
-			<img src="webp/earth-example.webp" width="80%">
+			<img src="../webp/earth-example.webp" width="80%">
 				<h4>Regenerative</h4>
 				<h5>Ecobricking is based on following the Earth's example and is guided by seven green principles.</h5><br>
 				<a class="module-btn" href="/principles">Principles</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="90%">
+				<img src="../webp/spiral-circular-400px.webp" width="90%">
 				<h4>Spiral & Circular</h4>
 				<h5>Ecobricks and their building applications are circular by design.</h5><br>
 				<a class="module-btn" href="/circular">Learn More</a>
@@ -501,14 +501,14 @@ _END;?>
 
 	
 			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
+				<img src="../webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about.php">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="../webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="2021-regenreport.php">Learn More</a>
@@ -530,7 +530,7 @@ _END;?>
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

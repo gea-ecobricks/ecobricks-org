@@ -19,9 +19,9 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/arc-$lang.php");?>
+<?php require_once ("../meta/arc-$lang.php");?>
 
-	<?php require_once ("header.php");?>
+	<?php require_once ("../header.php");?>
 
 	<script type="text/javascript" defer>
 
@@ -316,7 +316,7 @@ text-align: right;}
 		<div class="header-sub">Connect Kbs of data acceleration<br>
 		to Kgs of plastic removed<br>
 		from the biosphere</div>
-		<img src="webp/arc-logos.webp">
+		<img src="../webp/arc-logos.webp">
 	</div>
 </div>
 <div id="grey-bar"></div>
@@ -411,7 +411,7 @@ text-align: right;}
 		<div class="side">
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/arc-green-popper.webp" width="70%">
+				<img src="../webp/arc-green-popper.webp" width="70%">
 				<h4>Arc.io</h4>
 				<h5>Arc has pioneered a decentralized content delivery network to provide an alternative to online advertisements.</h5><br>
 				<a href="https://arc.io/faq" target="_blank" class="module-btn">Arc FAQ</a>
@@ -434,7 +434,7 @@ text-align: right;}
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="../webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="about">About Us</a>
@@ -469,7 +469,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<!--FOOTER STARTS HERE-->
 	
 	<div id="footer-full">
-	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; position="absolute"; bottom="0"; ></div>
+	<div id="ocean-vision"><img src="../svgs/ocean-footer3.svg" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution"; position="absolute"; bottom="0"; ></div>
 	
 	
 	<div class="footer-vision">We envision a Transition in our Households, Communities and Enterprises from Plastic to ever Greener Harmony with Earth's Cycles.</div>
@@ -481,55 +481,55 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<div class="footer-icons-container">
 		<div class="footer-icons"><!--WIKIPEDIA-->
 			<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">
-			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page"></a>
+			<img src="../icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page"></a>
 			
 		</div>
 
 		<div class="footer-icons">
 			<a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener"><!--MATTERMOST-->
-			<img src="icons/mattermost.svg" width="100%" height="100%" alt="Join our Circles Ecobrick Support Community"  title="Join our Circles Ecobrick Support Community"></a>
+			<img src="../icons/mattermost.svg" width="100%" height="100%" alt="Join our Circles Ecobrick Support Community"  title="Join our Circles Ecobrick Support Community"></a>
 			<!--<div class="icon-name">/ecobricks</div>
 			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>-->
 		</div>
 
 		<div class="footer-icons"><!--GOBRIK-->
 			<a href="https://gobrik.com" target="_blank">
-			<img src="icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app"></a>
+			<img src="../icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app"></a>
 			
 		</div>
 
 		<div class="footer-icons">
 			<a href="https://medium.com/earthen/" target="_blank" rel="noopener"><!--MEDIUM-->
-			<img src="icons/medium.svg" width="100%" height="100%" alt="Follow our Medium.com Earthen publication"  title="Follow our Medium.com Earthen publication"></a>
+			<img src="../icons/medium.svg" width="100%" height="100%" alt="Follow our Medium.com Earthen publication"  title="Follow our Medium.com Earthen publication"></a>
 			
 		</div>
 
 		<div class="footer-icons"> <!--GITHUB-->
 			<a href="https://github.com/gea-ecobricks/ecobricks-org" target="_blank" rel="noopener">
-			<img src="icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository" title="Contribute to our Ecobricks.org Github repository"></a>
+			<img src="../icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository" title="Contribute to our Ecobricks.org Github repository"></a>
 			
 		</div>
 		
 		<div class="footer-icons"><!--FACEBOOK-->
 			<a href="https://facebook.com/ecobricks.org" target="_blank" rel="noopener">
-			<img src="icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"  title="Follow our Facebook page"></a>
+			<img src="../icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"  title="Follow our Facebook page"></a>
 		</div>
 
 		<div class="footer-icons"><!--YOUTUBE-->
 			<a href="https://www.youtube.com/c/Ecobricks" target="_blank" rel="noopener">
-			<img src="icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"  title="Subscribe to our Ecobricks YouTube channel"></a>
+			<img src="../icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"  title="Subscribe to our Ecobricks YouTube channel"></a>
 			
 		</div>
 
 		<div class="footer-icons"><!--INSTAGRAM-->
 			<a href="https://www.instagram.com/ecobricks.plastic.transition/" target="_blank" rel="noopener">
-			<img src="icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"  title="Instagram: Ecobricks.Plastic.Transition"></a>
+			<img src="../icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"  title="Instagram: Ecobricks.Plastic.Transition"></a>
 			
 		</div>
 
 		<!--<div class="footer-icons">--NEXTCLOUD
 			<a href="https://files.mandala.team/" target="_blank" rel="noopener">
-			<img src="icons/nextcloud.svg" width="100%" height="100%"></a>
+			<img src="../icons/nextcloud.svg" width="100%" height="100%"></a>
 			<div class="icon-name">/ecobricks</div>
 			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 		</div>-->
@@ -570,8 +570,8 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	
 
 	<div class="footer-conclusion">	
-					<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/"><img src="webp/disclose-500px.webp" width="330px" height="" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a></div>
-					<!--<a href="https://www.websitecarbon.com/website/ecobricks-org/"><img src="webp/web-carbon.webp" width="330px"></a>-->
+					<a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/"><img src="../webp/disclose-500px.webp" width="330px" height="" alt="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2021 ecological impacts on the GoBrik.com"></a></div>
+					<!--<a href="https://www.websitecarbon.com/website/ecobricks-org/"><img src="../webp/web-carbon.webp" width="330px"></a>-->
 					<br>
 
 					<div id="wcb" class="carbonbadge wcb-d"></div>
@@ -582,7 +582,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			The educational content of this site is made available by the Ecobrick Alliance under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Please attribute all usage to "Ecobricks.org - Global Ecobrick Alliance" using the same license.</div>
 			
 		<div class="footer-conclusion">	
-				<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/></a>
+				<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="../icons/cc-by-sa.svg" width="200px" height="45px"/></a>
 		</div>
 		<div class="footer-invite">
 			This website is a 100% volunteer and open source project.  Contribute on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank" rel="noopener">Github.</a>

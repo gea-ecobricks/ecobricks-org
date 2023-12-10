@@ -2,7 +2,7 @@
 
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/welcome-inc.php");?>
+<?php require_once ("../includes/welcome-inc.php");?>
 
 
 <!--MAIN CONTENT-->
@@ -25,7 +25,7 @@
 		<div id="sliders">
 
 		<div id="slider1">
-		<div id="slider-image"><img src="svgs/earth-home-animated-v4.svg" alt="Regenerative principles" width="100%" height="102%" style="min-width:175px;"></div>
+		<div id="slider-image"><img src="../svgs/earth-home-animated-v4.svg" alt="Regenerative principles" width="100%" height="102%" style="min-width:175px;"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Our Principles</div>
 					<div id="slider-date">2022 Updated | Content</div>
@@ -39,7 +39,7 @@
 			<div id="slider2">
 
 			<div id="slider-image">
-				<img src="webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
+				<img src="../webp/brikmarket-400px.webp" width="92%" height="100%" alt="Our eco brick market place for arranging trades and droping off ecobricks">
 			</div>
 			<div id="slider-textbox">
 				<div id="slider-heading">The Brik Market is Launched</div>
@@ -52,7 +52,7 @@
 
 
 			<div id="slider3">
-				<div id="slider-image"><img src="webp/catalyst.webp" width="92%" height="100%" alt="Our eco brick enterprise program"></div>
+				<div id="slider-image"><img src="../webp/catalyst.webp" width="92%" height="100%" alt="Our eco brick enterprise program"></div>
 					<div id="slider-textbox">
 					<div id="slider-heading">Plastic Transition Platform for Enterprises</div>
 					<div id="slider-date">GEA Announcements</div>
@@ -63,7 +63,7 @@
 
 			
 			<div id="slider4">
-			<div id="slider-image"><img src="webp/build-blue-450px.webp" style="width: 85%;"></div>	
+			<div id="slider-image"><img src="../webp/build-blue-450px.webp" style="width: 85%;"></div>	
 				<div id="slider-textbox">
 					<div id="slider-heading">Build with Ecobricks</div>
 					<div id="slider-date">GEA Updated Content</div>
@@ -79,7 +79,7 @@
 
 	<div id="content-sect1">
 	 	<div id="main-content">
-			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v4" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
+			<div id="dolphin-graphic"><img src="../svgs/dolphin-top-optimized.svg?v4" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<div class="big-header">Accelerating Plastic Transition</div>
 			<div class="sub-text">
 			<p>Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
@@ -95,7 +95,7 @@
 	  
 	<div id="content-sect2">
 		<div id="main-content">
-			<div class="lead-graphic"><img src="webp/earth-service-700px.webp" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
+			<div class="lead-graphic"><img src="../webp/earth-service-700px.webp" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
 			</div>
 			<div class="big-header">Follow the Earth's Example</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
@@ -111,7 +111,7 @@
 
 	<div id="content-sect3">
 		<div id="main-content">
-			<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
+			<div class="lead-graphic"><img src="../webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
 			<div class="big-header">The Problem is the Solution.</div>
 			<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Use them make modules, home furniture, play parks, and food-forest gardens.  Using the problem, we can build our greenest visions.</p>
 			</div> 
@@ -126,14 +126,14 @@
 
 	<div id="content-sect4">
 		<div id="main-content">
-			<div class="lead-graphic"><img src="webp/balancing-green.webp"  width="100%" height="100%" loading="lazy"></div>
-			<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration" loading="lazy"></div><!--width="300px" height="254px"-->
+			<div class="lead-graphic"><img src="../webp/balancing-green.webp"  width="100%" height="100%" loading="lazy"></div>
+			<div class="lead-graphic"><img src="../svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration" loading="lazy"></div><!--width="300px" height="254px"-->
 			<!--<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>-->
 			<div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
 			<a href="https://gobrik.com/#offset" target="_blank" class="main-button">Plastic Offsetting</a>
 			<h6><a href="/brikcoins">Brikcoin Blockchain</a> | <a href="/aes">AES Plastic</a> | <a href="transition.php">Plastic Transition</a> | <a href="about.php">About the GEA</a></h6><br><br>
 			<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>
-			<img src="svgs/3brikcoins.svg" width="30%">
+			<img src="../svgs/3brikcoins.svg" width="30%">
 
 			<br><br>
 			<h4>Eco-brick, eco brick, or ecobrick?</h4>

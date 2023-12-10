@@ -3,7 +3,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/brickable-inc.php");?>
+<?php require_once ("../includes/brickable-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>
@@ -70,7 +70,7 @@ Content Page template: v.1.0.1-->
                     
                    
 						</div>
-						<div class="side2"><img src="svgs/vsrecycling.svg" width="80%" alt="cyclical design icon">
+						<div class="side2"><img src="../svgs/vsrecycling.svg" width="80%" alt="cyclical design icon">
 						</div>
 					</div>
 
@@ -78,7 +78,7 @@ Content Page template: v.1.0.1-->
 						<div class="main3">
 						<p>As a transition-step, plastic products and packaging can be made brickable!</p> 
 						</div>
-						<div class="side3"><img src="icons/cyclical-design-icon-ecobricks-org.svg" width="120px" alt="Cyclical Circular Design">
+						<div class="side3"><img src="../icons/cyclical-design-icon-ecobricks-org.svg" width="120px" alt="Cyclical Circular Design">
 						</div>
 					</div>
 					 
@@ -186,9 +186,9 @@ Content Page template: v.1.0.1-->
 					<p>Here's some examples of our useage:</p>
 
 					<div id="flex-gallery" width="100%">
-						<a href="photos/brickable-1-716px.jpeg"><img src="photos/brickable-1-716px.jpeg" width="30%" alt="A black sticker used on a chocolate powder plastic bag"></a>
-						<a href="photos/brickable-2-716px.jpeg"><img src="photos/brickable-2-716px.jpeg" width="30%" alt="Integrated into the packaging of a Marimas juice product"></a>
-						<a href="photos/brickable-3-716px.jpeg"><img src="photos/brickable-3-716px.jpeg" width="30%" alt="A stick on a home based business health drink product"></a>
+						<a href="photos/brickable-1-716px.jpeg"><img src="../photos/brickable-1-716px.jpeg" width="30%" alt="A black sticker used on a chocolate powder plastic bag"></a>
+						<a href="photos/brickable-2-716px.jpeg"><img src="../photos/brickable-2-716px.jpeg" width="30%" alt="Integrated into the packaging of a Marimas juice product"></a>
+						<a href="photos/brickable-3-716px.jpeg"><img src="../photos/brickable-3-716px.jpeg" width="30%" alt="A stick on a home based business health drink product"></a>
 					</div>
 						
 			
@@ -231,7 +231,7 @@ Content Page template: v.1.0.1-->
 		<div id="side-module-desktop-only">
 			
 		
-		<img src="webp/brickable-kit.webp?v=1" width="90%">
+		<img src="../webp/brickable-kit.webp?v=1" width="90%">
 				<h4>Get Started</h4>
 				<h5>Download the Brickable Designator Kit today.</h5><br>
 				<a class="action-btn" href="https://files.ecobricks.org/s/oq9xPkNksf2ZPNX" target="_blank">🚀 Download Kit</a>
@@ -240,14 +240,14 @@ Content Page template: v.1.0.1-->
 
 	
 			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
+				<img src="../webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about.php">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following the Earth's example through eco bricking">
+				<img src="../icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Circular & Spiral Design</h4>
 				<h5>Ecobricks and all their applications are designed for cycles of indefinite reuse.</h5><br>
 				<a class="module-btn" href="/circular">Circular Design</a>
@@ -255,7 +255,7 @@ Content Page template: v.1.0.1-->
 			</div>   
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/balancing-green.webp" width="80%">
+				<img src="../webp/balancing-green.webp" width="80%">
 				<h4>Plastic Offsetting</h4>
 				<h5>Our Catalyst Program allows you to offset your plastic generation and support the global ecobrick movement.</h5><br>
 				<a class="module-btn" href="/aes">Learn More</a>
@@ -276,7 +276,7 @@ Content Page template: v.1.0.1-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

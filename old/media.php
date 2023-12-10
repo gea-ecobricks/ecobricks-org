@@ -18,9 +18,9 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/media-$lang.php");?>
+<?php require_once ("../meta/media-$lang.php");?>
 
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 
 
@@ -221,7 +221,7 @@ _END;?>
 		<div class="splash-heading">Media Kit</div>
 		<div class="splash-sub">Key points for the coverage of ecobricks & the plastic transition movement.</div>
 	</div>
-	<div class="splash-image"><img src="webp/earthcenter-banner-400px.webp" style="width: 80%;"></div>	
+	<div class="splash-image"><img src="../webp/earthcenter-banner-400px.webp" style="width: 80%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -466,7 +466,7 @@ _END;?>
                     </div></p>
 
                     <div class="side2">
-                        <br><img src="svgs/eb-blue.svg" width="100%" alt="how to make an eco brick" loading="lazy">
+                        <br><img src="../svgs/eb-blue.svg" width="100%" alt="how to make an eco brick" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -480,14 +480,14 @@ _END;?>
 
 
 		<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%" loading="lazy">
+				<img src="../webp/gea-logo-400px.webp" width="90%" loading="lazy">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
         <div id="side-module-desktop-mobile">
-				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy">
+				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
 				<a class="module-btn" href="transition">Learn More</a>
@@ -497,14 +497,14 @@ _END;?>
 		
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%" loading="lazy">
+				<img src="../webp/for-earth500px.webp" width="80%" loading="lazy">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
             <div id="side-module-desktop-mobile">
-                <img src="webp/faqs-400px.webp" width="100%" loading="lazy">
+                <img src="../webp/faqs-400px.webp" width="100%" loading="lazy">
                 <h4>Ecobricks</h4>
                 <h5>The GEA advocates ecobricking as a means to sequester plastic.</h5><br>
                 <a class="module-btn" href="sequest">Plastic Sequestration</a>
@@ -529,7 +529,7 @@ _END;?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
-<script src="accordion-scripts.js" defer></script> 
+<script src="../scripts/accordion-scripts.js" defer></script> 
 
 </div>
 </body>

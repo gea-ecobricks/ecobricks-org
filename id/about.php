@@ -3,7 +3,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/about-inc.php");?>
+<?php require_once ("../includes/about-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
@@ -15,7 +15,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Kami membayangkan Transisi dari Plastik di Rumah Tangga, Komunitas, dan Perusahaan kami menuju Harmoni yang Lebih Hijau dengan Siklus Bumi.</div>
 		<div class="splash-sub">— Visi GEA</div>
 	</div>
-	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -63,7 +63,7 @@ Content Page template: v.1.0.1-->
                             <p>Sebagai ecobrickers, kami mencatat seberapa banyak plastik yang kami konsumsi setiap bulan, membersihkannya, dan menyimpannya. Kami mengemas plastik kami menjadi ecobrick yang kami gunakan di rumah kami untuk membuat perabotan dan taman kami. Kami memimpin <a href="/trainings">pelatihan ecobrick</a> untuk perusahaan, komunitas dekat dan jauh. Baik untuk rumah tangga maupun perusahaan kami, kami mengkompensasi plastik kami untuk memastikan rumah tangga dan perusahaan kami netral dalam hal lingkungan. Kami melacak dan mengungkapkan kemajuan transisi plastik kami, seperti yang dilakukan Aliansi Global Ecobrick <a href="regenreports.php">setiap tahun</a>.</p>
 <p>Ecobricking kami memberi kami kesempatan untuk merenungkan konsumsi plastik kami sendiri. Kami merasa bahwa menyelesaikan masalah plastik jauh lebih kompleks daripada pelarangan dan bambu. Meskipun langkah-langkah tersebut sangat penting, menyelesaikan masalah plastik secara mendalam memerlukan peralihan yang luas dari cara budaya modern kita mengintegrasikan diri dengan biosfera.</p>
                             </div>
-                            <div class="side2"><img src="svgs/shanti.svg" width="88%">
+                            <div class="side2"><img src="../svgs/shanti.svg" width="88%">
                             </div>
                         </div>
 
@@ -72,7 +72,7 @@ Content Page template: v.1.0.1-->
                             
 							<p><b>Kami menyadari bahwa konsumsi dan produksi plastik kami berakar pada ekonomi global yang didukung oleh minyak bumi dan modal.</b></p>
                         </div>
-                        <div class="side3"><img src="svgs/shanti.svg" width="120px">
+                        <div class="side3"><img src="../svgs/shanti.svg" width="120px">
                         </div>
                     </div>
 					
@@ -108,7 +108,7 @@ Content Page template: v.1.0.1-->
 	<div class="main2">
 	<p>Global Ecobrick Alliance beroperasi sebagai perusahaan nirlaba dengan mandat untuk layanan Bumi. Ini berarti, berbeda dengan sebuah perusahaan, kami tidak memiliki pemegang saham atau pemilik yang mengumpulkan keuntungan. Ini juga berarti, berbeda dengan organisasi lainnya, kami tidak menerima dana amal, hibah, atau CSR. Dengan cara ini, kami tidak terikat pada agenda di luar misi dan visi kami, juga tidak terikat pada mandat pertumbuhan dan keuntungan.</p>
 	</div>
-	<div class="side2"><img src="webp/for-earth500px.webp" width="95%" alt="Kami membuat ecobrick untuk melayani Bumi">
+	<div class="side2"><img src="../webp/for-earth500px.webp" width="95%" alt="Kami membuat ecobrick untuk melayani Bumi">
 	</div>
 </div>
 
@@ -116,7 +116,7 @@ Content Page template: v.1.0.1-->
 	<div class="main3">
 	<p>Sebagai perusahaan Earth, fokus kami adalah pada penciptaan nilai ekologi yang autentik.</p>
 	</div>
-	<div class="side3"><img src="webp/for-earth500px.webp" width="120px" alt="Kami membuat ecobrick untuk melayani Bumi">
+	<div class="side3"><img src="../webp/for-earth500px.webp" width="120px" alt="Kami membuat ecobrick untuk melayani Bumi">
 	</div>
 </div>
 
@@ -161,8 +161,8 @@ dan diberi upah secara profesional untuk layanan ini oleh kelompok-kelompok masy
 					<p>Perusahaan kami mengikuti <a href="/plastic">contoh Bumi</a> dalam menghasilkan nilai ekologis. Untuk melakukannya, kami berusaha untuk mengikuti prinsip <a href="https://book.earthen.io/en/earthen.php" target="_blank">etika Earthen</a>: melayani Bumi terlebih dahulu dengan mendukung keanekaragaman hayati, meningkatkan kesadaran ekologis, dan menjaga pengurangan bersih karbon dan plastik dari biosfer oleh perusahaan kami.</p><br>
 
                         </div>
-							<div class="side2"><img src="webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
-							<div class="side3"><img src="webp/earthservice-400px.webp" width="120px" alt="an eco brick is a form of earth service"></div>
+							<div class="side2"><img src="../webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
+							<div class="side3"><img src="../webp/earthservice-400px.webp" width="120px" alt="an eco brick is a form of earth service"></div>
 					</div>
 
 					<p><b>2. Memimpin dengan Teladan</b></p>
@@ -343,7 +343,7 @@ GEA telah mengembangkan dan sekarang mempertahankan <a href="brikcoins.php">bloc
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

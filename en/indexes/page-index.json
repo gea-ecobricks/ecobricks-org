@@ -43,14 +43,34 @@
 },
 
 {
-    "pageID":"004",
+    "pageID":"005",
     "title":"Plastic Sequestration",
     "subtitle": "The theory, criteria and standards of plastic sequestration.",
     "keywords":"plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.",
     "language":"English",
     "Section":"Theory",
     "image_url":"..\/webp\/earth-service-700px.webp" 
-}
+},
+
+{
+    "pageID":"006",
+    "title":"The Long Story of Plastic",
+    "subtitle": "Understanding the ancient history of plastic is essential to putting it back to good use today.",
+    "keywords":"primordial, stellar story, earth, planet, dinosaurs, algae, ancient, carbon, billion years, multicellular organisms, oil, natural gas, left-overs, refinement, fossil fuels, CO2, coal",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"..\/webp\/earth-service-700px.webp" 
+},
+
+{
+    "pageID":"008",
+    "title":"Ecobrickable Design",
+    "subtitle": "Understanding the ancient history of plastic is essential to putting it back to good use today.",
+    "keywords":"primordial, stellar story, earth, planet, dinosaurs, algae, ancient, carbon, billion years, multicellular organisms, oil, natural gas, left-overs, refinement, fossil fuels, CO2, coal",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"..\/webp\/earth-service-700px.webp" 
+},
 
   
 ]

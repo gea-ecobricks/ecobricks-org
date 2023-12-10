@@ -20,9 +20,9 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/drop-off-$lang.php");?>
+<?php require_once ("../meta/drop-off-$lang.php");?>
 
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 
 
@@ -236,7 +236,7 @@ margin-bottom: 31px;}
 		<div class="splash-heading">The <var><var>Brik Market</var></var></div>
 	    <div class="splash-sub">The place to arrange ecobrick exchanges, hubs, barters and drop-offs.</div>
 	</div>
-	<div class="splash-image"><img src="webp/brikmarket-400px.webp?v1.3" style="width: 80%">
+	<div class="splash-image"><img src="../webp/brikmarket-400px.webp?v1.3" style="width: 80%">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -286,14 +286,14 @@ margin-bottom: 31px;}
 						<p>Ecobricks are awesome for small home projects.  However, sometimes ecobrickers do not have space in their home or they want to assist projects in their community.  On the <var>Brik Market</var> you can post an offer to give your ecobricks away, to trade or barter with them.  All you need is a (free) GoBrik account, a selection of logged and authenticated ecobricks.</p>
 
 						</div>
-						<div class="side2"><img src="webp/various-briks-400px.webp" width="100%" alt="where to donate ecobricks near me?">
+						<div class="side2"><img src="../webp/various-briks-400px.webp" width="100%" alt="where to donate ecobricks near me?">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p><b>Authenticated Ecobricks Only</b></p>
 						</div>
-						<div class="side3"><img src="webp/various-briks-400px.webp" width="150px" alt="where to donate eco bricks near me?">
+						<div class="side3"><img src="../webp/various-briks-400px.webp" width="150px" alt="where to donate eco bricks near me?">
 						</div>
 					</div>
                 
@@ -334,7 +334,7 @@ margin-bottom: 31px;}
                 <div id="preclosed10">
         <br>
 
-            <img src="photos/eco-brick-storage-1000px.jpg" width="100%" alt="Where can I find ecobricks near me?" loading="lazy">
+            <img src="../photos/eco-brick-storage-1000px.jpg" width="100%" alt="Where can I find ecobricks near me?" loading="lazy">
 
             <br>
             <p><b>Community Hubs</b></p>
@@ -385,7 +385,7 @@ margin-bottom: 31px;}
                     </div>
 
                     <div class="side2">
-                        <br><img src="webp/albo-offer-350px.webp" width="90%" alt="eco brick being bought with a brikcoin by a bird" loading="lazy" alt="eco brick being bought with a brikcoin by a bird.">
+                        <br><img src="../webp/albo-offer-350px.webp" width="90%" alt="eco brick being bought with a brikcoin by a bird" loading="lazy" alt="eco brick being bought with a brikcoin by a bird.">
                     </div>
                 </div>
 			<a class="action-btn" href="https://gobrik.com/#market" target="_blank">🚀 Launch the <var><var>Brik Market</var></var></a>
@@ -400,7 +400,7 @@ margin-bottom: 31px;}
 		<div class="side">
 	
         <div id="side-module-desktop-mobile">
-					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
+					<img src="../webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
 					<h4>Global Ecobrick Alliance</h4>
 					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik and <var><var>Brik Market</var></var> platforms.</h5><br>
                     <a class="module-btn" href="about.php">Learn More</a>
@@ -408,14 +408,14 @@ margin-bottom: 31px;}
 				</div>
 
             <div id="side-module-desktop-mobile">
-                <img src="webp/brikcoins-450px.webp" width="100%" loading="lazy" alt="eco brik brikcoin blockchain">
+                <img src="../webp/brikcoins-450px.webp" width="100%" loading="lazy" alt="eco brik brikcoin blockchain">
                 <h4>Brikcoin Blockchain</h4>
                 <h5>The <var><var>Brik Market</var></var> makes use of authenticated ecobrick sequestered plastic that has been validated on our chain.</h5><br>
                 <a class="module-btn" href="brikcoins.php">Learn More</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
+				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Using ecobricks as a means of community barter and exchange is another way to go local and reduce our reliance on the petro-capital economy.</h5><br>
 				<a class="module-btn" href="transition.php">Learn More</a>

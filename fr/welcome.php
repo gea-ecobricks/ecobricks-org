@@ -2,7 +2,7 @@
 
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/welcome-inc.php");?>
+<?php require_once ("../includes/welcome-inc.php");?>
 
 
 <!--MAIN CONTENT-->
@@ -76,7 +76,7 @@
 
 	<div id="content-sect1">
 	 	<div id="main-content">
-			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v=5" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
+			<div id="dolphin-graphic"><img src="../svgs/dolphin-top-optimized.svg?v=5" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<div class="big-header">Accélérer la transition plastique</div>
 			<div class="sub-text">
 			<p>Ensemble, nous pouvons garder notre plastique hors des océans. Avec les écobricks, nous pouvons sécuriser le plastique pour construire nos visions les plus vertes et déclencher une transition régénérative.</p>
@@ -90,7 +90,7 @@
 	  
 	<div id="content-sect2">
 		<div id="main-content">
-		<div class="lead-graphic"><img src="webp/earth-service-700px.webp" width="100%" height="96%" alt="les briques écologiques suivent l'exemple de la Terre." max-width="700px">
+		<div class="lead-graphic"><img src="../webp/earth-service-700px.webp" width="100%" height="96%" alt="les briques écologiques suivent l'exemple de la Terre." max-width="700px">
 </div>
 		<div class="big-header">Suivez l'exemple de la Terre</div>
 		<!--<div class="lead-paragraph">Rejoignez le mouvement régénérateur</div>-->
@@ -105,7 +105,7 @@
 
 	<div id="content-sect3">
 		<div id="main-content">
-		<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brique plastique bâtiment en brique"></div>
+		<div class="lead-graphic"><img src="../webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brique plastique bâtiment en brique"></div>
 		<div class="big-header">Le problème est la solution.</div>
 		<div class="sub-text"><p>Les écobricks transforment le plastique usagé en blocs de construction réutilisables, idéaux pour les applications de construction circulaires et en spirale. Utilisez-les pour fabriquer des modules, des meubles de maison, des parcs de jeux et des jardins de forêt alimentaire. En utilisant le problème, nous pouvons construire nos visions les plus vertes.</p>
 		</div>
@@ -119,14 +119,14 @@
 
 	<div id="content-sect4">
 		<div id="main-content">
-			<div class="lead-graphic"><img src="webp/balancing-green.webp" width="100%" height="100%"></div>
-			<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration"></div>
+			<div class="lead-graphic"><img src="../webp/balancing-green.webp" width="100%" height="100%"></div>
+			<div class="lead-graphic"><img src="../svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration"></div>
 			<!--<div class="lead-paragraph"><br>Présentation de la compensation plastique AES</div>-->
 			<div class="sub-text"><p><br>Accélérez votre parcours vers le zéro déchet grâce à la compensation plastique. Les compensations plastiques sont directement corrélées au plastique ecobrick authentifié via la blockchain manuelle Brikcoin.</p></div>
 			<a href="https://gobrik.com/#offset" target="_blank" class="main-button">Compensation plastique</a>
 			<h6><a href="/brikcoins">Brikcoins Blockchain</a> | <a href="/aes">Plastique AES</a> | <a href="transition.php">Transition plastique</a> | <a href="about.php">À propos de la GEA</a></h6><br><br>
 			<p>La blockchain manuelle Brikcoin permet l'authentification, la valorisation et la vitalisation des écobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Compensez la génération de plastique de votre ménage ou de votre entreprise avec nous.</a></p><br>
-			<img src="svgs/3brikcoins.svg" width="30%">
+			<img src="../svgs/3brikcoins.svg" width="30%">
 
 			<br><br>
 			<h4>Éco-brique, éco-brique ou éco-brique ?</h4>

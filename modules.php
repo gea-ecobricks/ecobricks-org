@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/modules-inc.php");?>
+<?php require_once ("../includes/modules-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>
@@ -61,15 +61,15 @@ Content Page template: v.1.0.0-->
                     <br>
             
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" loading="lazy"><img src="photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" height="175px" alt="A rainbow milstein module" loading="lazy"></a><p>A rainbow milstein module | England, UK</p></div>
-						<div class="gal-photo"><a href="photos/modules/first-modules.jpeg" loading="lazy"><img src="photos/modules/first-modules.jpeg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made | Tadjian, Philipinnes</p></div>
-						<div class="gal-photo"><a href="photos/modules/indonesia-module.jpg" loading="lazy"><img src="photos/modules/indonesia-module.jpg" height="175px" alt="A module made from square bottles | Indonesia"></a><p>A module made from square bottles | Indonesia</p></div>
+						<div class="gal-photo"><a href="photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" loading="lazy"><img src="../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" height="175px" alt="A rainbow milstein module" loading="lazy"></a><p>A rainbow milstein module | England, UK</p></div>
+						<div class="gal-photo"><a href="photos/modules/first-modules.jpeg" loading="lazy"><img src="../photos/modules/first-modules.jpeg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made | Tadjian, Philipinnes</p></div>
+						<div class="gal-photo"><a href="photos/modules/indonesia-module.jpg" loading="lazy"><img src="../photos/modules/indonesia-module.jpg" height="175px" alt="A module made from square bottles | Indonesia"></a><p>A module made from square bottles | Indonesia</p></div>
 					</div>
 
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/modules/kid-sitting-module.jpg" loading="lazy"><img src="photos/modules/kid-sitting-module.jpg" height="175px" alt="Simple and practical | Jogja, Indonesia."></a><p>Simple and practical | Jogja, Indonesia.</p></div>
-						<div class="gal-photo"><a href="photos/modules/lots-of-modules.jpg" loading="lazy"><img src="photos/modules/lots-of-modules.jpg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction.</p></div>
-						<div class="gal-photo"><a href="photos/modules/modules-storage.jpg"><img src="photos/modules/modules-storage.jpg" height="175px" alt="Modules can be easily stored too | Bali, Indonesia."></a><p>Modules can be easily stored too | Bali, Indonesia</p></div>
+						<div class="gal-photo"><a href="photos/modules/kid-sitting-module.jpg" loading="lazy"><img src="../photos/modules/kid-sitting-module.jpg" height="175px" alt="Simple and practical | Jogja, Indonesia."></a><p>Simple and practical | Jogja, Indonesia.</p></div>
+						<div class="gal-photo"><a href="photos/modules/lots-of-modules.jpg" loading="lazy"><img src="../photos/modules/lots-of-modules.jpg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction.</p></div>
+						<div class="gal-photo"><a href="photos/modules/modules-storage.jpg"><img src="../photos/modules/modules-storage.jpg" height="175px" alt="Modules can be easily stored too | Bali, Indonesia."></a><p>Modules can be easily stored too | Bali, Indonesia</p></div>
 					</div>
                     
 
@@ -101,7 +101,7 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed2">
 
                     <br>   
-                    <img src="webp/module-variations.webp" width="100%" alt="module variations"></a>
+                    <img src="../webp/module-variations.webp" width="100%" alt="module variations"></a>
                     
                     
                     <p>Hexagon milstein modules are made with 19 Ecobricks, these modules make the best stools and are the most versatile.  Hexagon modules can combine them like honey-comb.  Use them to build tables, stages, walls and more.</p>
@@ -112,14 +112,14 @@ Content Page template: v.1.0.0-->
 						
 
 						</div>
-						<div class="side2"><img src="photos/modules/module-stacking-illustration.jpg" width="100%" alt="How modules combine vertically" loading="lazy">
+						<div class="side2"><img src="../photos/modules/module-stacking-illustration.jpg" width="100%" alt="How modules combine vertically" loading="lazy">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Dieleman modules are another type of ecobrick module.  They are made with 16 ecobricks and enable vertical and horizontal building.  We have a special on Dieleman Modules.</p>
 						</div>
-						<div class="side3"><img src="photos/modules/module-stacking-illustration.jpg" width="150px" alt="How modules combine vertically" loading="lazy">
+						<div class="side3"><img src="../photos/modules/module-stacking-illustration.jpg" width="150px" alt="How modules combine vertically" loading="lazy">
 						</div>
 					</div>
 
@@ -154,7 +154,7 @@ Content Page template: v.1.0.0-->
 						
 
 						</div>
-						<div class="side2"><img src="webp/siliconing-300px.webp" width="100%" alt="siliconing eco bricks to make a module" loading="lazy">
+						<div class="side2"><img src="../webp/siliconing-300px.webp" width="100%" alt="siliconing eco bricks to make a module" loading="lazy">
                         
 						</div>
 					</div>
@@ -162,7 +162,7 @@ Content Page template: v.1.0.0-->
 						<div class="main3">
 						<p>This is almost a zero-waste process! The HDPE silicone tube can be easily recycled and/or used in your projects. See the chart at the bottom of the page on how this method compares with the tire banding methode.</p>
 						</div>
-						<div class="side3"><img src="webp/siliconing-300px.webp" width="150px" alt="Lay bottles on a perfectly flat surface. Ensure all bottles are the same size. Arrange a color pattern with caps and bottle bottoms. Silicone junction points. Press together. Let dry 25 hours." loading="lazy">
+						<div class="side3"><img src="../webp/siliconing-300px.webp" width="150px" alt="Lay bottles on a perfectly flat surface. Ensure all bottles are the same size. Arrange a color pattern with caps and bottle bottoms. Silicone junction points. Press together. Let dry 25 hours." loading="lazy">
 						</div>
 					</div>
                     
@@ -227,15 +227,15 @@ Content Page template: v.1.0.0-->
 				<div id="preclosed4">
                 
                 <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/modules/tire-banded-1.jpg" loading="lazy"><img src="photos/modules/tire-banded-1.jpg" height="175px" alt="A rainbow milstein module" loading="lazy"></a><p>A rainbow milstein module | England, UK</p></div>
-						<div class="gal-photo"><a href="photos/modules/tire-banded-2.jpg" loading="lazy"><img src="photos/modules/tire-banded-2.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made | Tadjian, Philipinnes</p></div>
-						<div class="gal-photo"><a href="photos/modules/tire-banded-3.jpg" loading="lazy"><img src="photos/modules/tire-banded-3.jpg" height="175px" alt="A module made from square bottles | Indonesia"></a><p>A module made from square bottles | Indonesia</p></div>
+						<div class="gal-photo"><a href="photos/modules/tire-banded-1.jpg" loading="lazy"><img src="../photos/modules/tire-banded-1.jpg" height="175px" alt="A rainbow milstein module" loading="lazy"></a><p>A rainbow milstein module | England, UK</p></div>
+						<div class="gal-photo"><a href="photos/modules/tire-banded-2.jpg" loading="lazy"><img src="../photos/modules/tire-banded-2.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made | Tadjian, Philipinnes</p></div>
+						<div class="gal-photo"><a href="photos/modules/tire-banded-3.jpg" loading="lazy"><img src="../photos/modules/tire-banded-3.jpg" height="175px" alt="A module made from square bottles | Indonesia"></a><p>A module made from square bottles | Indonesia</p></div>
 					</div>
 
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/modules/tire-banded-4.jpg" loading="lazy"><img src="photos/modules/tire-banded-4.jpg" height="175px" alt="A rainbow milstein module" loading="lazy"></a><p>A rainbow milstein module | England, UK</p></div>
-						<div class="gal-photo"><a href="photos/modules/tire-banded-5.jpg" loading="lazy"><img src="photos/modules/tire-banded-5.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made | Tadjian, Philipinnes</p></div>
-						<div class="gal-photo"><a href="photos/modules/tire-banded-6.jpg" loading="lazy"><img src="photos/modules/tire-banded-6.jpg" height="175px" alt="A module made from square bottles | Indonesia"></a><p>A module made from square bottles | Indonesia</p></div>
+						<div class="gal-photo"><a href="photos/modules/tire-banded-4.jpg" loading="lazy"><img src="../photos/modules/tire-banded-4.jpg" height="175px" alt="A rainbow milstein module" loading="lazy"></a><p>A rainbow milstein module | England, UK</p></div>
+						<div class="gal-photo"><a href="photos/modules/tire-banded-5.jpg" loading="lazy"><img src="../photos/modules/tire-banded-5.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made | Tadjian, Philipinnes</p></div>
+						<div class="gal-photo"><a href="photos/modules/tire-banded-6.jpg" loading="lazy"><img src="../photos/modules/tire-banded-6.jpg" height="175px" alt="A module made from square bottles | Indonesia"></a><p>A module made from square bottles | Indonesia</p></div>
 					</div>
                     
                     <p>With luck, you have a mechanics shop near you that works with motor bikes.&nbsp; By using the old inner tubes from motor cycles we can also connect our ecobricks together.&nbsp; Unfortunately, bicycle and car tires are too small and too big for the straightforward application of this method.&nbsp; But you’re welcome to try – it all depends on the diameter of your ecobricks and that of the inner-tube.</p>
@@ -296,7 +296,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed5">
                 <br>   
-                    <img src="photos/modules/module-next-life.jpg" width="100%" alt="module next life"></a>
+                    <img src="../photos/modules/module-next-life.jpg" width="100%" alt="module next life"></a>
                     
                     <p style="font-size: 1em;">An old module can be cut apart and its ecobricks reused.</>
                     <hr><br>
@@ -335,7 +335,7 @@ Content Page template: v.1.0.0-->
                 <div id="preclosed7">
 
                 <br>   
-                    <img src="photos/modules/open-space.jpg" width="100%" alt="module next life"></a>
+                    <img src="../photos/modules/open-space.jpg" width="100%" alt="module next life"></a>
                     
                     <p style="font-size: 1em;">An old module can be cut apart and its ecobricks reused.</>
                     <hr><br>
@@ -353,7 +353,7 @@ Content Page template: v.1.0.0-->
                     
                    
 						</div>
-						<div class="side2"><img src="webp/modules-circular.webp" width="80%" alt="cyclical design of modular applications">
+						<div class="side2"><img src="../webp/modules-circular.webp" width="80%" alt="cyclical design of modular applications">
 						</div>
 					</div>
 
@@ -361,7 +361,7 @@ Content Page template: v.1.0.0-->
 						<div class="main3">
 						<p>Of course, you can also use your ecobricks to make another module too!</p> 
 						</div>
-						<div class="side3"><img src="webp/modules-circular.webp" width="120px" alt="Cyclical Circular Design of module applications">
+						<div class="side3"><img src="../webp/modules-circular.webp" width="120px" alt="Cyclical Circular Design of module applications">
 						</div>
 					</div>
                 
@@ -446,7 +446,7 @@ Content Page template: v.1.0.0-->
                 </div>
 
                 <div class="side2">
-                    <br><img src="webp/dieleman-325px.webp" width="90%" alt="ecobrick dieleman lego module 18 ecobricks" loading="lazy">
+                    <br><img src="../webp/dieleman-325px.webp" width="90%" alt="ecobrick dieleman lego module 18 ecobricks" loading="lazy">
                 </div>
             </div>
 </div>
@@ -461,21 +461,21 @@ Content Page template: v.1.0.0-->
         
 
         <div id="side-module-desktop-mobile">
-                <img src="webp/milstein.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Get started with 12 Briks!</h4>
                 <h5>To make your first milstein module all you need is twelve ecobricks.  Once that's done, you can keep adding to it, or make others that fit into the first.</h5><br>
                 
             </div>
 
             <div id="side-module-desktop-mobile">
-                <img src="webp/module-table.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Combine Modules</h4>
                 <h5>After one module is done you can keep adding to it, or make others that fit into the first.</h5><br>
                 
             </div>
 
             <div id="side-module-desktop-mobile">
-                <img src="webp/modules-circular.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <img src="../webp/modules-circular.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Circular & Spiral</h4>
                 <h5>Milstein modules are 100% circular-- meaning that when their life comes to an end they can be either repaired or disassembled to make something else.</h5><br>
                 <a class="module-btn" href="/circular/">Learn More</a>
@@ -484,7 +484,7 @@ Content Page template: v.1.0.0-->
             
 
             <div id="side-module-desktop-mobile">
-                <img src="webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Then build with Earth!</h4>
                 <h5>After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
                 <a class="module-btn" href="/build">Earth Building</a>
@@ -494,7 +494,7 @@ Content Page template: v.1.0.0-->
             
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
+				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
 				<a class="module-btn" href="transition.php">Learn More</a>
@@ -524,7 +524,7 @@ Content Page template: v.1.0.0-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

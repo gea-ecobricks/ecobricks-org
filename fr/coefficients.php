@@ -3,7 +3,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/coefficients-inc.php");?>
+<?php require_once ("../includes/coefficients-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -16,7 +16,7 @@ Content Page template: v.1.0.1-->
 		<div class="splash-heading">Coefficients plastiques pour la comptabilité écologique<br></div>
 		<div class="splash-sub">Rapports sur la régénérativité d'entreprise</div>
 	</div>
-	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 75%;"></div>	
+	<div class="splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 75%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -246,7 +246,7 @@ Content Page template: v.1.0.1-->
 		
 			
 		<div id="side-module-desktop-only">
-        <img src="webp/2020-regen-report.webp" width="90%">
+        <img src="../webp/2020-regen-report.webp" width="90%">
 				<h4>GEA Regen Reports</h4>
 				<h5>We're proud to publish our net-green ecological impact each year.</h5><br>
 				<a class="module-btn" href="regenreports.php">Access Report</a><br><br>
@@ -254,14 +254,14 @@ Content Page template: v.1.0.1-->
 
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/for-earth500px.webp" width="80%">
+				<img src="../webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By disclosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="about.php">About Us</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/gea-logo-400px.webp" width="90%">
+				<img src="../webp/gea-logo-400px.webp" width="90%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>Our mission is to accelerate plastic transition.  To do so we preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about.php">About Us</a>
@@ -283,7 +283,7 @@ Content Page template: v.1.0.1-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

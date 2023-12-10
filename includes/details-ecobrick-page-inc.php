@@ -21,9 +21,9 @@ _END;?>
 <link rel="preload" as="image" href="https://ecobricks.org/webp/brikmarket-400px.webp?v1.3">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/brik-market-banner3.svg">
 
-<?php require_once ("meta/details-ecobrick-en.php");?>
+<?php require_once ("../meta/details-ecobrick-en.php");?>
 
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 <!-- Required script for something?? -->
 

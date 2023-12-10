@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/newsletters-inc.php");?>
+<?php require_once ("../includes/newsletters-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page
 
@@ -158,7 +158,7 @@ Content Page template: v.1.0.0-->
                 </div>
 
                 <div class="side2">
-                    <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                    <br><img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                 </div>
             </div>
 </div>
@@ -172,14 +172,14 @@ Content Page template: v.1.0.0-->
 	
 			
             <div id="side-module-desktop-mobile">
-                <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <img src="../webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Plastic Sequestration</h4>
                 <h5>The GEA advocates ecobrick building to sequester plastic.  Only builds that follow best-practices, embody earth principles and use authenticated eco<span class="eco-brick"> </span>bricks sequester plastic.</h5><br>
                 <a class="module-btn" href="sequest.php">Learn More</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
+				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
 				<a class="module-btn" href="transition.php">Learn More</a>
@@ -188,14 +188,14 @@ Content Page template: v.1.0.0-->
 			
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
+				<img src="../webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
 				<h4>Circular Design</h4>
 				<h5>Ecobrick applications follows the principles of circular design to put our plastic into indefinite greening cycles of reuse.</h5><br>
 				<a class="module-btn" href="/circular">Learn More</a>
 			</div>
 
             <div id="side-module-desktop-mobile">
-				<img src="pngs/transcaste-500px.png" width="80%" loading="lazy" alt="eco brick transcaste construction and building briks.">
+				<img src="../pngs/transcaste-500px.png" width="80%" loading="lazy" alt="eco brick transcaste construction and building briks.">
 				<h4>Transcate Collaboration</h4>
 				<h5>In contrast to conventional construction, Earth and ecobricking building is transcaste, meaning that it is accessible to men and women, young and old, black and white, and everyone in between!</h5><br>
 				<a class="module-btn" href="principles.php">Learn More</a>
@@ -223,7 +223,7 @@ Content Page template: v.1.0.0-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

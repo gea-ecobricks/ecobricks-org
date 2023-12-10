@@ -156,7 +156,7 @@
 			
 			<!--<p>The Brikcoin manual blockchain enables the authentication, valuation and vitalization of ecobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Offset your household or company plastic generation with us.</a></p><br>-->
 
-			<img src="svgs/3brikcoins.svg" width="30%" alt="Introducting Brikcoins">
+			<img src="../svgs/3brikcoins.svg" width="30%" alt="Introducting Brikcoins">
 
 			<br><br>
 			<h4>Eco-brick, eco brick, or ecobrick?</h4>

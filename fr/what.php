@@ -2,7 +2,7 @@
 
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/what-inc.php");?>
+<?php require_once ("../includes/what-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -62,14 +62,14 @@
 						<p>
 						La GEA maintient des normes pour l'écobrique qui sont divisées en six catégories basées sur les six <a href="sequest.php">critères de la GEA pour la séquestration du plastique</a>. Les normes d'écobriques de la GEA garantissent que les critères de séquestration du plastique ont été respectés et que notre écobriking est conforme aux principes de l'éthique terrestre et à l'<a href="/plastic">exemple de la Terre pour verdir la biosphère</a>.</p>
 						</div>
-						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="100%">
+						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Une écobrique doit remplir les critères suivants :</p>
 						</div>
-						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="125px">
+						<div class="side3"><img src="../pngs/authenticated-ecobrick.png" width="125px">
 						</div>
 					</div>
 
@@ -108,7 +108,7 @@
 						<div class="main2">
 						<p>Les écobriques normales sont fabriquées avec n'importe quelle taille de bouteille en plastique PET transparent. La bouteille et le plastique emballé sont propres et secs pour empêcher la croissance de bactéries. En règle générale, les écobrickers utilisent un bâton en bois ou en bambou pour emballer manuellement le plastique dans la bouteille en plastique. Le plastique est coupé ou déchiré en petits morceaux puis emballé petit à petit, en alternant entre l'ajout du plastique et son compactage, couche par couche. La bouteille est tournée à chaque pression pour s'assurer que le plastique est uniformément compacté dans toute la bouteille. Cela aide à éviter les vides et à ce que la garniture atteigne la solidité requise pour les applications d'un bloc de construction.</p>
 </div>
-						<div class="side2"><img src="webp/brik-cascade.webp" width="150px">
+						<div class="side2"><img src="../webp/brik-cascade.webp" width="150px">
 						</div>
 					</div>
 
@@ -159,7 +159,7 @@
 						<div class="main2">
 						<p>Cigbricks are a class of ecobrick to secure the potentially toxic plastic/acetate of the cigarette filters-- one of the most prevalent and damaging of all plastic pollutants. Cigbricks are made exclusively from the packed acetate filters of cigarette butts once the paper and ash has been fully removed.</p>
 						</div>
-						<div class="side2"><img src="svgs/Cigbrick.svg" width="100%">
+						<div class="side2"><img src="../svgs/Cigbrick.svg" width="100%">
 						</div>
 					</div>
 
@@ -167,7 +167,7 @@
 						<div class="main3">
 						<p>To be a Cigbrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="svgs/Cigbrick.svg" width="120px">
+						<div class="side3"><img src="../svgs/Cigbrick.svg" width="120px">
 						</div>
 					</div>
 			
@@ -214,7 +214,7 @@
 						<p>Ocean Ecobricks are a class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
 						</div>
 						<div class="side2">
-						<img src="webp/oeb-400px.webp" width="100%">
+						<img src="../webp/oeb-400px.webp" width="100%">
 						</div>
 					</div>
 
@@ -222,7 +222,7 @@
 						<div class="main3">
 						<p>To be an Ocean Ecobrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="webp/oeb-400px.webp" width="150px">
+						<div class="side3"><img src="../webp/oeb-400px.webp" width="150px">
 						</div>
 					</div>
 
@@ -304,7 +304,7 @@
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

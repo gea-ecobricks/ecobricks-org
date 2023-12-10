@@ -20,9 +20,9 @@ echo <<<_END
 
 _END;?>
 
-<?php require_once ("meta/about-$lang.php");?>
+<?php require_once ("../meta/about-$lang.php");?>
 
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 
 
@@ -222,7 +222,7 @@ _END;?>
 		<div class="splash-heading">We envision a Transition from Plastic in our Households, Communities and Enterprises towards an ever Greener Harmony with Earth’s Cycles.</div>
 		<div class="splash-sub">— GEA Vision Statement</div>
 	</div>
-	<div class="splash-image"><img src="webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -272,7 +272,7 @@ _END;?>
                             <p>As ecobrickers ourselves, we keep track of how much plastic we consume each month, clean and wash it, and put it aside.  We pack our plastic into ecobricks which we use in our homes to make our furniture and gardens.  We lead <a href="/trainings">ecobrick trainings</a> for companies, communities near and far.  For both our households and enterprises we offset our plastic to make sure our household and our enterprises are net green.  We track and disclose our plastic transition progress, just like the Global Ecobrick Alliance <a href="2021-regenreport.php">does each year</a>.</p>
 							<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
                             </div>
-                            <div class="side2"><img src="svgs/shanti.svg" width="88%">
+                            <div class="side2"><img src="../svgs/shanti.svg" width="88%">
                             </div>
                         </div>
 
@@ -281,7 +281,7 @@ _END;?>
                             
 							<p><b>We observe that our consumption and production of plastic is rooted in the global petroleum and capital powered economy.</b></p>
                             </div>
-                            <div class="side3"><img src="svgs/shanti.svg" width="120px">
+                            <div class="side3"><img src="../svgs/shanti.svg" width="120px">
                             </div>
                         </div>
 					
@@ -319,7 +319,7 @@ _END;?>
                             <div class="main2">
                             <p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It aso, means that unlike an organizations, we do not receive charity, grants or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor a mandate of growth and profits.</p>
                             </div>
-                            <div class="side2"><img src="webp/for-earth500px.webp" width="95%" alt="We make eco bricks to serve the Earth">
+                            <div class="side2"><img src="../webp/for-earth500px.webp" width="95%" alt="We make eco bricks to serve the Earth">
                             </div>
                         </div>
 
@@ -327,7 +327,7 @@ _END;?>
                             <div class="main3">
                             <p>As an Earth enterprise our focus is on generation authentic ecological value. </p>
                             </div>
-                            <div class="side3"><img src="webp/for-earth500px.webp" width="120px" alt="We make eco bricks to serve the Earth">
+                            <div class="side3"><img src="../webp/for-earth500px.webp" width="120px" alt="We make eco bricks to serve the Earth">
                             </div>
                         </div>
 
@@ -371,8 +371,8 @@ _END;?>
 								<p>Our enterprise follows the <a href="/plastic">Earth's example</a> in generating ecological value.  To do so we strive to follow the principles of <a href="https://earthen.io/the-earthen-ways/" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p><br>
 
                         </div>
-							<div class="side2"><img src="webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
-							<div class="side3"><img src="webp/earthservice-400px.webp" width="120px" alt="an eco brick is a form of earth service"></div>
+							<div class="side2"><img src="../webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
+							<div class="side3"><img src="../webp/earthservice-400px.webp" width="120px" alt="an eco brick is a form of earth service"></div>
 					</div>
 
 					<p><b>2. Leading by Example</b></p>
@@ -532,7 +532,7 @@ _END;?>
 		
 			
 			<div id="side-module-desktop-mobile">
-			<img src="webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
+			<img src="../webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
 					<h4>NEW: 2021 Regen Report</h4>
 					<h5>We're proud to publish our net-green ecological impact for the past year.</h5><br>
 					<a class="module-btn" href="/2021-regenreport.php">Access Report</a><br><br>
@@ -540,14 +540,14 @@ _END;?>
 
 
 				<div id="side-module-desktop-mobile">
-					<img src="webp/for-earth500px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
+					<img src="../webp/for-earth500px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 					<h4>For-Earth Enterprise</h4>
 					<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 					
 				</div>
 
 				<div id="side-module-desktop-mobile">
-					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
+					<img src="../webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
 					<h4>Global Ecobrick Alliance</h4>
 					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 					
@@ -585,7 +585,7 @@ _END;?>
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<script src="accordion-scripts.js" defer></script> 
+<script src="../scripts/accordion-scripts.js" defer></script> 
 
 
 </div>

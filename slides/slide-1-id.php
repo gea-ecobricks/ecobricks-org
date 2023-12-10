@@ -2,7 +2,7 @@
 
 <div id="slider1">
 
-<div id="slider-image"><img src="svgs/earth-home-animated-v4.svg?v=2" alt="Prinsip regeneratif" width="100%" height="102%" gaya ="min-width:175px;">
+<div id="slider-image"><img src="../svgs/earth-home-animated-v4.svg?v=2" alt="Prinsip regeneratif" width="100%" height="102%" gaya ="min-width:175px;">
          </div>
 
          <div id="slider-textbox">

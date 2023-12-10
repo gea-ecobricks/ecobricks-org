@@ -3,7 +3,7 @@
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
 
 
-<?php require_once ("includes/brikchain-inc.php");?>
+<?php require_once ("../includes/brikchain-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -15,7 +15,7 @@
 		<div class="splash-heading"><br>Penjelajah Brikchain</div>
 		<div class="splash-sub">Semuah Briks, Blocks & Transaksi.</div>
 	</div>
-	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	
+	<div class="splash-image"><img src="../webp/brikchain-450px.webp" style="width: 80%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -48,7 +48,7 @@
 		<div class="side">
 
 			<div id="side-module-desktop-only">
-				<img src="webp/for-earth500px.webp" width="90%" alt="Following the Earth's example through eco bricking">
+				<img src="../webp/for-earth500px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
 				<h5>The Brikchain is maintained by the Global Ecobrick Alliance, a not-for-profit, for-Earth enterprise dedicated to accelerating plastic transition.</h5><br>
 				<a class="module-btn" href="/about">About the GEA</a>

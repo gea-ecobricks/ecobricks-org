@@ -3,7 +3,7 @@
 
     <div id="slider2">
 
-    <div id="slider-image"><img src="svgs/building-methods.svg" style="width: 85%;" alt="Méthodes de construction régénératives en écobriques">
+    <div id="slider-image"><img src="../svgs/building-methods.svg" style="width: 85%;" alt="Méthodes de construction régénératives en écobriques">
         </div>
 		
         <div id="slider-textbox">

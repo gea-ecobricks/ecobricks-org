@@ -4,7 +4,7 @@ Special Ecobrick View Page: v.1.1-->
   
  
 <?php 
-require_once ("includes/details-ecobrick-page-inc.php");
+require_once ("../includes/details-ecobrick-page-inc.php");
 
 include 'ecobricks_env.php';
 
@@ -141,7 +141,7 @@ echo '
 			echo 'Sorry! :-(</div>
 			<div class="splash-sub">No results for ecobrick '. $serialNo .' in the Brikchain.  Most likely this is because the Brikchain data is still in migration.</div>
 		</div>
-		<div class="splash-image"><img src="webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
+		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
 	</div>
 	<div id="splash-bar"></div>
 
@@ -188,7 +188,7 @@ echo '
 		<div class="side">
 
 		<div id="side-module-desktop-mobile">
-				<img src="pngs/authenticated-ecobrick.png" width="90%" alt="Following the Earth's example through eco bricking">
+				<img src="../pngs/authenticated-ecobrick.png" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Authenticated!</h4>
 				<h5>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</h5><br>
 				<a class="module-btn" href="/about">About Ecobricks</a>
@@ -196,14 +196,14 @@ echo '
 			</div>   
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
+				<img src="../webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<!--<h4>AES Plastic</h4>-->
 				<h5>The weight of the plastic inside an authenticated ecobrick is what we call Authenticated Ecobricked Plastic (AES plastic) for short.</h5><br>
 				<a class="module-btn" href="/aes" target="_blank">About AES</a><br><br>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
+				<img src="../webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Brikcoins</h4>
 				<h5>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
@@ -226,7 +226,7 @@ echo '
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

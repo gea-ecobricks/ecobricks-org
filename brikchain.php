@@ -3,7 +3,7 @@
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
 
 
-<?php require_once ("includes/brikchain-inc.php");?>
+<?php require_once ("../includes/brikchain-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>
@@ -15,7 +15,7 @@
 		<div class="splash-heading"><br>Brikchain Explorer</div>
 		<div class="splash-sub">All the Briks, Blocks & Transactions.</div>
 	</div>
-	<div class="splash-image"><img src="webp/brikchain-450px.webp" style="width: 80%;"></div>	
+	<div class="splash-image"><img src="../webp/brikchain-450px.webp" style="width: 80%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -296,7 +296,7 @@
 
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 

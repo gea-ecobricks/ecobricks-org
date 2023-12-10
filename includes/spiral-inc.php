@@ -21,9 +21,9 @@ _END;?>
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("meta/spiral-$lang.php");?>
+<?php require_once ("../meta/spiral-$lang.php");?>
 
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 
 <STYLE>

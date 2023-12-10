@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/earth-inc.php");?>
+<?php require_once ("../includes/earth-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>
@@ -60,15 +60,15 @@ Content Page template: v.1.0.0-->
                     <br>
             
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="photos/earth1.jpg?v=2" height="175px" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
-						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="photos/earth2.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
-						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="photos/earth3.jpg" height="175px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
+						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="../photos/earth1.jpg?v=2" height="175px" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
+						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="../photos/earth2.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
+						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="../photos/earth3.jpg" height="175px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
 					</div>
 
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth-garden.jpeg"><img src="photos/earth-garden.jpeg?v=2" height="175px" alt="A simple raised bed garden bench."></a><p>A simple raised bed garden bench -- Indonesia</p></div>
-						<div class="gal-photo"><a href="photos/earth-well.jpeg"><img src="photos/earth-well.jpeg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction -- UK</p></div>
-						<div class="gal-photo"><a href="photos/earth-snake.jpeg"><img src="photos/earth-snake.jpeg" height="175px" alt="An ecobrick snake play-bench for a public park."></a><p>An ecobrick snake play-bench for a public park -- Philippines</p></div>
+						<div class="gal-photo"><a href="photos/earth-garden.jpeg"><img src="../photos/earth-garden.jpeg?v=2" height="175px" alt="A simple raised bed garden bench."></a><p>A simple raised bed garden bench -- Indonesia</p></div>
+						<div class="gal-photo"><a href="photos/earth-well.jpeg"><img src="../photos/earth-well.jpeg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction -- UK</p></div>
+						<div class="gal-photo"><a href="photos/earth-snake.jpeg"><img src="../photos/earth-snake.jpeg" height="175px" alt="An ecobrick snake play-bench for a public park."></a><p>An ecobrick snake play-bench for a public park -- Philippines</p></div>
 					</div>
                     
 
@@ -101,14 +101,14 @@ Content Page template: v.1.0.0-->
 
                     <br>   
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="photos/earth4.jpg" height="200px" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
-						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="photos/earth5.jpg?v=2" height="200px" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
-						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="photos/earth6.jpg" height="200px" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
+						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="../photos/earth4.jpg" height="200px" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
+						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="../photos/earth5.jpg?v=2" height="200px" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
+						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="../photos/earth6.jpg" height="200px" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
 					</div>
                     <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/lizzie-earth-photo.jpg"><img src="photos/lizzie-earth-photo.jpg" height="190px" alt="Fully organic earth and ecobrick technique"></a><p>Fully organic earth and ecobrick technique -- Wales, UK</p></div>
-						<div class="gal-photo"><a href="photos/earth-home-sagada.jpg"><img src="photos/earth-home-sagada.jpg" height="190px" alt="An ecobrick and cob circular entrance-way -- Sabangan, Philippines"></a><p>An ecobrick and cob circular entrance-way -- Sabangan, Philippines</p></div>
-						<div class="gal-photo"><a href="photos/mandala-earth-window.jpg"><img src="photos/mandala-earth-window.jpg" height="190px" alt="An ecobrick and glass bottle wall -- Nepal"></a><p>An ecobrick and glass bottle wall -- Nepal</p></div>
+						<div class="gal-photo"><a href="photos/lizzie-earth-photo.jpg"><img src="../photos/lizzie-earth-photo.jpg" height="190px" alt="Fully organic earth and ecobrick technique"></a><p>Fully organic earth and ecobrick technique -- Wales, UK</p></div>
+						<div class="gal-photo"><a href="photos/earth-home-sagada.jpg"><img src="../photos/earth-home-sagada.jpg" height="190px" alt="An ecobrick and cob circular entrance-way -- Sabangan, Philippines"></a><p>An ecobrick and cob circular entrance-way -- Sabangan, Philippines</p></div>
+						<div class="gal-photo"><a href="photos/mandala-earth-window.jpg"><img src="../photos/mandala-earth-window.jpg" height="190px" alt="An ecobrick and glass bottle wall -- Nepal"></a><p>An ecobrick and glass bottle wall -- Nepal</p></div>
 					</div>
 
                     <p>If there’s anything that the very different earth building traditions around the world have in common it is that they used what was local to them.  Earth building makes use of the earth (sand, clay, rock, pebbles, etc.) that is nearby along with the local organic materials (wood, bamboo, reeds, grasses, etc).  By keeping it local, we reduce the need for long haul transportation.  This ensures a low-energy impact footprint for our building and it encourages the community management of regrowing trees and bamboo to meet local needs.</p>
@@ -137,7 +137,7 @@ Content Page template: v.1.0.0-->
                 
                 <br>
 
-                <img src="photos/reusing-ecobricks.png" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
+                <img src="../photos/reusing-ecobricks.png" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">
                 <h5><b>Ecobricks carefully removed from a destroyed construction and ready to be used again.</b></h5>
 
                 <br>
@@ -167,7 +167,7 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed4">
                 
-                    <img src="photos/earth-collab.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
+                    <img src="../photos/earth-collab.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
             
 					<p>Earth and ecobrick building methods are designed from the ground up to be replicable, non-capital, non-petroleum, collaboration powered.</p>
                     <p>Unlike conventional or commercial building methods, that require paying specialized architects, engineers and builders, every element of earth and ecobrick building is designed to be accessible to the participation and contribution of everyone in the community.   These <i>transcaste</i> building methods are non hierarchical and readily involves all genders and ages in the various processes.</p>
@@ -194,13 +194,13 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed5">
 
-                <img src="photos/earth-building-biodiversity.jpg" width="100%" loading="lazy" alt="green space balili school food forest park">
+                <img src="../photos/earth-building-biodiversity.jpg" width="100%" loading="lazy" alt="green space balili school food forest park">
 
                 <h5><b>Supporting biodiversity: Before and after shots of an earth and ecobrick pond, made with 200 ecobricks in the UK.</b></h5>
 
                 <br>
                 
-                <!--<img src="photos/green-space.jpg" width="100%" loading="lazy" alt="green space balili school food forest park">-->
+                <!--<img src="../photos/green-space.jpg" width="100%" loading="lazy" alt="green space balili school food forest park">-->
     
                     <p>The danger of plastic comes from its exposed surface area.  To the extent that plastic’s surface area is exposed to the elements, it will steadily break down over time into smaller and smaller pieces (microplastics) and leach toxins.  By packing and covering ecobricks we keep the plastic safe and secure.</p>
 
@@ -235,7 +235,7 @@ Content Page template: v.1.0.0-->
 
                 <div id="preclosed7">
 
-                    <img src="photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
+                    <img src="../photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
 
                     <p> Earth and Ecobrick constructions embody large amounts of secured plastic.  When building on government or community land, it is key to establish a long term custodial agreement with the owners of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks. This agreement must also account for the eventual removal, ownership and reuse of the embodied ecobricks.</p> 
 
@@ -279,13 +279,13 @@ Content Page template: v.1.0.0-->
                  
                         <p>Earth methods are ideal when they completely cover ecobricks.  This effectively inhibits plastic degradation through light, heat, fire, and friction.</p>
                     </div>
-                    <div class="side2"><img src="photos/maintenance.jpg" width="90%"></div>
+                    <div class="side2"><img src="../photos/maintenance.jpg" width="90%"></div>
 				</div>
 				<div class="row2">
 					<div class="main3">
 						<p>With the goal of inhibiting degradation pathways, we maintain our constructions: </p>
 					</div>
-					<div class="side3"><img src="photos/maintenance.jpg" width="150px"></div>
+					<div class="side3"><img src="../photos/maintenance.jpg" width="150px"></div>
                 </div>
 
            
@@ -319,9 +319,9 @@ Content Page template: v.1.0.0-->
 
                 <br>   
                 <div class="flex-gallery" max-width="100%">
-                    <div class="gal-photo"><a href="https://ecobricks.org/jabung/"><img src="photos/jabung1.jpg" height="190px" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java"></a><p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/jabung/">View project</a></p></div>
-                    <div class="gal-photo"><a href="https://ecobricks.org/training336/"><img src="photos/ubudraw1.jpg" height="190px" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia"></a><p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/training336/">View project</a></p></div>
-                    <div class="gal-photo"><a href="photos/prtmadog-500px.webp"><img src="photos/prtmadog-500px.webp" height="190px" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK "></a><p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK </p><p><a class="module-btn" href="photos/prtmadog-500px.webp">View project</a></p></div>
+                    <div class="gal-photo"><a href="https://ecobricks.org/jabung/"><img src="../photos/jabung1.jpg" height="190px" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java"></a><p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/jabung/">View project</a></p></div>
+                    <div class="gal-photo"><a href="https://ecobricks.org/training336/"><img src="../photos/ubudraw1.jpg" height="190px" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia"></a><p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/training336/">View project</a></p></div>
+                    <div class="gal-photo"><a href="photos/prtmadog-500px.webp"><img src="../photos/prtmadog-500px.webp" height="190px" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK "></a><p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK </p><p><a class="module-btn" href="photos/prtmadog-500px.webp">View project</a></p></div>
                 </div>
 
 
@@ -348,7 +348,7 @@ Content Page template: v.1.0.0-->
                 </div>
 
                 <div class="side2">
-                    <br><img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                    <br><img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                 </div>
             </div>
 </div>
@@ -362,14 +362,14 @@ Content Page template: v.1.0.0-->
 	
 			
             <div id="side-module-desktop-mobile">
-                <img src="webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <img src="../webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Plastic Sequestration</h4>
                 <h5>The GEA advocates ecobrick building to sequester plastic.  Only builds that follow best-practices, embody earth principles and use authenticated eco<span class="eco-brick"> </span>bricks sequester plastic.</h5><br>
                 <a class="module-btn" href="sequest.php">Learn More</a>
             </div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
+				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
 				<a class="module-btn" href="transition.php">Learn More</a>
@@ -378,14 +378,14 @@ Content Page template: v.1.0.0-->
 			
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
+				<img src="../webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
 				<h4>Circular & Spiral Design</h4>
 				<h5>Ecobrick applications follows the principles of circular design to put our plastic into indefinite greening cycles of reuse.</h5><br>
 				<a class="module-btn" href="/circular">Learn More</a>
 			</div>
 
             <div id="side-module-desktop-mobile">
-				<img src="pngs/transcaste-500px.png" width="80%" loading="lazy" alt="eco brick transcaste construction and building briks.">
+				<img src="../pngs/transcaste-500px.png" width="80%" loading="lazy" alt="eco brick transcaste construction and building briks.">
 				<h4>Transcate Collaboration</h4>
 				<h5>In contrast to conventional construction, Earth and ecobricking building is transcaste, meaning that it is accessible to men and women, young and old, black and white, and everyone in between!</h5><br>
 				<a class="module-btn" href="principles.php">Learn More</a>
@@ -413,7 +413,7 @@ Content Page template: v.1.0.0-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

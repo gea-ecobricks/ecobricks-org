@@ -4,7 +4,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/principles-inc.php");?>
+<?php require_once ("../includes/principles-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("under-construction.php");?>
@@ -71,14 +71,14 @@ Content Page template: v.1.0.1-->
 						 
 
 						</div>
-						<div class="side2"><img src="webp/earthen-400px.webp" width="100%">
+						<div class="side2"><img src="../webp/earthen-400px.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Ecobricking is guided by the five Earthen Ethics:</p>
 						</div>
-						<div class="side3"><img src="webp/earthen-400px.webp" width="150px">
+						<div class="side3"><img src="../webp/earthen-400px.webp" width="150px">
 						</div>
 					</div>
 				
@@ -132,14 +132,14 @@ Content Page template: v.1.0.1-->
 						<p>Ghandi challenged us all to <i>“be the change you want to see in the world“</i>.  Simple and powerful, this is a fundamental principle of the ecobricking movement.  As plastic consumption is something that connects us across continents and cultures,  what we do with our plastic, our own stories of transition, provide a shinning beacon for others to follow.</p>
 						 
 						</div>
-						<div class="side2"><img src="pngs/community.png" width="100%">
+						<div class="side2"><img src="../pngs/community.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>By leading by example in following the Earth's example, we can be a powerful inspiration.</p>
 						</div>
-						<div class="side3"><img src="pngs/community.png" width="150px">
+						<div class="side3"><img src="../pngs/community.png" width="150px">
 						</div>
 					</div>
 					
@@ -182,14 +182,14 @@ Content Page template: v.1.0.1-->
 						<p>Every day thousands of tons of plastic flow into the biosphere. Meanwhile, the consumption of plastic and its production increase.  In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion and economic growth rates.  In order to maximize spread, adoption and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
 
 						</div>
-						<div class="side2"><img src="webp/eb-sky-400px.webp" width="100%">
+						<div class="side2"><img src="../webp/eb-sky-400px.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Our principle of local replicability encompasses several of our other principles.</p>
 						</div>
-						<div class="side3"><img src="webp/eb-sky-400px.webp" width="150px">
+						<div class="side3"><img src="../webp/eb-sky-400px.webp" width="150px">
 						</div>
 					</div>
 
@@ -242,14 +242,14 @@ Content Page template: v.1.0.1-->
 						 
 
 						</div>
-						<div class="side2"><img src="webp/mandalic.webp" width="100%">
+						<div class="side2"><img src="../webp/mandalic.webp" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Most often, this is an intention that is for the whole community’s benefit– such as building a bridge or a well.</p>
 						</div>
-						<div class="side3"><img src="webp/mandalic.webp" width="150px">
+						<div class="side3"><img src="../webp/mandalic.webp" width="150px">
 						</div>
 					</div>
 
@@ -288,14 +288,14 @@ Content Page template: v.1.0.1-->
 						<p>For example the work of making an ecobrick, making a module or building with earth are designed to be equally accessible to just about everybody– and in such a way that no one has advantage by virtue of skill, strength or experience.   In this way, men and women, boys and girls can be equally involved in the cocreative process without traditional castes causing alienation.</p>
 
 						</div>
-						<div class="side2"><img src="photos/transcaste.jpg" width="100%">
+						<div class="side2"><img src="../photos/transcaste.jpg" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>This enables us to rise above old gender and generational divides to supercharge our collaborations with many variations of human creativity while further lowering the barriers of replication.</p>
 						</div>
-						<div class="side3"><img src="photos/transcaste.jpg" width="150px">
+						<div class="side3"><img src="../photos/transcaste.jpg" width="150px">
 						</div>
 					</div>
 
@@ -326,7 +326,7 @@ Content Page template: v.1.0.1-->
 		</div>
 
          <div class="side2">
-			<br><a href=""><img src="webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
+			<br><a href=""><img src="../webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
 			<p style="font-size: 0.85em; margin-top:20px;">How does ecobricking compare over a thousand years with other plastic management options?</a></p>
 		</div>
 	</div>
@@ -341,21 +341,21 @@ Content Page template: v.1.0.1-->
 
 
 		<div id="side-module-desktop-mobile">
-				<img src="icons/earthen-ethics-icon-ecobricks-org.svg?v=1" width="80%" alt="For-Earth Enterprise through eco bricking">
+				<img src="../icons/earthen-ethics-icon-ecobricks-org.svg?v=1" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Earthen Ethics</h4>
 				<h5>Ecobrick principles are based on Earthen Ethics, the philosophy of folowing the Earth's example.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="70%" alt="For-Earth Enterprise through eco bricking">
+				<img src="../icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="70%" alt="For-Earth Enterprise through eco bricking">
 				<h4>Ecological Accounting</h4>
 				<h5>Just as the Earth raised the awareness of interconnection of life, so too can we raise our our awareness of our impacts, by accounting for them.</h5><br>
 				<a class="module-btn" href="https://earthen.io/imagine/" target="_blank">Learn More</a>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
+				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
 				<h4>Vitalizing Biodiversity</h4>
 				<h5>Just as the Earth has vitalized processes that diversify, so too can we.</h5><br>
 				
@@ -363,14 +363,14 @@ Content Page template: v.1.0.1-->
             
 
 			<div id="side-module-desktop-mobile">
-					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
+					<img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
 					<h4>For-Earth</h4>
 					<h5>Just as the Earth dispersed energy out to all, so too can we with our process that manage used plastic.</h5><br>
 					
 				</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following the Earth's example through eco bricking">
+				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Towards Concentration</h4>
 				<h5>Just as the Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
 				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
@@ -378,7 +378,7 @@ Content Page template: v.1.0.1-->
 			</div>   
 
 			<div id="side-module-desktop-mobile">
-				<img src="icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following the Earth's example through eco bricking">
+				<img src="../icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Cyclical Design</h4>
 				<h5>Ecobricks and all their applicatins are designed for cycles of indefinite reuse.</h5><br>
 				<a class="module-btn" href="/circular">Circular Design</a>
@@ -402,7 +402,7 @@ Content Page template: v.1.0.1-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

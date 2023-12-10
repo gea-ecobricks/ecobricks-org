@@ -2,7 +2,7 @@
  
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/transition-inc.php");?>
+<?php require_once ("../includes/transition-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
@@ -71,7 +71,7 @@
                             <div class="main2">
                             <p>Imagine if our homes, companies and corporations resulted in the removal of plastic from the oceans and the regeneration of forests.   Reducing our processes that harm and pollute is an important first step.  However, even more important is increasing the ways in which we contribute to the greening of the biosphere.  The Earth, has given us a great example over the last billion years on how to do just this!<p>
                             </div>
-                            <div class="side2"><img src="webp/balancing-green.webp" width="88%">
+                            <div class="side2"><img src="../webp/balancing-green.webp" width="88%">
                             </div>
                         </div>
 
@@ -80,7 +80,7 @@
                             
 							<p><b>We observe that our consumption and production of plastic is rooted in the global petroleum and capital powered economy.</b></p>
                             </div>
-                            <div class="side3"><img src="webp/balancing-green.webp" width="120px">
+                            <div class="side3"><img src="../webp/balancing-green.webp" width="120px">
                             </div>
                         </div>
 					
@@ -117,7 +117,7 @@
                             <div class="main2">
                             <p>Plastic is made from fossil fuels and is largely carbon.  As our petro-capital plastic slowly spins down, there is much plastic still to come.  Ecobricks are a way that everyone can help secure this plastic, and speed up the spin down.   When we pack our plastic into ecobricks properly, we are effectively sequestering it:  providing the valuable ecological service of keeping plastic out of the biosphere for the long term.  </p>
                             </div>
-                            <div class="side2"><img src="webp/eb-sky-400px.webp" width="95%" alt="We make eco bricks to serve the Earth">
+                            <div class="side2"><img src="../webp/eb-sky-400px.webp" width="95%" alt="We make eco bricks to serve the Earth">
                             </div>
                         </div>
 
@@ -125,7 +125,7 @@
                             <div class="main3">
                             <p>But there’s more! </p>
                             </div>
-                            <div class="side3"><img src="webp/eb-sky-400px.webp" width="120px" alt="We make eco bricks to serve the Earth">
+                            <div class="side3"><img src="../webp/eb-sky-400px.webp" width="120px" alt="We make eco bricks to serve the Earth">
                             </div>
                         </div>
 
@@ -198,7 +198,7 @@
                             <div class="main2">
                             <p>The Global Ecobrick Alliance has develop a Plastic Transition Score to track plastic transition on its GoBrik.com platform.  All accounts on GoBrik now allow the generation of a user’s score.  Scores are calculated by household– families or groups of people living under the same roof.<p>
                             </div>
-                            <div class="side2"><img src="webp/floating-dial-500px.webp" width="88%">
+                            <div class="side2"><img src="../webp/floating-dial-500px.webp" width="88%">
                             </div>
                         </div>
 
@@ -207,7 +207,7 @@
                             
 							<p><b>The first step is simple yet crucial: assessing how much plastic one’s household generates!  </b></p>
                             </div>
-                            <div class="side3"><img src="webp/floating-dial-500px.webp" width="120px">
+                            <div class="side3"><img src="../webp/floating-dial-500px.webp" width="120px">
                             </div>
                         </div>
 					
@@ -233,7 +233,7 @@
 
 					<p>In otherwords, if you’re generating and ecobricking exactly the same amounts of plastic, then your score is 100 (i.e. 100% of zero waste).  A PTR below 100 shows your household is still putting plastic into the biosphere.  A score above 100 means you are removing plastic from the biosphere.</p>
                     <br>
-                    <img src="webp/ptr-examples-900px.webp" width="100%">
+                    <img src="../webp/ptr-examples-900px.webp" width="100%">
                     <br>
 				</div>
 			</div>
@@ -257,7 +257,7 @@
                             <div class="main2">
                             <p>The Global Ecobrick Alliance has develop a Plastic Transition Score to track plastic transition on its GoBrik.com platform.  All accounts on GoBrik now allow the generation of a user’s score.  Scores are calculated by household– families or groups of people living under the same roof.<p>
                             </div>
-                            <div class="side2"><img src="webp/aes-400px.webp" width="95%">
+                            <div class="side2"><img src="../webp/aes-400px.webp" width="95%">
                             </div>
                         </div>
 
@@ -266,7 +266,7 @@
                             
 							<p><b>For individuals and companies who have very large footprints, there are other ways to accumulate green credits.</b></p>
                             </div>
-                            <div class="side3"><img src="webp/aes-400px.webp" width="120px">
+                            <div class="side3"><img src="../webp/aes-400px.webp" width="120px">
                             </div>
                         </div>
 					
@@ -315,7 +315,7 @@
                             <div class="main2">
                             <p>Plastic transition is particularily important for companies that still rely on plastic and petroleum for their operations.  Tracking and accounting for grey and green impacts is the first step.  Tracking plastic generation is in particular relevant to companies and organizations that use plastic in their business practices– whether that involves office meals and office supplies, the packaging of products, or the products themselves.<p>
                             </div>
-                            <div class="side2"><img src="webp/catalyst-logo.webp" width="95%">
+                            <div class="side2"><img src="../webp/catalyst-logo.webp" width="95%">
                             </div>
                         </div>
 
@@ -324,7 +324,7 @@
                             
 							<p>Once accounted for, there are many exciting ways in which enterprises can use green plastic impacts to balance off their grey.</p>
                             </div>
-                            <div class="side3"><img src="webp/catalyst-logo.webp" width="120px">
+                            <div class="side3"><img src="../webp/catalyst-logo.webp" width="120px">
                             </div>
                         </div>
 					
@@ -366,7 +366,7 @@
 
 		
         <div id="side-module-desktop-mobile">
-			<img src="webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry">
+			<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry">
 					<h4>Plastic & the Petro-Capital Economy</h4>
 					<h5>As petroleum is refined into the fuels that power our economies, the leftovers chemicals are used to produce plastics.</h5><br>
 					<a class="module-btn" href="/plastics">Plastic's Full Story</a><br><br>
@@ -376,7 +376,7 @@
 			
 
 				<div id="side-module-desktop-mobile">
-					<img src="webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
+					<img src="../webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
 					<h4>Global Ecobrick Alliance</h4>
 					<h5>The GEA is an Earth Enterprise dedicated to accelerating plastic transition.</h5><br>
                     <a class="module-btn" href="about.php">About Us</a>
@@ -385,21 +385,21 @@
 				
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/earthen-500px.webp" width="80%">
+				<img src="../webp/earthen-500px.webp" width="80%">
 				<h4>Earthen Ethics</h4>
 				<h5>Plastic transition is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
 				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Learn More</a>
 			</div>
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/tens-thousands.webp" width="80%">
+				<img src="../webp/tens-thousands.webp" width="80%">
 				<h4>Regenerative</h4>
 				<h5>Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
 				<a class="module-btn" href="about.php">About Ayyew</a>
 			</div>
 
             <div id="side-module-desktop-mobile">
-			<img src="webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
+			<img src="../webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
 					<h4>Our Regen Report</h4>
 					<h5>We're proud to disclose our net-green ecological impact for the past year.</h5><br>
 					<a class="module-btn" href="2021-regenreport.php">Access Report</a><br><br>
@@ -427,7 +427,7 @@
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

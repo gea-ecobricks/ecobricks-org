@@ -3,7 +3,7 @@ Content Page template: v.1.0.0-->
    
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/gallery-inc.php");?>
+<?php require_once ("../includes/gallery-inc.php");?>
 
 <!--This is the message indicating it is a live feed-->
 <div id="feed-note">
@@ -102,7 +102,7 @@ Content Page template: v.1.0.0-->
 
             
             <div id="side-module-desktop-mobile">
-                    <img src="svgs/eb-blue-no-clouds.svg" width="90%" alt="The Global Eco Brick Alliance">
+                    <img src="../svgs/eb-blue-no-clouds.svg" width="90%" alt="The Global Eco Brick Alliance">
                     <h4>What is an Ecobrick Exactly?</h4>
                     <h5>Learn all about the specs, types and requirements of an ecobrick.</h5><br>
                     <a class="module-btn" href="/what">Ecobricks</a>
@@ -124,7 +124,7 @@ Content Page template: v.1.0.0-->
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

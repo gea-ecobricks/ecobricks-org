@@ -3,7 +3,7 @@
 Special Ecobrick View Page: v.1.1-->
  
 <?php 
-require_once ("includes/details-ecobrick-page-inc.php");
+require_once ("../includes/details-ecobrick-page-inc.php");
 
 include 'ecobricks_env.php';
 
@@ -179,7 +179,7 @@ echo '
 			echo 'Sorry! :-(</div>
 			<div class="splash-sub">Tidak ada hasil untuk ecobrick '. $serialNo .' di Brikchain. Kemungkinan besar ini karena data Brikchain masih dalam proses migrasi.</div>
 		</div>
-		<div class="splash-image"><img src="webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
+		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
 	</div>
 	<div id="splash-bar"></div>
 
@@ -228,14 +228,14 @@ echo '
 	
 
             <div id="side-module-desktop-mobile">
-				<img src="webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
+				<img src="../webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<!--<h4>AES Plastic</h4>-->
 				<h5>Berat plastik di dalam ecobrick terautentikasi adalah apa yang kami sebut sebagai Plastik Ecobrick Terotentikasi (Plastik AES).</h5><br>
 				<a class="module-btn" href="/aes" target="_blank">Tentang AES</a><br><br>
 			</div>
 
 			<div id="side-module-desktop-mobile">
-				<img src="webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
+				<img src="../webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Brikcoins</h4>
 				<h5>Ketika ecobrick diautentikasi, brikcoin dihasilkan untuk mewakili nilai ekologi plastik AES-nya.</h5><br>
 				<a class="module-btn" href="brikcoins.php">Tentang Brikcoins</a><br><br>
@@ -258,7 +258,7 @@ echo '
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

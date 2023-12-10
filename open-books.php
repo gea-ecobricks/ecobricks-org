@@ -3,7 +3,7 @@
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
 
 
-<?php require_once ("includes/open-books-inc.php");?>
+<?php require_once ("../includes/open-books-inc.php");?>
 
 <style>
 
@@ -81,7 +81,7 @@
 		<div class="side">
 
 			<div id="side-module-desktop-only">
-				<img src="webp/gea-logo-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
+				<img src="../webp/gea-logo-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
 				<h5>The Global Ecobrick Alliance is a not-for-profit for-Earth enterprise dedicated to accelerating plastic transition.  All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system.</h5><br>
 				<a class="module-btn" href="/about">About the GEA</a>
@@ -518,7 +518,7 @@
 	<!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

@@ -2,7 +2,7 @@
 
 <div id="slider4">
 
-    <div id="slider-image"><img src="webp/brickable-kit.webp" style="width: 85%;" alt="Ikon Penanda Bata">
+    <div id="slider-image"><img src="../webp/brickable-kit.webp" style="width: 85%;" alt="Ikon Penanda Bata">
         </div>
 
         <div id="slider-textbox">
