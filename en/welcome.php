@@ -90,12 +90,12 @@
 
 	<div id="content-sect1">
 	 	<div class="main-content">
-			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
+			<div id="dolphin-graphic"><img src="../svgs/dolphin-top-optimized.svg?v8" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<div class="big-header">Accelerating Plastic Transition</div>
 			<div class="sub-text">
 			<p>Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
 			</div>
-			 <a href="faqs.php" button class="main-button">All About Ecobricks</a>
+			 <a href="faqs.php" class="main-button">All About Ecobricks</a>
 			<h6><a href="what.php">What is an ecobrick?</a> | <a href="/how">How to Make?</a> | <a href="/why">Why Make?</a></h6>
 		</div>	
 	
@@ -108,14 +108,14 @@
 	  
 	<div id="content-sect2">
 		<div class="main-content">
-			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=5" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
+			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=5" width="100%" height="96%" alt="eco bricks follow the Earth's example." loading="lazy">
 			</div>
 			<div class="big-header">Following Earth's Example</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
 			<div class="sub-text">
 			<p>Ecobricking follows Earth's example of concentrating and securing carbon out of the biosphere.  Following the science of plastic degradation and Earthen principles, ecobricking is a non-capital, net-zero means of plastic sequestration.</p>
 			</div>
-			<a href="sequest.php" button class="main-button">Plastic Sequestration</a>
+			<a href="sequest.php" class="main-button">Plastic Sequestration</a>
 			<h6><a href="/ayyew">Ayyew Inspired</a> | <a href="/circular">Circular by Design</a> | <a href="/plastic">Towards Transition</a> | <a href="/principles">Regenerative</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
 		</div>
 	</div>	
@@ -126,12 +126,12 @@
 
 	<div id="content-sect3">
 		<div class="main-content">
-			<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
+			<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
 			<div class="big-header">The Problem is the Solution.</div>
 			<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Ecobrick applications range from home furniture, to food-forest gardens to structures.  By transforming the problem, we can build solutions!</p>
 			</div> 
 
-			<a href="build.php" button class="main-button">Building Applications</a>
+			<a href="build.php" class="main-button">Building Applications</a>
 			
 			<h6><a href="earth.php">Earth & Ecobrick Building</a> | <a href="/earth-methods">E&B Methods</a> | <a href="/modules">Milstein Modules</a> | <a href="/circular">Spiral & Circular</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6>
 		</div>
@@ -164,7 +164,7 @@
 
 			<p>Back in the early days of putting plastic into a bottle we called it just that-- plastic bottle bricks!  Then when we realized it was helpful to the <b>eco</b>systems around us, the name changed to "eco bricks" or "eco-brick". Today 'ecobrick' is the <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia recongnized</a> term for the go-to, non-capital, zero-carbon solution for <a href="https://en.wikipedia.org/wiki/plastic_sequestration" target="_blank">plastic sequestration</a></a></p>
 				<p>Learn about the main focus of the ecobrick movement and technology:</p>
-				<a href="transition.php" button class="main-button">Plastic Transition</a>
+				<a href="transition.php" class="main-button">Plastic Transition</a>
 			
 		</div>
 	</div>
