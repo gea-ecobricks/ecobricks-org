@@ -258,4 +258,4 @@ margin-bottom: 31px;}
         
 	<!-- This loads the page's language specific menu -->
 
-    <?php require_once ("menus/menu-$lang.php");?>
+    <?php require_once ("../menus/menu-$lang.php");?>

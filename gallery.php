@@ -146,7 +146,7 @@ Content Page template: v.1.0.0-->
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("footers/footer-$lang.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
     
 

@@ -45,7 +45,7 @@ var x = setInterval(function() {
 
 	<!-- This loads the page's language specific menu -->
 
-    <?php require_once ("menus/menu-$lang.php");?>
+    <?php require_once ("../menus/menu-$lang.php");?>
 
 	<!-- This loads the page's top graphics-->
 
@@ -213,7 +213,7 @@ Join Ani Himawati in a mindful mandala meditation.  Training our minds to think 
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("footers/footer-$lang.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
 
 

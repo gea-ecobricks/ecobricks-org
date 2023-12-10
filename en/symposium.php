@@ -46,7 +46,7 @@ var x = setInterval(function() {
 
 	<!-- This loads the page's language specific menu -->
 
-    <?php require_once ("menus/menu-$lang.php");?>
+    <?php require_once ("../menus/menu-$lang.php");?>
 
 	<!-- This loads the page's top graphics-->
 
@@ -153,7 +153,7 @@ var x = setInterval(function() {
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("footers/footer-$lang.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
 
 

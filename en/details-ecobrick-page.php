@@ -169,7 +169,7 @@ echo '
 
 	  ';
 
-require_once ("menus/menu-$lang.php");
+require_once ("../menus/menu-$lang.php");
 
 
 
@@ -244,7 +244,7 @@ echo '
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("footers/footer-$lang.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->

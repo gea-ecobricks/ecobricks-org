@@ -77,7 +77,7 @@
     <div id="load-background">
 
         <!-- This loads the page's language specific menu -->
-        <?php require_once ("menus/menu-$lang.php");?>
+        <?php require_once ("../menus/menu-$lang.php");?>
 
         <!-- This loads the page's top graphics-->
 
@@ -196,7 +196,7 @@
                         </div>
                     -->
                     <!--FOOTER STARTS HERE-->
-                    <?php require_once ("footers/footer-$lang.php");?>
+                    <?php require_once ("../footers/footer-$lang.php");?>
 
 
 

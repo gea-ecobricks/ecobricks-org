@@ -103,7 +103,7 @@ padding: 10px;"></input>
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("footers/footer-$lang.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->

@@ -150,7 +150,7 @@
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("footers/footer-$lang.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
 
 	<!--FOOTER ENDS HERE-->
