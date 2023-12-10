@@ -1,3 +1,4 @@
+<?php require_once ("lang.php");?>
 <!--  Set any page specific graphics to preload-->
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-mobile.svg">
