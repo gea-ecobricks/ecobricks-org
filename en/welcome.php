@@ -108,7 +108,7 @@
 	  
 	<div id="content-sect2">
 		<div class="main-content">
-			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=5" width="500" height="470" alt="eco bricks follow the Earth's example." loading="lazy">
+			<div class="lead-graphic"><img src="../svgs/earth-service-animation.svg?v=5" width="500" height="470" alt="eco bricks follow the Earth's example." loading="lazy">
 			</div>
 			<div class="big-header">Following Earth's Example</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
@@ -148,8 +148,8 @@
 
 	<div id="content-sect4">
 		<div class="main-content">
-			<div class="lead-graphic"><img src="webp/balancing-green.webp" alt="Ecological Accounting" width="400" height="400" loading="lazy"></div>
-			<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="400" height="160" alt="authenticated eco brick sequetration" loading="lazy"></div><!--width="300px" height="254px"-->
+			<div class="lead-graphic"><img src="../webp/balancing-green.webp" alt="Ecological Accounting" width="400" height="400" loading="lazy"></div>
+			<div class="lead-graphic"><img src="../svgs/aes-brk.svg" width="400" height="160" alt="authenticated eco brick sequetration" loading="lazy"></div><!--width="300px" height="254px"-->
 			<!--<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>-->
 			<div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
 			<a href="https://gobrik.com/#offset" target="_blank" class="main-button">Plastic Offsetting</a>

@@ -121,7 +121,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 		
 
 			<div class="virtue">
-			<a href="open-books.php"><img src="banners/openbooks-dark-350px.png" width="325" height="96" alt="Click through to see our current enterprise open books accounting." title="Click through to see our open books accounting." loading="lazy"></a>
+			<a href="open-books.php"><img src="../banners/openbooks-dark-350px.png" width="325" height="96" alt="Click through to see our current enterprise open books accounting." title="Click through to see our open books accounting." loading="lazy"></a>
 
 			
 			</div>
