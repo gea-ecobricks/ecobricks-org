@@ -18,16 +18,16 @@
 		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
 		
 	</div>
-	<div class="splash-image"><img src="../svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
+	<div class="splash-image"><img src="../svgs/eb-blue-no-clouds.svg" style="width:85%;" alt="eco bricks equals no pollution"></div>	
 </div>
 <div id="splash-bar"></div>
 
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
+<a id="top"></a>
 
-<div id="main-content">
+<div class="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
@@ -83,7 +83,7 @@
 						<li>Result in more plastic and CO2 being subtracted from the biosphere than was added by the process of making</li>
 						<li>Result in building applications that contribute to the maintenance and encouragement of biodiversity</li>
 						<li>Raise the individual and collective ecological consciousness of those involved in the process.</li>
-					</ul></p>
+					</ul>
 					<p>
 					Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="/brikcoin">Brikcoin blockchain</a> and the <a href="/gobrik">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="/aes">authenticated ecobricked plastic.</a></p>
 
@@ -141,7 +141,7 @@
 					<p>Only ecobricks that meet these standards can be authenticated and count as sequestered plastic.</p>
 					<br><br>
 					<a class="action-btn" href="/how">ℹ️ How to Make</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">View our 10 Step Guide on Making an Ecobrick</a></p>
+                    <p style="font-size: 0.85em; margin-top:20px;">View our 10 Step Guide on Making an Ecobrick</p>
 
 				</div>
 			</div>
@@ -165,7 +165,7 @@
 						<div class="main2">
 						<p>Cigbricks are a class of ecobrick to secure the potentially toxic plastic/acetate of the cigarette filters-- one of the most prevalent and damaging of all plastic pollutants. Cigbricks are made exclusively from the packed acetate filters of cigarette butts once the paper and ash has been fully removed.</p>
 						</div>
-						<div class="side2"><img src="../svgs/Cigbrick.svg" width="100%">
+						<div class="side2"><img src="../svgs/Cigbrick.svg" width="100%" alt="cibricks">
 						</div>
 					</div>
 
@@ -173,7 +173,7 @@
 						<div class="main3">
 						<p>To be a Cigbrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="../svgs/Cigbrick.svg" width="120px">
+						<div class="side3"><img src="../svgs/Cigbrick.svg" width="120px" alt="cibricks">
 						</div>
 					</div>
 			
@@ -188,14 +188,14 @@
 							<li>The label has been removed and ecobricked.</li>
 							<li>A bottom color has been added</li>
 							<li>The weight has been recorded on the outside.</li>
-							</ul></li>
+							</ul>
 						</ul>
 
 						<p>Only cigbricks that meet these standards can be authenticated and count as sequestered plastic.</p>
 						<br><br>
 
 						<a class="action-btn" href="/cigbricks">ℹ️ Make a Cigbrick</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Learn more about Cibricks.</a></p>
+                    <p style="font-size: 0.85em; margin-top:20px;">Learn more about Cibricks.</p>
 
 
 				</div>
@@ -220,7 +220,7 @@
 						<p>Ocean Ecobricks are a class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
 						</div>
 						<div class="side2">
-						<img src="../webp/oeb-400px.webp" width="100%">
+						<img src="../webp/oeb-400px.webp" width="100%" alt="Ocean Ecobrick">
 						</div>
 					</div>
 
@@ -228,7 +228,7 @@
 						<div class="main3">
 						<p>To be an Ocean Ecobrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="../webp/oeb-400px.webp" width="150px">
+						<div class="side3"><img src="../webp/oeb-400px.webp" width="150px" alt="Ocean Ecobricks">
 						</div>
 					</div>
 
@@ -247,7 +247,7 @@
 					<br><br>
 
 					<a class="action-btn" href="/ocean">ℹ️ Make an Ocean Ecobrick</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ocean Ecobricks.</a></p>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ocean Ecobricks.</p>
 
 				</div>
 			</div>
@@ -314,7 +314,6 @@
 <script src="../scripts/accordion-scripts.js" defer></script>
 
 
-</div>
 </body>
 </html>
 

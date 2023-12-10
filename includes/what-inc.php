@@ -1,7 +1,5 @@
 <?php require_once ("lang.php");?>
 
-<HEAD> 
-
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
@@ -9,6 +7,7 @@
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-mobile.svg?v1">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1">
 <!--This loads CSS specific to this page-->
+
 <STYLE>
 	
 @media screen and (max-width: 700px) { 
