@@ -40,6 +40,16 @@
     "language":"English",
     "Section":"Basics",
     "image_url":"..\/svgs\/eb-blue-no-clouds.svg" 
+},
+
+{
+    "pageID":"004",
+    "title":"Plastic Sequestration",
+    "subtitle": "The theory, criteria and standards of plastic sequestration.",
+    "keywords":"plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"..\/webp\/earth-service-700px.webp" 
 }
 
   

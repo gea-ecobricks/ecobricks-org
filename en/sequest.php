@@ -13,16 +13,6 @@ Content Page template: v.1.0.1-->
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
 
-<!--TOP PAGE BANNER-->
-							  
-											  
-<BODY id="full-page">
-
-	<div id="load-background">
-
-	<!-- This loads the page's language specific menu -->
-
-    <?php require_once ("../menus/menu-$lang.php");?>
 
 <!--PAGE BANNER-->
 
@@ -31,14 +21,14 @@ Content Page template: v.1.0.1-->
                 <div class="splash-heading">Plastic Sequestration</div>
             <div class="splash-sub">By following the Earth’s example of carbon care we can keep our plastic safe and secure out the biosphere and out of industry.</div>
             </div>
-            <div class="splash-image"><img src="../webp/earth-service-700px.webp" style="width: 85%;"></div>	
+            <div class="splash-image"><img src="../webp/earth-service-700px.webp" alt="Following Earth's example with our eco-bricks" style="width: 85%;"></div>	
         </div>
         <div id="splash-bar"></div>
 
 
 <!-- PAGE CONTENT-->
 
-        <a name="top"></a>
+        <a id="top"></a>
 
         <div id="main-content">
 
@@ -62,7 +52,7 @@ Content Page template: v.1.0.1-->
                         -->     
                     </div>	
 
-                    <a name="THEORY"></a>
+                    <a id="THEORY"></a>
 
                     <div class="reg-content-block" id="block1">
 
@@ -111,7 +101,7 @@ Content Page template: v.1.0.1-->
                         </div>
                     </div>
 
-                    <a name="CRITERIA"></a>
+                    <a id="CRITERIA"></a>
                     <div class="reg-content-block" id="block10">
 
                         <div class="opener-header">
@@ -145,7 +135,7 @@ Content Page template: v.1.0.1-->
                         </div>
                     </div>
     
-                    <a name="CONCEN"></a>
+                    <a id="CONCEN"></a>
                     <div class="reg-content-block" id="block3">
                         <div class="opener-header">
                             <div class="opener-header-text">
@@ -164,7 +154,7 @@ Content Page template: v.1.0.1-->
                                 
                                 <p>The Earth’s cycles steadily removed carbon out of the atmosphere into biomass then into geological sequestreation.  This secured carbon from all forms of solar, chemical and organic degradation.  In the same way, plastic sequestration must do the same. </p>
                                 </div>
-                                <div class="side2"><img src="../webp/compacted-carbon.webp" width="92%">
+                                <div class="side2"><img src="../webp/compacted-carbon.webp" width="92%" alt="compacted carbon, sequestered plastic">
                                 </div>
                             </div>
 
@@ -173,7 +163,7 @@ Content Page template: v.1.0.1-->
                                 <p>Keeping plastic that has already been produced as plastic as plastic is an effective way to keep its carbon from getting loose.</p>
                                 
                                 </div>
-                                <div class="side3"><br><img src="../webp/compacted-carbon.webp" width="150px">
+                                <div class="side3"><br><img src="../webp/compacted-carbon.webp" width="150px" alt="compacted carbon, sequestered plastic">>
                                 </div>
                             </div>
                             
@@ -190,7 +180,7 @@ Content Page template: v.1.0.1-->
                     </div>
 
 
-                    <a name="SPIRAL"></a>
+                    <a id="SPIRAL"></a>
                     <div class="reg-content-block" id="block2">
 
                     <div class="opener-header">
@@ -238,7 +228,7 @@ Content Page template: v.1.0.1-->
                         </div>
                     </div>
 
-                    <a name="FOR-EARTH"></a>
+                    <a id="FOR-EARTH"></a>
                     <div class="reg-content-block" id="block4">
 
                         <div class="opener-header">
@@ -253,7 +243,7 @@ Content Page template: v.1.0.1-->
                         </div>
 
                         <div id="preclosed4">
-                            <p><b>In the same way that the Earth’s processes tend towards the benefit the biosphere, the enterprise of plastic plastic sequestration must intend the same.</p></b>
+                            <p><b>In the same way that the Earth’s processes tend towards the benefit the biosphere, the enterprise of plastic plastic sequestration must intend the same.</b></p>
                             
                             <div class="row">
                                 <div class="main2">
@@ -286,7 +276,7 @@ Content Page template: v.1.0.1-->
                         </div>
                     </div>
 
-                    <a name="NET-SUB"></a>
+                    <a id="NET-SUB"></a>
                     <div class="reg-content-block" id="block5">
 
                         <div class="opener-header">
@@ -332,7 +322,7 @@ Content Page template: v.1.0.1-->
                         </div>
                     </div>
 
-                    <a name="BIODIVERSITY"></a>
+                    <a id="BIODIVERSITY"></a>
                     <div class="reg-content-block" id="block6">
 
                         <div class="opener-header">
@@ -383,7 +373,7 @@ Content Page template: v.1.0.1-->
                     
                     </div>
 
-                    <a name="AWARING"></a>
+                    <a id="AWARING"></a>
                     <div class="reg-content-block" id="block7">
 
                         <div class="opener-header">
@@ -434,7 +424,7 @@ Content Page template: v.1.0.1-->
                         </div>
                     </div>
             
-                    <a name="AUTHEN"></a>
+                    <a id="AUTHEN"></a>
                     <div class="reg-content-block" id="block8">
 
                         <div class="opener-header">
@@ -454,7 +444,7 @@ Content Page template: v.1.0.1-->
                                     <div class="main2">
                                     <p>The way that plastic is processed can either harm or benefit the biosphere for centuries. Because the stakes are high, the outputs of plastic sequestration must be validated to make sure that standards and the criteria above are met.</p>
                                     </div>
-                                    <div class="side2"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/confirmedexchange.png" width="100%">
+                                    <div class="side2"><img src="../pngs/confirmedexchange.png" width="100%">
                                     </div>
                                 </div>
 
@@ -462,7 +452,7 @@ Content Page template: v.1.0.1-->
                                     <div class="main3">
                                     <p>Through independent, not-for-profit review, set amounts of plastic can then be determined to sequestered (or not).</p>
                                     </div>
-                                    <div class="side3"><img src="https://cdn.ecobricks.org/wp-content/uploads/2020/12/confirmedexchange.png" width="120px">
+                                    <div class="side3"><img src="../pngs/confirmedexchange.png" width="120px">
                                     </div>
                                 </div>
                             
@@ -475,7 +465,7 @@ Content Page template: v.1.0.1-->
 
 
 
-                    <a name="CO2"></a>
+                    <a id="CO2"></a>
                         <div class="reg-content-block" id="block9">
 
                         <div class="opener-header">
@@ -527,8 +517,8 @@ Content Page template: v.1.0.1-->
 
                             <div class="side2">
                                 
-                                <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
-                                <br><br><img src="../webp/ayyew.webp" width="100%"></a><br>
+                                <img src="../webp/spiral-circular-400px.webp" width="100%" alt="eco brick road into the distance">
+                              
                             </div>
                         </div>	
                     
@@ -542,35 +532,33 @@ Content Page template: v.1.0.1-->
 
                 <div class="side">
             
-                    <div id="side-module-desktop-mobile">
-                        <img src="../webp/earthen-story-400px.webp" width="90%" alt="Eco bricks follow the Earth's ancient example">
-                        <br><h4>Following the Earth's Example</h4>
-                        <h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
-                        <a class="module-btn" href="/plastic">Plastic's Long Story</a>
-                        <br>
-                    </div>  
+                <?php include 'side-modules/earthen-ethics-principle.php';?> 
 
-                    <div id="side-module-desktop-mobile">
-                        <img src="../webp/tens-thousands.webp" width="80%" alt="Eco bricks can build awesome regenerative structures">
-                        <h4>Plastic Transition</h4>
-                        <h5>Plastic sequestration is a transition technology. Rather than see plastic as ‘waste’ we see it as a portal towards petro-capital transition.</h5><br>
-                        <a class="module-btn" href="transition.php">Learn More</a>
-                    </div>
+                <?php include 'side-modules/eco-accounting-principle.php';?> 
+                
+            
+			<div class="side-module-desktop-mobile">
+				<img src="icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
+				<h4>Vitalizing Biodiversity</h4>
+				<h5>Just as Earth has vitalized processes that diversify, so too can we.</h5><br>
+				
+			</div>
+            
+			<div class="side-module-desktop-mobile">
+					<img src="icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
+					<h4>For-Earth</h4>
+					<h5>Just as Earth dispersed energy out to all, so too can we with our process that manage used plastic.</h5><br>
+				</div>
 
-                    <div id="side-module-desktop-mobile">
-                        <img src="../webp/build-blue-450px.webp" width="80%" alt="Eco bricks are a form of plastic sequestration in constructions">
-                        <h4>Ecobricks</h4>
-                        <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
-                        <a class="module-btn" href="catalyst.php">🚀 Learn More</a>
-                    </div>
-
-                    <div id="side-module-desktop-mobile">
-                        <img src="../webp/earthen-500px.webp" width="80%" alt="Ecobricks follow the Earth's example">
-                        <h4>Earthen Ethics</h4>
-                        <h5>Plastic Sequestration is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
-                        <a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">Learn More</a>
-                    </div>
-                </div>
+			<div class="side-module-desktop-mobile">
+				<img src="icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
+				<br><h4>Towards Concentration</h4>
+				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
+				<a class="module-btn" href="/plastic">Earth's Example</a>
+                <br>
+			</div>   
+        
+        </div>
             </div>
         </div>
 

@@ -33,7 +33,7 @@ Content Page template: v.1.0.1-->
 
 		<div class="page-paragraph">
 
-		<p>One of the several core<a href="/principles"> ecobricking principles</a> is that of <i>spiral design</i>.  Unlike linear and circular design, rather than plan in lines and circles, we plan in spirals.  This way, we can embed an enriching spin of short and long-term reuse into our ecobrick designs. </p>
+		<p>One of the several core<a href="principles.php"> ecobricking principles</a> is that of <i>spiral design</i>.  Unlike linear and circular design, rather than plan in lines and circles, we plan in spirals.  This way, we can embed an enriching spin of short and long-term reuse into our ecobrick designs. </p>
 		
 	
 

@@ -8,14 +8,14 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/en/sequest.php"/>
+	<meta property="og:url"           content="https://ecobricks.org/en/sequest.php">
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Plastic Sequestration | Ecobricks.org">
-  	<meta property="og:description"   content="The theory, criteria and standards of plastic sequestration."/>
-  	<meta property="og:image"         content="https://ecobricks.org/pngs/sequest-1000px.png"/>
-  	<meta property="og:image:width" content="1000" />
-	<meta property="og:image:height" content="1000" />
-  	<meta property="og:image:alt"     content="A metaphorical road heading far out into the distance of time"/>
-	  <meta property="og:locale" content="en_GB" />
+  	<meta property="og:description"   content="The theory, criteria and standards of plastic sequestration.">
+  	<meta property="og:image"         content="https://ecobricks.org/pngs/sequest-1000px.png">
+  	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+  	<meta property="og:image:alt"     content="A metaphorical road heading far out into the distance of time">
+	  <meta property="og:locale" content="en_GB">
 
 	
