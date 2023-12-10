@@ -436,9 +436,9 @@ margin-left: 0px;
 
 @media screen and (min-width: 770px) { 
     .clouds-new  {
-        background-size:cover;
+        background-size:contain;
         padding-bottom: 50px;
-
+        height: fit-content;
     }
 }
 
