@@ -16,7 +16,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<!--FOOTER STARTS HERE-->
 	
 	<div id="footer-full">
-	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="100%" height="63%" alt="Keeping the ocean free from plastic pollution" ></div>
+	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="1080" height="635" alt="Keeping the ocean free from plastic pollution" ></div>
 	
 	
 	<div class="footer-vision">We envision a Transition in our Households, Communities and Enterprises from Plastic to ever Greener Harmony with Earth's Cycles.</div>
@@ -28,20 +28,20 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<div class="footer-icons-container">
 		<div class="footer-icons"><!--WIKIPEDIA-->
 			<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">
-			<img src="icons/wikipedia.svg" width="100%" height="100%" alt="TEST Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page" loading="lazy"></a>
+			<img src="icons/wikipedia.svg" width="100" height="100" alt="TEST Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page" loading="lazy"></a>
 			
 		</div>
 
 		<div class="footer-icons">
 			<a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener"><!--MATTERMOST-->
-			<img src="icons/mattermost.svg" width="100%" height="100%" alt="Join our Circles Ecobrick Support Community"  title="Join our Circles Ecobrick Support Community" loading="lazy"></a>
+			<img src="icons/mattermost.svg" width="100" height="100" alt="Join our Circles Ecobrick Support Community"  title="Join our Circles Ecobrick Support Community" loading="lazy"></a>
 			<!--<div class="icon-name">/ecobricks</div>
 			<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>-->
 		</div>
 
 		<div class="footer-icons"><!--GOBRIK-->
 			<a href="https://gobrik.com" target="_blank">
-			<img src="icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app" loading="lazy"></a>
+			<img src="icons/gobrik.svg" width="150" height="150" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app" loading="lazy"></a>
 			
 		</div>
 
