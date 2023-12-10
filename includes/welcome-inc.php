@@ -598,21 +598,21 @@ z-index: 5;
 }
 }
 
-#main-content {
+.main-content {
 margin: auto;
 }
 @media screen and (max-width: 769px) {
-#main-content {
+.main-content {
   width: 90%;
 }
 }
 @media screen and (min-width: 770px) and (max-width: 1024px) {
-#main-content {
+.main-content {
   width: 80%;
 }
 }
 @media screen and (min-width: 1024px) {
-#main-content {
+.main-content {
   width: 70%;
 }
 }

@@ -57,7 +57,7 @@
 		
 					<!--<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>-->
 			
-					<div id="main-content" style="padding-bottom: 90px; padding-top:15px">
+					<div class="main-content" style="padding-bottom: 90px; padding-top:15px">
 				
 						<div class="big-header">This Month's Top Ecobricks</div>
 						<div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
@@ -89,7 +89,7 @@
 	<!--FIRST CONTENT SECTION-->
 
 	<div id="content-sect1">
-	 	<div id="main-content">
+	 	<div class="main-content">
 			<div id="dolphin-graphic"><img src="svgs/dolphin-top-optimized.svg?v8" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
 			<div class="big-header">Accelerating Plastic Transition</div>
 			<div class="sub-text">
@@ -107,7 +107,7 @@
 
 	  
 	<div id="content-sect2">
-		<div id="main-content">
+		<div class="main-content">
 			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=5" width="100%" height="96%" alt="eco bricks follow the Earth's example." max-width="700px" loading="lazy">
 			</div>
 			<div class="big-header">Following Earth's Example</div>
@@ -125,7 +125,7 @@
 	<!--THIRD CONTENT SECTION-->
 
 	<div id="content-sect3">
-		<div id="main-content">
+		<div class="main-content">
 			<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
 			<div class="big-header">The Problem is the Solution.</div>
 			<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Ecobrick applications range from home furniture, to food-forest gardens to structures.  By transforming the problem, we can build solutions!</p>
@@ -147,7 +147,7 @@
 	<!--FOURTH CONTENT SECTION-->
 
 	<div id="content-sect4">
-		<div id="main-content">
+		<div class="main-content">
 			<div class="lead-graphic"><img src="webp/balancing-green.webp" alt="Ecological Accounting" width="100%" height="100%" loading="lazy"></div>
 			<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration" loading="lazy"></div><!--width="300px" height="254px"-->
 			<!--<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>-->
