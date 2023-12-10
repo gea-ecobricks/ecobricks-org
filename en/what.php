@@ -1,5 +1,8 @@
-<!--PAGE LANGUAGE:  ENGLISH-->  
- 
+<HTML lang="en">
+<HEAD>
+<META charset="UTF-8">
+
+<!--PAGE LANGUAGE:  ENGLISH-->   
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
 <?php require_once ("../includes/what-inc.php");?>
