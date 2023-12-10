@@ -16,7 +16,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<!--FOOTER STARTS HERE-->
 	
 	<div id="footer-full">
-	<div id="ocean-vision"><img src="../svgs/ocean-footer3.svg" loading="lazy" width="1080" height="635" alt="Let's keep the ocean free from plastic pollution" style="width:100%;"></div>
+	<div id="ocean-vision"><img src="../svgs/ocean-footer3.svg" loading="lazy" width="100%" alt="Let's keep the ocean free from plastic pollution" style="width:100%;"></div>
 	
 	
 	<div class="footer-vision">We envision a Transition in our Households, Communities and Enterprises from Plastic to ever Greener Harmony with Earth's Cycles.</div>
@@ -28,7 +28,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<div class="footer-icons-container">
 		<div class="footer-icons"><!--WIKIPEDIA-->
 			<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">
-			<img src="../icons/wikipedia.svg" width="100" height="100" alt="TEST Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page" loading="lazy"></a>
+			<img src="../icons/wikipedia.svg" width="100%" height="100%" alt="TEST Check out the official Ecobricks wikipedia page" title="Check out the official Ecobricks wikipedia page" loading="lazy"></a>
 			
 		</div>
 
@@ -40,7 +40,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 		<div class="footer-icons"><!--GOBRIK-->
 			<a href="https://gobrik.com" target="_blank">
-			<img src="../icons/gobrik.svg" width="150" height="150" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app" loading="lazy"></a>
+			<img src="../icons/gobrik.svg" width="100%" height="100%" alt="Sign up for our GoBrik app" title="Sign up for our GoBrik app" loading="lazy"></a>
 			
 		</div>
 
@@ -163,7 +163,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 
 
-<!-- ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score
+<!-- ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score-->
                 
 
 <script type="text/javascript" defer>
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
 
 
-</script>-->
+</script>
 
  <!--Arc CDN Script without delay
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
