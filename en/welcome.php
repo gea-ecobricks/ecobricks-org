@@ -70,7 +70,7 @@
 	<!-- This loads the page's top graphics-->
 
 		<!--<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>-->
-		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="1080" height="330"></div>
+		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" alt="Our Earthen vision"></div>
 
 
 		

@@ -31,7 +31,7 @@
                     <a href="https://gobrik.com" target="_blank" rel="noopener">
                         <div id="gobrik-menu">
                             <div class="icon-menu">
-                            <img src="icons/gobrik.svg" width="65" height="65" loading="lazy" alt="GoBrik logo">
+                            <img src="../icons/gobrik.svg" width="65" height="65" loading="lazy" alt="GoBrik logo">
                             </div>
                             <div class="apptext-menu">
                                 <div class="apptext-header">GoBrik </div>
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                     </a>
-
+<!-- 
                     <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener">
                         <div id="mattermost-menu">
                             <div class="icon-menu"><img src="icons/mattermost.svg" width="65" height="65" alt="Our Ecoobricker Social Server"></div>
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                     
-                    </a>
+                    </a> -->
 
                     <a href="https://gobrik.com/go.php#offset" target="_blank" rel="noopener">
                         <div id="offset-menu">
