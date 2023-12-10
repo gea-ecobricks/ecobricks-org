@@ -16,7 +16,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 	<!--FOOTER STARTS HERE-->
 	
 	<div id="footer-full">
-	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="1080" height="635" alt="Keeping the ocean free from plastic pollution" ></div>
+	<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" loading="lazy" width="1080" height="635" alt="Keeping the ocean free from plastic pollution" style="width:100%"></div>
 	
 	
 	<div class="footer-vision">We envision a Transition in our Households, Communities and Enterprises from Plastic to ever Greener Harmony with Earth's Cycles.</div>
@@ -32,7 +32,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 			
 		</div>
 
-		<div class="footer-icons">
+		<div class="footer-icons" style="width:100%">
 			<a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr" target="_blank" rel="noopener"><!--MATTERMOST-->
 			<img src="icons/mattermost.svg" width="100" height="100" alt="Join our Circles Ecobrick Support Community"  title="Join our Circles Ecobrick Support Community" loading="lazy"></a>
 			<!--<div class="icon-name">/ecobricks</div>
