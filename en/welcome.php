@@ -90,7 +90,7 @@
 
 	<div id="content-sect1">
 	 	<div class="main-content">
-			<div id="dolphin-graphic"><img src="../svgs/dolphin-top-optimized.svg?v8" alt="eco bricks help keep plastic out of the ocean" loading="lazy" width="400" height="400"></div>
+			<div id="dolphin-graphic"><img src="../svgs/dolphin-top-optimized.svg?v8" alt="eco bricks help keep plastic out of the ocean" loading="lazy" width="500" height="500"></div>
 			<div class="big-header">Accelerating Plastic Transition</div>
 			<div class="sub-text">
 			<p>Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
@@ -108,7 +108,7 @@
 	  
 	<div id="content-sect2">
 		<div class="main-content">
-			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=5" width="400" height="380" alt="eco bricks follow the Earth's example." loading="lazy">
+			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=5" width="500" height="470" alt="eco bricks follow the Earth's example." loading="lazy">
 			</div>
 			<div class="big-header">Following Earth's Example</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
@@ -126,7 +126,7 @@
 
 	<div id="content-sect3">
 		<div class="main-content">
-			<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="400" height="370" alt="eco brick plastic brick building" loading="lazy"></div>
+			<div class="lead-graphic"><img src="../webp/spiral-circular-800px.webp" width="400" height="370" alt="eco brick plastic brick building" loading="lazy"></div>
 			<div class="big-header">The Problem is the Solution.</div>
 			<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Ecobrick applications range from home furniture, to food-forest gardens to structures.  By transforming the problem, we can build solutions!</p>
 			</div> 

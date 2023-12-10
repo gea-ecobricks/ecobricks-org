@@ -25,7 +25,7 @@
 
     <div class="topnav" id="myTopnav">
         <div class="dropdown">
-                  <button type="button" aria-label="GEA service menu" class="dropbtn" id="menu-circle"><img src="svgs/grey-emblem.svg" width="30" height="30" alt="Open site menu"><!--<span class="menu-text">GEA Servers</span>-->
+                  <button type="button" aria-label="GEA service menu" class="dropbtn" id="menu-circle"><img src="../svgs/grey-emblem.svg" width="30" height="30" alt="Open site menu"><!--<span class="menu-text">GEA Servers</span>-->
                 </button>
                   <div class="dropdown-content-app">
                     <a href="https://gobrik.com" target="_blank" rel="noopener">
