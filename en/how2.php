@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="UTF-8">
 <?php require_once ("../includes/how-inc.php");?>
 
 <!--PAGE LANGUAGE:  ENGLISH
@@ -8,7 +11,7 @@ Content Page template: v.1.0.0-->
 
 Once translation is completed, you can remove the line below to take the translation notice off the page-->
 
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 

@@ -3,7 +3,7 @@ echo <<<_END
 <html lang="$lang">
 _END;?>
 <HEAD>
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
@@ -22,9 +22,9 @@ _END;?>
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="webp/eb-sky-400px.webp">
-<link rel="preload" as="image" href="webp/build-banner-1400px.webp">
+<link rel="preload" as="image" href="../logos/gea-horizontal.svg">
+<link rel="preload" as="image" href="../webp/eb-sky-400px.webp">
+<link rel="preload" as="image" href="../webp/build-banner-1400px.webp">
 
 <!--This loads CSS specific to this page
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/what.css?v1.1">-->
