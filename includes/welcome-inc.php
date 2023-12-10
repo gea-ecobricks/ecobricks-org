@@ -30,7 +30,7 @@ _END;?>
 
 <!--This loads the page's header-->
 
-<?php require_once ("header.php");?>
+<?php require_once ("../header.php");?>
 
 
 <STYLE>
