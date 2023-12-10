@@ -160,17 +160,19 @@ _END;?>
 
 @media screen and (max-width: 700px) {
 	.splash-heading {
-      font-size: 2.6em;
+      font-size: 3em;
       line-height: 1.3;
       margin: 0px 0;
+	  margin-top: 50px;
   }
 }
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 6em;
+      font-size: 4em;
       line-height: 1.3;
       margin: auto;
+	  margin-top: 160px;
   }
 }
 
