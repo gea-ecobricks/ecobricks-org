@@ -71,7 +71,7 @@
 	<!-- This loads the page's top graphics-->
 
 		<!--<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>-->
-		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" height="31%"></div>
+		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="1080" height="330"></div>
 
 
 		
@@ -90,7 +90,7 @@
 
 	<div id="content-sect1">
 	 	<div class="main-content">
-			<div id="dolphin-graphic"><img src="../svgs/dolphin-top-optimized.svg?v8" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
+			<div id="dolphin-graphic"><img src="../svgs/dolphin-top-optimized.svg?v8" alt="eco bricks help keep plastic out of the ocean" loading="lazy" width="400" height="400"></div>
 			<div class="big-header">Accelerating Plastic Transition</div>
 			<div class="sub-text">
 			<p>Together we can keep our plastic out of the oceans.  With ecobricks we can secure plastic to build our greenest visions and ignite regenerative transition.</p>
@@ -108,7 +108,7 @@
 	  
 	<div id="content-sect2">
 		<div class="main-content">
-			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=5" width="100%" height="96%" alt="eco bricks follow the Earth's example." loading="lazy">
+			<div class="lead-graphic"><img src="svgs/earth-service-animation.svg?v=5" width="400" height="380" alt="eco bricks follow the Earth's example." loading="lazy">
 			</div>
 			<div class="big-header">Following Earth's Example</div>
 			<!--<div class="lead-paragraph">Join the Regenerative Movement</div>-->
@@ -126,7 +126,7 @@
 
 	<div id="content-sect3">
 		<div class="main-content">
-			<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="100%" height="90%" alt="eco brick plastic brick building" loading="lazy"></div>
+			<div class="lead-graphic"><img src="webp/spiral-circular-800px.webp" width="400" height="370" alt="eco brick plastic brick building" loading="lazy"></div>
 			<div class="big-header">The Problem is the Solution.</div>
 			<div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Ecobrick applications range from home furniture, to food-forest gardens to structures.  By transforming the problem, we can build solutions!</p>
 			</div> 
@@ -148,8 +148,8 @@
 
 	<div id="content-sect4">
 		<div class="main-content">
-			<div class="lead-graphic"><img src="webp/balancing-green.webp" alt="Ecological Accounting" width="100%" height="100%" loading="lazy"></div>
-			<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration" loading="lazy"></div><!--width="300px" height="254px"-->
+			<div class="lead-graphic"><img src="webp/balancing-green.webp" alt="Ecological Accounting" width="400" height="400" loading="lazy"></div>
+			<div class="lead-graphic"><img src="svgs/aes-brk.svg" width="400" height="160" alt="authenticated eco brick sequetration" loading="lazy"></div><!--width="300px" height="254px"-->
 			<!--<div class="lead-paragraph"><br>Introducing AES Plastic Offsetting</div>-->
 			<div class="sub-text"><p><br>Fast track your journey to zero-waste through plastic offsetting.  Plastic offsets are directly correlated to authenticated ecobricked plastic through the Brikcoin manual blockchain.</p></div>
 			<a href="https://gobrik.com/#offset" target="_blank" class="main-button">Plastic Offsetting</a>
@@ -162,7 +162,7 @@
 			<br><br>
 			<h4>Eco-brick, eco brick, or ecobrick?</h4>
 
-			<p>Back in the early days of putting plastic into a bottle we called it just that-- plastic bottle bricks!  Then when we realized it was helpful to the <b>eco</b>systems around us, the name changed to "eco bricks" or "eco-brick". Today 'ecobrick' is the <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia recongnized</a> term for the go-to, non-capital, zero-carbon solution for <a href="https://en.wikipedia.org/wiki/plastic_sequestration" target="_blank">plastic sequestration</a></a></p>
+			<p>Back in the early days of putting plastic into a bottle we called it just that-- plastic bottle bricks!  Then when we realized it was helpful to the <b>eco</b>systems around us, the name changed to "eco bricks" or "eco-brick". Today 'ecobrick' is the <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia recongnized</a> term for the go-to, non-capital, zero-carbon solution for <a href="https://en.wikipedia.org/wiki/plastic_sequestration" target="_blank">plastic sequestration</a></p>
 				<p>Learn about the main focus of the ecobrick movement and technology:</p>
 				<a href="transition.php" class="main-button">Plastic Transition</a>
 			

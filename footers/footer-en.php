@@ -158,7 +158,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 		<br><br>
 	</div>
-
+</div>
 
 	<!--FOOTER ENDS-->
 
