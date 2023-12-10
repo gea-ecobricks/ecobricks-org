@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php require_once ("includes/how-inc.php");?>
+<?php require_once ("../includes/how-inc.php");?>
 
 <!--PAGE LANGUAGE:  ENGLISH
 Content Page template: v.1.0.0-->
