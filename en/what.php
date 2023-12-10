@@ -14,7 +14,7 @@
 		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
 		
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
+	<div class="splash-image"><img src="../svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -62,14 +62,14 @@
 						<p>
 						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics and the<a href="/plastic">Earth’s example of greening the biosphere</a>.</p>
 						</div>
-						<div class="side2"><img src="pngs/authenticated-ecobrick.png" width="100%">
+						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" width="100%">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>An ecobrick must fulfil the following crieria:</p>
 						</div>
-						<div class="side3"><img src="pngs/authenticated-ecobrick.png" width="125px">
+						<div class="side3"><img src="../pngs/authenticated-ecobrick.png" width="125px">
 						</div>
 					</div>
 
