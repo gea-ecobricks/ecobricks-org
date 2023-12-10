@@ -1,7 +1,7 @@
 <!-- Meta tags for page display and search engine listing-->
 
 <title>Brickable Designator Kit</title>
-
+ 
 <meta name="keywords" content="brikable, brickable design, ecobrickable, designator icon, ecobrickable product, ecobrickable packaging, packaging icon, brik, brick, company plastic tracking, ecological accounting, green accounting, regenerative reporting, carbon accounting, biodiversity tracking, disclosure, track, carbon, plastic, tracking, disclose, ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste">
 
 <meta name="description" content="Make your plastic product or packaging circular using the Brickable Designator Icon">
