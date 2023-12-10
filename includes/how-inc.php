@@ -31,7 +31,7 @@ _END;?>
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("meta/how-$lang.php");?>
+<?php require_once ("../meta/how-$lang.php");?>
 
  
 <STYLE>
@@ -280,4 +280,4 @@ margin-bottom: 31px;}
         
 	<!-- This loads the page's language specific menu -->
 
-    <?php require_once ("menus/menu-$lang.php");?>
+    <?php require_once ("../menus/menu-$lang.php");?>
