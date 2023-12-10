@@ -1,4 +1,3 @@
-<meta charset="UTF-8"> 
 <!-- PHP starts by laying out canonical URLs for the page and language -->
 <?php
 	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
@@ -178,7 +177,7 @@
 	-webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
   -ms-transform: skewY(-3deg);
-  -o-transform: skewY(-3deg);
+  -o-transform: skewY(-3deg); 
   transform: skewY(-3deg);
     margin-bottom: 40px;
 
