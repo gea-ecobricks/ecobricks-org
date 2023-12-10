@@ -89,6 +89,8 @@ _END;?>
 		width: 100%;
 		background-size: cover;
 		position: relative;
+		flex-flow: row;
+
 }
 }
 

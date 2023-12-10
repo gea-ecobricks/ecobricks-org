@@ -6,7 +6,7 @@ Content Page template: v.1.0.1-->
 <?php require_once ("../includes/brickable-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("under-construction.php");?>-->
+<?php require_once ("under-construction.php");?>
 
 <!--PAGE BANNER-->
 
