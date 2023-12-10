@@ -108,7 +108,7 @@
 						<div class="main2">
 						<p>Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
 						</div>
-						<div class="side2"><img src="webp/brik-cascade.webp" width="150px">
+						<div class="side2"><img src="../webp/brik-cascade.webp" width="150px">
 						</div>
 					</div>
 
@@ -161,7 +161,7 @@
 						<div class="main2">
 						<p>Cigbricks are a class of ecobrick to secure the potentially toxic plastic/acetate of the cigarette filters-- one of the most prevalent and damaging of all plastic pollutants. Cigbricks are made exclusively from the packed acetate filters of cigarette butts once the paper and ash has been fully removed.</p>
 						</div>
-						<div class="side2"><img src="svgs/Cigbrick.svg" width="100%">
+						<div class="side2"><img src="../svgs/Cigbrick.svg" width="100%">
 						</div>
 					</div>
 
@@ -169,7 +169,7 @@
 						<div class="main3">
 						<p>To be a Cigbrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="svgs/Cigbrick.svg" width="120px">
+						<div class="side3"><img src="../svgs/Cigbrick.svg" width="120px">
 						</div>
 					</div>
 			
@@ -216,7 +216,7 @@
 						<p>Ocean Ecobricks are a class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
 						</div>
 						<div class="side2">
-						<img src="webp/oeb-400px.webp" width="100%">
+						<img src="../webp/oeb-400px.webp" width="100%">
 						</div>
 					</div>
 
@@ -224,7 +224,7 @@
 						<div class="main3">
 						<p>To be an Ocean Ecobrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="webp/oeb-400px.webp" width="150px">
+						<div class="side3"><img src="../webp/oeb-400px.webp" width="150px">
 						</div>
 					</div>
 
