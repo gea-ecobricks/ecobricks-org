@@ -13,8 +13,8 @@ Content Page template: v.1.0.1-->
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobrickable Design.</div>
-		<div class="splash-sub">Make your plastic product circular today.</div>
+		<div class="splash-heading">Ecobrickable Design</div>
+		<div class="splash-sub">Apply Spiral Design Principles to Your Product</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/svgs/brickable-icon-from-ecobricks-org.svg" style="width: 70%;"></div>	
 </div>
