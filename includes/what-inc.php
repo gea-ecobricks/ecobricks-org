@@ -1,13 +1,4 @@
-<?php require_once ("lang.php");
-echo <<<_END
-
-<!DOCTYPE html>
-
-<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
-
-<html lang="$lang">
-
-_END;?>
+<?php require_once ("lang.php");?>
 
 <HEAD> 
 

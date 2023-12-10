@@ -3,7 +3,7 @@ Content Page template: v.1.0.1-->
   
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
-<?php require_once ("includes/sequest-inc.php");?>
+<?php require_once ("../includes/sequest-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
@@ -17,7 +17,7 @@ Content Page template: v.1.0.1-->
 
 	<!-- This loads the page's language specific menu -->
 
-    <?php require_once ("menus/menu-$lang.php");?>
+    <?php require_once ("../menus/menu-$lang.php");?>
 
 <!--PAGE BANNER-->
 
@@ -26,7 +26,7 @@ Content Page template: v.1.0.1-->
                 <div class="splash-heading">Plastic Sequestration</div>
             <div class="splash-sub">By following the Earth’s example of carbon care we can keep our plastic safe and secure out the biosphere and out of industry.</div>
             </div>
-            <div class="splash-image"><img src="webp/earth-service-700px.webp" style="width: 85%;"></div>	
+            <div class="splash-image"><img src="../webp/earth-service-700px.webp" style="width: 85%;"></div>	
         </div>
         <div id="splash-bar"></div>
 
@@ -159,7 +159,7 @@ Content Page template: v.1.0.1-->
                                 
                                 <p>The Earth’s cycles steadily removed carbon out of the atmosphere into biomass then into geological sequestreation.  This secured carbon from all forms of solar, chemical and organic degradation.  In the same way, plastic sequestration must do the same. </p>
                                 </div>
-                                <div class="side2"><img src="webp/compacted-carbon.webp" width="92%">
+                                <div class="side2"><img src="../webp/compacted-carbon.webp" width="92%">
                                 </div>
                             </div>
 
@@ -168,7 +168,7 @@ Content Page template: v.1.0.1-->
                                 <p>Keeping plastic that has already been produced as plastic as plastic is an effective way to keep its carbon from getting loose.</p>
                                 
                                 </div>
-                                <div class="side3"><br><img src="webp/compacted-carbon.webp" width="150px">
+                                <div class="side3"><br><img src="../webp/compacted-carbon.webp" width="150px">
                                 </div>
                             </div>
                             
@@ -207,7 +207,7 @@ Content Page template: v.1.0.1-->
                         
                             <p>The Earth's processes used carbon based building blocks that were resuable over and over by organisms and ecosystems.  Overtime, this biomass tended towards concentration and sequestration under the earth.  In the same way, the outputs of plastic sequestration, must intend the same.</p>
                             </div>
-                            <div class="side2"><img src="webp/spiral-design-381px.webp" width="80%">
+                            <div class="side2"><img src="../webp/spiral-design-381px.webp" width="80%">
                             </div>
                         </div>
 
@@ -215,7 +215,7 @@ Content Page template: v.1.0.1-->
                             <div class="main3">
                             <p>As such plastic sequestration is by-definiton a non-industrial process.</p>
                             </div>
-                            <div class="side3"><br><img src="webp/spiral-design-381px.webp" width="120px">
+                            <div class="side3"><br><img src="../webp/spiral-design-381px.webp" width="120px">
                             </div>
                         </div>
 
@@ -255,7 +255,7 @@ Content Page template: v.1.0.1-->
                                 
                                 <p>At all levels of the biosphere, we can see that its many parts contribute upwards to the benefit of the whole.   The cells of a leaf, the leaves of a tree, and the trees of a forests spiral benefits upwards to the whole. In the same way, the enterprise of plastic sequestration must be structured to prioritize the upwards benefit of the whole rather than the downwards benefit of a few.</p>
                                 </div>
-                                <div class="side2"><img src="webp/for-earth500px.webp" width="95%">
+                                <div class="side2"><img src="../webp/for-earth500px.webp" width="95%">
                                 </div>
                             </div>
 
@@ -263,7 +263,7 @@ Content Page template: v.1.0.1-->
                                 <div class="main3">
                                 <p>Industrial methods of plastic processing are driven by for-profit enterprise.</p>
                                 </div>
-                                <div class="side3"><br><img src="webp/for-earth500px.webp" width="120px">
+                                <div class="side3"><br><img src="../webp/for-earth500px.webp" width="120px">
                                 </div>
                             </div>
                             
@@ -349,7 +349,7 @@ Content Page template: v.1.0.1-->
                                     <div class="main2">
                                     <p>The Earth’s use of carbon enabled life to flourish and diversify. Likewise, the short-term use of sequestered plastic must be such that it supports life in the short term and enables biodiversity in the long-term.</p>
                                     </div>
-                                    <div class="side2"><img src="webp/biodiversity-500px.webp" width="85%">
+                                    <div class="side2"><img src="../webp/biodiversity-500px.webp" width="85%">
                                     </div>
                                 </div>
 
@@ -357,7 +357,7 @@ Content Page template: v.1.0.1-->
                                     <div class="main3">
                                     <p>The outputs of plastic sequestration must be intended for applications that support biodiversity.</p>
                                     </div>
-                                    <div class="side3"><br><img src="webp/biodiversity-500px.webp" width="120px">
+                                    <div class="side3"><br><img src="../webp/biodiversity-500px.webp" width="120px">
                                     </div>
                                 </div>
                             
@@ -402,7 +402,7 @@ Content Page template: v.1.0.1-->
                                     
                                     <p>The Earth’s cycles lead to the an ever increasing awareness of those impacted in an ecosystem.  Plastic sequestration must likewise increase our awareness through an accounting and disclosure of the ecological impacts of the process.</p>
                                     </div>
-                                    <div class="side2"><img src="webp/ecological-consciousness-500px.webp" width="90%">
+                                    <div class="side2"><img src="../webp/ecological-consciousness-500px.webp" width="90%">
                                     </div>
                                 </div>
 
@@ -410,7 +410,7 @@ Content Page template: v.1.0.1-->
                                     <div class="main3">
                                     <p>In the past, industrial plastic processing distanced consumers from the ecological consequences of plastic consumption.</p>
                                     </div>
-                                    <div class="side3"><br><img src="webp/ecological-consciousness-500px.webp" width="120px">
+                                    <div class="side3"><br><img src="../webp/ecological-consciousness-500px.webp" width="120px">
                                     </div>
                                 </div>
                             
@@ -522,8 +522,8 @@ Content Page template: v.1.0.1-->
 
                             <div class="side2">
                                 
-                                <img src="webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
-                                <br><br><img src="webp/ayyew.webp" width="100%"></a><br>
+                                <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
+                                <br><br><img src="../webp/ayyew.webp" width="100%"></a><br>
                             </div>
                         </div>	
                     
@@ -538,7 +538,7 @@ Content Page template: v.1.0.1-->
                 <div class="side">
             
                     <div id="side-module-desktop-mobile">
-                        <img src="webp/earthen-story-400px.webp" width="90%" alt="Eco bricks follow the Earth's ancient example">
+                        <img src="../webp/earthen-story-400px.webp" width="90%" alt="Eco bricks follow the Earth's ancient example">
                         <br><h4>Following the Earth's Example</h4>
                         <h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
                         <a class="module-btn" href="/plastic">Plastic's Long Story</a>
@@ -546,21 +546,21 @@ Content Page template: v.1.0.1-->
                     </div>  
 
                     <div id="side-module-desktop-mobile">
-                        <img src="webp/tens-thousands.webp" width="80%" alt="Eco bricks can build awesome regenerative structures">
+                        <img src="../webp/tens-thousands.webp" width="80%" alt="Eco bricks can build awesome regenerative structures">
                         <h4>Plastic Transition</h4>
                         <h5>Plastic sequestration is a transition technology. Rather than see plastic as ‘waste’ we see it as a portal towards petro-capital transition.</h5><br>
                         <a class="module-btn" href="transition.php">Learn More</a>
                     </div>
 
                     <div id="side-module-desktop-mobile">
-                        <img src="webp/build-blue-450px.webp" width="80%" alt="Eco bricks are a form of plastic sequestration in constructions">
+                        <img src="../webp/build-blue-450px.webp" width="80%" alt="Eco bricks are a form of plastic sequestration in constructions">
                         <h4>Ecobricks</h4>
                         <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
                         <a class="module-btn" href="catalyst.php">🚀 Learn More</a>
                     </div>
 
                     <div id="side-module-desktop-mobile">
-                        <img src="webp/earthen-500px.webp" width="80%" alt="Ecobricks follow the Earth's example">
+                        <img src="../webp/earthen-500px.webp" width="80%" alt="Ecobricks follow the Earth's example">
                         <h4>Earthen Ethics</h4>
                         <h5>Plastic Sequestration is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
                         <a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">Learn More</a>
@@ -572,13 +572,13 @@ Content Page template: v.1.0.1-->
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("footers/footer-$lang.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 </div>
 </body>
