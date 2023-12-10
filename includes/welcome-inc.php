@@ -1,20 +1,3 @@
-<?php require_once ("lang.php");
-echo <<<_END
-
-<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
-
-<html lang="$lang">
-
-_END;?>
-
-<HEAD>
-
-<!--Image files to preload that are unique to this page-->
-
-	
-<meta charset="utf-8">
-
-
 <!--  Set any page specific graphics to preload-->
 <link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-mobile.svg">

@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<?php require_once ("lang.php");
+echo <<<_END
+<html lang="$lang">
+_END;?>
+<HEAD>
+<meta charset="utf-8">
 
 
 	<!--PAGE LANGUAGE:  ENGLISH-->  
