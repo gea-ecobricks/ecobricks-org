@@ -9,7 +9,8 @@
 "url":"..\/en\/how.php",
 "language":"English",
 "Section":"Basics",
-"image_url":"..\/webps\/eb-sky-400px.webp"
+"image_url":"..\/webps\/eb-sky-400px.webp",
+"page_url":"how" 
 },
 
 {
@@ -19,7 +20,8 @@
 "keywords":"ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste",
 "language":"English",
 "Section":"Basics",
-"image_url":"..\/svgs\/eb-blue-no-clouds.svg"
+"image_url":"..\/svgs\/eb-blue-no-clouds.svg",
+"page_url":"what" 
 },
 
 {
@@ -29,7 +31,9 @@
     "keywords":"ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste",
     "language":"English",
     "Section":"Basics",
-    "image_url":"..\/svgs\/eb-blue-no-clouds.svg" 
+    "image_url":"..\/svgs\/eb-blue-no-clouds.svg",
+    "page_url":"/why/" 
+
 },
 
 {
@@ -39,7 +43,8 @@
     "keywords":"ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste",
     "language":"English",
     "Section":"Basics",
-    "image_url":"..\/svgs\/eb-blue-no-clouds.svg" 
+    "image_url":"..\/svgs\/eb-blue-no-clouds.svg",
+    "page_url":"/why/" 
 },
 
 {
@@ -49,7 +54,8 @@
     "keywords":"plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.",
     "language":"English",
     "Section":"Theory",
-    "image_url":"..\/webp\/earth-service-700px.webp" 
+    "image_url":"..\/webp\/earth-service-700px.webp",
+    "page_url":"sequest" 
 },
 
 {
@@ -59,8 +65,10 @@
     "keywords":"primordial, stellar story, earth, planet, dinosaurs, algae, ancient, carbon, billion years, multicellular organisms, oil, natural gas, left-overs, refinement, fossil fuels, CO2, coal",
     "language":"English",
     "Section":"Theory",
-    "image_url":"..\/webp\/earth-service-700px.webp" 
+    "image_url":"..\/webp\/earth-service-700px.webp",
+    "page_url":"/plastic/" 
 },
+
 
 {
     "pageID":"008",
@@ -69,8 +77,54 @@
     "keywords":"brikable, brickable design, ecobrickable, designator icon, ecobrickable product, ecobrickable packaging, packaging icon, brik, brick, company plastic tracking, ecological accounting, green accounting, regenerative reporting, carbon accounting, biodiversity tracking, disclosure, track, carbon, plastic, tracking, disclose, ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste",
     "language":"English",
     "Section":"Theory",
-    "image_url":"..\/svgs\/brickable-icon-from-ecobricks-org.svg" 
+    "image_url":"..\/svgs\/brickable-icon-from-ecobricks-org.svg",
+    "page_url":"ecobrickable" 
+},
+
+
+{
+    "pageID":"010",
+    "title":"Ecobricks & Flamability",
+    "subtitle": "Ensuring Ecobrick Fire Safety",
+    "keywords":"fire, safety, flames, flamability, density, danger, hazard,",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"..\/webp\/fire.webp" ,
+    "page_url":"/fire/" 
+},
+
+{
+    "pageID":"011",
+    "title":"Ecobrick Applications",
+    "subtitle": "Practical & Principled Ecobrick Building",
+    "keywords":"fire, safety, flames, flamability, density, danger, hazard,",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"..\/webp\/fire.webp",
+    "page_url":"build" 
+},
+
+{
+    "pageID":"012",
+    "title":"Ecobrick Applications",
+    "subtitle": "Practical & Principled Ecobrick Building",
+    "keywords":"fire, safety, flames, flamability, density, danger, hazard,",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"..\/webp\/fire.webp",
+    "page_url":"build" 
+},
+
+{
+    "pageID":"013",
+    "title":"Ecobrick Modules",
+    "subtitle": "Build simple, easy and awesome modular ecobrick furniture.",
+    "keywords":"eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, building, guide, applications, constructions, modules, earth building, food forest play parks, planters, earth benches, garden walls, earthen structures, plastic sequestration, silicone modules, milstein modules, open spaces, dieleman modules",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"..\/pngs\/Feature-Floating-Module-500px.png",
+    "page_url":"modules" 
 }
 
-  
+
 ]

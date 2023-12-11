@@ -11,7 +11,7 @@ Content Page template: v.1.0.0-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobrick Milstein Modules</div>
+		<div class="splash-heading">Ecobrick Modules</div>
 	    <div class="splash-sub">Build simple, easy and awesome modular ecobrick furniture.</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/pngs/Feature-Floating-Module-500px.png" style="width: 85%">
