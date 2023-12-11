@@ -145,7 +145,7 @@ RewriteRule (.*)$ https://ecobricks.org/en/$1 [R=301,L]
 
 # ... copy block above for other languages ...
 
-RedirectMatch "^/en-francais/" "/welcome.php"
+RedirectMatch "^/en-francais/" "/en/"
 
 RedirectMatch "^/es/welcome.php" "/es/"
 
