@@ -46,7 +46,7 @@ $(document).ready(function() {
     $('#brikchain').DataTable( {
 		"processing": true,
         "serverSide": true,
-		"ajax": "ajax-brk-trans.php"
+		"ajax": "../ajax-brk-trans.php"
     } );
 } );
 
@@ -67,7 +67,7 @@ $(document).ready(function() {
     $('#ecobricks').DataTable( {
 		"processing": true,
         "serverSide": true,
-		"ajax": "ajax-ecobricks.php"
+		"ajax": "../ajax-ecobricks.php"
 
     } );
 } );
