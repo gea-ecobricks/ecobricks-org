@@ -13,7 +13,7 @@ Content Page template: v.1.0.0-->
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Ecobrick & Earth Building</div>
-	    <div class="splash-sub">Build beautiful, strong, circular, resilient and regenerative structures.</div>
+	    <div class="splash-sub">Build beautiful, strong, spiral, resilient and regenerative structures.</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/svgs/tree-bench.svg" style="width: 85%">
     </div>	
@@ -67,7 +67,7 @@ Content Page template: v.1.0.0-->
 
                     <div class="flex-gallery" max-width="100%">
 						<div class="gal-photo"><a href="photos/earth-garden.jpeg"><img src="../photos/earth-garden.jpeg?v=2" height="175px" alt="A simple raised bed garden bench."></a><p>A simple raised bed garden bench -- Indonesia</p></div>
-						<div class="gal-photo"><a href="photos/earth-well.jpeg"><img src="../photos/earth-well.jpeg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction -- UK</p></div>
+						<div class="gal-photo"><a href="photos/earth-well.jpeg"><img src="../photos/earth-well.jpeg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A spiral cob and ecobrick construction -- UK</p></div>
 						<div class="gal-photo"><a href="photos/earth-snake.jpeg"><img src="../photos/earth-snake.jpeg" height="175px" alt="An ecobrick snake play-bench for a public park."></a><p>An ecobrick snake play-bench for a public park -- Philippines</p></div>
 					</div>
                     
@@ -125,7 +125,7 @@ Content Page template: v.1.0.0-->
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>Circular & Spiral</h4>
+                    <h4>Spiral Design</h4>
                     <h5>When building with earth we plan for the destruction of our creation, the reuse of its materials-- in a way that ensures that the next construction will be enriched by the first.</h5>   
                     <br>
                     </div>
@@ -141,14 +141,14 @@ Content Page template: v.1.0.0-->
                 <h5><b>Ecobricks carefully removed from a destroyed construction and ready to be used again.</b></h5>
 
                 <br>
-                <p>Essential to Earth and Ecobrick building and the effective sequestration of plastic, is circular design.  This means that whenever we build with ecobrick we ensure that at the end of the construction, the ecobricks can be extricated undamaged and used again.</p>
+                <p>Essential to Earth and Ecobrick building and the effective sequestration of plastic, is its spiral design.  This means that whenever we build with ecobrick we ensure that at the end of the construction, the ecobricks can be extricated undamaged and used again.</p>
 
                 <p>This is one of the chief advantages of building with ecobricks and earth.  Unlike cement, when an earthen construction comes to its end, the ecobricks can be extracted undamaged.  During the construction life-span, the earth completely protects the ecobrick from all forms of degradation .  Then at the at its end, cob/adobe/waddle readily crumbles (especially after some soaking) to release the ecobricks un-scarred. Cement, in contrast, crumbles into stiff hard edged rubble that can easily rupture a plastic bottle. </p>
 
                 <p>In addition, not only can the released ecobricks be reused, so too can the rubble earth.  As it has already been mixed to the requisite ratio, only water needs to be added.  After some soaking the earth can be remixed and reapplied in a new construction!
                 <br>
 
-                <h5>ℹ️ Learn more about: <a href="/circular">Circular & Spiral Design</a></h5>
+                <h5>ℹ️ Learn more about: <a href="spiral">Spiral Design</a></h5>
 
                 </div>
             </div>
@@ -167,7 +167,7 @@ Content Page template: v.1.0.0-->
 
 				<div id="preclosed4">
                 
-                    <img src="../photos/earth-collab.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
+                    <img src="../photos/earth-collab.jpg" width="100%" loading="lazy" alt="spiral earth and ecobrick bench">
             
 					<p>Earth and ecobrick building methods are designed from the ground up to be replicable, non-capital, non-petroleum, collaboration powered.</p>
                     <p>Unlike conventional or commercial building methods, that require paying specialized architects, engineers and builders, every element of earth and ecobrick building is designed to be accessible to the participation and contribution of everyone in the community.   These <i>transcaste</i> building methods are non hierarchical and readily involves all genders and ages in the various processes.</p>
@@ -360,29 +360,17 @@ Content Page template: v.1.0.0-->
 
 		<div class="side">
 	
-			
-            <div id="side-module-desktop-mobile">
-                <img src="../webp/tens-thousands.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Plastic Sequestration</h4>
-                <h5>The GEA advocates ecobrick building to sequester plastic.  Only builds that follow best-practices, embody earth principles and use authenticated eco<span class="eco-brick"> </span>bricks sequester plastic.</h5><br>
-                <a class="module-btn" href="sequest.php">Learn More</a>
-            </div>
+        <?php require_once ("side-modules/spiral-design.php");?>
 
-			<div id="side-module-desktop-mobile">
-				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
-				<h4>Plastic Transition</h4>
-				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
-				<a class="module-btn" href="transition.php">Learn More</a>
-			</div>
+<?php require_once ("side-modules/sequest-module.php");?>
 
-			
+<?php require_once ("side-modules/spiral-design.php");?>
+    
+<?php require_once ("side-modules/good-use.php");?>
 
-            <div id="side-module-desktop-mobile">
-				<img src="../webp/spiral-circular-400px.webp" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
-				<h4>Circular & Spiral Design</h4>
-				<h5>Ecobrick applications follows the principles of circular design to put our plastic into indefinite greening cycles of reuse.</h5><br>
-				<a class="module-btn" href="/circular">Learn More</a>
-			</div>
+<?php require_once ("side-modules/earthen-ethics.php");?>
+
+
 
             <div id="side-module-desktop-mobile">
 				<img src="../pngs/transcaste-500px.png" width="80%" loading="lazy" alt="eco brick transcaste construction and building briks.">

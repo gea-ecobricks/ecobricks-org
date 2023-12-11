@@ -93,9 +93,9 @@
                 </button>
                 <div class="dropdown-content-normal">
                     <a href="build.php">Building Methods</a>
-                    <a href="/modules">Ecobrick Modules</a>
-                    <a href="/earth">Earth & Ecobricks</a>
-                    <a href="/openspaces">Open Spaces</a>
+                    <a href="modules.php">Ecobrick Modules</a>
+                    <a href="earth.php?v2">Earth & Ecobricks</a>
+                    <a href="/openspace/">Open Spaces</a>
                 </div>
             </div>
 

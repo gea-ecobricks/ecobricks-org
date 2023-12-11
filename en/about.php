@@ -4,7 +4,7 @@ Content Page template: v.1.0.1-->
 <!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
 <?php require_once ("../includes/about-inc.php");?>
-
+ 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <!--<?php require_once ("translate-please.php");?>-->
 
@@ -21,7 +21,7 @@ Content Page template: v.1.0.1-->
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
+<a id="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -222,7 +222,7 @@ Content Page template: v.1.0.1-->
 					<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.</p><br>
 
 					<p><b>GoBrik.com</b></p>
-					<p>The GEA maintains and develops the free <a href="https://gobrik.com" target="_blank">GoBrik.com web app to support and connect ecobrickers and their communities.</p><br>
+					<p>The GEA maintains and develops the free <a href="https://gobrik.com" target="_blank">GoBrik.com</a> web app to support and connect ecobrickers and their communities.</p><br>
 
 					<p><b>Brikcoin Manual Blockchain</b></p>
 					<p>

@@ -110,7 +110,7 @@
     "subtitle": "Practical & Principled Ecobrick Building",
     "keywords":"fire, safety, flames, flamability, density, danger, hazard,",
     "language":"English",
-    "Section":"Theory",
+    "Section":"Building",
     "image_url":"..\/webp\/fire.webp",
     "page_url":"build" 
 },
@@ -121,9 +121,54 @@
     "subtitle": "Build simple, easy and awesome modular ecobrick furniture.",
     "keywords":"eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, building, guide, applications, constructions, modules, earth building, food forest play parks, planters, earth benches, garden walls, earthen structures, plastic sequestration, silicone modules, milstein modules, open spaces, dieleman modules",
     "language":"English",
-    "Section":"Theory",
+    "Section":"Building",
     "image_url":"..\/pngs\/Feature-Floating-Module-500px.png",
     "page_url":"modules" 
+},
+
+{
+    "pageID":"014",
+    "title":"Earth & Ecobrick Building",
+    "subtitle": "Build beautiful, strong, circular, resilient and regenerative structures",
+    "keywords":"eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, building, earth, cob, adobe, mud, building, construction, earth & ecobricks, earth and ecobrick buidling, plastic sequestration, sequestration building, sponge homes, green building, green construction, net-green building, net-zero building, techniques, regenerative, principles",
+    "language":"English",
+    "Section":"Building",
+    "image_url":"..\/webp\/earth-build.webp",
+    "page_url":"earth" 
+},
+
+{
+    "pageID":"015",
+    "title":"Ecobrick Open Spaces",
+    "subtitle": "Create immersive interactive spaces that engage visitors with their imaginations.",
+    "keywords":"build, applications, modules, milstein, dieleman, cafe, public space, space, open, lego, modular, examples",
+    "language":"English",
+    "Section":"Building",
+    "image_url":"..\/webp\/openspace.webp",
+    "page_url":"/openspace/" 
+},
+
+{
+    "pageID":"016",
+    "title":"About Us",
+    "subtitle": "The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition. ",
+    "keywords":"global ecobrick alliance, GEA, gea, ecobricks.org, earth enterprise, about us, ecobrick company, ecobrick organization, ecobrick NGO, earthen, principled.",
+    "language":"English",
+    "Section":"About",
+    "image_url":"..\/webp\/gea-perspective-400px.webp",
+    "page_url":"about" 
+},
+
+
+{
+    "pageID":"017",
+    "title":"About Us",
+    "subtitle": "The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition. ",
+    "keywords":"global ecobrick alliance, GEA, gea, ecobricks.org, earth enterprise, about us, ecobrick company, ecobrick organization, ecobrick NGO, earthen, principled.",
+    "language":"English",
+    "Section":"About",
+    "image_url":"..\/webp\/gea-perspective-400px.webp",
+    "page_url":"about" 
 }
 
 
