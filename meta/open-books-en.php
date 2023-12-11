@@ -5,7 +5,7 @@
 <meta name="keywords" content="GEA open books, openbooks, accounting, not-for-profit, earth enterprise, for-Earth, ecobricks, eco-brick, eco, brik, brikcoins, carbon sequestration, plastic sequestration, ecological value, block chain, brikcoins, manual blockchain, blockchain, proof of value, ecobricks, plastic, plastic sequestration, BRK, ecological value, commodification, ecological service, aes plastic, logged ecobricks, ecological NFTs">
 
 <meta name="description" content="A full disclosure of the Global Ecobrick Alliances Not-for-profit Financial Accounting">
-	
+	 
 	<!-- Facebook Open Graph Tags for social sharing-->
 
 	<meta property="og:url"           content="https://www.ecobricks.org/en/brikcoins.php"/>

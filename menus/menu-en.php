@@ -79,8 +79,8 @@
                     <a href="principles.php">Principles</a>
                     <a href="brikchain.php">Brikchain Explorer</a>
                     <a href="open-books.php">Our Open Books</a>
-                    <a href="ayyew">Ayyew Ethos</a>
-                    <a href="ayyew">Mandalic Collaboration</a>
+                    <a href="/ayyew/">Ayyew Ethos</a>
+                    <a href="/mandalas/">Mandalic Collaboration</a>
                     <a href="movement">The Movement</a>
                 </div>
             </div>

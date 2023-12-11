@@ -193,7 +193,43 @@
     "Section":"Theory",
     "image_url":"..\/svgs\/earthen-ethics-icon-ecobricks-org.svg",
     "page_url":"principles" 
+},
+
+
+{
+    "pageID":"020",
+    "title":"Open Books",
+    "subtitle": "A full disclosure of the Global Ecobrick Alliances Not-for-profit Financial Accounting",
+    "keywords" : "GEA open books, openbooks, accounting, not-for-profit, earth enterprise, for-Earth, ecobricks, eco-brick, eco, brik, brikcoins, carbon sequestration, plastic sequestration, ecological value, block chain, brikcoins, manual blockchain, blockchain, proof of value, ecobricks, plastic, plastic sequestration, BRK, ecological value, commodification, ecological service, aes plastic, logged ecobricks, ecological NFTs",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"..\/pngs\/openbooks.png",
+    "page_url":"Operations" 
+},
+
+
+{
+    "pageID":"021",
+    "title":"Ayyew Ecological Ethos",
+    "subtitle": "Ancient wisdom with modern meaning.",
+    "keywords" : "Asian, igorot, ancestral, indigenous, kincentric, ecological, ethics, virtue, principle, northern philippines, ancestral wisdom",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"\/wp-content\/uploads\/2020\/05\/maligcong-rice-terraces.jpg",
+    "page_url":"Theory" 
 }
+
+{
+    "pageID":"022",
+    "title":"Mandalic Collaboration",
+    "subtitle": "Ancient wisdom with modern meaning.",
+    "keywords" : "Asian, igorot, ancestral, indigenous, kincentric, ecological, ethics, virtue, principle, northern philippines, ancestral wisdom",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"\/wp-content\/uploads\/2020\/05\/maligcong-rice-terraces.jpg",
+    "page_url":"Theory" 
+}
+
 
 
 
