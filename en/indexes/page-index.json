@@ -169,7 +169,35 @@
     "Section":"About",
     "image_url":"..\/webp\/gea-perspective-400px.webp",
     "page_url":"about" 
-}
+},
+
+
+{
+    "pageID":"018",
+    "title":"Principles",
+    "subtitle": "Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.",
+    "keywords" : "regenerative principles, biosphere, ecological ethics, transcaste, for-earth, ecological accounting, circular design, spiral design, biodiversity accounting, cyclical design, earthen ethics, vitalizing biodiversity, plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"..\/svgs\/earthen-ethics-icon-ecobricks-org.svg",
+    "page_url":"principles" 
+},
+
+
+{
+    "pageID":"019",
+    "title":"Brikchain",
+    "subtitle": "Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.",
+    "keywords" : "regenerative principles, biosphere, ecological ethics, transcaste, for-earth, ecological accounting, circular design, spiral design, biodiversity accounting, cyclical design, earthen ethics, vitalizing biodiversity, plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"..\/svgs\/earthen-ethics-icon-ecobricks-org.svg",
+    "page_url":"principles" 
+},
+
+
+
+
 
 
 ]
