@@ -46,7 +46,7 @@ $(document).ready(function() {
     $('#brikchain').DataTable( {
 		"processing": true,
         "serverSide": true,
-		"ajax": "ajax-brk-trans.php"
+		"ajax": "../scripts/ajax-brk-trans.php"
 
     } );
 } );
@@ -68,7 +68,7 @@ $(document).ready(function() {
     $('#ecobricks').DataTable( {
 		"processing": true,
         "serverSide": true,
-		"ajax": "ajax-ecobricks.php"
+		"ajax": "../scripts/ajax-ecobricks.php"
 
     } );
 } );
@@ -81,7 +81,7 @@ $(document).ready(function() {
     $('#revenues').DataTable( {
 		"processing": true,
         "serverSide": true,
-		"ajax": "ajax-revenues-trans.php"
+		"ajax": "../scripts/ajax-revenues-trans.php"
 
     } );
 } );
@@ -94,7 +94,7 @@ $(document).ready(function() {
     $('#expenses').DataTable( {
 		"processing": true,
         "serverSide": true,
-		"ajax": "ajax-expenses-trans.php"
+		"ajax": "../scripts/ajax-expenses-trans.php"
 
     } );
 } );
