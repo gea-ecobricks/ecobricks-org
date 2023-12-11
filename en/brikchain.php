@@ -6,7 +6,6 @@
 <?php require_once ("../includes/brikchain-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("under-construction.php");?>
 
 <!--TOP PAGE BANNER-->
 
@@ -23,7 +22,7 @@
 
 <!-- PAGE CONTENT-->
 
-<?php include 'ecobricks_env.php';?> 
+<?php include '../ecobricks_env.php';?> 
 
 <a name="top"></a>
 <div id="main-content">
