@@ -2,7 +2,7 @@
 
 <title>Plastic Transition & Ecobricks</title>
 
-<meta name="keywords" content="plastic transition, petro-capital transition, moving on, recycling, sustainability, green, grey.">
+<meta name="keywords" content="plastic transition, petro-capital transition, moving on, recycling, sustainability, green, grey, zero-waste, ayyew, earthen, sequestration">
 
 <meta name="description" content="Plastic transition is the key to our shift from petro-capital participation to the regeneration of the biosphere.">
 	

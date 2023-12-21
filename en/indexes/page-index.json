@@ -202,9 +202,9 @@
     "subtitle": "A full disclosure of the Global Ecobrick Alliances Not-for-profit Financial Accounting",
     "keywords" : "GEA open books, openbooks, accounting, not-for-profit, earth enterprise, for-Earth, ecobricks, eco-brick, eco, brik, brikcoins, carbon sequestration, plastic sequestration, ecological value, block chain, brikcoins, manual blockchain, blockchain, proof of value, ecobricks, plastic, plastic sequestration, BRK, ecological value, commodification, ecological service, aes plastic, logged ecobricks, ecological NFTs",
     "language":"English",
-    "Section":"Theory",
+    "Section":"Operations",
     "image_url":"..\/pngs\/openbooks.png",
-    "page_url":"Operations" 
+    "page_url":"open-books.php" 
 },
 
 
@@ -216,19 +216,144 @@
     "language":"English",
     "Section":"Theory",
     "image_url":"\/wp-content\/uploads\/2020\/05\/maligcong-rice-terraces.jpg",
-    "page_url":"Theory" 
-}
+    "page_url":"/ayyew/" 
+},
 
 {
     "pageID":"022",
     "title":"Mandalic Collaboration",
     "subtitle": "Ancient wisdom with modern meaning.",
-    "keywords" : "Asian, igorot, ancestral, indigenous, kincentric, ecological, ethics, virtue, principle, northern philippines, ancestral wisdom",
+    "keywords" : "mandalas, mandala, collaboration, art, working together, india, collab, theory",
     "language":"English",
     "Section":"Theory",
-    "image_url":"\/wp-content\/uploads\/2020\/05\/maligcong-rice-terraces.jpg",
-    "page_url":"Theory" 
+    "image_url":"\/webp\/mandalic.webp",
+    "page_url":"/mandalas/" 
+},
+
+{
+    "pageID":"023",
+    "title":"The Movement",
+    "subtitle": "Ecobricking is not just a technology, it’s a movement.  Hundreds of thousands of people around the world have turned to ecobricks as a way to take personal responsibility for their plastic..",
+    "keywords" : "mandalas, mandala, collaboration, art, working together, india, collab, theory, movement, ecobricks, people power, england, america, usa, indonesia, social, social movement, ",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"\/webp\/mandalic.webp",
+    "page_url":"/movement/" 
+},
+
+{
+    "pageID":"024",
+    "title":"The Movement",
+    "subtitle": "Ecobricking is not just a technology, it’s a movement.  Hundreds of thousands of people around the world have turned to ecobricks as a way to take personal responsibility for their plastic..",
+    "keywords" : "mandalas, mandala, collaboration, art, working together, india, collab, theory, movement, ecobricks, people power, england, america, usa, indonesia",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"\/webp\/mandalic.webp",
+    "page_url":"/movement/" 
+},
+
+{
+    "pageID":"025",
+    "title":"Plastic Transition",
+    "subtitle": "Plastic transition is the key to our shift from petro-capital participation to the regeneration of the biosphere",
+    "keywords" : "plastic transition, petro-capital transition, moving on, recycling, sustainability, green, grey",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"\/pngs/\floating-dial-1000px.png",
+    "page_url":"transition.php" 
+},
+
+
+{
+    "pageID":"026",
+    "title":"Frequently Asked Questions",
+    "subtitle": "Our team has been working with ecobricks and plastic for the last decade. Here's our answers to the common questions about each",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"\/svgs\/questions.svg",
+    "page_url":"faqs.php" 
+    
+},
+
+{
+    "pageID":"027",
+    "title":"Ocean Ecobricks",
+    "subtitle": "A Sequestration Solution for Dirty Plastics",
+    "keywords" : "",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"\/svgs\/oeb.svg",
+    "page_url":"/ocean/" 
+},
+
+{
+    "pageID":"028",
+    "title":"Cigbricks",
+    "subtitle": "Introducting a simple solution for cigarette pollution",
+    "keywords" : "",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"\/webp\/cigbrick.web",
+    "page_url":"/cigbriks/" 
+},
+
+{
+    "pageID":"029",
+    "title":"Global Plastic Coefficients for Ecological Accounting",
+    "subtitle": "Enterprise Regenerativity Reporting",
+    "keywords" : "",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"\/webp\/gea-perspective-400px.webp",
+    "page_url":"coefficients.php" 
+},
+
+{
+    "pageID":"030",
+    "title":"Our Ecological Accounting",
+    "subtitle": "Public disclosure of the Global Ecobrick Alliance's annual plastic, carbon & biodiversity impacts",
+    "keywords" : "",
+    "language":"English",
+    "Section":"Reports",
+    "image_url":"\/icons\/balance-glow-500px.webp",
+    "page_url":"regenreports.php" 
+},
+
+{
+    "pageID":"031",
+    "title":"Richard Goldsmith",
+    "subtitle": "GEA Trainer in memorandum",
+    "keywords" : "Richard, Goldsmith, memorandum",
+    "language":"English",
+    "Section":"Special",
+    "image_url":"\/photos\/richard-goldsmith.webp",
+    "page_url":"richard.php" 
+},
+
+{
+    "pageID":"032",
+    "title":"GoBrik",
+    "subtitle": "A Social Action Platform Serving the People, Serving the Planet",
+    "keywords" : "gobrik, app, social action, application",
+    "language":"English",
+    "Section":"Projects",
+    "image_url":"\/svgs\/gobrik-logo.svg",
+    "page_url":"/gobrik/" 
+},
+
+{
+    "pageID":"033",
+    "title":"AES Plastic",
+    "subtitle": "Authenticated Ecobrick Sequestered Plastic",
+    "keywords" : "aes, gobrik, sequestered, plastic, offsets, buy, purchase, balance, plastic consumption",
+    "language":"English",
+    "Section":"Theory",
+    "image_url":"\/svgs\/gobrik-logo.svg",
+    "page_url":"/aes/" 
 }
+
+
+
 
 
 
