@@ -17,8 +17,8 @@
  <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../mode-light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 <link rel="stylesheet" href="../mode-dark.css?v=7.2" media="(prefers-color-scheme: dark)">
-<!-- 
-<link rel="stylesheet" type="text/css" href="../stylesheet-general.css?v=4.4"> -->
+ 
+<link rel="stylesheet" type="text/css" href="../stylesheet-general.css?v=4.4"> 
 
  
     <style>
@@ -1117,6 +1117,217 @@ object-fit: cover;
 
 
 
+/*--------------------------------------
+GUIDED TOUR---*
+--------------------------------------*/
+
+
+
+/* The modal background */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 30; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scrolling if needed */
+  background-color: var(--modal-background);
+}
+  
+.tour-content {
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .tour-content {
+    margin: 10% auto 15% auto;
+    width: 90%;
+  }
+
+}
+
+  @media screen and (min-width: 701px) {
+    .tour-content {
+      margin: 5% auto 15% auto;
+      width: 80%;
+    }
+
+  }
+
+
+
+  .close-tour {
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    color: #aaa;
+    transition: color 0.3s ease;
+    position: fixed;
+    top: 20px;
+    right: 10%;
+  }
+  
+  .close-tour:hover,
+  .close-tour:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+.close {
+  color: var(--subdued-text);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin: -15px 40px auto auto;
+  position: absolute;
+  right: 0;
+}
+.close:hover,
+.close:focus {
+  color:var(--h1);
+  text-decoration: none;
+  cursor: pointer;
+}
+.blur {
+  filter: blur(10px);
+  filter:brightness(0.2);
+  pointer-events: none;
+}
+.next {
+  background-color: green;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next:hover {
+  background-color: #0f6a02;
+}
+
+.back {
+  background-color: rgb(80, 80, 80);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.modal-description {
+  font-family:'Mulish', sans-serif;
+  text-align:center;
+  color:var(--h1);
+  padding:15px;
+}
+  
+.modal-header {
+  font-family: 'Mulish', sans-serif;
+  color:var(--h1);
+  margin-top: 15px;
+  font-weight: bolder;
+}
+
+#underlayer {transition: 0.5s;}
+
+
+
+.tour-image {
+  margin: auto; 
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  flex: 50%;
+  opacity: 0.7;
+margin: auto;
+
+}
+
+.tour-image img {
+  height: inherit;
+}
+
+
+@media screen and (max-width: 700px) {
+  
+  .tour-image {
+    padding: 8px;
+    height: 120px;  
+  }
+
+  .modal-header {
+    font-size:2.3em;
+  }
+  .modal-description {
+    font-size:1.2em;
+  }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1324px) {
+  
+  .tour-image {
+    padding: 8px;
+    height: 200px;  
+  }
+
+  .modal-header {
+    font-size:2.9em;
+  }
+  .modal-description {
+    font-size:1.5em;
+  }
+
+}
+
+
+@media screen and (min-width: 1325px) {
+
+
+  .tour-image {
+    padding: 28px;
+    height: 270px;  
+  }
+
+  .modal-header {
+    font-size:3.2em;
+  }
+  .modal-description {
+    font-size:1.7em;
+  }
+
+}
+
+.java-link {
+  cursor:pointer; 
+  border-bottom: grey 1px dashed;
+}
+
+.java-link:hover {
+  cursor:pointer; 
+  border-bottom: grey 1px solid;}
+
+
+
 
     </style>
 
@@ -1129,6 +1340,68 @@ object-fit: cover;
 
 </head>
 <body>
+
+<!-- TOUR SLIDER -->
+
+
+<div id="guided-tour" class="modal">
+    <div class="tour-content">
+      <span class="close-tour" style="padding:10px" onclick="closeTour();">&times;</span>
+    
+      <div id="information-one" class="information">
+        <div class="tour-image"><img src="../svgs/question.svg"  style="margin:auto" title="A Quick Tour of the Calendar" alt="A Quick Tour of the Calendar"></div>  
+        <div class="modal-header">What's an Ecobrick?</div>
+        <div class="modal-description">Take our 30 second, five-slide introduction to ecobricks.  This is a great place to start if you're new to ecobricking!/div>
+        <button class="next">Start ➔</button>
+      </div>
+    
+      <div id="information-two" style="display:none;" class="information">
+      <div class="tour-image"><img src="svgs/cycles-night-over.svg"  style="margin:auto" title="One Year. One Orbit." alt="One Year. One Orbit."></div>  
+        <div class="modal-header">One Year.<br>One Orbit.</div>
+        <div class="modal-description">The EarthCycles calendar lets you see each year as a one spin of Earth around the Sun.  Click any of the 365 divisions of the EarthCal circle to see where the Earth is in its orbit and to see that day's data.  The progression of colors shows the solar and lunar months.</div>
+        <button class="back">↩ Back</button>
+        <button class="next">Next ➔</button>
+      </div>
+      
+      <div id="information-three" style="display:none;" class="information">
+      <div class="tour-image"><img src="icons/saturn-cycle.svg"    title="Our Neighbourhood" alt="Our Neighbourhood"></div>  
+    
+        <div class="modal-header">Our Neighbourhood</div>
+        <div class="modal-description">As you watch Earth spin around the Sun, you can see our planetary neighbours spin too!  This not only helps you understand the night sky but also connects you with the much longer cycles of time that each planet's orbit represents (it takes Neptune almost 165 Earth years for its spin!).</div>
+        <button class="back">↩ Back</button>
+        <button class="next">Next ➔</button>
+      </div>
+    
+      
+      <div id="information-four" style="display:none;" class="information">
+      <div class="tour-image"><img src="svgs/just-moon.svg" title="Sinc with the lunar cycles" alt="Sync with the lunar cycles"></div>  
+        <div class="modal-header">Get Lunar</div>
+        <div class="modal-description">Notice the center of the calendar while you skim over the days of the year?  You can see in real-time how the phase of the moon changes over the course of the year.  Click the moon in the bottom left for even more live data.</div>
+        <button class="back">↩ Back</button>
+        <button class="next">Next ➔</button>
+      </div>
+      
+      
+      <div id="information-five" style="display:none;" class="information">
+      
+      <div class="tour-image"><img src="icons/whale.svg"  title="Earth and animal cycles" alt="animal cycles"></div>  
+      <div class="modal-description">Great civilizations also used the cycles of the great creatures around them to track time.  Click on the Earth icon at the bottom left corner to see where the grey whales of North America are in their migration at a particular time of the year.  More animals coming soon!</div>
+        <button class="back">↩ Back</button>
+        <button class="next">Next ➔</button>
+      </div>
+    
+      <div id="information-six" style="display:none;" class="information" class="information">
+        <div class="tour-image"><img src="svgs/add-night-over.svg"  title="add events" alt="Add events"></div>  
+    
+        <div class="modal-header">Add Your Events</div>
+        <div class="modal-description">Use EarthCal to record your events and daily to-dos.  Add your one time events and annual cycles (like birthdays!) to the calendar by clicking the top left + for the highlighted date.  Google Calendar sync coming soon.</div>
+        <button class="back">↩ Back</button>
+        
+        <button class="next" onclick="closeTour()">✓ Done</button>
+  
+      </div>
+    </div>
+    </div>
 
 
 <!--SEARCH PAGE-->
@@ -1219,39 +1492,40 @@ object-fit: cover;
                                                                 
 </div>
 
-    <div id="registration-footer">
-        <div class="reg-top-section">
-          <button id="reg-up-button" onclick="sendUpRegistration()" aria="Newsletter Registration"></button>
-        </div>
-        <div class="registration-footer-holder">
-          <div id="progress-bar"></div>
-          <button id="reg-down-button" onclick="sendDownRegistration()" >
-            <img src="../svgs/down-arrow.svg" alt="No Register">
-          </button>
-          
-          <div id="email-registration">
-            <div class="registration-box">
-              <div class="reg-img">
-                <img src="../svgs/earth-home-animated-v4.svg" height="200" width="200" alt="EarthCycles Calendar from Earthen.io">
-              </div>
-              <div class="reg-texts">
-                <div class="reg-header">Go Deeper & Greener.</div>
-                <div class="reg-subtitle">The Global Ecobrick Alliance is guided and inspired by Earthen ethics-- following Earth's example to ensure our endeavours are green.  </div>
-                <form id="emailForm" class="reg-field" style="display:flex; flex-flow:row;">
-                  <label for="email"></label>
-                  <input type="email" name="email" required placeholder="Your e-mail..." class="email-input">
-                  <input type="text" name="name" required placeholder="Your name..." class="name-input">
-                  <div class="reg-complete-text" id="reg-status"></div>
-                  <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleFormSubmit(event)">
-                </form>
-                <div class="reg-sub">Learn more about ecobricks and our earthen inspiration by receiving our monthly newsletter.</div>
-              </div>
+<div id="registration-footer">
+    <div class="reg-top-section">
+        <button id="reg-up-button" onclick="sendUpRegistration()" aria="Newsletter Registration"></button>
+    </div>
+    <div class="registration-footer-holder">
+        <div id="progress-bar"></div>
+        <button id="reg-down-button" onclick="sendDownRegistration()" >
+        <img src="../svgs/down-arrow.svg" alt="No Register">
+        </button>
+        
+        <div id="email-registration">
+        <div class="registration-box">
+            <div class="reg-img">
+            <img src="../svgs/earth-home-animated-v4.svg" height="200" width="200" alt="EarthCycles Calendar from Earthen.io">
             </div>
-          </div>
+            <div class="reg-texts">
+            <div class="reg-header">Go Deeper & Greener.</div>
+            <div class="reg-subtitle">The Global Ecobrick Alliance is guided and inspired by Earthen ethics-- following Earth's example to ensure our endeavours are green.  </div>
+            <form id="emailForm" class="reg-field" style="display:flex; flex-flow:row;">
+                <label for="email"></label>
+                <input type="email" name="email" required placeholder="Your e-mail..." class="email-input">
+                <input type="text" name="name" required placeholder="Your name..." class="name-input">
+                <div class="reg-complete-text" id="reg-status"></div>
+                <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleFormSubmit(event)">
+            </form>
+            <div class="reg-sub">Learn more about ecobricks and our earthen inspiration by receiving our monthly newsletter.</div>
+            </div>
         </div>
-      </div>
+        </div>
+    </div>
+    </div>
     
-    
+<div id="page-content">
+
     <div id="header" class="top-menu" style="display: flex;
     flex-flow: row;">
 
@@ -1319,7 +1593,7 @@ object-fit: cover;
         <div id="function-icons" style="display: flex;flex-flow:row;margin:auto 10px auto auto;">
 
             <div id="main-header-buttons">
-                <div class="what-are-ecobricks">What's an ecobrick?</div>
+                <div class="what-are-ecobricks"  onclick="guidedTour()" >What's an ecobrick?</div>
                 <div class="header-divider">|</div>
                 <div class="faqs-button">FAQs</div>
                 <div class="header-divider">|</div>
@@ -1380,20 +1654,6 @@ object-fit: cover;
         <h6>Heading Three</h6>
         <p>Some Body text</p>
 
-        <!-- <dark-mode-toggle
-        id="dark-mode-toggle-5" style="padding:10px;font-size:small;"
-        class="slider"
-        legend=""
-        remember="Remember for all pages"
-        appearance="toggle">
-        </dark-mode-toggle> -->
-<!-- 
-        <dark-mode-toggle
-        id="dark-mode-toggle-5"
-        class="slider"
-        appearance="toggle">
-        </dark-mode-toggle> -->
-
        
     </div>
 
@@ -1403,7 +1663,9 @@ object-fit: cover;
        
     </div>
 
-    
+    </div> <!--page content close-->
+
+    <script src="../guided-tour.js"></script>
     
     <script>
         let lastScrollTop = 0;
