@@ -9,8 +9,8 @@
 "url":"..\/en\/how.php",
 "language":"English",
 "Section":"Basics",
-"image_url":"..\/webps\/eb-sky-400px.webp",
-"page_url":"how" 
+"image_url":"..\/webp\/eb-sky-400px.webp",
+"url":"how" 
 },
 
 {
@@ -21,7 +21,7 @@
 "language":"English",
 "Section":"Basics",
 "image_url":"..\/svgs\/eb-blue-no-clouds.svg",
-"page_url":"what" 
+"url":"what" 
 },
 
 {
@@ -31,21 +31,11 @@
     "keywords":"ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste",
     "language":"English",
     "Section":"Basics",
-    "image_url":"..\/svgs\/eb-blue-no-clouds.svg",
-    "page_url":"/why/" 
+    "image_url":"..\/svgs\/question.svg",
+    "url":"/why/" 
 
 },
 
-{
-    "pageID":"004",
-    "title":"Why Make Ecobricks?",
-    "subtitle": "Plastic is an amazing material with incredible properties — it is a shame for it go to waste.",
-    "keywords":"ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste",
-    "language":"English",
-    "Section":"Basics",
-    "image_url":"..\/svgs\/eb-blue-no-clouds.svg",
-    "page_url":"/why/" 
-},
 
 {
     "pageID":"005",
@@ -55,7 +45,7 @@
     "language":"English",
     "Section":"Theory",
     "image_url":"..\/webp\/earth-service-700px.webp",
-    "page_url":"sequest" 
+    "url":"sequest" 
 },
 
 {
@@ -66,7 +56,7 @@
     "language":"English",
     "Section":"Theory",
     "image_url":"..\/webp\/earth-service-700px.webp",
-    "page_url":"/plastic/" 
+    "url":"/plastic/" 
 },
 
 
@@ -78,7 +68,7 @@
     "language":"English",
     "Section":"Theory",
     "image_url":"..\/svgs\/brickable-icon-from-ecobricks-org.svg",
-    "page_url":"ecobrickable" 
+    "url":"ecobrickable" 
 },
 
 
@@ -90,7 +80,7 @@
     "language":"English",
     "Section":"Theory",
     "image_url":"..\/webp\/fire.webp" ,
-    "page_url":"/fire/" 
+    "url":"/fire/" 
 },
 
 {
@@ -100,30 +90,21 @@
     "keywords":"fire, safety, flames, flamability, density, danger, hazard,",
     "language":"English",
     "Section":"Theory",
-    "image_url":"..\/webp\/fire.webp",
-    "page_url":"build" 
+    "image_url":"..\/webp\/build-blue-450px.webp",
+    "url":"build" 
 },
 
-{
-    "pageID":"012",
-    "title":"Ecobrick Applications",
-    "subtitle": "Practical & Principled Ecobrick Building",
-    "keywords":"fire, safety, flames, flamability, density, danger, hazard,",
-    "language":"English",
-    "Section":"Building",
-    "image_url":"..\/webp\/fire.webp",
-    "page_url":"build" 
-},
+
 
 {
     "pageID":"013",
     "title":"Ecobrick Modules",
     "subtitle": "Build simple, easy and awesome modular ecobrick furniture.",
-    "keywords":"eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, building, guide, applications, constructions, modules, earth building, food forest play parks, planters, earth benches, garden walls, earthen structures, plastic sequestration, silicone modules, milstein modules, open spaces, dieleman modules",
+    "keywords":"ecobricks, building, plastic sequestration, Global Ecobrick Alliance (GEA), short-term applications, long-term applications, silicone, inner-tube-bands, UV photodegradation, Earth and Ecobrick building techniques, Cob material, Wattle and daub, adobe, principles of Earth building, maintenance, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, building, guide, applications, constructions, modules, earth building, food forest play parks, planters, earth benches, garden walls, earthen structures, plastic sequestration, silicone modules, milstein modules, open spaces, dieleman modules",
     "language":"English",
     "Section":"Building",
     "image_url":"..\/pngs\/Feature-Floating-Module-500px.png",
-    "page_url":"modules" 
+    "url":"modules" 
 },
 
 {
@@ -134,7 +115,7 @@
     "language":"English",
     "Section":"Building",
     "image_url":"..\/webp\/earth-build.webp",
-    "page_url":"earth" 
+    "url":"earth" 
 },
 
 {
@@ -145,7 +126,7 @@
     "language":"English",
     "Section":"Building",
     "image_url":"..\/webp\/openspace.webp",
-    "page_url":"/openspace/" 
+    "url":"/openspace/" 
 },
 
 {
@@ -156,7 +137,7 @@
     "language":"English",
     "Section":"About",
     "image_url":"..\/webp\/gea-perspective-400px.webp",
-    "page_url":"about" 
+    "url":"about" 
 },
 
 
@@ -168,7 +149,7 @@
     "language":"English",
     "Section":"About",
     "image_url":"..\/webp\/gea-perspective-400px.webp",
-    "page_url":"about" 
+    "url":"about" 
 },
 
 
@@ -179,20 +160,20 @@
     "keywords" : "regenerative principles, biosphere, ecological ethics, transcaste, for-earth, ecological accounting, circular design, spiral design, biodiversity accounting, cyclical design, earthen ethics, vitalizing biodiversity, plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.",
     "language":"English",
     "Section":"Theory",
-    "image_url":"..\/svgs\/earthen-ethics-icon-ecobricks-org.svg",
-    "page_url":"principles" 
+    "image_url":"..\/icons\/earthen-ethics-icon-ecobricks-org.svg",
+    "url":"principles" 
 },
 
 
 {
     "pageID":"019",
-    "title":"Brikchain",
-    "subtitle": "Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.",
-    "keywords" : "regenerative principles, biosphere, ecological ethics, transcaste, for-earth, ecological accounting, circular design, spiral design, biodiversity accounting, cyclical design, earthen ethics, vitalizing biodiversity, plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.",
+    "title":"Brikchain Explorer",
+    "subtitle": "Search and explore the full chain of authenticated ecobricks, blocks and transactions that make up the brikcoin manual blockchain.",
+    "keywords" : "authentication, transactions, and environmental impact, Brikchain Explorer, Ecobricks, Blockchain, Authentication, Transactions, AES Plastic, Sequestration, GoBrik platform, Brikcoin, Environmental accounting, CO2e (Carbon Dioxide Equivalent), Sustainability, Plastic valuation, Earthen Ethics, Regenerative principles",
     "language":"English",
     "Section":"Theory",
-    "image_url":"..\/svgs\/earthen-ethics-icon-ecobricks-org.svg",
-    "page_url":"principles" 
+    "image_url":"..\/webp\/brikchain-450px.webp",
+    "url":"principles" 
 },
 
 
@@ -204,7 +185,7 @@
     "language":"English",
     "Section":"Operations",
     "image_url":"..\/pngs\/openbooks.png",
-    "page_url":"open-books.php" 
+    "url":"open-books.php" 
 },
 
 
@@ -212,11 +193,11 @@
     "pageID":"021",
     "title":"Ayyew Ecological Ethos",
     "subtitle": "Ancient wisdom with modern meaning.",
-    "keywords" : "Asian, igorot, ancestral, indigenous, kincentric, ecological, ethics, virtue, principle, northern philippines, ancestral wisdom",
+    "keywords" : "ayyew, Asian, igorot, ancestral, indigenous, kincentric, ecological, ethics, virtue, principle, northern philippines, ancestral wisdom",
     "language":"English",
     "Section":"Theory",
     "image_url":"\/wp-content\/uploads\/2020\/05\/maligcong-rice-terraces.jpg",
-    "page_url":"/ayyew/" 
+    "url":"/ayyew/" 
 },
 
 {
@@ -227,19 +208,10 @@
     "language":"English",
     "Section":"Theory",
     "image_url":"\/webp\/mandalic.webp",
-    "page_url":"/mandalas/" 
+    "url":"/mandalas/" 
 },
 
-{
-    "pageID":"023",
-    "title":"The Movement",
-    "subtitle": "Ecobricking is not just a technology, it’s a movement.  Hundreds of thousands of people around the world have turned to ecobricks as a way to take personal responsibility for their plastic..",
-    "keywords" : "mandalas, mandala, collaboration, art, working together, india, collab, theory, movement, ecobricks, people power, england, america, usa, indonesia, social, social movement, ",
-    "language":"English",
-    "Section":"Theory",
-    "image_url":"\/webp\/mandalic.webp",
-    "page_url":"/movement/" 
-},
+
 
 {
     "pageID":"024",
@@ -249,7 +221,7 @@
     "language":"English",
     "Section":"Theory",
     "image_url":"\/webp\/mandalic.webp",
-    "page_url":"/movement/" 
+    "url":"/movement/" 
 },
 
 {
@@ -260,7 +232,7 @@
     "language":"English",
     "Section":"Theory",
     "image_url":"\/pngs/\floating-dial-1000px.png",
-    "page_url":"transition.php" 
+    "url":"transition.php" 
 },
 
 
@@ -270,8 +242,9 @@
     "subtitle": "Our team has been working with ecobricks and plastic for the last decade. Here's our answers to the common questions about each",
     "language":"English",
     "Section":"Theory",
+    "keywords": "ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste",
     "image_url":"\/svgs\/questions.svg",
-    "page_url":"faqs.php" 
+    "url":"faqs.php" 
     
 },
 
@@ -279,44 +252,44 @@
     "pageID":"027",
     "title":"Ocean Ecobricks",
     "subtitle": "A Sequestration Solution for Dirty Plastics",
-    "keywords" : "",
+    "keywords" : "ocean, marine, debris, beaches, river, clean up, trash hero, waste, ocean plastic, dirty, sand, contaminated",
     "language":"English",
     "Section":"Theory",
     "image_url":"\/svgs\/oeb.svg",
-    "page_url":"/ocean/" 
+    "url":"/ocean/" 
 },
 
 {
     "pageID":"028",
     "title":"Cigbricks",
     "subtitle": "Introducting a simple solution for cigarette pollution",
-    "keywords" : "",
+    "keywords" : "acetate, cigarettes, filter, cig, cibrik, cigbrick, tanjung pinang, smoking, waste, tobacco,",
     "language":"English",
     "Section":"Theory",
-    "image_url":"\/webp\/cigbrick.web",
-    "page_url":"/cigbriks/" 
+    "image_url":"\/svg\/Cigbrick.svg",
+    "url":"/cigbriks/" 
 },
 
 {
     "pageID":"029",
     "title":"Global Plastic Coefficients for Ecological Accounting",
     "subtitle": "Enterprise Regenerativity Reporting",
-    "keywords" : "",
+    "keywords" : "coeffecients, accounting, eco-accounting, calcuations, standards",
     "language":"English",
     "Section":"Theory",
     "image_url":"\/webp\/gea-perspective-400px.webp",
-    "page_url":"coefficients.php" 
+    "url":"coefficients.php" 
 },
 
 {
     "pageID":"030",
     "title":"Our Ecological Accounting",
     "subtitle": "Public disclosure of the Global Ecobrick Alliance's annual plastic, carbon & biodiversity impacts",
-    "keywords" : "",
+    "keywords" : "coeffecients, accounting, eco-accounting, calcuations, standards",
     "language":"English",
     "Section":"Reports",
     "image_url":"\/icons\/balance-glow-500px.webp",
-    "page_url":"regenreports.php" 
+    "url":"regenreports.php" 
 },
 
 {
@@ -327,7 +300,7 @@
     "language":"English",
     "Section":"Special",
     "image_url":"\/photos\/richard-goldsmith.webp",
-    "page_url":"richard.php" 
+    "url":"richard.php" 
 },
 
 {
@@ -338,7 +311,7 @@
     "language":"English",
     "Section":"Projects",
     "image_url":"\/svgs\/gobrik-logo.svg",
-    "page_url":"/gobrik/" 
+    "url":"/gobrik/" 
 },
 
 {
@@ -349,7 +322,7 @@
     "language":"English",
     "Section":"Theory",
     "image_url":"\/svgs\/gobrik-logo.svg",
-    "page_url":"/aes/" 
+    "url":"/aes/" 
 }
 
 
