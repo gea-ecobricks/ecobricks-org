@@ -17,6 +17,9 @@
  <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../mode-light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 <link rel="stylesheet" href="../mode-dark.css?v=7.2" media="(prefers-color-scheme: dark)">
+<!-- 
+<link rel="stylesheet" type="text/css" href="../stylesheet-general.css?v=4.4"> -->
+
  
     <style>
 
@@ -47,7 +50,6 @@
         body, html {
             margin: 0;
             padding: 0;
-            height: 2000px;
             background-color: var(--main-background);
         }
         #header {
@@ -1057,6 +1059,62 @@ legend {
   
   }
 
+  .btn {
+  border: 2px solid #ddd;
+    color: white;
+      background: grey;
+
+
+  font-weight: bolder;
+  align-self: center;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 0px 5px 5px 0px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+
+  }
+
+  .btn:hover {color: black;}
+
+/*SLIDER */
+#slider {
+    position: relative;
+    overflow: hidden;
+}
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+    left: 0;
+    top: 0;
+}
+
+.slide.green { background-color: green; z-index: 20; }
+.slide.orange { background-color: orange; z-index: 21; }
+.slide.pink { background-color: pink; z-index: 22; }
+
+.photo {
+display: none;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+@media screen and (max-width: 700px) {
+.mobile { display: block; }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+.tablet { display: block; }
+}
+
+@media screen and (min-width: 1201px) {
+.desktop { display: block; }
+}
+
 
 
 
@@ -1087,7 +1145,7 @@ legend {
       <div class="search-overlay-content">
             
             <div>
-                <h1>Search Ecobricks.org</h1> 
+                <h1>Search</h1> 
                 <p style="text-align:center">Search our site.  For searching our database of ecobricks please see gobrik.com/search.</p>
             </div>
           
@@ -1289,13 +1347,37 @@ legend {
             </div>
         </div>
     </div>
-   
+    <div id="slider" style="height: 96vh; width: 100%;">
+        <div class="slide green">
+            <img src="photo1-a.webp" class="photo mobile">
+            <img src="photo1-b.webp" class="photo tablet">
+            <img src="photo1-c.webp" class="photo desktop">
+        </div>
+        <div class="slide orange">
+            <img src="photo2-a.webp" class="photo mobile">
+            <img src="photo2-b.webp" class="photo tablet">
+            <img src="photo2-c.webp" class="photo desktop">
+        </div>
+        <div class="slide pink">
+            <img src="photo3-a.webp" class="photo mobile">
+            <img src="photo3-b.webp" class="photo tablet">
+            <img src="photo3-c.webp" class="photo desktop">
+        </div>
+    </div>
 
 
     <div id="main">
-        <h1>Hading One</h1>
+
+
+
+
+
+        <h1>Heading One</h1>
         <h2>Heading Two</h2>
         <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Three</h6>
         <p>Some Body text</p>
 
         <!-- <dark-mode-toggle
@@ -1605,6 +1687,47 @@ document.addEventListener('touchstart', function(event) {
   }
 });
 
+
+
+/*  SLIDER   ---------------
+
+---------------------------*/
+
+const slides = document.querySelectorAll('.slide');
+let activeIndex = 2; // Starting with the pink slide (photo 1)
+
+function nextSlide() {
+    // Slide off the current top slide
+    slides[activeIndex].style.transform = 'translateX(-100%)';
+
+    // Update z-index after the slide transition
+    setTimeout(() => {
+        // Loop through each slide
+        slides.forEach((slide, index) => {
+            let currentZIndex = parseInt(slide.style.zIndex, 10);
+
+            // Update z-index
+            if (index === activeIndex) {
+                slide.style.zIndex = 20; // Send the current slide to the back
+            } else {
+                slide.style.zIndex = currentZIndex + 1; // Move other slides up
+            }
+
+            // Reset position of the slide that just moved off-screen
+            if (index === activeIndex) {
+                slide.style.transform = 'translateX(0)';
+            }
+        });
+
+        // Update activeIndex for the next iteration
+        activeIndex = (activeIndex - 1 + slides.length) % slides.length;
+    }, 1000); // This timeout should match the CSS transition time
+
+    setTimeout(nextSlide, 4000);
+}
+
+// Initialize the slider
+setTimeout(nextSlide, 4000);
 
 
 
