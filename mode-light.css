@@ -1,0 +1,262 @@
+/*LIGHT STYLE SHEET*/
+
+/* light.css: 👉 dark-on-light */
+
+
+   :root {
+
+    --main-background: white;
+    --text-color: #242424;
+    --logo-color: #666;
+    --settings-background: rgb(220, 220, 222);
+    --settings-border: rgb(220, 220, 222);
+    --emblem-pink: #a93aa9;
+    --emblem-blue: #329bb8;
+    --emblem-green: #41a43c;
+
+
+    --side-overlays: rgb(225, 225, 225);
+    --slide-highlight: rgb(212, 212, 213);
+    --top-header: #fff;
+    --text-color: #242424;
+    --subdued-text: #454545;
+    --h1: black;
+    --gallery: grey;
+    --general-background: rgb(252, 252, 252);
+    --general-background-highlight: rgb(234, 234, 234);
+    --deeper-accent: rgb(148, 148, 148);
+    --header-accent: rgb(93, 93, 93);
+    --button-1-1: #4646cf;
+    --button-1-1-over: #5b5bf6;
+    --button-1-2: #3b3baf;
+    --button-1-2-over: #5454ff;
+    --button-2-1:#00a1f2;
+    --button-2-1-over:#3cb0fd;
+    --button-2-2:#008ad4;
+    --button-2-2-over:#3498db;
+    --shadow: rgba(57, 57, 57, 0.613);
+    --login:rgb(244, 242, 242);
+    
+    --footer-background: #252b4d;
+    --footer-text: #a2cbe3;
+    --footer-header: #a8aab8;
+    --splash: #2A91DA;
+    --splash-over: #19659c;
+    --notification: #a1ccfd;
+    --fuscia-button: #a458a4;
+
+    --facebook: #728398;
+
+   }
+   
+.top-emblem-button {
+    /*background: url(../svgs/settings-icon-dark.svg) no-repeat;*/
+    background: url(icons/main-menu.svg) no-repeat;
+    background-size: contain;
+}
+
+.top-emblem-button:hover {
+      background: url(icons/main-menu-over.svg) no-repeat;
+      background-size: contain;
+  }
+
+  .top-search-button {
+    background: url(icons/search-day.svg) no-repeat;
+    background-size: contain;
+}
+
+.top-search-button:hover {
+      background: url(icons/search-day-over.svg) no-repeat;
+      background-size: contain;
+  }
+
+#top-settings-button {
+    background: url(icons/settings-icon.svg) no-repeat;
+
+    background-size: contain;
+}
+
+#top-settings-button:hover {
+    background: url(icons/settings-icon-over.svg) no-repeat;
+    background-size: contain;
+}
+
+.top-lang-button {
+  background: url(icons/language-button.svg) no-repeat;
+  background-size: contain;
+}
+
+.top-lang-button:hover {
+  background: url(icons/language-button-over-invert.svg) no-repeat;
+  background-size: contain;
+}
+
+.top-login-button {
+  background: url(icons/login-icon.svg) no-repeat;
+  background-size: contain;
+}
+
+.top-login-button:hover {
+  background: url(icons/login-icon-over.svg) no-repeat;
+  background-size: contain;
+}
+
+/* #logo-ecobricks-org, #logo-global-ecobrick-alliance {
+  fill: #666;
+  transition: 0.5s;
+} */
+
+/* 
+#gea-logo {
+  background: url(logos/gea-logo-full-light.svg) no-repeat;
+  background-size: contain;
+} */
+
+
+/*
+.top-down-button {
+  background: url(../up-arrow.svg) no-repeat;
+  background-size: contain;
+}
+
+#top-down-button:hover {
+  background: url(../svgs/down-arrow.svg) no-repeat;
+  background-size: contain;
+}
+*/
+
+.main-menu-button {
+    background: url(../svgs/login-icon.svg) no-repeat;
+    background-size: contain;
+}
+
+.main-menu-button:hover  {
+    background: url(../svgs/login-icon-over.svg) no-repeat;
+    background-size: contain;
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .clouds-new2  {
+      background-image: linear-gradient(#30ffff, var(--general-background),var(--general-background),var(--general-background));
+      }
+    }
+  
+ @media screen and (min-width: 701px) {
+  .clouds-new2  {
+  background-image: linear-gradient(#30ffff, var(--general-background),)
+}
+}
+      /*
+  @media screen and (min-width: 0px) and (max-width: 700px) {
+    .clouds-new2  {
+      background-image: linear-gradient(#30ffff, var(--general-background),var(--general-background),var(--general-background), #30ffff);
+     /* background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
+          box-sizing: border-box;
+          background-size: 100%;*/
+  
+          .bottom-scope  {
+            background-image: linear-gradient(var(--general-background),var(--general-background), #30ffff);
+          }
+
+
+  .tree-coins {
+    background: url(../svgs/earth-home-animated-v6.svg) no-repeat center;
+    background-size: contain;
+  }
+
+
+  .bio-top {
+    background: url(../svgs/biosphere-top-day.svg) no-repeat center top;
+    background-size: cover;
+  }
+
+  .vision-landscape {
+    background: url(../webp/ocean-footer-day.webp?v=3) no-repeat center;
+    background-size: contain;
+    background-color: #5bfefe;
+    
+  }
+
+  .splash-content-block {
+    background: url(../svgs/brik-view-light.svg?v=2) bottom no-repeat;
+    background-size: cover;
+    background-color: #2A91DA;
+
+    }
+
+    #splash-bar {
+      background-color: #2A91DA;
+      box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+    }
+
+
+    .top-close-button {
+      background: url(../svgs/down-arrow.svg) no-repeat;
+      background-size: contain;
+    }
+    
+    .top-close-button:hover {
+      background: url(../svgs/up-arrow.svg) no-repeat;
+      background-size: contain;
+    }
+
+    .earth-com {
+      background: url(../svgs/earth-community-day.svg?v=2) no-repeat center;
+      background-size: contain;
+    }
+
+
+    .city-image {
+      background: url(../svgs/city-village-day.svg?v=2) no-repeat center;
+      background-size: contain;
+    }
+
+
+    .loader {
+      background: url(../svgs/bottle-loader.svg) center no-repeat;
+      background-size: 38px;
+    }
+
+
+    .my-ecobricks {
+
+      background: url(../webp/my-ecobricks-day.webp) no-repeat center;
+      background-size: contain;
+      }
+
+
+      .help-validate {
+        background: url(../webp/help-validate-day.webp) no-repeat center;
+        background-size: contain;
+      
+      }
+
+      .log-ecobricks {
+        background: url(../webp/log-ecobricks-day.webp) no-repeat center;
+        background-size: contain;
+      
+      }
+
+      .main-landing-graphic {
+      background: url(../svgs/richard-and-team-day.svg) no-repeat center center;
+      background-size: contain;
+      }
+
+      .biosphere {
+        background: url(https://gobrik.com/webp/biosphere-day.webp) no-repeat  center bottom;
+        background-size: contain;
+      
+      }
+
+/* light.css
+light.css 
+--icon-filter_hover: invert(60%);*/
+
+[part="permanentLabel"] {
+  font-size: smaller !important;
+}
+
+#reg-up-button {
+  background: url(svgs/up-reg-arrow-light.svg) center no-repeat;
+  background-size: contain;
+}
