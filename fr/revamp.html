@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta viewport="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <title>Dynamic Header and Progress Bar Example</title>
 
 
@@ -158,6 +158,20 @@
 #settings-buttons:hover > .top-lang-button {
   margin-left: -20px;
 }
+
+
+.settings-buttons-expanded {
+  right: -35px !important;
+}
+
+.settings-buttons-expanded > #top-settings-button {
+  opacity: 0;
+}
+
+.settings-buttons-expanded > .top-lang-button {
+  margin-left: -20px;
+}
+
 
 .top-search-button  {
   border: none; 
@@ -1078,18 +1092,27 @@ legend {
       
         <div class="earthcycles-logo"></div>
 
-        <div class="menu-page-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">Feature Tour</div>
+        <div class="menu-page-item"><a href="what"></a>Que sont les ecobricks?</div>
 
-        <div class="menu-page-item" onclick="closeSettings(),sendUpRegistration()">Earthen.io Newsletter</div>
+        <div class="menu-page-item" onclick="closeSettings(),sendUpRegistration()">Comment faire?</div>
         
-        <div class="menu-page-item"><a href="https://guide.earthen.io/" target="_blank">Calendar Guide ↗</a></div>
+        <div class="menu-page-item"><a href="why">Pourquoi les ecobrique?</a></div>
 
-        <div class="menu-page-item"><a href="https://gobrik.com/regen-store.php#shop/" target="_blank">Purchase Print ↗</a></div>
+        <div class="menu-page-item"><a href="plastic">L'example Terrestre</a></div>
 
-        <div class="menu-page-item"><a href="https://earthen.io/earthcal" target="_blank">About the Project ↗</a>
+        <div class="menu-page-item"><a href="principles">Nos principes Terrestre</a>
+        </div>
+
+        <div class="menu-page-item"><a href="build">Construction ecobriques</a>
+        </div>
+
+        <div class="menu-page-item"><a href="about">Apopos de nous</a>
+        </div>
+
+        <div class="menu-page-item"><a href="sequest.php">Sequestration plastique</a>
         </div>
           
-        <div class="compro-toggle" style="margin: 15px auto 10px auto;width: fit-content;">
+        <!-- <div class="compro-toggle" style="margin: 15px auto 10px auto;width: fit-content;">
         
           <div style="font-size:1.25em">
             <dark-mode-toggle
@@ -1104,9 +1127,11 @@ legend {
     
         <a href="https://snapcraft.io/earthcal">
           <img alt="Get it from the Snap Store" src="svgs/snap-store-black.svg" />
-        </a>
+        </a> -->
+        <div id="wcb" class="carbonbadge wcb-d"></div>
 
-        <p style="font-size:small;">EarthCal is developed by <a href="https://earthen.io/earthcal" target="_blank">Earthen.io</a></p>
+
+        <p style="font-size:small;">Ecobricking and the GEA are inspired by the <a href="ayyew" >ayyew</a> ethos of the Igorot people of Northern Luzon.</p>
         
       </div>
                                                                 
@@ -1226,7 +1251,7 @@ legend {
         
             <div id="settings-buttons">
 
-                <button type="button" type="button" id="top-settings-button" onclick="openSettings()" aria-label="Open site settings"></button>
+                <button type="button" type="button" id="top-settings-button"  aria-label="Open site settings"></button>
 
                 <button type="button" type="button" class="top-lang-button" onclick="openLanguage()" aria-label="Switch languages"></button>
 
@@ -1525,6 +1550,7 @@ function clearResults() {
 /*ROLL CALL*/
 window.onload = function() {
 updateLogoColor(); 
+toggleSettings()
 
 }
 
@@ -1539,6 +1565,23 @@ function updateLogoColor() {
     }
   }
 }
+
+document.getElementById('top-settings-button').addEventListener('touchstart', function(event) {
+  if (window.matchMedia("(max-width: 700px)").matches) {
+    var settingsButtons = document.getElementById('settings-buttons');
+    settingsButtons.classList.toggle('settings-buttons-expanded');
+    event.stopPropagation(); // Prevents the event from bubbling up to the document
+  }
+});
+
+document.addEventListener('touchstart', function(event) {
+  var settingsButtons = document.getElementById('settings-buttons');
+  if (!settingsButtons.contains(event.target)) {
+    settingsButtons.classList.remove('settings-buttons-expanded');
+  }
+});
+
+
 
 
     </script>
