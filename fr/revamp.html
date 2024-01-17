@@ -54,7 +54,7 @@
         }
         #header {
             width: 100%;
-            height: 120px; /* Initial height */
+            height: 150px; /* Initial height */
             background-color: grey; /* Header color */
             position: fixed;
             top: 0; /* Start in the middle of the page */
@@ -62,7 +62,7 @@
             transition: 0.4s;
             /*display: flex;
             justify-content: center;*/
-            z-index: 25;
+            z-index: 30;
             background: var(--top-header);
             /*box-shadow: 0px 0px 12px var(--shadow);	*/
             width: 100%;
@@ -1062,7 +1062,7 @@ legend {
   .btn {
   border: 2px solid #ddd;
     color: white;
-      background: grey;
+      background: var(--emblem-orange);
 
 
   font-weight: bolder;
@@ -1327,7 +1327,42 @@ margin: auto;
   border-bottom: grey 1px solid;}
 
 
+  #language-menu-slider {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 50px;
+    background-color: var(--gallery);
+    display: flex;
+    flex-flow: row;
+    z-index: 26;
+    color: var(--text-color) !important;
+    transition: 0.3s;
+    margin-top: 0px;
 
+}
+
+.lang-selector-box {
+  display: flex;
+    flex-flow: row;
+    margin: auto 10px 0px 30%;
+    width: 100%;
+}
+
+.lang-selector {
+    flex: 1;  /* Equal space distribution */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: auto; /* Aligns the button at the bottom of the container */
+    /* Add additional styling as needed */
+    background-color: rgba(128, 128, 128, 0.109);
+}
+
+.lang-selector:hover {
+ background-color: rgba(128, 128, 128, 0.213);
+}
 
     </style>
 
@@ -1341,12 +1376,15 @@ margin: auto;
 </head>
 <body>
 
+
+
+
 <!-- TOUR SLIDER -->
 
 
 <div id="guided-tour" class="modal">
     <div class="tour-content">
-      <span class="close-tour" style="padding:10px" onclick="closeTour();">&times;</span>
+      <span class="close-tour close" style="padding:10px" onclick="closeTour();">&times;</span>
     
       <div id="information-one" class="information">
         <div class="tour-image"><img src="../svgs/question.svg"  style="margin:auto" title="A Quick Tour of the Calendar" alt="A Quick Tour of the Calendar"></div>  
@@ -1356,7 +1394,7 @@ margin: auto;
       </div>
     
       <div id="information-two" style="display:none;" class="information">
-      <div class="tour-image"><img src="webp/eb-sky-400px.webp"  style="margin:auto" title="One Year. One Orbit." alt="One Year. One Orbit."></div>  
+      <div class="tour-image"><img src="../webp/eb-sky-400px.webp"  style="margin:auto" title="One Year. One Orbit." alt="One Year. One Orbit."></div>  
         <div class="modal-header">Low Tech. Non-Capital</div>
         <div class="modal-description">It's pretty simple.  An is a plastic bottle densely packed with used plastic to create a reusable building block that achieves plastic sequestration.  To make one, all you need is a stick and a bottle. </div>
         <button class="back">↩ Back</button>
@@ -1364,7 +1402,7 @@ margin: auto;
       </div>
       
       <div id="information-three" style="display:none;" class="information">
-      <div class="tour-image"><img src="icons/saturn-cycle.svg"    title="Our Neighbourhood" alt="Our Neighbourhood"></div>  
+      <div class="tour-image"><img src="../webp/compacted-carbon.webp"    title="Our Neighbourhood" alt="Our Neighbourhood"></div>  
     
         <div class="modal-header">Plastic Sequestration?</div>
         <div class="modal-description">Ecobricks follow Earth's example.  Over the last few billion years, Earth has been steadily capturing and concentration loose carbon out of the atmosphere to put it to good use and green the planet's surface.  With ecobricks we're doing the same with our loose plastic.</div>
@@ -1374,7 +1412,7 @@ margin: auto;
     
       
       <div id="information-four" style="display:none;" class="information">
-      <div class="tour-image"><img src="svgs/just-moon.svg" title="Sinc with the lunar cycles" alt="Sync with the lunar cycles"></div>  
+      <div class="tour-image"><img src="../webp/build-blue-450px.webp" title="Sinc with the lunar cycles" alt="Sync with the lunar cycles"></div>  
         <div class="modal-header">More than Eco</div>
         <div class="modal-description">We all know that plastic pollution is a problem.  But ecobricks do more than keep plastic out of the biosphere.  They also keep plastic from being recycled or incinerated industrially.  Best of all ecobricks can put to use locally to build all sorts of great, truly green things!</div>
         <button class="back">↩ Back</button>
@@ -1384,7 +1422,7 @@ margin: auto;
       
       <div id="information-five" style="display:none;" class="information">
       
-      <div class="tour-image"><img src="icons/whale.svg"  title="Earth and animal cycles" alt="animal cycles"></div>  
+      <div class="tour-image"><img src="../webp/tens-thousands.webp"  title="Earth and animal cycles" alt="animal cycles"></div>  
       <div class="modal-header">Build Green and Great</div>
 
       <div class="modal-description">Ecobricks are put to use in all sorts of practical ways by the global community.  In the Philippines we build food forest play parks with them.  In the UK, we build earthen round houses.  In Indonesia, we make modular furniture for homes and cafes.  Be sure to check out the building sections of our site for ideas.</div>
@@ -1393,7 +1431,7 @@ margin: auto;
       </div>
     
       <div id="information-six" style="display:none;" class="information" class="information">
-        <div class="tour-image"><img src="svgs/add-night-over.svg"  title="add events" alt="Add events"></div>  
+        <div class="tour-image"><img src="../pngs/community.png"  title="add events" alt="Add events"></div>  
     
         <div class="modal-header">We're here to help</div>
         <div class="modal-description">The Global Ecobrick Alliance is an Earth enterprise that supports the global plastic transition movement.  Our site maintains best practices and methodologies for using ecobricks.  Meanwhile, be sure to use our powerful GoBrik app to log your ecobricks and projects.</div>
@@ -1528,6 +1566,7 @@ margin: auto;
     
 <div id="page-content">
 
+
     <div id="header" class="top-menu" style="display: flex;
     flex-flow: row;">
 
@@ -1595,7 +1634,7 @@ margin: auto;
         <div id="function-icons" style="display: flex;flex-flow:row;margin:auto 10px auto auto;">
 
             <div id="main-header-buttons">
-                <div class="what-are-ecobricks"  onclick="guidedTour()" >What's an ecobrick?</div>
+                <div class="what-are-ecobricks"  onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">What's an ecobrick?</div>
                 <div class="header-divider">|</div>
                 <div class="faqs-button">FAQs</div>
                 <div class="header-divider">|</div>
@@ -1611,7 +1650,7 @@ margin: auto;
 
                 <button type="button" type="button" id="top-settings-button"  aria-label="Open site settings"></button>
 
-                <button type="button" type="button" class="top-lang-button" onclick="openLanguage()" aria-label="Switch languages"></button>
+                <button type="button" type="button" class="top-lang-button" onclick="showLangSelector()" aria-label="Switch languages"></button>
 
                 <button type="button" type="button" class="top-login-button" onclick="openLogin()" aria-label="Switch languages"></button>
 
@@ -1623,6 +1662,18 @@ margin: auto;
             </div>
         </div>
     </div>
+
+
+<div id="language-menu-slider">
+  <div class="lang-selector-box">
+    <button type="button" class="lang-selector" href='https://ecobricks.org/en/<?php echo ($name); ;?>'>🇮🇩 IN</button>
+    <button type="button" class="lang-selector" href='https://ecobricks.org/id/<?php echo ($name); ;?>'>🇪🇸 ES</button>
+    <button type="button" class="lang-selector" href='https://ecobricks.org/es/<?php echo ($name); ;?>'>🇫🇷 FR</button>
+    <button type="button" class="lang-selector" href='https://ecobricks.org/fr/<?php echo ($name); ;?>'>🇬🇧 EN</button>
+  </div>
+</div>
+
+
     <div id="slider" style="height: 96vh; width: 100%;">
         <div class="slide green">
             <img src="photo1-a.webp" class="photo mobile">
@@ -1643,6 +1694,9 @@ margin: auto;
 
 
     <div id="main">
+
+      <!-- LANGUAGE MENU -->
+
 
 
 
@@ -1682,16 +1736,18 @@ margin: auto;
         function scrollLessThan40() {
     if (window.pageYOffset <= 40) {
         document.getElementById("header").style.height = "150px";
-        document.getElementById("main").style.marginTop = "120px";
+        document.getElementById("main").style.marginTop = "150px";
         document.getElementById("gea-logo").style.width = "250px";
         document.getElementById("gea-logo").style.height = "56px";
         document.getElementById("logo-global-ecobrick-alliance").style.opacity = "1";
         document.getElementById("header").style.top = "0"; // Set top to 0
-      
         document.getElementById("settings-buttons").style.marginTop = "8px";
         document.getElementById("settings-buttons").style.marginRight = "0px"; 
         document.getElementById("settings-buttons").style.padding = "16px 50px 16px 20px";
         document.getElementById("main-header-buttons").style.marginTop = "0px";  
+        document.getElementById("language-menu-slider").style.top = "50px";  
+
+
 
     }
 }
@@ -1706,6 +1762,9 @@ function scrollMoreThan40() {
         document.getElementById("settings-buttons").style.marginTop = "6px"; 
         document.getElementById("settings-buttons").style.padding = "12px 54px 12px 16px"; 
         document.getElementById("main-header-buttons").style.marginTop = "-5px";  
+        document.getElementById("language-menu-slider").style.top = "-30px";  
+
+
 
     }
 }
@@ -1995,6 +2054,30 @@ setTimeout(nextSlide, 4000);
 
 
 
+
+/* LANGUAGE SELECTOR  */
+function showLangSelector() {
+    var slider = document.getElementById('language-menu-slider');
+    var currentMarginTop = window.getComputedStyle(slider).marginTop;
+
+    // Toggle margin-top between 0px and 70px
+    slider.style.marginTop = currentMarginTop === '70px' ? '0px' : '70px';
+
+    // Prevent event from bubbling to document
+    event.stopPropagation();
+}
+
+// Add event listener for click on the document
+document.addEventListener('click', function() {
+    var slider = document.getElementById('language-menu-slider');
+    // Reset margin-top to 0px
+    slider.style.marginTop = '0px';
+});
+
+// Prevent hiding when clicking inside the slider
+document.getElementById('language-menu-slider').addEventListener('click', function(event) {
+    event.stopPropagation();
+});
 
     </script>
 </body>
