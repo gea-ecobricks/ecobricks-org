@@ -74,12 +74,16 @@
             transform: translateY(0);
         } */
 
+ 
+
         #gea-logo {
-    padding:8px;
-    margin: auto auto auto 15px;
+    padding:5px;
+    margin: auto auto auto 25px;
     width: 250px;
     height: 56px;
     transition: 0.6s;
+    min-width: 150px;
+
   }
 /* 
 @media screen and (min-width: 701px) {
@@ -93,6 +97,14 @@
 
   .what-are-ecobricks, .faqs-button, .header-divider {
     display:none;
+  }
+
+  #gea-logo {
+    padding:2px;
+    margin: auto auto auto 10px;
+    width: 250px;
+    height: 56px;
+    transition: 0.6s;
   }
 }
 
@@ -603,11 +615,7 @@ font-family: 'Mulish';
   transition: 0.5s;
 }
 
-#gea-logo {
-    padding:5px;
-    margin:auto auto auto 25px;
-    min-width: 150px;
-}
+
 
 
 
@@ -776,26 +784,35 @@ border-color: #00a112 !important;
   font-family:'Mulish';
   font-size:1.4em;
   color:var(--text-color);
-  border-bottom:1px solid var(--subdued-text);
+  border-bottom:1px solid var(--gallery);
   cursor: pointer;
-
-}
-
-
-.menu-page-item:hover {
- 
-  border-bottom:2px solid var(--text-color);
-  color: var(--header-accent);
+  flex-grow: 1;
+  max-height: 45px;
+  display: flex;
   
 }
 
+
+
+
+
+
+
 .menu-page-item a {  text-decoration: none;
 color: var(--subdued-text);
+margin: auto;
 }
 
 .menu-page-item a:hover {  text-decoration: none;
   color: var(--h1);
   }
+
+  .menu-page-item:hover {
+ 
+ border-bottom:2px solid var(--text-color);
+ color: var(--header-accent);
+ 
+}
 
 
   /*working?!*/
@@ -1358,6 +1375,7 @@ margin: auto;
     margin-top: auto; /* Aligns the button at the bottom of the container */
     /* Add additional styling as needed */
     background-color: rgba(128, 128, 128, 0.109);
+    color: var(--text-color);
 }
 
 .lang-selector:hover {
@@ -1402,7 +1420,7 @@ margin: auto;
       </div>
       
       <div id="information-three" style="display:none;" class="information">
-      <div class="tour-image"><img src="../webp/compacted-carbon.webp"    title="Our Neighbourhood" alt="Our Neighbourhood"></div>  
+      <div class="tour-image"><img src="../webp/compacted-carbon.webp"   style="margin:auto"  title="Our Neighbourhood" alt="Our Neighbourhood"></div>  
     
         <div class="modal-header">Plastic Sequestration?</div>
         <div class="modal-description">Ecobricks follow Earth's example.  Over the last few billion years, Earth has been steadily capturing and concentration loose carbon out of the atmosphere to put it to good use and green the planet's surface.  With ecobricks we're doing the same with our loose plastic.</div>
@@ -1412,7 +1430,7 @@ margin: auto;
     
       
       <div id="information-four" style="display:none;" class="information">
-      <div class="tour-image"><img src="../webp/build-blue-450px.webp" title="Sinc with the lunar cycles" alt="Sync with the lunar cycles"></div>  
+      <div class="tour-image"><img src="../webp/build-blue-450px.webp" title="build great stuff" alt="build great stuff" style="margin:auto"  ></div>  
         <div class="modal-header">More than Eco</div>
         <div class="modal-description">We all know that plastic pollution is a problem.  But ecobricks do more than keep plastic out of the biosphere.  They also keep plastic from being recycled or incinerated industrially.  Best of all ecobricks can put to use locally to build all sorts of great, truly green things!</div>
         <button class="back">↩ Back</button>
@@ -1422,7 +1440,7 @@ margin: auto;
       
       <div id="information-five" style="display:none;" class="information">
       
-      <div class="tour-image"><img src="../webp/tens-thousands.webp"  title="Earth and animal cycles" alt="animal cycles"></div>  
+      <div class="tour-image"><img src="../webp/tens-thousands.webp"  title="Earth and animal cycles" alt="animal cycles" style="margin:auto" ></div>  
       <div class="modal-header">Build Green and Great</div>
 
       <div class="modal-description">Ecobricks are put to use in all sorts of practical ways by the global community.  In the Philippines we build food forest play parks with them.  In the UK, we build earthen round houses.  In Indonesia, we make modular furniture for homes and cafes.  Be sure to check out the building sections of our site for ideas.</div>
@@ -1431,7 +1449,7 @@ margin: auto;
       </div>
     
       <div id="information-six" style="display:none;" class="information" class="information">
-        <div class="tour-image"><img src="../pngs/community.png"  title="add events" alt="Add events"></div>  
+        <div class="tour-image"><img src="../pngs/community.png"  style="margin:auto"  title="add events" alt="Add events"></div>  
     
         <div class="modal-header">We're here to help</div>
         <div class="modal-description">The Global Ecobrick Alliance is an Earth enterprise that supports the global plastic transition movement.  Our site maintains best practices and methodologies for using ecobricks.  Meanwhile, be sure to use our powerful GoBrik app to log your ecobricks and projects.</div>
@@ -1487,9 +1505,9 @@ margin: auto;
       
         <div class="earthcycles-logo"></div>
 
-        <div class="menu-page-item"><a href="what"></a>Que sont les ecobricks?</div>
+        <div class="menu-page-item"><a href="what">Que sont les ecobricks?</a></div>
 
-        <div class="menu-page-item" onclick="closeSettings(),sendUpRegistration()">Comment faire?</div>
+        <div class="menu-page-item"><a href="how">Comment faire?</a></div>
         
         <div class="menu-page-item"><a href="why">Pourquoi les ecobrique?</a></div>
 
@@ -1525,7 +1543,7 @@ margin: auto;
         </a> -->
         <div id="wcb" class="carbonbadge wcb-d"></div>
 
-
+<br><br>
         <p style="font-size:small;">Ecobricking and the GEA are inspired by the <a href="ayyew" >ayyew</a> ethos of the Igorot people of Northern Luzon.</p>
         
       </div>
@@ -1979,8 +1997,6 @@ function clearResults() {
 /*ROLL CALL*/
 window.onload = function() {
 updateLogoColor(); 
-toggleSettings()
-
 }
 
 /*Updates certain colors to the Dark or Light theme*/
