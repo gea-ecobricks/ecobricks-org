@@ -97,6 +97,9 @@ RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.jsecobricks_env\.
 RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
 RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
 RewriteCond %{HTTP:Accept-Language} ^id [NC]
+RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
+RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
+
 RewriteRule (.*)$ https://ecobricks.org/id/$1 [R=301,L]
 </IfModule>
 
@@ -108,6 +111,8 @@ RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
 RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
 RewriteCond %{HTTP:Accept-Language} ^es [NC]
 RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
+RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
+
 
 
 RewriteRule (.*)$ https://ecobricks.org/es/$1 [R=301,L]
@@ -121,6 +126,8 @@ RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
 RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
 RewriteCond %{HTTP:Accept-Language} ^es [NC]
 RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
+RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
+
 
 
 RewriteRule (.*)$ https://ecobricks.org/fr/$1 [R=301,L]
@@ -135,6 +142,8 @@ RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
 RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
 RewriteCond %{HTTP:Accept-Language} ^en [NC]
 RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
+RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
+
 
 
 RewriteRule (.*)$ https://ecobricks.org/en/$1 [R=301,L]
@@ -147,6 +156,7 @@ RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\
 RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
 RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
 RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
+RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
 
 
 RewriteRule (.*)$ https://ecobricks.org/en/$1 [R=301,L]
