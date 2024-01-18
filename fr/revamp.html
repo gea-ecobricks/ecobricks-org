@@ -1490,8 +1490,25 @@ margin: auto;
                 <input id="search_input" type="text" placeholder="Enter search term..." aria-label="Enter keywords..." onkeypress="handleKeyPress(event)">   
                 <button class="btn" style="padding:22px 0px 22px 0px;" onclick="siteSearch(['indexes/glossary.json', 'indexes/page-index.json'])" aria-label="Search Button"><i style="background-image: url(../icons/search-white.svg); width:22px; height:22px;display: inline-block;background-size: 22px;margin-bottom: -3px;margin-right: 2px;"></i></button> 
               </div>  
-              <div id="search_results"><h6 style="color:grey;">Glossary definitions are shown first</h6></div>
-            </div>
+               <!-- Checkbox options -->
+    <div class="search-options">
+      <div class="search-row"> <!-- First row -->
+          <label><input type="checkbox" name="searchIndex" value="en_site" checked> English Site</label>
+          <label><input type="checkbox" name="searchIndex" value="fr_site"> French Site</label>
+          <label><input type="checkbox" name="searchIndex" value="es_site"> Spanish Site</label>
+          <label><input type="checkbox" name="searchIndex" value="id_site"> Indonesian Site</label>
+      </div>
+      <div class="search-row"> <!-- Second row -->
+          <label><input type="checkbox" name="searchIndex" value="en_glossary" checked> English Glossary</label>
+          <label><input type="checkbox" name="searchIndex" value="fr_glossary"> French Glossary</label>
+          <label><input type="checkbox" name="searchIndex" value="es_glossary"> Spanish Glossary</label>
+          <label><input type="checkbox" name="searchIndex" value="id_glossary"> Indonesian Glossary</label>
+      </div>
+  </div>
+
+  <!-- Search results div -->
+  <div id="search_results"><h6 style="color:grey;">Glossary definitions are shown first</h6></div>
+</div>
     
           </div>
     </div>

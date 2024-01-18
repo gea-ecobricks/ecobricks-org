@@ -46,9 +46,40 @@
 
  /* MAIN SITE SEARCH  */
 
-
- function siteSearch(jsonFiles) {
+ function siteSearch() {
     var query = document.getElementById("search_input").value.toLowerCase();
+    var checkboxes = document.querySelectorAll('input[name="searchIndex"]:checked');
+    var jsonFiles = [];
+ 
+    checkboxes.forEach(function(checkbox) {
+       switch (checkbox.value) {
+          case 'en_site':
+             jsonFiles.push('../en/indexes/pages.json');
+             break;
+          case 'en_glossary':
+             jsonFiles.push('../en/indexes/glossary-ecobricks.json');
+             break;
+          case 'fr_site':
+             jsonFiles.push('../fr/indexes/pages.json');
+             break;
+          case 'fr_glossary':
+             jsonFiles.push('../fr/indexes/glossary-ecobricks.json');
+             break;
+          case 'es_site':
+             jsonFiles.push('../es/indexes/pages.json');
+             break;
+          case 'es_glossary':
+             jsonFiles.push('../es/indexes/glossary-ecobricks.json');
+             break;
+          case 'id_site':
+             jsonFiles.push('../id/indexes/pages.json');
+             break;
+          case 'id_glossary':
+             jsonFiles.push('../id/indexes/glossary-ecobricks.json');
+             break;
+       }
+    });
+ 
     var overlayContent = document.querySelector('.search-overlay-content');
     overlayContent.style.height = 'fit-content';
     overlayContent.style.marginTop = '8%';
@@ -72,6 +103,13 @@
        xmlhttp.send();
     }
  }
+ 
+ function presentSearchResults(posts, query) {
+    // Implementation of presentSearchResults remains the same as previously provided
+ }
+
+ 
+ 
 
  
  function presentSearchResults(posts, query) {
