@@ -141,17 +141,6 @@
     "url":"openspace/" 
 },
 
-{
-    "id":"016",
-    "title":"About Us",
-    "description": "The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition. ",
-    "keywords":"global ecobrick alliance, GEA, gea, ecobricks.org, earth enterprise, about us, ecobrick company, ecobrick organization, ecobrick NGO, earthen, principled.",
-    "language":"English",
-"lang_key":"en",
-    "section":"About",
-    "image_url":"..\/webp\/gea-perspective-400px.webp",
-    "url":"about" 
-},
 
 
 {
@@ -162,7 +151,7 @@
     "language":"English",
 "lang_key":"en",
     "section":"About",
-    "image_url":"..\/webp\/gea-perspective-400px.webp",
+    "image_url":"..\/icons\/gea-emblem-2024.svg",
     "url":"about" 
 },
 
@@ -278,7 +267,7 @@
     "language":"English",
 "lang_key":"en",
     "section":"Theory",
-    "image_url":"\/svgs\/oeb.svg",
+    "image_url":"\/webp\/oeb-400px.webp",
     "url":"ocean/" 
 },
 
@@ -290,7 +279,7 @@
     "language":"English",
 "lang_key":"en",
     "section":"Theory",
-    "image_url":"\/svg\/Cigbrick.svg",
+    "image_url":"\/svgs\/cigbrick.svg",
     "url":"cigbriks/" 
 },
 
@@ -338,7 +327,7 @@
     "language":"English",
 "lang_key":"en",
     "section":"Projects",
-    "image_url":"\/svgs\/gobrik-logo.svg",
+    "image_url":"\/icons\/gobrik-icon.svg",
     "url":"gobrik/" 
 },
 
@@ -350,7 +339,7 @@
     "language":"English",
 "lang_key":"en",
     "section":"Theory",
-    "image_url":"\/svgs\/gobrik-logo.svg",
+    "image_url":"\/icons\/aes-logo.svg",
     "url":"aes/" 
 },
 
@@ -362,7 +351,7 @@
     "language":"English",
 "lang_key":"en",
     "section":"Products",
-    "image_url":"\/icons\/shadow.svg",
+    "image_url":"\/icons\/earthwand-shadow.svg",
     "url":"earthwand/" 
 }
 
