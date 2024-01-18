@@ -1482,12 +1482,12 @@ margin: auto;
             
             <div>
                 <h1>Search</h1> 
-                <p style="text-align:center">Search our site.  For searching our database of ecobricks please see gobrik.com/search.</p>
+                <p style="text-align:center">Select site languages and indexes you wish to search.  To search for specific ecobricks please use our<a href="brikchain.php">brikchain search</a>.</p>
             </div>
           
             <div class="search-box" style="padding-bottom:15%;">
               <div class="copy-section">
-                <input id="search_input" type="text" placeholder="Enter search term..." aria-label="Enter keywords...">   
+                <input id="search_input" type="text" placeholder="Enter search term..." aria-label="Enter keywords..." onkeypress="handleKeyPress(event)">   
                 <button class="btn" style="padding:22px 0px 22px 0px;" onclick="siteSearch(['indexes/glossary.json', 'indexes/page-index.json'])" aria-label="Search Button"><i style="background-image: url(../icons/search-white.svg); width:22px; height:22px;display: inline-block;background-size: 22px;margin-bottom: -3px;margin-right: 2px;"></i></button> 
               </div>  
               <div id="search_results"><h6 style="color:grey;">Glossary definitions are shown first</h6></div>
@@ -1872,6 +1872,18 @@ document.addEventListener('keydown', modalCloseCurtains);
 
 
 
+
+
+
+
+ /* -------------------------------------------------------------------------- */
+ 
+ /*	4. SEARCH
+ /* -------------------------------------------------------------------------- */
+ 
+ /* BASIC OPEN CLOSE CURTAIN FUNCTIONS  * /
+
+
  
  /* RIGHT SEARCH OVERLAY 
  
@@ -1908,22 +1920,10 @@ document.addEventListener('keydown', modalCloseCurtains);
  } 
 
 
-
-window.onload = function() {
-  document.getElementById("search_input").addEventListener("keypress", function(event) {
-    if (event.key === "Enter") {
-      siteSearch();
-    }
-  });
-};
+ /* MAIN SITE SEARCH  */
 
 
 
- /* -------------------------------------------------------------------------- */
- 
- /*	4. SEARCH
- /* -------------------------------------------------------------------------- */
- 
  function siteSearch(jsonFiles) {
   // Get the search query from the input field
   var query = document.getElementById("search_input").value.toLowerCase();
@@ -1985,6 +1985,21 @@ window.onload = function() {
 
 
 
+// window.onload = function() {
+//   document.getElementById("search_input").addEventListener("keypress", function(event) {
+//     if (event.key === "Enter") {
+//       siteSearch();
+//     }
+//   });
+// };
+
+function handleKeyPress(event) {
+   if (event.keyCode === 13) { // 13 is the key code for the enter key
+      event.preventDefault(); // Prevent the default action to stop form submission
+      siteSearch(['indexes/glossary.json', 'indexes/page-index.json']); // Call your search function
+   }
+}
+
 
 
 function clearResults() {
@@ -2000,8 +2015,10 @@ function clearResults() {
 
 
 /*ROLL CALL*/
+
 window.onload = function() {
 updateLogoColor(); 
+
 }
 
 /*Updates certain colors to the Dark or Light theme*/
