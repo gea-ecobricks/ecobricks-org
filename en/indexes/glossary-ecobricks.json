@@ -9,7 +9,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
     "url":""
 
 
@@ -31,7 +31,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
     "url":""
 },
 
@@ -47,7 +47,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -62,7 +62,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -81,7 +81,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -97,7 +97,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -113,7 +113,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -128,7 +128,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
     "url":""
 
 
@@ -146,7 +146,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -162,7 +162,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -177,7 +177,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -192,7 +192,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -207,7 +207,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -222,7 +222,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -237,7 +237,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
     "url":""
 
 
@@ -255,7 +255,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
     "url":""
 
 
@@ -273,7 +273,7 @@
     "lang_key": "en",
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
-    "night-image_url": "..\/icons\/glossary-night.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
     "url":""
 
 
@@ -292,7 +292,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -307,7 +307,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -322,7 +322,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -337,7 +337,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -353,7 +353,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -368,7 +368,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -383,7 +383,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -398,7 +398,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -414,7 +414,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -430,7 +430,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -445,7 +445,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -461,7 +461,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -477,7 +477,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -493,7 +493,7 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
    "url":""
 }, 
 
@@ -509,6 +509,6 @@
   "lang_key": "en",
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
-  "night-image_url": "..\/icons\/glossary-night.svg"
+  "image_url_night": "..\/icons\/glossary-night.svg"
 }
 ]
