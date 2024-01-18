@@ -10,7 +10,7 @@
 "lang_key":"en",
 "section":"Basics",
 "image_url":"..\/webp\/eb-sky-400px.webp",
-"url":"..\/en\/how.php"
+"url":"how.php"
 },
 
 
@@ -24,7 +24,7 @@
 "lang_key":"en",
 "section":"Basics",
 "image_url":"..\/svgs\/eb-blue-no-clouds.svg",
-"url":"what" 
+"url":"what.php" 
 },
 
 {
@@ -36,7 +36,7 @@
 "lang_key":"en",
     "section":"Basics",
     "image_url":"..\/svgs\/question.svg",
-    "url":"/why/" 
+    "url":"why/" 
 
 },
 
@@ -50,7 +50,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"..\/webp\/earth-service-700px.webp",
-    "url":"sequest" 
+    "url":"sequest.php" 
 },
 
 {
@@ -62,7 +62,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"..\/webp\/earth-service-700px.webp",
-    "url":"/plastic/" 
+    "url":"plastic/" 
 },
 
 
@@ -88,7 +88,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"..\/webp\/fire.webp" ,
-    "url":"/fire/" 
+    "url":"fire/" 
 },
 
 {
@@ -138,7 +138,7 @@
 "lang_key":"en",
     "section":"Building",
     "image_url":"..\/webp\/openspace.webp",
-    "url":"/openspace/" 
+    "url":"openspace/" 
 },
 
 {
@@ -189,7 +189,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"..\/webp\/brikchain-450px.webp",
-    "url":"principles" 
+    "url":"brikchain" 
 },
 
 
@@ -215,7 +215,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/wp-content\/uploads\/2020\/05\/maligcong-rice-terraces.jpg",
-    "url":"/ayyew/" 
+    "url":"ayyew/" 
 },
 
 {
@@ -227,7 +227,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/webp\/mandalic.webp",
-    "url":"/mandalas/" 
+    "url":"mandalas/" 
 },
 
 
@@ -241,7 +241,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/webp\/mandalic.webp",
-    "url":"/movement/" 
+    "url":"movement/" 
 },
 
 {
@@ -260,7 +260,7 @@
 {
     "id":"026",
     "title":"Frequently Asked Questions",
-    "description": "Our team has been working with ecobricks and plastic for the last decade. Here's our answers to the common questions about each",
+    "description": "Our team's answers to the common questions about all aspects of ecobricking",
     "language":"English",
 "lang_key":"en",
     "section":"Basics",
@@ -273,25 +273,25 @@
 {
     "id":"027",
     "title":"Ocean Ecobricks",
-    "description": "A Sequestration Solution for Dirty Plastics",
+    "description": "A sequestration solution for dirty plastics recovered from beaches, rivers and oceans.",
     "keywords" : "ocean, marine, debris, beaches, river, clean up, trash hero, waste, ocean plastic, dirty, sand, contaminated",
     "language":"English",
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/svgs\/oeb.svg",
-    "url":"/ocean/" 
+    "url":"ocean/" 
 },
 
 {
     "id":"028",
     "title":"Cigbricks",
-    "description": "Introducting a simple solution for cigarette pollution",
+    "description": "A simple ecobrick solution for cigarette pollution",
     "keywords" : "acetate, cigarettes, filter, cig, cibrik, cigbrick, tanjung pinang, smoking, waste, tobacco,",
     "language":"English",
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/svg\/Cigbrick.svg",
-    "url":"/cigbriks/" 
+    "url":"cigbriks/" 
 },
 
 {
@@ -333,13 +333,13 @@
 {
     "id":"032",
     "title":"GoBrik",
-    "description": "A Social Action Platform Serving the People, Serving the Planet",
-    "keywords" : "gobrik, app, social action, application",
+    "description": "An ecobrick app to log, manage and track your ecobricking.",
+    "keywords" : "gobrik, app, web app, log, project, social action, application",
     "language":"English",
 "lang_key":"en",
     "section":"Projects",
     "image_url":"\/svgs\/gobrik-logo.svg",
-    "url":"/gobrik/" 
+    "url":"gobrik/" 
 },
 
 {
@@ -351,16 +351,19 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/svgs\/gobrik-logo.svg",
-    "url":"/aes/" 
+    "url":"aes/" 
+},
+
+{
+    "id":"034",
+    "title":"Earthwands",
+    "description": "The EarthWand, is a simple, yet super practical ecobricking tool. Developed over three years of ecobricking and prototyping, it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. ",
+    "keywords" : "stick, earthwand, Earthwand, bamboo, tongkat, tonkat, dowel, tool",
+    "language":"English",
+"lang_key":"en",
+    "section":"Products",
+    "image_url":"\/icons\/shadow.svg",
+    "url":"earthwand/" 
 }
-
-
-
-
-
-
-
-
-
 
 ]
