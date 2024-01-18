@@ -263,9 +263,9 @@
     "description": "Our team has been working with ecobricks and plastic for the last decade. Here's our answers to the common questions about each",
     "language":"English",
 "lang_key":"en",
-    "section":"Theory",
+    "section":"Basics",
     "keywords": "ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste",
-    "image_url":"\/svgs\/questions.svg",
+    "image_url":"\/svgs\/question.svg",
     "url":"faqs.php" 
     
 },
@@ -314,7 +314,7 @@
     "language":"English",
 "lang_key":"en",
     "section":"Reports",
-    "image_url":"\/icons\/balance-glow-500px.webp",
+    "image_url":"\/icons\/eco-accounting-icon-from-ecobricks-org.svg",
     "url":"regenreports.php" 
 },
 
