@@ -110,13 +110,12 @@
 
  
  
-
- 
  function presentSearchResults(posts, query) {
+    var isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     var outputPosts = [];
     for (var j = 0; j < posts.length; j++) {
        var post = posts[j];
-       if ((post.keywords && post.keywords.toLowerCase().includes(query)) || (post.chap_description && post.chap_description.toLowerCase().includes(query))) {
+       if ((post.keywords && post.keywords.toLowerCase().includes(query)) || (post.description && post.description.toLowerCase().includes(query))) {
           outputPosts.push(post);
        }
     }
@@ -130,10 +129,13 @@
        resultsContainer.innerHTML = "<p>Sorry, no results were found for \"" + query + "\".</p>";
     } else {
        for (var k = 0; k < outputPosts.length; k++) {
-          resultsContainer.innerHTML += "<div class=\"tc-item\"><div id='result_" + k + "' style=\"display:flex; text-align:left; padding: 20px;\"><div class=\"chapter_pic\" style=\"width=100px; margin-right:10px;display:block;\"><img src=\"" + outputPosts[k].image_url + "\" width=\"100px\" height=\"100px\"></div><div class=\"chapter-name-search\"><b style=\"font-size:x-large;font-family:'Arvo';margin-bottom:12px;display:block;\"><a href='" + outputPosts[k].url + "'>" + outputPosts[k].title + "</b><span style=\"font-size:smaller;color:var(--drop-cap)!important;margin-top:10px;display:block;\">" + outputPosts[k].section + "  |  " + outputPosts[k].language + "</span><span style=\"font-size:medium;font-family:'Mulish',sans-serif;margin-top:10px;display:block;\">" + outputPosts[k].description + "</span><span style=\"font-size:smaller;color:grey;margin-top:10px;display:block;\"><b style=\"font-size:1.4em;\">↳</b>ecobricks.org/" + outputPosts[k].lang_key + "/" + outputPosts[k].url + "</span></a></div>";
+          var currentPost = outputPosts[k];
+          var imageUrl = isDarkMode && currentPost.image_url_night ? currentPost.image_url_night : currentPost.image_url;
+          resultsContainer.innerHTML += "<div class=\"tc-item\"><div id='result_" + k + "' style=\"display:flex; text-align:left; padding: 20px;\"><div class=\"chapter_pic\" style=\"width=100px; margin-right:10px;display:block;\"><img src=\"" + imageUrl + "\" width=\"100px\" height=\"100px\"></div><div class=\"chapter-name-search\"><b style=\"font-size:x-large;font-family:'Arvo';margin-bottom:12px;display:block;\"><a href='" + currentPost.url + "'>" + currentPost.title + "</b><span style=\"font-size:smaller;color:var(--drop-cap)!important;margin-top:10px;display:block;\">" + currentPost.section + "  |  " + currentPost.language + "</span><span style=\"font-size:medium;font-family:'Mulish',sans-serif;margin-top:10px;display:block;\">" + currentPost.description + "</span><span style=\"font-size:smaller;color:grey;margin-top:10px;display:block;\">↳ ecobricks.org/" + currentPost.lang_key + "/" + currentPost.url + "</span></a></div>";
        }
     }
  }
+ 
  
 
  function handleKeyPress(event) {
