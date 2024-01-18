@@ -110,8 +110,9 @@
 
  
  
+
+ 
  function presentSearchResults(posts, query) {
-    var isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     var outputPosts = [];
     for (var j = 0; j < posts.length; j++) {
        var post = posts[j];
@@ -129,15 +130,10 @@
        resultsContainer.innerHTML = "<p>Sorry, no results were found for \"" + query + "\".</p>";
     } else {
        for (var k = 0; k < outputPosts.length; k++) {
-          var imageUrl = post.image_url;
-          if (isDarkMode && post.image_url_night) {
-             imageUrl = post.image_url_night;
-          }
-          resultsContainer.innerHTML += "<div class=\"tc-item\"><div id='result_" + k + "' style=\"display:flex; text-align:left; padding: 20px;\"><div class=\"chapter_pic\" style=\"width=100px; margin-right:10px;display:block;\"><img src=\"" + imageUrl + "\" width=\"100px\" height=\"100px\"></div><div class=\"chapter-name-search\"><b style=\"font-size:x-large;font-family:'Arvo';margin-bottom:12px;display:block;\"><a href='" + post.url + "'>" + post.title + "</b><span style=\"font-size:smaller;color:var(--drop-cap)!important;margin-top:10px;display:block;\">" + post.section + "  |  " + post.language + "</span><span style=\"font-size:medium;font-family:'Mulish',sans-serif;margin-top:10px;display:block;\">" + post.description + "</span><span style=\"font-size:smaller;color:grey;margin-top:10px;display:block;\">↳ ecobricks.org/" + post.lang_key + "/" + post.url + "</span></a></div>";
+          resultsContainer.innerHTML += "<div class=\"tc-item\"><div id='result_" + k + "' style=\"display:flex; text-align:left; padding: 20px;\"><div class=\"chapter_pic\" style=\"width=100px; margin-right:10px;display:block;\"><img src=\"" + outputPosts[k].image_url + "\" width=\"100px\" height=\"100px\"></div><div class=\"chapter-name-search\"><b style=\"font-size:x-large;font-family:'Arvo';margin-bottom:12px;display:block;\"><a href='" + outputPosts[k].url + "'>" + outputPosts[k].title + "</b><span style=\"font-size:smaller;color:var(--drop-cap)!important;margin-top:10px;display:block;\">" + outputPosts[k].section + "  |  " + outputPosts[k].language + "</span><span style=\"font-size:medium;font-family:'Mulish',sans-serif;margin-top:10px;display:block;\">" + outputPosts[k].description + "</span><span style=\"font-size:smaller;color:grey;margin-top:10px;display:block;\">↳ ecobricks.org/" + outputPosts[k].lang_key + "/" + outputPosts[k].url + "</span></a></div>";
        }
     }
  }
- 
  
 
  function handleKeyPress(event) {
