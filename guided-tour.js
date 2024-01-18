@@ -106,3 +106,9 @@ document.querySelector("#information-six .back").onclick = function() {
 
 }
 
+function tourTaken() {
+  // Save the token in localStorage to indicate that the tour has been seen
+  localStorage.setItem('tourToken', 'seen');
+  
+}
+
