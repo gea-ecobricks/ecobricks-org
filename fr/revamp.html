@@ -1095,6 +1095,11 @@ legend {
 
   .btn:hover {color: black;}
 
+
+#search_results {
+  margin-left: -30px;
+}
+
 /*SLIDER */
 #slider {
     position: relative;
@@ -1349,6 +1354,14 @@ margin: auto;
   border-bottom: grey 1px solid;}
 
 
+
+  /* ------------  
+  
+  Language Selector Menu 
+
+  ------------------------*/
+
+
   #language-menu-slider {
     position: fixed;
     width: 100%;
@@ -1388,9 +1401,89 @@ margin: auto;
 }
 
 
-#search_results {
-  margin-left: -30px;
+  /* ------------  
+  
+  Login Selector Menu 
+
+  ------------------------*/
+
+
+  #login-menu-slider {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 50px;
+    background-color: var(--gallery);
+    display: flex;
+    flex-flow: row;
+    z-index: 26;
+    color: var(--text-color) !important;
+    transition: 0.3s;
+    margin-top: 0px;
+
 }
+
+.login-selector-box {
+  display: flex;
+    flex-flow: row;
+    margin: auto 10px 0px 10px;
+    width: 100%;
+}
+
+.login-selector {
+    flex: 1;  /* Equal space distribution */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: auto; /* Aligns the button at the bottom of the container */
+    /* Add additional styling as needed */
+    background-color: rgba(128, 128, 128, 0.109);
+    color: var(--text-color);
+}
+
+.login-selector:hover {
+ background-color: rgba(128, 128, 128, 0.213);
+}
+
+
+.sign-innn {
+font-family: 'Mulish', sans-serif;
+display: block;
+background: var(--button-2-1);
+background-image: -webkit-linear-gradient(top, var(--button-2-1), var(--button-2-2));
+background-image: -moz-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
+background-image: -ms-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
+background-image: -o-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
+background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-2));
+-webkit-border-radius: 8px 0px 0px 8px;
+-moz-border-radius: 8px 0px 0px 8px;
+border-radius: 8px 0px 0px 8px;
+color: #fff;
+font-size: 1.3em;
+font-weight: 700;
+padding: 9px 18px 9px 18px ;
+text-decoration: none;
+margin-top: 0px;
+margin-bottom: 12px;
+border: none;
+margin-right: 3px;
+}
+
+
+.sign-innn:hover {
+background: var(--button-2-1-over);
+background-image: -webkit-linear-gradient(top,  var(--button-2-1-over), var(--button-2-2-over));
+background-image: -moz-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
+background-image: -ms-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
+background-image: -o-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
+background-image: linear-gradient(to bottom, var(--button-2-1-over), var(--button-2-2-over));
+text-decoration: none;
+}
+
+
+
+
     </style>
 
     <script>
@@ -1683,7 +1776,7 @@ margin: auto;
 
                 <button type="button" type="button" class="top-lang-button" onclick="showLangSelector()" aria-label="Switch languages"></button>
 
-                <button type="button" type="button" class="top-login-button" href="https://gobrik.com/en/go.php#home" aria-label="GoBrik Login"></button>
+                <button type="button" type="button" class="top-login-button" onclick="showLoginSelector()" aria-label="Login options"></button>
 
                 <dark-mode-toggle
                 id="dark-mode-toggle-5" style="min-width:82px;margin-top:-5px;margin-bottom:-15px;"
@@ -1701,6 +1794,17 @@ margin: auto;
     <button type="button" class="lang-selector" href='https://ecobricks.org/id/<?php echo ($name); ;?>'>🇪🇸 ES</button>
     <button type="button" class="lang-selector" href='https://ecobricks.org/es/<?php echo ($name); ;?>'>🇫🇷 FR</button>
     <button type="button" class="lang-selector" href='https://ecobricks.org/fr/<?php echo ($name); ;?>'>🇬🇧 EN</button>
+  </div>
+</div>
+
+
+<div id="login-menu-slider">
+  <div class="login-selector-box">
+    <button type="button" class="login-selector" target="_blank" href='https://gobrik.com/en/go.php#home>'>
+      <i style="background: url(../icons/bottle-icon.svg) no-repeat; width:14px; height:14px;display: inline-block;background-size:contain;margin-right:4px;"></i>GoBrik</button>
+    <button type="button" class="login-selector" target="_blank" href='https://ecobricks.org/email'>Trainer Email</button>
+    <button type="button" class="login-selector" target="_blank" href='https://nextcloud.ecobricks.org>'>Trainer NextCloud</button>
+    <button type="button" class="login-selector" target="_blank" href='https://education.ecobricks.org/>'>Moodle</button>
   </div>
 </div>
 
@@ -1780,6 +1884,7 @@ margin: auto;
         document.getElementById("settings-buttons").style.padding = "16px 50px 16px 20px";
         document.getElementById("main-header-buttons").style.marginTop = "0px";  
         document.getElementById("language-menu-slider").style.top = "50px";  
+        document.getElementById("login-menu-slider").style.top = "50px";  
 
 
 
@@ -1797,6 +1902,7 @@ function scrollMoreThan40() {
         document.getElementById("settings-buttons").style.padding = "12px 54px 12px 16px"; 
         document.getElementById("main-header-buttons").style.marginTop = "-5px";  
         document.getElementById("language-menu-slider").style.top = "-30px";  
+        document.getElementById("login-menu-slider").style.top = "-30px";  
 
 
 
@@ -1967,30 +2073,70 @@ setTimeout(nextSlide, 4000);
 
 
 
-/* LANGUAGE SELECTOR  */
+/* ---------- ------------------------------
+
+LANGUAGE SELECTOR  
+
+-------------------------------------------*/
+
 function showLangSelector() {
     var slider = document.getElementById('language-menu-slider');
     var currentMarginTop = window.getComputedStyle(slider).marginTop;
-
-    // Toggle margin-top between 0px and 70px
     slider.style.marginTop = currentMarginTop === '70px' ? '0px' : '70px';
-
     // Prevent event from bubbling to document
     event.stopPropagation();
+
+    // Add event listener for click on the document
+document.addEventListener('click', function() {
+  hideLangSelector();
+  alert('watching');
+
+});
 }
 
-// Add event listener for click on the document
-document.addEventListener('click', function() {
-    var slider = document.getElementById('language-menu-slider');
-    // Reset margin-top to 0px
-    slider.style.marginTop = '0px';
-});
+function hideLangSelector() {
+  var slider = document.getElementById('language-menu-slider');
+    slider.style.marginTop = '0px';      // Reset margin-top to 0px
+}
+
+
 
 // Prevent hiding when clicking inside the slider
 document.getElementById('language-menu-slider').addEventListener('click', function(event) {
     event.stopPropagation();
 });
 
+
+
+
+/* ---------- ------------------------------
+
+LANGUAGE SELECTOR  
+
+-------------------------------------------*/
+
+function showLoginSelector() {
+    var slider = document.getElementById('login-menu-slider');
+    var currentMarginTop = window.getComputedStyle(slider).marginTop;
+    slider.style.marginTop = currentMarginTop === '70px' ? '0px' : '70px';
+    // Prevent event from bubbling to document
+    event.stopPropagation();
+}
+
+// Add event listener for click on the document
+document.addEventListener('click', function() {
+    var slider = document.getElementById('login-menu-slider');
+    slider.style.marginTop = '0px';      // Reset margin-top to 0px
+
+});
+
+// Prevent hiding when clicking inside the slider
+document.getElementById('login-menu-slider').addEventListener('click', function(event) {
+    event.stopPropagation();
+});
+
     </script>
+
+
 </body>
 </html>
