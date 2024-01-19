@@ -1367,7 +1367,7 @@ margin: auto;
     width: 100%;
     height: 100px;
     top: 50px;
-    background-color: var(--gallery);
+    background-color: var(--selector);
     display: flex;
     flex-flow: row;
     z-index: 26;
@@ -1385,19 +1385,20 @@ margin: auto;
 }
 
 .lang-selector {
-    flex: 1;  /* Equal space distribution */
+    flex: 1;  
     padding: 10px;
+    background-color: var(--selector-highlight);
     margin: 10px;
     border-radius: 10px;
     border: none;
-    margin-top: auto; /* Aligns the button at the bottom of the container */
-    /* Add additional styling as needed */
-    background-color: rgba(128, 128, 128, 0.109);
+    margin-top: auto; 
     color: var(--text-color);
 }
 
 .lang-selector:hover {
- background-color: rgba(128, 128, 128, 0.213);
+ background-color:var(--selector-highlight-over);
+ color: var(--text-color);
+
 }
 
 
@@ -1423,6 +1424,8 @@ margin: auto;
 
 }
 
+
+
 .login-selector-box {
   display: flex;
     flex-flow: row;
@@ -1431,21 +1434,21 @@ margin: auto;
 }
 
 .login-selector {
-    flex: 1;  /* Equal space distribution */
+    flex: 1;  
     padding: 10px;
+    background-color: var(--selector-highlight);
     margin: 10px;
     border-radius: 10px;
     border: none;
-    margin-top: auto; /* Aligns the button at the bottom of the container */
-    /* Add additional styling as needed */
-    background-color: rgba(128, 128, 128, 0.109);
+    margin-top: auto; 
     color: var(--text-color);
 }
 
 .login-selector:hover {
- background-color: rgba(128, 128, 128, 0.213);
-}
+ background-color:var(--selector-highlight-over);
+ color: var(--text-color);
 
+}
 
 .sign-innn {
 font-family: 'Mulish', sans-serif;
@@ -2078,34 +2081,37 @@ setTimeout(nextSlide, 4000);
 LANGUAGE SELECTOR  
 
 -------------------------------------------*/
-
 function showLangSelector() {
+  hideLoginSelector();
+
     var slider = document.getElementById('language-menu-slider');
     var currentMarginTop = window.getComputedStyle(slider).marginTop;
     slider.style.marginTop = currentMarginTop === '70px' ? '0px' : '70px';
+
     // Prevent event from bubbling to document
     event.stopPropagation();
 
-    // Add event listener for click on the document
-document.addEventListener('click', function() {
-  hideLangSelector();
-  alert('watching');
-
-});
+    // Add named event listener for click on the document
+    document.addEventListener('click', documentClickListener);
 }
 
 function hideLangSelector() {
-  var slider = document.getElementById('language-menu-slider');
-    slider.style.marginTop = '0px';      // Reset margin-top to 0px
+    var slider = document.getElementById('language-menu-slider');
+    slider.style.marginTop = '0px'; // Reset margin-top to 0px
+
+    // Remove the named event listener from the document
+    document.removeEventListener('click', documentClickListener);
 }
 
-
+// Named function to be used as an event listener
+function documentClickListener() {
+    hideLangSelector();
+}
 
 // Prevent hiding when clicking inside the slider
 document.getElementById('language-menu-slider').addEventListener('click', function(event) {
     event.stopPropagation();
 });
-
 
 
 
@@ -2116,19 +2122,31 @@ LANGUAGE SELECTOR
 -------------------------------------------*/
 
 function showLoginSelector() {
+  hideLangSelector();
+
     var slider = document.getElementById('login-menu-slider');
     var currentMarginTop = window.getComputedStyle(slider).marginTop;
     slider.style.marginTop = currentMarginTop === '70px' ? '0px' : '70px';
+
     // Prevent event from bubbling to document
     event.stopPropagation();
+
+    // Add named event listener for click on the document
+    document.addEventListener('click', documentClickListenerLogin);
 }
 
-// Add event listener for click on the document
-document.addEventListener('click', function() {
+function hideLoginSelector() {
     var slider = document.getElementById('login-menu-slider');
-    slider.style.marginTop = '0px';      // Reset margin-top to 0px
+    slider.style.marginTop = '0px'; // Reset margin-top to 0px
 
-});
+    // Remove the named event listener from the document
+    document.removeEventListener('click', documentClickListener);
+}
+
+// Named function to be used as an event listener
+function documentClickListenerLogin() {
+    hideLoginSelector();
+}
 
 // Prevent hiding when clicking inside the slider
 document.getElementById('login-menu-slider').addEventListener('click', function(event) {

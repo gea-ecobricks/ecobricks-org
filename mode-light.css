@@ -14,6 +14,11 @@
     --emblem-blue: #329bb8;
     --emblem-green: #41a43c;
     --emblem-orange: #fc8302;
+    --selector: rgb(149, 149, 149);
+    --selector-highlight: rgb(183, 182, 182);
+    --selector-highlight-over: rgb(211, 211, 211);
+
+
 
 
     --side-overlays: rgb(225, 225, 225);
@@ -22,7 +27,6 @@
     --text-color: #242424;
     --subdued-text: #454545;
     --h1: black;
-    --gallery: grey;
     --general-background: rgb(252, 252, 252);
     --general-background-highlight: rgb(234, 234, 234);
     --deeper-accent: rgb(148, 148, 148);

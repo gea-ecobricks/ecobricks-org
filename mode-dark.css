@@ -15,14 +15,15 @@
   --emblem-blue: #329bb8;
   --emblem-green: #41a43c;
   --emblem-orange: #fc8302;
-  --gallery:  rgb(51, 52, 63);
-  --slide-highlight: rgb(47, 47, 60);
+  --selector:  rgb(71, 73, 91);
+  --selector-highlight: rgb(65, 65, 81);
+  --selector-highlight-over: rgb(55, 55, 73);
 
 
 
 
     --side-overlays: rgb(24, 26, 38);
-    --slide-highlight: rgb(47, 47, 60);
+    --slide-highlight: rgb(57, 57, 73);
     --text-color: #c0c5e1ff;
     --subdued-text: rgb(158, 162, 184);
     --h1: #fff;
@@ -52,10 +53,10 @@
     --notification: #6388b3;
     --fuscia-button: #804280;
     --fuscia-button-over: #a93aa9;
-
     --facebook: #1d2e53;
-
  }
+
+
 
 
 .top-emblem-button {
