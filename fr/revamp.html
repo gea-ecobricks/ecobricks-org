@@ -1224,22 +1224,40 @@ GUIDED TOUR---*
   filter:brightness(0.2);
   pointer-events: none;
 }
+
+
 .next {
   background-color: green;
   border: none;
   color: #fff;
-  padding: 10px;
+
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 5px 2px;
-  border-radius: 5px;
+ 
   cursor: pointer;
 }
 
 .next:hover {
   background-color: #0f6a02;
+}
+
+@media screen and (max-width: 700px) {
+  .next {
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  }
+}
+
+  @media screen and (min-width: 701px) {
+  .next {
+  padding: 18px 24px 18px 24px;
+  font-size: 18px;
+  margin: 8px 4px;
+  border-radius: 10px;
+  }
 }
 
 .back {
@@ -1510,8 +1528,8 @@ text-decoration: none;
     
       <div id="information-one" class="information">
         <div class="tour-image"><img src="../svgs/question.svg"  style="margin:auto" title="A Quick Tour of the Calendar" alt="A Quick Tour of the Calendar"></div>  
-        <div class="modal-header">What's an Ecobrick?</div>
-        <div class="modal-description">Take our 30 second, five-slide introduction to ecobricks.  This is a great place to start if you're new to ecobricking!</div>
+        <div class="modal-header">Welcome to Ecobricks.org!</div>
+        <div class="modal-description">So what is an ecobrick exactly?  Take our 45 second, five-slide introduction to ecobricks.  We'll cover the basics: what ecobricks are, how you can make one, the Earthen example we're following and what you can make with ecobricks once their ready.</div>
         <button class="next">Start ➔</button>
       </div>
     
@@ -1521,6 +1539,8 @@ text-decoration: none;
         <div class="modal-description">It's pretty simple.  An is a plastic bottle densely packed with used plastic to create a reusable building block that achieves plastic sequestration.  To make one, all you need is a stick and a bottle. </div>
         <button class="back">↩ Back</button>
         <button class="next">Next ➔</button>
+        <p style="font-size:0.8em; color: white !important">Defintion from <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a></h6>
+        <p style="font-size:0.8em; color: white !important">Go deeper: <a href="https://en.wikipedia.org/wiki/Ecobricks">ecobricks.org/what</a></p>
       </div>
       
       <div id="information-three" style="display:none;" class="information">
@@ -1813,19 +1833,19 @@ text-decoration: none;
 
     <div id="slider" style="height: 96vh; width: 100%;">
         <div class="slide green">
-            <img src="photo1-a.webp" class="photo mobile">
-            <img src="photo1-b.webp" class="photo tablet">
-            <img src="photo1-c.webp" class="photo desktop">
+            <img src="../photos/photo1-a.webp" class="photo mobile">
+            <img src="../photos/photo1-b.webp" class="photo tablet">
+            <img src="../photos/photo1-c.webp" class="photo desktop">
         </div>
         <div class="slide orange">
-            <img src="photo2-a.webp" class="photo mobile">
-            <img src="photo2-b.webp" class="photo tablet">
-            <img src="photo2-c.webp" class="photo desktop">
+            <img src="../photos/photo2-a.webp" class="photo mobile">
+            <img src="../photos/photo2-b.webp" class="photo tablet">
+            <img src="../photos/photo2-c.webp" class="photo desktop">
         </div>
         <div class="slide pink">
-            <img src="photo3-a.webp" class="photo mobile">
-            <img src="photo3-b.webp" class="photo tablet">
-            <img src="photo3-c.webp" class="photo desktop">
+            <img src="../photos/photo3-a.webp" class="photo mobile">
+            <img src="../photos/photo3-b.webp" class="photo tablet">
+            <img src="../photos/photo3-c.webp" class="photo desktop">
         </div>
     </div>
 
