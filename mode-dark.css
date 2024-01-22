@@ -5,7 +5,9 @@
 :root {
 
   --main-background: black;
+  --h1: #fff;
   --text-color: #c0c5e1ff;
+  --subdued-text: rgb(158, 162, 184);
   --logo-color: rgb(213, 213, 213);
   --top-header: #21232f;
   --header-accent: #a0c0d2fe;
@@ -25,8 +27,6 @@
     --side-overlays: rgb(24, 26, 38);
     --slide-highlight: rgb(57, 57, 73);
     --text-color: #c0c5e1ff;
-    --subdued-text: rgb(158, 162, 184);
-    --h1: #fff;
     --top-header: #21232f;
     --gallery:  rgb(51, 52, 63);
     --general-background: rgb(13, 15, 26);

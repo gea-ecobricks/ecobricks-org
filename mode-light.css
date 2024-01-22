@@ -7,6 +7,7 @@
 
     --main-background: white;
     --text-color: #242424;
+    --subdued-text: #454545;
     --logo-color: #666;
     --settings-background: rgb(220, 220, 222);
     --settings-border: rgb(220, 220, 222);
@@ -25,7 +26,6 @@
     --slide-highlight: rgb(212, 212, 213);
     --top-header: #fff;
     --text-color: #242424;
-    --subdued-text: #454545;
     --h1: black;
     --general-background: rgb(252, 252, 252);
     --general-background-highlight: rgb(234, 234, 234);

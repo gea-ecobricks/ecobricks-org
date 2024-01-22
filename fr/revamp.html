@@ -1332,7 +1332,7 @@ margin: auto;
   
   .tour-image {
     padding: 8px;
-    height: 200px;  
+    height: 350px;  
   }
 
   .modal-header {
@@ -1350,7 +1350,7 @@ margin: auto;
 
   .tour-image {
     padding: 28px;
-    height: 270px;  
+    height: 400px;  
   }
 
   .modal-header {
@@ -1362,9 +1362,21 @@ margin: auto;
 
 }
 
+.reference {
+  font-size:0.9em; 
+  color: var(--subdued-text);
+  font-family: 'Mulish', sans-serif;
+  margin-top: 20px;
+}
+
+.reference a {
+  color: var(--subdued-text);
+}
+
 .java-link {
   cursor:pointer; 
   border-bottom: grey 1px dashed;
+
 }
 
 .java-link:hover {
@@ -1539,26 +1551,30 @@ text-decoration: none;
         <div class="modal-description">It's pretty simple.  An is a plastic bottle densely packed with used plastic to create a reusable building block that achieves plastic sequestration.  To make one, all you need is a stick and a bottle. </div>
         <button class="back">↩ Back</button>
         <button class="next">Next ➔</button>
-        <p style="font-size:0.8em; color: white !important">Defintion from <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a></h6>
-        <p style="font-size:0.8em; color: white !important">Go deeper: <a href="https://en.wikipedia.org/wiki/Ecobricks">ecobricks.org/what</a></p>
+        <div class="reference">Defintion from <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Go deeper: <a href="what">ecobricks.org/what</a>
+      </div>
       </div>
       
+
       <div id="information-three" style="display:none;" class="information">
-      <div class="tour-image"><img src="../webp/compacted-carbon.webp"   style="margin:auto"  title="Our Neighbourhood" alt="Our Neighbourhood"></div>  
+      <div class="tour-image"><img src="../webp/ancient-future.webp"   style="margin:auto"  title="Our Neighbourhood" alt="Our Neighbourhood"></div>  
     
         <div class="modal-header">Plastic Sequestration?</div>
         <div class="modal-description">Ecobricks follow Earth's example.  Over the last few billion years, Earth has been steadily capturing and concentration loose carbon out of the atmosphere to put it to good use and green the planet's surface.  With ecobricks we're doing the same with our loose plastic.</div>
         <button class="back">↩ Back</button>
         <button class="next">Next ➔</button>
+        <div class="reference">Plastic's long long story: <a href="/plastic/">ecobricks.org/plastic</a>
+        </div>
       </div>
     
       
       <div id="information-four" style="display:none;" class="information">
-      <div class="tour-image"><img src="../webp/build-blue-450px.webp" title="build great stuff" alt="build great stuff" style="margin:auto"  ></div>  
+      <div class="tour-image"><img src="../photos/industry-dangers.webp" title="build great stuff" alt="build great stuff" style="margin:auto"  ></div>  
         <div class="modal-header">More than Eco</div>
         <div class="modal-description">We all know that plastic pollution is a problem.  But ecobricks do more than keep plastic out of the biosphere.  They also keep plastic from being recycled or incinerated industrially.  Best of all ecobricks can put to use locally to build all sorts of great, truly green things!</div>
         <button class="back">↩ Back</button>
         <button class="next">Next ➔</button>
+        <div class="reference">Why we ecobrick: <a href="build">ecobricks.org/why</a>
       </div>
       
       
@@ -1646,7 +1662,7 @@ text-decoration: none;
       
         <div class="earthcycles-logo"></div>
 
-        <div class="menu-page-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">Introduction Rapide</div>
+        <div class="menu-page-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a>Introduction</a></div>
         
         <div class="menu-page-item"><a href="what">Que sont les ecobricks?</a></div>
 
