@@ -18,21 +18,25 @@ function closeTour() {
 }
 
 
-function guidedTour() {
-  // Get the modal and set its display to "block" to show it
-  var modal = document.getElementById("guided-tour");
-  modal.style.display = "block";
-
-  // Add the "blur" class to the page content to visually distinguish it from the modal
-  document.getElementById("page-content").classList.add("blur");
-
-  // Get the close button and set its onclick function to hide the modal and remove the "blur" class from the page content
-  var closeButton = document.querySelector(".close");
-  closeButton.onclick = function() {
-    modal.style.display = "none";
-    document.getElementById("page-content").classList.remove("blur");
-  }
-
+  function guidedTour() {
+    // Prevent scrolling on the body
+    document.body.style.overflow = 'hidden';
+    document.body.style.maxHeight = '100vh';
+  
+    var modal = document.getElementById("guided-tour");
+    modal.style.display = "block";
+    document.getElementById("page-content").classList.add("blur");
+  
+    var closeButton = document.querySelector(".close");
+    closeButton.onclick = function() {
+      modal.style.display = "none";
+      document.getElementById("page-content").classList.remove("blur");
+  
+      // Allow scrolling on the body again
+      document.body.style.overflow = '';
+      document.body.style.maxHeight = '';
+    }
+  
     // Get all the "information" elements (which contain the tour content) and set the currentInfo variable to 0 (the first element)
   var information = document.querySelectorAll(".information");
   var currentInfo = 0;
