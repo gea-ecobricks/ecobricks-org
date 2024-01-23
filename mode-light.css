@@ -16,8 +16,12 @@
     --emblem-green: #41a43c;
     --emblem-orange: #fc8302;
     --selector: rgb(149, 149, 149);
-    --selector-highlight: rgb(183, 182, 182);
-    --selector-highlight-over: rgb(211, 211, 211);
+    --selector-highlight: rgb(203, 203, 203);
+    --selector-highlight-over: rgb(224, 224, 224);
+    --divider-line:  rgb(251, 251, 251);
+    --sub-menu:  rgb(179, 179, 179);
+
+
 
 
 
@@ -105,6 +109,34 @@
   background: url(icons/login-icon-over.svg) no-repeat;
   background-size: contain;
 }
+
+
+
+.tour-slide1 {
+  background: url(svgs/richard-and-team-day.svg) no-repeat bottom;
+  background-size: contain;
+}
+
+.tour-slide2 {
+  background: url(svgs/ecobricking-materials-day.svg) no-repeat bottom;
+  background-size: contain;
+}
+
+.tour-slide4 {
+  background: url(svgs/dolphin-top-optimized.svg) no-repeat bottom;
+  background-size: contain;
+}
+
+.tour-slide5 {
+  background: url(svgs/earth-home-animated-day.svg) no-repeat bottom;
+  background-size: contain;
+}
+
+.tour-slide6 {
+  background: url(svgs/question-day.svg) no-repeat bottom;
+  background-size: contain;
+}
+
 
 /* #logo-ecobricks-org, #logo-global-ecobrick-alliance {
   fill: #666;

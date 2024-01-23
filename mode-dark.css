@@ -20,15 +20,18 @@
   --selector:  rgb(71, 73, 91);
   --selector-highlight: rgb(65, 65, 81);
   --selector-highlight-over: rgb(55, 55, 73);
+  --divider-line:  rgb(51, 52, 63);
+  --sub-menu:  rgb(51, 52, 63);
 
 
 
 
+
+  --gallery:  rgb(51, 52, 63);
     --side-overlays: rgb(24, 26, 38);
     --slide-highlight: rgb(57, 57, 73);
     --text-color: #c0c5e1ff;
     --top-header: #21232f;
-    --gallery:  rgb(51, 52, 63);
     --general-background: rgb(13, 15, 26);
     --login: rgba(28, 31, 38, 0.7);
     --general-background-highlight: rgb(33, 33, 39); /*obsolete?*/
@@ -112,6 +115,31 @@
 
 #reg-up-button   {
   background: url(svgs/up-reg-arrow-dark.svg) no-repeat;
+  background-size: contain;
+}
+
+.tour-slide1 {
+  background: url(svgs/richard-and-team-night.svg) no-repeat bottom;
+  background-size: contain;
+}
+
+.tour-slide2 {
+  background: url(svgs/ecobricking-materials-night.svg) no-repeat bottom;
+  background-size: contain;
+}
+
+.tour-slide4 {
+  background: url(svgs/dolphin-top-optimized-dark.svg) no-repeat bottom;
+  background-size: contain;
+}
+
+.tour-slide5 {
+  background: url(svgs/earth-home-animated-day.svg) no-repeat bottom;
+  background-size: contain;
+}
+
+.tour-slide6 {
+  background: url(svgs/question-day.svg) no-repeat bottom;
   background-size: contain;
 }
 
