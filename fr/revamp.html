@@ -1540,6 +1540,50 @@ text-decoration: none;
 
 
 
+ <!-- RIGHT PAGE MENU -->
+
+ <div id="right-settings-overlay" class="overlay-settings">
+  <div id="right-close-button">
+    <button type="button" style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page" class="x-button">
+    </button>
+  </div>
+
+  <div class="overlay-content-settings" style="margin-bottom: 20px;">
+  
+    <div class="earthcycles-logo"></div>
+
+    <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a>Introduction</a></div>
+    
+    <div class="menu-page-item" data-lang-id="002-what-are-ecobricks"><a href="what">What are ecobricks?</a></div>
+
+    <div class="menu-page-item" data-lang-id="003-how-to"><a href="how">How to make?</a></div>
+    
+    <div class="menu-page-item" data-lang-id="004-why-ecobricks"><a href="why">Why Ecobricks?</a></div>
+
+    <div class="menu-page-item" data-lang-id="005-earth-example"><a href="plastic">Earth's Example</a></div>
+
+    <div class="menu-page-item" data-lang-id="006-our-principles"><a href="principles">Our Earthen Principles</a></div>
+
+    <div class="menu-page-item" data-lang-id="007-construction"><a href="build">Building with Ecobricks</a></div>
+
+    <div class="menu-page-item" data-lang-id="008-about-us"><a href="about">About us</a></div>
+
+    <div class="menu-page-item" data-lang-id="009-plastic-sequestration"><a href="sequest.php">Plastique Sequestration</a></div>
+</div>
+
+        
+  
+      <div id="wcb" class="carbonbadge wcb-d"></div>
+
+      <br<br>
+<!-- 
+<br><br><br>
+      <p style="font-size:small;">Ecobricking and the GEA are inspired by the <a href="ayyew" >ayyew</a> ethos of the Igorot people of Northern Luzon.</p>
+       -->
+    </div>
+                                                              
+</div>
+
 
 <!-- TOUR SLIDER -->
 
@@ -1550,20 +1594,20 @@ text-decoration: none;
     
       <div id="information-one" class="information">
         <div class="tour-image tour-slide1"></div>  
-        <div class="modal-header">Welcome to Ecobricks.org!</div>
-        <div class="modal-description">So what is an ecobrick exactly?  Take our 45 second, five-slide introduction to ecobricks.  We'll cover the basics: what ecobricks are, how you can make one, the Earthen example we're following and what you can make with ecobricks once their ready.</div>
-        <button class="next">Start ➔</button>
-      </div>
+        <div class="modal-header" data-lang-id="010-modal-header">Welcome to Ecobricks.org!</div>
+        <div class="modal-description" data-lang-id="011-modal-description">So what is an ecobrick exactly?  Take our 45 second, five-slide introduction to ecobricks.  We'll cover the basics: what ecobricks are, how you can make one, the Earthen example we're following and what you can make with ecobricks once they're ready.</div>
+        <button class="next" data-lang-id="012-next-button">Start ➔</button>
+    </div>
     
-      <div id="information-two" style="display:none;" class="information">
-      <div class="tour-image tour-slide2"></div>  
-        <div class="modal-header">A Low Tech Solution</div>
-        <div class="modal-description">It's pretty simple.  An is a plastic bottle densely packed with used plastic to create a reusable building block that achieves <b>plastic sequestration</b>.  To make one, all you need is a stick and a bottle. </div>
-        <button class="back">↩ Back</button>
-        <button class="next">Next ➔</button>
-        <div class="reference">Defintion from <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Go deeper: <a href="what">ecobricks.org/what</a>
-      </div>
-      </div>
+    <div id="information-two" style="display:none;" class="information">
+        <div class="tour-image tour-slide2"></div>  
+        <div class="modal-header" data-lang-id="013-modal-header">A Low Tech Solution</div>
+        <div class="modal-description" data-lang-id="014-modal-description">It's pretty simple.  An ecobrick is a plastic bottle densely packed with used plastic to create a reusable building block that achieves <b>plastic sequestration</b>.  To make one, all you need is a stick and a bottle. </div>
+        <button class="back" data-lang-id="015-back-button">↩ Back</button>
+        <button class="next" data-lang-id="016-next-button">Next ➔</button>
+        <div class="reference" data-lang-id="017-reference">Definition from <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Go deeper: <a href="what">ecobricks.org/what</a></div>
+    </div>
+    
       
 
       <div id="information-three" style="display:none;" class="information">
@@ -1644,16 +1688,16 @@ text-decoration: none;
                <!-- Checkbox options -->
     <div class="search-options" style="font-family: 'Mulish-Light', sans-serif;color:var(--text-color);padding: 10px;background-color:var(--slide-highlight);border-radius: 0px 0px 10px 10px;">
       <div class="search-row" style="padding:10px;border-radius: 4px;background-color:rgba(255, 255, 255, 0.024);margin-bottom: 5px"> <!-- First row -->
-          <label><input type="checkbox" name="searchIndex" value="en_site"> English Site</label>
-          <label><input type="checkbox" name="searchIndex" value="fr_site" checked> French Site</label>
-          <label><input type="checkbox" name="searchIndex" value="es_site"> Spanish Site</label>
-          <label><input type="checkbox" name="searchIndex" value="id_site"> Indonesian Site</label>
+          <label>Ecobricks.org: <input type="checkbox" name="searchIndex" value="en_site">🇬🇧 EN</label>
+          <label><input type="checkbox" name="searchIndex" value="fr_site" checked>🇫🇷 FR</label>
+          <label><input type="checkbox" name="searchIndex" value="es_site">🇪🇸 ES</label>
+          <label><input type="checkbox" name="searchIndex" value="id_site">🇮🇩 IN</label>
       </div>
       <div class="search-row" style="padding:10px;border-radius: 4px;background-color:rgba(255, 255, 255, 0.024);"> <!-- Second row -->
-          <label><input type="checkbox" name="searchIndex" value="en_glossary" > English Glossary</label>
-          <label><input type="checkbox" name="searchIndex" value="fr_glossary" checked> French Glossary</label>
-          <label><input type="checkbox" name="searchIndex" value="es_glossary"> Spanish Glossary</label>
-          <label><input type="checkbox" name="searchIndex" value="id_glossary"> Indonesian Glossary</label>
+          <label>Glossary:<input type="checkbox" name="searchIndex" value="en_glossary" > 🇬🇧 EN</label>
+          <label><input type="checkbox" name="searchIndex" value="fr_glossary" checked>🇫🇷 FR</label>
+          <label><input type="checkbox" name="searchIndex" value="es_glossary" disabled> 🇪🇸 ES</label>
+          <label><input type="checkbox" name="searchIndex" value="id_glossary" disabled> 🇮🇩 IN</label>
       </div>
   </div>
 
@@ -1666,51 +1710,6 @@ text-decoration: none;
     </div>  
 
 
- <!-- RIGHT PAGE MENU -->
-
-  <div id="right-settings-overlay" class="overlay-settings">
-    <div id="right-close-button">
-      <button type="button" style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page" class="x-button">
-      </button>
-    </div>
-
-    <div class="overlay-content-settings" style="margin-bottom: 20px;">
-      
-        <div class="earthcycles-logo"></div>
-
-        <div class="menu-page-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a>Introduction</a></div>
-        
-        <div class="menu-page-item"><a href="what">Que sont les ecobricks?</a></div>
-
-        <div class="menu-page-item"><a href="how">Comment faire?</a></div>
-        
-        <div class="menu-page-item"><a href="why">Pourquoi les ecobrique?</a></div>
-
-        <div class="menu-page-item"><a href="plastic">L'example Terrestre</a></div>
-
-        <div class="menu-page-item"><a href="principles">Nos principes Terrestre</a>
-        </div>
-
-        <div class="menu-page-item"><a href="build">Construction ecobriques</a>
-        </div>
-
-        <div class="menu-page-item"><a href="about">Apopos de nous</a>
-        </div>
-
-        <div class="menu-page-item"><a href="sequest.php">Sequestration plastique</a>
-        </div>
-          
-    
-        <div id="wcb" class="carbonbadge wcb-d"></div>
-
-        <br<br>
-<!-- 
-<br><br><br>
-        <p style="font-size:small;">Ecobricking and the GEA are inspired by the <a href="ayyew" >ayyew</a> ethos of the Igorot people of Northern Luzon.</p>
-         -->
-      </div>
-                                                                
-</div>
 
 <div id="registration-footer">
     <div class="reg-top-section">
@@ -1738,6 +1737,10 @@ text-decoration: none;
                 <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleFormSubmit(event)">
             </form>
             <div class="reg-sub">Learn more about ecobricks and our earthen inspiration by receiving our monthly newsletter.</div>
+            </div>
+            <div class="reg-sub" id="reg-sub-checker">
+              <input type="checkbox" id="reg-sub-checkbox" onclick="checkBoxActivated()">
+              <label for="reg-sub-checkbox">I've already signed up or I am not interested - don't show again</label>
             </div>
         </div>
         </div>
@@ -1814,9 +1817,10 @@ text-decoration: none;
         <div id="function-icons" style="display: flex;flex-flow:row;margin:auto 10px auto auto;">
 
             <div id="main-header-buttons">
-                <div class="what-are-ecobricks"  onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">C'est quoi?</div>
-                <div class="header-divider">|</div>
-                <div class="faqs-button">FAQ</div>
+                  <div class="what-are-ecobricks" data-lang-id="what-are-ecobricks" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">What are ecobricks?</div>
+                  <div class="header-divider">|</div>
+                  <div class="faqs-button" data-lang-id="faqs-button">FAQ</div>
+              
                 <div class="header-divider">|</div>
 
                 <button type="button" class="top-search-button"  onclick="openSearch()"  aria-label="Login to app">
@@ -1842,7 +1846,7 @@ text-decoration: none;
             </div>
         </div>
     </div>
-
+<!-- 
 
 <div id="language-menu-slider">
   <div class="lang-selector-box">
@@ -1850,6 +1854,16 @@ text-decoration: none;
     <button type="button" class="lang-selector" href='https://ecobricks.org/id/<?php echo ($name); ;?>'>🇪🇸 ES</button>
     <button type="button" class="lang-selector" href='https://ecobricks.org/es/<?php echo ($name); ;?>'>🇫🇷 FR</button>
     <button type="button" class="lang-selector" href='https://ecobricks.org/fr/<?php echo ($name); ;?>'>🇬🇧 EN</button>
+  </div>
+</div> -->
+
+
+<div id="language-menu-slider">
+  <div class="lang-selector-box">
+    <button type="button" class="lang-selector" onclick="switchLanguage('id')">🇮🇩 IN</button>
+    <button type="button" class="lang-selector" onclick="switchLanguage('es')">🇪🇸 ES</button>
+    <button type="button" class="lang-selector" onclick="switchLanguage('fr')">🇫🇷 FR</button>
+    <button type="button" class="lang-selector" onclick="switchLanguage('en')">🇬🇧 EN</button>
   </div>
 </div>
 
@@ -1927,8 +1941,41 @@ text-decoration: none;
 
     <script src="../site-search.js?v=2"></script>
 
+    <script src="translations/revamp-translations.js"></script>
+
+
     
     <script>
+
+
+function switchLanguage(langCode) {
+    const elements = document.querySelectorAll('[data-lang-id]');
+    elements.forEach(element => {
+        const langId = element.getAttribute('data-lang-id');
+        if (translations[langCode] && translations[langCode][langId]) {
+            // Target only the <a> tag inside the element
+            const anchor = element.querySelector('a');
+            if (anchor) {
+                anchor.textContent = translations[langCode][langId];
+            } else {
+                // If there's no <a> tag, update the element directly
+                element.textContent = translations[langCode][langId];
+            }
+        }
+    });
+}
+
+
+// Event listeners for the language selector buttons
+document.querySelectorAll('.lang-selector').forEach(button => {
+    button.addEventListener('click', function() {
+        const langCode = this.textContent.trim().split(' ')[1]; // Extract language code from button text
+        switchLanguage(langCode.toLowerCase());
+    });
+});
+
+
+
         let lastScrollTop = 0;
 
         window.onscroll = function() {
