@@ -34,10 +34,10 @@ const translations = {
         '007-construction': 'Construction d\'éco-briques',
         '008-about-us': 'À propos de nous',
         '009-plastic-sequestration': 'Séquestration du plastique',
-            '010-modal-header': 'Bienvenue sur Ecobricks.org!',
+            '010-modal-header': 'Bienvenue!',
             '011-modal-description': 'Alors, qu\'est-ce qu\'un écobrick exactement ? Découvrez-le dans notre introduction de 45 secondes en cinq diapositives sur les écobricks. Nous couvrirons les bases : ce que sont les écobricks, comment vous pouvez en faire un, l\'exemple terrestre que nous suivons et ce que vous pouvez réaliser avec des écobricks une fois qu\'ils sont prêts.',
             '012-next-button': 'Commencer ➔',
-            '013-modal-header': 'Une Solution Basse Technologie',
+            '013-modal-header': 'Une Solution Low-Tech, Non-Capitale',
             '014-modal-description': 'C\'est très simple. Un écobrick est une bouteille en plastique densément remplie de plastique usagé pour créer un bloc de construction réutilisable qui permet la <b>séquestration du plastique</b>. Pour en faire un, tout ce dont vous avez besoin est un bâton et une bouteille.',
             '015-back-button': '↩ Retour',
             '016-next-button': 'Suivant ➔',
@@ -70,8 +70,9 @@ const translations = {
         '017-reference': 'Definición de <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Para profundizar: <a href="what">ecobricks.org/what</a>',    
 
         'what-are-ecobricks': '¿Qué son los ecobricks?',
-        'faqs-button': 'Preguntas frecuentes'
+        'faqs-button': 'FAQs'
     },
+
     'id': {
 
         '001-introduction': 'Pendahuluan',

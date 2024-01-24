@@ -20,6 +20,18 @@
  
 <link rel="stylesheet" type="text/css" href="../stylesheet-general.css?v=4.4"> 
 
+<script>
+
+/*ROLL CALL*/
+
+window.onload = function() {
+  var currentLanguage = 'fr'; // Default language code
+  switchLanguage('fr')
+updateLogoColor(); 
+
+}
+</script>
+
  
     <style>
 
@@ -527,8 +539,8 @@ flex-flow:row;
 
 .reg-img {
   padding-right: 20px;
-  height:160px;
-  width:160px; 
+  height:260px;
+  width:260px; 
   justify-content: center;
   display: flex;
 }
@@ -539,9 +551,8 @@ flex-flow:row;
 height:fit-content;
 width:fit-content; 
 margin: 25px;
-height:160px;
-width:160px; 
-
+height:260px;
+width:260px; 
 }
 
 .reg-texts {
@@ -561,6 +572,16 @@ font-family: 'Mulish';
 
 .reg-sub {
 font-family: 'Mulish'; 
+display:flex;
+    flex-flow:column;
+}
+
+#reg-sub-checker {
+  font-size: small;
+  padding: 7px;
+  border-radius: 5px;
+  margin-top: 8px;
+  color: var(--text-color);
 }
 
 @media screen and (max-width: 699px) {
@@ -581,7 +602,7 @@ font-family: 'Mulish';
     }
     
     .reg-sub {
-    font-size: 0.8em;
+    font-size: 0.96em;
     padding:9px;
     }
 
@@ -605,8 +626,9 @@ font-family: 'Mulish';
     }
     
     .reg-sub {
-    font-size: 1em;
+    font-size: 1.3em;
     padding:10px;
+ 
     }
 
   }
@@ -900,57 +922,16 @@ legend {
 
 /*Not darkified!*/
 
-.copy-section {
+.search-section {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: center;
+  margin-top: 10px;
 }
-
-.copy-box { 
-  background: #f4f4f4;
-  border: 2px solid #ddd;
-  border-left: 3px solid;
-  color: #666;
-  page-break-inside: avoid;
-  font-family: monospace;
-  width: 100%;
-  overflow: auto;
-  word-wrap: break-word;
-  display: block;
-  text-align: left;
-  justify-content: center;
-  border-radius: 5px 0px 0px 5px;
-  margin-right: -5px;
-}
-
-.copy-check {
-  font-size: 15px;
-  line-height: 1.6;
-  padding-right: 10px;
-  width: 10%;
-  font-weight: bolder;
-  color: green !important;
-  align-self: center;
-  height: 100%;
-  }
-
-#check {display: none;}
-
-
  
   @media screen and (max-width: 700px) {
-    .copy-box { 
-
-      font-size: 10px;
-      line-height: 1.2;
-      margin: auto;
-      border-radius: 4px;
-      margin-right: -6%;
-      padding-right: 6%;
-      width: 100%;
-      padding: 10px 45px 10px 10px;    
-      }
+  
 
     .btn {
       font-size: 12px;
@@ -958,21 +939,17 @@ legend {
       width: 20%;
     }
 
- 
-  .copy-check {
-    display: inline;
-    }
       }
 
 @media screen and (min-width: 700px) and (max-width: 1324px) {
 
-  .copy-box { 
-    font-size: 10px;
+  .search-box { 
+    font-size: 12px;
     line-height: 1.2;
     margin: auto;
     border-radius: 4px;
-    margin-right: -6%;
-    padding-right: 6%;
+    /* margin-right: -6%;
+    padding-right: 6%; */
     width: 100%;
     padding: 10px;
   }
@@ -982,20 +959,19 @@ legend {
     width: 20%;
   }
 
-.copy-check {
-  display: inline;
-  }
 }
 
+
+
+
 @media screen and (min-width: 1325px) {
-  .copy-box { 
+  .search-box { 
     font-size: 15px;
     line-height: 1.6;
     width: 100%;
     padding: 1em 1.5em;
     border-radius: 5px 0px 0px 5px;
-    margin-right: -5px;
-    padding-right: 0%;
+
   }
 
   .btn {
@@ -1004,12 +980,22 @@ legend {
     width: 20%;
     font-size: 18px;
   }
-
-  .copy-check {
-    line-height: 2.9; 
-    } 
 }
 
+
+.main-search-button {  
+  height: 70px;
+  width: 80px;
+  background: url(../icons/search-white.svg) no-repeat center; 
+  background-size: 28px;
+ }
+
+
+.main-search-button:hover {
+  background-color: rgb(196, 128, 1) !important;
+  background: url(../icons/search-white.svg) no-repeat center; 
+  background-size: 32px;
+}
 
 
 /* Position the close button (top right corner) */
@@ -1078,10 +1064,8 @@ legend {
 
   .btn {
   border: 2px solid #ddd;
-    color: white;
-      background: var(--emblem-orange);
-
-
+  color: white;
+  background-color: var(--emblem-orange);
   font-weight: bolder;
   align-self: center;
   cursor: pointer;
@@ -1093,7 +1077,6 @@ legend {
 
   }
 
-  .btn:hover {color: black;}
 
 
 #search_results {
@@ -1524,7 +1507,6 @@ text-decoration: none;
 
 
 
-
     </style>
 
     <script>
@@ -1553,21 +1535,21 @@ text-decoration: none;
 
     <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a>Introduction</a></div>
     
-    <div class="menu-page-item" data-lang-id="002-what-are-ecobricks"><a href="what">What are ecobricks?</a></div>
+    <div class="menu-page-item"><a href="what" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
 
-    <div class="menu-page-item" data-lang-id="003-how-to"><a href="how">How to make?</a></div>
+    <div class="menu-page-item" ><a href="how" data-lang-id="003-how-to">How to make?</a></div>
     
-    <div class="menu-page-item" data-lang-id="004-why-ecobricks"><a href="why">Why Ecobricks?</a></div>
+    <div class="menu-page-item" ><a href="why" data-lang-id="004-why-ecobricks">Why Ecobricks?</a></div>
 
-    <div class="menu-page-item" data-lang-id="005-earth-example"><a href="plastic">Earth's Example</a></div>
+    <div class="menu-page-item" ><a href="plastic" data-lang-id="005-earth-example">Earth's Example</a></div>
 
-    <div class="menu-page-item" data-lang-id="006-our-principles"><a href="principles">Our Earthen Principles</a></div>
+    <div class="menu-page-item" ><a href="principles" data-lang-id="006-our-principles">Our Earthen Principles</a></div>
 
-    <div class="menu-page-item" data-lang-id="007-construction"><a href="build">Building with Ecobricks</a></div>
+    <div class="menu-page-item" ><a href="build" data-lang-id="007-construction">Building with Ecobricks</a></div>
 
-    <div class="menu-page-item" data-lang-id="008-about-us"><a href="about">About us</a></div>
+    <div class="menu-page-item" ><a href="about" data-lang-id="008-about-us">About us</a></div>
 
-    <div class="menu-page-item" data-lang-id="009-plastic-sequestration"><a href="sequest.php">Plastique Sequestration</a></div>
+    <div class="menu-page-item" ><a href="sequest.php" data-lang-id="009-plastic-sequestration">Plastique Sequestration</a></div>
 </div>
 
         
@@ -1675,28 +1657,29 @@ text-decoration: none;
       <div class="search-overlay-content">
             
             <div>
-                <h1 style="font-family:'Arvo', serif">Chercher</h1> 
-                <p style="text-align:center">Select site languages and indexes you wish to search.  To search for ecobricks use the <a style="color:var(--emblem-blue)" href="brikchain.php">brikchain search</a>.</p>
+                <h1 style="font-family:'Arvo', serif;text-shadow: none;">Search</h1> 
+                <p style="text-align:center">Select the languages and indexes you wish to search.  To search for ecobricks use the <a style="color:var(--emblem-blue)" href="brikchain.php">brikchain search</a>.</p>
             </div>
           
             <div class="search-box" style="padding-bottom:15%;">
-              <div class="copy-section">
-                <input id="search_input" type="text" placeholder="Enter search term..." aria-label="Enter keywords..." onkeypress="handleKeyPress(event)">   
-                <button class="btn" style="padding:22px 0px 22px 0px;" onclick="siteSearch(['indexes/glossary.json', 'indexes/page-index.json'])" aria-label="Search Button"><i style="background-image: url(../icons/search-white.svg); width:22px; height:22px;display: inline-block;background-size: 22px;margin-bottom: -3px;margin-right: 2px;"></i></button> 
+              <div class="search-section">
+                <input id="search_input" type="text" placeholder="Enter search term..." aria-label="Enter search..." onkeypress="handleKeyPress(event)">   
+                <button class="btn main-search-button" onclick="siteSearch(['indexes/glossary.json', 'indexes/page-index.json'])" aria-label="Search Button"></button> 
               </div>  
                <!-- Checkbox options -->
-    <div class="search-options" style="font-family: 'Mulish-Light', sans-serif;color:var(--text-color);padding: 10px;background-color:var(--slide-highlight);border-radius: 0px 0px 10px 10px;">
+    <div class="search-options" style="font-family: 'Mulish-Light', sans-serif;color:var(--text-color);padding: 10px;background-color:var(--slide-highlight);border-radius: 0px 0px 10px 10px; width: 90%;
+    margin: auto;">
       <div class="search-row" style="padding:10px;border-radius: 4px;background-color:rgba(255, 255, 255, 0.024);margin-bottom: 5px"> <!-- First row -->
-          <label>Ecobricks.org: <input type="checkbox" name="searchIndex" value="en_site">🇬🇧 EN</label>
-          <label><input type="checkbox" name="searchIndex" value="fr_site" checked>🇫🇷 FR</label>
-          <label><input type="checkbox" name="searchIndex" value="es_site">🇪🇸 ES</label>
-          <label><input type="checkbox" name="searchIndex" value="id_site">🇮🇩 IN</label>
+          <label>Ecobricks.org: <input type="checkbox" name="searchIndex" value="en_site">EN  </label>
+          <label><input type="checkbox" name="searchIndex" value="fr_site" checked>FR  </label>
+          <label><input type="checkbox" name="searchIndex" value="es_site">ES  </label>
+          <label><input type="checkbox" name="searchIndex" value="id_site">IN  </label>
       </div>
       <div class="search-row" style="padding:10px;border-radius: 4px;background-color:rgba(255, 255, 255, 0.024);"> <!-- Second row -->
-          <label>Glossary:<input type="checkbox" name="searchIndex" value="en_glossary" > 🇬🇧 EN</label>
-          <label><input type="checkbox" name="searchIndex" value="fr_glossary" checked>🇫🇷 FR</label>
-          <label><input type="checkbox" name="searchIndex" value="es_glossary" disabled> 🇪🇸 ES</label>
-          <label><input type="checkbox" name="searchIndex" value="id_glossary" disabled> 🇮🇩 IN</label>
+          <label>Glossary:<input type="checkbox" name="searchIndex" value="en_glossary" >EN  </label>
+          <label><input type="checkbox" name="searchIndex" value="fr_glossary" checked>FR  </label>
+          <label><input type="checkbox" name="searchIndex" value="es_glossary" disabled>ES  </label>
+          <label><input type="checkbox" name="searchIndex" value="id_glossary" disabled>IN</label>
       </div>
   </div>
 
@@ -1735,10 +1718,13 @@ text-decoration: none;
                 <div class="reg-complete-text" id="reg-status"></div>
                 <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleFormSubmit(event)">
               </form>
-              <div id="reg-sub-checker" class="reg-sub">Learn more about ecobricks and our earthen inspiration by receiving our monthly newsletter.<br><br>
-                <input type="checkbox" id="reg-sub-checkbox" onclick="checkBoxActivated()">
-
-              <label for="reg-sub-checkbox">I've already signed up or I am not interested - don't show again</label>
+              <div class="reg-sub">
+                <div id="reg-explanation">Learn more about ecobricks and our earthen inspiration by receiving our monthly newsletter.
+                </div>
+                <div id="reg-sub-checker">
+                  <input type="checkbox" id="reg-sub-checkbox" onclick="checkBoxActivated()">
+                  <label for="reg-sub-checkbox">I've already signed up or I am not interested - don't show again</label>
+                </div>
               </div>
             </div>
           </div>
@@ -1848,7 +1834,7 @@ text-decoration: none;
         </div>
     </div>
 
-
+<!-- 
 <div id="language-menu-slider">
   <div class="lang-selector-box">
     <button type="button" class="lang-selector" href='https://ecobricks.org/en/<?php echo ($name); ;?>'>🇮🇩 IN</button>
@@ -1856,7 +1842,7 @@ text-decoration: none;
     <button type="button" class="lang-selector" href='https://ecobricks.org/es/<?php echo ($name); ;?>'>🇫🇷 FR</button>
     <button type="button" class="lang-selector" href='https://ecobricks.org/fr/<?php echo ($name); ;?>'>🇬🇧 EN</button>
   </div>
-</div>
+</div> -->
 
 
 <div id="language-menu-slider">
@@ -1868,20 +1854,20 @@ text-decoration: none;
   </div>
 </div>
 
-
 <div id="login-menu-slider">
   <div class="login-selector-box">
-    <button type="button" class="login-selector" target="_blank" href='https://gobrik.com/en/go.php#home>'>
-      <i style="background: url(../icons/bottle-icon.svg) no-repeat; width:14px; height:14px;display: inline-block;background-size:contain;margin-right:4px;"></i>GoBrik</button>
-    <button type="button" class="login-selector" target="_blank" href='https://ecobricks.org/email'>Trainer Email</button>
-    <button type="button" class="login-selector" target="_blank" href='https://nextcloud.ecobricks.org>'>Trainer NextCloud</button>
-    <button type="button" class="login-selector" onclick="clearSiteCache">Reset Preferences</button>
+    <a class="login-selector" target="_blank" href='https://gobrik.com/en/go.php#home'>
+      <i style="background: url(../icons/bottle-icon.svg) no-repeat; width:14px; height:14px;display: inline-block;background-size:contain;margin-right:4px;"></i>GoBrik</a>
+    <a class="login-selector" target="_blank" href='https://ecobricks.org/email'>Trainer Email</a>
+    <a class="login-selector" target="_blank" href='https://nextcloud.ecobricks.org'>Trainer NextCloud</a>
+    <button type="button" class="login-selector" onclick="clearSiteCache()">Reset Preferences</button>
   </div>
 </div>
 
 
+
     <div id="slider" style="height: 96vh; width: 100%;">
-        <div class="slide green">
+        <!-- <div class="slide green">
             <img src="../photos/photo1-a.webp" class="photo mobile">
             <img src="../photos/photo1-b.webp" class="photo tablet">
             <img src="../photos/photo1-c.webp" class="photo desktop">
@@ -1890,7 +1876,7 @@ text-decoration: none;
             <img src="../photos/photo2-a.webp" class="photo mobile">
             <img src="../photos/photo2-b.webp" class="photo tablet">
             <img src="../photos/photo2-c.webp" class="photo desktop">
-        </div>
+        </div> -->
         <div class="slide pink">
             <img src="../photos/photo3-a.webp" class="photo mobile">
             <img src="../photos/photo3-b.webp" class="photo tablet">
@@ -1954,7 +1940,6 @@ function clearSiteCache() {
 }
 
 
-
 function switchLanguage(langCode) {
     const elements = document.querySelectorAll('[data-lang-id]');
     elements.forEach(element => {
@@ -1979,6 +1964,7 @@ function switchLanguage(langCode) {
         }
     });
 }
+
 
 
 
@@ -2125,12 +2111,6 @@ document.addEventListener('keydown', modalCloseCurtains);
 
 
 
-/*ROLL CALL*/
-
-window.onload = function() {
-updateLogoColor(); 
-
-}
 
 /*Updates certain colors to the Dark or Light theme*/
 function updateLogoColor() {
@@ -2210,7 +2190,7 @@ LANGUAGE SELECTOR
 
 -------------------------------------------*/
 function showLangSelector() {
-  hideLoginSelector();
+    hideLoginSelector();
 
     var slider = document.getElementById('language-menu-slider');
     var currentMarginTop = window.getComputedStyle(slider).marginTop;
@@ -2236,10 +2216,20 @@ function documentClickListener() {
     hideLangSelector();
 }
 
+// Add event listeners to each button inside the language-menu-slider
+var langButtons = document.querySelectorAll('#language-menu-slider button');
+langButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+        // Hide the slider after 1 second when a language button is clicked
+        setTimeout(hideLangSelector, 3000);
+    });
+});
+
 // Prevent hiding when clicking inside the slider
 document.getElementById('language-menu-slider').addEventListener('click', function(event) {
     event.stopPropagation();
 });
+
 
 
 
