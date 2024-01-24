@@ -1149,7 +1149,6 @@ GUIDED TOUR---*
 --------------------------------------*/
 
 
-
 /* The modal background */
 .modal {
   display: none; /* Hidden by default */
@@ -1722,30 +1721,31 @@ text-decoration: none;
         </button>
         
         <div id="email-registration">
-        <div class="registration-box">
+          <div class="registration-box">
             <div class="reg-img">
             <img src="../svgs/earth-home-animated-v4.svg" height="200" width="200" alt="EarthCycles Calendar from Earthen.io">
             </div>
             <div class="reg-texts">
-            <div class="reg-header">Go Deeper & Greener.</div>
-            <div class="reg-subtitle">The Global Ecobrick Alliance is guided and inspired by Earthen ethics-- following Earth's example to ensure our endeavours are green.  </div>
-            <form id="emailForm" class="reg-field" style="display:flex; flex-flow:row;">
+              <div class="reg-header">Go Deeper & Greener.</div>
+              <div class="reg-subtitle">The Global Ecobrick Alliance is guided and inspired by Earthen ethics-- following Earth's example to ensure our endeavours are green.  </div>
+              <form id="emailForm" class="reg-field" style="display:flex; flex-flow:row;">
                 <label for="email"></label>
                 <input type="email" name="email" required placeholder="Your e-mail..." class="email-input">
                 <input type="text" name="name" required placeholder="Your name..." class="name-input">
                 <div class="reg-complete-text" id="reg-status"></div>
                 <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleFormSubmit(event)">
-            </form>
-            <div class="reg-sub">Learn more about ecobricks and our earthen inspiration by receiving our monthly newsletter.</div>
-            </div>
-            <div class="reg-sub" id="reg-sub-checker">
-              <input type="checkbox" id="reg-sub-checkbox" onclick="checkBoxActivated()">
+              </form>
+              <div id="reg-sub-checker" class="reg-sub">Learn more about ecobricks and our earthen inspiration by receiving our monthly newsletter.<br><br>
+                <input type="checkbox" id="reg-sub-checkbox" onclick="checkBoxActivated()">
+
               <label for="reg-sub-checkbox">I've already signed up or I am not interested - don't show again</label>
+              </div>
             </div>
-        </div>
+          </div>
         </div>
     </div>
-    </div>
+  </div>
+  
     
 <div id="page-content">
 
@@ -1819,7 +1819,8 @@ text-decoration: none;
             <div id="main-header-buttons">
                   <div class="what-are-ecobricks" data-lang-id="what-are-ecobricks" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">What are ecobricks?</div>
                   <div class="header-divider">|</div>
-                  <div class="faqs-button" data-lang-id="faqs-button">FAQ</div>
+                  <div class="faqs-button" data-lang-id="faqs-button" onclick="location.href='faqs.php';">FAQs</div>
+
               
                 <div class="header-divider">|</div>
 
@@ -1846,7 +1847,7 @@ text-decoration: none;
             </div>
         </div>
     </div>
-<!-- 
+
 
 <div id="language-menu-slider">
   <div class="lang-selector-box">
@@ -1855,7 +1856,7 @@ text-decoration: none;
     <button type="button" class="lang-selector" href='https://ecobricks.org/es/<?php echo ($name); ;?>'>🇫🇷 FR</button>
     <button type="button" class="lang-selector" href='https://ecobricks.org/fr/<?php echo ($name); ;?>'>🇬🇧 EN</button>
   </div>
-</div> -->
+</div>
 
 
 <div id="language-menu-slider">
@@ -1874,7 +1875,7 @@ text-decoration: none;
       <i style="background: url(../icons/bottle-icon.svg) no-repeat; width:14px; height:14px;display: inline-block;background-size:contain;margin-right:4px;"></i>GoBrik</button>
     <button type="button" class="login-selector" target="_blank" href='https://ecobricks.org/email'>Trainer Email</button>
     <button type="button" class="login-selector" target="_blank" href='https://nextcloud.ecobricks.org>'>Trainer NextCloud</button>
-    <button type="button" class="login-selector" target="_blank" href='https://education.ecobricks.org/>'>Moodle</button>
+    <button type="button" class="login-selector" onclick="clearSiteCache">Reset Preferences</button>
   </div>
 </div>
 
@@ -1947,23 +1948,39 @@ text-decoration: none;
     
     <script>
 
+function clearSiteCache() {
+    localStorage.clear();
+    console.log("All site cache cleared.");
+}
+
+
 
 function switchLanguage(langCode) {
     const elements = document.querySelectorAll('[data-lang-id]');
     elements.forEach(element => {
         const langId = element.getAttribute('data-lang-id');
-        if (translations[langCode] && translations[langCode][langId]) {
-            // Target only the <a> tag inside the element
-            const anchor = element.querySelector('a');
-            if (anchor) {
-                anchor.textContent = translations[langCode][langId];
+        const translation = translations[langCode][langId];
+        if (translation) {
+            // Check if the element contains HTML tags
+            if (element.innerHTML.match(/<\/?[a-z][\s\S]*>/i)) {
+                // Update only the direct text nodes and preserve HTML tags
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(translation, 'text/html');
+                Array.from(element.childNodes).forEach((child, index) => {
+                    if (child.nodeType === 3) { // Node.TEXT_NODE
+                        // Replace the text content with the corresponding part from the translation
+                        child.textContent = doc.body.childNodes[index].textContent;
+                    }
+                });
             } else {
-                // If there's no <a> tag, update the element directly
-                element.textContent = translations[langCode][langId];
+                // If there are no HTML tags, replace the whole text
+                element.textContent = translation;
             }
         }
     });
 }
+
+
 
 
 // Event listeners for the language selector buttons
@@ -2176,13 +2193,13 @@ function nextSlide() {
 
         // Update activeIndex for the next iteration
         activeIndex = (activeIndex - 1 + slides.length) % slides.length;
-    }, 400000); // This timeout should match the CSS transition time
+    }, 4000); // This timeout should match the CSS transition time
 
-    setTimeout(nextSlide, 400000);
+    setTimeout(nextSlide, 4000);
 }
 
 // Initialize the slider
-setTimeout(nextSlide, 400000);
+setTimeout(nextSlide, 4000);
 
 
 
@@ -2228,7 +2245,7 @@ document.getElementById('language-menu-slider').addEventListener('click', functi
 
 /* ---------- ------------------------------
 
-LANGUAGE SELECTOR  
+SERVICE SELECTOR  
 
 -------------------------------------------*/
 

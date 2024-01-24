@@ -1,3 +1,12 @@
+// Ampersand (&): Should be escaped as &amp; because it starts HTML character references.
+// Less-than (<): Should be escaped as &lt; because it starts an HTML tag.
+// Greater-than (>): Should be escaped as &gt; because it ends an HTML tag.
+// Double quote ("): Should be escaped as &quot; when inside attribute values.
+// Single quote/apostrophe ('): Should be escaped as &#39; or &apos; when inside attribute values.
+// Backslash (\): Should be escaped as \\ in JavaScript strings to prevent ending the string prematurely.
+// Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
+
+
 const translations = {
     'en': {
         '001-introduction': 'Introduction',
@@ -79,10 +88,11 @@ const translations = {
     '011-modal-description': 'Jadi, apa sebenarnya ecobrick itu? Ikuti pengenalan singkat kami selama 45 detik dengan lima slide tentang ecobrick. Kami akan membahas dasar-dasarnya: apa itu ecobrick, bagaimana cara membuatnya, contoh dari Bumi yang kami ikuti, dan apa yang dapat Anda buat dengan ecobrick setelah siap.',
     '012-next-button': 'Mulai ➔',
     '013-modal-header': 'Solusi Teknologi Rendah',
-    '014-modal-description': 'Sangat sederhana. Ecobrick adalah botol plastik yang dipadatkan dengan plastik bekas untuk menciptakan blok bangunan yang dapat digunakan kembali yang mencapai <b>penyimpanan plastik</b>. Untuk membuatnya, yang Anda butuhkan hanyalah tongkat dan botol.',
+    '014-modal-description': 'Sangat sederhana. Ecobrick adalah botol plastik yang dipadatkan dengan plastik bekas untuk menciptakan blok bangunan yang dapat digunakan kembali yang mencapai <i>penyimpanan plastik</i>. Untuk membuatnya, yang Anda butuhkan hanyalah tongkat dan botol.',
     '015-back-button': '↩ Kembali',
     '016-next-button': 'Selanjutnya ➔',
     '017-reference': 'Definisi dari <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Pelajari lebih lanjut: <a href="what">ecobricks.org/what</a>',
+
 
         'what-are-ecobricks': 'Apa itu ecobricks?',
         'faqs-button': 'FAQ'
