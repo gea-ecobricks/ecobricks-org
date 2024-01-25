@@ -109,31 +109,31 @@
 
  
  
- function presentSearchResults(posts, query) {
-    var isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    var outputPosts = [];
-    for (var j = 0; j < posts.length; j++) {
+function presentSearchResults(posts, query) {
+   var isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+   var outputPosts = [];
+   for (var j = 0; j < posts.length; j++) {
        var post = posts[j];
        if ((post.keywords && post.keywords.toLowerCase().includes(query)) || (post.description && post.description.toLowerCase().includes(query))) {
-          outputPosts.push(post);
+           outputPosts.push(post);
        }
-    }
-    console.log(outputPosts.length);
-    console.log(outputPosts);
- 
-    var resultsContainer = document.getElementById("search_results");
-    resultsContainer.innerHTML = "";
- 
-    if (outputPosts.length == 0) {
-       resultsContainer.innerHTML = "<p>Sorry, no results were found for \"" + query + "\".</p>";
-    } else {
+   }
+
+   var resultsContainer = document.getElementById("search_results");
+   resultsContainer.innerHTML = "";
+
+   if (outputPosts.length == 0) {
+       // Use the global langCode to select the appropriate translation
+       var noResultsMessage = noResultsTranslations[langCode] + "\"" + query + "\".</p>";
+       resultsContainer.innerHTML = "<p>" + noResultsMessage + "</p>";
+   } else {
        for (var k = 0; k < outputPosts.length; k++) {
-          var currentPost = outputPosts[k];
-          var imageUrl = isDarkMode && currentPost.image_url_night ? currentPost.image_url_night : currentPost.image_url;
-          resultsContainer.innerHTML += "<div class=\"tc-item\"><div id='result_" + k + "' style=\"display:flex; text-align:left; padding: 15px;\"><div class=\"search_chapter_pic\" ><img src=\"" + imageUrl + "\"></div><div class=\"chapter-name-search\"><a href='" + currentPost.url + "'><div class=\"chapter-title-search\">" + currentPost.title + "</div><div class=\"description_search\">" + currentPost.description + "</div><div class=\"chapter-info-search\">" + currentPost.section + "  |  " + currentPost.language + " | ↳ ../" + currentPost.lang_key + "/" + currentPost.url + "</div></a></div>";
+           var currentPost = outputPosts[k];
+           var imageUrl = isDarkMode && currentPost.image_url_night ? currentPost.image_url_night : currentPost.image_url;
+           resultsContainer.innerHTML += "<div class=\"tc-item\"><div id='result_" + k + "' style=\"display:flex; text-align:left; padding: 15px;\"><div class=\"search_chapter_pic\" ><img src=\"" + imageUrl + "\"></div><div class=\"chapter-name-search\"><a href='" + currentPost.url + "'><div class=\"chapter-title-search\">" + currentPost.title + "</div><div class=\"description_search\">" + currentPost.description + "</div><div class=\"chapter-info-search\">" + currentPost.section + "  |  " + currentPost.language + " | ↳ ../" + currentPost.lang_key + "/" + currentPost.url + "</div></a></div>";
        }
-    }
- }
+   }
+}
  
  
 

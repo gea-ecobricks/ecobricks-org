@@ -99,3 +99,11 @@ const translations = {
         'faqs-button': 'FAQ'
     }
 };
+
+
+const noResultsTranslations = {
+    'en': '😕 Sorry, no results were found for ',
+    'es': '😕 Lo siento, no se encontraron resultados para ',
+    'fr': '😕 Désolé, aucun résultat trouvé pour ',
+    'id': '😕 Maaf, tidak ada hasil yang ditemukan untuk '
+};

@@ -1,7 +1,7 @@
 [
     {
         "id": "26",
-        "title": "Biome",
+        "title": "biome",
         "keywords": "biome, biomes, écosystème, biosphère",
         "description": "Un écosystème d'écosystèmes : l'écosystème principal d'une biosphère.",
         "language": "Français",
@@ -9,23 +9,23 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "25",
         "title": "Ayyew",
-        "keywords": "ayyew, ayyews, ayyewed, ayew",
+        "keywords": "ayyew, ayyews, ayyewed, ayew, igorots",
         "description": "La vertu Igorot d'augmenter continuellement sa synchronisation avec les cycles écologiques.",
         "language": "Français",
         "lang_key": "fr",
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "27",
-        "title": "Biosphère",
+        "title": "biosphère",
         "keywords": "biosphère, biosphères, écosystème, biome",
         "description": "L'écologie englobante d'une planète (généralement celle de la Terre).",
         "language": "Français",
@@ -33,11 +33,11 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "28",
-        "title": "Biodiversité",
+        "title": "biodiversité",
         "keywords": "biodiversité, écologie, espèces, écosystème",
         "description": "La variété et la pluralité des espèces dans un système biologique.",
         "language": "Français",
@@ -45,11 +45,11 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "29",
-        "title": "Caractère Cosmologique",
+        "title": "caractère cosmologique",
         "keywords": "caractère cosmologique",
         "description": "L'histoire unique, la configuration et la composition de chaque planète qui lui donne son schéma caractéristique de processus.",
         "language": "Français",
@@ -57,11 +57,11 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "30",
-        "title": "Dap'ay",
+        "title": "dap'ay",
         "keywords": "dapay, dap'ay, stone henge, stonehenge",
         "description": "La place centrale en pierre de chaque village Igorot utilisée pour les cérémonies, les festins et les contes.",
         "language": "Français",
@@ -69,7 +69,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "31",
@@ -81,11 +81,11 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "32",
-        "title": "Terre, terre",
+        "title": "Terre",
         "keywords": "Earth,",
         "description": "La troisième planète en orbite autour du soleil [‘E’ majuscule]. Utilisé sans article.",
         "language": "Français",
@@ -93,71 +93,71 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "33",
-        "title": "Terrien",
-        "keywords": "Terrien, terrien",
+        "title": "Terrestre",
+        "keywords": "Terrien, terrien, earthen, terrestre, terre, earth",
         "description": "Du caractère de la Terre. [‘E’ majuscule]",
         "language": "Français",
         "lang_key": "fr",
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "34",
-        "title": "terrien",
-        "keywords": "earthen, Earthen",
-        "description": "De la terre (c'est-à-dire sol, terrain) [‘e’ minuscule]",
+        "title": "Terrien",
+        "keywords": "earthen, Earthen, terrien, terre, terrestre",
+        "description": "Éun habitant de la planet Terre",
         "language": "Français",
         "lang_key": "fr",
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "35",
-        "title": "Éthique Terrienne",
-        "keywords": "Éthique Terrienne,",
+        "title": "",
+        "keywords": "éthique eerrestre,",
         "description": "Un cadre éthique pour discerner la couleur écologique d'un acte, d'un processus ou d'une entreprise basé sur l'exemple de la Terre.",
         "language": "Français",
         "lang_key": "fr",
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "36",
-        "title": "Entreprise Terrestre",
-        "keywords": "Entreprise Terrestre,",
-        "description": "Une entreprise qui s'efforce avant tout d'enrichir la biosphère en suivant l'exemple de la Terre.",
+        "title": "entreprise terrestre",
+        "keywords": "earthe enterprise, entreprise terrestre,",
+        "description": "Une entreprise qui s'efforce avant tout d'enrichir la biosphère en suivant l'exemple de la Terre et les principes terrestre.",
         "language": "Français",
         "lang_key": "fr",
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "37",
-        "title": "Contribution Écologique",
-        "keywords": "Contribution Écologique, contributions écologiques,",
+        "title": "contribution écologique",
+        "keywords": "Contribution Écologique, contributions écologiques, vert, green,",
         "description": "Un processus qui incarne pleinement les principes de l'éthique Terrienne. Un impact écologique vert.",
         "language": "Français",
         "lang_key": "fr",
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "38",
-        "title": "Conscience Écologique",
+        "title": "conscience écologique",
         "keywords": "Conscience Écologique,",
         "description": "Une prise de conscience de son interconnexion avec les cycles de la vie, proches et lointains, anciens et nouveaux, locaux et mondiaux.",
         "language": "Français",
@@ -165,11 +165,11 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "39",
-        "title": "Écologie",
+        "title": "écologie",
         "keywords": "écologie, écologies, écologique",
         "description": "Un système biologique ; une partie d'un biome.",
         "language": "Français",
@@ -177,31 +177,31 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "40",
-        "title": "Vert",
-        "keywords": "vert, verts",
+        "title": "vert",
+        "keywords": "vert, verts, contribution, green",
         "description": "Une contribution écologique : un processus qui suit l'exemple de la Terre en incarnant tous les principes Terriens.",
         "language": "Français",
         "lang_key": "fr",
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "41",
-        "title": "Grey",
-        "keywords": "grise, gris",
+        "title": "grey",
+        "keywords": "grise, gris, vert, green, grey",
         "description": "Un impact écologique épuisant : un processus qui ne parvient pas à incarner tous les principes terrestres.",
         "language": "Français",
         "lang_key": "fr",
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "42",
@@ -213,12 +213,12 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     
     {
         "id": "43",
-        "title": "Anthropocentrique",
+        "title": "anthropocentrique",
         "keywords": "humancentrique, anthropocentrique, humains, environnement naturel",
         "description": "Une vision du monde dans laquelle les humains sont centraux et séparés de l'environnement naturel qui les entoure. Également 'anthropocentrique'.",
         "language": "Français",
@@ -226,11 +226,11 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "44",
-        "title": "Cyclocentrique",
+        "title": "cyclocentrique",
         "keywords": "cyclocentrique, cycle, kincentrique, écocentrique, biocentrique, synchronie, William Henry Scott, culture Ayyew Igorot",
         "description": "Du grec Κύκλος pour 'Cycle', nous introduisons le terme 'cyclocentrique' pour décrire les cultures kincentriques et leur propension à s'organiser autour de la synchronisation et de la célébration des cycles Terriens.",
         "language": "Français",
@@ -238,13 +238,13 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     
     
     {
         "id": "45",
-        "title": "Kincentrique",
+        "title": "kincentrique",
         "keywords": "kincentrique, humancentrique, anthropocentrique, parenté",
         "description": "En opposition à l'humancentrique ; une vision du monde dans laquelle plantes, humains, animaux et tous les organismes Terriens partagent une ascendance et des origines, des cycles et des écosystèmes.",
         "language": "Français",
@@ -252,25 +252,25 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
 
     {
         "id": "46",
-        "title": "Économie Pétro-Capitale",
-        "keywords": "économie pétro-capitale, énergie pétrolière, combustibles fossiles, flux de capital",
+        "title": "économie pétro-capitale",
+        "keywords": "capital, capitale, capitalism, économie pétro-capitale, énergie pétrolière, combustibles fossiles, flux de capital",
         "description": "Une économie dont le flux et la génération de capital sont alimentés par l'énergie pétrolière.",
         "language": "Français",
         "lang_key": "fr",
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
 
     {
         "id": "47",
-        "title": "Séquestration du Plastique",
+        "title": "séquestration du plastique",
         "keywords": "séquestration du plastique, concentration, compactage, blocs de construction, stockage à long terme, à but non lucratif, conscience, biodiversité, net-soustractif",
         "description": "Le processus de concentration et de compactage du plastique pour créer des blocs de construction à court terme qui sécurisent et stockent le plastique à long terme, dans un processus à but non lucratif qui élève la conscience, soutient la biodiversité et est net-soustractif.",
         "language": "Français",
@@ -278,13 +278,13 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
 
     
     {
         "id": "48",
-        "title": "L'Histoire du Plastique",
+        "title": "l'histoire du plastique",
         "keywords": "plastique, histoire, stellare, planet, carbon, concentration, séquestration du carbone, Terre, décompacté",
         "description": "La vision de quatre milliards d'années du plastique comme carbone séquestré par la Terre et décompacté par les humains.",
         "language": "Français",
@@ -292,7 +292,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "49",
@@ -304,7 +304,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "50",
@@ -316,13 +316,13 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     
 
     {
         "id": "51",
-        "title": "Régénératif",
+        "title": "régénératif",
         "keywords": "régénératif, processus de verdurisation, impact soustractif, impact additif",
         "description": "Un processus de verdurisation dont l'impact soustractif est plus de deux fois supérieur à son impact additif.",
         "language": "Français",
@@ -330,7 +330,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     
     {
@@ -343,7 +343,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
 
     {
@@ -356,11 +356,11 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
+        "url": "glossary.php"
     },
     {
         "id": "54",
-        "title": "Conception en Spirale",
+        "title": "conception en spirale",
         "keywords": "cycles, spirale, circulaire, cyclique, régénératif, conception, principes",
         "description": "Le principe Terrien de créer des cycles indéfinis toujours enrichissants, tant socialement qu'écologiquement.",
         "language": "Français",
@@ -368,7 +368,38 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": ""
-    }
+        "url": "glossary.php"
+    },
+
+
+{
+    "id": "53",
+    "title": "mandala",
+    "keywords": "mandalas, mandalic, mandala",
+    "description": "Les mandalas sont un art ancien et sacré, circulaire et géométrique que l’on retrouve dans les cultures du monde entier. Du sanscrit, signifiant « cercle »",
+    "language": "English",
+    "lang_key": "en",
+    "section": "Glossary",
+    "image_url": "..\/icons\/glossary-day.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
+     "url": "glossary.php"
+  }, 
+
+
+
+{
+    "id": "54",
+    "title": "ecobrick",
+    "keywords": "ecobrick, eco, eco-brique, ecobrique, ecoladrillo, Ecobrick, eco-brick, brik, ecobrik",
+    "description": "Un ecobrick est une bouteille en plastique densément remplie de plastique usagé pour créer un élément de construction réutilisable qui permet la séquestration du plastique.",
+    "language": "English",
+    "lang_key": "en",
+    "section": "Glossary",
+    "image_url": "..\/icons\/glossary-day.svg",
+    "image_url_night": "..\/icons\/glossary-night.svg",
+    "url": "glossary.php"
+  }
+  
+  
     
 ]
