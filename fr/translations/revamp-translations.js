@@ -46,6 +46,10 @@ const translations = {
         'what-are-ecobricks': 'What are ecobricks?',
         'faqs-button': 'FAQ'
     },
+
+
+
+
     'fr': {
 
         /*Menu of pages curtain*/
@@ -64,7 +68,7 @@ const translations = {
         /*Search Curtain*/
 
         '100-search-title': 'Recherche',
-        '101-search-intro': 'Sélectionnez les langues et les index que vous souhaitez rechercher. Pour rechercher des écobricks, utilisez notre <a href="brikchain.php">recherche brikchain</a>.',
+        '101-search-intro': 'Définition tirée de <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Pour approfondir : <a href="what">ecobricks.org/what</a>',
         '102-search-index1': 'Pages Ecobricks.org : ',
         '103-search-index3': 'Dictionnaire Ecobrick :',
         '104-search-bottom-text': 'Les définitions du dictionnaire sont affichées en premier',
