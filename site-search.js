@@ -50,12 +50,7 @@
 
  /* MAIN SITE SEARCH FUNCTION */
 
- var noResultsTranslations = {
-   'en': '😕 Sorry, no results were found for ',
-   'es': '😕 Lo siento, no se encontraron resultados para ',
-   'fr': '😕 Désolé, aucun résultat trouvé pour ',
-   'id': '😕 Maaf, tidak ada hasil yang ditemukan untuk '
-};
+
 
  function siteSearch() {
     var query = document.getElementById("search_input").value.toLowerCase();
@@ -122,6 +117,12 @@
  
  
 function presentSearchResults(posts, query) {
+   const noResultsTranslations = {
+      'en': '😕 Sorry, no results were found for ',
+      'es': '😕 Lo siento, no se encontraron resultados para ',
+      'fr': '😕 Désolé, aucun résultat trouvé pour ',
+      'id': '😕 Maaf, tidak ada hasil yang ditemukan untuk '
+   };
    var isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
    var outputPosts = [];
    for (var j = 0; j < posts.length; j++) {
@@ -145,6 +146,9 @@ function presentSearchResults(posts, query) {
            resultsContainer.innerHTML += "<div class=\"tc-item\"><div id='result_" + k + "' style=\"display:flex; text-align:left; padding: 15px;\"><div class=\"search_chapter_pic\" ><img src=\"" + imageUrl + "\"></div><div class=\"chapter-name-search\"><a href='" + currentPost.url + "'><div class=\"chapter-title-search\">" + currentPost.title + "</div><div class=\"description_search\">" + currentPost.description + "</div><div class=\"chapter-info-search\">" + currentPost.section + "  |  " + currentPost.language + " | ↳ ../" + currentPost.lang_key + "/" + currentPost.url + "</div></a></div>";
        }
    }
+   console.log('Is Dark Mode:', isDarkMode);
+console.log('Night Image URL:', currentPost.image_url_night);
+console.log('Day Image URL:', currentPost.image_url);
 }
  
  
