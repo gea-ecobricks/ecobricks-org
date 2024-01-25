@@ -1100,9 +1100,9 @@ legend {
   .search_chapter_pic img{
     width:100px; 
 }
-#search_results {
+/* #search_results {
   margin-left: -30px;
-}
+} */
 }
 
 @media screen and (min-width: 701px) and (max-width: 1200px) {
@@ -1125,16 +1125,22 @@ legend {
 
 }
 
-.chapter-name-search {
+.chapter-name-search a {
+  display:block;
+  color: var(--text-color);
+  text-decoration: none;
 
+}
+
+.chapter-title-search {
   font-size:x-large;
   font-family:'Arvo', serif;
   margin-bottom:12px;
   display:block;
+  color: var(--text-color);
+  text-decoration: none;
 
 }
-
-
 
 
 
@@ -1176,11 +1182,7 @@ object-fit: cover;
 .desktop { display: block; }
 }
 
-.chapter-name-search a {
-  font-family: 'Mulish';
-  color: var(--text-color);
-  text-decoration: none;
-}
+
 
 
 /*--------------------------------------
