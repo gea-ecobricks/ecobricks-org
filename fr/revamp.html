@@ -770,7 +770,7 @@ border-color: #00a112 !important;
 
 /*Right Close Button*/
 
-#right-close-button {
+.right-close-button {
   position: absolute;
   right: 0px;
   transition: 0.3s;
@@ -1074,10 +1074,24 @@ legend {
   padding: 5px;
   text-align: center;
   display: flex;
-
   }
 
+.search-options {
+  font-family: 'Mulish-Light', sans-serif;
+  color:var(--text-color);
+  padding: 10px;
+  background-color:var(--slide-highlight);
+  border-radius: 0px 0px 10px 10px; width: 90%;
+  margin: auto;
+}
 
+.search-row {
+  padding:10px;
+  border-radius: 4px;
+  background-color: var(--search-row);
+  margin-bottom: 5px;
+
+}
 
 #search_results {
   margin-left: -30px;
@@ -1524,7 +1538,7 @@ text-decoration: none;
  <!-- RIGHT PAGE MENU -->
 
  <div id="right-settings-overlay" class="overlay-settings">
-  <div id="right-close-button">
+  <div class="right-close-button">
     <button type="button" style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page" class="x-button">
     </button>
   </div>
@@ -1649,8 +1663,8 @@ text-decoration: none;
 <div id="right-search-overlay" class="search-overlay">
 
 
-<div id="right-close-button">
-    <button type="button" style="cursor:pointer" onclick="closeSearch(), clearResults()"  aria-label="Click to close settings page" class="x-button">
+<div class="right-close-button">
+    <button type="button" style="cursor:pointer" onclick="closeSearch(), clearResults()"  aria-label="Close Search" class="x-button">
     </button>
   </div>
 
@@ -1661,34 +1675,32 @@ text-decoration: none;
                 <p style="text-align:center">Select the languages and indexes you wish to search.  To search for ecobricks use the <a style="color:var(--emblem-blue)" href="brikchain.php">brikchain search</a>.</p>
             </div>
           
-            <div class="search-box" style="padding-bottom:15%;">
+            <div class="search-box">
               <div class="search-section">
                 <input id="search_input" type="text" placeholder="Enter search term..." aria-label="Enter search..." onkeypress="handleKeyPress(event)">   
                 <button class="btn main-search-button" onclick="siteSearch(['indexes/glossary.json', 'indexes/page-index.json'])" aria-label="Search Button"></button> 
               </div>  
                <!-- Checkbox options -->
-    <div class="search-options" style="font-family: 'Mulish-Light', sans-serif;color:var(--text-color);padding: 10px;background-color:var(--slide-highlight);border-radius: 0px 0px 10px 10px; width: 90%;
-    margin: auto;">
-      <div class="search-row" style="padding:10px;border-radius: 4px;background-color:rgba(255, 255, 255, 0.024);margin-bottom: 5px"> <!-- First row -->
-          <label>Ecobricks.org: <input type="checkbox" name="searchIndex" value="en_site">EN  </label>
-          <label><input type="checkbox" name="searchIndex" value="fr_site" checked>FR  </label>
-          <label><input type="checkbox" name="searchIndex" value="es_site">ES  </label>
-          <label><input type="checkbox" name="searchIndex" value="id_site">IN  </label>
-      </div>
-      <div class="search-row" style="padding:10px;border-radius: 4px;background-color:rgba(255, 255, 255, 0.024);"> <!-- Second row -->
-          <label>Glossary:<input type="checkbox" name="searchIndex" value="en_glossary" >EN  </label>
-          <label><input type="checkbox" name="searchIndex" value="fr_glossary" checked>FR  </label>
-          <label><input type="checkbox" name="searchIndex" value="es_glossary" disabled>ES  </label>
-          <label><input type="checkbox" name="searchIndex" value="id_glossary" disabled>IN</label>
-      </div>
-  </div>
+               <div class="search-options">
+                  <div class="search-row"> <!-- First row -->
+                    <label>Ecobricks.org pages: <input type="checkbox" name="searchIndex" value="en_site">EN  </label>
+                    <label><input type="checkbox" name="searchIndex" value="fr_site" checked>FR  </label>
+                    <label><input type="checkbox" name="searchIndex" value="es_site">ES  </label>
+                    <label><input type="checkbox" name="searchIndex" value="id_site">IN  </label>
+                </div>
+                <div class="search-row"> <!-- Second row -->
+                    <label>Ecobrick Dictionary:<input type="checkbox" name="searchIndex" value="en_glossary" >EN  </label>
+                    <label><input type="checkbox" name="searchIndex" value="fr_glossary" checked>FR  </label>
+                    <label><input type="checkbox" name="searchIndex" value="es_glossary" disabled>ES  </label>
+                    <label><input type="checkbox" name="searchIndex" value="id_glossary" disabled>IN</label>
+                </div>
+              </div>
 
-  <!-- Search results div -->
-  <div id="search_results"><h6 style="color:grey;">Glossary definitions are shown first</h6></div>
-</div>
-    
+            <!-- Search results div -->
+            <div id="search_results"><h6 style="color:grey;">Dictionary definitions are shown first</h6></div>
           </div>
-    </div>
+        </div>
+      </div>
     </div>  
 
 
