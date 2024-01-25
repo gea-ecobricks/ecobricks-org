@@ -9,6 +9,9 @@
 
 const translations = {
     'en': {
+
+        /*Menu of pages curtain*/
+
         '001-introduction': 'Introduction',
         '002-what-are-ecobricks': 'What are Ecobricks?',
         '003-how-to': 'How to Make?',
@@ -19,11 +22,34 @@ const translations = {
         '008-about-us': 'About Us',
         '009-plastic-sequestration': 'Plastic Sequestration',
 
+        /*Search Curtain*/
+
+        '100-search-title': 'Search',
+        '101-search-intro': 'Select the languages and indexes you wish to search. To search for ecobricks use our <a style="color:var(--emblem-blue)" href="brikchain.php">brikchain search</a>.',
+        '102-search-index1': 'Ecobricks.org pages: ',
+        '103-search-index3': 'Ecobrick Dictionary:',
+        '104-search-bottom-text': 'Dictionary definitions are shown first',
+
+        '013-modal-header': 'A Low Tech Solution',
+        '014-modal-description': 'It\'s pretty simple. An ecobrick is a plastic bottle densely packed with used plastic to create a reusable building block that achieves <b>plastic sequestration</b>. To make one, all you need is a stick and a bottle.',
+        '015-back-button': '↩ Back',
+        '016-next-button': 'Next ➔',
+        '017-reference': 'Definition from <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a> | Go deeper: <a href="what">ecobricks.org/what</a>',
+    
+
+        /* Guided Tour Curtain */
+    
+        '010-modal-header': 'Welcome to Ecobricks.org!',
+        '011-modal-description': 'So what is an ecobrick exactly? Take our 45 second, five-slide introduction to ecobricks. We\'ll cover the basics: what ecobricks are, how you can make one, the Earthen example we\'re following and what you can make with ecobricks once they\'re ready.',
+        '012-next-button': 'Start ➔',
 
         'what-are-ecobricks': 'What are ecobricks?',
         'faqs-button': 'FAQ'
     },
     'fr': {
+
+        /*Menu of pages curtain*/
+
 
         '001-introduction': 'Introduction',
         '002-what-are-ecobricks': 'Que sont les écobriques?',
@@ -34,6 +60,18 @@ const translations = {
         '007-construction': 'Construction d\'éco-briques',
         '008-about-us': 'À propos de nous',
         '009-plastic-sequestration': 'Séquestration du plastique',
+
+        /*Search Curtain*/
+
+        '100-search-title': 'Recherche',
+        '101-search-intro': 'Sélectionnez les langues et les index que vous souhaitez rechercher. Pour rechercher des écobricks, utilisez notre <a style="color:var(--emblem-blue)" href="brikchain.php">recherche brikchain</a>.',
+        '102-search-index1': 'Pages Ecobricks.org : ',
+        '103-search-index3': 'Dictionnaire Ecobrick :',
+        '104-search-bottom-text': 'Les définitions du dictionnaire sont affichées en premier',
+
+        /* Guide Tour Curtain */
+    
+
             '010-modal-header': 'Bienvenue!',
             '011-modal-description': 'Alors, qu\'est-ce qu\'un écobrick exactement ? Découvrez-le dans notre introduction de 45 secondes en cinq diapositives sur les écobricks. Nous couvrirons les bases : ce que sont les écobricks, comment vous pouvez en faire un, l\'exemple terrestre que nous suivons et ce que vous pouvez réaliser avec des écobricks une fois qu\'ils sont prêts.',
             '012-next-button': 'Commencer ➔',
@@ -50,6 +88,8 @@ const translations = {
     
     'es': {
 
+        /*Menu of pages curtain*/
+
         '001-introduction': 'Introducción',
         '002-what-are-ecobricks': '¿Qué son los ecobricks?',
         '003-how-to': '¿Cómo hacer?',
@@ -59,6 +99,16 @@ const translations = {
         '007-construction': 'Construcción de ecobricks',
         '008-about-us': 'Acerca de nosotros',
         '009-plastic-sequestration': 'Secuestro de plástico',
+
+        /*Search Curtain*/
+
+        '100-search-title': 'Buscar',
+        '101-search-intro': 'Seleccione los idiomas e índices que desea buscar. Para buscar ecobricks, utilice nuestra <a style="color:var(--emblem-blue)" href="brikchain.php">búsqueda brikchain</a>.',
+        '102-search-index1': 'Páginas de Ecobricks.org: ',
+        '103-search-index3': 'Diccionario de Ecobricks:',
+        '104-search-bottom-text': 'Las definiciones del diccionario se muestran primero',
+
+        /* Guide Tour Curtain */
     
         '010-modal-header': '¡Bienvenido a Ecobricks.org!',
         '011-modal-description': 'Entonces, ¿qué es exactamente un ecobrick? Echa un vistazo a nuestra introducción de 45 segundos en cinco diapositivas sobre los ecobricks. Cubriremos lo básico: qué son los ecobricks, cómo puedes hacer uno, el ejemplo Terrestre que seguimos y lo que puedes hacer con los ecobricks una vez que estén listos.',
@@ -75,6 +125,9 @@ const translations = {
 
     'id': {
 
+     /*Menu of pages curtain*/
+
+
         '001-introduction': 'Pendahuluan',
         '002-what-are-ecobricks': 'Apa itu Ecobrick?',
         '003-how-to': 'Bagaimana Cara Membuatnya?',
@@ -84,6 +137,16 @@ const translations = {
         '007-construction': 'Konstruksi Ecobrick',
         '008-about-us': 'Tentang Kami',
         '009-plastic-sequestration': 'Penyimpanan Plastik',
+
+        /*Search Curtain*/
+
+        '100-search-title': 'Pencarian',
+        '101-search-intro': 'Pilih bahasa dan indeks yang ingin Anda cari. Untuk mencari ecobricks, gunakan <a style="color:var(--emblem-blue)" href="brikchain.php">pencarian brikchain</a> kami.',
+        '102-search-index1': 'Halaman Ecobricks.org: ',
+        '103-search-index3': 'Kamus Ecobrick:',
+        '104-search-bottom-text': 'Definisi kamus ditampilkan terlebih dahulu',
+
+        /* Guided Tour Curtain */
 
         '010-modal-header': 'Selamat Datang di Ecobricks.org!',
     '011-modal-description': 'Jadi, apa sebenarnya ecobrick itu? Ikuti pengenalan singkat kami selama 45 detik dengan lima slide tentang ecobrick. Kami akan membahas dasar-dasarnya: apa itu ecobrick, bagaimana cara membuatnya, contoh dari Bumi yang kami ikuti, dan apa yang dapat Anda buat dengan ecobrick setelah siap.',

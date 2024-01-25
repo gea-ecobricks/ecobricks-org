@@ -1731,8 +1731,8 @@ text-decoration: none;
       <div class="search-overlay-content">
             
             <div>
-                <h1 style="font-family:'Arvo', serif;text-shadow: none;">Search</h1> 
-                <p style="text-align:center">Select the languages and indexes you wish to search.  To search for ecobricks use the <a style="color:var(--emblem-blue)" href="brikchain.php">brikchain search</a>.</p>
+                <h1 style="font-family:'Arvo', serif;text-shadow: none;" data-lang-id="100-search-title">Search</h1> 
+                <p style="text-align:center" data-lang-id="101-search-intro"></p>Select the languages and indexes you wish to search.  To search for ecobricks use our <a style="color:var(--emblem-blue)" href="brikchain.php">brikchain search</a>.</p>
             </div>
           
             <div class="search-box">
@@ -1743,13 +1743,13 @@ text-decoration: none;
                <!-- Checkbox options -->
                <div class="search-options">
                   <div class="search-row"> <!-- First row -->
-                    <label>Ecobricks.org pages: <input type="checkbox" name="searchIndex" value="en_site">EN  </label>
+                    <label><b data-lang-id="102-search-index1">Ecobricks.org pages: </b><input type="checkbox" name="searchIndex" value="en_site">EN  </label>
                     <label><input type="checkbox" name="searchIndex" value="fr_site" checked>FR  </label>
                     <label><input type="checkbox" name="searchIndex" value="es_site">ES  </label>
                     <label><input type="checkbox" name="searchIndex" value="id_site">IN  </label>
                 </div>
                 <div class="search-row"> <!-- Second row -->
-                    <label>Ecobrick Dictionary:<input type="checkbox" name="searchIndex" value="en_glossary" >EN  </label>
+                    <label><b data-lang-id="103-search-index3">Ecobrick Dictionary:</b><input type="checkbox" name="searchIndex" value="en_glossary" >EN  </label>
                     <label><input type="checkbox" name="searchIndex" value="fr_glossary" checked>FR  </label>
                     <label><input type="checkbox" name="searchIndex" value="es_glossary" disabled>ES  </label>
                     <label><input type="checkbox" name="searchIndex" value="id_glossary" disabled>IN</label>
@@ -1757,7 +1757,7 @@ text-decoration: none;
               </div>
 
             <!-- Search results div -->
-            <div id="search_results"><h6 style="color:grey;">Dictionary definitions are shown first</h6></div>
+            <div id="search_results"><h6 style="color:grey;" data-lang-id="104-search-bottom-text" >Dictionary definitions are shown first</h6></div>
           </div>
         </div>
       </div>
@@ -2000,7 +2000,7 @@ text-decoration: none;
 
     <script src="../site-search.js?v=4"></script>
 
-    <script src="translations/revamp-translations.js?v=2"></script>
+    <script src="translations/revamp-translations.js?v=3"></script>
 
 
     
