@@ -2006,11 +2006,11 @@ function clearSiteCache() {
 }
 
 
-function switchLanguage(langCode) {
+function switchLanguage(currentLanguage) {
     const elements = document.querySelectorAll('[data-lang-id]');
     elements.forEach(element => {
         const langId = element.getAttribute('data-lang-id');
-        const translation = translations[langCode][langId];
+        const translation = translations[currentLanguage][langId];
         if (translation) {
             // Check if the element contains HTML tags
             if (element.innerHTML.match(/<\/?[a-z][\s\S]*>/i)) {
@@ -2038,8 +2038,8 @@ function switchLanguage(langCode) {
 // Event listeners for the language selector buttons
 document.querySelectorAll('.lang-selector').forEach(button => {
     button.addEventListener('click', function() {
-        const langCode = this.textContent.trim().split(' ')[1]; // Extract language code from button text
-        switchLanguage(langCode.toLowerCase());
+        const currentLanguage = this.textContent.trim().split(' ')[1]; // Extract language code from button text
+        switchLanguage(currentLanguage.toLowerCase());
     });
 });
 

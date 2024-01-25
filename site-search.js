@@ -45,6 +45,13 @@
 
  /* MAIN SITE SEARCH FUNCTION */
 
+ var noResultsTranslations = {
+   'en': '😕 Sorry, no results were found for ',
+   'es': '😕 Lo siento, no se encontraron resultados para ',
+   'fr': '😕 Désolé, aucun résultat trouvé pour ',
+   'id': '😕 Maaf, tidak ada hasil yang ditemukan untuk '
+};
+
  function siteSearch() {
     var query = document.getElementById("search_input").value.toLowerCase();
     var checkboxes = document.querySelectorAll('input[name="searchIndex"]:checked');
