@@ -2006,6 +2006,12 @@ function clearSiteCache() {
 }
 
 
+function changeLanguage(langCode) {
+    currentLanguage = langCode; // Set the global variable
+    switchLanguage(langCode); // Now call switchLanguage with the new langCode
+}
+
+
 function switchLanguage(currentLanguage) {
     const elements = document.querySelectorAll('[data-lang-id]');
     elements.forEach(element => {
