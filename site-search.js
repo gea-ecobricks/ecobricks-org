@@ -12,6 +12,9 @@
  Triggers the right search panel*/
  
  function openSearch() {
+
+   document.body.style.overflow = 'hidden';
+   document.body.style.maxHeight = '100vh';
    document.getElementById("right-search-overlay").style.width = "100%";
    document.body.style.overflowY = "clip";
   /* document.body.style.maxHeight = "101vh";*/
@@ -37,8 +40,10 @@
  /* Close when someone clicks on the "x" symbol inside the overlay */
  function closeSearch() {
    document.getElementById("right-search-overlay").style.width = "0%";
-   document.body.style.overflowY = "unset";
-  /* document.body.style.maxHeight = "unset";*/
+
+        // Allow scrolling on the body again
+        document.body.style.overflow = '';
+        document.body.style.maxHeight = '';
  } 
 
 

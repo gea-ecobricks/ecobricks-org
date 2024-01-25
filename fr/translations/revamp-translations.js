@@ -28,7 +28,7 @@ const translations = {
         '101-search-intro': 'Select the languages and indexes you wish to search. To search for ecobricks use our <a style="color:var(--emblem-blue)" href="brikchain.php">brikchain search</a>.',
         '102-search-index1': 'Ecobricks.org pages: ',
         '103-search-index3': 'Ecobrick Dictionary:',
-        '104-search-bottom-text': 'Dictionary definitions are shown first',
+        '104-search-bottom-text': 'Dictionary definitions are shown last',
 
         '013-modal-header': 'A Low Tech Solution',
         '014-modal-description': 'It\'s pretty simple. An ecobrick is a plastic bottle densely packed with used plastic to create a reusable building block that achieves <b>plastic sequestration</b>. To make one, all you need is a stick and a bottle.',
@@ -49,7 +49,7 @@ const translations = {
 
 
 
-
+    
     'fr': {
 
         /*Menu of pages curtain*/
@@ -68,10 +68,10 @@ const translations = {
         /*Search Curtain*/
 
         '100-search-title': 'Recherche',
-        '101-search-intro': 'Définition tirée de <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Pour approfondir : <a href="what">ecobricks.org/what</a>',
+        '101-search-intro': 'Sélectionnez les langues et les index que vous souhaitez rechercher. Pour rechercher des écobricks, utilisez notre <a href="brikchain.php">recherche brikchain</a>.',
         '102-search-index1': 'Pages Ecobricks.org : ',
         '103-search-index3': 'Dictionnaire Ecobrick :',
-        '104-search-bottom-text': 'Les définitions du dictionnaire sont affichées en premier',
+        '104-search-bottom-text': 'Les définitions du dictionnaire sont affichées en dernier',
 
         /* Guide Tour Curtain */
     
@@ -110,7 +110,7 @@ const translations = {
         '101-search-intro': 'Seleccione los idiomas e índices que desea buscar. Para buscar ecobricks, utilice nuestra <a style="color:var(--emblem-blue)" href="brikchain.php">búsqueda brikchain</a>.',
         '102-search-index1': 'Páginas de Ecobricks.org: ',
         '103-search-index3': 'Diccionario de Ecobricks:',
-        '104-search-bottom-text': 'Las definiciones del diccionario se muestran primero',
+        '104-search-bottom-text': 'Las definiciones del diccionario se muestran al final',
 
         /* Guide Tour Curtain */
     
@@ -148,7 +148,7 @@ const translations = {
         '101-search-intro': 'Pilih bahasa dan indeks yang ingin Anda cari. Untuk mencari ecobricks, gunakan <a style="color:var(--emblem-blue)" href="brikchain.php">pencarian brikchain</a> kami.',
         '102-search-index1': 'Halaman Ecobricks.org: ',
         '103-search-index3': 'Kamus Ecobrick:',
-        '104-search-bottom-text': 'Definisi kamus ditampilkan terlebih dahulu',
+        '104-search-bottom-text': 'Definisi kamus ditampilkan terakhir',
 
         /* Guided Tour Curtain */
 
