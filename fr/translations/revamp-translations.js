@@ -26,8 +26,8 @@ const translations = {
 
         '100-search-title': 'Search',
         '101-search-intro': 'Select the languages and indexes you wish to search. To search for ecobricks use our <a style="color:var(--emblem-blue)" href="brikchain.php">brikchain search</a>.',
-        '102-search-index1': 'Ecobricks.org pages: ',
-        '103-search-index3': 'Ecobrick Dictionary:',
+        '102-search-index1': 'Pages: ',
+        '103-search-index3': 'Glossaries:',
         '104-search-bottom-text': 'Dictionary definitions are shown last',
 
         '013-modal-header': 'A Low Tech Solution',
@@ -69,8 +69,8 @@ const translations = {
 
         '100-search-title': 'Recherche',
         '101-search-intro': 'Sélectionnez les langues et les index que vous souhaitez rechercher. Pour rechercher des écobricks, utilisez notre <a href="brikchain.php">recherche brikchain</a>.',
-        '102-search-index1': 'Pages Ecobricks.org : ',
-        '103-search-index3': 'Dictionnaire Ecobrick :',
+        '102-search-index1': 'Pages : ',
+        '103-search-index3': 'Dictionnaires :',
         '104-search-bottom-text': 'Les définitions du dictionnaire sont affichées en dernier',
 
         /* Guide Tour Curtain */
@@ -108,8 +108,8 @@ const translations = {
 
         '100-search-title': 'Buscar',
         '101-search-intro': 'Seleccione los idiomas e índices que desea buscar. Para buscar ecobricks, utilice nuestra <a style="color:var(--emblem-blue)" href="brikchain.php">búsqueda brikchain</a>.',
-        '102-search-index1': 'Páginas de Ecobricks.org: ',
-        '103-search-index3': 'Diccionario de Ecobricks:',
+        '102-search-index1': 'Páginas: ',
+        '103-search-index3': 'Diccionarios:',
         '104-search-bottom-text': 'Las definiciones del diccionario se muestran al final',
 
         /* Guide Tour Curtain */
@@ -146,8 +146,8 @@ const translations = {
 
         '100-search-title': 'Pencarian',
         '101-search-intro': 'Pilih bahasa dan indeks yang ingin Anda cari. Untuk mencari ecobricks, gunakan <a style="color:var(--emblem-blue)" href="brikchain.php">pencarian brikchain</a> kami.',
-        '102-search-index1': 'Halaman Ecobricks.org: ',
-        '103-search-index3': 'Kamus Ecobrick:',
+        '102-search-index1': 'Halaman: ',
+        '103-search-index3': 'Kamus:',
         '104-search-bottom-text': 'Definisi kamus ditampilkan terakhir',
 
         /* Guided Tour Curtain */
