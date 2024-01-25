@@ -130,7 +130,7 @@
        for (var k = 0; k < outputPosts.length; k++) {
           var currentPost = outputPosts[k];
           var imageUrl = isDarkMode && currentPost.image_url_night ? currentPost.image_url_night : currentPost.image_url;
-          resultsContainer.innerHTML += "<div class=\"tc-item\"><div id='result_" + k + "' style=\"display:flex; text-align:left; padding: 20px;\"><div class=\"search_chapter_pic\" ><img src=\"" + imageUrl + "\"></div><div class=\"chapter-name-search\"><a href='" + currentPost.url + "'><div class=\"chapter-title-search\">" + currentPost.title + "</div><div class=\"description_search\">" + currentPost.description + "</div><div class=\"chapter-info-search\">" + currentPost.section + "  |  " + currentPost.language + " | ↳ ../" + currentPost.lang_key + "/" + currentPost.url + "</div></a></div>";
+          resultsContainer.innerHTML += "<div class=\"tc-item\"><div id='result_" + k + "' style=\"display:flex; text-align:left; padding: 15px;\"><div class=\"search_chapter_pic\" ><img src=\"" + imageUrl + "\"></div><div class=\"chapter-name-search\"><a href='" + currentPost.url + "'><div class=\"chapter-title-search\">" + currentPost.title + "</div><div class=\"description_search\">" + currentPost.description + "</div><div class=\"chapter-info-search\">" + currentPost.section + "  |  " + currentPost.language + " | ↳ ../" + currentPost.lang_key + "/" + currentPost.url + "</div></a></div>";
        }
     }
  }
