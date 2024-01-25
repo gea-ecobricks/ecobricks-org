@@ -64,7 +64,7 @@ const translations = {
         /*Search Curtain*/
 
         '100-search-title': 'Recherche',
-        '101-search-intro': 'Sélectionnez les langues et les index que vous souhaitez rechercher. Pour rechercher des écobricks, utilisez notre <a style="color:var(--emblem-blue)" href="brikchain.php">recherche brikchain</a>.',
+        '101-search-intro': 'Sélectionnez les langues et les index que vous souhaitez rechercher. Pour rechercher des écobricks, utilisez notre <a href="brikchain.php">recherche brikchain</a>.',
         '102-search-index1': 'Pages Ecobricks.org : ',
         '103-search-index3': 'Dictionnaire Ecobrick :',
         '104-search-bottom-text': 'Les définitions du dictionnaire sont affichées en premier',
@@ -164,7 +164,7 @@ const translations = {
 };
 
 
-const noResultsTranslations = {
+var noResultsTranslations = {
     'en': '😕 Sorry, no results were found for ',
     'es': '😕 Lo siento, no se encontraron resultados para ',
     'fr': '😕 Désolé, aucun résultat trouvé pour ',
