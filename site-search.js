@@ -130,8 +130,8 @@ function presentSearchResults(posts, query) {
    resultsContainer.innerHTML = "";
 
    if (outputPosts.length == 0) {
-       // Use the global langCode to select the appropriate translation
-       var noResultsMessage = noResultsTranslations[langCode] + "\"" + query + "\".</p>";
+       // Use the global currentLanguage to select the appropriate translation
+       var noResultsMessage = noResultsTranslations[currentLanguage] + "\"" + query + "\".</p>";
        resultsContainer.innerHTML = "<p>" + noResultsMessage + "</p>";
    } else {
        for (var k = 0; k < outputPosts.length; k++) {
