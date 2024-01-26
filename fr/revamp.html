@@ -1764,45 +1764,45 @@ text-decoration: none;
     </div>  
 
 
-
-<div id="registration-footer">
-    <div class="reg-top-section">
-        <button id="reg-up-button" onclick="sendUpRegistration()" aria="Newsletter Registration"></button>
-    </div>
-    <div class="registration-footer-holder">
-        <div id="progress-bar"></div>
-        <button id="reg-down-button" onclick="sendDownRegistration()" >
-        <img src="../svgs/down-arrow.svg" alt="No Register">
-        </button>
-        
-        <div id="email-registration">
-          <div class="registration-box">
-            <div class="reg-img">
-            <img src="../svgs/earth-home-animated-v4.svg" height="200" width="200" alt="EarthCycles Calendar from Earthen.io">
-            </div>
-            <div class="reg-texts">
-              <div class="reg-header">Go Deeper & Greener.</div>
-              <div class="reg-subtitle">The Global Ecobrick Alliance is guided and inspired by Earthen ethics-- following Earth's example to ensure our endeavours are green.  </div>
-              <form id="emailForm" class="reg-field" style="display:flex; flex-flow:row;">
-                <label for="email"></label>
-                <input type="email" name="email" required placeholder="Your e-mail..." class="email-input">
-                <input type="text" name="name" required placeholder="Your name..." class="name-input">
-                <div class="reg-complete-text" id="reg-status"></div>
-                <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleFormSubmit(event)">
-              </form>
-              <div class="reg-sub">
-                <div id="reg-explanation">Learn more about ecobricks and our earthen inspiration by receiving our monthly newsletter.
-                </div>
-                <div id="reg-sub-checker">
-                  <input type="checkbox" id="reg-sub-checkbox" onclick="checkBoxActivated()">
-                  <label for="reg-sub-checkbox">I've already signed up or I am not interested - don't show again</label>
-                </div>
+    <div id="registration-footer">
+      <div class="reg-top-section">
+          <button id="reg-up-button"  onclick="sendUpRegistration()" aria-label="Newsletter Registration" data-lang-id="105-subscription-registration"></button>
+      </div>
+      <div class="registration-footer-holder">
+          <div id="progress-bar"></div>
+          <button id="reg-down-button" onclick="sendDownRegistration()" aria-label="Hide Newsletter Registration" data-lang-id="106-hide-subscription-registration">
+              <img src="../svgs/down-arrow.svg" alt="Hide Earthen Ecobrick Newsletter registration" data-lang-id="107-hide-subscription-image-alt">
+          </button>
+          
+          <div id="email-registration">
+              <div class="registration-box">
+                  <div class="reg-img">
+                      <img src="../svgs/earth-home-animated-v4.svg" data-lang-id="108-subscription-image-alt-desktop" class="desktop" height="200" width="200" alt="Earthen Ecobrick Newsletter subscription">
+                      <!-- <img src="../svgs/richard-and-team-night.svg" data-lang-id="109-subscription-image-alt-mobile" class="mobile" height="140" width="200" alt="Earthen Ecobrick Newsletter subscription"> -->
+                  </div>
+                  <div class="reg-texts">
+                      <div class="reg-header" data-lang-id="110-subscription-title">Subscribe to Earthen</div>
+                      <div class="reg-subtitle" data-lang-id="111-subscription-subtitle">Follow our regenerative innovations by subscribing to our Ecobricks.org Earthen newsletter.</div>
+                      <form id="emailForm" class="reg-field" style="display:flex; flex-flow:row;">
+                          <label for="email"></label>
+                          <input type="email" name="email" required placeholder="Your e-mail..." class="email-input" data-lang-id="112-subscription-email-placeholder">
+                          <input type="text" name="name" required placeholder="Your name..." class="name-input" data-lang-id="113-subscription-name-placeholder">
+                          <div class="reg-complete-text" id="reg-status"></div>
+                          <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleFormSubmit(event)">
+                      </form>
+                      <div class="reg-sub">
+                          <div id="reg-explanation" data-lang-id="114-subscription-caption">We send out a news once every month or so.</div>
+                          <div id="reg-sub-checker">
+                              <input type="checkbox" id="reg-sub-checkbox" onclick="checkBoxActivated()">
+                              <label for="reg-sub-checkbox" data-lang-id="115-subscription-do-not-show-again">I've already signed up or I am not interested - don't show again</label>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
-    </div>
+      </div>
   </div>
+  
   
     
 <div id="page-content">
@@ -2001,7 +2001,7 @@ text-decoration: none;
 
 function clearSiteCache() {
     localStorage.clear();
-    console.log("All site cache cleared.");
+    alert("All site cache iterms are now cleared.");
 }
 
 function changeLanguage(langCode) {
@@ -2009,27 +2009,37 @@ function changeLanguage(langCode) {
     switchLanguage(currentLanguage); // Now call switchLanguage with the new currentLanguage
 }
 
-
 function switchLanguage(currentLanguage) {
     const elements = document.querySelectorAll('[data-lang-id]');
     elements.forEach(element => {
         const langId = element.getAttribute('data-lang-id');
         const translation = translations[currentLanguage][langId];
         if (translation) {
-            // Check if the element contains HTML tags
-            if (element.innerHTML.match(/<\/?[a-z][\s\S]*>/i)) {
-                // Update only the direct text nodes and preserve HTML tags
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(translation, 'text/html');
-                Array.from(element.childNodes).forEach((child, index) => {
-                    if (child.nodeType === 3) { // Node.TEXT_NODE
-                        // Replace the text content with the corresponding part from the translation
-                        child.textContent = doc.body.childNodes[index].textContent;
-                    }
-                });
+            // Check for input elements to update their placeholders
+            if (element.tagName.toLowerCase() === 'input' && element.type !== 'submit') {
+                element.placeholder = translation;
             } else {
-                // If there are no HTML tags, replace the whole text
-                element.textContent = translation;
+                // For other elements, including buttons, update innerHTML/textContent or aria-label as needed
+                if (element.hasAttribute('aria-label')) {
+                    // Update aria-label for accessibility
+                    element.setAttribute('aria-label', translation);
+                } else if (element.tagName.toLowerCase() !== 'img') {
+                    // Continue with existing innerHTML/textContent logic for non-img elements
+                    if (element.innerHTML.match(/<\/?[a-z][\s\S]*>/i)) {
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(translation, 'text/html');
+                        Array.from(element.childNodes).forEach((child, index) => {
+                            if (child.nodeType === 3) { // Node.TEXT_NODE
+                                child.textContent = doc.body.childNodes[index].textContent;
+                            }
+                        });
+                    } else {
+                        element.textContent = translation;
+                    }
+                } else {
+                    // Update alt text for img elements
+                    element.alt = translation;
+                }
             }
         }
     });

@@ -22,6 +22,23 @@ const translations = {
         '008-about-us': 'About Us',
         '009-plastic-sequestration': 'Plastic Sequestration',
 
+ 
+
+        /* Guided Tour Curtain */
+    
+        '010-modal-header': 'Welcome to Ecobricks.org!',
+        '011-modal-description': 'So what is an ecobrick exactly? Take our 45 second, five-slide introduction to ecobricks. We\'ll cover the basics: what ecobricks are, how you can make one, the Earthen example we\'re following and what you can make with ecobricks once they\'re ready.',
+        '012-next-button': 'Start ➔',
+        '013-modal-header': 'A Low Tech Solution',
+        '014-modal-description': 'It\'s pretty simple. An ecobrick is a plastic bottle densely packed with used plastic to create a reusable building block that achieves <b>plastic sequestration</b>. To make one, all you need is a stick and a bottle.',
+        '015-back-button': '↩ Back',
+        '016-next-button': 'Next ➔',
+        '017-reference': 'Definition from <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a> | Go deeper: <a href="what">ecobricks.org/what</a>',
+    
+
+
+        /*  INTERFACE CURTAINS  */
+
         /*Search Curtain*/
 
         '100-search-title': 'Search',
@@ -30,18 +47,24 @@ const translations = {
         '103-search-index3': 'Glossaries:',
         '104-search-bottom-text': 'Dictionary definitions are shown last',
 
-        '013-modal-header': 'A Low Tech Solution',
-        '014-modal-description': 'It\'s pretty simple. An ecobrick is a plastic bottle densely packed with used plastic to create a reusable building block that achieves <b>plastic sequestration</b>. To make one, all you need is a stick and a bottle.',
-        '015-back-button': '↩ Back',
-        '016-next-button': 'Next ➔',
-        '017-reference': 'Definition from <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a> | Go deeper: <a href="what">ecobricks.org/what</a>',
+        /* Subscribtion Curtain */
+        '105-subscription-registration': 'Newsletter Registration',
+        '106-hide-subscription-registration': 'Hide Newsletter Registration',
+        '107-hide-subscription-image-alt': 'Hide Earthen Ecobrick Newsletter registration',
+        '108-subscription-image-alt-desktop': 'Earthen Ecobrick Newsletter subscription',
+        '109-subscription-image-alt-mobile': 'Earthen Ecobrick Newsletter subscription',
+        '110-subscription-title': 'Subscribe to Earthen',
+        '111-subscription-subtitle': 'Follow our regenerative innovations by subscribing to our Ecobricks.org Earthen newsletter.',
+        '112-subscription-email-placeholder': 'Your e-mail...',
+        '113-subscription-name-placeholder': 'Your name...',
+        '114-subscription-caption': 'We send out a news once every month or so.',
+        '115-subscription-do-not-show-again': 'I\'ve already signed up or I am not interested - don\'t show again',
+
     
 
-        /* Guided Tour Curtain */
-    
-        '010-modal-header': 'Welcome to Ecobricks.org!',
-        '011-modal-description': 'So what is an ecobrick exactly? Take our 45 second, five-slide introduction to ecobricks. We\'ll cover the basics: what ecobricks are, how you can make one, the Earthen example we\'re following and what you can make with ecobricks once they\'re ready.',
-        '012-next-button': 'Start ➔',
+
+ 
+        /*header*/
 
         'what-are-ecobricks': 'What are ecobricks?',
         'faqs-button': 'FAQ'
@@ -65,6 +88,8 @@ const translations = {
         '008-about-us': 'À propos de nous',
         '009-plastic-sequestration': 'Séquestration du plastique',
 
+/*  INTERFACE CURTAINS  */
+
         /*Search Curtain*/
 
         '100-search-title': 'Recherche',
@@ -73,6 +98,20 @@ const translations = {
         '103-search-index3': 'Dictionnaires :',
         '104-search-bottom-text': 'Les définitions du dictionnaire sont affichées en dernier',
 
+        /* Subscribtion Curtain */
+
+        '105-subscription-registration': 'Inscription à la Newsletter',
+        '106-hide-subscription-registration': 'Masquer l\'inscription à la Newsletter',
+        '107-hide-subscription-image-alt': 'Masquer l\'inscription à la Newsletter d\'Ecobricks en terre',
+        '108-subscription-image-alt-desktop': 'Inscription à la Newsletter d\'Ecobricks en terre',
+        '109-subscription-image-alt-mobile': 'Inscription à la Newsletter d\'Ecobricks en terre',
+        '110-subscription-title': 'Abonnez-vous à Earthen',
+        '111-subscription-subtitle': 'Suivez nos innovations régénératives en vous abonnant à notre newsletter Earthen sur Ecobricks.org.',
+        '112-subscription-email-placeholder': 'Votre e-mail...',
+        '113-subscription-name-placeholder': 'Votre nom...',
+        '114-subscription-caption': 'Nous envoyons une newsletter environ une fois par mois.',
+        '115-subscription-do-not-show-again': 'Je me suis déjà inscrit ou je ne suis pas intéressé - ne plus afficher',
+    
         /* Guide Tour Curtain */
     
 
@@ -103,6 +142,21 @@ const translations = {
         '007-construction': 'Construcción de ecobricks',
         '008-about-us': 'Acerca de nosotros',
         '009-plastic-sequestration': 'Secuestro de plástico',
+
+         /* Subscribtion Curtain */
+
+         '105-subscription-registration': 'Inscripción al Boletín',
+         '106-hide-subscription-registration': 'Ocultar Inscripción al Boletín',
+         '107-hide-subscription-image-alt': 'Ocultar inscripción al boletín de Ecobricks de tierra',
+         '108-subscription-image-alt-desktop': 'Inscripción al Boletín de Ecobricks de tierra',
+         '109-subscription-image-alt-mobile': 'Inscripción al Boletín de Ecobricks de tierra',
+         '110-subscription-title': 'Suscríbete a Earthen',
+         '111-subscription-subtitle': 'Sigue nuestras innovaciones regenerativas suscribiéndote a nuestro boletín Earthen de Ecobricks.org.',
+         '112-subscription-email-placeholder': 'Tu correo electrónico...',
+         '113-subscription-name-placeholder': 'Tu nombre...',
+         '114-subscription-caption': 'Enviamos noticias una vez al mes o así.',
+         '115-subscription-do-not-show-again': 'Ya me he inscrito o no estoy interesado - no mostrar de nuevo',
+     
 
         /*Search Curtain*/
 
@@ -141,6 +195,22 @@ const translations = {
         '007-construction': 'Konstruksi Ecobrick',
         '008-about-us': 'Tentang Kami',
         '009-plastic-sequestration': 'Penyimpanan Plastik',
+
+         /* Subscribtion Curtain */
+
+         '105-subscription-registration': 'Registrasi Newsletter',
+         '106-hide-subscription-registration': 'Sembunyikan Registrasi Newsletter',
+         '107-hide-subscription-image-alt': 'Sembunyikan registrasi newsletter Ecobrick Bumi',
+         '108-subscription-image-alt-desktop': 'Registrasi Newsletter Ecobrick Bumi',
+         '109-subscription-image-alt-mobile': 'Registrasi Newsletter Ecobrick Bumi',
+         '110-subscription-title': 'Berlangganan ke Earthen',
+         '111-subscription-subtitle': 'Ikuti inovasi regeneratif kami dengan berlangganan ke newsletter Earthen dari Ecobricks.org.',
+         '112-subscription-email-placeholder': 'Email Anda...',
+         '113-subscription-name-placeholder': 'Nama Anda...',
+         '114-subscription-caption': 'Kami mengirimkan berita sekali setiap bulan atau sejenisnya.',
+         '115-subscription-do-not-show-again': 'Saya sudah mendaftar atau saya tidak tertarik - jangan tampilkan lagi',
+     
+
 
         /*Search Curtain*/
 
