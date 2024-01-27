@@ -60,14 +60,24 @@ const translations = {
         '114-subscription-caption': 'We send out a news once every month or so.',
         '115-subscription-do-not-show-again': 'I\'ve already signed up or I am not interested - don\'t show again',
 
+        /*Feature Content Slides*/
+
+        '200-featured-content-1-title': '2024 Ecobricking Guidelines',
+        '201-featured-content-1-subtitle': 'Fully updated 10-Step guide for the new year',
+    
+
+
     
 
 
  
-        /*header*/
+        /*General Texts*/
+        '1000-learn-more': 'Learn More',
+        '1001-what-are-ecobricks': 'What are ecobricks?',
+        '1002-faqs-button': 'FAQ'
 
-        'what-are-ecobricks': 'What are ecobricks?',
-        'faqs-button': 'FAQ'
+
+
     },
 
 
@@ -111,6 +121,12 @@ const translations = {
         '113-subscription-name-placeholder': 'Votre nom...',
         '114-subscription-caption': 'Nous envoyons une newsletter environ une fois par mois.',
         '115-subscription-do-not-show-again': 'Je me suis déjà inscrit ou je ne suis pas intéressé - ne plus afficher',
+
+        /*Feature Content Slides*/
+
+        '200-featured-content-1-title': 'Directives pour l\'Écobriquage 2024',
+        '201-featured-content-1-subtitle': 'Guide en 10 étapes entièrement mis à jour pour la nouvelle année',
+    
     
         /* Guide Tour Curtain */
     
@@ -124,9 +140,11 @@ const translations = {
             '016-next-button': 'Suivant ➔',
             '017-reference': 'Définition tirée de <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Pour approfondir : <a href="what">ecobricks.org/what</a>',
 
+        /*General Texts*/
+        '1000-learn-more': 'Apprendre encore plus',
+        '1001-what-are-ecobricks': 'Que sont les écobriques?',
+        '1002-faqs-button': 'FAQ'
 
-        'what-are-ecobricks': 'Que sont les écobriques?',
-        'faqs-button': 'FAQ'
     },
     
     'es': {
@@ -166,6 +184,12 @@ const translations = {
         '103-search-index3': 'Diccionarios:',
         '104-search-bottom-text': 'Las definiciones del diccionario se muestran al final',
 
+       /*Feature Content Slides*/
+
+       '200-featured-content-1-title': 'Guía de Ecobricolaje 2024',
+       '201-featured-content-1-subtitle': 'Guía actualizada de 10 pasos para el nuevo año',
+   
+
         /* Guide Tour Curtain */
     
         '010-modal-header': '¡Bienvenido a Ecobricks.org!',
@@ -177,8 +201,12 @@ const translations = {
         '016-next-button': 'Siguiente ➔',
         '017-reference': 'Definición de <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Para profundizar: <a href="what">ecobricks.org/what</a>',    
 
-        'what-are-ecobricks': '¿Qué son los ecobricks?',
-        'faqs-button': 'FAQs'
+
+        /*General Texts*/
+        '1000-learn-more': 'Aprende más',
+        '1001-what-are-ecobricks': '¿Qué son los ecobricks?',
+        '1002-faqs-button': 'FAQ'
+
     },
 
     'id': {
@@ -220,6 +248,12 @@ const translations = {
         '103-search-index3': 'Kamus:',
         '104-search-bottom-text': 'Definisi kamus ditampilkan terakhir',
 
+     /*Feature Content Slides*/
+
+     '200-featured-content-1-title': 'Panduan Ecobricking 2024',
+     '201-featured-content-1-subtitle': 'Panduan 10 langkah yang sepenuhnya diperbarui untuk tahun baru',
+ 
+
         /* Guided Tour Curtain */
 
         '010-modal-header': 'Selamat Datang di Ecobricks.org!',
@@ -232,8 +266,12 @@ const translations = {
     '017-reference': 'Definisi dari <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Pelajari lebih lanjut: <a href="what">ecobricks.org/what</a>',
 
 
-        'what-are-ecobricks': 'Apa itu ecobricks?',
-        'faqs-button': 'FAQ'
+        /*General Texts*/
+        '1000-learn-more': 'Belajarlah lagi',
+        '1001-what-are-ecobricks': 'Apa itu ecobricks?',
+        '1002-faqs-button': 'FAQ'
+        
+
     }
 };
 
