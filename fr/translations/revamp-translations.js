@@ -207,7 +207,7 @@ const translations = {
          '111-subscription-subtitle': 'Ikuti inovasi regeneratif kami dengan berlangganan ke newsletter Earthen dari Ecobricks.org.',
          '112-subscription-email-placeholder': 'Email Anda...',
          '113-subscription-name-placeholder': 'Nama Anda...',
-         '114-subscription-caption': 'Kami mengirimkan berita sekali setiap bulan atau sejenisnya.',
+         '114-subscription-caption': 'Kami mengirimkan buletin berbahasa Inggris sebulan sekali',
          '115-subscription-do-not-show-again': 'Saya sudah mendaftar atau saya tidak tertarik - jangan tampilkan lagi',
      
 
