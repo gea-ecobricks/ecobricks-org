@@ -140,6 +140,26 @@
 }
 
 
+.featured-content-2 {
+  background: url(svgs/blue-circles-banner-light.svg) no-repeat bottom;
+  background-size: cover;
+}
+
+.dolphin-pic {
+  background: url(svgs/dolphin-top-optimized-light.svg) no-repeat bottom;
+  background-size: cover;
+}
+
+.featured-content-3 {
+  background: url(svgs/ecobrick-village-vision-2024-day.svg) no-repeat bottom;
+  background-size: cover;
+}
+
+.ecovillage-pic {
+  background: url(webp/spiral-building.webp) no-repeat center;
+  background-size: cover;
+}
+
 /* #logo-ecobricks-org, #logo-global-ecobrick-alliance {
   fill: #666;
   transition: 0.5s;

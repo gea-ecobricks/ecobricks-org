@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    id="eoOntxKDJdA1"
-   viewBox="0 0 170.19581 179.12278"
+   viewBox="0 0 178.66902 182.00294"
    shape-rendering="geometricPrecision"
    text-rendering="geometricPrecision"
    version="1.1"
    sodipodi:docname="dolphin-top-optimized-dark.svg"
    inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
-   width="170.19582"
-   height="179.12277"
+   width="178.66902"
+   height="182.00293"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -27,10 +27,10 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.5887879"
-     inkscape:cx="-26.749953"
-     inkscape:cy="133.12035"
-     inkscape:window-width="1503"
-     inkscape:window-height="933"
+     inkscape:cx="-25.491131"
+     inkscape:cy="134.37917"
+     inkscape:window-width="1280"
+     inkscape:window-height="955"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -40,7 +40,7 @@
 #eoOntxKDJdA9_to {animation: eoOntxKDJdA9_to__to 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA9_to__to { 0% {transform: translate(364.639343px,159.215881px)} 100% {transform: translate(232.639343px,159.215881px)}} #eoOntxKDJdA9 {animation: eoOntxKDJdA9_c_o 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA9_c_o { 0% {opacity: 0} 4.166667% {opacity: 0} 7.5% {opacity: 1} 93.333333% {opacity: 1} 96.666667% {opacity: 0} 100% {opacity: 0}} #eoOntxKDJdA18_to {animation: eoOntxKDJdA18_to__to 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA18_to__to { 0% {transform: translate(-199.149246px,-66.449066px)} 44.166667% {transform: translate(-128.746261px,-66.449066px)} 49.166667% {transform: translate(-110.149246px,-66.449066px)} 100% {transform: translate(-110.149246px,-66.449066px)}} #eoOntxKDJdA18 {animation: eoOntxKDJdA18_c_o 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA18_c_o { 0% {opacity: 1} 49.166667% {opacity: 1} 50% {opacity: 0} 100% {opacity: 0}} #eoOntxKDJdA31_to {animation: eoOntxKDJdA31_to__to 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA31_to__to { 0% {transform: translate(141.270635px,124.958814px)} 50% {transform: translate(141.270635px,124.958814px)} 95% {transform: translate(68.756349px,124.958814px)} 100% {transform: translate(47.270635px,124.958814px)}} #eoOntxKDJdA31 {animation: eoOntxKDJdA31_c_o 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA31_c_o { 0% {opacity: 0} 49.166667% {opacity: 0} 50% {opacity: 1} 100% {opacity: 1}} #eoOntxKDJdA43_to {animation: eoOntxKDJdA43_to__to 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA43_to__to { 0% {transform: translate(-208.886746px,-66.249066px)} 33.333333% {transform: translate(-196.886746px,-69.249066px)} 66.666667% {transform: translate(-198.386746px,-55.749066px)} 100% {transform: translate(-208.886746px,-66.249066px)}} #eoOntxKDJdA72_to {animation: eoOntxKDJdA72_to__to 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA72_to__to { 0% {transform: translate(-6.951842px,-3.578266px)} 20.833333% {transform: translate(-10.951842px,-6.578266px)} 50% {transform: translate(-2.618509px,-7.578266px)} 80.833333% {transform: translate(-2.785175px,-0.578266px)} 100% {transform: translate(-6.951842px,-3.578266px)}}
 ]]></style>
   <g
-     transform="translate(-205.89835,-80.747676)"
+     transform="translate(-204.51906,-80.056801)"
      id="g32018">
     <g
        id="g32016">
@@ -115,7 +115,7 @@
   </g>
   <g
      id="eoOntxKDJdA18_to"
-     transform="translate(-205.89835,-80.747676)">
+     transform="translate(-204.51906,-80.056801)">
     <g
        id="eoOntxKDJdA18">
       <g
@@ -214,7 +214,7 @@
   </g>
   <g
      id="eoOntxKDJdA31_to"
-     transform="translate(134.52153,110.6602)">
+     transform="translate(135.90082,111.35108)">
     <g
        id="eoOntxKDJdA31"
        transform="matrix(0.12771166,0.00177533,-0.00177533,0.12771166,-521.29877,-403.91943)"
@@ -311,7 +311,7 @@
   </g>
   <g
      id="eoOntxKDJdA43_to"
-     transform="translate(-215.63585,-80.547676)">
+     transform="translate(-214.25656,-79.856801)">
     <g
        id="g32126">
       <g
@@ -510,7 +510,7 @@
   </g>
   <g
      id="eoOntxKDJdA72_to"
-     transform="translate(-13.700942,-17.876876)">
+     transform="translate(-12.32165,-17.186001)">
     <g
        id="g32149">
       <g
@@ -588,7 +588,7 @@
     </g>
   </g>
   <g
-     transform="translate(-205.89835,-80.747676)"
+     transform="translate(-204.51906,-80.056801)"
      id="g32262">
     <g
        id="g32363"

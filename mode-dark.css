@@ -6,6 +6,7 @@
 
   --main-background: black;
   --h1: #fff;
+  --same: black;
   --text-color: #c0c5e1ff;
   --subdued-text: rgb(158, 162, 184);
   --logo-color: rgb(213, 213, 213);
@@ -143,6 +144,26 @@
 .tour-slide6 {
   background: url(svgs/question-day.svg) no-repeat bottom;
   background-size: contain;
+}
+
+.featured-content-2 {
+  background: url(svgs/blue-circles-banner-dark.svg) no-repeat bottom;
+  background-size: cover;
+}
+
+.dolphin-pic {
+  background: url(svgs/dolphin-top-optimized-dark.svg) no-repeat center;
+  background-size: cover;
+}
+
+.featured-content-3 {
+  background: url(svgs/ecobrick-village-vision-2024-night.svg) no-repeat bottom;
+  background-size: cover;
+}
+
+.ecovillage-pic {
+  background: url(webp/spiral-building.webp) no-repeat center;
+  background-size: cover;
 }
 
   /* #gea-logo {
