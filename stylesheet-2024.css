@@ -1,5 +1,5 @@
 
-
+/* 
 @font-face {
   font-family: "Mulish";
   src: url("../fonts/Mulish-Light.ttf");
@@ -18,7 +18,7 @@
   font-family: "Arvo";
   src: url("../fonts/Arvo-Regular.ttf");
   font-display: swap;
- }
+ } */
 
 
  p {
@@ -459,25 +459,25 @@
 
 
 
-        #main {
-            width: 100%;
-            height: 100%;
-            transition: 0.3s; /* Smooth transition for height */
-            padding: 20px;
-            padding-top: 50px;
+#main {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s; /* Smooth transition for height */
+    margin-top: 40px;
+    padding-top: 0px;
 
-        }
+}
 
-        #footer {
-            width: 100%;
-            height: 10px; /* Footer height */
-            background-color: grey; /* Footer color */
-            position: fixed;
-            bottom: 0;
-            color: white;
-            text-align: center;
-            transition: height 0.3s; /* Smooth transition for height */
-        }
+#footer {
+    width: 100%;
+    height: 10px; /* Footer height */
+    background-color: grey; /* Footer color */
+    position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    transition: height 0.3s; /* Smooth transition for height */
+}
         #footer {
     width: 100%;
     height: 10px; /* Footer height */
