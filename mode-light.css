@@ -160,6 +160,25 @@
   background-size: cover;
 }
 
+.earthservice-pic {
+  background: url(svgs/earth-service-animation.svg) no-repeat center;
+  background-size: cover;
+  margin-top:25px;
+  margin-bottom:-10px;
+
+}
+
+#main {
+  background: url(svgs/ocean-footer-background-day.svg) no-repeat bottom;
+  background-size: contain;
+}
+
+.vision-landscape {
+  background: url(svgs/ocean-footer-day.svg) no-repeat bottom;
+  background-size: cover;
+  /* background-color: #10ffff; */
+  
+}
 /* #logo-ecobricks-org, #logo-global-ecobrick-alliance {
   fill: #666;
   transition: 0.5s;
@@ -229,12 +248,7 @@
     background-size: cover;
   }
 
-  .vision-landscape {
-    background: url(../webp/ocean-footer-day.webp?v=3) no-repeat center;
-    background-size: contain;
-    background-color: #5bfefe;
-    
-  }
+
 
   .splash-content-block {
     background: url(../svgs/brik-view-light.svg?v=2) bottom no-repeat;

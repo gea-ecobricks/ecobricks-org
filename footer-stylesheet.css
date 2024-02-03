@@ -1,0 +1,394 @@
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. FOOTER 
+migrated from Knack CSS
+/* -------------------------------------------------------------------------- */
+.vision-clouds {
+  background: url(../svgs/footer-clouds-desktop.svg) no-repeat center bottom;
+  background-size: contain;
+  z-index: 0;
+  width: 100%;
+  height: fit-content;
+}
+
+.vision-landscape {
+  z-index: 1;
+  width: 100%;
+  height:fit-content;
+  margin-bottom: -10px;
+  /*margin-top: -100px;*/
+}
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Main column */
+  
+  @media screen and (min-width: 700px) {
+    .virtue {
+      flex: auto;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+    }
+    
+    @media screen and (max-width: 700px) {
+    .virtue {
+      flex: 100%;
+      box-sizing: border-box;
+    }
+    }
+  
+  
+  #footer-full {
+    width: 100%;
+   /* margin-top:20px;*/
+    z-index: -1;
+  }
+  
+  
+  #ocean-vision {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    margin-bottom: -6px;
+  }
+  
+  .ocean-vison img {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* VISION STAETMENT IN FOOTER */
+  
+  .footer-vision {
+    font-family: 'Mulish', sans-serif;
+    color: var(--footer-text);
+    font-weight: 500;
+    text-align: center;
+    background-color: var(--footer-background);
+    padding-top: 36px;
+    /*padding-bottom: 50px;*/
+  }
+  
+  @media screen and (max-width: 800px) {
+    .footer-vision {
+  
+    font-size: 1.15em;
+    line-height: 1.3;
+    padding-right: 4%;
+    padding-left: 4%;
+    }
+  }
+  
+  @media screen and (min-width: 770px) and (max-width: 2000px) { 
+    .footer-vision {
+    font-size: 1.7em;
+    line-height: 1.3;
+    padding-right: 10%;
+    padding-left:10%;
+      }
+  }
+  
+  /*INVITE TO CLICK ICONS*/
+  
+  .footer-invite {
+  
+    font-family: 'Arvo', serif;
+    color:  var(--footer-header);
+    text-align: center;
+    background-color: var(--footer-background);
+  }
+  
+  .footer-invite a {
+    color:  var(--footer-header);
+    text-decoration: pointer;
+  }
+  
+  .footer-invite a:hover {
+    color:  var(--footer-header);
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .footer-invite {
+      font-size: 0.9em;
+    line-height: 1.3;
+    padding-right: 5%;
+    padding-left: 5%;
+    }
+  }
+  
+  @media screen and (min-width: 800px) and (max-width: 2000px) { 
+    .footer-invite {
+    font-size: 1.3em;
+    line-height: 1.3;
+    padding-right: 10%;
+    padding-left:10%;
+  }
+  }
+  
+  
+  /*PLATFORM ICONS*/
+  
+  
+  .footer-icons-container {
+  
+    padding-bottom: 0px;
+    background-color: var(--footer-background);
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: fit-content;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .footer-icons { 
+    flex: 50%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .footer-icons img {
+    max-width: 100px;
+  }
+  
+  .footer-icons a img {
+    opacity: 0.6;
+  
+  }
+  
+  .footer-icons a:hover img {
+    opacity: 1;
+  }
+  
+  
+  /* Responsive layout for icons */
+  @media (max-width: 800px) {
+  
+    .footer-icons-container {
+      padding: 16px 3% 0px 3%;
+  }
+     .footer-icons {
+      padding: 0px 4px 0px 4px;
+  }
+  }
+  
+  @media (min-width: 800px) {
+  
+    .footer-icons-container {
+      padding: 40px 6% 0px 6% ;
+  }
+     .footer-icons  {
+        padding: 0px 10px 0px 10px ;
+  }
+  }
+          
+          
+  
+  /*NOT ACTIVE - PLatform reviews*/
+  .icon-name { 
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.9em;
+    color:  var(--footer-header);
+    line-height: 1.3;
+    font-weight: 500;
+    display: none;
+  
+  }
+  
+  .server-review {
+    font-family: Mulish, sans;
+    font-size: 0.8em;
+    color:  var(--footer-header);
+    line-height: 1.3; 
+    font-weight: 500;
+    display: none;
+  }
+  
+  @media (max-width: 800px) {
+    .icon-name {
+      display: none;
+    }
+    .server-review {
+      display: none;
+    }
+  }
+  
+  
+  /* FOUR FOOTER SECTIONS */
+  
+  .footer-content {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: var(--footer-background);
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  }
+  
+  .footer-box {
+    padding: 15px;
+    flex: 50%;
+  }
+  
+  
+  .footer-header {
+    font-family: 'Arvo', serif;
+    color:  var(--footer-header);
+    font-weight: 100;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  
+  
+  @media screen and (max-width: 770px) {
+    .footer-header {
+     font-size: 1.2em;
+    line-height: 1.2;
+    }
+  }
+  
+  @media screen and (min-width: 770px) and (max-width: 2000px) { 
+    .footer-header {
+    font-size: 1.5em;
+    line-height: 1.3;
+  }
+  }
+  
+  
+  .footer-subtext {
+    font-family: 'Mulish', sans-serif;
+    color:  var(--footer-text);
+    font-weight: 300;
+    text-align: left;
+  }
+  
+  .footer-subtext a {
+    color: var(--footer-text);
+  }
+  
+  .footer-subtext a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .footer-subtext {
+     font-size: 0.9em;
+    line-height: 1.2;
+    }
+  }
+  
+  @media screen and (min-width: 800px) and (max-width: 2000px) { 
+    .footer-subtext {
+    font-size: 1.1em;
+    line-height: 1.3;
+    }
+  }
+  
+  
+  .footer-bottom {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color:var(--footer-background);
+    margin-bottom: -20px;
+  }
+  
+  .footer-conclusion {
+    font-family: 'Mulish', sans-serif;
+    color: var(--footer-text);
+    line-height: 1.3;
+    font-weight: 500;
+    text-align: center;
+  
+    background-color: var(--footer-background);
+    padding-top: 5px;
+    padding-bottom: 20px;
+  
+  }
+  
+  .footer-conclusion a {
+    color: var(--footer-text);
+  }
+  
+  .footer-conclusion a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .footer-conclusion {
+     font-size: 0.7em;
+    line-height: 1.2;
+  padding-right: 6%;
+    padding-left:6%;
+    }
+  }
+  
+  @media screen and (min-width: 800px) and (max-width: 2000px) { 
+    .footer-conclusion {
+      font-size: 1.0em;
+    line-height: 1.3;
+          padding-right: 10%;
+    padding-left:10%;
+  }
+  }
+  
+  /* -------------------------------------------------------------------------- */
+  
+  /*	7. CARBON WIDGET FORMATTING
+  
+  /* -------------------------------------------------------------------------- */
+  /*
+  
+/* -------------------------------------------------------------------------- */
+
+/*	7. WIDGET FORMATTING
+
+/* -------------------------------------------------------------------------- */
+
+/*
+
+#wcb.wcb-d #wcb_a {
+    color: #252b4d !important;
+    background: #8cbdda !important;
+    border-color: #529bc2 !important;
+  }
+  
+  #wcb #wcb_a, #wcb #wcb_g {
+    border:.2em solid #8cbdda !important;
+  }
+  
+  
+	
+  #view_6432  .kn-menu .kn-button {
+       color: #fff !important;
+      padding: 15px !important;
+        font-size: 18px !important;
+      }
+  
+  */
+  
+  

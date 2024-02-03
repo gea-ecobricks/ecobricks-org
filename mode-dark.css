@@ -4,7 +4,7 @@
 
 :root {
 
-  --main-background: black;
+  --main-background:  rgb(13, 15, 26);
   --h1: #fff;
   --same: black;
   --text-color: #c0c5e1ff;
@@ -166,6 +166,28 @@
   background-size: cover;
 }
 
+
+.earthservice-pic {
+  background: url(svgs/earth-service-animation.svg) no-repeat center;
+  background-size: cover;
+  margin-top:15px;
+  margin-bottom:-10px;
+}
+
+#main {
+  /* background-image:linear-gradient(var(--main-background),var(--main-background),black); */
+  background: url(svgs/starry-night.svg) no-repeat bottom;
+  background-size: contain;
+
+  }
+
+.vision-landscape {
+  background: url(webp/ocean-footer-night3.webp?v=3) no-repeat center;
+  background-size: contain;
+  background-color: var(--main-background);
+
+}
+
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;
     background-size: contain;
@@ -243,12 +265,7 @@
     background-size: cover;
   }
 
-  .vision-landscape {
-    background: url(../webp/ocean-footer-night3.webp?v=3) no-repeat center;
-    background-size: contain;
-    background-color: var(--general-background);
 
-  }
 
   .splash-content-block {
   background: url(../svgs/brik-view-dark.svg?v=3.1) bottom no-repeat;
