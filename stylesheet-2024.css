@@ -1670,11 +1670,16 @@ GUIDED TOUR---*
     border: none;
     margin-top: auto; 
     color: var(--text-color);
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+    text-decoration: none;
 }
 
 .login-selector:hover {
  background-color:var(--selector-highlight-over);
  color: var(--text-color);
+ text-decoration: underline;
 
 }
 

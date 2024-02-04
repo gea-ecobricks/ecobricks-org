@@ -1791,8 +1791,10 @@ text-align: center;
 
 
 <!--This enables the Light and Dark mode switching-->
-<script type="module" src="https://cycles.earthen.io/dark-mode-toggle.mjs.js"></script>
-<script src="https://cycles.earthen.io/1-subscription.js"></script>
+<script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script>
+<script src="https://api.earthen.io/subscription-system.js"></script>
+<script src="https://api.earthen.io/core-functions.js"></script>
+
 
 <!-- <script type="module" src="../mode-toggle.mjs.js"></script> -->
 <link rel="stylesheet" type="text/css" href="mode-slider.css">
@@ -2151,10 +2153,10 @@ updateLogoColor();
 <div id="login-menu-slider">
   <div class="login-selector-box">
     <a class="login-selector" target="_blank" href='https://gobrik.com/en/go.php#home'>
-      <i style="background: url(../icons/bottle-icon.svg) no-repeat; width:14px; height:14px;display: inline-block;background-size:contain;margin-right:4px;"></i>GoBrik</a>
-    <a class="login-selector" target="_blank" href='https://ecobricks.org/email'>Trainer Email</a>
-    <a class="login-selector" target="_blank" href='https://nextcloud.ecobricks.org'>Trainer NextCloud</a>
-    <button type="button" class="login-selector" onclick="clearSiteCache()">Reset Preferences</button>
+      <i style="background: url(../icons/gobrik-icon-white.svg) no-repeat; width:15px; height:15px;display: inline-block;background-size:contain;margin-right:4px;"></i>GoBrik</a>
+    <a class="login-selector" target="_blank" href='https://ecobricks.org/email'>✉️ Trainer Email</a>
+    <a class="login-selector" target="_blank" href='https://nextcloud.ecobricks.org'><i style="background: url(../icons/next-cloud-white.svg) no-repeat; width:22px; height:11px;display: inline-block;background-size:contain;margin-right:4px;"></i>Trainer NextCloud</a>
+    <button type="button" class="login-selector" onclick="clearSiteCache()" data-lang-id="1003-reset-preferences">❌ Reset Preferences</button>
   </div>
 </div>
 
@@ -2340,7 +2342,7 @@ updateLogoColor();
         
                 <div class="footer-icons"><!--ECOBRICKS.oRG-->
                     <a href="https://gobrik.com" target="_blank">
-                    <img src="../icons/gobrik-icon.svg" style="width:100%" alt="Sign up for our GoBrik app"></a>
+                    <img src="../icons/gobrik-icon-white.svg" style="width:100%" alt="Sign up for our GoBrik app"></a>
                     <div class="icon-name">/gobrik</div>
                     <div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
                 </div>
@@ -2480,10 +2482,43 @@ updateLogoColor();
       
 <script>
 
+
 function clearSiteCache() {
-    localStorage.clear();
-    alert("All site cache iterms are now cleared.");
+    // Translations for the confirm message
+    const confirmMessages = {
+        en: 'Do you wish to delete your language and site settings for ecobricks.org?',
+        fr: 'Souhaitez-vous supprimer vos paramètres de langue et de site pour ecobricks.org?',
+        es: '¿Desea eliminar la configuración de idioma y sitio para ecobricks.org?',
+        id: 'Apakah Anda ingin menghapus pengaturan bahasa dan situs untuk ecobricks.org?'
+    };
+
+    // Translations for the alert message
+    const alertMessages = {
+        en: 'All site cache items are now cleared.',
+        fr: 'Tous les éléments du cache du site sont maintenant effacés.',
+        es: 'Todos los elementos en caché del sitio ahora están borrados.',
+        id: 'Semua item cache situs sekarang dibersihkan.'
+    };
+
+    // Check the currentLanguage global variable, default to 'en' if undefined
+    const language = window.currentLanguage || 'en';
+
+    // Use confirm message based on currentLanguage or default to English
+    const confirmMessage = confirmMessages[language] || confirmMessages.en;
+
+    // Show confirm dialog
+    if (confirm(confirmMessage)) {
+        // Clear local storage if user confirms
+        localStorage.clear();
+
+        // Use alert message based on currentLanguage or default to English
+        const alertMessage = alertMessages[language] || alertMessages.en;
+
+        // Show alert dialog
+        alert(alertMessage);
+    }
 }
+
 
 function changeLanguage(langCode) {
     currentLanguage = langCode; // Set the global variable

@@ -86,6 +86,7 @@ const translations = {
         '1000-learn-more': 'Learn More',
         '1001-what-are-ecobricks': 'What are ecobricks?',
         '1002-faqs-button': 'FAQ',
+        '1003-reset-preferences': '❌ Reset Preferences'
 
 
 
@@ -171,7 +172,8 @@ const translations = {
         /*General Texts*/
         '1000-learn-more': 'Apprendre encore plus',
         '1001-what-are-ecobricks': 'Que sont les écobriques?',
-        '1002-faqs-button': 'FAQ'
+        '1002-faqs-button': 'FAQ',
+        '1003-reset-preferences': '❌ réinitialiser le site'
 
     },
     
@@ -246,10 +248,12 @@ const translations = {
         /*General Texts*/
         '1000-learn-more': 'Aprende más',
         '1001-what-are-ecobricks': '¿Qué son los ecobricks?',
-        '1002-faqs-button': 'FAQ'
+        '1002-faqs-button': 'FAQ',
+        '1003-reset-preferences': '❌ Reiniciar preferencias'
 
     },
 
+    
     'id': {
 
      /*Menu of pages curtain*/
@@ -322,7 +326,8 @@ const translations = {
         /*General Texts*/
         '1000-learn-more': 'Belajarlah lagi',
         '1001-what-are-ecobricks': 'Apa itu ecobricks?',
-        '1002-faqs-button': 'FAQ'
+        '1002-faqs-button': 'FAQ',
+        '1003-reset-preferences': '❌ Reiniciar preferencias'
         
 
     }
