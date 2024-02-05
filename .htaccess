@@ -80,6 +80,11 @@ Header set Cache-Control "max-age=536000, public"
 
 #Alternate default index pages
 
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+
+
 
 DirectoryIndex welcome.php index.php
 
