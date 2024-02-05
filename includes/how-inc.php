@@ -7,7 +7,7 @@ _END;?>
 
 <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
-    script-src 'self' 'unsafe-inline' https://www.youtube.com https://s.ytimg.com https://unpkg.com https://api.earthen.io;
+    script-src 'self' https://api.websitecarbon.com 'unsafe-inline' https://www.youtube.com https://s.ytimg.com https://unpkg.com https://api.earthen.io;
     frame-src https://www.youtube.com;
     connect-src 'self';
     img-src 'self' https://www.youtube.com;
@@ -16,7 +16,6 @@ _END;?>
     object-src 'none';
     worker-src 'self';
 ">
-
 
 
 

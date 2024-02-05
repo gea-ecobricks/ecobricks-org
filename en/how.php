@@ -441,7 +441,7 @@ Once translation is completed, you can remove the line below to take the transla
 	<br>
 	<div class="page-paragraph-reg">
 
-		<div id="video-placeholder" style="width:600px; height:400px; background:url('webp/how-to-preview.webp') center center no-repeat; cursor:pointer; position: relative;">
+		<div id="video-placeholder" style="width:600px; height:400px; background:url('../webp/how-to-preview.webp') center center no-repeat; cursor:pointer; position: relative;">
 			<div id="play-button"></div>
 		</div>
 
