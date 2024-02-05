@@ -179,6 +179,14 @@
   /* background-color: #10ffff; */
   
 }
+
+.registration-footer-holder {
+  background: url(webp/earthen-subscription-background-light.webp) top center, var(--top-header);
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+
+
 /* #logo-ecobricks-org, #logo-global-ecobrick-alliance {
   fill: #666;
   transition: 0.5s;

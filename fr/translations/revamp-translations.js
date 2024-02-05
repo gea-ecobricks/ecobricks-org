@@ -35,19 +35,22 @@ const translations = {
         '103-search-index3': 'Glossaries:',
         '104-search-bottom-text': 'Dictionary definitions are shown last',
 
-        /* Subscribtion Curtain */
-        '105-subscription-registration': 'Newsletter Registration',
-        '106-hide-subscription-registration': 'Hide Newsletter Registration',
-        '107-hide-subscription-image-alt': 'Hide Earthen Ecobrick Newsletter registration',
-        '108-subscription-image-alt-desktop': 'Earthen Ecobrick Newsletter subscription',
-        '109-subscription-image-alt-mobile': 'Earthen Ecobrick Newsletter subscription',
-        '110-subscription-title': 'Subscribe to Earthen',
-        '111-subscription-subtitle': 'Follow our regenerative innovations by subscribing to our Ecobricks.org Earthen newsletter.',
-        '112-subscription-email-placeholder': 'Your e-mail...',
-        '113-subscription-name-placeholder': 'Your name...',
-        '114-subscription-caption': 'We send out a news once every month or so.',
-        '115-subscription-do-not-show-again': 'I\'ve already signed up or I am not interested - don\'t show again',
-
+        
+            "105-subscription-registration": "",
+            "106-hide-subscription-registration": "",
+            "107-hide-subscription-image-alt": "Hide Earthen Newsletter registration",
+            "108-subscription-image-alt-desktop": "Earthen Ecobrick Newsletter subscription",
+            "110-subscription-title": "Subscribe to Earthen",
+            "111-subscription-subtitle": "Follow our regenerative work and news by subscribing to our Earthen newsletter.",
+            "112-subscription-email-placeholder": "Your e-mail...",
+            "113-subscription-name-placeholder": "Your name...",
+            "114-subscription-caption": "We send out a news once every month or so according to <a href=\"javascript:void(0)\" onclick=\"previewPrivacy()\">our strict privacy policy</a>.",
+            "115-subscription-do-not-show-again": "I've already signed up or I am not interested - don't show again",
+            "116-privacy-title": "Your Data is Safe",
+            "117-privacy-subtitle": "As a not-for-profit Earth enterprise on principle we do partake in any 3rd party advertising, nor connect your data to social platforms that do.  Your data will not be sold or exchanged.  We proudly use Ghost.org's for our newsletter-- a not-for-profit open source platform which we host on our own servers.  Our newsletters are sent usually once a month, we commit to not exceeding more than one a week.",
+            "118-full-privacy-link": ">Our Full Privacy Policy",
+          
+          
         /* Guided Tour Curtain */
 
         '200-tour-1-header-welcome': 'Welcome to Ecobricks.org!',
@@ -97,7 +100,7 @@ const translations = {
     
     'fr': {
 
-        /*Menu of pages curtain*/
+    /*Menu of pages*/
 
 
         '001-introduction': 'Introduction',
@@ -109,6 +112,7 @@ const translations = {
         '007-construction': 'Construction d\'éco-briques',
         '008-about-us': 'À propos de nous',
         '009-plastic-sequestration': 'Séquestration du plastique',
+
 
 /*  INTERFACE CURTAINS  */
 
@@ -122,18 +126,20 @@ const translations = {
 
         /* Subscribtion Curtain */
 
-        '105-subscription-registration': 'Inscription à la Newsletter',
-        '106-hide-subscription-registration': 'Masquer l\'inscription à la Newsletter',
-        '107-hide-subscription-image-alt': 'Masquer l\'inscription à la Newsletter d\'Ecobricks en terre',
-        '108-subscription-image-alt-desktop': 'Inscription à la Newsletter d\'Ecobricks en terre',
-        '109-subscription-image-alt-mobile': 'Inscription à la Newsletter d\'Ecobricks en terre',
-        '110-subscription-title': 'Abonnez-vous à Earthen',
-        '111-subscription-subtitle': 'Suivez nos innovations régénératives en vous abonnant à notre newsletter Earthen sur Ecobricks.org.',
-        '112-subscription-email-placeholder': 'Votre e-mail...',
-        '113-subscription-name-placeholder': 'Votre nom...',
-        '114-subscription-caption': 'Nous envoyons une newsletter environ une fois par mois.',
-        '115-subscription-do-not-show-again': 'Je me suis déjà inscrit ou je ne suis pas intéressé - ne plus afficher',
-
+        "105-subscription-registration": "",
+        "106-hide-subscription-registration": "",
+        "107-hide-subscription-image-alt": "Masquer l'inscription à la newsletter Earthen",
+        "108-subscription-image-alt-desktop": "Inscription à la newsletter Earthen Ecobrick",
+        "110-subscription-title": "Abonnez-vous à Earthen",
+        "111-subscription-subtitle": "Suivez notre travail régénératif et nos actualités en vous abonnant à notre newsletter Earthen.",
+        "112-subscription-email-placeholder": "Votre e-mail...",
+        "113-subscription-name-placeholder": "Votre nom...",
+        "114-subscription-caption": "Nous envoyons une nouvelle fois par mois ou selon <a href=\"javascript:void(0)\" onclick=\"previewPrivacy()\">notre stricte politique de confidentialité</a>.",
+        "115-subscription-do-not-show-again": "Je me suis déjà inscrit ou je ne suis pas intéressé - ne plus afficher",
+        "116-privacy-title": "Vos données sont en sécurité",
+        "117-privacy-subtitle": "En tant qu'entreprise terrestre à but non lucratif, nous ne participons en principe à aucune publicité tierce, ni ne connectons vos données à des plateformes sociales qui le font. Vos données ne seront ni vendues ni échangées. Nous utilisons fièrement la plateforme open source Ghost.org pour notre newsletter, que nous hébergeons sur nos propres serveurs. Nos newsletters sont envoyées généralement une fois par mois, nous nous engageons à ne pas dépasser plus d'une par semaine.",
+        "118-full-privacy-link": "Notre politique complète",
+      
         /* Guided Tour Curtain */
 
         '200-tour-1-header-welcome': 'Bienvenue sur Ecobricks.org !',
@@ -193,17 +199,20 @@ const translations = {
 
          /* Subscribtion Curtain */
 
-         '105-subscription-registration': 'Inscripción al Boletín',
-         '106-hide-subscription-registration': 'Ocultar Inscripción al Boletín',
-         '107-hide-subscription-image-alt': 'Ocultar inscripción al boletín de Ecobricks de tierra',
-         '108-subscription-image-alt-desktop': 'Inscripción al Boletín de Ecobricks de tierra',
-         '109-subscription-image-alt-mobile': 'Inscripción al Boletín de Ecobricks de tierra',
-         '110-subscription-title': 'Suscríbete a Earthen',
-         '111-subscription-subtitle': 'Sigue nuestras innovaciones regenerativas suscribiéndote a nuestro boletín Earthen de Ecobricks.org.',
-         '112-subscription-email-placeholder': 'Tu correo electrónico...',
-         '113-subscription-name-placeholder': 'Tu nombre...',
-         '114-subscription-caption': 'Enviamos noticias una vez al mes o así.',
-         '115-subscription-do-not-show-again': 'Ya me he inscrito o no estoy interesado - no mostrar de nuevo',
+         "105-subscription-registration": "",
+         "106-hide-subscription-registration": "",
+         "107-hide-subscription-image-alt": "Ocultar el registro al boletín de Earthen",
+         "108-subscription-image-alt-desktop": "Registro al boletín de Earthen Ecobrick",
+         "110-subscription-title": "Suscríbete a Earthen",
+         "111-subscription-subtitle": "Sigue nuestro trabajo regenerativo y noticias suscribiéndote a nuestro boletín de Earthen.",
+         "112-subscription-email-placeholder": "Tu correo electrónico...",
+         "113-subscription-name-placeholder": "Tu nombre...",
+         "114-subscription-caption": "Enviamos noticias una vez al mes o según <a href=\"javascript:void(0)\" onclick=\"previewPrivacy()\">nuestra estricta política de privacidad</a>.",
+         "115-subscription-do-not-show-again": "Ya me he registrado o no estoy interesado - no mostrar de nuevo",
+         "116-privacy-title": "Tus datos están seguros",
+         "117-privacy-subtitle": "Como una empresa terrestre sin ánimo de lucro, en principio no participamos en ninguna publicidad de terceros, ni conectamos tus datos a plataformas sociales que lo hacen. Tus datos no serán vendidos ni intercambiados. Nos enorgullece utilizar la plataforma de código abierto Ghost.org para nuestro boletín, que alojamos en nuestros propios servidores. Nuestros boletines se envían generalmente una vez al mes, nos comprometemos a no exceder más de uno por semana.",
+         "118-full-privacy-link": "Nuestra Política Completa",
+       
      
 
         /*Search Curtain*/
@@ -271,18 +280,19 @@ const translations = {
 
          /* Subscribtion Curtain */
 
-         '105-subscription-registration': 'Registrasi Newsletter',
-         '106-hide-subscription-registration': 'Sembunyikan Registrasi Newsletter',
-         '107-hide-subscription-image-alt': 'Sembunyikan registrasi newsletter Ecobrick Bumi',
-         '108-subscription-image-alt-desktop': 'Registrasi Newsletter Ecobrick Bumi',
-         '109-subscription-image-alt-mobile': 'Registrasi Newsletter Ecobrick Bumi',
-         '110-subscription-title': 'Berlangganan ke Earthen',
-         '111-subscription-subtitle': 'Ikuti inovasi regeneratif kami dengan berlangganan ke newsletter Earthen dari Ecobricks.org.',
-         '112-subscription-email-placeholder': 'Email Anda...',
-         '113-subscription-name-placeholder': 'Nama Anda...',
-         '114-subscription-caption': 'Kami mengirimkan buletin berbahasa Inggris sebulan sekali',
-         '115-subscription-do-not-show-again': 'Saya sudah mendaftar atau saya tidak tertarik - jangan tampilkan lagi',
-     
+         "105-subscription-registration": "",
+         "106-hide-subscription-registration": "",
+         "107-hide-subscription-image-alt": "Sembunyikan pendaftaran newsletter Earthen",
+         "108-subscription-image-alt-desktop": "Pendaftaran newsletter Earthen Ecobrick",
+         "110-subscription-title": "Berlangganan ke Earthen",
+         "111-subscription-subtitle": "Ikuti pekerjaan regeneratif kami dan berita terbaru dengan berlangganan newsletter Earthen kami.",
+         "112-subscription-email-placeholder": "Email Anda...",
+         "113-subscription-name-placeholder": "Nama Anda...",
+         "114-subscription-caption": "Kami mengirimkan berita sekali setiap bulan atau sesuai dengan <a href=\"javascript:void(0)\" onclick=\"previewPrivacy()\">kebijakan privasi ketat kami</a>.",
+         "115-subscription-do-not-show-again": "Saya sudah mendaftar atau saya tidak tertarik - jangan tampilkan lagi",
+         "116-privacy-title": "Data Anda Aman",
+         "117-privacy-subtitle": "Sebagai usaha bumi non-profit, kami secara prinsip tidak mengambil bagian dalam iklan pihak ketiga, atau menghubungkan data Anda ke platform sosial yang melakukannya. Data Anda tidak akan dijual atau ditukar. Kami dengan bangga menggunakan platform open source Ghost.org untuk newsletter kami, yang kami host di server kami sendiri. Newsletter kami biasanya dikirim sekali sebulan, kami berkomitmen untuk tidak melebihi lebih dari satu per minggu.",
+         "118-full-privacy-link": ">Kebijakan Privasi Lengkap",
 
 
         /*Search Curtain*/

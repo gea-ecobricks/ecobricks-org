@@ -188,6 +188,12 @@
 
 }
 
+.registration-footer-holder {
+background: url(webp/earthen-subscription-background-dark.webp) top right, var(--side-overlays);
+background-repeat: no-repeat;
+background-size: contain;
+}
+
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;
     background-size: contain;

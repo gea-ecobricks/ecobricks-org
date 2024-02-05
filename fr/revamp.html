@@ -101,6 +101,8 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=2>">
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css">
+<link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css">
+
 
 
 <meta property="og:site_name" content="Ecobricks.org">
@@ -1792,7 +1794,7 @@ text-align: center;
 
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script>
-<script src="https://api.earthen.io/subscription-system.js"></script>
+<script src="https://api.earthen.io/subscription-system.js?v=1"></script>
 <script src="https://api.earthen.io/core-functions.js"></script>
 
 
@@ -1811,9 +1813,10 @@ text-align: center;
 /*ROLL CALL*/
 
 window.onload = function() {
+    var siteName = 'Ecobricks.org'; // Default language code
   var currentLanguage = 'fr'; // Default language code
   switchLanguage('fr')
-updateLogoColor(); 
+    updateLogoColor(); 
 
 }
 </script>
@@ -2002,10 +2005,13 @@ updateLogoColor();
             <div id="email-registration">
                 <div class="registration-box">
                     <div class="reg-img">
-                        <img src="../svgs/earth-home-animated-v4.svg" data-lang-id="108-subscription-image-alt-desktop" class="desktop" height="200" width="200" alt="Earthen Ecobrick Newsletter subscription">
+                        <img src="../svgs/subscription-side-image.svg" data-lang-id="108-subscription-image-alt-desktop" class="desktop" height="200" width="200" alt="Earthen Ecobrick Newsletter subscription">
                       <!-- <img src="../svgs/richard-and-team-night.svg" data-lang-id="109-subscription-image-alt-mobile" class="mobile" height="140" width="200" alt="Earthen Ecobrick Newsletter subscription"> -->
                     </div>
-                    <div class="reg-texts" style="display:none;">
+
+                    <!--REGISTRATION TEXTS-->
+
+                    <div id="reg-registration-texts">
                         <div class="reg-header" data-lang-id="110-subscription-title">Subscribe to Earthen</div>
                         <div class="reg-subtitle" data-lang-id="111-subscription-subtitle">Follow our regenerative work and news by subscribing to our Earthen newsletter.</div>
                       
@@ -2017,7 +2023,7 @@ updateLogoColor();
                         <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleFormSubmit(event)">
                         </form>
                         <div class="reg-sub">
-                            <div id="reg-explanation" data-lang-id="114-subscription-caption">We send out a news once every month or so according to our strict privacy policy.</div>
+                            <div id="reg-explanation" data-lang-id="114-subscription-caption">We send out a news once every month or so according to <a href="javascript:void(0)" onclick="previewPrivacy()">our strict privacy policy</a>.</div>
                             <div id="reg-sub-checker">
                                 <input type="checkbox" id="reg-sub-checkbox" onclick="checkBoxActivated()">
                                 <label for="reg-sub-checkbox" data-lang-id="115-subscription-do-not-show-again">I've already signed up or I am not interested - don't show again</label>
@@ -2027,11 +2033,12 @@ updateLogoColor();
 
                     <!--PRAVACY STATEMENT-->
 
-                    <div class="reg-texts">
+                    <div id="reg-privacy-texts">
                         <div class="reg-header" data-lang-id="116-privacy-title">Your Data is Safe</div>
-                        <div class="reg-subtitle" style="font-size:normal;"data-lang-id="111-privacy-subtitle">As a not-for-profit Earth enterprise on principle we do partake in any 3rd party advertising, nor connect your data to social platforms that do.  Your data will not be sold or exchanged.  We proudly use Ghost.org's for our newsletter-- a not-for-profit open source platform which we host on our own servers.  Our newsletters are sent usually once a month, we commit to not exceeding more than one a week.</div>
-                        <button class="btn" style="height: 30px" type="button">OK</button>
-                      
+                        <div class="reg-subtitle" data-lang-id="117-privacy-subtitle">As a not-for-profit Earth enterprise on principle we do partake in any 3rd party advertising, nor connect your data to social platforms that do.  Your data will not be sold or exchanged.  We proudly use Ghost.org's for our newsletter-- a not-for-profit open source platform which we host on our own servers.  Our newsletters are sent usually once a month, we commit to not exceeding more than one a week.</div>
+                        <div style="display:flex; flex-flow:row;width:fit-content;margin:-10px 10% 0px auto;">
+                            <div style="width:fit-content;font-size:small;padding:10px 15px 10px 15px;"><p><a href="privacy-policy.php" data-lang-id="118-full-privacy-link">Our Full Privacy Policy</a></p></div>
+                            <button class="btn" onclick="previewPrivacy()" style="height:fit-content; padding:10px 15px 10px 15px;border-radius:10px;" type="button" aria="Go back to registration">OK</button>                      
                         </div>
                     </div>
 
@@ -2496,83 +2503,42 @@ updateLogoColor();
 <script>
 
 
-function clearSiteCache() {
-    // Translations for the confirm message
-    const confirmMessages = {
-        en: 'Do you wish to delete your language and site settings for ecobricks.org?',
-        fr: 'Souhaitez-vous supprimer vos paramètres de langue et de site pour ecobricks.org?',
-        es: '¿Desea eliminar la configuración de idioma y sitio para ecobricks.org?',
-        id: 'Apakah Anda ingin menghapus pengaturan bahasa dan situs untuk ecobricks.org?'
-    };
+// function clearSiteCache() {
+//     // Translations for the confirm message
+//     const confirmMessages = {
+//         en: 'Do you wish to delete your language and site settings for ecobricks.org?',
+//         fr: 'Souhaitez-vous supprimer vos paramètres de langue et de site pour ecobricks.org?',
+//         es: '¿Desea eliminar la configuración de idioma y sitio para ecobricks.org?',
+//         id: 'Apakah Anda ingin menghapus pengaturan bahasa dan situs untuk ecobricks.org?'
+//     };
 
-    // Translations for the alert message
-    const alertMessages = {
-        en: 'All site cache items are now cleared.',
-        fr: 'Tous les éléments du cache du site sont maintenant effacés.',
-        es: 'Todos los elementos en caché del sitio ahora están borrados.',
-        id: 'Semua item cache situs sekarang dibersihkan.'
-    };
+//     // Translations for the alert message
+//     const alertMessages = {
+//         en: 'All site cache items are now cleared.',
+//         fr: 'Tous les éléments du cache du site sont maintenant effacés.',
+//         es: 'Todos los elementos en caché del sitio ahora están borrados.',
+//         id: 'Semua item cache situs sekarang dibersihkan.'
+//     };
 
-    // Check the currentLanguage global variable, default to 'en' if undefined
-    const language = window.currentLanguage || 'en';
+//     // Check the currentLanguage global variable, default to 'en' if undefined
+//     const language = window.currentLanguage || 'en';
 
-    // Use confirm message based on currentLanguage or default to English
-    const confirmMessage = confirmMessages[language] || confirmMessages.en;
+//     // Use confirm message based on currentLanguage or default to English
+//     const confirmMessage = confirmMessages[language] || confirmMessages.en;
 
-    // Show confirm dialog
-    if (confirm(confirmMessage)) {
-        // Clear local storage if user confirms
-        localStorage.clear();
+//     // Show confirm dialog
+//     if (confirm(confirmMessage)) {
+//         // Clear local storage if user confirms
+//         localStorage.clear();
 
-        // Use alert message based on currentLanguage or default to English
-        const alertMessage = alertMessages[language] || alertMessages.en;
+//         // Use alert message based on currentLanguage or default to English
+//         const alertMessage = alertMessages[language] || alertMessages.en;
 
-        // Show alert dialog
-        alert(alertMessage);
-    }
-}
+//         // Show alert dialog
+//         alert(alertMessage);
+//     }
+// }
 
-
-function changeLanguage(langCode) {
-    currentLanguage = langCode; // Set the global variable
-    switchLanguage(currentLanguage); // Now call switchLanguage with the new currentLanguage
-}
-
-function switchLanguage(currentLanguage) {
-    const elements = document.querySelectorAll('[data-lang-id]');
-    elements.forEach(element => {
-        const langId = element.getAttribute('data-lang-id');
-        const translation = translations[currentLanguage][langId];
-        if (translation) {
-            // Check for input elements to update their placeholders
-            if (element.tagName.toLowerCase() === 'input' && element.type !== 'submit') {
-                element.placeholder = translation;
-            } else {
-                // For other elements, including buttons, update innerHTML/textContent or aria-label as needed
-                if (element.hasAttribute('aria-label')) {
-                    // Update aria-label for accessibility
-                    element.setAttribute('aria-label', translation);
-                } else if (element.tagName.toLowerCase() !== 'img') {
-                    // Continue with existing innerHTML/textContent logic for non-img elements
-                    if (element.innerHTML.match(/<\/?[a-z][\s\S]*>/i)) {
-                        const parser = new DOMParser();
-                        const doc = parser.parseFromString(translation, 'text/html');
-                        Array.from(element.childNodes).forEach((child, index) => {
-                            if (child.nodeType === 3) { // Node.TEXT_NODE
-                                child.textContent = doc.body.childNodes[index].textContent;
-                            }
-                        });
-                    } else {
-                        element.textContent = translation;
-                    }
-                } else {
-                    // Update alt text for img elements
-                    element.alt = translation;
-                }
-            }
-        }
-    });
-}
 
 
 
