@@ -236,6 +236,9 @@ RedirectMatch "^about" "about.php"
 RedirectMatch "^/what" "/en/what.php"
 RedirectMatch "^/what/" "/en/what.php"
 
+RedirectMatch "^/how" "/en/how.php"
+RedirectMatch "^/how/" "/en/how.php"
+
 RedirectMatch "^/media" "/en/media.php"
 RedirectMatch "^/media/" "/en/media.php"
 RedirectMatch "^/media.php/" "/en/media.php"
