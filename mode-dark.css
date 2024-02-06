@@ -4,14 +4,15 @@
 
 :root {
 
-  --main-background:  rgb(13, 15, 26);
+  /* --main-background:  rgb(13, 15, 26); */
+  --main-background: #21232f;
   --h1: #fff;
   --same: black;
   --text-color: #c0c5e1ff;
   --subdued-text: rgb(158, 162, 184);
   --logo-color: rgb(213, 213, 213);
   --top-header: #21232f;
-  --header-accent: #a0c0d2fe;
+  --header-accent: #2e4958fe;
   --settings-background: rgb(24, 26, 38);
   --settings-border: rgb(24, 26, 38);
   --emblem-pink: #a93aa9;
@@ -39,7 +40,6 @@
     --login: rgba(28, 31, 38, 0.7);
     --general-background-highlight: rgb(33, 33, 39); /*obsolete?*/
     --deeper-accent:  rgb(14, 14, 16);
-    --header-accent: #a0c0d2fe;
     --button-1-1: #2d2d85;
     --button-1-1-over: #26266b;
     --button-1-2: #2929b5;
@@ -188,11 +188,7 @@
 
 }
 
-.registration-footer-holder {
-background: url(webp/earthen-subscription-background-dark.webp) top right, var(--side-overlays);
-background-repeat: no-repeat;
-background-size: contain;
-}
+
 
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;

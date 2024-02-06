@@ -177,7 +177,7 @@ const translations = {
   
         /*General Texts*/
         '1000-learn-more': 'Apprendre encore plus',
-        '1001-what-are-ecobricks': 'Que sont les écobriques?',
+        '1001-what-are-ecobricks': 'Introduction',
         '1002-faqs-button': 'FAQ',
         '1003-reset-preferences': '❌ réinitialiser le site'
 

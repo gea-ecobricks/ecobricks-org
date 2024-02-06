@@ -1992,7 +1992,9 @@ window.onload = function() {
     </div>  
 
 
-    <div id="registration-footer">
+    <div id="registration-footer" style="opacity:0;">
+
+
       <div class="reg-top-section">
           <button id="reg-up-button"  onclick="sendUpRegistration()" aria-label="Newsletter Registration" data-lang-id="105-subscription-registration"></button>
       </div>
@@ -2022,8 +2024,11 @@ window.onload = function() {
                         <div class="reg-complete-text" id="reg-status"></div>
                         <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleFormSubmit(event)">
                         </form>
-                        <div class="reg-sub">
+                        <div class="reg-sub" style="flex-flow: row;">
+                            <div class="earthen-icon"></div>
                             <div id="reg-explanation" data-lang-id="114-subscription-caption">We send out a news once every month or so according to <a href="javascript:void(0)" onclick="previewPrivacy()">our strict privacy policy</a>.</div>
+                        </div>
+                        <div class="reg-sub" style="flex-flow: row;">
                             <div id="reg-sub-checker">
                                 <input type="checkbox" id="reg-sub-checkbox" onclick="checkBoxActivated()">
                                 <label for="reg-sub-checkbox" data-lang-id="115-subscription-do-not-show-again">I've already signed up or I am not interested - don't show again</label>
@@ -2035,9 +2040,9 @@ window.onload = function() {
 
                     <div id="reg-privacy-texts">
                         <div class="reg-header" data-lang-id="116-privacy-title">Your Data is Safe</div>
-                        <div class="reg-subtitle" data-lang-id="117-privacy-subtitle">As a not-for-profit Earth enterprise on principle we do partake in any 3rd party advertising, nor connect your data to social platforms that do.  Your data will not be sold or exchanged.  We proudly use Ghost.org's for our newsletter-- a not-for-profit open source platform which we host on our own servers.  Our newsletters are sent usually once a month, we commit to not exceeding more than one a week.</div>
+                        <div class="reg-privacy-subtitle" data-lang-id="117-privacy-subtitle">As a not-for-profit Earth enterprise on principle we do partake in any 3rd party advertising, nor connect your data to social platforms that do.  Your data will not be sold or exchanged.  We proudly use Ghost.org's for our newsletter-- a not-for-profit open source platform which we host on our own servers.  Our newsletters are sent usually once a month, we commit to not exceeding more than one a week.</div>
                         <div style="display:flex; flex-flow:row;width:fit-content;margin:-10px 10% 0px auto;">
-                            <div style="width:fit-content;font-size:small;padding:10px 15px 10px 15px;"><p><a href="privacy-policy.php" data-lang-id="118-full-privacy-link">Our Full Privacy Policy</a></p></div>
+                            <div style="width:fit-content;font-size:smaller;padding:10px 15px 10px 15px;"><p><a href="privacy-policy.php" data-lang-id="118-full-privacy-link">Our Full Privacy Policy</a></p></div>
                             <button class="btn" onclick="previewPrivacy()" style="height:fit-content; padding:10px 15px 10px 15px;border-radius:10px;" type="button" aria="Go back to registration">OK</button>                      
                         </div>
                     </div>
@@ -2328,11 +2333,7 @@ window.onload = function() {
 </div>
     
 
-    <div id="footer">
-        <div id="reg-side-triangle" style="background-color:grey;width:30px;margin:auto 0px 0px auto;height:30px;"></div>
-        <div id="progress-bar"></div>
-        
-    </div>
+
 
     
   
@@ -2447,11 +2448,11 @@ window.onload = function() {
                         </div>
                             
                     </div>
-                                
+<!--                                 
                     <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
                     
                     <div id="wcb" class="carbonbadge wcb-d"></div>
-                                    
+                                     -->
                                     <br><br>
                             
                     
@@ -2565,7 +2566,9 @@ window.onload = function() {
 
         function scrollLessThan40() {
     if (window.pageYOffset <= 40) {
-        document.getElementById("header").style.height = "150px";
+        document.getElementById("header").style.height = "110px";
+        document.getElementById("header").style.borderBottom = "none";
+        document.getElementById("header").style.boxShadow = "none";
         document.getElementById("main").style.marginTop = "40px";
         document.getElementById("gea-logo").style.width = "250px";
         document.getElementById("gea-logo").style.height = "56px";
@@ -2575,8 +2578,9 @@ window.onload = function() {
         document.getElementById("settings-buttons").style.marginRight = "0px"; 
         document.getElementById("settings-buttons").style.padding = "16px 50px 16px 20px";
         document.getElementById("main-header-buttons").style.marginTop = "0px";  
-        document.getElementById("language-menu-slider").style.top = "50px";  
-        document.getElementById("login-menu-slider").style.top = "50px";  
+        document.getElementById("language-menu-slider").style.top = "0px";  
+        document.getElementById("login-menu-slider").style.top = "0px";  
+        document.getElementById("registration-footer").style.opacity = "0";  
 
 
 
@@ -2586,6 +2590,8 @@ window.onload = function() {
 function scrollMoreThan40() {
     if (window.pageYOffset >= 40) {
         document.getElementById("header").style.height = "70px";
+        document.getElementById("header").style.borderBottom = "var(--header-accent) 0.5px solid";
+        document.getElementById("header").style.boxShadow = "0px 0px 15px rgba(0, 0, 10, 0.805)";
         document.getElementById("main").style.marginTop = "0px";
         document.getElementById("gea-logo").style.width = "190px";
         document.getElementById("gea-logo").style.height = "40px";
@@ -2595,6 +2601,7 @@ function scrollMoreThan40() {
         document.getElementById("main-header-buttons").style.marginTop = "-5px";  
         document.getElementById("language-menu-slider").style.top = "-30px";  
         document.getElementById("login-menu-slider").style.top = "-30px";  
+        document.getElementById("registration-footer").style.opacity = "1";  
 
 
 
@@ -2602,36 +2609,12 @@ function scrollMoreThan40() {
 }
 
 
-        function showHideHeader() {
-            let currentScrollPos = window.pageYOffset;
-            if (currentScrollPos > 500) {
-                if (lastScrollTop > currentScrollPos) {
-                    // Scroll up - show header
-                    document.getElementById("header").style.height = "20vh";
-                    document.getElementById("main").style.marginTop = "20vh";
-                    document.getElementById("gea-logo").style.width = "250px";
-        document.getElementById("gea-logo").style.height = "56px";
-        document.getElementById("gea-logo").style.backgroundImage = "../logos/gea-logo-full-dark.svg";
-                    
+ 
 
-                    document.getElementById("header").style.top = "0";
-                    document.getElementById("header").style.transform = "translateY(0)";
-                } else {
-                    // Scroll down - partially hide header
-                    document.getElementById("header").style.height = "10vh";
-                    document.getElementById("main").style.marginTop = "10vh";
-
-                    document.getElementById("header").style.top = "0";
-                    document.getElementById("header").style.transform = "translateY(0)";
-                }
-            }
-            lastScrollTop = currentScrollPos;
-        }
-
-        function pageMeasureBar() {
-            let scrollPercentage = (window.pageYOffset / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-            document.getElementById("progress-bar").style.width = scrollPercentage + "%";
-        }
+function pageMeasureBar() {
+        let scrollPercentage = (window.pageYOffset / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+        document.getElementById("progress-bar").style.width = scrollPercentage + "%";
+    }
 
 
     

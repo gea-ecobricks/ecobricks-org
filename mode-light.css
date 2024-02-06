@@ -9,7 +9,10 @@
     --text-color: #242424;
     --subdued-text: #454545;
     --logo-color: #666;
-    --settings-background: rgb(220, 220, 222);
+    --top-header: #fff;    
+    --header-accent: rgb(133, 133, 133);
+
+    --settings-background: rgb(213, 213, 213);
     --settings-border: rgb(220, 220, 222);
     --emblem-pink: #a93aa9;
     --emblem-blue: #329bb8;
@@ -30,13 +33,11 @@
 
     --side-overlays: rgb(225, 225, 225);
     --slide-highlight: rgb(212, 212, 213);
-    --top-header: #fff;
-    --text-color: #242424;
+
     --h1: black;
     --general-background: rgb(252, 252, 252);
     --general-background-highlight: rgb(234, 234, 234);
     --deeper-accent: rgb(148, 148, 148);
-    --header-accent: rgb(93, 93, 93);
     --button-1-1: #4646cf;
     --button-1-1-over: #5b5bf6;
     --button-1-2: #3b3baf;
@@ -180,11 +181,7 @@
   
 }
 
-.registration-footer-holder {
-  background: url(webp/earthen-subscription-background-light.webp) top center, var(--top-header);
-  background-repeat: no-repeat;
-  background-size: contain;
-  }
+
 
 
 /* #logo-ecobricks-org, #logo-global-ecobrick-alliance {
