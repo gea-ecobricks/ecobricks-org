@@ -99,6 +99,21 @@ window.onload = function() {
 </script>
 
 
+
+
+
+<script src="translations/en-welcome-translations.js"></script>
+<script src="translations/es-welcome-translations.js"></script>
+<script src="translations/fr-welcome-translations.js"></script>
+<script src="translations/id-welcome-translations.js"></script>
+
+
+<script src="../guided-tour.js"></script>
+
+<script src="../site-search.js?v=5"></script>
+
+<script src="../core-scripts-2024.js"></script>
+
 <!-- Inline styling to lay out the most important part of the page for first load view-->
 
 <STYLE>
