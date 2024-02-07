@@ -27,21 +27,15 @@
 
 
 
-<!--This loads CSS specific to the landing page
-<link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/welcome.css?v1.3">-->
-
 <!-- This loads the page's meta tags:  *be sure to add the page's name!*-->
 <?php require_once ("../meta/welcome-$lang.php");?>
 
 <!--This loads the page's header-->
 
-<?php require_once ("../header2.php");?>
+<?php require_once ("../header22.php");?>
 
 
-<STYLE>
 
-
-</STYLE>
 
 </HEAD>
 
