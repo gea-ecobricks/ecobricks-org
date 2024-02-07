@@ -26,7 +26,7 @@ https://github/globalecobrickalliance/ecobricks.org
       <div class="featured-content-title" data-lang-id="300-featured-content-1-title">2024 Ecobricking Guidelines</div>
       <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle" >Fully updated 10-Step guide for the new year</div>
 
-      <button class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more" >Learn More</button>
+      <a class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more">Learn More</a>
     </div>
   </div>
 </div>
