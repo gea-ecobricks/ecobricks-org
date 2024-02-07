@@ -1297,6 +1297,7 @@ GUIDED TOUR---*
     border: none;
     margin-top: auto; 
     color: var(--text-color);
+    cursor: pointer;
 }
 
 .lang-selector:hover {
@@ -1349,6 +1350,7 @@ GUIDED TOUR---*
     text-align: center;
     font-size: 0.9em;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .login-selector:hover {
