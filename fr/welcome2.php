@@ -11,20 +11,16 @@ Developed and made open source by the Global Ecobrick Alliance
 See our git hub repository for the full code and to help out:
 https://github/globalecobrickalliance/ecobricks.org
 -->
- 
-<?php require_once ("../includes/welcome-inc2.php");?>
-
 <?php require_once ("lang.php");?>
 
 <?php $lang='fr';?>
 
-<?php require_once ("../includes/welcome-inc.php");?>
+<?php require_once ("../includes/welcome-inc2.php");?>
 
+</HEAD>
 
 <!--MAIN CONTENT-->
 		
-
-
 <BODY>
 
 

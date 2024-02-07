@@ -9,21 +9,23 @@
 
 <!-- for light mode -->
 
-<link rel="preload" as="image" href="../icons/search-day.svg">
-<link rel="preload" as="image" href="../icons/search-day-over.svg">
-<link rel="preload" as="image" href="../icons/main-menu-over.svg">
-<link rel="preload" as="image" href="../icons/main-menu.svg">
-<link rel="preload" as="image" href="../icons/settings-icon.svg">
-<link rel="preload" as="image" href="../icons/settings-icon-over.svg">
+<link rel="preload" as="image" href="../icons/search-day.svg" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="../icons/search-day-over.svg" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="../icons/main-menu-over.svg" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="../icons/main-menu.svg" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="../icons/settings-icon.svg" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="../icons/settings-icon-over.svg" media="(prefers-color-scheme: light)">
+
 
 
 <!-- for dark  mode -->
-<link rel="preload" as="image" href="../icons/search-night.svg">
-<link rel="preload" as="image" href="../icons/search-night-over.svg">
-<link rel="preload" as="image" href="../icons/main-menu-night.svg">
-<link rel="preload" as="image" href="../icons/main-menu-dark-over.svg">
-<link rel="preload" as="image" href="../icons/settings-icon-dark.svg">
-<link rel="preload" as="image" href="../icons/settings-icon-over-dark2.svg">
+<link rel="preload" as="image" href="../icons/search-night.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="../icons/search-night-over.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="../icons/main-menu-night.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="../icons/main-menu-dark-over.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="../icons/settings-icon-dark.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="../icons/settings-icon-over-dark2.svg" media="(prefers-color-scheme: dark)">
+
 
 
 
