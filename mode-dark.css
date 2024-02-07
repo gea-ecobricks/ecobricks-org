@@ -171,7 +171,7 @@
 
 .earthservice-pic {
   background: url(svgs/earth-service-animation.svg) no-repeat center;
-  background-size: cover;
+  background-size: contain;
   margin-top:15px;
   margin-bottom:-10px;
 }

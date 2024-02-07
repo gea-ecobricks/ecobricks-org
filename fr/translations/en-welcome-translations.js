@@ -16,7 +16,7 @@ ENGLISH SNIPPETS FOR ECOBRICKS.ORG
 
 
 const en_Translations = {
-    
+
     'en': {
 
         /*Menu of pages curtain*/
@@ -102,6 +102,10 @@ const en_Translations = {
             '308-featured-3-button': 'Ecobrick Building', 
             '309-featured-3-references': '<a href="earth.php">Earth Building</a> | <a href="/earth-methods">Earth Methods</a> | <a href="/modules">Furniture Modules</a> | <a href="/spiral">Spiral Design</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a>',
      
+  '310-featured-4-heading': 'Following Earth\'s Example',
+    '311-featured-4-subheading': 'Regenerative ecobricking arose ten years ago out of the land of the Igorot people in the Northern Philippines. Inspired by their Ayyew ecological ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste. Instead, all our methods and applications are designed from the ground up to follow Earth\'s example.',
+    '312-featured-4-button': 'Our Earthen Principles',
+    '313-featured-4-references': '<a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew</a> | <a href="/about">About Us</a> | <a href="/story/">History</a>',
 
 
         /*General Texts*/

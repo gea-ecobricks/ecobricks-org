@@ -18,7 +18,6 @@ SPANISH SNIPPETS FOR ECOBRICKS.ORG
 const es_Translations = {
   
    
-    'es': {
 
         /*Menu of pages curtain*/
 
@@ -96,7 +95,9 @@ const es_Translations = {
        '308-featured-3-button': 'Construcción con Ecobricks',
        '309-featured-3-references': '<a href="earth.php">Construcción con Tierra</a> | <a href="/earth-methods">Métodos con Tierra</a> | <a href="/modules">Módulos de Muebles</a> | <a href="/spiral">Diseño en Espiral</a> | <a href="/openspaces">Espacios Abiertos</a> | <a href="/fire">Seguridad contra Incendios</a>',
    
-
+       '311-featured-4-subheading': 'El ecobrickeo regenerativo surgió hace diez años en la tierra del pueblo Igorot en el norte de Filipinas. Inspirado en su ethos ecológico Ayyew, el ecobrickeo es fundamentalmente distinto de los conceptos occidentales de sostenibilidad y cero residuos. En cambio, todos nuestros métodos y aplicaciones están diseñados desde cero para seguir el ejemplo de la Tierra.',
+       '312-featured-4-button': 'Nuestros Principios Terrenales',
+       '313-featured-4-references': '<a href="spiral.php">Diseño Espiral</a> | <a href="/ayyew/">Ayyew</a> | <a href="/about">Sobre Nosotros</a> | <a href="/story/">Historia</a>',   
    
 
         /*General Texts*/
@@ -104,7 +105,5 @@ const es_Translations = {
         '1001-what-are-ecobricks': '¿Qué son los ecobricks?',
         '1002-faqs-button': 'FAQ',
         '1003-reset-preferences': '❌ Reiniciar preferencias'
-
-    },
 
 }

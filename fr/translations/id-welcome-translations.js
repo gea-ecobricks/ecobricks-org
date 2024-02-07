@@ -18,9 +18,6 @@ INDONESIAN SNIPPETS FOR ECOBRICKS.ORG
 const id_Translations = {
   
    
-     
-    'id': {
-
         /*Menu of pages curtain*/
    
    
@@ -97,7 +94,12 @@ const id_Translations = {
            '308-featured-3-button': 'Bangunan Ecobrick',
            '309-featured-3-references': '<a href="earth.php">Bangunan Bumi</a> | <a href="/earth-methods">Metode Bumi</a> | <a href="/modules">Modul Furnitur</a> | <a href="/spiral">Desain Spiral</a> | <a href="/openspaces">Ruang Terbuka</a> | <a href="/fire">Keamanan Kebakaran</a>',
        
-    
+           '310-featured-4-heading': 'Mengikuti Contoh Bumi',
+           '311-featured-4-subheading': 'Ecobricking regeneratif muncul sepuluh tahun yang lalu dari tanah orang Igorot di Filipina Utara. Terinspirasi oleh ethos ekologis Ayyew mereka, ecobricking secara mendasar berbeda dari konsep keberlanjutan dan nol-sampah Barat. Sebaliknya, semua metode dan aplikasi kami dirancang dari dasar untuk mengikuti contoh Bumi.',
+           '312-featured-4-button': 'Prinsip-prinsip Bumi Kami',
+           '313-featured-4-references': '<a href="spiral.php">Desain Spiral</a> | <a href="/ayyew/">Ayyew</a> | <a href="/about">Tentang Kami</a> | <a href="/story/">Sejarah</a>',
+           
+           
            /*General Texts*/
            '1000-learn-more': 'Belajarlah lagi',
            '1001-what-are-ecobricks': 'Apa itu ecobricks?',
@@ -105,6 +107,4 @@ const id_Translations = {
            '1003-reset-preferences': '❌ Reiniciar preferencias'
            
    
-       }
-
 }
