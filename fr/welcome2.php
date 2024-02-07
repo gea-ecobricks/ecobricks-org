@@ -440,80 +440,6 @@ https://github/globalecobrickalliance/ecobricks.org
 
   
 
-  <!-- TOP TEN SLIDER-->
-
-  <!--
-
-    <?php include 'ecobricks_env.php';?> 
-
-			<div class="gallery10-content-block">
-								
-				<div class="flex-container10">
-						
-					<?php
-					$sql = "SELECT * FROM vw_top_10_last_month ;";
-					$result = $conn->query($sql);
-					if ($result->num_rows > 0) {
-					// output data of each row
-					while($row = $result->fetch_assoc()) {
-
-					echo '
-					<div class="gal-photo10">
-					<a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' par '.$row["ecobrick_owner"].' dans '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' dans '.$row["location"].'" loading="lazy"/></a>';
-					echo '<div class="gal10-photo-text"><b>Ecobrick '.$row["ecobrick_unique_id"].'</b><br>Par '.$row["ecobrick_owner"].'<br>'.$row["location"].'</div></div>';
-
-					}
-
-					} else {
-					echo "Échec de la connexion à la base de données Brikchain";
-					}
-
-					?>
-							
-				</div>
-		
-			</div>
-  -->
-<!-- 
-  <div class="blue-back" style="background: #0ff;width:100%;">
-		
-    <div class="clouds-new">
-
-
-
-  
-      <div class="main-content" style="padding-bottom: 90px; padding-top:15px">
-    
-        <div class="big-header">This Month's Top Ecobricks</div>
-        <div class="sub-text"><p>Every month thousands of ecobricks are logged and peer reviewed.  See the ten ecobricks that received the highest authentication scores this past month.</p>
-        </div> 
-
-        <a href="top-tens.php" class="main-button">The Top 10's</a>
-      </div>
-    </div>
-  </DIV> -->
-
-
-
-    
- <!--THIRD CONTENT SECTION-->
-<!-- 
- <div id="content-sect3">
-   <div class="main-content">
-     <div class="lead-graphic"><img src="../webp/spiral-circular-800px.webp" width="500" alt="eco brick plastic brick building" loading="lazy"></div>
-     <div class="big-header">The Problem is the Solution.</div>
-     <div class="sub-text"><p>Ecobricks turn used plastic into reusable building blocks ideal for circular & spiral building applications.  Ecobrick applications range from home furniture, to food-forest gardens to structures.  By transforming the problem, we can build solutions!</p>
-     </div> 
-
-     <a href="build.php" class="main-button">Building Applications</a>
-     
-     <h6><a href="earth.php">Earth & Ecobrick Building</a> | <a href="/earth-methods">E&B Methods</a> | <a href="/modules">Milstein Modules</a> | <a href="/circular">Spiral & Circular</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6>
-   </div>
- </div> -->
-
- 
- 
-       
  
 
        
@@ -675,32 +601,7 @@ https://github/globalecobrickalliance/ecobricks.org
         </div>
     
     
-    
-    <!-- ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score-->
-                    
-    
-    <!-- <script type="text/javascript" defer>
-    
-    document.addEventListener("DOMContentLoaded", function(event) {
-        setTimeout(addScript, 8000)
-      });
-      
-      function addScript() {
-      
-        script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.async = true;
-        script.onload = function() {
-          console.log("Added Script");
-        };
-        script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
-        document.getElementsByTagName('head')[0].appendChild(script);
-      }
-      Arc CDN Script without delay
-    <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
-     
-    
-    </script> -->
+
     
       
 <script>
