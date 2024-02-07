@@ -56,9 +56,8 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="menu-page-item" ><a href="sequest.php" data-lang-id="009-plastic-sequestration">Plastique Sequestration</a></div>
 </div>
 
-        
-<!--   
-      <div id="wcb" class="carbonbadge wcb-d"></div> -->
+ 
+      <div id="wcb" class="carbonbadge wcb-d"></div>
 
       <br><br>
 <!-- 
@@ -603,54 +602,54 @@ https://github/globalecobrickalliance/ecobricks.org
 <script>
 
 
-// function clearSiteCache() {
-//     // Translations for the confirm message
-//     const confirmMessages = {
-//         en: 'Do you wish to delete your language and site settings for ecobricks.org?',
-//         fr: 'Souhaitez-vous supprimer vos paramètres de langue et de site pour ecobricks.org?',
-//         es: '¿Desea eliminar la configuración de idioma y sitio para ecobricks.org?',
-//         id: 'Apakah Anda ingin menghapus pengaturan bahasa dan situs untuk ecobricks.org?'
-//     };
+function clearSiteCache() {
+    // Translations for the confirm message
+    const confirmMessages = {
+        en: 'Do you wish to delete your language and site settings for ecobricks.org?',
+        fr: 'Souhaitez-vous supprimer vos paramètres de langue et de site pour ecobricks.org?',
+        es: '¿Desea eliminar la configuración de idioma y sitio para ecobricks.org?',
+        id: 'Apakah Anda ingin menghapus pengaturan bahasa dan situs untuk ecobricks.org?'
+    };
 
-//     // Translations for the alert message
-//     const alertMessages = {
-//         en: 'All site cache items are now cleared.',
-//         fr: 'Tous les éléments du cache du site sont maintenant effacés.',
-//         es: 'Todos los elementos en caché del sitio ahora están borrados.',
-//         id: 'Semua item cache situs sekarang dibersihkan.'
-//     };
+    // Translations for the alert message
+    const alertMessages = {
+        en: 'All site cache items are now cleared.',
+        fr: 'Tous les éléments du cache du site sont maintenant effacés.',
+        es: 'Todos los elementos en caché del sitio ahora están borrados.',
+        id: 'Semua item cache situs sekarang dibersihkan.'
+    };
 
-//     // Check the currentLanguage global variable, default to 'en' if undefined
-//     const language = window.currentLanguage || 'en';
+    // Check the currentLanguage global variable, default to 'en' if undefined
+    const language = window.currentLanguage || 'en';
 
-//     // Use confirm message based on currentLanguage or default to English
-//     const confirmMessage = confirmMessages[language] || confirmMessages.en;
+    // Use confirm message based on currentLanguage or default to English
+    const confirmMessage = confirmMessages[language] || confirmMessages.en;
 
-//     // Show confirm dialog
-//     if (confirm(confirmMessage)) {
-//         // Clear local storage if user confirms
-//         localStorage.clear();
+    // Show confirm dialog
+    if (confirm(confirmMessage)) {
+        // Clear local storage if user confirms
+        localStorage.clear();
 
-//         // Use alert message based on currentLanguage or default to English
-//         const alertMessage = alertMessages[language] || alertMessages.en;
+        // Use alert message based on currentLanguage or default to English
+        const alertMessage = alertMessages[language] || alertMessages.en;
 
-//         // Show alert dialog
-//         alert(alertMessage);
-//     }
-// }
-
-
+        // Show alert dialog
+        alert(alertMessage);
+    }
+}
 
 
 
 
-// // Event listeners for the language selector buttons
-// document.querySelectorAll('.lang-selector').forEach(button => {
-//     button.addEventListener('click', function() {
-//         const langCode = this.textContent.trim().split(' ')[1]; // Extract language code from button text
-//         changeLanguage(langCode.toLowerCase());
-//     });
-// });
+
+
+// Event listeners for the language selector buttons
+document.querySelectorAll('.lang-selector').forEach(button => {
+    button.addEventListener('click', function() {
+        const langCode = this.textContent.trim().split(' ')[1]; // Extract language code from button text
+        changeLanguage(langCode.toLowerCase());
+    });
+});
 
 
 
