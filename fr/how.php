@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<HTML lang="fr">
+<HEAD>
+<META charset="UTF-8">
+<title>Comment fabriquer une Ecobrique | Ecobricks.org</title>
+
+<?php $lang='fr';?>
+
 <?php require_once ("../includes/how-inc2.php");?>
 
 <!--PAGE LANGUAGE:  ENGLISH
