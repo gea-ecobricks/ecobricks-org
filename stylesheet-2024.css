@@ -622,7 +622,7 @@ border-color: #00a112 !important;
 
 
 .x-button {
-    background: url('../svgs/right-x.svg') no-repeat;
+    background: url('svgs/right-x.svg') no-repeat;
     padding: 10px;
     background-size: contain;
     width: 75px;
@@ -631,7 +631,7 @@ border-color: #00a112 !important;
 }
 
 .x-button:hover {
-    background: url('../svgs/x-over.svg') no-repeat;
+    background: url('svgs/x-over.svg') no-repeat;
     padding: 10px;
     background-size: contain;
 
