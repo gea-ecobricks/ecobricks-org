@@ -69,7 +69,7 @@
 <link rel="stylesheet" href="../mode-light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 <link rel="stylesheet" href="../mode-dark.css?v=7.2" media="(prefers-color-scheme: dark)">
  
-<!-- <link rel="stylesheet" type="text/css" href="../stylesheet-general.css?v=4.4">  -->
+<link rel="stylesheet" type="text/css" href="../stylesheet-general.css?v=4.4"> 
 
 <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';

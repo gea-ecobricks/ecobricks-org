@@ -2,7 +2,7 @@
 <HTML lang="fr">
 <HEAD>
 <META charset="UTF-8">
-<title>Comment fabriquer une Ecobrique | Ecobricks.org</title>
+<title>Comment faire une Ecobrique | Ecobricks.org</title>
 
 <?php $lang='fr';?>
 
