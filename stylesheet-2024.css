@@ -1397,7 +1397,7 @@ text-decoration: none;
 
 /* Base styles */
 .featured-content-1 {
-  height: 85vh;
+  height: 82vh;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1408,7 +1408,7 @@ text-decoration: none;
   margin-left: 20px;
   border-radius: 20px;
   max-width: 100%;
-  margin-top: 12vh;
+  margin-top: 13vh;
 }
 
 .featured-content-shaded-box {
