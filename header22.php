@@ -181,10 +181,6 @@ window.onload = function() {
     <div class="menu-page-item" ><a href="sequest.php" data-lang-id="009-plastic-sequestration">Plastique Sequestration</a></div>
 </div>
 
- 
-      <div id="wcb" class="carbonbadge wcb-d"></div>
-
-      <br><br>
 <!-- 
 <br><br><br>
       <p style="font-size:small;">Ecobricking and the GEA are inspired by the <a href="ayyew" >ayyew</a> ethos of the Igorot people of Northern Luzon.</p>
