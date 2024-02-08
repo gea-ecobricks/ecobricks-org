@@ -19,6 +19,16 @@ const id_Translations = {
   
    
         /*Menu of pages curtain*/
+
+               
+           
+           /*General Texts*/
+           '1000-learn-more': 'Belajarlah lagi',
+           '1001-what-are-ecobricks': 'Apa itu ecobricks?',
+           '1002-faqs-button': 'FAQ',
+           '1003-reset-preferences': '❌ Reiniciar preferencias',
+           '1004-gea-vision': 'Kami membayangkan Transisi dari Plastik di Rumah Tangga, Komunitas, dan Perusahaan kami menuju Harmoni yang Lebih Hijau dengan Siklus Bumi',
+
    
    
            '001-introduction': 'Pendahuluan',
@@ -98,13 +108,32 @@ const id_Translations = {
            '311-featured-4-subheading': 'Ecobricking regeneratif muncul sepuluh tahun yang lalu dari tanah orang Igorot di Filipina Utara. Terinspirasi oleh ethos ekologis Ayyew mereka, ecobricking secara mendasar berbeda dari konsep keberlanjutan dan nol-sampah Barat. Sebaliknya, semua metode dan aplikasi kami dirancang dari dasar untuk mengikuti contoh Bumi.',
            '312-featured-4-button': 'Prinsip-prinsip Bumi Kami',
            '313-featured-4-references': '<a href="spiral.php">Desain Spiral</a> | <a href="/ayyew/">Ayyew</a> | <a href="/about">Tentang Kami</a> | <a href="/story/">Sejarah</a>',
-           
-           
-           /*General Texts*/
-           '1000-learn-more': 'Belajarlah lagi',
-           '1001-what-are-ecobricks': 'Apa itu ecobricks?',
-           '1002-faqs-button': 'FAQ',
-           '1003-reset-preferences': '❌ Reiniciar preferencias'
-           
+
+           "400-visionscape-description": "Kami membayangkan transisi hijau besar dari cara yang mencemari ke cara yang memperkaya. Dan itu dimulai dengan plastik kita.",
+           "401-wikipedia-description": "<img src=\"../icons/wikipedia.svg\" style=\"width:100%\" alt=\"Artikel Wikipedia mendalam tentang sejarah, konsep, dan metodologi ecobrick.\" title=\"Artikel Wikipedia mendalam tentang sejarah, konsep, dan metodologi ecobrick.\">",
+           "402-gobrik description": "<img src=\"../icons/gobrik-icon-white.svg\" style=\"width:100%\" alt=\"Gobrik adalah platform untuk mengelola ecobricking, proyek pembangunan, dan transisi plastik Anda.\" title=\"Gobrik adalah platform untuk mengelola ecobricking, proyek pembangunan, dan transisi plastik Anda.\">",
+           "403-medium-description": "<img src=\"../icons/medium.svg\" style=\"width:100%\" alt=\"Ikuti publikasi Earthen kami di Medium\" title=\"Ikuti publikasi Earthen kami di Medium\">",
+           "404-github description": "<img src=\"../icons/github.svg\" style=\"width:100%\" alt=\"Berkontribusi pada repositori Github Ecobricks.org kami\" title=\"Berkontribusi pada repositori Github Ecobricks.org kami\">",
+           "405-facebook description": "<img src=\"../icons/facebook.svg\" style=\"width:100%\" alt=\"Ikuti halaman Facebook kami\" title=\"Ikuti halaman Facebook kami\">",
+           "406-youtube description": "<img src=\"../icons/youtube.svg\" style=\"width:100%\" alt=\"Berlangganan ke saluran YouTube Ecobricks kami\" title=\"Berlangganan ke saluran YouTube Ecobricks kami\">",
+           "407-instagram description": "<img src=\"../icons/instagram.svg\" style=\"width:100%\" alt=\"Instagram: Ecobricks.Plastic.Transition\" title=\"Deskripsi 407-facebook\">",
+         
+           "409-wikipedia-text": "Juga dikenal sebagai Eco Bricks, Eco-Bricks, Ecolladrillos, briks, batu bata botol dan ecobriques, Global Ecobrick Alliance dan <a href=\"https://en.wikipedia.org/wiki/Ecobricks\" target=\"_blank\" rel=\"noopener\">Wikipedia</a> mendukung ejaan 'ecobrick' untuk merujuk pada <a href=\"https://en.wikipedia.org/wiki/Plastic_Sequestration\" target=\"_blank\" rel=\"noopener\">sekuestrasi plastik</a> dalam botol PET untuk membuat blok bangunan yang dapat digunakan kembali.",
+           "410-gobrik-title": "Aplikasi Gobrik Kami",
+           "411-gobrik-text": "<a href=\"https://gobrik.com\" target=\"_blank\" rel=\"noopener\">GoBrik</a> adalah aplikasi web untuk melayani gerakan transisi plastik lokal dan global. Ini dipelihara dan dikembangkan oleh Global Ecobrick Alliance. Pelajari lebih lanjut tentang <a href=\"https://ecobricks.org/gobrik\">proyek Gobrik kami</a>.",
+           "412-earthen-service-title": "Perusahaan Bumi",
+           "413-earthen-service-text": "<a href=\"https://ecobricks.org/about\" target=\"_blank\">Aliansi Global Ecobrick</a> adalah perusahaan untuk Bumi, nirlaba, berbasis di Indonesia. Kami beroperasi di bawah <a href=\"https://ecobricks.org/principles\">prinsip regeneratif</a>. Akibatnya kami tidak memiliki sponsor korporat, perusahaan, atau pemerintah. Pendapatan kami dihasilkan dengan menyediakan <a href=\"aes\">layanan ekologis</a> dan <a href=\"trainings\">pengalaman pendidikan</a>",
+           "414-tech-partners-title": "Mitra Teknologi",
+           "415-tech-partners-text": "Visi kami tentang transisi Plastik dan Petrokapital adalah kolaborasi global! Kami berterima kasih kepada mitra kami yang telah memberi kami akses penuh ke teknologi luar biasa mereka. Terima kasih kepada <a href=\"https://www.dewaweb.com/\" target=\"_blank\" rel=\"noopener\">DewaWeb Hosting</a> yang servernya menghosting situs kami dan kepada <a href=\"https://svgator.com\" target=\"_blank\" rel=\"noopener\">SVGator</a> yang platform animasinya memberi kehidupan pada grafis kami.",
+         
+           "416-banner-earth-enterprise": "<a href=\"https://ecobricks.org/about\" target=\"_blank\"><img src=\"../webp/banners/forearth-dark-350px.webp\" style=\"width:300px\" alt=\"Pelajari lebih lanjut tentang struktur Perusahaan Bumi kami\" loading=\"lazy\" title=\"Pelajari lebih lanjut tentang struktur Perusahaan Bumi kami\"></a>",
+           "417-banner-eco-impacts": "<a href=\"https://ecobricks.org/regenreports\" target=\"_blank\"><img src=\"../webp/banners/762-disclose-dark-350px.webp\" style=\"width:300px\" alt=\"Klik untuk melihat rincian lengkap dan langsung dari dampak ekologis kami tahun 2023 di GoBrik.com\" loading=\"lazy\" title=\"Klik untuk melihat rincian lengkap dan langsung dari dampak ekologis kami tahun 2023 di GoBrik.com\"></a>",
+           "418-banner-open-books": "<a href=\"https://ecobricks.org/open-books\" target=\"_blank\"><img src=\"../webp/banners/openbooks-dark-350px.webp\" style=\"width:300px\" alt=\"Klik untuk melihat pelacakan keuangan kami secara langsung\" loading=\"lazy\" title=\"Klik untuk melihat pelacakan keuangan kami secara langsung\"></a>",
+           "419-conclusion-disclosure": "Kami melacak dan mengungkapkan dampak ekologis net-hijau kami. Lihat <a href=\"https://ecobricks.org/en/regenreports.php\" target=\"_blank\">Laporan Regenerasi</a> kami dan <a href=\"https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/\" target=\"_blank\">akuntansi dampak dinamis kami untuk 2024.</a>",
+           "420-conclusion-contribute": "Situs Ecobricks.org dikodekan secara manual dalam HTML, PHP MYSQL, CSS dan Javascript sumber terbuka. Berkontribusi untuk membuat halaman ini lebih baik dengan meninggalkan laporan bug atau permintaan push di Github: ↳ <a href=\"https://github.com/gea-ecobricks/ecobricks.org/blob/master/<?php echo ($lang); ;?>/<?php echo ($name); ;?>\" target=\"_blank\">github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($lang); ;?>/<?php echo ($name); ;?></a>",
+           "421-conclusion-data": "Semua konten pendidikan di situs kami (foto, video, dan teks) tersedia untuk dibagikan oleh Aliansi Ecobrick di bawah <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\">Lisensi Internasional Creative Commons Atribusi-BerbagiSerupa 4.0</a>.<br>Harap atribusikan semua penggunaan ke \"The Global Ecobrick Alliance, ecobricks.org\" menggunakan lisensi yang sama.",
+           "422-conclusion-copyright": "Logo dan emblem Ecobricks.org, GEA, Earthen, AES dan Gobrik dilindungi hak cipta 2010-2024 oleh Global Ecobrick Alliance.",
+         
+    
    
 }

@@ -59,9 +59,16 @@
 <script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script>
 <script src="https://api.earthen.io/subscription-system.js?v=1"></script>
 <script src="https://api.earthen.io/core-functions.js"></script>
-<script src="../b.min.js"></script> <!-- Carbon bage -->
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> <!-- Carbon bage -->
 
 
+
+<script src="../guided-tour.js"></script>
+
+<script src="../site-search.js?v=5"></script>
+
+<script src="../core-scripts-2024.js"></script>
+    
 
 
 

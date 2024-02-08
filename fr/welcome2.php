@@ -103,13 +103,6 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
-<script src="../guided-tour.js"></script>
-
-<script src="../site-search.js?v=5"></script>
-
-<script src="../core-scripts-2024.js"></script>
-    
-
 
 
 </html>
