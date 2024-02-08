@@ -13,7 +13,7 @@
   <meta property="og:image"         content="https://ecobricks.org/pngs/social-banner2.png">
   <meta property="og:image:width" content="1200" >
 <meta property="og:image:height" content="638" >
-  <meta property="og:image:alt"     content="Une route métaphorique qui serpente au loin avec diverses constructions écologiques en brique et en terre à ses côtés."/>
+  <meta property="og:image:alt"     content="Une route métaphorique qui serpente au loin avec diverses constructions écologiques en brique et en terre à ses côtés.">
   <meta property="og:locale" content="fr_FR" >
 
   <meta name="author" content="Ecobricks.org">
@@ -21,10 +21,10 @@
   <meta property="og:type" content="article" >
  <meta property="og:site_name" content="Ecobricks.org" >
  <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" >
- <meta property="article:modified_time" content="2022-08-14T09:14:13+00:00" >
+ <meta property="article:modified_time" content="2024-02-08T09:14:13+00:00" >
  <meta property="og:image:type" content="image/png" >
  <meta name="author" content="Global Ecobrick Alliance" >
  <meta name="twitter:card" content="summary" >
  <meta name="twitter:label1" content="Est. reading time" >
- <meta name="twitter:data1" content="3 minutes" > 
+ <meta name="twitter:data1" content="4 minutes" > 
 
