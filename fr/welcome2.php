@@ -109,7 +109,10 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <script src="../core-scripts-2024.js"></script>
     
-
+<script src="translations/en-welcome-translations.js"></script>
+<script src="translations/es-welcome-translations.js"></script>
+<script src="translations/fr-welcome-translations.js"></script>
+<script src="translations/id-welcome-translations.js"></script>
 
 
 
