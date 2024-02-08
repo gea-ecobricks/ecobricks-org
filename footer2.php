@@ -1,7 +1,9 @@
 
 	
 
-  
+</div>  <!-- closes main and sets bottom background-->
+
+
 <!--FOOTER STARTS-->
 
     

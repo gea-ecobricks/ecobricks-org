@@ -100,8 +100,11 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
     }
     }
     
-    /* Sidebar/right column */
+
+
     
+    /* Sidebar/right column */
+/*     
     @media screen and (min-width: 700px) {
         .side {
         flex: 24%;
@@ -112,7 +115,19 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
         background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);
       border-radius: 20px;
         }
-        }
+        } */
+
+
+  @media screen and (min-width: 1301px) {
+    .side {
+    flex: 24%;
+    padding: 70px 20px 0px 20px;
+    box-sizing: border-box;
+    margin-top: -80px;
+    background:var(--top-header);
+  border-radius: 20px;
+    }
+    }
     
     @media screen and (max-width: 700px) {
         .side {
@@ -167,8 +182,38 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
 /* -------------------------------------------------------------------------- */
 
 
+ 
+#side-module-desktop-only {
+	
+	border-radius: 12px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 15px 15px 28px 15px;
+	border-width: 1px;
+	text-align: center;
+	background-color: var(--side-overlays);
+	text-align: center;
 
+}
 
+@media screen and (max-width: 700px) {
+  #side-module-desktop-only {   
+    display: none;
+  }
+}
+
+#side-module-desktop-mobile {
+	
+	border-radius: 12px;
+	margin-bottom: 20px;
+	padding: 15px 15px 28px 15px;
+	border-width: 1px;
+	text-align: center;
+	background-color: var(--side-overlays);
+  	text-align: center;
+  
+  }
+/* 
 
 #side-module-desktop-only {
 	
@@ -201,7 +246,7 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
 	border-color: white;
   
   }
-
+ */
 
 
 .side-module-desktop-only {
