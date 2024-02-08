@@ -75,8 +75,8 @@ document.querySelectorAll('.lang-selector').forEach(button => {
         document.getElementById("settings-buttons").style.marginRight = "0px"; 
         document.getElementById("settings-buttons").style.padding = "16px 50px 16px 20px";
         document.getElementById("main-header-buttons").style.marginTop = "0px";  
-        document.getElementById("language-menu-slider").style.top = "0px";  
-        document.getElementById("login-menu-slider").style.top = "0px";  
+        document.getElementById("language-menu-slider").style.top = "-10px";  
+        document.getElementById("login-menu-slider").style.top = "-10px";  
         document.getElementById("registration-footer").style.opacity = "0";  
 
 
