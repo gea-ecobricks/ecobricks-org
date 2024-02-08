@@ -23,9 +23,9 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="featured-content-shaded-box">
             <div class="featured-content-text">
                 <div class="featured-content-title" data-lang-id="300-featured-content-1-title">2024 Ecobricking Guidelines</div>
-                <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle" >Fully updated 10-Step guide for the new year</div>
+                <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle" >Fully updated ecobrick making methodoly</div>
 
-                <a class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more">Learn More</a>
+                <a class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more">10 Gtep guide</a>
             </div>
         </div>
     </div>
@@ -43,11 +43,11 @@ https://github/globalecobrickalliance/ecobricks.org
             When plastic gets loose into the biosphere it contaminates and poisons.  When plastic is processed by industry it generates emissions and encourages more plastic to be consumed and produced.  Ecobricking is a simple, non-capital method of keeping your plastic safe and secure so that it can be put to good, green use.</div>
             <button type="button" class="feature-button" data-lang-id="304-featured-2-button" onclick="guidedTour()">Intro to Ecobricking</button>
 
-                    <h6 data-lang-id="305-featured-2-rreferences">
-                        <a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
-            </div>
+            <h6 data-lang-id="305-featured-2-rreferences">
+                <a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
         </div>
     </div>
+
     
 
 
