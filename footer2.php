@@ -112,17 +112,17 @@ We envision a Transition in our Households, Communities and Enterprises from Pla
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" src="../icons/cc-by-sa.svg" style="width:200px;height:45px;border-width:0" target="_blank"></a>
 
         <div class="footer-conclusion" data-lang-id="420-conclusion-data">
-            <a href="#global">All of the educational content on our site (photos, videos and text) are made available for sharing by the Ecobrick Alliance under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to "The Global Ecobrick Alliance, ecobricks.org" using the same license.
+            All of the educational content on our site (photos, videos and text) are made available for sharing by the Ecobrick Alliance under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to "The Global Ecobrick Alliance, ecobricks.org" using the same license.
         </div>
 
         <div class="footer-conclusion" data-lang-id="421-conclusion-copyright">
             The Ecobricks.org, GEA, Earthen, AES and Gobrik logos and emblems are copyright 2010-2024 by the Global Ecobrick Alliance.
         </div>
     
-    <div class="footer-invite" data-lang-id="422-conclusion-contribute">
+    <div class="footer-conclusion" data-lang-id="422-conclusion-contribute">
         The Ecobricks.org site is 100% open source and hand coded in HTML, PHP MYSQL, CSS and Javascript! Contribute to making this page better by leaving a bug report or push request on Github:
     </div>
-    <a href="https://github.com/gea-ecobricks/gobrik/blob/master/<?php echo ($name); ;?>" target="_blank"><?php echo ($name); ;?> (embed: <?php echo ($dist); ;?>)</a>
+    <a href="https://github.com/gea-ecobricks/ecobricks.org/blob/master/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" target="_blank">✍️ gea-ecobricks/ecobricks-org/blob/main/fr/welcome2.php/<?php echo ($lang); ;?>/<?php echo ($name); ;?></a>
 
 </div>
         
