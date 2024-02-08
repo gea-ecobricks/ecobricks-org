@@ -358,7 +358,7 @@ window.onload = function() {
                             <div class="full-privacy-policy-link">
                                 <a href="https://earthen.io/privacy/" data-lang-id="118-full-privacy-link">Our Full Privacy Policy</a>
                             </div>
-                            <button type="button" aria="Go back" class="btn" onclick="previewPrivacy()" style="height:fit-content; padding:10px 15px 10px 15px;border-radius:10px;" >OK</button>                      
+                            <button type="button" aria-label="Back" class="btn" onclick="previewPrivacy()" style="height:fit-content; padding:10px 15px 10px 15px;border-radius:10px;" >OK</button>                      
                         </div>
                     </div>
 
@@ -370,7 +370,6 @@ window.onload = function() {
   
    
     
-<div id="page-content">
 
 
     <div id="header" class="top-menu" style="display: flex;
