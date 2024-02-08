@@ -43,7 +43,7 @@ https://github/globalecobrickalliance/ecobricks.org
             When plastic gets loose into the biosphere it contaminates and poisons.  When plastic is processed by industry it generates emissions and encourages more plastic to be consumed and produced.  Ecobricking is a simple, non-capital method of keeping your plastic safe and secure so that it can be put to good, green use.</div>
             <button type="button" class="feature-button" data-lang-id="304-featured-2-button" onclick="guidedTour()">Intro to Ecobricking</button>
 
-            <h6 data-lang-id="305-featured-2-references" class="feature-reference-links">
+            <h6 data-lang-id="305-featured-2-references" style="tex-align:center;">
                 <a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
         </div>
     </div>

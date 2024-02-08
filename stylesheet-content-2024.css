@@ -877,3 +877,43 @@ font-weight: 300;
   width: 100%;
   height: auto;
 }
+
+
+
+
+
+
+@media screen and (min-width: 769px) { 
+    #translation-required {
+      padding: 30px 20px 20px 20px;
+      background-color: #FDE21F;
+      font-family: 'Mulish', Arial, Helvetica, sans-serif;
+      font-size: 0.9em;
+      line-height: 1.5;
+      font-weight: 400;
+      text-align: left;
+      border-radius: 12px;
+      margin-top: -30px;
+      width: 18%;
+      position: absolute;
+      top: 110px;
+      z-index: 6;
+      right: 30px;
+      box-shadow: 0 5px 5px rgba(85, 84, 84, 0.4);
+    }
+        }
+  
+   @media screen and (max-width: 768px) { 
+          #translation-required {
+  
+            display: none;
+          }
+          }
+        
+  
+  
+  img {
+    aspect-ratio: attr(width) / attr(height);
+  }
+  
+  

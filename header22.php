@@ -375,7 +375,7 @@ window.onload = function() {
     flex-flow: row;">
 
         
-        <a href="welcome.php"><svg  version="1.1" viewBox="0 0 130.09 28.997" xmlns="http://www.w3.org/2000/svg" id="gea-logo">
+        <svg  version="1.1" viewBox="0 0 130.09 28.997" xmlns="http://www.w3.org/2000/svg" id="gea-logo">
 
             <g id="logo-full" transform="translate(-36.122 -89.481)" fill="#646464">
                 <g id="logo-global-ecobrick-alliance" transform="matrix(.19017 0 0 .19017 210.48 97.699)" stroke-width="1px" aria-label="Global Ecobrick Alliance">
@@ -433,7 +433,7 @@ window.onload = function() {
                     <path id="path1" d="m166.38 196.37c-7.7042-1.1285-16.521-8.835-21.525-18.815-3.4217-6.8238-5.1304-14.66-4.8084-22.051 0.22139-5.0829 0.82226-7.5612 2.8645-11.815 4.2876-8.9298 12.903-11.833 22.073-7.4389 8.3075 3.9813 15.471 13.219 18.877 24.343 1.6615 5.4267 1.9722 7.9042 1.7934 14.299-0.14458 5.1696-0.26035 5.9838-1.2551 8.8276-3.2123 9.1832-9.8543 13.846-18.019 12.65zm1.5392-24.873c0.58211-0.30102 1.456-1.2416 1.9421-2.0903 1.775-3.0992 1.5491-6.8774-0.68336-11.429-3.441-7.0162-10.559-7.961-12.395-1.6452-2.3484 8.0781 5.1349 18.268 11.136 15.165z" fill="#05f30a" />
                 </g>
                 </g>
-        </svg></a>
+        </svg>
         
         <div id="function-icons" style="display: flex;flex-flow:row;margin:auto 10px auto auto;">
 
