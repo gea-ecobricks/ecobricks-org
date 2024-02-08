@@ -149,42 +149,41 @@ window.onload = function() {
 
  <!-- RIGHT PAGE MENU -->
 
- <div id="right-settings-overlay" class="overlay-settings">
-  <div class="right-close-button">
-    <button type="button" style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page" class="x-button">
-    </button>
-  </div>
+<div id="right-settings-overlay" class="overlay-settings">
+    <div class="right-close-button">
+        <button type="button" style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page" class="x-button">
+        </button>
+    </div>
 
-  <div class="overlay-content-settings" style="margin-bottom: 20px;">
+    <div class="overlay-content-settings" style="margin-bottom: 20px;">
   
-    <div class="earthcycles-logo"></div>
+        <!-- <div class="ecobricks-logo"></div> -->
 
-    <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a style="text-align:center">Introduction</a></div>
-    
-    <div class="menu-page-item"><a href="what" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
+        <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a style="text-align:center">Introduction</a></div>
+        
+        <div class="menu-page-item"><a href="what" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
 
-    <div class="menu-page-item" ><a href="how" data-lang-id="003-how-to">How to make?</a></div>
-    
-    <div class="menu-page-item" ><a href="why" data-lang-id="004-why-ecobricks">Why Ecobricks?</a></div>
+        <div class="menu-page-item" ><a href="how" data-lang-id="003-how-to">How to make?</a></div>
+        
+        <div class="menu-page-item" ><a href="why" data-lang-id="004-why-ecobricks">Why Ecobricks?</a></div>
 
-    <div class="menu-page-item" ><a href="plastic" data-lang-id="005-earth-example">Earth's Example</a></div>
+        <div class="menu-page-item" ><a href="plastic" data-lang-id="005-earth-example">Earth's Example</a></div>
 
-    <div class="menu-page-item" ><a href="principles" data-lang-id="006-our-principles">Our Earthen Principles</a></div>
+        <div class="menu-page-item" ><a href="principles" data-lang-id="006-our-principles">Our Earthen Principles</a></div>
 
-    <div class="menu-page-item" ><a href="build" data-lang-id="007-construction">Building with Ecobricks</a></div>
+        <div class="menu-page-item" ><a href="build" data-lang-id="007-construction">Building with Ecobricks</a></div>
 
-    <div class="menu-page-item" ><a href="about" data-lang-id="008-about-us">About us</a></div>
+        <div class="menu-page-item" ><a href="about" data-lang-id="008-about-us">About us</a></div>
 
-    <div class="menu-page-item" ><a href="sequest.php" data-lang-id="009-plastic-sequestration">Plastique Sequestration</a></div>
-</div>
+        <div class="menu-page-item" ><a href="sequest.php" data-lang-id="009-plastic-sequestration">Plastique Sequestration</a></div>
+    </div>
 
 <!-- 
 <br><br><br>
       <p style="font-size:small;">Ecobricking and the GEA are inspired by the <a href="ayyew" >ayyew</a> ethos of the Igorot people of Northern Luzon.</p>
        -->
-    </div>
-                                                              
 </div>
+                                                              
 
 
 <!-- TOUR SLIDER -->
@@ -271,38 +270,38 @@ window.onload = function() {
 
       <div class="search-overlay-content">
             
-            <div>
-                <h1 style="font-family:'Arvo', serif;text-shadow: none;" data-lang-id="100-search-title">Search</h1> 
-                <p style="text-align:center; width:90%;" data-lang-id="101-search-intro">Select the languages and indexes you wish to search.  To search for ecobricks use our <a style="color:var(--emblem-blue)" href="brikchain.php">brikchain search</a>.</p>
-            </div>
-          
-            <div class="search-box">
-              <div class="search-section">
-                <input id="search_input" type="text" placeholder="Enter search term..." aria-label="Enter search..." onkeypress="handleKeyPress(event)">   
-                <button class="btn main-search-button" onclick="siteSearch(['indexes/glossary.json', 'indexes/page-index.json'])" aria-label="Search Button"></button> 
-              </div>  
-               <!-- Checkbox options -->
-               <div class="search-options">
-                  <div class="search-row"> <!-- First row -->
-                    <label><b data-lang-id="102-search-index1">Pages: </b><input type="checkbox" name="searchIndex" value="en_site">EN  </label>
-                    <label><input type="checkbox" name="searchIndex" value="fr_site" checked>FR  </label>
-                    <label><input type="checkbox" name="searchIndex" value="es_site">ES  </label>
-                    <label><input type="checkbox" name="searchIndex" value="id_site">IN  </label>
-                </div>
-                <div class="search-row"> <!-- Second row -->
-                    <label><b data-lang-id="103-search-index3">Glossaries:</b><input type="checkbox" name="searchIndex" value="en_glossary" >EN  </label>
-                    <label><input type="checkbox" name="searchIndex" value="fr_glossary" checked>FR  </label>
-                    <label><input type="checkbox" name="searchIndex" value="es_glossary" disabled>ES  </label>
-                    <label><input type="checkbox" name="searchIndex" value="id_glossary" disabled>IN</label>
-                </div>
-              </div>
-
-            <!-- Search results div -->
-            <div id="search_results"><h6 style="color:grey;" data-lang-id="104-search-bottom-text" >Dictionary definitions are shown first</h6></div>
-          </div>
+        <div>
+            <h1 style="font-family:'Arvo', serif;text-shadow: none;" data-lang-id="100-search-title">Search</h1> 
+            <p style="text-align:center; width:90%;" data-lang-id="101-search-intro">Select the languages and indexes you wish to search.  To search for ecobricks use our <a style="color:var(--emblem-blue)" href="brikchain.php">brikchain search</a>.</p>
         </div>
-      </div>
-    </div>  
+        
+        <div class="search-box">
+            <div class="search-section">
+            <input id="search_input" type="text" placeholder="Enter search term..." aria-label="Enter search..." onkeypress="handleKeyPress(event)">   
+            <button class="btn main-search-button" onclick="siteSearch(['indexes/glossary.json', 'indexes/page-index.json'])" aria-label="Search Button"></button> 
+            </div>  
+            <!-- Checkbox options -->
+            <div class="search-options">
+                <div class="search-row"> <!-- First row -->
+                <label><b data-lang-id="102-search-index1">Pages: </b><input type="checkbox" name="searchIndex" value="en_site">EN  </label>
+                <label><input type="checkbox" name="searchIndex" value="fr_site" checked>FR  </label>
+                <label><input type="checkbox" name="searchIndex" value="es_site">ES  </label>
+                <label><input type="checkbox" name="searchIndex" value="id_site">IN  </label>
+            </div>
+            <div class="search-row"> <!-- Second row -->
+                <label><b data-lang-id="103-search-index3">Glossaries:</b><input type="checkbox" name="searchIndex" value="en_glossary" >EN  </label>
+                <label><input type="checkbox" name="searchIndex" value="fr_glossary" checked>FR  </label>
+                <label><input type="checkbox" name="searchIndex" value="es_glossary" disabled>ES  </label>
+                <label><input type="checkbox" name="searchIndex" value="id_glossary" disabled>IN</label>
+            </div>
+            </div>
+
+        <!-- Search results div -->
+        <div id="search_results"><h6 style="color:grey;" data-lang-id="104-search-bottom-text" >Dictionary definitions are shown first</h6></div>
+        </div>
+    </div>
+    </div>
+      
 
 
     <div id="registration-footer" style="opacity:0;">
