@@ -212,7 +212,7 @@ window.onload = function() {
       
 
       <div id="information-three" style="display:none;" class="information">
-      <div class="tour-image"><img src="../webp/ancient-future.webp"   style="margin:auto"  title="Our Neighbourhood" alt="Our Neighbourhood"></div>  
+      <div class="tour-image"><img src="../webp/ancient-future.webp"   style="margin:auto"  title="Our Neighbourhood" alt="Our Neighbourhood" loading="lazy"></div>  
     
         <div class="modal-header" data-lang-id="208-tour-3-header">Plastic Sequestration?</div>
         <div class="modal-description" data-lang-id="209-tour-3-description">Ecobricks follow Earth's example.  Over the last few billion years, Earth has steadily captured loose carbon to concentrate and sequester it under the earth so that life could thrive.  We're doing the same with our loose plastic (which in fact is made from that ancient carbon!) by packing and sequestering it into an ecobrick.</div>

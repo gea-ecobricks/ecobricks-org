@@ -63,7 +63,7 @@ document.querySelectorAll('.lang-selector').forEach(button => {
 
         function scrollLessThan40() {
     if (window.pageYOffset <= 40) {
-        document.getElementById("header").style.height = "110px";
+        document.getElementById("header").style.height = "100px";
         document.getElementById("header").style.borderBottom = "none";
         document.getElementById("header").style.boxShadow = "none";
         document.getElementById("main").style.marginTop = "40px";
