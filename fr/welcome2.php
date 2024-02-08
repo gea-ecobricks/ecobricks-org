@@ -41,9 +41,10 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="feature-big-header" data-lang-id="302-featured-2-heading">Keep Your Plastic Safe</div>
             <div class="feature-sub-text" data-lang-id="303-featured-2-subheading">
             When plastic gets loose into the biosphere it contaminates and poisons.  When plastic is processed by industry it generates emissions and encourages more plastic to be consumed and produced.  Ecobricking is a simple, non-capital method of keeping your plastic safe and secure so that it can be put to good, green use.</div>
-            <a href="sequest.php" class="feature-button" data-lang-id="304-featured-2-button" role="button">Intro to Ecobricking</a>
+            <button type="button" class="feature-button" data-lang-id="304-featured-2-button" onclick="guidedTour()">Intro to Ecobricking</button>
 
-                    <h6 data-lang-id="305-featured-2-rreferences"><a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
+                    <h6 data-lang-id="305-featured-2-rreferences">
+                        <a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
             </div>
         </div>
     </div>
@@ -56,7 +57,7 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="feature-big-header" data-lang-id="306-featured-3-heading">Awesome Applications</div>
             <div class="feature-sub-text" data-lang-id="307-featured-3-subheading">
             Ecobricks turn problematic plastic into reusable blocks that can be put to use in greener and greener building applications.  From furniture, to gardens to structures our recommended applications embody the principle of spiral design.  Plastic doesn't have to be a problem-- its the start of the solution.</div>
-            <button type="button" href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Ecobrick Building</button>
+            <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Ecobrick Building</a>
             <div class="feature-reference-links"><h6 data-lang-id="309-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="/earth-methods">Earth Methods</a> | <a href="/modules">Furniture Modules</a> | <a href="/spiral">Spiral Design</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6></div>
         </div>
     </div>
@@ -82,12 +83,11 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="feature-big-header" data-lang-id="310-featured-4-heading">Following Earth's Example</div>
             <div class="feature-sub-text" data-lang-id="311-featured-4-subheading">
             Regenerative ecobricking arose ten years ago out of the land of the Igorot people in the Northern Philippines.  Inspired by their Ayyew ecological ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste.  Instead, all our methods and applications are designed from the ground up to follow Earth's example.</div>
-            <button type="button" href="principles.php" class="feature-button" data-lang-id="312-featured-4-button">Our Earthen Principles</button>
+            <a href="principles.php" class="feature-button" data-lang-id="312-featured-4-button">Our Earthen Principles</a>
             <div class="feature-reference-links"><h6 data-lang-id="313-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="/about">About Us</a> | <a href="/story/">History</a></h6>
+            </div>
         </div>
     </div>
-</div>
-</div>
     
 
 
