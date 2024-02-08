@@ -1386,13 +1386,13 @@ text-decoration: none;
 
 /* Base styles */
 .featured-content-1 {
-  height: 82vh;
+  height: 83vh;
   background-size: cover;
   background-position: center;
   position: relative;
   overflow: hidden;
 
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-right: 20px;
   margin-left: 20px;
   border-radius: 20px;
