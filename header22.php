@@ -49,7 +49,7 @@
 	
 
  
-<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=2>">
+<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=3>">
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css">
 <link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css">
 
@@ -80,7 +80,6 @@
 <link rel="stylesheet" href="../mode-light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 <link rel="stylesheet" href="../mode-dark.css?v=7.2" media="(prefers-color-scheme: dark)">
  
-<link rel="stylesheet" type="text/css" href="../stylesheet-general.css?v=4.4"> 
 <!-- 
 <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
