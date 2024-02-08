@@ -104,7 +104,12 @@ const fr_Translations = {
             '310-featured-4-heading': 'Suivre l\'Exemple Terrestre',
             '311-featured-4-subheading': 'L\'écobricking régénératif est apparu il y a dix ans sur la terre du peuple Igorot dans le nord des Philippines. Inspiré par leur éthos écologique Ayyew, l\'écobricking se distingue fondamentalement des concepts occidentaux de durabilité et de zéro déchet. Au lieu de cela, toutes nos méthodes et applications sont conçues dès le départ pour suivre l\'exemple de la Terre.',
             '312-featured-4-button': 'Nos Principes Terrestre',
-            '313-featured-4-references': '<a href="spiral.php">Conception en Spirale</a> | <a href="/ayyew/">Ayyew</a> | <a href="/about">À Propos de Nous</a> | <a href="/story/">Histoire</a>',        
+            '313-featured-4-references': '<a href="spiral.php">Conception en Spirale</a> | <a href="/ayyew/">Ayyew</a> | <a href="/about">À Propos de Nous</a> | <a href="/story/">Histoire</a>',    
+            
+            
+            /* FOOTER TEXTS*/
+
+            
         
       
             /*General Texts*/

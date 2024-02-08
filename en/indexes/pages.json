@@ -353,6 +353,31 @@
     "section":"Products",
     "image_url":"\/icons\/earthwand-shadow.svg",
     "url":"earthwand/" 
+},
+
+
+{
+    "id":"035",
+    "title":"Ecobricks & GEA History",
+    "description": "The GEA began in the green valley of the Chico River in the land of Igorot people– the indigenous people of the Filipino Cordilleras. ",
+    "keywords" : "history, philippines, russell, banayan, igorot, bottle bricks, ayyew",
+    "language":"English",
+"lang_key":"en",
+    "section":"History",
+    "image_url":"\/photos\/newspaper-article-on-bottle-bricks.jpg",
+    "url":"story/" 
+},
+
+{
+    "id":"036",
+    "title":"Workshops",
+    "description": "A live flow of GEA Trainings from around the world!  As trainers from around the world log and post their ecobrick workshops, you can see them here! Y",
+    "keywords" : "workshops, trainings, ToTs, education, learning, trainers",
+    "language":"English",
+"lang_key":"en",
+    "section":"Our Work",
+    "image_url":"\/photos\/workshop-image.webp",
+    "url":"story/" 
 }
 
 ]
