@@ -59,7 +59,7 @@
 <script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script>
 <script src="https://api.earthen.io/subscription-system.js?v=1"></script>
 <script src="https://api.earthen.io/core-functions.js"></script>
-<script src="b.min.js"></script> <!-- Carbon bage -->
+<script src="../b.min.js"></script> <!-- Carbon bage -->
 
 
 
