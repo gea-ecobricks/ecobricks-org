@@ -119,7 +119,7 @@ _END;?>
 		
         
 		background: url(../webp/build-banner-1400px.webp) bottom;
-        background-color: #FA8D04;
+        background-color: #FA8D04 ;
 		
     	background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;

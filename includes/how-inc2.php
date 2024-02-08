@@ -17,6 +17,7 @@
 
 
 
+
 #play-button {
     width: 60px;
     height: 60px;
@@ -246,7 +247,9 @@ hr {border: gray;
 border-style: dashed;
 border-width: 1px;
 margin-top: 31px;
-margin-bottom: 31px;}
+margin-bottom: 31px;
+}
+	
 	
 </style>	
 

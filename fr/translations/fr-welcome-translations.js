@@ -30,7 +30,7 @@ const fr_Translations = {
         /*Menu of pages*/
     
     
-            '001-introduction': 'Introduction',
+            '001-introduction': '<a style="text-align:center">Introduction</a>',
             '002-what-are-ecobricks': 'Que sont les écobriques?',
             '003-how-to': 'Comment faire?',
             '004-why-ecobricks': 'Pourquoi les écobriques?',

@@ -237,7 +237,7 @@
           box-sizing: border-box;
           background-size: 100%;*/
   
-          .bottom-scope  {
+          /* .bottom-scope  {
             background-image: linear-gradient(var(--general-background),var(--general-background), #30ffff);
           }
 
@@ -324,7 +324,7 @@
         background: url(https://gobrik.com/webp/biosphere-day.webp) no-repeat  center bottom;
         background-size: contain;
       
-      }
+      } */
 
 /* light.css
 light.css 

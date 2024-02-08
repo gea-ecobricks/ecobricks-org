@@ -58,8 +58,8 @@
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script>
 <script src="https://api.earthen.io/subscription-system.js?v=1"></script>
-<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> <!-- Carbon bage -->
-
+<!-- <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> 
+ -->
 
 
 <script src="../guided-tour.js"></script>
@@ -160,7 +160,7 @@ window.onload = function() {
   
     <div class="earthcycles-logo"></div>
 
-    <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a>Introduction</a></div>
+    <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a style="text-align:center">Introduction</a></div>
     
     <div class="menu-page-item"><a href="what" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
 
