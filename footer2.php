@@ -115,10 +115,10 @@ We envision a Transition in our Households, Communities and Enterprises from Pla
             The Ecobricks.org site is hand coded in open source HTML, PHP MYSQL, CSS and Javascript. Contribute to making this page better by leaving a bug report or push request on Github:
         </div>
         <div class="footer-conclusion">
-            ✏️<a href="https://github.com/gea-ecobricks/ecobricks.org/blob/master/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" target="_blank">github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($lang); ;?>/<?php echo ($name); ;?></a>
+        ↳ <a href="https://github.com/gea-ecobricks/ecobricks.org/blob/master/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" target="_blank">github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($lang); ;?>/<?php echo ($name); ;?></a>
         </div>
 
-        <div>
+        <div style="margin-top:15px">
             <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" src="../icons/cc-by-sa.svg" style="width:200px;height:45px;border-width:0" target="_blank"></a>
         </div>
 
