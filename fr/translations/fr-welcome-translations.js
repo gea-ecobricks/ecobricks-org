@@ -16,6 +16,15 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 
 const fr_Translations = {
+
+
+
+            /*General Texts*/
+            '1000-learn-more': 'Apprendre encore plus',
+            '1001-what-are-ecobricks': 'Introduction',
+            '1002-faqs-button': 'FAQ',
+            '1003-reset-preferences': '❌ réinitialiser le site',
+            "1004-gea-vision": "Nous envisageons une transition dans nos foyers, nos communautés et nos entreprises, du plastique vers une harmonie toujours plus verte avec les cycles de la Terre.",
   
 
         /*Menu of pages*/
@@ -110,13 +119,31 @@ const fr_Translations = {
             /* FOOTER TEXTS*/
 
             
+                "400-visionscape-description": "Nous envisageons une grande transition verte passant des méthodes polluantes à des méthodes enrichissantes. Et cela commence avec notre plastique.",
+                "401-wikipedia-description": "<img src=\"../icons/wikipedia.svg\" style=\"width:100%\" alt=\"Un article de Wikipedia approfondi sur l'histoire, le concept et la méthodologie de l'écobrique.\" title=\"Un article de Wikipedia approfondi sur l'histoire, le concept et la méthodologie de l'écobrique.\">",
+                "402-gobrik description": "<img src=\"../icons/gobrik-icon-white.svg\" style=\"width:100%\" alt=\"Gobrik est une plateforme pour gérer votre écobriquage, vos projets de construction et la transition plastique.\" title=\"Gobrik est une plateforme pour gérer votre écobriquage, vos projets de construction et la transition plastique.\">",
+                "403-medium-description": "<img src=\"../icons/medium.svg\" style=\"width:100%\" alt=\"Suivez notre publication Earthen sur Medium\" title=\"Suivez notre publication Earthen sur Medium\">",
+                "404-github description": "<img src=\"../icons/github.svg\" style=\"width:100%\" alt=\"Contribuez à notre dépôt Github Ecobricks.org\" title=\"Contribuez à notre dépôt Github Ecobricks.org\">",
+                "405-facebook description": "<img src=\"../icons/facebook.svg\" style=\"width:100%\" alt=\"Suivez notre page Facebook\" title=\"Suivez notre page Facebook\">",
+                "406-youtube description": "<img src=\"../icons/youtube.svg\" style=\"width:100%\" alt=\"Abonnez-vous à notre chaîne YouTube Ecobricks\" title=\"Abonnez-vous à notre chaîne YouTube Ecobricks\">",
+                "407-instagram description": "<img src=\"../icons/instagram.svg\" style=\"width:100%\" alt=\"Instagram: Ecobricks.Plastic.Transition\" title=\"Description de 407-facebook\">",
+              
+                "409-wikipedia-text": "Également connu sous le nom de Eco Bricks, Eco-Bricks, Ecolladrillos, briks, briques de bouteilles et ecobriques, l'Alliance Globale Ecobrick et <a href=\"https://en.wikipedia.org/wiki/Ecobricks\" target=\"_blank\" rel=\"noopener\">Wikipedia</a> approuvent l'orthographe 'ecobrick' pour désigner la <a href=\"https://en.wikipedia.org/wiki/Plastic_Sequestration\" target=\"_blank\" rel=\"noopener\">séquestration du plastique</a> dans une bouteille PET pour en faire un bloc de construction réutilisable.",
+                "410-gobrik-title": "Notre Application Gobrik",
+                "411-gobrik-text": "<a href=\"https://gobrik.com\" target=\"_blank\" rel=\"noopener\">GoBrik</a> est une application web servant le mouvement de transition plastique local et mondial. Elle est maintenue et développée par l'Alliance Globale Ecobrick. Apprenez-en plus sur notre <a href=\"https://ecobricks.org/gobrik\">projet Gobrik</a>.",
+                "412-earthen-service-title": "Entreprise Terrestre",
+                "413-earthen-service-text": "L'<a href=\"https://ecobricks.org/about\" target=\"_blank\">alliance Globale Ecobrick</a> est une entreprise pour la Terre, à but non lucratif, basée en Indonésie. Nous opérons sous <a href=\"https://ecobricks.org/principles\">des principes régénératifs</a>. Par conséquent, nous n'avons aucun parrainage d'entreprise, de société ou de gouvernement. Nos revenus sont générés en fournissant un <a href=\"aes\">service écologique</a> et des <a href=\"trainings\">expériences éducatives</a>",
+                "414-tech-partners-title": "Partenaires Technologiques",
+                "415-tech-partners-text": "Notre vision de la transition du plastique et du pétrocapital est une collaboration mondiale ! Nous sommes reconnaissants à nos partenaires qui nous ont donné un accès complet à leurs technologies impressionnantes. Merci à <a href=\"https://www.dewaweb.com/\" target=\"_blank\" rel=\"noopener\">DewaWeb Hosting</a> dont les serveurs hébergent nos sites et à <a href=\"https://svgator.com\" target=\"_blank\" rel=\"noopener\">SVGator</a> dont la plateforme d'animation donne vie à nos graphiques.",
+              
+                "416-banner-earth-enterprise": "<a href=\"https://ecobricks.org/about\" target=\"_blank\"><img src=\"../webp/banners/forearth-dark-350px.webp\" style=\"width:300px\" alt=\"En savoir plus sur notre structure d'Entreprise Terrestre\" loading=\"lazy\" title=\"En savoir plus sur notre structure d'Entreprise Terrestre\"></a>",
+                "417-banner-eco-impacts": "<a href=\"https://ecobricks.org/regenreports\" target=\"_blank\"><img src=\"../webp/banners/762-disclose-dark-350px.webp\" style=\"width:300px\" alt=\"Cliquez pour voir le détail complet et en direct de nos impacts écologiques de 2023 sur GoBrik.com\" loading=\"lazy\" title=\"Cliquez pour voir le détail complet et en direct de nos impacts écologiques de 2023 sur GoBrik.com\"></a>",
+                "418-banner-open-books": "<a href=\"https://ecobricks.org/open-books\" target=\"_blank\"><img src=\"../webp/banners/openbooks-dark-350px.webp\" style=\"width:300px\" alt=\"Cliquez pour voir notre suivi financier en direct\" loading=\"lazy\" title=\"Cliquez pour voir notre suivi financier en direct\"></a>",
+                "419-conclusion-disclosure": "Nous suivons et divulguons notre impact écologique net-vert. Voir notre <a href=\"https://ecobricks.org/en/regenreports.php\" target=\"_blank\">Rapport de Régénération</a> et notre <a href=\"https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/\" target=\"_blank\">comptabilité d'impact dynamique pour 2024.</a>",
+                "420-conclusion-contribute": "Le site Ecobricks.org est codé à la main en HTML, PHP MYSQL, CSS et Javascript open source. Contribuez à améliorer cette page en laissant un rapport de bug ou une demande de push sur Github : ↳ <a href=\"https://github.com/gea-ecobricks/ecobricks.org/blob/master/<?php echo ($lang); ;?>/<?php echo ($name); ;?>\" target=\"_blank\">github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($lang); ;?>/<?php echo ($name); ;?></a>",
+                "421-conclusion-data": "Tout le contenu éducatif de notre site (photos, vidéos et textes) est mis à disposition pour le partage par l'Alliance Ecobrick sous une <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\">Licence Creative Commons Attribution-Partage dans les Mêmes Conditions 4.0 International</a>.<br>Veuillez attribuer toute utilisation à \"The Global Ecobrick Alliance, ecobricks.org\" en utilisant la même licence.",
+                "422-conclusion-copyright": "Les logos et emblèmes d'Ecobricks.org, GEA, Earthen, AES et Gobrik sont protégés par le droit d'auteur 2010-2024 par l'Alliance Globale Ecobrick."
+            
+}
         
       
-            /*General Texts*/
-            '1000-learn-more': 'Apprendre encore plus',
-            '1001-what-are-ecobricks': 'Introduction',
-            '1002-faqs-button': 'FAQ',
-            '1003-reset-preferences': '❌ réinitialiser le site'
-    
-
-}
