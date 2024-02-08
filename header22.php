@@ -70,7 +70,7 @@
 <link rel="stylesheet" href="../mode-dark.css?v=7.2" media="(prefers-color-scheme: dark)">
  
 <link rel="stylesheet" type="text/css" href="../stylesheet-general.css?v=4.4"> 
-
+<!-- 
 <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
     script-src 'self' https://api.websitecarbon.com 'unsafe-inline' https://www.youtube.com https://s.ytimg.com https://unpkg.com https://api.earthen.io;
@@ -81,7 +81,7 @@
     font-src 'self' https://www.ecobricks.org/fonts/Arvo-regular.ttf;
     object-src 'none';
     worker-src 'self';
-">
+"> -->
 
 
 
@@ -101,18 +101,6 @@ window.onload = function() {
 
 
 
-
-<script src="translations/en-welcome-translations.js"></script>
-<script src="translations/es-welcome-translations.js"></script>
-<script src="translations/fr-welcome-translations.js"></script>
-<script src="translations/id-welcome-translations.js"></script>
-
-
-<script src="../guided-tour.js"></script>
-
-<script src="../site-search.js?v=5"></script>
-
-<script src="../core-scripts-2024.js"></script>
 
 <!-- Inline styling to lay out the most important part of the page for first load view-->
 
