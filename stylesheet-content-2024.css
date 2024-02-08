@@ -1,0 +1,834 @@
+/*
+Ecobricks.org Server Side CSS File
+Website Version: 3.0
+CSS Version 1.1
+Description: This CSS file determines the CSS on our new non-wordpress index.html landing page.
+Orginal Author:  Russell Maier
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+	1.  Column Design
+	2.  Side Modules
+    3.	FAQs
+	4. 	Typography
+	5. 	Document Setup
+	6.	Buttons
+	7.      Forms
+	8. 	Notifications
+	9. 	Needs Review
+	10.  	New
+
+/* 
+/* -------------------------------------------------------------------------- */
+
+/*	1. Column Design
+
+/* -------------------------------------------------------------------------- */
+
+
+
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.row2 {  
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+
+/* Main column */
+
+@media screen and (min-width: 700px) {
+    .main {
+      flex: 70%;
+    
+      padding: 15px 40px 15px 0px;
+      box-sizing: border-box;
+    }
+    }
+    
+    @media screen and (max-width: 700px) {
+    .main {
+      flex: 100%;
+    
+      box-sizing: border-box;
+    }
+    }
+    
+    
+    @media screen and (min-width: 700px) {
+    .main2 {
+      flex: 70%;
+    
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    }
+    
+    @media screen and (max-width: 700px) {
+    .main2 {
+      flex: 100%;
+    
+      box-sizing: border-box;
+    }
+    }
+    
+    
+    @media screen and (max-width: 700px) {
+    .main3 {
+      flex: 40%;
+      padding-top: 15px;
+      box-sizing: border-box;
+    }
+    }
+    
+    @media screen and (min-width: 700px) {
+    .main3 {
+      flex: 100%;
+      box-sizing: border-box;
+    }
+    }
+    
+    /* Sidebar/right column */
+    
+    @media screen and (min-width: 700px) {
+        .side {
+        flex: 24%;
+        padding: 70px 20px 0px 20px;
+        box-sizing: border-box;
+        margin-top: -80px;
+        background: rgb(212,212,212);
+        background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);
+      border-radius: 20px;
+        }
+        }
+    
+    @media screen and (max-width: 700px) {
+        .side {
+        flex: 24%;
+        padding: 20px;
+        box-sizing: border-box;
+        
+        }
+        }
+    
+    /* Sidebar/right column */
+    
+    @media screen and (min-width: 700px) {
+        .side2 {
+        flex: 30%;
+        padding-left: 10px;
+        box-sizing: border-box;
+            }
+        }
+    
+    @media screen and (max-width: 700px) {
+        .side2 {
+        display: none;
+        
+        }
+        }
+    
+    /* Sidebar/right column */
+    
+    @media screen and (min-width: 700px) {
+        .side3 {
+        display: none;
+        
+        }
+        }
+    
+    @media screen and (max-width: 700px) {
+        .side3 {
+        flex: 40%;
+        padding-left: 10px;
+        box-sizing: border-box;
+            }
+        }
+    
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	2. SIDE MODULES
+
+/* -------------------------------------------------------------------------- */
+
+
+
+
+
+#side-module-desktop-only {
+	
+	border-radius: 12px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 15px 15px 28px 15px;
+	border-width: 1px;
+	text-align: center;
+	background-color: #ECECEC;
+	text-align: center;
+	border-color: white;
+}
+
+@media screen and (max-width: 700px) {
+  #side-module-desktop-only {   
+    display: none;
+  }
+}
+
+#side-module-desktop-mobile {
+	
+	border-radius: 12px;
+	margin-bottom: 20px;
+	padding: 15px 15px 28px 15px;
+	border-width: 1px;
+	text-align: center;
+	background-color: #ECECEC;
+	text-align: center;
+	border-color: white;
+  
+  }
+
+
+
+.side-module-desktop-only {
+	
+	border-radius: 12px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 15px 15px 28px 15px;
+	border-width: 1px;
+	text-align: center;
+	background-color: #ECECEC;
+	text-align: center;
+	border-color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .side-module-desktop-only {   
+    display: none;
+  }
+}
+
+.side-module-desktop-mobile {
+	
+	border-radius: 12px;
+	margin-bottom: 20px;
+	padding: 15px 15px 28px 15px;
+	border-width: 1px;
+	text-align: center;
+	background-color: #ECECEC;
+	text-align: center;
+	border-color: white;
+  
+  }
+
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .row2 {   
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+.action-btn {
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+font-family: 'Mulish', Arial, Helvetica, sans-serif;
+color: #fff;
+font-size: 20px;
+background: #4f8a28ff;
+padding: 11px 17px;
+text-decoration: none;
+font-weight: 500;
+margin-top: 40px;
+}
+
+.action-btn:hover {
+  background: #00A317;
+  text-decoration: none;
+}
+
+
+
+.action-btn-blue {
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+font-family: 'Mulish', Arial, Helvetica, sans-serif;
+color: #fff;
+font-size: 20px;
+background: #2886C9;
+padding: 11px 17px;
+text-decoration: none;
+font-weight: 500;
+margin-top: 40px;
+}
+
+.action-btn:hover {
+  background: #2A91D9;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.module-btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  background: #a8a8a8;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  overflow-x: none;
+}
+
+.module-btn:hover {
+  background: #818181;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .block-toggle {
+      margin: 5px;
+      font-size: 2.0em;
+      background: #ffffff;
+      padding: 15px 20px 15px 20px;
+      border-radius: 10px;
+      color: grey;
+      border: none;
+	  flex: 15%;
+	 
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .block-toggle {
+
+      font-size: 3em;
+      background: #fff;
+      padding: 15px;
+      border-radius: 15px;
+      color: grey;
+	  flex: 15%;
+      margin-bottom: 10px;
+	  border: none;
+	  border: gray;
+
+  }
+}
+
+button:hover {
+  background: white;
+  cursor: pointer;
+  color: black;
+  border-bottom: black;
+  border-bottom-width: 1px;
+
+  /*
+	  border-top-width: 1px;
+border-right-width: 1px;
+
+border-left-width: 1px;
+		border-style: dashed;*/
+}
+
+/* ----------------------------------------
+
+
+FAQS
+
+
+------------------------------------*/
+
+#preclosed1 {display: none;}
+#preclosed2 {display: none;}
+#preclosed3 {display: none;}
+#preclosed4 {display: none;}
+#preclosed5 {display: none;}
+#preclosed6 {display: none;}
+#preclosed7 {display: none;}
+#preclosed8 {display: none;}
+#preclosed9 {display: none;}
+#preclosed10 {display: none;}
+
+
+
+
+#main-content {
+  margin: auto;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 700px) {
+  #main-content {
+      width: 100%;
+	  margin-top: 0px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  #main-content {
+      width: 85%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #main-content {
+      width: 77%;
+  }
+}
+
+
+
+@media screen and (max-width: 700px) {
+	.lead-panel-paragraph {
+      font-size: 1.35em;
+      line-height: 1.4;
+      margin: 20px 0% 25px 0%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+	.lead-panel-paragraph {
+      font-size: 1.4em;
+      line-height: 1.5;
+      margin: 17px 0px 23px 0px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+
+  .lead-page-paragraph p {
+    font-size: 1.45em;
+    line-height: 1.4;
+    margin: 35px 6% 25px 6%;
+}
+}
+
+@media screen and (max-width: 700px) {
+
+  .page-paragraph p {
+    font-size: 1.15em;
+    line-height: 1.4;
+    margin: 20px 6% 30px 6%;
+}
+}
+
+@media screen and (max-width: 700px) {
+	.page-paragraph-reg {
+      font-size: 1em;
+      line-height: 1.3;
+      margin: 20px 4% 20px 4%;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+	.lead-page-paragraph {
+      font-size: 1.4em;
+      line-height: 1.5;
+      margin: 25px 10px 5px 10px;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+	.page-paragraph {
+      font-size: 1.15em;
+      line-height: 1.4;
+      margin: 25px 10px 50px 10px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+	.page-paragraph-reg {
+      font-size: 1em;
+      line-height: 1.3;
+      margin: 20px 7px 50px 7px;
+  }
+}
+
+
+@media screen and (max-width: 700px)  {
+		.reg-content-block {
+		text-align: left;
+		padding: 15px 7% 15px 7%;
+		border-radius: 0px;
+		margin: 35px 0px 0px 0px;
+/*
+		border-color: grey;
+		border-width: 1px;
+		border-style: dashed;*/
+}
+	}
+
+
+	@media screen and (min-width: 700px) {
+		.reg-content-block {
+			text-align: left;
+			padding: 18px 5% 22px 5%;
+			border-radius: 15px;
+			margin: 30px 0px 20px 0px;
+			
+			border-color: grey;
+			border-width: 1px;
+			border-style: dashed;
+ 
+}
+	}
+
+#block1 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block2 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block3 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block4 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block5 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block6 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block7 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block8 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block9 {
+	background: #f6f6f6;
+	display: block;
+}
+
+#block10 {
+	background: #f6f6f6;
+	display: block;
+}
+
+.opener-header {
+	display: flex;
+  box-sizing: border-box;
+
+}
+
+.opener-header-text {
+	flex: 85%;
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 2000px) {
+
+ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  color: #222222;
+  font-size: 1.1em;
+  line-height: 1.2;
+  margin-top: 15px;
+}
+}
+
+@media screen and (max-width: 769px) {
+
+  ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    color: #222222;
+    font-size: 0.95em;
+    line-height: 1.2;
+    margin-top: 15px;
+  }
+}
+
+
+ul a {
+	color: #222222;
+}
+ul a:hover {
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* GALLERY */
+
+
+/* FEATURED ECOBRICKS GALLERY FORMATING */
+
+.brik-co2 {
+  font-size: 0.7em;
+  color: white;
+  font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  margin-top: -60px;
+  text-align: left;
+  padding: 0px 0px 10px 20px;
+  background-color: black !important;
+}
+
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+background-color: #DFDFDF;
+margin-top: 10px;
+flex-wrap: wrap-reverse;
+}
+
+
+@media screen and (min-width: 700px) { 
+
+.flex-container > .gal-photo {
+  background-color: #DFDFDF;
+  margin: 2px;
+  padding: 2px;
+  max-height: 190px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/*	.photo-box {
+  max-height: 225px;
+  overflow: hidden;
+  background: grey;
+}
+  */
+
+.gal-photo img {
+  max-height: 190px;
+  height: 190px;
+}
+
+
+.gal-photo-text {
+  background-color: #DFDFDF;
+  margin: 0px;
+  text-align: center;
+  padding: 2px;
+  overflow: hidden;
+      font-size: 0.9em;
+}
+
+
+.photo-box-end {
+
+  height: 190px;
+  width: 120px;
+  overflow: hidden;
+  background: grey;
+  line-height: 190px;
+  color: #dfdfdf;
+  text-align: center;
+  font-size: 4em;
+  padding: 2px;
+  text-decoration: none;
+  animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
+
+}
+
+@media screen and (max-width: 700px) { 
+
+.flex-container > .gal-photo {
+  background-color: #DFDFDF;
+  margin: 0px;
+  padding: 2px;
+  height: 81px;
+  overflow: hidden;
+}
+
+.gal-photo img {
+  height: 81px;
+  display: block;
+  margin: auto;
+
+}
+
+.photo-box-end {
+  max-height: 81px;
+  width: 60px;
+
+  overflow: hidden;
+  background: grey;
+  line-height: 75px;
+  color: #dfdfdf;
+  text-align: center;
+  font-size: 2em;
+  padding: 2px;
+  text-decoration: none;
+  animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
+
+}
+
+
+
+.photo-box-end a {
+color: #dfdfdf;
+text-decoration: none;}
+
+
+  @media screen and (min-width: 700px) { 
+.feed-live {
+width: 100%;
+text-align: center;
+line-height: 1.5;
+margin: auto;
+padding: 10px;
+background-color: #DFDFDF;
+margin-bottom: 35px;
+}
+
+.feed-live p {
+font-size: .9em;
+font-family: courier new,monospace !important;
+color: #222;
+line-height: 1.3;
+margin-top: 5px;
+font-weight: 300;
+
+}
+  }
+
+  @media screen and (max-width: 700px) { 
+.feed-live {
+width: 100%;
+text-align: center;
+padding: 10px;
+line-height: 1.5;
+background-color: #DFDFDF;
+margin-bottom: 25px;}
+
+.feed-live p {
+font-size: .8em;
+font-family: courier new,monospace !important;
+color: #222;
+line-height: 1.3;
+margin-top: 5px;
+font-weight: 300;
+
+}
+  }
+
+
+
+
+@media screen and (max-width: 700px) { 
+.gallery-content-block {
+  text-align: center;
+  min-height: 67vh;
+  z-index: 5;
+  position: relative;   
+      background-color: #DFDFDF;
+  display: flex;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+  flex-direction: row;
+  width: 120%;
+    margin-right: -5%;
+    margin-left: -5%;
+  margin-top: 33px;
+      padding-top: 12px;
+  overflow: hidden;
+  /*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+  margin-bottom: 40px;
+  padding-bottom: 15px;*/
+}
+
+}
+
+
+@media screen and (min-width: 700px) { 
+.gallery-content-block {		
+  text-align: center;
+  min-height: 67vh;
+  z-index: 5;
+  position: relative;   
+      background-color: #dfdfdf;
+  display: flex;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+  flex-direction: row;
+  width: 120%;
+    margin-right: -5%;
+    margin-left: -5%;
+  margin-top: 0px;
+  overflow: hidden;
+
+      padding-top: 10px;
+
+  /*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+  margin-bottom: 40px;
+  padding-bottom: 15px;*/
+
+}
+} 
+
+
+.full-width-image {
+  width: 100%;
+  height: auto;
+}
