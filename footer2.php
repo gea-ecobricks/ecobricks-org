@@ -114,9 +114,13 @@ We envision a Transition in our Households, Communities and Enterprises from Pla
         <div class="footer-conclusion" data-lang-id="422-conclusion-contribute">
             The Ecobricks.org site is hand coded in open source HTML, PHP MYSQL, CSS and Javascript. Contribute to making this page better by leaving a bug report or push request on Github:
         </div>
-        ✏️<a href="https://github.com/gea-ecobricks/ecobricks.org/blob/master/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" target="_blank">github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($lang); ;?>/<?php echo ($name); ;?></a>
+        <div class="footer-conclusion">
+            ✏️<a href="https://github.com/gea-ecobricks/ecobricks.org/blob/master/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" target="_blank">github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($lang); ;?>/<?php echo ($name); ;?></a>
+        </div>
 
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" src="../icons/cc-by-sa.svg" style="width:200px;height:45px;border-width:0" target="_blank"></a>
+        <div>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" src="../icons/cc-by-sa.svg" style="width:200px;height:45px;border-width:0" target="_blank"></a>
+        </div>
 
         <div class="footer-conclusion" data-lang-id="420-conclusion-data">
             All of the educational content on our site (photos, videos and text) are made available for sharing by the Ecobrick Alliance under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to "The Global Ecobrick Alliance, ecobricks.org" using the same license.
