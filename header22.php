@@ -62,7 +62,7 @@
 
 
 
-<script src="../guided-tour.js?v=1"></script>
+<script src="../guided-tour.js?v=1.1"></script>
 
 <script src="../site-search.js?v=5"></script>
 
@@ -145,45 +145,6 @@ window.onload = function() {
 		
 <BODY>
 
-<div id="page-content"> <!--modal blur added here-->
-
- <!-- RIGHT PAGE MENU -->
-
-<div id="right-settings-overlay" class="overlay-settings">
-    <div class="right-close-button">
-        <button type="button" style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page" class="x-button">
-        </button>
-    </div>
-
-    <div class="overlay-content-settings" style="margin-bottom: 20px;">
-  
-        <!-- <div class="ecobricks-logo"></div> -->
-
-        <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a style="text-align:center">Introduction</a></div>
-        
-        <div class="menu-page-item"><a href="what" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
-
-        <div class="menu-page-item" ><a href="how" data-lang-id="003-how-to">How to make?</a></div>
-        
-        <div class="menu-page-item" ><a href="why" data-lang-id="004-why-ecobricks">Why Ecobricks?</a></div>
-
-        <div class="menu-page-item" ><a href="plastic" data-lang-id="005-earth-example">Earth's Example</a></div>
-
-        <div class="menu-page-item" ><a href="principles" data-lang-id="006-our-principles">Our Earthen Principles</a></div>
-
-        <div class="menu-page-item" ><a href="build" data-lang-id="007-construction">Building with Ecobricks</a></div>
-
-        <div class="menu-page-item" ><a href="about" data-lang-id="008-about-us">About us</a></div>
-
-        <div class="menu-page-item" ><a href="sequest.php" data-lang-id="009-plastic-sequestration">Plastique Sequestration</a></div>
-    </div>
-
-<!-- 
-<br><br><br>
-      <p style="font-size:small;">Ecobricking and the GEA are inspired by the <a href="ayyew" >ayyew</a> ethos of the Igorot people of Northern Luzon.</p>
-       -->
-</div>
-                                                              
 
 
 <!-- TOUR SLIDER -->
@@ -255,6 +216,48 @@ window.onload = function() {
       </div>
     </div>
     </div>
+
+    
+<div id="page-content"> <!--modal blur added here-->
+
+ <!-- RIGHT PAGE MENU -->
+
+<div id="right-settings-overlay" class="overlay-settings">
+    <div class="right-close-button">
+        <button type="button" style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page" class="x-button">
+        </button>
+    </div>
+
+    <div class="overlay-content-settings" style="margin-bottom: 20px;">
+  
+        <!-- <div class="ecobricks-logo"></div> -->
+
+        <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a style="text-align:center">Introduction</a></div>
+        
+        <div class="menu-page-item"><a href="what" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
+
+        <div class="menu-page-item" ><a href="how" data-lang-id="003-how-to">How to make?</a></div>
+        
+        <div class="menu-page-item" ><a href="why" data-lang-id="004-why-ecobricks">Why Ecobricks?</a></div>
+
+        <div class="menu-page-item" ><a href="plastic" data-lang-id="005-earth-example">Earth's Example</a></div>
+
+        <div class="menu-page-item" ><a href="principles" data-lang-id="006-our-principles">Our Earthen Principles</a></div>
+
+        <div class="menu-page-item" ><a href="build" data-lang-id="007-construction">Building with Ecobricks</a></div>
+
+        <div class="menu-page-item" ><a href="about" data-lang-id="008-about-us">About us</a></div>
+
+        <div class="menu-page-item" ><a href="sequest.php" data-lang-id="009-plastic-sequestration">Plastique Sequestration</a></div>
+    </div>
+
+<!-- 
+<br><br><br>
+      <p style="font-size:small;">Ecobricking and the GEA are inspired by the <a href="ayyew" >ayyew</a> ethos of the Igorot people of Northern Luzon.</p>
+       -->
+</div>
+                                                              
+
 
 
 <!--SEARCH PAGE-->
