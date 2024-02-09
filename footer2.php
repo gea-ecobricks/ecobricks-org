@@ -144,7 +144,24 @@
 <script src="translations/fr-welcome-translations.js"></script>
 <script src="translations/id-welcome-translations.js"></script>
 
+<script>
 
+document.getElementById('top-settings-button').addEventListener('touchstart', function(event) {
+  if (window.matchMedia("(max-width: 700px)").matches) {
+    var settingsButtons = document.getElementById('settings-buttons');
+    settingsButtons.classList.toggle('settings-buttons-expanded');
+    event.stopPropagation(); // Prevents the event from bubbling up to the document
+  }
+});
+
+document.addEventListener('touchstart', function(event) {
+  var settingsButtons = document.getElementById('settings-buttons');
+  if (!settingsButtons.contains(event.target)) {
+    settingsButtons.classList.remove('settings-buttons-expanded');
+  }
+});
+
+</script>
 
 <!-- ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score
 				-->

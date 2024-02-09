@@ -179,22 +179,6 @@ function updateLogoColor() {
   }
 }
 
-document.getElementById('top-settings-button').addEventListener('touchstart', function(event) {
-  if (window.matchMedia("(max-width: 700px)").matches) {
-    var settingsButtons = document.getElementById('settings-buttons');
-    settingsButtons.classList.toggle('settings-buttons-expanded');
-    event.stopPropagation(); // Prevents the event from bubbling up to the document
-  }
-});
-
-document.addEventListener('touchstart', function(event) {
-  var settingsButtons = document.getElementById('settings-buttons');
-  if (!settingsButtons.contains(event.target)) {
-    settingsButtons.classList.remove('settings-buttons-expanded');
-  }
-});
-
-
 
 
 
