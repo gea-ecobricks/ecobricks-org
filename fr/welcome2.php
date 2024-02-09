@@ -24,7 +24,6 @@ https://github/globalecobrickalliance/ecobricks.org
   margin-top: 0px;
   height: 100vh;
   padding-top: 90px;
-  padding-bottom: 180px;
   max-height: 100vh;
   overflow: clip;
   display: flex;
