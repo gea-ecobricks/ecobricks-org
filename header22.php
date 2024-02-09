@@ -49,7 +49,7 @@
 	
 
  
-<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.32">
+<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.33">
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css">
 <link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css">
 
