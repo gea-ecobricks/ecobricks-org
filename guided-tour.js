@@ -14,7 +14,7 @@ function closeTour() {
   document.getElementById("page-content").classList.remove("blur");
   tourTaken();
   // Reset the tour to the first window (index 0)
-  showInfo(0);
+  showInfo(1);
   document.getElementById("registration-footer").style.display = "block";
 
   // Allow scrolling on the body again
@@ -38,10 +38,10 @@ function closeTour() {
       modal.style.display = "none";
       document.getElementById("page-content").classList.remove("blur");
       document.getElementById("registration-footer").style.display = "block";
-
-      // Allow scrolling on the body again
       document.body.style.overflow = '';
       document.body.style.maxHeight = '';
+      showInfo(0);
+      tourTaken();
     }
   
     // Get all the "information" elements (which contain the tour content) and set the currentInfo variable to 0 (the first element)
