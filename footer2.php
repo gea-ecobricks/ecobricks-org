@@ -176,6 +176,26 @@ document.getElementById('language-menu-slider').addEventListener('click', functi
     event.stopPropagation();
 });
 
+
+// Prevent hiding when clicking inside the slider
+document.getElementById('login-menu-slider').addEventListener('click', function(event) {
+    event.stopPropagation();
+});
+
+
+
+
+
+// Event listeners for the language selector buttons
+document.querySelectorAll('.lang-selector').forEach(button => {
+    button.addEventListener('click', function() {
+        const langCode = this.textContent.trim().split(' ')[1]; // Extract language code from button text
+        changeLanguage(langCode.toLowerCase());
+    });
+});
+
+
+
 </script>
 
 <!-- ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score
