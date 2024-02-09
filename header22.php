@@ -62,7 +62,7 @@
 
 
 
-<script src="../guided-tour.jsv=1"></script>
+<script src="../guided-tour.js?v=1"></script>
 
 <script src="../site-search.js?v=5"></script>
 
