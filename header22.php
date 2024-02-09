@@ -49,7 +49,7 @@
 	
 
  
-<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.31">
+<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.32">
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css">
 <link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css">
 
@@ -67,7 +67,7 @@
 <script src="../site-search.js?v=5"></script>
 
 
-<script src="../core-scripts-2024.js?v=2"></script>
+<script src="../core-scripts-2024.js?v=2.1"></script>
 
 
 <!-- <script type="module" src="../mode-toggle.mjs.js"></script> -->

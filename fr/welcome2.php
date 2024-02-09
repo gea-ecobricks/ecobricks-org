@@ -39,7 +39,7 @@ https://github/globalecobrickalliance/ecobricks.org
                 </div>
             </div>
         </div>
-        <div class="buffer" style="height:90px;width:100%"></div>
+        <!-- <div class="buffer" style="height:90px;width:100%"></div> -->
     </div>
 
 
