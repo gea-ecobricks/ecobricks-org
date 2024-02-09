@@ -73,7 +73,7 @@
   }
 
   .top-search-button {
-    background: url(icons/search-day.svg) no-repeat;
+    background: url(icons/search-day.svg) no-repeat center;
     background-size: contain;
 }
 

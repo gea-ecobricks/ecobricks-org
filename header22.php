@@ -49,7 +49,7 @@
 	
 
  
-<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.33">
+<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.34">
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css">
 <link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css">
 
@@ -75,8 +75,8 @@
 <!--Default Light Styles to load first-->
 <link rel="preload" href="../mode-light.css" as="style" onload="this.rel='stylesheet'">
  <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../mode-light.css?v5.9" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../mode-dark.css?v=7.9" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../mode-light.css?v5.91" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../mode-dark.css?v=7.91" media="(prefers-color-scheme: dark)">
  
 <!-- 
 <meta http-equiv="Content-Security-Policy" content="

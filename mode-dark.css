@@ -78,7 +78,7 @@
   }
 
   .top-search-button {
-    background: url(icons/search-night.svg) no-repeat;
+    background: url(icons/search-night.svg) no-repeat center;
     background-size: contain;
 }
 
