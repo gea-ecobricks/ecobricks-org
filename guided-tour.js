@@ -12,14 +12,12 @@ function closeTour() {
   var modal = document.getElementById("guided-tour");
   modal.style.display = "none";
   document.getElementById("page-content").classList.remove("blur");
-  tourTaken();
   // Reset the tour to the first window (index 0)
-  showInfo(1);
   document.getElementById("registration-footer").style.display = "block";
-
   // Allow scrolling on the body again
   document.body.style.overflow = '';
   document.body.style.maxHeight = '';
+  tourTaken();
 }
 
 

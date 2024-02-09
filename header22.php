@@ -67,7 +67,7 @@
 <script src="../site-search.js?v=5"></script>
 
 
-<script src="../core-scripts-2024.js?v=2.2"></script>
+<script src="../core-scripts-2024.js?v=2.3"></script>
 
 
 <!-- <script type="module" src="../mode-toggle.mjs.js"></script> -->
