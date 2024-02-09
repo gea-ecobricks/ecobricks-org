@@ -62,7 +62,7 @@
 
 
 
-<script src="../guided-tour.js"></script>
+<script src="../guided-tour.jsv=1"></script>
 
 <script src="../site-search.js?v=5"></script>
 
@@ -145,7 +145,7 @@ window.onload = function() {
 		
 <BODY>
 
-
+<div id="page-content"> <!--modal blur added here-->
 
  <!-- RIGHT PAGE MENU -->
 

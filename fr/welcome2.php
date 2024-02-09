@@ -110,7 +110,7 @@ https://github/globalecobrickalliance/ecobricks.org
 <?php require_once ("../footer2.php");?>
 
 
-
+</div>  <!--ends page content-->
 
 
 
