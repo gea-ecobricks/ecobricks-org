@@ -62,12 +62,12 @@
 
 
 
-<script src="../guided-tour.js?v=1.1"></script>
+<script src="../guided-tour.js?v=1.2"></script>
 
 <script src="../site-search.js?v=5"></script>
 
 
-<script src="../core-scripts-2024.js?v=2.31"></script>
+<script src="../core-scripts-2024.js?v=2.32"></script>
 
 
 <!-- <script type="module" src="../mode-toggle.mjs.js"></script> -->

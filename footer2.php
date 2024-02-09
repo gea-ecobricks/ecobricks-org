@@ -161,6 +161,21 @@ document.addEventListener('touchstart', function(event) {
   }
 });
 
+
+// Add event listeners to each button inside the language-menu-slider
+var langButtons = document.querySelectorAll('#language-menu-slider button');
+langButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+        // Hide the slider after 1 second when a language button is clicked
+        setTimeout(hideLangSelector, 3000);
+    });
+});
+
+// Prevent hiding when clicking inside the slider
+document.getElementById('language-menu-slider').addEventListener('click', function(event) {
+    event.stopPropagation();
+});
+
 </script>
 
 <!-- ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score
