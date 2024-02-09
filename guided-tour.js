@@ -33,16 +33,7 @@ function closeTour() {
     modal.style.display = "flex";
     document.getElementById("page-content").classList.add("blur");
   
-    var closeButton = document.querySelector(".close");
-    closeButton.onclick = function() {
-      modal.style.display = "none";
-      document.getElementById("page-content").classList.remove("blur");
-      document.getElementById("registration-footer").style.display = "block";
-      document.body.style.overflow = '';
-      document.body.style.maxHeight = '';
-      showInfo(0);
-      tourTaken();
-    }
+  
   
     // Get all the "information" elements (which contain the tour content) and set the currentInfo variable to 0 (the first element)
   var information = document.querySelectorAll(".information");

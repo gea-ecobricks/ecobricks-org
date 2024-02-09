@@ -67,7 +67,7 @@
 <script src="../site-search.js?v=5"></script>
 
 
-<script src="../core-scripts-2024.js?v=2.1"></script>
+<script src="../core-scripts-2024.js?v=2.2"></script>
 
 
 <!-- <script type="module" src="../mode-toggle.mjs.js"></script> -->
@@ -210,7 +210,7 @@ window.onload = function() {
         <div class="modal-description" data-lang-id="218-tour-6-description">We're here to help! The Global Ecobrick Alliance is an Earth enterprise that global plastic transition movement by maintaining the philosophical and technological of the movement.  We're not at this for profit. Nor are we sponsored by any governments or corporations.  We're at this for people and planet.</div>
         <button class="back" data-lang-id="205-tour-back-button">↩ Back</button>
         
-        <button class="next close" onclick="closeTour();" data-lang-id="219-tour-done-button">✓ Done</button>
+        <button class="next" onclick="closeTour();" data-lang-id="219-tour-done-button">✓ Done</button>
         <div class="reference" data-lang-id="220-tour-6-reference">Learn more about us <a href="/plastic/">ecobricks.org/about</a></div>
   
       </div>
