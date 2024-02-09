@@ -20,6 +20,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <!-- FEATURED HEADLINE CONTENT -->
     <div class="feature-content1-anchor-box" style="height:100vh;width:100%;background:yellow;margin-top:0px;">
+    <div class="buffer" style="height:90px;width:100%"></div>
         <div class="featured-content-1"  >
             <div class="featured-content-shaded-box">
                 <div class="featured-content-text">
