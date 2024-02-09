@@ -19,13 +19,15 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 <!-- FEATURED HEADLINE CONTENT -->
-    <div class="featured-content-1"  >
-        <div class="featured-content-shaded-box">
-            <div class="featured-content-text">
-                <div class="featured-content-title" data-lang-id="300-featured-content-1-title">2024 Ecobricking Guidelines</div>
-                <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle" >Fully updated ecobrick making methodoly</div>
+    <div class="feature-content1-achor-box" style="height: 100vh;width:100%;background:yellow;">
+        <div class="featured-content-1"  >
+            <div class="featured-content-shaded-box">
+                <div class="featured-content-text">
+                    <div class="featured-content-title" data-lang-id="300-featured-content-1-title">2024 Ecobricking Guidelines</div>
+                    <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle" >Fully updated ecobrick making methodoly</div>
 
-                <a class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more">10 Gtep guide</a>
+                    <a class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more">10 Gtep guide</a>
+                </div>
             </div>
         </div>
     </div>
