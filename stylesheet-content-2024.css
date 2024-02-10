@@ -243,9 +243,9 @@ margin-bottom: 40px;
 	padding: 15px 15px 28px 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: #ECECEC;
+	background-color: var(--slide-overlays);
 	text-align: center;
-	border-color: white;
+	border-color: var(--slide-highlight);
   
   } 
 
@@ -366,11 +366,10 @@ margin-top: 40px;
 }
 
 button:hover {
-  background: var(--main-background);
+  background: var(--accordion-background);
   cursor: pointer;
   color: var(--h1);
-  border-bottom: red;
-  border-bottom-width: 1px;
+
 
   /*
 	  border-top-width: 1px;
