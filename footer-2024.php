@@ -139,10 +139,10 @@
 
 	<!--FOOTER ENDS-->
 
-<script src="translations/en-welcome-translations.js"></script>
-<script src="translations/es-welcome-translations.js"></script>
-<script src="translations/fr-welcome-translations.js"></script>
-<script src="translations/id-welcome-translations.js"></script>
+<script src="../translations/en-welcome-translations.js"></script>
+<script src="../translations/es-welcome-translations.js"></script>
+<script src="../translations/fr-welcome-translations.js"></script>
+<script src="../translations/id-welcome-translations.js"></script>
 
 <script>
 

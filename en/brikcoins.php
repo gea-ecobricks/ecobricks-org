@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<HTML lang="fr"> 
+<HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
 <title>Brikcoin Manual Blockchain</title>
@@ -48,7 +48,7 @@
         </div>
 
 		
-			<a name="ECO-VALUE"></a>
+			<a div="ECO-VALUE"></div>
             <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">
@@ -86,7 +86,7 @@
 						
 						<p>However, by following Earth's example of securing, concentrating and sequestring our cabon we can keep our plastic out of the biosphere and out of industry.  This work has important ecological value in so far as it avoids pollution, desperses benefit and supports biodiversity.</p>
 						
-						<p>This process of <a href="sequest">plastic sequestration</a> is defined as a manual, net-zero, non-industrial process (see the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blnak">wikipedia page</a>).  In order to be sequestered, the resulting secured-plastic must meet the criteria of plastic sequestration to ensure that it is in fact green.</p> 
+						<p>This process of <a href="sequest">plastic sequestration</a> is defined as a manual, net-zero, non-industrial process (see the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">wikipedia page</a>).  In order to be sequestered, the resulting secured-plastic must meet the criteria of plastic sequestration to ensure that it is in fact green.</p> 
 
 						<p>One of the most universal and accessible means of plastic sequestration is <a href="what.php">ecobricking</a>.</p>
 						
@@ -111,7 +111,7 @@
             </div>
 
 
-			<a name="PROOF-OF-VALUE"></a>
+			<a div="PROOF-OF-VALUE"></div>
             <div class="reg-content-block" id="block2">
 
                 <div class="opener-header">
@@ -162,7 +162,7 @@
 			</div>
             
 
-			<a name="HOW"></a>
+			<a div="HOW"></div>
             <div class="reg-content-block" id="block3">
 
                 <div class="opener-header">
@@ -209,7 +209,7 @@
                 </div>
             </div>
 
-			<a name="CENTRALIZED"></a>
+			<a div="CENTRALIZED"></div>
             <div class="reg-content-block" id="block4">
 
                 <div class="opener-header">
@@ -251,7 +251,7 @@
 			
 
 
-			<a name="WHITEPAPER"></a>
+			<a div="WHITEPAPER"></div>
             <div class="reg-content-block" id="block5">
 
                 <div class="opener-header">

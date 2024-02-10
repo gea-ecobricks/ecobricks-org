@@ -173,7 +173,7 @@
     "id":"019",
     "title":"Brikchain Explorer",
     "description": "Search and explore the full chain of authenticated ecobricks, blocks and transactions that make up the brikcoin manual blockchain.",
-    "keywords" : "authentication, transactions, and environmental impact, Brikchain Explorer, Ecobricks, Blockchain, Authentication, Transactions, AES Plastic, Sequestration, GoBrik platform, Brikcoin, Environmental accounting, CO2e (Carbon Dioxide Equivalent), Sustainability, Plastic valuation, Earthen Ethics, Regenerative principles",
+    "keywords" : "brikcoins, authentication, transactions, Brikchain Explorer, Ecobricks, Blockchain, Authentication, Transactions, AES Plastic, Sequestration, GoBrik platform, brikcoins, Environmental accounting, CO2e (Carbon Dioxide Equivalent), Sustainability, Plastic valuation, Earthen Ethics, Regenerative principles",
     "language":"English",
 "lang_key":"en",
     "section":"Theory",
@@ -378,6 +378,30 @@
     "section":"Our Work",
     "image_url":"\/photos\/workshop-image.webp",
     "url":"story/" 
+},
+
+{
+    "id":"037",
+    "title":"Brikcoins",
+    "description": "Brikcoins a digital currency representing the ecological value of sequestered plastic",
+    "keywords" : "brikcoins, authentication, transactions, Brikchain Explorer, Ecobricks, Blockchain, Authentication, Transactions, AES Plastic, Sequestration, GoBrik platform, brikcoins, Environmental accounting, CO2e (Carbon Dioxide Equivalent), Sustainability, Plastic valuation, Earthen Ethics, Regenerative principles",
+    "language":"English",
+"lang_key":"en",
+    "section":"Theory",
+    "image_url":"..\/webp\/brikcoins-450px.webp",
+    "url":"brikcoins" 
+},
+
+{
+    "id":"037",
+    "title":"Brikcoin Whitepaper",
+    "description": "The Commodification of Sequestered Plastic",
+    "keywords" : "brikcoins, authentication, transactions, Brikchain Explorer, Ecobricks, Blockchain, Authentication, Transactions, AES Plastic, Sequestration, GoBrik platform, brikcoins, Environmental accounting, CO2e (Carbon Dioxide Equivalent), Sustainability, Plastic valuation, Earthen Ethics, Regenerative principles",
+    "language":"English",
+"lang_key":"en",
+    "section":"PDF Download - 500k",
+    "image_url":"..\/pngs\/White-Paper-Icon2-400px.png",
+    "url":"https:\/\/nextcloud.ecobricks.org\/index.php\/s\/fNNYjG7A3gxco9n" 
 }
 
 ]
