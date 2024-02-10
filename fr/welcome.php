@@ -1,154 +1,112 @@
-<!--PAGE LANGUAGE:  ENGLISH-->  
+<!DOCTYPE html>
+<HTML lang="fr">
+<HEAD>
+<META charset="UTF-8">
+<title>Bienvenue | Global Ecobrick Alliance</title>
 
-<!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
+
+<!-- 
+Ecobricks.org site version 3.0
+Developed and made open source by the Global Ecobrick Alliance
+See our git hub repository for the full code and to help out:
+https://github/globalecobrickalliance/ecobricks.org
+-->
+<?php require_once ("lang.php");?>
+
+<?php $lang='fr';?>
+
+<?php require_once ("../includes/welcome-inc2.php");?>
+
+
+<!-- FEATURED HEADLINE CONTENT -->
+    <div class="feature-content-1-anchor-box">
+    
+        <div class="featured-content-1"  >
+            <div class="featured-content-shaded-box">
+                <div class="featured-content-text">
+                    <div class="featured-content-title" data-lang-id="300-featured-content-1-title">2024 Ecobricking Guidelines</div>
+                    <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle" >Our ecobrick making guide is fully updated for 2024.</div>
+
+                    <a class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more">10 Step Guide</a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="buffer" style="height:90px;width:100%"></div> -->
+    </div>
+
+
+
+    <div class="featured-content-2"  >
+    
+        <div class="feature-content-box">
+
+            <div class="featured-content-img dolphin-pic"></div>
+            
+            <div class="feature-big-header" data-lang-id="302-featured-2-heading">Keep Your Plastic Safe</div>
+            <div class="feature-sub-text" data-lang-id="303-featured-2-subheading">
+            When plastic gets loose into the biosphere it contaminates and poisons.  When plastic is processed by industry it generates emissions and encourages more plastic to be consumed and produced.  Ecobricking is a simple, non-capital method of keeping your plastic safe and secure so that it can be put to good, green use.</div>
+            <button type="button" class="feature-button" data-lang-id="304-featured-2-button" onclick="guidedTour()">Intro to Ecobricking</button>
+
+            <h6 data-lang-id="305-featured-2-references" style="tex-align:center;">
+                <a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
+        </div>
+    </div>
+
+    
+
+
+    <div class="featured-content-3"  >
+        <div class="feature-content-box">
+            <div class="featured-content-img ecovillage-pic"></div>
+            <div class="feature-big-header" data-lang-id="306-featured-3-heading">Awesome Applications</div>
+            <div class="feature-sub-text" data-lang-id="307-featured-3-subheading">
+            Ecobricks turn problematic plastic into reusable blocks that can be put to use in greener and greener building applications.  From furniture, to gardens to structures our recommended applications embody the principle of spiral design.  Plastic doesn't have to be a problem-- its the start of the solution.</div>
+            <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Ecobrick Building</a>
+            <div class="feature-reference-links"><h6 data-lang-id="309-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="/earth-methods">Earth Methods</a> | <a href="/modules">Furniture Modules</a> | <a href="/spiral">Spiral Design</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6></div>
+        </div>
+    </div>
+
+
+
+
+
+ <!-- closes main -->
+
+  
+
  
-<?php require_once ("../includes/welcome-inc.php");?>
+
+       
+
+ <!--FOURTH CONTENT SECTION-->
 
 
-<!--MAIN CONTENT-->
-		
-<BODY id="full-page">
-
-	<div id="load-background"> 
-
-	<!-- This loads the page's language specific menu -->
-
-    <?php require_once ("../menus/menu-$lang.php");?>
-
-	<?php include 'ecobricks_env.php';?> 
-
-			<div class="gallery10-content-block">
-								
-				<div class="flex-container10">
-						
-					<?php
-					$sql = "SELECT * FROM vw_top_10_last_month ;";
-					$result = $conn->query($sql);
-					if ($result->num_rows > 0) {
-					// output data of each row
-					while($row = $result->fetch_assoc()) {
-
-					echo '
-					<div class="gal-photo10">
-					<a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' par '.$row["ecobrick_owner"].' dans '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' dans '.$row["location"].'" loading="lazy"/></a>';
-					echo '<div class="gal10-photo-text"><b>Ecobrick '.$row["ecobrick_unique_id"].'</b><br>Par '.$row["ecobrick_owner"].'<br>'.$row["location"].'</div></div>';
-
-					}
-
-					} else {
-					echo "Échec de la connexion à la base de données Brikchain";
-					}
-
-					?>
-							
-				</div>
-		
-			</div>
-
-			<div class="blue-back" style="background: #0ff;width:100%;">
-		
-				<div class="clouds-new">
-
-		
-		
-					<!--<div class="feed-live"><p><span class="blink">←  ↔  →</span></div>-->
-			
-					<div id="main-content" style="padding-bottom: 90px; padding-top:15px">
-				
-						<div class="big-header">Les top 10 écobricks du mois</div>
-						<div class="sub-text"><p>Chaque mois, des milliers d'écobricks sont enregistrés et évalués par des pairs. Découvrez les dix écobricks qui ont reçu les scores d'authentification les plus élevés le mois dernier.</p>
-						</div> 
-
-						<a href="top-tens.php" button class="main-button">Les Top 10</a>
-					</div>
-				</div>
-			</DIV>
-
-	<!-- This loads the page's top graphics-->
-
-		<!--<div id="clouds"><img src="https://www.ecobricks.org/webp/mountain-top2.webp?v4" width="100%"></div>-->
-		<div id="cloud-banner"><img src="https://www.ecobricks.org/webp/vision-bottom4.webp?v3" width="100%" height="31%"></div>
-
-
-	
-
-	<!--FIRST CONTENT SECTION-->
-
-	<div id="content-sect1">
-	 	<div id="main-content">
-			<div id="dolphin-graphic"><img src="../svgs/dolphin-top-optimized.svg?v=5" width="100%" height="76%" alt="eco bricks help keep plastic out of the ocean" loading="lazy"></div>
-			<div class="big-header">Accélérer la transition plastique</div>
-			<div class="sub-text">
-			<p>Ensemble, nous pouvons garder notre plastique hors des océans. Avec les écobricks, nous pouvons sécuriser le plastique pour construire nos visions les plus vertes et déclencher une transition régénérative.</p>
-			</div>
-			<a href="faqs.php" button class="main-button">Tout sur les écobricks</a>
-			<h6><a href="what.php">Qu'est-ce qu'une écobrique?</a> | <a href="/how">Comment faire ?</a> | <a href="/why">Pourquoi fabriquer ?</a></h6></div>	
-	</div>
-
-	<!--SECOND CONTENT SECTION-->
-
-	  
-	<div id="content-sect2">
-		<div id="main-content">
-		<div class="lead-graphic"><img src="../webp/earth-service-700px.webp" width="100%" height="96%" alt="les briques écologiques suivent l'exemple de la Terre." max-width="700px">
-</div>
-		<div class="big-header">Suivez l'exemple de la Terre</div>
-		<!--<div class="lead-paragraph">Rejoignez le mouvement régénérateur</div>-->
-		<div class="sub-text">
-		<p>L'écobrique suit l'exemple de la Terre en ce qui concerne la concentration et la sécurisation du carbone hors de la biosphère. Conformément à la science de la dégradation du plastique et aux principes de la terre, l'écobrique est un moyen de séquestration du plastique non capital et net zéro.</p>
-		</div>
-		<a href="sequest.php" button class="main-button">Séquestration du plastique</a>
-		<h6><a href="/ayyew">Inspiré d'Ayyew</a> | <a href="/circular">Circulaire par conception</a> | <a href="/plastic">Vers la transition</a> | <a href="/principles">Régénératif</a> <!--| <a href="/reports">Rapports et livres blancs</a>--></h6></div>
-	</div>	
-		
-	<!--THIRD CONTENT SECTION-->
-
-	<div id="content-sect3">
-		<div id="main-content">
-		<div class="lead-graphic"><img src="../webp/spiral-circular-800px.webp" width="100%" max-width="777px" height="90%" alt="eco brique plastique bâtiment en brique"></div>
-		<div class="big-header">Le problème est la solution.</div>
-		<div class="sub-text"><p>Les écobricks transforment le plastique usagé en blocs de construction réutilisables, idéaux pour les applications de construction circulaires et en spirale. Utilisez-les pour fabriquer des modules, des meubles de maison, des parcs de jeux et des jardins de forêt alimentaire. En utilisant le problème, nous pouvons construire nos visions les plus vertes.</p>
-		</div>
-
-		<a href="build.php" button class="main-button">Construire des applications</a>
-
-		<h6><a href="/earth">Bâtiment Terre & Ecobrick</a> | <a href="/earth-methods">Méthodes E&B</a> | <a href="/modules">Modules Milstein</a> | <a href="/circular">Spirale & Circulaire</a> | <a href="/openspaces">Espaces ouverts</a> | <a href="/fire">Sécurité incendie</a></h6>		</div>
-	</div>
-
-	<!--FOURTH CONTENT SECTION-->
-
-	<div id="content-sect4">
-		<div id="main-content">
-			<div class="lead-graphic"><img src="../webp/balancing-green.webp" width="100%" height="100%"></div>
-			<div class="lead-graphic"><img src="../svgs/aes-brk.svg" width="100%" height="40%" alt="authenticated eco brick sequetration"></div>
-			<!--<div class="lead-paragraph"><br>Présentation de la compensation plastique AES</div>-->
-			<div class="sub-text"><p><br>Accélérez votre parcours vers le zéro déchet grâce à la compensation plastique. Les compensations plastiques sont directement corrélées au plastique ecobrick authentifié via la blockchain manuelle Brikcoin.</p></div>
-			<a href="https://gobrik.com/#offset" target="_blank" class="main-button">Compensation plastique</a>
-			<h6><a href="/brikcoins">Brikcoins Blockchain</a> | <a href="/aes">Plastique AES</a> | <a href="transition.php">Transition plastique</a> | <a href="about.php">À propos de la GEA</a></h6><br><br>
-			<p>La blockchain manuelle Brikcoin permet l'authentification, la valorisation et la vitalisation des écobricks.<br><a href="https://gobrik.com/#offset" target="_blank">Compensez la génération de plastique de votre ménage ou de votre entreprise avec nous.</a></p><br>
-			<img src="../svgs/3brikcoins.svg" width="30%">
-
-			<br><br>
-			<h4>Éco-brique, éco-brique ou éco-brique ?</h4>
-
-			<p>À l'époque où l'on mettait du plastique dans une bouteille, nous l'appelions ainsi : des briques de bouteille en plastique ! Puis, lorsque nous avons réalisé que cela était utile pour les systèmes <b>éco</b> qui nous entourent, le nom a été changé en "briques écologiques" ou "briques écologiques". Aujourd'hui, « ecobrick » est le terme <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">Wikipedia reconnu</a> pour le go-to, sans capital, zéro- solution carbone pour la <a href="https://en.wikipedia.org/wiki/plastic_sequestration" target="_blank">la séquestration du plastique</a></a></p>
-			<p>En savoir plus sur l'objectif principal du mouvement et de la technologie des écobriques :</p>
-			<a href="transition.php" button class="main-button">Transition plastique</a>
-			
-		</div>
-	</div>
-
-
-	<!--FOOTER STARTS HERE-->
-
-	<?php require_once ("../footers/footer-$lang.php");?>
+    <div class="featured-content-4"  >
+        <div class="feature-content-box">
+            <div class="featured-content-img earthservice-pic"></div>
+            <div class="feature-big-header" data-lang-id="310-featured-4-heading">Following Earth's Example</div>
+            <div class="feature-sub-text" data-lang-id="311-featured-4-subheading">
+            Regenerative ecobricking arose ten years ago out of the land of the Igorot people in the Northern Philippines.  Inspired by their Ayyew ecological ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste.  Instead, all our methods and applications are designed from the ground up to follow Earth's example.</div>
+            <a href="principles.php" class="feature-button" data-lang-id="312-featured-4-button">Our Earthen Principles</a>
+            <div class="feature-reference-links"><h6 data-lang-id="313-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="/about">About Us</a> | <a href="/story/">History</a></h6>
+            </div>
+        </div>
+    </div>
+    
 
 
 
-	<!--FOOTER ENDS HERE-->
+    
+  
+<!--FOOTER STARTS-->
 
-	
+<?php require_once ("../footer2.php");?>
 
-</div>
-</body>
+
+</div>  <!--ends page content-->
+
+
+
+
 </html>
+

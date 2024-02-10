@@ -23,7 +23,7 @@ _END;?>
 
 <?php require_once ("../meta/brikcoins-$lang.php");?>
 
-<?php require_once ("../header.php");?>
+<?php require_once ("../header-2024.php");?>
 
 
 <STYLE>
