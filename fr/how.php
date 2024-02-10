@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<HTML lang="fr">
+<HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
 <title>Comment faire une Ecobrique | Ecobricks.org</title>

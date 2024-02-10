@@ -1,8 +1,11 @@
-<!--PAGE LANGUAGE:  ENGLISH
-Content Page template: v.1.0.1-->
-  
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
+<!DOCTYPE html>
+<HTML lang="fr"> 
+<HEAD>
+<META charset="UTF-8">
+<title>Brikcoin Manual Blockchain</title>
+
+<?php $lang='en';?>
+<link rel="stylesheet" type="text/css" href="../stylesheet-general.css">
 <?php require_once ("../includes/brikcoins-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
