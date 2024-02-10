@@ -162,7 +162,7 @@
 			</div>
             
 
-			<a div="HOW"></div>
+			<div div="HOW"></div>
             <div class="reg-content-block" id="block3">
 
                 <div class="opener-header">

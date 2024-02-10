@@ -287,14 +287,14 @@ window.onload = function() {
             <!-- Checkbox options -->
             <div class="search-options">
                 <div class="search-row"> <!-- First row -->
-                <label><b data-lang-id="102-search-index1">Pages: </b><input type="checkbox" name="searchIndex" value="en_site">EN  </label>
-                <label><input type="checkbox" name="searchIndex" value="fr_site" checked>FR  </label>
+                <label><b data-lang-id="102-search-index1">Pages: </b><input type="checkbox" name="searchIndex" value="en_site" checked>EN  </label>
+                <label><input type="checkbox" name="searchIndex" value="fr_site" >FR  </label>
                 <label><input type="checkbox" name="searchIndex" value="es_site">ES  </label>
                 <label><input type="checkbox" name="searchIndex" value="id_site">IN  </label>
             </div>
             <div class="search-row"> <!-- Second row -->
-                <label><b data-lang-id="103-search-index3">Glossaries:</b><input type="checkbox" name="searchIndex" value="en_glossary" >EN  </label>
-                <label><input type="checkbox" name="searchIndex" value="fr_glossary" checked>FR  </label>
+                <label><b data-lang-id="103-search-index3">Glossaries:</b><input type="checkbox" name="searchIndex" value="en_glossary" checked>EN  </label>
+                <label><input type="checkbox" name="searchIndex" value="fr_glossary" >FR  </label>
                 <label><input type="checkbox" name="searchIndex" value="es_glossary" disabled>ES  </label>
                 <label><input type="checkbox" name="searchIndex" value="id_glossary" disabled>IN</label>
             </div>

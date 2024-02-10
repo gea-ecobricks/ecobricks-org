@@ -60,7 +60,7 @@
     checkboxes.forEach(function(checkbox) {
        switch (checkbox.value) {
           case 'en_site':
-             jsonFiles.push('../en/indexes/pages.json');
+             jsonFiles.push('../en/indexes/pages.json?v=2');
              break;
           case 'en_glossary':
              jsonFiles.push('../en/indexes/glossary-ecobricks.json');
