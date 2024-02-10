@@ -124,9 +124,11 @@
   position: relative;
   text-align: center;
   flex: 35%;
-	padding: 0px;
+	padding: 20px;
 	box-sizing: border-box;
-	margin: auto;
+	margin-top: auto;
+  margin-bottom: 15px;
+
 }
 }
 
@@ -139,7 +141,8 @@
 	padding: 10px 30px 0px 0px;
 	box-sizing: border-box;
 	text-align: right;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: 5px;
 }
 }
 
