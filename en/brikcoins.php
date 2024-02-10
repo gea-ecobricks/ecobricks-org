@@ -324,13 +324,15 @@
 					</div>
 			</div>
 		</div>
-		main closed
 		</div>
 
 
 		<div class="side">
 		
-			testing
+			<?php include 'ecobricks_env.php';?> 
+			<?php require_once ("side-modules/brikcoin-live-values.php");?>
+			<?php 	$conn->close();?>
+
 			
 		</div>
 
