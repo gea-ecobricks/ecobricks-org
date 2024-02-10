@@ -335,6 +335,6 @@ light.css
 }
 
 #reg-up-button {
-  background: url(svgs/up-reg-arrow-light.svg) center no-repeat;
+  background: url(svgs/up-reg-arrow-light.svg?v=2) center no-repeat;
   background-size: contain;
 }
