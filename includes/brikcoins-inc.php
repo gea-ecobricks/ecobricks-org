@@ -10,7 +10,7 @@
 
 <?php require_once ("../meta/brikcoins-$lang.php");?>
 
-<link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=5">
+<link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=6">
 
 <STYLE>
 
