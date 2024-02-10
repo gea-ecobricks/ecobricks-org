@@ -338,7 +338,15 @@ Content Page template: v.1.0.1-->
 		
 
 		<div class="side">
-nothing
+
+		<?php include 'side-modules/earthen-ethics-principle.php';?> 
+
+		<?php include 'side-modules/eco-accounting-principle.php';?> 
+
+		
+	
+
+		
 
                 <br>
 			</div>   

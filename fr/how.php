@@ -503,7 +503,7 @@ Once translation is completed, you can remove the line below to take the transla
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footer2.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
