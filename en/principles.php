@@ -78,23 +78,23 @@ Content Page template: v.1.0.1-->
 					</div>
 				
 				<ol>
-					<li><p><b><a href="https://book.earthen.io/spirals"  target="_blank">Cyclical:</a></b>  In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.</p></li>
+					<li><p><b><a href="https://book.earthen.io/spirals"  target="_blank">Spiral:</a></b>  In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over in such a way that it steadily enriches local and global ecosystems.</p></li>
 
-					<li><p><b><a href="https://book.earthen.io/energy" target="_blank"> For-Earth:</a></b> In the same way that Earth’s cycles disperse  energy outwards from organism, to ecosystem to biosphere, so to can we.  In particular: with the enterprise of managing our plastic.  Rather than manage our plastic for profit, we can be sure to ecobrick first and foremost for the benefit of the biosphere.</p></li>
+					<li><p><b><a href="https://book.earthen.io/energy" target="_blank"> For-Earth:</a></b> In the same way that Earth’s cycles disperse  energy outwards from process, to ecosystem to biosphere, so to can we.  In particular: with the process of managing our plastic.  Rather than manage our plastic for profit, we can be sure to ecobrick first and foremost for the benefit of the biosphere.</p></li>
 
     				<li><p><b><a href="https://book.earthen.io/en/matter.html" target="_blank"> Towards Concentration:</a></b>  In the same way that Earth steadily compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or industrially recycling.</p></li>
     
 				
-    				<li><p><b><a href="https://book.earthen.io/earthen" target="_blank"> Towards Diversity:</a></b>  In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</p></li>
+    				<li><p><b><a href="https://book.earthen.io/en/diversification.html" target="_blank"> Towards Diversity:</a></b>  In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</p></li>
 
-    				<li><p><b><a href="https://book.earthen.io/earthen" target="_blank">Towards Awareness:</a></b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</p></li>
+    				<li><p><b><a href="https://book.earthen.io/earthen/awareness.html" target="_blank">Towards Awareness:</a></b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</p></li>
 
 				</ol>
 				<br><br><hr>
 
 			
 				<h5>ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
-				<h5>ℹ️ Learn about: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></h5>
+				<h5>ℹ️ Source: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></h5>
 
 
                 </div>
@@ -350,14 +350,6 @@ Content Page template: v.1.0.1-->
 				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
 				<h4>Vitalizing Biodiversity</h4>
 				<h5>Just as Earth has vitalized processes that diversify, so too can we.</h5><br>
-			</div>
-
-			<div class="side-module-desktop-mobile">
-				<img src="../icons/spiral-design-icon-ecobricks-org.svg" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
-				<h4>Spiral Design</h4>
-				<h5>Ecobrick applications follow the Earthen principle of crafting enriching cycles-- both socially and ecologically.</h5><br>
-				<a class="module-btn" href="circular">Learn More</a>
-				<h6 style="font-size:smaller">↗️ Learn about this Earthen principle</h6>
 			</div>
             
 			<div class="side-module-desktop-mobile">
