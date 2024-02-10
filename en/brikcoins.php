@@ -342,7 +342,7 @@ Content Page template: v.1.0.1-->
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footers/footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
