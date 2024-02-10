@@ -330,15 +330,7 @@
 
 		<div class="side">
 		
-		
-				
-			<?php include 'side-modules/about-gea.php';?> 
-
-			<?php include 'side-modules/for-earth.php';?> 
-
-			<?php include 'side-modules/sequest-module.php';?> 
-
-			<?php include 'side-modules/earthen-ethics.php';?> 
+			testing
 			
 		</div>
 
