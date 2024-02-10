@@ -184,7 +184,11 @@
 }
 
 
+.side {
+  background: rgb(212,212,212);
+	background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);
 
+}
 
 /* #logo-ecobricks-org, #logo-global-ecobrick-alliance {
   fill: #666;

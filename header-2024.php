@@ -89,10 +89,10 @@
 <!-- <script type="module" src="../mode-toggle.mjs.js"></script> -->
 <link rel="stylesheet" type="text/css" href="../mode-slider.css?v=2">
 <!--Default Light Styles to load first-->
-<link rel="preload" href="../mode-light.css?v5.94" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../mode-light.css?v5.95" as="style" onload="this.rel='stylesheet'">
  <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../mode-light.css?v5.94" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../mode-dark.css?v=7.94" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../mode-light.css?v5.95" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../mode-dark.css?v=7.95" media="(prefers-color-scheme: dark)">
  
 <!-- 
 <meta http-equiv="Content-Security-Policy" content="

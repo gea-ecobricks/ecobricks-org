@@ -206,9 +206,15 @@
 .splash-image {
   filter: invert(100%);}
 
-.splash-bar {
+#splash-bar {
   filter: invert(100%);
   box-shadow: 0 8px 7px rgba(255, 254, 254, 0.73);
+}
+
+.side {
+  background: #262751;
+	background: linear-gradient(126deg,#161736) 10%, #3c3d7c;
+
 }
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;
