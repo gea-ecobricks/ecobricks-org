@@ -27,6 +27,8 @@
   --modal-background: rgb(48, 52, 77);
   --search-row: rgba(255, 255, 255, 0.065);
   --side-overlays: rgb(24, 26, 38);
+  --accordion-background: #262751;
+  --accordion-highlight:  #121226;
 
 
 
@@ -196,6 +198,18 @@
   background-size: cover;
 }
 
+
+.splash-content-block {
+  filter: invert(100%);
+}
+
+.splash-image {
+  filter: invert(100%);}
+
+.splash-bar {
+  filter: invert(100%);
+  box-shadow: 0 8px 7px rgba(255, 254, 254, 0.73);
+}
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;
     background-size: contain;

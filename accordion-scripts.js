@@ -30,10 +30,10 @@
 
 	var y = document.getElementById("block1");
 	if (y.style.display === "grid") {
-		y.style.background = "#f6f6f6";
+		y.style.background = "var(--accordion-background)";
 		y.style.display = "block";
 	} else {
-		y.style.background = "#fff";
+		y.style.background = "var(--main-background)";
 		y.style.display = "grid";
 	}
 	
@@ -56,10 +56,10 @@
 	
 		var y = document.getElementById("block2");
 	if (y.style.display === "grid") {
-		y.style.background = "#f6f6f6";
+		y.style.background = "var(--accordion-background)";
 		y.style.display = "block";
 	} else {
-		y.style.background = "#fff";
+		y.style.background = "var(--main-background)";
 		y.style.display = "grid";
 	}
 	
@@ -81,10 +81,10 @@
 
 	var y = document.getElementById("block3");
 	if (y.style.display === "grid") {
-		y.style.background = "#f6f6f6";
+		y.style.background = "var(--accordion-background)";
 		y.style.display = "block";
 	} else {
-		y.style.background = "#fff";
+		y.style.background = "var(--main-background)";
 		y.style.display = "grid";
 	}
 	
@@ -106,10 +106,10 @@
 
 	var y = document.getElementById("block4");
 	if (y.style.display === "grid") {
-		y.style.background = "#f6f6f6";
+		y.style.background = "var(--accordion-background)";
 		y.style.display = "block";
 	} else {
-		y.style.background = "#fff";
+		y.style.background = "var(--main-background)";
 		y.style.display = "grid";
 	}
 	
@@ -131,10 +131,10 @@
 
 	var y = document.getElementById("block5");
 	if (y.style.display === "grid") {
-		y.style.background = "#f6f6f6";
+		y.style.background = "var(--accordion-background)";
 		y.style.display = "block";
 	} else {
-		y.style.background = "#fff";
+		y.style.background = "var(--main-background)";
 		y.style.display = "grid";
 	}
 	
@@ -158,10 +158,10 @@
   
 	  var y = document.getElementById("block6");
 	  if (y.style.display === "grid") {
-		  y.style.background = "#f6f6f6";
+		  y.style.background = "var(--accordion-background)";
 		  y.style.display = "block";
 	  } else {
-		  y.style.background = "#fff";
+		  y.style.background = "var(--main-background)";
 		  y.style.display = "grid";
 	  }
 	  
@@ -185,10 +185,10 @@
   
 	  var y = document.getElementById("block7");
 	  if (y.style.display === "grid") {
-		  y.style.background = "#f6f6f6";
+		  y.style.background = "var(--accordion-background)";
 		  y.style.display = "block";
 	  } else {
-		  y.style.background = "#fff";
+		  y.style.background = "var(--main-background)";
 		  y.style.display = "grid";
 	  }
 	  
@@ -211,10 +211,10 @@
   
 	  var y = document.getElementById("block8");
 	  if (y.style.display === "grid") {
-		  y.style.background = "#f6f6f6";
+		  y.style.background = "var(--accordion-background)";
 		  y.style.display = "block";
 	  } else {
-		  y.style.background = "#fff";
+		  y.style.background = "var(--main-background)";
 		  y.style.display = "grid";
 	  }
 	  
@@ -237,10 +237,10 @@
   
 	  var y = document.getElementById("block9");
 	  if (y.style.display === "grid") {
-		  y.style.background = "#f6f6f6";
+		  y.style.background = "var(--accordion-background)";
 		  y.style.display = "block";
 	  } else {
-		  y.style.background = "#fff";
+		  y.style.background = "var(--main-background)";
 		  y.style.display = "grid";
 	  }
 	  
@@ -264,10 +264,10 @@
   
 	  var y = document.getElementById("block10");
 	  if (y.style.display === "grid") {
-		  y.style.background = "#f6f6f6";
+		  y.style.background = "var(--accordion-background)";
 		  y.style.display = "block";
 	  } else {
-		  y.style.background = "#fff";
+		  y.style.background = "var(--main-background)";
 		  y.style.display = "grid";
 	  }
 	  

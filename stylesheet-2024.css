@@ -54,7 +54,7 @@
   
   h1 {
     font-family: 'Mulish', Arial, Helvetica, sans-serif;
-    color: #222222;
+    color: var(--text-color);
     font-weight: 300;
     text-shadow: 0 0 10px var(--h1);
   }

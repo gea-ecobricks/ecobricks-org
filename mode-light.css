@@ -11,6 +11,8 @@
     --logo-color: #666;
     --top-header: #fff;    
     --header-accent: rgb(133, 133, 133);
+    --accordion-background: #f6f6f6;
+    --accordion-highlight: #fff;
 
     --settings-background: rgb(213, 213, 213);
     --settings-border: rgb(220, 220, 222);

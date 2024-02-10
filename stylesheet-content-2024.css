@@ -374,7 +374,7 @@ margin-top: 40px;
   .block-toggle {
       margin: 5px;
       font-size: 2.0em;
-      background: #ffffff;
+      background: var(--accordion-highlight);
       padding: 15px 20px 15px 20px;
       border-radius: 10px;
       color: grey;
@@ -561,8 +561,12 @@ FAQS
 }
 	}
 
+  .reg-content-block {
+background: var(--accordion-background);
+  }
+
+
 #block1 {
-	background: #f6f6f6;
 	display: block;
 }
 
