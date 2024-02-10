@@ -4,7 +4,7 @@
 <META charset="UTF-8">
 
 <?php $lang='en';?>
-<link rel="stylesheet" type="text/css" href="../stylesheet-general.css">
+<!-- <link rel="stylesheet" type="text/css" href="../stylesheet-general.css"> -->
 <?php require_once ("../includes/brikcoins-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
@@ -68,7 +68,7 @@
 						<p>Two billion years ago, Earth's atmosphere was full of carbon dioxide.  The planet's climate was unstable and its surface barren.  However, steadily the atmosphere's CO2 was cycled into carbon-based life, which, generation after fallen generation, was buried and secured into the ground.  As more and more <a href="/plastic">carbon ended up sequestered</a>, there was less and less CO2 in the atmosphere.  Steadily the climate stabilized and Earth's biosphere blossomed.</p>
 
 						</div>
-						<div class="side2"><img src="../webp/earth-floating-500px.webp" style="width:80%" loading="lazy" alt="Earth service">
+						<div class="side2"><img src="../webp/earth-floating-500px.webp" style="width:100%" loading="lazy" alt="Earth service">
 						</div>
 					</div>
 					<div class="row2">
@@ -132,7 +132,7 @@
 							<p>The final criteria of plastic sequestration, is that of <a href="sequest.php/#auth">independent authentication:</a> confirmation that that all the other criteria have been met.  In order to authenticate ecobricks that have been made around the world as sequestered plastic, the GEA maintains the <a href="/gobrik">GoBrik platform</a>.  There every ecobrick logged is peer reviewed by the ecobricker community to confirm whether it meets <a href="what.php">GEA ecobrick standards</a>.</p>
 
 						</div>
-						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" width="85%">
+						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" style="width:100%" alt="authenticated ecobrick">
 						</div>
 					</div>
 					<div class="row">
@@ -178,7 +178,7 @@
 				<div id="preclosed3">
 
 					<br>
-					<img src="../pngs/manual-blockchain.png" width="90%" loading="lazy" alt="manual proof of value block chain">
+					<img src="../pngs/manual-blockchain.png" width="100%" loading="lazy" alt="manual proof of value block chain">
 
 					
 
