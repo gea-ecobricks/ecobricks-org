@@ -343,8 +343,7 @@ Content Page template: v.1.0.1-->
 
 		<?php include 'side-modules/eco-accounting-principle.php';?> 
 
-		
-	
+		<?php include 'side-modules/spiral-design.php';?> 
 
 		
 

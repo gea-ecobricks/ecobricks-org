@@ -126,7 +126,7 @@
   flex: 35%;
 	padding: 0px;
 	box-sizing: border-box;
-	margin-top: 0px;
+	margin: auto;
 }
 }
 
