@@ -23,7 +23,7 @@ Once translation is completed, you can remove the line below to take the transla
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">How to Make an Ecobrick</div>
-	    <div class="splash-sub">10 Step Guide to Making an Ecobrick</div>
+	    <div class="splash-sub">GEA 10 Step Guide</div>
 	</div>
 	<div class="splash-image"><img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="sky background">
     </div>	

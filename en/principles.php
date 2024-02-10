@@ -346,8 +346,37 @@ Content Page template: v.1.0.1-->
 		<?php include 'side-modules/spiral-design-principle.php';?> 
 
 		
+			<div class="side-module-desktop-mobile">
+				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
+				<h4>Vitalizing Biodiversity</h4>
+				<h5>Just as Earth has vitalized processes that diversify, so too can we.</h5><br>
+			</div>
 
-                <br>
+			<div class="side-module-desktop-mobile">
+				<img src="../icons/spiral-design-icon-ecobricks-org.svg" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
+				<h4>Spiral Design</h4>
+				<h5>Ecobrick applications follow the Earthen principle of crafting enriching cycles-- both socially and ecologically.</h5><br>
+				<a class="module-btn" href="circular">Learn More</a>
+				<h6 style="font-size:smaller">↗️ Learn about this Earthen principle</h6>
+			</div>
+            
+			<div class="side-module-desktop-mobile">
+					<img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
+					<h4>For-Earth</h4>
+					<h5>Just as Earth dispersed energy out to all, so too can we with our enterprises that manage used plastic.</h5><br>
+					<a class="module-btn" href="about">Our Example</a>
+				<h6 style="font-size:smaller">↗️ See how we do it</h6>
+			</div>
+
+			<div class="side-module-desktop-mobile">
+				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
+				<br><h4>Towards Concentration</h4>
+				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
+				<a class="module-btn" href="/plastic">Earth's Example</a>
+				<h6 style="font-size:smaller">↗️ Learn how Earth does it</h6>
+			</div>   
+
+
 			</div>   
 		</div>
 
