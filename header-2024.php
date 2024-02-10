@@ -51,24 +51,37 @@
  
 <link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.35">
 
-<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css">
-<link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css">
 
-
+<script src="../core-scripts-2024.js?v=2.32"></script>
 
 <!--This enables the Light and Dark mode switching-->
 <!-- <script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script> -->
-<script src="https://api.earthen.io/subscription-system.js?v=1"></script>
+<script src="https://api.earthen.io/subscription-system.js?v=1" defer></script>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> 
 
 
 
-<script src="../guided-tour.js?v=1.2"></script>
 
-<script src="../site-search.js?v=6"></script>
+<script src="../guided-tour.js?v=1.2" defer></script>
+
+<script src="../site-search.js?v=6" defer></script>
 
 
-<script src="../core-scripts-2024.js?v=2.32"></script>
+<script>
+    function loadStylesheet(url) {
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = url;
+        document.head.appendChild(link);
+    }
+
+    window.onload = function() {
+        loadStylesheet('../footer-stylesheet.css');
+        loadStylesheet('https://api.earthen.io/subscription-stylesheet.css');
+    };
+</script>
+
 
 
 <!-- <script type="module" src="../mode-toggle.mjs.js"></script> -->

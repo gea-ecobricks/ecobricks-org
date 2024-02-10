@@ -4,7 +4,7 @@
 <META charset="UTF-8">
 
 <?php $lang='en';?>
-<!-- <link rel="stylesheet" type="text/css" href="../stylesheet-general.css"> -->
+
 <?php require_once ("../includes/brikcoins-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->

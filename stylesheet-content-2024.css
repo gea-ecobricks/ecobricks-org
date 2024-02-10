@@ -100,7 +100,9 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
     }
     }
     
-
+    .side {
+      height:fit-content;
+    }
 
 /* Sidebar/right column */
 
