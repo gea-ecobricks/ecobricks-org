@@ -13,7 +13,7 @@ $result = $conn->query($sql);
         while($row = $result->fetch_assoc()) {
             
 
-            echo '<img src="../svgs/aes-brk-vertical.svg?v=2" style="width:65%; margin-top:20px;"><p style="font-size: 1.0em; margin-top:5px;">Live Brikcoin value:</p>
+            echo '<img src="../svgs/aes-brk-vertical.svg?v=2" style="width:95%; margin-top:20px;"><p style="font-size: 1.0em; margin-top:5px;">Live Brikcoin value:</p>
 
             <p>
             <span class="courier">
