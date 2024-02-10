@@ -102,76 +102,62 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
     
 
 
-    
-    /* Sidebar/right column */
-/*     
-    @media screen and (min-width: 700px) {
-        .side {
-        flex: 24%;
-        padding: 70px 20px 0px 20px;
-        box-sizing: border-box;
-        margin-top: -80px;
-        background: rgb(212,212,212);
-        background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);
-      border-radius: 20px;
-        }
-        } */
+/* Sidebar/right column */
 
-
-  @media screen and (min-width: 1301px) {
-    .side {
-    flex: 24%;
-    padding: 70px 20px 0px 20px;
-    box-sizing: border-box;
-    margin-top: -80px;
-    background:var(--top-header);
+@media screen and (min-width: 700px) {
+	.side {
+	flex: 24%;
+	padding: 70px 20px 0px 20px;
+	box-sizing: border-box;
+	margin-top: -80px;
+	background: rgb(212,212,212);
+	background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);
   border-radius: 20px;
-    }
-    }
-    
-    @media screen and (max-width: 700px) {
-        .side {
-        flex: 24%;
-        padding: 20px;
-        box-sizing: border-box;
-        
-        }
-        }
-    
-    /* Sidebar/right column */
-    
-    @media screen and (min-width: 700px) {
-        .side2 {
-        flex: 30%;
-        padding-left: 10px;
-        box-sizing: border-box;
-            }
-        }
-    
-    @media screen and (max-width: 700px) {
-        .side2 {
-        display: none;
-        
-        }
-        }
-    
-    /* Sidebar/right column */
-    
-    @media screen and (min-width: 700px) {
-        .side3 {
-        display: none;
-        
-        }
-        }
-    
-    @media screen and (max-width: 700px) {
-        .side3 {
-        flex: 40%;
-        padding-left: 10px;
-        box-sizing: border-box;
-            }
-        }
-    
+	}
+	}
+
+@media screen and (max-width: 700px) {
+	.side {
+	flex: 24%;
+	padding: 20px;
+	box-sizing: border-box;
+	
+	}
+	}
+
+/* Sidebar/right column */
+
+@media screen and (min-width: 700px) {
+	.side2 {
+	flex: 30%;
+	padding-left: 10px;
+	box-sizing: border-box;
+		}
+	}
+
+@media screen and (max-width: 700px) {
+	.side2 {
+	display: none;
+	
+	}
+	}
+
+/* Sidebar/right column */
+
+@media screen and (min-width: 700px) {
+	.side3 {
+	display: none;
+	
+	}
+	}
+
+@media screen and (max-width: 700px) {
+	.side3 {
+	flex: 40%;
+	padding-left: 10px;
+	box-sizing: border-box;
+		}
+	}
 
 #splash-bar {
 margin-top: -50px;
