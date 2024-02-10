@@ -9,7 +9,7 @@
 <?php require_once ("../includes/brikcoins-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+
 
 <!--PAGE BANNER-->
 
@@ -26,14 +26,14 @@
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
+<div id="top"></div>
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-		<p>Based on real world ecological value, the Brikcoin "blockchain" energizes our petro-capital transition.</p>
+		<p>Based on real world ecological value, the Brikcoin manual-blockchain energizes our petro-capital transition to a regenerative world.</p>
 		</div>
 
 		<div class="page-paragraph">
