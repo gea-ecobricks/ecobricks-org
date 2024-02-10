@@ -49,13 +49,13 @@
 	
 
  
-<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.36">
+<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.37">
 
 
 <script src="../core-scripts-2024.js?v=2.32"></script>
 
 <!--This enables the Light and Dark mode switching-->
-<!-- <script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script> -->
+<script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script>
 <script src="https://api.earthen.io/subscription-system.js?v=1" defer></script>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> 
 
@@ -87,12 +87,12 @@
 
 
 <!-- <script type="module" src="../mode-toggle.mjs.js"></script> -->
-<!-- <link rel="stylesheet" type="text/css" href="../mode-slider.css?v=2"> -->
+<link rel="stylesheet" type="text/css" href="../mode-slider.css?v=2">
 <!--Default Light Styles to load first-->
 <link rel="preload" href="../mode-light.css?v5.93" as="style" onload="this.rel='stylesheet'">
  <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../mode-light.css?v5.93" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<!-- <link rel="stylesheet" href="../mode-dark.css?v=7.91" media="(prefers-color-scheme: dark)"> -->
+<link rel="stylesheet" href="../mode-dark.css?v=7.91" media="(prefers-color-scheme: dark)">
  
 <!-- 
 <meta http-equiv="Content-Security-Policy" content="
