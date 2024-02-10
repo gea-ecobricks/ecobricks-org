@@ -173,6 +173,21 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
         }
     
 
+.splash-bar {
+margin-top: -50px;
+width: 100%;
+height:80px;	
+position: relative;
+z-index: 0;
+box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+  /* background-color: #FA8D04; */
+-webkit-transform: skewY(-3deg);
+-moz-transform: skewY(-3deg);
+-ms-transform: skewY(-3deg);
+-o-transform: skewY(-3deg);
+transform: skewY(-3deg);
+margin-bottom: 40px;
+}
 
 
 /* -------------------------------------------------------------------------- */

@@ -20,7 +20,6 @@
 		<div class="splash-sub">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere.</div>
 		<img src="../webp/brikcoins-450px.webp">
 	</div>
-	
 </div>
 <div id="splash-bar"></div>
 
