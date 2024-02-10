@@ -324,7 +324,7 @@
 					</div>
 			</div>
 		</div>
-		</div>
+	
 
 
 		<div class="side">
