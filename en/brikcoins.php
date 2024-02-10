@@ -338,6 +338,9 @@
 
 			<?php include 'side-modules/for-earth.php';?> 
 
+			<?php include 'side-modules/sequest-module.php';?> 
+
+		
 			
 		</div>
 

@@ -57,7 +57,7 @@
 
 
 <!--This enables the Light and Dark mode switching-->
-<script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script>
+<!-- <script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script> -->
 <script src="https://api.earthen.io/subscription-system.js?v=1"></script>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> 
 
