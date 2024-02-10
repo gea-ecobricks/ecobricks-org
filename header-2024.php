@@ -72,7 +72,6 @@
 
 
 <!-- <script type="module" src="../mode-toggle.mjs.js"></script> -->
-<link rel="stylesheet" type="text/css" href="../mode-slider.css?v=1">
 <!--Default Light Styles to load first-->
 <link rel="preload" href="../mode-light.css?v5.92" as="style" onload="this.rel='stylesheet'">
  <!--Stylesheets for light and dark mode.  They need to be called here-->

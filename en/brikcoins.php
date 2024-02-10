@@ -324,6 +324,8 @@
 					</div>
 			</div>
 		</div>
+		main closed
+		</div>
 
 
 		<div class="side">
