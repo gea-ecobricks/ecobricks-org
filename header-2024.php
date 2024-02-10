@@ -49,7 +49,7 @@
 	
 
  
-<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.35">
+<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.36">
 
 
 <script src="../core-scripts-2024.js?v=2.32"></script>

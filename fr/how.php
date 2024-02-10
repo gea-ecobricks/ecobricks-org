@@ -15,15 +15,15 @@ Content Page template: v.1.0.0-->
 
 Once translation is completed, you can remove the line below to take the translation notice off the page-->
 
-<!--<?php require_once ("translate-please.php");?>-->
+<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">How to Make an Ecobrick</div>
-	    <div class="splash-sub">GEA 10 Step Guide</div>
+		<div class="splash-heading" data-lang-id="2000-page-title">How to Make an Ecobrick</div>
+	    <div class="splash-sub" data-lang-id="2000-page-title">GEA 10 Step Guide</div>
 	</div>
 	<div class="splash-image"><img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="sky background">
     </div>	
