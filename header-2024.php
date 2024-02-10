@@ -60,12 +60,7 @@
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> 
 
 
-
-
-<script src="../guided-tour.js?v=1.2" defer></script>
-
-<script src="../site-search.js?v=6" defer></script>
-
+<link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css">
 
 <script>
     function loadStylesheet(url) {
@@ -78,9 +73,15 @@
 
     window.onload = function() {
         loadStylesheet('../footer-stylesheet.css');
-        loadStylesheet('https://api.earthen.io/subscription-stylesheet.css');
     };
 </script>
+
+
+<script src="../guided-tour.js?v=1.2" defer></script>
+
+<script src="../site-search.js?v=6" defer></script>
+
+
 
 
 
