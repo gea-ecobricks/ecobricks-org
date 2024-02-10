@@ -277,7 +277,7 @@
 
 						</div>
 
-						<div class="side2"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%">
+						<div class="side2"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic>
 						</div>
 
 					</div>
@@ -290,7 +290,7 @@
 						</div>
 
 						<div class="side3">
-							<img src="../pngs/White-Paper-Icon2-400px.png" width="150px">
+							<img src="../pngs/White-Paper-Icon2-400px.png" width="150px" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic">
 						</div>
 					</div>
 					
@@ -323,8 +323,8 @@
 						</div>
 					</div>
 			</div>
-		</div>
-	</div>
+	
+
 
 		<div class="side">
 		
