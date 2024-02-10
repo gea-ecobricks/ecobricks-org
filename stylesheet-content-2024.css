@@ -225,9 +225,9 @@ margin-bottom: 40px;
 	padding: 15px 15px 28px 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: #ECECEC;
+	background-color: var(--slide-overlays);
 	text-align: center;
-	border-color: white;
+	border-color: var(--slide-highlight);
 }
 
 @media screen and (max-width: 700px) {
@@ -366,9 +366,9 @@ margin-top: 40px;
 }
 
 button:hover {
-  background: var(--h1);
+  background: var(--main-background);
   cursor: pointer;
-  color: var(--same);
+  color: var(--h1);
   border-bottom: red;
   border-bottom-width: 1px;
 
