@@ -359,7 +359,7 @@ window.onload = function() {
                         <div class="reg-privacy-subtitle" data-lang-id="117-privacy-subtitle">As a not-for-profit Earth enterprise on principle we do partake in any 3rd party advertising, nor connect your data to social platforms that do.  Your data will not be sold or exchanged.  We proudly use Ghost.org's for our newsletter-- a not-for-profit open source platform which we host on our own servers.  Our newsletters are sent usually once a month, we commit to not exceeding more than one a week.</div>
                         <div style="display:flex; flex-flow:row;width:fit-content;margin:-10px 10% 0px auto;">
                             <div class="full-privacy-policy-link">
-                                <a href="https://earthen.io/privacy/" data-lang-id="118-full-privacy-link">Our Full Privacy Policy</a>
+                                <a href="https://earthen.io/privacy/" data-lang-id="118-full-privacy-link" target="_blank">Our Full Privacy Policy</a>
                             </div>
                             <button type="button" aria-label="Back" class="btn" onclick="previewPrivacy()" style="height:fit-content; padding:10px 15px 10px 15px;border-radius:10px;" >OK</button>                      
                         </div>

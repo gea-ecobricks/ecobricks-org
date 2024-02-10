@@ -65,7 +65,7 @@ const en_Translations = {
             "115-subscription-do-not-show-again": "I've already signed up or I am not interested - don't show again",
             "116-privacy-title": "Your Data is Safe",
             "117-privacy-subtitle": "As a not-for-profit Earth enterprise on principle we do partake in any 3rd party advertising, nor connect your data to social platforms that do.  Your data will not be sold or exchanged.  We proudly use Ghost.org's for our newsletter-- a not-for-profit open source platform which we host on our own servers.  Our newsletters are sent usually once a month, we commit to not exceeding more than one a week.",
-            "118-full-privacy-link": ">Our Full Privacy Policy",
+            "118-full-privacy-link": "Our Full Privacy Policy",
           
           
         /* Guided Tour Curtain */
