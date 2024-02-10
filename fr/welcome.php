@@ -48,7 +48,8 @@ https://github/globalecobrickalliance/ecobricks.org
             <button type="button" class="feature-button" data-lang-id="304-featured-2-button" onclick="guidedTour()">Intro to Ecobricking</button>
 
             <div class="feature-reference-links" data-lang-id="305-featured-2-references">
-                <a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a> <!--| <a href="/reports">Reports & Whitepapers</a>-->
+                <h6>
+                <a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
             </div>
         </div>
     </div>

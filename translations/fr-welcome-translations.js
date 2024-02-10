@@ -103,7 +103,7 @@ const fr_Translations = {
             '302-featured-2-heading': 'Gardez Votre Plastique en Sécurité',
             '303-featured-2-subheading': 'Lorsque le plastique se disperse dans la biosphère, il contamine et empoisonne. Lorsqu’il est traité par l’industrie, il génère des émissions et encourage la consommation et la production de plus de plastique. L’écobricking est une méthode simple et non capitalistique pour garder votre plastique en sécurité et assuré afin qu’il puisse être utilisé à bon escient, de manière écologique.',
             '304-featured-2-button': 'Introduction à l’Écobricking',
-            '305-featured-2-rreferences': '<a href="/what">Les Bases</a> | <a href="/why/">Pourquoi ?</a> | <a href="/transition">Transition du Plastique</a> | <a href="/how">Comment Faire</a>',
+            '305-featured-2-rreferences': '<h6><a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a></h6>',
             
             '306-featured-3-heading': 'Applications Impressionnantes',
             '307-featured-3-subheading': 'Les écobricks transforment le plastique problématique en blocs réutilisables qui peuvent être employés dans des applications de construction de plus en plus vertes. Du mobilier aux jardins en passant par les structures, nos applications recommandées incarnent le principe de la conception en spirale. Le plastique n’a pas à être un problème – c’est le début de la solution.',
