@@ -338,43 +338,7 @@ Content Page template: v.1.0.1-->
 		
 
 		<div class="side">
-
-		<?php include 'side-modules/earthen-ethics-principle.php';?> 
-
-		<?php include 'side-modules/eco-accounting-principle.php';?> 
-
-		
-			<div class="side-module-desktop-mobile">
-				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
-				<h4>Vitalizing Biodiversity</h4>
-				<h5>Just as Earth has vitalized processes that diversify, so too can we.</h5><br>
-				<!--<a class="module-btn" href="about">Learn More</a>
-				<h6 style="font-size:smaller">See how we track diversity</h6>-->
-				
-			</div>
-            
-			<div class="side-module-desktop-mobile">
-					<img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
-					<h4>For-Earth</h4>
-					<h5>Just as Earth dispersed energy out to all, so too can we with our enterprises that manage used plastic.</h5><br>
-					<a class="module-btn" href="about">Our Example</a>
-				<h6 style="font-size:smaller">See how we do it</h6>
-
-				</div>
-
-			<div class="side-module-desktop-mobile">
-				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
-				<br><h4>Towards Concentration</h4>
-				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
-				<a class="module-btn" href="/plastic">Earth's Example</a>
-				<h6 style="font-size:smaller">Learn how Earth did it</h6>
-
-                <br>
-			</div>   
-
-			<?php include 'side-modules/cyclical-design.php';?>
-
-		
+nothing
 
                 <br>
 			</div>   

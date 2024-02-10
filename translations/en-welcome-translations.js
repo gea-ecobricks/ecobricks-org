@@ -29,7 +29,7 @@ const en_Translations = {
 
         /*Menu of pages curtain*/
 
-        '001-introduction': 'Introduction',
+        '001-introduction': '<a style="text-align:center">Introduction</a>',
         '002-what-are-ecobricks': 'What are Ecobricks?',
         '003-how-to': 'How to Make?',
         '004-why-ecobricks': 'Why Ecobricks?',
