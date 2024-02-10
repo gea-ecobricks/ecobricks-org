@@ -48,7 +48,7 @@
         </div>
 
 		
-			<a div="ECO-VALUE"></div>
+			<div id="ECO-VALUE"></div>
             <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">
@@ -251,38 +251,47 @@
 			
 
 
-			<a div="WHITEPAPER"></div>
+			<div id="WHITEPAPER"></div>
+
             <div class="reg-content-block" id="block5">
 
                 <div class="opener-header">
                     
                     <div class="opener-header-text">
-                    <h4>White Paper</h4>
-                    <h5>The Commodification of Sequestered Plastic</h5>   
-                    <br>
+						<h4>White Paper</h4>
+						<h5>The Commodification of Sequestered Plastic</h5>   
+						<br>
                     </div>
 
                     <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
+
                 </div>
 
                 <div id="preclosed5">
 
-				<div class="row">
+					<div class="row">
 						<div class="main2">
 
-                		<p><p>On Earth Day 2020, the GEA released version 1.0 of the <i>Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic</i>.  The 32 page document is the work of half a dozen contributors specializing in fields ranging from micro-plastic research, alternative currencies, philosophy, community development and database development.</p>
-						<p>The white paper lays out the framework for basing the brikcoin currency on the ecological value of plastic sequestration.</p>
+							<p>On Earth Day 2020, the GEA released version 1.0 of the <i>Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic</i>.  The 32 page document is the work of half a dozen contributors specializing in fields ranging from micro-plastic research, alternative currencies, philosophy, community development and database development.</p>
+
+							<p>The white paper lays out the framework for basing the brikcoin currency on the ecological value of plastic sequestration.</p>
 
 						</div>
+
 						<div class="side2"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%">
 						</div>
+
 					</div>
+
+
 					<div class="row2">
-						<div class="main3">
-						<p>📥 Download: <a href="https://nextcloud.ecobricks.org/index.php/s/fNNYjG7A3gxco9n" target="_blank">The Commodification of Sequestered Plastic</a><br><h5>📄 GEA White Paper | PDF | 2.1 MB</a></p>
 						
+						<div class="main3">
+							<p>📥 Download: <a href="https://nextcloud.ecobricks.org/index.php/s/fNNYjG7A3gxco9n" target="_blank">The Commodification of Sequestered Plastic</a><br><h5>📄 GEA White Paper | PDF | 2.1 MB</a></p>
 						</div>
-						<div class="side3"><img src="../pngs/White-Paper-Icon2-400px.png" width="150px">
+
+						<div class="side3">
+							<img src="../pngs/White-Paper-Icon2-400px.png" width="150px">
 						</div>
 					</div>
 				 
@@ -318,6 +327,8 @@
 
 
 		</DIV>
+
+		</div>
 		
 
 		<div class="side">
