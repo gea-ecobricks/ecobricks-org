@@ -277,7 +277,7 @@
 
 						</div>
 
-						<div class="side2"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic>
+						<div class="side2"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic">
 						</div>
 
 					</div>
@@ -314,7 +314,7 @@
 							<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 							<br><br>
 							<a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a>
-							<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+							<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</p>
 						
 						</div>
 
