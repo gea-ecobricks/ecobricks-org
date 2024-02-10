@@ -49,7 +49,7 @@
 	
 
  
-<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.37">
+<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.38">
 
 
 <script src="../core-scripts-2024.js?v=2.32"></script>
@@ -60,8 +60,8 @@
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> 
 
 
-<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css">
-<link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css">
+<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=2">
+<link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css?v=2">
 
 <!-- <script>
     function loadStylesheet(url) {
@@ -89,10 +89,10 @@
 <!-- <script type="module" src="../mode-toggle.mjs.js"></script> -->
 <link rel="stylesheet" type="text/css" href="../mode-slider.css?v=2">
 <!--Default Light Styles to load first-->
-<link rel="preload" href="../mode-light.css?v5.93" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../mode-light.css?v5.94" as="style" onload="this.rel='stylesheet'">
  <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../mode-light.css?v5.93" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../mode-dark.css?v=7.91" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../mode-light.css?v5.94" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../mode-dark.css?v=7.94" media="(prefers-color-scheme: dark)">
  
 <!-- 
 <meta http-equiv="Content-Security-Policy" content="
