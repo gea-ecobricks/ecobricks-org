@@ -332,7 +332,15 @@
 			<?php include 'ecobricks_env.php';?> 
 			<?php require_once ("side-modules/brikcoin-live-values.php");?>
 			<?php 	$conn->close();?>
+			
+				
+			<?php include 'side-modules/about-gea.php';?> 
 
+			<?php include 'side-modules/for-earth.php';?> 
+
+			<?php include 'side-modules/sequest-module.php';?> 
+
+			<?php include 'side-modules/earthen-ethics-principles.php';?> 
 			
 		</div>
 
