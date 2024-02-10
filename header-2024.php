@@ -60,9 +60,10 @@
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> 
 
 
+<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css">
 <link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css">
 
-<script>
+<!-- <script>
     function loadStylesheet(url) {
         var link = document.createElement('link');
         link.rel = 'stylesheet';
@@ -74,7 +75,7 @@
     window.onload = function() {
         loadStylesheet('../footer-stylesheet.css');
     };
-</script>
+</script> -->
 
 
 <script src="../guided-tour.js?v=1.2" defer></script>
