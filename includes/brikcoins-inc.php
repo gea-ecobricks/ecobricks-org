@@ -23,7 +23,6 @@ _END;?>
 
 <?php require_once ("../meta/brikcoins-$lang.php");?>
 
-<?php require_once ("../header-2024.php");?>
 
 
 <STYLE>
@@ -175,13 +174,4 @@ margin: 12px;
 
 </style>
 
-</head>
-							  
-											  
-<BODY id="full-page">
-
-	  <div id="load-background">
-        
-	<!-- This loads the page's language specific menu -->
-
-    <?php require_once ("../menus/menu-$lang.php");?>
+<?php require_once ("../header-2024.php");?>
