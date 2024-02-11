@@ -6,7 +6,7 @@
 <link rel="preload" as="image" href="../webp/eb-sky-400px.webp">
 <link rel="preload" as="image" href="../webp/build-banner-1400px.webp">
 
-<link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=2.3"> 
+<!-- <link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=2.3">  -->
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 

@@ -381,7 +381,7 @@ border-left-width: 1px;
 
 
 .advanced-box {
-  background-color:#D4D4D4;
+  background-color:var(--advanced-background);
   border-radius:10px;
   padding: 10px 10px 0px 10px;
   margin-top:40px;
