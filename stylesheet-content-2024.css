@@ -326,6 +326,7 @@ margin-top: 40px;
   padding: 8px 15px 8px 15px;
   text-decoration: none;
   overflow-x: none;
+  border: none;
 }
 
 .module-btn:hover {

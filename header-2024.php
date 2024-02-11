@@ -185,7 +185,7 @@ window.onload = function() {
         <div class="modal-description" data-lang-id="204-tour-2-description">It's pretty simple.  An ecobrick is a plastic bottle densely packed with used plastic to create a reusable building block that achieves <b>plastic sequestration</b>.  To make one, all you need is a stick and a bottle.</div>
         <button class="back" data-lang-id="205-tour-back-button">↩ Back</button>
         <button class="next" data-lang-id="206-tour-next-button">Next ➔</button>
-        <div class="reference" data-lang-id="207-tour-2-reference">Definition from <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Go deeper: <a href="what">ecobricks.org/what</a></div>
+        <div class="reference" data-lang-id="207-tour-2-reference">Definition from <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Go deeper: <a href="what.php">ecobricks.org/what</a></div>
     </div>
     
       
@@ -252,19 +252,19 @@ window.onload = function() {
 
         <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a style="text-align:center">Introduction</a></div>
         
-        <div class="menu-page-item"><a href="what" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
+        <div class="menu-page-item"><a href="what.php" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
 
-        <div class="menu-page-item" ><a href="how" data-lang-id="003-how-to">How to make?</a></div>
+        <div class="menu-page-item" ><a href="how.php" data-lang-id="003-how-to">How to make?</a></div>
         
         <div class="menu-page-item" ><a href="why" data-lang-id="004-why-ecobricks">Why Ecobricks?</a></div>
 
         <div class="menu-page-item" ><a href="plastic" data-lang-id="005-earth-example">Earth's Example</a></div>
 
-        <div class="menu-page-item" ><a href="principles" data-lang-id="006-our-principles">Our Earthen Principles</a></div>
+        <div class="menu-page-item" ><a href="principles.php" data-lang-id="006-our-principles">Our Earthen Principles</a></div>
 
-        <div class="menu-page-item" ><a href="build" data-lang-id="007-construction">Building with Ecobricks</a></div>
+        <div class="menu-page-item" ><a href="build.php" data-lang-id="007-construction">Building with Ecobricks</a></div>
 
-        <div class="menu-page-item" ><a href="about" data-lang-id="008-about-us">About us</a></div>
+        <div class="menu-page-item" ><a href="about.php" data-lang-id="008-about-us">About us</a></div>
 
         <div class="menu-page-item" ><a href="sequest.php" data-lang-id="009-plastic-sequestration">Plastique Sequestration</a></div>
     </div>

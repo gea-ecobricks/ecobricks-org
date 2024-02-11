@@ -36,7 +36,7 @@ const fr_Translations = {
             '004-why-ecobricks': 'Pourquoi les écobriques?',
             '005-earth-example': 'L\'exemple Terrestre',
             '006-our-principles': 'Nos principes Terrestres',
-            '007-construction': 'Construction d\'éco-briques',
+            '007-construction': 'Construction d\'écobriques',
             '008-about-us': 'À propos de nous',
             '009-plastic-sequestration': 'Séquestration du plastique',
     

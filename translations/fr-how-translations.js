@@ -17,7 +17,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const fr_Page_Translations = {
 
-    '001-splash-title': 'Comment fabriquer un Ecobrick !',
+    '001-splash-title': 'Comment fabriquer un Ecobrick',
     '002-splash-subtitle': 'Guide en 10 étapes par GEA',
     '003-splash-image-alt': '<img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="Comment fabriquer un écobrick">',
     
