@@ -396,9 +396,9 @@ window.onload = function() {
     flex-flow: row;">
 
         
-        <svg  version="1.1" viewBox="0 0 130.09 28.997" xmlns="http://www.w3.org/2000/svg" id="gea-logo" title="Ecobricks.org | <?php echo ($version); ;?>"> 
+        <svg  version="1.1" viewBox="0 0 130.09 28.997" xmlns="http://www.w3.org/2000/svg" id="gea-logo" > 
 
-            <g id="logo-full" transform="translate(-36.122 -89.481)" fill="#646464">
+            <g id="logo-full" title="Ecobricks.org | <?php echo ($name) ($version); ;?>" transform="translate(-36.122 -89.481)" fill="#646464">
                 <g id="logo-global-ecobrick-alliance" transform="matrix(.19017 0 0 .19017 210.48 97.699)" stroke-width="1px" aria-label="Global Ecobrick Alliance">
                     <path id="path1071" d="m-731.19 103.96v-5.9375c-1.6961 3.7617-5.7958 5.9267-9.8116 6.0416-3.7576 0.19762-7.6601-1.0879-10.239-3.8992-4.166-4.3772-5.1601-11.163-3.2776-16.79 1.4756-4.5087 5.2472-8.2775 9.9195-9.351 4.0288-0.9404 8.5405-0.1914 11.751 2.5182 0.9361 0.50128 1.4943 1.7727 2.4564 2.0267h1.5644v3.4766h-4.1992c-1.7836-3.1878-5.4842-5.1584-9.13-4.732-4.2421 0.29513-7.6506 3.8014-8.7588 7.763-1.2487 4.291-0.48415 9.3982 2.6684 12.699 2.1908 2.2326 5.4377 3.2277 8.5152 2.7769 2.8964-0.2458 5.6822-1.9442 6.9195-4.6258 0.22469-0.76962 1.4019-2.4886 0.686-2.8069h-7.9511v-3.3594h12.52v14.199h-3.6328z"/>
                     <path id="path1073" d="m-722.14 73.448h6.5625v27.031h3.0469v3.3594h-9.6094v-3.3594h2.9297v-23.672h-2.9297z"/>
