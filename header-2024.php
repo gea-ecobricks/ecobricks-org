@@ -4,7 +4,7 @@
 	$name = $parts [count($parts)-1];
 	if (strcmp($name, "welcome.php") == 0)
   $name = "";
-	;?>
+	;?> 
 	
 	<link rel="canonical" href="https://ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -117,10 +117,10 @@
 
 window.onload = function() {
     var siteName = 'Ecobricks.org'; // Default language code
-    setPageLanguageFromCache();
-    alert(currentLanguage);
+    // setPageLanguageFromCache();
+    // alert(currentLanguage);
   var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
-  
+  switchLangue(currentLanguage);
   updateLogoColor(); 
 
 }
