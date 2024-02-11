@@ -297,21 +297,21 @@
 			<p>That said, a good solid ecobrick that meets all GEA guidelines is something you can be proud and which will inspire others!  An ecobrick&#8217;s heft and quality set an inspiring example for others and energize the social spread of ecobricks.  When others see and hold your ecobrick, they will understand immediately that something important has happened: "waste" has been transformed into something fundamentally useful.</p>
 
 
-				<div class="advanced-box"> 
-			            <div class="advanced-box-header">
-        					<div class="advanced-title">
-			                                Advanced
-               		     	</div>
-							<div class="advanced-open-icon">+
-							</div>
+			<div class="advanced-box"> 
+					<div class="advanced-box-header">
+						<div class="advanced-title">
+										Advanced
 						</div>
-						<div class="advanced-box-content">                    
-	        				<p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
-							
-								
+						<div class="advanced-open-icon">+
 						</div>
 					</div>
+					<div class="advanced-box-content">                    
+						<p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
+						
+							
+					</div>
 			</div>
+			
 		</div>
 	</div>
 </section>
@@ -349,7 +349,8 @@
 			
 			<p>We've also made a point-chart and sample form in our <a href="https://www.ecobricks.org/download/">Vision Ecobrick Guide</a> that can be photocopied for logging ecobricks in schools.</p>
 		</div>
-	</div>			
+	</div>	
+	</section>		
 
 	<a id="INSCRIBE"></a>
 	<div class="reg-content-block" id="block9">
