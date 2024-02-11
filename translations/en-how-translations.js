@@ -59,6 +59,19 @@ const en_Page_Translations = {
 '037-block-3-advanced-image-alt': 'EarthWand icon',
 '038-block-3-learn-more': 'Learn more..',
 
+'039-block-4-opener-header': '4. No glass, metal or biodegradables',
+'040-block-4-opener-subheader': 'What you don\'t put in your ecobrick is just as important as what you do!',
+'041-block-4-main-image-alt': 'What to put in your eco-brick',
+'042-block-4-paragraph-1': 'The reason we are putting plastic inside a bottle is to secure it otherwise it would get loose into the environment and degrade into microplastics and toxins. Stuff like cotton cloth, metal, paper, cardboard, glass, and organic material will not degrade into toxins so there is no need to secure them. Be especially careful not to pack sharp metal or glass into an ecobrick– they can rupture the sides and pose a danger for handling. There are other solutions for these materials:',
+'043-block-4-list': 'Options for non-plastic materials',
+'044-block-4-list-item-1': 'Paper and cardboard can be safely industrially recycled, composted, or burnt.',
+'045-block-4-list-item-2': 'Biodegradables can be composted or left to biodegrade.',
+'046-block-4-list-item-3': 'Metals and glass can be industrially recycled.',
+'047-block-4-advanced-title': 'Advanced',
+'048-block-4-advanced-paragraph': 'What about combinations of plastic and paper? What about a sticker on a paper envelope? Putting a little paper into your ecobrick isn\'t the end of the world. The contained environment will keep it from degrading. The main reason for not putting dry paper (or other organic materials) into an ecobrick is to maximize the space for containing plastic. There are many lively discussions in our social media communities about what should and should not go into an ecobrick. Feel free to join a group near you and ask a question.',
+
+
+
 
 
     

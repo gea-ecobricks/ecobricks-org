@@ -34,6 +34,8 @@ const id_Page_Translations = {
     '014-block-1-advanced-image-alt': '<img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="plastik ditimbang">',
     '015-block-1-advanced-paragraph': 'Kemudian mereka mentransfer plastik ini ke wadah “Untuk Ecobrick” mereka, yang dapat digunakan oleh siapa saja di rumah untuk langsung membuat ecobrick. Bulan demi bulan, pembuat ecobrick melacak plastik mereka, dan membandingkannya dengan ecobrick mereka bulan itu. Ini memungkinkan mereka untuk menentukan PTR mereka dan kemajuan mereka mencapai nol limbah dan melampaui itu!',
     '016-block-2-opener-header': '2. Pilih Botol Anda',
+
+
 '017-block-2-opener-subheader': 'Sebelum memulai ecobricking, pilih satu botol tertentu dan gunakan itu saja.',
 '018-block-2-main-image-alt': '<img src="../svgs/02-Choose-your-Bottle-1.svg" width="640" alt="Pilih jenis botol yang ideal" loading="lazy" class="full-width-image">',
 '019-block-2-paragraph-1': 'Saat tiba waktu untuk membangun, memiliki ukuran ecobrick yang identik sempurna itu penting untuk membuat modul yang solid dan stabil. Ini juga membantu memiliki setidaknya ukuran botol yang sama umumnya saat membangun dengan tanah dan ecobricks. Bicaralah dengan ecobricker di komunitas Anda dan buatlah pilihan bersama tentang botol mana yang akan digunakan.',
@@ -45,10 +47,31 @@ const id_Page_Translations = {
 '025-block-2-list-project': '<strong>Proyek Anda</strong>',
 '026-block-2-list-project-detail': 'Untuk membangun modul dengan Ecobricks, Anda memerlukan botol yang persis sama ukuran dan bentuknya. Untuk proyek pembangunan di luar ruangan, kesamaan yang tepat tidak terlalu penting, selama volume konsisten (mis. semua botol 600ml). Tergantung pada ukuran konstruksi, Anda akan membutuhkan botol dengan ukuran yang berbeda. Misalnya, botol kecil membuat dinding yang bagus, dan botol besar membuat bangku yang bagus.',
 '027-block-2-advanced-title': 'Lanjutan',
-'028-block-2-advanced-paragraph': '💡 Jika Anda berpikir untuk membuat <a href="../dms">Modul Lego Dieleman</a> dengan ecobrick Anda, Anda juga harus mempertimbangkan bagian atas botol yang meruncing. Modul Dieleman bekerja paling baik ketika jarak antara bagian atas botol dan awal meruncingnya kecil. Ini memungkinkan lebih banyak area permukaan untuk peg terbalik dari modul Dieleman yang akan dipasang.'
+'028-block-2-advanced-paragraph': '💡 Jika Anda berpikir untuk membuat <a href="../dms">Modul Lego Dieleman</a> dengan ecobrick Anda, Anda juga harus mempertimbangkan bagian atas botol yang meruncing. Modul Dieleman bekerja paling baik ketika jarak antara bagian atas botol dan awal meruncingnya kecil. Ini memungkinkan lebih banyak area permukaan untuk peg terbalik dari modul Dieleman yang akan dipasang.',
 
+'029-block-3-opener-header': '3. Siapkan tongkat Anda',
+'030-block-3-opener-subheader': 'Para pembuat ecobrick suka menyebut tongkat pemadat mereka, tongkat ajaib mereka. Ini membuat plastik menghilang!',
+'031-block-3-main-image-alt': 'Padatkan ecobrick Anda dengan plastik daur ulang menggunakan tongkat',
+'032-block-3-paragraph-1': 'Memiliki tongkat yang tepat akan membuat perbedaan besar dalam pembuatan ecobrick Anda.',
+'033-block-3-paragraph-2': 'Bambu dan kayu membuat tongkat terbaik. Ukuran tongkat tergantung pada jenis botol yang Anda pilih. Anda ingin tongkat dengan diameter kira-kira sepertiga dari lebar bukaan botol standar– sekitar 6mm. Anda ingin tongkat Anda sekitar dua kali tinggi botol Anda, dengan ujung yang sedikit bulat. Hindari tongkat dengan sudut tajam karena dapat merobek botol Anda– dan ya, ini berarti Anda harus memulai ecobrick Anda dari awal lagi!',
+'034-block-3-paragraph-3': 'Setelah Anda mendapatkan tongkat dengan ukuran dan bentuk yang tepat, Anda siap! Anda kemudian dapat memberikannya kepada orang lain untuk ditiru dan direplikasi. Begitulah cara Pelatih GEA kami melakukan workshop mereka - lebih banyak sihir! Satu tongkat berubah menjadi banyak!',
+'035-block-3-advanced-title': 'Lanjutan',
+'036-block-3-advanced-paragraph': '💡 GEA telah mengembangkan alat ecobricking optimal– kami menyebutnya EarthWand. EarthWand biasanya dapat dibeli dari Pelatih GEA setelah workshop, atau Anda dapat memesannya dari Toko GoBrik. EarthWand adalah produk regeneratif yang penjualannya mendukung gerakan ecobrick lokal dan global.',
+'037-block-3-advanced-image-alt': 'Ikon EarthWand',
+'038-block-3-learn-more': 'Pelajari lebih lanjut..',
 
-    
+'039-block-4-opener-header': '4. Tidak ada kaca, logam, atau bahan biodegradable',
+'040-block-4-opener-subheader': 'Apa yang tidak Anda masukkan ke dalam ecobrick Anda sama pentingnya dengan apa yang Anda lakukan!',
+'041-block-4-main-image-alt': 'Apa yang harus dimasukkan ke dalam ecobrick Anda',
+'042-block-4-paragraph-1': 'Alasan kita memasukkan plastik ke dalam botol adalah untuk mengamankannya, jika tidak, plastik tersebut akan terlepas ke lingkungan dan terdegradasi menjadi mikroplastik dan toksin. Bahan seperti kain katun, logam, kertas, karton, kaca, dan material organik tidak akan terdegradasi menjadi toksin sehingga tidak perlu diamankan. Berhati-hatilah untuk tidak memasukkan logam tajam atau kaca ke dalam ecobrick, mereka dapat merobek sisi dan menimbulkan bahaya saat ditangani. Ada solusi lain untuk material ini:',
+'043-block-4-list': 'Opsi untuk material non-plastik',
+'044-block-4-list-item-1': 'Kertas dan karton dapat didaur ulang industri, dikomposkan, atau dibakar dengan aman.',
+'045-block-4-list-item-2': 'Bahan biodegradable dapat dikomposkan atau dibiarkan terbiodegradasi.',
+'046-block-4-list-item-3': 'Logam dan kaca dapat didaur ulang industri.',
+'047-block-4-advanced-title': 'Lanjutan',
+'048-block-4-advanced-paragraph': 'Bagaimana dengan kombinasi plastik dan kertas? Bagaimana dengan stiker pada amplop kertas? Memasukkan sedikit kertas ke dalam ecobrick Anda bukanlah akhir dari dunia. Lingkungan tertutup akan menjaganya agar tidak terdegradasi. Alasan utama untuk tidak memasukkan kertas kering (atau bahan organik lainnya) ke dalam ecobrick adalah untuk memaksimalkan ruang untuk mengandung plastik. Ada banyak diskusi yang hidup di komunitas media sosial kami tentang apa yang harus dan tidak harus dimasukkan ke dalam ecobrick. Jangan ragu untuk bergabung dengan grup di dekat Anda dan ajukan pertanyaan.',
+
+ 
 }
         
       

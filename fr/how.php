@@ -5,7 +5,7 @@
 <title>Comment faire une Ecobrique | Ecobricks.org</title>
 
 <?php $lang='fr';?>
-<?php $version='1.3';?>
+<?php $version='1.4';?>
 <?php $page='how';?>
 
 <?php require_once ("../includes/how-inc2.php");?>
@@ -183,53 +183,45 @@
     </div>
 </section>
 
-			
-    <section id="NO-GLASS">
-	<div class="reg-content-block" id="block4">
+<section id="NO-GLASS">
+    <div class="reg-content-block" id="block4">
+        <div class="opener-header">   
+            <div class="opener-header-text">
+                <h4 data-lang-id="039-block-4-opener-header">4. No glass, metal or biodegradables</h4>
+                <h5 data-lang-id="040-block-4-opener-subheader">What you <strong>don't</strong> put in your ecobrick is just as important as what you do!</h5>   
+            </div>
+            <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4" aria-expanded="false" aria-label="Toggle Section Four">+</button>
+        </div>
 
-		<div class="opener-header">   
-                	<div class="opener-header-text">
-                        	<h4>4. No glass, metal or biodegradables</h4>
-	                        <h5>What you <strong>don't</strong> put in your ecobrick is just as important as what you do!</h5>   
-			</div>
-			<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+        <div id="preclosed4">
+            <br>
+            <img width="640" loading="lazy" class="full-width-image" src="../pngs/no-glass-metal-or-biodegradables-900px-1.png" alt="what to put in your eco brick" data-lang-id="041-block-4-main-image-alt">
+            <p data-lang-id="042-block-4-paragraph-1">The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins. Stuff like cotton cloth, metal, paper, cardboard, glass, and organic material will not degrade into toxins so there is no need to secure them. Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick– they can rupture the sides and pose a danger for handling. There are other solutions for these materials:</p>
+            
+            <ol style="font-size: smaller; color: var(--text-color)" data-lang-id="043-block-4-list">
+                <li><p data-lang-id="044-block-4-list-item-1">Paper and cardboard can be safely industrially recycled, composted, or burnt.</p></li>
+                <li><p data-lang-id="045-block-4-list-item-2">Biodegradables can be composted or left to biodegrade.</p></li>
+                <li><p data-lang-id="046-block-4-list-item-3">Metals and glass can be industrially recycled.</p></li>
+            </ol>
+
+            <div class="advanced-box" aria-expanded="false"> 
+                <div class="advanced-box-header" aria-label="Advanced Section Toggle">
+                    <div class="advanced-title" data-lang-id="047-block-4-advanced-title">Advanced</div>
+                    <div class="advanced-open-icon">+</div>
                 </div>
 
-		<div id="preclosed4">
-                	<br>
-			<img width="640" loading="lazy" class="full-width-image" src="../pngs/no-glass-metal-or-biodegradables-900px-1.png" alt="what to put in your eco brick">
-			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p>
-			
-			<ul style="font-size: smaller; color:var(-text-color)">
-				<li><p>Paper and cardboard can be safely industrially recycled, composted or burnt.</p></li>
-				<li><p>Biodegradables can be composted or left to biodegrade.</p></li>
-				<li><p>Metals and glass can be industrially recycled.</p></li>
-			</ul>
-
-			<div class="advanced-box"> 
-                		<div class="advanced-box-header">
-                    			<div class="advanced-title">
-		                                Advanced
-                    			</div>
-					<div class="advanced-open-icon">+
-        	        		</div>
-	        	        </div>
-
-				<div class="advanced-box-content">
-                    
-                    			<div class="row">
-                
-		                        	
-	                		            <p>💡 What about combinations of plastic and paper? What about a sticker on a paper envelope? Putting a little paper into your ecobrick isn't the end of the world. The contained environment will keep it from degrading. The main reason for not putting dry paper (or other organic matterials) into an ecobrick is to maximize the space for containing plastic.  There are many lively discussions in our social media communities about what should and should not go into an ecobrick.  <a href="../movement">Feel free to join a group near you and ask a question.</a></p>
-									
-					        	</div>
-		      	          </div>
-			</div>
-		</div>
-	</div>
+                <div class="advanced-box-content">
+                    <div class="row">
+                        <p data-lang-id="048-block-4-advanced-paragraph">💡 What about combinations of plastic and paper? What about a sticker on a paper envelope? Putting a little paper into your ecobrick isn't the end of the world. The contained environment will keep it from degrading. The main reason for not putting dry paper (or other organic materials) into an ecobrick is to maximize the space for containing plastic. There are many lively discussions in our social media communities about what should and should not go into an ecobrick. <a href="../movement">Feel free to join a group near you and ask a question.</a></p>
+                    </div>
+                </div><!-- Advanced content closed -->
+            </div>
+        </div>
+    </div>
 </section>
 
-	<a id="BOTTOM"></a>
+
+	<section id="BOTTOM"></section>
 	<div class="reg-content-block" id="block5">
 
 		<div class="opener-header">
@@ -253,7 +245,7 @@
 		</div>
 	</div>
 
-	<a id="PACK"></a>
+	<section id="PACK"></section>
         <div class="reg-content-block" id="block6">
 			<div class="opener-header">
 				<div class="opener-header-text">
@@ -271,30 +263,26 @@
 			    
 				    <p>Did you push too hard?  In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again.  Ruptured bottles will not last and can leak plastics.  Cut the bottle open, remove the plastic and start again.  Cut or damaged PET plastic is readily recycled.</p>
 
-				<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:8px 10px 0px 12px;;margin-top:40px;margin-bottom:10px;"> 
-					<div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:4px;cursor:pointer;">
-        					<div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
-				                	Advanced
-               			     		</div>
-						<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
-			        		</div>
-       	        		 	</div>
-			
-					<div class="advanced-box-content">                    
-        					<div class="row">
-			                        	<div class="main2">
+					<div class="advanced-box"> 
+						<div class="advanced-box-header">
+								<div class="advanced-title">
+										Advanced
+										</div>
+							<div class="advanced-open-icon">+</div>
+						</div>
+				
+						<div class="advanced-box-content">                    
+        					
+			              
                         					<p>💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic.  By forming a center white ring of plastic you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
-							</div>
-	                        			<div class="side2">
+							
 
-							</div>
-		                        	<p><a href="../earthwands">Learn more..</a></p>
-		                    		</div>
-	        		        </div><!--Advanced content closed-->    
+		            	</div>
+	        		</div><!--Advanced content closed-->    
 				</div>
 			</div>
 
-	</div>
+</section>
 	
 	
 	<a id="WEIGH"></a>

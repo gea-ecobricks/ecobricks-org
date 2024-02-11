@@ -57,7 +57,19 @@ const fr_Page_Translations = {
 '035-block-3-advanced-title': 'Avancé',
 '036-block-3-advanced-paragraph': '💡 La GEA a développé l’outil d’écobricking optimal – nous l’appelons l’EarthWand. Les Earthwands peuvent généralement être achetés auprès des formateurs GEA après un atelier, ou vous pouvez les commander depuis la boutique GoBrik. Les EarthWands sont un produit régénératif dont la vente soutient le mouvement écobrick local et mondial.',
 '037-block-3-advanced-image-alt': 'Icône EarthWand',
-'038-block-3-learn-more': 'Apprendre encore plus..'
+'038-block-3-learn-more': 'Apprendre encore plus..',
+
+'039-block-4-opener-header': '4. Pas de verre, de métal ou de biodégradables',
+'040-block-4-opener-subheader': 'Ce que vous ne mettez pas dans votre ecobrick est tout aussi important que ce que vous y mettez !',
+'041-block-4-main-image-alt': 'Que mettre dans votre éco-brique',
+'042-block-4-paragraph-1': 'La raison pour laquelle nous mettons du plastique dans une bouteille est de le sécuriser sinon il se disperserait dans l\'environnement et se dégraderait en microplastiques et en toxines. Des choses comme le tissu de coton, le métal, le papier, le carton, le verre et le matériel organique ne se dégraderont pas en toxines donc il n\'est pas nécessaire de les sécuriser. Faites particulièrement attention à ne pas emballer de métal tranchant ou de verre dans un ecobrick – ils peuvent rompre les côtés et poser un danger pour la manipulation. Il existe d\'autres solutions pour ces matériaux :',
+'043-block-4-list': 'Options pour les matériaux non plastiques',
+'044-block-4-list-item-1': 'Le papier et le carton peuvent être recyclés industriellement, compostés ou brûlés en toute sécurité.',
+'045-block-4-list-item-2': 'Les biodégradables peuvent être compostés ou laissés à se biodégrader.',
+'046-block-4-list-item-3': 'Les métaux et le verre peuvent être recyclés industriellement.',
+'047-block-4-advanced-title': 'Avancé',
+'048-block-4-advanced-paragraph': 'Et les combinaisons de plastique et de papier ? Et un autocollant sur une enveloppe de papier ? Mettre un peu de papier dans votre ecobrick n\'est pas la fin du monde. L\'environnement contenu empêchera sa dégradation. La principale raison de ne pas mettre de papier sec (ou d\'autres matériaux organiques) dans un ecobrick est de maximiser l\'espace pour contenir du plastique. Il existe de nombreuses discussions animées dans nos communautés sur les réseaux sociaux sur ce qui devrait et ne devrait pas aller dans un ecobrick. N\'hésitez pas à rejoindre un groupe près de chez vous et à poser une question.',
+
 
 
     

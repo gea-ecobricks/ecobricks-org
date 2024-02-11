@@ -45,7 +45,30 @@ const es_Page_Translations = {
 '025-block-2-list-project': '<strong>Tu Proyecto</strong>',
 '026-block-2-list-project-detail': 'Para construir módulos con Ecobricks, necesitas botellas que sean exactamente del mismo tamaño y forma. Para proyectos de construcción al aire libre, la exactitud no es tan importante, siempre y cuando el volumen sea consistente (es decir, todas las botellas de 600 ml). Dependiendo del tamaño de la construcción, necesitarás diferentes tamaños de botellas. Por ejemplo, las botellas pequeñas hacen buenos muros, y las botellas grandes hacen buenos bancos.',
 '027-block-2-advanced-title': 'Avanzado',
-'028-block-2-advanced-paragraph': '💡 Si estás pensando en hacer <a href="../dms">Módulos Lego Dieleman</a> con tus ecobricks, también debes considerar el estrechamiento superior de tu botella. Los módulos Dieleman funcionan mejor cuando la distancia entre la parte superior de la botella y el inicio del estrechamiento es pequeña. Esto permite más área de superficie para que el pin invertido del módulo Dieleman se pueda adjuntar.'
+'028-block-2-advanced-paragraph': '💡 Si estás pensando en hacer <a href="../dms">Módulos Lego Dieleman</a> con tus ecobricks, también debes considerar el estrechamiento superior de tu botella. Los módulos Dieleman funcionan mejor cuando la distancia entre la parte superior de la botella y el inicio del estrechamiento es pequeña. Esto permite más área de superficie para que el pin invertido del módulo Dieleman se pueda adjuntar.',
+
+'029-block-3-opener-header': '3. Prepara tu palo',
+'030-block-3-opener-subheader': 'A los ecobrickers les gusta llamar a su palo de empaquetado, su varita mágica. ¡Hace desaparecer el plástico!',
+'031-block-3-main-image-alt': 'Empaca tu ecobrick con plásticos reciclados usando un palo',
+'032-block-3-paragraph-1': 'Tener el palo adecuado hará una gran diferencia en tu ecobrickeo.',
+'033-block-3-paragraph-2': 'El bambú y la madera hacen los mejores palos. El tamaño del palo depende del tipo de botella que elijas. Quieres un palo con un diámetro aproximadamente un tercio del ancho de la apertura de una botella estándar, unos 6mm. Quieres que tu palo sea aproximadamente el doble de la altura de tu botella, con una punta ligeramente redondeada. Evita palos con esquinas afiladas ya que pueden romper tu botella, y sí, ¡esto significa que tienes que empezar tu ecobrick desde cero otra vez!',
+'034-block-3-paragraph-3': 'Una vez que tengas un palo de buen tamaño y forma, ¡estás listo! Luego puedes dárselo a otros para que lo copien y repliquen. Así es como nuestros Entrenadores de GEA hacen sus talleres, ¡más magia! ¡Un palo se convierte en muchos!',
+'035-block-3-advanced-title': 'Avanzado',
+'036-block-3-advanced-paragraph': '💡 La GEA ha desarrollado la herramienta de ecobrickeo óptima, a la que llamamos EarthWand (Vara de la Tierra). Las EarthWands suelen poder comprarse a los entrenadores de GEA después de un taller, o puedes pedirlas en la Tienda GoBrik. Las EarthWands son un producto regenerativo cuya venta ayuda a apoyar el movimiento ecobrick local y global.',
+'037-block-3-advanced-image-alt': 'Icono de EarthWand',
+'038-block-3-learn-more': 'Aprende más..',
+
+'039-block-4-opener-header': '4. Sin vidrio, metal o biodegradables',
+'040-block-4-opener-subheader': 'Lo que no pones en tu ecobrick es tan importante como lo que sí pones!',
+'041-block-4-main-image-alt': 'Qué poner en tu ecobrick',
+'042-block-4-paragraph-1': 'La razón por la que ponemos plástico dentro de una botella es para asegurarlo de lo contrario se liberaría al medio ambiente y se degradaría en microplásticos y toxinas. Cosas como tela de algodón, metal, papel, cartón, vidrio y material orgánico no se degradarán en toxinas por lo que no es necesario asegurarlos. Ten especial cuidado de no empacar metal afilado o vidrio en un ecobrick, pueden romper los lados y representar un peligro para el manejo. Hay otras soluciones para estos materiales:',
+'043-block-4-list': 'Opciones para materiales no plásticos',
+'044-block-4-list-item-1': 'El papel y el cartón se pueden reciclar industrialmente, compostar o quemar de manera segura.',
+'045-block-4-list-item-2': 'Los biodegradables se pueden compostar o dejar biodegradar.',
+'046-block-4-list-item-3': 'Los metales y el vidrio se pueden reciclar industrialmente.',
+'047-block-4-advanced-title': 'Avanzado',
+'048-block-4-advanced-paragraph': '¿Qué pasa con las combinaciones de plástico y papel? ¿Qué pasa con una etiqueta en un sobre de papel? Poner un poco de papel en tu ecobrick no es el fin del mundo. El ambiente contenido evitará que se degrade. La razón principal para no poner papel seco (u otros materiales orgánicos) en un ecobrick es maximizar el espacio para contener plástico. Hay muchas discusiones animadas en nuestras comunidades de redes sociales sobre qué debería y no debería ir en un ecobrick. Siéntete libre de unirte a un grupo cerca de ti y hacer una pregunta.',
+
 
 
        
