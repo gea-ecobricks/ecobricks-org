@@ -54,7 +54,7 @@
                         <h5 data-lang-id="007-block-1-opener-subheader">Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials. </h5>   
                         <br>
 					</div>
-					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-lable="Open Secion One">+</button>
+					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
         		</div>
 
                 <div id="preclosed1">
@@ -67,7 +67,7 @@
 					<p data-lang-id="011-block-1-opener-subheader">Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
 
 					<div class="advanced-box"> 
-						<div class="advanced-box-header">
+						<div class="advanced-box-header" aria-expanded="true" aria-controls="contentSection">
 							<div class="advanced-title" data-lang-id="012-block-1-advanced">Advanced</div>
 							<div class="advanced-open-icon">+
 							</div>
@@ -114,29 +114,30 @@
                     <p>When selecting the bottle that you will use, consider three factors: the bottle’s availability, the volume, and the project you will use the ecobrick for.</p>
 
                     <ol style="font-size: smaller">
-                        <li><p><b>Availability</b></p>
+                        <li><p><strong>Availability</strong></p>
                         <p>The last thing you want to have to do is buy drinks to have a bottle for your ecobricking!  Soon many people will be ecobricking in your community and it is ideal to have everyone using the same brand and bottle.  Be sure to choose a bottle that everyone can easily come by.</p></li>
 
-                        <li><p><b>Bottle Volume</b></p>
+                        <li><p><strong>Bottle Volume</strong></p>
                         <p>Choose the bottle volume you want to go with.  GEA Trainers teach ecobricking with bottles under 600ml.  Large 1500ml bottles will take a lot of plastic, but also take a long time to make!  Small volume bottles allow first-time ecobrickers to finish their first ecobrick and quickly learn from their mistakes.  Large bottles are best for advanced ecobrickers.</p></li>
 
-                        <li><p><b>Your Project</b></p>
+                        <li><p><strong>Your Project</strong></p>
                         <p>For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles).  Depending on the size of construction, you will need different size bottles.  For example, small bottles make good walls, and large bottles make good benches. </p></li>
 		    	</ol>
-                    <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
-                        <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
-                            <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+                    <div class="advanced-box" aria-expanded="false" aria-controls="contentSection"> 
+                        <div class="advanced-box-header">
+                            <div class="advanced-title">
                             Advanced
                             </div>
-                            <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+                            <div class="advanced-open-icon">+
                             </div>
                         </div>
-                        <div class="advanced-box-content" style="">
+                        <div class="advanced-box-content">
                             <p>💡 If you’re thinking of making <a href="../dms">Dieleman Lego Modules</a> with your ecobricks, you must also consider the top tapper of your bottle. Dieleman modules work best when the distance between the top of the bottle and the start of the tapper is small. This allows more surface area for the inverted peg of the Dieleman module to be attached.</p>
                         </div>
                     </div>
 		</div>
 	</div>
+</section>
 
    
 
@@ -527,23 +528,31 @@ document.getElementById('play-button').addEventListener('click', function() {
 </script>
 
 <script>
-
 function toggleAdvancedBox(event) {
     // Get the current advanced box based on the clicked header
     let currentAdvancedBox = event.currentTarget.parentElement;
+
+    // Assuming the element that will have the `aria-expanded` attribute is the header itself
+    let header = currentAdvancedBox.querySelector('.advanced-box-header');
 
     // Find the content and icon specific to this advanced box
     let content = currentAdvancedBox.querySelector('.advanced-box-content');
     let icon = currentAdvancedBox.querySelector('.advanced-open-icon');
     
-    if (content.style.maxHeight === '0px' || content.style.maxHeight === '') {
+    // Check if the content is currently expanded or not
+    let isExpanded = header.getAttribute('aria-expanded') === 'true';
+
+    if (!isExpanded) {
         content.style.maxHeight = content.scrollHeight + 'px';  // Set to its full height
-        icon.textContent = '×';  // Set to times symbol
+        icon.textContent = '−';  // Consider using a minus symbol for an open state for clarity
+        header.setAttribute('aria-expanded', 'true'); // Update aria-expanded to true
     } else {
         content.style.maxHeight = '0px';  // Collapse it
         icon.textContent = '+';  // Set to plus symbol
+        header.setAttribute('aria-expanded', 'false'); // Update aria-expanded to false
     }
 }
+
 
 // Attach the function to all header div's click events
 document.addEventListener("DOMContentLoaded", function() {
