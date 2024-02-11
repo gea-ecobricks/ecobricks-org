@@ -144,10 +144,10 @@
 <script src="../translations/fr-welcome-translations.js"></script>
 <script src="../translations/id-welcome-translations.js"></script>
 
-<script src="../translations/en-<?php echo ($page); ;?>-translations.js"></script>
-<script src="../translations/es-<?php echo ($page); ;?>-translations.js"></script>
-<script src="../translations/fr-<?php echo ($page); ;?>-translations.js"></script>
-<script src="../translations/id-<?php echo ($page); ;?>-translations.js"></script>
+<script src="../translations/en-<?php echo ($page); ;?>-translations.js?v=2"></script>
+<script src="../translations/es-<?php echo ($page); ;?>-translations.js?v=2"></script>
+<script src="../translations/fr-<?php echo ($page); ;?>-translations.js?v=2"></script>
+<script src="../translations/id-<?php echo ($page); ;?>-translations.js?v=2"></script>
 
 <script>
 

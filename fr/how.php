@@ -93,51 +93,51 @@
 			</div>
 		</section>
 
-
 		<section id="CHOOSE">
-		<div class="reg-content-block" id="block2">
+    <div class="reg-content-block" id="block2">
+        <div class="opener-header">    
+            <div class="opener-header-text">
+                <h4 data-lang-id="016-block-2-opener-header">2. Choose your bottle</h4>
+                <h5 data-lang-id="017-block-2-opener-subheader">Before you start ecobricking, choose one specific bottle and stick with it.</h5>   
+                <br>
+            </div>
+            <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Toggle Section Two">+</button>
+        </div>
 
-        	<div class="opener-header">	
-			<div class="opener-header-text">
-                        <h4>2. Choose your bottle</h4>
-                        <h5>Before you start ecobricking, choose one specific bottle and stick with it.</h5>   
-                        <br>
-			</div>
-			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-		</div>
+        <div id="preclosed2">
+            <br>
+            <img src="../svgs/02-Choose-your-Bottle-1.svg" width="640" alt="Choose the ideal bottle type" loading="lazy" class="full-width-image" data-lang-id="018-block-2-main-image-alt">
+            <br>
+            <p data-lang-id="019-block-2-paragraph-1">When it comes time to building, having perfectly identical ecobrick sizes is important for making solid and steady modules. It also helps having at least the same general size of bottle when it comes to building with earth and ecobricks. Talk with ecobrickers in your community and make the choice together of what bottle to use.</p>
+            <p data-lang-id="020-block-2-paragraph-2">When selecting the bottle that you will use, consider three factors: the bottle’s availability, the volume, and the project you will use the ecobrick for.</p>
 
-                <div id="preclosed2">
-                    <br>
-                    <img src="../svgs/02-Choose-your-Bottle-1.svg" width="640" alt="Choose the ideal bottle type" loading="lazy" class="full-width-image">
-                    <br>
-                    <p>When it comes time to building, having perfectly identical ecobrick sizes is important for making solid and steady modules.  It also helps having at least the same general size of bottle when it comes to building with earth and ecobricks.  Talk with ecobrickers in your community and make the choice together of what bottle to use.</p>
-                    <p>When selecting the bottle that you will use, consider three factors: the bottle’s availability, the volume, and the project you will use the ecobrick for.</p>
-
-                    <ol style="font-size: smaller">
-                        <li><p><strong>Availability</strong></p>
-                        <p>The last thing you want to have to do is buy drinks to have a bottle for your ecobricking!  Soon many people will be ecobricking in your community and it is ideal to have everyone using the same brand and bottle.  Be sure to choose a bottle that everyone can easily come by.</p></li>
-
-                        <li><p><strong>Bottle Volume</strong></p>
-                        <p>Choose the bottle volume you want to go with.  GEA Trainers teach ecobricking with bottles under 600ml.  Large 1500ml bottles will take a lot of plastic, but also take a long time to make!  Small volume bottles allow first-time ecobrickers to finish their first ecobrick and quickly learn from their mistakes.  Large bottles are best for advanced ecobrickers.</p></li>
-
-                        <li><p><strong>Your Project</strong></p>
-                        <p>For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles).  Depending on the size of construction, you will need different size bottles.  For example, small bottles make good walls, and large bottles make good benches. </p></li>
-		    	</ol>
-                    <div class="advanced-box" aria-expanded="false" aria-controls="contentSection"> 
-                        <div class="advanced-box-header">
-                            <div class="advanced-title">
-                            Advanced
-                            </div>
-                            <div class="advanced-open-icon">+
-                            </div>
-                        </div>
-                        <div class="advanced-box-content">
-                            <p>💡 If you’re thinking of making <a href="../dms">Dieleman Lego Modules</a> with your ecobricks, you must also consider the top tapper of your bottle. Dieleman modules work best when the distance between the top of the bottle and the start of the tapper is small. This allows more surface area for the inverted peg of the Dieleman module to be attached.</p>
-                        </div>
-                    </div>
-		</div>
-	</div>
+            <ol style="font-size: smaller">
+                <li>
+                    <p data-lang-id="021-block-2-list-availability"><strong>Availability</strong></p>
+                    <p data-lang-id="022-block-2-list-availability-detail">The last thing you want to have to do is buy drinks to have a bottle for your ecobricking! Soon many people will be ecobricking in your community and it is ideal to have everyone using the same brand and bottle. Be sure to choose a bottle that everyone can easily come by.</p>
+                </li>
+                <li>
+                    <p data-lang-id="023-block-2-list-volume"><strong>Bottle Volume</strong></p>
+                    <p data-lang-id="024-block-2-list-volume-detail">Choose the bottle volume you want to go with. GEA Trainers teach ecobricking with bottles under 600ml. Large 1500ml bottles will take a lot of plastic, but also take a long time to make! Small volume bottles allow first-time ecobrickers to finish their first ecobrick and quickly learn from their mistakes. Large bottles are best for advanced ecobrickers.</p>
+                </li>
+                <li>
+                    <p data-lang-id="025-block-2-list-project"><strong>Your Project</strong></p>
+                    <p data-lang-id="026-block-2-list-project-detail">For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles). Depending on the size of construction, you will need different size bottles. For example, small bottles make good walls, and large bottles make good benches.</p>
+                </li>
+            </ol>
+            <div class="advanced-box" aria-expanded="false"> 
+                <div class="advanced-box-header">
+                    <div class="advanced-title" data-lang-id="027-block-2-advanced-title">Advanced</div>
+                    <div class="advanced-open-icon">+</div>
+                </div>
+                <div class="advanced-box-content">
+                    <p data-lang-id="028-block-2-advanced-paragraph">💡 If you’re thinking of making <a href="../dms">Dieleman Lego Modules</a> with your ecobricks, you must also consider the top tapper of your bottle. Dieleman modules work best when the distance between the top of the bottle and the start of the tapper is small. This allows more surface area for the inverted peg of the Dieleman module to be attached.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 
    
 
