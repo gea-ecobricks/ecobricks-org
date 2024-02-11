@@ -198,7 +198,13 @@
 		<div id="preclosed4">
                 	<br>
 			<img width="640" loading="lazy" class="full-width-image" src="../pngs/no-glass-metal-or-biodegradables-900px-1.png" alt="what to put in your eco brick">
-			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul>
+			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p>
+			
+			<ul>
+				<li><p>Paper and cardboard can be safely industrially recycled, composted or burnt.</p></li>
+				<li><p>Biodegradables can be composted or left to biodegrade.</p></li>
+				<li><p>Metals and glass can be industrially recycled.</p></li>
+			</ul>
 
 			<div class="advanced-box"> 
                 		<div class="advanced-box-header">
