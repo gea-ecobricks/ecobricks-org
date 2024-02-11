@@ -418,8 +418,14 @@
             <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="097">An overview of ecobrick building methods</p>
         </div>  
     </div>
+
+
 </section>
-			</article>
+
+</div>
+
+
+</article>
 
 	
 
