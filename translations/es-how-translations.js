@@ -16,24 +16,24 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 
 const es_Page_Translations = {
-
-    '001-splash-title': 'Como hacer una Ecobrick!',
-    '002-splash-subtitle': 'GEA 10 Step Guide',
-    '003-splash-image-alt': '<img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="How to make an eco brick">',
     
-    '004-lead-page-paragraph': 'Ecobricks can be made by the young, the old and everyone in between — no machines, special skills or experts required!  However, there are important guidelines to follow to ensure the quality and usability of your ecobricks.',
-    '005-first-page-paragraph': 'Be sure to start ecobricking right— this is a long-term life habit that you, your household and community are beginning.  Likewise, your ecobricks will set the example for everyone around you.  Sub-standard ecobricks will compromise the quality of furniture modules, constructions and the social spread of ecobricks while, well-done ecobricks can be put to good, safe use and will secure plastic for centuries.  We’ve put this 10 step guide together to help you on your journey of making great ecobricks.',
-    '006-block-1-opener-header': '1. Save, Segregate, Clean & Dry Plastics',
-    '007-block-1-opener-subheader': 'Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials.',
-    '008-block-1-opener-main-image-alt': '<img src="../pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="640" loading="lazy" class="full-width-image" alt="Save, segragate, clean, dry plastics">',
-    '009-block-1-opener-subheader': 'Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.',
-    '010-block-1-paragraph': 'If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.',
-    '011-block-1-opener-subheader': 'Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.',
-    '012-block-1-advanced': 'Advanced',
-    '013-block-1-advanced-paragraph': '💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their Plastic Transition Ratio (PTR).  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).',
-    '014-block-1-advanced-image-alt': '<img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="weighed plastic">',
-    '015-block-1-advanced-paragraph': 'They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!'
+    '001-splash-title': 'Cómo hacer un Ecobrick',
+    '002-splash-subtitle': 'Guía de 10 pasos de GEA',
+    '003-splash-image-alt': '<img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="Cómo hacer un ecobrick">',
     
+    '004-lead-page-paragraph': 'Los Ecobricks pueden ser hechos por jóvenes, ancianos y todos los demás — no se requieren máquinas, habilidades especiales ni expertos! Sin embargo, hay pautas importantes a seguir para asegurar la calidad y la usabilidad de tus ecobricks.',
+    '005-first-page-paragraph': 'Asegúrate de comenzar con el ecobricking de la manera correcta — es un hábito de vida a largo plazo que tú, tu hogar y tu comunidad están comenzando. Así mismo, tus ecobricks servirán de ejemplo para todos los que te rodean. Los ecobricks de baja calidad comprometerán la calidad de los módulos de muebles, las construcciones y la difusión social de los ecobricks, mientras que los ecobricks bien hechos pueden ser utilizados de manera segura y protegerán el plástico durante siglos. Hemos reunido esta guía de 10 pasos para ayudarte en tu viaje de hacer grandes ecobricks.',
+    '006-block-1-opener-header': '1. Guardar, Separar, Limpiar y Secar los Plásticos',
+    '007-block-1-opener-subheader': 'Los Ecobricks se hacen con plástico limpio y seco. Comienza por separar tu plástico de todos los demás materiales.',
+    '008-block-1-opener-main-image-alt': '<img src="../pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="640" loading="lazy" class="full-width-image" alt="Guardar, separar, limpiar, secar los plásticos">',
+    '009-block-1-opener-subheader': 'Algunos ecobrickers llevan una botella con ellos a todos lados. Otros guardan su plástico ecobrickeable en un contenedor hasta que tienen tiempo de ocuparse de él.',
+    '010-block-1-paragraph': 'Si hay comida, aceite o suciedad en tu plástico, asegúrate de lavarlo. El plástico sucio dentro de un ecobrick provocará crecimiento microbiológico y la formación de metano dentro de tu ecobrick (para una solución para el plástico sucio, consulta el Ecobrick Oceánico). Dado que los ecobricks a menudo se usan para hacer muebles domésticos, también querrás evitar ecobricks antiestéticos, botellas hinchadas y, en casos raros, tapas que salen disparadas.',
+    '011-block-1-opener-subheader': '¡Es igualmente importante que el plástico esté seco! El plástico húmedo y mojado también fomentará el crecimiento microbiano. Los ecobrickers de todo el mundo utilizan diferentes métodos para secar su plástico lavado, desde máquinas de lavar hasta líneas de ropa.',
+    '012-block-1-advanced': 'Avanzado',
+    '013-block-1-advanced-paragraph': '💡 Muchos ecobrickers rastrean el consumo de plástico de su hogar mensualmente para determinar su Ratio de Transición de Plástico (PTR). Durante el transcurso del mes, guardan, limpian y secan su plástico consumido y lo ponen en un contenedor dedicado. Al final del mes, pesan este plástico y registran la cantidad (¡nuestra aplicación GoBrik puede ayudarte a hacer esto!).',
+    '014-block-1-advanced-image-alt': '<img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="plástico pesado">',
+    '015-block-1-advanced-paragraph': 'Luego transfieren este plástico a su contenedor "Para Ecobrickear", que cualquier persona en el hogar puede usar para ecobrickear directamente. Mes a mes, los ecobrickers rastrean su plástico y lo comparan con su ecobrick del mes. ¡Esto les permite determinar su PTR y su progreso hacia cero desperdicios y más allá!'
+       
 }
         
       

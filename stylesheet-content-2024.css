@@ -320,17 +320,18 @@ margin-top: 40px;
   -moz-border-radius: 10;
   border-radius: 10px;
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: #ffffff;
+  color: var(--same);
   font-size: 16px;
-  background: #a8a8a8;
+  background: var(--emblem-pink);
   padding: 8px 15px 8px 15px;
   text-decoration: none;
   overflow-x: none;
 }
 
 .module-btn:hover {
-  background: #818181;
+  background: var(--emblem-pink-over);
   text-decoration: none;
+  color: var(--same);
 }
 
 

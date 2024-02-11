@@ -17,22 +17,22 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const id_Page_Translations = {
 
-    '001-splash-title': 'Bagaymana Membuat Ecobrick!',
-    '002-splash-subtitle': 'GEA 10 Step Guide',
-    '003-splash-image-alt': '<img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="How to make an eco brick">',
+    '001-splash-title': 'Cara Membuat Ecobrick',
+    '002-splash-subtitle': 'Panduan 10 Langkah dari GEA',
+    '003-splash-image-alt': '<img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="Cara membuat ecobrick">',
     
-    '004-lead-page-paragraph': 'Ecobricks can be made by the young, the old and everyone in between — no machines, special skills or experts required!  However, there are important guidelines to follow to ensure the quality and usability of your ecobricks.',
-    '005-first-page-paragraph': 'Be sure to start ecobricking right— this is a long-term life habit that you, your household and community are beginning.  Likewise, your ecobricks will set the example for everyone around you.  Sub-standard ecobricks will compromise the quality of furniture modules, constructions and the social spread of ecobricks while, well-done ecobricks can be put to good, safe use and will secure plastic for centuries.  We’ve put this 10 step guide together to help you on your journey of making great ecobricks.',
-    '006-block-1-opener-header': '1. Save, Segregate, Clean & Dry Plastics',
-    '007-block-1-opener-subheader': 'Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials.',
-    '008-block-1-opener-main-image-alt': '<img src="../pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="640" loading="lazy" class="full-width-image" alt="Save, segragate, clean, dry plastics">',
-    '009-block-1-opener-subheader': 'Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.',
-    '010-block-1-paragraph': 'If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.',
-    '011-block-1-opener-subheader': 'Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.',
-    '012-block-1-advanced': 'Advanced',
-    '013-block-1-advanced-paragraph': '💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their Plastic Transition Ratio (PTR).  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).',
-    '014-block-1-advanced-image-alt': '<img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="weighed plastic">',
-    '015-block-1-advanced-paragraph': 'They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!'
+    '004-lead-page-paragraph': 'Ecobrick dapat dibuat oleh siapa saja, tua dan muda — tidak diperlukan mesin, keterampilan khusus atau ahli! Namun, ada panduan penting yang harus diikuti untuk memastikan kualitas dan kegunaan ecobrick Anda.',
+    '005-first-page-paragraph': 'Pastikan Anda memulai ecobricking dengan benar — ini adalah kebiasaan hidup jangka panjang yang Anda, rumah tangga Anda, dan komunitas Anda mulai. Demikian pula, ecobrick Anda akan menjadi contoh untuk semua orang di sekitar Anda. Ecobrick yang tidak standar akan mengurangi kualitas modul furnitur, konstruksi dan penyebaran sosial ecobrick sementara, ecobrick yang baik dapat digunakan dengan aman dan akan mengamankan plastik selama berabad-abad. Kami telah menyusun panduan 10 langkah ini untuk membantu Anda dalam perjalanan membuat ecobrick yang hebat.',
+    '006-block-1-opener-header': '1. Simpan, Pisahkan, Bersihkan & Keringkan Plastik',
+    '007-block-1-opener-subheader': 'Ecobrick dibuat dengan plastik yang bersih dan kering. Mulailah dengan memisahkan plastik Anda dari semua material lainnya.',
+    '008-block-1-opener-main-image-alt': '<img src="../pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="640" loading="lazy" class="full-width-image" alt="Simpan, pisahkan, bersihkan, keringkan plastik">',
+    '009-block-1-opener-subheader': 'Beberapa pembuat ecobrick membawa botol bersama mereka ke mana pun mereka pergi. Yang lain menyimpan plastik yang dapat dibuat menjadi ecobrick dalam sebuah wadah sampai mereka memiliki waktu untuk mengurusnya.',
+    '010-block-1-paragraph': 'Jika ada makanan, minyak, atau kotoran pada plastik Anda, pastikan untuk mencucinya. Plastik kotor di dalam ecobrick akan menyebabkan pertumbuhan mikrobiologis dan pembentukan metana di dalam ecobrick Anda (untuk solusi plastik kotor lihat Ecobrick Samudra). Karena ecobrick sering digunakan untuk membuat furnitur rumah, Anda juga ingin menghindari ecobrick yang tidak sedap dipandang, botol yang menggelembung dan dalam kasus langka, tutup yang terlepas.',
+    '011-block-1-opener-subheader': 'Sama pentingnya plastik harus kering! Plastik basah dan lembap juga akan mendorong pertumbuhan mikroba. Pembuat ecobrick di seluruh dunia menggunakan metode berbeda untuk mengeringkan plastik mereka yang telah dicuci – dari mesin cuci hingga tali jemuran.',
+    '012-block-1-advanced': 'Lanjutan',
+    '013-block-1-advanced-paragraph': '💡 Banyak pembuat ecobrick melacak konsumsi plastik rumah tangga mereka secara bulanan untuk menentukan Rasio Transisi Plastik (PTR) mereka. Selama bulan kalender, mereka menyimpan, membersihkan dan mengeringkan plastik yang dikonsumsi dan menaruhnya dalam wadah khusus. Di akhir bulan, mereka menimbang plastik ini dan mencatat jumlahnya (aplikasi GoBrik kami dapat membantu Anda melakukan ini!).',
+    '014-block-1-advanced-image-alt': '<img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="plastik ditimbang">',
+    '015-block-1-advanced-paragraph': 'Kemudian mereka mentransfer plastik ini ke wadah “Untuk Ecobrick” mereka, yang dapat digunakan oleh siapa saja di rumah untuk langsung membuat ecobrick. Bulan demi bulan, pembuat ecobrick melacak plastik mereka, dan membandingkannya dengan ecobrick mereka bulan itu. Ini memungkinkan mereka untuk menentukan PTR mereka dan kemajuan mereka mencapai nol limbah dan melampaui itu!'
     
 }
         
