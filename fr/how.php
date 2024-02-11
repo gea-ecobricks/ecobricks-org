@@ -142,53 +142,49 @@
    
 
 
+<section id="GET">
+    <div class="reg-content-block" id="block3">
+        <div class="opener-header">   
+            <div class="opener-header-text">
+                <h4 data-lang-id="029-block-3-opener-header">3. Get your stick ready</h4>
+                <h5 data-lang-id="030-block-3-opener-subheader">Ecobrickers like to call their packing stick, their magic wand. It makes the plastic disappear!</h5>
+                <br>
+            </div>
+            <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-expanded="false">+</button>
+        </div>
 
+        <div id="preclosed3">
+            <br>
+            <img src="../svgs/03-Get-your-stick-ready.svg" width="640" loading="lazy" alt="Pack your eco-brick with recycle plastics using a stick" class="full-width-image" data-lang-id="031-block-3-main-image-alt">
+            
+            <p data-lang-id="032-block-3-paragraph-1">Having the right stick will make a big difference to your ecobricking.</p>
+            <p data-lang-id="033-block-3-paragraph-2">Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle– and yes, this means you have to start your ecobrick all over again!</p>
+            
+            <p data-lang-id="034-block-3-paragraph-3">Once you've got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic! One stick turns into many!</p>
 
-        <a id="GET"></a>
-	<div class="reg-content-block" id="block3">
-           	<div class="opener-header">   
-			<div class="opener-header-text">
-                        	<h4>3. Get your stick ready</h4>
-	                        <h5>Ecobrickers like to call their packing stick, their magic wand.  It makes the plastic disappear!</h5>   
-        	                <br>
-			</div>
-			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+            <div class="advanced-box" aria-expanded="false"> 
+                <div class="advanced-box-header">
+                    <div class="advanced-title" data-lang-id="035-block-3-advanced-title">Advanced</div>
+                    <div class="advanced-open-icon">+</div>
                 </div>
+                <div class="advanced-box-content">
+                    <div class="row">
+                        <div class="main2">
+                            <p data-lang-id="036-block-3-advanced-paragraph">💡 The GEA has developed the optimal ecobricking tool– we call it the EarthWand. Earthwands can usually be purchased from GEA Trainers after a workshop, or you can order them from the <a href="https://www.gobrik.com/store" target="_blank" rel="noopener noreferrer">GoBrik Shop</a>. EarthWands are a regenerative product whose sale goes to support the local and global ecobrick movement.</p>
+                        </div>
+                        <div class="side2">
+                            <br><img src="../pngs/EarthWand-Grey-Icon-256x300.png" width="150" alt="EarthWand icon" loading="lazy" data-lang-id="037-block-3-advanced-image-alt">
+                        </div>
+                        <p><a href="../earthwand" data-lang-id="038-block-3-learn-more">Learn more..</a></p>
+                    </div>
+                </div><!--Advanced content closed-->
+            </div>
+        </div>
+    </div>
+</section>
 
-                <div id="preclosed3">
-                	<br>
-			<img src="../svgs/03-Get-your-stick-ready.svg" width="640" loading="lazy" alt="pack your eco-brick with recycle plastics using a stick" class="full-width-image">
-
-                        <p>Having the right stick will make a big difference to your ecobricking.</p>
-                        <p>Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle&#8211; and yes, this means you have to start your ecobrick all over again!</p>
-                        
-                        <p>Once you've got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic!  One stick turns in to many!</p> 
-
-                
-			<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
-		                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
-               				<div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
-		                                Advanced
-        				</div>
- 					<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
-  					</div>
-		                </div>
-	 	               	<div class="advanced-box-content">
-        				<div class="row">
-        	                		<div class="main2">
-                	            			<p>💡 The GEA has developed the optimal ecobricking tool– we call it the EarthWand. Earthwands can usually be purchased from GEA Trainers after a workshop, or you can order them from the <a href="https://www.gobrik.com/store" target="_blank" rel="noopener noreferrer">GoBrik Shop</a>. EarthWands are a regenerative product who’s sale goes to support the local and global ecobrick movement.</p>
-                        			</div>
-	                        		<div class="side2">
-                            				<br><img src="../pngs/EarthWand-Grey-Icon-256x300.png" width="150" alt="eco brick road into the distance" loading="lazy">
-                        			</div>
-	                        		<p><a href="../earthwand">Learn more..</a></p>
-                    			</div>
-                		</div><!--Advanced content closed-->
-			</div>
-		</div>
-	</div>
 			
-        <a id="GLASS"></a>
+    <section id="NO-GLASS">
 	<div class="reg-content-block" id="block4">
 
 		<div class="opener-header">   
@@ -204,12 +200,12 @@
 			<img width="640" loading="lazy" class="full-width-image" src="../pngs/no-glass-metal-or-biodegradables-900px-1.png" alt="what to put in your eco brick">
 			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p><ul><li>Paper and cardboard can be safely industrially recycled, composted or burnt.</li><li>Biodegradables can be composted or left to biodegrade.</li><li>Metals and glass can be industrially recycled.</li></ul>
 
-			<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:8px 10px 0px 12px;;margin-top:40px;margin-bottom:10px;"> 
-                		<div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:4px;cursor:pointer;">
-                    			<div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+			<div class="advanced-box"> 
+                		<div class="advanced-box-header">
+                    			<div class="advanced-title">
 		                                Advanced
                     			</div>
-					<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+					<div class="advanced-open-icon">+
         	        		</div>
 	        	        </div>
 
@@ -217,19 +213,15 @@
                     
                     			<div class="row">
                 
-		                        	<div class="main2">
+		                        	
 	                		            <p>💡 What about combinations of plastic and paper? What about a sticker on a paper envelope? Putting a little paper into your ecobrick isn't the end of the world. The contained environment will keep it from degrading. The main reason for not putting dry paper (or other organic matterials) into an ecobrick is to maximize the space for containing plastic.  There are many lively discussions in our social media communities about what should and should not go into an ecobrick.  <a href="../movement">Feel free to join a group near you and ask a question.</a></p>
-						</div>
-			                        <div class="side2">
-       	        			             <!-- <br><img src="../pngs/EarthWand-Grey-Icon-256x300.png" width="100%" alt="eco brick road into the distance" loading="lazy" alt="weighed plastic"> -->
-			                        </div>
-		
-	                		        <!-- <p><a href="../earthwands">Learn more..</p> -->
-			        	</div>
+									
+					        	</div>
 		      	          </div>
 			</div>
 		</div>
 	</div>
+</section>
 
 	<a id="BOTTOM"></a>
 	<div class="reg-content-block" id="block5">

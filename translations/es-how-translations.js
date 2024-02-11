@@ -32,7 +32,22 @@ const es_Page_Translations = {
     '012-block-1-advanced': 'Avanzado',
     '013-block-1-advanced-paragraph': '💡 Muchos ecobrickers rastrean el consumo de plástico de su hogar mensualmente para determinar su Ratio de Transición de Plástico (PTR). Durante el transcurso del mes, guardan, limpian y secan su plástico consumido y lo ponen en un contenedor dedicado. Al final del mes, pesan este plástico y registran la cantidad (¡nuestra aplicación GoBrik puede ayudarte a hacer esto!).',
     '014-block-1-advanced-image-alt': '<img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="plástico pesado">',
-    '015-block-1-advanced-paragraph': 'Luego transfieren este plástico a su contenedor "Para Ecobrickear", que cualquier persona en el hogar puede usar para ecobrickear directamente. Mes a mes, los ecobrickers rastrean su plástico y lo comparan con su ecobrick del mes. ¡Esto les permite determinar su PTR y su progreso hacia cero desperdicios y más allá!'
+    '015-block-1-advanced-paragraph': 'Luego transfieren este plástico a su contenedor "Para Ecobrickear", que cualquier persona en el hogar puede usar para ecobrickear directamente. Mes a mes, los ecobrickers rastrean su plástico y lo comparan con su ecobrick del mes. ¡Esto les permite determinar su PTR y su progreso hacia cero desperdicios y más allá!',
+    '016-block-2-opener-header': '2. Elige tu botella',
+'017-block-2-opener-subheader': 'Antes de empezar con el ecobricking, elige una botella específica y mantente con ella.',
+'018-block-2-main-image-alt': '<img src="../svgs/02-Choose-your-Bottle-1.svg" width="640" alt="Elige el tipo de botella ideal" loading="lazy" class="full-width-image">',
+'019-block-2-paragraph-1': 'Cuando llegue el momento de construir, tener tamaños de ecobrick perfectamente idénticos es importante para hacer módulos sólidos y estables. También ayuda tener al menos el mismo tamaño general de botella cuando se trata de construir con tierra y ecobricks. Habla con los ecobrickers en tu comunidad y toma la decisión juntos de qué botella usar.',
+'020-block-2-paragraph-2': 'Al seleccionar la botella que usarás, considera tres factores: la disponibilidad de la botella, el volumen y el proyecto para el que usarás el ecobrick.',
+'021-block-2-list-availability': '<strong>Disponibilidad</strong>',
+'022-block-2-list-availability-detail': 'Lo último que quieres es tener que comprar bebidas para tener una botella para tu ecobricking. Pronto muchas personas estarán haciendo ecobricks en tu comunidad y es ideal que todos usen la misma marca y botella. Asegúrate de elegir una botella que todos puedan conseguir fácilmente.',
+'023-block-2-list-volume': '<strong>Volumen de la Botella</strong>',
+'024-block-2-list-volume-detail': 'Elige el volumen de botella que prefieras. Los entrenadores de GEA enseñan a hacer ecobricks con botellas de menos de 600 ml. Las botellas grandes de 1500 ml requerirán mucho plástico, ¡pero también tomarán mucho tiempo para hacer! Las botellas de pequeño volumen permiten a los ecobrickers principiantes terminar su primer ecobrick y aprender rápidamente de sus errores. Las botellas grandes son mejores para ecobrickers avanzados.',
+'025-block-2-list-project': '<strong>Tu Proyecto</strong>',
+'026-block-2-list-project-detail': 'Para construir módulos con Ecobricks, necesitas botellas que sean exactamente del mismo tamaño y forma. Para proyectos de construcción al aire libre, la exactitud no es tan importante, siempre y cuando el volumen sea consistente (es decir, todas las botellas de 600 ml). Dependiendo del tamaño de la construcción, necesitarás diferentes tamaños de botellas. Por ejemplo, las botellas pequeñas hacen buenos muros, y las botellas grandes hacen buenos bancos.',
+'027-block-2-advanced-title': 'Avanzado',
+'028-block-2-advanced-paragraph': '💡 Si estás pensando en hacer <a href="../dms">Módulos Lego Dieleman</a> con tus ecobricks, también debes considerar el estrechamiento superior de tu botella. Los módulos Dieleman funcionan mejor cuando la distancia entre la parte superior de la botella y el inicio del estrechamiento es pequeña. Esto permite más área de superficie para que el pin invertido del módulo Dieleman se pueda adjuntar.'
+
+
        
 }
         

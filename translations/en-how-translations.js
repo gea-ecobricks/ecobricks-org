@@ -32,7 +32,35 @@ const en_Page_Translations = {
     '012-block-1-advanced': 'Advanced',
     '013-block-1-advanced-paragraph': '💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their Plastic Transition Ratio (PTR).  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).',
     '014-block-1-advanced-image-alt': '<img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="weighed plastic">',
-    '015-block-1-advanced-paragraph': 'They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!'
+    '015-block-1-advanced-paragraph': 'They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!',
+    '016-block-2-opener-header': '2. Choose your bottle',
+'017-block-2-opener-subheader': 'Before you start ecobricking, choose one specific bottle and stick with it.',
+'018-block-2-main-image-alt': '<img src="../svgs/02-Choose-your-Bottle-1.svg" width="640" alt="Choose the ideal bottle type" loading="lazy" class="full-width-image">',
+'019-block-2-paragraph-1': 'When it comes time to building, having perfectly identical ecobrick sizes is important for making solid and steady modules. It also helps having at least the same general size of bottle when it comes to building with earth and ecobricks. Talk with ecobrickers in your community and make the choice together of what bottle to use.',
+'020-block-2-paragraph-2': 'When selecting the bottle that you will use, consider three factors: the bottle’s availability, the volume, and the project you will use the ecobrick for.',
+'021-block-2-list-availability': '<strong>Availability</strong>',
+'022-block-2-list-availability-detail': 'The last thing you want to have to do is buy drinks to have a bottle for your ecobricking! Soon many people will be ecobricking in your community and it is ideal to have everyone using the same brand and bottle. Be sure to choose a bottle that everyone can easily come by.',
+'023-block-2-list-volume': '<strong>Bottle Volume</strong>',
+'024-block-2-list-volume-detail': 'Choose the bottle volume you want to go with. GEA Trainers teach ecobricking with bottles under 600ml. Large 1500ml bottles will take a lot of plastic, but also take a long time to make! Small volume bottles allow first-time ecobrickers to finish their first ecobrick and quickly learn from their mistakes. Large bottles are best for advanced ecobrickers.',
+'025-block-2-list-project': '<strong>Your Project</strong>',
+'026-block-2-list-project-detail': 'For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles). Depending on the size of construction, you will need different size bottles. For example, small bottles make good walls, and large bottles make good benches.',
+'027-block-2-advanced-title': 'Advanced',
+'028-block-2-advanced-paragraph': '💡 If you’re thinking of making <a href="../dms">Dieleman Lego Modules</a> with your ecobricks, you must also consider the top tapper of your bottle. Dieleman modules work best when the distance between the top of the bottle and the start of the tapper is small. This allows more surface area for the inverted peg of the Dieleman module to be attached.',
+
+
+'029-block-3-opener-header': '3. Get your stick ready',
+'030-block-3-opener-subheader': 'Ecobrickers like to call their packing stick, their magic wand. It makes the plastic disappear!',
+'031-block-3-main-image-alt': 'Pack your eco-brick with recycle plastics using a stick',
+'032-block-3-paragraph-1': 'Having the right stick will make a big difference to your ecobricking.',
+'033-block-3-paragraph-2': 'Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle– and yes, this means you have to start your ecobrick all over again!',
+'034-block-3-paragraph-3': 'Once you\'ve got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic! One stick turns into many!',
+'035-block-3-advanced-title': 'Advanced',
+'036-block-3-advanced-paragraph': '💡 The GEA has developed the optimal ecobricking tool– we call it the EarthWand. Earthwands can usually be purchased from GEA Trainers after a workshop, or you can order them from the GoBrik Shop. EarthWands are a regenerative product whose sale goes to support the local and global ecobrick movement.',
+'037-block-3-advanced-image-alt': 'EarthWand icon',
+'038-block-3-learn-more': 'Learn more..',
+
+
+
     
 }
         

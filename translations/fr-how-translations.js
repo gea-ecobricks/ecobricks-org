@@ -32,7 +32,34 @@ const fr_Page_Translations = {
     '012-block-1-advanced': 'Avancé',
     '013-block-1-advanced-paragraph': '💡 De nombreux écobricoleurs suivent la consommation de plastique de leur ménage sur une base mensuelle afin de déterminer leur Ratio de Transition Plastique (PTR). Au cours du mois calendaire, ils sauvegardent, nettoient et sèchent leur plastique consommé et le mettent dans un bac dédié. À la fin du mois, ils pèsent ce plastique et enregistrent la quantité (notre application GoBrik peut vous aider à faire cela !).',
     '014-block-1-advanced-image-alt': '<img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="plastique pesé">',
-    '015-block-1-advanced-paragraph': 'Ils transfèrent ensuite ce plastique dans leur bac « À Ecobricker », que n’importe qui dans la maison peut utiliser pour écobricker directement. Mois après mois, les écobricoleurs suivent leur plastique et le comparent à leur ecobrick du mois. Cela leur permet de déterminer leur PTR et leurs progrès pour atteindre zéro déchet et aller au-delà !'
+    '015-block-1-advanced-paragraph': 'Ils transfèrent ensuite ce plastique dans leur bac « À Ecobricker », que n’importe qui dans la maison peut utiliser pour écobricker directement. Mois après mois, les écobricoleurs suivent leur plastique et le comparent à leur ecobrick du mois. Cela leur permet de déterminer leur PTR et leurs progrès pour atteindre zéro déchet et aller au-delà !',
+    '016-block-2-opener-header': '2. Choisissez votre bouteille',
+'017-block-2-opener-subheader': 'Avant de commencer à faire des ecobricks, choisissez une bouteille spécifique et tenez-vous-y.',
+'018-block-2-main-image-alt': '<img src="../svgs/02-Choose-your-Bottle-1.svg" width="640" alt="Choisissez le type de bouteille idéal" loading="lazy" class="full-width-image">',
+'019-block-2-paragraph-1': 'Lorsqu’il s’agit de construire, avoir des tailles d’ecobrick parfaitement identiques est important pour fabriquer des modules solides et stables. Cela aide également d’avoir au moins la même taille générale de bouteille lorsqu’il s’agit de construire avec des ecobricks et de la terre. Discutez avec les ecobrickeurs de votre communauté et faites le choix ensemble de la bouteille à utiliser.',
+'020-block-2-paragraph-2': 'Lorsque vous sélectionnez la bouteille que vous utiliserez, considérez trois facteurs : la disponibilité de la bouteille, le volume et le projet pour lequel vous utiliserez l’ecobrick.',
+'021-block-2-list-availability': '<strong>Disponibilité</strong>',
+'022-block-2-list-availability-detail': 'La dernière chose que vous voulez faire est d’acheter des boissons pour avoir une bouteille pour votre ecobricking ! Bientôt, de nombreuses personnes feront des ecobricks dans votre communauté et il est idéal que tout le monde utilise la même marque et la même bouteille. Assurez-vous de choisir une bouteille que tout le monde peut facilement obtenir.',
+'023-block-2-list-volume': '<strong>Volume de la Bouteille</strong>',
+'024-block-2-list-volume-detail': 'Choisissez le volume de bouteille que vous souhaitez utiliser. Les formateurs de la GEA enseignent l’ecobricking avec des bouteilles de moins de 600ml. Les grandes bouteilles de 1500ml prendront beaucoup de plastique, mais prendront aussi beaucoup de temps à faire ! Les petites bouteilles permettent aux ecobrickeurs débutants de finir leur premier ecobrick et d’apprendre rapidement de leurs erreurs. Les grandes bouteilles sont meilleures pour les ecobrickeurs avancés.',
+'025-block-2-list-project': '<strong>Votre Projet</strong>',
+'026-block-2-list-project-detail': 'Pour construire des modules avec des Ecobricks, vous avez besoin de bouteilles exactement de la même taille et forme. Pour les projets de construction en extérieur, l’exacte similitude n’est pas si importante, tant que le volume est constant (c’est-à-dire toutes les bouteilles de 600ml). Selon la taille de la construction, vous aurez besoin de différentes tailles de bouteilles. Par exemple, les petites bouteilles font de bons murs, et les grandes bouteilles font de bons bancs.',
+'027-block-2-advanced-title': 'Avancé',
+'028-block-2-advanced-paragraph': '💡 Si vous pensez à fabriquer des <a href="../dms">Modules Lego Dieleman</a> avec vos ecobricks, vous devez également considérer le rétrécissement supérieur de votre bouteille. Les modules Dieleman fonctionnent mieux lorsque la distance entre le haut de la bouteille et le début du rétrécissement est petite. Cela permet une plus grande surface pour que le picot inversé du module Dieleman soit attaché.',
+
+
+'029-block-3-opener-header': '3. Préparez votre bâton',
+'030-block-3-opener-subheader': 'Les écobricoleurs aiment appeler leur bâton de tassage, leur baguette magique. Il fait disparaître le plastique !',
+'031-block-3-main-image-alt': 'Tassez votre éco-brique avec des plastiques recyclés à l’aide d’un bâton',
+'032-block-3-paragraph-1': 'Avoir le bon bâton fera une grande différence dans votre écobricking.',
+'033-block-3-paragraph-2': 'Le bambou et le bois font les meilleurs bâtons. La taille du bâton dépend du type de bouteille que vous choisissez. Vous voulez un bâton avec un diamètre d’environ un tiers de la largeur d’une ouverture de bouteille standard – donc environ 6mm. Vous voulez que votre bâton soit environ deux fois la hauteur de votre bouteille, avec une pointe légèrement arrondie. Évitez les bâtons aux coins pointus car ils peuvent rompre votre bouteille – et oui, cela signifie que vous devez recommencer votre éco-brique depuis le début !',
+'034-block-3-paragraph-3': 'Une fois que vous avez un bâton de bonne taille et forme, vous êtes prêt ! Vous pouvez ensuite le donner à d’autres pour copier et répliquer. C’est ainsi que nos formateurs GEA font leurs ateliers - plus de magie ! Un bâton se transforme en plusieurs !',
+'035-block-3-advanced-title': 'Avancé',
+'036-block-3-advanced-paragraph': '💡 La GEA a développé l’outil d’écobricking optimal – nous l’appelons l’EarthWand. Les Earthwands peuvent généralement être achetés auprès des formateurs GEA après un atelier, ou vous pouvez les commander depuis la boutique GoBrik. Les EarthWands sont un produit régénératif dont la vente soutient le mouvement écobrick local et mondial.',
+'037-block-3-advanced-image-alt': 'Icône EarthWand',
+'038-block-3-learn-more': 'Apprendre encore plus..'
+
+
     
 }
         
