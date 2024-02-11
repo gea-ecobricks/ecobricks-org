@@ -68,6 +68,25 @@ php_value auto_prepend_file '/home/ecobricks/public_html/wordfence-waf.php'
 # END Wordfence WAF
 php_value max_execution_time = 180
 
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # CSS with versioning
+    <FilesMatch "\.css\?v=[\d\.]+$">
+        ExpiresDefault "access plus 1 days"
+    </FilesMatch>
+
+    # JavaScript with versioning
+    <FilesMatch "\.js\?v=[\d\.]+$">
+        ExpiresDefault "access plus 1 days"
+    </FilesMatch>
+
+    # Fonts
+    <FilesMatch "\.(ttf)$">
+        ExpiresDefault "access plus 1 days"
+    </FilesMatch>
+</IfModule>
+
 # New Ecobricks.org landing
 
 <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|webp|gif|js|swf|svg)$">
