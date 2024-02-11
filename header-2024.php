@@ -396,7 +396,7 @@ window.onload = function() {
     flex-flow: row;">
 
         
-        <svg  version="1.1" viewBox="0 0 130.09 28.997" xmlns="http://www.w3.org/2000/svg" id="gea-logo" title="Ecobricks.org | <?php echo ($name $version $lang); ;?>"> 
+        <svg  version="1.1" viewBox="0 0 130.09 28.997" xmlns="http://www.w3.org/2000/svg" id="gea-logo" title="Ecobricks.org | <?php echo ($version); ;?>"> 
 
             <g id="logo-full" transform="translate(-36.122 -89.481)" fill="#646464">
                 <g id="logo-global-ecobrick-alliance" transform="matrix(.19017 0 0 .19017 210.48 97.699)" stroke-width="1px" aria-label="Global Ecobrick Alliance">
