@@ -379,6 +379,46 @@ border-left-width: 1px;
 		border-style: dashed;*/
 }
 
+
+.advanced-box {
+  background-color:#D4D4D4;
+  border-radius:10px;
+  padding: 10px 10px 0px 10px;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+.advanced-box-header {
+  display:flex;
+  flex-flow:row;
+  width:100%; 
+  padding:10px;
+  cursor:pointer;
+}
+
+.advanced-title {
+  font-family: 'Arvo', serif;
+  font-size:1.3em;
+  margin:auto;
+  width:fit-content;
+}
+
+.advanced-open-icon {
+  width:100%;
+  text-align:right;
+  padding-right:25px;
+  font-size:1.7em;
+}
+
+.advanced-box-content {
+  display: block;
+}
+
+
+
+
+
+
 /* ----------------------------------------
 
 

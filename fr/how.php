@@ -8,33 +8,24 @@
 
 <?php require_once ("../includes/how-inc2.php");?>
 
-<!--PAGE LANGUAGE:  ENGLISH
-Content Page template: v.1.0.0-->
-   
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page ids, file ids, div ids, div class ids, or html syntax.
-
-Once translation is completed, you can remove the line below to take the translation notice off the page-->
-
-<?php require_once ("translate-please.php");?>
 
 <!--TOP PAGE BANNER-->
 
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="2000-page-title">How to Make an Ecobrick</div>
-	    <div class="splash-sub" data-lang-id="2000-page-title">GEA 10 Step Guide</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">How to Make an Ecobrick</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">GEA 10 Step Guide</div>
 	</div>
-	<div class="splash-image"><img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="sky background">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="How to make an eco brick">
     </div>	
 </div>
 <div id="splash-bar"></div>
-<!--<div id="header-bar2"></div>-->
 
 
 <!-- PAGE CONTENT-->
 
-<a id="top"></a>
+<article id="top">
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -42,65 +33,67 @@ Once translation is completed, you can remove the line below to take the transla
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Ecobricks can be made by the young, the old and everyone in between — no machines, special skills or experts required!  However, there are important guidelines to follow to ensure the quality and usability of your ecobricks.</p>
+				<p data-lang-id="004-lead-page-paragraph">Ecobricks can be made by the young, the old and everyone in between — no machines, special skills or experts required!  However, there are important guidelines to follow to ensure the quality and usability of your ecobricks.</p>
     
 			</div>
 			
 			
 			<div class="page-paragraph">
-                <p>Be sure to start ecobricking right— this is a long-term life habit that you, your household and community are beginning.  Likewise, your ecobricks will set the example for everyone around you.  Sub-standard ecobricks will compromise the quality of furniture modules, constructions and the social spread of ecobricks while, well-done ecobricks can be put to good, safe use and will secure plastic for centuries.  We’ve put this 10 step guide together to help you on your journey of making great ecobricks.</p>	
+                <p data-lang-id="005-first-page-paragraph">Be sure to start ecobricking right— this is a long-term life habit that you, your household and community are beginning.  Likewise, your ecobricks will set the example for everyone around you.  Sub-standard ecobricks will compromise the quality of furniture modules, constructions and the social spread of ecobricks while, well-done ecobricks can be put to good, safe use and will secure plastic for centuries.  We’ve put this 10 step guide together to help you on your journey of making great ecobricks.</p>	
             </div>	
 
 
 
-	<a id="SAVE"></a>
-        <div class="reg-content-block" id="block1">
-		<div class="opener-header">
-			<div class="opener-header-text">
-                        <h4>1. Save, Segregate, Clean & Dry Plastics</h4>
-                        <h5>Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials. </h5>   
+		<section id="SAVE">
+        	<div class="reg-content-block" id="block1">
+				<div class="opener-header">
+					<div class="opener-header-text">
+                        <h4 data-lang-id="006-block-1-opener-header">1. Save, Segregate, Clean & Dry Plastics</h4>
+                        <h5 data-lang-id="007-block-1-opener-subheader">Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials. </h5>   
                         <br>
-			</div>
-			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-        	</div>
+					</div>
+					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-lable="Open Secion One">+</button>
+        		</div>
 
                 <div id="preclosed1">
-			<br>
-			<img src="../pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" alt="Save and segreate your plastics" width="640" loading="lazy" class="full-width-image">
-			<p> Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
-			<p>If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
-			<p>Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
+					<p data-lang-id="008-block-1-opener-main-image-alt">
+					<img src="../pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="640" loading="lazy" class="full-width-image" alt="Save, segragate, clean, dry plastics"></p>
 
-            <div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding: 10px 10px 0px 10px;;margin-top:40px;margin-bottom:10px;"> 
-                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:10px;cursor:pointer;">
-                    <div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
-                                Advanced
-                    </div>
-                    <div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
-                    </div>
-                </div>
-                <div class="advanced-box-content">
-                    <div class="row">
-                
-                        <div class="main2">
-                            <p>💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their <a href="../ptr">Plastic Transition Ratio (PTR)</a>.  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).</p>
-                        </div>
+					<p data-lang-id="009-block-1-opener-subheader"> Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
+					<p data-lang-id="010-block-1-paragraph">If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
 
-                        <div class="side2">
-                            <br><img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="weighed plastic">
-                        </div>
+					<p data-lang-id="011-block-1-opener-subheader">Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
 
-                        <p>They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+					<div class="advanced-box"> 
+						<div class="advanced-box-header">
+							<div class="advanced-title" data-lang-id="012-block-1-advanced">Advanced</div>
+							<div class="advanced-open-icon">+
+							</div>
+						</div>
+						<div class="advanced-box-content">
+							<div class="row">
+						
+								<div class="main2">
+									<p data-lang-id="013-block-1-advanced-paragraph">💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their <a href="../ptr">Plastic Transition Ratio (PTR)</a>.  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).</p>
+								</div>
 
-        
-	</div>
+								<div class="side2">
+									<p data-lang-id="014-block-1-advanced-image-alt"><img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="weighed plastic">
+									</p>
+								</div>
 
-	<a id="CHOOSE"></a>
-	<div class="reg-content-block" id="block2">
+								<p data-lang-id="015-block-1-advanced-paragraph">They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="CHOOSE">
+		<div class="reg-content-block" id="block2">
 
         	<div class="opener-header">	
 			<div class="opener-header-text">
