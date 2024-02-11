@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.43';?>
+<?php $version='1.45';?>
 <?php $page='how';?>
 
 <?php require_once ("../includes/how-inc2.php");?>
