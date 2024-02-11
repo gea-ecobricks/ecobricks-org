@@ -415,11 +415,12 @@
         <p data-lang-id="095">With modules you can create benches, tables, chairs, structures and more. Perhaps the best use for Ecobricks is building community green spaces. Using local earth and ecobricks you and your community can build beautiful spaces that enrich the local environment.</p>
 
         <div style="margin-top:35px">
-            <a class="action-btn" href="build" data-lang-id="096">🚀 Building Applications</a>
+            <a class="action-btn" href="build.php" data-lang-id="096">🚀 Building Applications</a>
             <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="097">An overview of ecobrick building methods</p>
         </div>  
     </div>
 </section>
+			</article>
 
 	
 
