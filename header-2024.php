@@ -52,13 +52,13 @@
 <script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>
 
 <!--This enables the Light and Dark mode switching-->
-<script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script>
+<script type="module" src="../dark-mode-toggle.mjs.js"></script>
 <script src="https://api.earthen.io/subscription-system.js?v=1" defer></script>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> 
 
 
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=<?php echo ($version); ;?>">
-<link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css?v=2">
+<!-- <link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css?v=2"> -->
 
 <!-- <script>
     function loadStylesheet(url) {

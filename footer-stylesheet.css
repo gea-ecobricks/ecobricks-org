@@ -392,3 +392,378 @@ migrated from Knack CSS
   */
   
   
+
+/* --------------------------
+
+EARTHEN SUBSCRIPTION SYSTEM CSS
+
+version 1.0
+
+----------------------------*/
+
+
+#registration-footer {
+  width: 100%;
+  height: 77px; 
+  position: fixed;
+  bottom: 0;
+  color: var(--subdued-text); 
+  text-align: center;
+  transition: margin-bottom 0.3s, height 0.3s;
+  overflow: hidden; 
+  z-index: 25;
+  margin-bottom: -66px;
+  display: flex;
+  flex-flow: column;
+}
+
+.registration-footer-holder {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+  border-top: 1px var( --header-accent) solid;
+  }
+
+
+  @media (prefers-color-scheme: dark) {
+    .registration-footer-holder {
+      background: url(webp/earthen-subscription-background-dark.webp) top center, var(--side-overlays);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  
+  @media (prefers-color-scheme: light) {
+    .registration-footer-holder {
+      background: url(webp/earthen-subscription-background-light.webp) top center, var(--top-header);
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+    }
+  
+
+#progress-bar {
+  height: 10px;
+  background-color: var( --header-accent);
+  width: 0%; 
+  z-index: 10;
+}
+
+#email-registration {
+  display: none; 
+  color: black; 
+  text-align: left;
+  padding: 10px;
+  margin: auto;
+}
+
+.email-input {
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  width:100%;
+  background: #00ffff17;
+  color: var(--text-color);
+  border-color: grey;
+}
+
+.name-input {
+  display: none;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  width: 0%;
+  transition: width 0.5s; 
+  background: #00ffff17;
+  color: var(--text-color);
+}
+
+.reg-complete-text {
+  display: none;
+  font-family: 'Mulish';
+  color: rgb(128, 122, 0);
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  width: 70%;
+  transition: width 0.5s;
+  background: var(--background-color);
+}
+
+.register-button {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  border-radius:  0px 10px 10px 0px;
+  width: fit-content;
+  background-color: #2db337;
+  min-width: 100px;
+  color: white;
+}
+
+.register-button:hover {
+
+  background-color: none;
+  background-image: url(svgs/cloud-button-back.svg);
+  color: black;
+}
+
+.reg-top-section {
+  display: flex;
+  flex-flow: column;
+  width:100%;
+  height: fit-content;
+}
+
+#reg-up-button {
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  width: 100px;
+  bottom: 0;
+
+  position: fixed;
+  right: 0;
+  transition: 0.3s;
+  }
+
+#reg-down-button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      padding: 0;
+      display: none;
+      z-index: 10;
+  }
+
+@media screen and (max-width: 699px) {
+    
+  #reg-up-button {
+      margin:0px -20px -2px auto;
+      height: 30px;
+  }
+
+  #reg-up-button:hover {
+      margin:0px 0px -2px auto;    
+            opacity: 1 !important;
+  }
+
+  #reg-down-button {
+      width:15%;
+      margin: 10px auto 0px auto;
+      height: 19px;
+  }
+
+  #reg-down-button img {
+      height: 19px;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+    
+  #reg-up-button {
+      margin: 0px -100px 6px auto;
+      width: 25%;
+      height: 40px;
+  }
+
+  #reg-up-button:hover {
+      margin: 0px -50px 5px auto;    
+      opacity: 1 !important;
+  }
+
+  #reg-down-button {
+      width:20%;
+      margin: 10px 0px 25px auto;
+      height: 20px;
+  }
+
+  #reg-down-button img {
+      height: 20px;
+  }
+}
+
+
+.registration-box {
+padding: 12px;
+margin:auto;
+margin-bottom: 100px;
+display:flex;
+flex-flow:row;
+}
+
+
+@media screen and (max-width: 699px) {
+
+  .registration-box {
+    width:82%;
+  }
+  .reg-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+.registration-box {
+  width:75%;
+}
+
+.reg-img {
+  padding-right: 10px;
+  height:260px;
+  width:260px; 
+  justify-content: center;
+  display: flex;
+  }
+}
+
+
+.reg-img img {
+height:fit-content;
+width:fit-content; 
+margin: 25px;
+height:260px;
+width:260px; 
+}
+
+#reg-registration-texts {
+display:flex; 
+flex-flow:column;
+}
+
+#reg-privacy-texts {
+  display:none; 
+  flex-flow:column;
+}
+
+.reg-header {
+  font-family: 'Arvo','CooperLT', serif; 
+  color:var(--h1);
+}
+
+.reg-subtitle {
+font-family: 'Mulish', sans-serif; 
+color:var(--subdued-text);
+
+}
+
+.reg-privacy-subtitle {
+  font-family: 'Mulish', sans-serif; 
+  color:var(--subdued-text);
+  
+  }
+
+.reg-sub {
+  font-family: 'Mulish'; 
+  display:flex;
+  color:var(--subdued-text);
+}
+
+.reg-sub a{
+text-decoration: underline;
+      color:var(--subdued-text);
+  }
+
+  .reg-sub a:hover{
+    text-decoration: none;
+          color:var(--text-color);
+          font-weight: 500;
+      }
+
+#reg-sub-checker {
+  font-size: small;
+  padding: 7px;
+  border-radius: 5px;
+  margin-top: 8px;
+  color: var(--text-color);
+  display: none;
+}
+
+@media screen and (max-width: 699px) {
+
+  .reg-header {
+    font-size: 1.6em;
+    padding:10px;
+    margin-bottom: -15px;
+    margin-top:-10px;
+    }
+    
+    .reg-subtitle {
+    font-size: 1.06em;
+    padding:9px 0px 9px 9px;
+    margin-bottom:4px;
+    }
+
+    .reg-privacy-subtitle {
+      font-size: 0.95em;
+      padding:9px 0px 9px 9px;
+      margin-bottom:4px;
+      }
+    
+    .reg-sub {
+    font-size: 0.9em;
+    padding:9px;
+    }
+
+  }
+
+
+@media screen and (min-width: 700px) {
+
+  .reg-header {
+    font-size: 2em;
+    padding:12px;
+    margin-bottom: -15px;
+    }
+    
+    .reg-subtitle {
+    font-size: 1.4em;
+    padding:12px 0px 12px 12px;
+    margin-bottom:10px;
+    }
+
+    .reg-privacy-subtitle {
+      font-size: 1.05em;
+      padding:12px 0px 12px 12px;
+      margin-bottom:10px;
+      }
+    
+    .reg-sub {
+    font-size: 1em;
+    padding:10px;
+ 
+    }
+
+  }
+
+
+  .earthen-icon {
+    height:30px;
+    width:30px;
+    background: url(webp/earthen-logo-icon.webp) no-repeat;
+    background-size: contain;
+    padding: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  }
+
+  .full-privacy-policy-link {
+    font-family: 'Mulish', sans-serif;
+    width:fit-content;
+    font-size:0.8em;
+    padding:10px 15px 10px 15px;
+    text-decoration: underline;
+    color: var(--text-color);
+  }
+
+  .full-privacy-policy-link:a {
+    color: var(--h1);
+    text-decoration: none;
+  }
