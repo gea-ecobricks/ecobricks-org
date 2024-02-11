@@ -251,10 +251,10 @@ function switchLanguage(langCode) {
 
     // Dynamic selection of the correct translations object
     const languageMappings = {
-        'en': en_Translations,
-        'fr': fr_Translations,
-        'es': es_Translations,
-        'id': id_Translations
+        'en': {...en_Translations, ...en_Page_Translations},
+        'fr': {...fr_Translations, ...fr_Page_Translations},
+        'es': {...es_Translations, ...es_Page_Translations},
+        'id': {...id_Translations, ...id_Page_Translations}
     };
 
     const currentTranslations = languageMappings[currentLanguage];

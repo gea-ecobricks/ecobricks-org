@@ -49,7 +49,7 @@
 	
 
  
-<script src="../core-scripts-2024.js?v=2.32"></script>
+<script src="../core-scripts-2024.js?v=2.33"></script>
 
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://api.earthen.io/dark-mode-toggle.mjs.js"></script>
