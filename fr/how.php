@@ -220,72 +220,61 @@
     </div>
 </section>
 
+<section id="BOTTOM">
+    <div class="reg-content-block" id="block5">
+        <div class="opener-header">   
+            <div class="opener-header-text">
+                <h4 data-lang-id="049-block-5-opener-header">5. Start by adding a bottom color</h4>
+                <h5 data-lang-id="050-block-5-opener-subheader">It is important to start your ecobrick by adding a bottom color.</h5>   
+            </div>
+            <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5" aria-expanded="false" aria-label="Toggle Section Five">+</button>
+        </div>
 
-	<section id="BOTTOM"></section>
-	<div class="reg-content-block" id="block5">
-
-		<div class="opener-header">
-		    
-			<div class="opener-header-text">
-				<h4>5. Start by adding a bottom color</h4>
-	                        <h5>It is important to start your ecobrick by adding a bottom color.</h5>   
-			</div>
-	    		<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
-                </div>
-
-		<div id="preclosed5">
-                	<br>
-			<img src="../svgs/5-Add-a-bottom-color.svg" width="640" loading="lazy" class="full-width-image" alt="Add a bottom color to your eco brick">
-			
-			<p>This is part of the <a href="spiral">circular design</a> principle of ecobricking: we're thinking about the next use of the ecobrick.  When your ecobrick is put to use in a module or an earth construction the bottom color will help make patterns and designs.</p>
-			
-			<p>To create your ecobrick's bottom color, choose a soft plastic with a solid color, then push it down to the bottom of your ecobrick.  You'll want to fill the bottle loosely about half way with soft plastic of your chosen color.  Then, pack it in with your stick.  If your bottle has "legs" or dimples at the bottom be sure to pack these solid and full.  Once all your soft plastic is compressed you want it  to fill the first 1-2cms of the bottle.</p>
-			
-			<p>Often schools or companies will ask their ecobrickers to make ecobricks with their community colors.  By giving your ecobrick bottom a color, you open up colorful design possibilities for making <a href="/modules">modules</a> or <a href="/earth">earth and ecobrick walls</a>.</p>
-		</div>
-	</div>
-
-	<section id="PACK"></section>
-        <div class="reg-content-block" id="block6">
-			<div class="opener-header">
-				<div class="opener-header-text">
-					<h4>6. Pack the bottle tight, mixing plastics as you go</h4>
-								<h5>Now it's time to pack away!  Cut or rip up large plastics into smaller pieces. </h5>   				
-				</div>
-
-				<button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
-			</div>		    
-			<div id="preclosed6">
- 	                	<br>
-				    <p><img src="../svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics"></p>
-			    
-				    <p>The smaller the pieces, the denser you'll get!  Fill the bottle up half way with loose plastic, then use your stick to push down around the sides of the bottle.  Keep pushing down as you move around the circumference of the bottle.  Once compressed, add more loose plastics.  To maximize the density, it's good to mix soft, then hard plastic.   If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
-			    
-				    <p>Did you push too hard?  In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again.  Ruptured bottles will not last and can leak plastics.  Cut the bottle open, remove the plastic and start again.  Cut or damaged PET plastic is readily recycled.</p>
-
-					<div class="advanced-box"> 
-						<div class="advanced-box-header">
-								<div class="advanced-title">
-										Advanced
-										</div>
-							<div class="advanced-open-icon">+</div>
-						</div>
-				
-						<div class="advanced-box-content">                    
-        					
-			              
-                        					<p>💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic.  By forming a center white ring of plastic you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
-							
-
-		            	</div>
-	        		</div><!--Advanced content closed-->    
-				</div>
-			</div>
-
+        <div id="preclosed5">
+            <br>
+            <img src="../svgs/5-Add-a-bottom-color.svg" width="640" loading="lazy" class="full-width-image" alt="Add a bottom color to your eco brick" data-lang-id="051-block-5-main-image-alt">
+            
+            <p data-lang-id="052-block-5-paragraph-1">This is part of the circular design principle of ecobricking: we're thinking about the next use of the ecobrick. When your ecobrick is put to use in a module or an earth construction, the bottom color will help make patterns and designs.</p>
+            
+            <p data-lang-id="053-block-5-paragraph-2">To create your ecobrick's bottom color, choose a soft plastic with a solid color, then push it down to the bottom of your ecobrick. You'll want to fill the bottle loosely about halfway with soft plastic of your chosen color. Then, pack it in with your stick. If your bottle has "legs" or dimples at the bottom, be sure to pack these solid and full. Once all your soft plastic is compressed, you want it to fill the first 1-2cms of the bottle.</p>
+            
+            <p data-lang-id="054-block-5-paragraph-3">Often schools or companies will ask their ecobrickers to make ecobricks with their community colors. By giving your ecobrick bottom a color, you open up colorful design possibilities for making modules or earth and ecobrick walls.</p>
+        </div>
+    </div>
 </section>
+
+<section id="PACK">
+    <div class="reg-content-block" id="block6">
+        <div class="opener-header">
+            <div class="opener-header-text">
+                <h4 data-lang-id="055-block-6-opener-header">6. Pack the bottle tight, mixing plastics as you go</h4>
+                <h5 data-lang-id="056-block-6-opener-subheader">Now it's time to pack away! Cut or rip up large plastics into smaller pieces.</h5>               
+            </div>
+            <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6" aria-expanded="false" aria-label="Toggle Section Six">+</button>
+        </div>      
+        <div id="preclosed6">
+            <br>
+            <img src="../svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics" data-lang-id="057-block-6-main-image-alt">
+            
+            <p data-lang-id="058-block-6-paragraph-1">The smaller the pieces, the denser you'll get! Fill the bottle up halfway with loose plastic, then use your stick to push down around the sides of the bottle. Keep pushing down as you move around the circumference of the bottle. Once compressed, add more loose plastics. To maximize the density, it's good to mix soft, then hard plastic. If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
+            
+            <p data-lang-id="059-block-6-paragraph-2">Did you push too hard? In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again. Ruptured bottles will not last and can leak plastics. Cut the bottle open, remove the plastic and start again. Cut or damaged PET plastic is readily recycled.</p>
+
+            <div class="advanced-box" aria-expanded="false"> 
+                <div class="advanced-box-header" aria-label="Advanced Section Toggle">
+                    <div class="advanced-title" data-lang-id="060-block-6-advanced-title">Advanced</div>
+                    <div class="advanced-open-icon">+</div>
+                </div>
+                <div class="advanced-box-content">                    
+                    <p data-lang-id="061-block-6-advanced-paragraph">💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic. By forming a center white ring of plastic, you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
+                </div>
+            </div><!--Advanced content closed-->    
+        </div>
+    </div>
+</section>
+
 	
-	
-	<a id="WEIGH"></a>
+	<section id="WEIGH">
 	<div class="reg-content-block" id="block7">
 		<div class="opener-header">
 			<div class="opener-header-text">
@@ -308,19 +297,17 @@
 			<p>That said, a good solid ecobrick that meets all GEA guidelines is something you can be proud and which will inspire others!  An ecobrick&#8217;s heft and quality set an inspiring example for others and energize the social spread of ecobricks.  When others see and hold your ecobrick, they will understand immediately that something important has happened: "waste" has been transformed into something fundamentally useful.</p>
 
 
-				<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:8px 10px 0px 12px;;margin-top:40px;margin-bottom:10px;"> 
-			                <div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:4px;cursor:pointer;">
-        					<div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+				<div class="advanced-box"> 
+			                <div class="advanced-box-header">
+        					<div class="advanced-title">
 			                                Advanced
                		     			</div>
-						<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+						<div class="advanced-open-icon">+
 						</div>
 					</div>
 					<div class="advanced-box-content">                    
-	        				<div class="row">
-							<div class="main2"><p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
-							</div>
-		                       			<div class="side2">
+	        				<p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
+							
 								
 							</div>
 						</div>
@@ -328,8 +315,9 @@
 				</div>
 		</div>
 	</div>
+</section>
 
-	<a id="CAP"></a>
+	<section id="CAP">
 	<div class="reg-content-block" id="block8">
 		<div class="opener-header">
 			<div class="opener-header-text">

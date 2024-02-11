@@ -70,6 +70,23 @@ const fr_Page_Translations = {
 '047-block-4-advanced-title': 'Avancé',
 '048-block-4-advanced-paragraph': 'Et les combinaisons de plastique et de papier ? Et un autocollant sur une enveloppe de papier ? Mettre un peu de papier dans votre ecobrick n\'est pas la fin du monde. L\'environnement contenu empêchera sa dégradation. La principale raison de ne pas mettre de papier sec (ou d\'autres matériaux organiques) dans un ecobrick est de maximiser l\'espace pour contenir du plastique. Il existe de nombreuses discussions animées dans nos communautés sur les réseaux sociaux sur ce qui devrait et ne devrait pas aller dans un ecobrick. N\'hésitez pas à rejoindre un groupe près de chez vous et à poser une question.',
 
+'049-block-5-opener-header': '5. Commencez par ajouter une couleur de fond',
+'050-block-5-opener-subheader': 'Il est important de commencer votre ecobrick en ajoutant une couleur de fond.',
+'051-block-5-main-image-alt': 'Ajoutez une couleur de fond à votre éco-brique',
+'052-block-5-paragraph-1': 'Cela fait partie du principe de design circulaire de l’ecobricking : nous pensons à la prochaine utilisation de l’ecobrick. Lorsque votre ecobrick est utilisé dans un module ou une construction en terre, la couleur de fond aidera à créer des motifs et des designs.',
+'053-block-5-paragraph-2': 'Pour créer la couleur de fond de votre ecobrick, choisissez un plastique souple de couleur unie, puis poussez-le vers le fond de votre ecobrick. Vous voudrez remplir la bouteille à moitié de plastique souple de la couleur choisie. Ensuite, tassez-le avec votre bâton. Si votre bouteille a des "jambes" ou des bosses au fond, assurez-vous de les remplir solidement et complètement. Une fois tout votre plastique souple comprimé, vous voulez qu’il remplisse les premiers 1-2 cm de la bouteille.',
+'054-block-5-paragraph-3': 'Souvent, les écoles ou les entreprises demandent à leurs ecobrickeurs de fabriquer des ecobricks avec les couleurs de leur communauté. En donnant à votre ecobrick une couleur de fond, vous ouvrez des possibilités de design colorées pour créer des modules ou des murs en terre et ecobrick.',
+'055-block-6-opener-header': '6. Tassez bien la bouteille, en mélangeant les plastiques au fur et à mesure',
+'056-block-6-opener-subheader': 'Il est maintenant temps de tasser ! Coupez ou déchirez les grands plastiques en morceaux plus petits.',
+'057-block-6-main-image-alt': 'Tassez correctement votre éco-brique avec des plastiques recyclés',
+'058-block-6-paragraph-1': 'Plus les morceaux sont petits, plus vous obtiendrez de densité ! Remplissez la bouteille à moitié avec du plastique lâche, puis utilisez votre bâton pour pousser vers le bas autour des côtés de la bouteille. Continuez à pousser vers le bas en vous déplaçant autour de la circonférence de la bouteille. Une fois comprimé, ajoutez plus de plastiques lâches. Pour maximiser la densité, il est bon de mélanger d’abord du plastique souple, puis du plastique dur. Si c’est votre premier ecobrick, pesez de temps en temps pour vous assurer que vous êtes sur la bonne voie pour atteindre votre poids minimum cible.',
+'059-block-6-paragraph-2': 'Avez-vous poussé trop fort ? Dans de rares cas, lors de l’utilisation d’un bâton pointu, d’une bouteille fine ou d’une force latérale excessive, un ecobrick peut se rompre. Si c’est le cas, recommencez. Les bouteilles rompues ne dureront pas et peuvent fuir des plastiques. Coupez la bouteille, retirez le plastique et recommencez. Le plastique PET coupé ou endommagé est facilement recyclé.',
+'060-block-6-advanced-title': 'Avancé',
+'061-block-6-advanced-paragraph': '💡 Une fois que vous arrivez au milieu de votre ecobrick, tassez 2-3 cm de plastique de couleur plus claire. En formant un anneau central blanc de plastique, vous aurez plus tard un emplacement clair pour étiqueter votre Ecobrick avec un marqueur permanent noir.',
+
+
+
+
 
 
     
