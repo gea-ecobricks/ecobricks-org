@@ -17,7 +17,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const en_Translations = {
 
-    '001-splash-title': 'How to Make an Ecobrick',
+    '001-splash-title': 'How to Make an Ecobrick!',
     '002-splash-subtitle': 'GEA 10 Step Guide',
     '003-splash-image-alt': '<img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="How to make an eco brick">',
     
