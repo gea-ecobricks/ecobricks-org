@@ -244,10 +244,11 @@ function documentClickListenerLogin() {
 }
 
 
-
 function switchLanguage(langCode) {
     currentLanguage = langCode; // Update the global language variable
    
+    // Save to localStorage
+    localStorage.setItem('currentLanguage', langCode);
 
     // Dynamic selection of the correct translations object
     const languageMappings = {
@@ -259,14 +260,15 @@ function switchLanguage(langCode) {
 
     const currentTranslations = languageMappings[currentLanguage];
 
-
     const elements = document.querySelectorAll('[data-lang-id]');
     elements.forEach(element => {
         const langId = element.getAttribute('data-lang-id');
         const translation = currentTranslations[langId]; // Access the correct translations
         if (translation) {
-            if (element.tagName.toLowerCase() === 'input' && element.type !== 'submit') {
+            if (element.tagName.toLowerCase() === 'input' && element.type === 'text') {
                 element.placeholder = translation;
+            } else if (element.tagName.toLowerCase() === 'input' && element.type === 'submit') {
+                element.value = translation; // Assuming you want to also translate the value of submit buttons
             } else if (element.hasAttribute('aria-label')) {
                 element.setAttribute('aria-label', translation);
             } else if (element.tagName.toLowerCase() === 'img') {
@@ -277,3 +279,12 @@ function switchLanguage(langCode) {
         }
     });
 }
+
+// To set the page language based on the saved language preference
+function setPageLanguageFromCache() {
+    const savedLanguage = localStorage.getItem('currentLanguage');
+    if (savedLanguage) {
+        switchLanguage(savedLanguage);
+    }
+}
+

@@ -117,8 +117,10 @@
 
 window.onload = function() {
     var siteName = 'Ecobricks.org'; // Default language code
+    setPageLanguageFromCache();
+    alert(currentLanguage);
   var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
-  switchLanguage('<?php echo ($lang); ;?>')
+  
   updateLogoColor(); 
 
 }
