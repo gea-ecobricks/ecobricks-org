@@ -144,6 +144,11 @@
 <script src="../translations/fr-welcome-translations.js"></script>
 <script src="../translations/id-welcome-translations.js"></script>
 
+<script src="../translations/en-<?php echo ($name); ;?>"-translations.js"></script>
+<script src="../translations/es-welcome-translations.js"></script>
+<script src="../translations/fr-welcome-translations.js"></script>
+<script src="../translations/id-welcome-translations.js"></script>
+
 <script>
 
 document.getElementById('top-settings-button').addEventListener('touchstart', function(event) {
