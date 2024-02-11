@@ -65,8 +65,8 @@
 					<p data-lang-id="011-block-1-opener-subheader">Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
 
 
-					<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel"> 
-						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel">
+					<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1"> 
+						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel-1">
 							<div class="advanced-title" data-lang-id="012-block-1-advanced">Advanced</div>
 							<div class="advanced-open-icon">+
 							</div>
@@ -124,8 +124,8 @@
                     <p data-lang-id="026-block-2-list-project-detail">For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles). Depending on the size of construction, you will need different size bottles. For example, small bottles make good walls, and large bottles make good benches.</p>
                 </li>
             </ol>
-            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel"> 
-						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel">
+            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-2"> 
+						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel-2">
                     <div class="advanced-title" data-lang-id="027-block-2-advanced-title">Advanced</div>
                     <div class="advanced-open-icon">+</div>
                 </div>
@@ -161,8 +161,8 @@
             
             <p data-lang-id="034-block-3-paragraph-3">Once you've got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic! One stick turns into many!</p>
 
-            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel"> 
-						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel">
+            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-3"> 
+						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel-3">
                     <div class="advanced-title" data-lang-id="035-block-3-advanced-title">Advanced</div>
                     <div class="advanced-open-icon">+</div>
                 </div>
@@ -203,8 +203,8 @@
                 <li><p data-lang-id="046-block-4-list-item-3">Metals and glass can be industrially recycled.</p></li>
             </ol>
 
-            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel"> 
-						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel">
+            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-4"> 
+						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel-4">
                     <div class="advanced-title" data-lang-id="047-block-4-advanced-title">Advanced</div>
                     <div class="advanced-open-icon">+</div>
                 </div>
@@ -259,8 +259,8 @@
             
             <p data-lang-id="059-block-6-paragraph-2">Did you push too hard? In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again. Ruptured bottles will not last and can leak plastics. Cut the bottle open, remove the plastic and start again. Cut or damaged PET plastic is readily recycled.</p>
 
-            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel"> 
-						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel">
+            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-5"> 
+						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel-5">
                     <div class="advanced-title" data-lang-id="060-block-6-advanced-title">Advanced</div>
                     <div class="advanced-open-icon">+</div>
                 </div>
@@ -293,8 +293,8 @@
 
             <p data-lang-id="068-block-7-paragraph-4">That said, a good solid ecobrick that meets all GEA guidelines is something you can be proud of and which will inspire others! An ecobrick's heft and quality set an inspiring example for others and energize the social spread of ecobricks. When others see and hold your ecobrick, they will understand immediately that something important has happened: "waste" has been transformed into something fundamentally useful.</p>
 
-            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel"> 
-						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel">
+            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-6"> 
+						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel-6">
                     <div class="advanced-title" data-lang-id="069-block-7-advanced-title">Advanced</div>
                     <div class="advanced-open-icon">+</div>
                 </div>
@@ -361,8 +361,8 @@
                 <li>Nail polish is a form of oil paint and also permanently inscribes the ecobrick. However, often the nail polish brush makes it hard to write legibly. Also, the smell of the polish drying is strong.</li>
             </ul>
             <p data-lang-id="085">Some ecobrickers are innovating with other methods; such as etching onto the ecobrick or inserting a written plastic tag into the bottle itself.</p>
-            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel"> 
-						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel">
+            <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-7"> 
+						<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel-7">
                     <div class="advanced-title" data-lang-id="086">Extra</div>
                     <div class="advanced-open-icon">+</div>
                 </div>
@@ -423,6 +423,8 @@
 </section>
 
 </div>
+
+			</div>
 
 
 </article>
