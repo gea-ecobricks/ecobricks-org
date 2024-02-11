@@ -120,7 +120,7 @@ window.onload = function() {
     // setPageLanguageFromCache();
     // alert(currentLanguage);
   var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
-  switchLangue(currentLanguage);
+  switchLanguage(currentLanguage);
   updateLogoColor(); 
 
 }
