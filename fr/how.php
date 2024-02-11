@@ -69,7 +69,7 @@
 						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1"> 
 							<div class="advanced-box-header"  id="advancedBoxLabel-1">
 								<div class="advanced-title" data-lang-id="012-block-1-advanced">Advanced</div>
-								<div class="advanced-open-icon" aria-label="Advanced Section Toggle">+
+								<div class="advanced-open-icon" >+
 								</div>
 							</div>
 							<div class="advanced-box-content">
@@ -128,7 +128,7 @@
 				<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-2"> 
 							<div class="advanced-box-header" id="advancedBoxLabel-2">
 						<div class="advanced-title" data-lang-id="027-block-2-advanced-title">Advanced</div>
-						<div class="advanced-open-icon" aria-label="Advanced Section Toggle" >+</div>
+						<div class="advanced-open-icon"  >+</div>
 					</div>
 					<div class="advanced-box-content">
 						<p data-lang-id="028-block-2-advanced-paragraph">💡 If you’re thinking of making <a href="../dms">Dieleman Lego Modules</a> with your ecobricks, you must also consider the top tapper of your bottle. Dieleman modules work best when the distance between the top of the bottle and the start of the tapper is small. This allows more surface area for the inverted peg of the Dieleman module to be attached.</p>
@@ -163,7 +163,7 @@
 						<p data-lang-id="034-block-3-paragraph-3">Once you've got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic! One stick turns into many!</p>
 
 						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-3"> 
-									<div class="advanced-box-header" aria-label="Advanced Section Toggle" id="advancedBoxLabel-3">
+									<div class="advanced-box-header"  id="advancedBoxLabel-3">
 								<div class="advanced-title" data-lang-id="035-block-3-advanced-title">Advanced</div>
 								<div class="advanced-open-icon">+</div>
 							</div>
@@ -207,7 +207,7 @@
 						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-4"> 
 									<div class="advanced-box-header"  id="advancedBoxLabel-4">
 								<div class="advanced-title" data-lang-id="047-block-4-advanced-title">Advanced</div>
-								<div class="advanced-open-icon" aria-label="Advanced Section Toggle">+</div>
+								<div class="advanced-open-icon" >+</div>
 							</div>
 
 							<div class="advanced-box-content">
@@ -261,14 +261,14 @@
 						<p data-lang-id="059-block-6-paragraph-2">Did you push too hard? In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again. Ruptured bottles will not last and can leak plastics. Cut the bottle open, remove the plastic and start again. Cut or damaged PET plastic is readily recycled.</p>
 
 						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-5"> 
-									<div class="advanced-box-header"  id="advancedBoxLabel-5">
-								<div class="advanced-title" data-lang-id="060-block-6-advanced-title">Advanced</div>
-									<div class="advanced-box-header"  id="advancedBoxLabel-5">
-								<div class="advanced-open-icon" >+</div>
-							</div>
-							<div class="advanced-box-content">                    
-								<p data-lang-id="061-block-6-advanced-paragraph">💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic. By forming a center white ring of plastic, you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
-							</div>
+								<div class="advanced-box-header"  id="advancedBoxLabel-5">
+									<div class="advanced-title" data-lang-id="060-block-6-advanced-title">Advanced</div>
+									
+									<div class="advanced-open-icon" >+</div>
+								</div>
+								<div class="advanced-box-content">                    
+									<p data-lang-id="061-block-6-advanced-paragraph">💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic. By forming a center white ring of plastic, you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
+								</div>
 						</div><!--Advanced content closed-->    
 					</div>
 				</div>
@@ -300,7 +300,7 @@
 						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-6"> 
 									<div class="advanced-box-header"  id="advancedBoxLabel-6">
 								<div class="advanced-title" data-lang-id="069-block-7-advanced-title">Advanced</div>
-								<div class="advanced-open-icon" aria-label="Advanced Section Toggle">+</div>
+								<div class="advanced-open-icon" >+</div>
 							</div>
 							<div class="advanced-box-content">
 								<p data-lang-id="070-block-7-advanced-paragraph">Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold. Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
@@ -365,7 +365,7 @@
 						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-7"> 
 									<div class="advanced-box-header"  id="advancedBoxLabel-7">
 								<div class="advanced-title" data-lang-id="086">Extra</div>
-								<div class="advanced-open-icon" aria-label="Advanced Section Toggle">+</div>
+								<div class="advanced-open-icon" >+</div>
 							</div>
 							<div class="advanced-box-content">                    
 								<p data-lang-id="087">Many ecobrickers write a prayer or a vision on the bottle in a permanent marker. Your ecobrick will last a long time. Why not let your grandkids know that you were thinking of them? For example: "I envision a world where plastic is used seldom and wisely and where we live in harmony with the cycles of nature"</p>
@@ -422,7 +422,7 @@
 			</section>
 
 		</div>
-						</div>
+						
 		</article>
 
 
