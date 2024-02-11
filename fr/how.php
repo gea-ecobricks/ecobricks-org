@@ -111,7 +111,7 @@
             <p data-lang-id="019-block-2-paragraph-1">When it comes time to building, having perfectly identical ecobrick sizes is important for making solid and steady modules. It also helps having at least the same general size of bottle when it comes to building with earth and ecobricks. Talk with ecobrickers in your community and make the choice together of what bottle to use.</p>
             <p data-lang-id="020-block-2-paragraph-2">When selecting the bottle that you will use, consider three factors: the bottle’s availability, the volume, and the project you will use the ecobrick for.</p>
 
-            <ol style="font-size: smaller">
+            <ol style="font-size: smaller;color:var(--text-color)">
                 <li>
                     <p data-lang-id="021-block-2-list-availability"><strong>Availability</strong></p>
                     <p data-lang-id="022-block-2-list-availability-detail">The last thing you want to have to do is buy drinks to have a bottle for your ecobricking! Soon many people will be ecobricking in your community and it is ideal to have everyone using the same brand and bottle. Be sure to choose a bottle that everyone can easily come by.</p>
@@ -200,7 +200,7 @@
 			<img width="640" loading="lazy" class="full-width-image" src="../pngs/no-glass-metal-or-biodegradables-900px-1.png" alt="what to put in your eco brick">
 			<p>The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins.   Stuff like cotton cloth, metal, paper, cardboard, glass and organic material will not degrade into toxins so there is no need to secure them.  Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick&#8211; they can rupture the sides and pose a danger for handling.  There are other solutions for these materials:</p>
 			
-			<ul>
+			<ul style="font-size: smaller; color:var(-text-color)">
 				<li><p>Paper and cardboard can be safely industrially recycled, composted or burnt.</p></li>
 				<li><p>Biodegradables can be composted or left to biodegrade.</p></li>
 				<li><p>Metals and glass can be industrially recycled.</p></li>
