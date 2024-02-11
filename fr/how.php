@@ -282,7 +282,7 @@
 				<h5>Now it's time to pack away!  Cut or rip up large plastics into smaller pieces.</h5>   
 			</div>
 			<button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
-                </div>
+        </div>
 
 		<div id="preclosed7">
 			<br>
@@ -298,21 +298,20 @@
 
 
 				<div class="advanced-box"> 
-			                <div class="advanced-box-header">
+			            <div class="advanced-box-header">
         					<div class="advanced-title">
 			                                Advanced
-               		     			</div>
-						<div class="advanced-open-icon">+
+               		     	</div>
+							<div class="advanced-open-icon">+
+							</div>
 						</div>
-					</div>
-					<div class="advanced-box-content">                    
+						<div class="advanced-box-content">                    
 	        				<p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
 							
 								
-							</div>
 						</div>
 					</div>
-				</div>
+			</div>
 		</div>
 	</div>
 </section>
