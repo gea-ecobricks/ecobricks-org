@@ -5,7 +5,7 @@
 <title>Comment faire une Ecobrique | Ecobricks.org</title>
 
 <?php $lang='fr';?>
-<?php $version='1.1';?>
+<?php $version='1.2';?>
 <?php $page='how';?>
 
 <?php require_once ("../includes/how-inc2.php");?>
