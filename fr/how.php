@@ -5,7 +5,7 @@
 <title>Comment faire une Ecobrique | Ecobricks.org</title>
 
 <?php $lang='fr';?>
-<?php $version='1.40';?>
+<?php $version='1.41';?>
 <?php $page='how';?>
 
 <?php require_once ("../includes/how-inc2.php");?>
@@ -272,87 +272,76 @@
         </div>
     </div>
 </section>
-
-	
-	<section id="WEIGH">
-	<div class="reg-content-block" id="block7">
-		<div class="opener-header">
-			<div class="opener-header-text">
-				<h4>7. Weigh your Ecobrick to ensure quality</h4>
-				<h5>Now it's time to pack away!  Cut or rip up large plastics into smaller pieces.</h5>   
-			</div>
-			<button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+<section id="WEIGH">
+    <div class="reg-content-block" id="block7">
+        <div class="opener-header">
+            <div class="opener-header-text">
+                <h4 data-lang-id="062-block-7-opener-header">7. Weigh your Ecobrick to ensure quality</h4>
+                <h5 data-lang-id="063-block-7-opener-subheader">Now it's time to weigh! Cut or rip up large plastics into smaller pieces.</h5>
+            </div>
+            <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7" aria-expanded="false" aria-label="Toggle Section Seven">+</button>
         </div>
 
-		<div id="preclosed7">
-			<br>
-			<p><img width="640" loading="lazy" class="full-width-image"  src="svg/07-Weigh-your-ecobrick-to-ensure-density-FLAT.svg" alt="Weight the eco brick and its recyled plastic waste"></p>
+        <div id="preclosed7">
+            <br>
+            <img width="640" loading="lazy" class="full-width-image" src="svg/07-Weigh-your-ecobrick-to-ensure-density-FLAT.svg" alt="Weigh the eco brick and its recycled plastic waste" data-lang-id="064-block-7-main-image-alt">
 
-			<p>Ecobricks that are solid and strong are densely packed.  The full volume is used for plastics and there is no air or spaces inside.  The GEA has determined that an ecobrick's density must be higher than <strong> 0.33 g/ml</strong>.  This means that a 600ml bottle must be above 200 grams and a 1500ml bottle must be above a weight of 500 grams.  Experienced ecobrickers tend to regard 0.37 g/ml and above as the range of a good ecobricks.</p>
+            <p data-lang-id="065-block-7-paragraph-1">Ecobricks that are solid and strong are densely packed. The full volume is used for plastics, and there is no air or spaces inside. The GEA has determined that an ecobrick's density must be higher than <strong>0.33 g/ml</strong>. This means that a 600ml bottle must be above 200 grams and a 1500ml bottle must be above a weight of 500 grams. Experienced ecobrickers tend to regard 0.37 g/ml and above as the range of good ecobricks.</p>
 
-			<p>We've discovered that obligating minimum density in your communities ecobricking is essential to ensure quality ecobricks.  Quality ecobricks ensure solid and safe constructions and make the maximize the bottle's volume for securing plastic out of the environment.</p>
+            <p data-lang-id="066-block-7-paragraph-2">We've discovered that obligating minimum density in your community's ecobricking is essential to ensure quality ecobricks. Quality ecobricks ensure solid and safe constructions and maximize the bottle's volume for securing plastic out of the environment.</p>
 
-			<p>Ecobricks that are below 0.33 g/ml are too squishy to be used for modules and are not ideal for earth building.  Soft ecobricks can compromise structural constructions and will dent easily, which reduces their lifespan.  Low density ecobricks are also<a href="/fire"> fire hazards</a> because of the air pockets remaining inside them,</p>
+            <p data-lang-id="067-block-7-paragraph-3">Ecobricks that are below 0.33 g/ml are too squishy to be used for modules and are not ideal for earth building. Soft ecobricks can compromise structural constructions and will dent easily, which reduces their lifespan. Low-density ecobricks are also <a href="/fire">fire hazards</a> because of the air pockets remaining inside them.</p>
 
-			<p>That said, a good solid ecobrick that meets all GEA guidelines is something you can be proud and which will inspire others!  An ecobrick&#8217;s heft and quality set an inspiring example for others and energize the social spread of ecobricks.  When others see and hold your ecobrick, they will understand immediately that something important has happened: "waste" has been transformed into something fundamentally useful.</p>
+            <p data-lang-id="068-block-7-paragraph-4">That said, a good solid ecobrick that meets all GEA guidelines is something you can be proud of and which will inspire others! An ecobrick's heft and quality set an inspiring example for others and energize the social spread of ecobricks. When others see and hold your ecobrick, they will understand immediately that something important has happened: "waste" has been transformed into something fundamentally useful.</p>
 
-
-			<div class="advanced-box"> 
-					<div class="advanced-box-header">
-						<div class="advanced-title">
-										Advanced
-						</div>
-						<div class="advanced-open-icon">+
-						</div>
-					</div>
-					<div class="advanced-box-content">                    
-						<p>Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles, that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold.  Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
-						
-							
-					</div>
-			</div>
-			
-		</div>
-	</div>
+            <div class="advanced-box" aria-expanded="false"> 
+                <div class="advanced-box-header" aria-label="Advanced Section Toggle">
+                    <div class="advanced-title" data-lang-id="069-block-7-advanced-title">Advanced</div>
+                    <div class="advanced-open-icon">+</div>
+                </div>
+                <div class="advanced-box-content">
+                    <p data-lang-id="070-block-7-advanced-paragraph">Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold. Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-	<section id="CAP">
-	<div class="reg-content-block" id="block8">
-		<div class="opener-header">
-			<div class="opener-header-text">
-				<h4>8. Cap and Log</h4>
-				<h5>Avoid packing your ecobrick too full.</h5>   
-			</div>
-			<button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
-                </div>
+<section id="CAP">
+    <div class="reg-content-block" id="block8">
+        <div class="opener-header">
+            <div class="opener-header-text">
+                <h4 data-lang-id="071-block-8-opener-header">8. Cap and Log</h4>
+                <h5 data-lang-id="072-block-8-opener-subheader">Avoid packing your ecobrick too full.</h5>
+            </div>
+            <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Eight">+</button>
+        </div>
 
-		<div id="preclosed8">
-			<br>
-			<p><img src="../svgs/08-cap-and-log.svg" width="640" loading="lazy" class="full-width-image" alt="Add a cap to your plastic waste packed ecoBrick"></p>
-			<p>So your ecobrick is packed as solid as possible- now its time to cap it!  First, be sure your ecobrick is <strong>not</strong> packed to overflowing.  There should be about 1-2cm between the cap and the plastic inside.  The cap (HDPE) is made of a different type of plastic than the bottle (PET) and is the weakest part of the ecobrick.  If plastic is even slightly pressing up against the lid, the pressure will inevitably crack it over the years.  Also, be sure to avoid flip-tops or sports caps when sealing your ecobrick as they are fragile and will break easily over time.</p>
-			
-			<p>Once capped, it is time to record your ecobrick!  Recording your ecobrick's key data an important part of ecobricking wether your doing it on your own or as part of a community.  This is in particular important for community leaders.  You can use a log sheet, a spread sheet or the GoBrik app to record data such as...</p>
-			
-			<ul>
-				<li>The ecobricker's id</li>
-				<li>The final weigh</li>
-				<li>Date and year</li>
-				<li>The intended Project</li>
-				<li>Serial Number (generated by the <a href="https://www.gobrik.com" target="_blank" rel="noopener noreferrer">GoBrik App</a>)</li>
-			</ul>
-			
-			<p>Recording ecobricks is key to calculating your overall impact, monitoring quality and preparing for building projects.</p>
-			
-			<p>By recording the weight, you can tally up all your ecobricks and calculate the total plastic you have kept out of the environment.  By recording id and weight you enable quality accountability. By maintaining a record of how many ecobricks you have completed, you'll know when your ready to move to the building stage of your project.  By recording the date you to let people tomorrow know that we cared today about their world.</p>
-			
-			<p>We've worked hard to craft a universal web app for you to use to log and connect your ecobricks with those in your community. Simply visit <a href="https://www.gobrik.com" target="_blank" rel="noopener noreferrer">www.GoBrik.com </a>with the web browser on your phone, sign in with Facebook or email, create an account, then begin to log your ecobricks.  GoBrik will do the rest- compiling stats for you and your community.</p>
-			
-			<p>We've also made a point-chart and sample form in our <a href="https://www.ecobricks.org/download/">Vision Ecobrick Guide</a> that can be photocopied for logging ecobricks in schools.</p>
-		</div>
-	</div>	
-	</section>		
+        <div id="preclosed8">
+            <br>
+            <img src="../svgs/08-cap-and-log.svg" width="640" loading="lazy" class="full-width-image" alt="Add a cap to your plastic waste packed ecoBrick" data-lang-id="073-block-8-main-image-alt">
+            
+            <p data-lang-id="074-block-8-paragraph-1">So your ecobrick is packed as solid as possible - now it's time to cap it! First, be sure your ecobrick is <strong>not</strong> packed to overflowing. There should be about 1-2cm between the cap and the plastic inside. The cap (HDPE) is made of a different type of plastic than the bottle (PET) and is the weakest part of the ecobrick. If plastic is even slightly pressing up against the lid, the pressure will inevitably crack it over the years. Also, be sure to avoid flip-tops or sports caps when sealing your ecobrick as they are fragile and will break easily over time.</p>
+            
+            <p data-lang-id="075-block-8-paragraph-2">Once capped, it is time to record your ecobrick! Recording your ecobrick's key data is an important part of ecobricking whether you're doing it on your own or as part of a community. This is particularly important for community leaders. You can use a log sheet, a spreadsheet, or the GoBrik app to record data such as the ecobricker's id, the final weight, date and year, the intended project, and serial number (generated by the <a href="https://www.gobrik.com" target="_blank" rel="noopener noreferrer">GoBrik App</a>).</p>
+            
+            <p data-lang-id="076-block-8-paragraph-3">Recording ecobricks is key to calculating your overall impact, monitoring quality, and preparing for building projects.</p>
+            
+            <p data-lang-id="077-block-8-paragraph-4">By recording the weight, you can tally up all your ecobricks and calculate the total plastic you have kept out of the environment. By recording id and weight you enable quality accountability. By maintaining a record of how many ecobricks you have completed, you'll know when you're ready to move to the building stage of your project. By recording the date you let people tomorrow know that we cared today about their world.</p>
+            
+            <p data-lang-id="078-block-8-paragraph-5">We've worked hard to craft a universal web app for you to use to log and connect your ecobricks with those in your community. Simply visit <a href="https://www.gobrik.com" target="_blank" rel="noopener noreferrer">www.GoBrik.com</a> with the web browser on your phone, sign in with Facebook or email, create an account, then begin to log your ecobricks. GoBrik will do the rest - compiling stats for you and your community.</p>
+            
+            <p data-lang-id="079-block-8-paragraph-6">We've also made a point-chart and sample form in our <a href="https://www.ecobricks.org/download/" target="_blank" rel="noopener noreferrer">Vision Ecobrick Guide</a> that can be photocopied for logging ecobricks in schools.</p>
+        </div>
+    </div>  
+</section>
 
-	<a id="INSCRIBE"></a>
+
+
+
+
+
+	<section id="INSCRIBE">
 	<div class="reg-content-block" id="block9">
 		<div class="opener-header">
 			<div class="opener-header-text">
@@ -375,27 +364,24 @@
 				<li>Nail polish is a form of oil paint and also permanently inscribes the ecobrick.  However, often the nail polish brush makes it hard to write legibly.  Also the smell of the polish drying is strong.</li>
 			</ul>
 			<p>Some ecobrickers are innovating with other methods-; such as etching onto the ecobrick or inserting a written plastic tag into the bottle itself.</p>
-			<div class="advanced-box" style="background-color:#D4D4D4;border-radius:10px;padding:8px 10px 0px 12px;;margin-top:40px;margin-bottom:10px;"> 
-				<div class="advanced-box-header" style="display:flex;flex-flow:row;width:100%; padding:4px;cursor:pointer;">
-        				<div class="advanced-title" style="font-family:Arvo;font-size:1.3em;margin:auto;width:fit-content;">
+			<div class="advanced-box"> 
+				<div class="advanced-box-header">
+        				<div class="advanced-title">
 			                               Extra
                		     		</div>
-					<div class="advanced-open-icon" style="width:100%;text-align:right;padding-right:25px;font-size:1.7em;">+
+					<div class="advanced-open-icon">+
 					</div>
 				</div>
 				<div class="advanced-box-content">                    
-	        			<div class="row">
-						<div class="main2"><p>Many ecobrickers write a prayer or a vision on the bottle in a permanent marker.  Your ecobrick will last a long time.  Why not let your grandkids know that you were thinking of them?  For example: "I envision a world where plastic is used seldom and wisely and where we live in harmony with the cycles of nature"</p>
-						</div>
-	                     <div class="side2">
-						</div>
-					</div>
+	        			<p>Many ecobrickers write a prayer or a vision on the bottle in a permanent marker.  Your ecobrick will last a long time.  Why not let your grandkids know that you were thinking of them?  For example: "I envision a world where plastic is used seldom and wisely and where we live in harmony with the cycles of nature"</p>
+						
 				</div>
 			</div>
 		</div>
-	</div>			
+	</div>		
+	</section>	
 
-	<a id="STORE"></a>
+	<section id="STORE"></section>
 	<div class="reg-content-block" id="block10">
 		<div class="opener-header">
 			<div class="opener-header-text">
@@ -416,16 +402,12 @@
 	</div>	
 			
 	<br>
+	<section id="CONCLUSION">
 	<div class="page-paragraph-reg">
 
 		<div id="video-placeholder" style="width:100%; min-height:240px; height:375px;background:url('../webp/how-to-preview.webp') center center no-repeat; cursor:pointer; position: relative;">
 			<div id="play-button"></div>
 		</div>
-
-<!-- 
-
-             <iframe loading="lazy" title="How to make an ecobrick" width="600" height="400" src="https://www.youtube.com/embed/RQoXtbJTvMs" title="How to Make an Ecobrick"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border:none;width:100%;"></iframe>
-                  -->
 
 		<div class="row">
 			<div class="main2">
@@ -452,6 +434,7 @@
     </div>
 
 </div>
+</section>
 	
 
 <div class="side">

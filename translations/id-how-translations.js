@@ -71,6 +71,20 @@ const id_Page_Translations = {
 '047-block-4-advanced-title': 'Lanjutan',
 '048-block-4-advanced-paragraph': 'Bagaimana dengan kombinasi plastik dan kertas? Bagaimana dengan stiker pada amplop kertas? Memasukkan sedikit kertas ke dalam ecobrick Anda bukanlah akhir dari dunia. Lingkungan tertutup akan menjaganya agar tidak terdegradasi. Alasan utama untuk tidak memasukkan kertas kering (atau bahan organik lainnya) ke dalam ecobrick adalah untuk memaksimalkan ruang untuk mengandung plastik. Ada banyak diskusi yang hidup di komunitas media sosial kami tentang apa yang harus dan tidak harus dimasukkan ke dalam ecobrick. Jangan ragu untuk bergabung dengan grup di dekat Anda dan ajukan pertanyaan.',
 
+'049-block-5-opener-header': '5. Mulai dengan menambahkan warna dasar',
+'050-block-5-opener-subheader': 'Penting untuk memulai ecobrick Anda dengan menambahkan warna dasar.',
+'051-block-5-main-image-alt': 'Tambahkan warna dasar pada ecobrick Anda',
+'052-block-5-paragraph-1': 'Ini adalah bagian dari prinsip desain sirkular ecobricking: kita memikirkan penggunaan berikutnya dari ecobrick. Ketika ecobrick Anda digunakan dalam modul atau konstruksi bumi, warna dasar akan membantu membuat pola dan desain.',
+'053-block-5-paragraph-2': 'Untuk membuat warna dasar ecobrick Anda, pilih plastik lembut dengan warna solid, lalu dorong ke dasar ecobrick Anda. Anda akan ingin mengisi botol secara longgar sekitar setengah jalan dengan plastik lembut warna pilihan Anda. Kemudian, padatkan dengan tongkat Anda. Jika botol Anda memiliki "kaki" atau cekungan di bagian bawah, pastikan untuk mengisi ini padat dan penuh. Setelah semua plastik lembut Anda terkompresi, Anda ingin itu mengisi 1-2cm pertama dari botol.',
+'054-block-5-paragraph-3': 'Seringkali sekolah atau perusahaan meminta ecobrickers mereka untuk membuat ecobrick dengan warna komunitas mereka. Dengan memberikan warna dasar pada ecobrick Anda, Anda membuka kemungkinan desain yang berwarna-warni untuk membuat modul atau dinding bumi dan ecobrick.',
+'055-block-6-opener-header': '6. Padatkan botol dengan rapat, mencampur plastik saat Anda pergi',
+'056-block-6-opener-subheader': 'Sekarang saatnya untuk memadatkan! Potong atau sobek plastik besar menjadi potongan-potongan kecil.',
+'057-block-6-main-image-alt': 'Padatkan ecobrick Anda dengan benar dengan plastik daur ulang',
+'058-block-6-paragraph-1': 'Semakin kecil potongannya, semakin padat Anda akan mendapatkan! Isi botol setengah jalan dengan plastik longgar, lalu gunakan tongkat Anda untuk mendorong ke bawah di sekitar sisi botol. Terus dorong ke bawah saat Anda bergerak di sekeliling lingkaran botol. Setelah terkompresi, tambahkan lebih banyak plastik longgar. Untuk memaksimalkan kepadatan, baiknya mencampur plastik lembut, lalu plastik keras. Jika ini ecobrick pertama Anda, sesekali timbang untuk memastikan Anda berada di jalur yang benar untuk berat minimum target Anda.',
+'059-block-6-paragraph-2': 'Apakah Anda mendorong terlalu keras? Dalam kasus langka, saat menggunakan tongkat tajam, botol tipis atau terlalu banyak kekuatan lateral, ecobrick dapat pecah. Jika demikian, mulai lagi. Botol yang pecah tidak akan bertahan dan dapat bocor plastik. Potong botol terbuka, keluarkan plastik dan mulai lagi. Plastik PET yang dipotong atau rusak mudah didaur ulang.',
+'060-block-6-advanced-title': 'Lanjutan',
+'061-block-6-advanced-paragraph': '💡 Setelah Anda mencapai tengah ecobrick Anda, padatkan 2-3cm plastik berwarna lebih terang. Dengan membentuk cincin putih tengah dari plastik, nanti Anda akan memiliki lokasi yang jelas untuk memberi label Ecobrick Anda dengan spidol hitam permanen.',
+
  
 }
         

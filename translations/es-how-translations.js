@@ -69,6 +69,19 @@ const es_Page_Translations = {
 '047-block-4-advanced-title': 'Avanzado',
 '048-block-4-advanced-paragraph': '¿Qué pasa con las combinaciones de plástico y papel? ¿Qué pasa con una etiqueta en un sobre de papel? Poner un poco de papel en tu ecobrick no es el fin del mundo. El ambiente contenido evitará que se degrade. La razón principal para no poner papel seco (u otros materiales orgánicos) en un ecobrick es maximizar el espacio para contener plástico. Hay muchas discusiones animadas en nuestras comunidades de redes sociales sobre qué debería y no debería ir en un ecobrick. Siéntete libre de unirte a un grupo cerca de ti y hacer una pregunta.',
 
+'049-block-5-opener-header': '5. Empieza añadiendo un color en el fondo',
+'050-block-5-opener-subheader': 'Es importante comenzar tu ecobrick añadiendo un color en el fondo.',
+'051-block-5-main-image-alt': 'Añade un color en el fondo de tu ecobrick',
+'052-block-5-paragraph-1': 'Esto es parte del principio de diseño circular del ecobrickeo: estamos pensando en el próximo uso del ecobrick. Cuando tu ecobrick se utilice en un módulo o una construcción con tierra, el color del fondo ayudará a hacer patrones y diseños.',
+'053-block-5-paragraph-2': 'Para crear el color del fondo de tu ecobrick, elige un plástico suave de color sólido, luego empújalo hacia el fondo de tu ecobrick. Querrás llenar la botella sueltamente hasta la mitad con el plástico suave de tu color elegido. Luego, empácalo con tu palo. Si tu botella tiene "patas" o hendiduras en el fondo, asegúrate de llenarlas sólida y completamente. Una vez que todo tu plástico suave esté comprimido, quieres que llene los primeros 1-2cm de la botella.',
+'054-block-5-paragraph-3': 'A menudo, las escuelas o empresas piden a sus ecobrickers hacer ecobricks con los colores de su comunidad. Al darle a tu ecobrick un color en el fondo, abres posibilidades de diseño coloridas para hacer módulos o paredes de tierra y ecobrick.',
+'055-block-6-opener-header': '6. Empaca la botella firmemente, mezclando plásticos a medida que avanzas',
+'056-block-6-opener-subheader': '¡Ahora es el momento de empacar! Corta o rasga los plásticos grandes en piezas más pequeñas.',
+'057-block-6-main-image-alt': 'Empaca bien tu ecobrick con plásticos reciclados',
+'058-block-6-paragraph-1': '¡Mientras más pequeñas las piezas, más densidad conseguirás! Llena la botella hasta la mitad con plástico suelto, luego usa tu palo para presionar hacia abajo alrededor de los lados de la botella. Sigue presionando hacia abajo mientras te mueves alrededor de la circunferencia de la botella. Una vez comprimido, añade más plásticos sueltos. Para maximizar la densidad, es bueno mezclar primero plástico suave, luego plástico duro. Si es tu primer ecobrick, pesa ocasionalmente para asegurarte de que estás en camino de alcanzar tu peso mínimo objetivo.',
+'059-block-6-paragraph-2': '¿Presionaste demasiado fuerte? En casos raros, al usar un palo afilado, una botella delgada o demasiada fuerza lateral, un ecobrick puede romperse. Si es así, comienza de nuevo. Las botellas rotas no durarán y pueden filtrar plásticos. Corta la botella, retira el plástico y comienza de nuevo. El plástico PET cortado o dañado se recicla fácilmente.',
+'060-block-6-advanced-title': 'Avanzado',
+'061-block-6-advanced-paragraph': '💡 Una vez que llegues a la mitad de tu ecobrick, empaca 2-3cm de plástico de color más claro. Al formar un anillo central blanco de plástico, más tarde tendrás un lugar claro para etiquetar tu Ecobrick con un marcador permanente negro.',
 
 
        
