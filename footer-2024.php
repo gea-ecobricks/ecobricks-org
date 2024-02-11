@@ -191,13 +191,13 @@ document.getElementById('login-menu-slider').addEventListener('click', function(
 
 
 
-// Event listeners for the language selector buttons
-document.querySelectorAll('.lang-selector').forEach(button => {
-    button.addEventListener('click', function() {
-        const langCode = this.textContent.trim().split(' ')[1]; // Extract language code from button text
-        changeLanguage(langCode.toLowerCase());
-    });
-});
+// // Event listeners for the language selector buttons
+// document.querySelectorAll('.lang-selector').forEach(button => {
+//     button.addEventListener('click', function() {
+//         const langCode = this.textContent.trim().split(' ')[1]; // Extract language code from button text
+//         changeLanguage(langCode.toLowerCase());
+//     });
+// });
 
 
 
