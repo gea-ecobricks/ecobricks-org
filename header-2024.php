@@ -49,9 +49,6 @@
 	
 
  
-<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=4.4">
-
-
 <script src="../core-scripts-2024.js?v=2.32"></script>
 
 <!--This enables the Light and Dark mode switching-->
@@ -60,7 +57,7 @@
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> 
 
 
-<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=2">
+<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=<?php echo ($version); ;?>">
 <link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css?v=2">
 
 <!-- <script>
@@ -85,15 +82,19 @@
 
 
 
+<!--MAIN STYLE SHEETS -->
 
-<!-- <script type="module" src="../mode-toggle.mjs.js"></script> -->
 <link rel="stylesheet" type="text/css" href="../mode-slider.css?v=2.6">
+<link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=<?php echo ($version); ;?>"> 
+
+<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=<?php echo ($version); ;?>">
+
 <!--Default Light Styles to load first-->
-<link rel="preload" href="../mode-light.css?v5.97" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../mode-light.css?v=<?php echo ($version); ;?>" as="style" onload="this.rel='stylesheet'">
  <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../mode-light.css?v5.97" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../mode-dark.css?v=7.97" media="(prefers-color-scheme: dark)">
-<link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=2.4"> 
+<link rel="stylesheet" href="../mode-light.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../mode-dark.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: dark)">
+
 
 <!-- 
 <meta http-equiv="Content-Security-Policy" content="
@@ -395,7 +396,7 @@ window.onload = function() {
     flex-flow: row;">
 
         
-        <svg  version="1.1" viewBox="0 0 130.09 28.997" xmlns="http://www.w3.org/2000/svg" id="gea-logo">
+        <svg  version="1.1" viewBox="0 0 130.09 28.997" xmlns="http://www.w3.org/2000/svg" id="gea-logo" title="Ecobricks.org | <?php echo ($name $version $lang); ;?>"> 
 
             <g id="logo-full" transform="translate(-36.122 -89.481)" fill="#646464">
                 <g id="logo-global-ecobrick-alliance" transform="matrix(.19017 0 0 .19017 210.48 97.699)" stroke-width="1px" aria-label="Global Ecobrick Alliance">
