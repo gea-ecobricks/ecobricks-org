@@ -1,6 +1,18 @@
 
 
+document.addEventListener("scroll", function() {
+    var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+  
+    // Check if the user has scrolled more than 1000px
+    if (scrollPosition > 1000) {
+      var footer = document.getElementById('footer-full');
+      if (footer) {
+        footer.style.display = 'block'; // Show the footer
+      }
+    }
+  });
 
+  
 function clearSiteCache() {
     // Translations for the confirm message
     const confirmMessages = {

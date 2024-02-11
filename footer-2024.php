@@ -7,7 +7,7 @@
 <!--FOOTER STARTS-->
 
     
-<div id="footer-full" style="margin-top:0px">
+<div id="footer-full" style="margin-top:0px; display:none;">
 
     <div class="vision-landscape">
         <img src="../webp/vision-day-2024.webp" style="width:100%" loading="lazy" data-lang-id="400-visionscape-description" alt="We envision a great green transition from ways that pollute to ways that enrich.  And it starts with our plastic.">
