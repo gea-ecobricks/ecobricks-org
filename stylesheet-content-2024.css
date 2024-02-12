@@ -322,15 +322,15 @@ margin-top: 40px;
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: var(--same);
   font-size: 16px;
-  background: var(--emblem-pink);
+  /* background: var(--emblem-pink); */
   padding: 8px 15px 8px 15px;
   text-decoration: none;
   overflow-x: none;
-  border: none;
+  border: none; 
 }
 
 .module-btn:hover {
-  background: var(--emblem-pink-over);
+  /* background: var(--emblem-pink-over); */
   text-decoration: none;
   color: var(--same);
 }

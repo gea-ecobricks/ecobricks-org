@@ -17,9 +17,12 @@
   --settings-border: rgb(24, 26, 38);
   --emblem-pink: #a93aa9;
   --emblem-pink-over: #e92de9;
-  --emblem-blue: #329bb8;
-  --emblem-green: #41a43c;
-  --emblem-orange: #fc8302;
+  --emblem-blue: #2f8197;
+  --emblem-blue-over: #329bb8;
+  --emblem-green: #2b6d27;
+  --emblem-green:-over #41a43c;
+  --emblem-orange: #bd6303;
+  --emblem-orange-over: #fc8302;
   --selector:  rgb(71, 73, 91);
   --selector-highlight: rgb(65, 65, 81);
   --selector-highlight-over: rgb(55, 55, 73);

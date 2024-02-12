@@ -20,8 +20,11 @@
     --emblem-pink: #fc02fc;
     --emblem-pink-over: #bb02bb;
     --emblem-blue: #329bb8;
+    --emblem-blue-over: #23748a;
     --emblem-green: #41a43c;
+    --emblem-green-over: #2c7528;
     --emblem-orange: #fc8302;
+    --emblem-orange-over: #d46e00;
     --selector: rgb(149, 149, 149);
     --selector-highlight: rgb(203, 203, 203);
     --selector-highlight-over: rgb(224, 224, 224);

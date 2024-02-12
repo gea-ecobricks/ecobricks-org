@@ -1,4 +1,17 @@
-<!--Content Includes Page template: v.2-->
+<!--Content Includes Page template: v.1.0.2-->
+
+<?php require_once ("lang.php");
+echo <<<_END
+
+<!DOCTYPE html>
+
+<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
+
+<html lang="$lang">
+
+_END;?>
+
+<HEAD> 
 
 <!--Image files to preload that are unique to this page-->
 
@@ -9,6 +22,8 @@
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
 <?php require_once ("../meta/principles-$lang.php");?>
+
+<?php require_once ("../header.php");?>
 
 
 <STYLE>
@@ -184,7 +199,23 @@ ul {
 
 }
 
+.module-btn {
+  background: var(--emblem-green);
+}
 	
-</style>	
+.module-btn:hover {
+  background: var(--emblem-green-over);
+}
 
-<?php require_once ("../header-2024.php");?>
+</style>
+
+</head>
+							  
+											  
+<BODY id="full-page">
+
+	  <div id="load-background">
+        
+	<!-- This loads the page's language specific menu -->
+
+    <?php require_once ("../menus/menu-$lang.php");?>
