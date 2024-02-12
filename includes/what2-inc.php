@@ -39,7 +39,7 @@
 		z-index: 5;
 		position: relative;
         	background-color: #00E6FF;
-		background: url(https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v2) top;
+		background: url(https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v2) top #00E6FF;
 		background-repeat: no-repeat;
     	background-size: cover;
 		text-align: left;
@@ -120,8 +120,8 @@
 
 @media screen and (min-width: 700px) {
 	.splash-heading {
-      font-size: 3em;
-      line-height: 1.3;
+      font-size: 2.5em;
+      line-height: 1.2;
       margin: 10px 0px 10px 0px;
   }
 }
@@ -176,15 +176,15 @@
 
 @media (prefers-color-scheme: dark) {
   .splash-content-block {
-    filter: brightness(80%);
+    filter: brightness(90%);
   }
 
   .splash-image {
-    filter: brightness(120%);
+    filter: brightness(110%);
   }
 
   #splash-bar {
-    filter: brightness(80%);
+    filter: brightness(90%);
     box-shadow: 0 8px 7px rgba(255, 254, 254, 0.938);
   }
 }
