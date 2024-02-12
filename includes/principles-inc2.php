@@ -36,7 +36,7 @@ ul {
 		z-index: 5;
 		
 		
-		background: url(webp/principles-banner-1600px.webp?v6) bottom;
+		background: url(../webp/principles-banner-1600px.webp?v6) bottom;
 
 		background-color: #088408;
 		
@@ -61,7 +61,7 @@ ul {
 		z-index: 5;
 		position: relative;
 		
-		background: url(webp/principles-banner-1600px.webp?v6) bottom left;
+		background: url(../webp/principles-banner-1600px.webp?v6) bottom left;
 		background-color: #088408;
     	background-repeat: no-repeat;
 		/*margin: -3px 0 -20px 0;*/
@@ -193,6 +193,25 @@ ul {
   background: var(--emblem-green-over);
 }
 	
+
+@media (prefers-color-scheme: dark) {
+  .splash-content-block,
+
+  #splash-bar {
+    filter: brightness(80%);
+  }
+
+  .splash-image {
+	filter:brightness(120%);
+  }
+  #splash-bar {
+    /* Keep your existing box-shadow or modify it as needed */
+    box-shadow: 0 8px 7px rgba(255, 254, 254, 0.938);
+  }
+}
+
+
+
 </style>	
 
 <?php require_once ("../header-2024.php");?>

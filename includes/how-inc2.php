@@ -260,6 +260,22 @@ margin-bottom: 31px;
 .module-btn:hover {
   background: var(--emblem-pink-over);
 }
+
+@media (prefers-color-scheme: dark) {
+  .splash-content-block {
+    filter: invert(100%);
+  }
+
+  .splash-image {
+    filter: invert(100%);
+  }
+
+  #splash-bar {
+    filter: invert(100%);
+    box-shadow: 0 8px 7px rgba(255, 254, 254, 0.938);
+  }
+}
+
 	
 </style>	
 
