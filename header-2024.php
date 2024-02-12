@@ -394,8 +394,8 @@ window.onload = function() {
     
 
 
-    <!-- <div id="header" class="top-menu" style="display: flex;
-    flex-flow: row;"> -->
+    <div id="header" class="top-menu" style="display: flex;
+    flex-flow: row;">
 
         <div id="logo-title" style="height:100%; display:flex;" title="Ecobricks.org | <?php echo ($version); ;?>">
         <svg  version="1.1" viewBox="0 0 130.09 28.997" xmlns="http://www.w3.org/2000/svg" id="gea-logo" > 
@@ -490,7 +490,7 @@ window.onload = function() {
                 </dark-mode-toggle> 
             </div>
         </div>
-    <!-- </div> -->
+    </div>
 
 <!-- 
 <div id="language-menu-slider">
