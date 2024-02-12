@@ -32,15 +32,18 @@
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-		background-color: #00E6FF;
+      
+		text-align: left;
+		min-height: 67vh;
+		padding: 50px 7% 50px 7%;
+		z-index: 5;
+		position: relative;
+        	background-color: #00E6FF;
 		background: url(https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v2) top;
 		background-repeat: no-repeat;
     	background-size: cover;
 		text-align: left;
-		height: 60vh;
-		padding: 50px 7% 50px 7%;
 		z-index: 5;
-		position: relative;
 		margin: -3px 0 -20px 0;
 		display: flex;
  		flex-wrap: wrap;
