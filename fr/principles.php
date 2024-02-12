@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.48';?>
+<?php $version='1.49';?>
 <?php $page='how';?>
 
 <?php require_once ("../includes/principles-inc2.php");?>
@@ -372,7 +372,7 @@
 			<!--<?php include 'side-modules/cyclical-design.php';?> -->
 
 			<div class="side-module-desktop-mobile">
-				<img src="../icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
+				<img src="../icons/spiral-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
 				<br><h4>Conception cyclique</h4>
 <h5>Les écobriques et toutes leurs applications sont conçues pour des cycles de réutilisation indéfinis.</h5><br>
 <a class="module-btn" href="cyclical-design.php">En savoir plus</a>

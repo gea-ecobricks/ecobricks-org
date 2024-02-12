@@ -184,6 +184,14 @@ ul {
 
 }
 
+
+.module-btn {
+  background: var(--emblem-green);
+}
+	
+.module-btn:hover {
+  background: var(--emblem-green-over);
+}
 	
 </style>	
 
