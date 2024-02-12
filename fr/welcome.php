@@ -14,7 +14,7 @@ https://github/globalecobrickalliance/ecobricks.org
 <?php require_once ("lang.php");?>
 
 <?php $lang='fr';?>
-<?php $version='1.7';?>
+<?php $version='1.71';?>
 <?php $page='how';?>
 
 <?php require_once ("../includes/welcome-inc2.php");?>
