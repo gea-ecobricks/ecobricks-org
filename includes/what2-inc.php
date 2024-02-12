@@ -2,7 +2,6 @@
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/eb-blue-no-clouds.svg">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-mobile.svg?v1">
 <link rel="preload" as="image" href="https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1">

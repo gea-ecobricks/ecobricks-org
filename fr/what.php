@@ -12,7 +12,7 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Les écobricks suivent l'exemple de la terre en matière de protection du carbone pour empêcher le plastique de devenir un déchet, d'être recyclé ou incinéré.</div>
+		<div class="splash-heading">Les écobricks suivent l'exemple de la terre pour colecter, concentre et sequestrer la plasique.</div>
 		
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
@@ -302,10 +302,11 @@
 	<?php require_once ("../footer-2024.php");?>
 
 
+
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 
 </div>
