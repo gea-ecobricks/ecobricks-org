@@ -174,15 +174,15 @@
 
 @media (prefers-color-scheme: dark) {
   .splash-content-block {
-    filter: brightness(140%) contrast(75%) invert(100%);
+    filter: brightness(80%);
   }
 
   .splash-image {
-    filter: invert(100%);
+    filter: brightness(120%);
   }
 
   #splash-bar {
-    filter: brightness(140%) contrast(75%) invert(100%);
+    filter: brightness(80%);
     box-shadow: 0 8px 7px rgba(255, 254, 254, 0.938);
   }
 }
