@@ -33,7 +33,7 @@
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		background-color: #00E6FF;
-		background: url(https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v1) top;
+		background: url(https://ecobricks.org/svgs/top-clouds-animated-desktop.svg?v2) top;
 		background-repeat: no-repeat;
     	background-size: cover;
 		text-align: left;
