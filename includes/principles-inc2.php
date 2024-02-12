@@ -56,12 +56,13 @@ ul {
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		text-align: left;
-		min-height: 60vh;
-		padding: 50px 7% 50px 7%;
+		min-height: 77vh;
+		padding: 100px 7% 0px 7%;
 		z-index: 5;
 		position: relative;
 		
-		background: url(../webp/principles-banner-1600px.webp?v6) bottom left;
+		background: url(../webp/principles-banner-1600px.webp?v6) top;
+		background-size: contain;
 		background-color: #088408;
     	background-repeat: no-repeat;
 		/*margin: -3px 0 -20px 0;*/
@@ -84,7 +85,7 @@ ul {
   	flex: 35%;
 	padding: 30px;
 	box-sizing: border-box;
-	margin-top: 0px;
+	margin: auto;
 }
 }
 
