@@ -196,9 +196,7 @@ ul {
 	
 
 @media (prefers-color-scheme: dark) {
-  .splash-content-block,
-
-  #splash-bar {
+  .splash-content-block {
     filter: brightness(80%);
   }
 
@@ -208,6 +206,7 @@ ul {
   #splash-bar {
     /* Keep your existing box-shadow or modify it as needed */
     box-shadow: 0 8px 7px rgba(255, 254, 254, 0.938);
+	filter: brightness(80%);
   }
 }
 
