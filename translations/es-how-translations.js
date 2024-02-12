@@ -121,7 +121,7 @@ const es_Page_Translations = {
 '093': 'Una vez que tengas suficientes Ecobricks, estás listo para construir. Hay cinco técnicas principales para construir con botellas y ecobricks. La aplicación de Ecobrick más fácil, rápida y quizás la más divertida, es hacer módulos Milstein para construcción horizontal y módulos Lego Dieleman para construcción vertical.',
 '094': 'métodos de construcción con ecobricks.',
 '095': 'Con módulos puedes crear bancos, mesas, sillas, estructuras y más. Quizás el mejor uso para los Ecobricks es construir espacios verdes comunitarios. Usando tierra local y ecobricks tú y tu comunidad pueden construir espacios hermosos que enriquecen el ambiente local.',
-'096': '<a class="action-btn" href="build">🚀 Aplicaciones de Construcción</a>',
+'096': '<a class="action-btn" href="build.php">🚀 Aplicaciones de Construcción</a>',
 '097': 'Una visión general de los métodos de construcción con ecobricks',
 
 

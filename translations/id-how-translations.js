@@ -123,7 +123,7 @@ const id_Page_Translations = {
 '093': 'Setelah Anda memiliki cukup Ecobricks, Anda siap untuk membangun. Ada lima teknik utama untuk membangun dengan botol dan ecobricks. Aplikasi Ecobrick yang paling mudah, tercepat, dan mungkin yang paling menyenangkan, adalah membuat modul Milstein untuk pembangunan horizontal dan modul Lego Dieleman untuk pembangunan vertikal.',
 '094': 'metode pembangunan dengan ecobricks.',
 '095': 'Dengan modul, Anda dapat membuat bangku, meja, kursi, struktur, dan lainnya. Mungkin penggunaan terbaik untuk Ecobricks adalah membangun ruang hijau komunitas. Menggunakan tanah lokal dan ecobricks, Anda dan komunitas Anda dapat membangun ruang yang indah yang memperkaya lingkungan lokal.',
-'096': '<a class="action-btn" href="build">🚀 Aplikasi Pembangunan</a>',
+'096': '<a class="action-btn" href="build.php">🚀 Aplikasi Pembangunan</a>',
 '097': 'Ikhtisar metode pembangunan dengan ecobricks',
 
 

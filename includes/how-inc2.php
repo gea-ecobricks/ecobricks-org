@@ -12,7 +12,7 @@
 
 <?php require_once ("../meta/how-$lang.php");?>
 
- 
+  
 <STYLE>
 
 
