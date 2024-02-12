@@ -35,7 +35,7 @@
       
 		text-align: left;
 		min-height: 60vh;
-		padding: 50px 7% 50px 7%;
+		padding: 90px 7% 0px 7%;
 		z-index: 5;
 		position: relative;
         	background-color: #00E6FF;
