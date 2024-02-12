@@ -34,7 +34,7 @@
 	.splash-content-block {
       
 		text-align: left;
-		min-height: 67vh;
+		min-height: 60vh;
 		padding: 50px 7% 50px 7%;
 		z-index: 5;
 		position: relative;
@@ -63,7 +63,7 @@
   flex: 35%;
 	padding: 0px;
 	box-sizing: border-box;
-	margin-top: -65px;
+	margin: auto;
 }
 }
 

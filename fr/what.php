@@ -12,7 +12,7 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Qu'est-ce qu'une Ecobrick?</div>
+		<div class="splash-heading">Les Ecobricks sont un moyen simple, de faible technologie et sans capital de transition et de séquestration plastique.</div>
 		
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
