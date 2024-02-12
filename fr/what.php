@@ -12,7 +12,7 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Les écobricks suivent l'exemple de la terre pour colecter, concentre et sequestrer la plasique.</div>
+		<div class="splash-heading">C'est quoi une ecobrique?</div>
 		
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
