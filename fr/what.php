@@ -6,13 +6,13 @@
 <?php $lang='fr';?>
 <?php $version='1.73';?>
 <?php $page='how';?>
-
+<title>Qu'est-ce qu'une Ecobrick? | Ecobricks.org</title>
 <?php require_once ("../includes/what2-inc.php");?>
 <!--TOP PAGE BANNER-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">C'est quoi une ecobrique?</div>
+		<div class="splash-heading">Qu'est-ce qu'une Ecobrick?</div>
 		
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
