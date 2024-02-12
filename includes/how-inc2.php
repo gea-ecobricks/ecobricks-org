@@ -263,7 +263,7 @@ margin-bottom: 31px;
 
 @media (prefers-color-scheme: dark) {
   .splash-content-block {
-    filter: invert(100%);
+    filter: brightness(140%) contrast(75%) invert(100%);
   }
 
   .splash-image {
@@ -271,7 +271,7 @@ margin-bottom: 31px;
   }
 
   #splash-bar {
-    filter: invert(100%);
+    filter: brightness(140%) contrast(75%) invert(100%);
     box-shadow: 0 8px 7px rgba(255, 254, 254, 0.938);
   }
 }
