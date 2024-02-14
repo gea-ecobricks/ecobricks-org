@@ -155,6 +155,7 @@ Content Page template: v.1.0.0-->
                     
 				</div>
 			</div>
+</section>
 
 
 			<section id="2. Dieleman Modules"></a>
