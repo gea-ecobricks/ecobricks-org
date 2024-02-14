@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.47';?>
+<?php $version='1.48';?>
 <?php $page='how';?>
 
 
@@ -12,7 +12,7 @@
 
 <!--TOP PAGE BANNER-->
 
-	
+<article id="how-to-ecobrick">
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Applications d'écobrique</div>
@@ -541,11 +541,12 @@
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
 
+<!-- This script is for pages that use the accordion content system-->
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
+</article>
 </body>
 </html>
 
