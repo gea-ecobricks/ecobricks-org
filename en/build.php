@@ -254,6 +254,7 @@ Content Page template: v.1.0.0-->
                     <p style="font-size: 0.85em; margin-top:20px;">Check our page on earth and ecobrick building techniques.</a></p>
                 </div>
                 </div>
+</section>
 
            
 
