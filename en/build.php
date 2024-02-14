@@ -10,8 +10,7 @@ Content Page template: v.1.0.0-->
 
 <!--TOP PAGE BANNER-->
 
-<article id="how-to-ecobrick">
-
+	
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Ecobrick Applications</div>
@@ -26,7 +25,7 @@ Content Page template: v.1.0.0-->
 
 <!-- PAGE CONTENT-->
 
-
+<a name="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -491,6 +490,7 @@ Content Page template: v.1.0.0-->
 
         </div>
 	
+
 		<div class="side">
 
 
@@ -525,7 +525,5 @@ Content Page template: v.1.0.0-->
 
 
 </div>
-</article>
-
 </body>
 </html>
