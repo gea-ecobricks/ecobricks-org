@@ -15,7 +15,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 // Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
 
 
-const fr_Page_Translations = {
+const en_Page_Translations = {
 
     '001-splash-title': 'Ecobrick Applications',
     '002-splash-subtitle': 'Bâtiment Ecobrick pratique et de principe régénérateur.',
