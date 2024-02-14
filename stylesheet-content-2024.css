@@ -328,49 +328,12 @@ SPLASH TOP
 }
 
 
-#splash-bar {
-	margin-top: -50px;
-	width: 100%;
-	
-	height:80px;	
-	
-	position: relative;
-	z-index: 0;
-
-box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-    background-color: #FA8D04;
-
-	-webkit-transform: skewY(-3deg);
-  -moz-transform: skewY(-3deg);
-  -ms-transform: skewY(-3deg);
-  -o-transform: skewY(-3deg);
-  transform: skewY(-3deg);
-	margin-bottom: 40px;
-
-}
 
 hr {border: gray;
 border-style: dashed;
 border-width: 1px;
 margin-top: 31px;
 margin-bottom: 31px;}
-
-
-@media (prefers-color-scheme: dark) {
-  .splash-content-block {
-    filter: brightness(140%) contrast(75%) invert(100%);
-  }
-
-  .splash-image {
-    filter: invert(100%);
-  }
-
-  #splash-bar {
-    filter: brightness(140%) contrast(75%) invert(100%);
-    box-shadow: 0 8px 7px rgba(255, 254, 254, 0.938);
-  }
-}
-
 
 
 

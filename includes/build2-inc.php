@@ -43,6 +43,16 @@
 
 }
 
+
+
+.module-btn {
+  background: var(--emblem-orange);
+}
+	
+.module-btn:hover {
+  background: var(--emblem-orange-over);
+}
+
 /* 
 
 @media (prefers-color-scheme: dark) {
