@@ -2,9 +2,9 @@
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="h../webp/gea-perspective-400px.webp">
-<link rel="preload" as="image" href="..g/webp/about-banner-1500px-b.webp">
-<link rel="preload" as="image" href="https://ecobricks.org/webp/about-banner-800px.webp">
+<link rel="preload" as="image" href="../webp/gea-perspective-400px.webp">
+<link rel="preload" as="image" href="../webp/about-banner-1500px-b.webp">
+<link rel="preload" as="image" href="../webp/about-banner-800px.webp">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
@@ -18,7 +18,7 @@
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(https://ecobricks.org/webp/about-banner-800px.webp) bottom;
+		background: url(../webp/about-banner-800px.webp) bottom;
 		background-color: #3FB104;;
 		
 
@@ -29,7 +29,7 @@
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(https://ecobricks.org/webp/about-banner-1500px-b.webp) bottom;
+		background: url(../webp/about-banner-1500px-b.webp) bottom;
 		background-color: #3FB104;;
 		
 }

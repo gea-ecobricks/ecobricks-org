@@ -12,6 +12,18 @@
 
 
 <!--TOP PAGE BANNER-->
+
+
+<div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick Applications</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Practical & Principled Ecobrick Building</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="How to build with ecobricks">
+    </div>	
+</div>
+<div id="splash-bar"></div>
+<!-- 
 							  
 <div class="splash-content-block">
 	<div class="splash-text-box">
@@ -20,7 +32,7 @@
 	</div>
 	<div class="splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
 </div>
-<div id="splash-bar"></div>
+<div id="splash-bar"></div> -->
 
 <!-- PAGE CONTENT-->
 
@@ -323,6 +335,16 @@
 		<div class="side">
 
 		
+		<?php require_once ("side-modules/eco-accounting.php");?>
+
+<?php require_once ("side-modules/about-gea.php");?>
+
+<?php require_once ("side-modules/for-earth.php");?>
+    
+<?php require_once ("side-modules/transition-module.php");?>
+
+
+	
 			
 			<div id="side-module-desktop-mobile">
 			<img src="../webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
