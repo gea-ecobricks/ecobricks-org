@@ -218,12 +218,12 @@
 }
 
 .splash-box {
-  filter: brightness(125%) ;
+  filter: brightness(125%) contrast(75%) ;
 }
 
 #splash-bar {
   filter: brightness(75%) contrast(125%);
-  box-shadow: 0 8px 7px rgba(5, 5, 5, 0.938);
+  box-shadow: 0 8px 7px rgba(0, 0, 0, 0.8);
 }
 
 
