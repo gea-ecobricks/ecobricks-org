@@ -10,7 +10,7 @@ Content Page template: v.1.0.0-->
 
 <!--TOP PAGE BANNER-->
 
-	
+<article id="build-with-ecobricks">
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Ecobrick Applications</div>
@@ -25,7 +25,7 @@ Content Page template: v.1.0.0-->
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
+<section id="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -44,7 +44,8 @@ Content Page template: v.1.0.0-->
                         <!--<p>By using  circular design and regenerative design principles we leverage plastic’s long lasting properties to make ecobricks indefinitely reusable and put our plastic on a safe thousand year journey out of industry and out of the biosphere.   This means, with the help of GEA guidelines, not only can you build cool stuff with ecobricks, but you can be confident your making a greening contribution to the biosphere.</p>-->
 							
             </div>	
-			<a name="APPROVED"></a>
+			
+            <section id="APPROVED">
             <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">
@@ -77,8 +78,9 @@ Content Page template: v.1.0.0-->
                 <p style="font-size: 0.85em; margin-top:20px;">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
 </div>
 </div>
+</section>
 
-            <a name="STORAGE"></a>
+            <section id="STORAGE">
             <div class="reg-content-block" id="block10">
 
                 <div class="opener-header">
@@ -110,10 +112,11 @@ Content Page template: v.1.0.0-->
 
          </div>
         </div>
+</section>
 
                 
                 
-            <a name="MILSTEINS"></a>
+            <section id="MILSTEINS">
 			<div class="reg-content-block" id="block3">
 				<div class="opener-header">
 					<div class="opener-header-text">
@@ -156,7 +159,7 @@ Content Page template: v.1.0.0-->
 			</div>
 
 
-			<a name="2. Dieleman Modules"></a>
+			<section id="2. Dieleman Modules"></a>
             <div class="reg-content-block" id="block2">
 
             <div class="opener-header">
@@ -207,8 +210,9 @@ Content Page template: v.1.0.0-->
 
             </div>
             </div>
+</section>
 
-            <a name="EARTHMODS"></a>
+            <section id="EARTHMODS"></a>
             <div class="reg-content-block" id="block4">
 
                 <div class="opener-header">
@@ -256,7 +260,7 @@ Content Page template: v.1.0.0-->
            
 
 
-            <a name="OPENSPACES"></a>
+            <section id="OPENSPACES">
 			<div class="reg-content-block" id="block5">
 
 				<div class="opener-header">
@@ -320,9 +324,10 @@ Content Page template: v.1.0.0-->
 			
 				</div>
 			</div>
+</section>
 
 
-			<a name="EARTHEN"></a>
+			<section id="EARTHEN">
             <div class="reg-content-block" id="block6">
 
             <div class="opener-header">
@@ -394,10 +399,12 @@ Content Page template: v.1.0.0-->
 
             </div>
             </div>
+</section>
+
 
               
 
-            <a name="MAINTENANCE"></a>
+            <section id="MAINTENANCE">
             <div class="reg-content-block" id="block8">
 
 				<div class="opener-header">
@@ -430,10 +437,12 @@ Content Page template: v.1.0.0-->
 				</div>
 			</div>
 
+</section>
 
 
 
-            <a name="MORE"></a>
+
+            <section id="MORE">
             <div class="reg-content-block" id="block7">
 
                 <div class="opener-header">
@@ -489,7 +498,10 @@ Content Page template: v.1.0.0-->
              </div>
 
         </div>
+</section>
 	
+</article>
+
 
 		<div class="side">
 
