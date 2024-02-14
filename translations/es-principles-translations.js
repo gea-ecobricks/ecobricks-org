@@ -15,7 +15,7 @@ SNIPPETS FOR PRINCIPLES PAGE ON ECOBRICKS.ORG
 // Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
 
 
-const en_Page_Translations = {
+const es_Page_Translations = {
 
     '001-splash-title': 'Our Earthen Principles',
     '002-splash-subtitle': 'Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth\'s cycles.',
