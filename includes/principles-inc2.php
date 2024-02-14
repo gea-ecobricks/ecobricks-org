@@ -2,9 +2,8 @@
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/webp/principles-banner-1600px.webp?v3">
-<link rel="preload" as="image" href="https://www.ecobricks.org/svgs/earth-home-animated-v4.svg">
+<link rel="preload" as="image" href="../webp/principles-banner-1600px.webp?v3">
+<link rel="preload" as="image" href="../svgs/earth-home-animated-v4.svg">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 

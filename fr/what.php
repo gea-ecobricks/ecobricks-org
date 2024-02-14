@@ -10,14 +10,17 @@
 <?php require_once ("../includes/what2-inc.php");?>
 <!--TOP PAGE BANNER-->
 
+
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Les Ecobricks sont un moyen simple, de faible technologie et sans capital de transition et de séquestration plastique.</div>
-		
+		<div class="splash-heading" data-lang-id="001-splash-title">Les écobriques</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Simple, low-tech et non-capital pour la séquestration plastique.</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/svgs/eb-blue-no-clouds.svg" style="width:85%;"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="Un introduction basique au ecobriques">
+    </div>	
 </div>
 <div id="splash-bar"></div>
+
 
 
 <!-- PAGE CONTENT-->
@@ -31,12 +34,12 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p>L'écobricking est un moyen simple d'assumer personnellement la responsabilité de notre plastique en le gardant hors de l'industrie et hors de la biosphère.</p>
+			<p data-lang-id="001-splash-title">L'écobricking est un moyen simple d'assumer personnellement la responsabilité de notre plastique en le gardant hors de l'industrie et hors de la biosphère.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>Une ecobrick est une bouteille en PET solidement emballée avec du plastique usagé propre et sec. Les écobricks sont fabriqués manuellement à une densité définie pour <a href="sequest.php">séquestrer le plastique</a> et créer des blocs de construction réutilisables. De cette manière, les écobricks empêchent le plastique de <a href="/why">se dégrader en toxines et en microplastiques</a> et d'éviter les processus industriels à haute énergie et à fortes émissions. Mais surtout, le processus pratique d'écobriquetage approfondit notre conscience de ces problèmes et de leurs alternatives régénératrices - ce que nous appelons la <a href="transition.php">transition plastique</a>.</p>
-				<p>
+				<p data-lang-id="005-first-page-paragraph">Une ecobrick est une bouteille en PET solidement emballée avec du plastique usagé propre et sec. Les écobricks sont fabriqués manuellement à une densité définie pour <a href="sequest.php">séquestrer le plastique</a> et créer des blocs de construction réutilisables. De cette manière, les écobricks empêchent le plastique de <a href="/why">se dégrader en toxines et en microplastiques</a> et d'éviter les processus industriels à haute énergie et à fortes émissions. Mais surtout, le processus pratique d'écobriquetage approfondit notre conscience de ces problèmes et de leurs alternatives régénératrices - ce que nous appelons la <a href="transition.php">transition plastique</a>.</p>
+				<p data-lang-id="006-second-page-paragraph">
 				Une fois que de nombreuses écobriques sont disponibles, elles peuvent être utilisées à court terme dans des <a href="/modules">unités modulaires</a>, <a href="/dms">lego-meubles</a>et <a href="/openspace">espaces ouverts.</a> Ecobrick peut également être utilisé à long terme dans les <a href="/earth">jardins et structures en terre</a>. Dans leur fabrication et leur application, les écobriques incarnent des <a href="/principles">principes régénératifs</a> et une <a href="/ayyew">vision ayyew</a> basée sur  <a href= "/plastic">l'exemple de la Terre</a> de sécurisation du carbone libre pour verdir la biosphère.</p>
 			</div>	
 
