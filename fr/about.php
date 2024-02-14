@@ -50,9 +50,9 @@
 			<div class="page-paragraph">
 				  
 
-			<p>L'<a href="/story">histoire</a> de la Global Ecobrick Alliance commence sur le territoire traditionnel du peuple Igorot (<i>Kaigorotan</i>) dans les hautes terres du nord de Luzon dans le Mer des Philippines occidentales. En nous efforçant de garder notre plastique hors de la rivière, nous avons développé des moyens et des méthodes pour nos maisons et nos communautés qui incarnaient la <a href="/ayyew">éthique Igorot Ayyew</a>. Inspirés par la sagesse indigène, les principes et méthodes d'écobrique sont aujourd'hui un moyen pour les ménages, les entreprises et les communautés du monde entier d'accélérer leur <a href="transition.php">transition plastique.</a></p>
+			<p data-lang-id="005-first-page-paragraph">L'<a href="/story">histoire</a> de la Global Ecobrick Alliance commence sur le territoire traditionnel du peuple Igorot (<i>Kaigorotan</i>) dans les hautes terres du nord de Luzon dans le Mer des Philippines occidentales. En nous efforçant de garder notre plastique hors de la rivière, nous avons développé des moyens et des méthodes pour nos maisons et nos communautés qui incarnaient la <a href="/ayyew">éthique Igorot Ayyew</a>. Inspirés par la sagesse indigène, les principes et méthodes d'écobrique sont aujourd'hui un moyen pour les ménages, les entreprises et les communautés du monde entier d'accélérer leur <a href="transition.php">transition plastique.</a></p>
 				
-			<p>La Global Ecobrick Alliance (GEA) est composée de plus de 400 formateurs en transition de tous horizons, âges et origines. Nous sommes connectés dans le monde entier dans notre préoccupation pour la biosphère et ses dommages par la pollution plastique. Nous sommes unis par la solution que nous avons trouvée dans notre écobrique pour <a href="transition.php">transition</a> du plastique vers une vie toujours plus verte. <p>
+			<p data-lang-id="006-second-page-paragraph">La Global Ecobrick Alliance (GEA) est composée de plus de 400 formateurs en transition de tous horizons, âges et origines. Nous sommes connectés dans le monde entier dans notre préoccupation pour la biosphère et ses dommages par la pollution plastique. Nous sommes unis par la solution que nous avons trouvée dans notre écobrique pour <a href="transition.php">transition</a> du plastique vers une vie toujours plus verte. <p>
 
 			</div>	
 
