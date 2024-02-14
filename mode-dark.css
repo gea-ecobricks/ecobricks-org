@@ -210,6 +210,20 @@
 	background: linear-gradient(126deg,#131431) 10%, #3c3d7c;
 
 }
+
+
+
+#build-with-ecobricks .splash-content-block {
+  filter: brightness(70%) contrast(75%) ;
+}
+
+
+#build-with-ecobricks #splash-bar {
+  filter: brightness(70%) contrast(75%);
+  box-shadow: 0 8px 7px rgba(255, 254, 254, 0.938);
+}
+
+
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;
     background-size: contain;

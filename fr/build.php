@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.5';?>
+<?php $version='1.51';?>
 <?php $page='how';?>
 
 
@@ -12,7 +12,8 @@
 
 <!--TOP PAGE BANNER-->
 
-<article id="how-to-ecobrick">
+<article id="build-with-ecobricks">
+
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick Applications</div>
