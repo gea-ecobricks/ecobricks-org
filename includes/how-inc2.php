@@ -68,8 +68,9 @@
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 	
-		background: url(../webp/build-banner-1400px.webp) bottom;
+		    background: url(../webp/build-banner-1400px.webp) bottom;
         background-color: #FA8D04;
+        filter: hue-rotate(-30deg);
 		
 
 	}
@@ -79,8 +80,9 @@
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 	
-		background: url(../webp/build-banner-1400px.webp) bottom;
+		    background: url(../webp/build-banner-1400px.webp) bottom;
         background-color: #FA8D04;
+        filter: hue-rotate(-30deg);
 		
 }
 } 
@@ -89,7 +91,7 @@
 #splash-bar {
 
     background-color: #FA8D04;
-
+    filter: hue-rotate(-30deg);
 }
 
 
