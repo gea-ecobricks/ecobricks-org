@@ -213,12 +213,12 @@
 
 
 
-#build-with-ecobricks .splash-content-block {
+.splash-content-block {
   filter: brightness(75%) contrast(125%);
 }
 
 .splash-box {
-  filter: brightness(125%) contrast(75%) ;
+  filter: brightness(125%) contrast(100%) ;
 }
 
 #splash-bar {
