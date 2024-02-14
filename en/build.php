@@ -10,7 +10,6 @@ Content Page template: v.1.0.0-->
 
 <!--TOP PAGE BANNER-->
 
-<article id="build-with-ecobricks">
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Ecobrick Applications</div>
@@ -500,7 +499,6 @@ Content Page template: v.1.0.0-->
         </div>
 </section>
 	
-</article>
 
 
 		<div class="side">
