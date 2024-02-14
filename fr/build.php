@@ -15,10 +15,10 @@
 <article id="how-to-ecobrick">
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Applications d'écobrique</div>
-	    <div class="splash-sub">Bâtiment Ecobrick pratique et de principe régénérateur.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick Applications</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Practical & Principled Ecobrick Building</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/webp/build-blue-450px.webp" style="width: 85%">
+	<div class="splash-image"><img src="../svgs/building-methods.svg" style="width: 85%" alt="How to build with ecobricks">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -34,12 +34,12 @@
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-            <p>Les écobricks peuvent construire des meubles, des jardins, des parcs de jeux, des structures et plus encore. La seule limite est notre imagination !</p>
+            <p data-lang-id="004-lead-page-paragraph">Ecobricks can build furniture, gardens, play parks, structures and more. The only limit is our imagination!</p>
 			</div>
 			
 			
 			<div class="page-paragraph">
-            <p>Cela dit, construire avec des écobriques est une grande responsabilité. Pour s'assurer que les écobricks et le plastique qu'ils contiennent sont sûrs et sécurisés, la Global Ecobrick Alliance (<a href="about.php">GEA</a>) a élaboré des directives, des normes et des principes de construction. En suivant ces meilleures pratiques, nous pouvons être sûrs que nos applications d'écobrick gardent le plastique <a href="sequest.php">séquestré</a> à court et à long terme.</p>
+            <p data-lang-id="005-first-page-paragraph">That said, building with ecobricks is a big responsibility.   To make sure that ecobricks and the plastic they contain are safe and secure the Global Ecobrick Alliance (<a href="about.php">GEA</a>) has developed building guidelines, standards and principles.  By following these best-practices, we can be sure our ecobrick applications keep plastic <a href="sequest.php">sequestered</a> over the short-term and the long.</p>
            	
             </div>	
 			<a name="APPROVED"></a>

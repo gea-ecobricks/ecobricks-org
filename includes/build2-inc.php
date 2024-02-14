@@ -2,8 +2,10 @@
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="https://ecobricks.org/svgs/building-methods.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/webp/build-banner-1400px.webp">
+<link rel="preload" as="image" href="../webp/build-blue-450px.webp">
+
+<link rel="preload" as="image" href="../svgs/building-methods.svg">
+<link rel="preload" as="image" href="../webp/build-banner-1400px.webp">
 
 <!--This loads CSS specific to this page
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/what.css?v1.1">-->
@@ -25,7 +27,7 @@
 		margin-bottom: 0px;
 		z-index: 5;
        
-		background: url(https://ecobricks.org/webp/build-banner-1400px.webp) bottom;
+		background: url(../webp/build-banner-1400px.webp) bottom;
         background-color: #FA8D04;
 		
     	background-repeat: no-repeat;
@@ -50,7 +52,7 @@
 		z-index: 5;
        
         
-		background: url(https://ecobricks.org/webp/build-banner-1400px.webp) bottom;
+		background: url(../webp/build-banner-1400px.webp) bottom;
         background-color: #FA8D04;
 		
     	background-repeat: no-repeat;
