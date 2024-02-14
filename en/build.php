@@ -24,7 +24,6 @@ Content Page template: v.1.0.0-->
 
 <!-- PAGE CONTENT-->
 
-<section id="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
