@@ -491,7 +491,6 @@ Content Page template: v.1.0.0-->
 
         </div>
 	
-</article>
 		<div class="side">
 
 
@@ -526,5 +525,7 @@ Content Page template: v.1.0.0-->
 
 
 </div>
+</article>
+
 </body>
 </html>
