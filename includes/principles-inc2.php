@@ -29,25 +29,10 @@ ul {
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-		text-align: left;
-		height: 70vh;
-		padding: 50px 5% 25px 5%;
-		margin-bottom: 0px;
-		z-index: 5;
-		
 		
 		background: url(../webp/principles-banner-1600px.webp?v6) bottom;
 
 		background-color: #088408;
-		
-    	background-repeat: no-repeat;
-		background-size: cover;
-		margin-top: 45px;
-		width: 100%;
-		display: flex;
- 		box-sizing: border-box;
-		flex-direction: column;
-	position: relative;
 
 	}
 }
@@ -55,132 +40,17 @@ ul {
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-		text-align: left;
-		min-height: 77vh;
-		padding: 100px 7% 0px 7%;
-		z-index: 5;
-		position: relative;
 		
 		background: url(../webp/principles-banner-1600px.webp?v6) top;
 		background-size: contain;
 		background-color: #088408;
-    	background-repeat: no-repeat;
-		/*margin: -3px 0 -20px 0;*/
-		display: flex;
- 		flex-wrap: wrap;
- 		box-sizing: border-box;
-		flex-direction: row;
-		width: 100%;
-		position: relative;
-		margin: auto;
+    	
 }
 }
 
-
-@media screen and (min-width: 700px) { 
-.splash-image {
-  	z-index: 5;
-  	position: relative;
-  	text-align: center;
-  	flex: 35%;
-	padding: 30px;
-	box-sizing: border-box;
-	margin: auto;
-}
-}
-
-
-@media screen and (min-width: 700px) { 
-.splash-box {
-  z-index: 5;
-  position: relative;
-  flex: 65%;
-	padding: 0px 30px 0px 0px;
-	box-sizing: border-box;
-	text-align: left;
-	margin: auto;
-}
-}
-
-
-
-@media screen and (max-width: 700px) { 
-.splash-image {
-  z-index: 5;
-  position: relative;
-  text-align: left;
-  flex: 25%;
-  width: 250px;
-	padding: 0px;
-	box-sizing: border-box;
-	margin: 0px 0px 0px 10px;
-}
-}
-
-
-
-@media screen and (max-width: 700px) { 
-.splash-box {
-	position: relative;
-  flex: 100%;
-	padding: 10px 10px 0px 0px;
-	box-sizing: border-box;
-	text-align: right;
-}
-}
-
-
-
-.splash-heading { 
-	font-family: 'Arvo', Georgia, serif;
-  	color: white;
-  	font-weight: 300;
-  	text-shadow: 0 0 10px #243f01;
-}
-
-@media screen and (max-width: 700px) {
-	.splash-heading {
-      font-size: 2.0em;
-      line-height: 1.1;
-      margin: 10px 0;
-  }
-}
-
-@media screen and (min-width: 700px) {
-	.splash-heading {
-      font-size: 4em;
-      line-height: 1.3;
-      margin: 40px 0 10px;
-  }
-}
-
-
-.splash-sub {
-	font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  	color:  #e9ffcc;
-  /*text-shadow: 0px 0px 10px #fff;*/
-  	margin: 15px 0;
-  	
-}
-
-@media screen and (max-width: 700px) {
-	.splash-sub {
-		font-size: 1.2em;
-		line-height: 1.5;
-		font-weight: 400;
-  }
-}
-@media screen and (min-width: 700px) {
-	.splash-sub {
-		font-size: 2.3em;
-		line-height: 1.3;
-		font-weight: 400;
-  }
-}
 
 #splash-bar {
-	margin-top: -50px;
-	width: 100%;
+
 	background-color: #088408; 
 
 }
@@ -194,21 +64,6 @@ ul {
   background: var(--emblem-green-over);
 }
 	
-
-@media (prefers-color-scheme: dark) {
-  .splash-content-block {
-    filter: brightness(80%);
-  }
-
-  .splash-image {
-	filter:brightness(120%);
-  }
-  #splash-bar {
-    /* Keep your existing box-shadow or modify it as needed */
-    box-shadow: 0 8px 7px rgba(255, 254, 254, 0.938);
-	filter: brightness(80%);
-  }
-}
 
 
 

@@ -4,7 +4,7 @@
 <META charset="UTF-8">
 <?php $lang='fr';?>
 <?php $version='1.52';?>
-<?php $page='how';?>
+<?php $page='build';?>
 
 
 <?php require_once ("../includes/build2-inc.php");?>
@@ -19,7 +19,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick Applications</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Practical & Principled Ecobrick Building</div>
 	</div>
-	<div class="splash-image"><img src="../svgs/building-methods.svg" style="width: 85%" alt="How to build with ecobricks">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="How to build with ecobricks">
     </div>	
 </div>
 <div id="splash-bar"></div>

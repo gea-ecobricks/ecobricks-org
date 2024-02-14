@@ -5,7 +5,7 @@
 <META charset="UTF-8">
 <?php $lang='fr';?>
 <?php $version='1.73';?>
-<?php $page='how';?>
+<?php $page='principles';?>
 
 <?php require_once ("../includes/principles-inc2.php");?>
 
@@ -13,10 +13,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Nos principes terrestres</div>
-		<div class="splash-sub">Nous sommes guidée par des principes régénératifs qui nous orientent vers une harmonie toujours croissante avec les cycles de la Terre.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Our Earthen Principles</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -30,12 +30,12 @@
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p>Guidé par l'exemple de la Terre, l'écobrique ne se contente pas d'empêcher la pollution. En tant qu'expérience pratique des principes de terre et de régénération, l'écobrique incarne notre transition du pétro-capitalisme vers un nouveau monde vert.</p>
+			<p data-lang-id="004-lead-page-paragraph">Guided by Earth's example, ecobricking doesn't just prevent pollution. As a hands on experience of Earthen and regenerative principles, ecobricking embodies our transition from petro-capitalism to a green new world.</p>
 		</div>
 
 		<div class="page-paragraph">
 	
-		<p>Le mouvement des écobriques d'Asie du Sud-Est est né des terres ancestrales du peuple Igorot dans le nord des Philippines. Notre écobrique reste inspirée par leur concept de <a href="/ayyew">ayyew</a> – une philosophie écologique qui imite les principes mêmes par lesquels la Terre a reverdi la surface de notre planète.
+		<p data-lang-id="005-first-page-paragraph">The South East Asian ecobrick movement <a href="/story">emerged out of</a> the ancestral lands of the Igorot people in the Northern Philippines.  Our ecobricking remains inspired by their concept of <a href="/ayyew">ayyew</a>— an ecological ethos that emulates the very principles by which Earth greened our planet's surface.
         
 		</div>
 

@@ -70,7 +70,7 @@
 	
 		    background: url(../webp/build-banner-1400px.webp) bottom;
         background-color: #FA8D04;
-        filter: hue-rotate(-30deg);
+        /* filter: hue-rotate(-30deg); */
 		
 
 	}
@@ -82,7 +82,7 @@
 	
 		    background: url(../webp/build-banner-1400px.webp) bottom;
         background-color: #FA8D04;
-        filter: hue-rotate(-30deg);
+        /* filter: hue-rotate(-30deg); */
 		
 }
 } 
@@ -91,7 +91,7 @@
 #splash-bar {
 
     background-color: #FA8D04;
-    filter: hue-rotate(-30deg);
+    /* filter: hue-rotate(-30deg); */
 }
 
 
