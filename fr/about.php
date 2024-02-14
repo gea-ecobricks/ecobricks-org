@@ -16,10 +16,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick Applications</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Practical & Principled Ecobrick Building</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">About Us</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">The Global Ecobrick Alliance</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="How to build with ecobricks">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/gea-perspective-400px.webp" style="width: 85%" alt="How to build with ecobricks">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -335,38 +335,19 @@
 		<div class="side">
 
 		
+		<?php require_once ("side-modules/for-earth.php");?>
+
+		<?php require_once ("side-modules/transition-module.php");?>
+
+
 		<?php require_once ("side-modules/eco-accounting.php");?>
 
 <?php require_once ("side-modules/about-gea.php");?>
 
-<?php require_once ("side-modules/for-earth.php");?>
     
-<?php require_once ("side-modules/transition-module.php");?>
 
 
 	
-			
-			<div id="side-module-desktop-mobile">
-			<img src="../webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
-					<h4>Annual Ecological Accounting</h4>
-					<h5>Every year we track, account and disclose our ecological impact in an annual Regenerativity Report.</h5><br>
-					<a class="module-btn" href="regenreport.php">Access Report</a><br><br>
-				</div>
-
-
-				<div id="side-module-desktop-mobile">
-					<img src="../webp/for-earth500px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
-					<h4>For-Earth Enterprise</h4>
-					<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-					
-				</div>
-
-				<div id="side-module-desktop-mobile">
-					<img src="../webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
-					<h4>Global Ecobrick Alliance</h4>
-					<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-					
-				</div>
 
 		</div>
 
