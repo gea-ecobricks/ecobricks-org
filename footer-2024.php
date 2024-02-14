@@ -139,15 +139,15 @@
 
 	<!--FOOTER ENDS-->
 
-<script src="../translations/welcome-en-translations.js"></script>
-<script src="../translations/welcome-fr-translations.js"></script>
-<script src="../translations/welcome-id-translations.js"></script>
-<script src="../translations/welcome-es-translations.js"></script>
+<script src="../translations/welcome-en-translation.js"></script>
+<script src="../translations/welcome-fr-translation.js"></script>
+<script src="../translations/welcome-id-translation.js"></script>
+<script src="../translations/welcome-es-translation.js"></script>
 
-<script src="../translations/<?php echo ($page); ;?>-en-translations.js?v=<?php echo ($version); ;?>"></script>
-<script src="../translations/<?php echo ($page); ;?>-fr-translations.js?v=<?php echo ($version); ;?>"></script>
-<script src="../translations/<?php echo ($page); ;?>-id-translations.js?v=<?php echo ($version); ;?>"></script>
-<script src="../translations/<?php echo ($page); ;?>-es-translations.js?v=<?php echo ($version); ;?>"></script>
+<script src="../translations/<?php echo ($page); ;?>-en-translation.js?v=<?php echo ($version); ;?>"></script>
+<script src="../translations/<?php echo ($page); ;?>-fr-translation.js?v=<?php echo ($version); ;?>"></script>
+<script src="../translations/<?php echo ($page); ;?>-id-translation.js?v=<?php echo ($version); ;?>"></script>
+<script src="../translations/<?php echo ($page); ;?>-es-translation.js?v=<?php echo ($version); ;?>"></script>
 
 <script>
 
