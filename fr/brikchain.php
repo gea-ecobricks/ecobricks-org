@@ -260,7 +260,6 @@
 	<?php 	$conn->close();?>
 
 
-	<br><br> 
 
 	<div class="page-paragraph-reg">
                  
@@ -287,16 +286,7 @@
                     </div>
                 </div>
              </div>
-
-
-
-
-
-
 </DIV>
-
-
-
 
 
 	<!--FOOTER STARTS HERE-->
