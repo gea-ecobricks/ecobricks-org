@@ -260,7 +260,7 @@
 
 
 
-			<div class="page-paragraph-reg">
+			
                  
                  <div class="row">
                 
@@ -281,10 +281,10 @@
                  	</div>
 
                     <div class="side2">
-                        <br><img src=" https://ecobricks.org/en/icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
+                        <br><img src="../icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
                     </div>
                 </div>
-            </div>
+			
 	</DIV>
 
 
