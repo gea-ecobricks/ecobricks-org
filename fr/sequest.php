@@ -27,7 +27,6 @@
     </div>	
 </div>
 
-<div id="splash-bar"></div>
 <!-- PAGE CONTENT-->
 
 
@@ -499,21 +498,19 @@
                         </div>
                     </div>
 
-                    
-                    
-                <br><br>
             
                         <div class="row">
                             
                             <div class="main2">
-                            <div class="page-paragraph-reg">
-                    <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
-                                    
-                            <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
-                            
-                            <p>However, it is in important to remember that in the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
+                                <div class="page-paragraph-reg">
+                                    <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
+                                        
+                                    <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
                                 
-                            <p>Ecological cycles can be very short, long and very long.   The Earth’s sequestration is an example of the latter– measured in hundreds of millions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it into another cycle.  In the way that plastic was a gift to our age, we can gift our carbon to another. </p>
+                                    <p>However, it is in important to remember that in the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
+                                    
+                                    <p>Ecological cycles can be very short, long and very long.   The Earth’s sequestration is an example of the latter– measured in hundreds of millions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it into another cycle.  In the way that plastic was a gift to our age, we can gift our carbon to another. </p>
+                                </div>
                             </div>
 
                             <div class="side2">
@@ -554,7 +551,7 @@
             </div>
         </div>
 
-        <div class="starry-sky-spacer" style="width:100%, height:50px;"></div>
+        <div class="starry-sky-spacer" style="width:100%, height:50px;">sdfsdf</div>
 
 
 	<!--FOOTER STARTS HERE-->
