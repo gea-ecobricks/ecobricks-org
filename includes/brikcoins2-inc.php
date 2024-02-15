@@ -44,7 +44,7 @@ margin: 12px;
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-		text-align: left;
+		text-align: left !important;
 		height: 50vh;
 		padding: 10vh 5% 25px 5%;
 		margin-bottom: 0px;
@@ -61,7 +61,7 @@ margin: 12px;
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-		text-align: left;
+		text-align: left !important;
 		min-height: 60vh;
 		padding: 20vh 7% 50px 7%;
 		z-index: 5;
