@@ -4,14 +4,12 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.73';?>
+<?php $version='1.74';?>
 <?php $page='build';?>
 
 <?php require_once ("../includes/transition2-inc.php");?>
 
 <!--TOP PAGE BANNER-->
- 
-
 
 <div class="splash-content-block">
 	<div class="splash-box">
