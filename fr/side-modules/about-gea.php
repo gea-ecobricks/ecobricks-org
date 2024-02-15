@@ -4,6 +4,6 @@
     <h4>Une Alliance Mondiale</h4>
 <h5>Le Global Ecobrick Alliance (GEA) se consacre à l'accélération de la transition plastique. Nous présidons l'application GoBrik et la blockchain Brikcoin.</h5><br>
 
-    <a class="module-btn" href="about.php">À propos de nous</a>
+    <a class="module-btn" href="about.php">ℹ️ GEA</a>
 
 </div>
