@@ -42,31 +42,33 @@ margin: 12px;
 /*This sets up the the first splash content block that is unique to the top of each page*/
 
 	
+	
 @media screen and (max-width: 700px) { 
-	.splash-content-block {
-		text-align: left !important;
+	#splash-content-block {
+		text-align: left;
 		height: 50vh;
 		padding: 10vh 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
 		background: url(../webp/brikcoins-blue.webp) right center;
     	background-repeat: no-repeat;
-    	background-size: contain !important;
+    	background-size: contain;
 		background-color: #ECECEC;
 		margin-top: 50px;
+        position: relative;
 
 	}
 }
 
 
 @media screen and (min-width: 700px) { 
-	.splash-content-block {
-		text-align: left !important;
+	#splash-content-block {
+		text-align: left;
 		min-height: 60vh;
 		padding: 20vh 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		background: url(../webp/brikcoins-blue.webp) right top center;
+		background: url(../webp/brikcoins-blue.webp) right center;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -90,7 +92,6 @@ margin: 12px;
   z-index: 5;
   position: relative;
   width: 80%;
-  text-align: left;
 }
 }
 
