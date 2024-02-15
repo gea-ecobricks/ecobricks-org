@@ -122,8 +122,10 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
 @media screen and (max-width: 700px) {
 	.side {
 	flex: 24%;
-	padding: 20px;
+	padding: 10px;
 	box-sizing: border-box;
+  margin: 15px 15px 30px 15px;
+   border-radius: 15px;
 	
 	}
 	}

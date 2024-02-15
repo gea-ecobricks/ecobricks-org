@@ -554,9 +554,8 @@
             </div>
        
 
-            <div class="starry-sky-spacer" style="width:100%, height:50px;">sdfsdf</div>
             
-            </div>
+            </div>  <!--closes main-->
 
 
 	<!--FOOTER STARTS HERE-->
