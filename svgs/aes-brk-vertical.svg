@@ -26,19 +26,20 @@
      inkscape:zoom="0.99242064"
      inkscape:cx="254.4284"
      inkscape:cy="480.13915"
-     inkscape:window-width="1280"
-     inkscape:window-height="987"
+     inkscape:window-width="1503"
+     inkscape:window-height="933"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="rect831" />
+     inkscape:current-layer="rect831"
+     showgrid="false" />
   <g
      id="layer1"
      transform="translate(-12.8005,43.882264)">
     <g
        id="rect831">
       <path
-         style="color:#000000;fill:#ffffff;fill-opacity:0.354441;-inkscape-stroke:none"
+         style="color:#000000;fill:#ffffff;fill-opacity:0;-inkscape-stroke:none"
          d="m 27.668,-15.057 h 104.7 c 7.7478,0 13.985,6.2374 13.985,13.985 v 114.53 c 0,7.7478 -6.2374,13.985 -13.985,13.985 h -104.7 c -7.7478,0 -13.985,-6.2374 -13.985,-13.985 V -1.072 c 0,-7.7478 6.2374,-13.985 13.985,-13.985 z"
          id="path6" />
       <path

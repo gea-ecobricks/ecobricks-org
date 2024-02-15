@@ -15,11 +15,11 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 // Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
 
 
-const fr_Page_Translations = {
+const id_Page_Translations = {
 
-    '001-splash-title': 'La Brikchain',
-    '002-splash-subtitle': 'Chercher toutes les Briks, Blocks & Transactions.',
-    '003-splash-image-alt': '<img src="../webp/brikchain-450px.webp" style="width: 85%" alt="La brikchain: chercher toutes les briks, blocks et transactions">',
+    '001-splash-title': 'Rantai Brikchain',
+    '002-splash-subtitle': 'Cari briks, blok dan transaksi',
+    '003-splash-image-alt': '<img src="../webp/brikchain-450px.webp" style="width: 85%" alt="Rantai Brik. Cari briks, blok dan transaksi.">',
 }
         
       
