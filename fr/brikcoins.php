@@ -330,7 +330,7 @@
 
 		<div class="side">
 		
-			<?php include 'ecobricks_env.php';?> 
+			<?php include '../ecobricks_env.php';?> 
 			<?php require_once ("side-modules/brikcoin-live-values.php");?>
 			<?php 	$conn->close();?>
 			
