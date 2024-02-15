@@ -49,9 +49,9 @@ margin: 12px;
 		padding: 10vh 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background: url(https://ecobricks.org/webp/brikcoins-blue.webp) right top;
+		background: url(https://ecobricks.org/webp/brikcoins-blue.webp) right center;
     	background-repeat: no-repeat;
-    	background-size: contain;
+    	background-size: contain !important;
 		background-color: #ECECEC;
 		margin-top: 50px;
 
@@ -66,7 +66,7 @@ margin: 12px;
 		padding: 20vh 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		background: url(https://ecobricks.org/webp/brikcoins-blue.webp) right top;
+		background: url(https://ecobricks.org/webp/brikcoins-blue.webp) right top center;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -90,6 +90,7 @@ margin: 12px;
   z-index: 5;
   position: relative;
   width: 80%;
+  text-align: left;
 }
 }
 
