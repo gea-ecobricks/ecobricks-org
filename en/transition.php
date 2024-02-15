@@ -1,23 +1,28 @@
-<!--PAGE LANGUAGE:  ENGLISH-->  
-  
-<!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/transition-inc.php");?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<!DOCTYPE html>
+<HTML lang="fr"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='fr';?>
+<?php $version='1.73';?>
+<?php $page='build';?>
+
+<?php require_once ("../includes/transition2-inc.php");?>
 
 <!--TOP PAGE BANNER-->
  
 
+
 <div class="splash-content-block">
-	<div class="splash-text-box">
-		<div class="splash-heading">Plastic Transition</div>
-		<div class="splash-sub">Our plastic is a portal out of our old grey world and into the green world for all we all long to see.</div>
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splashDDD-title">Plastic Transition</div>
+	    <div class="splash-sub" data-lang-id="002-splashd-subtitle">Our plastic is a portal out of our old grey world and into the green world for all we all long to see.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;"></div>	
+	<div class="splash-image" data-lang-id="003-splashd-image-alt"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;" alt="Plasti transition speedometer">
+    </div>	
 </div>
 <div id="splash-bar"></div>
+
 
 
 
@@ -417,18 +422,19 @@
 	</div>
 </div>
 
+
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
+
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 
 </div>
 </body>
 </html>
-

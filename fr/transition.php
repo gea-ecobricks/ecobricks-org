@@ -1,11 +1,28 @@
-<!--PAGE LANGUAGE:  FRENCH-->  
- 
-<!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/transition-inc.php");?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!DOCTYPE html>
+<HTML lang="fr"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='fr';?>
+<?php $version='1.73';?>
+<?php $page='transition';?>
+
+<?php require_once ("../includes/transition2-inc.php");?>
+
+<!--TOP PAGE BANNER-->
+ 
+
+
+<div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Transition</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Our plastic is a portal out of our old grey world and into the green world for all we all long to see.</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;" alt="Plasti transition speedometer">
+    </div>	
+</div>
+<div id="splash-bar"></div>
+
 
 <!--TOP PAGE BANNER-->
 

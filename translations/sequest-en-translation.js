@@ -19,9 +19,9 @@ const en_Page_Translations = {
 
     '001-splash-title': 'Plastic Sequestration',
     '002-splash-subtitle': 'By following the Earth’s example of carbon care we can keep our plastic safe and secure out the biosphere and out of industry.',
-    
-    '004-lead-page-paragraph': 'En suivant l\'exemple de la Terre en matière de séquestration du carbone avec notre plastique, nous pouvons empêcher la contamination de la biosphère et les émissions de l\'industrie.',
     '003-splash-image-alt':'<img src="../svgs/building-methods.svg" style="width: 85%" alt="Following Earth\'s example with our eco-bricks">',
+
+    '004-lead-page-paragraph': 'En suivant l\'exemple de la Terre en matière de séquestration du carbone avec notre plastique, nous pouvons empêcher la contamination de la biosphère et les émissions de l\'industrie.',
     
     '005-first-page-paragraph': 'The science is clear:  Plastic loose in the biosphere harms ecosystems, humans and animals.  The research is also clear:  For the last fifty years, industrial processing has dispersed plastic into the environment while becoming a major source of carbon emissions.',
 

@@ -19,7 +19,7 @@ const fr_Page_Translations = {
 
     '001-splash-title': 'Alliance Globale d\'Ecobrique',
     '002-splash-subtitle': 'Apropos de nous',
-    '003-splash-image-alt': '<img src="../webp/gea-perspective-400px.webp" style="width: 85%" alt="Comment fabriquer un écobrick">',
+    '003-splash-image-alt': '<img src="../webp/gea-perspective-400px.webp" style="width: 85%" alt="The Global Ecobrick Alliance logo - seven symbolic circles">',
     
     '004-lead-page-paragraph': 'La Global Ecobrick Alliance est une Earth Enterprise qui accélère la transition plastique locale et mondiale. Nous le faisons grâce à la diffusion mandalique d\'écobriques fondées sur des principes et pratiques pour élever la conscience écologique.',
     '005-first-page-paragraph': 'L\'<a href="/story">histoire</a> de la Global Ecobrick Alliance commence sur le territoire traditionnel du peuple Igorot (<i>Kaigorotan</i>) dans les hautes terres du nord de Luzon dans le Mer des Philippines occidentales. En nous efforçant de garder notre plastique hors de la rivière, nous avons développé des moyens et des méthodes pour nos maisons et nos communautés qui incarnaient la <a href="/ayyew">éthique Igorot Ayyew</a>. Inspirés par la sagesse indigène, les principes et méthodes d\'écobrique sont aujourd\'hui un moyen pour les ménages, les entreprises et les communautés du monde entier d\'accélérer leur <a href="transition.php">transition plastique.</a>',
