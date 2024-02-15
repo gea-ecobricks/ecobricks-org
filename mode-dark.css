@@ -226,6 +226,13 @@
   box-shadow: rgba(0, 0, 10, 0.805) 0px 0px 15px;
 }
 
+#splash-content-block {
+  filter: brightness(75%) contrast(125%);
+}
+
+#splash-box {
+  filter: brightness(125%) contrast(100%) ;
+}
 
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;

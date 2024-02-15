@@ -235,19 +235,20 @@
 
 
         #gea-logo {
+    padding:0px;
+    margin: auto auto auto 25px;
+    width: 230px;
+    height: 56px;
     transition: 0.6s;
-  }
+    min-width: 150px;
 
+  }
+/* 
 @media screen and (min-width: 701px) {
-  
 #header {  
-  padding:0px;
-  margin: auto auto auto 25px;
-  width: 230px;
-  height: 56px;
-  min-width: 150px;
+  height: 70px;
 }
-} 
+} */
 
 @media screen and (max-width: 700px) {
  
@@ -258,11 +259,10 @@
 
   #gea-logo {
     padding:2px;
-    margin: auto auto auto 0px;
-    width: 230px;
+    margin: auto auto auto 10px;
+    width: 250px;
     height: 56px;
-    min-width: 150px;
-
+    transition: 0.6s;
   }
 }
 
