@@ -11,7 +11,7 @@
 
 <!--TOP PAGE BANNER-->
  
-
+<!-- 
 
 <div class="splash-content-block">
 	<div class="splash-box">
@@ -21,7 +21,7 @@
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;" alt="Plasti transition speedometer">
     </div>	
 </div>
-<div id="splash-bar"></div>
+<div id="splash-bar"></div> -->
 
 
 <!--TOP PAGE BANNER-->
@@ -431,20 +431,16 @@
 </div>
 
 
-
-
-
-
-
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
+
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 
 </div>
