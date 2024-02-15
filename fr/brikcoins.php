@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.52';?>
+<?php $version='1.53';?>
 <?php $page='brikcoins';?>
 
 <?php require_once ("../includes/brikcoins2-inc.php");?>
@@ -12,17 +12,6 @@
 
 
 <!--PAGE BANNER-->
-
-	
-<div id="splash-content-block">
-	<div id="splash-box">
-		<div class="splash-heading">Brikcoins</div>
-		<div class="splash-sub">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere.</div>
-		<img src="../webp/brikcoins-450px.webp" alt="Brikcoin manual blockchain">
-	</div>
-</div>
-<div id="splash-bar"></div>
-
 
 
 <article id="build-with-ecobricks">
@@ -371,7 +360,7 @@
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
+<script src="../accordion-scripts.js" defer></script>
 
 
 </div>
