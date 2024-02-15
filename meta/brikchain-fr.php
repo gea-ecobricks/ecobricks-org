@@ -1,6 +1,6 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Explorer la Brikcahin</title>
+<title>Explorer la Brikchain</title>
 
 <meta name="keywords" content="brikchain, chaine, brikchaine, brikcoins, manual blockchain, blockchain, proof of value, ecobricks, plastic, plastic sequestration, BRK, ecological value, commodification, ecological service, aes plastic, logged ecobricks, ecological NFTs">
 
