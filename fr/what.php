@@ -34,7 +34,7 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p data-lang-id="001-splash-title">L'écobricking est un moyen simple d'assumer personnellement la responsabilité de notre plastique en le gardant hors de l'industrie et hors de la biosphère.</p>
+			<p data-lang-id="004-lead-page-paragraph">L'écobricking est un moyen simple d'assumer personnellement la responsabilité de notre plastique en le gardant hors de l'industrie et hors de la biosphère.</p>
 			</div>
 
 			<div class="page-paragraph">
