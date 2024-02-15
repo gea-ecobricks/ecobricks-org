@@ -13,6 +13,34 @@
 <STYLE>
 
 
+.live-data 
+	
+	{
+		font-size: 1.5em;
+font-family: "monospace" !important;
+color: #222;
+line-height: 1.3;
+font-weight: 300;
+background: #fbe9c8;
+padding: 20px;
+border-radius: 10px;
+margin: 12px;
+}
+
+.blink {
+            animation: blinker 1.5s linear infinite;
+            color: #00AA44;
+            font-family: sans-serif;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+				
+            }
+        }
+
+/*This sets up the the first splash content block that is unique to the top of each page*/
+
 	
 @media screen and (max-width: 700px) { 
 	#splash-content-block {
@@ -21,7 +49,7 @@
 		padding: 10vh 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-		background: url(../webp/brikcoins-blue.webp) right top;
+		background: url(https://ecobricks.org/webp/brikcoins-blue.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -38,7 +66,7 @@
 		padding: 20vh 7% 50px 7%;
 		z-index: 5;
 		position: relative;
-		background: url(../webp/brikcoins-blue.webp) right top;
+		background: url(https://ecobricks.org/webp/brikcoins-blue.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
 		background-color: #ECECEC;
@@ -126,9 +154,8 @@
 }
 
 #splash-bar {
-	background-color: #ECECEC;
+	background-color: #ECECEC;;
 }	
-
 
 
 
