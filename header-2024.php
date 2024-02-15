@@ -457,7 +457,7 @@ window.onload = function() {
                 </g>
                 </g>
         </svg>
-        </div>
+        
         
         <div id="function-icons" style="display: flex;flex-flow:row;margin:auto 10px auto auto;">
 
@@ -490,7 +490,7 @@ window.onload = function() {
                 </dark-mode-toggle> 
             </div>
         </div>
-    
+    </div>
 
 <!-- 
 <div id="language-menu-slider">
