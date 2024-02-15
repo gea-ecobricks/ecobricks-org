@@ -94,7 +94,7 @@ function scrollMoreThan40() {
         document.getElementById("header").style.boxShadow = "0px 0px 15px rgba(0, 0, 10, 0.805)";
         // document.getElementById("main").style.marginTop = "0px";
         document.getElementById("gea-logo").style.width = "190px";
-        document.getElementById("gea-logo").style.height = "40px";
+        // document.getElementById("gea-logo").style.height = "40px";
         document.getElementById("logo-global-ecobrick-alliance").style.opacity = "0";
         document.getElementById("settings-buttons").style.marginTop = "6px"; 
         document.getElementById("settings-buttons").style.padding = "12px 54px 12px 16px"; 

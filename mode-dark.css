@@ -223,7 +223,7 @@
 
 #splash-bar {
   filter: brightness(75%) contrast(125%);
-  box-shadow: 0 8px 7px rgba(0, 0, 0, 0.8);
+  box-shadow: rgba(0, 0, 10, 0.805) 0px 0px 15px;
 }
 
 
