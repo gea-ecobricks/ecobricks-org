@@ -234,7 +234,7 @@
         }
 
 
-        #gea-logo {
+#gea-logo {
     padding:0px;
     margin: auto auto auto 25px;
     width: 230px;
@@ -259,9 +259,8 @@
 
   #gea-logo {
     padding:2px;
-    margin: auto auto auto 10px;
-    width: 250px;
-    height: 56px;
+    margin: auto auto auto 4px;
+    width: 230px;
     transition: 0.6s;
   }
 }
