@@ -126,7 +126,7 @@
 }
 
 #reg-up-button   {
-  background: url(svgs/up-reg-arrow-dark.svg) no-repeat;
+  background: url(svgs/up-reg-arrow-dark.svg?v=2) no-repeat;
   background-size: contain;
 }
 
