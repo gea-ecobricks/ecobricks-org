@@ -44,11 +44,16 @@ margin: 12px;
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-
-		background: url(../webp/brikcoins-blue.webp) right top;
+		text-align: left;
+		height: 50vh;
+		padding: 10vh 5% 25px 5%;
+		margin-bottom: 0px;
+		z-index: 5;
+		background: url(https://ecobricks.org/webp/brikcoins-blue.webp) right top;
     	background-repeat: no-repeat;
+    	background-size: contain;
 		background-color: #ECECEC;
-
+		margin-top: 50px;
 
 	}
 }
@@ -56,15 +61,21 @@ margin: 12px;
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-
-		background: url(../webp/brikcoins-blue.webp) right top;
-
+		text-align: left;
+		min-height: 60vh;
+		padding: 20vh 7% 50px 7%;
+		z-index: 5;
+		position: relative;
+		background: url(https://ecobricks.org/webp/brikcoins-blue.webp) right top;
+    	background-repeat: no-repeat;
+    	background-size: contain;
 		background-color: #ECECEC;
+		margin: 0 0 -20px 0;
 
 }
 }
 
-/* 
+
 @media screen and (max-width: 700px) { 
 #splash-box {
   z-index: 5;
@@ -111,7 +122,7 @@ margin: 12px;
 .splash-sub {
   font-family: 'Arvo', Georgia, serif;
   color: grey;
-  /*text-shadow: 0px 0px 10px #fff;
+  /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
   text-shadow: 0 0 8px #fff;
 }
@@ -140,7 +151,7 @@ margin: 12px;
 	width: 60%;
 	margin-left: 40%;
 }
-} */
+}
 
 #splash-bar {
 	background-color: #ECECEC;;
