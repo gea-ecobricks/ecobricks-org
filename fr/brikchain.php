@@ -261,7 +261,7 @@
 
 
 			
-                 
+	<div class="page-paragraph">   
                  <div class="row">
                 
                     <div class="main2">
@@ -273,18 +273,21 @@
 
 						<p>  🟢 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</p>
 
-						<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</p><br><br>
-                    
-                        <a class="action-btn" href="principles.php">🚀 Our Principles</a>
-                    	<p style="font-size: 0.85em; margin-top:20px;">Our Accounting is guided by our regenerative principles</a></p>
-                        
+						
                  	</div>
 
                     <div class="side2">
                         <br><img src="../icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
                     </div>
                 </div>
-			
+				<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</p><br><br>
+                    
+                        <a class="action-btn" href="principles.php">🚀 Our Principles</a>
+                    	<p style="font-size: 0.85em; margin-top:20px;">Our Accounting is guided by our regenerative principles</a>
+					</p>
+                        
+			</div>
+			<br>
 	</DIV>
 
 
