@@ -126,7 +126,7 @@
 }
 
 #splash-bar {
-	background-color: #ECECEC;;
+	background-color: #ECECEC;
 }	
 
 
