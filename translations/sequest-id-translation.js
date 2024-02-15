@@ -26,11 +26,7 @@ const id_Page_Translations = {
     '005-first-page-paragraph': 'Ilmu pengetahuannya jelas: Plastik yang lepas di biosfer membahayakan ekosistem, manusia, dan hewan. Penelitiannya juga jelas: Selama lima puluh tahun terakhir, proses industri telah menyebarkan plastik ke lingkungan sekaligus menjadi sumber utama emisi karbon.',
 
     '006-second-page-paragraph': 'Masih penting untuk menjaga plastik kita. <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Penyerapan plastik</a> memberikan <a href="/principles">regeneratif</a> alternatif terhadap industri pengelolaan plastik. Mengikuti <a href="/plastic">contoh penyerapan karbon di Bumi</a>, kami memiliki jalur yang terbukti tidak hanya untuk mengamankan plastik dari biosfer dan industri, namun juga untuk mempercepat < href="transition.php">transisi plastik</a>. <a href="/about">Aliansi Ecobrick Global</a> mempertahankan kriteria dan standar penyerapan plastik untuk memastikan bahwa ini merupakan jasa ekologi yang autentik.',
-    
 
-
-
-    
 }
         
       
