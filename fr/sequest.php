@@ -390,7 +390,7 @@
 
                         <div id="preclosed7">   
 
-                        <
+                        
 
                             <div class="row">
                                     <div class="main2">
@@ -533,37 +533,28 @@
 
                 <div class="side">
             
-                    <div id="side-module-desktop-mobile">
-                        <img src="../webp/earthen-story-400px.webp" width="90%" alt="Eco bricks follow the Earth's ancient example">
-                        <br><h4>Following the Earth's Example</h4>
-                        <h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
-                        <a class="module-btn" href="/plastic">Plastic's Long Story</a>
-                        <br>
-                    </div>  
 
-                    <div id="side-module-desktop-mobile">
-                        <img src="../webp/tens-thousands.webp" width="80%" alt="Eco bricks can build awesome regenerative structures">
-                        <h4>Plastic Transition</h4>
-                        <h5>Plastic sequestration is a transition technology. Rather than see plastic as ‘waste’ we see it as a portal towards petro-capital transition.</h5><br>
-                        <a class="module-btn" href="transition.php">Learn More</a>
-                    </div>
 
-                    <div id="side-module-desktop-mobile">
-                        <img src="../webp/build-blue-450px.webp" width="80%" alt="Eco bricks are a form of plastic sequestration in constructions">
-                        <h4>Ecobricks</h4>
-                        <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
-                        <a class="module-btn" href="catalyst.php">🚀 Learn More</a>
-                    </div>
 
-                    <div id="side-module-desktop-mobile">
-                        <img src="../webp/earthen-500px.webp" width="80%" alt="Ecobricks follow the Earth's example">
-                        <h4>Earthen Ethics</h4>
-                        <h5>Plastic Sequestration is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
-                        <a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">Learn More</a>
-                    </div>
+
+    
+                <?php require_once ("side-modules/transition-module.php");?>
+
+                <?php require_once ("side-modules/good-use.php");?>
+
+                <?php require_once ("side-modules/spiral-design.php");?>
+
+                <?php require_once ("side-modules/earthen-ethics.php");?>
+
+
+
+
+
                 </div>
             </div>
         </div>
+
+        <div class="starry-sky-spacer" style="width:100%, height:50px;"></div>
 
 
 	<!--FOOTER STARTS HERE-->
