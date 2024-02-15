@@ -397,7 +397,7 @@ window.onload = function() {
     <div id="header" class="top-menu" style="display: flex;
     flex-flow: row;">
 
-        <!-- <div id="logo-title" style="height:100%; display:flex;" title="Ecobricks.org | <?php echo ($version); ;?>"> -->
+        <div id="logo-title" style="height:100%; display:flex;" title="Ecobricks.org | <?php echo ($version); ;?>">
         <svg  version="1.1" viewBox="0 0 130.09 28.997" xmlns="http://www.w3.org/2000/svg" id="gea-logo" > 
 
             <g id="logo-full"  transform="translate(-36.122 -89.481)" fill="#646464">
@@ -457,7 +457,7 @@ window.onload = function() {
                 </g>
                 </g>
         </svg>
-        
+        </div>
         
         <div id="function-icons" style="display: flex;flex-flow:row;margin:auto 10px auto auto;">
 
