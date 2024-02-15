@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.52';?>
+<?php $version='1.53';?>
 <?php $page='brikchain';?>
 
 <?php require_once ("../includes/brikchain2-inc.php");?>
@@ -12,22 +12,22 @@
 
 <!--TOP PAGE BANNER-->
 
+
 <div class="splash-content-block">
-	<div class="splash-text-box">
-		<div class="splash-heading"><br>Brikchain Explorer</div>
-		<div class="splash-sub">All the Briks, Blocks & Transactions.</div>
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">Brikchain Explorer</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">All the Briks, Blocks & Transactions.</div>
 	</div>
-	<div class="splash-image"><img src="../webp/brikchain-450px.webp" style="width: 80%;"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/brikchain-450px.webp" style="width: 85%" alt="The brikchain explorer: search all the briks, blocks and transactions">
+    </div>	
 </div>
 <div id="splash-bar"></div>
-
 
 
 <!-- PAGE CONTENT-->
 
 <?php include '../ecobricks_env.php';?> 
 
-<a name="top"></a>
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
