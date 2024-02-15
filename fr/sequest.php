@@ -1,39 +1,35 @@
-<!--PAGE LANGUAGE:  FRENCH
-Content Page template: v.1.0.1-->
-  
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/sequest-inc.php");?>
+<!DOCTYPE html>
+<HTML lang="fr"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='fr';?>
+<?php $version='1.52';?>
+<?php $page='sequest';?>
+
+<?php require_once ("../includes/sequest2-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 <?php require_once ("translate-please.php");?>
 
-<!--TOP PAGE BANNER-->
-							  
-											  
-<BODY id="full-page">
 
-	<div id="load-background">
+<article id="sequest-with-ecobricks">
 
-	<!-- This loads the page's language specific menu -->
-
-    <?php require_once ("../menus/menu-$lang.php");?>
 
 <!--PAGE BANNER-->
 
+
         <div class="splash-content-block">
-            <div class="splash-box">
-                <div class="splash-heading">Séquestration du plastique</div>
-            <div class="splash-sub">En suivant l'exemple de la Terre en matière de séquestration du carbone avec notre plastique, nous pouvons empêcher la contamination de la biosphère et les émissions de l'industrie.</div>
-            </div>
-            <div class="splash-image"><img src="../webp/earth-service-700px.webp" style="width: 85%;"></div>	
-        </div>
-        <div id="splash-bar"></div>
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">Séquestration du plastique</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">En suivant l'exemple de la Terre en matière de séquestration du carbone avec notre plastique, nous pouvons empêcher la contamination de la biosphère et les émissions de l'industrie.</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="Séquestration du plastique avec les ecobricks">
+    </div>	
+</div>
 
-
+<div id="splash-bar"></div>
 <!-- PAGE CONTENT-->
 
-        <a name="top"></a>
 
         <div id="main-content">
 
@@ -42,11 +38,11 @@ Content Page template: v.1.0.1-->
                 <div class="main">
 
                 <div class="lead-page-paragraph">
-                         <p>La science est claire : le plastique en vrac dans la biosphère nuit aux écosystèmes, aux humains et aux animaux. La recherche est également claire : au cours des cinquante dernières années, la transformation industrielle a dispersé le plastique dans l'environnement tout en devenant une source majeure d'émissions de carbone.</p>
+                         <p data-lang-id="005-first-page-paragraph">La science est claire : le plastique en vrac dans la biosphère nuit aux écosystèmes, aux humains et aux animaux. La recherche est également claire : au cours des cinquante dernières années, la transformation industrielle a dispersé le plastique dans l'environnement tout en devenant une source majeure d'émissions de carbone.</p>
                      </div>
                 
                     <div class="page-paragraph">
-                         <p>Il n'a jamais été aussi important de prendre soin de notre plastique. <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">La séquestration du plastique</a> fournit une alternative <a href="/principles">régénérative</a> à l'industrie gestion du plastique. En suivant l'<a href="/plastic">exemple de séquestration du carbone de la Terre</a>, nous avons une voie éprouvée non seulement pour protéger notre plastique hors de la biosphère et hors de l'industrie, mais aussi pour accélérer notre <a href= "transition.php">transition plastique</a>. La <a href="/about">Global Ecobrick Alliance</a> maintient des critères et des normes pour la séquestration du plastique afin de garantir qu'il s'agit d'un service écologique authentique.</p>
+                         <p data-lang-id="006-second-page-paragraph">It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="/plastic">Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The <a href="/about">Global Ecobrick Alliance</a> maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
 
                         <!--<p>
                             
@@ -572,15 +568,18 @@ Content Page template: v.1.0.1-->
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
+
 <!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
+</article>
 </body>
 </html>
+
 
