@@ -23,7 +23,7 @@ $result = $conn->query($sql);
                 echo '<p style="font-size: 1.0em; margin-top:10px;">Prix actuel en 2024 pour 1 kg de plastique AES :<br><span class="courier">2.41 USD</span></p>';
                 echo '<p style="font-size: 1.0em; margin-top:10px;">Circulation totale :<br><b><span class="courier">' . $row["net_brk_in_circulation"] . '&#8202;BRK</b></span></p>';
                 echo '<p style="font-size: 0.75em; margin-top:10px;">Les Brikcoins <a href="/brikcoins.php">(BRK / ß)</a> sont marchandisés en valeur écologique mesurée en kilogrammes de plastique écologique séquestré authentifié (<a href="sequestered.php">AES</a>).</p>
-                        <p><a class="module-btn" href="aes/">ℹ️ Plastique AES</a></p>
+                        <p><a class="module-btn" href="aes/">ℹ️ AES</a></p>
                         </div>';
             
             }

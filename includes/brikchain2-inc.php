@@ -2,7 +2,7 @@
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="h../webp/brikchain-450px.webp">
+<link rel="preload" as="image" href="../webp/brikchain-450px.webp">
 <link rel="preload" as="image" href="../svgs/brik-market-banner3.svg">
 <!--This loads CSS specific to this page
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/brikchain.css">-->
