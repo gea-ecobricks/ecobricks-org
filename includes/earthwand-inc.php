@@ -3,7 +3,7 @@
 
 <link rel="preload" as="image" href="../icons/earthwand-shadow.svg">
 <link rel="preload" as="image" href="../webp/blue-ode-750px.webp">
-<link rel="preload" as="image" href="../svgs/BlUE-ode-to-plastic-Sequestration.svg">
+<link rel="preload" as="image" href="../svgs/earthwand-background.svg">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
@@ -34,7 +34,7 @@
 	.splash-content-block {
 	
 		
-		background: url(../svgs/BlUE-ode-to-plastic-Sequestration.svg) bottom;
+		background: url(../svgs/earthwand-background.svg) bottom;
 		
 }
 }

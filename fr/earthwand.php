@@ -6,7 +6,7 @@
 <?php $version='1.56';?>
 <?php $page='earthwand';?>
 
-<?php require_once ("../includes/sequest2-inc.php");?>
+<?php require_once ("../includes/earthwand-inc.php");?>
 
 <article id="sequest-with-ecobricks">
 
