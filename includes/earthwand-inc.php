@@ -49,7 +49,7 @@
   background: var(--emblem-blue-over);
 }
 
-.earthwand-photo-duo img {width:40%;}
+.earthwand-photo {width:40%;}
 	
 </style>	
 
