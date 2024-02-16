@@ -234,6 +234,11 @@
   filter: brightness(125%) contrast(100%) ;
 }
 
+.virtue-icons {
+  filter: invert(100%);
+  
+}
+
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;
     background-size: contain;

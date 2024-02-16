@@ -3,8 +3,8 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.53';?>
-<?php $page='sequest';?>
+<?php $version='1.54';?>
+<?php $page='earthwand';?>
 
 <?php require_once ("../includes/sequest2-inc.php");?>
 
@@ -41,14 +41,14 @@
 
                          <p data-lang-id="006-second-page-paragraph">Developed over three years of ecobricking and prototyping by one of the co-founders of the Global Ecobrick Alliance, the Earthwand it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. EarthWands are produced by GEA Trainer and sold by GEA Trainers as a way to fund their ecological enterprises– such as conducting as many ecobrick workshops as possible in their communities!  Trainers also contribute a minimum of 25% of the retail price back to the GEA to support its global work.  Sale transactions, and the usage of these funds are fully trackable on the GEA Open Books accounting system.</p>
 
-                         <p data-lang-id="007-virtue-icons"><img src="../pngs/earthwand-virtue-icons.png" style="width:100%;" alt="Earthwand design principles"></p>
+                         <div class="virtue-icons" data-lang-id="007-virtue-icons"><img src="../pngs/earthwand-virtue-icons.png" style="width:100%;" alt="Earthwand design principles"></div>
 
 
                         <p data-lang-id="008-page-paragraph">Best of all, we’ve carefully designed the Earthwand’s production, consumption and disposal so that after all the impacts of its life-cycle are added up, it has in the end made the world a greener place.   To see what we mean, see the EarthWand’s Product Impact Assessment (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">UK report</a> | > <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">Indonesian report</a>).  In this way the EarthWand embodies the <a href="/ayyew">ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> and <a href="principles">regenerative principles</a> which guide the global plastic transition movement.</p>
 
                         <h4 data-lang-id="009-page-paragraph">More than a product</h4>
 
-                        <p data-lang-id="010-page-paragraph">The EarthWand was developed by GEA principal and inventor Russell Maier.  His goal was to create a product that embodied the Earth principles that power the ecobrick movement-- and that energized them.  His was vision was to create not just a great green product, but also a renumeration model that could financially support the local and global plastic transition movement.</p>
+                        <p data-lang-id="010-page-paragraph">The Earthwand was developed by GEA principal and inventor Russell Maier.  His goal was to create a product that embodied the Earth principles that power the ecobrick movement-- and that energized them.  His was vision was to create not just a great green product, but also a renumeration model that could financially support the local and global plastic transition movement.</p>
 
                         <p data-lang-id="011-page-paragraph"><strong>Earthwand benefits:</strong></p>
                         
