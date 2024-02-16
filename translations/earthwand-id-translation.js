@@ -17,28 +17,32 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const id_Page_Translations = {
 
-    '001-splash-title': 'The Earthwand',
-    '002-splash-subtitle': 'Make your plastic disapear',
-    '003-splash-image-alt': '<img src="../icons/earthwand-shadow.svg" style="width: 85%" alt="The EarthWand is a regenerative product designed from the ground up to be the perfect plastic packing, ecobrick making tool.">',
     
-    '004-lead-page-paragraph': 'Why not you pack your ecobrick with the best possible tool available? ',
+        '001-splash-title': 'The Earthwand',
+        '002-splash-subtitle': 'Membuat plastik Anda menghilang',
+        '003-splash-image-alt': '<img src="../icons/earthwand-shadow.svg" style="width: 85%" alt="EarthWand adalah produk regeneratif yang dirancang dari awal untuk menjadi alat pembungkus plastik dan pembuat ecobrick yang sempurna.">',
+        
+        '004-lead-page-paragraph': 'Mengapa tidak memasukkan ecobrick Anda dengan alat terbaik yang tersedia?',
+        
+        '005-first-page-paragraph': 'Earthwand adalah produk regeneratif yang dirancang dari awal untuk menjadi alat pembungkus plastik dan pembuat ecobrick yang sempurna. Sederhana, namun sangat praktis, ergonomis, kokoh, dan kuat. Yang terbaik dari semuanya, dibuat tanpa plastik - sepenuhnya dibuat tangan dari bambu, rotan, dan serat kelapa.',
+        
+        '006-second-page-paragraph': 'Dikembangkan selama tiga tahun ecobricking dan prototyping oleh salah satu pendiri Global Ecobrick Alliance, Earthwand dirancang tidak hanya untuk membungkus plastik, tetapi juga untuk mendukung gerakan ecobrick lokal dan global secara finansial. EarthWands diproduksi oleh Pelatih GEA dan dijual oleh Pelatih GEA sebagai cara untuk mendanai pekerjaan ekologis mereka.',
     
-    '005-first-page-paragraph': 'The Earthwand is a regenerative product designed from the ground up to be the perfect plastic packing, ecobrick making tool.  Its simple, yet super practical, ergonomic, sturdy and strong.  Best of all, its made without plastic-- fully hand crafted from bamboo, rattan and coconut fiber.',
+        '007-virtue-icons':'<img src="../pngs/earthwand-virtue-icons.png" style="width:100%;" alt="Prinsip desain Earthwand">',
+        
+        '008-page-paragraph': 'Yang terbaik dari semuanya, kami dengan hati-hati merancang produksi, konsumsi, dan pembuangan Earthwand sehingga setelah semua dampak siklus hidupnya ditambahkan, pada akhirnya telah membuat dunia menjadi tempat yang lebih hijau. Untuk melihat apa yang kami maksud, lihat Penilaian Dampak Produk Earthwand (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">laporan UK</a> | <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">laporan Indonesia</a>). Dengan cara ini, EarthWand mewujudkan <a href="/ayyew">prinsip ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a>, dan <a href="principles">prinsip regeneratif</a> yang memandu gerakan transisi plastik global.',
     
-    '006-second-page-paragraph': 'Developed over three years of ecobricking and prototyping by one of the co-founders of the Global Ecobrick Alliance, the Earthwand it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. EarthWands are produced by GEA Trainer and sold by GEA Trainers as a way to fund their ecological enterprises– such as conducting as many ecobrick workshops as possible in their communities!  Trainers also contribute a minimum of 25% of the retail price back to the GEA to support its global work.  Sale transactions, and the usage of these funds are fully trackable on the GEA Open Books accounting system.',
-
-    '007-virtue-icons':'<img src="../pngs/earthwand-virtue-icons.png" style="width:100%;" alt="Earthwand design principles">',
+        '009-page-paragraph': 'Lebih dari sekadar produk',
+        '010-page-paragraph': 'EarthWand dikembangkan oleh prinsipal dan penemu GEA, Russell Maier. Tujuannya adalah menciptakan produk yang mencerminkan prinsip-prinsip bumi yang mendorong gerakan ecobrick - dan memberi mereka energi. Visinya adalah menciptakan tidak hanya produk hijau yang hebat, tetapi juga model remunerasi yang dapat mendukung secara finansial gerakan transisi plastik lokal dan global.',
     
-    '008-page-paragraph': 'Best of all, we’ve carefully designed the Earthwand’s production, consumption and disposal so that after all the impacts of its life-cycle are added up, it has in the end made the world a greener place.   To see what we mean, see the EarthWand’s Product Impact Assessment (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">UK report</a> | > <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">Indonesian report</a>).  In this way the EarthWand embodies the <a href="/ayyew">ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> and <a href="principles">regenerative principles</a> which guide the global plastic transition movement.',
-
-    '009-page-paragraph': 'More than a product',
-    '010-page-paragraph': 'The EarthWand was developed by GEA principal and inventor Russell Maier.  His goal was to create a product that embodied the Earth principles that power the ecobrick movement-- and that energized them.  His was vision was to create not just a great green product, but also a renumeration model that could financially support the local and global plastic transition movement.',
-    '011-page-paragraph': 'Earthwand benefits',
-    '012-page-paragraph': '<li>The best posssible tool for ecobricking.</li\><li>Made from 100% organic materials.</li\><li>Earthwand are made by small-scale maker-partners that have been vetted by the Global Ecobrick Alliance and asked to track the ecological impacts of manufcature.</li\><li>All the ecological impacts of manufacture, sale and shipping are accounted for and disclosed.</li\><li>The net impact of the Earthwands manufacture, sale and shipping is green.</li\><li>75% of Earthwand profits go to the GEA trainer selling them to support their ecological leadership.</li\><li>24% of Earthwand profits go the Global Ecobrick Alliance to support its work.</li\><li>1% of Earthwand profits go the inventor of the design and model to support their work.<\/li>',
-    '013-page-paragraph': 'Purchasing an Earthway is a way for ecobrickers to support their local ecobrick trainer, the Global Ecobrick Alliance, regenerative makers and in so doing, energize the plastic transition movement itself.',
-    '013-earthwand-buy-button': '🛒 GoBrik Store',
-
-
+        '011-page-paragraph': 'Pelatih GEA adalah penjual resmi Earthwands. Pendapatan dari penjualan digunakan untuk melanjutkan pekerjaan mereka - seperti menyelenggarakan sebanyak mungkin lokakarya ecobrick di komunitas mereka! Pelatih berkomitmen untuk menyumbangkan minimal 25% dari harga jual kembali ke GEA untuk mendukung pekerjaan globalnya. Transaksi penjualan, dan penggunaan dana ini sepenuhnya dapat dilacak di <a href="open-books.php">sistem akuntansi GEA Open Books</a>',
+        
+        '011-header-paragraph':'Manfaat Earthwand',
+        '012-page-paragraph': '<li>Alat terbaik untuk ecobricking.</li><li>Dibuat dari 100% bahan organik.</li><li>Earthwands dibuat oleh mitra pembuat skala kecil yang telah diuji oleh Global Ecobrick Alliance dan diminta untuk melacak dampak ekologis pembuatan.</li><li>Semua dampak ekologis pembuatan, penjualan, dan pengiriman dihitung dan diungkapkan.</li><li>Dampak bersih dari pembuatan, penjualan, dan pengiriman Earthwands adalah hijau.</li><li>75% dari keuntungan Earthwand diberikan kepada pelatih GEA yang menjualnya untuk mendukung kepemimpinan ekologis mereka.</li><li>24% dari keuntungan Earthwand diberikan kepada Global Ecobrick Alliance untuk mendukung pekerjaannya.</li><li>1% dari keuntungan Earthwand diberikan kepada penemu desain dan model untuk mendukung pekerjaannya.</li>',
+        '013-page-paragraph': 'Membeli Earthway adalah cara bagi para ecobricers untuk mendukung pelatih ecobrick lokal mereka, Global Ecobrick Alliance, pembuat regeneratif, dan dengan melakukannya, memberikan energi pada gerakan transisi plastik itu sendiri.',
+        '013-earthwand-buy-button': '🛒 Toko GoBrik'
+    
+    
 
 
 
