@@ -39,10 +39,12 @@
                     <div class="page-paragraph">
                          <p data-lang-id="006-second-page-paragraph">The Earthwand is a regenerative product designed from the ground up to be the perfect plastic packing, ecobrick making tool.  Its simple, yet super practical, ergonomic, sturdy and strong.  Best of all, its made without plastic-- fully hand crafted from bamboo, rattan and coconut fiber.</p>
 
-                         <div class="virtue-icons" data-lang-id="007-virtue-icons">
+                         
+                    </div>
+
+                        <div class="virtue-icons" data-lang-id="007-virtue-icons">
                             <img src="../pngs/earthwand-virtue-icons.png" style="width:100%;padding:20px;margin-top:10px;" alt="Earthwand design principles">
                         </div>
-                    </div>
 
                          
 
