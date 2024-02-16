@@ -203,14 +203,14 @@
   background-size: cover;
 }
 
-
+@media screen and (min-width: 700px) {
 
 .side {
   background: #262751;
 	background: linear-gradient(126deg,#131431) 10%, #3c3d7c;
 
 }
-
+}
 
 
 .splash-content-block {
