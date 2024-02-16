@@ -46,7 +46,7 @@
                     <div class="page-paragraph-reg">
 
                         <div class="virtue-icons" data-lang-id="007-virtue-icons">
-                            <img src="../pngs/earthwand-virtue-icons.png"  alt="Earthwand design principles">
+                            <img src="../webp/earthwand-virtue-icons.webp"  alt="Earthwand design principles">
                         </div>
 
                         

@@ -32,12 +32,15 @@ const en_Translations = {
         '001-introduction': '<a style="text-align:center">Introduction</a>',
         '002-what-are-ecobricks': 'What are Ecobricks?',
         '003-how-to': 'How to Make?',
-        '004-why-ecobricks': 'Why Ecobricks?',
-        '005-earth-example': 'The Earth Example',
-        '006-our-principles': 'Our Earth Principles',
+        '004-transition': 'Plastic Transition',
+        // '005-earth-example': 'The Earth Example',
+        '006-our-principles': 'Our Earthen Principles',
         '007-construction': 'Ecobrick Construction',
         '008-about-us': 'About Us',
         '009-plastic-sequestration': 'Plastic Sequestration',
+        '010-brikcoins': 'Brikcoins',
+        '011-brikchain': 'Brikchain',
+        '012-earthwands': 'Earthwands',
 
  
 

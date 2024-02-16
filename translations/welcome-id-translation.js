@@ -34,13 +34,17 @@ const id_Translations = {
            '001-introduction': 'Pendahuluan',
            '002-what-are-ecobricks': 'Apa itu Ecobrick?',
            '003-how-to': 'Bagaimana Cara Membuatnya?',
-           '004-why-ecobricks': 'Mengapa Ecobrick?',
+           '004-transition': 'Transisi Plastik',
            '005-earth-example': 'Contoh Bumi',
            '006-our-principles': 'Prinsip Bumi Kami',
            '007-construction': 'Konstruksi Ecobrick',
            '008-about-us': 'Tentang Kami',
            '009-plastic-sequestration': 'Penyimpanan Plastik',
-   
+           '010-brikcoins': 'Brikcoins',
+        '011-brikchain': 'Brikchain',
+        '012-earthwands': 'Earthwands',
+
+        
             /* Subscribtion Curtain */
    
             "105-subscription-registration": "",

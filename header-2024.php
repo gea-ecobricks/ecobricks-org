@@ -252,15 +252,15 @@ window.onload = function() {
   
         <!-- <div class="ecobricks-logo"></div> -->
 
-        <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a style="text-align:center">Introduction</a></div>
+        <!-- <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a style="text-align:center">Introduction</a></div> -->
         
         <div class="menu-page-item"><a href="what.php" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
 
         <div class="menu-page-item" ><a href="how.php" data-lang-id="003-how-to">How to make?</a></div>
         
-        <div class="menu-page-item" ><a href="why" data-lang-id="004-why-ecobricks">Why Ecobricks?</a></div>
+        <div class="menu-page-item" ><a href="transition" data-lang-id="004-transition">Plastic transition</a></div>
 
-        <div class="menu-page-item" ><a href="plastic" data-lang-id="005-earth-example">Earth's Example</a></div>
+        <!-- <div class="menu-page-item" ><a href="plastic" data-lang-id="005-earth-example">Earth's Example</a></div> -->
 
         <div class="menu-page-item" ><a href="principles.php" data-lang-id="006-our-principles">Our Earthen Principles</a></div>
 
@@ -269,6 +269,12 @@ window.onload = function() {
         <div class="menu-page-item" ><a href="about.php" data-lang-id="008-about-us">About us</a></div>
 
         <div class="menu-page-item" ><a href="sequest.php" data-lang-id="009-plastic-sequestration">Plastique Sequestration</a></div>
+
+        <div class="menu-page-item" ><a href="brikcoins.php" data-lang-id="010-brikcoins">Brikcoins</a></div>
+
+        <div class="menu-page-item" ><a href="brikchain.php" data-lang-id="011-brikchain">Brikchain</a></div>
+
+        <div class="menu-page-item" ><a href="earthwands.php" data-lang-id="011-earthwands">Earthwands</a></div>
     </div>
 
 <!-- 
