@@ -2,7 +2,7 @@
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="../icons/earthwand-shadow.svg">
-<link rel="preload" as="image" href="../webp/blue-ode-750px.webp">
+<link rel="preload" as="image" href="../svgs/earthwand-background-mobile.svg">
 <link rel="preload" as="image" href="../svgs/earthwand-background.svg">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
@@ -20,7 +20,7 @@
 	.splash-content-block {
 		
 		
-		background: url(../webp/blue-ode-750px.webp) bottom;
+		background: url(../svgs/earthwand-background-mobile.svg) bottom;
 		/*background-color: #8BBAF0;*/
     	background-repeat: no-repeat;
 		background-size: cover;

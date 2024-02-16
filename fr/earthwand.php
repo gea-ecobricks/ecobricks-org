@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.56';?>
+<?php $version='1.57';?>
 <?php $page='earthwand';?>
 
 <?php require_once ("../includes/earthwand-inc.php");?>
@@ -43,7 +43,7 @@
                     </div>
 
                         <div class="virtue-icons" data-lang-id="007-virtue-icons">
-                            <img src="../pngs/earthwand-virtue-icons.png" style="width:100%;padding:20px;margin-top:10px;margin-bottom:10px" alt="Earthwand design principles">
+                            <img src="../pngs/earthwand-virtue-icons.png" style="width:100%;padding:20px;margin-top:20px;margin-bottom:10px" alt="Earthwand design principles">
                         </div>
 
                          <h4>Earthwand Vision</h4>

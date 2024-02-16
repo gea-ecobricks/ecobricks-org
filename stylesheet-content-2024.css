@@ -126,6 +126,7 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
 	box-sizing: border-box;
   margin: 15px 15px 30px 15px;
    border-radius: 15px;
+   background: none !important;
 	
 	}
 	}
