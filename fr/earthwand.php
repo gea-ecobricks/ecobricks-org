@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.59';?>
+<?php $version='1.6';?>
 <?php $page='earthwand';?>
 
 <?php require_once ("../includes/earthwand-inc.php");?>
@@ -46,11 +46,11 @@
                     <div class="page-paragraph-reg">
 
                         <div class="virtue-icons" data-lang-id="007-virtue-icons">
-                            <img src="../pngs/earthwand-virtue-icons.png" style="width:100%;padding:20px;margin-top:20px;margin-bottom:10px" alt="Earthwand design principles">
+                            <img src="../pngs/earthwand-virtue-icons.png"  alt="Earthwand design principles">
                         </div>
 
                         
-
+<br><br>
                          <p data-lang-id="006-second-page-paragraph">Developed over three years of ecobricking and prototyping by one of the co-founders of the Global Ecobrick Alliance, the Earthwand it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. EarthWands are produced by GEA Trainer and sold by GEA Trainers as a way to fund their ecological work</p>
 
 

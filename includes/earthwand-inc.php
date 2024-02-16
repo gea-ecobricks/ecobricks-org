@@ -40,6 +40,12 @@
 }
 
 
+.virtue-icons {
+    padding:10px;
+    margin-bottom: 20px;
+    width:90%;
+    margin-top: 10px;
+}
 
 .module-btn {
   background: var(--emblem-blue);
