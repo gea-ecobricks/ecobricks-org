@@ -28,7 +28,7 @@ const id_Page_Translations = {
         
         '006-second-page-paragraph': 'Dikembangkan selama tiga tahun ecobricking dan prototyping oleh salah satu pendiri Global Ecobrick Alliance, Earthwand dirancang tidak hanya untuk membungkus plastik, tetapi juga untuk mendukung gerakan ecobrick lokal dan global secara finansial. EarthWands diproduksi oleh Pelatih GEA dan dijual oleh Pelatih GEA sebagai cara untuk mendanai pekerjaan ekologis mereka.',
     
-        '007-virtue-icons':'<img src="../pngs/earthwand-virtue-icons.png" style="width:100%;" alt="Prinsip desain Earthwand">',
+        '007-virtue-icons':'<img src="../webp/earthwand-virtue-icons.webp" style="width:100%;" alt="Prinsip desain Earthwand">',
         
         '008-page-paragraph': 'Yang terbaik dari semuanya, kami dengan hati-hati merancang produksi, konsumsi, dan pembuangan Earthwand sehingga setelah semua dampak siklus hidupnya ditambahkan, pada akhirnya telah membuat dunia menjadi tempat yang lebih hijau. Untuk melihat apa yang kami maksud, lihat Penilaian Dampak Produk Earthwand (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">laporan UK</a> | <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">laporan Indonesia</a>). Dengan cara ini, EarthWand mewujudkan <a href="/ayyew">prinsip ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a>, dan <a href="principles">prinsip regeneratif</a> yang memandu gerakan transisi plastik global.',
     

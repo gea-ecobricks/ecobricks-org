@@ -16,7 +16,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 
 const es_Page_Translations = {
-    
+
     '001-splash-title': 'La Earthwand',
     '002-splash-subtitle': 'Haz desaparecer tu plástico',
     '003-splash-image-alt': '<img src="../icons/earthwand-shadow.svg" style="width: 85%" alt="La EarthWand es un producto regenerativo diseñado desde cero para ser la herramienta perfecta para empacar plástico y fabricar ecobricks.">',
@@ -27,7 +27,7 @@ const es_Page_Translations = {
     
     '006-second-page-paragraph': 'Desarrollada durante tres años de ecobricking y prototipado por uno de los cofundadores de la Global Ecobrick Alliance, la Earthwand está diseñada no solo para empacar plástico, sino también para apoyar financieramente el movimiento ecobrick local y global. Las EarthWands son producidas por Formadores de GEA y vendidas por Formadores de GEA como una forma de financiar su trabajo ecológico.',
 
-    '007-virtue-icons':'<img src="../pngs/earthwand-virtue-icons.png" style="width:100%;" alt="Principios de diseño de Earthwand">',
+    '007-virtue-icons':'<img src="../webp/earthwand-virtue-icons.webp" style="width:100%;" alt="Principios de diseño de Earthwand">',
     
     '008-page-paragraph': 'Lo mejor de todo es que hemos diseñado cuidadosamente la producción, el consumo y la eliminación de la Earthwand para que, después de sumar todos los impactos de su ciclo de vida, al final haya hecho del mundo un lugar más verde. Para ver a qué nos referimos, consulta la Evaluación de Impacto del Producto Earthwand (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">informe del Reino Unido</a> | <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">informe de Indonesia</a>). De esta manera, la EarthWand encarna los <a href="/ayyew">principios ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> y <a href="principles">principios regenerativos</a> que guían el movimiento global de transición plástica.',
 

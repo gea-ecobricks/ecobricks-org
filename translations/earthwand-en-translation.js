@@ -28,7 +28,7 @@ const en_Page_Translations = {
     
     '006-second-page-paragraph': 'Developed over three years of ecobricking and prototyping by one of the co-founders of the Global Ecobrick Alliance, the Earthwand it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. EarthWands are produced by GEA Trainer and sold by GEA Trainers as a way to fund their ecological work',
 
-    '007-virtue-icons':'<img src="../pngs/earthwand-virtue-icons.png" style="width:100%;" alt="Earthwand design principles">',
+    '007-virtue-icons':'<img src="../webp/earthwand-virtue-icons.webp" style="width:100%;" alt="Earthwand design principles">',
     
     '008-page-paragraph': 'Best of all, we’ve carefully designed the Earthwand’s production, consumption and disposal so that after all the impacts of its life-cycle are added up, it has in the end made the world a greener place.   To see what we mean, see the EarthWand’s Product Impact Assessment (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">UK report</a> | <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">Indonesian report</a>).  In this way the EarthWand embodies the <a href="/ayyew">ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> and <a href="principles">regenerative principles</a> which guide the global plastic transition movement.',
 

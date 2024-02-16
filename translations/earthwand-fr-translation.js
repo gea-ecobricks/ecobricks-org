@@ -27,7 +27,7 @@ const fr_Page_Translations = {
         
         '006-second-page-paragraph': 'Développé sur trois années d\'ecobriquage et de prototypage par l\'un des cofondateurs de la Global Ecobrick Alliance, l\'Earthwand est conçu non seulement pour emballer le plastique, mais aussi pour soutenir financièrement le mouvement ecobrick local et mondial. Les Earthwands sont produits par des formateurs de la GEA et vendus par des formateurs de la GEA comme moyen de financer leur travail écologique.',
     
-        '007-virtue-icons':'<img src="../pngs/earthwand-virtue-icons.png" style="width:100%;" alt="Principes de conception de l\'Earthwand">',
+        '007-virtue-icons':'<img src="../webp/earthwand-virtue-icons.webp" style="width:100%;" alt="Principes de conception de l\'Earthwand">',
         
         '008-page-paragraph': 'Le meilleur de tout, nous avons soigneusement conçu la production, la consommation et l\'élimination de l\'Earthwand de manière à ce qu\'après que tous les impacts de son cycle de vie soient ajoutés, il ait finalement rendu le monde plus vert. Pour comprendre ce que nous voulons dire, consultez l\'Évaluation de l\'impact du produit Earthwand (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">rapport du Royaume-Uni</a> | <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">rapport indonésien</a>). Ainsi, l\'Earthwand incarne les <a href="/ayyew">principes ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> et <a href="principles">principes régénératifs</a> qui guident le mouvement mondial de transition plastique.',
     

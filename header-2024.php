@@ -258,7 +258,7 @@ window.onload = function() {
 
         <div class="menu-page-item" ><a href="how.php" data-lang-id="003-how-to">How to make?</a></div>
         
-        <div class="menu-page-item" ><a href="transition" data-lang-id="004-transition">Plastic transition</a></div>
+        <div class="menu-page-item" ><a href="transition.php" data-lang-id="004-transition">Plastic transition</a></div>
 
         <!-- <div class="menu-page-item" ><a href="plastic" data-lang-id="005-earth-example">Earth's Example</a></div> -->
 
@@ -274,7 +274,7 @@ window.onload = function() {
 
         <div class="menu-page-item" ><a href="brikchain.php" data-lang-id="011-brikchain">Brikchain</a></div>
 
-        <div class="menu-page-item" ><a href="earthwands.php" data-lang-id="011-earthwands">Earthwands</a></div>
+        <div class="menu-page-item" ><a href="earthwand.php" data-lang-id="011-earthwands">Earthwands</a></div>
     </div>
 
 <!-- 
