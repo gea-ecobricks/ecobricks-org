@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<HTML lang="fr"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='fr';?>
+<?php $version='1.53';?>
+<?php $page='sequest';?>
+
+<?php require_once ("../includes/sequest2-inc.php");?>
+
+<article id="sequest-with-ecobricks">
+
+
+<!--PAGE BANNER-->
+
+
+ <div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">The Earthwand</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Make your plastic disapear</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/earthwand-shadow.svg" style="width: 85%" alt="The EarthWand is a regenerative product designed from the ground up to be the perfect plastic packing, ecobrick making tool.">
+    </div>	
+</div>
+
+<!-- PAGE CONTENT-->
+
+
+        <div id="main-content">
+
+        <!-- The flexible grid (content) -->
+            <div class="row">
+                <div class="main">
+
+                    <div class="lead-page-paragraph">
+                         <p data-lang-id="005-first-page-paragraph">Why not you pack your ecobrick with the best possible tool available? </p>
+                    </div>
+                
+                    <div class="page-paragraph">
+                         <p data-lang-id="006-second-page-paragraph">The Earthwand is a regenerative product designed from the ground up to be the perfect plastic packing, ecobrick making tool.  Its simple, yet super practical, ergonomic, sturdy and strong.  Best of all, its made without plastic-- fully hand crafted from bamboo, rattan and coconut fiber.</p>
+
+                         <p data-lang-id="006-second-page-paragraph">Developed over three years of ecobricking and prototyping by one of the co-founders of the Global Ecobrick Alliance, the Earthwand it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. EarthWands are produced by GEA Trainer and sold by GEA Trainers as a way to fund their ecological enterprises– such as conducting as many ecobrick workshops as possible in their communities!  Trainers also contribute a minimum of 25% of the retail price back to the GEA to support its global work.  Sale transactions, and the usage of these funds are fully trackable on the GEA Open Books accounting system.</p>
+
+                         <p data-lang-id="007-virtue-icons"><img src="../pngs/earthwand-virtue-icons.png" style="width:100%;" alt="Earthwand design principles"></p>
+
+
+                        <p data-lang-id="008-page-paragraph">Best of all, we’ve carefully designed the Earthwand’s production, consumption and disposal so that after all the impacts of its life-cycle are added up, it has in the end made the world a greener place.   To see what we mean, see the EarthWand’s Product Impact Assessment (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">UK report</a> | > <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">Indonesian report</a>).  In this way the EarthWand embodies the <a href="/ayyew">ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> and <a href="principles">regenerative principles</a> which guide the global plastic transition movement.</p>
+
+                        <h4 data-lang-id="009-page-paragraph">More than a product</h4>
+
+                        <p data-lang-id="010-page-paragraph">The EarthWand was developed by GEA principal and inventor Russell Maier.  His goal was to create a product that embodied the Earth principles that power the ecobrick movement-- and that energized them.  His was vision was to create not just a great green product, but also a renumeration model that could financially support the local and global plastic transition movement.</p>
+
+                        <p data-lang-id="011-page-paragraph"><strong>Earthwand benefits:</strong></p>
+                        
+                        <ul data-lang-id="012-page-paragraph">
+                            <li>The best posssible tool for ecobricking.</li>
+
+                            <li>Made from 100% organic materials.</li>
+
+                            <li>Earthwand are made by small-scale maker-partners that have been vetted by the Global Ecobrick Alliance and asked to track the ecological impacts of manufcature.</li>
+
+                           <li>All the ecological impacts of manufacture, sale and shipping are accounted for and disclosed.</li>
+
+                           <li>The net impact of the Earthwands manufacture, sale and shipping is green.</li>
+
+                           <li>75% of Earthwand profits go to the GEA trainer selling them to support their ecological leadership.</li>
+
+                           <li>24% of Earthwand profits go the Global Ecobrick Alliance to support its work.</li>
+
+                           <li>1% of Earthwand profits go the inventor of the design and model to support their work.</li>
+
+                        </ul>
+
+                        <p data-lang-id="013-page-paragraph">Purchasing an Earthway is a way for ecobrickers to support their local ecobrick trainer, the Global Ecobrick Alliance, regenerative makers and in so doing, energize the plastic transition movement itself.</p>
+                        
+                        
+                        
+                           
+                        <button type="button" class="module-btn" onclick="window.open('https://gobrik.com/en/gobrik.com/#shop')" aria-label="Gobrik store" title="Go to GoBrik store" data-lang-id="013-earthwand-buy-button">🛒 GoBrik Store</button>
+
+                    </div>
+                </div>
+
+                <div class="side">
+            
+
+                <?php require_once ("side-modules/spiral-design.php");?>
+                
+                <?php require_once ("side-modules/about-gea.php");?>
+
+                <?php require_once ("side-modules/eco-accounting-principle.php");?>
+
+                <?php require_once ("side-modules/earthen-ethics.php");?>
+
+
+
+
+
+                </div>
+            </div>
+       
+
+            
+            </div>  <!--closes main-->
+
+
+	<!--FOOTER STARTS HERE-->
+
+	<?php require_once ("../footer-2024.php");?>
+
+
+<!-- CUSTOM PAGE SCRIPTS-->
+
+
+<!-- This script is for pages that use the accordion content system-->
+<script src="../accordion-scripts.js?v=2" defer></script>
+
+</div>
+</article>
+</body>
+</html>
+
+
