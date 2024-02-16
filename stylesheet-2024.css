@@ -275,7 +275,7 @@
   height: fit-content;
   padding: 20px;
   transition: 0.4s;
-  margin-right: 42px;
+  margin-right: 33px;
   margin-top: 0px;
 }
 
@@ -323,7 +323,7 @@
   flex-flow: row;
   width: fit-content;
   background-color: var(--settings-background);
-  padding: 16px 50px 16px 15px;
+  padding: 16px 44px 16px 15px;
   border: 1px solid var(--settings-border);
   border-radius: 15px;
   cursor: pointer;

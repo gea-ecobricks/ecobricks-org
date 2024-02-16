@@ -42,6 +42,9 @@
                          
                     </div>
 
+
+                    <div class="page-paragraph-reg">
+
                         <div class="virtue-icons" data-lang-id="007-virtue-icons">
                             <img src="../pngs/earthwand-virtue-icons.png" style="width:100%;padding:20px;margin-top:20px;margin-bottom:10px" alt="Earthwand design principles">
                         </div>
@@ -57,18 +60,18 @@
 
                         <div class="earthwand-gallery" style="width:100%, display:flex; flex-flow:column; margin-bottom: 20px;">
                             <div class="earthwand-photo-duo" style="width:100%, display:flex; flex-flow:row; padding:10px;">
-                                <div class="earth-photo">
+                                <div class="earthwand-photo">
                                     <img src="../photos/earthwand-photo-1-500px.webp" style="padding:10px:" alt="Earthwands">
                                 </div>
-                                <div class="earth-photo">
+                                <div class="earthwand-photo">
                                     <img src="../photos/earthwand-photo-2-500px.webp" style="padding:10px:" alt="Earthwands">
                                  </div>
                             </div>
                             <div class="earthwand-photo-duo" style="width:100%, display:flex; flex-flow:row; padding:10px;">
-                                <div class="earth-photo">
+                                <div class="earthwand-photo">
                                     <img src="../photos/earthwand-photo-3-500px.webp" style="padding:10px:" alt="Earthwands">
                                 </div>
-                                <div class="earth-photo">
+                                <div class="earthwand-photo">
                                     <img src="../photos/earthwand-photo-4-500px.webp" style="padding:10px:" alt="Earthwands">
                                 </div>
                             </div>
@@ -111,7 +114,7 @@
                            
                         <button type="button" class="module-btn" style="margin-top:20px;" onclick="window.open('https://gobrik.com/en/gobrik.com/#shop')" aria-label="Gobrik store" title="Go to GoBrik store" data-lang-id="013-earthwand-buy-button">🛒 GoBrik Store</button>
 
-                    
+                        </div>
                 </div>
 
                 <div class="side">
