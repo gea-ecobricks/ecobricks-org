@@ -12,9 +12,9 @@
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="L'Earthwand">
   	<meta property="og:description"   content="Faites disparaître votre plastique avec l'outil ultime d'écobricking.">
-  	<meta property="og:image"         content="https://www.ecobricks.org/en/pngs/how-to-banner-1000px.png">
-  	<meta property="og:image:width" content="1000">
-	<meta property="og:image:height" content="1000" >
+  	<meta property="og:image"         content="https://ecobricks.org/photos/earthwand-photo-1-500px.webp">
+  	<meta property="og:image:width" content="500">
+	<meta property="og:image:height" content="500" >
   	<meta property="og:image:alt"     content="Une écobrick entourée de plastique, un bâton d'emballage et un téléphone avec l'application GoBrik.">
 	  <meta property="og:locale" content="fr_FR" >
 
