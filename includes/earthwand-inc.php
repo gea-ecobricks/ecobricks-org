@@ -42,7 +42,7 @@
 
 .virtue-icons {
     padding:10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width:90%;
     margin-top: 10px;
 }

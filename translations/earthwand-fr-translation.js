@@ -16,30 +16,32 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 
 const fr_Page_Translations = {
-
-    '001-splash-title': 'The Earthwand',
-    '002-splash-subtitle': 'Make your plastic disapear',
-    '003-splash-image-alt': '<img src="../icons/earthwand-shadow.svg" style="width: 85%" alt="The EarthWand is a regenerative product designed from the ground up to be the perfect plastic packing, ecobrick making tool.">',
     
-    '004-lead-page-paragraph': 'Why not you pack your ecobrick with the best possible tool available? ',
+        '001-splash-title': 'L\'Earthwand',
+        '002-splash-subtitle': 'Faites disparaître votre plastique',
+        '003-splash-image-alt': '<img src="../icons/earthwand-shadow.svg" style="width: 85%" alt="L\'EarthWand est un produit régénératif conçu dès le départ pour être l\'outil parfait pour emballer le plastique et fabriquer des ecobriques.">',
+        
+        '004-lead-page-paragraph': 'Pourquoi ne pas emballer votre ecobrique avec le meilleur outil possible disponible ? ',
+        
+        '005-first-page-paragraph': 'L\'Earthwand est un produit régénératif conçu dès le départ pour être l\'outil parfait pour emballer le plastique et fabriquer des ecobriques. Simple, mais super pratique, ergonomique, robuste et solide. Le meilleur de tout, il est fabriqué sans plastique, entièrement artisanal en bambou, rotin et fibres de coco.',
+        
+        '006-second-page-paragraph': 'Développé sur trois années d\'ecobriquage et de prototypage par l\'un des cofondateurs de la Global Ecobrick Alliance, l\'Earthwand est conçu non seulement pour emballer le plastique, mais aussi pour soutenir financièrement le mouvement ecobrick local et mondial. Les Earthwands sont produits par des formateurs de la GEA et vendus par des formateurs de la GEA comme moyen de financer leur travail écologique.',
     
-    '005-first-page-paragraph': 'The Earthwand is a regenerative product designed from the ground up to be the perfect plastic packing, ecobrick making tool.  Its simple, yet super practical, ergonomic, sturdy and strong.  Best of all, its made without plastic-- fully hand crafted from bamboo, rattan and coconut fiber.',
+        '007-virtue-icons':'<img src="../pngs/earthwand-virtue-icons.png" style="width:100%;" alt="Principes de conception de l\'Earthwand">',
+        
+        '008-page-paragraph': 'Le meilleur de tout, nous avons soigneusement conçu la production, la consommation et l\'élimination de l\'Earthwand de manière à ce qu\'après que tous les impacts de son cycle de vie soient ajoutés, il ait finalement rendu le monde plus vert. Pour comprendre ce que nous voulons dire, consultez l\'Évaluation de l\'impact du produit Earthwand (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">rapport du Royaume-Uni</a> | <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">rapport indonésien</a>). Ainsi, l\'Earthwand incarne les <a href="/ayyew">principes ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> et <a href="principles">principes régénératifs</a> qui guident le mouvement mondial de transition plastique.',
     
-    '006-second-page-paragraph': 'Developed over three years of ecobricking and prototyping by one of the co-founders of the Global Ecobrick Alliance, the Earthwand it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. EarthWands are produced by GEA Trainer and sold by GEA Trainers as a way to fund their ecological work',
-
-    '007-virtue-icons':'<img src="../pngs/earthwand-virtue-icons.png" style="width:100%;" alt="Earthwand design principles">',
+        '009-page-paragraph': 'Plus qu\'un produit',
+        '010-page-paragraph': 'L\'EarthWand a été développé par le principal de la GEA et inventeur Russell Maier. Son objectif était de créer un produit incarnant les principes terrestres qui alimentent le mouvement ecobrick - et qui les dynamise. Sa vision était de créer non seulement un excellent produit vert, mais aussi un modèle de rémunération pouvant soutenir financièrement le mouvement mondial de transition plastique.',
     
-    '008-page-paragraph': 'Best of all, we’ve carefully designed the Earthwand’s production, consumption and disposal so that after all the impacts of its life-cycle are added up, it has in the end made the world a greener place.   To see what we mean, see the EarthWand’s Product Impact Assessment (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">UK report</a> | <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">Indonesian report</a>).  In this way the EarthWand embodies the <a href="/ayyew">ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> and <a href="principles">regenerative principles</a> which guide the global plastic transition movement.',
-
-    '009-page-paragraph': 'More than a product',
-    '010-page-paragraph': 'The EarthWand was developed by GEA principal and inventor Russell Maier.  His goal was to create a product that embodied the Earth principles that power the ecobrick movement-- and that energized them.  His was vision was to create not just a great green product, but also a renumeration model that could financially support the local and global plastic transition movement.',
-
-    '011-page-paragraph': 'GEA Trainers are the official sellers of Earthwands.  Proceeds from the sale go to continuing their work-- uch as conducting as many ecobrick workshops as possible in their communities!  Trainers commit to  contributing a minimum of 25% of the retail price back to the GEA to support its global work.  Sale transactions, and the usage of these funds are fully trackable on the <a href="open-books.php">GEA Open Books accounting system</a>',
+        '011-page-paragraph': 'Les formateurs de la GEA sont les vendeurs officiels des Earthwands. Les bénéfices de la vente servent à poursuivre leur travail - comme la réalisation du plus grand nombre possible d\'ateliers ecobrick dans leurs communautés ! Les formateurs s\'engagent à contribuer au moins 25 % du prix de vente au retour à la GEA pour soutenir son travail mondial. Les transactions de vente et l\'utilisation de ces fonds sont entièrement traçables sur le <a href="open-books.php">système de comptabilité GEA Open Books</a>',
+        
+        '011-header-paragraph':'Avantages d\'Earthwand',
+        '012-page-paragraph': '<li>Le meilleur outil possible pour l\'ecobriquage.</li><li>Fabriqué à 100 % de matériaux organiques.</li><li>Les Earthwands sont fabriqués par des partenaires fabricants à petite échelle qui ont été évalués par la Global Ecobrick Alliance et ont été invités à suivre les impacts écologiques de la fabrication.</li><li>Tous les impacts écologiques de la fabrication, de la vente et de l\'expédition sont comptabilisés et divulgués.</li><li>L\'impact net de la fabrication, de la vente et de l\'expédition des Earthwands est positif.</li><li>75 % des bénéfices d\'Earthwand vont au formateur de la GEA qui les vend pour soutenir son leadership écologique.</li><li>24 % des bénéfices d\'Earthwand vont à la Global Ecobrick Alliance pour soutenir son travail.</li><li>1 % des bénéfices d\'Earthwand vont à l\'inventeur de la conception et du modèle pour soutenir son travail.</li>',
+        '013-page-paragraph': 'Acheter un Earthwand est une manière pour les ecobricoleurs de soutenir leur formateur ecobrick local, la Global Ecobrick Alliance, les fabricants régénératifs et ainsi, dynamiser le mouvement de transition plastique lui-même.',
+        '013-earthwand-buy-button': '🛒 Boutique GoBrik'
     
-    '011-header-paragraph':'Earthwand benefits',
-    '012-page-paragraph': '<li>The best posssible tool for ecobricking.</li\><li>Made from 100% organic materials.</li\><li>Earthwand are made by small-scale maker-partners that have been vetted by the Global Ecobrick Alliance and asked to track the ecological impacts of manufcature.</li\><li>All the ecological impacts of manufacture, sale and shipping are accounted for and disclosed.</li\><li>The net impact of the Earthwands manufacture, sale and shipping is green.</li\><li>75% of Earthwand profits go to the GEA trainer selling them to support their ecological leadership.</li\><li>24% of Earthwand profits go the Global Ecobrick Alliance to support its work.</li\><li>1% of Earthwand profits go the inventor of the design and model to support their work.<\/li>',
-    '013-page-paragraph': 'Purchasing an Earthway is a way for ecobrickers to support their local ecobrick trainer, the Global Ecobrick Alliance, regenerative makers and in so doing, energize the plastic transition movement itself.',
-    '013-earthwand-buy-button': '🛒 GoBrik Store',
+    
 
 
 
