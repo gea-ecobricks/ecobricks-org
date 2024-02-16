@@ -1,6 +1,6 @@
 <div class="side-module-desktop-mobile">
 				<img src="../icons/earthen-ethics-icon-ecobricks-org.svg" width="80%" alt="For-Earth Enterprise through eco bricking">
-				<h4>Valeur Terrestre</h4>
-				<h5>Les brikcoins sont basés sur la valeur générée en suivant l'exemple de la Terre en matière de concentration de carbone et d'enrichissement écologique.</h5><br>
-				<a class="module-btn" href="principles" target="_blank">Encore Plus</a>
+				<h4>Earthen Principles</h4>
+				<h5>Our design principles are based on following Earth's example.  In this way we ensure that our products and processes are spiral, sequestering, reciprocal, diversifying and consciousness raising.</h5><br>
+				<a class="module-btn" href="principles" target="_blank">Our Principles</a>
 			</div>
