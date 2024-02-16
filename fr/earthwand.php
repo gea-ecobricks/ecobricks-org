@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.58';?>
+<?php $version='1.59';?>
 <?php $page='earthwand';?>
 
 <?php require_once ("../includes/earthwand-inc.php");?>
@@ -59,7 +59,7 @@
                         <p data-lang-id="008-page-paragraph">Best of all, we’ve carefully designed the Earthwand’s production, consumption and disposal so that after all the impacts of its life-cycle are added up, it has in the end made the world a greener place.   To see what we mean, see the EarthWand’s Product Impact Assessment (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">UK report</a> | <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">Indonesian report</a>).  In this way the EarthWand embodies the <a href="/ayyew">ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> and <a href="principles">regenerative principles</a> which guide the global plastic transition movement.</p>
 
                         <div class="earthwand-gallery" style="width:100%, display:flex; flex-flow:column; margin-bottom: 20px;">
-                            <div class="earthwand-photo-duo" style="width:100%, display:flex; flex-flow:row; padding:10px;">
+                            <div class="earthwand-photo-duo">
                                 <div class="earthwand-photo">
                                     <img src="../photos/earthwand-photo-1-500px.webp" style="padding:10px:" alt="Earthwands">
                                 </div>
@@ -67,7 +67,7 @@
                                     <img src="../photos/earthwand-photo-2-500px.webp" style="padding:10px:" alt="Earthwands">
                                  </div>
                             </div>
-                            <div class="earthwand-photo-duo" style="width:100%, display:flex; flex-flow:row; padding:10px;">
+                            <div class="earthwand-photo-duo" >
                                 <div class="earthwand-photo">
                                     <img src="../photos/earthwand-photo-3-500px.webp" style="padding:10px:" alt="Earthwands">
                                 </div>

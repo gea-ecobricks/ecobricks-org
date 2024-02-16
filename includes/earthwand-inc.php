@@ -49,7 +49,17 @@
   background: var(--emblem-blue-over);
 }
 
-.earthwand-photo {width:40%;}
+.earthwand-photo {width:40%;
+padding: 10px; display: flex;}
+
+.earthwand-photo img {width:100%;}
+
+.earthwand-photo-duo {
+    width:100%;
+    display:flex; 
+    flex-flow:row; 
+    padding:0px;"
+}
 	
 </style>	
 
