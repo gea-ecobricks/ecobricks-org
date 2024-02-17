@@ -139,6 +139,15 @@
 
 	<!--FOOTER ENDS-->
 
+<script src="../translations/welcome-en-translation.js"></script>
+<script src="../translations/welcome-fr-translation.js"></script>
+<script src="../translations/welcome-id-translation.js"></script>
+<script src="../translations/welcome-es-translation.js"></script>
+
+<script src="../translations/<?php echo ($page); ;?>-en-translation.js?v=<?php echo ($version); ;?>"></script>
+<script src="../translations/<?php echo ($page); ;?>-fr-translation.js?v=<?php echo ($version); ;?>"></script>
+<script src="../translations/<?php echo ($page); ;?>-id-translation.js?v=<?php echo ($version); ;?>"></script>
+<script src="../translations/<?php echo ($page); ;?>-es-translation.js?v=<?php echo ($version); ;?>"></script>
 
 <script>
 

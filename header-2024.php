@@ -9,15 +9,11 @@
 	<link rel="canonical" href="https://ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
-
-
 	<link rel="alternate" href="https://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="en">
 	<link rel="alternate" href="https://ecobricks.org/id/<?php echo ($name); ;?>" hreflang="id"> 
 	<link rel="alternate" href="https://ecobricks.org/es/<?php echo ($name); ;?>" hreflang="es"> 
 	<link rel="alternate" href="https://ecobricks.org/fr/<?php echo ($name); ;?>" hreflang="fr"> 
 	<link rel="alternate" href="http://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="x-default">
-
-
 
 <!-- Arc CDN Script without delay
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
@@ -53,6 +49,7 @@
 	
 
  
+<script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>
 
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://ecobricks.org/mode-toggle.mjs.js"></script>
@@ -82,17 +79,7 @@
 
 <script src="../site-search.js?v=6" defer></script>
 
-<script src="../translations/welcome-en-translation.js" async></script>
-<script src="../translations/welcome-fr-translation.js" async></script>
-<script src="../translations/welcome-id-translation.js" async></script>
-<script src="../translations/welcome-es-translation.js" async></script>
 
-<script src="../translations/<?php echo ($page); ;?>-en-translation.js?v=<?php echo ($version); ;?>" async></script>
-<script src="../translations/<?php echo ($page); ;?>-fr-translation.js?v=<?php echo ($version); ;?>" async></script>
-<script src="../translations/<?php echo ($page); ;?>-id-translation.js?v=<?php echo ($version); ;?>" async></script>
-<script src="../translations/<?php echo ($page); ;?>-es-translation.js?v=<?php echo ($version); ;?>" async></script>
-
-<script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>
 
 
 
@@ -125,7 +112,20 @@
 
 
 
+<script>
 
+/*ROLL CALL*/
+
+window.onload = function() {
+    var siteName = 'Ecobricks.org'; // Default language code
+    // setPageLanguageFromCache();
+    // alert(currentLanguage);
+  var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
+  switchLanguage(currentLanguage);
+  updateLogoColor(); 
+
+}
+</script>
 
 
 
@@ -166,23 +166,7 @@
 		
 <BODY>
 
-<script>
 
-
-
-/*ROLL CALL*/
-
-var siteName = 'Ecobricks.org'; // Default language code
-  // setPageLanguageFromCache();
-  // alert(currentLanguage);
-var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
-alert(currentLanguage);
-switchLanguage(currentLanguage);
-alert('switch!');
-updateLogoColor(); 
-
-
-</script>
 
 <!-- TOUR SLIDER -->
 
@@ -482,11 +466,6 @@ updateLogoColor();
         </svg>
         </div>
         
-
-
-
-
-
         <div id="function-icons" style="display: flex;flex-flow:row;margin:auto 10px auto auto;">
 
             <div id="main-header-buttons">
