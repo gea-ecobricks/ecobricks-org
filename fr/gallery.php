@@ -16,6 +16,8 @@ Content Page template: v.1.0.0-->
 
 <?php include '../ecobricks_env.php';?> 
 	
+
+
 <div class="splash-content-block">
           
             
