@@ -390,16 +390,10 @@
 				</div>
 
 
-			
-
-				<?php include 'side-modules/earthen-ethics-principle.php';?> 
-
-
-
             <div class="side-module-desktop-mobile">
-				<img src="../webp/earthen-500px.webp" width="80%">
+				<img src="../icons/earthen-ethics-icon-ecobricks-org.svg" width="80%">
 				<h4>Earthen Ethics</h4>
-				<h5>Plastic transition is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
+				<h5>To transition from plastic we must transition to following Earth's example of ecological enrichment.</h5><br>
 				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Learn More</a>
 			</div>
 
@@ -412,7 +406,6 @@
 
             <?php include 'side-modules/eco-accounting-principle.php';?>
 
-			<?php include 'side-modules/spiral-design.php';?>
 
 
 				
