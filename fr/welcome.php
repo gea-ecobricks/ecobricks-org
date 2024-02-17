@@ -96,6 +96,7 @@ https://github/globalecobrickalliance/ecobricks.org
             ?>
                 
         </div>
+    </div>
 
     </div>
     <div class="feature-content-box">
