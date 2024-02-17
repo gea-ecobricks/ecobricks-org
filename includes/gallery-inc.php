@@ -24,7 +24,7 @@ _END;?>
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("../meta/featured-$lang.php");?>
+<?php require_once ("../meta/featured-en.php");?>
 
 <?php require_once ("../header.php");?>
 
