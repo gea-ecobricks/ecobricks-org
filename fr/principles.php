@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.57';?>
+<?php $version='1.58';?>
 <?php $page='principles';?>
 
 <?php require_once ("../includes/principles-inc2.php");?>
@@ -126,14 +126,14 @@
 						<p>Ghandi nous a tous mis au défi d'<i>"être le changement que vous voulez voir dans le monde"</i>. Simple et puissant, c'est un principe fondamental du mouvement ecobrick and Earthen. Comme la consommation de plastique est quelque chose qui nous relie à travers les continents et les cultures, ce que nous faisons avec notre plastique, nos propres histoires de transition, fournissent un phare brillant à suivre pour les autres.</p>
 						 
 						</div>
-						<div class="side2"><img src="../pngs/community.png" width="100%">
+						<div class="side2"><img src="../webp/community.webp" width="300" alt="Donner l'example rege régénérateur">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>En donnant l'exemple en suivant l'exemple de la Terre, nous pouvons être une source d'inspiration puissante.</p>
 						</div>
-						<div class="side3"><img src="../pngs/community.png" width="150px">
+						<div class="side3"><img src="../webp/community.webp" width="300" alt="Donner l'example rege régénérateur">
 						</div>
 					</div>
 					
@@ -235,14 +235,14 @@
 						 
 
 						</div>
-						<div class="side2"><img src="../webp/mandalic-23-900px.webp" width="100%">
+						<div class="side2"><img src="../webp/mandalic-24-400px.webp" width="300" alt="The art of mandalic collaboration">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Le plus souvent, il s'agit d'une intention qui profite à toute la communauté, comme la construction d'un pont ou d'un puits.</p>
 						</div>
-						<div class="side3"><img src="../webp/mandalic-23-900px.webp" width="150px">
+						<div class="side3"><img src="../webp/mandalic-24-400px.webp" width="150" alt="The art of mandalic collaboration">
 						</div>
 					</div>
 

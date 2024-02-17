@@ -588,7 +588,7 @@ margin-top: 40px;
   -moz-border-radius: 10;
   border-radius: 10px;
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: var(--top-header);
+  color: var(--slide-overlays);
   font-size: 16px;
   padding: 8px 15px 8px 15px;
   text-decoration: none;
@@ -598,7 +598,7 @@ margin-top: 40px;
 
 .module-btn:hover {
   text-decoration: none;
-  color:var(--h1);
+  color:var(--top-header);
 }
 
 
