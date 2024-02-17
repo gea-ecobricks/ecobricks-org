@@ -340,15 +340,15 @@ font-weight: 300;
 
 
 .gal10-photo-text {
-    background-color: #8DF9F9 /*#DFDFDF*/;
+    background-color: var(--show-hide:);
     margin: 0px;
     text-align: left;
     padding: 3px;
     overflow: hidden;    
     font-size: 0.8em;
-    font-family: Mulish;
+    font-family: 'Mulish',sans-serif;
     width: 235px;
-    color: #504f4f;
+    color: var(--text-color:);
     border-radius: 0px 0px 10px 10px;
 padding: 15px;
 width: 80%;
@@ -454,7 +454,7 @@ margin-left: 0px;
     margin-right: 20px;
     margin-left: 20px;
     border-radius: 15px;
-    background: var(--gallery);
+    background-color: var(--gallery);
   }
 
   .featured-content-3 {
