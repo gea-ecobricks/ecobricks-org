@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.56';?>
+<?php $version='1.57';?>
 <?php $page='principles';?>
 
 <?php require_once ("../includes/principles-inc2.php");?>
@@ -16,7 +16,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Nos principes terrestres</div>
 		<div class="splash-sub" data-lang-id="002-splash-subtitle">Nous sommes guidée par des principes régénératifs qui nous orientent vers une harmonie croissante avec les cycles Terrestres.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="..svgs/earth-home-animated-v4" style="width: 100%;"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/earth-home-animated-v4" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
