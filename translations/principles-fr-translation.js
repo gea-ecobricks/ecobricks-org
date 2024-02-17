@@ -18,7 +18,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 const fr_Page_Translations = {
 
     '001-splash-title': 'Nos principes terrestres',
-    '002-splash-subtitle': 'Nous sommes guidée par des principes régénératifs qui nous orientent vers une harmonie toujours croissante avec les cycles de la Terre.',
+    '002-splash-subtitle': 'Nous sommes guidée par des principes régénératifs qui nous orientent vers une harmonie croissante avec les cycles terrestres.',
     '003-splash-image-alt': '<img src="../svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;" al="Nos principes terrestres manifester dans un batiment">',
     
     '004-lead-page-paragraph': 'Guidé par l\'exemple de la Terre, l\'écobrique ne se contente pas d\'empêcher la pollution. En tant qu\'expérience pratique des principes de terre et de régénération, l\'écobrique incarne notre transition du pétro-capitalisme vers un nouveau monde vert.',

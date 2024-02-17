@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.55';?>
+<?php $version='1.56';?>
 <?php $page='principles';?>
 
 <?php require_once ("../includes/principles-inc2.php");?>
@@ -13,10 +13,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Our Earthen Principles</div>
-		<div class="splash-sub" data-lang-id="002-splash-subtitle">Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Nos principes terrestres</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">Nous sommes guidée par des principes régénératifs qui nous orientent vers une harmonie croissante avec les cycles Terrestres.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="..svgs/earth-home-animated-v4" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
