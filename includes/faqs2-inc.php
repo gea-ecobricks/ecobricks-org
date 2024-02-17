@@ -62,7 +62,7 @@
 		border-radius: 12px;
 		height: 100vh;
 		padding: 25px 7% 50px 7%;
-		margin: -77vh 10% -50px 10%;
+		margin: -77vh 10% -250px 10%;
 		z-index: 5;
 }
 }
@@ -75,7 +75,7 @@
 		height: 80vh;
 		padding: 25px 3% 25px 3%;
 		margin-bottom: 0px;
-		margin: -86vh 2.9% -60px 2.9%;
+		margin: -77vh 2.9% -160px 2.9%;
 		z-index: 5;
 	}
 }
@@ -135,14 +135,23 @@
   border-radius: 12px;
   margin-bottom: 0;
 }
+
+
+.toggle {
+    background-color: var(--advanced-background);
+    color: var(--text-color);
+}
+
+
+
 @media screen and (min-width: 1000px) {
   .toggle {
       margin-top: 0;
       font-size: 1.2em;
-      background-color: #ffffff82;
+
       padding: 10px 15px 15px;
       border-radius: 11px 11px 0 0;
-      color: #000000ad;
+
       margin-left: 70%;
       width: 30%;
       max-width: 250px;
@@ -155,13 +164,10 @@
   .toggle {
       margin-top: 18px;
       font-size: 1.0em;
-      background-color: #ffffff82;
       padding: 8px 8px 15px;
       border-radius: 11px 11px 0 0;
-      color: #000000ad;
       border: none;
       margin-left: 67%;
-
       margin-bottom: -9px;
   }
 }

@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.81';?>
+<?php $version='1.82';?>
 <?php $page='build';?>
 
 
