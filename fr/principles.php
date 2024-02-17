@@ -363,13 +363,13 @@
 				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
 				<br><h4>Vers la concentration</h4>
 <h5>Tout comme la Terre a concentré et sécurisé le carbone pour verdir la biosphère, nous pouvons également faire de même avec notre plastique grâce à l'écobrique.</h5><br>
-<a class="module-btn" href="/plastic">L'exemple de la Terre</a>
-<h6 style="font-size:smaller">Découvrez comment la Terre a fait</h6>
+<a class="module-btn" href="/plastic">Exemple terrestre</a>
+<h6 style="font-size:smaller">l'histoire Terrestre et du Plastique</h6>
 
                 <br>
 			</div>   
 
-			<<?php include 'side-modules/spiraol-design-principle.php';?>
+			<<?php include 'side-modules/spiral-design-principle.php';?>
 
 		
 
