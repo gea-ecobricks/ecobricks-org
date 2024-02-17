@@ -588,9 +588,8 @@ margin-top: 40px;
   -moz-border-radius: 10;
   border-radius: 10px;
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: rgb(48, 48, 48);
+  color: var(--top-header);
   font-size: 16px;
-  /* background: var(--emblem-pink); */
   padding: 8px 15px 8px 15px;
   text-decoration: none;
   overflow-x: none;
@@ -598,9 +597,8 @@ margin-top: 40px;
 }
 
 .module-btn:hover {
-  /* background: var(--emblem-pink-over); */
   text-decoration: none;
-  color: #fff;
+  color:var(--h1);
 }
 
 

@@ -369,14 +369,9 @@
                 <br>
 			</div>   
 
-			<!--<?php include 'side-modules/cyclical-design.php';?> -->
+			<<?php include 'side-modules/spiraol-design-principle.php';?>
 
-			<div class="side-module-desktop-mobile">
-				<img src="../icons/spiral-design-icon-ecobricks-org.svg" width="64%" alt="Following Earth's example through eco bricking">
-				<br><h4>Conception cyclique</h4>
-<h5>Les écobriques et toutes leurs applications sont conçues pour des cycles de réutilisation indéfinis.</h5><br>
-<a class="module-btn" href="cyclical-design.php">En savoir plus</a>
-<h6 style="font-size:smaller">Le principe des cycles d'enrichissement</h6>
+		
 
                 <br>
 			</div>   
