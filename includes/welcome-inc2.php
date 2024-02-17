@@ -58,10 +58,12 @@ flex-wrap: wrap-reverse;
 @media screen and (min-width: 700px) { 
 
 .flex-container > .gal-photo {
-  background-color: #DFDFDF;
+  /* background-color: #DFDFDF; */
   margin: 2px;
   padding: 2px;
-  max-height: 190px;
+  max-height: 100px;
+  max-width:100px;
+  width:100px;
   overflow: hidden;
   text-align: center;
 }
@@ -74,11 +76,11 @@ flex-wrap: wrap-reverse;
   */
 
 .gal-photo img {
-  max-height: 190px;
+  width:100px;
   height: 190px;
 }
 
-
+/* 
 .gal-photo-text {
   background-color: #DFDFDF;
   margin: 0px;
@@ -86,13 +88,13 @@ flex-wrap: wrap-reverse;
   padding: 2px;
   overflow: hidden;
       font-size: 0.9em;
-}
+} */
 
 
 .photo-box-end {
 
-  height: 190px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   overflow: hidden;
   background: grey;
   line-height: 190px;
@@ -108,7 +110,7 @@ flex-wrap: wrap-reverse;
 @media screen and (max-width: 700px) { 
 
 .flex-container > .gal-photo {
-  background-color: #DFDFDF;
+  /* background-color: #DFDFDF; */
   margin: 0px;
   padding: 2px;
   height: 81px;
@@ -144,7 +146,7 @@ flex-wrap: wrap-reverse;
 color: #dfdfdf;
 text-decoration: none;}
 
-
+/* 
   @media screen and (min-width: 700px) { 
 .feed-live {
 width: 100%;
@@ -185,7 +187,7 @@ margin-top: 5px;
 font-weight: 300;
 
 }
-  }
+  } */
 
 
 
