@@ -1521,6 +1521,21 @@ width: 100%;
     border-radius: 15px;
   }
 
+
+  .featured-content-top10s {
+    height: fit-content;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 0, 0.35);
+  }
+
   .featured-content-3 {
     height: fit-content;
     background-size: contain;

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<HTML lang="fr">
+<HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
-<title>Bienvenue | Global Ecobrick Alliance</title>
+<?php $lang='fr';?>
+<?php $version='1.85';?>
+<title>Bienvenue a Ecobricks.org</title>
 
 
 <!-- 
@@ -63,7 +65,7 @@ https://github/globalecobrickalliance/ecobricks.org
 <!-- TOP TEN GALLERY-->
 <?php include '../ecobricks_env.php';?>
 
-<div class="gallery-module" style="width:100%;overflow:x:clip;">
+<div class="featured-content-top10s" style="width:100%;overflow:x:clip;">
     <div class="feature-big-header" data-lang-id="302-gallery-heading">Top Ten Ecobricks</div>
     <div class="feature-sub-text" data-lang-id="303-featured-2-subheading">
                 As logged and authenticated this month.</div>
