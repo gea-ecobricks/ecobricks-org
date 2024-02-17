@@ -138,7 +138,7 @@
 
 
 .toggle {
-    background-color: var(--advanced-background);
+    background-color: var(--show-hide);
     color: var(--text-color);
 }
 
