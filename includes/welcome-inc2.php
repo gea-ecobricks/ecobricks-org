@@ -52,6 +52,8 @@ flex-wrap: wrap;
 /* background-color: #DFDFDF; */
 margin-top: 10px;
 /* flex-wrap: wrap-reverse; */
+justify-content: center;
+margin: 20px -10px 20px -20px;
 }
 
 
@@ -77,7 +79,7 @@ margin-top: 10px;
 
 .gal-photo img {
   width:100px;
-  height: 190px;
+  height: 100px;
 }
 
 /* 
