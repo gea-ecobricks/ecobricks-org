@@ -3,7 +3,9 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.72';?>
+<?php $version='1.73';?>
+<?php $page='principles';?>
+
 
 <title>Bienvenue a Ecobricks.org</title>
 
