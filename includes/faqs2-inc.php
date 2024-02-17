@@ -167,7 +167,7 @@
       padding: 8px 8px 15px;
       border-radius: 11px 11px 0 0;
       border: none;
-      margin-left: 67%;
+      margin-left: 85%;
       margin-bottom: -9px;
   }
 }

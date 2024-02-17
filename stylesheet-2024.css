@@ -183,12 +183,12 @@
   }
   
   h6 a {
-    color:  var(--subdued-text);;
+    color:  var(--h1);;
     text-decoration: underline;
     font-weight: 300;
   }
   h6 a:hover {
-    color:  var(--text-color);
+    color:  var(--subdued-text);
     text-decoration: none;
     font-weight: 300;
   }

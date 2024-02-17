@@ -406,13 +406,8 @@ hr {
 .orange-module {
   background:#f8b956
 }
-hr {
-  border:gray;
-  border-style:dashed;
-  border-width:1px;
-  margin-top:31px;
-  margin-bottom:31px
-}
+
+
 #data-chunk {
   padding:15px;
   background:var(--slide-overlays);
