@@ -49,9 +49,9 @@
 .flex-container {
 display: flex;
 flex-wrap: wrap;
-background-color: #DFDFDF;
+/* background-color: #DFDFDF; */
 margin-top: 10px;
-flex-wrap: wrap-reverse;
+/* flex-wrap: wrap-reverse; */
 }
 
 
