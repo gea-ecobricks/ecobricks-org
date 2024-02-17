@@ -431,6 +431,258 @@ margin-left: 0px;
 
 
 
+
+/* -------------------------------------------------------------------------- */
+
+/*	4. Main page Content Formating
+
+/* -------------------------------------------------------------------------- */
+
+.featured-content-2 {
+    height: fit-content;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+  }
+
+
+  .featured-content-top10s {
+    height: fit-content;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 0, 0.35);
+  }
+
+  .featured-content-3 {
+    height: fit-content;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+  }
+
+  .featured-content-4 {
+    height: fit-content;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+  }
+
+.feature-content-box {
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    height:fit-content;
+    }
+
+    @media screen and (max-width: 769px) {
+    .feature-content-box {
+      width: 90%;
+    }
+    }
+    @media screen and (min-width: 770px) and (max-width: 1024px) {
+    .feature-content-box {
+      width: 80%;
+    }
+    }
+    @media screen and (min-width: 1024px) {
+    .feature-content-box {
+      width: 70%;
+    }
+    }
+
+
+    .featured-content-img {
+        position: relative;
+        margin: auto;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        
+        }
+        @media screen and (max-width: 699px) {
+            .featured-content-img {
+            width: 300px;
+            height: 300px;
+        }
+        }
+        @media screen and (min-width: 700px) and (max-width: 1199px) {
+            .featured-content-img {
+            width: 400px;
+            height: 400px;
+            margin-top: 25px;
+        }
+        }
+        @media screen and (min-width: 1200px) {
+            .featured-content-img{
+            width: 500px;
+            height: 500px;
+            margin-top: 20px;
+
+        }
+        }
+     
+.feature-big-header {
+  font-family: 'Arvo', serif;
+  text-align: center;
+  line-height: 1.3;
+  text-shadow: 0 0 10px var(--background-color);
+  font-weight: 500;
+  color: var(--h1);
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 769px) {
+  .feature-big-header {
+      font-size: 1.9em;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+  .feature-big-header {
+      font-size: 2.7em;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .feature-big-header {
+      font-size: 3.5em;
+  }
+}
+
+
+.feature-sub-text {
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    line-height: 1.4;
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 769px) {
+    .feature-sub-text {
+        font-size: 1.1em;
+    }
+  }
+  @media screen and (min-width: 770px) and (max-width: 1024px) {
+    .feature-sub-text {
+        font-size: 1.4em;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .feature-sub-text {
+        font-size: 1.6em;
+    }
+  }
+
+
+  .feature-button {
+    font-family: 'Mulish', sans-serif;
+  
+    background: #00a1f2;
+    background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
+    background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
+    background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
+    background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
+    background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px !important;
+    color: #fff;
+    font-size: 1.4em;
+    padding: 8px 18px 8px 18px !important;
+    text-decoration: none !important;
+    margin-top: 18px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border:none;
+    margin: auto;
+    text-align: center;
+  }
+
+  .feature-button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: underline;
+  }
+
+  .feature-reference-links {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: small;
+
+
+  }
+
+  
+
+
+.lead-paragraph {
+  font-family: 'Arvo', serif;
+  text-align: center !important;
+  line-height: 1.3 !important;
+  margin: 20px 0 13px;
+  text-shadow: 0 0 6px #fff;
+  color: rgb(59, 59, 59);
+}
+@media screen and (max-width: 769px) {
+  .lead-paragraph {
+      font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+  .lead-paragraph {
+      font-size: 2.5vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lead-paragraph {
+      font-size: 2.2vw;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 2000px) {
+  .main-statement {
+      font-size: 2.3vw !important;
+  }
+}
+@media screen and (max-width: 769px) {
+  .main-statement {
+      font-size: 2.3em !important;
+  }
+}
+
+
 </style>
 
 <!-- This loads the page's meta tags:  *be sure to add the page's name!*-->
