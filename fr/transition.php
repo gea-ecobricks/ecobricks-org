@@ -4,8 +4,8 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.73';?>
-<?php $page='transition';?>
+<?php $version='1.74';?>
+<?php $page='build';?>
 
 <?php require_once ("../includes/transition2-inc.php");?>
 
@@ -380,9 +380,9 @@
 		</div>
 
 		<div class="side">
-
+ 
 		
-        <div id="side-module-desktop-mobile">
+        <div class="side-module-desktop-mobile">
 			<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry">
 					<h4>Plastic & the Petro-Capital Economy</h4>
 					<h5>As petroleum is refined into the fuels that power our economies, the leftovers chemicals are used to produce plastics.</h5><br>
@@ -392,35 +392,27 @@
 
 			
 
-				<div id="side-module-desktop-mobile">
-					<img src="../webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
-					<h4>Global Ecobrick Alliance</h4>
-					<h5>The GEA is an Earth Enterprise dedicated to accelerating plastic transition.</h5><br>
-                    <a class="module-btn" href="about.php">About Us</a>
-			    </div>
-					
-				
+				<?php include 'side-modules/earthen-ethics-principle.php';?> 
 
-            <div id="side-module-desktop-mobile">
+
+
+            <div class="side-module-desktop-mobile">
 				<img src="../webp/earthen-500px.webp" width="80%">
 				<h4>Earthen Ethics</h4>
 				<h5>Plastic transition is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
 				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Learn More</a>
 			</div>
 
-            <div id="side-module-desktop-mobile">
+            <div class="side-module-desktop-mobile">
 				<img src="../webp/tens-thousands.webp" width="80%">
 				<h4>Regenerative</h4>
 				<h5>Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
 				<a class="module-btn" href="about.php">About Ayyew</a>
 			</div>
 
-            <div id="side-module-desktop-mobile">
-			<img src="../webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
-					<h4>Our Regen Report</h4>
-					<h5>We're proud to disclose our net-green ecological impact for the past year.</h5><br>
-					<a class="module-btn" href="2021-regenreport.php">Access Report</a><br><br>
-				</div>
+            <?php include 'side-modules/eco-accounting-principle.php';?>
+
+			<?php include 'side-modules/spiral-design.php';?>
 
 
 				
