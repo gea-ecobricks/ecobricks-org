@@ -2,7 +2,7 @@
 
 <?php require_once ("../meta/featured-en.php");?>
 
-
+<!-- 
 <script>
 	$(window).on('load', function(){
   // Please run it with window.onload, not with document.ready
@@ -51,7 +51,7 @@ function initSmoothScrolling(container,animation){
 	});
 }
 
-</script>
+</script> -->
 
 
 <STYLE>

@@ -144,6 +144,7 @@ $(document).ready(function() {
 #splash-bar {
 
 	background-color: #2A91DA;
+    color: black !important;
 
 }
 
