@@ -9,11 +9,28 @@
 	<link rel="canonical" href="https://ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>"> 
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
+
+  <script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>
+
 	<link rel="alternate" href="https://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="en">
 	<link rel="alternate" href="https://ecobricks.org/id/<?php echo ($name); ;?>" hreflang="id"> 
 	<link rel="alternate" href="https://ecobricks.org/es/<?php echo ($name); ;?>" hreflang="es"> 
 	<link rel="alternate" href="https://ecobricks.org/fr/<?php echo ($name); ;?>" hreflang="fr"> 
 	<link rel="alternate" href="http://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="x-default">
+
+  <script>
+
+/*ROLL CALL*/
+
+  var siteName = 'Ecobricks.org'; // Default language code
+    // setPageLanguageFromCache();
+    // alert(currentLanguage);
+  var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
+  switchLanguage(currentLanguage);
+  updateLogoColor(); 
+
+
+</script>
 
 <!-- Arc CDN Script without delay
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>-->
@@ -49,7 +66,6 @@
 	
 
  
-<script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>
 
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://ecobricks.org/mode-toggle.mjs.js"></script>
@@ -120,20 +136,7 @@
 
 
 
-<script>
 
-/*ROLL CALL*/
-
-window.onload = function() {
-    var siteName = 'Ecobricks.org'; // Default language code
-    // setPageLanguageFromCache();
-    // alert(currentLanguage);
-  var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
-  switchLanguage(currentLanguage);
-  updateLogoColor(); 
-
-}
-</script>
 
 
 
