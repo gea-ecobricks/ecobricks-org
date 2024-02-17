@@ -285,8 +285,6 @@ font-weight: 300;
 @media screen and (min-width: 700px) { 
 	.gallery10-content-block {		
 		text-align: center;
-		/*min-height: 67vh;
-        flex-wrap: wrap;*/
 		z-index: 5;
 		position: relative;   
 		display: flex;
@@ -299,15 +297,10 @@ font-weight: 300;
         margin-top: 70px;
         padding-top: 20px;
         padding-bottom: 35px;
-		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-		margin-bottom: 40px;
-		padding-bottom: 15px;*/
         overflow: hidden;
         white-space: nowrap;
-
         scrollbar-width: thin;  /* For Firefox */
     scrollbar-color: #333 #f0f0f0; /* For Firefox */
-
 
 	}
 } 

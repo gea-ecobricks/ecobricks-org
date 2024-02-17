@@ -165,9 +165,9 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 <script>
-    function slowScrollLeft(element, distance, duration) {
+   function slowScrollLeft(element, distance, duration) {
         const start = element.scrollLeft;
-        const startTime = performance.now();
+        let startTime = performance.now(); // Change from const to let
 
         function scroll(timestamp) {
             const elapsed = timestamp - startTime;
@@ -188,7 +188,7 @@ https://github/globalecobrickalliance/ecobricks.org
     }
 
     const galleryBlock = document.querySelector('.gallery10-content-block');
-    slowScrollLeft(galleryBlock, 1000, 15000);
+    slowScrollLeft(galleryBlock, 1000, 5000);
 </script>
 
 </body>
