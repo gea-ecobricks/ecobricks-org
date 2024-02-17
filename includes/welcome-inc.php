@@ -402,7 +402,7 @@ margin-left: 0px;
     margin: 2px;
     text-align: center;
     padding: 8px;
-    width: 205px;
+    width: 205px; 
     max-width:205px;
     overflow: hidden;
         margin-bottom: 0px;
