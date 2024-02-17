@@ -238,7 +238,7 @@
   filter: invert(100%);
   
 }
-
+/* 
 #clouds {
   filter: brightness(80%);
 }
@@ -249,7 +249,7 @@
 
 #header-content-block  {
   background-color: #245d7eb2;
-}
+} */
 
 
 
@@ -286,13 +286,14 @@
 .greyish {
   background: #3c3c3c;
   /*background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);*/
-  padding: 6px;
-  border-radius: 15px;
-  margin-bottom: 20px;
-  border-style: dashed;
-  border-color: grey;
-  border-width: 1px;
 
+
+}
+
+#clouds {
+	background: url(../svgs/top-clouds-animated-desktop-dark.svg?v1) center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;

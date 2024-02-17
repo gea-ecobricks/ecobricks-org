@@ -38,9 +38,7 @@
 
 
 #clouds {
-	background: url(../svgs/top-clouds-animated-desktop.svg?v1) center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+
     width: 100%;
 	height: 70vh;
    /* min-height: 500px;*/
@@ -174,6 +172,17 @@ button:hover {
   cursor: pointer;
 }
 
+
+.greyish {
+
+  padding: 6px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  border-style: dashed;
+  border-color: grey;
+  border-width: 1px;
+
+}
 
 #content-block {
   text-align: left;
