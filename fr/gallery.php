@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<HTML lang="fr"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='fr';?>
+<?php $version='1.81';?>
+<?php $page='principles';?>
+
+
+<title>Live Ecobrick Feed</title>
 <!--PAGE LANGUAGE:  ENGLISH
 Content Page template: v.1.0.0-->
    
@@ -70,32 +80,7 @@ Content Page template: v.1.0.0-->
 
 <div id="splash-bar"></div>
 
-<!--
-<div class="block">
-  <div class="animation">
-    <div class="first">
-      <img src="http://fpoimg.com/200x200?text=First">
-    </div>
-    <div>
-      <img src="http://fpoimg.com/200x200?text=Second">
-    </div>
-    <div>
-      <img src="http://fpoimg.com/200x200?text=Third">
-    </div>
-    <div>
-      <img src="http://fpoimg.com/200x200">
-    </div>
-    <div>
-      <img src="http://fpoimg.com/200x200">
-    </div>
-    <div>
-      <img src="http://fpoimg.com/200x200">
-    </div>
 
-  </div>
-</div>
-
-          -->
 
 
 
@@ -146,17 +131,14 @@ Content Page template: v.1.0.0-->
 </div>
 
 
+
+
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
-
-    
+	<?php require_once ("../footer-2024.php");?>
 
 
-<!-- CUSTOM PAGE SCRIPTS-->
 
-<!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

@@ -1,32 +1,7 @@
-<!--Content Page template: v.1.0.0-->
 
-<?php require_once ("lang.php");
-echo <<<_END
-
-<!DOCTYPE html>
-
-<!-- this grabs the language identifier for the page so that it can used in the meta and canonical url variables-->
-
-<html lang="$lang">
-
-_END;?>
-
-<HEAD> 
- 
-<!--Image files to preload that are unique to this page-->
-
-<link rel="preload" as="image" href="https://ecobricks.org/logos/gea-horizontal.svg">
-
-
-
-<!--This loads CSS specific to this page
-<link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/what.css?v1.1">-->
-
-<!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
 <?php require_once ("../meta/featured-en.php");?>
 
-<?php require_once ("../header.php");?>
 
 <script>
 	$(window).on('load', function(){
@@ -268,24 +243,9 @@ function initSmoothScrolling(container,animation){
 
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-		text-align: center;
-		min-height: 67vh;
-		z-index: 5;
-		position: relative;   
+ 
         background-color: #DFDFDF;
-		display: flex;
- 		flex-wrap: wrap;
- 		box-sizing: border-box;
-		flex-direction: row;
-		width: 120%;
-  		margin-right: -5%;
-  		margin-left: -5%;
-		margin-top: -3px;
-		margin-bottom: -20px;
-		overflow: hidden;
-		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-		margin-bottom: 40px;
-		padding-bottom: 15px;*/
+
 	}
 
 }
@@ -293,64 +253,41 @@ function initSmoothScrolling(container,animation){
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {		
-		text-align: center;
-		min-height: 67vh;
-		z-index: 5;
-		position: relative;   
-        background-color: grey;
-		display: flex;
- 		flex-wrap: wrap;
- 		box-sizing: border-box;
-		flex-direction: row;
-		width: 120%;
-  		margin-right: -5%;
-  		margin-left: -5%;
-		margin-top: 0px;
-		overflow: hidden;
-		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-		margin-bottom: 40px;
-		padding-bottom: 15px;*/
+
+        background-color: #DFDFDF;
+
 
 	}
 } 
 
 
 #splash-bar {
-	margin-top: -50px;
-	width: 100%;
-	
-	height:80px;	
-	
-	position: relative;
-	z-index: 0;
 
-box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
     background-color: #DFDFDF;
 
-	-webkit-transform: skewY(-3deg);
-  -moz-transform: skewY(-3deg);
-  -ms-transform: skewY(-3deg);
-  -o-transform: skewY(-3deg);
-  transform: skewY(-3deg);
-	margin-bottom: 40px;
-
+	
 }
 
-hr {border: gray;
+/* hr {border: gray;
 border-style: dashed;
 border-width: 1px;
 margin-top: 31px;
-margin-bottom: 31px;}
+margin-bottom: 31px;} */
 	
+
+.module-btn {
+  background: var(--emblem-green);
+}
+	
+.module-btn:hover {
+  background: var(--emblem-green-over);
+}
+	
+
+
+	
+
 </style>	
 
-</head>
-							  
-											  
-<BODY id="full-page">
-
-	<div id="load-background">
-        
-	<!-- This loads the page's language specific menu -->
-
-    <?php require_once ("../menus/menu-$lang.php");?>
+<?php require_once ("../header-2024.php");?>
+			  
