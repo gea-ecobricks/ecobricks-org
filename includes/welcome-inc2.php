@@ -430,13 +430,28 @@ margin-left: 0px;
 
 /* -------------------------------------------------------------------------- */
 
+
+.featured-content-gallery {
+    height: fit-content;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: var(--gallery);
+  }
+
 .featured-content-2 {
     height: fit-content;
     background-size: contain;
     background-position: center;
     position: relative;
     overflow: hidden;
-    margin-top: -70px;
+    margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
@@ -457,6 +472,9 @@ margin-left: 0px;
     border-radius: 15px;
     background-color: var(--gallery);
   }
+
+
+
 
   .featured-content-3 {
     height: fit-content;

@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.83';?>
+<?php $version='1.84';?>
 <?php $page='principles';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -43,7 +43,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <!-- FULL FEATURED GALLERY -->
 
-<div class="featured-content-top10s" style="overflow-x:clip;">
+<div class="featured-content-gallery" style="overflow-x:clip;">
 
           
             
