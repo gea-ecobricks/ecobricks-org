@@ -151,6 +151,7 @@ $(document).ready(function() {
 	overflow: scroll !important;
 }
 
+.live-data {background: #fbe9c8 !important;}
 
 /* Huh? */
 
