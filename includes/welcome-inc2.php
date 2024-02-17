@@ -26,7 +26,28 @@
 <link rel="preload" as="image" href="../icons/settings-icon-dark.svg" media="(prefers-color-scheme: dark)">
 <link rel="preload" as="image" href="../icons/settings-icon-over-dark2.svg" media="(prefers-color-scheme: dark)">
 
+<script>
+    function slowScrollLeft(element, distance, duration) {
+        const start = element.scrollLeft;
+        const startTime = performance.now();
 
+        function scroll(timestamp) {
+            const elapsed = timestamp - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            element.scrollLeft = start + distance * progress;
+
+            if (progress < 1) {
+                requestAnimationFrame(scroll);
+            }
+        }
+
+        requestAnimationFrame(scroll);
+    }
+
+    // Example usage
+    const galleryBlock = document.querySelector('.gallery10-content-block');
+    slowScrollLeft(galleryBlock, 1000, 5000); // Scroll 1000 pixels over 5000 milliseconds
+</script>
 
 <style>
 
@@ -302,21 +323,12 @@ font-weight: 300;
 		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
 		padding-bottom: 15px;*/
-        overflow: auto;
+        overflow: hidden;
         white-space: nowrap;
 
         scrollbar-width: thin;  /* For Firefox */
     scrollbar-color: #333 #f0f0f0; /* For Firefox */
 
-    /* For WebKit browsers (Chrome, Safari) */
-    &::-webkit-scrollbar {
-        width: 10px;
-    }
-
-    &::-webkit-scrollbar-thumb {
-        background-color: #333;
-
-     
 
 	}
 } 
