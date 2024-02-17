@@ -166,7 +166,23 @@
 		
 <BODY>
 
+<script>
 
+
+
+/*ROLL CALL*/
+
+var siteName = 'Ecobricks.org'; // Default language code
+  // setPageLanguageFromCache();
+  // alert(currentLanguage);
+var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
+alert(currentLanguage);
+switchLanguage(currentLanguage);
+alert('switch!');
+updateLogoColor(); 
+
+
+</script>
 
 <!-- TOUR SLIDER -->
 
@@ -468,22 +484,7 @@
         
 
 
-<script>
 
-
-
-/*ROLL CALL*/
-
-var siteName = 'Ecobricks.org'; // Default language code
-  // setPageLanguageFromCache();
-  // alert(currentLanguage);
-var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
-switchLanguage(currentLanguage);
-alert('switch!');
-updateLogoColor(); 
-
-
-</script>
 
 
         <div id="function-icons" style="display: flex;flex-flow:row;margin:auto 10px auto auto;">
