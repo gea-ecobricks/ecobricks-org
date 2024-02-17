@@ -363,31 +363,39 @@
 
 		<div class="side">
 
-		<?php include 'side-modules/earthen-ethics-principle.php';?> 
+        <?php include 'side-modules/earthen-ethics-principle.php';?> 
 
-		<?php include 'side-modules/eco-accounting-principle.php';?> 
+<?php include 'side-modules/eco-accounting-principle.php';?> 
 
-		
-			<div class="side-module-desktop-mobile">
-				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
-				<h4>Vitalizing Biodiversity</h4>
-				<h5>Just as Earth has vitalized processes that diversify, so too can we.</h5><br>
-				
-			</div>
-            
-			<div class="side-module-desktop-mobile">
-					<img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
-					<h4>For-Earth</h4>
-					<h5>Just as Earth dispersed energy out to all, so too can we with our process that manage used plastic.</h5><br>
-				</div>
 
-			<div class="side-module-desktop-mobile">
-				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
-				<br><h4>Towards Concentration</h4>
-				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
-				<a class="module-btn" href="/plastic">Earth's Example</a>
-                <br>
-			</div>   
+    <div class="side-module-desktop-mobile">
+        <img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
+        <h4>Vitaliser la biodiversité</h4>
+<h5>Tout comme la Terre a vitalisé des processus qui se diversifient, nous le pouvons aussi.</h5><br>
+        <!--<a class="module-btn" href="about">Learn More</a>
+        <h6 style="font-size:smaller">See how we track diversity</h6>-->
+        
+    </div>
+    
+    <div class="side-module-desktop-mobile">
+            <img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
+            <h4>Pour-Terre</h4>
+<h5>Tout comme la Terre a distribué de l'énergie à tous, nous le pouvons aussi avec nos entreprises qui gèrent le plastique usagé.</h5><br>
+<a class="module-btn" href="about">Notre exemple</a>
+<h6 style="font-size:smaller">Découvrez comment nous procédons</h6>
+
+        </div>
+
+    <div class="side-module-desktop-mobile">
+        <img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
+        <br><h4>Vers la concentration</h4>
+<h5>Tout comme la Terre a concentré et sécurisé le carbone pour verdir la biosphère, nous pouvons également faire de même avec notre plastique grâce à l'écobrique.</h5><br>
+<a class="module-btn" href="/plastic">Exemple terrestre</a>
+<h6 style="font-size:smaller">l'histoire Terrestre et du Plastique</h6>
+
+        <br>
+    </div>   
+
 
 			
 		</div>

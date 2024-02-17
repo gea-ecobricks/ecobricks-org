@@ -369,7 +369,7 @@
                 <br>
 			</div>   
 
-			<<?php include 'side-modules/spiral-design-principle.php';?>
+			<?php include 'side-modules/spiral-design-principle.php';?>
 
 		
 
