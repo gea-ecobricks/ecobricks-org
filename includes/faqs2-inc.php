@@ -110,17 +110,17 @@
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 500;
-  color: #585858;
+  color: var(--emblem-blue);
   margin: 10px 20px 10px 0;
 
 }
 
 #top-link a {
-  color: #585858;
+  color: var(--emblem-blue);
   text-decoration: underline;
 }
 #top-link a:hover {
-  color: #1d3085;
+  color: var(--emblem-blue-over);
   text-decoration: none;
 }
 

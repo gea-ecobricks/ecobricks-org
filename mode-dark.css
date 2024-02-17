@@ -262,27 +262,27 @@
 }
 
 .reddish {
-  background: rgb(83, 61, 61);
+  background: rgb(131, 40, 40);
   /* background: linear-gradient(132deg, rgba(255,238,238,1) 0%, rgba(254,195,195,1) 100%); */
 }
 
 .greenish {
-  background: rgb(51, 71, 50);
+  background: rgb(47, 108, 44);
   /* background: linear-gradient(132deg, rgba(239,255,238,1) 0%, rgba(198,254,195,1) 100%); */
 }
 
 .blueish {
-  background: rgb(45, 60, 61);
+  background: rgb(41, 108, 113);
   /* background: linear-gradient(132deg, rgba(235,253,255,1) 0%, rgba(195,250,254,1) 100%); */
 }
 
 .orangeish {
-  background: rgb(66, 59, 47);
+  background: rgb(132, 97, 36);
   /* background: linear-gradient(132deg, rgba(255,248,235,1) 0%, rgba(254,234,195,1) 100%); */
 }
 
 .pinkish {
-  background: rgb(57, 40, 58);
+  background: rgb(116, 40, 96);
   /* background: linear-gradient(132deg, rgba(254,235,255,1) 0%, rgba(248,195,254,1) 100%); */
 }
 
