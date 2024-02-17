@@ -26,7 +26,7 @@
 		<div id="header-content-block">
 			<div id="raised-text">
 					<h1>Questions fréquemment posées</h1>
-			<p>Toutes les questions sur les ecobriques... et toutes nos reponse.</p></div>
+			<p>Toutes vos questions sur les écobriques...  et toutes nos réponses.</p></div>
 		</div>
 
 
