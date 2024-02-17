@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.8';?>
+<?php $version='1.81';?>
 <?php $page='principles';?>
 
 
@@ -190,7 +190,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
     const galleryBlock = document.querySelector('.gallery10-content-block');
     const galleryWidth = galleryBlock.scrollWidth; // Get the total width of the gallery
-    slowScrollLeft(galleryBlock, galleryWidth, 10000); // Scroll the full width over 15000 milliseconds
+    slowScrollLeft(galleryBlock, galleryWidth, 15000); // Scroll the full width over 15000 milliseconds
 
 </script>
 

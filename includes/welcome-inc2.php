@@ -358,9 +358,10 @@ margin-left: 0px;
 @media screen and (max-width: 700px) { 
 
 .flex-container10 > .gal-photo10 {
-    background-color: #0ff;/*#0ff*/
+    background-color: var(--darker);
     margin: 0px;
     padding: 4px;
+    margin-bottom: 10px;
     /*overflow: hidden;*/
 
 }
