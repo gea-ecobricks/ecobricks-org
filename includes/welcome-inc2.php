@@ -53,7 +53,7 @@ flex-wrap: wrap;
 margin-top: 10px;
 /* flex-wrap: wrap-reverse; */
 justify-content: center;
-margin: 20px -10px 20px -20px;
+margin: 20px 0px 20px 0px;
 }
 
 
@@ -61,13 +61,13 @@ margin: 20px -10px 20px -20px;
 
 .flex-container > .gal-photo {
   /* background-color: #DFDFDF; */
-  margin: 2px;
-  padding: 2px;
+  /* margin: 2px; */
+  padding: 5px;
   max-height: 100px;
   max-width:100px;
   width:100px;
   overflow: hidden;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /*	.photo-box {
@@ -99,10 +99,9 @@ margin: 20px -10px 20px -20px;
   width: 100px;
   overflow: hidden;
   background: grey;
-  line-height: 190px;
-  color: #dfdfdf;
+  color: var(--text-color);
   text-align: center;
-  font-size: 4em;
+  font-size: 1em;
   padding: 2px;
   text-decoration: none;
   animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
