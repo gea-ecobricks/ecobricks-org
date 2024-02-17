@@ -39,31 +39,24 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 <!-- FULL GALLERY-->
+<?php include 'ecobricks_env.php';?> 
 
-<?php include '../ecobricks_env.php';?> 
-	
-		<div class="gallery-background">
-		
-				
-			<div class="gallery-content-block">
-			  	
-				<div class="flex-container">
-		
+			<div class="gallery10-content-block">
+								
+				<div class="flex-container10">
+						
 					<?php
-
-					$sql = "SELECT * FROM vw_gallery_feed ;";
+					$sql = "SELECT * FROM vw_top_10_last_month ;";
 					$result = $conn->query($sql);
 					if ($result->num_rows > 0) {
-						array_reverse($result);
 					// output data of each row
-					while( $row= $result->fetch_assoc()) {
+					while($row = $result->fetch_assoc()) {
 
 					echo '
-					<div class="gal-photo"><div class="photo-box">
-					<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
-				
-					echo '<div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e</div>
-					</div>';
+					<div class="gal-photo10">
+					<a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>';
+					echo '<div class="gal10-photo-text"><b>Ecobrick '.$row["ecobrick_unique_id"].'</b><br>By '.$row["ecobrick_owner"].'<br>'.$row["location"].'</div></div>';
+
 					}
 
 					} else {
@@ -71,28 +64,10 @@ https://github/globalecobrickalliance/ecobricks.org
 					}
 
 					?>
-					<div class="gal-photo" style="width: 200px; padding-top: 20px; margin-top: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-					Latest authenticated ecobricks</p></div></div>
-					
-			
+							
 				</div>
-				
-			</div>
-			<div class="feed-live"><p><span class="blink">⬤</span> 50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div>
-
-			<div id="main-content">
-			
-				<div class="big-header">The Brikchain</div>
-				<div class="sub-text"><p>Every ecobrick that is authenticated is permenantly recorded onto the Brikcoin blockchain to generate 0.1 BRK for each gram of sequestered plastic that it represents.</p>
-				</div> 
-
-				<a href="brikchain.php" button class="main-button">Browse the Brikchain</a>
-			
-				<h6><a href="/brikcoins">Brikcoins</a> | <a href="/aes">AES Plastic</a> | <a href="/gobrik">GoBrik Platform</a></h6>
-			</div>
-
 		
-		</div>
+			</div>
 
 
     <div class="featured-content-2"  >
