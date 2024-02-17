@@ -59,11 +59,10 @@
 @media screen and (min-width: 770px) { 
 	#header-content-block {
 		text-align: center;
-		background-color: #59c1fdb2;
 		border-radius: 12px;
 		height: 100vh;
 		padding: 25px 7% 50px 7%;
-		margin: -85vh 10% -50px 10%;
+		margin: -77vh 10% -50px 10%;
 		z-index: 5;
 }
 }
@@ -130,7 +129,7 @@
   position: relative;
 }
 
-.faq-content-block {
+#faq-content-block {
   text-align: left;
   padding: 15px 4% 0;
   border-radius: 12px;
