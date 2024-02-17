@@ -118,7 +118,7 @@ Content Page template: v.1.0.0-->
         <div class="side">
 
             
-            <div id="side-module-desktop-mobile">
+            <div class="side-module-desktop-mobile">
                     <img src="../svgs/eb-blue-no-clouds.svg" width="90%" alt="The Global Eco Brick Alliance">
                     <h4>What is an Ecobrick Exactly?</h4>
                     <h5>Learn all about the specs, types and requirements of an ecobrick.</h5><br>
