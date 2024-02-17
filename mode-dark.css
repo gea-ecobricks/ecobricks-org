@@ -248,33 +248,52 @@
 }
 
 #header-content-block  {
-  filter: brightness(50%);
+  background-color: #245d7eb2;
 }
 
+
+
 .grey {
-  filter: brightness(50%);
+  background: rgb(62, 62, 62);
+  /* background: linear-gradient(132deg, rgba(235,235,235,1) 0%, rgba(199,199,199,1) 100%); */
 }
 
 .reddish {
-  filter: brightness(50%);
+  background: rgb(83, 61, 61);
+  /* background: linear-gradient(132deg, rgba(255,238,238,1) 0%, rgba(254,195,195,1) 100%); */
 }
 
 .greenish {
-  filter: brightness(50%);
+  background: rgb(51, 71, 50);
+  /* background: linear-gradient(132deg, rgba(239,255,238,1) 0%, rgba(198,254,195,1) 100%); */
 }
 
 .blueish {
-  filter: brightness(50%);
+  background: rgb(45, 60, 61);
+  /* background: linear-gradient(132deg, rgba(235,253,255,1) 0%, rgba(195,250,254,1) 100%); */
 }
 
 .orangeish {
-  filter: brightness(50%);
+  background: rgb(66, 59, 47);
+  /* background: linear-gradient(132deg, rgba(255,248,235,1) 0%, rgba(254,234,195,1) 100%); */
 }
 
 .pinkish {
-  filter: brightness(50%);
+  background: rgb(57, 40, 58);
+  /* background: linear-gradient(132deg, rgba(254,235,255,1) 0%, rgba(248,195,254,1) 100%); */
 }
 
+.greyish {
+  background: #3c3c3c;
+  /*background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);*/
+  padding: 6px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  border-style: dashed;
+  border-color: grey;
+  border-width: 1px;
+
+}
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;
     background-size: contain;

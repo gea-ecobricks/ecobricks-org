@@ -3,14 +3,14 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.53';?>
+<?php $version='1.54';?>
 <?php $page='build';?>
 
 
 <?php require_once ("../includes/faqs2-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!-- <?php require_once ("translate-please.php");?> -->
 
 <!--TOP PAGE BANNER-->
 

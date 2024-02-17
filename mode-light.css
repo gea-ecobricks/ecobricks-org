@@ -191,6 +191,50 @@
 }
 }
 
+
+
+.grey {
+  background: rgb(235,235,235);
+  background: linear-gradient(132deg, rgba(235,235,235,1) 0%, rgba(199,199,199,1) 100%);
+}
+
+.reddish {
+  background: rgb(255,238,238);
+  background: linear-gradient(132deg, rgba(255,238,238,1) 0%, rgba(254,195,195,1) 100%);
+}
+
+.greenish {
+  background: rgb(239,255,238);
+  background: linear-gradient(132deg, rgba(239,255,238,1) 0%, rgba(198,254,195,1) 100%);
+}
+
+.blueish {
+  background: rgb(235,253,255);
+  background: linear-gradient(132deg, rgba(235,253,255,1) 0%, rgba(195,250,254,1) 100%);
+}
+
+.orangeish {
+  background: rgb(255,248,235);
+  background: linear-gradient(132deg, rgba(255,248,235,1) 0%, rgba(254,234,195,1) 100%);
+}
+
+.pinkish {
+  background: rgb(254,235,255);
+  background: linear-gradient(132deg, rgba(254,235,255,1) 0%, rgba(248,195,254,1) 100%);
+}
+
+.greyish {
+  background: #F6F6F6;
+  /*background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);*/
+  padding: 6px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  border-style: dashed;
+  border-color: grey;
+  border-width: 1px;
+
+}
+
 /* #logo-ecobricks-org, #logo-global-ecobrick-alliance {
   fill: #666;
   transition: 0.5s;
