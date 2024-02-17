@@ -16,7 +16,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Nos principes terrestres</div>
 		<div class="splash-sub" data-lang-id="002-splash-subtitle">Nous sommes guidée par des principes régénératifs qui nous orientent vers une harmonie croissante avec les cycles Terrestres.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/earth-home-animated-v4" style="width: 100%;"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/earth-home-animated-v4.svg" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -126,14 +126,14 @@
 						<p>Ghandi nous a tous mis au défi d'<i>"être le changement que vous voulez voir dans le monde"</i>. Simple et puissant, c'est un principe fondamental du mouvement ecobrick and Earthen. Comme la consommation de plastique est quelque chose qui nous relie à travers les continents et les cultures, ce que nous faisons avec notre plastique, nos propres histoires de transition, fournissent un phare brillant à suivre pour les autres.</p>
 						 
 						</div>
-						<div class="side2"><img src="../webp/community.webp" width="300" alt="Donner l'example rege régénérateur">
+						<div class="side2"><img src="../webp/community.webp" width="100%" alt="Donner l'example rege régénérateur">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>En donnant l'exemple en suivant l'exemple de la Terre, nous pouvons être une source d'inspiration puissante.</p>
 						</div>
-						<div class="side3"><img src="../webp/community.webp" width="300" alt="Donner l'example rege régénérateur">
+						<div class="side3"><img src="../webp/community.webp" width="150px" alt="Donner l'example rege régénérateur">
 						</div>
 					</div>
 					
@@ -235,7 +235,7 @@
 						 
 
 						</div>
-						<div class="side2"><img src="../webp/mandalic-24-400px.webp" width="300" alt="The art of mandalic collaboration">
+						<div class="side2"><img src="../webp/mandalic-24-400px.webp" width="100%" alt="The art of mandalic collaboration">
 						</div>
 					</div>
 					<div class="row2">
