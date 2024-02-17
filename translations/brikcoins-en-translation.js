@@ -1,6 +1,6 @@
 /*-----------------------------------
 
-FRENCH SNIPPETS FOR ECOBRICKS.ORG
+ENG SNIPPETS FOR ECOBRICKS.ORG
 
 
 -----------------------------------*/
@@ -18,7 +18,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 const en_Page_Translations = {
 
     '001-splash-title': 'Brikcoins',
-    '002-splash-subtitle': 'All the Briks, Blocks & Transactions.',
+    '002-splash-subtitle': 'A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere.',
     '003-splash-image-alt': '<img src="../webp/brikcoins-450px.webp" alt="Brikcoin manual blockchain">',
     
 

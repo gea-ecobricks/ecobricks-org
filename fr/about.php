@@ -342,7 +342,7 @@
 
 		<?php require_once ("side-modules/eco-accounting.php");?>
 
-<?php require_once ("side-modules/about-gea.php");?>
+<?php require_once ("side-modules/earthen-ethics.php");?>
 
     
 

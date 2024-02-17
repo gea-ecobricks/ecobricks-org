@@ -233,16 +233,18 @@
             box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.805); */
         }
 
-
+@media screen and (min-width: 700px) {
 #gea-logo {
     padding:0px;
     margin: auto auto auto 25px;
-    width: 230px;
-    height: 56px;
+    width: 220px;
+    height: 50px;
     transition: 0.6s;
     min-width: 150px;
 
   }
+
+}
 /* 
 @media screen and (min-width: 701px) {
 #header {  

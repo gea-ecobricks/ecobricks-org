@@ -18,7 +18,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 const fr_Page_Translations = {
 
     '001-splash-title': 'Séquestration du plastique',
-    '002-splash-subtitle': 'Simple, low-tech et non-capital pour la séquestration plastique.',
+    '002-splash-subtitle': 'En suivant l\'exemple de la Terre en matière de séquestration du carbone, nous pouvons faire de même avec notre plastique.',
     
     '004-lead-page-paragraph': 'En suivant l\'exemple de la Terre en matière de séquestration du carbone avec notre plastique, nous pouvons empêcher la contamination de la biosphère et les émissions de l\'industrie.',
     '003-splash-image-alt':'<img src="../svgs/building-methods.svg" style="width: 85%" alt="Séquestration du plastique avec les ecobricks">',
