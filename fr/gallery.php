@@ -16,11 +16,11 @@ Content Page template: v.1.0.0-->
 <?php require_once ("../includes/gallery-inc.php");?>
 
 <!--This is the message indicating it is a live feed-->
-<div id="feed-note">
+<!-- <div id="feed-note">
     <a href="#" style="text-decoration: none; float: right; " onclick="this.parentNode.style.display = 'none'" > ❎ </a><br>
     <div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>
 	</div>
-</div>
+</div> -->
 
 
 
