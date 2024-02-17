@@ -3,7 +3,8 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.85';?>
+<?php $version='1.86';?>
+
 <title>Bienvenue a Ecobricks.org</title>
 
 
@@ -13,6 +14,7 @@ Developed and made open source by the Global Ecobrick Alliance
 See our git hub repository for the full code and to help out:
 https://github/globalecobrickalliance/ecobricks.org
 -->
+
 <?php require_once ("lang.php");?>
 
 <?php $lang='fr';?>
