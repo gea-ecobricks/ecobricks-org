@@ -2,8 +2,8 @@
 <!--Image files to preload that are unique to this page-->
 
 
-<link rel="preload" as="image" href="https://www.ecobricks.org/pngs/openbooks.png">
-<link rel="preload" as="image" href="https://ecobricks.org/svgs/brik-market-banner3.svg">
+<link rel="preload" as="image" href="../pngs/openbooks.png">
+<link rel="preload" as="image" href="../svgs/brik-market-banner3.svg">
 <!--This loads CSS specific to this page
 <link rel="stylesheet" type="text/css" href="http://ecobricks.org/css/brikchain.css">-->
 
@@ -115,7 +115,7 @@ font-family: "courier new, monospace" !important;
 color: #222;
 line-height: 1.3;
 font-weight: 300;
-background: #fbe9c8;
+background: var(--show-hide);
 padding: 20px;
 border-radius: 10px;
 margin: 12px;
@@ -139,7 +139,7 @@ margin: 12px;
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(https://ecobricks.org/svgs/brik-market-banner3.svg) bottom;
+		background: url(../svgs/brik-market-banner3.svg) bottom;
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-color: #2A91DA;
 
@@ -150,7 +150,7 @@ margin: 12px;
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(https://ecobricks.org/svgs/brik-market-banner3.svg) bottom;
+		background: url(../svgs/brik-market-banner3.svg) bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-color: #2A91DA;

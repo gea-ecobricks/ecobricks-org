@@ -12,13 +12,15 @@
 <!--TOP PAGE BANNER-->
 
 <div class="splash-content-block">
-	<div class="splash-text-box">
+	<div class="splash-box">
 		<div class="splash-heading"><br>Our Open Books</div>
 		<div class="splash-sub">The Global Ecobrick Alliance's Financial Accounting</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/pngs/openbooks.png" style="width: 80%;"></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/pngs/openbooks.png" style="width: 80%;">
+	</div>	
 </div>
 <div id="splash-bar"></div>
+
 
 
 
@@ -488,7 +490,7 @@
                  </div>
 
                     <div class="side2">
-                        <br><img src=" https://ecobricks.org/en/icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
+                        <br><img src=" ../icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
                     </div>
                 </div>
              </div>
@@ -498,7 +500,6 @@
 
 
 
-</DIV>
 
 
 
