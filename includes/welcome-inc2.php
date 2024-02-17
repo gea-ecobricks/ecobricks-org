@@ -361,7 +361,7 @@ margin-left: 0px;
     background-color: var(--darker);
     margin: 0px;
     padding: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     /*overflow: hidden;*/
 
 }

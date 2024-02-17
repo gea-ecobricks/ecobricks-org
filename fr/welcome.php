@@ -108,6 +108,8 @@ https://github/globalecobrickalliance/ecobricks.org
     
 </div>
 
+
+<?php include 'includes/gallery.php';?>
     
 
 
