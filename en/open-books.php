@@ -1,17 +1,13 @@
-<!--PAGE LANGUAGE:  ENGLISH-->  
+<!DOCTYPE html>
+<HTML lang="fr"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='fr';?>
+<?php $version='1.58';?>
+<?php $page='principles';?>
 
-<!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
+<?php require_once ("../includes/openbooks2-inc.php");?>
 
-
-<?php require_once ("../includes/open-books-inc.php");?>
-
-<style>
-
-
-</style>
-
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page
-<?php require_once ("under-construction.php");?>-->
 
 <!--TOP PAGE BANNER-->
 
@@ -29,7 +25,7 @@
 <!-- PAGE CONTENT-->
 
 
-<?php include 'ecobricks_env.php';?> 
+<?php include '../ecobricks_env.php';?> 
 
 <a name="top"></a>
 <div id="main-content">
@@ -80,7 +76,7 @@
 
 		<div class="side">
 
-			<div id="side-module-desktop-only">
+			<div class="side-module-desktop-only">
 				<img src="../webp/gea-logo-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
 				<h5>The Global Ecobrick Alliance is a not-for-profit for-Earth enterprise dedicated to accelerating plastic transition.  All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system.</h5><br>
@@ -511,17 +507,17 @@
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
-	<!--FOOTER ENDS HERE-->
 
-	<!-- CUSTOM PAGE SCRIPTS-->
+<!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 
 </div>
 </body>
 </html>
+
 
