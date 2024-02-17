@@ -197,6 +197,7 @@ function showLangSelector() {
 
     var slider = document.getElementById('language-menu-slider');
     var currentMarginTop = window.getComputedStyle(slider).marginTop;
+    slider.style.display = 'flex';
     slider.style.marginTop = currentMarginTop === '70px' ? '0px' : '70px';
 
     // Prevent event from bubbling to document
@@ -234,6 +235,7 @@ function showLoginSelector() {
 
     var slider = document.getElementById('login-menu-slider');
     var currentMarginTop = window.getComputedStyle(slider).marginTop;
+    slider.style.display = 'flex';
     slider.style.marginTop = currentMarginTop === '70px' ? '0px' : '70px';
 
     // Prevent event from bubbling to document

@@ -1265,6 +1265,7 @@ GUIDED TOUR---*
     color: var(--text-color) !important;
     transition: 0.3s;
     margin-top: 0px;
+    display: none;
 
 }
 
@@ -1313,6 +1314,7 @@ GUIDED TOUR---*
     color: var(--text-color) !important;
     transition: 0.3s;
     margin-top: 0px;
+    display: none;
 
 }
 
