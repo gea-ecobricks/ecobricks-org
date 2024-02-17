@@ -239,6 +239,42 @@
   
 }
 
+#clouds {
+  filter: brightness(80%);
+}
+
+#cloud-banner {
+  filter: brightness(80%);
+}
+
+#header-content-block  {
+  filter: brightness(50%);
+}
+
+.grey {
+  filter: brightness(50%);
+}
+
+.reddish {
+  filter: brightness(50%);
+}
+
+.greenish {
+  filter: brightness(50%);
+}
+
+.blueish {
+  filter: brightness(50%);
+}
+
+.orangeish {
+  filter: brightness(50%);
+}
+
+.pinkish {
+  filter: brightness(50%);
+}
+
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;
     background-size: contain;

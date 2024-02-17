@@ -132,7 +132,7 @@
   position: relative;
 }
 
-#faq-content-block {
+.faq-content-block {
   text-align: left;
   padding: 15px 4% 0;
   border-radius: 12px;
