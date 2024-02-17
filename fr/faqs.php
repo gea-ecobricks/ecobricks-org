@@ -44,7 +44,7 @@
 		<!--GENERAL QUESTION-->
 		
 			<div id="block-border" class="greyish">
-				<div class="faq-content-block" class="grey">
+				<div id="faq-content-block" class="grey">
 				
 				
 				<a name="general"></a>
@@ -82,7 +82,7 @@
 		<!--ECOBRICK CONCERNS-->
 
 		<div id="block-border" class="greyish">
-			<div class="faq-content-block" class="reddish">
+			<div id="faq-content-block" class="reddish">
 
 				<a name="concerns"></a>
 				<h4>Ecobrick Concerns</h4>
@@ -114,7 +114,7 @@
 		<!--BUILD QUESTIONS-->
 
 		<div id="block-border" class="greyish">
-		<div class="faq-content-block" class="greenish">
+		<div id="faq-content-block" class="greenish">
 			<a name="building-q"></a> 
 			<h4>Building Questions</h4>
 			<p>All about eco<span class="eco-brick"> </span>bricks applications.</p>
@@ -147,7 +147,7 @@
 		<!--MOVEMENT Q-->
 
 		<div id="block-border" class="greyish">
-		<div class="faq-content-block" class="pinkish">
+		<div id="faq-content-block" class="pinkish">
 			<a name="movement-q"></a><h4>Movement Questions</h4>
 			<p>About us and the global plastic transition and eco<span class="eco-brick"> </span>bricks movement.</p>
 			
@@ -174,7 +174,7 @@
 		<!--GOBRIK-->
 
 		<div id="block-border" class="greyish">
-		<div class="faq-content-block" class="blueish">
+		<div id="faq-content-block" class="blueish">
 
 			<a name="gobrik-q"></a> 
 			<h4>GoBrik Questions</h4>
@@ -199,7 +199,7 @@
 		<!--MORE QUESTIONS-->
 
 		<div id="block-border" class="greyish">
-		<div class="faq-content-block" class="orangeish">
+		<div id="faq-content-block" class="orangeish">
 			<a name="misc"></a>
 			<h4>More Questions</h4>
 			<p>All those other questions we haven't answered yet!</p>
@@ -1047,7 +1047,7 @@
 	<br><br><br>
 
 	<div id="block-border" class="greyish">
-		<div class="faq-content-block" class="grey">
+		<div id="faq-content-block" class="grey">
 			<h2>Need to know more?</h2>
 			<h5>In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:  </h5>
 		
