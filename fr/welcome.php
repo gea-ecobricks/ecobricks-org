@@ -40,7 +40,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <!-- FULL GALLERY-->
 
-<?php include 'ecobricks_env.php';?> 
+<?php include '../ecobricks_env.php';?> 
 	
 		<div class="gallery-background">
 		
@@ -94,7 +94,7 @@ https://github/globalecobrickalliance/ecobricks.org
 		
 		</div>
 
-        
+
     <div class="featured-content-2"  >
     
         <div class="feature-content-box">
