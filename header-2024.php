@@ -57,7 +57,7 @@
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://ecobricks.org/mode-toggle.mjs.js"></script>
 <script src="https://api.earthen.io/subscription-system.js?v=1" defer></script>
-<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> 
+<!-- <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>  -->
 
 
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=<?php echo ($version); ;?>">
@@ -94,21 +94,6 @@
 
 <script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>
 
-<script>
-
-
-
-/*ROLL CALL*/
-
-var siteName = 'Ecobricks.org'; // Default language code
-  // setPageLanguageFromCache();
-  // alert(currentLanguage);
-var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
-switchLanguage(currentLanguage);
-updateLogoColor(); 
-
-
-</script>
 
 
 <!--MAIN STYLE SHEETS -->
@@ -481,6 +466,26 @@ updateLogoColor();
         </svg>
         </div>
         
+
+
+<script>
+
+
+
+/*ROLL CALL*/
+
+var siteName = 'Ecobricks.org'; // Default language code
+  // setPageLanguageFromCache();
+  // alert(currentLanguage);
+var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
+switchLanguage(currentLanguage);
+alert('switch!');
+updateLogoColor(); 
+
+
+</script>
+
+
         <div id="function-icons" style="display: flex;flex-flow:row;margin:auto 10px auto auto;">
 
             <div id="main-header-buttons">
