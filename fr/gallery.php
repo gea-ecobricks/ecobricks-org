@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.82';?>
+<?php $version='1.8';?>
 <?php $page='principles';?>
 
 
@@ -130,6 +130,7 @@ Content Page template: v.1.0.0-->
 	</div>
 </div>
 
+        </div>
 
 
 
