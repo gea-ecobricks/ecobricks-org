@@ -26,28 +26,7 @@
 <link rel="preload" as="image" href="../icons/settings-icon-dark.svg" media="(prefers-color-scheme: dark)">
 <link rel="preload" as="image" href="../icons/settings-icon-over-dark2.svg" media="(prefers-color-scheme: dark)">
 
-<script>
-    function slowScrollLeft(element, distance, duration) {
-        const start = element.scrollLeft;
-        const startTime = performance.now();
 
-        function scroll(timestamp) {
-            const elapsed = timestamp - startTime;
-            const progress = Math.min(elapsed / duration, 1);
-            element.scrollLeft = start + distance * progress;
-
-            if (progress < 1) {
-                requestAnimationFrame(scroll);
-            }
-        }
-
-        requestAnimationFrame(scroll);
-    }
-
-    // Example usage
-    const galleryBlock = document.querySelector('.gallery10-content-block');
-    slowScrollLeft(galleryBlock, 1000, 5000); // Scroll 1000 pixels over 5000 milliseconds
-</script>
 
 <style>
 

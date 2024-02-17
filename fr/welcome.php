@@ -161,7 +161,29 @@ https://github/globalecobrickalliance/ecobricks.org
 
 </div>  <!--ends page content-->
 
+<script>
+    function slowScrollLeft(element, distance, duration) {
+        const start = element.scrollLeft;
+        const startTime = performance.now();
 
+        function scroll(timestamp) {
+            const elapsed = timestamp - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            element.scrollLeft = start + distance * progress;
+
+            if (progress < 1) {
+                requestAnimationFrame(scroll);
+            }
+        }
+
+        requestAnimationFrame(scroll);
+    }
+
+    const galleryBlock = document.querySelector('.gallery10-content-block');
+    slowScrollLeft(galleryBlock, 1000, 5000);
+</script>
+
+</body>
 
 
 </html>
