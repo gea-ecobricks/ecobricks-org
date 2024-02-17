@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.73';?>
+<?php $version='1.8';?>
 <?php $page='principles';?>
 
 
@@ -163,6 +163,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 </div>  <!--ends page content-->
 
+
 <script>
     function slowScrollLeft(element, distance, duration) {
         const start = element.scrollLeft;
@@ -175,6 +176,11 @@ https://github/globalecobrickalliance/ecobricks.org
 
             if (progress < 1) {
                 requestAnimationFrame(scroll);
+            } else {
+                // Reset scroll position when it reaches the end
+                element.scrollLeft = 0;
+                startTime = performance.now(); // Reset start time for the next loop
+                requestAnimationFrame(scroll);
             }
         }
 
@@ -182,7 +188,7 @@ https://github/globalecobrickalliance/ecobricks.org
     }
 
     const galleryBlock = document.querySelector('.gallery10-content-block');
-    slowScrollLeft(galleryBlock, 1000, 5000);
+    slowScrollLeft(galleryBlock, 1000, 15000);
 </script>
 
 </body>
