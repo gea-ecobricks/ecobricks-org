@@ -57,7 +57,7 @@ function initSmoothScrolling(container,animation){
 <STYLE>
 
 
-
+/* 
 @media screen and (min-width: 769px) { 
   #feed-note {
     padding: 30px 20px 20px 20px;
@@ -106,7 +106,7 @@ function initSmoothScrolling(container,animation){
   margin-top: 5px;
   font-weight: 300;
 
-}
+} */
 
 
 @media screen and (max-width: 700px) { 
