@@ -298,12 +298,24 @@ font-weight: 300;
 		margin-top: 0px;
         margin-top: 70px;
         padding-top: 20px;
-        padding-bottom: 15px;
+        padding-bottom: 35px;
 		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 		margin-bottom: 40px;
 		padding-bottom: 15px;*/
         overflow: auto;
         white-space: nowrap;
+
+        scrollbar-width: thin;  /* For Firefox */
+    scrollbar-color: #333 #f0f0f0; /* For Firefox */
+
+    /* For WebKit browsers (Chrome, Safari) */
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #333;
+
      
 
 	}
