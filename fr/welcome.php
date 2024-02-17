@@ -165,9 +165,10 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 <script>
-   function slowScrollLeft(element, distance, duration) {
+    function slowScrollLeft(element, distance, duration) {
         const start = element.scrollLeft;
-        let startTime = performance.now(); // Change from const to let
+        const galleryWidth = element.scrollWidth; // Get the total width of the gallery
+        let startTime = performance.now();
 
         function scroll(timestamp) {
             const elapsed = timestamp - startTime;
@@ -177,9 +178,9 @@ https://github/globalecobrickalliance/ecobricks.org
             if (progress < 1) {
                 requestAnimationFrame(scroll);
             } else {
-                // Reset scroll position when it reaches the end
+                // Reset scroll position to the beginning when it reaches the end
                 element.scrollLeft = 0;
-                startTime = performance.now(); // Reset start time for the next loop
+                startTime = performance.now();
                 requestAnimationFrame(scroll);
             }
         }
@@ -188,7 +189,9 @@ https://github/globalecobrickalliance/ecobricks.org
     }
 
     const galleryBlock = document.querySelector('.gallery10-content-block');
-    slowScrollLeft(galleryBlock, 1000, 5000);
+    const galleryWidth = galleryBlock.scrollWidth; // Get the total width of the gallery
+    slowScrollLeft(galleryBlock, galleryWidth, 10000); // Scroll the full width over 15000 milliseconds
+
 </script>
 
 </body>
