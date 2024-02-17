@@ -959,19 +959,22 @@ text-decoration: none;
 .flex-container {
 display: flex;
 flex-wrap: wrap;
-background-color: #DFDFDF;
+/* background-color: #DFDFDF; */
 margin-top: 10px;
-flex-wrap: wrap-reverse;
+/* flex-wrap: wrap-reverse; */
 }
 
 
 @media screen and (min-width: 700px) { 
 
 .flex-container > .gal-photo {
-  background-color: #DFDFDF;
+  /* background-color: #DFDFDF; */
   margin: 2px;
   padding: 2px;
-  max-height: 190px;
+  max-height: 100px;
+  max-width:100px;
+  height:100px;
+  width:100px;
   overflow: hidden;
   text-align: center;
 }

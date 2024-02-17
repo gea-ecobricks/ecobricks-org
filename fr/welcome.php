@@ -97,7 +97,8 @@ https://github/globalecobrickalliance/ecobricks.org
         </div>
     </div>
 
-   
+
+    
     <div class="feature-content-box">
     <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
         <div class="feature-big-header" data-lang-id="302-gallery-heading">Top Ten Ecobricks</div>
@@ -110,7 +111,8 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
-<div class="gallery10-content-block">
+<div class="featured-content-top10s" style="overflow-x:clip;">
+
           
             
         <div class="flex-container">
