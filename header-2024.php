@@ -52,7 +52,7 @@
 <script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>
 
 <!--This enables the Light and Dark mode switching-->
-<script type="module" src="../mode-toggle.mjs.js"></script>
+<script type="module" src="https://ecobricks.org/mode-toggle.mjs.js"></script>
 <script src="https://api.earthen.io/subscription-system.js?v=1" defer></script>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script> 
 
@@ -84,7 +84,7 @@
 
 <!--MAIN STYLE SHEETS -->
 
-<link rel="stylesheet" type="text/css" href="../mode-slider.css?v=2.6">
+<link rel="stylesheet" type="text/css" href="https://ecobricks.org/mode-slider.css?v=2.7">
 <link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=<?php echo ($version); ;?>"> 
 
 <link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=<?php echo ($version); ;?>">

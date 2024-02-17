@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.83';?>
+<?php $version='1.85';?>
 <?php $page='build';?>
 
 
@@ -26,7 +26,7 @@
 		<div id="header-content-block">
 			<div id="raised-text">
 					<h1>Questions fréquemment posées</h1>
-			<p>Notre équipe travaille avec des écobriques et du plastique depuis une décennie.  Voici nos réponses aux questions courantes sur chacun.</p></div>
+			<p>Toutes les questions sur les ecobriques... et toutes nos reponse.</p></div>
 		</div>
 
 
