@@ -277,7 +277,7 @@
   height: fit-content;
   padding: 20px;
   transition: 0.4s;
-  margin-right: 33px;
+  margin-right: 30px;
   margin-top: 0px;
 }
 
@@ -325,7 +325,7 @@
   flex-flow: row;
   width: fit-content;
   background-color: var(--settings-background);
-  padding: 16px 44px 16px 15px;
+  padding: 16px 43px 16px 11px;
   border: 1px solid var(--settings-border);
   border-radius: 15px;
   cursor: pointer;
@@ -343,7 +343,7 @@
 
 #top-settings-button  {
   border: none; 
-  margin-right:10px;
+  margin-right:14px;
   cursor:pointer;
   height:30px;
   width:30px;
@@ -373,7 +373,7 @@
 
 .top-search-button  {
   border: none; 
-  margin-right:5px;
+  margin-right:9px;
   cursor:pointer;
   padding: 17px;
 }
