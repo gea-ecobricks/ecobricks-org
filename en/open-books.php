@@ -82,7 +82,7 @@
 				<img src="../webp/gea-logo-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
 				<h5>The Global Ecobrick Alliance is a not-for-profit for-Earth enterprise dedicated to accelerating plastic transition.  All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system.</h5><br>
-				<a class="module-btn" href="/about">About the GEA</a>
+				<a class="module-btn" href="about.php">About the GEA</a>
                 <br><br>
 				
 				<br>

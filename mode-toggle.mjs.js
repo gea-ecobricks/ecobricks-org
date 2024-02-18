@@ -137,7 +137,7 @@ template.innerHTML = `
     label::before {
       content: "";
       display: inline-block;
-      background-size: var(--${NAME}-icon-size, 20px 20px); /* Adjusted for 20x20 icon */
+      background-size:  20px 20px); /* Adjusted for 20x20 icon */
       background-repeat: no-repeat;
       height: var(--${NAME}-icon-size, 20px); /* Adjusted for 20px height */
       width: var(--${NAME}-icon-size, 20px); /* Adjusted for 20px width */
