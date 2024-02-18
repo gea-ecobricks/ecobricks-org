@@ -50,7 +50,8 @@
 .gallery-flex-container {
 display: flex;
 flex-wrap: wrap;
-justify-content: center;}
+justify-content: center;
+margin:bottom;}
 
 
 @media screen and (min-width: 700px) { 
@@ -63,6 +64,17 @@ justify-content: center;}
   width:100px;
   overflow: hidden;
 
+}
+
+/* Left justify the last line of boxes */
+.gallery-flex-container::before {
+  content: '';
+  flex: auto;
+}
+
+/* Left justify odd-numbered boxes in the last line */
+.gal-photo:nth-child(2n + 1):last-child {
+  margin-left: auto;
 }
 
 
