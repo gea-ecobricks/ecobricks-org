@@ -101,13 +101,12 @@ margin: 20px 0px 20px 0px;
   width: 100px;
   overflow: hidden;
   background: grey;
-  color: var(--text-color);
+  /* color: var(--text-color);
   text-align: center;
   font-size: 1em;
-  padding: 2px;
-  text-decoration: none;
-  animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
-
+  text-decoration: none; */
+  animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
+  background: url(../icons/gobrik-icon-white.svg) no-repeat center contain;
 }
 
 @media screen and (max-width: 700px) { 
