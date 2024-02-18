@@ -7,12 +7,12 @@
 <?php $page='principles';?>
  
 <?php 
+require_once ("../includes/details-ecobrick-page-inc.php");
 
 include '../ecobricks_env.php';
 
 include '../ssp.class.php';
 
-require_once ("../includes/details-ecobrick-page-inc.php");
 
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
