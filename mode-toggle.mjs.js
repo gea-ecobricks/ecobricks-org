@@ -137,22 +137,20 @@ template.innerHTML = `
     label::before {
       content: "";
       display: inline-block;
-      background-size: var(--${NAME}-icon-size, 3rem);
+      background-size: var(--${NAME}-icon-size, 15px 15px); /* Adjusted for 20x20 icon */
       background-repeat: no-repeat;
-      height: var(--${NAME}-icon-size, 3rem);
-      width: var(--${NAME}-icon-size, 1rem);
+      height: var(--${NAME}-icon-size, 15px); /* Adjusted for 20px height */
+      width: var(--${NAME}-icon-size, 15px); /* Adjusted for 20px width */
       vertical-align: middle;
     }
     
     [part=lightLabel]::before {
       background-image: var(--${NAME}-light-icon, url("${DEFAULT_URL}sun2.svg"));
-      background-size: 20px 20px; /* Added line for icon size */
     }
     
     [part=darkLabel]::before {
       filter: var(--${NAME}-icon-filter, none);
       background-image: var(--${NAME}-dark-icon, url("${DEFAULT_URL}moon2.svg"));
-      background-size: 20px 20px; /* Added line for icon size */
     }
     
     [part=toggleLabel]::before {

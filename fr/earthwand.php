@@ -124,7 +124,7 @@
 
                 <?php require_once ("side-modules/earthen-ethics.php");?>
                 
-                <?php require_once ("side-modules/spiral-design.php");?>
+                <?php require_once ("side-modules/spiral-design-principle.php");?>
                 
                 <?php require_once ("side-modules/about-gea.php");?>
 
