@@ -59,37 +59,23 @@ https://github/globalecobrickalliance/ecobricks.org
  
   
         <?php
-
             $sql = "SELECT * FROM vw_gallery_feed ;";
-
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
-
-            // output data of each row
-            while($row = $result->fetch_assoc()) {
-
-            //$row = $result->fetch_assoc();
-
-            echo '
-            <div class="gal-photo">
-                <div class="photo-box">
-                    <img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\')"/>
-                </div>
-            </div>';
-}
-
-            // echo '<div class="gal-photo"><div class="photo-box">
-            // <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
-            // echo '</div>';
-
-            // }
-
+                // output data of each row
+                while ($row = $result->fetch_assoc()) {
+                    echo '<div class="gal-photo">
+                            <div class="photo-box">
+                                <img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\', \'' . $row["weight_g"] . '\', \'' . $row["owner"] . '\', \'' . $row["location_full"] . '\')"/>
+                            </div>
+                        </div>';
+                }
             } else {
-            echo "Failed to connect to the Brikchain database";
+                echo "Failed to connect to the Brikchain database";
             }
+?>
 
-            ?>
 
         <div class="photo-box-end" href="brikchain.php"></div>
 </div>
@@ -104,7 +90,7 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="feature-big-header" data-lang-id="302-gallery-heading">Ecobricking.  Live.</div>
         <div class="feature-sub-text" data-lang-id="303-gallery-subheading">Ecobricks are being made and logged around the world right this moment.  This is a valuable ecological service.  Each authenticated ecobrick and its weight of sequestered plastic is stored on our Brikcoin manual blockchain</div>
 
-        <a class="btn featured-gallery-button" href="how.php" data-lang-id="1000-learn-more">⛓️Full Brikchain</a>
+        <a class="btn featured-content-button" href="how.php" data-lang-id="10xx-ful-brikchain">⛓️Full Brikchain</a>
 
             <div class="feature-reference-links"><h6 data-lang-id="309-featured-top10s-references"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6></div>
     </div>
@@ -263,7 +249,7 @@ https://github/globalecobrickalliance/ecobricks.org
 </script>
 
 <script>
-    function ecobrickPreview(brik_serial) {
+   function ecobrickPreview(brik_serial, weight, owner, location) {
         // Construct the image source URL
         var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
         
@@ -272,6 +258,9 @@ https://github/globalecobrickalliance/ecobricks.org
         modal.className = 'ecobrick-modal';
         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
                           '<img src="' + imageUrl + '" alt="Ecobrick ' + brik_serial + '" />' +
+                          '<div class="ecobrick-details">' +
+                          '   <p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
+                          '</div>' +
                           '<a href="details-ecobrick-page.php?serial_no=' + brik_serial + '">View Details</a>';
         
         // Append the modal to the body

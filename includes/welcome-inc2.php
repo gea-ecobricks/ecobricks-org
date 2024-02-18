@@ -123,6 +123,8 @@ margin: 20px 0px 20px 0px;
 
   height: 60px;
   width: 60px;
+  padding: 3px;
+
   animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
   background: url(../icons/gobrik-icon-darker.svg) no-repeat center;
   background-size: contain;
@@ -719,6 +721,13 @@ margin-left: 0px;
     text-decoration: none;
     margin-top: 15px;
 }
+
+.ecobrick-modal .ecobrick-details {
+    text-align: center;
+    color: #fff;
+    margin: 15px 0;
+}
+
 
 
 </style>
