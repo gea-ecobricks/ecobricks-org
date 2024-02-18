@@ -47,7 +47,7 @@
   background-color: black !important;
 }
 
-.flex-container {
+.gallery-flex-container {
 display: flex;
 flex-wrap: wrap;
 /* background-color: #DFDFDF; */
@@ -55,13 +55,13 @@ margin-top: 10px;
 /* flex-wrap: wrap-reverse; */
 justify-content: left;
 margin: 20px 0px 20px 0px;
-flex-flow: column;
+flex-flow:
 }
 
 
 @media screen and (min-width: 700px) { 
 
-.flex-container > .gal-photo {
+.gallery-flex-container > .gal-photo {
 
   padding: 5px;
   max-height: 100px;
@@ -100,7 +100,7 @@ flex-flow: column;
 
 @media screen and (max-width: 700px) { 
 
-.flex-container > .gal-photo {
+.gallery-flex-container > .gal-photo {
   padding: 3px;
   max-height: 60px;
   max-width:60px;

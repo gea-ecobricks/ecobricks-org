@@ -57,7 +57,6 @@ https://github/globalecobrickalliance/ecobricks.org
             <p><span class="blink">⬤  </span>The a live feed of authenticated ecobricks from the <a href="brikchain.php">brikcahin</a>.  Click to preview.</p>
         </div>
  
-        <div style="width:100%">
         <?php
             $sql = "SELECT * FROM vw_gallery_feed ;";
             $result = $conn->query($sql);
@@ -78,7 +77,6 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
         <div class="photo-box-end" href="brikchain.php"></div>
-        </div>
 </div>
 
      <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
