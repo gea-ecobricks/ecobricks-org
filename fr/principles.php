@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.58';?>
+<?php $version='1.59';?>
 <?php $page='principles';?>
 
 <?php require_once ("../includes/principles-inc2.php");?>
