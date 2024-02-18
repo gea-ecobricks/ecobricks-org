@@ -663,7 +663,7 @@ margin-left: 0px;
 
   
 
-
+/* 
 .lead-paragraph {
   font-family: 'Arvo', serif;
   text-align: center !important;
@@ -697,15 +697,52 @@ margin-left: 0px;
   .main-statement {
       font-size: 2.3em !important;
   }
+} */
+
+
+/* Style for the modal */
+.ecobrick-modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    overflow: auto;
+    z-index: 1;
+}
+
+/* Style for the close button */
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Style for the ecobrick image */
+.ecobrick-modal img {
+    display: block;
+    margin: 20px auto; /* Center the image */
+    max-width: 80%; /* Adjust the width as needed */
+}
+
+/* Style for the details link */
+.ecobrick-modal a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 15px;
 }
 
 
 </style>
 
-<!-- This loads the page's meta tags:  *be sure to add the page's name!*-->
-<?php require_once ("../meta/welcome-$lang.php");?>
 
-<!--This loads the page's header-->
 
 
 
