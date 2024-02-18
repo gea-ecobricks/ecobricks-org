@@ -85,7 +85,7 @@
 
 <!--MAIN STYLE SHEETS -->
 
-<link rel="stylesheet" type="text/css" href="https://ecobricks.org/mode-slider.css?v=2.7">
+<link rel="stylesheet" type="text/css" href="https://ecobricks.org/mode-slider.css?v=3">
 <link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=<?php echo ($version); ;?>"> 
 
 <link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=<?php echo ($version); ;?>">
