@@ -50,13 +50,7 @@
 .gallery-flex-container {
 display: flex;
 flex-wrap: wrap;
-/* background-color: #DFDFDF; */
-margin-top: 10px;
-/* flex-wrap: wrap-reverse; */
-justify-content: left;
-margin: 20px 0px 20px 0px;
-flex-flow:
-}
+justify-content: center;}
 
 
 @media screen and (min-width: 700px) { 
@@ -426,6 +420,9 @@ margin-left: 0px;
     margin-left: 20px;
     border-radius: 15px;
     background-color: var(--gallery);
+    justify-content: center;
+  display: flex;
+  flex-flow: column;
   }
 
 .featured-content-2 {
