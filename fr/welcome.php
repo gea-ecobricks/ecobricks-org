@@ -47,47 +47,61 @@ https://github/globalecobrickalliance/ecobricks.org
 
           
             
-<div class="flex-container">
+    <div class="flex-container">
  <!--   <div class="gal-photo">
         <div class="photo-box-end"><a href="brikchain.php">...</a></div>
         <div class="gal-photo-text"></div>
      </div>-->
+
+        <div class="feed-live">
+            <p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p>
+        </div>
  
   
-    <?php
+        <?php
 
-    $sql = "SELECT * FROM vw_gallery_feed ;";
+            $sql = "SELECT * FROM vw_gallery_feed ;";
 
-    $result = $conn->query($sql);
+            $result = $conn->query($sql);
 
-    if ($result->num_rows > 0) {
+            if ($result->num_rows > 0) {
 
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
+            // output data of each row
+            while($row = $result->fetch_assoc()) {
 
-    //$row = $result->fetch_assoc();
+            //$row = $result->fetch_assoc();
 
-    echo '<div class="gal-photo"><div class="photo-box">
-    <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
-    echo '</div>';
+            echo '<div class="gal-photo"><div class="photo-box">
+            <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
+            echo '</div>';
 
-    }
+            }
 
-    } else {
-    echo "Failed to connect to the Brikchain database";
-    }
+            } else {
+            echo "Failed to connect to the Brikchain database";
+            }
 
-    ?>
-    <div class="gal-photo">
+            ?>
+    <!-- <div class="gal-photo">
         <div class="photo-box-end"><a href="brikchain.php">+</a></div>
         <div class="gal-photo-text"></div>
-     </div>
+    </div> -->
 
-     <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-     50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div>
-    <!-- <div class="feed-live"><p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p></div>-->
+     <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
+     50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
+    
 
-</div>
+    </div>
+
+    <div class="feature-content-box">
+    <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
+        <div class="feature-big-header" data-lang-id="302-gallery-heading">Ecobricking.  Live.</div>
+        <div class="feature-sub-text" data-lang-id="303-gallery-subheading">Ecobricks are being made and logged around the world right this moment.  This is a valuable ecological service.  Each authenticated ecobrick and its weight of sequestered plastic is stored on our Brikcoin manual blockchain</div>
+
+        <a class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more">⛓️ Full Brikchain</a>
+
+            <div class="feature-reference-links"><h6 data-lang-id="309-featured-top10s-references"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6></div>
+    </div>
 
 </div>
 </div>

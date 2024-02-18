@@ -147,12 +147,13 @@ margin: 20px 0px 20px 0px;
 color: #dfdfdf;
 text-decoration: none;}
 
-/* 
+
+
   @media screen and (min-width: 700px) { 
 .feed-live {
 width: 100%;
-text-align: center;
-line-height: 1.5;
+text-align: left;
+line-height: 1.1;
 margin: auto;
 padding: 10px;
 background-color: #DFDFDF;
@@ -188,7 +189,9 @@ margin-top: 5px;
 font-weight: 300;
 
 }
-  } */
+  } 
+
+
 
 
 
