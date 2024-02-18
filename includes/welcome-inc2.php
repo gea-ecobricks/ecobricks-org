@@ -53,7 +53,7 @@ flex-wrap: wrap;
 /* background-color: #DFDFDF; */
 margin-top: 10px;
 /* flex-wrap: wrap-reverse; */
-justify-content: center;
+justify-content: left;
 margin: 20px 0px 20px 0px;
 }
 
@@ -83,6 +83,8 @@ margin: 20px 0px 20px 0px;
   width:100px;
   height: 100px;
   background: grey;
+  font-family: 'Mulish';
+  font-size: 0.8em;
 }
 
 /* 
@@ -107,7 +109,7 @@ margin: 20px 0px 20px 0px;
   font-size: 1em;
   text-decoration: none; */
   animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
-  background: url(../icons/gobrik-icon-darker.svg) no-repeat center contain;
+  background: url(../icons/gobrik-icon-darker.svg) no-repeat center;
   background-size: contain;
   background-color: var(--emblem-green);
 }

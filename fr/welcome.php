@@ -71,11 +71,12 @@ https://github/globalecobrickalliance/ecobricks.org
 
             //$row = $result->fetch_assoc();
 
-            echo '<div class="gal-photo">
-            <div class="photo-box">
-                <img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\')"/>
-            </div>
-        </div>';
+            echo '
+            <div class="gal-photo">
+                <div class="photo-box">
+                    <img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\')"/>
+                </div>
+            </div>';
 }
 
             // echo '<div class="gal-photo"><div class="photo-box">
@@ -93,12 +94,13 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="photo-box-end"><a href="brikchain.php"></a></div>
         <div class="gal-photo-text"></div>
     </div>
+</div>
 
      <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
      50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
     
 
-    </div>
+    
 
     <div class="feature-content-box">
     <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
