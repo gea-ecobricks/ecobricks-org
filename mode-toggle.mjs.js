@@ -137,10 +137,10 @@ template.innerHTML = `
     label::before {
       content: "";
       display: inline-block;
-      background-size: 27px 27px; /* Adjusted for 20x20 icon */
+      background-size: 28px 28px; /* Adjusted for 20x20 icon */
       background-repeat: no-repeat;
-      height: var(--${NAME}-icon-size, 27px); /* Adjusted for 20px height */
-      width: var(--${NAME}-icon-size, 27px); /* Adjusted for 20px width */
+      height: var(--${NAME}-icon-size, 28px); /* Adjusted for 20px height */
+      width: var(--${NAME}-icon-size, 28px); /* Adjusted for 20px width */
       vertical-align: middle;
     }
     
