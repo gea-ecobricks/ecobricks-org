@@ -77,9 +77,11 @@ margin: 20px 0px 20px 0px;
 }
   */
 
+
 .gal-photo img {
   width:100px;
   height: 100px;
+  background: grey;
 }
 
 /* 
@@ -147,7 +149,10 @@ margin: 20px 0px 20px 0px;
 color: #dfdfdf;
 text-decoration: none;}
 
-
+.feed-live {
+  text-align:center;
+  background: var(--darker);
+}
 
   @media screen and (min-width: 700px) { 
 .feed-live {
