@@ -144,6 +144,7 @@
 
             
             </div>  <!--closes main-->
+                        </div>
 
 
 	<!--FOOTER STARTS HERE-->
