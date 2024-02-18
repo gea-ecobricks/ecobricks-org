@@ -51,7 +51,7 @@
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-margin:bottom;}
+margin-bottom: 20px;}
 
 
 @media screen and (min-width: 700px) { 
@@ -156,6 +156,8 @@ width: 80%;
 line-height: 1.1;
 margin: auto;
 padding: 10px;
+margin-top:20px;
+
 /* background-color: #DFDFDF; */
 }
 
