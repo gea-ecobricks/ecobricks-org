@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.84';?>
+<?php $version='1.85';?>
 <?php $page='principles';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -59,29 +59,23 @@ https://github/globalecobrickalliance/ecobricks.org
  
   
         <?php
+$sql = "SELECT * FROM vw_gallery_feed ;";
+$result = $conn->query($sql);
 
-            $sql = "SELECT * FROM vw_gallery_feed ;";
+if ($result->num_rows > 0) {
+    // output data of each row
+    while ($row = $result->fetch_assoc()) {
+        echo '<div class="gal-photo">
+                <div class="photo-box">
+                    <img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\')"/>
+                </div>
+            </div>';
+    }
+} else {
+    echo "Failed to connect to the Brikchain database";
+}
+?>
 
-            $result = $conn->query($sql);
-
-            if ($result->num_rows > 0) {
-
-            // output data of each row
-            while($row = $result->fetch_assoc()) {
-
-            //$row = $result->fetch_assoc();
-
-            echo '<div class="gal-photo"><div class="photo-box">
-            <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a></div>';
-            echo '</div>';
-
-            }
-
-            } else {
-            echo "Failed to connect to the Brikchain database";
-            }
-
-            ?>
     <div class="gal-photo">
         <div class="photo-box-end"><a href="brikchain.php">+</a></div>
         <div class="gal-photo-text"></div>
