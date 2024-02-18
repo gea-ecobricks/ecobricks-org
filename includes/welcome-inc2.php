@@ -51,7 +51,7 @@
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-margin-bottom: 30px;}
+margin: 0px -15px 30px -15px}
 
 
 @media screen and (min-width: 700px) { 
@@ -105,7 +105,6 @@ margin-bottom: 30px;}
 @media screen and (max-width: 700px) { 
 
 .gallery-flex-container > .gal-photo {
-  padding: 3px;
   max-height: 60px;
   max-width:60px;
   width:60px;
@@ -180,7 +179,7 @@ line-height: 1.5;
 
 .feed-live p {
 font-family: courier new,monospace !important;
-line-height: 1.3;
+line-height: 0.9em;
 margin-top: 5px;
 font-weight: 300;
 
