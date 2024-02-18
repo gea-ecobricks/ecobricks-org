@@ -61,22 +61,15 @@ margin: 20px 0px 20px 0px;
 @media screen and (min-width: 700px) { 
 
 .flex-container > .gal-photo {
-  /* background-color: #DFDFDF; */
-  /* margin: 2px; */
+
   padding: 5px;
   max-height: 100px;
   max-width:100px;
   width:100px;
   overflow: hidden;
-  /* text-align: center; */
+
 }
 
-/*	.photo-box {
-  max-height: 225px;
-  overflow: hidden;
-  background: grey;
-}
-  */
 
 
 .gal-photo img {
@@ -86,17 +79,9 @@ margin: 20px 0px 20px 0px;
   font-family: 'Mulish';
   font-size: 0.8em;
   cursor: pointer;
+  color: var(--text-color);
 }
 
-/* 
-.gal-photo-text {
-  background-color: #DFDFDF;
-  margin: 0px;
-  text-align: center;
-  padding: 2px;
-  overflow: hidden;
-      font-size: 0.9em;
-} */
 
 
 .photo-box-end {
@@ -104,65 +89,58 @@ margin: 20px 0px 20px 0px;
   height: 100px;
   width: 100px;
   overflow: hidden;
-
-  /* color: var(--text-color);
-  text-align: center;
-  font-size: 1em;
-  text-decoration: none; */
   animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
   background: url(../icons/gobrik-icon-darker.svg) no-repeat center;
   background-size: contain;
   background-color: var(--emblem-green);
 }
+}
 
 @media screen and (max-width: 700px) { 
 
 .flex-container > .gal-photo {
-  /* background-color: #DFDFDF; */
-  margin: 0px;
-  padding: 2px;
-  height: 81px;
+  padding: 3px;
+  max-height: 60px;
+  max-width:60px;
+  width:60px;
   overflow: hidden;
 }
 
-.gal-photo img {
-  height: 81px;
-  display: block;
-  margin: auto;
 
+.gal-photo img {
+  width:60px;
+  height: 60px;
+  background: grey;
+  font-family: 'Mulish';
+  font-size: 0.6em;
+  cursor: pointer;
+  color: var(--text-color);
 }
 
 .photo-box-end {
-  max-height: 81px;
+
+  height: 60px;
   width: 60px;
-
-  overflow: hidden;
-  background: grey;
-  line-height: 75px;
-  color: #dfdfdf;
-  text-align: center;
-  font-size: 2em;
-  padding: 2px;
-  text-decoration: none;
-  animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
-
+  animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
+  background: url(../icons/gobrik-icon-darker.svg) no-repeat center;
+  background-size: contain;
+  background-color: var(--emblem-green);
+}
 }
 
-
-
-.photo-box-end a {
-color: #dfdfdf;
-text-decoration: none;}
 
 .feed-live {
   text-align:center;
-  background: var(--show-hide);
+  background: var(--darker);
   border-radius: 10px;
 }
 
+
+
   @media screen and (min-width: 700px) { 
+
 .feed-live {
-width: 100%;
+width: 80%;
 line-height: 1.1;
 margin: auto;
 padding: 10px;
@@ -180,9 +158,10 @@ font-weight: 300;
 }
   }
 
+
   @media screen and (max-width: 700px) { 
 .feed-live {
-width: 100%;
+width: 90%;
 padding: 10px;
 line-height: 1.5;
 }
@@ -253,10 +232,10 @@ font-weight: 300;
 } 
 
 
-.full-width-image {
+/* .full-width-image {
   width: 100%;
   height: auto;
-}
+} */
 
 
 
@@ -334,7 +313,6 @@ font-weight: 300;
     margin-top: -35px;
 }
 
-
 .gal-photo10 img {
 
     height: 520px;
@@ -377,13 +355,6 @@ margin-left: 0px;
 
 }
 
-/*
-.photo-box10 {
-    max-height: 225px;
-    overflow: hidden;
-    
-}*/
-
 .gal-photo10 img {
     max-width: 235px;
     min-height: 305px;
@@ -407,7 +378,7 @@ margin-left: 0px;
     font-size: 0.9em;
 }
 
-.clouds-new  {
+/* .clouds-new  {
     background: url(https://www.ecobricks.org/webp/mountain-top2.webp?v4) no-repeat center bottom;
     width:100%;
     text-align:center;
@@ -428,7 +399,7 @@ margin-left: 0px;
     }
 }
 
-
+ */
 
 
 /* -------------------------------------------------------------------------- */
@@ -521,11 +492,13 @@ margin-left: 0px;
       width: 90%;
     }
     }
+
     @media screen and (min-width: 770px) and (max-width: 1024px) {
     .feature-content-box {
       width: 80%;
     }
     }
+
     @media screen and (min-width: 1024px) {
     .feature-content-box {
       width: 70%;
@@ -573,6 +546,7 @@ margin-left: 0px;
   color: var(--h1);
   margin-bottom: 10px;
 }
+
 @media screen and (max-width: 769px) {
   .feature-big-header {
       font-size: 1.9em;
@@ -597,6 +571,8 @@ margin-left: 0px;
     color: var(--text-color);
     margin-bottom: 20px;
   }
+
+
   @media screen and (max-width: 769px) {
     .feature-sub-text {
         font-size: 1.1em;
@@ -726,9 +702,10 @@ margin-left: 0px;
 /* Style for the ecobrick image */
 .ecobrick-modal img {
     display: block;
-    margin: 20px auto; /* Center the image */
+    margin: auto; /* Center the image */
     max-width: 80%; /* Adjust the width as needed */
     max-height:80%;
+    padding: 20px;
 }
 
 /* Style for the details link */
