@@ -88,6 +88,7 @@ margin: 20px 0px 20px 0px;
 
   height: 100px;
   width: 100px;
+  padding: 5px;
   overflow: hidden;
   animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
   background: url(../icons/gobrik-icon-darker.svg) no-repeat center;
@@ -108,6 +109,7 @@ margin: 20px 0px 20px 0px;
 
 
 .gal-photo img {
+  padding: 3px;
   width:60px;
   height: 60px;
   background: grey;
@@ -678,7 +680,8 @@ margin-left: 0px;
 
 /* Style for the modal */
 .ecobrick-modal {
-    display: block;
+    display: flex;
+    flex-flow:column;
     position: fixed;
     top: 0;
     left: 0;
