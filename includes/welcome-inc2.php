@@ -55,12 +55,13 @@ margin-top: 10px;
 /* flex-wrap: wrap-reverse; */
 justify-content: left;
 margin: 20px 0px 20px 0px;
+flex-flow: column;
 }
 
 
 @media screen and (min-width: 700px) { 
 
-.flex-container > .gal-photo {
+.gal-photo {
 
   padding: 5px;
   max-height: 100px;
@@ -88,7 +89,7 @@ margin: 20px 0px 20px 0px;
 
   height: 100px;
   width: 100px;
-  padding: 5px;
+  margin: 5px;
   overflow: hidden;
   animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
   background: url(../icons/gobrik-icon-darker.svg) no-repeat center;
@@ -99,7 +100,7 @@ margin: 20px 0px 20px 0px;
 
 @media screen and (max-width: 700px) { 
 
-.flex-container > .gal-photo {
+.gal-photo {
   padding: 3px;
   max-height: 60px;
   max-width:60px;
@@ -123,7 +124,7 @@ margin: 20px 0px 20px 0px;
 
   height: 60px;
   width: 60px;
-  padding: 3px;
+  margin: 3px;
 
   animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
   background: url(../icons/gobrik-icon-darker.svg) no-repeat center;

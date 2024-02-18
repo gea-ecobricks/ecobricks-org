@@ -47,7 +47,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
           
             
-    <div class="flex-container">
+    <div class="gallery-flex-container">
  <!--   <div class="gal-photo">
         <div class="photo-box-end"><a href="brikchain.php">...</a></div>
         <div class="gal-photo-text"></div>
@@ -57,7 +57,7 @@ https://github/globalecobrickalliance/ecobricks.org
             <p><span class="blink">⬤  </span>The a live feed of authenticated ecobricks from the <a href="brikchain.php">brikcahin</a>.  Click to preview.</p>
         </div>
  
-  
+        <div style="width:100%">
         <?php
             $sql = "SELECT * FROM vw_gallery_feed ;";
             $result = $conn->query($sql);
@@ -78,6 +78,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
         <div class="photo-box-end" href="brikchain.php"></div>
+        </div>
 </div>
 
      <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
@@ -151,10 +152,10 @@ https://github/globalecobrickalliance/ecobricks.org
     </div>
     <div class="feature-content-box">
     <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
-        <div class="feature-big-header" data-lang-id="302-gallery-heading">Top Ten Ecobricks</div>
+        <div class="feature-big-header" data-lang-id="302-gallery-heading">🏆 Monthly Top Ten</div>
         <div class="feature-sub-text" data-lang-id="303-gallery-subheading">Every month thousands of ecobricks are logged by ecobrickers around the world-- and peer review by them too!</div>
 
-        <a class="btn featured-gallery-button" href="brikchain.php" data-lang-id="1000-learn-more">⛓️Full Brikchain</a>
+         href="brikchain.php" data-lang-id="1000-top-tens">Top Ten Ecobricks</a>
 
             <div class="feature-reference-links"><h6 data-lang-id="309-featured-top10s-references"><a href="brikchain.php">Brikchain</a> | <a href="/brikcoins">Brikcoins</a></h6></div>
     </div>
@@ -261,7 +262,7 @@ https://github/globalecobrickalliance/ecobricks.org
                           '<div class="ecobrick-details">' +
                           '   <p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
                           '</div>' +
-                          '<a href="details-ecobrick-page.php?serial_no=' + brik_serial + '">View Details</a>';
+                          '<a style="margin-bottom:20px" class="btn featured-gallery-button" href="details-ecobrick-page.php?serial_no=' + brik_serial + '">View Details</a>';
         
         // Append the modal to the body
         document.body.appendChild(modal);
