@@ -23,9 +23,9 @@ const fr_Page_Translations = {
         
         '004-lead-page-paragraph': 'Pourquoi ne pas emballer votre ecobrique avec le meilleur outil possible disponible ? ',
         
-        '005-first-page-paragraph': 'L\'Earthwand est un produit régénératif conçu dès le départ pour être l\'outil parfait pour emballer le plastique et fabriquer des ecobriques. Simple, mais super pratique, ergonomique, robuste et solide. Le meilleur de tout, il est fabriqué sans plastique, entièrement artisanal en bambou, rotin et fibres de coco.',
+        '005-first-page-paragraph': 'L\'Earthwand est un produit régénératif conçu dès le départ pour être l\'outil parfait pour emballer le plastique et fabriquer des ecobriques. Simple, mais super pratique, ergonomique, robuste et solide. Et bien sure-- il est fabriqué sans plastique!  Les Earthwands sont faites entièrement en bambou, rotin et fibres de coco.',
         
-        '006-second-page-paragraph': 'Développé sur trois années d\'ecobriquage et de prototypage par l\'un des cofondateurs de la Global Ecobrick Alliance, l\'Earthwand est conçu non seulement pour emballer le plastique, mais aussi pour soutenir financièrement le mouvement ecobrick local et mondial. Les Earthwands sont produits par des formateurs de la GEA et vendus par des formateurs de la GEA comme moyen de financer leur travail écologique.',
+        '006-second-page-paragraph': 'Développé sur trois années d\'ecobriquage et de prototypage par l\'un des cofondateurs de la Global Ecobrick Alliance, l\'Earthwand est conçu non seulement pour emballer le plastique, mais aussi pour soutenir financièrement le mouvement ecobrick local et mondial. Les Earthwands sont produits par des formateurs de la GEA et vendus par des formateurs de la GEA comme moyen de financer leur travail écologique.  Voir notre <a href="https://nextcloud.ecobricks.org/index.php/s/pmLJjGJGr3qzdBF" target="_blank">Earthwand Regenerative Finance Document</a>',
     
         '007-virtue-icons':'<img src="../webp/earthwand-virtue-icons.webp" style="width:100%;" alt="Principes de conception de l\'Earthwand">',
         

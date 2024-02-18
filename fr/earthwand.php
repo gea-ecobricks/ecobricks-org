@@ -37,7 +37,7 @@
                     </div>
                 
                     <div class="page-paragraph">
-                         <p data-lang-id="006-second-page-paragraph">The Earthwand is a regenerative product designed from the ground up to be the perfect plastic packing, ecobrick making tool.  Its simple, yet super practical, ergonomic, sturdy and strong.  Best of all, its made without plastic-- fully hand crafted from bamboo, rattan and coconut fiber.</p>
+                         <p data-lang-id="006-second-page-paragraph">The Earthwand is a regenerative product designed from the ground up to be the perfect plastic packing, ecobrick making tool.  Its simple, yet super practical, ergonomic, sturdy and strong.  And of course, its made without plastic!  The Earthwand is hand crafted from bamboo, rattan and coconut fiber.</p>
 
                          
                     </div>
@@ -51,7 +51,7 @@
 
                         
 <br><br>
-                         <p data-lang-id="006-second-page-paragraph">Developed over three years of ecobricking and prototyping by one of the co-founders of the Global Ecobrick Alliance, the Earthwand it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. EarthWands are produced by GEA Trainer and sold by GEA Trainers as a way to fund their ecological work</p>
+                         <p data-lang-id="006-second-page-paragraph">Developed over three years of ecobricking and prototyping by one of the co-founders of the Global Ecobrick Alliance, the Earthwand it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. EarthWands are produced by GEA Trainer and sold by GEA Trainers as a way to fund their ecological work as per the <a href="https://nextcloud.ecobricks.org/index.php/s/pmLJjGJGr3qzdBF" target="_blank">Earthwand Regenerative Finance Document</a>.</p>
 
 
                         <p data-lang-id="008-page-paragraph">Best of all, we’ve carefully designed the Earthwand’s production, consumption and disposal so that after all the impacts of its life-cycle are added up, it has in the end made the world a greener place.   To see what we mean, see the EarthWand’s Product Impact Assessment (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">UK report</a> | <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">Indonesian report</a>).  In this way the EarthWand embodies the <a href="/ayyew">ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> and <a href="principles">regenerative principles</a> which guide the global plastic transition movement.</p>
@@ -120,7 +120,7 @@
                 <div class="side">
             
 
-                <?php require_once ("side-modules/gobrik-store.php");?>
+                
 
                 <?php require_once ("side-modules/earthen-ethics.php");?>
                 
@@ -129,6 +129,8 @@
                 <?php require_once ("side-modules/about-gea.php");?>
 
                 <?php require_once ("side-modules/eco-accounting-principle.php");?>
+
+                <?php require_once ("side-modules/gobrik-store.php");?>
 
                 
 
