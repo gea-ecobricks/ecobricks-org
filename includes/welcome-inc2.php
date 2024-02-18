@@ -61,7 +61,7 @@ flex-flow: column;
 
 @media screen and (min-width: 700px) { 
 
-.gal-photo {
+.flex-container > .gal-photo {
 
   padding: 5px;
   max-height: 100px;
@@ -100,7 +100,7 @@ flex-flow: column;
 
 @media screen and (max-width: 700px) { 
 
-.gal-photo {
+.flex-container > .gal-photo {
   padding: 3px;
   max-height: 60px;
   max-width:60px;
