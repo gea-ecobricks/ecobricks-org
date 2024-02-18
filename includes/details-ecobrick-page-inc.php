@@ -29,7 +29,7 @@
 	.vision-quote {
       font-size: 3em;
       line-height: 1.3;
-      padding: 15px;
+      padding: 5px;
 	  margin-top: -40px;
 	  margin-bottom: -26px;
   }
@@ -113,12 +113,12 @@
 
 }
 
-hr {border: gray;
+/* hr {border: gray;
 border-style: dashed;
 border-width: 1px;
 margin-top: 31px;
 margin-bottom: 31px;}
-
+ */
 
 
 .module-btn {
