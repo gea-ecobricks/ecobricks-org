@@ -65,17 +65,15 @@ margin-bottom: 30px;}
   overflow: hidden;
 
 }
-
-/* Left justify the last line of boxes */
+/* 
 .gallery-flex-container::before {
   content: '';
   flex: auto;
 }
 
-/* Left justify odd-numbered boxes in the last line */
 .gal-photo:nth-child(2n + 1):last-child {
   margin-left: auto;
-}
+} */
 
 
 
