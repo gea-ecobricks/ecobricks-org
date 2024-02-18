@@ -14,7 +14,7 @@
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Nos principes terrestres</div>
-		<div class="splash-sub" data-lang-id="002-splash-subtitle">Nous sommes guidée par des principes régénératifs qui nous orientent vers une harmonie croissante avec les cycles Terrestres.</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">Nous sommes oriententés vers une harmonie croissante avec les cycles Terrestres.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/earth-home-animated-v4.svg" style="width: 100%;"></div>	
 </div>
@@ -354,7 +354,7 @@
 					<img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
 					<h4>Pour-Terre</h4>
 <h5>Tout comme la Terre a distribué de l'énergie à tous, nous le pouvons aussi avec nos entreprises qui gèrent le plastique usagé.</h5><br>
-<a class="module-btn" href="about">Notre exemple</a>
+<a class="module-btn" href="about.php">Notre exemple</a>
 <h6 style="font-size:smaller">Découvrez comment nous procédons</h6>
 
 				</div>
@@ -363,8 +363,8 @@
 				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
 				<br><h4>Vers la concentration</h4>
 <h5>Tout comme la Terre a concentré et sécurisé le carbone pour verdir la biosphère, nous pouvons également faire de même avec notre plastique grâce à l'écobrique.</h5><br>
-<a class="module-btn" href="/plastic">Exemple terrestre</a>
-<h6 style="font-size:smaller">l'histoire Terrestre et du Plastique</h6>
+<a class="module-btn" href="https://book.earthen.io/fr/stellaire.html" target="_blank">Exemple terrestre</a>
+<h6 style="font-size:smaller">l'histoire interstellaire du plastique</h6>
 
                 <br>
 			</div>   
