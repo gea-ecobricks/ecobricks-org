@@ -51,7 +51,7 @@
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-margin-bottom: 20px;}
+margin-bottom: 30px;}
 
 
 @media screen and (min-width: 700px) { 
@@ -430,7 +430,7 @@ margin-left: 0px;
     position: relative;
     overflow: hidden;
     margin-top: -50px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 20px;
     border-radius: 15px;

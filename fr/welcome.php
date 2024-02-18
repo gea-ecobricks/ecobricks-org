@@ -150,10 +150,10 @@ https://github/globalecobrickalliance/ecobricks.org
     </div>
     <div class="feature-content-box">
     <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
-        <div class="feature-big-header" data-lang-id="302-gallery-heading">🏆 Monthly Top Ten</div>
+        <div class="feature-big-header" data-lang-id="302-gallery-heading">Monthly Top Tens</div>
         <div class="feature-sub-text" data-lang-id="303-gallery-subheading">Every month thousands of ecobricks are logged by ecobrickers around the world-- and peer review by them too!</div>
 
-         <a href="brikchain.php" class="feature-button"  data-lang-id="1000-top-tens">Top Ten Ecobricks</a>
+         <a href="brikchain.php" class="feature-button"  data-lang-id="1000-top-tens">🏆 Monthly Rankings</a>
 
             <div class="feature-reference-links"><h6 data-lang-id="309-featured-top10s-references"><a href="brikchain.php">Brikchain</a> | <a href="/brikcoins">Brikcoins</a></h6></div>
     </div>
