@@ -152,7 +152,7 @@ $(document).ready(function() {
 	overflow: scroll !important;
 }
 
-.live-data {background: #fbe9c8 !important;}
+.live-data {background: var(--yellow-alert);}
 
 /* Huh? */
 
