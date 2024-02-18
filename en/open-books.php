@@ -51,7 +51,7 @@
 			
 			<?php
 
-	$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2021;";
+	$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2024;";
 
 	$result = $conn->query($sql);
 
@@ -209,7 +209,7 @@
 		<div class="opener-header">
 			
 			<div class="opener-header-text">
-				<h4>2022 Current Year Expenses</h4>
+				<h4>Current Year Expenses</h4>
 				<h5>A summary of the GEA's current year revenue.</h5>
 				<div class="ecobrick-data"><p><span class="blink">◉  </span> Data live & current</p></div>
 			</div>
@@ -223,7 +223,7 @@
 		
 				<?php
 
-				$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year =  ORDER BY expense_category;";
+				$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2024 ORDER BY expense_category;";
 
 				$result = $conn->query($sql);
 
@@ -506,9 +506,6 @@
 
 
 
-
-
-
 	<!--FOOTER STARTS HERE-->
 
 	<?php require_once ("../footer-2024.php");?>
@@ -516,12 +513,12 @@
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
+
 <!-- This script is for pages that use the accordion content system-->
 <script src="../accordion-scripts.js?v=2" defer></script>
 
-
 </div>
+</article>
 </body>
 </html>
-
 
