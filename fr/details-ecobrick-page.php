@@ -7,11 +7,12 @@
 <?php $page='principles';?>
  
 <?php 
-require_once ("../includes/details-ecobrick-page-inc.php");
 
 include '../ecobricks_env.php';
 
 include '../ssp.class.php';
+
+require_once ("../includes/details-ecobrick-page-inc.php");
 
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
@@ -53,7 +54,6 @@ echo
 ';
 
 echo '
-<a name="top"></a>
 <div id="main-content">
 	<div class="row">
 		<div class="main">
@@ -154,7 +154,7 @@ echo '
 			
 			echo '	<div class="side">
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 					<img src="../pngs/authenticated-ecobrick.png" width="90%" alt="Following the Earths example through eco bricking">
 					<br><h4>Authenticated!</h4>
 					<h5>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</h5><br>
@@ -166,18 +166,7 @@ echo '
 
 
 } else {
-    echo '<META NAME="robots" CONTENT="noindex">';
-
-	echo '
-
-</head>
-
-<BODY id="full-page">
-
-	  ';
-
-require_once ("../menus/menu-$lang.php");
-
+   
 
 
 echo '
@@ -236,14 +225,14 @@ echo '
 		
 	
 
-            <div id="side-module-desktop-mobile">
+            <div class="side-module-desktop-mobile">
 				<img src="../webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<!--<h4>AES Plastic</h4>-->
 				<h5>The weight of the plastic inside an authenticated ecobrick is what we call Authenticated Ecobricked Plastic (AES plastic) for short.</h5><br>
 				<a class="module-btn" href="/aes" target="_blank">About AES</a><br><br>
 			</div>
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 				<img src="../webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Brikcoins</h4>
 				<h5>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
@@ -261,13 +250,10 @@ echo '
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
-<!-- CUSTOM PAGE SCRIPTS-->
 
-<!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

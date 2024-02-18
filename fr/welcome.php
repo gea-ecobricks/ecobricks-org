@@ -250,7 +250,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
     const galleryBlock = document.querySelector('.gallery10-content-block');
     const galleryWidth = galleryBlock.scrollWidth; // Get the total width of the gallery
-    slowScrollLeft(galleryBlock, galleryWidth, 15000); // Scroll the full width over 15000 milliseconds
+    slowScrollLeft(galleryBlock, galleryWidth, 45000); // Scroll the full width over 15000 milliseconds
 
 </script>
 
