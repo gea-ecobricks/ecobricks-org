@@ -266,7 +266,7 @@ strong {
 
 				
 				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br><br><br>
-				<p>An overview of the GEA accounting transcation in our Open Books system.</p><br>
+				<p>An overview of the GEA accounting transcation in our <a href="../open-books.php"> Open Books system.</a></p><br>
 </div>
 		
 <!-- The DB connection creator -->
@@ -289,7 +289,7 @@ strong {
 					echo "<div id=\"main-details\"><div class=\"date\"> Transaction ID: " . $array["cash_tran_id"] ."</div>";
 
 					if ( isset($array["paymt_record_url"]) && $array["paymt_record_url"] != 'N/A' ) {  
-						echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%"/></div>';
+						echo '<div id="photo"><img src=../"'. $array["paymt_record_url"] .'" width="90%"/></div>';
 					}
 
                     echo " <div class=\"serial\"><b>Amount:</b> <var>" . $array["native_ccy_amt"] ." " ;
