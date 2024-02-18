@@ -144,6 +144,7 @@ margin:bottom;}
   text-align:center;
   background: var(--darker);
   border-radius: 10px;
+  margin-top:20px;
 }
 
 
@@ -707,9 +708,9 @@ margin-left: 0px;
 /* Style for the close button */
 .close-modal {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 2em;
+    top: 25px;
+    right: 25px;
+    font-size: 3.6em;
     color: var(--h1);
     cursor: pointer;
 }

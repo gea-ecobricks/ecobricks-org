@@ -260,7 +260,7 @@ https://github/globalecobrickalliance/ecobricks.org
                           '<div class="ecobrick-details">' +
                           '   <p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
                           '</div>' +
-                          '<a style="margin-bottom:20px; height:25px; padding:5px;" class="btn featured-gallery-button" href="details-ecobrick-page.php?serial_no=' + brik_serial + '">View Details</a>';
+                          '<a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-ecobrick-page.php?serial_no=' + brik_serial + '">ℹ️ View Full Details</a>';
         
         // Append the modal to the body
         document.body.appendChild(modal);
