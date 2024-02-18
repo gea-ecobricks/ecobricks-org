@@ -27,30 +27,6 @@
 <link rel="preload" as="image" href="../icons/settings-icon-over-dark2.svg" media="(prefers-color-scheme: dark)">
 
 
-<script>
-    function ecobrickPreview(brik_serial) {
-        // Construct the image source URL
-        var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
-        
-        // Open a modal with the ecobrick image and link to details-ecobrick-page
-        var modal = document.createElement('div');
-        modal.className = 'ecobrick-modal';
-        modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-                          '<img src="' + imageUrl + '" alt="Ecobrick ' + brik_serial + '" />' +
-                          '<a href="details-ecobrick-page.php?serial_no=' + brik_serial + '">View Details</a>';
-        
-        // Append the modal to the body
-        document.body.appendChild(modal);
-    }
-
-    function closeEcobrickModal() {
-        // Close the modal by removing it from the DOM
-        var modal = document.querySelector('.ecobrick-modal');
-        if (modal) {
-            modal.parentNode.removeChild(modal);
-        }
-    }
-</script>
 
 
 <style>

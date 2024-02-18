@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.84';?>
+<?php $version='1.86';?>
 <?php $page='principles';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -90,7 +90,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
             ?>
     <div class="gal-photo">
-        <div class="photo-box-end"><a href="brikchain.php">+</a></div>
+        <div class="photo-box-end"><a href="brikchain.php"></a></div>
         <div class="gal-photo-text"></div>
     </div>
 
@@ -260,6 +260,32 @@ https://github/globalecobrickalliance/ecobricks.org
     slowScrollLeft(galleryBlock, galleryWidth, 45000); // Scroll the full width over 15000 milliseconds
 
 </script>
+
+<script>
+    function ecobrickPreview(brik_serial) {
+        // Construct the image source URL
+        var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
+        
+        // Open a modal with the ecobrick image and link to details-ecobrick-page
+        var modal = document.createElement('div');
+        modal.className = 'ecobrick-modal';
+        modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
+                          '<img src="' + imageUrl + '" alt="Ecobrick ' + brik_serial + '" />' +
+                          '<a href="details-ecobrick-page.php?serial_no=' + brik_serial + '">View Details</a>';
+        
+        // Append the modal to the body
+        document.body.appendChild(modal);
+    }
+
+    function closeEcobrickModal() {
+        // Close the modal by removing it from the DOM
+        var modal = document.querySelector('.ecobrick-modal');
+        if (modal) {
+            modal.parentNode.removeChild(modal);
+        }
+    }
+</script>
+
 
 </body>
 
