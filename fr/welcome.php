@@ -54,7 +54,7 @@ https://github/globalecobrickalliance/ecobricks.org
      </div>-->
 
         <div class="feed-live">
-            <p><span class="blink">⬤  </span>This is a live feed of authenticated selfie ecobricks from the <a href="brikchain.php">ecobrick manual blockchain</a>.  Click any brik to view.</p>
+            <p><span class="blink">⬤  </span>The a live feed of authenticated ecobricks from the <a href="brikchain.php">brikcahin</a>.  Click to preview.</p>
         </div>
  
   
@@ -82,10 +82,10 @@ https://github/globalecobrickalliance/ecobricks.org
             }
 
             ?>
-    <!-- <div class="gal-photo">
+    <div class="gal-photo">
         <div class="photo-box-end"><a href="brikchain.php">+</a></div>
         <div class="gal-photo-text"></div>
-    </div> -->
+    </div>
 
      <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
      50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
