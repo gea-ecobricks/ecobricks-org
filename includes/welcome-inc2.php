@@ -710,7 +710,7 @@ margin-left: 0px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
     overflow: auto;
-    z-index: 1;
+    z-index: 100;
 }
 
 /* Style for the close button */
@@ -728,6 +728,7 @@ margin-left: 0px;
     display: block;
     margin: 20px auto; /* Center the image */
     max-width: 80%; /* Adjust the width as needed */
+    max-height:80%;
 }
 
 /* Style for the details link */
