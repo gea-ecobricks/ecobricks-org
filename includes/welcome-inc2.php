@@ -690,7 +690,7 @@ margin-left: 0px;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    background-color: var(--ecobrick-preview); /* Semi-transparent black background */
     overflow: auto;
     z-index: 100;
 }
@@ -700,8 +700,8 @@ margin-left: 0px;
     position: absolute;
     top: 15px;
     right: 15px;
-    font-size: 24px;
-    color: #fff;
+    font-size: 2em;
+    color: var(--h1);
     cursor: pointer;
 }
 
@@ -710,22 +710,22 @@ margin-left: 0px;
     display: block;
     margin: auto; /* Center the image */
     max-width: 80%; /* Adjust the width as needed */
-    max-height:80%;
-    padding: 20px;
+    max-height:75%;
 }
 
 /* Style for the details link */
 .ecobrick-modal a {
     display: block;
     text-align: center;
-    color: #fff;
+    color: var(--text-color);
     text-decoration: none;
     margin-top: 15px;
+    font-family: 'Mulish',sans-serif;
 }
 
 .ecobrick-modal .ecobrick-details {
     text-align: center;
-    color: #fff;
+    color: var(--text-color);
     margin: 15px 0;
 }
 
