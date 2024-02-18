@@ -315,8 +315,8 @@
   flex-flow: row;
   width: fit-content;
   background-color: var(--settings-background);
-  padding: 16px 43px 16px 11px;
-  border: 1px solid var(--settings-border);
+  padding: 16px 43px 16px 0px;
+  /* border: 1px solid var(--settings-border); */
   border-radius: 15px;
   cursor: pointer;
   transition: 0.4s;
@@ -349,7 +349,7 @@
 
 
 .settings-buttons-expanded {
-  right: -35px !important;
+  right: -75px !important;
 }
 
 .settings-buttons-expanded > #top-settings-button {
@@ -357,7 +357,7 @@
 }
 
 .settings-buttons-expanded > .top-lang-button {
-  margin-left: -20px;
+  margin-left: -26px;
 }
 
 
