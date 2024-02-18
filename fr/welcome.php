@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.94';?>
+<?php $version='1.95';?>
 <?php $page='principles';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -28,10 +28,10 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="featured-content-1"  >
             <div class="featured-content-shaded-box">
                 <div class="featured-content-text">
-                    <div class="featured-content-title" data-lang-id="300-featured-content-1-title">2024 Ecobricking Guidelines</div>
+                    <div class="featured-content-title" data-lang-id="300-featured-content-1-title"></div>
                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle" >Our ecobrick making guide is fully updated for 2024.</div>
 
-                    <a class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more">10 Step Guide</a>
+                    <a class="btn featured-content-button" href="how.php" data-lang-id="1000-10-step-guide">10 Step Guide</a>
                 </div>
             </div>
         </div>
