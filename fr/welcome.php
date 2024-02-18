@@ -98,7 +98,7 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="feature-big-header" data-lang-id="302-gallery-heading">Ecobricking.  Live.</div>
         <div class="feature-sub-text" data-lang-id="303-gallery-subheading">Ecobricks are being made and logged around the world right this moment.  This is a valuable ecological service.  Each authenticated ecobrick and its weight of sequestered plastic is stored on our Brikcoin manual blockchain</div>
 
-        <a class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more">⛓️ Full Brikchain</a>
+        <a class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more">⛓️Full Brikchain</a>
 
             <div class="feature-reference-links"><h6 data-lang-id="309-featured-top10s-references"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6></div>
     </div>

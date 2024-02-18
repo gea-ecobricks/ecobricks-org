@@ -1,6 +1,10 @@
-
-<!--PAGE LANGUAGE:  FRENCH
-Special Ecobrick View Page: v.1.0.1-->
+<!DOCTYPE html>
+<HTML lang="fr"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='fr';?>
+<?php $version='1.84';?>
+<?php $page='principles';?>
  
 <?php 
 require_once ("../includes/details-ecobrick-page-inc.php");

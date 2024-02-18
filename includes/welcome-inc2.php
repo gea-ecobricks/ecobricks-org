@@ -156,14 +156,14 @@ text-align: left;
 line-height: 1.1;
 margin: auto;
 padding: 10px;
-background-color: #DFDFDF;
+/* background-color: #DFDFDF; */
 margin-bottom: 35px;
 }
 
 .feed-live p {
 font-size: .9em;
 font-family: courier new,monospace !important;
-color: #222;
+color: var(--subdued-text);
 line-height: 1.3;
 margin-top: 5px;
 font-weight: 300;
