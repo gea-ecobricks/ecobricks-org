@@ -145,12 +145,12 @@ template.innerHTML = `
     }
     
     [part=lightLabel]::before {
-      background-image: var(--${NAME}-light-icon, url("${DEFAULT_URL}sun2.svg?v=2"));
+      background-image: var(--${NAME}-light-icon, url("${DEFAULT_URL}sun3.svg?v=2"));
     }
     
     [part=darkLabel]::before {
       filter: var(--${NAME}-icon-filter, none);
-      background-image: var(--${NAME}-dark-icon, url("${DEFAULT_URL}moon2.svg?v=2"));
+      background-image: var(--${NAME}-dark-icon, url("${DEFAULT_URL}moon3.svg?v=2"));
     }
     
     [part=toggleLabel]::before {
@@ -480,7 +480,7 @@ export class DarkModeToggle extends HTMLElement {
     if (this.mode === LIGHT) {
       this._checkboxLabel.style.setProperty(
           `--${NAME}-checkbox-icon`,
-          `var(--${NAME}-light-icon,url("${DEFAULT_URL}moon2.svg"))`,
+          `var(--${NAME}-light-icon,url("${DEFAULT_URL}moon3.svg"))`,
       );
       this._checkboxLabel.textContent = this.light;
       if (!this.light) {
@@ -490,7 +490,7 @@ export class DarkModeToggle extends HTMLElement {
     } else {
       this._checkboxLabel.style.setProperty(
           `--${NAME}-checkbox-icon`,
-          `var(--${NAME}-dark-icon,url("${DEFAULT_URL}sun2.svg"))`,
+          `var(--${NAME}-dark-icon,url("${DEFAULT_URL}sun3.svg"))`,
       );
       this._checkboxLabel.textContent = this.dark;
       if (!this.dark) {
