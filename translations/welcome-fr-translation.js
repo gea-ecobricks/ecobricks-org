@@ -99,8 +99,8 @@ const fr_Translations = {
     
             /*Feature Content Slides*/
     
-            '300-featured-content-1-title': 'Directives pour l\'Écobriquage 2024',
-            '301-featured-content-1-subtitle': 'Guide en 10 étapes entièrement mis à jour pour la nouvelle année',
+            '300-featured-content-1-title': 'Directives \'24',
+            '301-featured-content-1-subtitle': 'Guide en 10 étapes pour l\'écobriquage',
 
             '302-featured-2-heading': 'Gardez Votre Plastique en Sécurité',
             '303-featured-2-subheading': 'Lorsque le plastique se disperse dans la biosphère, il contamine et empoisonne. Lorsqu’il est traité par l’industrie, il génère des émissions et encourage la consommation et la production de plus de plastique. L’écobricking est une méthode simple et non capitalistique pour garder votre plastique en sécurité et assuré afin qu’il puisse être utilisé à bon escient, de manière écologique.',
