@@ -6,7 +6,7 @@
 <?php $version='1.87';?>
 <?php $page='principles';?>
  
-<?php require_once ("../includes/regenreports-inc.php");?>
+<?php require_once ("../includes/regenreports2-inc.php");?>
 
 
 <!--PAGE BANNER-->
@@ -144,21 +144,21 @@
 
 		<div class="side">
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 				<img src="../webp/gea-logo-400px.webp" width="90%" loading="lazy">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 				<img src="../webp/for-earth500px.webp" width="80%" loading="lazy">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
 				<a class="module-btn" href="about">About Us</a>
 			</div>
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 				<img src="../webp/catalyst-logo.webp" width="80%" loading="lazy">
 				<h4>Generate Your Regen Report!</h4>
 				<h5>Our Catalyst Program for keen green enterprises allows you to generate automatic and certificed regenerative reports.</h5><br>
