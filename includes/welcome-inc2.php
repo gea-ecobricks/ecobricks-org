@@ -85,6 +85,7 @@ margin: 20px 0px 20px 0px;
   background: grey;
   font-family: 'Mulish';
   font-size: 0.8em;
+  cursor: pointer;
 }
 
 /* 
@@ -155,18 +156,17 @@ text-decoration: none;}
 
 .feed-live {
   text-align:center;
-  background: var(--darker);
+  background: var(--show-hide);
+  border-radius: 10px;
 }
 
   @media screen and (min-width: 700px) { 
 .feed-live {
 width: 100%;
-text-align: left;
 line-height: 1.1;
 margin: auto;
 padding: 10px;
 /* background-color: #DFDFDF; */
-margin-bottom: 35px;
 }
 
 .feed-live p {
@@ -183,16 +183,12 @@ font-weight: 300;
   @media screen and (max-width: 700px) { 
 .feed-live {
 width: 100%;
-text-align: center;
 padding: 10px;
 line-height: 1.5;
-background-color: #DFDFDF;
-margin-bottom: 25px;}
+}
 
 .feed-live p {
-font-size: .8em;
 font-family: courier new,monospace !important;
-color: #222;
 line-height: 1.3;
 margin-top: 5px;
 font-weight: 300;
