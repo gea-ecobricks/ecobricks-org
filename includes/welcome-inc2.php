@@ -100,13 +100,15 @@ margin: 20px 0px 20px 0px;
   height: 100px;
   width: 100px;
   overflow: hidden;
-  background: grey;
+
   /* color: var(--text-color);
   text-align: center;
   font-size: 1em;
   text-decoration: none; */
   animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
-  background: url(../icons/gobrik-icon-white.svg) no-repeat center contain;
+  background: url(../icons/gobrik-icon-darker.svg) no-repeat center contain;
+  background-size: contain;
+  background-color: var(--emblem-green);
 }
 
 @media screen and (max-width: 700px) { 
