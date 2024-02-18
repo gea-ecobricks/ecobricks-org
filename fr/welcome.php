@@ -90,10 +90,8 @@ https://github/globalecobrickalliance/ecobricks.org
             }
 
             ?>
-    <div class="gal-photo">
-        <div class="photo-box-end"><a href="brikchain.php"></a></div>
-        <div class="gal-photo-text"></div>
-    </div>
+
+        <div class="photo-box-end" href="brikchain.php"></div>
 </div>
 
      <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
@@ -101,19 +99,18 @@ https://github/globalecobrickalliance/ecobricks.org
     
 
     
-
     <div class="feature-content-box">
-    <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
+
         <div class="feature-big-header" data-lang-id="302-gallery-heading">Ecobricking.  Live.</div>
         <div class="feature-sub-text" data-lang-id="303-gallery-subheading">Ecobricks are being made and logged around the world right this moment.  This is a valuable ecological service.  Each authenticated ecobrick and its weight of sequestered plastic is stored on our Brikcoin manual blockchain</div>
 
-        <a class="btn featured-content-button" href="how.php" data-lang-id="1000-learn-more">⛓️Full Brikchain</a>
+        <a class="btn featured-gallery-button" href="how.php" data-lang-id="1000-learn-more">⛓️Full Brikchain</a>
 
             <div class="feature-reference-links"><h6 data-lang-id="309-featured-top10s-references"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6></div>
     </div>
 
 </div>
-</div>
+
 
 
 
@@ -170,6 +167,8 @@ https://github/globalecobrickalliance/ecobricks.org
     <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
         <div class="feature-big-header" data-lang-id="302-gallery-heading">Top Ten Ecobricks</div>
         <div class="feature-sub-text" data-lang-id="303-gallery-subheading">Every month thousands of ecobricks are logged by ecobrickers around the world-- and peer review by them too!</div>
+
+        <a class="btn featured-gallery-button" href="brikchain.php" data-lang-id="1000-learn-more">⛓️Full Brikchain</a>
 
             <div class="feature-reference-links"><h6 data-lang-id="309-featured-top10s-references"><a href="brikchain.php">Brikchain</a> | <a href="/brikcoins">Brikcoins</a></h6></div>
     </div>
