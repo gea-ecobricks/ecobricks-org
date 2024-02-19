@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='2.34';?>
+<?php $version='2.4';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -180,11 +180,11 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="featured-content-4"  >
         <div class="feature-content-box">
             <div class="featured-content-img earthservice-pic"></div>
-            <div class="feature-big-header" data-lang-id="310-featured-4-heading">Following Earth's Example</div>
-            <div class="feature-sub-text" data-lang-id="311-featured-4-subheading">
-            Regenerative ecobricking arose ten years ago out of the land of the Igorot people in the Northern Philippines.  Inspired by their Ayyew ecological ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste.  Instead, all our methods and applications are designed from the ground up to follow Earth's example.</div>
-            <a href="principles.php" class="feature-button" data-lang-id="312-featured-4-button">Our Earthen Principles</a>
-            <div class="feature-reference-links"><h6 data-lang-id="313-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="/about">About Us</a> | <a href="/story/">History</a></h6>
+            <div class="feature-big-header" data-lang-id="319-featured-4-heading">Following Earth's Example</div>
+            <div class="feature-sub-text" data-lang-id="320-featured-4-subheading">
+            Our ecobricking is inspired by the Igorot people of Northen Luzon, where the Global Ecobrick Alliance was founded.  Guided by their Ayyew ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste.</div>
+            <a href="principles.php" class="feature-button" data-lang-id="321-featured-4-button">🌏 Our Earthen Principles</a>
+            <div class="feature-reference-links"><h6 data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a> | <a href="/story/">GEA story</a></h6>
             </div>
         </div>
     </div>

@@ -18,29 +18,36 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 const fr_Page_Translations = {
 
     
-            /*Feature Content Slides*/
+    '300-featured-content-1-title': 'Directives Mises à Jour',
+    '301-featured-content-1-subtitle': 'Notre guide sur les écobriques est mis à jour pour 2024.',
+    '302-featured-content-1-button': 'Nouveau Guide en 10 Étapes',
     
-            '300-featured-content-1-title': 'Directives \'24',
-            '301-featured-content-1-subtitle': 'Guide en 10 étapes pour l\'écobriquage',
-            '302-featured-content-1-button': 'Nouveau guide',
-        
-        
-            '302-featured-2-heading': 'Gardez Votre Plastique en Sécurité',
-            '303-featured-2-subheading': 'Lorsque le plastique se disperse dans la biosphère, il contamine et empoisonne. Lorsqu’il est traité par l’industrie, il génère des émissions et encourage la consommation et la production de plus de plastique. L’écobricking est une méthode simple et non capitalistique pour garder votre plastique en sécurité écologique.',
-            '304-featured-2-button': '👋 Intro au Écobrique',
-            '305-featured-2-rreferences': '<h6><a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a></h6>',
-            
-            '306-featured-3-heading': 'Applications Impressionnantes',
-            '307-featured-3-subheading': 'Les écobricks transforment le plastique problématique en blocs réutilisables qui peuvent être employés dans des applications de construction de plus en plus vertes. Du mobilier aux jardins en passant par les structures, nos applications recommandées incarnent le principe de la conception en spirale. Le plastique n’a pas à être un problème – c’est le début de la solution.',
-            '308-featured-3-button': '⚒️ Construction en Écobrick',
-            '309-featured-3-references': '<a href="earth.php">Construction Terrestre</a> | <a href="/earth-methods">Méthodes Terrestres</a> | <a href="/modules">Modules de Mobilier</a> | <a href="/spiral">Conception en Spirale</a> | <a href="/openspaces">Espaces Ouverts</a> | <a href="/fire">Sécurité Incendie</a>',
-        
-            '310-featured-4-heading': 'Suivre l\'Exemple Terrestre',
-            '311-featured-4-subheading': 'L\'écobricking régénératif est apparu il y a dix ans sur la terre du peuple Igorot dans le nord des Philippines. Inspiré par leur éthos écologique Ayyew, l\'écobricking se distingue fondamentalement des concepts occidentaux de durabilité et de zéro déchet. Au lieu de cela, toutes nos méthodes et applications sont conçues dès le départ pour suivre l\'exemple de la Terre.',
-            '312-featured-4-button': '🌏 Nos Principes Terrestre',
-            '313-featured-4-references': '<a href="spiral.php">Conception en Spirale</a> | <a href="/ayyew/">Ayyew</a> | <a href="/about">À Propos de Nous</a> | <a href="/story/">Histoire</a>',    
-            
-             
+    '303-featured-live-brikchain': 'Flux en direct des écobriques authentifiées. Cliquez pour prévisualiser.',
+    '304-featured-live-heading': 'Écobriquage. En direct.',
+    '305-featured-live-subheading': 'Des écobriques sont fabriquées, enregistrées et validées dans le monde entier en ce moment même. Chaque écobrique authentifiée est publiée sur notre manuel de la chaîne de blocs Brikcoin.',
+    '306-featured-live-button': '⛓️ La Brikchaîne',
+    '307-featured-live-links': '<a href="brikchain.php">À propos d\'AES Plastic</a> | <a href="/brikcoins">À propos de Brikcoins</a>',
+    
+    '308-featured-2-heading': 'Gardez Votre Plastique en Sécurité',
+    '309-featured-2-subheading': 'Quand le plastique se disperse dans la biosphère, il la contamine et la empoisonne. Quand le plastique est traité par l\'industrie, cela encourage la production de plus de plastique. L\'écobriquage est une méthodologie simple et non capitalistique pour garder votre plastique en sécurité afin qu\'il puisse être utilisé de manière bonne et verte.',
+    '310-featured-2-button': 'Introduction à l\'Écobriquage',
+    '311-featured-2-references': '<h6><a href="what.php">Basiques</a> | <a href="transition.php">Transition Plastique</a> | <a href="how.php">Comment Faire</a></h6>',
+    
+    '312-top10s-title': 'Top Dix Mensuels',
+    '313-top10s-subtitle': 'Chaque mois, des milliers d\'écobriques sont enregistrées par des écobriqueteurs du monde entier, et examinées par eux aussi!',
+    '313-top10s-button': '🏆 Classements Mensuels',
+    '314-top10s-references': '<a href="top-tens.php">Brikchaîne</a> | <a href="/brikcoins">Brikcoins</a></h6>',
+    
+    '315-featured-3-heading': 'Utilisez Votre Plastique de Manière Utile',
+    '316-featured-3-subheading': 'Les écobriques transforment le plastique problématique en blocs réutilisables. Avec nos écobriques, nous pouvons construire de manière grande et verte. Des meubles aux jardins, en passant par les structures, les sorties des écobriques incarnent le principe de la conception en spirale. Votre plastique n\'est pas un problème, c\'est le début de la solution.',
+    '317-featured-3-button': '🔨 Construction avec des écobriques',
+    '318-featured-3-references': '<a href="earth.php">Construction Terrestre</a> | <a href="/earth-methods">Méthodes Terrestres</a> | <a href="modules.php">Modules de Meubles</a> | <a href="spiral.php">Conception en Spirale</a> | <a href="/openspace/">Espaces Ouverts</a> | <a href="/fire/">Sécurité Incendie</a></h6>',
+    
+    '319-featured-4-heading': 'En Suivant l\'Exemple de la Terre',
+    '320-featured-4-subheading': 'Notre écobriquage est inspiré par le peuple Igorot du Nord de Luzon, où l\'Alliance Mondiale des écobriques a été fondée. Guidé par leur éthique Ayyew, l\'écobriquage est fondamentalement distinct des concepts occidentaux de durabilité et de zéro déchet.',
+    '321-featured-4-button': '🌏 Nos Principes Terrestres',
+    '322-featured-4-references': '<h6 data-lang-id="322-featured-4-references"><a href="spiral.php">Conception en Spirale</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">À Propos de Nous</a> | <a href="/story/">Histoire de l\'AME</a>',
+           
 }
         
       

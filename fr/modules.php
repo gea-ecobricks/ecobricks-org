@@ -503,40 +503,36 @@
 
         
 
-        <div id="side-module-desktop-mobile">
+        <div class="side-module-desktop-mobile">
                 <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Get started with 12 Briks!</h4>
                 <h5>To make your first milstein module all you need is twelve ecobricks.  Once that's done, you can keep adding to it, or make others that fit into the first.</h5><br>
                 
             </div>
 
-            <div id="side-module-desktop-mobile">
+            <div class="side-module-desktop-mobile">
                 <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Combine Modules</h4>
                 <h5>After one module is done you can keep adding to it, or make others that fit into the first.</h5><br>
                 
             </div>
 
-            <div id="side-module-desktop-mobile">
-                <img src="../webp/modules-circular.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Circular & Spiral</h4>
-                <h5>Milstein modules are 100% circular-- meaning that when their life comes to an end they can be either repaired or disassembled to make something else.</h5><br>
-                <a class="module-btn" href="/circular/">Learn More</a>
-            </div>
+            <?php require_once ("side-modules/spiral-design-principle.php");?>
+
 
             
 
-            <div id="side-module-desktop-mobile">
+            <div class="side-module-desktop-mobile">
                 <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
                 <h4>Then build with Earth!</h4>
                 <h5>After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
-                <a class="module-btn" href="/build">Earth Building</a>
+                <a class="module-btn" href="earth.php">Earth Building</a>
             </div>
 	
 			
             
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
@@ -544,11 +540,6 @@
 			</div>
 
 			
-            
-            <?php include 'ecobricks_env.php';?> 
-            <?php require_once ("side-modules/ecobrick-of-the-month.php");?>
-            
-            <?php 	$conn->close();?>
 
             
 
