@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.73';?>
+<?php $version='1.74';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
@@ -62,24 +62,17 @@
 
                 </div>
 
+                        </div>
+
                 <div class="side">
             
+                    <?php require_once ("side-modules/earthen-ethics.php");?>
+                    
+                    <?php require_once ("side-modules/spiral-design.php");?>
+                    
+                    <?php require_once ("side-modules/about-gea.php");?>
 
-                
-
-                <?php require_once ("side-modules/earthen-ethics.php");?>
-                
-                <?php require_once ("side-modules/spiral-design.php");?>
-                
-                <?php require_once ("side-modules/about-gea.php");?>
-
-                <?php require_once ("side-modules/earthen-ethics-principle.php");?>
-
-
-                
-
-
-
+                    <?php require_once ("side-modules/earthen-ethics-principle.php");?>
 
 
                 </div>

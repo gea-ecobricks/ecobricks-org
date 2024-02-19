@@ -17,17 +17,15 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const fr_Page_Translations = {
 
-    '001-splash-title': 'Alliance Globale d\'Ecobrique',
-    '002-splash-subtitle': 'Apropos de nous',
-    '003-splash-image-alt': '<img src="../webp/gea-perspective-400px.webp" style="width: 85%" alt="The Global Ecobrick Alliance logo - seven symbolic circles">',
+    '001-splash-title': 'L\'histoire longue du plastique',
+    '002-splash-subtitle': 'Comprendre l\'histoire ancienne du plastique est essentiel pour le remettre en bon usage aujourd\'hui.',
+    '003-splash-image-alt': '<img src="../webp/plastic-origins.webp" style="width: 85%" alt="Le plastique vient de loin sous la terre.">',
     
-    '004-lead-page-paragraph': 'La Global Ecobrick Alliance est une Earth Enterprise qui accélère la transition plastique locale et mondiale. Nous le faisons grâce à la diffusion mandalique d\'écobriques fondées sur des principes et pratiques pour élever la conscience écologique.',
-    '005-first-page-paragraph': 'L\'<a href="/story">histoire</a> de la Global Ecobrick Alliance commence sur le territoire traditionnel du peuple Igorot (<i>Kaigorotan</i>) dans les hautes terres du nord de Luzon dans le Mer des Philippines occidentales. En nous efforçant de garder notre plastique hors de la rivière, nous avons développé des moyens et des méthodes pour nos maisons et nos communautés qui incarnaient la <a href="/ayyew">éthique Igorot Ayyew</a>. Inspirés par la sagesse indigène, les principes et méthodes d\'écobrique sont aujourd\'hui un moyen pour les ménages, les entreprises et les communautés du monde entier d\'accélérer leur <a href="transition.php">transition plastique.</a>',
-    '006-second-page-paragraph': 'La Global Ecobrick Alliance (GEA) est composée de plus de 400 formateurs en transition de tous horizons, âges et origines. Nous sommes connectés dans le monde entier dans notre préoccupation pour la biosphère et ses dommages par la pollution plastique. Nous sommes unis par la solution que nous avons trouvée dans notre écobrique pour <a href="transition.php">transition</a> du plastique vers une vie toujours plus verte. '
-
-
-
+    '004-lead-page-paragraph': 'Qu\'est-ce que le plastique exactement? D\'où vient-il? Et, où va-t-il? Pour utiliser le plastique de manière avisée et prendre des décisions sûres quant à son avenir, il est essentiel de connaître son histoire complète, basée sur la science - ce que nous appelons la \'longue histoire du plastique\'.',
     
+    '005-first-page-paragraph': 'De plus en plus, nous apprenons que l\'histoire du plastique ne se termine pas lorsque nous le jetons. Selon les scientifiques, une quantité croissante de plastique est fabriquée, jetée et atteint la biosphère, où elle nuit aux créatures grandes et petites.',
+    
+    '006-second-page-paragraph': 'Cependant, il est tout aussi important de comprendre que l\'histoire du plastique ne commence pas dans une usine. Au contraire, le plastique trouve ses origines il y a des millions d\'années sur une Terre ancienne et stérile que nous reconnaîtrions à peine. En fait, les molécules de carbone de notre plastique moderne ont joué un rôle clé dans la création de notre maison commune, la biosphère florissante et diversifiée que nous connaissons aujourd\'hui.'
 }
-        
+  
       
