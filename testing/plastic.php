@@ -2,8 +2,8 @@
 <HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='fr';?>
-<?php $version='1.74';?>
+<?php $lang='en';?>
+<?php $version='1.75';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
@@ -67,12 +67,7 @@
 
                 <div class="side">
             
-                    <?php require_once ("side-modules/earthen-ethics.php");?>
-                    
-                    <?php require_once ("side-modules/spiral-design.php");?>
-                    
-                    <?php require_once ("side-modules/about-gea.php");?>
-
+    
                     <?php require_once ("side-modules/earthen-ethics-principle.php");?>
 
 
