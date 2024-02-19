@@ -31,7 +31,7 @@ https://github/globalecobrickalliance/ecobricks.org
                      <div class="featured-content-title" data-lang-id="x300-featured-content-1-title">L'écobriquage 2024</div>
                      <div class="featured-content-subtitle" data-lang-id="x301-featured-content-1-subtitle">Guide en 10 étapes mis à jour pour 2024.</div>
 
-                     <a class="btn feature-content-button" href="how.php" data-lang-id="302-featured-content-1-button">Nouveau guide</a>
+                     <a class="btn feature-button" href="how.php" data-lang-id="302-featured-content-1-button">Nouveau guide</a>
                  </div>
              </div>
          </div>

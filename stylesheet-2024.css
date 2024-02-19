@@ -315,7 +315,7 @@
   flex-flow: row;
   width: fit-content;
   background-color: var(--settings-background);
-  padding: 16px 43px 16px 0px;
+  padding: 16px 43px 16px 12px;
   /* border: 1px solid var(--settings-border); */
   border-radius: 15px;
   cursor: pointer;
@@ -1430,7 +1430,7 @@ width: 100%;
 .featured-content-text {
 
   text-align: left;
-  margin: 30px 8% auto 8%;
+  margin: auto 8% auto 8%;
   /* transform: translate(-50%, -50%); */
 }
 
