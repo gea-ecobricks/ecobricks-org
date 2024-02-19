@@ -28,10 +28,10 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="featured-content-1"  >
             <div class="featured-content-shaded-box">
                 <div class="featured-content-text">
-                    <div class="featured-content-title" data-lang-id="300-featured-content-1-title"></div>
-                    <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle" >Our ecobrick making guide is fully updated for 2024.</div>
+                    <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Updated Guidelines</div>
+                    <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle" >Our ecobricking guide is updated for 2024.</div>
 
-                    <a class="btn featured-content-button" href="how.php" data-lang-id="1000-10-step-guide">10 Step Guide</a>
+                    <a class="btn featured-content-button" href="how.php" data-lang-id="302-featured-content-1-button">New Guide</a>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@ https://github/globalecobrickalliance/ecobricks.org
      </div>-->
 
         <div class="feed-live">
-            <p><span class="blink">⬤  </span>The a live feed of authenticated ecobricks from the <a href="brikchain.php">brikcahin</a>.  Click to preview.</p>
+            <p data-lang-id="303-live-brikchain"><span class="blink">⬤  </span>Live brikchain feed of authenticated ecobricks.  Click to preview.</p>
         </div>
         <div class="gallery-flex-container">
         <?php

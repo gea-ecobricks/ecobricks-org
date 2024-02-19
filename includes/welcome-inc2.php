@@ -151,7 +151,6 @@ margin: 0px -15px 30px -15px}
 
 .feed-live {
 width: 80%;
-line-height: 1.1;
 margin: auto;
 padding: 10px;
 margin-top:20px;
@@ -160,10 +159,10 @@ margin-top:20px;
 }
 
 .feed-live p {
-font-size: .9em;
+font-size: 0.9em;
 font-family: courier new,monospace !important;
 color: var(--subdued-text);
-line-height: 1.3;
+line-height: 1.1;
 margin-top: 5px;
 font-weight: 300;
 
@@ -175,14 +174,15 @@ font-weight: 300;
 .feed-live {
 width: 90%;
 padding: 10px;
-line-height: 1.5;
 }
 
 .feed-live p {
 font-family: courier new,monospace !important;
-line-height: 0.9em;
+line-height: 1.1em;
 margin-top: 5px;
 font-weight: 300;
+font-size: 0.9em;
+
 
 }
   } 
