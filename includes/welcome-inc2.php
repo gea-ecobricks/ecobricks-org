@@ -56,7 +56,7 @@ width: 100%;
   background-position: center;
   position: relative;
   overflow: hidden;
-  margin-bottom: 10vh;
+  margin-bottom: 13vh;
   margin-right: 22px;
   margin-left: 22px;
   border-radius: 20px;
@@ -120,7 +120,7 @@ margin: auto 10px auto 18px;
 
 .content1-button {
   border: none;
-  color: var(--h1);
+  color: var(--main-background);
   background-color: var(--emblem-orange);
   font-weight: bolder;
   align-self: center;
@@ -599,7 +599,7 @@ margin-left: 0px;
     background-position: center;
     position: relative;
     overflow: hidden;
-    margin-top: -50px;
+    margin-top: -40px;
     margin-bottom: 10px;
     margin-right: 16px;
     margin-left: 16px;

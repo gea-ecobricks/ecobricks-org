@@ -18,11 +18,11 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 const fr_Page_Translations = {
 
     
-    '300-featured-content-1-title': 'Directives Mises à Jour',
+    '300-featured-content-1-title': 'Nouvelle Guide',
     '301-featured-content-1-subtitle': 'Notre guide sur les écobriques est mis à jour pour 2024.',
     '302-featured-content-1-button': 'Nouveau Guide en 10 Étapes',
     
-    '303-featured-live-brikchain': '<span class="blink">⬤  </span>Flux en direct des écobriques authentifiées. Cliquez pour prévisualiser.',
+    '303-featured-live-brikchain': '<span class="blink">⬤ </span>Flux en direct des écobriques authentifiées. Cliquez pour prévisualiser.',
     '304-featured-live-heading': 'Écobriquage. En direct.',
     '305-featured-live-subheading': 'Des écobriques sont fabriquées, enregistrées et validées dans le monde entier en ce moment même. Chaque écobrique authentifiée est publiée sur notre manuel de la chaîne de blocs Brikcoin.',
     '306-featured-live-button': '⛓️ La Brikchaîne',
