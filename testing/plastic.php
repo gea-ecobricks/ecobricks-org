@@ -10,7 +10,7 @@
 
 <?php require_once ("../includes/plastic-inc.php");?>
 
-<article id="the-long-story-of-plastic">
+<!-- <article id="the-long-story-of-plastic"> -->
 
 
 <!--PAGE BANNER-->
@@ -62,7 +62,7 @@
 
                 </div>
 
-                        </div>
+             
 
                 <div class="side">
             
