@@ -251,7 +251,7 @@
 
   #gea-logo {
     padding:2px;
-    margin: auto auto auto 0px;
+    margin: auto auto auto 5px;
     width: 190px;
     height:40px;
     transition: 0.6s;
@@ -315,7 +315,7 @@
   flex-flow: row;
   width: fit-content;
   background-color: var(--settings-background);
-  padding: 13px 43px 13px 12px;
+  padding: 16px 43px 16px 12px;
   /* border: 1px solid var(--settings-border); */
   border-radius: 15px;
   cursor: pointer;
