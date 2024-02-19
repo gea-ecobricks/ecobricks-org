@@ -131,9 +131,16 @@ margin: auto 10px auto 10px;
   text-align: center;
   display: flex;
   opacity:0.88;
+
+  display: inline-block;
+  margin: 12px auto 12px auto;
+  text-decoration: none;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  font-family: 'Mulish', sans-serif;
   }
 
-  .btn:hover {
+  .content1-button:hover {
   opacity: 1;}
 
 
