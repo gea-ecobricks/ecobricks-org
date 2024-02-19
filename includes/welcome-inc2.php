@@ -315,9 +315,10 @@ margin: 0px -15px 30px -15px}
 .feed-live {
   text-align:center;
   background: var(--darker);
-  border-radius: 10px;
+  border-radius: 15px 15px 0px 0px ;
   margin-top:20px;
   font-size: 0.9em;
+  margin-bottom: -10px
 }
 
 
@@ -328,7 +329,7 @@ margin: 0px -15px 30px -15px}
 width: 80%;
 margin: auto;
 padding: 10px;
-margin-top:20px;
+
 
 /* background-color: #DFDFDF; */
 }
@@ -338,7 +339,6 @@ font-size: 0.9em;
 font-family: courier new,monospace !important;
 color: var(--subdued-text);
 line-height: 1.1;
-margin-top: 5px;
 font-weight: 300;
 
 }
@@ -347,17 +347,15 @@ font-weight: 300;
 
   @media screen and (max-width: 700px) { 
 .feed-live {
-width: 90%;
+width: 80%;
 padding: 10px;
 }
 
 .feed-live p {
 font-family: courier new,monospace !important;
 line-height: 1.1em;
-margin-top: 5px;
 font-weight: 300;
-font-size: 0.9em;
-
+font-size: 0.8em;
 
 }
   } 

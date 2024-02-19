@@ -23,9 +23,11 @@ const fr_Page_Translations = {
             '300-featured-content-1-title': 'Directives \'24',
             '301-featured-content-1-subtitle': 'Guide en 10 étapes pour l\'écobriquage',
             '302-featured-content-1-button': 'Nouveau guide',
+        
+        
             '302-featured-2-heading': 'Gardez Votre Plastique en Sécurité',
             '303-featured-2-subheading': 'Lorsque le plastique se disperse dans la biosphère, il contamine et empoisonne. Lorsqu’il est traité par l’industrie, il génère des émissions et encourage la consommation et la production de plus de plastique. L’écobricking est une méthode simple et non capitalistique pour garder votre plastique en sécurité écologique.',
-            '304-featured-2-button': '👋 Introduction à l’Écobricking',
+            '304-featured-2-button': '👋 Intro au Écobrique',
             '305-featured-2-rreferences': '<h6><a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a></h6>',
             
             '306-featured-3-heading': 'Applications Impressionnantes',

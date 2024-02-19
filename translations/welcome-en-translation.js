@@ -24,7 +24,13 @@ const en_Page_Translations = {
   '301-featured-content-1-subtitle': 'Our ecobricking guide is updated for 2024.',
   '302-featured-content-1-button': 'New 10-step Guide',
 
-  '303-303-live-brikchain':'Live brikchain feed of authenticated ecobricks.  Click to preview.',
+  '303-featured-live-brikchain':'Live brikchain feed of authenticated ecobricks.  Click to preview.',
+  '304-featured-live-heading':'Ecobricking.  Live.',
+  '305-featured-live-subheading':'Ecobricks are being made, logged and validated around the world right this moment.  Each authenticated ecobrick is published onto our Brikcoin manual blockchain.',
+  '306-featured-live-button':'⛓️ The Brikchain',
+  '306-featured-live-links':'<a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a>',
+
+  
 
   
   '302-featured-2-heading': 'Keep Your Plastic Safe',

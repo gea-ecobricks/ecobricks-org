@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='2.31';?>
+<?php $version='2.34';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -31,7 +31,7 @@ https://github/globalecobrickalliance/ecobricks.org
                      <div class="featured-content-title" data-lang-id="x300-featured-content-1-title">Nouvelle Guide</div>
                      <div class="featured-content-subtitle" data-lang-id="x301-featured-content-1-subtitle">Guide en 10 étapes mis à jour pour 2024.</div>
 
-                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button" style="margin-top:20px;">Faire un brik</a>
+                     <a class="content1-button" href="how.php" data-lang-id="x302-featured-content-1-button" style="margin-top:20px;">Faire un brik</a>
                  </div>
              </div>
          </div>
@@ -54,7 +54,7 @@ https://github/globalecobrickalliance/ecobricks.org
      </div>-->
 
         <div class="feed-live">
-            <p data-lang-id="303-live-brikchain"><span class="blink">⬤  </span>Live brikchain feed of authenticated ecobricks.  Click to preview.</p>
+            <p data-lang-id="303-featured-live-brikchain"><span class="blink">⬤  </span>Live brikchain feed of authenticated ecobricks.  Click to preview.</p>
         </div>
         <div class="gallery-flex-container">
         <?php
@@ -86,12 +86,12 @@ https://github/globalecobrickalliance/ecobricks.org
     
     <div class="feature-content-box">
 
-        <div class="feature-big-header" data-lang-id="302-gallery-heading">Ecobricking.  Live.</div>
-        <div class="feature-sub-text" data-lang-id="303-gallery-subheading">Ecobricks are being made and logged around the world right this moment.  This is a valuable ecological service.  Each authenticated ecobrick and its weight of sequestered plastic is stored on our Brikcoin manual blockchain</div>
+        <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobricking.  Live.</div>
+        <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks are being made, logged and validated around the world right this moment.  Each authenticated ecobrick is published onto our Brikcoin manual blockchain.</div>
 
-        <a class="btn featured-content-button" href="brikchain.php" data-lang-id="10xx-ful-brikchain">⛓️Full Brikchain</a>
+        <a class="btn featured-content-button" href="brikchain.php" data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
 
-            <div class="feature-reference-links"><h6 data-lang-id="309-featured-top10s-references"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6></div>
+            <div class="feature-reference-links"><h6 data-lang-id="307-featured-live-links"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6></div>
     </div>
 
 </div>
@@ -105,12 +105,12 @@ https://github/globalecobrickalliance/ecobricks.org
 
             <div class="featured-content-img dolphin-pic"></div>
             
-            <div class="feature-big-header" data-lang-id="302-featured-2-heading">Keep Your Plastic Safe</div>
-            <div class="feature-sub-text" data-lang-id="303-featured-2-subheading">
-            When plastic gets loose into the biosphere it contaminates and poisons.  When plastic is processed by industry it generates emissions and encourages more plastic to be consumed and produced.  Ecobricking is a simple, non-capital method of keeping your plastic safe and secure so that it can be put to good, green use.</div>
-            <button type="button" class="feature-button" data-lang-id="304-featured-2-button" onclick="guidedTour()">Intro to Ecobricking</button>
+            <div class="feature-big-header" data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</div>
+            <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
+            When plastic gets loose into the biosphere it contaminates and poisons.  When plastic is processed by industry it encourages more plastic to be produced.  Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
+            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" onclick="guidedTour()">Intro to Ecobricking</button>
 
-            <div class="feature-reference-links" data-lang-id="305-featured-2-references">
+            <div class="feature-reference-links" data-lang-id="311-featured-2-references">
                 <h6>
                 <a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
             </div>
