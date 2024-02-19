@@ -28,10 +28,10 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
                  <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="x300-featured-content-1-title">L'écobriquage 2024</div>
+                     <div class="featured-content-title" data-lang-id="x300-featured-content-1-title">Nouvelle Guide</div>
                      <div class="featured-content-subtitle" data-lang-id="x301-featured-content-1-subtitle">Guide en 10 étapes mis à jour pour 2024.</div>
 
-                     <a class="btn feature-button" href="how.php" data-lang-id="302-featured-content-1-button" style="margin-top:20px;">Nouveau guide</a>
+                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button" style="margin-top:20px;">Faire un brik</a>
                  </div>
              </div>
          </div>
