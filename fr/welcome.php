@@ -31,7 +31,7 @@ https://github/globalecobrickalliance/ecobricks.org
                      <div class="featured-content-title" data-lang-id="x300-featured-content-1-title">Nouvelle Guide</div>
                      <div class="featured-content-subtitle" data-lang-id="x301-featured-content-1-subtitle">Guide en 10 étapes mis à jour pour 2024.</div>
 
-                     <a class="content1-button" href="how.php" data-lang-id="x302-featured-content-1-button">Faire un brik</a>
+                     <a class="content1-button" href="how.php" data-lang-id="x302-featured-content-1-button">Comment faire une écobrique</a>
                  </div>
              </div>
          </div>
@@ -173,17 +173,6 @@ https://github/globalecobrickalliance/ecobricks.org
         </div>
     </div>
 
-
-
-
-
- <!-- closes main -->
-
-  
-
- 
-
-       
 
  <!--FOURTH CONTENT SECTION-->
 

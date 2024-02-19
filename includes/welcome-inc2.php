@@ -79,7 +79,7 @@ margin: auto 8% auto 8%;
     background-position: center;
     position: relative;
     overflow: hidden;
-    margin-bottom: 10vh;
+    margin-bottom: 9vh;
     margin-right: 16px;
     margin-left: 16px;
     border-radius: 18px;
@@ -90,7 +90,7 @@ margin: auto 8% auto 8%;
   .featured-content-text {
 
 text-align: left;
-margin: auto 10px auto 10px;
+margin: auto 10px auto 18px;
 /* transform: translate(-50%, -50%); */
 }
 }
@@ -126,14 +126,14 @@ margin: auto 10px auto 10px;
   align-self: center;
   cursor: pointer;
   justify-content: center;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 8px;
   padding: 5px;
   text-align: center;
   display: flex;
   opacity:0.88;
 
   display: inline-block;
-  margin: 12px auto 12px auto;
+  margin: 10px auto 25px auto;
   text-decoration: none;
   padding: 8px 15px 8px 15px;
   border: none;
