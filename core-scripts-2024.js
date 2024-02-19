@@ -85,8 +85,8 @@ function clearSiteCache() {
         // document.getElementById("settings-buttons").style.marginRight = "0px"; 
         document.getElementById("settings-buttons").style.padding = "16px 43px 16px 12px";
         document.getElementById("main-header-buttons").style.marginTop = "0px";  
-        document.getElementById("language-menu-slider").style.top = "-10px";  
-        document.getElementById("login-menu-slider").style.top = "-10px";  
+        document.getElementById("language-menu-slider").style.top = "-15px";  
+        document.getElementById("login-menu-slider").style.top = "-15px";  
         document.getElementById("registration-footer").style.opacity = "0";  
 
 
@@ -106,8 +106,8 @@ function scrollMoreThan40() {
         document.getElementById("settings-buttons").style.marginTop = "3px"; 
         document.getElementById("settings-buttons").style.padding = "16px 43px 16px 12px"; 
         document.getElementById("main-header-buttons").style.marginTop = "-5px";  
-        document.getElementById("language-menu-slider").style.top = "-30px";  
-        document.getElementById("login-menu-slider").style.top = "-30px";  
+        document.getElementById("language-menu-slider").style.top = "-35px";  
+        document.getElementById("login-menu-slider").style.top = "-35px";  
         document.getElementById("registration-footer").style.opacity = "1";  
 
 
