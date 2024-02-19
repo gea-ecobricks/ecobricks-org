@@ -31,7 +31,7 @@ https://github/globalecobrickalliance/ecobricks.org
                      <div class="featured-content-title" data-lang-id="x300-featured-content-1-title">Nouvelle Guide</div>
                      <div class="featured-content-subtitle" data-lang-id="x301-featured-content-1-subtitle">Guide en 10 étapes mis à jour pour 2024.</div>
 
-                     <a class="content1-button" href="how.php" data-lang-id="x302-featured-content-1-button" style="margin-top:20px;">Faire un brik</a>
+                     <a class="content1-button" href="how.php" data-lang-id="x302-featured-content-1-button">Faire un brik</a>
                  </div>
              </div>
          </div>
@@ -112,7 +112,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
             <div class="feature-reference-links" data-lang-id="311-featured-2-references">
                 <h6>
-                <a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
+                <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
             </div>
         </div>
     </div>
@@ -150,30 +150,26 @@ https://github/globalecobrickalliance/ecobricks.org
     </div>
     <div class="feature-content-box">
     <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
-        <div class="feature-big-header" data-lang-id="302-gallery-heading">Monthly Top Tens</div>
-        <div class="feature-sub-text" data-lang-id="303-gallery-subheading">Every month thousands of ecobricks are logged by ecobrickers around the world-- and peer review by them too!</div>
+        <div class="feature-big-header" data-lang-id="312-top10s-title">Monthly Top Tens</div>
+        <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world-- and peer review by them too!</div>
 
-         <a href="top-tens.php" class="feature-button"  data-lang-id="1000-top-tens">🏆 Monthly Rankings</a>
+         <a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button">🏆 Monthly Rankings</a>
 
-            <div class="feature-reference-links"><h6 data-lang-id="309-featured-top10s-references"><a href="top-tens.php">Brikchain</a> | <a href="/brikcoins">Brikcoins</a></h6></div>
+            <div class="feature-reference-links"><h6 data-lang-id="314-top10s-references"><a href="top-tens.php">Brikchain</a> | <a href="/brikcoins">Brikcoins</a></h6></div>
     </div>
     
 </div>
 
-
-    
-
-
     <div class="featured-content-3"  >
         <div class="feature-content-box">
             <div class="featured-content-img ecovillage-pic"></div>
-            <div class="feature-big-header" data-lang-id="306-featured-3-heading">Awesome Applications</div>
-            <div class="feature-sub-text" data-lang-id="307-featured-3-subheading">
-            Ecobricks turn problematic plastic into reusable blocks that can be put to use in greener and greener building applications.  From furniture, to gardens to structures our recommended applications embody the principle of spiral design.  Plastic doesn't have to be a problem-- its the start of the solution.</div>
+            <div class="feature-big-header" data-lang-id="315-featured-3-heading">Put Plastic to Good Use</div>
+            <div class="feature-sub-text" data-lang-id="316-featured-3-subheading">
+            Ecobricks turn problematic plastic into reusable blocks.  With our ecobricks we can build great and green.  From furniture, to gardens, to structures ecobrick outputs embody the principle of spiral design.  Your plastic isn't a problem-- its the start of the solution.</div>
 
-            <a href="build.php" class="feature-button" data-lang-id="308-featured-3-button">Ecobrick Building</a>
+            <a href="build.php" class="feature-button" data-lang-id="317-featured-3-button">🔨Ecobrick Building</a>
             
-            <div class="feature-reference-links"><h6 data-lang-id="309-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="/earth-methods">Earth Methods</a> | <a href="/modules">Furniture Modules</a> | <a href="/spiral">Spiral Design</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a></h6></div>
+            <div class="feature-reference-links"><h6 data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="/earth-methods">Earth Methods</a> | <a href="modules.php">Furniture Modules</a> | <a href="spiral.php">Spiral Design</a> | <a href="/openspace/">Open Spaces</a> | <a href="/fire/">Fire Safety</a></h6></div>
         </div>
     </div>
 

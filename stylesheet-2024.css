@@ -315,7 +315,7 @@
   flex-flow: row;
   width: fit-content;
   background-color: var(--settings-background);
-  padding: 16px 43px 16px 12px;
+  padding: 13px 43px 13px 12px;
   /* border: 1px solid var(--settings-border); */
   border-radius: 15px;
   cursor: pointer;
@@ -323,7 +323,7 @@
   position: fixed;
   right: -230px;
   width: fit-content;
-  margin-top: 8px;
+  margin-top: 7px;
   margin-right: 0px;
 }
 
@@ -363,9 +363,9 @@
 
 .top-search-button  {
   border: none; 
-  margin-right:9px;
+  margin-right:6px;
   cursor:pointer;
-  padding: 17px;
+  padding: 16px;
 }
 
 .top-emblem-button  {

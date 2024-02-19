@@ -28,19 +28,28 @@ const en_Page_Translations = {
   '304-featured-live-heading':'Ecobricking.  Live.',
   '305-featured-live-subheading':'Ecobricks are being made, logged and validated around the world right this moment.  Each authenticated ecobrick is published onto our Brikcoin manual blockchain.',
   '306-featured-live-button':'⛓️ The Brikchain',
-  '306-featured-live-links':'<a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a>',
+  '307-featured-live-links':'<a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a>',
 
   
 
   
-  '302-featured-2-heading': 'Keep Your Plastic Safe',
-  '303-featured-2-subheading': 'When plastic gets loose into the biosphere it contaminates and poisons. When plastic is processed by industry it generates emissions and encourages more plastic to be consumed and produced. Ecobricking is a simple, non-capital method of keeping your plastic safe and secure so that it can be put to good, green use.',
-  '304-featured-2-button': 'Intro to Ecobricking',
-  '305-featured-2-references': '<a href="/what">Basics</a> | <a href="/why/">Why?</a> | <a href="/transition">Plastic Transition</a> | <a href="/how">How to Make</a>',
-  '306-featured-3-heading': 'Awesome Applications',
-  '307-featured-3-subheading': 'Ecobricks turn problematic plastic into reusable blocks that can be put to use in greener and greener building applications. From furniture, to gardens to structures our recommended applications embody the principle of spiral design. Plastic doesn\'t have to be a problem-- it\'s the start of the solution.',
-  '308-featured-3-button': 'Ecobrick Building', 
-  '309-featured-3-references': '<a href="earth.php">Earth Building</a> | <a href="/earth-methods">Earth Methods</a> | <a href="/modules">Furniture Modules</a> | <a href="/spiral">Spiral Design</a> | <a href="/openspaces">Open Spaces</a> | <a href="/fire">Fire Safety</a>',
+  '308-featured-2-heading': 'Keep Your Plastic Safe',
+  '309-featured-2-subheading': 'When plastic gets loose into the biosphere it contaminates and poisons.  When plastic is processed by industry it encourages more plastic to be produced.  Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.',
+  '310-featured-2-button': 'Intro to Ecobricking',
+  '311-featured-2-references': '<h6><a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>',
+
+
+  '312-top10s-title':'Monthly Top Tens',
+  '313-top10s-subtitle':'Every month thousands of ecobricks are logged by ecobrickers around the world-- and peer review by them too!',
+  '313-top10s-button':'🏆 Monthly Rankings',
+  '314-top10s-references':'<a href="top-tens.php">Brikchain</a> | <a href="/brikcoins">Brikcoins</a></h6>',
+
+
+  '315-featured-3-heading': 'Put Your Plastic to Good Use',
+  '316-featured-3-subheading': 'Ecobricks turn problematic plastic into reusable blocks.  With our ecobricks we can build great and green.  From furniture, to gardens, to structures ecobrick outputs embody the principle of spiral design.  Your plastic isn\'t a problem-- its the start of the solution.',
+  '317-featured-3-button': '🔨 Ecobrick Building', 
+  '318-featured-3-references': '<a href="earth.php">Earth Building</a> | <a href="/earth-methods">Earth Methods</a> | <a href="modules.php">Furniture Modules</a> | <a href="spiral.php">Spiral Design</a> | <a href="/openspace/">Open Spaces</a> | <a href="/fire/">Fire Safety</a></h6>',
+  
 
   '310-featured-4-heading': 'Following Earth\'s Example',
     '311-featured-4-subheading': 'Regenerative ecobricking arose ten years ago out of the land of the Igorot people in the Northern Philippines. Inspired by their Ayyew ecological ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste. Instead, all our methods and applications are designed from the ground up to follow Earth\'s example.',

@@ -1,24 +1,22 @@
-<!--PAGE LANGUAGE:  FRENCH
-Content Page template: v.1.0.0-->
-   
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/modules-inc.php");?>
+<!DOCTYPE html>
+<HTML lang="fr"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='fr';?>
+<?php $version='2.34';?>
+<?php $page='welcome';?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("under-construction.php");?>
-<!--TOP PAGE BANNER-->
+<?php require_once ("../includes/modules2-inc.php");?>
 
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Les Modules Milstein Ecobricks</div>
 	    <div class="splash-sub">Construisez des meubles en écobriques modulaires simples, faciles et impressionnants.</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/pngs/Feature-Floating-Module-500px.png" style="width: 85%">
+	<div class="splash-image"><img src="../pngs/Feature-Floating-Module-500px.png" style="width: 85%">
     </div>	
 </div>
 <div id="splash-bar"></div>
-<!--<div id="header-bar2"></div>-->
 
 
 <!-- PAGE CONTENT-->
@@ -561,15 +559,17 @@ Content Page template: v.1.0.0-->
 </div>
 
 
+
+
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 
 </div>

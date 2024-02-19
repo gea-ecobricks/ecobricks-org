@@ -316,9 +316,8 @@ margin: 0px -15px 30px -15px}
   text-align:center;
   background: var(--darker);
   border-radius: 15px 15px 0px 0px ;
-  margin-top:20px;
   font-size: 0.9em;
-  margin-bottom: -10px
+  margin:20px auto -10px auto;
 }
 
 
