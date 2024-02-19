@@ -97,7 +97,6 @@
 <script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
-</article>
 </body>
 </html>
 
