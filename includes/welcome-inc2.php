@@ -142,6 +142,7 @@ margin: 0px -15px 30px -15px}
   background: var(--darker);
   border-radius: 10px;
   margin-top:20px;
+  font-size: 0.9em;
 }
 
 
