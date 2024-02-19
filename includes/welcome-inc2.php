@@ -113,7 +113,7 @@ margin: 0px -15px 30px -15px}
 
 
 .gal-photo img {
-  padding: 3px;
+  margin: 4px;
   width:60px;
   height: 60px;
   background: grey;

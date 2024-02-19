@@ -3,8 +3,8 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='2';?>
-<?php $page='principles';?>
+<?php $version='2.1';?>
+<?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
 
@@ -25,16 +25,16 @@ https://github/globalecobrickalliance/ecobricks.org
 <!-- FEATURED HEADLINE CONTENT -->
     <div class="feature-content-1-anchor-box">
     
-        <div class="featured-content-1"  >
-            <div class="featured-content-shaded-box">
-                <div class="featured-content-text">
-                    <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Updated Guidelines</div>
-                    <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle" >Our ecobricking guide is updated for 2024.</div>
+    <div class="featured-content-1" >
+             <div class="featured-content-shaded-box">
+                 <div class="featured-content-text">
+                     <div class="featured-content-title" data-lang-id="x300-featured-content-1-title">L'écobriquage 2024</div>
+                     <div class="featured-content-subtitle" data-lang-id="x301-featured-content-1-subtitle" >Guide en 10 étapes mis à jour pour 2024.</div>
 
-                    <a class="btn featured-content-button" href="how.php" data-lang-id="302-featured-content-1-button">New Guide</a>
-                </div>
-            </div>
-        </div>
+                     <a class="btn feature-content-button" href="how.php" data-lang-id="x302-featured-content-1-button">Nouveau guide</a>
+                 </div>
+             </div>
+         </div>
         <!-- <div class="buffer" style="height:90px;width:100%"></div> -->
     </div>
 

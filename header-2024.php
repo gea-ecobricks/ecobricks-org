@@ -126,11 +126,6 @@ window.onload = function() {
 
 }
 
-
-    function redirectToWelcome() {
-        window.location.href = "welcome.php";
-    }
-
 </script>
 
 
