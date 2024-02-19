@@ -120,7 +120,7 @@ margin: auto 10px auto 18px;
 
 .content1-button {
   border: none;
-  color: var(--text-color);
+  color: var(--h1);
   background-color: var(--emblem-orange);
   font-weight: bolder;
   align-self: center;

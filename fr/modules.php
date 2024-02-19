@@ -21,10 +21,8 @@
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
 
 <div id="main-content">
-<!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
 
