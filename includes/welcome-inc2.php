@@ -121,16 +121,17 @@ margin: auto 10px auto 18px;
 .content1-button {
   border: none;
   color: var(--text-color);
-  background-color: var(--main-background);
+  background-color: var(--emblem-orange);
   font-weight: bolder;
   align-self: center;
   cursor: pointer;
   justify-content: center;
   border-radius: 8px;
-  padding: 5px;
+  padding: 7px;
   text-align: center;
   display: flex;
   opacity:0.88;
+
 
   display: inline-block;
   margin: 10px auto 25px auto;
@@ -317,7 +318,7 @@ margin: 0px -15px 30px -15px}
   background: var(--darker);
   border-radius: 15px 15px 0px 0px ;
   font-size: 0.9em;
-  margin:20px auto -10px auto;
+  margin:15px auto -10px auto;
 }
 
 
@@ -326,7 +327,6 @@ margin: 0px -15px 30px -15px}
 
 .feed-live {
 width: 80%;
-margin: auto;
 padding: 10px;
 
 
