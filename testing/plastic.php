@@ -33,6 +33,7 @@
 
         <!-- The flexible grid (content) -->
             <div class="row">
+
                 <div class="main">
 
                     <div class="lead-page-paragraph">
@@ -80,7 +81,7 @@
        
 
             
-            </div>  <!--closes main-->
+        </div>  <!--closes main-->
                      
 
 
