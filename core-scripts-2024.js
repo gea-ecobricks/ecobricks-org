@@ -72,7 +72,7 @@ function clearSiteCache() {
 
         function scrollLessThan40() {
     if (window.pageYOffset <= 40) {
-        document.getElementById("header").style.height = "90px";
+        document.getElementById("header").style.height = "85px";
         document.getElementById("header").style.borderBottom = "none";
         document.getElementById("header").style.boxShadow = "none";
         // document.getElementById("main").style.marginTop = "40px";
@@ -81,9 +81,9 @@ function clearSiteCache() {
         // document.getElementById("gea-logo").style.height = "56px";
         document.getElementById("logo-global-ecobrick-alliance").style.opacity = "1";
         document.getElementById("header").style.top = "0"; // Set top to 0
-        // document.getElementById("settings-buttons").style.marginTop = "8px";
+        document.getElementById("settings-buttons").style.marginTop = "8px";
         // document.getElementById("settings-buttons").style.marginRight = "0px"; 
-        // document.getElementById("settings-buttons").style.padding = "16px 50px 16px 20px";
+        document.getElementById("settings-buttons").style.padding = "16px 43px 16px 12px";
         document.getElementById("main-header-buttons").style.marginTop = "0px";  
         document.getElementById("language-menu-slider").style.top = "-10px";  
         document.getElementById("login-menu-slider").style.top = "-10px";  
@@ -104,7 +104,7 @@ function scrollMoreThan40() {
         document.getElementById("gea-logo").style.height = "35px";
         document.getElementById("logo-global-ecobrick-alliance").style.opacity = "0";
         // document.getElementById("settings-buttons").style.marginTop = "6px"; 
-        // document.getElementById("settings-buttons").style.padding = "12px 54px 12px 16px"; 
+        document.getElementById("settings-buttons").style.padding = "16px 43px 16px 12px"; 
         document.getElementById("main-header-buttons").style.marginTop = "-5px";  
         document.getElementById("language-menu-slider").style.top = "-30px";  
         document.getElementById("login-menu-slider").style.top = "-30px";  
