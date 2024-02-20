@@ -370,6 +370,8 @@
 
 <?php require_once ("side-modules/earthen-ethics.php");?>
 
+<?php require_once ("side-modules/transcaste-principle.php");?>
+
 
 
             
