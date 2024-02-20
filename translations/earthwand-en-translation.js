@@ -26,7 +26,7 @@ const en_Page_Translations = {
     
     '005-first-page-paragraph': 'The Earthwand is a regenerative product designed from the ground up to be the perfect plastic packing, ecobrick making tool.  Its simple, yet super practical, ergonomic, sturdy and strong.  Best of all, its made without plastic-- fully hand crafted from bamboo, rattan and coconut fiber.',
     
-    '006-second-page-paragraph': 'Developed over three years of ecobricking and prototyping by one of the co-founders of the Global Ecobrick Alliance, the Earthwand it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. EarthWands are produced by GEA Trainer and sold by GEA Trainers as a way to fund their ecological work',
+    '006-second-page-paragraph': 'Developed over three years of ecobricking and prototyping by one of the co-founders of the Global Ecobrick Alliance, the Earthwand it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. EarthWands are produced by GEA Trainer and sold by GEA Trainers as a way to fund their ecological work.  <br><br>See our <a href="https://nextcloud.ecobricks.org/index.php/s/pmLJjGJGr3qzdBF" target="_blank">Earthwand Regenerative Finance Document</a> for how Earthwand sales are distribute to energize the plastic transition movement.',
 
     '007-virtue-icons':'<img src="../webp/earthwand-virtue-icons.webp" style="width:100%;" alt="Earthwand design principles">',
     
