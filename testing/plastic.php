@@ -47,14 +47,14 @@
 
                     <div class="page-paragraph-reg">
                         
-                         <p data-lang-id="006-second-page-paragraph">However, its just as important to understand that the story of plastic doesn’t begin in a factory.  Instead, plastic finds its origins millions of years ago on an ancient, barren Earth we would barely recognize.  In fact, the carbon molecules of our modern plastic played a key role in making our common home the thriving and diverse biosphere that we know today.</p>
+                         <p data-lang-id="007-page-paragraph">However, its just as important to understand that the story of plastic doesn’t begin in a factory.  Instead, plastic finds its origins millions of years ago on an ancient, barren Earth we would barely recognize.  In fact, the carbon molecules of our modern plastic played a key role in making our common home the thriving and diverse biosphere that we know today.</p>
 
-                         <div class="virtue-icons" data-lang-id="007-virtue-icons">
+                         <div class="full-image" data-lang-id="008-image" style="width:100%">
                             <img src="../pngs/plastic-history.png"  alt="The primordial concentration of carbon into sequestered deposits.">
                         </div>
 
 
-                        <p data-lang-id="008-page-paragraph">Best of all, we’ve carefully designed the Earthwand’s production, consumption and disposal so that after all the impacts of its life-cycle are added up, it has in the end made the world a greener place.   To see what we mean, see the EarthWand’s Product Impact Assessment (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">UK report</a> | <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">Indonesian report</a>).  In this way the EarthWand embodies the <a href="/ayyew">ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> and <a href="principles">regenerative principles</a> which guide the global plastic transition movement.</p>
+                        <p data-lang-id="009-page-paragraph">Best of all, we’ve carefully designed the Earthwand’s production, consumption and disposal so that after all the impacts of its life-cycle are added up, it has in the end made the world a greener place.   To see what we mean, see the EarthWand’s Product Impact Assessment (<a href="https://nextcloud.ecobricks.org/index.php/s/gLfD7rTXAWAszie" target="_blank">UK report</a> | <a href="https://nextcloud.ecobricks.org/index.php/s/ScfWXzxcP58YEaN" target="_blank">Indonesian report</a>).  In this way the EarthWand embodies the <a href="/ayyew">ayyew</a>, <a href="https://book.earthen.io" target="_blank">earthen</a> and <a href="principles">regenerative principles</a> which guide the global plastic transition movement.</p>
 
 
                         <p data-lang-id="010-page-paragraph">The Earthwand was developed by GEA principal and inventor Russell Maier.  His goal was to create a product that embodied the Earth principles that power the ecobrick movement-- and that energized them.  His was vision was to create not just a great green product, but also a renumeration model that could financially support the local and global plastic transition movement.</p>
@@ -95,7 +95,7 @@
 
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../accordion-scripts.js?v=2" defer></script>
+<!-- <script src="../accordion-scripts.js?v=2" defer></script> -->
 
 </div>
 </body>
