@@ -75,9 +75,6 @@
 }
 
 
-.splash-box {text-align: center !important;}
-
-
 .module-btn {
   background: var(--emblem-blue);
 }

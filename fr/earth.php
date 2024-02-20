@@ -6,11 +6,22 @@
 <?php $version='1.76';?>
 <?php $page='plastic';?>
 
-<title>Earth & Ecobrick Building</title>
+<title>Le Construction Terre & Écobrique</title>
 
 <?php require_once ("../includes/earth2-inc.php");?>
 
 	
+<div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading">Le Construction Terre & Écobrique</div>
+	    <div class="splash-sub">Construisez des structures belles, solides, en spirale, résilientes et régénératrices.</div>
+	</div>
+	<div class="splash-image"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Construisez des structures belles, solides, en spirale, résilientes et régénératrices.">
+    </div>	
+</div>
+<div id="splash-bar"></div>
+<!--
+    	
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Ecobrick & Earth Building</div>
@@ -20,7 +31,7 @@
     </div>	
 </div>
 <div id="splash-bar"></div>
-<!--<div id="header-bar2"></div>-->
+-->
 
 
 <!-- PAGE CONTENT-->
