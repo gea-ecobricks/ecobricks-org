@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.75';?>
+<?php $version='1.76';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
@@ -49,8 +49,8 @@
                         
                          <p data-lang-id="007-page-paragraph">However, its just as important to understand that the story of plastic doesn’t begin in a factory.  Instead, plastic finds its origins millions of years ago on an ancient, barren Earth we would barely recognize.  In fact, the carbon molecules of our modern plastic played a key role in making our common home the thriving and diverse biosphere that we know today.</p>
 
-                         <div class="full-image" data-lang-id="008-image" style="width:100%">
-                            <img src="../pngs/plastic-history.png"  alt="The primordial concentration of carbon into sequestered deposits.">
+                         <div class="full-image" data-lang-id="008-image" style="width:100%; padding:15px; margin-top:10px;margin-bottom:10px;">
+                            <img src="../pngs/plastic-history.png"  alt="The primordial concentration of carbon into sequestered deposits." style="width:100%;">
                         </div>
 
 
