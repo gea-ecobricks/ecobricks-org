@@ -76,7 +76,7 @@
                 </div>
             </div>
        
-
+        </div>
             
         </div>  <!--closes main-->
                      

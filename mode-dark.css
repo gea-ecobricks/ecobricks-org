@@ -305,6 +305,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.dark-mode-invert {
+  filter: invert(100%);
+}
+
+
   /* #gea-logo {
     background: url(logos/gea-logo-full-dark.svg) no-repeat;
     background-size: contain;
