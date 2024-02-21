@@ -13,8 +13,8 @@
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Le Construction Terre & Écobrique</div>
-	    <div class="splash-sub">Construisez des structures belles, solides, en spirale, résilientes et régénératrices.</div>
+		<div class="splash-heading">Construction Terre & Écobrique</div>
+	    <div class="splash-sub">Construisez des structures solides et spirale, résilientes et régénératrices.</div>
 	</div>
 	<div class="splash-image"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Construisez des structures belles, solides, en spirale, résilientes et régénératrices.">
     </div>	
@@ -403,7 +403,7 @@
 
 
 <!-- This script is for pages that use the accordion content system-->
-<!-- <script src="../accordion-scripts.js?v=2" defer></script> -->
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
 </body>
