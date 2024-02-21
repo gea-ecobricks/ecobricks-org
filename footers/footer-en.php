@@ -183,11 +183,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
 	document.getElementsByTagName('head')[0].appendChild(script);
   }
-
+ 
 
 </script> -->
-
- <!--Arc CDN Script without delay-->
-<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
-	
-		
