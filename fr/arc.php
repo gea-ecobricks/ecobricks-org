@@ -6,7 +6,6 @@
 <?php $version='1.76';?>
 <?php $page='plastic';?>
 
-<title>Vitesse Arc & Offsetting AES </title>
 <?php require_once ("../includes/arc2-inc.php");?>
 
 
@@ -51,7 +50,6 @@
 			</div>
 
 			<div class="faq">
-				<a name="plastic"></a>
 				<div class="faq-box">
 					<div class="faq-texts">
 						<div class="faq-header"><h4>What is Arc?</h4></div>
@@ -61,7 +59,7 @@
                         <p>C'est comme un BitTorrent ultra-rapide pour les sites Web où tout le monde est gagnant.</p>
         </div>
 				</div>
-				<div class="faq-link"><h5>En savoir plus : <a href="https://arc.io/faq" target="_blank">Foire aux questions d'Arc</h5></a></div>
+				<div class="faq-link"><h5>En savoir plus : <a href="https://arc.io/faq" target="_blank">Foire aux questions d'Arc</a></h5></div>
                 </div>
 
 
@@ -76,9 +74,9 @@
 						<p>Each ecobrick is peer reviewed to determine whether its plastic meets the stringent requirements of plastic sequestration. Each authenticated gram of sequestered plastic is then recorded on our <a href="/brikcoins">manual blockchain</a>.  To support ecobrikers around the world doing the hard work of sequestration and the platform, Authenticated plastic offset credits can then be purchased through the GEA.</p>
 					</div> 	
 				</div>
-				<div class="faq-link"><h5>Learn more: <a href="/aes">AES Plastic Offsetting</h5></a></div>
-				<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</h5></a></div>
-				<div class="faq-link"><h5>Learn more: <a href="what.php">About Ecobricks</h5></a></div>		
+				<div class="faq-link"><h5>Learn more: <a href="/aes">AES Plastic Offsetting</a></h5></div>
+				<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</h5></div>
+				<div class="faq-link"></a><h5>Learn more: <a href="what.php">About Ecobricks</a></h5></div>		
 			</div>
 
 
@@ -114,7 +112,7 @@
 				</div>
 
 				<div class="faq-link"><h5>Request: <a href="mailto:devteam@ecobricks.org?subject=GEA Green Arc CDN Beta Test Participation">Access to BETA</h5></a></div>
-				<div class="faq-link"><h5>Get: <a href="https://arc.io/?ref=ecobricks.org#signUp">Normal Arc for your site</h5></a></div>		
+				<div class="faq-link"><h5>Get: <a href="https://arc.io/?ref=ecobricks.org#signUp">Normal Arc for your site</a></h5></div>		
 			</div>
 		
 		</DIV>

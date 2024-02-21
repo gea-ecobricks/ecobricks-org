@@ -1,15 +1,12 @@
 
 <link rel="preload" as="image" href="../webp/arc-purple2.webp">
 <link rel="preload" as="image" href="../webp/arc-logos.webp">
-<link rel="preload" as="image" href="../webp/faq-bottom.webp">
 
 <?php require_once ("../meta/arc-$lang.php");?>
 
 
-
 <!-- Arc CDN Script without delay-->
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
-
 
 
 <STYLE>
