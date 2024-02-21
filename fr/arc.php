@@ -9,10 +9,22 @@
 <title>Vitesse Arc & Offsetting AES </title>
 <?php require_once ("../includes/arc2-inc.php");?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 
 <!--PAGE BANNER-->
-	
+
+
+<div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading">Accélérez et verdissez votre visite</div>
+	    <div class="splash-sub">Connectant des Kb d'accélération<br>
+        à des Kgs de plastique retirés</div>
+	</div>
+	<div class="splash-image"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Construisez des structures belles, solides, en spirale, résilientes et régénératrices.">
+    </div>	
+</div>
+<div id="splash-bar"></div>
+
+<!-- 	
 <div id="header-content-block">
 	<div id="header-box">
 		<div class="header-heading">Accélérez et verdissez votre site Web</div>
@@ -22,13 +34,12 @@
 		<img src="../webp/arc-logos.webp">
 	</div>
 </div>
-<div id="grey-bar"></div>
+<div id="grey-bar"></div> -->
 
 
 
 <!-- PAGE CONTENT <div id="content-sect1">-->
 
-<a name="top"></a>
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
