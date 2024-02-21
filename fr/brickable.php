@@ -13,13 +13,15 @@
 <!--PAGE BANNER-->
 
 <div class="splash-content-block">
-	<div class="splash-text-box">
-		<div class="splash-heading">Brickable Design</div>
-		<div class="splash-sub">Make your plastic product or packaging circular using the Brickable Designator Icon.</div>
-	</div>	
-	<div class="splash-image"><img src="https://ecobricks.org/icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1" style="width: 70%;"></div>	
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="x001-splash-title">Brickable Design</div>
+	    <div class="splash-sub" data-lang-id="x002-splash-subtitle">Make your plastic packaging spiral using the Brickable Designator Icon</div>
+	</div>
+	<div class="splash-image" data-lang-id="x003-splash-image-alt"><img src="/icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1" style="width: 70%" alt="Brikable designator icon">  </div>	
+   
 </div>
-<div id="splash-bar"></div>
+
+
 
 <!-- PAGE CONTENT-->
 
@@ -244,27 +246,9 @@
 
 			<?php require_once ("side-modules/spiral-design-principle.php");?>
 
-			<?php require_once ("side-modules/sequest-module.php");?>
 
 			<?php require_once ("side-modules/good-use.php");?>
 
-
-
-
-			<div id="side-module-desktop-mobile">
-				<img src="../icons/cyclical-design-icon-ecobricks-org.svg" width="64%" alt="Following the Earth's example through eco bricking">
-				<br><h4>Circular & Spiral Design</h4>
-				<h5>Ecobricks and all their applications are designed for cycles of indefinite reuse.</h5><br>
-				<a class="module-btn" href="/circular">Circular Design</a>
-                <br>
-			</div>   
-
-			<div id="side-module-desktop-mobile">
-				<img src="../webp/balancing-green.webp" width="80%">
-				<h4>Plastic Offsetting</h4>
-				<h5>Our Catalyst Program allows you to offset your plastic generation and support the global ecobrick movement.</h5><br>
-				<a class="module-btn" href="/aes">Learn More</a>
-			</div>
 
 		</div>
 
