@@ -7,7 +7,7 @@
 <?php $page='plastic';?>
 
 <title>Vitesse Arc & Offsetting AES </title>
-<?php require_once ("../includes/arc-inc.php");?>
+<?php require_once ("../includes/arc2-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 
