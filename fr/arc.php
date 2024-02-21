@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <HTML lang="fr"> 
 <HEAD>
+<title>Réseau de diffusion de contenu de site vert | Ecobricks.org</title>
+<!-- <title>Green Site Content Delivery Network | Ecobricks.org</title> -->
+
 <META charset="UTF-8">
 <?php $lang='fr';?>
 <?php $version='1.76';?>
