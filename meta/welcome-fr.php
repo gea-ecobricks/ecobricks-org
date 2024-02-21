@@ -8,7 +8,7 @@
 
   <meta property="og:url"           content="https://ecobricks.org/fr/">
   <meta property="og:type"          content="website">
- <meta property="og:title"         content="Du polution plastique a solution regenerative">
+ <meta property="og:title"         content="Bienvenue a Ecobricks.org">
   <meta property="og:description"   content="Du plastique problématique aux solutions régénératives">
   <meta property="og:image"         content="https://ecobricks.org/pngs/ecobricks-org-2024-banner.png">
   <meta property="og:image:width" content="1000" >
