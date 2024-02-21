@@ -21,7 +21,7 @@
 <!-- for dark  mode -->
 <link rel="preload" as="image" href="../icons/search-night.svg" media="(prefers-color-scheme: dark)">
 <link rel="preload" as="image" href="../icons/search-night-over.svg" media="(prefers-color-scheme: dark)">
-<link rel="preload" as="image" href="../icons/main-menu-night.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="../icons/main-menu-dark.svg" media="(prefers-color-scheme: dark)">
 <link rel="preload" as="image" href="../icons/main-menu-dark-over.svg" media="(prefers-color-scheme: dark)">
 <link rel="preload" as="image" href="../icons/settings-icon-dark.svg" media="(prefers-color-scheme: dark)">
 <link rel="preload" as="image" href="../icons/settings-icon-over-dark2.svg" media="(prefers-color-scheme: dark)">
