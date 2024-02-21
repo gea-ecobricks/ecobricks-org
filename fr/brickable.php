@@ -18,14 +18,14 @@
 	    <div class="splash-sub" data-lang-id="x002-splash-subtitle">Make your plastic packaging spiral using the Brickable Designator Icon</div>
 	</div>
 	<div class="splash-image" data-lang-id="x003-splash-image-alt"><img src="/icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1" style="width: 70%" alt="Brikable designator icon">  </div>	
-   
+	<div id="splash-bar"></div>
+
 </div>
 
 
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -254,6 +254,8 @@
 
 	</div>
 </div>
+
+</div> <!-- main -->
 
 
 
