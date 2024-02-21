@@ -19,7 +19,7 @@
 	    <div class="splash-sub">Connectant des Kb d'accélération<br>
         à des Kgs de plastique retirés</div>
 	</div>
-	<div class="splash-image"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Construisez des structures belles, solides, en spirale, résilientes et régénératrices.">
+	<div class="splash-image"><img src="../webp/arc-logos.webp" style="width: 85%" alt="Construisez des structures belles, solides, en spirale, résilientes et régénératrices.">
     </div>	
 </div>
 <div id="splash-bar"></div>
