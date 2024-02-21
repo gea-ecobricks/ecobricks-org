@@ -27,6 +27,7 @@
 <link rel="preload" as="image" href="../icons/settings-icon-over-dark2.svg" media="(prefers-color-scheme: dark)">
 
 
+<?php require_once ("../meta/welcome-$lang.php");?>
 
 
 <style>
