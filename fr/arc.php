@@ -80,8 +80,8 @@
 					</div> 	
 				</div>
 				<div class="faq-link"><h5>Learn more: <a href="/aes">AES Plastic Offsetting</a></h5></div>
-				<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</h5></div>
-				<div class="faq-link"></a><h5>Learn more: <a href="what.php">About Ecobricks</a></h5></div>		
+				<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</a></h5></div>
+				<div class="faq-link"><h5>Learn more: <a href="what.php">About Ecobricks</a></h5></div>		
 			</div>
 
 
