@@ -1,6 +1,6 @@
 
 <link rel="preload" as="image" href="../webp/arc-purple2.webp">
-<link rel="preload" as="image" href="../webp/arc-logos.webp">
+<link rel="preload" as="image" href="../svgs/arc-aes-vertical.svg">
 
 <?php require_once ("../meta/arc-$lang.php");?>
 
@@ -28,7 +28,7 @@
 	
         background: url(../webp/arc-purple2.webp) right top;
     	background-repeat: no-repeat;
-    	background-size: contain;
+    	background-size: cover;
 		background-color: #ECECEC;
 		margin: 0 0 -20px 0;
 	

@@ -16,13 +16,14 @@
 
 
 <div class="splash-content-block">
+	
+	<div class="splash-image"><img src="../svgs/arc-aes-vertical.svg" style="width: 75%" alt="Arc.io and Authenticated Ecobrick Sequestered Plastic">
+    </div>	
 	<div class="splash-box">
 		<div class="splash-heading">Accélérez et verdissez votre visite</div>
 	    <div class="splash-sub">Connectant des Kb d'accélération<br>
         à des Kgs de plastique retirés</div>
 	</div>
-	<div class="splash-image"><img src="../svgs/arc-aes-vertical.svg" style="width: 85%" alt="Arc.io and Authenticated Ecobrick Sequestered Plastic">
-    </div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -52,21 +53,22 @@
 			<p>Arc et Ecobricks.org développent un moyen d'accélérer votre site Web et de soutenir la sécurisation du plastique hors de la biosphère.</p>
 			</div>
 
-			<div class="faq">
-				<div class="faq-box">
-					<div class="faq-texts">
-						<div class="faq-header"><h4>What is Arc?</h4></div>
+			<div class="page-paragraph">
+						<h4>What is Arc?</h4>
 
 						<p>Arc est un service de réseau de diffusion de contenu (CDN) de site Web. Leur service peut être installé par les webmasters sur n'importe quel site. Nous l'avons en cours d'exécution sur notre site en ce moment ! Plutôt que de charger des sites à partir de serveurs centralisés souvent éloignés (le nôtre est à Singapour), Arc peut utiliser Internet pour partager les données de notre site que quelqu'un d'autre dans votre ville a téléchargées juste avant vous ! Cela permet d'économiser du temps, du travail sur le serveur et de l'énergie.</p>
+			</div>
+			<div class="page-paragraph-reg">
 
                         <p>C'est comme un BitTorrent ultra-rapide pour les sites Web où tout le monde est gagnant.</p>
-        </div>
-				</div>
+        	</div>
+				
 				<div class="faq-link"><h5>En savoir plus : <a href="https://arc.io/faq" target="_blank">Foire aux questions d'Arc</a></h5></div>
                 </div>
 
 
 				
+
 			<div class="faq">
 				<div class="faq-box">
 					<div class="faq-texts">
@@ -83,7 +85,7 @@
 			</div>
 
 
-
+<br>
 			<div class="faq">
 				<div class="faq-box">
 					<div class="faq-texts">
