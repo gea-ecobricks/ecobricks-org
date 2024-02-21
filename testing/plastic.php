@@ -19,9 +19,9 @@
  <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">The Long Story of Plastic</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Understanding the ancient history of plastic is essential to putting it back to good use today.</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Understanding plastic's primordial story is essential to putting it's carbon back to good use today.</div>
 	</div>
-	<!-- <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/top-clouds3.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	-->
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/the-biosphere.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	
    
 </div>
 
@@ -76,6 +76,8 @@
                     <?php require_once ("side-modules/petro-capital-economy.php");?>
 
                     <?php require_once ("side-modules/earthen-ethics-principle.php");?>
+
+                    <?php require_once ("side-modules/stellar-story.php");?>
 
                 </div>
             </div>
