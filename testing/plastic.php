@@ -21,7 +21,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">The Long Story of Plastic</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Understanding plastic's primordial story is essential to putting it's carbon back to good use today.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/the-biosphere.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	
+	<div class="splash-image" data-lang-id="x003-splash-image-alt"><img src="../svgs/the-biosphere.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	
    
 </div>
 
