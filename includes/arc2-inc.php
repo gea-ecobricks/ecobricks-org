@@ -6,7 +6,7 @@
 
 
 <!-- Arc CDN Script without delay-->
-<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
+<!-- <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script> -->
 
 
 <STYLE>
