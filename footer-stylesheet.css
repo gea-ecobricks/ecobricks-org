@@ -400,7 +400,7 @@ EARTHEN SUBSCRIPTION SYSTEM CSS
 version 1.0
 
 ----------------------------*/
-
+/* 
 
 #registration-footer {
   width: 100%;
@@ -766,4 +766,4 @@ text-decoration: underline;
   .full-privacy-policy-link:a {
     color: var(--h1);
     text-decoration: none;
-  }
+  } */

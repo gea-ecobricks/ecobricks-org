@@ -22,40 +22,40 @@
     <div class="footer-icons-container">
         <div class="footer-icons"><!--WIKIPEDIA-->
             <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" data-lang-id="401-wikipedia-description" rel="noopener">
-            <img src="../icons/wikipedia.svg" style="width:100%" alt="An in-depth wikipedia article on the history, concept and methodology of the ecobrick." title="An in-depth wikipedia article on the history, concept and methodology of the ecobrick." ></a>
+            <img src="../icons/wikipedia.svg" style="width:100%" alt="An in-depth wikipedia article on the history, concept and methodology of the ecobrick." title="An in-depth wikipedia article on the history, concept and methodology of the ecobrick." loading="lazy"></a>
 
         </div>
 
 
         <div class="footer-icons"><!--ECOBRICKS.oRG-->
             <a href="https://gobrik.com" target="_blank" data-lang-id="402-gobrik description">
-            <img src="../icons/gobrik-icon-white.svg" style="width:100%" alt="Gobrik is a platform to manage your ecobricking, building projects and plastic transition." title="Gobrik is a platform to manage your ecobricking, building projects and plastic transition."></a>
+            <img src="../icons/gobrik-icon-white.svg" style="width:100%" alt="Gobrik is a platform to manage your ecobricking, building projects and plastic transition." title="Gobrik is a platform to manage your ecobricking, building projects and plastic transition." loading="lazy"></a>
 
         </div>
 
         <div class="footer-icons">
             <a href="https://medium.com/earthen/" target="_blank" data-lang-id="403-medium-description" rel="noopener"><!--MEDIUM-->
-            <img src="../icons/medium.svg" style="width:100%" alt="Follow our Medium Earthen publication" title="Follow our Medium Earthen publication"></a>
+            <img src="../icons/medium.svg" style="width:100%" alt="Follow our Medium Earthen publication" title="Follow our Medium Earthen publication" loading="lazy"></a>
         </div>
 
         <div class="footer-icons"> <!--GITHUB-->
             <a href="https://github.com/gea-ecobricks/ecobricks-org" target="_blank" data-lang-id="404-github description" rel="noopener">
-            <img src="../icons/github.svg" style="width:100%" alt="Contribute to our Ecobricks.org Github repository" title="Contribute to our Ecobricks.org Github repository"></a>
+            <img src="../icons/github.svg" style="width:100%" alt="Contribute to our Ecobricks.org Github repository" title="Contribute to our Ecobricks.org Github repository" loading="lazy"></a>
         </div>
         
         <div class="footer-icons"><!--FACEBOOK-->
             <a href="https://facebook.com/ecobricks.org" target="_blank" rel="noopener">
-            <img src="../icons/facebook.svg" style="width:100%" alt="Follow our Facebook page" data-lang-id="405-facebook description" title="Follow our Facebook page"></a>
+            <img src="../icons/facebook.svg" style="width:100%" alt="Follow our Facebook page" data-lang-id="405-facebook description" title="Follow our Facebook page" loading="lazy"></a>
         </div>
 
         <div class="footer-icons"><!--YOUTUBE-->
             <a href="https://www.youtube.com/c/Ecobricks" target="_blank" rel="noopener">
-            <img src="../icons/youtube.svg" style="width:100%" alt="Subscribe to our Ecobricks YouTube channel" data-lang-id="406-youtube description" title="Subscribe to our Ecobricks YouTube channel" rel="noopener"></a>
+            <img src="../icons/youtube.svg" style="width:100%" alt="Subscribe to our Ecobricks YouTube channel" data-lang-id="406-youtube description" title="Subscribe to our Ecobricks YouTube channel" rel="noopener" loading="lazy"></a>
         </div>
 
         <div class="footer-icons"><!--INSTAGRAM-->
             <a href="https://www.instagram.com/ecobricks.plastic.transition/" target="_blank" rel="noopener">
-            <img src="../icons/instagram.svg" style="width:100%" alt="Instagram: Ecobricks.Plastic.Transition" data-lang-id="407-instagram description" title="407-facebook description"></a>
+            <img src="../icons/instagram.svg" style="width:100%" alt="Instagram: Ecobricks.Plastic.Transition" data-lang-id="407-instagram description" title="407-facebook description" loading="lazy"></a>
         </div>
 
             

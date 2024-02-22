@@ -1338,42 +1338,6 @@ GUIDED TOUR---*
  text-decoration: underline;
 
 }
-/* 
-.sign-innn {
-font-family: 'Mulish', sans-serif;
-display: block;
-background: var(--button-2-1);
-background-image: -webkit-linear-gradient(top, var(--button-2-1), var(--button-2-2));
-background-image: -moz-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
-background-image: -ms-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
-background-image: -o-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
-background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-2));
--webkit-border-radius: 8px 0px 0px 8px;
--moz-border-radius: 8px 0px 0px 8px;
-border-radius: 8px 0px 0px 8px;
-color: #fff;
-font-size: 1.3em;
-font-weight: 700;
-padding: 9px 18px 9px 18px ;
-text-decoration: none;
-margin-top: 0px;
-margin-bottom: 12px;
-border: none;
-margin-right: 3px;
-}
-
-
-.sign-innn:hover {
-background: var(--button-2-1-over);
-background-image: -webkit-linear-gradient(top,  var(--button-2-1-over), var(--button-2-2-over));
-background-image: -moz-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
-background-image: -ms-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
-background-image: -o-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
-background-image: linear-gradient(to bottom, var(--button-2-1-over), var(--button-2-2-over));
-text-decoration: none;
-}
-
- */
 
 
 

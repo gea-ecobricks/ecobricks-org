@@ -67,35 +67,25 @@ php_value auto_prepend_file '/home/ecobricks/public_html/wordfence-waf.php'
 
 # END Wordfence WAF
 php_value max_execution_time = 180
-
 <IfModule mod_expires.c>
     ExpiresActive On
-
-    # CSS with versioning
-    <FilesMatch "\.css\?v=[\d\.]+$">
-        ExpiresDefault "access plus 1 days"
-    </FilesMatch>
-
-    # JavaScript with versioning
-    <FilesMatch "\.js\?v=[\d\.]+$">
-        ExpiresDefault "access plus 1 days"
-    </FilesMatch>
-
-    # Fonts
-    <FilesMatch "\.(ttf)$">
-        ExpiresDefault "access plus 1 days"
+    
+    # Cache all specified file types for one year
+    <FilesMatch "\.(ico|pdf|ttf|flv|jpg|jpeg|png|webp|gif|js|swf|svg|css)$">
+        ExpiresByType image/ico "access plus 1 years"
+        ExpiresByType application/pdf "access plus 1 years"
+        ExpiresByType font/ttf "access plus 1 years"
+        ExpiresByType video/x-flv "access plus 1 years"
+        ExpiresByType image/jpeg "access plus 1 years"
+        ExpiresByType image/png "access plus 1 years"
+        ExpiresByType image/webp "access plus 1 years"
+        ExpiresByType image/gif "access plus 1 years"
+        ExpiresByType application/javascript "access plus 1 years"
+        ExpiresByType application/x-shockwave-flash "access plus 1 years"
+        ExpiresByType image/svg+xml "access plus 1 years"
+        ExpiresByType text/css "access plus 1 years"
     </FilesMatch>
 </IfModule>
-
-# New Ecobricks.org landing
-
-<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|webp|gif|js|swf|svg)$">
-Header set Cache-Control "max-age=31536000, public"
-</FilesMatch>
-
-<FilesMatch "\.(css)$">
-Header set Cache-Control "max-age=536000, public"
-</FilesMatch>
 
 #Alternate default index pages
 

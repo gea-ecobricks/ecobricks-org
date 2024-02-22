@@ -2,7 +2,7 @@
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="../svgs/the-biosphere.svg">
-<link rel="preload" as="image" href="../webp/plastic-long-story-1200px.webp">
+<link rel="preload" as="image" href="../webp/plastic-long-story-1200px.webp?v=2">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
@@ -19,7 +19,7 @@
 	.splash-content-block {
 		
 		
-		background: url(../webp/plastic-long-story-1200px.webp) bottom;
+		background: url(../webp/plastic-long-story-1200px.webp?v=2) bottom;
     	background-repeat: no-repeat;
 		background-size: cover;
 		
@@ -32,11 +32,19 @@
 	.splash-content-block {
 	
 		
-		background: url(../webp/plastic-long-story-1200px.webp) bottom;
+		background: url(../webp/plastic-long-story-1200px.webp?v=2) bottom;
 		
 }
 }
 
+@media screen and (min-width: 700px) {
+  .splash-heading {
+    font-size: 3.2em;
+  }
+  .splash-sub {
+    font-size: 2.1em;
+  }
+}
 /* 
 .splash-box {text-align: center !important;} */
 
