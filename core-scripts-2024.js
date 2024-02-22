@@ -178,16 +178,16 @@ document.addEventListener('keydown', modalCloseCurtains);
 
 
 /*Updates certain colors to the Dark or Light theme*/
-function updateLogoColor() {
-  const svg = document.querySelector("html");
-  const elementsWithColor = svg.querySelectorAll("[fill='#646464']");
+// function updateLogoColor() {
+//   const svg = document.querySelector("html");
+//   const elementsWithColor = svg.querySelectorAll("[fill='#646464']");
 
-  for (let element of elementsWithColor) {
-    if (element.getAttribute("fill") === "#646464") {
-      element.setAttribute("fill", "var(--logo-color)");
-    }
-  }
-}
+//   for (let element of elementsWithColor) {
+//     if (element.getAttribute("fill") === "#646464") {
+//       element.setAttribute("fill", "var(--logo-color)");
+//     }
+//   }
+// }
 
 
 
