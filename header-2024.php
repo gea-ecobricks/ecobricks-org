@@ -368,7 +368,7 @@ window.onload = function() {
                         <input type="email" name="email" required placeholder="Your e-mail..." class="email-input" data-lang-id="112-subscription-email-placeholder">
                         <input type="text" name="name" required placeholder="Your name..." class="name-input" data-lang-id="113-subscription-name-placeholder">
                         <div class="reg-complete-text" id="reg-status"></div>
-                        <input type="submit" value="➔" class="register-button" id="reg-status-icon">
+                        <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleSubscriptionSubmit(event)">
                         </form>
                         <div class="reg-sub" style="flex-flow: row;">
                             <div class="earthen-icon"></div>
