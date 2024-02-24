@@ -125,16 +125,6 @@ window.onload = function() {
   // updateLogoColor(); 
 
 
-  document.addEventListener("DOMContentLoaded", function() {
-    const form = document.getElementById("emailForm");
-    form.addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent default form submission
-        // Your validation and submission logic here
-
-        // If everything is valid, you can proceed to submit the form data via JavaScript (e.g., using Fetch API)
-    });
-});
-
 }
 
 </script>
