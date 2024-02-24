@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.75';?>
+<?php $version='1.76';?>
 <?php $page='what';?>
 <title>Qu'est-ce qu'une Ecobrick? | Ecobricks.org</title>
 <?php require_once ("../includes/what2-inc.php");?>
