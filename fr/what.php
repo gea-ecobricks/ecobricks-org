@@ -186,14 +186,14 @@
 							<li>The label has been removed and ecobricked.</li>
 							<li>A bottom color has been added</li>
 							<li>The weight has been recorded on the outside.</li>
-							</ul></li>
+							</ul>
 						</ul>
 
 						<p>Only cigbricks that meet these standards can be authenticated and count as sequestered plastic.</p>
 						<br><br>
 
 						<a class="action-btn" href="/cigbricks">ℹ️ Make a Cigbrick</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Learn more about Cibricks.</a></p>
+                    <p style="font-size: 0.85em; margin-top:20px;">Learn more about Cibricks.</p>
 
 
 				</div>
@@ -226,7 +226,7 @@
 						<div class="main3">
 						<p>To be an Ocean Ecobrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="../webp/oeb-400px.webp" width="120" style="width:150;" alt="Ocean Ecobricks are for dirty plastic" loading="lazy">
+						<div class="side3"><img src="../webp/oeb-400px.webp" width="120" style="width:100%;" alt="Ocean Ecobricks are for dirty plastic" loading="lazy">
 						</div>
 					</div>
 
