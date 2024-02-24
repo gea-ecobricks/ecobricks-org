@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.73';?>
+<?php $version='1.74';?>
 <?php $page='what';?>
 <title>Qu'est-ce qu'une Ecobrick? | Ecobricks.org</title>
 <?php require_once ("../includes/what2-inc.php");?>
@@ -25,7 +25,6 @@
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -66,7 +65,7 @@
 						<p>
 						La GEA maintient des normes pour l'écobrique qui sont divisées en six catégories basées sur les six <a href="sequest.php">critères de la GEA pour la séquestration du plastique</a>. Les normes d'écobriques de la GEA garantissent que les critères de séquestration du plastique ont été respectés et que notre écobriking est conforme aux principes de l'éthique terrestre et à l'<a href="/plastic">exemple de la Terre pour verdir la biosphère</a>.</p>
 						</div>
-						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" width="100%">
+						<div class="side2"><img src="../svgs/authenticated-brik.svg" width="100%" alt="authenticated ecobrick">
 						</div>
 					</div>
 					<div class="row2">
