@@ -65,7 +65,7 @@
 						<p>
 						La GEA maintient des normes pour l'écobrique qui sont divisées en six catégories basées sur les six <a href="sequest.php">critères de la GEA pour la séquestration du plastique</a>. Les normes d'écobriques de la GEA garantissent que les critères de séquestration du plastique ont été respectés et que notre écobriking est conforme aux principes de l'éthique terrestre et à l'<a href="/plastic">exemple de la Terre pour verdir la biosphère</a>.</p>
 						</div>
-						<div class="side2"><img src="../svgs/authenticated-brik.svg" width="100%" alt="authenticated ecobrick">
+						<div class="side2"><img src="../svgs/authenticated-brik.svg" width="300" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers">
 						</div>
 					</div>
 					<div class="row2">
