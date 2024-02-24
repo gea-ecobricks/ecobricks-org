@@ -13,10 +13,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Les écobriques</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Une solution simple, low-tech et non-capital pour notre plastique quotidien</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Ecobricks</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">A simple, low-tech, non-capital technology to take care of our plastic.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/eb-blue-no-clouds.svg" style="width: 95%" alt="Un introduction basique au ecobriques">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/eb-blue-no-clouds.svg" style="width: 95%" alt="The basics of ecobricking">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -33,20 +33,20 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p data-lang-id="004-lead-page-paragraph">L'écobricking est un moyen simple d'assumer personnellement la responsabilité de notre plastique en le gardant hors de l'industrie et hors de la biosphère.</p>
+			<p data-lang-id="004-lead-page-paragraph">Ecobricking is a simple way to take personal responsibility for our plastic by keeping it out of industry and out of the biosphere.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p data-lang-id="005-first-page-paragraph">Une ecobrick est une bouteille en PET solidement emballée avec du plastique usagé propre et sec. Les écobricks sont fabriqués manuellement à une densité définie pour <a href="sequest.php">séquestrer le plastique</a> et créer des blocs de construction réutilisables. De cette manière, les écobricks empêchent le plastique de <a href="/why">se dégrader en toxines et en microplastiques</a> et d'éviter les processus industriels à haute énergie et à fortes émissions. Mais surtout, le processus pratique d'écobriquetage approfondit notre conscience de ces problèmes et de leurs alternatives régénératrices - ce que nous appelons la <a href="transition.php">transition plastique</a>.</p>
+				<p data-lang-id="005-first-page-paragraph">An ecobrick is a plastic bottle packed solid with clean and dry used plastic.  Ecobricks are made manually to a set density to <a href="sequest.php">sequester plastic</a> and create reusable building blocks.  In this way ecobricks keep plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes.  But most of all, the hands-on process of ecobricking deepens our awareness of these issues and their regenerative alternatives– what we call <a href="transition.php">plastic transition</a>.</p>
 				<p data-lang-id="006-second-page-paragraph">
-				Une fois que de nombreuses écobriques sont disponibles, elles peuvent être utilisées à court terme dans des <a href="modules.php">unités modulaires</a>, <a href="/dms">lego-meubles</a>et <a href="/openspace">espaces ouverts.</a> Ecobrick peut également être utilisé à long terme dans les <a href="earth.php">jardins et structures en terre</a>. Dans leur fabrication et leur application, les écobriques incarnent des <a href="principles.php">principes régénératifs</a> et une <a href="/ayyew">vision ayyew</a> basée sur  <a href= "plastic.php">l'exemple de la Terre</a> de sécurisation du carbone libre pour verdir la biosphère.</p>
+				Once many ecobricks are available, they can be put to short-term use in <a href="/modules">modular units</a>, <a href="/dms">lego-furniture </a>and <a href="/openspace">open spaces.</a> Later, our ecobrick can also be put to long-term use in <a href="earth.php">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="principles.php">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="/plastic">Earth's example</a> of securing loose carbon to green the biosphere.</p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="007-block-1-header">Normes d'écobrique</h4>
-            <h5 data-lang-id="008-block-1-subheader">La GEA maintient des normes pour l'écobrique qui sont divisées en six catégories</h5>
+            <h4 data-lang-id="007-block-1-header">Ecobricking Standards</h4>
+            <h5 data-lang-id="008-block-1-subheader">The GEA maintains standards for ecobricking that are divided into six categories.</h5>
         </div>
         <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus"></button>
     </div>
@@ -54,7 +54,7 @@
     <div id="preclosed1">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="009-block-1-main-p1">La <a href="about.php">Global Ecobrick Alliance (GEA)</a> préconise l'écobricking comme moyen de <a href="transition.php">transition pétro-capitale</a> et <a href="sequest.php">séquestration plastique.</a></p>
+                <p data-lang-id="009-block-1-main-p1">The <a href="about.php">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition.php">petro-capital transition</a> and <a href="sequest.php">plastic sequestration.</a></p>
                 <p data-lang-id="010-block-1-main-p2">
                 La GEA maintient des normes pour l'écobrique qui sont divisées en six catégories basées sur les six <a href="sequest.php">critères de la GEA pour la séquestration du plastique</a>. Les normes d'écobriques de la GEA garantissent que les critères de séquestration du plastique ont été respectés et que notre écobriking est conforme aux principes de l'éthique terrestre et à l'<a href="/plastic">exemple de la Terre pour verdir la biosphère</a>.</p>
             </div>
@@ -244,24 +244,22 @@
 
 
 <div class="page-paragraph">
-    <h4 data-lang-id="075-final-header">Autonomisation personnelle et communautaire</h4>
-    <p data-lang-id="076-final-p1">L'écobrication est une entreprise à la fois individuelle et collaborative. Il unit les classes, les continents et les cultures autour de l'intention commune de prendre soin de la biosphère locale et mondiale. Le processus d'écobrique personnelle sensibilise aux conséquences de la consommation et aux dangers du plastique pour accélérer la <a href="transition.php">transition plastique</a>. Le processus collaboratif donne aux individus et aux communautés une expérience pratique de la <a href="/principles">mode de vie régénérateur</a> et oriente vers d'autres technologies régénératives, telles que la <a href="/earth">construction en terre </a> et la permaculture.</p>
+    <h4 data-lang-id="075-final-paragraph-header">Personal & Community Empowerment</h4>
+    <p data-lang-id="076-final-paragraph-content1">Ecobricking is both an individual and collaborative endeavour. It unites across class, continents, and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raises awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="transition.php">plastic transition</a>. The collaborative process gives individuals and communities hands-on experience of <a href="principles.php">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="earth.php">earth building</a> and permaculture.</p>
 
-    <h4 data-lang-id="077-final-header-more">En savoir plus</h4>
-    <p data-lang-id="078-final-p2">La Global Ecobrick Alliance a développé des ressources complètes, gratuites et open source (comme cette page !) pour vous aider à bien démarrer l'écobrick. Notre objectif est de vous donner, à vous et à votre communauté, le savoir-faire nécessaire pour fabriquer des écobriques et construire avec elles. Les pages de ce site sont le résultat d'années de recherche, d'expérimentation et d'essais et d'erreurs par des leaders de la transition plastique à travers le monde.</p>
-
+    <h4 data-lang-id="077-learn-more-header">Learn More</h4>
+    <p data-lang-id="078-learn-more-content">The Global Ecobrick Alliance has developed extensive, free, and open-source resources (like this page!) to get you started ecobricking right. Our goal is to empower you and your community with the know-how to make ecobricks and build with them. The pages on this site are the result of years of research, experimentation, and trial and error by plastic transition leaders around the world.</p>
+    
     <ul>
-        <li data-lang-id="079-list-item-1"><a href="/why">Pourquoi fabriquer des écobricks ?</a></li>
-        <li data-lang-id="080-list-item-2"><a href="how.php">Comment Ecobrick ?</a></li>
-        <li data-lang-id="081-list-item-3"><a href="spiral.php">Conception spirale</a></li>
-        <li data-lang-id="082-list-item-4"><a href="build.php">Construire avec des Ecobricks</a></li>
-        <li data-lang-id="083-list-item-5"><a href="/movement">Le Mouvement</a></li>
-        <li data-lang-id="084-list-item-6"><a href="/dropoff">Vous déposez des écobriques ?</a></li>
-        <li data-lang-id="085-list-item-7"><a href="/trainings">Formations Ecobrick</a></li>
+        <li data-lang-id="079-list-item1"><a href="/why">Why Make Ecobricks?</a></li>
+        <li data-lang-id="080-list-item2"><a href="how.php">How to Ecobrick?</a></li>
+        <li data-lang-id="081-list-item3"><a href="spiral.php">Spiral Design</a></li>
+        <li data-lang-id="082-list-item4"><a href="build.php">Building with Ecobricks</a></li>
+        <li data-lang-id="083-list-item5"><a href="/movement">The Movement</a></li>
+        <li data-lang-id="084-list-item6"><a href="/dropoff">Dropping off ecobricks?</a></li>
+        <li data-lang-id="085-list-item7"><a href="/trainings">Ecobrick Trainings</a></li>
     </ul>
 </div>
-
-
 	
 <!-- PAGE SIDE BAR STARTS HERE-->
 
@@ -272,7 +270,7 @@
 
 <?php require_once ("side-modules/sequest-module.php");?>
 
-<?php require_once ("side-modules/spiral-design.php");?>
+<?php require_once ("side-modules/signup-now.php");?>
     
 <?php require_once ("side-modules/transition-module.php");?>
 

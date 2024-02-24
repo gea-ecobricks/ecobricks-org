@@ -15,7 +15,7 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follows the Earth’s example of carbon care.</div>
+		<div class="splash-heading">Ecobricks are a simple, low-tech, non-capital, plastic transition technology that follow the Earth’s example of carbon care.</div>
 		
 	</div>
 	<div class="splash-image"><img src="../svgs/eb-blue-no-clouds.svg" style="width:85%;" alt="eco bricks equals no pollution"></div>	
@@ -253,29 +253,24 @@
 			</div>
 
 		
-		<div class="page-paragraph">
-			<br><br>
-		
-		<h4>Personal & Community Empowerment</h4>
-		<p>Ecobricking is a both an individual and collaborative endeavour.  It unites across class, continents and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raise awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="transition.php">plastic transition</a>. The collaborative process gives individual and communities an hands on experience of <a href="/principles">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="/earth">earth building</a> and permaculture.</p>
-		<br><br>
+			<div class="page-paragraph">
+    <h4 data-lang-id="075-final-paragraph-header">Personal & Community Empowerment</h4>
+    <p data-lang-id="076-final-paragraph-content1">Ecobricking is both an individual and collaborative endeavour. It unites across class, continents, and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raises awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="transition.php">plastic transition</a>. The collaborative process gives individuals and communities hands-on experience of <a href="principles.php">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="earth.php">earth building</a> and permaculture.</p>
 
-		<h4>Learn More</h4>
-		
-		<p>The Global Ecobrick Alliance has developed extensive, free and open source resources (like this page!) to get you started ecobricking right.  Our goal is to empower you and your community with the know-how to make ecobricks and build with them.  The pages on this site are the result of years of research, experimentation and trial and error by plastic transition leaders around the world.
-		</p>
-		<ul>
-			<li><a href="/why">Why Make Ecobricks?</a></li>
-			<li><a href="/how">How to Ecobrick?</a></li>
-			<li><a href="/circular">Circular Design</a></li>
-			<li><a href="build.php">Building with Ecobricks</a></li>
-			<li><a href="/movement">The Movement</a></li>
-			<li><a href="/dropoff">Dropping off ecobricks?</a></li>
-			<li><a href="/trainings">Ecobrick Trainings</a></li>
-		</ul>
-		</div>
+    <h4 data-lang-id="077-learn-more-header">Learn More</h4>
+    <p data-lang-id="078-learn-more-content">The Global Ecobrick Alliance has developed extensive, free, and open-source resources (like this page!) to get you started ecobricking right. Our goal is to empower you and your community with the know-how to make ecobricks and build with them. The pages on this site are the result of years of research, experimentation, and trial and error by plastic transition leaders around the world.</p>
+    
+    <ul>
+        <li data-lang-id="079-list-item1"><a href="/why">Why Make Ecobricks?</a></li>
+        <li data-lang-id="080-list-item2"><a href="how.php">How to Ecobrick?</a></li>
+        <li data-lang-id="081-list-item3"><a href="spiral.php">Spiral Design</a></li>
+        <li data-lang-id="082-list-item4"><a href="build.php">Building with Ecobricks</a></li>
+        <li data-lang-id="083-list-item5"><a href="/movement">The Movement</a></li>
+        <li data-lang-id="084-list-item6"><a href="/dropoff">Dropping off ecobricks?</a></li>
+        <li data-lang-id="085-list-item7"><a href="/trainings">Ecobrick Trainings</a></li>
+    </ul>
+</div>
 
-	</div>
 
 	
 <!-- PAGE SIDE BAR STARTS HERE-->
