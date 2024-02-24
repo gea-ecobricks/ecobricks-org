@@ -56,7 +56,6 @@
 <script type="module" src="https://ecobricks.org/mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>
 <script src="https://api.earthen.io/subscription-system.js?v=<?php echo ($version); ;?>" defer></script>
 <!-- <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>  -->
-?v=2.1
 
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=<?php echo ($version); ;?>">
 <link rel="stylesheet" type="text/css" href="https://api.earthen.io/subscription-stylesheet.css?v=<?php echo ($version); ;?>">
