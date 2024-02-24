@@ -242,8 +242,7 @@
     </div>
 </div>
 
-<div class="reg-content-block">
-<div class="page-paragraph">
+<div class="page-paragraph-reg">
     <h4 data-lang-id="075-final-paragraph-header">Personal & Community Empowerment</h4>
     <p data-lang-id="076-final-paragraph-content1">Ecobricking is both an individual and collaborative endeavour. It unites across class, continents, and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raises awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="transition.php">plastic transition</a>. The collaborative process gives individuals and communities hands-on experience of <a href="principles.php">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="earth.php">earth building</a> and permaculture.</p>
 	<br><br>
@@ -259,7 +258,6 @@
         <li data-lang-id="084-list-item6"><a href="/dropoff">Dropping off ecobricks?</a></li>
         <li data-lang-id="085-list-item7"><a href="/trainings">Ecobrick Trainings</a></li>
     </ul>
-</div>
 </div>
 
 </div>
