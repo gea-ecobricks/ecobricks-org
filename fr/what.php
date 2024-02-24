@@ -48,7 +48,7 @@
             <h4 data-lang-id="007-block-1-header">Ecobricking Standards</h4>
             <h5 data-lang-id="008-block-1-subheader">The GEA maintains standards for ecobricking that are divided into six categories.</h5>
         </div>
-        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">➕</button>
+        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">+</button>
     </div>
 
     <div id="preclosed1">
@@ -96,7 +96,7 @@
             <h4 data-lang-id="022-block-2-header">Regular Ecobricks</h4>
             <h5 data-lang-id="023-block-2-subheader">A PET bottle packed with plastic</h5>
         </div>
-        <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Plus">➕</button>
+        <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Plus">+</button>
     </div>
 
     <div id="preclosed2">
@@ -137,7 +137,7 @@
 
         <p data-lang-id="038-block-2-p3">Only when these ecobrick standards are  met can the plastic inside be considered to be sequestered.</p>
 		<br><br>
-        <a class="action-btn" href="how.php" data-lang-id="039-block-2-btn">ℹ️ How to Make/a>
+        <a class="action-btn" href="how.php" data-lang-id="039-block-2-btn">ℹ️ How to Make</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="040-block-2-p4">View our 10 Step Guide on Making an Ecobrick.</p>
     </div>
 </div>
@@ -149,7 +149,7 @@
             <h4 data-lang-id="041-block-3-header">Cigbricks</h4>
             <h5 data-lang-id="042-block-3-subheader">Plastic sequestration for cigarette filers.</h5>
         </div>
-        <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-label="Plus">➕</button>
+        <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-label="Plus">+</button>
     </div>
 
     <div id="preclosed3">
@@ -199,7 +199,7 @@
             <h4 data-lang-id="058-block-4-header">Ocean Ecobricks</h4>
             <h5 data-lang-id="059-block-4-subheader">Sequestration for plastic collected from beaches, ocean and rivers.</h5>
         </div>
-        <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4" aria-label="Plus">➕</button>
+        <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4" aria-label="Plus">+</button>
     </div>
 
     <div id="preclosed4">
