@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.774';?>
+<?php $version='1.775';?>
 <?php $page='what';?>
 <title>Qu'est-ce qu'une Ecobrick? | Ecobricks.org</title>
 <?php require_once ("../includes/what2-inc.php");?>
@@ -245,7 +245,7 @@
 					<br><br>
 
 					<a class="action-btn" href="/ocean">ℹ️ Make an Ocean Ecobrick</a>
-                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ocean Ecobricks.</a></p>
+                    <p style="font-size: 0.85em; margin-top:20px;">Check our page all about Ocean Ecobricks.</p>
 
 				</div>
 			</div>
