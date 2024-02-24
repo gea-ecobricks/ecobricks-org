@@ -126,6 +126,8 @@ window.onload = function() {
 
   var subSource = 'ecobricks-org';
 
+  console.log(subSource);
+
 
 }
 
