@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.782';?>
+<?php $version='1.783';?>
 <?php $page='what';?>
 <title>Qu'est-ce qu'une Ecobrick? | Ecobricks.org</title>
 <?php require_once ("../includes/what2-inc.php");?>
@@ -16,7 +16,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Les écobriques</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Une solution simple, low-tech et non-capital pour notre plastique quotidien</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/eb-blue-no-clouds.svg" style="width: 85%" alt="Un introduction basique au ecobriques">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/eb-blue-no-clouds.svg" style="width: 95%" alt="Un introduction basique au ecobriques">
     </div>	
 </div>
 <div id="splash-bar"></div>
