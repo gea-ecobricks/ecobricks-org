@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.77777';?>
+<?php $version='1.78';?>
 <?php $page='what';?>
 <title>Qu'est-ce qu'une Ecobrick? | Ecobricks.org</title>
 <?php require_once ("../includes/what2-inc.php");?>
@@ -179,17 +179,19 @@
 			
 
 					<ul>
-						<li>A density higher than 0.29 g/ml
-						<li>A maximum density of 0.70g/ml
-						<li>Only packed with acetate cigarette butts – the paper and ash have been removed.
-						<li>The cigbrick is sealed tight with a screw down lid.
-						<li>Care has been taken taken to prepare the cigbrick as a reuseable building block:</li>
+						<li>A density higher than 0.29 g/ml</li>
+						<li>A maximum density of 0.70g/ml</li>
+						<li>Only packed with acetate cigarette butts – the paper and ash have been removed.</li>
+						<li>The cigbrick is sealed tight with a screw down lid.</li>
+						<li>Care has been taken to prepare the cigbrick as a reusable building block:
 							<ul>
 							<li>The label has been removed and ecobricked.</li>
 							<li>A bottom color has been added</li>
 							<li>The weight has been recorded on the outside.</li>
 							</ul>
+						</li>
 						</ul>
+
 
 						<p>Only cigbricks that meet these standards can be authenticated and count as sequestered plastic.</p>
 						<br><br>
