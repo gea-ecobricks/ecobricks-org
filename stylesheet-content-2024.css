@@ -270,6 +270,10 @@ SPLASH TOP
 	padding: 10px 10px 0px 0px;
 	box-sizing: border-box;
 	text-align: right;
+  justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
 }
 }
 

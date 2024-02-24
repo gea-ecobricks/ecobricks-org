@@ -49,7 +49,27 @@
 <meta name="theme-color" content="#ffffff">
 	
 
- 
+
+<script>
+
+/*ROLL CALL*/
+
+window.onload = function() {
+    var siteName = 'Ecobricks.org'; // Default language code
+    // setPageLanguageFromCache();
+    // alert(currentLanguage);
+  var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
+  switchLanguage(currentLanguage);
+  // updateLogoColor(); 
+
+  var subSource = 'ecobricks-org';
+
+  console.log(subSource);
+
+
+}
+
+</script>
 <script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>
 
 <!--This enables the Light and Dark mode switching-->
@@ -112,26 +132,7 @@
 
 
 
-<script>
 
-/*ROLL CALL*/
-
-window.onload = function() {
-    var siteName = 'Ecobricks.org'; // Default language code
-    // setPageLanguageFromCache();
-    // alert(currentLanguage);
-  var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
-  switchLanguage(currentLanguage);
-  // updateLogoColor(); 
-
-  var subSource = 'ecobricks-org';
-
-  console.log(subSource);
-
-
-}
-
-</script>
 
 
 
