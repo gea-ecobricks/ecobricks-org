@@ -56,7 +56,7 @@
             <div class="main2">
                 <p data-lang-id="009-block-1-main-p1">The <a href="about.php">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition.php">petro-capital transition</a> and <a href="sequest.php">plastic sequestration.</a></p>
                 <p data-lang-id="010-block-1-main-p2">
-                La GEA maintient des normes pour l'écobrique qui sont divisées en six catégories basées sur les six <a href="sequest.php">critères de la GEA pour la séquestration du plastique</a>. Les normes d'écobriques de la GEA garantissent que les critères de séquestration du plastique ont été respectés et que notre écobriking est conforme aux principes de l'éthique terrestre et à l'<a href="/plastic">exemple de la Terre pour verdir la biosphère</a>.</p>
+				The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics.  This way, we can be sure we are following <a href="/plastic">Earth’s example of green, carbon care.</a>.</p>
             </div>
             <div class="side2">
                 <img src="../svgs/authenticated-brik.svg" width="300" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" data-lang-id="011-block-1-img1-alt">
@@ -64,7 +64,7 @@
         </div>
         <div class="row2">
             <div class="main3">
-                <p data-lang-id="012-block-1-main-p3">Une écobrique doit remplir les critères suivants :</p>
+                <p data-lang-id="012-block-1-main-p3">An ecobrick must fulfil the following crieria:</p>
             </div>
             <div class="side3">
                 <img src="../svgs/authenticated-brik.svg" width="125" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" data-lang-id="013-block-1-img2-alt">
@@ -72,20 +72,20 @@
         </div>
 
         <ul>
-            <li data-lang-id="014-block-1-li-1">Être créé par un processus à but non lucratif qui profite à la Terre</li>
-            <li data-lang-id="015-block-1-li-2">Compressez et sécurisez manuellement le plastique usagé en un bloc de construction transparent qui peut être réutilisé indéfiniment à court et à long terme.</li>
-            <li data-lang-id="016-block-1-li-3">Il en résulte que plus de plastique et de CO2 sont soustraits de la biosphère que ce qui a été ajouté par le processus de fabrication</li>
-            <li data-lang-id="017-block-1-li-4">Résulter en la création d'applications qui contribuent au maintien et à l'encouragement de la biodiversité</li>
-            <li data-lang-id="018-block-1-li-5">Augmenter la conscience écologique individuelle et collective des personnes impliquées dans le processus.</li>
+            <li data-lang-id="014-block-1-li-1">Be created by a not-for-profit, for-Earth motivation.</li>
+            <li data-lang-id="015-block-1-li-2">Manually compact and secure used plastic into a transparent, building block that can be indefinitely reused in the short and long term.</li>
+            <li data-lang-id="016-block-1-li-3">Result in more plastic and CO2 being subtracted from the biosphere than was added by the process of making</li>
+            <li data-lang-id="017-block-1-li-4">Result in building applications that contribute to the maintenance and encouragement of biodiversity</li>
+            <li data-lang-id="018-block-1-li-5">Raise the individual and collective ecological consciousness of those involved in the process.</li>
         </ul>
 
         <p data-lang-id="019-block-1-p1">
-        Le plastique emballé selon ces normes et authentifié comme tel est considéré par le GEA comme une contribution écologique précieuse. La GEA maintient la <a href="brikcoins.php">chaîne de blocs Brikcoin</a> et la <a href="/gobrik">plate-forme GoBrik</a> pour permettre l'authentification des écobricks selon ces normes. L'authentification entraîne la marchandisation du <a href="/aes">plastique écobrické authentifié.</a></p>
+		Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="brikcoins.php">Brikcoin blockchain</a> and the <a href="/gobrik">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="/aes">authenticated ecobricked plastic.</a></p>
 
-        <p data-lang-id="020-block-1-p2">Actuellement, la GEA reconnaît trois types d'écobricks : les écobricks ordinaires, les cigbricks et les écobricks océaniques. Voir ci-dessous les normes techniques pour chaque type d'ecobrick.</p>
-        <p data-lang-id="021-block-1-p3">Les normes d'écobriquage et de séquestration ont été développées par des écobrickers du monde entier et ont été affinées et sont maintenues par la GEA.</p>
-        <h5 data-lang-id="022-block-1-info-1">ℹ️ En savoir plus sur les <a href="sequest.php">critères de séquestration du plastique.</a></h5>
-        <h5 data-lang-id="023-block-1-info-2">ℹ️ En savoir plus sur <a href="plastic.php">l'exemple de la Terre.</a></h5>
+        <p data-lang-id="020-block-1-p2">Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.</p>
+        <p data-lang-id="021-block-1-p3">Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
+        <h5 data-lang-id="022-block-1-info-1">ℹ️ Learn more about <a href="sequest.php">criteria of plastic sequestration.</h5>
+        <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="/plastic">Earth's example.</a></h5>
     </div>  
 </div>
 
@@ -259,6 +259,8 @@
         <li data-lang-id="084-list-item6"><a href="/dropoff">Dropping off ecobricks?</a></li>
         <li data-lang-id="085-list-item7"><a href="/trainings">Ecobrick Trainings</a></li>
     </ul>
+</div>
+
 </div>
 	
 <!-- PAGE SIDE BAR STARTS HERE-->
