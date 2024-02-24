@@ -1,7 +1,7 @@
 <div class="side-module-desktop-mobile">
-<img src="../icons/earthen-ethics-icon-ecobricks-org.svg" width="80%" alt="Entreprise pour la Terre grâce au briquetage écologique">
+<img src="../icons/earthen-ethics-icon-ecobricks-org.svg" width="300" style="width:95%" alt="Entreprise pour la Terre grâce au briquetage écologique">
 <h4>Principes terrestres</h4>
-<h5>Nos principes de conception sont basés sur l'exemple de la Terre. De cette façon, nous garantissons que nos produits et processus sont en spirale, séquestrants, réciproques, diversifiés et sensibilisants.</h5><br>
+<h5>Nos principes sont basés sur l'exemple de la Terre pour que nos produits et processus sont en spirale, séquestrants, réciproques, diversifiés et sensibilisants.</h5><br>
 <a class="module-btn" href="principles.php" target="_blank">Nos principes</a>
 </div>
 
