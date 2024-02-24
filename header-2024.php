@@ -58,16 +58,15 @@ window.onload = function() {
     var siteName = 'Ecobricks.org'; // Default language code
     // setPageLanguageFromCache();
     // alert(currentLanguage);
-  var currentLanguage = '<?php echo ($lang); ;?>'; // Default language code
-  switchLanguage(currentLanguage);
-  // updateLogoColor(); 
+    var currentLanguage = '<?php echo ($lang); ?>'; // Default language code
+    switchLanguage(currentLanguage);
+    // updateLogoColor(); 
 
-  var subSource = 'ecobricks-org';
+    window.subSource = 'ecobricks-org'; // Make subSource globally accessible
 
-  console.log(subSource);
-
-
+    console.log(window.subSource); // or just console.log(subSource) after declaring it on window
 }
+
 
 </script>
 <script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>

@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.7777';?>
+<?php $version='1.77777';?>
 <?php $page='what';?>
 <title>Qu'est-ce qu'une Ecobrick? | Ecobricks.org</title>
 <?php require_once ("../includes/what2-inc.php");?>
@@ -125,18 +125,20 @@
 						</div>
 					</div>
 					<ul>
-					<li>L'ecobrick est fabriqué à partir d'une bouteille PET transparente</li>
-<li>L'ecobrick est uniquement emballé avec des plastiques usagés qui ont été nettoyés et séchés.</li>
-<li>La densité de l'ecobrick est supérieure à 0,33 g/ml</li>
-<li>L'ecobrick doit avoir une densité de 0,70 g/ml ou moins</li>
-<li>L'ecobrick est scellé hermétiquement avec un couvercle vissé.</li>
-<li>On a pris soin de préparer l'ecobrick comme un bloc de construction réutilisable :
-<ul>
-<li>L'étiquette a été retirée et écobriquée.</li>
-<li>Une couleur de fond a été ajoutée</li>
-<li>Le poids a été enregistré en permanence à l'extérieur.</li>
-</ul></li>
-</ul>
+						<li>L'ecobrick est fabriqué à partir d'une bouteille PET transparente</li>
+						<li>L'ecobrick est uniquement emballé avec des plastiques usagés qui ont été nettoyés et séchés.</li>
+						<li>La densité de l'ecobrick est supérieure à 0,33 g/ml</li>
+						<li>L'ecobrick doit avoir une densité de 0,70 g/ml ou moins</li>
+						<li>L'ecobrick est scellé hermétiquement avec un couvercle vissé.</li>
+						<li>On a pris soin de préparer l'ecobrick comme un bloc de construction réutilisable :
+							<ul>
+							<li>L'étiquette a été retirée et écobriquée.</li>
+							<li>Une couleur de fond a été ajoutée</li>
+							<li>Le poids a été enregistré en permanence à l'extérieur.</li>
+							</ul>
+						</li>
+						</ul>
+
 <p>Seules les écobriques qui répondent à ces normes peuvent être authentifiées et comptées comme du plastique séquestré.</p>
 <br><br>
 <a class="action-btn" href="how.php">ℹ️ Comment faire</a>
