@@ -16,7 +16,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Les écobriques</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Simple, low-tech et non-capital pour la séquestration plastique.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="Un introduction basique au ecobriques">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/eb-blue-no-clouds.svg" style="width: 85%" alt="Un introduction basique au ecobriques">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -120,7 +120,7 @@
 					<div class="row2">
 						<div class="main3">
 						<p>Pour être une écobrique, les normes suivantes doivent être respectées :</p>						</div>
-						<div class="side3"><img src="https://ecobricks.org/svgs/eb-blue.svg" width="120px" style="width:100%;">
+						<div class="side3"><img src="https://ecobricks.org/svgs/eb-blue.svg" width="120" style="width:100%;" alt="An ecobrick being made">
 						</div>
 					</div>
 					<ul>
@@ -138,8 +138,8 @@
 </ul>
 <p>Seules les écobriques qui répondent à ces normes peuvent être authentifiées et comptées comme du plastique séquestré.</p>
 <br><br>
-<a class="action-btn" href="/how">ℹ️ Comment faire</a>
-                     <p style="font-size: 0.85em; margin-top:20px;">Consultez notre guide en 10 étapes pour fabriquer une écobrique</a></p>
+<a class="action-btn" href="how.php">ℹ️ Comment faire</a>
+                     <p style="font-size: 0.85em; margin-top:20px;">Consultez notre guide en 10 étapes pour fabriquer une écobrique</p></a>
 				</div>
 			</div>
 
@@ -170,7 +170,7 @@
 						<div class="main3">
 						<p>To be a Cigbrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="../svgs/Cigbrick.svg" width="120px" style="width:100%;" alt="Cigbricks are for cigarettes">
+						<div class="side3"><img src="../svgs/Cigbrick.svg" width="120" style="width:100%;" alt="Cigbricks are for cigarettes">
 						</div>
 					</div>
 			
@@ -217,7 +217,7 @@
 						<p>Ocean Ecobricks are a class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
 						</div>
 						<div class="side2">
-						<img src="../webp/oeb-400px.webp" width="100%">
+						<img src="../webp/oeb-400px.webp" width="300" style="width:100%;" alt="Ocean Ecobricks are for dirty plastic">
 						</div>
 					</div>
 
@@ -225,7 +225,7 @@
 						<div class="main3">
 						<p>To be an Ocean Ecobrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="../webp/oeb-400px.webp" width="150px">
+						<div class="side3"><img src="../webp/oeb-400px.webp" width="120" style="width:150;" alt="Ocean Ecobricks are for dirty plastic">
 						</div>
 					</div>
 

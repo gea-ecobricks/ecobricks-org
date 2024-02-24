@@ -2,7 +2,7 @@
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="../svgs/eb-blue-no-clouds.svg?v=2">
+<link rel="preload" as="image" href="../svgs/eb-blue-no-clouds.svg">
 <link rel="preload" as="image" href="../svgs/top-clouds-mobile2.svg?v=2">
 <link rel="preload" as="image" href="../svgs/top-clouds-animated-desktop.svg?v=2">
 <!--This loads CSS specific to this page-->
