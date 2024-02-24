@@ -39,7 +39,7 @@
 			<div class="page-paragraph">
 				<p data-lang-id="005-first-page-paragraph">Une ecobrick est une bouteille en PET solidement emballée avec du plastique usagé propre et sec. Les écobricks sont fabriqués manuellement à une densité définie pour <a href="sequest.php">séquestrer le plastique</a> et créer des blocs de construction réutilisables. De cette manière, les écobricks empêchent le plastique de <a href="/why">se dégrader en toxines et en microplastiques</a> et d'éviter les processus industriels à haute énergie et à fortes émissions. Mais surtout, le processus pratique d'écobriquetage approfondit notre conscience de ces problèmes et de leurs alternatives régénératrices - ce que nous appelons la <a href="transition.php">transition plastique</a>.</p>
 				<p data-lang-id="006-second-page-paragraph">
-				Une fois que de nombreuses écobriques sont disponibles, elles peuvent être utilisées à court terme dans des <a href="modules.php">unités modulaires</a>, <a href="/dms">lego-meubles</a>et <a href="/openspace">espaces ouverts.</a> Ecobrick peut également être utilisé à long terme dans les <a href="earth.php">jardins et structures en terre</a>. Dans leur fabrication et leur application, les écobriques incarnent des <a href="principles.php">principes régénératifs</a> et une <a href="/ayyew">vision ayyew</a> basée sur  <a href= "/plastic">l'exemple de la Terre</a> de sécurisation du carbone libre pour verdir la biosphère.</p>
+				Une fois que de nombreuses écobriques sont disponibles, elles peuvent être utilisées à court terme dans des <a href="modules.php">unités modulaires</a>, <a href="/dms">lego-meubles</a>et <a href="/openspace">espaces ouverts.</a> Ecobrick peut également être utilisé à long terme dans les <a href="earth.php">jardins et structures en terre</a>. Dans leur fabrication et leur application, les écobriques incarnent des <a href="principles.php">principes régénératifs</a> et une <a href="/ayyew">vision ayyew</a> basée sur  <a href= "plastic.php">l'exemple de la Terre</a> de sécurisation du carbone libre pour verdir la biosphère.</p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">
@@ -65,14 +65,14 @@
 						<p>
 						La GEA maintient des normes pour l'écobrique qui sont divisées en six catégories basées sur les six <a href="sequest.php">critères de la GEA pour la séquestration du plastique</a>. Les normes d'écobriques de la GEA garantissent que les critères de séquestration du plastique ont été respectés et que notre écobriking est conforme aux principes de l'éthique terrestre et à l'<a href="/plastic">exemple de la Terre pour verdir la biosphère</a>.</p>
 						</div>
-						<div class="side2"><img src="../svgs/authenticated-brik.svg" width="300" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers">
+						<div class="side2"><img src="../svgs/authenticated-brik.svg" width="300" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy">
 						</div>
 					</div>
 					<div class="row2">
 						<div class="main3">
 						<p>Une écobrique doit remplir les critères suivants :</p>
 						</div>
-						<div class="side3"><img src="../svgs/authenticated-brik.svg" width="125" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers">
+						<div class="side3"><img src="../svgs/authenticated-brik.svg" width="125" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy">
 						</div>
 					</div>
 
@@ -82,7 +82,8 @@
 					<li>Il en résulte que plus de plastique et de CO2 sont soustraits de la biosphère que ce qui a été ajouté par le processus de fabrication</li>
 					<li>Résulter en la création d'applications qui contribuent au maintien et à l'encouragement de la biodiversité</li>
 					<li>Augmenter la conscience écologique individuelle et collective des personnes impliquées dans le processus.</li>
-					</ul></p>
+					</ul>
+
 					<p>
 					Le plastique emballé selon ces normes et authentifié comme tel est considéré par le GEA comme une contribution écologique précieuse. La GEA maintient la <a href="brikcoins.php">chaîne de blocs Brikcoin</a> et la <a href="/gobrik">plate-forme GoBrik</a> pour permettre l'authentification des écobricks selon ces normes. L'authentification entraîne la marchandisation du <a href="/aes">plastique écobrické authentifié.</a></p>
 
@@ -111,7 +112,7 @@
 						<div class="main2">
 						<p>Les écobriques normales sont fabriquées avec n'importe quelle taille de bouteille en plastique PET transparent. La bouteille et le plastique emballé sont propres et secs pour empêcher la croissance de bactéries. En règle générale, les écobrickers utilisent un bâton en bois ou en bambou pour emballer manuellement le plastique dans la bouteille en plastique. Le plastique est coupé ou déchiré en petits morceaux puis emballé petit à petit, en alternant entre l'ajout du plastique et son compactage, couche par couche. La bouteille est tournée à chaque pression pour s'assurer que le plastique est uniformément compacté dans toute la bouteille. Cela aide à éviter les vides et à ce que la garniture atteigne la solidité requise pour les applications d'un bloc de construction.</p>
 </div>
-						<div class="side2"><img src="../webp/brik-cascade.webp" width="150" alt="brikcoins are generated by authenticated ecobricks" style="width:100%;">
+						<div class="side2"><img src="../webp/brik-cascade.webp" width="150" alt="brikcoins are generated by authenticated ecobricks" style="width:100%;" loading="lazy">
 						</div>
 					</div>
 
@@ -120,7 +121,7 @@
 					<div class="row2">
 						<div class="main3">
 						<p>Pour être une écobrique, les normes suivantes doivent être respectées :</p>						</div>
-						<div class="side3"><img src="https://ecobricks.org/svgs/eb-blue.svg" width="120" style="width:100%;" alt="An ecobrick being made">
+						<div class="side3"><img src="https://ecobricks.org/svgs/eb-blue.svg" width="120" style="width:100%;" alt="An ecobrick being made" loading="lazy">
 						</div>
 					</div>
 					<ul>
@@ -139,7 +140,7 @@
 <p>Seules les écobriques qui répondent à ces normes peuvent être authentifiées et comptées comme du plastique séquestré.</p>
 <br><br>
 <a class="action-btn" href="how.php">ℹ️ Comment faire</a>
-                     <p style="font-size: 0.85em; margin-top:20px;">Consultez notre guide en 10 étapes pour fabriquer une écobrique</p></a>
+                     <p style="font-size: 0.85em; margin-top:20px;">Consultez notre guide en 10 étapes pour fabriquer une écobrique</p>
 				</div>
 			</div>
 
@@ -162,7 +163,7 @@
 						<div class="main2">
 						<p>Cigbricks are a class of ecobrick to secure the potentially toxic plastic/acetate of the cigarette filters-- one of the most prevalent and damaging of all plastic pollutants. Cigbricks are made exclusively from the packed acetate filters of cigarette butts once the paper and ash has been fully removed.</p>
 						</div>
-						<div class="side2"><img src="../svgs/Cigbrick.svg" width="300" style="width:100%;" alt="Cigbricks are for cigarettes">
+						<div class="side2"><img src="../svgs/Cigbrick.svg" width="300" style="width:100%;" alt="Cigbricks are for cigarettes" loading="lazy">
 						</div>
 					</div>
 
@@ -170,7 +171,7 @@
 						<div class="main3">
 						<p>To be a Cigbrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="../svgs/Cigbrick.svg" width="120" style="width:100%;" alt="Cigbricks are for cigarettes">
+						<div class="side3"><img src="../svgs/Cigbrick.svg" width="120" style="width:100%;" alt="Cigbricks are for cigarettes" loading="lazy">
 						</div>
 					</div>
 			
@@ -217,7 +218,7 @@
 						<p>Ocean Ecobricks are a class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
 						</div>
 						<div class="side2">
-						<img src="../webp/oeb-400px.webp" width="300" style="width:100%;" alt="Ocean Ecobricks are for dirty plastic">
+						<img src="../webp/oeb-400px.webp" width="300" style="width:100%;" alt="Ocean Ecobricks are for dirty plastic" loading="lazy">
 						</div>
 					</div>
 
@@ -225,7 +226,7 @@
 						<div class="main3">
 						<p>To be an Ocean Ecobrick the following standards must be met:</p>
 						</div>
-						<div class="side3"><img src="../webp/oeb-400px.webp" width="120" style="width:150;" alt="Ocean Ecobricks are for dirty plastic">
+						<div class="side3"><img src="../webp/oeb-400px.webp" width="120" style="width:150;" alt="Ocean Ecobricks are for dirty plastic" loading="lazy">
 						</div>
 					</div>
 
@@ -263,10 +264,10 @@
 </p>
 <ul>
 <li><a href="/why">Pourquoi fabriquer des écobricks ?</a></li>
-<li><a href="/how">Comment Ecobrick ?</a></li>
-<li><a href="/circular">Conception circulaire</a></li>
+<li><a href="how.php">Comment Ecobrick ?</a></li>
+<li><a href="spiral.php">Conception spirale</a></li>
 <li><a href="build.php">Construire avec des Ecobricks</a></li>
-<li><a href="/mouvement">Le Mouvement</a></li>
+<li><a href="/movement">Le Mouvement</a></li>
 <li><a href="/dropoff">Vous déposez des écobriques ?</a></li>
 <li><a href="/trainings">Formations Ecobrick</a></li>
 </ul>
