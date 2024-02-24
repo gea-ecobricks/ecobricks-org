@@ -365,13 +365,22 @@ window.onload = function() {
                         <div class="reg-header" data-lang-id="110-subscription-title">Subscribe to Earthen</div>
                         <div class="reg-subtitle" data-lang-id="111-subscription-subtitle">Follow our regenerative work and news by subscribing to our Earthen newsletter.</div>
                       
-                        <form id="emailForm" class="reg-field" style="display:flex; flex-flow:row;">
+                        <!-- <form id="emailForm" class="reg-field" style="display:flex; flex-flow:row;">
                         <label for="email"></label>
                         <input type="email" name="email" required placeholder="Your e-mail..." class="email-input" data-lang-id="112-subscription-email-placeholder">
                         <input type="text" name="name" required placeholder="Your name..." class="name-input" data-lang-id="113-subscription-name-placeholder">
                         <div class="reg-complete-text" id="reg-status"></div>
                         <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleSubscriptionSubmit(event)">
-                        </form>
+                        </form> -->
+
+                        <form id="emailForm" class="reg-field" style="display:flex; flex-flow:row;">
+                        <label for="email"></label> <!-- Optionally add label text -->
+                      <input type="email" id="email" name="email" required placeholder="Your e-mail..." class="email-input" data-lang-id="112-subscription-email-placeholder">
+                      <input type="text" id="name" name="name" required placeholder="Your name..." class="name-input" data-lang-id="113-subscription-name-placeholder">
+                      <div class="reg-complete-text" id="reg-status"></div>
+                     <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleSubscriptionSubmit(event)">
+</form>
+
                         <div class="reg-sub" style="flex-flow: row;">
                             <div class="earthen-icon"></div>
                             <div id="reg-explanation" data-lang-id="114-subscription-caption">We send out a news once every month or so according to <a href="javascript:void(0)" onclick="previewPrivacy()">our strict privacy policy</a>.</div>
