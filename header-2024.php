@@ -124,6 +124,15 @@ window.onload = function() {
   switchLanguage(currentLanguage);
   // updateLogoColor(); 
 
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const button = document.getElementById("reg-status-icon");
+    button.addEventListener("click", function(event) {
+        handleSubscriptionSubmit(event, 'ecobricks-org');
+    });
+});
+
+
 }
 
 </script>
@@ -365,7 +374,7 @@ window.onload = function() {
                         <input type="email" name="email" required placeholder="Your e-mail..." class="email-input" data-lang-id="112-subscription-email-placeholder">
                         <input type="text" name="name" required placeholder="Your name..." class="name-input" data-lang-id="113-subscription-name-placeholder">
                         <div class="reg-complete-text" id="reg-status"></div>
-                        <input type="submit" value="➔" class="register-button" id="reg-status-icon" onclick="handleSubscriptionSubmit(event, 'ecobricks-org')">
+                        <input type="submit" value="➔" class="register-button" id="reg-status-icon">
                         </form>
                         <div class="reg-sub" style="flex-flow: row;">
                             <div class="earthen-icon"></div>

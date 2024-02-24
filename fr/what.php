@@ -14,7 +14,7 @@
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Les écobriques</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Simple, low-tech et non-capital pour la séquestration plastique.</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Une solution simple, low-tech et non-capital pour notre plastique quotidien</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/eb-blue-no-clouds.svg" style="width: 85%" alt="Un introduction basique au ecobriques">
     </div>	
