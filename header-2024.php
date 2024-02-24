@@ -64,7 +64,6 @@ window.onload = function() {
 
     window.subSource = 'ecobricks-org'; // Make subSource globally accessible
 
-    console.log(window.subSource); // or just console.log(subSource) after declaring it on window
 }
 
 
