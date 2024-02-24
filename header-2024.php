@@ -126,12 +126,14 @@ window.onload = function() {
 
 
   document.addEventListener("DOMContentLoaded", function() {
-    const button = document.getElementById("reg-status-icon");
-    button.addEventListener("click", function(event) {
-        handleSubscriptionSubmit(event, 'ecobricks-org');
+    const form = document.getElementById("emailForm");
+    form.addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent default form submission
+        // Your validation and submission logic here
+
+        // If everything is valid, you can proceed to submit the form data via JavaScript (e.g., using Fetch API)
     });
 });
-
 
 }
 
