@@ -15,10 +15,11 @@
 
     
     <div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Offsetting</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Take responsibility for plastic you've consumed by supporting plastic's sequestration into ecobricks</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">AES Plastic Offsetting</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Authenticated
+Ecobrick Sequestered Plastic</div>
 	</div>
-    <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/eco-accounting-icon-from-ecobricks-org.svg?v=6" style="width: 95%" alt="Authenticated Ecobrick Sequestered Plastic"></div>	
+    <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/aes-shadowed.svg" style="width: 95%" alt="Authenticated Ecobrick Sequestered Plastic"></div>	
 	
 </div>
 <!-- <div id="splash-bar"></div> -->
@@ -35,22 +36,16 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p data-lang-id="004-lead-page-paragraph">To compensate for our plastic consuption we we can support those who are doing the hard of plastic sequestration.</p>
-			</div>
-
-            <p data-lang-id="004-lead-page-paragraph">Offsetting is a way to balance our grey earth-impacts with green ones to ensure that our living is greening our local and global biospheres.</p>
+			<p data-lang-id="004-lead-page-paragraph">Ecobricking follows the Earth’s ancient example of cycling, securing and storing carbon.  When an ecobrick has been authenticated to have sequestered plastic it means a contribution to the greening of the biosphere has been made.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p data-lang-id="005-first-page-paragraph">Plastic offsetting is way to balance off the plastic you generate. Its a little bit like how some people plant trees or buy carbon offset credits to balance off the carbon footprint. In the same way, plastic offset credits are measured in kilograms of sequestered plastic. These kilograms are certified by us-- the Global Ecobrick Alliance-- an independent earth enterprise that provides the platform for authenticating that plastic has indeed been effectively sequestered and will not contaminate the biosphere.</p>
+				<p data-lang-id="005-first-page-paragraph">To ensure that ecobricking follows the Earth’s example of carbon care, the Global Ecobrick Alliance (GEA), has established ecobricking standards based on our criteria of plastic sequestration.  </p>
 
 				<p data-lang-id="006-second-page-paragraph">
-				The GEA hosts the Brikcoin manual blockchain as a platform for ecobrick authentication.  Accessed through our Gobrik app, it enables the peer-to-peer review of every ecobrick logged.  Once an ecobrick is authenticated to have met GEA standards, it’s net weight is referred to as Authenticated Ecobrick Sequestered Plastic (AES Plastic).  </p>
+				The GEA hosts the Brikcoin manual blockchain as a platform for ecobrick authentication.  Accessed through our Gobrik app, it enables the peer-to-peer review of every ecobrick logged.  Once an ecobrick is authenticated to have met GEA standards, it’s net weight is referred to as Authenticated Ecobrick Sequestered Plastic (AES Plastic).</p>
 
-                <p data-lang-id="006-third-page-paragraph">AES Plastic counts towards personal and enterprise plastic transition and impact accounting.  AES plastic can be purchased as a plastic offset credit on the GoBrik app.
-
-                The GEA issues you a serialize certificate for your purchase of Authenticated Ecobrick Sequestered Plastic (AES Plastic). Your purchase is logged on the brikcoin blockchain and your account credited with AES plastic offset credits.
-                </p>
+                <p data-lang-id="006-third-page-paragraph">AES Plastic counts towards personal and enterprise plastic transition and impact accounting.  AES plastic can be purchased as a plastic offset credit on the GoBrik app.</p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">

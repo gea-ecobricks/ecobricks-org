@@ -1,13 +1,12 @@
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="../icons/earthwand-shadow.svg">
-<link rel="preload" as="image" href="../svgs/earthwand-background-mobile.svg">
-<link rel="preload" as="image" href="../svgs/earthwand-background.svg">
+<link rel="preload" as="image" href="../svgs/aes-shadowed.svg">
+<link rel="preload" as="image" href="../svgs/aes-vision-scape?v=2.svg">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("../meta/earthwand-$lang.php");?>
+<?php require_once ("../meta/aes-fr.php");?>
 
 
 
@@ -19,11 +18,12 @@
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		
-		background: url(../svgs/earthwand-background-mobile.svg) bottom;
+		?
+		background: url(../svgs/aes-vision-scape.svg?v=2) bottom;
 		/*background-color: #8BBAF0;*/
     	background-repeat: no-repeat;
 		background-size: cover;
+        min-height: 90vh;
 		
 
 	}
@@ -34,8 +34,8 @@
 	.splash-content-block {
 	
 		
-		background: url(../svgs/earthwand-background.svg) bottom;
-		
+		background: url(../svgs/aes-vision-scape.svg?v=2) bottom;
+		min-height: 92vh;
 }
 }
 
@@ -48,11 +48,11 @@
 }
 
 .module-btn {
-  background: var(--emblem-blue);
+  background: var(--emblem-green);
 }
 	
 .module-btn:hover {
-  background: var(--emblem-blue-over);
+  background: var(--emblem-green-over);
 }
 
 .earthwand-photo {width:40%;
