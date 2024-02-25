@@ -2,7 +2,7 @@
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="../svgs/aes-shadowed.svg">
-<link rel="preload" as="image" href="../svgs/aes-vision-scape.svg">
+<link rel="preload" as="image" href="../svgs/aes-vision-scape?v=2.svg">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
@@ -18,8 +18,8 @@
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		
-		background: url(../svgs/aes-vision-scape.svg) bottom;
+		?
+		background: url(../svgs/aes-vision-scape.svg?v=2) bottom;
 		/*background-color: #8BBAF0;*/
     	background-repeat: no-repeat;
 		background-size: cover;
@@ -34,7 +34,7 @@
 	.splash-content-block {
 	
 		
-		background: url(../svgs/aes-vision-scape.svg) bottom;
+		background: url(../svgs/aes-vision-scape.svg?v=2) bottom;
 		min-height: 92vh;
 }
 }
@@ -48,11 +48,11 @@
 }
 
 .module-btn {
-  background: var(--emblem-blue);
+  background: var(--emblem-green);
 }
 	
 .module-btn:hover {
-  background: var(--emblem-blue-over);
+  background: var(--emblem-green-over);
 }
 
 .earthwand-photo {width:40%;

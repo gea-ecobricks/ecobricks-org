@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.784';?>
+<?php $version='1.785';?>
 <?php $page='offsetting';?>
 <title>AES Plastic Offsetting</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
@@ -12,13 +12,14 @@
 
 
 <div class="splash-content-block">
-<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/aes-shadowed.svg" style="width: 95%" alt="Authenticated Ecobrick Sequestered Plastic">
+
     </div>	
     <div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">AES Plastic Offsetting</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Authenticated
 Ecobrick Sequestered Plastic</div>
 	</div>
+    <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/aes-shadowed.svg" style="width: 95%" alt="Authenticated Ecobrick Sequestered Plastic">
 	
 </div>
 <!-- <div id="splash-bar"></div> -->
@@ -51,7 +52,7 @@ Ecobrick Sequestered Plastic</div>
     <div class="opener-header">
         <div class="opener-header-text">
             <h4 data-lang-id="007-block-1-header">Ecobricking Standards</h4>
-            <h5 data-lang-id="008-block-1-subheader">The GEA maintains standards for ecobricking that are divided into six categories.</h5>
+            <h5 data-lang-id="008-block-1-subheader">The Global Ecobrick Alliance maintains standards to ensure that ecobricked plastic meets the criteria of plastic sequestration. </h5>
         </div>
         <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">+</button>
     </div>
@@ -59,9 +60,14 @@ Ecobrick Sequestered Plastic</div>
     <div id="preclosed1">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="009-block-1-main-p1">The <a href="about.php">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition.php">petro-capital transition</a> and <a href="sequest.php">plastic sequestration.</a></p>
-                <p data-lang-id="010-block-1-main-p2">
-				The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics.  This way, we can be sure we are following <a href="/plastic">Earth’s example of green, carbon care.</a>.</p>
+                <p data-lang-id="009-block-1-main-p1">These standards pertain to the making of the ecobrick but most important to the final state of the packed plastic.  Standards include…</p>
+                <ul>
+            <li data-lang-id="014-block-1-li-1">Be created by a not-for-profit, for-Earth motivation.</li>
+            <li data-lang-id="015-block-1-li-2">The ecobricked plastic is clean and dry and within the appropriate weight range for its volume and type.</li>
+            <li data-lang-id="016-block-1-li-3">The ecobricked plastic has created a sturdy and safe building block that can be reused indefinitely in the short-term.</li>
+            <li data-lang-id="017-block-1-li-4">The ecobricked plastic is fully secured from all forms of degradation so that it can be used as a long-term building block.</li>
+      
+        </ul>
             </div>
             <div class="side2" data-lang-id="011-block-1-img1-alt">
                 <img src="../svgs/authenticated-brik.svg" width="300" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" >
@@ -69,28 +75,18 @@ Ecobrick Sequestered Plastic</div>
         </div>
         <div class="row2">
             <div class="main3">
-                <p data-lang-id="012-block-1-main-p3">An ecobrick must fulfil the following crieria:</p>
+                <p data-lang-id="012-block-1-main-p3">Further and specific ecobrick standards depend on the type of ecobrick being made.</p>
             </div>
             <div class="side3" data-lang-id="013-block-1-img2-alt">
                 <img src="../svgs/authenticated-brik.svg" width="125" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" >
             </div>
         </div>
 
-        <ul>
-            <li data-lang-id="014-block-1-li-1">Be created by a not-for-profit, for-Earth motivation.</li>
-            <li data-lang-id="015-block-1-li-2">Manually compact and secure used plastic into a transparent, building block that can be indefinitely reused in the short and long term.</li>
-            <li data-lang-id="016-block-1-li-3">Result in more plastic and CO2 being subtracted from the biosphere than was added by the process of making</li>
-            <li data-lang-id="017-block-1-li-4">Result in building applications that contribute to the maintenance and encouragement of biodiversity</li>
-            <li data-lang-id="018-block-1-li-5">Raise the individual and collective ecological consciousness of those involved in the process.</li>
-        </ul>
 
-        <p data-lang-id="019-block-1-p1">
-		Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="brikcoins.php">Brikcoin blockchain</a> and the <a href="/gobrik">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="/aes">authenticated ecobricked plastic.</a></p>
-
-        <p data-lang-id="020-block-1-p2">Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.</p>
+        <p data-lang-id="020-block-1-p2">Further and specific ecobrick standards depend on the type of ecobrick being made.</p>
         <p data-lang-id="021-block-1-p3">Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
-        <h5 data-lang-id="022-block-1-info-1">ℹ️ Learn more about <a href="sequest.php">criteria of plastic sequestration.</h5>
-        <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="/plastic">Earth's example.</a></h5>
+        <h5 data-lang-id="022-block-1-info-1">ℹ️ Learn more about <a href="what.php">GEA Ecobricking Standards</h5>
+        <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="sequest">Plastic Sequestration</a></h5>
     </div>  
 </div>
 

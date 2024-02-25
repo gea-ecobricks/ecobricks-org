@@ -131,6 +131,10 @@
    <stop id="stop23" stop-color="#090" offset="0"/>
    <stop id="stop24" stop-color="#17b817" offset="1"/>
   </linearGradient>
+  <linearGradient id="linearGradient26" x1="93.328" x2="93.103" y1="198.85" y2="174.26" gradientUnits="userSpaceOnUse">
+   <stop id="stop25" stop-color="#00e600" offset="0"/>
+   <stop id="stop26" stop-color="#00bf2d" offset="1"/>
+  </linearGradient>
  </defs>
  <metadata id="metadata43136">
   <rdf:RDF>
@@ -362,7 +366,7 @@
      </g>
      <rect id="rect43524" x="4.234" y="109.18" width="139.48" height="88.863" fill="none" stroke-linejoin="bevel" stroke-width=".95182" style="paint-order:markers stroke fill"/>
     </g>
-    <path id="path43528" transform="matrix(1.1038 0 0 1 -.42567 -7.9167e-7)" d="m5.3298 174.42c16.228-5.0252 48.688-7.5299 62.245-7.0574 5.8665 0.20452 11.031 0.43361 15.761 0.11948 17.782-1.1809 46.275 5.1033 60.724 7.7139l-0.3467 22.839c-53.505 7.3006-97.523 5.1391-138.38-0.17011z" fill="#00e600" filter="url(#filter1073)"/>
+    <path id="path24" d="m6.1457 174.88c51.212-10.697 109.03-10.258 151.77-0.58582v20.985c-55.71 10.948-110.8 8.0914-152.26 0.22061z" fill="url(#linearGradient26)"/>
     <path id="path43530" d="m73.653 167.25s18.416-0.55261 17.504 0.0986c-7.5933 11.132 33.166 16.846 22.352 35.987-20.933 5.4168-43.063 5.0599-66.952-0.51328 5.8536-2.6829 21.622-8.5717 21.14-15.511-0.96605-13.896 5.4464-18.242 9.4295-20.134" fill="#fc0" filter="url(#filter1073)" stroke-width=".99636"/>
     <g id="g44664" transform="matrix(-2.4489 -.19214 -.20908 2.2505 733.82 65.123)">
      <g id="g44662" transform="matrix(.14209 .012132 -.013201 .15462 269.67 6.4905)">
