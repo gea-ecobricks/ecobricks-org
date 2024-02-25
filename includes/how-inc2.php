@@ -96,11 +96,11 @@
 
 
 .module-btn {
-  background: var(--emblem-pink);
+  background: var(--emblem-orange);
 }
 	
 .module-btn:hover {
-  background: var(--emblem-pink-over);
+  background: var(--emblem-orange-over);
 }
 
 	

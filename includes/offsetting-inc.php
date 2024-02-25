@@ -23,6 +23,7 @@
 		/*background-color: #8BBAF0;*/
     	background-repeat: no-repeat;
 		background-size: cover;
+        min-height: 90vh;
 		
 
 	}
@@ -34,7 +35,7 @@
 	
 		
 		background: url(../svgs/aes-vision-scape.svg) bottom;
-		
+		min-height: 92vh;
 }
 }
 

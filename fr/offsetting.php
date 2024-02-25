@@ -5,22 +5,21 @@
 <META charset="UTF-8">
 <?php $lang='fr';?>
 <?php $version='1.784';?>
-<?php $page='what';?>
+<?php $page='offsetting';?>
 <title>AES Plastic Offsetting</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
 <!--TOP PAGE BANNER-->
 
 
 <div class="splash-content-block">
-	<div class="splash-box">
+<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/aes-shadowed.svg" style="width: 95%" alt="Authenticated Ecobrick Sequestered Plastic">
+    </div>	
+    <div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">AES Plastic Offsetting</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Authenticated
-Ecobrick
-Sequestered
-Plastic</div>
+Ecobrick Sequestered Plastic</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/aes-shadowed.svg" style="width: 95%" alt="Authenticated Ecobrick Sequestered Plastic">
-    </div>	
+	
 </div>
 <!-- <div id="splash-bar"></div> -->
 
