@@ -6,20 +6,23 @@
 <?php $lang='fr';?>
 <?php $version='1.784';?>
 <?php $page='what';?>
-<title>Qu'est-ce qu'une Ecobrick? | Ecobricks.org</title>
-<?php require_once ("../includes/what2-inc.php");?>
+<title>AES Plastic Offsetting</title>
+<?php require_once ("../includes/offsetting-inc.php");?>
 <!--TOP PAGE BANNER-->
 
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Ecobricks</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">A simple, low-tech, non-capital technology to take care of our plastic.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">AES Plastic Offsetting</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Authenticated
+Ecobrick
+Sequestered
+Plastic</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/eb-blue-no-clouds.svg" style="width: 95%" alt="The basics of ecobricking">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/aes-shadowed.svg" style="width: 95%" alt="Authenticated Ecobrick Sequestered Plastic">
     </div>	
 </div>
-<div id="splash-bar"></div>
+<!-- <div id="splash-bar"></div> -->
 
 
 
@@ -33,13 +36,16 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p data-lang-id="004-lead-page-paragraph">Ecobricking is a simple way to take personal responsibility for our plastic by keeping it out of industry and out of the biosphere.</p>
+			<p data-lang-id="004-lead-page-paragraph">Ecobricking follows the Earth’s ancient example of cycling, securing and storing carbon.  When an ecobrick has been authenticated to have sequestered plastic it means a contribution to the greening of the biosphere has been made.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p data-lang-id="005-first-page-paragraph">An ecobrick is a plastic bottle packed solid with clean and dry used plastic.  Ecobricks are made manually to a set density to <a href="sequest.php">sequester plastic</a> and create reusable building blocks.  In this way ecobricks keep plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes.  But most of all, the hands-on process of ecobricking deepens our awareness of these issues and their regenerative alternatives– what we call <a href="transition.php">plastic transition</a>.</p>
+				<p data-lang-id="005-first-page-paragraph">To ensure that ecobricking follows the Earth’s example of carbon care, the Global Ecobrick Alliance (GEA), has established ecobricking standards based on our criteria of plastic sequestration.  </p>
+
 				<p data-lang-id="006-second-page-paragraph">
-				Once many ecobricks are available, they can be put to short-term use in <a href="/modules">modular units</a>, <a href="/dms">lego-furniture </a>and <a href="/openspace">open spaces.</a> Later, our ecobrick can also be put to long-term use in <a href="earth.php">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="principles.php">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="/plastic">Earth's example</a> of securing loose carbon to green the biosphere.</p>
+				The GEA hosts the Brikcoin manual blockchain as a platform for ecobrick authentication.  Accessed through our Gobrik app, it enables the peer-to-peer review of every ecobrick logged.  Once an ecobrick is authenticated to have met GEA standards, it’s net weight is referred to as Authenticated Ecobrick Sequestered Plastic (AES Plastic).</p>
+
+                <p data-lang-id="006-third-page-paragraph">AES Plastic counts towards personal and enterprise plastic transition and impact accounting.  AES plastic can be purchased as a plastic offset credit on the GoBrik app.</p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">
