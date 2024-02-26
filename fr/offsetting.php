@@ -45,6 +45,12 @@
 			<div class="page-paragraph">
 
 				<p data-lang-id="005-first-page-paragraph">Offsetting is way to balance off our grey ecological impacts, with green.  Plastic offsetting, is much like carbon offsetting.  In the same way that a household or a company buy carbon offset credits to balance off their emissions, plastic offsets can be purchase to balance our plastic consumption and production.</p>  
+
+            </div>
+
+            <div class="page-paragraph-reg">
+
+                <h4>Carbon Offsetting-- but for plastic</h4>
                     
                 <p data-lang-id="006-second-page-paragraph">In the case of carbon offsets, credits correspond to carbon that has been sequestered-- often by tree planting or coral projects that are capturing, concentrating and securing kilograms or tons of carbon dioxide.  In the same way, plastic offsets credits correspond to plastic that has been captured, concentrated and secured.  These <a href="sequestered.php">sequestered plastic</a> credits are also measured in kilograms.</p>
 
@@ -52,6 +58,8 @@
                 By far the best way to sequester plastic is through ecobricking.  Ecobricking not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved-- a phenonmenon called <a href="transition.php">plastic transition</a>.</p>
 
 				<p data-lang-id="006-second-page-paragraph">However, in order for ecobricked plastic to be considered sequestered, it must be done to specific standards.  Just as not all planted forests represent carbon sequestration (i.e. monoculture forests are known as green deserts for a reason!) not all plastic that is packed is sequestered.  In order to be sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains and represents</a>.</p>
+
+                    <h4>Role of the Global Ecobrick Alliance</h4>
 
                 <p data-lang-id="006-third-page-paragraph">As part of our mission to support local and global plastic transition movements, the Global Ecobrick Alliance maintains a blockchain based on the validation of ecobricked plastic.  This system, which is accessed on our <a href="/gobrik">Gobrik app</a>, enables peers to validate and authentic whether ecobricks meet the criteria of plastic sequestration.  Ecobricks that are authenticated are recorded on the <a href="brikchain">Brikcoin blockchain</a>. Their <a href="/aes">Authenticated Ecobrick Sequestered plastic (AES)</a>then becomes available for purchase as offset credits.</p>
                 
@@ -63,7 +71,7 @@
     <div class="opener-header">
         <div class="opener-header-text">
             <h4 data-lang-id="007-block-1-header">How is the price of offsets determined?</h4>
-            <h5 data-lang-id="008-block-1-subheader">The Global Ecobrick Alliance maintains standards to ensure that ecobricked plastic meets the criteria of plastic sequestration. </h5>
+            <h5 data-lang-id="008-block-1-subheader">The price of 1kg of AES plastic is determined by the cost of its authentication</h5>
         </div>
         <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">+</button>
     </div>
@@ -71,31 +79,11 @@
     <div id="preclosed1">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="009-block-1-main-p1">These standards pertain to the making of the ecobrick but most important to the final state of the packed plastic.  Standards include…</p>
-                <ul>
-            <li data-lang-id="014-block-1-li-1">Be created by a not-for-profit, for-Earth motivation.</li>
-            <li data-lang-id="015-block-1-li-2">The ecobricked plastic is clean and dry and within the appropriate weight range for its volume and type.</li>
-            <li data-lang-id="016-block-1-li-3">The ecobricked plastic has created a sturdy and safe building block that can be reused indefinitely in the short-term.</li>
-            <li data-lang-id="017-block-1-li-4">The ecobricked plastic is fully secured from all forms of degradation so that it can be used as a long-term building block.</li>
-      
-        </ul>
-            </div>
-            <div class="side2" data-lang-id="011-block-1-img1-alt">
-                <img src="../svgs/authenticated-brik.svg" width="300" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" >
-            </div>
-        </div>
-        <div class="row2">
-            <div class="main3">
-                <p data-lang-id="012-block-1-main-p3">Further and specific ecobrick standards depend on the type of ecobrick being made.</p>
-            </div>
-            <div class="side3" data-lang-id="013-block-1-img2-alt">
-                <img src="../svgs/authenticated-brik.svg" width="125" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" >
-            </div>
-        </div>
+                <p data-lang-id="009-block-1-main-p1">To calculate the price of 1kg of authenticated plastic, the Global Ecobrick Alliance divides its costs of operating and maitaining the blockchain by the amount of plastic that has been authenticated.
 
-        <p data-lang-id="021-block-1-p3">Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
-        <h5 data-lang-id="022-block-1-info-1">ℹ️ Learn more about <a href="what.php">GEA Ecobricking Standards</a></h5>
-        <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="sequest">Plastic Sequestration</a></h5>
+It works like this: Last year the Global Ecobrick Alliance incurred 14920 $ USD of expenses in order to authenticate 4,825.42 Kg AES of ecobricked plastic. That works out a cost of 3.09$ USD per Kg in maintaining the block chain and authentication system. This sets our valuation of the price per Kg of AES plastic offsets for 2024</p>
+        <h5 data-lang-id="022-block-1-info-1">ℹ️ View our <a href="open-books.php">GEA Open Books</a></h5>
+        <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="sequest.php">Plastic Sequestration</a></h5>
     </div>  
 </div>
 
