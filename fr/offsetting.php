@@ -34,6 +34,8 @@
 		<div class="main">
 
 			<div class="lead-page-paragraph">
+
+            We live in a world where its almost impossible to not use plastic.  Regardless, the plastic that we consume and produce is our responsibility and will have an ecological impact for a long time to come. 
 <!-- 				
 			<p data-lang-id="004-lead-page-paragraph">To compensate for our plastic consuption we we can support those who are doing the hard of plastic sequestration.  This way we can ensure our homes and enterprises have a net green effect.</p> -->
 			</div>
@@ -42,18 +44,18 @@
 
 			<div class="page-paragraph">
 
-				<p data-lang-id="005-first-page-paragraph">Plastic offsetting is way to balance off the plastic you or your company consume and produce.  Its a concept that is very similar to that of carbon offseting-- when a household or a company buy 'carbon offset credits' to balance off the carbon that they have emitted.  Often the carbon offsets correspond to biodiverse forests that are being renegerated or coral reefs that are being restored have captured, concentrated and secured.  This carbon is considered sequestered and is calculated by its weight in metric tons.</p>  
+				<p data-lang-id="005-first-page-paragraph">Plastic offsetting is way to balance off the grey impact of the plastic you or your company consume and produce with green impacts.  Its a concept that is very similar to that of carbon offseting-- when a household or a company buy 'carbon offset credits' to balance off the carbon that they have emitted.  Often the carbon offsets correspond to biodiverse forests that are being renegerated or coral reefs that are being restored have captured, concentrated and secured.  This carbon is considered sequestered and is calculated by its weight.</p>  
                     
-                <p data-lang-id="006-second-page-paragraph">In the same way, plastic offsets credits are measured in the weight (usually in metric tons) of plastic that has been captured, concentrated and secured.  This "sequestered plastic" is also measured by its weight, in tons and in kilograms.</p>
+                <p data-lang-id="006-second-page-paragraph">In the same way, plastic offsets credits correspond to plastic that has been captured, concentrated and secured.  This <a href="sequestered.php">sequestered plastic</a> is likewise measured by its weight-- in tons and in kilograms.</p>
 
 				<p data-lang-id="006-second-page-paragraph">
-                By far the best way to sequester plastic is through ecobricking.  Ecobricking not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved-- a phenonmenon called plastic transition.</p>
+                By far the best way to sequester plastic is through ecobricking.  Ecobricking not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved-- a phenonmenon called <a href="transition.php">plastic transition</a>.</p>
 
-				<p data-lang-id="006-second-page-paragraph">However, in order for ecobricked plastic to be considered sequestered, it must be done to certain standards.  Just as not all planted forests are example of true carbon sequestration (imagine a forest planted with only one type of tree!) not all packed plastic is sequestered.  In order to be sequestered, secured plastic must meet the criteria of Earthen ethics and globally recognized ecobricking standards.</p>
+				<p data-lang-id="006-second-page-paragraph">However, in order for ecobricked plastic to be considered sequestered, it must be done to specific standards.  Just as not all planted forests are true carbon sequestration (i.e. monoculture forests known as green deserts!) not all packed plastic is sequestered.  In order to be sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These Earthen criteria are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains</a>.</p>
 
-                <p data-lang-id="006-third-page-paragraph">As a not-for-profit, for-Earth enterprise, the Global Ecobrick Alliance maintains and develops a peer-powered blockchain that validates whether ecobricked plastic meet ecobricking standards and the criteria of plastic sequestration.  Ecobricks that are authenticated as such are recorded on the Brikcoin blockchain and their plastic becomes accredited.</p>
+                <p data-lang-id="006-third-page-paragraph">As a not-for-profit, for-Earth enterprise, the Global Ecobrick Alliance also maintains a peer-powered blockchain that validates whether ecobricked plastic meets ecobricking standards and the criteria of plastic sequestration.  Ecobricks that are authenticated as such are recorded on the <a href="brikchain">Brikcoin blockchain</a> and their plastic becomes accredited.</p>
                 
-                <p>We refer to this as Authenticated Ecobrick Sequestered plastic (AES).  Through our Gobrik app, these credits are available for personal and company purchase.  Upon purchase, the GEA issues you a serialize certificate for your purchase of Authenticated Ecobrick Sequestered Plastic (AES Plastic). Your purchase is logged on the brikcoin blockchain and your account credited with AES plastic offset credits.
+                <p>We refer to this as <a href="/aes">Authenticated Ecobrick Sequestered plastic (AES)</a>.  Through our <a href="/gobrik">Gobrik app</a>, these credits are available for personal and company purchase.  Upon purchase, the GEA issues you a serialize certificate for your purchase of Authenticated Ecobrick Sequestered Plastic (AES Plastic). Your purchase is logged on the brikcoin blockchain and your account credited with AES plastic offset credits.
                 </p>
 			</div>	
 
