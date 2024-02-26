@@ -48,7 +48,7 @@
 
             </div>
 
-            <div class="page-paragraph-reg">
+            <!-- <div class="page-paragraph-reg">
 
                 <h4>Like Carbon Offsetting— but for plastic!</h4>
                     
@@ -69,7 +69,62 @@
                 
                 <p>Upon purchase, the GEA issues a serialized certificate for the amount of plastic offsets purchased.  The purchase transaction then  recorded on the brikcoin blockchain and the GEA's open books.  Finally, buyer's account is credited with their AES plastic offset credits and a serialized PDF certificate is issued.
                 </p>
-			</div>	
+			</div>	 -->
+
+
+            <section id="CARBON">
+				<div class="reg-content-block" id="block5">
+					<div class="opener-header">   
+						<div class="opener-header-text">
+							<h4 data-lang-id="049-block-5-opener-header">Like Carbon Offsetting— but for plastic!</h4>
+							<h5 data-lang-id="050-block-5-opener-subheader">If curbing CO2 emissions are an important part of being green-- so too is curbing our plastic polluting.</h5>   
+						</div>
+						<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5" aria-expanded="false" aria-label="Toggle Section Five">+</button>
+					</div>
+
+					<div id="preclosed5">
+						<br>
+						<img src="../svgs/5-Add-a-bottom-color.svg" width="640" loading="lazy" class="full-width-image" alt="Add a bottom color to your eco brick" data-lang-id="051-block-5-main-image-alt">
+						
+						<p data-lang-id="052-block-5-paragraph-1">This is part of the circular design principle of ecobricking: we're thinking about the next use of the ecobrick. When your ecobrick is put to use in a module or an earth construction, the bottom color will help make patterns and designs.</p>
+						
+						<p data-lang-id="053-block-5-paragraph-2">To create your ecobrick's bottom color, choose a soft plastic with a solid color, then push it down to the bottom of your ecobrick. You'll want to fill the bottle loosely about halfway with soft plastic of your chosen color. Then, pack it in with your stick. If your bottle has "legs" or dimples at the bottom, be sure to pack these solid and full. Once all your soft plastic is compressed, you want it to fill the first 1-2cms of the bottle.</p>
+						
+						<p data-lang-id="054-block-5-paragraph-3">Often schools or companies will ask their ecobrickers to make ecobricks with their community colors. By giving your ecobrick bottom a color, you open up colorful design possibilities for making modules or earth and ecobrick walls.</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="PACK">
+				<div class="reg-content-block" id="block6">
+					<div class="opener-header">
+						<div class="opener-header-text">
+							<h4 data-lang-id="055-block-6-opener-header">The Role of the GEA</h4>
+							<h5 data-lang-id="056-block-6-opener-subheader">As part of our mission to support local and global plastic transition movements, the Global Ecobrick Alliance (GEA) maintains a blockchain based on the validation of ecobricked plastic. We do so as a not-for-profit, for-Earth enterprise with full financial transparency.</h5>               
+						</div>
+						<button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6" aria-expanded="false" aria-label="Toggle Section Six">+</button>
+					</div>      
+					<div id="preclosed6">
+						<br>
+						<img src="../svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics" data-lang-id="057-block-6-main-image-alt">
+						
+						<p data-lang-id="058-block-6-paragraph-1">The smaller the pieces, the denser you'll get! Fill the bottle up halfway with loose plastic, then use your stick to push down around the sides of the bottle. Keep pushing down as you move around the circumference of the bottle. Once compressed, add more loose plastics. To maximize the density, it's good to mix soft, then hard plastic. If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
+						
+						<p data-lang-id="059-block-6-paragraph-2">Did you push too hard? In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again. Ruptured bottles will not last and can leak plastics. Cut the bottle open, remove the plastic and start again. Cut or damaged PET plastic is readily recycled.</p>
+
+						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-5"> 
+								<div class="advanced-box-header"  id="advancedBoxLabel-5">
+									<div class="advanced-title" data-lang-id="060-block-6-advanced-title">Advanced</div>
+									
+									<div class="advanced-open-icon" >+</div>
+								</div>
+								<div class="advanced-box-content">                    
+									<p data-lang-id="061-block-6-advanced-paragraph">💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic. By forming a center white ring of plastic, you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
+								</div>
+						</div><!--Advanced content closed-->    
+					</div>
+				</div>
+			</section>
 
 <div class="reg-content-block" id="block1">
     <div class="opener-header">
@@ -217,7 +272,7 @@
 </div>
 <br><br>
 <div class="page-paragraph-reg">
-    <h4 data-lang-id="075-final-paragraph-header">Offset your plastic and Energize the Global Plastic Transition Movement</h4>
+    <h2 data-lang-id="075-final-paragraph-header">Offset your plastic today</h2>
     <p data-lang-id="076-final-paragraph-content1">Get started with your personal or enterprise plastic offsetting with us on our Gobrik platform.  Offsets go direct to valorizing of the work of ecobrickers around the world and the costs of the Global Ecobrick Alliance to maintain and develop the platform.</p>
     
 	<br>
