@@ -6,7 +6,7 @@
 <?php $lang='fr';?>
 <?php $version='1.786';?>
 <?php $page='offsetting';?>
-<title>AES Plastic Offsetting</title>
+<title>Plastic Offsetting</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
 <!--TOP PAGE BANNER-->
 
@@ -16,7 +16,7 @@
     
     <div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Offsetting</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">By taking responsibility for our local plastic consumtion we can energize global plastic transition</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">By taking responsibility for our local plastic consumption we can energize the global plastic transition movement.</div>
 	</div>
     <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/eco-accounting-icon-from-ecobricks-org-white.svg" style="width: 86%" alt="Ecological impact accounting to ensure we are green."></div>	
 	
@@ -50,7 +50,7 @@
 
             <div class="page-paragraph-reg">
 
-                <h4>Carbon Offsetting-- but for plastic</h4>
+                <h4>Like Carbon Offsetting— but for plastic!</h4>
                     
                 <p data-lang-id="006-second-page-paragraph">In the case of carbon offsets, credits correspond to carbon that has been sequestered-- often by tree planting or coral projects that are capturing, concentrating and securing kilograms or tons of carbon dioxide.  In the same way, plastic offsets credits correspond to plastic that has been captured, concentrated and secured.  These <a href="sequestered.php">sequestered plastic</a> credits are also measured in kilograms.</p>
 
@@ -59,15 +59,19 @@
 
 				<p data-lang-id="006-second-page-paragraph">However, in order for ecobricked plastic to be considered sequestered, it must be done to specific standards.  Just as not all planted forests represent carbon sequestration (i.e. monoculture forests are known as green deserts for a reason!) not all plastic that is packed is sequestered.  In order to be sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains and represents</a>.</p>
 
-                    <h4>Role of the Global Ecobrick Alliance</h4>
+                <br><br>
 
-                <p data-lang-id="006-third-page-paragraph">As part of our mission to support local and global plastic transition movements, the Global Ecobrick Alliance maintains a blockchain based on the validation of ecobricked plastic.  This system, which is accessed on our <a href="/gobrik">Gobrik app</a>, enables peers to validate and authentic whether ecobricks meet the criteria of plastic sequestration.  Ecobricks that are authenticated are recorded on the <a href="brikchain">Brikcoin blockchain</a>. Their <a href="/aes">Authenticated Ecobrick Sequestered plastic (AES)</a>then becomes available for purchase as offset credits.</p>
+                <h4>The Role of the GEA</h4>
+
+                <p data-lang-id="006-third-page-paragraph">As part of our mission to support local and global plastic transition movements, the Global Ecobrick Alliance (GEA) maintains a blockchain based on the validation of ecobricked plastic.  We do so as a not-for-profit, for-Earth enterprise with full financial transparency.</p>
                 
-                <p>Upon purchase, the GEA issues a serialized certificate for  amount of plastic offset.  This purchase is also recorded on the brikcoin blockchain and the user's account is credited with their AES plastic offset credits.
+                <p>Offsetting and ecobrick validations are both accessed on our <a href="/gobrik">Gobrik app</a>.  There, ecobricker peers validate and authentic whether logged ecobricks meet the criteria of plastic sequestration.  Ecobricks that are authenticated are recorded on the <a href="brikchain">Brikcoin blockchain</a>. Their <a href="/aes">Authenticated Ecobrick Sequestered plastic (AES)</a>then becomes available for purchase as offset credits.</p>
+                
+                <p>Upon purchase, the GEA issues a serialized certificate for the amount of plastic offsets purchased.  The purchase transaction then  recorded on the brikcoin blockchain and the GEA's open books.  Finally, buyer's account is credited with their AES plastic offset credits and a serialized PDF certificate is issued.
                 </p>
 			</div>	
 
-			<div class="reg-content-block" id="block1">
+<div class="reg-content-block" id="block1">
     <div class="opener-header">
         <div class="opener-header-text">
             <h4 data-lang-id="007-block-1-header">How is the price of offsets determined?</h4>
