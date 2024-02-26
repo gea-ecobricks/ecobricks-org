@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.785';?>
+<?php $version='1.786';?>
 <?php $page='offsetting';?>
 <title>AES Plastic Offsetting</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
@@ -18,7 +18,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Offsetting</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">By taking responsibility for our local plastic consumtion we can energize global plastic transition</div>
 	</div>
-    <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/eco-accounting-icon-from-ecobricks-org-white.svg" style="width: 80%" alt="Ecological impact accounting to ensure we are green."></div>	
+    <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/eco-accounting-icon-from-ecobricks-org-white.svg" style="width: 86%" alt="Ecological impact accounting to ensure we are green."></div>	
 	
 </div>
 <!-- <div id="splash-bar"></div> -->
@@ -35,7 +35,7 @@
 
 			<div class="lead-page-paragraph">
 
-            We live in a world where its almost impossible to not use plastic.  Regardless, the plastic that we consume and produce is our responsibility and will have an ecological impact for a long time to come. 
+            <p data-lang-id="004-lead-page-paragraph">We live in a world where its almost impossible to not use plastic.  Regardless, the plastic that we consume and produce is our responsibility and will have an ecological impact for a long time to come.</p>
 <!-- 				
 			<p data-lang-id="004-lead-page-paragraph">To compensate for our plastic consuption we we can support those who are doing the hard of plastic sequestration.  This way we can ensure our homes and enterprises have a net green effect.</p> -->
 			</div>
@@ -128,8 +128,8 @@
 <div class="reg-content-block" id="block3">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="041-block-3-header">Cigbricks</h4>
-            <h5 data-lang-id="042-block-3-subheader">Plastic sequestration for cigarette filers.</h5>
+            <h4 data-lang-id="041-block-3-header">Offset Credit Pricing</h4>
+            <h5 data-lang-id="042-block-3-subheader">The cost of 1kg AES plastic is a function of the cost incurred for its authentication.</h5>
         </div>
         <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-label="Plus">+</button>
     </div>
@@ -178,8 +178,8 @@
 <div class="reg-content-block" id="block4">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="058-block-4-header">Ocean Ecobricks</h4>
-            <h5 data-lang-id="059-block-4-subheader">Sequestration for plastic collected from beaches, ocean and rivers.</h5>
+            <h4 data-lang-id="058-block-4-header">White Paper</h4>
+            <h5 data-lang-id="059-block-4-subheader">Learn more about the manual blockchain powering our plastic offsetting.</h5>
         </div>
         <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4" aria-label="Plus">+</button>
     </div>

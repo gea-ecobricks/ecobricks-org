@@ -35,6 +35,8 @@
 	
 		
 		background: url(../svgs/earthwand-background.svg) bottom;
+    min-height: 85vh;
+    padding: 0px 7% 0px 7%;
 		
 }
 }
