@@ -225,21 +225,14 @@
 </div>
 <br><br>
 <div class="page-paragraph-reg">
-    <h4 data-lang-id="075-final-paragraph-header">Personal & Community Empowerment</h4>
-    <p data-lang-id="076-final-paragraph-content1">Ecobricking is both an individual and collaborative endeavour. It unites across class, continents, and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raises awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="transition.php">plastic transition</a>. The collaborative process gives individuals and communities hands-on experience of <a href="principles.php">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="earth.php">earth building</a> and permaculture.</p>
-	<br>
-    <h4 data-lang-id="077-learn-more-header">Learn More</h4>
-    <p data-lang-id="078-learn-more-content">The Global Ecobrick Alliance has developed extensive, free, and open-source resources (like this page!) to get you started ecobricking right. Our goal is to empower you and your community with the know-how to make ecobricks and build with them. The pages on this site are the result of years of research, experimentation, and trial and error by plastic transition leaders around the world.</p>
+    <h4 data-lang-id="075-final-paragraph-header">Offset your plastic today</h4>
+    <p data-lang-id="076-final-paragraph-content1">Get started with your personal or enterprise plastic offsetting with us.  No account need to calcuate your offseting costs.  Once you're ready, use a free GoBrik account to start offseting.</p>
     
-    <ul>
-        <li data-lang-id="079-list-item1"><a href="/why">Why Make Ecobricks?</a></li>
-        <li data-lang-id="080-list-item2"><a href="how.php">How to Ecobrick?</a></li>
-        <li data-lang-id="081-list-item3"><a href="spiral.php">Spiral Design</a></li>
-        <li data-lang-id="082-list-item4"><a href="build.php">Building with Ecobricks</a></li>
-        <li data-lang-id="083-list-item5"><a href="/movement">The Movement</a></li>
-        <li data-lang-id="084-list-item6"><a href="/dropoff">Dropping off ecobricks?</a></li>
-        <li data-lang-id="085-list-item7"><a href="/trainings">Ecobrick Trainings</a></li>
-    </ul>
+	<br>
+    <a class="action-btn" href="https://gobrik.com/en/go.php#offset" target="_blank">🚀 Offset your Plastic</a>
+                    	<p style="font-size: 0.85em; margin-top:20px;">Launch the GoBrik webapp</a>
+			
+    
 </div>
 
 </div>
@@ -248,12 +241,10 @@
 
 		<div class="side">
 
+		<?php require_once ("side-modules/brikcoin-live-values.php");?>
 
-<?php require_once ("side-modules/good-use.php");?>
-
+        
 <?php require_once ("side-modules/sequest-module.php");?>
-
-<?php require_once ("side-modules/signup-now.php");?>
     
 <?php require_once ("side-modules/transition-module.php");?>
 
