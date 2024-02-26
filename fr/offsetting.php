@@ -81,13 +81,13 @@
     </div>
 
     <div id="preclosed1">
-        <div class="row">
-            <div class="main2">
-                <p data-lang-id="009-block-1-main-p1">To calculate the price of 1kg of authenticated plastic, the Global Ecobrick Alliance divides its costs of operating and maitaining the blockchain by the amount of plastic that has been authenticated.
+       
+                <p data-lang-id="009-block-1-main-p1">To calculate the price of 1kg of authenticated plastic, the Global Ecobrick Alliance divides its costs of operating and maitaining the blockchain by the amount of plastic that has been authenticated.</p>
 
-It works like this: Last year the Global Ecobrick Alliance incurred 14920 $ USD of expenses in order to authenticate 4,825.42 Kg AES of ecobricked plastic. That works out a cost of 3.09$ USD per Kg in maintaining the block chain and authentication system. This sets our valuation of the price per Kg of AES plastic offsets for 2024</p>
-        <h5 data-lang-id="022-block-1-info-1">ℹ️ View our <a href="open-books.php">GEA Open Books</a></h5>
-        <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="sequest.php">Plastic Sequestration</a></h5>
+                <p>It works like this: Last year the Global Ecobrick Alliance incurred 14920 $ USD of expenses in order to authenticate 4,825.42 Kg AES of ecobricked plastic. That works out a cost of 3.09$ USD per Kg in maintaining the block chain and authentication system. This sets our valuation of the price per Kg of AES plastic offsets for 2024</p>
+                
+                <h5 data-lang-id="022-block-1-info-1">ℹ️ View our <a href="open-books.php">GEA Open Books</a></h5>
+                <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="sequest.php">Plastic Sequestration</a></h5>
     </div>  
 </div>
 
