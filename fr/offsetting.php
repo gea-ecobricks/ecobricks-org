@@ -35,7 +35,7 @@
 
 			<div class="lead-page-paragraph">
 
-            <p data-lang-id="004-lead-page-paragraph">We live in a world where its almost impossible to not use plastic.  Regardless, the plastic that we consume and produce is our responsibility and will have an ecological impact for a long time to come.</p>
+            <p data-lang-id="004-lead-page-paragraph">We live in a world where its almost impossible to avoid plastic.  Nonetheless, the plastic that we consume and produce will have an ecological impact for a long time to come.  By taking responsibility for our plastic today, we can lead by example to ensure our net impact on the planet is green.</p>
 <!-- 				
 			<p data-lang-id="004-lead-page-paragraph">To compensate for our plastic consuption we we can support those who are doing the hard of plastic sequestration.  This way we can ensure our homes and enterprises have a net green effect.</p> -->
 			</div>
@@ -44,25 +44,25 @@
 
 			<div class="page-paragraph">
 
-				<p data-lang-id="005-first-page-paragraph">Plastic offsetting is way to balance off the grey impact of the plastic you or your company consume and produce with green impacts.  Its a concept that is very similar to that of carbon offseting-- when a household or a company buy 'carbon offset credits' to balance off the carbon that they have emitted.  Often the carbon offsets correspond to biodiverse forests that are being renegerated or coral reefs that are being restored have captured, concentrated and secured.  This carbon is considered sequestered and is calculated by its weight.</p>  
+				<p data-lang-id="005-first-page-paragraph">Offsetting is way to balance off our grey ecological impacts, with green.  Plastic offsetting, is much like carbon offsetting.  In the same way that a household or a company buy carbon offset credits to balance off their emissions, plastic offsets can be purchase to balance our plastic consumption and production.</p>  
                     
-                <p data-lang-id="006-second-page-paragraph">In the same way, plastic offsets credits correspond to plastic that has been captured, concentrated and secured.  This <a href="sequestered.php">sequestered plastic</a> is likewise measured by its weight-- in tons and in kilograms.</p>
+                <p data-lang-id="006-second-page-paragraph">In the case of carbon offsets, credits correspond to carbon that has been sequestered-- often by tree planting or coral projects that are capturing, concentrating and securing kilograms or tons of carbon dioxide.  In the same way, plastic offsets credits correspond to plastic that has been captured, concentrated and secured.  These <a href="sequestered.php">sequestered plastic</a> credits are also measured in kilograms.</p>
 
 				<p data-lang-id="006-second-page-paragraph">
                 By far the best way to sequester plastic is through ecobricking.  Ecobricking not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved-- a phenonmenon called <a href="transition.php">plastic transition</a>.</p>
 
-				<p data-lang-id="006-second-page-paragraph">However, in order for ecobricked plastic to be considered sequestered, it must be done to specific standards.  Just as not all planted forests are true carbon sequestration (i.e. monoculture forests known as green deserts!) not all packed plastic is sequestered.  In order to be sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These Earthen criteria are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains</a>.</p>
+				<p data-lang-id="006-second-page-paragraph">However, in order for ecobricked plastic to be considered sequestered, it must be done to specific standards.  Just as not all planted forests represent carbon sequestration (i.e. monoculture forests are known as green deserts for a reason!) not all plastic that is packed is sequestered.  In order to be sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains and represents</a>.</p>
 
-                <p data-lang-id="006-third-page-paragraph">As a not-for-profit, for-Earth enterprise, the Global Ecobrick Alliance also maintains a peer-powered blockchain that validates whether ecobricked plastic meets ecobricking standards and the criteria of plastic sequestration.  Ecobricks that are authenticated as such are recorded on the <a href="brikchain">Brikcoin blockchain</a> and their plastic becomes accredited.</p>
+                <p data-lang-id="006-third-page-paragraph">As part of our mission to support local and global plastic transition movements, the Global Ecobrick Alliance maintains a blockchain based on the validation of ecobricked plastic.  This system, which is accessed on our <a href="/gobrik">Gobrik app</a>, enables peers to validate and authentic whether ecobricks meet the criteria of plastic sequestration.  Ecobricks that are authenticated are recorded on the <a href="brikchain">Brikcoin blockchain</a>. Their <a href="/aes">Authenticated Ecobrick Sequestered plastic (AES)</a>then becomes available for purchase as offset credits.</p>
                 
-                <p>We refer to this as <a href="/aes">Authenticated Ecobrick Sequestered plastic (AES)</a>.  Through our <a href="/gobrik">Gobrik app</a>, these credits are available for personal and company purchase.  Upon purchase, the GEA issues you a serialize certificate for your purchase of Authenticated Ecobrick Sequestered Plastic (AES Plastic). Your purchase is logged on the brikcoin blockchain and your account credited with AES plastic offset credits.
+                <p>Upon purchase, the GEA issues a serialized certificate for  amount of plastic offset.  This purchase is also recorded on the brikcoin blockchain and the user's account is credited with their AES plastic offset credits.
                 </p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="007-block-1-header">Ecobricking Standards</h4>
+            <h4 data-lang-id="007-block-1-header">How is the price of offsets determined?</h4>
             <h5 data-lang-id="008-block-1-subheader">The Global Ecobrick Alliance maintains standards to ensure that ecobricked plastic meets the criteria of plastic sequestration. </h5>
         </div>
         <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">+</button>
@@ -103,8 +103,8 @@
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="022-block-2-header">Validation & Authentication</h4>
-            <h5 data-lang-id="023-block-2-subheader">Independent ecobrick authentication is the final step of plastic sequestration.</h5>
+            <h4 data-lang-id="022-block-2-header">How do ecobrickers benefit?</h4>
+            <h5 data-lang-id="023-block-2-subheader">Plastic offsetting results in the valorization of ecobricked plastic and the energizing of plastic transtion</h5>
         </div>
         <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Plus">+</button>
     </div>
@@ -128,8 +128,8 @@
 <div class="reg-content-block" id="block3">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="041-block-3-header">Offset Credit Pricing</h4>
-            <h5 data-lang-id="042-block-3-subheader">The cost of 1kg AES plastic is a function of the cost incurred for its authentication.</h5>
+            <h4 data-lang-id="041-block-3-header">What can I do with my offset credits?</h4>
+            <h5 data-lang-id="042-block-3-subheader">Offsetting is fundamental component of green living and green enterprise</h5>
         </div>
         <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-label="Plus">+</button>
     </div>
@@ -178,7 +178,7 @@
 <div class="reg-content-block" id="block4">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="058-block-4-header">White Paper</h4>
+            <h4 data-lang-id="058-block-4-header">White Paper & Resources</h4>
             <h5 data-lang-id="059-block-4-subheader">Learn more about the manual blockchain powering our plastic offsetting.</h5>
         </div>
         <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4" aria-label="Plus">+</button>
@@ -225,8 +225,8 @@
 </div>
 <br><br>
 <div class="page-paragraph-reg">
-    <h4 data-lang-id="075-final-paragraph-header">Offset your plastic today</h4>
-    <p data-lang-id="076-final-paragraph-content1">Get started with your personal or enterprise plastic offsetting with us.  No account need to calcuate your offseting costs.  Once you're ready, use a free GoBrik account to start offseting.</p>
+    <h4 data-lang-id="075-final-paragraph-header">Offset your plastic and Energize the Global Plastic Transition Movement</h4>
+    <p data-lang-id="076-final-paragraph-content1">Get started with your personal or enterprise plastic offsetting with us on our Gobrik platform.  Offsets go direct to valorizing of the work of ecobrickers around the world and the costs of the Global Ecobrick Alliance to maintain and develop the platform.</p>
     
 	<br>
     <a class="action-btn" href="https://gobrik.com/en/go.php#offset" target="_blank">🚀 Offset your Plastic</a>
@@ -240,7 +240,7 @@
 <!-- PAGE SIDE BAR STARTS HERE-->
 
 		<div class="side">
-            
+
         <?php include '../ecobricks_env.php';?> 
 
 		<?php require_once ("side-modules/brikcoin-live-values.php");?>
