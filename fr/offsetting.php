@@ -18,7 +18,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Offsetting</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">A way to take responsibility for plastic consumtion by energizing plastic sequestration and transition</div>
 	</div>
-    <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/eco-accounting-icon-from-ecobricks-org.svg?v=6" style="width: 95%" alt="Authenticated Ecobrick Sequestered Plastic"></div>	
+    <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/eco-accounting-icon-from-ecobricks-org-white.svg" style="width: 95%" alt="Authenticated Ecobrick Sequestered Plastic"></div>	
 	
 </div>
 <!-- <div id="splash-bar"></div> -->
@@ -38,9 +38,10 @@
 			<p data-lang-id="004-lead-page-paragraph">To compensate for our plastic consuption we we can support those who are doing the hard of plastic sequestration.  This way we can ensure our homes and enterprises have a net green effect.</p>
 			</div>
 
-			</div>
+		
 
 			<div class="page-paragraph">
+                
 				<p data-lang-id="005-first-page-paragraph">Plastic offsetting is way to balance off the plastic you or your company consume and produce.  Its a concept that is very similar to that of carbon offseting-- when a household or a company buy 'carbon offset credits' to balance off the carbon that they have emitted.  Often the carbon offsets correspond to biodiverse forests that are being renegerated or coral reefs that are being restored have captured, concentrated and secured.  This carbon is considered sequestered and is calculated by its weight in metric tons.</p>  
                     
                 <p data-lang-id="006-second-page-paragraph">In the same way, plastic offsets credits are measured in the weight (usually in metric tons) of plastic that has been captured, concentrated and secured.  This "sequestered plastic" is also measured by its weight, in tons and in kilograms.</p>
