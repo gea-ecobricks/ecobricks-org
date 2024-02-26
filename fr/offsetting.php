@@ -16,7 +16,7 @@
     
     <div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Offsetting</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Take responsibility for plastic you've consumed by supporting plastic's sequestration into ecobricks</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">A way to take responsibility for plastic consumtion by energizing plastic sequestration and transition</div>
 	</div>
     <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/eco-accounting-icon-from-ecobricks-org.svg?v=6" style="width: 95%" alt="Authenticated Ecobrick Sequestered Plastic"></div>	
 	
@@ -35,21 +35,24 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p data-lang-id="004-lead-page-paragraph">To compensate for our plastic consuption we we can support those who are doing the hard of plastic sequestration.</p>
+			<p data-lang-id="004-lead-page-paragraph">To compensate for our plastic consuption we we can support those who are doing the hard of plastic sequestration.  This way we can ensure our homes and enterprises have a net green effect.</p>
 			</div>
 
-            <p data-lang-id="004-lead-page-paragraph">Offsetting is a way to balance our grey earth-impacts with green ones to ensure that our living is greening our local and global biospheres.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p data-lang-id="005-first-page-paragraph">Plastic offsetting is way to balance off the plastic you generate. Its a little bit like how some people plant trees or buy carbon offset credits to balance off the carbon footprint. In the same way, plastic offset credits are measured in kilograms of sequestered plastic. These kilograms are certified by us-- the Global Ecobrick Alliance-- an independent earth enterprise that provides the platform for authenticating that plastic has indeed been effectively sequestered and will not contaminate the biosphere.</p>
+				<p data-lang-id="005-first-page-paragraph">Plastic offsetting is way to balance off the plastic you or your company consume and produce.  Its a concept that is very similar to that of carbon offseting-- when a household or a company buy 'carbon offset credits' to balance off the carbon that they have emitted.  Often the carbon offsets correspond to biodiverse forests that are being renegerated or coral reefs that are being restored have captured, concentrated and secured.  This carbon is considered sequestered and is calculated by its weight in metric tons.</p>  
+                    
+                <p data-lang-id="006-second-page-paragraph">In the same way, plastic offsets credits are measured in the weight (usually in metric tons) of plastic that has been captured, concentrated and secured.  This "sequestered plastic" is also measured by its weight, in tons and in kilograms.</p>
 
 				<p data-lang-id="006-second-page-paragraph">
-				The GEA hosts the Brikcoin manual blockchain as a platform for ecobrick authentication.  Accessed through our Gobrik app, it enables the peer-to-peer review of every ecobrick logged.  Once an ecobrick is authenticated to have met GEA standards, it’s net weight is referred to as Authenticated Ecobrick Sequestered Plastic (AES Plastic).  </p>
+                By far the best way to sequester plastic is through ecobricking.  Ecobricking not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved-- a phenonmenon called plastic transition.</p>
 
-                <p data-lang-id="006-third-page-paragraph">AES Plastic counts towards personal and enterprise plastic transition and impact accounting.  AES plastic can be purchased as a plastic offset credit on the GoBrik app.
+				<p data-lang-id="006-second-page-paragraph">However, in order for ecobricked plastic to be considered sequestered, it must be done to certain standards.  Just as not all planted forests are example of true carbon sequestration (imagine a forest planted with only one type of tree!) not all packed plastic is sequestered.  In order to be sequestered, secured plastic must meet the criteria of Earthen ethics and globally recognized ecobricking standards.</p>
 
-                The GEA issues you a serialize certificate for your purchase of Authenticated Ecobrick Sequestered Plastic (AES Plastic). Your purchase is logged on the brikcoin blockchain and your account credited with AES plastic offset credits.
+                <p data-lang-id="006-third-page-paragraph">As a not-for-profit, for-Earth enterprise, the Global Ecobrick Alliance maintains and develops a peer-powered blockchain that validates whether ecobricked plastic meet ecobricking standards and the criteria of plastic sequestration.  Ecobricks that are authenticated as such are recorded on the Brikcoin blockchain and their plastic becomes accredited.</p>
+                
+                <p>We refer to this as Authenticated Ecobrick Sequestered plastic (AES).  Through our Gobrik app, these credits are available for personal and company purchase.  Upon purchase, the GEA issues you a serialize certificate for your purchase of Authenticated Ecobrick Sequestered Plastic (AES Plastic). Your purchase is logged on the brikcoin blockchain and your account credited with AES plastic offset credits.
                 </p>
 			</div>	
 
