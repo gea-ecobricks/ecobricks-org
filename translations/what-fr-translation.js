@@ -82,6 +82,7 @@ const fr_Page_Translations = {
 '057-block-3-p2': 'En savoir plus sur les cigbriques.',
 '058-block-4-header': 'Ocean Écobriques',
 '059-block-4-subheader': 'Séquestration pour le plastique collecté sur les plages, dans l\'océan et les rivières.',
+
 '060-block-4-main-p1': 'Les ocean écobriques sont une catégorie d\'écobrique conçue pour les plastiques trouvés sur les plages, les rivières et dans l\'océan. Ces plastiques ont tendance à être grands, volumineux, sales et mouillés et ne sont pas adaptés pour faire une écobrique régulière. La technique des ocean écobriques permet de transformer facilement ces plastiques en un bloc de construction pratique, utile et réutilisable.',
 '061-block-4-img1-alt': '<img src="../webp/oeb-400px.webp" width="300" style="width:100%;" alt="Les ocean écobriques sont pour le plastique sale" loading="lazy">',
 '062-block-4-main-p2': 'Pour être une ocean écobrique, les normes suivantes doivent être respectées :',
