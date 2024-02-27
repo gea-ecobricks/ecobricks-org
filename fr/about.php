@@ -161,7 +161,7 @@
                         <div class="main2">
 								<p><b>1. For-Earth Service</b></p>
 
-								<p>Our enterprise follows the <a href="/plastic">Earth's example</a> in generating ecological value.  To do so we strive to follow the principles of <a href="https://earthen.io/the-earthen-ways/" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p><br>
+								<p>Our enterprise follows the <a href="/plastic">Earth's example</a> in generating ecological value.  To do so we strive to follow the principles of <a href="https://book.earthen.io/en/summaries.html" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p><br>
 
                         </div>
 							<div class="side2"><img src="../webp/earthservice-400px.webp" width="300" style="width:95%" alt="eco bricks are a form of earth service"></div>
