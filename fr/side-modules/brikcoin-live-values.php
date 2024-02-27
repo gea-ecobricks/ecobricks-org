@@ -12,7 +12,7 @@ $result = $conn->query($sql);
             // output data of each row
             while ($row = $result->fetch_assoc()) {
             
-                echo '<img src="../svgs/aes-brk-vertical.svg?v=4" style="width:95%; margin-top:20px;"><p style="font-size: 1.0em; margin-top:5px;">Valeur actuelle du Brikcoin en direct :</p>
+                echo '<img src="../svgs/aes-brk-vertical.svg?v=5" style="width:95%; margin-top:20px;"><p style="font-size: 1.0em; margin-top:5px;">Valeur actuelle du Brikcoin en direct :</p>
             
                         <p>
                         <span class="courier">

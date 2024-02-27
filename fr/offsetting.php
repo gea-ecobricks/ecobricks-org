@@ -16,7 +16,7 @@
     
     <div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Offsetting</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">By taking responsibility for our local plastic consumption we can energize the global plastic transition movement.</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">By taking responsibility for our local plastic consumption we can energize global plastic transition.</div>
 	</div>
     <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/eco-accounting-icon-from-ecobricks-org-white.svg" style="width: 86%" alt="Ecological impact accounting to ensure we are green."></div>	
 	
@@ -35,7 +35,7 @@
 
 			<div class="lead-page-paragraph">
 
-            <p data-lang-id="004-lead-page-paragraph">We live in a world where its almost impossible to avoid plastic.  Nonetheless, the plastic that we consume and produce will have an ecological impact for a long time to come.  By taking responsibility for our plastic today, we can lead by example to ensure our net impact on the planet is green.</p>
+            <p data-lang-id="004-lead-page-paragraph">We live in a world where its almost impossible to avoid plastic.  Nonetheless, the plastic that we consume and produce will have an ecological impact for a long time to come.  By taking responsibility for our plastic today, we can lead by example to ensure our net impact on the planet is green.  This can be done by offsetting-- balancing off our grey impacts with green ones.</p>
 <!-- 				
 			<p data-lang-id="004-lead-page-paragraph">To compensate for our plastic consuption we we can support those who are doing the hard of plastic sequestration.  This way we can ensure our homes and enterprises have a net green effect.</p> -->
 			</div>
@@ -44,7 +44,7 @@
 
 			<div class="page-paragraph">
 
-				<p data-lang-id="005-first-page-paragraph">Offsetting is way to balance off our grey ecological impacts, with green.  Plastic offsetting, is much like carbon offsetting.  In the same way that a household or a company buy carbon offset credits to balance off their emissions, plastic offsets can be purchase to balance our plastic consumption and production.</p>  
+				<p data-lang-id="005-first-page-paragraph">Plastic offsetting, is much like carbon offsetting.  Just as keen green households and companies buy carbon offset credits, so too can they buy plastic offset credits.  Whereas carbon credits help balance off polluting emissions, plastic offsets can be purchased to balance our polluting plastic consumption and production.  These payments then serve as strong financial incentive to stop polluting altogether!</p>  
 
             </div>
 

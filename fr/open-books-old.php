@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.72';?>
+<?php $version='1.6';?>
 <?php $page='principles';?>
 
 <?php require_once ("../includes/openbooks2-inc.php");?>
@@ -51,7 +51,7 @@
 			
 			<?php
 
-	$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2024;";
+	$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2021;";
 
 	$result = $conn->query($sql);
 
@@ -82,7 +82,7 @@
 				<img src="../webp/gea-logo-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
 				<h5>The Global Ecobrick Alliance is a not-for-profit for-Earth enterprise dedicated to accelerating plastic transition.  All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system.</h5><br>
-				<a class="module-btn" href="about.php">About the GEA</a>
+				<a class="module-btn" href="/about">About the GEA</a>
                 <br><br>
 				
 				<br>
@@ -209,7 +209,7 @@
 		<div class="opener-header">
 			
 			<div class="opener-header-text">
-				<h4>Current Year Expenses</h4>
+				<h4>2022 Current Year Expenses</h4>
 				<h5>A summary of the GEA's current year revenue.</h5>
 				<div class="ecobrick-data"><p><span class="blink">◉  </span> Data live & current</p></div>
 			</div>
@@ -223,7 +223,7 @@
 		
 				<?php
 
-				$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2024 ORDER BY expense_category;";
+				$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2022 ORDER BY expense_category;";
 
 				$result = $conn->query($sql);
 
@@ -246,7 +246,7 @@
 
 				<?php
 
-				$sql = "SELECT * FROM vw_tot_exp_by_year WHERE year = 2024;";
+				$sql = "SELECT * FROM vw_tot_exp_by_year WHERE year = 2022;";
 
 				$result = $conn->query($sql);
 
@@ -276,7 +276,7 @@
 				<div class="opener-header">
 					
 					<div class="opener-header-text">
-						<h4>Current Year Revenue</h4>
+						<h4>2022 Current Year Revenue</h4>
 						<h5>A summary of the GEA's current year revenue.</h5>
 						<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
 					</div>
@@ -291,7 +291,7 @@
 
 						<?php
 
-						$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2024 ORDER BY revenue_category ;";
+						$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2022 ORDER BY revenue_category ;";
 
 						$result = $conn->query($sql);
 
@@ -314,7 +314,7 @@
 
 						<?php
 
-						$sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2024;";
+						$sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2022;";
 
 						$result = $conn->query($sql);
 
@@ -350,7 +350,7 @@
 					
 					<div class="opener-header-text">
 						<h4>Year Summaries</h4>
-						<h5>OpenBooks totals from 2019 to 2024.</h5>
+						<h5>OpenBooks totals from 2019 to 2022.</h5>
 					</div>
 					<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
 		
@@ -420,7 +420,7 @@
 					
 					<div class="opener-header-text">
 						<h4>Historical AES Plastic Values</h4>
-						<h5>Totals and values from 2019 to 2024.</h5>
+						<h5>Totals and values from 2019 to 2022.</h5>
 					</div>
 					<button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
 		
@@ -433,7 +433,7 @@
 					
 						<p>We use our data from the last year to calculate the cost per Kg of plastic offsets for this year.</p>
 
-						<p>For exmaple, it works like this: In 2021 the Global Ecobrick Alliance incurred $24,483.24  expenses in order to authenticate 10,176.38  Kg AES of ecobricked plastic. That works out a cost of 2.41$ USD per Kg in maintaining the block chain and authentication system . This set our valuation of the price per Kg of AES plastic in the year 2022.
+						<p>It works like this: Last year the Global Ecobrick Alliance incurred $24,483.24  expenses in order to authenticate 10,176.38  Kg AES of ecobricked plastic. That works out a cost of 2.41$ USD per Kg in maintaining the block chain and authentication system . This sets our valuation of the price per Kg of AES plastic for 2022.
 						.</p>
 							
 					</div>		
@@ -506,6 +506,9 @@
 
 
 
+
+
+
 	<!--FOOTER STARTS HERE-->
 
 	<?php require_once ("../footer-2024.php");?>
@@ -513,12 +516,12 @@
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-
 <!-- This script is for pages that use the accordion content system-->
 <script src="../accordion-scripts.js?v=2" defer></script>
 
+
 </div>
-</article>
 </body>
 </html>
+
 
