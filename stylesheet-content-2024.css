@@ -557,12 +557,13 @@ margin-top: 40px;
   .block-toggle {
       margin: 5px;
       font-size: 2.0em;
-      background: var(--main-background);
+      background: var(--slide-overlays);
       padding: 15px 20px 15px 20px;
       border-radius: 10px;
       /* color: grey; */
       border: none;
 	  flex: 15%;
+    margin-left: 10px;
 	 
   }
 }
@@ -570,15 +571,15 @@ margin-top: 40px;
 @media screen and (min-width: 700px) {
   .block-toggle {
 
-      font-size: 3em;
-      background: var(--main-background);
-      padding: 15px;
-      border-radius: 15px;
-      color: grey;
-	  flex: 15%;
-      margin-bottom: 10px;
-	  border: none;
-	  border: var(--header-accent);
+    font-size: 3em;
+    background: var(--slide-overlays);
+    padding: 15px;
+    border-radius: 15px;
+    color: var(--subdued-text);
+    flex: 15%;
+    margin-bottom: 10px;
+    border: none;
+    margin-left: 10px;
 
   }
 }

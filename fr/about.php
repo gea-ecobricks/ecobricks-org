@@ -44,15 +44,15 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p>La Global Ecobrick Alliance est une Earth Enterprise qui accélère la transition plastique locale et mondiale. Nous le faisons grâce à la diffusion mandalique d'écobriques fondées sur des principes et pratiques pour élever la conscience écologique.</p>
+			<p>The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition.  We do so through the mandalic dissemination of principled and practical ecobricking to raise ecological consciousness.</p>
 </div>
 
 			<div class="page-paragraph">
 				  
 
-			<p data-lang-id="005-first-page-paragraph">L'<a href="/story">histoire</a> de la Global Ecobrick Alliance commence sur le territoire traditionnel du peuple Igorot (<i>Kaigorotan</i>) dans les hautes terres du nord de Luzon dans le Mer des Philippines occidentales. En nous efforçant de garder notre plastique hors de la rivière, nous avons développé des moyens et des méthodes pour nos maisons et nos communautés qui incarnaient la <a href="/ayyew">éthique Igorot Ayyew</a>. Inspirés par la sagesse indigène, les principes et méthodes d'écobrique sont aujourd'hui un moyen pour les ménages, les entreprises et les communautés du monde entier d'accélérer leur <a href="transition.php">transition plastique.</a></p>
+			<p data-lang-id="005-first-page-paragraph">The <a href="/story">story</a> of the Global Ecobrick Alliance begins in the traditional territory of the Igorot people (<i>Kaigorotan</i>) in the highlands of northern Luzon in the West Philippine Sea.  Striving to keep our plastic out of the river, we developed means and methods for our homes and communities that embodied the <a href="/ayyew">Igorot Ayyew ethos</a>.  Inspired by indigenous wisdom, today ecobricking principles and methods are a means for households, enterprises and communities around the world to accelerate their <a href="transition.php">plastic transition.</a></p>
 				
-			<p data-lang-id="006-second-page-paragraph">La Global Ecobrick Alliance (GEA) est composée de plus de 400 formateurs en transition de tous horizons, âges et origines. Nous sommes connectés dans le monde entier dans notre préoccupation pour la biosphère et ses dommages par la pollution plastique. Nous sommes unis par la solution que nous avons trouvée dans notre écobrique pour <a href="transition.php">transition</a> du plastique vers une vie toujours plus verte. <p>
+			<p data-lang-id="006-second-page-paragraph">The Global Ecobrick Alliance (GEA) is made up of 400+ transition trainers from all walks of life, ages, and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in our ecobricking to <a href="transition.php">transition</a> from plastic to ever greener living. <p>
 
 			</div>	
 
@@ -60,9 +60,9 @@
 				
 				<div class="opener-header">
 					
-					<div class="opener-header-text">
-						<h4>Être le changement</h4>
-						<h5>Nous nous efforçons de montrer l'exemple dans nos foyers et nos entreprises.</h5>
+				<div class="opener-header-text">
+						<h4>Being the Change</h4>
+						<h5>We strive to lead by example in our households and enterprises.</h5>
 					</div>
 					
 					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
@@ -74,10 +74,10 @@
 
 					<div class="row">
                             <div class="main2">
-                            <p>En tant qu'écobrickers nous-mêmes, nous gardons une trace de la quantité de plastique que nous consommons chaque mois, le nettoyons et le lavons, et le mettons de côté. Nous emballons notre plastique dans des écobriques que nous utilisons dans nos maisons pour fabriquer nos meubles et nos jardins. Nous organisons des <a href="/trainings">formations ecobrick</a> pour les entreprises, les communautés proches et lointaines. Pour nos ménages et nos entreprises, nous compensons notre plastique pour nous assurer que notre ménage et nos entreprises sont nets verts. Nous suivons et divulguons nos progrès en matière de transition plastique, tout comme la Global Ecobrick Alliance <a href="regenreports.php">le fait chaque année</a>.</p>
-							<p>Notre ecobricking nous a donné l'occasion de réfléchir à notre propre consommation de plastique. Nous pensons que résoudre le plastique est beaucoup plus complexe que les interdictions et le bambou. Bien que de telles étapes soient essentielles, la résolution profonde du plastique nécessite une transition profonde de la manière même dont notre culture moderne s'intègre à la biosphère.<p>
+                            <p>As ecobrickers ourselves, we keep track of how much plastic we consume each month, clean and wash it, and put it aside.  We pack our plastic into ecobricks which we use in our homes to make our furniture and gardens.  We lead <a href="/trainings">ecobrick trainings</a> for companies and communities near and far.  For both our households and enterprises we offset our plastic to make sure our household and our enterprises are net green.  We track and disclose our plastic transition progress, just like the Global Ecobrick Alliance <a href="regenreports.php">does each year</a>.</p>
+							<p>Our ecobricking has given us a chance to reflect on our own plastic consumption.  We feel that solving plastic is a lot more complex than bans and bamboo.  While such  steps are essential, deeply solving plastic requires an extensive transition of the very way our modern culture integrates with the biosphere.<p>
                             </div>
-                            <div class="side2"><img src="../svgs/shanti.svg" width="88%">
+                            <div class="side2"><img src="../svgs/shanti.svg" width="300" style="width:88%" alt="Our ecobrick trainers from the GEA">
                             </div>
                         </div>
 
@@ -86,7 +86,7 @@
                             
 							<p><b>We observe that our consumption and production of plastic is rooted in the global petroleum and capital powered economy.</b></p>
                             </div>
-                            <div class="side3"><img src="../svgs/shanti.svg" width="120px">
+                            <div class="side3"><img src="../svgs/shanti.svg" width="120" style="width:88%" alt="Our ecobrick trainers from the GEA">
                             </div>
                         </div>
 					
@@ -124,7 +124,7 @@
                             <div class="main2">
                             <p>The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It aso, means that unlike an organizations, we do not receive charity, grants or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor a mandate of growth and profits.</p>
                             </div>
-                            <div class="side2"><img src="../webp/for-earth500px.webp" width="95%" alt="We make eco bricks to serve the Earth">
+                            <div class="side2"><img src="../webp/for-earth500px.webp" style="width:95%" width="300" alt="We make eco bricks to serve the Earth">
                             </div>
                         </div>
 
@@ -132,7 +132,7 @@
                             <div class="main3">
                             <p>As an Earth enterprise our focus is on generation authentic ecological value. </p>
                             </div>
-                            <div class="side3"><img src="../webp/for-earth500px.webp" width="120px" alt="We make eco bricks to serve the Earth">
+                            <div class="side3"><img src="../webp/for-earth500px.webp" width="120" style="width:95%" alt="We make eco bricks to serve the Earth">
                             </div>
                         </div>
 
@@ -144,7 +144,7 @@
 					
 					<p>The GEA develops <a href="/trainings">workshops and trainings</a> that raise ecological consciousness around the dangers of plastic.  These courses are lead by our trainer team, and serve as means for them to fund their own work (profit is shared 80/20 with the GEA).</p>
 
-					<p>The GEA develops regenerative, open source products that are made to specification by makers local to the country in which they are sold.  These products are sold by our trainers to assist with their practice (see <a href="/earthwand">our EarthWand page for an example).</a></p>
+					<p>The GEA develops regenerative, open source products that are made to specification by makers local to the country in which they are sold.  These products are sold by our trainers to assist with their practice (see <a href="earthwand.php">our EarthWand page for an example).</a></p>
 
 					<p>All of our operations are manifested through our GEA Trainer and Core Team– folks who have been through one of our advanced trainings and are perpetually committed and resonant with our mission, vision and principles.  Our trainer team is constantly running <a href="/trainings">GEA Trainings</a> around the world, and are remunerated professionally for these services by the community groups, companies, governments, NGOs or organizations that hire them.</p>
 					<br><br>
@@ -236,7 +236,7 @@
 					<p>We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best-practices.</p><br>
 
 					<p><b>GoBrik.com</b></p>
-					<p>The GEA maintains and develops the free <a href="https://gobrik.com" target="_blank">GoBrik.com web app to support and connect ecobrickers and their communities.</p><br>
+					<p>The GEA maintains and develops the free <a href="https://gobrik.com" target="_blank">GoBrik.com web app</a> to support and connect ecobrickers and their communities.</p><br>
 
 					<p><b>Brikcoin Manual Blockchain</b></p>
 					<p>
@@ -246,9 +246,6 @@
 					
 					<p>We maintain best practives and standards for<a href="what.php">the making of ecobricks</a> and the <a href="build.php">building applications</a> of them.</p><br>
 
-					<p><b>Circles - Ecobrick Community Server</b></p>
-
-					<p>We maintain <a href="https://circles.ecobricks.org" target="_blank">GEA Circles</a> as a social media alternative for the global ecobricker community</p><br>
 
 					<p><b>Reports & Whitepapers</b></p>
 					<p>We actively developing and publishing reports, research and white papers on ecobrick and plastic transition topics.</p><br>
@@ -343,6 +340,8 @@
 		<?php require_once ("side-modules/eco-accounting.php");?>
 
 <?php require_once ("side-modules/earthen-ethics.php");?>
+
+<?php require_once ("side-modules/signup-now.php");?>
 
     
 

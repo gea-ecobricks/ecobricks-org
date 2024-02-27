@@ -35,7 +35,7 @@
 
 			<div class="lead-page-paragraph">
 
-            <p data-lang-id="004-lead-page-paragraph">We live in a world where its almost impossible to avoid plastic.  Nonetheless, the plastic that we consume and produce will have an ecological impact for a long time to come.  By taking responsibility for our plastic today, we can lead by example to ensure our net impact on the planet is green.  This can be done by offsetting-- balancing off our grey impacts with green ones.</p>
+            <p data-lang-id="004-lead-page-paragraph">We live in an age where its almost impossible to avoid plastic.  Nonetheless, the plastic that we consume and produce will most likely have an ecological impact for ages after ours.  By taking responsibility for our plastic today, we can lead by example to ensure our net impact on the planet is postive.  This can be done by offsetting— balancing off our grey impacts with green ones.</p>
 <!-- 				
 			<p data-lang-id="004-lead-page-paragraph">To compensate for our plastic consuption we we can support those who are doing the hard of plastic sequestration.  This way we can ensure our homes and enterprises have a net green effect.</p> -->
 			</div>
@@ -44,7 +44,7 @@
 
 			<div class="page-paragraph">
 
-				<p data-lang-id="005-first-page-paragraph">Plastic offsetting, is much like carbon offsetting.  Just as keen green households and companies buy carbon offset credits, so too can they buy plastic offset credits.  Whereas carbon credits help balance off polluting emissions, plastic offsets can be purchased to balance our polluting plastic consumption and production.  These payments then serve as strong financial incentive to stop polluting altogether!</p>  
+				<p data-lang-id="005-first-page-paragraph">Plastic offsetting, is much like carbon offsetting.  Just as keen green households and companies buy carbon offset credits, so too can they buy plastic offset credits.  Whereas carbon credits help balance off polluting emissions, plastic offsets can be purchased to balance our polluting plastic consumption and production.  These payments then serve as strong financial incentive to stop polluting altogether while empowering those of us working on solutions.</p>  
 
             </div>
 
@@ -91,7 +91,7 @@
 				<p data-lang-id="006-second-page-paragraph">
                 By far the best way to sequester plastic is through ecobricking.  Ecobricking not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved-- a phenonmenon called <a href="transition.php">plastic transition</a>.</p>
 
-				<p data-lang-id="006-second-page-paragraph">However, in order for ecobricked plastic to be considered sequestered, it must be done to specific standards.  Just as not all planted forests represent carbon sequestration (i.e. monoculture forests are known as green deserts for a reason!) not all plastic that is packed is sequestered.  In order to be sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains and represents</a>.</p>
+				<p data-lang-id="006-second-page-paragraph">However, in order for ecobricked plastic to be considered sequestered, it must be done to specific standards.  Just as not all planted forests represent carbon sequestration (i.e. monoculture forests are known as 'green deserts' for a reason!) not all plastic that is packed is sequestered.  In order to be sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains and represents</a>.</p>
 
 					</div>
 				</div>
@@ -150,11 +150,11 @@
 
     <div id="preclosed2">
        
-                <p data-lang-id="024-block-2-main-p1">Our AES plastic offset credit system is carefully designed to ensure that its integrety so that buyers, ecobrickers, validators and the GEA all benefit.   is designed to ensure the integrety of the system so that we can all be sure that AES plastic directly corresponds to real-world ecobricks that have been properly.  In this, way our goal is to renumerate the ecobrickers and the validators doing the hard work of plastic sequestration.  directly benefit the ecobrickers doing the hard work of ecobricking.  This is done in three ways.</p>
+                <p data-lang-id="024-block-2-main-p1">Our system is carefully designed to ensure that AES offset credits directly corresponds to real-world ecobricked plastic.  In this way everyone benefits:  the planet, the offseters and the ecobrickers doing the hard work.</p>
+                
+                <p>First (and foremost!), our goal is accelerate the diversion of plastic from pollution into sequestration while energizing our transition from petro-capital and plastic.  This benefits ecobrickers and their community-- and us all!</p>
             
-        <p data-lang-id="026-block-2-p2">Direct renumeration:  Our plastic offset system is directly tied to both the GEA's open books accounting and to the Brikcoin blockchain.  When an ecobrick is authenticated, the ecobrickers who validat</p>
-
-       
+        <p data-lang-id="026-block-2-p2">Secondly, our authentication system provides important practical benefits to ecobrickers and builders.  The process of validating ecobricks encourages high quality ecobricks.  In addition, because serialize ecobricks can be looked up, builders can specify that they only wish to purchase authenticated ecobricks for their projects.  Consequently, the exchange value of serialized authenticated ecobricks is far higher than  </p>
 
         <p data-lang-id="038-block-2-p3">Only authenticated ecobricks are considered authenticated sequestered plastic (AES plastic).</p>
 
