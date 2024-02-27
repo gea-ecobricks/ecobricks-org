@@ -165,7 +165,7 @@
 
                         </div>
 							<div class="side2"><img src="../webp/earthservice-400px.webp" width="300" style="width:95%" alt="eco bricks are a form of earth service"></div>
-							<div class="side3"><img src="../webp/earthservice-400px.webp" width="120p" style="width:95%" alt="an eco brick is a form of earth service"></div>
+							<div class="side3"><img src="../webp/earthservice-400px.webp" width="120" style="width:95%" alt="an eco brick is a form of earth service"></div>
 					</div>
 
 					<p><b>2. Leading by Example</b></p>
