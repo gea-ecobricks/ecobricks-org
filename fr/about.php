@@ -23,18 +23,7 @@
     </div>	
 </div>
 <div id="splash-bar"></div>
-<!-- 
-							  
-<div class="splash-content-block">
-	<div class="splash-text-box">
-		<div class="splash-heading">Nous envisageons une transition du plastique dans nos foyers, communautés et entreprises vers une harmonie toujours plus verte avec les cycles de la Terre.</div>
-		<div class="splash-sub">— Déclaration de vision de GEA</div>
-	</div>
-	<div class="splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 70%;"></div>	
-</div>
-<div id="splash-bar"></div> -->
 
-<!-- PAGE CONTENT-->
 
 
 <div id="main-content">
@@ -45,7 +34,7 @@
 			<div class="lead-page-paragraph">
 				
 			<p>The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition.  We do so through the mandalic dissemination of principled and practical ecobricking to raise ecological consciousness.</p>
-</div>
+			</div>
 
 			<div class="page-paragraph">
 				  
@@ -339,14 +328,9 @@
 
 		<?php require_once ("side-modules/eco-accounting.php");?>
 
-<?php require_once ("side-modules/earthen-ethics.php");?>
+		<?php require_once ("side-modules/earthen-ethics.php");?>
 
-<?php require_once ("side-modules/signup-now.php");?>
-
-    
-
-
-	
+		<?php require_once ("side-modules/signup-now.php");?>
 
 		</div>
 
