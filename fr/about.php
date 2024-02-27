@@ -8,7 +8,6 @@
 
 <?php require_once ("../includes/about2-inc.php");?>
 
-<article id="about-us">
 
 
 <!--TOP PAGE BANNER-->
@@ -165,8 +164,8 @@
 								<p>Our enterprise follows the <a href="/plastic">Earth's example</a> in generating ecological value.  To do so we strive to follow the principles of <a href="https://earthen.io/the-earthen-ways/" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p><br>
 
                         </div>
-							<div class="side2"><img src="../webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>
-							<div class="side3"><img src="../webp/earthservice-400px.webp" width="120px" alt="an eco brick is a form of earth service"></div>
+							<div class="side2"><img src="../webp/earthservice-400px.webp" width="300" style="width:95%" alt="eco bricks are a form of earth service"></div>
+							<div class="side3"><img src="../webp/earthservice-400px.webp" width="120p" style="width:95%" alt="an eco brick is a form of earth service"></div>
 					</div>
 
 					<p><b>2. Leading by Example</b></p>
@@ -245,11 +244,11 @@
 
 					<p><b>Plastic Accounting Coeffecients</b></p>
 
-					<p>The GEA researches, publishes and maintains <a href="coefficients.php">standards for plastic equivalencies</a> for regenerative accounting.</a>.</p><br>
+					<p>The GEA researches, publishes and maintains <a href="coefficients.php">standards for plastic equivalencies</a> for regenerative accounting.</p><br>
 
 					<p><b>Academic, Scientific and Indigenous People's Dialogue & Support</b></p>
 
-					<p>The GEA dialogues with the scientists, academics and indigenous leaders to support their work reasearching plastic pollution and developing plastic transition solutions.</a>.</p><br>
+					<p>The GEA dialogues with the scientists, academics and indigenous leaders to support their work reasearching plastic pollution and developing plastic transition solutions.</p><br>
 				</div>
 			</div>
 
@@ -351,7 +350,6 @@
 <script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
-</article>
 </body>
 </html>
 
