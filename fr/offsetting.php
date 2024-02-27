@@ -84,13 +84,15 @@
 
 					<div id="preclosed5">
 						<br>
-						<img src="../svgs/5-Add-a-bottom-color.svg" width="640" loading="lazy" class="full-width-image" alt="Add a bottom color to your eco brick" data-lang-id="051-block-5-main-image-alt">
 						
-						<p data-lang-id="052-block-5-paragraph-1">This is part of the circular design principle of ecobricking: we're thinking about the next use of the ecobrick. When your ecobrick is put to use in a module or an earth construction, the bottom color will help make patterns and designs.</p>
 						
-						<p data-lang-id="053-block-5-paragraph-2">To create your ecobrick's bottom color, choose a soft plastic with a solid color, then push it down to the bottom of your ecobrick. You'll want to fill the bottle loosely about halfway with soft plastic of your chosen color. Then, pack it in with your stick. If your bottle has "legs" or dimples at the bottom, be sure to pack these solid and full. Once all your soft plastic is compressed, you want it to fill the first 1-2cms of the bottle.</p>
-						
-						<p data-lang-id="054-block-5-paragraph-3">Often schools or companies will ask their ecobrickers to make ecobricks with their community colors. By giving your ecobrick bottom a color, you open up colorful design possibilities for making modules or earth and ecobrick walls.</p>
+						<p data-lang-id="006-second-page-paragraph">In the case of carbon offsets, credits correspond to carbon that has been sequestered-- often by tree planting or coral projects that are capturing, concentrating and securing kilograms or tons of carbon dioxide.  In the same way, plastic offsets credits correspond to plastic that has been captured, concentrated and secured.  These <a href="sequestered.php">sequestered plastic</a> credits are also measured in kilograms.</p>
+
+				<p data-lang-id="006-second-page-paragraph">
+                By far the best way to sequester plastic is through ecobricking.  Ecobricking not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved-- a phenonmenon called <a href="transition.php">plastic transition</a>.</p>
+
+				<p data-lang-id="006-second-page-paragraph">However, in order for ecobricked plastic to be considered sequestered, it must be done to specific standards.  Just as not all planted forests represent carbon sequestration (i.e. monoculture forests are known as green deserts for a reason!) not all plastic that is packed is sequestered.  In order to be sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains and represents</a>.</p>
+
 					</div>
 				</div>
 			</section>
@@ -106,22 +108,12 @@
 					</div>      
 					<div id="preclosed6">
 						<br>
-						<img src="../svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics" data-lang-id="057-block-6-main-image-alt">
-						
-						<p data-lang-id="058-block-6-paragraph-1">The smaller the pieces, the denser you'll get! Fill the bottle up halfway with loose plastic, then use your stick to push down around the sides of the bottle. Keep pushing down as you move around the circumference of the bottle. Once compressed, add more loose plastics. To maximize the density, it's good to mix soft, then hard plastic. If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
-						
-						<p data-lang-id="059-block-6-paragraph-2">Did you push too hard? In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again. Ruptured bottles will not last and can leak plastics. Cut the bottle open, remove the plastic and start again. Cut or damaged PET plastic is readily recycled.</p>
-
-						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-5"> 
-								<div class="advanced-box-header"  id="advancedBoxLabel-5">
-									<div class="advanced-title" data-lang-id="060-block-6-advanced-title">Advanced</div>
-									
-									<div class="advanced-open-icon" >+</div>
-								</div>
-								<div class="advanced-box-content">                    
-									<p data-lang-id="061-block-6-advanced-paragraph">💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic. By forming a center white ring of plastic, you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
-								</div>
-						</div><!--Advanced content closed-->    
+                        <p data-lang-id="006-third-page-paragraph">As part of our mission to support local and global plastic transition movements, the Global Ecobrick Alliance (GEA) maintains a blockchain based on the validation of ecobricked plastic.  We do so as a not-for-profit, for-Earth enterprise with full financial transparency.</p>
+                
+                <p>Offsetting and ecobrick validations are both accessed on our <a href="/gobrik">Gobrik app</a>.  There, ecobricker peers validate and authentic whether logged ecobricks meet the criteria of plastic sequestration.  Ecobricks that are authenticated are recorded on the <a href="brikchain">Brikcoin blockchain</a>. Their <a href="/aes">Authenticated Ecobrick Sequestered plastic (AES)</a>then becomes available for purchase as offset credits.</p>
+                
+                <p>Upon purchase, the GEA issues a serialized certificate for the amount of plastic offsets purchased.  The purchase transaction then  recorded on the brikcoin blockchain and the GEA's open books.  Finally, buyer's account is credited with their AES plastic offset credits and a serialized PDF certificate is issued.
+                </p>
 					</div>
 				</div>
 			</section>
@@ -158,9 +150,9 @@
 
     <div id="preclosed2">
        
-                <p data-lang-id="024-block-2-main-p1">Due to the crucial importance of making an ecobrick properly, the GEA maintains and develops the GoBrik platform and the Brikcoin manual blockchain.  The GoBrik platfrom leverages the planet passion of the global community of ecobrickers to review every ecobrick that is logged in a process of peer-authentication.</p>
+                <p data-lang-id="024-block-2-main-p1">Our AES plastic offset credit system is carefully designed to ensure that its integrety so that buyers, ecobrickers, validators and the GEA all benefit.   is designed to ensure the integrety of the system so that we can all be sure that AES plastic directly corresponds to real-world ecobricks that have been properly.  In this, way our goal is to renumerate the ecobrickers and the validators doing the hard work of plastic sequestration.  directly benefit the ecobrickers doing the hard work of ecobricking.  This is done in three ways.</p>
             
-        <p data-lang-id="026-block-2-p2">When ecobricks are logged on GoBrik, they are automatically added to the public validation queue.  There, any active ecobricker may review the ecobrick and validate that it has been made properly and meets minimum GEA standards.   When three independent reviewers have validated the ecobrick, the system tallies their reviews and either authenticates or rejects the ecobrick as sequestered plastic.</p>
+        <p data-lang-id="026-block-2-p2">Direct renumeration:  Our plastic offset system is directly tied to both the GEA's open books accounting and to the Brikcoin blockchain.  When an ecobrick is authenticated, the ecobrickers who validat</p>
 
        
 
