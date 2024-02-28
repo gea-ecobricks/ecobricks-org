@@ -41,7 +41,7 @@
     
     <div class="opener-header">
         
-        <div class="opener-header-text" data-lang-id="007-opener-header-text">
+        <div class="opener-header-text">
             <h4 data-lang-id="008-opener-header-title">Being the Change</h4>
             <h5 data-lang-id="009-opener-header-subtitle">We strive to lead by example in our households and enterprises.</h5>
         </div>
@@ -50,7 +50,7 @@
         
     </div>
 
-    <div id="preclosed1" data-lang-id="011-preclosed-content">
+    <div id="preclosed1">
 
         <div class="row">
             <div class="main2">
@@ -108,7 +108,7 @@
             <div class="main3">
                 <p data-lang-id="032-block2-paragraph-two">As an Earth enterprise our focus is on generating authentic ecological value. </p>
             </div>
-            <div class="side3"><img src="../webp/for-earth500px.webp" width="120" style="width:95%" alt="We make eco bricks to serve the Earth" data-lang-id="033-block2-image-alt-two">
+            <div class="side3" data-lang-id="033-block2-image-alt-two"><img src="../webp/for-earth500px.webp" width="120" style="width:95%" alt="We make eco bricks to serve the Earth" >
             </div>
         </div>
 
