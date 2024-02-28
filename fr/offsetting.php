@@ -35,7 +35,9 @@
 
 			<div class="lead-page-paragraph">
 
-            <p data-lang-id="004-lead-page-paragraph">We live in an age where its almost impossible to avoid plastic.  Nonetheless, the plastic that we consume and produce will most likely have an ecological impact for ages after ours.  By taking responsibility for our plastic today, we can lead by example to ensure our net impact on the planet is postive.  This can be done by offsetting— balancing off our grey impacts with green ones.</p>
+            <p data-lang-id="004-lead-page-paragraph">We live in an age where its almost impossible to avoid plastic.  Nonetheless, the plastic that we consume and produce will have an ecological impact for ages to come.  By taking responsibility for our plastic today, we can ensure that tomorrow our net-impact is green.</p>
+
+            
 <!-- 				
 			<p data-lang-id="004-lead-page-paragraph">To compensate for our plastic consuption we we can support those who are doing the hard of plastic sequestration.  This way we can ensure our homes and enterprises have a net green effect.</p> -->
 			</div>
@@ -43,6 +45,10 @@
 		
 
 			<div class="page-paragraph">
+
+            <p>Making sure our green impacts outweigh our grey is the only way to do so.</p>
+
+            <p>And plastic offsetting is one place to start!</p>
 
 				<p data-lang-id="005-first-page-paragraph">Plastic offsetting, is much like carbon offsetting.  Just as keen green households and companies buy carbon offset credits, so too can they buy plastic offset credits.  Whereas carbon credits help balance off polluting emissions, plastic offsets can be purchased to balance our polluting plastic consumption and production.  These payments then serve as strong financial incentive to stop polluting altogether while empowering those of us working on solutions.</p>  
 
