@@ -35,9 +35,7 @@
 				
 				<p data-lang-id="006-second-page-paragraph">The Global Ecobrick Alliance (GEA) is made up of 400+ transition trainers from all walks of life, ages, and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in our ecobricking to <a href="transition.php">transition</a> from plastic to ever greener living.</p>
 			</div>	
-		</div>
-	</div>
-</div>
+
 
 <div class="reg-content-block" id="block1">
     
@@ -86,6 +84,8 @@
 
     </div>  
 </div>
+
+
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
         <div class="opener-header-text">
@@ -200,6 +200,7 @@
         </div>
         <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
     </div>
+
     <div id="preclosed5">
         <p data-lang-id="078-block5-p1"><b>UK GEA Base</b></p>
         <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
@@ -213,22 +214,22 @@
     </div>
 </div>
 
-<div class="page-paragraph">
-    <p data-lang-id="084-page-paragraph-p1"><b>Vision</b></p>
-    <p data-lang-id="085-page-paragraph-p2">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</p>
-    <p data-lang-id="086-page-paragraph-p3"><b>Our Mission</b></p>
-    <p data-lang-id="087-page-paragraph-p4">To raise Ecological Consciousness through the spread of Ecobricking and the transformation of global plastic into local solutions.</p>
-    <p data-lang-id="088-page-paragraph-p5"><b>Dedication</b></p>
-    <p data-lang-id="089-page-paragraph-p6">Our work is dedicated to our Children, our Children’s Children… and the children of all species, for all time.</p>
-    <p data-lang-id="090-page-paragraph-p7"><i>Together we can be the transition to ever increasing harmony with the cycles of life.</i></p>
-</div>
+	<div class="page-paragraph">
+		<p data-lang-id="084-page-paragraph-p1"><b>Vision</b></p>
+		<p data-lang-id="085-page-paragraph-p2">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</p>
+		<p data-lang-id="086-page-paragraph-p3"><b>Our Mission</b></p>
+		<p data-lang-id="087-page-paragraph-p4">To raise Ecological Consciousness through the spread of Ecobricking and the transformation of global plastic into local solutions.</p>
+		<p data-lang-id="088-page-paragraph-p5"><b>Dedication</b></p>
+		<p data-lang-id="089-page-paragraph-p6">Our work is dedicated to our Children, our Children’s Children… and the children of all species, for all time.</p>
+		<p data-lang-id="090-page-paragraph-p7"><i>Together we can be the transition to ever increasing harmony with the cycles of life.</i></p>
+	</div>
 
 
 
 
 
 		
-		</div>
+</div>
 
 		<div class="side">
 

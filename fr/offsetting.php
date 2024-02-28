@@ -214,7 +214,7 @@
 
     <div id="preclosed4">
     <div class="row">
-						<div class="main2">
+					<div class="main2">
 
                         <p>On Earth Day 2020, the GEA released version 1.0 of the <i>Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic</i>.  This document lays out the foundational archetecture of the Brikcoin blockchain and our system of AES plastic offsets that sits upon it.  The document provides an overview of technical framework of plastic offsetting and the science and philosophy upon which it is based.</p>
 
