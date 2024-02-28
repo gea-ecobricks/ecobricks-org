@@ -215,14 +215,17 @@
 </div>
 
 	<div class="page-paragraph">
-		<h4 data-lang-id="084-page-paragraph-p1"><b>Our Vision</b></h4>
+	<br><br>
+	
+	<h4 data-lang-id="084-page-paragraph-p1"><b>Our Vision</b></h4>
 		<p data-lang-id="085-page-paragraph-p2">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</p>
 		<br><br>
-		<h3 data-lang-id="086-page-paragraph-p3"><b>Our Mission</b></h3>
+		<h4 data-lang-id="086-page-paragraph-p3"><b>Our Mission</b></h4>
 		<p data-lang-id="087-page-paragraph-p4">To raise Ecological Consciousness through the spread of Ecobricking and the transformation of global plastic into local solutions.</p>
 		<br><br>
-		<p data-lang-id="088-page-paragraph-p5"><b>Dedication</b></p>
+		<h4 data-lang-id="088-page-paragraph-p5"><b>Dedication</b></h4>
 		<p data-lang-id="089-page-paragraph-p6">Our work is dedicated to our Children, our Children’s Children… and the children of all species, for all time.</p>
+		<br><br>
 		<p data-lang-id="090-page-paragraph-p7"><i>Together we can be the transition to ever increasing harmony with the cycles of life.</i></p>
 	</div>
 
