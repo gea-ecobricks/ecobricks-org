@@ -1,33 +1,89 @@
-/*-----------------------------------
-
-FRENCH SNIPPETS FOR ECOBRICKS.ORG
-
-
------------------------------------*/
-
-
-// Ampersand (&): Should be escaped as &amp; because it starts HTML character references.
-// Less-than (<): Should be escaped as &lt; because it starts an HTML tag.
-// Greater-than (>): Should be escaped as &gt; because it ends an HTML tag.
-// Double quote ("): Should be escaped as &quot; when inside attribute values.
-// Single quote/apostrophe ('): Should be escaped as &#39; or &apos; when inside attribute values.
-// Backslash (\): Should be escaped as \\ in JavaScript strings to prevent ending the string prematurely.
-// Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
-
-
 const fr_Page_Translations = {
 
-    '001-splash-title': 'Alliance Globale d\'Ecobrique',
-    '002-splash-subtitle': 'Apropos de nous',
-    '003-splash-image-alt': '<img src="../webp/gea-perspective-400px.webp" style="width: 85%" alt="The Global Ecobrick Alliance logo - seven symbolic circles">',
-    
-    '004-lead-page-paragraph': 'La Global Ecobrick Alliance est une Earth Enterprise qui accélère la transition plastique locale et mondiale. Nous le faisons grâce à la diffusion mandalique d\'écobriques fondées sur des principes et pratiques pour élever la conscience écologique.',
-    '005-first-page-paragraph': 'L\'<a href="/story">histoire</a> de la Global Ecobrick Alliance commence sur le territoire traditionnel du peuple Igorot (<i>Kaigorotan</i>) dans les hautes terres du nord de Luzon dans le Mer des Philippines occidentales. En nous efforçant de garder notre plastique hors de la rivière, nous avons développé des moyens et des méthodes pour nos maisons et nos communautés qui incarnaient la <a href="/ayyew">éthique Igorot Ayyew</a>. Inspirés par la sagesse indigène, les principes et méthodes d\'écobrique sont aujourd\'hui un moyen pour les ménages, les entreprises et les communautés du monde entier d\'accélérer leur <a href="transition.php">transition plastique.</a>',
-    '006-second-page-paragraph': 'La Global Ecobrick Alliance (GEA) est composée de plus de 400 formateurs en transition de tous horizons, âges et origines. Nous sommes connectés dans le monde entier dans notre préoccupation pour la biosphère et ses dommages par la pollution plastique. Nous sommes unis par la solution que nous avons trouvée dans notre écobrique pour <a href="transition.php">transition</a> du plastique vers une vie toujours plus verte. '
-
-
-
-    
-}
-        
-      
+  '001-splash-title': 'À Propos de Nous',
+  '002-splash-subtitle': "L'Alliance Globale d'Écobriques",
+  '003-splash-image-alt': '<img alt="Comment construire avec des écobriques" src="../webp/gea-perspective-400px.webp" style="width: 85%"/>',
+  '004-lead-paragraph': '<p>L’Alliance Globale d’Écobriques est une Entreprise Terrestre qui accélère la transition plastique locale et mondiale. Nous le faisons à travers la diffusion mandalique de principes et de pratiques d’écobriquage pour élever la conscience écologique.</p>',
+  '005-first-page-paragraph': 'L’<a href="/story">histoire</a> de l’Alliance Globale d’Écobriques commence sur le territoire traditionnel du peuple Igorot (<i>Kaigorotan</i>) dans les hautes terres du nord de Luzon dans la mer de Chine méridionale. En cherchant à empêcher notre plastique de finir dans la rivière, nous avons développé des moyens et méthodes pour nos foyers et nos communautés qui incarnent l’éthos Ayyew Igorot <a href="/ayyew">Igorot Ayyew</a>. Inspirés par la sagesse indigène, aujourd’hui, les principes et méthodes d’écobriquage sont un moyen pour les foyers, entreprises et communautés autour du monde d’accélérer leur <a href="transition.php">transition plastique.</a>',
+  '006-second-page-paragraph': "L’Alliance Globale d’Écobriques (GEA) est composée de plus de 400 formateurs de transition de tous horizons, âges et origines. Nous sommes connectés à travers le monde par notre préoccupation pour la biosphère et les dommages causés par la pollution plastique. Nous sommes unis par la solution que nous avons trouvée dans notre écobriquage pour <a href=\"transition.php\">transiter</a> du plastique vers une vie toujours plus verte.",
+  '008-opener-header-title': 'Être le Changement',
+  '009-opener-header-subtitle': 'Nous nous efforçons de montrer l’exemple dans nos foyers et entreprises.',
+  '010-block-toggle-show': '+',
+  '012-main2-paragraph1': 'En tant qu’écobriqueurs, nous suivons la quantité de plastique que nous consommons chaque mois, le nettoyons, le lavons et le mettons de côté. Nous emballons notre plastique dans des écobriques que nous utilisons dans nos maisons pour fabriquer nos meubles et jardins. Nous menons <a data-lang-id="013-main2-link1" href="/trainings">des formations sur l’écobriquage</a> pour des entreprises et des communautés proches et lointaines. Pour nos foyers comme pour nos entreprises, nous compensons notre plastique pour assurer que notre foyer et nos entreprises soient nettement verts. Nous suivons et divulguons nos progrès dans la transition plastique, tout comme le fait l’Alliance Globale d’Écobriques <a data-lang-id="014-main2-link2" href="regenreports.php">chaque année</a>.',
+  '013-main2-link1': 'formations sur l’écobriquage',
+  '014-main2-link2': 'le fait chaque année',
+  '015-main2-paragraph2': 'Notre écobriquage nous a donné la chance de réfléchir à notre propre consommation de plastique. Nous pensons que résoudre le problème du plastique est bien plus complexe que les interdictions et le bambou. Bien que ces étapes soient essentielles, résoudre profondément le problème du plastique nécessite une transition étendue de la façon dont notre culture moderne s’intègre avec la biosphère.',
+  '016-side2-image': '<img alt="Nos formateurs d’écobriques de la GEA" data-lang-id="017-side2-image-alt" src="../svgs/shanti.svg" style="width:88%" width="300"/>',
+  '017-side2-image-alt': '',
+  '018-main3-paragraph': '<b>Nous observons que notre consommation et production de plastique est enracinée dans l’économie mondiale du pétrole et du capital.</b>',
+  '019-side3-image': '<img alt="Nos formateurs d’écobriques de la GEA" data-lang-id="020-side3-image-alt" src="../svgs/shanti.svg" style="width:88%" width="120"/>',
+  '020-side3-image-alt': '',
+  '021-preclosed-paragraph1': 'De cette manière, le plastique que nous manipulons chaque jour est la pointe de l’iceberg du système pétro-capitaliste qui est à la racine de nombre de nos crises écologiques actuelles. Ainsi, le plastique nous permet de toucher physiquement le système pétro-capitaliste qui autrement se profile grand et invisible autour de nous. Chaque choix plastique, de l’achat à l’élimination, entraîne le fonctionnement d’usines, le transport par camions et le raffinage du pétrole - ou pas.',
+  '022-preclosed-paragraph2': 'Ce que nous faisons de notre plastique, en ajoutant ou en diminuant la dynamique de l’économie pétro-capitaliste a une conséquence écologique imminente. Même si nos choix personnels peuvent sembler petits, nous observons qu’avec le temps, à mesure que nos choix résonnent avec ceux des autres, ils accumulent une dynamique qui a d’énormes conséquences écologiques. De cette manière, ‘montrer l’exemple personnellement’ est l’un de nos <a data-lang-id="023-preclosed-link1" href="/principles">principes fondamentaux</a>.',
+  '023-preclosed-link1': 'principes fondamentaux',
+  '024-preclosed-paragraph3': 'En nous rassemblant en tant qu’Alliance Globale d’Écobriques, nous avons réalisé que pour résoudre profondément le problème du plastique, nous devons également montrer l’exemple par notre action alliée, la structure de notre entreprise et nos principes en manifestant <a data-lang-id="025-preclosed-link2" href="transition.php">la transition plastique</a>, la valeur écologique et le service à la Terre.',
+  '025-preclosed-link2': 'la transition plastique',
+  '026-preclosed-quote1': '<i>“Lorsque vous siégez au conseil pour le bien-être des gens, vous ne devez pas penser à vous-même ou à votre famille, ni même à votre génération. Prenez vos décisions pour les sept générations à venir, afin qu’elles puissent jouir de ce que vous avez aujourd’hui.</i>',
+  '027-preclosed-quote2': '— Oren Lyons (Seneca), Nation Onondaga',
+  '028-earth-enterprise-title': 'Entreprise Terrestre',
+  '029-earth-enterprise-subtitle': 'Notre entreprise à but non lucratif est axée sur le service à la Terre.',
+  '030-block2-paragraph-one': "L'Alliance Globale d'Écobriques fonctionne comme une entreprise à but non lucratif avec le mandat de service pour la Terre. Cela signifie que, contrairement à une entreprise, nous n'avons pas d'actionnaires ou de propriétaires qui recueillent des profits. Cela signifie également que, contrairement à une organisation, nous ne recevons pas de charité, de subventions ou de fonds RSE. De cette façon, nous ne sommes pas soumis à des agendas extérieurs à notre mission et vision, ni à un mandat de croissance et de profits.",
+  '031-block2-image-alt-one': '',
+  '032-block2-paragraph-two': 'En tant qu’entreprise terrestre, notre focus est sur la génération de valeur écologique authentique.',
+  '033-block2-image-alt-two': '<img alt="Nous fabriquons des écobriques pour servir la Terre" src="../webp/for-earth500px.webp" style="width:95%" width="120"/>',
+  '034-block2-revenue-generation-title': '<b>Génération de Revenus</b>',
+  '035-block2-paragraph-three': 'Grâce à notre <a href="brikcoins.php">blockchain Brikcoin</a>, cette valeur est authentifiée, quantifiée et évaluée en monnaie courante. Nous vendons ensuite des compensations plastiques Écobriques Authentifiées Séquestrées (<a href="aes">AES plastic offsets</a>) pour financer nos opérations.',
+  '036-block2-paragraph-four': "L'GEA développe <a href=\"/trainings\">des ateliers et formations</a> qui sensibilisent à la conscience écologique autour des dangers du plastique. Ces cours sont dirigés par notre équipe de formateurs et servent de moyen pour eux de financer leur propre travail (les profits sont partagés 80/20 avec la GEA).",
+  '037-block2-paragraph-five': "La GEA développe des produits régénératifs et open source qui sont fabriqués selon les spécifications par des fabricants locaux au pays où ils sont vendus. Ces produits sont vendus par nos formateurs pour aider avec leur pratique (voir <a href=\"earthwand.php\">notre page EarthWand pour un exemple).</a>",
+  '038-block2-paragraph-six': "Toutes nos opérations sont manifestées à travers notre équipe de formateurs et l'équipe centrale de la GEA – des personnes qui ont suivi l'une de nos formations avancées et qui sont perpétuellement engagées et en résonance avec notre mission, vision et principes. Notre équipe de formateurs est constamment en train de mener <a href=\"/trainings\">des formations GEA</a> autour du monde, et sont rémunérés professionnellement pour ces services par les groupes communautaires, entreprises, gouvernements, ONG ou organisations qui les engagent.",
+  '039-block2-quote': '“Dans un monde où les entreprises à but non lucratif sont au cœur, le profit est un moyen par lequel le bien-être social et environnemental est atteint; ce n’est pas un but en soi.”',
+  '040-block2-citation': '– Comment sur Terre, Hinton & Maclurcan (2016)',
+  '041-block3-header': 'Pratique Principe',
+  '042-block3-subheader': "En tant qu'Entreprise Terrestre, la GEA suit sept principes qui garantissent que nos objectifs, opérations et nos résultats sont profondément alignés avec notre vision et mission à court et long terme.",
+  '043-block3-main2-p1': '<b>Service pour la Terre</b>',
+  '044-block3-main2-p2': "Notre entreprise suit l'exemple de la Terre dans la génération de valeur écologique. Pour ce faire, nous nous efforçons de suivre les principes de l'éthique Terrestre: servir d'abord la Terre en soutenant la biodiversité, en augmentant la conscience écologique et en maintenant une soustraction nette de carbone et de plastique hors de la biosphère par notre entreprise.",
+  '045-block3-p1': '<b>Montrer l’Exemple</b>',
+  '046-block3-p2': "Nous nous efforçons de garantir que les processus, méthodes, produits et services de notre entreprise sont pleinement en accord avec nos principes. Nous suivons et divulguons nos impacts écologiques pour garantir que le résultat net de notre entreprise est la soustraction de CO2 et de plastique de la biosphère et le soutien à la biodiversification. Nous travaillons à sensibiliser à l'écologie et à autonomiser les autres à suivre notre exemple.",
+  '047-block3-p3': '<b>Open Source</b>',
+  '048-block3-p4': "Nous rendons nos ressources, guides et code ouverts sous les Licences Creative Commons Attribution-ShareAlike 4.0 International.",
+  '049-block3-p5': '<b>Transcendant Genre, Âge, Statut</b>',
+  '050-block3-p6': "Nous nous efforçons de concevoir des méthodes et processus qui permettent la participation des hommes et des femmes, des jeunes et des vieux, des riches et des pauvres et de tout le monde entre les deux.",
+  '051-block3-p7': '<b>Rémunération Équitable pour le Service à la Terre</b>',
+  '052-block3-p8': "Nous nous efforçons de cultiver un espace et des paramètres afin que nos formateurs, spécialistes et principaux reçoivent une rémunération juste et abondante pour leur service à la terre. À mesure que notre entreprise s'agrandit, nous veillerons à maintenir une tranche salariale pour maintenir un ratio défini du plus haut au plus bas salaire dans l'organisation.",
+  '053-block3-p9': '<b>Transparence Financière et d’Impact</b>',
+  '054-block3-p10': "Nous nous efforçons de rendre toutes nos finances, tant en monnaie fiduciaire que sur notre blockchain Brikcoin, transparentes et accessibles. Nous nous engageons à divulguer nos impacts nets en termes de CO2 et de Plastique.",
+  '055-block3-p11': '<b>Pas pour le Profit</b>',
+  '056-block3-p12': "Nous nous engageons à une entreprise à but non lucratif sans actionnaires ni propriétaires. À la fin de l'année, tout fonds non dépensé sera réinvesti dans l'accomplissement de notre mission et vision.",
+  '057-block3-h6': '<a href="principles.php">En savoir plus sur les principes de l’écobriquage</a>',
+  '058-block4-header': 'Notre Travail.',
+  '059-block4-subheader': "Nous maintenons l'infrastructure technique et conceptuelle pour les mouvements d'écobriquage locaux et mondiaux.",
+  '060-block4-p1': '<b>Ecobricks.org</b>',
+  '061-block4-p2': "Nous maintenons Ecobricks.org (ce site) comme la source incontournable pour les informations, méthodes, données et meilleures pratiques d'écobriquage à jour.",
+  '062-block4-p3': '<b>GoBrik.com</b>',
+  '063-block4-p4': "La GEA maintient et développe l'application web gratuite <a href=\"https://gobrik.com\" target=\"_blank\">GoBrik.com</a> pour soutenir et connecter les écobriqueurs et leurs communautés.",
+  '064-block4-p5': '<b>Blockchain Manuelle Brikcoin</b>',
+  '065-block4-p6': "La GEA a développé et maintient maintenant la <a href=\"brikcoins.php\">blockchain manuelle Brikcoin</a> comme moyen de valoriser la séquestration du plastique par l'écobriquage et de développer un moyen d'échange basé sur la valeur écologique. Les Brikcoins sont générés et échangés sur l'application web GoBrik.",
+  '066-block4-p7': '<b>Meilleures Pratiques d’Écobriquage</b>',
+  '067-block4-p8': "Nous maintenons les meilleures pratiques et normes pour <a href=\"what.php\">la fabrication des écobriques</a> et <a href=\"build.php\">les applications de construction</a> de celles-ci.",
+  '068-block4-p9': '<b>Rapports &amp; Livres Blancs</b>',
+  '069-block4-p10': "Nous développons activement et publions des rapports, recherches et livres blancs sur les sujets d'écobrique et de transition plastique.",
+  '070-block4-p11': '<b>Ressources Éducatives sur les Écobriques</b>',
+  '071-block4-p12': "La GEA développe et déploie des ressources telles que des <a href=\"https://youtube.com/ecobricks\">tutoriels vidéo</a> sur notre chaîne YouTube, des guides PDF photocopiables, des paramètres de Design Écobrickable et <a href=\"/trainings\">des formations d'écobriquage</a>.",
+  '072-block4-p13': '<b>Coefficients de Comptabilité Plastique</b>',
+  '073-block4-p14': "La GEA recherche, publie et maintient <a href=\"coefficients.php\">des normes pour les équivalences plastiques</a> pour la comptabilité régénérative.",
+  '074-block4-p15': '<b>Dialogue &amp; Support des Peuples Autochtones, Scientifiques et Académiques</b>',
+  '075-block4-p16': "La GEA dialogue avec des scientifiques, universitaires et leaders autochtones pour soutenir leur travail de recherche sur la pollution plastique et développer des solutions de transition plastique.",
+  '076-block5-header': 'Contactez-Nous',
+  '077-block5-subheader': 'Connectez-vous directement avec nous.',
+  '078-block5-p1': '<b>Base GEA au Royaume-Uni</b>',
+  '079-block5-p2': '<b>Base GEA en Indonésie</b>',
+  '080-block5-p3': '<b>Équipe de Développement</b>',
+  '081-block5-p4': '<b>Demandes Médias</b>',
+  '084-page-paragraph-p1': '<b>Notre Vision</b>',
+  '085-page-paragraph-p2': "Nous envisageons une Transition du Plastique dans nos Foyers, Communautés et Entreprises vers une Harmonie toujours plus verte avec les Cycles de la Terre.",
+  '086-page-paragraph-p3': '<b>Notre Mission</b>',
+  '087-page-paragraph-p4': "Élever la Conscience Écologique à travers la diffusion de l'Écobriquage et la transformation du plastique mondial en solutions locales.",
+  '088-page-paragraph-p5': '<b>Dédicace</b>',
+  '089-page-paragraph-p6': "Notre travail est dédié à nos Enfants, aux Enfants de nos Enfants... et aux enfants de toutes les espèces, pour tout le temps.",
+  '090-page-paragraph-p7': '<i>Ensemble, nous pouvons être la transition vers une harmonie toujours croissante avec les cycles de la vie.</i>',
+};
