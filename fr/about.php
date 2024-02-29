@@ -46,7 +46,7 @@
             <h5 data-lang-id="009-opener-header-subtitle">We strive to lead by example in our households and enterprises.</h5>
         </div>
         
-        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" data-lang-id="010-block-toggle-show">+</button>
+        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" >+</button>
         
     </div>
 
@@ -100,7 +100,7 @@
             <div class="main2">
                 <p data-lang-id="030-block2-paragraph-one">The Global Ecobrick Alliance operates as a not-for-profit enterprise with the mandate of for-Earth service.  This means that, unlike a company, we have no share-holders or owners who gather profits.  It also means that unlike an organization, we do not receive charity, grants, or CSR funds.  This way we are not beholden to agendas outside of our mission and vision, nor a mandate of growth and profits.</p>
             </div>
-            <div class="side2"><img src="../webp/for-earth500px.webp" style="width:95%" width="300" alt="We make eco bricks to serve the Earth" data-lang-id="031-block2-image-alt-one">
+            <div class="side2"><img src="../webp/for-earth500px.webp" style="width:95%" width="300" alt="We make eco bricks to serve the Earth" >
             </div>
         </div>
 

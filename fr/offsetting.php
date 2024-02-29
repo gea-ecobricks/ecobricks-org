@@ -35,7 +35,7 @@
 
 			<div class="lead-page-paragraph">
 
-            <p data-lang-id="004-lead-page-paragraph">We live in an age where its almost impossible to avoid plastic.  Nonetheless, the plastic that we consume and produce will have an ecological impact for ages to come.  By taking responsibility for our plastic today, we can ensure that tomorrow our net-impact is green.</p>
+            <p data-lang-id="004-lead-page-paragraph">We live in an age where its almost impossible to avoid plastic.  Nonetheless, the plastic that we consume and produce will have an ecological impact for ages to come.  By taking responsibility for our plastic today, we can ensure that tomorrow, our overall impact is green.</p>
 
             
 <!-- 				
@@ -50,7 +50,7 @@
 
             <p>And plastic offsetting is one place to start!</p>
 
-				<p data-lang-id="005-first-page-paragraph">Plastic offsetting, is much like carbon offsetting.  Just as keen green households and companies buy carbon offset credits, so too can they buy plastic offset credits.  Whereas carbon credits help balance off polluting emissions, plastic offsets can be purchased to balance our polluting plastic consumption and production.  These payments then serve as strong financial incentive to stop polluting altogether while empowering those of us working on solutions.</p>  
+				<p data-lang-id="005-first-page-paragraph">Plastic offsetting is much like carbon offsetting.  Just as keen green households and companies buy carbon offset credits, so too can they buy plastic offset credits.  Whereas carbon credits help balance off polluting emissions, plastic offsets can be purchased to balance our polluting plastic consumption and production.  The buyers payments serves as strong financial incentive for them to reduce and eliminate their plastic use altogether.  Meanwhile, the funds go direct to energizing those of us working on deep green solutions.</p>  
 
             </div>
 
@@ -62,7 +62,7 @@
 					<div class="opener-header">   
 						<div class="opener-header-text">
 							<h4 data-lang-id="049-block-5-opener-header">Like Carbon Offsetting— but for plastic!</h4>
-							<h5 data-lang-id="050-block-5-opener-subheader">If curbing CO2 emissions are an important part of being green-- so too is curbing our plastic polluting.</h5>   
+							<h5 data-lang-id="050-block-5-opener-subheader">If curbing CO2 emissions are an important part of being green― so too is curbing our plastic polluting.</h5>   
 						</div>
 						<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5" aria-expanded="false" aria-label="Toggle Section Five">+</button>
 					</div>
@@ -71,7 +71,7 @@
 						<br>
 						
 						
-						<p data-lang-id="006-second-page-paragraph">In the case of carbon offsets, credits correspond to carbon that has been sequestered-- often by tree planting or coral projects that are capturing, concentrating and securing kilograms or tons of carbon dioxide.  In the same way, plastic offsets credits correspond to plastic that has been captured, concentrated and secured.  These <a href="sequestered.php">sequestered plastic</a> credits are also measured in kilograms.</p>
+						<p data-lang-id="006-second-page-paragraph">In the case of carbon offsets, credits correspond to carbon that has been sequestered― for example by tree planting or coral restoration projects.  These projects energize systems that capturing, concentrate and secure kilograms of carbon dioxide.  In the same way, plastic offsets credits correspond to plastic that has been captured, concentrated and secured.  These <a href="sequestered.php">sequestered plastic</a> credits are also measured in kilograms (significantly, plastic itself is on average ).</p>
 
 				<p data-lang-id="006-second-page-paragraph">
                 By far the best way to sequester plastic is through ecobricking.  Ecobricking not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved-- a phenonmenon called <a href="transition.php">plastic transition</a>.</p>

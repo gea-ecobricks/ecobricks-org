@@ -25,7 +25,6 @@ const en_Page_Translations = {
     '006-second-page-paragraph': 'The Global Ecobrick Alliance (GEA) is made up of 400+ transition trainers from all walks of life, ages, and backgrounds.  We are connected around the world in our concern for the biosphere and its harm by plastic pollution.  We are united by the solution we have found in our ecobricking to <a href="transition.php">transition</a> from plastic to ever greener living.',
     '008-opener-header-title': 'Being the Change',
     '009-opener-header-subtitle': 'We strive to lead by example in our households and enterprises.',
-    '010-block-toggle-show': '+',
     '012-main2-paragraph1': 'As ecobrickers ourselves, we keep track of how much plastic we consume each month, clean and wash it, and put it aside. We pack our plastic into ecobricks which we use in our homes to make our furniture and gardens. We lead <a data-lang-id="013-main2-link1" href="/trainings">ecobrick trainings</a> for companies and communities near and far. For both our households and enterprises we offset our plastic to make sure our household and our enterprises are net green. We track and disclose our plastic transition progress, just like the Global Ecobrick Alliance <a data-lang-id="014-main2-link2" href="regenreports.php">does each year</a>.',
     '013-main2-link1': 'ecobrick trainings',
     '014-main2-link2': 'does each year',
