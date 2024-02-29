@@ -77,7 +77,7 @@
 
 		<!--ECOBRICK CONCERNS-->
 		<div id="concerns" class="greyish">
-			<div id="faq-content-block" class="reddish">
+			<div class="reddish">
 
 				
 				<h4>Ecobrick Concerns</h4>
@@ -1021,6 +1021,8 @@
 </div>
 </div>
 </div>
+
+<br><br>
 </div>
   
 
