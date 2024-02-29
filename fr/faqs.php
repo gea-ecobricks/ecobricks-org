@@ -77,7 +77,7 @@
 
 		<!--ECOBRICK CONCERNS-->
 		<div id="concerns" class="greyish">
-			<div id="faq-content-block" class="reddish">
+			<div  class="reddish faq-content-block">
 
 				
 				<h4>Ecobrick Concerns</h4>
@@ -108,7 +108,7 @@
 
 		<!--BUILD QUESTIONS-->
 		<div id="building-q" class="greyish">
-		<div id="faq-content-block" class="greenish">
+		<div  class="greenish ">
 			
 			<h4>Building Questions</h4>
 			<p>All about eco<span class="eco-brick"> </span>bricks applications.</p>
@@ -139,7 +139,7 @@
 
 		<!--MOVEMENT Q-->
 	<div id="movement-q" class="greyish">
-		<div id="faq-content-block" class="pinkish">
+		<div  class="pinkish faq-content-block">
 			<h4>Movement Questions</h4>
 			<p>About us and the global plastic transition and eco<span class="eco-brick"> </span>bricks movement.</p>
 			
@@ -167,7 +167,7 @@
 		<!--GOBRIK-->
 
 		<div id="gobrik-q" class="greyish">
-		<div id="faq-content-block" class="blueish">
+		<div  class="blueish faq-content-block">
 
 		
 			<h4>GoBrik Questions</h4>
@@ -1014,6 +1014,8 @@
 						<li><b>Learn from a trainer</b>  Check out the current <a href="https://gobrik.com/courses">Ecobrick Starter Workshop</a> course listing by certified GEA Trainers.</li>
 						<li><b>Training others to make ecobricks?</b> Be sure to check out <a href="/trainings">trainer of trainer program</a></li>
 					</ul></p>
+
+					<br><br><br>
 		
 				
 		</div>
