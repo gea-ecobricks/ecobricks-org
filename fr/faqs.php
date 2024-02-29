@@ -204,30 +204,31 @@
 		<!--MORE QUESTIONS-->
 		<section id="misc">
 		<div id="block-border" class="greyish">
-		<div id="faq-content-block" class="orangeish">
+			<div id="faq-content-block" class="orangeish">
 			
-			<h4>More Questions</h4>
-			<p>All those other questions we haven't answered yet!</p>
-			<button onclick="more()" class="toggle" id="toggle-show5">⬇ Show</button>
-			<div id="more-questions">
-				<hr>
-				<h6>
-				<ul>
-					<li><a href="#ocean">What about plastic I pick up from the beach— can it be ecobricked?</a></li>
-					<li><a href="#cigbrick">What about cigarette filters— can they be ecobricked?</a></li>
-					<li><a href="#dropoff">How can I drop off my completed ecobricks?</a></li>
-					<li><a href="#hubs">How can I get ecobricks for my project?</a></li>
-					<li><a href="#media">I am with the media.  How do I do a story on ecobricks that avoids the common misconceptions?</a></li>
-					<li><a href="#eco-bricks">How do you spell it?  Eco bricks?  Eco-bricks? Ecobricks?</a></li>
-					<li><a href="#arcio">What's that green circle on the bottom of your webpage?  What is Arc.io doing?</a></li>
+				<h4>More Questions</h4>
+				<p>All those other questions we haven't answered yet!</p>
+				<button onclick="more()" class="toggle" id="toggle-show5">⬇ Show</button>
+				<div id="more-questions">
+					<hr>
+					<h6>
+					<ul>
+						<li><a href="#ocean">What about plastic I pick up from the beach— can it be ecobricked?</a></li>
+						<li><a href="#cigbrick">What about cigarette filters— can they be ecobricked?</a></li>
+						<li><a href="#dropoff">How can I drop off my completed ecobricks?</a></li>
+						<li><a href="#hubs">How can I get ecobricks for my project?</a></li>
+						<li><a href="#media">I am with the media.  How do I do a story on ecobricks that avoids the common misconceptions?</a></li>
+						<li><a href="#eco-bricks">How do you spell it?  Eco bricks?  Eco-bricks? Ecobricks?</a></li>
+						<li><a href="#arcio">What's that green circle on the bottom of your webpage?  What is Arc.io doing?</a></li>
 
-				</ul>
-			</h6>
-			<br><br>
-			</div>	
-		</div>
+					</ul>
+					</h6>
+					<br><br>
+				</div>	
+			</div>
 		</div>
 		</section>
+		
 
 </div>
 
