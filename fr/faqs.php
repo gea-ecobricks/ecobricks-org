@@ -415,15 +415,22 @@
 	<div class="faq" id="sequestration">
 		<div class="faq-box">
 			<div class="faq-texts">
-				<div class="faq-header"><h4>So how is ecobricking different from recycling, dumping or burning?</h4></div>
-				
-				<p>Ecobricking is a form of <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">plastic sequestration</a>.  That means there's six principled reasons that set ecobricking apart.  Rather than being for-profit ecobricking is for-Earth.  Rather than letting plastic and carbon loose, ecobricking is all about their compaction and concentration.  Rather than cycling plastic only a few times, ecobriking creates indefinitely reusable building blocks. Rather than rely on marketing that lowers ecoogical awareness, ecobricking is a hands-on learning experience that raises it.  Rather than result in more products and factories that harm plants and animals, ecobricking leads to green spaces that give them a home.  Rather than un-attentive disposal, ecobricking is all about measuring, tracking and disclosing our plastics.  To sum it up... ecobricking is all about following the Earth's example of carbon care to make sure that we're transitioning from plastic to greener ways of living. </p>
-
-				<div class="faq-link"><h5>Learn more: <a href="sequest.php">The Principles of Plastic Sequestration</h5></p></div>                    
+				<div class="faq-header"><h4>So how is ecobricking different from recycling, dumping or burning?</h4>
 			</div>
-			<div class="faq-image"><img src="../webp/dial-example.webp" alt="Eco bricks are beyond zero waste"></div>
+				
+				<p>Ecobricking is a form of <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">plastic sequestration</a>.  That means there's six principled reasons that set ecobricking apart.  Rather than being for-profit ecobricking is for-Earth.  Rather than letting plastic and carbon loose, ecobricking is all about their compaction and concentration.  Rather than cycling plastic only a few times, ecobriking creates indefinitely reusable building blocks. Rather than rely on marketing that lowers ecoogical awareness, ecobricking is a hands-on learning experience that raises it.  Rather than result in more products and factories that harm plants and animals, ecobricking leads to green spaces that give them a home.  Rather than un-attentive disposal, ecobricking is all about measuring, tracking and disclosing our plastics.  To sum it up... ecobricking is all about following the Earth's example of carbon care to make sure that we're transitioning from plastic to greener ways of living.</p>
+
+				<div class="faq-link">
+					<h5>Learn more: <a href="sequest.php">The Principles of Plastic Sequestration</a></h5>
+				</div>                    
+			</div>
+			<div class="faq-image">
+				<img src="../webp/dial-example.webp" alt="Eco bricks are beyond zero waste">
+			</div>
 		</div>
-		<div class="top-link"><a href="#general">Back to General Questions</a></div>
+		<div class="top-link">
+			<a href="#general">Back to General Questions</a>
+		</div>
 	</div>
 			
 	<div class="faq" id="keen">
@@ -669,7 +676,7 @@
 					
 					<p>Yes. Plastic, just like pretty much everything else, can be flammable.  Whether you're building with wood, bamboo or ecobrikcks it's all about doing so to minimize fire harzards.  Ecobrick fire safety, starts by making ecobricks properly.  When ecobricks are made according to GEA density standards, flammability is critically reduced.  Furthermore, by building with ecobricks properly, their flamability is yet further reduced.  In fact, ecobrick and earth building for outdoor green spaces (our recommended ecobrick application) reduces flammability to virtually nil by completely encasing ecobricks in cob.  In fact, other than test earth and ecobrick walls that have been deliberately set on fire (and it wasn't easy), we know of no ecobrick green spaces that have ever caught fire. </p>
 
-					<div class="faq-link"><h5>Learn more: <a href="/fire">Ecobricks & Fire Security</a></h5></p></div>  
+					<div class="faq-link"><h5>Learn more: <a href="/fire">Ecobricks & Fire Security</a></h5></div>  
 					<div class="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
 				</div>
 				<div class="faq-image"><img src="../webp/fire.webp" alt="Eco brick fire safety"></div>
@@ -684,7 +691,7 @@
 					
 					<p>For hundreds of millions of years the molecules that make up our plastic weren't problematic.  In fact, by having secured carbon under ground, the Earth greened it's surface.  In the Earth's ecosystems "Final solutions" aren't the way things work. Thinking in lines is the way our petro-capital system tries to work when we buy, use, and throw-away. Ecosystems instead work in circles, cycling molecules over and over with less and less energy. By ecobricking our carbon/plastic we're getting out of 'final' thinking and back to following the example of the Earth. Ecobricks are designed to both secure their carbon/plastic and to be local building blocks— just like in ecosystems! In the same way the Earth gifted us densely packed carbon (i.e. fossil fuels), we can gift our carbon to others in the future. Like the dinausaurs, we can't imagine how our plastic/carbon  will be used in the future. However, we can be certain that it makes a better gift compacted and concentrated into useful buildings rather than scattered and dispersed, loose and leaching. </p>
 
-					<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</a></h5></p></div>   
+					<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</a></h5></div>   
 					<div class="top-link">Back to <a href="#building-q">Building Questions</a></div>                 
 				</div>
 				<div class="faq-image"><img src="../webp/spiral-circular-400px.webp" alt="eco brick circular design"></div>
@@ -722,7 +729,7 @@
 					
 					<p>We're a global alliance of ecobrickers!  We've come together to form the Global Ecobrick Alliance as a way to support the conceptual and technological infracstructure of the plastic transition movement.  Despite the diversity of the movement around the world, the problem of plastic connects us all.  And so too does the consistentcy of PET bottles and plastic packaging!  We see plastic as a grand opportunity for collective ecological action.  We're not a company, a charity or NGO— we're what we call an Earth Enterprise.  Unlike many companies we don't have shareholders or owners who profit from excess revenue.  Unlike many Charities and NGOs we generate our own revenue— specifically by providing valuable social service of training ecobrickers and the valuable ecological service of authenticating plastic sequestration.</p>
 
-					<div class="faq-link"><h5>Learn more: <a href="about.php">Learn more about the GEA</h5></p></div>  
+					<div class="faq-link"><h5>Learn more: <a href="about.php">Learn more about the GEA</h5></div>  
 					<div class="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
 				</div>
 				<div class="faq-image"><img src="../svgs/shanti.svg" style="width: 40% !important;" loading="lazy"></div>
@@ -739,7 +746,7 @@
 					
 					<p>Good question!  Asking where an enterprise receives its funding is key to understanding their priorities and principles.  We generate our funds by providing ecological service and by raising ecological awareness.  Folks around the world join our on-site and online <a href="/trainings">training</a> and our Trainers remit 20% to the the GEA.  In addition our trainers sell our <a href="earthwands.php">EarthWand</a> ecobrick stick and remit 50% back to the GEA.  Finally, through GoBrik.com all the ecobricking that our block chain authenticates is quantified and available for purchase as <a href="https://gobrik.com/offset" target="_blank"> AES plastic offset credits</a>.  Buying Authenticated Ecobrick Sequestered plastic credits is a great way to take responsibility for your plastic generation and energize our work— and through it the global plastic transition movement.</p>
 
-					<div class="faq-link"><h5>Start: <a href="offset.php">Offset your plastic with us</h5></p></div>  
+					<div class="faq-link"><h5>Start: <a href="offset.php">Offset your plastic with us</h5></div>  
 					<div class="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
 				</div>
 			</div>	
