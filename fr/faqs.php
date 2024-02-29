@@ -224,10 +224,9 @@
         
 	
 <div id="content-block">  <!--GENERAL QUESTIONS-->
-	<div id="block-border" class="greyish"> <div id="faq-banner" class="grey"><h3>General Questions</h3></div></div>
+	<div  class="greyish"> <div id="faq-banner" class="grey"><h3>General Questions</h3></div></div>
 
-     <div class="faq">
-         <section id="plastic"></section>
+     <div class="faq" id="plastic">
              <div class="faq-box">
                     <div class="faq-texts">
                         <div class="faq-header"><h4>What is plastic exactly?</h4></div>
@@ -240,8 +239,8 @@
              </div>		
          </div>
 
-			<div class="faq">
-				<section id="concern"></section>
+			<div class="faq" id="concern">
+				
 					<div class="faq-box">
 						   <div class="faq-texts">
 							   <div class="faq-header"><h4>Why should I be concerned about my plastic?</h4></div>
