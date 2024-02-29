@@ -9,18 +9,13 @@
 
 <?php require_once ("../includes/faqs2-inc.php");?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!-- <?php require_once ("translate-please.php");?> -->
 
 <!--TOP PAGE BANNER-->
 
-<!--Page banner-->
 
 		<div id="cloud-box">
-			<div id="clouds"><img src="https://ecobricks.org/webp/faq-top.webp?v1.0" width="300" style="width:100%;"></div>
-			<div id="cloud-banner"><img src="https://ecobricks.org/webp/faq-bottom.webp" width="300" style="width:100%;"><!--</div>
-			<div id="page-header">Frequently Asked Questions</div>
-			<div id="page-header-sub">You've got questions about ecobricks. We've got answers!</div>-->
+			<div id="clouds"><img src="https://ecobricks.org/webp/faq-top.webp?v1.0" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transtion"></div>
+			<div id="cloud-banner"><img src="https://ecobricks.org/webp/faq-bottom.webp" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transtion">
 		</div>
 
 		<section id="top">
@@ -58,7 +53,7 @@
 
 				<div id="general-questions">
 				<hr>
-				<h6>
+				<p>
 					<ul>
 					<li><a href="#plastic">Qu'est-ce que le plastique exactement ?</a></li>
 					<li><a href="#concern">Pourquoi devrais-je m'inquiéter pour mon plastique ?</a></li>
@@ -77,7 +72,7 @@
 					<li><a href="#keen">J'ai hâte de me lancer dans l'écobrique ! Quelle est la meilleure façon de commencer ?</a></li>
 					</ul>
 					<br>
-				</h6></div>
+</p></div>
 			</div>
 		</div>
 
@@ -95,7 +90,7 @@
 				<div id="concerns-questions">
 					<hr>
 
-					<h6>
+					<p>
 
 					<ul>
 						<li><a href="#dangerous-2">How does plastic get to be dangerous and toxic?</a></li>
@@ -109,7 +104,7 @@
 					</ul>
 					<br>
 			
-				</h6></div>
+</p></div>
 			</div>
 		</div>
 	</section>
@@ -125,7 +120,7 @@
 				<button onclick="building()" class="toggle" id="toggle-show2">⬇ Show</button>
 				<div id="building-questions">
 					<hr>
-					<h6>
+					<p>
 			
 				<ul>
 					<li><a href="#few">What can I build with a few ecobricks?</a></li>
@@ -140,7 +135,7 @@
 					<li><a href="#circular3">But isn't building with ecobricks just delaying the problem?  How is this a final solution for plastic?</a></li>
 				</ul>
 				<br><br>
-				</h6>
+</p>
 			</div>
 			</div>
 			
@@ -157,7 +152,7 @@
 			<button onclick="movement()" class="toggle" id="toggle-show3">⬇ Show</id></button>
 			<div id="movement-questions">
 				<hr>
-				<h6>
+				<p>
 				<ul>
 					<li><a href="#movement">How to connect with the ecobrick movement?</a></li>
 					<li><a href="#about-gea">Who are you guys?</a></li>
@@ -168,7 +163,7 @@
 					<li><a href="#trainer-what">What is a "GEA certified Trainer"?</a></li>
 					<li><a href="#trainings">How can I become a certified ecobrick trainer?</a></li>
 					<li><a href="#catalyst">How can companies support ecobricking and plastic transition?</a></li>
-			</ul>
+</p>
 			<br><br>
 				</h6>
 			</div>
@@ -177,8 +172,8 @@
 </section>
 
 		<!--GOBRIK-->
-		<section id="gobrik-q">
-		<div id="block-border" class="greyish">
+
+		<div id="gobrik-q" class="greyish">
 		<div id="faq-content-block" class="blueish">
 
 		
@@ -187,7 +182,7 @@
 			<button onclick="gobrik()" class="toggle" id="toggle-show4">⬇ Show</button>
 			<div id="gobrik-questions">
 				<hr>
-			<h6>
+			<p style="font-size:larger;">
 
 				<ul>
 					<li><a href="#gobrik">What is GoBrik?</a></li>
@@ -196,11 +191,11 @@
 					<li><a href="#why-log">Why log ecobricks? (answer pending)</a></li>
 				</ul>
 				
-			</h6>	<br><br></div>
+		</p>
+			<br><br></div>
 			</div>
 		</div>
 
-		</section> 
 
 		<!--MORE QUESTIONS-->
 		<section id="misc">
