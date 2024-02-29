@@ -168,7 +168,7 @@
 </div>
 
 
-<div class="main-content-faq">
+<div id="main-content-faq">
         
 	
 <div class="content-block">  <!--GENERAL QUESTIONS-->
