@@ -91,6 +91,16 @@
   opacity: 200%;
 }
 
+
+.faq-banner {
+  padding: 20px;
+  border-radius: 12px;
+  margin: 60px -20px 20px;
+  color: #fff !important;
+  opacity: 200%;
+}
+
+
 #top-link-right {
   text-align: right !important;
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
@@ -130,6 +140,13 @@
 }
 
 #faq-content-block {
+  text-align: left;
+  padding: 15px 4% 0;
+  border-radius: 12px;
+  margin-bottom: 0;
+}
+
+.faq-content-block {
   text-align: left;
   padding: 15px 4% 0;
   border-radius: 12px;

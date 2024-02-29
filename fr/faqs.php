@@ -77,7 +77,7 @@
 
 		<!--ECOBRICK CONCERNS-->
 		<div id="concerns" class="greyish">
-			<div class="reddish">
+			<div id="faq-content-block" class="reddish">
 
 				
 				<h4>Ecobrick Concerns</h4>
@@ -223,7 +223,7 @@
         
 	
 <div id="content-block">  <!--GENERAL QUESTIONS-->
-	<div  class="greyish"> <div id="faq-banner" class="grey"><h3>General Questions</h3></div></div>
+	<div  class="greyish"> <div  class="grey faq-banner"><h3>General Questions</h3></div></div>
 
      <div class="faq" id="plastic">
              <div class="faq-box">
