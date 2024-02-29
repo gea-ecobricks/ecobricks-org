@@ -22,8 +22,8 @@
 			
 		<div id="header-content-block">
 			<div id="raised-text">
-					<h1>Questions fréquemment posées</h1>
-			<p>Toutes vos questions sur les écobriques...  et toutes nos réponses.</p>
+					<h1>Frequently Asked Questions</h1>
+			<p>All your ecobrick questions.  All our answers.</p>
 			</div>
 		</div>
 
@@ -44,8 +44,8 @@
 				<div class="grey faq-content-block">
 				
 				
-				<h4>Questions générales</h4>
-				<p>Les bases du plastique et des écobriques.</p>
+				<h4>General Questions</h4>
+				<p>The basics about plastic and ecobricks.</p>
 				
 
 				<button onclick="general()" class="toggle" id="toggle-hide">⬆ Hide</button>
@@ -54,21 +54,21 @@
 				<hr>
 				
 					<ul>
-					<li><a href="#plastic">Qu'est-ce que le plastique exactement ?</a></li>
-					<li><a href="#concern">Pourquoi devrais-je m'inquiéter pour mon plastique ?</a></li>
-					<li><a href="#worry">Mais n'y a-t-il pas des choses plus importantes dont il faut s'inquiéter ?</a></li>
-					<li><a href="#dangerous">En quoi le plastique est-il gênant et dangereux ?</a></li>
-					<li><a href="#what">Qu'est-ce qu'une écobrique exactement ?</a></li>
-					<li><a href="#why">Pourquoi fabriquer des écobriques ?</a></li>
-					<li><a href="#how">Comment fabriquer une écobrique ?</a></li>
-					<li><a href="#build">Que pouvez-vous construire avec des écobriques ?</a></li>
-					<!--<li><a href="#build">Comment démarrer un projet Ecobrick ?</a></li>-->
-					<li><a href="#principles">Qu'est-ce qui différencie les écobriques des autres matériaux en plastique ?</a></li>
-					<li><a href="#dumping">Pourquoi ne pas simplement enfouir ou jeter mon plastique ?</a></li>
-					<li><a href="#burning">Pourquoi ne pas simplement brûler ou envoyer mon plastique à l'incinération ?</a></li>
-					<li><a href="#recycled">Pourquoi ne pas simplement recycler mon plastique ?</a></li>
-					<li><a href="#séquestration">En quoi l'écobrique est-elle différente du recyclage, de la décharge ou de la combustion ?</a></li>
-					<li><a href="#keen">J'ai hâte de me lancer dans l'écobrique ! Quelle est la meilleure façon de commencer ?</a></li>
+					<li><a href="#plastic">What is plastic exactly?</a></li>
+						<li><a href="#concern">Why should I be concerned about my plastic?</a></li>
+						<li><a href="#worry">But isn't there more important stuff to worry about?</a></li>
+						<li><a href="#dangerous">How is plastic troublesome and dangerous?</a></li>
+						<li><a href="#what">So what is an ecobrick exactly?</a></li>
+						<li><a href="#why">Why make ecobricks?</a></li>
+						<li><a href="#how">How to make an ecobrick?</a></li>
+						<li><a href="#build">What can you build with ecobricks?</a></li>
+						<!--<li><a href="#build">How to start an Ecobrick Project?</a></li>-->
+						<li><a href="#principles">What makes ecobricks different from other plastic stuff?</a></li>
+						<li><a href="#dumping">Why not just landfill or dump my plastic?</a></li>
+						<li><a href="#burning">Why not just burn or send my plastic to be incinerated?</a></li>
+						<li><a href="#recycled">Why not just recycle my plastic?</a></li>
+						<li><a href="#sequestration">So how is ecobricking different from recycling, dumping or burning?</a></li>
+						<li><a href="#keen">I am keen to get going with ecobricking! What's the best way to start?</a></li>
 					</ul>
 					
 					<br>

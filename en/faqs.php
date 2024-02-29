@@ -15,7 +15,7 @@ Content Page template: v.1.0.0-->
 		<div id="cloud-box">
 			<div id="clouds"><img src="https://ecobricks.org/webp/faq-top.webp?v1.0" width="100%"></div>
 			<div id="cloud-banner"><img src="https://ecobricks.org/webp/faq-bottom.webp" width="100%"></div>
-		</div>
+		</div> 
 
 		<div id="header-content-block">
 			<div id="raised-text">
