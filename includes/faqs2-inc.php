@@ -105,7 +105,7 @@
   color: #fff;
 }
 
-#top-link {
+.top-link {
   text-align: left !important;
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-size: 1em;
@@ -197,8 +197,9 @@ button:hover {
 
 .faq {
   width: 100%;
-  padding: 20px 0;
+  padding-top: 100px;
 }
+
 @media screen and (max-width: 770px) {
   .faq-box {
       display: flex;
