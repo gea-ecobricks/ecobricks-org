@@ -10,12 +10,22 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://www.ecobricks.org/fr/faqs.php"/>
+	<meta property="og:url"           content="https://www.ecobricks.org/fr/faqs.php">
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="FAQ sur le plastique et les écobriques | Ecobricks.or">
-  	<meta property="og:description"   content="Réponses aux préoccupations, critiques et questions d'ecobrick. Découvrez comment les briques écologiques sont liées au plastique, au recyclage, à l'incinération, à la séquestration, au carbone, à la compensation et à la régénération de l'économie du pétro-capital."/>
-  	<meta property="og:image"         content="https://www.ecobricks.org/pngs/faq-banner2.png"/>
-  	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="686" />
-  	<meta property="og:image:alt"     content="Un point d'interrogation flottant réalisé avec des écobriques"/>
-	  <meta property="og:locale" content="fr_FR" />
+  	<meta property="og:description"   content="Réponses aux préoccupations, critiques et questions d'ecobrick. Découvrez comment les briques écologiques sont liées au plastique, au recyclage, à l'incinération, à la séquestration, au carbone, à la compensation et à la régénération de l'économie du pétro-capital.">
+  	<meta property="og:image"         content="https://www.ecobricks.org/pngs/faq-banner2.png">
+  	<meta property="og:image:width" content="1200" >
+	<meta property="og:image:height" content="686" >
+  	<meta property="og:image:alt"     content="Un point d'interrogation flottant réalisé avec des écobriques">
+	  <meta property="og:locale" content="fr_FR" >
+
+	  <meta property="og:type" content="article" >
+ <meta property="og:site_name" content="Ecobricks.org" >
+ <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" >
+ <meta property="article:modified_time" content="2024-02-29T09:14:13+00:00" >
+ <meta property="og:image:type" content="image/png" >
+ <meta name="author" content="Global Ecobrick Alliance" >
+ <meta name="twitter:card" content="summary" >
+ <meta name="twitter:label1" content="Est. reading time" >
+ <meta name="twitter:data1" content="5 minutes" > 

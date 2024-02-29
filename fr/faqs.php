@@ -36,7 +36,7 @@
 <!-- QUESTIONS CONTENT -->
 
 
-		<a name="top"></a>
+		<section id="top"></section>
 		<div id="main-content-faq">
 
 
@@ -46,7 +46,7 @@
 				<div id="faq-content-block" class="grey">
 				
 				
-				<a name="general"></a>
+				<section id="general"></section>
 				<h4>Questions générales</h4>
 				<p>Les bases du plastique et des écobriques.</p>
 				
@@ -83,7 +83,7 @@
 		<div id="block-border" class="greyish">
 			<div id="faq-content-block" class="reddish">
 
-				<a name="concerns"></a>
+				<section id="concerns"></section>
 				<h4>Ecobrick Concerns</h4>
 				<p>The worries and critiques.</p>
 			
@@ -114,7 +114,7 @@
 
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="greenish">
-			<a name="building-q"></a> 
+			<section id="building-q"></section> 
 			<h4>Building Questions</h4>
 			<p>All about eco<span class="eco-brick"> </span>bricks applications.</p>
 			
@@ -147,7 +147,7 @@
 
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="pinkish">
-			<a name="movement-q"></a><h4>Movement Questions</h4>
+			<section id="movement-q"></section><h4>Movement Questions</h4>
 			<p>About us and the global plastic transition and eco<span class="eco-brick"> </span>bricks movement.</p>
 			
 			<button onclick="movement()" class="toggle" id="toggle-show3">⬇ Show</id></button>
@@ -158,7 +158,7 @@
 					<li><a href="#movement">How to connect with the ecobrick movement?</a></li>
 					<li><a href="#about-gea">Who are you guys?</a></li>
 					<li><a href="#funds">If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</a></li>
-					<li><a href="#mandalas"></a>How does the ecobrick movement spread?  Are people paid to do this?</a></li>
+					<li><a href="#mandalas"></section>How does the ecobrick movement spread?  Are people paid to do this?</a></li>
 					<li><a href="#trainer-what">What is a "GEA certified Trainer"?</a></li>
 					<li><a href="#trainings">How can I become a certified ecobrick trainer?</a></li>
 					<li><a href="#catalyst">How can companies support ecobricking and plastic transition?</a></li>
@@ -175,7 +175,7 @@
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="blueish">
 
-			<a name="gobrik-q"></a> 
+			<section id="gobrik-q"></section> 
 			<h4>GoBrik Questions</h4>
 			<p>All about our web based ecobrick app.</p>
 			<button onclick="gobrik()" class="toggle" id="toggle-show4">⬇ Show</button>
@@ -199,7 +199,7 @@
 
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="orangeish">
-			<a name="misc"></a>
+			<section id="misc"></section>
 			<h4>More Questions</h4>
 			<p>All those other questions we haven't answered yet!</p>
 			<button onclick="more()" class="toggle" id="toggle-show5">⬇ Show</button>
@@ -231,7 +231,7 @@
 	<div id="block-border" class="greyish"> <div id="faq-banner" class="grey"><h3>General Questions</h3></div></div>
 
      <div class="faq">
-         <a name="plastic"></a>
+         <section id="plastic"></section>
              <div class="faq-box">
                     <div class="faq-texts">
                         <div class="faq-header"><h4>What is plastic exactly?</h4></div>
@@ -245,7 +245,7 @@
          </div>
 
 			<div class="faq">
-				<a name="concern"></a>
+				<section id="concern"></section>
 					<div class="faq-box">
 						   <div class="faq-texts">
 							   <div class="faq-header"><h4>Why should I be concerned about my plastic?</h4></div>
@@ -260,7 +260,7 @@
 
 
 			<div class="faq">
-				<a name="worry"></a>
+				<section id="worry"></section>
 					<div class="faq-box">
 						   <div class="faq-texts">
 							   <div class="faq-header"><h4>But aren't there bigger issues to worry about?</h4></div>
@@ -274,7 +274,7 @@
 				</div>
 
 				<div class="faq">
-					<a name="dangerous"></a>
+					<section id="dangerous"></section>
 						<div class="faq-box">
 							   <div class="faq-texts">
 								   <div class="faq-header"><h4>How is plastic troublesome and dangerous?</h4></div>
@@ -290,7 +290,7 @@
             
 
        <div class="faq">
-            <a name="what"></a></p>
+            <section id="what"></section></p>
             <div class="faq-box">
                 <div class="faq-texts">
                     <div class="faq-header"><h4>What is an ecobrick?</h4></div>
@@ -307,7 +307,7 @@
 
 
 		<div class="faq">
-			<a name="why"></a></p>
+			<section id="why"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>Why make ecobricks?</h4></div>
@@ -324,7 +324,7 @@
 		</div>
 
         <div class="faq">
-            <a name="how"></a>
+            <section id="how"></section>
                 <div class="faq-box">
                        <div class="faq-texts">
                            <div class="faq-header"><h4>How to make an Ecobrick?</h4></div>
@@ -339,7 +339,7 @@
                </div>
 
 		<div class="faq">
-		<a name="build"></a>
+		<section id="build"></section>
 		<div class="faq-box">
 			<div class="faq-texts">
 				<div class="faq-header"><h4>What can you build with ecobricks?</h4></div>
@@ -355,7 +355,7 @@
 	</div>
 
 	<div class="faq">
-		<a name="principles"></a>
+		<section id="principles"></section>
 		<div class="faq-box">
 			<div class="faq-texts">
 				<div class="faq-header"><h4>What makes ecobricks and ecobrick applications different from other plastic products?</h4></div>
@@ -373,7 +373,7 @@
 
 
 	<div class="faq">
-		<a name="dumping"></a></p>
+		<section id="dumping"></section></p>
 		<div class="faq-box">
 			<div class="faq-texts">
 				<div class="faq-header"><h4>Why not just landfill or dump my plastic?</h4></div>
@@ -390,7 +390,7 @@
 	</div>
 
 	<div class="faq">
-		<a name="burning"></a></p>
+		<section id="burning"></section></p>
 		<div class="faq-box">
 			<div class="faq-texts">
 				<div class="faq-header"><h4>Why not just burn or send my plastic to be incinerated?</h4></div>
@@ -408,7 +408,7 @@
 
 
 	<div class="faq">
-		<a name="recycled"></a></p>
+		<section id="recycled"></section></p>
 		<div class="faq-box">
 			<div class="faq-texts">
 				<div class="faq-header"><h4>Why not just recycle my plastic?</h4></div>
@@ -425,7 +425,7 @@
 	</div>
 
 	<div class="faq">
-		<p><a name="sequestration"></a></p>
+		<p><section id="sequestration"></section></p>
 		<div class="faq-box">
 			<div class="faq-texts">
 				<div class="faq-header"><h4>So how is ecobricking different from recycling, dumping or burning?</h4></div>
@@ -440,7 +440,7 @@
 	</div>
 			
 	<div class="faq">
-		<p><a name="keen"></a></p>
+		<p><section id="keen"></section></p>
 		<div class="faq-box">
 			<div class="faq-texts">
 				<div class="faq-header"><h4>I am keen to get going with ecobricking!  What's the best way to start?</h4></div>
@@ -468,7 +468,7 @@
 
 		           
 		<div class="faq">
-			<a name="dangerous-2"></a>
+			<section id="dangerous-2"></section>
 				<div class="faq-box">
 					   <div class="faq-texts">
 						   <div class="faq-header"><h4>How does plastic get to be dangerous and toxic?</h4></div>
@@ -483,7 +483,7 @@
 
 
 		<div class="faq">
-			<p><a name="matter"></a></p>
+			<p><section id="matter"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?</h4></div>
@@ -502,7 +502,7 @@
 
 
 		<div class="faq">
-			<p><a name="transition"></a></p>
+			<p><section id="transition"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>Don't ecobricks just encourage people to consume more plastic?</h4></div>
@@ -518,7 +518,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="sequest1"></a></p>
+			<p><section id="sequest1"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>I've heard that ecobricks can leach poisons out into the environment.  Is it true?</h4></div>
@@ -535,7 +535,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="sequest1"></a></p>
+			<p><section id="sequest1"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>When and how are ecobricks bad?</h4></div>
@@ -561,7 +561,7 @@
 		
 
 		<div class="faq">
-			<p><a name="few"></a></p>
+			<p><section id="few"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What can I make with a few ecobricks?</h4></div>
@@ -577,7 +577,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="dozens"></a></p>
+			<p><section id="dozens"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What can I make with dozens of ecobricks?</h4></div>
@@ -593,7 +593,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="hundreds"></a></p>
+			<p><section id="hundreds"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What can I make with hundreds of ecobricks?</h4></div>
@@ -608,7 +608,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="thousands"></a></p>
+			<p><section id="thousands"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What can I make with thousands of ecobricks?</h4></div>
@@ -624,7 +624,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="tens-thousands"></a></p>
+			<p><section id="tens-thousands"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What can I make with tens of thousands of ecobricks?</h4></div>
@@ -639,7 +639,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="circular"></a></p>
+			<p><section id="circular"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What happens when an ecobrick application comes to it's end?</h4></div>
@@ -656,7 +656,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="earth"></a></p>
+			<p><section id="earth"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What exactly is Earth and Ecobrick building?</h4></div>
@@ -672,7 +672,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="earth-methods"></a></p>
+			<p><section id="earth-methods"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How to build with Ecobricks and Earth?</h4></div>
@@ -688,7 +688,7 @@
 	
 
 		<div class="faq">
-			<p><a name="fire"></a></p>
+			<p><section id="fire"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>Are ecobricks a fire hazard since they are made with flammable plastic?</h4></div>
@@ -704,7 +704,7 @@
 
 
 		<div class="faq">
-			<p><a name="circular3"></a></p>
+			<p><section id="circular3"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>But isn't building with ecobricks just delaying the problem? How is this a final solution to plastic?</h4></div>
@@ -728,7 +728,7 @@
 		</div>	
 
 		<div class="faq">
-			<a name="movement"></a>
+			<section id="movement"></section>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How to connect with the ecobrick movement?</h4></div>
@@ -744,7 +744,7 @@
 
 
 		<div class="faq">
-			<a name="about-gea"></a>
+			<section id="about-gea"></section>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>Who are you guys?</h4></div>
@@ -762,7 +762,7 @@
 
 
 		<div class="faq">
-			<a name="funds"></a>
+			<section id="funds"></section>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</h4></div>
@@ -777,7 +777,7 @@
 
 
 		<div class="faq">
-			<a name="mandalas"></a>
+			<section id="mandalas"></section>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How does the ecobrick movement spread?  Are people paid to do this?</h4></div>
@@ -796,7 +796,7 @@
 	
 
 		<div class="faq">
-			<p><a name="trainer-what"></a></p>
+			<p><section id="trainer-what"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What is a "GEA Certified Trainer"?</h4></div>
@@ -813,7 +813,7 @@
 		
 
 		<div class="faq">
-				<p><a name="trainings"></a></p>
+				<p><section id="trainings"></section></p>
 				<div class="faq-box">
 					<div class="faq-texts">
 						<div class="faq-header"><h4>How can I become a GEA certified ecobrick trainer?</h4></div>
@@ -829,7 +829,7 @@
 
 
 		<div class="faq">
-			<p><a name="catalyst"></a></p>
+			<p><section id="catalyst"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How can my company assist the ecobrick and plastic transition movement?</h4></div>
@@ -854,7 +854,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="gobrik"></a></p>	
+			<p><section id="gobrik"></section></p>	
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What is this GoBrik app for ecobricking?</h4></div>
@@ -872,7 +872,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="brikcoins"></a></p>
+			<p><section id="brikcoins"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What are Brikcoins?</h4></div>
@@ -890,7 +890,7 @@
 			</div>
 
 		<div class="faq">
-			<p><a name="start"></a></p>
+			<p><section id="start"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How to join GoBrik?</h4></div>
@@ -917,7 +917,7 @@
 
 
 		<div class="faq">
-			<p><a name="dropoff"></a></p>
+			<p><section id="dropoff"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How can I drop off my completed ecobricks to a community project?</h4></div>
@@ -937,7 +937,7 @@
 		</div>
 	
 		<div class="faq">
-			<p><a name="hubs"></a></p>
+			<p><section id="hubs"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>How can I get ecobricks for my project?</h4></div>
@@ -956,7 +956,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="ocean"></a></p>
+			<p><section id="ocean"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What about plastic I pick up from the beach— can it be ecobricked?</h4></div>
@@ -973,7 +973,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="cigbrick"></a></p>
+			<p><section id="cigbrick"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What about cigarette filters— can they be ecobricked?</h4></div>
@@ -990,7 +990,7 @@
 		</div>	
 
 		<div class="faq">
-			<p><a name="media"></a></p>
+			<p><section id="media"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>I am with the media. How do I get accurate information on ecobricks to write a story or do a report?</h4></div>
@@ -1006,7 +1006,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="eco-bricks"></a></p>
+			<p><section id="eco-bricks"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 				
@@ -1023,7 +1023,7 @@
 		</div>
 
 		<div class="faq">
-			<p><a name="arcio"></a></p>
+			<p><section id="arcio"></section></p>
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>What's that green circle on the bottom of your webpage?  What is Arc.io doing?</h4></div>
@@ -1050,15 +1050,15 @@
 			<h2>Need to know more?</h2>
 			<h5>In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:  </h5>
 		
-				<h6><ul>
+				<p><ul>
 					<li><b>Ecobricks & Brikcoin Whitepaper</b> <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic</a></li>
 					<li><b>Journalists:</b>  Be sure to check out <a href="media.php">our media kit!</a></li>
 						<!--<li><b>Academics:</b>  Be sure to check out <a href="media">our reports and white papers!</a></li>--> 
-						<li><b>Learn from a trainer</b>  Check out the current <a href="https://gobrik.com/#courses">Ecobrick Starter Workshop</a> course listing by certified GEA Trainers.</li>
+						<li><b>Learn from a trainer</b>  Check out the current <a href="https://gobrik.com/courses">Ecobrick Starter Workshop</a> course listing by certified GEA Trainers.</li>
 						<li><b>Training others to make ecobricks?</b> Be sure to check out <a href="/trainings">trainer of trainer program</a></li>
-					</ul></h6>
+					</ul></p>
 		
-				<h5>Need to chat about your idea or question? Join our Mattermost <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">ecobricker community</a> and bring it up there!</h5><br><br>
+				
 		</div>
 	</div>
 </div>
