@@ -149,7 +149,7 @@
 
 		<!--MOVEMENT Q-->
 <section id="movement-q">
-		<div id="block-border" class="greyish">
+	<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="pinkish">
 			<h4>Movement Questions</h4>
 			<p>About us and the global plastic transition and eco<span class="eco-brick"> </span>bricks movement.</p>
@@ -162,7 +162,9 @@
 					<li><a href="#movement">How to connect with the ecobrick movement?</a></li>
 					<li><a href="#about-gea">Who are you guys?</a></li>
 					<li><a href="#funds">If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</a></li>
-					<li><a href="#mandalas"></section>How does the ecobrick movement spread?  Are people paid to do this?</a></li>
+
+					<li><a href="#mandalas">How does the ecobrick movement spread?  Are people paid to do this?</a></li>
+
 					<li><a href="#trainer-what">What is a "GEA certified Trainer"?</a></li>
 					<li><a href="#trainings">How can I become a certified ecobrick trainer?</a></li>
 					<li><a href="#catalyst">How can companies support ecobricking and plastic transition?</a></li>
@@ -170,10 +172,9 @@
 			<br><br>
 				</h6>
 			</div>
-			</div>
-			
-		</div>
-		</section>
+		</div>	
+	</div>
+</section>
 
 		<!--GOBRIK-->
 		<section id="gobrik-q">
@@ -211,7 +212,7 @@
 				<button onclick="more()" class="toggle" id="toggle-show5">⬇ Show</button>
 				<div id="more-questions">
 					<hr>
-					<h6>
+					<p>
 					<ul>
 						<li><a href="#ocean">What about plastic I pick up from the beach— can it be ecobricked?</a></li>
 						<li><a href="#cigbrick">What about cigarette filters— can they be ecobricked?</a></li>
@@ -222,7 +223,7 @@
 						<li><a href="#arcio">What's that green circle on the bottom of your webpage?  What is Arc.io doing?</a></li>
 
 					</ul>
-					</h6>
+</p>
 					<br><br>
 				</div>	
 			</div>
