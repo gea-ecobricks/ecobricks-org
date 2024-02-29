@@ -212,6 +212,12 @@ button:hover {
   margin-bottom: 50px;
 }
 
+.content-block {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .faq {
   width: 100%;
   padding-top: 100px;

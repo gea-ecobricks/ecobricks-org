@@ -218,10 +218,10 @@
 
 </div>
 
-<div id="main-content-faq">
+<div class="main-content-faq">
         
 	
-<div id="content-block">  <!--GENERAL QUESTIONS-->
+<div class="content-block">  <!--GENERAL QUESTIONS-->
 	<div  class="greyish"> <div  class="grey faq-banner"><h3>General Questions</h3></div></div>
 
      <div class="faq" id="plastic">
@@ -357,7 +357,7 @@
 					<div class="top-link">Back to <a href="#general">General Questions</a></div>
 				</div>                    
 			</div>
-			<div class="faq-image"><img src="../webp/balancing-green.webp" width="80%" alt="Eco bricks are different from other plastic stuff in several ways." loading="lazy"></div>
+			<div class="faq-image"><img src="../webp/balancing-green.webp" width="350" style="width:80%;" alt="Eco bricks are different from other plastic stuff in several ways." loading="lazy"></div>
 		</div>
 		
 	</div>
