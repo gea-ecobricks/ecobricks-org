@@ -41,7 +41,7 @@
 		<!--GENERAL QUESTION-->
 		
 			<div id="general" class="greyish">
-				<div id="faq-content-block" class="grey">
+				<div class="grey faq-content-block">
 				
 				
 				<h4>Questions générales</h4>
@@ -1003,7 +1003,7 @@
 	<br><br><br>
 
 	<div id="block-border" class="greyish">
-		<di class="grey faq-content-block">
+		<div class="grey faq-content-block">
 			<h2>Need to know more?</h2>
 			<h5>In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:  </h5>
 		
