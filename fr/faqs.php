@@ -52,7 +52,7 @@
 
 				<div id="general-questions">
 				<hr>
-				<p>
+				
 					<ul>
 					<li><a href="#plastic">Qu'est-ce que le plastique exactement ?</a></li>
 					<li><a href="#concern">Pourquoi devrais-je m'inquiéter pour mon plastique ?</a></li>
@@ -70,7 +70,7 @@
 					<li><a href="#séquestration">En quoi l'écobrique est-elle différente du recyclage, de la décharge ou de la combustion ?</a></li>
 					<li><a href="#keen">J'ai hâte de me lancer dans l'écobrique ! Quelle est la meilleure façon de commencer ?</a></li>
 					</ul>
-					</p>
+					
 					<br>
 </div>
 			</div>
@@ -88,8 +88,6 @@
 
 				<div id="concerns-questions">
 					<hr>
-
-				
 
 					<ul>
 						<li><a href="#dangerous-2">How does plastic get to be dangerous and toxic?</a></li>
@@ -109,7 +107,7 @@
 
 		<!--BUILD QUESTIONS-->
 		<div id="building-q" class="greyish">
-		<div  class="greenish ">
+		<div class="greenish faq-content-block">
 			
 			<h4>Building Questions</h4>
 			<p>All about eco<span class="eco-brick"> </span>bricks applications.</p>
