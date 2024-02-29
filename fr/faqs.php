@@ -545,7 +545,7 @@
 	
 
 <div class="content-block">
-	<div id="building-questions" class="greyish">
+	<div id="building-questions-full" class="greyish">
 		 <div class="greenish faq-banner"><h3>Building Questions</h3></div>
 	</div>
 		
@@ -732,7 +732,7 @@
 					<div class="faq-link"><h5>Learn more: <a href="about.php">Learn more about the GEA</a></h5></div>  
 					<div class="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
 				</div>
-				<div class="faq-image"><img src="../svgs/shanti.svg" style="width: 40% !important;" loading="lazy"></div>
+				<div class="faq-image"><img src="../svgs/shanti.svg" style="width: 40% !important;" loading="lazy" alt="Shanti one of our GEA Ecobrick Trainers"></div>
 			</div>
 		</div>
 
@@ -746,7 +746,7 @@
 					
 					<p>Good question!  Asking where an enterprise receives its funding is key to understanding their priorities and principles.  We generate our funds by providing ecological service and by raising ecological awareness.  Folks around the world join our on-site and online <a href="/trainings">training</a> and our Trainers remit 20% to the the GEA.  In addition our trainers sell our <a href="earthwands.php">EarthWand</a> ecobrick stick and remit 50% back to the GEA.  Finally, through GoBrik.com all the ecobricking that our block chain authenticates is quantified and available for purchase as <a href="https://gobrik.com/offset" target="_blank"> AES plastic offset credits</a>.  Buying Authenticated Ecobrick Sequestered plastic credits is a great way to take responsibility for your plastic generation and energize our work— and through it the global plastic transition movement.</p>
 
-					<div class="faq-link"><h5>Start: <a href="offset.php">Offset your plastic with us</h5></div>  
+					<div class="faq-link"><h5>Start: <a href="offset.php">Offset your plastic with us</a></h5></div>  
 					<div class="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
 				</div>
 			</div>	
