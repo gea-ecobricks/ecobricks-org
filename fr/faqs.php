@@ -882,7 +882,7 @@
 
 
 <div class="content-block">
-    	<div id="block-border" class="greyish">
+    	<div id="block-border1" class="greyish">
 			<div class="orangeish faq-banner"><h3>More Questions</h3></div>
 		</div>
 
