@@ -77,8 +77,7 @@
 		</div>
 
 		<!--ECOBRICK CONCERNS-->
-<section id="concerns">
-		<div id="block-border" class="greyish">
+		<div id="concerns" class="greyish">
 			<div id="faq-content-block" class="reddish">
 
 				
@@ -107,11 +106,9 @@
 </p></div>
 			</div>
 		</div>
-	</section>
 
 		<!--BUILD QUESTIONS-->
-<section id="building-q">
-		<div id="block-border" class="greyish">
+		<div id="building-q" class="greyish">
 		<div id="faq-content-block" class="greenish">
 			
 			<h4>Building Questions</h4>
@@ -140,11 +137,9 @@
 			</div>
 			
 		</div>
-	</section> 
 
 		<!--MOVEMENT Q-->
-<section id="movement-q">
-	<div id="block-border" class="greyish">
+	<div id="movement-q" class="greyish">
 		<div id="faq-content-block" class="pinkish">
 			<h4>Movement Questions</h4>
 			<p>About us and the global plastic transition and eco<span class="eco-brick"> </span>bricks movement.</p>
@@ -169,7 +164,6 @@
 			</div>
 		</div>	
 	</div>
-</section>
 
 		<!--GOBRIK-->
 
@@ -198,8 +192,7 @@
 
 
 		<!--MORE QUESTIONS-->
-		<section id="misc">
-		<div id="block-border" class="greyish">
+		<div id="misc" class="greyish">
 			<div id="faq-content-block" class="orangeish">
 			
 				<h4>More Questions</h4>
@@ -223,7 +216,6 @@
 				</div>	
 			</div>
 		</div>
-		</section>
 		
 
 </div>
