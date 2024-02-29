@@ -1,7 +1,7 @@
 const es_Page_Translations = {
-    "001-our-vision-alt": "Nuestra visión de un nuevo mundo verde que es posible a través de la transición plástica",
-    "002-our-vision-alt": "Nuestra visión de un nuevo mundo verde que es posible a través de la transición plástica",
-    "003-frequently-asked-questions": "Preguntas Frecuentes",
+    "001-our-vision-alt": '<img src="https://ecobricks.org/webp/faq-top.webp?v1.0" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transition">',
+    "002-our-vision-alt": '<img src="https://ecobricks.org/webp/faq-bottom.webp" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transition">',
+       "003-frequently-asked-questions": "Preguntas Frecuentes",
     "004-all-your-ecobrick-questions": "Todas tus preguntas sobre ecoladrillos. Todas nuestras respuestas.",
     "005-general-questions": "Preguntas Generales",
     "006-the-basics-about-plastic": "Lo básico sobre el plástico y los ecoladrillos.",

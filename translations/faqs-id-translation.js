@@ -1,6 +1,6 @@
 const id_Page_Translations = {
-    "001-our-vision-alt": "Visi kami tentang dunia baru yang hijau yang mungkin melalui transisi plastik",
-    "002-our-vision-alt": "Visi kami tentang dunia baru yang hijau yang mungkin melalui transisi plastik",
+    "001-our-vision-alt": '<img src="https://ecobricks.org/webp/faq-top.webp?v1.0" width="300" style="width:100%;" alt="Visi kami tentang dunia baru yang hijau yang mungkin melalui transisi plastik">',
+    "002-our-vision-alt":'<img src="https://ecobricks.org/webp/faq-bottom.webp" width="300" style="width:100%;" alt="Visi kami tentang dunia baru yang hijau yang mungkin melalui transisi plastik">',
     "003-frequently-asked-questions": "Pertanyaan yang Sering Diajukan",
     "004-all-your-ecobrick-questions": "Semua pertanyaan ecobrick Anda. Semua jawaban kami.",
     "005-general-questions": "Pertanyaan Umum",

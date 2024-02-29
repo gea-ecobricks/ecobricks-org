@@ -5,8 +5,8 @@ const en_Page_Translations =
 
 
 {
-    "001-our-vision-alt": "Our vision of a green new world that is possible through plastic transition",
-    "002-our-vision-alt": "Our vision of a green new world that is possible through plastic transition",
+    "001-our-vision-alt": '<img src="https://ecobricks.org/webp/faq-top.webp?v1.0" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transition">',
+    "002-our-vision-alt": '<img src="https://ecobricks.org/webp/faq-bottom.webp" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transition">',
     "003-frequently-asked-questions": "Frequently Asked Questions",
     "004-all-your-ecobrick-questions": "All your ecobrick questions.  All our answers.",
     "005-general-questions": "General Questions",
