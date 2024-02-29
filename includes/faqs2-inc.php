@@ -14,23 +14,23 @@
 
 <STYLE>
 
-#main-content-faq {
+.main-content-faq {
   margin: auto;
   box-sizing: border-box;
 }
 @media screen and (max-width: 700px) {
-  #main-content-faq {
+  .main-content-faq {
       width: 90%;
 	  margin-top: 0px;
   }
 }
 @media screen and (min-width: 700px) and (max-width: 1024px) {
-  #main-content-faq {
+  .main-content-faq {
       width: 85%;
   }
 }
 @media screen and (min-width: 1024px) {
-  #main-content-faq {
+  .main-content-faq {
       width: 77%;
   }
 }

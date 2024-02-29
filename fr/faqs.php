@@ -35,7 +35,7 @@
 
 
 		
-		<div id="main-content-faq">
+		<div class="main-content-faq">
 
 
 		<!--GENERAL QUESTION-->
@@ -115,7 +115,6 @@
 				<button onclick="building()" class="toggle" id="toggle-show2">⬇ Show</button>
 				<div id="building-questions">
 					<hr>
-					<p>
 			
 				<ul>
 					<li><a href="#few">What can I build with a few ecobricks?</a></li>
@@ -130,7 +129,7 @@
 					<li><a href="#circular3">But isn't building with ecobricks just delaying the problem?  How is this a final solution for plastic?</a></li>
 				</ul>
 				<br><br>
-</p>
+
 			</div>
 			</div>
 			
@@ -142,10 +141,10 @@
 			<h4>Movement Questions</h4>
 			<p>About us and the global plastic transition and eco<span class="eco-brick"> </span>bricks movement.</p>
 			
-			<button onclick="movement()" class="toggle" id="toggle-show3">⬇ Show</id></button>
+			<button onclick="movement()" class="toggle" id="toggle-show3">⬇ Show</button>
 			<div id="movement-questions">
 				<hr>
-				<p>
+				
 				<ul>
 					<li><a href="#movement">How to connect with the ecobrick movement?</a></li>
 					<li><a href="#about-gea">Who are you guys?</a></li>
@@ -156,9 +155,9 @@
 					<li><a href="#trainer-what">What is a "GEA certified Trainer"?</a></li>
 					<li><a href="#trainings">How can I become a certified ecobrick trainer?</a></li>
 					<li><a href="#catalyst">How can companies support ecobricking and plastic transition?</a></li>
-</p>
+				</ul>
+
 			<br><br>
-				</h6>
 			</div>
 		</div>	
 	</div>
@@ -174,7 +173,7 @@
 			<button onclick="gobrik()" class="toggle" id="toggle-show4">⬇ Show</button>
 			<div id="gobrik-questions">
 				<hr>
-			<p style="font-size:larger;">
+
 
 				<ul>
 					<li><a href="#gobrik">What is GoBrik?</a></li>
@@ -183,8 +182,9 @@
 					<li><a href="#why-log">Why log ecobricks? (answer pending)</a></li>
 				</ul>
 				
-		</p>
-			<br><br></div>
+	
+			<br><br>
+			</div>
 			</div>
 		</div>
 
@@ -198,7 +198,7 @@
 				<button onclick="more()" class="toggle" id="toggle-show5">⬇ Show</button>
 				<div id="more-questions">
 					<hr>
-					<p>
+					
 					<ul>
 						<li><a href="#ocean">What about plastic I pick up from the beach— can it be ecobricked?</a></li>
 						<li><a href="#cigbrick">What about cigarette filters— can they be ecobricked?</a></li>
@@ -209,7 +209,7 @@
 						<li><a href="#arcio">What's that green circle on the bottom of your webpage?  What is Arc.io doing?</a></li>
 
 					</ul>
-</p>
+
 					<br><br>
 				</div>	
 			</div>
@@ -218,7 +218,7 @@
 
 </div>
 
-<div id="main-content-faq">
+<div class="main-content-faq">
         
 	
 <div id="content-block">  <!--GENERAL QUESTIONS-->
