@@ -3,221 +3,170 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.85';?>
-<?php $page='build';?>
+<?php $version='1.86';?>
+<?php $page='faqs';?>
 
 
 <?php require_once ("../includes/faqs2-inc.php");?>
 
 
 <!--TOP PAGE BANNER-->
-
-
-		<div id="cloud-box">
-			<div id="clouds"><img src="https://ecobricks.org/webp/faq-top.webp?v1.0" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transtion"></div>
-			<div id="cloud-banner"><img src="https://ecobricks.org/webp/faq-bottom.webp" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transtion">
-		</div>
-
-		<section id="top">
-			
-		<div id="header-content-block">
-			<div id="raised-text">
-					<h1>Frequently Asked Questions</h1>
-			<p>All your ecobrick questions.  All our answers.</p>
-			</div>
-		</div>
-
-		</section>
-
-		<div id="content-sect1">
-
-<!-- QUESTIONS CONTENT -->
-
-
-		
-		<div class="main-content-faq">
-
-
-		<!--GENERAL QUESTION-->
-		
-			<div id="general" class="greyish">
-				<div class="grey faq-content-block">
-				
-				
-				<h4>General Questions</h4>
-				<p>The basics about plastic and ecobricks.</p>
-				
-
-				<button onclick="general()" class="toggle" id="toggle-hide">⬆ Hide</button>
-
-				<div id="general-questions">
-				<hr>
-				
-					<ul>
-					<li><a href="#plastic">What is plastic exactly?</a></li>
-						<li><a href="#concern">Why should I be concerned about my plastic?</a></li>
-						<li><a href="#worry">But isn't there more important stuff to worry about?</a></li>
-						<li><a href="#dangerous">How is plastic troublesome and dangerous?</a></li>
-						<li><a href="#what">So what is an ecobrick exactly?</a></li>
-						<li><a href="#why">Why make ecobricks?</a></li>
-						<li><a href="#how">How to make an ecobrick?</a></li>
-						<li><a href="#build">What can you build with ecobricks?</a></li>
-						<!--<li><a href="#build">How to start an Ecobrick Project?</a></li>-->
-						<li><a href="#principles">What makes ecobricks different from other plastic stuff?</a></li>
-						<li><a href="#dumping">Why not just landfill or dump my plastic?</a></li>
-						<li><a href="#burning">Why not just burn or send my plastic to be incinerated?</a></li>
-						<li><a href="#recycled">Why not just recycle my plastic?</a></li>
-						<li><a href="#sequestration">So how is ecobricking different from recycling, dumping or burning?</a></li>
-						<li><a href="#keen">I am keen to get going with ecobricking! What's the best way to start?</a></li>
-					</ul>
-					
-					<br>
+<div id="cloud-box">
+    <div id="clouds" data-lang-id="001-our-vision-alt"><img src="https://ecobricks.org/webp/faq-top.webp?v1.0" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transition"></div>
+    <div id="cloud-banner" data-lang-id="002-our-vision-alt"><img src="https://ecobricks.org/webp/faq-bottom.webp" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transition"></div>
 </div>
-			</div>
-		</div>
 
-		<!--ECOBRICK CONCERNS-->
-		<div id="concerns" class="greyish">
-			<div  class="reddish faq-content-block">
+<section id="top">
+    <div id="header-content-block">
+        <div id="raised-text">
+            <h1 data-lang-id="003-frequently-asked-questions">Frequently Asked Questions</h1>
+            <p data-lang-id="004-all-your-ecobrick-questions">All your ecobrick questions.  All our answers.</p>
+        </div>
+    </div>
+</section>
 
-				
-				<h4>Ecobrick Concerns</h4>
-				<p>The worries and critiques.</p>
-			
-				<button onclick="concerns()" class="toggle" id="toggle-show">⬇ Show</button>
-
-				<div id="concerns-questions">
-					<hr>
-
-					<ul>
-						<li><a href="#dangerous-2">How does plastic get to be dangerous and toxic?</a></li>
-						<li><a href="#matter">How can ecobricks be a final solution for plastic? Won't the plastic escape one day no matter what we do?</a></li>
-						<li><a href="#transition">Don't ecobricks just encourage people to consume more plastic?</a></li>
-						<li><a href="#sequest1">I've heared that ecobricks can leach poisons out into the environment.  Is it true?</a></li>
-						<li><a href="#baddies">When and how are ecobricks bad?</a></li>
-						<li><a href="#circular1">How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?</a></li>
-						<li><a href="#fire">What about Ecobricks and fire— isn't it dangerous? </a></li>
-						<li><a href="#circular3">But isn't building with ecobricks just delaying the problem?  How is this a final solution for plastic?</a></li>
-						
-					</ul>
-					<br>
-			
+<div id="content-sect1">
+    <!-- QUESTIONS CONTENT -->
+    <div class="main-content-faq">
+        <!--GENERAL QUESTION-->
+        <div id="general" class="greyish">
+            <div class="grey faq-content-block">
+                <h4 data-lang-id="005-general-questions">General Questions</h4>
+                <p data-lang-id="006-the-basics-about-plastic">The basics about plastic and ecobricks.</p>
+                <button onclick="general()" class="toggle" id="toggle-hide">⬆ Hide</button>
+                <div id="general-questions">
+                    <hr>
+                    <ul>
+                        <li><a href="#plastic" data-lang-id="007-what-is-plastic">What is plastic exactly?</a></li>
+                        <li><a href="#concern" data-lang-id="008-why-concerned-about-plastic">Why should I be concerned about my plastic?</a></li>
+                        <li><a href="#worry" data-lang-id="009-more-important-stuff">But isn't there more important stuff to worry about?</a></li>
+                        <li><a href="#dangerous" data-lang-id="010-how-plastic-troublesome">How is plastic troublesome and dangerous?</a></li>
+                        <li><a href="#what" data-lang-id="011-what-is-ecobrick">So what is an ecobrick exactly?</a></li>
+                        <li><a href="#why" data-lang-id="012-why-make-ecobricks">Why make ecobricks?</a></li>
+                        <li><a href="#how" data-lang-id="013-how-to-make-ecobrick">How to make an ecobrick?</a></li>
+                        <li><a href="#build" data-lang-id="014-what-build-with-ecobricks">What can you build with ecobricks?</a></li>
+                        <li><a href="#principles" data-lang-id="015-what-makes-different">What makes ecobricks different from other plastic stuff?</a></li>
+                        <li><a href="#dumping" data-lang-id="016-why-not-landfill">Why not just landfill or dump my plastic?</a></li>
+                        <li><a href="#burning" data-lang-id="017-why-not-burn">Why not just burn or send my plastic to be incinerated?</a></li>
+                        <li><a href="#recycled" data-lang-id="018-why-not-recycle">Why not just recycle my plastic?</a></li>
+                        <li><a href="#sequestration" data-lang-id="019-how-ecobricking-different">So how is ecobricking different from recycling, dumping, or burning?</a></li>
+                        <li><a href="#keen" data-lang-id="020-keen-to-get-going">I am keen to get going with ecobricking! What's the best way to start?</a></li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+        </div>
+<!--ECOBRICK CONCERNS-->
+<div id="concerns" class="greyish">
+    <div class="reddish faq-content-block">
+        <h4 data-lang-id="021-ecobrick-concerns">Ecobrick Concerns</h4>
+        <p data-lang-id="022-the-worries-and-critiques">The worries and critiques.</p>
+        <button onclick="concerns()" class="toggle" id="toggle-show">⬇ Show</button>
+        <div id="concerns-questions">
+            <hr>
+            <ul>
+                <li><a href="#dangerous-2" data-lang-id="023-how-plastic-dangerous">How does plastic get to be dangerous and toxic?</a></li>
+                <li><a href="#matter" data-lang-id="024-ecobricks-final-solution">How can ecobricks be a final solution for plastic? Won't the plastic escape one day no matter what we do?</a></li>
+                <li><a href="#transition" data-lang-id="025-ecobricks-encourage-consume">Don't ecobricks just encourage people to consume more plastic?</a></li>
+                <li><a href="#sequest1" data-lang-id="026-ecobricks-leach-poisons">I've heard that ecobricks can leach poisons out into the environment. Is it true?</a></li>
+                <li><a href="#baddies" data-lang-id="027-when-ecobricks-bad">When and how are ecobricks bad?</a></li>
+                <li><a href="#circular1" data-lang-id="028-ecobricks-final-solution-repeat">How can ecobricks be a final solution for plastic? Won't the plastic escape one day no matter what we do?</a></li>
+                <li><a href="#fire" data-lang-id="029-ecobricks-and-fire">What about Ecobricks and fire— isn't it dangerous?</a></li>
+                <li><a href="#circular3" data-lang-id="030-building-delaying-problem">But isn't building with ecobricks just delaying the problem? How is this a final solution for plastic?</a></li>
+            </ul>
+            <br>
+        </div>
+    </div>
 </div>
-			</div>
-		</div>
 
-		<!--BUILD QUESTIONS-->
-		<div id="building-q" class="greyish">
-		<div class="greenish faq-content-block">
-			
-			<h4>Building Questions</h4>
-			<p>All about eco<span class="eco-brick"> </span>bricks applications.</p>
-			
-				<button onclick="building()" class="toggle" id="toggle-show2">⬇ Show</button>
-				<div id="building-questions">
-					<hr>
-			
-				<ul>
-					<li><a href="#few">What can I build with a few ecobricks?</a></li>
-					<li><a href="#dozens">What can I build with a dozen ecobricks?</a></li>
-					<li><a href="#hundreds">What can I build with hundreds of ecobricks?</a></li>
-					<li><a href="#thousands">What can I build with thousands of ecobricks?</a></li>
-					<li><a href="#tens-thousands">What can I build with tens of thousands of ecobricks?</a></li>
-					<li><a href="#circular">What happens when a module comes to it's end?</a></li>
-					<li><a href="#earth">What exactly is Earth and Ecobrick building?</a></li>
-					<li><a href="#earth-methods">How to build with Ecobricks and Earth?</a></li>
-					<li><a href="#fire">What about Ecobricks and fire— isn't it dangerous? </a></li>
-					<li><a href="#circular3">But isn't building with ecobricks just delaying the problem?  How is this a final solution for plastic?</a></li>
-				</ul>
-				<br><br>
-
-			</div>
-			</div>
-			
-		</div>
-
-		<!--MOVEMENT Q-->
-	<div id="movement-q" class="greyish">
-		<div  class="pinkish faq-content-block">
-			<h4>Movement Questions</h4>
-			<p>About us and the global plastic transition and eco<span class="eco-brick"> </span>bricks movement.</p>
-			
-			<button onclick="movement()" class="toggle" id="toggle-show3">⬇ Show</button>
-			<div id="movement-questions">
-				<hr>
-				
-				<ul>
-					<li><a href="#movement">How to connect with the ecobrick movement?</a></li>
-					<li><a href="#about-gea">Who are you guys?</a></li>
-					<li><a href="#funds">If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</a></li>
-
-					<li><a href="#mandalas">How does the ecobrick movement spread?  Are people paid to do this?</a></li>
-
-					<li><a href="#trainer-what">What is a "GEA certified Trainer"?</a></li>
-					<li><a href="#trainings">How can I become a certified ecobrick trainer?</a></li>
-					<li><a href="#catalyst">How can companies support ecobricking and plastic transition?</a></li>
-				</ul>
-
-			<br><br>
-			</div>
-		</div>	
-	</div>
-
-		<!--GOBRIK-->
-
-		<div id="gobrik-q" class="greyish">
-		<div  class="blueish faq-content-block">
-
-		
-			<h4>GoBrik Questions</h4>
-			<p>All about our web based ecobrick app.</p>
-			<button onclick="gobrik()" class="toggle" id="toggle-show4">⬇ Show</button>
-			<div id="gobrik-questions">
-				<hr>
-
-
-				<ul>
-					<li><a href="#gobrik">What is GoBrik?</a></li>
-					<li><a href="#brikcoins">What are Brikcoins?</a></li>
-					<li><a href="#start">How to sign up for an account on GoBrik?</a></li>
-					<li><a href="#why-log">Why log ecobricks? (answer pending)</a></li>
-				</ul>
-				
-	
-			<br><br>
-			</div>
-			</div>
-		</div>
-
-
-		<!--MORE QUESTIONS-->
-		<div id="misc" class="greyish">
-			<div class="orangeish faq-content-block">
-			
-				<h4>More Questions</h4>
-				<p>All those other questions we haven't answered yet!</p>
-				<button onclick="more()" class="toggle" id="toggle-show5">⬇ Show</button>
-				<div id="more-questions">
-					<hr>
-					
-					<ul>
-						<li><a href="#ocean">What about plastic I pick up from the beach— can it be ecobricked?</a></li>
-						<li><a href="#cigbrick">What about cigarette filters— can they be ecobricked?</a></li>
-						<li><a href="#dropoff">How can I drop off my completed ecobricks?</a></li>
-						<li><a href="#hubs">How can I get ecobricks for my project?</a></li>
-						<li><a href="#media">I am with the media.  How do I do a story on ecobricks that avoids the common misconceptions?</a></li>
-						<li><a href="#eco-bricks">How do you spell it?  Eco bricks?  Eco-bricks? Ecobricks?</a></li>
-						<li><a href="#arcio">What's that green circle on the bottom of your webpage?  What is Arc.io doing?</a></li>
-
-					</ul>
-
-					<br><br>
-				</div>	
-			</div>
-		</div>
-		
-
+<!--BUILD QUESTIONS-->
+<div id="building-q" class="greyish">
+    <div class="greenish faq-content-block">
+        <h4 data-lang-id="031-building-questions">Building Questions</h4>
+        <p data-lang-id="032-about-ecobricks-applications">All about eco<span class="eco-brick"> </span>bricks applications.</p>
+        <button onclick="building()" class="toggle" id="toggle-show2">⬇ Show</button>
+        <div id="building-questions">
+            <hr>
+            <ul>
+                <li><a href="#few" data-lang-id="033-build-with-few">What can I build with a few ecobricks?</a></li>
+                <li><a href="#dozens" data-lang-id="034-build-with-dozen">What can I build with a dozen ecobricks?</a></li>
+                <li><a href="#hundreds" data-lang-id="035-build-with-hundreds">What can I build with hundreds of ecobricks?</a></li>
+                <li><a href="#thousands" data-lang-id="036-build-with-thousands">What can I build with thousands of ecobricks?</a></li>
+                <li><a href="#tens-thousands" data-lang-id="037-build-with-tens-thousands">What can I build with tens of thousands of ecobricks?</a></li>
+                <li><a href="#circular" data-lang-id="038-module-comes-end">What happens when a module comes to its end?</a></li>
+                <li><a href="#earth" data-lang-id="039-what-is-earth-ecobrick-building">What exactly is Earth and Ecobrick building?</a></li>
+                <li><a href="#earth-methods" data-lang-id="040-how-to-build-with-earth">How to build with Ecobricks and Earth?</a></li>
+                <li><a href="#fire" data-lang-id="041-ecobricks-and-fire-repeat">What about Ecobricks and fire— isn't it dangerous?</a></li>
+                <li><a href="#circular3" data-lang-id="042-building-delaying-problem-repeat">But isn't building with ecobricks just delaying the problem? How is this a final solution for plastic?</a></li>
+            </ul>
+            <br><br>
+        </div>
+    </div>
 </div>
+
+<!--MOVEMENT Q-->
+<div id="movement-q" class="greyish">
+    <div class="pinkish faq-content-block">
+        <h4 data-lang-id="043-movement-questions">Movement Questions</h4>
+        <p data-lang-id="044-about-us-global-transition">About us and the global plastic transition and ecobricks movement.</p>
+        <button onclick="movement()" class="toggle" id="toggle-show3">⬇ Show</button>
+        <div id="movement-questions">
+            <hr>
+            <ul>
+                <li><a href="#movement" data-lang-id="045-how-to-connect">How to connect with the ecobrick movement?</a></li>
+                <li><a href="#about-gea" data-lang-id="046-who-are-you-guys">Who are you guys?</a></li>
+                <li><a href="#funds" data-lang-id="047-funding-methods">If you don't receive sponsorship, donations, charity, or grants how do you fund this amazing site, app and global team?</a></li>
+                <li><a href="#mandalas" data-lang-id="048-ecobrick-movement-spread">How does the ecobrick movement spread? Are people paid to do this?</a></li>
+                <li><a href="#trainer-what" data-lang-id="049-gea-certified-trainer">What is a "GEA certified Trainer"?</a></li>
+                <li><a href="#trainings" data-lang-id="050-become-certified-trainer">How can I become a certified ecobrick trainer?</a></li>
+                <li><a href="#catalyst" data-lang-id="051-companies-support">How can companies support ecobricking and plastic transition?</a></li>
+            </ul>
+            <br><br>
+        </div>
+    </div>  
+</div>
+
+<!--GOBRIK-->
+<div id="gobrik-q" class="greyish">
+    <div class="blueish faq-content-block">
+        <h4 data-lang-id="052-gobrik-questions">GoBrik Questions</h4>
+        <p data-lang-id="053-about-gobrik-app">All about our web-based ecobrick app.</p>
+        <button onclick="gobrik()" class="toggle" id="toggle-show4">⬇ Show</button>
+        <div id="gobrik-questions">
+            <hr>
+            <ul>
+                <li><a href="#gobrik" data-lang-id="054-what-is-gobrik">What is GoBrik?</a></li>
+                <li><a href="#brikcoins" data-lang-id="055-what-are-brikcoins">What are Brikcoins?</a></li>
+                <li><a href="#start" data-lang-id="056-sign-up-account">How to sign up for an account on GoBrik?</a></li>
+                <li><a href="#why-log" data-lang-id="057-why-log-ecobricks">Why log ecobricks? (answer pending)</a></li>
+            </ul>
+            <br><br>
+        </div>
+    </div>
+</div>
+
+<!--MORE QUESTIONS-->
+<div id="misc" class="greyish">
+    <div class="orangeish faq-content-block">
+        <h4 data-lang-id="058-more-questions">More Questions</h4>
+        <p data-lang-id="059-other-unanswered-questions">All those other questions we haven't answered yet!</p>
+        <button onclick="more()" class="toggle" id="toggle-show5">⬇ Show</button>
+        <div id="more-questions">
+            <hr>
+            <ul>
+                <li><a href="#ocean" data-lang-id="060-plastic-from-beach">What about plastic I pick up from the beach— can it be ecobricked?</a></li>
+                <li><a href="#cigbrick" data-lang-id="061-cigarette-filters">What about cigarette filters— can they be ecobricked?</a></li>
+                <li><a href="#dropoff" data-lang-id="062-drop-off-ecobricks">How can I drop off my completed ecobricks?</a></li>
+                <li><a href="#hubs" data-lang-id="063-get-ecobricks-for-project">How can I get ecobricks for my project?</a></li>
+                <li><a href="#media" data-lang-id="064-media-story-common-misconceptions">I am with the media. How do I do a story on ecobricks that avoids the common misconceptions?</a></li>
+                <li><a href="#eco-bricks" data-lang-id="065-spelling-ecobricks">How do you spell it? Eco bricks? Eco-bricks? Ecobricks?</a></li>
+                <li><a href="#arcio" data-lang-id="066-green-circle-arcio">What's that green circle on the bottom of your webpage? What is Arc.io doing?</a></li>
+            </ul>
+            <br><br>
+        </div>  
+    </div>
+</div>
+
 
 <div class="main-content-faq">
         
