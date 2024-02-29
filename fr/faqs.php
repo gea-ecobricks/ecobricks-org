@@ -94,6 +94,7 @@
 						<li><a href="#matter">How can ecobricks be a final solution for plastic? Won't the plastic escape one day no matter what we do?</a></li>
 						<li><a href="#transition">Don't ecobricks just encourage people to consume more plastic?</a></li>
 						<li><a href="#sequest1">I've heared that ecobricks can leach poisons out into the environment.  Is it true?</a></li>
+						<li><a href="#baddies">When and how are ecobricks bad?</a></li>
 						<li><a href="#circular1">How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?</a></li>
 						<li><a href="#fire">What about Ecobricks and fire— isn't it dangerous? </a></li>
 						<li><a href="#circular3">But isn't building with ecobricks just delaying the problem?  How is this a final solution for plastic?</a></li>
@@ -516,7 +517,7 @@
 					
 					<p>Yes!  If you were to set an ecobrick on fire, leave it in the sun, or boil it in a bucket of water, it certainly would leach poisons.  Just like pretty much anything made from plastic!  In fact, anything used the wrong way can be dangerous.  This is he point of ecobricking: to secure plastic and keep it safe.  Ecobricking is done based on the knowledge that plastic is susceptible to degradation and leaching to the extent that its surface area is exposed to the elements.  When we pack plastic densely into a bottle we reduce the net-surface area a thousand-fold.  Then, when we put ecobricks to use in applications that cover and protect the plastic, the danger of leaching is near nil!  Oh... and don't forget, by not recycling plastic we avoid all the carbon that would be released industrially!</p>
 
-					<div class="faq-link"><h5>Learn more: <a href="transition.php">Plastic Sequestration</a></h5></div>                    
+					<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</a></h5></div>                    
 					<div class="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>   
 
 				</div>
@@ -525,7 +526,7 @@
 			
 		</div>
 
-		<div class="faq" id="sequest1">
+		<div class="faq" id="baddies">
 			<div class="faq-box">
 				<div class="faq-texts">
 					<div class="faq-header"><h4>When and how are ecobricks bad?</h4></div>
@@ -822,7 +823,7 @@
 	
 
 	<div class="content-block">
-		<div id="gobrik-questions" class="greyish">
+		<div id="gobrik-questions-full" class="greyish">
 			<div  class="blueish faq-banner"><h3>GoBrik Questions</h3></div>
 		</div>
 
@@ -1008,7 +1009,7 @@
 
 	<br><br><br>
 
-	<div id="block-border" class="greyish">
+	<div id="block-border2" class="greyish">
 		<div class="grey faq-content-block">
 			<h2>Need to know more?</h2>
 			<h5>In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:  </h5>
@@ -1049,7 +1050,6 @@
 <script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
-</article>
 </body>
 </html>
 
