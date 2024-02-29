@@ -192,7 +192,7 @@
 
 		<!--MORE QUESTIONS-->
 		<div id="misc" class="greyish">
-			<div id="faq-content-block" class="orangeish">
+			<div class="orangeish faq-content-block">
 			
 				<h4>More Questions</h4>
 				<p>All those other questions we haven't answered yet!</p>
@@ -449,7 +449,7 @@
 <div id="content-block">    <!--ECOBRICK CONCERNS-->
 	
 	<div id="block-border" class="greyish">
-		<div id="faq-banner" class="reddish"><h3>Ecobrick Concerns</h3></div>
+		<div  class="reddish faq-banner" ><h3>Ecobrick Concerns</h3></div>
 	</div>
 
 
@@ -540,7 +540,7 @@
 
 <div id="content-block">
 	<div id="building-questions" class="greyish">
-		 <div id="faq-banner" class="greenish"><h3>Building Questions</h3></div>
+		 <div class="greenish faq-banner"><h3>Building Questions</h3></div>
 	</div>
 		
 
@@ -698,7 +698,7 @@
 
 	<div id="content-block">
 		<div class="greyish">
-		<div id="faq-banner" class="pinkish"><h3>About the Movement</h3></div>
+		<div class="pinkish faq-banner"><h3>About the Movement</h3></div>
 		</div>	
 
 		<div class="faq" id="movement">
@@ -817,7 +817,7 @@
 
 	<div id="content-block">
 		<div id="gobrik-questions" class="greyish">
-			<div id="faq-banner" class="blueish"><h3>GoBrik Questions</h3></div>
+			<div  class="blueish faq-banner"><h3>GoBrik Questions</h3></div>
 		</div>
 
 		<div class="faq" id="gobrik">
@@ -876,7 +876,7 @@
 
 <div id="content-block">
     	<div id="block-border" class="greyish">
-			<div id="faq-banner" class="orangeish"><h3>More Questions</h3></div>
+			<div class="orangeish faq-banner"><h3>More Questions</h3></div>
 		</div>
 
 
@@ -1003,7 +1003,7 @@
 	<br><br><br>
 
 	<div id="block-border" class="greyish">
-		<div id="faq-content-block" class="grey">
+		<di class="grey faq-content-block">
 			<h2>Need to know more?</h2>
 			<h5>In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:  </h5>
 		
