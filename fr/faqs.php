@@ -452,7 +452,7 @@
 
 
 
-<div id="content-block">    <!--ECOBRICK CONCERNS-->
+<div class="content-block">    <!--ECOBRICK CONCERNS-->
 	
 	<div id="block-border" class="greyish">
 		<div  class="reddish faq-banner" ><h3>Ecobrick Concerns</h3></div>
@@ -544,7 +544,7 @@
 	</div> <!-- STRAY-->
 	
 
-<div id="content-block">
+<div class="content-block">
 	<div id="building-questions" class="greyish">
 		 <div class="greenish faq-banner"><h3>Building Questions</h3></div>
 	</div>
@@ -634,7 +634,7 @@
 					<div class="faq-link"><h5>Learn more: <a href="spiral.php">Ecobrick Spiral Design</a></h5></div>                    
 					<div class="top-link">Back to <a href="#building-q">Building Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="../svgs/circular-applications.svg" width="400px" alt="Spiral & Circular eco brick design applies to a module" ></div>
+				<div class="faq-image"><img src="../svgs/circular-applications.svg" width="400" alt="Spiral & Circular eco brick design applies to a module" ></div>
 			</div>
 			
 		</div>
@@ -702,7 +702,7 @@
 	
 
 
-	<div id="content-block">
+	<div class="content-block">
 		<div class="greyish">
 		<div class="pinkish faq-banner"><h3>About the Movement</h3></div>
 		</div>	
@@ -717,7 +717,7 @@
 					<div class="faq-link"><h5>Learn more: <a href="/movement">Global Ecobrick Movement</a></h5></div>                    
 					<div class="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 				</div>
-				<div class="faq-image"><img src="../pngs/community.png" loading="lazy"></div>
+				<div class="faq-image"><img src="../pngs/community.png" alt="community powered collaboration" loading="lazy"></div>
 			</div>
 		</div>
 
@@ -729,7 +729,7 @@
 					
 					<p>We're a global alliance of ecobrickers!  We've come together to form the Global Ecobrick Alliance as a way to support the conceptual and technological infracstructure of the plastic transition movement.  Despite the diversity of the movement around the world, the problem of plastic connects us all.  And so too does the consistentcy of PET bottles and plastic packaging!  We see plastic as a grand opportunity for collective ecological action.  We're not a company, a charity or NGO— we're what we call an Earth Enterprise.  Unlike many companies we don't have shareholders or owners who profit from excess revenue.  Unlike many Charities and NGOs we generate our own revenue— specifically by providing valuable social service of training ecobrickers and the valuable ecological service of authenticating plastic sequestration.</p>
 
-					<div class="faq-link"><h5>Learn more: <a href="about.php">Learn more about the GEA</h5></div>  
+					<div class="faq-link"><h5>Learn more: <a href="about.php">Learn more about the GEA</a></h5></div>  
 					<div class="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
 				</div>
 				<div class="faq-image"><img src="../svgs/shanti.svg" style="width: 40% !important;" loading="lazy"></div>
@@ -821,7 +821,7 @@
 
 	
 
-	<div id="content-block">
+	<div class="content-block">
 		<div id="gobrik-questions" class="greyish">
 			<div  class="blueish faq-banner"><h3>GoBrik Questions</h3></div>
 		</div>
@@ -880,7 +880,7 @@
 
 
 
-<div id="content-block">
+<div class="content-block">
     	<div id="block-border" class="greyish">
 			<div class="orangeish faq-banner"><h3>More Questions</h3></div>
 		</div>
