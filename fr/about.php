@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.62';?>
+<?php $version='1.63';?>
 <?php $page='about';?>
 
 <?php require_once ("../includes/about2-inc.php");?>
