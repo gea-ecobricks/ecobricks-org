@@ -40,11 +40,10 @@
 
 		<!--GENERAL QUESTION-->
 		
-			<div id="block-border" class="greyish">
+			<div id="general" class="greyish">
 				<div id="faq-content-block" class="grey">
 				
 				
-				<section id="general"></section>
 				<h4>Questions générales</h4>
 				<p>Les bases du plastique et des écobriques.</p>
 				
@@ -1004,7 +1003,7 @@
 	<br><br><br>
 
 	<div id="block-border" class="greyish">
-		<div id="need-to-know-more" class="grey">
+		<div id="faq-content-block" class="grey">
 			<h2>Need to know more?</h2>
 			<h5>In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:  </h5>
 		
@@ -1019,6 +1018,7 @@
 				
 		</div>
 	</div>
+</div>
 </div>
 </div>
 </div>
