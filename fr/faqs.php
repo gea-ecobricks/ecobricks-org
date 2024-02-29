@@ -70,8 +70,9 @@
 					<li><a href="#séquestration">En quoi l'écobrique est-elle différente du recyclage, de la décharge ou de la combustion ?</a></li>
 					<li><a href="#keen">J'ai hâte de me lancer dans l'écobrique ! Quelle est la meilleure façon de commencer ?</a></li>
 					</ul>
+					</p>
 					<br>
-</p></div>
+</div>
 			</div>
 		</div>
 
@@ -88,7 +89,7 @@
 				<div id="concerns-questions">
 					<hr>
 
-					<p>
+				
 
 					<ul>
 						<li><a href="#dangerous-2">How does plastic get to be dangerous and toxic?</a></li>
@@ -102,7 +103,7 @@
 					</ul>
 					<br>
 			
-</p></div>
+</div>
 			</div>
 		</div>
 
