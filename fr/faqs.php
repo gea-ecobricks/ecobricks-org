@@ -17,26 +17,29 @@
 <!--Page banner-->
 
 		<div id="cloud-box">
-			<div id="clouds"><img src="https://ecobricks.org/webp/faq-top.webp?v1.0" width="100%"></div>
-			<div id="cloud-banner"><img src="https://ecobricks.org/webp/faq-bottom.webp" width="100%"><!--</div>
+			<div id="clouds"><img src="https://ecobricks.org/webp/faq-top.webp?v1.0" width="300" style="width:100%;"></div>
+			<div id="cloud-banner"><img src="https://ecobricks.org/webp/faq-bottom.webp" width="300" style="width:100%;"><!--</div>
 			<div id="page-header">Frequently Asked Questions</div>
 			<div id="page-header-sub">You've got questions about ecobricks. We've got answers!</div>-->
 		</div>
 
+		<section id="top">
+			
 		<div id="header-content-block">
 			<div id="raised-text">
 					<h1>Questions fréquemment posées</h1>
-			<p>Toutes vos questions sur les écobriques...  et toutes nos réponses.</p></div>
+			<p>Toutes vos questions sur les écobriques...  et toutes nos réponses.</p>
+			</div>
 		</div>
 
-
+		</section>
 
 		<div id="content-sect1">
 
 <!-- QUESTIONS CONTENT -->
 
 
-		<section id="top"></section>
+		
 		<div id="main-content-faq">
 
 
@@ -79,11 +82,11 @@
 		</div>
 
 		<!--ECOBRICK CONCERNS-->
-
+<section id="concerns">
 		<div id="block-border" class="greyish">
 			<div id="faq-content-block" class="reddish">
 
-				<section id="concerns"></section>
+				
 				<h4>Ecobrick Concerns</h4>
 				<p>The worries and critiques.</p>
 			
@@ -109,12 +112,13 @@
 				</h6></div>
 			</div>
 		</div>
+	</section>
 
 		<!--BUILD QUESTIONS-->
-
+<section id="building-q">
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="greenish">
-			<section id="building-q"></section> 
+			
 			<h4>Building Questions</h4>
 			<p>All about eco<span class="eco-brick"> </span>bricks applications.</p>
 			
@@ -141,13 +145,13 @@
 			</div>
 			
 		</div>
-
+	</section> 
 
 		<!--MOVEMENT Q-->
-
+<section id="movement-q">
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="pinkish">
-			<section id="movement-q"></section><h4>Movement Questions</h4>
+			<h4>Movement Questions</h4>
 			<p>About us and the global plastic transition and eco<span class="eco-brick"> </span>bricks movement.</p>
 			
 			<button onclick="movement()" class="toggle" id="toggle-show3">⬇ Show</id></button>
@@ -169,13 +173,14 @@
 			</div>
 			
 		</div>
+		</section>
 
 		<!--GOBRIK-->
-
+		<section id="gobrik-q">
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="blueish">
 
-			<section id="gobrik-q"></section> 
+		
 			<h4>GoBrik Questions</h4>
 			<p>All about our web based ecobrick app.</p>
 			<button onclick="gobrik()" class="toggle" id="toggle-show4">⬇ Show</button>
@@ -194,12 +199,13 @@
 			</div>
 		</div>
 
+		</section> 
 
 		<!--MORE QUESTIONS-->
-
+		<section id="misc">
 		<div id="block-border" class="greyish">
 		<div id="faq-content-block" class="orangeish">
-			<section id="misc"></section>
+			
 			<h4>More Questions</h4>
 			<p>All those other questions we haven't answered yet!</p>
 			<button onclick="more()" class="toggle" id="toggle-show5">⬇ Show</button>
@@ -221,6 +227,7 @@
 			</div>	
 		</div>
 		</div>
+		</section>
 
 </div>
 
