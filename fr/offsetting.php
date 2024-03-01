@@ -4,9 +4,9 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.791';?>
+<?php $version='1.792';?>
 <?php $page='offsetting';?>
-<title>Plastic Offsetting</title>
+<title>Compensation du Plastique</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
 <!--TOP PAGE BANNER-->
 
