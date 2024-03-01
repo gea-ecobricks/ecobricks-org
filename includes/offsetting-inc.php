@@ -1,13 +1,13 @@
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="../icons/earthwand-shadow.svg">
+<link rel="preload" as="image" href="../icons/eco-accounting-icon-from-ecobricks-org-white.svg">
 <link rel="preload" as="image" href="../svgs/earthwand-background-mobile.svg">
 <link rel="preload" as="image" href="../svgs/earthwand-background.svg">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("../meta/earthwand-$lang.php");?>
+<?php require_once ("../meta/offsetting-fr.php");?>
 
 
 
