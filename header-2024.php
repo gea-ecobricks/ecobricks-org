@@ -312,6 +312,7 @@ window.onload = function() {
             <a href="earth.php" title="The translation for this section is 75-99% done">Earth ◕</a>
         </div>
     </div>
+</div>
   
 <!--        
         <div class="menu-page-item"><a href="what.php" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
