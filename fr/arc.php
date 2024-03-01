@@ -8,7 +8,7 @@
 <!-- <title>Green Site Content Delivery Network | Ecobricks.org</title> -->
 <?php $lang='fr';?>
 <?php $version='1.76';?>
-<?php $page='plastic';?>
+<?php $page='arc';?>
 
 <?php require_once ("../includes/arc2-inc.php");?>
 

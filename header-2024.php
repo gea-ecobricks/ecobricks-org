@@ -164,6 +164,36 @@ window.onload = function() {
 
 
 
+ .accordion {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-item {
+    border-top: 1px solid #ccc;
+}
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.accordion-content {
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.accordion-content a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
 </style>
 
 
@@ -257,18 +287,39 @@ window.onload = function() {
     </div>
 
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
-  
-        <!-- <div class="ecobricks-logo"></div> -->
 
-        <!-- <div class="menu-page-item" data-lang-id="001-introduction" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);"><a style="text-align:center">Introduction</a></div> -->
-        
+    <div class="accordion">
+    <div class="accordion-item">
+        <div class="accordion-title">
+            <span>What are Ecobricks?</span>
+            <button class="toggle-accordion">+</button>
+        </div>
+        <div class="accordion-content">
+            <a href="what.php" title="The translation for this section is 100% done">Overview & Standards ●</a>
+            <a href="/cigbricks" title="The translation for this section is 0-24% done">Cigbricks ○</a>
+            <a href="/ocean" title="The translation for this section is 25-49% done">Ocean Ecobricks ◔</a>
+            <a href="/plastic" title="The translation for this section is 50-74% done">Plastic’s Long Story ◑</a>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <div class="accordion-title">
+            <span>Building</span>
+            <button class="toggle-accordion">+</button>
+        </div>
+        <div class="accordion-content">
+            <a href="build.php" title="The translation for this section is 75-99% done">Methods overview ◕</a>
+            <a href="modules.php" title="The translation for this section is 75-99% done">Modules ◕</a>
+            <a href="earth.php" title="The translation for this section is 75-99% done">Earth ◕</a>
+        </div>
+    </div>
+  
+<!--        
         <div class="menu-page-item"><a href="what.php" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
 
         <div class="menu-page-item" ><a href="how.php" data-lang-id="003-how-to">How to make?</a></div>
         
         <div class="menu-page-item" ><a href="transition.php" data-lang-id="004-transition">Plastic transition</a></div>
 
-        <!-- <div class="menu-page-item" ><a href="plastic" data-lang-id="005-earth-example">Earth's Example</a></div> -->
 
         <div class="menu-page-item" ><a href="principles.php" data-lang-id="006-our-principles">Our Earthen Principles</a></div>
 
@@ -283,7 +334,7 @@ window.onload = function() {
         <div class="menu-page-item" ><a href="brikchain.php" data-lang-id="011-brikchain">Brikchain</a></div>
 
         <div class="menu-page-item" ><a href="earthwand.php" data-lang-id="011-earthwands">Earthwands</a></div>
-    </div>
+    </div> -->
 
 <!-- 
 <br><br><br>
