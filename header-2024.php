@@ -309,7 +309,7 @@ document.querySelectorAll('.toggle-accordion').forEach(button => {
 
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
 
-    <div class="accordion-sidemenu">
+    <!-- <div class="accordion-sidemenu">
     <div class="accordion-item">
         <div class="accordion-title">
             <span>What are Ecobricks?</span>
@@ -333,9 +333,9 @@ document.querySelectorAll('.toggle-accordion').forEach(button => {
             <a href="earth.php" title="The translation for this section is 75-99% done">Earth ◕</a>
         </div>
     </div>
-</div>
+</div> -->
   
-<!--        
+       
         <div class="menu-page-item"><a href="what.php" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
 
         <div class="menu-page-item" ><a href="how.php" data-lang-id="003-how-to">How to make?</a></div>
@@ -356,7 +356,7 @@ document.querySelectorAll('.toggle-accordion').forEach(button => {
         <div class="menu-page-item" ><a href="brikchain.php" data-lang-id="011-brikchain">Brikchain</a></div>
 
         <div class="menu-page-item" ><a href="earthwand.php" data-lang-id="011-earthwands">Earthwands</a></div>
-    </div> -->
+    </div>
 
 <!-- 
 <br><br><br>
