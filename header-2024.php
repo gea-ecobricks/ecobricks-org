@@ -309,33 +309,35 @@ document.querySelectorAll('.toggle-accordion').forEach(button => {
 
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
 
-    <!-- <div class="accordion-sidemenu">
-    <div class="accordion-item">
-        <div class="accordion-title">
-            <span>What are Ecobricks?</span>
-            <button class="toggle-accordion">+</button>
-        </div>
-        <div class="accordion-content">
-            <a href="what.php" title="The translation for this section is 100% done">Overview & Standards ●</a>
-            <a href="/cigbricks" title="The translation for this section is 0-24% done">Cigbricks ○</a>
-            <a href="/ocean" title="The translation for this section is 25-49% done">Ocean Ecobricks ◔</a>
-            <a href="/plastic" title="The translation for this section is 50-74% done">Plastic’s Long Story ◑</a>
-        </div>
-    </div>
-    <div class="accordion-item">
-        <div class="accordion-title">
-            <span>Building</span>
-            <button class="toggle-accordion">+</button>
-        </div>
-        <div class="accordion-content">
-            <a href="build.php" title="The translation for this section is 75-99% done">Methods overview ◕</a>
-            <a href="modules.php" title="The translation for this section is 75-99% done">Modules ◕</a>
-            <a href="earth.php" title="The translation for this section is 75-99% done">Earth ◕</a>
-        </div>
-    </div>
-</div> -->
+    <div class="accordion">
+      <div class="accordion-item">
+          <div class="accordion-title">
+              <span>What are Ecobricks?</span>
+              <button class="toggle-accordion">+</button>
+          </div>
+          <div class="accordion-content">
+              <a href="what.php" title="The translation for this section is 100% done">Overview & Standards ●</a>
+              <a href="/cigbricks" title="The translation for this section is 0-24% done">Cigbricks ○</a>
+              <a href="/ocean" title="The translation for this section is 25-49% done">Ocean Ecobricks ◔</a>
+              <a href="/plastic" title="The translation for this section is 50-74% done">Plastic’s Long Story ◑</a>
+          </div>
+      </div>
+      <div class="accordion-item">
+          <div class="accordion-title">
+              <span>Building</span>
+              <button class="toggle-accordion">+</button>
+          </div>
+          <div class="accordion-content">
+              <a href="build.php" title="The translation for this section is 75-99% done">Methods overview ◕</a>
+              <a href="modules.php" title="The translation for this section is 75-99% done">Modules ◕</a>
+              <a href="earth.php" title="The translation for this section is 75-99% done">Earth ◕</a>
+          </div>
+      </div>
+    </div> 
   
-       
+</div>
+  
+<!--        
         <div class="menu-page-item"><a href="what.php" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
 
         <div class="menu-page-item" ><a href="how.php" data-lang-id="003-how-to">How to make?</a></div>
@@ -356,7 +358,7 @@ document.querySelectorAll('.toggle-accordion').forEach(button => {
         <div class="menu-page-item" ><a href="brikchain.php" data-lang-id="011-brikchain">Brikchain</a></div>
 
         <div class="menu-page-item" ><a href="earthwand.php" data-lang-id="011-earthwands">Earthwands</a></div>
-    </div>
+    </div> -->
 
 <!-- 
 <br><br><br>
