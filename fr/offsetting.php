@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.788';?>
+<?php $version='1.789';?>
 <?php $page='offsetting';?>
 <title>Plastic Offsetting</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
@@ -207,7 +207,7 @@
                 <img src="../webp/aes-offset-certificate-400px.webp" width="300" style="width:100%;" alt="AES plastic offset certificate" loading="lazy" >
             </div>
         </div>
-
+<br><br>
         <a class="action-btn" href="/aes" data-lang-id="056-block-3-btn">ℹ️ AES Plastic</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-block-3-p2">Learn more about Authenticated Ecobrick Sequestered plastic</p>
     </div>
