@@ -164,7 +164,7 @@ window.onload = function() {
 
 
 
- .accordion {
+ .accordion-sidemenu {
     border-bottom: 1px solid #ccc;
 }
 
@@ -195,6 +195,27 @@ window.onload = function() {
 
 
 </style>
+
+<script>
+
+document.querySelectorAll('.toggle-accordion').forEach(button => {
+    button.addEventListener('click', () => {
+        const accordionContent = button.closest('.accordion-item').querySelector('.accordion-content');
+
+        if (button.textContent === '+') {
+            accordionContent.style.display = 'block';
+            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+            button.textContent = '-';
+        } else {
+            accordionContent.style.maxHeight = '0';
+            setTimeout(() => {
+                accordionContent.style.display = 'none';
+            }, 400); // Match the CSS transition time
+            button.textContent = '+';
+        }
+    });
+});
+</script>
 
 
 </HEAD>
@@ -288,7 +309,7 @@ window.onload = function() {
 
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
 
-    <div class="accordion">
+    <div class="accordion-sidemenu">
     <div class="accordion-item">
         <div class="accordion-title">
             <span>What are Ecobricks?</span>
