@@ -164,7 +164,7 @@ window.onload = function() {
 
 
 
- .accordion-sidemenu {
+ .accordion {
     border-bottom: 1px solid #ccc;
 }
 
@@ -196,26 +196,7 @@ window.onload = function() {
 
 </style>
 
-<script>
 
-document.querySelectorAll('.toggle-accordion').forEach(button => {
-    button.addEventListener('click', () => {
-        const accordionContent = button.closest('.accordion-item').querySelector('.accordion-content');
-
-        if (button.textContent === '+') {
-            accordionContent.style.display = 'block';
-            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
-            button.textContent = '-';
-        } else {
-            accordionContent.style.maxHeight = '0';
-            setTimeout(() => {
-                accordionContent.style.display = 'none';
-            }, 400); // Match the CSS transition time
-            button.textContent = '+';
-        }
-    });
-});
-</script>
 
 
 </HEAD>
@@ -364,6 +345,27 @@ document.querySelectorAll('.toggle-accordion').forEach(button => {
 <br><br><br>
       <p style="font-size:small;">Ecobricking and the GEA are inspired by the <a href="ayyew" >ayyew</a> ethos of the Igorot people of Northern Luzon.</p>
        -->
+
+       <script>
+
+document.querySelectorAll('.toggle-accordion').forEach(button => {
+    button.addEventListener('click', () => {
+        const accordionContent = button.closest('.accordion-item').querySelector('.accordion-content');
+
+        if (button.textContent === '+') {
+            accordionContent.style.display = 'block';
+            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+            button.textContent = '-';
+        } else {
+            accordionContent.style.maxHeight = '0';
+            setTimeout(() => {
+                accordionContent.style.display = 'none';
+            }, 400); // Match the CSS transition time
+            button.textContent = '+';
+        }
+    });
+});
+</script>
 </div>
                                                               
 
