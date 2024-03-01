@@ -841,9 +841,18 @@ background: var(--accordion-background);
 }
 
 
-@media screen and (min-width: 770px) and (max-width: 2000px) {
+@media screen and (min-width: 770px)  {
 
 ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  color: var(--text-color);
+  font-size: 1.1em;
+  line-height: 1.2;
+  margin-top: 15px;
+}
+
+ol {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
   color: var(--text-color);
@@ -864,6 +873,16 @@ ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
     line-height: 1.2;
     margin-top: 15px;
   }
+
+  ol {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    color: var(--text-color);
+    font-size: 0.95em;
+    line-height: 1.2;
+    margin-top: 15px;
+  }
+
 }
 
 
@@ -876,20 +895,6 @@ text-decoration: none;
 }
 
 
-
-
-
-@media screen and (max-width: 769px) {
-  
-  ol {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-    color: var(--text-color);
-    font-size: 0.95em;
-    line-height: 1.2;
-    margin-top: 15px;
-  }
-}
 
 
 ol a {

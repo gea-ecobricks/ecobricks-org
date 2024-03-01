@@ -16,7 +16,7 @@
     
     <div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Offsetting</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">By taking responsibility for our personal plastic we can energize local and global transition.</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">By taking responsibility for our personal plastic we can energize local and global plastic transition.</div>
 	</div>
     <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/eco-accounting-icon-from-ecobricks-org-white.svg" style="width: 86%" alt="Ecological impact accounting to ensure we are green."></div>	
 	
@@ -48,11 +48,11 @@
 
             
 
-            <p>And plastic offsetting is one place to start!</p>
+            <p>And plastic offsetting is a place to start!</p>
 
-				<p data-lang-id="005-first-page-paragraph"><p>Offsetting is all about making sure our green impacts outweigh our grey.  In this way, plastic offsetting is much like carbon offsetting.  Just as keen green households and companies buy carbon offset credits, so too can they buy plastic offset credits.  Whereas carbon credits help balance off polluting emissions, plastic offsets can be purchased to balance our polluting plastic consumption and production.  The buyers payments serves as strong financial incentive for them to reduce and eliminate their plastic use altogether.</p>
+				<p data-lang-id="005-first-page-paragraph"><p>Offsetting is all about making sure our green impacts outweigh our grey. Just as keen green households and companies buy carbon offset credits, so too can they buy plastic offset credits.  Whereas carbon credits help balance off our emissions, plastic offsets can be purchased to balance our plastic consumption and production.  Paying for offset credits serves as strong financial incentive for buyers to reduce and eliminate their plastic use altogether.</p>
                     
-                <p>Meanwhile, the funds go direct to energizing those working hard to sequester plastic and transition from it.</p>  
+                <p>Meanwhile, payments go direct to energizing those working hard to sequester plastic and transition from it.</p>  
 
             </div>
 
@@ -79,11 +79,16 @@
 
 				<p data-lang-id="006-second-page-paragraph">
                 Ecobricking is ideal for sequestering plastic.  Ecobricks not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved― a phenonmenon called <a href="transition.php">plastic transition</a>.</p>
+                <br><br>
 
-				<p data-lang-id="006-second-page-paragraph">However, in order for ecobricked plastic to be considered sequestered, it must be done to specific standards.  Just as not all planted forests represent carbon sequestration (i.e. monoculture, industrial forests) not all plastic that is packed is sequestered.  In order to be sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains and represents</a>.</p>
+                <h4>Not all that is green-- is green!</h4>
 
-                    <h5 data-lang-id="022-block-1-info-1">ℹ️ Go deeper: about <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">Wikipedia article on criteria of Plastic Sequestration.</h5>
-        <h5 data-lang-id="023-block-1-info-2">ℹ️ Go deeper: <a href="https://en.wikipedia.org/wiki/Ecobricks">Wikipedia article on definition of an Ecobrick</a></h5>
+				<p data-lang-id="006-second-page-paragraph">In order for ecobricked plastic to be considered sequestered, it must be done to specific standards― and verified as such!</p>
+                
+                <p>Just as not all planted forests represent ecological enrichment (i.e. monoculture 'green-desert' forests) not all plastic that is packed is of ecological value.  In order to be considered effectively sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains and represents</a>.</p>
+
+                    <h5 data-lang-id="022-block-1-info-1">ℹ️ Wikipedia: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">Plastic Sequestration.</h5>
+        <h5 data-lang-id="023-block-1-info-2">ℹ️ Wikipedia: <a href="https://en.wikipedia.org/wiki/Ecobricks">Definition of an Ecobrick</a></h5>
   
 					</div>
 				</div>
@@ -104,7 +109,7 @@
                 
                 <p>Offsetting and ecobrick validations are both accessed on our <a href="/gobrik">Gobrik app</a>.  There, ecobricker peers validate whether logged ecobricks meet the criteria of <a href="sequest.php">plastic sequestration</a>.  Ecobricks that are authenticated are recorded on the <a href="brikchain">Brikcoin blockchain</a>. Their <a href="/aes">Authenticated Ecobrick Sequestered plastic (AES)</a>then becomes available for purchase as offset credits.</p>
                 
-                <p>Upon purchase, the GEA issues a serialized certificate for the amount of plastic offsets paid/a> for.  The transaction is recorded automatically on the <a href="brikchain.php">brikchain< and the GEA's <a href="open-books.php">Open Books</a> accounting system.  Finally, the buyer's account is credited with their AES plastic offset credits and a serialized PDF certificate is issued.
+                <p>Upon purchase, the GEA issues a serialized certificate for the amount of plastic offsets paid for.  The transaction is recorded automatically on the <a href="brikchain.php">brikchain</a> and the GEA's <a href="open-books.php">Open Books</a> accounting system.  Finally, the buyer's account is credited with their AES plastic offset credits and a serialized PDF certificate is issued.
                 </p>
 					</div>
 				</div>
