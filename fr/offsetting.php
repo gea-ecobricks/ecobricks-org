@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.787';?>
+<?php $version='1.788';?>
 <?php $page='offsetting';?>
 <title>Plastic Offsetting</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
