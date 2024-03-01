@@ -73,22 +73,22 @@
 						<br>
 						
 						
-						<p data-lang-id="006-second-page-paragraph">In carbon offsetting, "credits" correspond to carbon that has been <i>sequestered</i>― for example by tree planting or coral restoration projects.  Such projects energize systems that capturing, concentrate and secure kilograms of carbon dioxide.</p>
+                        <p data-lang-id="006-second-page-paragraph">In carbon offsetting, "credits" correspond to carbon that has been <i>sequestered</i>― for example by tree planting or coral restoration projects.  Such projects energize systems that capturing, concentrate and secure kilograms of carbon dioxide.</p>
                         
                         <p>In the same way, plastic offsets credits correspond to plastic that has been captured, concentrated and secured.  These <a href="sequestered.php">sequestered plastic</a> credits are also measured in kilograms (significantly, plastic itself is on average ).</p>
 
-				<p data-lang-id="006-second-page-paragraph">
-                Ecobricking is ideal for sequestering plastic.  Ecobricks not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved― a phenonmenon called <a href="transition.php">plastic transition</a>.</p>
-                <br><br>
+                        <p data-lang-id="006-second-page-paragraph">
+                        Ecobricking is ideal for sequestering plastic.  Ecobricks not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved― a phenonmenon called <a href="transition.php">plastic transition</a>.</p>
+                        <br>
 
-                <h4>Not all that is green-- is green!</h4>
+                        <h5>Not all that is green is green!</h5>
 
-				<p data-lang-id="006-second-page-paragraph">In order for ecobricked plastic to be considered sequestered, it must be done to specific standards― and verified as such!</p>
-                
-                <p>Just as not all planted forests represent ecological enrichment (i.e. monoculture 'green-desert' forests) not all plastic that is packed is of ecological value.  In order to be considered effectively sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains and represents</a>.</p>
+                        <p data-lang-id="006-second-page-paragraph">In order for ecobricked plastic to be considered sequestered, it must be done to specific standards― and verified as such!</p>
+                        
+                        <p>Just as not all planted forests represent ecological enrichment (i.e. monoculture 'green-desert' forests) not all plastic that is packed is of ecological value.  In order to be considered effectively sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains and represents</a>.</p>
 
-                    <h5 data-lang-id="022-block-1-info-1">ℹ️ Wikipedia: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">Plastic Sequestration.</h5>
-        <h5 data-lang-id="023-block-1-info-2">ℹ️ Wikipedia: <a href="https://en.wikipedia.org/wiki/Ecobricks">Definition of an Ecobrick</a></h5>
+                        <h5 data-lang-id="022-block-1-info-1">ℹ️ Wikipedia: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">Plastic Sequestration.</a></h5>
+            <h5 data-lang-id="023-block-1-info-2">ℹ️ Wikipedia: <a href="https://en.wikipedia.org/wiki/Ecobricks">Definition of an Ecobrick</a></h5>
   
 					</div>
 				</div>
@@ -166,11 +166,11 @@
 
         <p data-lang-id="038-block-2-p3">Most importantly, the cash value of plastic offset credits goes direct to the Global Ecobrick Alliance which uses the funds to maintain Ecobricks.org, the GoBrik app and Brikcoin blockchain.  These sites and apps serve ecobrickers around the world. </p>
         
-        <p>The GEA is structured as a not-for-profit, Earth enterprise precisely so that it can fulfill this purpose and maintain these systems to serve and benefit ecobrickers locally and globally.  All the GEA's expenses and revenues are declared on our <a href="open-books.php">open books system</p> so that not only do we operate with full transparency, but also, so that the annual price of 1kg of AES plastic can be set with full transparency.</p>
+        <p>The GEA is structured as a not-for-profit, Earth enterprise precisely so that it can fulfill this purpose and maintain these systems to serve and benefit ecobrickers locally and globally.  All the GEA's expenses and revenues are declared on our <a href="open-books.php">open books system</a> so that not only do we operate with full transparency, but also, so that the annual price of 1kg of AES plastic can be set with full transparency.</p>
 
-        <h5 data-lang-id="039-block-2-info-2">ℹ️ Learn more about <a href="brikchain.php">Brikchain Manual Blockchain</a></h5>
+        <h5 data-lang-id="039-block-2-info-2">ℹ️ Learn more about: <a href="brikchain.php">Brikchain Manual Blockchain</a></h5>
 
-        <h5 data-lang-id="039-block-2-info-2">ℹ️ Learn more about <a href="about.php">the Global Ecobrick ALliance</a></h5>
+        <h5 data-lang-id="039-block-2-info-2">ℹ️ Learn more about: <a href="about.php">The Global Ecobrick ALliance</a></h5>
 		
     </div>
 </div>
@@ -207,9 +207,9 @@
                 <img src="../webp/aes-offset-certificate-400px.webp" width="300" style="width:100%;" alt="AES plastic offset certificate" loading="lazy" >
             </div>
         </div>
-<br><br>
-        <a class="action-btn" href="/aes" data-lang-id="056-block-3-btn">ℹ️ AES Plastic</a>
-        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-block-3-p2">Learn more about Authenticated Ecobrick Sequestered plastic</p>
+        <br><br>
+        <h5 data-lang-id="039-block-2-info-2">ℹ️ Learn more about: <a href="/aes">Authenticated Ecobrick Sequestered Plastic</a></h5>
+
     </div>
 </div>
 
@@ -248,7 +248,7 @@
 						</div>
 					</div>
 					
-					<p>The Brikcoin blockchain has been operating since 2019 and has overseen the authentication of hundreds of tons of plastic and tens of thousands of dollars of plastic offsetting.</p>
+					<p style="font-size: smaller;">The Brikcoin blockchain has been operating since 2019 and has overseen the authentication of hundreds of tons of plastic and tens of thousands of dollars of plastic offsetting.</p>
 
 				</div>
 </div>
@@ -263,7 +263,7 @@
     
 	<br>
     <a class="action-btn" href="https://gobrik.com/en/go.php#offset" target="_blank">🚀 Offset your Plastic</a>
-                    	<p style="font-size: 0.85em; margin-top:20px;">Launch the GoBrik webapp</a>
+                    	<p style="font-size: 0.85em; margin-top:20px;"> ⇗ Launch the GoBrik webapp</a>
 			
     
 </div>

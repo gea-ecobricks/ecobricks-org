@@ -869,8 +869,8 @@ ol {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     color: var(--text-color);
 
-    font-size: 0.95em;
-    line-height: 1.2;
+    font-size: 1.1em;
+    line-height: 1.3;
     margin-top: 15px;
   }
 
@@ -878,31 +878,24 @@ ol {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     color: var(--text-color);
-    font-size: 0.95em;
-    line-height: 1.2;
+    font-size: 1.1em;
+    line-height: 1.3;
     margin-top: 15px;
   }
 
 }
 
 
-ul a {
-  color: var(--h1);
 
-}
 ul a:hover {
 text-decoration: none;
+color: var(--h1);
 }
 
 
-
-
-ol a {
-  color: var(--h1);
-}
 ol a:hover {
 text-decoration: none;
-color: var(--text-color);
+color: var(--h1);
 }
 
 
