@@ -1,5 +1,5 @@
 <div class="side-module-desktop-mobile">
-					<img src="../webp/plastic-carbon-400px.webp" width="80%" alt="Plastic has a CO2e Footprint">
+					<img src="../webp/plastic-carbon-400px.webp?v=2" width="80%" alt="Plastic has a CO2e Footprint">
 					<h4>Plastic is Carbon</h4>
 					<h5>Plastic is largely made from ancient carbon biomass that was sequestered for millions of years under the earth.  By molar mass PP, LDPE, HDPE and PE plastic are 85.6% carbon. PET is 62.5% carbon and Polysterene is 92.3%.</h5><br>
 
