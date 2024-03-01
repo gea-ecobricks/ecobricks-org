@@ -544,6 +544,7 @@ margin-top: 40px;
   text-decoration: none;
   overflow-x: none;
   border: none; 
+  cursor: pointer;
 }
 
 .module-btn:hover {

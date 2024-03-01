@@ -146,15 +146,17 @@
 
                 <p>There are numerous ways that ecobrickers benefit from plastic offseting</p>
 
-                <p>1.  When an ecobricker logs an ecobrick and this ecobrick is authenticated, they earn validation credits which allow them to validate other ecobrickers ecobricks.</p>
+                <ol>
+                    <li>  When an ecobricker logs an ecobrick and this ecobrick is authenticated, they earn validation credits which allow them to validate other ecobrickers ecobricks.</li>
 
-                <p>2.  When a validator (who can only be an ecobricker!) reviews an ecobrick and that ecobrick is authenticated, they are issued Brikcoins commensurate to the amount of plastic they sequestered.  Brikcoins have a value in of themselves and can be exchanged on the GoBrik platform for fiat currency, for ecobricks or for offsets.  Learn more about Brikcoins, their value and how they are generated.</p>
+                <li>When a validator (who can only be an ecobricker!) reviews an ecobrick and that ecobrick is authenticated, they are issued Brikcoins commensurate to the amount of plastic they sequestered.  Brikcoins have a value in of themselves and can be exchanged on the GoBrik platform for fiat currency, for ecobricks or for offsets.  Learn more about Brikcoins, their value and how they are generated.</li>
 
-                <p>3. The fiat currency value of purchased offset credits goes to the Global Ecobrick Alliance to help maintain and develop the GoBrik platform to help ecobrickers manage their ecobricks.</p>
+                <li> The fiat currency value of purchased offset credits goes to the Global Ecobrick Alliance to help maintain and develop the GoBrik platform to help ecobrickers manage their ecobricks.</li>
 
-                <p>4. The fiat currency value of puchased offsets also goes to the GLobal Ecobrick Alliance to maintain the Brikcoin blockchain, which commodifies the value of the sequesteration work of ecobrickers.  The blockchain also archives every single ecobrick that is authenticated, further adding value to the work of ecobrickers.</p>
+                <li> The fiat currency value of puchased offsets also goes to the GLobal Ecobrick Alliance to maintain the Brikcoin blockchain, which commodifies the value of the sequesteration work of ecobrickers.  The blockchain also archives every single ecobrick that is authenticated, further adding value to the work of ecobrickers.</li>
 
-                <p>5.The process of validating ecobricks encourages high quality ecobricks.  In addition, because serialize ecobricks can be looked up, builders can specify that they only wish to purchase authenticated ecobricks for their projects.  Consequently, the exchange value of serialized authenticated ecobricks is far higher than of un-authenticated ecobricks.  Only authenticated ecobricks can be exchanged on the GoBrik platform.</p>
+                <li>5.The process of validating ecobricks encourages high quality ecobricks.  In addition, because serialize ecobricks can be looked up, builders can specify that they only wish to purchase authenticated ecobricks for their projects.  Consequently, the exchange value of serialized authenticated ecobricks is far higher than of un-authenticated ecobricks.  Only authenticated ecobricks can be exchanged on the GoBrik platform.</li>
+                </ol>
 
         <p data-lang-id="038-block-2-p3">Thirdly, only ecobrickers are able to perform the peer review of logged ecobricks and earn Brikcoins-- the core currency of our blockchain.  Brikcoins, an alternative currency based on the ecological value of sequestered plastic, can be used on the GoBrik platform to buy and sell products, register for courses and purcase ecobricks.</p>
 
@@ -182,7 +184,7 @@
 
             </div>
             <div class="side2" data-lang-id="044-block-3-img1-alt">
-                <img src="../svgs/eco-accounting-icon-from-ecobricks-org.svg" width="300" style="width:100%;" alt="Eco accounting" loading="lazy" >
+                <img src="../icons/eco-accounting-icon-from-ecobricks-org.svg" width="300" style="width:100%;" alt="Eco accounting" loading="lazy" >
             </div>
         </div>
 
