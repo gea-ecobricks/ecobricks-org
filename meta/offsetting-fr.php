@@ -11,7 +11,7 @@
 	<meta property="og:title"         content="Compensation du Plastique">
   	<meta property="og:description"   content="En prenant la responsabilité de notre plastique personnel, nous pouvons dynamiser la transition plastique locale et mondiale.
 Comptabilité d'impact écologique pour assurer notre verdure.">
-  	<meta property="og:image"         content="https://ecobricks.org/png/plastic-offsetting-banner.png">
+  	<meta property="og:image"         content="https://ecobricks.org/pngs/plastic-offsetting-banner.png">
   	<meta property="og:image:width" content="600">
 	<meta property="og:image:height" content="600" >	
   	<meta property="og:image:alt"     content="La compensation est tout au sujet de s'assurer que nos impacts verts l'emportent sur nos gris"/>
