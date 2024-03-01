@@ -340,6 +340,9 @@
 
 		<?php include 'side-modules/eco-accounting-principle.php';?> 
 
+		<?php include 'side-modules/for-earth-principle.php';?> 
+
+
 		
 			<div class="side-module-desktop-mobile">
 				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
