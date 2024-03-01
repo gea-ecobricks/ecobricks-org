@@ -65,5 +65,18 @@ const fr_Page_Translations = {
     "063-get-ecobricks-for-project": "Comment puis-je obtenir des écobriques pour mon projet ?",
     "064-media-story-common-misconceptions": "Je suis dans les médias. Comment puis-je faire un reportage sur les écobriques qui évite les idées fausses courantes ?",
     "065-spelling-ecobricks": "Comment l'épelle-t-on ? Eco briques ? Éco-briques ? Écobriques ?",
-    "066-green-circle-arcio": "C'est quoi ce cercle vert en bas de votre page web ? Que fait Arc.io ?"
+    "066-green-circle-arcio": "C'est quoi ce cercle vert en bas de votre page web ? Que fait Arc.io ?",
+
+    "067-general-questions": "Questions Générales",
+    "068-what-is-plastic-exactly": "Qu'est-ce que le plastique exactement ?",
+    "069-plastic-description": "Le plastique. Ce matériau pratique, coloré et tellement problématique que nous utilisons tous chaque jour est très facile à prendre pour acquis. En fait, il est incroyablement unique et précieux— vous ne pouvez littéralement rien trouver de semblable ailleurs dans notre système solaire ! Le plastique est un sous-produit du pétrole. Cela signifie qu'il est fabriqué à partir du carbone d'organismes anciens— algues, forêts, dinosaures qui ont vécu et sont morts il y a des centaines de millions d'années. Alors que leurs corps étaient enterrés, la Terre a compacté et sécurisé leur carbone sous terre. Avec le temps, ce processus de séquestration du carbone a éliminé de plus en plus de carbone de l'atmosphère et a verdoyé la biosphère. Aujourd'hui, nous extrayons ces dépôts sous forme de 'combustibles fossiles'. Mais, ce carbone ancien n'était jamais censé être du carburant ! Le raffinage des combustibles fossiles conduit à beaucoup de produits chimiques résiduels— qui sont parfaits pour fabriquer du plastique et dangereux lorsqu'ils sont relâchés dans l'environnement.",
+    "070-learn-more-the-long-story-of-plastic": "En savoir plus : La Longue Histoire du Plastique",
+    "071-back-to-general-questions": "Retour aux Questions Générales",
+    "072-why-concerned-about-my-plastic": "Pourquoi devrais-je me préoccuper de mon plastique ?",
+    "073-concerned-about-plastic-description": "Votre plastique représente une opportunité incroyable ! Avec votre plastique quotidien, vous pouvez créer de petites ondulations qui, avec le temps, se transformeront en vagues géantes d'enrichissement écologique. Le plastique est la pointe de l'iceberg d'un système massif alimenté par l'extraction et la combustion de dépôts de carbone anciens. Lorsque ce carbone se libère dans l'atmosphère et les océans, il affecte négativement la biosphère. Bien que personne ne souhaite voir un écosystème riche se dégrader ou un animal souffrir, malheureusement, il existe une corrélation directe entre le plastique que nous consommons aujourd'hui et ces conséquences demain. De petits ajustements dans notre relation avec le plastique peuvent donc nous orienter hors du système pétro-capitaliste. De petits choix aujourd'hui peuvent réduire l'élan du système vers l'avenir et se cumuler en de grandes conséquences de verdurisation : l'accélération d'un système totalement différent avec beaucoup moins de plastique et des écosystèmes beaucoup plus riches.",
+    "074-learn-more-the-long-story-of-plastic-repeat": "En savoir plus : La Longue Histoire du Plastique",
+    "075-back-to-general-questions-repeat": "Retour aux Questions Générales",
+    "076-faq-image-compacted-carbon": "séquestration du plastique éco brique",
+    "077-faq-image-plastic-origins": "éco briques et les origines du plastique"
+
 };

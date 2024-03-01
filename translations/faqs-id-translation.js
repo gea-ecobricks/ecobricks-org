@@ -64,5 +64,19 @@ const id_Page_Translations = {
     "063-get-ecobricks-for-project": "Bagaimana saya bisa mendapatkan ecobricks untuk proyek saya?",
     "064-media-story-common-misconceptions": "Saya dari media. Bagaimana saya membuat cerita tentang ecobricks yang menghindari kesalahpahaman umum?",
     "065-spelling-ecobricks": "Bagaimana Anda mengejanya? Eco bricks? Eco-bricks? Ecobricks?",
-    "066-green-circle-arcio": "Apa itu lingkaran hijau di bagian bawah halaman web Anda? Apa yang dilakukan Arc.io?"
+    "066-green-circle-arcio": "Apa itu lingkaran hijau di bagian bawah halaman web Anda? Apa yang dilakukan Arc.io?",
+
+    "067-general-questions": "Pertanyaan Umum",
+    "068-what-is-plastic-exactly": "Apa sebenarnya plastik itu?",
+    "069-plastic-description": "Plastik. Bahan yang nyaman, berwarna-warni dan sangat bermasalah yang kita semua gunakan setiap hari sangat mudah untuk dianggap remeh. Faktanya, ini sangat unik dan berharga— Anda tidak dapat menemukan apa pun seperti itu di tempat lain di tata surya kita! Plastik adalah produk sampingan dari petroleum. Artinya, itu dibuat dari karbon organisme kuno— alga, hutan, dinosaurus yang hidup dan mati ratusan juta tahun yang lalu. Saat tubuh mereka terkubur, Bumi mengompakkan dan mengamankan karbon mereka di bawah tanah. Seiring waktu, proses sekuatrisasi karbon ini menghilangkan semakin banyak karbon dari atmosfer dan menghijaukan biosfer. Hari ini, kita menggali deposit ini sebagai 'bahan bakar fosil'. Tapi, karbon kuno ini tidak pernah dimaksudkan untuk menjadi bahan bakar! Penyulingan bahan bakar fosil menghasilkan banyak bahan kimia sisa— yang sempurna untuk membuat plastik dan berbahaya ketika dilepaskan ke lingkungan.",
+    "070-learn-more-the-long-story-of-plastic": "Pelajari lebih lanjut: Kisah Panjang Plastik",
+    "071-back-to-general-questions": "Kembali ke Pertanyaan Umum",
+    "072-why-concerned-about-my-plastic": "Mengapa saya harus peduli dengan plastik saya?",
+    "073-concerned-about-plastic-description": "Plastik Anda mewakili kesempatan yang luar biasa! Dengan plastik sehari-hari Anda, Anda dapat membuat gelombang kecil yang seiring waktu akan berubah menjadi gelombang besar pengayaan ekologis. Plastik adalah puncak gunung es dari sistem besar yang ditenagai oleh ekstraksi dan pembakaran deposit karbon kuno. Saat karbon ini lepas ke atmosfer dan lautan, itu mempengaruhi biosfer secara negatif. Meskipun tidak ada yang ingin melihat ekosistem yang kaya menyusut atau hewan menderita, sayangnya, ada korelasi langsung antara plastik yang kita konsumsi hari ini dan konsekuensi besok. Penyesuaian kecil dalam hubungan kita dengan plastik dapat dengan demikian menunjukkan kita keluar dari sistem petro-kapital. Pilihan kecil hari ini dapat mengurangi momentum sistem ke masa depan dan berkembang biak menjadi konsekuensi penghijauan yang besar: percepatan sistem yang sangat berbeda dengan lebih sedikit plastik dan ekosistem yang lebih kaya.",
+    "074-learn-more-the-long-story-of-plastic-repeat": "Pelajari lebih lanjut: Kisah Panjang Plastik",
+    "075-back-to-general-questions-repeat": "Kembali ke Pertanyaan Umum",
+    "076-faq-image-compacted-carbon": "sekuatrisasi plastik eco brick",
+    "077-faq-image-plastic-origins": "eco bricks dan asal-usul plastik",
+
+    
 };

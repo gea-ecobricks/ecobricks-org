@@ -123,7 +123,7 @@
        
                 <p data-lang-id="009-block-1-main-p1">To calculate the price of 1kg of authenticated plastic, the Global Ecobrick Alliance divides its costs of operating and maitaining the blockchain by the amount of plastic that has been authenticated.</p>
 
-                <p>For example: In 2022 the Global Ecobrick Alliance incurred 14920 $ USD of expenses in order to authenticate 4,825.42 Kg AES of ecobricked plastic. That works out a cost of 3.09$ USD per Kg in maintaining the block chain and authentication system. This sets our valuation of the price per Kg of AES plastic offsets for the subsequent year.</p>
+                <p>For example: In 2023 the Global Ecobrick Alliance incurred 7,207.14 $ USD of expenses in order to authenticate 2,228.96 Kg AES of ecobricked plastic. That works out a cost of 3.23 $ USD per Kg in maintaining the block chain and authentication system. This sets our valuation of the price per Kg of AES plastic offsets for the subsequent year (2024).</p>
                 
                 <h5 data-lang-id="022-block-1-info-1">ℹ️ View our <a href="open-books.php">GEA Open Books</a></h5>
                 <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="sequest.php">Plastic Sequestration</a></h5>
@@ -142,11 +142,19 @@
 
     <div id="preclosed2">
        
-                <p data-lang-id="024-block-2-main-p1">Our system is carefully designed to ensure that AES offset credits directly corresponds to real-world ecobricked plastic.  In this way everyone benefits:  the planet, the offseters and the ecobrickers doing the hard work.</p>
-                
-                <p>First (and foremost!), our goal is accelerate the diversion of plastic from pollution into sequestration while energizing our transition from petro-capital and plastic.  This benefits ecobrickers and their community-- and us all!</p>
-            
-        <p data-lang-id="026-block-2-p2">Secondly, our authentication system provides important practical benefits to ecobrickers and builders.  The process of validating ecobricks encourages high quality ecobricks.  In addition, because serialize ecobricks can be looked up, builders can specify that they only wish to purchase authenticated ecobricks for their projects.  Consequently, the exchange value of serialized authenticated ecobricks is far higher than of un-authenticated ecobricks.  Only authenticated ecobricks can be exchanged on the GoBrik platform.</p>
+                <p data-lang-id="024-block-2-main-p1">Our system is carefully designed so that everyone benefits!  Especially, the planet.  But, also, especially ecobrickers, as it is they who are doing the hard work of packing plastic and validating ecobricks.</p>
+
+                <p>There are numerous ways that ecobrickers benefit from plastic offseting</p>
+
+                <p>1.  When an ecobricker logs an ecobrick and this ecobrick is authenticated, they earn validation credits which allow them to validate other ecobrickers ecobricks.</p>
+
+                <p>2.  When a validator (who can only be an ecobricker!) reviews an ecobrick and that ecobrick is authenticated, they are issued Brikcoins commensurate to the amount of plastic they sequestered.  Brikcoins have a value in of themselves and can be exchanged on the GoBrik platform for fiat currency, for ecobricks or for offsets.  Learn more about Brikcoins, their value and how they are generated.</p>
+
+                <p>3. The fiat currency value of purchased offset credits goes to the Global Ecobrick Alliance to help maintain and develop the GoBrik platform to help ecobrickers manage their ecobricks.</p>
+
+                <p>4. The fiat currency value of puchased offsets also goes to the GLobal Ecobrick Alliance to maintain the Brikcoin blockchain, which commodifies the value of the sequesteration work of ecobrickers.  The blockchain also archives every single ecobrick that is authenticated, further adding value to the work of ecobrickers.</p>
+
+                <p>5.The process of validating ecobricks encourages high quality ecobricks.  In addition, because serialize ecobricks can be looked up, builders can specify that they only wish to purchase authenticated ecobricks for their projects.  Consequently, the exchange value of serialized authenticated ecobricks is far higher than of un-authenticated ecobricks.  Only authenticated ecobricks can be exchanged on the GoBrik platform.</p>
 
         <p data-lang-id="038-block-2-p3">Thirdly, only ecobrickers are able to perform the peer review of logged ecobricks and earn Brikcoins-- the core currency of our blockchain.  Brikcoins, an alternative currency based on the ecological value of sequestered plastic, can be used on the GoBrik platform to buy and sell products, register for courses and purcase ecobricks.</p>
 
@@ -171,41 +179,29 @@
         <div class="row">
             <div class="main2">
                 <p data-lang-id="043-block-3-main-p1">Plastic offset credits are ideal for use in household and enterprise ecological accounting.  For companies conducting annual sustainability or regenerative reports, plastic offseting can be used both to compensate for plastic generation and CO2 emissions during the year of purchase.</p>
-                
-                <p>When plastic offsets are purchased, the Global Ecobrick Alliance issues a serialized certificate of the net weight in kilograms of the plastic purchase.  Though minor, plastic sequestration also has a CO2e ofset equivalency.  Our system also provides a certification for this value.Both the currency transaction and the offsetting credits are recorded in our open books accounting system and our brikcoin blockchain.</p>
+
             </div>
             <div class="side2" data-lang-id="044-block-3-img1-alt">
                 <img src="../svgs/eco-accounting-icon-from-ecobricks-org.svg" width="300" style="width:100%;" alt="Eco accounting" loading="lazy" >
             </div>
         </div>
-<!-- 
-        <div class="row2">
-            <div class="main3">
-                <p data-lang-id="045-block-3-main-p2">To be a Cigbrick the following standards must be met:</p>
+
+        <div class="row">
+            <div class="main2">
+                
+                <p>When plastic offsets are purchased, the Global Ecobrick Alliance issues a serialized certificate of the net weight in kilograms of the purchase.  Both the currency transaction and the offsetting credits are recorded in our open books accounting system and our brikcoin blockchain.<p>
+
+                <p>The certificate and transaction links are ideal to be used as references in your regerenative or sustainability accounting.</p>
             </div>
-            <div class="side3" data-lang-id="046-block-3-img2-alt">
-                <img src="../svgs/Cigbrick.svg" width="120" style="width:100%;" alt="Cigbricks are for cigarettes" loading="lazy" >
+            <div class="side2" data-lang-id="044-block-3-img1-alt">
+                <img src="../webp/aes-offset-certificate-400px.webp" width="300" style="width:100%;" alt="AES plastic offset certificate" loading="lazy" >
             </div>
         </div>
 
-        <ul>
-            <li data-lang-id="047-block-3-li-1">A density higher than 0.29 g/ml</li>
-            <li data-lang-id="048-block-3-li-2">A maximum density of 0.70g/ml</li>
-            <li data-lang-id="049-block-3-li-3">Only packed with acetate cigarette butts – the paper and ash have been removed.</li>
-            <li data-lang-id="050-block-3-li-4">The cigbrick is sealed tight with a screw down lid.</li>
-            <li data-lang-id="051-block-3-li-5">Care has been taken to prepare the cigbrick as a reusable building block:
-                <ul>
-                    <li data-lang-id="052-block-3-li-5-1">The label has been removed and ecobricked.</li>
-                    <li data-lang-id="053-block-3-li-5-2">A bottom color has been added</li>
-                    <li data-lang-id="054-block-3-li-5-3">The weight has been recorded on the outside.</li>
-                </ul>
-            </li>
-        </ul>
+        <p data-lang-id="055-block-3-p1">Though minor, plastic sequestration also has a CO2e ofset equivalency.  Our system also provides a certification for this value.  </p>
 
-        <p data-lang-id="055-block-3-p1">Only cigbricks that meet these standards can be authenticated and count as sequestered plastic.</p>
-
-        <a class="action-btn" href="/cigbricks" data-lang-id="056-block-3-btn">ℹ️ Make a Cigbrick</a>
-        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-block-3-p2">Learn more about Cibricks.</p> -->
+        <a class="action-btn" href="/aes" data-lang-id="056-block-3-btn">ℹ️ AES Plastic</a>
+        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-block-3-p2">Learn more about Authenticated Ecobrick Sequestered plastic</p>
     </div>
 </div>
 
@@ -273,6 +269,9 @@
         <?php include '../ecobricks_env.php';?> 
 
 		<?php require_once ("side-modules/brikcoin-live-values.php");?>
+
+        <?php require_once ("side-modules/plastic-carbon.php");?>
+
 
         <?php require_once ("side-modules/plastic-co2e.php");?>
         

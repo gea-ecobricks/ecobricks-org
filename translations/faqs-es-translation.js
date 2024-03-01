@@ -64,5 +64,20 @@ const es_Page_Translations = {
     "063-get-ecobricks-for-project": "¿Cómo puedo conseguir ecoladrillos para mi proyecto?",
     "064-media-story-common-misconceptions": "Estoy con los medios. ¿Cómo hago una historia sobre ecoladrillos que evite los malentendidos comunes?",
     "065-spelling-ecobricks": "¿Cómo se escribe? ¿Eco ladrillos? ¿Eco-ladrillos? ¿Ecoladrillos?",
-    "066-green-circle-arcio": "¿Qué es ese círculo verde en la parte inferior de su página web? ¿Qué está haciendo Arc.io?"
+    "066-green-circle-arcio": "¿Qué es ese círculo verde en la parte inferior de su página web? ¿Qué está haciendo Arc.io?",
+
+    "067-general-questions": "Preguntas Generales",
+    "068-what-is-plastic-exactly": "¿Qué es exactamente el plástico?",
+    "069-plastic-description": "Plástico. Ese material conveniente, colorido y tan problemático que todos usamos todos los días es muy fácil de dar por sentado. De hecho, es increíblemente único y valioso— literalmente no puedes encontrar nada como ello en otro lugar de nuestro sistema solar! El plástico es un subproducto del petróleo. Eso significa que está hecho del carbono de organismos antiguos— algas, bosques, dinosaurios que vivieron y murieron hace cientos de millones de años. A medida que sus cuerpos fueron enterrados, la Tierra compactó y aseguró su carbono bajo tierra. Con el tiempo, este proceso de secuestro de carbono eliminó más y más carbono de la atmósfera y reverdeció la biosfera. Hoy, excavamos estos depósitos como 'combustibles fósiles'. Pero, ¡este carbono antiguo nunca estuvo destinado a ser combustible! Refinar combustibles fósiles conduce a muchos productos químicos residuales— que son perfectos para hacer plástico y peligrosos cuando se liberan al medio ambiente.",
+    "070-learn-more-the-long-story-of-plastic": "Aprender más: La Larga Historia del Plástico",
+    "071-back-to-general-questions": "Volver a Preguntas Generales",
+    "072-why-concerned-about-my-plastic": "¿Por qué debería preocuparme por mi plástico?",
+    "073-concerned-about-plastic-description": "¡Tu plástico representa una oportunidad increíble! Con tu plástico diario puedes hacer pequeñas ondulaciones que con el tiempo se convertirán en olas gigantes de enriquecimiento ecológico. El plástico es la punta del iceberg de un sistema masivo alimentado por la extracción y quema de depósitos de carbono antiguos. A medida que este carbono se libera en la atmósfera y los océanos, afecta negativamente a la biosfera. Aunque nadie quiere ver un ecosistema rico agotarse o sufrir a un animal, desafortunadamente, hay una correlación directa entre el plástico que consumimos hoy y estas consecuencias mañana. Pequeños ajustes en nuestra relación con el plástico pueden sacarnos del sistema petro-capital. Pequeñas elecciones hoy pueden reducir el impulso del sistema hacia el futuro y se acumulan en grandes consecuencias de reverdecimiento: la aceleración de un tipo de sistema completamente diferente con mucho menos plástico y ecosistemas mucho más ricos.",
+    "074-learn-more-the-long-story-of-plastic-repeat": "Aprender más: La Larga Historia del Plástico",
+    "075-back-to-general-questions-repeat": "Volver a Preguntas Generales",
+    "076-faq-image-compacted-carbon": "secuestro de plástico eco ladrillo",
+    "077-faq-image-plastic-origins": "eco ladrillos y los orígenes del plástico"
+
+
+    
 };

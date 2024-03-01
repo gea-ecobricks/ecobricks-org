@@ -70,5 +70,20 @@ const en_Page_Translations =
     "063-get-ecobricks-for-project": "How can I get ecobricks for my project?",
     "064-media-story-common-misconceptions": "I am with the media. How do I do a story on ecobricks that avoids the common misconceptions?",
     "065-spelling-ecobricks": "How do you spell it? Eco bricks? Eco-bricks? Ecobricks?",
-    "066-green-circle-arcio": "What's that green circle on the bottom of your webpage? What is Arc.io doing?"
+    "066-green-circle-arcio": "What's that green circle on the bottom of your webpage? What is Arc.io doing?",
+
+
+    "067-general-questions": "General Questions",
+    "068-what-is-plastic-exactly": "What is plastic exactly?",
+    "069-plastic-description": "Plastic. That convenient, colorful and ever so troublesome material that we all use every day is very easy to take for granted. Fact is, it's incredibly unique and valuable— you literally can't find anything like it in elsewhere in our solar system! Plastic is a petroleum by-product. That means it is made from the carbon of ancient organisms— algae, forest, dinosaurs that lived and died hundreds of millions of years ago. As their bodies were buried, the Earth compacted and secured their carbon underground. Over time, this process of carbon sequestration removed more and more carbon from the atmosphere and greened the biosphere. Today, we dig up these deposits as 'fossil fuels'. But, this ancient carbon was never meant to be fuel! Refining fossil fuels leads to lots of leftover chemicals— which are perfect for making plastic and dangerous when let loose into the environment.",
+    "070-learn-more-the-long-story-of-plastic": "Learn more: The Long Story of Plastic",
+    "071-back-to-general-questions": "Back to General Questions",
+    "072-why-concerned-about-my-plastic": "Why should I be concerned about my plastic?",
+    "073-concerned-about-plastic-description": "Your plastic represents an incredible opportunity! With your everyday plastic you can make tiny ripples that over time will turn into giant waves of ecological enrichment. Plastic is the tip of the iceberg of a massive system powered by the extraction and burning of ancient carbon deposits. As this carbon gets loose in the atmosphere and oceans, it adversely affects the biosphere. While no one wants to see a rich ecosystem deplete or an animal suffer, unfortunately, there is a direct correlation between the plastic that we consume today and these consequences tomorrow. Small adjustments in our relationship with plastic can thus point us out of the petro-capital system. Small choices today can reduce the system's momentum into the future and compounds into great greening consequences: the acceleration of a whole different kind of system with a lot less plastic and a lot richer ecosystems.",
+    "074-learn-more-the-long-story-of-plastic-repeat": "Learn more: The Long Story of Plastic",
+    "075-back-to-general-questions-repeat": "Back to General Questions",
+    "076-faq-image-compacted-carbon": "compacted plastic eco brick sequestration",
+    "077-faq-image-plastic-origins": "eco bricks and the origins of plastic"
+
+
 };
