@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.79';?>
+<?php $version='1.791';?>
 <?php $page='offsetting';?>
 <title>Plastic Offsetting</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
@@ -81,11 +81,12 @@
                         Ecobricking is ideal for sequestering plastic.  Ecobricks not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved― a phenonmenon called <a href="transition.php">plastic transition</a>.</p>
                         <br>
 
-                        <p><b>Not all that is green is green!</b></p>
+                        <p><strong><b>Not all that is green is green</b></strong></p>
 
                         <p data-lang-id="006-second-page-paragraph">In order for ecobricked plastic to be considered sequestered, it must be done to specific standards― and verified as such!</p>
                         
                         <p>Just as not all planted forests represent ecological enrichment (i.e. monoculture 'green-desert' forests) not all plastic that is packed is of ecological value.  In order to be considered effectively sequestered, packed plastic must meet <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href="https://en.wikipedia.org/wiki/Ecobricks"> ecobricking standards</a> which the Global Ecobrick Alliance <a href="what.php">maintains and represents</a>.</p>
+                            <br>
 
                         <h5 data-lang-id="022-block-1-info-1">ℹ️ Wikipedia: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">Plastic Sequestration.</a></h5>
             <h5 data-lang-id="023-block-1-info-2">ℹ️ Wikipedia: <a href="https://en.wikipedia.org/wiki/Ecobricks">Definition of an Ecobrick</a></h5>
@@ -285,6 +286,8 @@
 <?php require_once ("side-modules/sequest-module.php");?>
     
 <?php require_once ("side-modules/offset-presentation.php");?>
+
+<?php require_once ("side-modules/plastic-transition.php");?>
 
 
 
