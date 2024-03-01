@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.789';?>
+<?php $version='1.79';?>
 <?php $page='offsetting';?>
 <title>Plastic Offsetting</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
@@ -81,7 +81,7 @@
                         Ecobricking is ideal for sequestering plastic.  Ecobricks not only captures, secures and sequesters plastic, it also energizes the reduction in consumption and production of plastic of those involved― a phenonmenon called <a href="transition.php">plastic transition</a>.</p>
                         <br>
 
-                        <h5>Not all that is green is green!</h5>
+                        <p><b>Not all that is green is green!</b></p>
 
                         <p data-lang-id="006-second-page-paragraph">In order for ecobricked plastic to be considered sequestered, it must be done to specific standards― and verified as such!</p>
                         
@@ -129,7 +129,7 @@
                 <p data-lang-id="009-block-1-main-p1">To calculate the price of 1kg of authenticated plastic, the Global Ecobrick Alliance divides its costs of operating and maitaining the blockchain by the amount of plastic that has been authenticated.</p>
 
                 <p>For example: In 2023 the Global Ecobrick Alliance incurred 7,207.14 $ USD of expenses in order to authenticate 2,228.96 Kg AES of ecobricked plastic. That works out a cost of 3.23 $ USD per Kg in maintaining the block chain and authentication system. This sets our valuation of the price per Kg of AES plastic offsets for the subsequent year (2024).</p>
-                
+                <br>
                 <h5 data-lang-id="022-block-1-info-1">ℹ️ View our <a href="open-books.php">GEA Open Books</a></h5>
                 <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="sequest.php">Plastic Sequestration</a></h5>
     </div>  
@@ -167,10 +167,10 @@
         <p data-lang-id="038-block-2-p3">Most importantly, the cash value of plastic offset credits goes direct to the Global Ecobrick Alliance which uses the funds to maintain Ecobricks.org, the GoBrik app and Brikcoin blockchain.  These sites and apps serve ecobrickers around the world. </p>
         
         <p>The GEA is structured as a not-for-profit, Earth enterprise precisely so that it can fulfill this purpose and maintain these systems to serve and benefit ecobrickers locally and globally.  All the GEA's expenses and revenues are declared on our <a href="open-books.php">open books system</a> so that not only do we operate with full transparency, but also, so that the annual price of 1kg of AES plastic can be set with full transparency.</p>
+<br>
+        <h5 data-lang-id="039-block-2-info-2">ℹ️  Learn more about: <a href="brikchain.php">Brikchain Manual Blockchain</a></h5>
 
-        <h5 data-lang-id="039-block-2-info-2">ℹ️ Learn more about: <a href="brikchain.php">Brikchain Manual Blockchain</a></h5>
-
-        <h5 data-lang-id="039-block-2-info-2">ℹ️ Learn more about: <a href="about.php">The Global Ecobrick ALliance</a></h5>
+        <h5 data-lang-id="039-block-2-info-2">ℹ️  Learn more about: <a href="about.php">The Global Ecobrick Alliance</a></h5>
 		
     </div>
 </div>
@@ -207,7 +207,7 @@
                 <img src="../webp/aes-offset-certificate-400px.webp" width="300" style="width:100%;" alt="AES plastic offset certificate" loading="lazy" >
             </div>
         </div>
-        <br><br>
+        <br>
         <h5 data-lang-id="039-block-2-info-2">ℹ️ Learn more about: <a href="/aes">Authenticated Ecobrick Sequestered Plastic</a></h5>
 
     </div>
@@ -248,7 +248,7 @@
 						</div>
 					</div>
 					
-					<p style="font-size: smaller;">The Brikcoin blockchain has been operating since 2019 and has overseen the authentication of hundreds of tons of plastic and tens of thousands of dollars of plastic offsetting.</p>
+					<p style="font-size: small;">The Brikcoin blockchain has been operating since 2019 and has overseen the authentication of hundreds of tons of plastic and tens of thousands of dollars of plastic offsetting.</p>
 
 				</div>
 </div>
