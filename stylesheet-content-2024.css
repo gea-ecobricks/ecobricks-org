@@ -879,7 +879,26 @@ text-decoration: none;
 
 
 
+@media screen and (max-width: 769px) {
+  
+  ol {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    color: var(--text-color);
+    font-size: 0.95em;
+    line-height: 1.2;
+    margin-top: 15px;
+  }
+}
 
+
+ol a {
+  color: var(--h1);
+}
+ol a:hover {
+text-decoration: none;
+color: var(--text-color);
+}
 
 
 
