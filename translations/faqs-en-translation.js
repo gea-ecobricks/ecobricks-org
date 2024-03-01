@@ -79,6 +79,8 @@ const en_Page_Translations =
     "070-learn-more-the-long-story-of-plastic": "Learn more: The Long Story of Plastic",
     "071-back-to-general-questions": "Back to General Questions",
     "072-why-concerned-about-my-plastic": "Why should I be concerned about my plastic?",
+
+    
     "073-concerned-about-plastic-description": "Your plastic represents an incredible opportunity! With your everyday plastic you can make tiny ripples that over time will turn into giant waves of ecological enrichment. Plastic is the tip of the iceberg of a massive system powered by the extraction and burning of ancient carbon deposits. As this carbon gets loose in the atmosphere and oceans, it adversely affects the biosphere. While no one wants to see a rich ecosystem deplete or an animal suffer, unfortunately, there is a direct correlation between the plastic that we consume today and these consequences tomorrow. Small adjustments in our relationship with plastic can thus point us out of the petro-capital system. Small choices today can reduce the system's momentum into the future and compounds into great greening consequences: the acceleration of a whole different kind of system with a lot less plastic and a lot richer ecosystems.",
     "074-learn-more-the-long-story-of-plastic-repeat": "Learn more: The Long Story of Plastic",
     "075-back-to-general-questions-repeat": "Back to General Questions",

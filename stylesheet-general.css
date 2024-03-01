@@ -1515,12 +1515,12 @@ border-left-width: 1px;
 }
 
 
-@media screen and (min-width: 770px) and (max-width: 2000px) {
+@media screen and (min-width: 770px) {
 
 ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
-  color: #222222;
+  color: var(--text-color);
   font-size: 1.1em;
   line-height: 1.2;
   margin-top: 15px;
@@ -1532,7 +1532,7 @@ ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
   ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
-    color: #222222;
+    color: var(--text-color);
     font-size: 0.95em;
     line-height: 1.2;
     margin-top: 15px;
@@ -1541,7 +1541,7 @@ ul {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
 
 
 ul a {
-	color: #222222;
+	color: var(--h1);
 }
 ul a:hover {
 text-decoration: none;
@@ -1549,16 +1549,43 @@ text-decoration: none;
 
 
 
+@media screen and (min-width: 700px) {
+
+  ol {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    color: var(--text-color);
+    font-size: 1.1em;
+    line-height: 1.2;
+    margin-top: 15px;
+  }
+  }
+  
+  @media screen and (max-width: 769px) {
+  
+    ol {  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      -webkit-font-smoothing: antialiased;
+      color: var(--text-color);
+      font-size: 0.95em;
+      line-height: 1.2;
+      margin-top: 15px;
+    }
+  }
+  
+  
+  ol a {
+    color: var(--h1);
+  }
+  ol a:hover {
+  text-decoration: none;
+  color: var(--text-color);
+  }
+  
 
 
 
 
-
-
-
-
-
- 
 /* -------------------------------------------------------------------------- */
 
 /*	7. Footer
