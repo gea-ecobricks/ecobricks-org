@@ -165,13 +165,7 @@ window.onload = function() {
 
  
 
-
-
- .accordion {
-    border-bottom: 1px solid #ccc;
-}
-
-.accordion-item {
+ .accordion-item {
     border-top: 1px solid #ccc;
 }
 
@@ -181,39 +175,32 @@ window.onload = function() {
     align-items: center;
     cursor: pointer;
     padding: 10px;
-}
-
-.accordion-content {
-    display: none;
-    overflow: hidden;
-    transition: max-height 0.5s ease;
-}
-
-.accordion-content a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: black;
-    border-bottom: 1px solid #ccc;
-}
-
-.accordion-content a:last-child {
-    border-bottom: none;
-}
-
-.circle {
-    margin-left: auto;
+    background-color: transparent; /* Removes white background */
 }
 
 .toggle-accordion {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0;
-    font-size: 1.5em;
 }
+
+.accordion-content a {
+    display: flex;
+    justify-content: space-between; /* Aligns title to the left and circle to the right */
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #eee; /* Grey line between submenu items */
+}
+
+.accordion-content a:last-child {
+    border-bottom: none; /* Removes border from the last item */
+}
+
+.circle {
+    margin-left: auto; /* Pushes the circle to the far right */
+}
+
 
 
 
@@ -315,46 +302,47 @@ window.onload = function() {
 
    
    
-   
-   
-   
+    <div class="accordion">
     <div class="accordion-item">
-    <div class="accordion-title">
-        <span>What are Ecobricks?</span>
-        <button class="toggle-accordion">+</button>
+        <div class="accordion-title">
+            <span>What are Ecobricks?</span>
+            <button class="toggle-accordion" aria-label="opener">+</button>
+        </div>
+        <div class="accordion-content">
+            <a href="what.php">Overview & Standards <span class="circle">●</span></a>
+            <a href="/cigbricks">Cigbricks <span class="circle">○</span></a>
+            <a href="/ocean">Ocean Ecobricks <span class="circle">◔</span></a>
+            <a href="/plastic">Plastic’s Long Story <span class="circle">◑</span></a>
+        </div>
     </div>
-    <div class="accordion-content">
-        <div class="submenu-item">
-            <a href="what.php">Overview & Standards</a><span class="circle-symbol" title="The translation for this section is 100% done">●</span>
+    <div class="accordion-item">
+        <div class="accordion-title">
+            <span>Building</span>
+            <button class="toggle-accordion" aria-label="opener">+</button>
         </div>
-        <div class="submenu-item">
-            <a href="/cigbricks">Cigbricks</a><span class="circle-symbol" title="The translation for this section is 0-24% done">○</span>
+        <div class="accordion-content">
+            <a href="build.php">Methods overview <span class="circle">◕</span></a>
+            <a href="modules.php">Modules <span class="circle">◕</span></a>
+            <a href="earth.php">Earth <span class="circle">◕</span></a>
+            <a href="/earth-methods">Earth Methods <span class="circle">◔</span></a>
+            <a href="/fire">Fire Safety <span class="circle">◔</span></a>
+            <a href="/open-spaces">Open spaces <span class="circle">◔</span></a>
+            <a href="/dms">Dieleman modules <span class="circle">◔</span></a>
         </div>
-        <div class="submenu-item">
-            <a href="/ocean">Ocean Ecobricks</a><span class="circle-symbol" title="The translation for this section is 25-49% done">◔</span>
+    </div>
+    <div class="accordion-item">
+        <div class="accordion-title">
+            <span>How to Make</span>
+            <button class="toggle-accordion" aria-label="opener">+</button>
         </div>
-        <div class="submenu-item">
-            <a href="/plastic">Plastic’s Long Story</a><span class="circle-symbol" title="The translation for this section is 50-74% done">◑</span>
+        <div class="accordion-content">
+            <a href="how.php">10-step guide <span class="circle">●</span></a>
+            <a href="earthwands.php">Earthwands <span class="circle">◕</span></a>
+            <a href="transition.php">Plastic Transition <span class="circle">◕</span></a>
         </div>
     </div>
 </div>
-<div class="accordion-item">
-    <div class="accordion-title">
-        <span>Building</span>
-        <button class="toggle-accordion">+</button>
-    </div>
-    <div class="accordion-content">
-        <div class="submenu-item">
-            <a href="build.php">Methods overview</a><span class="circle-symbol" title="The translation for this section is 75-99% done">◕</span>
-        </div>
-        <div class="submenu-item">
-            <a href="modules.php">Modules</a><span class="circle-symbol" title="The translation for this section is 75-99% done">◕</span>
-        </div>
-        <div class="submenu-item">
-            <a href="earth.php">Earth</a><span class="circle-symbol" title="The translation for this section is 75-99% done">◕</span>
-        </div>
-    </div>
-</div>
+
 
 
 

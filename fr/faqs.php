@@ -204,53 +204,42 @@ GENERAL ANSWERS
 </div>
 
 
-
-
-			<div class="faq"  id="worry">
-				
-					<div class="faq-box">
-						   <div class="faq-texts">
-							   <div class="faq-header"><h4>But aren't there bigger issues to worry about?</h4></div>
-							   <p>Climate change.  Ocean acidification.  Species extinction.  These are big issues!  And they all have one thing in common:  <i>The way we humans relate to the Earth.</i>  From brash billionaires to poisonous pollution... indeed, the way we currently relate, makes it easy to worry!   However, there's no more powerful way to manifest change than by living it first ourselves.  As a product of both the Earth and the petro-capital economy, plastic is the ultimate representation of the old Way we've been relating to the Earth.  By changing the way we see plastic and what we do with it, we can shift our attitude from worry and despair to love and care.  By loving and caring for our plastic, we can begin to heal the roots of our relationship with it and the Earth:  The very same roots that all the other big issues happen to share.</p>
-							   <div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</a></h5></div>
-								<div class="top-link">Back to <a href="#general">General Questions</a></div>
-						   </div>
-						   <div class="faq-image"><img src="../webp/petro-capital-age.webp" alt="petro capital transition" loading="lazy"></div>
-					</div>
-					
-				</div>
-
-				<div class="faq" id="dangerous">
-					
-						<div class="faq-box">
-							   <div class="faq-texts">
-								   <div class="faq-header"><h4>How is plastic troublesome and dangerous?</h4></div>
-								   <p>Plastic is an incredibly useful and versatile material.  However, in the wrong place plastic can become poisonous to humans, animals and ecosystems.  When plastics get loose in the biosphere, they degrade through friction, heat and sun into chemicals and into particles.   These are chemicals don't fit into ecological systems, so they contaminate ecosystems and poison organisms.  Plastic's degradation also leads to smaller and smaller particles of plastic.  When organisms consume these 'micro-plastics' their digestion gets clogged up and they get sick.  Many die.  Eventually both chemical toxins and physical micro-plastics pass through the food chain to humans.  In our bodies they upset our hormonal balances, cause growth problems, and trigger cancer and health issues of all kinds. </p>
-									<div class="faq-link"><h5>Learn more: <a href="/poison">The Dangers of Plastic</a></h5></div>
-									<div class="top-link">Back to <a href="#general">General Questions</a></div>
-							   </div>
-							   <div class="faq-image"><img src="../pngs/fire.png" alt="eco bricks and fire safty.  Make sure ecobricks are used safely" loading="lazy"></div>
-						</div>
-						
-					</div>
-    
-            
-
-       <div class="faq" id="what">
-           
-            <div class="faq-box">
-                <div class="faq-texts">
-                    <div class="faq-header"><h4>What is an ecobrick?</h4></div>
-                    
-                    <p>Ecobricks are a way to take advantage of plastic's pros while protecting against its cons.  Basically, an ecobrick is a plastic bottle packed with used plastic to a set density.  In so doing we take advantage of plastic's durability, longetivity, color and availability to make resuable building blocks.  Making an eco<span class="eco-brick"> </span>bricks is a low-tech, manual, zero-carbon method take responsibility for one's plastic.   Ecobricks follow the Earth's example of compacting and securing carbon indefinitely in order to secure plastic from the dangers of degradation. The goal of ecobricking is <i>sequestration</i> and <i>transition</i>: the removal of plastic from the biosphere <i>and</i> from carbon-intense petro-capital economy.   Ecobricks are then used for local short and long-term applications that embody and accelerate regenerative principles.  Like green spaces and gardens!</p>
-
-                    <div class="faq-link"><h5>Learn more: <a href="what.php">Ecobrick Basics</a></h5></div>   
-					<div class="top-link">Back to <a href="#general">General Questions</a></div>                 
-                </div>
-                <div class="faq-image"><img src="../webp/faqs-400px.webp" alt="What is an eco brick?" loading="lazy"></div>
-            </div>
-			
+<div class="faq" id="worry">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="078-bigger-issues-worry">But aren't there bigger issues to worry about?</h4></div>
+            <p data-lang-id="079-worry-description">Climate change. Ocean acidification. Species extinction. These are big issues! And they all have one thing in common: <i>The way we humans relate to the Earth.</i> From brash billionaires to poisonous pollution... indeed, the way we currently relate, makes it easy to worry! However, there's no more powerful way to manifest change than by living it first ourselves. As a product of both the Earth and the petro-capital economy, plastic is the ultimate representation of the old Way we've been relating to the Earth. By changing the way we see plastic and what we do with it, we can shift our attitude from worry and despair to love and care. By loving and caring for our plastic, we can begin to heal the roots of our relationship with it and the Earth: The very same roots that all the other big issues happen to share.</p>
+            <div class="faq-link" data-lang-id="080-learn-more-story-plastic"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</a></h5></div>
+            <div class="top-link" data-lang-id="081-back-to-general-questions">Back to <a href="#general">General Questions</a></div>
         </div>
+        <div class="faq-image" data-lang-id="082-faq-image-petro-capital"><img src="../webp/petro-capital-age.webp" alt="petro capital transition" loading="lazy"></div>
+    </div>
+</div>
+
+<div class="faq" id="dangerous">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="083-dangerous-plastic">How is plastic troublesome and dangerous?</h4></div>
+            <p data-lang-id="084-dangerous-description">Plastic is an incredibly useful and versatile material. However, in the wrong place plastic can become poisonous to humans, animals and ecosystems. When plastics get loose in the biosphere, they degrade through friction, heat and sun into chemicals and into particles. These are chemicals don't fit into ecological systems, so they contaminate ecosystems and poison organisms. Plastic's degradation also leads to smaller and smaller particles of plastic. When organisms consume these 'micro-plastics' their digestion gets clogged up and they get sick. Many die. Eventually both chemical toxins and physical micro-plastics pass through the food chain to humans. In our bodies they upset our hormonal balances, cause growth problems, and trigger cancer and health issues of all kinds.</p>
+            <div class="faq-link" data-lang-id="085-learn-more-dangers-plastic"><h5>Learn more: <a href="/poison">The Dangers of Plastic</a></h5></div>
+            <div class="top-link" data-lang-id="086-back-to-general-questions">Back to <a href="#general">General Questions</a></div>
+        </div>
+        <div class="faq-image" data-lang-id="087-faq-image-fire-safety"><img src="../pngs/fire.png" alt="eco bricks and fire safety. Make sure ecobricks are used safely" loading="lazy"></div>
+    </div>
+</div>
+
+<div class="faq" id="what">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="088-what-is-ecobrick">What is an ecobrick?</h4></div>
+            <p data-lang-id="089-ecobrick-description">Ecobricks are a way to take advantage of plastic's pros while protecting against its cons. Basically, an ecobrick is a plastic bottle packed with used plastic to a set density. In so doing we take advantage of plastic's durability, longevity, color and availability to make reusable building blocks. Making an eco<span class="eco-brick"> </span>bricks is a low-tech, manual, zero-carbon method take responsibility for one's plastic. Ecobricks follow the Earth's example of compacting and securing carbon indefinitely in order to secure plastic from the dangers of degradation. The goal of ecobricking is <i>sequestration</i> and <i>transition</i>: the removal of plastic from the biosphere <i>and</i> from carbon-intense petro-capital economy. Ecobricks are then used for local short and long-term applications that embody and accelerate regenerative principles. Like green spaces and gardens!</p>
+            <div class="faq-link" data-lang-id="090-learn-more-ecobrick-basics"><h5>Learn more: <a href="what.php">Ecobrick Basics</a></h5></div>
+            <div class="top-link" data-lang-id="091-back-to-general-questions">Back to <a href="#general">General Questions</a></div>
+        </div>
+        <div class="faq-image" data-lang-id="092-faq-image-what-ecobrick"><img src="../webp/faqs-400px.webp" alt="What is an eco brick?" loading="lazy"></div>
+    </div>
+</div>
+
 
 
 		<div class="faq" id="why">
