@@ -256,7 +256,8 @@ window.onload = function() {
 
 /* Hover and Focus Styles for Interactivity */
 .circle:hover, .circle:focus {
-    /* Add any hover or focus styles for the circle icon here */
+  color: var(--h1)
+
 }
 
 .rotate-plus {
@@ -367,7 +368,7 @@ window.onload = function() {
     <div class="accordion">
     <!-- What are Ecobricks? -->
     <div class="accordion-item">
-        <button class="accordion-title">What are Ecobricks?<span class="toggle-icon">+</span></button>
+        <button class="accordion-title"><span data-lang-id="001-menu-title">What are Ecobricks?<span><span class="toggle-icon">+</span></button>
         <div class="accordion-content">
             <div class="submenu-item-container">
                 <div class="submenu-item">
@@ -401,11 +402,11 @@ window.onload = function() {
     </div>
    <!-- Building -->
 <div class="accordion-item">
-    <button class="accordion-title">Building<span class="toggle-icon">+</span></button>
+    <button class="accordion-title"><b data-lang-id="002-menu-title">Building</b><span class="toggle-icon">+</span></button>
     <div class="accordion-content">
         <div class="submenu-item-container">
             <div class="submenu-item">
-                <a href="build.php">Methods overview</a>
+                <a href="build.php" data-lang-id="003-menu-title">Methods overview</a>
                 <span class="circle" title="This page has been translated 75%">◕</span>
             </div>
             <div class="translation-info">build.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/build-fr-translation.js" class="translate-link">help translate ⇗</a></div>
