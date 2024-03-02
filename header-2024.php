@@ -374,7 +374,7 @@ window.onload = function() {
 
     <div class="accordion-item">
         <button class="accordion-title"><b data-lang-id="001-menu-1-main-item"> How to Make an Ecobrick</b></button>
-</div>
+    </div>
     <!-- What are Ecobricks? -->
     <div class="accordion-item">
         <button class="accordion-title"><b data-lang-id="001-menu-1-main-item">Ecobrick Basics</b><span class="toggle-icon">+</span></button>
@@ -690,7 +690,6 @@ window.onload = function() {
 
 </div>
 
-</div>
 
 
 
