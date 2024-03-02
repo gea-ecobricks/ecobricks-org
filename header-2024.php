@@ -259,27 +259,10 @@ window.onload = function() {
     /* Add any hover or focus styles for the circle icon here */
 }
 
-/* Responsive Adjustments as Needed */
-@media (max-width: 768px) {
-    /* Responsive styles if necessary */
-}
-
-
-/* CSS to rotate the + into an x - example with text change */
-.toggle-icon.toggle-active::before {
-    content: '×'; /* Unicode for multiplication sign, resembling an x */
-}
-
-/* Initial state, assuming you're using a pseudo-element for the + */
-.toggle-icon::before {
-    content: '+'; /* Ensure this matches your initial setup */
-    display: inline-block;
-    transition: transform 0.3s ease; /* Smooth transition for rotation */
-}
-
-/* Rotation example for a graphical + to x transformation */
-.toggle-icon.toggle-active {
-    transform: rotate(45deg); /* Example transformation */
+.rotate-plus {
+    display: inline-block; /* Allows rotation of inline elements like span */
+    transform: rotate(45deg); /* Rotate the element 45 degrees */
+    transition: transform 0.5s ease; /* Smooth transition for the rotation */
 }
 
 
@@ -384,7 +367,7 @@ window.onload = function() {
     <div class="accordion">
     <!-- What are Ecobricks? -->
     <div class="accordion-item">
-        <button class="accordion-title">What are Ecobricks?<span class="toggle-icon"></span></button>
+        <button class="accordion-title">What are Ecobricks?<span class="toggle-icon">+</span></button>
         <div class="accordion-content">
             <div class="submenu-item-container">
                 <div class="submenu-item">
@@ -483,20 +466,32 @@ window.onload = function() {
        <script>
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Function to rotate the plus symbol
+    function spinThePlus(toggleIcon) {
+        // Check if the toggle icon already has the rotation applied
+        if (toggleIcon.classList.contains('rotate-plus')) {
+            toggleIcon.classList.remove('rotate-plus'); // Revert back to normal if rotated
+        } else {
+            toggleIcon.classList.add('rotate-plus'); // Rotate 45 degrees
+        }
+    }
+
+
+    
+    // Toggle the main accordion sections
     document.querySelectorAll('.accordion-title').forEach(button => {
         button.addEventListener('click', () => {
             const accordionContent = button.nextElementSibling;
             const toggleIcon = button.querySelector('.toggle-icon');
 
-            // Toggle the active class for the icon transformation
-            toggleIcon.classList.toggle('toggle-active');
+            spinThePlus(toggleIcon); // Call function to rotate the plus symbol
 
-            // Close other items
+            // Close other items and revert their plus symbol back to normal
             document.querySelectorAll('.accordion-content').forEach(content => {
                 if (content !== accordionContent && content.style.maxHeight) {
                     content.style.maxHeight = null;
-                    // Reset other toggle icons to the initial state
-                    content.previousElementSibling.querySelector('.toggle-icon').classList.remove('toggle-active');
+                    const otherToggleIcon = content.previousElementSibling.querySelector('.toggle-icon');
+                    otherToggleIcon.classList.remove('rotate-plus'); // Ensure other icons are reverted back
                 }
             });
 
@@ -504,13 +499,10 @@ document.addEventListener('DOMContentLoaded', function() {
             if (accordionContent.style.maxHeight) {
                 accordionContent.style.maxHeight = null;
             } else {
-                accordionContent.style.maxHeight = 'fit-content'; // Adjusted as per previous discussion
+                accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
             }
         });
     });
-
-  
-
 
     // Toggle the translation information
     document.querySelectorAll('.circle').forEach(circle => {
