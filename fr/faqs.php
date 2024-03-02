@@ -321,59 +321,47 @@ GENERAL ANSWERS
 	</div>
 </div>
 
-
-
-	<div class="faq" id="recycled">
-		<div class="faq-box">
-			<div class="faq-texts">
-				<div class="faq-header"><h4>Why not just recycle my plastic?</h4></div>
-				
-				<p>Recyling plastic is a great idea— in theory!  Unfortunately, when recycling is done <i>for-profit</i> rather than <i>for-Earth</i>, it does not acheive the green effects we hope for.  In fact, the very opposite.  Industrial recycling tends to downcycle plastic into lower and lower grades that have less and less likelyhood of being recycled.  Eventually the utility value of the old plastic is exhausted and no more profit can be made.  This plastic then ends up <a href="#dump">dumping</a> or <a href="#burning">burned</a>— causing the ecological issues mentioned in the answers above.  Its also important to remember that industrial recycle is hardly ever local.  Plastic must be transported, melted, molded, repackage and transported again— often between stores and far-away factories.  This requires fuel, energy and releases further carbon into the biosphere.</p>
-				<p>Most significantly, recycling plastic leads to more and more products made from plastic.  Precisely because recycling seems to be a solution, it encourages us to keep consuming things made from plastic.  And those new products made with old plastic?  They not only requires lots of energy, but most often new plastic to be mixed in.  In short, putting plastics into industrial recycling encourages more industry, more plastic and more pollution.</p>
-
-				<div class="faq-link"><h5>Learn more: <a href="/recycled">Industrial Plastic Recycling</a></h5></div>                    
-				<div class="top-link">Back to <a href="#general">General Questions</a></div>
-			</div>
-			<div class="faq-image"><img src="../svgs/vsrecycling.svg" alt="Eco bricks are an alternative to recycling."></div>
-		</div>
-		
-	</div>
-
-	<div class="faq" id="sequestration">
-		<div class="faq-box">
-			<div class="faq-texts">
-				<div class="faq-header"><h4>So how is ecobricking different from recycling, dumping or burning?</h4>
-			</div>
-				
-				<p>Ecobricking is a form of <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">plastic sequestration</a>.  That means there's six principled reasons that set ecobricking apart.  Rather than being for-profit ecobricking is for-Earth.  Rather than letting plastic and carbon loose, ecobricking is all about their compaction and concentration.  Rather than cycling plastic only a few times, ecobriking creates indefinitely reusable building blocks. Rather than rely on marketing that lowers ecoogical awareness, ecobricking is a hands-on learning experience that raises it.  Rather than result in more products and factories that harm plants and animals, ecobricking leads to green spaces that give them a home.  Rather than un-attentive disposal, ecobricking is all about measuring, tracking and disclosing our plastics.  To sum it up... ecobricking is all about following the Earth's example of carbon care to make sure that we're transitioning from plastic to greener ways of living.</p>
-
-				<div class="faq-link">
-					<h5>Learn more: <a href="sequest.php">The Principles of Plastic Sequestration</a></h5>
-				</div>                    
-			</div>
-			<div class="faq-image">
-				<img src="../webp/dial-example.webp" alt="Eco bricks are beyond zero waste">
-			</div>
-		</div>
-		<div class="top-link">
-			<a href="#general">Back to General Questions</a>
-		</div>
-	</div>
+<div class="faq" id="recycled">
+	<div class="faq-box">
+		<div class="faq-texts">
+			<div class="faq-header"><h4 data-lang-id="124-recycled-header">Why not just recycle my plastic?</h4></div>
 			
-	<div class="faq" id="keen">
-		<div class="faq-box">
-			<div class="faq-texts">
-				<div class="faq-header"><h4>I am keen to get going with ecobricking!  What's the best way to start?</h4></div>
+			<p data-lang-id="125-recycled-content1">Recycling plastic is a great idea— in theory! Unfortunately, when recycling is done <i>for-profit</i> rather than <i>for-Earth</i>, it does not achieve the green effects we hope for. In fact, the very opposite. Industrial recycling tends to downcycle plastic into lower and lower grades that have less and less likelihood of being recycled. Eventually, the utility value of the old plastic is exhausted and no more profit can be made. This plastic then ends up <a href="#dump">dumping</a> or <a href="#burning">burned</a>— causing the ecological issues mentioned in the answers above. It's also important to remember that industrial recycle is hardly ever local. Plastic must be transported, melted, molded, repackaged and transported again— often between stores and far-away factories. This requires fuel, energy and releases further carbon into the biosphere.</p>
+			<p data-lang-id="126-recycled-content2">Most significantly, recycling plastic leads to more and more products made from plastic. Precisely because recycling seems to be a solution, it encourages us to keep consuming things made from plastic. And those new products made with old plastic? They not only require lots of energy, but most often new plastic to be mixed in. In short, putting plastics into industrial recycling encourages more industry, more plastic, and more pollution.</p>
 
-				<p>Start by writing down today's date.  Then, save your plastic for the next month!  Every single piece that comes into your household, be sure that it doesn't leave— but instead gets cleaned, dried and placed in a special bin.  After 30 days, weigh all the plastic that your household has consumed, transfer it to another bin and... begin ecobricking (see the how to ecobrick).  If you don't finish all the plastic in one sitting that's ok.  Keep putting the plastic you consume in bin #1 and every month transfer your ecobrickable plastic into bin #2.  This way you're not only efficiently ecobricking, you're tracking your consumption, plastic reduction and plastic transition.  A year from now, keep track of a month of your plastic consumption.  Note the difference!</p>
-
-				<div class="faq-link"><h5>Learn more: <a href="how.php">How to Make an Ecobrick</a></h5></div>                    
-				<div class="top-link">Back to <a href="#general">General Questions</a></div>
-			</div>
-			<div class="faq-image"><img src="../webp/weigh-plastic.webp" style="width: 50% !important;"  alt="Eco bricks are an alternative to recycling. Start by plastic tracking."></div>
+			<div class="faq-link"><h5 data-lang-id="127-learn-more-recycled">Learn more: <a href="/recycled">Industrial Plastic Recycling</a></h5></div>                    
+			<div class="top-link" data-lang-id="128-back-general-recycled">Back to <a href="#general">General Questions</a></div>
 		</div>
+		<div class="faq-image" data-lang-id="129-recycling-alternative-image"><img src="../svgs/vsrecycling.svg" alt="Eco bricks are an alternative to recycling."></div>
 	</div>
+</div>
 
+<div class="faq" id="sequestration">
+	<div class="faq-box">
+		<div class="faq-texts">
+			<div class="faq-header"><h4 data-lang-id="130-sequestration-header">So how is ecobricking different from recycling, dumping or burning?</h4></div>
+			
+			<p data-lang-id="131-sequestration-content">Ecobricking is a form of <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">plastic sequestration</a>. That means there's six principled reasons that set ecobricking apart. Rather than being for-profit ecobricking is for-Earth. Rather than letting plastic and carbon loose, ecobricking is all about their compaction and concentration. Rather than cycling plastic only a few times, ecobriking creates indefinitely reusable building blocks. Rather than rely on marketing that lowers ecological awareness, ecobricking is a hands-on learning experience that raises it. Rather than result in more products and factories that harm plants and animals, ecobricking leads to green spaces that give them a home. Rather than un-attentive disposal, ecobricking is all about measuring, tracking and disclosing our plastics. To sum it up... ecobricking is all about following the Earth's example of carbon care to make sure that we're transitioning from plastic to greener ways of living.</p>
+
+			<div class="faq-link"><h5 data-lang-id="132-learn-more-sequestration">Learn more: <a href="sequest.php">The Principles of Plastic Sequestration</a></h5></div>                    
+		</div>
+		<div class="faq-image" data-lang-id="133-beyond-zero-waste-image"><img src="../webp/dial-example.webp" alt="Eco bricks are beyond zero waste"></div>
+	</div>
+	<div class="top-link" data-lang-id="134-back-general-sequestration">Back to General Questions</a></div>
+</div>
+
+<div class="faq" id="keen">
+	<div class="faq-box">
+		<div class="faq-texts">
+			<div class="faq-header"><h4 data-lang-id="135-keen-header">I am keen to get going with ecobricking! What's the best way to start?</h4></div>
+
+			<p data-lang-id="136-keen-content">Start by writing down today's date. Then, save your plastic for the next month! Every single piece that comes into your household, be sure that it doesn't leave— but instead gets cleaned, dried and placed in a special bin. After 30 days, weigh all the plastic that your household has consumed, transfer it to another bin and... begin ecobricking (see the how to ecobrick). If you don't finish all the plastic in one sitting that's ok. Keep putting the plastic you consume in bin #1 and every month transfer your ecobrickable plastic into bin #2. This way you're not only efficiently ecobricking, you're tracking your consumption, plastic reduction and plastic transition. A year from now, keep track of a month of your plastic consumption. Note the difference!</p>
+
+			<div class="faq-link"><h5 data-lang-id="137-learn-more-keen">Learn more: <a href="how.php">How to Make an Ecobrick</a></h5></div>                    
+			<div class="top-link" data-lang-id="138-back-general-keen">Back to <a href="#general">General Questions</a></div>
+		</div>
+		<div class="faq-image" data-lang-id="139-start-ecobricking-image"><img src="../webp/weigh-plastic.webp" style="width: 50% !important;" alt="Eco bricks are an alternative to recycling. Start by plastic tracking."></div>
+	</div>
 </div>
 
 

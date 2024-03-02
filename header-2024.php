@@ -169,14 +169,23 @@ window.onload = function() {
 }
 
 .accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     text-align: left;
-    padding: 10px;
+    padding: 15px;
     background: none;
     border: none;
     border-top: 1px solid var(--subdued-text);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1.4em;
+    color: var(--text-color);
+}
+
+.toggle-icon {
+  font-size: 1.4em;
+    color: var(--text-color);
 }
 
 .accordion-content {
@@ -192,6 +201,7 @@ window.onload = function() {
     text-decoration: none;
     color: var(--text-color);
     border-bottom: 1px solid #eee;
+    padding: 10px;
 }
 
 .accordion-content a:last-child {
@@ -304,8 +314,8 @@ window.onload = function() {
     
     <div class="accordion">
     <div class="accordion-item">
-        <button class="accordion-title">What are Ecobricks?</button>
-        <div class="accordion-content">
+    <button class="accordion-title">What are Ecobricks?<span class="toggle-icon">+</span></button>
+            <div class="accordion-content">
             <a href="what.php"><span class="circle">●</span> Overview & Standards</a>
             <a href="/cigbricks"><span class="circle">○</span> Cigbricks</a>
             <a href="/ocean"><span class="circle">◔</span> Ocean Ecobricks</a>
@@ -401,28 +411,27 @@ window.onload = function() {
 //     });
 // });
 
-
 document.querySelectorAll('.accordion-title').forEach(button => {
     button.addEventListener('click', () => {
-        const currentAccordionContent = button.nextElementSibling; // The accordion-content of the clicked title
-        const allAccordionContents = document.querySelectorAll('.accordion-content'); // All accordion-content elements
+        const currentAccordionContent = button.nextElementSibling;
+        const allAccordionContents = document.querySelectorAll('.accordion-content');
+        const toggleIcon = button.querySelector('.toggle-icon'); // Get the toggle icon
 
         // First, close all submenus except the current one
         allAccordionContents.forEach(accordionContent => {
             if (accordionContent !== currentAccordionContent) {
                 accordionContent.style.maxHeight = null;
-                accordionContent.previousElementSibling.classList.toggle('is-open', false); // Adjusts the button state as well
+                accordionContent.previousElementSibling.querySelector('.toggle-icon').textContent = '+'; // Reset other icons to '+'
             }
         });
 
         // Then, toggle the current submenu
         if (currentAccordionContent.style.maxHeight && currentAccordionContent.style.maxHeight !== '0px') {
             currentAccordionContent.style.maxHeight = null;
-            button.classList.toggle('is-open', false);
+            toggleIcon.textContent = '+';
         } else {
-            // Open the clicked accordion section by setting its max-height to its scrollHeight
             currentAccordionContent.style.maxHeight = currentAccordionContent.scrollHeight + "px";
-            button.classList.toggle('is-open', true);
+            toggleIcon.textContent = '-';
         }
     });
 });
