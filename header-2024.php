@@ -509,8 +509,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Existing code for the circle click event...
-});
+  
 
 
     // Toggle the translation information
