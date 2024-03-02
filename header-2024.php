@@ -164,7 +164,11 @@ window.onload = function() {
 
 /*  ACORDION MENU  */
 
-./* Accordion Menu Base Styles */
+/* Accordion Menu Base Styles */
+/* Base Accordion Styles */
+
+
+
 .accordion-item {
     border-bottom: 1px solid var(--subdued-text);
 }
@@ -189,49 +193,66 @@ window.onload = function() {
     color: var(--text-color);
 }
 
-.accordion-content, .translation-info-content {
+/* Accordion Content */
+.accordion-content {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
 }
 
-.accordion-content a, .submenu-item {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: var(--text-color);
+/* Submenu Item Container */
+.submenu-item-container {
     border-bottom: 1px solid #eee;
-    padding: 10px;
-}
-
-.accordion-content a:last-child {
-    border-bottom: none;
-}
-
-.circle {
-    cursor: pointer;
-    margin-right: 10px; /* Adjust based on layout preference */
 }
 
 .submenu-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    padding: 10px;
 }
 
-/* Translation Info Styles */
+/* Circle Icon and Translation Info */
+.circle {
+    cursor: pointer;
+    margin-left: 10px; /* Adjust as necessary */
+}
+
 .translation-info {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
     font-size: 0.9em;
     color: var(--subdued-text);
     padding: 10px;
-    display: none; /* Initially hidden */
+    display: none; /* Initially hidden, shown on circle click */
+}
+
+/* Styling for Links */
+.accordion-content a, .translate-link {
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .translate-link {
-    color: var(--link-color);
-    text-decoration: none;
+    color: var(--link-color); /* Customize as per your theme */
 }
+
+/* Ensure Submenu Links Fill the Space */
+.accordion-content a {
+    flex-grow: 1;
+}
+
+/* Hover and Focus Styles for Interactivity */
+.circle:hover, .circle:focus {
+    /* Add any hover or focus styles for the circle icon here */
+}
+
+/* Responsive Adjustments as Needed */
+@media (max-width: 768px) {
+    /* Responsive styles if necessary */
+}
+
 
 
 
@@ -330,23 +351,29 @@ window.onload = function() {
     </div>
 
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
+  
+  
+  
+  
     <div class="accordion">
-    <!-- What are Ecobricks? -->
     <div class="accordion-item">
         <button class="accordion-title">What are Ecobricks?<span class="toggle-icon">+</span></button>
         <div class="accordion-content">
-            <div class="submenu-item">
-                <a href="what.php">Overview & Standards</a>
-                <span class="circle" title="This page has been translated 100%">●</span>
+            <div class="submenu-item-container">
+                <div class="submenu-item">
+                    <a href="what.php">Overview & Standards</a>
+                    <span class="circle" title="This page has been translated 100%">●</span>
+                </div>
                 <div class="translation-info">
                     This page what.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-fr-translation.js" class="translate-link">assist translation on github ⇗</a>
                 </div>
             </div>
-            <!-- Repeat for other submenu items, ensuring circle and translation-info are correctly placed -->
+            <!-- Repeat structure for other submenu items -->
         </div>
     </div>
     <!-- Additional accordion items... -->
 </div>
+
 
 
 
@@ -410,24 +437,17 @@ window.onload = function() {
 //         }
 //     });
 // });
+
+
 document.querySelectorAll('.circle').forEach(circle => {
     circle.addEventListener('click', function(event) {
-        event.stopPropagation(); // Prevent the accordion from toggling when clicking the circle
+        event.stopPropagation(); // Prevent triggering link navigation
+        const translationInfo = this.parentElement.nextElementSibling; // Assumes translation-info is next to submenu-item
 
-        const translationInfo = this.nextElementSibling; // Assuming .translation-info is the immediate next sibling
-
-        // Toggle translation info
-        if (translationInfo.style.display === "none" || !translationInfo.style.display) {
-            translationInfo.style.display = "block";
-            setTimeout(() => {
-                const maxHeight = translationInfo.scrollHeight + "px";
-                translationInfo.style.maxHeight = maxHeight;
-            }, 10); // Timeout to ensure the display: block takes effect before max-height transition
-        } else {
+        if (translationInfo.style.maxHeight && translationInfo.style.maxHeight !== '0px') {
             translationInfo.style.maxHeight = null;
-            setTimeout(() => {
-                translationInfo.style.display = "none";
-            }, 500); // Match the CSS transition time
+        } else {
+            translationInfo.style.maxHeight = translationInfo.scrollHeight + "px";
         }
     });
 });
