@@ -172,7 +172,7 @@ window.onload = function() {
 }
 
  .accordion-item {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid gray;
 }
 
 .accordion-title {
@@ -195,8 +195,8 @@ window.onload = function() {
     justify-content: space-between; /* Aligns title to the left and circle to the right */
     padding: 5px 10px;
     text-decoration: none;
-    color: black;
-    border-bottom: 1px solid #eee; /* Grey line between submenu items */
+    color: var(--text-color);
+    border-bottom: 1px solid gray; /* Grey line between submenu items */
 }
 
 .accordion-content a:last-child {
