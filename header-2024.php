@@ -188,6 +188,15 @@ window.onload = function() {
     color: var(--text-color);
 }
 
+.accordion-title a {
+
+    border: none;
+    border-top: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 .accordion-title b {
   font-weight:400;
 }

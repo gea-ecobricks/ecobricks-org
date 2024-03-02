@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.89';?>
+<?php $version='1.891';?>
 <?php $page='faqs';?>
 
 
@@ -725,65 +725,41 @@ GENERAL ANSWERS
 
 
 
+<div class="faq" id="dropoff">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="266-dropoff_question">How can I drop off my completed ecobricks to a community project?</h4></div>
+            <p data-lang-id="267-dropoff_answer1">Remember that ecobricks are all about taking personal responsibility for our plastic and not another way to dispose of it.  Putting your own ecobricks to use in your own projects is the essence of the movement.  Of course, more and more ecobrick building projects happening that need ecobrick contributions.</p>
+            <p data-lang-id="268-dropoff_answer2">Before contributing your ecobricks to a community project, it's essential to make sure your ecobricks are high quality— no one wants bottles filled with loose dirty plastic!  Be sure to follow the <a href="about.php" data-lang-id="269-dropoff_best_practices_link">GEA best practices</a>.  Even better: get your ecobricks authenticated. You can do that by logging your ecobricks on our GoBrik app, where they are validated through a peer review process.</p>                   
+            <div class="top-link" data-lang-id="270-dropoff_back_link">Back to <a href="#misc">More Questions</a></div>
+        </div>
+        <div class="faq-image" data-lang-id="271-dropoff_image"><img src="../webp/brikmarket-400px.webp" alt="eco brick making" loading="lazy"></div>
+    </div>
+</div>
 
-<div class="content-block">
-    	<div id="block-border1" class="greyish">
-			<div class="orangeish faq-banner"><h3>More Questions</h3></div>
-		</div>
+<div class="faq" id="hubs">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="272-hubs_question">How can I get ecobricks for my project?</h4></div>
+            <p data-lang-id="273-hubs_answer">It's important to remember that ecobricks aren't 'bricks' in the traditional sense of the word.  The making of ecobricks and building with them is a fundamentally collaborative process.  In fact, if you're keen to build a normal building for yourself, in most cases you're better off using normal bricks and construction techniques.  Of course, if you're keen to build a space for your community, you can set yourself up as an Ecobrick Hub— where folks drop off their ecobricks to help you with your project.</p>
+            <div class="top-link" data-lang-id="274-hubs_back_link">Back to <a href="#misc">More Questions</a></div>
+        </div>
+        <div class="faq-image" data-lang-id="275-hubs_image"><img src="../webp/various-briks-400px.webp" alt="eco brick making" loading="lazy"></div>
+    </div>
+</div>
 
+<div class="faq" id="ocean">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="276-ocean_question">What about plastic I pick up from the beach— can it be ecobricked?</h4></div>
+            <p data-lang-id="277-ocean_answer">Yes... and no!  Normal ecobricks are all about the mindful repurposing of the plastic that we consume personally.  This means caring for our plastic by segregating, cleaning, and drying it.  The plastic that has washed up on the beach (or we find on the roadside) tends to be wet, dirty, and chunky.  So it's not ideal for putting into a normal ecobrick.  However, it poses a contamination danger to the environment just as much as any other plastic.  To take care of it, you can pack it into what we call an ocean ecobrick.  Ocean ecobricks are made by cutting two PET bottles, packing both tight, and merging them into one.</p>
+            <div class="faq-link"><h5 data-lang-id="278-ocean_learn_more">Learn more: <a href="/ocean" data-lang-id="279-ocean_link">Ocean Ecobricks</a></h5></div>   
+            <div class="top-link" data-lang-id="280-ocean_back_link">Back to <a href="#misc">More Questions</a></div>                 
+        </div>
+        <div class="faq-image" data-lang-id="281-ocean_image"><img src="../webp/oeb-400px.webp" alt="ocean eco bricks" loading="lazy"></div>
+    </div>
+</div>
 
-		<div class="faq" id="dropoff">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>How can I drop off my completed ecobricks to a community project?</h4></div>
-					
-					<p>Remember that ecobricks are all about taking personal responsibility for our plastic and not another way to dispose of it.  Putting your own ecobricks to use in your own projects is the essence of the movement.  Of course, more and more ecobrick building projects happening that need ecobrick contributions.</p>
-					
-					<p>Before contributing your ecobricks to a community project, it's essential to make sure your ecobricks are high quality— no one wants bottles filled with loose dirty plastic!  Be sure to follow the <a href="about.php">GEA best practices</a>.  Even better: get your ecobricks authenticated. You can do that by logging your ecobricks on our GoBrik app, where they are validated through a peer review process.</p>
-					<!-- <p>When your ecobricks are ready, look for a community ecobrick hub near you that is taking ecobricks.  To help you connect with community hubs and projects we maintain a Brik Market on the GoBrik app.  Here you can post your ecobricks to see if anyone needs them, or find people looking for them.<br><br>
-	
-					<div class="faq-link"><h5>Learn more: <a href="dropoff.php">About the Brik Market</a></h5></div> 
-					<div class="faq-link"><h5>Launch: <a href="https://gobrik.com/#market " target="_blank">The Brik Market</a></h5></div> -->
-					                  
-						<div class="top-link">Back to <a href="#misc">More Questions</a></div>
-				</div>
-				<div class="faq-image"><img src="../webp/brikmarket-400px.webp" alt="eco brick making" loading="lazy"></div>
-			</div>
-		</div>
-	
-		<div class="faq" id="hubs">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>How can I get ecobricks for my project?</h4></div>
-					
-					<p>It's important to remember that ecobricks aren't 'bricks' in the traditional sense of the word.  The making of ecobricks and building with them is a fundamentally collaborative process.  In fact, ff you're keen to build a normal building for yourself, in most cases your better off using normal bricks and construction techniques.  Of course, if you're keen to build a space for your community, you can set yourself up as an Ecobrick Hub— where folks drop off their ecobricks to help you with your project.</p>
-					<!-- <p>To faciliate the sourcing of ecobricks from your community for projects, we maitain the Brik Market.  There you can post your requests for ecobricks— while specifying the specifics of the ecobricks you require.</p>
-	
-					<div class="faq-link"><h5>Learn more: <a href="dropoff.php">About the Brik Market</a></h5></div> 
-					<div class="faq-link"><h5>Launch: <a href="https://gobrik.com/#market " target="_blank">The Brik Market</a></h5></div> -->
-
-					<div class="top-link">Back to <a href="#misc">More Questions</a></div>
-				</div>
-				<div class="faq-image"><img src="../webp/various-briks-400px.webp" alt="eco brick making" loading="lazy"></div>
-				
-			</div>
-		</div>
-
-		<div class="faq" id="ocean">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What about plastic I pick up from the beach— can it be ecobricked?</h4></div>
-				
-					<p>Yes... and no!  Normal ecobricks are all about the mindful repurposing of the plastic that we consume personally.  This means caring for our plastic by segregating, cleaning and drying it.  The plastic that has washed up on the beach (or we find on the road side) tends to be wet, dirty and chunky.  So its not ideal for putting into a normal ecobrick.  However, it poses a contamination danger to the environment just as much as any other plastic.  To take care of it, you can pack it into what we call an ocean ecobrick.  Ocean ecobricks are made by cutting two PET bottles, packing both tight, and merging them into one.</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="/ocean">Ocean Ecobricks</a></h5></div>   
-					<div class="top-link">Back to <a href="#misc">More Questions</a></div>                 
-				</div>
-				
-				<div class="faq-image"><img src="../webp/oeb-400px.webp" alt="ocean eco bricks" loading="lazy"></div>
-			</div>
-			
-		</div>
 
 		<div class="faq" id="cigbrick">
 			<div class="faq-box">
