@@ -761,93 +761,73 @@ GENERAL ANSWERS
 </div>
 
 
-		<div class="faq" id="cigbrick">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What about cigarette filters— can they be ecobricked?</h4></div>
-				
-					<p>YES!  Cigarette filters are made from plastic, and although small, are one of the biggest source of plastic pollution.  We've thus come up with a special technique and ecobricking just for cigarette butts.  When you're done smoking, simply peel of the paper and remove the ash (this can be safely discarded).  Then, place the filter into your ecobrick.  If you're really keen, you can make an ecobrick entirely out of cigarette filters.  We call this a "cigbrick"!</p>
+<div class="faq" id="cigbrick">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="282-cigbrick_question">What about cigarette filters— can they be ecobricked?</h4></div>
+            <p data-lang-id="283-cigbrick_answer">YES!  Cigarette filters are made from plastic, and although small, are one of the biggest source of plastic pollution.  We've thus come up with a special technique and ecobricking just for cigarette butts.  When you're done smoking, simply peel off the paper and remove the ash (this can be safely discarded).  Then, place the filter into your ecobrick.  If you're really keen, you can make an ecobrick entirely out of cigarette filters.  We call this a "cigbrick"!</p>
+            <div class="faq-link"><h5 data-lang-id="284-cigbrick_learn_more">Learn more: <a href="/cigbrick" data-lang-id="285-cigbrick_link">Cigbricks</a></h5></div>                    
+            <div class="top-link" data-lang-id="286-cigbrick_back_link">Back to <a href="#misc">More Questions</a></div>
+        </div>
+        <div class="faq-image" data-lang-id="287-cigbrick_image"><img src="../svgs/Cigbrick.svg" alt="Cigbricks eco brick" loading="lazy"></div>
+    </div>
+</div>
 
-					<div class="faq-link"><h5>Learn more: <a href="/cigbrick">Cigbricks</a></h5>
-					</div>                    
-					<div class="top-link">Back to <a href="#misc">More Questions</a></div>
-				</div>
-				<div class="faq-image"><img src="../svgs/Cigbrick.svg" alt="Cigbricks eco brick" loading="lazy"></div>
-			</div>
-			
-		</div>	
+<div class="faq" id="media">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="288-media_question">I am with the media. How do I get accurate information on ecobricks to write a story or do a report?</h4></div>
+            <p data-lang-id="289-media_answer">Well... that's what this site is for!  Even better, we have a page for that.  Our press kit is designed to help journalists avoid the most common misconceptions about ecobricking.</p>
+            <div class="faq-link"><h5 data-lang-id="290-media_learn_more">Learn more: <a href="media.php" data-lang-id="291-media_link">GEA Press Kit</a></h5></div>   
+            <div class="top-link" data-lang-id="292-media_back_link">Back to <a href="#misc">More Questions</a></div>                 
+        </div>
+    </div>
+</div>
 
-		<div class="faq" id="media">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>I am with the media. How do I get accurate information on ecobricks to write a story or do a report?</h4></div>
-				
-					<p>Well... that's what this site is for!  Even better, we have page for that.  Our press kit is designed to help journalist avoid the most common misconceptions about ecobricking.  </p>
+<div class="faq" id="eco-bricks">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="293-eco_bricks_question">How do you spell it:  eco-brick, eco brick, or ecobrick?</h4></div>
+            <p data-lang-id="294-eco_bricks_answer">Back in the early days of putting plastic into a bottle we called it just that— plastic bottle bricks!  Then when we realized it was helpful to the ecosystems around us, the name changed to eco bricks.  Then we got more confident and added a hyphen: eco-bricks!  However, once ecobricks were a clearly established global phenomenon and demonstrably more practical and ecological helpful solution than industrial equivalents— leaders of the global movement conferred and deemed that a full-fledged word was appropriate:  ecobricks!  The Global Ecobrick Alliance and the official Wikipedia entry use 'ecobrick' (no space, no hyphen, no strange capitalization) as the official term.</p>
+            <div class="faq-link"><h5 data-lang-id="295-eco_bricks_learn_more">Learn more: <a href="about.php" data-lang-id="296-eco_bricks_link">GEA History</a></h5></div>   
+            <div class="top-link" data-lang-id="297-eco_bricks_back_link">Back to <a href="#misc">More Questions</a></div>                 
+        </div>
+    </div>
+</div>
 
-					<div class="faq-link"><h5>Learn more: <a href="media.php">GEA Press Kit</a></h5></div>   
-					<div class="top-link">Back to <a href="#misc">More Questions</a></div>                 
-				</div>
-				
-			</div>
-			
-		</div>
-
-		<div class="faq" id="eco-bricks">
-			<div class="faq-box">
-				<div class="faq-texts">
-				
-				<div class="faq-texts">
-					<div class="faq-header"><h4>How do you spell it:  eco-brick, eco brick, or ecobrick?</h4></div>
-				
-					<p>Back in the early days of putting plastic into a bottle we called it just that— plastic bottle bricks!  Then when we realized it was helpful to the ecosystems around us, the name changed to eco bricks.  Then we got more confident and added a hyphen: eco-bricks!  However, once ecobricks were a clearly established global phenomenon and demonstrably more practical and ecological helpful solution than industrial equivalents— leaders of the global movement conferred and deemed that a full fledged word was appropriate:  ecobricks!  The Global Ecobrick Alliance and the official wikipedia entry use 'ecobrick' (no space, no hypen, no strange capitalization) as the official term.</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="about.php">GEA History</a></h5></div>   
-					<div class="top-link">Back to <a href="#misc">More Questions</a></div>                 
-				</div>
-				
-			</div>
-		</div>
-
-		<div class="faq" id="arcio">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What's that green circle on the bottom of your webpage?  What is Arc.io doing?</h4></div>
-				
-					<p>The green circle shows that our Green Arc.io service is operating.  This content delivery netwrok system enables websites to be faster and greener by enabling common visitors of a website that are local to each other.  The Arc + Ecobricks.org widget enables other visitors of a site that are geographically local to you to share access to the same data.  Instead of connecting to content on a server on the other side of the planet, the content can be served by the computer nearest you.  This saves time and energy and is valuable service that websites pay for.  By directing the service payments of the CDN clients through the Ecobricks.org manual blockchain, dollars, kilobytes and kilograms of plastic can directly correlated.  Your visit to arc websites results in AES plastic offset credits purchased and the valuzation of the removal of plastic from the biosphere by ecobrickers around the world.
-					</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="arc.php">Arc CDN</a></h5>
-					</div>                    
-					<div class="top-link">Back to <a href="#misc">More Questions</a></div>
-				</div>
-				<div class="faq-image"><img src="../webp/arc-green-popper.webp" alt="green cdn service" loading="lazy" style="width: 50% !important;"></div>
-			</div>
-			
-		</div>	
-					
-	</div>
+<div class="faq" id="arcio">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="298-arcio_question">What's that green circle on the bottom of your webpage?  What is Arc.io doing?</h4></div>
+            <p data-lang-id="299-arcio_answer">The green circle shows that our Green Arc.io service is operating.  This content delivery network system enables websites to be faster and greener by enabling common visitors of a website that are local to each other.  The Arc + Ecobricks.org widget enables other visitors of a site that are geographically local to you to share access to the same data.  Instead of connecting to content on a server on the other side of the planet, the content can be served by the computer nearest you.  This saves time and energy and is a valuable service that websites pay for.  By directing the service payments of the CDN clients through the Ecobricks.org manual blockchain, dollars, kilobytes, and kilograms of plastic can directly be correlated.  Your visit to arc websites results in AES plastic offset credits purchased and the valuation of the removal of plastic from the biosphere by ecobrickers around the world.</p>
+            <div class="faq-link"><h5 data-lang-id="300-arcio_learn_more">Learn more: <a href="arc.php" data-lang-id="301-arcio_link">Arc CDN</a></h5></div>                    
+            <div class="top-link" data-lang-id="302-arcio_back_link">Back to <a href="#misc">More Questions</a></div>
+        </div>
+        <div class="faq-image" data-lang-id="303-arcio_image"><img src="../webp/arc-green-popper.webp" alt="green cdn service" loading="lazy" style="width: 50% !important;"></div>
+    </div>
+</div>
+</div>
 
 
 	<br><br><br>
 
 	<div id="block-border2" class="greyish">
-		<div class="grey faq-content-block">
-			<h2>Need to know more?</h2>
-			<h5>In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:  </h5>
-		
-				<p><ul>
-					<li><b>Ecobricks & Brikcoin Whitepaper</b> <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank">The Commodification of Sequestered Plastic</a></li>
-					<li><b>Journalists:</b>  Be sure to check out <a href="media.php">our media kit!</a></li>
-						<!--<li><b>Academics:</b>  Be sure to check out <a href="media">our reports and white papers!</a></li>--> 
-						<li><b>Learn from a trainer</b>  Check out the current <a href="https://gobrik.com/courses">Ecobrick Starter Workshop</a> course listing by certified GEA Trainers.</li>
-						<li><b>Training others to make ecobricks?</b> Be sure to check out <a href="/trainings">trainer of trainer program</a></li>
-					</ul></p>
+    <div class="grey faq-content-block">
+        <h2 data-lang-id="304-faq_more_info_heading">Need to know more?</h2>
+        <h5 data-lang-id="305-faq_more_info_subheading">In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:</h5>
+        <p>
+            <ul>
+                <li data-lang-id="306-faq_ecobricks_whitepaper"><b>Ecobricks & Brikcoin Whitepaper</b> <a href="https://files.ecobricks.org/s/pC52memM4S2a6LX" target="_blank" data-lang-id="307-faq_ecobricks_whitepaper_link">The Commodification of Sequestered Plastic</a></li>
+                <li data-lang-id="308-faq_journalists_info"><b>Journalists:</b>  Be sure to check out <a href="media.php" data-lang-id="309-faq_media_kit_link">our media kit!</a></li>
+                <li data-lang-id="310-faq_learn_from_trainer"><b>Learn from a trainer</b>  Check out the current <a href="https://gobrik.com/courses" data-lang-id="311-faq_ecobrick_workshop_link">Ecobrick Starter Workshop</a> course listing by certified GEA Trainers.</li>
+                <li data-lang-id="312-faq_training_others"><b>Training others to make ecobricks?</b> Be sure to check out <a href="/trainings" data-lang-id="313-faq_trainer_program_link">trainer of trainer program</a></li>
+            </ul>
+        </p>
 
-					<br><br><br>
-		
-				
-		</div>
-	</div>
+		<br><br><br>
+    </div>
+</div>
+
 </div>
 </div>
 </div>

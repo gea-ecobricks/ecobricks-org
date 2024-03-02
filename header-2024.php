@@ -169,8 +169,16 @@ window.onload = function() {
 
 
 
+.accordion-title button:hover {
+  background: var(--side-overlays);
+  color: var(--h1);
+    font-weight: 600;
+
+}
+
 .accordion-item {
     border-bottom: 1px solid var(--selector);
+
 }
 
 .accordion-title {
@@ -621,7 +629,7 @@ window.onload = function() {
 <!-- Regen Reporting -->
 <div class="submenu-item-container">
   <div class="submenu-item" data-lang-id="065-menu-5-sub-item-12">
-      <a href="regen-reports.php">Our Regen Reporting</a>
+      <a href="regenreports.php">Our Regen Reporting</a>
       <span class="circle" title="This page has been translated 25%">◔</span>
   </div>
   <div class="translation-info" data-lang-id="066-menu-5-trans-text-12">regen-reports.php has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/regen-reports-fr-translation.js" class="translate-link">help translate ⇗</a></div>
@@ -629,7 +637,7 @@ window.onload = function() {
 <!-- Plastic Coefficients -->
 <div class="submenu-item-container">
   <div class="submenu-item" data-lang-id="067-menu-5-sub-item-13">
-      <a href="regen-reports.php">Our Plastic Coefficients</a>
+      <a href="coefficients.php">Our Plastic Coefficients</a>
       <span class="circle" title="This page has been translated 25%">◔</span>
   </div>
   <div class="translation-info" data-lang-id="068-menu-5-trans-text-13">regen-reports.php has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/regen-reports-fr-translation.js" class="translate-link">help translate ⇗</a></div>
