@@ -391,97 +391,47 @@ window.onload = function() {
   
 </div>
   
-<!--        
-        <div class="menu-page-item"><a href="what.php" data-lang-id="002-what-are-ecobricks">What are ecobricks?</a></div>
-
-        <div class="menu-page-item" ><a href="how.php" data-lang-id="003-how-to">How to make?</a></div>
-        
-        <div class="menu-page-item" ><a href="transition.php" data-lang-id="004-transition">Plastic transition</a></div>
-
-
-        <div class="menu-page-item" ><a href="principles.php" data-lang-id="006-our-principles">Our Earthen Principles</a></div>
-
-        <div class="menu-page-item" ><a href="build.php" data-lang-id="007-construction">Building with Ecobricks</a></div>
-
-        <div class="menu-page-item" ><a href="about.php" data-lang-id="008-about-us">About us</a></div>
-
-        <div class="menu-page-item" ><a href="sequest.php" data-lang-id="009-plastic-sequestration">Plastique Sequestration</a></div>
-
-        <div class="menu-page-item" ><a href="brikcoins.php" data-lang-id="010-brikcoins">Brikcoins</a></div>
-
-        <div class="menu-page-item" ><a href="brikchain.php" data-lang-id="011-brikchain">Brikchain</a></div>
-
-        <div class="menu-page-item" ><a href="earthwand.php" data-lang-id="011-earthwands">Earthwands</a></div>
-    </div> -->
-
-<!-- 
-<br><br><br>
-      <p style="font-size:small;">Ecobricking and the GEA are inspired by the <a href="ayyew" >ayyew</a> ethos of the Igorot people of Northern Luzon.</p>
-       -->
 
        <script>
 
-// document.querySelectorAll('.toggle-accordion').forEach(button => {
-//     button.addEventListener('click', () => {
-//         const accordionContent = button.closest('.accordion-item').querySelector('.accordion-content');
 
-//         if (button.textContent === '+') {
-//             accordionContent.style.display = 'block';
-//             accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
-//             button.textContent = '-';
-//         } else {
-//             accordionContent.style.maxHeight = '0';
-//             setTimeout(() => {
-//                 accordionContent.style.display = 'none';
-//             }, 400); // Match the CSS transition time
-//             button.textContent = '+';
-//         }
-//     });
-// });
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Toggle the main accordion sections
+    // Main Accordion Toggle Functionality
     document.querySelectorAll('.accordion-title').forEach(button => {
         button.addEventListener('click', () => {
             const accordionContent = button.nextElementSibling;
-
-            // Close other items
-            document.querySelectorAll('.accordion-content').forEach(content => {
-                if (content !== accordionContent && content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                }
-            });
-
             // Toggle current item
-            if (accordionContent.style.maxHeight) {
+            if (accordionContent.style.maxHeight && accordionContent.style.maxHeight !== "0px") {
                 accordionContent.style.maxHeight = null;
             } else {
-                accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+                // Open the accordion section by setting its max-height to fit-content
+                accordionContent.style.maxHeight = 'fit-content';
             }
         });
     });
 
-    // Toggle the translation information
+    // Circle Icon Click to Reveal Translation Info
     document.querySelectorAll('.circle').forEach(circle => {
         circle.addEventListener('click', function(event) {
-            event.stopPropagation(); // Prevent the accordion toggle or link navigation
+            event.stopPropagation(); // Prevent triggering the accordion toggle
 
             const translationInfo = this.closest('.submenu-item-container').querySelector('.translation-info');
-            
-            // If translationInfo is not visible, show it
-            if (!translationInfo.style.maxHeight || translationInfo.style.maxHeight === '0px') {
-                translationInfo.style.display = 'block';
-                requestAnimationFrame(() => {
-                    translationInfo.style.maxHeight = translationInfo.scrollHeight + 'px';
-                });
-            } else { // Else hide it
+
+            // Toggle the translation info visibility
+            if (translationInfo.style.maxHeight && translationInfo.style.maxHeight !== "0px") {
                 translationInfo.style.maxHeight = null;
                 setTimeout(() => {
                     translationInfo.style.display = 'none';
-                }, 500); // Use the same duration as in the CSS transition
+                }, 500); // Match the CSS transition time
+            } else {
+                translationInfo.style.display = 'block';
+                translationInfo.style.maxHeight = 'fit-content';
             }
         });
     });
 });
+
 
 
 
