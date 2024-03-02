@@ -487,7 +487,7 @@
 /* Position the content inside the overlay */
 .overlay-content-settings {
   position: initial;
-  text-align: center; /* Centered text/links */
+  text-align: center; 
    /*margin-top: 30px; 30px top margin to avoid conflict with the close button on smaller screens */
   font-family: "Mulish";
   /*font-size: smaller;*/
@@ -496,6 +496,8 @@
   flex-flow: column;
   height:100%;  
   margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 

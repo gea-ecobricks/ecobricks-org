@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.88';?>
+<?php $version='1.89';?>
 <?php $page='faqs';?>
 
 
@@ -190,18 +190,19 @@ GENERAL ANSWERS
         </div>      
     </div>
  
-    <div class="faq" id="concern">
-        <div class="faq-box">
-            <div class="faq-texts">
-                <div class="faq-header"><h4>Why should I be concerned about my plastic?</h4></div>
-                <p >Your plastic represents an incredible opportunity! With your everyday plastic you can make tiny ripples that over time will turn into giant waves of ecological enrichment. Plastic is the tip of the iceberg of a massive system powered by the extraction and burning of ancient carbon deposits. As this carbon gets loose in the atmosphere and oceans, it adversely affects the biosphere. While no one wants to see a rich ecosystem deplete or an animal suffer, unfortunately, there is a direct correlation between the plastic that we consume today and these consequences tomorrow. Small adjustments in our relationship with plastic can thus point us out of the petro-capital system. Small choices today can reduce the system's momentum into the future and compounds into great greening consequences: the acceleration of a whole different kind of system with a lot less plastic and a lot richer ecosystems.</p>
-                <div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</a></h5></div>
-                <div class="top-link">Back to <a href="#general">General Questions</a></div>
-            </div>
-            <div class="faq-image"><img src="../webp/plastic-origins.webp" alt="eco bricks and the origins of plastic" loading="lazy"></div>
+    
+<div class="faq" id="concern">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="073-why-concern-about-plastic">Why should I be concerned about my plastic?</h4></div>
+            <p data-lang-id="074-plastic-concern-description">Your plastic represents an incredible opportunity! With your everyday plastic you can make tiny ripples that over time will turn into giant waves of ecological enrichment. Plastic is the tip of the iceberg of a massive system powered by the extraction and burning of ancient carbon deposits. As this carbon gets loose in the atmosphere and oceans, it adversely affects the biosphere. While no one wants to see a rich ecosystem deplete or an animal suffer, unfortunately, there is a direct correlation between the plastic that we consume today and these consequences tomorrow. Small adjustments in our relationship with plastic can thus point us out of the petro-capital system. Small choices today can reduce the system's momentum into the future and compounds into great greening consequences: the acceleration of a whole different kind of system with a lot less plastic and a lot richer ecosystems.</p>
+            <div class="faq-link" data-lang-id="075-learn-more-long-story-plastic"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</a></h5></div>
+            <div class="top-link" data-lang-id="076-back-to-general-questions">Back to <a href="#general">General Questions</a></div>
         </div>
+        <div class="faq-image" data-lang-id="077-faq-image-plastic-origins"><img src="../webp/plastic-origins.webp" alt="eco bricks and the origins of plastic" loading="lazy"></div>
     </div>
 </div>
+
 
 
 

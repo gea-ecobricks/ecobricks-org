@@ -163,26 +163,56 @@ window.onload = function() {
  }
 
 
- .accordion-content .submenu-item {
+ 
+
+
+
+ .accordion {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-item {
+    border-top: 1px solid #ccc;
+}
+
+.accordion-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ccc; /* Grey line separator */
+    cursor: pointer;
+    padding: 10px;
 }
 
-.accordion-content .submenu-item a {
-    flex-grow: 1;
-}
-
-.circle-symbol {
-    margin-left: 10px; /* Ensures spacing between the text and symbol */
-}
-
-/* Initially set max-height to 0 to enable animation on first open */
 .accordion-content {
-    max-height: 0;
+    display: none;
     overflow: hidden;
-    transition: max-height 0.5s ease-out;
+    transition: max-height 0.5s ease;
+}
+
+.accordion-content a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-content a:last-child {
+    border-bottom: none;
+}
+
+.circle {
+    margin-left: auto;
+}
+
+.toggle-accordion {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.5em;
 }
 
 
