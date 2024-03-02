@@ -164,6 +164,12 @@ window.onload = function() {
 
 
  
+ .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out; /* Adjusted for smoother transition */
+    display: block; /* Ensure this is set so transition can take effect */
+}
 
  .accordion-item {
     border-top: 1px solid #ccc;
@@ -408,20 +414,20 @@ window.onload = function() {
 //         }
 //     });
 // });
-
 document.querySelectorAll('.toggle-accordion').forEach(button => {
     button.addEventListener('click', () => {
         const accordionContent = button.closest('.accordion-item').querySelector('.accordion-content');
-        if (accordionContent.style.maxHeight) {
-            accordionContent.style.maxHeight = null;
+        if (accordionContent.style.maxHeight && accordionContent.style.maxHeight !== '0px') {
+            accordionContent.style.maxHeight = null; // Close the accordion section
             button.textContent = '+';
         } else {
-            // Set max-height to the actual scroll height plus a little extra space.
+            // Open the accordion section by setting its max-height to its scrollHeight
             accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
             button.textContent = '-';
         }
     });
 });
+
 
 </script>
 </div>
