@@ -699,40 +699,30 @@ GENERAL ANSWERS
         </div>
     </div>
 
-		<div class="faq" id="brikcoins">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What are Brikcoins?</h4></div>
-					
-					<p>Brikcoins (<strong><span class="">ß</span></strong>) are a new medium of exchange founded on community collaboration and a healthy planet. Brikcoins are based on ecobricked, sequestered, plastic. Brikcoins are earned by helping to authenticate ecobricks on GoBrik and prove the sequestration of plastic. Every Brikcoin is backed by 100g of packed and secured plastic. Anyone with an account can start earning earning Brikcoins which can then be used to pay for GEA courses, exchange with GoBrik users, and more.</p>
+	<div class="faq" id="brikcoins">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="265-faq_brikcoins_question">What are Brikcoins?</h4></div>
+            <p data-lang-id="266-faq_brikcoins_answer">Brikcoins (<strong><span class="">ß</span></strong>) are a new medium of exchange founded on community collaboration and a healthy planet. Brikcoins are based on ecobricked, sequestered, plastic. Brikcoins are earned by helping to authenticate ecobricks on GoBrik and prove the sequestration of plastic. Every Brikcoin is backed by 100g of packed and secured plastic. Anyone with an account can start earning Brikcoins which can then be used to pay for GEA courses, exchange with GoBrik users, and more.</p>
+            <div class="faq-link"><h5 data-lang-id="267-faq_brikcoins_learn_more">Learn more: <a href="brikcoins.php" data-lang-id="268-faq_brikcoins_link">Brikcoin Manual Blockchain</a><br>Launch: <a href="gobrik" data-lang-id="269-faq_brikcoins_launch">GoBrik.com</a></h5></div>
+            <div class="top-link" data-lang-id="270-faq_brikcoins_back">Back to <a href="#gobrik-q">GoBrik Questions</a></div>
+        </div>
+        <div class="faq-image" data-lang-id="271-faq_brikcoins_image"><img src="../webp/brk-cascade.webp" style="width: 40% !important;" alt="various eco bricks cascading" loading="lazy"></div>
+    </div>
+</div>
 
-					<div class="faq-link"><h5>Learn more: <a href="brikcoins.php">Brikcoin Manual Blockchain</a><br>
-						Launch: <a href="gobrik">GoBrik.com</a></h5>
-						</div> 
-						<div class="top-link">Back to <a href="#gobrik-q">GoBrik Questions</a></div> 
-					</div>   
-					<div class="faq-image"><img src="../webp/brk-cascade.webp" style="width: 40% !important;" alt="various eco bricks cascading" loading="lazy"></div>
-				</div>
-				
-			</div>
+<div class="faq" id="start">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="272-faq_start_question">How to join GoBrik?</h4></div>
+            <p data-lang-id="273-faq_start_answer">GoBrik accounts are free! GoBrik is a web app. This means you can sign up and use it on your desktop computer— or on your phone. Signing up is easy with either your email address or your Facebook account. We'll ask you some questions about your ecobricking, and then you're set to log ecobricks, earn brikcoins, and exchange ecobricks on our marketplace. Visit GoBrik.com to register.</p>
+            <div class="faq-link"><h5 data-lang-id="274-faq_start_learn_more">Learn more: <a href="/gobrik" data-lang-id="275-faq_start_link">GoBrik Platform</a><br>Launch: <a href="gobrik" data-lang-id="276-faq_start_launch">GoBrik.com</a></h5></div>
+            <div class="top-link" data-lang-id="277-faq_start_back">Back to <a href="#gobrik-q">GoBrik Questions</a></div>
+        </div>
+        <div class="faq-image" data-lang-id="278-faq_start_image"><img src="../webp/eb-sky-400px.webp" alt="eco brick making" loading="lazy"></div>
+    </div>
+</div>
 
-		<div class="faq" id="start">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>How to join GoBrik?</h4></div>
-					
-					<p>GoBrik accounts are free!  GoBrik is a web app.  This means you can sign up and use it on your desktop computer— or on your phone.  Signing up is easy with either your email address or your Facebook account.  We'll ask you some questions about your ecobricking, and then you're set to log ecobricks, earn brikcoins, and exchange ecobricks on our marketplace.  Visit GoBrik.com to register.</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="/gobrik">GoBrik Platform</a><br>
-						Launch: <a href="gobrik">GoBrik.com</a></h5>
-						</div> 
-						<div class="top-link">Back to <a href="#gobrik-q">GoBrik Questions</a></div> 
-					</div>   
-					<div class="faq-image"><img src="../webp/eb-sky-400px.webp" alt="eco brick making" loading="lazy"></div>
-				</div>
-				
-			</div>
-	</div>
 
 
 

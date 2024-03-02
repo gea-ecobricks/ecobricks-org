@@ -188,6 +188,11 @@ window.onload = function() {
     color: var(--text-color);
 }
 
+.accordion-title b {
+  font-weight:400;
+}
+
+
 .toggle-icon {
     font-size: 1.4em;
     color: var(--text-color);
@@ -366,13 +371,17 @@ window.onload = function() {
   
   
     <div class="accordion">
+
+    <div class="accordion-item">
+        <button class="accordion-title"><b data-lang-id="001-menu-1-main-item"> <a href="how.php">How to Make an Ecobrick</a></b></button>
+</div>
     <!-- What are Ecobricks? -->
     <div class="accordion-item">
-        <button class="accordion-title"><b data-lang-id="001-menu-1-main-item">What are Ecobricks?<b><span class="toggle-icon">+</span></button>
+        <button class="accordion-title"><b data-lang-id="001-menu-1-main-item">Ecobrick Basics</b><span class="toggle-icon">+</span></button>
         <div class="accordion-content">
             <div class="submenu-item-container">
                 <div class="submenu-item" data-lang-id="002-menu-1-sub-item-1">
-                    <a href="what.php">Overview & Standards</a>
+                    <a href="what.php">Ecobricks & Standards</a>
                     <span class="circle" title="This page has been translated 100%">●</span>
                 </div>
                 <div class="translation-info" data-lang-id="003-menu-1-trans-text-1">what.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-fr-translation.js" class="translate-link">help translate ⇗</a></div>
@@ -406,40 +415,45 @@ window.onload = function() {
     <div class="accordion-content">
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="008-menu-2-sub-item-1">
-                <a href="build.php">Methods overview</a>
+                <a href="build.php">Ecobrick Applications</a>
                 <span class="circle" title="This page has been translated 75%">◕</span>
             </div>
             <div class="translation-info" data-lang-id="009-menu-2-trans-text-1">build.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/build-fr-translation.js" class="translate-link">help translate ⇗</a></div>
         </div>
+
+          <!-- Milstein modules -->
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="010-menu-2-sub-item-2">
-                <a href="modules.php">Modules</a>
+                <a href="modules.php">Milstein Modules</a>
                 <span class="circle" title="This page has been translated 75%">◕</span>
             </div>
             <div class="translation-info" data-lang-id="011-menu-2-trans-text-2">modules.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/modules-fr-translation.js" class="translate-link">help translate ⇗</a></div>
         </div>
+
+                <!-- Dieleman modules -->
+                <div class="submenu-item-container">
+            <div class="submenu-item" data-lang-id="020-menu-2-sub-item-7">
+                <a href="/dms">Dieleman modules</a>
+                <span class="circle" title="This page has been translated 25%">◔</span>
+            </div>
+            <div class="translation-info" data-lang-id="021-menu-2-trans-text-7">/dms has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/dms-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+        </div>
+
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="012-menu-2-sub-item-3">
-                <a href="earth.php">Earth</a>
+                <a href="earth.php">Earth Building</a>
                 <span class="circle" title="This page has been translated 75%">◕</span>
             </div>
             <div class="translation-info" data-lang-id="013-menu-2-trans-text-3">earth.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-fr-translation.js" class="translate-link">help translate ⇗</a></div>
         </div>
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="014-menu-2-sub-item-4">
-                <a href="/earth-methods">Earth Methods</a>
+                <a href="/earth-methods">Earth Building Methods</a>
                 <span class="circle" title="This page has been translated 25%">◔</span>
             </div>
             <div class="translation-info" data-lang-id="015-menu-2-trans-text-4">/earth-methods has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-methods-fr-translation.js" class="translate-link">help translate ⇗</a></div>
         </div>
-                <!-- Fire Safety -->
-                <div class="submenu-item-container">
-            <div class="submenu-item" data-lang-id="016-menu-2-sub-item-5">
-                <a href="/fire">Fire Safety</a>
-                <span class="circle" title="This page has been translated 25%">◔</span>
-            </div>
-            <div class="translation-info" data-lang-id="017-menu-2-trans-text-5">/fire has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/fire-fr-translation.js" class="translate-link">help translate ⇗</a></div>
-        </div>
+               
         <!-- Open spaces -->
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="018-menu-2-sub-item-6">
@@ -448,25 +462,27 @@ window.onload = function() {
             </div>
             <div class="translation-info" data-lang-id="019-menu-2-trans-text-6">/open-spaces has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/open-spaces-fr-translation.js" class="translate-link">help translate ⇗</a></div>
         </div>
-        <!-- Dieleman modules -->
-        <div class="submenu-item-container">
-            <div class="submenu-item" data-lang-id="020-menu-2-sub-item-7">
-                <a href="/dms">Dieleman modules</a>
+
+
+         <!-- Fire Safety -->
+         <div class="submenu-item-container">
+            <div class="submenu-item" data-lang-id="016-menu-2-sub-item-5">
+                <a href="/fire">Fire Safety</a>
                 <span class="circle" title="This page has been translated 25%">◔</span>
             </div>
-            <div class="translation-info" data-lang-id="021-menu-2-trans-text-7">/dms has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/dms-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+            <div class="translation-info" data-lang-id="017-menu-2-trans-text-5">/fire has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/fire-fr-translation.js" class="translate-link">help translate ⇗</a></div>
         </div>
     </div>
 </div>
 
 
 <div class="accordion-item">
-    <button class="accordion-title"><b data-lang-id="022-menu-3-main-item">How to Make</b><span class="toggle-icon">+</span></button>
+    <button class="accordion-title"><b data-lang-id="022-menu-3-main-item">Making Ecobricks</b><span class="toggle-icon">+</span></button>
     <div class="accordion-content">
         <!-- 10-step guide -->
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="023-menu-3-sub-item-1">
-                <a href="how.php">10-step guide</a>
+                <a href="how.php">Our 10-step guide</a>
                 <span class="circle" title="This page has been translated 100%">●</span>
             </div>
             <div class="translation-info" data-lang-id="024-menu-3-trans-text-1">how.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-fr-translation.js" class="translate-link">help translate ⇗</a></div>
@@ -492,7 +508,7 @@ window.onload = function() {
 
 
 <div class="accordion-item">
-    <button class="accordion-title"><b data-lang-id="029-menu-4-main-item">Regenerative</b><span class="toggle-icon">+</span></button>
+    <button class="accordion-title"><b data-lang-id="029-menu-4-main-item">Earthen & Regenerative</b><span class="toggle-icon">+</span></button>
     <div class="accordion-content">
         <!-- Our principles -->
         <div class="submenu-item-container">
@@ -545,12 +561,12 @@ window.onload = function() {
     </div>
 </div>
 <div class="accordion-item">
-    <button class="accordion-title"><b data-lang-id="042-menu-5-main-item">About Us</b><span class="toggle-icon">+</span></button>
+    <button class="accordion-title"><b data-lang-id="042-menu-5-main-item">Global Ecobrick Alliance</b><span class="toggle-icon">+</span></button>
     <div class="accordion-content">
         <!-- Global Ecobrick Alliance -->
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="043-menu-5-sub-item-1">
-                <a href="about.php">Global Ecobrick Alliance</a>
+                <a href="about.php">About us</a>
                 <span class="circle" title="This page has been translated 100%">●</span>
             </div>
             <div class="translation-info" data-lang-id="044-menu-5-trans-text-1">about.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/about-fr-translation.js" class="translate-link">help translate ⇗</a></div>
@@ -566,27 +582,53 @@ window.onload = function() {
         <!-- GoBrik Project -->
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="047-menu-5-sub-item-3">
-                <a href="/gobrik">GoBrik Project</a>
+                <a href="/gobrik">Our GoBrik Project</a>
                 <span class="circle" title="This page has been translated 25%">◔</span>
             </div>
             <div class="translation-info" data-lang-id="048-menu-5-trans-text-3">/gobrik has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/gobrik-fr-translation.js" class="translate-link">help translate ⇗</a></div>
         </div>
-        <!-- Additional items follow the same pattern -->
-        <!-- AES -->
-        <div class="submenu-item-container">
-            <div class="submenu-item" data-lang-id="049-menu-5-sub-item-4">
-                <a href="/aes">AES</a>
-                <span class="circle" title="This page has been translated 25%">◔</span>
-            </div>
-            <div class="translation-info" data-lang-id="050-menu-5-trans-text-4">/aes has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/aes-fr-translation.js" class="translate-link">help translate ⇗</a></div>
-        </div>
+      
         <!-- Trainings -->
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="051-menu-5-sub-item-5">
-                <a href="/trainings">Trainings</a>
+                <a href="/trainings">Our Trainings</a>
                 <span class="circle" title="This page has been translated 0%">○</span>
             </div>
             <div class="translation-info" data-lang-id="052-menu-5-trans-text-5">/trainings has been translated 0% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/trainings-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+        </div>
+         <!-- Open Books -->
+         <div class="submenu-item-container">
+            <div class="submenu-item" data-lang-id="057-menu-5-sub-item-8">
+                <a href="open-books.php">Our Open Books</a>
+                <span class="circle" title="This page has been translated 75%">◕</span>
+            </div>
+            <div class="translation-info" data-lang-id="058-menu-5-trans-text-8">open-books.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/open-books-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+        </div>
+
+          <!-- Regen Reporting -->
+          <div class="submenu-item-container">
+            <div class="submenu-item" data-lang-id="065-menu-5-sub-item-12">
+                <a href="regen-reports.php">Our Regen Reporting</a>
+                <span class="circle" title="This page has been translated 25%">◔</span>
+            </div>
+            <div class="translation-info" data-lang-id="066-menu-5-trans-text-12">regen-reports.php has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/regen-reports-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+        </div>
+        <!-- Plastic Coefficients -->
+        <div class="submenu-item-container">
+            <div class="submenu-item" data-lang-id="067-menu-5-sub-item-13">
+                <a href="regen-reports.php">Our Plastic Coefficients</a>
+                <span class="circle" title="This page has been translated 25%">◔</span>
+            </div>
+            <div class="translation-info" data-lang-id="068-menu-5-trans-text-13">regen-reports.php has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/regen-reports-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+        </div>
+
+        <!-- AES -->
+        <div class="submenu-item-container">
+            <div class="submenu-item" data-lang-id="049-menu-5-sub-item-4">
+                <a href="/aes">AES Plastic</a>
+                <span class="circle" title="This page has been translated 25%">◔</span>
+            </div>
+            <div class="translation-info" data-lang-id="050-menu-5-trans-text-4">/aes has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/aes-fr-translation.js" class="translate-link">help translate ⇗</a></div>
         </div>
         <!-- Brikcoins -->
         <div class="submenu-item-container">
@@ -604,14 +646,7 @@ window.onload = function() {
             </div>
             <div class="translation-info" data-lang-id="056-menu-5-trans-text-7">brikchain.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/brikchain-fr-translation.js" class="translate-link">help translate ⇗</a></div>
         </div>
-        <!-- Open Books -->
-        <div class="submenu-item-container">
-            <div class="submenu-item" data-lang-id="057-menu-5-sub-item-8">
-                <a href="open-books.php">Open Books</a>
-                <span class="circle" title="This page has been translated 75%">◕</span>
-            </div>
-            <div class="translation-info" data-lang-id="058-menu-5-trans-text-8">open-books.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/open-books-fr-translation.js" class="translate-link">help translate ⇗</a></div>
-        </div>
+       
         <!-- Movement -->
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="059-menu-5-sub-item-9">
@@ -621,37 +656,22 @@ window.onload = function() {
             <div class="translation-info" data-lang-id="060-menu-5-trans-text-9">/movement has been translated 0% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/movement-fr-translation.js" class="translate-link">help translate ⇗</a></div>
         </div>
         <!-- Arc -->
-        <div class="submenu-item-container">
+        <!-- <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="061-menu-5-sub-item-10">
                 <a href="arc.php">Arc</a>
                 <span class="circle" title="This page has been translated 75%">◕</span>
             </div>
             <div class="translation-info" data-lang-id="062-menu-5-trans-text-10">arc.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/arc-fr-translation.js" class="translate-link">help translate ⇗</a></div>
-        </div>
+        </div> -->
         <!-- Catalyst -->
-        <div class="submenu-item-container">
+        <!-- <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="063-menu-5-sub-item-11">
                 <a href="catalyst.php">Catalyst</a>
                 <span class="circle" title="This page has been translated 25%">◔</span>
             </div>
             <div class="translation-info" data-lang-id="064-menu-5-trans-text-11">catalyst.php has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/catalyst-fr-translation.js" class="translate-link">help translate ⇗</a></div>
-        </div>
-        <!-- Regen Reporting -->
-        <div class="submenu-item-container">
-            <div class="submenu-item" data-lang-id="065-menu-5-sub-item-12">
-                <a href="regen-reports.php">Regen Reporting</a>
-                <span class="circle" title="This page has been translated 25%">◔</span>
-            </div>
-            <div class="translation-info" data-lang-id="066-menu-5-trans-text-12">regen-reports.php has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/regen-reports-fr-translation.js" class="translate-link">help translate ⇗</a></div>
-        </div>
-        <!-- Plastic Coefficients -->
-        <div class="submenu-item-container">
-            <div class="submenu-item" data-lang-id="067-menu-5-sub-item-13">
-                <a href="regen-reports.php">Plastic Coefficients</a>
-                <span class="circle" title="This page has been translated 25%">◔</span>
-            </div>
-            <div class="translation-info" data-lang-id="068-menu-5-trans-text-13">regen-reports.php has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/regen-reports-fr-translation.js" class="translate-link">help translate ⇗</a></div>
-        </div>
+        </div> -->
+      
     </div>
 </div>
 
