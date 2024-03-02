@@ -402,181 +402,164 @@ GENERAL ANSWERS
 	</div>
 </div>
 
-
-		<div class="faq" id="transition">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>Don't ecobricks just encourage people to consume more plastic?</h4></div>
-					
-					<p>This is a question we get a lot from people who have yet to make an ecobrick.  Once you commit to taking full responsibility for your plastic and start packing every piece, you get very choosy about the plastic you buy!  Let's be honest, ecobricking isn't fun— nor is washing and drying your plastics every day to prep them for ecobricking!  In a 2021 cross-sectional survey of ecobrickers, we found that on average their monthly plastic consumption had decreased to 61% of their per capita average.  Rather than give an excuse to continue consuming plastic, ecobricking helps to increase plastic awareness and accelerate plastic transition.</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="transition.php">Plastic Transition</a></h5></div>     
-					<div class="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>                  
-				</div>
-				<!--<div class="faq-image"></div>-->
-			</div>
+<div class="faq" id="transition">
+	<div class="faq-box">
+		<div class="faq-texts">
+			<div class="faq-header"><h4 data-lang-id="153-transition-header">Don't ecobricks just encourage people to consume more plastic?</h4></div>
 			
+			<p data-lang-id="154-transition-content">This is a question we get a lot from people who have yet to make an ecobrick. Once you commit to taking full responsibility for your plastic and start packing every piece, you get very choosy about the plastic you buy! Let's be honest, ecobricking isn't fun— nor is washing and drying your plastics every day to prep them for ecobricking! In a 2021 cross-sectional survey of ecobrickers, we found that on average their monthly plastic consumption had decreased to 61% of their per capita average. Rather than give an excuse to continue consuming plastic, ecobricking helps to increase plastic awareness and accelerate plastic transition.</p>
+
+			<div class="faq-link"><h5 data-lang-id="155-learn-more-transition">Learn more: <a href="transition.php">Plastic Transition</a></h5></div>     
+			<div class="top-link" data-lang-id="156-back-concerns-transition">Back to <a href="#concerns">Ecobrick Concerns</a></div>                  
 		</div>
+	</div>
+</div>
 
-		<div class="faq" id="sequest1">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>I've heard that ecobricks can leach poisons out into the environment.  Is it true?</h4></div>
-					
-					<p>Yes!  If you were to set an ecobrick on fire, leave it in the sun, or boil it in a bucket of water, it certainly would leach poisons.  Just like pretty much anything made from plastic!  In fact, anything used the wrong way can be dangerous.  This is he point of ecobricking: to secure plastic and keep it safe.  Ecobricking is done based on the knowledge that plastic is susceptible to degradation and leaching to the extent that its surface area is exposed to the elements.  When we pack plastic densely into a bottle we reduce the net-surface area a thousand-fold.  Then, when we put ecobricks to use in applications that cover and protect the plastic, the danger of leaching is near nil!  Oh... and don't forget, by not recycling plastic we avoid all the carbon that would be released industrially!</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</a></h5></div>                    
-					<div class="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>   
-
-				</div>
-					<!--<div class="faq-image"></div>-->
-			</div>
+<div class="faq" id="sequest1">
+	<div class="faq-box">
+		<div class="faq-texts">
+			<div class="faq-header"><h4 data-lang-id="157-sequest1-header">I've heard that ecobricks can leach poisons out into the environment. Is it true?</h4></div>
 			
+			<p data-lang-id="158-sequest1-content">Yes! If you were to set an ecobrick on fire, leave it in the sun, or boil it in a bucket of water, it certainly would leach poisons. Just like pretty much anything made from plastic! In fact, anything used the wrong way can be dangerous. This is the point of ecobricking: to secure plastic and keep it safe. Ecobricking is done based on the knowledge that plastic is susceptible to degradation and leaching to the extent that its surface area is exposed to the elements. When we pack plastic densely into a bottle we reduce the net-surface area a thousand-fold. Then, when we put ecobricks to use in applications that cover and protect the plastic, the danger of leaching is near nil! Oh... and don't forget, by not recycling plastic we avoid all the carbon that would be released industrially!</p>
+
+			<div class="faq-link"><h5 data-lang-id="159-learn-more-sequest1">Learn more: <a href="sequest.php">Plastic Sequestration</a></h5></div>                    
+			<div class="top-link" data-lang-id="160-back-concerns-sequest1">Back to <a href="#concerns">Ecobrick Concerns</a></div>   
 		</div>
+	</div>
+</div>
 
-		<div class="faq" id="baddies">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>When and how are ecobricks bad?</h4></div>
-					
-					<p>Ecobricks are bad when they aren't made and used properly.  If you were to set an ecobrick on fire, leave it in the sun, or boil it in a bucket of water, it certainly would leach poisons.  Just like pretty much anything made from plastic!  Anything used the wrong way can be dangerous after all.  However, the whole point of ecobricking is the safe securing of plastic.  Plastic is susceptible to degradation and leaching to the extent that its surface area is exposed to the elements.  When we pack plastic densely into a bottle we reduce the net-surface area a thousand-fold.  Then, when we put ecobricks to use in applications that cover and protect the plastic, the danger of leaching is near nil!  And don't forget, by not recycling plastic we avoid all the carbon that would be released industrially!</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="transition.php">Plastic Sequestration</a></h5></div>                    
-					<div class="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>   
-
-				</div>
-					<!--<div class="faq-image"></div>-->
-			</div>
+<div class="faq" id="baddies">
+	<div class="faq-box">
+		<div class="faq-texts">
+			<div class="faq-header"><h4 data-lang-id="161-baddies-header">When and how are ecobricks bad?</h4></div>
 			
+			<p data-lang-id="162-baddies-content">Ecobricks are bad when they aren't made and used properly. If you were to set an ecobrick on fire, leave it in the sun, or boil it in a bucket of water, it certainly would leach poisons. Just like pretty much anything made from plastic! Anything used the wrong way can be dangerous after all. However, the whole point of ecobricking is the safe securing of plastic. Plastic is susceptible to degradation and leaching to the extent that its surface area is exposed to the elements. When we pack plastic densely into a bottle we reduce the net-surface area a thousand-fold. Then, when we put ecobricks to use in applications that cover and protect the plastic, the danger of leaching is near nil! And don't forget, by not recycling plastic we avoid all the carbon that would be released industrially!</p>
+
+			<div class="faq-link"><h5 data-lang-id="163-learn-more-baddies">Learn more: <a href="transition.php">Plastic Sequestration</a></h5></div>                    
+			<div class="top-link" data-lang-id="164-back-concerns-baddies">Back to <a href="#concerns">Ecobrick Concerns</a></div>   
 		</div>
+	</div>
+</div>
+
 	
-	</div> <!-- STRAY-->
-	
-
 <div class="content-block">
 	<div id="building-questions-full" class="greyish">
-		 <div class="greenish faq-banner"><h3>Building Questions</h3></div>
+		 <div class="greenish faq-banner"><h3 data-lang-id="165-building-questions-header">Building Questions</h3></div>
 	</div>
 		
+	<div class="faq" id="few">
+		<div class="faq-box">
+			<div class="faq-texts">
+				<div class="faq-header"><h4 data-lang-id="166-few-ecobricks-header">What can I make with a few ecobricks?</h4></div>
+				
+				<p data-lang-id="167-few-ecobricks-content">A module! Ecobrick modules are a simple, practical application of ecobricks. All you need are a dozen to start and you can build a simple stool that can later be combined with other modules to make tables and chairs. Milstein modules are the simplest type of module and allow you to build two layers vertically and expand horizontally to make couches, beds and even stages.</p>
 
-		<div class="faq" id="few">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What can I make with a few ecobricks?</h4></div>
-					
-					<p>A module!  Ecobrick modules are a simple, practical application of ecobricks.  All you need are a dozen to start and you can build a simple stool that can later be combined with other modules to make tables and chairs.  Milstein modules are the simplest type of module and allow you to build two layers vertically and expand horizontally to make couches, beds and even stages.</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="modules.php">Ecobrick Modules</a></h5></div> 
-					<div class="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
-				</div>
-				<div class="faq-image"><img src="../webp/milstein.webp" alt="Eco bricks can make sitting stools"></div>
-				</div>
-
-		</div>
-
-		<div class="faq" id="dozens">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What can I make with dozens of ecobricks?</h4></div>
-					
-					<p>Milstein modules!  The cool thing about modules is that they can inter-lock and combine indefinitely.  The hexagonal modules we call "Milsteins".  They are great for making a set of stools.  You can stack them and make a table too.  Milstein modules are super practical, easy to store and re-deploy for parties, gatherings and guests.  </p>
-
-					<div class="faq-link"><h5>Learn more: <a href="/milstein"> Ecobrick Milstein Modules</a></h5></div>     
-					<div class="top-link">Back to <a href="#building-q">Building Questions</a></div>         
-				</div>
-				<div class="faq-image"><img src="../webp/module-table.webp" alt="Eco bricks can make modules."></div>
+				<div class="faq-link"><h5 data-lang-id="168-learn-more-few">Learn more: <a href="modules.php">Ecobrick Modules</a></h5></div> 
+				<div class="top-link" data-lang-id="169-back-building-questions-few">Back to <a href="#building-q">Building Questions</a></div>                  
 			</div>
+			<div class="faq-image" data-lang-id="170-few-ecobricks-image"><img src="../webp/milstein.webp" alt="Eco bricks can make sitting stools"></div>
+		</div>
+	</div>
+
+	<div class="faq" id="dozens">
+		<div class="faq-box">
+			<div class="faq-texts">
+				<div class="faq-header"><h4 data-lang-id="171-dozens-ecobricks-header">What can I make with dozens of ecobricks?</h4></div>
+				
+				<p data-lang-id="172-dozens-ecobricks-content">Milstein modules! The cool thing about modules is that they can inter-lock and combine indefinitely. The hexagonal modules we call "Milsteins". They are great for making a set of stools. You can stack them and make a table too. Milstein modules are super practical, easy to store and re-deploy for parties, gatherings and guests.</p>
+
+				<div class="faq-link"><h5 data-lang-id="173-learn-more-dozens">Learn more: <a href="/milstein">Ecobrick Milstein Modules</a></h5></div>     
+				<div class="top-link" data-lang-id="174-back-building-questions-dozens">Back to <a href="#building-q">Building Questions</a></div>         
+			</div>
+			<div class="faq-image" data-lang-id="175-dozens-ecobricks-image"><img src="../webp/module-table.webp" alt="Eco bricks can make modules."></div>
+		</div>
+	</div>
+
+	<div class="faq" id="hundreds">
+		<div class="faq-box">
+			<div class="faq-texts">
+				<div class="faq-header"><h4 data-lang-id="176-hundreds-ecobricks-header">What can I make with hundreds of ecobricks?</h4></div>
+				
+				<p data-lang-id="177-hundreds-ecobricks-content">Dieleman Lego! There is a special type of module, that works just like toy lego. We call them "Dielemans". Dieleman modules are a geometric configuration of 16 ecobricks that enables vertical and horizontal inter-connection. In other words, they can be stacked horizontally and vertically indefinitely. Applications include indoor playgrounds, temporary stalls, sheds, and circular structures.</p>
+
+				<div class="faq-link"><h5 data-lang-id="178-learn-more-hundreds">Learn more: <a href="/dms">Dieleman Lego Modules</a></h5></div>    
+				<div class="top-link" data-lang-id="179-back-building-questions-hundreds">Back to <a href="#building-q">Building Questions</a></div>             
+			</div>
+			<div class="faq-image" data-lang-id="180-hundreds-ecobricks-image"><img src="../pngs/MD-inter-lock-graphic.png" alt="Eco bricks can make dieleman lego."></div>
+		</div>
+	</div>
+
+	<div class="faq" id="thousands">
+		<div class="faq-box">
+			<div class="faq-texts">
+				<div class="faq-header"><h4 data-lang-id="181-thousands-ecobricks-header">What can I make with thousands of ecobricks?</h4></div>
+				
+				<p data-lang-id="182-thousands-ecobricks-content">Ecobrick open spaces! By combining dozens, or hundreds of milstein and dieleman modules you've got a ecobrick lego that can be deployed at any time to make a customized social space. Ideal for sitting, talking, meeting and playing open spaces, they can be deployed for festivals, showcases, markets, fairs, etc. The modularity enables participants to playfully arrange a space that best suits the needs of the moment.</p>
+
+				<div class="faq-link"><h5 data-lang-id="183-learn-more-thousands">Learn more: <a href="/openspace">More about Ecobrick Open Spaces</a></h5></div>        
+				<div class="top-link" data-lang-id="184-back-building-questions-thousands">Back to <a href="#building-q">Building Questions</a></div>               
+			</div>
+			<div class="faq-image" data-lang-id="185-thousands-ecobricks-image"><img src="../webp/openspace.webp" alt="Eco bricks can make open spaces"></div>
+		</div>
+	</div>	
+</div>
+
+<div class="faq" id="tens-thousands">
+	<div class="faq-box">
+		<div class="faq-texts">
+			<div class="faq-header"><h4 data-lang-id="186-tens-thousands-header">What can I make with tens of thousands of ecobricks?</h4></div>
 			
+			<p data-lang-id="187-tens-thousands-content">A green space! By combining ecobricks with traditional earth building techniques you can build parks, play areas, garden and food forests for your home or community. Ecobricks are laid horizontally in earthen mortar (i.e., cob, adobe, etc.) to build up benches, garden beds, walls and even structures. Of course, technically you only need dozens of ecobricks to start earth building— but when you've got thousands, that is when the real fun begins!</p>
+
+			<div class="faq-link"><h5 data-lang-id="188-learn-more-tens-thousands">Learn more: <a href="earth.php">More about Earth & Ecobrick Building</a></h5></div>                    
+			<div class="top-link" data-lang-id="189-back-building-questions-tens-thousands">Back to <a href="#building-q">Building Questions</a></div>   
 		</div>
+		<div class="faq-image" data-lang-id="190-tens-thousands-image"><img src="../webp/tens-thousands.webp" alt="Using tens of thousands of eco bricks to make green spaces"></div>
+	</div>
+</div>
 
-		<div class="faq" id="hundreds">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What can I make with hundreds of ecobricks?</h4></div>
-					
-					<p>Dieleman Lego! There is a special type of module, that works just like toy lego.  We call them "Dielemans". Dieleman modules are a geometric configuration of 16 ecobricks that enables vertical and horizontal inter-connection. In other words, they can be stacked horizontally and vertically indefinitely. Applications include indoor playgrounds, temporary stalls, sheds, and circular structures.</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="/dms">Dieleman Lego Modules</a></h5></div>    
-					<div class="top-link">Back to <a href="#building-q">Building Questions</a></div>             
-				</div>
-				<div class="faq-image"><img src="../pngs/MD-inter-lock-graphic.png" alt="Eco bricks can make dieleman lego."></div>
-			</div>
-		</div>
-
-		<div class="faq" id="thousands">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What can I make with thousands of ecobricks?</h4></div>
-					
-					<p>Ecobrick open spaces!  By combining dozens, or hundreds of milstein and dieleman modules you've got a ecobrick lego that can be deployed at any time to make a customized social space.  Ideal for sitting, talking, meeting and playing open spaces, they can be deployed for festivals, showcases, markets, fairs, etc.  The modularity enables participants to playfully arrange a space that best suits the needs of the moment.</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="/openspace">More about Ecobrick Open Spaces</a></h5></div>        
-					<div class="top-link">Back to <a href="#building-q">Building Questions</a></div>               
-				</div>
-				<div class="faq-image"><img src="../webp/openspace.webp" alt="Eco bricks can make open spaces"></div>
-			</div>
+<div class="faq" id="circular">
+	<div class="faq-box">
+		<div class="faq-texts">
+			<div class="faq-header"><h4 data-lang-id="191-circular-header">What happens when an ecobrick application comes to its end?</h4></div>
 			
+			<p data-lang-id="192-circular-content">Good question! It's important to think about the next life of things we make— what will happen to them when they come to their end. We provide guidelines to make sure all ecobrick applications— from modules to earth build— have their next life built in. By making modules with silicone or tire-bands, ecobricks can be removed from the module without damaging them. Basically, we're leveraging the long-lasting properties of plastic to make our design circular. That means the module can be disbanded, rebuilt, repaired... or the ecobricks can be taken and used for an earth build.</p>
+
+			<div class="faq-link"><h5 data-lang-id="193-learn-more-circular">Learn more: <a href="spiral.php">Ecobrick Spiral Design</a></h5></div>                    
+			<div class="top-link" data-lang-id="194-back-building-questions-circular">Back to <a href="#building-q">Building Questions</a></div>
 		</div>
+		<div class="faq-image" data-lang-id="195-circular-image"><img src="../svgs/circular-applications.svg" width="400" alt="Spiral & Circular eco brick design applies to a module"></div>
+	</div>
+</div>
 
-		<div class="faq" id="tens-thousands">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What can I make with tens of thousands of ecobricks?</h4></div>
-					
-					<p>A green space!  By combining ecobricks with tradional earth building techniques you can build parks, play areas, garden and food forests for your home or community.  Ecobricks are laid horizontally in earthen mortar (i.e. cob, adobe, etc.) to build up benches, garden beds, walls and even structures.  Of course, technically you only need dozens of ecobricks to start earth building— but when you've got thousands, that is when the real fun begin!</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="earth.php">More about Earth & Ecobrick Building</a></h5></div>                    
-					<div class="top-link">Back to <a href="#building-q">Building Questions</a></div>   
-				</div>
-				<div class="faq-image"><img src="../webp/tens-thousands.webp" alt="Using tens of thousands of eco bricks to make green spaces"></div>
-			</div>
-		</div>
-
-		<div class="faq" id="circular">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What happens when an ecobrick application comes to it's end?</h4></div>
-					
-					<p>Good question!  It's important to think about the next life of things we make— what will happen to them when they come to their end.  We provide guidelines to make sure all ecobrick applications— from modules to earth build— have their next life built in.  By making modules with silicione or tire-bands, ecobricks can be removed from the module without damaging them.  Basically, we're leveraging the long lasting properties of plastic to make our design circular.  That means the module can be disbanded, rebuilt, repaired... or the ecobricks can be taken and used for an earth build.
-					</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="spiral.php">Ecobrick Spiral Design</a></h5></div>                    
-					<div class="top-link">Back to <a href="#building-q">Building Questions</a></div>
-				</div>
-				<div class="faq-image"><img src="../svgs/circular-applications.svg" width="400" alt="Spiral & Circular eco brick design applies to a module" ></div>
-			</div>
+<div class="faq" id="earth">
+	<div class="faq-box">
+		<div class="faq-texts">
+			<div class="faq-header"><h4 data-lang-id="196-earth-header">What exactly is Earth and Ecobrick building?</h4></div>
 			
+			<p data-lang-id="197-earth-content">Building with earth is an ancient human tradition found around the world in nations ancient and ongoing. By combining it with ecobricks, anyone can build simple non-structural constructions. In particular, earth and ecobrick building is ideal for making planters, benches and garden beds— parks, food-forests, and in general green spaces that can serve our community and be a home for plants and other species. Using local earth to make cob mortar, our ecobricks are covered up and secured from all forms of degradation.</p>
+
+			<div class="faq-link"><h5 data-lang-id="198-learn-more-earth">Learn more: <a href="earth.php">Earth & Ecobrick Building</a></h5></div>     
+			<div class="top-link" data-lang-id="199-back-building-questions-earth">Back to <a href="#building-q">Building Questions</a></div>                  
 		</div>
+		<div class="faq-image" data-lang-id="200-earth-image"><img src="../webp/earth-tree-400px.webp" alt="A circular eco brick bench"></div>
+	</div>
+</div>
 
-		<div class="faq" id="earth">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What exactly is Earth and Ecobrick building?</h4></div>
-					
-					<p>Building with earth is an ancient human tradition found around the world in nations ancient and ongoing.  By combining it with ecobricks, anyone can build simple non-structural constructions.  In particular, earth and ecobrick building is ideal for making planters, benches and garden beds— parks, food-forests, and in general green spaces that can serve our community and be a home for plants and other species.  Using local earth to make cob mortar, our ecobricks are covered up and secured from all forms of degradation.</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="earth.php">Earth & Ecobrick Buidling</a></h5></div>     
-					<div class="top-link">Back to <a href="#building-q">Building Questions</a></div>                  
-				</div>
-				<div class="faq-image"><img src="../webp/earth-tree-400px.webp" alt="A circular eco brick bench"></div>
-			</div>
+<div class="faq" id="earth-methods">
+	<div class="faq-box">
+		<div class="faq-texts">
+			<div class="faq-header"><h4 data-lang-id="201-earth-methods-header">How to build with Ecobricks and Earth?</h4></div>
 			
-		</div>
+			<p data-lang-id="202-earth-methods-content">Building with earth and ecobricks is... pretty awesome! First you start by learning about the ancient earth traditions in your area. Then you get your ecobricks, friends and community together. Using nothing but local materials you then get down and dirty digging a foundation, laying it down and building on up. Layer by layer you add ecobricks, cob, ecobricks, cob. As you go you curve and sculpt your bench, planter or wall. When it's up and it's dry then you choose the appropriate outer skin and render it on.<br>That's obviously too short a summary! If you're serious, you'll want to check out our step by step directions and suggested techniques.</p>
 
-		<div class="faq" id="earth-methods">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>How to build with Ecobricks and Earth?</h4></div>
-					
-					<p>Building with earth and ecobricks is... pretty awesome!  First you start by learning about the ancient earth traditions in your area.  Then you get your ecobricks, friends and community together.  Using nothing but local materials you then get down and dirty digging a foundation, laying it down and building on up.  Layer by layer you add ecobricks, cob, ecobricks, cob.  As you go you curve and sculpt your bench, planter or wall.  When it's up and it's dry then you choose the appropriate outer skin and render it on.<br>That's obviously too short a summary! If you're serious, you'll want to check out our step by step directions and suggested techniques.</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="/earth-methods">Earth & Ecobrick Methods</a></h5></div>                    
-					<div class="top-link">Back to <a href="#building-q">Building Questions</a></div>
-				</div>
-				<div class="faq-image"><img src="../webp/earth-build.webp" alt="Earth and Eco brick buiding"></div>
-			</div>
+			<div class="faq-link"><h5 data-lang-id="203-learn-more-earth-methods">Learn more: <a href="/earth-methods">Earth & Ecobrick Methods</a></h5></div>                    
+			<div class="top-link" data-lang-id="204-back-building-questions-earth-methods">Back to <a href="#building-q">Building Questions</a></div>
 		</div>
-	
+		<div class="faq-image" data-lang-id="205-earth-methods-image"><img src="../webp/earth-build.webp" alt="Earth and Eco brick building"></div>
+	</div>
+</div>
+
 
 		<div class="faq" id="fire">
 			<div class="faq-box">

@@ -213,6 +213,29 @@ window.onload = function() {
 }
 
 
+.submenu-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.circle:hover + .translation-info,
+.circle:focus + .translation-info,
+.translation-info:hover {
+    display: block; /* Show on hover or focus */
+}
+
+.translation-info {
+    display: none; /* Hidden by default */
+    font-size: 0.9em;
+    color: var(--subdued-text);
+    padding-left: 20px; /* Adjust as needed */
+}
+
+.translate-link {
+    color: var(--link-color); /* Ensure this matches your theme */
+    text-decoration: none; /* Adjust as needed */
+}
+
 
 </style>
 
@@ -310,40 +333,68 @@ window.onload = function() {
 
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
 
-   
     <div class="accordion">
+    <!-- What are Ecobricks? -->
     <div class="accordion-item">
         <button class="accordion-title">What are Ecobricks?<span class="toggle-icon">+</span></button>
         <div class="accordion-content">
-            <a href="what.php"><span class="circle">●</span> Overview & Standards</a>
-            <a href="/cigbricks"><span class="circle">○</span> Cigbricks</a>
-            <a href="/ocean"><span class="circle">◔</span> Ocean Ecobricks</a>
-            <a href="/plastic"><span class="circle">◑</span> Plastic’s Long Story</a>
+            <div class="submenu-item">
+                <a href="what.php"><span class="circle">●</span> Overview & Standards</a>
+                <div class="translation-info">
+                    This page what.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-fr-translation.js" class="translate-link">assist translation on github ⇗</a>
+                </div>
+            </div>
+            <div class="submenu-item">
+                <a href="/cigbricks"><span class="circle">○</span> Cigbricks</a>
+                <div class="translation-info">
+                    This page /cigbricks has been translated 0% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/cigbricks-fr-translation.js" class="translate-link">assist translation on github ⇗</a>
+                </div>
+            </div>
+            <div class="submenu-item">
+                <a href="/ocean"><span class="circle">◔</span> Ocean Ecobricks</a>
+                <div class="translation-info">
+                    This page /ocean has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/ocean-fr-translation.js" class="translate-link">assist translation on github ⇗</a>
+                </div>
+            </div>
+            <div class="submenu-item">
+                <a href="/plastic"><span class="circle">◑</span> Plastic’s Long Story</a>
+                <div class="translation-info">
+                    This page /plastic has been translated 50% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/plastic-fr-translation.js" class="translate-link">assist translation on github ⇗</a>
+                </div>
+            </div>
         </div>
     </div>
+    
+    <!-- Building -->
     <div class="accordion-item">
         <button class="accordion-title">Building<span class="toggle-icon">+</span></button>
         <div class="accordion-content">
-            <a href="build.php"><span class="circle">◕</span> Methods overview</a>
-            <a href="modules.php"><span class="circle">◕</span> Modules</a>
-            <a href="earth.php"><span class="circle">◕</span> Earth</a>
-            <a href="/earth-methods"><span class="circle">◔</span> Earth Methods</a>
-            <a href="/fire"><span class="circle">◔</span> Fire Safety</a>
-            <a href="/open-spaces"><span class="circle">◔</span> Open spaces</a>
-            <a href="/dms"><span class="circle">◔</span> Dieleman modules</a>
+            <!-- Methods overview -->
+            <div class="submenu-item">
+                <a href="build.php"><span class="circle">◕</span> Methods overview</a>
+                <div class="translation-info">
+                    This page build.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/build-fr-translation.js" class="translate-link">assist translation on github ⇗</a>
+                </div>
+            </div>
+            <!-- Additional submenu items for "Building" -->
         </div>
     </div>
+    
+    <!-- How to Make -->
     <div class="accordion-item">
         <button class="accordion-title">How to Make<span class="toggle-icon">+</span></button>
         <div class="accordion-content">
-            <a href="how.php"><span class="circle">●</span> 10-step guide</a>
-            <a href="earthwands.php"><span class="circle">◕</span> Earthwands</a>
-            <a href="transition.php"><span class="circle">◕</span> Plastic Transition</a>
+            <!-- 10-step guide -->
+            <div class="submenu-item">
+                <a href="how.php"><span class="circle">●</span> 10-step guide</a>
+                <div class="translation-info">
+                    This page how.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-fr-translation.js" class="translate-link">assist translation on github ⇗</a>
+                </div>
+            </div>
+            <!-- Additional submenu items for "How to Make" -->
         </div>
     </div>
 </div>
-
-
 
 
 
@@ -431,6 +482,21 @@ document.querySelectorAll('.accordion-title').forEach(button => {
             currentAccordionContent.style.maxHeight = currentAccordionContent.scrollHeight + "px";
             toggleIcon.textContent = '-';
         }
+    });
+});
+
+
+
+document.querySelectorAll('.circle').forEach(circle => {
+    circle.addEventListener('click', function() {
+        const translationInfo = this.nextElementSibling;
+        const isVisible = translationInfo.style.display === 'block';
+        // Hide any currently visible translation info
+        document.querySelectorAll('.translation-info').forEach(div => {
+            div.style.display = 'none';
+        });
+        // Toggle the visibility of the clicked circle's translation info
+        translationInfo.style.display = isVisible ? 'none' : 'block';
     });
 });
 
