@@ -220,6 +220,10 @@ window.onload = function() {
     color: var(--header-accent);
 }
 
+.cricle:hover {
+  color: var(--emblem-blue);
+}
+
 .translation-info {
     max-height: 0;
     overflow: hidden;
@@ -228,6 +232,7 @@ window.onload = function() {
     color: var(--subdued-text);
     padding: 0px 10px 10px 10px;
     display: none; /* Initially hidden, shown on circle click */
+    text-align: left;
 }
 
 /* Styling for Links */
@@ -260,6 +265,22 @@ window.onload = function() {
 }
 
 
+/* CSS to rotate the + into an x - example with text change */
+.toggle-icon.toggle-active::before {
+    content: '×'; /* Unicode for multiplication sign, resembling an x */
+}
+
+/* Initial state, assuming you're using a pseudo-element for the + */
+.toggle-icon::before {
+    content: '+'; /* Ensure this matches your initial setup */
+    display: inline-block;
+    transition: transform 0.3s ease; /* Smooth transition for rotation */
+}
+
+/* Rotation example for a graphical + to x transformation */
+.toggle-icon.toggle-active {
+    transform: rotate(45deg); /* Example transformation */
+}
 
 
 </style>
@@ -460,16 +481,22 @@ window.onload = function() {
   
 
        <script>
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Toggle the main accordion sections
     document.querySelectorAll('.accordion-title').forEach(button => {
         button.addEventListener('click', () => {
             const accordionContent = button.nextElementSibling;
+            const toggleIcon = button.querySelector('.toggle-icon');
+
+            // Toggle the active class for the icon transformation
+            toggleIcon.classList.toggle('toggle-active');
 
             // Close other items
             document.querySelectorAll('.accordion-content').forEach(content => {
                 if (content !== accordionContent && content.style.maxHeight) {
                     content.style.maxHeight = null;
+                    // Reset other toggle icons to the initial state
+                    content.previousElementSibling.querySelector('.toggle-icon').classList.remove('toggle-active');
                 }
             });
 
@@ -477,10 +504,14 @@ document.addEventListener('DOMContentLoaded', function() {
             if (accordionContent.style.maxHeight) {
                 accordionContent.style.maxHeight = null;
             } else {
-                accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+                accordionContent.style.maxHeight = 'fit-content'; // Adjusted as per previous discussion
             }
         });
     });
+
+    // Existing code for the circle click event...
+});
+
 
     // Toggle the translation information
     document.querySelectorAll('.circle').forEach(circle => {
