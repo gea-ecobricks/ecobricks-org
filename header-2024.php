@@ -164,6 +164,7 @@ window.onload = function() {
 
 /*  ACORDION MENU  */
 
+./* Accordion Menu Base Styles */
 .accordion-item {
     border-bottom: 1px solid var(--subdued-text);
 }
@@ -184,63 +185,54 @@ window.onload = function() {
 }
 
 .toggle-icon {
-  font-size: 1.4em;
+    font-size: 1.4em;
     color: var(--text-color);
 }
 
-.accordion-content {
+.accordion-content, .translation-info-content {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
 }
 
-.accordion-content a {
+.accordion-content a, .submenu-item {
     display: flex;
     align-items: center;
-    padding: 5px 10px;
     text-decoration: none;
     color: var(--text-color);
     border-bottom: 1px solid #eee;
     padding: 10px;
-    flex-grow: 1; /* Allows the link to fill the space */
 }
 
 .accordion-content a:last-child {
     border-bottom: none;
 }
 
-
 .circle {
-    margin-right: 10px; /* Space between the circle icon and the link */
-    cursor: pointer; /* Change cursor to indicate interactability */
+    cursor: pointer;
+    margin-right: 10px; /* Adjust based on layout preference */
 }
 
 .submenu-item {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 5px 10px; /* Adjust padding as needed */
+    width: 100%;
 }
 
-.circle:hover + .translation-info, /* Adjust selector based on your structure */
-.circle:focus + .translation-info,
-.translation-info:hover {
-    display: block; /* Show translation info on hover or focus */
-}
-
-
+/* Translation Info Styles */
 .translation-info {
-    display: none; /* Hidden by default */
     font-size: 0.9em;
     color: var(--subdued-text);
-    padding-left: 30px; /* Adjust based on your layout */
-    width: 100%; /* Ensure it takes up the full width */
+    padding: 10px;
+    display: none; /* Initially hidden */
 }
-
 
 .translate-link {
-    color: var(--link-color); /* Ensure this matches your theme */
-    text-decoration: none; /* Adjust as needed */
+    color: var(--link-color);
+    text-decoration: none;
 }
+
 
 
 </style>
@@ -446,44 +438,46 @@ window.onload = function() {
 //         }
 //     });
 // });
+document.querySelectorAll('.circle').forEach(circle => {
+    circle.addEventListener('click', function(event) {
+        event.stopPropagation(); // Prevent the accordion from toggling when clicking the circle
 
-document.querySelectorAll('.accordion-title').forEach(button => {
-    button.addEventListener('click', () => {
-        const currentAccordionContent = button.nextElementSibling;
-        const allAccordionContents = document.querySelectorAll('.accordion-content');
-        const toggleIcon = button.querySelector('.toggle-icon'); // Get the toggle icon
+        const translationInfo = this.nextElementSibling; // Assuming .translation-info is the immediate next sibling
 
-        // First, close all submenus except the current one
-        allAccordionContents.forEach(accordionContent => {
-            if (accordionContent !== currentAccordionContent) {
-                accordionContent.style.maxHeight = null;
-                accordionContent.previousElementSibling.querySelector('.toggle-icon').textContent = '+'; // Reset other icons to '+'
-            }
-        });
-
-        // Then, toggle the current submenu
-        if (currentAccordionContent.style.maxHeight && currentAccordionContent.style.maxHeight !== '0px') {
-            currentAccordionContent.style.maxHeight = null;
-            toggleIcon.textContent = '+';
+        // Toggle translation info
+        if (translationInfo.style.display === "none" || !translationInfo.style.display) {
+            translationInfo.style.display = "block";
+            setTimeout(() => {
+                const maxHeight = translationInfo.scrollHeight + "px";
+                translationInfo.style.maxHeight = maxHeight;
+            }, 10); // Timeout to ensure the display: block takes effect before max-height transition
         } else {
-            currentAccordionContent.style.maxHeight = currentAccordionContent.scrollHeight + "px";
-            toggleIcon.textContent = '-';
+            translationInfo.style.maxHeight = null;
+            setTimeout(() => {
+                translationInfo.style.display = "none";
+            }, 500); // Match the CSS transition time
         }
     });
 });
 
+// Ensure main accordion functionality does not interfere
+document.querySelectorAll('.accordion-title').forEach(button => {
+    button.addEventListener('click', () => {
+        const accordionContent = button.nextElementSibling;
 
-
-document.querySelectorAll('.circle').forEach(circle => {
-    circle.addEventListener('click', function() {
-        const translationInfo = this.nextElementSibling;
-        const isVisible = translationInfo.style.display === 'block';
-        // Hide any currently visible translation info
-        document.querySelectorAll('.translation-info').forEach(div => {
-            div.style.display = 'none';
+        // Close other items
+        document.querySelectorAll('.accordion-content').forEach(content => {
+            if(content !== accordionContent) {
+                content.style.maxHeight = null;
+            }
         });
-        // Toggle the visibility of the clicked circle's translation info
-        translationInfo.style.display = isVisible ? 'none' : 'block';
+
+        // Toggle current item
+        if (accordionContent.style.maxHeight) {
+            accordionContent.style.maxHeight = null;
+        } else {
+            accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+        }
     });
 });
 
