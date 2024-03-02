@@ -384,7 +384,7 @@ window.onload = function() {
     <div class="accordion">
     <!-- What are Ecobricks? -->
     <div class="accordion-item">
-        <button class="accordion-title">What are Ecobricks?<span class="toggle-icon">+</span></button>
+        <button class="accordion-title">What are Ecobricks?<span class="toggle-icon"></span></button>
         <div class="accordion-content">
             <div class="submenu-item-container">
                 <div class="submenu-item">
