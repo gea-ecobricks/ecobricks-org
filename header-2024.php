@@ -169,8 +169,8 @@ window.onload = function() {
 
 
 
-.accordion-title a:hover {
-  background: var(--side-overlays);
+.accordion-title button:hover {
+  background: var(--side-overlays) !important;
   color: var(--h1);
     font-weight: 600;
 
