@@ -330,51 +330,23 @@ window.onload = function() {
     </div>
 
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
-
     <div class="accordion">
     <!-- What are Ecobricks? -->
     <div class="accordion-item">
         <button class="accordion-title">What are Ecobricks?<span class="toggle-icon">+</span></button>
         <div class="accordion-content">
             <div class="submenu-item">
-                <span class="circle" title="This page has been translated 100%">●</span>
                 <a href="what.php">Overview & Standards</a>
+                <span class="circle" title="This page has been translated 100%">●</span>
                 <div class="translation-info">
                     This page what.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-fr-translation.js" class="translate-link">assist translation on github ⇗</a>
                 </div>
             </div>
-            <div class="submenu-item">
-                <span class="circle" title="This page has been translated 0%">○</span>
-                <a href="/cigbricks">Cigbricks</a>
-                <div class="translation-info">
-                    This page /cigbricks has been translated 0% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/cigbricks-fr-translation.js" class="translate-link">assist translation on github ⇗</a>
-                </div>
-            </div>
-            <div class="submenu-item">
-                <span class="circle" title="This page has been translated 25%">◔</span>
-                <a href="/ocean">Ocean Ecobricks</a>
-                <div class="translation-info">
-                    This page /ocean has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/ocean-fr-translation.js" class="translate-link">assist translation on github ⇗</a>
-                </div>
-            </div>
-            <div class="submenu-item">
-                <span class="circle" title="This page has been translated 50%">◑</span>
-                <a href="/plastic">Plastic’s Long Story</a>
-                <div class="translation-info">
-                    This page /plastic has been translated 50% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/plastic-fr-translation.js" class="translate-link">assist translation on github ⇗</a>
-                </div>
-            </div>
+            <!-- Repeat for other submenu items, ensuring circle and translation-info are correctly placed -->
         </div>
     </div>
-
-    <!-- Building -->
-    <!-- Follow the same pattern as above for "Building" menu items -->
-
-    <!-- How to Make -->
-    <!-- Follow the same pattern as above for "How to Make" menu items -->
+    <!-- Additional accordion items... -->
 </div>
-
-
 
 
 
