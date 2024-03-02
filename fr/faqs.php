@@ -623,110 +623,81 @@ GENERAL ANSWERS
 </div>
 
 
-
-		<div class="faq" id="funds">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</h4></div>
-					
-					<p>Good question!  Asking where an enterprise receives its funding is key to understanding their priorities and principles.  We generate our funds by providing ecological service and by raising ecological awareness.  Folks around the world join our on-site and online <a href="/trainings">training</a> and our Trainers remit 20% to the the GEA.  In addition our trainers sell our <a href="earthwands.php">EarthWand</a> ecobrick stick and remit 50% back to the GEA.  Finally, through GoBrik.com all the ecobricking that our block chain authenticates is quantified and available for purchase as <a href="https://gobrik.com/offset" target="_blank"> AES plastic offset credits</a>.  Buying Authenticated Ecobrick Sequestered plastic credits is a great way to take responsibility for your plastic generation and energize our work— and through it the global plastic transition movement.</p>
-
-					<div class="faq-link"><h5>Start: <a href="offset.php">Offset your plastic with us</a></h5></div>  
-					<div class="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
-				</div>
-			</div>	
-		</div>
-
-
-		<div class="faq" id="mandalas">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>How does the ecobrick movement spread?  Are people paid to do this?</h4></div>
-				
-					<p>Nope!  Nobody gets paid to ecobrick.  The ecobrick movement is a non-capital movement powered by collaboration and green spirit.  In other words, the motivation to see our earth clean and green is firstly and foremostly what inspires not just ecobricking, but the training sessions done by our trainers, and the operation of the Global Ecobrick Alliance.  By adhering to clear principles and methodologies, the movement spreads "mandalically".   This quiet and subtle yet potent and powerful social spread is what we call mandalic collaboration.   This philosophy helps to make sense of the paradox of our decentalized movement presided over by a centralized for-Earth enterprise.</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="/mandalas">Mandalic Collaboration</a></h5></div>                    
-					<div class="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
-				</div>
-				<div class="faq-image"><img src="../webp/mandalic.webp" alt="than mandalic unfolding of eco bricks" loading="lazy"></div>
-			</div>
-		</div>
-
-
-
-	
-
-		<div class="faq" id="trainer-what">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What is a "GEA Certified Trainer"?</h4></div>
-					
-					<p>These are every day folks who are passionate about the planet and who have completeD our intensive Global Ecobrick Alliance trainer of trainer program.  GEA Trainers are skilled in making ecobricks, building modules and the ins-and-outs of plastic and its dangers.  They are certificed by the GEA to lead Ecobrick Starter Workshops. Our master trainers have signed off on their understanding and commitment and they are part of our global network.  Trainers are available to run ecobrick starter workshops for your group, company, or community.  They qualify to ask for a GEA standardized trainer fee which varies by country and currency.  20% of their fee is returned to the GEA.</p>
-
-					<div class="faq-link"><h5>Learn more <a href="trainings">GEA Training Programs & etwork</a></h5></div>  
-					<div class="top-link">Back to <a href="#movement-q">Movement Questions</a></div>                  
-				</div>
-				<div class="faq-image"><img src="../webp/gea-logo-400px.webp" alt="than mandalic unfolding of eco bricks" loading="lazy"></div>
-			</div>	
-		</div>
-
-		
-
-		<div class="faq" id="trainings">
-				<div class="faq-box">
-					<div class="faq-texts">
-						<div class="faq-header"><h4>How can I become a GEA certified ecobrick trainer?</h4></div>
-					
-						<p>We love to add your planet passion to our network.  There's no prequisites— other than experience making your own ecobricks!  To get a feel for what's involved, you can join one of the GEA's starter workshops!  We've got them going on all the time, online and onffline around the world.  Once you're ready, you can register for one of our five session GEA Trainer of Trainer workshops.  While our ToTs happen online very two months, we also do them onsite by commision: for cities, governments and companies keen to deploy a local ecobricking movement.  We also have Earth & Building starter and trainer workshops too!</p>
-
-						<div class="faq-link"><h5>Learn more: <a href="/trainings">GEA Trainer Programs</a></h5></div>              
-						<div class="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="faq" id="catalyst">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>How can my company assist the ecobrick and plastic transition movement?</h4></div>
-				
-					<p>By leading by example.  Companies around the world have commissioned GEA Trainers to show their staff how to manage, track and ecobrick their plastic.  Then after a while they train their keenest staff to be trainers themselves!  Some companies host ecobrick workshops on their premises, others send their trainers out to the community.  However they do it, they make sure that they are setting the example in reducing, sequestering and transitioning from plastic.  To help keen green companies, the GEA has some powerful tools!</p>
-
-					<div class="faq-link"><h5>Learn more: <a href="catalyst.php">Catalyst Companies</a></h5></div>
-					<div class="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
-				</div>
-			
-				<div class="faq-image"><img src="../webp/catalyst-logo.webp" alt="enterprises to go green" loading="lazy"></div>
-			</div>
-		</div>
+<div class="faq" id="funds">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="227-faq_funds_question">If you don't receive sponsorship, donations, charity or grants how do you fund this amazing site, app and global team?</h4></div>
+            <p data-lang-id="228-faq_funds_answer">Good question!  Asking where an enterprise receives its funding is key to understanding their priorities and principles.  We generate our funds by providing ecological service and by raising ecological awareness.  Folks around the world join our on-site and online <a href="/trainings" data-lang-id="229-faq_funds_training_link">training</a> and our Trainers remit 20% to the the GEA.  In addition our trainers sell our <a href="earthwands.php" data-lang-id="230-faq_funds_earthwand_link">EarthWand</a> ecobrick stick and remit 50% back to the GEA.  Finally, through GoBrik.com all the ecobricking that our block chain authenticates is quantified and available for purchase as <a href="https://gobrik.com/offset" target="_blank" data-lang-id="231-faq_funds_aes_link"> AES plastic offset credits</a>.  Buying Authenticated Ecobrick Sequestered plastic credits is a great way to take responsibility for your plastic generation and energize our work— and through it the global plastic transition movement.</p>
+            <div class="faq-link"><h5 data-lang-id="232-faq_funds_start_link">Start: <a href="offset.php" data-lang-id="233-faq_funds_offset_link">Offset your plastic with us</a></h5></div>
+            <div class="top-link" data-lang-id="234-faq_funds_back_link">Back to <a href="#movement-q">Movement Questions</a></div>
+        </div>
+    </div>  
 </div>
 
+<div class="faq" id="mandalas">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="235-faq_mandalas_question">How does the ecobrick movement spread?  Are people paid to do this?</h4></div>
+            <p data-lang-id="236-faq_mandalas_answer">Nope!  Nobody gets paid to ecobrick.  The ecobrick movement is a non-capital movement powered by collaboration and green spirit.  In other words, the motivation to see our earth clean and green is firstly and foremostly what inspires not just ecobricking, but the training sessions done by our trainers, and the operation of the Global Ecobrick Alliance.  By adhering to clear principles and methodologies, the movement spreads "mandalically".   This quiet and subtle yet potent and powerful social spread is what we call mandalic collaboration.   This philosophy helps to make sense of the paradox of our decentralized movement presided over by a centralized for-Earth enterprise.</p>
+            <div class="faq-link"><h5 data-lang-id="237-faq_mandalas_learn_more">Learn more: <a href="/mandalas" data-lang-id="238-faq_mandalas_link">Mandalic Collaboration</a></h5></div>
+            <div class="top-link" data-lang-id="239-faq_mandalas_back_link">Back to <a href="#movement-q">Movement Questions</a></div>
+        </div>
+        <div class="faq-image" data-lang-id="240-faq_mandalas_image"><img src="../webp/mandalic.webp" alt="the mandalic unfolding of eco bricks" loading="lazy"></div>
+    </div>
+</div>
 
-	
+<div class="faq" id="trainer-what">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="241-faq_trainer_what_question">What is a "GEA Certified Trainer"?</h4></div>
+            <p data-lang-id="242-faq_trainer_what_answer">These are every day folks who are passionate about the planet and who have completed our intensive Global Ecobrick Alliance trainer of trainer program.  GEA Trainers are skilled in making ecobricks, building modules and the ins-and-outs of plastic and its dangers.  They are certified by the GEA to lead Ecobrick Starter Workshops. Our master trainers have signed off on their understanding and commitment and they are part of our global network.  Trainers are available to run ecobrick starter workshops for your group, company, or community.  They qualify to ask for a GEA standardized trainer fee which varies by country and currency.  20% of their fee is returned to the GEA.</p>
+            <div class="faq-link"><h5 data-lang-id="243-faq_trainer_what_learn_more">Learn more <a href="trainings" data-lang-id="244-faq_trainer_what_link">GEA Training Programs & Network</a></h5></div>
+            <div class="top-link" data-lang-id="245-faq_trainer_what_back_link">Back to <a href="#movement-q">Movement Questions</a></div>
+        </div>
+        <div class="faq-image" data-lang-id="246-faq_trainer_what_image"><img src="../webp/gea-logo-400px.webp" alt="GEA logo" loading="lazy"></div>
+    </div>  
+</div>
 
-	<div class="content-block">
-		<div id="gobrik-questions-full" class="greyish">
-			<div  class="blueish faq-banner"><h3>GoBrik Questions</h3></div>
-		</div>
+		
+<div class="faq" id="trainings">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="247-faq_trainings_question">How can I become a GEA certified ecobrick trainer?</h4></div>
+            <p data-lang-id="248-faq_trainings_answer">We love to add your planet passion to our network.  There's no prerequisites— other than experience making your own ecobricks!  To get a feel for what's involved, you can join one of the GEA's starter workshops!  We've got them going on all the time, online and offline around the world.  Once you're ready, you can register for one of our five session GEA Trainer of Trainer workshops.  While our ToTs happen online every two months, we also do them onsite by commission: for cities, governments and companies keen to deploy a local ecobricking movement.  We also have Earth & Building starter and trainer workshops too!</p>
+            <div class="faq-link"><h5 data-lang-id="249-faq_trainings_learn_more">Learn more: <a href="/trainings" data-lang-id="250-faq_trainings_link">GEA Trainer Programs</a></h5></div>
+            <div class="top-link" data-lang-id="251-faq_trainings_back_link">Back to <a href="#movement-q">Movement Questions</a></div>
+        </div>
+    </div>
+</div>
 
-		<div class="faq" id="gobrik">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>What is this GoBrik app for ecobricking?</h4></div>
-					
-					<p>The GoBrik platform serves ecobrickers around the world, enabling them to log, manage, validate, authenticate and exchange their ecobricks. Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. Once logged, ecobricks are automatically submitted to the validation queue where they are reviewed by the community of ecobrickers. Ecobricks that are successfully authenticated (the reviewers concur on the visible data) are then eligible to be exchanged and traded on the platform.</p>
+<div class="faq" id="catalyst">
+    <div class="faq-box">
+        <div class="faq-texts">
+            <div class="faq-header"><h4 data-lang-id="252-faq_catalyst_question">How can my company assist the ecobrick and plastic transition movement?</h4></div>
+            <p data-lang-id="253-faq_catalyst_answer">By leading by example.  Companies around the world have commissioned GEA Trainers to show their staff how to manage, track and ecobrick their plastic.  Then after a while they train their keenest staff to be trainers themselves!  Some companies host ecobrick workshops on their premises, others send their trainers out to the community.  However they do it, they make sure that they are setting the example in reducing, sequestering and transitioning from plastic.  To help keen green companies, the GEA has some powerful tools!</p>
+            <div class="faq-link"><h5 data-lang-id="254-faq_catalyst_learn_more">Learn more: <a href="catalyst.php" data-lang-id="255-faq_catalyst_link">Catalyst Companies</a></h5></div>
+            <div class="top-link" data-lang-id="256-faq_catalyst_back_link">Back to <a href="#movement-q">Movement Questions</a></div>
+        </div>
+        <div class="faq-image" data-lang-id="257-faq_catalyst_image"><img src="../webp/catalyst-logo.webp" alt="enterprises to go green" loading="lazy"></div>
+    </div>
+</div>
 
-					<div class="faq-link"><h5>Learn more: <a href="/gobrik">GoBrik Platform</a><br>
-					Launch: <a href="gobrik">GoBrik.com</a></h5>
-					</div> 
-					<div class="top-link">Back to <a href="#gobrik-q">GoBrik Questions</a></div>  
-				</div>   
-				<div class="faq-image"><img src="../webp/eb-sky-400px.webp" alt="An eco brick being made" loading="lazy"></div>
-			</div>
-			
-		</div>
+<div class="content-block">
+    <div id="gobrik-questions-full" class="greyish">
+        <div class="blueish faq-banner"><h3 data-lang-id="258-gobrik_questions_title">GoBrik Questions</h3></div>
+    </div>
+
+    <div class="faq" id="gobrik">
+        <div class="faq-box">
+            <div class="faq-texts">
+                <div class="faq-header"><h4 data-lang-id="259-faq_gobrik_question">What is this GoBrik app for ecobricking?</h4></div>
+                <p data-lang-id="260-faq_gobrik_answer">The GoBrik platform serves ecobrickers around the world, enabling them to log, manage, validate, authenticate and exchange their ecobricks. Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. Once logged, ecobricks are automatically submitted to the validation queue where they are reviewed by the community of ecobrickers. Ecobricks that are successfully authenticated (the reviewers concur on the visible data) are then eligible to be exchanged and traded on the platform.</p>
+                <div class="faq-link"><h5 data-lang-id="261-faq_gobrik_learn_more">Learn more: <a href="/gobrik" data-lang-id="262-faq_gobrik_link">GoBrik Platform</a><br>Launch: <a href="gobrik" data-lang-id="263-faq_gobrik_launch_link">GoBrik.com</a></h5></div>
+                <div class="top-link" data-lang-id="264-faq_gobrik_back_link">Back to <a href="#gobrik-q">GoBrik Questions</a></div>
+            </div>
+            <div class="faq-image" data-lang-id="265-faq_gobrik_image"><img src="../webp/eb-sky-400px.webp" alt="An eco brick being made" loading="lazy"></div>
+        </div>
+    </div>
 
 		<div class="faq" id="brikcoins">
 			<div class="faq-box">
