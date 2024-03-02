@@ -162,52 +162,45 @@ window.onload = function() {
   font-display: swap;
  }
 
+/*  ACORDION MENU  */
 
- 
- .accordion-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease-out; /* Adjusted for smoother transition */
-    display: block; /* Ensure this is set so transition can take effect */
-}
-
- .accordion-item {
-    border-top: 1px solid gray;
+.accordion-item {
+    border-bottom: 1px solid var(--subdued-text);
 }
 
 .accordion-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+    width: 100%;
+    text-align: left;
     padding: 10px;
-    background-color: transparent; /* Removes white background */
-}
-
-.toggle-accordion {
     background: none;
     border: none;
+    border-top: 1px solid var(--subdued-text);
     cursor: pointer;
-    color: var(--text-color);
+    font-size: 16px;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
 }
 
 .accordion-content a {
     display: flex;
-    justify-content: space-between; /* Aligns title to the left and circle to the right */
+    align-items: center;
     padding: 5px 10px;
     text-decoration: none;
     color: var(--text-color);
-    border-bottom: 1px solid gray; /* Grey line between submenu items */
+    border-bottom: 1px solid #eee;
 }
 
 .accordion-content a:last-child {
-    border-bottom: none; /* Removes border from the last item */
+    border-bottom: none;
 }
 
 .circle {
-    margin-left: auto; /* Pushes the circle to the far right */
+    margin-right: 10px;
 }
-
 
 
 
@@ -308,46 +301,20 @@ window.onload = function() {
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
 
    
-   
+    
     <div class="accordion">
     <div class="accordion-item">
-        <div class="accordion-title">
-            <span>What are Ecobricks?</span>
-            <button class="toggle-accordion" aria-label="opener">+</button>
-        </div>
+        <button class="accordion-title">
+            What are Ecobricks?
+        </button>
         <div class="accordion-content">
-            <a href="what.php">Overview & Standards <span class="circle">●</span></a>
-            <a href="/cigbricks">Cigbricks <span class="circle">○</span></a>
-            <a href="/ocean">Ocean Ecobricks <span class="circle">◔</span></a>
-            <a href="/plastic">Plastic’s Long Story <span class="circle">◑</span></a>
+            <a href="what.php"><span class="circle">●</span> Overview & Standards</a>
+            <a href="/cigbricks"><span class="circle">○</span> Cigbricks</a>
+            <a href="/ocean"><span class="circle">◔</span> Ocean Ecobricks</a>
+            <a href="/plastic"><span class="circle">◑</span> Plastic’s Long Story</a>
         </div>
     </div>
-    <div class="accordion-item">
-        <div class="accordion-title">
-            <span>Building</span>
-            <button class="toggle-accordion" aria-label="opener">+</button>
-        </div>
-        <div class="accordion-content">
-            <a href="build.php">Methods overview <span class="circle">◕</span></a>
-            <a href="modules.php">Modules <span class="circle">◕</span></a>
-            <a href="earth.php">Earth <span class="circle">◕</span></a>
-            <a href="/earth-methods">Earth Methods <span class="circle">◔</span></a>
-            <a href="/fire">Fire Safety <span class="circle">◔</span></a>
-            <a href="/open-spaces">Open spaces <span class="circle">◔</span></a>
-            <a href="/dms">Dieleman modules <span class="circle">◔</span></a>
-        </div>
-    </div>
-    <div class="accordion-item">
-        <div class="accordion-title">
-            <span>How to Make</span>
-            <button class="toggle-accordion" aria-label="opener">+</button>
-        </div>
-        <div class="accordion-content">
-            <a href="how.php">10-step guide <span class="circle">●</span></a>
-            <a href="earthwands.php">Earthwands <span class="circle">◕</span></a>
-            <a href="transition.php">Plastic Transition <span class="circle">◕</span></a>
-        </div>
-    </div>
+    <!-- Repeat for other accordion items -->
 </div>
 
 
@@ -415,19 +382,33 @@ window.onload = function() {
 //         }
 //     });
 // });
-document.querySelectorAll('.toggle-accordion').forEach(button => {
+
+
+document.querySelectorAll('.accordion-title').forEach(button => {
     button.addEventListener('click', () => {
-        const accordionContent = button.closest('.accordion-item').querySelector('.accordion-content');
-        if (accordionContent.style.maxHeight && accordionContent.style.maxHeight !== '0px') {
-            accordionContent.style.maxHeight = null; // Close the accordion section
-            button.textContent = '+';
+        const currentAccordionContent = button.nextElementSibling; // The accordion-content of the clicked title
+        const allAccordionContents = document.querySelectorAll('.accordion-content'); // All accordion-content elements
+
+        // First, close all submenus except the current one
+        allAccordionContents.forEach(accordionContent => {
+            if (accordionContent !== currentAccordionContent) {
+                accordionContent.style.maxHeight = null;
+                accordionContent.previousElementSibling.classList.toggle('is-open', false); // Adjusts the button state as well
+            }
+        });
+
+        // Then, toggle the current submenu
+        if (currentAccordionContent.style.maxHeight && currentAccordionContent.style.maxHeight !== '0px') {
+            currentAccordionContent.style.maxHeight = null;
+            button.classList.toggle('is-open', false);
         } else {
-            // Open the accordion section by setting its max-height to its scrollHeight
-            accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
-            button.textContent = '-';
+            // Open the clicked accordion section by setting its max-height to its scrollHeight
+            currentAccordionContent.style.maxHeight = currentAccordionContent.scrollHeight + "px";
+            button.classList.toggle('is-open', true);
         }
     });
 });
+
 
 
 </script>
