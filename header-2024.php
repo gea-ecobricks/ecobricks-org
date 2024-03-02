@@ -170,7 +170,7 @@ window.onload = function() {
 
 
 .accordion-item {
-    border-bottom: 1px solid var(--subdued-text);
+    border-bottom: 1px solid var(--selector);
 }
 
 .accordion-title {
@@ -179,10 +179,10 @@ window.onload = function() {
     align-items: center;
     width: 100%;
     text-align: left;
-    padding: 15px;
+    padding: 12px 5px 12px 10px;
     background: none;
     border: none;
-    border-top: 1px solid var(--subdued-text);
+    border-top: 1px solid var(--selector);
     cursor: pointer;
     font-size: 1.4em;
     color: var(--text-color);
@@ -202,7 +202,7 @@ window.onload = function() {
 
 /* Submenu Item Container */
 .submenu-item-container {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--selector);
 }
 
 .submenu-item {
@@ -217,15 +217,16 @@ window.onload = function() {
 .circle {
     cursor: pointer;
     margin-left: 10px; /* Adjust as necessary */
+    color: var(--header-accent);
 }
 
 .translation-info {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: var(--subdued-text);
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
     display: none; /* Initially hidden, shown on circle click */
 }
 
@@ -455,6 +456,7 @@ window.onload = function() {
   
 
        <script>
+
 document.addEventListener('DOMContentLoaded', function() {
     // Main Accordion Toggle Functionality
     document.querySelectorAll('.accordion-title').forEach(button => {

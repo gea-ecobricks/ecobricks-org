@@ -85,7 +85,7 @@ function pageMeasureBar() {
 /* RIGHT SETTINGS OVERLAY */
 
 function openSettings() {
-  document.getElementById("right-settings-overlay").style.width = "80%";
+  document.getElementById("right-settings-overlay").style.width = "90%";
   document.body.style.overflowY = "hidden";
   document.body.style.maxHeight = "101vh";
 

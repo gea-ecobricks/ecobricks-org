@@ -503,7 +503,7 @@
 
 @media screen and (max-width: 700px) {
   .overlay-content-settings {
-    width: 77%;
+    width: 87%;
     font-size: 0.9em;
     /*margin-top: 6%;*/
 }
@@ -511,7 +511,7 @@
 
 @media screen and (min-width: 700px) and (max-width: 1324px) {
   .overlay-content-settings {
-    width: 65%;
+    width: 85%;
     font-size: 0.9em;
     /*margin-top: 2%;*/
 }
@@ -519,7 +519,7 @@
 
 @media screen and (min-width: 1325px) {
     .overlay-content-settings {
-      width: 69%;
+      width: 80%;
       margin: auto;
     }
 }
