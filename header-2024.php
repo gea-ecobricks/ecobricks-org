@@ -304,9 +304,7 @@ window.onload = function() {
     
     <div class="accordion">
     <div class="accordion-item">
-        <button class="accordion-title">
-            What are Ecobricks?
-        </button>
+        <button class="accordion-title">What are Ecobricks?</button>
         <div class="accordion-content">
             <a href="what.php"><span class="circle">●</span> Overview & Standards</a>
             <a href="/cigbricks"><span class="circle">○</span> Cigbricks</a>
@@ -314,8 +312,28 @@ window.onload = function() {
             <a href="/plastic"><span class="circle">◑</span> Plastic’s Long Story</a>
         </div>
     </div>
-    <!-- Repeat for other accordion items -->
+    <div class="accordion-item">
+        <button class="accordion-title">Building</button>
+        <div class="accordion-content">
+            <a href="build.php"><span class="circle">◕</span> Methods overview</a>
+            <a href="modules.php"><span class="circle">◕</span> Modules</a>
+            <a href="earth.php"><span class="circle">◕</span> Earth</a>
+            <a href="/earth-methods"><span class="circle">◔</span> Earth Methods</a>
+            <a href="/fire"><span class="circle">◔</span> Fire Safety</a>
+            <a href="/open-spaces"><span class="circle">◔</span> Open spaces</a>
+            <a href="/dms"><span class="circle">◔</span> Dieleman modules</a>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <button class="accordion-title">How to Make</button>
+        <div class="accordion-content">
+            <a href="how.php"><span class="circle">●</span> 10-step guide</a>
+            <a href="earthwands.php"><span class="circle">◕</span> Earthwands</a>
+            <a href="transition.php"><span class="circle">◕</span> Plastic Transition</a>
+        </div>
+    </div>
 </div>
+
 
 
 

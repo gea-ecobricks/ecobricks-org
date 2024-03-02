@@ -276,53 +276,49 @@ GENERAL ANSWERS
     </div>
 </div>
 
-
 <div class="faq" id="principles">
 	<div class="faq-box">
 		<div class="faq-texts">
 			<div class="faq-header"><h4 data-lang-id="108-principles-header">What makes ecobricks and ecobrick applications different from other plastic products?</h4></div>
 			
-			<p data-lang-id="109-principles-content">The methods of making ecobricks and building with them are guided by regeneartive principles.  Regenerative principles are fundamentally different from the principles of "sustainability"  This means that from the ground up ecobricks making and applications are fundamentally different from our old uses of plastic.  Ecobrick applications are net-zero, localized, mandalic, transcaste, earthen, circular and open source.  Yep... that's a lot of new words and concepts!  But that's actually the point— ecobricking is all about applying a whole new paradigm to our plastic so that we avoid sustaining the same problems and polluting results that came from the old way of doing things.</p>
+			<p data-lang-id="109-principles-content">The methods of making ecobricks and building with them are guided by regenerative principles. Regenerative principles are fundamentally different from the principles of "sustainability" This means that from the ground up ecobricks making and applications are fundamentally different from our old uses of plastic. Ecobrick applications are net-zero, localized, mandalic, transcaste, earthen, circular and open source. Yep... that's a lot of new words and concepts! But that's actually the point— ecobricking is all about applying a whole new paradigm to our plastic so that we avoid sustaining the same problems and polluting results that came from the old way of doing things.</p>
 
 			<div class="faq-link"><h5 data-lang-id="110-learn-more-principles">Learn more: <a href="principles.php">Ecobrick Regenerative Principles</a></h5>
-				<div class="top-link">Back to <a href="#general">General Questions</a></div>
+				<div class="top-link" data-lang-id="111-back-general-principles">Back to <a href="#general">General Questions</a></div>
 			</div>                    
 		</div>
-		<div class="faq-image"><img src="../webp/balancing-green.webp" width="350" style="width:80%;" alt="Eco bricks are different from other plastic stuff in several ways." loading="lazy"></div>
+		<div class="faq-image" data-lang-id="112-ecobricks-difference-image"><img src="../webp/balancing-green.webp" width="350" style="width:80%;" alt="Eco bricks are different from other plastic stuff in several ways." loading="lazy"></div>
 	</div>
-	
 </div>
 
 <div class="faq" id="dumping">
 	<div class="faq-box">
 		<div class="faq-texts">
-			<div class="faq-header"><h4 data-lang-id="111-dumping-header">Why not just landfill or dump my plastic?</h4></div>
+			<div class="faq-header"><h4 data-lang-id="113-dumping-header">Why not just landfill or dump my plastic?</h4></div>
 			
-			<p data-lang-id="112-dumping-content">When plastic is dumped or landfilled it's surface area ends up fully exposed to the sun, to friction, fire and/or water.  The more plastic is exposed, the more plastic degrades— releasing CO2, other green house gases, and toxins.  Eventually plastic breaks down into smaller and smaller pieces called micro-plastics.  Increasingly, scientists are realizing that these toxins and micro-plastic infiltrate ecosystems causing problems for plants and animals.  Eventually, plastic's molecules reach us and our children where they adversely impact human metabolisms. Because of this, its important to not let our plastic get loose into the biosphere by littering or dumping it.</p>
+			<p data-lang-id="114-dumping-content">When plastic is dumped or landfilled its surface area ends up fully exposed to the sun, to friction, fire and/or water. The more plastic is exposed, the more plastic degrades— releasing CO2, other greenhouse gases, and toxins. Eventually, plastic breaks down into smaller and smaller pieces called micro-plastics. Increasingly, scientists are realizing that these toxins and micro-plastic infiltrate ecosystems causing problems for plants and animals. Eventually, plastic's molecules reach us and our children where they adversely impact human metabolisms. Because of this, it's important to not let our plastic get loose into the biosphere by littering or dumping it.</p>
 
-			<div class="faq-link"><h5 data-lang-id="113-learn-more-dumping">Learn more: <a href="/posion">Plastic can be Poisonous</a></h5>
-				<div class="top-link">Back to <a href="#general">General Questions</a></div>
+			<div class="faq-link"><h5 data-lang-id="115-learn-more-dumping">Learn more: <a href="/posion">Plastic can be Poisonous</a></h5>
+				<div class="top-link" data-lang-id="116-back-general-dumping">Back to <a href="#general">General Questions</a></div>
 			</div>                    
 		</div>
-		<div class="faq-image"><img src="../pngs/save-the-plastics.png" alt="Eco bricks prevent plastic from going into a landfill."></div>
+		<div class="faq-image" data-lang-id="117-prevent-landfill-image"><img src="../pngs/save-the-plastics.png" alt="Eco bricks prevent plastic from going into a landfill."></div>
 	</div>
-	
 </div>
 
 <div class="faq" id="burning">
 	<div class="faq-box">
 		<div class="faq-texts">
-			<div class="faq-header"><h4 data-lang-id="114-burning-header">Why not just burn or send my plastic to be incinerated?</h4></div>
+			<div class="faq-header"><h4 data-lang-id="118-burning-header">Why not just burn or send my plastic to be incinerated?</h4></div>
 			
-			<p data-lang-id="115-burning-content1">Whether plastic is burned on the side of the road or in a high-tech waste-to-energy plant, it is a momentous tragedy.  The carbon that composes our modern plastic is the result of hundreds of millions of years of work by the Earth to remove carbon from the atmosphere.  Through the Earth's gradual subtraction of this carbon underground, the Earth's climate stabilized and the biosphere greened.  When plastic is burned, in an instant, millions of years of Earthen process are reversed.  Plastic's carbon is dispersed and released back into the atmosphere, while poisonous and toxic chemicals are often created through the combustion.</p>
-			<p data-lang-id="116-burning-content2">Worse, incinerating plastic also encourages more new plastic to be made, more ancient carbon to be extraction, and yet more incineration.  Because it seems so easy to dispose of plastic by burning it, it makes it seem like there's no problem using plastic in the first place.  Because of this, it is essential to keep our plastic from entering this dangerous spiral.</p>
+			<p data-lang-id="119-burning-content1">Whether plastic is burned on the side of the road or in a high-tech waste-to-energy plant, it is a momentous tragedy. The carbon that composes our modern plastic is the result of hundreds of millions of years of work by the Earth to remove carbon from the atmosphere. Through the Earth's gradual subtraction of this carbon underground, the Earth's climate stabilized and the biosphere greened. When plastic is burned, in an instant, millions of years of Earthen process are reversed. Plastic's carbon is dispersed and released back into the atmosphere, while poisonous and toxic chemicals are often created through the combustion.</p>
+			<p data-lang-id="120-burning-content2">Worse, incinerating plastic also encourages more new plastic to be made, more ancient carbon to be extraction, and yet more incineration. Because it seems so easy to dispose of plastic by burning it, it makes it seem like there's no problem using plastic in the first place. Because of this, it is essential to keep our plastic from entering this dangerous spiral.</p>
 
-			<div class="faq-link"><h5 data-lang-id="117-learn-more-burning">Learn more: <a href="/posion">Plastic can be Poisonous</a></h5></div>   
-			<div class="top-link"><a href="#general">Back to General Questions</a></div>                 
+			<div class="faq-link"><h5 data-lang-id="121-learn-more-burning">Learn more: <a href="/posion">Plastic can be Poisonous</a></h5></div>   
+			<div class="top-link" data-lang-id="122-back-general-burning">Back to General Questions</a></div>                 
 		</div>
-		<div class="faq-image"><img src="../webp/incineration.webp" alt="Eco bricks prevent plastic from being incinerated."></div>
+		<div class="faq-image" data-lang-id="123-prevent-incineration-image"><img src="../webp/incineration.webp" alt="Eco bricks prevent plastic from being incinerated."></div>
 	</div>
-
 </div>
 
 
