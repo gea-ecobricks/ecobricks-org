@@ -245,6 +245,10 @@ window.onload = function() {
     flex-grow: 1;
 }
 
+.accordion-content a:hover {
+    color: var(--h1)
+}
+
 /* Hover and Focus Styles for Interactivity */
 .circle:hover, .circle:focus {
     /* Add any hover or focus styles for the circle icon here */
@@ -456,42 +460,51 @@ window.onload = function() {
   
 
        <script>
-
 document.addEventListener('DOMContentLoaded', function() {
-    // Main Accordion Toggle Functionality
+    // Toggle the main accordion sections
     document.querySelectorAll('.accordion-title').forEach(button => {
         button.addEventListener('click', () => {
             const accordionContent = button.nextElementSibling;
+
+            // Close other items
+            document.querySelectorAll('.accordion-content').forEach(content => {
+                if (content !== accordionContent && content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                }
+            });
+
             // Toggle current item
-            if (accordionContent.style.maxHeight && accordionContent.style.maxHeight !== "0px") {
+            if (accordionContent.style.maxHeight) {
                 accordionContent.style.maxHeight = null;
             } else {
-                // Open the accordion section by setting its max-height to fit-content
-                accordionContent.style.maxHeight = 'fit-content';
+                accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
             }
         });
     });
 
-    // Circle Icon Click to Reveal Translation Info
+    // Toggle the translation information
     document.querySelectorAll('.circle').forEach(circle => {
         circle.addEventListener('click', function(event) {
-            event.stopPropagation(); // Prevent triggering the accordion toggle
+            event.stopPropagation(); // Prevent the accordion toggle or link navigation
 
             const translationInfo = this.closest('.submenu-item-container').querySelector('.translation-info');
-
-            // Toggle the translation info visibility
-            if (translationInfo.style.maxHeight && translationInfo.style.maxHeight !== "0px") {
+            
+            // If translationInfo is not visible, show it
+            if (!translationInfo.style.maxHeight || translationInfo.style.maxHeight === '0px') {
+                translationInfo.style.display = 'block';
+                requestAnimationFrame(() => {
+                    translationInfo.style.maxHeight = translationInfo.scrollHeight + 'px';
+                });
+            } else { // Else hide it
                 translationInfo.style.maxHeight = null;
                 setTimeout(() => {
                     translationInfo.style.display = 'none';
-                }, 500); // Match the CSS transition time
-            } else {
-                translationInfo.style.display = 'block';
-                translationInfo.style.maxHeight = 'fit-content';
+                }, 500); // Use the same duration as in the CSS transition
             }
         });
     });
 });
+
 
 
 
