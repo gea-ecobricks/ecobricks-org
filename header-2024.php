@@ -390,7 +390,50 @@ window.onload = function() {
             </div>
         </div>
     </div>
-    <!-- Additional sections for "Building" and "How to Make" follow the same pattern -->
+   <!-- Building -->
+<div class="accordion-item">
+    <button class="accordion-title">Building<span class="toggle-icon">+</span></button>
+    <div class="accordion-content">
+        <div class="submenu-item-container">
+            <div class="submenu-item">
+                <a href="build.php">Methods overview</a>
+                <span class="circle" title="This page has been translated 75%">◕</span>
+            </div>
+            <div class="translation-info">build.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/build-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+        </div>
+        <div class="submenu-item-container">
+            <div class="submenu-item">
+                <a href="modules.php">Modules</a>
+                <span class="circle" title="This page has been translated 75%">◕</span>
+            </div>
+            <div class="translation-info">modules.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/modules-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+        </div>
+        <!-- Repeat structure for other submenu items under "Building" -->
+    </div>
+    <!-- How to Make -->
+<div class="accordion-item">
+    <button class="accordion-title">How to Make<span class="toggle-icon">+</span></button>
+    <div class="accordion-content">
+        <div class="submenu-item-container">
+            <div class="submenu-item">
+                <a href="how.php">10-step guide</a>
+                <span class="circle" title="This page has been translated 100%">●</span>
+            </div>
+            <div class="translation-info">how.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+        </div>
+        <div class="submenu-item-container">
+            <div class="submenu-item">
+                <a href="earthwands.php">Earthwands</a>
+                <span class="circle" title="This page has been translated 75%">◕</span>
+            </div>
+            <div class="translation-info">earthwands.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earthwands-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+        </div>
+        <!-- Repeat structure for other submenu items under "How to Make" -->
+    </div>
+</div>
+
+</div>
+
 </div>
 
 
@@ -412,15 +455,16 @@ window.onload = function() {
   
 
        <script>
-
 document.addEventListener('DOMContentLoaded', function() {
     // Main Accordion Toggle Functionality
     document.querySelectorAll('.accordion-title').forEach(button => {
         button.addEventListener('click', () => {
             const accordionContent = button.nextElementSibling;
+            // Toggle current item
             if (accordionContent.style.maxHeight && accordionContent.style.maxHeight !== "0px") {
                 accordionContent.style.maxHeight = null;
             } else {
+                // Open the accordion section by setting its max-height to fit-content
                 accordionContent.style.maxHeight = 'fit-content';
             }
         });
@@ -433,14 +477,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const translationInfo = this.closest('.submenu-item-container').querySelector('.translation-info');
 
-            if (translationInfo.style.display === 'none' || !translationInfo.style.display) {
-                // Show the translation info without animation
+            // Toggle the translation info visibility
+            if (translationInfo.style.maxHeight && translationInfo.style.maxHeight !== "0px") {
+                translationInfo.style.maxHeight = null;
+                setTimeout(() => {
+                    translationInfo.style.display = 'none';
+                }, 500); // Match the CSS transition time
+            } else {
                 translationInfo.style.display = 'block';
                 translationInfo.style.maxHeight = 'fit-content';
-            } else {
-                // Hide the translation info
-                translationInfo.style.display = 'none';
-                translationInfo.style.maxHeight = null;
             }
         });
     });
