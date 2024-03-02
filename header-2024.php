@@ -188,6 +188,7 @@ window.onload = function() {
     background: none;
     border: none;
     cursor: pointer;
+    color: var(--text-color);
 }
 
 .accordion-content a {
