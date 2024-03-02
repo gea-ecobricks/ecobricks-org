@@ -372,8 +372,9 @@ window.onload = function() {
     <div class="accordion">
 
 <div class="accordion-item">
-    <button class="accordion-title"><b data-lang-id="001-menu-1-main-item"> How to Make an Ecobrick</b></button>
-</div>
+    <button class="accordion-title" data-lang-id="001-menu-0-main-item"><a href="how.php">Ecobricks & Standards</a>
+                <span class="circle" title="This page has been translated 100%">●</span></button>
+  </div>
 
 
 <!-- What are Ecobricks? -->

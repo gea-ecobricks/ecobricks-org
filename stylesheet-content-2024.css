@@ -585,7 +585,7 @@ margin-top: 40px;
   }
 }
 
-button:hover {
+.opener-header button:hover {
   background: var(--accordion-background);
   cursor: pointer;
   color: var(--h1);
