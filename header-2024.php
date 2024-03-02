@@ -163,35 +163,28 @@ window.onload = function() {
  }
 
 
-
- .accordion {
-    border-bottom: 1px solid #ccc;
-}
-
-.accordion-item {
-    border-top: 1px solid #ccc;
-}
-
-.accordion-title {
+ .accordion-content .submenu-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    cursor: pointer;
-    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Grey line separator */
 }
 
+.accordion-content .submenu-item a {
+    flex-grow: 1;
+}
+
+.circle-symbol {
+    margin-left: 10px; /* Ensures spacing between the text and symbol */
+}
+
+/* Initially set max-height to 0 to enable animation on first open */
 .accordion-content {
-    display: none;
+    max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease;
+    transition: max-height 0.5s ease-out;
 }
 
-.accordion-content a {
-    display: block;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: var(--text-color);
-}
 
 
 </style>
@@ -290,31 +283,63 @@ window.onload = function() {
 
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
 
-    <div class="accordion">
-      <div class="accordion-item">
-          <div class="accordion-title">
-              <span>What are Ecobricks?</span>
-              <button class="toggle-accordion">+</button>
-          </div>
-          <div class="accordion-content">
-              <a href="what.php" title="The translation for this section is 100% done">Overview & Standards ●</a>
-              <a href="/cigbricks" title="The translation for this section is 0-24% done">Cigbricks ○</a>
-              <a href="/ocean" title="The translation for this section is 25-49% done">Ocean Ecobricks ◔</a>
-              <a href="/plastic" title="The translation for this section is 50-74% done">Plastic’s Long Story ◑</a>
-          </div>
-      </div>
-      <div class="accordion-item">
-          <div class="accordion-title">
-              <span>Building</span>
-              <button class="toggle-accordion">+</button>
-          </div>
-          <div class="accordion-content">
-              <a href="build.php" title="The translation for this section is 75-99% done">Methods overview ◕</a>
-              <a href="modules.php" title="The translation for this section is 75-99% done">Modules ◕</a>
-              <a href="earth.php" title="The translation for this section is 75-99% done">Earth ◕</a>
-          </div>
-      </div>
-    </div> 
+   
+   
+   
+   
+   
+    <div class="accordion-item">
+    <div class="accordion-title">
+        <span>What are Ecobricks?</span>
+        <button class="toggle-accordion">+</button>
+    </div>
+    <div class="accordion-content">
+        <div class="submenu-item">
+            <a href="what.php">Overview & Standards</a><span class="circle-symbol" title="The translation for this section is 100% done">●</span>
+        </div>
+        <div class="submenu-item">
+            <a href="/cigbricks">Cigbricks</a><span class="circle-symbol" title="The translation for this section is 0-24% done">○</span>
+        </div>
+        <div class="submenu-item">
+            <a href="/ocean">Ocean Ecobricks</a><span class="circle-symbol" title="The translation for this section is 25-49% done">◔</span>
+        </div>
+        <div class="submenu-item">
+            <a href="/plastic">Plastic’s Long Story</a><span class="circle-symbol" title="The translation for this section is 50-74% done">◑</span>
+        </div>
+    </div>
+</div>
+<div class="accordion-item">
+    <div class="accordion-title">
+        <span>Building</span>
+        <button class="toggle-accordion">+</button>
+    </div>
+    <div class="accordion-content">
+        <div class="submenu-item">
+            <a href="build.php">Methods overview</a><span class="circle-symbol" title="The translation for this section is 75-99% done">◕</span>
+        </div>
+        <div class="submenu-item">
+            <a href="modules.php">Modules</a><span class="circle-symbol" title="The translation for this section is 75-99% done">◕</span>
+        </div>
+        <div class="submenu-item">
+            <a href="earth.php">Earth</a><span class="circle-symbol" title="The translation for this section is 75-99% done">◕</span>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 </div>
   
@@ -348,23 +373,38 @@ window.onload = function() {
 
        <script>
 
+// document.querySelectorAll('.toggle-accordion').forEach(button => {
+//     button.addEventListener('click', () => {
+//         const accordionContent = button.closest('.accordion-item').querySelector('.accordion-content');
+
+//         if (button.textContent === '+') {
+//             accordionContent.style.display = 'block';
+//             accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+//             button.textContent = '-';
+//         } else {
+//             accordionContent.style.maxHeight = '0';
+//             setTimeout(() => {
+//                 accordionContent.style.display = 'none';
+//             }, 400); // Match the CSS transition time
+//             button.textContent = '+';
+//         }
+//     });
+// });
+
 document.querySelectorAll('.toggle-accordion').forEach(button => {
     button.addEventListener('click', () => {
         const accordionContent = button.closest('.accordion-item').querySelector('.accordion-content');
-
-        if (button.textContent === '+') {
-            accordionContent.style.display = 'block';
-            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
-            button.textContent = '-';
-        } else {
-            accordionContent.style.maxHeight = '0';
-            setTimeout(() => {
-                accordionContent.style.display = 'none';
-            }, 400); // Match the CSS transition time
+        if (accordionContent.style.maxHeight) {
+            accordionContent.style.maxHeight = null;
             button.textContent = '+';
+        } else {
+            // Set max-height to the actual scroll height plus a little extra space.
+            accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+            button.textContent = '-';
         }
     });
 });
+
 </script>
 </div>
                                                               
