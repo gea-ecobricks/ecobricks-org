@@ -365,48 +365,42 @@ GENERAL ANSWERS
 </div>
 
 
-
-
 <div class="content-block">    <!--ECOBRICK CONCERNS-->
 	
 	<div id="block-border" class="greyish">
-		<div  class="reddish faq-banner" ><h3>Ecobrick Concerns</h3></div>
+		<div class="reddish faq-banner" ><h3 data-lang-id="140-ecobrick-concerns-header">Ecobrick Concerns</h3></div>
+	</div>
+		           
+	<div class="faq" id="dangerous-2">
+		<div class="faq-box">
+			<div class="faq-texts">
+				<div class="faq-header"><h4 data-lang-id="141-dangerous-toxic-header">How does plastic get to be dangerous and toxic?</h4></div>
+				<p data-lang-id="142-dangerous-toxic-content">Plastic is an incredibly useful and versatile material.  But in the wrong place it can become dangerous— poisonous to us, animals and ecosystems.  When it gets loose in the biosphere plastic degrades from the effects of friction, heat and sun.  As it degrades, dangerous chemicals are released.  These toxins don't fit into ecological systems and chemically contaminate.  Plastic's degradation also leads to smaller and smaller pieces of plastic.  Organisms and animals that consume these 'micro-plastics' clog up their digestion and get sick.  Many die.  Eventually both chemical toxins and physical micro-plastics pass through the food chain to humans.  In our bodies they upset our hormonal balances, cause growth problems, and trigger cancer and other health issues. </p>
+				<div class="faq-link"><h5 data-lang-id="143-learn-more-dangerous">Learn more: <a href="/poison">The Dangers of Plastic</a></h5></div>
+				<div class="top-link" data-lang-id="144-back-concerns-dangerous">Back to <a href="#concerns">Ecobrick Concerns</a></div> 
+			</div>
+			<div class="faq-image" data-lang-id="145-keep-plastic-safe-image"><img src="../pngs/fire.png" alt="Eco bricks keep plastic safe"></div>
+		</div>
 	</div>
 
-
-		           
-		<div class="faq" id="dangerous-2">
-				<div class="faq-box">
-					   <div class="faq-texts">
-						   <div class="faq-header"><h4>How does plastic get to be dangerous and toxic?</h4></div>
-						   <p>Plastic is an incredibly useful and versatile material.  But in the wrong place it can become dangerous— poisonous to us, animals and ecosystems.  When it gets loose in the biosphere plastic degrades from the effects of friction, heat and sun.  As it degrades, dangerous chemicals are released.  These toxins don't fit into ecological systems and chemically contaminate.  Plastic's degradation also leads to smaller and smaller pieces of plastic.  Organisms and animals that consume these 'micro-plastics' clog up their digestion and get sick.  Many die.  Eventually both chemical toxins and physical micro-plastics pass through the food chain to humans.  In our bodies they upset our hormonal balances, cause growth problems, and trigger cancer and other health issues. </p>
-							<div class="faq-link"><h5>Learn more: <a href="/poison">The Dangers of Plastic</a></h5></div>
-							<div class="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div> 
-					   </div>
-					   <div class="faq-image"><img src="../pngs/fire.png" alt="Eco bricks keep plastic safe"></div>
-				</div>
+	<div class="faq" id="matter">
+		<div class="faq-box">
+			<div class="faq-texts">
+				<div class="faq-header"><h4 data-lang-id="146-final-solution-header">How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?</h4></div>
 				
-		</div>
-
-
-		<div class="faq" id="matter">
-			<div class="faq-box">
-				<div class="faq-texts">
-					<div class="faq-header"><h4>How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?</h4></div>
-					
-					<p>"Final solutions" aren't the way Earth and its ecosystems work.  Rather than lines that start and end, ecosystems instead work in spiralling cycles— using carbon molecules as building blocks that are used over and over again in a journey towards sequestration. By ecobricking our plastic (which is mainly carbon!) we're taking it out of linear industrial systems and the "final solution" paradigm.</p>
-					<p>In contrast, ecobricks are designed to be building blocks tha can be used over and over again.  Just like in an ecosystem, ecobricks are used locally and with no extra energy needed.  This way our ecobricks can spiral through time and become gifts for future generations.</p>
-					
-					<p>In the same way Earth gifted us densely packed carbon (i.e. fossil fuels), we can gift our compacted carbon to another age.  Like the dinausaurs, we can't imagine how the carbon of our age will be used in the future. However, we can be certain that it makes a better gift compacted and concentrated rather than scattered and dispersed, loose and leaching. </p>
-
-					<div class="faq-link"><h5>Learn more: <a href="spiral.php">Spiral Design</a></h5></div>  
-					<div class="top-link">Back to <a href="#concerns">Ecobrick Concerns</a></div>                  
-				</div>
+				<p data-lang-id="147-final-solution-content1">"Final solutions" aren't the way Earth and its ecosystems work.  Rather than lines that start and end, ecosystems instead work in spiralling cycles— using carbon molecules as building blocks that are used over and over again in a journey towards sequestration. By ecobricking our plastic (which is mainly carbon!) we're taking it out of linear industrial systems and the "final solution" paradigm.</p>
+				<p data-lang-id="148-final-solution-content2">In contrast, ecobricks are designed to be building blocks that can be used over and over again.  Just like in an ecosystem, ecobricks are used locally and with no extra energy needed.  This way our ecobricks can spiral through time and become gifts for future generations.</p>
 				
-				<div class="faq-image"><img src="../webp/ayyew.webp" alt="Eco bricks apply ayyew principles"></div>
+				<p data-lang-id="149-final-solution-content3">In the same way Earth gifted us densely packed carbon (i.e. fossil fuels), we can gift our compacted carbon to another age.  Like the dinosaurs, we can't imagine how the carbon of our age will be used in the future. However, we can be certain that it makes a better gift compacted and concentrated rather than scattered and dispersed, loose and leaching. </p>
+
+				<div class="faq-link"><h5 data-lang-id="150-learn-more-matter">Learn more: <a href="spiral.php">Spiral Design</a></h5></div>  
+				<div class="top-link" data-lang-id="151-back-concerns-matter">Back to <a href="#concerns">Ecobrick Concerns</a></div>                  
 			</div>
 			
+			<div class="faq-image" data-lang-id="152-apply-ayyew-principles-image"><img src="../webp/ayyew.webp" alt="Eco bricks apply ayyew principles"></div>
 		</div>
+	</div>
+</div>
 
 
 		<div class="faq" id="transition">

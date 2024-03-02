@@ -311,11 +311,10 @@ window.onload = function() {
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
 
    
-    
     <div class="accordion">
     <div class="accordion-item">
-    <button class="accordion-title">What are Ecobricks?<span class="toggle-icon">+</span></button>
-            <div class="accordion-content">
+        <button class="accordion-title">What are Ecobricks?<span class="toggle-icon">+</span></button>
+        <div class="accordion-content">
             <a href="what.php"><span class="circle">●</span> Overview & Standards</a>
             <a href="/cigbricks"><span class="circle">○</span> Cigbricks</a>
             <a href="/ocean"><span class="circle">◔</span> Ocean Ecobricks</a>
@@ -323,7 +322,7 @@ window.onload = function() {
         </div>
     </div>
     <div class="accordion-item">
-        <button class="accordion-title">Building</button>
+        <button class="accordion-title">Building<span class="toggle-icon">+</span></button>
         <div class="accordion-content">
             <a href="build.php"><span class="circle">◕</span> Methods overview</a>
             <a href="modules.php"><span class="circle">◕</span> Modules</a>
@@ -335,7 +334,7 @@ window.onload = function() {
         </div>
     </div>
     <div class="accordion-item">
-        <button class="accordion-title">How to Make</button>
+        <button class="accordion-title">How to Make<span class="toggle-icon">+</span></button>
         <div class="accordion-content">
             <a href="how.php"><span class="circle">●</span> 10-step guide</a>
             <a href="earthwands.php"><span class="circle">◕</span> Earthwands</a>
@@ -343,7 +342,6 @@ window.onload = function() {
         </div>
     </div>
 </div>
-
 
 
 
