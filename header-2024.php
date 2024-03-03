@@ -431,30 +431,30 @@ window.onload = function() {
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="002-menu-1-sub-item-1">
                 <a href="what.php">Ecobricks & Standards</a>
-                <span class="circle" title="This page has been translated 100% to English" style="color:green">●</span>
+                <span class="circle" title="This page is 100% translated to English" style="color:green !important;">◔</span>
             </div>
             <div class="translation-info" data-lang-id="003-menu-1-trans-text-1">what.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-fr-translation.js" class="translate-link">help translate ⇗</a></div>
         </div>
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="004-menu-1-sub-item-2">
                 <a href="/cigbricks">Cigbricks</a>
-                <span class="circle" title="This page is 100% translated to English but in our non-git format.  We're working to migrate it" style="color:orange">○</span>
+                <span class="circle" title="This page is 100% translated to English but in our non-git format.  We're working to migrate it." style="color:orange">●</span>
             </div>
-            <div class="translation-info" data-lang-id="005-menu-1-trans-text-2">/cigbricks has been translated 0% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/cigbricks-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+            <div class="translation-info" data-lang-id="005-menu-1-trans-text-2">/cigbricks | This page is 100% translated to English but in our non-git format.  We're working to migrate it.</div>
         </div>
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="004-menu-1-sub-item-3">
                 <a href="/ocean">Ocean Ecobricks</a>
-                <span class="circle" title="This page has been translated 25%">◔</span>
+                <span class="circle" title="This page is 100% translated to English but in our non-git format.  We're working to migrate it." style="color:orange">●</span>
             </div>
-            <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">/ocean has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/ocean-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+            <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">/ocean | This page is 100% translated to English but in our non-git format.  We're working to migrate it.</div>
         </div>
         <div class="submenu-item-container">
             <div class="submenu-item">
                 <a href="/plastic" data-lang-id="006-menu-1-sub-item-4">Plastic’s Long Story</a>
-                <span class="circle" title="This page has been translated 50%">◑</span>
+                <span class="circle" title="This page is 100% translated to English but in our non-git format.  We're working to migrate it." style="color:orange">●</span>
             </div>
-            <div class="translation-info" data-lang-id="005-menu-1-trans-text-4">/plastic has been translated 50% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/plastic-fr-translation.js" class="translate-link">help translate ⇗</a></div>
+            <div class="translation-info" data-lang-id="005-menu-1-trans-text-4">/plastic | This page is 100% translated to English but in our non-git format.  We're working to migrate it.</div>
         </div>
     </div>
 </div>
