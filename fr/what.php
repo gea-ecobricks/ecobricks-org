@@ -20,7 +20,6 @@
 </div>
 <div id="splash-bar"></div>
 
-<!-- <?php require_once ("page-tops/what-top.php");?> -->
 <!-- PAGE CONTENT-->
 
 
