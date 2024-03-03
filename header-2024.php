@@ -413,12 +413,12 @@ window.onload = function() {
 
 <div class="accordion-item">
     <button class="accordion-title" data-lang-id="001-menu-0-main-item" style="border-top:none;"><a href="faqs.php">Ecobrick FAQs</a>
-                <span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:15px; ">●</span></button>
+                <span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:11px; ">●</span></button>
   </div>
 
   <div class="accordion-item">
     <button class="accordion-title" data-lang-id="001-menu-0-main-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">Intro to Ecobricks
-                <span class="circle" title="This page is 100% translated to English" style="color:green !important;  font-size:15px;  ">●</span></button>
+                <span class="circle" title="This page is 100% translated to English" style="color:green !important;  font-size:11px;  ">●</span></button>
 
                 <div class="translation-info" data-lang-id="003-menu-1-trans-text-1">guidedTour.js has been translated 100%</div>
   </div>
@@ -745,11 +745,15 @@ window.onload = function() {
 </div>
 
 
-<p style="font-size: small; text-align: center; margin: auto; width:80%">All our content on Ecobricks.org is open to collaborative development, revision and translation.<br>See colored circles for status and github links.</p>
   
 
 
 </div> <!--close overlay-content-settings-->
+
+
+<p style="font-size: small; text-align: center; margin: auto; width:80%">All our content on Ecobricks.org is open to collaborative development, revision and translation. See the colored circles for status and github links.</p>
+
+
 </div> <!-- close righ page menu-->
   
 
