@@ -10,7 +10,7 @@
 <?php require_once ("../includes/what2-inc.php");?>
 <!--TOP PAGE BANNER-->
 
-<!-- <div class="splash-content-block">
+<div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Les Écobriques</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Une technologie simple, low-tech et non-capitaliste pour prendre soin de notre plastique.</div>
@@ -18,9 +18,9 @@
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/eb-blue-no-clouds.svg" style="width: 95%" alt="The basics of ecobricking">
     </div>	
 </div>
-<div id="splash-bar"></div> -->
+<div id="splash-bar"></div>
 
-<?php require_once ("page-tops/what-top.php");?>
+<!-- <?php require_once ("page-tops/what-top.php");?> -->
 <!-- PAGE CONTENT-->
 
 
