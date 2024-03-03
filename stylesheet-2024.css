@@ -492,7 +492,7 @@
   font-family: "Mulish";
   /*font-size: smaller;*/
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-flow: column;
   height:100%;  
   margin: auto;

@@ -178,7 +178,45 @@ const en_Page_Translations =
     "157-sequest1-header": "I've heard that ecobricks can leach poisons out into the environment. Is it true?",
     "158-sequest1-content": "Yes! If you were to set an ecobrick on fire, leave it in the sun, or boil it in a bucket of water, it certainly would leach poisons. Just like pretty much anything made from plastic! In fact, anything used the wrong way can be dangerous. This is the point of ecobricking: to secure plastic and keep it safe. Ecobricking is done based on the knowledge that plastic is susceptible to degradation and leaching to the extent that its surface area is exposed to the elements. When we pack plastic densely into a bottle we reduce the net-surface area a thousand-fold. Then, when we put ecobricks to use in applications that cover and protect the plastic, the danger of leaching is near nil! Oh... and don't forget, by not recycling plastic we avoid all the carbon that would be released industrially!",
     "159-learn-more-sequest1": "Learn more: <a href=\"sequest.php\">Plastic Sequestration</a>",
-    "160-back-concerns-sequest1": "Back to <a href=\"#concerns\">Ecobrick Concerns</a>"
+    "160-back-concerns-sequest1": "Back to <a href=\"#concerns\">Ecobrick Concerns</a>",
+
+
+    "161-baddies-header": "When and how are ecobricks bad?",
+    "162-baddies-content": "Ecobricks are bad when they aren't made and used properly. If you were to set an ecobrick on fire, leave it in the sun, or boil it in a bucket of water, it certainly would leach poisons. Just like pretty much anything made from plastic! Anything used the wrong way can be dangerous after all. However, the whole point of ecobricking is the safe securing of plastic. Plastic is susceptible to degradation and leaching to the extent that its surface area is exposed to the elements. When we pack plastic densely into a bottle we reduce the net-surface area a thousand-fold. Then, when we put ecobricks to use in applications that cover and protect the plastic, the danger of leaching is near nil! And don't forget, by not recycling plastic we avoid all the carbon that would be released industrially!",
+    "163-learn-more-baddies": "Learn more: <a href=\"transition.php\">Plastic Sequestration</a>",
+    "164-back-concerns-baddies": "Back to <a href=\"#concerns\">Ecobrick Concerns</a>",
+    "165-building-questions-header": "Building Questions",
+    "166-few-ecobricks-header": "What can I make with a few ecobricks?",
+    "167-few-ecobricks-content": "A module! Ecobrick modules are a simple, practical application of ecobricks. All you need are a dozen to start and you can build a simple stool that can later be combined with other modules to make tables and chairs. Milstein modules are the simplest type of module and allow you to build two layers vertically and expand horizontally to make couches, beds and even stages.",
+    "168-learn-more-few": "Learn more: <a href=\"modules.php\">Ecobrick Modules</a>",
+    "169-back-building-questions-few": "Back to <a href=\"#building-q\">Building Questions</a>",
+    "170-few-ecobricks-image": "<img src=\"../webp/milstein.webp\" alt=\"Eco bricks can make sitting stools\">",
+    "171-dozens-ecobricks-header": "What can I make with dozens of ecobricks?",
+    "172-dozens-ecobricks-content": "Milstein modules! The cool thing about modules is that they can inter-lock and combine indefinitely. The hexagonal modules we call \"Milsteins\". They are great for making a set of stools. You can stack them and make a table too. Milstein modules are super practical, easy to store and re-deploy for parties, gatherings and guests.",
+    "173-learn-more-dozens": "Learn more: <a href=\"/milstein\">Ecobrick Milstein Modules</a>",
+    "174-back-building-questions-dozens": "Back to <a href=\"#building-q\">Building Questions</a>",
+    "175-dozens-ecobricks-image": "<img src=\"../webp/module-table.webp\" alt=\"Eco bricks can make modules.\">",
+
+
+    "176-hundreds-ecobricks-header": "What can I make with hundreds of ecobricks?",
+    "177-hundreds-ecobricks-content": "Dieleman Lego! There is a special type of module, that works just like toy lego. We call them \"Dielemans\". Dieleman modules are a geometric configuration of 16 ecobricks that enables vertical and horizontal inter-connection. In other words, they can be stacked horizontally and vertically indefinitely. Applications include indoor playgrounds, temporary stalls, sheds, and circular structures.",
+    "178-learn-more-hundreds": "Learn more: <a href=\"/dms\">Dieleman Lego Modules</a>",
+    "179-back-building-questions-hundreds": "Back to <a href=\"#building-q\">Building Questions</a>",
+    "180-hundreds-ecobricks-image": "<img src=\"../pngs/MD-inter-lock-graphic.png\" alt=\"Eco bricks can make dieleman lego.\">",
+    "181-thousands-ecobricks-header": "What can I make with thousands of ecobricks?",
+    "182-thousands-ecobricks-content": "Ecobrick open spaces! By combining dozens, or hundreds of milstein and dieleman modules you've got a ecobrick lego that can be deployed at any time to make a customized social space. Ideal for sitting, talking, meeting and playing open spaces, they can be deployed for festivals, showcases, markets, fairs, etc. The modularity enables participants to playfully arrange a space that best suits the needs of the moment.",
+    "183-learn-more-thousands": "Learn more: <a href=\"/openspace\">More about Ecobrick Open Spaces</a>",
+    "184-back-building-questions-thousands": "Back to <a href=\"#building-q\">Building Questions</a>",
+    "185-thousands-ecobricks-image": "<img src=\"../webp/openspace.webp\" alt=\"Eco bricks can make open spaces\">",
+    "186-tens-thousands-header": "What can I make with tens of thousands of ecobricks?",
+    "187-tens-thousands-content": "A green space! By combining ecobricks with traditional earth building techniques you can build parks, play areas, garden and food forests for your home or community. Ecobricks are laid horizontally in earthen mortar (i.e., cob, adobe, etc.) to build up benches, garden beds, walls and even structures. Of course, technically you only need dozens of ecobricks to start earth building— but when you've got thousands, that is when the real fun begins!",
+    "188-learn-more-tens-thousands": "Learn more: <a href=\"earth.php\">More about Earth & Ecobrick Building</a>",
+    "189-back-building-questions-tens-thousands": "Back to <a href=\"#building-q\">Building Questions</a>",
+    "190-tens-thousands-image": "<img src=\"../webp/tens-thousands.webp\" alt=\"Using tens of thousands of eco bricks to make green spaces\">",
+
+    
+
+
 
 
 

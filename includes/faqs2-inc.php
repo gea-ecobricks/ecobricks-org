@@ -64,13 +64,13 @@
 		border-radius: 12px;
 		height: 100vh;
 		padding: 25px 7% 50px 7%;
-		margin: -90vh 2.9% 160px 2.9%;
+    margin: -77vh 2.9% -160px 2.9%;
 		z-index: 5;
 }
 
 #clouds {
 
-height: 85vh;
+height: 70vh;
 }
 
 }
@@ -83,13 +83,13 @@ height: 85vh;
 		height: 80vh;
 		padding: 25px 3% 25px 3%;
 		margin-bottom: 0px;
-		margin: -77vh 2.9% -160px 2.9%;
+		margin: -90vh 2.9% 160px 2.9%;
 		z-index: 5;
 	}
 
   #clouds {
 
-height: 70vh;
+height: 85vh;
 }
 }
 
