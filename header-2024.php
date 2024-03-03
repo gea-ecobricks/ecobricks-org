@@ -407,7 +407,7 @@ window.onload = function() {
 
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
 
-  
+    <p style="font-size: smaller; text-align: center;">All our content on Ecobricks.org is open to collaborative development, revision and translation.  See colored circles for status and github links.</p>
     <div class="accordion">
 
 <div class="accordion-item">
@@ -417,7 +417,7 @@ window.onload = function() {
 
   <div class="accordion-item">
     <button class="accordion-title" data-lang-id="001-menu-0-main-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">Intro to Ecobricks
-                <span class="circle" title="This page is 100% translated to English" style="color:green !important;  ">●</span></button>
+                <span class="circle" title="This page is 100% translated to English" style="color:green !important;  font-size:15px;  ">●</span></button>
 
                 <div class="translation-info" data-lang-id="003-menu-1-trans-text-1">guidedTour.js has been translated 100%</div>
   </div>
@@ -701,7 +701,7 @@ window.onload = function() {
 
 
 
-<div class="accordion-item">
+<div class="accordion-item" style="border-bottom:none;">
 <button class="accordion-title"><b data-lang-id="001-menu-1-main-item">Platforms & Projects</b><span class="toggle-icon">+</span></button>
 <div class="accordion-content">
 
@@ -731,7 +731,7 @@ window.onload = function() {
 </div>
 
 <!-- Brikchain -->
-<div class="submenu-item-container">
+<div class="submenu-item-container" style="border-bottom:none;">
   <div class="submenu-item" data-lang-id="055-menu-5-sub-item-7">
       <a href="offsetting.php">Offsetting</a>
       <span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>

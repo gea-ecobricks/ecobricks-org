@@ -115,10 +115,48 @@ const en_Page_Translations =
     "099-how-to-make-ecobrick-description": "Deep breath... First, save up and segregate your plastic, keeping them separate from the organics. If your plastics are dirty, clean and dry them. For your first ecobrick, start with a small, clear PET bottle that is common in your community. Make sure you've got a solid stick (dowel, drumstick, branch, <a href=\"/earthwand\">earthwand</a> etc.). Start by inserting a soft, colored plastic down to the bottom of the bottle. Stuff it down with other plastics of the same color until you have a 2-3cm base. Cut up other kinds of plastics and insert them loosely into the bottle until it is almost full. Use your stick to pack the plastics down by pushing around on the sides. Fill, pack, repeat and repeat! Leave 1-2cm of space at the top of the bottle. Cap. Then, weigh your ecobrick. Make sure your ecobrick's density is over the GEA's recommended minimum 0.33g/ml (divide weight by the bottle's volume to get the density). Good ecobricks are above 0.4g/ml. Log your ecobrick (keep a list, spreadsheet or use our handy <a href=\"https://gobrik.com\" target=\"_blank\">GoBrik.com app</a>). Store securely. Then, when you've got enough, put them together in a project... and exhale!",
     "100-learn-more-dense-answer": "<h5>Answer's a little too dense? Better: <a href=\"how\">Our Comprehensive 10 Step Ecobricking Guide</a></h5>",
     "101-back-to-general-questions": "Back to <a href=\"#general\">General Questions</a>",
-    "102-faq-image-how-to-make": "<img src=\"../webp/eb-sky-400px.webp\" alt=\"How to make an eco brick?\" loading=\"lazy\">"
+    "102-faq-image-how-to-make": "<img src=\"../webp/eb-sky-400px.webp\" alt=\"How to make an eco brick?\" loading=\"lazy\">",
 
+    "103-what-build-with-ecobricks": "What can you build with ecobricks?",
+    "104-what-build-description": "So many things! Ecobricks can be connected with tire bands, silicone, and cob to build furniture, gardens, green spaces, and more. Ecobricks are being used in different ways around the world. Some households make a few modules for sitting stools while some cafes deploy hundreds to make their interactive co-working spaces. The ultimate way to build with ecobricks though is with earth. Ecobrick and earth building is ideal for making parks, gardens, and green spaces of all kinds for your community. Some folks build simple circle benches and plant a tree inside, while others build shelters and structures. Only your imagination is the limit!",
+    "105-learn-more-general-applications": "<h5>Learn more: <a href=\"build.php\">General Ecobrick Applications</a></h5>",
+    "106-back-to-general-questions": "Back to <a href=\"#general\">General Questions</a>",
+    "107-faq-image-build": "<img src=\"../webp/build-blue-450px.webp\" alt=\"Eco bricks can build all sorts of stuff\">",
+    "108-principles-header": "What makes ecobricks and ecobrick applications different from other plastic products?",
+    "109-principles-content": "The methods of making ecobricks and building with them are guided by regenerative principles. Regenerative principles are fundamentally different from the principles of \"sustainability\" This means that from the ground up ecobricks making and applications are fundamentally different from our old uses of plastic. Ecobrick applications are net-zero, localized, mandalic, transcaste, earthen, circular and open source. Yep... that's a lot of new words and concepts! But that's actually the point— ecobricking is all about applying a whole new paradigm to our plastic so that we avoid sustaining the same problems and polluting results that came from the old way of doing things.",
+    "110-learn-more-principles": "Learn more: <a href=\"principles.php\">Ecobrick Regenerative Principles</a>",
+    "111-back-general-principles": "Back to <a href=\"#general\">General Questions</a>",
+    "112-ecobricks-difference-image": "<img src=\"../webp/balancing-green.webp\" width=\"350\" style=\"width:80%;\" alt=\"Eco bricks are different from other plastic stuff in several ways.\">",
+    "113-dumping-header": "Why not just landfill or dump my plastic?",
+    "114-dumping-content": "When plastic is dumped or landfilled its surface area ends up fully exposed to the sun, to friction, fire and/or water. The more plastic is exposed, the more plastic degrades— releasing CO2, other greenhouse gases, and toxins. Eventually, plastic breaks down into smaller and smaller pieces called micro-plastics. Increasingly, scientists are realizing that these toxins and micro-plastic infiltrate ecosystems causing problems for plants and animals. Eventually, plastic's molecules reach us and our children where they adversely impact human metabolisms. Because of this, it's important to not let our plastic get loose into the biosphere by littering or dumping it.",
+    "115-learn-more-dumping": "Learn more: <a href=\"/posion\">Plastic can be Poisonous</a>",
+    "116-back-general-dumping": "Back to <a href=\"#general\">General Questions</a>",
+    "117-prevent-landfill-image": "<img src=\"../pngs/save-the-plastics.png\" alt=\"Eco bricks prevent plastic from going into a landfill.\">",
+
+
+    "118-burning-header": "Why not just burn or send my plastic to be incinerated?",
+    "119-burning-content1": "Whether plastic is burned on the side of the road or in a high-tech waste-to-energy plant, it is a momentous tragedy. The carbon that composes our modern plastic is the result of hundreds of millions of years of work by the Earth to remove carbon from the atmosphere. Through the Earth's gradual subtraction of this carbon underground, the Earth's climate stabilized and the biosphere greened. When plastic is burned, in an instant, millions of years of Earthen process are reversed. Plastic's carbon is dispersed and released back into the atmosphere, while poisonous and toxic chemicals are often created through the combustion.",
+    "120-burning-content2": "Worse, incinerating plastic also encourages more new plastic to be made, more ancient carbon to be extraction, and yet more incineration. Because it seems so easy to dispose of plastic by burning it, it makes it seem like there's no problem using plastic in the first place. Because of this, it is essential to keep our plastic from entering this dangerous spiral.",
+    "121-learn-more-burning": "Learn more: <a href=\"/posion\">Plastic can be Poisonous</a>",
+    "122-back-general-burning": 'Back to <a href="#general">General Questions</a>',
+    "123-prevent-incineration-image": "<img src=\"../webp/incineration.webp\" alt=\"Eco bricks prevent plastic from being incinerated.\">",
+    "124-recycled-header": "Why not just recycle my plastic?",
+    "125-recycled-content1": "Recycling plastic is a great idea— in theory! Unfortunately, when recycling is done <i>for-profit</i> rather than <i>for-Earth</i>, it does not achieve the green effects we hope for. In fact, the very opposite. Industrial recycling tends to downcycle plastic into lower and lower grades that have less and less likelihood of being recycled. Eventually, the utility value of the old plastic is exhausted and no more profit can be made. This plastic then ends up <a href=\"#dump\">dumping</a> or <a href=\"#burning\">burned</a>— causing the ecological issues mentioned in the answers above. It's also important to remember that industrial recycle is hardly ever local. Plastic must be transported, melted, molded, repackaged and transported again— often between stores and far-away factories. This requires fuel, energy and releases further carbon into the biosphere.",
+    "126-recycled-content2": "Most significantly, recycling plastic leads to more and more products made from plastic. Precisely because recycling seems to be a solution, it encourages us to keep consuming things made from plastic. And those new products made with old plastic? They not only require lots of energy, but most often new plastic to be mixed in. In short, putting plastics into industrial recycling encourages more industry, more plastic, and more pollution.",
+    "127-learn-more-recycled": "Learn more: <a href=\"/recycled\">Industrial Plastic Recycling</a>",
+    "128-back-general-recycled": "Back to <a href=\"#general\">General Questions</a>",
+    "129-recycling-alternative-image": "<img src=\"../svgs/vsrecycling.svg\" alt=\"Eco bricks are an alternative to recycling.\">",
+    "130-sequestration-header": "So how is ecobricking different from recycling, dumping or burning?",
+    "131-sequestration-content": "Ecobricking is a form of <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\" target=\"_blank\">plastic sequestration</a>. That means there's six principled reasons that set ecobricking apart. Rather than being for-profit ecobricking is for-Earth. Rather than letting plastic and carbon loose, ecobricking is all about their compaction and concentration. Rather than cycling plastic only a few times, ecobriking creates indefinitely reusable building blocks. Rather than rely on marketing that lowers ecological awareness, ecobricking is a hands-on learning experience that raises it. Rather than result in more products and factories that harm plants and animals, ecobricking leads to green spaces that give them a home. Rather than un-attentive disposal, ecobricking is all about measuring, tracking and disclosing our plastics. To sum it up... ecobricking is all about following the Earth's example of carbon care to make sure that we're transitioning from plastic to greener ways of living.",
+    "132-learn-more-sequestration": "Learn more: <a href=\"sequest.php\">The Principles of Plastic Sequestration</a>",
+    "133-beyond-zero-waste-image": "<img src=\"../webp/dial-example.webp\" alt=\"Eco bricks are beyond zero waste\">",
+    "134-back-general-sequestration": 'Back to <a href="#general">General Questions</a>',
 
     
+
+
+
+
 
 
 
