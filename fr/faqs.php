@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.893';?>
+<?php $version='1.894';?>
 <?php $page='faqs';?>
 
 
@@ -16,14 +16,8 @@
     <div id="cloud-banner" data-lang-id="002-our-vision-alt"><img src="../webp/faq-bottom.webp" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transition"></div>
 </div>
 
-<section id="top">
-    <div id="header-content-block">
-        <div id="raised-text">
-            <h1 data-lang-id="003-frequently-asked-questions">Frequently Asked Questions</h1>
-            <p data-lang-id="004-all-your-ecobrick-questions">All your ecobrick questions.  All our answers.</p>
-        </div>
-    </div>
-</section>
+<?php require_once ("../page-tops/faqs-top.php");?>
+
 
 <div id="content-sect1">
     <!-- QUESTIONS CONTENT -->

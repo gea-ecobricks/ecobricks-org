@@ -160,6 +160,7 @@
 .toggle {
     background-color: var(--show-hide);
     color: var(--text-color);
+    cursor: pointer;
 }
 
 
@@ -187,7 +188,7 @@
       padding: 8px 8px 15px;
       border-radius: 11px 11px 0 0;
       border: none;
-      margin-left: 85%;
+      margin-left: 75%;
       margin-bottom: -9px;
   }
 }
@@ -231,6 +232,7 @@ button:hover {
       display: flex;
       box-sizing: border-box;
       flex-direction: column;
+      flex-flow: wrap-reverse; /* REALLY?! */
   }
 }
 @media screen and (min-width: 770px) {
