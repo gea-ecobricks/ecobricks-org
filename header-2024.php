@@ -419,6 +419,8 @@ window.onload = function() {
   <div class="accordion-item">
     <button class="accordion-title" data-lang-id="001-menu-0-main-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">Intro to Ecobricks
                 <span class="circle" title="This page has been translated 100%">●</span></button>
+
+                <div class="translation-info" data-lang-id="003-menu-1-trans-text-1">guidedTour.js has been translated 100%</div>
   </div>
 
 

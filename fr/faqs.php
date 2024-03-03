@@ -16,7 +16,7 @@
     <div id="cloud-banner" data-lang-id="002-our-vision-alt"><img src="../webp/faq-bottom.webp" width="300" style="width:100%;" alt="Our vision of a green new world that is possible through plastic transition"></div>
 </div>
 
-<?php require_once ("../page-tops/faqs-top.php");?>
+<?php require_once ("page-tops/faqs-top.php");?>
 
 
 <div id="content-sect1">
