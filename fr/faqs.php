@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.894';?>
+<?php $version='1.895';?>
 <?php $page='faqs';?>
 
 
@@ -421,6 +421,7 @@ GENERAL ANSWERS
 		</div>
 	</div>
 </div>
+
 
 <div class="faq" id="baddies">
 	<div class="faq-box">

@@ -43,7 +43,6 @@
 #clouds {
 
     width: 100%;
-	height: 70vh;
    /* min-height: 500px;*/
 	background-color: #19E8FF;
     display: flex;
@@ -65,9 +64,15 @@
 		border-radius: 12px;
 		height: 100vh;
 		padding: 25px 7% 50px 7%;
-		margin: -77vh 10% -250px 10%;
+		margin: -90vh 2.9% 160px 2.9%;
 		z-index: 5;
 }
+
+#clouds {
+
+height: 85vh;
+}
+
 }
 
 @media screen and (max-width: 770px) { 
@@ -81,6 +86,11 @@
 		margin: -77vh 2.9% -160px 2.9%;
 		z-index: 5;
 	}
+
+  #clouds {
+
+height: 70vh;
+}
 }
 
 

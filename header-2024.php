@@ -745,7 +745,7 @@ window.onload = function() {
 </div>
 
 
-<p style="font-size: smaller; text-align: center; padding:20px;width:80%">All our content on Ecobricks.org is open to collaborative development, revision and translation.<br>See colored circles for status and github links.</p>
+<p style="font-size: small; text-align: center; margin: auto; width:80%">All our content on Ecobricks.org is open to collaborative development, revision and translation.<br>See colored circles for status and github links.</p>
   
 
 

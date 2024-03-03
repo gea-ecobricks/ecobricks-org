@@ -152,7 +152,37 @@ const en_Page_Translations =
     "133-beyond-zero-waste-image": "<img src=\"../webp/dial-example.webp\" alt=\"Eco bricks are beyond zero waste\">",
     "134-back-general-sequestration": 'Back to <a href="#general">General Questions</a>',
 
-    
+    "135-keen-header": "I am keen to get going with ecobricking! What's the best way to start?",
+    "136-keen-content": "Start by writing down today's date. Then, save your plastic for the next month! Every single piece that comes into your household, be sure that it doesn't leave— but instead gets cleaned, dried and placed in a special bin. After 30 days, weigh all the plastic that your household has consumed, transfer it to another bin and... begin ecobricking (see the how to ecobrick). If you don't finish all the plastic in one sitting that's ok. Keep putting the plastic you consume in bin #1 and every month transfer your ecobrickable plastic into bin #2. This way you're not only efficiently ecobricking, you're tracking your consumption, plastic reduction and plastic transition. A year from now, keep track of a month of your plastic consumption. Note the difference!",
+    "137-learn-more-keen": "Learn more: <a href=\"how.php\">How to Make an Ecobrick</a>",
+    "138-back-general-keen": "Back to <a href=\"#general\">General Questions</a>",
+    "139-start-ecobricking-image": "<img src=\"../webp/weigh-plastic.webp\" style=\"width: 50% !important;\" alt=\"Eco bricks are an alternative to recycling. Start by plastic tracking.\">",
+    "140-ecobrick-concerns-header": "Ecobrick Concerns",
+    "141-dangerous-toxic-header": "How does plastic get to be dangerous and toxic?",
+    "142-dangerous-toxic-content": "Plastic is an incredibly useful and versatile material.  But in the wrong place it can become dangerous— poisonous to us, animals and ecosystems.  When it gets loose in the biosphere plastic degrades from the effects of friction, heat and sun.  As it degrades, dangerous chemicals are released.  These toxins don't fit into ecological systems and chemically contaminate.  Plastic's degradation also leads to smaller and smaller pieces of plastic.  Organisms and animals that consume these 'micro-plastics' clog up their digestion and get sick.  Many die.  Eventually both chemical toxins and physical micro-plastics pass through the food chain to humans.  In our bodies they upset our hormonal balances, cause growth problems, and trigger cancer and other health issues.",
+    "143-learn-more-dangerous": "Learn more: <a href=\"/poison\">The Dangers of Plastic</a>",
+    "144-back-concerns-dangerous": "Back to <a href=\"#concerns\">Ecobrick Concerns</a>",
+    "145-keep-plastic-safe-image": "<img src=\"../pngs/fire.png\" alt=\"Eco bricks keep plastic safe\">",
+
+    "146-final-solution-header": "How can ecobricks be a final solution for plastic?  Won't the plastic escape one day no matter what we do?",
+    "147-final-solution-content1": "\"Final solutions\" aren't the way Earth and its ecosystems work.  Rather than lines that start and end, ecosystems instead work in spiralling cycles— using carbon molecules as building blocks that are used over and over again in a journey towards sequestration. By ecobricking our plastic (which is mainly carbon!) we're taking it out of linear industrial systems and the \"final solution\" paradigm.",
+    "148-final-solution-content2": "In contrast, ecobricks are designed to be building blocks that can be used over and over again.  Just like in an ecosystem, ecobricks are used locally and with no extra energy needed.  This way our ecobricks can spiral through time and become gifts for future generations.",
+    "149-final-solution-content3": "In the same way Earth gifted us densely packed carbon (i.e. fossil fuels), we can gift our compacted carbon to another age.  Like the dinosaurs, we can't imagine how the carbon of our age will be used in the future. However, we can be certain that it makes a better gift compacted and concentrated rather than scattered and dispersed, loose and leaching.",
+    "150-learn-more-matter": "Learn more: <a href=\"spiral.php\">Spiral Design</a>",
+    "151-back-concerns-matter": "Back to <a href=\"#concerns\">Ecobrick Concerns</a>",
+    "152-apply-ayyew-principles-image": "<img src=\"../webp/ayyew.webp\" alt=\"Eco bricks apply ayyew principles\">",
+    "153-transition-header": "Don't ecobricks just encourage people to consume more plastic?",
+    "154-transition-content": "This is a question we get a lot from people who have yet to make an ecobrick. Once you commit to taking full responsibility for your plastic and start packing every piece, you get very choosy about the plastic you buy! Let's be honest, ecobricking isn't fun— nor is washing and drying your plastics every day to prep them for ecobricking! In a 2021 cross-sectional survey of ecobrickers, we found that on average their monthly plastic consumption had decreased to 61% of their per capita average. Rather than give an excuse to continue consuming plastic, ecobricking helps to increase plastic awareness and accelerate plastic transition.",
+    "155-learn-more-transition": "Learn more: <a href=\"transition.php\">Plastic Transition</a>",
+    "156-back-concerns-transition": "Back to <a href=\"#concerns\">Ecobrick Concerns</a>",
+    "157-sequest1-header": "I've heard that ecobricks can leach poisons out into the environment. Is it true?",
+    "158-sequest1-content": "Yes! If you were to set an ecobrick on fire, leave it in the sun, or boil it in a bucket of water, it certainly would leach poisons. Just like pretty much anything made from plastic! In fact, anything used the wrong way can be dangerous. This is the point of ecobricking: to secure plastic and keep it safe. Ecobricking is done based on the knowledge that plastic is susceptible to degradation and leaching to the extent that its surface area is exposed to the elements. When we pack plastic densely into a bottle we reduce the net-surface area a thousand-fold. Then, when we put ecobricks to use in applications that cover and protect the plastic, the danger of leaching is near nil! Oh... and don't forget, by not recycling plastic we avoid all the carbon that would be released industrially!",
+    "159-learn-more-sequest1": "Learn more: <a href=\"sequest.php\">Plastic Sequestration</a>",
+    "160-back-concerns-sequest1": "Back to <a href=\"#concerns\">Ecobrick Concerns</a>"
+
+
+
+
 
 
 
