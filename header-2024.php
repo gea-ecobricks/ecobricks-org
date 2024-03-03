@@ -262,7 +262,7 @@ window.onload = function() {
 .circle {
     cursor: pointer;
     margin-left: 10px; /* Adjust as necessary */
-    color: var(--header-accent);
+    opacity: 0.8;
 }
 
 .cricle:hover {
@@ -296,12 +296,12 @@ window.onload = function() {
 }
 
 .accordion-content a:hover {
-    color: var(--h1)
+    color: var(--h1);
 }
 
 /* Hover and Focus Styles for Interactivity */
 .circle:hover, .circle:focus {
-  color: var(--h1)
+    opacity: 1;
 
 }
 
