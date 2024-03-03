@@ -407,7 +407,7 @@ window.onload = function() {
 
     <div class="overlay-content-settings" style="margin-bottom: 20px;">
 
-    <p style="font-size: smaller; text-align: center;">All our content on Ecobricks.org is open to collaborative development, revision and translation.  See colored circles for status and github links.</p>
+   
     <div class="accordion">
 
 <div class="accordion-item">
@@ -740,8 +740,11 @@ window.onload = function() {
 </div>
 
 </div>
+
+<p style="font-size: smaller; text-align: center; padding:20px;">All our content on Ecobricks.org is open to collaborative development, revision and translation.  See colored circles for status and github links.</p>
 </div>
   
+
 
 </div> <!--close overlay-content-settings-->
 </div> <!-- close righ page menu-->
