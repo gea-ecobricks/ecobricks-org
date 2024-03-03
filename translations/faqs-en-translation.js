@@ -309,7 +309,35 @@ const en_Page_Translations =
     "277-ocean_answer": "Yes... and no!  Normal ecobricks are all about the mindful repurposing of the plastic that we consume personally.  This means caring for our plastic by segregating, cleaning, and drying it.  The plastic that has washed up on the beach (or we find on the roadside) tends to be wet, dirty, and chunky.  So it's not ideal for putting into a normal ecobrick.  However, it poses a contamination danger to the environment just as much as any other plastic.  To take care of it, you can pack it into what we call an ocean ecobrick.  Ocean ecobricks are made by cutting two PET bottles, packing both tight, and merging them into one.",
     "278-ocean_learn_more": "Learn more: <a href=\"/ocean\">Ocean Ecobricks</a>",
     "280-ocean_back_link": "Back to <a href=\"#misc\">More Questions</a>",
-    "281-ocean_image": "<img src=\"../webp/oeb-400px.webp\" alt=\"ocean eco bricks\" loading=\"lazy\">"
+    "281-ocean_image": "<img src=\"../webp/oeb-400px.webp\" alt=\"ocean eco bricks\" loading=\"lazy\">",
+
+    "282-cigbrick_question": "What about cigarette filters— can they be ecobricked?",
+    "283-cigbrick_answer": "YES!  Cigarette filters are made from plastic, and although small, are one of the biggest source of plastic pollution.  We've thus come up with a special technique and ecobricking just for cigarette butts.  When you're done smoking, simply peel off the paper and remove the ash (this can be safely discarded).  Then, place the filter into your ecobrick.  If you're really keen, you can make an ecobrick entirely out of cigarette filters.  We call this a \"cigbrick\"!",
+    "284-cigbrick_learn_more": "Learn more: <a href=\"/cigbrick\">Cigbricks</a>",
+    "286-cigbrick_back_link": "Back to <a href=\"#misc\">More Questions</a>",
+    "287-cigbrick_image": "<img src=\"../svgs/Cigbrick.svg\" alt=\"Cigbricks eco brick\" loading=\"lazy\">",
+    "288-media_question": "I am with the media. How do I get accurate information on ecobricks to write a story or do a report?",
+    "289-media_answer": "Well... that's what this site is for!  Even better, we have a page for that.  Our press kit is designed to help journalists avoid the most common misconceptions about ecobricking.",
+    "290-media_learn_more": "Learn more: <a href=\"media.php\">GEA Press Kit</a>",
+    "292-media_back_link": "Back to <a href=\"#misc\">More Questions</a>",
+    "293-eco_bricks_question": "How do you spell it:  eco-brick, eco brick, or ecobrick?",
+    "294-eco_bricks_answer": "Back in the early days of putting plastic into a bottle we called it just that— plastic bottle bricks!  Then when we realized it was helpful to the ecosystems around us, the name changed to eco bricks.  Then we got more confident and added a hyphen: eco-bricks!  However, once ecobricks were a clearly established global phenomenon and demonstrably more practical and ecological helpful solution than industrial equivalents— leaders of the global movement conferred and deemed that a full-fledged word was appropriate:  ecobricks!  The Global Ecobrick Alliance and the official Wikipedia entry use 'ecobrick' (no space, no hyphen, no strange capitalization) as the official term.",
+    "295-eco_bricks_learn_more": "Learn more: <a href=\"about.php\">GEA History</a>",
+    "297-eco_bricks_back_link": "Back to <a href=\"#misc\">More Questions</a>",
+    "298-arcio_question": "What's that green circle on the bottom of your webpage?  What is Arc.io doing?",
+    "299-arcio_answer": "The green circle shows that our Green Arc.io service is operating.  This content delivery network system enables websites to be faster and greener by enabling common visitors of a website that are local to each other.  The Arc + Ecobricks.org widget enables other visitors of a site that are geographically local to you to share access to the same data.  Instead of connecting to content on a server on the other side of the planet, the content can be served by the computer nearest you.  This saves time and energy and is a valuable service that websites pay for.  By directing the service payments of the CDN clients through the Ecobricks.org manual blockchain, dollars, kilobytes, and kilograms of plastic can directly be correlated.  Your visit to arc websites results in AES plastic offset credits purchased and the valuation of the removal of plastic from the biosphere by ecobrickers around the world.",
+    "300-arcio_learn_more": "Learn more: <a href=\"arc.php\">Arc CDN</a>",
+    "302-arcio_back_link": "Back to <a href=\"#misc\">More Questions</a>",
+    "303-arcio_image": "<img src=\"../webp/arc-green-popper.webp\" alt=\"green cdn service\" loading=\"lazy\" style=\"width: 50% !important;\">",
+
+    "304-faq_more_info_heading": "Need to know more?",
+    "305-faq_more_info_subheading": "In the answer, above click through to the corresponding page on our site.  You can go even deeper with our source materials and trainings:",
+    "306-faq_ecobricks_whitepaper": "<b>Ecobricks & Brikcoin Whitepaper</b> <a href=\"https://files.ecobricks.org/s/pC52memM4S2a6LX\" target=\"_blank\">The Commodification of Sequestered Plastic</a>",
+    "308-faq_journalists_info": "<b>Journalists:</b>  Be sure to check out <a href=\"media.php\">our media kit!</a>",
+    "310-faq_learn_from_trainer": "<b>Learn from a trainer</b>  Check out the current <a href=\"https://gobrik.com/courses\">Ecobrick Starter Workshop</a> course listing by certified GEA Trainers.",
+    "312-faq_training_others": "<b>Training others to make ecobricks?</b> Be sure to check out <a href=\"/trainings\">trainer of trainer program</a>"
+
+
 
 
 
