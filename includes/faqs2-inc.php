@@ -3,8 +3,11 @@
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="../webp/faq-bottom.webp">
-<link rel="preload" as="image" href="../svgs/top-clouds-animated-desktop?v1">
+<link rel="preload" as="image" href="../svgs/top-clouds-animated-desktop?v1" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="../svgs/top-clouds-animated-desktop-dark.svg?v1" media="(prefers-color-scheme: dark)">
 <link rel="preload" as="image" href="../webp/faq-top.webp">
+
+
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 

@@ -92,7 +92,15 @@ const en_Page_Translations =
     "079-worry-description": "Climate change. Ocean acidification. Species extinction. These are big issues! And they all have one thing in common: <i>The way we humans relate to the Earth.</i> From brash billionaires to poisonous pollution... indeed, the way we currently relate, makes it easy to worry! However, there's no more powerful way to manifest change than by living it first ourselves. As a product of both the Earth and the petro-capital economy, plastic is the ultimate representation of the old Way we've been relating to the Earth. By changing the way we see plastic and what we do with it, we can shift our attitude from worry and despair to love and care. By loving and caring for our plastic, we can begin to heal the roots of our relationship with it and the Earth: The very same roots that all the other big issues happen to share.",
     "080-learn-more-story-plastic": "<h5>Learn more: <a href=\"/plastic\">The Long Story of Plastic</a></h5>",
     "081-back-to-general-questions": "Back to <a href=\"#general\">General Questions</a>",
-    "082-faq-image-petro-capital": "<img src=\"../webp/petro-capital-age.webp\" alt=\"petro capital transition\" loading=\"lazy\">"
+    "082-faq-image-petro-capital": "<img src=\"../webp/petro-capital-age.webp\" alt=\"petro capital transition\" loading=\"lazy\">",
+
+
+    "083-dangerous-plastic": "How is plastic troublesome and dangerous?",
+    "084-dangerous-description": "Plastic is an incredibly useful and versatile material. However, in the wrong place plastic can become poisonous to humans, animals and ecosystems. When plastics get loose in the biosphere, they degrade through friction, heat and sun into chemicals and into particles. These are chemicals don't fit into ecological systems, so they contaminate ecosystems and poison organisms. Plastic's degradation also leads to smaller and smaller particles of plastic. When organisms consume these 'micro-plastics' their digestion gets clogged up and they get sick. Many die. Eventually both chemical toxins and physical micro-plastics pass through the food chain to humans. In our bodies they upset our hormonal balances, cause growth problems, and trigger cancer and health issues of all kinds.",
+    "085-learn-more-dangers-plastic": "<h5>Learn more: <a href=\"/poison\">The Dangers of Plastic</a></h5>",
+    "086-back-to-general-questions": "Back to <a href=\"#general\">General Questions</a>",
+    "087-faq-image-fire-safety": "<img src=\"../pngs/fire.png\" alt=\"eco bricks and fire safety. Make sure ecobricks are used safely\" loading=\"lazy\">"
+
 
 
 
