@@ -214,6 +214,28 @@ const en_Page_Translations =
     "189-back-building-questions-tens-thousands": "Back to <a href=\"#building-q\">Building Questions</a>",
     "190-tens-thousands-image": "<img src=\"../webp/tens-thousands.webp\" alt=\"Using tens of thousands of eco bricks to make green spaces\">",
 
+    "191-circular-header": "What happens when an ecobrick application comes to its end?",
+    "192-circular-content": "Good question! It's important to think about the next life of things we make— what will happen to them when they come to their end. We provide guidelines to make sure all ecobrick applications— from modules to earth build— have their next life built in. By making modules with silicone or tire-bands, ecobricks can be removed from the module without damaging them. Basically, we're leveraging the long-lasting properties of plastic to make our design circular. That means the module can be disbanded, rebuilt, repaired... or the ecobricks can be taken and used for an earth build.",
+    "193-learn-more-circular": "Learn more: <a href=\"spiral.php\">Ecobrick Spiral Design</a>",
+    "194-back-building-questions-circular": "Back to <a href=\"#building-q\">Building Questions</a>",
+    "195-circular-image": "<img src=\"../svgs/circular-applications.svg\" width=\"400\" alt=\"Spiral & Circular eco brick design applies to a module\">",
+    "196-earth-header": "What exactly is Earth and Ecobrick building?",
+    "197-earth-content": "Building with earth is an ancient human tradition found around the world in nations ancient and ongoing. By combining it with ecobricks, anyone can build simple non-structural constructions. In particular, earth and ecobrick building is ideal for making planters, benches and garden beds— parks, food-forests, and in general green spaces that can serve our community and be a home for plants and other species. Using local earth to make cob mortar, our ecobricks are covered up and secured from all forms of degradation.",
+    "198-learn-more-earth": "Learn more: <a href=\"earth.php\">Earth & Ecobrick Building</a>",
+    "199-back-building-questions-earth": "Back to <a href=\"#building-q\">Building Questions</a>",
+    "200-earth-image": "<img src=\"../webp/earth-tree-400px.webp\" alt=\"A circular eco brick bench\">",
+    "201-earth-methods-header": "How to build with Ecobricks and Earth?",
+    "202-earth-methods-content": "Building with earth and ecobricks is... pretty awesome! First you start by learning about the ancient earth traditions in your area. Then you get your ecobricks, friends and community together. Using nothing but local materials you then get down and dirty digging a foundation, laying it down and building on up. Layer by layer you add ecobricks, cob, ecobricks, cob. As you go you curve and sculpt your bench, planter or wall. When it's up and it's dry then you choose the appropriate outer skin and render it on.<br>That's obviously too short a summary! If you're serious, you'll want to check out our step by step directions and suggested techniques.",
+    "203-learn-more-earth-methods": "Learn more: <a href=\"/earth-methods\">Earth & Ecobrick Methods</a>",
+    "204-back-building-questions-earth-methods": "Back to <a href=\"#building-q\">Building Questions</a>",
+    "205-earth-methods-image": "<img src=\"../webp/earth-build.webp\" alt=\"Earth and Eco brick building\">",
+    "206-fire-header": "Are ecobricks a fire hazard since they are made with flammable plastic?",
+    "207-fire-content": "Yes. Plastic, just like pretty much everything else, can be flammable. Whether you're building with wood, bamboo or ecobricks it's all about doing so to minimize fire hazards. Ecobrick fire safety starts by making ecobricks properly. When ecobricks are made according to GEA density standards, flammability is critically reduced. Furthermore, by building with ecobricks properly, their flammability is yet further reduced. In fact, ecobrick and earth building for outdoor green spaces (our recommended ecobrick application) reduces flammability to virtually nil by completely encasing ecobricks in cob. In fact, other than test earth and ecobrick walls that have been deliberately set on fire (and it wasn't easy), we know of no ecobrick green spaces that have ever caught fire.",
+    "208-learn-more-fire": "Learn more: <a href=\"/fire\">Ecobricks & Fire Security</a>",
+    "209-back-building-questions-fire": "Back to <a href=\"#building-q\">Building Questions</a>",
+    "210-fire-image": "<img src=\"../webp/fire.webp\" alt=\"Eco brick fire safety\">"
+
+
     
 
 
