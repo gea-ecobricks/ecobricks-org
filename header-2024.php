@@ -169,11 +169,15 @@ window.onload = function() {
 
 
 
+.accordion {
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
 .accordion button:hover {
   background: var(--side-overlays) !important;
   color: var(--h1);
-    font-weight: 600;
-
 }
 
 .accordion-item {
@@ -206,7 +210,7 @@ window.onload = function() {
 }
 
 .accordion-title b {
-  font-weight:400;
+  font-weight: 300;
 }
 
 
