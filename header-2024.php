@@ -389,7 +389,12 @@ window.onload = function() {
     <div class="accordion">
 
 <div class="accordion-item">
-    <button class="accordion-title" data-lang-id="001-menu-0-main-item"><a href="how.php">Ecobricks & Standards</a>
+    <button class="accordion-title" data-lang-id="001-menu-0-main-item"><a href="faqs.php">Ecobrick FAQs</a>
+                <span class="circle" title="This page has been translated 100%">●</span></button>
+  </div>
+
+  <div class="accordion-item">
+    <button class="accordion-title" data-lang-id="001-menu-0-main-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">Intro to Ecobricks
                 <span class="circle" title="This page has been translated 100%">●</span></button>
   </div>
 
