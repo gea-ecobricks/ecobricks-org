@@ -233,7 +233,25 @@ const en_Page_Translations =
     "207-fire-content": "Yes. Plastic, just like pretty much everything else, can be flammable. Whether you're building with wood, bamboo or ecobricks it's all about doing so to minimize fire hazards. Ecobrick fire safety starts by making ecobricks properly. When ecobricks are made according to GEA density standards, flammability is critically reduced. Furthermore, by building with ecobricks properly, their flammability is yet further reduced. In fact, ecobrick and earth building for outdoor green spaces (our recommended ecobrick application) reduces flammability to virtually nil by completely encasing ecobricks in cob. In fact, other than test earth and ecobrick walls that have been deliberately set on fire (and it wasn't easy), we know of no ecobrick green spaces that have ever caught fire.",
     "208-learn-more-fire": "Learn more: <a href=\"/fire\">Ecobricks & Fire Security</a>",
     "209-back-building-questions-fire": "Back to <a href=\"#building-q\">Building Questions</a>",
-    "210-fire-image": "<img src=\"../webp/fire.webp\" alt=\"Eco brick fire safety\">"
+    "210-fire-image": "<img src=\"../webp/fire.webp\" alt=\"Eco brick fire safety\">",
+
+
+    "211-circular3-header": "But isn't building with ecobricks just delaying the problem? How is this a final solution to plastic?",
+    "212-circular3-content": "For hundreds of millions of years the molecules that make up our plastic weren't problematic. In fact, by having secured carbon underground, the Earth greened its surface. In the Earth's ecosystems \"Final solutions\" aren't the way things work. Thinking in lines is the way our petro-capital system tries to work when we buy, use, and throw away. Ecosystems instead work in circles, cycling molecules over and over with less and less energy. By ecobricking our carbon/plastic we're getting out of 'final' thinking and back to following the example of the Earth. Ecobricks are designed to both secure their carbon/plastic and to be local building blocks— just like in ecosystems! In the same way the Earth gifted us densely packed carbon (i.e., fossil fuels), we can gift our carbon to others in the future. Like the dinosaurs, we can't imagine how our plastic/carbon will be used in the future. However, we can be certain that it makes a better gift compacted and concentrated into useful buildings rather than scattered and dispersed, loose and leaching.",
+    "213-learn-more-circular3": "Learn more: <a href=\"sequest.php\">Plastic Sequestration</a>",
+    "214-back-building-questions-circular3": "Back to <a href=\"#building-q\">Building Questions</a>",
+    "215-circular3-image": "<img src=\"../webp/spiral-circular-400px.webp\" alt=\"eco brick circular design\">",
+    "216-about-movement-header": "About the Movement",
+    "217-movement-header": "How to connect with the ecobrick movement?",
+    "218-movement-content": "The global ecobrick movement is a fundamentally decentralized and distributed network of keen green folks, communities and companies around the world. And there's tons of diversity! Depending on what's available folks ecobrick in unique ways across culture and continents. While many of these folks are not online at all, many are and use social media to connect and support their local ecobrick communities. We keep a far-from-complete list of web pages and social media pages around the world to follow, make friends and join.",
+    "219-learn-more-movement": "Learn more: <a href=\"/movement\">Global Ecobrick Movement</a>",
+    "220-back-movement-questions": "Back to <a href=\"#movement-q\">Movement Questions</a>",
+    "221-movement-image": "<img src=\"../pngs/community.png\" alt=\"community powered collaboration\" loading=\"lazy\">",
+    "222-about-gea-header": "Who are you guys?",
+    "223-about-gea-content": "We're a global alliance of ecobrickers! We've come together to form the Global Ecobrick Alliance as a way to support the conceptual and technological infrastructure of the plastic transition movement. Despite the diversity of the movement around the world, the problem of plastic connects us all. And so too does the consistency of PET bottles and plastic packaging! We see plastic as a grand opportunity for collective ecological action. We're not a company, a charity or NGO— we're what we call an Earth Enterprise. Unlike many companies we don't have shareholders or owners who profit from excess revenue. Unlike many Charities and NGOs we generate our own revenue— specifically by providing the valuable social service of training ecobrickers and the valuable ecological service of authenticating plastic sequestration.",
+    "224-learn-more-about-gea": "Learn more: <a href=\"about.php\">Learn more about the GEA</a>",
+    "225-back-movement-questions-gea": "Back to <a href=\"#movement-q\">Movement Questions</a>",
+    "226-about-gea-image": "<img src=\"../svgs/shanti.svg\" style=\"width: 40% !important;\" loading=\"lazy\" alt=\"Shanti one of our GEA Ecobrick Trainers\">"
 
 
     
