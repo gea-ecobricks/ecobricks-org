@@ -274,7 +274,43 @@ const en_Page_Translations =
     "251-faq_trainings_back_link": "Back to <a href=\"#movement-q\">Movement Questions</a>",
 
 
-    
+    "252-faq_catalyst_question": "How can my company assist the ecobrick and plastic transition movement?",
+    "253-faq_catalyst_answer": "By leading by example.  Companies around the world have commissioned GEA Trainers to show their staff how to manage, track and ecobrick their plastic.  Then after a while they train their keenest staff to be trainers themselves!  Some companies host ecobrick workshops on their premises, others send their trainers out to the community.  However they do it, they make sure that they are setting the example in reducing, sequestering and transitioning from plastic.  To help keen green companies, the GEA has some powerful tools!",
+    "254-faq_catalyst_learn_more": "Learn more: <a href=\"catalyst.php\">Catalyst Companies</a>",
+    "256-faq_catalyst_back_link": "Back to <a href=\"#movement-q\">Movement Questions</a>",
+    "257-faq_catalyst_image": "<img src=\"../webp/catalyst-logo.webp\" alt=\"enterprises to go green\" loading=\"lazy\">",
+    "258-gobrik_questions_title": "GoBrik Questions",
+    "259-faq_gobrik_question": "What is this GoBrik app for ecobricking?",
+    "260-faq_gobrik_answer": "The GoBrik platform serves ecobrickers around the world, enabling them to log, manage, validate, authenticate and exchange their ecobricks. Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. Once logged, ecobricks are automatically submitted to the validation queue where they are reviewed by the community of ecobrickers. Ecobricks that are successfully authenticated (the reviewers concur on the visible data) are then eligible to be exchanged and traded on the platform.",
+    "261-faq_gobrik_learn_more": "Learn more: <a href=\"/gobrik\">GoBrik Platform</a><br>Launch: <a href=\"gobrik\">GoBrik.com</a>",
+    "264-faq_gobrik_back_link": "Back to <a href=\"#gobrik-q\">GoBrik Questions</a>",
+    "265-faq_gobrik_image": "<img src=\"../webp/eb-sky-400px.webp\" alt=\"An eco brick being made\" loading=\"lazy\">",
+    "265-faq_brikcoins_question": "What are Brikcoins?",
+    "266-faq_brikcoins_answer": "Brikcoins (<strong><span class=\"\">ß</span></strong>) are a new medium of exchange founded on community collaboration and a healthy planet. Brikcoins are based on ecobricked, sequestered, plastic. Brikcoins are earned by helping to authenticate ecobricks on GoBrik and prove the sequestration of plastic. Every Brikcoin is backed by 100g of packed and secured plastic. Anyone with an account can start earning Brikcoins which can then be used to pay for GEA courses, exchange with GoBrik users, and more.",
+    "267-faq_brikcoins_learn_more": "Learn more: <a href=\"brikcoins.php\">Brikcoin Manual Blockchain</a><br>Launch: <a href=\"gobrik\">GoBrik.com</a>",
+    "270-faq_brikcoins_back": "Back to <a href=\"#gobrik-q\">GoBrik Questions</a>",
+    "271-faq_brikcoins_image": "<img src=\"../webp/brk-cascade.webp\" style=\"width: 40% !important;\" alt=\"various eco bricks cascading\" loading=\"lazy\">",
+
+    "272-faq_start_question": "How to join GoBrik?",
+    "273-faq_start_answer": "GoBrik accounts are free! GoBrik is a web app. This means you can sign up and use it on your desktop computer— or on your phone. Signing up is easy with either your email address or your Facebook account. We'll ask you some questions about your ecobricking, and then you're set to log ecobricks, earn brikcoins, and exchange ecobricks on our marketplace. Visit GoBrik.com to register.",
+    "274-faq_start_learn_more": "Learn more: <a href=\"/gobrik\">GoBrik Platform</a><br>Launch: <a href=\"gobrik\">GoBrik.com</a>",
+    "277-faq_start_back": "Back to <a href=\"#gobrik-q\">GoBrik Questions</a>",
+    "278-faq_start_image": "<img src=\"../webp/eb-sky-400px.webp\" alt=\"eco brick making\" loading=\"lazy\">",
+    "266-dropoff_question": "How can I drop off my completed ecobricks to a community project?",
+    "267-dropoff_answer1": "Remember that ecobricks are all about taking personal responsibility for our plastic and not another way to dispose of it.  Putting your own ecobricks to use in your own projects is the essence of the movement.  Of course, more and more ecobrick building projects happening that need ecobrick contributions.",
+    "268-dropoff_answer2": "Before contributing your ecobricks to a community project, it's essential to make sure your ecobricks are high quality— no one wants bottles filled with loose dirty plastic!  Be sure to follow the <a href=\"about.php\">GEA best practices</a>.  Even better: get your ecobricks authenticated. You can do that by logging your ecobricks on our GoBrik app, where they are validated through a peer review process.",
+    "270-dropoff_back_link": "Back to <a href=\"#misc\">More Questions</a>",
+    "271-dropoff_image": "<img src=\"../webp/brikmarket-400px.webp\" alt=\"eco brick making\" loading=\"lazy\">",
+    "272-hubs_question": "How can I get ecobricks for my project?",
+    "273-hubs_answer": "It's important to remember that ecobricks aren't 'bricks' in the traditional sense of the word.  The making of ecobricks and building with them is a fundamentally collaborative process.  In fact, if you're keen to build a normal building for yourself, in most cases you're better off using normal bricks and construction techniques.  Of course, if you're keen to build a space for your community, you can set yourself up as an Ecobrick Hub— where folks drop off their ecobricks to help you with your project.",
+    "274-hubs_back_link": "Back to <a href=\"#misc\">More Questions</a>",
+    "275-hubs_image": "<img src=\"../webp/various-briks-400px.webp\" alt=\"eco brick making\" loading=\"lazy\">",
+    "276-ocean_question": "What about plastic I pick up from the beach— can it be ecobricked?",
+    "277-ocean_answer": "Yes... and no!  Normal ecobricks are all about the mindful repurposing of the plastic that we consume personally.  This means caring for our plastic by segregating, cleaning, and drying it.  The plastic that has washed up on the beach (or we find on the roadside) tends to be wet, dirty, and chunky.  So it's not ideal for putting into a normal ecobrick.  However, it poses a contamination danger to the environment just as much as any other plastic.  To take care of it, you can pack it into what we call an ocean ecobrick.  Ocean ecobricks are made by cutting two PET bottles, packing both tight, and merging them into one.",
+    "278-ocean_learn_more": "Learn more: <a href=\"/ocean\">Ocean Ecobricks</a>",
+    "280-ocean_back_link": "Back to <a href=\"#misc\">More Questions</a>",
+    "281-ocean_image": "<img src=\"../webp/oeb-400px.webp\" alt=\"ocean eco bricks\" loading=\"lazy\">"
+
 
 
 

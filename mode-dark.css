@@ -301,7 +301,7 @@
 }
 
 #clouds {
-	background: url(../svgs/top-clouds-animated-desktop-dark.svg?v1) center top;
+	background: url(../svgs/top-clouds-animated-desktop-dark.svg) center top;
     background-repeat: no-repeat;
     background-size: cover;
 }
