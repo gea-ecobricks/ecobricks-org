@@ -254,8 +254,9 @@ window.onload = function() {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 8px 8px 8px 12px;
     text-align: left;
+    font-size: 1.2em;
 }
 
 /* Circle Icon and Translation Info */
@@ -741,8 +742,10 @@ window.onload = function() {
 
 </div>
 
-<p style="font-size: smaller; text-align: center; padding:20px;">All our content on Ecobricks.org is open to collaborative development, revision and translation.  See colored circles for status and github links.</p>
 </div>
+
+
+<p style="font-size: smaller; text-align: center; padding:20px;width:80%">All our content on Ecobricks.org is open to collaborative development, revision and translation.<br>See colored circles for status and github links.</p>
   
 
 
