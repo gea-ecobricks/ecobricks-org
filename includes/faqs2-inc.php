@@ -190,7 +190,7 @@
 }
 button:hover {
   border: 1px;
-  background: rgba(255, 255, 255, 0.815);
+  background: var(--side-overlays);
   cursor: pointer;
 }
 
