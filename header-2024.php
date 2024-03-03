@@ -411,8 +411,8 @@ window.onload = function() {
     <div class="accordion">
 
 <div class="accordion-item">
-    <button class="accordion-title" data-lang-id="001-menu-0-main-item"><a href="faqs.php">Ecobrick FAQs</a>
-                <span class="circle" title="This page is 100% translated to English" style="color:green !important; ">●</span></button>
+    <button class="accordion-title" data-lang-id="001-menu-0-main-item" style="border-top:none;"><a href="faqs.php">Ecobrick FAQs</a>
+                <span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:15px; ">●</span></button>
   </div>
 
   <div class="accordion-item">
@@ -437,14 +437,14 @@ window.onload = function() {
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="004-menu-1-sub-item-2">
                 <a href="/cigbricks">Cigbricks</a>
-                <span class="circle" title="This page is 100% translated to English but in our non-git format.  Qued for migration." style="color:orange; ">●</span>
+                <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
             </div>
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-2">/cigbricks | This page is 100% translated to English but in our non-git format.  We're working to migrate it.</div>
         </div>
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="004-menu-1-sub-item-3">
                 <a href="/ocean">Ocean Ecobricks</a>
-                <span class="circle" title="This page is 100% translated to English but in our non-git format.   Qued for migration." style="color:orange">●</span>
+                <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
             </div>
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">/ocean | This page is 100% translated to English but in our non-git format.  We're working to migrate it.</div>
         </div>
@@ -482,7 +482,7 @@ window.onload = function() {
     <div class="submenu-item-container">
       <div class="submenu-item" data-lang-id="020-menu-2-sub-item-7">
         <a href="/dms">Dieleman modules</a>
-        <span class="circle" title="This page has been translated 25%">◔</span>
+        <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
       </div>
       <div class="translation-info" data-lang-id="021-menu-2-trans-text-7">/dms has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/dms-fr-translation.js" class="translate-link">help translate ⇗</a></div>
     </div>
@@ -498,7 +498,7 @@ window.onload = function() {
     <div class="submenu-item-container">
       <div class="submenu-item" data-lang-id="014-menu-2-sub-item-4">
           <a href="/earth-methods">Earth Building Methods</a>
-          <span class="circle" title="This page has been translated 25%">◔</span>
+          <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
       </div>
       <div class="translation-info" data-lang-id="015-menu-2-trans-text-4">/earth-methods has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-methods-fr-translation.js" class="translate-link">help translate ⇗</a></div>
    </div>
@@ -507,7 +507,7 @@ window.onload = function() {
     <div class="submenu-item-container">
         <div class="submenu-item" data-lang-id="018-menu-2-sub-item-6">
             <a href="/open-spaces">Open spaces</a>
-            <span class="circle" title="This page has been translated 25%">◔</span>
+            <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
         </div>
         <div class="translation-info" data-lang-id="019-menu-2-trans-text-6">/open-spaces has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/open-spaces-fr-translation.js" class="translate-link">help translate ⇗</a></div>
     </div>
@@ -517,7 +517,7 @@ window.onload = function() {
     <div class="submenu-item-container">
         <div class="submenu-item" data-lang-id="016-menu-2-sub-item-5">
             <a href="/fire">Fire Safety</a>
-            <span class="circle" title="This page has been translated 25%">◔</span>
+            <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
         </div>
         <div class="translation-info" data-lang-id="017-menu-2-trans-text-5">/fire has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/fire-fr-translation.js" class="translate-link">help translate ⇗</a></div>
     </div>
@@ -595,7 +595,7 @@ window.onload = function() {
 <div class="submenu-item-container">
     <div class="submenu-item" data-lang-id="038-menu-4-sub-item-5">
         <a href="/ayyew">Ayyew</a>
-        <span class="circle" title="This page has been translated 25%">◔</span>
+        <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
     </div>
     <div class="translation-info" data-lang-id="039-menu-4-trans-text-5">/ayyew has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/ayyew-fr-translation.js" class="translate-link">help translate ⇗</a></div>
 </div>
@@ -603,7 +603,7 @@ window.onload = function() {
 <div class="submenu-item-container">
     <div class="submenu-item" data-lang-id="040-menu-4-sub-item-6">
         <a href="/mandalic">Mandalic Collaboration</a>
-        <span class="circle" title="This page has been translated 25%">◔</span>
+        <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
     </div>
     <div class="translation-info" data-lang-id="041-menu-4-trans-text-6">/mandalic has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/mandalic-fr-translation.js" class="translate-link">help translate ⇗</a></div>
 </div>
@@ -625,7 +625,7 @@ window.onload = function() {
 <div class="submenu-item-container">
     <div class="submenu-item" data-lang-id="045-menu-5-sub-item-2">
         <a href="/story">Our History</a>
-        <span class="circle" title="This page has been translated 0%">○</span>
+        <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
     </div>
     <div class="translation-info" data-lang-id="046-menu-5-trans-text-2">/story has been translated 0% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/story-fr-translation.js" class="translate-link">help translate ⇗</a></div>
 </div>
@@ -633,7 +633,7 @@ window.onload = function() {
 <div class="submenu-item-container">
     <div class="submenu-item" data-lang-id="047-menu-5-sub-item-3">
         <a href="/gobrik">Our GoBrik Project</a>
-        <span class="circle" title="This page has been translated 25%">◔</span>
+        <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
     </div>
     <div class="translation-info" data-lang-id="048-menu-5-trans-text-3">/gobrik has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/gobrik-fr-translation.js" class="translate-link">help translate ⇗</a></div>
 </div>
@@ -642,7 +642,7 @@ window.onload = function() {
 <div class="submenu-item-container">
     <div class="submenu-item" data-lang-id="051-menu-5-sub-item-5">
         <a href="/trainings">Our Trainings</a>
-        <span class="circle" title="This page has been translated 0%">○</span>
+        <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
     </div>
     <div class="translation-info" data-lang-id="052-menu-5-trans-text-5">/trainings has been translated 0% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/trainings-fr-translation.js" class="translate-link">help translate ⇗</a></div>
 </div>
@@ -676,7 +676,7 @@ window.onload = function() {
 <div class="submenu-item-container">
   <div class="submenu-item" data-lang-id="059-menu-5-sub-item-9">
       <a href="/movement">The Movement</a>
-      <span class="circle" title="This page has been translated 0%">○</span>
+      <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
   </div>
   <div class="translation-info" data-lang-id="060-menu-5-trans-text-9">/movement has been translated 0% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/movement-fr-translation.js" class="translate-link">help translate ⇗</a></div>
 </div>
@@ -709,7 +709,7 @@ window.onload = function() {
 <div class="submenu-item-container">
 <div class="submenu-item" data-lang-id="049-menu-5-sub-item-4">
       <a href="/aes">AES Plastic</a>
-      <span class="circle" title="This page has been translated 25%">◔</span>
+      <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
   </div>
   <div class="translation-info" data-lang-id="050-menu-5-trans-text-4">/aes has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/aes-fr-translation.js" class="translate-link">help translate ⇗</a></div>
 </div>
