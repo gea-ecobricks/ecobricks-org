@@ -309,5 +309,12 @@ RedirectMatch "^/spirals" "/en/spiral.php"
 RedirectMatch "^/cyclical" "/en/spiral.php"
 RedirectMatch "^/spiral.php/" "/en/spiral.php"
 
+RedirectMatch "^/offsets/" "/en/offsets.php"
+RedirectMatch "^/offsetting" "/en/offsets.php"
+RedirectMatch "^/offset" "/en/offsets.php"
+RedirectMatch "^/offsetting.php" "/en/offsets.php"
+
+
+
 
 

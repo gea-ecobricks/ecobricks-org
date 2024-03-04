@@ -5,7 +5,7 @@
 <META charset="UTF-8">
 <?php $lang='en';?>
 <?php $version='1.91';?>
-<?php $page='offsetting';?>
+<?php $page='offsets';?>
 <title>Plastic Offsetting</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
 <!--TOP PAGE BANNER-->
@@ -286,7 +286,7 @@
     
 <?php require_once ("side-modules/offset-presentation.php");?>
 
-<?php require_once ("side-modules/transition.php");?>
+<?php require_once ("side-modules/transition-module.php");?>
 
 
 
