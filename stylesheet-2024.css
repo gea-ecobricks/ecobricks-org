@@ -585,44 +585,35 @@ border-color: #00a112 !important;
 
 .right-close-button {
   position: absolute;
-  right: 0;
   transition: .3s;
-  height: 35px;
-  width: 35px;
-  padding: 10px;
+
   left: 0;
   top: 0;
-  background: url('svgs/right-x.svg') no-repeat center;
-  background-size: contain;
-  border-radius: 40px;
+
   margin-left: 25px;
   margin-top: 25px;
 }
 
-.right-close-button:hover {
-background: url('svgs/x-over.svg') no-repeat;
-background-color:var(--divider-line);
-
-}
 
 
 
-/* 
+
+
 .x-button {
-    background: url('svgs/right-x.svg') no-repeat center;
-    padding: 10px;
-    background-size: contain;
-    width: 50px;
-    height: 50px;
+  background: url('svgs/right-x.svg') no-repeat center;
+  background-size: contain;
+  border-radius: 40px;
     border:none;
+    height: 35px;
+    width: 35px;
+    padding: 10px;
 }
 
 .x-button:hover {
-    background: url('svgs/x-over.svg') no-repeat;
-    padding: 10px;
-    background-size: contain;
+  background: url('svgs/x-over.svg') no-repeat;
+  background-color:var(--divider-line);
 
-} */
+} 
 
 
 
