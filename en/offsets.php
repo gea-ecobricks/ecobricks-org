@@ -286,7 +286,6 @@
     
 <?php require_once ("side-modules/offset-presentation.php");?>
 
-<?php require_once ("side-modules/transition-module.php");?>
 
 
 
