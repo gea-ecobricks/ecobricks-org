@@ -592,13 +592,22 @@ border-color: #00a112 !important;
   padding: 10px;
   left: 0;
   top: 0;
-  background:var(--divider-line);
+  background: url('svgs/right-x.svg') no-repeat center;
+  background-size: contain;
   border-radius: 40px;
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.right-close-button:hover {
+background: url('svgs/x-over.svg') no-repeat;
+background-color:var(--divider-line);
+
 }
 
 
+
+/* 
 .x-button {
     background: url('svgs/right-x.svg') no-repeat center;
     padding: 10px;
@@ -613,7 +622,7 @@ border-color: #00a112 !important;
     padding: 10px;
     background-size: contain;
 
-}
+} */
 
 
 

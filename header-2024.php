@@ -786,8 +786,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Your existing code for toggling the translation information...
-});
+
 
 
     

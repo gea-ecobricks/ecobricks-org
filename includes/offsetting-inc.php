@@ -34,11 +34,11 @@
 	}
 
   .splash-heading {
-    font-size: 3em  !important;
+    font-size: 2.5em  !important;
 }
 
   .splash-sub{
-    font-size: 1.6em !important;
+    font-size: 1.45em !important;
 }
 }
 
