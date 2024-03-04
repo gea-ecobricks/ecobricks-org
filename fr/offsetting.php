@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.798';?>
+<?php $version='1.799';?>
 <?php $page='offsetting';?>
 <title>Compensation du Plastique</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
@@ -263,7 +263,7 @@
     <a class="action-btn" href="https://gobrik.com/en/go.php#offset" target="_blank" data-lang-id="058-final-button">🚀 Offset your Plastic</a>
                     	<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="058-final-button-subtext"> ⇗ Launch the GoBrik web app</a>
 			
-    
+    <br><br>
 </div>
 
 </div>

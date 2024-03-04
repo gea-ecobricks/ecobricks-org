@@ -39,7 +39,7 @@
   --show-hide: rgba(0, 0, 0, 0.486);
   --darker:rgba(0, 0, 0, 0.1);
   --ecobrick-preview: rgba(0, 0, 0, 0.836);
-  
+  --x-button-over: rgb(51, 52, 63);
 
   --gallery:  rgb(51, 52, 63);
   --yellow-alert: #623f00;
@@ -310,6 +310,20 @@
 
 .dark-mode-invert {
   filter: invert(100%);
+}
+
+
+.x-button {
+  background: url('svgs/x-button-night.svg') no-repeat center;
+  background-size: contain;
+
+}
+
+
+.x-button:hover {
+  background: url('svgs/x-button-night-over.svg') no-repeat center;
+  background-size: contain;
+
 }
 
 

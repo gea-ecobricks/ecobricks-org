@@ -64,6 +64,27 @@ const en_Page_Translations = {
     "040-block-2-info-2": "ℹ️ Learn more about: <a href=\"about.php\">The Global Ecobrick Alliance</a>",
 
 
+    "041-block-3-header": "What can I do with my offset credits?",
+    "042-block-3-subheader": "Offsetting is can be a key component of green living and green enterprise",
+    "043-block-3-main-p1": "Plastic offset credits are ideal for use in household and enterprise ecological accounting. For companies conducting annual sustainability or regenerative reports, plastic offsetting can be used both to compensate for plastic generation and CO2 emissions during the year of purchase.",
+    "044-block-3-img1-alt": "<img src=\"../icons/eco-accounting-icon-from-ecobricks-org.svg\" width=\"300\" style=\"width:100%;\" alt=\"Eco accounting\" loading=\"lazy\">",
+    "045-block-3-main-p2": "When plastic offsets are purchased, the Global Ecobrick Alliance issues a serialized certificate of the net weight in kilograms of the purchase. Both the currency transaction and the offsetting credits are recorded in our open books accounting system and our brikcoin blockchain.",
+    "046-block-3-main-p3": "The certificate and transaction links are ideal to be used as references in your regenerative or sustainability accounting. You can use your purchased plastic credits to balance off either your plastic consumption or production. You can use the CO2 equivalency of your purchased offset credits to balance your CO2 emissions.",
+    "047-block-3-img1-alt": "<img src=\"../webp/aes-offset-certificate-400px.webp\" width=\"300\" style=\"width:100%;\" alt=\"AES plastic offset certificate\" loading=\"lazy\">",
+    "048-block-3-info-1": "ℹ️ Learn more about: <a href=\"/aes\">Authenticated Ecobrick Sequestered Plastic</a>",
+
+    "049-block-4-header": "White Paper & Resources",
+    "050-block-4-subheader": "Learn more about the manual blockchain powering our plastic offsetting.",
+    "051-block-4-paragraph": "On Earth Day 2020, the GEA released version 1.0 of the <i>Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic</i>. This document lays out the foundational architecture of the Brikcoin blockchain and our system of AES plastic offsets. Our white paper provides an overview of technical framework of plastic offsetting and the science and philosophy upon which it is based.",
+    "052-block-4-imag-alt": "<img src=\"../pngs/White-Paper-Icon2-400px.png\" width=\"100%\" alt=\"Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic\">",
+    "053-block-4-download": "📥 Download: <a href=\"https://nextcloud.ecobricks.org/index.php/s/fNNYjG7A3gxco9n\" target=\"_blank\">The Commodification of Sequestered Plastic</a> 📄 GEA White Paper | PDF | 2.1 MB",
+    "054-block-4-img-alt": "<img src=\"../pngs/White-Paper-Icon2-400px.png\" width=\"150px\" alt=\"Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic\">",
+    "055-block-4-last-paragraph": "The Brikcoin blockchain has been operating since 2019 and has overseen the authentication of hundreds of tons of plastic and tens of thousands of dollars of plastic offsetting.",
+
+    "056-final-paragraph-header": "Offset your plastic today!",
+    "057-final-paragraph-content1": "Get started with your personal or enterprise plastic offsetting with us on our Gobrik platform. Offsets go direct to valorizing of the work of ecobrickers around the world and the costs of the Global Ecobrick Alliance to maintain and develop the platform.",
+    "058-final-button": "🚀 Offset your Plastic",
+    "058-final-button-subtext": "⇗ Launch the GoBrik web app"
 
     
     

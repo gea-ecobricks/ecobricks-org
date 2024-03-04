@@ -31,7 +31,16 @@ const id_Page_Translations = {
     "014-block-5-paragraph": "Agar plastik ecobricked dianggap sebagai disequester, harus dilakukan sesuai standar tertentu— dan diverifikasi demikian!",
     "015-block-5-paragraph": "Sama seperti tidak semua hutan yang ditanami mewakili pengayaan ekologis (yaitu, hutan 'gurun hijau' monokultur) tidak semua plastik yang dikemas adalah nilai ekologis. Agar dianggap efektif disequester, plastik yang dikemas harus memenuhi <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\" target=\"_blank\">kriteria penyekuesteran plastik</a>. Kriteria ini didasarkan pada prinsip-prinsip etika Bumi, dan merupakan bagian dan paket dari <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">standar ecobricking</a> yang umum diterima yang Aliansi Ecobrick Global <a href=\"what.php\">memelihara dan mewakili</a>.",
     "016-block-5-paragraph": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\">Penyekuesteran Plastik.</a>",
-    "016b-block-1-info-2": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">Definisi Ecobrick</a>"
+    "016b-block-1-info-2": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">Definisi Ecobrick</a>",
+
+    "017-block-6-opener-header": "Peran GEA",
+    "018-block-6-opener-subheader": "Aliansi Ecobrick Global memelihara blockchain yang mendasari sistem kompensasi plastik.",
+    "019-block-6-paragraph": "Sebagai bagian dari misi kami untuk mendukung gerakan transisi plastik lokal dan global, <a href=\"about.php\">Aliansi Ecobrick Global (GEA)</a> menjadi tuan rumah aplikasi <a href=\"/gobrik\">GoBrik</a> untuk melayani ecobricker di seluruh dunia. Salah satu fungsi utama GoBrik adalah untuk mengotentikasi plastik ecobrick. Ini memungkinkan blockchain <a href=\"brikcoins\">Brikcoin</a> kami yang berfungsi sebagai dasar untuk kompensasi plastik. Kami memelihara dan mengembangkan platform ini sebagai usaha nirlaba, untuk Bumi, dengan transparansi keuangan penuh.",
+    "020-block-6-paragraph": "Kompensasi dan validasi ecobrick keduanya diakses di aplikasi <a href=\"/gobrik\">Gobrik</a> kami. Di sana, rekan ecobricker memvalidasi apakah ecobrick yang terdaftar memenuhi kriteria <a href=\"sequest.php\">penyimpanan plastik</a>. Ecobricks yang diautentikasi dicatat di blockchain <a href=\"brikchain\">Brikcoin</a>. Plastik <a href=\"/aes\">Ecobrick Terotentikasi yang Disimpan (AES)</a> mereka kemudian tersedia untuk dibeli sebagai kredit kompensasi.",
+    "021-block-6-paragraph": "Setelah pembelian, GEA mengeluarkan sertifikat berseri untuk jumlah kompensasi plastik yang dibayar. Transaksi secara otomatis dicatat pada <a href=\"brikchain.php\">brikchain</a> dan sistem akuntansi <a href=\"open-books.php\">Buku Terbuka</a> GEA. Akhirnya, akun pembeli dikreditkan dengan kredit kompensasi plastik AES mereka dan sertifikat PDF berseri dikeluarkan.",
+
+    
+
 
 
 

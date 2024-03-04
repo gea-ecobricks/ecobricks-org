@@ -33,7 +33,15 @@ const es_Page_Translations = {
     "014-block-5-paragraph": "Para que el plástico ecobrickeado sea considerado secuestrado, debe ser hecho según estándares específicos— ¡y verificado como tal!",
     "015-block-5-paragraph": "Así como no todos los bosques plantados representan un enriquecimiento ecológico (es decir, bosques monocultura 'desiertos verdes') no todo el plástico que está empaquetado es de valor ecológico. Para ser considerado efectivamente secuestrado, el plástico empaquetado debe cumplir <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\" target=\"_blank\">los criterios de secuestro de plástico</a>. Estos criterios se basan en los principios de la ética Terrestre, y son parte integral de los <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">estándares de ecobrickeado</a> generalmente aceptados que la Alianza Global de Ecobricks <a href=\"what.php\">mantiene y representa</a>.",
     "016-block-5-paragraph": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\">Secuestro de Plástico.</a>",
-    "016b-block-1-info-2": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">Definición de un Ecobrick</a>"
+    "016b-block-1-info-2": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">Definición de un Ecobrick</a>",
+
+    "017-block-6-opener-header": "El papel de la GEA",
+    "018-block-6-opener-subheader": "La Alianza Global de Ecobricks mantiene la blockchain que subyace al sistema de compensación de plásticos.",
+    "019-block-6-paragraph": "Como parte de nuestra misión de apoyar los movimientos de transición plástica locales y globales, la <a href=\"about.php\">Alianza Global de Ecobricks (GEA)</a> aloja la aplicación <a href=\"/gobrik\">GoBrik</a> para servir a los ecobrickers en todo el mundo. Una de las principales funciones de GoBrik es autenticar el plástico ecobrickeado. Esto permite nuestra <a href=\"brikcoins\">blockchain Brikcoin</a>, que sirve como base para la compensación de plásticos. Mantenemos y desarrollamos estas plataformas como una empresa sin fines de lucro, para la Tierra, con total transparencia financiera.",
+    "020-block-6-paragraph": "La compensación y las validaciones de ecobricks se acceden ambas en nuestra aplicación <a href=\"/gobrik\">Gobrik</a>. Allí, los pares de ecobrickers validan si los ecobricks registrados cumplen con los criterios de <a href=\"sequest.php\">secuestro de plástico</a>. Los ecobricks que son autenticados se registran en la <a href=\"brikchain\">blockchain Brikcoin</a>. Su plástico <a href=\"/aes\">Autenticado y Secuestrado por Ecobricks (AES)</a> entonces se vuelve disponible para la compra como créditos de compensación.",
+    "021-block-6-paragraph": "Tras la compra, la GEA emite un certificado serializado por la cantidad de compensaciones de plástico pagadas. La transacción se registra automáticamente en la <a href=\"brikchain.php\">brikchain</a> y en el sistema de contabilidad de <a href=\"open-books.php\">Libros Abiertos</a> de la GEA. Finalmente, la cuenta del comprador se acredita con sus créditos de compensación de plástico AES y se emite un certificado en PDF serializado.",
+
+    
 
 
 };

@@ -38,6 +38,7 @@
     --show-hide: rgba(255, 255, 255, 0.486);
     --darker:rgba(0, 0, 0, 0.049);
     --ecobrick-preview: rgba(255, 255, 255, 0.836);
+    --x-button-over: rgb(146, 146, 146);
 
   --gallery:  rgb(222, 223, 236);
   --yellow-alert: #fbe9c8;
@@ -248,6 +249,20 @@
     background-size: cover;
 }
 
+
+
+.x-button {
+  background: url('svgs/x-button-day.svg') no-repeat center;
+  background-size: contain;
+
+}
+
+
+.x-button:hover {
+  background: url('svgs/x-button-day-over.svg') no-repeat center;
+  background-size: contain;
+
+}
 
 /* #logo-ecobricks-org, #logo-global-ecobrick-alliance {
   fill: #666;
