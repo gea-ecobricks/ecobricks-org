@@ -41,6 +41,30 @@ const en_Page_Translations = {
         "019-block-6-paragraph": "As part of our mission to support local and global plastic transition movements, the <a href=\"about.php\">Global Ecobrick Alliance (GEA)</a> hosts the <a href=\"/gobrik\">GoBrik app</a> to serve ecobrickers around the world.  One of the main functions of GoBrik is to authenticate ecobricked plastic.  This enables our <a href=\"brikcoins\">Brikcoin blockchain</a> which serves as the found for plastic offsetting.  We maintain and develop these platforms as a not-for-profit, for-Earth enterprise with full financial transparency.",
         "020-block-6-paragraph": "Offsetting and ecobrick validations are both accessed on our <a href=\"/gobrik\">Gobrik app</a>.  There, ecobricker peers validate whether logged ecobricks meet the criteria of <a href=\"sequest.php\">plastic sequestration</a>.  Ecobricks that are authenticated are recorded on the <a href=\"brikchain\">Brikcoin blockchain</a>. Their <a href=\"/aes\">Authenticated Ecobrick Sequestered plastic (AES)</a> then becomes available for purchase as offset credits.",
         "021-block-6-paragraph": "Upon purchase, the GEA issues a serialized certificate for the amount of plastic offsets paid for.  The transaction is recorded automatically on the <a href=\"brikchain.php\">brikchain</a> and the GEA's <a href=\"open-books.php\">Open Books</a> accounting system.  Finally, the buyer's account is credited with their AES plastic offset credits and a serialized PDF certificate is issued.",
+
+        "022-block-1-header": "How is the price of offsets determined?",
+        "023-block-1-subheader": "The price of 1kg of AES plastic is determined by the cost of its authentication",
+        "024-block-1-paragraph": "To calculate the price of 1kg of authenticated plastic, the Global Ecobrick Alliance divides its costs of operating and maintaining the blockchain by the amount of plastic that has been authenticated.",
+        "025-block-1-paragraph": "For example: In 2023 the Global Ecobrick Alliance incurred 7,207.14 $ USD of expenses in order to authenticate 2,228.96 Kg AES of ecobricked plastic. That works out a cost of 3.23 $ USD per Kg in maintaining the blockchain and authentication system. This sets our valuation of the price per Kg of AES plastic offsets for the subsequent year (2024).",
+        "026-block-1-info-1": "ℹ️ View our <a href=\"open-books.php\">GEA Open Books</a>",
+        "027-block-1-info-2": "ℹ️ Learn more about <a href=\"sequest.php\">Plastic Sequestration</a>",
+
+           "028-block-2-header": "How do ecobrickers benefit?",
+    "029-block-2-subheader": "Plastic offsetting values the hard work of ecobrickers around the world. In turn, we serve them and valorize their work.",
+    "030-block-2-paragraph": "Our system is carefully designed so that everyone benefits! Especially, the planet. But, also, especially ecobrickers. Afterall, it is ecobrickers who are doing the hard work of packing plastic and validating ecobricks.",
+    "031-block-2-paragraph": "Our platforms are designed so that there are five main ways that ecobrickers benefit from plastic offsetting:",
+    "032-block-2-list-item": "When an ecobricker logs an ecobrick and this ecobrick is authenticated, they earn validation credits which allow them to validate other ecobrickers ecobricks. Their balances accrues with every ecobrick they log and which is authenticated.",
+    "033-block-2-list-item": "Using their validation credits, ecobrickers can validate the ecobricks of others on the system. When a validator participates in the successful authentication of an ecobrick, they (and the other two validators who were part) are issued Brikcoins commensurate to the amount of plastic contained in the authenticated ecobrick (<a href=\"brikcoins.php\">see our brikcoin page for a full description of this process</a>). The brikcoins that are earned have a value in of themselves and can be exchanged on the GoBrik platform for regular currency, for ecobricks or for offsets.",
+    "034-block-2-list-item": "The process of validating ecobricks leads to high quality ecobricks. These ecobricks are far better to build with giving them higher utility value. This is a big help for ecobrickers who are building! Because serialized ecobricks can be looked up, builders can be sure to acquire only quality ecobricks for their projects.",
+    "035-block-2-list-item": "Because authenticated ecobricks are known to be of high quality, ecobrickers can receive much higher market value for them should they wish to exchange them! Only authenticated ecobricks can be exchanged on the GoBrik platform.",
+    "036-block-2-list-item": "Every authenticated ecobrick is recorded on the <a href=\"brikchain.php\">Brikchain manual blockchain</a>. Every single ecobrick that is authenticated can thus be looked up by its serial number to learn its status and originating information. This adds both greater utility and historical value to an ecobricker's work.",
+    "037-block-2-paragraph": "Most importantly, the cash value of plastic offset credits goes direct to the Global Ecobrick Alliance which uses the funds to maintain Ecobricks.org, the GoBrik app and Brikcoin blockchain. These sites and apps serve ecobrickers around the world.",
+    "038-block-2-paragraph": "The GEA is structured as a not-for-profit, Earth enterprise precisely so that it can fulfill this purpose and maintain these systems to serve and benefit ecobrickers locally and globally. All the GEA's expenses and revenues are declared on our <a href=\"open-books.php\">open books system</a> so that not only do we operate with full transparency, but also, so that the annual price of 1kg of AES plastic can be set with full transparency.",
+    "039-block-2-info-1": "ℹ️ Learn more about: <a href=\"brikchain.php\">Brikchain Manual Blockchain</a>",
+    "040-block-2-info-2": "ℹ️ Learn more about: <a href=\"about.php\">The Global Ecobrick Alliance</a>",
+
+
+
     
     
 

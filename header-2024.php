@@ -763,22 +763,25 @@ window.onload = function() {
   
 
        <script>
+
+
+
+/* TOGGLE ACCORDION SCRIPTS  */
+
 document.addEventListener('DOMContentLoaded', function() {
     // Function to rotate the plus symbol
     function spinThePlus(toggleIcon) {
-        // Toggle the rotation state
         if (toggleIcon.classList.contains('rotate-plus')) {
             toggleIcon.classList.remove('rotate-plus');
             toggleIcon.classList.add('rotate-minus'); // Rotate it 45 degrees backwards
         } else if (toggleIcon.classList.contains('rotate-minus')) {
-            toggleIcon.classList.remove('rotate-minus');
-            toggleIcon.classList.add('rotate-plus'); // Rotate it 45 degrees forwards if previously rotated backwards
+            toggleIcon.classList.remove('rotate-minus'); // Revert to original state if already rotated backwards
+            toggleIcon.classList.add('rotate-plus'); // Rotate it 45 degrees forwards
         } else {
             toggleIcon.classList.add('rotate-plus'); // Initial rotation if no rotation has been applied
         }
     }
 
-    // Toggle the main accordion sections and rotate the plus symbol
     document.querySelectorAll('.accordion-title').forEach(button => {
         button.addEventListener('click', () => {
             const accordionContent = button.nextElementSibling;
@@ -790,17 +793,20 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelectorAll('.accordion-content').forEach(content => {
                 if (content !== accordionContent && content.style.maxHeight) {
                     content.style.maxHeight = null;
-                    // Revert their plus symbol back to original state
+                    // Reset other toggle icons to the initial state
                     const otherToggleIcon = content.previousElementSibling.querySelector('.toggle-icon');
-                    if (otherToggleIcon.classList.contains('rotate-minus')) {
-                        otherToggleIcon.classList.remove('rotate-minus');
-                        otherToggleIcon.classList.add('rotate-plus');
-                    }
+                    otherToggleIcon.classList.remove('rotate-minus', 'rotate-plus');
+                    otherToggleIcon.classList.add('rotate-plus');
                 }
             });
 
             // Toggle current item
-            accordionContent.style.maxHeight = accordionContent.style.maxHeight ? null : 'fit-content';
+            if (accordionContent.style.maxHeight) {
+                accordionContent.style.maxHeight = null;
+            } else {
+                // Use setTimeout to allow for the maxHeight change to be animated
+                accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+            }
         });
     });
 
@@ -810,9 +816,20 @@ document.addEventListener('DOMContentLoaded', function() {
             event.stopPropagation(); // Prevent the accordion toggle or link navigation
 
             const translationInfo = this.closest('.submenu-item-container').querySelector('.translation-info');
+
             // Toggle visibility of translationInfo
-            const isVisible = translationInfo.style.display === 'block';
-            translationInfo.style.display = isVisible ? 'none' : 'block';
+            if (translationInfo.style.maxHeight && translationInfo.style.maxHeight !== '0px') {
+                translationInfo.style.maxHeight = null;
+                setTimeout(() => {
+                    translationInfo.style.display = 'none';
+                }, 350); // Adjust timing as needed to match CSS transitions
+            } else {
+                translationInfo.style.display = 'block';
+                // Ensure the display change takes effect before calculating scrollHeight
+                requestAnimationFrame(() => {
+                    translationInfo.style.maxHeight = translationInfo.scrollHeight + 'px';
+                });
+            }
         });
     });
 });
