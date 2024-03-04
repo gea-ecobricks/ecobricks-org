@@ -282,7 +282,7 @@
 
         <?php require_once ("side-modules/plastic-co2e.php");?>
         
-<?php require_once ("side-modules/sequest.php");?>
+<?php require_once ("side-modules/sequest-module.php");?>
     
 <?php require_once ("side-modules/offset-presentation.php");?>
 

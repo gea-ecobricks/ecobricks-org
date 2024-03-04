@@ -313,6 +313,7 @@ RedirectMatch "^/offsets/" "/en/offsets.php"
 RedirectMatch "^/offsetting" "/en/offsets.php"
 RedirectMatch "^/offset" "/en/offsets.php"
 RedirectMatch "^/offsetting.php" "/en/offsets.php"
+RedirectMatch "^/en/offsetting.php" "/en/offsets.php"
 
 
 
