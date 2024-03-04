@@ -405,7 +405,7 @@ window.onload = function() {
 
  <!-- RIGHT PAGE MENU -->
 
-<div id="right-settings-overlay" class="overlay-settings">
+<div id="right-settings-overlay" class="overlay-settings" style="display:none;">
     <div class="right-close-button">
         <button type="button" style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page" class="x-button">
         </button>
