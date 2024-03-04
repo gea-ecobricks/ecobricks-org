@@ -763,34 +763,22 @@ window.onload = function() {
   
 
        <script>
-
 document.addEventListener('DOMContentLoaded', function() {
     // Function to rotate the plus symbol
     function spinThePlus(toggleIcon) {
-        // Check the current rotation state and toggle accordingly
+        // Toggle the rotation state
         if (toggleIcon.classList.contains('rotate-plus')) {
             toggleIcon.classList.remove('rotate-plus');
-            toggleIcon.classList.add('rotate-minus'); // Add class to rotate it 45 degrees backwards
+            toggleIcon.classList.add('rotate-minus'); // Rotate it 45 degrees backwards
         } else if (toggleIcon.classList.contains('rotate-minus')) {
-            toggleIcon.classList.remove('rotate-minus'); // Revert to original state if already rotated backwards
+            toggleIcon.classList.remove('rotate-minus');
+            toggleIcon.classList.add('rotate-plus'); // Rotate it 45 degrees forwards if previously rotated backwards
         } else {
             toggleIcon.classList.add('rotate-plus'); // Initial rotation if no rotation has been applied
         }
     }
 
-    document.querySelectorAll('.accordion-title').forEach(button => {
-        button.addEventListener('click', () => {
-            const toggleIcon = button.querySelector('.toggle-icon');
-            spinThePlus(toggleIcon); // Call function to rotate the plus symbol
-            // The rest of your accordion toggle logic...
-        });
-    });
-
-
-
-
-    
-    // Toggle the main accordion sections
+    // Toggle the main accordion sections and rotate the plus symbol
     document.querySelectorAll('.accordion-title').forEach(button => {
         button.addEventListener('click', () => {
             const accordionContent = button.nextElementSibling;
@@ -798,21 +786,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
             spinThePlus(toggleIcon); // Call function to rotate the plus symbol
 
-            // Close other items and revert their plus symbol back to normal
+            // Close other items
             document.querySelectorAll('.accordion-content').forEach(content => {
                 if (content !== accordionContent && content.style.maxHeight) {
                     content.style.maxHeight = null;
+                    // Revert their plus symbol back to original state
                     const otherToggleIcon = content.previousElementSibling.querySelector('.toggle-icon');
-                    otherToggleIcon.classList.remove('rotate-plus'); // Ensure other icons are reverted back
+                    if (otherToggleIcon.classList.contains('rotate-minus')) {
+                        otherToggleIcon.classList.remove('rotate-minus');
+                        otherToggleIcon.classList.add('rotate-plus');
+                    }
                 }
             });
 
             // Toggle current item
-            if (accordionContent.style.maxHeight) {
-                accordionContent.style.maxHeight = null;
-            } else {
-                accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
-            }
+            accordionContent.style.maxHeight = accordionContent.style.maxHeight ? null : 'fit-content';
         });
     });
 
@@ -822,19 +810,9 @@ document.addEventListener('DOMContentLoaded', function() {
             event.stopPropagation(); // Prevent the accordion toggle or link navigation
 
             const translationInfo = this.closest('.submenu-item-container').querySelector('.translation-info');
-            
-            // If translationInfo is not visible, show it
-            if (!translationInfo.style.maxHeight || translationInfo.style.maxHeight === '0px') {
-                translationInfo.style.display = 'block';
-                requestAnimationFrame(() => {
-                    translationInfo.style.maxHeight = translationInfo.scrollHeight + 'px';
-                });
-            } else { // Else hide it
-                translationInfo.style.maxHeight = null;
-                setTimeout(() => {
-                    translationInfo.style.display = 'none';
-                }, 500); // Use the same duration as in the CSS transition
-            }
+            // Toggle visibility of translationInfo
+            const isVisible = translationInfo.style.display === 'block';
+            translationInfo.style.display = isVisible ? 'none' : 'block';
         });
     });
 });
