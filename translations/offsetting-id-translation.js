@@ -60,6 +60,29 @@ const id_Page_Translations = {
     "039-block-2-info-1": "ℹ️ Pelajari lebih lanjut tentang: <a href=\"brikchain.php\">Blockchain Manual Brikchain</a>",
     "040-block-2-info-2": "ℹ️ Pelajari lebih lanjut tentang: <a href=\"about.php\">Aliansi Ecobrick Global</a>",
 
+
+    "041-block-3-header": "Apa yang bisa saya lakukan dengan kredit offset saya?",
+    "042-block-3-subheader": "Pengoffsetan bisa menjadi komponen kunci dari hidup hijau dan usaha hijau",
+    "043-block-3-main-p1": "Kredit offset plastik ideal untuk digunakan dalam akuntansi ekologis rumah tangga dan perusahaan. Untuk perusahaan yang melakukan laporan keberlanjutan atau regeneratif tahunan, pengoffsetan plastik dapat digunakan untuk mengkompensasi generasi plastik dan emisi CO2 selama tahun pembelian.",
+    "044-block-3-img1-alt": "<img src=\"../icons/eco-accounting-icon-from-ecobricks-org.svg\" width=\"300\" style=\"width:100%;\" alt=\"Akuntansi ekologis\" loading=\"lazy\">",
+    "045-block-3-main-p2": "Ketika offset plastik dibeli, Aliansi Ecobrick Global mengeluarkan sertifikat berseri dari berat bersih dalam kilogram pembelian. Baik transaksi mata uang maupun kredit offset dicatat dalam sistem akuntansi buku terbuka kami dan blockchain brikcoin kami.",
+    "046-block-3-main-p3": "Sertifikat dan tautan transaksi ideal untuk digunakan sebagai referensi dalam akuntansi regeneratif atau keberlanjutan Anda. Anda dapat menggunakan kredit plastik yang dibeli untuk menyeimbangkan konsumsi atau produksi plastik Anda. Anda dapat menggunakan kesetaraan CO2 dari kredit offset yang dibeli untuk menyeimbangkan emisi CO2 Anda.",
+    "047-block-3-img1-alt": "<img src=\"../webp/aes-offset-certificate-400px.webp\" width=\"300\" style=\"width:100%;\" alt=\"Sertifikat offset plastik AES\" loading=\"lazy\">",
+    "048-block-3-info-1": "ℹ️ Pelajari lebih lanjut tentang: <a href=\"/aes\">Plastik Tersequestrasi dan Terotentikasi Ecobrick</a>",
+
+    "049-block-4-header": "Kertas Putih & Sumber Daya",
+    "050-block-4-subheader": "Pelajari lebih lanjut tentang blockchain manual yang menggerakkan pengoffsetan plastik kami.",
+    "051-block-4-paragraph": "Pada Hari Bumi 2020, GEA merilis versi 1.0 dari <i>Kertas Putih Ecobricks & Brikcoin, tentang Komodifikasi Plastik Tersequestrasi Secara Manual</i>. Dokumen ini menjelaskan arsitektur dasar blockchain Brikcoin dan sistem offset plastik AES kami. Kertas putih kami memberikan gambaran umum tentang kerangka teknis pengoffsetan plastik dan ilmu serta filosofi yang menjadi dasarnya.",
+    "052-block-4-imag-alt": "<img src=\"../pngs/White-Paper-Icon2-400px.png\" width=\"100%\" alt=\"Kertas Putih Ecobricks & Brikcoin, tentang Komodifikasi Plastik Tersequestrasi Secara Manual\">",
+    "053-block-4-download": "📥 Unduh: <a href=\"https://nextcloud.ecobricks.org/index.php/s/fNNYjG7A3gxco9n\" target=\"_blank\">Komodifikasi Plastik Tersequestrasi</a> 📄 Kertas Putih GEA | PDF | 2.1 MB",
+    "054-block-4-img-alt": "<img src=\"../pngs/White-Paper-Icon2-400px.png\" width=\"150px\" alt=\"Kertas Putih Ecobricks & Brikcoin, tentang Komodifikasi Plastik Tersequestrasi Secara Manual\">",
+    "055-block-4-last-paragraph": "Blockchain Brikcoin telah beroperasi sejak 2019 dan telah mengawasi otentikasi ratusan ton plastik dan puluhan ribu dolar pengoffsetan plastik.",
+
+    "056-final-paragraph-header": "Offset plastik Anda hari ini!",
+    "057-final-paragraph-content1": "Mulai offset plastik pribadi atau perusahaan Anda bersama kami di platform Gobrik. Offset langsung menuju ke penghargaan atas pekerjaan ecobrickers di seluruh dunia dan biaya Aliansi Ecobrick Global untuk memelihara dan mengembangkan platform.",
+    "058-final-button": "🚀 Offset Plastik Anda",
+    "058-final-button-subtext": "⇗ Luncurkan aplikasi web GoBrik"
+
     
 
 

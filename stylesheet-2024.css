@@ -592,6 +592,17 @@ border-color: #00a112 !important;
 
   margin-left: 25px;
   margin-top: 25px;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  background-color: red;
+  background-color: var(--x-button-over);
+}
+
+
+.right-close-button:hover {
+  background-color: green;
+  background-color: var(--x-button-over);
 }
 
 
@@ -614,7 +625,6 @@ border-color: #00a112 !important;
 .x-button:hover {
   background: url('svgs/x-over-black.svg') no-repeat center;
   background-size: contain;
-  background-color:var(--x-button-over);
 
 } 
 

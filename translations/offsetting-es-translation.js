@@ -62,7 +62,27 @@ const es_Page_Translations = {
     "039-block-2-info-1": "ℹ️ Aprender más sobre: <a href=\"brikchain.php\">Blockchain Manual Brikchain</a>",
     "040-block-2-info-2": "ℹ️ Aprender más sobre: <a href=\"about.php\">La Alianza Global de Ecobricks</a>",
 
-    
+    "041-block-3-header": "¿Qué puedo hacer con mis créditos de compensación?",
+    "042-block-3-subheader": "La compensación puede ser un componente clave de una vida y empresa verdes",
+    "043-block-3-main-p1": "Los créditos de compensación de plástico son ideales para usar en la contabilidad ecológica de hogares y empresas. Para las empresas que realizan informes anuales de sostenibilidad o regenerativos, la compensación de plástico se puede usar tanto para compensar la generación de plástico como las emisiones de CO2 durante el año de compra.",
+    "044-block-3-img1-alt": "<img src=\"../icons/eco-accounting-icon-from-ecobricks-org.svg\" width=\"300\" style=\"width:100%;\" alt=\"Contabilidad ecológica\" loading=\"lazy\">",
+    "045-block-3-main-p2": "Cuando se compran compensaciones de plástico, la Alianza Global de Ecobricks emite un certificado serializado del peso neto en kilogramos de la compra. Tanto la transacción monetaria como los créditos de compensación se registran en nuestro sistema de contabilidad abierta y nuestra blockchain brikcoin.",
+    "046-block-3-main-p3": "El certificado y los enlaces de transacción son ideales para usarse como referencias en su contabilidad regenerativa o sostenible. Puede usar sus créditos de plástico comprados para compensar tanto su consumo como su producción de plástico. Puede usar la equivalencia en CO2 de sus créditos de compensación comprados para equilibrar sus emisiones de CO2.",
+    "047-block-3-img1-alt": "<img src=\"../webp/aes-offset-certificate-400px.webp\" width=\"300\" style=\"width:100%;\" alt=\"Certificado de compensación de plástico AES\" loading=\"lazy\">",
+    "048-block-3-info-1": "ℹ️ Aprende más sobre: <a href=\"/aes\">Plástico Sequestrado y Autenticado por Ecobrick</a>",
+
+    "049-block-4-header": "Libro Blanco y Recursos",
+    "050-block-4-subheader": "Aprende más sobre la blockchain manual que impulsa nuestra compensación de plástico.",
+    "051-block-4-paragraph": "En el Día de la Tierra 2020, la GEA publicó la versión 1.0 del <i>Libro Blanco de Ecobricks & Brikcoin, sobre La Comodificación del Plástico Sequestrado Manualmente</i>. Este documento establece la arquitectura fundamental de la blockchain Brikcoin y nuestro sistema de compensaciones de plástico AES. Nuestro libro blanco proporciona una visión general del marco técnico de la compensación de plástico y la ciencia y filosofía en las que se basa.",
+    "052-block-4-imag-alt": "<img src=\"../pngs/White-Paper-Icon2-400px.png\" width=\"100%\" alt=\"Libro Blanco de Ecobricks & Brikcoin, sobre La Comodificación del Plástico Sequestrado Manualmente\">",
+    "053-block-4-download": "📥 Descargar: <a href=\"https://nextcloud.ecobricks.org/index.php/s/fNNYjG7A3gxco9n\" target=\"_blank\">La Comodificación del Plástico Sequestrado</a> 📄 Libro Blanco GEA | PDF | 2.1 MB",
+    "054-block-4-img-alt": "<img src=\"../pngs/White-Paper-Icon2-400px.png\" width=\"150px\" alt=\"Libro Blanco de Ecobricks & Brikcoin, sobre La Comodificación del Plástico Sequestrado Manualmente\">",
+    "055-block-4-last-paragraph": "La blockchain Brikcoin ha estado operando desde 2019 y ha supervisado la autenticación de cientos de toneladas de plástico y decenas de miles de dólares en compensación de plástico.",
+
+    "056-final-paragraph-header": "¡Compensa tu plástico hoy!",
+    "057-final-paragraph-content1": "Comienza con tu compensación de plástico personal o empresarial con nosotros en nuestra plataforma Gobrik. Las compensaciones van directamente a valorizar el trabajo de los ecobrickers en todo el mundo y los costos de la Alianza Global de Ecobricks para mantener y desarrollar la plataforma.",
+    "058-final-button": "🚀 Compensa tu Plástico",
+    "058-final-button-subtext": "⇗ Lanzar la aplicación web GoBrik"
 
 
 
