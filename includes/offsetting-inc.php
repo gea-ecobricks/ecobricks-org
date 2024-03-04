@@ -7,7 +7,7 @@
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("../meta/offsetting-fr.php");?>
+<?php require_once ("../meta/offsetting-$lang.php");?>
 
 
 
