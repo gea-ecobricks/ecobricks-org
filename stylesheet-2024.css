@@ -590,19 +590,19 @@ border-color: #00a112 !important;
   left: 0;
   top: 0;
 
-  margin-left: 25px;
-  margin-top: 25px;
+  margin-left: 10%;
+  margin-top: 30px;
   height: 30px;
   width: 30px;
   border-radius: 40px;
-  background-color: red;
-  background-color: var(--x-button-over);
+  justify-content: center;
+  display: flex;
+
 }
 
 
 .right-close-button:hover {
-  background-color: green;
-  background-color: var(--x-button-over);
+  background: var(--x-button-over);
 }
 
 
@@ -618,6 +618,7 @@ border-color: #00a112 !important;
     width: 20px;
     padding: 15px;
     cursor: pointer;
+    margin: auto;
 
 
 }
