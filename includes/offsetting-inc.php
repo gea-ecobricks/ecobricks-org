@@ -24,11 +24,11 @@
 		/*background-color: #8BBAF0;*/
     	background-repeat: no-repeat;
 		background-size: cover;
-    height: 93vh;
+    height: 93vh !important;
 	}
 
   .splash-heading {
-    font-size: 3em;
+    font-size: 3em  !important;
 }
 
   .splash-sub{
@@ -48,7 +48,7 @@
 }
 
 .splash-heading {
-    font-size: 3.4em;
+    font-size: 3.4em  !important;
 }
 
   .splash-sub{
