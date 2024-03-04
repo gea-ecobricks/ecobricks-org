@@ -3,7 +3,7 @@
 <HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='fr';?>
+<?php $lang='en';?>
 <?php $version='1.91';?>
 <?php $page='offsetting';?>
 <title>Plastic Offsetting</title>
@@ -282,11 +282,11 @@
 
         <?php require_once ("side-modules/plastic-co2e.php");?>
         
-<?php require_once ("side-modules/sequest-module.php");?>
+<?php require_once ("side-modules/sequest.php");?>
     
 <?php require_once ("side-modules/offset-presentation.php");?>
 
-<?php require_once ("side-modules/transition-module.php");?>
+<?php require_once ("side-modules/transition.php");?>
 
 
 
