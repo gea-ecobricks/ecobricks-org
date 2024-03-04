@@ -16,6 +16,12 @@
 
 <STYLE>
 
+
+#brk-values .module-btn {
+  display:none;
+}
+
+
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		

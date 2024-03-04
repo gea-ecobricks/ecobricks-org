@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.792';?>
+<?php $version='1.793';?>
 <?php $page='offsetting';?>
 <title>Compensation du Plastique</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
@@ -274,7 +274,9 @@
 
         <?php include '../ecobricks_env.php';?> 
 
+        <div id="brk-values">
 		<?php require_once ("side-modules/brikcoin-live-values.php");?>
+        </div>
 
         <?php require_once ("side-modules/plastic-carbon.php");?>
 
