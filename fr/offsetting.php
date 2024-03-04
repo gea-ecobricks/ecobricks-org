@@ -260,7 +260,7 @@
     <p data-lang-id="057-final-paragraph-content1">Get started with your personal or enterprise plastic offsetting with us on our Gobrik platform.  Offsets go direct to valorizing of the work of ecobrickers around the world and the costs of the Global Ecobrick Alliance to maintain and develop the platform.</p>
     
 	<br>
-    <a class="action-btn" href="https://gobrik.com/en/go.php#offset" target="_blank" data-lang-id="058-final-button">>🚀 Offset your Plastic</a>
+    <a class="action-btn" href="https://gobrik.com/en/go.php#offset" target="_blank" data-lang-id="058-final-button">🚀 Offset your Plastic</a>
                     	<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="058-final-button-subtext"> ⇗ Launch the GoBrik web app</a>
 			
     

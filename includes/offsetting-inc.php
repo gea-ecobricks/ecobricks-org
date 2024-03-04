@@ -24,6 +24,7 @@
 		/*background-color: #8BBAF0;*/
     	background-repeat: no-repeat;
 		background-size: cover;
+    height: 93vh;
 	}
 
   .splash-heading {
@@ -44,6 +45,14 @@
     min-height: 85vh !important;
     padding: 0px 7% 0px 7% !important;
 		
+}
+
+.splash-heading {
+    font-size: 3.4em;
+}
+
+  .splash-sub{
+    font-size: 2em !important;
 }
 }
 
