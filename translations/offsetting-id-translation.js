@@ -39,7 +39,30 @@ const id_Page_Translations = {
     "020-block-6-paragraph": "Kompensasi dan validasi ecobrick keduanya diakses di aplikasi <a href=\"/gobrik\">Gobrik</a> kami. Di sana, rekan ecobricker memvalidasi apakah ecobrick yang terdaftar memenuhi kriteria <a href=\"sequest.php\">penyimpanan plastik</a>. Ecobricks yang diautentikasi dicatat di blockchain <a href=\"brikchain\">Brikcoin</a>. Plastik <a href=\"/aes\">Ecobrick Terotentikasi yang Disimpan (AES)</a> mereka kemudian tersedia untuk dibeli sebagai kredit kompensasi.",
     "021-block-6-paragraph": "Setelah pembelian, GEA mengeluarkan sertifikat berseri untuk jumlah kompensasi plastik yang dibayar. Transaksi secara otomatis dicatat pada <a href=\"brikchain.php\">brikchain</a> dan sistem akuntansi <a href=\"open-books.php\">Buku Terbuka</a> GEA. Akhirnya, akun pembeli dikreditkan dengan kredit kompensasi plastik AES mereka dan sertifikat PDF berseri dikeluarkan.",
 
+    "022-block-1-header": "Bagaimana harga offset ditentukan?",
+    "023-block-1-subheader": "Harga 1kg plastik AES ditentukan oleh biaya autentikasinya",
+    "024-block-1-paragraph": "Untuk menghitung harga 1kg plastik yang diautentikasi, Aliansi Ecobrick Global membagi biaya operasional dan pemeliharaan blockchain dengan jumlah plastik yang telah diautentikasi.",
+    "025-block-1-paragraph": "Sebagai contoh: Pada tahun 2023, Aliansi Ecobrick Global mengeluarkan biaya sebesar 7,207.14 USD untuk mengautentikasi 2,228.96 Kg AES plastik ecobrick. Hal ini menghasilkan biaya sebesar 3.23 USD per Kg dalam memelihara blockchain dan sistem autentikasi. Ini menetapkan penilaian kami atas harga per Kg offset plastik AES untuk tahun berikutnya (2024).",
+    "026-block-1-info-1": "ℹ️ Lihat <a href=\"open-books.php\">Buku Terbuka GEA</a> kami",
+    "027-block-1-info-2": "ℹ️ Pelajari lebih lanjut tentang <a href=\"sequest.php\">Penyimpanan Plastik</a>",
+
+    "028-block-2-header": "Bagaimana ecobricker mendapat manfaat?",
+    "029-block-2-subheader": "Pengoffsetan plastik menghargai kerja keras ecobricker di seluruh dunia. Sebagai gantinya, kami melayani mereka dan menghargai pekerjaan mereka.",
+    "030-block-2-paragraph": "Sistem kami dirancang dengan hati-hati sehingga semua orang mendapat manfaat! Terutama, planet ini. Tapi, juga, terutama ecobricker. Lagi pula, mereka adalah ecobricker yang melakukan pekerjaan keras mengemas plastik dan memvalidasi ecobricks.",
+    "031-block-2-paragraph": "Platform kami dirancang sehingga ada lima cara utama ecobricker mendapat manfaat dari pengoffsetan plastik:",
+    "032-block-2-list-item": "Ketika seorang ecobricker mencatat ecobrick dan ecobrick ini diautentikasi, mereka mendapatkan kredit validasi yang memungkinkan mereka untuk memvalidasi ecobricks ecobricker lain. Saldo mereka bertambah dengan setiap ecobrick yang mereka catat dan yang diautentikasi.",
+    "033-block-2-list-item": "Menggunakan kredit validasi mereka, ecobricker dapat memvalidasi ecobricks orang lain di sistem. Ketika validator berpartisipasi dalam autentikasi yang berhasil dari ecobrick, mereka (dan dua validator lain yang menjadi bagian) diberikan Brikcoins sesuai dengan jumlah plastik yang terkandung dalam ecobrick yang diautentikasi (<a href=\"brikcoins.php\">lihat halaman brikcoin kami untuk deskripsi lengkap proses ini</a>). Brikcoins yang diperoleh memiliki nilai tersendiri dan dapat ditukar di platform GoBrik untuk mata uang reguler, ecobricks, atau offset.",
+    "034-block-2-list-item": "Proses validasi ecobricks menghasilkan ecobricks berkualitas tinggi. Ecobricks ini jauh lebih baik untuk dibangun memberikan mereka nilai utilitas yang lebih tinggi. Ini sangat membantu untuk ecobricker yang sedang membangun! Karena ecobricks yang diserialisasi dapat dicari, pembangun dapat yakin untuk hanya mendapatkan ecobricks berkualitas untuk proyek mereka.",
+    "035-block-2-list-item": "Karena ecobricks yang diautentikasi dikenal berkualitas tinggi, ecobricker dapat menerima nilai pasar yang jauh lebih tinggi untuk mereka jika mereka ingin menukarkannya! Hanya ecobricks yang diautentikasi yang dapat ditukar di platform GoBrik.",
+    "036-block-2-list-item": "Setiap ecobrick yang diautentikasi dicatat di <a href=\"brikchain.php\">blockchain manual Brikchain</a>. Setiap ecobrick yang diautentikasi dapat dicari dengan nomor serinya untuk mengetahui status dan informasi asalnya. Ini menambahkan baik nilai utilitas maupun nilai sejarah pada pekerjaan seorang ecobricker.",
+    "037-block-2-paragraph": "Yang paling penting, nilai tunai dari kredit offset plastik langsung menuju ke Aliansi Ecobrick Global yang menggunakan dana tersebut untuk memelihara Ecobricks.org, aplikasi GoBrik, dan blockchain Brikcoin. Situs dan aplikasi ini melayani ecobricker di seluruh dunia.",
+    "038-block-2-paragraph": "GEA disusun sebagai perusahaan bumi nirlaba secara khusus sehingga dapat memenuhi tujuan ini dan memelihara sistem-sistem ini untuk melayani dan memberi manfaat kepada ecobricker secara lokal dan global. Semua pengeluaran dan pendapatan GEA dinyatakan dalam sistem <a href=\"open-books.php\">buku terbuka</a> kami sehingga tidak hanya kami beroperasi dengan transparansi penuh, tetapi juga sehingga harga tahunan 1kg plastik AES dapat ditetapkan dengan transparansi penuh.",
+    "039-block-2-info-1": "ℹ️ Pelajari lebih lanjut tentang: <a href=\"brikchain.php\">Blockchain Manual Brikchain</a>",
+    "040-block-2-info-2": "ℹ️ Pelajari lebih lanjut tentang: <a href=\"about.php\">Aliansi Ecobrick Global</a>",
+
     
+
+
 
 
 

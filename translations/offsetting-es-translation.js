@@ -41,7 +41,30 @@ const es_Page_Translations = {
     "020-block-6-paragraph": "La compensación y las validaciones de ecobricks se acceden ambas en nuestra aplicación <a href=\"/gobrik\">Gobrik</a>. Allí, los pares de ecobrickers validan si los ecobricks registrados cumplen con los criterios de <a href=\"sequest.php\">secuestro de plástico</a>. Los ecobricks que son autenticados se registran en la <a href=\"brikchain\">blockchain Brikcoin</a>. Su plástico <a href=\"/aes\">Autenticado y Secuestrado por Ecobricks (AES)</a> entonces se vuelve disponible para la compra como créditos de compensación.",
     "021-block-6-paragraph": "Tras la compra, la GEA emite un certificado serializado por la cantidad de compensaciones de plástico pagadas. La transacción se registra automáticamente en la <a href=\"brikchain.php\">brikchain</a> y en el sistema de contabilidad de <a href=\"open-books.php\">Libros Abiertos</a> de la GEA. Finalmente, la cuenta del comprador se acredita con sus créditos de compensación de plástico AES y se emite un certificado en PDF serializado.",
 
+    "022-block-1-header": "¿Cómo se determina el precio de los offsets?",
+    "023-block-1-subheader": "El precio de 1kg de plástico AES se determina por el costo de su autenticación",
+    "024-block-1-paragraph": "Para calcular el precio de 1kg de plástico autenticado, la Alianza Global de Ecobricks divide sus costos de operación y mantenimiento de la blockchain por la cantidad de plástico que ha sido autenticado.",
+    "025-block-1-paragraph": "Por ejemplo: En 2023, la Alianza Global de Ecobricks incurrió en 7,207.14 $ USD de gastos para autenticar 2,228.96 Kg AES de plástico ecobrickeado. Eso resulta en un costo de 3.23 $ USD por Kg en mantener la blockchain y el sistema de autenticación. Esto establece nuestra valoración del precio por Kg de offsets de plástico AES para el año siguiente (2024).",
+    "026-block-1-info-1": "ℹ️ Ver nuestros <a href=\"open-books.php\">Libros Abiertos GEA</a>",
+    "027-block-1-info-2": "ℹ️ Aprender más sobre <a href=\"sequest.php\">Secuestro de Plástico</a>",
+
+    "028-block-2-header": "¿Cómo se benefician los ecobrickers?",
+    "029-block-2-subheader": "La compensación de plástico valora el arduo trabajo de los ecobrickers en todo el mundo. A cambio, los servimos y valorizamos su trabajo.",
+    "030-block-2-paragraph": "¡Nuestro sistema está cuidadosamente diseñado para que todos se beneficien! Especialmente, el planeta. Pero, también, especialmente los ecobrickers. Después de todo, son los ecobrickers quienes hacen el duro trabajo de compactar plástico y validar ecobricks.",
+    "031-block-2-paragraph": "Nuestras plataformas están diseñadas para que haya cinco formas principales en que los ecobrickers se benefician de la compensación de plástico:",
+    "032-block-2-list-item": "Cuando un ecobricker registra un ecobrick y este ecobrick es autenticado, ganan créditos de validación que les permiten validar los ecobricks de otros ecobrickers. Sus saldos se acumulan con cada ecobrick que registran y que es autenticado.",
+    "033-block-2-list-item": "Usando sus créditos de validación, los ecobrickers pueden validar los ecobricks de otros en el sistema. Cuando un validador participa en la autenticación exitosa de un ecobrick, ellos (y los otros dos validadores que participaron) reciben Brikcoins proporcionales a la cantidad de plástico contenido en el ecobrick autenticado (<a href=\"brikcoins.php\">ver nuestra página de brikcoin para una descripción completa de este proceso</a>). Los brikcoins que se ganan tienen un valor en sí mismos y pueden ser intercambiados en la plataforma GoBrik por moneda regular, por ecobricks o por offsets.",
+    "034-block-2-list-item": "El proceso de validación de ecobricks conduce a ecobricks de alta calidad. Estos ecobricks son mucho mejores para construir, dándoles un valor de utilidad más alto. Esto es una gran ayuda para los ecobrickers que están construyendo. Dado que los ecobricks serializados se pueden buscar, los constructores pueden estar seguros de adquirir solo ecobricks de calidad para sus proyectos.",
+    "035-block-2-list-item": "Debido a que los ecobricks autenticados son conocidos por ser de alta calidad, los ecobrickers pueden recibir un valor de mercado mucho más alto por ellos si desean intercambiarlos. Solo los ecobricks autenticados pueden ser intercambiados en la plataforma GoBrik.",
+    "036-block-2-list-item": "Cada ecobrick autenticado se registra en la <a href=\"brikchain.php\">blockchain manual Brikchain</a>. Cada ecobrick autenticado por lo tanto puede ser buscado por su número de serie para conocer su estado e información de origen. Esto añade tanto mayor utilidad como valor histórico al trabajo de un ecobricker.",
+    "037-block-2-paragraph": "Lo más importante, el valor en efectivo de los créditos de compensación de plástico va directamente a la Alianza Global de Ecobricks que utiliza los fondos para mantener Ecobricks.org, la aplicación GoBrik y la blockchain Brikcoin. Estos sitios y aplicaciones sirven a ecobrickers en todo el mundo.",
+    "038-block-2-paragraph": "La GEA está estructurada como una empresa terrestre sin fines de lucro precisamente para poder cumplir este propósito y mantener estos sistemas para servir y beneficiar a los ecobrickers local y globalmente. Todos los gastos e ingresos de la GEA se declaran en nuestro sistema de <a href=\"open-books.php\">libros abiertos</a> para que no solo operemos con total transparencia, sino también para que el precio anual de 1kg de plástico AES pueda ser establecido con total transparencia.",
+    "039-block-2-info-1": "ℹ️ Aprender más sobre: <a href=\"brikchain.php\">Blockchain Manual Brikchain</a>",
+    "040-block-2-info-2": "ℹ️ Aprender más sobre: <a href=\"about.php\">La Alianza Global de Ecobricks</a>",
+
     
+
+
 
 
 };
