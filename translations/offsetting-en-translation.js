@@ -34,10 +34,15 @@ const en_Page_Translations = {
         "014-block-5-paragraph": "In order for ecobricked plastic to be considered sequestered, it must be done to specific standards― and verified as such!",
         "015-block-5-paragraph": "Just as not all planted forests represent ecological enrichment (i.e. monoculture 'green-desert' forests) not all plastic that is packed is of ecological value.  In order to be considered effectively sequestered, packed plastic must meet <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\" target=\"_blank\">the criteria of plastic sequestration</a>. These criteria are based on the principles of Earthen ethics, and are part and parcel of generally accepted <a href=\"https://en.wikipedia.org/wiki/Ecobricks\"> ecobricking standards</a> which the Global Ecobrick Alliance <a href=\"what.php\">maintains and represents</a>.",
         "016-block-5-paragraph": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\">Plastic Sequestration.</a>",
-        "016b-block-1-info-2": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">Definition of an Ecobrick</a>"
+        "016b-block-1-info-2": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">Definition of an Ecobrick</a>",
     
 
-
+        "017-block-6-opener-header": "The Role of the GEA",
+        "018-block-6-opener-subheader": "The Global Ecobrick Alliance maintains the blockchain that underlies the plastic offsetting system.",
+        "019-block-6-paragraph": "As part of our mission to support local and global plastic transition movements, the Global Ecobrick Alliance (GEA) hosts the GoBrik app to serve ecobrickers around the world. One of the main functions of GoBrik is to authenticate ecobricked plastic. This enables our Brikcoin blockchain which serves as the found for plastic offsetting. We maintain and develop these platforms as a not-for-profit, for-Earth enterprise with full financial transparency.",
+        "020-block-6-paragraph": "Offsetting and ecobrick validations are both accessed on our Gobrik app. There, ecobricker peers validate whether logged ecobricks meet the criteria of plastic sequestration. Ecobricks that are authenticated are recorded on the Brikcoin blockchain. Their Authenticated Ecobrick Sequestered plastic (AES)then becomes available for purchase as offset credits.",
+        "021-block-6-paragraph": "Upon purchase, the GEA issues a serialized certificate for the amount of plastic offsets paid for. The transaction is recorded automatically on the brikchain and the GEA's Open Books accounting system. Finally, the buyer's account is credited with their AES plastic offset credits and a serialized PDF certificate is issued."
+    
 
 
     };

@@ -604,13 +604,17 @@ border-color: #00a112 !important;
   background-size: contain;
   border-radius: 40px;
     border:none;
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
     padding: 10px;
+    cursor: pointer;
+
+
 }
 
 .x-button:hover {
-  background: url('svgs/x-over.svg') no-repeat;
+  background: url('svgs/x-over-black.svg') no-repeat center;
+  background-size: contain;
   background-color:var(--divider-line);
 
 } 
