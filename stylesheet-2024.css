@@ -589,7 +589,6 @@ border-color: #00a112 !important;
 
   left: 0;
   top: 0;
-
   margin-left: 10%;
   margin-top: 30px;
   height: 30px;
@@ -600,18 +599,11 @@ border-color: #00a112 !important;
 
 }
 
-
 .right-close-button:hover {
   background: var(--x-button-over);
 }
 
-
-
-
-
-
 .x-button {
-
   border-radius: 40px;
     border:none;
     height: 20px;
@@ -619,15 +611,8 @@ border-color: #00a112 !important;
     padding: 15px;
     cursor: pointer;
     margin: auto;
-
-
 }
 
-.x-button:hover {
-  background: url('svgs/x-over-black.svg') no-repeat center;
-  background-size: contain;
-
-} 
 
 
 
