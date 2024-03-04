@@ -24,9 +24,15 @@
 		/*background-color: #8BBAF0;*/
     	background-repeat: no-repeat;
 		background-size: cover;
-		
-
 	}
+
+  .splash-heading {
+    font-size: 3em;
+}
+
+  .splash-sub{
+    font-size: 1.6em !important;
+}
 }
 
 

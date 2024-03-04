@@ -21,7 +21,7 @@ const es_Page_Translations = {
     "002-splash-subtitle": "Al asumir la responsabilidad de nuestro plástico personal podemos energizar la transición plástica local y global.",
     "003-splash-image-alt": '<img src="../icons/eco-accounting-icon-from-ecobricks-org-white.svg" style="width: 86%" alt="Contabilidad de impacto ecológico para asegurar que estamos siendo ecológicos.">',
     "004-lead-page-paragraph": "Vivimos en una época en la que es casi imposible evitar el plástico. Sin embargo, el plástico que usamos hoy tendrá un impacto ecológico por edades venideras. Al asumir la responsabilidad de nuestro plástico hoy, podemos asegurar que mañana, nuestro impacto general sea ecológico.",
-    "005-first-page-paragraph": "¡Y la compensación de plástico es un buen punto de partida!",
+    "005-first-page-paragraph": "¡Y la compensación de plástico es un muy buen punto de partida!",
     "006-second-page-paragraph": "La compensación trata sobre asegurar que nuestros impactos verdes superen a nuestros grises. Así como los hogares y empresas ambientalmente conscientes compran créditos de compensación de carbono, también pueden comprar créditos de compensación de plástico. Mientras que los créditos de carbono ayudan a equilibrar nuestras emisiones, los créditos de compensación de plástico pueden ser adquiridos para equilibrar nuestro consumo y producción de plástico. Pagar por créditos de compensación sirve como un fuerte incentivo financiero para que los compradores reduzcan y eliminen su uso de plástico por completo.",
     "007-third-page-paragraph": "Mientras tanto, los pagos van directamente a energizar a aquellos que trabajan arduamente para secuestrar plástico y hacer la transición de este.",
     "008-block-5-opener-header": "Como la Compensación de Carbono— pero para el plástico!",
@@ -33,7 +33,7 @@ const es_Page_Translations = {
     "014-block-5-paragraph": "Para que el plástico ecobrickeado sea considerado secuestrado, debe ser hecho según estándares específicos— ¡y verificado como tal!",
     "015-block-5-paragraph": "Así como no todos los bosques plantados representan un enriquecimiento ecológico (es decir, bosques monocultura 'desiertos verdes') no todo el plástico que está empaquetado es de valor ecológico. Para ser considerado efectivamente secuestrado, el plástico empaquetado debe cumplir <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\" target=\"_blank\">los criterios de secuestro de plástico</a>. Estos criterios se basan en los principios de la ética Terrestre, y son parte integral de los <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">estándares de ecobrickeado</a> generalmente aceptados que la Alianza Global de Ecobricks <a href=\"what.php\">mantiene y representa</a>.",
     "016-block-5-paragraph": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\">Secuestro de Plástico.</a>",
-    "023-block-1-info-2": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">Definición de un Ecobrick</a>"
+    "016b-block-1-info-2": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">Definición de un Ecobrick</a>"
 
 
 };

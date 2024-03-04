@@ -19,7 +19,7 @@ const id_Page_Translations = {
     "002-splash-subtitle": "Dengan mengambil tanggung jawab atas plastik pribadi kita, kita dapat memberi energi pada transisi plastik lokal dan global.",
     "003-splash-image-alt": '<img src="../icons/eco-accounting-icon-from-ecobricks-org-white.svg" style="width: 86%" alt="Akuntansi dampak ekologis untuk memastikan kita hijau.">',
     "004-lead-page-paragraph": "Kita hidup di zaman di mana hampir mustahil untuk menghindari plastik. Namun, plastik yang kita gunakan hari ini akan memiliki dampak ekologis selama berabad-abad yang akan datang. Dengan mengambil tanggung jawab atas plastik kita hari ini, kita dapat memastikan bahwa besok, dampak keseluruhan kita adalah hijau.",
-    "005-first-page-paragraph": "Dan pengoffsetan plastik adalah tempat untuk memulai!",
+    "005-first-page-paragraph": "Dan pengoffsetan plastik adalah tempat bagus untuk memulai!",
     "006-second-page-paragraph": "Pengoffsetan adalah semua tentang memastikan dampak hijau kita melebihi abu-abu kita. Sama seperti rumah tangga dan perusahaan hijau yang antusias membeli kredit offset karbon, mereka juga dapat membeli kredit offset plastik. Sedangkan kredit karbon membantu menyeimbangkan emisi kita, offset plastik dapat dibeli untuk menyeimbangkan konsumsi dan produksi plastik kita. Membayar untuk kredit offset berfungsi sebagai insentif keuangan yang kuat bagi pembeli untuk mengurangi dan menghilangkan penggunaan plastik mereka sepenuhnya.",
     "007-third-page-paragraph": "Sementara itu, pembayaran langsung ke energi bagi mereka yang bekerja keras untuk menyekuester plastik dan beralih darinya.",
     "008-block-5-opener-header": "Seperti Pengoffsetan Karbon— tapi untuk plastik!",
@@ -31,5 +31,12 @@ const id_Page_Translations = {
     "014-block-5-paragraph": "Agar plastik ecobricked dianggap sebagai disequester, harus dilakukan sesuai standar tertentu— dan diverifikasi demikian!",
     "015-block-5-paragraph": "Sama seperti tidak semua hutan yang ditanami mewakili pengayaan ekologis (yaitu, hutan 'gurun hijau' monokultur) tidak semua plastik yang dikemas adalah nilai ekologis. Agar dianggap efektif disequester, plastik yang dikemas harus memenuhi <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\" target=\"_blank\">kriteria penyekuesteran plastik</a>. Kriteria ini didasarkan pada prinsip-prinsip etika Bumi, dan merupakan bagian dan paket dari <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">standar ecobricking</a> yang umum diterima yang Aliansi Ecobrick Global <a href=\"what.php\">memelihara dan mewakili</a>.",
     "016-block-5-paragraph": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\">Penyekuesteran Plastik.</a>",
-    "023-block-1-info-2": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">Definisi Ecobrick</a>"
+    "016b-block-1-info-2": "ℹ️ Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Ecobricks\">Definisi Ecobrick</a>"
+
+
+
+
+
+
+
 };
