@@ -306,11 +306,16 @@ window.onload = function() {
 }
 
 .rotate-plus {
-    display: inline-block; /* Allows rotation of inline elements like span */
-    transform: rotate(45deg); /* Rotate the element 45 degrees */
-    transition: transform 0.5s ease; /* Smooth transition for the rotation */
+    display: inline-block;
+    transform: rotate(45deg);
+    transition: transform 0.5s ease;
 }
 
+.rotate-minus {
+    display: inline-block;
+    transform: rotate(90deg); /* This effectively rotates it back by 45 degrees from the .rotate-plus state */
+    transition: transform 0.5s ease;
+}
 
 </style>
 
@@ -762,13 +767,27 @@ window.onload = function() {
 document.addEventListener('DOMContentLoaded', function() {
     // Function to rotate the plus symbol
     function spinThePlus(toggleIcon) {
-        // Check if the toggle icon already has the rotation applied
+        // Check the current rotation state and toggle accordingly
         if (toggleIcon.classList.contains('rotate-plus')) {
-            toggleIcon.classList.remove('rotate-plus'); // Revert back to normal if rotated
+            toggleIcon.classList.remove('rotate-plus');
+            toggleIcon.classList.add('rotate-minus'); // Add class to rotate it 45 degrees backwards
+        } else if (toggleIcon.classList.contains('rotate-minus')) {
+            toggleIcon.classList.remove('rotate-minus'); // Revert to original state if already rotated backwards
         } else {
-            toggleIcon.classList.add('rotate-plus'); // Rotate 45 degrees
+            toggleIcon.classList.add('rotate-plus'); // Initial rotation if no rotation has been applied
         }
     }
+
+    document.querySelectorAll('.accordion-title').forEach(button => {
+        button.addEventListener('click', () => {
+            const toggleIcon = button.querySelector('.toggle-icon');
+            spinThePlus(toggleIcon); // Call function to rotate the plus symbol
+            // The rest of your accordion toggle logic...
+        });
+    });
+
+    // Your existing code for toggling the translation information...
+});
 
 
     

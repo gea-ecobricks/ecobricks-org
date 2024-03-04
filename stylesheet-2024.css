@@ -585,23 +585,27 @@ border-color: #00a112 !important;
 
 .right-close-button {
   position: absolute;
-  right: 0px;
-  transition: 0.3s;
+  right: 0;
+  transition: .3s;
   height: 75px;
-  width:75px;
-  padding-right: 30px;
+  width: 75px;
+  padding: 10px;
   padding-top: 30px;
-  right: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
+  background:var(--divider-line);
+  border-radius: 40px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 
 .x-button {
-    background: url('svgs/right-x.svg') no-repeat;
+    background: url('svgs/right-x.svg') no-repeat center;
     padding: 10px;
     background-size: contain;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     border:none;
 }
 
