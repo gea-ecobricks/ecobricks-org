@@ -418,12 +418,12 @@ window.onload = function() {
 
 <div class="accordion-item">
     <button class="accordion-title" data-lang-id="001-menu-0-main-item" style="border-top:none;"><a href="faqs.php">Ecobrick FAQs</a>
-                <span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:13px;padding-right:5px; ">●</span></button>
+                <span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:12px;padding-right:5px; ">●</span></button>
   </div>
 
   <div class="accordion-item">
     <button class="accordion-title" data-lang-id="001-menu-0-main-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">Intro to Ecobricks
-                <span class="circle" title="This page is 100% translated to English" style="color:green !important;  font-size:13px;padding-right:5px;  ">●</span></button>
+                <span class="circle" title="This page is 100% translated to English" style="color:green !important;  font-size:12px;padding-right:5px;  ">●</span></button>
 
                 <div class="translation-info" data-lang-id="003-menu-1-trans-text-1">guidedTour.js has been translated 100%</div>
   </div>
@@ -438,21 +438,21 @@ window.onload = function() {
                 <a href="what.php">Ecobricks & Standards</a>
                 <span class="circle" title="This page is 100% translated to English" style="color:green ;  ">●</span>
             </div>
-            <div class="translation-info" data-lang-id="003-menu-1-trans-text-1">what.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-fr-translation.js" class="translate-link">revise or translate ⇗</a></div>
+            <div class="translation-info" data-lang-id="003-menu-1-trans-text-1">🏴󠁧󠁢󠁥󠁮󠁧󠁿 what.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-en-translation.js" class="translate-link">revise or translate ⇗</a></div>
         </div>
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="004-menu-1-sub-item-2">
                 <a href="/cigbricks">Cigbricks</a>
                 <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
             </div>
-            <div class="translation-info" data-lang-id="005-menu-1-trans-text-2">/cigbricks | This page is 100% translated to English but in our non-git format.  We're working to migrate it.</div>
+            <div class="translation-info" data-lang-id="005-menu-1-trans-text-2">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /cigbricks | This page is 100% translated to English but in our non-git format.  We're working to migrate it.</div>
         </div>
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="004-menu-1-sub-item-3">
                 <a href="/ocean">Ocean Ecobricks</a>
                 <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
             </div>
-            <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">/ocean | This page is 100% translated to English but in our non-git format.  We're working to migrate it.</div>
+            <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /ocean | This page is 100% translated to English but in our non-git format.  We're working to migrate it.</div>
         </div>
         <div class="submenu-item-container">
             <div class="submenu-item">
