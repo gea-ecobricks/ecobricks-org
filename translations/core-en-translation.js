@@ -68,6 +68,18 @@ const en_Translations = {
       "030-menu-4-sub-item-1": '<a href="principles.php">Our principles</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
       "031-menu-4-trans-text-1": "🏴 principles.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/principles.php\" class=\"translate-link\">code ⇗</a>",  
 
+      "032-menu-4-sub-item-2": '<a href="sequest.php">Plastic Sequestration</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "033-menu-4-trans-text-2": "🏴 sequest.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/sequest.php\" class=\"translate-link\">code ⇗</a>",
+      "034-menu-4-sub-item-3": '<a href="brickable.php">Brikable Design</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "035-menu-4-trans-text-3": "🏴 brickable.php has been translated 50% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/brickable.php\" class=\"translate-link\">code ⇗</a>",
+      "036-menu-4-sub-item-4": '<a href="spiral.php">Spiral Design</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "037-menu-4-trans-text-4": "🏴 spiral.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/spiral.php\" class=\"translate-link\">code ⇗</a>",
+      "038-menu-4-sub-item-5": '<a href="/ayyew">Ayyew</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
+      "039-menu-4-trans-text-5": "🏴 /ayyew has been translated 100% | migration to new git site pending",
+      "040-menu-4-sub-item-6": '<a href="/mandalic">Mandalic Collaboration</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
+      "041-menu-4-trans-text-6": "🏴 /mandalic has been translated 100% | migration to new git site pending",
+  
+
       
 
       
