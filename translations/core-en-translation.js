@@ -64,6 +64,10 @@ const en_Translations = {
       "027-menu-3-sub-item-3": '<a href="transition.php">Plastic Transition</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
       "028-menu-3-trans-text-3": "🏴 transition.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/transition.php\" class=\"translate-link\">code ⇗</a>",
 
+      "029-menu-4-main-item": "Earthen & Regenerative",
+      "030-menu-4-sub-item-1": '<a href="principles.php">Our principles</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "031-menu-4-trans-text-1": "🏴 principles.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/principles.php\" class=\"translate-link\">code ⇗</a>",  
+
       
 
       
