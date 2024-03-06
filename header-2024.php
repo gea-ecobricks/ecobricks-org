@@ -192,6 +192,8 @@ window.onload = function() {
     font-family: 'Mulish', Arial, Helvetica, sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
+  margin-top: 100px;
+
 }
 
 .accordion button:hover {
