@@ -42,6 +42,28 @@ const fr_Translations = {
     "005-menu-1-trans-text-4": "🏴 /plastic a été traduit à 0% | migration vers le nouveau site git en cours !",
 
 
+    /*BUILD*/
+
+    "007-menu-2-main-item": "Construction",
+    "008-menu-2-sub-item-1": '<a href="build.php">Applications d\'Ecobricks</a><span class="circle" title="Cette page a été traduite à 10%" style="color:yellow;  ">●</span>',
+    "009-menu-2-trans-text-1": "🏴 build.php a été traduit à 10% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/build-fr-translation.js\" class=\"translate-link\">traduction ⇗  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/build.php\" class=\"translate-link\">code ⇗</a>",
+    
+    "010-menu-2-sub-item-2": '<a href="modules.php">Modules Milstein</a><span class="circle" title="Cette page a été traduite à 10" style="color:yellow;  ">●</span>',
+    "011-menu-2-trans-text-2": "🏴 modules.php a été traduit à 10% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/modules-fr-translation.js\" class=\"translate-link\">traduction ⇗  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/modules.php\" class=\"translate-link\">code ⇗</a>",
+    "020-menu-2-sub-item-7": '<a href="/dms">Modules Dieleman</a><span class="circle" title="Cette page a été traduite à 0% et est dans notre format non-git.   En attente de migration." style="color:red">●</span>',
+    "021-menu-2-trans-text-7": "🏴 /earth-methods a été traduit à 0% | migration vers le nouveau site git en attente",
+    "012-menu-2-sub-item-3": '<a href="earth.php">Construction Terrestre</a><span class="circle" title="Cette page a été traduite à 15%" style="color:yellow;  ">●</span>',
+    "013-menu-2-trans-text-3": "earth.php a été traduit à 15% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-fr-translation.js\" class=\"translate-link\">aidez à éditer ⇗</a>",
+
+    "014-menu-2-sub-item-4": '<a href="/earth-methods">Méthodes de Construction Terrestre</a><span class="circle" title="Cette page a été traduite à 0% et est dans notre format non-git.   En attente de migration." style="color:red">●</span>',
+    "015-menu-2-trans-text-4": "🏴 /earth-methods a été traduit à 0% | migration vers le nouveau site git en attente",
+    "018-menu-2-sub-item-6": '<a href="/open-spaces">Espaces Ouverts</a><span class="circle" title="Cette page a été traduite à 100% en anglais mais dans notre format non-git.   En attente de migration." style="color:red">●</span>',
+    "019-menu-2-trans-text-6": "🏴 /open-spaces a été traduit à 0% | migration vers le nouveau site git en attente",
+    "016-menu-2-sub-item-5": '<a href="/fire">Sécurité Incendie</a><span class="circle" title="Cette page a été traduite à 0% en anglais et est dans notre format non-git.   En attente de migration." style="color:red">●</span>',
+    "017-menu-2-trans-text-5": "🏴 /fire a été traduit à 0% | migration vers le nouveau site git en attente",
+
+
+
 
 
 
