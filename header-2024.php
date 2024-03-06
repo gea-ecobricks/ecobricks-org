@@ -503,7 +503,7 @@ window.onload = function() {
               <a href="build.php">Ecobrick Applications</a>
               <span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>
           </div>
-          <div class="translation-info" data-lang-id="009-menu-2-trans-text-1">build.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/build-en-translation.js" class="translate-link">revise or translate ⇗</a></div>
+          <div class="translation-info" data-lang-id="009-menu-2-trans-text-1">🏴󠁧󠁢󠁥󠁮󠁧󠁿 build.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/build-en-translation.js" class="translate-link">translation ⇗  | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/build.php" class="translate-link">code ⇗</a></div>
       </div>
 
       <!-- Milstein modules -->
@@ -512,7 +512,7 @@ window.onload = function() {
             <a href="modules.php">Milstein Modules</a>
             <span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>
         </div>
-        <div class="translation-info" data-lang-id="011-menu-2-trans-text-2">modules.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/modules-fr-translation.js" class="translate-link">help edit ⇗</a></div>
+        <div class="translation-info" data-lang-id="011-menu-2-trans-text-2">🏴󠁧󠁢󠁥󠁮󠁧󠁿 modules.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/modules-en-translation.js" class="translate-link">translation ⇗  | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/modules.php" class="translate-link">code ⇗</a></div>
     </div>
 
     <!-- Dieleman modules -->
@@ -521,7 +521,7 @@ window.onload = function() {
         <a href="/dms">Dieleman modules</a>
         <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
       </div>
-      <div class="translation-info" data-lang-id="021-menu-2-trans-text-7">/dms has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/dms-fr-translation.js" class="translate-link">help edit ⇗</a></div>
+      <div class="translation-info" data-lang-id="021-menu-2-trans-text-7">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /earth-methods has been translated 100% | migration to new git site pending</div>
     </div>
 
     <div class="submenu-item-container">
@@ -537,7 +537,7 @@ window.onload = function() {
           <a href="/earth-methods">Earth Building Methods</a>
           <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
       </div>
-      <div class="translation-info" data-lang-id="015-menu-2-trans-text-4">/earth-methods has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-methods-fr-translation.js" class="translate-link">help edit ⇗</a></div>
+      <div class="translation-info" data-lang-id="015-menu-2-trans-text-4">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /earth-methods has been translated 100% | migration to new git site pending</div>
    </div>
        
     <!-- Open spaces -->
@@ -546,7 +546,7 @@ window.onload = function() {
             <a href="/open-spaces">Open spaces</a>
             <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
         </div>
-        <div class="translation-info" data-lang-id="019-menu-2-trans-text-6">/open-spaces has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/open-spaces-fr-translation.js" class="translate-link">help edit ⇗</a></div>
+        <div class="translation-info" data-lang-id="019-menu-2-trans-text-6">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /open-spaces has been translated 100% | migration to new git site pending</div>
     </div>
 
 
@@ -556,7 +556,7 @@ window.onload = function() {
             <a href="/fire">Fire Safety</a>
             <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
         </div>
-        <div class="translation-info" data-lang-id="017-menu-2-trans-text-5">/fire has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/fire-fr-translation.js" class="translate-link">help edit ⇗</a></div>
+        <div class="translation-info" data-lang-id="017-menu-2-trans-text-5">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /fire has been translated 100% | migration to new git site pending</div>
     </div>
 </div>
 </div>
@@ -571,7 +571,7 @@ window.onload = function() {
         <a href="how.php">Our 10-step guide</a>
         <span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>
     </div>
-    <div class="translation-info" data-lang-id="024-menu-3-trans-text-1">🏴󠁧󠁢󠁥󠁮󠁧󠁿  how.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-fr-translation.js" class="translate-link">translation ⇗  | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/how.php" class="translate-link">code ⇗</a> class="translate-link">translation ⇗</a></a></div>
+    <div class="translation-info" data-lang-id="024-menu-3-trans-text-1"  class="translate-link">🏴󠁧󠁢󠁥󠁮󠁧󠁿 how.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-en-translation.js" class="translate-link">translation ⇗  | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/how.php" class="translate-link">code ⇗</a></div>
 </div>
 <!-- Earthwands -->
 <div class="submenu-item-container">
@@ -579,7 +579,7 @@ window.onload = function() {
         <a href="earthwands.php">Earthwands</a>
         <span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>
     </div>
-    <div class="translation-info" data-lang-id="026-menu-3-trans-text-2">🏴󠁧󠁢󠁥󠁮󠁧󠁿 earthwands.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earthwands-fr-translation.js" class="translate-link">translation ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/earthwands.php" class="translate-link">code ⇗</a> class="translate-link">translation ⇗</a></div>
+    <div class="translation-info" data-lang-id="026-menu-3-trans-text-2"  class="translate-link">🏴󠁧󠁢󠁥󠁮󠁧󠁿 earthwands.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earthwands-fr-translation.js" class="translate-link">translation ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/earthwands.php" class="translate-link">code ⇗</a></div>
 </div>
 <!-- Plastic Transition -->
 <div class="submenu-item-container">
