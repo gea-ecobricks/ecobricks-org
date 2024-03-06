@@ -65,7 +65,7 @@ const fr_Translations = {
 
     "022-menu-3-main-item": "Fabrication d'écobriques",
     "023-menu-3-sub-item-1": '<a href="how.php">Notre guide en 10 étapes</a><span class="circle" title="Cette page a été traduite à 100%" style="color:green;  ">●</span>',
-    "024-menu-3-trans-text-1": "🏴 how.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-fr-translation.js\" class=\"translate-link\">traduction ⇗  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/how.php\" class=\"translate-link\">code ⇗</a>",
+    "024-menu-3-trans-text-1": "🇫🇷 how.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-fr-translation.js\">traduction ⇗  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/how.php\" class=\"translate-link\">code ⇗</a>",
     "025-menu-3-sub-item-2": '<a href="earthwands.php">Earthwands (Bâtons de Terre)</a><span class="circle" title="Cette page a été traduite à 100%" style="color:green;  ">●</span>',
     "026-menu-3-trans-text-2": "🏴 earthwand.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earthwand-fr-translation.js\" class=\"translate-link\">traduction ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/earthwand.php\" class=\"translate-link\">code ⇗</a>",
     "027-menu-3-sub-item-3": '<a href="transition.php">Transition Plastique</a><span class="circle" title="Cette page a été traduite à 50%" style="color:yellow;  ">●</span>',
