@@ -217,9 +217,28 @@ window.onload = function() {
     color: var(--text-color);
 }
 
+
+.accordion-title-single {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    border-top: 1px solid var(--selector);
+    cursor: pointer;
+    color: var(--text-color);
+}
+
 @media screen and (max-width: 700px) {
 
     .accordion-title {
+        padding: 10px 4px 10px 8px;
+        font-size: 1.2em;
+    }
+
+    .accordion-title-single {
         padding: 10px 4px 10px 8px;
         font-size: 1.2em;
     }
@@ -240,6 +259,12 @@ window.onload = function() {
     padding: 12px 5px 12px 10px;
     font-size: 1.4em;
 }
+
+.accordion-title-single {
+    padding: 12px 5px 12px 10px;
+    font-size: 1.4em;
+}
+
 .toggle-icon {
     font-size: 1.4em;
 }
@@ -251,7 +276,7 @@ window.onload = function() {
 }
 
 
-.accordion-title a {
+.accordion-title-single a {
 
     border: none;
     border-top: none;
@@ -447,14 +472,14 @@ window.onload = function() {
     <div class="accordion">
 
 <div class="accordion-item">
-    <button class="accordion-title" data-lang-id="001-menu-0-main-item" style="border-top:none;"><a href="faqs.php">Ecobrick FAQs</a>
+    <button class="accordion-title-single" data-lang-id="000-menu-0-main-item" style="border-top:none;"><a href="faqs.php">Ecobrick FAQs</a>
                 <span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:12px;padding-right:5px; ">●</span></button>
 
                 <div class="translation-info" data-lang-id="003-menu-1-trans-text-1">🏴󠁧󠁢󠁥󠁮󠁧󠁿 faqs.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/faqs-en-translation.js" class="translate-link">translation ⇗  | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/faqs.php" class="translate-link">code ⇗</a></div>
   </div>
 
   <div class="accordion-item">
-    <button class="accordion-title" data-lang-id="001-menu-0-main-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">Intro to Ecobricks
+    <button class="accordion-title-single" data-lang-id="000b-menu-0-main-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">Intro to Ecobricks
                 <span class="circle" title="This page is 100% translated to English" style="color:green !important;  font-size:12px;padding-right:5px;  ">●</span></button>
 
                 <div class="translation-info" data-lang-id="003-menu-1-trans-text-1">🏴󠁧󠁢󠁥󠁮󠁧󠁿 guidedTour.js has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-en-translation.js" class="translate-link">translation ⇗  | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">code ⇗</a></div>
@@ -791,8 +816,8 @@ window.onload = function() {
 <p style="font-size: small; text-align: center; margin: auto; width:80%; padding-bottom: 50px;">All our content on Ecobricks.org is open to collaborative development, revision and translation. See the colored circles for status and github links.</p> -->
 
 
-<div style="margin-top:15px">
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="We strive to make all our content is publically editable and translateable  | Creative Commons BY SA 4.0 License" src="../icons/cc-by-sa.svg" style="width:125px;border-width:0" title="We strive to make all our content is publically editable and translateable  | Creative Commons BY SA 4.0 License"></a>
+<div style="margin-top:auto;margin-bottom:20px;">
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="We strive to make all our content is publically editable and translateable  | Creative Commons BY SA 4.0 License" src="../icons/cc-by-sa.svg" style="width:125px;border-width:0;filter: saturate(0);" title="We strive to make all our content is publically editable and translateable  | Creative Commons BY SA 4.0 License"></a>
             </div>
 
 </div> <!-- close righ page menu-->
