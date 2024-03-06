@@ -139,10 +139,10 @@
 
 	<!--FOOTER ENDS-->
 
-<script src="../translations/core-en-translation.js"></script>
-<script src="../translations/core-fr-translation.js"></script>
-<script src="../translations/core-id-translation.js"></script>
-<script src="../translations/core-es-translation.js"></script>
+<script src="../translations/core-en-translation.js?v=<?php echo ($version); ;?>"></script>
+<script src="../translations/core-fr-translation.js?v=<?php echo ($version); ;?>"></script>
+<script src="../translations/core-id-translation.js?v=<?php echo ($version); ;?>"></script>
+<script src="../translations/core-es-translation.js?v=<?php echo ($version); ;?>"></script>
 
 <script src="../translations/<?php echo ($page); ;?>-en-translation.js?v=<?php echo ($version); ;?>"></script>
 <script src="../translations/<?php echo ($page); ;?>-fr-translation.js?v=<?php echo ($version); ;?>"></script>

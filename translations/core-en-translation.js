@@ -22,7 +22,7 @@ const en_Translations = {
       /*Menu of pages curtain*/
 
 
-      "000a-menu-0-main-item": '<a href="faqs.php">Ecobrick FAQs</a><span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
+      "000a-menu-0-main-item": '<a href="faqs.php">FAQs</a><span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
       "000a-menu-1-trans-text-1": '🏴 faqs.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/faqs-en-translation.js" class="translate-link">translation ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/faqs.php" class="translate-link">code ⇗</a>',
       "000b-menu-0-main-item": 'Intro to Ecobricks<span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
       "00b-menu-1-trans-text-1": '🏴 guidedTour.js has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-en-translation.js" class="translate-link">translation ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">code ⇗</a>',
@@ -30,7 +30,7 @@ const en_Translations = {
 
 
 
-      
+
         /*General Texts*/
         '1000-learn-more': 'Learn More',
         '1001-what-are-ecobricks': 'What are ecobricks?',
