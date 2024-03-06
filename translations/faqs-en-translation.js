@@ -106,11 +106,15 @@ const en_Page_Translations =
     "090-learn-more-ecobrick-basics": "<h5>Learn more: <a href=\"what.php\">Ecobrick Basics</a></h5>",
     "091-back-to-general-questions": "Back to <a href=\"#general\">General Questions</a>",
     "092-faq-image-what-ecobrick": "<img src=\"../webp/faqs-400px.webp\" alt=\"What is an eco brick?\" loading=\"lazy\">",
+
+
     "093-why-make-ecobricks": "Why make ecobricks?",
     "094-why-make-ecobricks-description": "Plastic is part of our petro-capital age. No matter your culture or continent, you're going to be consuming some plastic! Unlike other plastic management methods, ecobricking allows us to be 100% sure our plastic doesn't get into the biosphere or cause more factories to spin. Because ecobricking is hard work, it motivates us to consume less. If you've made an ecobrick, you know that having to pack one's consumption piece by piece, gets one thinking about the whole system behind our plastic! And since we're not putting it back in the system, we can be confident lots more carbon and plastic aren't produced. Finally, since building with ecobricks is a hands-on, collaboration powered process, it brings us together with friends and family to make great green spaces that serve our communities. As far as we know, there's nothing better one can do with the plastic that we've got now— and the fastest way to speed up our transition from it.",
     "095-learn-more-why-make-ecobricks": "<h5>Learn more: <a href=\"/why\">Why Make Ecobricks?</a></h5>",
     "096-back-to-general-questions": "Back to <a href=\"#general\">General Questions</a>",
     "097-faq-image-question": "<img src=\"../svgs/question.svg\" alt=\"Why make an eco brick?\">",
+
+    
     "098-how-to-make-ecobrick": "How to make an Ecobrick?",
     "099-how-to-make-ecobrick-description": "Deep breath... First, save up and segregate your plastic, keeping them separate from the organics. If your plastics are dirty, clean and dry them. For your first ecobrick, start with a small, clear PET bottle that is common in your community. Make sure you've got a solid stick (dowel, drumstick, branch, <a href=\"/earthwand\">earthwand</a> etc.). Start by inserting a soft, colored plastic down to the bottom of the bottle. Stuff it down with other plastics of the same color until you have a 2-3cm base. Cut up other kinds of plastics and insert them loosely into the bottle until it is almost full. Use your stick to pack the plastics down by pushing around on the sides. Fill, pack, repeat and repeat! Leave 1-2cm of space at the top of the bottle. Cap. Then, weigh your ecobrick. Make sure your ecobrick's density is over the GEA's recommended minimum 0.33g/ml (divide weight by the bottle's volume to get the density). Good ecobricks are above 0.4g/ml. Log your ecobrick (keep a list, spreadsheet or use our handy <a href=\"https://gobrik.com\" target=\"_blank\">GoBrik.com app</a>). Store securely. Then, when you've got enough, put them together in a project... and exhale!",
     "100-learn-more-dense-answer": "<h5>Answer's a little too dense? Better: <a href=\"how\">Our Comprehensive 10 Step Ecobricking Guide</a></h5>",
