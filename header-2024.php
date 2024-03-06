@@ -474,7 +474,7 @@ window.onload = function() {
     <div class="accordion">
 
 <div class="accordion-item">
-    <button class="accordion-title-single" data-lang-id="000a-menu-0-main-item" style="border-top:none;"><a href="faqs.php">Ecobrick FAQs</a>
+    <button class="accordion-title-single" data-lang-id="000a-menu-0-main-item" style="border-top:none;" onclick="redirectToFAQs()">Ecobrick FAQs
                 <span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:12px;padding-right:5px; ">●</span></button>
 
                 <div class="translation-info" data-lang-id="000a-menu-1-trans-text-1">🏴󠁧󠁢󠁥󠁮󠁧󠁿 faqs.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/faqs-en-translation.js" class="translate-link">translation ⇗  | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/faqs.php" class="translate-link">code ⇗</a></div>
@@ -488,10 +488,12 @@ window.onload = function() {
   </div>
 
 
-<!-- What are Ecobricks? -->
+<!-- ECOBRICK BASICS -->
 <div class="accordion-item">
     <button class="accordion-title"><b data-lang-id="001-menu-1-main-item">Ecobrick Basics</b><span class="toggle-icon">+</span></button>
     <div class="accordion-content">
+
+    <!-- What are Ecobricks? -->
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="002-menu-1-sub-item-1">
                 <a href="what.php">Ecobricks & Standards</a>
@@ -499,6 +501,9 @@ window.onload = function() {
             </div>
             <div class="translation-info" data-lang-id="003-menu-1-trans-text-1">🏴󠁧󠁢󠁥󠁮󠁧󠁿 what.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-en-translation.js" class="translate-link">translation ⇗  | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/what.php" class="translate-link">code ⇗</a></div>
         </div>
+
+     <!-- Cigbricks -->
+
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="004-menu-1-sub-item-2">
                 <a href="/cigbricks">Cigbricks</a>
@@ -506,6 +511,8 @@ window.onload = function() {
             </div>
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-2">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /cigbricks has been translated 100% | migration to new git site pending</div>
         </div>
+
+        
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="004-menu-1-sub-item-3">
                 <a href="/ocean">Ocean Ecobricks</a>
