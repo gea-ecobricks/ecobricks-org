@@ -841,7 +841,7 @@ window.onload = function() {
 
 
 <div style="margin-top:auto;margin-bottom:20px;">
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="We strive to make all our content is publically editable and translateable  | Creative Commons BY SA 4.0 License" src="../icons/cc-by-sa.svg" style="width:125px;border-width:0;filter: saturate(0);" title="We strive to make all our content is publically editable and translateable  | Creative Commons BY SA 4.0 License"></a>
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="We strive to make all our content is publically editable and translateable  | Creative Commons BY SA 4.0 License" src="../icons/cc-by-sa.svg" style="padding-top:25px;width:125px;border-width:0;filter: saturate(0);" title="We strive to make all our content is publically editable and translateable  | Creative Commons BY SA 4.0 License"></a>
             </div>
 
 </div> <!-- close righ page menu-->
