@@ -34,6 +34,12 @@ const en_Translations = {
       "004-menu-1-sub-item-2": '<a href="/cigbricks">Cigbricks</a><span class="circle" title="This page is 100% translated to English but in our non-git format. Queued for migration." style="color:orange;">●</span>',
       "005-menu-1-trans-text-2": '🏴 /cigbricks has been translated 100% | migration to new git site pending',
 
+      "004-menu-1-sub-item-3": '<a href="/ocean">Ocean Ecobricks</a><span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>',
+      "005-menu-1-trans-text-3": "🏴 /ocean has been translated 100% | migration to new git site pending",
+      "006-menu-1-sub-item-4": '<a href="/plastic">Plastic’s Long Story</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Migration in progress" style="color:yellow;  ">●</span>',
+      "005-menu-1-trans-text-4": "🏴 /plastic has been translated 100% | migration to new git site in progress!",
+  
+
 
         /*General Texts*/
         '1000-learn-more': 'Learn More',
