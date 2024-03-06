@@ -490,7 +490,7 @@ window.onload = function() {
 
 <!-- ECOBRICK BASICS -->
 <div class="accordion-item">
-    <button class="accordion-title"><b data-lang-id="001-menu-1-main-item">Ecobrick Basics</b><span class="toggle-icon">+</span></button>
+    <button class="accordion-title" data-lang-id="001-menu-1-main-item"><b>Ecobrick Basics</b><span class="toggle-icon">+</span></button>
     <div class="accordion-content">
 
     <!-- What are Ecobricks? -->
@@ -512,7 +512,7 @@ window.onload = function() {
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-2">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /cigbricks has been translated 100% | migration to new git site pending</div>
         </div>
 
-        
+
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="004-menu-1-sub-item-3">
                 <a href="/ocean">Ocean Ecobricks</a>

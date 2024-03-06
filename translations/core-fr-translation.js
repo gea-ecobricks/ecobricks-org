@@ -31,10 +31,10 @@ const fr_Translations = {
 
 
     "001-menu-1-main-item": "<b>Les bases de l'écobrique</b><span class=\"toggle-icon\">+</span>",
-    "002-menu-1-sub-item-1": '<a href="what.php">Écobriques et normes</a><span class="circle" title="Cette page est traduite à 100% en anglais" style="color:green ;  ">●</span>',
-    "003-menu-1-trans-text-1": '🏴 what.php a été traduit à 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-en-translation.js" class="translate-link">traduction ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/what.php" class="translate-link">code ⇗</a>',
+    "002-menu-1-sub-item-1": '<a href="what.php">Écobriques et normes</a><span class="circle" title="Cette page est traduite à 100% en anglais" style="color:green ;">●</span>',
+    "003-menu-1-trans-text-1": '🇫🇷 what.php a été traduit à 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-en-translation.js" class="translate-link">traduction ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/what.php" class="translate-link">code ⇗</a>',
     "004-menu-1-sub-item-2": '<a href="/cigbricks">Cigbriques</a><span class="circle" title="Cette page est traduite à 100% en anglais mais dans notre format non-git. En attente de migration." style="color:orange;">●</span>',
-    "005-menu-1-trans-text-2": '🏴 /cigbricks a été traduit à 100% | migration vers le nouveau site git en attente',
+    "005-menu-1-trans-text-2": '🇫🇷 /cigbricks a été traduit à 100% | migration vers le nouveau site git en attente',
 
 
 
