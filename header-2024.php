@@ -597,6 +597,7 @@ window.onload = function() {
 </div>
 </div>
 
+<!-- MAKING ECOBRICKS -->
 
 <div class="accordion-item">
 <button class="accordion-title"><b data-lang-id="022-menu-3-main-item">Making Ecobricks</b><span class="toggle-icon">+</span></button>
@@ -628,6 +629,7 @@ window.onload = function() {
 </div>
 </div>
 
+<!-- PRINCIPLES -->
 
 <div class="accordion-item">
 <button class="accordion-title"><b data-lang-id="029-menu-4-main-item">Earthen & Regenerative</b><span class="toggle-icon">+</span></button>

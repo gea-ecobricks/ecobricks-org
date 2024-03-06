@@ -63,6 +63,16 @@ const fr_Translations = {
     "017-menu-2-trans-text-5": "🏴 /fire a été traduit à 0% | migration vers le nouveau site git en attente",
 
 
+    "022-menu-3-main-item": "Fabrication d'écobriques",
+    "023-menu-3-sub-item-1": '<a href="how.php">Notre guide en 10 étapes</a><span class="circle" title="Cette page a été traduite à 100% en anglais" style="color:green;  ">●</span>',
+    "024-menu-3-trans-text-1": "🏴 how.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-en-translation.js\" class=\"translate-link\">traduction ⇗  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/how.php\" class=\"translate-link\">code ⇗</a>",
+    "025-menu-3-sub-item-2": '<a href="earthwands.php">Earthwands (Bâtons de Terre)</a><span class="circle" title="Cette page a été traduite à 100% en anglais" style="color:green;  ">●</span>',
+    "026-menu-3-trans-text-2": "🏴 earthwands.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earthwands-fr-translation.js\" class=\"translate-link\">traduction ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/earthwands.php\" class=\"translate-link\">code ⇗</a>",
+    "027-menu-3-sub-item-3": '<a href="transition.php">Transition Plastique</a><span class="circle" title="Cette page a été traduite à 100% en anglais" style="color:green;  ">●</span>',
+    "028-menu-3-trans-text-3": "🏴 transition.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/transition.php\" class=\"translate-link\">code ⇗</a>"
+
+
+
 
 
 
