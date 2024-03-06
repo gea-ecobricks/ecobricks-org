@@ -21,11 +21,24 @@ const fr_Translations = {
     /*Menu of pages*/
 
 
-    "000a-menu-0-main-item": '<a href="faqs.php">FAQs sur les Écobriques</a><span class="circle" title="Cette page est traduite à 100% en français" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
+    "000a-menu-0-main-item": 'FAQs sur les Écobriques<span class="circle" title="Cette page est traduite à 100% en français" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
     "000a-menu-1-trans-text-1": '🏴 faqs.php a été traduit à 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/faqs-en-translation.js" class="translate-link">traduction ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/faqs.php" class="translate-link">code ⇗</a>',
     "000b-menu-0-main-item": 'Introduction aux Écobriques<span class="circle" title="Cette page est traduite à 100% en français" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
     "00b-menu-1-trans-text-1": '🏴 guidedTour.js a été traduit à 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-en-translation.js" class="translate-link">traduction ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">code ⇗</a>',
+
+
     
+
+
+    "001-menu-1-main-item": "<b>Les bases de l'écobrique</b><span class=\"toggle-icon\">+</span>",
+    "002-menu-1-sub-item-1": '<a href="what.php">Écobriques et normes</a><span class="circle" title="Cette page est traduite à 100% en anglais" style="color:green ;  ">●</span>',
+    "003-menu-1-trans-text-1": '🏴 what.php a été traduit à 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-en-translation.js" class="translate-link">traduction ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/what.php" class="translate-link">code ⇗</a>',
+    "004-menu-1-sub-item-2": '<a href="/cigbricks">Cigbriques</a><span class="circle" title="Cette page est traduite à 100% en anglais mais dans notre format non-git. En attente de migration." style="color:orange;">●</span>',
+    "005-menu-1-trans-text-2": '🏴 /cigbricks a été traduit à 100% | migration vers le nouveau site git en attente',
+
+
+
+
 
             /*General Texts*/
             '1000-learn-more': 'Apprendre encore plus',
