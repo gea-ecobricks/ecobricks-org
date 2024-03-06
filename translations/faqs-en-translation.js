@@ -114,7 +114,7 @@ const en_Page_Translations =
     "096-back-to-general-questions": "Back to <a href=\"#general\">General Questions</a>",
     "097-faq-image-question": "<img src=\"../svgs/question.svg\" alt=\"Why make an eco brick?\">",
 
-    
+
     "098-how-to-make-ecobrick": "How to make an Ecobrick?",
     "099-how-to-make-ecobrick-description": "Deep breath... First, save up and segregate your plastic, keeping them separate from the organics. If your plastics are dirty, clean and dry them. For your first ecobrick, start with a small, clear PET bottle that is common in your community. Make sure you've got a solid stick (dowel, drumstick, branch, <a href=\"/earthwand\">earthwand</a> etc.). Start by inserting a soft, colored plastic down to the bottom of the bottle. Stuff it down with other plastics of the same color until you have a 2-3cm base. Cut up other kinds of plastics and insert them loosely into the bottle until it is almost full. Use your stick to pack the plastics down by pushing around on the sides. Fill, pack, repeat and repeat! Leave 1-2cm of space at the top of the bottle. Cap. Then, weigh your ecobrick. Make sure your ecobrick's density is over the GEA's recommended minimum 0.33g/ml (divide weight by the bottle's volume to get the density). Good ecobricks are above 0.4g/ml. Log your ecobrick (keep a list, spreadsheet or use our handy <a href=\"https://gobrik.com\" target=\"_blank\">GoBrik.com app</a>). Store securely. Then, when you've got enough, put them together in a project... and exhale!",
     "100-learn-more-dense-answer": "<h5>Answer's a little too dense? Better: <a href=\"how\">Our Comprehensive 10 Step Ecobricking Guide</a></h5>",
@@ -340,6 +340,8 @@ const en_Page_Translations =
     "308-faq_journalists_info": "<b>Journalists:</b>  Be sure to check out <a href=\"media.php\">our media kit!</a>",
     "310-faq_learn_from_trainer": "<b>Learn from a trainer</b>  Check out the current <a href=\"https://gobrik.com/courses\">Ecobrick Starter Workshop</a> course listing by certified GEA Trainers.",
     "312-faq_training_others": "<b>Training others to make ecobricks?</b> Be sure to check out <a href=\"/trainings\">trainer of trainer program</a>"
+
+
 
 
 

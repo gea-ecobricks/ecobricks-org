@@ -18,6 +18,19 @@ ENGLISH SNIPPETS FOR ECOBRICKS.ORG
 const en_Translations = {
 
 
+
+      /*Menu of pages curtain*/
+
+
+      "000a-menu-0-main-item": '<a href="faqs.php">Ecobrick FAQs</a><span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
+      "000a-menu-1-trans-text-1": '🏴 faqs.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/faqs-en-translation.js" class="translate-link">translation ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/faqs.php" class="translate-link">code ⇗</a>',
+      "000b-menu-0-main-item": 'Intro to Ecobricks<span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
+      "00b-menu-1-trans-text-1": '🏴 guidedTour.js has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-en-translation.js" class="translate-link">translation ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">code ⇗</a>',
+          
+
+
+
+      
         /*General Texts*/
         '1000-learn-more': 'Learn More',
         '1001-what-are-ecobricks': 'What are ecobricks?',
@@ -27,23 +40,7 @@ const en_Translations = {
         
 
 
-        /*Menu of pages curtain*/
-
-        '001-introduction': '<a style="text-align:center">Introduction</a>',
-        '002-what-are-ecobricks': 'What are Ecobricks?',
-        '003-how-to': 'How to Make?',
-        '004-transition': 'Plastic Transition',
-        // '005-earth-example': 'The Earth Example',
-        '006-our-principles': 'Our Earthen Principles',
-        '007-construction': 'Ecobrick Construction',
-        '008-about-us': 'About Us',
-        '009-plastic-sequestration': 'Plastic Sequestration',
-        '010-brikcoins': 'Brikcoins',
-        '011-brikchain': 'Brikchain',
-        '012-earthwands': 'Earthwands',
-
- 
-
+    
   
         /*  INTERFACE CURTAINS  */
 

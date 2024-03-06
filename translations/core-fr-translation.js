@@ -18,6 +18,14 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 const fr_Translations = {
 
 
+    /*Menu of pages*/
+
+
+    "000a-menu-0-main-item": '<a href="faqs.php">FAQs sur les Écobriques</a><span class="circle" title="Cette page est traduite à 100% en français" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
+    "000a-menu-1-trans-text-1": '🏴 faqs.php a été traduit à 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/faqs-en-translation.js" class="translate-link">traduction ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/faqs.php" class="translate-link">code ⇗</a>',
+    "000b-menu-0-main-item": 'Introduction aux Écobriques<span class="circle" title="Cette page est traduite à 100% en français" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
+    "00b-menu-1-trans-text-1": '🏴 guidedTour.js a été traduit à 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-en-translation.js" class="translate-link">traduction ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">code ⇗</a>',
+    
 
             /*General Texts*/
             '1000-learn-more': 'Apprendre encore plus',
@@ -27,21 +35,10 @@ const fr_Translations = {
             "1004-gea-vision": "Nous envisageons une transition dans nos foyers, nos communautés et nos entreprises, du plastique vers une harmonie toujours plus verte avec les cycles de la Terre.",
   
 
-        /*Menu of pages*/
     
     
-            '001-introduction': '<a style="text-align:center">Introduction</a>',
-            '002-what-are-ecobricks': 'Que sont les écobriques?',
-            '003-how-to': 'Comment faire?',
-            '004-transition': 'Transition Plastique',
-            '005-earth-example': 'L\'exemple Terrestre',
-            '006-our-principles': 'Nos principes Terrestres',
-            '007-construction': 'Construction d\'écobriques',
-            '008-about-us': 'À propos de nous',
-            '009-plastic-sequestration': 'Séquestration du plastique',
-            '010-brikcoins': 'Brikcoins',
-            '011-brikchain': 'Brikchain',
-            '012-earthwands': 'L\'Earthwand',
+    
+
     
     /*  INTERFACE CURTAINS  */
     

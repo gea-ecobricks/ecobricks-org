@@ -257,7 +257,52 @@ const id_Page_Translations = {
   "247-faq_trainings_question": "Bagaimana saya bisa menjadi pelatih ecobrick bersertifikat GEA?",
   "248-faq_trainings_answer": "Kami senang menambahkan gairah planet Anda ke jaringan kami. Tidak ada prasyarat— selain pengalaman membuat ecobrick Anda sendiri! Untuk merasakan apa yang terlibat, Anda dapat bergabung dengan salah satu lokakarya pemula GEA! Kami memilikinya sepanjang waktu, online dan offline di seluruh dunia. Begitu Anda siap, Anda dapat mendaftar untuk salah satu lokakarya Pelatih Pelatih GEA kami yang lima sesi. Sementara ToTs kami terjadi online setiap dua bulan, kami juga melakukannya di tempat berdasarkan komisi: untuk kota, pemerintah, dan perusahaan yang ingin mengerahkan gerakan ecobricking lokal. Kami juga memiliki lokakarya pemula dan pelatih Bangunan & Bumi juga!",
   "249-faq_trainings_learn_more": "Pelajari lebih lanjut: <a href=\"/trainings\">Program Pelatih GEA</a>",
-  "251-faq_trainings_back_link": "Kembali ke <a href=\"#movement-q\">Pertanyaan tentang Gerakan</a>"
+  "251-faq_trainings_back_link": "Kembali ke <a href=\"#movement-q\">Pertanyaan tentang Gerakan</a>",
+
+  "252-faq_catalyst_question": "Bagaimana perusahaan saya bisa membantu gerakan ecobrick dan transisi plastik?",
+  "253-faq_catalyst_answer": "Dengan memimpin melalui contoh. Perusahaan di seluruh dunia telah menugaskan Pelatih GEA untuk menunjukkan kepada staf mereka cara mengelola, melacak, dan membuat ecobrick dari plastik mereka. Setelah beberapa waktu, mereka melatih staf mereka yang paling antusias untuk menjadi pelatih juga! Beberapa perusahaan mengadakan lokakarya ecobrick di tempat mereka, yang lain mengirim pelatih mereka ke komunitas. Bagaimanapun mereka melakukannya, mereka memastikan bahwa mereka memberikan contoh dalam mengurangi, mengekang, dan beralih dari plastik. Untuk membantu perusahaan hijau yang antusias, GEA memiliki beberapa alat yang ampuh!",
+  "254-faq_catalyst_learn_more": "Pelajari lebih lanjut: <a href=\"catalyst.php\">Perusahaan Katalis</a>",
+  "256-faq_catalyst_back_link": "Kembali ke <a href=\"#movement-q\">Pertanyaan tentang Gerakan</a>",
+  "257-faq_catalyst_image": "<img src=\"../webp/catalyst-logo.webp\" alt=\"perusahaan menjadi hijau\" loading=\"lazy\">",
+  "258-gobrik_questions_title": "Pertanyaan tentang GoBrik",
+  "259-faq_gobrik_question": "Apa itu aplikasi GoBrik untuk ecobricking?",
+  "260-faq_gobrik_answer": "Platform GoBrik melayani pembuat ecobrick di seluruh dunia, memungkinkan mereka untuk mencatat, mengelola, memvalidasi, mengautentikasi, dan bertukar ecobrick mereka. Ecobrick yang dicatat di GoBrik diberikan nomor seri dan data unik mereka (berat, warna, volume, kepadatan, pembuat, dll) disimpan dan dikelola dalam database. Setelah dicatat, ecobrick secara otomatis diserahkan ke antrian validasi di mana mereka ditinjau oleh komunitas pembuat ecobrick. Ecobrick yang berhasil diautentikasi (para reviewer setuju pada data yang terlihat) kemudian memenuhi syarat untuk ditukarkan dan diperdagangkan di platform.",
+  "261-faq_gobrik_learn_more": "Pelajari lebih lanjut: <a href=\"/gobrik\">Platform GoBrik</a><br>Mulai: <a href=\"gobrik\">GoBrik.com</a>",
+  "264-faq_gobrik_back_link": "Kembali ke <a href=\"#gobrik-q\">Pertanyaan tentang GoBrik</a>",
+  "265-faq_gobrik_image": "<img src=\"../webp/eb-sky-400px.webp\" alt=\"Pembuatan ecobrick\" loading=\"lazy\">",
+  "265-faq_brikcoins_question": "Apa itu Brikcoin?",
+  "266-faq_brikcoins_answer": "Brikcoin (<strong><span class=\"\">ß</span></strong>) adalah media pertukaran baru yang didasarkan pada kolaborasi komunitas dan planet yang sehat. Brikcoin berdasarkan plastik yang di-ecobrick dan dikurung. Brikcoin diperoleh dengan membantu mengautentikasi ecobrick di GoBrik dan membuktikan pengurungan plastik. Setiap Brikcoin didukung oleh 100g plastik yang dikemas dan diamankan. Siapa pun dengan akun dapat mulai mendapatkan Brikcoin yang kemudian dapat digunakan untuk membayar kursus GEA, bertukar dengan pengguna GoBrik, dan lainnya.",
+  "267-faq_brikcoins_learn_more": "Pelajari lebih lanjut: <a href=\"brikcoins.php\">Blockchain Manual Brikcoin</a><br>Mulai: <a href=\"gobrik\">GoBrik.com</a>",
+  "270-faq_brikcoins_back": "Kembali ke <a href=\"#gobrik-q\">Pertanyaan tentang GoBrik</a>",
+  "271-faq_brikcoins_image": "<img src=\"../webp/brk-cascade.webp\" style=\"width: 40% !important;\" alt=\"berbagai ecobrick berjatuhan\" loading=\"lazy\">",
+
+  "282-cigbrick_question": "Bagaimana dengan filter rokok— dapatkah mereka dijadikan ecobrick?",
+  "283-cigbrick_answer": "YA! Filter rokok terbuat dari plastik, dan meskipun kecil, merupakan salah satu sumber polusi plastik terbesar. Kami telah menemukan teknik khusus dan ecobricking hanya untuk puntung rokok. Setelah Anda selesai merokok, cukup kupas kertasnya dan buang abunya (ini dapat dibuang dengan aman). Kemudian, tempatkan filternya ke dalam ecobrick Anda. Jika Anda benar-benar tertarik, Anda dapat membuat ecobrick yang sepenuhnya terbuat dari filter rokok. Kami menyebut ini sebagai \"cigbrick\"!",
+  "284-cigbrick_learn_more": "Pelajari lebih lanjut: <a href=\"/cigbrick\">Cigbricks</a>",
+  "286-cigbrick_back_link": "Kembali ke <a href=\"#misc\">Pertanyaan Lainnya</a>",
+  "287-cigbrick_image": "<img src=\"../svgs/Cigbrick.svg\" alt=\"Cigbricks ecobrick\" loading=\"lazy\">",
+  "288-media_question": "Saya dari media. Bagaimana saya mendapatkan informasi akurat tentang ecobricks untuk menulis cerita atau laporan?",
+  "289-media_answer": "Nah... itu yang situs ini untuk! Bahkan lebih baik, kami memiliki halaman untuk itu. Kit pers kami dirancang untuk membantu jurnalis menghindari kesalahpahaman yang paling umum tentang ecobricking.",
+  "290-media_learn_more": "Pelajari lebih lanjut: <a href=\"media.php\">Kit Pers GEA</a>",
+  "292-media_back_link": "Kembali ke <a href=\"#misc\">Pertanyaan Lainnya</a>",
+  "293-eco_bricks_question": "Bagaimana Anda mengejanya: eco-brick, eco brick, atau ecobrick?",
+  "294-eco_bricks_answer": "Di awal hari memasukkan plastik ke dalam botol kami menyebutnya plastik botol bata! Kemudian ketika kami menyadari itu bermanfaat bagi ekosistem di sekitar kami, nama berubah menjadi eco bricks. Kemudian kami menjadi lebih percaya diri dan menambahkan tanda hubung: eco-bricks! Namun, begitu ecobricks menjadi fenomena global yang jelas dan jelas lebih praktis dan bermanfaat secara ekologis daripada setara industri— pemimpin gerakan global berkumpul dan menetapkan bahwa kata yang sepenuhnya dibentuk adalah tepat: ecobricks! Global Ecobrick Alliance dan entri Wikipedia resmi menggunakan 'ecobrick' (tanpa spasi, tanpa tanda hubung, tanpa kapitalisasi aneh) sebagai istilah resmi.",
+  "295-eco_bricks_learn_more": "Pelajari lebih lanjut: <a href=\"about.php\">Sejarah GEA</a>",
+  "297-eco_bricks_back_link": "Kembali ke <a href=\"#misc\">Pertanyaan Lainnya</a>",
+  "298-arcio_question": "Apa itu lingkaran hijau di bagian bawah halaman web Anda? Apa yang dilakukan Arc.io?",
+  "299-arcio_answer": "Lingkaran hijau menunjukkan bahwa layanan Green Arc.io kami sedang beroperasi. Sistem jaringan pengiriman konten ini memungkinkan situs web menjadi lebih cepat dan lebih hijau dengan memungkinkan pengunjung umum dari sebuah situs web yang berlokasi dekat satu sama lain. Widget Arc + Ecobricks.org memungkinkan pengunjung lain dari situs yang secara geografis lokal untuk Anda untuk berbagi akses ke data yang sama. Alih-alih terhubung ke konten di server di sisi lain planet ini, konten dapat dilayani oleh komputer terdekat Anda. Ini menghemat waktu dan energi dan merupakan layanan berharga yang dibayar oleh situs web. Dengan mengarahkan pembayaran layanan klien CDN melalui blockchain manual Ecobricks.org, dolar, kilobyte, dan kilogram plastik dapat langsung dikorelasikan. Kunjungan Anda ke situs arc menghasilkan pembelian kredit offset plastik AES dan penilaian penghapusan plastik dari biosfer oleh ecobricker di seluruh dunia.",
+  "300-arcio_learn_more": "Pelajari lebih lanjut: <a href=\"arc.php\">Arc CDN</a>",
+  "302-arcio_back_link": "Kembali ke <a href=\"#misc\">Pertanyaan Lainnya</a>",
+  "303-arcio_image": "<img src=\"../webp/arc-green-popper.webp\" alt=\"layanan cdn hijau\" loading=\"lazy\" style=\"width: 50% !important;\">",
+
+  "304-faq_more_info_heading": "Perlu tahu lebih banyak?",
+  "305-faq_more_info_subheading": "Dalam jawaban, di atas klik melalui ke halaman yang sesuai di situs kami. Anda dapat masuk lebih dalam dengan bahan sumber dan pelatihan kami:",
+  "306-faq_ecobricks_whitepaper": "<b>Ecobricks & Brikcoin Whitepaper</b> <a href=\"https://files.ecobricks.org/s/pC52memM4S2a6LX\" target=\"_blank\">Komodifikasi Plastik yang Disekuester</a>",
+  "308-faq_journalists_info": "<b>Jurnalis:</b> Pastikan untuk melihat <a href=\"media.php\">kit media kami!</a>",
+  "310-faq_learn_from_trainer": "<b>Belajar dari pelatih</b> Lihat daftar kursus <a href=\"https://gobrik.com/courses\">Ecobrick Starter Workshop</a> saat ini oleh Pelatih GEA Bersertifikat.",
+  "312-faq_training_others": "<b>Melatih orang lain untuk membuat ecobricks?</b> Pastikan untuk melihat <a href=\"/trainings\">program pelatih pelatih</a>"
+
+
 
 
 
