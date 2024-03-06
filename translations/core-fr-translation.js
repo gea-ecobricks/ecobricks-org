@@ -71,9 +71,9 @@ const fr_Translations = {
     "027-menu-3-sub-item-3": '<a href="transition.php">Transition Plastique</a><span class="circle" title="Cette page a été traduite à 50%" style="color:yellow;  ">●</span>',
     "028-menu-3-trans-text-3": "🏴 transition.php a été traduit à 50% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/transition-fr-translation.js\" class=\"translate-link\">traduction ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/transition.php\" class=\"translate-link\">code ⇗</a>",
 
-    "029-menu-4-main-item": "Terre & Régénération",
-    "030-menu-4-sub-item-1": '<a href="principles.php">Nos principes</a><span class="circle" title="Cette page a été traduite à 100% en anglais" style="color:green;  ">●</span>',
-    "031-menu-4-trans-text-1": "🏴 principles.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/principles.php\" class=\"translate-link\">code ⇗</a>",
+    "029-menu-4-main-item": "Nos Principes",
+    "030-menu-4-sub-item-1": '<a href="principles.php">Principes Terrestre et Regeneratives</a><span class="circle" title="Cette page a été traduite à 20%" style="color:yellow;  ">●</span>',
+    "031-menu-4-trans-text-1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 principles.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/principles.php\" class=\"translate-link\">code ⇗</a>",
 
 
 
