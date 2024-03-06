@@ -143,7 +143,36 @@ const id_Page_Translations = {
   "133-beyond-zero-waste-image": "<img src=\"../webp/dial-example.webp\" alt=\"Ecobricks melampaui nol limbah\">",
   "134-back-general-sequestration": "Kembali ke <a href=\"#general\">Pertanyaan Umum</a>",
 
+  "135-keen-header": "Saya ingin mulai membuat ecobrick! Apa cara terbaik untuk memulai?",
+  "136-keen-content": "Mulailah dengan menulis tanggal hari ini. Kemudian, simpan plastik Anda untuk bulan depan! Setiap potongan plastik yang masuk ke rumah Anda, pastikan tidak keluar—tapi sebaliknya dibersihkan, dikeringkan dan ditempatkan dalam wadah khusus. Setelah 30 hari, timbang semua plastik yang telah dikonsumsi rumah tangga Anda, pindahkan ke wadah lain dan... mulai membuat ecobrick (lihat cara membuat ecobrick). Jika Anda tidak menyelesaikan semua plastik dalam satu waktu duduk itu tidak apa-apa. Terus masukkan plastik yang Anda konsumsi ke dalam wadah #1 dan setiap bulan pindahkan plastik yang bisa dijadikan ecobrick ke dalam wadah #2. Dengan cara ini Anda tidak hanya membuat ecobrick secara efisien, Anda juga melacak konsumsi, pengurangan plastik dan transisi plastik Anda. Setahun dari sekarang, catat konsumsi plastik Anda selama sebulan. Catat perbedaannya!",
+  "137-learn-more-keen": "Pelajari lebih lanjut: <a href=\"how.php\">Cara Membuat Ecobrick</a>",
+  "138-back-general-keen": "Kembali ke <a href=\"#general\">Pertanyaan Umum</a>",
+  "139-start-ecobricking-image": "<img src=\"../webp/weigh-plastic.webp\" style=\"width: 50% !important;\" alt=\"Ecobricks sebagai alternatif untuk daur ulang. Mulai dengan pelacakan plastik.\">",
+  "140-ecobrick-concerns-header": "Kekhawatiran tentang Ecobrick",
+  "141-dangerous-toxic-header": "Bagaimana plastik bisa menjadi berbahaya dan toksik?",
+  "142-dangerous-toxic-content": "Plastik adalah bahan yang sangat berguna dan serbaguna. Namun, di tempat yang salah, plastik dapat menjadi berbahaya—beracun bagi kita, hewan, dan ekosistem. Ketika plastik terlepas ke biosfer, plastik terdegradasi akibat gesekan, panas, dan sinar matahari. Saat terdegradasi, bahan kimia berbahaya dilepaskan. Racun ini tidak cocok dengan sistem ekologi dan mencemari secara kimia. Degradasi plastik juga menghasilkan potongan-potongan plastik yang semakin kecil. Organisme dan hewan yang mengonsumsi 'mikro-plastik' ini menyumbat pencernaan mereka dan membuat mereka sakit. Banyak yang mati. Akhirnya, baik toksin kimia maupun mikro-plastik fisik melewati rantai makanan ke manusia. Di dalam tubuh kita, mereka mengganggu keseimbangan hormonal, menyebabkan masalah pertumbuhan, dan memicu kanker serta masalah kesehatan lainnya.",
+  "143-learn-more-dangerous": "Pelajari lebih lanjut: <a href=\"/poison\">Bahaya Plastik</a>",
+  "144-back-concerns-dangerous": "Kembali ke <a href=\"#concerns\">Kekhawatiran Ecobrick</a>",
+  "145-keep-plastic-safe-image": "<img src=\"../pngs/fire.png\" alt=\"Ecobricks menjaga plastik tetap aman\">",
+
+  "146-final-solution-header": "Bagaimana ecobricks bisa menjadi solusi akhir untuk plastik? Bukankah plastik akan lepas suatu hari nanti tidak peduli apa yang kita lakukan?",
+  "147-final-solution-content1": "\"Solusi akhir\" bukanlah cara Bumi dan ekosistemnya bekerja. Alih-alih garis yang mulai dan berakhir, ekosistem sebaliknya bekerja dalam siklus berputar—menggunakan molekul karbon sebagai bahan bangunan yang digunakan berulang kali dalam perjalanan menuju sekuestrasi. Dengan membuat ecobrick dari plastik kita (yang terutama adalah karbon!), kita mengeluarkannya dari sistem industri linear dan paradigma \"solusi akhir\".",
+  "148-final-solution-content2": "Sebaliknya, ecobricks dirancang sebagai bahan bangunan yang dapat digunakan berulang kali. Sama seperti dalam ekosistem, ecobricks digunakan secara lokal dan tanpa energi tambahan yang dibutuhkan. Dengan cara ini ecobricks kita dapat berputar melalui waktu dan menjadi hadiah untuk generasi mendatang.",
+  "149-final-solution-content3": "Sama seperti Bumi memberi kita karbon yang padat (yaitu bahan bakar fosil), kita dapat memberikan karbon padat kita ke zaman lain. Seperti dinosaurus, kita tidak bisa membayangkan bagaimana karbon zaman kita akan digunakan di masa depan. Namun, kita bisa yakin bahwa itu menjadi hadiah yang lebih baik padat dan terkonsentrasi daripada tersebar dan terdispersi, longgar dan merembes.",
+  "150-learn-more-matter": "Pelajari lebih lanjut: <a href=\"spiral.php\">Desain Spiral</a>",
+  "151-back-concerns-matter": "Kembali ke <a href=\"#concerns\">Kekhawatiran Ecobrick</a>",
+  "152-apply-ayyew-principles-image": "<img src=\"../webp/ayyew.webp\" alt=\"Ecobricks menerapkan prinsip ayyew\">",
+  "153-transition-header": "Apakah ecobricks hanya mendorong orang untuk mengonsumsi lebih banyak plastik?",
+  "154-transition-content": "Ini adalah pertanyaan yang sering kami dapatkan dari orang-orang yang belum membuat ecobrick. Begitu Anda berkomitmen untuk mengambil tanggung jawab penuh atas plastik Anda dan mulai memadatkan setiap potongannya, Anda menjadi sangat selektif tentang plastik yang Anda beli! Mari kita jujur, membuat ecobrick bukanlah hal yang menyenangkan—juga bukan mencuci dan mengeringkan plastik Anda setiap hari untuk mempersiapkannya untuk ecobricking! Dalam survei lintas sektoral 2021 dari pembuat ecobrick, kami menemukan bahwa rata-rata konsumsi plastik bulanan mereka telah menurun menjadi 61% dari rata-rata per kapita mereka. Daripada memberikan alasan untuk terus mengonsumsi plastik, membuat ecobrick membantu meningkatkan kesadaran tentang plastik dan mempercepat transisi dari plastik.",
+  "155-learn-more-transition": "Pelajari lebih lanjut: <a href=\"transition.php\">Transisi Plastik</a>",
+  "156-back-concerns-transition": "Kembali ke <a href=\"#concerns\">Kekhawatiran Ecobrick</a>",
+  "157-sequest1-header": "Saya mendengar bahwa ecobricks dapat merembeskan racun ke lingkungan. Apakah itu benar?",
+  "158-sequest1-content": "Ya! Jika Anda menyetel ecobrick di api, meninggalkannya di bawah sinar matahari, atau merebusnya dalam ember air, pasti akan merembeskan racun. Sama seperti hampir semua yang terbuat dari plastik! Sebenarnya, apa pun yang digunakan dengan cara yang salah bisa berbahaya. Ini adalah inti dari membuat ecobrick: untuk mengamankan plastik dan menjaganya tetap aman. Pembuatan ecobrick didasarkan pada pengetahuan bahwa plastik rentan terhadap degradasi dan pelindihan sejauh area permukaannya terpapar pada elemen. Ketika kita memadatkan plastik dengan rapat ke dalam botol, kita mengurangi area permukaan bersih ribuan kali lipat. Kemudian, ketika kita menggunakan ecobricks dalam aplikasi yang menutupi dan melindungi plastik, bahaya pelindihan hampir nol! Oh... dan jangan lupakan, dengan tidak mendaur ulang plastik kita menghindari semua karbon yang akan dilepaskan secara industri!",
+  "159-learn-more-sequest1": "Pelajari lebih lanjut: <a href=\"sequest.php\">Sekuestrasi Plastik</a>",
+  "160-back-concerns-sequest1": "Kembali ke <a href=\"#concerns\">Kekhawatiran Ecobrick</a>",
+
   
+
 
 
 
