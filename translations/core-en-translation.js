@@ -78,6 +78,40 @@ const en_Translations = {
       "039-menu-4-trans-text-5": "🏴 /ayyew has been translated 100% | migration to new git site pending",
       "040-menu-4-sub-item-6": '<a href="/mandalic">Mandalic Collaboration</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
       "041-menu-4-trans-text-6": "🏴 /mandalic has been translated 100% | migration to new git site pending",
+
+
+      "042-menu-5-main-item": "Global Ecobrick Alliance",
+      "043-menu-5-sub-item-1": '<a href="about.php">About us</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "044-menu-5-trans-text-1": "🏴 about.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/about-en-translation.js\" class=\"translate-link\">translation ⇗</a>",
+      "045-menu-5-sub-item-2": '<a href="/story">Our History</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
+      "046-menu-5-trans-text-2": "🏴 /story has been translated 100% | migration to new git site pending",
+      "047-menu-5-sub-item-3": '<a href="/gobrik">Our GoBrik Project</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
+      "048-menu-5-trans-text-3": "🏴 /gobrik has been translated 100% | migration to new git site pending",
+      "051-menu-5-sub-item-5": '<a href="/trainings">Our Trainings</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
+      "052-menu-5-trans-text-5": "🏴 /trainings has been 100% translated | migration to new git site pending",
+      "057-menu-5-sub-item-8": '<a href="open-books.php">Our Open Books</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "058-menu-5-trans-text-8": "🏴 open-books.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/open-books.php\" class=\"translate-link\">code ⇗</a>",
+      "065-menu-5-sub-item-12": '<a href="regenreports.php">Our Regen Reporting</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "066-menu-5-trans-text-12": "🏴 regenreports.php has been translated 25% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/regenreports.php\" class=\"translate-link\"> code ⇗</a>",
+      "067-menu-5-sub-item-13": '<a href="coefficients.php">Our Plastic Coefficients</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "068-menu-5-trans-text-13": "🏴 is 100% in English | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/coefficients.php\" class=\"translate-link\">code ⇗</a>",
+      "059-menu-5-sub-item-9": '<a href="/movement">The Movement</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
+      "060-menu-5-trans-text-9": "🏴  /movement is 100% in English however is in our non-git system | queued for transition",
+
+      "061-menu-1-main-item": "Platforms & Projects",
+      "062-menu-5-sub-item-4": '<a href="/aes">AES Plastic</a><span class="circle" title=" 🏴 This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
+      "063-menu-5-trans-text-4": "/aes has been translated 25% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/aes-fr-translation.js\" class=\"translate-link\">help edit ⇗</a>",
+      "064-menu-5-sub-item-6": '<a href="brikcoins.php">Brikcoins</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "065-menu-5-trans-text-6": "🏴 brikcoins.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/brikcoins-fr-translation.js\" class=\"translate-link\">help edit ⇗</a>",
+      "066-menu-5-sub-item-7": '<a href="brikchain.php">Brikchain</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "067-menu-5-trans-text-7": "🏴 brikchain.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/brikchain-fr-translation.js\" class=\"translate-link\">help edit ⇗</a>",
+      "068-menu-5-sub-item-7": '<a href="offsetting.php">Offsetting</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "069-menu-5-trans-text-7": "🏴 offsetting.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/offsetting-fr-translation.js\" class=\"translate-link\">help edit ⇗</a>",
+  
+
+      
+
+
   
 
       

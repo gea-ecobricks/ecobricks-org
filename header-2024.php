@@ -253,6 +253,10 @@ window.onload = function() {
     padding: 7px 6px 7px 10px;
     font-size: 1.1em;
 }
+
+.circle {
+    font-size: 16px;
+}
 }
 
 @media screen and (min-width: 700px) {
@@ -275,8 +279,20 @@ window.onload = function() {
     padding: 8px 8px 8px 12px;
     font-size: 1.2em;
 }
+
+.circle {
+    font-size: 20px;
 }
 
+
+}
+
+.circle {
+    cursor: pointer;
+    margin-left: 10px;
+    opacity: 0.8;
+
+}
 
 .accordion-title-single a {
 
@@ -317,13 +333,7 @@ window.onload = function() {
     text-align: left;
 }
 
-/* Circle Icon and Translation Info */
-.circle {
-    cursor: pointer;
-    margin-left: 10px; /* Adjust as necessary */
-    opacity: 0.8;
-    font-size: 20px;
-}
+
 
 
 
