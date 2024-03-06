@@ -521,14 +521,15 @@ window.onload = function() {
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /ocean has been translated 100% | migration to new git site pending</div>
         </div>
         <div class="submenu-item-container">
-            <div class="submenu-item">
-                <a href="/plastic" data-lang-id="006-menu-1-sub-item-4">Plastic’s Long Story</a>
+            <div class="submenu-item" data-lang-id="006-menu-1-sub-item-4">
+                <a href="/plastic" >Plastic’s Long Story</a>
                 <span class="circle" title="This page is 100% translated to English but in our non-git format.  Migration in progress" style="color:yellow;  ">●</span>
             </div>
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-4">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /plastic has been translated 100% | migration to new git site in progress!</div>
         </div>
     </div>
 </div>
+
 <!-- Building -->
 <div class="accordion-item">
   <button class="accordion-title"><b data-lang-id="007-menu-2-main-item">Building</b><span class="toggle-icon">+</span></button>
