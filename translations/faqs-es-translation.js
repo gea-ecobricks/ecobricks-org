@@ -230,7 +230,22 @@ const es_Page_Translations = {
     "223-about-gea-content": "¡Somos una alianza global de ecobrickers! Nos hemos unido para formar la Alianza Global de Ecobrick como una forma de apoyar la infraestructura conceptual y tecnológica del movimiento de transición del plástico. A pesar de la diversidad del movimiento en todo el mundo, el problema del plástico nos conecta a todos. ¡Y también lo hace la consistencia de las botellas PET y el embalaje de plástico! Vemos el plástico como una gran oportunidad para la acción ecológica colectiva. No somos una empresa, una caridad o una ONG, somos lo que llamamos una Empresa de la Tierra. A diferencia de muchas empresas, no tenemos accionistas ni propietarios que se beneficien de los excedentes de ingresos. A diferencia de muchas Caridades y ONGs, generamos nuestros propios ingresos, específicamente proporcionando el valioso servicio social de capacitar a los ecobrickers y el valioso servicio ecológico de autenticar la secuestración de plástico.",
     "224-learn-more-about-gea": "Aprende más: <a href=\"about.php\">Aprende más sobre la GEA</a>",
  
+    "236-faq_mandalas_answer": "¡No! Nadie recibe pago por ecobrickear. El movimiento ecobrick es un movimiento no capitalista impulsado por la colaboración y el espíritu verde. En otras palabras, la motivación para ver nuestra tierra limpia y verde es lo que inspira no solo el ecobrickeo, sino también las sesiones de formación realizadas por nuestros entrenadores, y la operación de la Alianza Global de Ecobricks. Adhiriéndose a principios y metodologías claras, el movimiento se propaga de manera \"mandálica\". Esta difusión social tranquila y sutil pero potente y poderosa es lo que llamamos colaboración mandálica. Esta filosofía ayuda a entender la paradoja de nuestro movimiento descentralizado presidido por una empresa centralizada para la Tierra.",
+    "237-faq_mandalas_learn_more": "Aprende más: <a href=\"/mandalas\">Colaboración Mandálica</a>",
+    "239-faq_mandalas_back_link": "Volver a <a href=\"#movement-q\">Preguntas sobre el Movimiento</a>",
+    "240-faq_mandalas_image": "<img src=\"../webp/mandalic.webp\" alt=\"el despliegue mandálico de los ecobricks\" loading=\"lazy\">",
+    "241-faq_trainer_what_question": "¿Qué es un \"Entrenador Certificado por la GEA\"?",
+    "242-faq_trainer_what_answer": "Son personas comunes apasionadas por el planeta que han completado nuestro intenso programa de formación de entrenadores de la Alianza Global de Ecobricks. Los Entrenadores de la GEA están capacitados en la fabricación de ecobricks, la construcción de módulos y los detalles sobre el plástico y sus peligros. Están certificados por la GEA para liderar Talleres Iniciales de Ecobricks. Nuestros maestros entrenadores han validado su comprensión y compromiso y son parte de nuestra red global. Los entrenadores están disponibles para dirigir talleres iniciales de ecobricks para tu grupo, empresa o comunidad. Califican para solicitar una tarifa estándar de entrenador de la GEA que varía según el país y la moneda. El 20% de su tarifa se devuelve a la GEA.",
+    "243-faq_trainer_what_learn_more": "Aprende más <a href=\"trainings\">Programas de Formación y Red de la GEA</a>",
+    "245-faq_trainer_what_back_link": "Volver a <a href=\"#movement-q\">Preguntas sobre el Movimiento</a>",
+    "246-faq_trainer_what_image": "<img src=\"../webp/gea-logo-400px.webp\" alt=\"Logo de la GEA\" loading=\"lazy\">",
+    "247-faq_trainings_question": "¿Cómo puedo convertirme en un entrenador certificado por la GEA?",
+    "248-faq_trainings_answer": "Nos encantaría añadir tu pasión por el planeta a nuestra red. No hay requisitos previos, ¡aparte de la experiencia haciendo tus propios ecobricks! Para tener una idea de lo que implica, puedes unirte a uno de los talleres iniciales de la GEA. Los tenemos todo el tiempo, en línea y fuera de línea en todo el mundo. Una vez que estés listo, puedes registrarte para uno de nuestros talleres de Formación de Entrenadores de cinco sesiones. Mientras nuestros ToTs ocurren en línea cada dos meses, también los hacemos in situ por encargo: para ciudades, gobiernos y empresas interesadas en desplegar un movimiento local de ecobrickeo. ¡También tenemos talleres iniciales y de formación de construcción y tierra!",
+    "249-faq_trainings_learn_more": "Aprende más: <a href=\"/trainings\">Programas de Entrenadores de la GEA</a>",
+    "251-faq_trainings_back_link": "Volver a <a href=\"#movement-q\">Preguntas sobre el Movimiento</a>",
+
     
+  
   
 
     

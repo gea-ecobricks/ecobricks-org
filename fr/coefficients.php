@@ -8,7 +8,7 @@
 <?php $page='principles';?>
 
 
-<?php require_once ("../includes/coefficients-inc.php");?>
+<?php require_once ("../includes/coefficients-inc2.php");?>
 
 
 <!--SPLASH SECTION-->
