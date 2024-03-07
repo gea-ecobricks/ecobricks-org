@@ -112,6 +112,23 @@ const es_Page_Translations = {
     "115-learn-more-dumping": "Aprender más: <a href=\"/posion\">El plástico puede ser venenoso</a>",
     "116-back-general-dumping": "Volver a <a href=\"#general\">Preguntas Generales</a>",
     "117-prevent-landfill-image": "<img src=\"../pngs/save-the-plastics.png\" alt=\"Los ecoladrillos previenen que el plástico vaya al vertedero.\">",
+
+    "118-burning-header": "¿Por qué no simplemente quemar o enviar mi plástico a incinerar?",
+    "119-burning-content1": "Ya sea que el plástico se queme al lado del camino o en una planta de energía de residuos de alta tecnología, es una tragedia monumental. El carbono que compone nuestro plástico moderno es el resultado de cientos de millones de años de trabajo de la Tierra para eliminar el carbono de la atmósfera. A través de la sustracción gradual de este carbono bajo tierra, el clima de la Tierra se estabilizó y la biosfera se volvió verde. Cuando se quema el plástico, en un instante, millones de años de proceso terrenal se invierten. El carbono del plástico se dispersa y se libera de nuevo en la atmósfera, mientras que a menudo se crean productos químicos venenosos y tóxicos a través de la combustión.",
+    "120-burning-content2": "Peor aún, incinerar plástico también fomenta la creación de más plástico nuevo, la extracción de más carbono antiguo y aún más incineración. Porque parece tan fácil deshacerse del plástico quemándolo, parece que no hay problema en usar plástico en primer lugar. Por eso, es esencial evitar que nuestro plástico entre en este peligroso espiral.",
+    "121-learn-more-burning": "Aprender más: <a href=\"/posion\">El plástico puede ser venenoso</a>",
+    "122-back-general-burning": "Volver a <a href=\"#general\">Preguntas Generales</a>",
+    "123-prevent-incineration-image": "<img src=\"../webp/incineration.webp\" alt=\"Los ecoladrillos previenen la incineración del plástico.\">",
+    "124-recycled-header": "¿Por qué no simplemente reciclar mi plástico?",
+    "125-recycled-content1": "Reciclar plástico es una gran idea, ¡en teoría! Desafortunadamente, cuando el reciclaje se hace <i>con fines de lucro</i> en lugar de <i>por la Tierra</i>, no se logran los efectos verdes que esperamos. De hecho, todo lo contrario. El reciclaje industrial tiende a degradar el plástico a grados cada vez más bajos que tienen cada vez menos posibilidades de ser reciclados. Eventualmente, el valor de utilidad del plástico viejo se agota y ya no se puede obtener más ganancia. Este plástico termina siendo <a href=\"#dump\">vertido</a> o <a href=\"#burning\">quemado</a>, causando los problemas ecológicos mencionados en las respuestas anteriores. También es importante recordar que el reciclaje industrial rara vez es local. El plástico debe ser transportado, fundido, moldeado, reempaquetado y transportado nuevamente, a menudo entre tiendas y fábricas lejanas. Esto requiere combustible, energía y libera aún más carbono en la biosfera.",
+    "126-recycled-content2": "Más significativamente, reciclar plástico lleva a más y más productos hechos de plástico. Precisamente porque el reciclaje parece ser una solución, nos anima a seguir consumiendo cosas hechas de plástico. ¿Y esos nuevos productos hechos con plástico viejo? No solo requieren mucha energía, sino que a menudo necesitan que se mezcle nuevo plástico. En resumen, poner plásticos en el reciclaje industrial fomenta más industria, más plástico y más contaminación.",
+    "127-learn-more-recycled": "Aprender más: <a href=\"/recycled\">Reciclaje Industrial de Plástico</a>",
+    "128-back-general-recycled": "Volver a <a href=\"#general\">Preguntas Generales</a>",
+    "129-recycling-alternative-image": "<img src=\"../svgs/vsrecycling.svg\" alt=\"Los ecoladrillos son una alternativa al reciclaje.\">",
+    "130-sequestration-header": "Entonces, ¿cómo es el ecobricking diferente del reciclaje, vertido o quema?",
+
+    
+  
   
 
 
