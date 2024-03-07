@@ -244,7 +244,22 @@ const es_Page_Translations = {
     "249-faq_trainings_learn_more": "Aprende más: <a href=\"/trainings\">Programas de Entrenadores de la GEA</a>",
     "251-faq_trainings_back_link": "Volver a <a href=\"#movement-q\">Preguntas sobre el Movimiento</a>",
 
-    
+    "252-faq_catalyst_question": "¿Cómo puede mi empresa asistir al movimiento de transición del ecobrick y el plástico?",
+"253-faq_catalyst_answer": "Dando el ejemplo. Empresas de todo el mundo han comisionado a los entrenadores de la GEA para mostrar a su personal cómo manejar, rastrear y hacer ecobricks con su plástico. Luego, después de un tiempo, entrenan a su personal más entusiasta para ser ellos mismos entrenadores. Algunas empresas organizan talleres de ecobricks en sus instalaciones, otras envían a sus entrenadores a la comunidad. De cualquier manera que lo hagan, se aseguran de dar el ejemplo en reducir, secuestrar y hacer la transición del plástico. Para ayudar a las empresas verdes entusiastas, la GEA tiene algunas herramientas poderosas.",
+"254-faq_catalyst_learn_more": "Aprende más: <a href=\"catalyst.php\">Empresas Catalizadoras</a>",
+"256-faq_catalyst_back_link": "Volver a <a href=\"#movement-q\">Preguntas sobre el Movimiento</a>",
+"257-faq_catalyst_image": "<img src=\"../webp/catalyst-logo.webp\" alt=\"empresas para volverse verdes\" loading=\"lazy\">",
+"258-gobrik_questions_title": "Preguntas sobre GoBrik",
+"259-faq_gobrik_question": "¿Qué es esta aplicación GoBrik para hacer ecobricks?",
+"260-faq_gobrik_answer": "La plataforma GoBrik sirve a ecobrickers de todo el mundo, permitiéndoles registrar, gestionar, validar, autenticar e intercambiar sus ecobricks. Los ecobricks que se registran en GoBrik reciben un número de serie y sus datos únicos (peso, color, volumen, densidad, fabricante, etc.) se guardan y gestionan en la base de datos. Una vez registrados, los ecobricks se envían automáticamente a la cola de validación donde son revisados por la comunidad de ecobrickers. Los ecobricks que se autentican con éxito (los revisores concuerdan con los datos visibles) son entonces elegibles para ser intercambiados y comercializados en la plataforma.",
+"261-faq_gobrik_learn_more": "Aprende más: <a href=\"/gobrik\">Plataforma GoBrik</a><br>Lanzamiento: <a href=\"gobrik\">GoBrik.com</a>",
+"264-faq_gobrik_back_link": "Volver a <a href=\"#gobrik-q\">Preguntas sobre GoBrik</a>",
+"265-faq_gobrik_image": "<img src=\"../webp/eb-sky-400px.webp\" alt=\"Un eco brick siendo hecho\" loading=\"lazy\">",
+"265-faq_brikcoins_question": "¿Qué son los Brikcoins?",
+"266-faq_brikcoins_answer": "Los Brikcoins (<strong><span>ß</span></strong>) son un nuevo medio de intercambio basado en la colaboración comunitaria y un planeta saludable. Los Brikcoins se basan en plástico ecobrickeado y secuestrado. Los Brikcoins se ganan ayudando a autenticar ecobricks en GoBrik y demostrar la secuestración del plástico. Cada Brikcoin está respaldado por 100g de plástico compactado y asegurado. Cualquiera con una cuenta puede comenzar a ganar Brikcoins que luego pueden ser usados para pagar cursos de la GEA, intercambiar con usuarios de GoBrik, y más.",
+"267-faq_brikcoins_learn_more": "Aprende más: <a href=\"brikcoins.php\">Blockchain Manual de Brikcoin</a><br>Lanzamiento: <a href=\"gobrik\">GoBrik.com</a>",
+"270-faq_brikcoins_back": "Volver a <a href=\"#gobrik-q\">Preguntas sobre GoBrik</a>",
+"271-faq_brikcoins_image": "<img src=\"../webp/brk-cascade.webp\" style=\"width: 40% !important;\" alt=\"varios eco bricks cascada\" loading=\"lazy\">",
   
   
 

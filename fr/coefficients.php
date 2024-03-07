@@ -4,8 +4,8 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.594';?>
-<?php $page='principles';?>
+<?php $version='1.595';?>
+<?php $page='coefficients';?>
 
 
 <?php require_once ("../includes/coefficients-inc2.php");?>
@@ -265,9 +265,6 @@
 		<?php require_once ("side-modules/eco-accounting-principle.php");?>
 
 		<?php require_once ("side-modules/for-earth.php");?>
-
-		
-		<?php require_once ("side-modules/plastic-carbon.php");?>
 
         <?php require_once ("side-modules/plastic-co2e.php");?>
 

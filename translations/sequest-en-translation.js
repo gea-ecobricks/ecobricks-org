@@ -1,6 +1,6 @@
 /*-----------------------------------
 
-FRENCH SNIPPETS FOR ECOBRICKS.ORG
+EN SNIPPETS FOR ECOBRICKS.ORG
 
 
 -----------------------------------*/
