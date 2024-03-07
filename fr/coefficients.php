@@ -12,15 +12,28 @@
 
 
 <!--SPLASH SECTION-->
-	
+
+
+
 <div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">Coefficients plastiques</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Nos Coefficients plastiques pour la comptabilité écologique</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/gea-perspective-400px.webp" style="width: 85%" alt="Coefficients plastiques pour la comptabilité écologique">
+    </div>	
+</div>
+
+<div id="splash-bar"></div>
+
+	
+<!-- <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading">Coefficients plastiques pour la comptabilité écologique<br></div>
 		<div class="splash-sub">Rapports sur la régénérativité d'entreprise</div>
 	</div>
 	<div class="splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 75%;"></div>	
-</div>
-<div id="splash-bar"></div>
+</div> -->
 
 
 <!-- PAGE CONTENT-->
@@ -246,28 +259,19 @@
 		<div class="side">
 
 		
-			
-		<div id="side-module-desktop-only">
-        <img src="../webp/2020-regen-report.webp" width="90%">
-				<h4>GEA Regen Reports</h4>
-				<h5>We're proud to publish our net-green ecological impact each year.</h5><br>
-				<a class="module-btn" href="regenreports.php">Access Report</a><br><br>
-			</div>
+	
+        <?php require_once ("side-modules/eco-accounting.php");?>
+
+		<?php require_once ("side-modules/eco-accounting-principle.php");?>
+
+		<?php require_once ("side-modules/for-earth.php");?>
+
+		
+		<?php require_once ("side-modules/plastic-carbon.php");?>
+
+        <?php require_once ("side-modules/plastic-co2e.php");?>
 
 
-			<div id="side-module-desktop-mobile">
-				<img src="../webp/for-earth500px.webp" width="80%">
-				<h4>For-Earth Enterprise</h4>
-				<h5>By disclosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
-			</div>
-
-			<div id="side-module-desktop-mobile">
-				<img src="../webp/gea-logo-400px.webp" width="90%">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>Our mission is to accelerate plastic transition.  To do so we preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
-			</div>
 
 		</div>
 
