@@ -3,8 +3,8 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.72';?>
-<?php $page='principles';?>
+<?php $version='1.721';?>
+<?php $page='openbooks';?>
 
 <?php require_once ("../includes/openbooks2-inc.php");?>
 

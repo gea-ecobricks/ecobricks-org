@@ -266,11 +266,11 @@ strong {
 
 				
 				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br><br><br>
-				<p>An overview of the GEA accounting transcation in our <a href="../open-books.php"> Open Books system.</a></p><br>
+				<p>An overview of the GEA accounting transcation in our <a href="open-books.php"> Open Books system.</a></p><br>
 </div>
 		
 <!-- The DB connection creator -->
-<?php include 'ecobricks_env.php';?>
+<?php include '../ecobricks_env.php';?>
 <?php
 
 // Get the contents from the Cash Tran table as an ordered View, using the serial_no from the URL.
