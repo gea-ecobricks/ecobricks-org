@@ -3,7 +3,7 @@
 <!--Image files to preload that are unique to this page-->
 
 <link rel="preload" as="image" href="../webp/principles-banner-1600px.webp?v3">
-<link rel="preload" as="image" href="../svgs/earth-home-animated-v4.svg">
+<link rel="preload" as="image" href="../svgs/earth-home-animated-v4.svg"> 
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
@@ -34,6 +34,14 @@ ul {
 		background-color: #088408;
 
 	}
+
+  .splash-heading {
+    font-size: 2.5em  !important;
+}
+
+  .splash-sub{
+    font-size: 1.45em !important;
+}
 }
 
 
@@ -44,6 +52,13 @@ ul {
 		background-size: contain;
 		background-color: #088408;
     	
+}
+.splash-heading {
+    font-size: 3.4em  !important;
+}
+
+  .splash-sub{
+    font-size: 2em !important;
 }
 }
 
