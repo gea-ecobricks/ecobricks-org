@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='1.91';?>
+<?php $lang='fr';?>
+<?php $version='1.911';?>
 <?php $page='offsets';?>
 <title>Compensation du Plastique</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
