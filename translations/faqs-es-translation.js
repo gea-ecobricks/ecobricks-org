@@ -104,7 +104,15 @@ const es_Page_Translations = {
     "108-principles-header": "¿Qué hace diferentes a los ecoladrillos y sus aplicaciones de otros productos de plástico?",
     "109-principles-content": "Los métodos de hacer ecoladrillos y construir con ellos están guiados por principios regenerativos. Los principios regenerativos son fundamentalmente diferentes de los principios de \"sostenibilidad\". Esto significa que desde la base, hacer ecoladrillos y sus aplicaciones son fundamentalmente diferentes de nuestros antiguos usos del plástico. Las aplicaciones de ecoladrillos son neto cero, localizadas, mandálicas, transculturales, terrestres, circulares y de código abierto. Sí... ¡eso es un montón de palabras y conceptos nuevos! Pero ese es precisamente el punto: hacer ecoladrillos se trata de aplicar un paradigma completamente nuevo a nuestro plástico para que evitemos sostener los mismos problemas y resultados contaminantes que vinieron del antiguo modo de hacer las cosas.",
 
-    
+      "110-learn-more-principles": "Aprender más: <a href=\"principles.php\">Principios Regenerativos de Ecoladrillos</a>",
+    "111-back-general-principles": "Volver a <a href=\"#general\">Preguntas Generales</a>",
+    "112-ecobricks-difference-image": "<img src=\"../webp/balancing-green.webp\" width=\"350\" style=\"width:80%;\" alt=\"Los ecoladrillos son diferentes de otras cosas de plástico de varias maneras.\">",
+    "113-dumping-header": "¿Por qué simplemente no llevar mi plástico al vertedero o tirarlo?",
+    "114-dumping-content": "Cuando el plástico se tira o se lleva al vertedero, su superficie termina completamente expuesta al sol, a la fricción, al fuego y/o al agua. Cuanto más se expone el plástico, más se degrada, liberando CO2, otros gases de efecto invernadero y toxinas. Eventualmente, el plástico se descompone en piezas cada vez más pequeñas llamadas microplásticos. Cada vez más, los científicos se dan cuenta de que estas toxinas y microplásticos se infiltran en los ecosistemas causando problemas para las plantas y los animales. Eventualmente, las moléculas de plástico nos llegan a nosotros y a nuestros hijos donde impactan negativamente en nuestros metabolismos. Por eso, es importante no dejar que nuestro plástico se suelte en la biosfera tirándolo o vertiéndolo.",
+    "115-learn-more-dumping": "Aprender más: <a href=\"/posion\">El plástico puede ser venenoso</a>",
+    "116-back-general-dumping": "Volver a <a href=\"#general\">Preguntas Generales</a>",
+    "117-prevent-landfill-image": "<img src=\"../pngs/save-the-plastics.png\" alt=\"Los ecoladrillos previenen que el plástico vaya al vertedero.\">",
+  
 
 
 

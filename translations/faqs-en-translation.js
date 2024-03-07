@@ -151,6 +151,8 @@ const en_Page_Translations =
     "128-back-general-recycled": "Back to <a href=\"#general\">General Questions</a>",
     "129-recycling-alternative-image": "<img src=\"../svgs/vsrecycling.svg\" alt=\"Eco bricks are an alternative to recycling.\">",
     "130-sequestration-header": "So how is ecobricking different from recycling, dumping or burning?",
+
+    
     "131-sequestration-content": "Ecobricking is a form of <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\" target=\"_blank\">plastic sequestration</a>. That means there's six principled reasons that set ecobricking apart. Rather than being for-profit ecobricking is for-Earth. Rather than letting plastic and carbon loose, ecobricking is all about their compaction and concentration. Rather than cycling plastic only a few times, ecobriking creates indefinitely reusable building blocks. Rather than rely on marketing that lowers ecological awareness, ecobricking is a hands-on learning experience that raises it. Rather than result in more products and factories that harm plants and animals, ecobricking leads to green spaces that give them a home. Rather than un-attentive disposal, ecobricking is all about measuring, tracking and disclosing our plastics. To sum it up... ecobricking is all about following the Earth's example of carbon care to make sure that we're transitioning from plastic to greener ways of living.",
     "132-learn-more-sequestration": "Learn more: <a href=\"sequest.php\">The Principles of Plastic Sequestration</a>",
     "133-beyond-zero-waste-image": "<img src=\"../webp/dial-example.webp\" alt=\"Eco bricks are beyond zero waste\">",
