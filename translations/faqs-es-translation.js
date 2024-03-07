@@ -183,6 +183,42 @@ const es_Page_Translations = {
     "180-hundreds-ecobricks-image": "<img src=\"../pngs/MD-inter-lock-graphic.png\" alt=\"Los ecobricks pueden hacer lego dieleman.\">",
     "181-thousands-ecobricks-header": "¿Qué puedo hacer con miles de ecobricks?",
     "182-thousands-ecobricks-content": "¡Espacios abiertos con ecobricks! Combinando docenas o cientos de módulos milstein y dieleman tienes un lego de ecobrick que puede desplegarse en cualquier momento para crear un espacio social personalizado. Ideal para sentarse, hablar, reunirse y jugar en espacios abiertos, se pueden desplegar para festivales, exposiciones, mercados, ferias, etc. La modularidad permite a los participantes organizar de manera lúdica un espacio que mejor se adapte a las necesidades del momento.",
+
+    "183-learn-more-thousands": "Aprende más: <a href=\"/openspace\">Más sobre Espacios Abiertos de Ecobricks</a>",
+    "184-back-building-questions-thousands": "Volver a <a href=\"#building-q\">Preguntas sobre Construcción</a>",
+    "185-thousands-ecobricks-image": "<img src=\"../webp/openspace.webp\" alt=\"Los ecobricks pueden crear espacios abiertos\">",
+    "186-tens-thousands-header": "¿Qué puedo hacer con decenas de miles de ecobricks?",
+    "187-tens-thousands-content": "¡Un espacio verde! Combinando ecobricks con técnicas tradicionales de construcción con tierra puedes construir parques, áreas de juego, huertos y bosques de alimentos para tu hogar o comunidad. Los ecobricks se colocan horizontalmente en mortero de tierra (es decir, cob, adobe, etc.) para construir bancos, camas de jardín, muros e incluso estructuras. Por supuesto, técnicamente solo necesitas docenas de ecobricks para comenzar a construir con tierra, pero cuando tienes miles, es cuando comienza la verdadera diversión.",
+    "188-learn-more-tens-thousands": "Aprende más: <a href=\"earth.php\">Más sobre la Construcción con Tierra y Ecobricks</a>",
+    "189-back-building-questions-tens-thousands": "Volver a <a href=\"#building-q\">Preguntas sobre Construcción</a>",
+    "190-tens-thousands-image": "<img src=\"../webp/tens-thousands.webp\" alt=\"Usando decenas de miles de ecobricks para crear espacios verdes\">",
+  
+    "191-circular-header": "¿Qué sucede cuando una aplicación de ecobrick llega a su fin?",
+    "192-circular-content": "¡Buena pregunta! Es importante pensar en la próxima vida de las cosas que hacemos: qué les sucederá cuando lleguen a su fin. Proporcionamos pautas para asegurarnos de que todas las aplicaciones de ecobrick, desde módulos hasta construcciones con tierra, tengan incorporada su próxima vida. Al hacer módulos con silicona o bandas de neumático, los ecobricks pueden ser retirados del módulo sin dañarlos. Básicamente, estamos aprovechando las propiedades duraderas del plástico para hacer nuestro diseño circular. Eso significa que el módulo puede ser desmontado, reconstruido, reparado... o los ecobricks pueden ser tomados y utilizados para una construcción con tierra.",
+    "193-learn-more-circular": "Aprende más: <a href=\"spiral.php\">Diseño Espiral de Ecobricks</a>",
+    "194-back-building-questions-circular": "Volver a <a href=\"#building-q\">Preguntas sobre Construcción</a>",
+    "195-circular-image": "<img src=\"../svgs/circular-applications.svg\" width=\"400\" alt=\"El diseño espiral y circular se aplica a un módulo de ecobrick\">",
+    "196-earth-header": "¿Qué es exactamente la construcción con tierra y ecobricks?",
+    "197-earth-content": "Construir con tierra es una tradición humana antigua encontrada en todo el mundo en naciones antiguas y actuales. Al combinarla con ecobricks, cualquiera puede construir construcciones simples no estructurales. En particular, la construcción con tierra y ecobricks es ideal para hacer macetas, bancos y camas de jardín, parques, bosques de alimentos y, en general, espacios verdes que pueden servir a nuestra comunidad y ser un hogar para plantas y otras especies. Usando tierra local para hacer mortero de cob, nuestros ecobricks están cubiertos y protegidos de todas las formas de degradación.",
+    "198-learn-more-earth": "Aprende más: <a href=\"earth.php\">Construcción con Tierra y Ecobricks</a>",
+    "199-back-building-questions-earth": "Volver a <a href=\"#building-q\">Preguntas sobre Construcción</a>",
+    "200-earth-image": "<img src=\"../webp/earth-tree-400px.webp\" alt=\"Un banco circular de ecobricks\">",
+
+    "201-earth-methods-header": "¿Cómo construir con Ecobricks y Tierra?",
+    "202-earth-methods-content": "Construir con tierra y ecobricks es... ¡increíble! Primero comienzas aprendiendo sobre las antiguas tradiciones de tierra en tu área. Luego reúnes a tus ecobricks, amigos y comunidad. Utilizando nada más que materiales locales, te ensucias cavando una fundación, colocándola y construyendo hacia arriba. Capa por capa añades ecobricks, cob, ecobricks, cob. A medida que avanzas, curvas y esculpes tu banco, macetero o muro. Cuando está levantado y seco, eliges la piel exterior adecuada y la aplicas.<br>¡Obviamente, eso es un resumen demasiado corto! Si estás realmente interesado, querrás revisar nuestras instrucciones paso a paso y técnicas sugeridas.",
+    "203-learn-more-earth-methods": "Aprende más: <a href=\"/earth-methods\">Métodos de Tierra y Ecobrick</a>",
+    "204-back-building-questions-earth-methods": "Volver a <a href=\"#building-q\">Preguntas sobre Construcción</a>",
+    "205-earth-methods-image": "<img src=\"../webp/earth-build.webp\" alt=\"Construcción con tierra y ecobrick\">",
+    "206-fire-header": "¿Son los ecobricks un peligro de incendio ya que están hechos con plástico inflamable?",
+    "207-fire-content": "Sí. El plástico, al igual que casi todo lo demás, puede ser inflamable. Ya sea que estés construyendo con madera, bambú o ecobricks, se trata de hacerlo minimizando los peligros de incendio. La seguridad contra incendios de los ecobricks comienza por hacerlos correctamente. Cuando los ecobricks se hacen según los estándares de densidad de la GEA, la inflamabilidad se reduce críticamente. Además, al construir con ecobricks correctamente, su inflamabilidad se reduce aún más. De hecho, la construcción de ecobricks y tierra para espacios verdes al aire libre (nuestra aplicación de ecobrick recomendada) reduce la inflamabilidad a prácticamente nada al encerrar completamente los ecobricks en cob. De hecho, aparte de las pruebas de muros de tierra y ecobrick que han sido deliberadamente incendiados (y no fue fácil), no sabemos de espacios verdes de ecobrick que alguna vez hayan prendido fuego.",
+    "208-learn-more-fire": "Aprende más: <a href=\"/fire\">Ecobricks y la Seguridad contra Incendios</a>",
+    "209-back-building-questions-fire": "Volver a <a href=\"#building-q\">Preguntas sobre Construcción</a>",
+    "210-fire-image": "<img src=\"../webp/fire.webp\" alt=\"Seguridad contra incendios de ecobrick\">",
+
+    
+  
+
+    
    
   
   

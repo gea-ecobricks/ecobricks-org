@@ -16,25 +16,41 @@
 <STYLE>
 
 @media screen and (max-width: 700px) { 
-	.splash-content-block {
+	.splash-content-block { 
 		
 		
 		background: url(../webp/blue-ode-750px.webp) bottom;
 		/*background-color: #8BBAF0;*/
     	background-repeat: no-repeat;
 		background-size: cover;
-		
-
+		height: 93vh !important;
 	}
+
+  .splash-heading {
+    font-size: 2.5em  !important;
 }
 
+  .splash-sub{
+    font-size: 1.45em !important;
+}
+}
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 	
 		
 		background: url(../svgs/BlUE-ode-to-plastic-Sequestration.svg) bottom;
+		min-height: 85vh !important;
+    padding: 0px 7% 0px 7% !important;
 		
+}
+
+.splash-heading {
+    font-size: 3.4em  !important;
+}
+
+  .splash-sub{
+    font-size: 2em !important;
 }
 }
 

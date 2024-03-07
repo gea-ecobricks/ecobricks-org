@@ -113,7 +113,7 @@ const fr_Translations = {
     "065-menu-5-trans-text-6": "🏴 brikcoins.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/brikcoins-fr-translation.js\" class=\"translate-link\">traduction ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/brikcoins.php\" class=\"translate-link\">code ⇗</a>",
     "066-menu-5-sub-item-7": '<a href="brikchain.php">Brikchain</a><span class="circle" title="Cette page a été traduite à 10% en anglais" style="color:yellow;  ">●</span>',
     "067-menu-5-trans-text-7": "🏴 brikchain.php a été traduit à 10% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/brikchain-fr-translation.js\" class=\"translate-link\">traduction ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/brikchain.php\" class=\"translate-link\">code ⇗</a>",
-    "068-menu-5-sub-item-7": '<a href="offsetting.php">Compensation</a><span class="circle" title="Cette page a été traduite à 100%" style="color:green;  ">●</span>',
+    "068-menu-5-sub-item-7": '<a href="offsets.php">Compensation Plastique</a><span class="circle" title="Cette page a été traduite à 100%" style="color:green;  ">●</span>',
     "069-menu-5-trans-text-7": "🏴 offsets.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/offsetting-fr-translation.js\" class=\"translate-link\">traduction ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/offsets.php\" class=\"translate-link\">code ⇗</a>",
 
 

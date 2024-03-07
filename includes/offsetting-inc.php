@@ -27,7 +27,7 @@
 		
 		
 		background: url(../svgs/earthwand-background-mobile.svg) bottom;
-		/*background-color: #8BBAF0;*/
+		/*background-color: #8BBAF0;*/ 
     	background-repeat: no-repeat;
 		background-size: cover;
     height: 93vh !important;
