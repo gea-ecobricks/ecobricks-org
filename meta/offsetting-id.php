@@ -1,20 +1,20 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<meta name="keywords" content="plastic, offsetting, carbon credits, plastic credits, buy, purchase, offsets, offset, aes, authenticated, ecobrick, sequestered, plastic">
+<meta name="keywords" content="Pengoffsetan, plastik, penyeimbangan, kredit karbon, kredit plastik, beli, pembelian, penyeimbangan, mengimbangi, aes, diautentikasi, ecobrick, diasingkan, plastik">
 
-<meta name="description" content="Plastic offsetting is a way to blance off your plastic consumption and production">
+<meta name="description" content="Dengan mengambil tanggung jawab atas plastik pribadi kita, kita dapat memberi energi pada transisi plastik lokal dan global.">
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/en/offsetting.php">
+	<meta property="og:url"           content="https://ecobricks.org/id/offsetting.php">
 	<meta property="og:type"          content="website">
- 	<meta property="og:title"         content="Plastic Offsetting">
-  	<meta property="og:description"   content="By taking responsibility for our personal plastic we can energize local and global plastic transition."/>
+ 	<meta property="og:title"         content="Pengoffsetan Plastik">
+  	<meta property="og:description"   content="Dengan mengambil tanggung jawab atas plastik pribadi kita, kita dapat memberi energi pada transisi plastik lokal dan global."/>
   	<meta property="og:image"         content="https://ecobricks.org/pngs/plastic-offsetting-banner.png"/>
   	<meta property="og:image:width" content="600" >
 	<meta property="og:image:height" content="600" >
   	<meta property="og:image:alt"     content="A balance showing green impacts outweighing grey."/>
-	  <meta property="og:locale" content="en_Uk" >
+	  <meta property="og:locale" content="id_ID" >
 
 	  <meta property="og:type" content="article" >
  <meta property="og:site_name" content="Ecobricks.org" >

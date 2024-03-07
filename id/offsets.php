@@ -6,7 +6,7 @@
 <?php $lang='id';?>
 <?php $version='1.91';?>
 <?php $page='offsets';?>
-<title>Plastic Offsetting</title>
+<title>Pengoffsetan Plastik</title>
 <?php require_once ("../includes/offsetting-inc.php");?>
 <!--TOP PAGE BANNER-->
 
@@ -15,8 +15,8 @@
 
     
     <div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Offsetting</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">By taking responsibility for our personal plastic we can energize local and global plastic transition.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Pengoffsetan Plastik</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Dengan mengambil tanggung jawab atas plastik pribadi kita, kita dapat memberi energi pada transisi plastik lokal dan global.</div>
 	</div>
     <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/eco-accounting-icon-from-ecobricks-org-white.svg" style="width: 86%" alt="Ecological impact accounting to ensure we are green."></div>	
 	
