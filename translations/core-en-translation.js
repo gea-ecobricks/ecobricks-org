@@ -50,8 +50,8 @@ const en_Translations = {
       "013-menu-2-trans-text-3": "earth.php has been translated 75% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-fr-translation.js\" class=\"translate-link\">help edit ⇗</a>",
       "014-menu-2-sub-item-4": '<a href="/earth-methods">Earth Building Methods</a><span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>',
       "015-menu-2-trans-text-4": "🏴 /earth-methods has been translated 100% | migration to new git site pending",
-      "018-menu-2-sub-item-6": '<a href="/open-spaces">Open spaces</a><span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>',
-      "019-menu-2-trans-text-6": "🏴 /open-spaces has been translated 100% | migration to new git site pending",
+      "018-menu-2-sub-item-6": '<a href="/openspace">Open spaces</a><span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>',
+      "019-menu-2-trans-text-6": "🏴 /openspace has been translated 100% | migration to new git site pending",
       "016-menu-2-sub-item-5": '<a href="/fire">Fire Safety</a><span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>',
       "017-menu-2-trans-text-5": "🏴 /fire has been translated 100% | migration to new git site pending",
 
@@ -60,7 +60,8 @@ const en_Translations = {
       "023-menu-3-sub-item-1": '<a href="how.php">Our 10-step guide</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
       "024-menu-3-trans-text-1": "🏴 how.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-en-translation.js\" class=\"translate-link\">translation ⇗  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/how.php\" class=\"translate-link\">code ⇗</a>",
       "025-menu-3-sub-item-2": '<a href="earthwand.php">Earthwands</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
-      "026-menu-3-trans-text-2": "🏴 earthwands.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earthwands-fr-translation.js\" class=\"translate-link\">translation ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/earthwands.php\" class=\"translate-link\">code ⇗</a>",
+      "026-menu-3-trans-text-2": "🏴 earthwand.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earthwand-fr-translation.js\" class=\"translate-link\">translation ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/earthwand.php\" class=\"translate-link\">code ⇗</a>",
+
       "027-menu-3-sub-item-3": '<a href="transition.php">Plastic Transition</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
       "028-menu-3-trans-text-3": "🏴 transition.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/transition.php\" class=\"translate-link\">code ⇗</a>",
 
@@ -76,7 +77,7 @@ const en_Translations = {
       "037-menu-4-trans-text-4": "🏴 spiral.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/spiral.php\" class=\"translate-link\">code ⇗</a>",
       "038-menu-4-sub-item-5": '<a href="/ayyew">Ayyew</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
       "039-menu-4-trans-text-5": "🏴 /ayyew has been translated 100% | migration to new git site pending",
-      "040-menu-4-sub-item-6": '<a href="/mandalic">Mandalic Collaboration</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
+      "040-menu-4-sub-item-6": '<a href="/mandalas">Mandalic Collaboration</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
       "041-menu-4-trans-text-6": "🏴 /mandalic has been translated 100% | migration to new git site pending",
 
 

@@ -20,7 +20,7 @@ ul {
   font-size: 1.2em;
   line-height: 1.4;}
 
-  li {
+  li { 
   margin-bottom: 15px;
 }
 
@@ -38,6 +38,13 @@ ul {
     
 
 	}
+  .splash-heading {
+    font-size: 2.5em  !important;
+}
+
+  .splash-sub{
+    font-size: 1.45em !important;
+}
 }
 
 
@@ -48,7 +55,15 @@ ul {
 		background-color: #088408;
     	
 }
+.splash-heading {
+    font-size: 3.4em  !important;
 }
+
+  .splash-sub{
+    font-size: 2em !important;
+}
+}
+
 
 
 

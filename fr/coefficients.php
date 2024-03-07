@@ -1,12 +1,14 @@
-<!--PAGE LANGUAGE:  FRENCH
-Content Page template: v.1.0.1-->
-  
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/coefficients-inc.php");?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!DOCTYPE html>
+<HTML lang="fr"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='fr';?>
+<?php $version='1.594';?>
+<?php $page='principles';?>
+
+
+<?php require_once ("../includes/coefficients-inc.php");?>
 
 
 <!--SPLASH SECTION-->
@@ -274,16 +276,15 @@ Content Page template: v.1.0.1-->
 
 
 
-
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 
 </div>

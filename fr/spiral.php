@@ -3,8 +3,8 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.58';?>
-<?php $page='principles';?>
+<?php $version='1.59';?>
+<?php $page='spiral';?>
 
 <?php require_once ("../includes/spiral2-inc.php");?>
 

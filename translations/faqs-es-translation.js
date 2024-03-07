@@ -215,6 +215,21 @@ const es_Page_Translations = {
     "209-back-building-questions-fire": "Volver a <a href=\"#building-q\">Preguntas sobre Construcción</a>",
     "210-fire-image": "<img src=\"../webp/fire.webp\" alt=\"Seguridad contra incendios de ecobrick\">",
 
+    "211-circular3-header": "¿Pero no es construir con ecobricks simplemente posponer el problema? ¿Cómo es esta una solución final al plástico?",
+    "212-circular3-content": "Durante cientos de millones de años las moléculas que componen nuestro plástico no fueron problemáticas. De hecho, al haber asegurado carbono bajo tierra, la Tierra verdeó su superficie. En los ecosistemas de la Tierra, las \"soluciones finales\" no son la forma en que funcionan las cosas. Pensar en líneas es la manera en que nuestro sistema petro-capitalista intenta funcionar cuando compramos, usamos y tiramos. Los ecosistemas, en cambio, funcionan en círculos, reciclando moléculas una y otra vez con menos y menos energía. Al ecobrickear nuestro carbono/plástico, estamos saliendo del pensamiento 'final' y volviendo a seguir el ejemplo de la Tierra. Los ecobricks están diseñados tanto para asegurar su carbono/plástico como para ser bloques de construcción locales, ¡justo como en los ecosistemas! De la misma manera que la Tierra nos regaló carbono densamente empacado (es decir, combustibles fósiles), podemos regalar nuestro carbono a otros en el futuro. Como los dinosaurios, no podemos imaginar cómo se utilizará nuestro plástico/carbono en el futuro. Sin embargo, podemos estar seguros de que hace un mejor regalo compactado y concentrado en construcciones útiles en lugar de estar disperso y suelto, lixiviando.",
+    "213-learn-more-circular3": "Aprende más: <a href=\"sequest.php\">Secuestro de Plástico</a>",
+    "214-back-building-questions-circular3": "Volver a <a href=\"#building-q\">Preguntas sobre Construcción</a>",
+    "215-circular3-image": "<img src=\"../webp/spiral-circular-400px.webp\" alt=\"diseño circular de ecobrick\">",
+    "216-about-movement-header": "Sobre el Movimiento",
+    "217-movement-header": "¿Cómo conectarse con el movimiento de ecobrick?",
+    "218-movement-content": "El movimiento global de ecobrick es una red fundamentalmente descentralizada y distribuida de personas, comunidades y empresas apasionadas por el verde en todo el mundo. ¡Y hay toneladas de diversidad! Dependiendo de lo que esté disponible, la gente hace ecobricks de maneras únicas a través de culturas y continentes. Mientras que muchos de estas personas no están en línea en absoluto, muchos lo están y usan las redes sociales para conectar y apoyar a sus comunidades locales de ecobrick. Mantenemos una lista lejos de ser completa de páginas web y páginas de redes sociales en todo el mundo para seguir, hacer amigos y unirse.",
+    "219-learn-more-movement": "Aprende más: <a href=\"/movement\">Movimiento Global de Ecobrick</a>",
+    "220-back-movement-questions": "Volver a <a href=\"#movement-q\">Preguntas del Movimiento</a>",
+    "221-movement-image": "<img src=\"../pngs/community.png\" alt=\"colaboración impulsada por la comunidad\" loading=\"lazy\">",
+    "222-about-gea-header": "¿Quiénes son ustedes?",
+    "223-about-gea-content": "¡Somos una alianza global de ecobrickers! Nos hemos unido para formar la Alianza Global de Ecobrick como una forma de apoyar la infraestructura conceptual y tecnológica del movimiento de transición del plástico. A pesar de la diversidad del movimiento en todo el mundo, el problema del plástico nos conecta a todos. ¡Y también lo hace la consistencia de las botellas PET y el embalaje de plástico! Vemos el plástico como una gran oportunidad para la acción ecológica colectiva. No somos una empresa, una caridad o una ONG, somos lo que llamamos una Empresa de la Tierra. A diferencia de muchas empresas, no tenemos accionistas ni propietarios que se beneficien de los excedentes de ingresos. A diferencia de muchas Caridades y ONGs, generamos nuestros propios ingresos, específicamente proporcionando el valioso servicio social de capacitar a los ecobrickers y el valioso servicio ecológico de autenticar la secuestración de plástico.",
+    "224-learn-more-about-gea": "Aprende más: <a href=\"about.php\">Aprende más sobre la GEA</a>",
+ 
     
   
 
