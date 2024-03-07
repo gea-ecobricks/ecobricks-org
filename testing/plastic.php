@@ -49,7 +49,43 @@
                         
                          <p data-lang-id="007-page-paragraph">However, its just as important to understand that the story of plastic doesn’t begin in a factory.  Instead, plastic finds its origins millions of years ago on an ancient, barren Earth we would barely recognize.  In fact, the carbon molecules of our modern plastic played a key role in making our common home the thriving and diverse biosphere that we know today.</p>
 
-                         <div class="full-image" data-lang-id="008-image" style="width:100%; padding:15px; margin-top:10px;margin-bottom:10px;">
+                         <p data-lang-id="007-page-paragraph">As you will see, we have much to learn from the way that our once barren planet has slow and steady compacted carbon, stored it, and cultivated ever-richer ecological cycles.  From this long-view vantage point, we will see that plastic isn’t the problem.  Rather, it’s our starting point to follow the Earth’s ancient example in our modern lives…</p>
+
+			<div class="et_pb_module et_pb_gallery et_pb_gallery_0  et_pb_bg_layout_light et_pb_slider et_pb_gallery_fullwidth"><div class="et_pb_gallery_items et_post_gallery clearfix" data-per_page="4"><div class="et_pb_gallery_item et_pb_bg_layout_light et_pb_gallery_item_0_0"><div class="et_pb_gallery_image landscape">
+
+                         <p data-lang-id="007-page-paragraph"><h>Once upon a time….</h></p>
+
+                         <p data-lang-id="007-page-paragraph">About 3.2 billion years ago, multicellular organisms figured out how to turn the light of the sun into life-force energy.  Using photosynthesis organisms transformed sunlight by sucking in carbon dioxide and making sugars from the carbon to store energy.  It was a big breakthrough.  Plants grew bigger and spread across the planet.  Slow and steady they began to remove the carbon in the early Earth air.</p>
+
+                         <p data-lang-id="007-page-paragraph">Two hundred million years ago, when the dinosaurs roamed the Earth, plants had gotten really good at transforming carbon.  Immense forests covered the continents, and massive blooms of algae filled low lying seas.  As plants and creatures died they would fall to the ground or to the bottom of the sea.  As time passed, all this carbon-rich organic matter was covered with sediment.</p>
+
+                         <p data-lang-id="007-page-paragraph">With all this carbon out of the air, the Earth’s atmosphere calmed and cooled down.  A combination of pressure and time transformed the buried biomass into densely packed carbon storage deposits.</p>
+
+			<div class="et_pb_module et_pb_gallery et_pb_gallery_1  et_pb_bg_layout_light et_pb_slider et_pb_gallery_fullwidth"><div class="et_pb_gallery_items et_post_gallery clearfix" data-per_page="4"><div class="et_pb_gallery_item et_pb_bg_layout_light et_pb_gallery_item_1_0"><div class="et_pb_gallery_image landscape"><a href="https://cdn.ecobricks.org/wp-content/uploads/2020/09/Source-of-plastic-slide-2-1000px-1.png" title="Source of plastic slide 2 - 1000px">
+
+                         <p data-lang-id="007-page-paragraph">Life-cycles on the planet continued to become richer and more diverse.  Thanks to a combination of plants, climate and geography, one particular primate emerged two million years ago.  It manged to do pretty well for itself!</p>
+
+                         <p data-lang-id="007-page-paragraph">Then, on a cold, dark Ice Age night, these early humans figured out fire.  By lighting some sticks they had ignited the process of recombining wood’s carbon molecules with the air’s oxygen in a reaction that warmed and lit their cave.</p>
+
+                         <p data-lang-id="007-page-paragraph">Despite the pesky smoke, humans got better and better at burning organic stuff.  A few thousand years later, humans discovered the earth’s ancient carbon storage deposits.  By unearthing and burning black rocks (i.e. coal), they could get even more heat and light than by burning wood (but lots more pesky smoke).</p>
+
+                         <p data-lang-id="007-page-paragraph">Humans became better and better at extracting compacted carbon and turning it into energy.  They discovered other types too– like petroleum and natural gas. Humans gave the stuff a name: “fossil fuels”.</p>
+
+                         <p data-lang-id="007-page-paragraph">As modern countries flourished their economies began to rely more on more on the easy energy gained from burning fossil fuels.  Factories could be built and powered and all sorts of new products made.  As more products were consumed, more factories needed to be made.  As more factories needed to be powered, more and more fossil fuels were extracted and refined. Petroleum and capital flowed while economies grew.</p>
+
+			 <p><a href="https://cdn.ecobricks.org/wp-content/uploads/2020/09/Plastic-route-1000px-1.png"><img loading="lazy" class="wp-image-66855 aligncenter size-full" src="https://cdn.ecobricks.org/wp-content/uploads/2020/09/Plastic-route-1000px-1.png" alt width="999" height="439" /></a></p>
+
+                         <p data-lang-id="007-page-paragraph">However, organic compacted carbon deposits were never ideal for being ‘fossil fuels’.  In the process of refining petroleum, there was a left over residue (5-15% depending on the crude being used) that just couldn’t be turned into fuels.  This left over ‘naphtha’ began to accumulate as it had no where to go.</p>
+
+                         <p data-lang-id="007-page-paragraph">It was soon realized, that naphtha could be used for making stuff.  With a little chemistry it could be turn into polymers, and with a little more chemistry, polymers could be turned into all sorts of new materials with an endless variety of properties.  Plastics were born.</p>
+
+			<p data-lang-id="007-page-paragraph">Soon humans were solving all sorts of their problems by making all sorts of amazing things from plastic.  No longer did elephants need to be killed for their ivory to make billiard balls.  No longer did you need expensive silver plates to take a photograph.  No longer did food need to go bad in a few days.  Plastics had arrived.</p>
+
+                         <p data-lang-id="007-page-paragraph"><h>But what About the Smoke?</h></p>
+
+			<p data-lang-id="007-page-paragraph">Ever since the first human bond fire, the burning of compacted carbon had been releasing that pesky smoke–  mainly CO2.   As the easy energy of fossil fuels enabled more and more economy, more and more capital encouraged more and more extraction and industry and carbon decompaction– the reduction in carbon density of the original deposits.</p>
+				
+			<div class="full-image" data-lang-id="008-image" style="width:100%; padding:15px; margin-top:10px;margin-bottom:10px;">
                             <img src="../pngs/plastic-history.png"  alt="The primordial concentration of carbon into sequestered deposits." style="width:100%;">
                         </div>
 
