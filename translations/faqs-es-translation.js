@@ -76,7 +76,36 @@ const es_Page_Translations = {
     "074-learn-more-the-long-story-of-plastic-repeat": "Aprender más: La Larga Historia del Plástico",
     "075-back-to-general-questions-repeat": "Volver a Preguntas Generales",
     "076-faq-image-compacted-carbon": "secuestro de plástico eco ladrillo",
-    "077-faq-image-plastic-origins": "eco ladrillos y los orígenes del plástico"
+    "077-faq-image-plastic-origins": "eco ladrillos y los orígenes del plástico",
+
+    "078-bigger-issues-worry": "¿Pero no hay problemas mayores de los plasticos?",
+    "079-worry-description": "Cambio climático. Acidificación de los océanos. Extinción de especies. ¡Estos son grandes problemas! Y todos tienen algo en común: <i>La forma en que los humanos nos relacionamos con la Tierra.</i> Desde multimillonarios atrevidos hasta la contaminación venenosa... de hecho, la forma en que actualmente nos relacionamos, ¡hace fácil preocuparse! Sin embargo, no hay forma más poderosa de manifestar el cambio que viviéndolo primero nosotros mismos. Como producto de la Tierra y la economía petro-capital, el plástico es la representación definitiva de la antigua manera en que nos hemos relacionado con la Tierra. Cambiando la forma en que vemos el plástico y lo que hacemos con él, podemos cambiar nuestra actitud de preocupación y desesperación a amor y cuidado. Amándolo y cuidando nuestro plástico, podemos comenzar a sanar las raíces de nuestra relación con él y con la Tierra: Las mismas raíces que todos los otros grandes problemas comparten.",
+    "080-learn-more-story-plastic": "<h5>Para saber más: <a href=\"/plastic\">La Larga Historia del Plástico</a></h5>",
+    "081-back-to-general-questions": "Volver a <a href=\"#general\">Preguntas Generales</a>",
+    "082-faq-image-petro-capital": "<img src=\"../webp/petro-capital-age.webp\" alt=\"transición del capital petro\" loading=\"lazy\">",
+
+    "093-why-make-ecobricks": "¿Por qué hacer ecoladrillos?",
+    "094-why-make-ecobricks-description": "El plástico es parte de nuestra era petro-capitalista. No importa tu cultura o continente, ¡vas a consumir algo de plástico! A diferencia de otros métodos de gestión del plástico, los ecoladrillos nos permiten estar 100% seguros de que nuestro plástico no llega a la biosfera ni hace que se produzcan más fábricas. Como hacer ecoladrillos es un trabajo duro, nos motiva a consumir menos. Si has hecho un ecoladrillo, sabrás que tener que empaquetar uno a uno tu consumo, te hace pensar en todo el sistema detrás de nuestro plástico. Y como no lo estamos devolviendo al sistema, podemos estar seguros de que no se producen más carbono y plástico. Finalmente, ya que construir con ecoladrillos es un proceso práctico y de colaboración, nos une con amigos y familiares para crear grandes espacios verdes que sirven a nuestras comunidades. Hasta donde sabemos, no hay nada mejor que se pueda hacer con el plástico que tenemos ahora, y es la forma más rápida de acelerar nuestra transición lejos de él.",
+    "095-learn-more-why-make-ecobricks": "<h5>Aprender más: <a href=\"/why\">¿Por qué hacer Ecoladrillos?</a></h5>",
+    "096-back-to-general-questions": "Volver a <a href=\"#general\">Preguntas Generales</a>",
+    "097-faq-image-question": "<img src=\"../svgs/question.svg\" alt=\"¿Por qué hacer un ecoladrillo?\">",
+  
+    "098-how-to-make-ecobrick": "¿Cómo hacer un Ecoladrillo?",
+    "099-how-to-make-ecobrick-description": "Respira profundo... Primero, guarda y segrega tu plástico, manteniéndolo separado de los orgánicos. Si tus plásticos están sucios, límpialos y sécalos. Para tu primer ecoladrillo, comienza con una botella PET pequeña y clara que sea común en tu comunidad. Asegúrate de tener un palo sólido (dowel, baqueta, rama, <a href=\"/earthwand\">vara terrestre</a> etc.). Comienza insertando un plástico suave y de color en el fondo de la botella. Compacta con otros plásticos del mismo color hasta tener una base de 2-3cm. Corta otros tipos de plásticos e insértalos sueltamente en la botella hasta que esté casi llena. Usa tu palo para compactar los plásticos presionando alrededor de los lados. Llena, compacta, repite y repite. Deja 1-2cm de espacio en la parte superior de la botella. Tapa. Luego, pesa tu ecoladrillo. Asegúrate de que la densidad de tu ecoladrillo sea superior al mínimo recomendado por la GEA de 0.33g/ml (divide el peso por el volumen de la botella para obtener la densidad). Los buenos ecoladrillos están por encima de 0.4g/ml. Registra tu ecoladrillo (mantén una lista, hoja de cálculo o usa nuestra útil aplicación <a href=\"https://gobrik.com\" target=\"_blank\">GoBrik.com</a>). Almacena de forma segura. Luego, cuando tengas suficientes, júntalos en un proyecto... y exhala.",
+    "100-learn-more-dense-answer": "<h5>¿La respuesta es un poco densa? Mejor: <a href=\"how\">Nuestra Guía Exhaustiva de 10 Pasos para Hacer Ecoladrillos</a></h5>",
+    "101-back-to-general-questions": "Volver a <a href=\"#general\">Preguntas Generales</a>",
+    "102-faq-image-how-to-make": "<img src=\"../webp/eb-sky-400px.webp\" alt=\"¿Cómo hacer un ecoladrillo?\" loading=\"lazy\">",
+  
+    "103-what-build-with-ecobricks": "¿Qué puedes construir con ecoladrillos?",
+    "104-what-build-description": "¡Tantas cosas! Los ecoladrillos se pueden conectar con bandas de neumáticos, silicona y cob para construir muebles, jardines, espacios verdes y más. Los ecoladrillos se utilizan de diferentes maneras en todo el mundo. Algunos hogares hacen unos pocos módulos para taburetes, mientras que algunos cafés despliegan cientos para hacer sus espacios de co-trabajo interactivos. La forma definitiva de construir con ecoladrillos, sin embargo, es con tierra. La construcción de ecoladrillos y tierra es ideal para hacer parques, jardines y espacios verdes de todo tipo para tu comunidad. Algunas personas construyen simples bancos circulares y plantan un árbol en el interior, mientras que otros construyen refugios y estructuras. ¡Solo tu imaginación es el límite!",
+    "105-learn-more-general-applications": "<h5>Aprender más: <a href=\"build.php\">Aplicaciones Generales de Ecoladrillos</a></h5>",
+    "106-back-to-general-questions": "Volver a <a href=\"#general\">Preguntas Generales</a>",
+    "107-faq-image-build": "<img src=\"../webp/build-blue-450px.webp\" alt=\"Los ecoladrillos pueden construir todo tipo de cosas\">",
+    "108-principles-header": "¿Qué hace diferentes a los ecoladrillos y sus aplicaciones de otros productos de plástico?",
+    "109-principles-content": "Los métodos de hacer ecoladrillos y construir con ellos están guiados por principios regenerativos. Los principios regenerativos son fundamentalmente diferentes de los principios de \"sostenibilidad\". Esto significa que desde la base, hacer ecoladrillos y sus aplicaciones son fundamentalmente diferentes de nuestros antiguos usos del plástico. Las aplicaciones de ecoladrillos son neto cero, localizadas, mandálicas, transculturales, terrestres, circulares y de código abierto. Sí... ¡eso es un montón de palabras y conceptos nuevos! Pero ese es precisamente el punto: hacer ecoladrillos se trata de aplicar un paradigma completamente nuevo a nuestro plástico para que evitemos sostener los mismos problemas y resultados contaminantes que vinieron del antiguo modo de hacer las cosas.",
+
+    
+
 
 
     

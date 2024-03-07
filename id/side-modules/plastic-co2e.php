@@ -1,11 +1,11 @@
 <div class="side-module-desktop-mobile">
-					<img src="../webp/ecobrick-co2e.webp" width="80%" alt="Plastic has a CO2e Footprint">
-					<h4>Plastic has a CO2e Footprint</h4>
-					<h5>If plastic is allowed to degrade or burn, its carbon breaks down and forms CO2 with the air.  Burning 1 kg of polyethylene (PE) results in approximately 3.14 kg of CO2.</h5><br>
+<img src="../webp/ecobrick-co2e.webp" width="80%" alt="Plastik memiliki Jejak CO2e">
+<h4>Plastik memiliki Jejak CO2e</h4>
+<h5>Jika plastik dibiarkan terurai atau terbakar, karbonnya akan terurai dan membentuk CO2 di udara. Membakar 1 kg polietilen (PE) menghasilkan sekitar 3,14 kg CO2.</h5><br>
 
-					<a class="module-btn" title="The molar mass of carbon (C) is 12.01 g/mol, and the molar mass of carbon dioxide (CO2) is 44.01 g/mol. This means that for every 12.01 g of carbon that reacts, 44.01 g of CO2 is produced.  Burning 1 kg of polyethylene (PE) (85.6% carbon), results in approximately 3.14 kg of CO2 being produced as it bonds with oxygen atoms in the atmosphere.">🔢 Calculations</a>
+<a class="module-btn" title="Massa molar karbon (C) adalah 12,01 g/mol, dan massa molar karbon dioksida (CO2) adalah 44,01 g/mol. Artinya untuk setiap 12,01 g karbon dioksida (CO2) adalah 44,01 g/mol. karbon yang bereaksi, dihasilkan 44,01 g CO2. Pembakaran 1 kg polietilen (PE) (85,6% karbon), menghasilkan sekitar 3,14 kg CO2 karena berikatan dengan atom oksigen di atmosfer.">🔢 Perhitungan</ sebuah>
 
-					<h6 style="font-size:smaller">Hover to learn more.</h6>
+<h6 style="font-size:smaller">Arahkan kursor untuk mempelajari lebih lanjut.</h6>
 
-					
-				</div>
+
+</div>

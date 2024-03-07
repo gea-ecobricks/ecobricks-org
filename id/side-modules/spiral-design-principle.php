@@ -1,9 +1,7 @@
 <div class="side-module-desktop-mobile">
-				<img src="../icons/spiral-design-icon-ecobricks-org.svg" width="80%" loading="lazy" alt="eco brik applications are circular and spiral in design">
-				<h4>Spiral Design</h4>
-				<h5>Ecobrick applications follow the Earthen principle of crafting enriching cycles-- both socially and ecologically.</h5><br>
-				<a class="module-btn" href="circular">Learn More</a>
-				<h6 style="font-size:smaller">↗️ Learn about this Earthen principle</h6>
-			</div>
-
-			
+<img src="../icons/spiral-design-icon-ecobricks-org.svg" width="80%" loading="lazy" alt="aplikasi eco brik berbentuk lingkaran dan spiral">
+<h4>Desain Spiral</h4>
+<h5>Aplikasi Ecobrick mengikuti prinsip Earthen dalam menciptakan siklus pengayaan-- baik secara sosial maupun ekologis.</h5><br>
+<a class="module-btn" href="circular">Pelajari Lebih Lanjut</a>
+<h6 style="font-size:smaller">↗️ Pelajari prinsip Bumi ini</h6>
+</div>

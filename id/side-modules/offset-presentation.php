@@ -1,10 +1,10 @@
 <div class="side-module-desktop-mobile">
-					<img src="../webp/offsetting-presentation-400px.webp" width="80%" alt="Plastic has a CO2e Footprint">
-					<h4>AES Offsetting Presentation</h4>
-					<h5>Download our PDF slide deck that provides a comprehensive overview of offsetting plastic through the GEA.</h5><br>
+<img src="../webp/offsetting-presentation-400px.webp" width="80%" alt="Plastik memiliki Jejak CO2e">
+<h4>Presentasi Offsetting AES</h4>
+<h5>Unduh kumpulan slide PDF kami yang memberikan ikhtisar komprehensif tentang penggantian kerugian plastik melalui GEA.</h5><br>
 
-					<a class="module-btn" target="_blank" href="https://nextcloud.ecobricks.org/index.php/s/XFc7KM3tSyWqzZ9">📄 AES Presentation</a>
-					<h6 style="font-size:smaller">3.8 MB PDF download</h6>
+<a class="module-btn" target="_blank" href="https://nextcloud.ecobricks.org/index.php/s/XFc7KM3tSyWqzZ9">📄 Presentasi AES</a>
+<h6 style="font-size:smaller">Unduhan PDF 3,8 MB</h6>
 
-					
-				</div>
+
+</div>
