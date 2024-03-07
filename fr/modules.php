@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='2.36';?>
+<?php $version='2.37';?>
 <?php $page='modules';?>
 
 <?php require_once ("../includes/modules2-inc.php");?>

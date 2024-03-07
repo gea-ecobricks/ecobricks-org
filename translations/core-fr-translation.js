@@ -57,8 +57,8 @@ const fr_Translations = {
 
     "014-menu-2-sub-item-4": '<a href="/earth-methods">Méthodes de Construction Terrestre</a><span class="circle" title="Cette page a été traduite à 0% et est dans notre format non-git.   En attente de migration." style="color:red">●</span>',
     "015-menu-2-trans-text-4": "🏴 /earth-methods a été traduit à 0% | migration vers le nouveau site git en attente",
-    "018-menu-2-sub-item-6": '<a href="/open-spaces">Espaces Ouverts</a><span class="circle" title="Cette page a été traduite à 100% en anglais mais dans notre format non-git.   En attente de migration." style="color:red">●</span>',
-    "019-menu-2-trans-text-6": "🏴 /open-spaces a été traduit à 0% | migration vers le nouveau site git en attente",
+    "018-menu-2-sub-item-6": '<a href="/openspace">Espaces Ouverts</a><span class="circle" title="Cette page a été traduite à 100% en anglais mais dans notre format non-git.   En attente de migration." style="color:red">●</span>',
+    "019-menu-2-trans-text-6": "🏴 /openspace a été traduit à 0% | migration vers le nouveau site git en attente",
     "016-menu-2-sub-item-5": '<a href="/fire">Sécurité Incendie</a><span class="circle" title="Cette page a été traduite à 0% en anglais et est dans notre format non-git.   En attente de migration." style="color:red">●</span>',
     "017-menu-2-trans-text-5": "🏴 /fire a été traduit à 0% | migration vers le nouveau site git en attente",
 
@@ -66,7 +66,8 @@ const fr_Translations = {
     "022-menu-3-main-item": "Fabrication d'écobriques",
     "023-menu-3-sub-item-1": '<a href="how.php">Notre guide en 10 étapes</a><span class="circle" title="Cette page a été traduite à 100%" style="color:green;  ">●</span>',
     "024-menu-3-trans-text-1": "🇫🇷 how.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-fr-translation.js\">traduction ⇗  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/how.php\" class=\"translate-link\">code ⇗</a>",
-    "025-menu-3-sub-item-2": '<a href="earthwands.php">Earthwands (Bâtons de Terre)</a><span class="circle" title="Cette page a été traduite à 100%" style="color:green;  ">●</span>',
+
+    "025-menu-3-sub-item-2": '<a href="earthwand.php">Earthwands (Bâtons d\'écobriquage)</a><span class="circle" title="Cette page a été traduite à 100%" style="color:green;  ">●</span>',
     "026-menu-3-trans-text-2": "🏴 earthwand.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earthwand-fr-translation.js\" class=\"translate-link\">traduction ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/earthwand.php\" class=\"translate-link\">code ⇗</a>",
     "027-menu-3-sub-item-3": '<a href="transition.php">Transition Plastique</a><span class="circle" title="Cette page a été traduite à 50%" style="color:yellow;  ">●</span>',
     "028-menu-3-trans-text-3": "🏴 transition.php a été traduit à 50% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/transition-fr-translation.js\" class=\"translate-link\">traduction ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/transition.php\" class=\"translate-link\">code ⇗</a>",
@@ -144,7 +145,7 @@ const fr_Translations = {
             /*Search Curtain*/
     
             '100-search-title': 'Recherche',
-            '101-search-intro': 'Sélectionnez les langues et les index que vous souhaitez rechercher. Pour rechercher des écobricks, utilisez notre <a href="brikchain.php">recherche brikchain</a>.',
+            '101-search-intro': 'Sélectionnez les langues et les index que vous souhaitez rechercher. Pour rechercher des écobriques, utilisez notre <a href="brikchain.php">recherche brikchain</a>.',
             '102-search-index1': 'Pages : ',
             '103-search-index3': 'Dictionnaires :',
             '104-search-bottom-text': 'Les définitions du dictionnaire sont affichées en dernier',
@@ -168,21 +169,21 @@ const fr_Translations = {
             /* Guided Tour Curtain */
     
             '200-tour-1-header-welcome': 'Bienvenue sur Ecobricks.org !',
-            '201-tour-1-description': 'Alors, qu\'est-ce qu\'un écobrick exactement ? Découvrez notre introduction en cinq diapositives de 45 secondes sur les écobricks. Nous couvrirons les bases : ce que sont les écobricks, comment en fabriquer un, l\'exemple terrestre que nous suivons et ce que vous pouvez réaliser avec les écobricks une fois prêts.',
+            '201-tour-1-description': 'Alors, qu\'est-ce qu\'un écobrique exactement ? Découvrez notre introduction en cinq diapositives de 45 secondes sur les écobriques. Nous couvrirons les bases : ce que sont les écobriques, comment en fabriquer un, l\'exemple terrestre que nous suivons et ce que vous pouvez réaliser avec les écobriques une fois prêts.',
             '202-tour-start-button': 'Commencer ➔',
             '203-tour-2-header': 'Une solution low-tech',
-            '204-tour-2-description': 'C\'est assez simple. Un écobrick est une bouteille en plastique densément remplie de plastique utilisé pour créer un bloc de construction réutilisable qui permet la <b>séquestration du plastique</b>. Pour en fabriquer un, tout ce dont vous avez besoin est un bâton et une bouteille.',
+            '204-tour-2-description': 'C\'est assez simple. Un écobrique est une bouteille en plastique densément remplie de plastique utilisé pour créer un bloc de construction réutilisable qui permet la <b>séquestration du plastique</b>. Pour en fabriquer un, tout ce dont vous avez besoin est un bâton et une bouteille.',
             '205-tour-back-button': '↩ Retour',
             '206-tour-next-button': 'Suivant ➔',
             '207-tour-2-reference': 'Définition tirée de <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a> | Pour approfondir : <a href="what">ecobricks.org/what</a>',
             '208-tour-3-header': 'La séquestration du plastique ?',
-            '209-tour-3-description': 'Les écobricks suivent l\'exemple de la Terre. Au cours des derniers milliards d\'années, la Terre a progressivement capturé le carbone libre pour le concentrer et le séquestrer sous la terre, permettant ainsi à la vie de prospérer. Nous faisons de même avec notre plastique libre (qui est en fait fabriqué à partir de ce carbone ancien !) en l\'emballant et en le séquestrant dans un écobrick.',
+            '209-tour-3-description': 'Les écobriques suivent l\'exemple de la Terre. Au cours des derniers milliards d\'années, la Terre a progressivement capturé le carbone libre pour le concentrer et le séquestrer sous la terre, permettant ainsi à la vie de prospérer. Nous faisons de même avec notre plastique libre (qui est en fait fabriqué à partir de ce carbone ancien !) en l\'emballant et en le séquestrant dans un écobrique.',
             '210-reference-tour-3-description': 'L\'histoire longue du plastique : <a href="/plastic/">ecobricks.org/plastic</a>',
             '211-tour-4-header': 'Plus qu\'éco',
-            '212-tour-4-description': 'Les écobricks font plus que simplement empêcher le plastique de polluer la biosphère. L\'écobricking empêche également le plastique d\'être traité industriellement - ce qui crée souvent plus de problèmes qu\'il n\'en résout. Le meilleur de tout, les écobricks peuvent être utilisés localement pour construire toutes sortes de belles choses vertes !',
-            '213-tour-4-reference': 'Pourquoi nous faisons des écobricks : <a href="build">ecobricks.org/why</a>',
+            '212-tour-4-description': 'Les écobriques font plus que simplement empêcher le plastique de polluer la biosphère. L\'écobriqueing empêche également le plastique d\'être traité industriellement - ce qui crée souvent plus de problèmes qu\'il n\'en résout. Le meilleur de tout, les écobriques peuvent être utilisés localement pour construire toutes sortes de belles choses vertes !',
+            '213-tour-4-reference': 'Pourquoi nous faisons des écobriques : <a href="build">ecobricks.org/why</a>',
             '214-tour-5-header': 'Construire vert et grandiose',
-            '215-tour-5-description': 'Les écobricks sont utilisés de toutes sortes de manières par la communauté mondiale. Aux Philippines, nous construisons des parcs de jeux en forêt alimentaire avec eux. Au Royaume-Uni, nous construisons des maisons rondes en terre. En Indonésie, nous fabriquons des meubles modulaires pour les maisons et les cafés. Assurez-vous de consulter les sections de construction de notre site pour des idées.',
+            '215-tour-5-description': 'Les écobriques sont utilisés de toutes sortes de manières par la communauté mondiale. Aux Philippines, nous construisons des parcs de jeux en forêt alimentaire avec eux. Au Royaume-Uni, nous construisons des maisons rondes en terre. En Indonésie, nous fabriquons des meubles modulaires pour les maisons et les cafés. Assurez-vous de consulter les sections de construction de notre site pour des idées.',
             '216-tour-5-reference': 'Notre page sur les méthodes de construction : <a href="build">ecobricks.org/build</a>',
             '217-tour-6-header': 'Des questions ?',
             '218-tour-6-description': 'Nous sommes là pour aider ! L\'Alliance Globale des Ecobricks est une entreprise de la Terre qui fait avancer le mouvement de transition plastique en maintenant la philosophie et la technologie du mouvement. Nous ne sommes pas là pour le profit. Nous ne sommes pas non plus sponsorisés par des gouvernements ou des entreprises. Nous le faisons pour les gens et la planète.',
