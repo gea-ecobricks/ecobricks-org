@@ -169,12 +169,12 @@ $(document).ready(function() {
   padding: 8px;
 }
 
-#revenues tr:nth-child(even){background-color: var(--table-background-2);}
+.overflow tr:nth-child(even){background-color: var(--table-background-2);}
 
-#revenues tr:nth-child(odd){background-color: var(--table-background-1);}
+.overflow tr:nth-child(odd){background-color: var(--table-background-1);}
 
 
-#revenues tr:hover {background-color: var(--table-background-hover) ;}
+.overflow tr:hover {background-color: var(--table-background-hover) ;}
 
 #revenues th {
   padding-top: 12px;
@@ -214,6 +214,10 @@ label {
 
 .dataTables_paginate {
   background-color: var(--table-background-heading);
+}
+
+#expenses_previous {
+  color: red !important;
 }
 /* Huh? */
 
