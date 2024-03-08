@@ -409,7 +409,7 @@ window.onload = function() {
         <div class="tour-image tour-slide1"></div>  
         <div class="modal-header" data-lang-id="200-tour-1-header-welcome">Welcome to Ecobricks.org!</div>
         <div class="modal-description" data-lang-id="201-tour-1-description">So what is an ecobrick exactly?  Take our 45 second, five-slide introduction to ecobricks.  We'll cover the basics: what ecobricks are, how you can make one, the Earthen example we're following and what you can make with ecobricks once they're ready.</div>
-        <button class="next" data-lang-id="202-tour-start-button">Start ➔</button>
+        <button class="next-slide" data-lang-id="202-tour-start-button">Start ➔</button>
     </div>
     
     <div id="information-two" style="display:none;" class="information">
@@ -417,7 +417,7 @@ window.onload = function() {
         <div class="modal-header" data-lang-id="203-tour-2-header">A Low Tech Solution</div>
         <div class="modal-description" data-lang-id="204-tour-2-description">It's pretty simple.  An ecobrick is a plastic bottle densely packed with used plastic to create a reusable building block that achieves <b>plastic sequestration</b>.  To make one, all you need is a stick and a bottle.</div>
         <button class="back" data-lang-id="205-tour-back-button">↩ Back</button>
-        <button class="next" data-lang-id="206-tour-next-button">Next ➔</button>
+        <button class="next-slide" data-lang-id="206-tour-next-button">Next ➔</button>
         <div class="reference" data-lang-id="207-tour-2-reference">Definition from <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia/wiki/ecobricks</a>  |  Go deeper: <a href="what.php">ecobricks.org/what</a></div>
     </div>
     
@@ -429,7 +429,7 @@ window.onload = function() {
         <div class="modal-header" data-lang-id="208-tour-3-header">Plastic Sequestration?</div>
         <div class="modal-description" data-lang-id="209-tour-3-description">Ecobricks follow Earth's example.  Over the last few billion years, Earth has steadily captured loose carbon to concentrate and sequester it under the earth so that life could thrive.  We're doing the same with our loose plastic (which in fact is made from that ancient carbon!) by packing and sequestering it into an ecobrick.</div>
         <button class="back" data-lang-id="205-tour-back-button">↩ Back</button>
-        <button class="next" data-lang-id="206-tour-next-button">Next ➔</button>
+        <button class="next-slide" data-lang-id="206-tour-next-button">Next ➔</button>
         <div class="reference" data-lang-id="210-reference-tour-3-description">Plastic's long story: <a href="/plastic/">ecobricks.org/plastic</a></div>
       </div>
     
@@ -439,7 +439,7 @@ window.onload = function() {
         <div class="modal-header" data-lang-id="211-tour-4-header" >More than Eco</div>
         <div class="modal-description" data-lang-id="212-tour-4-description">Ecobricks do more than just prevent plastic from polluting the biosphere.  Ecobricking also keeps plastic from industrially processing-- which often creates even more problems than it solves.  Best of all, ecobricks can put to use locally to build all sorts of great green things!</div>
         <button class="back" data-lang-id="205-tour-back-button">↩ Back</button>
-        <button class="next" data-lang-id="206-tour-next-button">Next ➔</button>
+        <button class="next-slide" data-lang-id="206-tour-next-button">Next ➔</button>
         <div class="reference" data-lang-id="213-tour-4-reference">Why we ecobrick: <a href="build">ecobricks.org/why</a></div>
     </div>
 
@@ -450,7 +450,7 @@ window.onload = function() {
       <div class="modal-header" data-lang-id="214-tour-5-header">Build Green and Great</div>
       <div class="modal-description" data-lang-id="215-tour-5-description">Ecobricks are put to use in all sorts of ways by the global community.  In the Philippines we build food forest play parks with them.  In the UK, we build earthen round houses.  In Indonesia, we make modular furniture for homes and cafes.  Be sure to check out the building sections of our site for ideas.</div>
         <button class="back" data-lang-id="205-tour-back-button">↩ Back</button>
-        <button class="next" data-lang-id="206-tour-next-button">Next ➔</button>
+        <button class="next-slide" data-lang-id="206-tour-next-button">Next ➔</button>
         <div class="reference" data-lang-id="216-tour-5-reference">Our page on building methods: <a href="build">ecobricks.org/build</a></div>
       </div>
     
@@ -461,7 +461,7 @@ window.onload = function() {
         <div class="modal-description" data-lang-id="218-tour-6-description">We're here to help! The Global Ecobrick Alliance is an Earth enterprise that global plastic transition movement by maintaining the philosophical and technological of the movement.  We're not at this for profit. Nor are we sponsored by any governments or corporations.  We're at this for people and planet.</div>
         <button class="back" data-lang-id="205-tour-back-button">↩ Back</button>
         
-        <button class="next" onclick="closeTour();" data-lang-id="219-tour-done-button">✓ Done</button>
+        <button class="next-slide" onclick="closeTour();" data-lang-id="219-tour-done-button">✓ Done</button>
         <div class="reference" data-lang-id="220-tour-6-reference">Learn more about us <a href="/plastic/">ecobricks.org/about</a></div>
   
       </div>

@@ -1080,7 +1080,7 @@ GUIDED TOUR---*
 }
 
 
-.next {
+.next-slide {
   background-color: green;
   border: none;
   color: #fff;
@@ -1092,12 +1092,12 @@ GUIDED TOUR---*
   cursor: pointer;
 }
 
-.next:hover {
+.next-slide:hover {
   background-color: #0f6a02;
 }
 
 @media screen and (max-width: 700px) {
-  .next {
+  .next-slide {
   padding: 10px;
   font-size: 16px;
   margin: 5px 5px;
@@ -1106,7 +1106,7 @@ GUIDED TOUR---*
 }
 
   @media screen and (min-width: 701px) {
-  .next {
+  .next-slide {
   padding: 18px 24px 18px 24px;
   font-size: 18px;
   margin: 8px 4px;

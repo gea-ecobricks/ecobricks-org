@@ -167,10 +167,11 @@ $(document).ready(function() {
 #revenues td, #revenues th {
   border: 1px solid var(--table-background-hover);
   padding: 8px;
-  background-color: var(--table-background-1);
 }
 
 #revenuesn tr:nth-child(even){background-color: var(--table-background-2)}
+#revenuesn tr:nth-child(odd){background-color: var(--table-background-1)}
+
 
 #revenues tr:hover {background-color: var(--table-background-hover) ;}
 
