@@ -9,29 +9,17 @@
 <?php require_once ("../includes/openbooks2-inc.php");?>
 
 
-<div class="splash-content-block">
-	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Nos principes terrestres</div>
-		<div class="splash-sub" data-lang-id="002-splash-subtitle">Nous sommes oriententés vers une harmonie croissante avec les cycles Terrestres.</div>
-	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/earth-home-animated-v4.svg" style="width: 100%;"></div>	
-</div>
-<div id="splash-bar"></div>
-
-
 <!--TOP PAGE BANNER-->
 
-<!-- <div class="splash-content-block">
+<div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Our Open Books</div>
-		<div class="splash-sub">The Global Ecobrick Alliance's Financial Accounting</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Our Open Books</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">The Global Ecobrick Alliance's Financial Accounting</div>
 	</div>
-	<div class="splash-image"><img src="../pngs/openbooks.png" style="width: 80%;">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../pngs/openbooks.png" style="width: 80%;">
 	</div>	
 </div>
-<div id="splash-bar"></div> -->
-
-
+<div id="splash-bar"></div>
 
 
 <!-- PAGE CONTENT-->
@@ -69,7 +57,7 @@
 
 
 
-	<div class="live-data">
+	<div class="live-data" style="margin-top:30px">
 		<?php
 			$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2023;"; $result = $conn->query($sql);
 			if ($result->num_rows > 0) {
@@ -485,6 +473,8 @@
                     </div>
                 </div>
              </div>
+
+			 <br><br>
 
 
 
