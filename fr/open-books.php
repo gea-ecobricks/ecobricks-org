@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.724';?>
+<?php $version='1.725';?>
 <?php $page='openbooks';?>
 
 <?php require_once ("../includes/openbooks2-inc.php");?>
@@ -32,8 +32,8 @@
 	<div class="row">
 		<div class="main">
 
-			<div class="lead-page-paragraph" data-lang-id="004-lead-page-paragraph">
-				<p>As a for-Earth enterprise we account and disclose all of our finances to meet our not-for-profit and net-green mandates.</p>
+			<div class="lead-page-paragraph" >
+				<p data-lang-id="004-lead-page-paragraph">As a for-Earth enterprise we account and disclose all of our finances to meet our not-for-profit and net-green mandates.</p>
 			</div>
 
 			<div class="page-paragraph">
