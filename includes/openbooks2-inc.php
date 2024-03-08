@@ -212,6 +212,9 @@ label {
   color: var(--text-color);
 }
 
+.dataTables_paginate {
+  background-color: var(--table-background-heading);
+}
 /* Huh? */
 
 
