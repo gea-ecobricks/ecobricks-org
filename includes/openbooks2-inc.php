@@ -168,16 +168,16 @@ $(document).ready(function() {
   padding: 8px;
 }
 
-#revenuesn tr:nth-child(even){background-color: #f2f2f2;}
+#revenuesn tr:nth-child(even){background-color: var(--table-background-1)}
 
-#revenues tr:hover {background-color: #ddd;}
+#revenues tr:hover {background-color: var(--table-background-hover) ;}
 
 #revenues th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #2A91DA;
-  color: white;
+  background-color: var(--table-background-heading);
+  color: var(--main-background);
 }
 
 

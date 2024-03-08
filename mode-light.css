@@ -1,6 +1,6 @@
 /*LIGHT STYLE SHEET*/
 
-/* light.css: 👉 dark-on-light */
+/* light.css: 👉 dark-on-light  */
 
 
    :root {
@@ -42,6 +42,18 @@
 
   --gallery:  rgb(222, 223, 236);
   --yellow-alert: #fbe9c8;
+
+  --table-background-1: #f2f2f2;
+
+  --table-background-hover: #ddd;
+
+  --table-background-heading: #2A91DA;
+
+  
+
+
+
+
 
  
 
