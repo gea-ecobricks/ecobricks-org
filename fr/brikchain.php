@@ -22,26 +22,24 @@
 </div>
 <div id="splash-bar"></div>
 
-
 <!-- PAGE CONTENT-->
 
 <?php include '../ecobricks_env.php';?> 
 
 <div id="main-content">
-<!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
 
 			<div class="lead-page-paragraph">
 				
-				<p>Search and explore the full chain of authenticated ecobricks, blocks and transactions that make up the brikcoin manual blockchain.</p>
+				<p data-lang-id="004-lead-page-paragraph">Search and explore the full chain of authenticated ecobricks, blocks and transactions that make up the brikcoin manual blockchain.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>The <a href="brikchain.php">Brikchain is based on the ecological value of plastic <a href="sequest">sequestered</a> out of the biosphere and out of industry.  Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded on the <a href="brikcoins">Brikcoin Manual Blockchain</a>.  With each authentication, the corresponding value of sequestered plastic (<a href="aes">AES plastic</a>) is issued in brikcoins</a>.  Each issuance is made through a block of transactions that are recorded sequentially.  This chain of blocks, transaction and ecobricks is fully searchable here.  
+				<p data-lang-id="005-first-page-paragraph">Our <a href="brikchain.php">Brikchain is based on the ecological value of plastic <a href="sequest.php">sequestered</a> out of the biosphere and out of industry.  Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded on the <a href="brikcoins.php">Brikcoin Manual Blockchain</a>.  With each authentication, the corresponding value of sequestered plastic (<a href="/aes">AES plastic</a>) is issued in brikcoins</a>.  Each issuance is made through a block of transactions that are recorded sequentially.  This chain of blocks, transaction and ecobricks is fully searchable here.  
 				
-				<p>Use the tools below to browse the Brikchain.  You can also view our <a href="open-books.php">Open Books</a> financial accounting.</p>
+				<p data-lang-id="005-second-page-paragraph">Use the tools below to browse the Brikchain.  You can also view our <a href="open-books.php">Open Books</a> financial accounting.  To learn how the combination of our financial and <a href="regen-reports.php">ecological accounting</a> generates the price per Kg of AES sales see our <a href="offsets.php">offsetting page</a>.</p> </p>
 			</div>
 
 

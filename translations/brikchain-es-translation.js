@@ -6,20 +6,19 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 -----------------------------------*/
 
 
-// Ampersand (&): Should be escaped as &amp; because it starts HTML character references.
-// Less-than (<): Should be escaped as &lt; because it starts an HTML tag.
-// Greater-than (>): Should be escaped as &gt; because it ends an HTML tag.
-// Double quote ("): Should be escaped as &quot; when inside attribute values.
-// Single quote/apostrophe ('): Should be escaped as &#39; or &apos; when inside attribute values.
-// Backslash (\): Should be escaped as \\ in JavaScript strings to prevent ending the string prematurely.
-// Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
-
-
+ 
 const es_Page_Translations = {
 
     '001-splash-title': 'Los Brikcoins',
     '002-splash-subtitle': 'Una cadena de bloques de prueba de valor manual basada en el secuestro de plástico de la biosfera.',
     '003-splash-image-alt': '<img src="../webp/brikchain-450px.webp" style="width: 85%" alt="La brikchain: chercher toutes les briks, blocks et transactions">',
+
+    "004-lead-page-paragraph": "Recherchez et explorez la chaîne complète d'écobriques authentifiées, de blocs et de transactions qui constituent la blockchain manuelle de brikcoin.",
+  "005-first-page-paragraph": "Notre <a href=\"brikchain.php\">Brikchain repose sur la valeur écologique du plastique <a href=\"sequest.php\">séquestré</a> hors de la biosphère et de l'industrie. Chaque écobrique authentifiée sur la plateforme <a href=\"/gobrik\">GoBrik</a> est enregistrée de manière permanente sur la <a href=\"brikcoins.php\">Blockchain Manuelle Brikcoin</a>. À chaque authentification, la valeur correspondante du plastique séquestré (<a href=\"/aes\">plastique AES</a>) est émise en brikcoins. Chaque émission est réalisée à travers un bloc de transactions qui sont enregistrées séquentiellement. Cette chaîne de blocs, transaction et écobriques est entièrement recherchable ici.",
+  "005-second-page-paragraph": "Utilisez les outils ci-dessous pour parcourir le Brikchain. Vous pouvez également consulter notre comptabilité financière <a href=\"open-books.php\">Livres Ouverts</a>. Pour apprendre comment la combinaison de notre comptabilité financière et <a href=\"regen-reports.php\">écologique</a> génère le prix par Kg de ventes AES, consultez notre <a href=\"offsets.php\">page de compensation</a>."
+
+
+  
 }
         
       
