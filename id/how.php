@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.52';?>
+<?php $version='1.53';?>
 <?php $page='how';?>
 
 <?php require_once ("../includes/how-inc2.php");?>
@@ -14,10 +14,11 @@
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">How to Make an Ecobrick</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">GEA 10 Step Guide</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Cara Membuat Ecobrick</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Panduan 10 Langkah dari GEA
+Cara membuat ecobrick</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="How to make an eco brick">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/eb-sky-400px.webp" style="width: 85%" alt="Cara Membuat Ecobrick">
     </div>	
 </div>
 <div id="splash-bar"></div>
