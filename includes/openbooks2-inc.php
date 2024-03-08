@@ -154,8 +154,9 @@ $(document).ready(function() {
 
 .live-data {background: var(--yellow-alert);}
 
+/* Huh? */
 
-#revenues, #expenses {
+#revenues {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
@@ -163,19 +164,19 @@ $(document).ready(function() {
   color: var(--text-color);
 }
 
-#revenues, #expenses td, #revenues, #expenses, #brikchain, #ecobricks th {
+#revenues td, #revenues th {
   border: 1px solid var(--table-background-hover);
   padding: 8px;
 }
 
-#revenues, #expenses tr:nth-child(even){background-color: var(--table-background-2);}
+#revenues tr:nth-child(even){background-color: var(--table-background-2);}
 
-#revenues, #expenses tr:nth-child(odd){background-color: var(--table-background-1);}
+#revenues tr:nth-child(odd){background-color: var(--table-background-1);}
 
 
-#revenues, #expenses tr:hover {background-color: var(--table-background-hover) ;}
+#revenues tr:hover {background-color: var(--table-background-hover) ;}
 
-#revenues, #expenses th {
+#revenues th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -187,11 +188,11 @@ label {
   color: var(--h1);
 }
 
-#revenues, #expenses a {
+#revenues a {
   color: var(--text-color);
 }
 
-#revenues, #expenses a:hover {
+#revenues a:hover {
   color: var(--h1);
 }
 
@@ -245,71 +246,6 @@ label {
   background-color: #2A91DA;
   color: white;
 }
-
-
-
-
-#revenues, #expenses {
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  font-weight: 300;
-  color: var(--text-color);
-}
-
-#revenues, #expenses td, #revenues, #expenses, #brikchain, #ecobricks th {
-  border: 1px solid var(--table-background-hover);
-  padding: 8px;
-}
-
-#revenues, #expenses tr:nth-child(even){background-color: var(--table-background-2);}
-
-#revenues, #expenses tr:nth-child(odd){background-color: var(--table-background-1);}
-
-
-#revenues, #expenses tr:hover {background-color: var(--table-background-hover) ;}
-
-#revenues, #expenses th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: var(--table-background-heading);
-  color: var(--main-background);
-}
-
-label {
-  color: var(--h1);
-}
-
-#revenues, #expenses a {
-  color: var(--text-color);
-}
-
-#revenues, #expenses a:hover {
-  color: var(--h1);
-}
-
-
-.dataTables_wrapper .dataTables_filter input {
-  background-color: var(--table-background-1);
-  margin-bottom: 20px;
-  color: var(--text-color);
-}
-
-.dataTables_wrapper .dataTables_length select {
-  background-color: var(--table-background-1);
-  color: var(--text-color);
-}
-
-.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
-  color: var(--text-color);
-}
-
-.dataTables_paginate {
-  background-color: var(--table-background-heading);
-}
-
-
 
 
 .dataTables_wrapper {
