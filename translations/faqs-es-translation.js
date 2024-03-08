@@ -260,6 +260,17 @@ const es_Page_Translations = {
 "267-faq_brikcoins_learn_more": "Aprende más: <a href=\"brikcoins.php\">Blockchain Manual de Brikcoin</a><br>Lanzamiento: <a href=\"gobrik\">GoBrik.com</a>",
 "270-faq_brikcoins_back": "Volver a <a href=\"#gobrik-q\">Preguntas sobre GoBrik</a>",
 "271-faq_brikcoins_image": "<img src=\"../webp/brk-cascade.webp\" style=\"width: 40% !important;\" alt=\"varios eco bricks cascada\" loading=\"lazy\">",
+
+"272-faq_start_question": "¿Cómo unirse a GoBrik?",
+  "273-faq_start_answer": "¡Las cuentas de GoBrik son gratuitas! GoBrik es una aplicación web. Esto significa que puedes registrarte y usarla en tu computadora de escritorio o en tu teléfono. Registrarse es fácil con tu dirección de correo electrónico o tu cuenta de Facebook. Te haremos algunas preguntas sobre tu ecobrickeo, y luego estarás listo para registrar ecobricks, ganar brikcoins e intercambiar ecobricks en nuestro mercado. Visita GoBrik.com para registrarte.",
+  "274-faq_start_learn_more": "Aprende más: <a href=\"/gobrik\">Plataforma GoBrik</a><br>Lanzamiento: <a href=\"gobrik\">GoBrik.com</a>",
+  "277-faq_start_back": "Volver a <a href=\"#gobrik-q\">Preguntas sobre GoBrik</a>",
+  "278-faq_start_image": "<img src=\"../webp/eb-sky-400px.webp\" alt=\"haciendo eco ladrillos\" loading=\"lazy\">",
+  "266-dropoff_question": "¿Cómo puedo entregar mis ecobricks completados a un proyecto comunitario?",
+  "267-dropoff_answer1": "Recuerda que los ecobricks son todo sobre asumir la responsabilidad personal de nuestro plástico y no otra forma de deshacerse de él. Usar tus propios ecobricks en tus proyectos es la esencia del movimiento. Por supuesto, cada vez hay más proyectos de construcción con ecobricks que necesitan contribuciones de ecobricks.",
+
+
+
   
   
 

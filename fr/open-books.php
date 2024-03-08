@@ -13,10 +13,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading"><br>Our Open Books</div>
+		<div class="splash-heading">Our Open Books</div>
 		<div class="splash-sub">The Global Ecobrick Alliance's Financial Accounting</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/pngs/openbooks.png" style="width: 80%;">
+	<div class="splash-image"><img src="../pngs/openbooks.png" style="width: 80%;">
 	</div>	
 </div>
 <div id="splash-bar"></div>
@@ -29,56 +29,61 @@
 
 <?php include '../ecobricks_env.php';?> 
 
-<a name="top"></a>
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
 
+		<?php
+
+$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2023;";
+
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+
+	echo'<div class="live-data">';
+
+// output data of each row
+while($row = $result->fetch_assoc()) {
+	
+	echo '<p><span class="blink">◉  </span>  '.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p>'  ; 
+	}
+	
+} else {
+	echo "0 results";
+}
+?>
+<p style="font-size: 0.85em; margin-top:20px;">This is the current price for the <a href="https://gobrik.com/#offset" target="_blank">sale of AES plastic offsets</a>.</p></div>
+
+
+
+	</div>
+
 			<div class="lead-page-paragraph">
 				
-				<br><p>As a for-Earth enterprise we account and disclose all of our finances to meet out our not-for-profit and net-green mandates.</p>
+				<p>As a for-Earth enterprise we account and disclose all of our finances to meet our not-for-profit and net-green mandates.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="https://earthen.io/imagine">ecological contribution</a> in the management of our finances and ecological impacts to ensure we are of benefit.  It also means, that for full transparency and awareness, our financial and ecological accounting is disclosed for public review and audit.</p>
+				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="principles.php">Earthen ethics</a> in the management of our finances and our ecological impacts to ensure that are of net benefit.  It also means that for full transparency and awareness, our financial and ecological accounting is disclosed for public review and audit.</p>
 
-				<p>Here on this page our OpenBooks system provides the disclosure of our finances.  See our <a href="regen-reports">Regen Reporting</a> for ecological accounting.</p>
+				<p>We call this our Open Books accounting system.</p>
 				
-				<p>Our financial accounting is joined with our blockchain accounting to generate our annual cost per 1Kg of Authenticated Ecobrick Sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.</p>				
+				<p>Here you can review the disclosure of our finances.  See our <a href="regen-reports">Regen Reporting</a> for the disclosure of our ecological accounting.</p>
+				
+				<p>Our financial accounting has two parts: our regular fiat currency accounting and our brikcoin accounting.  The combination of the two generates our annual cost per kilogram of Authenticated Ecobrick Sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins.php">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.  This is price for which 1 kg of AES plastic are purchased as <a href="offsets.php">offsets credits</a> on our Gobrik app.</p>  
+				
+				
 			</div>	
 			
-			<?php
-
-	$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2024;";
-
-	$result = $conn->query($sql);
-
-	if ($result->num_rows > 0) {
 	
-		echo'<div class="live-data">';
-	
-	// output data of each row
-	while($row = $result->fetch_assoc()) {
-		
-		echo '<p><span class="blink">◉  </span>  '.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p>'  ; 
-		}
-		
-	} else {
-		echo "0 results";
-	}
-	?>
-	<p style="font-size: 0.85em; margin-top:20px;">This is the current price for the <a href="https://gobrik.com/#offset" target="_blank">sale of AES plastic offsets</a>.</p></div>
-
-
-
-		</div>
 		
 
 		<div class="side">
 
-			<div class="side-module-desktop-only">
+			<!-- <div class="side-module-desktop-only">
 				<img src="../webp/gea-logo-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Earth Enterprise</h4>
 				<h5>The Global Ecobrick Alliance is a not-for-profit for-Earth enterprise dedicated to accelerating plastic transition.  All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system.</h5><br>
@@ -86,7 +91,12 @@
                 <br><br>
 				
 				<br>
-			</div>   
+			</div>    -->
+			<?php include 'side-modules/eco-accounting-principle.php';?>
+			
+			<?php include 'side-modules/eco-accounting-principle.php';?> 
+
+			<?php include 'side-modules/for-earth-principle.php';?> 
 
 			
          
