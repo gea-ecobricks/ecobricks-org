@@ -188,11 +188,11 @@ label {
   color: var(--h1);
 }
 
-#revenues a {
+#revenues, #expenses a {
   color: var(--text-color);
 }
 
-#revenues a:hover {
+#revenues, #expenses a:hover {
   color: var(--h1);
 }
 
@@ -239,8 +239,7 @@ label {
 #expenses tr:nth-child(even){background-color: var(--table-background-1);}
 #expenses tr:nth-child(odd){background-color: var(--table-background-2);}
 
-
-#expenses tr:hover {var(--table-background-hover)}
+#expensestr:hover {background-color: var(--table-background-hover) ;}
 
 #expenses th {
   padding-top: 12px;
