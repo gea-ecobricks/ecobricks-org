@@ -1,13 +1,13 @@
 
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="id"> 
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.91';?>
+<?php $version='1.93';?>
 <?php $page='offsets';?>
 <title>Pengoffsetan Plastik</title>
-<?php require_once ("../includes/offsetting-inc.php");?>
+<?php require_once ("../includes/offsets-inc.php");?>
 <!--TOP PAGE BANNER-->
 
 
@@ -229,7 +229,7 @@
 
 						</div>
 
-						<div class="side2" data-lang-id="052-block-4-imag-alt"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic">
+						<div class="side2" data-lang-id="052-block-4-imag-alt"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic" loading="lazy">
 						</div>
 
 					</div>

@@ -4,10 +4,10 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.911';?>
+<?php $version='1.92';?>
 <?php $page='offsets';?>
 <title>Compensation du Plastique</title>
-<?php require_once ("../includes/offsetting-inc.php");?>
+<?php require_once ("../includes/offsets-inc.php");?>
 <!--TOP PAGE BANNER-->
 
 
@@ -229,7 +229,7 @@
 
 						</div>
 
-						<div class="side2" data-lang-id="052-block-4-imag-alt"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic">
+						<div class="side2" data-lang-id="052-block-4-imag-alt"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic" loading="lazy">
 						</div>
 
 					</div>
