@@ -841,7 +841,7 @@ window.onload = function() {
 
 
 <div style="margin-top:auto;margin-bottom:20px;text-align:center; font-size:smaller;">
-fully translated - <span class="circle" style="color:green;">●</span> <span class="circle" style="color:yellow;">●</span> <span class="circle" style="color:orange;">●</span> <span class="circle" style="color:red;">●</span> - not translated</div>
+fully translated <span class="circle" style="color:green;">●</span> <span class="circle" style="color:yellow;">●</span> <span class="circle" style="color:orange;">●</span> <span class="circle" style="color:red;">●</span> not translated</div>
 
 </div> <!-- close righ page menu-->
   

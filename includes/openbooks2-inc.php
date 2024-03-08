@@ -164,7 +164,7 @@ $(document).ready(function() {
 }
 
 #revenues td, #revenues th {
-  border: 1px solid #ddd;
+  border: 1px solid var(--table-background-hover);
   padding: 8px;
 }
 
