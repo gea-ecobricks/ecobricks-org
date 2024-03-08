@@ -424,7 +424,7 @@ margin-bottom: 40px;
 	
 	border-radius: 12px;
 	margin-bottom: 20px;
-	margin-top: 10px;
+	margin-top: 60px;
 	padding: 15px 15px 28px 15px;
 	border-width: 1px;
 	text-align: center;
@@ -433,7 +433,7 @@ margin-bottom: 40px;
 	border-color: var(--slide-highlight);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .side-module-desktop-only {   
     display: none;
   }
@@ -461,9 +461,15 @@ margin-bottom: 40px;
 }
 
 @media screen and (min-width: 700px) {
+  .row {   
+    flex-direction: row;
+  }
+
+
   .row2 {   
     flex-direction: column;
   }
+
 }
 
 
