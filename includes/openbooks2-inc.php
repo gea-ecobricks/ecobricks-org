@@ -188,11 +188,19 @@ label {
   color: var(--h1);
 }
 
-#revenues #expenses a {
+#revenues a {
   color: var(--text-color);
 }
 
-#revenues #expenses a:hover {
+#revenues a:hover {
+  color: var(--h1);
+}
+
+#expenses a {
+  color: var(--text-color);
+}
+
+#expenses a:hover {
   color: var(--h1);
 }
 
