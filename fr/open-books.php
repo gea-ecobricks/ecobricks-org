@@ -38,7 +38,7 @@
 
 			<div class="page-paragraph">
 				  
-				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="principles.php">Earthen ethics</a> in the management of our finances and our ecological impacts to ensure that are of net benefit.  It also means that for full transparency and awareness, our financial and ecological accounting is disclosed for public review and audit.</p>
+				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="principles.php">Earthen ethics</a> in the management of our finances and our ecological impacts to ensure that both are of net benefit.  It also means that for everyone's awareness, our financial and ecological accounting are both disclosed publicly.</p>
 
 				<p>We call this our Open Books accounting system.  Here you can review the disclosure of our finances.  See our <a href="regen-reports">Regen Reporting</a> for the disclosure of our ecological accounting.  Learn how the combination of our financial and ecological accounting generate the price per Kg of <a href="offsets">our plastic offsets sales</a>.</p>
 				

@@ -433,7 +433,7 @@ margin-bottom: 40px;
 	border-color: var(--slide-highlight);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .side-module-desktop-only {   
     display: none;
   }
