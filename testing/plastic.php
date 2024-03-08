@@ -84,7 +84,17 @@
                          <p data-lang-id="007-page-paragraph"><h>But what About the Smoke?</h></p>
 
 			<p data-lang-id="007-page-paragraph">Ever since the first human bond fire, the burning of compacted carbon had been releasing that pesky smoke–  mainly CO2.   As the easy energy of fossil fuels enabled more and more economy, more and more capital encouraged more and more extraction and industry and carbon decompaction– the reduction in carbon density of the original deposits.</p>
+
+			<p><a href="https://cdn.ecobricks.org/wp-content/uploads/2020/09/Screenshot_2020-09-22-The-Past-Present-and-Future-of-Climate-Change.png"><img loading="lazy" src="https://cdn.ecobricks.org/wp-content/uploads/2020/09/Screenshot_2020-09-22-The-Past-Present-and-Future-of-Climate-Change.png" alt class="wp-image-75056 aligncenter size-full" width="723" height="846" /></a></p>
 				
+			<p data-lang-id="007-page-paragraph">All the hard work that the earth had been doing for the last few million years, was being undone faster and faster by the humans.  While burning some logs created a little smoke and some CO2, the Earth’s plants and oceans could manage to suck it back down.  However, as the humans began powering their economies with fossil fuels alot more CO2 was being released– more than the earth could manage.</p>
+				
+			<p data-lang-id="007-page-paragraph">And since the capital in the economies was based on this burning, it created a self-perpetuating loop.  The more fuels were burned, the more were extracted, and the more were burned.  With so much carbon out of storage and in the air, it began to disrupt the harmony of the earth’s ecological cycles.</p>
+				
+			<div class="et_pb_module et_pb_text et_pb_text_5  et_pb_text_align_left et_pb_bg_layout_light"><div class="et_pb_text_inner"><h3><a href="https://cdn.ecobricks.org/wp-content/uploads/2020/06/The-Dangers-of-Plastic-1000px.png"><img loading="lazy" class="aligncenter wp-image-64678 size-full" src="https://cdn.ecobricks.org/wp-content/uploads/2020/06/The-Dangers-of-Plastic-1000px.png" alt width="990" height="487" /></a></h3>
+
+			<p data-lang-id="007-page-paragraph">As humans extracted and refined more and more raw fossil fuels, there was always that little bit that couldn’t be processed.  This lead to  more and more cheap and abundant plastic.  And as petro-capital economies grew, so too did the use and application of plastic to cover and package products.</p>
+
 			<div class="full-image" data-lang-id="008-image" style="width:100%; padding:15px; margin-top:10px;margin-bottom:10px;">
                             <img src="../pngs/plastic-history.png"  alt="The primordial concentration of carbon into sequestered deposits." style="width:100%;">
                         </div>
