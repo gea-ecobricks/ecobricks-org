@@ -143,7 +143,6 @@ $(document).ready(function() {
 
 /* Huh? */
 
-
 #brikchain {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -154,18 +153,22 @@ $(document).ready(function() {
 #brikchain td, #brikchain th {
   border: 1px solid #ddd;
   padding: 8px;
+
+
 }
 
-#brikchain tr:nth-child(even){background-color: #f2f2f2;}
+#brikchain tr:nth-child(even){background-color:  var(--table-background-1);}
+#brikchain tr:nth-child(odd){background-color:  var(--table-background-2);}
 
-#brikchain tr:hover {background-color: #ddd;}
+
+#brikchain tr:hover {background-color: var(--table-background-heading);}
 
 #brikchain th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #2A91DA;
-  color: white;
+  background-color: var(--table-background-heading);
+  color: var(--main-background);
 }
 
 
@@ -242,7 +245,7 @@ $(document).ready(function() {
 .overflow {
 	margin: 5px;
 	overflow: scroll !important;
-}
+} 
 
 
 
