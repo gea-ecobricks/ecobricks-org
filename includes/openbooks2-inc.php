@@ -169,9 +169,9 @@ $(document).ready(function() {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: var(--table-background-2);}
+#revenues tr:nth-child(even){background-color: var(--table-background-2);}
 
-tr:nth-child(odd){background-color: var(--table-background-1);}
+#revenues tr:nth-child(odd){background-color: var(--table-background-1);}
 
 
 #revenues tr:hover {background-color: var(--table-background-hover) ;}
@@ -217,7 +217,7 @@ label {
 }
 
 #expenses_previous {
-  color: var(--text-color) !important;
+  color: white !important;
 }
 /* Huh? */
 
