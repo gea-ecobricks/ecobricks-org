@@ -161,6 +161,7 @@ $(document).ready(function() {
   border-collapse: collapse;
   width: 100%;
   font-weight: 300;
+  color: var(--text-color);
 }
 
 #revenues td, #revenues th {
