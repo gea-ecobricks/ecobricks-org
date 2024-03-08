@@ -9,9 +9,19 @@
 <?php require_once ("../includes/openbooks2-inc.php");?>
 
 
+<div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">Nos principes terrestres</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">Nous sommes oriententés vers une harmonie croissante avec les cycles Terrestres.</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/earth-home-animated-v4.svg" style="width: 100%;"></div>	
+</div>
+<div id="splash-bar"></div>
+
+
 <!--TOP PAGE BANNER-->
 
-<div class="splash-content-block">
+<!-- <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Our Open Books</div>
 		<div class="splash-sub">The Global Ecobrick Alliance's Financial Accounting</div>
@@ -19,7 +29,7 @@
 	<div class="splash-image"><img src="../pngs/openbooks.png" style="width: 80%;">
 	</div>	
 </div>
-<div id="splash-bar"></div>
+<div id="splash-bar"></div> -->
 
 
 
@@ -34,10 +44,7 @@
 	<div class="row">
 		<div class="main">
 
-		
-
 			<div class="lead-page-paragraph">
-				
 				<p>As a for-Earth enterprise we account and disclose all of our finances to meet our not-for-profit and net-green mandates.</p>
 			</div>
 
@@ -49,33 +56,34 @@
 				
 				<!-- <p>Our financial accounting has two parts: our regular fiat currency accounting and our brikcoin accounting.  The combination of the two generates our annual cost per kilogram of Authenticated Ecobrick Sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins.php">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.  This is price for which 1 kg of AES plastic are purchased as <a href="offsets.php">offsets credits</a> on our Gobrik app.</p>   -->
 				
-				
-			</div>	
+			</div>
+		</div>
 			
-		
-		
-
 		<div class="side">
 
-			<!-- <div class="side-module-desktop-only">
-				<img src="../webp/gea-logo-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
-				<br><h4>Earth Enterprise</h4>
-				<h5>The Global Ecobrick Alliance is a not-for-profit for-Earth enterprise dedicated to accelerating plastic transition.  All our revenue and expenses, including income summaries can be found here in our in-house developed, Open Books system.</h5><br>
-				<a class="module-btn" href="about.php">About the GEA</a>
-                <br><br>
-				
-				<br>
-			</div>    -->
 			<?php include 'side-modules/about-gea.php';?>
 			
-		
-
-			
-         
 		</div>
+
 	</div>
 
 
+
+	<div class="live-data">
+		<?php
+			$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2023;"; $result = $conn->query($sql);
+			if ($result->num_rows > 0) {
+			
+				while($row = $result->fetch_assoc()) {
+				echo '<p><span class="blink">◉  </span>  '.$row["final_aes_plastic_cost"].' &#8202;$ USD per 1 Kg of AES Plastic</p>'  ; 
+				}
+					} else {
+						echo "0 results";
+					}
+		?>
+
+		<p style="font-size: 0.85em; margin-top:20px;">This is the current price for the <a href="offsets.php" target="_blank">sale of AES plastic offsets</a>.</p>
+	</div>
 
 
 	<div class="reg-content-block" id="block3">
