@@ -840,8 +840,8 @@ window.onload = function() {
 <p style="font-size: small; text-align: center; margin: auto; width:80%; padding-bottom: 50px;">All our content on Ecobricks.org is open to collaborative development, revision and translation. See the colored circles for status and github links.</p> -->
 
 
-<div style="margin-top:auto;margin-bottom:20px;text-align:center: font-size:small;">
-fully translated  <span class="circle" style="color:green;">●</span> <span class="circle" style="color:yellow;">●</span> <span class="circle" style="color:orange;">●</span> <span class="circle" style="color:red;">●</span>  not yet translated</div>
+<div style="margin-top:auto;margin-bottom:20px;text-align:center; font-size:small;">
+fully translated  <span class="circle" style="color:green;">●</span> <span class="circle" style="color:yellow;">●</span> <span class="circle" style="color:orange;">●</span> <span class="circle" style="color:red;">●</span>   not translated</div>
 
 </div> <!-- close righ page menu-->
   

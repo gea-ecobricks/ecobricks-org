@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.721';?>
+<?php $version='1.722';?>
 <?php $page='openbooks';?>
 
 <?php require_once ("../includes/openbooks2-inc.php");?>
@@ -32,15 +32,15 @@
 	<div class="row">
 		<div class="main">
 
-			<div class="lead-page-paragraph">
+			<div class="lead-page-paragraph" data-lang-id="004-lead-page-paragraph">
 				<p>As a for-Earth enterprise we account and disclose all of our finances to meet our not-for-profit and net-green mandates.</p>
 			</div>
 
 			<div class="page-paragraph">
 				  
-				<p>The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="principles.php">Earthen ethics</a> in the management of our finances and our ecological impacts to ensure that both are of net benefit.  It also means that for everyone's awareness, our financial and ecological accounting are both disclosed publicly.</p>
+				<p data-lang-id="005-first-page-paragraph">The <a href="about">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="principles.php">Earthen ethics</a> in the management of our finances and our ecological impacts to ensure that both are of net benefit.  It also means that for everyone's awareness, our financial and ecological accounting are both disclosed publicly.</p>
 
-				<p>We call this our Open Books accounting system.  Here you can review the disclosure of our finances.  See our <a href="regen-reports">Regen Reporting</a> for the disclosure of our ecological accounting.  Learn how the combination of our financial and ecological accounting generate the price per Kg of <a href="offsets">our plastic offsets sales</a>.</p>
+				<p data-lang-id="006-second-page-paragraph">We call this our Open Books accounting system.  Here you can review the disclosure of our finances.  See our <a href="regen-reports">Regen Reporting</a> for the disclosure of our ecological accounting.  Learn how the combination of our financial and ecological accounting generate the price per Kg of <a href="offsets">our plastic offsets sales</a>.</p>
 				
 				<!-- <p>Our financial accounting has two parts: our regular fiat currency accounting and our brikcoin accounting.  The combination of the two generates our annual cost per kilogram of Authenticated Ecobrick Sequestered plastic (<a href="/ase">AES Plastic</a> for short).  This price is determined by dividing the total amount of plastic authenticated on the <a href="brikcoins.php">brikcoin blockchain</a> each year by the total operational costs incurred that year by the GEA.  This is price for which 1 kg of AES plastic are purchased as <a href="offsets.php">offsets credits</a> on our Gobrik app.</p>   -->
 				
