@@ -240,6 +240,28 @@ $(document).ready(function() {
   color:  var(--main-background);;
 }
 
+
+
+.live-data {background: var(--yellow-alert);}
+
+
+
+#ecobricks a {
+  color: var(--text-color);
+}
+
+#ecobricks a:hover {
+  color: var(--h1);
+}
+
+#brikchain a {
+  color: var(--text-color);
+}
+
+#brikchain a:hover {
+  color: var(--h1);
+}
+
 .dataTables_wrapper {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
 }
