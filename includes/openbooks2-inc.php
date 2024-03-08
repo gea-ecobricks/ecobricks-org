@@ -201,6 +201,14 @@ label {
   color: var(--text-color);
 }
 
+.dataTables_wrapper .dataTables_length select {
+  background-color: var(--table-background-1);
+  color: var(--text-color);
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+  color: var(--text-color);
+}
 
 /* Huh? */
 
