@@ -182,6 +182,14 @@ $(document).ready(function() {
   color: var(--main-background);
 }
 
+label {
+  color: var(--h1);
+}
+
+#revenues a {
+  color: var(--h1);
+}
+
 
 /* Huh? */
 
