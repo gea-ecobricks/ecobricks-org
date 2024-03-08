@@ -228,23 +228,26 @@ label {
   border-collapse: collapse;
   width: 100%;
   font-weight: 300;
+  color: var(--text-color);
 }
 
 #expenses td, #expenses th {
-  border: 1px solid #ddd;
+  border: 1px solid var(--table-background-hover);
   padding: 8px;
 }
 
-#expenses tr:nth-child(even){background-color: #f2f2f2;}
+#expenses tr:nth-child(even){background-color: var(--table-background-1);}
+#expenses tr:nth-child(odd){background-color: var(--table-background-2);}
 
-#expenses tr:hover {background-color: #ddd;}
+
+#expenses tr:hover {var(--table-background-hover)}
 
 #expenses th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #2A91DA;
-  color: white;
+  background-color: var(--table-background-heading);
+  color: var(--main-background);
 }
 
 
@@ -272,18 +275,22 @@ label {
 #brikchain td, #brikchain th {
   border: 1px solid #ddd;
   padding: 8px;
+
+
 }
 
-#brikchain tr:nth-child(even){background-color: #f2f2f2;}
+#brikchain tr:nth-child(even){background-color:  var(--table-background-1);}
+#brikchain tr:nth-child(odd){background-color:  var(--table-background-2);}
 
-#brikchain tr:hover {background-color: #ddd;}
+
+#brikchain tr:hover {background-color: var(--table-background-heading);}
 
 #brikchain th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #2A91DA;
-  color: white;
+  background-color: var(--table-background-heading);
+  color: var(--main-background);
 }
 
 
