@@ -48,6 +48,54 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
 }
 
 
+
+    /* Sidebar/right column */
+    .side {
+      height:fit-content;
+      box-sizing: border-box;
+    }
+
+
+
+@media screen and (max-width: 1000px) {
+  .row {   
+    flex-flow: column;
+  }
+
+  .side {
+    flex: 24%;
+    padding: 10px;
+    margin: 15px 15px 30px 15px;
+     border-radius: 15px;
+     background: none !important;
+    
+    }
+}
+
+@media screen and (min-width: 1001px) {
+  .row {   
+    flex-flow: row;
+  }
+
+  .side {
+    flex: 24%;
+    padding: 70px 20px 0px 20px;
+    box-sizing: border-box;
+    margin-top: -80px;
+      border-radius: 20px;
+    }
+
+  .row2 {   
+    flex-direction: column;
+  }
+
+}
+
+
+
+
+
+
 /* Main column */
 
 @media screen and (min-width: 700px) {
@@ -59,7 +107,7 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
     }
     }
     
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1000px) {
     .main {
       flex: 100%;
     
@@ -101,35 +149,7 @@ License version 2.0 (https://www.gnu.org/licenses/gpl-2.0.html)
     }
     }
     
-    .side {
-      height:fit-content;
-    }
 
-/* Sidebar/right column */
-
-@media screen and (min-width: 700px) {
-	.side {
-	flex: 24%;
-	padding: 70px 20px 0px 20px;
-	box-sizing: border-box;
-	margin-top: -80px;
-	  border-radius: 20px;
-    flex-flow: row;
-	}
-	}
-
-@media screen and (max-width: 700px) {
-	.side {
-	flex: 24%;
-	padding: 10px;
-	box-sizing: border-box;
-  margin: 15px 15px 30px 15px;
-   border-radius: 15px;
-   background: none !important;
-   flex-flow: column;
-	
-	}
-	}
 
 /* Sidebar/right column */
 
@@ -453,28 +473,6 @@ margin-bottom: 40px;
 	border-color: var(--slide-highlight);
   
   } 
-
-
-
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  .row {   
-    flex-direction: row;
-  }
-
-
-  .row2 {   
-    flex-direction: column;
-  }
-
-}
-
-
 
 
 
