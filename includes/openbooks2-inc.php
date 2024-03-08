@@ -169,8 +169,9 @@ $(document).ready(function() {
   padding: 8px;
 }
 
-#revenuesn tr:nth-child(even){background-color: var(--table-background-2)}
-#revenuesn tr:nth-child(odd){background-color: var(--table-background-1)}
+#revenues tr:nth-child(even){background-color: var(--table-background-2);}
+
+#revenues tr:nth-child(odd){background-color: var(--table-background-1);}
 
 
 #revenues tr:hover {background-color: var(--table-background-hover) ;}
