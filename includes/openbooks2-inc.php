@@ -277,10 +277,12 @@ label {
   border-collapse: collapse;
   width: 100%;
   font-weight: 300;
+  color: var(--text-color);
+
 }
 
 #brikchain td, #brikchain th {
-  border: 1px solid #ddd;
+  border: 1px solid var(--table-background-hover);
   padding: 8px;
 
 
@@ -290,7 +292,7 @@ label {
 #brikchain tr:nth-child(odd){background-color:  var(--table-background-2);}
 
 
-#brikchain tr:hover {background-color: var(--table-background-heading);}
+#brikchain tr:hover {background-color: var(--table-background-hover);}
 
 #brikchain th {
   padding-top: 12px;

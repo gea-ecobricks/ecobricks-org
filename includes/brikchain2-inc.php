@@ -143,15 +143,18 @@ $(document).ready(function() {
 
 /* Huh? */
 
+
 #brikchain {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
   font-weight: 300;
+  color: var(--text-color);
+
 }
 
 #brikchain td, #brikchain th {
-  border: 1px solid #ddd;
+  border: 1px solid var(--table-background-hover);
   padding: 8px;
 
 
@@ -161,7 +164,7 @@ $(document).ready(function() {
 #brikchain tr:nth-child(odd){background-color:  var(--table-background-2);}
 
 
-#brikchain tr:hover {background-color: var(--table-background-heading);}
+#brikchain tr:hover {background-color: var(--table-background-hover);}
 
 #brikchain th {
   padding-top: 12px;
@@ -170,6 +173,7 @@ $(document).ready(function() {
   background-color: var(--table-background-heading);
   color: var(--main-background);
 }
+
 
 
 /* Huh? */
@@ -215,23 +219,25 @@ $(document).ready(function() {
   border-collapse: collapse;
   width: 100%;
   font-weight: 300;
+  color: var(--text-color);
 }
 
 #ecobricks td, #ecobricks th {
-  border: 1px solid #ddd;
+  border: 1px solid  var(--table-background-hover);;
   padding-left: 8px;
 }
 
-#ecobricks tr:nth-child(even){background-color: #f2f2f2;}
+#ecobricks tr:nth-child(even){background-color:  var(--table-background-1);}
+#ecobricks tr:nth-child(odd){background-color:  var(--table-background-2);}
 
-#ecobricks tr:hover {background-color: #ddd;}
+#ecobricks tr:hover {background-color:  var(--table-background-hover);}
 
 #ecobricks th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #2A91DA;
-  color: white;
+  background-color:  var(--table-background-heading);;
+  color:  var(--main-background);;
 }
 
 .dataTables_wrapper {
@@ -246,6 +252,32 @@ $(document).ready(function() {
 	margin: 5px;
 	overflow: scroll !important;
 } 
+
+
+
+.dataTables_wrapper .dataTables_filter input {
+  background-color: var(--table-background-1);
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.dataTables_wrapper .dataTables_length select {
+  background-color: var(--table-background-1);
+  color: var(--text-color);
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+  color: var(--text-color);
+}
+
+.dataTables_paginate {
+  background-color: var(--table-background-heading);
+}
+
+#expenses_previous {
+  color: white !important;
+  filter: invert(100);
+}
 
 
 
