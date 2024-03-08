@@ -187,7 +187,18 @@ label {
 }
 
 #revenues a {
+  color: var(--text-color);
+}
+
+#revenues a:hover {
   color: var(--h1);
+}
+
+
+.dataTables_wrapper .dataTables_filter input {
+  background-color: var(--table-background-1);
+  margin-bottom: 20px;
+  color: var(--text-color);
 }
 
 
