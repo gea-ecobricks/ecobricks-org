@@ -156,7 +156,7 @@ $(document).ready(function() {
 
 /* Huh? */
 
-#revenues {
+#revenues, #expenses, #brikchain, #ecobricks {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
@@ -164,19 +164,19 @@ $(document).ready(function() {
   color: var(--text-color);
 }
 
-#revenues td, #revenues th {
+#revenues, #expenses, #brikchain, #ecobricks td, #revenues, #expenses, #brikchain, #ecobricks th {
   border: 1px solid var(--table-background-hover);
   padding: 8px;
 }
 
-#revenues tr:nth-child(even){background-color: var(--table-background-2);}
+#revenues, #expenses, #brikchain, #ecobricks tr:nth-child(even){background-color: var(--table-background-2);}
 
-#revenues tr:nth-child(odd){background-color: var(--table-background-1);}
+#revenues, #expenses, #brikchain, #ecobricks tr:nth-child(odd){background-color: var(--table-background-1);}
 
 
-#revenues tr:hover {background-color: var(--table-background-hover) ;}
+#revenues, #expenses, #brikchain, #ecobricks tr:hover {background-color: var(--table-background-hover) ;}
 
-#revenues th {
+#revenues, #expenses, #brikchain, #ecobricks th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -188,11 +188,11 @@ label {
   color: var(--h1);
 }
 
-#revenues a {
+#revenues, #expenses, #brikchain, #ecobricks a {
   color: var(--text-color);
 }
 
-#revenues a:hover {
+#revenues, #expenses, #brikchain, #ecobricks a:hover {
   color: var(--h1);
 }
 
@@ -218,10 +218,11 @@ label {
 
 #expenses_previous {
   color: white !important;
+  filter: invert(100);
 }
 /* Huh? */
 
-
+/* 
 #expenses {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -244,7 +245,7 @@ label {
   text-align: left;
   background-color: #2A91DA;
   color: white;
-}
+} */
 
 
 .dataTables_wrapper {
@@ -260,7 +261,7 @@ label {
 	overflow: scroll !important;
 }
 
-
+/* 
 #brikchain {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -283,7 +284,7 @@ label {
   text-align: left;
   background-color: #2A91DA;
   color: white;
-}
+} */
 
 
 .module-btn {
