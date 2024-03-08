@@ -18,7 +18,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 const id_Page_Translations = {
 
     '001-splash-title': 'Tentang Kami',
-    '002-splash-subtitle': 'Aliansi Ecobrick Global',
+    '002-splash-subtitle': 'Global Ecobrick Alliance',
     '003-splash-image-alt': '<img alt="Cara membangun dengan ecobrick" src="../webp/gea-perspective-400px.webp" style="width: 85%"/>',
     '004-lead-paragraph': '<p>Aliansi Ecobrick Global adalah Usaha Bumi yang mempercepat transisi plastik lokal dan global. Kami melakukannya melalui penyebaran mandala dari ecobricking yang berprinsip dan praktis untuk meningkatkan kesadaran ekologis.</p>',
     '005-first-page-paragraph': 'Kisah <a href="/story">Aliansi Ecobrick Global</a> dimulai di wilayah tradisional orang Igorot (<i>Kaigorotan</i>) di dataran tinggi Luzon utara di Laut China Selatan. Berusaha untuk menjaga plastik kami keluar dari sungai, kami mengembangkan cara dan metode untuk rumah dan komunitas kami yang mewujudkan etos <a href="/ayyew">Ayyew Igorot</a>. Terinspirasi oleh kebijaksanaan asli, hari ini prinsip dan metode ecobricking adalah sarana bagi rumah tangga, perusahaan, dan komunitas di seluruh dunia untuk mempercepat <a href="transition.php">transisi plastik mereka.</a>',
