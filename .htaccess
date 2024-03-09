@@ -290,7 +290,6 @@ RedirectMatch "^/brickable" "/en/brickable.php"
 RedirectMatch "^/brikable" "/en/brickable.php"
 RedirectMatch "^/brickable" "/en/brickable.php"
 
-RedirectMatch "^/id/earth" "/id/tanah.php"
 RedirectMatch "^/id/earth.php" "/id/tanah.php"
 
 
