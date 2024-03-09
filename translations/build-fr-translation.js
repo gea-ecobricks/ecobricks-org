@@ -23,7 +23,7 @@ const fr_Page_Translations = {
     "011-long-term-content": "Les techniques de construction Terre et Écobrique sont utilisées pour créer des structures qui peuvent durer des années ou des décennies (il n'est pas rare que les constructions traditionnelles durent des siècles !). Les mélanges de terre (par exemple, le cob, le torchis, l'adobe) sont utilisés pour poser les écobriques horizontalement et les recouvrir complètement pour une protection totale contre toutes les formes de dégradation.",
     "012-very-long-term-header": "<b>Très Long Terme</b>",
     "013-very-long-term-content": "Les applications d'écobriques à court et long terme mettent le plastique dans une trajectoire spirale cyclique vers l'avenir, où la probabilité que le plastique reste sûr, sécurisé et contenu est bien plus élevée que les alternatives actuellement disponibles.",
-    "014-millenium-img-alt": '<a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="Un exemple de dépôt de stockage d’écobriques pour la préparation de la construction" loading="lazy"></a>',
+    "014-millenium-img-alt": '<a href="../svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="Un exemple de dépôt de stockage d’écobriques pour la préparation de la construction" loading="lazy"></a>',
     "015-link to-chart": 'Voir un <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">graphique des différents chemins que le plastique peut emprunter</a> sur 1000 ans.'
   
 

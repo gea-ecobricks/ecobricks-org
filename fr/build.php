@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.58';?>
+<?php $version='1.59';?>
 <?php $page='build';?>
 
 
@@ -74,7 +74,7 @@
                 <br><p data-lang-id="012-very-long-term-header"><b>Very long-term</b><p>
                 <p data-lang-id="013-very-long-term-content">Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelyhood of plastic staying safe, secure and contained is much more likely than currently available alternatives.</p>
                 
-                <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank" data-lang-id="014-millenium-img-alt"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy" data-lang-id="014-image-mellenium-paths"></a>
+                <a href="../svgs/Plastic-Mellenium-Paths.pdf" target="_blank" data-lang-id="014-millenium-img-alt"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy" data-lang-id="014-image-mellenium-paths"></a>
 
                 <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="015-link to-chart">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
 </div>
