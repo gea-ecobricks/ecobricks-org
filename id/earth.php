@@ -6,7 +6,7 @@
 <?php $version='1.77';?>
 <?php $page='earth';?>
 
-<title>Le Construction Terre & Écobrique</title>
+<title>Bangunan Tanah & Ecobrick</title>
 
 <?php require_once ("../includes/earth2-inc.php");?>
 
@@ -371,19 +371,15 @@
 
 		<div class="side">
 	
-        <?php require_once ("side-modules/spiral-design.php");?>
+            <?php require_once ("side-modules/spiral-design.php");?>
 
-<?php require_once ("side-modules/sequest-module.php");?>
+            <?php require_once ("side-modules/sequest-module.php");?>
+                
+            <?php require_once ("side-modules/good-use.php");?>
 
-<?php require_once ("side-modules/spiral-design.php");?>
-    
-<?php require_once ("side-modules/good-use.php");?>
+            <?php require_once ("side-modules/earthen-ethics.php");?>
 
-<?php require_once ("side-modules/earthen-ethics.php");?>
-
-<?php require_once ("side-modules/transcaste-principle.php");?>
-
-
+            <?php require_once ("side-modules/transcaste-principle.php");?>
 
             
 		</div>
