@@ -18,7 +18,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 const id_Page_Translations = {
 
     "001-splash-title": "Aplikasi Ecobrick",
-    "002-splash-subtitle": "Pembangunan Ecobrick yang Praktis & Berprinsip",
+    "002-splash-subtitle": "Pembangunan yang Praktis & Berprinsip",
     "003-splash-image-alt": '<img src="../svgs/building-methods.svg" style="width: 85%" alt="Ada banyak cara untuk membangun dengan ecobrick">',
     "004-lead-page-paragraph": "Ecobricks dapat membangun furnitur, taman, taman bermain, struktur, dan lainnya. Hanya imajinasi kita yang menjadi batas!",
     "005-first-page-paragraph": "Dengan itu, membangun dengan ecobrick adalah tanggung jawab besar. Untuk memastikan bahwa ecobrick dan plastik yang mereka konten aman dan terlindungi, Aliansi Global Ecobrick (GEA) telah mengembangkan pedoman, standar, dan prinsip pembangunan. Dengan mengikuti praktik terbaik ini, kita dapat memastikan aplikasi ecobrick kita menjaga plastik <a href=\"sequest.php\">tersekuester</a> jangka pendek dan panjang.",

@@ -10,7 +10,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 const fr_Page_Translations = {
 
     "001-splash-title": "Applications des écobriques",
-    "002-splash-subtitle": "Construction pratique et principée avec des écobriques",
+    "002-splash-subtitle": "Construction pratique et principée",
     "003-splash-image-alt": '<img src="../svgs/building-methods.svg" style="width: 85%" alt="Il existe de nombreuses manières de construire avec des écobriques">',
     "004-lead-page-paragraph": "Les écobriques peuvent construire des meubles, des jardins, des aires de jeux, des structures et plus encore. La seule limite est notre imagination !",
     "005-first-page-paragraph": "Cela dit, construire avec des écobriques est une grande responsabilité. Pour s'assurer que les écobriques et le plastique qu'elles contiennent sont sûrs et sécurisés, l'Alliance Globale des Écobriques (GEA) a développé des directives, des normes et des principes de construction. En suivant ces meilleures pratiques, nous pouvons être sûrs que nos applications d'écobriques gardent le plastique séquestré à court et à long terme.",
