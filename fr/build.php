@@ -104,7 +104,6 @@
 </div>
 
 <!-- MILSTEINS  -->
-	<a name="MILSTEINS"></a>
 <div class="reg-content-block" id="block3">
     <div class="opener-header">
         <div class="opener-header-text" data-lang-id="021-opener-header-text">
@@ -164,7 +163,10 @@
     </div>
 </div>
 
-<a name="EARTHMODS"></a>
+
+<!--EARTHMODS-->
+
+
 <div class="reg-content-block" id="block4">
     <div class="opener-header">
         <div class="opener-header-text" data-lang-id="047-opener-header-text">
@@ -210,14 +212,14 @@
             <div class="main2" data-lang-id="036-main2-description">
                 <p>These modules can then be deployed for conferences, exhibitions, fairs, and other special events to create customized interactive spaces. These spaces can either be set up in advance or invite participants to interact, play, and create their own space.</p>
             </div>
-            <div class="side2"><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="100%" loading="lazy" alt="Examples of an eco brick open space" data-lang-id="037-side2-img-alt">
+            <div class="side2"><img src="../webp/openspace.webp" width="100%" loading="lazy" alt="Examples of an eco brick open space" data-lang-id="037-side2-img-alt">
             </div>
         </div>
         <div class="row2">
             <div class="main3" data-lang-id="038-main3-description">
                 <p>Ecobrick communities that have amassed Open Space sets often rent out to events and venues to showcase ecobrick modular technology and regenerative principles.</p>
             </div>
-            <div class="side3"><br><img src="https://www.ecobricks.org/en/webp/openspace.webp" width="120px" loading="lazy" alt="Example eco brick open space" data-lang-id="039-side3-img-alt">
+            <div class="side3"><br><img src="../webp/openspace.webp" width="120px" loading="lazy" alt="Example eco brick open space" data-lang-id="039-side3-img-alt">
             </div>
         </div>
         <br>
@@ -285,15 +287,20 @@
 </div>
 
 
-<div class="live-data" style="margin-top:30px">
-    <div class="opener-header">     
-        <div class="opener-header-text" data-lang-id="048-opener-header-text">
-            <h4>Ecojoiners</h4>
-            <h5>A revolutionary new way to connect bottles and build.  Coming soon!</h5><br>
-        </div>
+<!-- ECOJOINERS -->
 
+
+<div class="reg-content-block" id="block10">
+    <div class="live-data" style="margin-top:30px">
+        <div class="opener-header">     
+            <div class="opener-header-text" >
+                <h4 data-lang-id="082-ecojoiner-title-text">6. Ecojoiners</h4>
+                <h5 data-lang-id="083-ecojoiner-subtitle-text">A revolutionary new way to connect bottles and build. Coming soon!</h5><br>
+            </div>
+        </div>
     </div>
 </div>
+
 
 <!-- MAINTENANCE -->
 <div class="reg-content-block" id="block8">
