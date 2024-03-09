@@ -3,17 +3,17 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='2.37';?>
+<?php $version='2.4';?>
 <?php $page='modules';?>
 
 <?php require_once ("../includes/modules2-inc.php");?>
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Les Modules Milstein Ecobricks</div>
-	    <div class="splash-sub">Construisez des meubles en écobriques modulaires simples, faciles et impressionnants.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Les Modules Milstein</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Construisez des meubles modulaires simples et impressionnants.</div>
 	</div>
-	<div class="splash-image"><img src="../pngs/Feature-Floating-Module-500px.png" style="width: 85%">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../pngs/Feature-Floating-Module-500px.png" style="width: 85%" alt="Simple, easy and awesome modular furniture with ecobrick milstein hexagonal modules">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -27,17 +27,19 @@
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Milstein hexagonal and triangular modules fit together to build simple, practical furniture from your ecobricks.  All you need is a dozen to get going!</p>
+				<p data-lang-id="004-lead-page-paragraph">Milstein hexagonal and triangular modules fit together to build simple, practical furniture from your ecobricks.  All you need is a dozen to get going!</p>
 			</div>
 	
 			<div class="page-paragraph">
-                <p>Milstein modules can be made by anyone, anywhere using simple materials and methods.  Using either silicone or tube-banding methods, ecobricks can be put to use right away in applications that embody circular and regenerative principles.</p>
-                <p>Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces.  People use them for tables, beds, benches and even stages!  Milsteins are often combined with <a href="/dms/">Dieleman Modules</a> to create <a href="/openspace/">Ecobrick Open Spaces.</a></p>
+                <p data-lang-id="005-first-page-paragraph">Milstein modules can be made by anyone, anywhere using simple materials and methods.  Using either silicone or tube-banding methods, ecobricks can be put to use right away in applications that embody circular and regenerative principles.</p>
+
+                <p data-lang-id="006-second-page-paragraph">Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces.  People use them for tables, beds, benches and even stages!  Milsteins are often combined with <a href="/dms">Dieleman Modules</a> to create <a href="/openspace">Ecobrick Open Spaces.</a></p>
                 
                 <p></p>
             </div>	
 
-            <a name="WHAT-IS"></a>
+   <!--WHAT IS-->
+   
             <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">

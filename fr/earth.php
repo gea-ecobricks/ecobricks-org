@@ -4,7 +4,7 @@
 <META charset="UTF-8">
 <?php $lang='fr';?>
 <?php $version='1.77';?>
-<?php $page='plastic';?>
+<?php $page='earth';?>
 
 <title>Le Construction Terre & Écobrique</title>
 
@@ -13,43 +13,43 @@
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Construction Terre & Écobrique</div>
-	    <div class="splash-sub">Construisez des structures solides et spirale, résilientes et régénératrices.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Construction Terre & Écobrique</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Construisez des structures solides et spirale, résilientes et régénératrices.</div>
 	</div>
-	<div class="splash-image"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Construisez des structures belles, solides, en spirale, résilientes et régénératrices.">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Construisez des structures belles, solides, en spirale, résilientes et régénératrices.">
     </div>	
 </div>
 <div id="splash-bar"></div>
-<!--
+
     	
-<div class="splash-content-block">
+<!-- <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobrick & Earth Building</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick & Earth Building</div>
 	    <div class="splash-sub">Build beautiful, strong, spiral, resilient and regenerative structures.</div>
 	</div>
 	<div class="splash-image"><img src="../svgs/tree-bench.svg" style="width: 85%">
     </div>	
 </div>
-<div id="splash-bar"></div>
--->
+<div id="splash-bar"></div> -->
+
 
 
 <!-- PAGE CONTENT-->
 
 
 <div id="main-content">
-<!-- The flexible grid (content) -->
+
 	<div class="row">
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Combining time-tested local building traditions with ecobricks, we can safely secure our plastic for the long-term in beautiful and functional earthen constructions.</p>
+				<p data-lang-id="004-lead-page-paragraph">Combining time-tested local building traditions with ecobricks, we can safely secure our plastic for the long-term in beautiful and functional earthen constructions.</p>
 			</div>
 	
 			<div class="page-paragraph">
-                <p>Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors.  Countless cultures around the world have their ancestral traditions of working with the earth to build.  Many of their structures have stood for centuries. Some for millenia!  By adapting their ancient methods to our modern challenges, we can put our ecobricks to good and green use.</p>
+                <p data-lang-id="005-first-page-paragraph">Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors.  Countless cultures around the world have their ancestral traditions of working with the earth to build.  Many of their structures have stood for centuries. Some for millenia!  By adapting their ancient methods to our modern challenges, we can put our ecobricks to good and green use.</p>
                 
-                <p>With earth and ecobrick methods not only can we build beautiful, strong and resilient structures, we can secure our plastic out of industry and out of the biosphere.  Such constructions, rather than result in emissions, actually avoid them, while absorbing physical carbon within them.  This ensures that we are not just creating homes, but so too a common home for all the others with which we share ecosystem and biome.</p>
+                <p data-lang-id="006-second-page-paragraph">With earth and ecobrick methods not only can we build beautiful, strong and resilient structures, we can secure our plastic out of industry and out of the biosphere.  Such constructions, rather than result in emissions, actually avoid them, while absorbing physical carbon within them.  This ensures that we are not just creating homes, but so too a common home for all the others with which we share ecosystem and biome.</p>
             </div>	
 
             <a name="WHAT-IS"></a>

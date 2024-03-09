@@ -269,6 +269,59 @@ const es_Page_Translations = {
   "266-dropoff_question": "¿Cómo puedo entregar mis ecobricks completados a un proyecto comunitario?",
   "267-dropoff_answer1": "Recuerda que los ecobricks son todo sobre asumir la responsabilidad personal de nuestro plástico y no otra forma de deshacerse de él. Usar tus propios ecobricks en tus proyectos es la esencia del movimiento. Por supuesto, cada vez hay más proyectos de construcción con ecobricks que necesitan contribuciones de ecobricks.",
 
+  "270-faq_brikcoins_back": "Volver a <a href=\"#gobrik-q\">Preguntas sobre GoBrik</a>",
+  "271-faq_brikcoins_image": "<img src=\"../webp/brk-cascade.webp\" style=\"width: 40% !important;\" alt=\"varios ecobricks cayendo en cascada\" loading=\"lazy\">",
+  "272-faq_start_question": "¿Cómo unirse a GoBrik?",
+  "273-faq_start_answer": "¡Las cuentas de GoBrik son gratuitas! GoBrik es una aplicación web. Esto significa que puedes registrarte y usarla en tu computadora de escritorio o en tu teléfono. Registrarse es fácil con tu dirección de correo electrónico o tu cuenta de Facebook. Te haremos algunas preguntas sobre tu ecobrickeo, y luego estarás listo para registrar ecobricks, ganar brikcoins e intercambiar ecobricks en nuestro mercado. Visita GoBrik.com para registrarte.",
+  "274-faq_start_learn_more": "Aprender más: <a href=\"/gobrik\">Plataforma GoBrik</a><br>Iniciar: <a href=\"gobrik\">GoBrik.com</a>",
+  "277-faq_start_back": "Volver a <a href=\"#gobrik-q\">Preguntas sobre GoBrik</a>",
+  "278-faq_start_image": "<img src=\"../webp/eb-sky-400px.webp\" alt=\"fabricación de eco bricks\" loading=\"lazy\">",
+  "266-dropoff_question": "¿Cómo puedo entregar mis ecobricks completados a un proyecto comunitario?",
+  "267-dropoff_answer1": "Recuerda que los ecobricks tratan sobre asumir la responsabilidad personal de nuestro plástico y no otra forma de deshacerse de él. Usar tus propios ecobricks en tus propios proyectos es la esencia del movimiento. Por supuesto, cada vez hay más proyectos de construcción con ecobricks que necesitan contribuciones de ecobricks.",
+  "268-dropoff_answer2": "Antes de contribuir tus ecobricks a un proyecto comunitario, es esencial asegurarte de que tus ecobricks sean de alta calidad: ¡nadie quiere botellas llenas de plástico sucio y suelto! Asegúrate de seguir las <a href=\"about.php\">mejores prácticas de la GEA</a>. Incluso mejor: autentica tus ecobricks. Puedes hacerlo registrando tus ecobricks en nuestra aplicación GoBrik, donde son validados a través de un proceso de revisión por pares.",
+  "270-dropoff_back_link": "Volver a <a href=\"#misc\">Más Preguntas</a>",
+  "271-dropoff_image": "<img src=\"../webp/brikmarket-400px.webp\" alt=\"fabricación de eco bricks\" loading=\"lazy\">",
+  "272-hubs_question": "¿Cómo puedo obtener ecobricks para mi proyecto?",
+  "273-hubs_answer": "Es importante recordar que los ecobricks no son 'ladrillos' en el sentido tradicional de la palabra. La fabricación de ecobricks y la construcción con ellos es un proceso fundamentalmente colaborativo. De hecho, si tienes la intención de construir un edificio normal para ti, en la mayoría de los casos es mejor usar ladrillos normales y técnicas de construcción. Por supuesto, si estás interesado en construir un espacio para tu comunidad, puedes configurarte como un Centro de Ecobricks, donde la gente deja sus ecobricks para ayudarte con tu proyecto.",
+  "274-hubs_back_link": "Volver a <a href=\"#misc\">Más Preguntas</a>",
+  "275-hubs_image": "<img src=\"../webp/various-briks-400px.webp\" alt=\"fabricación de eco bricks\" loading=\"lazy\">",
+  "276-ocean_question": "¿Qué pasa con el plástico que recojo de la playa? ¿Puede ser ecobrickeado?",
+  "277-ocean_answer": "Sí... ¡y no! Los ecobricks normales tratan sobre la reutilización consciente del plástico que consumimos personalmente. Esto significa cuidar nuestro plástico separándolo, limpiándolo y secándolo. El plástico que ha terminado en la playa (o que encontramos al lado del camino) tiende a estar húmedo, sucio y en trozos grandes. Por lo tanto, no es ideal para poner en un ecobrick normal. Sin embargo, representa un peligro de contaminación para el medio ambiente tanto como cualquier otro plástico. Para cuidarlo, puedes empacarlo en lo que llamamos un ecobrick oceánico. Los ecobricks oceánicos se hacen cortando dos botellas PET, empacando ambas firmemente y uniéndolas en una.",
+  "278-ocean_learn_more": "Aprender más: <a href=\"/ocean\">Ecobricks Oceánicos</a>",
+  "280-ocean_back_link": "Volver a <a href=\"#misc\">Más Preguntas</a>",
+  "281-ocean_image": "<img src=\"../webp/oeb-400px.webp\" alt=\"ecobricks oceánicos\" loading=\"lazy\">",
+
+  "282-cigbrick_question": "¿Qué pasa con los filtros de cigarrillos, pueden ser ecobrickeados?",
+  "283-cigbrick_answer": "¡SÍ! Los filtros de cigarrillos están hechos de plástico y, aunque pequeños, son una de las mayores fuentes de contaminación plástica. Por lo tanto, hemos ideado una técnica especial de ecobrickeo solo para colillas de cigarrillos. Cuando termines de fumar, simplemente pela el papel y quita la ceniza (esto se puede descartar de forma segura). Luego, coloca el filtro en tu ecobrick. Si estás realmente interesado, puedes hacer un ecobrick enteramente de filtros de cigarrillos. ¡A esto lo llamamos un \"cigbrick\"!",
+  "284-cigbrick_learn_more": "Aprender más: <a href=\"/cigbrick\">Cigbricks</a>",
+  "286-cigbrick_back_link": "Volver a <a href=\"#misc\">Más Preguntas</a>",
+  "287-cigbrick_image": "<img src=\"../svgs/Cigbrick.svg\" alt=\"Cigbricks eco brick\" loading=\"lazy\">",
+  "288-media_question": "Soy de los medios. ¿Cómo obtengo información precisa sobre ecobricks para escribir una historia o hacer un reportaje?",
+  "289-media_answer": "Bueno... ¡para eso es este sitio! Incluso mejor, tenemos una página para eso. Nuestro kit de prensa está diseñado para ayudar a los periodistas a evitar los conceptos erróneos más comunes sobre el ecobrickeo.",
+  "290-media_learn_more": "Aprender más: <a href=\"media.php\">Kit de Prensa de la GEA</a>",
+  "292-media_back_link": "Volver a <a href=\"#misc\">Más Preguntas</a>",
+  "293-eco_bricks_question": "¿Cómo se escribe: eco-brick, eco brick o ecobrick?",
+  "294-eco_bricks_answer": "En los primeros días de meter plástico en una botella lo llamábamos justo eso: ¡ladrillos de botella de plástico! Luego, cuando nos dimos cuenta de que era útil para los ecosistemas a nuestro alrededor, el nombre cambió a eco bricks. Luego nos pusimos más seguros y añadimos un guión: ¡eco-bricks! Sin embargo, una vez que los ecobricks se establecieron claramente como un fenómeno global y demostraron ser una solución práctica y ecológica más útil que los equivalentes industriales, los líderes del movimiento global se reunieron y consideraron apropiado un término completo: ¡ecobricks! La Alianza Global de Ecobrick y la entrada oficial de Wikipedia usan 'ecobrick' (sin espacio, sin guión, sin capitalización extraña) como el término oficial.",
+  "295-eco_bricks_learn_more": "Aprender más: <a href=\"about.php\">Historia de la GEA</a>",
+  "297-eco_bricks_back_link": "Volver a <a href=\"#misc\">Más Preguntas</a>",
+  "298-arcio_question": "¿Qué es ese círculo verde en la parte inferior de su página web? ¿Qué está haciendo Arc.io?",
+  "299-arcio_answer": "El círculo verde muestra que nuestro servicio Green Arc.io está operando. Este sistema de red de entrega de contenido permite que los sitios web sean más rápidos y ecológicos al habilitar a los visitantes comunes de un sitio web que están localmente cerca unos de otros. El widget Arc + Ecobricks.org permite que otros visitantes de un sitio que están geográficamente cerca de ti compartan acceso a los mismos datos. En lugar de conectarse a contenido en un servidor en el otro lado del planeta, el contenido puede ser servido por el ordenador más cercano a ti. Esto ahorra tiempo y energía y es un servicio valioso por el que los sitios web pagan. Dirigiendo los pagos del servicio de los clientes de CDN a través del blockchain manual de Ecobricks.org, los dólares, kilobytes y kilogramos de plástico pueden correlacionarse directamente. Tu visita a sitios web con arc resulta en la compra de créditos de compensación de plástico AES y la valoración de la eliminación de plástico de la biosfera por ecobrickers de todo el mundo.",
+  "300-arcio_learn_more": "Aprender más: <a href=\"arc.php\">Arc CDN</a>",
+  "302-arcio_back_link": "Volver a <a href=\"#misc\">Más Preguntas</a>",
+  "303-arcio_image": "<img src=\"../webp/arc-green-popper.webp\" alt=\"servicio de cdn verde\" loading=\"lazy\" style=\"width: 50% !important;\">",
+
+  "304-faq_more_info_heading": "¿Necesitas saber más?",
+  "305-faq_more_info_subheading": "En la respuesta, haz clic en el enlace correspondiente a la página de nuestro sitio. Puedes profundizar aún más con nuestros materiales de fuente y formaciones:",
+  "306-faq_ecobricks_whitepaper": "<b>Ecobricks & Brikcoin Libro Blanco</b> <a href=\"https://files.ecobricks.org/s/pC52memM4S2a6LX\" target=\"_blank\">La Comodificación del Plástico Secuestrado</a>",
+  "308-faq_journalists_info": "<b>Periodistas:</b> Asegúrate de revisar <a href=\"media.php\">nuestro kit de medios!</a>",
+  "310-faq_learn_from_trainer": "<b>Aprende de un formador</b> Revisa la lista de cursos actuales del <a href=\"https://gobrik.com/courses\">Taller de Iniciación a Ecobrick</a> impartido por formadores certificados de la GEA.",
+  "312-faq_training_others": "<b>¿Formando a otros para hacer ecobricks?</b> Asegúrate de revisar <a href=\"/trainings\">el programa de formador de formadores</a>"
+
+
+
+
+
+
 
 
   
