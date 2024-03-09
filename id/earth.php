@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.77';?>
+<?php $version='1.78';?>
 <?php $page='earth';?>
 
 <title>Bangunan Tanah & Ecobrick</title>
@@ -13,10 +13,10 @@
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Construction Terre & Écobrique</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Construisez des structures solides et spirale, résilientes et régénératrices.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Bangunan Tanah & Ecobrick</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Bangun struktur yang indah dan kuat, resilien, dan regeneratif</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Construisez des structures belles, solides, en spirale, résilientes et régénératrices.">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Bangun struktur yang indah dan kuat, resilien, dan regeneratif">
     </div>	
 </div>
 <div id="splash-bar"></div>
