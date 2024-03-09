@@ -1,47 +1,45 @@
-<!--PAGE LANGUAGE:  INDONESIAN
-Content Page template: v.1.0.0-->
-   
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/modules-inc.php");?>
+<!DOCTYPE html>
+<HTML lang="id"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='id';?>
+<?php $version='2.5';?>
+<?php $page='modules';?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("under-construction.php");?>
-<!--TOP PAGE BANNER-->
+<?php require_once ("../includes/modules2-inc.php");?>
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Modul Milstein Ecobrick</div>
-	    <div class="splash-sub">Bangun furnitur ecobrick modular yang sederhana, mudah, dan mengagumkan.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Modul Milstein</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Bangun furnitur modular sederhana, mudah, dan luar biasa</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/pngs/Feature-Floating-Module-500px.png" style="width: 85%">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../pngs/Feature-Floating-Module-500px.png" style="width: 85%" alt="Furnitur modular sederhana, mudah, dan luar biasa dengan modul hexagonal ecobrick milstein">
     </div>	
 </div>
 <div id="splash-bar"></div>
-<!--<div id="header-bar2"></div>-->
 
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
 
 <div id="main-content">
-<!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Milstein hexagonal and triangular modules fit together to build simple, practical furniture from your ecobricks.  All you need is a dozen to get going!</p>
+				<p data-lang-id="004-lead-page-paragraph">Milstein hexagonal and triangular modules fit together to build simple, practical furniture from your ecobricks.  All you need is a dozen to get going!</p>
 			</div>
 	
 			<div class="page-paragraph">
-                <p>Milstein modules can be made by anyone, anywhere using simple materials and methods.  Using either silicone or tube-banding methods, ecobricks can be put to use right away in applications that embody circular and regenerative principles.</p>
-                <p>Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces.  People use them for tables, beds, benches and even stages!  Milsteins are often combined with <a href="/dms/">Dieleman Modules</a> to create <a href="/openspace/">Ecobrick Open Spaces.</a></p>
+                <p data-lang-id="005-first-page-paragraph">Milstein modules can be made by anyone, anywhere using simple materials and methods.  Using either silicone or tube-banding methods, ecobricks can be put to use right away in applications that embody circular and regenerative principles.</p>
+
+                <p data-lang-id="006-second-page-paragraph">Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces.  People use them for tables, beds, benches and even stages!  Milsteins are often combined with <a href="/dms">Dieleman Modules</a> to create <a href="/openspace">Ecobrick Open Spaces.</a></p>
                 
                 <p></p>
             </div>	
 
-            <a name="WHAT-IS"></a>
+   <!--WHAT IS-->
+   
             <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">
@@ -504,41 +502,37 @@ Content Page template: v.1.0.0-->
 		<div class="side">
 
         
+        <div class="side-module-desktop-mobile">
+    <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="12 ecobricks can make a triangle milstein eco brick module" data-lang-id="007-eco-brik-benches-img">
+    <h4 data-lang-id="008-start-with-briks">Start with only 12 Ecobricks</h4>
+    <h5 data-lang-id="009-first-milstein-module">To make your first triangle milstein module all you need is twelve ecobricks.  Once done, you can keep adding to it to make a hexagon.</h5><br>            
+</div>
 
-        <div id="side-module-desktop-mobile">
-                <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Get started with 12 Briks!</h4>
-                <h5>To make your first milstein module all you need is twelve ecobricks.  Once that's done, you can keep adding to it, or make others that fit into the first.</h5><br>
-                
-            </div>
+<div class="side-module-desktop-mobile">
+    <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="16 ecobricks make a hexagone, many hexagone modules can make cool furniture installations" data-lang-id="010-module-table-img">
+    <h4 data-lang-id="011-combine-modules">Combine Modules</h4>
+    <h5 data-lang-id="012-module-combination">Milstein modules fit together!  Combine modules vertically or horizontally to make more furniture.</h5><br>            
+</div>
 
-            <div id="side-module-desktop-mobile">
-                <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Combine Modules</h4>
-                <h5>After one module is done you can keep adding to it, or make others that fit into the first.</h5><br>
-                
-            </div>
 
-            <div id="side-module-desktop-mobile">
-                <img src="../webp/modules-circular.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Circular & Spiral</h4>
-                <h5>Milstein modules are 100% circular-- meaning that when their life comes to an end they can be either repaired or disassembled to make something else.</h5><br>
-                <a class="module-btn" href="/circular/">Learn More</a>
+<div class="side-module-desktop-mobile">
+                <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="after an ecobrick has been used in a module it can be spiralled into an earth build" data-lang-id="013-module-table-img">
+                <h4 data-lang-id="014-then-earth">Then build with Earth!</h4>
+                <h5 data-lang-id="015-module-spiral">After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
+                <a class="module-btn" href="earth.php">Earth Building</a>
             </div>
+	
+
+
+            <?php require_once ("side-modules/spiral-design-principle.php");?>
+
 
             
 
-            <div id="side-module-desktop-mobile">
-                <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Then build with Earth!</h4>
-                <h5>After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
-                <a class="module-btn" href="/build">Earth Building</a>
-            </div>
-	
 			
             
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
@@ -546,11 +540,6 @@ Content Page template: v.1.0.0-->
 			</div>
 
 			
-            
-            <?php include 'ecobricks_env.php';?> 
-            <?php require_once ("side-modules/ecobrick-of-the-month.php");?>
-            
-            <?php 	$conn->close();?>
 
             
 
@@ -560,16 +549,20 @@ Content Page template: v.1.0.0-->
 
 </div>
 
+                        </div>
+
+
+
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 
 </div>

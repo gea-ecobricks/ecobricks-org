@@ -502,33 +502,33 @@
 		<div class="side">
 
         
-
         <div class="side-module-desktop-mobile">
-                <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Get started with 12 Briks!</h4>
-                <h5>To make your first milstein module all you need is twelve ecobricks.  Once that's done, you can keep adding to it, or make others that fit into the first.</h5><br>
-                
-            </div>
+    <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="12 ecobricks can make a triangle milstein eco brick module" data-lang-id="007-eco-brik-benches-img">
+    <h4 data-lang-id="008-start-with-briks">Start with only 12 Ecobricks</h4>
+    <h5 data-lang-id="009-first-milstein-module">To make your first triangle milstein module all you need is twelve ecobricks.  Once done, you can keep adding to it to make a hexagon.</h5><br>            
+</div>
 
-            <div class="side-module-desktop-mobile">
-                <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Combine Modules</h4>
-                <h5>After one module is done you can keep adding to it, or make others that fit into the first.</h5><br>
-                
+<div class="side-module-desktop-mobile">
+    <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="16 ecobricks make a hexagone, many hexagone modules can make cool furniture installations" data-lang-id="010-module-table-img">
+    <h4 data-lang-id="011-combine-modules">Combine Modules</h4>
+    <h5 data-lang-id="012-module-combination">Milstein modules fit together!  Combine modules vertically or horizontally to make more furniture.</h5><br>            
+</div>
+
+
+<div class="side-module-desktop-mobile">
+                <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="after an ecobrick has been used in a module it can be spiralled into an earth build" data-lang-id="013-module-table-img">
+                <h4 data-lang-id="014-then-earth">Then build with Earth!</h4>
+                <h5 data-lang-id="015-module-spiral">After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
+                <a class="module-btn" href="earth.php">Earth Building</a>
             </div>
+	
+
 
             <?php require_once ("side-modules/spiral-design-principle.php");?>
 
 
             
 
-            <div class="side-module-desktop-mobile">
-                <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
-                <h4>Then build with Earth!</h4>
-                <h5>After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
-                <a class="module-btn" href="earth.php">Earth Building</a>
-            </div>
-	
 			
             
 
