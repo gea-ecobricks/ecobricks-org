@@ -7,7 +7,9 @@ EN SNIPPETS FOR ECOBRICKS.ORG/EARTHWANDS
 
 
 
-const en_Page_Translations = {
+const en_Page_Translations = 
+
+{
 
   
     '001-splash-title': 'The Earthwand',
