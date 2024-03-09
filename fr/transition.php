@@ -11,7 +11,7 @@
 
 <!--TOP PAGE BANNER-->
  
-<!-- 
+
 
 <div class="splash-content-block">
 	<div class="splash-box">
@@ -21,11 +21,11 @@
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;" alt="Plasti transition speedometer">
     </div>	
 </div>
-<div id="splash-bar"></div> -->
+<div id="splash-bar"></div>
 
 
 <!--TOP PAGE BANNER-->
-
+<!-- 
 <div class="splash-content-block">
 	<div class="splash-text-box">
 		<div class="splash-heading">Transition Plastique</div>
@@ -34,7 +34,7 @@
 	<div class="splash-image"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
-
+ -->
 
 
 <!-- PAGE CONTENT-->
