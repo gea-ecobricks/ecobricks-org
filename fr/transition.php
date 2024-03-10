@@ -57,7 +57,7 @@
 				
 				<p data-lang-id="011-8th-page-paragraph">But even more significantly, as a versatile raw material-- once reclaimed and put on a different trajectory, can enable us to build our greenest visions: the very gardens, homes and structures that will compose the green world for all earthen beings that we all long to live within.</p>
 
-                <p data-lang-id="012-9th-page-paragraph">This constructive transition is the goal of ecobricking! It is a shift from the greying impacts of petro-capital participation to our regenerative thriving.</p>
+                <p data-lang-id="012-9th-page-paragraph">This constructive transition is the goal of ecobricking! It is a shift from the greying impacts of petro-capital participation to our regenerative living.</p>
 
 			</div>	
 
@@ -300,7 +300,7 @@
                     </p>
                     <br><hr>
 
-                    <h5>🟢 Learn more: <a href="catalyst" target="_blank">The GEA Catalyst Program</a></h5>
+                    <h5>🟢 Learn more: <a href="../en/catalyst.php" >The GEA Catalyst Program</a></h5>
             <br>
 
 					
@@ -344,7 +344,7 @@
 
                     <br><hr>
                     
-                    <h5>🟢 Learn more: <a href="catalyst" target="_blank">The GEA Catalyst Program</a></h5>
+                    <h5>🟢 Learn more: <a href="../en/catalyst.php" >The GEA Catalyst Program</a></h5>
 
                 </div>
             </div>
@@ -357,10 +357,10 @@
 				<p>Plastic transition is based on several key regenerative concepts.</p>
 
                 <ul>
-						<li>Following the <a href="https://earthen.io/imagine/" target="_blank">Earth’s example</a> to be certain our processes are green</li>
+						<li>Following the <a href="https://book.earthen.io" target="_blank">Earth’s example</a> to be certain our processes are green</li>
 						<li>Understanding the way that <a href="/plastic">Earth sequestered its carbon to green the biosphere</a></li>
 						<li>The concept of <a href="sequest.php">plastic sequestration</a></li>
-						<li>Following <a href="/principles">regenerative principles</a>.</li>
+						<li>Following <a href="principles.php">regenerative principles</a>.</li>
                         <li> The regenerative <a href="/ayyew">concept of Ayyew</a> </li>
 					<ul> 
                 </p>
@@ -375,18 +375,14 @@
 		<div class="side">
  
 		
-        <div class="side-module-desktop-mobile">
-			<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry" data-lang-id="013-side-module-1-alt">
+        	<div class="side-module-desktop-mobile">
+				<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry" data-lang-id="013-side-module-1-alt">
 					<h4 data-lang-id="014-side-module-1-title">Plastic & the Petro-Capital Economy</h4>
 					<h5 data-lang-id="015-side-module-1-subtitle">As petroleum is refined into the fuels that power our economies, the left-over chemicals are used to produce plastics.  Learn by retracing the billion year back-story of today's plastic.</h5><br>
 					<a class="module-btn" href="/plastics" data-lang-id="016-side-module-1-button">Plastic's Long Story</a><br><br>
 				</div>
 
        
-
-
-           
-
             <div class="side-module-desktop-mobile">
 				<img src="../webp/tens-thousands.webp" width="80%" data-lang-id="017-side-module-2-alt">
 				<h4 data-lang-id="018-side-2-module-title" alt="Ecobricks can build our regenerative visions">Regenerative</h4>
@@ -395,19 +391,14 @@
 			</div>
 
 
-				<?php require_once ("side-modules/earthen-ethics.php");?>
+			<?php require_once ("side-modules/earthen-ethics.php");?>
 
-<?php require_once ("side-modules/spiral-design.php");?>
+			<?php require_once ("side-modules/spiral-design.php");?>
 	
 
             <?php include 'side-modules/eco-accounting-principle.php';?>
 
-
-
-				
-
 		</div>
-
 	</div>
 </div>
 

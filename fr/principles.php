@@ -95,7 +95,7 @@
 				<h5>ℹ️ Découvrez : <a href="/plastic">La longue histoire du plastique</a></h5>
 <h5>ℹ️ En savoir plus sur <a href="https://book.earthen.io" target="_blank">l'éthique terrestre</a></h5>
 
-
+ 
                 </div>
             </div>
 
