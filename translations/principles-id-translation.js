@@ -10,13 +10,12 @@ SNIPPETS FOR PRINCIPLES PAGE ON ECOBRICKS.ORG
 
 const id_Page_Translations = {
 
-    '001-splash-title': 'Our Earthen Principles',
-    '002-splash-subtitle': 'Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth\'s cycles.',
-    '003-splash-image-alt': '<img src="../svgs/earth-home-animated-v4.svg" style="width:90%;" alt="Our Earthen Principles embodied in an Earthen home construction">',
-    
-    '004-lead-page-paragraph': 'Guided by Earth\'s example, ecobricking doesn\'t just prevent pollution. As a hands on experience of Earthen and regenerative principles, ecobricking embodies our transition from petro-capitalism to a green new world.',
-    '005-first-page-paragraph': 'The South East Asian ecobrick movement <a href="/story">emerged out of</a> the ancestral lands of the Igorot people in the Northern Philippines.  Our ecobricking remains inspired by their concept of <a href="/ayyew">ayyew</a>— an ecological ethos that emulates the very principles by which Earth itself greened.',
-
+    "001-splash-title": "Prinsip Sila Bumi Kita",
+    "002-splash-subtitle": "Ecobricking dipandu oleh prinsip regeneratif yang mengarahkan kita menuju harmoni yang semakin meningkat dengan siklus Bumi.",
+    "003-splash-image-alt": '<img src="../svgs/earth-home-animated-v4.svg" style="width:90%;" alt="Prinsip Bumi Kita diwujudkan dalam konstruksi rumah Bumi">',
+    "004-lead-page-paragraph": "Dipandu oleh contoh Bumi, ecobricking tidak hanya mencegah polusi. Sebagai pengalaman langsung dari prinsip Bumi dan regeneratif, ecobricking mewujudkan transisi kita dari petro-kapitalisme ke dunia baru yang hijau.",
+    "005-first-page-paragraph": "Gerakan ecobrick Asia Tenggara <a href=\"/story\">muncul dari</a> tanah leluhur orang Igorot di Filipina Utara. Ecobricking kita tetap terinspirasi oleh konsep mereka tentang <a href=\"/ayyew\">ayyew</a>— etos ekologis yang meniru prinsip yang sama dengan mana Bumi itu sendiri menjadi hijau.",
+  
     "006-title": "Mengikuti Contoh Bumi",
     "007-subtitle": "Kita berusaha meniru cara Bumi merawat karbonnya untuk menghijaukan biosfer.",
     "008-paragraph": "Selama satu miliar tahun terakhir, Bumi telah secara perlahan dan stabil menghijaukan rumah bersama kita.",
@@ -32,7 +31,7 @@ const id_Page_Translations = {
     "018-learn-about-plastic": "ℹ️ Pelajari tentang: <a href=\"/plastic\">Kisah Panjang Plastik</a>",
     "019-source-earthen-ethics": "ℹ️ Sumber: <a href=\"https://book.earthen.io\" target=\"_blank\">Etika Bumi</a>"
 
-    
+
   }
 
         
