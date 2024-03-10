@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.777';?>
+<?php $version='1.7777';?>
 <?php $page='transition';?>
 
 <?php require_once ("../includes/transition2-inc.php");?>
@@ -28,8 +28,6 @@
 
 
 <!-- PAGE CONTENT-->
-
-<a name="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -400,7 +398,7 @@
 				<?php require_once ("side-modules/earthen-ethics.php");?>
 
 <?php require_once ("side-modules/spiral-design.php");?>
-			</div>
+	
 
             <?php include 'side-modules/eco-accounting-principle.php';?>
 
