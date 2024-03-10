@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.76';?>
+<?php $version='1.77';?>
 <?php $page='transition';?>
 
 <?php require_once ("../includes/transition2-inc.php");?>
@@ -395,7 +395,7 @@
 				<h5 data-lang-id="018-side-2-module-subtitle">Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
 				<a class="module-btn" href="/ayyew" data-lang-id="019-side-module-2-button">About Ayyew</a><br><br>
 			</div>
-			
+
 
 				<?php require_once ("side-modules/earthen-ethics.php");?>
 
