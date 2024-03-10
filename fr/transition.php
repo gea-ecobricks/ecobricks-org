@@ -23,18 +23,18 @@
 </div>
 <div id="splash-bar"></div>
 
-
 <!--TOP PAGE BANNER-->
-<!-- 
+
 <div class="splash-content-block">
-	<div class="splash-text-box">
-		<div class="splash-heading">Transition Plastique</div>
-		<div class="splash-sub">Notre plastique est un portail hors de notre vieux monde gris a le monde vert que nous toutes aspirons tous à voir.</div>
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splashDDD-title">Plastic Transition</div>
+	    <div class="splash-sub" data-lang-id="002-splashd-subtitle">Our plastic is a portal out of our old grey world and into the green world for all we all long to see.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;"></div>	
+	<div class="splash-image" data-lang-id="003-splashd-image-alt"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;" alt="Plasti transition speedometer">
+    </div>	
 </div>
 <div id="splash-bar"></div>
- -->
+
 
 
 <!-- PAGE CONTENT-->
@@ -48,23 +48,25 @@
 
 			<div class="lead-page-paragraph">
 				
-				<p>La transition plastique est la clé de notre passage de la participation pétro-capitaliste à la régénération de la biosphère.</p>
+				<p>By transitioning from our plastic we can shift from petro-capital participation to the regeneration of the biosphere.</p>
 				</div>
 
 			<div class="page-paragraph">
 				  
 
-            <p>Il peut être accablant d'entendre parler de toutes les crises écologiques de notre époque. Le changement climatique, la déforestation, l'acidification des océans font que la pollution plastique semble un problème mineur en comparaison. Cependant, comme tous nos problèmes écologiques, la pollution plastique est un symptôme de notre économie pétro-capitaliste - la façon dont notre argent et notre énergie sont alimentés par l'extraction et la combustion de combustibles fossiles. Mais cela rend la pollution plastique unique !
+				<p>It can be overwhelming to hear about all the ecological crises of our day.  Climate change, deforestation, ocean acidification-- they make the problem of plastic pollution seem minor issue in comparison! However, like all our ecological issues, plastic pollution is a symptom of our petro-capital economy– the way our money and energy is powered by fossil fuels.</p>
+				
+				<p>Of all ecological issues, this makes plastic unique.</p> 
                 
-                <p>C'est le seul problème que nous pouvons toucher - et à travers lui, le système d'exploitation pétro-capital à la base de tout cela.</p>
-
-            <p>Parce que nous l'utilisons tous, le plastique offre une opportunité unique d'action collective. Chacun de nos choix en matière de plastique, de l'achat à l'élimination, entraîne la rotation des usines, le transport des camions et le raffinage du pétrole - <b>ou pas</b>. </p>
+                <p>Through our the plastic that passes through our hands each day we can touch-- and impact-- the petro-capital economy that is otherwise so overwhelming huge and invisible.</p>
+				
+				<p>And, because we all use it, plastic provides a unique opportunity for collective action.  Our every plastic choice, compounded together with many other people's,results in factories spinning, trucks transporting, and oil refined– <b>or, not</b>. </p>
                 
-                <p>Ce que nous faisons avec notre plastique, car il tourne ou ralentit l'économie du pétro-capital a de grandes conséquences écologiques.<p>
+                <p>What we do with our plastic, as it spins or slows the petro-capital economy has big ecological consequence.<p>
 
-                <p>Notre plastique quotidien nous permet de faire des choix petits mais significatifs pour réduire notre participation à l'économie du pétro-capital. De manière sûre et stable, nous pouvons passer du plastique et du système alimenté au pétrole qui le sous-tend. C'est un passage de l'ajout de CO2 et de plastique à la biosphère à l'élimination et à la prévention des deux.</p>
+                <p>Our daily plastic enables us to make small yet meaningful choices to reduce our participation in the petro-capital economy behind it.  Its a shift from adding CO2 and plastic to the biosphere to removing and preventing them both.</p>
 
-                <p>Cette transition est l'objectif de l'écobrique ! C'est un passage des impacts grisants de la participation au pétro-capital à ce que nous appelons la vie régénérative.</p>
+                <p>This transition is the goal of ecobricking! It is a shift from the greying impacts of petro-capital participation to regenerative living.</p>
 
 			</div>	
 

@@ -10,7 +10,7 @@ ID SNIPPETS FOR ECOBRICKS.ORG/EARTHWANDS
 const id_Page_Translations = {
 
     
-        '001-splash-title': 'Earthwand',
+        '001-splash-title': 'Tongkat Earthwand',
         '002-splash-subtitle': 'Membuat plastik Anda menghilang',
         '003-splash-image-alt': '<img src="../icons/earthwand-shadow.svg" style="width: 85%" alt="EarthWand adalah produk regeneratif yang dirancang dari awal untuk menjadi alat pembungkus plastik dan pembuat ecobrick yang sempurna.">',
         
