@@ -112,102 +112,89 @@
 
 
 
-    
 <section id="CONCENTRATION">
+    <div class="reg-content-block" id="block3">
+        <div class="opener-header">
+            <div class="opener-header-text">
+                <h4 data-lang-id="038-title">1. Secured Concentration</h4>
+                <h5 data-lang-id="039-subtitle">The process secures plastic from all forms of chemical and physical degradation and from industrial processing.</h5><br>
+            </div>
+            <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+        </div>
+        <div id="preclosed3">
+            <p data-lang-id="040-paragraph1"><b>In the same way that the Earth sequestered carbon by concentrating, securing and storing it indefinitely, plastic sequestration must do the same.</b></p>
+            <div class="row">
+                <div class="main2">
+                    <p data-lang-id="041-paragraph2">The Earth’s cycles steadily led to more and more carbon being secured from all forms of solar, chemical and organic degradation. In the same way, plastic sequestration must concentrate plastic. Keeping plastic as plastic and securing it into long-term, indefinite and secured storage is key to its sequestration. </p>
+                </div>
+                <div class="side2"><img src="../webp/compacted-carbon.webp" width="92%" data-lang-id="042-image1"></div>
+            </div>
+            <div class="row2">
+                <div class="main3">
+                    <p data-lang-id="043-paragraph3">Keeping plastic that has already been produced as plastic is an effective way to keep its carbon from getting loose.</p>
+                </div>
+                <div class="side3"><br><img src="../webp/compacted-carbon.webp" width="150px" data-lang-id="044-image2"></div>
+            </div>
+            <p data-lang-id="045-paragraph4">Plastic degrades quickly when it is exposed to sun, fire, oxygen and/or friction. Its degradation is in proportion to its surface area. As the majority of modern plastic is in the form of thin films, when it is loose and exposed, it is prone to rapid degradation. Plastic degrades by fragmenting into smaller and smaller particles, known as micro-plastics, greenhouse gases, and toxins.</p>
+            <p data-lang-id="046-paragraph5">By compacting thin, high-surface area plastic, the net exposed area is reduced a thousand-fold. The GEA has found that reaching a density of 0.33 g/ml achieves a terminal reduction of net surface area for the majority of modern thin film plastics. Once compacted and contained, plastic is secured from degradation and can remain intact indefinitely.</p><br>
+            <p data-lang-id="047-sequestration-standard"><b>Sequestration Standard</b></p>
+            <p data-lang-id="048-standard-detail">To be considered plastic sequestration, the processing of plastic must achieve the minimum density of 0.33 g/ml and ensure secure, indefinite storage.</p>
+            <br><hr>
+            <h5 data-lang-id="049-learn-more">🌍 Learn more: <a href="https://medium.com/earthen/the-oysters-example-6172c62a9a0b" target="_blank">The Earthen Principle of Concentration</a></h5>
+        </div>
+    </div>
+</section>
 
-                    <div class="reg-content-block" id="block3">
-                        <div class="opener-header">
-                            <div class="opener-header-text">
-                                <h4>1. Secured Concentration</h4>
-                                <h5>The process secures plastic from all forms of chemical and physical degradation and from industrial processing.</h5><br>
-                            </div>
-                            <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-                        </div>
 
-                        <div id="preclosed3">
 
-                        <p><b>In the same way that the Earth sequestered carbon by concentrating, securing and storing it indefinitely, plastic sequestration must do the same.</b></p>
+<section id="SPIRAL">
 
-                            <div class="row">
-                                <div class="main2">
-                                
-                                <p>The Earth’s cycles steadily led to to more and more carbon being secured from all forms of solar, chemical and organic degradation.  In the same way, plastic sequestration must concentrate plastic must do the same.  Keeping plastic as plastic and securing it into long-term, indefinite and secured storage is key to its sequestration. </p>
-                                </div>
-                                <div class="side2"><img src="../webp/compacted-carbon.webp" width="92%">
-                                </div>
-                            </div>
+<div class="reg-content-block" id="block2">
+    <div class="opener-header">        
+        <div class="opener-header-text">
+            <h4 data-lang-id="050-title">2. Spiral Design</h4>
+            <h5 data-lang-id="051-subtitle">Outputs are indefinitely reusable and lead to indefinite cycles of reuse.</h5><br>
+        </div>
+        <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+    </div>
 
-                            <div class="row2">
-                                <div class="main3">
-                                <p>Keeping plastic that has already been produced as plastic as plastic is an effective way to keep its carbon from getting loose.</p>
-                                
-                                </div>
-                                <div class="side3"><br><img src="../webp/compacted-carbon.webp" width="150px">
-                                </div>
-                            </div>
-                            
-                            <p>Plastic degrades quickly when it is exposed to sun, fire, oxygen and/or friction.  Its degradation is in proportion to its surface area.   As the majority of of modern plastic is in the form of thin films, when it is loose and exposed, it is prone to rapid degradation. Plastic degrades by fragmenting into smaller and smaller particles, known as micro-plastics, green house gases and toxins.</p>
+    <div id="preclosed2">
+        <p data-lang-id="052-paragraph1"><b>In the same way that Earth's processes led to the cyclical use of carbon in cycles that spiralled towards sequestration so too must the process of plastic sequestration.</b></p>
 
-                            <p>By compacting thin, high-surface area plastic, the net exposed area is reduced a thousand-fold.  The GEA has found that a reaching a density of 0.33 g/ml achieves a terminal reduction of net surface area for the majority of modern thin film plastics.  Once compacted and contained plastic is secured from degradation and can remain intact indefinitely.</p><br>
+        <div class="row">
+            <div class="main2">
+                <p data-lang-id="053-paragraph2">arth's processes used carbon-based building blocks that were reusable over and over by organisms and ecosystems. Overtime, this biomass tended towards concentration and sequestration under the earth. In the same way, the outputs of plastic sequestration, must intend the same.</p>
+            </div>
+            <div class="side2"><img src="../webp/spiral-design-381px.webp" width="80%" data-lang-id="054-image1"></div>
+        </div>
 
-                            <p><b>Sequestration Standard</b></p>
-                            <p>To be considered plastic sequestration, the processing of plastic must achieve the minimum density of 0.33 g/ml and ensure secure, indefinite storage.</p>
-                            <br><hr>
+        <div class="row2">
+            <div class="main3">
+                <p data-lang-id="055-paragraph3">As such, plastic sequestration is by-definition a non-industrial process.</p>
+            </div>
+            <div class="side3"><br><img src="../webp/spiral-design-381px.webp" width="120px" data-lang-id="056-image2"></div>
+        </div>
 
-                            <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-oysters-example-6172c62a9a0b" target="_blank">The Earthen Principle of Concentration</a></h5>
-                        </div>
-                    </div>
+        <p data-lang-id="057-paragraph4">Industrial plastic management methods are typically linear. Plastic recycling, incineration, and landfilling spiral plastic towards dispersion. Industrial methods are powered by fossil fuels that are decompacted and burned, loosening their carbon into the atmosphere.</p>
+
+        <p data-lang-id="058-paragraph5">In comparison, the Earth has used carbon in circular, cyclical processes. Carbon molecules such as nucleic acids, proteins, lipids, and glycans make up all organisms–and when one organism comes to an end, another begins by building itself with the other’s blocks. This continues indefinitely until the carbon is subsumed into long-term sequestration.</p><br>
+
+        <p data-lang-id="059-paragraph6">Intending net-green outputs that can be reused indefinitely until they are eventually sequestered in earthen applications is known as spiral design.</p>
+
+        <br><p data-lang-id="060-standards"><b>Plastic Sequestration Standards</b></p>
+        <p data-lang-id="061-standards-detail">To be considered sequestered, plastic sequestration outputs must be demonstrably reusable. Their application must prevent abiotic and biotic degradation, reducing the specific surface degradation rate (SSDR) of the plastic to below 0.1 μm year–1.</p>
+        <br><hr>
+
+        <h5 data-lang-id="062-learn-more">🌍 Learn more: <a href="https://book.earthen.io/en/spirals.html" target="_blank">The Earthen Principle of Spiral Cycling</a></h5>
+
+
+    </div>
+</div>
+
 
 </section>
 
 
-                    <a name="SPIRAL"></a>
-                    <div class="reg-content-block" id="block2">
-
-                    <div class="opener-header">
-                        
-                        <div class="opener-header-text">
-                            <h4>2. Circuar Design</h4>
-                            <h5>Outputs are indefinitely reusable and lead to indefinite cycles of reuse.</h5>
-                            <br>
-                        </div>
-
-                        <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-                    </div>
-
-                    <div id="preclosed2">
-                        <p><b>In the same way that the Earth's processes led to the circular use of carbon in cycles that spiralled towards sequestration so too must the process of plastic sequestration.</b></p>
-
-                        <div class="row">
-                            <div class="main2">
-                        
-                            <p>The Earth's processes used carbon based building blocks that were resuable over and over by organisms and ecosystems.  Overtime, this biomass tended towards concentration and sequestration under the earth.  In the same way, the outputs of plastic sequestration, must intend the same.</p>
-                            </div>
-                            <div class="side2"><img src="../webp/spiral-design-381px.webp" width="80%">
-                            </div>
-                        </div>
-
-                        <div class="row2">
-                            <div class="main3">
-                            <p>As such plastic sequestration is by-definiton a non-industrial process.</p>
-                            </div>
-                            <div class="side3"><br><img src="../webp/spiral-design-381px.webp" width="120px">
-                            </div>
-                        </div>
-
-                            <p>Industrial plastic plastic management methods are typically linear.  Plastic recycling, incineration and landfilling spirals plastic towards dispersion.  Industrial methods are powered by fossil fuels that are decompacted and burned, loosening their carbon into the atmosphere.</p>
-
-                            <p>In comparison, the Earth has used carbon in circular, cyclical processes.  Carbon molecules such as nucleic acids, proteins, lipids and glycans make up all organisms– and when one organism comes to an end, another begins by building itself with the other’s blocks.  This continues indefinitely, until the carbon is subsumed into long-term sequestration.</p><br>
-
-                            <p>Intending net-green outputs that can be reused indefinitely until they are eventually sequestered earthen applications is known as circular design.</p>
-
-                            <br><p><b>Plastic Sequestration Standards</b><p>
-                            <p>To be considered sequestered, plastic sequestration outputs must be demonstrably reusable.  Their application must prevent abiotic and biotic degradation, reducing  specific surface degradation rate (SSDR) of the plastic to below 0.1 μm year–1.</p>
-                            <br><hr>
-
-                            <h5>🌍 Learn more: <a href="https://earthen.io/spirals/" target="_blank">The Earthen Principle of Spiral Cycling</a></h5>
-                        </div>
-                    </div>
 
                     <a name="FOR-EARTH"></a>
                     <div class="reg-content-block" id="block4">
@@ -253,7 +240,7 @@
                             <p>Enterprises undertaking the process of plastic sequestration must formally declare their not-for-profit, for-Earth structure.</p>
                             <br><hr>
 
-                            <h5>🌍 Learn more: <a href="https://medium.com/@russellmaier/the-salmon-its-sharing-of-surpluses-a4f981978360" target="_blank">The Earthen Principle of Biosphere Benefit</a></h5>
+                            <h5>🌍 Learn more: <a href="https://book.earthen.io/en/energy.html" target="_blank">The Earthen Principle of Biosphere Benefit</a></h5>
                         </div>
                     </div>
 
