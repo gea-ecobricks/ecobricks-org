@@ -1,6 +1,6 @@
 <!-- Meta tags for page display and search engine listing-->
  
-<title>The Earthwand</title>
+<title>Tongkat Earthwand</title> 
 
 <meta name="keywords" content="earthwands, ecobrick, stick, dowl, bamboo, packing, wood, earth, wand, ecobricking, make">
 
@@ -8,15 +8,15 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/en/earthwand.php">
+	<meta property="og:url"           content="https://ecobricks.org/id/earthwand.php">
 	<meta property="og:type"          content="website">
- 	<meta property="og:title"         content="The Earthwand">
-  	<meta property="og:description"   content="Make your plastic disapear with the ultimate ecobricking tool.">
+ 	<meta property="og:title"         content="Tongkat Earthwand">
+  	<meta property="og:description"   content="Membuat plastik Anda menghilang">
   	<meta property="og:image"         content="https://www.ecobricks.org/en/pngs/how-to-banner-1000px.png">
   	<meta property="og:image:width" content="1000">
 	<meta property="og:image:height" content="1000" >
   	<meta property="og:image:alt"     content="An ecobrick surrounded by plastic, a packing stick and a phone with the GoBrik app.">
-	  <meta property="og:locale" content="en_GB" >
+	  <meta property="og:locale" content="id_ID" >
 
 	  <meta name="author" content="Ecobricks.org">
   

@@ -3,12 +3,12 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.8';?>
+<?php $version='1.81';?>
 <?php $page='earthwand';?>
 
 <?php require_once ("../includes/earthwand-inc.php");?>
 
-<article id="the-earthwand">
+<article id="tongkat-earthwand">
 
 
 <!--PAGE BANNER-->
@@ -16,7 +16,7 @@
 
  <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Earthwand</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Tongkat Earthwand</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Membuat plastik Anda menghilang</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/earthwand-shadow.svg" style="width: 85%" alt="EarthWand adalah produk regeneratif yang dirancang dari awal untuk menjadi alat pembungkus plastik dan pembuat ecobrick yang sempurna.">
