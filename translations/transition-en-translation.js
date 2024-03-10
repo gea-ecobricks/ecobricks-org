@@ -33,13 +33,23 @@ const en_Page_Translations = {
     "011-8th-page-paragraph": "But even more significantly, as a versatile raw material-- once reclaimed and put on a different trajectory, can enable us to build our greenest visions: the very gardens, homes and structures that will compose the green world for all earthen beings that we all long to live within.",
     "012-9th-page-paragraph": "This constructive transition is the goal of ecobricking! It is a shift from the greying impacts of petro-capital participation to our collective regenerative thriving.",
 
-    "000-test": '<img src="../webp/oil-barrel-400px.webp" width="90%" alt="TEST">',
+    "013-side-module-1-alt": '<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastic & the Petro-Capital Economy">',
     "014-side-module-1-title": "Plastic & the Petro-Capital Economy",
     "015-side-module-1-subtitle": "As petroleum is refined into the fuels that power our economies, the left-over chemicals are used to produce plastics. Learn by retracing the billion year back-story of today's plastic.",
     "016-side-module-1-button": '<a class="module-btn" href="/plastics">Plastic\'s Long Story</a>',
     "017-side-2-module-title": "Regenerative",
     "018-side-2-module-subtitle": "Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.",
-    "019-side-module-2-button": '<a class="module-btn" href="/ayyew">About Ayyew</a>'
+    "019-side-module-2-button": '<a class="module-btn" href="/ayyew">About Ayyew</a>',
+
+    "013-side-module-1-alt": '<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry">',
+    "014-side-module-1-title": "Plastic & the Petro-Capital Economy",
+    "015-side-module-1-subtitle": "As petroleum is refined into the fuels that power our economies, the left-over chemicals are used to produce plastics. Learn by retracing the billion year back-story of today's plastic.",
+    "016-side-module-1-button": '<a class="module-btn" href="/plastics">Plastic\'s Long Story</a>',
+    "017-side-module-2-alt": '<img src="../webp/tens-thousands.webp" width="80%">',
+    "018-side-2-module-title": "Regenerative",
+    "019-side-2-module-subtitle": "Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.",
+    "020-side-module-2-button": '<a class="module-btn" href="/ayyew">About Ayyew</a>'
+  
   
   
 

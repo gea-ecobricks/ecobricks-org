@@ -57,7 +57,7 @@
 				
 				<p data-lang-id="011-8th-page-paragraph">But even more significantly, as a versatile raw material-- once reclaimed and put on a different trajectory, can enable us to build our greenest visions: the very gardens, homes and structures that will compose the green world for all earthen beings that we all long to live within.</p>
 
-                <p data-lang-id="012-9th-page-paragraph">This constructive transition is the goal of ecobricking! It is a shift from the greying impacts of petro-capital participation to our collecative regenerative thriving.</p>
+                <p data-lang-id="012-9th-page-paragraph">This constructive transition is the goal of ecobricking! It is a shift from the greying impacts of petro-capital participation to our regenerative thriving.</p>
 
 			</div>	
 
@@ -376,7 +376,7 @@
  
 		
         <div class="side-module-desktop-mobile">
-			<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry" data-lang-id="000-test">
+			<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry" data-lang-id="013-side-module-1-alt">
 					<h4 data-lang-id="014-side-module-1-title">Plastic & the Petro-Capital Economy</h4>
 					<h5 data-lang-id="015-side-module-1-subtitle">As petroleum is refined into the fuels that power our economies, the left-over chemicals are used to produce plastics.  Learn by retracing the billion year back-story of today's plastic.</h5><br>
 					<a class="module-btn" href="/plastics" data-lang-id="016-side-module-1-button">Plastic's Long Story</a><br><br>
@@ -388,10 +388,10 @@
            
 
             <div class="side-module-desktop-mobile">
-				<img src="../webp/tens-thousands.webp" width="80%">
-				<h4 data-lang-id="017-side-2-module-title">Regenerative</h4>
-				<h5 data-lang-id="018-side-2-module-subtitle">Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
-				<a class="module-btn" href="/ayyew" data-lang-id="019-side-module-2-button">About Ayyew</a><br><br>
+				<img src="../webp/tens-thousands.webp" width="80%" data-lang-id="017-side-module-2-alt">
+				<h4 data-lang-id="018-side-2-module-title" alt="Ecobricks can build our regenerative visions">Regenerative</h4>
+				<h5 data-lang-id="019-side-2-module-subtitle">Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
+				<a class="module-btn" href="/ayyew" data-lang-id="020-side-module-2-button">About Ayyew</a><br><br>
 			</div>
 
 
