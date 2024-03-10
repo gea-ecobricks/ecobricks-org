@@ -208,7 +208,7 @@
 				
                 <div class="row">
                             <div class="main2">
-                            <p>The Global Ecobrick Alliance has develop a Plastic Transition Score to track plastic transition on its GoBrik.com platform.  All accounts on GoBrik now allow the generation of a user’s score.  Scores are calculated by household– families or groups of people living under the same roof.<p>
+                            <p>The Global Ecobrick Alliance has developed a Plastic Transition Score to track plastic transition on its GoBrik.com platform.  All user accounts on our GoBrik generate our user’s score based on responses to registration questions.  Scores are calculated by household– families or groups of people living under the same roof.<p>
                             </div>
                             <div class="side2"><img src="../webp/floating-dial-500px.webp" width="88%">
                             </div>
@@ -378,25 +378,28 @@
  
 		
         <div class="side-module-desktop-mobile">
-			<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry">
-					<h4>Plastic & the Petro-Capital Economy</h4>
-					<h5>As petroleum is refined into the fuels that power our economies, the leftovers chemicals are used to produce plastics.</h5><br>
-					<a class="module-btn" href="/plastics">Plastic's Full Story</a><br><br>
+			<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry" data-lang-id="000-test">
+					<h4 data-lang-id="014-side-module-1-title">Plastic & the Petro-Capital Economy</h4>
+					<h5 data-lang-id="015-side-module-1-subtitle">As petroleum is refined into the fuels that power our economies, the left-over chemicals are used to produce plastics.  Learn by retracing the billion year back-story of today's plastic.</h5><br>
+					<a class="module-btn" href="/plastics" data-lang-id="016-side-module-1-button">Plastic's Long Story</a><br><br>
 				</div>
 
+       
 
-            <div class="side-module-desktop-mobile">
-				<img src="../icons/earthen-ethics-icon-ecobricks-org.svg" width="80%">
-				<h4>Earthen Ethics</h4>
-				<h5>To transition from plastic we must transition to following Earth's example of ecological enrichment.</h5><br>
-				<a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">Learn More</a>
-			</div>
+
+           
 
             <div class="side-module-desktop-mobile">
 				<img src="../webp/tens-thousands.webp" width="80%">
-				<h4>Regenerative</h4>
-				<h5>Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
-				<a class="module-btn" href="about.php">About Ayyew</a>
+				<h4 data-lang-id="017-side-2-module-title">Regenerative</h4>
+				<h5 data-lang-id="018-side-2-module-subtitle">Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
+				<a class="module-btn" href="/ayyew" data-lang-id="019-side-module-2-button">About Ayyew</a><br><br>
+			</div>
+			
+
+				<?php require_once ("side-modules/earthen-ethics.php");?>
+
+<?php require_once ("side-modules/spiral-design.php");?>
 			</div>
 
             <?php include 'side-modules/eco-accounting-principle.php';?>
