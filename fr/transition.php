@@ -17,10 +17,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Transition</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Our plastic is a portal out of the old grey world and into the green world for all, that we all long to see.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Transition Plastique</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Notre plastique est un portail hors de l'ancien monde gris et vers le monde vert pour tous, que nous aspirons tous à voir.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/floating-dial-500px.webp" style="width: 100%;" alt="Plastic transition is a metric of our petro-capital transition">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/floating-dial-500px.webp" style="width: 100%;" alt="La transition plastique est une mesure de notre transition pétro-capitaliste">
     </div>	
 </div>
 <div id="splash-bar"></div>
