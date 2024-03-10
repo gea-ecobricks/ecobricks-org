@@ -14,9 +14,9 @@
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Our Earthen Principles</div>
-		<div class="splash-sub" data-lang-id="002-splash-subtitle">NEcobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt" ><img src="../svgs/earth-home-animated-v4.svg" style="width:90%;" alt="Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles."></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt" ><img src="../svgs/earth-home-animated-v4.svg" style="width:90%;" alt="Our Earthen Principles embodied in an Earthen home construction"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -39,62 +39,47 @@
 		</div>
 
 
-		   <div class="reg-content-block" id="block1">
+		<!--FOLLOWING EARTH'S EXAMPLE--->
+		
 
-                <div class="opener-header">
-                    
-                    <div class="opener-header-text">
-                    <h4>Following Earth's Example</h4>
-                    <h5>We strive to emulate the ways Earth cared for its carbon to green the biosphere.</h5>   
-                    <br>
-                    </div>
-
-                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-                </div>
-
-                <div id="preclosed1">
-
-                <div class="row">
-						<div class="lead-panel-paragraph"><p>For the last billion years, Earth has been slow and steady greened our common home.</p></div>
-
-						<div class="main2">
-
-						<p>The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere while providing us an example to follow to do the same.  By following the our planet's principles, we can make sure our methods and means are green.  Our plastic -- which is made using ancient compacted carbon -- is the perfect place to start!</p>
-
-						</div>
-						<div class="side2"><img src="../svgs/following-earths-example.svg" width="100%">
-						</div>
-					</div>
-					<div class="row2">
-						<div class="main3">
-						<p>Following Earth's example is the basis of <a href="https://book.earthen.io"  target="_blank">Earthen ethics</a>: five principles based on our planet's cosmological character.  </p>
-						</div>
-						<div class="side3"><img src="../svgs/following-earths-example.svg" width="150px">
-						</div>
-					</div>
-				
-				<ol>
-					<li><p><b><a href="https://book.earthen.io/spirals"  target="_blank">Spiral:</a></b>  In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over in such a way that it steadily enriches local and global ecosystems.</p></li>
-
-					<li><p><b><a href="https://book.earthen.io/energy" target="_blank"> For-Earth:</a></b> In the same way that Earth’s cycles disperse  energy outwards from process, to ecosystem to biosphere, so to can we.  In particular: with the process of managing our plastic.  Rather than manage our plastic for profit, we can be sure to ecobrick first and foremost for the benefit of the biosphere.</p></li>
-
-    				<li><p><b><a href="https://book.earthen.io/en/matter.html" target="_blank"> Towards Concentration:</a></b>  In the same way that Earth steadily compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic.  By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, buring or industrially recycling.</p></li>
-    
-				
-    				<li><p><b><a href="https://book.earthen.io/en/diversification.html" target="_blank"> Towards Diversity:</a></b>  In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same.  Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</p></li>
-
-    				<li><p><b><a href="https://book.earthen.io/earthen/awareness.html" target="_blank">Towards Awareness:</a></b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic!  Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</p></li>
-
-				</ol>
-				<br><br><hr>
-
-			
-				<h5>ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
-				<h5>ℹ️ Source: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></h5>
-
-
-                </div>
+		<div class="reg-content-block" id="block1">
+    <div class="opener-header">    
+        <div class="opener-header-text">
+            <h4 data-lang-id="006-title">Following Earth's Example</h4>
+            <h5 data-lang-id="007-subtitle">We strive to emulate the ways Earth cared for its carbon to green the biosphere.</h5>   
+            <br>
+        </div>
+        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+    </div>
+    <div id="preclosed1">
+        <div class="row">
+            <div class="lead-panel-paragraph"><p data-lang-id="008-paragraph">For the last billion years, Earth has been slow and steady greened our common home.</p></div>
+            <div class="main2">
+                <p data-lang-id="009-main-text">The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere while providing us an example to follow to do the same. By following the our planet's principles, we can make sure our methods and means are green. Our plastic -- which is made using ancient compacted carbon -- is the perfect place to start!</p>
             </div>
+            <div class="side2"><img src="../svgs/following-earths-example.svg" width="100%" data-lang-id="010-image">
+            </div>
+        </div>
+        <div class="row2">
+            <div class="main3">
+                <p data-lang-id="011-earthen-ethics">Following Earth's example is the basis of <a href="https://book.earthen.io"  target="_blank">Earthen ethics</a>: five principles based on our planet's cosmological character.</p>
+            </div>
+            <div class="side3"><img src="../svgs/following-earths-example.svg" width="150px" data-lang-id="012-image-side">
+            </div>
+        </div>
+        <ol>
+            <li><p data-lang-id="013-spiral"><b><a href="https://book.earthen.io/en/spirals.html"  target="_blank">Spiral:</a></b> In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic. By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over in such a way that it steadily enriches local and global ecosystems.</p></li>
+            <li><p data-lang-id="014-for-earth"><b><a href="https://book.earthen.io/en/energy" target="_blank"> For-Earth:</a></b> In the same way that Earth’s cycles disperse energy outwards from process, to ecosystem to biosphere, so to can we. In particular: with the process of managing our plastic. Rather than manage our plastic for profit, we can be sure to ecobrick first and foremost for the benefit of the biosphere.</p></li>
+            <li><p data-lang-id="015-towards-concentration"><b><a href="https://book.earthen.io/en/matter.html" target="_blank"> Towards Concentration:</a></b> In the same way that Earth steadily compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic. By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, burning or industrially recycling.</p></li>
+            <li><p data-lang-id="016-towards-diversity"><b><a href="https://book.earthen.io/en/diversification.html" target="_blank"> Towards Diversity:</a></b> In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same. Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</p></li>
+            <li><p data-lang-id="017-towards-awareness"><b><a href="https://book.earthen.io/en/awareness.html" target="_blank">Towards Awareness:</a></b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic! Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</p></li>
+        </ol>
+        <br><br><hr>
+        <h5 data-lang-id="018-learn-about-plastic">ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
+        <h5 data-lang-id="019-source-earthen-ethics">ℹ️ Source: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></h5>
+    </div>
+</div>
+
 
 
 

@@ -17,13 +17,12 @@ SNIPPETS FOR PRINCIPLES PAGE ON ECOBRICKS.ORG
 
 const es_Page_Translations = {
 
-    '001-splash-title': 'Our Earthen Principles',
-    '002-splash-subtitle': 'Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth\'s cycles.',
-    '003-splash-image-alt': '<img src=".../svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;" al="Our Earthen Principles embodied in an Earthen home construction">',
-    
-    '004-lead-page-paragraph': 'Guided by Earth\'s example, ecobricking doesn\'t just prevent pollution. As a hands on experience of Earthen and regenerative principles, ecobricking embodies our transition from petro-capitalism to a green new world.',
-    '005-first-page-paragraph': 'The South East Asian ecobrick movement <a href="/story">emerged out of</a> the ancestral lands of the Igorot people in the Northern Philippines.  Our ecobricking remains inspired by their concept of <a href="/ayyew">ayyew</a>— an ecological ethos that emulates the very principles by which Earth greened our planet\'s surface.',
-
+    "001-splash-title": "Nuestros Principios Terrenales",
+    "002-splash-subtitle": "El ecobrickeo está guiado por principios regenerativos que nos señalan hacia una armonía cada vez mayor con los ciclos de la Tierra.",
+    "003-splash-image-alt": '<img src="../svgs/earth-home-animated-v4.svg" style="width:90%;" alt="Nuestros Principios Terrenales encarnados en una construcción de casa de Tierra">',
+    "004-lead-page-paragraph": "Guiado por el ejemplo de la Tierra, el ecobrickeo no solo previene la contaminación. Como una experiencia práctica de principios Terrenales y regenerativos, el ecobrickeo encarna nuestra transición del petro-capitalismo a un nuevo mundo verde.",
+    "005-first-page-paragraph": "El movimiento de ecobrickeo en el Sureste Asiático <a href=\"/story\">surgió de</a> las tierras ancestrales del pueblo Igorot en el norte de Filipinas. Nuestro ecobrickeo sigue inspirado por su concepto de <a href=\"/ayyew\">ayyew</a>— un ethos ecológico que emula los mismos principios por los cuales la Tierra se volvió verde."
+  
     
 }
         

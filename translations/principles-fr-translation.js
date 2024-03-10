@@ -17,13 +17,12 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const fr_Page_Translations = {
 
-    '001-splash-title': 'Nos principes terrestres',
-    '002-splash-subtitle': 'Nous sommes oriententés vers une harmonie croissante avec les cycles Terrestres.',
-    '003-splash-image-alt': '<img src="../svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;" al="Nos principes terrestres manifester dans un batiment">',
-    
-    '004-lead-page-paragraph': 'Guidé par l\'exemple de la Terre, l\'écobrique ne se contente pas d\'empêcher la pollution. En tant qu\'expérience pratique des principes de terre et de régénération, l\'écobrique incarne notre transition du pétro-capitalisme vers un nouveau monde vert.',
-    '005-first-page-paragraph': 'Le mouvement des écobriques d\'Asie du Sud-Est est né des terres ancestrales du peuple Igorot dans le nord des Philippines. Notre écobrique reste inspirée par leur concept de <a href="/ayyew">ayyew</a>– une philosophie écologique qui imite les principes mêmes par lesquels la Terre a reverdi la surface de notre planète.',
-
+    "001-splash-title": "Nos Principes Terriens",
+    "002-splash-subtitle": "L'ecobricking est guidé par des principes régénératifs qui nous orientent vers une harmonie toujours croissante avec les cycles de la Terre.",
+    "003-splash-image-alt": '<img src="../svgs/earth-home-animated-v4.svg" style="width:90%;" alt="Nos Principes Terriens incarnés dans une construction de maison en Terre">',
+    "004-lead-page-paragraph": "Guidé par l'exemple de la Terre, l'ecobricking ne prévient pas seulement la pollution. En tant qu'expérience pratique des principes Terriens et régénératifs, l'ecobricking incarne notre transition du pétro-capitalisme vers un nouveau monde vert.",
+    "005-first-page-paragraph": "Le mouvement ecobrick en Asie du Sud-Est <a href=\"/story\">a émergé de</a> la terre ancestrale du peuple Igorot dans le nord des Philippines. Notre ecobricking reste inspiré par leur concept d'<a href=\"/ayyew\">ayyew</a>— une éthique écologique qui émule les principes mêmes par lesquels la Terre elle-même s'est verdie."
+  
     
 }
         
