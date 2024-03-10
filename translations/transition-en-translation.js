@@ -33,7 +33,6 @@ const en_Page_Translations = {
     "011-8th-page-paragraph": "But even more significantly, as a versatile raw material-- once reclaimed and put on a different trajectory, can enable us to build our greenest visions: the very gardens, homes and structures that will compose the green world for all earthen beings that we all long to live within.",
     "012-9th-page-paragraph": "This constructive transition is the goal of ecobricking! It is a shift from the greying impacts of petro-capital participation to our collective regenerative thriving.",
 
-    "000-test": '<img src="../webp/oil-barrel-400px.webp" width="90%" alt="TEST">',
     "014-side-module-1-title": "Plastic & the Petro-Capital Economy",
     "015-side-module-1-subtitle": "As petroleum is refined into the fuels that power our economies, the left-over chemicals are used to produce plastics. Learn by retracing the billion year back-story of today's plastic.",
     "016-side-module-1-button": '<a class="module-btn" href="/plastics">Plastic\'s Long Story</a>',

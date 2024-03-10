@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.77';?>
+<?php $version='1.777';?>
 <?php $page='transition';?>
 
 <?php require_once ("../includes/transition2-inc.php");?>
