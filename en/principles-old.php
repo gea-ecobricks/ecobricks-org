@@ -1,45 +1,49 @@
 
-<!DOCTYPE html>
-<HTML lang="en"> 
-<HEAD>
-<META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='1.6';?>
-<?php $page='principles';?>
+<!--PAGE LANGUAGE:  ENGLISH
+Content Page template: v.1.0.1-->
+  
+<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
+ 
+<?php require_once ("../includes/principles-inc.php");?>
 
-<?php require_once ("../includes/principles-inc2.php");?>
+<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
+<!--<?php require_once ("translate-please.php");?>-->
+
 
 <!--SPLASH SECTION-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Our Earthen Principles</div>
-		<div class="splash-sub" data-lang-id="002-splash-subtitle">NEcobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.</div>
+		<div class="splash-heading">Our Earthen Principles</div>
+		<div class="splash-sub">Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt" ><img src="../svgs/earth-home-animated-v4.svg" style="width:90%;" alt="Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles."></div>	
+	<div class="splash-image"><img src="https://www.ecobricks.org/svgs/earth-home-animated-v3.svg?v=2" style="width: 100%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
-
+ 
 <!-- PAGE CONTENT-->
 
+<a name="top"></a>
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p data-lang-id="004-lead-page-paragraph">Guided by Earth's example, ecobricking doesn't just prevent pollution. As a hands on experience of Earthen and regenerative principles, ecobricking embodies our transition from petro-capitalism to a green new world.</p>
+			<p>Guided by Earth's example, ecobricking doesn't just prevent pollution. As a hands on experience of Earthen and regenerative principles, ecobricking embodies our transition from petro-capitalism to a green new world.</p>
 		</div>
 
 		<div class="page-paragraph">
 	
-		<p data-lang-id="005-first-page-paragraph">The South East Asian ecobrick movement <a href="/story">emerged out of</a> the ancestral lands of the Igorot people in the Northern Philippines.  Our ecobricking remains inspired by their concept of <a href="/ayyew">ayyew</a>— an ecological ethos that emulates the very principles by which Earth greened our planet's surface.
+		<p>The South East Asian ecobrick movement <a href="/story">emerged out of</a> the ancestral lands of the Igorot people in the Northern Philippines.  Our ecobricking remains inspired by their concept of <a href="/ayyew">ayyew</a>— an ecological ethos that emulates the very principles by which Earth greened our planet's surface.
         
 		</div>
 
 
-		   <div class="reg-content-block" id="block1">
+		
+			<a name="EARTH-EXAMPLE"></a>
+            <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">
                     
@@ -339,11 +343,10 @@
 
 		<?php include 'side-modules/eco-accounting-principle.php';?> 
 
-		<?php include 'side-modules/for-earth-principle.php';?> 
+		<?php include 'side-modules/spiral-design-principle.php';?> 
 
-
-	
-		<div class="side-module-desktop-mobile">
+		
+			<div class="side-module-desktop-mobile">
 				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
 				<h4>Vitalizing Biodiversity</h4>
 				<h5>Just as Earth has vitalized processes that diversify, so too can we.</h5><br>
@@ -365,11 +368,7 @@
 				<h6 style="font-size:smaller">↗️ Learn how Earth does it</h6>
 			</div>   
 
-			<?php include 'side-modules/spiral-design-principle.php';?>
 
-		
-
-                <br>
 			</div>   
 		</div>
 
@@ -377,15 +376,16 @@
 </div>
 
 
+
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footer-2024.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../accordion-scripts.js?v=2" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>

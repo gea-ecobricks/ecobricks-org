@@ -12,9 +12,6 @@
 <!--TOP PAGE BANNER-->
  
 
-
-<!--TOP PAGE BANNER-->
-
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Transition Plastique</div>
