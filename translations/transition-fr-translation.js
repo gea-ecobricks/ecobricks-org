@@ -33,7 +33,7 @@ const fr_Page_Translations = {
   "013-side-module-1-alt": '<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Les plastiques sont un sous-produit de l\'industrie pétrolière">',
   "014-side-module-1-title": "Le Plastique & l'Économie Petro-Capitale",
   "015-side-module-1-subtitle": "Alors que le pétrole est raffiné en carburants qui alimentent nos économies, les produits chimiques restants sont utilisés pour produire des plastiques. Apprenez en retraçant l'histoire de milliards d'années du plastique d'aujourd'hui.",
-  "016-side-module-1-button": '<a class="module-btn" href="/plastics">La Longue Histoire du Plastique</a>',
+  "016-side-module-1-button": '<a class="module-btn" href="/plastics">L\'Histoire du Plastique</a>',
   "017-side-module-2-alt": '<img src="../webp/tens-thousands.webp" width="80%">',
   "018-side-2-module-title": "Régénératif",
   "019-side-2-module-subtitle": "La transition plastique est un concept régénératif. Au lieu de voir le plastique comme un ‘déchet’, nous pouvons le voir comme une opportunité ayyew pour avancer vers l'enrichissement écologique.",

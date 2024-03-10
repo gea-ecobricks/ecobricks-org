@@ -1,21 +1,27 @@
-<!--PAGE LANGUAGE:  INDONESIAN-->  
-  
-<!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/transition-inc.php");?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!DOCTYPE html>
+<HTML lang="id"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='id';?>
+<?php $version='1.91';?>
+<?php $page='transition';?>
+
+<?php require_once ("../includes/transition2-inc.php");?>
+
+<!--TOP PAGE BANNER-->
+ 
+
 
 <!--TOP PAGE BANNER-->
 
-
 <div class="splash-content-block">
-	<div class="splash-text-box">
-		<div class="splash-heading">Transisi Plastik</div>
-		<div class="splash-sub">Plastik kami adalah portal keluar dari dunia abu-abu lama kami dan masuk ke dunia hijau untuk semua yang ingin kita lihat.</div>
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">Transisi Plastik</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Plastik kita adalah portal keluar dari dunia abu-abu tua dan menuju dunia hijau untuk semua, yang kita semua rindukan.</div>
 	</div>
-	<div class="splash-image"><img src="https://www.ecobricks.org/webp/floating-dial-500px.webp" style="width: 100%;"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/floating-dial-500px.webp" style="width: 100%;" alt="Transisi plastik adalah metrik dari transisi petro-kapital kita">
+    </div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -23,34 +29,37 @@
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
-
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
 
-        <div class="lead-page-paragraph">
+			<div class="lead-page-paragraph">
+				
+				<p data-lang-id="004-first-page-paragraph">By transitioning from plastic consumption we can shift from petro-capital participation to building our greenest visions and the regeneration of the biosphere.</p>
 
-<p>Transisi plastik adalah kunci peralihan kita dari partisipasi petro-modal ke regenerasi biosfer.</p>
-</div>
+				</div>
 
-<div class="page-paragraph">
+			<div class="page-paragraph">
+				  
 
-
-                <p>Mendengar tentang semua krisis ekologi di zaman kita ini bisa membuat kita kewalahan. Perubahan iklim, penggundulan hutan, pengasaman laut membuat polusi plastik tampak sebagai masalah kecil dibandingkan. Namun, seperti semua masalah ekologi kita, polusi plastik adalah gejala ekonomi petro-modal kita– cara uang dan energi kita ditenagai oleh ekstraksi dan pembakaran bahan bakar fosil. Tapi ini membuat polusi plastik unik!</p>
+				<p data-lang-id="005-second-page-paragraph">It can be overwhelming to hear about all the ecological crises of our day.  Climate change, deforestation, ocean acidification— they make the problem of plastic pollution seem minor issue in comparison! However, like all our ecological issues, plastic pollution is a symptom of our petro-capital economy– the way our society is powered by fossil fuels.</p>
+				
+				<p data-lang-id="006-third-page-paragraph">Of all ecological issues, this makes plastic unique.</p> 
                 
-                <p>Ini adalah satu-satunya masalah yang dapat kami sentuh– dan melaluinya sistem operasi petro-capital menjadi akar dari semuanya.</p>
-
-                <p>Karena kita semua menggunakannya, plastik memberikan kesempatan unik untuk tindakan kolektif. Setiap pilihan plastik kami, mulai dari pembelian hingga pembuangan, menghasilkan pemintalan pabrik, pengangkutan truk, dan penyulingan minyak– <b>atau, tidak</b>. </p>
+                <p data-lang-id="007-fourth-page-paragraph">Through the plastic that passes through our hands each day we can touch— and impact— the petro-capital economy that looms behind it all.</p>
+				
+				<p data-lang-id="008-5th-page-paragraph">And, precisely because we all use it, plastic provides an unprecedented opportunity for collective action.  Our every plastic choice, compounded together with everyone elses, results in factories spinning, trucks transporting, and oil refined– <b>or, not</b>. </p>
                 
-                <p>Apa yang kita lakukan dengan plastik kita, karena memutar atau memperlambat ekonomi petro-modal memiliki konsekuensi ekologi yang besar.<p>
+                <p data-lang-id="009-6th-page-paragraph">What we do with our plastic, as it spins or slows the petro-capital economy, has big ecological consequence.<p>
 
-                <p>Plastik harian kami memungkinkan kami membuat pilihan kecil namun bermakna untuk mengurangi partisipasi kami dalam ekonomi petro-modal. Yakin dan mantap kita dapat beralih dari plastik dan sistem bertenaga minyak bumi di belakangnya. Ini adalah pergeseran dari menambahkan CO2 dan plastik ke biosfer menjadi menghilangkan dan mencegah keduanya.</p>
+                <p data-lang-id="010-7th-page-paragraph">Our daily plastic enables us to make small yet meaningful choices to reduce our participation in the petro-capital economy behind it.  Its a shift from adding CO2 and plastic to the biosphere to removing and preventing them both.</p>
+				
+				<p data-lang-id="011-8th-page-paragraph">But even more significantly, as a versatile raw material-- once reclaimed and put on a different trajectory, can enable us to build our greenest visions: the very gardens, homes and structures that will compose the green world for all earthen beings that we all long to live within.</p>
 
-                <p>Transisi ini adalah tujuan dari eco-bricking! Ini adalah pergeseran dari dampak abu-abu dari partisipasi petro-capital ke apa yang kita sebut hidup regeneratif.</p>
+                <p data-lang-id="012-9th-page-paragraph">This constructive transition is the goal of ecobricking! It is a shift from the greying impacts of petro-capital participation to our regenerative living.</p>
 
-</div>
+			</div>	
 
 			<div class="reg-content-block" id="block1">
 				
@@ -197,7 +206,7 @@
 				
                 <div class="row">
                             <div class="main2">
-                            <p>The Global Ecobrick Alliance has develop a Plastic Transition Score to track plastic transition on its GoBrik.com platform.  All accounts on GoBrik now allow the generation of a user’s score.  Scores are calculated by household– families or groups of people living under the same roof.<p>
+                            <p>The Global Ecobrick Alliance has developed a Plastic Transition Score to track plastic transition on its GoBrik.com platform.  All user accounts on our GoBrik generate our user’s score based on responses to registration questions.  Scores are calculated by household– families or groups of people living under the same roof.<p>
                             </div>
                             <div class="side2"><img src="../webp/floating-dial-500px.webp" width="88%">
                             </div>
@@ -291,7 +300,7 @@
                     </p>
                     <br><hr>
 
-                    <h5>🟢 Learn more: <a href="catalyst" target="_blank">The GEA Catalyst Program</a></h5>
+                    <h5>🟢 Learn more: <a href="../en/catalyst.php" >The GEA Catalyst Program</a></h5>
             <br>
 
 					
@@ -335,7 +344,7 @@
 
                     <br><hr>
                     
-                    <h5>🟢 Learn more: <a href="catalyst" target="_blank">The GEA Catalyst Program</a></h5>
+                    <h5>🟢 Learn more: <a href="../en/catalyst.php" >The GEA Catalyst Program</a></h5>
 
                 </div>
             </div>
@@ -348,10 +357,10 @@
 				<p>Plastic transition is based on several key regenerative concepts.</p>
 
                 <ul>
-						<li>Following the <a href="https://earthen.io/imagine/" target="_blank">Earth’s example</a> to be certain our processes are green</li>
+						<li>Following the <a href="https://book.earthen.io" target="_blank">Earth’s example</a> to be certain our processes are green</li>
 						<li>Understanding the way that <a href="/plastic">Earth sequestered its carbon to green the biosphere</a></li>
 						<li>The concept of <a href="sequest.php">plastic sequestration</a></li>
-						<li>Following <a href="/principles">regenerative principles</a>.</li>
+						<li>Following <a href="principles.php">regenerative principles</a>.</li>
                         <li> The regenerative <a href="/ayyew">concept of Ayyew</a> </li>
 					<ul> 
                 </p>
@@ -364,71 +373,46 @@
 		</div>
 
 		<div class="side">
-
+ 
 		
-        <div id="side-module-desktop-mobile">
-			<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry">
-					<h4>Plastic & the Petro-Capital Economy</h4>
-					<h5>As petroleum is refined into the fuels that power our economies, the leftovers chemicals are used to produce plastics.</h5><br>
-					<a class="module-btn" href="/plastics">Plastic's Full Story</a><br><br>
+        	<div class="side-module-desktop-mobile">
+				<img src="../webp/oil-barrel-400px.webp" width="90%" alt="Plastics are a by-product of the petroleum industry" data-lang-id="013-side-module-1-alt">
+					<h4 data-lang-id="014-side-module-1-title">Plastic & the Petro-Capital Economy</h4>
+					<h5 data-lang-id="015-side-module-1-subtitle">As petroleum is refined into the fuels that power our economies, the left-over chemicals are used to produce plastics.  Learn by retracing the billion year back-story of today's plastic.</h5><br>
+					<a class="module-btn" href="/plastics" data-lang-id="016-side-module-1-button">Plastic's Long Story</a><br><br>
 				</div>
 
-
-			
-
-				<div id="side-module-desktop-mobile">
-					<img src="../webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
-					<h4>Global Ecobrick Alliance</h4>
-					<h5>The GEA is an Earth Enterprise dedicated to accelerating plastic transition.</h5><br>
-                    <a class="module-btn" href="about.php">About Us</a>
-			    </div>
-					
-				
-
-            <div id="side-module-desktop-mobile">
-				<img src="../webp/earthen-500px.webp" width="80%">
-				<h4>Earthen Ethics</h4>
-				<h5>Plastic transition is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
-				<a class="module-btn" href="https://earthen.io/green">Learn More</a>
+       
+            <div class="side-module-desktop-mobile">
+				<img src="../webp/tens-thousands.webp" width="80%" data-lang-id="017-side-module-2-alt">
+				<h4 data-lang-id="018-side-2-module-title" alt="Ecobricks can build our regenerative visions">Regenerative</h4>
+				<h5 data-lang-id="019-side-2-module-subtitle">Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
+				<a class="module-btn" href="/ayyew" data-lang-id="020-side-module-2-button">About Ayyew</a><br><br>
 			</div>
 
-            <div id="side-module-desktop-mobile">
-				<img src="../webp/tens-thousands.webp" width="80%">
-				<h4>Regenerative</h4>
-				<h5>Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.</h5><br>
-				<a class="module-btn" href="about.php">About Ayyew</a>
-			</div>
 
-            <div id="side-module-desktop-mobile">
-			<img src="../webp/2020-regen-report.webp" width="90%" alt="Our 2020 Regenerative Report on our plastic transition eco bricking.">
-					<h4>Our Regen Report</h4>
-					<h5>We're proud to disclose our net-green ecological impact for the past year.</h5><br>
-					<a class="module-btn" href="2021-regenreport.php">Access Report</a><br><br>
-				</div>
+			<?php require_once ("side-modules/earthen-ethics.php");?>
 
+			<?php require_once ("side-modules/spiral-design.php");?>
+	
 
-				
+            <?php include 'side-modules/eco-accounting-principle.php';?>
 
 		</div>
-
 	</div>
 </div>
 
 
-
-
-
-
-
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
+
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 
 </div>
