@@ -1,30 +1,39 @@
-<!DOCTYPE html>
-<HTML lang="id"> 
-<HEAD>
-<META charset="UTF-8">
-<?php $lang='id';?>
-<?php $version='1.6';?>
-<?php $page='sequest';?>
+<!--PAGE LANGUAGE:  INDONESIA
+Content Page template: v.1.0.1-->
+  
+<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
+ 
+<?php require_once ("../includes/sequest-inc.php");?>
 
-<?php require_once ("../includes/sequest2-inc.php");?>
+<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
+<?php require_once ("translate-please.php");?>
 
-<article id="sequestration-with-ecobricks">
+<!--TOP PAGE BANNER-->
+							  
+											  
+<BODY id="full-page">
 
+	<div id="load-background">
+
+	<!-- This loads the page's language specific menu -->
+
+    <?php require_once ("../menus/menu-$lang.php");?>
 
 <!--PAGE BANNER-->
 
+        <div class="splash-content-block">
+            <div class="splash-box">
+                <div class="splash-heading">Sekuestrasi Plastik</div>
+            <div class="splash-sub">Dengan mengikuti contoh kepedulian terhadap karbon di Bumi, kita dapat menjaga plastik kita tetap aman dari biosfer dan keluar dari industri.</div>
+            </div>
+            <div class="splash-image"><img src="../webp/earth-service-700px.webp" style="width: 85%;"></div>	
+        </div>
+        <div id="splash-bar"></div>
 
- <div class="splash-content-block">
-	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Penyerapan Plastik</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Dengan mengikuti teladan bumi dalam menjaga karbon, kita dapat menjaga plastik kita tetap aman dan melindungi biosfer serta industri.</div>
-	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="Penyerapan Plastik dengan ecobricks">
-    </div>	
-</div>
 
 <!-- PAGE CONTENT-->
 
+        <a name="top"></a>
 
         <div id="main-content">
 
@@ -32,12 +41,12 @@
             <div class="row">
                 <div class="main">
 
-                    <div class="lead-page-paragraph">
-                         <p data-lang-id="005-first-page-paragraph">Ilmu pengetahuannya jelas: Plastik yang lepas di biosfer membahayakan ekosistem, manusia, dan hewan. Penelitiannya juga jelas: Selama lima puluh tahun terakhir, proses industri telah menyebarkan plastik ke lingkungan sekaligus menjadi sumber utama emisi karbon.</p>
+                <div class="lead-page-paragraph">
+                         <p>Ilmunya jelas: Plastik yang lepas di biosfer membahayakan ekosistem, manusia, dan hewan. Penelitiannya juga jelas: Selama lima puluh tahun terakhir, pemrosesan industri telah menyebarkan plastik ke lingkungan sekaligus menjadi sumber utama emisi karbon.</p>
                      </div>
                 
-                    <div class="page-paragraph">
-                         <p data-lang-id="006-second-page-paragraph">It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="/plastic">Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The <a href="/about">Global Ecobrick Alliance</a> maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
+                     <div class="page-paragraph">
+                         <p>Menjaga plastik menjadi lebih penting. <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Sequestration plastik</a> memberikan <a href="/principles">alternatif regeneratif</a> untuk industri manajemen plastik. Mengikuti <a href="/plastic">contoh penyerapan karbon di Bumi</a>, kami memiliki jalan yang terbukti tidak hanya mengamankan plastik kami dari biosfer dan keluar dari industri, tetapi juga untuk mempercepat <a href= "transition.php">transisi plastik</a>. <a href="/about">Global Ecobrick Alliance</a> mempertahankan kriteria dan standar untuk penyerapan plastik untuk memastikan bahwa itu adalah layanan ekologi yang otentik.</p>
 
                         <!--<p>
                             
@@ -48,73 +57,90 @@
                         -->     
                     </div>	
 
-                    <section id="THEORY">
-    <div class="reg-content-block" id="block1">
-        <div class="opener-header">
-            <div class="opener-header-text">
-                <h4 data-lang-id="007-title">Theory & Science</h4>
-                <h5 data-lang-id="008-subtitle">The goal of plastic sequestration is to follow the Earth's example of carbon care in preventing the degradation dispersal of plastic into the biosphere— and in keeping it out of industry.</h5>
-                <br>
-            </div>
-            <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-        </div>
-        <div id="preclosed1">
-            <p data-lang-id="009-paragraph1">Just as the Earth sequestered carbon deep into secure geologic storage to cultivate and green the biosphere, so too can we compact, secure, and sequester our plastic (which itself is mostly carbon). By following the <a href="/plastic" data-lang-id="010-link1">Earth’s example</a> we can be confident our enterprise of plastic management is making a valuable ecological contribution.</p>
-            <p data-lang-id="011-paragraph2">We call this prevention of plastic degradation and dispersal, <i>plastic sequestration.</i></p>
-            <p data-lang-id="012-paragraph3">Plastic degradation occurs physically (such as cracking, embrittlement, and flaking) and chemically (such as leaching). Emissions and dispersal occur when plastic is industrially processed through recycling, incineration, and land-filling. In order to prevent these outcomes, plastic sequestration diverts plastic from industry and prevents the chemical and physical degradation of plastic from the effects of light, heat, acids, friction, microbial action, etc.</p>
-            <br>
-            <p data-lang-id="013-paragraph4"><b>1. Preventing Degradation</b></p>
-            <p data-lang-id="014-paragraph5">Plastic polymer degradation occurs on the exposed surface area of plastic. Consequently, the rate of degradation is directly proportional to the amount of surface area exposed. Research indicates that a thin film of HDPE plastic (which has a very large surface area) can degrade 1100 times faster than a bead of plastic of the same weight (very small surface area).</p>
-            <p data-lang-id="015-paragraph6">By decreasing net surface area, the lifetime of collected plastic can be extended significantly. By further removing exposure to all forms of chemical and physical degradation through appropriate applications, plastic can remain intact indefinitely.</p>
-            <br>
-            <p data-lang-id="016-paragraph7"><b>2. Preventing Industrial Emissions</b></p>
-            <p data-lang-id="017-paragraph8">Plastic that enters into industry results in a wide range of energy-intensive activities from transportation to smelting to re-molding. The goal of plastic sequestration is to prevent these emissions.</p>
-            <br>
-            <p data-lang-id="018-paragraph9"><b>3. Preventing Industrial Plastic Dispersion</b></p>
-            <p data-lang-id="019-paragraph10">Plastic that enters into industry is inevitably dispersed around the globe. The goal of plastic sequestration is to prevent this dispersion.</p>
-            <br>
-            <p data-lang-id="020-paragraph11"><b>4. Preventing Ecological Disruption</b></p>
-            <p data-lang-id="021-paragraph12">Plastic once loose in the biosphere has been shown to interfere with ecological cycles. The goal of plastic sequestration is to prevent these disruptions.</p>
-            <br>
-            <p data-lang-id="022-paragraph13"><b>5. Earthen Enclosure</b></p>
-            <p data-lang-id="023-paragraph14">Research has shown that enclosing plastic in earth prevents abiotic plastic degradation. By enclosing the outputs of plastic sequestration in inert, net-zero earthen building materials such as cob and adobe, the outputs of plastic sequestration can be secured.</p>
-            <p data-lang-id="024-learn-about-plastic">ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></p>
-            <p data-lang-id="025-source-earthen-ethics">ℹ️ Source: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></p>
-        </div>
-    </div>
-</section>
+                    <a name="THEORY"></a>
 
+                    <div class="reg-content-block" id="block1">
 
+                        <div class="opener-header">
+                            
+                            <div class="opener-header-text">
+                                <h4>Theory & Science</h4>
+                                <h5>The goal of plastic sequestration is to follow the Earth's example of carbon care in preventing the degradation despersal of plastic into the biosphere— and in keeping it out of industry.</h5>   
+                                <br>
+                            </div>
 
-<section id="CRITERIA">
-    <div class="reg-content-block" id="block10">
-        <div class="opener-header">
-            <div class="opener-header-text">
-                <h4 data-lang-id="026-title">Criteria & Standards</h4>
-                <h5 data-lang-id="027-subtitle">A framework to ensure that plastic sequestration is of authentic ecological service.</h5>
-                <br>
-            </div>
-            <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10">+</button>
-        </div>
-        <div id="preclosed10">
-            <br>
-            <p data-lang-id="028-context">The <a href="about.php" data-lang-id="029-ga-link">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide for methodologies and technologies aspiring to plastic sequestration.</p>
-            <p data-lang-id="030-earth-process">The Earth's billion year <a href="/plastic" data-lang-id="031-earth-process-link">process of carbon sequestration</a> helped green the planet. To ensure that our process of plastic sequestration does the same, we follow <a href="https://book.earthen.io/en/earthen.html" data-lang-id="032-principles-link">the principles of the Earth's example.</a> Using them we've established six criteria and associated standards for plastic sequestration.</p>
-            <p data-lang-id="033-authentic-contribution">Our criteria help us all ensure that the enterprise, outputs, and processes of plastic sequestration are in fact an authentic ecological contribution.</p>
-            <p data-lang-id="034-standards-assist">Our standards assist enterprises to measure the calibre and quality of their plastic sequestration outputs and processes.</p>
-            <p data-lang-id="035-independent-authentication">In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
-            <br>
-            <hr>
-            <h5 data-lang-id="036-learn-more">🌍 Learn more: <a href="https://book.earthen.io/en/earthen.html" target="_blank" data-lang-id="037-six-principles-link">The Six Earthen Principles</a></h5>
-        </div>
-    </div>
-</section>
+                            <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+                        </div>
 
+                        <div id="preclosed1">
+                        
+                        <p>Just as the Earth sequestered carbon deep into secure geologic storage to cultivate and green the biosphere, so too can we compact, secure, and sequester our plastic (which itself is mostly carbon). By following the <a href="/plastic">Earth’s example</a> we can be confident our enterprise of plastic management is making a valuable ecological contribution.</p>
 
+                        <p>We call this prevention of plastic degradation and despersal, <i>plastic sequestration.</i></p>
 
+                        <p>Plastic degradation occurs physically (such as cracking, embrittlement, and flaking) and chemically (such as leaching).  Emissions and dispersal occur when plastic is industrially processed through recycling, incineration and land-filling.  In order to prevent these outcomes, plastic sequestration diverts plastic from industry and prevents the chemical and physical degration of plastic from the effects of light, heat, acids, friction, microbial action etc.</p>
+                            <br>
+                            <p><b>1. Preventing Degradation</b><p>
+                            <p>Plastic polymer degradation occurs on the exposed surface are of plastic.  Consequently, the rate of degradation is directly proportional to the amount of surface area exposed. Research indicates that that a thin film of HDPE plastic (which has a very large surface area) can degrade 1100 times faster than a bead of plastic of the same weight (very small surface area). </p>
+                            <p>By decreasing net surface area, the lifetime of collected plastic can be extended significantly (research shows thin film of plastic will <a href="https://pubs.acs.org/doi/10.1021/acssuschemeng.9b06635" target="_blank">degrade in 1.8 ± 0.4 years a bead of plastic will endure for 2000 ± 400 years</a>, in the same conditions.  By further removing exposure to all forms of chemical and physical degration through appropriate applications, plastic can remain intact indefinitely.</p>
+
+                            <br><p><b>2. Preventing Industrial Emissions</b><p>
+                            
+                            <p>Plastic that enters into industry results in a wide range of energy intensive activities from transportation, to smelting, to re-molding. The 2019 report, Plastic & Climate: The Hidden Costs of a Plastic Planet concluded that  the CO2 produced at various points in the life-cycle of plastic and concluded that the plastic industry will add more than 850 million metric tons of greenhouse gases to the atmosphere—equal to the emissions from 189 five- hundred-megawatt coal power plants.</p>
+                            
+                            <p>The goal of plastic sequestration is to prevent these emissions.</p>
+                                
+                            <br><p><b>3. Preventing Industrial Plastic Dispersion</b></p>
+                            <p>Plastic that enters into industry is inevitably dispersed around the globe.  Research shows that of all the plastic generated since 1950, the industrial processing of plastic has dispersed <a href="https://www.science.org/doi/10.1126/sciadv.1700782">91% of all plastic into the biosphere</a>. There it is subject to the chemical and physical degradation pathways mentioned above.</p>
+                            
+                            <p>The goal of plastic sequestration is to prevent this dispersion.</p>
+
+                            <br><p><b>4. Preventing Ecological Disruption</b></p>
+                            <p>Plastic once loose in the biosphere has been shown to interfere with ecological cycles.  This can impede the ability of <a href="https://www.nature.com/articles/s41467-021-22554-w">phytoplankton to circulate oxygen</a> and <a href="https://www.theguardian.com/environment/2016/jun/02/microplastics-killing-fish-before-they-reach-reproductive-age-study-finds">disrupt fish reproduction</a>, and more.</p>
+                            <p>The goal of plastic sequestration is to prevents these disruptions.</p>
+
+                            <br><p><b>5. Earthen Enclosure</b><p>
+
+                            <p>Research has shown that <a href="https://www.sciencedirect.com/science/article/pii/S0141391013003066?via%3Dihub" target="_blank">enclosing plastic in earth</a> prevents abiotic plastic degradation by preventing exposure to sunlight, friction, heat, and oxygen. Even plastic that is designed to degrade, when it is buried in low-oxygen soil, abiotic and biotic are <a href="https://pubs.acs.org/doi/10.1021/acs.est.8b06984" target="_blank">prevented</a>. Research also shows that submerging plastic in inert soil (minimal bacteria, micro-organisms) <a href="https://aip.scitation.org/doi/abs/10.1063/1.4985426" target="_blank">can further significantly impede biotic plastic degradation.</a></p>
+                            <p>By enclosing the outputs of plastic sequestration in inert, net-zero earthen building materials such as cob and adobe, the outputs of plastic sequestration can be secured.</p>
+                        </div>
+                    </div>
+
+                    <a name="CRITERIA"></a>
+                    <div class="reg-content-block" id="block10">
+
+                        <div class="opener-header">
+                            
+                            <div class="opener-header-text">
+                                <h4>Criteria & Standards</h4>
+                                <h5>A framework to ensure that plastic sequestration is of authentic ecological service.</h5>   
+                                <br>
+                            </div>
+
+                            <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10">+</button>
+                        </div>
+
+                        <div id="preclosed10">
+                
+
+                            <br><p>The <a href="about.php">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide for methodologies and technologies aspiring to plastic sequestration.</p>
+
+                            <p>The Earth's billion year <a href="/plastic">process of carbon sequestration</a> helped green the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://earthen.io/ways/">the principles of the Earth's example.</a>  Using them we've established six criteria and associated standards for plastic sequestration.</p>
+
+                            <p>Our criteria help us all ensure that the enterprise, outputs and processes of plastic sequestration are in fact an authentic ecological contribution.</p>
+                            
+                            <p>Our standards assists enterprises to measure the calibre and quality of their plastic sequestration outputs and processes.</p>
+
+                            <p> In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>
+                            <br>
+
+                            <hr>
+
+                            <h5>🌍 Learn more: <a href="https://earthen.io/ways/" target="_blank">The Six Earthen Principles</a></h5>
+                        </div>
+                    </div>
     
-<section id="CONCENTRATION">
-
+                    <a name="CONCEN"></a>
                     <div class="reg-content-block" id="block3">
                         <div class="opener-header">
                             <div class="opener-header-text">
@@ -157,8 +183,6 @@
                             <h5>🌍 Learn more: <a href="https://medium.com/earthen/the-oysters-example-6172c62a9a0b" target="_blank">The Earthen Principle of Concentration</a></h5>
                         </div>
                     </div>
-
-</section>
 
 
                     <a name="SPIRAL"></a>
@@ -370,7 +394,7 @@
 
                         <div id="preclosed7">   
 
-                        
+                        <
 
                             <div class="row">
                                     <div class="main2">
@@ -446,8 +470,8 @@
 
 
 
-                    <section id="CO2">
-                    <div class="reg-content-block" id="block9">
+                    <a name="CO2"></a>
+                        <div class="reg-content-block" id="block9">
 
                         <div class="opener-header">
                             
@@ -478,79 +502,85 @@
 
                         </div>
                     </div>
-                    </section>
 
-            
-                    <div class="row">
-                        
-                        <div class="main2">
-                            <div class="page-paragraph-reg">
-                                <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
-                                    
-                                <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
-                            
-                                <p>However, it is in important to remember that in the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
-                                
-                                <p>Ecological cycles can be very short, long and very long.   The Earth’s sequestration is an example of the latter– measured in hundreds of millions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it into another cycle.  In the way that plastic was a gift to our age, we can gift our carbon to another. </p>
-                            </div>
-                        </div>
-
-                        <div class="side2">
-                            
-                            <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
-                            <br><br><img src="../webp/ayyew.webp" width="100%"></a><br>
-                        </div>
-                    </div>	
                     
+                    
+                <br><br>
+                    <div class="page-paragraph-reg">
+                    <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
+            
+                        <div class="row">
+                            
+                            <div class="main2">
+                                    
+                            <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
+                            
+                            <p>However, it is in important to remember that in the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
+                                
+                            <p>Ecological cycles can be very short, long and very long.   The Earth’s sequestration is an example of the latter– measured in hundreds of millions of years.   By sequestering our carbon/plastic into long-term storage we’re putting it into another cycle.  In the way that plastic was a gift to our age, we can gift our carbon to another. </p>
+                            </div>
+
+                            <div class="side2">
+                                
+                                <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
+                                <br><br><img src="../webp/ayyew.webp" width="100%"></a><br>
+                            </div>
+                        </div>	
+                    
+                    </div>
+
+
+
+
                 </div>
-
-
-
-
-                
             
 
                 <div class="side">
             
+                    <div id="side-module-desktop-mobile">
+                        <img src="../webp/earthen-story-400px.webp" width="90%" alt="Eco bricks follow the Earth's ancient example">
+                        <br><h4>Following the Earth's Example</h4>
+                        <h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
+                        <a class="module-btn" href="/plastic">Plastic's Long Story</a>
+                        <br>
+                    </div>  
 
+                    <div id="side-module-desktop-mobile">
+                        <img src="../webp/tens-thousands.webp" width="80%" alt="Eco bricks can build awesome regenerative structures">
+                        <h4>Plastic Transition</h4>
+                        <h5>Plastic sequestration is a transition technology. Rather than see plastic as ‘waste’ we see it as a portal towards petro-capital transition.</h5><br>
+                        <a class="module-btn" href="transition.php">Learn More</a>
+                    </div>
 
+                    <div id="side-module-desktop-mobile">
+                        <img src="../webp/build-blue-450px.webp" width="80%" alt="Eco bricks are a form of plastic sequestration in constructions">
+                        <h4>Ecobricks</h4>
+                        <h5>The GEA advocates ecobricking as a means to sequester plastic.  Only ecobricks that have been authenticated as having met sequestration criteria are considered sequestered.</h5><br>
+                        <a class="module-btn" href="catalyst.php">🚀 Learn More</a>
+                    </div>
 
-                <?php require_once ("side-modules/plastic-carbon.php");?>
-    
-                <?php require_once ("side-modules/plastic-co2e.php");?>
-
-                <?php require_once ("side-modules/good-use.php");?>
-
-                <?php require_once ("side-modules/spiral-design.php");?>
-
-                <?php require_once ("side-modules/earthen-ethics.php");?>
-
-
-
-
-
+                    <div id="side-module-desktop-mobile">
+                        <img src="../webp/earthen-500px.webp" width="80%" alt="Ecobricks follow the Earth's example">
+                        <h4>Earthen Ethics</h4>
+                        <h5>Plastic Sequestration is based on the philosophy of following the Earth's example of ecological enrichment.</h5><br>
+                        <a class="module-btn" href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">Learn More</a>
+                    </div>
                 </div>
             </div>
-       
-
-            
-            </div>  <!--closes main-->
+        </div>
 
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footer-2024.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-
 <!-- This script is for pages that use the accordion content system-->
-<script src="../accordion-scripts.js?v=2" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 </div>
-</article>
 </body>
 </html>
-
 
