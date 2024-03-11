@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.6';?>
+<?php $version='1.61';?>
 <?php $page='spiral';?>
 
 <?php require_once ("../includes/spiral2-inc.php");?>
@@ -16,9 +16,9 @@
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Desain Spiral</div>
-		<div class="splash-sub">Ecobricking and all ecobrick applications are guided by the Earthen principle of enriching cycles.</div>
+		<div class="splash-sub">Ecobrick dan semua aplikasi ecobrick dipandu oleh prinsip siklus pengayaan dari tanah.</div>
 	</div>
-	<div class="splash-image"><img src="../icons/spiral-design-white3.svg" style="width: 100%;" alt="Ecobricking and all ecobrick applications are guided by the Earthen principle of enriching cycles."></div>
+	<div class="splash-image"><img src="../icons/spiral-design-white3.svg" style="width: 100%;" alt="Ecobrick dan semua aplikasi ecobrick dipandu oleh prinsip siklus pengayaan dari tanah."></div>
 </div>
 <div id="splash-bar"></div>
 
