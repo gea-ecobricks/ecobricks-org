@@ -84,6 +84,29 @@ const id_Translations = {
 "041-menu-4-trans-text-6": "🏴 /mandalic telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
 
 
+/*GEA*/
+
+"042-menu-5-main-item": "Aliansi Global Ecobrick",
+"043-menu-5-sub-item-1": '<a href="about.php">Tentang Kami</a><span class="circle" title="Halaman ini telah diterjemahkan 100%" style="color:green;  ">●</span>',
+"044-menu-5-trans-text-1": "🏴 about.php telah diterjemahkan 100%  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/about-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/about.php\" class=\"translate-link\">kode ⇗</a>",
+"045-menu-5-sub-item-2": '<a href="/story">Sejarah Kami</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dan sedang menunggu migrasi." style="color:red; ">●</span>',
+"046-menu-5-trans-text-2": "🏴 /story telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
+"047-menu-5-sub-item-3": '<a href="/gobrik">Proyek GoBrik Kami</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dan sedang menunggu migrasi." style="color:red; ">●</span>',
+"048-menu-5-trans-text-3": "🏴 /gobrik telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
+"051-menu-5-sub-item-5": '<a href="/trainings">Pelatihan Kami</a><span class="circle" title="Halaman ini telah diterjemahkan 0% tetapi dalam format non-git kami. Menunggu migrasi." style="color:red; ">●</span>',
+"052-menu-5-trans-text-5": "🏴 /trainings telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
+"057-menu-5-sub-item-8": '<a href="open-books.php">Buku Terbuka Kami</a><span class="circle" title="Halaman ini telah diterjemahkan 20%" style="color:yellow;  ">●</span>',
+"058-menu-5-trans-text-8": "🏴 open-books.php telah diterjemahkan 20%  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/open-books-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/open-books.php\" class=\"translate-link\">kode ⇗</a>",
+"065-menu-5-sub-item-12": '<a href="regenreports.php">Laporan Regenerasi Kami</a><span class="circle" title="Halaman ini telah diterjemahkan 10%" style="color:orange;  ">●</span>',
+"066-menu-5-trans-text-12": "🏴 regenreports.php telah diterjemahkan 15%  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/regenreports-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/regenreports.php\" class=\"translate-link\">kode ⇗</a>",
+"067-menu-5-sub-item-13": '<a href="coefficients.php">Koefisien Plastik Kami</a><span class="circle" title="Halaman ini telah diterjemahkan 10%" style="color:orange;  ">●</span>',
+"068-menu-5-trans-text-13": "🏴 ada di 10% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/coefficients-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/coefficients.php\" class=\"translate-link\">kode ⇗</a>",
+"059-menu-5-sub-item-9": '<a href="/movement">Gerakan</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dan ada dalam format non-git kami. Menunggu migrasi." style="color:red; ">●</span>',
+"060-menu-5-trans-text-9": "🏴  /movement ada di 0%  dan berada dalam sistem non-git kami | menunggu transisi",
+
+
+
+
            
            /*General Texts*/
            '1000-learn-more': 'Belajarlah lagi',
