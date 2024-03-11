@@ -113,6 +113,9 @@ const fr_Translations = {
     "060-menu-5-trans-text-9": "🏴  /movement est à 0%  et est est dans notre système non-git | en attente de transition",
 
 
+    /*PLATFORMS*/
+
+    
     "061-menu-1-main-item": "Plateformes & Projets",
     "062-menu-5-sub-item-4": '<a href="/aes">Plastique AES</a><span class="circle" title=" 🏴 Cette page a été traduite à 0% et est dans notre format non-git. En attente de migration." style="color:red; ">●</span>',
     "063-menu-5-trans-text-4": "/aes a été traduit à 0% et est dans notre format non-git. En attente de migration",

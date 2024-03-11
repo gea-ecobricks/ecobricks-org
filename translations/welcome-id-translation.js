@@ -25,7 +25,7 @@ const id_Page_Translations = {
            '300-featured-content-1-title': 'Panduan Ecobricking 2024',
            '301-featured-content-1-subtitle': 'Panduan 10 langkah yang sepenuhnya diperbarui untuk tahun baru',
        
-           '302-featured-2-heading': 'Jaga Plastik Anda dengan Aman',
+           '302-featured-content-1-button': 'Panduan 2024',
            '303-featured-2-subheading': 'Ketika plastik terlepas ke biosfer, itu mengkontaminasi dan meracuni. Ketika plastik diproses oleh industri, itu menghasilkan emisi dan mendorong konsumsi serta produksi plastik lebih banyak lagi. Ecobricking adalah metode sederhana dan non-kapitalis untuk menjaga plastik Anda tetap aman dan terjamin sehingga dapat digunakan untuk tujuan hijau yang baik.',
            '304-featured-2-button': 'Pengantar ke Ecobricking',
            '305-featured-2-rreferences': '<a href="/what">Dasar-dasar</a> | <a href="/why/">Mengapa?</a> | <a href="/transition">Transisi Plastik</a> | <a href="/how">Cara Membuat</a>',

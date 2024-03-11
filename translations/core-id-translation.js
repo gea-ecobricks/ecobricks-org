@@ -27,9 +27,9 @@ const id_Translations = {
         
         "001-menu-1-main-item": "<b>Dasar-dasar Ecobrick</b><span class=\"toggle-icon\">+</span>",
         "002-menu-1-sub-item-1": '<a href="what.php">Ecobricks dan Standar</a><span class="circle" title="Halaman ini telah diterjemahkan sebesar 60%" style="color:yellow ;">●</span>',
-        "003-menu-1-trans-text-1": '🇫🇷 what.php telah diterjemahkan sebesar 50% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-fr-translation.js" class="translate-link">lihat terjemahan ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/what.php" class="translate-link">kode ⇗</a>',
+        "003-menu-1-trans-text-1": '🏴 what.php telah diterjemahkan sebesar 50% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-fr-translation.js" class="translate-link">lihat terjemahan ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/what.php" class="translate-link">kode ⇗</a>',
         "004-menu-1-sub-item-2": '<a href="/cigbricks">Cigbricks</a><span class="circle" title="Halaman ini belum diterjemahkan " style="color:red;">●</span>',
-        "005-menu-1-trans-text-2": '🇫🇷 /cigbricks belum diterjemahkan | menunggu migrasi ke situs baru git',
+        "005-menu-1-trans-text-2": '🏴 /cigbricks belum diterjemahkan | menunggu migrasi ke situs baru git',
         
         "004-menu-1-sub-item-3": '<a href="/ocean">Ecobricks Lautan</a><span class="circle" title="Halaman ini belum diterjemahkan dan dalam format non-git kami. Menunggu migrasi." style="color:red">●</span>',
         "005-menu-1-trans-text-3": "🏴 /ocean belum diterjemahkan | menunggu migrasi ke situs baru git",
@@ -57,6 +57,31 @@ const id_Translations = {
 "016-menu-2-sub-item-5": '<a href="/fire">Keamanan Kebakaran</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dalam bahasa Inggris dan sedang menunggu migrasi." style="color:red">●</span>',
 "017-menu-2-trans-text-5": "🏴 /fire telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
 
+/*MAKING*/
+
+"022-menu-3-main-item": "Pembuatan Ecobrick",
+"023-menu-3-sub-item-1": '<a href="how.php">Panduan Kami dalam 10 Langkah</a><span class="circle" title="Halaman ini telah diterjemahkan 100%" style="color:green;  ">●</span>',
+"024-menu-3-trans-text-1": "🇫🇷 how.php telah diterjemahkan 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-fr-translation.js\">lihat terjemahan ⇗  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/how.php\" class=\"translate-link\">kode ⇗</a>",
+
+"025-menu-3-sub-item-2": '<a href="earthwand.php">Tongkat Bumi (Earthwands)</a><span class="circle" title="Halaman ini telah diterjemahkan 100%" style="color:green;  ">●</span>',
+"026-menu-3-trans-text-2": "🏴 earthwand.php telah diterjemahkan 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earthwand-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/earthwand.php\" class=\"translate-link\">kode ⇗</a>",
+"027-menu-3-sub-item-3": '<a href="transition.php">Transisi Plastik</a><span class="circle" title="Halaman ini telah diterjemahkan 50%" style="color:yellow;  ">●</span>',
+"028-menu-3-trans-text-3": "🏴 transition.php telah diterjemahkan 50% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/transition-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/transition.php\" class=\"translate-link\">kode ⇗</a>",
+
+"029-menu-4-main-item": "Prinsip Kami",
+"030-menu-4-sub-item-1": '<a href="principles.php">Prinsip Bumi dan Regeneratif</a><span class="circle" title="Halaman ini telah diterjemahkan 100%" style="color:green;  ">●</span>',
+"031-menu-4-trans-text-1": "🇫🇷 principles.php telah diterjemahkan 100% |  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/principles-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/principles.php\" class=\"translate-link\">kode ⇗</a>",
+
+"032-menu-4-sub-item-2": '<a href="sequest.php">Penyekwestrasian Plastik</a><span class="circle" title="Halaman ini telah diterjemahkan 100%" style="color:yellow;  ">●</span>',
+"033-menu-4-trans-text-2": "🇫🇷 sequest.php telah diterjemahkan 10% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/sequest-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/sequest.php\" class=\"translate-link\">kode ⇗</a>",
+"034-menu-4-sub-item-3": '<a href="brickable.php">Desain Brikable</a><span class="circle" title="Halaman ini telah diterjemahkan 10%" style="color:orange;  ">●</span>',
+"035-menu-4-trans-text-3": "🏴 brickable.php telah diterjemahkan 10%  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/brickable-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/brickable.php\" class=\"translate-link\">kode ⇗</a>",
+"036-menu-4-sub-item-4": '<a href="spiral.php">Desain Spiral</a><span class="circle" title="Halaman ini telah diterjemahkan 100%" style="color:green;  ">●</span>',
+"037-menu-4-trans-text-4": "🏴 spiral.php telah diterjemahkan 100%  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/spiral-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/spiral.php\" class=\"translate-link\">kode ⇗</a>",
+"038-menu-4-sub-item-5": '<a href="/ayyew">Ayyew</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dan sedang menunggu migrasi." style="color:red; ">●</span>',
+"039-menu-4-trans-text-5": "🏴 /ayyew telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
+"040-menu-4-sub-item-6": '<a href="/mandalic">Kolaborasi Mandalik</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dan sedang menunggu migrasi." style="color:red; ">●</span>',
+"041-menu-4-trans-text-6": "🏴 /mandalic telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
 
 
            
