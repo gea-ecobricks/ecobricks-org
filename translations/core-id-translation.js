@@ -105,6 +105,17 @@ const id_Translations = {
 "060-menu-5-trans-text-9": "🏴  /movement ada di 0%  dan berada dalam sistem non-git kami | menunggu transisi",
 
 
+/*PLATFORMS*/
+
+"061-menu-1-main-item": "Platform & Proyek",
+"062-menu-5-sub-item-4": '<a href="/aes">Plastik AES</a><span class="circle" title=" 🏴 Halaman ini telah diterjemahkan 0% dan berada dalam format non-git kami. Menunggu migrasi." style="color:red; ">●</span>',
+"063-menu-5-trans-text-4": "/aes telah diterjemahkan 0% dan berada dalam format non-git kami. Menunggu migrasi",
+"064-menu-5-sub-item-6": '<a href="brikcoins.php">Brikcoins</a><span class="circle" title="Halaman ini telah diterjemahkan 10%" style="color:yellow;  ">●</span>',
+"065-menu-5-trans-text-6": "🏴 brikcoins.php telah diterjemahkan 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/brikcoins-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/brikcoins.php\" class=\"translate-link\">kode ⇗</a>",
+"066-menu-5-sub-item-7": '<a href="brikchain.php">Brikchain</a><span class="circle" title="Halaman ini telah diterjemahkan 10% dalam bahasa Inggris" style="color:yellow;  ">●</span>',
+"067-menu-5-trans-text-7": "🏴 brikchain.php telah diterjemahkan 10% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/brikchain-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/brikchain.php\" class=\"translate-link\">kode ⇗</a>",
+"068-menu-5-sub-item-7": '<a href="offsets.php">Kompensasi Plastik</a><span class="circle" title="Halaman ini telah diterjemahkan 100%" style="color:green;  ">●</span>',
+"069-menu-5-trans-text-7": "🏴 offsets.php telah diterjemahkan 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/offsetting-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/offsets.php\" class=\"translate-link\">kode ⇗</a>",
 
 
            

@@ -24,22 +24,33 @@ const id_Page_Translations = {
            '301-featured-content-1-subtitle': 'Panduan 10 langkah yang sepenuhnya diperbarui untuk tahun baru',
            '302-featured-content-1-button': 'Panduan 2024',
 
-           
-           '303-featured-2-subheading': 'Ketika plastik terlepas ke biosfer, itu mengkontaminasi dan meracuni. Ketika plastik diproses oleh industri, itu menghasilkan emisi dan mendorong konsumsi serta produksi plastik lebih banyak lagi. Ecobricking adalah metode sederhana dan non-kapitalis untuk menjaga plastik Anda tetap aman dan terjamin sehingga dapat digunakan untuk tujuan hijau yang baik.',
-           '304-featured-2-button': 'Pengantar ke Ecobricking',
-           '305-featured-2-rreferences': '<a href="/what">Dasar-dasar</a> | <a href="/why/">Mengapa?</a> | <a href="/transition">Transisi Plastik</a> | <a href="/how">Cara Membuat</a>',
-           
-           '306-featured-3-heading': 'Aplikasi yang Luar Biasa',
-           '307-featured-3-subheading': 'Ecobricks mengubah plastik bermasalah menjadi blok yang dapat digunakan kembali yang dapat dimanfaatkan dalam aplikasi bangunan yang semakin hijau. Mulai dari furnitur, kebun, hingga struktur, aplikasi yang kami rekomendasikan mewujudkan prinsip desain spiral. Plastik tidak harus menjadi masalah - ini adalah awal dari solusi.',
-           '308-featured-3-button': 'Bangunan Ecobrick',
-           '309-featured-3-references': '<a href="earth.php">Bangunan Bumi</a> | <a href="/earth-methods">Metode Bumi</a> | <a href="/modules">Modul Furnitur</a> | <a href="/spiral">Desain Spiral</a> | <a href="/openspaces">Ruang Terbuka</a> | <a href="/fire">Keamanan Kebakaran</a>',
-       
-           '310-featured-4-heading': 'Mengikuti Contoh Bumi',
-           '311-featured-4-subheading': 'Ecobricking regeneratif muncul sepuluh tahun yang lalu dari tanah orang Igorot di Filipina Utara. Terinspirasi oleh ethos ekologis Ayyew mereka, ecobricking secara mendasar berbeda dari konsep keberlanjutan dan nol-sampah Barat. Sebaliknya, semua metode dan aplikasi kami dirancang dari dasar untuk mengikuti contoh Bumi.',
-           '312-featured-4-button': 'Prinsip-prinsip Bumi Kami',
-           '313-featured-4-references': '<a href="spiral.php">Desain Spiral</a> | <a href="/ayyew/">Ayyew</a> | <a href="/about">Tentang Kami</a> | <a href="/story/">Sejarah</a>',
+           '303-featured-live-brikchain': 'Umpan langsung brikchain dari ecobrick yang telah diautentikasi. Klik untuk pratinjau.',
+'304-featured-live-heading': 'Ecobricking. Langsung.',
+'305-featured-live-subheading': 'Ecobrick sedang dibuat, dicatat, dan divalidasi di seluruh dunia pada saat ini. Setiap ecobrick yang diautentikasi dipublikasikan ke blockchain manual Brikcoin kami.',
+'306-featured-live-button': '⛓️ Brikchain',
+'307-featured-live-links': '<a href="brikchain.php">Tentang Plastik AES</a> | <a href="/brikcoins">Tentang Brikcoins</a>',
 
-     
+'308-featured-2-heading': 'Jaga Plastik Anda Tetap Aman',
+'309-featured-2-subheading': 'Ketika plastik terlepas ke biosfer, itu mengkontaminasi dan meracuni. Ketika plastik diproses oleh industri, itu mendorong lebih banyak plastik untuk diproduksi. Ecobricking adalah metodologi sederhana, non-kapital untuk menjaga plastik Anda tetap aman dan terjamin sehingga dapat dimanfaatkan untuk penggunaan yang baik dan hijau.',
+'310-featured-2-button': 'Pengenalan tentang Ecobricking',
+'311-featured-2-references': '<h6><a href="what.php">Dasar-dasar</a> | <a href="transition.php">Transisi Plastik</a> | <a href="how.php">Cara Membuat</a></h6>',
+
+
+'312-top10s-title': 'Sepuluh Teratas Bulanan',
+'313-top10s-subtitle': 'Setiap bulan ribuan ecobrick dicatat oleh ecobricker di seluruh dunia-- dan juga ditinjau sejawat oleh mereka!',
+'313-top10s-button': '🏆 Peringkat Bulanan',
+'314-top10s-references': '<a href="top-tens.php">Brikchain</a> | <a href="/brikcoins">Brikcoins</a>',
+
+'315-featured-3-heading': 'Manfaatkan Plastik Anda dengan Baik',
+'316-featured-3-subheading': 'Ecobrick mengubah plastik bermasalah menjadi blok yang dapat digunakan kembali. Dengan ecobrick kami, kita dapat membangun dengan hebat dan hijau. Dari furnitur, ke taman, hingga struktur, keluaran ecobrick mewujudkan prinsip desain spiral. Plastik Anda bukanlah masalah-- itu adalah awal dari solusi.',
+'317-featured-3-button': '🔨 Pembangunan Ecobrick', 
+'318-featured-3-references': '<a href="earth.php">Pembangunan Bumi</a> | <a href="/earth-methods">Metode Bumi</a> | <a href="modules.php">Modul Furnitur</a> | <a href="spiral.php">Desain Spiral</a> | <a href="/openspace/">Ruang Terbuka</a> | <a href="/fire/">Keamanan Kebakaran</a>',
+
+'319-featured-4-heading': 'Mengikuti Contoh Bumi',
+'320-featured-4-subheading': 'Ecobricking kami terinspirasi oleh orang Igorot dari Luzon Utara, tempat didirikannya Aliansi Ecobrick Global. Dipandu oleh etos Ayyew mereka, ecobricking secara mendasar berbeda dari konsep keberlanjutan dan nol-sampah Barat.',
+'321-featured-4-button': '🌏 Prinsip Bumi Kami',
+'322-featured-4-references': '<h6 data-lang-id="322-featured-4-references"><a href="spiral.php">Desain Spiral</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">Tentang Kami</a> | <a href="/story/">Cerita GEA</a>',
+
     
    
 }

@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='2.51';?>
+<?php $version='2.53';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -31,7 +31,7 @@ https://github/globalecobrickalliance/ecobricks.org
                      <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Panduan Ecobricking 2024</div>
                      <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Panduan 10 langkah yang sepenuhnya diperbarui untuk tahun baru</div>
 
-                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">Panduan 2024/a>
+                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">Panduan 2024</a>
                  </div>
              </div>
          </div>
