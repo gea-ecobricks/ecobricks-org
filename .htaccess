@@ -301,11 +301,15 @@ RedirectMatch "^/symposium" "/en/symposium.php"
 RedirectMatch "^/symposium.php/" "/en/symposium.php"
 RedirectMatch "^/simposium/" "/en/symposium.php"
 
-RedirectMatch "^/cradle/" "/spiral.php"
-RedirectMatch "^/circular" "/spiral.php"
-RedirectMatch "^/spiral" "/spiral.php"
-RedirectMatch "^/spirals" "/spiral.php"
-RedirectMatch "^/cyclical" "/spiral.php"
+RedirectMatch "^/cradle/" "/en/spiral.php"
+RedirectMatch "^/circular" "/en/spiral.php"
+RedirectMatch "^/spiral" "/en/spiral.php"
+RedirectMatch "^/spirals" "/en/spiral.php"
+RedirectMatch "^/cyclical" "/en/spiral.php"
+
+RedirectMatch "^/id/spiral.php" "/id/desain-spiral.php"
+
+
 
 RedirectMatch "^/offsets/" "/en/offsets.php"
 RedirectMatch "^/offsetting" "/en/offsets.php"
