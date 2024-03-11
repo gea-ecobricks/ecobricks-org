@@ -63,7 +63,11 @@ const fr_Translations = {
     "017-menu-2-trans-text-5": "🏴 /fire a été traduit à 0% | migration vers le nouveau site git en attente",
 
 
-    "022-menu-3-main-item": "Fabrication d'écobriques",
+
+/*MAKING */
+
+
+"022-menu-3-main-item": "Fabrication d'écobriques",
     "023-menu-3-sub-item-1": '<a href="how.php">Notre guide en 10 étapes</a><span class="circle" title="Cette page a été traduite à 100%" style="color:green;  ">●</span>',
     "024-menu-3-trans-text-1": "🇫🇷 how.php a été traduit à 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/how-fr-translation.js\">traduction ⇗  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/how.php\" class=\"translate-link\">code ⇗</a>",
 
@@ -87,7 +91,10 @@ const fr_Translations = {
     "040-menu-4-sub-item-6": '<a href="/mandalic">Collaboration mandalique</a><span class="circle" title="Cette page a été traduite à 0% et est dans notre format non-git. En attente de migration." style="color:red; ">●</span>',
     "041-menu-4-trans-text-6": "🏴 /mandalic a été traduit à 0% | migration vers le nouveau site git en attente",
 
-    "042-menu-5-main-item": "Alliance Globale d'Écobriques",
+
+/*GEA*/
+
+"042-menu-5-main-item": "Alliance Globale d'Écobriques",
     "043-menu-5-sub-item-1": '<a href="about.php">À propos de nous</a><span class="circle" title="Cette page a été traduite à 100%" style="color:green;  ">●</span>',
     "044-menu-5-trans-text-1": "🏴 about.php a été traduit à 100%  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/about-fr-translation.js\" class=\"translate-link\">traduction ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/about.php\" class=\"translate-link\">code ⇗</a>",
     "045-menu-5-sub-item-2": '<a href="/story">Notre Histoire</a><span class="circle" title="Cette page a été traduite à 0% et est dans notre format non-git. En attente de migration." style="color:red; ">●</span>',

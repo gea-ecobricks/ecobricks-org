@@ -20,7 +20,45 @@ const id_Translations = {
    
         /*Menu of pages curtain*/
 
-               
+        "000a-menu-0-main-item": 'FAQ tentang Ecobrick<span class="circle" title="Halaman ini telah diterjemahkan 100% ke dalam Bahasa Prancis" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
+        "000a-menu-1-trans-text-1": '🏴 faqs.php telah diterjemahkan 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/faqs-en-translation.js" class="translate-link">lihat terjemahan ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/faqs.php" class="translate-link">kode ⇗</a>',
+        "000b-menu-0-main-item": 'Pengenalan Ecobrick<span class="circle" title="Halaman ini telah diterjemahkan 100% ke dalam Bahasa Prancis" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
+        "00b-menu-1-trans-text-1": '🏴 guidedTour.js telah diterjemahkan 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-en-translation.js" class="translate-link">lihat terjemahan ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">kode ⇗</a>',
+        
+        "001-menu-1-main-item": "<b>Dasar-dasar Ecobrick</b><span class=\"toggle-icon\">+</span>",
+        "002-menu-1-sub-item-1": '<a href="what.php">Ecobricks dan Standar</a><span class="circle" title="Halaman ini telah diterjemahkan sebesar 60%" style="color:yellow ;">●</span>',
+        "003-menu-1-trans-text-1": '🇫🇷 what.php telah diterjemahkan sebesar 50% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/what-fr-translation.js" class="translate-link">lihat terjemahan ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/what.php" class="translate-link">kode ⇗</a>',
+        "004-menu-1-sub-item-2": '<a href="/cigbricks">Cigbricks</a><span class="circle" title="Halaman ini belum diterjemahkan " style="color:red;">●</span>',
+        "005-menu-1-trans-text-2": '🇫🇷 /cigbricks belum diterjemahkan | menunggu migrasi ke situs baru git',
+        
+        "004-menu-1-sub-item-3": '<a href="/ocean">Ecobricks Lautan</a><span class="circle" title="Halaman ini belum diterjemahkan dan dalam format non-git kami. Menunggu migrasi." style="color:red">●</span>',
+        "005-menu-1-trans-text-3": "🏴 /ocean belum diterjemahkan | menunggu migrasi ke situs baru git",
+        "006-menu-1-sub-item-4": '<a href="/plastic">Kisah Panjang Plastik</a><span class="circle" title="Halaman ini belum diterjemahkan dan dalam format non-git kami. Migrasi sedang berlangsung" style="color:red;  ">●</span>',
+        "005-menu-1-trans-text-4": "🏴 /plastic belum diterjemahkan | migrasi ke situs baru git sedang berlangsung !",
+
+        /*BUILD*/
+
+"007-menu-2-main-item": "Konstruksi",
+"008-menu-2-sub-item-1": '<a href="build.php">Aplikasi Ecobrick</a><span class="circle" title="Halaman ini telah diterjemahkan 10%" style="color:yellow;  ">●</span>',
+"009-menu-2-trans-text-1": "🏴 build.php telah diterjemahkan 10% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/build-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/build.php\" class=\"translate-link\">kode ⇗</a>",
+
+"010-menu-2-sub-item-2": '<a href="modules.php">Modul Milstein</a><span class="circle" title="Halaman ini telah diterjemahkan 10" style="color:yellow;  ">●</span>',
+"011-menu-2-trans-text-2": "🏴 modules.php telah diterjemahkan 10% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/modules-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/modules.php\" class=\"translate-link\">kode ⇗</a>",
+"020-menu-2-sub-item-7": '<a href="/dms">Modul Dieleman</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dan sedang menunggu migrasi." style="color:red">●</span>',
+"021-menu-2-trans-text-7": "🏴 /earth-methods telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
+
+"012-menu-2-sub-item-3": '<a href="earth.php">Konstruksi Bumi</a><span class="circle" title="Halaman ini telah diterjemahkan 15%" style="color:yellow;  ">●</span>',
+"013-menu-2-trans-text-3": "earth.php telah diterjemahkan 15% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-fr-translation.js\" class=\"translate-link\">bantu edit ⇗</a>",
+
+"014-menu-2-sub-item-4": '<a href="/earth-methods">Metode Konstruksi Bumi</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dan sedang menunggu migrasi." style="color:red">●</span>',
+"015-menu-2-trans-text-4": "🏴 /earth-methods telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
+"018-menu-2-sub-item-6": '<a href="/openspace">Ruang Terbuka</a><span class="circle" title="Halaman ini telah diterjemahkan 100% dalam bahasa Inggris tetapi sedang menunggu migrasi." style="color:red">●</span>',
+"019-menu-2-trans-text-6": "🏴 /openspace telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
+"016-menu-2-sub-item-5": '<a href="/fire">Keamanan Kebakaran</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dalam bahasa Inggris dan sedang menunggu migrasi." style="color:red">●</span>',
+"017-menu-2-trans-text-5": "🏴 /fire telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
+
+
+
            
            /*General Texts*/
            '1000-learn-more': 'Belajarlah lagi',

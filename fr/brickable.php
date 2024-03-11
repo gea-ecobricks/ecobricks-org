@@ -67,6 +67,7 @@
 
 				<div id="preclosed3">
 					<br>
+					
 					<div class="row">
 						<div class="main2">
                         <p>For many companies making the transition to regenerative products is daunting.  It appears to require large investments in manufacturing, materials and systems. Furthermore it may seem that alternative organic materials do not yet meet health and safety standards and are not yet cost effective.</p>
