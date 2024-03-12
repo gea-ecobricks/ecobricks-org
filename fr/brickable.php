@@ -43,6 +43,9 @@
 				<p data-lang-id="006-page-paragraph-2">Designing a product as spiral is the first and essential step in an enterprise’s plastic transition.  Phasing it out entirely is the second.  Ecobrickable Designation enables companies to start their <a href="transition.php">plastic transition today</a>.</p>
 			</div>	
 
+
+
+
             <div class="reg-content-block" id="block3">
 				<div class="opener-header">
 					<div class="opener-header-text">
@@ -58,7 +61,7 @@
                         	<p data-lang-id="009-reg-content-paragraph-1">For many companies making the transition to regenerative products is daunting.  It appears to require large investments in manufacturing, materials, systems and certifications. Furthermore it may seem that alternative organic materials do not yet meet health and safety standards and are not yet cost effective.</p>
 						</div>
 						<div class="side2">
-							<!-- Image description and alt text are not translatable content as per instructions -->
+							<div class="side2"><img src="../svgs/vsrecycling.svg" width="300" style="width:80%; "alt="cyclical spiral design icon">
 						</div>
 					</div>
 
@@ -67,7 +70,7 @@
 							<p data-lang-id="010-reg-content-paragraph-2">As a transition-step, plastic products and packaging can be made brickable!</p> 
 						</div>
 						<div class="side3">
-							<!-- Image description and alt text are not translatable content as per instructions -->
+						<img src="../icons/cyclical-design-icon-ecobricks-org.svg" width="120" alt="Cyclical Spiral Design">
 						</div>
 					</div>
 					
