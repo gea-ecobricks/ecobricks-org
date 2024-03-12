@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <HTML lang="fr"> 
+<title>Kit de désignateur à briquer</title>
+
 <HEAD>
-<title>Brickable Design</title>
 <!-- <title>Green Site Content Delivery Network | Ecobricks.org</title> -->
 
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.77';?>
+<?php $version='1.777';?>
 <?php $page='brickable';?>
 <?php require_once ("../includes/brickable2-inc.php");?>
 
