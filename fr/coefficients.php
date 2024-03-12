@@ -17,7 +17,7 @@
         <div class="splash-heading" data-lang-id="001-splash-heading">Plastic Coefficients</div>
         <div class="splash-sub" data-lang-id="002-splash-sub">For Ecological Accounting</div>
     </div>
-    <div class="splash-image" data-lang-id="003-splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 75%;"></div>   
+    <div class="splash-image" data-lang-id="003xx-splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 75%;"></div>   
 </div>
 <div id="splash-bar"></div>
 
