@@ -61,7 +61,7 @@
                         	<p data-lang-id="009-reg-content-paragraph-1">For many companies making the transition to regenerative products is daunting.  It appears to require large investments in manufacturing, materials, systems and certifications. Furthermore it may seem that alternative organic materials do not yet meet health and safety standards and are not yet cost effective.</p>
 						</div>
 						<div class="side2">
-							<div class="side2"><img src="../svgs/vsrecycling.svg" width="300" style="width:80%; "alt="cyclical spiral design icon">
+							<img src="../svgs/vsrecycling.svg" width="300" style="width:80%; "alt="cyclical spiral design icon">
 						</div>
 					</div>
 
