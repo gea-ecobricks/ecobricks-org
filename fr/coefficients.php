@@ -12,12 +12,22 @@
 
 <!--SPLASH SECTION-->
 
-<div class="splash-content-block">
+<!-- <div class="splash-content-block">
     <div class="splash-text-box">
         <div class="splash-heading" data-lang-id="001-splash-heading">Plastic Coefficients</div>
         <div class="splash-sub" data-lang-id="002-splash-sub">For Ecological Accounting</div>
     </div>
     <div class="splash-image" data-lang-id="003xx-splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 75%;"></div>   
+</div>
+<div id="splash-bar"></div> -->
+
+<div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">About Us</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">The Global Ecobrick Alliance</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/gea-perspective-400px.webp" style="width: 85%" alt="How to build with ecobricks">
+    </div>	
 </div>
 <div id="splash-bar"></div>
 
