@@ -714,7 +714,7 @@ window.onload = function() {
         <a href="/story">Our History</a>
         <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
     </div>
-    <div class="translation-info" data-lang-id="046-menu-5-trans-text-2">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /story has been translated 100% | migration to new git site pending</a></div>
+    <div class="translation-info" data-lang-id="046-menu-5-trans-text-2">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /story has been translated 100% | migration to new git site pending</div>
 </div>
 <!-- GoBrik Project -->
 <div class="submenu-item-container">
@@ -731,7 +731,7 @@ window.onload = function() {
         <a href="/trainings">Our Trainings</a>
         <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
     </div>
-    <div class="translation-info" data-lang-id="052-menu-5-trans-text-5">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /trainings has been 100% translated | migration to new git site pending</a></div>
+    <div class="translation-info" data-lang-id="052-menu-5-trans-text-5">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /trainings has been 100% translated | migration to new git site pending</div>
 </div>
  <!-- Open Books -->
  <div class="submenu-item-container">
@@ -765,7 +765,7 @@ window.onload = function() {
       <a href="/movement">The Movement</a>
       <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
   </div>
-  <div class="translation-info" data-lang-id="060-menu-5-trans-text-9">🏴󠁧󠁢󠁥󠁮󠁧󠁿  /movement is 100% in English however is in our non-git system | queued for transition</a></div>
+  <div class="translation-info" data-lang-id="060-menu-5-trans-text-9">🏴󠁧󠁢󠁥󠁮󠁧󠁿  /movement is 100% in English however is in our non-git system | queued for transition</div>
 </div>
 <!-- Arc -->
 <!-- <div class="submenu-item-container">
@@ -841,7 +841,7 @@ window.onload = function() {
 
 
 <div style="margin-top:auto;margin-bottom:30px;text-align:center; font-size:smaller;">
-<span style="color: var (--subdued-text);">fully translated </span><span class="circle" style="color:green;">●</span> <span class="circle" style="color:yellow;">●</span> <span class="circle" style="color:orange;">●</span> <span class="circle" style="color:red;">●</span><span style="color: var(--subdued-text);margin-left:12px;">not translated </span></div>
+<span style="color: var(--subdued-text);">fully translated </span><span class="circle" style="color:green;">●</span> <span class="circle" style="color:yellow;">●</span> <span class="circle" style="color:orange;">●</span> <span class="circle" style="color:red;">●</span><span style="color: var(--subdued-text);margin-left:12px;">not translated </span></div>
 
 </div> <!-- close righ page menu-->
   

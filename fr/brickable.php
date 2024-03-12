@@ -2,7 +2,9 @@
 <HTML lang="en"> 
 
 <HEAD>
-<title>Kit de désignateur à briquer</title>
+<!-- <title>Kit de désignateur à briquer</title> -->
+<title>Brickable Design</title>
+
 
 <META charset="UTF-8">
 <?php $lang='en';?>
@@ -72,7 +74,7 @@
                     
                    
 						</div>
-						<div class="side2"><img src="../svgs/vsrecycling.svg" width="80%" alt="spiral design icon">
+						<div class="side2"><img src="../svgs/vsrecycling.svg" width="300" style="width:80%;" alt="spiral design icon">
 						</div>
 					</div>
 
