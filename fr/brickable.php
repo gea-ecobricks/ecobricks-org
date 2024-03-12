@@ -254,7 +254,6 @@
 			<?php require_once ("side-modules/concentration-principle.php");?>
 
 
-		</div>
 
 	</div>
 </div>
