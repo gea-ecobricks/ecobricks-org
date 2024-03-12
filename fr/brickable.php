@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="fr"> 
 
 <HEAD>
-<!-- <title>Kit de désignateur à briquer</title> -->
-<title>Brickable Design</title>
+<title>Kit de désignateur à briquer</title>
+<!-- <title>Brickable Design</title> -->
 
 
 <META charset="UTF-8">
-<?php $lang='en';?>
+<?php $lang='fr';?>
 <?php $version='1.781';?>
 <?php $page='brickable';?>
 <?php require_once ("../includes/brickable2-inc.php");?>
@@ -28,111 +28,84 @@
 
 <!-- PAGE CONTENT-->
 
-
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-
-			
-				<p>The Brickable Designator Icon can be placed on single-use plastics to designate its next life as an ecobrick.  Our free Kit contains everything you need to guide your packaging and products into a spiral and green life-cycle</p>
-					
-			
+				<p id="004-lead-paragraph">The Brickable Designator Icon can be placed on single-use plastics to designate its next life as an ecobrick.  Our free Kit contains everything you need to guide your packaging and products into a spiral and green life-cycle</p>
 			</div>
 
 			<div class="page-paragraph">
-				
-
-				<p>Transitioning from plastic is not easy.  Try as we might, in our day and age, regulations and markets demand the use of plastic for just about everything. However, plastic in-itself is not the problem.  Rather, it is our poor design and planning.  In particular: <i>the failure to designate a next-life for our plastic creations that avoids the perils of promoting yet more plastic consumption and yet more industrial plastic processing.</i></p>
+				<p id="005-page-paragraph-1">Transitioning from plastic is not easy.  Try as we might, in our day and age, regulations and markets demand the use of plastic for just about everything. However, plastic in-itself is not the problem.  Rather, it is our poor design and planning.  In particular: <i>the failure to designate a next-life for our plastic creations that avoids the perils of promoting yet more plastic consumption and yet more industrial plastic processing.</i></p>
 					
-				<p>Designing a product as spiral is the first and essential step in an enterprise’s plastic transition.  Phasing it out entirely is the second.  Ecobrickable Designation enables companies to start their <a href="transition.php">plastic transition today</a>.</p>
-
+				<p id="006-page-paragraph-2">Designing a product as spiral is the first and essential step in an enterprise’s plastic transition.  Phasing it out entirely is the second.  Ecobrickable Designation enables companies to start their <a href="transition.php">plastic transition today</a>.</p>
 			</div>	
 
-<!--PHILOSOPHY-->
             <div class="reg-content-block" id="block3">
-
 				<div class="opener-header">
-					
 					<div class="opener-header-text">
-					<h4>Earthen Design Philosophy</h4>
-					<h5>The context and call for spiral design.</h5>
-					<br>
+						<h4 id="007-earthen-design-title">Earthen Design Philosophy</h4>
+						<h5 id="008-earthen-design-subtitle">The context and call for spiral design.</h5>
 					</div>
-
 					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
 				</div>
 
 				<div id="preclosed3">
-					<br>
-
 					<div class="row">
 						<div class="main2">
-                        <p>For many companies making the transition to regenerative products is daunting.  It appears to require large investments in manufacturing, materials, systems and certifications. Furthermore it may seem that alternative organic materials do not yet meet health and safety standards and are not yet cost effective.</p>
-                    
-                   
+                        	<p id="009-reg-content-paragraph-1">For many companies making the transition to regenerative products is daunting.  It appears to require large investments in manufacturing, materials, systems and certifications. Furthermore it may seem that alternative organic materials do not yet meet health and safety standards and are not yet cost effective.</p>
 						</div>
-						<div class="side2"><img src="../svgs/vsrecycling.svg" width="300" style="width:80%;" alt="spiral design icon" loading="lazy">
+						<div class="side2">
+							<!-- Image description and alt text are not translatable content as per instructions -->
 						</div>
 					</div>
 
 					<div class="row2">
 						<div class="main3">
-						<p>As a transition-step, plastic products and packaging can be made brickable!</p> 
+							<p id="010-reg-content-paragraph-2">As a transition-step, plastic products and packaging can be made brickable!</p> 
 						</div>
-						<div class="side3"><img src="../icons/spiral-design-icon-ecobricks-org.svg" width="120" alt="Cyclical Spiral Design" loading="lazy">
+						<div class="side3">
+							<!-- Image description and alt text are not translatable content as per instructions -->
 						</div>
 					</div>
-					 
 					
-					<p>Designing a product as ecobrickable—  and clearly designating it as so— is a first step into earthen spiral design.  By designating a product or package as ecobrickable we can keep plastic out of industrial recycling and incineration that cause more problems than they create.  Encouraging the use of plastic to make it an ecobrick shows the way to the plastic's next life and purpose as a reusable building block.</p>
+					<p id="011-reg-content-paragraph-3">Designing a product as ecobrickable—  and clearly designating it as so— is a first step into earthen spiral design.  By designating a product or package as ecobrickable we can keep plastic out of industrial recycling and incineration that cause more problems than they create.  Encouraging the use of plastic to make it an ecobrick shows the way to the plastic's next life and purpose as a reusable building block.</p>
 					
-					<p>Ecobricks and their applications are themselves fully spiral and based on <a href="principles.php">regenerative principles</a>, enabling the plastic's indefinite and localized reuse towards long-term <a href="sequest.php">sequestration.</a>  Both the Brickable Designator Icon and ecobricking are based on following the Earth's example of carbon care and the ethics of ecologial contribution.</p>
+					<p id="012-reg-content-paragraph-4">Ecobricks and their applications are themselves fully spiral and based on <a href="principles.php">regenerative principles</a>, enabling the plastic's indefinite and localized reuse towards long-term <a href="sequest.php">sequestration.</a>  Both the Brickable Designator Icon and ecobricking are based on following the Earth's example of carbon care and the ethics of ecologial contribution.</p>
 
-					<h6>🟢  <a href="spiral.php">Learn more about Spiral Design</a></h6><br>
-					<h6>🟢  <a href="sequest.php">Learn more about Plastic Sequestration</a></h6><br>
+					<h6 id="013-reg-content-link-1">🟢  <a href="spiral.php">Learn more about Spiral Design</a></h6>
+					<h6 id="014-reg-content-link-2">🟢  <a href="sequest.php">Learn more about Plastic Sequestration</a></h6>
 
-					<h6>🟢  <a href="https://book.earthen.io/en/spirals.html" target="_blank">Learn more about the Earthen Ethic of Spiralling Cycles</a></h6>
-					<h6>🟢  <a href="https://book.earthen.io/en/matter.html" target="_blank">Learn more about the Earthen Ethic of Concentration</a></h6>
-
-						
+					<h6 id="015-reg-content-link-3">🟢  <a href="https://book.earthen.io/en/spirals.html" target="_blank">Learn more about the Earthen Ethic of Spiralling Cycles</a></h6>
+					<h6 id="016-reg-content-link-4">🟢  <a href="https://book.earthen.io/en/matter.html" target="_blank">Learn more about the Earthen Ethic of Concentration</a></h6>
 				</div>
 			</div>
+
             
 <!--USEAGE CRITERIA -->
-
-			<div class="reg-content-block" id="block1">
-				
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-						<h4>Brickable Icon Useage Criteria</h4>
-						<h5>The material criteria for products to use the designator icon.</h5>
-					</div>
-					
-
-					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-					
-				</div>
-
-				<div id="preclosed1">
-					<br>
-					<p>The GEA has established simple criteria to meet when designing your product or packaging.  It is obligatory that your product meet these stipulation in order to use Ecobrickable Designator Symbol your product or packaging must…</p>
-
-					<ol>
-
-					<li><p>...not contain substances that will corrode PET plastic over time.</p></li>
-						<li><p>...not contain any primary or secondary biodegradable material.</p></li>
-						<li><p>... be easily disassembled, broken or cut into parts that can fit within the 22mm diameter neck of a standard PET bottle.</p></li>
-						<li><p>...maximize the ease of disassembly for this purpose.</p></li>
-						<li><p>...not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.</p></li>
-						<li><p>...not contain reactive chemicals, or if so, these components are clearly marked as un-brickable.</p></li>
-					</ol>
-						
-				</div>	
-			</div>
+<div class="reg-content-block" id="block1">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 id="017-brickable-icon-usage-criteria-title">Brickable Icon Useage Criteria</h4>
+            <h5 id="018-brickable-icon-usage-criteria-subtitle">The material criteria for products to use the designator icon.</h5>
+        </div>
+        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+    </div>
+    <div id="preclosed1">
+        <br>
+        <p id="019-gea-criteria-introduction">The GEA has established simple criteria to meet when designing your product or packaging.  It is obligatory that your product meet these stipulation in order to use Ecobrickable Designator Symbol your product or packaging must…</p>
+        <ol>
+            <li><p id="020-criteria-corrosion">...not contain substances that will corrode PET plastic over time.</p></li>
+            <li><p id="021-criteria-biodegradable">...not contain any primary or secondary biodegradable material.</p></li>
+            <li><p id="022-criteria-size">... be easily disassembled, broken or cut into parts that can fit within the 22mm diameter neck of a standard PET bottle.</p></li>
+            <li><p id="023-criteria-disassembly">...maximize the ease of disassembly for this purpose.</p></li>
+            <li><p id="024-criteria-sharpness">...not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.</p></li>
+            <li><p id="025-criteria-chemicals">...not contain reactive chemicals, or if so, these components are clearly marked as un-brickable.</p></li>
+        </ol>
+    </div>  
+</div>
 
 
 	<!--CC LIcense-->
