@@ -8,7 +8,7 @@ EN SNIPPETS FOR ECOBRICKS.ORG
 
 
 const fr_Page_Translations = {
-    "001-splash-heading": "Coefficients Globaux du Plastique pour la Comptabilité Écologique<br>",
+    "001-splash-heading": "Coefficients Globaux du Plastique pour la Comptabilité Écologique",
     "002-splash-sub": "Rapport de Régénérescence d'Entreprise",
     "003-splash-image": "<img src=\"../webp/gea-perspective-400px.webp\" style=\"width: 75%;\">",
     "006-lead-paragraph": "L'Alliance Globale Ecobrick maintient et publie des coefficients pour la consommation, la production et l'équivalence en CO2 du plastique pour les entreprises qui suivent et divulguent leurs impacts plastiques.",

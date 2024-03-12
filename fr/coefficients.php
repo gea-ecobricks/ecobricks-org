@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.595';?>
+<?php $version='1.6';?>
 <?php $page='coefficients';?>
 
 
@@ -14,7 +14,7 @@
 
 <div class="splash-content-block">
     <div class="splash-text-box">
-        <div class="splash-heading" data-lang-id="001-splash-heading">Global Plastic Coefficients for Ecological Accounting<br></div>
+        <div class="splash-heading" data-lang-id="001-splash-heading">Global Plastic Coefficients for Ecological Accounting</div>
         <div class="splash-sub" data-lang-id="002-splash-sub">Enterprise Regenerativity Reporting</div>
     </div>
     <div class="splash-image" data-lang-id="003-splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 75%;"></div>   
