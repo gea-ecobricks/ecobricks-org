@@ -10,8 +10,8 @@ EN SNIPPETS FOR ECOBRICKS.ORG
 const en_Page_Translations = {
 
    
-    "001-splash-heading": "Global Plastic Coefficients for Ecological Accounting<br>",
-    "002-splash-sub": "Enterprise Regenerativity Reporting",
+    "001-splash-heading": "Plastic Coefficients<br>",
+    "002-splash-sub": "For ecological accounting",
     "003-splash-image": "<img src=\"../webp/gea-perspective-400px.webp\" style=\"width: 75%;\">",
     "006-lead-paragraph": "The Global Ecobrick Alliance maintains and publish coefficients for plastic consumption, production and CO2 equivalency for enterprises who are tracking and disclosing their plastic impacts.",
     "007-page-paragraph-1": "In 2021 the GEA began a compendium of plastic generation coefficients based on the extensive experience of our 400 trainers working with plastic around the world.",
@@ -39,7 +39,7 @@ const en_Page_Translations = {
         "028-propane-gas-label": "Propane Gas",
         "029-propane-gas-description": "Plastic involved in the consumption of one LPG tank (any size)",
 
-        
+
         "030-propane-gas-estimate": "0.001 Kg of plastic per cannister",
         "031-laptop-label": "Laptop",
         "032-laptop-description": "The purchase and use of a laptop entails plastic generation (packaging, cables, casing, screen, keyboard, etc)",
