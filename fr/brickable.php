@@ -35,21 +35,21 @@
 			<div class="lead-page-paragraph">
 
 			
-			<p>The Brickable Designator Icon can be placed on single-use plastics to designate its next life as an ecobrick.  Our free Kit contains everything you need to guide your packaging and products into a spiral and green life-cycle</p>
-				
+				<p>The Brickable Designator Icon can be placed on single-use plastics to designate its next life as an ecobrick.  Our free Kit contains everything you need to guide your packaging and products into a spiral and green life-cycle</p>
+					
 			
 			</div>
 
 			<div class="page-paragraph">
 				
 
-			<p>Transitioning from plastic is not easy.  Try as we might, in our day and age, regulations and markets demand the use of plastic for just about everything. However, plastic in-itself is not the problem.  Rather, it is our poor design and planning.  In particular: <i>the failure to designate a next-life for our plastic creations that avoids the perils of promoting yet more plastic consumption and yet more industrial plastic processing.</i></p>
-				
-			<p>Designing a product as spiral is the first and essential step in an enterprise’s plastic transition.  Phasing it out entirely is the second.  Ecobrickable Designation enables companies to start their <a href="transition.php">plastic transition today</a>.</p>
+				<p>Transitioning from plastic is not easy.  Try as we might, in our day and age, regulations and markets demand the use of plastic for just about everything. However, plastic in-itself is not the problem.  Rather, it is our poor design and planning.  In particular: <i>the failure to designate a next-life for our plastic creations that avoids the perils of promoting yet more plastic consumption and yet more industrial plastic processing.</i></p>
+					
+				<p>Designing a product as spiral is the first and essential step in an enterprise’s plastic transition.  Phasing it out entirely is the second.  Ecobrickable Designation enables companies to start their <a href="transition.php">plastic transition today</a>.</p>
 
 			</div>	
 
-
+<!--PHILOSOPHY-->
             <div class="reg-content-block" id="block3">
 
 				<div class="opener-header">
@@ -80,14 +80,14 @@
 						<div class="main3">
 						<p>As a transition-step, plastic products and packaging can be made brickable!</p> 
 						</div>
-						<div class="side3"><img src="../icons/cyclical-design-icon-ecobricks-org.svg" width="120px" alt="Cyclical Circular Design">
+						<div class="side3"><img src="../icons/spiral-design-icon-ecobricks-org.svg" width="120px" alt="Cyclical Circular Design">
 						</div>
 					</div>
 					 
 					
 					<p>Designing a product as ecobrickable—  and clearly designating it as so— is a first step into earthen spiral design.  By designating a product or package as ecobrickable we can keep plastic out of industrial recycling and incineration that cause more problems than they create.  Encouraging the use of plastic to make it an ecobrick shows the way to the plastic's next life and purpose as a reusable building block.</p>
 					
-					<p>Ecobricks and their applications are themselves fully spiral and based on <a href="principles.php">regenerative principles</a>, enabling the plastic's indefinite and localized reuse towards long-term <a href="sequestration.php">sequestration.</a>  Both the Brickable Designator Icon and ecobricking are based on following the Earth's example of carbon care and the ethics of ecologial contribution.</p>
+					<p>Ecobricks and their applications are themselves fully spiral and based on <a href="principles.php">regenerative principles</a>, enabling the plastic's indefinite and localized reuse towards long-term <a href="sequest.php">sequestration.</a>  Both the Brickable Designator Icon and ecobricking are based on following the Earth's example of carbon care and the ethics of ecologial contribution.</p>
 
 					<h6>🟢  <a href="spiral.php">Learn more about Spiral Design</a></h6><br>
 					<h6>🟢  <a href="sequest.php">Learn more about Plastic Sequestration</a></h6><br>
@@ -99,6 +99,7 @@
 				</div>
 			</div>
             
+<!--USEAGE CRITERIA -->
 
 			<div class="reg-content-block" id="block1">
 				
@@ -118,18 +119,21 @@
 					<br>
 					<p>The GEA has established simple criteria to meet when designing your product or packaging.  It is obligatory that your product meet these stipulation in order to use Ecobrickable Designator Symbol your product or packaging must…</p>
 
-			<ol>
+					<ol>
 
-			<li><p>...not contain substances that will corrode PET plastic over time.</p></li>
-				<li><p>...not contain any primary or secondary biodegradable material.</p></li>
-				<li><p>... be easily disassembled, broken or cut into parts that can fit within the 22mm diameter neck of a standard PET bottle.</p></li>
-				<li><p>...maximize the ease of disassembly for this purpose.</p></li>
-				<li><p>...not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.</p></li>
-				<li><p>...not contain reactive chemicals, or if so, these components are clearly marked as un-brickable.</p></li>
-			</ol>
+					<li><p>...not contain substances that will corrode PET plastic over time.</p></li>
+						<li><p>...not contain any primary or secondary biodegradable material.</p></li>
+						<li><p>... be easily disassembled, broken or cut into parts that can fit within the 22mm diameter neck of a standard PET bottle.</p></li>
+						<li><p>...maximize the ease of disassembly for this purpose.</p></li>
+						<li><p>...not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.</p></li>
+						<li><p>...not contain reactive chemicals, or if so, these components are clearly marked as un-brickable.</p></li>
+					</ol>
 						
 				</div>	
 			</div>
+
+
+	<!--CC LIcense-->
 
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
@@ -146,7 +150,7 @@
 				</div>
 			</div>
 
-
+<!-- 
 			<div class="reg-content-block" id="block4">
 
 				<div class="opener-header">
@@ -168,8 +172,10 @@
 						
 			
 				</div>
-			</div>
+			</div> -->
 
+
+			<!-- HOW ITS USED -->
 
 
 			<div class="reg-content-block" id="block4">
@@ -187,7 +193,6 @@
 
 				<div id="preclosed4">
 					
-					<p><b></b> </p>
 					<p>The designator icon can be used directly in packaging designs or added as sticker to pre-existing packaging and products.</p><br>
 					<p>Here's some examples of our useage:</p>
 
@@ -234,14 +239,12 @@
 
 
 			
-		<div class="side-module-desktop-only">
-			
-		
-		<img src="../webp/brickable-kit.webp?v=1" width="90%">
-				<h4>Get Started</h4>
-				<h5>Download the Brickable Designator Kit today.</h5><br>
-				<a class="action-btn" href="https://nextcloud.ecobricks.org/index.php/s/rL3yFwETbcLF9dR" target="_blank">🚀 Download</a>
-			<p style="font-size: 0.85em; margin-top:20px;">ZIP file | 3.2 MB </a></p>
+			<div class="side-module-desktop-only">
+				<img src="../webp/brickable-kit.webp?v=1" width="90%">
+					<h4>Get Started</h4>
+					<h5>Download the Brickable Designator Kit today.</h5><br>
+					<a class="action-btn" href="https://nextcloud.ecobricks.org/index.php/s/rL3yFwETbcLF9dR" target="_blank">🚀 Download</a>
+				<p style="font-size: 0.85em; margin-top:20px;">ZIP file | 3.2 MB </a></p>
 			</div>
 
 	
@@ -254,8 +257,10 @@
 			<?php require_once ("side-modules/concentration-principle.php");?>
 
 
+		</div>
 
 	</div>
+</div>
 </div>
 
 </div> <!-- main -->
