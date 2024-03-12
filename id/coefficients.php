@@ -7,6 +7,7 @@
 <?php $version='1.71';?>
 <?php $page='coefficients';?>
 
+<title>Koefisien Plastik</title>
 
 <?php require_once ("../includes/coefficients-inc2.php");?>
 

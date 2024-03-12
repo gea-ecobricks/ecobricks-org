@@ -28,7 +28,26 @@ const es_Page_Translations = {
     "020-domestic-air-travel-label": "Viaje Aéreo Doméstico",
     "021-domestic-air-travel-description": "La cantidad promedio de plástico generado por un único viaje aéreo doméstico (boleto, pegatinas, servicio de comida, etc.)",
 
+    "030-propane-gas-estimate": "0,001 Kg de plástico por cilindro",
+    "031-laptop-label": "Portátil",
+    "032-laptop-description": "La compra y uso de un portátil implica la generación de plástico (embalaje, cables, carcasa, pantalla, teclado, etc.)",
+    "033-laptop-estimate": "0,5 Kg durante la vida útil",
+    "034-smart-phone-label": "Teléfono Inteligente",
+    "035-smart-phone-description": "La compra y uso de un teléfono inteligente implica la generación de plástico (embalaje, cables, carcasa, pantalla, teclado, etc.)",
+    "036-smart-phone-estimate": "0,4 Kg durante la vida útil",
 
+    "037-subtractive-coefficients-title": "Coeficientes de Plástico Sustractivos",
+    "038-subtractive-coefficients-subtitle": "Impactos que eliminan plástico de la biosfera",
+    "039-block-toggle": "+",
+    "040-recycling-label": "Reciclaje",
+    "041-recycling-description": "El promedio global para la recuperación total y reutilización continua de plástico reciclado es del 9%. Las empresas deben rastrear el porcentaje de su producción y consumo de plástico que se recicla y luego multiplicar en consecuencia.",
+    "042-recycling-estimate": "0,09 Kg por 1 Kg de plástico reciclado",
+    "043-aes-plastic-label": "Plástico AES",
+    "044-aes-plastic-description": "El plástico que ha sido ecobrickeado y autenticado como que ha cumplido con los criterios de secuestro de plástico, puede reclamarse como Plástico Secuestrado Ecobrick autenticado.",
+    "045-aes-plastic-estimate": "1kg de plástico AES = 1 Kg de plástico eliminado de la biosfera",
+    "046-1-brikcoin-label": "1 Brikcoin",
+    "047-1-brikcoin-description": "Un brikcoin en la blockchain de GoBrik corresponde a una cierta cantidad de plástico secuestrado. Esto cambia cada año.",
+    "048-1-brikcoin-estimate": "1 BRK = 0,098 Kg de plástico",
 };
 
         
