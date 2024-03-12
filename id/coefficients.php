@@ -1,160 +1,149 @@
-<!--PAGE LANGUAGE:  INDONESIA
-Content Page template: v.1.0.1-->
-  
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/coefficients-inc.php");?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!DOCTYPE html>
+<HTML lang="id"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='id';?>
+<?php $version='1.7';?>
+<?php $page='coefficients';?>
 
+
+<?php require_once ("../includes/coefficients-inc2.php");?>
 
 <!--SPLASH SECTION-->
-	
+
 <div class="splash-content-block">
-	<div class="splash-text-box">
-		<div class="splash-heading">Koefisien Plastik Global untuk Akuntansi Ekologis<br></div>
-		<div class="splash-sub">Pelaporan Regenerasi Perusahaan</div>
-	</div>
-	<div class="splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 75%;"></div>	
+    <div class="splash-box">
+        <div class="splash-heading" data-lang-id="001-splash-heading">Koefisien Plastik</div>
+        <div class="splash-sub" data-lang-id="002-splash-sub">Untuk Akuntansi Ekologis</div>
+    </div>
+    <div class="splash-image" data-lang-id="003xx-splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 75%;"></div>   
 </div>
 <div id="splash-bar"></div>
-
+<!-- 
+<div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">About Us</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">The Global Ecobrick Alliance</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/gea-perspective-400px.webp" style="width: 85%" alt="How to build with ecobricks">
+    </div>	
+</div>
+<div id="splash-bar"></div> -->
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
-
 <div id="main-content">
-<!-- The flexible grid (content) -->
-	<div class="row">
-		<div class="main">
+    <!-- The flexible grid (content) -->
+    <div class="row">
+        <div class="main">
 
-			<div class="lead-page-paragraph">
-				
-            <p>Global Ecobrick Alliance memelihara dan memublikasikan koefisien konsumsi plastik, produksi, dan kesetaraan CO2 untuk perusahaan yang melacak dan mengungkapkan dampak plastik mereka.</p>
-			</div>
+            <div class="lead-page-paragraph">
+                <p data-lang-id="006-lead-paragraph">The Global Ecobrick Alliance maintains and publish coefficients for plastic consumption, production and CO2 equivalency for enterprises who are tracking and disclosing their plastic impacts.</p>
+            </div>
 
-			<div class="page-paragraph">
-				  
+            <div class="page-paragraph">
+                <p data-lang-id="007-page-paragraph-1">In 2021 the GEA began a compendium of plastic generation coeffecients based on the extensive experience of our 400 trainers working with plastic around the world.</p>
+                <p data-lang-id="008-page-paragraph-2">As of June 2022, this page and our listing here are still in development with the aim of formalizing our coefficients for the end of the year.</p>
+            </div>
 
-            <p>Pada tahun 2021, GEA memulai ringkasan koefisien generasi plastik berdasarkan pengalaman luas dari 400 pelatih kami yang bekerja dengan plastik di seluruh dunia.</p>
-
-<p>Mulai Juni 2022, halaman ini dan listingan kami di sini masih dalam pengembangan dengan tujuan memformalkan koefisien kami untuk akhir tahun.</p>
-
-			</div>
-
-		
-
-			<div class="reg-content-block" id="block1">
-				
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-                    <h4>Koefisien Plastik Aditif</h4>
-                    <h5>Dampak yang menambahkan plastik ke biosfer.</h5>
-					</div>
-					
-					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-					
-				</div>
+            <div class="reg-content-block" id="block1">
+                <div class="opener-header">
+                    <div class="opener-header-text">
+                        <h4 data-lang-id="009-additive-coefficients-title">Additive Plastic Coefficients</h4>
+                        <h5 data-lang-id="010-additive-coefficients-subtitle">Impacts that add plastic to the biosphere.</h5>
+                    </div>
+                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+                </div>
 
 				<div id="preclosed1">
-					<br>
+			<br>
 
-					<h3>Produksi Plastik</h3>
+			<h3 data-lang-id="012-plastic-production-title">Plastic Production</h3>
 
-                    <h5><i>Plastik yang dibuat di luar atau dikirim ke luar fasilitas Anda.</i></h5>
+			<h5 data-lang-id="013-plastic-production-subtitle"><i>Plastic generated outside of or sent outside of your facilities.</i></h5>
+			
+			<p data-lang-id="014-take-out-coffee-label"><b>Take-out Coffee</b></p>
+			
+			<p data-lang-id="015-take-out-coffee-description">The average plastic generated by one coffee to-go (including cup, lid, sugar packet lining, stirrer, etc.)</p> 
 
-                    <p><b>Kopi Bawa Pulang</b></p>
+			<span title="GEA Estimate, 2020" data-lang-id="016-take-out-coffee-estimate"><h5>0.01 Kg plastic</h5></span><br>
 
-                    <p>Rata-rata plastik yang dihasilkan oleh sekali minum kopi (termasuk cangkir, tutup, lapisan pembungkus gula, pengaduk, dll.)</p>
+			<p data-lang-id="017-take-out-meal-label"><b>Take-out Meal</b></p>
+			
+			<p data-lang-id="018-take-out-meal-description">The average plastic generated by a meal at a restaurant taken to go (including plastic used in the kitchen, for presentation, take out, drinks, etc.)</p> 
 
-					<span title="GEA Estimate, 2020"><h5>0.01 Kg plastic</h5></span><br>
+			<span title="GEA Estimate, 2020" data-lang-id="019-take-out-meal-estimate"><h5>0.125 Kg per meal</h5></span><br>
 
+			<p data-lang-id="020-domestic-air-travel-label"><b>Domestic Air Travel</b></p>
+			
+			<p data-lang-id="021-domestic-air-travel-description">The average amount of plastic generated by a single domestic air travel flight (ticket, stickers, food and drink service, snacks, meal, etc.).</p> 
 
-					<p><b>Take-out Meal</b></p>
-					
-					<p>The average plastic generated by a meal at a restaurant taken to go (including plastic used in the kitchen, for presentation, take out, drinks, etc.)</p> 
+			<span title="GEA Estimate" data-lang-id="022-domestic-air-travel-estimate"><h5>0.550 kg per ticket</h5></span><br>
 
-					<span title="GEA Estimate, 2020"><h5>0.125 Kg per meal</h5></span><br>
-				
-                   
-					<p><b>Domestic Air Travel</b></p>
-					
-					<p>The average amount of plastic generated by a single domestic air travel flight (ticket, stickers, food and drink service, snacks, meal, etc.).</p> 
+			<p data-lang-id="023-international-air-travel-label"><b>International Air Travel</b></p>
+			
+			<p data-lang-id="024-international-air-travel-description">The average amount of plastic generated by a single international air travel flight (ticket, stickers, food and drink service, snacks, meal, etc.)</p> 
 
-					<span title="GEA Estimate"><h5>0.550 kg per ticket</h5></span><br>
+			<span title="GEA Estimate" data-lang-id="025-international-air-travel-estimate"><h5>0.750 kg per ticket</h5></span><br>
+			<br><br><hr>
 
+			<h3 data-lang-id="026-plastic-consumption-title">Plastic Consumption</h3>
+			<h5 data-lang-id="027-plastic-consumption-subtitle"><i>Plastic generated within your facilities.</i></h5>
 
-					<p><b>International Air Travel</b></p>
-					
-					<p>The average amount of plastic generated by a single international air travel flight (ticket, stickers, food and drink service, snacks, meal, etc.)</p> 
+			<p data-lang-id="028-propane-gas-label"><b>Propane Gas</b></p> 
+			
+			<p data-lang-id="029-propane-gas-description">Plastic involved in the consumption of one LPG tank (any size)</p> 
 
-					<span title="GEA Estimate"><h5>0.750 kg per ticket</h5></span><br>
-                    <br><br><hr>
-					
+			<span title="GEA Estimate" data-lang-id="030-propane-gas-estimate"><h5>0.001 Kg of plastic per cannister</h5></span><br>
 
-					<h3>Plastic Consumption</h3>
-                    <h5><i>Plastic generated within your facilities.</i></h5>
+			<p data-lang-id="031-laptop-label"><b>Laptop</b></p>
+			
+			<p data-lang-id="032-laptop-description">The purchase and use of a laptop entails plastic generation (packaging, cables, casing, screen, keyboard, etc)</p> 
 
-					<p><b>Propane Gas</b></p> 
-					
-					<p>Plastic involved in the consumption of one LPG tank (any size)</p> 
+			<span title="Examining the Carbon Footprint of Devices, Microsoft, Sustainable Software, 2020" data-lang-id="033-laptop-estimate"><h5>0.5 Kg over lifetime of use</h5></span><br>
 
-					<span title="GEA Estimate"><h5>0.001 Kg of plastic per cannister</h5></span><br>
+			<p data-lang-id="034-smart-phone-label"><b>Smart Phone</b></p>
+			
+			<p data-lang-id="035-smart-phone-description">The purchase and use of a smart phone entails plastic generation (packaging, cables, casing, screen, keyboard, etc)</p> 
 
-					<p><b>Laptop</b></p>
-					
-					<p>The purchase and use of a laptop entails plastic generation (packaging, cables, casing, screen, ketboard, etc)</p> 
-
-					<span title="Examining the Carbon Footprint of Devices, Microsoft, Sustainable Software, 2020"><h5>0.5 Kg over lifetime of use</h5></span><br>
-                   
-					<p><b>Smart Phone</b></p>
-					
-					<p>The purchase and use of a smart phone entails plastic generation (packaging, cables, casing, screen, ketboard, etc)</p> 
-
-					<span title="Examining the Carbon Footprint of Devices, Microsoft, Sustainable Software, 2020"><h5>0.4 Kg over lifetime of use</h5></span><br>
+			<span title="Examining the Carbon Footprint of Devices, Microsoft, Sustainable Software, 2020" data-lang-id="036-smart-phone-estimate"><h5>0.4 Kg over lifetime of use</h5></span><br>
+		</div>
+	</div>
 
 
-                   
-	
-				</div>	
-			</div>
 
-			<div class="reg-content-block" id="block2">
-				<div class="opener-header">
-					<div class="opener-header-text">
-						<h4>Subtractive Plastic Coefficients</h4>
-						<h5>Impacts that remove plastic from the biosphere</h5><br>
-					</div>
-					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-				</div>
+<div class="reg-content-block" id="block2">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="037-subtractive-coefficients-title">Subtractive Plastic Coefficients</h4>
+            <h5 data-lang-id="038-subtractive-coefficients-subtitle">Impacts that remove plastic from the biosphere</h5><br>
+        </div>
+        <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" data-lang-id="039-block-toggle">+</button>
+    </div>
 
-				<div id="preclosed2">
-					
-				<p><b>Recycling</b></p>
-					
-					<p>The global average for full recovery and ongoing reuse of recyled plastic is 9%.  Enterprise's should track the percentage of their plastic production and consumption that is recycled and then multiply accordingly.</p> 
+    <div id="preclosed2">
+        
+        <p data-lang-id="040-recycling-label"><b>Recycling</b></p>
+            
+        <p data-lang-id="041-recycling-description">The global average for full recovery and ongoing reuse of recyled plastic is 9%.  Enterprise's should track the percentage of their plastic production and consumption that is recycled and then multiply accordingly.</p> 
 
-					<span title="https://advances.sciencemag.org/content/3/7/e1700782"><h5>0.09 Kg per 1 Kg of recycled plastic</h5></span><br>
+        <span title="https://advances.sciencemag.org/content/3/7/e1700782" data-lang-id="042-recycling-estimate"><h5>0.09 Kg per 1 Kg of recycled plastic</h5></span><br>
 
-					<p><b>AES Plastic</b></p>
-					
-					<p>Plastic that has been ecobricked and authenticated as having met the criteria of plastic sequestration, can be claimed as authenticated Ecobrick Sequestered Plastic.</p> 
+        <p data-lang-id="043-aes-plastic-label"><b>AES Plastic</b></p>
+            
+        <p data-lang-id="044-aes-plastic-description">Plastic that has been ecobricked and authenticated as having met the criteria of plastic sequestration, can be claimed as authenticated Ecobrick Sequestered Plastic.</p> 
 
-					<span title="GEA Certified"><h5>1kg of AES plastic = 1 Kg of plastic removed from the biosphere</h5></span><br>
+        <span title="GEA Certified" data-lang-id="045-aes-plastic-estimate"><h5>1kg of AES plastic = 1 Kg of plastic removed from the biosphere</h5></span><br>
 
-					<p><b>1 Brikcoin</b></p>
-					
-					<p>A brikcoin on the GoBrik blockchain corresponds to a certain amount of plastic sequestered.  This changes each year.</p> 
+        <p data-lang-id="046-1-brikcoin-label"><b>1 Brikcoin</b></p>
+            
+        <p data-lang-id="047-1-brikcoin-description">A brikcoin on the GoBrik blockchain corresponds to a certain amount of plastic sequestered.  This changes each year.</p> 
 
-					<span title="GEA 2021 value"><h5>1 BRK = 0.098 Kg plastic</h5></span><br>
-
-					
-				</div>
-			</div>	
-
+        <span title="GEA 2021 value" data-lang-id="048-1-brikcoin-estimate"><h5>1 BRK = 0.098 Kg plastic</h5></span><br>
+                    
+    </div>
+</div>
 
 			
 			<a name="co2"></a>
@@ -244,28 +233,16 @@ Content Page template: v.1.0.1-->
 		<div class="side">
 
 		
-			
-		<div id="side-module-desktop-only">
-        <img src="../webp/2020-regen-report.webp" width="90%">
-				<h4>GEA Regen Reports</h4>
-				<h5>We're proud to publish our net-green ecological impact each year.</h5><br>
-				<a class="module-btn" href="regenreports.php">Access Report</a><br><br>
-			</div>
+	
+        <?php require_once ("side-modules/eco-accounting.php");?>
+
+		<?php require_once ("side-modules/eco-accounting-principle.php");?>
+
+		<?php require_once ("side-modules/for-earth.php");?>
+
+        <?php require_once ("side-modules/plastic-co2e.php");?>
 
 
-			<div id="side-module-desktop-mobile">
-				<img src="../webp/for-earth500px.webp" width="80%">
-				<h4>For-Earth Enterprise</h4>
-				<h5>By disclosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
-			</div>
-
-			<div id="side-module-desktop-mobile">
-				<img src="../webp/gea-logo-400px.webp" width="90%">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>Our mission is to accelerate plastic transition.  To do so we preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
-			</div>
 
 		</div>
 
@@ -274,16 +251,15 @@ Content Page template: v.1.0.1-->
 
 
 
-
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 
 </div>
