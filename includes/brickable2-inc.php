@@ -1,6 +1,6 @@
 
 
-<link rel="preload" as="image" href="../webp/brikchain-450px.webp">
+<link rel="preload" as="image" href="../icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1">
 <link rel="preload" as="image" href="../svgs/gray-to-orange-brickable-banner.svg">
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
@@ -18,7 +18,7 @@
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(https://ecobricks.org/svgs/gray-to-orange-brickable-banner.svg) bottom;
+		background: url(../svgs/gray-to-orange-brickable-banner.svg) bottom;
 		/*background: url(svgs/cloud-back-logo-blue.svg) top;*/
 		background-color: #FF7F2A;
 		
@@ -30,7 +30,7 @@
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		
-		background: url(https://ecobricks.org/svgs/gray-to-orange-brickable-banner.svg) bottom;
+		background: url(../svgs/gray-to-orange-brickable-banner.svg) bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-color: #FF7F2A;

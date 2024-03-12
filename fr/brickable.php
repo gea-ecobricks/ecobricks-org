@@ -8,7 +8,7 @@
 
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.78';?>
+<?php $version='1.781';?>
 <?php $page='brickable';?>
 <?php require_once ("../includes/brickable2-inc.php");?>
 
@@ -19,7 +19,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Brickable Design</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Guide your packaging into its next life while you work to do away with plastic altogether.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="/icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1" style="width: 70%" alt="Brikable designator icon"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1" style="width: 70%" alt="Brikable designator icon"></div>	
 
 </div>
 <div id="splash-bar"></div>
@@ -74,7 +74,7 @@
                     
                    
 						</div>
-						<div class="side2"><img src="../svgs/vsrecycling.svg" width="300" style="width:80%;" alt="spiral design icon">
+						<div class="side2"><img src="../svgs/vsrecycling.svg" width="300" style="width:80%;" alt="spiral design icon" loading="lazy">
 						</div>
 					</div>
 
@@ -82,7 +82,7 @@
 						<div class="main3">
 						<p>As a transition-step, plastic products and packaging can be made brickable!</p> 
 						</div>
-						<div class="side3"><img src="../icons/spiral-design-icon-ecobricks-org.svg" width="120" alt="Cyclical Spiral Design">
+						<div class="side3"><img src="../icons/spiral-design-icon-ecobricks-org.svg" width="120" alt="Cyclical Spiral Design" loading="lazy">
 						</div>
 					</div>
 					 
@@ -199,9 +199,9 @@
 					<p>Here's some examples of our useage:</p>
 
 					<div id="flex-gallery" style="width:100%">
-						<a href="photos/brickable-1-716px.jpeg"><img src="../photos/brickable-1-716px.jpeg" style="width:30%;" alt="A black sticker used on a chocolate powder plastic bag"></a>
-						<a href="photos/brickable-2-716px.jpeg"><img src="../photos/brickable-2-716px.jpeg" style="width:30%;" alt="Integrated into the packaging of a Marimas juice product"></a>
-						<a href="photos/brickable-3-716px.jpeg"><img src="../photos/brickable-3-716px.jpeg" style="width:30%;" alt="A stick on a home based business health drink product"></a>
+						<a href="photos/brickable-1-716px.jpeg"><img src="../photos/brickable-1-716px.jpeg" style="width:30%;" alt="A black sticker used on a chocolate powder plastic bag" loading="lazy"></a>
+						<a href="photos/brickable-2-716px.jpeg"><img src="../photos/brickable-2-716px.jpeg" style="width:30%;" alt="Integrated into the packaging of a Marimas juice product" loading="lazy"></a>
+						<a href="photos/brickable-3-716px.jpeg"><img src="../photos/brickable-3-716px.jpeg" style="width:30%;" alt="A stick on a home based business health drink product" loading="lazy"></a>
 					</div>
 						
 			
@@ -239,7 +239,7 @@
 
 			
 			<div class="side-module-desktop-only">
-				<img src="../webp/brickable-kit.webp?v=1" width="300" style="width:90%;" alt="Brickable Design Kit Icon">
+				<img src="../webp/brickable-kit.webp?v=1" width="300" style="width:90%;" alt="Brickable Design Kit Icon" loading="lazy">
 					<h4>Get Started</h4>
 					<h5>Download the Brickable Designator Kit today.</h5><br>
 					<a class="action-btn" href="https://nextcloud.ecobricks.org/index.php/s/rL3yFwETbcLF9dR" target="_blank">🚀 Download</a>
