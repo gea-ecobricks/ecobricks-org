@@ -6,7 +6,7 @@
 
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.777';?>
+<?php $version='1.78';?>
 <?php $page='brickable';?>
 <?php require_once ("../includes/brickable2-inc.php");?>
 
@@ -146,7 +146,7 @@
 
 				<div id="preclosed2">
                 <p>The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals.   See copyright notice and terms below.</p><br><br>
-				<h6><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png"></a><br/><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</h6>
+				<h6><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png"></a><br><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</h6>
 				</div>
 			</div>
 
@@ -220,7 +220,7 @@
 					<li>High, medium and low resolution icons (PNG)</li>
 					<li>Terms and Conditions of use (TXT)</li>
 					<li>Creative Commons Attribution-NoDerivatives 4.0 International License (TXT/PNG)</li>
-				<ul> 
+				</ul> 
 
 
 				<br>
