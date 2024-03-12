@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.7';?>
+<?php $version='1.71';?>
 <?php $page='coefficients';?>
 
 
