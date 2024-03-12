@@ -7,8 +7,8 @@
 
 const id_Page_Translations = {
     
-    "001-splash-title": "Desain Bisa Dibuat Menjadi Ecobrick",
-    "002-splash-subtitle": "Pandu kemasan Anda ke kehidupan selanjutnya sambil bekerja untuk menghilangkan plastik sepenuhnya.",
+    "001-splash-title": "Desain Brickable",
+    "002-splash-subtitle": "Pandu kemasan Anda ke kehidupan selanjutnya",
     "003-splash-image-alt": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1\" style=\"width: 70%\" alt=\"Ikon penanda bisa dibuat menjadi ecobrick\">",
     
     "004-lead-paragraph": "Ikon Penanda Bisa Dibuat Menjadi Ecobrick dapat ditempatkan pada plastik sekali pakai untuk menunjukkan kehidupan selanjutnya sebagai ecobrick. Kit gratis kami berisi segala yang Anda butuhkan untuk memandu kemasan dan produk Anda ke dalam siklus hidup yang spiral dan hijau",

@@ -9,7 +9,7 @@
 const fr_Page_Translations = {
     
     "001-splash-title": "Conception Écobrickable",
-    "002-splash-subtitle": "Guidez vos emballages vers leur prochaine vie tout en travaillant à éliminer complètement le plastique.",
+    "002-splash-subtitle": "Guidez vos emballages vers leur prochaine vie vert et spirale",
     "003-splash-image-alt": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1\" style=\"width: 70%\" alt=\"Icône désignatrice brikable\">",
     
     "004-lead-paragraph": "L'icône Désignateur Écobrickable peut être placée sur les plastiques à usage unique pour désigner leur prochaine vie en tant qu'écobrique. Notre Kit gratuit contient tout ce dont vous avez besoin pour guider vos emballages et produits vers un cycle de vie en spirale et vert",
