@@ -43,9 +43,7 @@
 			<div class="page-paragraph">
 				
 
-			<p>Transitioning from plastic is not easy.  Try as we might, in our day and age, regulations and markets demand the use of plastic for just about everything. However, plastic in-itself is not the problem.  Rather, it is our poor design and planning.  In particular: <i>the failure to designate a next-life for our plastic creations that avoids the perils of promoting yet more plastic consumption and yet more industrail plastic processing.</i></p>
-				
-				
+			<p>Transitioning from plastic is not easy.  Try as we might, in our day and age, regulations and markets demand the use of plastic for just about everything. However, plastic in-itself is not the problem.  Rather, it is our poor design and planning.  In particular: <i>the failure to designate a next-life for our plastic creations that avoids the perils of promoting yet more plastic consumption and yet more industrial plastic processing.</i></p>
 				
 			<p>Designing a product as spiral is the first and essential step in an enterprise’s plastic transition.  Phasing it out entirely is the second.  Ecobrickable Designation enables companies to start their <a href="transition.php">plastic transition today</a>.</p>
 
@@ -74,7 +72,7 @@
                     
                    
 						</div>
-						<div class="side2"><img src="../svgs/vsrecycling.svg" width="80%" alt="cyclical design icon">
+						<div class="side2"><img src="../svgs/vsrecycling.svg" width="80%" alt="spiral design icon">
 						</div>
 					</div>
 
@@ -148,7 +146,7 @@
 				</div>
 			</div>
 
-<!--
+
 			<div class="reg-content-block" id="block4">
 
 				<div class="opener-header">
@@ -172,7 +170,7 @@
 				</div>
 			</div>
 
--->
+
 
 			<div class="reg-content-block" id="block4">
 
