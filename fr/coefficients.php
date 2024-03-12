@@ -13,7 +13,7 @@
 <!--SPLASH SECTION-->
 
 <div class="splash-content-block">
-    <div class="splash-text-box">
+    <div class="splash-box">
         <div class="splash-heading" data-lang-id="001-splash-heading">Plastic Coefficients</div>
         <div class="splash-sub" data-lang-id="002-splash-sub">For Ecological Accounting</div>
     </div>
