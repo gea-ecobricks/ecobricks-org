@@ -23,5 +23,23 @@ const id_Page_Translations = {
     "013-reg-content-link-1": "🟢  <a href=\"spiral.php\">Pelajari lebih lanjut tentang Desain Spiral</a>",
     "014-reg-content-link-2": "🟢  <a href=\"sequest.php\">Pelajari lebih lanjut tentang Sequestrasi Plastik</a>",
     "015-reg-content-link-3": "🟢  <a href=\"https://book.earthen.io/en/spirals.html\" target=\"_blank\">Pelajari lebih lanjut tentang Etika Berbasis Bumi dari Siklus Spiral</a>",
-    "016-reg-content-link-4": "🟢  <a href=\"https://book.earthen.io/en/matter.html\" target=\"_blank\">Pelajari lebih lanjut tentang Etika Berbasis Bumi dari Konsentrasi</a>"
+    "016-reg-content-link-4": "🟢  <a href=\"https://book.earthen.io/en/matter.html\" target=\"_blank\">Pelajari lebih lanjut tentang Etika Berbasis Bumi dari Konsentrasi</a>",
+
+   
+    "017-brickable-icon-usage-criteria-title": "Kriteria Penggunaan Ikon Brickable",
+    "018-brickable-icon-usage-criteria-subtitle": "Kriteria material untuk produk yang menggunakan ikon penunjuk.",
+    "019-gea-criteria-introduction": "GEA telah menetapkan kriteria sederhana yang harus dipenuhi saat mendesain produk atau kemasan Anda. Produk Anda harus memenuhi ketentuan ini agar dapat menggunakan Simbol Penunjuk Ecobrickable produk atau kemasan Anda harus...",
+    "020-criteria-corrosion": "...tidak mengandung zat yang akan mengikis plastik PET seiring waktu.",
+    "021-criteria-biodegradable": "...tidak mengandung bahan biodegradable primer atau sekunder.",
+    "022-criteria-size": "...mudah dibongkar, dipecah atau dipotong menjadi bagian-bagian yang dapat masuk dalam leher botol PET standar berdiameter 22mm.",
+    "023-criteria-disassembly": "...memaksimalkan kemudahan pembongkaran untuk tujuan ini.",
+    "024-criteria-sharpness": "...tidak memiliki tonjolan tajam yang dapat menusuk ecobrick dari dalam saat sedang dipadatkan.",
+    "025-criteria-chemicals": "...tidak mengandung bahan kimia reaktif, atau jika iya, komponen ini harus jelas ditandai sebagai tidak dapat dibuat brick.",
+    "026-side-module-1-alt": "<img src=\"../webp/brickable-kit.webp?v=1\" width=\"300\" style=\"width:90%;\" alt=\"Ikon Kit Desain Brickable\" loading=\"lazy\">",
+    "027-side-module-1-title": "Mulai",
+    "028-side-module-1-subtitle": "Unduh Kit Penunjuk Brickable hari ini.",
+    "029-side-module-1-button": "🚀 Unduh",
+    "030-side-module-button-caption": "File ZIP | 3,2 MB",
+
+
 };

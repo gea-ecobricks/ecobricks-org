@@ -24,5 +24,20 @@ const fr_Page_Translations = {
     "013-reg-content-link-1": "🟢  <a href=\"spiral.php\">En savoir plus sur la Conception en Spirale</a>",
     "014-reg-content-link-2": "🟢  <a href=\"sequest.php\">En savoir plus sur la Séquestration du Plastique</a>",
     "015-reg-content-link-3": "🟢  <a href=\"https://book.earthen.io/en/spirals.html\" target=\"_blank\">En savoir plus sur l'Éthique Terrestre des Cycles en Spirale</a>",
-    "016-reg-content-link-4": "🟢  <a href=\"https://book.earthen.io/en/matter.html\" target=\"_blank\">En savoir plus sur l'Éthique Terrestre de la Concentration</a>"
+    "016-reg-content-link-4": "🟢  <a href=\"https://book.earthen.io/en/matter.html\" target=\"_blank\">En savoir plus sur l'Éthique Terrestre de la Concentration</a>",
+
+    "017-brickable-icon-usage-criteria-title": "Critères d'Utilisation de l'Icône Brickable",
+    "018-brickable-icon-usage-criteria-subtitle": "Les critères matériels pour les produits utilisant l'icône désignatrice.",
+    "019-gea-criteria-introduction": "La GEA a établi des critères simples à respecter lors de la conception de votre produit ou emballage. Il est obligatoire que votre produit respecte ces stipulations pour utiliser le Symbole Désignateur Écobrickable votre produit ou emballage doit…",
+    "020-criteria-corrosion": "...ne pas contenir de substances qui corroderaient le plastique PET avec le temps.",
+    "021-criteria-biodegradable": "...ne pas contenir de matériel biodégradable primaire ou secondaire.",
+    "022-criteria-size": "...être facilement démontable, cassé ou coupé en pièces qui peuvent s'insérer dans le col de 22 mm de diamètre d'une bouteille PET standard.",
+    "023-criteria-disassembly": "...maximiser la facilité de démontage à cette fin.",
+    "024-criteria-sharpness": "...ne pas avoir de saillies tranchantes qui pourraient percer un écobrick de l'intérieur pendant qu'il est tassé.",
+    "025-criteria-chemicals": "...ne pas contenir de produits chimiques réactifs, ou si c'est le cas, ces composants doivent être clairement marqués comme non briquables.",
+    "026-side-module-1-alt": "<img src=\"../webp/brickable-kit.webp?v=1\" width=\"300\" style=\"width:90%;\" alt=\"Icône du Kit de Conception Brickable\" loading=\"lazy\">",
+    "027-side-module-1-title": "Commencez",
+    "028-side-module-1-subtitle": "Téléchargez le Kit de Désignateur Brickable dès aujourd'hui.",
+    "029-side-module-1-button": "🚀 Télécharger",
+    "030-side-module-button-caption": "Fichier ZIP | 3,2 Mbs",
 };

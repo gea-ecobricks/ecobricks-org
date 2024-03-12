@@ -24,5 +24,22 @@ const es_Page_Translations = {
     "013-reg-content-link-1": "🟢  <a href=\"spiral.php\">Aprende más sobre el Diseño en Espiral</a>",
     "014-reg-content-link-2": "🟢  <a href=\"sequest.php\">Aprende más sobre la Secuestración de Plástico</a>",
     "015-reg-content-link-3": "🟢  <a href=\"https://book.earthen.io/en/spirals.html\" target=\"_blank\">Aprende más sobre la Ética Terrenal de los Ciclos en Espiral</a>",
-    "016-reg-content-link-4": "🟢  <a href=\"https://book.earthen.io/en/matter.html\" target=\"_blank\">Aprende más sobre la Ética Terrenal de la Concentración</a>"
+    "016-reg-content-link-4": "🟢  <a href=\"https://book.earthen.io/en/matter.html\" target=\"_blank\">Aprende más sobre la Ética Terrenal de la Concentración</a>",
+
+    "017-brickable-icon-usage-criteria-title": "Criterios de Uso del Icono Brickable",
+    "018-brickable-icon-usage-criteria-subtitle": "Los criterios materiales para los productos que usan el icono designador.",
+    "019-gea-criteria-introduction": "La GEA ha establecido criterios simples que se deben cumplir al diseñar su producto o embalaje. Es obligatorio que su producto cumpla con estas estipulaciones para usar el Símbolo Designador Ecobrickable su producto o embalaje debe...",
+    "020-criteria-corrosion": "...no contener sustancias que corroan el plástico PET con el tiempo.",
+    "021-criteria-biodegradable": "...no contener ningún material biodegradable primario o secundario.",
+    "022-criteria-size": "...ser fácilmente desmontable, roto o cortado en partes que puedan caber dentro del cuello de 22 mm de diámetro de una botella PET estándar.",
+    "023-criteria-disassembly": "...maximizar la facilidad de desmontaje para este propósito.",
+    "024-criteria-sharpness": "...no tener protuberancias afiladas que puedan perforar un ecobrick desde dentro mientras se está compactando.",
+    "025-criteria-chemicals": "...no contener productos químicos reactivos, o si los tiene, estos componentes deben estar claramente marcados como no brickables.",
+    "026-side-module-1-alt": "<img src=\"../webp/brickable-kit.webp?v=1\" width=\"300\" style=\"width:90%;\" alt=\"Icono del Kit de Diseño Brickable\" loading=\"lazy\">",
+    "027-side-module-1-title": "Comenzar",
+    "028-side-module-1-subtitle": "Descarga el Kit Designador Brickable hoy.",
+    "029-side-module-1-button": "🚀 Descargar",
+    "030-side-module-button-caption": "Archivo ZIP | 3,2 MB",
+
+    
 };

@@ -25,8 +25,21 @@ const en_Page_Translations = {
     "013-reg-content-link-1": "🟢  <a href=\"spiral.php\">Learn more about Spiral Design</a>",
     "014-reg-content-link-2": "🟢  <a href=\"sequest.php\">Learn more about Plastic Sequestration</a>",
     "015-reg-content-link-3": "🟢  <a href=\"https://book.earthen.io/en/spirals.html\" target=\"_blank\">Learn more about the Earthen Ethic of Spiralling Cycles</a>",
-    "016-reg-content-link-4": "🟢  <a href=\"https://book.earthen.io/en/matter.html\" target=\"_blank\">Learn more about the Earthen Ethic of Concentration</a>"
+    "016-reg-content-link-4": "🟢  <a href=\"https://book.earthen.io/en/matter.html\" target=\"_blank\">Learn more about the Earthen Ethic of Concentration</a>",
 
-
+    "017-brickable-icon-usage-criteria-title": "Brickable Icon Useage Criteria",
+    "018-brickable-icon-usage-criteria-subtitle": "The material criteria for products to use the designator icon.",
+    "019-gea-criteria-introduction": "The GEA has established simple criteria to meet when designing your product or packaging. It is obligatory that your product meet these stipulation in order to use Ecobrickable Designator Symbol your product or packaging must…",
+    "020-criteria-corrosion": "...not contain substances that will corrode PET plastic over time.",
+    "021-criteria-biodegradable": "...not contain any primary or secondary biodegradable material.",
+    "022-criteria-size": "... be easily disassembled, broken or cut into parts that can fit within the 22mm diameter neck of a standard PET bottle.",
+    "023-criteria-disassembly": "...maximize the ease of disassembly for this purpose.",
+    "024-criteria-sharpness": "...not have sharp protrusions that could puncture an ecobrick from within while it is being packed down.",
+    "025-criteria-chemicals": "...not contain reactive chemicals, or if so, these components are clearly marked as un-brickable.",
+    "026-side-module-1-alt": "<img src=\"../webp/brickable-kit.webp?v=1\" width=\"300\" style=\"width:90%;\" alt=\"Brickable Design Kit Icon\" loading=\"lazy\">",
+    "027-side-module-1-title": "Get Started",
+    "028-side-module-1-subtitle": "Download the Brickable Designator Kit today.",
+    "029-side-module-1-button": "🚀 Download",
+    "030-side-module-button-caption": "ZIP file | 3.2 MB",
 
     };
