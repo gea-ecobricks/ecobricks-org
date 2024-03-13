@@ -4,66 +4,52 @@
 <META charset="UTF-8">
 <?php $lang='fr';?>
 <?php $version='1.911';?>
-<?php $page='principles';?>
+<?php $page='regenreports';?>
  
 <?php require_once ("../includes/regenreports2-inc.php");?>
 
-
-<!--PAGE BANNER-->
-
-	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Notre comptabilité écologique</div>
-	<div class="splash-sub">Divulgation publique des impacts annuels sur le plastique, le carbone et la biodiversité de la Global Ecobrick Alliance.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Our Ecological Accounting</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Public disclosure of the Global Ecobrick Alliance's annual plastic, carbon & biodiversity impacts.</div>
 	</div>
-	<div class="splash-image"><img src="../icons/balance-glow-500px.webp" style="width: 80%;"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/balance-glow-500px.webp" style="width: 85%" alt="Grey and green balance ecological accounting">
+    </div>	
 </div>
 <div id="splash-bar"></div>
 
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
-
 <div id="main-content">
-<!-- The flexible grid (content) -->
+	<!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
-
 			<div class="lead-page-paragraph">
-			<p>Conformément à notre mandat en tant qu'Earth Enterprise, nous suivons et divulguons nos impacts écologiques. De cette façon, nous (et vous) pouvons être sûrs que notre impact net est vert.</p>
+				<p data-lang-id="004-lead-paragraph">Pursuant to our mandate as an Earth Enterprise, we track and disclose our ecological impacts. This way we (and you) can be sure that our net-impact is green.</p>
 			</div>
 
-			
 			<div class="row">
 				<div class="main2">
 					<div class="page-paragraph">
-					<p>Notre rapport Regen 2022 sur l'année précédente des impacts écologiques de notre entreprise est maintenant publié et accessible au public ! Cela inclut une comptabilisation de nos impacts sur le carbone, le plastique et la biodiversité.</p>
-
-					<p>En 2021, les foyers britanniques et indonésiens de la GEA ont augmenté leur soutien spatial à la biodiversité de 32 % (268 m2) tout en hébergeant 152 espèces. Nous avons directement retiré 1 472 kg de plastique grâce à notre écobrique formateur. Nous avons également éliminé 4 448 kg de CO2 de la biosphère grâce à nos arbres, à la compensation carbone et à l'équivalence carbone écobrique. </p>
-
-					<p>📥 Téléchargez notre <a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">rapport de régénérativité 2022 complet (PDF 1.2MB).</i><p>
-
-					</div>
+						<p data-lang-id="005-first-page-paragraph_1">Our 2022 Regen Report of our enterprise's previous year of ecological impacts is now published and publicly available! This includes an accounting of our carbon, plastic and biodiversity impacts.</p>
+						<p data-lang-id="006-second-page-paragraph">Over 2021, the GEA's UK and Indonesian household bases increased their spacial support of biodiversity by 32% (268 m2) while hosting 152 species. We directly removed 1,472 kg of plastic through our trainer ecobricking. We also removed 4,448kg of CO2 from the biosphere through our trees, carbon offsetting and ecobricking carbon equivalency.</p>
+						<p data-lang-id="007-download-link">📥 Download our latest <a href="https://nextcloud.ecobricks.org/index.php/s/cQ8LWw99JAYAZ7p" target="_blank"> Regenerativity Report (PDF 1.2MB).</a></p>
+					</div>	
 				</div>
 
-				<div class="side2">
-					<br><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank"><img src="../webp/2020-regen-report.webp" width="100%" loading="lazy"></a>
+				<div class="side2" >
+					<a href="https://nextcloud.ecobricks.org/index.php/s/cQ8LWw99JAYAZ7p" target="_blank" data-lang-id="008-report-download-imgae"><img src="../webp/2020-regen-report.webp" width="100%" loading="lazy" alt="Regen Reporting Ecological Accounting"></a>
 				</div>
-
-			
 			</div>
-		
+
 
 			
 			<div class="reg-content-block" id="block1">
-				
 				<div class="opener-header">
-					
 					<div class="opener-header-text">
-						<h4>All Years</h4>
-						<h5>See all our Regen Reports</h5>
+						<h4 data-lang-id="009-all-years-heading">All Years</h4>
+						<h5 data-lang-id="010-all-reports-subheading">See all our Regen Reports</h5>
 					</div>
 					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>					
 				</div>
@@ -72,98 +58,75 @@
 					<br>
 					<div class="row">
 						<div class="main2">
-						<p>Access our reports from all years:</p>
+						<p data-lang-id="011-access-reports-paragraph">Access our reports from all years:</p>
 						<ul>
-							<li>2022 GEA Regen Report | To be published January, 2023)
-							<li><a href="https://files.ecobricks.org/s/sjeg4bzFPxY8dpe" target="_blank">2021 GEA Regen Report</a> | Published: March 22, 2022)</li>
-							<li><a href="https://files.ecobricks.org/s/ANNmsTJtHA4LSzP" target="_blank">2020 GEA Regen Report</a> | Published August 21, 2021</li>
+							<li data-lang-id="012-report-2022">2022 GEA Regen Report | To be published January, 2023)</li>
+							<li ><a href="https://nextcloud.ecobricks.org/index.php/s/cQ8LWw99JAYAZ7p" target="_blank" data-lang-id="013-report-2021">2021 GEA Regen Report</a> | Published: March 22, 2022)</li>
+							<li ><a href="https://nextcloud.ecobricks.org/index.php/s/4kseLYgKz73eqa7" target="_blank" data-lang-id="014-report-2020">2020 GEA Regen Report</a> | Published August 21, 2021</li>
 						</ul>
 						<br>
 						</div>
-						<div class="side2"><img src="../webp/balancing-green.webp" width="80%" loading="lazy"><br><br>
+						<div class="side2"><img src="../webp/balancing-green.webp" width="80%" loading="lazy" alt="ecological accounting"><br><br>
 						</div>
 					</div>
 				</div>	
 			</div>
 
-
 			<div class="reg-content-block" id="block2">
-				<div class="opener-header">
-					<div class="opener-header-text">
-						<h4>Methods & Means</h4>
-						<h5>The principles, methodology & coeffecients behind our accounting.</h5><br>
-					</div>
-					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-				</div>
+	<div class="opener-header">
+		<div class="opener-header-text">
+			<h4 data-lang-id="015-methods-heading">Methods & Means</h4>
+			<h5 data-lang-id="016-methods-subheading">The principles, methodology & coeffecients behind our accounting.</h5><br>
+		</div>
+		<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+	</div>
 
-				<div id="preclosed2">
-					<div class="row">
-						<div class="main2">
-						<p>Learn more about the concepts underlying regenerative reporting.</p>
-						<ul>
-							<li><a href="coeffecients">Plastic Impact Coeffecients</a></li>
-							<li><a href="aes">AES Plastic Offsetting</a></li>
-							<li><a href="brikcoins">Brikcoin Manual Blockchain</a></li>
-							<li><a href="sequest">Plastic Sequestration</a></li>
-							<li><a href="mandalas">Leading by Example</a></li>
-							<li><a href="principles">Regenerative Principles</a></li>
-							<li><a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">The Earthen Ethics Theory of Ecological Disclosure & Awareness Raising</a></li>
-						</ul>
+	<div id="preclosed2">
+		<div class="row">
+			<div class="main2">
+			<p data-lang-id="017-learn-more-paragraph">Learn more about the concepts underlying regenerative reporting.</p>
+			<ul>
+				<li data-lang-id="018-plastic-impact-coeffecients"><a href="coeffecients.php">Plastic Impact Coeffecients</a></li>
+				<li data-lang-id="019-aes-offsetting"><a href="/aes">AES Plastic Offsetting</a></li>
+				<li data-lang-id="020-brikcoin-blockchain"><a href="brikcoins.php">Brikcoin Manual Blockchain</a></li>
+				<li data-lang-id="021-plastic-sequestration"><a href="sequest.php">Plastic Sequestration</a></li>
+				<li data-lang-id="022-leading-by-example"><a href="/mandalas">Leading by Example</a></li>
+				<li data-lang-id="023-regenerative-principles"><a href="principles.php">Regenerative Principles</a></li>
+				<li data-lang-id="024-earthen-ethics-theory"><a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">The Earthen Ethics Theory of Ecological Disclosure & Awareness Raising</a></li>
+			</ul>
 
-						<br>
-						</div>
-						<div class="side2"><img src="../webp/dial-question.webp" width="80%" alt="Ecological accounting methods and means" loading="lazy">
-						</div>
-					</div>
-
-				
-				</div>
+			<br>
 			</div>
-
+			<div class="side2"><img src="../webp/dial-question.webp" width="80%" alt="Ecological accounting methods and means" data-lang-id="025-ecological-accounting-image" loading="lazy">
+			</div>
+		</div>
+	</div>
+</div>
 
 
 					
 
 
 		
-				
-			<br><br>
+<br><br>
 
-			<div class="page-paragraph">
-        
-				<h4>Do your own Regen Reporting</h4>
-			
-				<p>To do our ecological accounting we use an <a href="catalyst.php"> enterprise catalyst account</a> on the GoBrik platform.  It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
-				
-				<p>Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project.  New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
-                        
-				<a class="action-btn" href="catalyst.php" target="_blank">🚀 Catalyst Program</a>
-				<p style="font-size: 0.85em; margin-top:20px;">Learn more about our free program & platform.</a></p>
-			</div>
-		</div>
+<div class="page-paragraph">
+	<h4 data-lang-id="026-regen-reporting-heading">Do your own Regen Reporting</h4>
+	<p data-lang-id="027-regen-reporting-paragraph-1">To do our ecological accounting we use an <a href="catalyst.php"> enterprise catalyst account</a> on the GoBrik platform. It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
+	<p data-lang-id="028-regen-reporting-paragraph-2">Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project. New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
+	<a class="action-btn" href="catalyst.php" target="_blank" data-lang-id="029-catalyst-program-link">🚀 Catalyst Program</a>
+	<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="030-learn-more-catalyst">Learn more about our free program & platform.</p>
+</div>
 
 		<div class="side">
 
-			<div class="side-module-desktop-mobile">
-				<img src="../webp/gea-logo-400px.webp" width="90%" loading="lazy">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about">About Us</a>
-			</div>
+			<?php require_once ("side-modules/about-gea.php");?>
 
-			<div class="side-module-desktop-mobile">
-				<img src="../webp/for-earth500px.webp" width="80%" loading="lazy">
-				<h4>For-Earth Enterprise</h4>
-				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="about">About Us</a>
-			</div>
+			<?php require_once ("side-modules/eco-accounting-principle.php");?>
 
-			<div class="side-module-desktop-mobile">
-				<img src="../webp/catalyst-logo.webp" width="80%" loading="lazy">
-				<h4>Generate Your Regen Report!</h4>
-				<h5>Our Catalyst Program for keen green enterprises allows you to generate automatic and certificed regenerative reports.</h5><br>
-				<a class="module-btn" href="catalyst">🚀 Learn More</a>
-			</div>
+			<?php require_once ("side-modules/earthen-ethics-principle.php");?>
+
+		</div>
 
 		
 
