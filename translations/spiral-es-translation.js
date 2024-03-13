@@ -58,9 +58,11 @@ const es_Page_Translations = {
     "045-spiral-vs-circular": "<b>Diseño Espiral vs Circular</b>",
     "046-spiral-design-explanation": "Puede ser útil entender mejor lo que queremos decir con diseño espiral aclarando lo que no es. El ecobricking, por ejemplo, a menudo se confunde con una tecnología 'sostenible' o 'circular'. Sin embargo, estos términos se refieren a permitir que nuestros sistemas humanos actuales giren indefinidamente minimizando su daño ambiental. ¡Este no es el objetivo del ecobricking!",
     "047-goal-of-ecobricking": "En lugar de 'minimizar el daño' (y seguir siendo perjudicial), en cambio, con nuestros ecobricks apuntamos a una contribución ecológica neta. En lugar de un círculo estático que gira indefinidamente (¡tal cosa no existe!), pretendemos usar nuestros ecobricks hacia ciclos que habiliten sociedades más ricas y ecosistemas más verdes.",
-   
-
-
-
-
-    };
+    "048-spiral-design-inspiration": 'El diseño espiral está inspirado en el concepto de <a href="/ayyew" data-lang-id="049-ayyew-link">Ayyew</a> en la cultura del pueblo Igorot del norte de Luzón. Este concepto Igorot inspiró y guió el <a href="/story" data-lang-id="050-early-ecobrick-movement-link">movimiento ecobrick asiático temprano</a>, el trabajo de la <a href="about.php" data-lang-id="051-gea-link">GEA</a> y el desarrollo de nuestros <a href="principles.php" data-lang-id="052-earthen-principles-link">principios Terrenales</a>.',
+    "049-ayyew-link": "/ayyew",
+    "050-early-ecobrick-movement-link": "/story",
+    "051-gea-link": "about.php",
+    "052-earthen-principles-link": "principles.php",
+    "053-about-ayyew-btn": "<a class=\"action-btn\" href=\"/ayyew\">🍃 Sobre Ayyew</a>",
+    "054-learn-about-indigenous-wisdom": "Aprende sobre la tradición de sabiduría indígena que subyace al movimiento ecobrick Terrenal."
+};
