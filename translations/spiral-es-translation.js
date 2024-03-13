@@ -38,7 +38,29 @@ const es_Page_Translations = {
     "027-learn-earthen-ethics": "ℹ️ Aprende sobre: <a href=\"https://book.earthen.io/en/summaries.html\" target=\"_blank\">Ética Terrestre</a>",
     "028-learn-earthen-ethics-link": "https://book.earthen.io/en/summaries.html",
 
-    
+    "029-making-ecobricks-heading": "Fabricación de Ecobricks",
+    "030-making-ecobricks-subheading": "El ecobricking y su aplicación encarnan el diseño espiral",
+    "031-lead-panel-ecobricking": "El diseño espiral subyace a cada método de ecobrick que la GEA respalda. Este principio también ayuda a guiar la forma en que hacemos ecobricks y todas las mejores prácticas recomendadas por la GEA.",
+    "032-ecobricking-practice": "Algunas personas se preguntan por qué, cuando comenzamos un ecobrick, ponemos plástico de color en el fondo. El diseño espiral es la razón: estamos pensando en la próxima fase del ecobrick cuando lo construyamos. Esto también es por qué usamos cob o silicona cuando unimos ecobricks para hacer módulos y no pegamento o cemento. Los primeros materiales forman un enlace no permanente, mientras que los segundos son permanentes. De esta manera, cuando nuestra creación llega a su fin, podemos desmontarla y usar los ecobricks nuevamente.",
+    "033-side-image-build-blue": "<img src=\"../webp/build-blue-450px.webp\" width=\"100%\">",
+    "034-inspiration-management": "Al liderar con el ejemplo siguiendo el ejemplo de la Tierra, nuestra gestión del plástico puede ser una poderosa inspiración para todos nuestros otros materiales y tecnologías.",
+    "035-side-image-community": "<img src=\"../pngs/community.png\" width=\"150px\">",
+
+    "036-ecobrick-designator-heading": "Icono Designador de Ecobricks",
+    "037-ecobrick-designator-subheading": "Una expresión clara de la intención y el diseño espiral",
+    "038-lead-panel-designator": "Un símbolo para orientar productos hacia un giro espiral.",
+    "039-designator-kit-description": 'Una extensión práctica del diseño espiral es el trabajo de la GEA desarrollando el <a href="../ecobrickable" data-lang-id="040-ecobrickable-link">Kit Designador de Ecobricks</a>. Dado que los ecobricks son esencialmente un receptáculo para plástico sin salida, presentan una solución transicional emocionante y fácil para diseños de productos.',
+    "040-ecobrickable-link": "../ecobrickable",
+    "041-side-image-ecobrickable-icon": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org.svg\" width=\"100%\">",
+    "042-ecobrickability-design": 'La capacidad de convertirse en ecobrick permite a los diseñadores dar su primer paso hacia el diseño espiral. Con un poco de previsión y planificación avanzada, su producto puede hacerse fácilmente y de manera efectiva en ecobrick. Esta dirección de diseño permite la transición de una empresa a principios regenerativos completos (ver nuestro <a href="catalyst.php" data-lang-id="043-catalyst-program-link">programa de empresa Catalyst</a>).',
+    "043-catalyst-program-link": "catalyst.php",
+    "044-side-image-ecobrickable-icon-small": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org.svg\" width=\"150px\">",
+    "045-spiral-vs-circular": "<b>Diseño Espiral vs Circular</b>",
+    "046-spiral-design-explanation": "Puede ser útil entender mejor lo que queremos decir con diseño espiral aclarando lo que no es. El ecobricking, por ejemplo, a menudo se confunde con una tecnología 'sostenible' o 'circular'. Sin embargo, estos términos se refieren a permitir que nuestros sistemas humanos actuales giren indefinidamente minimizando su daño ambiental. ¡Este no es el objetivo del ecobricking!",
+    "047-goal-of-ecobricking": "En lugar de 'minimizar el daño' (y seguir siendo perjudicial), en cambio, con nuestros ecobricks apuntamos a una contribución ecológica neta. En lugar de un círculo estático que gira indefinidamente (¡tal cosa no existe!), pretendemos usar nuestros ecobricks hacia ciclos que habiliten sociedades más ricas y ecosistemas más verdes.",
+   
+
+
 
 
     };

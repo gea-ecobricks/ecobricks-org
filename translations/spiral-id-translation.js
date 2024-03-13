@@ -9,7 +9,7 @@
 const id_Page_Translations = {
     
     "001-splash-heading": "Desain Spiral",
-    "002-splash-sub": "Ecobricking dan semua aplikasi ecobrick dipandu oleh prinsip Bumi untuk memperkaya siklus.",
+    "002-splash-sub": "Semua aplikasi ecobrick dipandu oleh prinsip siklus pengayaan dari sila bumi",
     "003-splash-image-alt": '<img src="../icons/spiral-design-white3.svg" style="width: 100%;" alt="Desain Spiral">',
     "004-lead-page-paragraph": "Ketika kita membangun dengan ecobrick, kita merencanakan untuk akhir konstruksi, untuk aplikasi setiap ecobrick berikutnya, dan setelah itu. Dengan cara ini kita dapat memastikan siklus yang dihasilkan, memperkaya secara sosial dan ekologis.",
     "005-page-paragraph": 'Salah satu dari beberapa prinsip inti <a href="principles.php">ecobricking</a> adalah desain <i>spiral</i>. Tidak seperti desain linier dan sirkular, bukan merencanakan dalam garis dan lingkaran, kita merencanakan dalam spiral. Dengan cara ini, kita dapat menyematkan putaran yang memperkaya penggunaan jangka pendek dan panjang ke dalam cara kita menggunakan ecobrick kita.',
