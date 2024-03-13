@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.911';?>
+<?php $version='1.92';?>
 <?php $page='regenreports';?>
  
 <?php require_once ("../includes/regenreports2-inc.php");?>
@@ -125,10 +125,6 @@
 			<?php require_once ("side-modules/eco-accounting-principle.php");?>
 
 			<?php require_once ("side-modules/earthen-ethics-principle.php");?>
-
-		</div>
-
-		
 
 		</div>
 

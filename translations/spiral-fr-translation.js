@@ -8,7 +8,7 @@
 const fr_Page_Translations = {
     "001-splash-heading": "Conception Spirale",
     "002-splash-sub": "L'écobriquage et toutes ces applications sont guidés par le principe terrestre d'enrichissement cyclique.",
-    "003-splash-image-alt": '<img src="../icons/spiral-design-white3.svg" style="width: 100%;" alt="Conception Spirale">',
+    "003-splash-image-alt": '<img src="../icons/spiral-design-white3.svg" style="width: 85%;" alt="Conception Spirale">',
     "004-lead-page-paragraph": "Lorsque nous construisons avec des écobriques, nous planifions la fin de la construction, pour la prochaine application de chaque écobrique, et la suivante après cela. De cette façon, nous pouvons être sûrs que les cycles qui en résultent, enrichissent socialement et écologiquement.",
     "005-page-paragraph": 'Un des principes fondamentaux de l\'écobriquage est celui de la <i>conception spirale</i>. Contrairement à la conception linéaire et circulaire, plutôt que de planifier en lignes et en cercles, nous planifions en spirales. De cette manière, nous pouvons intégrer une dynamique enrichissante de réutilisation à court et long terme dans la manière dont nous utilisons nos écobriques.',
     "006-context-heading": "Contexte",

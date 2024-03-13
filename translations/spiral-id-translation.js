@@ -22,7 +22,7 @@ const id_Page_Translations = {
     "012-earthen-ethics-link": "https://book.earthen.io/en/summaries.html",
     "013-final-detail-paragraph": "Untuk melakukannya, kami memanfaatkan sifat resilien plastik untuk membuat blok bangunan yang dapat digunakan kembali yang memiliki prosesi aplikasi jangka pendek dan panjang. Ini berarti kami memastikan bahwa ecobrick dapat digunakan kembali tanpa batas dan setiap siklus pembangunan dan pembongkaran berkontribusi secara sosial dan ekologis.",
 
-    
+
     "014-earth-example-heading": "Mengikuti Contoh Bumi",
     "015-earth-example-subheading": "Desain spiral mewujudkan prinsip pertama dari Etika Bumi.",
     "016-lead-panel-quote": "\"Amati cara Bumi mengarahkan prosesnya menuju siklus yang berputar spiral.\"",
@@ -47,6 +47,25 @@ const id_Page_Translations = {
     "034-inspiration-management": "Dengan memimpin melalui contoh mengikuti contoh Bumi, manajemen plastik kita bisa menjadi inspirasi kuat untuk semua bahan dan teknologi lainnya.",
     "035-side-image-community": "<img src=\"../pngs/community.png\" width=\"150px\">",
 
+  "036-ecobrick-designator-heading": "Ikon Penunjuk Bisa Di-Ecobrick",
+    "037-ecobrick-designator-subheading": "Ekspresi jelas dari niat dan desain spiral",
+    "038-lead-panel-designator": "Simbol untuk menetapkan produk pada putaran spiral.",
+    "039-designator-kit-description": 'Perluasan praktis dari desain spiral adalah pekerjaan GEA dalam mengembangkan <a href="../ecobrickable" data-lang-id="040-ecobrickable-link">Kit Penunjuk Bisa Di-Ecobrick</a>. Karena ecobricks pada dasarnya adalah penampung untuk plastik buntu, mereka menyajikan solusi transisi yang menarik dan mudah untuk desain produk.',
+    "040-ecobrickable-link": "../ecobrickable",
+    "041-side-image-ecobrickable-icon": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org.svg\" width=\"100%\">",
+    "042-ecobrickability-design": 'Kemampuan menjadi ecobrick memungkinkan desainer mengambil langkah pertama mereka ke desain spiral. Dengan sedikit pemikiran ke depan dan perencanaan yang matang, produk mereka dapat dengan mudah dan efektif menjadi Bisa Di-Ecobrick. Arah desain ini memungkinkan transisi sebuah perusahaan ke prinsip-prinsip regeneratif sepenuhnya (lihat <a href="catalyst.php" data-lang-id="043-catalyst-program-link">program perusahaan Catalyst</a> kami).',
+    "043-catalyst-program-link": "catalyst.php",
+    "044-side-image-ecobrickable-icon-small": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org.svg\" width=\"150px\">",
+    "045-spiral-vs-circular": "<b>Desain Spiral vs Sirkular</b>",
+    "046-spiral-design-explanation": "Dapat membantu untuk lebih memahami apa yang kami maksud dengan desain spiral dengan mengklarifikasi apa yang bukan. Ecobricking, misalnya, sering salah dianggap sebagai teknologi 'berkelanjutan' atau 'sirkular'. Namun, istilah-istilah ini mengacu pada memungkinkan sistem manusia kita saat ini untuk berputar tanpa batas dengan meminimalkan kerusakan lingkungan mereka. Ini bukan tujuan dari ecobricking!",
+    "047-goal-of-ecobricking": "Daripada 'meminimalkan kerusakan' (dan tetap berbahaya), sebaliknya, dengan ecobricks kami kami bertujuan untuk kontribusi ekologis bersih. Alih-alih lingkaran statis yang berputar tanpa batas (tidak ada hal seperti itu!), kami malah berniat menggunakan ecobricks kami menuju siklus yang memungkinkan masyarakat yang lebih kaya dan ekosistem yang lebih hijau.",
+    "048-spiral-design-inspiration": 'Desain spiral terinspirasi oleh konsep <a href="/ayyew" data-lang-id="049-ayyew-link">Ayyew</a> dalam budaya orang Igorot di Luzon Utara. Konsep Igorot ini menginspirasi dan memandu <a href="/story" data-lang-id="050-early-ecobrick-movement-link">gerakan ecobrick Asia awal</a>, pekerjaan <a href="about.php" data-lang-id="051-gea-link">GEA</a> dan pengembangan <a href="principles.php" data-lang-id="052-earthen-principles-link">prinsip-prinsip Bumi</a> kami.',
+    "049-ayyew-link": "/ayyew",
+    "050-early-ecobrick-movement-link": "/story",
+    "051-gea-link": "about.php",
+    "052-earthen-principles-link": "principles.php",
+    "053-about-ayyew-btn": "<a class=\"action-btn\" href=\"/ayyew\">🍃 Tentang Ayyew</a>",
+    "054-learn-about-indigenous-wisdom": "Pelajari tentang tradisi kebijaksanaan asli yang mendasari gerakan ecobrick Bumi.",
 
 
     };

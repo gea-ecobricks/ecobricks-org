@@ -11,24 +11,12 @@
 
 <!--SPLASH SECTION-->
 
-
-<!-- 
-<div class="splash-content-block">
-	<div class="splash-box">
-		<div class="splash-heading">Conception en spirale</div>
-		<div class="splash-sub">Ecobrick et toutes les applications d'écobrick sont guidés par le principe terrestre des cycles d'enrichissement.</div>
-	</div>
-	<div class="splash-image"><img src="../icons/spiral-design-white3.svg" style="width: 100%;" alt="Conception en spirale"></div>
-</div>
-<div id="splash-bar"></div> -->
-
-
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-heading">Conception Spirale</div>
 		<div class="splash-sub" data-lang-id="002-splash-sub">L'écobriquage et toutes ces applications sont guidés par le principe terrestre d'enrichissement cyclique.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/spiral-design-white3.svg" style="width: 100%;" alt="Conception Spirale"></div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/spiral-design-white3.svg" style="width: 85%;" alt="Conception Spirale"></div>
 </div>
 <div id="splash-bar"></div>
 
