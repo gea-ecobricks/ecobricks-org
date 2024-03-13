@@ -22,6 +22,22 @@ const es_Page_Translations = {
     "012-earthen-ethics-link": "https://book.earthen.io/en/summaries.html",
     "013-final-detail-paragraph": "Para hacerlo, aprovechamos las propiedades resilientes del plástico para crear bloques de construcción reutilizables que tienen una procesión de aplicaciones a corto y largo plazo. Esto significa que aseguramos que los ecobricks sean reutilizables indefinidamente y que cada ciclo de construcción y desmontaje contribuya social y ecológicamente.",
 
+    "014-earth-example-heading": "Siguiendo el Ejemplo de la Tierra",
+    "015-earth-example-subheading": "El diseño espiral encarna el primer principio de la Ética Terrestre.",
+    "016-lead-panel-quote": "\"Observa cómo la Tierra tiende sus procesos hacia ciclos que espiralan.\"",
+    "017-earthen-ethic-citation": "— <a href=\"https://book.earthen.io/en/spirals.html\" title=\"Banayan Angway, Russell Maier, 'Tractatus Ayyew: Una Ética Terrestre' (Earthen.io, Filipinas, Indonesia, 2022), https://book.earthen.io/en/spirals.html\">Ética Terrestre Nº 2</a>",
+    "018-earth-greening-paragraph": "Durante el último billón de años, la Tierra ha estado verdeando lentamente y de manera constante la superficie de nuestro hogar común.",
+    "019-earth-cycle-paragraph": "La forma en que la Tierra ha ciclado y almacenado carbono ha llevado al florecimiento de la biosfera, proporcionándonos un ejemplo a seguir para asegurar que nuestros propios procesos sean verdes. Con nuestro plástico, que proviene de las antiguas reservas de carbono de la Tierra, podemos emular el ejemplo de la Tierra asegurando que nuestros procesos y resultados no solo sean espirales, sino que conduzcan a ciclos cada vez más enriquecedores.",
+    "020-side-image-eco-enrichment": "<img src=\"../svgs/eco-enrichment.svg\" width=\"100%\">",
+    "021-earthen-ethics-basis": "Seguir el ejemplo de la Tierra en el cuidado del carbono es la base de la <a href=\"https://book.earthen.io\" target=\"_blank\">ética terrestre</a>, cinco principios de verde basados en el carácter cosmológico de nuestro planeta.",
+    "022-earthen-ethics-link": "https://book.earthen.io",
+    "023-side-image-eco-enrichment-sm": "<img src=\"../svgs/eco-enrichment.svg\" width=\"150px\">",
+    "024-plastic-reuse-paragraph": "De la misma manera que la Tierra dirige su carbono hacia ciclos de reutilización indefinida, nosotros también podemos hacerlo con nuestro plástico. Al empaquetar nuestro plástico en ecobricks y usar nuestros ecobricks adecuadamente, podemos asegurarnos de que nuestro plástico se pueda usar una y otra vez indefinidamente.",
+    "025-learn-plastic-story": "ℹ️ Aprende sobre: <a href=\"/plastic\">La Larga Historia del Plástico</a>",
+    "026-learn-plastic-link": "/plastic",
+    "027-learn-earthen-ethics": "ℹ️ Aprende sobre: <a href=\"https://book.earthen.io/en/summaries.html\" target=\"_blank\">Ética Terrestre</a>",
+    "028-learn-earthen-ethics-link": "https://book.earthen.io/en/summaries.html",
+
     
 
 

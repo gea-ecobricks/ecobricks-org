@@ -7,7 +7,7 @@
 
 const id_Page_Translations = {
     "001-splash-title": "Akuntansi Ekologis Kami",
-    "002-splash-subtitle": "Pengungkapan publik dampak plastik, karbon, dan biodiversitas tahunan dari Aliansi Ecobrick Global.",
+    "002-splash-subtitle": "Pengungkapan publik dampak plastik, karbon, dan biodiversitas tahunan dari GEA",
     "003-splash-image-alt": '<img src="../icons/balance-glow-500px.webp" style="width: 85%" alt="Akuntansi ekologis keseimbangan abu-abu dan hijau">',
     "004-lead-paragraph": "Sesuai dengan mandat kami sebagai Usaha Bumi, kami melacak dan mengungkapkan dampak ekologis kami. Dengan cara ini kita (dan Anda) dapat memastikan bahwa dampak bersih kami adalah hijau.",
     "005-first-page-paragraph_1": "Laporan Regen kami tahun 2022 tentang dampak ekologis tahun sebelumnya dari perusahaan kami sekarang telah diterbitkan dan tersedia untuk umum! Ini termasuk akuntansi dampak karbon, plastik, dan biodiversitas kami.",
