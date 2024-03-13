@@ -8,7 +8,7 @@
 
 const fr_Page_Translations = {
     "001-splash-title": "Notre comptabilité écologique",
-    "002-splash-subtitle": "Divulgation publique des impacts annuels en plastique, carbone et biodiversité de l'Alliance Globale d'Écobriques.",
+    "002-splash-subtitle": "Divulgation publique des impacts annuels en plastique, carbone et biodiversité du GEA",
     "003-splash-image-alt": '<img src="../icons/balance-glow-500px.webp" style="width: 85%" alt="Comptabilité écologique en équilibre gris et vert">',
     "004-lead-paragraph": "Conformément à notre mandat en tant qu'entreprise terrestre, nous suivons et divulguons nos impacts écologiques. De cette manière, nous (et vous) pouvons être sûrs que notre impact net est vert.",
     "005-first-page-paragraph_1": "Notre rapport de régénération 2022 sur les impacts écologiques de l'année précédente de notre entreprise est désormais publié et disponible publiquement ! Cela comprend une comptabilité de nos impacts sur le carbone, le plastique et la biodiversité.",

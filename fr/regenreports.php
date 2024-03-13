@@ -10,8 +10,8 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Our Ecological Accounting</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Public disclosure of the Global Ecobrick Alliance's annual plastic, carbon & biodiversity impacts.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Notre comptabilité écologique</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Divulgation publique des impacts annuels en plastique, carbone et biodiversité du GEA</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/balance-glow-500px.webp" style="width: 85%" alt="Grey and green balance ecological accounting">
     </div>	
@@ -72,51 +72,52 @@
 				</div>	
 			</div>
 
-			<div class="reg-content-block" id="block2">
-	<div class="opener-header">
-		<div class="opener-header-text">
-			<h4 data-lang-id="015-methods-heading">Methods & Means</h4>
-			<h5 data-lang-id="016-methods-subheading">The principles, methodology & coeffecients behind our accounting.</h5><br>
-		</div>
-		<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-	</div>
-
-	<div id="preclosed2">
-		<div class="row">
-			<div class="main2">
-			<p data-lang-id="017-learn-more-paragraph">Learn more about the concepts underlying regenerative reporting.</p>
-			<ul>
-				<li data-lang-id="018-plastic-impact-coeffecients"><a href="coeffecients.php">Plastic Impact Coeffecients</a></li>
-				<li data-lang-id="019-aes-offsetting"><a href="/aes">AES Plastic Offsetting</a></li>
-				<li data-lang-id="020-brikcoin-blockchain"><a href="brikcoins.php">Brikcoin Manual Blockchain</a></li>
-				<li data-lang-id="021-plastic-sequestration"><a href="sequest.php">Plastic Sequestration</a></li>
-				<li data-lang-id="022-leading-by-example"><a href="/mandalas">Leading by Example</a></li>
-				<li data-lang-id="023-regenerative-principles"><a href="principles.php">Regenerative Principles</a></li>
-				<li data-lang-id="024-earthen-ethics-theory"><a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">The Earthen Ethics Theory of Ecological Disclosure & Awareness Raising</a></li>
-			</ul>
-
-			<br>
+	<div class="reg-content-block" id="block2">
+			<div class="opener-header">
+				<div class="opener-header-text">
+					<h4 data-lang-id="015-methods-heading">Methods & Means</h4>
+					<h5 data-lang-id="016-methods-subheading">The principles, methodology & coeffecients behind our accounting.</h5><br>
+				</div>
+				<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 			</div>
-			<div class="side2"><img src="../webp/dial-question.webp" width="80%" alt="Ecological accounting methods and means" data-lang-id="025-ecological-accounting-image" loading="lazy">
+
+			<div id="preclosed2">
+				<div class="row">
+					<div class="main2">
+					<p data-lang-id="017-learn-more-paragraph">Learn more about the concepts underlying regenerative reporting.</p>
+					<ul>
+						<li data-lang-id="018-plastic-impact-coeffecients"><a href="coeffecients.php">Plastic Impact Coeffecients</a></li>
+						<li data-lang-id="019-aes-offsetting"><a href="/aes">AES Plastic Offsetting</a></li>
+						<li data-lang-id="020-brikcoin-blockchain"><a href="brikcoins.php">Brikcoin Manual Blockchain</a></li>
+						<li data-lang-id="021-plastic-sequestration"><a href="sequest.php">Plastic Sequestration</a></li>
+						<li data-lang-id="022-leading-by-example"><a href="/mandalas">Leading by Example</a></li>
+						<li data-lang-id="023-regenerative-principles"><a href="principles.php">Regenerative Principles</a></li>
+						<li data-lang-id="024-earthen-ethics-theory"><a href="https://medium.com/earthen/towards-awareness-9b2f785ce44d" target="_blank">The Earthen Ethics Theory of Ecological Disclosure & Awareness Raising</a></li>
+					</ul>
+
+					<br>
+					</div>
+					<div class="side2"><img src="../webp/dial-question.webp" width="80%" alt="Ecological accounting methods and means" data-lang-id="025-ecological-accounting-image" loading="lazy">
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
 
 
 					
 
 
 		
-<br><br>
+			<br><br>
 
-<div class="page-paragraph">
-	<h4 data-lang-id="026-regen-reporting-heading">Do your own Regen Reporting</h4>
-	<p data-lang-id="027-regen-reporting-paragraph-1">To do our ecological accounting we use an <a href="catalyst.php"> enterprise catalyst account</a> on the GoBrik platform. It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
-	<p data-lang-id="028-regen-reporting-paragraph-2">Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project. New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
-	<a class="action-btn" href="catalyst.php" target="_blank" data-lang-id="029-catalyst-program-link">🚀 Catalyst Program</a>
-	<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="030-learn-more-catalyst">Learn more about our free program & platform.</p>
-</div>
+			<div class="page-paragraph-reg">
+				<h4 data-lang-id="026-regen-reporting-heading">Do your own Regen Reporting</h4>
+				<p data-lang-id="027-regen-reporting-paragraph-1">To do our ecological accounting we use an <a href="catalyst.php"> enterprise catalyst account</a> on the GoBrik platform. It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
+				<p data-lang-id="028-regen-reporting-paragraph-2">Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project. New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
+				<a class="action-btn" href="catalyst.php" target="_blank" data-lang-id="029-catalyst-program-link">🚀 Catalyst Program</a>
+				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="030-learn-more-catalyst">Learn more about our free program & platform.</p>
+			</div>
+		</div>
 
 		<div class="side">
 
