@@ -9,7 +9,7 @@ ENGLISH SNIPPETS FOR ECOBRICKS.ORG/BRICKABLE.PHP
 const en_Page_Translations = {
     
     "001-splash-title": "Brickable Design",
-    "002-splash-subtitle": "Guide your packaging into its next life while you work to do away with plastic altogether.",
+    "002-splash-subtitle": "Guide your packaging into a greening spiral of life cycles",
     "003-splash-image-alt": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1\" style=\"width: 70%\" alt=\"Brikable designator icon\">",
 
     
