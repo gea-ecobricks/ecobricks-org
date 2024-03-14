@@ -77,13 +77,16 @@ margin: 12px;
 }
 }
 
+.splash-box {
+	text-align: left !important;
+}
+
 
 @media screen and (max-width: 700px) { 
 .splash-box {
   z-index: 5;
   position: relative;
   width: 100%;
-  text-align: left !important;
 }
 }
 
