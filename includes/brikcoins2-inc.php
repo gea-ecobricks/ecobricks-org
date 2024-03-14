@@ -77,9 +77,9 @@ margin: 12px;
 }
 }
 
-
+/* 
 @media screen and (max-width: 700px) { 
-#splash-box {
+.splash-box {
   z-index: 5;
   position: relative;
   width: 100%;
@@ -88,7 +88,7 @@ margin: 12px;
 }
 
 @media screen and (min-width: 700px) { 
-#splash-box {
+.splash-box {
   z-index: 5;
   position: relative;
   width: 80%;
@@ -124,7 +124,6 @@ margin: 12px;
 .splash-sub {
   font-family: 'Arvo', Georgia, serif;
   color: grey;
-  /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
   text-shadow: 0 0 8px #fff;
 }
@@ -153,7 +152,7 @@ margin: 12px;
 	width: 60%;
 	margin-left: 40%;
 }
-}
+} */
 
 #splash-bar {
 	background-color: #ECECEC;;
