@@ -187,9 +187,7 @@
 
 			
 <!--WHITE PAPER-->
-<!--WHITE PAPER-->
 
-<div id="WHITEPAPER"></div>
 
 <div class="reg-content-block" id="block5">
     <div class="opener-header">
@@ -239,6 +237,8 @@
     </div>
 </div>
 
+		</div>  <!--Close main-->
+
 	
 
 
@@ -252,7 +252,6 @@
 			<?php include 'side-modules/about-gea.php';?> 
 
 			<?php include 'side-modules/for-earth.php';?> 
-
 
 			<?php include 'side-modules/earthen-ethics-principles.php';?> 
 			
