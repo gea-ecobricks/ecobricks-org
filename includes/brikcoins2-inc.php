@@ -70,7 +70,7 @@ margin: 12px;
 		position: relative;
 		background: url(../webp/brikcoins-blue.webp) right top;
     	background-repeat: no-repeat;
-    	background-size: contain;
+    	background-size: contain !important;
 		background-color: #ECECEC;
 		margin: 0 0 -20px 0;
 

@@ -17,10 +17,12 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const id_Page_Translations = {
 
-    '001-splash-title': 'Brikcoins',
-    '002-splash-subtitle': 'Semua Briks, Blocks & Transactions.',
-    '003-splash-image-alt': '<img src="../webp/brikcoins-450px.webp" alt="Brikcoin manual blockchain">',
-    
+    "001-splash-title": "Brikcoins",
+  "002-splash-subtitle": "Blockchain manual berbasis bukti nilai, berdasarkan penyerapan plastik dari biosfer.",
+  "004-lead-paragraph": "Berdasarkan nilai ekologi dunia nyata, blockchain manual Brikcoin menghidupkan kembali transisi kapital-petro kami ke dunia regeneratif.",
+  "005-page-paragraph1": "Brikcoins (BRK / ß) dihasilkan oleh pekerjaan manusia dan berdasarkan nilai ekologis.",
+  "006-page-paragraph2": "Lebih dari sekedar angka dalam buku besar, setiap brikcoin berkorelasi langsung dengan plastik yang telah diamankan dari pencemaran biosfer— dan secara permanen dihapus dari industri emisi tinggi. Sama seperti koin emas dan perak kuno memiliki nilai tersendiri, Brikcoins didasarkan pada nilai ekologis yang mereka wakili.",
+  "007-page-paragraph3": "Kami menyebut ini sebagai <i>bukti nilai, blockchain manual.</i>",
 
     
 }

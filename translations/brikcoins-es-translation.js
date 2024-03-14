@@ -17,10 +17,14 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const es_Page_Translations = {
 
-    '001-splash-title': 'Brikcoins',
-    '002-splash-subtitle': 'Todos los Briks, Blocks & Transaciones.',
-    '003-splash-image-alt': '<img src="../webp/brikcoins-450px.webp" alt="Brikcoin manual blockchain">',
-    
+    "001-splash-title": "Brikcoins",
+  "002-splash-subtitle": "Une blockchain manuelle basée sur la preuve de valeur, fondée sur la séquestration du plastique hors de la biosphère.",
+  "004-lead-paragraph": "Basé sur la valeur écologique réelle, le blockchain manuel de Brikcoin dynamise notre transition du capital pétrolier vers un monde régénératif.",
+  "005-page-paragraph1": "Les Brikcoins (BRK / ß) sont générés par le travail humain et basés sur la valeur écologique.",
+  "006-page-paragraph2": "Plus que de simples nombres dans un registre, chaque brikcoin est directement corrélé au plastique qui a été sécurisé pour éviter de polluer la biosphère – et retiré de manière permanente des industries à fortes émissions. De la même manière que les anciennes pièces d'or et d'argent ont une valeur en elles-mêmes, les Brikcoins sont basés sur la valeur écologique qu'ils représentent.",
+  "007-page-paragraph3": "Nous appelons cela une <i>preuve de valeur, blockchain manuelle.</i>",
+
+  
 
     
 }
