@@ -18,7 +18,7 @@
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Brikcoins</div>
 		<div class="splash-sub" data-lang-id="002-splash-subtitle">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere.</div>
-		<img src="../webp/brikcoins-450px.webp" alt="Brikcoin manual blockchain" width="300" style="width:70%">
+		<img src="../webp/brikcoins-450px.webp" alt="Brikcoin manual blockchain" width="300">
 	</div>
 </div>
 <div id="splash-bar"></div>

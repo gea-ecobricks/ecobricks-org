@@ -39,7 +39,14 @@ const id_Page_Translations = {
   "020-subheader-gea-criteria": "ℹ️ <a href=\"sequest.php\">Kriteria GEA untuk penyekuestrian plastik.</a>",
   "021-subheader-long-story-of-plastic": "ℹ️ <a href=\"/plastic\">Kisah Panjang Plastik.</a>",
   "022-subheader-aes-plastic": "ℹ️ Lebih lanjut tentang: <a href=\"/aes\">Plastik AES.</a>",
-  "023-subheader-earthen-ethics": "ℹ️ Teori <a href=\"https://book.earthen.io\" target=\"_blank\">Etika Bumi</a> mengikuti contoh Bumi."
+  "023-subheader-earthen-ethics": "ℹ️ Teori <a href=\"https://book.earthen.io\" target=\"_blank\">Etika Bumi</a> mengikuti contoh Bumi.",
+
+  "024-header-proof-of-value": "Bukti Nilai",
+  "025-subheader-brikcoins-generation": "Brikcoins dihasilkan melalui proses manual otentikasi plastik ecobrick yang disekuester.",
+  "026-main2-paragraph1": "Brikcoins berdasarkan nilai ekologis dari <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\" target=\"_blank\" >plastik disekuester</a>— sebuah konsep yang berdasarkan mengikuti <a href=\"/plastic\">contoh Bumi</a> dalam perawatan karbon (prinsip-prinsip <a href=\"https://earthen.io/en/summaries.html\">etika Bumi</a>). Plastik ecobrick, untuk dianggap sebagai disekuester, harus memenuhi <a href=\"sequest.php\">kriteria penyekuestrian plastik</a> yang dikembangkan oleh <a href=\"about.php\">Aliansi Global Ecobrick.</a>",
+  "027-main2-paragraph2": "Kriteria akhir dari penyekuestrian plastik, adalah <a href=\"sequest.php\">otentikasi independen:</a> konfirmasi bahwa semua kriteria lain telah terpenuhi. Untuk mengotentikasi ecobricks yang dibuat di seluruh dunia sebagai plastik disekuester, GEA memelihara platform <a href=\"/gobrik\">GoBrik</a>. Di sana, setiap ecobrick yang tercatat ditinjau oleh komunitas ecobricker untuk mengonfirmasi apakah itu memenuhi <a href=\"what.php\">standar ecobrick GEA</a>.",
+  "028-main2-paragraph3": "Hanya ketika tinjauan rekan dari sebuah ecobrick berhasil, plastik di dalamnya dianggap telah disekuester. Ini memenuhi kriteria akhir dari penyekuestrian plastik (otentikasi), dengan demikian memvalidasi dan memfinalisasi nilai ekologis ecobrick. Brikcoins yang mewakili nilai ini kemudian dihasilkan dalam sebuah blok pada <a href=\"brikchain.php\">brikchain</a>.",
+  "029-main3-paragraph": "Dengan cara ini, Brikcoins menghindari jebakan mata uang blockchain lainnya. Daripada mendukung mereka yang memiliki modal untuk investasi, sebagai proses non-modal, manual, dan didukung komunitas, brikcoins mendukung mereka yang bersedia bekerja dengan tangan mereka untuk membuat kontribusi ekologis yang berarti tanpa memandang kekayaan atau lokasi mereka."
 
     
 }

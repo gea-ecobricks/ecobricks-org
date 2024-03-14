@@ -41,6 +41,14 @@ const fr_Page_Translations = {
   "022-subheader-aes-plastic": "ℹ️ Plus sur : <a href=\"/aes\">Plastique AES.</a>",
   "023-subheader-earthen-ethics": "ℹ️ La théorie de <a href=\"https://book.earthen.io\" target=\"_blank\">l'Éthique Terrestre</a> suivant l'exemple de la Terre.",
 
+  "024-header-proof-of-value": "Preuve de Valeur",
+  "025-subheader-brikcoins-generation": "Les Brikcoins sont générés par le processus manuel d'authentification du plastique écobrick séquestré.",
+  "026-main2-paragraph1": "Les Brikcoins sont basés sur la valeur écologique du <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\" target=\"_blank\" >plastique séquestré</a>— un concept basé sur le suivi de <a href=\"/plastic\">l'exemple de la Terre</a> en matière de soin du carbone (les principes de <a href=\"https://earthen.io/en/summaries.html\">l'éthique Terrienne</a>). Le plastique écobrické, pour être considéré comme séquestré, doit répondre aux <a href=\"sequest.php\">critères de séquestration du plastique</a> développés par <a href=\"about.php\">l'Alliance Globale Ecobrick.</a>",
+  "027-main2-paragraph2": "Le critère final de la séquestration du plastique est celui de <a href=\"sequest.php\">l'authentification indépendante :</a> la confirmation que tous les autres critères ont été respectés. Pour authentifier les ecobricks réalisés dans le monde entier comme plastique séquestré, la GEA maintient la plateforme <a href=\"/gobrik\">GoBrik</a>. Là, chaque ecobrick enregistré est évalué par la communauté des ecobrickeurs pour confirmer s'il répond aux <a href=\"what.php\">standards d'ecobrick de la GEA</a>.",
+  "028-main2-paragraph3": "Seulement lorsque l'évaluation par les pairs d'un ecobrick est réussie, le plastique à l'intérieur est considéré comme ayant été séquestré. Cela remplit le critère final de la séquestration du plastique (authentification), validant ainsi et finalisant la valeur écologique de l'ecobrick. Les Brikcoins qui représentent cette valeur sont alors générés dans un bloc sur <a href=\"brikchain.php\">le brikchain</a>.",
+  "029-main3-paragraph": "De cette manière, les Brikcoins évitent un autre piège des autres monnaies blockchain. Plutôt que de favoriser ceux qui ont du capital à investir, en tant que processus manuel, non capitalisé et soutenu par la communauté, les brikcoins favorisent ceux qui sont prêts à travailler de leurs mains pour apporter une contribution écologique significative, indépendamment de leur richesse ou de leur localisation."
+
+
 
 
     

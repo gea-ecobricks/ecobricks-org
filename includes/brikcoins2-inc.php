@@ -53,7 +53,7 @@ margin: 12px;
 		background: url(../webp/brikcoins-blue.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain;
-		background-color: #ECECEC;
+		background-color: #cbcbcb;
 		margin-top: 50px;
         position: relative;
 
@@ -71,7 +71,7 @@ margin: 12px;
 		background: url(../webp/brikcoins-blue.webp) right top;
     	background-repeat: no-repeat;
     	background-size: contain !important;
-		background-color: #ECECEC;
+		background-color: #cbcbcb;
 		margin: 0 0 -20px 0;
 
 }
@@ -161,8 +161,18 @@ margin: 12px;
 }
 }
 
+
+@media screen and (min-width: 769px) {
+
+#splash-box img {
+
+	width: 30%;
+}
+}
+
+
 #splash-bar {
-	background-color: #ECECEC;;
+	background-color: #cbcbcb;
 }	
 
 
