@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.66';?>
+<?php $version='1.661';?>
 <?php $page='brikcoins';?>
 
 <?php require_once ("../includes/brikcoins2-inc.php");?>
@@ -14,7 +14,7 @@
 <!--PAGE BANNER-->
 
 
-<div class="splash-content-block">
+<div class="splash-content-block-brk">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Brikcoins</div>
 		<div class="splash-sub" data-lang-id="002-splash-subtitle">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere.</div>

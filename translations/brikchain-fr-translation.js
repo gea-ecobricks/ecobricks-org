@@ -9,7 +9,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const fr_Page_Translations = {
 
-    '001-splash-title': 'Les Brikcoins',
+    '001-splash-title': 'Le Brikchain',
     '002-splash-subtitle': 'Une blockchain de preuve de valeur manuelle basée sur la séquestration du plastique de la biosphère.',
     '003-splash-image-alt': '<img src="../webp/brikchain-450px.webp" style="width: 85%" alt="La brikchain: chercher toutes les briks, blocks et transactions">',
 
