@@ -24,6 +24,23 @@ const id_Page_Translations = {
   "006-page-paragraph2": "Lebih dari sekedar angka dalam buku besar, setiap brikcoin berkorelasi langsung dengan plastik yang telah diamankan dari pencemaran biosfer— dan secara permanen dihapus dari industri emisi tinggi. Sama seperti koin emas dan perak kuno memiliki nilai tersendiri, Brikcoins didasarkan pada nilai ekologis yang mereka wakili.",
   "007-page-paragraph3": "Kami menyebut ini sebagai <i>bukti nilai, blockchain manual.</i>",
 
+  "008-header-ecological-value": "Nilai Ekologis",
+  "009-subheader-carbon-concentration": "Dengan mengikuti contoh Bumi dalam konsentrasi karbon, kita dapat menghasilkan nilai ekologis dan utilitas yang autentik.",
+  "010-main2-paragraph": "Dua miliar tahun yang lalu, atmosfer Bumi penuh dengan karbon dioksida. Iklim planet ini tidak stabil dan permukaannya tandus. Namun, CO2 di atmosfer secara bertahap disikluskan menjadi kehidupan berbasis karbon, yang, generasi demi generasi yang gugur, dikuburkan dan diamankan ke dalam tanah. Semakin banyak <a href=\"/plastic\">karbon yang berhasil disekuester</a>, semakin sedikit CO2 di atmosfer. Secara bertahap iklim menjadi stabil dan biosfer Bumi berkembang.",
+  "011-main3-paragraph": "Hari ini, plastik berbasis petroleum kita berasal langsung dari toko karbon bawah tanah kuno ini. Sebagai bentuk karbon, apa yang kita lakukan dengan plastik kita dapat memberikan manfaat ekologis — <i>atau tidak</i>.",
+  "012-paragraph-dumping-effects": "Ketika plastik dibuang, ia terurai menjadi mikro-plastik yang berbahaya. Ketika plastik dibakar, ia kembali ke atmosfer sebagai CO2. Dan ketika plastik diproses oleh industri, itu menyebabkan pabrik berputar dan bergerak, menghasilkan lebih banyak emisi dan lebih banyak produk plastik.",
+  "013-paragraph-securing-carbon": "Namun, dengan mengikuti contoh Bumi dalam mengamankan, mengkonsentrasikan, dan mengekstraksi karbon kita, kita dapat menjaga plastik kita keluar dari biosfer dan industri. Pekerjaan ini memiliki nilai ekologis penting karena menghindari polusi, menyebarkan manfaat, dan mendukung keanekaragaman hayati.",
+  "014-paragraph-plastic-sequestration": "Proses ini dari <a href=\"sequest\">penyekuestrian plastik</a> didefinisikan sebagai proses manual, net-zero, non-industri (lihat <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\" target=\"_blank\">halaman wikipedia</a>). Agar dapat disekuester, plastik yang diamankan harus memenuhi kriteria penyekuestrian plastik untuk memastikan bahwa itu benar-benar hijau.",
+  "015-paragraph-ecobricking": "Salah satu cara penyekuestrian plastik yang paling universal dan dapat diakses adalah <a href=\"what.php\">ecobricking</a>.",
+  "016-paragraph-ecobricked-plastic-value": "Plastik ecobricked, <i>jika telah diautentikasi telah memenuhi kriteria penyekuestrian plastik</i>, mewakili nilai ekologis dan utilitas. Nilai ini dapat diukur dengan berat plastik yang disekuester di dalamnya.",
+  "017-paragraph-brikcoins-aes": "Brikcoins didasarkan pada nilai ekologis dari <a href=\"/aes\">Plastik Sekuester Ecobrick Otentik (Plastik AES)</a>.",
+  "018-header-learn-more": "Pelajari Lebih Lanjut",
+  "019-subheader-wikipedia-article": "ℹ️ Artikel Wikipedia: <a href=\"https://en.wikipedia.org/wiki/Plastic_sequestration\" target=\"_blank\" >Penyekuestrian Plastik.</a>",
+  "020-subheader-gea-criteria": "ℹ️ <a href=\"sequest.php\">Kriteria GEA untuk penyekuestrian plastik.</a>",
+  "021-subheader-long-story-of-plastic": "ℹ️ <a href=\"/plastic\">Kisah Panjang Plastik.</a>",
+  "022-subheader-aes-plastic": "ℹ️ Lebih lanjut tentang: <a href=\"/aes\">Plastik AES.</a>",
+  "023-subheader-earthen-ethics": "ℹ️ Teori <a href=\"https://book.earthen.io\" target=\"_blank\">Etika Bumi</a> mengikuti contoh Bumi."
+
     
 }
         
