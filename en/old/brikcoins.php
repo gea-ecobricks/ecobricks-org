@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<HTML lang="fr"> 
+<HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='fr';?>
-<?php $version='1.64';?>
-<?php $page='brikcoins';?>
 
-<?php require_once ("../includes/brikcoins2-inc.php");?>
+<?php $lang='en';?>
+
+<?php require_once ("../includes/brikcoins-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
 
 
 <!--PAGE BANNER-->
 
-
+	
 <div id="splash-content-block">
 	<div id="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Brikcoins</div>
-		<div class="splash-sub" data-lang-id="002-splash-subtitle">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere.</div>
+		<div class="splash-heading">Brikcoins</div>
+		<div class="splash-sub">A manual proof-of-value blockchain based on the sequestration of plastic from the biosphere.</div>
 		<img src="../webp/brikcoins-450px.webp" alt="Brikcoin manual blockchain">
 	</div>
 </div>
 <div id="splash-bar"></div>
 
-
 <!-- PAGE CONTENT-->
 
+<div id="top"></div>
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
@@ -47,85 +46,122 @@
 			</div>
 
 			
-		<!--ECO-VALUE-->
-		<div class="reg-content-block" id="block1">
-    <div class="opener-header">
-        <div class="opener-header-text">
-            <h4 data-lang-id="008-header-ecological-value">Ecological Value</h4>
-            <h5 data-lang-id="009-subheader-carbon-concentration">In following the Earth's example of carbon concentration we can generate authentic ecological and utility value.</h5>   
-            <br>
-        </div>
-        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-    </div>
-    <div id="preclosed1">
-        <div class="row">
-            <div class="main2">
-                <p data-lang-id="010-main2-paragraph">Two billion years ago, Earth's atmosphere was full of carbon dioxide. The planet's climate was unstable and its surface barren. However, steadily the atmosphere's CO2 was cycled into carbon-based life, which, generation after fallen generation, was buried and secured into the ground. As more and more <a href="/plastic">carbon ended up sequestered</a>, there was less and less CO2 in the atmosphere. Steadily the climate stabilized and Earth's biosphere blossomed.</p>
-            </div>
-            <div class="side2"><img src="../webp/earth-floating-500px.webp" style="width:100%" loading="lazy" alt="Earth service"></div>
-        </div>
-        <div class="row2">
-            <div class="main3">
-                <p data-lang-id="011-main3-paragraph">Today, our petroleum based plastic comes directly from these ancient underground carbon stores. As a form of carbon, what we do with our plastic can be of ecological benefit— <i>or not</i>.</p>
-            </div>
-            <div class="side3"><img src="../pngs/albatross-blue-sky.gif" width="150" loading="lazy" alt="Earth service to protect our fellow creatures"></div>
-        </div>
-        <p data-lang-id="012-paragraph-dumping-effects">When plastic is dumped, it degrades into dangerous micro-plastics. When plastic is incinerated it returns to the atmosphere as CO2. And when plastic that is processed by industry it causes factories to spin and churn, resulting in more emissions and more plastic products.</p>
-        <p data-lang-id="013-paragraph-securing-carbon">However, by following Earth's example of securing, concentrating and sequestering our carbon we can keep our plastic out of the biosphere and out of industry. This work has important ecological value insofar as it avoids pollution, disperses benefit, and supports biodiversity.</p>
-        <p data-lang-id="014-paragraph-plastic-sequestration">This process of <a href="sequest">plastic sequestration</a> is defined as a manual, net-zero, non-industrial process (see the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">wikipedia page</a>). In order to be sequestered, the resulting secured-plastic must meet the criteria of plastic sequestration to ensure that it is in fact green.</p> 
-        <p data-lang-id="015-paragraph-ecobricking">One of the most universal and accessible means of plastic sequestration is <a href="what.php">ecobricking</a>.</p>
-        <p data-lang-id="016-paragraph-ecobricked-plastic-value">Ecobricked plastic, <i>if it has been authenticated to have met the criteria of plastic sequestration</i>, embodies an ecological and utility value. This value can be quantified by the weight of the plastic sequestered within it.</p>
-        <p data-lang-id="017-paragraph-brikcoins-aes">Brikcoins are based on the ecological value of <a href="/aes">Authenticated Ecobrick Sequestered plastic (AES plastic)</a>.</p>
-        <br><br>
-        <hr>
-        <h4 data-lang-id="018-header-learn-more">Learn More</h4>
-        <h5 data-lang-id="019-subheader-wikipedia-article">ℹ️ Wikipedia article: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank" >Plastic Sequestration.</a></h5>
-        <h5 data-lang-id="020-subheader-gea-criteria">ℹ️ <a href="sequest.php">The GEA's criteria for plastic sequestration.</a></h5>
-        <h5 data-lang-id="021-subheader-long-story-of-plastic">ℹ️ <a href="/plastic">The Long Story of Plastic.</a></h5>
-        <h5 data-lang-id="022-subheader-aes-plastic">ℹ️ More on: <a href="/aes">AES Plastic.</a></h5>
-        <h5 data-lang-id="023-subheader-earthen-ethics">ℹ️ The theory of <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a> of following Earth's example.</h5>
-    </div>
-</div>
+			<div id="ECO-VALUE"></div>
+			<div class="reg-content-block" id="block1">
+
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+					<h4>Ecological Value</h4>
+					<h5>In following the Earth's example of carbon concentration we can generate authentic ecological and utility value.</h5>   
+					<br>
+					</div>
+
+					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+				</div>
+
+				<div id="preclosed1">
+
+				<div class="row">
+						<div class="main2">
+
+						<p>Two billion years ago, Earth's atmosphere was full of carbon dioxide.  The planet's climate was unstable and its surface barren.  However, steadily the atmosphere's CO2 was cycled into carbon-based life, which, generation after fallen generation, was buried and secured into the ground.  As more and more <a href="/plastic">carbon ended up sequestered</a>, there was less and less CO2 in the atmosphere.  Steadily the climate stabilized and Earth's biosphere blossomed.</p>
+
+						</div>
+						<div class="side2"><img src="../webp/earth-floating-500px.webp" style="width:100%" loading="lazy" alt="Earth service">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p>Today, our petroleum based plastic comes directly from these ancient underground carbon stores.  As a form of carbon, what we do with our plastic can be of ecological benefit— <i>or not</i>.</p>
+						</div>
+						<div class="side3"><img src="../pngs/albatross-blue-sky.gif" width="150" loading="lazy" alt="Earth service">
+						</div>
+					</div>
+						
+
+						<p>When plastic is dumped, it degrades into dangerous micro-plastics.  When plastic is incinerated it returns to the atmosphere as CO2.  And when plastic that is processed by industry it causes factories to spin and churn, resulting in more emissions and more plastic products.</p>
+						
+						<p>However, by following Earth's example of securing, concentrating and sequestring our cabon we can keep our plastic out of the biosphere and out of industry.  This work has important ecological value in so far as it avoids pollution, desperses benefit and supports biodiversity.</p>
+						
+						<p>This process of <a href="sequest">plastic sequestration</a> is defined as a manual, net-zero, non-industrial process (see the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">wikipedia page</a>).  In order to be sequestered, the resulting secured-plastic must meet the criteria of plastic sequestration to ensure that it is in fact green.</p> 
+
+						<p>One of the most universal and accessible means of plastic sequestration is <a href="what.php">ecobricking</a>.</p>
+						
+						<p>Ecobricked plastic, <i>if it has been authenticated to have met the criteria of plastic sequestration</i>, embodies an ecological and utility value.  This value can be quantified by the weight of the plastic sequestered within it.</p>
+
+						<p>Brikcoins are based on the ecological value of <a href="/aes">Authenticated Ecobrick Sequestered plastic (AES plastic)</a>.</p>
+
+						<br><br>
+						<hr>
+						<h4>Learn More</h4>
+						<h5>ℹ️ Wikipedia article: <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank" >Plastic Sequestration.</a></h5>
+						
+						<h5>ℹ️ <a href="sequest.php">The GEA's criteria for plastic sequestration.</a></h5>
+
+						<h5>ℹ️ <a href="/plastic">The Long Story of Plastic.</a></h5>
+
+						<h5>ℹ️ More on: <a href="/aes">AES Plastic.</a></h5>
+
+					<h5>ℹ️ The theory of <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a> of following Earth's example.</h5>
+				
+				</div>
+			</div>
 
 
-
-			<!--PROOF-OF-VALUE-->
-
+			<div id="PROOF-OF-VALUE"></div>
 			<div class="reg-content-block" id="block2">
-    <div class="opener-header">
-        <div class="opener-header-text">
-            <h4 data-lang-id="024-header-proof-of-value">Proof of Value</h4>
-            <h5 data-lang-id="025-subheader-brikcoins-generation">Brikcoins are generated through the manual process of authenticating ecobrick sequestered plastic.</h5>   
-            <br>
-        </div>
-        <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-    </div>
 
-    <div id="preclosed2">
-        <div class="row">
-            <div class="main2">
-                <p data-lang-id="026-main2-paragraph1">Brikcoins are based on the ecological value of <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank" >sequestered plastic</a>— a concept which is based on following <a href="/plastic">Earth's example</a> of carbon care (the principles of <a href="https://earthen.io/en/summaries.html">Earthen ethics</a>).  Ecobricked plastic, in order to be considered sequestered, must meet the <a href="sequest.php">criteria of plastic sequestration</a> developed by the <a href="about.php">Global Ecobrick Alliance.</a></p>
-                <p data-lang-id="027-main2-paragraph2">The final criteria of plastic sequestration, is that of <a href="sequest.php">independent authentication:</a> confirmation that all the other criteria have been met.  In order to authenticate ecobricks that have been made around the world as sequestered plastic, the GEA maintains the <a href="/gobrik">GoBrik platform</a>.  There, every ecobrick logged is peer reviewed by the ecobricker community to confirm whether it meets <a href="what.php">GEA ecobrick standards</a>.</p>
-            </div>
-            <div class="side2"><img src="../pngs/authenticated-ecobrick.png" style="width:100%" alt="authenticated ecobrick" loading="lazy"></div>
-        </div>
-        <div class="row">
-            <div class="main2">
-                <p data-lang-id="028-main2-paragraph3">Only when the peer review of an ecobrick is successful, is the plastic within it deemed to have been sequestered.  This fulfils the final criteria of plastic sequestration (authentication), thereby both validating and finalizing the ecobrick's ecological value.  The brikcoins that represent this value are then generated in a block on the <a href="brikchain.php">brikchain</a>.</p>
-            </div>
-            <div class="side2"><img src="../webp/2-brikcoins-450px.webp" width="300" style="width:90%" alt="brikcoins are based on authenticated ecobrick" loading="lazy"></div>
-        </div>      
-        <div class="row2">
-            <div class="main3">
-                <p data-lang-id="029-main3-paragraph">In this way, Brikcoins avoid another pitfall of other blockchain currencies. Rather than favor those who have capital to invest, as a non-capital, manual, and community-powered process, brikcoins favor those willing to work with their hands to make a meaningful ecological contribution regardless of their wealth or location.</p>
-            </div>
-            <div class="side3"><img src="../pngs/authenticated-ecobrick.png" width="150" alt="An authenticated ecobrick made from sequestered plastic" loading="lazy"></div>
-        </div>
-    </div>
-</div>
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+						<h4>Proof of Value</h4>
+						<h5>Brikcoins are generated through the manual process of authenticating ecobrick sequestered plastic.</h5>   
+						<br>
+					</div>
 
-<!-- HOW IT WORKS -->
+					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+				</div>
 
+				<div id="preclosed2">
+
+					<div class="row">
+						<div class="main2">
+							<p>Brikcoins are based on the ecological value of <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank" >sequestered plastic</a>— a concept which is based on following <a href="/plastic">Earth's example</a> of carbon care (the principles of <a href="https://earthen.io/imagine">Earthen ethics</a>).  Ecobricked plastic, in order to be considered sequestered must meet the <a href="sequest">criteria of plastic sequestration</a> developed by the <a href="about.php">Global Ecobrick Alliance.</a>  </p>
+							
+							<p>The final criteria of plastic sequestration, is that of <a href="sequest.php/#auth">independent authentication:</a> confirmation that that all the other criteria have been met.  In order to authenticate ecobricks that have been made around the world as sequestered plastic, the GEA maintains the <a href="/gobrik">GoBrik platform</a>.  There every ecobrick logged is peer reviewed by the ecobricker community to confirm whether it meets <a href="what.php">GEA ecobrick standards</a>.</p>
+
+						</div>
+						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" style="width:100%" alt="authenticated ecobrick">
+						</div>
+					</div>
+					<div class="row">
+						<div class="main2">
+						
+						<p>Only when the peer review of an ecobrick is successful, is the plastic within it deemed have been sequestered.  This fulfils the final criteria of plastic sequestration (authentication), thereby both validating and finalizing the ecobrick's ecological value.  The brikcoins that represent this value are then generated in a block on the <a href="brikchain.php">brikchain</a>.</p>
+									
+						</div>
+						<div class="side2"><img src="../webp/2-brikcoins-450px.webp" width="90%">
+						</div>
+					</div>		
+					
+					
+					<div class="row2">
+						<div class="main3">
+
+						
+						
+						<p>In this way, Brikcoins avoid another pitfall of other blockhain currencies.  Rather than favor those who have capital to invest, as a non-capital, manual and community powered process, brikcoins favors those willing to work with their hands to make a meaningful ecological contribution regardless of their wealth or location.</p>
+						</div>
+
+						<div class="side3"><img src="../pngs/authenticated-ecobrick.png" width="150px">
+					</div>
+					</div>
+				</div>
+			</div>
+			
+
+			<div id="HOW"></div>
 			<div class="reg-content-block" id="block3">
 
 				<div class="opener-header">
@@ -142,11 +178,11 @@
 				<div id="preclosed3">
 
 					<br>
-					<img src="../pngs/manual-blockchain.png" width="300" style="width:90%" loading="lazy" alt="manual proof of value block chain">
+					<img src="../pngs/manual-blockchain.png" width="100%" loading="lazy" alt="manual proof of value block chain">
 
 					
 
-					<h4>Step 1: Ecobricking</h4>
+					<p><b>Step 1: Ecobricking</b></p>
 
 					<p>The brikcoin manual-blockchain revolves around the ecobricking of used plastic.  <a href="what">Ecobricking</a> is an established means of securing plastic. It is a time-consuming, labor-intensive process that is most effectively done manually.  If done <a href="/how">properly</a> an ecobrick can be used for long-term <a href="build">building applications</a>; ensuring that its plastic is secured from industrial processing and release into the biosphere.</p>
 
@@ -293,7 +329,7 @@
 
 		<div class="side">
 		
-			<?php include '../ecobricks_env.php';?> 
+			<?php include 'ecobricks_env.php';?> 
 			<?php require_once ("side-modules/brikcoin-live-values.php");?>
 			<?php 	$conn->close();?>
 			
@@ -320,7 +356,7 @@
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../accordion-scripts.js" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>
