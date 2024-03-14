@@ -13,8 +13,8 @@ const en_Page_Translations = {
     "003-splash-image-alt": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1\" style=\"width: 70%\" alt=\"Brikable designator icon\">",
 
     
-    "004-lead-paragraph": "The Brickable Designator Icon can be placed on single-use plastics to designate its next life as an ecobrick. Our free Kit contains everything you need to guide your packaging and products into a spiral and green life-cycle",
-    "005-page-paragraph-1": "Transitioning from plastic is not easy. Try as we might, in our day and age, regulations and markets demand the use of plastic for just about everything. However, plastic in-itself is not the problem. Rather, it is our poor design and planning. In particular: <i>the failure to designate a next-life for our plastic creations that avoids the perils of promoting yet more plastic consumption and yet more industrial plastic processing.</i>",
+    "004-lead-paragraph": "The Brickable Designator Icon can be placed on single-use plastics to designate its next life as an ecobrick. Our free Kit contains everything you need to mark your packaging as brickable and take your first step into spiral design.",
+    "005-page-paragraph-1": "Transitioning from plastic is not easy. Try as we might, in our day and age, regulations and markets demand the use of plastic for just about everything. However, plastic in-itself is not the problem. Rather, it is our poor design and planning. In particular: <i>the failure to designate a next-life for our plastic creations</i> that avoids the perils of promoting yet more plastic consumption and yet more industrial plastic production and processing.",
     "006-page-paragraph-2": "Designing a product as spiral is the first and essential step in an enterprise’s plastic transition. Phasing it out entirely is the second. Ecobrickable Designation enables companies to start their <a href=\"transition.php\">plastic transition today</a>.",
     "007-earthen-design-title": "Earthen Design Philosophy",
     "008-earthen-design-subtitle": "The context and call for spiral design.",
