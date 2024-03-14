@@ -83,7 +83,7 @@ margin: 12px;
   z-index: 5;
   position: relative;
   width: 100%;
-  text-align: left;
+  text-align: left !important;
 }
 }
 
@@ -101,6 +101,7 @@ margin: 12px;
   color: black;
   font-weight: 300;
   text-shadow: 0 0 10px #fff;
+  text-align: left;
 
 }
 
@@ -109,6 +110,7 @@ margin: 12px;
       font-size: 3.8em;
       line-height: 1.1;
       margin: 10px 0;
+	  
   }
 }
 
@@ -127,6 +129,7 @@ margin: 12px;
   /*text-shadow: 0px 0px 10px #fff;*/
   margin: 15px 0;
   text-shadow: 0 0 8px #fff;
+  text-align: left;
 }
 
 @media screen and (max-width: 700px) {
