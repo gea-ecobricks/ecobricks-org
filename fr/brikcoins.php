@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.65';?>
+<?php $version='1.66';?>
 <?php $page='brikcoins';?>
 
 <?php require_once ("../includes/brikcoins2-inc.php");?>
@@ -171,15 +171,15 @@
             <div class="main2">
                 <p data-lang-id="049-paragraph-gea-mission">The brikcoin manual-blockchain is developed and maintained by the <a href="about.php">Global Ecobrick Alliance</a> in pursuit of its mission and vision of plastic transition. As a not-for-profit Earth Enterprise, the GEA is guided by a mandate of achieving net-green ecological impacts and redistributing excess revenue back to the global ecobrick movement.</p>
             </div>
-            <div class="side2">
-                <img src="../webp/gea-logo-400px.webp" width="80%">
+            <div class="side2" data-lang-id="049b-image-alt">
+                <img src="../webp/gea-logo-400px.webp" width="300" style="width:80%" alt="Global Ecobrick Alliance logo" loading="lazy">
             </div>
         </div>
         <div class="row2">
             <div class="main3">
                 <p data-lang-id="050-paragraph-gea-approach">Through a combination of enterprise structure and server infrastructure, we aim to minimize our grey ecological impacts and maximize our collective green impact.</p>
             </div>
-            <div class="side3"><img src="../webp/gea-logo-400px.webp" width="130px"></div>
+            <div class="side3" data-lang-id="050b-image-alt"><img src="../webp/gea-logo-400px.webp" width="130p" style="width:80%" alt="Global Ecobrick Alliance logo" loading="lazy"></div>
         </div>
         <p data-lang-id="051-paragraph-manual-blockchain-structure">The brikcoin manual-blockchain is permissioned, meaning that its ledger is centralized on GEA managed databases. This structure was elected to minimize the impact of the servers supporting the blockchain, while at the same time maximize the blockchain's empowerment of the decentralized global ecobrick movement.</p>
     </div>
@@ -204,14 +204,14 @@
                 <p data-lang-id="054-paragraph-white-paper-release">On Earth Day 2020, the GEA released version 1.0 of the <i>Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic</i>. The 32-page document is the work of half a dozen contributors specializing in fields ranging from micro-plastic research, alternative currencies, philosophy, community development, and database development.</p>
                 <p data-lang-id="055-paragraph-white-paper-framework">The white paper lays out the framework for basing the brikcoin currency on the ecological value of plastic sequestration.</p>
             </div>
-            <div class="side2"><img src="../pngs/White-Paper-Icon2-400px.png" width="100%" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic" loading="lazy"></div>
+            <div class="side2" data-lang-id="055b-image-alt" ><img src="../pngs/White-Paper-Icon2-400px.png" width="300" style="width:80%" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic" loading="lazy"></div>
         </div>
         <div class="row2">
             <div class="main3">
                 <p data-lang-id="056-paragraph-white-paper-download">📥 Download: <a href="https://nextcloud.ecobricks.org/index.php/s/fNNYjG7A3gxco9n" target="_blank">The Commodification of Sequestered Plastic</a></p>
                 <h5 data-lang-id="057-download-info">📄 GEA White Paper | PDF | 2.1 MB</h5>
             </div>
-            <div class="side3"><img src="../pngs/White-Paper-Icon2-400px.png" width="150px" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic" loading="lazy"></div>
+            <div class="side3" data-lang-id="057b-image-alt"><img src="../pngs/White-Paper-Icon2-400px.png" width="150" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic" loading="lazy"></div>
         </div>
         <p data-lang-id="058-paragraph-white-paper-update">The white paper is updated as of March 2022 to reflect three years of beta-usage by our 50,000 gobrik users, over 150,000 ecobricks and a pool of over 250,000 ß (as of March, 2022).</p><br>
     </div>
@@ -231,8 +231,8 @@
             <a class="action-btn-blue" href="brikchain.php" data-lang-id="062-action-browse-brikchain">🔎 Browse the Brikchain</a>
             <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="063-caption-live-chain">The live chain of transactions and ecobricks.</p>
         </div>
-        <div class="side2">
-            <br><img src="../webp/brk-cascade.webp" width="300" style="width:90%" alt="brikcoins in action" loading="lazy">
+        <div class="side2" data-lang-id="063b-image-alt">
+            <br><img src="../webp/brk-cascade.webp" width="300" style="width:90%" alt="brikcoins alternative currency in action" loading="lazy">
         </div>
     </div>
 </div>
