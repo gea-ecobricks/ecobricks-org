@@ -39,7 +39,7 @@
 				  
 				<p data-lang-id="005-first-page-paragraph">Our <a href="brikchain.php">Brikchain is based on the ecological value of plastic <a href="sequest.php">sequestered</a> out of the biosphere and out of industry.  Every ecobrick that is authenticated on the <a href="/gobrik">GoBrik platform</a> is permanently recorded on the <a href="brikcoins.php">Brikcoin Manual Blockchain</a>.  With each authentication, the corresponding value of sequestered plastic (<a href="/aes">AES plastic</a>) is issued in brikcoins</a>.  Each issuance is made through a block of transactions that are recorded sequentially.  This chain of blocks, transaction and ecobricks is fully searchable here.  
 				
-				<p data-lang-id="005-second-page-paragraph">Use the tools below to browse the Brikchain.  You can also view our <a href="open-books.php">Open Books</a> financial accounting.  To learn how the combination of our financial and <a href="regen-reports.php">ecological accounting</a> generates the price per Kg of AES sales see our <a href="offsets.php">offsetting page</a>.</p> </p>
+				<p data-lang-id="005b-second-page-paragraph">Use the tools below to browse the Brikchain.  You can also view our <a href="open-books.php">Open Books</a> financial accounting.  To learn how the combination of our financial and <a href="regen-reports.php">ecological accounting</a> generates the price per Kg of AES sales see our <a href="offsets.php">offsetting page</a>.</p> </p>
 			</div>
 
 
@@ -248,7 +248,7 @@
 
 				if ($result->num_rows > 0) {
 
-					echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
+					echo'<table id="brikchain" class="display" data-lang-id="042b-brik-total-table"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
 
 				// output data of each row
 				//until($row = $result->fetch_assoc()) {
@@ -287,7 +287,7 @@
             <br><img src="../icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting" loading="lazy">
         </div>
     </div>
-    <p data-lang-id="049-earthen-ethics">Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="principles.php" target="_blank" data-lang-id="050-financial-ecological-management">financial and ecological energy management, ecological accounting and disclosure.</a></p><br><br>
+    <p data-lang-id="049-earthen-ethics">Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of financial and ecological energy management, ecological accounting and disclosure.</p><br><br>
     
     <a class="action-btn" href="principles.php" data-lang-id="051-our-principles-btn">🚀 Our Principles</a>
     <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="052-guided-by-principles">Our Accounting is guided by our regenerative principles</p>
