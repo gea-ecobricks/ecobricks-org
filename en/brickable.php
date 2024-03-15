@@ -2,13 +2,13 @@
 <HTML lang="en"> 
 
 <HEAD>
-<title>Brickable Design</title>
+
 <!-- <title>Brickable Design</title> -->
 
 
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.796';?>
+<?php $version='1.797';?>
 <?php $page='brickable';?>
 <?php require_once ("../includes/brickable2-inc.php");?>
 
@@ -16,8 +16,8 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Briackable Design</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Guide your packaging into a greening spiral of life cycles</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Brickable Design</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Guidez vos emballages vers leur prochaine vie vert et spirale</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1" style="width: 70%" alt="Brikable designator icon"></div>	
 
@@ -111,23 +111,6 @@
 </div>
 
 
-	<!--CC LIcense-->
-
-			<div class="reg-content-block" id="block2">
-				<div class="opener-header">
-					<div class="opener-header-text">
-						<h4>Creative Commons License</h4>
-						<h5>Conditions for graphic use</h5><br>
-					</div>
-					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-				</div>
-
-				<div id="preclosed2">
-                <p>The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals.   See copyright notice and terms below.</p><br><br>
-				<h6><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png"></a><br><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</h6>
-				</div>
-			</div>
-
 <!-- 
 			<div class="reg-content-block" id="block4">
 
@@ -156,57 +139,68 @@
 			<!-- HOW ITS USED -->
 
 
-			<div class="reg-content-block" id="block4">
+<div class="reg-content-block" id="block4">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="032-opener-header-text">See How Its Used</h4>
+            <h5 data-lang-id="033-opener-subheader-text">Companies and corporations around the world use the designator icon for their non-recyclable packaging.</h5><br>
+        </div>
+        <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+    </div>
 
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-					<h4>See How Its Used.</h4>
-					<h5>Companies and corporations around the world use the designator icon for their non-recyclable packaging.</h5>
-					<br>
-					</div>
+    <div id="preclosed4">
+        <p data-lang-id="034-usage-description">The designator icon can be used directly in packaging designs or added as sticker to pre-existing packaging and products.</p><br>
+        <p data-lang-id="035-usage-examples-intro">Here's some examples of our usage:</p>
 
-					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
-				</div>
+        <div id="flex-gallery" style="width:100%">
+            <a href="photos/brickable-1-716px.jpeg" data-lang-id="036-example-link-1"><img src="../photos/brickable-1-716px.jpeg" style="width:30%;" alt="A black sticker used on a chocolate powder plastic bag" loading="lazy"></a>
+            <a href="photos/brickable-2-716px.jpeg" data-lang-id="037-example-link-2"><img src="../photos/brickable-2-716px.jpeg" style="width:30%;" alt="Integrated into the packaging of a Marimas juice product" loading="lazy"></a>
+            <a href="photos/brickable-3-716px.jpeg" data-lang-id="038-example-link-3"><img src="../photos/brickable-3-716px.jpeg" style="width:30%;" alt="A stick on a home based business health drink product" loading="lazy"></a>
+        </div>
+    </div>
+</div>
 
-				<div id="preclosed4">
-					
-					<p>The designator icon can be used directly in packaging designs or added as sticker to pre-existing packaging and products.</p><br>
-					<p>Here's some examples of our useage:</p>
 
-					<div id="flex-gallery" style="width:100%">
-						<a href="photos/brickable-1-716px.jpeg"><img src="../photos/brickable-1-716px.jpeg" style="width:30%;" alt="A black sticker used on a chocolate powder plastic bag" loading="lazy"></a>
-						<a href="photos/brickable-2-716px.jpeg"><img src="../photos/brickable-2-716px.jpeg" style="width:30%;" alt="Integrated into the packaging of a Marimas juice product" loading="lazy"></a>
-						<a href="photos/brickable-3-716px.jpeg"><img src="../photos/brickable-3-716px.jpeg" style="width:30%;" alt="A stick on a home based business health drink product" loading="lazy"></a>
-					</div>
-						
-			
-				</div>
+<!--CC License-->
+
+	<div class="reg-content-block" id="block5">
+		<div class="opener-header">
+			<div class="opener-header-text">
+				<h4 data-lang-id="049-opener-header-text">Creative Commons License</h4>
+				<h5 data-lang-id="050-opener-subheader-text">Conditions for graphic use</h5><br>
 			</div>
-
-			
-	
-
-			<div class="page-paragraph-reg">
-				<br><br>
-				<h2>Get Started!</h2>
-				<p>Download the Brickable Designator Kit today to use on your legacy plastic products and packaging.  The ZIP package includes:</p>
-				<ul>
-					<li>Icon & Sticker Design Elements (Vector / PDF)</li>
-					<li>Recommended colors (Vector / PDF)</li>
-					<li>Example of A3 sticker printing (JPEG)</li>
-					<li>High, medium and low resolution icons (PNG)</li>
-					<li>Terms and Conditions of use (TXT)</li>
-					<li>Creative Commons Attribution-NoDerivatives 4.0 International License (TXT/PNG)</li>
-				</ul> 
-
-
-				<br>
-				<p><a class="action-btn" href="https://nextcloud.ecobricks.org/index.php/s/rL3yFwETbcLF9dR" target="_blank">🚀 Download Kit</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;">ZIP file | 3.2MB </p>
-			</div>
-			
+			<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
 		</div>
+
+		<div id="preclosed5">
+			<p data-lang-id="051-license-description">The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals. See copyright notice and terms below.</p><br><br>
+			<h6><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/" data-lang-id="052-license-link"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png"></a><br><a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/" data-lang-id="053-license-text">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</h6>
+		</div>
+	</div>
+
+
+		
+	<div class="page-paragraph-reg">
+		<br><br>
+		<h2 data-lang-id="039-get-started-header">Get Started!</h2>
+		<p data-lang-id="040-kit-description">Download the Brickable Designator Kit today to use on your legacy plastic products and packaging. The ZIP package includes:</p>
+		<ul>
+			<li data-lang-id="041-kit-contents-icon-sticker">Icon & Sticker Design Elements (Vector / PDF)</li>
+			<li data-lang-id="042-kit-contents-recommended-colors">Recommended colors (Vector / PDF)</li>
+			<li data-lang-id="043-kit-contents-example-sticker">Example of A3 sticker printing (JPEG)</li>
+			<li data-lang-id="044-kit-contents-resolution-icons">High, medium and low resolution icons (PNG)</li>
+			<li data-lang-id="045-kit-contents-terms">Terms and Conditions of use (TXT)</li>
+			<li data-lang-id="046-kit-contents-license">Creative Commons Attribution-NoDerivatives 4.0 International License (TXT/PNG)</li>
+		</ul> 
+
+		<br>
+		<p><a class="action-btn" href="https://nextcloud.ecobricks.org/index.php/s/rL3yFwETbcLF9dR" target="_blank" data-lang-id="047-download-btn">🚀 Download Kit</a></p>
+		<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="048-file-info">ZIP file | 3.2MB </p>
+	</div>
+
+
+</div>
+
 
 
 
