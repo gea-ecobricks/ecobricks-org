@@ -41,6 +41,7 @@ const en_Page_Translations = {
     "020-learn-more-guide": "ℹ️ Learn more how to make and store ecobricks properly: <a href=\"how.php\">10 Step Ecobricking Guide</a>",
 
     "021-opener-header-text": "1. Milstein Modules",
+    "021b-opener-header-text": "The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Module horizontal lego.",
     "022-milstein-img-alt": "GEA trainers sitting at a table with eco brick milstein modules made from plastic",
     "023-milstein-description": "The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc. All you need are 12 ecobricks to start! Generic silicone sealant or motorcycle inner tubes can be used to make MMs. Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces. They can be stacked one on top of the other to add one level of vertical height. They can be stacked and stored vertically to save space.",
     "024-milstein-building-img-alt": "milstein eco-brick module building",

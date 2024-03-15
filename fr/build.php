@@ -82,7 +82,7 @@
 
 
 <!-- STORAGE-->
-
+ 
 <div class="reg-content-block" id="block10">
     <div class="opener-header">    
         <div class="opener-header-text" data-lang-id="016-opener-header-text">
