@@ -167,17 +167,16 @@
 	</div>
 
 	<div class="reg-content-block" id="block3">        
-    <div class="opener-header">            
-        <div class="opener-header-text">
-            <h4 data-lang-id="029-aes-plastic-valuations-header">AES Plastic Valuations</h4>
-            <h6 data-lang-id="030-aes-value-description">Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the blockchain (see the GEA's yearly <a href="open-books.php" data-lang-id="031-open-books-link">Open Books</a> financial accounting)</h6>
-            <div class="ecobrick-data"><p data-lang-id="032-brikcoin-data-live"><span class="blink">⬤  </span> Brikcoin Data live</p></div>
-            <div class="ecobrick-data"><p data-lang-id="033-openbooks-accounting-live"><span class="blink">⬤  </span> OpenBooks Accounting live</p></div>
-            <div class="ecobrick-data"><p data-lang-id="034-ecobrick-weight-estimated">🟠 Ecobrick weight data estimated (pending archival transfer)</p></div>
-        </div>
-        <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-    </div>
-</div>
+		<div class="opener-header">            
+			<div class="opener-header-text">
+				<h4 data-lang-id="029-aes-plastic-valuations-header">AES Plastic Valuations</h4>
+				<h6 data-lang-id="030-aes-value-description">Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the blockchain (see the GEA's yearly <a href="open-books.php" data-lang-id="031-open-books-link">Open Books</a> financial accounting)</h6>
+				<div class="ecobrick-data"><p data-lang-id="032-brikcoin-data-live"><span class="blink">⬤  </span> Brikcoin Data live</p></div>
+				<div class="ecobrick-data"><p data-lang-id="033-openbooks-accounting-live"><span class="blink">⬤  </span> OpenBooks Accounting live</p></div>
+				<div class="ecobrick-data"><p data-lang-id="034-ecobrick-weight-estimated">🟠 Ecobrick weight data estimated (pending archival transfer)</p></div>
+			</div>
+			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+		</div>
 
 
 		<div id="preclosed3">
