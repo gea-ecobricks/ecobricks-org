@@ -8,7 +8,7 @@
 
 const fr_Page_Translations = {
     
-    "001-splash-title": "Conception Écobrickable",
+    "001-splash-title": "Conception Brickable",
     "002-splash-subtitle": "Guidez vos emballages vers leur prochaine vie vert et spirale",
     "003-splash-image-alt": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1\" style=\"width: 70%\" alt=\"Icône désignatrice brikable\">",
     
@@ -40,4 +40,29 @@ const fr_Page_Translations = {
     "028-side-module-1-subtitle": "Téléchargez le Kit de Désignateur Brickable dès aujourd'hui.",
     "029-side-module-1-button": "🚀 Télécharger",
     "030-side-module-button-caption": "Fichier ZIP | 3,2 Mbs",
+
+    "032-opener-header-text": "Voyez comment c'est utilisé",
+    "033-opener-subheader-text": "Des entreprises et corporations autour du monde utilisent l'icône désignatrice pour leur emballage non recyclable.",
+    "034-usage-description": "L'icône désignatrice peut être utilisée directement dans les conceptions d'emballage ou ajoutée comme autocollant sur des emballages et produits préexistants.",
+    "035-usage-examples-intro": "Voici quelques exemples de notre utilisation :",
+    "036-example-link-1": '<a href="photos/brickable-1-716px.jpeg"><img src="../photos/brickable-1-716px.jpeg" style="width:30%;" alt="Un autocollant noir utilisé sur un sac en plastique de poudre de chocolat" loading="lazy"></a>',
+    "037-example-link-2": '<a href="photos/brickable-2-716px.jpeg"><img src="../photos/brickable-2-716px.jpeg" style="width:30%;" alt="Intégré dans l\'emballage d\'un produit de jus Marimas" loading="lazy"></a>',
+    "038-example-link-3": '<a href="photos/brickable-3-716px.jpeg"><img src="../photos/brickable-3-716px.jpeg" style="width:30%;" alt="Un bâton sur un produit de boisson santé basé à domicile" loading="lazy"></a>',
+
+    "049-opener-header-text": "Licence Creative Commons",
+    "050-opener-subheader-text": "Conditions d'utilisation graphique",
+    "051-license-description": "Le désignateur Ecobrickable & les autocollants sont sous licence Creative Commons Attribution-Pas de Modification 4.0 Licence Internationale. Ceci est pour assurer l'utilisation standardisée et résonnante des désignateurs par des entreprises et individus engagés et résonnants. Voir l'avis de droit d'auteur et les termes ci-dessous.",
+    "052-license-link": '<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png"></a>',
+    "053-license-text": "Licence Creative Commons Attribution-Pas de Modification 4.0 Internationale",
+
+    "039-get-started-header": "Commencez !",
+    "040-kit-description": "Téléchargez le Kit de Désignateur Brickable aujourd'hui pour l'utiliser sur vos produits en plastique hérités et emballages. Le paquet ZIP inclut :",
+    "041-kit-contents-icon-sticker": "Éléments de conception d'icône & autocollant (Vectoriel / PDF)",
+    "042-kit-contents-recommended-colors": "Couleurs recommandées (Vectoriel / PDF)",
+    "043-kit-contents-example-sticker": "Exemple d'impression d'autocollant A3 (JPEG)",
+    "044-kit-contents-resolution-icons": "Icônes à haute, moyenne et basse résolution (PNG)",
+    "045-kit-contents-terms": "Termes et Conditions d'utilisation (TXT)",
+    "046-kit-contents-license": "Licence Creative Commons Attribution-Pas de Modification 4.0 Internationale (TXT/PNG)",
+    "047-download-btn": "🚀 Télécharger le Kit",
+    "048-file-info": "Fichier ZIP | 3.2MB"
 };

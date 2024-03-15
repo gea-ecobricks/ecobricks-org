@@ -42,4 +42,32 @@ const en_Page_Translations = {
     "029-side-module-1-button": "🚀 Download",
     "030-side-module-button-caption": "ZIP file | 3.2 MB",
 
+    "032-opener-header-text": "See How Its Used",
+    "033-opener-subheader-text": "Companies and corporations around the world use the designator icon for their non-recyclable packaging.",
+    "034-usage-description": "The designator icon can be used directly in packaging designs or added as sticker to pre-existing packaging and products.",
+    "035-usage-examples-intro": "Here's some examples of our usage:",
+    "036-example-link-1": '<a href="photos/brickable-1-716px.jpeg"><img src="../photos/brickable-1-716px.jpeg" style="width:30%;" alt="A black sticker used on a chocolate powder plastic bag" loading="lazy"></a>',
+    "037-example-link-2": '<a href="photos/brickable-2-716px.jpeg"><img src="../photos/brickable-2-716px.jpeg" style="width:30%;" alt="Integrated into the packaging of a Marimas juice product" loading="lazy"></a>',
+    "038-example-link-3": '<a href="photos/brickable-3-716px.jpeg"><img src="../photos/brickable-3-716px.jpeg" style="width:30%;" alt="A stick on a home based business health drink product" loading="lazy"></a>',
+    "049-opener-header-text": "Creative Commons License",
+    "050-opener-subheader-text": "Conditions for graphic use",
+    "051-license-description": "The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals. See copyright notice and terms below.",
+    "052-license-link": '<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png"></a>',
+    "053-license-text": '<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.',
+    "039-get-started-header": "Get Started!",
+    "040-kit-description": "Download the Brickable Designator Kit today to use on your legacy plastic products and packaging. The ZIP package includes:",
+    "041-kit-contents-icon-sticker": "Icon & Sticker Design Elements (Vector / PDF)",
+    "042-kit-contents-recommended-colors": "Recommended colors (Vector / PDF)",
+    "043-kit-contents-example-sticker": "Example of A3 sticker printing (JPEG)",
+    "044-kit-contents-resolution-icons": "High, medium and low resolution icons (PNG)",
+    "045-kit-contents-terms": "Terms and Conditions of use (TXT)",
+    "046-kit-contents-license": "Creative Commons Attribution-NoDerivatives 4.0 International License (TXT/PNG)",
+    "047-download-btn": '<a class="action-btn" href="https://nextcloud.ecobricks.org/index.php/s/rL3yFwETbcLF9dR" target="_blank">🚀 Download Kit</a>',
+    "048-file-info": "ZIP file | 3.2MB"
+
+    
+
+
+
+
     };
