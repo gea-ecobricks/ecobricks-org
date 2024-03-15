@@ -248,7 +248,7 @@
 
 				if ($result->num_rows > 0) {
 
-					echo'<table id="brikchain" class="display"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
+					echo'<table id="brikchain" class="display" data-lang-id="042b-brik-total-table"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
 
 				// output data of each row
 				//until($row = $result->fetch_assoc()) {

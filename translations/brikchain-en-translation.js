@@ -65,7 +65,7 @@ const en_Page_Translations = {
     "040-total-brikcoin-pool-header": "Total Brikcoin Pool",
     "041-running-yearly-totals-description": "Running and yearly totals of brikcoins generated, destroyed and in circulation.",
     "042-data-live-current": "<span class=\"blink\">⬤  </span> Data live & current",
-    "042b-brik-total-table": "<table id=\"brikchain\" class=\"display\"><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr></table>",
+    "042b-brik-total-table": "<tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>",
     "043-more-accounting-header": "More Accounting!",
     "044-accounting-intro": "Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our spaces. We also account for our give and take of plastic and CO2.",
     "045-financial-transactions": "🟢 All our financial transaction are maintained in our <a href=\"open-books.php\">Open Books</a> accounting system.",
