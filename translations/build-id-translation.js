@@ -42,7 +42,7 @@ const id_Page_Translations = {
     "019-storage-banner-img-alt": '<img src="../webp/storage-banner-990px.webp" width="100%" loading="lazy" alt="An example of how to store eco bricks properly">',
     "020-learn-more-guide": "ℹ️ Learn more how to make and store ecobricks properly: <a href=\"how.php\">10 Step Ecobricking Guide</a>",
 
-    "021-opener-header-text": "1. Milstein Modules",
+    "021-opener-header-text": "<h4>1. Milstein Modules</h4><h5>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Module horizontal lego.</h5><br>",
     "022-milstein-img-alt": "GEA trainers sitting at a table with eco brick milstein modules made from plastic",
     "023-milstein-description": "The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Modules (MMs). These are hexagon and triangle shaped configurations of ecobricks that are used for sitting, but can be combined together to form one or two level horizontal surfaces. Applications include tables, beds, stages, etc. All you need are 12 ecobricks to start! Generic silicone sealant or motorcycle inner tubes can be used to make MMs. Ecobrick Milstein Modules can then slide into deployment for classes, concerts, meetings and more to make horizontal surfaces. They can be stacked one on top of the other to add one level of vertical height. They can be stacked and stored vertically to save space.",
     "024-milstein-building-img-alt": "milstein eco-brick module building",
@@ -71,6 +71,8 @@ const id_Page_Translations = {
     "046-dms-page-info": "Check our page all about Dieleman modules.",
 
     "047-opener-header-text": "<h4>3. Earth Modules</h4><h5>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.</h5><br>",
+
+
     "048-earth-modules-img-alt": '<img src="../photos/earth-module-623px.jpg" width="100%" loading="lazy" alt="Eco brick earth modules for sitting or coffee table">',
     "049-earth-modules-description": "Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks. These modules are an ideal place to start to learn the basics of Earth building. We use their construction in GEA Builder courses as a simple, non-structural start to the fundamental earth building techniques.",
     "050-maintenance-header": "🟡 Maintenance",
@@ -82,7 +84,9 @@ const id_Page_Translations = {
     "056-action-btn-earth-methods": '<a class="action-btn" href="/earth-methods">🚀 Earth Building Methods</a>',
     "057-earth-methods-page-info": "Check our page on earth and ecobrick building techniques.",
 
-    "1033-opener-header-text": "4. Open Spaces",
+   
+   
+    "1033-opener-header-text": " <h4>4. Open Spaces</h4><h5>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands. </h5><br>",
     "1034-openspace-img-alt": '<img src="../photos/openspace-960px.jpg" width="100%" alt="Eco-brick open spaces for use with eco brick modules of all kinds" loading="lazy">',
     "1035-openspace-description": "Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands. These ecobricks can then be combined into an assortment of Milstein and Dieleman modules to create a diverse set of several hundred modules.",
     "1036-main2-description": "These modules can then be deployed for conferences, exhibitions, fairs, and other special events to create customized interactive spaces. These spaces can either be set up in advance or invite participants to interact, play, and create their own space.",
@@ -98,7 +102,7 @@ const id_Page_Translations = {
     "1046-action-btn-openspace": '<a class="action-btn" href="/openspace">🚀 Ecobrick Open Spaces</a>',
     "1047-openspace-info": "Check our page all about Ecobrick Open Spaces.",
 
-    "1048-opener-header-text": "5. Earth & Ecobrick Building",
+    "1048-opener-header-text": "<h4>5. Earth & Ecobrick Building</h4><h5>The most enduring and greenest way to build with ecobricks is using Earth Building techniques.</h5><br>",
     "1049-eco-brik-green-spaces-img-alt": '<img src="https://www.ecobricks.org/wp-content/uploads/2017/05/green-space.jpg" width="100%" alt="eco brik green spaces" loading="lazy">',
     "1050-earth-building-description": "Our number one choice for structural building! This method is strong, earthquake resilient, allows curved walls and designs, allows ecobricks to be recycled at the end of the construction, and relies only on 100% organic, locally-sourced materials that cost next to nothing.",
     "1051-earth-building-advantages": "Earth building was used by our ancestors to build homes and structures that have endured for centuries. This general method is known by different names in different languages and continents– cob, adobe, wattle-and-daub, etc. By using local earth, straw and sand to make the mortar for the ecobricks we can build in ways that are resilient, strong, beautiful, and thermal-retentive.",
@@ -110,7 +114,6 @@ const id_Page_Translations = {
     "1057-ecobrick-coverage": "The Earth Building technique can completely cover ecobricks, effectively securing them indefinitely in the construction. This keeps them safe from UV light and other forms of degradation. After 10, 20 or 100 years, when your structure comes to its end (as everything eventually does) the ecobricks can be extricated undamaged and fully repurposed.",
 
 
-
     "058-maintenance-header": "🟡 Maintenance",
     "059-maintenance-earth-modules": "Earth modules need to be regularly inspected. Cracks and breaks to the wall are best quickly repaired to avoid erosion to the structure.",
     "060-next-life-header": "🟢 Next Life",
@@ -120,7 +123,7 @@ const id_Page_Translations = {
     "064-action-btn-earth-building": '<a class="action-btn" href="earth.php">🚀 Earth & Ecobrick Building</a>',
     "065-core-concepts-earth-building": "Check our page on the core concepts of Earth & Ecobrick Building.",
 
-    "066-opener-header-text": "Maintenance",
+    "066-opener-header-text": "<h4>Maintenance</h4><h5>It is important not to forget our responsibility when building with plastic.</h5><br>",
     "067-plastic-responsibility": "It is important not to forget our responsibility when building with plastic. Ecobricks represent large amounts of secured plastic, and if our constructions lack planning and maintenance, there is the risk of the plastic escaping loose into the biosphere. Planning for the maintenance and the end of the construction is a key part of plastic sequestration!",
     "068-short-term-maintenance-header": "Short-Term Maintenance",
     "069-ecobrick-furniture-maintenance": "Ecobrick furniture and modules need regular cleaning and repair. Our GEA Trainer Team who have several hundred ecobrick modules that they regularly rent out to cities and exhibitions, spend one day a year cleaning their modules with a high powered hose and soap. They also dismantle weak modules and repair them with silicone.",
@@ -129,20 +132,19 @@ const id_Page_Translations = {
     "072-earth-ecobrick-agreements": "Earth and Ecobrick builds often represent large amounts of secured plastic. When building on government or community land, it is key to establish a long term maintenance agreement with the custodians of the property. This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks.",
     "073-community-custodianship-access": 'Access our free <a href="/earth-methods">Community Custodianship Agreements</a> for Ecobrick Earth Parks and Buildings.',
 
-    "074-opener-header-text": "And more ideas!",
+    "074-opener-header-text": "<h4>And more ideas!</h4><h5>People around the world are building all sorts of great and unique things with their ecobricks!</h5><br>",
     "075-book-shelf-img-alt": '<img src="../photos/book-shelf.jpg" width="100%" loading="lazy" alt="Eco brick book shelf">',
     "076-global-ecobrick-ideas": "People around the world are building all sorts of great and unique things with their ecobrick! Did you know that Ecobricks float really well? We can’t wait to see the first ecobrick boats and islands. Have you seen or developed useful applications? Please share with us, or help our team develop this page further. Share your photos on the web with the hashtag #ecobricks.",
     "077-ecobrick-uses": "From baseball bats to boats, the sky is the limit on what you can use ecobricks for! Ecobricks can be used for getting fit, for games and more.",
 
-    "078-safe-passage-header": "A Safe Passage Through Time",
+    "078-safe-passage-header": '<h4>A Safe Passage Through Time</h4> <p>Building with ecobricks is a significant responsibility. Ecobricks represent large amounts of secured plastic that will last a long time. If our constructions lack long-term planning and maintenance, plastic will eventually leach, degrade, and escape. </p><p>Planning for the maintenance and the eventual end of your construction is crucial. This way, we can put our plastic on a safe passage through time. </p><p>Go deeper into putting ecobricks to good use. Learn about the core concepts of building with ecobricks and earth.</p><br><p><a class="action-btn" href="earth.php" data-lang-id="079-earth-building-btn">🚀 Earth & Ecobrick Building</a><p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</p>',
     "079-earth-building-btn": '<a class="action-btn" href="earth.php">🚀 Earth & Ecobrick Building</a>',
     "080-earth-building-overview": "An overview of earth building principles and methods.",
     "081-eco-brick-road-img-alt": '<img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy">',
 
 
     "082-ecojoiner-title-text": "6. Ecojoiners",
-    "083-ecojoiner-subtitle-text": "A revolutionary new way to connect bottles and build. Coming soon!"
-
+    "083-ecojoiner-subtitle-text": "A revolutionary new way to connect bottles and build. Coming mid-1024."
 
 
   
