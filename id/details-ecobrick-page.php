@@ -1,6 +1,10 @@
-
-<!--PAGE LANGUAGE:  INDONESIA
-Special Ecobrick View Page: v.1.1-->
+<!DOCTYPE html>
+<HTML lang="id"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='id';?>
+<?php $version='1.841';?>
+<?php $page='principles';?>
  
 <?php 
 require_once ("../includes/details-ecobrick-page-inc.php");
@@ -10,21 +14,21 @@ include '../ecobricks_env.php';
 include '../ssp.class.php';
 
 
-// Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
+// Obtenir le contenu de la table Ecobrick sous forme de vue ordonnée, en utilisant le numéro de série de l'URL.
 $serialNo = $_GET['serial_no'];
 
-// Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
+// Référence à https://www.w3schools.com/php/php_mysql_select_where.asp1
 $sql = "SELECT * FROM tb_ecobricks WHERE serial_no = '" . $serialNo . "'";
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
-	
-    //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row 
-    while($array = $result->fetch_assoc()) {
 
-echo 
-'<div class="splash-content-block">
-	<div class="splash-box">
+    //  echo "<h1> Utiliser le numéro de série de l'URL => " . $serialNo ."</h1>"; Données de sortie de chaque ligne 
+    while ($array = $result->fetch_assoc()) {
+
+        echo
+        '<div class="splash-content-block">
+        <div class="splash-box">
 
 		<div class="splash-heading">Ecobrick ' . $array["serial_no"] .'</div>
 		
@@ -46,17 +50,16 @@ echo
 ';
 
 echo '
-<div id="main-content">
-	<div class="row">
-		<div class="main">
-			<div class="row-details">';
+    <div id="main-content">
+        <div class="row">
+            <div class="main">
+                <div class="row-details">';
 
-	if ( isset($array["vision"]) && $array["vision"] != '' ) {
-			//	echo '<p><div class="vision-quote">'. $array["vision"] .'</div></p>';
-		                echo '<p><div class="vision-quote"> '. str_replace('"', "", $array["vision"]) . '  </div></p>';
-			}
-	
-			
+    if (isset($array["vision"]) && $array["vision"] != '') {
+        //    echo '<p><div class="vision-quote">'. $array["vision"] .'</div></p>';
+        echo '<p><div class="vision-quote"> "'.str_replace('"', "", $array["vision"]) . '"  </div></p>';
+    }
+
 			echo '<div class="lead-page-paragraph">
 						<p><b>'. $array["owner"] .' memiliki ecobrick '. $array["weight_g"] .'&#8202;g plastik bekas di '. $array["location_city"] .', '. $array["location_country"] .' menggunakan botol '. $array["volume_ml"] .'  untuk membuat '. $array["sequestration_type"].'.</b></p>
 					</div>';
@@ -133,7 +136,7 @@ echo '
 
 			echo '
 			<br><hr><br> 
-			<div class="page-paragraph">
+			<div class="page-paragraph-reg">
 				<h3><p>The Brikchain</p></h3>
 			
 				<p>Ketika ecobrick diautentikasi, seperti yang di atas, ecobrick dipublikasikan ke blockchain manual brikcoin dan koin dikeluarkan sesuai dengan nilai ekologisnya. Inilah yang kami sebut Brikchain. Di Brikchain, Anda dapat menemukan ecobrick ini dan semua ecobrick lainnya, blok, dan transaksi yang mendukung mata uang gratis Brickoin.</p>

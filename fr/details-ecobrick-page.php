@@ -132,7 +132,7 @@ echo ' <p><b>Poids authentifié :</b> <var> ' . $array["weight_authenticated_kg"
 
 echo '
 <br><hr><br> 
-<div class="page-paragraph">
+<div class="page-paragraph-reg">
 <h3><p>La Brikchaîne</p></h3>
 
 <p>Lorsqu\'une écobrique est authentifiée, comme celle-ci ci-dessus, elle est publiée sur la blockchain manuelle de brikcoin et des coins sont émis en fonction de sa valeur écologique. C\'est ce que nous appelons la Brikchaîne. Sur la Brikchaîne, vous pouvez trouver cette écobrique et toutes les autres écobriques, blocs et transactions qui soutiennent la monnaie complémentaire Brickoin.</p>
