@@ -199,7 +199,7 @@
       <!-- OPEN SPACES -->
 <div class="reg-content-block" id="block5">
     <div class="opener-header">
-        <div class="opener-header-text" data-lang-id="1033-opener-header-text">
+        <div class="opener-header-text" data-lang-id="1033b-opener-header-text">
             <h4>4. Open Spaces</h4>
             <h5>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands. </h5><br>
         </div>

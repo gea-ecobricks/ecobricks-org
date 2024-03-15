@@ -87,7 +87,7 @@ const es_Page_Translations = {
   "056-action-btn-earth-methods": '<a class="action-btn" href="/earth-methods">🚀 Earth Building Methods</a>',
   "057-earth-methods-page-info": "Check our page on earth and ecobrick building techniques.",
 
-  "1033-opener-header-text": "4. Open Spaces",
+  "1033b-opener-header-text": "4. Open Spaces",
   "1034-openspace-img-alt": '<img src="../photos/openspace-960px.jpg" width="100%" alt="Eco-brick open spaces for use with eco brick modules of all kinds" loading="lazy">',
   "1035-openspace-description": "Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands. These ecobricks can then be combined into an assortment of Milstein and Dieleman modules to create a diverse set of several hundred modules.",
   "1036-main2-description": "These modules can then be deployed for conferences, exhibitions, fairs, and other special events to create customized interactive spaces. These spaces can either be set up in advance or invite participants to interact, play, and create their own space.",
