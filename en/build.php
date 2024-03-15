@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.62';?>
+<?php $version='1.63';?>
 <?php $page='build';?>
 
 
@@ -16,10 +16,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Aplikasi Ecobrick</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Pembangunan yang Praktis & Berprinsip</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick Applications</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Practical & Principled Ecobrick Building</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="Pembangunan Ecobrick yang Praktis & Berprinsip">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -82,7 +82,7 @@
 
 
 <!-- STORAGE-->
-
+ 
 <div class="reg-content-block" id="block10">
     <div class="opener-header">    
         <div class="opener-header-text" data-lang-id="016-opener-header-text">
@@ -103,14 +103,12 @@
     </div>
 </div>
 
-
-
 <!-- MILSTEINS  -->
 <div class="reg-content-block" id="block3">
     <div class="opener-header">
-        <div class="opener-header-text" >
-            <h4 data-lang-id="021-opener-header-text">1. Milstein Modules</h4> 
-            <h5 data-lang-id="021b-opener-header-text">The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Module horizontal lego.</h5><br>
+        <div class="opener-header-text" data-lang-id="021-opener-header-text">
+            <h4>1. Milstein Modules</h4>
+            <h5>The easiest, fastest, and perhaps the most fun ecobrick application, are Milstein Module horizontal lego.</h5><br>
         </div>
         <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
     </div>
@@ -137,9 +135,9 @@
 <!-- DIELEMANS  -->
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
-        <div class="opener-header-text" >
-            <h4 data-lang-id="033-opener-header-text">2. Dieleman Modules</h4>
-            <h5 data-lang-id="033b-opener-header-text">Ecobricks can be combined into modules that can be used to build vertically and horizontally much like LEGO.</h5>
+        <div class="opener-header-text" data-lang-id="033-opener-header-text">
+            <h4>2. Dieleman Modules</h4>
+            <h5>Ecobricks can be combined into modules that can be used to build vertically and horizontally much like LEGO.</h5>
             <br>
         </div>
         <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
@@ -171,9 +169,9 @@
 
 <div class="reg-content-block" id="block4">
     <div class="opener-header">
-        <div class="opener-header-text" >
-            <h4 data-lang-id="047-opener-header-text">3. Earth Modules</h4>
-            <h5 data-lang-id="047b-opener-header-text">Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.</h5>
+        <div class="opener-header-text" data-lang-id="047-opener-header-text">
+            <h4>3. Earth Modules</h4>
+            <h5>Use the basic principles of Earth and Ecobrick Building to make outdoor stools, coffee tables and more with your ecobricks.</h5>
             <br>
         </div>
         <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
@@ -201,9 +199,9 @@
       <!-- OPEN SPACES -->
 <div class="reg-content-block" id="block5">
     <div class="opener-header">
-        <div class="opener-header-text" >
-            <h4 data-lang-id="033-opener-header-text">4. Open Spaces</h4>
-            <h5 data-lang-id="033b-opener-header-text">Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands. </h5><br>
+        <div class="opener-header-text" data-lang-id="033-opener-header-text">
+            <h4>4. Open Spaces</h4>
+            <h5>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands. </h5><br>
         </div>
         <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
     </div>
