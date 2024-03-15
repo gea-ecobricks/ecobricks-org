@@ -201,7 +201,6 @@
 					<th data-lang-id="038-gea-year-expenses-header">GEA Year Expenses</th>
 					<th data-lang-id="039-1kg-aes-value-header">1kg AES Value</th>
 				</tr>
-			</table>
 			';
 			
 			// output data of each row
