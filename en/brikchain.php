@@ -270,7 +270,7 @@
 
 
 
-			
+			<br><br>
 	<div class="page-paragraph-reg">   
     <div class="row">
         <div class="main2">
