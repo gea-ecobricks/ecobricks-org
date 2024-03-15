@@ -71,19 +71,22 @@
 					}
 		?>
 
-		<p style="font-size: 0.85em; margin-top:20px;">This is the current price for the <a href="offsets.php" target="_blank">sale of AES plastic offsets</a>.</p>
+		<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="006-current-pricing">This is the current price for the <a href="offsets.php" target="_blank">sale of AES plastic offsets</a>.</p>
 	</div>
 
 
 
 	<div class="reg-content-block" id="block2">
-		<div class="opener-header">
-			<div class="opener-header-text">
-				<h4>Authenticated Ecobricks</h4>
-				<h6>The archival chain of authenticated ecobricks.  Updated every six hours with the latest confirmed authentications.</h6>
-				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live</p></div><div class="ecobrick-data"><p>🟠 Historical Data pending transfer</p></div>
-			</div>
-			
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="007-authenticated-header">Authenticated Ecobricks</h4>
+            <h6 data-lang-id="008-authenticated-description">The archival chain of authenticated ecobricks.  Updated every six hours with the latest confirmed authentications.</h6>
+            <div class="ecobrick-data"><p data-lang-id="009-data-live"><span class="blink">⬤  </span> Data live</p></div>
+            <div class="ecobrick-data"><p data-lang-id="010-historical-data">🟠 Historical Data pending transfer</p></div>
+        </div>
+    </div>
+</div>
+
 			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 
 		</div>
@@ -94,15 +97,16 @@
 
 				<table id="ecobricks" class="display" style="width:100%">
 					<thead>
+
 						<tr>
-							<th style="max-width: 150px !important;">Brik</th>
-							<th>Authenticated</th>
-							<th>AES Plastic</th>
-							<th>Maker</th>
-							<th>Value</th>
-							<th>CO2e</th>
-							<th>🔎 Serial</th>
-						</tr>
+							<th style="max-width: 150px !important;" data-lang-id="011-brik-header">Brik</th>
+							<th data-lang-id="012-authenticated-header">Authenticated</th>
+							<th data-lang-id="013-aes-plastic-header">AES Plastic</th>
+							<th data-lang-id="014-maker-header">Maker</th>
+							<th data-lang-id="015-value-header">Value</th>
+							<th data-lang-id="016-co2e-header">CO2e</th>
+							<th data-lang-id="017-serial-header">🔎 Serial</th>
+            </tr>
 					</thead>
 					<!--<tfoot>
 						<tr>
@@ -120,37 +124,32 @@
 	</div>
 
 
-
 	<div class="reg-content-block" id="block1">
-		<div class="opener-header">
-			<div class="opener-header-text">
-				<h4>Blocks & Transactions</h4>
-				<h6>The full chain transactions chronicling the generation, exchange and destruction of brikcoins.</h6>
-				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
-			</div>
-		
-			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="018-blocks-transactions-header">Blocks & Transactions</h4>
+            <h6 data-lang-id="019-full-chain-transactions-subheader">The full chain transactions chronicling the generation, exchange, and destruction of brikcoins.</h6>
+            <div class="ecobrick-data"><p data-lang-id="020-data-live-current"><span class="blink">⬤  </span> Data live & current</p></div>
+        </div>
+    
+        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+    </div>
 
-		</div>
-
-		<div id="preclosed1">
-
-			<div class="overflow">
-				<table id="brikchain" class="display" style="width:100%">
-					<thead>
-						<tr>
-							
-						<th>🔎 Transaction</th>
-						<th>Issued</th>
-							<th>Sender</th>	
-							<th>Recipient</th>	
-							<th>Type</th>
-							<th>Block</th>
-							<th>Shard</th>
-							<th>Ecobrick</th>
-
-						</tr>
-					</thead>
+    <div id="preclosed1">
+        <div class="overflow">
+            <table id="brikchain" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th data-lang-id="021-transaction-header">🔎 Transaction</th>
+                        <th data-lang-id="022-issued-header">Issued</th>
+                        <th data-lang-id="023-sender-header">Sender</th>    
+                        <th data-lang-id="024-recipient-header">Recipient</th>    
+                        <th data-lang-id="025-type-header">Type</th>
+                        <th data-lang-id="026-block-header">Block</th>
+                        <th data-lang-id="027-shard-header">Shard</th>
+                        <th data-lang-id="028-ecobrick-header">Ecobrick</th>
+                    </tr>
+                </thead>
 					<!--<tfoot>
 						<tr>
 						<th>Transaction</th>
@@ -167,21 +166,19 @@
 		</div>
 	</div>
 
+	<div class="reg-content-block" id="block3">        
+    <div class="opener-header">            
+        <div class="opener-header-text">
+            <h4 data-lang-id="029-aes-plastic-valuations-header">AES Plastic Valuations</h4>
+            <h6 data-lang-id="030-aes-value-description">Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the blockchain (see the GEA's yearly <a href="open-books.php" data-lang-id="031-open-books-link">Open Books</a> financial accounting)</h6>
+            <div class="ecobrick-data"><p data-lang-id="032-brikcoin-data-live"><span class="blink">⬤  </span> Brikcoin Data live</p></div>
+            <div class="ecobrick-data"><p data-lang-id="033-openbooks-accounting-live"><span class="blink">⬤  </span> OpenBooks Accounting live</p></div>
+            <div class="ecobrick-data"><p data-lang-id="034-ecobrick-weight-estimated">🟠 Ecobrick weight data estimated (pending archival transfer)</p></div>
+        </div>
+        <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+    </div>
+</div>
 
-	<div class="reg-content-block" id="block3">
-				
-		<div class="opener-header">
-			
-			<div class="opener-header-text">
-			<h4>AES Plastic Valuations</h4>
-	
-			<h6>Each year the value of 1 Kg of AES plastic is determined by the ecobricks authenticated in that year.  The net weight of the authenticated plastic is divided by the GEA's expenses maintaining the blockchain (see the GEA's yearly <a href="open-books.php">Open Books</a> financial accounting)</h6>
-			<div class="ecobrick-data"><p><span class="blink">⬤  </span> Brikcoin Data live</p></div>
-			<div class="ecobrick-data"><p><span class="blink">⬤  </span> OpenBooks Accounting live</p></div><div class="ecobrick-data"><p>🟠 Ecobrick weight data estimated (pending archival transfer)</p></div>
-			</div>
-			<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-
-		</div>
 
 		<div id="preclosed3">
 
@@ -195,14 +192,18 @@
 
 			if ($result->num_rows > 0) {
 			
-				echo'<table id="brikchain" class="display"><tr>
-				<th>Year</th>
-				<th>BRK Generated</th>
-				<!--<th>Authenticated</th>-->
-				<th>Calculated AES plastic</th>
-				<!--<th>Tallied AES Plastic</th>-->
-				<th>GEA Year Expenses</th>
-				<th>1kg AES Value</th></tr>';
+				echo'<table id="brikchain" class="display">
+				<tr>
+					<th data-lang-id="035-year-header">Year</th>
+					<th data-lang-id="036-brk-generated-header">BRK Generated</th>
+					<!-- <th>Authenticated</th> -->
+					<th data-lang-id="037-calculated-aes-plastic-header">Calculated AES plastic</th>
+					<!-- <th>Tallied AES Plastic</th> -->
+					<th data-lang-id="038-gea-year-expenses-header">GEA Year Expenses</th>
+					<th data-lang-id="039-1kg-aes-value-header">1kg AES Value</th>
+				</tr>
+			</table>
+			';
 			
 			// output data of each row
 			while($row = $result->fetch_assoc()) {
@@ -226,18 +227,15 @@
 		</div>
 	</div>
 
-	<div class="reg-content-block" id="block4">
-				
-		<div class="opener-header">
-			<div class="opener-header-text">
-				<h4>Total Brikcoin Pool</h4>
-				<h6>Running and yearly totals of brikcoins generated, destroyed and in circulation. </h6>
-				<div class="ecobrick-data"><p><span class="blink">⬤  </span> Data live & current</p></div>
-			</div>
-		
-			<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
-
-		</div>
+	<div class="reg-content-block" id="block4">                
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="040-total-brikcoin-pool-header">Total Brikcoin Pool</h4>
+            <h6 data-lang-id="041-running-yearly-totals-description">Running and yearly totals of brikcoins generated, destroyed and in circulation. </h6>
+            <div class="ecobrick-data"><p data-lang-id="042-data-live-current"><span class="blink">⬤  </span> Data live & current</p></div>
+        </div>        
+        <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+    </div>
 
 		<div id="preclosed4">
 
@@ -275,33 +273,29 @@
 
 
 			
-	<div class="page-paragraph">   
-                 <div class="row">
-                
-                    <div class="main2">
-                         <h3>More Accounting!</h3>
-                        
-                         <p>Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our spaces We also account for our give and take of plastic and CO2.</p>
+	<div class="page-paragraph-reg">   
+    <div class="row">
+        <div class="main2">
+            <h3 data-lang-id="043-more-accounting-header">More Accounting!</h3>
+            
+            <p data-lang-id="044-accounting-intro">Who said accounting is boring?  We believe that accounting done right is far more than just financials.  Every year we not only count our coins, but also the very species we host in our spaces. We also account for our give and take of plastic and CO2.</p>
 
-						<p>  🟢 All our financial transaction are maintained in our <a href="open-books.php">Open Books</a> accounting system.</p> 
+            <p data-lang-id="045-financial-transactions">🟢 All our financial transaction are maintained in our <a href="open-books.php" data-lang-id="046-open-books-link">Open Books</a> accounting system.</p> 
 
-						<p>  🟢 Our ecological accounting is disclosed separately in our <a href="regenreports">annual regenerative reports</a>.</p>
+            <p data-lang-id="047-ecological-accounting">🟢 Our ecological accounting is disclosed separately in our <a href="regenreports" data-lang-id="048-annual-regen-reports-link">annual regenerative reports</a>.</p>
+        </div>
 
-						
-                 	</div>
+        <div class="side2">
+            <br><img src="../icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting" loading="lazy">
+        </div>
+    </div>
+    <p data-lang-id="049-earthen-ethics">Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="principles.php" target="_blank" data-lang-id="050-financial-ecological-management">financial and ecological energy management, ecological accounting and disclosure.</a></p><br><br>
+    
+    <a class="action-btn" href="principles.php" data-lang-id="051-our-principles-btn">🚀 Our Principles</a>
+    <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="052-guided-by-principles">Our Accounting is guided by our regenerative principles</p>
+</div>
+<br>
 
-                    <div class="side2">
-                        <br><img src="../icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting" loading="lazy" alt="financial and ecological accounting.">
-                    </div>
-                </div>
-				<p>Our accounting is grounded in the principles of Earthen Ethics.  Learn more about our principles of <a href="https://earthen.io/energy/" target="_blank">financial and ecological energy management, ecological accounting and disclosure.</p><br><br>
-                    
-                        <a class="action-btn" href="principles.php">🚀 Our Principles</a>
-                    	<p style="font-size: 0.85em; margin-top:20px;">Our Accounting is guided by our regenerative principles</a>
-					</p>
-                        
-			</div>
-			<br>
 	</DIV>
 
 

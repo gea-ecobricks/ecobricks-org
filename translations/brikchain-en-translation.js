@@ -25,7 +25,7 @@ const en_Page_Translations = {
     "005-first-page-paragraph": "Our <a href=\"brikchain.php\">Brikchain is based on the ecological value of plastic <a href=\"sequest.php\">sequestered</a> out of the biosphere and out of industry. Every ecobrick that is authenticated on the <a href=\"/gobrik\">GoBrik platform</a> is permanently recorded on the <a href=\"brikcoins.php\">Brikcoin Manual Blockchain</a>. With each authentication, the corresponding value of sequestered plastic (<a href=\"/aes\">AES plastic</a>) is issued in brikcoins</a>. Each issuance is made through a block of transactions that are recorded sequentially. This chain of blocks, transaction and ecobricks is fully searchable here.",
     "005-second-page-paragraph": "Use the tools below to browse the Brikchain. You can also view our <a href=\"open-books.php\">Open Books</a> financial accounting. To learn how the combination of our financial and <a href=\"regen-reports.php\">ecological accounting</a> generates the price per Kg of AES sales see our <a href=\"offsets.php\">offsetting page</a>."
   
-
+ 
     
 }
         
