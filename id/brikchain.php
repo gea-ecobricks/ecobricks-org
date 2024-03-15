@@ -84,8 +84,8 @@
             <div class="ecobrick-data"><p data-lang-id="009-data-live"><span class="blink">⬤  </span> Data live</p></div>
             <div class="ecobrick-data"><p data-lang-id="010-historical-data">🟠 Historical Data pending transfer</p></div>
         </div>
-    </div>
-</div>
+  
+
 
 			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 
