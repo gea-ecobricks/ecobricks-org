@@ -28,23 +28,23 @@ if ($result->num_rows > 0) {
 
         echo
         '<div class="splash-content-block">
-        <div class="splash-box">
+        	<div class="splash-box">
 
-		<div class="splash-heading">Ecobrick ' . $array["serial_no"] .'</div>
+				<div class="splash-heading">Ecobrick ' . $array["serial_no"] .'</div>
 		
-		<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg plastik telah diamankan dari biosfer di '. $array["location_full"] .'.</div>
-	</div>
+				<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg plastik telah diamankan dari biosfer di '. $array["location_full"] .'.</div>
+			</div>
 	
-	<div class="splash-image">
-		<a href="ecobrick_full_photo_url"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
-	border-color: #97C4E3;
-	width: 85%;
-	margin-top:-20px;
-	box-shadow: 0 0px 10px rgba(85, 84, 84, 0.8);
-	border-style: solid;" alt="Ecobrick Serial '. $array["serial_no"] .' dibuat di '. $array["location_full"] .' dan diautentikasi pada ' . $array["last_validation_ts"] .'"
-	title="Ecobrick Serial '. $array["serial_no"] .' dibuat di '. $array["location_full"] .' dan diautentikasi pada ' . $array["last_validation_ts"] .'"></a>
-	</div>	
-</div>
+			<div class="splash-image">
+				<a href="ecobrick_full_photo_url"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
+			border-color: #97C4E3;
+			width: 85%;
+			margin-top:-20px;
+			box-shadow: 0 0px 10px rgba(85, 84, 84, 0.8);
+			border-style: solid;" alt="Ecobrick Serial '. $array["serial_no"] .' dibuat di '. $array["location_full"] .' dan diautentikasi pada ' . $array["last_validation_ts"] .'"
+			title="Ecobrick Serial '. $array["serial_no"] .' dibuat di '. $array["location_full"] .' dan diautentikasi pada ' . $array["last_validation_ts"] .'"></a>
+			</div>	
+		</div>
 
 <div id="splash-bar"></div>
 ';
