@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<HTML lang="id"> 
+<HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='id';?>
+<?php $lang='fr';?>
 <?php $version='1.647';?>
 <?php $page='build';?>
 
