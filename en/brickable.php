@@ -3,12 +3,12 @@
 
 <HEAD>
 
-<!-- <title>Brickable Design</title> -->
+<title>Brickable Design</title>
 
 
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.797';?>
+<?php $version='1.799';?>
 <?php $page='brickable';?>
 <?php require_once ("../includes/brickable2-inc.php");?>
 

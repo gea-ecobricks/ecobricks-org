@@ -3,7 +3,7 @@
 
 <HEAD>
 
-<!-- <title>Brickable Design</title> -->
+<title>Desain Brickable</title>
 
 
 <META charset="UTF-8">
