@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.61';?>
+<?php $version='1.62';?>
 <?php $page='brikchain';?>
 
 <?php require_once ("../includes/brikchain2-inc.php");?>
