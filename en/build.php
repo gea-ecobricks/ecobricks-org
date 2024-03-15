@@ -199,7 +199,7 @@
       <!-- OPEN SPACES -->
 <div class="reg-content-block" id="block5">
     <div class="opener-header">
-        <div class="opener-header-text" data-lang-id="1033b-opener-header-text">
+        <div class="opener-header-text" data-lang-id="1033-opener-header-text">
             <h4>4. Open Spaces</h4>
             <h5>Ecobrick Open Spaces are for community that have completed thousands of high quality ecobricks with consistent bottle sizes and brands. </h5><br>
         </div>
@@ -295,9 +295,15 @@
         <div class="opener-header">     
             <div class="opener-header-text" >
                 <h4 data-lang-id="082-ecojoiner-title-text">6. Ecojoiners</h4>
-                <h5 data-lang-id="083-ecojoiner-subtitle-text">A revolutionary new way to connect bottles and build. Coming soon!</h5><br>
+                <h5 data-lang-id="083-ecojoiner-subtitle-text">A revolutionary new way to connect bottles and build. Coming 2024.</h5><br>
             </div>
-        </div>
+            <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+    </div>
+    <div id="preclosed7">
+        <img src="../photos/ecojoiner-preview-700px.png" width="100%" loading="lazy" alt="Ecojoiner preview image" data-lang-id="1000-ecojoiner-img-alt">
+        <p data-lang-id="1001-ecojoiner-lead-text">A revolutionary low-tech system to enable the construction of versatile, practical and stunning geometric matrixes with minimal skills or capital using nothing but reclaimed plastic. </p>
+        <p data-lang-id="10002-ecojoiner-paragraph">Remolded from locally-sourced, reclaimed-plastic, ecoJoiners enable ecobricks to be interconnected in a wide variety of ways.  Simple ecoJoiners (green) enable  vertices of any length.  Hex and penta hubs (red and pink)  enable lattices with the help of pupJoiners (orange).  All are held fast with sliders (yellow) that takes advantage of an ecobrick's slight compressibility to lock constructions rigidly in place-- all the while ensuring any construction can be easily taken apart and each piece can be used again and again. </p>
+        <br><br>
     </div>
 </div>
 
