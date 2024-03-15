@@ -7,6 +7,9 @@ require_once ("../includes/details-ecobrick-page-inc.php");
 
 include '../ecobricks_env.php';
 
+include '../ssp.class.php';
+
+
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 $serialNo = $_GET['serial_no'];
 
@@ -43,7 +46,6 @@ echo
 ';
 
 echo '
-<a name="top"></a>
 <div id="main-content">
 	<div class="row">
 		<div class="main">
@@ -145,7 +147,7 @@ echo '
 			
 			echo '	<div class="side">
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 					<img src="..webp/auth-brik-455px.webp" width="90%" alt="Mengikuti contoh Bumi melalui eco bricking">
 					<br><h4>Diautentikasi!</h4>
 					<h5>Ecobrick ini telah diautentikasi oleh tiga validator independen yang memenuhi standar sekuestrasi plastik.</h5><br>
@@ -227,14 +229,14 @@ echo '
 		
 	
 
-            <div id="side-module-desktop-mobile">
+            <div class="side-module-desktop-mobile">
 				<img src="../webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<!--<h4>AES Plastic</h4>-->
 				<h5>Berat plastik di dalam ecobrick terautentikasi adalah apa yang kami sebut sebagai Plastik Ecobrick Terotentikasi (Plastik AES).</h5><br>
 				<a class="module-btn" href="/aes" target="_blank">Tentang AES</a><br><br>
 			</div>
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 				<img src="../webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Brikcoins</h4>
 				<h5>Ketika ecobrick diautentikasi, brikcoin dihasilkan untuk mewakili nilai ekologi plastik AES-nya.</h5><br>
@@ -252,13 +254,10 @@ echo '
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
-<!-- CUSTOM PAGE SCRIPTS-->
 
-<!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>
