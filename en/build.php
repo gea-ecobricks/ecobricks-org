@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.643';?>
+<?php $version='1.644';?>
 <?php $page='build';?>
 
 
@@ -20,7 +20,7 @@
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Practical & Principled Ecobrick Building</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
-    </div>	
+    </div>	    
 </div>
 <div id="splash-bar"></div>
 <!--<div id="header-bar2"></div>-->
@@ -291,7 +291,6 @@
 
 
 <div class="reg-content-block" id="block10">
-    <div class="live-data" style="margin-top:30px">
         <div class="opener-header">     
             <div class="opener-header-text" >
                 <h4 data-lang-id="082-ecojoiner-title-text">6. Ecojoiners</h4>
@@ -299,8 +298,9 @@
             </div>
             <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
     </div>
-    <div id="preclosed7">
+    <div id="preclosed10">
         <img src="../photos/ecojoiner-preview-700px.png" width="100%" loading="lazy" alt="Ecojoiner preview image" data-lang-id="1000-ecojoiner-img-alt">
+
         <p data-lang-id="1001-ecojoiner-lead-text">A revolutionary low-tech system to enable the construction of versatile, practical and stunning geometric matrixes with minimal skills or capital using nothing but reclaimed plastic. </p>
         <p data-lang-id="10002-ecojoiner-paragraph">Remolded from locally-sourced, reclaimed-plastic, ecoJoiners enable ecobricks to be interconnected in a wide variety of ways.  Simple ecoJoiners (green) enable  vertices of any length.  Hex and penta hubs (red and pink)  enable lattices with the help of pupJoiners (orange).  All are held fast with sliders (yellow) that takes advantage of an ecobrick's slight compressibility to lock constructions rigidly in place-- all the while ensuring any construction can be easily taken apart and each piece can be used again and again. </p>
         <br><br>
@@ -361,7 +361,7 @@
             <p>Go deeper into putting ecobricks to good use. Learn about the core concepts of building with ecobricks and earth.</p>
             <br><p>
             <a class="action-btn" href="earth.php" data-lang-id="079-earth-building-btn">🚀 Earth & Ecobrick Building</a>
-            <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="080-earth-building-overview">An overview of earth building principles and methods.</p>            
+            <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</p>            
         </div>
         <div class="side2">
             <br><img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" data-lang-id="081-eco-brick-road-img-alt">
