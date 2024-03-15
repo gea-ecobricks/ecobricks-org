@@ -290,15 +290,15 @@
 <!-- ECOJOINERS -->
 
 
-<div class="reg-content-block" id="block10">
+<div class="reg-content-block" id="block9">
         <div class="opener-header">     
             <div class="opener-header-text" >
                 <h4 data-lang-id="082-ecojoiner-title-text">6. Ecojoiners</h4>
                 <h5 data-lang-id="083-ecojoiner-subtitle-text">A revolutionary new way to connect bottles and build. Coming 2024.</h5><br>
             </div>
-            <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10">+</button>
+            <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9">+</button>
     </div>
-    <div id="preclosed10">
+    <div id="preclosed9">
         <img src="../photos/ecojoiner-preview-700px.png" width="100%" loading="lazy" alt="Ecojoiner preview image" data-lang-id="1000-ecojoiner-img-alt">
 
         <p data-lang-id="1001-ecojoiner-lead-text">A revolutionary low-tech system to enable the construction of versatile, practical and stunning geometric matrixes with minimal skills or capital using nothing but reclaimed plastic. </p>

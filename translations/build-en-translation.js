@@ -142,7 +142,7 @@ const en_Page_Translations = {
 
 
     "082-ecojoiner-title-text": "6. Ecojoiners",
-    "083-ecojoiner-subtitle-text": "A revolutionary new way to connect bottles and build. Coming soon!"
+    "083-ecojoiner-subtitle-text": "A revolutionary new way to connect bottles and build. Coming mid-1024."
 
 
 
