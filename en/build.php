@@ -302,7 +302,8 @@
         <img src="../photos/ecojoiner-preview-700px.png" width="100%" loading="lazy" alt="Ecojoiner preview image" data-lang-id="1000-ecojoiner-img-alt">
 
         <p data-lang-id="1001-ecojoiner-lead-text">A revolutionary low-tech system to enable the construction of versatile, practical and stunning geometric matrixes with minimal skills or capital using nothing but reclaimed plastic. </p>
-        <p data-lang-id="10002-ecojoiner-paragraph">Remolded from locally-sourced, reclaimed-plastic, ecoJoiners enable ecobricks to be interconnected in a wide variety of ways.  Simple ecoJoiners (green) enable  vertices of any length.  Hex and penta hubs (red and pink)  enable lattices with the help of pupJoiners (orange).  All are held fast with sliders (yellow) that takes advantage of an ecobrick's slight compressibility to lock constructions rigidly in place-- all the while ensuring any construction can be easily taken apart and each piece can be used again and again. </p>
+        <p data-lang-id="1002-ecojoiner-paragraph">Remolded from locally-sourced, reclaimed-plastic, ecoJoiners enable ecobricks to be interconnected in a wide variety of ways.  Simple ecoJoiners (green) enable  vertices of any length.  Hex and penta hubs (red and pink)  enable lattices with the help of pupJoiners (orange).  All are held fast with sliders (yellow) that takes advantage of an ecobrick's slight compressibility to lock constructions rigidly in place-- all the while ensuring any construction can be easily taken apart and each piece can be used again and again.</p>
+        <p>Coming in mid-2024.</p>
         <br><br>
     </div>
 </div>
