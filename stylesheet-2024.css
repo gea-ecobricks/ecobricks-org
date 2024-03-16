@@ -1379,26 +1379,20 @@ GUIDED TOUR---*
 
 /* -------------------------------------------------------------------------- */
 
-#three-column-gal {
+.three-column-gal {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  width: 100%;
+  grid-gap: 10px; /* Adjust the gap between the photos as needed */
+  width: 100%; /* Ensure the gallery takes the full width */
 }
 
-#three-column-gal .gal-photo img {
-  width: 100%;
-  height: auto;
-  cursor: pointer;
-}
-
-#three-column-gal .gal-photo p {
-  text-align: center;
+.gal-photo img {
+  width: 100%; /* Make images responsive within their containers */
+  height: auto; /* Maintain aspect ratio */
 }
 
 @media screen and (max-width: 700px) {
-  #three-column-gal {
-      grid-template-columns: repeat(2, 1fr);
+  .three-column-gal {
+      grid-template-columns: repeat(2, 1fr); /* Adjust for mobile to show two columns */
   }
 }
-

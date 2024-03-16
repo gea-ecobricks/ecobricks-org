@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.81';?>
+<?php $version='1.82';?>
 <?php $page='earth';?>
 
 <title>Earth & Ecobrick Building</title>
@@ -372,6 +372,7 @@
                 <div id="preclosed8">
 
                 <br>   
+
                 <div class="three-column-gal">
                     <div class="gal-photo" onclick="viewGalleryImage('../photos/jabung1.jpg', 'Jabung Mandala Park - 2000 ecobricks, Java, Indonesia')">
                         <img src="../photos/jabung1.jpg" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java">
