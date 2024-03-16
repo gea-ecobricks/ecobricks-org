@@ -118,12 +118,12 @@
 
 					
 
-					<div class="row">
+					
 						
-						<h4>Automated Reporting</bh4>
+						<h4>Automated Reporting</h4>
 						<p>The Catalyst program allows you to create yearly plastic impact reports that summarize your grey and green impacts.  As a third-party host, we certify your AES plastic impacts so that you can confidently share them with your customers, clients and in government sustainability reviews.</p>
 						
-					</div>
+					
 
 
 
@@ -131,7 +131,7 @@
 
 					<div class="row2">
 						<div class="main3">
-						<br><p><b>Public Disclosure</b></p>
+						<br><h4>Public Disclosure</h4>
 						
 						</div>
 						<div class="side3"><img src="../pngs/disclosedial.png" width="150px" alt="ecological accounting score" loading="lazy">
