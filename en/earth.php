@@ -3,10 +3,10 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.79';?>
+<?php $version='1.8';?>
 <?php $page='earth';?>
 
-<title>Bangunan Tanah & Ecobrick</title>
+<title>Earth & Ecobrick Building</title>
 
 <?php require_once ("../includes/earth2-inc.php");?>
 <!-- 
