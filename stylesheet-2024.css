@@ -1368,68 +1368,32 @@ GUIDED TOUR---*
 
 
 
-/* GALLERY PHOTOS */
 
 
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/* 8.  GALLERY PHOTOS */
+
+/* -------------------------------------------------------------------------- */
 
 #three-column-gal {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 10px;
-  
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 100%;
 }
 
-.gal-photo img {
+#three-column-gal .gal-photo img {
   width: 100%;
   height: auto;
   cursor: pointer;
 }
 
-.gal-photo p {
+#three-column-gal .gal-photo p {
   text-align: center;
-}
-
-/* Fullscreen modal styling */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-.modal-content {
-  position: relative;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
-}
-
-.modal-caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-.close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 700px) {
@@ -1437,3 +1401,4 @@ GUIDED TOUR---*
       grid-template-columns: repeat(2, 1fr);
   }
 }
+
