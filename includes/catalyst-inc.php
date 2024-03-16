@@ -46,11 +46,11 @@
 
 
 	.module-btn {
-  background: var(--emblem-orange);
+  background: var(--emblem-green);
 }
 	
 .module-btn:hover {
-  background: var(--emblem-orange-over);
+  background: var(--emblem-blue);
 }
 
 	
