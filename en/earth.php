@@ -71,18 +71,16 @@
                 <div id="preclosed1">
 
                     <br>
-            
-                    <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="../photos/earth1.jpg?v=2" height="175px" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
-						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="../photos/earth2.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
-						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="../photos/earth3.jpg" height="175px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
-					</div>
+                    <div id="three-column-gal" class="three-column-gal">
 
-                    <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth-garden.jpeg"><img src="../photos/earth-garden.jpeg?v=2" height="175px" alt="A simple raised bed garden bench."></a><p>A simple raised bed garden bench -- Indonesia</p></div>
-						<div class="gal-photo"><a href="photos/earth-well.jpeg"><img src="../photos/earth-well.jpeg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A spiral cob and ecobrick construction -- UK</p></div>
-						<div class="gal-photo"><a href="photos/earth-snake.jpeg"><img src="../photos/earth-snake.jpeg" height="175px" alt="An ecobrick snake play-bench for a public park."></a><p>An ecobrick snake play-bench for a public park -- Philippines</p></div>
-					</div>
+                        <div class="gal-photo"><img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali"><p>Mud Mosque in Djene, Mali</p></div>
+                        <div class="gal-photo"><img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England"><p>16th Century Tudor Cob Home, England</p></div>
+                        <div class="gal-photo"><img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling"><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
+                        <div class="gal-photo"><img src="../photos/earth-garden.jpeg?v=2" alt="A simple raised bed garden bench."><p>A simple raised bed garden bench -- Indonesia</p></div>
+                        <div class="gal-photo"><img src="../photos/earth-well.jpeg" alt="A circular cob and ecobrick construction."><p>A spiral cob and ecobrick construction -- UK</p></div>
+                        <div class="gal-photo"><img src="../photos/earth-snake.jpeg" alt="An ecobrick snake play-bench for a public park."><p>An ecobrick snake play-bench for a public park -- Philippines</p></div>
+                    </div>
+
                     
 
                     <p>Earth Building is known by different names around the world– “adobe”, “wattle-and-daub”, “cob”, “organic cement” etc.  These low-energy and low-cost traditions have resulted in incredibly beautiful and varying structures around the world.  Despite their unique shapes and forms they share certain fundamentals in common– such as using local materials, including the community, and enriching the local ecology.  Our ancestors took these principles for granted, but today its more important than ever to learn from the wisdom embedded in their ways.</p>
