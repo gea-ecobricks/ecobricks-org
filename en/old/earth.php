@@ -1,60 +1,47 @@
-<!DOCTYPE html>
-<HTML lang="id"> 
-<HEAD>
-<META charset="UTF-8">
-<?php $lang='id';?>
-<?php $version='1.78';?>
-<?php $page='earth';?>
+<!--PAGE LANGUAGE:  ENGLISH
+Content Page template: v.1.0.0-->
+   
+<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
+ 
+<?php require_once ("../includes/earth-inc.php");?>
 
-<title>Bangunan Tanah & Ecobrick</title>
+<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
+<?php require_once ("under-construction.php");?>
+<!--TOP PAGE BANNER-->
 
-<?php require_once ("../includes/earth2-inc.php");?>
-<!-- 
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Bangunan Tanah & Ecobrick</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Bangun struktur yang indah dan kuat, resilien, dan regeneratif</div>
-	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Bangun struktur yang indah dan kuat, resilien, dan regeneratif">
-    </div>	
-</div>
-<div id="splash-bar"></div> -->
-
-    	
-<div class="splash-content-block">
-	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick & Earth Building</div>
+		<div class="splash-heading">Ecobrick & Earth Building</div>
 	    <div class="splash-sub">Build beautiful, strong, spiral, resilient and regenerative structures.</div>
 	</div>
-	<div class="splash-image"><img src="../svgs/tree-bench.svg" style="width: 85%">
+	<div class="splash-image"><img src="https://ecobricks.org/svgs/tree-bench.svg" style="width: 85%">
     </div>	
 </div>
 <div id="splash-bar"></div>
-
+<!--<div id="header-bar2"></div>-->
 
 
 <!-- PAGE CONTENT-->
 
+<a name="top"></a>
 
 <div id="main-content">
-
+<!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
-            <article id="EARTH-BUILDING">
 
 			<div class="lead-page-paragraph">
-				<p data-lang-id="004-lead-page-paragraph">Combining time-tested local building traditions with ecobricks, we can safely secure our plastic for the long-term in beautiful and functional earthen constructions.</p>
+				<p>Combining time-tested local building traditions with ecobricks, we can safely secure our plastic for the long-term in beautiful and functional earthen constructions.</p>
 			</div>
 	
 			<div class="page-paragraph">
-                <p data-lang-id="005-first-page-paragraph">Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors.  Countless cultures around the world have their ancestral traditions of working with the earth to build.  Many of their structures have stood for centuries. Some for millenia!  By adapting their ancient methods to our modern challenges, we can put our ecobricks to good and green use.</p>
+                <p>Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors.  Countless cultures around the world have their ancestral traditions of working with the earth to build.  Many of their structures have stood for centuries. Some for millenia!  By adapting their ancient methods to our modern challenges, we can put our ecobricks to good and green use.</p>
                 
-                <p data-lang-id="006-second-page-paragraph">With earth and ecobrick methods not only can we build beautiful, strong and resilient structures, we can secure our plastic out of industry and out of the biosphere.  Such constructions, rather than result in emissions, actually avoid them, while absorbing physical carbon within them.  This ensures that we are not just creating homes, but so too a common home for all the others with which we share ecosystem and biome.</p>
+                <p>With earth and ecobrick methods not only can we build beautiful, strong and resilient structures, we can secure our plastic out of industry and out of the biosphere.  Such constructions, rather than result in emissions, actually avoid them, while absorbing physical carbon within them.  This ensures that we are not just creating homes, but so too a common home for all the others with which we share ecosystem and biome.</p>
             </div>	
 
-        <section id="WHAT-IS">
-
+            <a name="WHAT-IS"></a>
             <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">
@@ -96,10 +83,10 @@
                     </ul>   
                 </div>
             </div>
-        
-</section>
 
-<section id="KEEP-LOCAL">
+
+
+			<a name="KEEP-IT-LOCAL"></a>
             <div class="reg-content-block" id="block2">
                 <div class="opener-header">
                     <div class="opener-header-text">
@@ -131,10 +118,8 @@
                     <p>Today’s commercial construction, in contrast, relies on industrial processes and the transportation of materials from far away.  Often these materials involve much energy in their fabrication and transportation.  Because we don’t get to see where they come from, we are often not aware of the mining, smelting, and energy expenditure behind them.</p>
                 </div>
             </div>
-</section>
 
-<section id="SPIRAL">
-
+            <a name="SPIRAL"></a>
             <div class="reg-content-block" id="block3">
 
                 <div class="opener-header">
@@ -163,16 +148,14 @@
                 <p>In addition, not only can the released ecobricks be reused, so too can the rubble earth.  As it has already been mixed to the requisite ratio, only water needs to be added.  After some soaking the earth can be remixed and reapplied in a new construction!
                 <br>
 
-                <h5>ℹ️ Learn more about: <a href="spiral.php">Spiral Design</a></h5>
+                <h5>ℹ️ Learn more about: <a href="spiral">Spiral Design</a></h5>
 
                 </div>
             </div>
-</section>
 
                 
                 
-<section id="COLLAB">
-
+            <a name="COLLAB"></a>
 			<div class="reg-content-block" id="block4">
 				<div class="opener-header">
 					<div class="opener-header-text">
@@ -192,7 +175,7 @@
                     <p>In this way, rather than require machines and energy-intensive processes and materials, earth and ecobrick construction ideally are built by a community coming together using the principles of mandalic collaboration</p>.
 
                     
-                    <h5>ℹ️ Learn more about our <a href="/mandalic">Mandalic Collaboration</a></h5>
+                    <h5>ℹ️ Learn more about our <a href="mandalic">Mandalic Collaboration</a></h5>
                     
 				</div>
 			</div>
@@ -233,15 +216,13 @@
                     
                     <hr>
                     <br>
-                    <h5>ℹ️ Learn more about our <a href="/sequest.php">plastic sequestration</a></h5>
+                    <h5>ℹ️ Learn more about our <a href="/sequestration.php">plastic sequestration</a></h5>
 
                 </div>
             </div>
-</sequest>
 
-
-<sequest id="CUSTODIAN">
-
+        
+            <a name="CUSTODIAN"></a>
             <div class="reg-content-block" id="block7">
                 <div class="opener-header"> 
                     <div class="opener-header-text">
@@ -264,24 +245,22 @@
                     <p>📄 <b>Sample of Ecobrick Construction Custodial Arrangements</b></p>
                     <ul> 
                         <li>Sample – PDF – 500kb</li>
-                        <li>Download:  <a href="https://nextcloud.ecobricks.org/index.php/s/kBr64X5XkiqQWSz" target="_blank">🇬🇧 ENG</a>  |  <a href="https://nextcloud.ecobricks.org/index.php/s/DjCKx9CHeG7Zb2A" target="_blank">🇮🇩 IND</a></li>
+                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
                     </ul>
                     <hr>
                     <p>📄 <b>Template GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
                     <ul>
-                        <li>Editable Template – ODT – 1MB</li>
-                        <li>Download:  <a href="https://nextcloud.ecobricks.org/index.php/s/DjCKx9CHeG7Zb2A" target="_blank">🇬🇧 ENG</a>  |  <a href="https://nextcloud.ecobricks.org/index.php/s/qgX3oZ8RJEJGGc5" target="_blank">🇮🇩 IND</a></li>
+                        <li>Editable Template – ODG – 1MB</li>
+                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
                     </ul>
                     <br>
 
                     <div class="license"><div class="license-image"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></div><div class="license-text"><p style="font-size: 0.85em; margin-top:20px;">The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</span></div></div>
                 </div>
             </div>
-</section>
 
 
-<section id="MAINTENANCE">
-
+            <a name="MAINTENANCE"></a>
             <div class="reg-content-block" id="block6">
 				<div class="opener-header">
 					<div class="opener-header-text">
@@ -318,14 +297,14 @@
                    </ul>
 
                    <p>After 10, 20 or 100 years, when a well maintained structure comes to its end the undamaged ecobricks can be extricated undamaged and fully repurposed.</p>
+                   
+               
 			
                 </div>
 			</div>
-</section>
 
             
-<section id="FEATURED">
-
+            <a name="FEATURED"></a>
             <div class="reg-content-block" id="block8">
                 <div class="opener-header"> 
                     <div class="opener-header-text">
@@ -363,7 +342,7 @@
                         <br><p>
                     
                         <a class="action-btn" href="/earth-methods">🚀 Earth & Ecobrick Methods</a>
-                        <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</p>    
+                        <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</a></p>    
                     
                     </div>
                 </div>
@@ -374,10 +353,6 @@
             </div>
 </div>
 
-</section>
-
-</article>
-
 
 
     
@@ -385,17 +360,32 @@
 
 		<div class="side">
 	
-            <?php require_once ("side-modules/spiral-design.php");?>
+        <?php require_once ("side-modules/spiral-design.php");?>
 
-            <?php require_once ("side-modules/sequest-module.php");?>
-                
-            <?php require_once ("side-modules/good-use.php");?>
+<?php require_once ("side-modules/sequest-module.php");?>
 
-            <?php require_once ("side-modules/earthen-ethics.php");?>
+<?php require_once ("side-modules/spiral-design.php");?>
+    
+<?php require_once ("side-modules/good-use.php");?>
 
-            <?php require_once ("side-modules/transcaste-principle.php");?>
+<?php require_once ("side-modules/earthen-ethics.php");?>
+
+
+
+            <div id="side-module-desktop-mobile">
+				<img src="../pngs/transcaste-500px.png" width="80%" loading="lazy" alt="eco brick transcaste construction and building briks.">
+				<h4>Transcate Collaboration</h4>
+				<h5>In contrast to conventional construction, Earth and ecobricking building is transcaste, meaning that it is accessible to men and women, young and old, black and white, and everyone in between!</h5><br>
+				<a class="module-btn" href="principles.php">Learn More</a>
+			</div>
+            
+            <?php include 'ecobricks_env.php';?> 
+            <?php require_once ("side-modules/ecobrick-of-the-month.php");?>
+            
+            <?php 	$conn->close();?>
 
             
+
 		</div>
 
 	</div>
@@ -403,17 +393,16 @@
 </div>
 
 
-
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footer-2024.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-
 <!-- This script is for pages that use the accordion content system-->
-<script src="../accordion-scripts.js?v=2" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
+
 
 </div>
 </body>
