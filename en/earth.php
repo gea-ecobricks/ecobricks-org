@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.8';?>
+<?php $version='1.81';?>
 <?php $page='earth';?>
 
 <title>Earth & Ecobrick Building</title>
@@ -519,6 +519,8 @@ function viewGalleryImage(imageSrc, altText) {
     };
 
     document.body.appendChild(modalBackground);
+
+
 
 
 
