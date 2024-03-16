@@ -14,8 +14,8 @@
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">A Program for Keen Green Enterprises to Track, Disclose & Accelerate their Plastic Transition.</div>
-		<!--<div class="splash-sub">A Solution For Plastic transition</div>-->
+		<div class="splash-heading">Catalyst Program</div>
+		<div class="splash-sub">Track, disclose & accelerate your enterprise's plastic transition.</div>
 	</div>
 	<div class="splash-image"><img src="../pngs/catalyst-logo-500px.png" style="width: 70%;"></div>	
 </div>
@@ -250,7 +250,7 @@
 			<?php require_once ("side-modules/about-gea.php");?>
 
 
-			<?php require_once ("side-modules/for-earth.php");?>
+			<?php require_once ("side-modules/transition-module.php");?>
 
 		
 
