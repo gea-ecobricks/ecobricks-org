@@ -543,9 +543,9 @@ function viewGalleryImage(imageSrc, altText) {
     modalContent.style.padding = '20px';
     modalContent.style.backgroundColor = 'var(--slide-overlays)';
     modalContent.style.borderRadius = '10px';
-    img.style.maxWidth = '90%';
-    img.style.maxHeight = '80vh'; // Adjusted for viewport height
-    img.style.minWidth = '70%';
+    modalContent.style.maxWidth = '90%';
+    modalContent.style.maxHeight = '80vh'; // Adjusted for viewport height
+    modalContent.style.minWidth = '70%';
 
 
     // Close button
