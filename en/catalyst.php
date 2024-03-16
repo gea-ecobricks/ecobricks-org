@@ -45,9 +45,9 @@
 				<p>Meanwhile, automatic live and yearly reports are generated summarizing your net impact.  This way you can disclose your plastic transition professionaly and publicly on our third-party platform to inspire others with your efforts, courage and transparency.</p>
 					
 				<p>Together we can catalyze <a href="transition.php">plastic transition</a> in our local and global communities.</p>
-				<br><br>
+				<!-- <br><br>
 				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
-			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p>
+			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p> -->
 
 			</div>	
 
