@@ -531,7 +531,7 @@ function viewGalleryImage(imageSrc, altText) {
     modalBackground.style.left = '0';
     modalBackground.style.width = '100%';
     modalBackground.style.height = '100%';
-    modalBackground.style.backgroundColor = 'var(--emblem--blue)';
+    modalBackground.style.backgroundColor = 'var(--emblem-pink)';
     modalBackground.style.display = 'flex';
     modalBackground.style.justifyContent = 'center';
     modalBackground.style.alignItems = 'center';
@@ -546,6 +546,7 @@ function viewGalleryImage(imageSrc, altText) {
     modalContent.style.maxWidth = '90%';
     modalContent.style.maxHeight = '80vh'; // Adjusted for viewport height
     modalContent.style.minWidth = '70%';
+    modalContent.style.width = '50%';
 
 
     // Close button
