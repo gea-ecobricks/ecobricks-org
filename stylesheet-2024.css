@@ -1389,6 +1389,7 @@ GUIDED TOUR---*
 .gal-photo img {
   width: 100%; /* Make images responsive within their containers */
   height: auto; /* Maintain aspect ratio */
+  cursor: pointer;
 }
 
 @media screen and (max-width: 700px) {

@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.78';?>
+<?php $version='1.83';?>
 <?php $page='earth';?>
 
 <title>Bangunan Tanah & Ecobrick</title>
@@ -21,11 +21,11 @@
 </div>
 <div id="splash-bar"></div>
 
-    	
-<!-- <div class="splash-content-block">
+<!--     	
+<div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick & Earth Building</div>
-	    <div class="splash-sub">Build beautiful, strong, spiral, resilient and regenerative structures.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Bangunan Tanah & Ecobrick</div>
+	    <div class="splash-sub" data-lang-id="001-splash-title>Bangun struktur yang indah dan kuat, resilien, dan regeneratif</div>
 	</div>
 	<div class="splash-image"><img src="../svgs/tree-bench.svg" style="width: 85%">
     </div>	
@@ -41,6 +41,7 @@
 
 	<div class="row">
 		<div class="main">
+            <article id="EARTH-BUILDING">
 
 			<div class="lead-page-paragraph">
 				<p data-lang-id="004-lead-page-paragraph">Combining time-tested local building traditions with ecobricks, we can safely secure our plastic for the long-term in beautiful and functional earthen constructions.</p>
@@ -52,7 +53,8 @@
                 <p data-lang-id="006-second-page-paragraph">With earth and ecobrick methods not only can we build beautiful, strong and resilient structures, we can secure our plastic out of industry and out of the biosphere.  Such constructions, rather than result in emissions, actually avoid them, while absorbing physical carbon within them.  This ensures that we are not just creating homes, but so too a common home for all the others with which we share ecosystem and biome.</p>
             </div>	
 
-            <a name="WHAT-IS"></a>
+        <section id="WHAT-IS">
+
             <div class="reg-content-block" id="block1">
 
                 <div class="opener-header">
@@ -69,18 +71,34 @@
                 <div id="preclosed1">
 
                     <br>
-            
-                    <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth1.jpg"><img src="../photos/earth1.jpg?v=2" height="175px" alt="Mud Mosque in Djene, Mali"></a><p>Mud Mosque in Djene, Mali</p></div>
-						<div class="gal-photo"><a href="photos/earth2.jpg"><img src="../photos/earth2.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>16th Century Tudor Cob Home, England</p></div>
-						<div class="gal-photo"><a href="photos/earth3.jpg"><img src="../photos/earth3.jpg" height="175px" alt="Ancient Navajo Dwelling"></a><p>Ancient Navajo Dwelling, New Mexico, America</p></div>
-					</div>
+                    <div id="three-column-gal" class="three-column-gal">
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali')">
+                            <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
+                            <p>Mud Mosque in Djene, Mali</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth2.jpg', '16th Century Tudor Cob Home, England')">
+                            <img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England">
+                            <p>16th Century Tudor Cob Home, England</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth3.jpg', 'Ancient Navajo Dwelling')">
+                            <img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling">
+                            <p>Ancient Navajo Dwelling, New Mexico, America</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-garden.jpeg?v=2', 'A simple raised bed garden bench.')">
+                            <img src="../photos/earth-garden.jpeg?v=2" alt="A simple raised bed garden bench.">
+                            <p>A simple raised bed garden bench -- Indonesia</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-well.jpeg', 'A circular cob and ecobrick construction.')">
+                            <img src="../photos/earth-well.jpeg" alt="A circular cob and ecobrick construction.">
+                            <p>A spiral cob and ecobrick construction -- UK</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-snake.jpeg', 'An ecobrick snake play-bench for a public park.')">
+                            <img src="../photos/earth-snake.jpeg" alt="An ecobrick snake play-bench for a public park.">
+                            <p>An ecobrick snake play-bench for a public park -- Philippines</p>
+                        </div>
+</div>
 
-                    <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth-garden.jpeg"><img src="../photos/earth-garden.jpeg?v=2" height="175px" alt="A simple raised bed garden bench."></a><p>A simple raised bed garden bench -- Indonesia</p></div>
-						<div class="gal-photo"><a href="photos/earth-well.jpeg"><img src="../photos/earth-well.jpeg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A spiral cob and ecobrick construction -- UK</p></div>
-						<div class="gal-photo"><a href="photos/earth-snake.jpeg"><img src="../photos/earth-snake.jpeg" height="175px" alt="An ecobrick snake play-bench for a public park."></a><p>An ecobrick snake play-bench for a public park -- Philippines</p></div>
-					</div>
+
                     
 
                     <p>Earth Building is known by different names around the world– “adobe”, “wattle-and-daub”, “cob”, “organic cement” etc.  These low-energy and low-cost traditions have resulted in incredibly beautiful and varying structures around the world.  Despite their unique shapes and forms they share certain fundamentals in common– such as using local materials, including the community, and enriching the local ecology.  Our ancestors took these principles for granted, but today its more important than ever to learn from the wisdom embedded in their ways.</p>
@@ -94,10 +112,10 @@
                     </ul>   
                 </div>
             </div>
+        
+</section>
 
-
-
-			<a name="KEEP-IT-LOCAL"></a>
+<section id="KEEP-LOCAL">
             <div class="reg-content-block" id="block2">
                 <div class="opener-header">
                     <div class="opener-header-text">
@@ -111,16 +129,33 @@
                 <div id="preclosed2">
 
                     <br>   
-                    <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="../photos/earth4.jpg" height="200px" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
-						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="../photos/earth5.jpg?v=2" height="200px" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
-						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="../photos/earth6.jpg" height="200px" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
-					</div>
-                    <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/lizzie-earth-photo.jpg"><img src="../photos/lizzie-earth-photo.jpg" height="190px" alt="Fully organic earth and ecobrick technique"></a><p>Fully organic earth and ecobrick technique -- Wales, UK</p></div>
-						<div class="gal-photo"><a href="photos/earth-home-sagada.jpg"><img src="../photos/earth-home-sagada.jpg" height="190px" alt="An ecobrick and cob circular entrance-way -- Sabangan, Philippines"></a><p>An ecobrick and cob circular entrance-way -- Sabangan, Philippines</p></div>
-						<div class="gal-photo"><a href="photos/mandala-earth-window.jpg"><img src="../photos/mandala-earth-window.jpg" height="190px" alt="An ecobrick and glass bottle wall -- Nepal"></a><p>An ecobrick and glass bottle wall -- Nepal</p></div>
-					</div>
+                    <div id="three-column-gal" class="three-column-gal">
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth4.jpg', 'Mud built granaries in Tunisa')">
+                            <img src="../photos/earth4.jpg" alt="Mud built granaries in Tunisa">
+                            <p>Mud built granaries in Tunisa</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth5.jpg?v=2', 'Traditional Syrian Earthen beehive homes')">
+                            <img src="../photos/earth5.jpg?v=2" alt="Traditional Syrian Earthen beehive homes">
+                            <p>Traditional Syrian Earthen "beehive" homes</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth6.jpg', 'Ancient Persian Refrigerator - Yakhchal in Yazd Province')">
+                            <img src="../photos/earth6.jpg" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province">
+                            <p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/lizzie-earth-photo.jpg', 'Fully organic earth and ecobrick technique')">
+                            <img src="../photos/lizzie-earth-photo.jpg" alt="Fully organic earth and ecobrick technique">
+                            <p>Fully organic earth and ecobrick technique -- Wales, UK</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-home-sagada.jpg', 'An ecobrick and cob circular entrance-way')">
+                            <img src="../photos/earth-home-sagada.jpg" alt="An ecobrick and cob circular entrance-way -- Sabangan, Philippines">
+                            <p>An ecobrick and cob circular entrance-way -- Sabangan, Philippines</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/mandala-earth-window.jpg', 'An ecobrick and glass bottle wall')">
+                            <img src="../photos/mandala-earth-window.jpg" alt="An ecobrick and glass bottle wall -- Nepal">
+                            <p>An ecobrick and glass bottle wall -- Nepal</p>
+                        </div>
+                    </div>
+
 
                     <p>If there’s anything that the very different earth building traditions around the world have in common it is that they used what was local to them.  Earth building makes use of the earth (sand, clay, rock, pebbles, etc.) that is nearby along with the local organic materials (wood, bamboo, reeds, grasses, etc).  By keeping it local, we reduce the need for long haul transportation.  This ensures a low-energy impact footprint for our building and it encourages the community management of regrowing trees and bamboo to meet local needs.</p>
 
@@ -129,8 +164,10 @@
                     <p>Today’s commercial construction, in contrast, relies on industrial processes and the transportation of materials from far away.  Often these materials involve much energy in their fabrication and transportation.  Because we don’t get to see where they come from, we are often not aware of the mining, smelting, and energy expenditure behind them.</p>
                 </div>
             </div>
+</section>
 
-            <a name="SPIRAL"></a>
+<section id="SPIRAL">
+
             <div class="reg-content-block" id="block3">
 
                 <div class="opener-header">
@@ -159,14 +196,16 @@
                 <p>In addition, not only can the released ecobricks be reused, so too can the rubble earth.  As it has already been mixed to the requisite ratio, only water needs to be added.  After some soaking the earth can be remixed and reapplied in a new construction!
                 <br>
 
-                <h5>ℹ️ Learn more about: <a href="spiral">Spiral Design</a></h5>
+                <h5>ℹ️ Learn more about: <a href="spiral.php">Spiral Design</a></h5>
 
                 </div>
             </div>
+</section>
 
                 
                 
-            <a name="COLLAB"></a>
+<section id="COLLAB">
+
 			<div class="reg-content-block" id="block4">
 				<div class="opener-header">
 					<div class="opener-header-text">
@@ -186,7 +225,7 @@
                     <p>In this way, rather than require machines and energy-intensive processes and materials, earth and ecobrick construction ideally are built by a community coming together using the principles of mandalic collaboration</p>.
 
                     
-                    <h5>ℹ️ Learn more about our <a href="mandalic">Mandalic Collaboration</a></h5>
+                    <h5>ℹ️ Learn more about our <a href="/mandalic">Mandalic Collaboration</a></h5>
                     
 				</div>
 			</div>
@@ -227,13 +266,15 @@
                     
                     <hr>
                     <br>
-                    <h5>ℹ️ Learn more about our <a href="/sequestration.php">plastic sequestration</a></h5>
+                    <h5>ℹ️ Learn more about our <a href="/sequest.php">plastic sequestration</a></h5>
 
                 </div>
             </div>
+</sequest>
 
-        
-            <a name="CUSTODIAN"></a>
+
+<sequest id="CUSTODIAN">
+
             <div class="reg-content-block" id="block7">
                 <div class="opener-header"> 
                     <div class="opener-header-text">
@@ -246,7 +287,7 @@
 
                 <div id="preclosed7">
 
-                    <img src="../photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
+                    <img src="../photos/Collaboration-Powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench in the northern philippines food forest play park">
 
                     <p> Earth and Ecobrick constructions embody large amounts of secured plastic.  When building on government or community land, it is key to establish a long term custodial agreement with the owners of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks. This agreement must also account for the eventual removal, ownership and reuse of the embodied ecobricks.</p> 
 
@@ -256,22 +297,24 @@
                     <p>📄 <b>Sample of Ecobrick Construction Custodial Arrangements</b></p>
                     <ul> 
                         <li>Sample – PDF – 500kb</li>
-                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
+                        <li>Download:  <a href="https://nextcloud.ecobricks.org/index.php/s/kBr64X5XkiqQWSz" target="_blank">🇬🇧 ENG</a>  |  <a href="https://nextcloud.ecobricks.org/index.php/s/DjCKx9CHeG7Zb2A" target="_blank">🇮🇩 IND</a></li>
                     </ul>
-                    <hr>
+                    <br><hr>
                     <p>📄 <b>Template GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
                     <ul>
-                        <li>Editable Template – ODG – 1MB</li>
-                        <li>Download:  <a href="https://files.ecobricks.org/s/KpW5xJwmgMzG5xi" target="_blank">🇬🇧 ENG</a>  |  <a href="https://files.ecobricks.org/s/EbcF59eNXgAEeKP" target="_blank">🇮🇩 IND</a></li>
+                        <li>Editable Template – ODT – 1MB</li>
+                        <li>Download:  <a href="https://nextcloud.ecobricks.org/index.php/s/DjCKx9CHeG7Zb2A" target="_blank">🇬🇧 ENG</a>  |  <a href="https://nextcloud.ecobricks.org/index.php/s/qgX3oZ8RJEJGGc5" target="_blank">🇮🇩 IND</a></li>
                     </ul>
                     <br>
 
                     <div class="license"><div class="license-image"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></div><div class="license-text"><p style="font-size: 0.85em; margin-top:20px;">The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</span></div></div>
                 </div>
             </div>
+</section>
 
 
-            <a name="MAINTENANCE"></a>
+<section id="MAINTENANCE">
+
             <div class="reg-content-block" id="block6">
 				<div class="opener-header">
 					<div class="opener-header-text">
@@ -308,14 +351,14 @@
                    </ul>
 
                    <p>After 10, 20 or 100 years, when a well maintained structure comes to its end the undamaged ecobricks can be extricated undamaged and fully repurposed.</p>
-                   
-               
 			
                 </div>
 			</div>
+</section>
 
             
-            <a name="FEATURED"></a>
+<section id="FEATURED">
+
             <div class="reg-content-block" id="block8">
                 <div class="opener-header"> 
                     <div class="opener-header-text">
@@ -329,11 +372,25 @@
                 <div id="preclosed8">
 
                 <br>   
-                <div class="flex-gallery" max-width="100%">
-                    <div class="gal-photo"><a href="https://ecobricks.org/jabung/"><img src="../photos/jabung1.jpg" height="190px" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java"></a><p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/jabung/">View project</a></p></div>
-                    <div class="gal-photo"><a href="https://ecobricks.org/training336/"><img src="../photos/ubudraw1.jpg" height="190px" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia"></a><p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/training336/">View project</a></p></div>
-                    <div class="gal-photo"><a href="photos/prtmadog-500px.webp"><img src="../photos/prtmadog-500px.webp" height="190px" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK "></a><p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK </p><p><a class="module-btn" href="photos/prtmadog-500px.webp">View project</a></p></div>
-                </div>
+
+                <div class="three-column-gal">
+                    <div class="gal-photo" onclick="viewGalleryImage('../photos/jabung1.jpg', 'Jabung Mandala Park - 2000 ecobricks, Java, Indonesia')">
+                        <img src="../photos/jabung1.jpg" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java">
+                        <p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p>
+                        <p><a class="module-btn" href="https://ecobricks.org/jabung/" target="_blank">View project</a></p>
+                    </div>
+                    <div class="gal-photo" onclick="viewGalleryImage('../photos/ubudraw1.jpg', 'A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia')">
+                        <img src="../photos/ubudraw1.jpg" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia">
+                        <p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p>
+                        <p><a class="module-btn" href="https://ecobricks.org/training336/" target="_blank">View project</a></p>
+                    </div>
+                    <div class="gal-photo" onclick="viewGalleryImage('../photos/prtmadog-500px.webp', 'A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK')">
+                        <img src="../photos/prtmadog-500px.webp" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK">
+                        <p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK</p>
+                        <p><a class="module-btn" href="photos/prtmadog-500px.webp" target="_blank">View project</a></p>
+                    </div>
+</div>
+
 
 
                 </div>
@@ -353,7 +410,7 @@
                         <br><p>
                     
                         <a class="action-btn" href="/earth-methods">🚀 Earth & Ecobrick Methods</a>
-                        <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</a></p>    
+                        <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</p>    
                     
                     </div>
                 </div>
@@ -363,6 +420,10 @@
                 </div>
             </div>
 </div>
+
+</section>
+
+</article>
 
 
 
@@ -381,6 +442,8 @@
 
             <?php require_once ("side-modules/transcaste-principle.php");?>
 
+            <?php require_once ("side-modules/plastic-carbon.php");?>
+
             
 		</div>
 
@@ -396,7 +459,138 @@
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
+<script>
 
+function viewGalleryImage(imageSrc, altText) {
+    // Modal background
+    const modalBackground = document.createElement('div');
+    modalBackground.style.position = 'fixed';
+    modalBackground.style.top = '0';
+    modalBackground.style.left = '0';
+    modalBackground.style.width = '100%';
+    modalBackground.style.height = '100%';
+    modalBackground.style.backgroundColor = 'var(--show-hide)';
+    modalBackground.style.display = 'flex';
+    modalBackground.style.justifyContent = 'center';
+    modalBackground.style.alignItems = 'center';
+    modalBackground.style.zIndex = '1000';
+
+    // Modal content
+    const modalContent = document.createElement('div');
+    modalContent.style.position = 'relative';
+    modalContent.style.padding = '20px';
+
+    // Image
+    const img = document.createElement('img');
+    img.src = imageSrc;
+    img.alt = altText;
+    img.style.maxWidth = '90%';
+    img.style.maxHeight = '80vh'; // Adjusted for viewport height
+    img.style.minWidth = '70%';
+
+    // Caption
+    const caption = document.createElement('p');
+    caption.textContent = altText;
+    caption.style.color = 'var(--h1)';
+    caption.style.textAlign = 'center';
+    caption.style.paddingTop = '10px';
+
+    // Close button
+    const closeButton = document.createElement('div');
+    closeButton.innerHTML = 'X';
+    closeButton.style.position = 'absolute';
+    closeButton.style.top = '10px';
+    closeButton.style.right = '15px';
+    closeButton.style.cursor = 'pointer';
+    closeButton.style.color = 'var(--h1)';
+
+    closeButton.onclick = function() {
+        document.body.removeChild(modalBackground);
+    };
+
+    modalContent.appendChild(img);
+    modalContent.appendChild(caption);
+    modalContent.appendChild(closeButton);
+    modalBackground.appendChild(modalContent);
+
+    modalBackground.onclick = function(event) {
+        if (event.target === modalBackground) {
+            document.body.removeChild(modalBackground);
+        }
+    };
+
+    document.body.appendChild(modalBackground);
+
+}
+
+
+    function createInfoModal(infoText) {
+    // Modal background
+    const modalBackground = document.createElement('div');
+    modalBackground.style.position = 'fixed';
+    modalBackground.style.top = '0';
+    modalBackground.style.left = '0';
+    modalBackground.style.width = '100%';
+    modalBackground.style.height = '100%';
+    modalBackground.style.backgroundColor = 'var(--show-hide)';
+    modalBackground.style.display = 'flex';
+    modalBackground.style.justifyContent = 'center';
+    modalBackground.style.alignItems = 'center';
+    modalBackground.style.zIndex = '1000';
+
+    // Modal content
+    const modalContent = document.createElement('div');
+    modalContent.style.position = 'relative';
+    modalContent.style.padding = '20px';
+    modalContent.style.backgroundColor = 'var(--emblem-pink)';
+    modalContent.style.borderRadius = '10px';
+    modalContent.style.maxWidth = '90%';
+    modalContent.style.maxHeight = '80vh'; // Adjusted for viewport height
+    modalContent.style.minWidth = '70%';
+    modalContent.style.width = '50%';
+    modalContent.style.color = 'var(--slide-overlays)';
+    
+
+
+    // Close button
+    const closeButton = document.createElement('div');
+    closeButton.innerHTML = 'x';
+    closeButton.style.position = 'absolute';
+    closeButton.style.top = '10px';
+    closeButton.style.right = '15px';
+    closeButton.style.cursor = 'pointer';
+    closeButton.style.color = 'black';
+
+    closeButton.onclick = function() {
+        document.body.removeChild(modalBackground);
+    };
+
+    // Header
+    const header = document.createElement('h4');
+    header.textContent = 'A quick fact';
+    header.style.marginBottom = '15px';
+
+    // Info text
+    const infoParagraph = document.createElement('p');
+    infoParagraph.textContent = infoText;
+    infoParagraph.style.textAlign = 'justify';
+
+    modalContent.appendChild(closeButton);
+    modalContent.appendChild(header);
+    modalContent.appendChild(infoParagraph);
+    modalBackground.appendChild(modalContent);
+
+    modalBackground.onclick = function(event) {
+        if (event.target === modalBackground) {
+            document.body.removeChild(modalBackground);
+        }
+    };
+
+    document.body.appendChild(modalBackground);
+}
+
+
+</script>
 
 <!-- This script is for pages that use the accordion content system-->
 <script src="../accordion-scripts.js?v=2" defer></script>
