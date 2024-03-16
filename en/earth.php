@@ -129,16 +129,33 @@
                 <div id="preclosed2">
 
                     <br>   
-                    <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/earth4.jpg"><img src="../photos/earth4.jpg" height="200px" alt="Mud built granaries in Tunisa"></a><p>Mud built granaries in Tunisa</p></div>
-						<div class="gal-photo"><a href="photos/earth5.jpg?v=2"><img src="../photos/earth5.jpg?v=2" height="200px" alt="Traditional Syrian Earthen beehive homes"></a><p>Traditional Syrian Earthen "beehive" homes</p></div>
-						<div class="gal-photo"><a href="photos/earth6.jpg"><img src="../photos/earth6.jpg" height="200px" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province"></a><p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p></div>
-					</div>
-                    <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/lizzie-earth-photo.jpg"><img src="../photos/lizzie-earth-photo.jpg" height="190px" alt="Fully organic earth and ecobrick technique"></a><p>Fully organic earth and ecobrick technique -- Wales, UK</p></div>
-						<div class="gal-photo"><a href="photos/earth-home-sagada.jpg"><img src="../photos/earth-home-sagada.jpg" height="190px" alt="An ecobrick and cob circular entrance-way -- Sabangan, Philippines"></a><p>An ecobrick and cob circular entrance-way -- Sabangan, Philippines</p></div>
-						<div class="gal-photo"><a href="photos/mandala-earth-window.jpg"><img src="../photos/mandala-earth-window.jpg" height="190px" alt="An ecobrick and glass bottle wall -- Nepal"></a><p>An ecobrick and glass bottle wall -- Nepal</p></div>
-					</div>
+                    <div id="three-column-gal" class="three-column-gal">
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth4.jpg', 'Mud built granaries in Tunisa')">
+                            <img src="../photos/earth4.jpg" alt="Mud built granaries in Tunisa">
+                            <p>Mud built granaries in Tunisa</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth5.jpg?v=2', 'Traditional Syrian Earthen beehive homes')">
+                            <img src="../photos/earth5.jpg?v=2" alt="Traditional Syrian Earthen beehive homes">
+                            <p>Traditional Syrian Earthen "beehive" homes</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth6.jpg', 'Ancient Persian Refrigerator - Yakhchal in Yazd Province')">
+                            <img src="../photos/earth6.jpg" alt="Ancient Persian Refrigerator - Yakhchal in Yazd Province">
+                            <p>Ancient Persian Refrigerator - Yakhchal in Yazd Province</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/lizzie-earth-photo.jpg', 'Fully organic earth and ecobrick technique')">
+                            <img src="../photos/lizzie-earth-photo.jpg" alt="Fully organic earth and ecobrick technique">
+                            <p>Fully organic earth and ecobrick technique -- Wales, UK</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-home-sagada.jpg', 'An ecobrick and cob circular entrance-way')">
+                            <img src="../photos/earth-home-sagada.jpg" alt="An ecobrick and cob circular entrance-way -- Sabangan, Philippines">
+                            <p>An ecobrick and cob circular entrance-way -- Sabangan, Philippines</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/mandala-earth-window.jpg', 'An ecobrick and glass bottle wall')">
+                            <img src="../photos/mandala-earth-window.jpg" alt="An ecobrick and glass bottle wall -- Nepal">
+                            <p>An ecobrick and glass bottle wall -- Nepal</p>
+                        </div>
+                    </div>
+
 
                     <p>If there’s anything that the very different earth building traditions around the world have in common it is that they used what was local to them.  Earth building makes use of the earth (sand, clay, rock, pebbles, etc.) that is nearby along with the local organic materials (wood, bamboo, reeds, grasses, etc).  By keeping it local, we reduce the need for long haul transportation.  This ensures a low-energy impact footprint for our building and it encourages the community management of regrowing trees and bamboo to meet local needs.</p>
 
@@ -446,10 +463,6 @@ function viewGalleryImage(imageSrc, altText) {
     const modalContent = document.createElement('div');
     modalContent.style.position = 'relative';
     modalContent.style.padding = '20px';
-    modalContent.style.backgroundColor = 'rgba(255, 255, 255, 0.8)'; // Semi-transparent white
-    modalContent.style.borderRadius = '10px';
-    modalContent.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
-    modalContent.style.backdropFilter = 'blur(0.3rem)';
 
     // Image
     const img = document.createElement('img');
@@ -457,11 +470,12 @@ function viewGalleryImage(imageSrc, altText) {
     img.alt = altText;
     img.style.maxWidth = '90%';
     img.style.maxHeight = '80vh'; // Adjusted for viewport height
+    img.style.minWidth = '50%';
 
     // Caption
     const caption = document.createElement('p');
     caption.textContent = altText;
-    caption.style.color = 'var(--text-color)';
+    caption.style.color = 'var(--h1)';
     caption.style.textAlign = 'center';
     caption.style.paddingTop = '10px';
 
@@ -472,7 +486,7 @@ function viewGalleryImage(imageSrc, altText) {
     closeButton.style.top = '10px';
     closeButton.style.right = '15px';
     closeButton.style.cursor = 'pointer';
-    closeButton.style.color = 'var(--text-color)';
+    closeButton.style.color = 'var(--h1)';
 
     closeButton.onclick = function() {
         document.body.removeChild(modalBackground);
