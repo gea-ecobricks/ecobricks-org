@@ -14,8 +14,8 @@
 
 <div class="splash-content-block">
     <div class="splash-box">
-        <div class="splash-heading" data-lang-id="001-splash-heading">Plastic Coefficients</div>
-        <div class="splash-sub" data-lang-id="002-splash-sub">For Ecological Accounting</div>
+        <div class="splash-heading" data-lang-id="001-splash-heading">Coefficients Plastique</div>
+        <div class="splash-sub" data-lang-id="002-splash-sub">Pour la Comptabilité Écologique</div>
     </div>
     <div class="splash-image" data-lang-id="003xx-splash-image"><img src="../webp/gea-perspective-400px.webp" style="width: 75%;"></div>   
 </div>
@@ -47,6 +47,8 @@
                 <p data-lang-id="008-page-paragraph-2">As of June 2022, this page and our listing here are still in development with the aim of formalizing our coefficients for the end of the year.</p>
             </div>
 
+
+            <section id="production">
             <div class="reg-content-block" id="block1">
                 <div class="opener-header">
                     <div class="opener-header-text">
@@ -110,9 +112,10 @@
 			<span title="Examining the Carbon Footprint of Devices, Microsoft, Sustainable Software, 2020" data-lang-id="036-smart-phone-estimate"><h5>0.4 Kg over lifetime of use</h5></span><br>
 		</div>
 	</div>
+</section>
 
 
-
+<section id="sequestrative">
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
         <div class="opener-header-text">
@@ -144,86 +147,57 @@
                     
     </div>
 </div>
+</section>
 
-			
-			<a name="co2"></a>
-			<div class="reg-content-block" id="block3">
-
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-					<h4>Plastic CO2 Equivalencies</h4>
-					<h5>Various flows of plastic have significant carbon emissions.</h5>
-					<br>
-					</div>
-
-					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-				</div>
-
-				<div id="preclosed3">
-					<br>
-
-					<p><b>Recycling</b></p>
-					
-					<p>Recycling plastic has various carbon emissions (transportation, reprocessing, etc.)</p> 
-
-					<span title="GEA Certified"><h5>1kg recycled plastic = 0.689 Kg of CO2</h5></span>
-					<p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
-
-					<p><b>Incineration</b></p>
-					
-					<p>When plastic is burned it's carbon molecules join with oxygen molecules to generate carbon dioxide.</p> 
-
-					<span title="GEA 2020 value"><h5>1 kg plastic = 2.97 Kg CO2</h5></span>
-					<p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
-
-					<p><b>Landfilling</b></p>
-					
-					<p>Plastic that is not recycled, incinerated or sequestered ends up in the earth, air and land.</p> 
-
-					<span title="GEA 2020 value"><h5>1 Kg plastic = 0.065kg </h5></span>
-					<p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
-
-					<hr>
-					<br>
-					<p><b>One-time CO2 impact of plastic</b></p>
-					
-					<p>The GEA has calculated the one time impact of consuming 1 kg of consumed plastic.</p> 
-
-					<span title="GEA 2020 value"><h5>1 Kg plastic = 6.06kg CO2</h5></span><br>
-
-					<p>The GEA has calculated the net impact of 1 kg of consumed plastic over time.</p> 
-
-					<span title="GEA 2020 value"><h5>1 Kg plastic = Data pending</h5></span><br>
-
-					<p><b>Plastic Sequestration</b></p>
-					
-					<p>Plastic that is kept out of industrial processing (i.e recycling, incineration and landfilling) has a substractive CO2e ipact of:</p> 
-
-					<span title="GEA 2020 value"><h5>1 AES Plastic = 6.05 CO2e</h5></span><br>
-
-					<img src="https://miro.medium.com/max/500/1*p4H-oNd9oUZvmJD4VjcERg.png" width="90%">
-
-				</div>
-			</div>
-
-
-
-		
-				
-			<br><br>
-
-<div class="page-paragraph">
-    <h4>Do your own Regen Reporting</h4>
-
-    <p>To do our own <a href="regenreports.php">GEA ecological accounting</a> we use an <a href="catalyst.php"> enterprise catalyst account</a> on the GoBrik platform.  It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
-    
-    <p>Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project.  New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
-            
-    <a class="action-btn" href="catalyst.php">🚀 Catalyst Program</a>
-    <p style="font-size: 0.85em; margin-top:20px;">Learn more about our free program & platform.</a></p>
+<section id="co2">
+<div class="reg-content-block" id="block3">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="049_Plastic_CO2_Equivalencies">Plastic CO2 Equivalencies</h4>
+            <h5 data-lang-id="050_Significant_Carbon_Emissions">Various flows of plastic have significant carbon emissions.</h5>
+            <br>
+        </div>
+        <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+    </div>
+    <div id="preclosed3">
+        <br>
+        <p data-lang-id="051_Recycling"><b>Recycling</b></p>
+        <p data-lang-id="052_Recycling_Carbon_Emissions">Recycling plastic has various carbon emissions (transportation, reprocessing, etc.)</p>
+        <span title="GEA Certified"><h5 data-lang-id="053_1kg_Recycled_Plastic">1kg recycled plastic = 0.689 Kg of CO2</h5></span>
+        <p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
+        <p data-lang-id="054_Incineration"><b>Incineration</b></p>
+        <p data-lang-id="055_Incineration_Carbon_Dioxide">When plastic is burned it's carbon molecules join with oxygen molecules to generate carbon dioxide.</p>
+        <span title="GEA 2020 value"><h5 data-lang-id="056_1kg_Plastic_Incineration">1 kg plastic = 2.97 Kg CO2</h5></span>
+        <p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
+        <p data-lang-id="057_Landfilling"><b>Landfilling</b></p>
+        <p data-lang-id="058_Landfilling_Impact">Plastic that is not recycled, incinerated or sequestered ends up in the earth, air and land.</p>
+        <span title="GEA 2020 value"><h5 data-lang-id="059_1Kg_Plastic_Landfilling">1 Kg plastic = 0.065kg</h5></span>
+        <p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
+        <hr>
+        <br>
+        <p data-lang-id="060_One-time_CO2_Impact"><b>One-time CO2 impact of plastic</b></p>
+        <p data-lang-id="061_One-time_Impact_Calculation">The GEA has calculated the one time impact of consuming 1 kg of consumed plastic.</p>
+        <span title="GEA 2020 value"><h5 data-lang-id="062_1Kg_Plastic_CO2_Impact">1 Kg plastic = 6.06kg CO2</h5></span><br>
+        <p data-lang-id="063_Net_Impact_Calculation">The GEA has calculated the net impact of 1 kg of consumed plastic over time.</p>
+        <span title="GEA 2020 value"><h5 data-lang-id="064_1Kg_Plastic_Data_Pending">1 Kg plastic = Data pending</h5></span><br>
+        <p data-lang-id="065_Plastic_Sequestration"><b>Plastic Sequestration</b></p>
+        <p data-lang-id="066_Plastic_Sequestration_Impact">Plastic that is kept out of industrial processing (i.e recycling, incineration and landfilling) has a substractive CO2e impact of:</p>
+        <span title="GEA 2020 value"><h5 data-lang-id="067_1_AES_Plastic_CO2e">1 AES Plastic = 6.05 CO2e</h5></span><br>
+        <img src="https://miro.medium.com/max/500/1*p4H-oNd9oUZvmJD4VjcERg.png" width="90%">
+    </div>
 </div>
 
+</section>
+
+
+<br><br>
+<div class="page-paragraph">
+    <h4 data-lang-id="068_Regen_Reporting">Do your own Regen Reporting</h4>
+    <p data-lang-id="069_Own_Regen_Reporting">To do our own <a href="regenreports.php">GEA ecological accounting</a> we use an <a href="catalyst.php">enterprise catalyst account</a> on the GoBrik platform. It allows us to track our plastic consumption and ecobricking each month. You can do so too!</p>
+    <p data-lang-id="070_Catalyst_Program">Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project. New tools for carbon and biodiversity accounting are being added for 2022.</p><br>
+    <a class="action-btn" href="catalyst.php" data-lang-id="071_Catalyst_Program_Link">🚀 Catalyst Program</a>
+    <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="072_Learn_More">Learn more about our free program & platform.</p>
+</div>
 
 		
 

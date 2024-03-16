@@ -58,6 +58,33 @@ const id_Page_Translations = {
     "047-1-brikcoin-description": "Sebuah brikcoin di blockchain GoBrik sesuai dengan jumlah tertentu plastik yang disekuester. Ini berubah setiap tahun.",
     "048-1-brikcoin-estimate": "1 BRK = 0,098 Kg plastik",
 
+    "049_Plastic_CO2_Equivalencies": "Plastic CO2 Equivalencies",
+    "050_Significant_Carbon_Emissions": "Various flows of plastic have significant carbon emissions.",
+    "051_Recycling": "<b>Recycling</b>",
+    "052_Recycling_Carbon_Emissions": "Recycling plastic has various carbon emissions (transportation, reprocessing, etc.)",
+    "053_1kg_Recycled_Plastic": "1kg recycled plastic = 0.689 Kg of CO2",
+    "054_Incineration": "<b>Incineration</b>",
+    "055_Incineration_Carbon_Dioxide": "When plastic is burned it's carbon molecules join with oxygen molecules to generate carbon dioxide.",
+    "056_1kg_Plastic_Incineration": "1 kg plastic = 2.97 Kg CO2",
+    "057_Landfilling": "<b>Landfilling</b>",
+    "058_Landfilling_Impact": "Plastic that is not recycled, incinerated or sequestered ends up in the earth, air and land.",
+    "059_1Kg_Plastic_Landfilling": "1 Kg plastic = 0.065kg",
+    "060_One-time_CO2_Impact": "<b>One-time CO2 impact of plastic</b>",
+    "061_One-time_Impact_Calculation": "The GEA has calculated the one time impact of consuming 1 kg of consumed plastic.",
+    "062_1Kg_Plastic_CO2_Impact": "1 Kg plastic = 6.06kg CO2",
+    "063_Net_Impact_Calculation": "The GEA has calculated the net impact of 1 kg of consumed plastic over time.",
+    "064_1Kg_Plastic_Data_Pending": "1 Kg plastic = Data pending",
+    "065_Plastic_Sequestration": "<b>Plastic Sequestration</b>",
+    "066_Plastic_Sequestration_Impact": "Plastic that is kept out of industrial processing (i.e recycling, incineration and landfilling) has a substractive CO2e impact of:",
+    "067_1_AES_Plastic_CO2e": "1 AES Plastic = 6.05 CO2e",
+    "068_Regen_Reporting": "Do your own Regen Reporting",
+    "069_Own_Regen_Reporting": "To do our own <a href=\"regenreports.php\">GEA ecological accounting</a> we use an <a href=\"catalyst.php\">enterprise catalyst account</a> on the GoBrik platform. It allows us to track our plastic consumption and ecobricking each month. You can do so too!",
+    "070_Catalyst_Program": "Our Catalyst Program for keen green enterprises enables you to generate ecological impacts for your company or project. New tools for carbon and biodiversity accounting are being added for 2022.",
+    "071_Catalyst_Program_Link": "🚀 Catalyst Program",
+    "072_Learn_More": "Learn more about our free program & platform.",
+    "img_1": "<img src=\"https://miro.medium.com/max/500/1*p4H-oNd9oUZvmJD4VjcERg.png\" width=\"90%\">"
+
+
 };
       
       

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<HTML lang="fr"> 
+<HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
