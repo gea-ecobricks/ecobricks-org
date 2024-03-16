@@ -287,7 +287,7 @@
 
                 <div id="preclosed7">
 
-                    <img src="../photos/collaboration-powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench">
+                    <img src="../photos/Collaboration-Powered.jpg" width="100%" loading="lazy" alt="circular earth and ecobrick bench in the northern philippines food forest play park">
 
                     <p> Earth and Ecobrick constructions embody large amounts of secured plastic.  When building on government or community land, it is key to establish a long term custodial agreement with the owners of the property.  This agreement must include yearly checkups and repairs and also a plan for the destruction of the construction to ensure the indefinite integrity of the ecobricks. This agreement must also account for the eventual removal, ownership and reuse of the embodied ecobricks.</p> 
 
@@ -299,6 +299,7 @@
                         <li>Sample – PDF – 500kb</li>
                         <li>Download:  <a href="https://nextcloud.ecobricks.org/index.php/s/kBr64X5XkiqQWSz" target="_blank">🇬🇧 ENG</a>  |  <a href="https://nextcloud.ecobricks.org/index.php/s/DjCKx9CHeG7Zb2A" target="_blank">🇮🇩 IND</a></li>
                     </ul>
+                    <br>
                     <hr>
                     <p>📄 <b>Template GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
                     <ul>
@@ -388,6 +389,9 @@
                         <p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK</p>
                         <p><a class="module-btn" href="photos/prtmadog-500px.webp" target="_blank">View project</a></p>
                     </div>
+</div>
+
+        
 </div>
 
 
