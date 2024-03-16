@@ -249,19 +249,10 @@
 
 			<?php require_once ("side-modules/about-gea.php");?>
 
-			<div class="side-module-desktop-mobile">
-				<img src="../webp/gea-logo-400px.webp" width="90%">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
-			</div>
 
-			<div class="side-module-desktop-mobile">
-				<img src="../webp/for-earth500px.webp" width="80%">
-				<h4>For-Earth Enterprise</h4>
-				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="2021-regen-report.php">Learn More</a>
-			</div>
+			<?php require_once ("side-modules/for-earth.php");?>
+
+		
 
 			<div class="side-module-desktop-mobile">
 				<img src="../webp/balancing-green.webp" width="80%">
@@ -277,18 +268,22 @@
 
 
 
+	
+
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
 
+<!-- This script is for pages that use the accordion content system-->
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
+</article>
 </body>
 </html>
+
 
