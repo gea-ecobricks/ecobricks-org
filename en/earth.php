@@ -372,11 +372,24 @@
                 <div id="preclosed8">
 
                 <br>   
-                <div class="flex-gallery" max-width="100%">
-                    <div class="gal-photo"><a href="https://ecobricks.org/jabung/"><img src="../photos/jabung1.jpg" height="190px" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java"></a><p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/jabung/">View project</a></p></div>
-                    <div class="gal-photo"><a href="https://ecobricks.org/training336/"><img src="../photos/ubudraw1.jpg" height="190px" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia"></a><p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p><p><a class="module-btn" href="https://ecobricks.org/training336/">View project</a></p></div>
-                    <div class="gal-photo"><a href="photos/prtmadog-500px.webp"><img src="../photos/prtmadog-500px.webp" height="190px" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK "></a><p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK </p><p><a class="module-btn" href="photos/prtmadog-500px.webp">View project</a></p></div>
-                </div>
+                <div class="three-column-gal">
+                    <div class="gal-photo" onclick="viewGalleryImage('../photos/jabung1.jpg', 'Jabung Mandala Park - 2000 ecobricks, Java, Indonesia')">
+                        <img src="../photos/jabung1.jpg" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java">
+                        <p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p>
+                        <p><a class="module-btn" href="https://ecobricks.org/jabung/" target="_blank">View project</a></p>
+                    </div>
+                    <div class="gal-photo" onclick="viewGalleryImage('../photos/ubudraw1.jpg', 'A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia')">
+                        <img src="../photos/ubudraw1.jpg" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia">
+                        <p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p>
+                        <p><a class="module-btn" href="https://ecobricks.org/training336/" target="_blank">View project</a></p>
+                    </div>
+                    <div class="gal-photo" onclick="viewGalleryImage('../photos/prtmadog-500px.webp', 'A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK')">
+                        <img src="../photos/prtmadog-500px.webp" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK">
+                        <p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK</p>
+                        <p><a class="module-btn" href="photos/prtmadog-500px.webp" target="_blank">View project</a></p>
+                    </div>
+</div>
+
 
 
                 </div>
