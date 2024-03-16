@@ -299,8 +299,7 @@
                         <li>Sample – PDF – 500kb</li>
                         <li>Download:  <a href="https://nextcloud.ecobricks.org/index.php/s/kBr64X5XkiqQWSz" target="_blank">🇬🇧 ENG</a>  |  <a href="https://nextcloud.ecobricks.org/index.php/s/DjCKx9CHeG7Zb2A" target="_blank">🇮🇩 IND</a></li>
                     </ul>
-                    <br>
-                    <hr>
+                    <br><hr>
                     <p>📄 <b>Template GEA Earth & Ecobrick Building Custodianship Agreement</b></p>
                     <ul>
                         <li>Editable Template – ODT – 1MB</li>
@@ -389,9 +388,12 @@
                         <p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK</p>
                         <p><a class="module-btn" href="photos/prtmadog-500px.webp" target="_blank">View project</a></p>
                     </div>
-</div>
 
-        
+                    <div class="gal-photo" onclick="viewGalleryImage('../photos/prtmadog-500px.webp', 'A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK')">
+                        <img src="../photos/prtmadog-500px.webp" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK">
+                        <p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK</p>
+                        <p><a class="module-btn" href="photos/prtmadog-500px.webp" target="_blank">View project</a></p>
+                    </div>
 </div>
 
 
