@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<HTML lang="id"> 
+<HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='id';?>
-<?php $version='1.78';?>
+<?php $lang='en';?>
+<?php $version='1.79';?>
 <?php $page='earth';?>
 
 <title>Bangunan Tanah & Ecobrick</title>
