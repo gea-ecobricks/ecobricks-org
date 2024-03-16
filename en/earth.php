@@ -485,7 +485,7 @@ function viewGalleryImage(imageSrc, altText) {
     img.alt = altText;
     img.style.maxWidth = '90%';
     img.style.maxHeight = '80vh'; // Adjusted for viewport height
-    img.style.minWidth = '50%';
+    img.style.minWidth = '70%';
 
     // Caption
     const caption = document.createElement('p');
@@ -531,7 +531,7 @@ function viewGalleryImage(imageSrc, altText) {
     modalBackground.style.left = '0';
     modalBackground.style.width = '100%';
     modalBackground.style.height = '100%';
-    modalBackground.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+    modalBackground.style.backgroundColor = 'var(--emblem--blue)';
     modalBackground.style.display = 'flex';
     modalBackground.style.justifyContent = 'center';
     modalBackground.style.alignItems = 'center';
@@ -541,12 +541,16 @@ function viewGalleryImage(imageSrc, altText) {
     const modalContent = document.createElement('div');
     modalContent.style.position = 'relative';
     modalContent.style.padding = '20px';
-    modalContent.style.backgroundColor = 'white';
+    modalContent.style.backgroundColor = 'var(--slide-overlays)';
     modalContent.style.borderRadius = '10px';
+    img.style.maxWidth = '90%';
+    img.style.maxHeight = '80vh'; // Adjusted for viewport height
+    img.style.minWidth = '70%';
+
 
     // Close button
     const closeButton = document.createElement('div');
-    closeButton.innerHTML = 'X';
+    closeButton.innerHTML = 'x';
     closeButton.style.position = 'absolute';
     closeButton.style.top = '10px';
     closeButton.style.right = '15px';
