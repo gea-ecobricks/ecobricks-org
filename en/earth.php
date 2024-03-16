@@ -389,12 +389,6 @@
                         <p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK</p>
                         <p><a class="module-btn" href="photos/prtmadog-500px.webp" target="_blank">View project</a></p>
                     </div>
-
-                    <div class="gal-photo" onclick="viewGalleryImage('../photos/prtmadog-500px.webp', 'A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK')">
-                        <img src="../photos/prtmadog-500px.webp" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK">
-                        <p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK</p>
-                        <p><a class="module-btn" href="photos/prtmadog-500px.webp" target="_blank">View project</a></p>
-                    </div>
 </div>
 
 
