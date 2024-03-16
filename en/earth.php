@@ -531,7 +531,7 @@ function viewGalleryImage(imageSrc, altText) {
     modalBackground.style.left = '0';
     modalBackground.style.width = '100%';
     modalBackground.style.height = '100%';
-    modalBackground.style.backgroundColor = 'var(--emblem-pink)';
+    modalBackground.style.backgroundColor = 'var(--show-hide)';
     modalBackground.style.display = 'flex';
     modalBackground.style.justifyContent = 'center';
     modalBackground.style.alignItems = 'center';
@@ -541,12 +541,14 @@ function viewGalleryImage(imageSrc, altText) {
     const modalContent = document.createElement('div');
     modalContent.style.position = 'relative';
     modalContent.style.padding = '20px';
-    modalContent.style.backgroundColor = 'var(--slide-overlays)';
+    modalContent.style.backgroundColor = 'var(--emblem-pink)';
     modalContent.style.borderRadius = '10px';
     modalContent.style.maxWidth = '90%';
     modalContent.style.maxHeight = '80vh'; // Adjusted for viewport height
     modalContent.style.minWidth = '70%';
     modalContent.style.width = '50%';
+    modalContent.style.color = 'var(--slide-overlays)';
+    
 
 
     // Close button
