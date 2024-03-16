@@ -429,37 +429,68 @@
 <script>
 
 function viewGalleryImage(imageSrc, altText) {
-    const modal = document.createElement('div');
-    modal.style.position = 'fixed';
-    modal.style.top = '0';
-    modal.style.left = '0';
-    modal.style.width = '100%';
-    modal.style.height = '100%';
-    modal.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
-    modal.style.display = 'flex';
-    modal.style.justifyContent = 'center';
-    modal.style.alignItems = 'center';
-    modal.style.zIndex = '1000';
+    // Modal background
+    const modalBackground = document.createElement('div');
+    modalBackground.style.position = 'fixed';
+    modalBackground.style.top = '0';
+    modalBackground.style.left = '0';
+    modalBackground.style.width = '100%';
+    modalBackground.style.height = '100%';
+    modalBackground.style.backgroundColor = 'var(--show-hide)';
+    modalBackground.style.display = 'flex';
+    modalBackground.style.justifyContent = 'center';
+    modalBackground.style.alignItems = 'center';
+    modalBackground.style.zIndex = '1000';
 
+    // Modal content
+    const modalContent = document.createElement('div');
+    modalContent.style.position = 'relative';
+    modalContent.style.padding = '20px';
+    modalContent.style.backgroundColor = 'rgba(255, 255, 255, 0.8)'; // Semi-transparent white
+    modalContent.style.borderRadius = '10px';
+    modalContent.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
+    modalContent.style.backdropFilter = 'blur(0.3rem)';
+
+    // Image
     const img = document.createElement('img');
     img.src = imageSrc;
     img.alt = altText;
     img.style.maxWidth = '90%';
-    img.style.maxHeight = '90%';
+    img.style.maxHeight = '80vh'; // Adjusted for viewport height
 
+    // Caption
     const caption = document.createElement('p');
     caption.textContent = altText;
-    caption.style.color = 'white';
+    caption.style.color = 'var(--text-color)';
     caption.style.textAlign = 'center';
+    caption.style.paddingTop = '10px';
 
-    modal.appendChild(img);
-    modal.appendChild(caption);
+    // Close button
+    const closeButton = document.createElement('div');
+    closeButton.innerHTML = 'X';
+    closeButton.style.position = 'absolute';
+    closeButton.style.top = '10px';
+    closeButton.style.right = '15px';
+    closeButton.style.cursor = 'pointer';
+    closeButton.style.color = 'var(--text-color)';
 
-    modal.onclick = function() {
-        document.body.removeChild(modal);
+    closeButton.onclick = function() {
+        document.body.removeChild(modalBackground);
     };
 
-    document.body.appendChild(modal);
+    modalContent.appendChild(img);
+    modalContent.appendChild(caption);
+    modalContent.appendChild(closeButton);
+    modalBackground.appendChild(modalContent);
+
+    modalBackground.onclick = function(event) {
+        if (event.target === modalBackground) {
+            document.body.removeChild(modalBackground);
+        }
+    };
+
+    document.body.appendChild(modalBackground);
+
 }
 </script>
 
