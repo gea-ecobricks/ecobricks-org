@@ -520,8 +520,7 @@ function viewGalleryImage(imageSrc, altText) {
 
     document.body.appendChild(modalBackground);
 
-
-
+}
 
 
     function createInfoModal(infoText) {
@@ -583,7 +582,6 @@ function viewGalleryImage(imageSrc, altText) {
 }
 
 
-}
 </script>
 
 <!-- This script is for pages that use the accordion content system-->
