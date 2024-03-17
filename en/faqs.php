@@ -11,14 +11,14 @@
 
 <!--TOP PAGE BANNER-->
 <div id="cloud-box">
-    <div id="clouds" ><img src="../webp/faq-top.webp?v1.0" width="300" style="width:100%;" alt="Notre vision d'un nouveau monde vert qui est possible grâce à la transition plastique"></div>
-    <div id="cloud-banner"><img src="../webp/faq-bottom.webp" width="300" style="width:100%;" alt="Notre vision d'un nouveau monde vert qui est possible grâce à la transition plastique"></div>
+    <div id="clouds" ><img src="../webp/faq-top.webp?v1.0" width="300" style="width:100%;" alt="Our vision of a green new world with ecobrick and earthen constructions and lots of biodiversity"></div>
+    <div id="cloud-banner"><img src="../webp/faq-bottom.webp" width="300" style="width:100%;" alt="Our vision of a green new world with ecobrick and earthen constructions and lots of biodiversity"></div>
 </div>
 
 <div id="header-content-block">
         <div id="raised-text">
             <h1>Frequently Asked Questions</h1>
-            <p>Tim kami telah bekerja dengan ecobrick dan plastik selama satu dekade terakhir. Inilah jawaban kami atas pertanyaan umum tentang masing-masing.</p>
+            <p>All your questions about ecobricks and all our answers.</p>
         </div>
     </div>
 

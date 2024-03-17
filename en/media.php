@@ -1,29 +1,26 @@
-<!--PAGE LANGUAGE:  ENGLISH
-Content Page template: v.1.0.1-->
-  
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/media-inc.php");?>
+<!DOCTYPE html>
+<HTML lang="en"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='en';?>
+<?php $version='1.82';?>
+<?php $page='earth';?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("translate-please.php");?>-->
+<title>Ecobrick Media Kit</title>
 
-<!--PAGE BANNER-->
-
+<?php require_once ("../includes/earth2-inc.php");?>
 	
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">Ecobrick Media Kit</div>
 		<div class="splash-sub">A short guide to reporting on ecobricks & the plastic transition movement.</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/webp/earthcenter-banner-400px.webp" style="width: 76%;"></div>	
+	<div class="splash-image"><img src="../webp/earthcenter-banner-400px.webp" style="width: 76%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
 
 <!-- PAGE CONTENT-->
-
-<a name="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -253,10 +250,10 @@ Content Page template: v.1.0.1-->
                          <br>
 						 <h3>And... be sure to try it yourself!</h3>
                         
-                         <p>The best way to document ecobricks is to try it yourself.  We encourage you to save your household plastic for a month, weight it then ecobrick it.  Then save and weigh your plastic consumption the next month. Subtracting your second month of consumption from your first, will show your <a href="transition">plastic transition</a> progress.  Now, that's a good story! 👍</p>
+                         <p>The best way to document ecobricks is to try it yourself.  We encourage you to save your household plastic for a month, weight it then ecobrick it.  Then save and weigh your plastic consumption the next month. Subtracting your second month of consumption from your first, will show your <a href="transition.php">plastic transition</a> progress.  Now, that's a good story! 👍</p>
 			<br><br>
-			<a class="action-btn" href="/how" target="_blank">Lean How Make An Ecobrick</a>
-			<p style="font-size: 0.85em; margin-top:20px;">See our 10 Steps Guide</a></p>
+			<a class="action-btn" href="how.php">Lean How Make An Ecobrick</a>
+			<p style="font-size: 0.85em; margin-top:20px;">See our 10 Step Ecobrick Making Guide</a></p>
                     
                     </div></p>
 
@@ -278,14 +275,14 @@ Content Page template: v.1.0.1-->
 				<img src="../webp/gea-logo-400px.webp" width="90%" loading="lazy">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about">About Us</a>
+				<a class="module-btn" href="about.php">About Us</a>
 			</div>
 
         <div id="side-module-desktop-mobile">
 				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
-				<a class="module-btn" href="transition">Learn More</a>
+				<a class="module-btn" href="transition.php">Learn More</a>
 			</div>
 
 	
@@ -295,14 +292,14 @@ Content Page template: v.1.0.1-->
 				<img src="../webp/for-earth500px.webp" width="80%" loading="lazy">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="about">About Us</a>
+				<a class="module-btn" href="about.php">About Us</a>
 			</div>
 
             <div id="side-module-desktop-mobile">
                 <img src="../webp/faqs-400px.webp" width="100%" loading="lazy">
                 <h4>Ecobricks</h4>
                 <h5>The GEA advocates ecobricking as a means to sequester plastic.</h5><br>
-                <a class="module-btn" href="sequest">Plastic Sequestration</a>
+                <a class="module-btn" href="sequest.php">Plastic Sequestration</a>
             </div>
 
 		</div>
@@ -311,18 +308,21 @@ Content Page template: v.1.0.1-->
 </div>
 
 
+
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
 
+<!-- This script is for pages that use the accordion content system-->
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
 </body>
 </html>
+
+
 

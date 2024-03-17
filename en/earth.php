@@ -5,7 +5,7 @@
 <?php $lang='en';?>
 <?php $version='1.82';?>
 <?php $page='earth';?>
-
+ 
 <title>Earth & Ecobrick Building</title>
 
 <?php require_once ("../includes/earth2-inc.php");?>
