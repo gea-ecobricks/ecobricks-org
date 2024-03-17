@@ -6,14 +6,14 @@
 <?php $version='1.84';?>
 <?php $page='media';?>
 
-<title>Ecobrick Media Kit</title>
+<title>Kit Média Écobrique</title>
 
 <?php require_once ("../includes/media-inc.php");?>
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick Media Kit</div>
-		<div class="splash-sub" data-lang-id="002-splash-subtitle">A short guide to reporting on ecobricks & the plastic transition movement.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Kit Média Écobrique</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">Un guide pour rapporter sur les écobriques et la transition plastique.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../webp/earthcenter-banner-400px.webp" style="width: 76%;"></div>	
 </div>

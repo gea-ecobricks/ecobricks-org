@@ -1,309 +1,264 @@
-<!--PAGE LANGUAGE:  INDONESIA
-Content Page template: v.1.0.1-->
-  
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
+<!DOCTYPE html>
+<HTML lang="id"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='id';?>
+<?php $version='1.84';?>
+<?php $page='media';?>
+
+<title>Kit Média Écobrique</title>
+
 <?php require_once ("../includes/media-inc.php");?>
-
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
-
-<!--PAGE BANNER-->
-
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Paket Media Ecobrick</div>
-		<div class="splash-sub">Panduan untuk melaporkan ecobrick & gerakan transisi plastik.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Kit Media Ecobrick</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">Panduan untuk melaporkan tentang ecobricks & gerakan transisi plastik.</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/webp/earthcenter-banner-400px.webp" style="width: 76%;"></div>	
+	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../webp/earthcenter-banner-400px.webp" style="width: 76%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
-
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
 
-			<div class="lead-page-paragraph">
+			<div class="lead-page-paragraph" >
 				
-			<p>Menulis tentang ecobrick? Kami telah menyusun panduan ini untuk menghindari kesalahpahaman tentang ecobrick, menggunakan terminologi yang diterima secara umum dan menghubungkan konten kami untuk membantu Anda dengan cerita Anda.</p>
+			<p data-lang-id="004-lead-page-paragraph">Covering ecobricks?  We’ve assembled this guide to avoiding ecobrick misconceptions, using generally accepted terminology and attributing our content to help you with your story.</p>
 			</div>
 
 			<div class="page-paragraph">
-            <p>Aliansi Ecobrick Global menggunakan terminologi yang telah ditentukan secara kolektif oleh gerakan ecobrick global dan ditetapkan di <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobrick artikel</a> di seluruh situs dan sumber daya kami.</p>
-                 <p>Kami mendorong penggunaan istilah dan ejaan yang sama oleh jurnalis, peneliti, dan ecobricker untuk menambah konsistensi dan momentum pada gerakan transisi plastik akar rumput lokal dan global.</p>
-                 <p>Di bawah ini kami memberikan ikhtisar tentang istilah ecobrick, kesalahpahaman, lisensi creative commons kami, dan tag atribusi yang diperlukan untuk penggunaan atau teks, foto, dan video.<p> 
+				<p data-lang-id="005-first-page-paragraph">The Global Ecobrick Alliance uses terminology that has been collectively determined by the global ecobrick movement and established on the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks article</a> throughout our site and resources.</p>  
+
+                <p data-lang-id="006-second-page-paragraph">We encourage the same usage of terms and spellings by journalist, researchers and ecobrickers to add consistentcy and momentum to local and global grass roots plastic transition movements.</p>
+
+                <p data-lang-id="007-third-page-paragraph">Below we provide an overview of ecobrick terms, misconceptions, our creative commons licenses and our requisite attribution tags for using or texts, photos and videos.<p> 
 
 			</div>	
 
-			<div class="reg-content-block" id="block1">
+	<div class="reg-content-block" id="block1">
 				
-				<div class="opener-header">
+	<div class="opener-header">
 					
-					<div class="opener-header-text">
-						<h4>Syarat & Ejaan</h4>
-						<h5>Ejaan yang diterima secara umum untuk istilah-istilah kunci.</h5>
-					</div>
+		<div class="opener-header-text">
+			<h4 data-lang-id="008-terms-title">Terms & Spellings</h4>
+			<h5 data-lang-id="009-terms-subtitle">The generally accepted spelling for key terms.</h5>
+		</div>
 					
 
-					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+		<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
 					
-				</div>
+	</div>
 
-				<div id="preclosed1">
-					<br>
+	<div id="preclosed1">
+		<br>
 					
-					<p><b>Ecobrick</b></p>
-                    <p><b>"ecobrick"</b> — tidak ada spasi, tanda hubung, atau kapitalisasi tambahan dalam ejaan yang dikenali. Ini adalah ejaan yang dikenali dari entri dan url Wikipedia ecobrick: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/<b>ecobricks.< /b></a></p>
+		<p data-lang-id="010-ecobrick-definition"><b>Ecobrick</b></p>
+        <p data-lang-id="011-ecobrick-spelling"><b>"ecobrick"</b> — no space, hyphen or added capitalization is the recognized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and URL: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/ecobricks.</a></p>
 
-                    <p>Dulu istilah seperti "bottle brick", "eco brick" dan "eco-brick" telah digunakan untuk merujuk pada botol PET yang dikemas dengan plastik. Pada tahun 2014, para pemimpin transisi plastik di seluruh dunia berunding dan setuju bahwa konsep kami layak mendapatkan kata yang lengkap dan dinormalisasi. Halaman wikipedia ecobrick telah diperbarui pada tahun 2016.</p>
+        <p data-lang-id="012-ecobrick-history">In the past, terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2014, plastic transition leaders around the world conferred and agreed that our concept deserved its own full-fledged and normalized word.  The ecobrick Wikipedia page was updated accordingly in 2016.</p> 
                     
-                    <p>CATATAN: Teknologi pembuatan batu bata lainnya meminjam istilah ecobrick dengan menggunakan berbagai ejaan. Korporasi seperti Nestle telah berusaha untuk menyesuaikan 'ecobrick' untuk program tanggung jawab sosial perusahaan blok semen mereka. Namun, sekuestrasi plastik dalam botol PET adalah <a href="https://en.wikipedia.org/wiki/Eco-Brick" target="_blank">disambiguasi wikipedia yang diakui untuk ejaan tanpa tanda penghubung.</a ></p><br>
+        <p data-lang-id="013-ecobrick-note">NOTE:  Other brick-making technologies borrow the term ecobrick by using a variety of spellings.  Corporations such as Nestle have attempted to appropriate 'ecobrick' for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick" target="_blank">recognized Wikipedia disambiguation for the non-hyphenated spelling.</a></p><br>
 
-                    <p><b>Sekuestrasi Plastik</b></p>
-                    <p>Tujuan dari ecobrick adalah <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sekuestrasi plastik</a>. Ini adalah istilah resmi sebagaimana didefinisikan dan diakui di wikipedia.</p>
-                    <br>
-                    <p><b>Ecobricker</b></p>
-                    <p>Seseorang yang membuat ecobrick atau yang telah berkomitmen untuk ecobrick semua plastiknya</p><br>
-                    <p><b>Ekobrik</b><p>
-                    <p>Tindakan mengikat plastik di dalam ecobrick.</p>
-                    <br>
-                 			
-				</div>	
-			</div>
+        <p data-lang-id="014-plastic-sequestration-definition"><b>Plastic Sequestration</b></p>
+        <p data-lang-id="015-plastic-sequestration-goal">The goal of ecobricking is the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sequestration of plastic</a>.  This is the official term as defined and recognized on Wikipedia.</p>
+        <br>
+        <p data-lang-id="016-ecobricker-definition"><b>Ecobricker</b></p>
+        <p data-lang-id="017-ecobricker-description">Someone who makes an ecobrick or who has committed to ecobricking all their plastic</p><br>
+        <p data-lang-id="018-ecobricking-definition"><b>Ecobricking</b><p>
+        <p data-lang-id="019-ecobricking-description">The act of sequestering plastic inside an ecobrick.</p>
+        <br>			
+	</div>	
+</div>
 
-			<div class="reg-content-block" id="block2">
-				<div class="opener-header">
-					<div class="opener-header-text">
-						<h4>Misconceptions</h4>
-						<h5>Please avoid the common misconceptions about ecobricks.</h5><br>
-					</div>
-					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-				</div>
 
-				<div id="preclosed2">
-					<p>
+<div class="reg-content-block" id="block2">
+	<div class="opener-header">
+		<div class="opener-header-text">
+			<h4 data-lang-id="020-misconceptions-title">Misconceptions</h4>
+			<h5 data-lang-id="021-misconceptions-subtitle">Please avoid the common misconceptions about ecobricks.</h5><br>
+		</div>
+		<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+	</div>
 
-                    <ul>
-			<li><b><i>“Ecobricks are made with plastic trash."</i></b> <br><br>
+	<div id="preclosed2">
+		<p>
+
+		<ul>
+			<li data-lang-id="022-misconception-plastic-trash"><b><i>“Ecobricks are made with plastic trash."</i></b> <br><br>
             The Global Ecobrick Alliance, approaches plastic from a regenerative and ayyew philosophy.  As such we do not refer to plastic as ‘trash’.  This is the antithesis of ecobricks which views plastic as a resource. Please avoid associating ecobricks with “waste” or “trash” and rather as "used plastic" or "discarded plastic".  See our <a href="/ayyew">Ayyew Principle.</a><br><br></li>
-            <li><b><i>“Ecobricks are for building schools and homes”</i></b> <br><br>
+            
+			<li data-lang-id="023-misconception-building-structures"><b><i>“Ecobricks are for building schools and homes”</i></b> <br><br>
              Although you can build structures with them, 99% of ecobricks are applied in projects that use less than 20 ecobricks at a time (such as seats, furniture, tables, garden beds, etc.).  The GEA advocates small and useful applications as a means of empowering a wider section of society. See <a href="build.php">Ecobrick Applications</a><br><br></li>
-            <li><b><i>“Ecobricks are for developing countries and poor people"</i></b> <br><br>
+             
+			<li data-lang-id="024-misconception-developing-countries"><b><i>“Ecobricks are for developing countries and poor people"</i></b> <br><br>
              Ecobricks are for anyone who wants to take responsibility for their plastic, and are relevant around the world.  Currently, there are more ecobrickers from the UK on our GoBrik app than anywhere else in the world. See <a href="https://www.gobrik.com/#global/country-stats/">GoBrik country stats</a></li><br><br>
-            <li><b><i>“Ecobricks are for places where recycling isn’t an option”</i></b><br><br>
-             Ecobricks are ideal for places with recycling!  In fact, avoiding industrial recycling and incineration is precisely why most ecobrickers ecobirck.  Intentionally, ecobricks help keep plastic out of the recycling industry.  This prevents the creation of more factories, prevents the emissions of running these factories and prevents fuel burned for exporting and transporting to and from these factories.  Keeping plastic out of industry also prevents the inevitable dispersion of the plastic that has been shown to eventually result. See <a href="sequest.php">Plastic Sequestration</a><br><br></li>
-            <li><b><i>“Ecobricks are a Sustainable Development technology”</i></b><br><br>
-             The GEA explicitly differentiates itself from “sustainabity” and “development” paradigms. Instead: Ecobricks are a non-capital, collaboration powered, regenerative technology. See our <a href="/principles">principles</a><br><br></li>
-            <li><b><i>“The GEA is an NGO”</i></b> <br><br>
-             The Global Ecobrick Alliance is not a company nor an NGO.  We distinguish between these two organizational structures and call ourselves are a not-for-profit Earth Enterprise.  See <a href="about.php">About us</a></li>
-            </p>
+             
+			<li data-lang-id="025-misconception-recycling-option"><b><i>“Ecobricks are for places where recycling isn’t an option”</i></b><br><br>
+             Ecobricks are ideal for places with recycling!  In fact, avoiding industrial recycling and incineration is precisely why most ecobrickers ecobrick.  Intentionally, ecobricks help keep plastic out of the recycling industry.  This prevents the creation of more factories, prevents the emissions of running these factories and prevents fuel burned for exporting and transporting to and from these factories.  Keeping plastic out of industry also prevents the inevitable dispersion of the plastic that has been shown to eventually result. See <a href="sequest.php">Plastic Sequestration</a><br><br></li>
+             
+			<li data-lang-id="026-misconception-sustainable-development"><b><i>“Ecobricks are a Sustainable Development technology”</i></b><br><br>
+             The GEA explicitly differentiates itself from “sustainability” and “development” paradigms. Instead: Ecobricks are a non-capital, collaboration powered, regenerative technology. See our <a href="/principles">principles</a><br><br></li>
+             
+			<li data-lang-id="027-misconception-GEA-NGO"><b><i>“The GEA is an NGO”</i></b> <br><br>
+             The Global Ecobrick Alliance is not a company nor an NGO.  We distinguish between these two organizational structures and call ourselves a not-for-profit Earth Enterprise.  See <a href="about.php">About us</a></li>
+		</ul>
+		</p>
+		<br>
+	</div>
+</div>
+
+<div class="reg-content-block" id="block3">
+
+	<div class="opener-header">
+		
+		<div class="opener-header-text">
+			<h4 data-lang-id="028-quoting-title">Quoting our texts</h4>
+			<h5 data-lang-id="029-quoting-subtitle">Guidelines for using snippets from this site.</h5>
 			<br>
+		</div>
 
-				</div>
-			</div>
+		<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+	</div>
 
-			<div class="reg-content-block" id="block3">
-
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-					<h4>Quoting our texts</h4>
-					<h5>Guidelines for using snippets from this site.</h5>
-					<br>
-					</div>
-
-					<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-				</div>
-
-				<div id="preclosed3">
-					
-					<p>When using written content from our site our resources please attribute to “The Global Ecobrick Alliance – Ecobricks.org”.  ‘Ecobricks.org” is not necessary if a hyperlink is added to the attribution.</p>
-                    <p>For hyper-links, please use: https://ecobricks.org</p><br>
-                    
-				</div>
-			</div>
+	<div id="preclosed3">
+		
+		<p data-lang-id="030-quoting-guidelines">When using written content from our site our resources please attribute to “The Global Ecobrick Alliance – Ecobricks.org”.  ‘Ecobricks.org” is not necessary if a hyperlink is added to the attribution.</p>
+        <p data-lang-id="031-quoting-hyperlink">For hyper-links, please use: https://ecobricks.org</p><br>
+        
+	</div>
+</div>
 
 
 
-			<div class="reg-content-block" id="block4">
+<div class="reg-content-block" id="block4">
 
-            <div class="opener-header">
-                
-                <div class="opener-header-text">
-                <h4>Photos & Images</h4>
-                <h5>Guidelines for using and attritubuting our images.</h5>
-                <br>
-                </div>
+	<div class="opener-header">
+		
+		<div class="opener-header-text">
+			<h4 data-lang-id="032-photos-title">Photos & Images</h4>
+			<h5 data-lang-id="033-photos-subtitle">Guidelines for using and attributing our images.</h5>
+			<br>
+		</div>
 
-                <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
-            </div>
+		<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+	</div>
 
-            <div id="preclosed4">
-                
-                <p>All the photos and images on ecobricks.org are available for use under a Creative Commons Attribution-ShareAlike 4.0 International License. unless noted otherwise (such as our logos, icons and emblems).</p>
-                <p>Please attribute to "The Global Ecobrick Alliance - Ecobricks.org"</p><br>
-                <p><b>Galley of Stock Ecobrick Photos</b></p>
-                <p>We've assembled a <a href="/gallery-kit">gallery of wide ranging of ecobrick related photos</a> that you can freely use under our CC-A-SA-4.0 license.</p>
-                <br>
+	<div id="preclosed4">
+		
+		<p data-lang-id="034-photos-usage">All the photos and images on ecobricks.org are available for use under a Creative Commons Attribution-ShareAlike 4.0 International License, unless noted otherwise (such as our logos, icons, and emblems).</p>
+		<p data-lang-id="035-photos-attribution">Please attribute to "The Global Ecobrick Alliance - Ecobricks.org"</p><br>
+		<p data-lang-id="036-photos-gallery-title"><b>Gallery of Stock Ecobrick Photos</b></p>
+		<p data-lang-id="037-photos-gallery-description">We've assembled a <a href="/gallery-kit">gallery of wide-ranging ecobrick related photos</a> that you can freely use under our CC-A-SA-4.0 license.</p>
+		<br>
 
-            </div>
-        </div>
+	</div>
+</div>
 
-
-
-			<div class="reg-content-block" id="block5">
-
-				<div class="opener-header">
-					
-					<div class="opener-header-text">
-					<h4>Videos</h4>
-					<h5>Guidelines for using our video content</h5>
-					<br>
-					</div>
-
-					<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
-				</div>
-
-				<div id="preclosed5">
-					
-					<p>All the videos on this site and on our <a href="https://youtube.com/ecobricks" tagert="_blank">Our Youtube Channel</a> are available for use under a Creative Commons Attribution-ShareAlike 4.0 International License unless otherwise noted.</p>
-                    
-                    <p> Please attribute to "The Global Ecobrick Alliance - Ecobricks.org"</p>
-					<br>
-			
-				</div>
-			</div>
-
-
-			<div class="reg-content-block" id="block6">
-
-            <div class="opener-header">
-                
-                <div class="opener-header-text">
-                <h4>Interviews</h4>
-                <h5>Contact our appropriate team to ask questions or arrange an interview.</h5>
-                <br>
-                </div>
-
-                <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
-            </div>
-
-            <div id="preclosed6">
-                
+<div class="reg-content-block" id="block5">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="028-videos-title">Videos</h4>
+            <h5 data-lang-id="029-videos-subtitle">Guidelines for using our video content</h5>
             <br>
+        </div>
+        <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
+    </div>
+    <div id="preclosed5">
+        <p data-lang-id="030-videos-content">All the videos on this site and on our <a href="https://youtube.com/ecobricks" target="_blank">Our Youtube Channel</a> are available for use under a Creative Commons Attribution-ShareAlike 4.0 International License unless otherwise noted.</p>
+        <p data-lang-id="031-videos-attribution">Please attribute to "The Global Ecobrick Alliance - Ecobricks.org"</p>
+        <br>
+    </div>
+</div>
 
-            <p><b>The GEA in the United Kingdom</b></p>
+<div class="reg-content-block" id="block6">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="032-interviews-title">Interviews</h4>
+            <h5 data-lang-id="033-interviews-subtitle">Contact our appropriate team to ask questions or arrange an interview.</h5>
+            <br>
+        </div>
+        <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
+    </div>
+    <div id="preclosed6">
+        <br>
+        <p data-lang-id="034-contact-title"><b>The GEA in the United Kingdom</b></p>
             <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p>
             <br>
 
-            <p><b>The GEA in Indonesia</b></p>
+            <p data-lang-id="035-contact-title"><b>The GEA in Indonesia</b></p>
             <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#105;&#110;&#100;&#111;&#110;&#101;&#115;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
 
-            <p><b>Direct Media Enquiries</b></p>
+            <p data-lang-id="036-contact-title"><b>Direct Media Enquiries</b></p>
 
             <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#101;&#100;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#109;&#101;&#100;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
 
-            </div>
-            </div>
+    </div>
+</div>
 
+<div class="reg-content-block" id="block7">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="040-past-coverage-title">Past Coverage</h4>
+            <h5 data-lang-id="041-past-coverage-subtitle">Examples of stories on ecobricks and the plastic transition movement.</h5>
+            <br>
+        </div>
+        <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+    </div>
+    <div id="preclosed7">
+        <ul>
+            <li data-lang-id="042-past-coverage-cnn-indonesia"><p><b>CNN Indonesia</b> | <a href="https://www.youtube.com/watch?v=peDg7qwWMKU" target="_blank">60 minute Interview with Desi Anwar, Ani Himawati, and Russell Maier on the Ecobrick movement</a></p></li>
+            <li data-lang-id="043-past-coverage-korea-tv"><p><b>Korea TV</b> | <a href="http://www.ytn.co.kr/_sp/0930_201603122050037614" target="_blank">Ecobricks Feature on National Korean TV</a></p></li>
+            <li data-lang-id="044-past-coverage-jogja-tv"><p><b>Indonesia, Jogja TV</b> | <a href="http://jogjatv.tv/pemkot-luncurkan-ecobricks-untuk-atasi-sampah-plastik/" target="_blank">Ecobrick Convergence Featured on Jogja city TV</a></p></li>
+            <li data-lang-id="045-past-coverage-net-tv"><p><b>Indonesia, NET.TV</b> | <a href="https://www.youtube.com/watch?v=fK-cc8SfSW8" target="_blank">Ecobrick Spread in Jogjakarta and the Jogja Ecobrick Team Featured on NET.TV</a></p></li>
+            <li data-lang-id="046-past-coverage-spot-ph"><p><b>Philippiines, Spot.ph</b> | <a href="http://www.spot.ph/newsfeatures/newsfeatures-peopleparties/71089/interview-russel-maier-ecobricks-a00171-20170810-lfrm2" target="_blank">The history of ecobricking in the Philippines.</a></p></li>
+            <li data-lang-id="047-past-coverage-independent-documentary"><p><b>Independent Documentary</b> | <a href="https://www.youtube.com/watch?v=Ynh0RYORsOM" target="_blank">Solving Plastic One Bottle at a Time in the Northern Philippines: 10 minute documentary on Russell Maier, Irene Angway and the spread of Ecobricks in the Norther Philippines.</a></p></li>
+        </ul>
+        <br><br>
+    </div>
+</div>
 
-            <div class="reg-content-block" id="block7">
+<div class="page-paragraph-reg">
+    <div class="row">
+        <div class="main2">
+            <br>
+            <h3 data-lang-id="048-try-it-yourself">And... be sure to try it yourself!</h3>
+            <p data-lang-id="049-try-it-yourself-content">The best way to document ecobricks is to try it yourself. We encourage you to save your household plastic for a month, weight it then ecobrick it. Then save and weigh your plastic consumption the next month. Subtracting your second month of consumption from your first, will show your <a href="transition.php">plastic transition</a> progress. Now, that's a good story! 👍</p>
+            <br><br>
+            <a class="action-btn" href="how.php" data-lang-id="050-learn-how">Lean How Make An Ecobrick</a>
+            <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="051-ecobrick-guide">See our 10 Step Ecobrick Making Guide</p>
+        </div>
+        <div class="side2">
+            <br><img src="../svgs/eb-blue.svg" width="100%" alt="how to make an eco brick" loading="lazy" data-lang-id="052-ecobrick-image-alt">
+        </div>
+    </div>
+</div>
 
-            <div class="opener-header">
-                
-                <div class="opener-header-text">
-                <h4>Past Coverage</h4>
-                <h5>Examples of stories on ecobricks and the plastic transition movement.</h5>
-                <br>
-                </div>
-
-                <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
-            </div>
-
-            <div id="preclosed7">
-			<ul>
-                <li><p><b>CNN Indonesia</b> | <a href="https://www.youtube.com/watch?v=peDg7qwWMKU" target="_blank">60 minute Interview with Desi Anwar, Ani Himawati, and Russell Maier on the Ecobrick movement</a></p></li>
-
-                <li><p><b>Korea TV</b>  |  <a href="http://www.ytn.co.kr/_sp/0930_201603122050037614" target="_blank">Ecobricks Feature on National Korean TV</a></p></li>
-
-                <li><p><b>Indonesia, Jogja TV</b>  |  <a href="http://jogjatv.tv/pemkot-luncurkan-ecobricks-untuk-atasi-sampah-plastik/" target="_blank">Ecobrick Convergence Featured on Jogja city TV</a></p></li>
-
-                <li><p><b>Indonesia, NET.TV</b>  |  <a href="https://www.youtube.com/watch?v=fK-cc8SfSW8" target="_blank">Ecobrick Spread in Jogjakarta and the Jogja Ecobrick Team Featured on NET.TV</a></p></li>
-
-                <li><p><b>Philippiines, Spot.ph</b>  | <a href="http://www.spot.ph/newsfeatures/newsfeatures-peopleparties/71089/interview-russel-maier-ecobricks-a00171-20170810-lfrm2" target="_blank">The history of ecobricking in the Philippines.</a></p></li>
-
-                <li><p><b>Independent Documentary</b>  | <a href="https://www.youtube.com/watch?v=Ynh0RYORsOM" target="_blank">Solving Plastic One Bottle at a Time in the Northern Philippines: 10 minute documentary on Russell Maier, Irene Angway and the spread of Ecobricks in the Norther Philippines.</a></p></li>
-				<br><br>
-
-            </div>
-            </div>
-
-            <div class="page-paragraph-reg">
-                 
-                 <div class="row">
-                
-                      <div class="main2">
-                         <br>
-						 <h3>And... be sure to try it yourself!</h3>
-                        
-                         <p>The best way to document ecobricks is to try it yourself.  We encourage you to save your household plastic for a month, weight it then ecobrick it.  Then save and weigh your plastic consumption the next month. Subtracting your second month of consumption from your first, will show your <a href="transition">plastic transition</a> progress.  Now, that's a good story! 👍</p>
-			<br><br>
-			<a class="action-btn" href="/how" target="_blank">Lean How Make An Ecobrick</a>
-			<p style="font-size: 0.85em; margin-top:20px;">See our 10 Steps Guide</a></p>
-                    
-                    </div></p>
-
-                    <div class="side2">
-                        <br><img src="../svgs/eb-blue.svg" width="100%" alt="how to make an eco brick" loading="lazy">
-                    </div>
-                </div>
-            </div>
-
-		
-	</div>
+</div>
 
 		
 		
 		<div class="side">
 
 
-		<div id="side-module-desktop-mobile">
-				<img src="../webp/gea-logo-400px.webp" width="90%" loading="lazy">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about">About Us</a>
-			</div>
-
-        <div id="side-module-desktop-mobile">
-				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy">
-				<h4>Plastic Transition</h4>
-				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
-				<a class="module-btn" href="transition">Learn More</a>
-			</div>
-
 	
 		
+            <?php require_once ("side-modules/about-gea.php");?>
 
-			<div id="side-module-desktop-mobile">
-				<img src="../webp/for-earth500px.webp" width="80%" loading="lazy">
-				<h4>For-Earth Enterprise</h4>
-				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="about">About Us</a>
-			</div>
+            <?php require_once ("side-modules/for-earth.php");?>
 
-            <div id="side-module-desktop-mobile">
-                <img src="../webp/faqs-400px.webp" width="100%" loading="lazy">
-                <h4>Ecobricks</h4>
-                <h5>The GEA advocates ecobricking as a means to sequester plastic.</h5><br>
-                <a class="module-btn" href="sequest">Plastic Sequestration</a>
-            </div>
+            <?php require_once ("side-modules/sequest-module.php");?>
+
+            <?php require_once ("side-modules/transition-module.php");?>
+
+
+
+
 
 		</div>
 
@@ -311,18 +266,21 @@ Content Page template: v.1.0.1-->
 </div>
 
 
+
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
 
+<!-- This script is for pages that use the accordion content system-->
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
 </body>
 </html>
+
+
 

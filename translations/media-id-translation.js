@@ -8,7 +8,7 @@ EN SNIPPETS FOR ECOBRICKS.ORG / MEDIA
 
 const id_Page_Translations = {
     "001-splash-title": "Kit Media Ecobrick",
-    "002-splash-subtitle": "Panduan singkat untuk melaporkan tentang ecobricks & gerakan transisi plastik.",
+    "002-splash-subtitle": "Panduan untuk melaporkan tentang ecobricks & gerakan transisi plastik.",
     "003-splash-alt": '<img src="../webp/earthcenter-banner-400px.webp" style="width: 76%;">',
     "004-lead-page-paragraph": "Meliput ecobricks? Kami telah menyusun panduan ini untuk menghindari kesalahpahaman ecobrick, menggunakan terminologi yang umum diterima dan mengatribusikan konten kami untuk membantu Anda dengan cerita Anda.",
     "005-first-page-paragraph": 'Aliansi Global Ecobrick menggunakan terminologi yang telah ditentukan secara kolektif oleh gerakan ecobrick global dan ditetapkan dalam <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">artikel Wikipedia Ecobricks</a> di seluruh situs dan sumber daya kami.',
