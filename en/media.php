@@ -8,7 +8,7 @@
 
 <title>Ecobrick Media Kit</title>
 
-<?php require_once ("../includes/earth2-inc.php");?>
+<?php require_once ("../includes/media-inc.php");?>
 	
 <div class="splash-content-block">
 	<div class="splash-box">
@@ -271,36 +271,21 @@
 		<div class="side">
 
 
-		<div id="side-module-desktop-mobile">
-				<img src="../webp/gea-logo-400px.webp" width="90%" loading="lazy">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
-			</div>
-
-        <div id="side-module-desktop-mobile">
-				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy">
-				<h4>Plastic Transition</h4>
-				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
-				<a class="module-btn" href="transition.php">Learn More</a>
-			</div>
-
 	
 		
 
-			<div id="side-module-desktop-mobile">
-				<img src="../webp/for-earth500px.webp" width="80%" loading="lazy">
-				<h4>For-Earth Enterprise</h4>
-				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
-			</div>
 
-            <div id="side-module-desktop-mobile">
-                <img src="../webp/faqs-400px.webp" width="100%" loading="lazy">
-                <h4>Ecobricks</h4>
-                <h5>The GEA advocates ecobricking as a means to sequester plastic.</h5><br>
-                <a class="module-btn" href="sequest.php">Plastic Sequestration</a>
-            </div>
+            <?php require_once ("side-modules/about-gea.php");?>
+
+            <?php require_once ("side-modules/for-earth.php");?>
+
+            <?php require_once ("side-modules/sequest-module.php");?>
+
+            <?php require_once ("side-modules/transition-module.php");?>
+
+
+
+
 
 		</div>
 
