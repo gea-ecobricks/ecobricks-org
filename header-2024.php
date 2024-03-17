@@ -75,7 +75,7 @@ window.onload = function() {
     window.currentLanguage = '<?php echo ($lang); ?>'; // Default language code
     switchLanguage(window.currentLanguage);
     // updateLogoColor();
-
+    checkRegistrationStatus();
     window.subSource = 'ecobricks-org'; // Make subSource globally accessible
 }
 
