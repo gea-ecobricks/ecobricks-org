@@ -7,8 +7,6 @@
 
 <?php require_once ("../meta/media-$lang.php");?>
 
-<?php require_once ("../header.php");?>
-
 
 <STYLE>
 
@@ -25,7 +23,7 @@
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 
-		background: url(https://ecobricks.org/svgs/gray-to-blue-media-banner2.svg) bottom;
+		background: url(../svgs/gray-to-blue-media-banner2.svg) bottom;
 		background-color: #0066FF;
 
 }

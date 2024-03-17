@@ -12,10 +12,10 @@
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Ecobrick Media Kit</div>
-		<div class="splash-sub">A short guide to reporting on ecobricks & the plastic transition movement.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick Media Kit</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">A short guide to reporting on ecobricks & the plastic transition movement.</div>
 	</div>
-	<div class="splash-image"><img src="../webp/earthcenter-banner-400px.webp" style="width: 76%;"></div>	
+	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../webp/earthcenter-banner-400px.webp" style="width: 76%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
@@ -27,53 +27,55 @@
 	<div class="row">
 		<div class="main">
 
-			<div class="lead-page-paragraph">
+			<div class="lead-page-paragraph" >
 				
-			<p>Covering ecobricks?  We’ve assembled this guide to avoiding ecobrick misconceptions, using generally accepted terminology and attributing our content to help you with your story.</p>
+			<p data-lang-id="004-lead-page-paragraph">Covering ecobricks?  We’ve assembled this guide to avoiding ecobrick misconceptions, using generally accepted terminology and attributing our content to help you with your story.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p>The Global Ecobrick Alliance uses terminology that has been collectively determined by the global ecobrick movement and established on the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks article</a> throughout our site and resources.</p>  
-                <p>We encourage the same usage of terms and spellings by journalist, researchers and ecobrickers to add consistentcy and momentum to local and global grass roots plastic transition movements.</p>
-                <p>Below we provide an overview of ecobrick terms, misconceptions, our creative commons licenses and our requisite attribution tags for using or texts, photos and videos.<p> 
+				<p data-lang-id="005-first-page-paragraph">The Global Ecobrick Alliance uses terminology that has been collectively determined by the global ecobrick movement and established on the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Wikipedia Ecobricks article</a> throughout our site and resources.</p>  
+
+                <p data-lang-id="006-second-page-paragraph">We encourage the same usage of terms and spellings by journalist, researchers and ecobrickers to add consistentcy and momentum to local and global grass roots plastic transition movements.</p>
+
+                <p data-lang-id="007-third-page-paragraph">Below we provide an overview of ecobrick terms, misconceptions, our creative commons licenses and our requisite attribution tags for using or texts, photos and videos.<p> 
 
 			</div>	
 
-			<div class="reg-content-block" id="block1">
+	<div class="reg-content-block" id="block1">
 				
-				<div class="opener-header">
+	<div class="opener-header">
 					
-					<div class="opener-header-text">
-						<h4>Terms & Spellings</h4>
-						<h5>The generally accepted spelling for key terms.</h5>
-					</div>
+		<div class="opener-header-text">
+			<h4 data-lang-id="008-terms-title">Terms & Spellings</h4>
+			<h5 data-lang-id="009-terms-subtitle">The generally accepted spelling for key terms.</h5>
+		</div>
 					
 
-					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+		<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
 					
-				</div>
+	</div>
 
-				<div id="preclosed1">
-					<br>
+	<div id="preclosed1">
+		<br>
 					
-					<p><b>Ecobrick</b></p>
-                    <p><b>"ecobrick"</b> — no space, hyphen or added capitalization is the recongnized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and url: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/<b>ecobricks.</b></a></p>
+		<p data-lang-id="010-ecobrick-definition"><b>Ecobrick</b></p>
+        <p data-lang-id="011-ecobrick-spelling"><b>"ecobrick"</b> — no space, hyphen or added capitalization is the recognized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and URL: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/ecobricks.</a></p>
 
-                    <p>In the past terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2014, plastic transition leaders around the world conferred and agreed that our concept deserved its own full fledged and normalized word.  The ecobrick wikipedia page was updated accordingly in 2016.</p> 
+        <p data-lang-id="012-ecobrick-history">In the past, terms such as "bottle brick", "eco brick" and "eco-brick" have been used to refer to a PET bottle packed with plastic.  In 2014, plastic transition leaders around the world conferred and agreed that our concept deserved its own full-fledged and normalized word.  The ecobrick Wikipedia page was updated accordingly in 2016.</p> 
                     
-                    <p>NOTE:  Other brick making technologies borrow the term ecobrick by using a variety of spellings.  Corporations such as Nestle have attempted to appropriate 'ecobrick' for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick" target="_blank">recognized wikipedia disambiguation for the non-hyphenated spelling.</a></p><br>
+        <p data-lang-id="013-ecobrick-note">NOTE:  Other brick-making technologies borrow the term ecobrick by using a variety of spellings.  Corporations such as Nestle have attempted to appropriate 'ecobrick' for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick" target="_blank">recognized Wikipedia disambiguation for the non-hyphenated spelling.</a></p><br>
 
-                    <p><b>Plastic Sequestration</b></p>
-                    <p>The goal of ecobricking is the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sequestration of plastic</a>.  This is the official term as defined and recognized on wikipedia.</p>
-                    <br>
-                    <p><b>Ecobricker</b></p>
-                    <p>Someone who makes an ecobricks or who has committed to ecobricking all their plastic</p><br>
-                    <p><b>Ecobricking</b><p>
-                    <p>The act of sequestering plastic inside an ecobrick.</p>
-                    <br>
-                 			
-				</div>	
-			</div>
+        <p data-lang-id="014-plastic-sequestration-definition"><b>Plastic Sequestration</b></p>
+        <p data-lang-id="015-plastic-sequestration-goal">The goal of ecobricking is the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sequestration of plastic</a>.  This is the official term as defined and recognized on Wikipedia.</p>
+        <br>
+        <p data-lang-id="016-ecobricker-definition"><b>Ecobricker</b></p>
+        <p data-lang-id="017-ecobricker-description">Someone who makes an ecobrick or who has committed to ecobricking all their plastic</p><br>
+        <p data-lang-id="018-ecobricking-definition"><b>Ecobricking</b><p>
+        <p data-lang-id="019-ecobricking-description">The act of sequestering plastic inside an ecobrick.</p>
+        <br>			
+	</div>	
+</div>
+
 
 			<div class="reg-content-block" id="block2">
 				<div class="opener-header">
@@ -273,8 +275,7 @@
 
 	
 		
-
-
+=dddd
             <?php require_once ("side-modules/about-gea.php");?>
 
             <?php require_once ("side-modules/for-earth.php");?>
