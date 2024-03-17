@@ -187,17 +187,19 @@
     </div>
     <div id="preclosed6">
         <br>
-        <p data-lang-id="034-interviews-uk"><b>The GEA in the United Kingdom</b></p>
-        <p data-lang-id="035-interviews-uk-email"><a href="mailto:uk@ecobricks.org">uk@ecobricks.org</a></p>
-        <br>
-        <p data-lang-id="036-interviews-indonesia"><b>The GEA in Indonesia</b></p>
-        <p data-lang-id="037-interviews-indonesia-email"><a href="mailto:indonesia@ecobricks.org">indonesia@ecobricks.org</a></p><br>
-        <p data-lang-id="038-interviews-media"><b>Direct Media Enquiries</b></p>
-        <p data-lang-id="039-interviews-media-email"><a href="mailto:media@ecobricks.org">media@ecobricks.org</a></p><br>
+        <p data-lang-id="034-contact-title"><b>The GEA in the United Kingdom</b></p>
+            <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p>
+            <br>
+
+            <p data-lang-id="035-contact-title"><b>The GEA in Indonesia</b></p>
+            <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#107;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#105;&#110;&#100;&#111;&#110;&#101;&#115;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
+
+            <p data-lang-id="036-contact-title"><b>Direct Media Enquiries</b></p>
+
+            <p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#101;&#100;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;">&#109;&#101;&#100;&#105;&#97;&#64;&#101;&#99;&#111;&#98;&#114;&#105;&#99;&#107;&#115;&#46;&#111;&#114;&#103;</a></p><br>
+
     </div>
 </div>
-
-
 
 <div class="reg-content-block" id="block7">
     <div class="opener-header">

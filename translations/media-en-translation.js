@@ -21,7 +21,7 @@ const en_Page_Translations = {
     "010-ecobrick-definition": "<b>Ecobrick</b>",
     "011-ecobrick-spelling": '<b>"ecobrick"</b> — no space, hyphen or added capitalization is the recognized spelling.  This is the recognized spelling of the ecobrick’s Wikipedia entry and URL: <a href="https://en.wikipedia.org/wiki/ecobricks" target="_blank">wikipedia.org/wiki/ecobricks.</a>',
     "012-ecobrick-history": "In the past, terms such as \"bottle brick\", \"eco brick\" and \"eco-brick\" have been used to refer to a PET bottle packed with plastic.  In 2014, plastic transition leaders around the world conferred and agreed that our concept deserved its own full-fledged and normalized word.  The ecobrick Wikipedia page was updated accordingly in 2016.",
-    "013-ecobrick-note": 'NOTE:  Other brick-making technologies borrow the term ecobrick by using a variety of spellings.  Corporations such as Nestle have attempted to appropriate \'ecobrick\' for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Eco-Brick" target="_blank">recognized Wikipedia disambiguation for the non-hyphenated spelling.</a>',
+    "013-ecobrick-note": 'NOTE:  Other brick-making technologies borrow the term ecobrick by using a variety of spellings.  Corporations such as Nestle have attempted to appropriate \'ecobrick\' for their cement block corporate social responsibility programs. However, plastic sequestration in a PET bottle is the <a href="https://en.wikipedia.org/wiki/Ecobrick" target="_blank">recognized Wikipedia disambiguation for the non-hyphenated spelling.</a>',
     "014-plastic-sequestration-definition": "<b>Plastic Sequestration</b>",
     "015-plastic-sequestration-goal": 'The goal of ecobricking is the <a href="https://en.wikipedia.org/wiki/Plastic_sequestration">sequestration of plastic</a>.  This is the official term as defined and recognized on Wikipedia.',
     "016-ecobricker-definition": "<b>Ecobricker</b>",
@@ -82,6 +82,13 @@ const en_Page_Translations = {
       "045-past-coverage-net-tv": '<b>Indonesia, NET.TV</b> | <a href="https://www.youtube.com/watch?v=fK-cc8SfSW8" target="_blank">Ecobrick Spread in Jogjakarta and the Jogja Ecobrick Team Featured on NET.TV</a>',
       "046-past-coverage-spot-ph": '<b>Philippiines, Spot.ph</b> | <a href="http://www.spot.ph/newsfeatures/newsfeatures-peopleparties/71089/interview-russel-maier-ecobricks-a00171-20170810-lfrm2" target="_blank">The history of ecobricking in the Philippines.</a>',
       "047-past-coverage-independent-documentary": '<b>Independent Documentary</b> | <a href="https://www.youtube.com/watch?v=Ynh0RYORsOM" target="_blank">Solving Plastic One Bottle at a Time in the Northern Philippines: 10 minute documentary on Russell Maier, Irene Angway and the spread of Ecobricks in the Northern Philippines.</a>',
+
+      "048-try-it-yourself": "And... be sure to try it yourself!",
+      "049-try-it-yourself-content": 'The best way to document ecobricks is to try it yourself. We encourage you to save your household plastic for a month, weight it then ecobrick it. Then save and weigh your plastic consumption the next month. Subtracting your second month of consumption from your first, will show your <a href="transition.php">plastic transition</a> progress. Now, that\'s a good story! 👍',
+      "050-learn-how": 'Lean How Make An Ecobrick',
+      "051-ecobrick-guide": 'See our 10 Step Ecobrick Making Guide',
+      "052-ecobrick-image-alt": '<img src="../svgs/eb-blue.svg" width="100%" alt="how to make an eco brick" loading="lazy">'
+  
 
 
   
