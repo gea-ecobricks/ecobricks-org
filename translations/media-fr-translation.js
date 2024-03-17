@@ -6,6 +6,8 @@ EN SNIPPETS FOR ECOBRICKS.ORG / MEDIA
 -----------------------------------*/
 
 const fr_Page_Translations = {
+
+    
     "001-splash-title": "Kit Média Écobrique",
     "002-splash-subtitle": "Un court guide pour rapporter sur les écobriques et le mouvement de transition plastique.",
     "003-splash-alt": '<img src="../webp/earthcenter-banner-400px.webp" style="width: 76%;">',

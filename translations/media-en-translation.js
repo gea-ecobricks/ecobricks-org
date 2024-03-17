@@ -8,6 +8,8 @@ EN SNIPPETS FOR ECOBRICKS.ORG
 
 
 const en_Page_Translations = {
+
+    
     "001-splash-title": "Ecobrick Media Kit",
     "002-splash-subtitle": "A short guide to reporting on ecobricks & the plastic transition movement.",
     "003-splash-alt": '<img src="../webp/earthcenter-banner-400px.webp" style="width: 76%;">',

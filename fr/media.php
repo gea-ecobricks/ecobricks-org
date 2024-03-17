@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.83';?>
+<?php $version='1.84';?>
 <?php $page='media';?>
 
 <title>Ecobrick Media Kit</title>
