@@ -1,106 +1,131 @@
-<!DOCTYPE html>
-<HTML lang="en"> 
-<HEAD>
-<META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='2.5';?>
-<?php $page='modules';?>
+<!--PAGE LANGUAGE:  ENGLISH
+Content Page template: v.1.0.0-->
+   
+<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
+ 
+<?php require_once ("../includes/modules-inc.php");?>
 
-<?php require_once ("../includes/modules2-inc.php");?>
+<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
+<?php require_once ("under-construction.php");?>
+<!--TOP PAGE BANNER-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Milstein Modules</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Bangun furnitur modular sederhana, mudah, dan luar biasa</div>
+		<div class="splash-heading">Ecobrick Modules</div>
+	    <div class="splash-sub">Build simple, easy and awesome modular ecobrick furniture.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../pngs/Feature-Floating-Module-500px.png" style="width: 85%" alt="Furnitur modular sederhana, mudah, dan luar biasa dengan modul hexagonal ecobrick milstein">
+	<div class="splash-image"><img src="https://ecobricks.org/pngs/Feature-Floating-Module-500px.png" style="width: 85%">
     </div>	
 </div>
 <div id="splash-bar"></div>
+<!--<div id="header-bar2"></div>-->
 
 
 <!-- PAGE CONTENT-->
 
+<a name="top"></a>
 
 <div id="main-content">
+<!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p data-lang-id="004-lead-page-paragraph">Milstein hexagonal and triangular modules fit together to build simple, practical furniture from your ecobricks.  All you need is a dozen to get going!</p>
+				<p>Milstein hexagonal and triangular modules fit together to build simple, practical furniture from your ecobricks.  All you need is a dozen to get going!</p>
 			</div>
 	
 			<div class="page-paragraph">
-                <p data-lang-id="005-first-page-paragraph">Milstein modules can be made by anyone, anywhere using simple materials and methods.  Using either silicone or tube-banding methods, ecobricks can be put to use right away in applications that embody circular and regenerative principles.</p>
-
-                <p data-lang-id="006-second-page-paragraph">Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces.  People use them for tables, beds, benches and even stages!  Milsteins are often combined with <a href="/dms">Dieleman Modules</a> to create <a href="/openspace">Ecobrick Open Spaces.</a></p>
+                <p>Milstein modules can be made by anyone, anywhere using simple materials and methods.  Using either silicone or tube-banding methods, ecobricks can be put to use right away in applications that embody circular and regenerative principles.</p>
+                <p>Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces.  People use them for tables, beds, benches and even stages!  Milsteins are often combined with <a href="/dms/">Dieleman Modules</a> to create <a href="/openspace/">Ecobrick Open Spaces.</a></p>
                 
                 <p></p>
             </div>	
 
-   <!--WHAT IS-->
-   <div class="reg-content-block" id="block1">
-    <div class="opener-header">        
-        <div class="opener-header-text" data-lang-id="016-opener-header-text">
-            <h4>Milstein Modules</h4>
-            <h5>Its easy to make versatile, durable and super practical indoor furniture that can be used in all sorts of ways.</h5>   
-            <br>
-        </div>
-        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-    </div>
-    <div id="preclosed1">
-        <br>
-        <div class="flex-gallery" max-width="100%">
-            <div class="gal-photo" data-lang-id="017-gal-photo1"><a href="photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" loading="lazy"><img src="../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" height="175px" alt="A rainbow milstein module" loading="lazy"></a><p>A rainbow milstein module | England, UK</p></div>
-            <div class="gal-photo" data-lang-id="018-gal-photo2"><a href="photos/modules/first-modules.jpeg" loading="lazy"><img src="../photos/modules/first-modules.jpeg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made | Tadjian, Philipinnes</p></div>
-            <div class="gal-photo" data-lang-id="019-gal-photo3"><a href="photos/modules/indonesia-module.jpg" loading="lazy"><img src="../photos/modules/indonesia-module.jpg" height="175px" alt="A module made from square bottles | Indonesia"></a><p>A module made from square bottles | Indonesia</p></div>
-        </div>
-        <div class="flex-gallery" max-width="100%">
-            <div class="gal-photo" data-lang-id="020-gal-photo4"><a href="photos/modules/kid-sitting-module.jpg" loading="lazy"><img src="../photos/modules/kid-sitting-module.jpg" height="175px" alt="Simple and practical | Jogja, Indonesia."></a><p>Simple and practical | Jogja, Indonesia.</p></div>
-            <div class="gal-photo" data-lang-id="021-gal-photo5"><a href="photos/modules/lots-of-modules.jpg" loading="lazy"><img src="../photos/modules/lots-of-modules.jpg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction.</p></div>
-            <div class="gal-photo" data-lang-id="022-gal-photo6"><a href="photos/modules/modules-storage.jpg"><img src="../photos/modules/modules-storage.jpg" height="175px" alt="Modules can be easily stored too | Bali, Indonesia."></a><p>Modules can be easily stored too | Bali, Indonesia</p></div>
-        </div>
-        <p data-lang-id="023-modules-start">Milstein modules require a minimal amount of ecobricks to start. All you need is a dozen or so ecobricks of the exact same size to get started. You can use silicone or old inner-tubes to combine them. Modules are a short-term circular application that with proper care will last years before needing repair.</p>
-        <p data-lang-id="024-gea-methods">The GEA approved methods here do not damage the ecobricks during their life cycle. This means that modules can easily be repaired or they can be disassembled and the ecobricks put to use in a new application.</p>
-        <p data-lang-id="025-individual-usage">Milstein Modules can be used individually as convenient seats that are sliding and stackable. Hexagon milstein modules can be like honeycomb to create horizontal surfaces like tables, beds, benches and more. Triangle modules can be interlocked with hexagons to make a second level. For full vertical building see Dieleman module.</p>
-        <p data-lang-id="026-scalable-applications">Ecobrick modular applications are indefinitely scalable. The more you have the more you can build. Eventually with hundreds of milstein and dielman communities create Ecobrick Open Spaces— interactive community spaces that can be built, un-built, and built again during conferences and gatherings to serve the needs of the moment.</p>
-        <p data-lang-id="027-indoor-use">It is important to use modules indoors. Ecobricks should never be exposed to the sun. Ultra violet (UV) rays will gradually fade the ecobricks colors and photo-degrade the plastic bottle’s PET. After only two or three years, the brittle bottle risks crack and burst, releasing all our hard packed plastic. Keeping modules entirely indoors and out of the sun is essential to preventing degradation.</p>
-    </div>
-</div>
+            <a name="WHAT-IS"></a>
+            <div class="reg-content-block" id="block1">
 
+                <div class="opener-header">
+                    
+                    <div class="opener-header-text">
+                    <h4>Milstein Modules</h4>
+                    <h5>Its easy to make versatile, durable and super practical indoor furniture that can be used in all sorts of ways.</h5>   
+                    <br>
+                    </div>
 
-<div class="reg-content-block" id="block2">
-    <div class="opener-header">
-        <div class="opener-header-text" data-lang-id="028-opener-header-text">
-            <h4>Variations</h4>
-            <h5>There are several ways to make milstein modules to maximize versatility.</h5>   
-            <br>
-        </div>
-        <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-    </div>
-    <div id="preclosed2">
-        <br>   
-        <img src="../webp/module-variations.webp" width="100%" alt="module variations" data-lang-id="029-module-variations-img"></a>
-        <p data-lang-id="030-hexagon-modules">Hexagon milstein modules are made with 19 Ecobricks, these modules make the best stools and are the most versatile. Hexagon modules can combine them like honey-comb. Use them to build tables, stages, walls and more.</p>
-        <div class="row">
-            <div class="main2">
-                <p data-lang-id="031-lego-modules">Milstein modules can also be used as LEGO. Hexagon and triangle modules can be stacked on-top of each other in a way that interlocks. This is a nifty and practical way to build a second level to make chairs and tables.</p>
+                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+                </div>
+
+                <div id="preclosed1">
+
+                    <br>
+            
+                    <div class="flex-gallery" max-width="100%">
+						<div class="gal-photo"><a href="photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" loading="lazy"><img src="../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" height="175px" alt="A rainbow milstein module" loading="lazy"></a><p>A rainbow milstein module | England, UK</p></div>
+						<div class="gal-photo"><a href="photos/modules/first-modules.jpeg" loading="lazy"><img src="../photos/modules/first-modules.jpeg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made | Tadjian, Philipinnes</p></div>
+						<div class="gal-photo"><a href="photos/modules/indonesia-module.jpg" loading="lazy"><img src="../photos/modules/indonesia-module.jpg" height="175px" alt="A module made from square bottles | Indonesia"></a><p>A module made from square bottles | Indonesia</p></div>
+					</div>
+
+                    <div class="flex-gallery" max-width="100%">
+						<div class="gal-photo"><a href="photos/modules/kid-sitting-module.jpg" loading="lazy"><img src="../photos/modules/kid-sitting-module.jpg" height="175px" alt="Simple and practical | Jogja, Indonesia."></a><p>Simple and practical | Jogja, Indonesia.</p></div>
+						<div class="gal-photo"><a href="photos/modules/lots-of-modules.jpg" loading="lazy"><img src="../photos/modules/lots-of-modules.jpg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction.</p></div>
+						<div class="gal-photo"><a href="photos/modules/modules-storage.jpg"><img src="../photos/modules/modules-storage.jpg" height="175px" alt="Modules can be easily stored too | Bali, Indonesia."></a><p>Modules can be easily stored too | Bali, Indonesia</p></div>
+					</div>
+                    
+
+                    <p>Milstein modules require a minimal amount of ecobricks to start.   All you need is a dozen or so ecobricks of the exact same size to get started.  You can use silicone or old inner-tubes to combine them.  Modules are a short-term circular application that with proper care will last years before needing repair.</p>
+
+                    <p>The GEA approved methods here do not damage the ecobricks during their life cycle.  This means that modules can easily be repaired or they can be disassembled and the ecobricks put to use in a new application.</p>
+
+                    <p>Milstein Modules can be used individually as convenient seats that are sliding and stackable.  Hexagon milstein modules can be  like honeycomb to create horizontal surfaces like tables, beds, benches and more.  Triangle modules can be interlocked with hexagons to make a second level.  For full vertical building see Dieleman module.</p>
+
+                    <p>Ecobrick modular applications are indefinitely scalable.  The more you have the more you can build.  Eventually with hundreds of milstein and dielman communities create Ecobrick Open Spaces— interactive community spaces that can be built, un-built, and built again during conferences and gatherings to serve the needs of the moment.</p>
+
+                    <p>It is important to use modules indoors. Ecobricks should never be exposed to the sun. Ultra violet (UV) rays will gradually fade the ecobricks colors and photo-degrade the plastic bottle’s PET.  After only two or three years, the brittle bottle risks crack and burst, releasing all our hard packed plastic.  Keeping modules entirely indoors and out of the sun is essential to preventing degradation.</p>
+                </div>
             </div>
-            <div class="side2"><img src="../photos/modules/module-stacking-illustration.jpg" width="100%" alt="How modules combine vertically" loading="lazy" data-lang-id="032-module-stacking-img"></div>
-        </div>
-        <div class="row2">
-            <div class="main3">
-                <p data-lang-id="033-dieleman-modules">Dieleman modules are another type of ecobrick module. They are made with 16 ecobricks and enable vertical and horizontal building. We have a special on Dieleman Modules.</p>
+
+
+
+			<a name="VARIATIONS"></a>
+            <div class="reg-content-block" id="block2">
+                <div class="opener-header">
+                    <div class="opener-header-text">
+                    <h4>Variations</h4>
+                    <h5>There are several ways to make milstein modules to maximize versatility.</h5>   
+                    <br>
+                    </div>
+                    <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+                </div>
+
+                <div id="preclosed2">
+
+                    <br>   
+                    <img src="../webp/module-variations.webp" width="100%" alt="module variations"></a>
+                    
+                    
+                    <p>Hexagon milstein modules are made with 19 Ecobricks, these modules make the best stools and are the most versatile.  Hexagon modules can combine them like honey-comb.  Use them to build tables, stages, walls and more.</p>
+
+                    <div class="row">
+						<div class="main2">
+						<p>Milstein modules can also be used as LEGO.  Hexagon and triangle modules can be stacked on-top of each other in a way that interlocks.  This is a nifty and practical way to build a second level to make chairs and tables.</p>
+						
+
+						</div>
+						<div class="side2"><img src="../photos/modules/module-stacking-illustration.jpg" width="100%" alt="How modules combine vertically" loading="lazy">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="main3">
+						<p>Dieleman modules are another type of ecobrick module.  They are made with 16 ecobricks and enable vertical and horizontal building.  We have a special on Dieleman Modules.</p>
+						</div>
+						<div class="side3"><img src="../photos/modules/module-stacking-illustration.jpg" width="150px" alt="How modules combine vertically" loading="lazy">
+						</div>
+					</div>
+
+                </div>
             </div>
-            <div class="side3"><img src="../photos/modules/module-stacking-illustration.jpg" width="150px" alt="How modules combine vertically" loading="lazy" data-lang-id="034-dieleman-stacking-img"></div>
-        </div>
-    </div>
-</div>
 
-
-<!-- SILICONE -->
-
-
+            <a name="SILICONE"></a>
             <div class="reg-content-block" id="block3">
 
                 <div class="opener-header">
@@ -479,37 +504,41 @@
 		<div class="side">
 
         
-        <div class="side-module-desktop-mobile">
-    <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="12 ecobricks can make a triangle milstein eco brick module" data-lang-id="007-eco-brik-benches-img">
-    <h4 data-lang-id="008-start-with-briks">Start with only 12 Ecobricks</h4>
-    <h5 data-lang-id="009-first-milstein-module">To make your first triangle milstein module all you need is twelve ecobricks.  Once done, you can keep adding to it to make a hexagon.</h5><br>            
-</div>
 
-<div class="side-module-desktop-mobile">
-    <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="16 ecobricks make a hexagone, many hexagone modules can make cool furniture installations" data-lang-id="010-module-table-img">
-    <h4 data-lang-id="011-combine-modules">Combine Modules</h4>
-    <h5 data-lang-id="012-module-combination">Milstein modules fit together!  Combine modules vertically or horizontally to make more furniture.</h5><br>            
-</div>
-
-
-<div class="side-module-desktop-mobile">
-                <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="after an ecobrick has been used in a module it can be spiralled into an earth build" data-lang-id="013-module-table-img">
-                <h4 data-lang-id="014-then-earth">Then build with Earth!</h4>
-                <h5 data-lang-id="015-module-spiral">After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
-                <a class="module-btn" href="earth.php">Earth Building</a>
+        <div id="side-module-desktop-mobile">
+                <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <h4>Get started with 12 Briks!</h4>
+                <h5>To make your first milstein module all you need is twelve ecobricks.  Once that's done, you can keep adding to it, or make others that fit into the first.</h5><br>
+                
             </div>
-	
 
+            <div id="side-module-desktop-mobile">
+                <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <h4>Combine Modules</h4>
+                <h5>After one module is done you can keep adding to it, or make others that fit into the first.</h5><br>
+                
+            </div>
 
-            <?php require_once ("side-modules/spiral-design-principle.php");?>
-
+            <div id="side-module-desktop-mobile">
+                <img src="../webp/modules-circular.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <h4>Circular & Spiral</h4>
+                <h5>Milstein modules are 100% circular-- meaning that when their life comes to an end they can be either repaired or disassembled to make something else.</h5><br>
+                <a class="module-btn" href="/circular/">Learn More</a>
+            </div>
 
             
 
+            <div id="side-module-desktop-mobile">
+                <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
+                <h4>Then build with Earth!</h4>
+                <h5>After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
+                <a class="module-btn" href="/build">Earth Building</a>
+            </div>
+	
 			
             
 
-			<div class="side-module-desktop-mobile">
+			<div id="side-module-desktop-mobile">
 				<img src="../webp/earthhome-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
@@ -517,6 +546,11 @@
 			</div>
 
 			
+            
+            <?php include 'ecobricks_env.php';?> 
+            <?php require_once ("side-modules/ecobrick-of-the-month.php");?>
+            
+            <?php 	$conn->close();?>
 
             
 
@@ -526,20 +560,16 @@
 
 </div>
 
-                        </div>
-
-
-
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footer-2024.php");?>
+	<?php require_once ("../footers/footer-$lang.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../accordion-scripts.js?v=2" defer></script>
+<script src="../scripts/accordion-scripts.js" defer></script>
 
 
 </div>
