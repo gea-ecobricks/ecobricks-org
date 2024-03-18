@@ -567,7 +567,7 @@
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
-
+<!-- 
 <script>
 document.getElementById('play-button').addEventListener('click', function() {
     const iframe = document.createElement('iframe');
@@ -585,7 +585,7 @@ document.getElementById('play-button').addEventListener('click', function() {
     placeholder.replaceWith(iframe);
 });
 
-</script>
+</script> -->
 <!-- This script is for pages that use the accordion content system-->
 <script src="../accordion-scripts.js?v=2" defer></script>
 
