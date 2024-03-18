@@ -16,6 +16,8 @@ const en_Page_Translations = {
     "006-second-page-paragraph": "Milstein Modules can be used on their own as seating or combined like LEGO to create horizontal surfaces. People use them for tables, beds, benches and even stages! Milsteins are often combined with <a href=\"/dms\">Dieleman Modules</a> to create <a href=\"/openspace\">Ecobrick Open Spaces.</a>",
 
 
+    "007-opener-header-text": "<h4>Milstein Modules</h4><h5>It's easy to make versatile, durable and super practical indoor furniture that can be used in all sorts of ways.</h5>",
+
     "008-milstein-showcase-gal-img": "<img src=\"../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg\" alt=\"A rainbow milstein module\" loading=\"lazy\"><p>A rainbow milstein module | England, UK</p>",
     "009-milstein-showcase-gal-img": "<img src=\"../photos/modules/first-modules.jpeg\" alt=\"Some of the first modules ever made | Tadjian, Philipinnes\" loading=\"lazy\"><p>Some of the first modules ever made | Tadjian, Philipinnes</p>",
     "010-milstein-showcase-gal-img": "<img src=\"../photos/modules/indonesia-module.jpg\" alt=\"A module made from square bottles | Indonesia\" loading=\"lazy\"><p>A module made from square bottles | Indonesia</p>",
