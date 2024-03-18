@@ -51,31 +51,31 @@
     <div id="preclosed1">
         <br>
        
-        <div id="three-column-gal" class="three-column-gal">
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg', 'A rainbow milstein module | England, UK')">
-        <img src="../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" alt="A rainbow milstein module" loading="lazy">
-        <p>A rainbow milstein module | England, UK</p>
-    </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/first-modules.jpeg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
-        <img src="../photos/modules/first-modules.jpeg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
-        <p>Some of the first modules ever made | Tadjian, Philipinnes</p>
-    </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/indonesia-module.jpg', 'A module made from square bottles | Indonesia')">
-        <img src="../photos/modules/indonesia-module.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
-        <p>A module made from square bottles | Indonesia</p>
-    </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/kid-sitting-module.jpg', 'Simple and practical | Jogja, Indonesia.')">
-        <img src="../photos/modules/kid-sitting-module.jpg" alt="Simple and practical | Jogja, Indonesia." loading="lazy">
-        <p>Simple and practical | Jogja, Indonesia.</p>
-    </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/lots-of-modules.jpg', 'A circular cob and ecobrick construction.')">
-        <img src="../photos/modules/lots-of-modules.jpg" alt="A circular cob and ecobrick construction." loading="lazy">
-        <p>A circular cob and ecobrick construction.</p>
-    </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/modules-storage.jpg', 'Modules can be easily stored too | Bali, Indonesia.')">
-        <img src="../photos/modules/modules-storage.jpg" alt="Modules can be easily stored too | Bali, Indonesia." loading="lazy">
-        <p>Modules can be easily stored too | Bali, Indonesia.</p>
-    </div>
+ <div id="three-column-gal" class="three-column-gal">
+        <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg', 'A rainbow milstein module | England, UK')">
+            <img src="../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" alt="A rainbow milstein module" loading="lazy">
+            <p>A rainbow milstein module | England, UK</p>
+        </div>
+        <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/first-modules.jpeg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
+            <img src="../photos/modules/first-modules.jpeg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
+            <p>Some of the first modules ever made | Tadjian, Philipinnes</p>
+        </div>
+        <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/indonesia-module.jpg', 'A module made from square bottles | Indonesia')">
+            <img src="../photos/modules/indonesia-module.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
+            <p>A module made from square bottles | Indonesia</p>
+        </div>
+        <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/kid-sitting-module.jpg', 'Simple and practical | Jogja, Indonesia.')">
+            <img src="../photos/modules/kid-sitting-module.jpg" alt="Simple and practical | Jogja, Indonesia." loading="lazy">
+            <p>Simple and practical | Jogja, Indonesia.</p>
+        </div>
+        <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/lots-of-modules.jpg', 'A circular cob and ecobrick construction.')">
+            <img src="../photos/modules/lots-of-modules.jpg" alt="A circular cob and ecobrick construction." loading="lazy">
+            <p>A circular cob and ecobrick construction.</p>
+        </div>
+        <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/modules-storage.jpg', 'Modules can be easily stored too | Bali, Indonesia.')">
+            <img src="../photos/modules/modules-storage.jpg" alt="Modules can be easily stored too | Bali, Indonesia." loading="lazy">
+            <p>Modules can be easily stored too | Bali, Indonesia.</p>
+        </div>
 </div>
 
 
