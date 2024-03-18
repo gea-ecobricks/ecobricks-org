@@ -200,181 +200,178 @@
         </ul>
     </div>
 </div>
+<section id="TIRE-BANDING">
 
+    <div class="reg-content-block" id="block4">
+        <div class="opener-header">
+            <div class="opener-header-text">
+                <h4 data-lang-id="067-tire-banding-method-title">Banding Method</h4>
+                <h5 data-lang-id="068-tire-banding-method-description">Tire banding is a simple technique for joining ecobricks together using 100% re-used materials.</h5><br>
+            </div>
+            <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+        </div>
+
+        <div id="preclosed4">
+            
+            <div id="three-column-gal" class="three-column-gal">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-1.jpg', 'A rainbow milstein module | England, UK')">
+                    <img src="../photos/modules/tire-banded-1.jpg" alt="A rainbow milstein module" loading="lazy">
+                    <p data-lang-id="069-rainbow-module-uk">A rainbow milstein module | England, UK</p>
+                </div>
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-2.jpg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
+                    <img src="../photos/modules/tire-banded-2.jpg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
+                    <p data-lang-id="070-first-modules-philippines">Some of the first modules ever made | Tadjian, Philipinnes</p>
+                </div>
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-3.jpg', 'A module made from square bottles | Indonesia')">
+                    <img src="../photos/modules/tire-banded-3.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
+                    <p data-lang-id="071-square-bottles-module-indonesia">A module made from square bottles | Indonesia</p>
+                </div>
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-4.jpg', 'A rainbow milstein module | England, UK')">
+                    <img src="../photos/modules/tire-banded-4.jpg" alt="A rainbow milstein module" loading="lazy">
+                    <p data-lang-id="072-rainbow-module-uk-repeat">A rainbow milstein module | England, UK</p>
+                </div>
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-5.jpg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
+                    <img src="../photos/modules/tire-banded-5.jpg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
+                    <p data-lang-id="073-first-modules-philippines-repeat">Some of the first modules ever made | Tadjian, Philipinnes</p>
+                </div>
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-6.jpg', 'A module made from square bottles | Indonesia')">
+                    <img src="../photos/modules/tire-banded-6.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
+                    <p data-lang-id="074-square-bottles-module-indonesia-repeat">A module made from square bottles | Indonesia</p>
+                </div>
+            </div>
+
+            <p data-lang-id="075-mechanic-shop-advantage">With luck, you have a mechanics shop near you that works with motor bikes. By using the old inner tubes from motor cycles we can also connect our ecobricks together. Unfortunately, bicycle and car tires are too small and too big for the straightforward application of this method. But you’re welcome to try – it all depends on the diameter of your ecobricks and that of the inner-tube.</p>
+            
+            <p data-lang-id="076-tire-banding-explanation">Unlike old methods of tying a stack of ecobricks together with a long vertical strip of innertube, in the tire banding technique, we cut the tubes <strong>horizontally</strong> to make many small elastic bands. Just like the siliconing method, we’re not permanently bonding the ecobricks together, so that later the module can be fixed or destroyed without damaging the ecobricks.</p>
+            
+            <p data-lang-id="077-collaborative-making">Like all ecobrick applications, the making process works best collaboratively. You’ll need a partner, some ecobricks and a wooded stick. Your ecobrick packing stick or an <a href="earthwand.php" data-lang-id="078-earthwand-link">earthwand</a> will do the trick!</p>
+            
+            <h4 data-lang-id="079-getting-started">Getting Started</h4>
+            
+            <p data-lang-id="080-motor-cycle-tires-ideal">We’ve found that motor cycle tires are ideal for binding 600ml bottles. Use only identical bottled ecobricks for one module. Really old inner tubes, or those that have been exposed to the sun won’t work – they will snap too easily.</p>
+            
+            <ul>
+                <li data-lang-id="081-cutting-inner-tube-instruction">Take your scissors and cut across the inner tube to make a ring. As you cut the tube into bands, angle your cuts slightly so that the bottom of the band is slightly smaller than the top – about 1 centimenter on the bottom and 1.3 cm on the top. This will help you maximize the number of bands you can get out of the tube, while minimizing waste.</li>
                 
+                <li data-lang-id="082-start-with-few-bands">Cut only about six bands to start as you will need to test the dimensions/elastacity of your bands before you cut the rest of the tire.</li>
                 
-            <a name="BANDING"></a>
-			<div class="reg-content-block" id="block4">
-				<div class="opener-header">
-					<div class="opener-header-text">
-						<h4>Banding Method</h4>
-						<h5>Tire banding is a simple technique for joining ecobricks together using 100% re-used materials.</h5><br>
-					</div>
-					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
-				</div>
-
-				<div id="preclosed4">
+                <li data-lang-id="083-ecobrick-arrangement">Hopefully you’ve follow the recommended ecobrick <a href="how.php" data-lang-id="084-making-storage-methods-link">making and storage methods</a> so that you’re ecobricks have colored bottoms and are easily accessible. Arrange your ecobricks to make a pattern of colored bottoms (this will be the top of your module).</li>
                 
-                <div id="three-column-gal" class="three-column-gal">
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-1.jpg', 'A rainbow milstein module | England, UK')">
-        <img src="../photos/modules/tire-banded-1.jpg" alt="A rainbow milstein module" loading="lazy">
-        <p>A rainbow milstein module | England, UK</p>
-    </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-2.jpg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
-        <img src="../photos/modules/tire-banded-2.jpg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
-        <p>Some of the first modules ever made | Tadjian, Philipinnes</p>
-    </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-3.jpg', 'A module made from square bottles | Indonesia')">
-        <img src="../photos/modules/tire-banded-3.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
-        <p>A module made from square bottles | Indonesia</p>
-    </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-4.jpg', 'A rainbow milstein module | England, UK')">
-        <img src="../photos/modules/tire-banded-4.jpg" alt="A rainbow milstein module" loading="lazy">
-        <p>A rainbow milstein module | England, UK</p>
-    </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-5.jpg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
-        <img src="../photos/modules/tire-banded-5.jpg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
-        <p>Some of the first modules ever made | Tadjian, Philipinnes</p>
-    </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-6.jpg', 'A module made from square bottles | Indonesia')">
-        <img src="../photos/modules/tire-banded-6.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
-        <p>A module made from square bottles | Indonesia</p>
-    </div>
-</div>
-
-                    
-                    <p>With luck, you have a mechanics shop near you that works with motor bikes.   By using the old inner tubes from motor cycles we can also connect our ecobricks together.  Unfortunately, bicycle and car tires are too small and too big for the straightforward application of this method.  But you’re welcome to try – it all depends on the diameter of your ecobricks and that of the inner-tube.</p>
-                    
-                    <p>Unlike old methods of tying a stack of ecobricks together with a long vertical strip of innertube, in the tire banding technique, we cut the tubes <strong>horizontally</strong> to make many small elastic bands. Just like the siliconing method, we’re not permanently bonding the ecobricks together, so that later the module can be fixed or destroyed without damaging the ecobricks.</p>
-                    
-                    <p>Like all ecobrick applications, the making process works best collaboratively.  You’ll need a partner, some ecobricks and a wooded stick.   Your ecobrick packing stick or an <a href="earthwand.php">earthwand</a> will do the trick!</p>
-                    
-                    <h4>Getting Started</h4>
-                    
-                    <p> We’ve found that motor cycle tires are ideal for binding 600ml bottles.  Use only identical bottled ecobricks for one module.  Really old inner tubes, or those that have been exposed to the sun won’t work – they will snap too easily.</p>
-                    
-                    <ul>
-                        <li>Take your scissors and cut across the inner tube to make a ring.  As you cut the tube into bands, angle your cuts slightly so that the bottom of the band is slightly smaller than the top – about 1 centimenter on the bottom and 1.3 cm on the top.  This will help you maximize the number of bands you can get out of the tube, while minimizing waste.</li>
-                        
-                        <li>Cut only about six bands to start as you will need to test the dimensions/elastacity of your bands before you cut the rest of the tire.</li>
-                        
-                        <li>Hopefully you’ve follow the recommended ecobrick <a href="how.php">making and storage methods</a> so that you’re ecobricks have colored bottoms and are easily accessible.  Arrange your ecobricks to make a pattern of colored bottoms (this will be the top of your module).</li>
-                        
-                        <li>Slide a band over the bottom and the top of your center ecobrick.  Bring out the adjacent ecobrick.  Slide the top and bottom elastics over the second ecobrick so that it is partnered with the first.</li>
-                        
-                        <li>Now connect your second ecobrick, in the same way to a third.  In this way you’ll have three partners attached in a line.</li>
-                        
-                        <li>Push all three bottles together and connect bottle the first bottle, to the third.  The ecobricks should be tightly bonded in a triad!  They should not be able to slide back and forth or wiggle.  If your bonds are too loose (or too tight!), go back to cutting your elastics.  By adjust the thickness of your elastic you can adjust the tightness of your tube bonds.</li>
-                        
-                        <li>Once you’ve got a good feel for the sizing of your bands, cut the entire up into bands.  You’ll eventually be able to put them all to use.  See if you can do it without creating any waste snippets!  Of course… every bit of excess cutting, you can put into an ecobrick (like the nozzle)!  <strong>This makes this a zero-waste making method.</strong></li>
-                        
-                        <li>Alright… that was the easy part!  Now, connect ecobrick No. 4 to ecobrick No.3.   Connect No. 4 to No.2…. Continue to add on ecobricks in this way.  It won’t be easy, as the bonds will start to get tight and overlap.  This is where working with a partner comes in handy.</li>
-                        
-                        <li>Have one partner hold the connected ecobricks and another adding the new ecobrick.  Use a stick or <a href="earthwand.php">earthwand</a> to press down the elastics  as you go.</li>
-                        
-                        <li>Continue adding ecobricks until you’ve completed your triangle or hexagon module.</li>
-                        
-                        <li>Use your stick to level out the elastics on the side so that they make a neat, level line around the outside.</li>
-                        
-                        <li>And, that’s it!  Your module is good to go!</li>
-                    </ul>
-                    
-                    <p>If you have used bottles of identical brand, the hexagon module top will fit perfectly into a triangular module bottom.  Make more modules!  Experiment with module size and back-to-back modules.  Make cool stuff!</p>
-
-                    
-                    <h5>ℹ️ Learn more about our <a href="/mandalic">Mandalic Collaboration</a></h5>
-                    
-				</div>
-			</div>
+                <li data-lang-id="085-connecting-ecobricks">Slide a band over the bottom and the top of your center ecobrick. Bring out the adjacent ecobrick. Slide the top and bottom elastics over the second ecobrick so that it is partnered with the first.</li>
+                
+                <li data-lang-id="086-creating-a-triad">Now connect your second ecobrick, in the same way to a third. In this way you’ll have three partners attached in a line.</li>
+                
+                <li data-lang-id="087-adjusting-bond-tightness">Push all three bottles together and connect bottle the first bottle, to the third. The ecobricks should be tightly bonded in a triad! They should not be able to slide back and forth or wiggle. If your bonds are too loose (or too tight!), go back to cutting your elastics. By adjust the thickness of your elastic you can adjust the tightness of your tube bonds.</li>
+                
+                <li data-lang-id="088-zero-waste-method">Once you’ve got a good feel for the sizing of your bands, cut the entire up into bands. You’ll eventually be able to put them all to use. See if you can do it without creating any waste snippets! Of course… every bit of excess cutting, you can put into an ecobrick (like the nozzle)! <strong>This makes this a zero-waste making method.</strong></li>
+                
+                <li data-lang-id="089-adding-more-ecobricks">Alright… that was the easy part! Now, connect ecobrick No. 4 to ecobrick No.3. Connect No. 4 to No.2…. Continue to add on ecobricks in this way. It won’t be easy, as the bonds will start to get tight and overlap. This is where working with a partner comes in handy.</li>
+                
+                <li data-lang-id="090-partner-assistance">Have one partner hold the connected ecobricks and another adding the new ecobrick. Use a stick or <a href="earthwand.php" data-lang-id="091-earthwand-use">earthwand</a> to press down the elastics as you go.</li>
+                
+                <li data-lang-id="092-completing-the-module">Continue adding ecobricks until you’ve completed your triangle or hexagon module.</li>
+                
+                <li data-lang-id="093-leveling-elastics">Use your stick to level out the elastics on the side so that they make a neat, level line around the outside.</li>
+                
+                <li data-lang-id="094-module-completion">And, that’s it! Your module is good to go!</li>
+            </ul>
+            
+            <p data-lang-id="095-interlocking-modules">If you have used bottles of identical brand, the hexagon module top will fit perfectly into a triangular module bottom. Make more modules! Experiment with module size and back-to-back modules. Make cool stuff!</p>
 
             
-			<a name="LONGTERM"></a>
-            <div class="reg-content-block" id="block5">
-                <div class="opener-header">    
-                    <div class="opener-header-text">
-                        <h4>Maintenance and Next Life</h4>
-                        <h5>As in all ecobrick applications, be sure to keep your modules out of the direct sunlight.   The sun will fade colors and degrade silicone, rubber and plastic.</h5>
-                        <br>
-                    </div>
-                    <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
-                </div>
+            <h5 data-lang-id="096-mandalic-collaboration-info">ℹ️ Learn more about our <a href="/mandalic" data-lang-id="097-mandalic-collaboration-link">Mandalic Collaboration</a></h5>
+            
+        </div>
+    </div>
 
-                <div id="preclosed5">
-                <br>   
-                    <img src="../photos/modules/module-next-life.jpg" width="100%" alt="module next life"></a>
-                    
-                    <p style="font-size: 1em;">An old module can be cut apart and its ecobricks reused.</>
-                    <hr><br>
-                    
-                    <p>All in all, you can expect an indoor module to last 3-5 years. After this time, the silicone bonds will begin to fail. Silicone modules, can be easily repaired by removing loose bottles, clearing off their old silicone, cleaning their surface and re-siliconing. The same goes for tire-band modules; simply reattach the bottle.</p>
-                    
-                    <h4>Next Life</h4>
+</section>
 
-                    
-                    <p>When your module comes to the end of its life, use a sharp knife to cut the bottles out of the pattern. Be sure not to cut the PET of the bottle as you do so – often pulling the bottles apart will suffice.</p>
-                    
-                    <p>For silicone modules, you can also use vinegar or isopropyl alcohol to weaken and dissolve the bonds. Clear the old silicone from the old bottles.& Your ecobricks can now be reused to make modules or applied in <a href="earth.php">earth and ecobrick constructions</a>.</p>
-                    
-                    <p>You can safely dispose of silicone sealant in your garden, ideally in a sunny place. Silicone is not plastic, nor is it petroleum based.  It degrades harmless back into its inorganic components of amorphous silica, carbon dioxide, and water vapor (SO, CO2, H2O).</p>
-
-                    <h4>Maintenance and Precautions</h4>
-
-                    <p>As in all ecobrick applications, be sure to keep your modules out of the direct sunlight. The sun will fade colors and degrade silicone, rubber and plastic.</p>
-                    
-                    <p><strong>With the tire banded modules it is critical to keep them out of the sun.</strong> Inner tubes are made from butyl rubber from petrochemicals. Inner tubes are highly susceptible to photodegradation and will weaken within weeks of UV exposure.  Butyl rubber degrades by breaking down into small and smaller pieces similar to micro-plastics. These do not biodegrade and instead accumulate in the environment. Butyl rubber is seldom recycled, so it is best to pack broken pieces and cuttings into an ecobrick.</p>
-                </div>
+<section id="LONGTERM">
+    <div class="reg-content-block" id="block5">
+        <div class="opener-header">    
+            <div class="opener-header-text">
+                <h4 data-lang-id="098-maintenance-next-life-title">Maintenance and Next Life</h4>
+                <h5 data-lang-id="099-maintenance-next-life-desc">As in all ecobrick applications, be sure to keep your modules out of the direct sunlight. The sun will fade colors and degrade silicone, rubber and plastic.</h5>
+                <br>
             </div>
+            <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
+        </div>
 
-        
+        <div id="preclosed5">
+        <br>   
+            <img src="../photos/modules/module-next-life.jpg" width="100%" alt="module next life">
+            
+            <p style="font-size: 1em;" data-lang-id="100-ecobricks-reuse">An old module can be cut apart and its ecobricks reused.</p>
+            <hr><br>
+            
+            <p data-lang-id="101-module-lifespan">All in all, you can expect an indoor module to last 3-5 years. After this time, the silicone bonds will begin to fail. Silicone modules, can be easily repaired by removing loose bottles, clearing off their old silicone, cleaning their surface and re-siliconing. The same goes for tire-band modules; simply reattach the bottle.</p>
+            
+            <h4 data-lang-id="102-next-life-title">Next Life</h4>
+
+            
+            <p data-lang-id="103-cutting-bottles-out">When your module comes to the end of its life, use a sharp knife to cut the bottles out of the pattern. Be sure not to cut the PET of the bottle as you do so– often pulling the bottles apart will suffice.</p>
+            
+            <p data-lang-id="104-silicone-module-disassembly">For silicone modules, you can also use vinegar or isopropyl alcohol to weaken and dissolve the bonds. Clear the old silicone from the old bottles.& Your ecobricks can now be reused to make modules or applied in <a href="earth.php" data-lang-id="105-earth-ecobrick-constructions-link">earth and ecobrick constructions</a>.</p>
+            
+            <p data-lang-id="106-silicone-disposal">You can safely dispose of silicone sealant in your garden, ideally in a sunny place. Silicone is not plastic, nor is it petroleum based. It degrades harmless back into its inorganic components of amorphous silica, carbon dioxide, and water vapor (SO, CO2, H2O).</p>
+
+            <h4 data-lang-id="107-maintenance-precautions-title">Maintenance and Precautions</h4>
+
+            <p data-lang-id="108-maintenance-precautions-desc">As in all ecobrick applications, be sure to keep your modules out of the direct sunlight. The sun will fade colors and degrade silicone, rubber and plastic.</p>
+            
+            <p data-lang-id="109-tire-banded-modules-caution"><strong>With the tire banded modules it is critical to keep them out of the sun.</strong> Inner tubes are made from butyl rubber from petrochemicals. Inner tubes are highly susceptible to photodegradation and will weaken within weeks of UV exposure. Butyl rubber degrades by breaking down into small and smaller pieces similar to micro-plastics. These do not biodegrade and instead accumulate in the environment. Butyl rubber is seldom recycled, so it is best to pack broken pieces and cuttings into an ecobrick.</p>
+        </div>
+    </div>
+</section>
+
+
+
 <section id="NEXT-LIFE">
 
-            <div class="reg-content-block" id="block7">
-                <div class="opener-header"> 
-                    <div class="opener-header-text">
-                        <h4>What's Next?</h4>
-                        <h5>Milstein module applications are scalable in home and in community spaces.  Keeping adding to your collection to build more with them.</h5>
-                        <br>
-                    </div>
-                    <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+    <div class="reg-content-block" id="block7">
+        <div class="opener-header"> 
+            <div class="opener-header-text">
+                <h4 data-lang-id="110-whats-next-title">What's Next?</h4>
+                <h5 data-lang-id="111-milstein-applications-desc">Milstein module applications are scalable in home and in community spaces. Keeping adding to your collection to build more with them.</h5>
+                <br>
+            </div>
+            <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+        </div>
+
+        <div id="preclosed7">
+
+        <br>   
+            <img src="../photos/modules/open-space.jpg" width="100%" alt="module next life">
+            
+            <p style="font-size: 1em;" data-lang-id="112-ecobricks-reuse-next">An old module can be cut apart and its ecobricks reused.</p>
+            <hr><br>
+
+            <p data-lang-id="113-ecobrick-modules-scalable">The great thing about ecobrick modules is that their application is indefinitely scalable. In other words, the more modules you and your community make, the more things you can build with them. In Indonesia, some communities pool their modules together into a common collection that they then rent out to be used in eco-events.</p>
+            
+            <p data-lang-id="114-ecobrick-open-spaces">These large scale applications of many modules are known as ecobrick open spaces— interactive community spaces that can be built, un-built, and built again during conferences and gatherings to serve the needs of the moment.</p>
+            
+            <p data-lang-id="115-dieleman-modules-suggestion">As you keep making modules consider also <a href="/dms" data-lang-id="116-dieleman-modules-link">dieleman modules</a>. This type of ecobrick module can be used to build with vertically as well as horizontally-- though, unlike Milstein modules, many are required in order for them to be practical</p>
+
+            <div class="row">
+                <div class="main2">
+                    <p data-lang-id="117-modules-end-of-life">When your modules comes to the end of its life-- no worries! You can cut the ecobricks out from their silicone or rubber connections, then put them to next use. <a href="earth.php" data-lang-id="118-earth-ecobrick-building-link">Earth and Ecobrick building</a> is a great long-term application for used ecobricks.</p>
                 </div>
-
-                <div id="preclosed7">
-
-                <br>   
-                    <img src="../photos/modules/open-space.jpg" width="100%" alt="module next life"></a>
-                    
-                    <p style="font-size: 1em;">An old module can be cut apart and its ecobricks reused.</p>
-                    <hr><br>
-
-
-                <p>The great thing about ecobrick modules is that their application is indefinitely scalable.  In other words, the more modules you and your community make, the more things you can build with them.  In Indonesia, some communities pool their modules together into a common collection that they then rent out to be used in eco-events.</p>
-                
-                <p>These large scale applications of many modules are known as ecobrick open spaces— interactive community spaces that can be built, un-built, and built again during conferences and gatherings to serve the needs of the moment.</p>
-                
-                <p>As you keep making modules consider also <a href="/dms">dieleman modules</a>.  This type of ecobrick module can be used to build with vertically as well as horizontally-- though, unlike Milstein modules, many are required in order for them to be practical</p>
-
-                <div class="row">
-						<div class="main2">
-                        <p>When you’re modules comes to the end of its life-- now worries!  You can cut the ecobricks out from their silicone or rubber connections, then put them to next use. <a href="earth.php">Earth and Ecobrick building</a> is a great long-term application for used ecobricks.</p>
-                    
-                   
-						</div>
-						<div class="side2"><img src="../webp/modules-circular.webp" width="80%" alt="spiral design of modular applications">
-						</div>
-					</div>
-
-					<div class="row2">
-						<div class="main3">
-						<p>Of course, you can also use your ecobricks to make another module too!</p> 
-						</div>
-						<div class="side3"><img src="../webp/modules-circular.webp" width="120px" alt="Cyclical spiral Design of module applications">
-						</div>
-					</div>
-                
-
+                <div class="side2"><img src="../webp/modules-circular.webp" width="80%" alt="spiral design of modular applications">
                 </div>
             </div>
-        </section>
+
+            <div class="row2">
+                <div class="main3">
+                <p data-lang-id="119-another-module-option">Of course, you can also use your ecobricks to make another module too!</p> 
+                </div>
+                <div class="side3"><img src="../webp/modules-circular.webp" width="120px" alt="Cyclical spiral Design of module applications">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 <!--
             <a name="PRINCIPLED"></a>
@@ -397,88 +394,76 @@
                 </div>
 			</div>
                     -->
-            
-<section id="HISTORY">
-            <div class="reg-content-block" id="block8">
-                <div class="opener-header"> 
-                    <div class="opener-header-text">
-                        <h4>History</h4>
-                        <h5>Milstein Modules were conceived and developed by Russell Maier, one the founders of the GEA, during his time in the Northern Philippines.</h5>
-                        <br>
-                    </div>
-                    <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
+                    <section id="HISTORY">
+    <div class="reg-content-block" id="block8">
+        <div class="opener-header"> 
+            <div class="opener-header-text">
+                <h4 data-lang-id="120-history-title">History</h4>
+                <h5 data-lang-id="121-milstein-modules-development">Milstein Modules were conceived and developed by Russell Maier, one the founders of the GEA, during his time in the Northern Philippines.</h5>
+                <br>
+            </div>
+            <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
+        </div>
+
+        <div id="preclosed8">
+
+            <p data-lang-id="122-ecobrick-module-history">The history of the ecobrick module begins in the Northern Philippines in 2010. Requiring furniture for his home, but having no means to procure it, Russell Maier, did the next best thing – he made it with what was freely available. Living in a small village in the remote Northern Philippines, there weren’t any furniture stores near Russell’s home, but there were lots of ‘waste’ glass bottles! Under many houses in the village were stores of unrecyclable gin bottles that had accumulated over the years. Russell began to experiment with the square, brick-like glass bottles that his neighbours were only too happy to get rid of.</p>
+
+            <div class="row">
+                <div class="main2">
+                    <p data-lang-id="123-glass-bottle-experiment">Through trial and error, with the help of Bianca Silva and Russell, <a href="https://russs.net/building-with-bottles-up-in-the-mountains/" data-lang-id="124-discovered-silicone-ideal">discovered that silicone was ideal</a> for attaching glass bottles together to make small modules. Together they created tables, chairs, lamps and much more. Russell exhibited his modular glass bottle furniture for the first time in the <a href="https://russs.net/weve-been-working-hard-at-the-bencab-gallery-in-baguio-city-to-setup-a-functional-installation-of-500-trashed-washed-and-assembled-gin-bottles-more-photos-to-come-of-our-creations/" data-lang-id="125-bencab-gallery-exhibition">BenCab gallery in April 2012</a> with the help of Alvin Berto.</p>
                 </div>
-
-                <div id="preclosed8">
-
-
-                <p>The history of the ecobrick module begins in the Northern Philippines in 2010.  Requiring furniture for his home, but having no means to procure it, Russell Maier, did the next best thing – he made it with what freely available. Living in a small village in the remote Northern Philippines, there weren’t any furniture store near Russell’s home, but there were lots of ‘waste’ glass bottles! Under many houses in the village were stores of unrecyclable gin bottles that had accumulated over the years. Russell began to experiment with the square, brick-like glass bottles that his neighbours were only too happy get rid of.</p>
-
-                
-					<div class="row">
-						<div class="main2">
-                        <p>Through trial and error, with the help of Bianca Silva and Russell, <a href="https://russs.net/building-with-bottles-up-in-the-mountains/">discovered that silicone was ideal</a> for attaching glass bottles together to make small modules. Together they created tables, chairs, lamps and much more. Russell exhibited his modular glass bottle furniture for the first time in the <a href="https://russs.net/weve-been-working-hard-at-the-bencab-gallery-in-baguio-city-to-setup-a-functional-installation-of-500-trashed-washed-and-assembled-gin-bottles-more-photos-to-come-of-our-creations/">BenCab gallery in April 2012</a> with the help of Alvin Berto.</p>
-
-						</div>
-						<div class="side2"><img src="../photos/glass-modules.jpg" width="100%"><p style="font-size: 1em;">2014 BenCab Art Gallery, Baguio, Philippines.</p>
-						</div>
-					</div>
-					<div class="row2">
-						<div class="main3">
-						<p>As the ecobrick movement took off, an abundance of ecobricks were being produced throughout the Northern Philippines.</p>
-						</div>
-						<div class="side3"><img src="../photos/glass-modules.jpg" width="125px">
-						</div>
-					</div>
-                
-               
-                    
-                    <div class="row">
-						<div class="main2">
-                        <p>However, traditional ecobrick constructions (like walls, schools and structures) required so many ecobricks that they weren't practical for the everyday ecobricking household.  Working from the emerging methodology of mandalic collaboration, Russell realized that it was essential to lower the barriers in building with ecobricks. In this way, homes and communities wouldn’t need to rely on builders to put their ecobricks to use and a significant bottle-neck in the spread and adoption of personal plastic responsiblity could be overcome.</p>
-
-						</div>
-						<div class="side2"><img src="../photos/Banague-First-Ever-Modules.jpg" width="100%" alt="Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines."><p style="font-size: 1em;">Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.</p>
-						</div>
-					</div>
-					<div class="row2">
-						<div class="main3">
-                        <p>Russell realized that silicone worked just as well to attach plastic bottles together as it did glass. It struck him that with consistently sized ecobricks, the glass bottle building technique could be applied to ecobricks.</p>
-						</div>
-						<div class="side3"><img src="../photos/Banague-First-Ever-Modules.jpg" alt="Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines." width="125px">
-						</div>
-					</div>
-
-                <p>The <a href="https://russs.net/ecobrick-breakthrough/" target="_blank">first ecobrick module</a> was made by Russell Maier and Banague Coteng in Monkayan, 2014. Shortly there after other schools in Tadjian and Balili began to follow suite.</p>
-                
-                <p>When Russell moved to Indonesia in 2015, Milstein modules were introduced as the primary application of ecobricks. For the first time, in ecobrick workshops, making and building with ecobricks was introduced in the same session. With this simple output-goal the Indonesian ecobrick movement has spread exponentially. Hundreds of thousands of milstein modules have been made in Indonesia. The method has since gained popularity in the Philippines and the UK.</p>
-                
-              <!--  <img src="../photos/tire-method.jpg" width="300px" alt="The first tire banding module being made">
-                
-                <p>The tube banding module making technique was also invented by Russell during a visit to a remote island of the remote community of Kampung Laut in Central Java. The community school welcomed Russell and Ani Himawati to show them the ecobricks they had been making to solve their plastic problem. However, it became clear that the community was hard pressed to put their ecobricks to use because of the cost and difficulty to source silicone. The next day Russelll sat down with Nur Hidaya and his Kebonmanis team in Cilacap and came up with the major breakthrough of tube banding.</p>-->
-
-
-
-					<div class="row">
-						<div class="main2">
-                        <p><p>Milstein modules are named after a close friend and mentor of Russell, Dan Milstein. Dan, a meditation and Reiki teacher based in California, had spent decades working with inmates in prisons around the world and ex-soldiers. Dan’s mission to bring love and light to those in dark places and discarded by society was an inspiration for Russell while he was <a href="https://russs.net/how-i-fucked-up-my-life-and-became-stranded-in-a-remote-tribal-village-for-four-years/">stranded in the remote Northern Philippines for five years</a>.</p></p>
-
-						</div>
-						<div class="side2"><img src="../photos/dan-milstein-peace-portrait.png" width="100%"><p style="font-size: 1em;">Dan Milstein, Teacher of Peace</p>
-						</div>
-					</div>
-					<div class="row2">
-						<div class="main3">
-						<p><p>Dan supported and encouraged Russell’s parallel work in the early stages of the Asian Ecobrick movement. </p>
-						</div>
-						<div class="side3"><img src="../photos/dan-milstein-peace-portrait.png" width="125px">
-						</div>
-					</div>
-
-                <p>Dan encouraged Russell through trying times at the outset of the ecobrick movement.  Dan, helped accentuate the defining theme of the movement of transforming the perspective of plastic as “waste”, “useless” or “trash”. Dan encouraged Russell to see the wisdom in the Igorot people he was living with.  Dan's own example of <i>“trusting in the universe”</i> in serving people and planet inspired Russell to do the same. Although they never met, Russell and Dan built up a strong friendship. Dan passed away in 2015.</p>
-                
+                <div class="side2" data-lang-id="126-2014-bencab-art-gallery-caption"><img src="../photos/glass-modules.jpg" width="100%" alt="2014 BenCab Art Gallery, Baguio, Philippines."><p style="font-size: 1em;">2014 BenCab Art Gallery, Baguio, Philippines.</p>
                 </div>
             </div>
+            <div class="row2">
+                <div class="main3">
+                    <p data-lang-id="127-ecobrick-movement-growth">As the ecobrick movement took off, an abundance of ecobricks were being produced throughout the Northern Philippines.</p>
+                </div>
+                <div class="side3" data-lang-id="128-glass-bottle-furniture-caption"><img src="../photos/glass-modules.jpg" width="125px" alt="glass bottle modular furniture">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="main2">
+                    <p data-lang-id="129-traditional-ecobrick-constructions">However, traditional ecobrick constructions (like walls, schools and structures) required so many ecobricks that they weren't practical for the everyday ecobricking household. Working from the emerging methodology of mandalic collaboration, Russell realized that it was essential to lower the barriers in building with ecobricks. In this way, homes and communities wouldn’t need to rely on builders to put their ecobricks to use and a significant bottleneck in the spread and adoption of personal plastic responsibility could be overcome.</p>
+                </div>
+                <div class="side2" data-lang-id="130-first-ever-ecobrick-module-caption"><img src="../photos/Banague-First-Ever-Modules.jpg" width="100%" alt="Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines."><p style="font-size: 1em;">Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.</p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="main3">
+                    <p data-lang-id="131-silicone-for-plastic-bottles">Russell realized that silicone worked just as well to attach plastic bottles together as it did glass. It struck him that with consistently sized ecobricks, the glass bottle building technique could be applied to ecobricks.</p>
+                </div>
+                <div class="side3" data-lang-id="132-first-ecobrick-module-caption"><img src="../photos/Banague-First-Ever-Modules.jpg" alt="Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines." width="125px">
+                </div>
+            </div>
+
+            <p data-lang-id="133-first-ecobrick-module-made">The <a href="https://russs.net/ecobrick-breakthrough/" target="_blank" data-lang-id="134-first-module-link">first ecobrick module</a> was made by Russell Maier and Banague Coteng in Monkayan, 2014. Shortly thereafter, other schools in Tadjian and Balili began to follow suit.</p>
+            
+            <p data-lang-id="135-milstein-modules-introduction">When Russell moved to Indonesia in 2015, Milstein modules were introduced as the primary application of ecobricks. For the first time, in ecobrick workshops, making and building with ecobricks was introduced in the same session. With this simple output-goal, the Indonesian ecobrick movement has spread exponentially. Hundreds of thousands of Milstein modules have been made in Indonesia. The method has since gained popularity in the Philippines and the UK.</p>
+            
+            <div class="row">
+                <div class="main2">
+                    <p data-lang-id="136-milstein-module-naming">Milstein modules are named after a close friend and mentor of Russell, Dan Milstein. Dan, a meditation and Reiki teacher based in California, had spent decades working with inmates in prisons around the world and ex-soldiers. Dan’s mission to bring love and light to those in dark places and discarded by society was an inspiration for Russell while he was <a href="https://russs.net/how-i-fucked-up-my-life-and-became-stranded-in-a-remote-tribal-village-for-four-years/" data-lang-id="137-stranded-in-philippines">stranded in the remote Northern Philippines for five years</a>.</p>
+                </div>
+                <div class="side2" data-lang-id="138-dan-milstein-peace-portrait-caption"><img src="../photos/dan-milstein-peace-portrait.png" width="100%" alt="Dan Milstein, Teacher of Peace"><p style="font-size: 1em;">Dan Milstein, Teacher of Peace</p>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="main3">
+                    <p data-lang-id="139-dan-support-early-ecobrick-movement">Dan supported and encouraged Russell’s parallel work in the early stages of the Asian Ecobrick movement.</p>
+                </div>
+                <div class="side3" data-lang-id="140-dan-milstein-teacher-of-peace-caption"><img src="../photos/dan-milstein-peace-portrait.png" width="125px" alt="Dan Milstein teacher of peace">
+                </div>
+            </div>
+
+            <p data-lang-id="141-dan-and-russell-friendship">Dan encouraged Russell through trying times at the outset of the ecobrick movement. Dan helped accentuate the defining theme of the movement of transforming the perspective of plastic as “waste,” “useless,” or “trash.” Dan encouraged Russell to see the wisdom in the Igorot people he was living with. Dan's own example of <i>“trusting in the universe”</i> in serving people and planet inspired Russell to do the same. Although they never met, Russell and Dan built up a strong friendship. Dan passed away in 2015.</p>
+                
+        </div>
+    </div>
+</section>
+
         
             <br>
                  
@@ -486,19 +471,20 @@
                 
                 <div class="main2">
                     <div class="page-paragraph-reg">
-                 
-                        <h4>More Modules!</h4>
+
+                        <h4 data-lang-id="139-more-modules-title">More Modules!</h4>
                         
-                         <p>Got thousands of ecobricks?  Then maybe you want to consider ecobrick Dieleman Modules!  These modules aren't as practical as the Milsteins, but when you've got lots of them, you can build super cool stuff.</p>
+                        <p data-lang-id="140-thousands-of-ecobricks">Got thousands of ecobricks? Then maybe you want to consider ecobrick Dieleman Modules! These modules aren't as practical as the Milsteins, but when you've got lots of them, you can build super cool stuff.</p>
                         <br><p>
                     
-                        <a class="action-btn" href="/dms">🚀 Dieleman Modules</a>
-                        <p style="font-size: 0.85em; margin-top:20px;">An overview of dieleman modules and how they are made.</a></p>    
+                        <a class="action-btn" href="/dms" data-lang-id="141-dieleman-modules-action">🚀 Dieleman Modules</a>
+                        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="142-overview-of-dieleman-modules">An overview of dieleman modules and how they are made.</p>    
                     
                     </div>
                 </div>
 
-                <div class="side2">
+
+                <div class="side2" data-lang-id="143-side-image-alt">
                     <br><img src="../webp/dieleman-325px.webp" width="90%" alt="ecobrick dieleman lego module 18 ecobricks" loading="lazy">
                 </div>
             </div>
@@ -507,39 +493,37 @@
 
 
     
-	
+            
 
-		<div class="side">
+                <div class="side">
+                <div class="side-module-desktop-mobile">
+            <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="12 ecobricks can make a triangle milstein eco brick module" data-lang-id="143-eco-brik-benches-img-alt">
+            <h4>Start with only 12 Ecobricks</h4>
+            <h5 data-lang-id="144-first-milstein-module">To make your first triangle milstein module all you need is twelve ecobricks.  Once done, you can keep adding to it to make a hexagon.</h5><br>            
+        </div>
 
-        
         <div class="side-module-desktop-mobile">
-    <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="12 ecobricks can make a triangle milstein eco brick module" data-lang-id="007-eco-brik-benches-img">
-    <h4 data-lang-id="008-start-with-briks">Start with only 12 Ecobricks</h4>
-    <h5 data-lang-id="009-first-milstein-module">To make your first triangle milstein module all you need is twelve ecobricks.  Once done, you can keep adding to it to make a hexagon.</h5><br>            
-</div>
+            <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="16 ecobricks make a hexagone, many hexagone modules can make cool furniture installations" data-lang-id="145-module-table-img-alt">
+            <h4>Combine Modules</h4>
+            <h5 data-lang-id="146-module-combination">Milstein modules fit together!  Combine modules vertically or horizontally to make more furniture.</h5><br>            
+        </div>
 
-<div class="side-module-desktop-mobile">
-    <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="16 ecobricks make a hexagone, many hexagone modules can make cool furniture installations" data-lang-id="010-module-table-img">
-    <h4 data-lang-id="011-combine-modules">Combine Modules</h4>
-    <h5 data-lang-id="012-module-combination">Milstein modules fit together!  Combine modules vertically or horizontally to make more furniture.</h5><br>            
-</div>
-
-
-<div class="side-module-desktop-mobile">
-                <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="after an ecobrick has been used in a module it can be spiralled into an earth build" data-lang-id="013-module-table-img">
-                <h4 data-lang-id="014-then-earth">Then build with Earth!</h4>
-                <h5 data-lang-id="015-module-spiral">After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
-                <a class="module-btn" href="earth.php">Earth Building</a>
-            </div>
-	
+        <div class="side-module-desktop-mobile">
+            <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="after an ecobrick has been used in a module it can be spiralled into an earth build" data-lang-id="147-module-table-img-alt">
+            <h4>Then build with Earth!</h4>
+            <h5 data-lang-id="148-module-spiral">After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
+            <a class="module-btn" href="earth.php">Earth Building</a>
+        </div>
 
 
             <?php require_once ("side-modules/spiral-design-principle.php");?>
 
+            <?php require_once ("side-modules/transtion-module.php");?>
+
 
             
 
-			
+<!-- 			
             
 
 			<div class="side-module-desktop-mobile">
@@ -547,7 +531,7 @@
 				<h4>Plastic Transition</h4>
 				<h5>Ecobrick building is a transition technology. Rather than see plastic as ‘waste’ we see it as a building block for our green visions.</h5><br>
 				<a class="module-btn" href="transition.php">Learn More</a>
-			</div>
+			</div> -->
 
 			
 
