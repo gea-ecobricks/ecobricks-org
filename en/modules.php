@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.6';?>
+<?php $version='2.61';?>
 <?php $page='modules';?>
 
 <?php require_once ("../includes/modules2-inc.php");?>
@@ -212,26 +212,26 @@
             
             <div id="three-column-gal" class="three-column-gal">
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-1.jpg', 'A rainbox milstein module made with strong elastics | UK')">
-                    <img src="../photos/modules/tire-banded-1.jpg" alt="A rainbow milstein module" loading="lazy">
+                    <img src="../photos/modules/tire-banded-1.jpg" alt="A rainbox milstein module made with strong elastics | UK" loading="lazy">
                     <p data-lang-id="069-rainbow-module-uk">A rainbox milstein module made with strong elastics | UK</p>
                 </div>
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-2.jpg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-2.jpg', 'A module being made by cutting up a motorcycle tire inner tube')">
                     <img src="../photos/modules/tire-banded-2.jpg" alt="A module being made by cutting up a motorcycle tire inner tube | Indonesia" loading="lazy">
                     <p data-lang-id="070-first-modules-philippines">A module being made by cutting up a motorcycle tire inner tube | Indonesia</p>
                 </div>
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-3.jpg', 'A comparison between tire banded and siliconed ecobrick modules.  | Jakarta')">
-                    <img src="../photos/modules/tire-banded-3.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
+                    <img src="../photos/modules/tire-banded-3.jpg" alt="A comparison between tire banded and siliconed ecobrick modules.  | Jakarta" loading="lazy">
                     <p data-lang-id="071-square-bottles-module-indonesia">A comparison between tire banded and siliconed ecobrick modules.  | Jakarta</p>
                 </div>
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-4.jpg', 'Thin tire bands make a triangle milstein module | Philippines')">
-                    <img src="../photos/modules/tire-banded-4.jpg" alt="A rainbow milstein module" loading="lazy">
+                    <img src="../photos/modules/tire-banded-4.jpg" alt="Thin tire bands make a triangle milstein module | Philippines" loading="lazy">
                     <p data-lang-id="072-rainbow-module-uk-repeat">Thin tire bands make a triangle milstein module | Philippines</p>
                 </div>
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-5.jpg', 'A tire banded module used to hold up a potted plant | Indonesia')">
                     <img src="../photos/modules/tire-banded-5.jpg" alt="A tire banded module used to hold up a potted plant | Indonesia" loading="lazy">
                     <p data-lang-id="073-first-modules-philippines-repeat">A tire banded module used to hold up a potted plant | Indonesia</p>
                 </div>
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-6.jpg', 'A module made from square bottles | Indonesia')">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-6.jpg', 'A module being made by cutting up a motorcycle tire inner tube | Indonesia')">
                     <img src="../photos/modules/tire-banded-6.jpg" alt="A module being made by cutting up a motorcycle tire inner tube | Indonesia" loading="lazy">
                     <p data-lang-id="074-square-bottles-module-indonesia-repeat">A module being made by cutting up a motorcycle tire inner tube | Indonesia</p>
                 </div>
