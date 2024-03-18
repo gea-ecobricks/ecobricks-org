@@ -518,7 +518,7 @@
 
             <?php require_once ("side-modules/spiral-design-principle.php");?>
 
-            <?php require_once ("side-modules/transtion-module.php");?>
+            <?php require_once ("side-modules/transition-module.php");?>
 
 
             
