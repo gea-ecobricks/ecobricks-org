@@ -51,7 +51,7 @@
 	.splash-content-block {
 
 		background: url(../svgs/module-banner.svg) bottom;
-        background-color: #FAFAFA;
+        background-color: #177BB3;
 		
 	}
 }
@@ -62,7 +62,7 @@
 	.splash-content-block {
 		
 		background: url(../svgs/module-banner.svg) bottom;
-        background-color: #FAFAFA;
+        background-color: #177BB3;
 		
 }
 } 
