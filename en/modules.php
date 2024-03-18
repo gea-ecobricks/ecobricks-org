@@ -50,20 +50,44 @@
     </div>
     <div id="preclosed1">
         <br>
-        <div class="flex-gallery" max-width="100%">
-            <div class="gal-photo" data-lang-id="017-gal-photo1"><a href="photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" loading="lazy"><img src="../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" height="175px" alt="A rainbow milstein module" loading="lazy"></a><p>A rainbow milstein module | England, UK</p></div>
-            <div class="gal-photo" data-lang-id="018-gal-photo2"><a href="photos/modules/first-modules.jpeg" loading="lazy"><img src="../photos/modules/first-modules.jpeg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made | Tadjian, Philipinnes</p></div>
-            <div class="gal-photo" data-lang-id="019-gal-photo3"><a href="photos/modules/indonesia-module.jpg" loading="lazy"><img src="../photos/modules/indonesia-module.jpg" height="175px" alt="A module made from square bottles | Indonesia"></a><p>A module made from square bottles | Indonesia</p></div>
-        </div>
-        <div class="flex-gallery" max-width="100%">
-            <div class="gal-photo" data-lang-id="020-gal-photo4"><a href="photos/modules/kid-sitting-module.jpg" loading="lazy"><img src="../photos/modules/kid-sitting-module.jpg" height="175px" alt="Simple and practical | Jogja, Indonesia."></a><p>Simple and practical | Jogja, Indonesia.</p></div>
-            <div class="gal-photo" data-lang-id="021-gal-photo5"><a href="photos/modules/lots-of-modules.jpg" loading="lazy"><img src="../photos/modules/lots-of-modules.jpg" height="175px" alt="A circular cob and ecobrick construction."></a><p>A circular cob and ecobrick construction.</p></div>
-            <div class="gal-photo" data-lang-id="022-gal-photo6"><a href="photos/modules/modules-storage.jpg"><img src="../photos/modules/modules-storage.jpg" height="175px" alt="Modules can be easily stored too | Bali, Indonesia."></a><p>Modules can be easily stored too | Bali, Indonesia</p></div>
-        </div>
+       
+        
+        <div id="three-column-gal" class="three-column-gal">
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-1.jpg', 'A rainbow milstein module | England, UK')">
+        <img src="../photos/modules/tire-banded-1.jpg" alt="A rainbow milstein module" loading="lazy">
+        <p data-lang-id="017-module-showcase-gal-caption">A rainbow milstein module | England, UK</p>
+    </div>
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-2.jpg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
+        <img src="../photos/modules/tire-banded-2.jpg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
+        <p data-lang-id="018-module-showcase-gal-caption">Some of the first modules ever made | Tadjian, Philipinnes</p>
+    </div>
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-3.jpg', 'A module made from square bottles | Indonesia')">
+        <img src="../photos/modules/tire-banded-3.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
+        <p data-lang-id="019-module-showcase-gal-caption">A module made from square bottles | Indonesia</p>
+    </div>
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-4.jpg', 'A rainbow milstein module | England, UK')">
+        <img src="../photos/modules/tire-banded-4.jpg" alt="A rainbow milstein module" loading="lazy">
+        <p data-lang-id="020-module-showcase-gal-caption">A rainbow milstein module | England, UK</p>
+    </div>
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-5.jpg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
+        <img src="../photos/modules/tire-banded-5.jpg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
+        <p data-lang-id="021-module-showcase-gal-caption">Some of the first modules ever made | Tadjian, Philipinnes</p>
+    </div>
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-6.jpg', 'A module made from square bottles | Indonesia')">
+        <img src="../photos/modules/tire-banded-6.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
+        <p data-lang-id="022-module-showcase-gal-caption">A module made from square bottles | Indonesia</p>
+    </div>
+</div>
+
+
+
         <p data-lang-id="023-modules-start">Milstein modules require a minimal amount of ecobricks to start. All you need is a dozen or so ecobricks of the exact same size to get started. You can use silicone or old inner-tubes to combine them. Modules are a short-term circular application that with proper care will last years before needing repair.</p>
+
         <p data-lang-id="024-gea-methods">The GEA approved methods here do not damage the ecobricks during their life cycle. This means that modules can easily be repaired or they can be disassembled and the ecobricks put to use in a new application.</p>
+
         <p data-lang-id="025-individual-usage">Milstein Modules can be used individually as convenient seats that are sliding and stackable. Hexagon milstein modules can be like honeycomb to create horizontal surfaces like tables, beds, benches and more. Triangle modules can be interlocked with hexagons to make a second level. For full vertical building see Dieleman module.</p>
         <p data-lang-id="026-scalable-applications">Ecobrick modular applications are indefinitely scalable. The more you have the more you can build. Eventually with hundreds of milstein and dielman communities create Ecobrick Open Spaces— interactive community spaces that can be built, un-built, and built again during conferences and gatherings to serve the needs of the moment.</p>
+
         <p data-lang-id="027-indoor-use">It is important to use modules indoors. Ecobricks should never be exposed to the sun. Ultra violet (UV) rays will gradually fade the ecobricks colors and photo-degrade the plastic bottle’s PET. After only two or three years, the brittle bottle risks crack and burst, releasing all our hard packed plastic. Keeping modules entirely indoors and out of the sun is essential to preventing degradation.</p>
     </div>
 </div>
@@ -99,92 +123,83 @@
 
 
 <!-- SILICONE -->
+<div class="reg-content-block" id="block3">
+
+    <div class="opener-header">
+        
+        <div class="opener-header-text">
+            <h4 data-lang-id="035-silicone-method-title">Silicone Method</h4>
+            <h5 data-lang-id="036-silicone-method-subtitle">The original and most enduring making milstein modules is using silicone sealant.</h5>   
+            <br>
+        </div>
+
+        <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+    </div>
+
+    <div id="preclosed3">
 
 
-            <div class="reg-content-block" id="block3">
-
-                <div class="opener-header">
-                    
-                    <div class="opener-header-text">
-                    <h4>Silicone Method</h4>
-                    <h5>The original and most enduring making milstein modules is using silicone sealant.</h5>   
-                    <br>
-                    </div>
-
-                    <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-                </div>
-
-                <div id="preclosed3">
-                
-                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/9v0VZbBqECA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-                    <p style="font-size: 0.9em; margin-top:10px; margin-bottom:0px;">Learn from the GEA Master Trainers in Indonesia how to make ecobrick module</p>
-                    <hr>
-
-                    <div class="lead-page-paragraph"><p>Normal, everyday silicone sealant can be used to make mistein modules.</p></div>
-
-                    <div class="row">
-						<div class="main2">
-						<p>This is the original way to make modules, by using silicone sealant.  Builders' silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrades into microplastics, nor leach toxins or interfere with ecological cycles. Silicone breaks down into silicon and oxygen when it degrades.</p>
-						
-
-						</div>
-						<div class="side2"><img src="../webp/siliconing-300px.webp" width="100%" alt="siliconing eco bricks to make a module" loading="lazy">
-                        
-						</div>
+    <div id="video-placeholder" style="width:100%; min-height:240px; height:375px;background:url('../webp/how-to-preview.webp') center center no-repeat; cursor:pointer; position: relative;">
+						<div id="play-button"></div>
 					</div>
-					<div class="row2">
-						<div class="main3">
-						<p>This is almost a zero-waste process! The HDPE silicone tube can be easily recycled and/or used in your projects. See the chart at the bottom of the page on how this method compares with the tire banding methode.</p>
-						</div>
-						<div class="side3"><img src="../webp/siliconing-300px.webp" width="150px" alt="Lay bottles on a perfectly flat surface. Ensure all bottles are the same size. Arrange a color pattern with caps and bottle bottoms. Silicone junction points. Press together. Let dry 25 hours." loading="lazy">
-						</div>
-					</div>
-                    
-                    
+    
+        <iframe width="100%" height="500px" src="https://www.youtube.com/embed/9v0VZbBqECA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-lang-id="037-youtube-video"></iframe><br>
 
-                <h4>Preparation</h4>
-                <p>To start you will need a well ventilated space, a perfectly flat surface, a caulking gun, a tube of silicone, a knife and of course, your ecobricks.  Hopefully, you’ve followed <a href="/how">GEA ecobrick making and storage directions</a>, so that you can easily pick a selection of colored ecobricks to make a cool pattern.</p>
-                
-                <p>There are many different types of silicone – our experience is that the cheapest all-purpose product (<strong>not </strong>special-brand or special purpose version) at your local hard ware store works best. Avoid colored silicones and stick to clear.</p>
-                
-                <h4>Safety</h4>
-                
-                <p>Make sure you’re working outside or with a fan, because as silicone cures it releases vinegar gas (acetic acid).&nbsp; It’s not good for you or your helpers if you breathe too much of this.&nbsp; Ideally, have a partner assist:&nbsp; one person holds and places the ecobricks, the other operates the silicone gun.</p>
-                
-            
-                <h4>To Start…</h4>
-                
-                <ul>
-                    <p><li>Go through your available ecobricks and create a beautiful pattern using the bottom colors of the ecobricks.&nbsp; Arrange you ecobricks in the desired module pattern with the bottom down.</li></p>
-                    <li>When you’re pattern is set, remove the cap of the center ecobrick (this will help guide you as the module grows).</li>
-                    <li>Insert the silicone tube into your caulking gun and use your knife to cut the top off your silicone tube and the nozzle.&nbsp; Be sure to ecobrick the plastic cuttings!</li>
-                </ul>
-                
+        <p style="font-size: 0.9em; margin-top:10px; margin-bottom:0px;" data-lang-id="038-learn-from-gea">Learn from the GEA Master Trainers in Indonesia how to make ecobrick module</p>
+        <hr>
 
-                
-                <h4>Siliconing</h4>
-                <ul>
-                    <li>One partner removes the center ecobrick from the test arrangement and holds it for the other to silicone.</li>
-                    <li>Lay a single thick a bead of silicone down the side of the ecobrick.&nbsp; The bead should be high, not squished or flat – this will help create the strongest bonds between bottles.</li>
-                    <li>Place the bottle down in the center of the flat space you’ve chosen.&nbsp; Take the next ecobrick, and press it gently against your center bottle.&nbsp; And your off!</li>
-                    <li>Grab the third bottle.&nbsp; This time add two beads of silicone down the sides of the bottle (where the bottles will touch the two other).&nbsp; Gently press this bottle against the first two.</li>
-                    <li>Ideally your high silicone beads compress nicely, maximizing the contact surface.</li>
-                    <li>Continue adding ecobricks in this way, from the center outwards.</li>
-                    <li>Be sure as you press new bottles into the pattern that you do not disturb the bonds of the earlier bottles.&nbsp; Try to avoid repressing bottles together after they’ve been set.&nbsp; Undisturbed silicone joints are strongest.</li>
-                    <li><strong>Be careful as you work to not lean over the pattern</strong>— the vinegar fumes from the silicone are strongest here.&nbsp; Always work from around the outside.</li>
-                </ul>
-                <h4>Finishing up</h4>
-                <ul>
-                    <li>Once all your bottles are all laid, its time to… <strong>wait</strong>!</li>
-                    <li>Do not move or even touch your module for the next two hours.&nbsp; After two hours, you can safely put the cap back on the center bottle and if necessarily gently slide the modules (but its best not to!).</li>
-                    <li>After 24 hours you can move the module.</li>
-                    <li>After 36 hours (i.e. when you can no longer small the silicone drying smell) your module is good to sit and even stand on!</li>
-                </ul>
+        <div class="lead-page-paragraph"><p data-lang-id="039-normal-silicone">Normal, everyday silicone sealant can be used to make mistein modules.</p></div>
 
-                
-
-                </div>
+        <div class="row">
+            <div class="main2">
+                <p data-lang-id="040-original-modules-method">This is the original way to make modules, by using silicone sealant.  Builders' silicone, also known as “caulking” and “aquarium sealant” is inexpensively found in hardware stores around the world.  Silicone is non-petroleum.  It is not a type of plastic, and it does not degrade into microplastics, nor leach toxins or interfere with ecological cycles. Silicone breaks down into silicon and oxygen when it degrades.</p>
             </div>
+            <div class="side2"><img src="../webp/siliconing-300px.webp" width="100%" alt="siliconing eco bricks to make a module" loading="lazy" data-lang-id="041-siliconing-image"></div>
+        </div>
+        <div class="row2">
+            <div class="main3">
+                <p data-lang-id="042-zero-waste-process">This is almost a zero-waste process! The HDPE silicone tube can be easily recycled and/or used in your projects. See the chart at the bottom of the page on how this method compares with the tire banding method.</p>
+            </div>
+            <div class="side3"><img src="../webp/siliconing-300px.webp" width="150px" alt="Lay bottles on a perfectly flat surface. Ensure all bottles are the same size. Arrange a color pattern with caps and bottle bottoms. Silicone junction points. Press together. Let dry 25 hours." loading="lazy" data-lang-id="043-siliconing-steps-image"></div>
+        </div>
+        
+        <h4 data-lang-id="044-preparation-title">Preparation</h4>
+        <p data-lang-id="045-preparation-details">To start you will need a well ventilated space, a perfectly flat surface, a caulking gun, a tube of silicone, a knife and of course, your ecobricks.  Hopefully, you’ve followed <a href="/how">GEA ecobrick making and storage directions</a>, so that you can easily pick a selection of colored ecobricks to make a cool pattern.</p>
+        
+        <p data-lang-id="046-types-of-silicone">There are many different types of silicone – our experience is that the cheapest all-purpose product (<strong>not</strong> special-brand or special purpose version) at your local hardware store works best. Avoid colored silicones and stick to clear.</p>
+        
+        <h4 data-lang-id="047-safety-title">Safety</h4>
+        
+        <p data-lang-id="048-safety-guidelines">Make sure you’re working outside or with a fan, because as silicone cures it releases vinegar gas (acetic acid).  It’s not good for you or your helpers if you breathe too much of this.  Ideally, have a partner assist:  one person holds and places the ecobricks, the other operates the silicone gun.</p>
+        
+        <h4 data-lang-id="049-start-title">To Start…</h4>
+        
+        <ul>
+            <p><li data-lang-id="050-start-step1">Go through your available ecobricks and create a beautiful pattern using the bottom colors of the ecobricks.  Arrange your ecobricks in the desired module pattern with the bottom down.</li></p>
+            <li data-lang-id="051-start-step2">When your pattern is set, remove the cap of the center ecobrick (this will help guide you as the module grows).</li>
+            <li data-lang-id="052-start-step3">Insert the silicone tube into your caulking gun and use your knife to cut the top off your silicone tube and the nozzle.  Be sure to ecobrick the plastic cuttings!</li>
+        </ul>
+        
+        <h4 data-lang-id="053-siliconing-title">Siliconing</h4>
+        <ul>
+            <li data-lang-id="054-siliconing-step1">One partner removes the center ecobrick from the test arrangement and holds it for the other to silicone.</li>
+            <li data-lang-id="055-siliconing-step2">Lay a single thick bead of silicone down the side of the ecobrick.  The bead should be high, not squished or flat – this will help create the strongest bonds between bottles.</li>
+            <li data-lang-id="056-siliconing-step3">Place the bottle down in the center of the flat space you’ve chosen.  Take the next ecobrick, and press it gently against your center bottle.  And you're off!</li>
+            <li data-lang-id="057-siliconing-step4">Grab the third bottle.  This time add two beads of silicone down the sides of the bottle (where the bottles will touch the two others).  Gently press this bottle against the first two.</li>
+            <li data-lang-id="058-siliconing-step5">Ideally your high silicone beads compress nicely, maximizing the contact surface.</li>
+            <li data-lang-id="059-siliconing-step6">Continue adding ecobricks in this way, from the center outwards.</li>
+            <li data-lang-id="060-siliconing-step7">Be sure as you press new bottles into the pattern that you do not disturb the bonds of the earlier bottles.  Try to avoid repressing bottles together after they’ve been set.  Undisturbed silicone joints are strongest.</li>
+            <li data-lang-id="061-siliconing-step8"><strong>Be careful as you work to not lean over the pattern</strong>— the vinegar fumes from the silicone are strongest here.  Always work from around the outside.</li>
+        </ul>
+        <h4 data-lang-id="062-finishing-up-title">Finishing up</h4>
+        <ul>
+            <li data-lang-id="063-finishing-up-step1">Once all your bottles are all laid, its time to… <strong>wait</strong>!</li>
+            <li data-lang-id="064-finishing-up-step2">Do not move or even touch your module for the next two hours.  After two hours, you can safely put the cap back on the center bottle and if necessary gently slide the modules (but it's best not to!).</li>
+            <li data-lang-id="065-finishing-up-step3">After 24 hours you can move the module.</li>
+            <li data-lang-id="066-finishing-up-step4">After 36 hours (i.e. when you can no longer smell the silicone drying) your module is good to sit and even stand on!</li>
+        </ul>
+    </div>
+</div>
 
                 
                 
@@ -200,58 +215,74 @@
 
 				<div id="preclosed4">
                 
-                <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/modules/tire-banded-1.jpg" loading="lazy"><img src="../photos/modules/tire-banded-1.jpg" height="175px" alt="A rainbow milstein module" loading="lazy"></a><p>A rainbow milstein module | England, UK</p></div>
-						<div class="gal-photo"><a href="photos/modules/tire-banded-2.jpg" loading="lazy"><img src="../photos/modules/tire-banded-2.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made | Tadjian, Philipinnes</p></div>
-						<div class="gal-photo"><a href="photos/modules/tire-banded-3.jpg" loading="lazy"><img src="../photos/modules/tire-banded-3.jpg" height="175px" alt="A module made from square bottles | Indonesia"></a><p>A module made from square bottles | Indonesia</p></div>
-					</div>
+                <div id="three-column-gal" class="three-column-gal">
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-1.jpg', 'A rainbow milstein module | England, UK')">
+        <img src="../photos/modules/tire-banded-1.jpg" alt="A rainbow milstein module" loading="lazy">
+        <p>A rainbow milstein module | England, UK</p>
+    </div>
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-2.jpg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
+        <img src="../photos/modules/tire-banded-2.jpg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
+        <p>Some of the first modules ever made | Tadjian, Philipinnes</p>
+    </div>
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-3.jpg', 'A module made from square bottles | Indonesia')">
+        <img src="../photos/modules/tire-banded-3.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
+        <p>A module made from square bottles | Indonesia</p>
+    </div>
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-4.jpg', 'A rainbow milstein module | England, UK')">
+        <img src="../photos/modules/tire-banded-4.jpg" alt="A rainbow milstein module" loading="lazy">
+        <p>A rainbow milstein module | England, UK</p>
+    </div>
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-5.jpg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
+        <img src="../photos/modules/tire-banded-5.jpg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
+        <p>Some of the first modules ever made | Tadjian, Philipinnes</p>
+    </div>
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-6.jpg', 'A module made from square bottles | Indonesia')">
+        <img src="../photos/modules/tire-banded-6.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
+        <p>A module made from square bottles | Indonesia</p>
+    </div>
+</div>
 
-                    <div class="flex-gallery" max-width="100%">
-						<div class="gal-photo"><a href="photos/modules/tire-banded-4.jpg" loading="lazy"><img src="../photos/modules/tire-banded-4.jpg" height="175px" alt="A rainbow milstein module" loading="lazy"></a><p>A rainbow milstein module | England, UK</p></div>
-						<div class="gal-photo"><a href="photos/modules/tire-banded-5.jpg" loading="lazy"><img src="../photos/modules/tire-banded-5.jpg" height="175px" alt="16th Century Tudor Cob Home, England"></a><p>Some of the first modules ever made | Tadjian, Philipinnes</p></div>
-						<div class="gal-photo"><a href="photos/modules/tire-banded-6.jpg" loading="lazy"><img src="../photos/modules/tire-banded-6.jpg" height="175px" alt="A module made from square bottles | Indonesia"></a><p>A module made from square bottles | Indonesia</p></div>
-					</div>
                     
-                    <p>With luck, you have a mechanics shop near you that works with motor bikes.&nbsp; By using the old inner tubes from motor cycles we can also connect our ecobricks together.&nbsp; Unfortunately, bicycle and car tires are too small and too big for the straightforward application of this method.&nbsp; But you’re welcome to try – it all depends on the diameter of your ecobricks and that of the inner-tube.</p>
+                    <p>With luck, you have a mechanics shop near you that works with motor bikes.   By using the old inner tubes from motor cycles we can also connect our ecobricks together.  Unfortunately, bicycle and car tires are too small and too big for the straightforward application of this method.  But you’re welcome to try – it all depends on the diameter of your ecobricks and that of the inner-tube.</p>
                     
-                    <p>Unlike old methods of tying a stack of ecobricks together with a long vertical strip of innertube, in the tire banding technique, we cut the tubes <strong>horizontally</strong> to make many small elastic bands.&nbsp; Just like the siliconing method, we’re not permanently bonding the ecobricks together, so that later the module can be fixed or destroyed without damaging the ecobricks.</p>
+                    <p>Unlike old methods of tying a stack of ecobricks together with a long vertical strip of innertube, in the tire banding technique, we cut the tubes <strong>horizontally</strong> to make many small elastic bands. Just like the siliconing method, we’re not permanently bonding the ecobricks together, so that later the module can be fixed or destroyed without damaging the ecobricks.</p>
                     
-                    <p>Like all ecobrick applications, the making process works best collaboratively.&nbsp; You’ll need a partner, some ecobricks and a wooded stick.&nbsp;&nbsp; Your ecobrick packing stick or an <a href="/earthwand">earthwand</a> will do the trick!</p>
+                    <p>Like all ecobrick applications, the making process works best collaboratively.  You’ll need a partner, some ecobricks and a wooded stick.   Your ecobrick packing stick or an <a href="earthwand.php">earthwand</a> will do the trick!</p>
                     
                     <h4>Getting Started</h4>
                     
-                    <p> We’ve found that motor cycle tires are ideal for binding 600ml bottles.&nbsp; Use only identical bottled ecobricks for one module.&nbsp; Really old inner tubes, or those that have been exposed to the sun won’t work – they will snap too easily.</p>
+                    <p> We’ve found that motor cycle tires are ideal for binding 600ml bottles.  Use only identical bottled ecobricks for one module.  Really old inner tubes, or those that have been exposed to the sun won’t work – they will snap too easily.</p>
                     
                     <ul>
-                        <li>Take your scissors and cut across the inner tube to make a ring.&nbsp; As you cut the tube into bands, angle your cuts slightly so that the bottom of the band is slightly smaller than the top – about 1 centimenter on the bottom and 1.3 cm on the top.&nbsp; This will help you maximize the number of bands you can get out of the tube, while minimizing waste.</li>
+                        <li>Take your scissors and cut across the inner tube to make a ring.  As you cut the tube into bands, angle your cuts slightly so that the bottom of the band is slightly smaller than the top – about 1 centimenter on the bottom and 1.3 cm on the top.  This will help you maximize the number of bands you can get out of the tube, while minimizing waste.</li>
                         
                         <li>Cut only about six bands to start as you will need to test the dimensions/elastacity of your bands before you cut the rest of the tire.</li>
                         
-                        <li>Hopefully you’ve follow the recommended ecobrick <a href="/how">making and storage methods</a> so that you’re ecobricks have colored bottoms and are easily accessible.&nbsp; Arrange your ecobricks to make a pattern of colored bottoms (this will be the top of your module).</li>
+                        <li>Hopefully you’ve follow the recommended ecobrick <a href="how.php">making and storage methods</a> so that you’re ecobricks have colored bottoms and are easily accessible.  Arrange your ecobricks to make a pattern of colored bottoms (this will be the top of your module).</li>
                         
-                        <li>Slide a band over the bottom and the top of your center ecobrick.&nbsp; Bring out the adjacent ecobrick.&nbsp; Slide the top and bottom elastics over the second ecobrick so that it is partnered with the first.</li>
+                        <li>Slide a band over the bottom and the top of your center ecobrick.  Bring out the adjacent ecobrick.  Slide the top and bottom elastics over the second ecobrick so that it is partnered with the first.</li>
                         
-                        <li>Now connect your second ecobrick, in the same way to a third.&nbsp; In this way you’ll have three partners attached in a line.</li>
+                        <li>Now connect your second ecobrick, in the same way to a third.  In this way you’ll have three partners attached in a line.</li>
                         
-                        <li>Push all three bottles together and connect bottle the first bottle, to the third.&nbsp; The ecobricks should be tightly bonded in a triad!&nbsp; They should not be able to slide back and forth or wiggle.&nbsp; If your bonds are too loose (or too tight!), go back to cutting your elastics.&nbsp; By adjust the thickness of your elastic you can adjust the tightness of your tube bonds.</li>
+                        <li>Push all three bottles together and connect bottle the first bottle, to the third.  The ecobricks should be tightly bonded in a triad!  They should not be able to slide back and forth or wiggle.  If your bonds are too loose (or too tight!), go back to cutting your elastics.  By adjust the thickness of your elastic you can adjust the tightness of your tube bonds.</li>
                         
-                        <li>Once you’ve got a good feel for the sizing of your bands, cut the entire up into bands.&nbsp; You’ll eventually be able to put them all to use.&nbsp; See if you can do it without creating any waste snippets!&nbsp; Of course… every bit of excess cutting, you can put into an ecobrick (like the nozzle)!&nbsp; <strong>This makes this a zero-waste making method.</strong></li>
+                        <li>Once you’ve got a good feel for the sizing of your bands, cut the entire up into bands.  You’ll eventually be able to put them all to use.  See if you can do it without creating any waste snippets!  Of course… every bit of excess cutting, you can put into an ecobrick (like the nozzle)!  <strong>This makes this a zero-waste making method.</strong></li>
                         
-                        <li>Alright… that was the easy part!&nbsp; Now, connect ecobrick No. 4 to ecobrick No.3.&nbsp;&nbsp; Connect No. 4 to No.2…. Continue to add on ecobricks in this way.&nbsp; It won’t be easy, as the bonds will start to get tight and overlap.&nbsp; This is where working with a partner comes in handy.</li>
+                        <li>Alright… that was the easy part!  Now, connect ecobrick No. 4 to ecobrick No.3.   Connect No. 4 to No.2…. Continue to add on ecobricks in this way.  It won’t be easy, as the bonds will start to get tight and overlap.  This is where working with a partner comes in handy.</li>
                         
-                        <li>Have one partner hold the connected ecobricks and another adding the new ecobrick.&nbsp; Use a stick or <a href="/earthwand">earthwand</a> to press down the elastics&nbsp; as you go.</li>
+                        <li>Have one partner hold the connected ecobricks and another adding the new ecobrick.  Use a stick or <a href="earthwand.php">earthwand</a> to press down the elastics  as you go.</li>
                         
                         <li>Continue adding ecobricks until you’ve completed your triangle or hexagon module.</li>
                         
                         <li>Use your stick to level out the elastics on the side so that they make a neat, level line around the outside.</li>
                         
-                        <li>And, that’s it!&nbsp; Your module is good to go!</li>
+                        <li>And, that’s it!  Your module is good to go!</li>
                     </ul>
                     
-                    <p>If you have used bottles of identical brand, the hexagon module top will fit perfectly into a triangular module bottom.&nbsp; Make more modules!&nbsp; Experiment with module size and back-to-back modules.&nbsp; Make cool stuff!</p>
+                    <p>If you have used bottles of identical brand, the hexagon module top will fit perfectly into a triangular module bottom.  Make more modules!  Experiment with module size and back-to-back modules.  Make cool stuff!</p>
 
                     
-                    <h5>ℹ️ Learn more about our <a href="mandalic">Mandalic Collaboration</a></h5>
+                    <h5>ℹ️ Learn more about our <a href="/mandalic">Mandalic Collaboration</a></h5>
                     
 				</div>
 			</div>
@@ -284,7 +315,7 @@
                     
                     <p>For silicone modules, you can also use vinegar or isopropyl alcohol to weaken and dissolve the bonds. Clear the old silicone from the old bottles.& Your ecobricks can now be reused to make modules or applied in <a href="earth.php">earth and ecobrick constructions</a>.</p>
                     
-                    <p>You can safely dispose of silicone sealant in your garden, ideally in a sunny place. Silicone is not plastic, nor is it petroleum based.&nbsp; It degrades harmless back into its inorganic components of amorphous silica, carbon dioxide, and water vapor (SO, CO2, H2O).</p>
+                    <p>You can safely dispose of silicone sealant in your garden, ideally in a sunny place. Silicone is not plastic, nor is it petroleum based.  It degrades harmless back into its inorganic components of amorphous silica, carbon dioxide, and water vapor (SO, CO2, H2O).</p>
 
                     <h4>Maintenance and Precautions</h4>
 
@@ -295,7 +326,8 @@
             </div>
 
         
-            <a name="NEXT"></a>
+<section id="NEXT-LIFE">
+
             <div class="reg-content-block" id="block7">
                 <div class="opener-header"> 
                     <div class="opener-header-text">
@@ -311,7 +343,7 @@
                 <br>   
                     <img src="../photos/modules/open-space.jpg" width="100%" alt="module next life"></a>
                     
-                    <p style="font-size: 1em;">An old module can be cut apart and its ecobricks reused.</>
+                    <p style="font-size: 1em;">An old module can be cut apart and its ecobricks reused.</p>
                     <hr><br>
 
 
@@ -323,11 +355,11 @@
 
                 <div class="row">
 						<div class="main2">
-                        <p>When you’re modules comes to the end of its life-- now worries!  You can cut the ecobricks out from their silicone or rubber connections, then put them to next use. <a href="eart">Earth and Ecobrick building</a> is a great long-term application for used ecobricks.</p>
+                        <p>When you’re modules comes to the end of its life-- now worries!  You can cut the ecobricks out from their silicone or rubber connections, then put them to next use. <a href="earth.php">Earth and Ecobrick building</a> is a great long-term application for used ecobricks.</p>
                     
                    
 						</div>
-						<div class="side2"><img src="../webp/modules-circular.webp" width="80%" alt="cyclical design of modular applications">
+						<div class="side2"><img src="../webp/modules-circular.webp" width="80%" alt="spiral design of modular applications">
 						</div>
 					</div>
 
@@ -335,13 +367,14 @@
 						<div class="main3">
 						<p>Of course, you can also use your ecobricks to make another module too!</p> 
 						</div>
-						<div class="side3"><img src="../webp/modules-circular.webp" width="120px" alt="Cyclical Circular Design of module applications">
+						<div class="side3"><img src="../webp/modules-circular.webp" width="120px" alt="Cyclical spiral Design of module applications">
 						</div>
 					</div>
                 
 
                 </div>
             </div>
+        </section>
 
 <!--
             <a name="PRINCIPLED"></a>
@@ -357,7 +390,7 @@
 
 				<div id="preclosed6">   
 
-                    <h3>Milstein module embody transcaste, net-green, circular and spiral principles.</h3><p data-pm-slice="1 1 []"><a href="https://cdn.ecobricks.org/wp-content/uploads/2020/07/2020-Modular-Cradle-to-Cradle-Principle-500px.png"><img loading="lazy" class="alignright wp-image-65349 size-medium" src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/2020-Modular-Cradle-to-Cradle-Principle-500px-300x244.png" alt="" width="300" height="244"></a>We with all GEA methods to make them as aligned with our&nbsp; <a href="/ayyew">Ayyew</a> principles as possible.&nbsp; This goes for Milstein modules too!&nbsp;</p><h4 data-pm-slice="1 1 []">Circular</h4><p data-pm-slice="1 1 []">We’re careful to use <a href="/circular">cradle-to-cradle</a> methods that enable our ecobricks to be easily and safely at the end or our creation.&nbsp; This way they can be put to use again.&nbsp; Silicone and tire bands can both be cut to release the ecobricks without any damage to the PET bottle.&nbsp; Silicone methods with minimal sun exposure can last for 3-5 years.&nbsp; After this time, the silicone begins to let go of the ecobricks.&nbsp; The modules can either be repaired, or disassembled.&nbsp;</p><h4>Transcaste</h4><p>The spirit of Milstein modules is one that empowers across the barriers of geography, age and gender to put one’s plastic to go use. Module making are designed to readily involve men, women, the young, old, rich, poor and everyone in between.</p><div id="attachment_64730" style="width: 240px" class="wp-caption alignright"><a href="https://cdn.ecobricks.org/wp-content/uploads/2020/06/Impact-Assessment-Balance-Logo-1.png"><img aria-describedby="caption-attachment-64730" loading="lazy" class="wp-image-64730 " src="https://cdn.ecobricks.org/wp-content/uploads/2020/06/Impact-Assessment-Balance-Logo-1-300x300.png" alt="" width="230" height="230"></a><p id="caption-attachment-64730" class="wp-caption-text">We’re careful that the net impact of our module projects is greening.</p></div><h4>Regenerative</h4><p>Ecobricking and module making has a fundamental green impact – we’re sequestering plastic and CO2 by our efforts!&nbsp; However, by using industrially produced silicone or potentially relying on machines, transportation or capital in our project we can also have a grey impact. &nbsp;</p><p>In order to be sure that the net impact of our efforts is green (i.e. regenerative), we are thus careful to use use methods and materials that minimize dependence on on capital and machines.&nbsp; Instead we use materials that are available everywhere and methods that are powered by human collaboration.&nbsp; In this way we make sure that our creations are circular and that their ecological contribution is as green as possible.</p><p>&nbsp;</p><h4>Comparison of Methods</h4><h3>Silicone sealant:</h3><p>Silicone as a connection method was chosen silicone sealant is not petroleum based and is almost universally available.&nbsp; Simple and inexpensive silicone caulking can be purchased in hardware stores in villages and cities around the planet.</p><div data-offset-key="e4lv3-0-0"><div data-offset-key="e4lv3-0-0"><strong>Locally Available:</strong>&nbsp;9/10 (you can buy silicone almost everywhere)</div><div data-offset-key="e4lv3-0-0"><strong>Globally Consistent:</strong>&nbsp; 9/10&nbsp; (it is the same everywhere)</div><div data-offset-key="e4lv3-0-0"><strong>Non-Industrial source:</strong>&nbsp; 0/10&nbsp; (it is manufactured)</div><div data-offset-key="e4lv3-0-0"><strong>Non-Capital</strong>:&nbsp; 5/10&nbsp; (inexpensive)</div><div data-offset-key="e4lv3-0-0"><strong>Cradle-to-cradle (reusable):</strong>&nbsp; 0/10</div><div data-offset-key="e4lv3-0-0"><strong>Non-Toxic:</strong>&nbsp;&nbsp; 8/10</div><div data-offset-key="e4lv3-0-0"><strong>Aesthetic:&nbsp;</strong>9/10</div><div data-offset-key="e4lv3-0-0"><strong>Waste in application:&nbsp;&nbsp;</strong>5/10 (left over tube)</div><div data-offset-key="e4lv3-0-0">&nbsp;</div></div><h3 data-offset-key="e4lv3-0-0">Tire-banding:</h3><p>The tire-banding method is even more in line with our principles, but also has several downside.&nbsp; Tire banding recycles use motorcycle inner-tubes and requires no new material at all – instead recycling widely and freely available used motorcycle inner tubes.&nbsp;&nbsp; However, tire banding requires manual strength and motor tubes are hard to find in some countries.</p><div data-offset-key="e4lv3-0-0"><strong>Locally Available:</strong>&nbsp;10/10 (Tubes are everywhere!)</div><div data-offset-key="e4lv3-0-0"><strong>Globally Consistent:</strong>&nbsp; 10/10&nbsp; Every</div><div data-offset-key="e4lv3-0-0"><strong>Non-Industrial source:</strong>&nbsp; 10/10 (upcycled)</div><div data-offset-key="e4lv3-0-0"><strong>Non-Capital</strong>:&nbsp; 10/10&nbsp; (free, abundant)</div><div data-offset-key="e4lv3-0-0"><strong>Cradle-to-cradle (reusable):</strong>&nbsp; 9/10&nbsp; (rings are reusable)</div><div data-offset-key="e4lv3-0-0"><strong>Non-Toxic:</strong>&nbsp;&nbsp; 9/10</div><div data-offset-key="e4lv3-0-0"><strong>Aesthetic:&nbsp;</strong>&nbsp;6/10</div><div data-offset-key="e4lv3-0-0"><strong>Waste in application:&nbsp; 9.5/10&nbsp;</strong>&nbsp;(and left over clippings can be ecobricked)</div>
+                    <h3>Milstein module embody transcaste, net-green, circular and spiral principles.</h3><p data-pm-slice="1 1 []"><a href="https://cdn.ecobricks.org/wp-content/uploads/2020/07/2020-Modular-Cradle-to-Cradle-Principle-500px.png"><img loading="lazy" class="alignright wp-image-65349 size-medium" src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/2020-Modular-Cradle-to-Cradle-Principle-500px-300x244.png" alt="" width="300" height="244"></a>We with all GEA methods to make them as aligned with our  <a href="/ayyew">Ayyew</a> principles as possible.  This goes for Milstein modules too! </p><h4 data-pm-slice="1 1 []">Circular</h4><p data-pm-slice="1 1 []">We’re careful to use <a href="/circular">cradle-to-cradle</a> methods that enable our ecobricks to be easily and safely at the end or our creation.  This way they can be put to use again.  Silicone and tire bands can both be cut to release the ecobricks without any damage to the PET bottle.  Silicone methods with minimal sun exposure can last for 3-5 years.  After this time, the silicone begins to let go of the ecobricks.  The modules can either be repaired, or disassembled. </p><h4>Transcaste</h4><p>The spirit of Milstein modules is one that empowers across the barriers of geography, age and gender to put one’s plastic to go use. Module making are designed to readily involve men, women, the young, old, rich, poor and everyone in between.</p><div id="attachment_64730" style="width: 240px" class="wp-caption alignright"><a href="https://cdn.ecobricks.org/wp-content/uploads/2020/06/Impact-Assessment-Balance-Logo-1.png"><img aria-describedby="caption-attachment-64730" loading="lazy" class="wp-image-64730 " src="https://cdn.ecobricks.org/wp-content/uploads/2020/06/Impact-Assessment-Balance-Logo-1-300x300.png" alt="" width="230" height="230"></a><p id="caption-attachment-64730" class="wp-caption-text">We’re careful that the net impact of our module projects is greening.</p></div><h4>Regenerative</h4><p>Ecobricking and module making has a fundamental green impact – we’re sequestering plastic and CO2 by our efforts!  However, by using industrially produced silicone or potentially relying on machines, transportation or capital in our project we can also have a grey impact.  </p><p>In order to be sure that the net impact of our efforts is green (i.e. regenerative), we are thus careful to use use methods and materials that minimize dependence on on capital and machines.  Instead we use materials that are available everywhere and methods that are powered by human collaboration.  In this way we make sure that our creations are circular and that their ecological contribution is as green as possible.</p><p> </p><h4>Comparison of Methods</h4><h3>Silicone sealant:</h3><p>Silicone as a connection method was chosen silicone sealant is not petroleum based and is almost universally available.  Simple and inexpensive silicone caulking can be purchased in hardware stores in villages and cities around the planet.</p><div data-offset-key="e4lv3-0-0"><div data-offset-key="e4lv3-0-0"><strong>Locally Available:</strong> 9/10 (you can buy silicone almost everywhere)</div><div data-offset-key="e4lv3-0-0"><strong>Globally Consistent:</strong>  9/10  (it is the same everywhere)</div><div data-offset-key="e4lv3-0-0"><strong>Non-Industrial source:</strong>  0/10  (it is manufactured)</div><div data-offset-key="e4lv3-0-0"><strong>Non-Capital</strong>:  5/10  (inexpensive)</div><div data-offset-key="e4lv3-0-0"><strong>Cradle-to-cradle (reusable):</strong>  0/10</div><div data-offset-key="e4lv3-0-0"><strong>Non-Toxic:</strong>   8/10</div><div data-offset-key="e4lv3-0-0"><strong>Aesthetic: </strong>9/10</div><div data-offset-key="e4lv3-0-0"><strong>Waste in application:  </strong>5/10 (left over tube)</div><div data-offset-key="e4lv3-0-0"> </div></div><h3 data-offset-key="e4lv3-0-0">Tire-banding:</h3><p>The tire-banding method is even more in line with our principles, but also has several downside.  Tire banding recycles use motorcycle inner-tubes and requires no new material at all – instead recycling widely and freely available used motorcycle inner tubes.   However, tire banding requires manual strength and motor tubes are hard to find in some countries.</p><div data-offset-key="e4lv3-0-0"><strong>Locally Available:</strong> 10/10 (Tubes are everywhere!)</div><div data-offset-key="e4lv3-0-0"><strong>Globally Consistent:</strong>  10/10  Every</div><div data-offset-key="e4lv3-0-0"><strong>Non-Industrial source:</strong>  10/10 (upcycled)</div><div data-offset-key="e4lv3-0-0"><strong>Non-Capital</strong>:  10/10  (free, abundant)</div><div data-offset-key="e4lv3-0-0"><strong>Cradle-to-cradle (reusable):</strong>  9/10  (rings are reusable)</div><div data-offset-key="e4lv3-0-0"><strong>Non-Toxic:</strong>   9/10</div><div data-offset-key="e4lv3-0-0"><strong>Aesthetic: </strong> 6/10</div><div data-offset-key="e4lv3-0-0"><strong>Waste in application:  9.5/10 </strong> (and left over clippings can be ecobricked)</div>
                     
                 
 			
@@ -365,7 +398,7 @@
 			</div>
                     -->
             
-            <a name="HISTORY"></a>
+<section id="HISTORY">
             <div class="reg-content-block" id="block8">
                 <div class="opener-header"> 
                     <div class="opener-header-text">
@@ -416,7 +449,7 @@
 						</div>
 					</div>
 
-                <p>The <a href="https://russs.net/ecobrick-breakthrough/">first ecobrick module</a> was made by Russell Maier and Banague Coteng in Monkayan, 2014. Shortly there after other schools in Tadjian and Balili began to follow suite.</p>
+                <p>The <a href="https://russs.net/ecobrick-breakthrough/" target="_blank">first ecobrick module</a> was made by Russell Maier and Banague Coteng in Monkayan, 2014. Shortly there after other schools in Tadjian and Balili began to follow suite.</p>
                 
                 <p>When Russell moved to Indonesia in 2015, Milstein modules were introduced as the primary application of ecobricks. For the first time, in ecobrick workshops, making and building with ecobricks was introduced in the same session. With this simple output-goal the Indonesian ecobrick movement has spread exponentially. Hundreds of thousands of milstein modules have been made in Indonesia. The method has since gained popularity in the Philippines and the UK.</p>
                 
@@ -538,6 +571,24 @@
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
+<script>
+document.getElementById('play-button').addEventListener('click', function() {
+    const iframe = document.createElement('iframe');
+    iframe.setAttribute('loading', 'lazy');
+    iframe.setAttribute('title', 'Making a Module | Pembuatan Module');
+    iframe.setAttribute('width', '600');
+    iframe.setAttribute('height', '400');
+    iframe.setAttribute('src', 'https://www.youtube.com/embed/9v0VZbBqECA');
+    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+    iframe.setAttribute('allowfullscreen', '');
+    iframe.style.border = 'none';
+    iframe.style.width = '100%';
+    
+    const placeholder = document.getElementById('video-placeholder');
+    placeholder.replaceWith(iframe);
+});
+
+</script>
 <!-- This script is for pages that use the accordion content system-->
 <script src="../accordion-scripts.js?v=2" defer></script>
 
