@@ -148,8 +148,8 @@
     <!-- <div id="video-placeholder" style="width:100%; min-height:240px; height:375px;background:url('../webp/how-to-preview.webp') center center no-repeat; cursor:pointer; position: relative;">
 						<div id="play-button"></div>
 					</div> -->
-    
-        <iframe width="100%" height="500px" src="https://www.youtube.com/embed/9v0VZbBqECA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-lang-id="037-youtube-video"></iframe><br>
+<!--     
+        <iframe width="100%" height="500px" src="https://www.youtube.com/embed/9v0VZbBqECA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-lang-id="037-youtube-video"></iframe><br> -->
 
         <p style="font-size: 0.9em; margin-top:10px; margin-bottom:0px;" data-lang-id="038-learn-from-gea">Learn from the GEA Master Trainers in Indonesia how to make ecobrick module</p>
         <hr>
