@@ -211,29 +211,29 @@
         <div id="preclosed4">
             
             <div id="three-column-gal" class="three-column-gal">
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-1.jpg', 'A rainbow milstein module | England, UK')">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-1.jpg', 'A rainbox milstein module made with strong elastics | UK')">
                     <img src="../photos/modules/tire-banded-1.jpg" alt="A rainbow milstein module" loading="lazy">
-                    <p data-lang-id="069-rainbow-module-uk">A rainbow milstein module | England, UK</p>
+                    <p data-lang-id="069-rainbow-module-uk">A rainbox milstein module made with strong elastics | UK</p>
                 </div>
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-2.jpg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
-                    <img src="../photos/modules/tire-banded-2.jpg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
-                    <p data-lang-id="070-first-modules-philippines">Some of the first modules ever made | Tadjian, Philipinnes</p>
+                    <img src="../photos/modules/tire-banded-2.jpg" alt="A module being made by cutting up a motorcycle tire inner tube | Indonesia" loading="lazy">
+                    <p data-lang-id="070-first-modules-philippines">A module being made by cutting up a motorcycle tire inner tube | Indonesia</p>
                 </div>
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-3.jpg', 'A module made from square bottles | Indonesia')">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-3.jpg', 'A comparison between tire banded and siliconed ecobrick modules.  | Jakarta')">
                     <img src="../photos/modules/tire-banded-3.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
-                    <p data-lang-id="071-square-bottles-module-indonesia">A module made from square bottles | Indonesia</p>
+                    <p data-lang-id="071-square-bottles-module-indonesia">A comparison between tire banded and siliconed ecobrick modules.  | Jakarta</p>
                 </div>
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-4.jpg', 'A rainbow milstein module | England, UK')">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-4.jpg', 'Thin tire bands make a triangle milstein module | Philippines')">
                     <img src="../photos/modules/tire-banded-4.jpg" alt="A rainbow milstein module" loading="lazy">
-                    <p data-lang-id="072-rainbow-module-uk-repeat">A rainbow milstein module | England, UK</p>
+                    <p data-lang-id="072-rainbow-module-uk-repeat">Thin tire bands make a triangle milstein module | Philippines</p>
                 </div>
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-5.jpg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
-                    <img src="../photos/modules/tire-banded-5.jpg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
-                    <p data-lang-id="073-first-modules-philippines-repeat">Some of the first modules ever made | Tadjian, Philipinnes</p>
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-5.jpg', 'A tire banded module used to hold up a potted plant | Indonesia')">
+                    <img src="../photos/modules/tire-banded-5.jpg" alt="A tire banded module used to hold up a potted plant | Indonesia" loading="lazy">
+                    <p data-lang-id="073-first-modules-philippines-repeat">A tire banded module used to hold up a potted plant | Indonesia</p>
                 </div>
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/tire-banded-6.jpg', 'A module made from square bottles | Indonesia')">
-                    <img src="../photos/modules/tire-banded-6.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
-                    <p data-lang-id="074-square-bottles-module-indonesia-repeat">A module made from square bottles | Indonesia</p>
+                    <img src="../photos/modules/tire-banded-6.jpg" alt="A module being made by cutting up a motorcycle tire inner tube | Indonesia" loading="lazy">
+                    <p data-lang-id="074-square-bottles-module-indonesia-repeat">A module being made by cutting up a motorcycle tire inner tube | Indonesia</p>
                 </div>
             </div>
 
@@ -410,14 +410,19 @@
                 <div class="main2">
                     <p data-lang-id="123-glass-bottle-experiment">Through trial and error, with the help of Bianca Silva and Russell, <a href="https://russs.net/building-with-bottles-up-in-the-mountains/" data-lang-id="124-discovered-silicone-ideal">discovered that silicone was ideal</a> for attaching glass bottles together to make small modules. Together they created tables, chairs, lamps and much more. Russell exhibited his modular glass bottle furniture for the first time in the <a href="https://russs.net/weve-been-working-hard-at-the-bencab-gallery-in-baguio-city-to-setup-a-functional-installation-of-500-trashed-washed-and-assembled-gin-bottles-more-photos-to-come-of-our-creations/" data-lang-id="125-bencab-gallery-exhibition">BenCab gallery in April 2012</a> with the help of Alvin Berto.</p>
                 </div>
-                <div class="side2" data-lang-id="126-2014-bencab-art-gallery-caption"><img src="../photos/glass-modules.jpg" width="100%" alt="2014 BenCab Art Gallery, Baguio, Philippines."><p style="font-size: 1em;">2014 BenCab Art Gallery, Baguio, Philippines.</p>
-                </div>
+
+
+                <div class="side2" data-lang-id="126-2014-bencab-art-gallery-caption" onclick="viewGalleryImage('../photos/glass-modules.jpg', '2014 BenCab Art Gallery, Baguio, Philippines.')">
+    <img src="../photos/glass-modules.jpg" width="100%" alt="2014 BenCab Art Gallery, Baguio, Philippines.">
+    <p style="font-size: 1em;">2014 BenCab Art Gallery, Baguio, Philippines.</p>
+</div>
+
             </div>
             <div class="row2">
                 <div class="main3">
                     <p data-lang-id="127-ecobrick-movement-growth">As the ecobrick movement took off, an abundance of ecobricks were being produced throughout the Northern Philippines.</p>
                 </div>
-                <div class="side3" data-lang-id="128-glass-bottle-furniture-caption"><img src="../photos/glass-modules.jpg" width="125px" alt="glass bottle modular furniture">
+                <div class="side3" data-lang-id="128-glass-bottle-furniture-caption" onclick="viewGalleryImage('../photos/glass-modules.jpg', '2014 BenCab Art Gallery, Baguio, Philippines.')"><img src="../photos/glass-modules.jpg" width="125px" alt="glass bottle modular furniture">
                 </div>
             </div>
 
@@ -425,14 +430,14 @@
                 <div class="main2">
                     <p data-lang-id="129-traditional-ecobrick-constructions">However, traditional ecobrick constructions (like walls, schools and structures) required so many ecobricks that they weren't practical for the everyday ecobricking household. Working from the emerging methodology of mandalic collaboration, Russell realized that it was essential to lower the barriers in building with ecobricks. In this way, homes and communities wouldn’t need to rely on builders to put their ecobricks to use and a significant bottleneck in the spread and adoption of personal plastic responsibility could be overcome.</p>
                 </div>
-                <div class="side2" data-lang-id="130-first-ever-ecobrick-module-caption"><img src="../photos/Banague-First-Ever-Modules.jpg" width="100%" alt="Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines."><p style="font-size: 1em;">Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.</p>
+                <div class="side2" data-lang-id="130-first-ever-ecobrick-module-caption" onclick="viewGalleryImage('../photos/Banague-First-Ever-Modules.jpg', 'Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.')"><img src="../photos/Banague-First-Ever-Modules.jpg" width="100%" alt="Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines."><p style="font-size: 1em;">Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.</p>
                 </div>
             </div>
             <div class="row2">
                 <div class="main3">
                     <p data-lang-id="131-silicone-for-plastic-bottles">Russell realized that silicone worked just as well to attach plastic bottles together as it did glass. It struck him that with consistently sized ecobricks, the glass bottle building technique could be applied to ecobricks.</p>
                 </div>
-                <div class="side3" data-lang-id="132-first-ecobrick-module-caption"><img src="../photos/Banague-First-Ever-Modules.jpg" alt="Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines." width="125px">
+                <div class="side3" data-lang-id="132-first-ecobrick-module-caption" onclick="viewGalleryImage('../photos/Banague-First-Ever-Modules.jpg', 'Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines.')"><img src="../photos/Banague-First-Ever-Modules.jpg" alt="Banague Coteng on the first ever ecobrick Milstein Module on June 14, 2014 in Monkayan, Philippines." width="125px">
                 </div>
             </div>
 
