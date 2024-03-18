@@ -2,8 +2,8 @@
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="https://ecobricks.org/svgs/building-methods.svg">
-<link rel="preload" as="image" href="https://ecobricks.org/svgs/module-banner.svg">
+<link rel="preload" as="image" href="../pngs/Feature-Floating-Module-500px.png">
+<link rel="preload" as="image" href="../svgs/module-banner.svg">
 
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
@@ -70,9 +70,7 @@
 
 
 #splash-bar {
-
     background-color: #23a3e8ff;
-
 
 }
 

@@ -39,9 +39,11 @@
             </div>	
 
    <!--WHAT IS-->
+
+   <section id="WHAT-IS">
    <div class="reg-content-block" id="block1">
     <div class="opener-header">        
-        <div class="opener-header-text" data-lang-id="016-opener-header-text">
+        <div class="opener-header-text" data-lang-id="007-opener-header-text">
             <h4>Milstein Modules</h4>
             <h5>Its easy to make versatile, durable and super practical indoor furniture that can be used in all sorts of ways.</h5>   
             <br>
@@ -52,27 +54,27 @@
         <br>
        
         <div id="three-column-gal" class="three-column-gal">
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg', 'A rainbow milstein module | England, UK')">
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg', 'A rainbow milstein module | England, UK')" data-lang-id="008-milstein-showcase-gal-img">
         <img src="../photos/modules/Danielle-Wilkinson-rainbow-Milstein-Module.jpg" alt="A rainbow milstein module" loading="lazy">
         <p>A rainbow milstein module | England, UK</p>
     </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/first-modules.jpeg', 'Some of the first modules ever made | Tadjian, Philipinnes')">
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/first-modules.jpeg', 'Some of the first modules ever made | Tadjian, Philipinnes')" data-lang-id="009-milstein-showcase-gal-img">>
         <img src="../photos/modules/first-modules.jpeg" alt="Some of the first modules ever made | Tadjian, Philipinnes" loading="lazy">
         <p>Some of the first modules ever made | Tadjian, Philipinnes</p>
     </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/indonesia-module.jpg', 'A module made from square bottles | Indonesia')">
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/indonesia-module.jpg', 'A module made from square bottles | Indonesia')" data-lang-id="010-milstein-showcase-gal-img">>
         <img src="../photos/modules/indonesia-module.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
         <p>A module made from square bottles | Indonesia</p>
     </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/kid-sitting-module.jpg', 'Simple and practical | Jogja, Indonesia.')">
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/kid-sitting-module.jpg', 'Simple and practical | Jogja, Indonesia.')" data-lang-id="011-milstein-showcase-gal-img">>
         <img src="../photos/modules/kid-sitting-module.jpg" alt="Simple and practical | Jogja, Indonesia." loading="lazy">
         <p>Simple and practical | Jogja, Indonesia.</p>
     </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/lots-of-modules.jpg', 'A circular cob and ecobrick construction.')">
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/lots-of-modules.jpg', 'A circular cob and ecobrick construction.')" data-lang-id="012-milstein-showcase-gal-img">>
         <img src="../photos/modules/lots-of-modules.jpg" alt="A circular cob and ecobrick construction." loading="lazy">
         <p>A circular cob and ecobrick construction.</p>
     </div>
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/modules-storage.jpg', 'Modules can be easily stored too | Bali, Indonesia.')">
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/modules-storage.jpg', 'Modules can be easily stored too | Bali, Indonesia.')" data-lang-id="013-milstein-showcase-gal-img">>
         <img src="../photos/modules/modules-storage.jpg" alt="Modules can be easily stored too | Bali, Indonesia." loading="lazy">
         <p>Modules can be easily stored too | Bali, Indonesia.</p>
     </div>
@@ -88,7 +90,11 @@
         <p data-lang-id="027-indoor-use">It is important to use modules indoors. Ecobricks should never be exposed to the sun. Ultra violet (UV) rays will gradually fade the ecobricks colors and photo-degrade the plastic bottle’s PET. After only two or three years, the brittle bottle risks crack and burst, releasing all our hard packed plastic. Keeping modules entirely indoors and out of the sun is essential to preventing degradation.</p>
     </div>
 </div>
+</section>
 
+
+
+<section id="VARTIATIONS">
 
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
@@ -117,9 +123,12 @@
         </div>
     </div>
 </div>
-
+</section>
 
 <!-- SILICONE -->
+
+<section id="silicone">
+
 <div class="reg-content-block" id="block3">
 
     <div class="opener-header">
@@ -197,6 +206,8 @@
         </ul>
     </div>
 </div>
+        </section>
+
 <section id="TIRE-BANDING">
 
     <div class="reg-content-block" id="block4">
@@ -497,24 +508,24 @@
     
             
 
-                <div class="side">
-                <div class="side-module-desktop-mobile">
-            <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="12 ecobricks can make a triangle milstein eco brick module" data-lang-id="143-eco-brik-benches-img-alt">
+    <div class="side">
+        <div class="side-module-desktop-mobile">
+            <img src="../webp/milstein.webp" width="100%" loading="lazy" alt="12 ecobricks can make a triangle milstein eco brick module" data-lang-id="144-eco-brik-benches-img-alt">
             <h4>Start with only 12 Ecobricks</h4>
-            <h5 data-lang-id="144-first-milstein-module">To make your first triangle milstein module all you need is twelve ecobricks.  Once done, you can keep adding to it to make a hexagon.</h5><br>            
+            <h5 data-lang-id="145-first-milstein-module">To make your first triangle milstein module all you need is twelve ecobricks.  Once done, you can keep adding to it to make a hexagon.</h5><br>            
         </div>
 
         <div class="side-module-desktop-mobile">
-            <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="16 ecobricks make a hexagone, many hexagone modules can make cool furniture installations" data-lang-id="145-module-table-img-alt">
+            <img src="../webp/module-table.webp" width="100%" loading="lazy" alt="16 ecobricks make a hexagone, many hexagone modules can make cool furniture installations" data-lang-id="146-module-table-img-alt">
             <h4>Combine Modules</h4>
-            <h5 data-lang-id="146-module-combination">Milstein modules fit together!  Combine modules vertically or horizontally to make more furniture.</h5><br>            
+            <h5 data-lang-id="147-module-combination">Milstein modules fit together!  Combine modules vertically or horizontally to make more furniture.</h5><br>            
         </div>
 
         <div class="side-module-desktop-mobile">
-            <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="after an ecobrick has been used in a module it can be spiralled into an earth build" data-lang-id="147-module-table-img-alt">
+            <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="after an ecobrick has been used in a module it can be spiralled into an earth build" data-lang-id="148-module-table-img-alt">
             <h4>Then build with Earth!</h4>
-            <h5 data-lang-id="148-module-spiral">After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
-            <a class="module-btn" href="earth.php">Earth Building</a>
+            <h5 data-lang-id="149-module-spiral">After your ecobricks have been used in a module or two, then you can spiral them into a long-term earthen construction.</h5><br>
+            <a class="module-btn" href="earth.php" data-lang-id="150-earth-building-action">Earth Building</a>
         </div>
 
 

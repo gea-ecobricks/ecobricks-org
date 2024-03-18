@@ -16,7 +16,7 @@
 
 <STYLE>
 
-
+ 
 #brk-values .module-btn {
   display:none;
 }
@@ -27,7 +27,7 @@
 		
 		
 		background: url(../svgs/earthwand-background-mobile.svg) bottom;
-		/*background-color: #8BBAF0;*/ 
+		/* background-color: #115EB8; */
     	background-repeat: no-repeat;
 		background-size: cover;
     height: 93vh !important;
