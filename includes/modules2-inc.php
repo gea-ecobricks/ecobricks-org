@@ -70,7 +70,7 @@
 
 
 #splash-bar {
-    background-color: #23a3e8ff;
+    background-color: #177BB3;
 
 }
 
