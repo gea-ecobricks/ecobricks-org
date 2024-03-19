@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.783';?>
+<?php $version='1.782';?>
 <?php $page='openbooks';?>
 
 <?php require_once ("../includes/openbooks2-inc.php");?>
@@ -120,6 +120,57 @@
 
 
 
+
+<div class="reg-content-block" id="block4">
+				
+				<div class="opener-header">
+					
+					<div class="opener-header-text">
+						<h4 data-lang-id="021-live-expenses-title">Live Expenses</h4>
+						<h5 data-lang-id="022-live-expenses-subtitle">A full listing of the GEA's ongoing expense transactions.</h5>
+						<div class="ecobrick-data"><p data-lang-id="010b-live-data"><span class="blink">◉  </span> Data live & current</p></div>
+					</div>
+					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+		
+				</div>
+		
+				<div id="preclosed4">
+		
+					<div class="page-paragraph">	
+						<h6 data-lang-id="023-gea-expense-transactions-header">All the GEA Expense transactions</h6>
+						
+					</div>
+					<div class="overflow">
+						<table id="expenses" class="display" style="width:100%">
+							<thead>
+								<tr>
+									<th data-lang-id="012-id-column">ID</th>
+									<th data-lang-id="013-id-column">Date</th>
+									<th data-lang-id="015-category-column">Category</th>
+									<th data-lang-id="016b-reciver-column">Receiver</th>
+									<th data-lang-id="016-tran-name-column">Tran Name</th>
+									<th data-lang-id="017-amount-usd-column">Amount USD</th>
+									<th data-lang-id="018-final-amt-column">Final Amt</th>
+									<th data-lang-id="019-type-column">Type</th>
+								</tr>
+							</thead>
+							<tfoot>
+								<tr> 
+								<th data-lang-id="012-id-column">ID</th>
+									<th data-lang-id="013-id-column">Date</th>
+									<th data-lang-id="015-category-column">Category</th>
+									<th data-lang-id="014b-receiver-column">Receiver</th>
+									<th data-lang-id="016-tran-name-column">Tran Name</th>
+									<th data-lang-id="017-amount-usd-column">Amount USD</th>
+									<th data-lang-id="018-final-amt-column">Final Amt</th>
+									<th data-lang-id="019-type-column">Type</th>
+								</tr>
+							</tfoot>
+						</table>
+						<br><br>
+					</div>
+				</div>
+			</div>
 
 
 	
@@ -401,7 +452,7 @@
             <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-guided-by-regenerative-principles">Our Accounting is guided by our regenerative principles</p>
         </div>
         <div class="side2" data-lang-id="058-eco-accounting-icon">
-            <br><img src="../icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting" loading="lazy">
+            <br><img src="../icons/eco-accounting-icon-from-ecobricks-org.svg?v=5" width="77%" padding="15%" alt="ecological accounting, the balance of grey and green impacts" loading="lazy">
         </div>
     </div>
 </div>
