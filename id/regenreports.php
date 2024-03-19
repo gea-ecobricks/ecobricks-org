@@ -127,6 +127,9 @@
 
 			<?php require_once ("side-modules/earthen-ethics-principle.php");?>
 
+			<?php require_once ("side-modules/biodiversity-principle.php");?>
+
+
 		</div>
 
 	</div>

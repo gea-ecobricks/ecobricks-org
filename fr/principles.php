@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.594';?>
+<?php $version='1.73';?>
 <?php $page='principles';?>
 
 <?php require_once ("../includes/principles-inc2.php");?>
@@ -13,17 +13,16 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Nos principes terrestres</div>
-		<div class="splash-sub" data-lang-id="002-splash-subtitle">Nous sommes oriententés vers une harmonie croissante avec les cycles Terrestres.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Nos Principes Terrestre</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">L'ecobricking est guidé par des principes régénératifs qui nous orientent vers une harmonie toujours croissante avec les cycles de la Terre.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/earth-home-animated-v4.svg" style="width: 100%;"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt" ><img src="../svgs/earth-home-animated-v4.svg" style="width:90%;" alt=" Our Earthen Principles embodied in an Earthen home construction"></div>	
 </div>
 <div id="splash-bar"></div>
 
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
@@ -40,295 +39,254 @@
 		</div>
 
 
+		<!--FOLLOWING EARTH'S EXAMPLE--->
 		
-			<a name="EARTH-EXAMPLE"></a>
-            <div class="reg-content-block" id="block1">
 
-                <div class="opener-header">
-                    
-                    <div class="opener-header-text">
-                    <h4>Suivre l'exemple de la Terre</h4>
-                    <h5>Nous nous efforçons d'imiter la façon dont la Terre a pris soin de son carbone pour verdir la biosphère.</h5>   
-                    <br>
-                    </div>
-
-                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-                </div>
-
-                <div id="preclosed1">
-
-                <div class="row">
-						<div class="lead-panel-paragraph"><p>Au cours du dernier milliard d'années, la Terre a régulièrement reverdi notre maison commune.</p></div>
-
-						<div class="main2">
-
-						<p>La façon dont la Terre a cyclé et stocké le carbone a conduit à l'épanouissement de la biosphère tout en nous fournissant un exemple à suivre. En suivant les principes de notre planète, nous pouvons nous assurer que nos habitudes modernes sont également vertes. Et notre plastique (fabriqué à partir de carbone ancien compacté) est le point de départ idéal!</p>
-
-						</div>
-						<div class="side2"><img src="../svgs/following-earths-example.svg" width="100%">
-						</div>
-					</div>
-					<div class="row2">
-						<div class="main3">
-						<p>Suivre l'exemple de la Terre est à la base de l'<a href="https://book.earthen.io" target="_blank">éthique de la Terre</a> : cinq principes verts basés sur le caractère cosmologique de notre planète.</p>
-						</div>
-						<div class="side3"><img src="../svgs/following-earths-example.svg" width="150px">
-						</div>
-					</div>
-				
-				<p><ul>
-					<li><b><a href="https://book.earthen.io/spirals"  target="_blank">1. Cyclique :</a></b> De la même manière que la Terre tend son carbone vers des cycles de réutilisation indéfinie, nous aussi avec notre plastique. En emballant notre plastique dans des écobricks et en utilisant correctement nos écobricks, nous pouvons nous assurer que notre plastique peut être utilisé encore et encore indéfiniment.</li>
-
-					<li><b><a href="https://book.earthen.io/energy" target="_blank">2. For-Earth:</a></b>De la même manière que les cycles de la Terre dispersent l'énergie vers l'extérieur de l'organisme, de l'écosystème à la biosphère, nous le pouvons aussi. Notamment : avec l'entreprise de gestion de notre plastique. Plutôt que de gérer notre plastique dans un but lucratif, nous pouvons être sûrs d'écobriquer avant tout au profit de la biosphère.</li>
-
-    				<li><b>3. Vers la concentration :</b> De la même manière que la Terre compacte et sécurise régulièrement le carbone en vrac dans un stockage concentré à long terme, nous le pouvons également avec notre plastique. En compactant et en concentrant notre plastique dans une bouteille, nous pouvons nous assurer que le carbone de notre plastique ne se détache pas lors du déversement, de l'enfouissement ou du recyclage industriel.</li>
-    
-				
-    				<li><b>4. Vers la diversité :</b> De la même manière que les cycles du carbone de la Terre conduisent à une biodiversité de plus en plus importante, nous pouvons également nous assurer que nos cycles de plastique écobriqué font de même. Plutôt que d'utiliser notre plastique uniquement pour les humains, nous pouvons construire des espaces verts qui offrent une maison commune pour nous, les animaux et les plantes !</li>
-
-    				<li><b>5. Vers la prise de conscience :</b> De la même manière que la Terre a cultivé des niveaux de conscience plus élevés, nous pouvons également gérer notre plastique ! Plutôt que de simplement le jeter, nous pouvons compter combien nous utilisons chaque mois, combien nous écobriquons et suivre notre transition du plastique et du système pétro-capital qu'il représente.</li>
-
-				</ul>
-				<br><br><hr>
-
-			
-				<h5>ℹ️ Découvrez : <a href="/plastic">La longue histoire du plastique</a></h5>
-<h5>ℹ️ En savoir plus sur <a href="https://book.earthen.io" target="_blank">l'éthique terrestre</a></h5>
-
- 
-                </div>
+		<div class="reg-content-block" id="block1">
+    <div class="opener-header">    
+        <div class="opener-header-text">
+            <h4 data-lang-id="006-title">Following Earth's Example</h4>
+            <h5 data-lang-id="007-subtitle">We strive to emulate the ways Earth cared for its carbon to green the biosphere.</h5>   
+            <br>
+        </div>
+        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+    </div>
+    <div id="preclosed1">
+        <div class="row">
+            <div class="lead-panel-paragraph"><p data-lang-id="008-paragraph">For the last billion years, Earth has been slow and steady greened our common home.</p></div>
+            <div class="main2">
+                <p data-lang-id="009-main-text">The way that Earth has cycled and stored carbon has led to the blossoming of the biosphere while providing us an example to follow to do the same. By following the our planet's principles, we can make sure our methods and means are green. Our plastic -- which is made using ancient compacted carbon -- is the perfect place to start!</p>
             </div>
+            <div class="side2"><img src="../svgs/following-earths-example.svg" width="100%" data-lang-id="010-image">
+            </div>
+        </div>
+        <div class="row2">
+            <div class="main3">
+                <p data-lang-id="011-earthen-ethics">Following Earth's example is the basis of <a href="https://book.earthen.io"  target="_blank">Earthen ethics</a>: five principles based on our planet's cosmological character.</p>
+            </div>
+            <div class="side3"><img src="../svgs/following-earths-example.svg" width="150px" data-lang-id="012-image-side">
+            </div>
+        </div>
+        <ol>
+            <li><p data-lang-id="013-spiral"><b><a href="https://book.earthen.io/en/spirals.html"  target="_blank">Spiral:</a></b> In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic. By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over in such a way that it steadily enriches local and global ecosystems.</p></li>
+            <li><p data-lang-id="014-for-earth"><b><a href="https://book.earthen.io/en/energy" target="_blank"> For-Earth:</a></b> In the same way that Earth’s cycles disperse energy outwards from process, to ecosystem to biosphere, so to can we. In particular: with the process of managing our plastic. Rather than manage our plastic for profit, we can be sure to ecobrick first and foremost for the benefit of the biosphere.</p></li>
+            <li><p data-lang-id="015-towards-concentration"><b><a href="https://book.earthen.io/en/matter.html" target="_blank"> Towards Concentration:</a></b> In the same way that Earth steadily compacts and secures loose carbon into long-term, concentrated storage so too can we with our plastic. By compacting and concentrating our plastic into a bottle we can make make sure our plastic's carbon doesn't get loose through dumping, burning or industrially recycling.</p></li>
+            <li><p data-lang-id="016-towards-diversity"><b><a href="https://book.earthen.io/en/diversification.html" target="_blank"> Towards Diversity:</a></b> In the same way that Earth’s cycles of carbon lead to more and more biodiversification, so too can we ensure that our cycles of ecobricked plastic do the same. Rather than put our plastic to use just for humans, we can build green spaces that provide a common home for us, animals and plants!</p></li>
+            <li><p data-lang-id="017-towards-awareness"><b><a href="https://book.earthen.io/en/awareness.html" target="_blank">Towards Awareness:</a></b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic! Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</p></li>
+        </ol>
+        <br><br><hr>
+        <h5 data-lang-id="018-learn-about-plastic">ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
+        <h5 data-lang-id="019-source-earthen-ethics">ℹ️ Source: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></h5>
+    </div>
+</div>
 
+</section>
 
-
-			<a name="LEADING"></a>
-            <div class="reg-content-block" id="block2">
-
-                <div class="opener-header">
-                    
-                    <div class="opener-header-text">
-                    <h4>Montrer l'exemple</h4>
-                    <h5>Soyez le changement que vous voulez voir dans le monde.</h5>   
-                    <br>
-                    </div>
-
-                    <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-                </div>
-
-                <div id="preclosed2">
-
-				<div class="lead-panel-paragraph"><p>
-				Nous nous efforçons de donner l'exemple avec notre transition plastique et notre mode de vie régénérateur.</p></div>
-					
-					<div class="row">
-						<div class="main2">
-						
-						<p>Ghandi nous a tous mis au défi d'<i>"être le changement que vous voulez voir dans le monde"</i>. Simple et puissant, c'est un principe fondamental du mouvement ecobrick and Earthen. Comme la consommation de plastique est quelque chose qui nous relie à travers les continents et les cultures, ce que nous faisons avec notre plastique, nos propres histoires de transition, fournissent un phare brillant à suivre pour les autres.</p>
-						 
-						</div>
-						<div class="side2"><img src="../webp/community.webp" width="100%" alt="Donner l'example rege régénérateur">
-						</div>
-					</div>
-					<div class="row2">
-						<div class="main3">
-						<p>En donnant l'exemple en suivant l'exemple de la Terre, nous pouvons être une source d'inspiration puissante.</p>
-						</div>
-						<div class="side3"><img src="../webp/community.webp" width="150px" alt="Donner l'example rege régénérateur">
-						</div>
-					</div>
-					
-					<p>Surtout, lorsque notre exemple est amplifié par notre comptabilité plastique. Après tout, comment pouvons-nous être sûrs que nos exemples sont réellement dignes d'être suivis ? Pour cette raison, nous nous efforçons de suivre le plastique que nous consommons, produisons, écobrique et compensons pour nous assurer que leur impact net est bien vert.</p><br><br>
-
-<h>
-
-<h5>🟢 Notre <a href="/catalyst">programme catalyseur</a> permet aux organisations, projets et entreprises de donner l'exemple avec leur comptabilité plastique.</h5>
-<h5>🟢 Suivre son <a href="transition.php#score">score de transition plastique</a> personnel ou familial est un moyen de montrer l'exemple.</h5>
-
-                		</div>
-           		 </div>
-
-
-			<a name="LOCAL"></a>
-            <div class="reg-content-block" id="block3">
-
-                <div class="opener-header">
-                    
-                    <div class="opener-header-text">
-					<h4>Local et reproductible</h4>
-                     <h5>Méthodologies low-tech, négatives en carbone, ouvertes et reproductibles</h5>
-                     <br>
-                    </div>
-
-                    <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-                </div>
-
-                <div id="preclosed3">
-
+<section id="leading-by-example">
+    <div class="reg-content-block" id="block2">
+        <div class="opener-header">
+            <div class="opener-header-text">
+                <h4 data-lang-id="020-leading-by-example-title">Leading by Example</h4>
+                <h5 data-lang-id="021-be-the-change-you-want">Be the change you want to see in the world.</h5>
                 <br>
-                
+            </div>
+            <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+        </div>
 
-                <div class="lead-panel-paragraph"><p>Nous visons des méthodes et des moyens accessibles à tous, partout.</p></div>
-
-				
-
-				<div class="row">
-						<div class="main2">
-						<p>Chaque jour, des milliers de tonnes de plastique se déversent dans la biosphère. Pendant ce temps, la consommation de plastique et sa production ne cessent d'augmenter. Pour être une solution profonde au plastique, une solution régénérative doit se propager à un rythme plus rapide que les taux d'expansion industrielle. Afin de maximiser la diffusion, l'adoption et la transition plastique collective, nous nous efforçons de maximiser l'accessibilité de nos méthodes tout en minimisant les obstacles à l'adoption. De cette façon, nous donnons aux autres les moyens de fabriquer et de construire avec des écobriques afin qu'ils puissent montrer leur propre exemple.</p>
-
-						</div>
-						<div class="side2"><img src="../webp/eb-sky-400px.webp" width="100%">
-						</div>
-					</div>
-					<div class="row2">
-						<div class="main3">
-						<p>Notre principe de réplicabilité locale englobe plusieurs de nos autres principes.</p>
-						</div>
-						<div class="side3"><img src="../webp/eb-sky-400px.webp" width="150px">
-						</div>
-					</div>
-
-    			<p><ul>
-				<li><b>Localisé :</b> en concevant avec des matériaux locaux, organiques ou recyclés (qui sont idéalement disponibles gratuitement), nous éliminons les barrières de ressources à la réplication.</li>
-
-				<li><b>Transition pétrolière :</b> en concevant des méthodes qui ne nécessitent pas de machines, nous supprimons la barrière de la technologie, des compétences spécifiques et de la dépendance à l'énergie basée sur le pétrole.
-
-
-				<li><b>Transcast :</b> en concevant nos méthodes de manière à ce qu'elles ne nécessitent pas de compétences spécialisées, nous supprimons les barrières d'âge, de sexe et géographiques à la réplication et à l'autonomisation.</li>
-
-				<li><b>Open Source :</b> En rendant nos conceptions open source conformément aux spécifications Creative Commons et facilement accessibles sur le Web, nous dynamisons et accélérons la réplication.
-
-				<li><b>Non capital :</b> En concevant des méthodes et en utilisant des matériaux qui ne nécessitent pas de capital, nous supprimons l'obstacle financier à la participation et à la réplication. </li>
-
-				<li><b>Local :</b> nous nous efforçons d'employer des ressources disponibles localement dans nos applications d'écobriques. Avant tout, l'écobrique consiste à emballer notre plastique local. Cela commence par le plastique même que nous avons personnellement consommé, puis s'étend à celui consommé dans notre foyer et notre communauté. Idéalement, nous utilisons des bouteilles en PET provenant de notre communauté et un bâtonnet provenant de notre région. De cette façon, nous transformons le plastique qui, autrement, causerait des problèmes dans notre région avec le minimum d'énergie et le maximum d'autonomisation sociale.</li>
-
-				</ul>
-
-				<p>Lorsqu'il s'agit de construire avec des écobriques, le même principe d'approvisionnement localisé s'applique. Nous nous efforçons d'utiliser des matériaux, des processus, des compétences et une culture locaux pour nos créations. Par exemple, nous avons développé la méthode de cerclage de tubes ecobrick pour coller des ecobricks afin de tirer parti de l'abondance de chambres à air de moto gratuites et «déchets» en Asie du Sud-Est. Au Royaume-Uni, nous apprenons des anciennes traditions de construction en terre d'acacia et de torchis pour combiner des écobriques en utilisant de l'argile, de la paille et du sable locaux.</p>
-
-				<p>En utilisant des matériaux, des biens, des services et des produits provenant de notre communauté et de notre région, nous minimisons également notre dépendance au capital et au pétrole.</p>
-
+        <div id="preclosed2">
+            <div class="lead-panel-paragraph">
+                <p data-lang-id="022-strive-to-lead-by-example">We strive to lead by example with our plastic transition and regenerative living.</p>
+            </div>
+            
+            <div class="row">
+                <div class="main2">
+                    <p data-lang-id="023-ghandi-challenge">Ghandi challenged us all to <i>“be the change you want to see in the world“</i>. Simple and powerful, this is a fundamental principle of the ecobrick and Earthen movement. As plastic consumption is something that connects us across continents and cultures, what we do with our plastic, our own stories of transition, provide a shining beacon for others to follow.</p>
+                </div>
+                <div class="side2" data-lang-id="024-community-image-side2">
+                    <img src="../pngs/community.png" width="300" style="width:100%" alt="community leading by example in our regenerative living">
                 </div>
             </div>
 
-			<a name="MANDALIC"></a>
-            <div class="reg-content-block" id="block4">
-
-                <div class="opener-header">
-                    
-                    <div class="opener-header-text">
-                    <h4>Collaboration mandalique</h4>
-                    <h5>Nos intentions sont alimentées par la collaboration de la communauté mandalique.</h5>  
-                    <br>
-                    </div>
-
-                    <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+            <div class="row2">
+                <div class="main3">
+                    <p data-lang-id="026-leading-by-earth-example">By leading by example in following Earth's example, we can be a powerful inspiration.</p>
                 </div>
-
-                <div id="preclosed4">
-
-				<div class="row">
-						<div class="main2">
-						<p>Diriger par l'exemple exploite toute la puissance de la collaboration mandalique. Partager notre exemple permet aux autres de s'inspirer de notre histoire, de nos idées, de nos pratiques et de notre impact net. Ce faisant, nous nous plaçons consciemment au centre d'un déploiement social réplicatif.</p>
-
-						<p>Il y a différents mots pour cela dans les cultures du monde entier - les Igorots l'appellent Obo'obo, en Afrique il s'appelle ubuntu, en Indonésie gotongrayong, aux Philippines Kawasan. Quel que soit le terme, la dynamique est la même : une communauté qui se rassemble pour réaliser une vision et une intention partagées.</p>
-
-						 
-
-						</div>
-						<div class="side2"><img src="../webp/mandalic-24-400px.webp" width="100%" alt="The art of mandalic collaboration">
-						</div>
-					</div>
-					<div class="row2">
-						<div class="main3">
-						<p>Le plus souvent, il s'agit d'une intention qui profite à toute la communauté, comme la construction d'un pont ou d'un puits.</p>
-						</div>
-						<div class="side3"><img src="../webp/mandalic-24-400px.webp" width="150" alt="The art of mandalic collaboration">
-						</div>
-					</div>
-
-					<p>Dans notre cas, notre intention commune est de garder le plastique hors de la biosphère. En détenant une mission qui profite aux individus, aux personnes, aux communautés et à la planète, la GEA permet à cette formidable force d'alimenter la réalisation de sa vision.</p>
-
-					<p>Ce principe s'oppose aux moyens par lesquels l'économie du capital motive et inspire la participation par le biais d'une rémunération financière. En tant que technologie non capitale, l'écobrique exploite des valeurs plus profondes et plus puissantes telles que la propreté de la communauté, la santé des enfants, la richesse de l'écologie locale, pour inspirer la participation, l'action et l'engagement à long terme.</p>
-
-					<p>Par exemple, ces mêmes mots sont traduits dans d'autres langues - non pas parce que nous avons payé qui que ce soit - mais parce qu'ils sont en pleine résonance avec la passion écologique d'autres personnes qui, en résonance avec notre mission et notre vision, ont offert leur langage et leur programmation expertise pour y parvenir.</p>
-
-						<br><br>
-			<p><a class="action-btn" href="/mandalas">🏵️ Apprendre encore plus</a></p>
-			<p style="font-size: 0.85em; margin-top:20px;">La voie du mandala</a></p>
-                    
+                <div class="side3" data-lang-id="027-community-image-side3">
+                    <img src="../pngs/community.png" width="150" style="width:150px" alt="leading by example in our regenerative living">
                 </div>
             </div>
 
-			<a name="TRANSCASTE"></a>
-            <div class="reg-content-block" id="block5">
+            <p data-lang-id="029-amplify-by-accounting">Especially, when our example is amplified by our plastic accounting. After all, how can we be sure our examples are actually worthy of being followed? For this reason, we strive to track the plastic we consume, produce, ecobrick, and offset to make sure our net impact is in fact green.</p><br><br>
 
-                <div class="opener-header">
-                    
-                    <div class="opener-header-text">
-                    <h4>Transcaste</h4>
-                    <h5>Ouvert à tous</h5>   
-                    <br>
-                    </div>
+            <hr>
 
-                    <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
+            <h5 data-lang-id="030-catalyst-program">🟢 Our <a href="catalyst.php" data-lang-id="031-catalyst-program-link">catalyst program</a> allows organizations, projects, and enterprises to lead by example with their plastic accounting.</h5>
+            <h5 data-lang-id="032-plastic-transition-score">🟢 Tracking one's personal or household <a href="transition.php#score" data-lang-id="033-plastic-transition-score-link">plastic transition score</a> is a way to lead by example.</h5>
+        </div>
+    </div>
+</section>
+
+
+<section id="LOCAL">
+    <div class="reg-content-block" id="block3">
+        <div class="opener-header">
+            <div class="opener-header-text">
+                <h4 data-lang-id="034-local-replicable-title">Local & Replicable</h4>
+                <h5 data-lang-id="035-local-replicable-subtitle">Low-tech, carbon-negative, open & replicable methodologies</h5>
+                <br>
+            </div>
+            <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+        </div>
+
+        <div id="preclosed3">
+            <br>
+            <div class="lead-panel-paragraph">
+                <p data-lang-id="036-methods-accessible">We strive towards methods and means that are accessible to anyone, anywhere.</p>
+            </div>
+
+            <div class="row">
+                <div class="main2">
+                    <p data-lang-id="037-plastic-flow-challenge">Every day thousands of tons of plastic flow into the biosphere. Meanwhile, the consumption of plastic and its production ever increases. In order to be a deep solution to plastic, a regenerative solution must spread at a rate faster than industrial expansion rates. In order to maximize spread, adoption, and collective plastic transition we strive to maximize the accessibility of our methods while minimizing the barriers to adoption. In this way, we empower others to make and build with ecobricks so that they can lead by their own example.</p>
                 </div>
-
-                <div id="preclosed5">
-
-
-				
-
-				<div class="lead-panel-paragraph"><p>Nous nous efforçons d'inclure les hommes et les femmes, les jeunes et les moins jeunes, les riches et les pauvres… et tout le monde entre les deux.</p></div>
-
-				<div class="row">
-						<div class="main2">
-						<p>Dans nos méthodes, nos projets et nos intentions, nous nous efforçons de dépasser les anciennes notions de rôles, de capacités et d'accessibilité. Nous encourageons la collaboration de groupes qui sont souvent perçus comme ayant des classements sociaux différents (c'est-à-dire des «castes») pour travailler ensemble sur une plate-forme de participation égale. En d'autres termes, plutôt qu'un enfant faisant une tâche et un adulte en faisant une autre, nous concevons la méthode pour que les deux puissent la faire ensemble.</p>
-
-					<p>Par exemple, le travail de fabrication d'une écobrique, la fabrication d'un module ou d'un bâtiment en terre sont conçus pour être également accessibles à presque tout le monde - et de telle manière que personne n'ait d'avantage en raison de ses compétences, de sa force ou de son expérience. De cette façon, les hommes et les femmes, les garçons et les filles peuvent être impliqués de manière égale dans le processus de cocréation sans que les castes traditionnelles ne provoquent d'aliénation.</p>
-
-						</div>
-						<div class="side2"><img src="../photos/transcaste.jpg" width="100%">
-						</div>
-					</div>
-					<div class="row2">
-						<div class="main3">
-						<p>Cela nous permet de nous élever au-dessus des anciens clivages entre les genres et les générations pour dynamiser nos collaborations avec de nombreuses variantes de la créativité humaine tout en abaissant davantage les barrières de la réplication.</p>
-						</div>
-						<div class="side3"><img src="../photos/transcaste.jpg" width="150px">
-						</div>
-					</div>
-
-						
+                <div class="side2" data-lang-id="038-ecobrick-side-image">
+                    <img src="../webp/eb-sky-400px.webp" width="300" style="width:100%"  alt="plastic is best kept out of the biosphere and in an ecobrick" data-lang-id="039-ecobrick-image-alt">
                 </div>
             </div>
+
+            <div class="row2">
+                <div class="main3">
+                    <p data-lang-id="040-local-replicability-principle">Our principle of local replicability encompasses several of our other principles.</p>
+                </div>
+                <div class="side3" data-lang-id="041-ecobrick-side-image-row2">
+                    <img src="../webp/eb-sky-400px.webp" width="150" alt="plastic is best kept out of the biosphere and in an ecobrick" data-lang-id="042-ecobrick-image-alt-row2">
+                </div>
+            </div>
+
+            <p data-lang-id="043-replication-strategies"><ul>
+                <li data-lang-id="044-localized"><b>Localized:</b> By designing with local, organic or upcycled materials (that are ideally freely available) we remove resource barriers to replication.</li>
+                <li data-lang-id="045-petro-capital-transition"><b>Petro-Capital Transition:</b> By designing methods that do not require machines, we remove the barrier of technology, specific skills, and dependence on petroleum-based energy.</li>
+                <li data-lang-id="046-transcaste"><b>Transcaste:</b> By designing our methods so that they do not require specialized abilities we remove age, gender, and geographical barriers to replication and empowerment.</li>
+                <li data-lang-id="047-open-source"><b>Open Source:</b> By making our designs open source according to creative commons specifications and easily accessible on the web, we energize and accelerate replication.</li>
+                <li data-lang-id="048-non-capital"><b>Non-Capital:</b> By designing methods and using materials that do not require capital, we remove the financial barrier to participation and replication.</li>
+                <li data-lang-id="049-local-usage"><b>Local:</b> We strive to employ locally available resources in our ecobrick applications. First and foremost, ecobricking is all about packing our local plastic. This begins with the very plastic we have personally consumed, then extends to that consumed in our household and community. Ideally, we use PET bottles that come from our community and a stick that comes from our area. This way we transform plastic that would otherwise cause problems in our area with the minimum amount of energy and the maximum amount of social empowerment.</li>
+                <li data-lang-id="050-spirally-designed"><b>Spirally Designed:</b> Ecobricks and all their applications are designed for indefinite cycles that are enriching ecologically and socially.</li>
+            </ul></p>
+
+            <p data-lang-id="051-building-with-ecobricks">When it comes to building with ecobricks, the same principle of localized sourcing applies. We strive to use local materials, processes, skills, and culture for our creations. For example, we have developed the ecobrick tube banding method of bonding ecobricks to make use of the abundance of free and ‘waste’ motorcycle inner-tubes in South East Asia. In the UK we learn from ancient earth building traditions of wattle and daub to combine ecobricks using local clay, straw, and sand.</p>
+
+            <p data-lang-id="052-using-local-resources">By using materials, goods, services, and products that come from within our community and region we likewise minimize our dependence on capital and petroleum.</p>
+        </div>
+    </div>
+</section>
+
+<section id="MANDALIC">
+    <div class="reg-content-block" id="block4">
+        <div class="opener-header">     
+            <div class="opener-header-text">
+                <h4 data-lang-id="034-mandalic-collaboration-title">Mandalic Collaboration</h4>
+                <h5 data-lang-id="035-mandalic-collaboration-subtitle">Our intentions are powered by mandalic community collaboration.</h5>   
+                <br>
+            </div>
+            <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+        </div>
+
+        <div id="preclosed4">
+            <div class="row">
+                <div class="main2">
+                    <p data-lang-id="036-leading-by-example-mandalic">Leading by example leverages the full power of mandalic collaboration. Sharing our example allows others to be inspired by our story, insights, practices and net impact. In so doing we consciously place ourselves in the center of a replicating, social unfolding.</p>                    
+                    <p data-lang-id="037-mandalic-collaboration-cultures">There are different words for it in cultures around the world– the Igorots call it Obo’obo, in Africa its know as ubuntu, in Indonesia gotongrayong, in the Philippines Kawasan. Whatever the term, the dynamic is the same: a community coming together to realize a shared vision and intention.</p>
+                </div>
+                <div class="side2" data-lang-id="038-mandalic-collaboration-image-side2">
+                    <img src="../webp/mandalic-23-900px.webp" width="300" style="width:100%" alt="mandalic collaboration powered movement" data-lang-id="039-mandalic-collaboration-alt-side2">
+                </div>
+            </div>
+            <div class="row2">
+                <div class="main3">
+                    <p data-lang-id="040-intention-community-benefit">Most often, this is an intention that is for the whole community’s benefit– such as building a bridge or a well.</p>
+                </div>
+                <div class="side3" data-lang-id="041-mandalic-collaboration-image-side3">
+                    <img src="../webp/mandalic-23-900px.webp" width="150" style="width:150px" alt="mandalic collaboration powered movement" data-lang-id="042-mandalic-collaboration-alt-side3">
+                </div>
+            </div>
+
+            <p data-lang-id="043-common-intention-plastic">In our case, it is our common intention of keeping plastic out of the biosphere. By holding a mission that is to the benefit of individuals, people, communities and the planet, the GEA enables this formidable force to power the realization of its vision.</p>
+
+            <p data-lang-id="044-contrast-capital-economy">This principle is in contrast to the means by which capital economy motivates and inspires participation through financial remuneration. As a non-capital technology, ecobricking taps a deeper, more potent values such as community cleanliness, the health of children, the richness of the local ecology, to inspire participation, action and long term vision commitment.</p>
+
+            <p data-lang-id="045-example-translated-words">For example, these very words are translated into other languages– not because we have paid anyone– but because they are in full resonance with the ecological passion of others who, resonating with our mission and vision, have offered their linguistic and programming expertise to make this happen.</p>
+
+            <br><br>
+            <p><a class="action-btn" href="/mandalas" data-lang-id="046-learn-more-mandalas">🏵️ Learn More</a></p>
+            <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="047-learn-about-mandalic-collaboration">Learn about the way of mandalic collaboration.</p>              
+        </div>
+    </div>
+</section>
+
+<section id="TRANSCASTE">
+    <div class="reg-content-block" id="block5">
+        <div class="opener-header">
+            <div class="opener-header-text">
+                <h4 data-lang-id="048-transcaste-title">Transcaste</h4>
+                <h5 data-lang-id="049-transcaste-subtitle">Open to all</h5>
+                <br>
+            </div>
+            <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
+        </div>
+
+        <div id="preclosed5">
+            <div class="lead-panel-paragraph">
+                <p data-lang-id="050-strive-for-inclusion">We strive to include men and women, young and old, atheists and theists, rich and poor… and everyone in between!</p>
+            </div>
+
+            <div class="row">
+                <div class="main2">
+                    <p data-lang-id="051-rise-above-notions">In our methods, projects and intentions we strive to rise above old notions of roles and ability and accessibility. We encourage the collaboration of groups that are often perceived to have different social rankings (i.e., ‘castes’) to work together on an equal platform of participation. In other words, rather than a child doing one task and an adult doing another, we design the method so that both can do it together.</p>
+
+                    <p data-lang-id="052-equal-accessibility">For example, the work of making an ecobrick, making a module or building with earth are designed to be equally accessible to just about everybody– and in such a way that no one has an advantage by virtue of skill, strength, or experience. In this way, men and women, boys and girls can be equally involved in the co-creative process without traditional castes causing alienation.</p>
+                </div>
+                <div class="side2" data-lang-id="053-transcaste-image-side2">
+                    <img src="../photos/transcaste.jpg" width="300" style="width:100%" alt="transcaste means including men and women, rich and poor, atheist and theists and... everyone in between." data-lang-id="054-transcaste-alt-side2">
+                </div>
+            </div>
+            <div class="row2">
+                <div class="main3">
+                    <p data-lang-id="055-rise-above-divides">This enables us to rise above old gender and generational divides to supercharge our collaborations with many variations of human creativity while further lowering the barriers of replication.</p>
+                </div>
+                <div class="side3" data-lang-id="056-transcaste-image-side3">
+                    <img src="../photos/transcaste.jpg" width="150" style="width:150px" alt="transcaste means including men and women, rich and poor, atheist and theists and... everyone in between." data-lang-id="057-transcaste-alt-side3">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 			<br><br>
-						
-			<div class="lead-page-paragraph"><p><b>Durabilité vs régénérative</p></b></div>
-
-			<div class="page-paragraph">    
-			
-			<p>Il peut être utile de mieux comprendre ce que nous entendons par régénératif en clarifiant ce que c'est maintenant. L'écobrique est souvent confondue avec une technologie « durable ». La « durabilité » a tendance à faire référence à la vertu de permettre à nos systèmes humains actuels et à notre mode de vie actuel de continuer. Ici, guidée par les principes Earthen ci-dessus, la technologie d'écobrique n'est <i>pas cela</i>. Au lieu de cela, en tant que technologie régénérative, nous nous efforçons de passer du maintien des systèmes humains actuels qui appauvrissent les écosystèmes à des modes de vie qui enrichissent.</p>
-
-<p>Ainsi, nos principes ne sont pas anti-industrie, ni anti-pétro-capital. Sans eux, nous n'en serions pas venus aux principes que nous défendons maintenant. Nous reconnaissons que l'utilisation d'hier du carbone surdoué de la Terre a été une phase de formation importante qui nous place sur notre correction de cap actuelle.</p>
-			
-			<div class="row">
-                
-                    <div class="main2">
-
-					<p>Avec cela, nous passons du "soutenir". Dans la mesure où nos entreprises modernes fonctionnent d'une manière qui entre en conflit avec l'exemple de la Terre en matière de protection du carbone, nous nous efforçons de nous en éloigner. Nous nous efforçons également de guérir et de « régénérer » tout dommage passé dont nous sommes responsables. Enfin, contrairement à l'accent mis par la durabilité sur la minimisation des impacts gris, nous nous efforçons plutôt de nous synchroniser avec les cycles de la Terre pour toujours augmenter nos impacts verts.</p>
-
-					<br><br>
-					<p><a class="action-btn" href="/ayyew">🍃 À propos d'Ayyew</a></p>
-					<p style="font-size: 0.85em; margin-top:20px;">Découvrez la tradition de la sagesse indigène qui sous-tend le mouvement régénératif des écobriques.</a></p>
-		</div>
-
-         <div class="side2">
-			<br><a href=""><img src="../webp/mellenium-450px.webp" width="90%" alt="sustaining vs. regenerative" loading="lazy"></a>
-			<p style="font-size: 0.85em; margin-top:20px;">Comment l'écobrique se compare-t-elle sur mille ans aux autres options de gestion du plastique ?</a></p>
-		</div>
-	</div>
+			<div class="lead-page-paragraph">
+    <h3 data-lang-id="058-sustainability-vs-regenerative-title">Sustainability vs Regenerative</h3>
 </div>
+
+<div class="page-paragraph">    
+    <p data-lang-id="059-regenerative-definition">It can be helpful to better understand what we mean by regenerative by clarifying what it is now. Ecobricking is often mistaken as ‘sustainable’ technology. ‘Sustainability’ tends to refer to the virtue of enabling our current human systems and current way of life to continue. Here, guided by the Earthen principles above, ecobricking technology is <i>not this</i>. Instead, as regenerative technology, we strive to transition from sustaining the current human systems that deplete ecosystems to ways of living that enrich.</p>
+
+    <p data-lang-id="060-principles-acknowledgement">In this way, our principles are not anti-industry, nor anti-petro-capital. Without them, we would not have come to the principles we now hold. We acknowledge that yesterday’s use of Earth gifted carbon has been an important formative phase that sets us on our current course-correction.</p>
+    
+    <div class="row">           
+        <div class="main2">
+            <p data-lang-id="061-moving-on-from-sustaining">With this, we move on from 'sustaining'. Insofar as our modern enterprises work in ways that conflict with Earth’s example of carbon care, we strive to transition from them. We also strive to heal and ‘regenerate’ any past damage that we are responsible for. Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our green impacts.</p>
+
+            <br><br>
+            <p><a class="action-btn" href="/ayyew" data-lang-id="062-about-ayyew-action">🍃 About Ayyew</a></p>
+            <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="063-learn-indigenous-wisdom">Learn about the indigenous wisdom tradition that underlies the regenerative ecobrick movement.</p>              
+        </div>
+
+        <div class="side2" data-lang-id="064-side2-comparison">
+            <br><a href=""><img src="../webp/mellenium-450px.webp" width="300" style="width:100%" alt="sustaining vs. regenerative" loading="lazy" data-lang-id="065-sustaining-vs-regenerative-alt"></a>
+            <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="066-ecobricking-thousand-years">How does ecobricking compare over a thousand years with other plastic management options?</p>
+        </div>
+    </div>
+</div>
+
 
 
 		</DIV>
@@ -343,34 +301,12 @@
 		<?php include 'side-modules/for-earth-principle.php';?> 
 
 
-		
-			<div class="side-module-desktop-mobile">
-				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
-				<h4>Vitaliser la biodiversité</h4>
-<h5>Tout comme la Terre a vitalisé des processus qui se diversifient, nous le pouvons aussi.</h5><br>
-				<!--<a class="module-btn" href="about">Learn More</a>
-				<h6 style="font-size:smaller">See how we track diversity</h6>-->
-				
-			</div>
-            
-			<div class="side-module-desktop-mobile">
-					<img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
-					<h4>Pour-Terre</h4>
-<h5>Tout comme la Terre a distribué de l'énergie à tous, nous le pouvons aussi avec nos entreprises qui gèrent le plastique usagé.</h5><br>
-<a class="module-btn" href="about.php">Notre exemple</a>
-<h6 style="font-size:smaller">Découvrez comment nous procédons</h6>
+			<?php include 'side-modules/biodiversity-principle.php';?>
 
-				</div>
+			<?php include 'side-modules/for-earth-principle.php';?>
 
-			<div class="side-module-desktop-mobile">
-				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
-				<br><h4>Vers la concentration</h4>
-<h5>Tout comme la Terre a concentré et sécurisé le carbone pour verdir la biosphère, nous pouvons également faire de même avec notre plastique grâce à l'écobrique.</h5><br>
-<a class="module-btn" href="https://book.earthen.io/fr/stellaire.html" target="_blank">Exemple terrestre</a>
-<h6 style="font-size:smaller">l'histoire interstellaire du plastique</h6>
+			<?php include 'side-modules/concentraction-principle.php';?>
 
-                <br>
-			</div>   
 
 			<?php include 'side-modules/spiral-design-principle.php';?>
 
