@@ -115,21 +115,25 @@ border-radius: 10px;"></div>
 
 		</div>
 
-</div>
+        </div>  <!--closes main-->
 
 
-	<!--FOOTER STARTS HERE-->
+<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 
+<!-- This script is for pages that use the accordion content system-->
 
 </div>
+</article>
 </body>
 </html>
+
+
 
 
 
