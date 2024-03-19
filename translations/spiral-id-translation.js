@@ -50,7 +50,7 @@ const id_Page_Translations = {
   "036-ecobrick-designator-heading": "Ikon Penunjuk Bisa Di-Ecobrick",
     "037-ecobrick-designator-subheading": "Ekspresi jelas dari niat dan desain spiral",
     "038-lead-panel-designator": "Simbol untuk menetapkan produk pada putaran spiral.",
-    "039-designator-kit-description": 'Perluasan praktis dari desain spiral adalah pekerjaan GEA dalam mengembangkan <a href="../ecobrickable" data-lang-id="040-ecobrickable-link">Kit Penunjuk Bisa Di-Ecobrick</a>. Karena ecobricks pada dasarnya adalah penampung untuk plastik buntu, mereka menyajikan solusi transisi yang menarik dan mudah untuk desain produk.',
+    "039-designator-kit-description": 'Perluasan praktis dari desain spiral adalah pekerjaan GEA dalam mengembangkan <a href="brickable.php" data-lang-id="040-ecobrickable-link">Kit Penunjuk Bisa Di-Ecobrick</a>. Karena ecobricks pada dasarnya adalah penampung untuk plastik buntu, mereka menyajikan solusi transisi yang menarik dan mudah untuk desain produk.',
     "040-ecobrickable-link": "../ecobrickable",
     "041-side-image-ecobrickable-icon": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org.svg\" width=\"100%\">",
     "042-ecobrickability-design": 'Kemampuan menjadi ecobrick memungkinkan desainer mengambil langkah pertama mereka ke desain spiral. Dengan sedikit pemikiran ke depan dan perencanaan yang matang, produk mereka dapat dengan mudah dan efektif menjadi Bisa Di-Ecobrick. Arah desain ini memungkinkan transisi sebuah perusahaan ke prinsip-prinsip regeneratif sepenuhnya (lihat <a href="catalyst.php" data-lang-id="043-catalyst-program-link">program perusahaan Catalyst</a> kami).',

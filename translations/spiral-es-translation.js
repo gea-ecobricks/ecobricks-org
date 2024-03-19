@@ -49,7 +49,7 @@ const es_Page_Translations = {
     "036-ecobrick-designator-heading": "Icono Designador de Ecobricks",
     "037-ecobrick-designator-subheading": "Una expresión clara de la intención y el diseño espiral",
     "038-lead-panel-designator": "Un símbolo para orientar productos hacia un giro espiral.",
-    "039-designator-kit-description": 'Una extensión práctica del diseño espiral es el trabajo de la GEA desarrollando el <a href="../ecobrickable" data-lang-id="040-ecobrickable-link">Kit Designador de Ecobricks</a>. Dado que los ecobricks son esencialmente un receptáculo para plástico sin salida, presentan una solución transicional emocionante y fácil para diseños de productos.',
+    "039-designator-kit-description": 'Una extensión práctica del diseño espiral es el trabajo de la GEA desarrollando el <a href="brickable.php" data-lang-id="040-ecobrickable-link">Kit Designador de Ecobricks</a>. Dado que los ecobricks son esencialmente un receptáculo para plástico sin salida, presentan una solución transicional emocionante y fácil para diseños de productos.',
     "040-ecobrickable-link": "../ecobrickable",
     "041-side-image-ecobrickable-icon": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org.svg\" width=\"100%\">",
     "042-ecobrickability-design": 'La capacidad de convertirse en ecobrick permite a los diseñadores dar su primer paso hacia el diseño espiral. Con un poco de previsión y planificación avanzada, su producto puede hacerse fácilmente y de manera efectiva en ecobrick. Esta dirección de diseño permite la transición de una empresa a principios regenerativos completos (ver nuestro <a href="catalyst.php" data-lang-id="043-catalyst-program-link">programa de empresa Catalyst</a>).',

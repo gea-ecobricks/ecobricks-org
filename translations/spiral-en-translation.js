@@ -48,7 +48,7 @@ const en_Page_Translations = {
   "036-ecobrick-designator-heading": "Brickable Designator Icon",
     "037-ecobrick-designator-subheading": "A clear expression of spiral intention and design",
     "038-lead-panel-designator": "A symbol to set products on a spiral spin.",
-    "039-designator-kit-description": 'A practical extension of spiral design is the GEA’s work developing the <a href="../ecobrickable" data-lang-id="040-ecobrickable-link">Brickable Designator Kit</a>. As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.',
+    "039-designator-kit-description": 'A practical extension of spiral design is the GEA’s work developing the <a href="brickable.php" data-lang-id="040-ecobrickable-link">Brickable Designator Kit</a>. As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.',
     "040-ecobrickable-link": "../ecobrickable",
     "041-side-image-ecobrickable-icon": "<img src=\"../icons/ecobrickable-icon-from-ecobricks-org.svg\" width=\"100%\">",
     "042-ecobrickability-design": 'Brickability allows designers to take their first step to spiral design. With a little forethought and advance planning, their product can be made easily and effectively Ecobrickable. This design direction allows the transition of a company to full regenerative principles (see our <a href="catalyst.php" data-lang-id="043-catalyst-program-link">Catalyst company program</a>).',

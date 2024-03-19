@@ -312,7 +312,7 @@ Content Page template: v.1.0.1-->
 
 				<div class="row">
 						<div class="main2">
-						<p>A practical extension of spiral design is the GEA’s work developing the <a href="../ecobrickable">Ecobrickable Designator Kit</a>.  As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.  </p>
+						<p>A practical extension of spiral design is the GEA’s work developing the <a href="brickable.php">Ecobrickable Designator Kit</a>.  As ecobricks are essentially a catch-all for dead-end-plastic, they present an exciting and easy transitional solution for product designs.  </p>
 
 						</div>
 						<div class="side2"><img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="100%">
