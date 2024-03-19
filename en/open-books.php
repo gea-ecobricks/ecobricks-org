@@ -402,8 +402,8 @@
             <p data-lang-id="044-aes-data-explanation">We use our data from the last year to calculate the cost per Kg of plastic offsets for this year.</p>
             <p data-lang-id="045-aes-example-explanation">For example, it works like this: In 2021 the Global Ecobrick Alliance incurred $24,483.24 expenses in order to authenticate 10,176.38 Kg AES of ecobricked plastic. That works out a cost of 2.41$ USD per Kg in maintaining the blockchain and authentication system. This set our valuation of the price per Kg of AES plastic in the year 2022.</p>
         </div>
-    </div>
-</div>
+
+
 
 							
 					<div class="overflow">
