@@ -263,7 +263,7 @@
 
 			<br><br>
 			<div class="lead-page-paragraph">
-    <h2 data-lang-id="058-sustainability-vs-regenerative-title">Sustainability vs Regenerative</h2>
+    <h3 data-lang-id="058-sustainability-vs-regenerative-title">Sustainability vs Regenerative</h3>
 </div>
 
 <div class="page-paragraph">    
@@ -300,21 +300,6 @@
 
 		<?php include 'side-modules/for-earth-principle.php';?> 
 
-
-	
-		<div class="side-module-desktop-mobile">
-				<img src="../icons/vitalize-biodiversity-icon-from-ecobricks-org.svg" width="70%" loading="lazy" alt="supporting biodiversity">
-				<h4>Vitalizing Biodiversity</h4>
-				<h5>Just as Earth has vitalized processes that diversify, so too can we.</h5><br>
-			</div>
-            
-			<div class="side-module-desktop-mobile">
-					<img src="../icons/for-earth-enterprise-icon-from-ecobricks-org.svg" width="70%" alt="For-Earth Enterprise">
-					<h4>For-Earth</h4>
-					<h5>Just as Earth dispersed energy out to all, so too can we with our enterprises that manage used plastic.</h5><br>
-					<a class="module-btn" href="about.php">Our Example</a>
-				<h6 style="font-size:smaller">↗️ See how we do it</h6>
-			</div>
 
 			<?php include 'side-modules/biodiversity-principle.php';?>
 
