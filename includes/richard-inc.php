@@ -11,6 +11,9 @@
 
 <STYLE>
 
+
+.module-btn {margin-top: 20px;}
+
 /*This sets up the the first splash content block that is unique to the top of each page*/
 
 @media screen and (max-width: 700px) { 
@@ -36,52 +39,6 @@
 }
 
 
-
-.splash-heading { 
-  font-family: 'Mulish', Arial, Helvetica, sans-serif;
-  color: white;
-  font-weight: 300;
-  text-shadow: 0 0 8px black;
-
-}
-
-@media screen and (max-width: 700px) {
-	.splash-heading {
-      font-size: 1.8em;
-      line-height: 1.1;
-      margin: 10px 0;
-  }
-}
-
-@media screen and (min-width: 700px) {
-	.splash-heading {
-      font-size: 2.9em;
-      line-height: 1.3;
-      margin: 0px 0px 10px 0px;
-  }
-}
-
-.splash-sub {
-  font-family: 'Arvo', Georgia, serif;
-  color: #8DD2BF;
-  margin: 15px 0;
-	/*text-shadow: 0px 0px 10px #fff;*/
-}
-
-@media screen and (max-width: 700px) {
-	.splash-sub {
-		font-size: 1.2em;
-		line-height: 1.5;
-		font-weight: 400;
-  }
-}
-@media screen and (min-width: 700px) {
-	.splash-sub {
-		font-size: 1.5em;
-		line-height: 1.3;
-		font-weight: 400;
-  }
-}
 
 
 /*This is the angled bar at the bottom of the intro splash block*/
