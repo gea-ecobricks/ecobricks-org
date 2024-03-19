@@ -12,7 +12,7 @@
 <!--TOP PAGE BANNER-->
 							  
 <div class="splash-content-block" id="top">
-	<div class="splash-text-box">
+	<div class="splash-box">
 		<div class="splash-heading">Richard Goldsmith</div>
 		<div class="splash-sub">— GEA Trainer</div>
 		<div class="splash-sub"><i>in memorandum</i></div>
@@ -116,6 +116,8 @@ border-radius: 10px;"></div>
 	</div>
 
 </div>  <!--closes main-->
+
+</div>
 
 </div>
 
