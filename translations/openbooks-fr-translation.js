@@ -17,7 +17,7 @@ const fr_Page_Translations = {
     "005-first-page-paragraph": "L'<a href=\"about.php\">Alliance Globale d'Écobriques</a> est une Entreprise Terrestre. Cela signifie que nous suivons les principes de l'éthique Terrestre (<a href=\"principles.php\">Earthen ethics</a>) dans la gestion de nos finances et de nos impacts écologiques pour garantir que les deux sont bénéfiques nettement. Cela signifie également que pour la conscience de tous, notre comptabilité financière et écologique sont toutes deux divulguées publiquement.",
     "006-second-page-paragraph": "Sur cette page, vous pouvez consulter la divulgation de nos finances. Nous appelons cela notre système de comptabilité Livres Ouverts. Pour la divulgation de notre comptabilité écologique, consultez notre <a href=\"regen-reports.php\">Rapport de Régénération</a>. Pour apprendre comment la combinaison des deux comptabilités génère le prix par Kg pour nos ventes de compensations plastiques, consultez notre <a href=\"offsets.php\">page de compensation</a>."
   
- 
+  
     
 }
         
