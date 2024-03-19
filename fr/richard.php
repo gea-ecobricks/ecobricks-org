@@ -12,10 +12,10 @@
 <!--TOP PAGE BANNER-->
 							  
 <div class="splash-content-block" id="top">
-	<div class="splash-text-box">
+	<div class="splash-box">
 		<div class="splash-heading">Richard Goldsmith</div>
 		<div class="splash-sub">— GEA Trainer</div>
-		<div class="splash-sub"><i>in memorandum</i></div>
+		<div class="splash-sub"><i>en memorandum</i></div>
 	</div>
 	<div class="splash-image"><img src="../photos/richard-goldsmith.webp" style="width: 80%; width: 70%;
 border: 10px solid #666;
@@ -117,19 +117,22 @@ border-radius: 10px;"></div>
 
 </div>
 
+</div>
 
-	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+
+<!--FOOTER STARTS HERE-->
+
+<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
 
+<!-- This script is for pages that use the accordion content system-->
 
 </div>
 </body>
 </html>
-
 
 

@@ -376,109 +376,99 @@
 </section>
 
 
+<section id="AUTHEN">
+    <div class="reg-content-block" id="block8">
+        <div class="opener-header">        
+            <div class="opener-header-text">
+                <h4 data-lang-id="113-independent-authentication-title">Independent Authentication</h4>
+                <h5 data-lang-id="114-independent-authentication-subtitle">The fulfillment of the above criteria must be independently verified by a not-for-profit, for-Earth third party who does not benefit from the process.</h5>
+                <br>
+            </div>
+            <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
+        </div>
+
+        <div id="preclosed8">
+            <p data-lang-id="115-outputs-validation"><b>Outputs must be independently validated to authenticate that the criteria of plastic sequestration have been met.</b></p>
+            <div class="row">
+                <div class="main2">
+                    <p data-lang-id="116-plastic-process-impact">The way that plastic is processed can either harm or benefit the biosphere for centuries. Because the stakes are high, the outputs of plastic sequestration must be validated to make sure that standards and the criteria above are met.</p>
+                </div>
+                <div class="side2" data-lang-id="117-authenticated-ecobrick-image"><img src="../pngs/confirmedexchange.png" width="300" style="width:87%" alt="Authenticated Ecobrick Sequestered Plastic" loading="lazy">
+                </div>
+            </div>
+
+            <div class="row2">
+                <div class="main3">
+                    <p data-lang-id="118-independent-review">Through independent, not-for-profit review, set amounts of plastic can then be determined to be sequestered (or not).</p>
+                </div>
+                <div class="side3" data-lang-id="119-independent-review-image"><img src="../pngs//confirmedexchange.png" width="120" style="width:120px" alt="Authenticated Ecobrick Sequestered Plastic" loading="lazy">
+                </div>
+            </div>
+        
+            <p data-lang-id="120-quantified-sequestration">In this way, authenticated sequestered plastic can then be quantified. Sequestered plastic can then be referred to with confidence in terms of net weight (i.e., X kg of authenticated sequestered plastic).</p>
+
+            <p data-lang-id="121-authentication-process">Just like the process of plastic sequestration itself, the process of authentication must also be not-for-profit and for-earth. Only after an independent review can the outputs net-weight be considered authenticated sequestered plastic.</p>
+        </div>
+    </div>
+</section>
+
+<section id="CO2">
+    <div class="reg-content-block" id="block9">
+        <div class="opener-header">        
+            <div class="opener-header-text">
+                <h4 data-lang-id="122-co2-equivalency-title">CO2 Equivalency</h4>
+                <h5 data-lang-id="123-co2-equivalency-subtitle">Plastic Sequestration prevents the release of CO2 from plastic degradation and industrial processing in a way that can be calculated and quantified.</h5>
+                <br>
+            </div>
+            <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9">+</button>
+        </div>
+
+        <div id="preclosed9">
+            <p data-lang-id="124-ciel-report-reference">According to CIEL's 2019 report <a href="https://www.ciel.org/plasticandclimate/" target="_blank">Plastic & Climate: The Hidden Costs of a Plastic Planet</a> the production and incineration of plastic will add more than 850 million metric tons of greenhouse gases to the atmosphere—equal to the emissions from 189 five- hundred-megawatt coal power plants. At present rates, these greenhouse gas emissions from the plastic lifecycle threaten the ability of the global community to meet carbon emissions targets.</p>
+
+            <br><p data-lang-id="125-preventing-industrial-emissions"><b>Preventing Industrial Emissions & Dispersion</b></p>
+            <p data-lang-id="126-industrial-emissions-data">Plastic that enters into industry results in a wide range of energy intensive activities from transportation, to smelting, to re-molding. On average globally, each metric ton of plastic processed by recycling, land-filing and incineration <a href="coefficients.php#co2">generates 689kg, 65Kg and 2967kg of CO2e respectively</a>. This can be prevented by plastic sequestration. Given that on average globally 18% of plastics are recycled, 24% are incinerated and the remaining 58% are landfilled or directly reach the environment, preventing the industrial processing of plastic avoids 0.88Kg of CO2 per Kg of plastic.</p>
+            <p data-lang-id="127-embedded-carbon-prevention">Plastic sequestration also prevents the embedded carbon of the plastic from dispersing loose into the biosphere. The Global Ecobrick Alliance estimates that this prevents <a href="/aes">3.1Kg of carbon per 1kg of plastic</a> from the chemical and biotic degradation of plastic over time.</p>
+
+            <h4 data-lang-id="128-accelerating-plastic-transition">Accelerating Plastic Transition</h4>
+
+            <p data-lang-id="129-disposal-replacement-rate">All plastic disposal methods result in the production of replacement plastic. Once plastic is used and disposed of, more must be made to replace the product or packaging that was just consumed. Within traditional industrial disposal of plastic for every 1kg of plastic disposed, 0.91kg of plastic can be estimated to replace it. In other words, industrial disposal has a 91% replacement rate. Each replacement cycle results in the carbon emissions of the virgin plastic produced to replace it, the emissions of its disposal, replacement, disposal and so on, echoing through time until the original amount has been fully subsumed.</p>
+
+            <p data-lang-id="130-sequestration-replacement-rates">In comparison, various plastic sequestration methods result in different replacement rates. The research of the Global Ecobrick Alliance estimates that a regular ecobrick has a replacement rate of 61%, cigbricks have a 75% replacement rate, and ocean ecobricks have an 80% replacement rate. These methods still result in the production of virgin plastic, but not as much as before-- and without the carbon emissions of disposal.</p>
+
+            <p data-lang-id="131-carbon-emissions-prevention">Using the replacement rate of a particular method of plastic sequestration, the equivalent amount of carbon emissions prevented from industrial processing can be calculated for each kilogram of plastic that is authenticated as sequestered.</p>
+
+            <br><hr>
+            <p data-lang-id="132-learn-more-aes-plastic">Learn more: <a href="/aes">AES Plastic</a></p>
+            </div>
+            </div>
+</section>
+
+
+
+
+
             
-    <section id="AUTHEN">
-                    <div class="reg-content-block" id="block8">
-
-                        <div class="opener-header">
-                            
-                            <div class="opener-header-text">
-                            <h4>Independent Authentication</h4>
-                            <h5>The fulfillment of the above criteria must be independently verified by a not-for-profit, for-Earth third party who does not benefit from the process.</h5>
-                            <br>
-                            </div>
-
-                            <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
-                        </div>
-
-                        <div id="preclosed8">
-                            <p><b>Outputs must be independently validated to authenticate that the criteria of plastic sequestration have been met.</b></p>
-                            <div class="row">
-                                    <div class="main2">
-                                    <p>The way that plastic is processed can either harm or benefit the biosphere for centuries. Because the stakes are high, the outputs of plastic sequestration must be validated to make sure that standards and the criteria above are met.</p>
-                                    </div>
-                                    <div class="side2"><img src="../pngs/confirmedexchange.png" width="300" style="width:87%" alt="Authenticated Ecobrick Sequestered Plastic" loading="lazy">
-                                    </div>
-                                </div>
-
-                                <div class="row2">
-                                    <div class="main3">
-                                    <p>Through independent, not-for-profit review, set amounts of plastic can then be determined to sequestered (or not).</p>
-                                    </div>
-                                    <div class="side3"><img src="../pngs//confirmedexchange.png" width="120" style="width:120px" alt="Authenticated Ecobrick Sequestered Plastic" loading="lazy">
-                                    </div>
-                                </div>
-                            
-                            <p>In this way, authenticated sequestered plastic can then be quantified.  Sequestered plastic can then be referred to with confidence in terms of net weight (i.e. X kg of authenticated sequestered plastic).</p>
-
-                            <p>Just like the process of plastic sequestration itself, the process of authentication must also be not-for-profit and for-earth. Only after an independent review can the outputs net-weight be considered authenticated sequestered plastic.</p>
-
-                        </div>
-                        </div>
-
-
-
-            <section id="CO2">
-                    <div class="reg-content-block" id="block9">
-
-                        <div class="opener-header">
-                            
-                            <div class="opener-header-text">
-                            <h4>CO2 Equivalency</h4>
-                            <h5>Plastic Sequestration prevents the release of CO2 from plastic degradation and industrial processing in way that can be calculated and quantified.</h5>
-                            <br>
-                            </div>
-
-                            <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9">+</button>
-                        </div>
-
-                        <div id="preclosed9">
-
-                        <p> According to CIEL's 2019 report <a href="https://www.ciel.org/plasticandclimate/" target="_blank">Plastic & Climate: The Hidden Costs of a Plastic Planet</a> the production and incineration of plastic will add more than 850 million metric tons of greenhouse gases to the atmosphere—equal to the emissions from 189 five- hundred-megawatt coal power plants. At present rates, these greenhouse gas emissions from the plastic lifecycle threaten the ability of the global community to meet carbon emissions targets.</p>
-
-
-                        <br><p><b>Preventing Industrial Emissions & Dispersion</b><p>
-                        <p>Plastic that enters into industry results in a wide range of energy intensive activities from transportation, to smelting, to re-molding.  On average globally, each metric ton of plastic processed by recycling, land-filing and incineration <a href="coefficients.php#co2">generates 689kg, 65Kg and 2967kg of CO2e respectively</a>.  This can be prevented by plastic sequestration. Given that on average globally 18% of plastics are recycled, 24% are incinerated and the remaining 58% are landfilled or directly reach the envioronment, preventing the industrial processing of plastic avoids 0.88Kg of CO2 per Kg of plastic.</p>
-                        <p>Plastic sequestration also prevents the embedded carbon of the plastic from dispersing loose into the biosphere.  The Global Ecobrick Alliance estimates that this prevents <a href="/aes">3.1Kg of carbon per 1kg of plastic</a> from the chemical and biotic degradation of plastic over time.</p>
-
-                        <br><h4>Accelerating Plastic Transtion</h4>
-
-                        <p>All plastic disposal methods, result in the production of replacement plastic.  Once plastic is used and dispose, more must be made to replace the product or packaging that was just consumed.  Within traditional industrial disposal of plastic for every 1kg of plastic disposed, 0.91kg of plastic can be estimated to replace it.  In other words, industrial disposal has a 91% replacement rate.  Each replacement cycle results in the carbon emissions of the virgin plastic produced to replace it, the emissions of its disposal, replacement, disposal and so on, echoing through time until the original amount has been fully subsumed.</p>
-
-                        <p>In comparison, various plastic sequestration methodes result in different replacement rates.  The research of the Global Ecobrick Alliance estimates that a regular ecobrick has a replacement rate of 61%, cigbricks have a 75% replacement rate, and ocean ecobricks of 80%.  These methods still result in the production of virgin plastic, but not as much as before-- and without the carbon emissions of dispoal.</p>
-
-                        <p>Using the replacement rate of a particular method of plastic sequestration, the equivalent amount of carbon emissions prevented from industrial processing can be calculated for each kilogram of plastic that is authenticated as sequestered.</p>
-
-                        <br><hr>
-                        <p>Learn more: <a href="/aes">AES Plastic</a></p>
-
-                        </div>
-                    </div>
+<div class="row">                 
+    <div class="main2">
+        <div class="page-paragraph-reg">
+            <h4 data-lang-id="133-sequestration-final-solution-question">Is Sequestration a 'Final Solution' for Plastic?</h4>
                 
-            </section>
-
+            <p data-lang-id="134-sequestration-safe-road">By following the criteria of plastic sequestration, we are putting our plastic on a safe road through time that avoids the pitfalls of degradation and industry. Because plastic can last for so long, it's important to plan far into the future and put plastic on a safe and secure road through time.</p>
+        
+            <p data-lang-id="135-no-final-in-cycles">However, it is important to remember that in the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
             
-                    <div class="row">
-                        
-                        <div class="main2">
-                            <div class="page-paragraph-reg">
-                                <h4>Is Sequestration a 'Final Solution' for Plastic?</h4>
-                                    
-                                <p>By following the criteria of plastic sequestration we are putting our plastic on a safe road through time that avoids the pittfalls of degradation and industry.  Because plastic can last for so long, its important to plan far into the future and put plastic on a safe and secure road through time.</p>
-                            
-                                <p>However, it is in important to remember that in the cyclical systems of the biosphere, there’s never such thing as ‘final’.</p>
-                                
-                                <p>Ecological cycles can be very short, long and very long.   Planet Earth’s sequestration of carbon out of the atmosphere is an example of the latter– measured in hundreds of millions of years.</p>
-                                <p>By sequestering our carbon/plastic into long-term storage we’re putting it into another cycle.  In the way that plastic was a gift to our age, we can gift our carbon to another. </p>
-                            </div>
-                        </div>
+            <p data-lang-id="136-ecological-cycles-length">Ecological cycles can be very short, long, and very long. Planet Earth’s sequestration of carbon out of the atmosphere is an example of the latter– measured in hundreds of millions of years.</p>
+            <p data-lang-id="137-carbon-plastic-gifting">By sequestering our carbon/plastic into long-term storage, we’re putting it into another cycle. In the way that plastic was a gift to our age, we can gift our carbon to another.</p>
+        </div>
+    </div>
 
-                        <div class="side2">
-                            
-                            <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance">
-                            <br><br><img src="../webp/ayyew.webp" width="100%"></a><br>
-                        </div>
-                    </div>	
+    <div class="side2" data-lang-id="138-road-into-future-image">
+        <img src="../webp/road-500px.webp" width="300" style="width:87%" alt="Authenticated Ecobrick Sequestration guides our plastic onto a long and safe road into the future"  loading="lazy">
+        <br><br><img src="../svgs/eco-enrichment.svg" width="300" style="width:87%" alt="Authenticated Ecobrick Sequestration enriches ecological cycles"  loading="lazy"><br>
+    </div>
+</div>
+
                     
                 </div>
 
