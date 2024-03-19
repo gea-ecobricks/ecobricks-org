@@ -125,8 +125,6 @@
 
 			<?php require_once ("side-modules/eco-accounting-principle.php");?>
 
-			<?php require_once ("side-modules/eco-accounting.php");?>
-
 			<?php require_once ("side-modules/earthen-ethics-principle.php");?>
 
 			<?php require_once ("side-modules/biodiversity-principle.php");?>
