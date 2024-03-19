@@ -84,38 +84,38 @@ border-radius: 10px;"></div>
 		
 		</div>
 
-		<div class="side">
+<div class="side">
 
-		<div class="side-module-desktop-mobile">
-    <img src="../photos/richard-talking.jpg" width="80%" alt="richard talking about plastic" data-lang-id="024-richard-talking-photo">
-    <h4 data-lang-id="025-richard-goldsmith-name">Richard Goldsmith</h4>
-    <h5 data-lang-id="026-richard-practicum-description">Richard during his practicum at our 2019 Newforest UK Training of Trainers.</h5>
-</div>
+    <div class="side-module-desktop-mobile">
+        <img src="../photos/richard-talking.jpg" width="80%" alt="richard talking about plastic" data-lang-id="024-richard-talking-photo">
+        <h4 data-lang-id="025-richard-goldsmith-name">Richard Goldsmith</h4>
+        <h5 data-lang-id="026-richard-practicum-description">Richard during his practicum at our 2019 Newforest UK Training of Trainers.</h5>
+    </div>
 
-<div class="side-module-desktop-mobile">
-    <img src="../photos/richard-ecobrick.jpg" width="80%" alt="For-Earth Enterprise through eco bricking" data-lang-id="027-richard-ecobrick-photo">
-    <h4 data-lang-id="028-richard-ecobricks-title">Richard's Ecobricks</h4>
-    <h5 data-lang-id="029-richard-ecobricks-description">Richard's ecobricks were famous for their pioneering use of white plastic inserts with the serial number written on.  This technique ensured the serial number was protected for... pretty much ever!  Meanwhile, as part of the tech team, Richard worked hard to ensure that recorded ecobrick data would last just as long.</h5>
-    <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no=191547" data-lang-id="030-view-ecobrick">View</a>
-</div>
+    <div class="side-module-desktop-mobile">
+        <img src="../photos/richard-ecobrick.jpg" width="80%" alt="For-Earth Enterprise through eco bricking" data-lang-id="027-richard-ecobrick-photo">
+        <h4 data-lang-id="028-richard-ecobricks-title">Richard's Ecobricks</h4>
+        <h5 data-lang-id="029-richard-ecobricks-description">Richard's ecobricks were famous for their pioneering use of white plastic inserts with the serial number written on.  This technique ensured the serial number was protected for... pretty much ever!  Meanwhile, as part of the tech team, Richard worked hard to ensure that recorded ecobrick data would last just as long.</h5>
+        <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no=191547" data-lang-id="030-view-ecobrick">View</a>
+    </div>
 
-<div class="side-module-desktop-mobile" data-lang-id="031-third-module">
-    <img src="https://ecobricks.org/briks/ecobrick-186125-file.jpeg" width="80%" alt="For-Earth Enterprise through eco bricking" data-lang-id="032-richard-top-notch-photo">
-    <h4 data-lang-id="033-always-top-notch">Always Top Notch</h4>
-    <h5 data-lang-id="034-top-notch-description">Richard's ecobricks, as well as his code, were also well known for being top notch-- every detail considered.</h5>
-    <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no=186125" data-lang-id="035-view-top-notch">View</a>
-</div>
+    <div class="side-module-desktop-mobile" data-lang-id="031-third-module">
+        <img src="https://ecobricks.org/briks/ecobrick-186125-file.jpeg" width="80%" alt="For-Earth Enterprise through eco bricking" data-lang-id="032-richard-top-notch-photo">
+        <h4 data-lang-id="033-always-top-notch">Always Top Notch</h4>
+        <h5 data-lang-id="034-top-notch-description">Richard's ecobricks, as well as his code, were also well known for being top notch-- every detail considered.</h5>
+        <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no=186125" data-lang-id="035-view-top-notch">View</a>
+    </div>
 
-<div class="side-module-desktop-mobile">
-    <img src="https://ecobricks.org/briks/ecobrick-182514-file.jpeg" width="80%" alt="For-Earth Enterprise through eco bricking" data-lang-id="036-richard-colorful-photo">
-    <h4 data-lang-id="037-always-colorful">Always Colorful</h4>
-    <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no=182514" data-lang-id="038-view-colorful">View</a>
-</div>
+    <div class="side-module-desktop-mobile">
+        <img src="https://ecobricks.org/briks/ecobrick-182514-file.jpeg" width="80%" alt="For-Earth Enterprise through eco bricking" data-lang-id="036-richard-colorful-photo">
+        <h4 data-lang-id="037-always-colorful">Always Colorful</h4>
+        <a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no=182514" data-lang-id="038-view-colorful">View</a>
+    </div>
 
 
-		</div>
+	</div>
 
-        </div>  <!--closes main-->
+</div>  <!--closes main-->
 
 
 <!--FOOTER STARTS HERE-->
@@ -129,7 +129,6 @@ border-radius: 10px;"></div>
 <!-- This script is for pages that use the accordion content system-->
 
 </div>
-</article>
 </body>
 </html>
 
