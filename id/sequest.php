@@ -48,7 +48,7 @@
                         -->     
                     </div>	
 
-                    <section id="THEORY">
+   <section id="THEORY">
     <div class="reg-content-block" id="block1">
         <div class="opener-header">
             <div class="opener-header-text">
