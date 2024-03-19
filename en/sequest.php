@@ -33,7 +33,7 @@
                 <div class="main">
 
                     <div class="lead-page-paragraph">
-                         <p data-lang-id="005-first-page-paragraph">Ilmu pengetahuannya jelas: Plastik yang lepas di biosfer membahayakan ekosistem, manusia, dan hewan. Penelitiannya juga jelas: Selama lima puluh tahun terakhir, proses industri telah menyebarkan plastik ke lingkungan sekaligus menjadi sumber utama emisi karbon.</p>
+                         <p data-lang-id="005-first-page-paragraph">The science is clear:  Plastic loose in the biosphere harms ecosystems, humans and animals.  The research is also clear:  For the last fifty years, industrial processing has dispersed plastic into the environment while becoming a major source of carbon emissions.</p>
                      </div>
                 
                     <div class="page-paragraph">
