@@ -163,7 +163,7 @@
 
         <div class="row">
             <div class="main2">
-                <p data-lang-id="053-paragraph2">arth's processes used carbon-based building blocks that were reusable over and over by organisms and ecosystems. Overtime, this biomass tended towards concentration and sequestration under the earth. In the same way, the outputs of plastic sequestration, must intend the same.</p>
+                <p data-lang-id="053-paragraph2">Earth's processes used carbon-based building blocks that were reusable over and over by organisms and ecosystems. Overtime, this biomass tended towards concentration and sequestration under the earth. In the same way, the outputs of plastic sequestration, must intend the same.</p>
             </div>
             <div class="side2"><img src="../webp/spiral-design-381px.webp" width="80%" data-lang-id="054-image1"></div>
         </div>
