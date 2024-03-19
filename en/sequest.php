@@ -19,7 +19,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Sequestration</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">By following the Earth’s example of carbon care we can keep our plastic safe and secure out the biosphere and out of industry.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="Penyerapan Plastik dengan ecobricks">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="By following the Earth’s example of carbon care we can keep our plastic safe and secure out the biosphere and out of industry">
     </div>	
 </div>
 
