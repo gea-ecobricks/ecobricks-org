@@ -330,59 +330,51 @@
 </section>
 
 
-                <section id="AWARING">
-                    <div class="reg-content-block" id="block7">
+<section id="AWARING">
+    <div class="reg-content-block" id="block7">
+        <div class="opener-header">        
+            <div class="opener-header-text">
+                <h4 data-lang-id="100-awareness-raising-title">6. Awareness Raising</h4>
+                <h5 data-lang-id="101-awareness-raising-subtitle">The enterprise tracks and publically discloses all the plastic, carbon and biodiversity impacts of its process.</h5>
+                <br>
+            </div>
+            <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+        </div>
 
-                        <div class="opener-header">
-                            
-                            <div class="opener-header-text">
-                            <h4>6. Awareness Raising</h4>
-                            <h5>The enterprise tracks and publically discloses all the plastic, carbon and biodiversity impacts of its process.</h5>
-                            <br>
-                            </div>
+        <div id="preclosed7">   
+            <div class="row">
+                <div class="main2">
+                    <p data-lang-id="102-ecological-awareness-importance"><b>In the same way that Earth has cultivated ever greater ecological awareness, the enterprise of plastic sequestration must do the same through ecological impact accounting and disclosure.</b></p>
+                    <p data-lang-id="103-ecosystem-awareness-accounting">Earth’s cycles lead to an ever increasing awareness of those impacted in an ecosystem. Plastic sequestration must likewise increase our awareness through an accounting and disclosure of the ecological impacts of the process.</p>
+                </div>
+                <div class="side2" data-lang-id="104-ecological-consciousness-image"><img src="../webp/ecological-consciousness-500px.webp" width="300" style="width:85%" alt="Plastic sequestration must likewise increase our awareness through an accounting and disclosure of the ecological impacts of the process." loading="lazy">
+                </div>
+            </div>
 
-                            <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
-                        </div>
+            <div class="row2">
+                <div class="main3">
+                    <p data-lang-id="105-industrial-distance-consequences">In the past, industrial plastic processing distanced consumers from the ecological consequences of plastic consumption.</p>
+                </div>
+                <div class="side3" data-lang-id="106-industrial-distance-image"><br><img src="../webp/ecological-consciousness-500px.webp" width="120" style="width:120px" alt="Plastic sequestration must likewise increase our awareness through an accounting and disclosure of the ecological impacts of the process." loading="lazy">
+                </div>
+            </div>
+        
+            <p data-lang-id="107-industrial-management-consumer-impact">Industrial plastic management removes consumer participation and agency in the process. Through long-distance export, the ecological impact of plastic processing is hidden from consumers. By purporting to have a plastic solution, industry has encouraged the unabated consumption of plastic. This has led to a steady increase of plastic consumption, production, and pollution over the last 50 years.</p>
 
-                        <div id="preclosed7">   
+            <p data-lang-id="108-plastic-sequestration-transparency">Plastic sequestration must be transparent, open, and accountable. Plastic sequestration must return accurate data to those consuming plastic through an accounting of its ecological impacts near and far.</p>
 
-                        
+            <p data-lang-id="109-awareness-impact-sequestration">Only if the process raises individual and collective awareness can it be considered plastic sequestration.</p>
+            <br>
+            <h4 data-lang-id="110-plastic-transition-standards-title">Plastic Transition Standards</h4>
 
-                            <div class="row">
-                                    <div class="main2">
-                                    p><b>In the same way that Earth has cultivated ever greater ecological awareness, the enterprise of plastic sequestration must do the same through ecological impact accounting and disclosure.</b></p>
-                                    
-                                    <p>Earth’s cycles lead to the an ever increasing awareness of those impacted in an ecosystem.  Plastic sequestration must likewise increase our awareness through an accounting and disclosure of the ecological impacts of the process.</p>
-                                    </div>
-                                    <div class="side2"><img src="../webp/ecological-consciousness-500px.webp" width="300" style="width:85%" alt="Plastic sequestration must likewise increase our awareness through an accounting and disclosure of the ecological impacts of the process." loading="lazy">
-                                    </div>
-                                </div>
+            <p data-lang-id="111-enterprise-disclosure-standards">The enterprise of plastic sequestration must track and publically disclose in carbon, plastic, and biodiversity impacts.</p>
+            <br><hr>
+            
+            <h5 data-lang-id="112-learn-more-awareness">🌍 Learn more: <a href="https://book.earthen.io/en/awareness.html" target="_blank">The Earthen Ethic of Awareness</a></h5>
+        </div>
+    </div>
+</section>
 
-                                <div class="row2">
-                                    <div class="main3">
-                                    <p>In the past, industrial plastic processing distanced consumers from the ecological consequences of plastic consumption.</p>
-                                    </div>
-                                    <div class="side3"><br><img src="../webp/ecological-consciousness-500px.webp" width="120" style="width:120px" alt="Plastic sequestration must likewise increase our awareness through an accounting and disclosure of the ecological impacts of the process." loading="lazy">
-                                    </div>
-                                </div>
-                            
-                            <p>Industrial plastic management removes consumer participation and agency in the process.  Through long-distance export, the ecological impact of plastic processing is hidden from consumers. By purporting to have a plastic solution, industry has encouraged the unabated consumption of plastic.  This has led to a steady increase of plastic consumption, production and pollution over the last 50 years.</p>
-
-                            <p>Plastic sequestration must be transparent, open and accountable.  Plastic sequestration must return accurate data to those consuming plastic through an accounting of its ecological impacts near and far.</p>
-
-                            <p>Only if the process raises individual and collective awareness can it be considered plastic sequestration.</p>
-                            <br>
-                            <h4>Plastic Transition Standards</h4>
-
-                            <p>The enterprise of plastic sequestration must track and publically disclose in carbon, plastic and biodiversity impacts.</p>
-                            <br><hr>
-                            
-                            <h5>🌍 Learn more: <a href="https://book.earthen.io/en/awareness.html" target="_blank">The Earthen Ethic of Awareness</a></h5>
-                    
-                        </div>
-                    </div>
-
-            </section>
 
             
     <section id="AUTHEN">

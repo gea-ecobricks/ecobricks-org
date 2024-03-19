@@ -117,6 +117,7 @@ border-radius: 10px;"></div>
 
 </div>  <!--closes main-->
 
+</div>
 
 <!--FOOTER STARTS HERE-->
 
