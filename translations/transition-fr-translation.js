@@ -39,7 +39,21 @@ const fr_Page_Translations = {
   "019-side-2-module-subtitle": "La transition plastique est un concept régénératif. Au lieu de voir le plastique comme un ‘déchet’, nous pouvons le voir comme une opportunité ayyew pour avancer vers l'enrichissement écologique.",
   "020-side-module-2-button": '<a class="module-btn" href="/ayyew">À propos d\'Ayyew</a>',
 
-  "021-quote": "« Lorsque vous siégez en conseil pour le bien-être du peuple, vous ne devez pas penser à vous-même, ni à votre famille, ni même à votre génération. Prenez vos décisions au nom des sept générations à venir, afin qu'elles puissent profiter de ce que vous avez aujourd'hui. »",
+
+
+  "013b-title": "De Zéro Déchet à Régénératif",
+  "014b-subtitle": "Imaginez un monde où notre manière de vivre enrichit constamment les écosystèmes qui nous entourent.",
+  "015b-main-text": "Imaginez si nos maisons, entreprises et sociétés aboutissaient à l'élimination du plastique des océans et à la régénération des forêts. Réduire nos processus qui nuisent et polluent est un premier pas important. Cependant, il est encore plus important d'augmenter les manières par lesquelles nous contribuons au verdissement de la biosphère. La Terre nous a donné un excellent exemple au cours du dernier milliard d'années sur comment faire exactement cela !",
+  "016b-image-side2": "<img src=\"../webp/balancing-green.webp\" width=\"300\" style=\"width:86%\" alt=\"la production de plastique est enracinée dans l'économie mondiale du pétrole et du capital\" loading=\"lazy\">",
+  "017b-consumption-root": "Nous observons que notre consommation et production de plastique sont enracinées dans l'économie mondiale du pétrole et du capital.",
+  "018b-image-side3": "<img src=\"../webp/balancing-green.webp\" width=\"120\" style=\"width:120px\" alt=\"la production de plastique est enracinée dans l'économie mondiale du pétrole et du capital\" loading=\"lazy\">",
+  "019b-grey-impacts": "Avant, nous étions simplement concentrés sur la réduction de nos impacts gris (c.-à-d. « réduire les empreintes », « zéro déchet » et « neutre en carbone »). Cependant, guidés par les voies de la Terre, nous pouvons au contraire nous concentrer sur l'augmentation de nos impacts verts. Dans l'esprit d'Ayyew, nos contributions vertes peuvent aller bien au-delà de nos gris. De cette manière, nous pouvons orienter nos foyers et entreprises vers une harmonie toujours plus verte avec les cycles de la vie.",
+  "020b-regenerative-living": "C'est ce que nous appelons la vie régénérative.",
+  
+
+
+
+  "021-quote": "<i>« Lorsque vous siégez en conseil pour le bien-être du peuple, vous ne devez pas penser à vous-même, ni à votre famille, ni même à votre génération. Prenez vos décisions au nom des sept générations à venir, afin qu'elles puissent profiter de ce que vous avez aujourd'hui. »</i>",
 "022-quote-author": "— Oren Lyons (Seneca), Nation Onondaga",
 "023-the-green-impact-of-ecobricking": "L'Impact Vert de l'Écobriquage",
 "024-ecobricking-follows-earth-example": "L'Écobriquage suit l'exemple de la Terre en soustrayant et séquestrant le carbone.",

@@ -44,7 +44,22 @@ const en_Page_Translations = {
     "019-side-2-module-subtitle": "Plastic transition is a regenerative concept. Rather than see plastic as ‘waste’ we can see it as an ayyew opportunity to move towards ecological enrichment.",
     "020-side-module-2-button": '<a class="module-btn" href="/ayyew">About Ayyew</a>',
 
-    "021-quote": "“When you sit in council for the welfare of the people, you must not think of yourself or of your family, not even of your generation. Make your decisions on behalf of the seven generations coming, so that they may enjoy what you have today.",
+
+    "013b-title": "From Zero Waste to Regenerative",
+    "014b-subtitle": "Imagine a world where the very way we live is steadily enriching the ecosystems around us.",
+    "015b-main-text": "Imagine if our homes, companies, and corporations resulted in the removal of plastic from the oceans and the regeneration of forests. Reducing our processes that harm and pollute is an important first step. However, even more important is increasing the ways in which we contribute to the greening of the biosphere. The Earth has given us a great example over the last billion years on how to do just this!",
+    "016b-image-side2": "<img src=\"../webp/balancing-green.webp\" width=\"300\" style=\"width:86%\" alt=\"the production of plastic is rooted in the global petroleum and capital powered economy\" loading=\"lazy\">",
+    "017b-consumption-root": "We observe that our consumption and production of plastic is rooted in the global petroleum and capital powered economy.",
+    "018b-image-side3": "<img src=\"../webp/balancing-green.webp\" width=\"120\" style=\"width:120px\" alt=\"the production of plastic is rooted in the global petroleum and capital powered economy\" loading=\"lazy\">",
+    "019b-grey-impacts": "Before we were simply focused on reducing our grey impacts (i.e., “reducing footprints”, “zero waste” and “carbon neutral”). However, guided by the Earth’s ways, we can instead focus on increasing our green impacts. In the Ayyew spirit, our green contributions can go many times beyond our grey. In this way, we can move our households and enterprises into ever greener harmony with the cycles of life.",
+    "020b-regenerative-living": "This is what we call, regenerative living.",
+    
+
+
+
+
+
+    "021-quote": "<i>“When you sit in council for the welfare of the people, you must not think of yourself or of your family, not even of your generation. Make your decisions on behalf of the seven generations coming, so that they may enjoy what you have today.</i>",
 "022-quote-author": "— Oren Lyons (Seneca), Onondaga Nation",
 "023-the-green-impact-of-ecobricking": "The Green Impact of Ecobricking",
 "024-ecobricking-follows-earth-example": "Ecobricking follows the Earth’s example in subtracting and sequestering carbon.",

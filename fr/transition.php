@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='2.01';?>
+<?php $version='2.02';?>
 <?php $page='transition';?>
 
 <?php require_once ("../includes/transition2-inc.php");?>
@@ -67,8 +67,8 @@
 			<div class="reg-content-block" id="block1">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="013-title">From Zero Waste to Regenerative</h4>
-            <h5 data-lang-id="014-subtitle">Imagine a world where the very way we live is steadily enriching the ecosystems around us.</h5>
+            <h4 data-lang-id="013b-title">From Zero Waste to Regenerative</h4>
+            <h5 data-lang-id="014b-subtitle">Imagine a world where the very way we live is steadily enriching the ecosystems around us.</h5>
         </div>
         <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
     </div>
@@ -76,23 +76,23 @@
     <div id="preclosed1">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="015-main-text">Imagine if our homes, companies, and corporations resulted in the removal of plastic from the oceans and the regeneration of forests. Reducing our processes that harm and pollute is an important first step. However, even more important is increasing the ways in which we contribute to the greening of the biosphere. The Earth has given us a great example over the last billion years on how to do just this!</p>
+                <p data-lang-id="015b-main-text">Imagine if our homes, companies, and corporations resulted in the removal of plastic from the oceans and the regeneration of forests. Reducing our processes that harm and pollute is an important first step. However, even more important is increasing the ways in which we contribute to the greening of the biosphere. The Earth has given us a great example over the last billion years on how to do just this!</p>
             </div>
-            <div class="side2" data-lang-id="016-image-side2"><img src="../webp/balancing-green.webp" width="300" style="width:86%" alt="the production of plastic is rooted in the global petroleum and capital powered economy" loading="lazy">
+            <div class="side2" data-lang-id="016b-image-side2"><img src="../webp/balancing-green.webp" width="300" style="width:86%" alt="the production of plastic is rooted in the global petroleum and capital powered economy" loading="lazy">
             </div>
         </div>
 
         <div class="row2">
             <div class="main3">
-                <p data-lang-id="017-consumption-root"><b>We observe that our consumption and production of plastic is rooted in the global petroleum and capital powered economy.</b></p>
+                <p data-lang-id="017b-consumption-root"><b>We observe that our consumption and production of plastic is rooted in the global petroleum and capital powered economy.</b></p>
             </div>
-            <div class="side3" data-lang-id="018-image-side3"><img src="../webp/balancing-green.webp" width="120" style="width:120px" alt="the production of plastic is rooted in the global petroleum and capital powered economy" loading="lazy">
+            <div class="side3" data-lang-id="018b-image-side3"><img src="../webp/balancing-green.webp" width="120" style="width:120px" alt="the production of plastic is rooted in the global petroleum and capital powered economy" loading="lazy">
             </div>
         </div>
         
-        <p data-lang-id="019-grey-impacts">Before we were simply focused on reducing our grey impacts (i.e., “reducing footprints”, “zero waste” and “carbon neutral”). However, guided by the Earth’s ways, we can instead focus on increasing our green impacts. In the Ayyew spirit, our green contributions can go many times beyond our grey. In this way, we can move our households and enterprises into ever greener harmony with the cycles of life.</p>
+        <p data-lang-id="019b-grey-impacts">Before we were simply focused on reducing our grey impacts (i.e., “reducing footprints”, “zero waste” and “carbon neutral”). However, guided by the Earth’s ways, we can instead focus on increasing our green impacts. In the Ayyew spirit, our green contributions can go many times beyond our grey. In this way, we can move our households and enterprises into ever greener harmony with the cycles of life.</p>
             
-        <p data-lang-id="020-regenerative-living">This is what we call, regenerative living.</p>
+        <p data-lang-id="020b-regenerative-living">This is what we call, regenerative living.</p>
 
         <br><br><p data-lang-id="021-quote"><i>“When you sit in council for the welfare of the people, you must not think of yourself or of your family, not even of your generation. Make your decisions on behalf of the seven generations coming, so that they may enjoy what you have today.</i></p>
 
