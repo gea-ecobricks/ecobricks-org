@@ -1087,14 +1087,15 @@ window.onload = function() {
     </div>
 
 
-<div id="language-menu-slider">
+    <div id="language-menu-slider">
   <div class="lang-selector-box">
-    <button type="button" class="lang-selector" href='https://ecobricks.org/en/<?php echo ($page); ;?>'>🇮🇩 IN</button>
-    <button type="button" class="lang-selector" href='https://ecobricks.org/id/<?php echo ($page); ;?>'>🇪🇸 ES</button>
-    <button type="button" class="lang-selector" href='https://ecobricks.org/es/<?php echo ($page); ;?>'>🇫🇷 FR</button>
-    <button type="button" class="lang-selector" href='https://ecobricks.org/fr/<?php echo ($page); ;?>'>🇬🇧 EN</button>
+    <a href='https://ecobricks.org/en/<?php echo ($page); ?>.php' class="lang-selector"><button type="button">🇮🇩 IN</button></a>
+    <a href='https://ecobricks.org/id/<?php echo ($page); ?>.php' class="lang-selector"><button type="button">🇪🇸 ES</button></a>
+    <a href='https://ecobricks.org/es/<?php echo ($page); ?>.php' class="lang-selector"><button type="button">🇫🇷 FR</button></a>
+    <a href='https://ecobricks.org/fr/<?php echo ($page); ?>.php' class="lang-selector"><button type="button">🇬🇧 EN</button></a>
   </div>
 </div>
+
 <!-- 
 <div id="language-menu-slider">
     <div class="lang-selector-box">
