@@ -96,6 +96,24 @@ const fr_Page_Translations = {
 "073-becoming-a-trainer": "Devenir Formateur : Les formateurs de la GEA peuvent organiser des cours sur GoBrik et facturer en Brikcoins pour les inscriptions. Les Brikcoins peuvent être échangés contre la quantité de plastique AES qu'ils représentent.",
 "074-learn-more-gea-catalyst": "🟢 En savoir plus : <a href=\"catalyst.php\">Le Programme Catalyst de la GEA</a>",
 
+"077-enterprise-plastic-transition-title": "Transition Plastique d'Entreprise",
+"078-enterprise-plastic-transition-subtitle": "Imaginez un monde dans lequel toutes nos entreprises, grandes et petites, tiennent compte non seulement de leurs dépenses et revenus financiers, mais aussi de leurs impacts écologiques gris et verts.",
+"079-companies-importance-of-transition": "La transition plastique est particulièrement importante pour les entreprises qui dépendent encore du plastique et du pétrole pour leurs opérations afin de s'assurer qu'elles sont nettement vertes. Suivre et comptabiliser les impacts gris et verts est la première étape.",
+"080-tracking-plastic-generation": "Le suivi de la génération de plastique est particulièrement pertinent pour les entreprises et organisations qui utilisent du plastique dans leurs pratiques commerciales – que cela implique les repas de bureau et les fournitures de bureau, l'emballage des produits, ou les produits eux-mêmes.",
+"081-catalyst-program-image": "<img src=\"../webp/catalyst-logo.webp\" width=\"300\" style=\"width:90%\" loading=\"lazy\" alt=\"Programme Catalyst GEA pour la Transition Plastique\">",
+"082-enterprise-green-impact": "Une fois comptabilisés, il existe de nombreuses manières passionnantes pour les entreprises d'utiliser les impacts plastiques verts pour équilibrer leurs impacts gris.",
+"083-catalyst-program-side3-image": "<img src=\"../webp/catalyst-logo.webp\" width=\"120\" style=\"width:120px\" loading=\"lazy\" alt=\"Programme Catalyst GEA pour la Transition Plastique\">",
+"084-ecobricking-and-enterprise": "En commençant par l'écobriquage de la consommation de plastique du personnel, une entreprise peut initier le travail de réduction de sa génération de plastique. Les entreprises peuvent ensuite travailler avec leurs communautés locales pour catalyser davantage l'écobriquage. L'écobriquage qui résulte d'une telle catalysation est un impact vert que l'Alliance Globale d'Écobriques attribue comme un décalage vert aux entreprises. Les entreprises peuvent également acheter des crédits de compensation plastique, qui correspondent directement à la séquestration plastique authentifiée à travers la blockchain Brikcoin.",
+"085-tracking-plastic-transition-kpi": "Suivre la transition plastique est un indicateur clé de performance essentiel pour les entreprises sérieuses à propos de devenir vertes et transformer leur impact négatif sur la biosphère en un impact positif. Le programme Catalyst de la GEA et notre logiciel de suivi GoBrik sont conçus pour donner les moyens aux entreprises dans cet objectif.",
+"086-learn-more-about-gea-catalyst": "🟢 En savoir plus : <a href=\"../catalyst.php\">Le Programme Catalyst de la GEA</a>",
+
+"087-learn-more-title": "En Savoir Plus",
+"088-learn-more-intro": "La transition plastique repose sur plusieurs concepts régénératifs clés.",
+"089-follow-earthen-example": "Suivre <a href=\"https://book.earthen.io/en/summaries\" target=\"_blank\">l'exemple de la Terre</a> pour être certain que nos processus sont verts",
+"090-understand-earth-carbon-sequestering": "Comprendre la manière dont <a href=\"/plastic\">la Terre a séquestré son carbone pour verdir la biosphère</a>",
+"091-concept-of-plastic-sequestration": "Le concept de <a href=\"sequest.php\">séquestration du plastique</a>",
+"092-follow-regenerative-principles": "Suivre <a href=\"principles.php\">les principes régénératifs</a>.",
+"093-concept-of-ayyew": "Le concept régénératif <a href=\"/ayyew\">d'Ayyew</a>"
 
 
 
