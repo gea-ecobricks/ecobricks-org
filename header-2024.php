@@ -1089,12 +1089,19 @@ window.onload = function() {
 
     <div id="language-menu-slider">
   <div class="lang-selector-box">
-    <a href='https://ecobricks.org/en/<?php echo ($page); ?>.php' class="lang-selector"><button type="button">🇮🇩 IN</button></a>
-    <a href='https://ecobricks.org/id/<?php echo ($page); ?>.php' class="lang-selector"><button type="button">🇪🇸 ES</button></a>
-    <a href='https://ecobricks.org/es/<?php echo ($page); ?>.php' class="lang-selector"><button type="button">🇫🇷 FR</button></a>
-    <a href='https://ecobricks.org/fr/<?php echo ($page); ?>.php' class="lang-selector"><button type="button">🇬🇧 EN</button></a>
+    <button type="button" class="lang-selector" onclick="navigateTo('https://ecobricks.org/id/<?php echo ($page); ?>.php')">🇮🇩 IN</button>
+    <button type="button" class="lang-selector" onclick="navigateTo('https://ecobricks.org/es/<?php echo ($page); ?>.php')">🇪🇸 ES</button>
+    <button type="button" class="lang-selector" onclick="navigateTo('https://ecobricks.org/fr/<?php echo ($page); ?>.php')">🇫🇷 FR</button>
+    <button type="button" class="lang-selector" onclick="navigateTo('https://ecobricks.org/en/<?php echo ($page); ?>.php')">🇬🇧 EN</button>
   </div>
 </div>
+
+<script>
+function navigateTo(url) {
+  window.location.href = url;
+}
+</script>
+
 
 <!-- 
 <div id="language-menu-slider">
