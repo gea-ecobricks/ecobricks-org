@@ -85,6 +85,42 @@ const en_Page_Translations = {
 "058-score-explanation": "In other words, if you’re generating and ecobricking exactly the same amounts of plastic, then your score is 100 (i.e., 100% of zero waste). A PTR below 100 shows your household is still putting plastic into the biosphere. A score above 100 means you are removing plastic from the biosphere.",
 "059-transition-score-examples-image": "<img src=\"../webp/ptr-examples-900px.webp\" width=\"400\" style=\"width:100%\" loading=\"lazy\" alt=\"Examples of different plastic transition scores\">",
 
+"060-authenticated-plastic-sequestration-title": "Authenticated Plastic Sequestration",
+"061-authenticated-plastic-sequestration-subtitle": "Plastic sequestration enables many exciting ways to have green impacts",
+"062-gobrik-plastic-transition-score": "The Global Ecobrick Alliance has developed a Plastic Transition Score to track plastic transition. All accounts on GoBrik now generate a user’s score. Scores are calculated by household– families or groups of people living under the same roof.",
+"063-authenticated-plastic-image": "<img src=\"../webp/aes-400px.webp\" width=\"300\" style=\"width:90%\" loading=\"lazy\" alt=\"Authenticated Ecobricked Plastic\">",
+"064-large-footprints-green-credits": "For individuals and companies who have very large footprints, there are other ways to accumulate green credits.",
+"065-authenticated-plastic-side3-image": "<img src=\"../webp/aes-400px.webp\" width=\"120\" style=\"width:120px\" loading=\"lazy\" alt=\"Authenticated Ecobricked Plastic\">",
+"066-plastic-offsetting-explanation": "AES Plastic Offset credits can be purchased from the GEA on the GoBrik.com/offsetting platform. This is called “Plastic Offsetting”. By purchasing offset credits (tokens that represent plastic that has been sequestered) you can support the deep green work of those sequestering plastic and receive credit for a precise amount of plastic.",
+"067-offset-credits-purchase": "AES Offset credits can be purchased using regular money or with Brikcoins on the GoBrik platform.",
+"068-ways-to-earn-offset-credits": "There are various ways to earn offset credits:",
+"069-validating-credits": "Validating: Validating that ecobricks have in fact been packed properly is an important part of sequestration. Through the GoBrik platform, validators can earn Brikcoins for the hard work of reviewing and authenticating.",
+"070-brikcoins-redemption": "Brikcoins can be redeemed for the amount of AES plastic they represent.",
+"071-gea-catalyst-program": "The GEA Catalyst Program: Our program for businesses enables you to catalyze ecobrick trainings in your community and receive credits for the ecobricked plastic that results.",
+"072-selling-products-for-brikcoins": "Selling Products and Services: Users can sell their products on the GoBrik store for Brikcoins. Brikcoins can be redeemed for the amount of AES plastic they represent.",
+"073-becoming-a-trainer": "Becoming a Trainer: GEA Trainers can run courses on GoBrik and charge in Brikcoins for registrations. Brikcoins can be redeemed for the amount of AES plastic they represent.",
+"074-learn-more-gea-catalyst": "🟢 Learn more: <a href=\"catalyst.php\">The GEA Catalyst Program</a>",
+
+"077-enterprise-plastic-transition-title": "Enterprise Plastic Transition",
+"078-enterprise-plastic-transition-subtitle": "Imagine a world in which all our enterprises, large and small, account for not just their financial expenses and revenues, but also their grey and green ecological impacts.",
+"079-companies-importance-of-transition": "Plastic transition is particularly important for companies that still rely on plastic and petroleum for their operations to ensure they are net green. Tracking and accounting grey and green impacts is the first step.",
+"080-tracking-plastic-generation": "Tracking plastic generation is in particular relevant to companies and organizations that use plastic in their business practices– whether that involves office meals and office supplies, the packaging of products, or the products themselves.",
+"081-catalyst-program-image": "<img src=\"../webp/catalyst-logo.webp\" width=\"300\" style=\"width:90%\" loading=\"lazy\" alt=\"GEA Catalyst Plastic Transition Program\">",
+"082-enterprise-green-impact": "Once accounted for, there are many exciting ways in which enterprises can use green plastic impacts to balance off their grey.",
+"083-catalyst-program-side3-image": "<img src=\"../webp/catalyst-logo.webp\" width=\"120\" style=\"width:120px\" loading=\"lazy\" alt=\"GEA Catalyst Plastic Transition Program\">",
+"084-ecobricking-and-enterprise": "Beginning by ecobricking staff plastic consumption, an enterprise can spark the work of reducing its plastic generation. Enterprises can then work with their local communities to catalyze further ecobricking. The ecobricking that comes from such catalyzation is a green impact that the Global Ecobrick Alliance attributes as a green offset to companies. Enterprises can also purchase plastic offset credits, which through the Brikcoin blockchain, directly correspond to authenticated plastic sequestration.",
+"085-tracking-plastic-transition-kpi": "Tracking plastic transition is an essential key performance indicator for businesses serious about going green and transforming their negative impact on the biosphere to a positive one. The GEA Catalyst program and our GoBrik tracking software are designed to empower enterprises to this purpose.",
+"086-learn-more-about-gea-catalyst": "🟢 Learn more: <a href=\"../catalyst.php\">The GEA Catalyst Program</a>",
+
+"087-learn-more-title": "Learn More",
+"088-learn-more-intro": "Plastic transition is based on several key regenerative concepts.",
+"089-follow-earthen-example": "Following the <a href=\"https://book.earthen.io/en/summaries\" target=\"_blank\">Earth’s example</a> to be certain our processes are green",
+"090-understand-earth-carbon-sequestering": "Understanding the way that <a href=\"/plastic\">Earth sequestered its carbon to green the biosphere</a>",
+"091-concept-of-plastic-sequestration": "The concept of <a href=\"sequest.php\">plastic sequestration</a>",
+"092-follow-regenerative-principles": "Following <a href=\"principles.php\">regenerative principles</a>.",
+"093-concept-of-ayyew": "The regenerative <a href=\"/ayyew\">concept of Ayyew</a>"
+
+
 
 
 

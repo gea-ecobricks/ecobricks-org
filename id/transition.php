@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
-<HTML lang="id"> 
+<HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='id';?>
-<?php $version='1.91';?>
+<?php $lang='fr';?>
+<?php $version='1.94';?>
 <?php $page='transition';?>
 
 <?php require_once ("../includes/transition2-inc.php");?>
@@ -17,10 +17,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Transisi Plastik</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Plastik kita adalah portal keluar dari dunia abu-abu tua dan menuju dunia hijau untuk semua, yang kita semua rindukan.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Transition Plastique</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Notre plastique est un portail hors de l'ancien monde gris et vers le monde vert pour tous, que nous aspirons tous à voir.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/floating-dial-500px.webp" style="width: 100%;" alt="Transisi plastik adalah metrik dari transisi petro-kapital kita">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/floating-dial-500px.webp" style="width: 100%;" alt="Plastic transition for all">
     </div>	
 </div>
 <div id="splash-bar"></div>
