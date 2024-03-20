@@ -1089,12 +1089,13 @@ window.onload = function() {
 
     <div id="language-menu-slider">
   <div class="lang-selector-box">
-    <button type="button" class="lang-selector" onclick="navigateTo('https://ecobricks.org/id/<?php echo ($page); ?>.php')">🇮🇩 IN</button>
-    <button type="button" class="lang-selector" onclick="navigateTo('https://ecobricks.org/es/<?php echo ($page); ?>.php')">🇪🇸 ES</button>
-    <button type="button" class="lang-selector" onclick="navigateTo('https://ecobricks.org/fr/<?php echo ($page); ?>.php')">🇫🇷 FR</button>
-    <button type="button" class="lang-selector" onclick="navigateTo('https://ecobricks.org/en/<?php echo ($page); ?>.php')">🇬🇧 EN</button>
+    <button type="button" class="lang-selector" onclick="navigateTo('../id/<?php echo ($page); ?>.php')" aria-label="Buka versi bahasa Indonesia">🇮🇩 IN</button>
+    <button type="button" class="lang-selector" onclick="navigateTo('../es/<?php echo ($page); ?>.php')" aria-label="Ir a la versión en español">🇪🇸 ES</button>
+    <button type="button" class="lang-selector" onclick="navigateTo('../fr/<?php echo ($page); ?>.php')" aria-label="Aller à la version française">🇫🇷 FR</button>
+    <button type="button" class="lang-selector" onclick="navigateTo('../en/<?php echo ($page); ?>.php')" aria-label="Go to English version">🇬🇧 EN</button>
   </div>
 </div>
+
 
 <script>
 function navigateTo(url) {
