@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.8';?>
+<?php $version='1.81';?>
 <?php $page='what';?>
 <title>Ecobrick Essentials</title>
 <?php require_once ("../includes/what2-inc.php");?>

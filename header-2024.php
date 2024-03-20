@@ -70,6 +70,7 @@ window.onload = function() {
     var siteName = 'Ecobricks.org';
     // setPageLanguageFromCache();
     // Initially declare currentLanguage globally without setting its value
+    window.currentPage = '<?php echo ($page); ?>';
     window.currentLanguage = ''; // This makes currentLanguage globally accessible
     // Now set the value of currentLanguage
     window.currentLanguage = '<?php echo ($lang); ?>'; // Default language code
@@ -1086,15 +1087,15 @@ window.onload = function() {
     </div>
 
 
-<!-- <div id="language-menu-slider">
+<div id="language-menu-slider">
   <div class="lang-selector-box">
-    <button type="button" class="lang-selector" href='https://ecobricks.org/en/<?php echo ($name); ;?>'>🇮🇩 IN</button>
-    <button type="button" class="lang-selector" href='https://ecobricks.org/id/<?php echo ($name); ;?>'>🇪🇸 ES</button>
-    <button type="button" class="lang-selector" href='https://ecobricks.org/es/<?php echo ($name); ;?>'>🇫🇷 FR</button>
-    <button type="button" class="lang-selector" href='https://ecobricks.org/fr/<?php echo ($name); ;?>'>🇬🇧 EN</button>
+    <button type="button" class="lang-selector" href='https://ecobricks.org/en/<?php echo ($page); ;?>'>🇮🇩 IN</button>
+    <button type="button" class="lang-selector" href='https://ecobricks.org/id/<?php echo ($page); ;?>'>🇪🇸 ES</button>
+    <button type="button" class="lang-selector" href='https://ecobricks.org/es/<?php echo ($page); ;?>'>🇫🇷 FR</button>
+    <button type="button" class="lang-selector" href='https://ecobricks.org/fr/<?php echo ($page); ;?>'>🇬🇧 EN</button>
   </div>
-</div> -->
-
+</div>
+<!-- 
 <div id="language-menu-slider">
     <div class="lang-selector-box">
       <button type="button" class="lang-selector" onclick="switchLanguage('id')">🇮🇩 IN</button>
@@ -1102,7 +1103,7 @@ window.onload = function() {
       <button type="button" class="lang-selector" onclick="switchLanguage('fr')">🇫🇷 FR</button>
       <button type="button" class="lang-selector" onclick="switchLanguage('en')">🇬🇧 EN</button>
     </div>
-  </div>
+  </div> -->
   
 
 <div id="login-menu-slider">
