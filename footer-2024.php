@@ -280,9 +280,10 @@ function viewGalleryImage(imageSrc, altText) {
     const modalContent = document.createElement('div');
     modalContent.style.position = 'relative';
     modalContent.style.padding = '20px';
+    modalContent.style.display = 'flex';
+    modalContent.style.flexFlow = 'column';
 
-    
-    document.getElementById("main").classList.add("blur");
+    document.getElementById("page-content").classList.add("blur");
 
     // Image
     const img = document.createElement('img');
