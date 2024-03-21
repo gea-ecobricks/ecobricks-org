@@ -152,34 +152,31 @@
         <p data-lang-id="034-usage-description">The designator icon can be used directly in packaging designs or added as sticker to pre-existing packaging and products.</p><br>
         <p data-lang-id="035-usage-examples-intro">Here's some examples of our usage:</p>
 
-        <div id="flex-gallery" style="width:100%">
-            <a href="photos/brickable-1-716px.jpeg" data-lang-id="036-example-link-1"><img src="../photos/brickable-1-716px.jpeg" style="width:30%;" alt="A black sticker used on a chocolate powder plastic bag" loading="lazy"></a>
-            <a href="photos/brickable-2-716px.jpeg" data-lang-id="037-example-link-2"><img src="../photos/brickable-2-716px.jpeg" style="width:30%;" alt="Integrated into the packaging of a Marimas juice product" loading="lazy"></a>
-            <a href="photos/brickable-3-716px.jpeg" data-lang-id="038-example-link-3"><img src="../photos/brickable-3-716px.jpeg" style="width:30%;" alt="A stick on a home based business health drink product" loading="lazy"></a>
-        </div>
+      
 
 		<div id="three-column-gal" class="three-column-gal">
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/brickable-1-716px.jpeg', 'A rainbow milstein module | England, UK')">
-        <img src="../photos/brickable-1-716px.jpeg" alt="The use of a brickable sticker on hot chocolate plastic packaged product." loading="lazy">
-        <p>The use of a brickable sticker on hot chocolate plastic packaged product.</p>
-    </div>
+			<div class="gal-photo" onclick="viewGalleryImage('../photos/brickable-1-716px.jpeg', 'A rainbow milstein module | England, UK')">
+				<img src="../photos/brickable-1-716px.jpeg" alt="The use of a brickable sticker on hot chocolate plastic packaged product." loading="lazy">
+				<p>The use of a brickable sticker on hot chocolate plastic packaged product.</p>
+			</div>
 
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/brickable-2-716px.jpeg', 'Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia')">
-        <img src="../photos/brickable-2-716px.jpeg" alt="Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia" loading="lazy">
-        <p>Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia</p>
-    </div>
+			<div class="gal-photo" onclick="viewGalleryImage('../photos/brickable-2-716px.jpeg', 'Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia')">
+				<img src="../photos/brickable-2-716px.jpeg" alt="Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia" loading="lazy">
+				<p>Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia</p>
+			</div>
 
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/indonesia-module.jpg', 'A module made from square bottles | Indonesia')">
-        <img src="../photos/modules/indonesia-module.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
-        <p>A module made from square bottles | Indonesia</p>
-    </div>
+			<div class="gal-photo" onclick="viewGalleryImage('../photos/modules/indonesia-module.jpg', 'A module made from square bottles | Indonesia')">
+				<img src="../photos/modules/indonesia-module.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
+				<p>A module made from square bottles | Indonesia</p>
+			</div>	
 
-    <div class="gal-photo" onclick="viewGalleryImage('../photos/brickable-3-716px.jpeg', 'A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked')">
-        <img src="../photos/brickable-3-716px.jpeg" alt="A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked" loading="lazy">
-        <p>A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked</p>
-    </div>
+			<div class="gal-photo" onclick="viewGalleryImage('../photos/brickable-3-716px.jpeg', 'A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked')">
+				<img src="../photos/brickable-3-716px.jpeg" alt="A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked" loading="lazy">
+				<p>A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked</p>
+			</div>
 
-    </div>
+		</div>
+	</div>
 </div>
 
 
