@@ -8,7 +8,7 @@
 
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='1.83';?>
+<?php $version='2.0';?>
 <?php $page='brickable';?>
 <?php require_once ("../includes/brickable2-inc.php");?>
 
