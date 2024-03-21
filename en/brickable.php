@@ -8,7 +8,7 @@
 
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.8';?>
+<?php $version='1.81';?>
 <?php $page='brickable';?>
 <?php require_once ("../includes/brickable2-inc.php");?>
 
@@ -164,11 +164,6 @@
 				<img src="../photos/brickable-2-716px.jpeg" alt="Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia" loading="lazy">
 				<p>Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia</p>
 			</div>
-
-			<div class="gal-photo" onclick="viewGalleryImage('../photos/modules/indonesia-module.jpg', 'A module made from square bottles | Indonesia')">
-				<img src="../photos/modules/indonesia-module.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
-				<p>A module made from square bottles | Indonesia</p>
-			</div>	
 
 			<div class="gal-photo" onclick="viewGalleryImage('../photos/brickable-3-716px.jpeg', 'A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked')">
 				<img src="../photos/brickable-3-716px.jpeg" alt="A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked" loading="lazy">
