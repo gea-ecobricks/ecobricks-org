@@ -288,6 +288,7 @@ function viewGalleryImage(imageSrc, altText) {
     img.style.maxWidth = '90%';
     img.style.maxHeight = '80vh'; // Adjusted for viewport height
     img.style.minWidth = '70%';
+    img.style.margin = 'auto';
 
     // Caption
     const caption = document.createElement('p');
