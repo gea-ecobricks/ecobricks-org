@@ -286,9 +286,9 @@ RedirectMatch "^/openbooks.php" "/en/open-books.php"
 RedirectMatch "^/brickable/" "/en/brickable.php"
 RedirectMatch "^/brikable/" "/en/brickable.php"
 RedirectMatch "^/brikable.php/" "/en/brickable.php"
-RedirectMatch "^/brickable" "/en/brickable.php"
-RedirectMatch "^/ecobrikable" "/en/brickable.php"
-RedirectMatch "^/ecobrickable" "/en/brickable.php"
+RedirectMatch "^/brickable/" "/en/brickable.php"
+RedirectMatch "^/ecobrikable/" "/en/brickable.php"
+RedirectMatch "^/ecobrickable/" "/en/brickable.php"
 
 RedirectMatch "^/id/earth.php" "/id/tanah.php"
 
