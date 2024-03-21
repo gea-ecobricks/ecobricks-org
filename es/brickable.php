@@ -3,7 +3,7 @@
 
 <HEAD>
 
-<title>Brickable Design</title>
+<title>Diseño Brickable</title>
 
 
 <META charset="UTF-8">
@@ -16,8 +16,8 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Brickable Design</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Guide your packaging into a greening spiral of life cycles</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Diseño Brickable</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Guía tu embalaje hacia su próxima vida mientras trabajas para eliminar completamente el plástico.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/ecobrickable-icon-from-ecobricks-org-white.svg?v=1" style="width: 70%" alt="Brikable designator icon"></div>	
 

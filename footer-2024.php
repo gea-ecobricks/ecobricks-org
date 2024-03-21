@@ -283,7 +283,6 @@ function viewGalleryImage(imageSrc, altText) {
     modalContent.style.display = 'flex';
     modalContent.style.flexFlow = 'column';
 
-    document.getElementById("page-content").classList.add("blur");
 
     // Image
     const img = document.createElement('img');
@@ -312,7 +311,6 @@ function viewGalleryImage(imageSrc, altText) {
 
     closeButton.onclick = function() {
         document.body.removeChild(modalBackground);
-        document.getElementById("page-content").classList.remove("blur");
 
     };
 
