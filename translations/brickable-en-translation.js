@@ -46,9 +46,16 @@ const en_Page_Translations = {
     "033-opener-subheader-text": "Companies and corporations around the world use the designator icon for their non-recyclable packaging.",
     "034-usage-description": "The designator icon can be used directly in packaging designs or added as sticker to pre-existing packaging and products.",
     "035-usage-examples-intro": "Here's some examples of our usage:",
-    "036-example-link-1": '<a href="photos/brickable-1-716px.jpeg"><img src="../photos/brickable-1-716px.jpeg" style="width:30%;" alt="A black sticker used on a chocolate powder plastic bag" loading="lazy"></a>',
-    "037-example-link-2": '<a href="photos/brickable-2-716px.jpeg"><img src="../photos/brickable-2-716px.jpeg" style="width:30%;" alt="Integrated into the packaging of a Marimas juice product" loading="lazy"></a>',
-    "038-example-link-3": '<a href="photos/brickable-3-716px.jpeg"><img src="../photos/brickable-3-716px.jpeg" style="width:30%;" alt="A stick on a home based business health drink product" loading="lazy"></a>',
+   
+    "036-photo-caption":"The use of a brickable sticker on hot chocolate plastic packaged product.",
+
+    "037-photo-caption":"Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia",
+
+    "038-photo-caption":"A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked",
+    
+    
+    
+    
     "049-opener-header-text": "Creative Commons License",
     "050-opener-subheader-text": "Conditions for graphic use",
     "051-license-description": "The Ecobrickable Designator & Stickers are licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. This is to ensure the standardized and resonant usage of the designators by committed and resonant companies and individuals. See copyright notice and terms below.",
