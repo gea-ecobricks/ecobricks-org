@@ -1073,6 +1073,7 @@ GUIDED TOUR---*
   text-decoration: none;
   cursor: pointer;
 }
+
 .blur {
   filter: blur(10px);
   filter:brightness(0.2);

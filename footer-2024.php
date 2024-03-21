@@ -281,6 +281,9 @@ function viewGalleryImage(imageSrc, altText) {
     modalContent.style.position = 'relative';
     modalContent.style.padding = '20px';
 
+    
+    document.getElementById("main").classList.add("blur");
+
     // Image
     const img = document.createElement('img');
     img.src = imageSrc;
