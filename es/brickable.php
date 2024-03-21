@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="es"> 
 
 <HEAD>
 
@@ -7,7 +7,7 @@
 
 
 <META charset="UTF-8">
-<?php $lang='en';?>
+<?php $lang='es';?>
 <?php $version='1.82';?>
 <?php $page='brickable';?>
 <?php require_once ("../includes/brickable2-inc.php");?>
