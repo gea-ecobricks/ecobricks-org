@@ -1,9 +1,9 @@
 <div class="side-module-desktop-mobile">
-	<img src="../webp/gea-logo-400px.webp" width="90%" alt="The Global Eco Brick Alliance">
-	
-    <h4>Global Ecobrick Alliance</h4>
-	<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
+<img src="../webp/gea-logo-400px.webp" width="300" style="width:90%" alt="Alianza Mundial del Ecoladrillo" loading="lazy">
 
-    <a class="module-btn" href="about.php">Learn More</a>
+<h4>Alianza Mundial del Ecoladrillo</h4>
+<h5>El GEA se dedica a acelerar la transición plástica. Presidemos la aplicación GoBrik y la cadena de bloques Brikcoin.</h5><br>
+
+<a class="module-btn" href="about.php">Más información</a>
 
 </div>

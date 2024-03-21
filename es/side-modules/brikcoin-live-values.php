@@ -21,7 +21,7 @@ $result = $conn->query($sql);
                 <span style="font-size: 1.4em;">'.$row["plastic_value_g_per_brk"].'g AES</span>
                 </span>
             </p>';
-            echo '<p style="font-size: 1.0em; margin-top:10px;">Current 2024 Price per 1 Kg AES plastic:<br><span class="courier">3.23 USD</span></p>' ; 
+            echo '<p style="font-size: 1.0em; margin-top:10px;">Precio actual 2024 por 1 kg de plástico AES:<br><span class="courier">3,23 USD</span></p>' ; 
             echo '<p style="font-size: 1.0em; margin-top:10px;">Total Circulation:<br><b><span class="courier">'.$row["net_brk_in_circulation"].'&#8202;BRK</b></span></p>' ; 
             echo '<p style="font-size: 0.75em; margin-top:10px;">Brikcoins <a href="/brikcoins.php">(BRK / ß)</a> are commodified in ecological value measured in kilograms of authenticated ecobrick sequestered plastic (<a href="sequestered.php">AES</a>).</p>
             <p><a class="module-btn" href="offsetting.php">ℹ️ AES Offsetting</a></p>
