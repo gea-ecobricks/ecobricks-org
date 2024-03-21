@@ -312,6 +312,8 @@ function viewGalleryImage(imageSrc, altText) {
 
     closeButton.onclick = function() {
         document.body.removeChild(modalBackground);
+        document.getElementById("page-content").classList.remove("blur");
+
     };
 
     modalContent.appendChild(img);
