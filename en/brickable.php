@@ -8,7 +8,7 @@
 
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.799';?>
+<?php $version='1.8';?>
 <?php $page='brickable';?>
 <?php require_once ("../includes/brickable2-inc.php");?>
 
@@ -61,7 +61,7 @@
                         	<p data-lang-id="009-reg-content-paragraph-1">For many companies making the transition to regenerative products is daunting.  It appears to require large investments in manufacturing, materials, systems and certifications. Furthermore it may seem that alternative organic materials do not yet meet health and safety standards and are not yet cost effective.</p>
 						</div>
 						<div class="side2">
-							<img src="../svgs/vsrecycling.svg" width="300" style="width:80%; "alt="cyclical spiral design icon">
+							<img src="../svgs/vsrecycling.svg" width="300" style="width:80%; "alt="cyclical spiral design icon" loading="lazy">>
 						</div>
 					</div>
 
@@ -70,7 +70,7 @@
 							<p data-lang-id="010-reg-content-paragraph-2">As a transition-step, plastic products and packaging can be made brickable!</p> 
 						</div>
 						<div class="side3">
-						<img src="../icons/cyclical-design-icon-ecobricks-org.svg" width="120" alt="Cyclical Spiral Design">
+						<img src="../icons/spiral-design-icon-ecobricks-org.svg" width="120" alt="Cyclical Spiral Design" loading="lazy">
 						</div>
 					</div>
 					
@@ -157,6 +157,28 @@
             <a href="photos/brickable-2-716px.jpeg" data-lang-id="037-example-link-2"><img src="../photos/brickable-2-716px.jpeg" style="width:30%;" alt="Integrated into the packaging of a Marimas juice product" loading="lazy"></a>
             <a href="photos/brickable-3-716px.jpeg" data-lang-id="038-example-link-3"><img src="../photos/brickable-3-716px.jpeg" style="width:30%;" alt="A stick on a home based business health drink product" loading="lazy"></a>
         </div>
+
+		<div id="three-column-gal" class="three-column-gal">
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/brickable-1-716px.jpeg', 'A rainbow milstein module | England, UK')">
+        <img src="../photos/brickable-1-716px.jpeg" alt="The use of a brickable sticker on hot chocolate plastic packaged product." loading="lazy">
+        <p>The use of a brickable sticker on hot chocolate plastic packaged product.</p>
+    </div>
+
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/brickable-2-716px.jpeg', 'Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia')">
+        <img src="../photos/brickable-2-716px.jpeg" alt="Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia" loading="lazy">
+        <p>Ecobrickable Designator icon used on a Marimas brand packaged juice powder product | Indonesia</p>
+    </div>
+
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/modules/indonesia-module.jpg', 'A module made from square bottles | Indonesia')">
+        <img src="../photos/modules/indonesia-module.jpg" alt="A module made from square bottles | Indonesia" loading="lazy">
+        <p>A module made from square bottles | Indonesia</p>
+    </div>
+
+    <div class="gal-photo" onclick="viewGalleryImage('../photos/brickable-3-716px.jpeg', 'A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked')">
+        <img src="../photos/brickable-3-716px.jpeg" alt="A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked" loading="lazy">
+        <p>A home business uses an orange brickable sticker to indicate that their plastic package should be ecobricked</p>
+    </div>
+
     </div>
 </div>
 

@@ -1,30 +1,39 @@
-<!--PAGE LANGUAGE:  ESPANOL--> 
+<!DOCTYPE html>
+<HTML lang="es"> 
+<HEAD>
 
-<!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/arc-inc.php");?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<META charset="UTF-8">
+<title>ARC/AES CDN | Ecobricks.org</title>
+<!-- <title>Green Site Content Delivery Network | Ecobricks.org</title> -->
+<?php $lang='es';?>
+<?php $version='1.77';?>
+<?php $page='arc';?>
+
+<?php require_once ("../includes/arc2-inc.php");?>
+
 
 <!--PAGE BANNER-->
+
+
+<div class="splash-content-block">
 	
-<div id="header-content-block">
-	<div id="header-box">
-		<div class="header-heading">Acelere y haga verde su sitio web</div>
-		<div class="header-sub">Conectar Kbs de aceleración de datos<br>
-a Kgs de plástico removido<br>
-de la biosfera</div>
-		<img src="../webp/arc-logos.webp">
+	<div class="splash-image"><img src="../svgs/arc-aes-vertical.svg" style="width: 75%" alt="Arc.io and Authenticated Ecobrick Sequestered Plastic">
+    </div>	
+	<div class="splash-box">
+		<div class="splash-heading">Speed & Green Your Website</div>
+	    <div class="splash-sub">Connect Kbs of data acceleration<br>
+		to Kgs of plastic removed<br>
+		from the biosphere</div>
 	</div>
 </div>
-<div id="grey-bar"></div>
+<div id="splash-bar"></div>
+
 
 
 
 <!-- PAGE CONTENT <div id="content-sect1">-->
 
-<a name="top"></a>
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
@@ -32,26 +41,26 @@ de la biosfera</div>
 
 			<div class="lead-page-paragraph">
 				
-			<p>Arc y Ecobricks.org están desarrollando una forma de acelerar su sitio web y respaldar la seguridad del plástico fuera de la biosfera.</p>
+			<p>Arc & Ecobricks.org are developing a way to speed up your website & support securing of plastic out of the biosphere.</p>
 		
 			</div>
 
-			<div class="faq">
-				<a name="plastic"></a>
-				<div class="faq-box">
-					<div class="faq-texts">
-						<div class="faq-header"><h4>Que es Arc?</h4></div>
+			<div class="page-paragraph">
+						<h4>What is Arc?</h4>
 
-						<p>Arc es un servicio de red de entrega de contenido (CDN) de sitios web. Los webmasters pueden instalar su servicio en cualquier sitio. ¡Lo tenemos funcionando en nuestro sitio ahora mismo! En lugar de cargar sitios desde servidores centralizados que a menudo están lejos (el nuestro está en Singapur), Arc puede usar Internet para compartir los datos de nuestro sitio que alguien más en su ciudad ha descargado justo antes que usted. Ahorra tiempo, trabajo de servidor y energía.</p>
-
-                        <p>Es como un BitTorrent ultrarrápido para sitios web en el que todos ganan.</p>
-					</div>
-				</div>
-				<div class="faq-link"><h5>Learn more: <a href="https://arc.io/faq" target="_blank">Arc's Frequently Asked Questions</h5></a></div>	
+						<p>Arc est un service de réseau de diffusion de contenu (CDN) de site Web. Leur service peut être installé par les webmasters sur n'importe quel site. Nous l'avons en cours d'exécution sur notre site en ce moment ! Plutôt que de charger des sites à partir de serveurs centralisés souvent éloignés (le nôtre est à Singapour), Arc peut utiliser Internet pour partager les données de notre site que quelqu'un d'autre dans votre ville a téléchargées juste avant vous ! Cela permet d'économiser du temps, du travail sur le serveur et de l'énergie.</p>
 			</div>
+			<div class="page-paragraph-reg">
+
+                        <p>C'est comme un BitTorrent ultra-rapide pour les sites Web où tout le monde est gagnant.</p>
+        	</div>
+				
+				<div class="faq-link"><h5>En savoir plus : <a href="https://arc.io/faq" target="_blank">Foire aux questions d'Arc</a></h5></div>
+                </div>
 
 
 				
+
 			<div class="faq">
 				<div class="faq-box">
 					<div class="faq-texts">
@@ -62,13 +71,13 @@ de la biosfera</div>
 						<p>Each ecobrick is peer reviewed to determine whether its plastic meets the stringent requirements of plastic sequestration. Each authenticated gram of sequestered plastic is then recorded on our <a href="/brikcoins">manual blockchain</a>.  To support ecobrikers around the world doing the hard work of sequestration and the platform, Authenticated plastic offset credits can then be purchased through the GEA.</p>
 					</div> 	
 				</div>
-				<div class="faq-link"><h5>Learn more: <a href="/aes">AES Plastic Offsetting</h5></a></div>
-				<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</h5></a></div>
-				<div class="faq-link"><h5>Learn more: <a href="what.php">About Ecobricks</h5></a></div>		
+				<div class="faq-link"><h5>Learn more: <a href="/aes">AES Plastic Offsetting</a></h5></div>
+				<div class="faq-link"><h5>Learn more: <a href="sequest.php">Plastic Sequestration</a></h5></div>
+				<div class="faq-link"><h5>Learn more: <a href="what.php">About Ecobricks</a></h5></div>		
 			</div>
 
 
-
+<br>
 			<div class="faq">
 				<div class="faq-box">
 					<div class="faq-texts">
@@ -100,7 +109,7 @@ de la biosfera</div>
 				</div>
 
 				<div class="faq-link"><h5>Request: <a href="mailto:devteam@ecobricks.org?subject=GEA Green Arc CDN Beta Test Participation">Access to BETA</h5></a></div>
-				<div class="faq-link"><h5>Get: <a href="https://arc.io/?ref=ecobricks.org#signUp">Normal Arc for your site</h5></a></div>		
+				<div class="faq-link"><h5>Get: <a href="https://arc.io/?ref=ecobricks.org#signUp">Normal Arc for your site</a></h5></div>		
 			</div>
 		
 		</DIV>
@@ -109,7 +118,7 @@ de la biosfera</div>
 
 		<div class="side">
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 				<img src="../webp/arc-green-popper.webp" width="70%">
 				<h4>Arc</h4>
 				<h5>Arc has pioneered a decentralized content delivery network to provide an alternative to online advertisements.</h5><br>
@@ -117,7 +126,7 @@ de la biosfera</div>
 
 			</div>
 				
-			<div id="side-module-desktop-only">
+			<div class="side-module-desktop-only">
 				<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/05/Regenerative-Living-Home-400px.png" width="80%">
 				<h4>Plastic Sequestration</h4>
 				<h5>Ecobricking is based on the concept of following the Earth's example in concentrating and securing our plastic indefinitely"</h5><br>
@@ -125,14 +134,14 @@ de la biosfera</div>
 			</div>
 
 	
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 				<img src="https://cdn.ecobricks.org/wp-content/uploads/2020/07/GEA-Logo-v2.3-with-perspective-1000px-300x300.png" width="80%">
 				<h4>Global Ecobrick Alliance</h4>
 				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
 				<a class="module-btn" href="about.php">About Us</a>
 			</div>
 
-			<div id="side-module-desktop-mobile">
+			<div class="side-module-desktop-mobile">
 				<img src="../webp/for-earth500px.webp" width="80%">
 				<h4>For-Earth Enterprise</h4>
 				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
@@ -142,6 +151,8 @@ de la biosfera</div>
 		</div>
 
 	</div>
+
+    <br><br>
 </div>
 
 
@@ -151,11 +162,15 @@ de la biosfera</div>
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
-	<!--FOOTER ENDS HERE-->
+<!-- CUSTOM PAGE SCRIPTS-->
+
+
+<!-- This script is for pages that use the accordion content system-->
+<!-- <script src="../accordion-scripts.js?v=2" defer></script> -->
+
 </div>
 </body>
 </html>
-

@@ -4,7 +4,7 @@
 
 
 <META charset="UTF-8">
-<title>Réseau de diffusion de contenu de site vert | Ecobricks.org</title>
+<title>ARC/AES CDN | Ecobricks.org</title>
 <!-- <title>Green Site Content Delivery Network | Ecobricks.org</title> -->
 <?php $lang='en';?>
 <?php $version='1.77';?>
@@ -151,6 +151,8 @@
 		</div>
 
 	</div>
+
+    <br><br>
 </div>
 
 
