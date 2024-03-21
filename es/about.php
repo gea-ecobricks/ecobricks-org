@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="es"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='1.66';?>
+<?php $lang='es';?>
+<?php $version='1.7';?>
 <?php $page='about';?>
 
 <?php require_once ("../includes/about2-inc.php");?>
