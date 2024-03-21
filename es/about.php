@@ -214,7 +214,7 @@
     </div>
 </div>
 
-	<div class="page-paragraph">
+	<div class="page-paragraph-reg">
 	<br><br>
 	
 	<h4 data-lang-id="084-page-paragraph-p1"><b>Our Vision</b></h4>
@@ -252,6 +252,7 @@
 		</div>
 
 	</div>
+	<br>
 </div>
 
 
