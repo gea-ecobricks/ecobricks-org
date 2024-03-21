@@ -552,7 +552,7 @@ margin-top: 40px;
       background: var(--slide-overlays);
       padding: 15px 20px 15px 20px;
       border-radius: 10px;
-      /* color: grey; */
+      color: var(--subdued-text);
       border: none;
 	  flex: 15%;
     margin-left: 10px;
