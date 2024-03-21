@@ -21,23 +21,14 @@
 	<div class="splash-image"><img src="../svgs/arc-aes-vertical.svg" style="width: 75%" alt="Arc.io and Authenticated Ecobrick Sequestered Plastic">
     </div>	
 	<div class="splash-box">
-		<div class="splash-heading"></div>
-	    <div class="splash-sub"></div>
+		<div class="splash-heading">Speed & Green Your Website</div>
+	    <div class="splash-sub">Connect Kbs of data acceleration<br>
+		to Kgs of plastic removed<br>
+		from the biosphere</div>
 	</div>
 </div>
 <div id="splash-bar"></div>
 
-<!-- 	
-<div id="header-content-block">
-	<div id="header-box">
-		<div class="header-heading">Accélérez et verdissez votre site Web</div>
-        <div class="header-sub">Connecter des Ko d'accélération de données<br>
-        à Kgs de plastique retirés<br>
-        de la biosphère</div>
-		<img src="../webp/arc-logos.webp">
-	</div>
-</div>
-<div id="grey-bar"></div> -->
 
 
 
@@ -50,7 +41,8 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p>Arc et Ecobricks.org développent un moyen d'accélérer votre site Web et de soutenir la sécurisation du plastique hors de la biosphère.</p>
+			<p>Arc & Ecobricks.org are developing a way to speed up your website & support securing of plastic out of the biosphere.</p>
+		
 			</div>
 
 			<div class="page-paragraph">

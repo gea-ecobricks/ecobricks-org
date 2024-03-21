@@ -1,20 +1,20 @@
-<!--PAGE LANGUAGE:  INDONESIAN--> 
+<!--PAGE LANGUAGE:  ENGLISH--> 
 
 <!-- Translators:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
  
 <?php require_once ("../includes/arc-inc.php");?>
 
 <!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+<!--<?php require_once ("translate-please.php");?>-->
 
 <!--PAGE BANNER-->
 	
 <div id="header-content-block">
 	<div id="header-box">
-    <div class="header-heading">Mempercepat & Menghijaukan Situs Web Anda</div>
-    <div class="header-sub">Hubungkan Kbs akselerasi data<br>
-    ke Kg plastik dibuang<br>
-    dari biosfer</div>
+		<div class="header-heading">Speed & Green Your Website</div>
+		<div class="header-sub">Connect Kbs of data acceleration<br>
+		to Kgs of plastic removed<br>
+		from the biosphere</div>
 		<img src="../webp/arc-logos.webp">
 	</div>
 </div>
@@ -32,7 +32,8 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p>Arc & Ecobricks.org sedang mengembangkan cara untuk mempercepat situs web Anda & mendukung pengamanan plastik dari biosfer.</p>
+			<p>Arc & Ecobricks.org are developing a way to speed up your website & support securing of plastic out of the biosphere.</p>
+		
 			</div>
 
 			<div class="faq">
