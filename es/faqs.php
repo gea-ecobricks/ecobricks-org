@@ -17,8 +17,8 @@
 
 <div id="header-content-block">
         <div id="raised-text">
-            <h1>Frequently Asked Questions</h1>
-            <p>All your questions about ecobricks and all our answers.</p>
+            <h1>Preguntas frecuentes</h1>
+            <p>Todas tus preguntas sobre los ecoladrillos y todas nuestras respuestas.</p>
         </div>
     </div>
 
