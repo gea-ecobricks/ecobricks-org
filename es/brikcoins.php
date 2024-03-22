@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='1.7';?>
+<?php $version='2.0';?>
 <?php $page='brikcoins';?>
 
 <?php require_once ("../includes/brikcoins2-inc.php");?>
