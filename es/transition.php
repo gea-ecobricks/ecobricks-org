@@ -5,7 +5,7 @@
 <META charset="UTF-8">
 <?php $lang='es';?>
 <?php $version='2.0';?>
-<?php $page='transition';?>
+<?php $page='transition';?>t
 
 <?php require_once ("../includes/transition2-inc.php");?>
 
@@ -14,10 +14,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Transition</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Our plastic is a portal out of the old grey world and into the green world for all, that we all long to see.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Transición Plástica</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Nuestro plástico es un portal fuera del viejo mundo gris y hacia el mundo verde para todos, que todos anhelamos ver.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/floating-dial-500px.webp" style="width: 100%;" alt="Plastic transition for all">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/floating-dial-500px.webp" style="width: 100%;" alt="Transición Plástica para todos">
     </div>	
 </div>
 <div id="splash-bar"></div>
