@@ -104,48 +104,8 @@ RewriteCond %{HTTP_HOST} ^www.ecoladrillo.org$
 RewriteRule (.*)$ https://ecoladrillo.org/es/$1 [R=301,L]
 </IfModule>
 
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/?(en|es|id|fr|pt|vi|fonts|wp-content|wp-includes|wp-admin|testing|pdfs|includes|menus|meta|icons|svgs|webp|pngs|photos|scripts|banners|logos|translations|indexes|briks|cash)/
-RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\.php|sitemap\.xml|sitemap-multilingual\.xml)$
-RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
-RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
-RewriteCond %{HTTP:Accept-Language} ^id [NC]
-RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
-RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
 
-RewriteRule (.*)$ https://ecobricks.org/id/$1 [R=301,L]
-</IfModule>
-
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/?(en|es|id|fr|pt|vi|fonts|wp-content|wp-includes|wp-admin|testing|pdfs|includes|menus|meta|icons|svgs|webp|pngs|photos|scripts|banners|logos|translations|indexes|briks|cash)/
-RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\.php|sitemap\.xml|sitemap-multilingual\.xml)$
-RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
-RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
-RewriteCond %{HTTP:Accept-Language} ^es [NC]
-RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
-RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
-
-
-
-RewriteRule (.*)$ https://ecobricks.org/es/$1 [R=301,L]
-</IfModule>
-
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/?(en|es|id|fr|pt|vi|fonts|wp-content|wp-includes|wp-admin|testing|pdfs|includes|menus|meta|icons|svgs|webp|pngs|photos|scripts|banners|logos|translations|indexes|briks|cash)/
-RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\.php|sitemap\.xml|sitemap-multilingual\.xml)$
-RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
-RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
-RewriteCond %{HTTP:Accept-Language} ^es [NC]
-RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
-RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
-
-
-
-RewriteRule (.*)$ https://ecobricks.org/fr/$1 [R=301,L]
-</IfModule>
+RedirectMatch "^/es/" "/es/welcome.php"
 
 
 # <IfModule mod_rewrite.c>
@@ -154,45 +114,89 @@ RewriteRule (.*)$ https://ecobricks.org/fr/$1 [R=301,L]
 # RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\.php|sitemap\.xml|sitemap-multilingual\.xml)$
 # RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
 # RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
-# RewriteCond %{HTTP:Accept-Language} ^en [NC]
+# RewriteCond %{HTTP:Accept-Language} ^id [NC]
+# RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
+# RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
+
+# RewriteRule (.*)$ https://ecobricks.org/id/$1 [R=301,L]
+# </IfModule>
+
+# <IfModule mod_rewrite.c>
+# RewriteEngine On
+# RewriteCond %{REQUEST_URI} !^/?(en|es|id|fr|pt|vi|fonts|wp-content|wp-includes|wp-admin|testing|pdfs|includes|menus|meta|icons|svgs|webp|pngs|photos|scripts|banners|logos|translations|indexes|briks|cash)/
+# RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\.php|sitemap\.xml|sitemap-multilingual\.xml)$
+# RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
+# RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
+# RewriteCond %{HTTP:Accept-Language} ^es [NC]
 # RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
 # RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
 
 
 
-# RewriteRule (.*)$ https://ecobricks.org/en/$1 [R=301,L]
+# RewriteRule (.*)$ https://ecobricks.org/es/$1 [R=301,L]
+# </IfModule>
+
+# <IfModule mod_rewrite.c>
+# RewriteEngine On
+# RewriteCond %{REQUEST_URI} !^/?(en|es|id|fr|pt|vi|fonts|wp-content|wp-includes|wp-admin|testing|pdfs|includes|menus|meta|icons|svgs|webp|pngs|photos|scripts|banners|logos|translations|indexes|briks|cash)/
+# RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\.php|sitemap\.xml|sitemap-multilingual\.xml)$
+# RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
+# RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
+# RewriteCond %{HTTP:Accept-Language} ^es [NC]
+# RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
+# RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
+
+
+
+# RewriteRule (.*)$ https://ecobricks.org/fr/$1 [R=301,L]
 # </IfModule>
 
 
+# # <IfModule mod_rewrite.c>
+# # RewriteEngine On
+# # RewriteCond %{REQUEST_URI} !^/?(en|es|id|fr|pt|vi|fonts|wp-content|wp-includes|wp-admin|testing|pdfs|includes|menus|meta|icons|svgs|webp|pngs|photos|scripts|banners|logos|translations|indexes|briks|cash)/
+# # RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\.php|sitemap\.xml|sitemap-multilingual\.xml)$
+# # RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
+# # RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
+# # RewriteCond %{HTTP:Accept-Language} ^en [NC]
+# # RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
+# # RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
 
 
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{REQUEST_URI} !\.(png|jpg|jpeg|gif|webp)$ [NC]
-    RewriteCond %{REQUEST_URI} !^/?(en|es|id|fr|pt|vi|fonts|wp-content|wp-includes|wp-admin|testing|pdfs|includes|menus|meta|icons|svgs|webp|pngs|photos|scripts|banners|logos|translations|indexes|briks|cash)/
-    RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\.php|sitemap\.xml|sitemap-multilingual\.xml)$
-    RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
-    RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
-    RewriteCond %{HTTP:Accept-Language} ^en [NC]
-    RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
-    RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
-    RewriteRule (.*)$ https://ecobricks.org/en/$1 [R=301,L]
-</IfModule>
+
+# # RewriteRule (.*)$ https://ecobricks.org/en/$1 [R=301,L]
+# # </IfModule>
 
 
-# ... copy block above for other languages ...
 
-RedirectMatch "^/en-francais/" "/en/"
 
-RedirectMatch "^/es/welcome.php" "/es/"
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+#     RewriteCond %{REQUEST_URI} !\.(png|jpg|jpeg|gif|webp)$ [NC]
+#     RewriteCond %{REQUEST_URI} !^/?(en|es|id|fr|pt|vi|fonts|wp-content|wp-includes|wp-admin|testing|pdfs|includes|menus|meta|icons|svgs|webp|pngs|photos|scripts|banners|logos|translations|indexes|briks|cash)/
+#     RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\.php|sitemap\.xml|sitemap-multilingual\.xml)$
+#     RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
+#     RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
+#     RewriteCond %{HTTP:Accept-Language} ^en [NC]
+#     RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
+#     RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
+#     RewriteRule (.*)$ https://ecobricks.org/en/$1 [R=301,L]
+# </IfModule>
 
-RedirectMatch "^/id/welcome.php" "/id/"
 
-RedirectMatch "^/fr/welcome.php" "/fr/"
+# # ... copy block above for other languages ...
 
-RedirectMatch "^/vi/welcome.php" "/vi/"
+# RedirectMatch "^/en-francais/" "/en/"
 
-RedirectMatch "^/pt/welcome.php" "/pt/"
+# RedirectMatch "^/es/welcome.php" "/es/"
+
+# RedirectMatch "^/id/welcome.php" "/id/"
+
+# RedirectMatch "^/fr/welcome.php" "/fr/"
+
+# RedirectMatch "^/vi/welcome.php" "/vi/"
+
+# RedirectMatch "^/pt/welcome.php" "/pt/"
 
 RedirectMatch "^/brikchain" "/en/brikchain.php?v2"
 
