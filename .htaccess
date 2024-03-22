@@ -105,8 +105,6 @@ RewriteRule (.*)$ https://ecoladrillo.org/es/$1 [R=301,L]
 </IfModule>
 
 
-RedirectMatch "^/es/" "/es/welcome.php"
-
 
 # <IfModule mod_rewrite.c>
 # RewriteEngine On
