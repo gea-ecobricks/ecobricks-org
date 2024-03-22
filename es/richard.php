@@ -2,7 +2,7 @@
 <HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='es';?>
+<?php $lang='en';?>
 <?php $version='2.0';?>
 <?php $page='richard';?>
 
