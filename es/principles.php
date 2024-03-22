@@ -13,10 +13,11 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Our Earthen Principles</div>
-		<div class="splash-sub" data-lang-id="002-splash-subtitle">Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Nuestros Principios Terrenales</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">El ecobrickeo está guiado por principios regenerativos que nos señalan hacia una armonía cada vez mayor con los ciclos de la Tierra.
+</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt" ><img src="../svgs/earth-home-animated-v4.svg" style="width:90%;" alt=" Our Earthen Principles embodied in an Earthen home construction"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt" ><img src="../svgs/earth-home-animated-v4.svg" style="width:90%;" alt=" Nuestros Principios Terrenales encarnados en una construcción de casa de Tierra"></div>	
 </div>
 <div id="splash-bar"></div>
 
