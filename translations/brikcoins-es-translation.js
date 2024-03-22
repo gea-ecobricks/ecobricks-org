@@ -17,12 +17,12 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const es_Page_Translations = {
 
-    "001-splash-title": "Brikcoins",
-  "002-splash-subtitle": "Une blockchain manuelle basée sur la preuve de valeur, fondée sur la séquestration du plastique hors de la biosphère.",
-  "004-lead-paragraph": "Basé sur la valeur écologique réelle, le blockchain manuel de Brikcoin dynamise notre transition du capital pétrolier vers un monde régénératif.",
-  "005-page-paragraph1": "Les Brikcoins (BRK / ß) sont générés par le travail humain et basés sur la valeur écologique.",
-  "006-page-paragraph2": "Plus que de simples nombres dans un registre, chaque brikcoin est directement corrélé au plastique qui a été sécurisé pour éviter de polluer la biosphère – et retiré de manière permanente des industries à fortes émissions. De la même manière que les anciennes pièces d'or et d'argent ont une valeur en elles-mêmes, les Brikcoins sont basés sur la valeur écologique qu'ils représentent.",
-  "007-page-paragraph3": "Nous appelons cela une <i>preuve de valeur, blockchain manuelle.</i>",
+  "001-splash-title": "Brikcoins",
+  "002-splash-subtitle": "Una cadena de bloques manual de prueba de valor basada en la secuestración de plástico de la biosfera.",
+  "004-lead-paragraph": "Basado en el valor ecológico del mundo real, la cadena de bloques manual de Brikcoin energiza nuestra transición petro-capitalista hacia un mundo regenerativo.",
+  "005-page-paragraph1": "Los Brikcoins (BRK / ß) son generados por el trabajo humano y se basan en el valor ecológico.",
+  "006-page-paragraph2": "Más que simples números en un libro de cuentas, cada Brikcoin se correlaciona directamente con plástico que ha sido asegurado de la biosfera contaminante, y eliminado permanentemente de las industrias de altas emisiones. De la misma manera que las antiguas monedas de oro y plata tienen un valor en sí mismas, los Brikcoins se basan en el valor ecológico que representan.",
+  "007-page-paragraph3": "Llamamos a esto una <i>cadena de bloques manual de prueba de valor.</i>",
 
   "008-header-ecological-value": "Valor Ecológico",
   "009-subheader-carbon-concentration": "Siguiendo el ejemplo de la Tierra en la concentración de carbono podemos generar un valor ecológico y utilitario auténtico.",
