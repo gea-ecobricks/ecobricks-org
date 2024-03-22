@@ -24,10 +24,13 @@ RewriteRule ^/?$ https://ecobricks.org/en/ [R=301,L]
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^ecoladrillo.org$ [OR]
-RewriteCond %{HTTP_HOST} ^www.ecoladrillo.org$
-RewriteRule (.*)$ https://ecoladrillo.org/es/$1 [R=301,L]
+
+# Redirect exact matches of ecoladrillo.org or ecoladrillo.org/ to /es/
+RewriteCond %{HTTP_HOST} ^(www\.)?ecoladrillo\.org$ [NC]
+RewriteRule ^/?$ https://ecoladrillo.org/es/ [R=301,L]
+
 </IfModule>
+
 
 
 <IfModule mod_rewrite.c>
