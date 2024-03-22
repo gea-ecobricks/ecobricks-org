@@ -2,7 +2,7 @@
 <HTML lang="es"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
+<?php $lang='es';?>
 <?php $version='2.01';?>
 <?php $page='spiral';?>
 <title>Las Módulos Ecoladrillo</title>
