@@ -9,7 +9,7 @@
 const en_Page_Translations = {
     
     "001-splash-title": "Ecobrick & Earth Building",
-    "splash-sub": "Build beautiful, strong, spiral, resilient and regenerative structures.",
+    "002-splash-sub": "Build beautiful, strong, spiral, resilient and regenerative structures.",
     "splash-image": '<img src="../svgs/tree-bench.svg" style="width: 85%">',
     "004-lead-page-paragraph": "Combining time-tested local building traditions with ecobricks, we can safely secure our plastic for the long-term in beautiful and functional earthen constructions.",
     "005-first-page-paragraph": "Earth and Ecobrick building methods are inspired by the natural building traditions of our ancestors. Countless cultures around the world have their ancestral traditions of working with the earth to build. Many of their structures have stood for centuries. Some for millenia! By adapting their ancient methods to our modern challenges, we can put our ecobricks to good and green use.",
