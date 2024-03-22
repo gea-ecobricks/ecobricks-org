@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='1.6';?>
+<?php $version='2.0';?>
 <?php $page='sequest';?>
 
 <title>Secuestro de plástico</title>
