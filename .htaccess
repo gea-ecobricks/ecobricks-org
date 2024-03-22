@@ -12,8 +12,13 @@ DirectoryIndex welcome.php index.php
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^ecobricks.org$ [OR]
-RewriteRule (.*)$ https://ecobricks.org/en/$1 [R=301,L]
+
+# Redirect exact matches of ecobricks.org or ecobricks.org/ to /en/
+RewriteCond %{HTTP_HOST} ^(www\.)?ecobricks\.org$ [NC]
+RewriteRule ^/?$ https://ecobricks.org/en/ [R=301,L]
+
+# Other rewrite conditions and rules go here...
+
 </IfModule>
 
 
