@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='2.0';?>
+<?php $version='2.01';?>
 <?php $page='build';?>
 
 
@@ -16,8 +16,8 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick Applications</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Practical & Principled Ecobrick Building</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Aplicaciones de Ecoladrillos</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Construcción práctica y principiada</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
     </div>	    
