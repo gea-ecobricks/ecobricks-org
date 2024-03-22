@@ -3,12 +3,12 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='2.00';?>
+<?php $version='2.01';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
 
-<title>Welcome to Ecobricks.org</title>
+<title>Bienvenida a ecoladrillos.org</title>
 
 
 <!-- 
