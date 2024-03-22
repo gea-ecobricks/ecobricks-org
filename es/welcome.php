@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="es"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='2.54';?>
+<?php $lang='es';?>
+<?php $version='2.00';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 

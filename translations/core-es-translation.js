@@ -72,8 +72,9 @@ const es_Translations = {
 
 "025-menu-3-sub-item-2": '<a href="earthwand.php">Varitas de la Tierra (Earthwands)</a><span class="circle" title="Esta página ha sido traducida al 100%" style="color:green;  ">●</span>',
 "026-menu-3-trans-text-2": "🇪🇸 earthwand.php ha sido traducido al 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earthwand-es-translation.js\" class=\"translate-link\">traducción ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/es/earthwand.php\" class=\"translate-link\">código ⇗</a>",
-"027-menu-3-sub-item-3": '<a href="transition.php">Transición Plástica</a><span class="circle" title="Esta página ha sido traducida al 50%" style="color:yellow;  ">●</span>',
-"028-menu-3-trans-text-3": "🇪🇸 transition.php ha sido traducido al 50% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/transition-es-translation.js\" class=\"translate-link\">traducción ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/es/transition.php\" class=\"translate-link\">código ⇗</a>",
+
+"027-menu-3-sub-item-3": '<a href="transition.php">Transición Plástica</a><span class="circle" title="Esta página ha sido traducida al 80%" style="color:yellowgreen;  ">●</span>',
+"028-menu-3-trans-text-3": "🇪🇸 transition.php ha sido traducido al 80% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/transition-es-translation.js\" class=\"translate-link\">traducción ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/es/transition.php\" class=\"translate-link\">código ⇗</a>",
 
 "029-menu-4-main-item": "Nuestros Principios",
 "030-menu-4-sub-item-1": '<a href="principles.php">Principios Terrestres y Regenerativos</a><span class="circle" title="Esta página ha sido traducida al 100%" style="color:green;  ">●</span>',

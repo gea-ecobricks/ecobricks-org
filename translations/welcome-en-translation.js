@@ -17,7 +17,7 @@ ENGLISH SNIPPETS FOR ECOBRICKS.ORG
 
 const en_Page_Translations = {
 
-      
+       
   /*Feature Content Slides*/
 
   '300-featured-content-1-title': 'Updated Guidelines',
