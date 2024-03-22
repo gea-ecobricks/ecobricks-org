@@ -13,13 +13,24 @@ DirectoryIndex welcome.php index.php
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-# Redirect exact matches of ecobricks.org or ecobricks.org/ to /en/
+# Redirect exact matches of ecobricks.org or ecobricks.org/ to appropriate language directories
+RewriteCond %{HTTP_HOST} ^(www\.)?ecobricks\.org$ [NC]
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule ^/?$ https://ecobricks.org/fr/ [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^(www\.)?ecobricks\.org$ [NC]
+RewriteCond %{HTTP:Accept-Language} ^id [NC]
+RewriteRule ^/?$ https://ecobricks.org/id/ [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^(www\.)?ecobricks\.org$ [NC]
+RewriteCond %{HTTP:Accept-Language} ^es [NC]
+RewriteRule ^/?$ https://ecoladrillo.org/es/ [R=301,L]
+
 RewriteCond %{HTTP_HOST} ^(www\.)?ecobricks\.org$ [NC]
 RewriteRule ^/?$ https://ecobricks.org/en/ [R=301,L]
 
-# Other rewrite conditions and rules go here...
-
 </IfModule>
+
 
 
 <IfModule mod_rewrite.c>
@@ -33,18 +44,18 @@ RewriteRule ^/?$ https://ecoladrillo.org/es/ [R=301,L]
 
 
 
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/?(en|es|id|fr|pt|vi|fonts|wp-content|wp-includes|wp-admin|testing|pdfs|includes|menus|meta|icons|svgs|webp|pngs|photos|scripts|banners|logos|translations|indexes|briks|cash)/
-RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\.php|sitemap\.xml|sitemap-multilingual\.xml)$
-RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
-RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
-RewriteCond %{HTTP:Accept-Language} ^id [NC]
-RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
-RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
+# <IfModule mod_rewrite.c>
+# RewriteEngine On
+# RewriteCond %{REQUEST_URI} !^/?(en|es|id|fr|pt|vi|fonts|wp-content|wp-includes|wp-admin|testing|pdfs|includes|menus|meta|icons|svgs|webp|pngs|photos|scripts|banners|logos|translations|indexes|briks|cash)/
+# RewriteCond %{REQUEST_URI} !^/(stylesheet-general\.css|arc-sw\.js|ecobricks_env\.php|sitemap\.xml|sitemap-multilingual\.xml)$
+# RewriteCond %{HTTP_HOST} ^www.ecobricks.org$ [OR]
+# RewriteCond %{HTTP_HOST} ^ecobricks.org$ 
+# RewriteCond %{HTTP:Accept-Language} ^id [NC]
+# RewriteCond %{REQUEST_URI} !\.(css)$ [NC]   # Exclude all .css files
+# RewriteCond %{REQUEST_URI} !\.(js)$ [NC]   # Exclude all .js files
 
-RewriteRule (.*)$ https://ecobricks.org/id/$1 [R=301,L]
-</IfModule>
+# RewriteRule (.*)$ https://ecobricks.org/id/$1 [R=301,L]
+# </IfModule>
 
 # <IfModule mod_rewrite.c>
 # RewriteEngine On
