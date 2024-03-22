@@ -6,6 +6,9 @@
 <?php $version='2.0';?>
 <?php $page='how';?>
 
+<title>Cómo hacer un Ecobrick</title>
+
+
 <?php require_once ("../includes/how-inc2.php");?>
 
 
