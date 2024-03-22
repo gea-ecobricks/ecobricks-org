@@ -229,7 +229,7 @@ Redirect /coeffecients /en/coefficients.php
 
 Redirect /richard /en/richard.php
 
-Redirect /es/richard /es/richards.php
+Redirect /es/richard.php /es/richards.php
 
 
 
