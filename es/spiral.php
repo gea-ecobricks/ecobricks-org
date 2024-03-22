@@ -5,7 +5,7 @@
 <?php $lang='es';?>
 <?php $version='2.01';?>
 <?php $page='spiral';?>
-<title>Las Módulos Ecoladrillo</title>
+<title>Diseño Espiral</title>
 
 <?php require_once ("../includes/spiral2-inc.php");?>
 
@@ -15,7 +15,7 @@
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-heading">Spiral Design</div>
-		<div class="splash-sub" data-lang-id="002-splash-sub">Ecobricking and all ecobrick applications are guided by the Earthen principle of enriching cycles.</div>
+		<div class="splash-sub" data-lang-id="002-splash-sub">El ecobricking y todas las aplicaciones de ecobricks están guiadas por el principio terrestre de enriquecer ciclos.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/spiral-design-white3.svg" style="width: 85%;" alt="Desain Spiral"></div>
 </div>

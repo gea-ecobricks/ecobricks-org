@@ -5,7 +5,7 @@
 
 -----------------------------------*/
 
-
+ 
 const es_Page_Translations = {
     
     "001-splash-heading": "Diseño Espiral",
