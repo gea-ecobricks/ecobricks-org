@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="es"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
+<?php $lang='es';?>
 <?php $version='1.84';?>
 <?php $page='principles';?>
  
