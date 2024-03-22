@@ -9,7 +9,7 @@ EN SNIPPETS FOR ECOBRICKS.ORG / MEDIA
 
 const es_Page_Translations = {
 
-    "001-splash-title": "Kit de Medios de Ecobrick",
+    "001-splash-title": "Carpeta de prensa",
     "002-splash-subtitle": "Una guía corta para informar sobre ecobricks y el movimiento de transición del plástico.",
     "003-splash-alt": '<img src="../webp/earthcenter-banner-400px.webp" style="width: 76%;">',
     "004-lead-page-paragraph": "¿Cubres los ecobricks? Hemos reunido esta guía para evitar malentendidos sobre los ecobricks, utilizando terminología generalmente aceptada y atribuyendo nuestro contenido para ayudarte con tu historia.",
