@@ -101,7 +101,7 @@ DirectoryIndex welcome.php index.php
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^ecoladrillo.org$ [OR]
 RewriteCond %{HTTP_HOST} ^www.ecoladrillo.org$
-RewriteRule (.*)$ https://ecoladrillo.org/$1 [R=301,L]
+RewriteRule (.*)$ https://ecoladrillo.org/es/$1 [R=301,L]
 </IfModule>
 
 <IfModule mod_rewrite.c>
