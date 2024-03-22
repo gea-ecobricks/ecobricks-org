@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.93';?>
+<?php $version='2.0';?>
 <?php $page='regenreports';?>
  
 <?php require_once ("../includes/regenreports2-inc.php");?>

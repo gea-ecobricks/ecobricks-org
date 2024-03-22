@@ -6,6 +6,9 @@
 <?php $lang='es';?>
 <?php $version='2.0';?>
 <?php $page='principles';?>
+<title>Nuestros Principios Terrenales</title>
+
+
 
 <?php require_once ("../includes/principles-inc2.php");?>
 
