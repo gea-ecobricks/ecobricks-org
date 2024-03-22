@@ -19,8 +19,8 @@
 
  <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Plastic Sequestration</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">By following the Earth’s example of carbon care we can keep our plastic safe and secure out the biosphere and out of industry.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Secuestro de plástico</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Si seguimos el ejemplo de la Tierra en materia de cuidado del carbono, podemos mantener nuestro plástico seguro y fuera de la biosfera y fuera de la industria.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="By following the Earth’s example of carbon care we can keep our plastic safe and secure out the biosphere and out of industry">
     </div>	
