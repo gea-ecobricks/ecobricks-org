@@ -3,12 +3,12 @@
 ENGLISH SNIPPETS FOR ECOBRICKS.ORG/MODULES.PHP
 
 
------------------------------------*/
+-----------------------------------*/ 
 
 
 const es_Page_Translations = {
     
-    "001-splash-title": "Módulos Milsten de Ecobrick",
+    "001-splash-title": "Las Módulos Ecoladrillo",
     "002-splash-subtitle": "Construye muebles modulares simples, fáciles y asombrosos",
     "003-splash-image-alt": '<img src="../pngs/Feature-Floating-Module-500px.png" style="width: 85%" alt="Muebles modulares simples, fáciles y asombrosos con módulos hexagonales de ecobrick Milsten">',
     "004-lead-page-paragraph": "Los módulos hexagonales y triangulares de Milsten encajan para construir muebles simples y prácticos a partir de tus ecobricks. ¡Todo lo que necesitas es una docena para empezar!",

@@ -6,14 +6,16 @@
 <?php $version='2.0';?>
 <?php $page='modules';?>
 
+<title>Las Módulos Ecoladrillo</title>
+
 <?php require_once ("../includes/modules2-inc.php");?>
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Milstein Modules</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Build simple, easy and awesome modular furniture</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Las Módulos Ecoladrillo</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Construye muebles modulares simples, fáciles y asombrosos</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../pngs/Feature-Floating-Module-500px.png" style="width: 85%" alt="Furnitur modular sederhana, mudah, dan luar biasa dengan modul hexagonal ecobrick milstein">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../pngs/Feature-Floating-Module-500px.png" style="width: 85%" alt="Construye muebles modulares simples, fáciles y asombrosos">
     </div>	
 </div>
 <div id="splash-bar"></div>
