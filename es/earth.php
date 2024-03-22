@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="es"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='1.82';?>
+<?php $lang='es';?>
+<?php $version='2.0';?>
 <?php $page='earth';?>
  
 <title>Earth & Ecobrick Building</title>
