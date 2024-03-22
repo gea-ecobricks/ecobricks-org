@@ -16,7 +16,9 @@
 <STYLE>
 
 
-
+img {
+  max-width: 100%;
+}
 
 #play-button {
     width: 60px;
