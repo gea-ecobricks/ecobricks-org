@@ -1,29 +1,29 @@
-<!--PAGE LANGUAGE:  ESPANOL
-Content Page template: v.1.0.1-->
-  
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/catalyst-inc.php");?>
+<!DOCTYPE html>
+<HTML lang="es"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='es';?>
+<?php $version='1.644';?>
+<?php $page='build';?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<?php require_once ("translate-please.php");?>
+
+<?php require_once ("../includes/catalyst-inc.php");?>
 
 <!--PAGE BANNER-->
 
 	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">Un programa para que las empresas ecológicas rastreen, divulguen y aceleren su transición al plástico.</div>
-		<!--<div class="splash-sub">A Solution For Plastic transition</div>-->
+		<div class="splash-heading">Catalyst Program</div>
+		<div class="splash-sub">Track, disclose & accelerate your enterprise's plastic transition.</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/pngs/catalyst-logo-500px.png" style="width: 70%;"></div>	
+	<div class="splash-image"><img src="../pngs/catalyst-logo-500px.png" style="width: 70%;"></div>	
 </div>
 <div id="splash-bar"></div>
 
 
 <!-- PAGE CONTENT-->
 
-<a name="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -32,22 +32,22 @@ Content Page template: v.1.0.1-->
 
 			<div class="lead-page-paragraph">
 				
-			<p>La forma en que una empresa gestiona su plástico es uno de sus indicadores ecológicos clave más reveladores.</p>
+			<p>The way in which an Enterprise manages its plastic is one of its most telling Key Green Indicators (KGI).</p>
 			</div>
 
-			<div class="página-párrafo">
-			<p>Vivimos en la era de la transición de los combustibles fósiles. Como subproducto del petróleo, la forma en que su empresa gestiona su plástico es un indicador revelador de dónde se encuentra en el viaje para alejarse de la dependencia de los combustibles fósiles. Ya sea que su empresa se reduzca a cero desperdicio o se acelere hacia una red ecológica, solo hay una forma de predicar verdaderamente con el ejemplo y marcar una diferencia definitiva: <i>Seguimiento y divulgación de plástico.</i><p>
+			<div class="page-paragraph">
+				<p>We live in the age of fossil fuel transition.  As petroleum by-product, how your enterprise manages its plastic is an telling indicator of where it is in the journey away from fossil fuel dependence.  Whether your enterprise is reducing down to zero-waste or accelerating up into net-green, there's only one way to truly lead by example and make a definitive difference: <i>Plastic tracking and disclosure.</i><p> 
 
-			<p>Desarrollado durante los últimos tres años con más de una docena de empresas pequeñas y grandes, desde Suecia hasta Indonesia, nuestro programa Catalyst permite a las empresas hacer precisamente esto. ¡Y más!</p>
-
-			<p>Usando un algoritmo de estimación automatizado, el seguimiento anual de plástico de su empresa se puede configurar en 15 minutos. Luego, a lo largo del año, mejore sus informes mientras aumenta sus impactos ecológicos. Todo su ecobricking, compensación y participación comunitaria se acreditan automáticamente a su cuenta a través de la cadena de bloques <a href="brikcoins">brikcoin</a>.</p>
-
-			<p>Mientras tanto, se generan informes automáticos en vivo y anuales que resumen su impacto neto. De esta manera, puede divulgar su transición plástica de manera profesional y pública en nuestra plataforma de terceros para inspirar a otros con sus esfuerzos, coraje y transparencia.</p>
-
-			<p>Juntos podemos catalizar la <a href="transition">transición plástica</a> en nuestras comunidades locales y globales.</p>
-			<br><br>
-			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Inicie la configuración de Catalyst</a>
-			<p style="font-size: 0.85em; margin-top:20px;">Te enviaremos a GoBrik en una nueva ventana.</a></p>
+				<p>Developed over the last three years with over a dozen companies small and large, from Sweden to Indonesia, our Catalyst program, allows enterprises to do just this.  And more!</p>
+				
+				<p>Using an automated estimation algorythm, your enterprise's annual plastic tracking can be setup in 15 minutes.  Then, over the year, improve your reporting while increasing your green impacts. All your ecobricking, offsetting and community engagement are automatically credited to your account through the <a href="brikcoins.php">brikcoin</a> manual blockchain.</p>
+					
+				<p>Meanwhile, automatic live and yearly reports are generated summarizing your net impact.  This way you can disclose your plastic transition professionaly and publicly on our third-party platform to inspire others with your efforts, courage and transparency.</p>
+					
+				<p>Together we can catalyze <a href="transition.php">plastic transition</a> in our local and global communities.</p>
+				<!-- <br><br>
+				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
+			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window.</a></p> -->
 
 			</div>	
 
@@ -77,7 +77,7 @@ Content Page template: v.1.0.1-->
 
 					<div class="row2">
 						<div class="main3">
-						<br><p><b>Get started in 15 minutes</b></p>
+						<br><h4>Get started in 15 minutes</h4>
 					
 						</div>
 						<div class="side3"><img src="../webp/balancing-green.webp" width="125px" loading="lazy">
@@ -86,9 +86,13 @@ Content Page template: v.1.0.1-->
 					<p>The Catalyst program gets you going in no time using a process of estimation refinement. As an owner, manager of president of your enterprise you can estimate better than anyone else how much plastic you are currently using.</p>
 					<p>
 					Month by month, you and your team will receive Plastic Transition reports.  These reports will remind you and your team to step up their reduction and subtraction initiatives.  As you put attention on your plastic you can refine your estimates.</p>
-					<br><p><b>Detailed Tracking</b></p>
+
+					<br><h4>Detailed Tracking</h4>
+
 				<p>Once your enterprise has established systems for detailed plastic tracking and weighing, you can enabled month by month data entry.  Managers can observe the enterprise's plastic transition charted over the year. </p>
-				<br><p><b>Reaching out to communities</b></p>
+
+				<br><h4>Reaching out to communities</h4>
+
 				<p>By catalyzing ecobrick workshops in communities, you can gain credit for the ecobricks made by participants.  Over the course of the year, our system can track in real time the social increase of your green impact.</p>
 						
 				</div>	
@@ -114,12 +118,12 @@ Content Page template: v.1.0.1-->
 
 					
 
-					<div class="row">
+					
 						
-						<p><b>Automated Reporting</b></p>
+						<h4>Automated Reporting</h4>
 						<p>The Catalyst program allows you to create yearly plastic impact reports that summarize your grey and green impacts.  As a third-party host, we certify your AES plastic impacts so that you can confidently share them with your customers, clients and in government sustainability reviews.</p>
 						
-					</div>
+					
 
 
 
@@ -127,7 +131,7 @@ Content Page template: v.1.0.1-->
 
 					<div class="row2">
 						<div class="main3">
-						<br><p><b>Public Disclosure</b></p>
+						<br><h4>Public Disclosure</h4>
 						
 						</div>
 						<div class="side3"><img src="../pngs/disclosedial.png" width="150px" alt="ecological accounting score" loading="lazy">
@@ -136,7 +140,7 @@ Content Page template: v.1.0.1-->
 					
 					<p>Showcase your plastic transition with our GEA certified banners on your website, products and marketing.  Link to your reports and showcase your plastic transition.  Like this...</p><br>
 					<p>
-					<img src="https://www.ecobricks.org/banners/gea-disclose-300px.png" width="250px"></p>
+					<img src="../banners/gea-disclose-300px.png" width="250px"></p>
 				</div>
 			</div>
 
@@ -172,11 +176,15 @@ Content Page template: v.1.0.1-->
 					</div>
 			
 
-					<p><b>Ecobricking</b></p>
+					<h4>Ecobricking</h4>
 						<p>Ecobricks logged by the staff in your company, then which are successfully authenticated on the Brikcoin blockchain, qualify as AES plastic.</p><br>
-					<p><b>Plastic Offsetting</b></p>
+
+					<h4>Plastic Offsetting</h4>
+
 					<p>Your enterprise can purchase plastic offset credit on the GoBrik platform using Brikcoins or cash, to credit you year end reporting.</p><br>
-					<p><b>Community Catalyzation</b></p>
+
+					<h4>Community Catalyzation</h4>
+
 					<p>By sponsoring workshops in your community, the ecobricks of new ecobrickers are credited to your enterprise.  By sponsoring GEA training of trainers workshops, the future trainers in these events, their ecobrickers and the communities they start, generate AES credits for your enterprise.
 					</p>
 					<h6><a href="/trainings">Learn more about GEA Trainings</a></h6><br>
@@ -199,17 +207,18 @@ Content Page template: v.1.0.1-->
 				</div>
 
 				<div id="preclosed4">
-					
-					<p><b>The Global Ecobrick Alliance</b> </p>
+					<br>
+					<h4>The Global Ecobrick Alliance</h4>
+
 					<p>We're an enterprise too!  And despite all our best efforts, we consume and produce plastic in our operations.  We use the catalyst program to track, disclose and accelerate our plastic impacts.  In the footer of our site and apps, we link to our public, past year reporting-- just click on this banner to see how we're doing:</p><br><p>
 					
-						<a href="https://www.gobrik.com/#my-catalyst/2021-report/5e1f513586a7fe0015e77628/" target="_blank"><img src="banners/762-disclose-light-350px.png"></a>
+						<a href="https://www.gobrik.com/#my-catalyst/2021-report/5e1f513586a7fe0015e77628/" target="_blank"><img src="../banners/762-disclose-light-350px.png"></a>
 					<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
 					<br>
 					<p><b>Ubud Raw Chocoloate</b> </p>
 					<p>These guys make amazing chocoloate in Bali, Indonesia.  They are also super keen to transition from plastic! They use the Catalyst program to monitor their monthly consumption of plastic from their suppliers, to the plastic they use for their product packaging.  In 2021 they attained 105% zero-waste!</p><br><p>
 					
-						<a href="https://www.gobrik.com/#my-catalyst/2021-report/5b8c2b0922ddfb2591bf67be/" target="_blank"><img src="banners/100-disclose-light-350px.png"></a>
+						<a href="https://www.gobrik.com/#my-catalyst/2021-report/5b8c2b0922ddfb2591bf67be/" target="_blank"><img src="../banners/100-disclose-light-350px.png"></a>
 					<p style="font-size: 0.85em; margin-top:8px;">This will open our report in a new window.</a></p>
 					<br>
 			
@@ -225,7 +234,7 @@ Content Page template: v.1.0.1-->
 			<h2>Get Started!</h2>
 			<p>Setup your Catalyst account today.  Use your GoBrik account to get started.  If you don't have a GoBrik account yet, be sure to register first for a free personal account.</p>
 			<br><br>
-			<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
+			<a class="action-btn" href="https://gobrik.com/en/go.php#catalyze" target="_blank">🚀 Launch Catalyst Setup</a>
 			<p style="font-size: 0.85em; margin-top:20px;">We'll send you over to GoBrik in a new window!</a></p>
 		</div>
 		
@@ -237,31 +246,24 @@ Content Page template: v.1.0.1-->
 		<div class="side">
 
 
-			
-		<div id="side-module-desktop-only">
+		
+
+		<div class="side-module-desktop-only">
 			
 			
 				<h4>Get Started</h4>
 				<h5>Use a free Catalyst Account to ignite your plastic transition.</h5><br>
-				<a class="action-btn" href="https://gobrik.com/#catalyze" target="_blank">🚀 Launch</a><br><br>
+				<a class="action-btn" href="https://gobrik.com/en/go.php#catalyze" target="_blank">🚀 Launch</a><br><br>
 			</div>
 
-	
-			<div id="side-module-desktop-mobile">
-				<img src="../webp/gea-logo-400px.webp" width="90%">
-				<h4>Global Ecobrick Alliance</h4>
-				<h5>The GEA is dedicated to accelerating plastic transition.  We preside over the GoBrik app and the Brikcoin blockchain.</h5><br>
-				<a class="module-btn" href="about.php">About Us</a>
-			</div>
+			<?php require_once ("side-modules/about-gea.php");?>
 
-			<div id="side-module-desktop-mobile">
-				<img src="../webp/for-earth500px.webp" width="80%">
-				<h4>For-Earth Enterprise</h4>
-				<h5>By discolosing our carbon, plastic and biodiversity impacts and by ensuring that they are net-green, the GEA commits to for-Earth Enterprise</h5><br>
-				<a class="module-btn" href="2021-regen-report.php">Learn More</a>
-			</div>
 
-			<div id="side-module-desktop-mobile">
+			<?php require_once ("side-modules/transition-module.php");?>
+
+		
+
+			<div class="side-module-desktop-mobile">
 				<img src="../webp/balancing-green.webp" width="80%">
 				<h4>Plastic Offsetting</h4>
 				<h5>Our Catalyst Program allows you to offset your plastic generation and support the global ecobrick movement.</h5><br>
@@ -275,18 +277,22 @@ Content Page template: v.1.0.1-->
 
 
 
+	
+
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
 
+<!-- This script is for pages that use the accordion content system-->
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
+</article>
 </body>
 </html>
+
 

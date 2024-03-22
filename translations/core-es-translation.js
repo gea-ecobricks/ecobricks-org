@@ -45,7 +45,7 @@ const es_Translations = {
     /*BUILD*/
 
     "007-menu-2-main-item": "Construcción",
-    "008-menu-2-sub-item-1": '<a href="build.php">Aplicaciones de Ecobricks</a><span class="circle" title="Esta página ha sido traducida al 10%" style="color:yellow;  ">●</span>',
+    "008-menu-2-sub-item-1": '<a href="build.php">Aplicaciones de Ecobricks</a><span class="circle" title="Esta página ha sido traducida al 60%" style="color:yellow;  ">●</span>',
     "009-menu-2-trans-text-1": "🇪🇸 build.php ha sido traducido al 10% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/build-es-translation.js\" class=\"translate-link\">traducción ⇗ | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/es/build.php\" class=\"translate-link\">código ⇗</a>",
     
     "010-menu-2-sub-item-2": '<a href="modules.php">Módulos Milstein</a><span class="circle" title="Esta página ha sido traducida al 10%" style="color:yellow;  ">●</span>',
