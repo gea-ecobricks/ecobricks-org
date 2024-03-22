@@ -5,15 +5,18 @@
 <?php $lang='es';?>
 <?php $version='2.0';?>
 <?php $page='regenreports';?>
+
+<title>Nuestra Contabilidad Ecológica</title>
+
  
 <?php require_once ("../includes/regenreports2-inc.php");?>
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Our Ecological Accounting</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">The GEA's annual plastic, carbon & biodiversity impacts.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Nuestra Contabilidad Ecológica</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Divulgación pública de los impactos anuales en plástico, carbono y biodiversidad de la Alianza Global de Ecoladrillos.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/balance-glow-500px.webp" style="width: 85%" alt="Akuntansi ekologis keseimbangan abu-abu dan hijau">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/balance-glow-500px.webp" style="width: 85%" alt="Equilibrio ecológico en gris y verde">
     </div>	
 </div>
 <div id="splash-bar"></div>
