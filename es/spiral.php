@@ -14,10 +14,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-heading">Spiral Design</div>
+		<div class="splash-heading" data-lang-id="001-splash-heading">Diseño Espiral</div>
 		<div class="splash-sub" data-lang-id="002-splash-sub">El ecobricking y todas las aplicaciones de ecobricks están guiadas por el principio terrestre de enriquecer ciclos.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/spiral-design-white3.svg" style="width: 85%;" alt="Desain Spiral"></div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/spiral-design-white3.svg" style="width: 85%;" alt="Icon Desain Spiral"></div>
 </div>
 <div id="splash-bar"></div>
 
