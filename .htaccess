@@ -229,6 +229,9 @@ Redirect /coeffecients /en/coefficients.php
 
 Redirect /richard /en/richard.php
 
+Redirect /es/richard /es/richards.php
+
+
 
 RedirectMatch "^/symposium\/?$" "/en/symposium.php"
 
