@@ -546,6 +546,14 @@ window.onload = function() {
         </div> -->
 
         <div class="submenu-item-container">
+            <div class="submenu-item" >
+                <a href="media.php">Press Kit</a>
+                <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
+            </div>
+            <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">🏴󠁧󠁢󠁥󠁮󠁧󠁿 media.php has been translated 100%</div>
+        </div>
+
+        <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="006-menu-1-sub-item-4">
                 <a href="/plastic" >Plastic’s Long Story</a>
                 <span class="circle" title="This page is 100% translated to English but in our non-git format.  Migration in progress" style="color:yellow;  ">●</span>
