@@ -4,7 +4,7 @@
 <META charset="UTF-8">
 <?php $lang='es';?>
 <?php $version='2.1';?>
-<?php $page='earthwand';?>
+<?php $page='earth-wands';?>
 
 <?php require_once ("../includes/earthwand-inc.php");?>
 
