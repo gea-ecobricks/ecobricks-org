@@ -48,32 +48,32 @@ function closeTour() {
   }
 
   // Set the onclick function for the first "Next" button to show the second "information" element
-  document.querySelector(".next:first-of-type").onclick = function() {
+  document.querySelector(".next-slide:first-of-type").onclick = function() {
     showInfo(1);
   };
 
   // Set the onclick function for the second "Next" button to show the third "information" element
-  document.querySelector("#information-two .next").onclick = function() {
+  document.querySelector("#information-two .next-slide").onclick = function() {
     showInfo(2);
   };
 
   // Set the onclick function for the third "Next" button to show the fourth "information" element
-  document.querySelector("#information-three .next").onclick = function() {
+  document.querySelector("#information-three .next-slide").onclick = function() {
     showInfo(3);
   };
 
   // Set the onclick function for the fourth "Next" button to show the fifth "information" element
-  document.querySelector("#information-four .next").onclick = function() {
+  document.querySelector("#information-four .next-slide").onclick = function() {
     showInfo(4);
   };
 
     // Set the onclick function for the fith "Next" button to show the six "information" element
-    document.querySelector("#information-five .next").onclick = function() {
+    document.querySelector("#information-five .next-slide").onclick = function() {
       showInfo(5);
     };
 
   // Set the onclick function for the fifth "Next" button to hide the modal and remove the "blur" class from the page content
-  // document.querySelector("#information-six .next").onclick = function() {
+  // document.querySelector("#information-six .next-slide").onclick = function() {
   //   modal.style.display = "none";
   //   document.getElementById("page-content").classList.remove("blur");
   //   showInfo(0);
