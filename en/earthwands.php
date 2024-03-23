@@ -17,7 +17,7 @@
  <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Earthwands</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Membuat plastik Anda menghilang</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Make your plastic disapear</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/earthwand-shadow.svg" style="width: 85%" alt="EarthWand adalah produk regeneratif yang dirancang dari awal untuk menjadi alat pembungkus plastik dan pembuat ecobrick yang sempurna.">
     </div>	
