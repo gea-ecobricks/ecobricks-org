@@ -3,12 +3,12 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.74';?>
-<?php $page='earthwand';?>
+<?php $version='2';?>
+<?php $page='earth-wands';?>
 
 <?php require_once ("../includes/earthwand-inc.php");?>
 
-<article id="sequest-with-ecobricks">
+<article id="le-earthwand">
 
 
 <!--PAGE BANNER-->
