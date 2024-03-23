@@ -109,7 +109,7 @@ window.onload = function() {
 </script> -->
 
 
-<script src="../guided-tour.js?v=1.2" defer></script>
+<script src="../guided-tour.js?v=1.3" defer></script>
 
 <script src="../site-search.js?v=6" defer></script>
 
