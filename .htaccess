@@ -354,6 +354,8 @@ RedirectMatch "^/en/offsetting.php" "/en/offsets.php"
 
 RewriteRule ^(.*)earthwand$ /$1earthwands.php [R=301,L]
 RedirectMatch "^/earthwand/" "/en/earthwands.php"
+RedirectMatch "^/earthwands/" "/en/earthwands.php"
+
 RedirectMatch "^/earthwand.php/" "/earthwands.php"
 
 
