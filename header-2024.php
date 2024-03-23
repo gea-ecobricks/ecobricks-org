@@ -545,13 +545,6 @@ window.onload = function() {
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /ocean has been translated 100% | migration to new git site pending</div>
         </div> -->
 
-        <div class="submenu-item-container">
-            <div class="submenu-item" >
-                <a href="media.php">Press Kit</a>
-                <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
-            </div>
-            <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">🏴󠁧󠁢󠁥󠁮󠁧󠁿 media.php has been translated 100%</div>
-        </div>
 
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="006-menu-1-sub-item-4">
@@ -560,6 +553,16 @@ window.onload = function() {
             </div>
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-4">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /plastic has been translated 100% | migration to new git site in progress!</div>
         </div>
+
+
+        <div class="submenu-item-container">
+            <div class="submenu-item" >
+                <a href="media.php">Press Kit</a>
+                <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
+            </div>
+            <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">🏴󠁧󠁢󠁥󠁮󠁧󠁿 media.php has been translated 100%</div>
+        </div>
+
     </div>
 </div>
 
@@ -585,13 +588,13 @@ window.onload = function() {
     </div>
 
     <!-- Dieleman modules -->
-    <div class="submenu-item-container">
+    <!-- <div class="submenu-item-container">
       <div class="submenu-item" data-lang-id="020-menu-2-sub-item-7">
         <a href="/dms">Dieleman modules</a>
         <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
       </div>
       <div class="translation-info" data-lang-id="021-menu-2-trans-text-7">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /earth-methods has been translated 100% | migration to new git site pending</div>
-    </div>
+    </div> -->
 
     <div class="submenu-item-container">
       <div class="submenu-item" data-lang-id="012-menu-2-sub-item-3">
@@ -601,22 +604,22 @@ window.onload = function() {
       <div class="translation-info" data-lang-id="013-menu-2-trans-text-3">earth.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-fr-translation.js" class="translate-link">help edit ⇗</a></div>
     </div>
 
-    <div class="submenu-item-container">
+    <!-- <div class="submenu-item-container">
       <div class="submenu-item" data-lang-id="014-menu-2-sub-item-4">
           <a href="/earth-methods">Earth Building Methods</a>
           <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
       </div>
       <div class="translation-info" data-lang-id="015-menu-2-trans-text-4">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /earth-methods has been translated 100% | migration to new git site pending</div>
-   </div>
+   </div> -->
        
     <!-- Open spaces -->
-    <div class="submenu-item-container">
+    <!-- <div class="submenu-item-container">
         <div class="submenu-item" data-lang-id="018-menu-2-sub-item-6">
             <a href="/open-spaces">Open spaces</a>
             <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
         </div>
         <div class="translation-info" data-lang-id="019-menu-2-trans-text-6">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /open-spaces has been translated 100% | migration to new git site pending</div>
-    </div>
+    </div> -->
 
 
     <!-- Fire Safety -->

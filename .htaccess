@@ -343,6 +343,10 @@ RedirectMatch "^/spirals" "/en/spiral.php"
 RedirectMatch "^/cyclical" "/en/spiral.php"
 
 RedirectMatch "^/id/spiral.php" "/id/desain-spiral.php"
+RedirectMatch "^/id/earthwands.php" "/id/earth-wands.php"
+RedirectMatch "^/es/earthwands.php" "/es/earth-wands.php"
+
+
 
 
 
