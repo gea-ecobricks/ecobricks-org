@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='2.0';?>
+<?php $version='2.1';?>
 <?php $page='earthwand';?>
 
 <?php require_once ("../includes/earthwand-inc.php");?>
