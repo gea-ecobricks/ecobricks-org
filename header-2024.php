@@ -527,23 +527,24 @@ window.onload = function() {
         </div>
 
      <!-- Cigbricks -->
-<!-- 
-        <div class="submenu-item-container">
+
+        <!-- <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="004-menu-1-sub-item-2">
                 <a href="/cigbricks">Cigbricks</a>
                 <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
             </div>
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-2">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /cigbricks has been translated 100% | migration to new git site pending</div>
-        </div>
+        </div> -->
 
-
+<!-- 
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="004-menu-1-sub-item-3">
                 <a href="/ocean">Ocean Ecobricks</a>
                 <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
             </div>
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /ocean has been translated 100% | migration to new git site pending</div>
-        </div>
+        </div> -->
+
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="006-menu-1-sub-item-4">
                 <a href="/plastic" >Plastic’s Long Story</a>
@@ -552,7 +553,7 @@ window.onload = function() {
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-4">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /plastic has been translated 100% | migration to new git site in progress!</div>
         </div>
     </div>
-</div> -->
+</div>
 
 <!-- Building -->
 <div class="accordion-item">
@@ -592,32 +593,32 @@ window.onload = function() {
       <div class="translation-info" data-lang-id="013-menu-2-trans-text-3">earth.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-fr-translation.js" class="translate-link">help edit ⇗</a></div>
     </div>
 
-    <!-- <div class="submenu-item-container">
+    <div class="submenu-item-container">
       <div class="submenu-item" data-lang-id="014-menu-2-sub-item-4">
           <a href="/earth-methods">Earth Building Methods</a>
           <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
       </div>
       <div class="translation-info" data-lang-id="015-menu-2-trans-text-4">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /earth-methods has been translated 100% | migration to new git site pending</div>
-   </div> -->
+   </div>
        
     <!-- Open spaces -->
-    <!-- <div class="submenu-item-container">
+    <div class="submenu-item-container">
         <div class="submenu-item" data-lang-id="018-menu-2-sub-item-6">
             <a href="/open-spaces">Open spaces</a>
             <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
         </div>
         <div class="translation-info" data-lang-id="019-menu-2-trans-text-6">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /open-spaces has been translated 100% | migration to new git site pending</div>
-    </div> -->
+    </div>
 
 
     <!-- Fire Safety -->
-    <!-- <div class="submenu-item-container">
+    <div class="submenu-item-container">
         <div class="submenu-item" data-lang-id="016-menu-2-sub-item-5">
             <a href="/fire">Fire Safety</a>
             <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
         </div>
         <div class="translation-info" data-lang-id="017-menu-2-trans-text-5">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /fire has been translated 100% | migration to new git site pending</div>
-    </div> -->
+    </div>
 </div>
 </div>
 
