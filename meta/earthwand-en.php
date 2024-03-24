@@ -8,7 +8,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/en/earthwand.php">
+	<meta property="og:url"           content="https://ecobricks.org/en/earth-wands.php">
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="The Earthwand">
   	<meta property="og:description"   content="Make your plastic disapear with the ultimate ecobricking tool.">

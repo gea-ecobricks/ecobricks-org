@@ -14,7 +14,7 @@
 		<div class="splash-heading">Top Diez Mensual</div>
 	    <div class="splash-sub">Cada mes, miles de ecobricks son registrados por ecobrickers de todo el mundo.</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/pngs/gobriktrophy.png" style="width: 55%" alt="Ecobrick Top Ten of the Month Trophy">
+	<div class="splash-image"><img src="../pngs/gobriktrophy.png" style="width: 55%" alt="Ecobrick Top Ten of the Month Trophy">
     <!--https://ecobricks.org/svgs/eb-blue-no-clouds.svg-->
     </div>	
 </div>

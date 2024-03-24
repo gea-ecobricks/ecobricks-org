@@ -8,7 +8,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/id/earthwand.php">
+	<meta property="og:url"           content="https://ecobricks.org/id/earth-wands.php">
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Tongkat Earthwand">
   	<meta property="og:description"   content="Membuat plastik Anda menghilang">

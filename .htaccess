@@ -375,9 +375,11 @@ RedirectMatch "^/offsetting.php" "/en/offsets.php"
 RedirectMatch "^/en/offsetting.php" "/en/offsets.php"
 
 
+ErrorDocument 404 /en/404.php
 
+ErrorDocument 400 /en/404.php
 
-
+ErrorDocument 401 /en/404.php
 
 
 
