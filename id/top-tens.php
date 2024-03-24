@@ -28,7 +28,7 @@
 		<div class="main">
 
 			<div class="lead-page-paragraph">
-				<p>Setiap bulan kami menampilkan ecobrick yang menerima skor autentikasi tertinggi dari komunitas ecobrick global di<a href="gobrik">GoBrik</a> app.</p>
+				<p>Setiap bulan kami menampilkan ecobrick yang menerima skor autentikasi tertinggi dari komunitas ecobrick global di <a href="gobrik">GoBrik</a> app.</p>
 			</div>
 	
 			<div class="page-paragraph">
@@ -36,7 +36,7 @@
                 
             </div>	
 
-            <?php include 'ecobricks_env.php';?> 
+            <?php include '../ecobricks_env.php';?> 
 
             
             
