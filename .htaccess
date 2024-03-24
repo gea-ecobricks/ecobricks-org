@@ -97,7 +97,7 @@ RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
 
 
 
-DirectoryIndex welcome.php
+DirectoryIndex welcome.php index.php
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -116,7 +116,7 @@ RewriteCond %{HTTP:Accept-Language} ^es [NC]
 RewriteRule ^/?$ https://ecoladrillo.org/es/ [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^(www\.)?ecobricks\.org$ [NC]
-RewriteRule ^/?$ https://ecobricks.org/en/ [R=301,L]
+RewriteRule ^/?$ https://ecobricks.org/en/welcome.php [R=301,L]
 
 </IfModule>
 
