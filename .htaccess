@@ -361,6 +361,8 @@ RedirectMatch "^/es/earthwands.php" "/es/earth-wands.php"
 RedirectMatch "^/id/earthwand.php" "/id/earth-wands.php"
 RedirectMatch "^/es/earthwand.php" "/es/earth-wands.php"
 RedirectMatch "^/es/earthwand.php" "/es/earth-wands.php"
+RedirectMatch "^/en/earthwand.php" "/en/earth-wands.php"
+RedirectMatch "^/en/earthwand.php" "/en/earth-wands.php"
 
 
 
