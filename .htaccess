@@ -211,7 +211,7 @@ RewriteRule ^/?$ https://ecoladrillo.org/es/ [R=301,L]
 
 # # ... copy block above for other languages ...
 
-# RedirectMatch "^/en-francais/" "/en/"
+# 
 
 # RedirectMatch "^/es/welcome.php" "/es/"
 
@@ -222,6 +222,9 @@ RewriteRule ^/?$ https://ecoladrillo.org/es/ [R=301,L]
 # RedirectMatch "^/vi/welcome.php" "/vi/"
 
 # RedirectMatch "^/pt/welcome.php" "/pt/"
+
+
+RedirectMatch "^/en-francais/" "/en/"
 
 RedirectMatch "^/brikchain" "/en/brikchain.php?v2"
 
