@@ -348,6 +348,8 @@ RedirectMatch "^/es/earthwands.php" "/es/earth-wands.php"
 RedirectMatch "^/id/earthwand.php" "/id/earth-wands.php"
 RedirectMatch "^/es/earthwand.php" "/es/earth-wands.php"
 RedirectMatch "^/en/earth-wands.php" "/en/earthwands.php"
+RedirectMatch "^/en/earthwand.php" "/en/earthwands.php"
+
 RedirectMatch "^/fr/earth-wands.php" "/fr/earthwands.php"
 
 
@@ -364,6 +366,21 @@ RedirectMatch "^/en/offsetting.php" "/en/offsets.php"
 
 
 
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP:Accept-Language} ^id [NC]
+    RewriteRule .* /id/404.php [L]
+
+    RewriteCond %{HTTP:Accept-Language} ^es [NC]
+    RewriteRule .* /es/404.php [L]
+
+    RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+    RewriteRule .* /fr/404.php [L]
+
+    RewriteRule .* /en/404.php [L]
+</IfModule>
+
+ErrorDocument 404 /en/404.php
 
 
 
