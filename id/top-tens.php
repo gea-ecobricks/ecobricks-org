@@ -1,31 +1,26 @@
-<!--PAGE LANGUAGE:  INDONESIAN
-Content Page template: v.1.1-->
-   
-<!-- TRANSLATORS:   Look for untranslated text inside HTML tags.  In other words <a tag>any content text between markers like these</a tag>.  Don't worry about translating these comments.  Be sure NOT to translate english page names, file names, div names, div class names, or html syntax.-->
- 
-<?php require_once ("../includes/top-tens-inc.php");?>
+<!DOCTYPE html>
+<HTML lang="id"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='id';?>
+<?php $version='2.3';?>
+<?php $page='earth-wands';?>
 
-<!--Once translation is completed, you can remove the line below to take the translation notice off the page-->
-<!--<?php require_once ("under-construction.php");?>-->
-<!--TOP PAGE BANNER-->
 
+<?php require_once ("../includes/toptens2-inc.php");?>
 	
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">10 Teratas Ecobrick</div>
 	    <div class="splash-sub">Ecobrick autentikasi dengan peringkat tertinggi bulan ini.</div>
 	</div>
-	<div class="splash-image"><img src="https://ecobricks.org/pngs/gobriktrophy.png" style="width: 55%" alt="Trofi Sepuluh Teratas Ecobrick Bulan Ini">
-    <!--https://ecobricks.org/svgs/eb-blue-no-clouds.svg-->
+	<div class="splash-image"><img src="../pngs/gobriktrophy.png" style="width: 55%" alt="Trofi Sepuluh Teratas Ecobrick Bulan Ini">
     </div>	
 </div>
 <div id="splash-bar"></div>
-<!--<div id="header-bar2"></div>-->
 
 
 <!-- PAGE CONTENT-->
-
-<a name="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -62,11 +57,11 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 
             //$row = $result->fetch_assoc();
             
-            echo '<p><a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'" style="max-width:100%; width:600px;" alt="Top Ten Ecobrick '.$row["ecobrick_unique_id"].' dari '.$row["ecobrick_owner"].' di '.$row["location"].'" loading="lazy"/></a></p>';
+            echo '<p><a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'" style="max-width:100%; width:600px;" alt="Top Ten Ecobrick '.$row["ecobrick_unique_id"].' dari '.$row["ecobrick_owner"].' di '.$row["location"].'" loading="lazy"/></a></p>';
             echo '<h4><p><b>'.$row["location"].'</b></p></h4>';
-            echo '<p>'.$row["ecobrick_owner"].' di buat <a href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> dengan berat '.$row["weight_in_g"].'&#8202;g dengan kepadatan '.$row["density"].'&#8202;g/ml.   Itu membuat sepuluh ecobricks terbaik bulan ini dengan skor validasi sebesar '.$row["final_validation_score"].'.</p>';
+            echo '<p>'.$row["ecobrick_owner"].' di buat <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">Ecobrick '.$row["ecobrick_unique_id"].'</a> dengan berat '.$row["weight_in_g"].'&#8202;g dengan kepadatan '.$row["density"].'&#8202;g/ml.   Itu membuat sepuluh ecobricks terbaik bulan ini dengan skor validasi sebesar '.$row["final_validation_score"].'.</p>';
             
-            echo '<p><a class="module-btn" href="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">🔎 Coba lihat</a>';
+            echo '<p><a class="module-btn" href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'">🔎 Coba lihat</a>';
             echo '</p><br><br>';
     
         }
@@ -132,19 +127,20 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 </div>
 
 
+
+
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
-
-    
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
 
-<!-- This script is for pages that use the accordion content system-->
-<script src="../scripts/accordion-scripts.js" defer></script>
 
+<!-- This script is for pages that use the accordion content system-->
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
+</article>
 </body>
 </html>
