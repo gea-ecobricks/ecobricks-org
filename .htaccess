@@ -118,6 +118,15 @@ RewriteRule ^/?$ https://ecoladrillo.org/es/ [R=301,L]
 RewriteCond %{HTTP_HOST} ^(www\.)?ecobricks\.org$ [NC]
 RewriteRule ^/?$ https://ecobricks.org/en/welcome.php [R=301,L]
 
+
+
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^ecobricks\.org$ [NC]
+    RewriteRule ^en/?$ https://ecobricks.org/en/welcome.php [R=301,L]
 </IfModule>
 
 
