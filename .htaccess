@@ -224,13 +224,14 @@ RewriteRule ^/?$ https://ecoladrillo.org/es/ [R=301,L]
 # RedirectMatch "^/pt/welcome.php" "/pt/"
 
 
-RedirectMatch "^/en-francais/" "/en/"
+Redirect "/en-francais/" "/en/"
 
 RedirectMatch "^/brikchain" "/en/brikchain.php?v2"
 
 Redirect /arc /en/arc.php
 Redirect /arc/ /en/arc.php
 Redirect /arc.php /en/arc.php
+
 
 Redirect /principles /en/principles.php
 Redirect /principles/ /en/principles.php
