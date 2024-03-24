@@ -28,10 +28,10 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
                  <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Panduan Ecobricking 2024</div>
-                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Panduan 10 langkah yang sepenuhnya diperbarui untuk tahun baru</div>
+                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Guía Ecoladrillo 2024</div>
+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">10 pasos para hacer una ecoladrillo</div>
 
-                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">Panduan 2024</a>
+                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">Como hacer</a>
                  </div>
              </div>
          </div>
@@ -135,7 +135,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
             echo '
             <div class="gal-photo10">
-            <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1" loading="lazy" alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>';
+            <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1" loading="lazy" alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>';
             echo '<div class="gal10-photo-text"><b>Ecobrick '.$row["ecobrick_unique_id"].'</b><br>By '.$row["ecobrick_owner"].'<br>'.$row["location"].'</div></div>';
 
             }

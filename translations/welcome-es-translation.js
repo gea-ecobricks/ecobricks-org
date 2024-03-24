@@ -21,8 +21,9 @@ const es_Page_Translations = {
    
        /*Feature Content Slides*/
 
-       '300-featured-content-1-title': 'Guía de Ecobricolaje 2024',
-       '301-featured-content-1-subtitle': 'Guía actualizada de 10 pasos para el nuevo año',
+       '300-featured-content-1-title': 'Guía Ecoladrillo 2024',
+       '301-featured-content-1-subtitle': '10 pasos para hacer una ecoladrillo',
+       '302-featured-content-1-button':'Como hacer',
       
        '302-featured-2-heading': 'Mantén Tu Plástico Seguro',
        '303-featured-live-brikchain': 'Alimentación en vivo de brikchain de ecobricks autenticados. Haz clic para previsualizar.',

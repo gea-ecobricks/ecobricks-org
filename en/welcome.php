@@ -28,10 +28,10 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
                  <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Panduan Ecobricking 2024</div>
-                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Panduan 10 langkah yang sepenuhnya diperbarui untuk tahun baru</div>
+                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Updated Guidelines</div>
+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Our ecobricking guide is updated for 2024.</div>
 
-                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">Panduan 2024</a>
+                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">New 10-step Guide</a>
                  </div>
              </div>
          </div>
