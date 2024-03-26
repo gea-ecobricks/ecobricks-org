@@ -48,14 +48,28 @@ ErrorDocument 401 /en/404.php
 # Any changes to the directives between these markers will be overwritten.
 
 <IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+    RewriteEngine On
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+    RewriteBase /
+
+    # Check if the requested file is in one of the language directories
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} ^/(en|fr|id|es)/ [NC]
+    RewriteRule !404\.php$ - [L]
+
+    # If the requested file is not found, redirect to 404.php in the language directory
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} ^/(en|fr|id|es)/ [NC]
+    RewriteRule !404\.php$ %{REQUEST_URI}/404.php [L]
+
+    # If the requested file is not found in language directories, redirect to index.php in the root directory
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
 </IfModule>
+
 
 # END WordPress
 
