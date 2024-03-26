@@ -59,16 +59,17 @@
                 <?php require_once ("side-modules/about-gea.php");?>
 
                 </div>
+            </div>
        
 
             
             </div>  <!--closes main-->
-        </div>
+                        </div>
 
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footer-2024.php");?>
+	<?php require_once ("https://ecobricks.org/footer-2024.php");?>
 
 
 
