@@ -1074,10 +1074,10 @@ window.onload = function() {
 
                 <div class="header-divider">|</div>
 
-                <button type="button" class="top-search-button"  onclick="openSearch()"  aria-label="Login to app">
+                <button type="button" class="top-search-button"  onclick="openSearch()"  aria-label="Search site">
                 </button>
                 
-                <button type="button" class="top-emblem-button"  onclick="openSettings()" aria-label="Login to app">
+                <button type="button" class="top-emblem-button"  onclick="openSettings()" aria-label="Open Menu">
                 </button>
             </div>
         
