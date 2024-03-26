@@ -46,7 +46,7 @@
                         <p data-lang-id="008-page-paragraph">Meanwhile, use the new search feature on our site (top right menu bar) to look for the content you're trying to find.</p>
                     
                         <button type="button" class="module-btn" style="margin-top:20px;" onclick="openSearch()" data-lang-id="008-search-button">🔎 Search Site</button>
-                        </div>
+                        
 
                         <button type="button" class="module-btn" style="margin-top:20px;" onclick="faqs.php" data-lang-id="009-faqs-button">ℹ️ Questions & Answers</button>
                     </div>
@@ -55,7 +55,8 @@
                 <div class="side">
             
                 
-hello
+                <?php require_once ("side-modules/spiral-design.php");?>
+
                 </div>
             </div>
             <br><br>
@@ -65,8 +66,9 @@ hello
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("https://ecobricks.org/footer-2024.php");?>
+	<!--FOOTER STARTS HERE-->
 
+	<?php require_once ("../footer-2024.php");?>
 
 
 </div>
