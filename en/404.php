@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <HTML lang="en"> 
-<HEAD>
+<HEAD><?php require_once ("lang.php");?>
+
 <META charset="UTF-8">
-<?php $lang='en';?>
 <?php $version='2.2';?>
 <?php $page='404';?>
 
