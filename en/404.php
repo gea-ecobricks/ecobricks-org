@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.01';?>
+<?php $version='2.2';?>
 <?php $page='404';?>
 
 <?php require_once ("../includes/404-inc.php");?>
@@ -48,7 +48,7 @@
                         <button type="button" class="module-btn" style="margin-top:20px;" onclick="openSearch()" data-lang-id="009-search-button">🔎 Search Site</button>
                         
 
-                        <button type="button" class="module-btn" style="margin-top:20px;" onclick="faqs.php" data-lang-id="010-faqs-button">ℹ️ Questions & Answers</button>
+                        <button type="button" class="module-btn" style="margin-top:20px;margin-left:15px;" onclick="faqs.php" data-lang-id="010-faqs-button">ℹ️ General Questions</button>
                     </div>
                 </div>
 
