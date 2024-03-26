@@ -47,8 +47,8 @@
                     
                         <button type="button" class="module-btn" style="margin-top:20px;" onclick="openSearch()" data-lang-id="009-search-button">🔎 Search Site</button>
                         
-
-                        <button type="button" class="module-btn" style="margin-top:20px;margin-left:15px;" onclick="faqs.php" data-lang-id="010-faqs-button">ℹ️ General Questions</button>
+                        <a class="module-btn" href="faqs.php" style="margin-top:20px;margin-left:15px;" data-lang-id="010-faqs-button">ℹ️ General Questions</a>
+                     
                     </div>
                 </div>
 
@@ -62,10 +62,6 @@
             <br><br>
          </div>
        
-
-
-	<!--FOOTER STARTS HERE-->
-
 	<!--FOOTER STARTS HERE-->
 
 	<?php require_once ("../footer-2024.php");?>
