@@ -35,6 +35,7 @@
 	
 		
 		background: url(../svgs/earthwand-background.svg) bottom;
+    padding: 0px 7% 0 7% !important;
 		
 }
 }
