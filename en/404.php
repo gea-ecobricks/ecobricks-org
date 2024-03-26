@@ -45,8 +45,6 @@
 
                     <div class="page-paragraph-reg">
 
-                        
-<br><br>
                          <p data-lang-id="006-second-page-paragraph">If you think there's an error on our site, please let us know at support@ecobricks.org.</p>
 
 
@@ -54,31 +52,14 @@
 
                         
                     
-                        <button type="button" class="module-btn" style="margin-top:20px;" onclick="openSearch()">🔎 GoBrik Store</button>
-
+                        <button type="button" class="module-btn" style="margin-top:20px;" onclick="openSearch()">🔎 Search Site</button>
                         </div>
                 </div>
 
                 <div class="side">
             
-
                 
-
-                <?php require_once ("side-modules/earthen-ethics.php");?>
-                
-                <?php require_once ("side-modules/spiral-design-principle.php");?>
-                
-                <?php require_once ("side-modules/about-gea.php");?>
-
-                <?php require_once ("side-modules/eco-accounting-principle.php");?>
-
-                <?php require_once ("side-modules/gobrik-store.php");?>
-
-                
-
-
-
-
+                <?php require_once ("side-modules/signup-now.php");?>
 
                 </div>
             </div>
