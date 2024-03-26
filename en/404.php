@@ -59,12 +59,11 @@
                 <?php require_once ("side-modules/about-gea.php");?>
 
                 </div>
-            </div>
        
 
             
             </div>  <!--closes main-->
-                        </div>
+        </div>
 
 
 	<!--FOOTER STARTS HERE-->
