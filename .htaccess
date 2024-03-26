@@ -27,6 +27,14 @@ CacheKeyModify -qs:utm*
 CacheKeyModify -qs:_ga
 ### marker DROPQS end ###
 
+ErrorDocument 404 /en/404.php
+
+ErrorDocument 400 /en/404.php
+
+ErrorDocument 401 /en/404.php
+
+
+
 </IfModule>
 ## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
 # END LSCACHE
@@ -38,6 +46,7 @@ CacheKeyModify -qs:_ga
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
 # dynamically generated, and should only be modified via WordPress filters.
 # Any changes to the directives between these markers will be overwritten.
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -51,21 +60,21 @@ RewriteRule . /index.php [L]
 # END WordPress
 
 # # Wordfence WAF
-# <IfModule LiteSpeed>
-# php_value auto_prepend_file '/home/ecobricks/public_html/wordfence-waf.php'
-# </IfModule>
-# <IfModule lsapi_module>
-# php_value auto_prepend_file '/home/ecobricks/public_html/wordfence-waf.php'
-# </IfModule>
-# <Files ".user.ini">
-# <IfModule mod_authz_core.c>
-# 	Require all denied
-# </IfModule>
-# <IfModule !mod_authz_core.c>
-# 	Order deny,allow
-# 	Deny from all
-# </IfModule>
-# </Files>
+<IfModule LiteSpeed>
+php_value auto_prepend_file '/home/ecobricks/public_html/wordfence-waf.php'
+</IfModule>
+<IfModule lsapi_module>
+php_value auto_prepend_file '/home/ecobricks/public_html/wordfence-waf.php'
+</IfModule>
+<Files ".user.ini">
+<IfModule mod_authz_core.c>
+	Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order deny,allow
+	Deny from all
+</IfModule>
+</Files>
 
 # END Wordfence WAF
 php_value max_execution_time = 180
@@ -374,13 +383,5 @@ RedirectMatch "^/offsetting" "/en/offsets.php"
 RedirectMatch "^/offset" "/en/offsets.php"
 RedirectMatch "^/offsetting.php" "/en/offsets.php"
 RedirectMatch "^/en/offsetting.php" "/en/offsets.php"
-
-
-ErrorDocument 404 /en/404.php
-
-ErrorDocument 400 /en/404.php
-
-ErrorDocument 401 /en/404.php
-
 
 
