@@ -8,9 +8,6 @@
 
 <?php require_once ("../includes/404-inc.php");?>
 
-<article id="404">
-
-
 <!--PAGE BANNER-->
 
 
@@ -59,7 +56,7 @@
                 <div class="side">
             
                 
-                <?php require_once ("side-modules/signup-now.php");?>
+                <?php require_once ("side-modules/about-gea.php");?>
 
                 </div>
             </div>
@@ -75,14 +72,8 @@
 	<?php require_once ("../footer-2024.php");?>
 
 
-<!-- CUSTOM PAGE SCRIPTS-->
-
-
-<!-- This script is for pages that use the accordion content system-->
-<script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
-</article>
 </body>
 </html>
 

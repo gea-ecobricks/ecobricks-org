@@ -16,7 +16,7 @@
 	<link rel="alternate" href="http://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="x-default">
 
 <!-- Arc CDN Script without delay-->
-<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script> 
+<!-- <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>  -->
 
 
 <meta property="og:site_name" content="Ecobricks.org">
