@@ -6,9 +6,9 @@
 <?php $version='2.01';?>
 <?php $page='404';?>
 
-<?php require_once ("../includes/earthwand-inc.php");?>
+<?php require_once ("../includes/404-inc.php");?>
 
-<article id="the-earthwand">
+<article id="404">
 
 
 <!--PAGE BANNER-->
@@ -19,7 +19,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Sorry!</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">It seems that the page you're looking for can't be found.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/question.svg" style="width: 85%" alt="Ecobricks making a question mark">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/question.svg" style="width: 75%" alt="Ecobricks making a question mark">
     </div>	
 </div>
 
