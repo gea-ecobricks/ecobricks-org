@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='2.3';?>
+<?php $version='2.31';?>
 <?php $page='404';?>
 
 <?php require_once ("../includes/404-inc.php");?>
@@ -13,8 +13,8 @@
 
  <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Pardon!</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">It seems that the page you're looking for can't be found.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Désolé !</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Il semble que la page que vous recherchez ne puisse pas être trouvée.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/question.svg" style="width: 75%" alt="Ecobricks making a question mark">
     </div>	
@@ -30,11 +30,11 @@
                 <div class="main">
 
                     <div class="lead-page-paragraph">
-                         <p data-lang-id="004-first-page-paragraph">You're seeing this page because the url you entered doesn't correspond to a page on our server.</p>
+                         <p data-lang-id="004-lead-paragraph">You're seeing this page because the url you entered doesn't correspond to a page on our server.</p>
                     </div>
                 
                     <div class="page-paragraph">
-                         <p data-lang-id="006-second-page-paragraph">Look carefully at the URL to see if there is a mispelling.  We've just launched a new version of our site, and alas, there could be some bugs!</p> 
+                         <p data-lang-id="005-first-page-paragraph">Look carefully at the URL to see if there is a mispelling.  We've just launched a new version of our site, and alas, there could be some bugs!</p> 
                     </div>
 
 
@@ -46,7 +46,7 @@
                         <p data-lang-id="008-page-paragraph">Meanwhile, use the new search feature on our site (top right menu bar) to look for the content you're trying to find.</p>
                     
                         <button type="button" class="module-btn" style="margin-top:20px;" onclick="openSearch()" data-lang-id="009-search-button">🔎 Search Site</button>
-                        
+                        <br>
                         <a class="module-btn" href="faqs.php" style="margin-top:20px;margin-left:15px;" data-lang-id="010-faqs-button">ℹ️ General Questions</a>
                      
                     </div>
