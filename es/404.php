@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='2.4';?>
+<?php $version='2.41';?>
 <?php $page='404';?>
 
 <?php require_once ("../includes/404-inc.php");?>
