@@ -61,7 +61,7 @@ ErrorDocument 401 /en/404.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} /(en|fr|id|es)/ [NC]
-    RewriteRule !404\.php$ %{REQUEST_URI}/404.php [L]
+    RewriteRule !404\.php$ %{REQUEST_URI}404.php [L]
 
     # Condition 2: If the requested file is not found in language directories, redirect to index.php in the root directory
     RewriteCond %{REQUEST_FILENAME} !-f
