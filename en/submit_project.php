@@ -1,7 +1,7 @@
-<?php include '../ecobricks_env.php';
+<?php include '../ecobricks_env.php';?>
 
 
-
+<?php
 // Prepare SQL statement
 $sql = "INSERT INTO tb_projects (name, description, start, briks_required, briks_used, featured_img, tmb_featured_img, location_full) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
