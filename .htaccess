@@ -27,6 +27,12 @@ CacheKeyModify -qs:utm*
 CacheKeyModify -qs:_ga
 ### marker DROPQS end ###
 
+# ErrorDocument 404 /en/404.php
+
+# ErrorDocument 400 /en/404.php
+
+# ErrorDocument 401 /en/404.php
+
 
 
 </IfModule>
@@ -55,7 +61,7 @@ CacheKeyModify -qs:_ga
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} /(en|fr|id|es)/ [NC]
-    RewriteRule !404\.php$ %{REQUEST_URI}/404.php [L]
+    RewriteRule !404\.php$ %{REQUEST_URI}404.php [L]
 
     # Condition 2: If the requested file is not found in language directories, redirect to index.php in the root directory
     RewriteCond %{REQUEST_FILENAME} !-f
