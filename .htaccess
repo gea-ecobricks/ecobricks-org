@@ -46,7 +46,6 @@ ErrorDocument 401 /en/404.php
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
 # dynamically generated, and should only be modified via WordPress filters.
 # Any changes to the directives between these markers will be overwritten.
-
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -55,16 +54,16 @@ ErrorDocument 401 /en/404.php
     # Check if the requested file is in one of the language directories
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_URI} ^/(en|fr|id|es)/ [NC]
+    RewriteCond %{REQUEST_URI} /(en|fr|id|es)/ [NC]
     RewriteRule !404\.php$ - [L]
 
-    # If the requested file is not found, redirect to 404.php in the language directory
+    # Condition 1: If the requested file is not found, redirect to 404.php in the language directory
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_URI} ^/(en|fr|id|es)/ [NC]
+    RewriteCond %{REQUEST_URI} /(en|fr|id|es)/ [NC]
     RewriteRule !404\.php$ %{REQUEST_URI}/404.php [L]
 
-    # If the requested file is not found in language directories, redirect to index.php in the root directory
+    # Condition 2: If the requested file is not found in language directories, redirect to index.php in the root directory
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule . /index.php [L]

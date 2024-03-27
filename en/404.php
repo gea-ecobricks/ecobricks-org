@@ -46,7 +46,7 @@
                         <p data-lang-id="008-page-paragraph">Meanwhile, use the new search feature on our site (top right menu bar) to look for the content you're trying to find.</p>
                     
                         <button type="button" class="module-btn" style="margin-top:20px;" onclick="openSearch()" data-lang-id="009-search-button">🔎 Search Site</button>
-                        <br>
+                        <br><br><br>
                         <a class="module-btn" href="faqs.php" style="margin-top:50px;" data-lang-id="010-faqs-button">ℹ️ General Questions</a>
                      
                     </div>
