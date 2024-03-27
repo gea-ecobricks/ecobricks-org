@@ -1,4 +1,4 @@
-<?php include 'ecobricks_env.php';
+<?php include '../ecobricks_env.php';
 
 
 
