@@ -7,7 +7,7 @@
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("../meta/404-en.php");?>
+<?php require_once ("../meta/404-$lang.php");?>
 
 
 
