@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <HTML lang="en"> 
-<HEAD><?php require_once ("lang.php");?>
-
+<HEAD>
+<?php $lang='fr';?>
 <META charset="UTF-8">
-<?php $version='2.2';?>
+<?php $version='2.21';?>
 <?php $page='404';?>
 
 <?php require_once ("../includes/404-inc.php");?>
