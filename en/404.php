@@ -1,7 +1,17 @@
 <!DOCTYPE html>
+
+<?php
+// Get the current page URL
+$current_url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+// Parse the URL and extract the directory name
+$url_parts = parse_url($current_url);
+$path_segments = explode('/', trim($url_parts['path'], '/'));
+$lang = isset($path_segments[0]) ? $path_segments[0] : 'en'; // Default to English if no directory found
+
+?>
 <HTML lang="en"> 
 <HEAD>
-<?php $lang='en';?>
 <META charset="UTF-8">
 <?php $version='2.41';?>
 <?php $page='404';?>
