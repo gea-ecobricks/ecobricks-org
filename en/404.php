@@ -13,7 +13,7 @@ $lang = isset($path_segments[0]) ? $path_segments[0] : 'en'; // Default to Engli
 <HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $version='2.41';?>
+<?php $version='2.42';?>
 <?php $page='404';?>
 
 <?php require_once ("../includes/404-inc.php");?>
@@ -40,11 +40,11 @@ $lang = isset($path_segments[0]) ? $path_segments[0] : 'en'; // Default to Engli
                 <div class="main">
 
                     <div class="lead-page-paragraph">
-                         <p data-lang-id="004-first-page-paragraph">You're seeing this page because the url you entered doesn't correspond to a page on our server.</p>
+                         <p data-lang-id="004-lead-paragraph">You're seeing this page because the url you entered doesn't correspond to a page on our server.</p>
                     </div>
                 
                     <div class="page-paragraph">
-                         <p data-lang-id="006-second-page-paragraph">Look carefully at the URL to see if there is a mispelling.  We've just launched a new version of our site, and alas, there could be some bugs!</p> 
+                         <p data-lang-id="005-first-page-paragraph">Look carefully at the URL to see if there is a mispelling.  We've just launched a new version of our site, and alas, there could be some bugs!</p> 
                     </div>
 
 
