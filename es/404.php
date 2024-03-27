@@ -13,8 +13,8 @@
 
  <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Désolé !</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Il semble que la page que vous recherchez ne puisse pas être trouvée.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">¡Lo siento!</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Parece que la página que buscas no se puede encontrar.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/question.svg" style="width: 75%" alt="Ecobricks making a question mark">
     </div>	
