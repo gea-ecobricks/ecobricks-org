@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='2.33';?>
+<?php $version='2.4';?>
 <?php $page='404';?>
 
 <?php require_once ("../includes/404-inc.php");?>
@@ -46,8 +46,8 @@
                         <p data-lang-id="008-page-paragraph">Meanwhile, use the new search feature on our site (top right menu bar) to look for the content you're trying to find.</p>
                     
                         <button type="button" class="module-btn" style="margin-top:20px;" onclick="openSearch()" data-lang-id="009-search-button">🔎 Search Site</button>
-                        <br>
-                        <a class="module-btn" href="faqs.php" style="margin-top:20px;margin-left:15px;" data-lang-id="010-faqs-button">ℹ️ General Questions</a>
+                        <br><br>
+                        <a class="module-btn" href="faqs.php" style="margin-top:20px;" data-lang-id="010-faqs-button">ℹ️ General Questions</a>
                      
                     </div>
                 </div>
