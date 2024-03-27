@@ -57,17 +57,18 @@ CacheKeyModify -qs:_ga
     RewriteCond %{REQUEST_URI} /(en|fr|id|es)/ [NC]
     RewriteRule !404\.php$ - [L]
 
-    # Condition 1: If the requested file is not found, redirect to 404.php in the language directory
+    # Condition 1: If the requested file is not found, redirect to 404-handler.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} /(en|fr|id|es)/ [NC]
-    RewriteRule !404\.php$ %{REQUEST_URI}404.php [L]
+    RewriteRule !404\.php$ /404-handler.php [L]
 
     # Condition 2: If the requested file is not found in language directories, redirect to index.php in the root directory
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule . /index.php [L]
 </IfModule>
+
 
 
 # END WordPress
