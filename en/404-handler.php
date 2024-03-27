@@ -1,4 +1,8 @@
+
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 // Get the original request URI
 $request_uri = $_SERVER['REQUEST_URI'];
 

@@ -27,7 +27,7 @@ CacheKeyModify -qs:utm*
 CacheKeyModify -qs:_ga
 ### marker DROPQS end ###
 
-# ErrorDocument 404 /404.php
+ErrorDocument 404 /404-handler.php
 
 # ErrorDocument 400 /en/404.php
 
