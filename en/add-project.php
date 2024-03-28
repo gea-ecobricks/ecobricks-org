@@ -11,7 +11,7 @@
 
  
 			  
-<div id="form-submission-box">
+<div id="form-submission-box" style="margin-top: 100px;">
         <div class="form-container">
             <h2>Submit Project</h2>
             <form method="post" action="submit_project.php">
@@ -43,6 +43,11 @@
             </form>
         </div>
     </div>
+
+
+    
+<br><br>
+</div> <!--closes main-->
        
 	<!--FOOTER STARTS HERE-->
 
