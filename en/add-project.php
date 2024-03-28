@@ -54,12 +54,14 @@
 
                 </div>
                 
-                <div class="form-item">
+                <!-- <div class="form-item">
                     <label for="tmb_featured_img" data-lang-id="013-thumbnail-featured-image">Thumbnail Featured Image:</label><br>
                     <input type="file" id="tmb_featured_img" name="tmb_featured_img">
 
                     <p class="form-caption" data-lang-id="014-thumbnail-featured-image-caption">Please upload a square image thumbnail that showcases this project (100x100px).</p>
-                </div>
+                </div> -->
+
+                
                 <div class="form-item">
                     <label for="location_full" data-lang-id="015-location">Location:</label><br>
                     <input type="text" id="location_full" name="location_full">

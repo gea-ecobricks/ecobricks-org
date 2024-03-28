@@ -9,18 +9,18 @@ include '../ecobricks_env.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Prepare SQL statement
-    $sql = "INSERT INTO tb_projects (name, description, start, briks_used, tmb_featured_img, location_full) VALUES (?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO tb_projects (name, description, start, briks_used, featured_img, location_full) VALUES (?, ?, ?, ?, ?, ?)";
 
     // Bind parameters
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ssssss", $name, $description, $start, $briks_used, $tmb_featured_img, $location_full);
+    $stmt->bind_param("ssssss", $name, $description, $start, $briks_used, $featured_img, $location_full);
 
     // Set parameters
     $name = $_POST['name'];
     $description = $_POST['description'];
     $start = $_POST['start'];
     $briks_used = $_POST['briks_used'];
-    $tmb_featured_img = $_POST['tmb_featured_img'];
+    $featured_img = $_POST['featured_img'];
     $location_full = $_POST['location_full'];
 
     // Execute the SQL statement
