@@ -14,7 +14,7 @@
 
  <div id="main-content">
 			  
-<div id="form-submission-box">
+<div id="form-submission-box" style="margin-top: 75px">
         <div class="form-container">
             <h2 data-lang-id="001-form-title">Post your project</h2>
             <p data-lang-id="002-form-description">Share your ecobrick project with the world.  Use this form to post your completed ecobricks project onto ecobricks.org.  Projects will be featured on our main page and archived in our database.""
