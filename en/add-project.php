@@ -118,9 +118,9 @@ input[type="submit"]:hover {
 }
 
 
-    </style>
-</head>
-<body>
+<?php require_once ("../header-2024.php");?>
+			  
+
 <div id="form-submission-box">
         <div class="form-container">
             <h2>Submit Project</h2>
