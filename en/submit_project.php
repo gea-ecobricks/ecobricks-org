@@ -26,7 +26,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Execute the SQL statement
     if ($stmt->execute()) {
-        $response_message = "The Project is submitted successfully.";
+        // Get the last inserted project_id
+        $project_id = $conn->insert_id;
+        $response_message = "The photos for Project $name are now being uploaded. This is project number $project_id";
+        
+        // Redirect to upload_images.php with project_id as a parameter
+        header("Location: upload_images.php?project_id=$project_id");
+        exit();
     } else {
         $response_message = "Error: " . $sql . "<br>" . $conn->error;
     }
@@ -41,3 +47,4 @@ $conn->close();
 // Return response message to be displayed in modal
 echo $response_message;
 ?>
+

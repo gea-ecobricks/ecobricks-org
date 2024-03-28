@@ -48,9 +48,11 @@
                 </div>
                 
                 <div class="form-item">
-                    <label for="featured_img" data-lang-id="011-featured-image">Featured Image:</label><br>
-                    <input type="text" id="featured_img" name="featured_img">
-                    <p class="form-caption" data-lang-id="012-featured-image-caption">Please upload a square image that showcases this project.</p>
+                <label for="featured_img" data-lang-id="011-featured-image">Featured Image:</label><br>
+                <input type="file" id="featured_img" name="featured_img">
+                <p class="form-caption" data-lang-id="012-featured-image-caption">Please upload a square image that showcases this project.</p>
+
+
                 </div>
                 
                 <div class="form-item">
