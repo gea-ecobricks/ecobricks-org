@@ -21,10 +21,20 @@
   /* background-color: var(--main-background); */
 }
 
-h2 {
+/* h2 {
   font-family: "Arvo", serif;
   color: var(--h1);
+} */
+
+
+.form-caption {
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  color: grey;
+  font-size: small;
 }
+
+
 
 label {
   font-family: "Mulish", sans-serif;
