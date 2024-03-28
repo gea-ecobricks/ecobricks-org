@@ -132,14 +132,79 @@ document.addEventListener('keydown', modalCloseCurtains);
 
 
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
+
+/*FORM MODALS*/
+
+
+        // Function to handle form submission response
+        function handleFormResponse(response) {
+            showFormModal(response);
+        }
+
+        // Function to show the modal
+        function showFormModal(message) {
+            var modal = document.getElementById('form-modal-message');
+            var modalMessage = modal.querySelector('.modal-message');
+            modalMessage.innerHTML = message;
+            modal.style.display = 'flex';
+
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            }
+        }
+
+        // Add event listener to form submission
+        document.getElementById('submit-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            var form = event.target;
+            var formData = new FormData(form);
+            
+            // Send form data using AJAX
+            var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == XMLHttpRequest.DONE) {
+        if (xhr.status == 200) {
+            handleFormResponse(xhr.responseText);
+        } else {
+            handleFormResponse('Error submitting form.');
+        }
+    }
+};
+xhr.open(form.method, form.action, true);
+xhr.send(formData);
+});
+
+
+// Function to show the modal
+function showFormModal(message) {
+    var modal = document.getElementById('form-modal-message');
+    var modalMessage = modal.querySelector('.modal-message');
+    modalMessage.innerHTML = message;
+    modal.style.display = 'flex';
+    
+    // Add blur effect and hide overflow on page-content
+    document.getElementById('page-content').classList.add('blurred');
+    document.body.classList.add('modal-open');
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            closeInfoModal();
+        }
+    }
+}
+
+// Function to close the modal
 function closeInfoModal() {
-    document.getElementById("form-modal-message").style.display = "none";
-    document.body.style.overflowY = "unset";
-  document.body.style.maxHeight = "unset";
-    //document.body.style.height = "unset";
-  } 
-  
+    var modal = document.getElementById("form-modal-message");
+    modal.style.display = "none";
+
+    // Remove blur effect and restore overflow on page-content
+    document.getElementById('page-content').classList.remove('blurred');
+    document.body.classList.remove('modal-open');
+}
 
 
 

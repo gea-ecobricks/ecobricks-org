@@ -1044,6 +1044,19 @@ GUIDED TOUR---*
 --------------------------------------*/
 
 
+/* CSS for blurred effect */
+.blurred {
+  filter: blur(7px);
+}
+
+/* CSS for overflow and max-height when modal is open */
+body.modal-open {
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+
+
 /* The modal background */
 .modal {
   display: none; /* Hidden by default */

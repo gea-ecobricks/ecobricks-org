@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.77';?>
+<?php $version='1.777';?>
 <?php $page='submit-project';?>
 
 
@@ -75,45 +75,6 @@
     <script>
 
         
-        // Function to handle form submission response
-        function handleFormResponse(response) {
-            showFormModal(response);
-        }
-
-        // Function to show the modal
-        function showFormModal(message) {
-            var modal = document.getElementById('form-modal-message');
-            var modalMessage = modal.querySelector('.modal-message');
-            modalMessage.innerHTML = message;
-            modal.style.display = 'flex';
-
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = 'none';
-                }
-            }
-        }
-
-        // Add event listener to form submission
-        document.getElementById('submit-form').addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent default form submission
-            var form = event.target;
-            var formData = new FormData(form);
-            
-            // Send form data using AJAX
-            var xhr = new XMLHttpRequest();
-xhr.onreadystatechange = function() {
-    if (xhr.readyState == XMLHttpRequest.DONE) {
-        if (xhr.status == 200) {
-            handleFormResponse(xhr.responseText);
-        } else {
-            handleFormResponse('Error submitting form.');
-        }
-    }
-};
-xhr.open(form.method, form.action, true);
-xhr.send(formData);
-});
     </script>
 
 
