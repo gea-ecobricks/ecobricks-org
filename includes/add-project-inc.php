@@ -73,7 +73,7 @@ input[type="submit"]:hover {
   background-color: var(--settings-background);
   padding: 20px;
   border: 1px solid var(--divider-line);
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 0 auto;
   max-width: 1000px;
   z-index: 20;

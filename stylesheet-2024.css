@@ -1026,11 +1026,19 @@ z-index: 1000;
   font-size: 1.4em;
   display: flex;
   margin: auto;
-
-
 }
 
+.modal-message {
+  margin: auto;
+}
 
+.modal-content-box .x-button {
+  margin-left: 92%;
+}
+
+textarea {
+  background-color: grey;
+}
 
 /*--------------------------------------
 GUIDED TOUR---*
