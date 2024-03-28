@@ -28,19 +28,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $error_message .= "No featured image uploaded or file upload error occurred.<br>";
             echo $error_message; // Echo error message
         }
-
-        // Upload thumbnail image
-        if (isset($_FILES['thumbnail_img']) && $_FILES['thumbnail_img']['error'] === UPLOAD_ERR_OK) {
-            $thumbnail_img_name = $_FILES['thumbnail_img']['name'];
-            $thumbnail_img_tmp = $_FILES['thumbnail_img']['tmp_name'];
-            if (!move_uploaded_file($thumbnail_img_tmp, $upload_dir . 'thumbnail/' . $thumbnail_img_name)) {
-                $error_message .= "Error uploading thumbnail image.<br>";
-                echo $error_message; // Echo error message
-            }
-        } else {
-            $error_message .= "No thumbnail image uploaded or file upload error occurred.<br>";
-            echo $error_message; // Echo error message
-        }
     }
 
     // If there are errors, display them in the modal
