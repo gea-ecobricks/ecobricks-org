@@ -1018,6 +1018,7 @@ z-index: 1000;
   border-radius: 10px; 
   max-width: 90%; 
   max-height: 80vh; 
+  min-height: 50%;
   min-width: 70%; 
   width: 50%; 
   color: var(--slide-overlays);
