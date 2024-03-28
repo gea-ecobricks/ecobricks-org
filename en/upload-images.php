@@ -36,11 +36,11 @@
     </form>
 
 
-
     <script>
 // Function to handle form submission response
 function handleFormResponse(response) {
     showFormModal(response);
+    console.log(response); // Log response to console
 }
 
 function showFormModal(message) {
@@ -94,6 +94,7 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
     xhr.send(formData);
 });
 </script>
+
 
                   
         </div>
