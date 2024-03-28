@@ -11,14 +11,15 @@
 
  
 			  
-<div id="form-submission-box" style="margin-top: 100px;">
+<div id="form-submission-box" style="margin-top: 50px;">
         <div class="form-container">
-            <h2>Submit Project</h2>
+            <h2 data-lang-id="001-form-title">Post your project</h2>
+            <p data-lang-id="002-form-description">Share your ecobrick project with the world.  Use this form to post your completed ecobricks project onto ecobricks.org.  Projects will be featured on our main page and archived in our database.""
             <form method="post" action="submit_project.php">
-                <label for="name">Name:</label><br>
+                <label for="name" data-lang-id="003-project-name" >Project Name:</label><br>
                 <input type="text" id="name" name="name"><br>
                 
-                <label for="description">Description:</label><br>
+                <label for="description" data-lang-id="004-project-desc">Project Description:</label><br>
                 <textarea id="description" name="description"></textarea><br>
                 
                 <label for="start">Start Date:</label><br>
@@ -45,7 +46,7 @@
     </div>
 
 
-    
+
 <br><br>
 </div> <!--closes main-->
        
