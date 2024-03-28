@@ -9,44 +9,6 @@
 
 <?php require_once ("../includes/submit-project-inc.php");?>
 
-<?php
-
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
-include '../ecobricks_env.php';
-
-// Prepare SQL statement
-$sql = "INSERT INTO tb_projects (name, description, start, briks_used, featured_img, tmb_featured_img, location_full) VALUES (?, ?, ?, ?, ?, ?, ?)";
-
-// Bind parameters
-$stmt = $conn->prepare($sql);
-$stmt->bind_param("sssiiss", $name, $description, $start, $briks_used, $featured_img, $tmb_featured_img, $location_full);
-
-// Set parameters and execute
-$name = $_POST['name'];
-$description = $_POST['description'];
-$start = $_POST['start'];
-$briks_used = $_POST['briks_used'];
-$featured_img = $_POST['featured_img'];
-$tmb_featured_img = $_POST['tmb_featured_img'];
-$location_full = $_POST['location_full'];
-
-$response_message = "";
-
-if ($stmt->execute()) {
-    $response_message = "Project submitted successfully.";
-} else {
-    $response_message = "Error: " . $sql . "<br>" . $conn->error;
-}
-
-// Close connection
-$stmt->close();
-$conn->close();
-
-// Return response message to be displayed in modal
-echo $response_message;
-?>
 
  <!-- PAGE CONTENT-->
 
@@ -110,8 +72,48 @@ echo $response_message;
         </div>
     </div>
 
+    <!-- JavaScript to handle form submission response and display modal -->
+    <script>
+        // Function to handle form submission response
+        function handleFormResponse(response) {
+            showFormModal(response);
+        }
 
+        // Function to show the modal
+        function showFormModal(message) {
+            var modal = document.getElementById('form-modal-message');
+            var modalMessage = modal.querySelector('.modal-message');
+            modalMessage.innerHTML = message;
+            modal.style.display = 'block';
 
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            }
+        }
+
+        // Add event listener to form submission
+        document.getElementById('submit-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            var form = event.target;
+            var formData = new FormData(form);
+            
+            // Send form data using AJAX
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == XMLHttpRequest.DONE) {
+                    if (xhr.status == 200) {
+                        handleFormResponse(xhr.responseText);
+                    } else {
+                        handleFormResponse('Error submitting form.');
+                    }
+                }
+            };
+            xhr.open(form.method, form.action, true);
+            xhr.send(formData);
+        });
+    </script>
 
 
 <br><br>
@@ -123,29 +125,6 @@ echo $response_message;
 
 </div>
 
-<script>
-
-function showFormModal(message) {
-    // Get the modal element
-    var modal = document.getElementById('form-modal-message');
-
-    // Get the modal message element
-    var modalMessage = modal.querySelector('.modal-message');
-
-    // Set the message content
-    modalMessage.innerHTML = message;
-
-    // Display the modal
-    modal.style.display = 'block';
-
-    // Close the modal when clicked outside of it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = 'none';
-        }
-    }
-}
-</script>
 
 </body>
 </html>
