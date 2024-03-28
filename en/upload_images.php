@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $project_id = $_POST['project_id'];
 
         // File upload directory
-        $upload_dir = '../projects/';
+        $upload_dir = '../projects/featured/';
 
         // Upload featured image
         if (isset($_FILES['featured_img']) && $_FILES['featured_img']['error'] === UPLOAD_ERR_OK) {
@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<script>showFormModal('$error_message');</script>";
     } else {
         // If no errors, echo success message
-        echo "<script>console.log('Uploads successful!');</script>";
+        echo "Uploads successful!";
     }
 }
 
