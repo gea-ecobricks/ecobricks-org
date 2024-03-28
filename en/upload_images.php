@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // If there are errors, display them in the modal
     if (!empty($error_message)) {
-        echo "<script>showFormModal('$error_message');</script>";
+        echo $error_message;
     } else {
         // If no errors, echo success message
         echo "Uploads successful!";
