@@ -4,35 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submit Project</title>
+    <style>
+        .container {
+    margin: 0 auto;
+    width: 60%;
+    max-width: 600px; /* Set maximum width */
+}
+
+form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Media Query for screens under 700px */
+@media screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+    </style>
 </head>
 <body>
-    <h2>Submit Project</h2>
-    <form method="post" action="submit_project.php">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        
-        <label for="description">Description:</label><br>
-        <textarea id="description" name="description"></textarea><br>
-        
-        <label for="start">Start Date:</label><br>
-        <input type="date" id="start" name="start"><br>
-        
-        <label for="briks_required">Bricks Required:</label><br>
-        <input type="number" id="briks_required" name="briks_required"><br>
-        
-        <label for="briks_used">Bricks Used:</label><br>
-        <input type="number" id="briks_used" name="briks_used"><br>
-        
-        <label for="featured_img">Featured Image:</label><br>
-        <input type="text" id="featured_img" name="featured_img"><br>
-        
-        <label for="tmb_featured_img">Thumbnail Featured Image:</label><br>
-        <input type="text" id="tmb_featured_img" name="tmb_featured_img"><br>
-        
-        <label for="location_full">Location:</label><br>
-        <input type="text" id="location_full" name="location_full"><br>
-        
-        <input type="submit" value="Submit">
-    </form>
+    <div class="container">
+        <h2>Submit Project</h2>
+        <form method="post" action="submit_project.php">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description"></textarea><br>
+            
+            <label for="start">Start Date:</label><br>
+            <input type="date" id="start" name="start"><br>
+            
+            <label for="briks_required">Bricks Required:</label><br>
+            <input type="number" id="briks_required" name="briks_required"><br>
+            
+            <label for="briks_used">Bricks Used:</label><br>
+            <input type="number" id="briks_used" name="briks_used"><br>
+            
+            <label for="featured_img">Featured Image:</label><br>
+            <input type="text" id="featured_img" name="featured_img"><br>
+            
+            <label for="tmb_featured_img">Thumbnail Featured Image:</label><br>
+            <input type="text" id="tmb_featured_img" name="tmb_featured_img"><br>
+            
+            <label for="location_full">Location:</label><br>
+            <input type="text" id="location_full" name="location_full"><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>
