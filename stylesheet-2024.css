@@ -1021,13 +1021,14 @@ z-index: 1000;
   min-height: 50%;
   min-width: 70%; 
   width: 50%; 
-  color: var(--slide-overlays);
+  color: var(--h1);
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.4em;
+
 
 }
 
-#form-modal-message {
-  display: none;
-}
+
 
 /*--------------------------------------
 GUIDED TOUR---*
