@@ -75,7 +75,7 @@ input[type="submit"]:hover {
 }
 
 .form-container {
-  width: 60%;
+  width: 80%;
   max-width: 600px;
   background-color: var(--settings-background);
   padding: 20px;
