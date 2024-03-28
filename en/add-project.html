@@ -10,49 +10,74 @@
     width: 60%;
     max-width: 600px; /* Set maximum width */
 }
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Light.ttf");
+  font-display: swap;
+  font-weight: 300;
+}
 
-form {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.ttf");
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Arvo";
+  src: url("../fonts/Arvo-Regular.ttf");
+  font-display: swap;
+}
+
+body {
+  font-family: "Mulish", sans-serif; /* Default font for body text */
+}
+
+h2 {
+  font-family: "Arvo", serif; /* Font for page titles */
 }
 
 label {
-    font-weight: bold;
+  font-family: "Mulish", sans-serif; /* Font for labels */
+  font-weight: 500; /* Regular weight */
 }
 
 input[type="text"],
 input[type="number"],
 textarea,
 input[type="date"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  font-family: "Mulish", sans-serif; /* Font for input fields */
+  font-weight: 300; /* Light weight */
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 /* Media Query for screens under 700px */
 @media screen and (max-width: 700px) {
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
 }
+
 
     </style>
 </head>
