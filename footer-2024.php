@@ -116,7 +116,7 @@
             </div>
 
             <div class="footer-conclusion">
-            ↳ <a href="https://github.com/gea-ecobricks/ecobricks.org/blob/master/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" target="_blank">github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($lang); ;?>/<?php echo ($name); ;?></a>
+            ↳ <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/master/<?php echo ($lang); ;?>/<?php echo ($name); ;?>" target="_blank">github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($lang); ;?>/<?php echo ($name); ;?></a>
             </div>
 
             <div style="margin-top:15px">

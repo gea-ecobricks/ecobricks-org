@@ -1021,9 +1021,12 @@ z-index: 1000;
   min-width: 70%; 
   width: 50%; 
   color: var(--slide-overlays);
-  
+
 }
 
+#form-modal-message {
+  display: none;
+}
 
 /*--------------------------------------
 GUIDED TOUR---*
