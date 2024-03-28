@@ -429,8 +429,59 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	document.getElementsByTagName('head')[0].appendChild(script);
   }
 </script> -->
+<!-- 
 
 
+
+
+<script>
+
+// Function to handle form submission response
+function handleFormResponse(response) {
+    showFormModal(response);
+}
+
+function showFormModal(message) {
+var modal = document.getElementById('form-modal-message');
+var modalMessage = modal.querySelector('.modal-message');
+modalMessage.innerHTML = message;
+modal.style.display = 'flex';
+
+// Add blur effect and hide overflow on page-content and footer-full
+document.getElementById('page-content').classList.add('blurred');
+document.getElementById('footer-full').classList.add('blurred');
+document.body.classList.add('modal-open');
+
+// Close modal when clicking outside
+window.onclick = function(event) {
+if (event.target == modal) {
+    closeInfoModal();
+}
+}
+}
+
+// Add event listener to form submission
+document.getElementById('submit-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+    var form = event.target;
+    var formData = new FormData(form);
+    
+    // Send form data using AJAX
+    var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+if (xhr.readyState == XMLHttpRequest.DONE) {
+if (xhr.status == 200) {
+    handleFormResponse(xhr.responseText);
+} else {
+    handleFormResponse('Error submitting form.');
+}
+}
+};
+xhr.open(form.method, form.action, true);
+xhr.send(formData);
+});
+
+</script> -->
 
 	
 		
