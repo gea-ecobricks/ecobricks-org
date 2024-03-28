@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conn->close();
 
         // Redirect to the next page
-        header("Location: upload-images.php?project_id=$project_id");
+        echo "<script>window.location.href = 'upload-image.php?project_id=$project_id';</script>";
         exit();
     } else {
         $response_message = "Error: " . $sql . "<br>" . $conn->error;
