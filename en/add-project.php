@@ -39,19 +39,19 @@
   --settings-background: #e5e5e5;
 }
 
-body {
-  font-family: "Mulish", sans-serif; /* Default font for body text */
+#form-submission-box {
+  font-family: "Mulish", sans-serif;
   background-color: var(--main-background);
 }
 
 h2 {
-  font-family: "Arvo", serif; /* Font for page titles */
+  font-family: "Arvo", serif;
   color: var(--h1);
 }
 
 label {
-  font-family: "Mulish", sans-serif; /* Font for labels */
-  font-weight: 500; /* Regular weight */
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
   color: var(--text-color);
 }
 
@@ -59,8 +59,8 @@ input[type="text"],
 input[type="number"],
 textarea,
 input[type="date"] {
-  font-family: "Mulish", sans-serif; /* Font for input fields */
-  font-weight: 300; /* Light weight */
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
@@ -82,73 +82,76 @@ input[type="submit"]:hover {
   background-color: var(--emblem-green-over);
 }
 
-.container {
+.form-container {
   width: 60%;
-  max-width: 600px; /* Set maximum width */
+  max-width: 600px;
   background-color: var(--settings-background);
   padding: 20px;
   border: 1px solid var(--divider-line);
   border-radius: 5px;
-  margin: 0 auto; /* Center horizontally by default */
+  margin: 0 auto;
 }
 
 /* Media Query for screens under 700px */
 @media screen and (max-width: 700px) {
-  .container {
-    width: calc(100% - 40px); /* Account for padding */
-    margin: 0; /* Remove all margins */
-    border: none; /* Remove border */
-    padding: 20px 20px 0 20px; /* Adjust padding */
+  .form-container {
+    width: calc(100% - 40px);
+    margin: 0;
+    border: none;
+    padding: 20px 20px 0 20px;
   }
 }
 
 /* Centering the form vertically on larger screens */
 @media screen and (min-width: 701px) {
-  body {
+  #form-submission-box {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
   }
 
-  .container {
+  .form-container {
     margin-top: auto;
     margin-bottom: auto;
   }
 }
 
+
     </style>
 </head>
 <body>
-    <div class="container">
-        <h2 >Submit Project</h2>
-        <form method="post" action="submit_project.php">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-            
-            <label for="description">Description:</label><br>
-            <textarea id="description" name="description"></textarea><br>
-            
-            <label for="start">Start Date:</label><br>
-            <input type="date" id="start" name="start"><br>
-            
-            <label for="briks_required">Bricks Required:</label><br>
-            <input type="number" id="briks_required" name="briks_required"><br>
-            
-            <label for="briks_used">Bricks Used:</label><br>
-            <input type="number" id="briks_used" name="briks_used"><br>
-            
-            <label for="featured_img">Featured Image:</label><br>
-            <input type="text" id="featured_img" name="featured_img"><br>
-            
-            <label for="tmb_featured_img">Thumbnail Featured Image:</label><br>
-            <input type="text" id="tmb_featured_img" name="tmb_featured_img"><br>
-            
-            <label for="location_full">Location:</label><br>
-            <input type="text" id="location_full" name="location_full"><br>
-            
-            <input type="submit" value="Submit">
-        </form>
+<div id="form-submission-box">
+        <div class="form-container">
+            <h2>Submit Project</h2>
+            <form method="post" action="submit_project.php">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description"></textarea><br>
+                
+                <label for="start">Start Date:</label><br>
+                <input type="date" id="start" name="start"><br>
+                
+                <label for="briks_required">Bricks Required:</label><br>
+                <input type="number" id="briks_required" name="briks_required"><br>
+                
+                <label for="briks_used">Bricks Used:</label><br>
+                <input type="number" id="briks_used" name="briks_used"><br>
+                
+                <label for="featured_img">Featured Image:</label><br>
+                <input type="text" id="featured_img" name="featured_img"><br>
+                
+                <label for="tmb_featured_img">Thumbnail Featured Image:</label><br>
+                <input type="text" id="tmb_featured_img" name="tmb_featured_img"><br>
+                
+                <label for="location_full">Location:</label><br>
+                <input type="text" id="location_full" name="location_full"><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
 </body>
 </html>
