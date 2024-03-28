@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.8';?>
+<?php $version='1.9';?>
 <?php $page='submit-project';?>
 
 

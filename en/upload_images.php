@@ -25,11 +25,11 @@ if (isset($_GET['project_id'])) {
             echo "File uploaded successfully and renamed to $new_file_name";
         } else {
             // Error occurred while moving the file
-            echo "Error uploading file: " . $_FILES['featured_img']['error'];
+            echo "Error moving the file.";
         }
     } else {
         // No file uploaded or error occurred
-        echo "Error: No file uploaded or file upload error occurred.";
+        echo "Error uploading file: " . $_FILES['featured_img']['error'];
     }
 } else {
     // Redirect back to the form if project_id is not set
