@@ -79,19 +79,23 @@
             showFormModal(response);
         }
 
-        // Function to show the modal
         function showFormModal(message) {
-            var modal = document.getElementById('form-modal-message');
-            var modalMessage = modal.querySelector('.modal-message');
-            modalMessage.innerHTML = message;
-            modal.style.display = 'flex';
+    var modal = document.getElementById('form-modal-message');
+    var modalMessage = modal.querySelector('.modal-message');
+    modalMessage.innerHTML = message;
+    modal.style.display = 'flex';
+    
+    // Add blur effect and hide overflow on page-content
+    document.getElementById('page-content').classList.add('blurred');
+    document.body.classList.add('modal-open');
 
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = 'none';
-                }
-            }
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            closeInfoModal();
         }
+    }
+}
 
         // Add event listener to form submission
         document.getElementById('submit-form').addEventListener('submit', function(event) {

@@ -138,25 +138,6 @@ document.addEventListener('keydown', modalCloseCurtains);
 
 
 
-// Function to show the modal
-function showFormModal(message) {
-    var modal = document.getElementById('form-modal-message');
-    var modalMessage = modal.querySelector('.modal-message');
-    modalMessage.innerHTML = message;
-    modal.style.display = 'flex';
-    
-    // Add blur effect and hide overflow on page-content
-    document.getElementById('page-content').classList.add('blurred');
-    document.body.classList.add('modal-open');
-
-    // Close modal when clicking outside
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            closeInfoModal();
-        }
-    }
-}
-
 // Function to close the modal
 function closeInfoModal() {
     var modal = document.getElementById("form-modal-message");

@@ -202,7 +202,7 @@
 
 #main {
   /* background-image:linear-gradient(var(--main-background),var(--main-background),black); */
-  background: url(svgs/starry-night.svg) no-repeat bottom;
+  background: url(svgs/starry-night.svg) repeat-x bottom;
   background-size: contain;
 
   }
