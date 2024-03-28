@@ -26,12 +26,16 @@
   color: var(--h1);
 } */
 
-
+.form-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .form-caption {
   font-family: "Mulish", sans-serif;
   font-weight: 300;
   color: grey;
   font-size: small;
+  margin-top: -5px;
 }
 
 
@@ -54,6 +58,7 @@ input[type="date"] {
   border: 1px solid var(--divider-line);
   border-radius: 4px;
   box-sizing: border-box;
+  margin-top: 8px;
 }
 
 input[type="submit"] {
