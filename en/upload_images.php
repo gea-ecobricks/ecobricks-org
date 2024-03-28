@@ -20,28 +20,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (isset($_FILES['featured_img']) && $_FILES['featured_img']['error'] === UPLOAD_ERR_OK) {
             $featured_img_name = $_FILES['featured_img']['name'];
             $featured_img_tmp = $_FILES['featured_img']['tmp_name'];
-            
+
             // Get the file extension
             $file_extension = pathinfo($featured_img_name, PATHINFO_EXTENSION);
-            
+
             // New file name
             $new_featured_img_name = 'featured-img-project-' . $project_id . '.' . $file_extension;
-            
+
             // Rename the uploaded file
             if (!rename($featured_img_tmp, $upload_dir . $new_featured_img_name)) {
                 $error_message .= "Error renaming featured image.<br>";
+            } else {
+                // Update the corresponding project record in the database
+                $full_url = $upload_dir . $new_featured_img_name;
+                $update_sql = "UPDATE tb_projects SET featured_image = '$full_url' WHERE project_id = ?";
+                $update_stmt = $conn->prepare($update_sql);
+                $update_stmt->bind_param("i", $project_id);
+                $update_stmt->execute();
+                $update_stmt->close();
             }
         } else {
-            $error_message .= "No featured image uploaded or file upload error occurred.<br>";
+            $error_message .= "No photo selected! Please try again.<br>";
         }
     }
 
-    // If there are errors, display them in the modal
+    // If there are errors, display them
     if (!empty($error_message)) {
         echo $error_message;
     } else {
         // If no errors, echo success message
-        echo "Uploads successful!";
+        echo "Upload is successful!";
     }
 }
 
