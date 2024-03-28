@@ -114,8 +114,7 @@ xhr.onreadystatechange = function() {
 };
 xhr.open(form.method, form.action, true);
 xhr.send(formData);
-
-
+});
     </script>
 
 

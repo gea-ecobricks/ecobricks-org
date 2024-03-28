@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Execute the SQL statement
     if ($stmt->execute()) {
-        $response_message = "Project submitted successfully.";
+        $response_message = "The Project is submitted successfully.";
     } else {
         $response_message = "Error: " . $sql . "<br>" . $conn->error;
     }
