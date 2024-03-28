@@ -25,22 +25,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the last inserted project_id
         $project_id = $conn->insert_id;
         $response_message = "Project $name has been submitted successfully. This is project number $project_id";
-
-        // Redirect to upload-images.php with project_id as a parameter
-        header("Location: upload-images.php?project_id=$project_id");
-        exit();
+        
+        // Close statement
+        $stmt->close();
+        
+        // Close connection
+        $conn->close();
+        
+        // Redirect to upload-images.php with project_id as a parameter after showing modal
+        echo "<script>
+                setTimeout(function() {
+                    document.getElementById('form-modal-message').style.display = 'block';
+                    document.querySelector('.modal-message').innerHTML = 'Your project record is now setup. Now let\'s upload some images...';
+                    setTimeout(function() {
+                        window.location.href = 'upload-images.php?project_id=$project_id';
+                    }, 2000); // 2 seconds delay
+                }, 0);
+              </script>";
     } else {
         $response_message = "Error: " . $sql . "<br>" . $conn->error;
     }
-
-    // Close statement
-    $stmt->close();
 }
-
-// Close connection
-$conn->close();
-
-// Return response message to be displayed in modal
-echo $response_message;
 
 ?>
