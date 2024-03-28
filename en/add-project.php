@@ -85,8 +85,9 @@
     modalMessage.innerHTML = message;
     modal.style.display = 'flex';
     
-    // Add blur effect and hide overflow on page-content
+    // Add blur effect and hide overflow on page-content and footer-full
     document.getElementById('page-content').classList.add('blurred');
+    document.getElementById('footer-full').classList.add('blurred');
     document.body.classList.add('modal-open');
 
     // Close modal when clicking outside
