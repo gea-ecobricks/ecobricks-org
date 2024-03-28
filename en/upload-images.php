@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.92';?>
+<?php $version='1.93';?>
 <?php $page='upload-images';?>
 
 
@@ -17,20 +17,20 @@
                 
     <div id="form-submission-box" style="margin-top: 100px">
         <div class="form-container">
-            <h2 data-lang-id="001-form-title">No Upload Your Images</h2>
+            <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
             <p data-lang-id="002-form-description">Upload your project images here.</p>
            
 
 
-     <form action="upload_images.php" method="post" enctype="multipart/form-data">
+     <form id="submit-form" action="upload_images.php" method="post" enctype="multipart/form-data">
             
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
             <label for="featured_img">Featured Image:</label>
             <input type="file" id="featured_img" name="featured_img">
             <br><br>
-            <label for="thumbnail_img">Thumbnail Image:</label>
-            <input type="file" id="thumbnail_img" name="thumbnail_img">
+            <!-- <label for="thumbnail_img">Thumbnail Image:</label>
+            <input type="file" id="thumbnail_img" name="thumbnail_img"> -->
             <br><br>
             <input type="submit" value="Upload Images">
     </form>
@@ -67,7 +67,7 @@ if (event.target == modal) {
 
 
 // Add event listener to form submission
-document.querySelector('form').addEventListener('submit', function(event) {
+document.querySelector('submit-form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent default form submission
     var form = event.target;
     var formData = new FormData(form);
