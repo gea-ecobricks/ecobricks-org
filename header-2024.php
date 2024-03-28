@@ -415,6 +415,7 @@ window.onload = function() {
 <!-- TOUR SLIDER -->
 
 
+
 <div id="guided-tour" class="modal">
     <div class="tour-content">
       <span class="close-tour close" style="padding:10px" onclick="closeTour();">&times;</span>

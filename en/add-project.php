@@ -11,6 +11,12 @@
 
  <!-- PAGE CONTENT-->
 
+ <div id="form-modal-message" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-message"></div>
+    </div>
+</div>
 
                 
     <div id="form-submission-box" style="margin-top: 85px">
@@ -76,7 +82,31 @@
 
 	<?php require_once ("../footer-2024.php");?>
 
+</div>
 
+<script>
+
+function showFormModal(message) {
+    // Get the modal element
+    var modal = document.getElementById('form-modal-message');
+
+    // Get the modal message element
+    var modalMessage = modal.querySelector('.modal-message');
+
+    // Set the message content
+    modalMessage.innerHTML = message;
+
+    // Display the modal
+    modal.style.display = 'block';
+
+    // Close the modal when clicked outside of it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+}
+</script>
 
 </body>
 </html>
