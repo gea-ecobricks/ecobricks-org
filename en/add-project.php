@@ -9,7 +9,6 @@
 
 <?php require_once ("../includes/submit-project-inc.php");?>
 
-<?php require_once ("../submit_project.php");?>
 
  <!-- PAGE CONTENT-->
 
