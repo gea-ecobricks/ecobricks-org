@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.9';?>
+<?php $version='1.92';?>
 <?php $page='upload-images';?>
 
 
@@ -36,6 +36,62 @@
     </form>
 
 
+
+
+<script>
+// Function to show the modal
+function showFormModal(message) {
+    var modal = document.getElementById('form-modal-message');
+    var modalMessage = modal.querySelector('.modal-message');
+    modalMessage.innerHTML = message;
+    modal.style.display = 'flex';
+
+    // Add blur effect and hide overflow on page-content and footer-full
+    document.getElementById('page-content').classList.add('blurred');
+    document.getElementById('footer-full').classList.add('blurred');
+    document.body.classList.add('modal-open');
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            closeInfoModal();
+        }
+    }
+}
+
+
+// Add event listener to form submission
+document.getElementById('submit-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+    var form = event.target;
+    var formData = new FormData(form);
+    
+    // Send form data using AJAX
+    var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+if (xhr.readyState == XMLHttpRequest.DONE) {
+if (xhr.status == 200) {
+    handleFormResponse(xhr.responseText);
+} else {
+    handleFormResponse('Error submitting form.');
+}
+}
+};
+xhr.open(form.method, form.action, true);
+xhr.send(formData);
+});
+
+// Function to close the modal
+function closeInfoModal() {
+    var modal = document.getElementById('form-modal-message');
+    modal.style.display = 'none';
+
+    // Remove blur effect and show overflow on page-content and footer-full
+    document.getElementById('page-content').classList.remove('blurred');
+    document.getElementById('footer-full').classList.remove('blurred');
+    document.body.classList.remove('modal-open');
+}
+</script>
                     <!-- <div class="form-item">
                 <label for="featured_img" data-lang-id="011-featured-image">Featured Image:</label><br>
                 <input type="file" id="featured_img" name="featured_img">
@@ -105,38 +161,6 @@
 
 </div>
 
-<script>
-// Function to show the modal
-function showFormModal(message) {
-    var modal = document.getElementById('form-modal-message');
-    var modalMessage = modal.querySelector('.modal-message');
-    modalMessage.innerHTML = message;
-    modal.style.display = 'flex';
-
-    // Add blur effect and hide overflow on page-content and footer-full
-    document.getElementById('page-content').classList.add('blurred');
-    document.getElementById('footer-full').classList.add('blurred');
-    document.body.classList.add('modal-open');
-
-    // Close modal when clicking outside
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            closeInfoModal();
-        }
-    }
-}
-
-// Function to close the modal
-function closeInfoModal() {
-    var modal = document.getElementById('form-modal-message');
-    modal.style.display = 'none';
-
-    // Remove blur effect and show overflow on page-content and footer-full
-    document.getElementById('page-content').classList.remove('blurred');
-    document.getElementById('footer-full').classList.remove('blurred');
-    document.body.classList.remove('modal-open');
-}
-</script>
 
 </body>
 </html>
