@@ -74,6 +74,8 @@
 
     <!-- JavaScript to handle form submission response and display modal -->
     <script>
+
+        
         // Function to handle form submission response
         function handleFormResponse(response) {
             showFormModal(response);
@@ -101,18 +103,19 @@
             
             // Send form data using AJAX
             var xhr = new XMLHttpRequest();
-            xhr.onreadystatechange = function() {
-                if (xhr.readyState == XMLHttpRequest.DONE) {
-                    if (xhr.status == 200) {
-                        handleFormResponse(xhr.responseText);
-                    } else {
-                        handleFormResponse('Error submitting form.');
-                    }
-                }
-            };
-            xhr.open(form.method, form.action, true);
-            xhr.send(formData);
-        });
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == XMLHttpRequest.DONE) {
+        if (xhr.status == 200) {
+            handleFormResponse(xhr.responseText);
+        } else {
+            handleFormResponse('Error submitting form.');
+        }
+    }
+};
+xhr.open(form.method, form.action, true);
+xhr.send(formData);
+
+
     </script>
 
 
