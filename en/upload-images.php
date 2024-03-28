@@ -22,7 +22,7 @@
            
 
 
-     <form id="submit-form" action="upload_images.php" method="post" enctype="multipart/form-data">
+     <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
@@ -67,7 +67,7 @@ if (event.target == modal) {
 
 
 // Add event listener to form submission
-document.querySelector('submit-form').addEventListener('submit', function(event) {
+document.querySelector('photoform').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent default form submission
     var form = event.target;
     var formData = new FormData(form);
