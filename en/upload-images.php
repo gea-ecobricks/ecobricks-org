@@ -22,17 +22,17 @@
            
 
 
-            <form action="upload_images.php" method="post" enctype="multipart/form-data">
+     <form action="upload_images.php" method="post" enctype="multipart/form-data">
             
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
             <label for="featured_img">Featured Image:</label>
-        <input type="file" id="featured_img" name="featured_img">
-        <br><br>
-        <label for="thumbnail_img">Thumbnail Image:</label>
-        <input type="file" id="thumbnail_img" name="thumbnail_img">
-        <br><br>
-        <input type="submit" value="Upload Images">
+            <input type="file" id="featured_img" name="featured_img">
+            <br><br>
+            <label for="thumbnail_img">Thumbnail Image:</label>
+            <input type="file" id="thumbnail_img" name="thumbnail_img">
+            <br><br>
+            <input type="submit" value="Upload Images">
     </form>
 
 
