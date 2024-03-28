@@ -1024,6 +1024,8 @@ z-index: 1000;
   color: var(--h1);
   font-family: 'Mulish', sans-serif;
   font-size: 1.4em;
+  display: flex;
+  margin: auto;
 
 
 }

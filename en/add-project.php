@@ -84,7 +84,7 @@
             var modal = document.getElementById('form-modal-message');
             var modalMessage = modal.querySelector('.modal-message');
             modalMessage.innerHTML = message;
-            modal.style.display = 'block';
+            modal.style.display = 'flex';
 
             window.onclick = function(event) {
                 if (event.target == modal) {
