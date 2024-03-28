@@ -14,21 +14,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $project_id = $_POST['project_id'];
 
         // File upload directory
-        $upload_dir = '../projects/';
+        $upload_dir = '../projects/featured/';
 
-        // Upload featured image
-        if (isset($_FILES['featured_img']) && $_FILES['featured_img']['error'] === UPLOAD_ERR_OK) {
-            $featured_img_name = $_FILES['featured_img']['name'];
-            $featured_img_tmp = $_FILES['featured_img']['tmp_name'];
-            if (!move_uploaded_file($featured_img_tmp, $upload_dir . 'featured/' . $featured_img_name)) {
-                $error_message .= "Error uploading featured image.<br>";
-                echo $error_message; // Echo error message
-            }
-        } else {
-            $error_message .= "No featured image uploaded or file upload error occurred.<br>";
+    // Upload featured image
+    if (isset($_FILES['featured_img']) && $_FILES['featured_img']['error'] === UPLOAD_ERR_OK) {
+        $featured_img_name = $_FILES['featured_img']['name'];
+        $featured_img_tmp = $_FILES['featured_img']['tmp_name'];
+        
+        // Get the file extension
+        $file_extension = pathinfo($featured_img_name, PATHINFO_EXTENSION);
+        
+        // New file name
+        $new_featured_img_name = 'featured-img-project-' . $project_id . '.' . $file_extension;
+        
+        // Rename the uploaded file
+        if (!rename($featured_img_tmp, $upload_dir . 'featured/' . $new_featured_img_name)) {
+            $error_message .= "Error renaming featured image.<br>";
             echo $error_message; // Echo error message
         }
+    } else {
+        $error_message .= "No featured image uploaded or file upload error occurred.<br>";
+        echo $error_message; // Echo error message
     }
+}
+
 
     // If there are errors, display them in the modal
     if (!empty($error_message)) {
