@@ -26,8 +26,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $project_id = $conn->insert_id;
         $response_message = "Project $name has been submitted successfully. This is project number $project_id";
 
-        // Redirect to upload_images.php with project_id as a parameter
-        header("Location: upload_images.php?project_id=$project_id");
+        // Redirect to upload-images.php with project_id as a parameter
+        header("Location: upload-images.php?project_id=$project_id");
         exit();
     } else {
         $response_message = "Error: " . $sql . "<br>" . $conn->error;
