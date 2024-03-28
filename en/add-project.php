@@ -83,28 +83,45 @@ input[type="submit"]:hover {
 }
 
 .container {
-  margin: 0 auto;
   width: 60%;
   max-width: 600px; /* Set maximum width */
   background-color: var(--settings-background);
   padding: 20px;
   border: 1px solid var(--divider-line);
   border-radius: 5px;
+  margin: 0 auto; /* Center horizontally by default */
 }
 
 /* Media Query for screens under 700px */
 @media screen and (max-width: 700px) {
   .container {
-    width: calc(100% - 20px); /* Account for padding */
+    width: calc(100% - 40px); /* Account for padding */
+    margin: 0; /* Remove all margins */
+    border: none; /* Remove border */
+    padding: 20px 20px 0 20px; /* Adjust padding */
   }
 }
 
+/* Centering the form vertically on larger screens */
+@media screen and (min-width: 701px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .container {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
 
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Submit Project</h2>
+        <h2 >Submit Project</h2>
         <form method="post" action="submit_project.php">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name"><br>
