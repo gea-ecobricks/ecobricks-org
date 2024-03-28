@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.91';?>
+<?php $version='1.93';?>
 <?php $page='submit-project';?>
 
 
@@ -11,8 +11,6 @@
 
 
  <!-- PAGE CONTENT-->
-
-
 
                 
     <div id="form-submission-box" style="margin-top: 100px">
