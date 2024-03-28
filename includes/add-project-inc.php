@@ -45,6 +45,11 @@ label {
   background: var(--input-background);
 }
 
+.form-item textarea {
+  background: var(--input-background);
+}
+
+
 input[type="text"],
 input[type="number"],
 textarea,
