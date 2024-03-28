@@ -411,7 +411,15 @@ window.onload = function() {
 <BODY>
 
 
+<div id="form-modal-message" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-message"></div>
+    </div>
+</div>
 
+<!-- <button type="button" onclick="closeSettings()" aria-label="Click to close settings page" class="x-button">
+        </button> -->
 <!-- TOUR SLIDER -->
 
 
