@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.76';?>
+<?php $version='1.77';?>
 <?php $page='submit-project';?>
 
 
@@ -48,9 +48,6 @@
                 
                 <div class="form-item">
                 <label for="featured_img" data-lang-id="011-featured-image">Featured Image:</label><br>
-
-                                <input type="file" id="featured_img" name="featured_img">
-
                 <input type="file" id="featured_img" name="featured_img">
                 <p class="form-caption" data-lang-id="012-featured-image-caption">Please upload a square image that showcases this project.</p>
 

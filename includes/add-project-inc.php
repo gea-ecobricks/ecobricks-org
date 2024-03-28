@@ -42,7 +42,7 @@ label {
 
 
 .form-item input {
-  background: grey;
+  background: var(--input-background);
 }
 
 input[type="text"],
