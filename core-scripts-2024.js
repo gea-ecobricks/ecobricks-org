@@ -132,6 +132,17 @@ document.addEventListener('keydown', modalCloseCurtains);
 
 
 
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeInfoModal() {
+    document.getElementById("form-modal-message").style.display = "none";
+    document.body.style.overflowY = "unset";
+  document.body.style.maxHeight = "unset";
+    //document.body.style.height = "unset";
+  } 
+  
+
+
+
 
 
 
