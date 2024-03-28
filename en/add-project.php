@@ -119,15 +119,6 @@ xhr.open(form.method, form.action, true);
 xhr.send(formData);
 });
 
-
-    // Populate and display the modal message
-    setTimeout(function() {
-        var modal = document.getElementById("form-modal-message");
-        var modalMessage = modal.querySelector(".modal-message");
-        modalMessage.innerHTML = "Your project record is now set up. Now let's upload some images...";
-        modal.style.display = "block";
-    }, 0);
-        
     </script>
 
 

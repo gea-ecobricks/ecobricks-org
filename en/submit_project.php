@@ -35,7 +35,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Return response message to be displayed in modal
         echo "<script>
                 setTimeout(function() {
-                    document.getElementById('form-modal-message').style.display = 'block';
+                    document.getElementById('form-modal-message').style.display = 'flex';
+
                     document.querySelector('.modal-message').innerHTML = 'Your project record is now setup. Now let\'s upload some images...';
                     setTimeout(function() {
                         window.location.href = 'upload-images.php?project_id=$project_id';
