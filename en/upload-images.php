@@ -4,7 +4,7 @@
 <META charset="UTF-8">
 <?php $lang='en';?>
 <?php $version='1.9';?>
-<?php $page='upload-photos';?>
+<?php $page='upload-images';?>
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
