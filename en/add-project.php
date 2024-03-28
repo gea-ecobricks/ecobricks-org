@@ -12,7 +12,6 @@
  <!-- PAGE CONTENT-->
 
 
- <div id="main-content">
                 
     <div id="form-submission-box" style="margin-top: 85px">
         <div class="form-container">
