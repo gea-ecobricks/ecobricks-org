@@ -81,7 +81,6 @@ input[type="submit"]:hover {
 .form-container {
   width: 80%;
   background-color: var(--settings-background);
-  padding: 20px;
   border: 1px solid var(--divider-line);
   border-radius: 15px;
   margin: 0 auto;
@@ -98,6 +97,8 @@ input[type="submit"]:hover {
     border: none;
     padding: 20px 20px 0 20px;
     max-width: 600px;
+    padding: 20px;
+
 
   }
 }
@@ -108,12 +109,14 @@ input[type="submit"]:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .form-container {
     margin-top: auto;
     margin-bottom: auto;
+    padding: 30px;
+
   }
 }
 
