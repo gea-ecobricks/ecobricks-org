@@ -1040,6 +1040,10 @@ textarea {
   background-color: grey;
 }
 
+input {
+  background-color: grey ;
+}
+
 /*--------------------------------------
 GUIDED TOUR---*
 --------------------------------------*/

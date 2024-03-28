@@ -40,6 +40,11 @@ label {
   color: var(--text-color);
 }
 
+
+.form-item input {
+  background: grey;
+}
+
 input[type="text"],
 input[type="number"],
 textarea,
