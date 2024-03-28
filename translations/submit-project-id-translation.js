@@ -1,6 +1,6 @@
 /*-----------------------------------
 
-FRENCH SNIPPETS FOR 404 page on ECOBRICKS.ORG
+ID SNIPPETS FOR Project Submit page on ECOBRICKS.ORG
 
 
 -----------------------------------*/

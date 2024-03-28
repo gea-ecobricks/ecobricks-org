@@ -18,7 +18,7 @@
 
 #form-submission-box {
   font-family: "Mulish", sans-serif;
-  background-color: var(--main-background);
+  /* background-color: var(--main-background); */
 }
 
 h2 {
