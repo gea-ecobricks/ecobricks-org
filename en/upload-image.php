@@ -4,7 +4,7 @@
 <META charset="UTF-8">
 <?php $lang='en';?>
 <?php $version='1.9';?>
-<?php $page='submit-project';?>
+<?php $page='upload-photos';?>
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
@@ -17,10 +17,42 @@
                 
     <div id="form-submission-box" style="margin-top: 100px">
         <div class="form-container">
-            <h2 data-lang-id="001-form-title">Post & Share Your project</h2>
-            <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
-            <form id="submit-form" method="post" action="submit_project.php" enctype="multipart/form-data">
+            <h2 data-lang-id="001-form-title">Upload Images</h2>
+            <p data-lang-id="002-form-description">Upload your project images here.</p>
+           
 
+
+            <form action="upload_images.php" method="post" enctype="multipart/form-data">
+            
+            <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
+            
+            <label for="featured_img">Featured Image:</label>
+        <input type="file" id="featured_img" name="featured_img">
+        <br><br>
+        <label for="thumbnail_img">Thumbnail Image:</label>
+        <input type="file" id="thumbnail_img" name="thumbnail_img">
+        <br><br>
+        <input type="submit" value="Upload Images">
+    </form>
+
+
+                    <!-- <div class="form-item">
+                <label for="featured_img" data-lang-id="011-featured-image">Featured Image:</label><br>
+                <input type="file" id="featured_img" name="featured_img">
+                <p class="form-caption" data-lang-id="012-featured-image-caption">Please upload a square image that showcases this project.</p>
+
+
+                </div>
+                 -->
+                <!-- <div class="form-item">
+                    <label for="tmb_featured_img" data-lang-id="013-thumbnail-featured-image">Thumbnail Featured Image:</label><br>
+                    <input type="file" id="tmb_featured_img" name="tmb_featured_img">
+
+                    <p class="form-caption" data-lang-id="014-thumbnail-featured-image-caption">Please upload a square image thumbnail that showcases this project (100x100px).</p>
+                </div> -->
+
+
+<!-- 
                 <div class="form-item" style="margin-top: 25px;">
                     <label for="name" data-lang-id="003-project-name">Project Name:</label><br>
                     <input type="text" id="name" name="name" title="Max 255 characters">
@@ -46,20 +78,7 @@
                     <p class="form-caption" data-lang-id="010-bricks-used-caption">How many briks did the project use?</p>
                 </div>
                 
-                <!-- <div class="form-item">
-                <label for="featured_img" data-lang-id="011-featured-image">Featured Image:</label><br>
-                <input type="file" id="featured_img" name="featured_img">
-                <p class="form-caption" data-lang-id="012-featured-image-caption">Please upload a square image that showcases this project.</p>
 
-
-                </div>
-                 -->
-                <!-- <div class="form-item">
-                    <label for="tmb_featured_img" data-lang-id="013-thumbnail-featured-image">Thumbnail Featured Image:</label><br>
-                    <input type="file" id="tmb_featured_img" name="tmb_featured_img">
-
-                    <p class="form-caption" data-lang-id="014-thumbnail-featured-image-caption">Please upload a square image thumbnail that showcases this project (100x100px).</p>
-                </div> -->
 
 
                 <div class="form-item">
@@ -69,7 +88,7 @@
                 </div>
                 
                 <input type="submit" value="Submit" data-lang-id="017-submit-button">
-            </form>
+            </form> -->
         </div>
     </div>
 

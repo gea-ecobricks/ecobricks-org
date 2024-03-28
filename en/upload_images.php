@@ -1,40 +1,36 @@
 <?php
 
-// Check if project_id is set in the URL
-if (isset($_GET['project_id'])) {
-    $project_id = $_GET['project_id'];
+// Include necessary environment setup
+include '../ecobricks_env.php';
 
-    // File upload directory
-    $upload_dir = '../projects/featured/';
+// Check if the form has been submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    // Check if file is uploaded successfully
-    if (isset($_FILES['featured_img']) && $_FILES['featured_img']['error'] === UPLOAD_ERR_OK) {
-        $file_name = $_FILES['featured_img']['name'];
-        $file_tmp = $_FILES['featured_img']['tmp_name'];
-        $file_ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
-        
-        // Construct new file name
-        $new_file_name = 'featured-img-project-' . $project_id . '.' . $file_ext;
-        
-        // Move uploaded file to the specified directory with the new name
-        if (move_uploaded_file($file_tmp, $upload_dir . $new_file_name)) {
-            // File uploaded successfully
-            
-            // Handle any additional operations if needed
-            
-            echo "File uploaded successfully and renamed to $new_file_name";
-        } else {
-            // Error occurred while moving the file
-            echo "Error moving the file.";
+    // Check if project_id is set
+    if (isset($_POST['project_id'])) {
+        $project_id = $_POST['project_id'];
+
+        // File upload directory
+        $upload_dir = '../projects/';
+
+        // Upload featured image
+        if (isset($_FILES['featured_img']) && $_FILES['featured_img']['error'] === UPLOAD_ERR_OK) {
+            $featured_img_name = $_FILES['featured_img']['name'];
+            $featured_img_tmp = $_FILES['featured_img']['tmp_name'];
+            move_uploaded_file($featured_img_tmp, $upload_dir . 'featured/' . $featured_img_name);
         }
-    } else {
-        // No file uploaded or error occurred
-        echo "Error uploading file: " . $_FILES['featured_img']['error'];
+
+        // Upload thumbnail image
+        if (isset($_FILES['thumbnail_img']) && $_FILES['thumbnail_img']['error'] === UPLOAD_ERR_OK) {
+            $thumbnail_img_name = $_FILES['thumbnail_img']['name'];
+            $thumbnail_img_tmp = $_FILES['thumbnail_img']['tmp_name'];
+            move_uploaded_file($thumbnail_img_tmp, $upload_dir . 'thumbnail/' . $thumbnail_img_name);
+        }
     }
-} else {
-    // Redirect back to the form if project_id is not set
-    header("Location: submit_project.php");
-    exit();
 }
+
+// Redirect back to the form after processing
+header("Location: upload_images.php");
+exit();
 
 ?>
