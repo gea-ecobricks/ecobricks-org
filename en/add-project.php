@@ -19,8 +19,7 @@
         <div class="form-container">
             <h2 data-lang-id="001-form-title">Post & Share Your project</h2>
             <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
-
-            <form id="submit-form" method="post" action="submit_project.php">
+            <form id="submit-form" method="post" action="submit_project.php" enctype="multipart/form-data">
 
                 <div class="form-item" style="margin-top: 25px;">
                     <label for="name" data-lang-id="003-project-name">Project Name:</label><br>
@@ -49,6 +48,9 @@
                 
                 <div class="form-item">
                 <label for="featured_img" data-lang-id="011-featured-image">Featured Image:</label><br>
+
+                                <input type="file" id="featured_img" name="featured_img">
+
                 <input type="file" id="featured_img" name="featured_img">
                 <p class="form-caption" data-lang-id="012-featured-image-caption">Please upload a square image that showcases this project.</p>
 
@@ -57,10 +59,10 @@
                 
                 <div class="form-item">
                     <label for="tmb_featured_img" data-lang-id="013-thumbnail-featured-image">Thumbnail Featured Image:</label><br>
-                    <input type="text" id="tmb_featured_img" name="tmb_featured_img">
+                    <input type="file" id="tmb_featured_img" name="tmb_featured_img">
+
                     <p class="form-caption" data-lang-id="014-thumbnail-featured-image-caption">Please upload a square image thumbnail that showcases this project (100x100px).</p>
                 </div>
-                
                 <div class="form-item">
                     <label for="location_full" data-lang-id="015-location">Location:</label><br>
                     <input type="text" id="location_full" name="location_full">
