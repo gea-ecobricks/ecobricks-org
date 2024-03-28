@@ -19,8 +19,8 @@
         <h2 data-lang-id="001-form-title">Post your project</h2>
         <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
         <form method="post" action="submit_project.php">
-            <label for="name" data-lang-id="003-project-name" title="Max 255 characters">Project Name:</label><br>
-            <input type="text" id="name" name="name">
+            <label for="name" data-lang-id="003-project-name">Project Name:</label><br>
+            <input type="text" id="name" name="name"  title="Max 255 characters">
             <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.</p>
             
             <label for="description" data-lang-id="004-project-desc">Project Description:</label><br>
