@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<HTML lang="en"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='en';?>
+<?php $version='1.66';?>
+<?php $page='submit-project';?>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submit Project</title>
     <style>
