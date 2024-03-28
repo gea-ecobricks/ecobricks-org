@@ -103,6 +103,20 @@ input[type="submit"]:hover {
   }
 }
 
+#featured_image {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 5px;
+  font-size: 1em;
+}
+
+#tmb_featured_image {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 5px;
+  font-size: 1em;
+}
+
 /* Centering the form vertically on larger screens */
 @media screen and (min-width: 701px) {
   #form-submission-box {
