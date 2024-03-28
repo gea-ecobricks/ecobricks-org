@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Close connection
         $conn->close();
         
-        // Redirect to upload-images.php with project_id as a parameter after showing modal
+        // Return response message to be displayed in modal
         echo "<script>
                 setTimeout(function() {
                     document.getElementById('form-modal-message').style.display = 'block';
@@ -46,5 +46,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $response_message = "Error: " . $sql . "<br>" . $conn->error;
     }
 }
-
-?>
