@@ -1,7 +1,7 @@
 <?php
 
-ini_set('display_errors', 1); error_reporting(E_ALL);
-
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
 // Include necessary environment setup
 include '../ecobricks_env.php';
@@ -16,8 +16,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['project_id'])) {
         $project_id = $_POST['project_id'];
 
-        // File upload directory
+        // File upload directories
         $upload_dir = '../projects/featured/';
+        $thumbnail_dir = '../projects/featured_tmbs/';
 
         // Upload featured image
         if (isset($_FILES['featured_img']) && $_FILES['featured_img']['error'] === UPLOAD_ERR_OK) {
@@ -34,11 +35,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (!rename($featured_img_tmp, $upload_dir . $new_featured_img_name)) {
                 $error_message .= "Error renaming featured image.<br>";
             } else {
+                // Create thumbnail
+                $thumbnail_path = $thumbnail_dir . $new_featured_img_name;
+                createThumbnail($upload_dir . $new_featured_img_name, $thumbnail_path, 100, 100, 77);
+
                 // Update the corresponding project record in the database
-                $full_url = $upload_dir . $new_featured_img_name;
-                $update_sql = "UPDATE tb_projects SET featured_img = '$full_url' WHERE project_id = ?";
+                $update_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
                 $update_stmt = $conn->prepare($update_sql);
-                $update_stmt->bind_param("i", $project_id);
+                $update_stmt->bind_param("si", $thumbnail_path, $project_id);
                 $update_stmt->execute();
                 $update_stmt->close();
             }
@@ -54,6 +58,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // If no errors, echo success message
         echo "Upload is successful!";
     }
+}
+
+// Function to create a thumbnail using GD library
+function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
+    list($source_width, $source_height, $source_type) = getimagesize($source_path);
+    switch ($source_type) {
+        case IMAGETYPE_JPEG:
+            $source_image = imagecreatefromjpeg($source_path);
+            break;
+        case IMAGETYPE_PNG:
+            $source_image = imagecreatefrompng($source_path);
+            break;
+        case IMAGETYPE_WEBP:
+            $source_image = imagecreatefromwebp($source_path);
+            break;
+        default:
+            return false;
+    }
+    $thumbnail = imagecreatetruecolor($width, $height);
+    imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $width, $height, $source_width, $source_height);
+    imagedestroy($source_image);
+    imagejpeg($thumbnail, $destination_path, $quality);
+    imagedestroy($thumbnail);
+    return true;
 }
 
 ?>
