@@ -23,13 +23,46 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $upload_dir = '../projects/featured/';
         $thumbnail_dir = '../projects/featured_tmbs/';
 
-        // Check if an image was uploaded
-        if (!isset($_FILES['featured_img']) || $_FILES['featured_img']['error'] !== UPLOAD_ERR_OK) {
-            // No image was uploaded or there was an error, return 400 status with an error message
-            http_response_code(400);
-            echo json_encode(array('error' => 'No photo selected! Please try again.'));
-            exit; // Terminate script execution
-        }
+// Check if an image was uploaded
+if (!isset($_FILES['featured_img']) || $_FILES['featured_img']['error'] !== UPLOAD_ERR_OK) {
+    // No image was uploaded or there was an error
+    switch ($_FILES['featured_img']['error']) {
+        case UPLOAD_ERR_INI_SIZE:
+        case UPLOAD_ERR_FORM_SIZE:
+            // File size exceeds the maximum upload size
+            $error_message = 'Error: File size exceeds the maximum upload size. Please try again with a smaller file.';
+            break;
+        case UPLOAD_ERR_PARTIAL:
+            // File upload was only partially completed
+            $error_message = 'Error: File upload was only partially completed. Please try again.';
+            break;
+        case UPLOAD_ERR_NO_FILE:
+            // No file was uploaded
+            $error_message = 'Error: No photo selected! Please try again.';
+            break;
+        case UPLOAD_ERR_NO_TMP_DIR:
+            // Missing temporary folder
+            $error_message = 'Error: Missing temporary folder. Please contact the site administrator.';
+            break;
+        case UPLOAD_ERR_CANT_WRITE:
+            // Failed to write file to disk
+            $error_message = 'Error: Failed to write file to disk. Please contact the site administrator.';
+            break;
+        case UPLOAD_ERR_EXTENSION:
+            // File upload stopped by extension
+            $error_message = 'Error: File upload stopped by extension. Please try again.';
+            break;
+        default:
+            // Other unknown upload error
+            $error_message = 'Error: Unknown upload error. Please try again later.';
+            break;
+    }
+
+    // Return 400 status with the error message
+    http_response_code(400);
+    echo json_encode(array('error' => $error_message));
+    exit; // Terminate script execution
+}
 
         // Image was uploaded, proceed with processing
         $featured_img_name = $_FILES['featured_img']['name'];
