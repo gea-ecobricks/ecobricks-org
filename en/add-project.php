@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.94';?>
+<?php $version='1.95';?>
 <?php $page='submit-project';?>
 
 
@@ -66,7 +66,7 @@
                     <p class="form-caption" data-lang-id="016-location-caption">Tell us where this project is (City, Region, Country).</p>
                 </div>
                 
-                <input type="submit" value="Submit" data-lang-id="017-submit-button">
+                <input type="submit" value="Next" data-lang-id="017-submit-button">
             </form>
         </div>
     </div>

@@ -43,10 +43,12 @@ label {
 
 .form-item input {
   background: var(--input-background);
+  font-size: 1.1em;
 }
 
 .form-item textarea {
   background: var(--input-background);
+  font-size: 1.1em;
 }
 
 

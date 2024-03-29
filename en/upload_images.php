@@ -77,6 +77,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // If there are errors, display them
     if (!empty($error_message)) {
         echo $error_message;
+
+        
     } else {
         // If no errors, echo success message
         echo "Upload is successful!";
