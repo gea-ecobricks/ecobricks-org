@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.95';?>
+<?php $version='1.97';?>
 <?php $page='upload-images';?>
 
 
@@ -24,7 +24,7 @@
             <label for="featured_img"></label>
             <input type="file" id="featured_img" name="featured_img" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;">
             <br><br>
-            <input type="submit" value="Upload Images" id="upload-progress-button">
+            <input type="submit" value="⬆️ Upload Images " id="upload-progress-button">
         </form>
     </div>
 
