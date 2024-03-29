@@ -17,12 +17,12 @@
     
     <div class="form-container" id="upload-photo-form">
         <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
-        <p data-lang-id="002-form-description">Upload your project images here.</p>
+        <p data-lang-id="002-form-description">Upload your project's featured image here.</p>
 
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
-            <label for="featured_img">Featured Image:</label><br>
-            <input type="file" id="featured_img" name="featured_img" style="padding:10px;color:var(--text-color);">
+            <label for="featured_img"></label>
+            <input type="file" id="featured_img" name="featured_img" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);">
             <br><br>
             <input type="submit" value="Upload Images">
         </form>
