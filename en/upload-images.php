@@ -38,6 +38,76 @@
 
 
 <script>
+
+document.querySelector('#photoform').addEventListener('submit', function(event) {
+    // Prevent default form submission
+    event.preventDefault();
+
+    // Check if file input is empty
+    var fileInput = document.getElementById('featured_img');
+    if (fileInput.files.length === 0) {
+        // If file input is empty, display modal message
+        showFormModal('Please choose a file.');
+        return; // Stop form submission
+    }
+
+    // Proceed with form submission and upload progress tracking
+    var form = event.target;
+    var formData = new FormData(form);
+
+    var xhr = new XMLHttpRequest();
+
+    // Track upload progress
+    xhr.upload.onprogress = function(event) {
+        if (event.lengthComputable) {
+            // Calculate and update the background size of the input button based on upload progress
+            var progress = (event.loaded / event.total) * 100;
+            document.getElementById('upload-progress-button').style.backgroundSize = progress + '%';
+
+            // Add progress-bar class to change background color to green
+            document.getElementById('upload-progress-button').classList.add('progress-bar');
+        }
+    };
+
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            if (xhr.status == 200) {
+                handleFormResponse(xhr.responseText);
+            } else {
+                handleFormResponse(xhr.responseText);
+            }
+        }
+    };
+
+    xhr.open(form.method, form.action, true);
+    xhr.send(formData);
+});
+
+
+
+
+// Function to handle form submission response
+function handleFormResponse(response) {
+    try {
+        // Try parsing the JSON response
+        var responseData = JSON.parse(response);
+        // Check if the response contains an "error" field
+        if (responseData.error) {
+            // If there's an error response, show the modal with the error message
+            showFormModal(responseData.error);
+            console.log(responseData.error); // Log error response to console
+        } else {
+            // If no error, call the uploadSuccess function with project data
+            uploadSuccess(responseData.project_id, responseData.project_name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
+        }
+    } catch (error) {
+        // If parsing fails, handle it as an error and show the modal with the response message
+        showFormModal("Error parsing server response: " + response);
+        console.error(error); // Log parsing error to console
+    }
+}
+
+
     // Function to handle upload success
     function uploadSuccess(project_id, project_name, description, start, briks_used, full_url, thumbnail_path, location_full) {
         // Construct HTML content with project data
@@ -53,6 +123,7 @@
         successMessage += '<li>Thumbnail Image URL: ' + thumbnail_path + '</li>';
         successMessage += '<li>Location Full: ' + location_full + '</li>';
         successMessage += '</ul>';
+        successMessage += '<br><a class="module-btn" href="add-project">+ Add Next Project</a>';
 
         // Display the upload-success div and populate with project data
         var uploadSuccessDiv = document.getElementById('upload-success');
@@ -97,86 +168,11 @@
     }
 
 
-  // Add event listener to form submission
-document.querySelector('#photoform').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent default form submission
-    var form = event.target;
-    var formData = new FormData(form);
-
-    // Send form data using AJAX
-    var xhr = new XMLHttpRequest();
-
-    // Track upload progress
-    xhr.upload.onprogress = function(event) {
-    if (event.lengthComputable) {
-        // Calculate and update the background size of the input button based on upload progress
-        var progress = (event.loaded / event.total) * 100;
-        document.getElementById('upload-progress-button').style.backgroundSize = progress + '%';
-
-        // Add progress-bar class to change background color to green
-        document.getElementById('upload-progress-button').classList.add('progress-bar');
-    }
-};
-
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState == XMLHttpRequest.DONE) {
-            if (xhr.status == 200) {
-                handleFormResponse(xhr.responseText);
-            } else {
-                handleFormResponse('Error submitting form.');
-            }
-        }
-    };
-
-    xhr.open(form.method, form.action, true);
-    xhr.send(formData);
-});
-
-// Function to handle form submission response
-function handleFormResponse(response) {
-    try {
-        // Try parsing the JSON response
-        var responseData = JSON.parse(response);
-        // Check if the response contains an "error" field
-        if (responseData.error) {
-            // If there's an error response, show the modal with the error message
-            showFormModal(responseData.error);
-            console.log(responseData.error); // Log error response to console
-        } else {
-            // If no error, call the uploadSuccess function with project data
-            uploadSuccess(responseData.project_id, responseData.project_name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
-        }
-    } catch (error) {
-        // If parsing fails, handle it as an error and show the modal with the response message
-        showFormModal("Error parsing server response: " + response);
-        console.error(error); // Log parsing error to console
-    }
-}
 
 
 
 
 
-
-document.querySelector('#photoform').addEventListener('submit', function(event) {
-    // Prevent default form submission
-    event.preventDefault();
-
-    // Check if file input is empty
-    var fileInput = document.getElementById('featured_img');
-    if (fileInput.files.length === 0) {
-        // If file input is empty, display modal message
-        showFormModal('Please choose a file.');
-        return; // Stop form submission
-    }
-
-    // Proceed with form submission
-    var form = event.target;
-    var formData = new FormData(form);
-
-    var xhr = new XMLHttpRequest();
-    // Continue with the rest of your XMLHttpRequest logic...
-});
 
 
 </script>

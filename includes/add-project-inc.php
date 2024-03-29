@@ -106,7 +106,7 @@ input[type="submit"].progress-bar {
 
 
 input[type="submit"]:hover {
-  background-color: var(--emblem-green-over);
+  background-color: green;
 } 
 
 .form-container {
