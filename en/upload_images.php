@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Rename the uploaded file
             if (!rename($featured_img_tmp, $upload_dir . $new_featured_img_name)) {
-                $error_message .= "Error renaming featured image.<br>";
+                $error_message .= "Error re-naming featured image.<br>";
             } else {
                 // Create thumbnail
                 $thumbnail_path = $thumbnail_dir . $new_featured_img_name;
@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 exit; // Terminate script execution after sending response
             }
         } else {
-            $error_message .= "No photo selected! Please try again.<br>";
+            $error_message .= "Error: No photo selected! Please try again.<br>";
 
             // Prepare error response
             $response = array(

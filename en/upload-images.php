@@ -74,7 +74,6 @@
         document.getElementById('upload-photo-form').style.display = 'none';
     }
 
-    // Function to handle form submission response
 // Function to handle form submission response
 function handleFormResponse(response) {
     if (response.startsWith('Error')) {
