@@ -88,7 +88,6 @@ input[type="submit"]:hover {
   background-color: var(--emblem-green-over);
 } */
 
-
 input[type="submit"] {
   color: white;
   padding: 10px 20px;
@@ -97,15 +96,14 @@ input[type="submit"] {
   cursor: pointer;
   background-color: gray; /* Initial background color */
   background-size: 0% 100%; /* Initial background size (progress bar) */
-  background-position: left; /* Align the background image to the left */
   transition: background-size 0.5s ease; /* Transition effect for smooth progress */
   font-size: 1.3em;
 }
 
 /* Specify the progress bar color */
 input[type="submit"].progress-bar {
-  background: linear-gradient(to right, transparent, green); /* Use linear gradient for progress bar color */
-  background-size: 100% 100%; /* Make the progress bar cover the entire button */
+  background: url(../svgs/background-upload-progress.svg) left center no-repeat, gray; /* Combined background */
+  background-size: auto; /* Auto size for image background */
 }
 
 
