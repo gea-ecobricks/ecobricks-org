@@ -111,7 +111,7 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
         if (event.lengthComputable) {
             // Calculate and update the background size of the input button based on upload progress
             var progress = (event.loaded / event.total) * 100;
-            document.getElementById('upload-progress-button').style.backgroundSize = progress + '% 100%';
+            document.getElementById('upload-progress-button').style.backgroundSize = '100%' progress + '%';
 
             // Add progress-bar class to change background color to green
             document.getElementById('upload-progress-button').classList.add('progress-bar');
