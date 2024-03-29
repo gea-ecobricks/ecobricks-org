@@ -63,6 +63,27 @@
         document.getElementById('upload-photo-form').style.display = 'none';
     }
 
+    // Add event listener to form submission
+    document.querySelector('#photoform').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+        var form = event.target;
+        var formData = new FormData(form);
+
+        // Send form data using AJAX
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == XMLHttpRequest.DONE) {
+                if (xhr.status == 200) {
+                    handleFormResponse(xhr.responseText);
+                } else {
+                    handleFormResponse('Error submitting form.');
+                }
+            }
+        };
+        xhr.open(form.method, form.action, true);
+        xhr.send(formData);
+    });
+
 // Function to handle form submission response
 function handleFormResponse(response) {
     if (response.startsWith('error')) {
@@ -116,26 +137,7 @@ function handleFormResponse(response) {
         document.body.classList.remove('modal-open');
     }
 
-    // Add event listener to form submission
-    document.querySelector('#photoform').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent default form submission
-        var form = event.target;
-        var formData = new FormData(form);
 
-        // Send form data using AJAX
-        var xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState == XMLHttpRequest.DONE) {
-                if (xhr.status == 200) {
-                    handleFormResponse(xhr.responseText);
-                } else {
-                    handleFormResponse('Error submitting form.');
-                }
-            }
-        };
-        xhr.open(form.method, form.action, true);
-        xhr.send(formData);
-    });
 </script>
 
 

@@ -1,3 +1,7 @@
+
+
+
+
 <?php
 
 ini_set('display_errors', 1);
@@ -20,92 +24,62 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $upload_dir = '../projects/featured/';
         $thumbnail_dir = '../projects/featured_tmbs/';
 
-        // Check if a file has been uploaded
-        if (!empty($_FILES['featured_img']['name'])) {
-            // Upload featured image
-            if ($_FILES['featured_img']['error'] === UPLOAD_ERR_OK) {
-                $featured_img_name = $_FILES['featured_img']['name'];
-                $featured_img_tmp = $_FILES['featured_img']['tmp_name'];
+        // Check if an image was uploaded
+        if (!isset($_FILES['featured_img']) || $_FILES['featured_img']['error'] !== UPLOAD_ERR_OK) {
+            // No image was uploaded or there was an error, return 400 status with an error message
+            http_response_code(400);
+            echo json_encode(array('error' => 'No photo selected! Please try again.'));
+            exit; // Terminate script execution
+        }
 
-                // Get the file extension
-                $file_extension = pathinfo($featured_img_name, PATHINFO_EXTENSION);
+        // Image was uploaded, proceed with processing
+        $featured_img_name = $_FILES['featured_img']['name'];
+        $featured_img_tmp = $_FILES['featured_img']['tmp_name'];
 
-                // New file name
-                $new_featured_img_name = 'featured-img-project-' . $project_id . '.' . $file_extension;
+        // Get the file extension
+        $file_extension = pathinfo($featured_img_name, PATHINFO_EXTENSION);
 
-                // Rename the uploaded file
-                if (!rename($featured_img_tmp, $upload_dir . $new_featured_img_name)) {
-                    $error_message .= "Error renaming featured image.<br>";
-                } else {
-                    // Create thumbnail
-                    $thumbnail_path = $thumbnail_dir . $new_featured_img_name;
-                    createThumbnail($upload_dir . $new_featured_img_name, $thumbnail_path, 100, 100, 77);
+        // New file name
+        $new_featured_img_name = 'featured-img-project-' . $project_id . '.' . $file_extension;
 
-                    // Update the corresponding project record in the database
-                    $full_url = $upload_dir . $new_featured_img_name;
-                    $update_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
-                    $update_stmt = $conn->prepare($update_sql);
-                    $update_stmt->bind_param("si", $thumbnail_path, $project_id);
-                    $update_stmt->execute();
-                    $update_stmt->close();
-
-                    // Prepare success response
-                    $response = array(
-                        'project_id' => $project_id,
-                        'project_name' => $_POST['project_name'] ?? null,
-                        'description' => $_POST['description'] ?? null,
-                        'start' => $_POST['start'] ?? null,
-                        'briks_used' => $_POST['briks_used'] ?? null,
-                        'full_url' => $full_url,
-                        'thumbnail_path' => $thumbnail_path,
-                        'location_full' => $_POST['location_full'] ?? null
-                    );
-                    echo json_encode($response);
-                    exit; // Terminate script execution after sending response
-                }
-            } else {
-                $error_message .= "Error uploading featured image: ";
-                switch ($_FILES['featured_img']['error']) {
-                    case UPLOAD_ERR_INI_SIZE:
-                        $error_message .= "The uploaded file exceeds the upload_max_filesize directive in php.ini.";
-                        break;
-                    case UPLOAD_ERR_FORM_SIZE:
-                        $error_message .= "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form.";
-                        break;
-                    case UPLOAD_ERR_PARTIAL:
-                        $error_message .= "The uploaded file was only partially uploaded.";
-                        break;
-                    case UPLOAD_ERR_NO_FILE:
-                        $error_message .= "No file was uploaded.";
-                        break;
-                    case UPLOAD_ERR_NO_TMP_DIR:
-                        $error_message .= "Missing a temporary folder.";
-                        break;
-                    case UPLOAD_ERR_CANT_WRITE:
-                        $error_message .= "Failed to write file to disk.";
-                        break;
-                    case UPLOAD_ERR_EXTENSION:
-                        $error_message .= "A PHP extension stopped the file upload.";
-                        break;
-                    default:
-                        $error_message .= "Unknown error.";
-                        break;
-                }
-                $error_message .= "<br>";
-            }
+        // Rename the uploaded file
+        if (!rename($featured_img_tmp, $upload_dir . $new_featured_img_name)) {
+            $error_message .= "Error re-naming featured image.<br>";
         } else {
-            $error_message .= "Error: No photo selected! Please try again.<br>";
+            // Create thumbnail
+            $thumbnail_path = $thumbnail_dir . $new_featured_img_name;
+            createThumbnail($upload_dir . $new_featured_img_name, $thumbnail_path, 100, 100, 77);
+
+            // Update the corresponding project record in the database
+            $full_url = $upload_dir . $new_featured_img_name;
+            $update_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
+            $update_stmt = $conn->prepare($update_sql);
+            $update_stmt->bind_param("si", $thumbnail_path, $project_id);
+            $update_stmt->execute();
+            $update_stmt->close();
+
+            // Prepare success response
+            $response = array(
+                'project_id' => $project_id,
+                'project_name' => $_POST['project_name'] ?? null,
+                'description' => $_POST['description'] ?? null,
+                'start' => $_POST['start'] ?? null,
+                'briks_used' => $_POST['briks_used'] ?? null,
+                'full_url' => $full_url,
+                'thumbnail_path' => $thumbnail_path,
+                'location_full' => $_POST['location_full'] ?? null
+            );
+            echo json_encode($response);
+            exit; // Terminate script execution after sending response
         }
     }
 
     // If there are errors, display them
     if (!empty($error_message)) {
-        // Prepare error response
-        $response = array(
-            'error' => $error_message
-        );
-        echo json_encode($response);
-        exit; // Terminate script execution after sending response
+        echo $error_message;
+    } else {
+        // If no errors, echo success message
+        echo "Upload is successful!";
     }
 }
 
@@ -134,3 +108,4 @@ function createThumbnail($source_path, $destination_path, $width, $height, $qual
 }
 
 ?>
+
