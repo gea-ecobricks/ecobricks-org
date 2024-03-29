@@ -48,82 +48,99 @@
 </div>
 
 
+<script>
+    // Function to handle upload success
+    function uploadSuccess(project_id, project_name, description, start, briks_used, full_url, thumbnail_path, location_full) {
+        // Construct HTML content with project data
+        var successMessage = '<h1>Upload Successful!</h1>';
+        successMessage += '<p>Congrats your project has now been added to the database</p>';
+        successMessage += '<ul>';
+        successMessage += '<li>Project Id: ' + project_id + '</li>';
+        successMessage += '<li>Name: ' + project_name + '</li>';
+        successMessage += '<li>Description: ' + description + '</li>';
+        successMessage += '<li>Start: ' + start + '</li>';
+        successMessage += '<li>Briks Used: ' + briks_used + '</li>';
+        successMessage += '<li>Featured Image URL: ' + full_url + '</li>';
+        successMessage += '<li>Thumbnail Image URL: ' + thumbnail_path + '</li>';
+        successMessage += '<li>Location Full: ' + location_full + '</li>';
+        successMessage += '</ul>';
 
-    <script>
-        // Function to handle upload success
-function uploadSuccess(project_id, project_name, description, start, briks_used, full_url, thumbnail_path, location_full) {
-    // Construct HTML content with project data
-    var successMessage = '<h1>Upload Successful!</h1>';
-    successMessage += '<p>Congrats your project has now been added to the database</p>';
-    successMessage += '<ul>';
-    successMessage += '<li>Project Id: ' + project_id + '</li>';
-    successMessage += '<li>Name: ' + project_name + '</li>';
-    successMessage += '<li>Description: ' + description + '</li>';
-    successMessage += '<li>Start: ' + start + '</li>';
-    successMessage += '<li>Briks Used: ' + briks_used + '</li>';
-    successMessage += '<li>Featured Image URL: ' + full_url + '</li>';
-    successMessage += '<li>Thumbnail Image URL: ' + thumbnail_path + '</li>';
-    successMessage += '<li>Location Full: ' + location_full + '</li>';
-    successMessage += '</ul>';
+        // Display the upload-success div and populate with project data
+        var uploadSuccessDiv = document.getElementById('upload-success');
+        uploadSuccessDiv.innerHTML = successMessage;
+        uploadSuccessDiv.style.display = 'block';
 
-    // Display the upload-success div and populate with project data
-    var uploadSuccessDiv = document.getElementById('upload-success');
-    uploadSuccessDiv.innerHTML = successMessage;
-    uploadSuccessDiv.style.display = 'block';
-
-    // Hide the photoform
-    document.getElementById('photoform').style.display = 'none';
-}
-
-// Function to handle form submission response
-function handleFormResponse(response) {
-    if (response.startsWith('Error')) {
-        showFormModal(response);
-        console.log(response); // Log error response to console
-    } else {
-        console.log(response); // Log success response to console
-        // Parse the JSON response
-        var responseData = JSON.parse(response);
-        // Call uploadSuccess function with project data
-        uploadSuccess(responseData.project_id, responseData.project_name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
+        // Hide the photoform
+        document.getElementById('upload-photo-form').style.display = 'none';
     }
-}
 
-// Add event listener to form submission
-document.querySelector('#photoform').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent default form submission
-    var form = event.target;
-    var formData = new FormData(form);
+    // Function to handle form submission response
+    function handleFormResponse(response) {
+        if (response.startsWith('Error')) {
+            showFormModal(response);
+            console.log(response); // Log error response to console
+        } else {
+            console.log(response); // Log success response to console
+            // Parse the JSON response
+            var responseData = JSON.parse(response);
+            // Call uploadSuccess function with project data
+            uploadSuccess(responseData.project_id, responseData.project_name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
+        }
+    }
 
-    // Send form data using AJAX
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState == XMLHttpRequest.DONE) {
-            if (xhr.status == 200) {
-                handleFormResponse(xhr.responseText);
-            } else {
-                handleFormResponse('Error submitting form.');
+    // Function to show form modal
+    function showFormModal(message) {
+        var modal = document.getElementById('form-modal-message');
+        var modalMessage = modal.querySelector('.modal-message');
+        modalMessage.innerHTML = message;
+        modal.style.display = 'flex';
+
+        // Add blur effect and hide overflow on page-content and footer-full
+        document.getElementById('page-content').classList.add('blurred');
+        document.getElementById('footer-full').classList.add('blurred');
+        document.body.classList.add('modal-open');
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                closeInfoModal();
             }
         }
-    };
-    xhr.open(form.method, form.action, true);
-    xhr.send(formData);
-});
+    }
 
+    // Function to close the modal
+    function closeInfoModal() {
+        var modal = document.getElementById('form-modal-message');
+        modal.style.display = 'none';
 
+        // Remove blur effect and show overflow on page-content and footer-full
+        document.getElementById('page-content').classList.remove('blurred');
+        document.getElementById('footer-full').classList.remove('blurred');
+        document.body.classList.remove('modal-open');
+    }
 
+    // Add event listener to form submission
+    document.querySelector('#photoform').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+        var form = event.target;
+        var formData = new FormData(form);
 
-// Function to close the modal
-function closeInfoModal() {
-    var modal = document.getElementById('form-modal-message');
-    modal.style.display = 'none';
-
-    // Remove blur effect and show overflow on page-content and footer-full
-    document.getElementById('page-content').classList.remove('blurred');
-    document.getElementById('footer-full').classList.remove('blurred');
-    document.body.classList.remove('modal-open');
-}
+        // Send form data using AJAX
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == XMLHttpRequest.DONE) {
+                if (xhr.status == 200) {
+                    handleFormResponse(xhr.responseText);
+                } else {
+                    handleFormResponse('Error submitting form.');
+                }
+            }
+        };
+        xhr.open(form.method, form.action, true);
+        xhr.send(formData);
+    });
 </script>
+
 
 
 <br><br>
