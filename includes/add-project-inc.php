@@ -80,7 +80,8 @@ input[type="submit"] {
 }
 /* Specify the progress bar color */
 input[type="submit"].progress-bar {
-  background-color: green; /* Change to your desired progress bar color */
+  background: url(../svgs/background-upload-progress.svg) left;
+  background-size: contain;
 }
 /* 
 input[type="submit"]:hover {
