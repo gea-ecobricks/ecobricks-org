@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.93';?>
+<?php $version='1.94';?>
 <?php $page='upload-images';?>
 
 
@@ -13,7 +13,7 @@
  <!-- PAGE CONTENT-->
 
 
- <div id="form-submission-box" style="margin-top: 100px;display:flex;flex-flow:column;">
+ <div id="form-submission-box" style="margin-top: 140px;display:flex;flex-flow:column;">
     
     <div class="form-container" id="upload-photo-form">
         <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
@@ -22,7 +22,7 @@
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             <label for="featured_img"></label>
-            <input type="file" id="featured_img" name="featured_img" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);">
+            <input type="file" id="featured_img" name="featured_img" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;">
             <br><br>
             <input type="submit" value="Upload Images">
         </form>

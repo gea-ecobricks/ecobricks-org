@@ -41,6 +41,8 @@
     --x-button-over: rgb(146, 146, 146);
     --input-background: rgb(229, 213, 241);
 
+    --form-background: rgb(223, 231, 233);
+
 
   --gallery:  rgb(222, 223, 236);
   --yellow-alert: #fbe9c8;
@@ -199,7 +201,7 @@
 }
 
 #main {
-  background: url(svgs/ocean-footer-background-day.svg) no-repeat bottom;
+  background: url(svgs/ocean-footer-background-day.svg) repeat-x bottom;
   background-size: contain;
 }
 

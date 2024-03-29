@@ -80,7 +80,7 @@ input[type="submit"]:hover {
 
 .form-container {
   width: 80%;
-  background-color: var(--settings-background);
+  background-color: var(--form-background);
   border: 1px solid var(--divider-line);
   border-radius: 15px;
   margin: 0 auto;
