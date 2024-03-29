@@ -13,7 +13,7 @@
  <!-- PAGE CONTENT-->
 
 
- <div id="form-submission-box" style="margin-top: 100px">
+ <div id="form-submission-box" style="margin-top: 100px;display:flex;flex-flow:column;">
     
     <div class="form-container">
         <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
@@ -125,7 +125,7 @@ function closeInfoModal() {
     </div>
 
    
-
+<p>Go Back to Reenter Data</p>
 
 <br><br>
 </div> <!--closes main-->
