@@ -122,10 +122,9 @@ function closeInfoModal() {
 
                   
         </div>
-    </div>
-
+<br><br>
    
-<p>Go Back to Reenter Data</p>
+<p style="text-align:center; font-size:small;">Go Back to Reenter Data</p>
 
 <br><br>
 </div> <!--closes main-->
