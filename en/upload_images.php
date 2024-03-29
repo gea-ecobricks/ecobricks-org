@@ -40,27 +40,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 createThumbnail($upload_dir . $new_featured_img_name, $thumbnail_path, 100, 100, 77);
 
                 // Update the corresponding project record in the database
+                $full_url = $upload_dir . $new_featured_img_name;
                 $update_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
                 $update_stmt = $conn->prepare($update_sql);
                 $update_stmt->bind_param("si", $thumbnail_path, $project_id);
                 $update_stmt->execute();
                 $update_stmt->close();
 
-                // Prepare project data for JSON response
-                $project_data = array(
+                // Prepare success response
+                $response = array(
                     'project_id' => $project_id,
-                    'project_name' => isset($_POST['project_name']) ? $_POST['project_name'] : null,
-                    'description' => isset($_POST['description']) ? $_POST['description'] : null,
-                    'start' => isset($_POST['start']) ? $_POST['start'] : null,
-                    'briks_used' => isset($_POST['briks_used']) ? $_POST['briks_used'] : null,
-                    'full_url' => $upload_dir . $new_featured_img_name,
+                    'project_name' => $_POST['project_name'] ?? null,
+                    'description' => $_POST['description'] ?? null,
+                    'start' => $_POST['start'] ?? null,
+                    'briks_used' => $_POST['briks_used'] ?? null,
+                    'full_url' => $full_url,
                     'thumbnail_path' => $thumbnail_path,
-                    'location_full' => isset($_POST['location_full']) ? $_POST['location_full'] : null
+                    'location_full' => $_POST['location_full'] ?? null
                 );
-
-                // Return JSON response
-                echo json_encode($project_data);
-                exit; // Stop further execution
+                echo json_encode($response);
+                exit; // Terminate script execution after sending response
             }
         } else {
             $error_message .= "No photo selected! Please try again.<br>";
@@ -70,6 +69,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // If there are errors, display them
     if (!empty($error_message)) {
         echo $error_message;
+    } else {
+        // If no errors, echo success message
+        echo "Upload is successful!";
     }
 }
 
