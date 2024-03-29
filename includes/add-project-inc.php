@@ -102,7 +102,7 @@ input[type="submit"] {
 
 /* Specify the progress bar color */
 input[type="submit"].progress-bar {
-  background: url(../svgs/background-upload-progress.svg?v=2) left center repeat-y, gray; /* Combined background */
+  background: url(../svgs/background-upload-progress.svg?v=3) left center repeat-y, gray; /* Combined background */
   background-size: auto; /* Auto size for image background */
 }
 
