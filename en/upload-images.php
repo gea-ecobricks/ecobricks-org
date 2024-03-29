@@ -31,18 +31,7 @@
 
 
     <div id="upload-success" class="form-container" style="display:none;">
-            <!-- <h1>Upload Successful!</h1>
-            <p>Congrats your project has now been added to the database</p>
-            <ul>
-                <li>Project Id: <?php echo $project_id; ?></li>
-                <li>Name: <?php echo $_POST['project_name']; ?></li>
-                <li>Description: <?php echo $_POST['description']; ?></li>
-                <li>Start: <?php echo $_POST['start']; ?></li>
-                <li>Briks Used: <?php echo $_POST['briks_used']; ?></li>
-                <li>Featured Image URL: <?php echo $full_url; ?></li>
-                <li>Thumbnail Image URL: <?php echo $thumbnail_path; ?></li>
-                <li>Location Full: <?php echo $_POST['location_full']; ?></li>
-            </ul> -->
+           
     </div>
 
 </div>
@@ -76,7 +65,7 @@
 
 // Function to handle form submission response
 function handleFormResponse(response) {
-    if (response.startsWith('Error')) {
+    if (response.startsWith('error')) {
         // If there's an error response, show the modal with the error message
         showFormModal(response);
         console.log(response); // Log error response to console
@@ -88,11 +77,12 @@ function handleFormResponse(response) {
             uploadSuccess(responseData.project_id, responseData.project_name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
         } catch (error) {
             // If parsing fails, handle it as an error and show the modal with the response message
-            showFormModal(response);
+            showFormModal("Error parsing server response: " + response);
             console.error(error); // Log parsing error to console
         }
     }
 }
+
 
 
     // Function to show form modal
