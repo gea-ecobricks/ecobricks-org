@@ -49,13 +49,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // Prepare project data for JSON response
                 $project_data = array(
                     'project_id' => $project_id,
-                    'project_name' => $_POST['project_name'],
-                    'description' => $_POST['description'],
-                    'start' => $_POST['start'],
-                    'briks_used' => $_POST['briks_used'],
+                    'project_name' => isset($_POST['project_name']) ? $_POST['project_name'] : null,
+                    'description' => isset($_POST['description']) ? $_POST['description'] : null,
+                    'start' => isset($_POST['start']) ? $_POST['start'] : null,
+                    'briks_used' => isset($_POST['briks_used']) ? $_POST['briks_used'] : null,
                     'full_url' => $upload_dir . $new_featured_img_name,
                     'thumbnail_path' => $thumbnail_path,
-                    'location_full' => $_POST['location_full']
+                    'location_full' => isset($_POST['location_full']) ? $_POST['location_full'] : null
                 );
 
                 // Return JSON response
