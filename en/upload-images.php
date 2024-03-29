@@ -14,6 +14,7 @@
 
 
  <div id="form-submission-box" style="margin-top: 100px">
+    
     <div class="form-container">
         <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
         <p data-lang-id="002-form-description">Upload your project images here.</p>
@@ -25,8 +26,11 @@
             <br><br>
             <input type="submit" value="Upload Images">
         </form>
+    </div>
 
-        <div id="upload-success" style="display: none;">
+
+
+    <div id="upload-success" class="form-container">
             <h1>Upload Successful!</h1>
             <p>Congrats your project has now been added to the database</p>
             <ul>
@@ -39,8 +43,8 @@
                 <li>Thumbnail Image URL: <?php echo $thumbnail_path; ?></li>
                 <li>Location Full: <?php echo $_POST['location_full']; ?></li>
             </ul>
-        </div>
     </div>
+
 </div>
 
 
