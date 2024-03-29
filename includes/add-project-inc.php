@@ -165,6 +165,15 @@ input[type="submit"]:hover {
   }
 }
 
+.module-btn {
+  background: var(--emblem-green);
+}
+	
+.module-btn:hover {
+  background: var(--emblem-green-over);
+}
+	
+
 
 	
 </style>	
