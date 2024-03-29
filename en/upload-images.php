@@ -134,6 +134,9 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
 
 // Function to handle form submission response
 function handleFormResponse(response) {
+    // Convert response to lowercase for case-insensitive comparison
+    response = response.toLowerCase();
+
     if (response.startsWith('error')) {
         // If there's an error response, show the modal with the error message
         showFormModal(response);
@@ -151,7 +154,6 @@ function handleFormResponse(response) {
         }
     }
 }
-
 
 
 
