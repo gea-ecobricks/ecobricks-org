@@ -123,7 +123,7 @@ function handleFormResponse(response) {
         successMessage += '<li>Thumbnail Image URL: ' + thumbnail_path + '</li>';
         successMessage += '<li>Location Full: ' + location_full + '</li>';
         successMessage += '</ul>';
-        successMessage += '<br><a class="module-btn" href="add-project">+ Add Next Project</a>';
+        successMessage += '<br><a class="module-btn" href="add-project.php">+ Add Next Project</a>';
 
         // Display the upload-success div and populate with project data
         var uploadSuccessDiv = document.getElementById('upload-success');

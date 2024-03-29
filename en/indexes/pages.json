@@ -36,7 +36,7 @@
 "lang_key":"en",
     "section":"Basics",
     "image_url":"..\/svgs\/question.svg",
-    "url":"why/" 
+    "url":"/why" 
 
 },
 
@@ -62,7 +62,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"..\/webp\/earth-service-700px.webp",
-    "url":"plastic/" 
+    "url":"/plastic" 
 },
 
 
@@ -75,7 +75,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"..\/svgs\/brickable-icon-from-ecobricks-org.svg",
-    "url":"ecobrickable" 
+    "url":"brickable.php" 
 },
 
 
@@ -88,7 +88,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"..\/webp\/fire.webp" ,
-    "url":"fire/" 
+    "url":"/fire" 
 },
 
 {
@@ -100,7 +100,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"..\/webp\/build-blue-450px.webp",
-    "url":"build" 
+    "url":"build.php" 
 },
 
 
@@ -114,7 +114,7 @@
 "lang_key":"en",
     "section":"Building",
     "image_url":"..\/pngs\/Feature-Floating-Module-500px.png",
-    "url":"modules" 
+    "url":"modules.php" 
 },
 
 {
@@ -126,7 +126,7 @@
 "lang_key":"en",
     "section":"Building",
     "image_url":"..\/webp\/earth-build.webp",
-    "url":"earth" 
+    "url":"earth.php" 
 },
 
 {
@@ -138,7 +138,7 @@
 "lang_key":"en",
     "section":"Building",
     "image_url":"..\/webp\/openspace.webp",
-    "url":"openspace/" 
+    "url":"/openspace" 
 },
 
 
@@ -152,7 +152,7 @@
 "lang_key":"en",
     "section":"About",
     "image_url":"..\/icons\/gea-emblem-2024.svg",
-    "url":"about" 
+    "url":"about.php" 
 },
 
 
@@ -165,7 +165,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"..\/icons\/earthen-ethics-icon-ecobricks-org.svg",
-    "url":"principles" 
+    "url":"principles.php" 
 },
 
 
@@ -178,7 +178,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"..\/webp\/brikchain-450px.webp",
-    "url":"brikchain" 
+    "url":"brikchain.php" 
 },
 
 
@@ -204,7 +204,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/wp-content\/uploads\/2020\/05\/maligcong-rice-terraces.jpg",
-    "url":"ayyew/" 
+    "url":"/ayyew" 
 },
 
 {
@@ -216,7 +216,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/webp\/mandalic.webp",
-    "url":"mandalas/" 
+    "url":"/mandalas" 
 },
 
 
@@ -230,7 +230,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/webp\/mandalic.webp",
-    "url":"movement/" 
+    "url":"/movement" 
 },
 
 {
@@ -268,7 +268,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/webp\/oeb-400px.webp",
-    "url":"ocean/" 
+    "url":"/ocean" 
 },
 
 {
@@ -280,7 +280,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/svgs\/cigbrick.svg",
-    "url":"cigbriks/" 
+    "url":"/cigbriks" 
 },
 
 {
@@ -328,7 +328,7 @@
 "lang_key":"en",
     "section":"Projects",
     "image_url":"\/icons\/gobrik-icon.svg",
-    "url":"gobrik/" 
+    "url":"/gobrik" 
 },
 
 {
@@ -340,7 +340,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"\/icons\/aes-logo.svg",
-    "url":"aes/" 
+    "url":"/aes" 
 },
 
 {
@@ -352,7 +352,7 @@
 "lang_key":"en",
     "section":"Products",
     "image_url":"\/icons\/earthwand-shadow.svg",
-    "url":"earthwand/" 
+    "url":"earthwand.php" 
 },
 
 
@@ -365,7 +365,7 @@
 "lang_key":"en",
     "section":"History",
     "image_url":"\/photos\/newspaper-article-on-bottle-bricks.jpg",
-    "url":"story/" 
+    "url":"/story" 
 },
 
 {
@@ -377,7 +377,7 @@
 "lang_key":"en",
     "section":"Our Work",
     "image_url":"\/photos\/workshop-image.webp",
-    "url":"story/" 
+    "url":"/trainings" 
 },
 
 {
@@ -389,7 +389,7 @@
 "lang_key":"en",
     "section":"Theory",
     "image_url":"..\/webp\/brikcoins-450px.webp",
-    "url":"brikcoins" 
+    "url":"brikcoins.php" 
 },
 
 {
@@ -402,6 +402,30 @@
     "section":"PDF Download - 500k",
     "image_url":"..\/pngs\/White-Paper-Icon2-400px.png",
     "url":"https:\/\/nextcloud.ecobricks.org\/index.php\/s\/fNNYjG7A3gxco9n" 
+},
+
+{
+    "id":"038",
+    "title":"Media Kit",
+    "description": "A handy summary of our core principles for journalists keen to get the facts straight",
+    "keywords" : "media, journalist, coverage, kit, press, press release, movement, ecobricks, people power, england, america, usa, indonesia",
+    "language":"English",
+"lang_key":"en",
+    "section":"Theory",
+    "image_url":"\/webp\/mandalic.webp",
+    "url":"media.php" 
+},
+
+{
+    "id":"039",
+    "title":"Plastic Offsetting",
+    "description": "Balance your grey plastic impacts with green.",
+    "keywords" : "aes, gobrik, sequestered, plastic, offsets, buy, purchase, balance, plastic consumption",
+    "language":"English",
+"lang_key":"en",
+    "section":"Service",
+    "image_url":"\/icons\/aes-logo.svg",
+    "url":"offsets.php" 
 }
 
 ]
