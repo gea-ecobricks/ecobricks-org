@@ -15,7 +15,7 @@
 
  <div id="form-submission-box" style="margin-top: 100px;display:flex;flex-flow:column;">
     
-    <div class="form-container">
+    <div class="form-container" id="upload-photo-form">
         <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
         <p data-lang-id="002-form-description">Upload your project images here.</p>
 
@@ -30,8 +30,8 @@
 
 
 
-    <div id="upload-success" class="form-container">
-            <h1>Upload Successful!</h1>
+    <div id="upload-success" class="form-container" style="display:none;">
+            <!-- <h1>Upload Successful!</h1>
             <p>Congrats your project has now been added to the database</p>
             <ul>
                 <li>Project Id: <?php echo $project_id; ?></li>
@@ -42,7 +42,7 @@
                 <li>Featured Image URL: <?php echo $full_url; ?></li>
                 <li>Thumbnail Image URL: <?php echo $thumbnail_path; ?></li>
                 <li>Location Full: <?php echo $_POST['location_full']; ?></li>
-            </ul>
+            </ul> -->
     </div>
 
 </div>
@@ -50,36 +50,42 @@
 
 
     <script>
-        
-        // Function to handle form submission response
+        // Function to handle upload success
+function uploadSuccess(project_id, project_name, description, start, briks_used, full_url, thumbnail_path, location_full) {
+    // Construct HTML content with project data
+    var successMessage = '<h1>Upload Successful!</h1>';
+    successMessage += '<p>Congrats your project has now been added to the database</p>';
+    successMessage += '<ul>';
+    successMessage += '<li>Project Id: ' + project_id + '</li>';
+    successMessage += '<li>Name: ' + project_name + '</li>';
+    successMessage += '<li>Description: ' + description + '</li>';
+    successMessage += '<li>Start: ' + start + '</li>';
+    successMessage += '<li>Briks Used: ' + briks_used + '</li>';
+    successMessage += '<li>Featured Image URL: ' + full_url + '</li>';
+    successMessage += '<li>Thumbnail Image URL: ' + thumbnail_path + '</li>';
+    successMessage += '<li>Location Full: ' + location_full + '</li>';
+    successMessage += '</ul>';
+
+    // Display the upload-success div and populate with project data
+    var uploadSuccessDiv = document.getElementById('upload-success');
+    uploadSuccessDiv.innerHTML = successMessage;
+    uploadSuccessDiv.style.display = 'block';
+
+    // Hide the photoform
+    document.getElementById('photoform').style.display = 'none';
+}
+
+// Function to handle form submission response
 function handleFormResponse(response) {
     if (response.startsWith('Error')) {
         showFormModal(response);
         console.log(response); // Log error response to console
     } else {
         console.log(response); // Log success response to console
-        // Handle successful upload, e.g., show success message to the user
-        document.getElementById('photoform').style.display = 'none'; // Hide the photoform
-        document.getElementById('upload-success').style.display = 'block'; // Show the upload-success div
-    }
-}
-
-function showFormModal(message) {
-    var modal = document.getElementById('form-modal-message');
-    var modalMessage = modal.querySelector('.modal-message');
-    modalMessage.innerHTML = message;
-    modal.style.display = 'flex';
-
-    // Add blur effect and hide overflow on page-content and footer-full
-    document.getElementById('page-content').classList.add('blurred');
-    document.getElementById('footer-full').classList.add('blurred');
-    document.body.classList.add('modal-open');
-
-    // Close modal when clicking outside
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            closeInfoModal();
-        }
+        // Parse the JSON response
+        var responseData = JSON.parse(response);
+        // Call uploadSuccess function with project data
+        uploadSuccess(responseData.project_id, responseData.project_name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
     }
 }
 
