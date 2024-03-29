@@ -63,6 +63,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
         } else {
             $error_message .= "No photo selected! Please try again.<br>";
+
+            // Prepare error response
+            $response = array(
+                'error' => $error_message
+            );
+            echo json_encode($response);
+            exit; // Terminate script execution after sending response
         }
     }
 
