@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.98';?>
+<?php $version='1.99';?>
 <?php $page='upload-images';?>
 
 
@@ -134,26 +134,25 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
 
 // Function to handle form submission response
 function handleFormResponse(response) {
-    // Convert response to lowercase for case-insensitive comparison
-    response = response.toLowerCase();
-
-    if (response.startsWith('error')) {
-        // If there's an error response, show the modal with the error message
-        showFormModal(response);
-        console.log(response); // Log error response to console
-    } else {
-        try {
-            // Try parsing the JSON response
-            var responseData = JSON.parse(response);
-            // If parsing succeeds, call the uploadSuccess function with project data
+    try {
+        // Try parsing the JSON response
+        var responseData = JSON.parse(response);
+        // Check if the response contains an "error" field
+        if (responseData.error) {
+            // If there's an error response, show the modal with the error message
+            showFormModal(responseData.error);
+            console.log(responseData.error); // Log error response to console
+        } else {
+            // If no error, call the uploadSuccess function with project data
             uploadSuccess(responseData.project_id, responseData.project_name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
-        } catch (error) {
-            // If parsing fails, handle it as an error and show the modal with the response message
-            showFormModal("Error parsing server response: " + response);
-            console.error(error); // Log parsing error to console
         }
+    } catch (error) {
+        // If parsing fails, handle it as an error and show the modal with the response message
+        showFormModal("Error parsing server response: " + response);
+        console.error(error); // Log parsing error to console
     }
 }
+
 
 
 

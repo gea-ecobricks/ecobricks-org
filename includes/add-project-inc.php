@@ -84,9 +84,7 @@ input[type="submit"].progress-bar {
   background-size: contain;
 } */
 /* 
-input[type="submit"]:hover {
-  background-color: var(--emblem-green-over);
-} */
+*/
 
 input[type="submit"] {
   color: white;
@@ -94,7 +92,7 @@ input[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background-color: gray; /* Initial background color */
+  background-color: #12b712; /* Initial background color */
   background-size: 0% 100%; /* Initial background size (progress bar) */
   transition: background-size 0.5s ease; /* Transition effect for smooth progress */
   font-size: 1.3em;
@@ -106,6 +104,10 @@ input[type="submit"].progress-bar {
   background-size: auto; /* Auto size for image background */
 }
 
+
+input[type="submit"]:hover {
+  background-color: var(--emblem-green-over);
+} 
 
 .form-container {
   width: 80%;
