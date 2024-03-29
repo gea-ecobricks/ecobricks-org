@@ -46,10 +46,18 @@
 
 
     <script>
-// Function to handle form submission response
+        
+        // Function to handle form submission response
 function handleFormResponse(response) {
-    showFormModal(response);
-    console.log(response); // Log response to console
+    if (response.startsWith('Error')) {
+        showFormModal(response);
+        console.log(response); // Log error response to console
+    } else {
+        console.log(response); // Log success response to console
+        // Handle successful upload, e.g., show success message to the user
+        document.getElementById('photoform').style.display = 'none'; // Hide the photoform
+        document.getElementById('upload-success').style.display = 'block'; // Show the upload-success div
+    }
 }
 
 function showFormModal(message) {
@@ -69,17 +77,6 @@ function showFormModal(message) {
             closeInfoModal();
         }
     }
-}
-
-// Function to close the modal
-function closeInfoModal() {
-    var modal = document.getElementById('form-modal-message');
-    modal.style.display = 'none';
-
-    // Remove blur effect and show overflow on page-content and footer-full
-    document.getElementById('page-content').classList.remove('blurred');
-    document.getElementById('footer-full').classList.remove('blurred');
-    document.body.classList.remove('modal-open');
 }
 
 // Add event listener to form submission
@@ -102,6 +99,20 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
     xhr.open(form.method, form.action, true);
     xhr.send(formData);
 });
+
+
+
+
+// Function to close the modal
+function closeInfoModal() {
+    var modal = document.getElementById('form-modal-message');
+    modal.style.display = 'none';
+
+    // Remove blur effect and show overflow on page-content and footer-full
+    document.getElementById('page-content').classList.remove('blurred');
+    document.getElementById('footer-full').classList.remove('blurred');
+    document.body.classList.remove('modal-open');
+}
 </script>
 
 
