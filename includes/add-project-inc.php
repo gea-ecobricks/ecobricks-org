@@ -78,7 +78,10 @@ input[type="submit"] {
   transition: background-size 0.5s ease; /* Transition effect for smooth progress */
   font-size: 1.3em
 }
-
+/* Specify the progress bar color */
+input[type="submit"].progress-bar {
+  background-color: green; /* Change to your desired progress bar color */
+}
 /* 
 input[type="submit"]:hover {
   background-color: var(--emblem-green-over);
