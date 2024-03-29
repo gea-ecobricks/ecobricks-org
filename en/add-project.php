@@ -15,7 +15,7 @@
                 
     <div id="form-submission-box" style="margin-top: 100px">
         <div class="form-container">
-            <h2 data-lang-id="001-form-title">Post & Share Your project</h2>
+            <h1 data-lang-id="001-form-title">Post & Share Your project</h1>
             <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
             <form id="submit-form" method="post" action="submit_project.php" enctype="multipart/form-data">
 
@@ -66,7 +66,7 @@
                     <p class="form-caption" data-lang-id="016-location-caption">Tell us where this project is (City, Region, Country).</p>
                 </div>
                 
-                <input type="submit" value="Next" data-lang-id="017-submit-button">
+                <input type="submit" value="Next ➡️" data-lang-id="017-submit-button">
             </form>
         </div>
     </div>

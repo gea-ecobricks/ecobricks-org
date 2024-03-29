@@ -68,13 +68,16 @@ input[type="date"] {
 }
 
 input[type="submit"] {
-  background-color: var(--emblem-green);
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  background-color: gray; /* Initial background color */
+  background-size: 0% 100%; /* Initial background size (progress bar) */
+  transition: background-size 0.5s ease; /* Transition effect for smooth progress */
 }
+
 
 input[type="submit"]:hover {
   background-color: var(--emblem-green-over);

@@ -24,7 +24,7 @@
             <label for="featured_img"></label>
             <input type="file" id="featured_img" name="featured_img" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;">
             <br><br>
-            <input type="submit" value="Upload Images">
+            <input type="submit" value="Upload Images" id="upload-progress-button">
         </form>
     </div>
 
@@ -136,6 +136,40 @@ function handleFormResponse(response) {
         document.getElementById('footer-full').classList.remove('blurred');
         document.body.classList.remove('modal-open');
     }
+
+
+
+    // Function to handle form submission
+document.querySelector('#photoform').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+    var form = event.target;
+    var formData = new FormData(form);
+
+    // Send form data using AJAX
+    var xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action, true);
+
+    // Track upload progress
+    xhr.upload.onprogress = function(event) {
+        if (event.lengthComputable) {
+            // Calculate and update the background size of the input button based on upload progress
+            var progress = (event.loaded / event.total) * 100;
+            document.getElementById('upload-progress-button').style.backgroundSize = progress + '% 100%';
+        }
+    };
+
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            if (xhr.status == 200) {
+                handleFormResponse(xhr.responseText);
+            } else {
+                handleFormResponse('Error submitting form.');
+            }
+        }
+    };
+
+    xhr.send(formData);
+});
 
 
 </script>

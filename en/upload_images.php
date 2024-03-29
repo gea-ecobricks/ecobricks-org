@@ -1,7 +1,6 @@
 
 
 
-
 <?php
 
 ini_set('display_errors', 1);
@@ -78,12 +77,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($error_message)) {
         echo $error_message;
 
-        
     } else {
         // If no errors, echo success message
         echo "Upload is successful!";
     }
 }
+
+
+
 
 // Function to create a thumbnail using GD library
 function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
