@@ -13,27 +13,36 @@
  <!-- PAGE CONTENT-->
 
 
+ <div id="form-submission-box" style="margin-top: 100px">
+    <div class="form-container">
+        <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
+        <p data-lang-id="002-form-description">Upload your project images here.</p>
 
-                
-    <div id="form-submission-box" style="margin-top: 100px">
-        <div class="form-container">
-            <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
-            <p data-lang-id="002-form-description">Upload your project images here.</p>
-           
-
-
-     <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
-            
+        <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
-            
             <label for="featured_img">Featured Image:</label>
             <input type="file" id="featured_img" name="featured_img">
             <br><br>
-            <!-- <label for="thumbnail_img">Thumbnail Image:</label>
-            <input type="file" id="thumbnail_img" name="thumbnail_img"> -->
-            <br><br>
             <input type="submit" value="Upload Images">
-    </form>
+        </form>
+
+        <div id="upload-success" style="display: none;">
+            <h1>Upload Successful!</h1>
+            <p>Congrats your project has now been added to the database</p>
+            <ul>
+                <li>Project Id: <?php echo $project_id; ?></li>
+                <li>Name: <?php echo $_POST['project_name']; ?></li>
+                <li>Description: <?php echo $_POST['description']; ?></li>
+                <li>Start: <?php echo $_POST['start']; ?></li>
+                <li>Briks Used: <?php echo $_POST['briks_used']; ?></li>
+                <li>Featured Image URL: <?php echo $full_url; ?></li>
+                <li>Thumbnail Image URL: <?php echo $thumbnail_path; ?></li>
+                <li>Location Full: <?php echo $_POST['location_full']; ?></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 
 
     <script>
