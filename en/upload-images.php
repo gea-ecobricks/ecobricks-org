@@ -22,7 +22,7 @@
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             <label for="featured_img"></label>
-            <input type="file" id="featured_img" name="featured_img" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;">
+            <input type="file" id="featured_img" name="featured_img" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;" required>
             <br><br>
             <input type="submit" value="⬆️ Upload Images " id="upload-progress-button">
         </form>
@@ -97,7 +97,7 @@
     }
 
 
-    // Add event listener to form submission
+  // Add event listener to form submission
 document.querySelector('#photoform').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent default form submission
     var form = event.target;
@@ -105,15 +105,6 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
 
     // Send form data using AJAX
     var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState == XMLHttpRequest.DONE) {
-            if (xhr.status == 200) {
-                handleFormResponse(xhr.responseText);
-            } else {
-                handleFormResponse('Error submitting form.');
-            }
-        }
-    };
 
     // Track upload progress
     xhr.upload.onprogress = function(event) {
@@ -121,6 +112,19 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
             // Calculate and update the background size of the input button based on upload progress
             var progress = (event.loaded / event.total) * 100;
             document.getElementById('upload-progress-button').style.backgroundSize = progress + '% 100%';
+
+            // Add progress-bar class to change background color to green
+            document.getElementById('upload-progress-button').classList.add('progress-bar');
+        }
+    };
+
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            if (xhr.status == 200) {
+                handleFormResponse(xhr.responseText);
+            } else {
+                handleFormResponse('Error submitting form.');
+            }
         }
     };
 
@@ -147,6 +151,31 @@ function handleFormResponse(response) {
         }
     }
 }
+
+
+
+
+
+
+document.querySelector('#photoform').addEventListener('submit', function(event) {
+    // Prevent default form submission
+    event.preventDefault();
+
+    // Check if file input is empty
+    var fileInput = document.getElementById('featured_img');
+    if (fileInput.files.length === 0) {
+        // If file input is empty, display modal message
+        showFormModal('Please choose a file.');
+        return; // Stop form submission
+    }
+
+    // Proceed with form submission
+    var form = event.target;
+    var formData = new FormData(form);
+
+    var xhr = new XMLHttpRequest();
+    // Continue with the rest of your XMLHttpRequest logic...
+});
 
 
 </script>
