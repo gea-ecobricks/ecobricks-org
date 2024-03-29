@@ -21,8 +21,8 @@
 
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
-            <label for="featured_img">Featured Image:</label>
-            <input type="file" id="featured_img" name="featured_img">
+            <label for="featured_img">Featured Image:</label><br>
+            <input type="file" id="featured_img" name="featured_img" style="padding:10px;color:var(--text-color);">
             <br><br>
             <input type="submit" value="Upload Images">
         </form>
@@ -75,18 +75,26 @@
     }
 
     // Function to handle form submission response
-    function handleFormResponse(response) {
-        if (response.startsWith('Error')) {
-            showFormModal(response);
-            console.log(response); // Log error response to console
-        } else {
-            console.log(response); // Log success response to console
-            // Parse the JSON response
+// Function to handle form submission response
+function handleFormResponse(response) {
+    if (response.startsWith('Error')) {
+        // If there's an error response, show the modal with the error message
+        showFormModal(response);
+        console.log(response); // Log error response to console
+    } else {
+        try {
+            // Try parsing the JSON response
             var responseData = JSON.parse(response);
-            // Call uploadSuccess function with project data
+            // If parsing succeeds, call the uploadSuccess function with project data
             uploadSuccess(responseData.project_id, responseData.project_name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
+        } catch (error) {
+            // If parsing fails, handle it as an error and show the modal with the response message
+            showFormModal(response);
+            console.error(error); // Log parsing error to console
         }
     }
+}
+
 
     // Function to show form modal
     function showFormModal(message) {
