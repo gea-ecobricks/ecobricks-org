@@ -59,12 +59,13 @@
  
     checkboxes.forEach(function(checkbox) {
        switch (checkbox.value) {
-          case 'en_site':
-             jsonFiles.push('../en/indexes/pages.json');
-             break;
+
           case 'en_glossary':
              jsonFiles.push('../en/indexes/glossary-ecobricks.json');
              break;
+         case 'en_site':
+         jsonFiles.push('../en/indexes/pages.json?v=2');
+         break;
           case 'fr_site':
              jsonFiles.push('../fr/indexes/pages.json');
              break;
