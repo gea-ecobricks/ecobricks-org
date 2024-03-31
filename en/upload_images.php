@@ -97,45 +97,39 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit; // Terminate script execution
         }
 
+ 
         // Update the corresponding project record in the database
         $thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp; // Use WebP version for thumbnail path
-        $update_sql = "UPDATE tb_projects SET tmb_featured_img = ?, featured_img = ? WHERE project_id = ?";
+        $update_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
         $update_stmt = $conn->prepare($update_sql);
-        $update_stmt->bind_param("ssi", $thumbnail_path, $full_url, $project_id);
+        $update_stmt->bind_param("si", $thumbnail_path, $project_id);
         $update_stmt->execute();
         $update_stmt->close();
 
-    // Fetch project data from the database
-$select_sql = "SELECT name, description, start, briks_used, location_full FROM tb_projects WHERE project_id = ?";
-$select_stmt = $conn->prepare($select_sql);
-$select_stmt->bind_param("i", $project_id);
-$select_stmt->execute();
-$select_stmt->bind_result($project_name, $description, $start, $briks_used, $location_full);
+        // Prepare success response
+        $response = array(
+            'project_id' => $project_id,
+            'project_name' => $_POST['project_name'] ?? null,
+            'description' => $_POST['description'] ?? null,
+            'start' => $_POST['start'] ?? null,
+            'briks_used' => $_POST['briks_used'] ?? null,
+            'full_url' => $full_url,
+            'thumbnail_path' => $thumbnail_path,
+            'location_full' => $_POST['location_full'] ?? null
+        );
+        echo json_encode($response);
+        exit; // Terminate script execution after sending response
+    }
 
-// Check if the query returned any results
-if ($select_stmt->fetch()) {
-    // Prepare success response with fetched project data
-    $response = array(
-        'project_id' => $project_id,
-        'project_name' => $project_name,
-        'description' => $description,
-        'start' => $start,
-        'briks_used' => $briks_used,
-        'full_url' => $full_url,
-        'thumbnail_path' => $thumbnail_path,
-        'location_full' => $location_full
-    );
-} else {
-    // If no results found, return an error response
-    $error_message = "No project found with ID: $project_id";
-    http_response_code(400);
-    echo json_encode(array('error' => $error_message));
-    exit; // Terminate script execution
+    // If there are errors, display them
+    if (!empty($error_message)) {
+        echo $error_message;
+
+    } else {
+        // If no errors, echo success message
+        echo "Upload is successful!";
+    }
 }
-
-// Close the statement
-$select_stmt->close();
-
 
 // Function to create a thumbnail using GD library
 function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
