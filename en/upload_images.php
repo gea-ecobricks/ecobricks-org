@@ -61,18 +61,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit; // Terminate script execution
         }
 
-        // Image was uploaded, proceed with processing
-        $featured_img_name = $_FILES['featured_img']['name'];
-        $featured_img_tmp = $_FILES['featured_img']['tmp_name'];
+       // Image was uploaded, proceed with processing
+$featured_img_name = $_FILES['featured_img']['name'];
+$featured_img_tmp = $_FILES['featured_img']['tmp_name'];
 
-        // Get the file extension
-        $file_extension = pathinfo($featured_img_name, PATHINFO_EXTENSION);
+// Get the file extension and convert it to lowercase
+$file_extension = strtolower(pathinfo($featured_img_name, PATHINFO_EXTENSION));
 
-        // New file name
-        $new_featured_img_name = 'featured-img-project-' . $project_id . '.' . $file_extension;
+// New file name with lowercase extension
+$new_featured_img_name = 'featured-img-project-' . $project_id . '.' . $file_extension;
 
-        // Convert image to WebP format if original format is JPEG or PNG
-        if ($file_extension === 'jpg' || $file_extension === 'jpeg' || $file_extension === 'png') {
+// Convert image to WebP format if original format is JPEG or PNG
+if ($file_extension === 'jpg' || $file_extension === 'jpeg' || $file_extension === 'png') {
+
             $new_featured_img_name_webp = 'featured-img-project-' . $project_id . '.webp';
             $new_featured_img_webp_path = $upload_dir . $new_featured_img_name_webp;
             // Convert and save image to WebP format
