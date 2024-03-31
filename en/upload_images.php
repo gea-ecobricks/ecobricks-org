@@ -74,36 +74,44 @@ if (!isset($_FILES['featured_img']) || $_FILES['featured_img']['error'] !== UPLO
         // New file name
         $new_featured_img_name = 'featured-img-project-' . $project_id . '.' . $file_extension;
 
-        // Rename the uploaded file
-        if (!rename($featured_img_tmp, $upload_dir . $new_featured_img_name)) {
-            $error_message .= "Error re-naming featured image.<br>";
-        } else {
-            // Create thumbnail
-            $thumbnail_path = $thumbnail_dir . $new_featured_img_name;
-            createThumbnail($upload_dir . $new_featured_img_name, $thumbnail_path, 100, 100, 77);
-
-            // Update the corresponding project record in the database
-            $full_url = $upload_dir . $new_featured_img_name;
-            $update_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
-            $update_stmt = $conn->prepare($update_sql);
-            $update_stmt->bind_param("si", $thumbnail_path, $project_id);
-            $update_stmt->execute();
-            $update_stmt->close();
-
-            // Prepare success response
-            $response = array(
-                'project_id' => $project_id,
-                'project_name' => $_POST['project_name'] ?? null,
-                'description' => $_POST['description'] ?? null,
-                'start' => $_POST['start'] ?? null,
-                'briks_used' => $_POST['briks_used'] ?? null,
-                'full_url' => $full_url,
-                'thumbnail_path' => $thumbnail_path,
-                'location_full' => $_POST['location_full'] ?? null
-            );
-            echo json_encode($response);
-            exit; // Terminate script execution after sending response
+        // Convert image to WebP format if original format is JPEG or PNG
+        if ($file_extension === 'jpg' || $file_extension === 'jpeg' || $file_extension === 'png') {
+            $new_featured_img_name_webp = 'featured-img-project-' . $project_id . '.webp';
+            $new_featured_img_webp_path = $upload_dir . $new_featured_img_name_webp;
+            // Convert and save image to WebP format
+            convertToWebP($featured_img_tmp, $new_featured_img_webp_path);
         }
+
+        // Move the uploaded file to the destination directory
+        if (!move_uploaded_file($featured_img_tmp, $upload_dir . $new_featured_img_name)) {
+            $error_message .= "Error moving uploaded image.<br>";
+        }
+
+        // Create thumbnail
+        $thumbnail_path = $thumbnail_dir . $new_featured_img_name;
+        createThumbnail($upload_dir . $new_featured_img_name, $thumbnail_path, 100, 100, 77);
+
+        // Update the corresponding project record in the database
+        $full_url = $upload_dir . $new_featured_img_name;
+        $update_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
+        $update_stmt = $conn->prepare($update_sql);
+        $update_stmt->bind_param("si", $thumbnail_path, $project_id);
+        $update_stmt->execute();
+        $update_stmt->close();
+
+        // Prepare success response
+        $response = array(
+            'project_id' => $project_id,
+            'project_name' => $_POST['project_name'] ?? null,
+            'description' => $_POST['description'] ?? null,
+            'start' => $_POST['start'] ?? null,
+            'briks_used' => $_POST['briks_used'] ?? null,
+            'full_url' => $full_url,
+            'thumbnail_path' => $thumbnail_path,
+            'location_full' => $_POST['location_full'] ?? null
+        );
+        echo json_encode($response);
+        exit; // Terminate script execution after sending response
     }
 
     // If there are errors, display them
@@ -115,6 +123,43 @@ if (!isset($_FILES['featured_img']) || $_FILES['featured_img']['error'] !== UPLO
         echo "Upload is successful!";
     }
 }
+
+// Function to create a thumbnail using GD library
+function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
+    list($source_width, $source_height, $source_type) = getimagesize($source_path);
+    switch ($source_type) {
+        case IMAGETYPE_JPEG:
+            $source_image = imagecreatefromjpeg($source_path);
+            break;
+        case IMAGETYPE_PNG:
+            $source_image = imagecreatefrompng($source_path);
+            break;
+        case IMAGETYPE_WEBP:
+            $source_image = imagecreatefromwebp($source_path);
+            break;
+        default:
+            return false;
+    }
+    $thumbnail = imagecreatetruecolor($width, $height);
+    imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $width, $height, $source_width, $source_height);
+    imagedestroy($source_image);
+    imagejpeg($thumbnail, $destination_path, $quality);
+    imagedestroy($thumbnail);
+    return true;
+}
+
+// Function to convert image to WebP format
+function convertToWebP($source_path, $destination_path) {
+    $image = imagecreatefromstring(file_get_contents($source_path));
+    if ($image !== false) {
+        imagepalettetotruecolor($image);
+        imagewebp($image, $destination_path, 85);
+        imagedestroy($image);
+        return true;
+    }
+    return false;
+}
+?>
 
 
 
