@@ -1,6 +1,3 @@
-
-
-
 <?php
 
 ini_set('display_errors', 1);
@@ -23,46 +20,46 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $upload_dir = '../projects/featured/';
         $thumbnail_dir = '../projects/featured_tmbs/';
 
-// Check if an image was uploaded
-if (!isset($_FILES['featured_img']) || $_FILES['featured_img']['error'] !== UPLOAD_ERR_OK) {
-    // No image was uploaded or there was an error
-    switch ($_FILES['featured_img']['error']) {
-        case UPLOAD_ERR_INI_SIZE:
-        case UPLOAD_ERR_FORM_SIZE:
-            // File size exceeds the maximum upload size
-            $error_message = 'Error: File size exceeds the maximum upload size. Please try again with a smaller file.';
-            break;
-        case UPLOAD_ERR_PARTIAL:
-            // File upload was only partially completed
-            $error_message = 'Error: File upload was only partially completed. Please try again.';
-            break;
-        case UPLOAD_ERR_NO_FILE:
-            // No file was uploaded
-            $error_message = 'Error: No photo selected! Please try again.';
-            break;
-        case UPLOAD_ERR_NO_TMP_DIR:
-            // Missing temporary folder
-            $error_message = 'Error: Missing temporary folder. Please contact the site administrator.';
-            break;
-        case UPLOAD_ERR_CANT_WRITE:
-            // Failed to write file to disk
-            $error_message = 'Error: Failed to write file to disk. Please contact the site administrator.';
-            break;
-        case UPLOAD_ERR_EXTENSION:
-            // File upload stopped by extension
-            $error_message = 'Error: File upload stopped by extension. Please try again.';
-            break;
-        default:
-            // Other unknown upload error
-            $error_message = 'Error: Unknown upload error. Please try again later.';
-            break;
-    }
+        // Check if an image was uploaded
+        if (!isset($_FILES['featured_img']) || $_FILES['featured_img']['error'] !== UPLOAD_ERR_OK) {
+            // No image was uploaded or there was an error
+            switch ($_FILES['featured_img']['error']) {
+                case UPLOAD_ERR_INI_SIZE:
+                case UPLOAD_ERR_FORM_SIZE:
+                    // File size exceeds the maximum upload size
+                    $error_message = 'Error: File size exceeds the maximum upload size. Please try again with a smaller file.';
+                    break;
+                case UPLOAD_ERR_PARTIAL:
+                    // File upload was only partially completed
+                    $error_message = 'Error: File upload was only partially completed. Please try again.';
+                    break;
+                case UPLOAD_ERR_NO_FILE:
+                    // No file was uploaded
+                    $error_message = 'Error: No photo selected! Please try again.';
+                    break;
+                case UPLOAD_ERR_NO_TMP_DIR:
+                    // Missing temporary folder
+                    $error_message = 'Error: Missing temporary folder. Please contact the site administrator.';
+                    break;
+                case UPLOAD_ERR_CANT_WRITE:
+                    // Failed to write file to disk
+                    $error_message = 'Error: Failed to write file to disk. Please contact the site administrator.';
+                    break;
+                case UPLOAD_ERR_EXTENSION:
+                    // File upload stopped by extension
+                    $error_message = 'Error: File upload stopped by extension. Please try again.';
+                    break;
+                default:
+                    // Other unknown upload error
+                    $error_message = 'Error: Unknown upload error. Please try again later.';
+                    break;
+            }
 
-    // Return 400 status with the error message
-    http_response_code(400);
-    echo json_encode(array('error' => $error_message));
-    exit; // Terminate script execution
-}
+            // Return 400 status with the error message
+            http_response_code(400);
+            echo json_encode(array('error' => $error_message));
+            exit; // Terminate script execution
+        }
 
         // Image was uploaded, proceed with processing
         $featured_img_name = $_FILES['featured_img']['name'];
@@ -79,19 +76,26 @@ if (!isset($_FILES['featured_img']) || $_FILES['featured_img']['error'] !== UPLO
             $new_featured_img_name_webp = 'featured-img-project-' . $project_id . '.webp';
             $new_featured_img_webp_path = $upload_dir . $new_featured_img_name_webp;
             // Convert and save image to WebP format
-            convertToWebP($featured_img_tmp, $new_featured_img_webp_path);
+            if (!convertToWebP($featured_img_tmp, $new_featured_img_webp_path)) {
+                $error_message .= "Error converting image to WebP format.<br>";
+                http_response_code(400);
+                echo json_encode(array('error' => $error_message));
+                exit; // Terminate script execution
+            }
+            // Use WebP version for thumbnails
+            createThumbnail($new_featured_img_webp_path, $thumbnail_dir . $new_featured_img_name_webp, 160, 160, 77);
         }
 
         // Move the uploaded file to the destination directory
         if (!move_uploaded_file($featured_img_tmp, $upload_dir . $new_featured_img_name)) {
             $error_message .= "Error moving uploaded image.<br>";
+            http_response_code(400);
+            echo json_encode(array('error' => $error_message));
+            exit; // Terminate script execution
         }
 
-        // Create thumbnail
-        $thumbnail_path = $thumbnail_dir . $new_featured_img_name;
-        createThumbnail($upload_dir . $new_featured_img_name, $thumbnail_path, 160, 160, 77);
-
         // Update the corresponding project record in the database
+        $thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp; // Use WebP version for thumbnail path
         $full_url = $upload_dir . $new_featured_img_name;
         $update_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
         $update_stmt = $conn->prepare($update_sql);
@@ -160,33 +164,3 @@ function convertToWebP($source_path, $destination_path) {
     return false;
 }
 ?>
-
-
-
-
-// Function to create a thumbnail using GD library
-function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
-    list($source_width, $source_height, $source_type) = getimagesize($source_path);
-    switch ($source_type) {
-        case IMAGETYPE_JPEG:
-            $source_image = imagecreatefromjpeg($source_path);
-            break;
-        case IMAGETYPE_PNG:
-            $source_image = imagecreatefrompng($source_path);
-            break;
-        case IMAGETYPE_WEBP:
-            $source_image = imagecreatefromwebp($source_path);
-            break;
-        default:
-            return false;
-    }
-    $thumbnail = imagecreatetruecolor($width, $height);
-    imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $width, $height, $source_width, $source_height);
-    imagedestroy($source_image);
-    imagejpeg($thumbnail, $destination_path, $quality);
-    imagedestroy($thumbnail);
-    return true;
-}
-
-?>
-
