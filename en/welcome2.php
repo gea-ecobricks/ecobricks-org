@@ -91,7 +91,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
-<!-- FULL FEATURED GALLERY -->
+<!-- PROJECT GALLERY -->
 
 <div class="featured-content-gallery" style="overflow-x:clip;">
 
@@ -100,7 +100,7 @@ https://github/globalecobrickalliance/ecobricks.org
         </div>
         <div class="gallery-flex-container">
         <?php
-            $sql = "SELECT * FROM tb_project ;";
+            $sql = "SELECT * FROM tb_projects ;";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -139,7 +139,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
-    <div class="featured-content-2"  >
+    <div class="featured-content-2">
     
         <div class="feature-content-box">
 
