@@ -98,15 +98,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
  
-        // Update the corresponding project record in the database
-        $thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp; // Use WebP version for thumbnail path
-        $update_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
-        $update_stmt = $conn->prepare($update_sql);
-        $update_stmt->bind_param("si", $thumbnail_path, $project_id);
-        $update_stmt->execute();
-        $update_stmt->close();
+     // Update the corresponding project record in the database
+     $thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp; // Use WebP version for thumbnail path
+     $update_sql = "UPDATE tb_projects SET tmb_featured_img = ?, featured_img = ? WHERE project_id = ?";
+     $update_stmt = $conn->prepare($update_sql);
+     $update_stmt->bind_param("ssi", $thumbnail_path, $full_url, $project_id);
+     $update_stmt->execute();
+     $update_stmt->close();
 
-        // Prepare success response
+
+            // Prepare success response
         $response = array(
             'project_id' => $project_id,
             'project_name' => $_POST['project_name'] ?? null,
