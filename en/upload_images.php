@@ -105,13 +105,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $update_stmt->execute();
         $update_stmt->close();
 
-        // Fetch project data from the database
-        $select_sql = "SELECT * FROM tb_projects WHERE project_id = ?";
-        $select_stmt = $conn->prepare($select_sql);
-        $select_stmt->bind_param("i", $project_id);
-        $select_stmt->execute();
-        $result = $select_stmt->get_result();
-        $row = $result->fetch_assoc();
+       // Fetch project data from the database
+$select_sql = "SELECT name, description, start, briks_used, location_full FROM tb_projects WHERE project_id = ?";
+$select_stmt = $conn->prepare($select_sql);
+$select_stmt->bind_param("i", $project_id);
+$select_stmt->execute();
+$select_stmt->bind_result($project_name, $description, $start, $briks_used, $location_full);
+$select_stmt->fetch();
+$select_stmt->close();
+
 
         // Assign fetched project data to variables
         $project_name = $row['name'];
