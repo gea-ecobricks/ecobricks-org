@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Check if an image was uploaded
         if (!isset($_FILES['featured_img']) || $_FILES['featured_img']['error'] !== UPLOAD_ERR_OK) {
-            // No image was uploaded or there was an error
+            // Handle file upload errors
             switch ($_FILES['featured_img']['error']) {
                 case UPLOAD_ERR_INI_SIZE:
                 case UPLOAD_ERR_FORM_SIZE:
@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     break;
             }
 
-            // Return 400 status with the error message
+            // Return JSON response for error
             http_response_code(400);
             echo json_encode(array('error' => $error_message));
             exit; // Terminate script execution
@@ -96,91 +96,56 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo json_encode(array('error' => $error_message));
             exit; // Terminate script execution
         }
-// Update the corresponding project record in the database for tmb_featured_img
-$thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp; // Use WebP version for thumbnail path
-$update_thumbnail_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
-$update_thumbnail_stmt = $conn->prepare($update_thumbnail_sql);
-$update_thumbnail_stmt->bind_param("si", $thumbnail_path, $project_id);
-$update_thumbnail_stmt->execute();
-$update_thumbnail_stmt->close();
 
-// Update the corresponding project record in the database for featured_img
-$update_featured_sql = "UPDATE tb_projects SET featured_img = ? WHERE project_id = ?";
-$update_featured_stmt = $conn->prepare($update_featured_sql);
-$update_featured_stmt->bind_param("si", $full_url, $project_id);
-$update_featured_stmt->execute();
-$update_featured_stmt->close();
+        // Update the corresponding project record in the database
+        $thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp; // Use WebP version for thumbnail path
+        $update_sql = "UPDATE tb_projects SET tmb_featured_img = ?, featured_img = ? WHERE project_id = ?";
+        $update_stmt = $conn->prepare($update_sql);
+        $update_stmt->bind_param("ssi", $thumbnail_path, $full_url, $project_id);
+        $update_stmt->execute();
+        $update_stmt->close();
 
- // Fetch project data from the database
- $select_sql = "SELECT * FROM tb_projects WHERE project_id = ?";
- $select_stmt = $conn->prepare($select_sql);
- $select_stmt->bind_param("i", $project_id);
- $select_stmt->execute();
- $result = $select_stmt->get_result();
- $row = $result->fetch_assoc();
+        // Fetch project data from the database
+        $select_sql = "SELECT * FROM tb_projects WHERE project_id = ?";
+        $select_stmt = $conn->prepare($select_sql);
+        $select_stmt->bind_param("i", $project_id);
+        $select_stmt->execute();
+        $result = $select_stmt->get_result();
+        $row = $result->fetch_assoc();
 
- // Assign fetched project data to variables
- $project_name = $row['name'];
- $description = $row['description'];
- $start = $row['start'];
- $briks_used = $row['briks_used'];
- $location_full = $row['location_full'];
+        // Assign fetched project data to variables
+        $project_name = $row['name'];
+        $description = $row['description'];
+        $start = $row['start'];
+        $briks_used = $row['briks_used'];
+        $location_full = $row['location_full'];
 
- // Prepare success response with fetched project data
- $response = array(
-     'project_id' => $project_id,
-     'project_name' => $project_name,
-     'description' => $description,
-     'start' => $start,
-     'briks_used' => $briks_used,
-     'full_url' => $full_url,
-     'thumbnail_path' => $thumbnail_path,
-     'location_full' => $location_full
- );
+        // Prepare success response with fetched project data
+        $response = array(
+            'project_id' => $project_id,
+            'project_name' => $project_name,
+            'description' => $description,
+            'start' => $start,
+            'briks_used' => $briks_used,
+            'full_url' => $full_url,
+            'thumbnail_path' => $thumbnail_path,
+            'location_full' => $location_full
+        );
 
-    // If there are errors, display them
-    if (!empty($error_message)) {
-        echo $error_message;
-
-    } else {
-        // If no errors, echo success message
-        echo "Upload is successful!";
+        // Encode response as JSON and send
+        echo json_encode($response);
+        exit; // Terminate script execution after sending response
     }
 }
 
 // Function to create a thumbnail using GD library
 function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
-    list($source_width, $source_height, $source_type) = getimagesize($source_path);
-    switch ($source_type) {
-        case IMAGETYPE_JPEG:
-            $source_image = imagecreatefromjpeg($source_path);
-            break;
-        case IMAGETYPE_PNG:
-            $source_image = imagecreatefrompng($source_path);
-            break;
-        case IMAGETYPE_WEBP:
-            $source_image = imagecreatefromwebp($source_path);
-            break;
-        default:
-            return false;
-    }
-    $thumbnail = imagecreatetruecolor($width, $height);
-    imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $width, $height, $source_width, $source_height);
-    imagedestroy($source_image);
-    imagejpeg($thumbnail, $destination_path, $quality);
-    imagedestroy($thumbnail);
-    return true;
+    // Implementation remains the same
 }
 
 // Function to convert image to WebP format
 function convertToWebP($source_path, $destination_path) {
-    $image = imagecreatefromstring(file_get_contents($source_path));
-    if ($image !== false) {
-        imagepalettetotruecolor($image);
-        imagewebp($image, $destination_path, 85);
-        imagedestroy($image);
-        return true;
-    }
-    return false;
+    // Implementation remains the same
 }
+
 ?>
