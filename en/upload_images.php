@@ -140,12 +140,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 // Function to create a thumbnail using GD library
 function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
-    // Implementation remains the same
+    list($source_width, $source_height, $source_type) = getimagesize($source_path);
+    switch ($source_type) {
+        case IMAGETYPE_JPEG:
+            $source_image = imagecreatefromjpeg($source_path);
+            break;
+        case IMAGETYPE_PNG:
+            $source_image = imagecreatefrompng($source_path);
+            break;
+        case IMAGETYPE_WEBP:
+            $source_image = imagecreatefromwebp($source_path);
+            break;
+        default:
+            return false;
+    }
+    $thumbnail = imagecreatetruecolor($width, $height);
+    imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $width, $height, $source_width, $source_height);
+    imagedestroy($source_image);
+    imagejpeg($thumbnail, $destination_path, $quality);
+    imagedestroy($thumbnail);
+    return true;
 }
 
 // Function to convert image to WebP format
 function convertToWebP($source_path, $destination_path) {
-    // Implementation remains the same
+    $image = imagecreatefromstring(file_get_contents($source_path));
+    if ($image !== false) {
+        imagepalettetotruecolor($image);
+        imagewebp($image, $destination_path, 85);
+        imagedestroy($image);
+        return true;
+    }
+    return false;
 }
-
 ?>
