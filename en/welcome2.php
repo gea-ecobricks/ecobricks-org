@@ -95,7 +95,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <!-- PROJECT GALLERY -->
 
-<div class="featured-content-gallery" style="overflow-x:clip;">
+<div class="featured-project-gallery" style="overflow-x:clip;">
 
         <div class="feed-live">
             <p data-lang-id="303-featured-live-brikchain"><span class="blink">⬤  </span>Feed of ecobrick projects.  Click to preview.</p>
@@ -131,7 +131,7 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobrick Projects.  Live.</div>
         <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
 
-        <a class="btn featured-content-button" href="brikchain.php" data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
+        <a class="btn featured-content-button" href="brikchain.php" data-lang-id="306-featured-live-button">🛠️ Build</a>
 
             <div class="feature-reference-links"><h6 data-lang-id="307-featured-live-links"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6></div>
     </div>

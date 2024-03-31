@@ -592,6 +592,27 @@ margin-left: 0px;
   flex-flow: column;
   }
 
+
+
+  .featured-project-gallery {
+    height: fit-content;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+    margin-left: 16px;
+    border-radius: 15px;
+    background-color: var(--gallery);
+    justify-content: center;
+  display: flex;
+  flex-flow: column;
+  }
+
+
+
 .featured-content-2 {
     height: fit-content;
     background-size: contain;
