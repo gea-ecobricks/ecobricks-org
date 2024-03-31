@@ -38,10 +38,14 @@
 
 
 <script>
-
 document.querySelector('#photoform').addEventListener('submit', function(event) {
     // Prevent default form submission
     event.preventDefault();
+
+    // Start progress bar immediately
+    var progressBar = document.getElementById('upload-progress-button');
+    progressBar.style.backgroundSize = '30%';
+    progressBar.classList.add('progress-bar');
 
     // Check if file input is empty
     var fileInput = document.getElementById('featured_img');
@@ -57,15 +61,12 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
 
     var xhr = new XMLHttpRequest();
 
-    // Track upload progress
+    // Track upload progress after the initial 30%
     xhr.upload.onprogress = function(event) {
         if (event.lengthComputable) {
             // Calculate and update the background size of the input button based on upload progress
-            var progress = (event.loaded / event.total) * 100;
-            document.getElementById('upload-progress-button').style.backgroundSize = progress + '%';
-
-            // Add progress-bar class to change background color to green
-            document.getElementById('upload-progress-button').classList.add('progress-bar');
+            var progress = ((event.loaded / event.total) * 70) + 30; // Adding 30% to represent initial progress
+            progressBar.style.backgroundSize = progress + '%';
         }
     };
 
@@ -87,6 +88,7 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
 
 
 // Function to handle form submission response
+// Function to handle form submission response
 function handleFormResponse(response) {
     try {
         // Try parsing the JSON response
@@ -98,7 +100,7 @@ function handleFormResponse(response) {
             console.log(responseData.error); // Log error response to console
         } else {
             // If no error, call the uploadSuccess function with project data
-            uploadSuccess(responseData.project_id, responseData.project_name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
+            uploadSuccess(responseData.project_id, responseData.name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
         }
     } catch (error) {
         // If parsing fails, handle it as an error and show the modal with the response message
@@ -106,6 +108,7 @@ function handleFormResponse(response) {
         console.error(error); // Log parsing error to console
     }
 }
+
 
 
     // Function to handle upload success
