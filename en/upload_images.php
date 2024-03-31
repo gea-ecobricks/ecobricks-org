@@ -111,21 +111,32 @@ $update_featured_stmt->bind_param("si", $full_url, $project_id);
 $update_featured_stmt->execute();
 $update_featured_stmt->close();
 
+ // Fetch project data from the database
+ $select_sql = "SELECT * FROM tb_projects WHERE project_id = ?";
+ $select_stmt = $conn->prepare($select_sql);
+ $select_stmt->bind_param("i", $project_id);
+ $select_stmt->execute();
+ $result = $select_stmt->get_result();
+ $row = $result->fetch_assoc();
 
-        // Prepare success response
-        $response = array(
-            'project_id' => $project_id,
-            'project_name' => $_POST['name'] ?? null,
-            'description' => $_POST['description'] ?? null,
-            'start' => $_POST['start'] ?? null,
-            'briks_used' => $_POST['briks_used'] ?? null,
-            'full_url' => $full_url,
-            'thumbnail_path' => $thumbnail_path,
-            'location_full' => $_POST['location_full'] ?? null
-        );
-        echo json_encode($response);
-        exit; // Terminate script execution after sending response
-    }
+ // Assign fetched project data to variables
+ $project_name = $row['name'];
+ $description = $row['description'];
+ $start = $row['start'];
+ $briks_used = $row['briks_used'];
+ $location_full = $row['location_full'];
+
+ // Prepare success response with fetched project data
+ $response = array(
+     'project_id' => $project_id,
+     'project_name' => $project_name,
+     'description' => $description,
+     'start' => $start,
+     'briks_used' => $briks_used,
+     'full_url' => $full_url,
+     'thumbnail_path' => $thumbnail_path,
+     'location_full' => $location_full
+ );
 
     // If there are errors, display them
     if (!empty($error_message)) {
