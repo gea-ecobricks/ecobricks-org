@@ -49,27 +49,27 @@ https://github/globalecobrickalliance/ecobricks.org
             <p data-lang-id="303-featured-live-brikchain"><span class="blink">⬤  </span>Live brikchain feed of authenticated ecobricks.  Click to preview.</p>
         </div>
         <div class="gallery-flex-container">
-        <?php
-            $sql = "SELECT * FROM vw_gallery_feed ;";
-            $result = $conn->query($sql);
+            <?php
+                $sql = "SELECT * FROM vw_gallery_feed ;";
+                $result = $conn->query($sql);
 
-            if ($result->num_rows > 0) {
-                // output data of each row
-                while ($row = $result->fetch_assoc()) {
-                    echo '<div class="gal-photo">
-                            <div class="photo-box">
-                                <img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\', \'' . $row["weight_in_g"] . '\', \'' . $row["ecobrick_owner"] . '\', \'' . $row["location"] . '\')"/>
-                            </div>
-                        </div>';
+                if ($result->num_rows > 0) {
+                    // output data of each row
+                    while ($row = $result->fetch_assoc()) {
+                        echo '<div class="gal-photo">
+                                <div class="photo-box">
+                                    <img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\', \'' . $row["weight_in_g"] . '\', \'' . $row["ecobrick_owner"] . '\', \'' . $row["location"] . '\')"/>
+                                </div>
+                            </div>';
+                    }
+                } else {
+                    echo "Failed to connect to the Brikchain database";
                 }
-            } else {
-                echo "Failed to connect to the Brikchain database";
-            }
-?>
+    ?>
 
 
-        <div class="photo-box-end" href="brikchain.php"></div>
-</div>
+            <div class="photo-box-end" href="brikchain.php"></div>
+    </div>
 
      <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
      50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
@@ -81,7 +81,9 @@ https://github/globalecobrickalliance/ecobricks.org
 
         <a class="btn featured-content-button" href="brikchain.php" data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
 
-            <div class="feature-reference-links"><h6 data-lang-id="307-featured-live-links"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6></div>
+            <!-- <div class="feature-reference-links">
+                <h6 data-lang-id="307-featured-live-links"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6>
+            </div> -->
     </div>
 
 </div>
