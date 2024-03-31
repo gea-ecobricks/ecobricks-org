@@ -89,7 +89,7 @@ if (!isset($_FILES['featured_img']) || $_FILES['featured_img']['error'] !== UPLO
 
         // Create thumbnail
         $thumbnail_path = $thumbnail_dir . $new_featured_img_name;
-        createThumbnail($upload_dir . $new_featured_img_name, $thumbnail_path, 100, 100, 77);
+        createThumbnail($upload_dir . $new_featured_img_name, $thumbnail_path, 160, 160, 77);
 
         // Update the corresponding project record in the database
         $full_url = $upload_dir . $new_featured_img_name;
