@@ -86,10 +86,34 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
 
 
 
+// Function to handle upload success
+function uploadSuccess(project_id, project_name, description, start, briks_used, full_url, thumbnail_path, location_full) {
+    // Construct HTML content with project data
+    var successMessage = '<img src="' + thumbnail_path + '"><br><h1>Upload Successful!</h1>';
+    successMessage += '<p>Congrats your project has now been added to the database</p>';
+    successMessage += '<ul>';
+    successMessage += '<li>Project Id: ' + project_id + '</li>';
+    successMessage += '<li>Name: ' + project_name + '</li>';
+    successMessage += '<li>Description: ' + description + '</li>';
+    successMessage += '<li>Start: ' + start + '</li>';
+    successMessage += '<li>Briks Used: ' + briks_used + '</li>';
+    successMessage += '<li>Featured Image URL: ' + full_url + '</li>';
+    successMessage += '<li>Thumbnail Image URL: ' + thumbnail_path + '</li>';
+    successMessage += '<li>Location Full: ' + location_full + '</li>';
+    successMessage += '</ul>';
+    successMessage += '<br><a class="module-btn" href="add-project.php">+ Add Next Project</a>';
 
-// Function to handle form submission response
-// Function to handle form submission response
-function handleFormResponse(response) {
+    // Display the upload-success div and populate with project data
+    var uploadSuccessDiv = document.getElementById('upload-success');
+    uploadSuccessDiv.innerHTML = successMessage;
+    uploadSuccessDiv.style.display = 'block';
+
+    // Hide the photoform
+    document.getElementById('upload-photo-form').style.display = 'none';
+}
+
+// Function to handle response from server
+function handleResponse(response) {
     try {
         // Try parsing the JSON response
         var responseData = JSON.parse(response);
@@ -100,7 +124,16 @@ function handleFormResponse(response) {
             console.log(responseData.error); // Log error response to console
         } else {
             // If no error, call the uploadSuccess function with project data
-            uploadSuccess(responseData.project_id, responseData.name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
+            uploadSuccess(
+                responseData.project_id,
+                responseData.project_name,
+                responseData.description,
+                responseData.start,
+                responseData.briks_used,
+                responseData.full_url,
+                responseData.thumbnail_path,
+                responseData.location_full
+            );
         }
     } catch (error) {
         // If parsing fails, handle it as an error and show the modal with the response message
@@ -109,33 +142,6 @@ function handleFormResponse(response) {
     }
 }
 
-
-
-    // Function to handle upload success
-    function uploadSuccess(project_id, project_name, description, start, briks_used, full_url, thumbnail_path, location_full) {
-        // Construct HTML content with project data
-        var successMessage = '<img src=" ' + thumbnail_path + '"><br><h1>Upload Successful!</h1>';
-        successMessage += '<p>Congrats your project has now been added to the database</p>';
-        successMessage += '<ul>';
-        successMessage += '<li>Project Id: ' + project_id + '</li>';
-        successMessage += '<li>Name: ' + project_name + '</li>';
-        successMessage += '<li>Description: ' + description + '</li>';
-        successMessage += '<li>Start: ' + start + '</li>';
-        successMessage += '<li>Briks Used: ' + briks_used + '</li>';
-        successMessage += '<li>Featured Image URL: ' + full_url + '</li>';
-        successMessage += '<li>Thumbnail Image URL: ' + thumbnail_path + '</li>';
-        successMessage += '<li>Location Full: ' + location_full + '</li>';
-        successMessage += '</ul>';
-        successMessage += '<br><a class="module-btn" href="add-project.php">+ Add Next Project</a>';
-
-        // Display the upload-success div and populate with project data
-        var uploadSuccessDiv = document.getElementById('upload-success');
-        uploadSuccessDiv.innerHTML = successMessage;
-        uploadSuccessDiv.style.display = 'block';
-
-        // Hide the photoform
-        document.getElementById('upload-photo-form').style.display = 'none';
-    }
 
 
 
