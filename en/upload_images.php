@@ -96,19 +96,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo json_encode(array('error' => $error_message));
             exit; // Terminate script execution
         }
+// Update the corresponding project record in the database for tmb_featured_img
+$thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp; // Use WebP version for thumbnail path
+$update_thumbnail_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
+$update_thumbnail_stmt = $conn->prepare($update_thumbnail_sql);
+$update_thumbnail_stmt->bind_param("si", $thumbnail_path, $project_id);
+$update_thumbnail_stmt->execute();
+$update_thumbnail_stmt->close();
 
-        // Update the corresponding project record in the database
-        $thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp; // Use WebP version for thumbnail path
-        $update_sql = "UPDATE tb_projects SET tmb_featured_img = ? WHERE project_id = ?";
-        $update_stmt = $conn->prepare($update_sql);
-        $update_stmt->bind_param("si", $thumbnail_path, $project_id);
-        $update_stmt->execute();
-        $update_stmt->close();
+// Update the corresponding project record in the database for featured_img
+$update_featured_sql = "UPDATE tb_projects SET featured_img = ? WHERE project_id = ?";
+$update_featured_stmt = $conn->prepare($update_featured_sql);
+$update_featured_stmt->bind_param("si", $full_url, $project_id);
+$update_featured_stmt->execute();
+$update_featured_stmt->close();
+
 
         // Prepare success response
         $response = array(
             'project_id' => $project_id,
-            'project_name' => $_POST['project_name'] ?? null,
+            'project_name' => $_POST['name'] ?? null,
             'description' => $_POST['description'] ?? null,
             'start' => $_POST['start'] ?? null,
             'briks_used' => $_POST['briks_used'] ?? null,
