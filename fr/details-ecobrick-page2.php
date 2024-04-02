@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.84';?>
+<?php $version='1.85';?>
 <?php $page='ecobrick-details';?>
  
 <?php 
@@ -57,7 +57,7 @@ echo '
 	
 			
 			echo '<div class="lead-page-paragraph">
-						<p><b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of community plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'.</b></p>
+						<p><b>'. $array["owner"] .' <span data-lang-id="110">has ecobricked </span>'. $array["weight_g"] .'&#8202;g<span data-lang-id="111"> of community plastic in </span>'. $array["location_city"] .', '. $array["location_country"] .'<span data-lang-id="112"> using a </span>'. $array["volume_ml"] .'<span data-lang-id="113"> bottle to make a </span>'. $array["sequestration_type"].'.</b></p>
 					</div>';
 
 	
@@ -69,9 +69,9 @@ echo '
 					
 					
 					<div class="page-paragraph">
-						<p>This ecobrick was with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p>
+						<p><span data-lang-id="114">This ecobrick was with a density of </span>'. $array["density"] .'&#8202;g/ml <span data-lang-id="115">and represents </span>'. $array["CO2_kg"] .'&#8202;kg <span data-lang-id="116">of sequestered C02. The ecobrick is permanently marked with Serial Number </span>'. $array["serial_no"] .'<span data-lang-id="117"> and on </span>'. $array["date_logged_ts"] .'<span data-lang-id="118"> was automatically added to the validation queue.  Based in </span>'. $array["location_region"] .', '. $array["owner"] .'<span data-lang-id="119"> and their community </span>'. $array["community_name"] .', <span data-lang-id="120"> are working hard to keep plastic out of the biosphere in </span>'. $array["location_country"] .'. </p>
 
-						<p>On '. $array["date_logged_ts"] .' the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p>
+						<p><span data-lang-id="121">On </span>'. $array["date_logged_ts"] .'<span data-lang-id="122"> the ecobrick was authenticated with an average validation score of </span>'. $array["final_validation_score"] .'.<span data-lang-id="123"> The ecobrick’s authentication generated </span>'. $array["ecobrick_dec_brk_val"] .'&#8202;ß. <span data-lang-id="124">The ecobrick was ranked with the score of </span>'. $array["validation_score_avg"] .'.</p>
 						<br>
 					</div>
 				</div>';
@@ -91,40 +91,40 @@ echo '
 			</div>
 			<div id="data-chunk">
 				<div class="ecobrick-data">
-					<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</p><br>
+					<p style="margin-left: -32px;font-weight: bold;" data-lang-id="124"> +++ Raw Brikchain Data Record</p><br>
 					<p>--------------------</p>
-					<p>BEGIN BRIK RECORD ></p>';
+					<p data-lang-id="124">BEGIN BRIK RECORD ></p>';
 
-			echo ' <p><b>Logged:</b> ' . $array["date_logged_ts"] .'</p>' ;
-			echo ' <p><b>Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</var></p>' ;
-			echo ' <p><b>Weight:</b> <var>' . $array["weight_g"] .'&#8202;g</var></p>' ;
-			echo ' <p><b>Density:</b> <var>' . $array["density"] .'&#8202;g/ml</var></p>' ;
-			echo ' <p><b>CO2e:</b><var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
-			echo ' <p><b>Brikcoin value:</b> <var>' . $array["ecobrick_dec_brk_val"] .'&#8202;ß</var></p>' ;
+			echo ' <p><b data-lang-id="124">Logged:</b> ' . $array["date_logged_ts"] .'</p>' ;
+			echo ' <p><b data-lang-id="124">Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</var></p>' ;
+			echo ' <p><b data-lang-id="124">Weight:</b> <var>' . $array["weight_g"] .'&#8202;g</var></p>' ;
+			echo ' <p><b data-lang-id="124">Density:</b> <var>' . $array["density"] .'&#8202;g/ml</var></p>' ;
+			echo ' <p><b data-lang-id="124">CO2e:</b><var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
+			echo ' <p><b data-lang-id="124">Brikcoin value:</b> <var>' . $array["ecobrick_dec_brk_val"] .'&#8202;ß</var></p>' ;
 
-			echo ' <p><b>Maker:</b> <var><i>' . $array["owner"] .'</i></var> </p>' ;
-			echo ' <p><b>Sequestration:</b> <var>' . $array["sequestration_type"].'</var></p>' ;
-			echo ' <p><b>Brand:</b> <var>' . $array["brand_name"] .'</var></p>' ;
-			echo ' <p><b>Bottom colour:</b> ' . $array["bottom_colour"] .'</p>' ;
+			echo ' <p><b data-lang-id="124">Maker:</b> <var><i>' . $array["owner"] .'</i></var> </p>' ;
+			echo ' <p><b data-lang-id="124">Sequestration:</b> <var>' . $array["sequestration_type"].'</var></p>' ;
+			echo ' <p><b data-lang-id="124">Brand:</b> <var>' . $array["brand_name"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="124">Bottom colour:</b> ' . $array["bottom_colour"] .'</p>' ;
 
-			echo ' <p><b>Plastic source:</b>' . $array["plastic_from"] .'</p>' ;
+			echo ' <p><b data-lang-id="124">Plastic source:</b>' . $array["plastic_from"] .'</p>' ;
 
-			echo ' <p><b>Community:</b> <var>' . $array["community_name"] .'</var></p>' ;
-			echo ' <p><b>City:</b> <var>' . $array["location_city"] .'</var></p>' ;
-			echo ' <p><b>Region:</b> <var>' . $array["location_region"] .'</var></p>' ;
-			echo ' <p><b>Country:</b> ' . $array["location_country"] .'</p>' ;
-			echo ' <p><b>Full location:</b> <var>' . $array["location_full"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="124">Community:</b> <var>' . $array["community_name"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="124">City:</b> <var>' . $array["location_city"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="124">Region:</b> <var>' . $array["location_region"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="124">Country:</b> ' . $array["location_country"] .'</p>' ;
+			echo ' <p><b data-lang-id="124">Full location:</b> <var>' . $array["location_full"] .'</var></p>' ;
 
 
-			echo ' <p><b>Validation:</b> ' . $array["last_validation_ts"] .'</var></p>' ;
-			echo ' <p><b>Validator 1:</b> <var>' . $array["validator_1"] .'</var> </p>' ;
-			echo ' <p><b>Validator 2:</b> <var>' . $array["validator_2"] .'</var> </p>' ;
-			echo ' <p><b>Validator 3:</b> <var>' . $array["validator_3"] .'</var> </p>' ;
-			echo ' <p><b>Validation score avg.:</b> <var>' . $array["validation_score_avg"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="124">Validation:</b> ' . $array["last_validation_ts"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="124">Validator 1:</b> <var>' . $array["validator_1"] .'</var> </p>' ;
+			echo ' <p><b data-lang-id="124">Validator 2:</b> <var>' . $array["validator_2"] .'</var> </p>' ;
+			echo ' <p><b data-lang-id="124">Validator 3:</b> <var>' . $array["validator_3"] .'</var> </p>' ;
+			echo ' <p><b data-lang-id="124">Validation score avg.:</b> <var>' . $array["validation_score_avg"] .'</var></p>' ;
 
-			echo ' <p><b>Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
-			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p>
-			<p>> END RECORD.</p>
+			echo ' <p><b data-lang-id="124">Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="124">Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p>
+			<p data-lang-id="124"> ||| END RECORD.</p>
 				</div>
 			</div>
 			' ;

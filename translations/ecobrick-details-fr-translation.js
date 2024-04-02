@@ -21,7 +21,9 @@ const fr_Page_Translations = {
 
    '104-side-authenticated-title':'Authentifié !',
    '105-side-authenticated-text':'Cette écobrique a été authentifiée par trois validateurs indépendants selon les normes de séquestration du plastique.',
-   '106-side-authenticated-button':'Standardes Écobrique'
+   '106-side-authenticated-button':'Standardes Écobrique',
+
+   
 
    
     
