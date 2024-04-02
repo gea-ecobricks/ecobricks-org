@@ -147,9 +147,9 @@ echo '
 
 			<div class="side-module-desktop-mobile">
 					<img src="../pngs/authenticated-ecobrick.png" width="90%" alt="Following the Earths example through eco bricking">
-					<br><h4>Authenticated!</h4>
-					<h5>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</h5><br>
-					<a class="module-btn" href="/about">About Ecobricks</a>
+					<br><h4 data-lang-id="104-side-authenticated-text">Authenticated!</h4>
+					<h5 data-lang-id="105-side-authenticated-text">This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</h5><br>
+					<a class="module-btn" href="about.php" data-lang-id="106-side-authenticated-button">Ecobrick Standards</a>
 					<br><br>
 				</div>   ';
 
