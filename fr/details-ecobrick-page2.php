@@ -27,7 +27,7 @@
 
 			<div class="splash-heading"><span data-lang-id="001-splash-title">Ecobrick</span> ' . $array["serial_no"] .'</div>
 			
-			<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg <span data-lang-id="002-splash-subtitle">of plastic has been secured out of the biosphere in </span>'. $array["location_full"] .'...</div>
+			<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg <span data-lang-id="002-splash-subtitle">of plastic has been secured out of the biosphere in</span> '. $array["location_full"] .'...</div>
 		</div>
 		
 		<div class="splash-image">
@@ -57,7 +57,7 @@ echo '
 	
 			
 			echo '<div class="lead-page-paragraph">
-						<p><b>'. $array["owner"] .' <span data-lang-id="110">has ecobricked </span>'. $array["weight_g"] .'&#8202;g<span data-lang-id="111"> of community plastic in </span>'. $array["location_city"] .', '. $array["location_country"] .'<span data-lang-id="112"> using a </span>'. $array["volume_ml"] .'<span data-lang-id="113"> bottle to make a </span>'. $array["sequestration_type"].'.</b></p>
+						<p><b>'. $array["owner"] .' <span data-lang-id="110">has ecobricked </span> '. $array["weight_g"] .'&#8202;g<span data-lang-id="111"> of community plastic in </span>'. $array["location_city"] .', '. $array["location_country"] .'<span data-lang-id="112"> using a </span>'. $array["volume_ml"] .'ml <span data-lang-id="113"> bottle to make a </span>'. $array["sequestration_type"].'.</b></p>
 					</div>';
 
 	
