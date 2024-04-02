@@ -40,11 +40,63 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
+<!-- PROJECT GALLERY -->
 
-<!-- FULL FEATURED GALLERY -->
+    <div class="featured-project-gallery" style="overflow-x:clip;">
+        <div class="feed-live">
+            <p data-lang-id="403-featured-live-brikchain"><span class="blink">⬤  </span>Live projects feed.  Click to preview.</p>
+        </div>
+        <div class="gallery-flex-container">
+            <?php
+                $sql = "SELECT * FROM tb_projects ;";
+                $result = $conn->query($sql);
+
+                if ($result->num_rows > 0) {
+                    // output data of each row
+                    while ($row = $result->fetch_assoc()) {
+                        echo '<div class="gal-project-photo">
+                                <div class="photo-box">
+                                    <img src="' . $row["tmb_featured_img"] . '?v=1" alt="Ecobrick Project ' . $row["project_id"] . ' by ' . $row["name"] . ' in ' . $row["location_full"] . '" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["name"] . '\', \'' . $row["description"] . '\', \'' . $row["location_full"] . '\', \'' . $row["ecobricks_used"] . '\', \'' . $row["start"] . '\')"/>
+                                </div>
+                            </div>';
+                    }
+                } else {
+                    echo "Failed to connect to Project's database";
+                }
+            ?>
+            <div class="project-photo-box-end" href="add-project.php"></div>
+
+        </div>
+        <div class="feature-content-box">
+            <div class="feature-big-header" data-lang-id="404-featured-live-heading">Ecobrick Projects.  Live.</div>
+            <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
+        </div>
+    </div>
+
+
+    <!--FEATURE BOX ONE: HAPPY DOLPHIN-->
+
+    <div class="featured-content-2">
+    
+        <div class="feature-content-box">
+
+            <div class="featured-content-img dolphin-pic"></div>
+            
+            <div class="feature-big-header" data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</div>
+            <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
+            When plastic gets loose into the biosphere it contaminates and poisons.  When plastic is processed by industry it encourages more plastic to be produced.  Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
+            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" onclick="guidedTour()">Intro to Ecobricking</button>
+
+            <div class="feature-reference-links" data-lang-id="311-featured-2-references">
+                <h6>
+                <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
+            </div>
+        </div>
+    </div>
+
+<!-- FULL ECOBRICK FLOW GALLERY -->
 
 <div class="featured-content-gallery" style="overflow-x:clip;">
-
         <div class="feed-live">
             <p data-lang-id="303-featured-live-brikchain"><span class="blink">⬤  </span>Live brikchain feed of authenticated ecobricks.  Click to preview.</p>
         </div>
@@ -65,99 +117,24 @@ https://github/globalecobrickalliance/ecobricks.org
                 } else {
                     echo "Failed to connect to the Brikchain database";
                 }
-    ?>
-
-
+             ?>
             <div class="photo-box-end" href="brikchain.php"></div>
-    </div>
+        </div>
 
-     <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-     50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
-    
-    <div class="feature-content-box">
-
-        <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobricking.  Live.</div>
-        <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks are being made, logged and validated around the world right this moment.  Each authenticated ecobrick is published onto our Brikcoin manual blockchain.</div>
-
-        <a class="btn featured-content-button" href="brikchain.php" data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
-
+        <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
+        50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
+        
+        <div class="feature-content-box">
+            <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobricking.  Live.</div>
+            <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks are being made, logged and validated around the world right this moment.  Each authenticated ecobrick is published onto our Brikcoin manual blockchain.</div>
+            <a class="btn featured-content-button" href="brikchain.php" data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
             <!-- <div class="feature-reference-links">
                 <h6 data-lang-id="307-featured-live-links"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6>
             </div> -->
-    </div>
-
-</div>
-
-
-
-
-
-
-<!-- PROJECT GALLERY -->
-
-<div class="featured-project-gallery" style="overflow-x:clip;">
-
-        <div class="feed-live">
-            <p data-lang-id="303-featured-live-brikchain"><span class="blink">⬤  </span>Feed of ecobrick projects.  Click to preview.</p>
-        </div>
-        <div class="gallery-flex-container">
-        <?php
-            $sql = "SELECT * FROM tb_projects ;";
-            $result = $conn->query($sql);
-
-            if ($result->num_rows > 0) {
-                // output data of each row
-                while ($row = $result->fetch_assoc()) {
-                    echo '<div class="gal-photo">
-                            <div class="photo-box">
-                                <img src="' . $row["tmb_featured_img"] . '?v=1" alt="Ecobrick Project ' . $row["project_id"] . ' by ' . $row["name"] . ' in ' . $row["location_full"] . '" onclick="ecobrickPreview(\'' . $row["project_id"] . '\', \'' . $row["name"] . '\', \'' . $row["description"] . '\', \'' . $row["location_full"] . '\')"/>
-                            </div>
-                        </div>';
-                }
-            } else {
-                echo "Failed to connect to the Project's database";
-            }
-?>
-
-
-        <div class="photo-box-end" href="brikchain.php"></div>
-</div>
-
-     <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-     50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
-    
-    <div class="feature-content-box">
-
-        <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobrick Projects.  Live.</div>
-        <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
-
-        <a class="btn featured-content-button" href="brikchain.php" data-lang-id="306-featured-live-button">🛠️ Build</a>
-
-            <div class="feature-reference-links"><h6 data-lang-id="307-featured-live-links"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6></div>
-    </div>
-
-</div>
-
-
-
-
-    <div class="featured-content-2">
-    
-        <div class="feature-content-box">
-
-            <div class="featured-content-img dolphin-pic"></div>
-            
-            <div class="feature-big-header" data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</div>
-            <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
-            When plastic gets loose into the biosphere it contaminates and poisons.  When plastic is processed by industry it encourages more plastic to be produced.  Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
-            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" onclick="guidedTour()">Intro to Ecobricking</button>
-
-            <div class="feature-reference-links" data-lang-id="311-featured-2-references">
-                <h6>
-                <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
-            </div>
         </div>
     </div>
+
+
 
 
 
@@ -272,9 +249,9 @@ https://github/globalecobrickalliance/ecobricks.org
     const galleryWidth = galleryBlock.scrollWidth; // Get the total width of the gallery
     slowScrollLeft(galleryBlock, galleryWidth, 45000); // Scroll the full width over 15000 milliseconds
 
-</script>
 
-<script>
+
+
    function ecobrickPreview(brik_serial, weight, owner, location) {
         // Construct the image source URL
         var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
@@ -292,6 +269,28 @@ https://github/globalecobrickalliance/ecobricks.org
         // Append the modal to the body
         document.body.appendChild(modal);
     }
+
+
+
+   function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
+        // Construct the image source URL
+        var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_ID + '.webp';
+        
+        // Open a modal with the ecobrick image and link to details-ecobrick-page
+        var modal = document.createElement('div');
+        modal.className = 'ecobrick-modal';
+        modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
+                          '<img src="' + imageUrl + '" alt=" ' + name + '" />' +
+                          '<div class="ecobrick-details">' +
+                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' in ' + location + '.</p>' +
+                          '</div>' +
+                          '<a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-project-page.php?serial_no=' + project_id + '">ℹ️ View Full Details</a>';
+        
+        // Append the modal to the body
+        document.body.appendChild(modal);
+    }
+
+
 
     function closeEcobrickModal() {
         // Close the modal by removing it from the DOM

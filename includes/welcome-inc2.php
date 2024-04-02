@@ -191,11 +191,11 @@ margin: auto 10px auto 18px;
 
 
 
-/* GALLERY */
+/* ECOBRICK AND PROJECT GALLERY */
 
 
 /* FEATURED ECOBRICKS GALLERY FORMATING */
-
+/* 
 .brik-co2 {
   font-size: 0.7em;
   color: white;
@@ -204,7 +204,7 @@ margin: auto 10px auto 18px;
   text-align: left;
   padding: 0px 0px 10px 20px;
   background-color: black !important;
-}
+} */
 
 .gallery-flex-container {
 display: flex;
@@ -222,6 +222,15 @@ margin: 0px -15px 30px -15px}
   max-width:100px;
   width:100px;
   overflow: hidden;
+}
+
+.gallery-flex-container > .gal-project-photo {
+
+padding: 5px;
+max-height: 160px;
+max-width:160px;
+width:160px;
+overflow: hidden;
 }
 /* 
 .gallery-flex-container::before {
@@ -246,6 +255,17 @@ margin: 0px -15px 30px -15px}
 }
 
 
+.gal-project-photo img {
+  width:160px;
+  height: 160px;
+  background: grey;
+  font-family: 'Mulish';
+  font-size: 0.8em;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+
 
 .photo-box-end {
 
@@ -258,6 +278,20 @@ margin: 0px -15px 30px -15px}
   background-size: contain;
   background-color: var(--emblem-green);
 }
+
+
+
+.project-photo-box-end {
+
+height: 100px;
+width: 100px;
+margin: 5px;
+overflow: hidden;
+animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
+background: url(../icons/gobrik-icon-darker.svg) no-repeat center;
+background-size: contain;
+background-color: var(--emblem-green);
+}
 }
 
 @media screen and (max-width: 700px) { 
@@ -269,11 +303,29 @@ margin: 0px -15px 30px -15px}
   overflow: hidden;
 }
 
+.gallery-flex-container > .gal-project-photo {
+  max-height: 100px;
+  max-width:100px;
+  width:100px;
+  overflow: hidden;
+}
+
 
 .gal-photo img {
   margin: 4px;
   width:60px;
   height: 60px;
+  background: grey;
+  font-family: 'Mulish';
+  font-size: 0.6em;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.gal-project-photo img {
+  margin: 4px;
+  width:100px;
+  height: 100px;
   background: grey;
   font-family: 'Mulish';
   font-size: 0.6em;
@@ -291,6 +343,18 @@ margin: 0px -15px 30px -15px}
   background: url(../icons/gobrik-icon-darker.svg) no-repeat center;
   background-size: contain;
   background-color: var(--emblem-green);
+}
+
+.photo-project-box-end {
+
+height: 100px;
+width: 100px;
+margin: 3px;
+
+animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
+background: url(../icons/gobrik-icon-darker.svg) no-repeat center;
+background-size: contain;
+background-color: var(--emblem-green);
 }
 }
 

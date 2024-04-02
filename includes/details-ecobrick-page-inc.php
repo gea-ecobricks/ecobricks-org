@@ -88,29 +88,21 @@
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-
-       
 		background: url(../svgs/brik-market-banner3.svg) bottom;
         background-color: #2A91DA;
-
-
 	}
 }
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-
 		background: url(../svgs/brik-market-banner3.svg) bottom;
         background-color: #2A91DA;
-		
-}
+	}
 }
 
 
 #splash-bar {
-	
     background-color: #2A91DA;
-
 }
 
 /* hr {border: gray;
