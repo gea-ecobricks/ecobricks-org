@@ -62,10 +62,10 @@ input[type="date"] {
   padding: 8px;
   margin-bottom: 10px;
   border: 1px solid var(--divider-line);
-  border-radius: 12px;
+  border-radius: 5px;
   box-sizing: border-box;
   margin-top: 8px;
-  width: 100%;
+
 }
 /* 
 input[type="submit"] {
@@ -97,6 +97,7 @@ input[type="submit"] {
   background-size: 0% 100%; /* Initial background size (progress bar) */
   transition: background-size 0.5s ease; /* Transition effect for smooth progress */
   font-size: 1.3em;
+  width: 100%;
 }
 
 /* Specify the progress bar color */
