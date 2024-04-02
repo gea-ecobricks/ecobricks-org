@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<HTML lang="id"> 
+<HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='id';?>
+<?php $lang='en';?>
 <?php $version='2.01';?>
 <?php $page='ecobrick-details';?>
  
