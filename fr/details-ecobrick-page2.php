@@ -27,7 +27,7 @@
 
 			<div class="splash-heading"><span data-lang-id="001-splash-title">Ecobrick</span> ' . $array["serial_no"] .'</div>
 			
-			<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg <span data-lang-id="002-splash-subtitle">of plastic has been secured out of the biosphere in </span>'. $array["location_full"] .'.</div>
+			<div class="splash-sub">'. $array["weight_authenticated_kg"] .'&#8202;kg <span data-lang-id="002-splash-subtitle">of plastic has been secured out of the biosphere in </span>'. $array["location_full"] .'...</div>
 		</div>
 		
 		<div class="splash-image">

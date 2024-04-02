@@ -6,7 +6,7 @@ FRENCH SNIPPETS FOR 404 page on ECOBRICKS.ORG
 -----------------------------------*/
 
 
-const fr_Page_Translations = {
+const id_Page_Translations = {
 
     '001-splash-title': 'Ecobrck',
     '002-splash-subtitle': 'plastik penjarah dari biosphere.',

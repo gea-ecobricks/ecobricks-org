@@ -6,7 +6,7 @@ FRENCH SNIPPETS FOR 404 page on ECOBRICKS.ORG
 -----------------------------------*/
 
 
-const fr_Page_Translations = {
+const es_Page_Translations = {
 
     '001-splash-title': 'Ecoladrillo',
     '002-splash-subtitle': 'de plastico esta securisada del biosphere ',
