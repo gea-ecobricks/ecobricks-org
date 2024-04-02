@@ -62,9 +62,10 @@ input[type="date"] {
   padding: 8px;
   margin-bottom: 10px;
   border: 1px solid var(--divider-line);
-  border-radius: 4px;
+  border-radius: 12px;
   box-sizing: border-box;
   margin-top: 8px;
+  width: 100%;
 }
 /* 
 input[type="submit"] {
