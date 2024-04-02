@@ -274,7 +274,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
    function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
         // Construct the image source URL
-        var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_ID + '.webp';
+        var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
         
         // Open a modal with the ecobrick image and link to details-ecobrick-page
         var modal = document.createElement('div');
