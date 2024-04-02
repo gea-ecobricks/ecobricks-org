@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.91';?>
+<?php $version='2.0';?>
 <?php $page='ecobrick-details';?>
  
 <?php 
@@ -91,40 +91,40 @@ echo '
 			</div>
 			<div id="data-chunk">
 				<div class="ecobrick-data">
-					<p style="margin-left: -32px;font-weight: bold;" data-lang-id="124"> +++ Raw Brikchain Data Record</p><br>
+					<p style="margin-left: -32px;font-weight: bold;" data-lang-id="125"> +++ Raw Brikchain Data Record</p><br>
 					<p>--------------------</p>
-					<p data-lang-id="124">BEGIN BRIK RECORD ></p>';
+					<p data-lang-id="126">BEGIN BRIK RECORD ></p>';
 
-			echo ' <p><b data-lang-id="124">Logged:</b> ' . $array["date_logged_ts"] .'</p>' ;
-			echo ' <p><b data-lang-id="124">Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</var></p>' ;
-			echo ' <p><b data-lang-id="124">Weight:</b> <var>' . $array["weight_g"] .'&#8202;g</var></p>' ;
-			echo ' <p><b data-lang-id="124">Density:</b> <var>' . $array["density"] .'&#8202;g/ml</var></p>' ;
-			echo ' <p><b data-lang-id="124">CO2e:</b><var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
-			echo ' <p><b data-lang-id="124">Brikcoin value:</b> <var>' . $array["ecobrick_dec_brk_val"] .'&#8202;ß</var></p>' ;
+			echo ' <p><b data-lang-id="127">Logged:</b> ' . $array["date_logged_ts"] .'</p>' ;
+			echo ' <p><b data-lang-id="128">Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</var></p>' ;
+			echo ' <p><b data-lang-id="129">Weight:</b> <var>' . $array["weight_g"] .'&#8202;g</var></p>' ;
+			echo ' <p><b data-lang-id="130">Density:</b> <var>' . $array["density"] .'&#8202;g/ml</var></p>' ;
+			echo ' <p><b data-lang-id="131">CO2e:</b><var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
+			echo ' <p><b data-lang-id="132">Brikcoin value:</b> <var>' . $array["ecobrick_dec_brk_val"] .'&#8202;ß</var></p>' ;
 
-			echo ' <p><b data-lang-id="124">Maker:</b> <var><i>' . $array["owner"] .'</i></var> </p>' ;
-			echo ' <p><b data-lang-id="124">Sequestration:</b> <var>' . $array["sequestration_type"].'</var></p>' ;
-			echo ' <p><b data-lang-id="124">Brand:</b> <var>' . $array["brand_name"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="124">Bottom colour:</b> ' . $array["bottom_colour"] .'</p>' ;
+			echo ' <p><b data-lang-id="133">Maker:</b> <var><i>' . $array["owner"] .'</i></var> </p>' ;
+			echo ' <p><b data-lang-id="134">Sequestration:</b> <var>' . $array["sequestration_type"].'</var></p>' ;
+			echo ' <p><b data-lang-id="135">Brand:</b> <var>' . $array["brand_name"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="136">Bottom colour:</b> ' . $array["bottom_colour"] .'</p>' ;
 
-			echo ' <p><b data-lang-id="124">Plastic source:</b>' . $array["plastic_from"] .'</p>' ;
+			echo ' <p><b data-lang-id="137">Plastic source:</b>' . $array["plastic_from"] .'</p>' ;
 
-			echo ' <p><b data-lang-id="124">Community:</b> <var>' . $array["community_name"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="124">City:</b> <var>' . $array["location_city"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="124">Region:</b> <var>' . $array["location_region"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="124">Country:</b> ' . $array["location_country"] .'</p>' ;
-			echo ' <p><b data-lang-id="124">Full location:</b> <var>' . $array["location_full"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="138">Community:</b> <var>' . $array["community_name"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="139">City:</b> <var>' . $array["location_city"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="140">Region:</b> <var>' . $array["location_region"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="141">Country:</b> ' . $array["location_country"] .'</p>' ;
+			echo ' <p><b data-lang-id="142">Full location:</b> <var>' . $array["location_full"] .'</var></p>' ;
 
 
-			echo ' <p><b data-lang-id="124">Validation:</b> ' . $array["last_validation_ts"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="124">Validator 1:</b> <var>' . $array["validator_1"] .'</var> </p>' ;
-			echo ' <p><b data-lang-id="124">Validator 2:</b> <var>' . $array["validator_2"] .'</var> </p>' ;
-			echo ' <p><b data-lang-id="124">Validator 3:</b> <var>' . $array["validator_3"] .'</var> </p>' ;
-			echo ' <p><b data-lang-id="124">Validation score avg.:</b> <var>' . $array["validation_score_avg"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="143">Validation:</b> ' . $array["last_validation_ts"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="144">Validator 1:</b> <var>' . $array["validator_1"] .'</var> </p>' ;
+			echo ' <p><b data-lang-id="145">Validator 2:</b> <var>' . $array["validator_2"] .'</var> </p>' ;
+			echo ' <p><b data-lang-id="146">Validator 3:</b> <var>' . $array["validator_3"] .'</var> </p>' ;
+			echo ' <p><b data-lang-id="147">Validation score avg.:</b> <var>' . $array["validation_score_avg"] .'</var></p>' ;
 
-			echo ' <p><b data-lang-id="124">Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="124">Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p>
-			<p data-lang-id="124"> ||| END RECORD.</p>
+			echo ' <p><b data-lang-id="148">Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
+			echo ' <p><b data-lang-id="149">Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p>
+			<p data-lang-id="150"> ||| END RECORD.</p>
 				</div>
 			</div>
 			' ;
@@ -132,14 +132,14 @@ echo '
 			echo '
 			<br><hr><br> 
 			<div class="page-paragraph">
-				<h3><p>The Brikchain</p></h3>
+				<h3><p data-lang-id="151">The Brikchain</p></h3>
 			
-				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
+				<p data-lang-id="152">When an ecobrick is authenticated (like the one above!) it is published to the brikcoin manual blockchain and brikcoins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick as well as all the other ecobricks, blocks and transactions that underpin the Brickoin currency.</p>
 
-			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+			<p data-lang-id="153">As a non-capital, manual process, brikcoin generation favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 				<br>
-				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+				<p ><a class="action-btn-blue" href="brikchain.php" data-lang-id="154">🔎 Browse the Brikchain</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">The live chain of transactions and ecobricks.</a></p>
 				</div>
 			</div>';
 			
@@ -166,7 +166,7 @@ echo '
 			<div class="splash-heading">';
 	
 			echo 'Sorry! :-(</div>
-			<div class="splash-sub">No results for ecobrick '. $serialNo .' in the Brikchain.  Most likely this is because the Brikchain data is still in migration.</div>
+			<div class="splash-sub" data-lang-id="151">No results for ecobrick '. $serialNo .' in the Brikchain.  Most likely this is because the Brikchain data is still in migration.</div>
 		</div>
 		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
 	</div>
@@ -182,18 +182,18 @@ echo '
 				
 			
 			<div class="ecobrick-data">
-			<p>🚧 The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.
+			<p data-lang-id="152">🚧 The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.  This could be because of transfer delay.  Normally publishing occurs within 30 seconds of authentication.  If more than 24hrs has passed, an error has occurred or this ecobrick was not authenticated.
 				</p></div><br><br><br><br>
 				
 				<div class="page-paragraph">
-				<p><h3>The Brikchain</h3></p>
+				<p><h3 data-lang-id="154">The Brikchain</h3></p>
 			
-				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
+				<p data-lang-id="155">When an ecobrick is authenticated, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find authenticated ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
-			<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+			<p data-lang-id="156">As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 				<br>
-				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+				<p><a class="action-btn-blue" href="brikchain.php" data-lang-id="157">🔎 Browse the Brikchain</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="158">The live chain of transactions and ecobricks.</a></p>
 				</div>
 			</div>
 

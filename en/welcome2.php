@@ -282,7 +282,7 @@ https://github/globalecobrickalliance/ecobricks.org
         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
                           '<img src="' + imageUrl + '" alt=" ' + name + '" />' +
                           '<div class="ecobrick-details">' +
-                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' in ' + location + '.</p>' +
+                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' in ' + location_full + '.</p>' +
                           '</div>' +
                           '<a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-project-page.php?serial_no=' + project_id + '">ℹ️ View Full Details</a>';
         

@@ -283,8 +283,8 @@ overflow: hidden;
 
 .project-photo-box-end {
 
-height: 100px;
-width: 100px;
+height: 160px;
+width: 160px;
 margin: 5px;
 overflow: hidden;
 animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
