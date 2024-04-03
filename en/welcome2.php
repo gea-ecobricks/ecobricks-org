@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.6';?>
+<?php $version='2.2';?>
 <?php $page='welcome2';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -89,7 +89,7 @@ https://github/globalecobrickalliance/ecobricks.org
             
             <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
            Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
-            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" aria-label="A quick intro" onclick="guidedTour()">Introduction</button>
+            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" aria-label="A quick intro" onclick="guidedTour()">Quick Intro</button>
 
             <!-- <div class="feature-reference-links" data-lang-id="311-featured-2-references">
                 <h6>
@@ -135,7 +135,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
             <a href="brikchain.php" class="feature-button"  data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
             <div class="feature-reference-links"data-lang-id="307-featured-live-links">A feed & archive of authenticated ecobricks</div>
-            </div>
+            
         </div>
     </div>
 
@@ -172,6 +172,9 @@ https://github/globalecobrickalliance/ecobricks.org
                 
         </div>
     </div>
+
+
+
     <div class="feature-content-box">
     <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
         <div class="feature-big-header" data-lang-id="312-top10s-title">Monthly Top Tens</div>

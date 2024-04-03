@@ -804,17 +804,17 @@ margin-left: 0px;
 
 @media screen and (max-width: 769px) {
   .feature-big-header {
-      font-size: 1.5em;
+      font-size: 1.9em;
   }
 }
 @media screen and (min-width: 770px) and (max-width: 1200px) {
   .feature-big-header {
-      font-size: 2.5em;
+      font-size: 2.6em;
   }
 }
 @media screen and (min-width: 1201px) {
   .feature-big-header {
-      font-size: 3em;
+      font-size: 2.5em;
   }
 }
 
@@ -891,7 +891,7 @@ margin-left: 0px;
     color: var(--subdued-text);
     font-family: 'Mulish', sans-serif;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 12px;
 
   }
 

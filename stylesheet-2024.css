@@ -117,7 +117,7 @@
   
   h4 {
     font-family: 'Arvo', Georgia, serif;
-    color: var(--text-color);
+    color: var(--h1);
   }
   @media screen and (min-width: 770px) {
     h4 {
