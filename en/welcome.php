@@ -69,8 +69,8 @@ https://github/globalecobrickalliance/ecobricks.org
             
             <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
         </div>
-        <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
-        <div class="feature-reference-links">Share your ecobrick application</div>
+        <!-- <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
+        <div class="feature-reference-links">Share your ecobrick application</div> -->
     </div>
 
 
@@ -290,11 +290,32 @@ https://github/globalecobrickalliance/ecobricks.org
         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
                           '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
                           '<div class="ecobrick-details">' +
-                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-project-page.php?serial_no=' + project_id + '">ℹ️ View Full Details</a>';
+                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div>';
         
         // Append the modal to the body
         document.body.appendChild(modal);
     }
+
+
+    //WITH BUTTON
+
+
+//    function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
+//         // Construct the image source URL
+//         var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
+        
+//         // Open a modal with the ecobrick image and link to details-ecobrick-page
+//         var modal = document.createElement('div');
+//         modal.className = 'ecobrick-modal';
+//         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
+//                           '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
+//                           '<div class="ecobrick-details">' +
+//                           '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-project-page.php?serial_no=' + project_id + '">ℹ️ View Full Details</a>';
+        
+//         // Append the modal to the body
+//         document.body.appendChild(modal);
+//     }
+
 
 
 
