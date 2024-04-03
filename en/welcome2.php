@@ -68,10 +68,11 @@ https://github/globalecobrickalliance/ecobricks.org
 
         </div>
         <div class="feature-content-box">
-            <div class="feature-big-header"><h2 data-lang-id="404-featured-live-heading">Ecobricks Applied...</h2></div>
+        <!-- <div class="feature-big-header"></div> -->
+            <h2 data-lang-id="404-featured-live-heading">Ecobricks Applied...</h2>
             <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
         </div>
-        <a class="btn featured-content-button" href="brikchain.php" data-lang-id="405b-post-project-button">Post a Project</a>
+        <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
     </div>
 
 
@@ -83,7 +84,8 @@ https://github/globalecobrickalliance/ecobricks.org
 
             <div class="featured-content-img dolphin-pic"></div>
             
-            <div class="feature-big-header" data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</div>
+            <!-- <div class="feature-big-header" data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</div> -->
+            <h4 data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</h4>
             <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
            Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
             <button type="button" class="feature-button" data-lang-id="310-featured-2-button" onclick="guidedTour()">A Quick Intro</button>
