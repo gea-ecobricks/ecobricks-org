@@ -68,9 +68,10 @@ https://github/globalecobrickalliance/ecobricks.org
 
         </div>
         <div class="feature-content-box">
-            <div class="feature-big-header" data-lang-id="404-featured-live-heading">Ecobrick Projects.  Live.</div>
+            <div class="feature-big-header"><h1 data-lang-id="404-featured-live-heading">Ecobricks Applied...</h1></div>
             <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
         </div>
+        <a class="btn featured-content-button" href="brikchain.php" data-lang-id="405b-post-project-button">Post a Project</a>
     </div>
 
 
@@ -84,13 +85,13 @@ https://github/globalecobrickalliance/ecobricks.org
             
             <div class="feature-big-header" data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</div>
             <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
-            When plastic gets loose into the biosphere it contaminates and poisons.  When plastic is processed by industry it encourages more plastic to be produced.  Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
-            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" onclick="guidedTour()">Intro to Ecobricking</button>
+           Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
+            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" onclick="guidedTour()">A Quick Intro</button>
 
-            <div class="feature-reference-links" data-lang-id="311-featured-2-references">
+            <!-- <div class="feature-reference-links" data-lang-id="311-featured-2-references">
                 <h6>
                 <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -126,11 +127,12 @@ https://github/globalecobrickalliance/ecobricks.org
         
         <div class="feature-content-box">
             <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobricking.  Live.</div>
-            <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks are being made, logged and validated around the world right this moment.  Each authenticated ecobrick is published onto our Brikcoin manual blockchain.</div>
-            <a class="btn featured-content-button" href="brikchain.php" data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
-            <!-- <div class="feature-reference-links">
-                <h6 data-lang-id="307-featured-live-links"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6>
-            </div> -->
+            <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks are being made, logged and validated around the world right this moment.</div>
+
+            <a href="brikchain.php" class="feature-button"  data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
+            <div class="feature-reference-links">
+                <h6 data-lang-id="307-featured-live-links">A feed & archive of authenticated ecobricks</h6>
+            </div>
         </div>
     </div>
 
@@ -173,8 +175,8 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world-- and peer review by them too!</div>
 
          <a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button">🏆 Monthly Rankings</a>
-
-            <div class="feature-reference-links"><h6 data-lang-id="314-top10s-references"><a href="top-tens.php">Brikchain</a> | <a href="/brikcoins">Brikcoins</a></h6></div>
+<!-- 
+            <div class="feature-reference-links"><h6 data-lang-id="314-top10s-references"><a href="top-tens.php">Brikchain</a> | <a href="/brikcoins">Brikcoins</a></h6></div> -->
     </div>
     
 </div>
@@ -184,11 +186,11 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="featured-content-img ecovillage-pic"></div>
             <div class="feature-big-header" data-lang-id="315-featured-3-heading">Put Plastic to Good Use</div>
             <div class="feature-sub-text" data-lang-id="316-featured-3-subheading">
-            Ecobricks turn problematic plastic into reusable blocks.  With our ecobricks we can build great and green.  From furniture, to gardens, to structures ecobrick outputs embody the principle of spiral design.  Your plastic isn't a problem-- its the start of the solution.</div>
+            Ecobricks turn problematic plastic into reusable blocks.  Plastic is a problem-- but its also the way to build deep green solutions.</div>
 
             <a href="build.php" class="feature-button" data-lang-id="317-featured-3-button">🔨Ecobrick Building</a>
             
-            <div class="feature-reference-links"><h6 data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="/earth-methods">Earth Methods</a> | <a href="modules.php">Furniture Modules</a> | <a href="spiral.php">Spiral Design</a> | <a href="/openspace/">Open Spaces</a> | <a href="/fire/">Fire Safety</a></h6></div>
+            <div class="feature-reference-links"><h6 data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="modules.php">Furniture Modules</a></h6>
         </div>
     </div>
 

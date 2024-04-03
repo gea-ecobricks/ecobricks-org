@@ -645,7 +645,7 @@ margin-left: 0px;
     background-position: center;
     position: relative;
     overflow: hidden;
-    margin-top: -40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     margin-right: 16px;
     margin-left: 16px;
@@ -664,7 +664,8 @@ margin-left: 0px;
     background-position: center;
     position: relative;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: -40px;
+
     margin-bottom: 10px;
     margin-right: 16px;
     margin-left: 16px;
