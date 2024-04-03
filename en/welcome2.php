@@ -68,11 +68,12 @@ https://github/globalecobrickalliance/ecobricks.org
 
         </div>
         <div class="feature-content-box">
-        <!-- <div class="feature-big-header"></div> -->
-            <h2 data-lang-id="404-featured-live-heading">Ecobricks Applied...</h2>
+        <div class="feature-big-header"><h2 data-lang-id="404-featured-live-heading">Ecobricks Applied...</h2></div>
+            
             <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
         </div>
         <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
+        <div class="reference">Share your ecobrick application</div>
     </div>
 
 
@@ -84,16 +85,17 @@ https://github/globalecobrickalliance/ecobricks.org
 
             <div class="featured-content-img dolphin-pic"></div>
             
-            <!-- <div class="feature-big-header" data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</div> -->
-            <h4 data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</h4>
+            <div class="feature-big-header" data-lang-id="308-featured-2-heading"><h4 data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</h4></div>
+            
             <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
            Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
-            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" onclick="guidedTour()">A Quick Intro</button>
+            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" onclick="guidedTour()">Introduction</button>
 
             <!-- <div class="feature-reference-links" data-lang-id="311-featured-2-references">
                 <h6>
                 <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
             </div> -->
+            <div class="reference">Five slides. 45 seconds.</div>
         </div>
     </div>
 
@@ -133,7 +135,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
             <a href="brikchain.php" class="feature-button"  data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
             <div class="feature-reference-links">
-                <h6 data-lang-id="307-featured-live-links">A feed & archive of authenticated ecobricks</h6>
+                <div class="reference"> data-lang-id="307-featured-live-links">A feed & archive of authenticated ecobricks</div>
             </div>
         </div>
     </div>
