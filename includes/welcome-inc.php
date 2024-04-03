@@ -798,7 +798,7 @@ margin-left: 0px;
   line-height: 1.3;
   text-shadow: 0 0 10px var(--background-color);
   font-weight: 500;
-  color: var(--h1);
+  color: var(--h1) !important;
   margin-bottom: 10px;
 }
 
@@ -891,23 +891,24 @@ margin-left: 0px;
     color: var(--subdued-text);
     font-family: 'Mulish', sans-serif;
     margin-bottom: 30px;
+    margin-top: 20px;
 
   }
 
 
   @media screen and (max-width: 769px) {
     .feature-reference-links {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
   }
   @media screen and (min-width: 770px) and (max-width: 1024px) {
     .feature-reference-links {
-        font-size: 1em;
+        font-size: 0.9em;
     }
   }
   @media screen and (min-width: 1024px) {
     .feature-reference-links {
-        font-size: 1.1em;
+        font-size: 1.0em;
     }
   }
   
