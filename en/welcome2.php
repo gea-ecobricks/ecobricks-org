@@ -4,7 +4,7 @@
 <META charset="UTF-8">
 <?php $lang='en';?>
 <?php $version='2.6';?>
-<?php $page='welcome';?>
+<?php $page='welcome2';?>
 <?php include '../ecobricks_env.php';?>
 
 
@@ -19,7 +19,7 @@ https://github/globalecobrickalliance/ecobricks.org
 -->
 
 
-<?php require_once ("../includes/welcome-inc2.php");?>
+<?php require_once ("../includes/welcome-inc.php");?>
 
 
 <!-- FEATURED HEADLINE CONTENT -->
@@ -68,7 +68,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
         </div>
         <div class="feature-content-box">
-            <div class="feature-big-header"><h1 data-lang-id="404-featured-live-heading">Ecobricks Applied...</h1></div>
+            <div class="feature-big-header"><h2 data-lang-id="404-featured-live-heading">Ecobricks Applied...</h2></div>
             <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
         </div>
         <a class="btn featured-content-button" href="brikchain.php" data-lang-id="405b-post-project-button">Post a Project</a>
