@@ -667,8 +667,8 @@ margin-left: 0px;
     margin-top: -40px;
 
     margin-bottom: 10px;
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
     border-radius: 15px;
     background-color: var(--gallery);
     justify-content: center;
@@ -802,21 +802,21 @@ margin-left: 0px;
   margin-bottom: 10px;
 }
 
-/* @media screen and (max-width: 769px) {
+@media screen and (max-width: 769px) {
   .feature-big-header {
-      font-size: 1.9em;
+      font-size: 1.5em;
   }
 }
 @media screen and (min-width: 770px) and (max-width: 1200px) {
   .feature-big-header {
-      font-size: 2.7em;
+      font-size: 2.5em;
   }
 }
 @media screen and (min-width: 1201px) {
   .feature-big-header {
-      font-size: 3.5em;
+      font-size: 3em;
   }
-} */
+}
 
 
 .feature-sub-text {

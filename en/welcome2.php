@@ -193,7 +193,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
             <a href="build.php" class="feature-button" data-lang-id="317-featured-3-button">🔨Ecobrick Building</a>
             
-            <div class="feature-reference-links" data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="modules.php">Furniture Modules</a>
+            <div class="feature-reference-links" data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="modules.php">Furniture Modules</a></div>
         </div>
     </div>
 
@@ -212,6 +212,9 @@ https://github/globalecobrickalliance/ecobricks.org
             </div>
         </div>
     </div>
+
+
+        </div><!--closes main-->
     
 
 
