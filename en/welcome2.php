@@ -68,7 +68,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
         </div>
         <div class="feature-content-box">
-        <div class="feature-big-header"><h4 data-lang-id="404-featured-live-heading">Ecobricks Applied...</h4></div>
+        <div class="feature-big-header"><h4 data-lang-id="404-featured-live-heading">Ecobricks Applied</h4></div>
             
             <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
         </div>
@@ -175,11 +175,11 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="feature-content-box">
     <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
         <div class="feature-big-header" data-lang-id="312-top10s-title">Monthly Top Tens</div>
-        <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world-- and peer review by them too!</div>
+        <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world— and peer review by them too!</div>
 
-         <a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button">🏆 Monthly Rankings</a>
-<!-- 
-            <div class="feature-reference-links"><h6 data-lang-id="314-top10s-references"><a href="top-tens.php">Brikchain</a> | <a href="/brikcoins">Brikcoins</a></h6></div> -->
+         <a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button" aria-lable="monthly rankings">🏆 Monthly Rankings</a>
+
+            <div class="feature-reference-links" data-lang-id="314-top10s-references">The best ecobricks this month</div>
     </div>
     
 </div>
@@ -189,11 +189,11 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="featured-content-img ecovillage-pic"></div>
             <div class="feature-big-header" data-lang-id="315-featured-3-heading">Put Plastic to Good Use</div>
             <div class="feature-sub-text" data-lang-id="316-featured-3-subheading">
-            Ecobricks turn problematic plastic into reusable blocks.  Plastic is a problem-- but its also the way to build deep green solutions.</div>
+            Ecobricks turn problematic plastic into reusable blocks.  Plastic is a problem— but its also the way to build deep green solutions.</div>
 
             <a href="build.php" class="feature-button" data-lang-id="317-featured-3-button">🔨Ecobrick Building</a>
             
-            <div class="feature-reference-links"><h6 data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="modules.php">Furniture Modules</a></h6>
+            <div class="feature-reference-links" data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="modules.php">Furniture Modules</a>
         </div>
     </div>
 
@@ -208,7 +208,7 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="feature-sub-text" data-lang-id="320-featured-4-subheading">
             Our ecobricking is inspired by the Igorot people of Northen Luzon, where the Global Ecobrick Alliance was founded.  Guided by their Ayyew ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste.</div>
             <a href="principles.php" class="feature-button" data-lang-id="321-featured-4-button">🌏 Our Earthen Principles</a>
-            <div class="feature-reference-links"><h6 data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a> | <a href="/story/">GEA story</a></h6>
+            <div class="feature-reference-links" data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a> | <a href="/story/">GEA story</a>
             </div>
         </div>
     </div>

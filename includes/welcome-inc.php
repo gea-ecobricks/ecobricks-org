@@ -802,7 +802,7 @@ margin-left: 0px;
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 769px) {
+/* @media screen and (max-width: 769px) {
   .feature-big-header {
       font-size: 1.9em;
   }
@@ -816,7 +816,7 @@ margin-left: 0px;
   .feature-big-header {
       font-size: 3.5em;
   }
-}
+} */
 
 
 .feature-sub-text {
