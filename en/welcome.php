@@ -8,9 +8,6 @@
 <?php include '../ecobricks_env.php';?>
 
 
-<title>Welcome to Ecobricks.org</title>
-
-
 <!-- 
 Ecobricks.org site version 3.0
 Developed and made open source by the Global Ecobrick Alliance
@@ -293,9 +290,7 @@ https://github/globalecobrickalliance/ecobricks.org
         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
                           '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
                           '<div class="ecobrick-details">' +
-                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '.</p>' +
-                          '</div>' +
-                          '<a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-project-page.php?serial_no=' + project_id + '">ℹ️ View Full Details</a>';
+                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-project-page.php?serial_no=' + project_id + '">ℹ️ View Full Details</a>';
         
         // Append the modal to the body
         document.body.appendChild(modal);

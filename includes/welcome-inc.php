@@ -535,7 +535,7 @@ font-size: 0.8em;
 @media screen and (min-width: 700px) { 
 
 .flex-container10 > .gal-photo10 {
-    background-color: var(--show-hide:);
+    background-color: var(--show-hide);
     margin: 0px;
     padding: 2px;
 
