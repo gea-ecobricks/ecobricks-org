@@ -180,7 +180,7 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="feature-big-header" data-lang-id="312-top10s-title">Monthly Top Tens</div>
         <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world— and peer review by them too!</div>
 
-         <a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button" aria-lable="monthly rankings">🏆 Monthly Rankings</a>
+         <a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button" aria-label="monthly rankings">🏆 Monthly Rankings</a>
 
             <div class="feature-reference-links" data-lang-id="314-top10s-references">The best ecobricks this month</div>
     </div>
@@ -229,7 +229,7 @@ https://github/globalecobrickalliance/ecobricks.org
 <?php require_once ("../footer-2024.php");?>
 
 
-</div>  <!--ends page content-->
+ <!-- </div>  ends page content-->
 
 
 <script>
@@ -291,9 +291,9 @@ https://github/globalecobrickalliance/ecobricks.org
         var modal = document.createElement('div');
         modal.className = 'ecobrick-modal';
         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-                          '<img src="' + imageUrl + '" alt=" ' + name + '" />' +
+                          '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
                           '<div class="ecobrick-details">' +
-                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' in ' + location_full + '.</p>' +
+                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '.</p>' +
                           '</div>' +
                           '<a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-project-page.php?serial_no=' + project_id + '">ℹ️ View Full Details</a>';
         
