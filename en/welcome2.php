@@ -95,7 +95,7 @@ https://github/globalecobrickalliance/ecobricks.org
                 <h6>
                 <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
             </div> -->
-            <div class="reference">Five slides. 45 seconds.</div>
+            <div class="feature-reference-links">Five slides. 45 seconds.</div>
         </div>
     </div>
 
@@ -134,8 +134,7 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks are being made, logged and validated around the world right this moment.</div>
 
             <a href="brikchain.php" class="feature-button"  data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
-            <div class="feature-reference-links">
-                <div class="reference"> data-lang-id="307-featured-live-links">A feed & archive of authenticated ecobricks</div>
+            <div class="feature-reference-links"data-lang-id="307-featured-live-links">A feed & archive of authenticated ecobricks</div>
             </div>
         </div>
     </div>

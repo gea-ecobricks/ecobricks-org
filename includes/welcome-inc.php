@@ -882,17 +882,43 @@ margin-left: 0px;
     text-decoration: underline;
   }
 
+
   .feature-reference-links {
     width: fit-content;
     margin: auto;
     margin-bottom: 30px;
     text-align: center;
-    font-size: small;
-
+    color: var(--subdued-text);
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 30px;
 
   }
 
+
+  @media screen and (max-width: 769px) {
+    .feature-reference-links {
+        font-size: 0.9em;
+    }
+  }
+  @media screen and (min-width: 770px) and (max-width: 1024px) {
+    .feature-reference-links {
+        font-size: 1em;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .feature-reference-links {
+        font-size: 1.1em;
+    }
+  }
   
+
+  .feature-reference-links a {
+    text-decoration: none;
+  }
+
+  .feature-reference-links a:hover {
+    text-decoration: underline;
+  }
 
 /* 
 .lead-paragraph {
