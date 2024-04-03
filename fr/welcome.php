@@ -89,11 +89,7 @@ https://github/globalecobrickalliance/ecobricks.org
            Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
             <button type="button" class="feature-button" data-lang-id="310-featured-2-button" aria-label="A quick intro" onclick="guidedTour()">Quick Intro</button>
 
-            <!-- <div class="feature-reference-links" data-lang-id="311-featured-2-references">
-                <h6>
-                <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
-            </div> -->
-            <div class="feature-reference-links">Five slides. 45 seconds.</div>
+            <div class="feature-reference-links" data-lang-id="311-featured-2-references">Five slides. 45 seconds.</div>
         </div>
     </div>
 

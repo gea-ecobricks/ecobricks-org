@@ -24,6 +24,7 @@ const en_Page_Translations = {
   "308-featured-2-heading": "Keep Plastic Safe",
   "309-featured-2-subheading": "Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.",
   "310-featured-2-button": "Quick Intro",
+  "311-featured-2-references": "Five slides. 45 seconds.",
   "303-featured-live-brikchain": "<span class=\"blink\">⬤  </span>Live brikchain feed of authenticated ecobricks.  Click to preview.",
   "304-featured-live-heading": "Ecobricking.  Live.",
   "305-featured-live-subheading": "Ecobricks are being made, logged and validated around the world right this moment.",

@@ -31,6 +31,9 @@ const fr_Page_Translations = {
     "319-featured-4-heading": "Suivre l'Exemple de la Terre",
     "320-featured-4-subheading": "Notre écobriquage est inspiré par le peuple Igorot du Nord de Luzon, où l'Alliance Globale d'Écobriques a été fondée. Guidé par leur éthos Ayyew, l'écobriquage se distingue fondamentalement des concepts occidentaux de durabilité et de zéro déchet.",
     "321-featured-4-button": "🌏 Nos Principes Terrestres",
-    "322-featured-4-references": "<a href=\"spiral.php\">Conception en Spirale</a> | <a href=\"/ayyew/\">Ayyew </a> | <a href=\"about.php\">À propos de Nous</a>"
+    "322-featured-4-references": "<a href=\"spiral.php\">Conception en Spirale</a> | <a href=\"/ayyew/\">Ayyew </a> | <a href=\"about.php\">À propos de Nous</a>",
+
+    "310-featured-2-button": "Intro rapide",
+    "311-featured-2-references": "Cinq diapositives. 45 secondes."
   };
   

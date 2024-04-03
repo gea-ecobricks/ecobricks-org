@@ -989,7 +989,8 @@ margin-left: 0px;
     display: block;
     margin: auto; /* Center the image */
     max-width: 80%; /* Adjust the width as needed */
-    max-height:75%;
+    max-height:80%;
+    margin-bottom: 10px;
 }
 
 /* Style for the details link */
