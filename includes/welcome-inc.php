@@ -915,10 +915,12 @@ margin-left: 0px;
 
   .feature-reference-links a {
     text-decoration: none;
+    color: var(--subdued-text);
   }
 
   .feature-reference-links a:hover {
     text-decoration: underline;
+    color: var(--subdued-text);
   }
 
 /* 

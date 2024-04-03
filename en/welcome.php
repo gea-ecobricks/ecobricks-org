@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.54';?>
+<?php $version='2.4';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -19,7 +19,7 @@ https://github/globalecobrickalliance/ecobricks.org
 -->
 
 
-<?php require_once ("../includes/welcome-inc2.php");?>
+<?php require_once ("../includes/welcome-inc.php");?>
 
 
 <!-- FEATURED HEADLINE CONTENT -->
@@ -40,82 +40,106 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
+<!-- PROJECT GALLERY -->
 
-<!-- FULL FEATURED GALLERY -->
-
-<div class="featured-content-gallery" style="overflow-x:clip;">
-
-          
-            
-    
- <!--   <div class="gal-photo">
-        <div class="photo-box-end"><a href="brikchain.php">...</a></div>
-        <div class="gal-photo-text"></div>
-     </div>-->
-
+    <div class="featured-project-gallery" style="overflow-x:clip;">
         <div class="feed-live">
-            <p data-lang-id="303-featured-live-brikchain"><span class="blink">⬤  </span>Live brikchain feed of authenticated ecobricks.  Click to preview.</p>
+            <p data-lang-id="403-featured-live-brikchain"><span class="blink">⬤  </span>Live projects feed.  Click to preview.</p>
         </div>
         <div class="gallery-flex-container">
-        <?php
-            $sql = "SELECT * FROM vw_gallery_feed ;";
-            $result = $conn->query($sql);
+            <?php
+                $sql = "SELECT * FROM tb_projects ;";
+                $result = $conn->query($sql);
 
-            if ($result->num_rows > 0) {
-                // output data of each row
-                while ($row = $result->fetch_assoc()) {
-                    echo '<div class="gal-photo">
-                            <div class="photo-box">
-                                <img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\', \'' . $row["weight_in_g"] . '\', \'' . $row["ecobrick_owner"] . '\', \'' . $row["location"] . '\')"/>
-                            </div>
-                        </div>';
+                if ($result->num_rows > 0) {
+                    // output data of each row
+                    while ($row = $result->fetch_assoc()) {
+                        echo '<div class="gal-project-photo">
+                                <div class="photo-box">
+                                    <img src="' . $row["tmb_featured_img"] . '?v=1" alt="Ecobrick Project ' . $row["project_id"] . ' by ' . $row["name"] . ' in ' . $row["location_full"] . '" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["name"] . '\', \'' . $row["description"] . '\', \'' . $row["location_full"] . '\', \'' . $row["ecobricks_used"] . '\', \'' . $row["start"] . '\')"/>
+                                </div>
+                            </div>';
+                    }
+                } else {
+                    echo "Failed to connect to Project's database";
                 }
-            } else {
-                echo "Failed to connect to the Brikchain database";
-            }
-?>
+            ?>
+            <div class="project-photo-box-end" href="add-project.php"></div>
 
-
-        <div class="photo-box-end" href="brikchain.php"></div>
-</div>
-
-     <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-     50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
-    
-
-    
-    <div class="feature-content-box">
-
-        <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobricking.  Live.</div>
-        <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks are being made, logged and validated around the world right this moment.  Each authenticated ecobrick is published onto our Brikcoin manual blockchain.</div>
-
-        <a class="btn featured-content-button" href="brikchain.php" data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
-
-            <div class="feature-reference-links"><h6 data-lang-id="307-featured-live-links"><a href="brikchain.php">About AES Plastic</a> | <a href="/brikcoins">About Brikcoins</a></h6></div>
+        </div>
+        <div class="feature-content-box">
+        <div class="feature-big-header"><h4 data-lang-id="404-featured-live-heading">Ecobricks Applied</h4></div>
+            
+            <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
+        </div>
+        <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
+        <div class="feature-reference-links">Share your ecobrick application</div>
     </div>
 
-</div>
 
+    <!--FEATURE BOX ONE: HAPPY DOLPHIN-->
 
-
-
-    <div class="featured-content-2"  >
+    <div class="featured-content-2">
     
         <div class="feature-content-box">
 
             <div class="featured-content-img dolphin-pic"></div>
             
-            <div class="feature-big-header" data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</div>
+            <div class="feature-big-header" data-lang-id="308-featured-2-heading"><h4 data-lang-id="308-featured-2-heading">Keep Plastic Safe</h4></div>
+            
             <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
-            When plastic gets loose into the biosphere it contaminates and poisons.  When plastic is processed by industry it encourages more plastic to be produced.  Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
-            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" onclick="guidedTour()">Intro to Ecobricking</button>
+           Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
+            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" aria-label="A quick intro" onclick="guidedTour()">Quick Intro</button>
 
-            <div class="feature-reference-links" data-lang-id="311-featured-2-references">
+            <!-- <div class="feature-reference-links" data-lang-id="311-featured-2-references">
                 <h6>
                 <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
-            </div>
+            </div> -->
+            <div class="feature-reference-links">Five slides. 45 seconds.</div>
         </div>
     </div>
+
+<!-- FULL ECOBRICK FLOW GALLERY -->
+
+<div class="featured-content-gallery" style="overflow-x:clip;">
+        <div class="feed-live">
+            <p data-lang-id="303-featured-live-brikchain"><span class="blink">⬤  </span>Live brikchain feed of authenticated ecobricks.  Click to preview.</p>
+        </div>
+        <div class="gallery-flex-container">
+            <?php
+                $sql = "SELECT * FROM vw_gallery_feed ;";
+                $result = $conn->query($sql);
+
+                if ($result->num_rows > 0) {
+                    // output data of each row
+                    while ($row = $result->fetch_assoc()) {
+                        echo '<div class="gal-photo">
+                                <div class="photo-box">
+                                    <img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\', \'' . $row["weight_in_g"] . '\', \'' . $row["ecobrick_owner"] . '\', \'' . $row["location"] . '\')"/>
+                                </div>
+                            </div>';
+                    }
+                } else {
+                    echo "Failed to connect to the Brikchain database";
+                }
+             ?>
+            <div class="photo-box-end" href="brikchain.php"></div>
+        </div>
+
+        <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
+        50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
+        
+        <div class="feature-content-box">
+            <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobricking.  Live.</div>
+            <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks are being made, logged and validated around the world right this moment.</div>
+
+            <a href="brikchain.php" class="feature-button"  data-lang-id="306-featured-live-button" aria-label="view brikchain">⛓️ The Brikchain</a>
+            <div class="feature-reference-links"data-lang-id="307-featured-live-links">A feed & archive of authenticated ecobricks</div>
+            
+        </div>
+    </div>
+
+
 
 
 
@@ -148,14 +172,17 @@ https://github/globalecobrickalliance/ecobricks.org
                 
         </div>
     </div>
+
+
+
     <div class="feature-content-box">
     <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
         <div class="feature-big-header" data-lang-id="312-top10s-title">Monthly Top Tens</div>
-        <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world-- and peer review by them too!</div>
+        <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world— and peer review by them too!</div>
 
-         <a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button">🏆 Monthly Rankings</a>
+         <a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button" aria-lable="monthly rankings">🏆 Monthly Rankings</a>
 
-            <div class="feature-reference-links"><h6 data-lang-id="314-top10s-references"><a href="top-tens.php">Brikchain</a> | <a href="/brikcoins">Brikcoins</a></h6></div>
+            <div class="feature-reference-links" data-lang-id="314-top10s-references">The best ecobricks this month</div>
     </div>
     
 </div>
@@ -165,11 +192,11 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="featured-content-img ecovillage-pic"></div>
             <div class="feature-big-header" data-lang-id="315-featured-3-heading">Put Plastic to Good Use</div>
             <div class="feature-sub-text" data-lang-id="316-featured-3-subheading">
-            Ecobricks turn problematic plastic into reusable blocks.  With our ecobricks we can build great and green.  From furniture, to gardens, to structures ecobrick outputs embody the principle of spiral design.  Your plastic isn't a problem-- its the start of the solution.</div>
+            Ecobricks turn problematic plastic into reusable blocks.  Plastic is a problem— but its also the way to build deep green solutions.</div>
 
-            <a href="build.php" class="feature-button" data-lang-id="317-featured-3-button">🔨Ecobrick Building</a>
+            <a href="build.php" class="feature-button" data-lang-id="317-featured-3-button" aria-label="Build with Ecobricks">🔨Ecobrick Building</a>
             
-            <div class="feature-reference-links"><h6 data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="/earth-methods">Earth Methods</a> | <a href="modules.php">Furniture Modules</a> | <a href="spiral.php">Spiral Design</a> | <a href="/openspace/">Open Spaces</a> | <a href="/fire/">Fire Safety</a></h6></div>
+            <div class="feature-reference-links" data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="modules.php">Furniture Modules</a></div>
         </div>
     </div>
 
@@ -183,11 +210,14 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="feature-big-header" data-lang-id="319-featured-4-heading">Following Earth's Example</div>
             <div class="feature-sub-text" data-lang-id="320-featured-4-subheading">
             Our ecobricking is inspired by the Igorot people of Northen Luzon, where the Global Ecobrick Alliance was founded.  Guided by their Ayyew ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste.</div>
-            <a href="principles.php" class="feature-button" data-lang-id="321-featured-4-button">🌏 Our Earthen Principles</a>
-            <div class="feature-reference-links"><h6 data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a> | <a href="/story/">GEA story</a></h6>
+            <a href="principles.php" class="feature-button" data-lang-id="321-featured-4-button" aria-label="Our Principles">🌏 Our Earthen Principles</a>
+            <div class="feature-reference-links" data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a> | <a href="/story/">GEA story</a>
             </div>
         </div>
     </div>
+
+
+        </div><!--closes main-->
     
 
 
@@ -230,9 +260,9 @@ https://github/globalecobrickalliance/ecobricks.org
     const galleryWidth = galleryBlock.scrollWidth; // Get the total width of the gallery
     slowScrollLeft(galleryBlock, galleryWidth, 45000); // Scroll the full width over 15000 milliseconds
 
-</script>
 
-<script>
+
+
    function ecobrickPreview(brik_serial, weight, owner, location) {
         // Construct the image source URL
         var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
@@ -250,6 +280,28 @@ https://github/globalecobrickalliance/ecobricks.org
         // Append the modal to the body
         document.body.appendChild(modal);
     }
+
+
+
+   function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
+        // Construct the image source URL
+        var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
+        
+        // Open a modal with the ecobrick image and link to details-ecobrick-page
+        var modal = document.createElement('div');
+        modal.className = 'ecobrick-modal';
+        modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
+                          '<img src="' + imageUrl + '" alt=" ' + name + '" />' +
+                          '<div class="ecobrick-details">' +
+                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' in ' + location_full + '.</p>' +
+                          '</div>' +
+                          '<a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-project-page.php?serial_no=' + project_id + '">ℹ️ View Full Details</a>';
+        
+        // Append the modal to the body
+        document.body.appendChild(modal);
+    }
+
+
 
     function closeEcobrickModal() {
         // Close the modal by removing it from the DOM

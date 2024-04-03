@@ -3,8 +3,8 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.2';?>
-<?php $page='welcome2';?>
+<?php $version='2.4';?>
+<?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
 
@@ -85,7 +85,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
             <div class="featured-content-img dolphin-pic"></div>
             
-            <div class="feature-big-header" data-lang-id="308-featured-2-heading"><h4 data-lang-id="308-featured-2-heading">Keep Your Plastic Safe</h4></div>
+            <div class="feature-big-header" data-lang-id="308-featured-2-heading"><h4 data-lang-id="308-featured-2-heading">Keep Plastic Safe</h4></div>
             
             <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
            Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
@@ -133,7 +133,7 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobricking.  Live.</div>
             <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks are being made, logged and validated around the world right this moment.</div>
 
-            <a href="brikchain.php" class="feature-button"  data-lang-id="306-featured-live-button">⛓️ The Brikchain</a>
+            <a href="brikchain.php" class="feature-button"  data-lang-id="306-featured-live-button" aria-label="view brikchain">⛓️ The Brikchain</a>
             <div class="feature-reference-links"data-lang-id="307-featured-live-links">A feed & archive of authenticated ecobricks</div>
             
         </div>
@@ -194,7 +194,7 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="feature-sub-text" data-lang-id="316-featured-3-subheading">
             Ecobricks turn problematic plastic into reusable blocks.  Plastic is a problem— but its also the way to build deep green solutions.</div>
 
-            <a href="build.php" class="feature-button" data-lang-id="317-featured-3-button">🔨Ecobrick Building</a>
+            <a href="build.php" class="feature-button" data-lang-id="317-featured-3-button" aria-label="Build with Ecobricks">🔨Ecobrick Building</a>
             
             <div class="feature-reference-links" data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="modules.php">Furniture Modules</a></div>
         </div>
@@ -210,7 +210,7 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="feature-big-header" data-lang-id="319-featured-4-heading">Following Earth's Example</div>
             <div class="feature-sub-text" data-lang-id="320-featured-4-subheading">
             Our ecobricking is inspired by the Igorot people of Northen Luzon, where the Global Ecobrick Alliance was founded.  Guided by their Ayyew ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste.</div>
-            <a href="principles.php" class="feature-button" data-lang-id="321-featured-4-button">🌏 Our Earthen Principles</a>
+            <a href="principles.php" class="feature-button" data-lang-id="321-featured-4-button" aria-label="Our Principles">🌏 Our Earthen Principles</a>
             <div class="feature-reference-links" data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a> | <a href="/story/">GEA story</a>
             </div>
         </div>
