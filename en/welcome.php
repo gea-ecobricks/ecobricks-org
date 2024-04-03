@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='3.0';?>
+<?php $version='3.01';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -209,7 +209,7 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="feature-sub-text" data-lang-id="320-featured-4-subheading">
             Our ecobricking is inspired by the Igorot people of Northen Luzon, where the Global Ecobrick Alliance was founded.  Guided by their Ayyew ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste.</div>
             <a href="principles.php" class="feature-button" data-lang-id="321-featured-4-button" aria-label="Our Principles">🌏 Our Earthen Principles</a>
-            <div class="feature-reference-links" data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a> | <a href="/story/">GEA story</a>
+            <div class="feature-reference-links" data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a>
             </div>
         </div>
     </div>
@@ -290,7 +290,7 @@ https://github/globalecobrickalliance/ecobricks.org
         modal.className = 'ecobrick-modal';
         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
                           '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
-                          '<div class="ecobrick-details">' +
+                          '<div class="ecobrick-details" style="margin: 20px 10% auto 10%;">' +
                           '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div>';
         
         // Append the modal to the body
