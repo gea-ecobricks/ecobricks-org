@@ -52,10 +52,11 @@ https://github/globalecobrickalliance/ecobricks.org
                     // output data of each row
                     while ($row = $result->fetch_assoc()) {
                         echo '<div class="gal-project-photo">
-                                <div class="photo-box">
-                                    <img src="' . $row["tmb_featured_img"] . '?v=1" alt="Ecobrick Project ' . $row["project_id"] . ' by ' . $row["name"] . ' in ' . $row["location_full"] . '" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["name"] . '\', \'' . $row["description"] . '\', \'' . $row["location_full"] . '\', \'' . $row["ecobricks_used"] . '\', \'' . $row["start"] . '\')">
-                                </div>
-                            </div>';
+                        <div class="photo-box">
+                            <img src="' . $row["tmb_featured_img"] . '?v=1" alt="Ecobrick Project ' . $row["project_id"] . ' by ' . $row["name"] . ' in ' . $row["location_full"] . '" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["name"] . '\', \'' . $row["description"] . '\', \'' . $row["location_full"] . '\', \'' . $row["ecobricks_used"] . '\', \'' . $row["start"] . '\')">
+                        </div>
+                    </div>';
+
                     }
                 } else {
                     echo "Failed to connect to Project's database";
