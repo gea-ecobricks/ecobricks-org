@@ -413,8 +413,7 @@ window.onload = function() {
 
 <div id="form-modal-message" class="modal-info" style="display:none;">
     <div class="modal-content-box">
-    <button type="button" onclick="closeInfoModal()" aria-label="Click to close modal" class="x-button">
-        </button>
+    <button type="button" onclick="closeInfoModal()" aria-label="Click to close modal" class="x-button"></button>
         <div class="modal-message"></div>
     </div>
 </div>
@@ -893,8 +892,7 @@ window.onload = function() {
 
 
 <div class="right-close-button">
-    <button type="button" style="cursor:pointer" onclick="closeSearch(), clearResults()"  aria-label="Close Search" class="x-button">
-    </button>
+    <button type="button" onclick="closeSearch(), clearResults()"  aria-label="Close Search" class="x-button"></button>
   </div>
 
       <div class="search-overlay-content">

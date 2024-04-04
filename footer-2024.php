@@ -357,19 +357,25 @@ function viewGalleryImage(imageSrc, altText) {
     modalContent.style.color = 'var(--slide-overlays)';
     
 
-
-    // Close button
     const closeButton = document.createElement('div');
-    closeButton.innerHTML = 'x';
-    closeButton.style.position = 'absolute';
-    closeButton.style.top = '10px';
-    closeButton.style.right = '15px';
-    closeButton.style.cursor = 'pointer';
-    closeButton.style.color = 'black';
+closeButton.className = 'x-button'; // Assign class
 
-    closeButton.onclick = function() {
-        document.body.removeChild(modalBackground);
-    };
+closeButton.onclick = function() {
+    document.body.removeChild(modalBackground);
+};
+
+    // // Close button
+    // const closeButton = document.createElement('div');
+    // closeButton.innerHTML = 'x';
+    // closeButton.style.position = 'absolute';
+    // closeButton.style.top = '10px';
+    // closeButton.style.right = '15px';
+    // closeButton.style.cursor = 'pointer';
+    // closeButton.style.color = 'black';
+
+    // closeButton.onclick = function() {
+    //     document.body.removeChild(modalBackground);
+    // };
 
     // Header
     const header = document.createElement('h4');

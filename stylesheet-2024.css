@@ -598,26 +598,28 @@ border-color: #00a112 !important;
 
 }
 
-.right-close-button:hover {
+/* .right-close-button:hover {
   background: var(--x-button-over);
-}
+} */
 
 .x-button {
 
   position: absolute;
   transition: .3s;
-
   left: 0;
   top: 0;
   margin-left: 8%;
-  margin-top: 42px;
+  margin-top: 30px;
+  border:none;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  justify-content: center;
+  display: flex;
+}
 
-
-    border:none;
-    height: 18px;
-    width: 18px;
-    padding: 15px;
-    cursor: pointer;
+.x-button:hover {
+  background: var(--x-button-over);
 
 }
 

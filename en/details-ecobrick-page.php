@@ -225,12 +225,10 @@ echo '
 
 			<div class="side-module-desktop-mobile">
 				<img src="../webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
-				<h4 data-lang-id="102-side-brikcoins-text">Brikcoins</h4>
-				<h5>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
+				<h4 >Brikcoins</h4>
+				<h5 data-lang-id="102-side-brikcoins-text">When an ecobrick is authenticated, brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
 				<a class="module-btn" href="brikcoins.php" data-lang-id="103-side-brikcoins-button">About Brikcoins</a><br><br>
 			</div>
-
-
 
 		</div>
 
