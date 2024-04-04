@@ -328,78 +328,31 @@ function viewGalleryImage(imageSrc, altText) {
     document.body.appendChild(modalBackground);
 
 }
+function createInfoModal(infoText) {
+    // Find existing modal elements
+    const modal = document.getElementById('form-modal-message');
+    const messageContainer = modal.querySelector('.modal-message');
 
+    // Set the info text
+    messageContainer.textContent = infoText;
 
-    function createInfoModal(infoText) {
-    // Modal background
-    const modalBackground = document.createElement('div');
-    modalBackground.style.position = 'fixed';
-    modalBackground.style.top = '0';
-    modalBackground.style.left = '0';
-    modalBackground.style.width = '100%';
-    modalBackground.style.height = '100%';
-    modalBackground.style.backgroundColor = 'var(--show-hide)';
-    modalBackground.style.display = 'flex';
-    modalBackground.style.justifyContent = 'center';
-    modalBackground.style.alignItems = 'center';
-    modalBackground.style.zIndex = '1000';
-
-    // Modal content
-    const modalContent = document.createElement('div');
-    modalContent.style.position = 'relative';
-    modalContent.style.padding = '20px';
-    modalContent.style.backgroundColor = 'var(--emblem-pink)';
-    modalContent.style.borderRadius = '10px';
-    modalContent.style.maxWidth = '90%';
-    modalContent.style.maxHeight = '80vh'; // Adjusted for viewport height
-    modalContent.style.minWidth = '70%';
-    modalContent.style.width = '50%';
-    modalContent.style.color = 'var(--slide-overlays)';
-    
-
-    const closeButton = document.createElement('div');
-closeButton.className = 'x-button'; // Assign class
-
-closeButton.onclick = function() {
-    document.body.removeChild(modalBackground);
-};
-
-    // // Close button
-    // const closeButton = document.createElement('div');
-    // closeButton.innerHTML = 'x';
-    // closeButton.style.position = 'absolute';
-    // closeButton.style.top = '10px';
-    // closeButton.style.right = '15px';
-    // closeButton.style.cursor = 'pointer';
-    // closeButton.style.color = 'black';
-
-    // closeButton.onclick = function() {
-    //     document.body.removeChild(modalBackground);
-    // };
-
-    // Header
-    const header = document.createElement('h4');
-    header.textContent = 'A quick fact';
-    header.style.marginBottom = '15px';
-
-    // Info text
-    const infoParagraph = document.createElement('p');
-    infoParagraph.textContent = infoText;
-    infoParagraph.style.textAlign = 'justify';
-
-    modalContent.appendChild(closeButton);
-    modalContent.appendChild(header);
-    modalContent.appendChild(infoParagraph);
-    modalBackground.appendChild(modalContent);
-
-    modalBackground.onclick = function(event) {
-        if (event.target === modalBackground) {
-            document.body.removeChild(modalBackground);
-        }
+    // Function to close the modal
+    window.closeInfoModal = function() {
+        modal.style.display = 'none';
     };
 
-    document.body.appendChild(modalBackground);
+    // Open the modal by setting its display style to 'block' or 'flex' as per your CSS setup
+    modal.style.display = 'block'; // or 'flex' if your CSS is designed that way
+
+    // Optional: If you want to close the modal when the user clicks outside of the modal content box
+    // This assumes your modal and its children have the stopPropagation method called on click events to prevent them from propagating to the document body
+    document.addEventListener('click', function(event) {
+        if (!modal.contains(event.target)) {
+            closeInfoModal();
+        }
+    }, {once: true}); // This makes sure the event listener is removed after the modal is closed for the first time
 }
+
 
 
 

@@ -616,12 +616,14 @@ border-color: #00a112 !important;
   border-radius: 40px;
   justify-content: center;
   display: flex;
+  cursor: pointer;
 }
 
 .x-button:hover {
   background: var(--x-button-over);
 
 }
+
 
 
 
