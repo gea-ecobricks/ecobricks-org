@@ -328,34 +328,39 @@ function viewGalleryImage(imageSrc, altText) {
     document.body.appendChild(modalBackground);
 
 }
+
 function createInfoModal(infoText) {
-    // Find existing modal elements
     const modal = document.getElementById('form-modal-message');
     const messageContainer = modal.querySelector('.modal-message');
-
-    // Set the info text
     messageContainer.textContent = infoText;
 
-    // Function to close the modal
-    // window.closeInfoModal = function() {
-    //     modal.style.display = 'none';
-    // };
+    // Toggle classes to show the modal
+    modal.classList.remove('modal-hidden');
+    modal.classList.add('modal-shown');
 
-    // Open the modal by setting its display style to 'block' or 'flex' as per your CSS setup
-    modal.style.display = 'flex !important'; // or 'flex' if your CSS is designed that way
+    // Update other page elements as needed
+    document.getElementById('page-content').classList.add('blurred');
+    document.getElementById('footer-full').classList.add('blurred');
+    document.body.classList.add('modal-open');
 
-            // Add blur effect and hide overflow on page-content and footer-full
-            document.getElementById('page-content').classList.add('blurred');
-        document.getElementById('footer-full').classList.add('blurred');
-        document.body.classList.add('modal-open');
-    // Optional: If you want to close the modal when the user clicks outside of the modal content box
-    // This assumes your modal and its children have the stopPropagation method called on click events to prevent them from propagating to the document body
+    // Define closeInfoModal globally if not already defined
+    window.closeInfoModal = function() {
+        modal.classList.add('modal-hidden');
+        modal.classList.remove('modal-shown');
+        // Revert other page elements
+        document.getElementById('page-content').classList.remove('blurred');
+        document.getElementById('footer-full').classList.remove('blurred');
+        document.body.classList.remove('modal-open');
+    };
+
+    // Handle clicks outside the modal
     document.addEventListener('click', function(event) {
         if (!modal.contains(event.target)) {
             closeInfoModal();
         }
-    }, {once: true}); // This makes sure the event listener is removed after the modal is closed for the first time
+    }, {once: true});
 }
+
 
 
 

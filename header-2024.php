@@ -399,6 +399,15 @@ window.onload = function() {
     transition: transform 0.5s ease;
 }
 
+
+.modal-hidden {
+    display: none;
+}
+
+.modal-shown {
+    display: flex;
+}
+
 </style>
 
 
