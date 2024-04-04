@@ -420,7 +420,7 @@ window.onload = function() {
 <BODY>
 
 
-<div id="form-modal-message" class="modal-info">
+<div id="form-modal-message" class="modal-info modal-hidden">
     <div class="modal-content-box">
     <button type="button" onclick="closeInfoModal()" aria-label="Click to close modal" class="x-button"></button>
         <div class="modal-message"></div>
