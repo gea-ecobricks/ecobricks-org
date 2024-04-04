@@ -400,13 +400,6 @@ window.onload = function() {
 }
 
 
-.modal-hidden {
-    display: none;
-}
-
-.modal-shown {
-    display: flex;
-}
 
 
 
@@ -423,7 +416,6 @@ left: 0px;
 width: 100%; 
 height: 100%; 
 background-color: var(--show-hide); 
-display: flex; 
 justify-content: center; 
 align-items: center; 
 z-index: 1000;
@@ -455,6 +447,13 @@ z-index: 1000;
   margin-right: 8%;
 }
 
+.modal-hidden {
+    display: none;
+}
+
+.modal-shown {
+    display: flex;
+}
 
 
 
