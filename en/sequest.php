@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.02';?>
+<?php $version='2.03';?>
 <?php $page='sequest';?>
 
 <?php require_once ("../includes/sequest2-inc.php");?>
