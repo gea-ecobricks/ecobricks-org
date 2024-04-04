@@ -337,13 +337,17 @@ function createInfoModal(infoText) {
     messageContainer.textContent = infoText;
 
     // Function to close the modal
-    window.closeInfoModal = function() {
-        modal.style.display = 'none';
-    };
+    // window.closeInfoModal = function() {
+    //     modal.style.display = 'none';
+    // };
 
     // Open the modal by setting its display style to 'block' or 'flex' as per your CSS setup
-    modal.style.display = 'block'; // or 'flex' if your CSS is designed that way
+    modal.style.display = 'flex !important'; // or 'flex' if your CSS is designed that way
 
+            // Add blur effect and hide overflow on page-content and footer-full
+            document.getElementById('page-content').classList.add('blurred');
+        document.getElementById('footer-full').classList.add('blurred');
+        document.body.classList.add('modal-open');
     // Optional: If you want to close the modal when the user clicks outside of the modal content box
     // This assumes your modal and its children have the stopPropagation method called on click events to prevent them from propagating to the document body
     document.addEventListener('click', function(event) {
