@@ -336,9 +336,9 @@ function createInfoModal(infoText) {
     messageContainer.textContent = infoText;
 
     // Toggle classes to show the modal
-    modal.classList.remove('modal-hidden');
-    modal.classList.add('modal-shown');
-    // modal.style.display = 'flex'; 
+    // modal.classList.remove('modal-hidden');
+    // modal.classList.add('modal-shown');
+    modal.style.display = 'flex'; 
 
 
     // Update other page elements as needed
