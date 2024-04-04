@@ -330,6 +330,7 @@ function viewGalleryImage(imageSrc, altText) {
 }
 
 function createInfoModal(infoText) {
+    console.log("Modal Function called");
     const modal = document.getElementById('form-modal-message');
     const messageContainer = modal.querySelector('.modal-message');
     messageContainer.textContent = infoText;
@@ -337,6 +338,8 @@ function createInfoModal(infoText) {
     // Toggle classes to show the modal
     modal.classList.remove('modal-hidden');
     modal.classList.add('modal-shown');
+    modal.style.display = 'flex'; 
+
 
     // Update other page elements as needed
     document.getElementById('page-content').classList.add('blurred');
