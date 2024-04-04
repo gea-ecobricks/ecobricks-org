@@ -408,6 +408,56 @@ window.onload = function() {
     display: flex;
 }
 
+
+
+/*-----------------------------------------
+
+INFO MODAL
+
+--------------------------------------*/
+
+#form-modal-message {
+position: fixed; 
+top: 0px; 
+left: 0px; 
+width: 100%; 
+height: 100%; 
+background-color: var(--show-hide); 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+z-index: 1000;
+}
+
+.modal-content-box {
+
+  position: relative; 
+  padding: 20px; 
+  background-color: var(--emblem-pink); 
+  border-radius: 10px; 
+  max-width: 90%; 
+  max-height: 80vh; 
+  min-height: 50%;
+  min-width: 70%; 
+  width: 50%; 
+  color: var(--h1);
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.4em;
+  display: flex;
+  margin: auto;
+}
+
+.modal-message {
+  margin: auto;
+}
+
+.modal-content-box .x-button {
+  margin-right: 8%;
+}
+
+
+
+
 </style>
 
 
@@ -420,7 +470,7 @@ window.onload = function() {
 <BODY>
 
 
-<div id="form-modal-message" class="modal-info modal-hidden">
+<div id="form-modal-message" class="modal-hidden">
     <div class="modal-content-box">
     <button type="button" onclick="closeInfoModal()" aria-label="Click to close modal" class="x-button"></button>
         <div class="modal-message"></div>
