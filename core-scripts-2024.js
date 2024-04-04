@@ -138,18 +138,6 @@ document.addEventListener('keydown', modalCloseCurtains);
 
 
 
-// Function to close the modal
-function closeInfoModal() {
-    var modal = document.getElementById("form-modal-message");
-    modal.style.display = "none";
-
-    // Remove blur effect and restore overflow on page-content and footer-full
-    document.getElementById('page-content').classList.remove('blurred');
-    document.getElementById('footer-full').classList.remove('blurred');
-    document.body.classList.remove('modal-open');
-}
-
-
 
 
 

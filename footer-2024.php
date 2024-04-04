@@ -346,6 +346,30 @@ function createInfoModal(infoText) {
     document.getElementById('footer-full').classList.add('blurred');
     document.body.classList.add('modal-open');
 
+}
+
+
+
+
+// Function to close the modal
+function closeInfoModal() {
+    var modal = document.getElementById("form-modal-message");
+    modal.style.display = "none";
+
+    // Remove blur effect and restore overflow on page-content and footer-full
+    document.getElementById('page-content').classList.remove('blurred');
+    document.getElementById('footer-full').classList.remove('blurred');
+    document.body.classList.remove('modal-open');
+}
+
+
+
+
+</script>
+
+<!-- 
+    
+
     // Define closeInfoModal globally if not already defined
     window.closeInfoModal = function() {
         // modal.classList.add('modal-hidden');
@@ -363,16 +387,8 @@ function createInfoModal(infoText) {
             closeInfoModal();
         }
     }, {once: true});
-}
-
-
-
-
-
-
-</script>
-
-<!-- ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score
+    
+    ARC DELAY LOAD SCRIPT  This is a special script to load the arc script 8 seconds after the full page has loaded, this prevents Arc from slowing down our page load and boost our google page speed score
 				-->
 <!-- <script type="text/javascript" defer>
 
