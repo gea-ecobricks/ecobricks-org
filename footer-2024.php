@@ -348,12 +348,13 @@ function createInfoModal(infoText) {
 
     // Define closeInfoModal globally if not already defined
     window.closeInfoModal = function() {
-        modal.classList.add('modal-hidden');
-        modal.classList.remove('modal-shown');
+        // modal.classList.add('modal-hidden');
+        // modal.classList.remove('modal-shown');
+        modal.style.display = 'none'; 
         // Revert other page elements
         document.getElementById('page-content').classList.remove('blurred');
         document.getElementById('footer-full').classList.remove('blurred');
-        document.body.classList.remove('modal-open');
+        // document.body.classList.remove('modal-open');
     };
 
     // Handle clicks outside the modal
