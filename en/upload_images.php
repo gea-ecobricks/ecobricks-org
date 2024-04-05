@@ -74,41 +74,43 @@ $new_featured_img_name = 'featured-img-project-' . $project_id . '.' . $file_ext
 $new_featured_img_name_webp = 'featured-img-project-' . $project_id . '.webp';
 $targetPath = $upload_dir . $new_featured_img_name_webp;
 
-// Convert image to WebP format if original format is JPEG or PNG and resize if necessary
 if ($file_extension === 'jpg' || $file_extension === 'jpeg' || $file_extension === 'png') {
-    if (!resizeAndConvertToWebP($featured_img_tmp, $targetPath, 1500, 77)) {
-        $error_message .= "Error resizing/converting image.<br>";
+    // Attempt to resize and convert to WebP
+    if (resizeAndConvertToWebP($featured_img_tmp, $targetPath, 1500, 77)) {
+        // Success, now $targetPath holds the WebP image
+        createThumbnail($targetPath, $thumbnail_dir . $new_featured_img_name_webp, 160, 160, 77);
+
+        // Assuming $targetPath is the relative path to the image you want to store in the database
+        $full_url = $targetPath; // This should be a path or URL you want in your database
+        $thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp;
+    } else {
+        $error_message .= "Error resizing/converting image to WebP.<br>";
         http_response_code(400);
         echo json_encode(array('error' => $error_message));
         exit;
     }
-    // If conversion and resizing are successful, $targetPath now has the WebP image
-    // Use WebP version for thumbnails and further processing
-    createThumbnail($targetPath, $thumbnail_dir . $new_featured_img_name_webp, 160, 160, 77);
-    
-    // Database update and success response logic remains unchanged...
 } else {
-    // If the image is not a supported format for conversion, handle the error or skip conversion
-    $error_message .= "Unsupported image format for WebP conversion.<br>";
-    // Handle the error appropriately
+    // Handle non-supported image formats or skip conversion
+    $full_url = $upload_dir . $new_featured_img_name; // Original path for non-converted images
+    // Move the uploaded file to the destination directory if not resizing/converting
+    if (!move_uploaded_file($featured_img_tmp, $full_url)) {
+        $error_message .= "Error moving uploaded image.<br>";
+        http_response_code(400);
+        echo json_encode(array('error' => $error_message));
+        exit; // Terminate script execution
+    }
 }
 
-        // Move the uploaded file to the destination directory
-        if (!move_uploaded_file($featured_img_tmp, $upload_dir . $new_featured_img_name)) {
-            $error_message .= "Error moving uploaded image.<br>";
-            http_response_code(400);
-            echo json_encode(array('error' => $error_message));
-            exit; // Terminate script execution
-        }
+// Update the database with the new image paths
+$update_sql = "UPDATE tb_projects SET tmb_featured_img = ?, featured_img = ? WHERE project_id = ?";
+$update_stmt = $conn->prepare($update_sql);
+$update_stmt->bind_param("ssi", $thumbnail_path, $full_url, $project_id);
+if (!$update_stmt->execute()) {
+    $error_message = "Database update failed: " . $update_stmt->error;
+    // Handle database update failure
+}
 
- 
-     // Update the corresponding project record in the database
-     $thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp; // Use WebP version for thumbnail path
-     $update_sql = "UPDATE tb_projects SET tmb_featured_img = ?, featured_img = ? WHERE project_id = ?";
-     $update_stmt = $conn->prepare($update_sql);
-     $update_stmt->bind_param("ssi", $thumbnail_path, $full_url, $project_id);
-     $update_stmt->execute();
-     $update_stmt->close();
+$update_stmt->close();
 
 
             // Prepare success response
