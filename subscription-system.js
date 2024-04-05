@@ -36,6 +36,7 @@ function checkRegistrationStatus() {
     const emailInput = form.elements["email"];
     const nameInput = form.elements["name"];
     console.log("The sub source is: " + window.subSource);
+    console.log("The language: " + window.currentLanguage);
 
 
 
@@ -204,7 +205,7 @@ function checkRegistrationStatus() {
       console.log('Sending data to webhook:', JSON.stringify(data));
   
       // Send data to the webhook
-      fetch('https://hook.eu1.make.com/xtlexd0girt9ua3hnsfuzwlrjgrsmqgt', {
+      fetch('https://hook.eu1.make.com/ou5swqynssfg1o64sjwjgywpcoymg4m1', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json',
