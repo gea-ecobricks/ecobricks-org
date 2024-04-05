@@ -41,7 +41,7 @@
 }
 
 #main {
-  background-color: #0000001f;
+  background-color: #0003 !important;
 }
 
  

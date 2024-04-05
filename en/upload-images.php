@@ -159,9 +159,10 @@ function handleFormResponse(response) {
     // Function to handle upload success
     function uploadSuccess(project_id, project_name, description, start, briks_used, full_url, thumbnail_path, location_full) {
         // Construct HTML content with project data
-        var successMessage = '<img src=" ' + full_url + '">Full<br>';
+        var 
+        successMessage = '<img src=" ' + full_url + '">Full<br>';
         successMessage = '<img src=" ' + thumbnail_path + '"><br><h1>Upload Successful!</h1>';
-        successMessage += '<p>Congrats your project has now been added to the database</p>';
+        successMessage += '<p>Nice.  Your project has now been added to the database</p>';
         successMessage += '<ul>';
         successMessage += '<li>Project Id: ' + project_id + '</li>';
         successMessage += '<li>Name: ' + project_name + '</li>';
