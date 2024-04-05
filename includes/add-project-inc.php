@@ -9,16 +9,16 @@
 
 @media screen and (max-width: 700px) { 
 	.splash-content-block {  
-		background: url(../webp/build-banner-1400px.webp) bottom;
         background-color: var(--top-header);
+        filter: none !important;
 	}
 }
 
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-		background: url(../webp/build-banner-1400px.webp) bottom;
         background-color: var(--top-header);
+        filter: none !important;
 }
 } 
 
@@ -28,6 +28,7 @@
 #splash-bar {
 
     background-color: var(--top-header);
+    filter: none !important;
 
 }
 
