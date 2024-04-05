@@ -11,7 +11,7 @@
 	.splash-content-block {  
         background-color: var(--top-header);
         filter: none !important;
-        min-height: 20vh;
+        min-height: 20vh !important;
 	}
 }
 
@@ -20,7 +20,7 @@
 	.splash-content-block {
         background-color: var(--top-header);
         filter: none !important;
-        min-height: 20vh;
+        min-height: 20vh !important;
 }
 } 
 
@@ -31,6 +31,7 @@
 
     background-color: var(--top-header);
     filter: none !important;
+    margin-bottom: -200px !important;
 
 }
 
@@ -40,7 +41,7 @@
 }
 
 #main {
-  background-color: var(--settings-border);
+  background-color: #0000001f;
 }
 
  
