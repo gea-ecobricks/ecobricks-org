@@ -12,8 +12,8 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick Applications</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Practical & Principled Ecobrick Building</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
     </div>	    
@@ -88,7 +88,8 @@
             <div class="form-item">
                 <label for="location_full" data-lang-id="015-location">What is the location of your project?</label><br>
                 <input type="text" id="projectLocation" name="location_full" placeholder="Enter project's general location...">
-                <p class="form-caption" data-lang-id="016-location-caption"> For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
+                <p class="form-caption" data-lang-id="016-location-caption"> For privacy please don't use your exact address, choose your general neighbourhood or town.
+                    <br>Project locations will be shown on our project map.</p>
             </div>
             <input type="hidden" id="lat" name="latitude">
             <input type="hidden" id="lon" name="longitude">

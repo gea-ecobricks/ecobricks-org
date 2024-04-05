@@ -5,11 +5,37 @@
   
 <STYLE>
 
+
+
+@media screen and (max-width: 700px) { 
+	.splash-content-block {  
+		background: url(../webp/build-banner-1400px.webp) bottom;
+        background-color: var(--top-header);
+	}
+}
+
+
+@media screen and (min-width: 700px) { 
+	.splash-content-block {
+		background: url(../webp/build-banner-1400px.webp) bottom;
+        background-color: var(--top-header);
+}
+} 
+
+
+
+
+#splash-bar {
+
+    background-color: var(--top-header);
+
+}
+
 #main-background {
   background-size: cover;
 }
 
-
+ 
 #form-submission-box {
   font-family: "Mulish", sans-serif;
   /* background-color: var(--main-background); */
@@ -51,6 +77,10 @@ label {
   font-size: 1.3em;
 }
 
+.form-item select {
+  background: var(--input-background);
+  font-size: 1.3em;
+}
 
 input[type="text"],
 input[type="number"],
