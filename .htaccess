@@ -34,6 +34,13 @@ ErrorDocument 400 /en/404.php
 ErrorDocument 401 /en/404.php
 
 
+upload_max_filesize = 64M
+post_max_size = 64M
+memory_limit = 256M
+max_execution_time = 300
+max_input_time = 300
+
+
 
 </IfModule>
 ## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
