@@ -17,14 +17,14 @@
     
     <div class="form-container" id="upload-photo-form">
         <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
-        <p data-lang-id="002-form-description">Upload your project's featured image here.</p>
+        <p data-lang-id="002-form-description">Show the world your project!  Upload one to five images showing your construction from different angles or times.</p>
 
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
             <div class="form-item">
 
-                <label for="featured_img" data-lang-id="003-feature-photo">Feature image</label>
+                <label for="featured_img" data-lang-id="003-feature-photo">Feature image</label><br>
                 <input type="file" id="featured_img" name="featured_img" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;" required>
                 <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this project.  Required.</p>
 
@@ -33,6 +33,7 @@
         <!-- Photo 1 Main & Thumbnail -->
             <div class="form-item">
                 <label for="photo1_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <br>
                 <input type="file" id="photo1_main" name="photo1_main">
                 <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
             </div>
@@ -147,7 +148,7 @@ function handleFormResponse(response) {
     // Function to handle upload success
     function uploadSuccess(project_id, project_name, description, start, briks_used, full_url, thumbnail_path, location_full) {
         // Construct HTML content with project data
-        var successMessage = '<img src=" ' + location_full + '"><br><h1>Upload Successful!</h1>';successMessage = '<img src=" ' + thumbnail_path + '"><br><h1>Upload Successful!</h1>';
+        var successMessage = '<img src=" ' + location_full + '"><br>';successMessage = '<img src=" ' + thumbnail_path + '"><br><h1>Upload Successful!</h1>';
         successMessage += '<p>Congrats your project has now been added to the database</p>';
         successMessage += '<ul>';
         successMessage += '<li>Project Id: ' + project_id + '</li>';
