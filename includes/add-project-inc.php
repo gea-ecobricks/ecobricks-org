@@ -11,6 +11,7 @@
 	.splash-content-block {  
         background-color: var(--top-header);
         filter: none !important;
+        min-height: 20vh;
 	}
 }
 
@@ -19,6 +20,7 @@
 	.splash-content-block {
         background-color: var(--top-header);
         filter: none !important;
+        min-height: 20vh;
 }
 } 
 
@@ -34,7 +36,11 @@
 
 #main-background {
   background-size: cover;
-  background-color: var(--settings-background);
+
+}
+
+#main {
+  background-color: var(--settings-border);
 }
 
  
@@ -81,7 +87,11 @@ label {
 
 .form-item select {
   background: var(--input-background);
-  font-size: 1.3em;
+  font-size: 1.2em;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 9px;
+  margin-bottom: 10px;
 }
 
 input[type="text"],
@@ -130,6 +140,7 @@ input[type="submit"] {
   transition: background-size 0.5s ease; /* Transition effect for smooth progress */
   font-size: 1.3em;
   width: 100%;
+  margin-top: 30px;
 }
 
 /* Specify the progress bar color */
