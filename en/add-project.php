@@ -10,6 +10,16 @@
 <?php require_once ("../includes/add-project-inc.php");?>
 
 
+<div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick Applications</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Practical & Principled Ecobrick Building</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
+    </div>	    
+</div>
+<div id="splash-bar"></div>
+
  <!-- PAGE CONTENT-->
 
  <div id="form-submission-box" style="margin-top: 100px">
@@ -43,10 +53,42 @@
                     <p class="form-caption" data-lang-id="010-bricks-used-caption">How many briks did the project use?</p>
                 </div>
 
+                <div class="form-item">
+            <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
+            <select id="project_type" name="project_type">
+                <option value="module">Module</option>
+                <option value="furniture">Furniture</option>
+                <option value="garden">Garden</option>
+                <option value="structure">Structure</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        
+        <div class="form-item">
+            <label for="construction_type" data-lang-id="012-construction-type">What type of construction is this?</label><br>
+            <select id="construction_type" name="construction_type">
+                <option value="silicone">Silicone</option>
+                <option value="banding">Banding</option>
+                <option value="ecojoiner">Ecojoiner</option>
+                <option value="earth/cob">Earth/Cob</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        
+        <div class="form-item">
+            <label for="community" data-lang-id="013-community">If this was a community project, what community is responsible?</label><br>
+            <input type="text" id="community" name="community">
+        </div>
+        
+        <div class="form-item">
+            <label for="project_admins" data-lang-id="014-project-admins">Who's project is this?</label><br>
+            <input type="text" id="project_admins" name="project_admins">
+        </div>
+
             <div class="form-item">
-                <label for="location_full" data-lang-id="015-location">Project Location:</label><br>
-                <input type="text" id="projectLocation" name="location_full" placeholder="Enter a location">
-                <p class="form-caption" data-lang-id="016-location-caption">What is the location of your project? For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
+                <label for="location_full" data-lang-id="015-location">What is the location of your project?</label><br>
+                <input type="text" id="projectLocation" name="location_full" placeholder="Enter project's general location...">
+                <p class="form-caption" data-lang-id="016-location-caption"> For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
             </div>
             <input type="hidden" id="lat" name="latitude">
             <input type="hidden" id="lon" name="longitude">

@@ -6,27 +6,29 @@ include '../ecobricks_env.php';
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    // Prepare SQL statement for inserting project details
-    // Note: For the geo_location field, we're using ST_GeomFromText to convert the lat & lon into a POINT
-    $sql = "INSERT INTO tb_projects (name, description, start, briks_used, location_full, location_geo) 
-            VALUES (?, ?, ?, ?, ?, ST_GeomFromText(?))";
+    // Update your SQL statement to include the new fields
+    $sql = "INSERT INTO tb_projects (name, description, start, briks_used, location_full, location_geo, project_type, construction_type, community, project_admins) 
+            VALUES (?, ?, ?, ?, ?, ST_GeomFromText(?), ?, ?, ?, ?)";
 
     // Prepare the SQL statement
     $stmt = $conn->prepare($sql);
 
-    // Because bind_param does not support binding a spatial POINT directly,
-    // we construct a POINT from the latitude and longitude as a string.
+    // Update to include the new fields in the binding. Note: The 's' in bind_param corresponds to the type of the bound variable (string in this case).
     $location_geo = "POINT(" . $_POST['latitude'] . " " . $_POST['longitude'] . ")";
-    
-    // Bind parameters. The 'ssssss' string tells mysqli that there are 6 parameters and all are strings.
-    $stmt->bind_param("ssssss", $name, $description, $start, $briks_used, $location_full, $location_geo);
+    // The updated bind_param now includes 's' for the four new string parameters.
+    $stmt->bind_param("ssssssssss", $name, $description, $start, $briks_used, $location_full, $location_geo, $project_type, $construction_type, $community, $project_admins);
 
-    // Set parameters from the form
+    // Set parameters from the form, including the new fields
     $name = $_POST['name'];
     $description = $_POST['description'];
     $start = $_POST['start'];
     $briks_used = $_POST['briks_used'];
     $location_full = $_POST['location_full'];
+    // New fields
+    $project_type = $_POST['project_type'];
+    $construction_type = $_POST['construction_type'];
+    $community = $_POST['community'];
+    $project_admins = $_POST['project_admins'];
 
     // Execute the SQL statement
     if ($stmt->execute()) {
