@@ -34,6 +34,7 @@
 
 #main-background {
   background-size: cover;
+  background-color: var(--settings-background);
 }
 
  

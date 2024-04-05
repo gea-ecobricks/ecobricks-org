@@ -11,12 +11,12 @@
 
 
 <div class="splash-content-block">
-	<div class="splash-box">
+	<!-- <div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
-    </div>	    
+    </div>	     -->
 </div>
 <div id="splash-bar"></div>
 
