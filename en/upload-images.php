@@ -10,6 +10,16 @@
 <?php require_once ("../includes/add-project-inc.php");?>
 
 
+<div class="splash-content-block">
+	<!-- <div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
+    </div>	     -->
+</div>
+<div id="splash-bar"></div>
+
  <!-- PAGE CONTENT--> 
 
 
@@ -41,6 +51,7 @@
         <!-- Photo 2 Main & Thumbnail -->
             <div class="form-item">
                 <label for="photo1_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <br>
                 <input type="file" id="photo2_main" name="photo2_main">
                 <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
             </div>
@@ -48,6 +59,7 @@
         <!-- Photo 3 Main & Thumbnail -->
         <div class="form-item">
                 <label for="photo3_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <br>
                 <input type="file" id="photo3_main" name="photo3_main">
                 <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
             </div>
@@ -55,12 +67,11 @@
         <!-- Photo 4 Main & Thumbnail -->
             <div class="form-item">
                 <label for="photo4_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <br>
                 <input type="file" id="photo4_main" name="photo4_main">
                 <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
             </div>
 
-
-            <br><br>
             <input type="submit" value="⬆️ Upload Images " id="upload-progress-button">
         </form>
     </div>
@@ -148,7 +159,8 @@ function handleFormResponse(response) {
     // Function to handle upload success
     function uploadSuccess(project_id, project_name, description, start, briks_used, full_url, thumbnail_path, location_full) {
         // Construct HTML content with project data
-        var successMessage = '<img src=" ' + location_full + '"><br>';successMessage = '<img src=" ' + thumbnail_path + '"><br><h1>Upload Successful!</h1>';
+        var successMessage = '<img src=" ' + full_url + '">Full<br>';
+        successMessage = '<img src=" ' + thumbnail_path + '"><br><h1>Upload Successful!</h1>';
         successMessage += '<p>Congrats your project has now been added to the database</p>';
         successMessage += '<ul>';
         successMessage += '<li>Project Id: ' + project_id + '</li>';
