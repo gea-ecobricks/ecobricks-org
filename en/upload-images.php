@@ -10,7 +10,7 @@
 <?php require_once ("../includes/add-project-inc.php");?>
 
 
- <!-- PAGE CONTENT-->
+ <!-- PAGE CONTENT--> 
 
 
  <div id="form-submission-box" style="margin-top: 140px;display:flex;flex-flow:column;">
@@ -21,8 +21,44 @@
 
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
-            <label for="featured_img"></label>
-            <input type="file" id="featured_img" name="featured_img" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;" required>
+            
+            <div class="form-item">
+
+                <label for="featured_img" data-lang-id="003-feature-photo">Feature image</label>
+                <input type="file" id="featured_img" name="featured_img" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;" required>
+                <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this project.  Required.</p>
+
+            </div>
+
+        <!-- Photo 1 Main & Thumbnail -->
+            <div class="form-item">
+                <label for="photo1_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <input type="file" id="photo1_main" name="photo1_main">
+                <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
+            </div>
+
+        <!-- Photo 2 Main & Thumbnail -->
+            <div class="form-item">
+                <label for="photo1_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <input type="file" id="photo2_main" name="photo2_main">
+                <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
+            </div>
+
+        <!-- Photo 3 Main & Thumbnail -->
+        <div class="form-item">
+                <label for="photo3_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <input type="file" id="photo3_main" name="photo3_main">
+                <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
+            </div>
+
+        <!-- Photo 4 Main & Thumbnail -->
+            <div class="form-item">
+                <label for="photo4_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <input type="file" id="photo4_main" name="photo4_main">
+                <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
+            </div>
+
+
             <br><br>
             <input type="submit" value="⬆️ Upload Images " id="upload-progress-button">
         </form>

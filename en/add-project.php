@@ -26,76 +26,79 @@
         <div class="form-container">
             <h1 data-lang-id="001-form-title">Post your Project</h1>
             <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
-            <form id="submit-form" method="post" action="submit_project.php" enctype="multipart/form-data">
-
-                <div class="form-item" style="margin-top: 25px;">
-                    <label for="name" data-lang-id="003-project-name">Project Name:</label><br>
-                    <input type="text" id="name" name="name" title="Required.  Max 255 characters." required>
-                    <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.</p>
-                </div>
-                
-                <div class="form-item">
-                    
-                    <label for="description" data-lang-id="004-project-desc">Project Description:</label><br>
-                    <textarea id="description" name="description" title="Max 150 words"></textarea>
-                    <p class="form-caption" data-lang-id="006-project-desc-caption">Provide a short description of this project. Max 150 words.</p>
-                </div>
-                
-                <div class="form-item">
-                    <label for="start" data-lang-id="007-start-date">Start Date:</label><br>
-                    <input type="date" id="start" name="start">
-                    <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
-                </div>
-                
-                <div class="form-item">
-                    <label for="briks_used" data-lang-id="009-bricks-used">Bricks Used:</label><br>
-                    <input type="number" id="briks_used" name="briks_used" title="Maximum value allowed">
-                    <p class="form-caption" data-lang-id="010-bricks-used-caption">How many briks did the project use?</p>
-                </div>
-
-                <div class="form-item">
-            <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
-            <select id="project_type" name="project_type">
-                <option value="module">Module</option>
-                <option value="furniture">Furniture</option>
-                <option value="garden">Garden</option>
-                <option value="structure">Structure</option>
-                <option value="other">Other</option>
-            </select>
-        </div>
-        
-        <div class="form-item">
-            <label for="construction_type" data-lang-id="012-construction-type">What type of construction is this?</label><br>
-            <select id="construction_type" name="construction_type">
-                <option value="silicone">Silicone</option>
-                <option value="banding">Banding</option>
-                <option value="ecojoiner">Ecojoiner</option>
-                <option value="earth/cob">Earth/Cob</option>
-                <option value="other">Other</option>
-            </select>
-        </div>
-        
-        <div class="form-item">
-            <label for="community" data-lang-id="013-community">If this was a community project, what community is responsible?</label><br>
-            <input type="text" id="community" name="community">
-        </div>
-        
-        <div class="form-item">
-            <label for="project_admins" data-lang-id="014-project-admins">Who's project is this?</label><br>
-            <input type="text" id="project_admins" name="project_admins">
-        </div>
-
-            <div class="form-item">
-                <label for="location_full" data-lang-id="015-location">What is the location of your project?</label><br>
-                <input type="text" id="projectLocation" name="location_full" placeholder="Enter project's general location...">
-                <p class="form-caption" data-lang-id="016-location-caption"> For privacy please don't use your exact address, choose your general neighbourhood or town.
-                    <br>Project locations will be shown on our project map.</p>
-            </div>
-            <input type="hidden" id="lat" name="latitude">
-            <input type="hidden" id="lon" name="longitude">
             
-            <input type="submit" value="Next ➡️" data-lang-id="017-submit-button">
-        </form>
+            
+            <form id="submit-form" method="post" action="submit_project.php" enctype="multipart/form-data">
+    <div class="form-item" style="margin-top: 25px;">
+        <label for="name" data-lang-id="003-project-name">Project Name:</label><br>
+        <input type="text" id="name" name="name" aria-label="Project Name" title="Required. Max 255 characters." required>
+        <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.</p>
+    </div>
+    
+    <div class="form-item">
+        <label for="description" data-lang-id="004-project-desc">Project Description:</label><br>
+        <textarea id="description" name="description" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
+        <p class="form-caption" data-lang-id="006-project-desc-caption">Provide a short description of this project. Max 150 words.</p>
+    </div>
+    
+    <div class="form-item">
+        <label for="start" data-lang-id="007-start-date">Start Date:</label><br>
+        <input type="date" id="start" name="start" aria-label="Start Date" required>
+        <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
+    </div>
+    
+    <div class="form-item">
+        <label for="briks_used" data-lang-id="009-bricks-used">Bricks Used:</label><br>
+        <input type="number" id="briks_used" name="briks_used" aria-label="Bricks Used" title="Maximum value allowed" required>
+        <p class="form-caption" data-lang-id="010-bricks-used-caption">How many briks did the project use?</p>
+    </div>
+
+    <div class="form-item">
+        <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
+        <select id="project_type" name="project_type" aria-label="Project Type" required>
+            <option value="module">Module</option>
+            <option value="furniture">Furniture</option>
+            <option value="garden">Garden</option>
+            <option value="structure">Structure</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    
+    <div class="form-item">
+        <label for="construction_type" data-lang-id="012-construction-type">What type of construction is this?</label><br>
+        <select id="construction_type" name="construction_type" aria-label="Construction Type" required>
+            <option value="silicone">Silicone</option>
+            <option value="banding">Banding</option>
+            <option value="ecojoiner">Ecojoiner</option>
+            <option value="earth/cob">Earth/Cob</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    
+    <div class="form-item">
+        <label for="community" data-lang-id="013-community">If this was a community project, what community is responsible?</label><br>
+        <input type="text" id="community" name="community" aria-label="Community (optional)">
+        <p class="form-caption" data-lang-id="013b-optional">Optional</p>
+    </div>
+    
+    <div class="form-item">
+        <label for="project_admins" data-lang-id="014-project-admins">Who's project is this?</label><br>
+        <input type="text" id="project_admins" name="project_admins" aria-label="Project Admins (optional)">
+        <p class="form-caption" data-lang-id="013b-optional">Optional</p>
+    </div>
+
+    <div class="form-item">
+        <label for="location_full" data-lang-id="015-location">What is the location of your project?</label><br>
+        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Enter project's general location...">
+        <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
+    </div>
+    <input type="hidden" id="lat" name="latitude">
+    <input type="hidden" id="lon" name="longitude">
+    
+    <input type="submit" value="Next ➡️" aria-label="Submit Form" data-lang-id="017-submit-button">
+</form>
+
+
     </div>
 </div>
 

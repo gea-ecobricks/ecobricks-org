@@ -61,34 +61,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit; // Terminate script execution
         }
 
-       // Image was uploaded, proceed with processing
+ 
+// Image was uploaded, proceed with processing
 $featured_img_name = $_FILES['featured_img']['name'];
 $featured_img_tmp = $_FILES['featured_img']['tmp_name'];
 
 // Get the file extension and convert it to lowercase
 $file_extension = strtolower(pathinfo($featured_img_name, PATHINFO_EXTENSION));
 
-// New file name with lowercase extension
+// Define new file names
 $new_featured_img_name = 'featured-img-project-' . $project_id . '.' . $file_extension;
+$new_featured_img_name_webp = 'featured-img-project-' . $project_id . '.webp';
+$targetPath = $upload_dir . $new_featured_img_name_webp;
 
-// Convert image to WebP format if original format is JPEG or PNG
+// Convert image to WebP format if original format is JPEG or PNG and resize if necessary
 if ($file_extension === 'jpg' || $file_extension === 'jpeg' || $file_extension === 'png') {
-
-            $new_featured_img_name_webp = 'featured-img-project-' . $project_id . '.webp';
-            $new_featured_img_webp_path = $upload_dir . $new_featured_img_name_webp;
-            // Convert and save image to WebP format
-            if (!convertToWebP($featured_img_tmp, $new_featured_img_webp_path)) {
-                $error_message .= "Error converting image to WebP format.<br>";
-                http_response_code(400);
-                echo json_encode(array('error' => $error_message));
-                exit; // Terminate script execution
-            }
-            // Use WebP version for thumbnails
-            createThumbnail($new_featured_img_webp_path, $thumbnail_dir . $new_featured_img_name_webp, 160, 160, 77);
-
-            // Update the full URL with .webp extension
-            $full_url = $upload_dir . $new_featured_img_name_webp; // Update full URL with .webp extension
-        }
+    if (!resizeAndConvertToWebP($featured_img_tmp, $targetPath, 1500, 77)) {
+        $error_message .= "Error resizing/converting image.<br>";
+        http_response_code(400);
+        echo json_encode(array('error' => $error_message));
+        exit;
+    }
+    // If conversion and resizing are successful, $targetPath now has the WebP image
+    // Use WebP version for thumbnails and further processing
+    createThumbnail($targetPath, $thumbnail_dir . $new_featured_img_name_webp, 160, 160, 77);
+    
+    // Database update and success response logic remains unchanged...
+} else {
+    // If the image is not a supported format for conversion, handle the error or skip conversion
+    $error_message .= "Unsupported image format for WebP conversion.<br>";
+    // Handle the error appropriately
+}
 
         // Move the uploaded file to the destination directory
         if (!move_uploaded_file($featured_img_tmp, $upload_dir . $new_featured_img_name)) {
@@ -168,4 +171,38 @@ function convertToWebP($source_path, $destination_path) {
     }
     return false;
 }
+
+
+// Function to resize original image if any of its dimensions are larger than 1500px.
+
+function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQuality) {
+    list($width, $height, $type, $attr) = getimagesize($sourcePath);
+    $scale = min($maxDim/$width, $maxDim/$height);
+    $newWidth = $width > $maxDim ? ceil($scale * $width) : $width;
+    $newHeight = $height > $maxDim ? ceil($scale * $height) : $height;
+
+    // Depending on the original image type, create a new image
+    switch ($type) {
+        case IMAGETYPE_JPEG:
+            $src = imagecreatefromjpeg($sourcePath);
+            break;
+        case IMAGETYPE_PNG:
+            $src = imagecreatefrompng($sourcePath);
+            break;
+        default:
+            // Unsupported type for conversion
+            return false;
+    }
+
+    $dst = imagecreatetruecolor($newWidth, $newHeight);
+    imagecopyresampled($dst, $src, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
+    imagewebp($dst, $targetPath, $compressionQuality); // Save the image as WebP with specified compression quality
+
+    imagedestroy($src);
+    imagedestroy($dst);
+    return true;
+}
+
+
+
 ?>
