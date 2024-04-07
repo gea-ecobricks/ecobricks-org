@@ -1427,7 +1427,6 @@ body.modal-open {
 .browser-back-text-button {
   display: inline-block; /* Allows for text alignment and width/height properties */
   text-align: center;
-  font-size: small;
   text-decoration: none; /* Removes underline */
   cursor: pointer; /* Changes cursor to indicate clickable */
   color: inherit; /* Inherits text color from parent, or specify your own */
