@@ -87,10 +87,9 @@
 </div>
 
    <br><br>
-<p style="width:100%; text-align: center;"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data">Go Back to Re-enter Data</a></p>
+<p style="width:100%; text-align: center;"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data">Go Back to re-enter Data</a></p>
 
 
-</div> <!--closes main-->
        
 	<!--FOOTER STARTS HERE-->
 
