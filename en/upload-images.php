@@ -41,7 +41,7 @@
             </div>
 
         <!-- Photo 1 Main & Thumbnail -->
-            <div class="form-item" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;">
+            <div class="form-item">
                 <label for="photo2_main" data-lang-id="005-another-photo">Choose another photo:</label>
                 <br>
                 <input type="file" id="photo2_main" name="photo2_main">
@@ -171,8 +171,8 @@ function uploadSuccess(data) {
     // Construct the success message
     var successMessage = galleryHTML; // Add the gallery HTML above the success message
     successMessage += '<h1>Upload Successful!</h1>';
-    successMessage += '<p>Nice. Your project ' + project_id + ' has now been added to the database.</p>';
-    successMessage += '<br><a class="module-btn" href="add-project.php" id="upload-progress-button">➕ Add Next Project</a>';
+    successMessage += '<p>Nice. Your project has now been added to the database.</p>';
+    successMessage += '<br><a class="module-btn" href="add-project.php">+ Add Next Project</a>';
 
     // Display the upload-success div and populate with the success message
     var uploadSuccessDiv = document.getElementById('upload-success');
