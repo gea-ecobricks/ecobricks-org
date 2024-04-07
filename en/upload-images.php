@@ -86,10 +86,11 @@
 
 </div>
 
-   <br><br>
+  
 <p style="width:100%; text-align: center;"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data">Go Back to re-enter Data</a></p>
+<br><br>
 
-
+</div> <!--closes main-->
        
 	<!--FOOTER STARTS HERE-->
 
