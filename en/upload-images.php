@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.01';?>
+<?php $version='2.02';?>
 <?php $page='upload-images';?>
 
 
@@ -34,9 +34,9 @@
             
             <div class="form-item" style="background-color:var(--main-background);border-radius:5px;padding:10px;">
                 <div>
-                    <label for="photo1_main" data-lang-id="003-feature-photo" style="">Feature image</label><br>
-                    <input type="file" id="photo1_main" name="photo1_main" style="background-color:var(--settings); padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;margin-bottom:10px;" required>
-                    <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this project.  Required.</p>
+                    <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px">Feature image:</label><br>
+                    <input type="file" id="photo1_main" name="photo1_main" style="background-color:var(--form-background); padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;" required>
+                    <p class="form-caption" data-lang-id="004-feature-desc" style="padding:10px">Please choose a featured photo for this project.  Required.</p>
                 </div>
 
             </div>
@@ -173,7 +173,7 @@ function uploadSuccess(data) {
     var successMessage = galleryHTML; // Add the gallery HTML above the success message
     successMessage += '<h1>Upload Successful!</h1>';
     successMessage += '<p>Nice. Your project has now been added to the database.</p>';
-    successMessage += '<br><a class="confirm-button" href="add-project.php">➕ Add Next Project</a>';
+    successMessage += '<a class="module-btn" href="add-project.php">➕ Add Next Project</a>';
 
     // Display the upload-success div and populate with the success message
     var uploadSuccessDiv = document.getElementById('upload-success');

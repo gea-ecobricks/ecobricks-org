@@ -213,6 +213,8 @@ input[type="submit"]:hover {
 
 .module-btn {
   background: var(--emblem-green);
+  width: 100%;
+  display: flex;
 }
 	
 .module-btn:hover {
@@ -223,14 +225,20 @@ input[type="submit"]:hover {
   color: white;
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
-  background-color: #12b712; /* Initial background color */
-  background-size: 0% 100%; /* Initial background size (progress bar) */
-  transition: background-size 0.5s ease; /* Transition effect for smooth progress */
+  background: var(--emblem-green);
   font-size: 1.3em;
   width: 100%;
-  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.confirm-button:hover {
+  background: var(--emblem-green-over);
+
+
 }
 
 
