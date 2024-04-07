@@ -1421,3 +1421,20 @@ body.modal-open {
       grid-template-columns: repeat(2, 1fr); /* Adjust for mobile to show two columns */
   }
 }
+
+
+
+.browser-back-text-button {
+  display: inline-block; /* Allows for text alignment and width/height properties */
+  text-align: center;
+  font-size: small;
+  text-decoration: none; /* Removes underline */
+  cursor: pointer; /* Changes cursor to indicate clickable */
+  color: inherit; /* Inherits text color from parent, or specify your own */
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.browser-back-text-button:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}

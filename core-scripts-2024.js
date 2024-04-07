@@ -227,7 +227,9 @@ function documentClickListenerLogin() {
     hideLoginSelector();
 }
 
-
+function goBack() {
+    window.history.back();
+}
 
 
 /*

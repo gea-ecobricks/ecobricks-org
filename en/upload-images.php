@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.04';?>
+<?php $version='2.05';?>
 <?php $page='upload-images';?>
 
 
@@ -28,11 +28,12 @@
     <div class="form-container" id="upload-photo-form">
         <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
         <p data-lang-id="002-form-description">Show the world your project!  Upload one to five images showing your construction from different angles or times.</p>
+        <br><br>
 
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
-            <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;background-color:var(--main-background);">
+            <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:var(--main-background);">
                 <div>
                     <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px;margin-bottom:10px;">Feature image:</label><br>
                     <input type="file" id="photo1_main" name="photo1_main" style="background-color:#0003; padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;" required>
@@ -167,7 +168,7 @@ function uploadSuccess(data) {
         galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + data.full_urls[i] + '\', \'' + directoryPathText + '\')">';
         galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
         galleryHTML += '<p style="font-size:small;">' + directoryPathText + '</p>';
-        galleryHTML += '</div><br>';
+        galleryHTML += '</div>';
     }
 
     // Close the gallery HTML and append it to the success message
@@ -282,11 +283,10 @@ function uploadSuccess(data) {
 
 
 
-<br><br>
    
-<p style="text-align:center; font-size:small;">Go Back to Reenter Data</p>
+<a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data">Go Back to Re-enter Data</a>
 
-<br><br>
+
 </div> <!--closes main-->
        
 	<!--FOOTER STARTS HERE-->
