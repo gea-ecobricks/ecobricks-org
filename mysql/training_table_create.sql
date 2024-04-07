@@ -1,0 +1,37 @@
+CREATE TABLE IF NOT EXISTS projects (
+  trainings_id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  training_title TEXT NOT NULL,
+  training_description TEXT NOT NULL,
+  training_date DATE NOT NULL,
+  training_logged DATE NOT NULL,
+  no_participants SMALLINT(11) NOT NULL,
+  lead_trainer TINYINT(4) NOT NULL DEFAULT 100,
+  trained_community VARCHAR(50) NOT NULL,
+  training_type VARCHAR(50) NOT NULL,
+  briks_made SMALLINT(6) NOT NULL,
+  avg_brik_weight SMALLINT(6) NOT NULL,
+  est_plastic_packed SMALLINT(6) NOT NULL,
+  training_featured_img VARCHAR(255),
+  training_tmb_img VARCHAR(255),
+  
+  location_full VARCHAR(255),
+  location_geo POINT NOT NULL,
+
+  training_photo1_main VARCHAR(255),
+  training_photo1_tmb VARCHAR(255),
+  training_photo2_main VARCHAR(255),
+  training_photo2_tmb VARCHAR(255),
+  training_photo3_main VARCHAR(255),
+  training_photo3_tmb VARCHAR(255),
+  training_photo4_main VARCHAR(255),
+  training_photo4_tmb VARCHAR(255),
+
+  training_summary TEXT NOT NULL,
+  training_agenda TEXT NOT NULL,
+  training_success TEXT NOT NULL,
+  training_challenges TEXT NOT NULL,
+  training_lessons_learned TEXT NOT NULL,
+  training_description TEXT NOT NULL,
+  training_page_url VARCHAR(255),
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;

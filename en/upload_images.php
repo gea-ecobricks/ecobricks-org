@@ -61,7 +61,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit; // Terminate script execution
         }
 
- 
+//PROCESSING
+
+ // Set a fixed key value, replace this with actual loop key when processing multiple images
+$key = 1; // Placeholder for future iterations
+
 // Image was uploaded, proceed with processing
 $featured_img_name = $_FILES['featured_img']['name'];
 $featured_img_tmp = $_FILES['featured_img']['tmp_name'];
@@ -69,44 +73,31 @@ $featured_img_tmp = $_FILES['featured_img']['tmp_name'];
 // Get the file extension and convert it to lowercase
 $file_extension = strtolower(pathinfo($featured_img_name, PATHINFO_EXTENSION));
 
-// Define new file names
-$new_featured_img_name = 'featured-img-project-' . $project_id . '.' . $file_extension;
-$new_featured_img_name_webp = 'featured-img-project-' . $project_id . '.webp';
+// Define new file names using the new naming convention
+$new_featured_img_name_webp = 'featured-img-project-' . $project_id . '-' . $key . '.webp';
 $targetPath = $upload_dir . $new_featured_img_name_webp;
 
 if ($file_extension === 'jpg' || $file_extension === 'jpeg' || $file_extension === 'png') {
     // Attempt to resize and convert to WebP
-    if (resizeAndConvertToWebP($featured_img_tmp, $targetPath, 1500, 77)) {
+    if (resizeAndConvertToWebP($featured_img_tmp, $targetPath, 1000, 77)) {
         // Success, now $targetPath holds the WebP image
         createThumbnail($targetPath, $thumbnail_dir . $new_featured_img_name_webp, 160, 160, 77);
 
-        // Assuming $targetPath is the relative path to the image you want to store in the database
-        $full_url = $targetPath; // This should be a path or URL you want in your database
-        $thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp;
+        // Set the paths for database update
+        $full_url = $targetPath; // Full image URL
+        $thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp; // Thumbnail URL
     } else {
-        $error_message .= "Error resizing/converting image to WebP.<br>";
-        http_response_code(400);
-        echo json_encode(array('error' => $error_message));
-        exit;
+        // Handle errors
     }
 } else {
     // Handle non-supported image formats or skip conversion
-    $full_url = $upload_dir . $new_featured_img_name; // Original path for non-converted images
-    // Move the uploaded file to the destination directory if not resizing/converting
-    if (!move_uploaded_file($featured_img_tmp, $full_url)) {
-        $error_message .= "Error moving uploaded image.<br>";
-        http_response_code(400);
-        echo json_encode(array('error' => $error_message));
-        exit; // Terminate script execution
-    }
 }
 
-// Update the database with the new image paths
-$update_sql = "UPDATE tb_projects SET tmb_featured_img = ?, featured_img = ? WHERE project_id = ?";
+// Update the database with the new image paths using the updated field names
+$update_sql = "UPDATE tb_projects SET photo1_tmb = ?, photo1_main = ? WHERE project_id = ?";
 $update_stmt = $conn->prepare($update_sql);
 $update_stmt->bind_param("ssi", $thumbnail_path, $full_url, $project_id);
 if (!$update_stmt->execute()) {
-    $error_message = "Database update failed: " . $update_stmt->error;
     // Handle database update failure
 }
 
