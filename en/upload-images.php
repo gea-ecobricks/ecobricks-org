@@ -32,7 +32,7 @@
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
-            <div class="form-item" style="background-color:background-color: #0003;border-radius:5px;padding:10px;">
+            <div class="form-item" style="background-color:var(--main-background);border-radius:5px;padding:10px;">
                 <div>
                     <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px">Feature image:</label><br>
                     <input type="file" id="photo1_main" name="photo1_main" style="background-color:var(--form-background); padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;" required>
@@ -170,10 +170,9 @@ function uploadSuccess(data) {
     galleryHTML += '</div>';
 
     // Construct the success message
-    var 
+    var successMessage = galleryHTML; // Add the gallery HTML above the success message
     successMessage += '<h1>Upload Successful!</h1>';
     successMessage += '<p>Nice. Your project has now been added to the database.</p>';
-    successMessage = galleryHTML; // Add the gallery HTML above the success message
     successMessage += '<a class="confirm-button" href="add-project.php">➕ Add Next Project</a>';
 
     // Display the upload-success div and populate with the success message
