@@ -32,15 +32,16 @@
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
-            <div class="form-item">
-
-                <label for="photo1_main" data-lang-id="003-feature-photo" style="background-color:var(--main-background);border-radius:5px;">Feature image</label><br>
-                <input type="file" id="photo1_main" name="photo1_main" style="background-color:var(--settings); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;margin:10px;" required>
-                <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this project.  Required.</p>
+            <div class="form-item" style="background-color:var(--main-background);border-radius:5px;padding:10px;">
+                <div>
+                    <label for="photo1_main" data-lang-id="003-feature-photo" style="">Feature image</label><br>
+                    <input type="file" id="photo1_main" name="photo1_main" style="background-color:var(--settings); padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;margin-bottom:10px;" required>
+                    <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this project.  Required.</p>
+                </div>
 
             </div>
 
-        <!-- Photo 1 Main & Thumbnail -->
+        <!-- Photo 2 Main & Thumbnail -->
             <div class="form-item">
                 <label for="photo2_main" data-lang-id="005-another-photo">Choose another photo:</label>
                 <br>
@@ -48,7 +49,7 @@
                 <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
             </div>
 
-        <!-- Photo 2 Main & Thumbnail -->
+        <!-- Photo 3 Main & Thumbnail -->
             <div class="form-item">
                 <label for="photo3_main" data-lang-id="005-another-photo">Choose another photo:</label>
                 <br>
@@ -56,7 +57,7 @@
                 <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
             </div>
 
-        <!-- Photo 3 Main & Thumbnail -->
+        <!-- Photo 4 Main & Thumbnail -->
         <div class="form-item">
                 <label for="photo4_main" data-lang-id="005-another-photo">Choose another photo:</label>
                 <br>
@@ -64,7 +65,7 @@
                 <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
             </div>
 
-        <!-- Photo 4 Main & Thumbnail -->
+        <!-- Photo 5 Main & Thumbnail -->
             <div class="form-item">
                 <label for="photo5_main" data-lang-id="005-another-photo">Choose another photo:</label>
                 <br>
@@ -78,7 +79,7 @@
 
 
 
-    <div id="upload-success" class="form-container" style="display:none;">
+    <div id="upload-success" class="form-container" style="display:none;" id="upload-progress-button">
            
     </div>
 
@@ -172,7 +173,7 @@ function uploadSuccess(data) {
     var successMessage = galleryHTML; // Add the gallery HTML above the success message
     successMessage += '<h1>Upload Successful!</h1>';
     successMessage += '<p>Nice. Your project has now been added to the database.</p>';
-    successMessage += '<br><a class="module-btn" href="add-project.php">+ Add Next Project</a>';
+    successMessage += '<br><a class="confirm-button" href="add-project.php">➕ Add Next Project</a>';
 
     // Display the upload-success div and populate with the success message
     var uploadSuccessDiv = document.getElementById('upload-success');
