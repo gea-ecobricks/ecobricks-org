@@ -41,7 +41,7 @@
             </div>
 
         <!-- Photo 1 Main & Thumbnail -->
-            <div class="form-item">
+            <div class="form-item" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;">
                 <label for="photo2_main" data-lang-id="005-another-photo">Choose another photo:</label>
                 <br>
                 <input type="file" id="photo2_main" name="photo2_main">
