@@ -34,8 +34,8 @@
             
             <div class="form-item">
 
-                <label for="photo1_main" data-lang-id="003-feature-photo">Feature image</label><br>
-                <input type="file" id="photo1_main" name="photo1_main" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;" required>
+                <label for="photo1_main" data-lang-id="003-feature-photo" style="background-color:var(--main-background);border-radius:5px;">Feature image</label><br>
+                <input type="file" id="photo1_main" name="photo1_main" style="background-color:var(--settings); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;margin:10px;" required>
                 <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this project.  Required.</p>
 
             </div>

@@ -260,42 +260,46 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
 function viewGalleryImage(imageSrc, altText) {
-    // Fetch the modal elements
     const modal = document.getElementById('form-modal-message');
-    const photoContainer = modal.querySelector('.modal-photo');
-    const captionContainer = modal.querySelector('.modal-caption');
-    const messageContainer = modal.querySelector('.modal-message');
+    const contentBox = modal.querySelector('.modal-content-box'); // This is the part we want to hide
+    const photoBox = modal.querySelector('.modal-photo-box'); // This is where we'll show the image
+    const photoContainer = modal.querySelector('.modal-photo'); // The container for the image
 
-    // Clear previous content
+    // Hide the content box and show the photo box
+    contentBox.style.display = 'none'; // Hide the content box
+    photoBox.style.display = 'block'; // Make sure the photo box is visible
+
+    // Clear previous images from the photo container
     photoContainer.innerHTML = '';
-    captionContainer.textContent = '';
 
-    // Hide the message div
-    messageContainer.style.display = 'none';
-
-    // Create and append the image
+    // Create and append the new image
     const img = document.createElement('img');
     img.src = imageSrc;
     img.alt = altText;
     img.style.maxWidth = '90%';
-    img.style.maxHeight = '80vh'; // Adjusted for viewport height
+    img.style.maxHeight = '80vh';
     img.style.margin = 'auto';
-    photoContainer.appendChild(img);
 
-    // Set the caption text
-    captionContainer.textContent = altText;
+    // Create and append the caption
+    const caption = document.createElement('p');
+    caption.textContent = altText;
+    caption.style.textAlign = 'center';
+
+    // Append image and caption to the photo container
+    photoContainer.appendChild(img);
+    photoContainer.appendChild(caption);
 
     // Show the modal
     modal.style.display = 'flex';
 
-    // Update other page elements as needed, if applicable
-    // These are optional based on your existing createInfoModal function
+    // If you have other page elements adjusted when the modal opens, such as blurring the background,
+    // you may want to include those adjustments here as well
     document.getElementById('page-content')?.classList.add('blurred');
     document.getElementById('footer-full')?.classList.add('blurred');
     document.body.classList.add('modal-open');
 }
+
 
 
 

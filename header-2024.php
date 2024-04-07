@@ -473,10 +473,13 @@ display: none;
 <div id="form-modal-message" class="modal-hidden">
     <div class="modal-content-box">
     <button type="button" onclick="closeInfoModal()" aria-label="Click to close modal" class="x-button"></button>
-        <div class ="modal-photo"></div>
-        <div class ="modal-caption"></div>
         <div class="modal-message"></div>
     </div>
+    <div class="modal-photo-box">
+        <button type="button" onclick="closeInfoModal()" aria-label="Click to close modal" class="x-button"></button>
+        <div class ="modal-photo"></div>
+    </div>
+
 </div>
 
 <!--  -->
