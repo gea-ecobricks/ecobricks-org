@@ -132,7 +132,6 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
 });
 
 
-
 // Function to handle form submission response
 function handleFormResponse(response) {
     try {
@@ -152,35 +151,89 @@ function handleFormResponse(response) {
 
 // Updated function to handle upload success with multiple images
 function uploadSuccess(data) {
-    var successMessage = '<h1>Upload Successful!</h1>';
-    successMessage += '<p>Nice. Your project has now been added to the database.</p>';
-    successMessage += '<ul>';
-    successMessage += '<li>Project Id: ' + data.project_id + '</li>';
-    successMessage += '<li>Name: ' + data.project_name + '</li>';
-    successMessage += '<li>Description: ' + data.description + '</li>';
-    successMessage += '<li>Start: ' + data.start + '</li>';
-    successMessage += '<li>Briks Used: ' + data.briks_used + '</li>';
+    // Start the gallery HTML
+    var galleryHTML = '<div id="three-column-gal" class="three-column-gal">';
 
-    // Iterate over the full_urls and thumbnail_paths arrays
-    for (var i = 0; i < data.full_urls.length; i++) {
-        successMessage += '<li>Image ' + (i+1) + ' URL: ' + data.full_urls[i] + '</li>';
-        successMessage += '<img src="' + data.full_urls[i] + '" style="width:100px;"><br>'; // Display each main image
-    }
-
+    // Iterate over the thumbnail_paths and full_urls to build the gallery items
     for (var i = 0; i < data.thumbnail_paths.length; i++) {
-        successMessage += '<li>Thumbnail ' + (i+1) + ' URL: ' + data.thumbnail_paths[i] + '</li>';
-        successMessage += '<img src="' + data.thumbnail_paths[i] + '" style="width:50px;"><br>'; // Display each thumbnail
+        // Construct directory path text from the thumbnail path for the caption
+        var directoryPathText = data.thumbnail_paths[i].substring(data.thumbnail_paths[i].lastIndexOf('/') + 1);
+
+        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + data.full_urls[i] + '\', \'' + directoryPathText + '\')">';
+        galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
+        galleryHTML += '<p>' + directoryPathText + '</p>';
+        galleryHTML += '</div>';
     }
 
-    successMessage += '<li>Location Full: ' + data.location_full + '</li>';
-    successMessage += '</ul>';
+    // Close the gallery HTML
+    galleryHTML += '</div>';
+
+    // Construct the success message
+    var successMessage = galleryHTML; // Add the gallery HTML above the success message
+    successMessage += '<h1>Upload Successful!</h1>';
+    successMessage += '<p>Nice. Your project has now been added to the database.</p>';
     successMessage += '<br><a class="module-btn" href="add-project.php">+ Add Next Project</a>';
 
+    // Display the upload-success div and populate with the success message
     var uploadSuccessDiv = document.getElementById('upload-success');
     uploadSuccessDiv.innerHTML = successMessage;
     uploadSuccessDiv.style.display = 'block';
-    document.getElementById('photoform').style.display = 'none'; // Make sure the form ID matches your actual form
+
+    // Optionally hide the form after upload success
+    document.getElementById('photoform').style.display = 'none';
 }
+
+
+// // Function to handle form submission response
+// function handleFormResponse(response) {
+//     try {
+//         // Try parsing the JSON response
+//         var responseData = JSON.parse(response);
+//         // Check if the response contains an "error" field
+//         if (responseData.error) {
+//             // If there's an error response, show the modal with the error message
+//             showFormModal(responseData.error);
+//             console.log(responseData.error); // Log error response to console
+//         } else {
+//             // If no error, call the uploadSuccess function with project data
+//             uploadSuccess(responseData.project_id, responseData.project_name, responseData.description, responseData.start, responseData.briks_used, responseData.full_url, responseData.thumbnail_path, responseData.location_full);
+//         }
+//     } catch (error) {
+//         // If parsing fails, handle it as an error and show the modal with the response message
+//         showFormModal("Error parsing server response: " + response);
+//         console.error(error); // Log parsing error to console
+//     }
+// }
+
+
+//     // Function to handle upload success
+//     function uploadSuccess(project_id, project_name, description, start, briks_used, full_url, thumbnail_path, location_full) {
+//         // Construct HTML content with project data
+//         var 
+//         successMessage = '<img src=" ' + full_url + '">Full<br>';
+//         successMessage = '<img src=" ' + thumbnail_path + '"><br><h1>Upload Successful!</h1>';
+//         successMessage += '<p>Nice.  Your project has now been added to the database</p>';
+//         successMessage += '<ul>';
+//         successMessage += '<li>Project Id: ' + project_id + '</li>';
+//         successMessage += '<li>Name: ' + project_name + '</li>';
+//         successMessage += '<li>Description: ' + description + '</li>';
+//         successMessage += '<li>Start: ' + start + '</li>';
+//         successMessage += '<li>Briks Used: ' + briks_used + '</li>';
+//         successMessage += '<li>Featured Image URL: ' + full_url + '</li>';
+//         successMessage += '<li>Thumbnail Image URL: ' + thumbnail_path + '</li>';
+//         successMessage += '<li>Location Full: ' + location_full + '</li>';
+//         successMessage += '</ul>';
+//         successMessage += '<br><a class="module-btn" href="add-project.php">+ Add Next Project</a>';
+
+//         // Display the upload-success div and populate with project data
+//         var uploadSuccessDiv = document.getElementById('upload-success');
+//         uploadSuccessDiv.innerHTML = successMessage;
+//         uploadSuccessDiv.style.display = 'block';
+
+//         // Hide the photoform
+//         document.getElementById('upload-photo-form').style.display = 'none';
+//     }
+
 
 
     // Function to show form modal
