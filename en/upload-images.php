@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.02';?>
+<?php $version='2.04';?>
 <?php $page='upload-images';?>
 
 
@@ -154,7 +154,7 @@ function handleFormResponse(response) {
 function uploadSuccess(data) {
     // Start by constructing the heading and paragraph text
     var successMessage = '<h1>Upload Successful!</h1>';
-    successMessage += '<p>Nice. Your project has now been added to the database.</p>';
+    successMessage += '<p>Nice. Your project has now been added to the database.</p><br>';
     
     // Add the gallery HTML
     var galleryHTML = '<div id="three-column-gal" class="three-column-gal">';
@@ -166,8 +166,8 @@ function uploadSuccess(data) {
 
         galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + data.full_urls[i] + '\', \'' + directoryPathText + '\')">';
         galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
-        galleryHTML += '<p>' + directoryPathText + '</p>';
-        galleryHTML += '</div>';
+        galleryHTML += '<p style="font-size:small;">' + directoryPathText + '</p>';
+        galleryHTML += '</div><br>';
     }
 
     // Close the gallery HTML and append it to the success message
