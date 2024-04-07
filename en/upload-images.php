@@ -34,41 +34,41 @@
             
             <div class="form-item">
 
-                <label for="featured_img" data-lang-id="003-feature-photo">Feature image</label><br>
-                <input type="file" id="featured_img" name="featured_img" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;" required>
+                <label for="photo1_main" data-lang-id="003-feature-photo">Feature image</label><br>
+                <input type="file" id="photo1_main" name="photo1_main" style="background-color:var(--main-background); font-size:1.2em;padding:10px;color:var(--text-color);border-radius:5px;" required>
                 <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this project.  Required.</p>
 
             </div>
 
         <!-- Photo 1 Main & Thumbnail -->
             <div class="form-item">
-                <label for="photo1_main" data-lang-id="005-another-photo">Choose another photo:</label>
-                <br>
-                <input type="file" id="photo1_main" name="photo1_main">
-                <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
-            </div>
-
-        <!-- Photo 2 Main & Thumbnail -->
-            <div class="form-item">
-                <label for="photo1_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <label for="photo2_main" data-lang-id="005-another-photo">Choose another photo:</label>
                 <br>
                 <input type="file" id="photo2_main" name="photo2_main">
                 <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
             </div>
 
-        <!-- Photo 3 Main & Thumbnail -->
-        <div class="form-item">
+        <!-- Photo 2 Main & Thumbnail -->
+            <div class="form-item">
                 <label for="photo3_main" data-lang-id="005-another-photo">Choose another photo:</label>
                 <br>
                 <input type="file" id="photo3_main" name="photo3_main">
                 <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
             </div>
 
-        <!-- Photo 4 Main & Thumbnail -->
-            <div class="form-item">
+        <!-- Photo 3 Main & Thumbnail -->
+        <div class="form-item">
                 <label for="photo4_main" data-lang-id="005-another-photo">Choose another photo:</label>
                 <br>
                 <input type="file" id="photo4_main" name="photo4_main">
+                <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
+            </div>
+
+        <!-- Photo 4 Main & Thumbnail -->
+            <div class="form-item">
+                <label for="photo5_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <br>
+                <input type="file" id="photo5_main" name="photo5_main">
                 <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
             </div>
 

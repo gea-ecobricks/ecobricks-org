@@ -2,132 +2,65 @@
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-
-// Include necessary environment setup
 include '../ecobricks_env.php';
 
-// Initialize error message variable
 $error_message = '';
-
-// Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-    // Check if project_id is set
     if (isset($_POST['project_id'])) {
         $project_id = $_POST['project_id'];
-
-        // File upload directories
         $upload_dir = '../projects/featured/';
         $thumbnail_dir = '../projects/featured_tmbs/';
 
-        // Check if an image was uploaded
-        if (!isset($_FILES['featured_img']) || $_FILES['featured_img']['error'] !== UPLOAD_ERR_OK) {
-            // Handle file upload errors
-            switch ($_FILES['featured_img']['error']) {
-                case UPLOAD_ERR_INI_SIZE:
-                case UPLOAD_ERR_FORM_SIZE:
-                    // File size exceeds the maximum upload size
-                    $error_message = 'Error: File size exceeds the maximum upload size. Please try again with a smaller file.';
-                    break;
-                case UPLOAD_ERR_PARTIAL:
-                    // File upload was only partially completed
-                    $error_message = 'Error: File upload was only partially completed. Please try again.';
-                    break;
-                case UPLOAD_ERR_NO_FILE:
-                    // No file was uploaded
-                    $error_message = 'Error: No photo selected! Please try again.';
-                    break;
-                case UPLOAD_ERR_NO_TMP_DIR:
-                    // Missing temporary folder
-                    $error_message = 'Error: Missing temporary folder. Please contact the site administrator.';
-                    break;
-                case UPLOAD_ERR_CANT_WRITE:
-                    // Failed to write file to disk
-                    $error_message = 'Error: Failed to write file to disk. Please contact the site administrator.';
-                    break;
-                case UPLOAD_ERR_EXTENSION:
-                    // File upload stopped by extension
-                    $error_message = 'Error: File upload stopped by extension. Please try again.';
-                    break;
-                default:
-                    // Other unknown upload error
-                    $error_message = 'Error: Unknown upload error. Please try again later.';
-                    break;
-            }
+        $db_fields = []; // For storing database field names
+        $db_values = []; // For storing corresponding values
+        $db_types = ""; // For storing the types of the values for the prepared statement
 
-            // Return JSON response for error
-            http_response_code(400);
-            echo json_encode(array('error' => $error_message));
-            exit; // Terminate script execution
+        // Loop over the image inputs
+        for ($i = 1; $i <= 5; $i++) {
+            $file_input_name = "photo{$i}_main";
+            if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] === UPLOAD_ERR_OK) {
+                $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
+                $new_file_name_webp = 'featured-img-project-' . $project_id . '-' . $i . '.webp';
+                $targetPath = $upload_dir . $new_file_name_webp;
+
+                if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 77)) {
+                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
+                    $full_url = $targetPath;
+                    $thumbnail_path = $thumbnail_dir . $new_file_name_webp;
+
+                    // Update arrays for database query
+                    array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
+                    array_push($db_values, $full_url, $thumbnail_path);
+                    $db_types .= "ss"; // Add two string types
+                } else {
+                    $error_message .= "Error processing image {$i}.<br>";
+                }
+            }
         }
 
-//PROCESSING
+        if (!empty($db_fields)) {
+            $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
+            $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
+            array_push($db_values, $project_id);
+            $db_types .= "i"; // Add integer type for project_id
 
- // Set a fixed key value, replace this with actual loop key when processing multiple images
-$key = 1; // Placeholder for future iterations
+            $update_stmt = $conn->prepare($update_sql);
+            $update_stmt->bind_param($db_types, ...$db_values);
+            if (!$update_stmt->execute()) {
+                $error_message .= "Database update failed: " . $update_stmt->error . "<br>";
+            }
+            $update_stmt->close();
+        }
 
-// Image was uploaded, proceed with processing
-$featured_img_name = $_FILES['featured_img']['name'];
-$featured_img_tmp = $_FILES['featured_img']['tmp_name'];
-
-// Get the file extension and convert it to lowercase
-$file_extension = strtolower(pathinfo($featured_img_name, PATHINFO_EXTENSION));
-
-// Define new file names using the new naming convention
-$new_featured_img_name_webp = 'featured-img-project-' . $project_id . '-' . $key . '.webp';
-$targetPath = $upload_dir . $new_featured_img_name_webp;
-
-if ($file_extension === 'jpg' || $file_extension === 'jpeg' || $file_extension === 'png') {
-    // Attempt to resize and convert to WebP
-    if (resizeAndConvertToWebP($featured_img_tmp, $targetPath, 1000, 77)) {
-        // Success, now $targetPath holds the WebP image
-        createThumbnail($targetPath, $thumbnail_dir . $new_featured_img_name_webp, 160, 160, 77);
-
-        // Set the paths for database update
-        $full_url = $targetPath; // Full image URL
-        $thumbnail_path = $thumbnail_dir . $new_featured_img_name_webp; // Thumbnail URL
-    } else {
-        // Handle errors
-    }
-} else {
-    // Handle non-supported image formats or skip conversion
-}
-
-// Update the database with the new image paths using the updated field names
-$update_sql = "UPDATE tb_projects SET photo1_tmb = ?, photo1_main = ? WHERE project_id = ?";
-$update_stmt = $conn->prepare($update_sql);
-$update_stmt->bind_param("ssi", $thumbnail_path, $full_url, $project_id);
-if (!$update_stmt->execute()) {
-    // Handle database update failure
-}
-
-$update_stmt->close();
-
-
-            // Prepare success response
-        $response = array(
-            'project_id' => $project_id,
-            'project_name' => $_POST['project_name'] ?? null,
-            'description' => $_POST['description'] ?? null,
-            'start' => $_POST['start'] ?? null,
-            'briks_used' => $_POST['briks_used'] ?? null,
-            'full_url' => $full_url,
-            'thumbnail_path' => $thumbnail_path,
-            'location_full' => $_POST['location_full'] ?? null
-        );
-        echo json_encode($response);
-        exit; // Terminate script execution after sending response
-    }
-
-    // If there are errors, display them
-    if (!empty($error_message)) {
-        echo $error_message;
-
-    } else {
-        // If no errors, echo success message
-        echo "Upload is successful!";
+        if (!empty($error_message)) {
+            http_response_code(400);
+            echo json_encode(['error' => $error_message]);
+        } else {
+            echo "Upload successful!";
+        }
     }
 }
+
 
 // Function to create a thumbnail using GD library
 function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
