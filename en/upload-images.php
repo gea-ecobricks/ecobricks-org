@@ -171,16 +171,16 @@ function uploadSuccess(data) {
     // Construct the success message
     var successMessage = galleryHTML; // Add the gallery HTML above the success message
     successMessage += '<h1>Upload Successful!</h1>';
-    successMessage += '<p>Nice. Your project has now been added to the database.</p>';
-    successMessage += '<br><a class="module-btn" href="add-project.php">+ Add Next Project</a>';
+    successMessage += '<p>Nice. Your project ' + project_id + ' has now been added to the database.</p>';
+    successMessage += '<br><a class="module-btn" href="add-project.php" id="upload-progress-button">➕ Add Next Project</a>';
 
     // Display the upload-success div and populate with the success message
     var uploadSuccessDiv = document.getElementById('upload-success');
     uploadSuccessDiv.innerHTML = successMessage;
     uploadSuccessDiv.style.display = 'block';
 
-    // Optionally hide the form after upload success
-    document.getElementById('photoform').style.display = 'none';
+    // hide the form after upload success
+    document.getElementById('upload-photo-form').style.display = 'none';
 }
 
 
