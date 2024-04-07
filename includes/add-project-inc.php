@@ -233,6 +233,7 @@ input[type="submit"]:hover {
   text-align: center;
   text-decoration: none;
   margin-top: 10px;
+  display: flex;
 }
 
 .confirm-button:hover {
