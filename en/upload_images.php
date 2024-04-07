@@ -5,6 +5,9 @@ error_reporting(E_ALL);
 include '../ecobricks_env.php';
 
 $error_message = '';
+$full_urls = []; // Initialize array to store main image URLs
+$thumbnail_paths = []; // Initialize array to store thumbnail URLs
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['project_id'])) {
         $project_id = $_POST['project_id'];
@@ -15,7 +18,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $db_values = []; // For storing corresponding values
         $db_types = ""; // For storing the types of the values for the prepared statement
 
-        // Loop over the image inputs
         for ($i = 1; $i <= 5; $i++) {
             $file_input_name = "photo{$i}_main";
             if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] === UPLOAD_ERR_OK) {
@@ -25,12 +27,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 77)) {
                     createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
-                    $full_url = $targetPath;
-                    $thumbnail_path = $thumbnail_dir . $new_file_name_webp;
+                    $full_urls[] = $targetPath; // Add main image URL to array
+                    $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp; // Add thumbnail URL to array
 
                     // Update arrays for database query
                     array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
-                    array_push($db_values, $full_url, $thumbnail_path);
+                    array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
                     $db_types .= "ss"; // Add two string types
                 } else {
                     $error_message .= "Error processing image {$i}.<br>";
@@ -41,13 +43,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (!empty($db_fields)) {
             $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
             $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
-            array_push($db_values, $project_id);
+            $db_values[] = $project_id; // Add project_id to the end of the array
             $db_types .= "i"; // Add integer type for project_id
 
             $update_stmt = $conn->prepare($update_sql);
             $update_stmt->bind_param($db_types, ...$db_values);
             if (!$update_stmt->execute()) {
-                $error_message .= "Database update failed: " . $update_stmt->error . "<br>";
+                $error_message .= "Database update failed: " . $update_stmt->error;
             }
             $update_stmt->close();
         }
@@ -56,10 +58,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             http_response_code(400);
             echo json_encode(['error' => $error_message]);
         } else {
-            echo "Upload successful!";
+            // Prepare the response array with all image URLs included
+            $response = array(
+                'project_id' => $project_id,
+                'project_name' => $_POST['project_name'] ?? null,
+                'description' => $_POST['description'] ?? null,
+                'start' => $_POST['start'] ?? null,
+                'briks_used' => $_POST['briks_used'] ?? null,
+                'full_urls' => $full_urls, // Array of main image URLs
+                'thumbnail_paths' => $thumbnail_paths, // Array of thumbnail URLs
+                'location_full' => $_POST['location_full'] ?? null
+            );
+            echo json_encode($response);
         }
     }
 }
+
+
+
+//FUNCTIONS
 
 
 // Function to create a thumbnail using GD library
