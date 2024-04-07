@@ -261,73 +261,43 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
 function viewGalleryImage(imageSrc, altText) {
-    // Modal background
-    const modalBackground = document.createElement('div');
-    modalBackground.style.position = 'fixed';
-    modalBackground.style.top = '0';
-    modalBackground.style.left = '0';
-    modalBackground.style.width = '100%';
-    modalBackground.style.height = '100%';
-    modalBackground.style.backgroundColor = 'var(--show-hide)';
-    modalBackground.style.display = 'flex';
-    modalBackground.style.justifyContent = 'center';
-    modalBackground.style.alignItems = 'center';
-    modalBackground.style.zIndex = '1000';
+    // Fetch the modal elements
+    const modal = document.getElementById('form-modal-message');
+    const photoContainer = modal.querySelector('.modal-photo');
+    const captionContainer = modal.querySelector('.modal-caption');
+    const messageContainer = modal.querySelector('.modal-message');
 
-    // Modal content
-    const modalContent = document.createElement('div');
-    modalContent.style.position = 'relative';
-    modalContent.style.padding = '20px';
-    modalContent.style.display = 'flex';
-    modalContent.style.flexFlow = 'column';
+    // Clear previous content
+    photoContainer.innerHTML = '';
+    captionContainer.textContent = '';
 
+    // Hide the message div
+    messageContainer.style.display = 'none';
 
-    // Image
+    // Create and append the image
     const img = document.createElement('img');
     img.src = imageSrc;
     img.alt = altText;
     img.style.maxWidth = '90%';
     img.style.maxHeight = '80vh'; // Adjusted for viewport height
-    img.style.minWidth = '70%';
     img.style.margin = 'auto';
+    photoContainer.appendChild(img);
 
-    // Caption
-    const caption = document.createElement('p');
-    caption.textContent = altText;
-    caption.style.color = 'var(--h1)';
-    caption.style.textAlign = 'center';
-    caption.style.paddingTop = '10px';
+    // Set the caption text
+    captionContainer.textContent = altText;
 
-    // Close button
-    const closeButton = document.createElement('div');
-    closeButton.innerHTML = 'X';
-    closeButton.style.position = 'absolute';
-    closeButton.style.top = '10px';
-    closeButton.style.right = '15px';
-    closeButton.style.cursor = 'pointer';
-    closeButton.style.color = 'var(--h1)';
+    // Show the modal
+    modal.style.display = 'flex';
 
-    closeButton.onclick = function() {
-        document.body.removeChild(modalBackground);
-
-    };
-
-    modalContent.appendChild(img);
-    modalContent.appendChild(caption);
-    modalContent.appendChild(closeButton);
-    modalBackground.appendChild(modalContent);
-
-    modalBackground.onclick = function(event) {
-        if (event.target === modalBackground) {
-            document.body.removeChild(modalBackground);
-        }
-    };
-
-    document.body.appendChild(modalBackground);
-
+    // Update other page elements as needed, if applicable
+    // These are optional based on your existing createInfoModal function
+    document.getElementById('page-content')?.classList.add('blurred');
+    document.getElementById('footer-full')?.classList.add('blurred');
+    document.body.classList.add('modal-open');
 }
+
+
 
 function createInfoModal(infoText) {
     console.log("Modal Function called");
