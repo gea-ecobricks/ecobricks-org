@@ -152,7 +152,11 @@ function handleFormResponse(response) {
 
 // Updated function to handle upload success with multiple images
 function uploadSuccess(data) {
-    // Start the gallery HTML
+    // Start by constructing the heading and paragraph text
+    var successMessage = '<h1>Upload Successful!</h1>';
+    successMessage += '<p>Nice. Your project has now been added to the database.</p>';
+    
+    // Add the gallery HTML
     var galleryHTML = '<div id="three-column-gal" class="three-column-gal">';
 
     // Iterate over the thumbnail_paths and full_urls to build the gallery items
@@ -162,18 +166,15 @@ function uploadSuccess(data) {
 
         galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + data.full_urls[i] + '\', \'' + directoryPathText + '\')">';
         galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
-        galleryHTML += '<p class="form-caption">' + directoryPathText + '</p>';
+        galleryHTML += '<p>' + directoryPathText + '</p>';
         galleryHTML += '</div>';
     }
 
-    // Close the gallery HTML
+    // Close the gallery HTML and append it to the success message
     galleryHTML += '</div>';
+    successMessage += galleryHTML;
 
-    // Construct the success message
-     // Construct the success message
-     var successMessage = galleryHTML; // Add the gallery HTML above the success message
-    successMessage += '<h1>Upload Successful!</h1>';
-    successMessage += '<p>Nice. Your project has now been added to the database.</p>';
+    // Append the button at the end
     successMessage += '<a class="confirm-button" href="add-project.php">➕ Add Next Project</a>';
 
     // Display the upload-success div and populate with the success message

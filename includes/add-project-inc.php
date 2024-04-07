@@ -229,7 +229,8 @@ input[type="submit"]:hover {
   cursor: pointer;
   background: var(--emblem-green);
   font-size: 1.3em;
-  width: 100%;
+  margin: auto;
+  justify-content: center;
   text-align: center;
   text-decoration: none;
   margin-top: 10px;
