@@ -284,7 +284,7 @@ function uploadSuccess(data) {
 
 
    
-<a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data">Go Back to Re-enter Data</a>
+<p style="width:100%; text-align: center;">><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data">Go Back to Re-enter Data</a></p>
 
 
 </div> <!--closes main-->
