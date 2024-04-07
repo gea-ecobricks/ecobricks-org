@@ -32,10 +32,10 @@
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
-            <div class="form-item" style="background-color:#0003;border-radius:5px;padding:10px;">
+            <div class="form-item" style="background-color:background-color: #0003;border-radius:5px;padding:10px;">
                 <div>
                     <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px">Feature image:</label><br>
-                    <input type="file" id="photo1_main" name="photo1_main" style="background-color:var(--main-background); padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;" required>
+                    <input type="file" id="photo1_main" name="photo1_main" style="background-color:var(--form-background); padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;" required>
                     <p class="form-caption" data-lang-id="004-feature-desc" style="padding:10px">Please choose a featured photo for this project.  Required.</p>
                 </div>
 
@@ -162,7 +162,7 @@ function uploadSuccess(data) {
 
         galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + data.full_urls[i] + '\', \'' + directoryPathText + '\')">';
         galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
-        galleryHTML += '<p class="form-caption">' + directoryPathText + '</p>';
+        galleryHTML += '<p>' + directoryPathText + '</p>';
         galleryHTML += '</div>';
     }
 
