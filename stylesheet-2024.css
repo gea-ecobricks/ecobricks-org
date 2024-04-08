@@ -621,7 +621,7 @@ border-color: #00a112 !important;
 }
 
 .x-button:hover {
-  transform: rotate(45deg);
+  transform: rotate(90deg);
 }
 
 .modal-photo {
