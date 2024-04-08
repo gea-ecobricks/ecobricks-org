@@ -295,7 +295,9 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
     var img = document.createElement('img');
     img.src = imageUrl;
     img.alt = "Ecobrick " + brik_serial;
-    img.style.width = '100%'; // Adjust this as needed to fit your modal's design
+    img.style.maxWidth = '90%';
+    img.style.maxHeight = '80vh';
+    img.style.margin = 'auto';
     photoContainer.appendChild(img);
 
     // Add ecobrick details and view details button inside photo container
