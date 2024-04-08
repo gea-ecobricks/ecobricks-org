@@ -31,7 +31,7 @@
 		</div>
 		
 		<div class="splash-image">
-			<a href="ecobrick_full_photo_url"><img src="'. $array["ecobrick_full_photo_url"] .'"  alt="Ecobrick Serial '. $array["serial_no"] .' was made in '. $array["location_full"] .' and authenticated on ' . $array["last_validation_ts"] .'"
+			<a href="ecobrick_full_photo_url" onclick="viewGalleryImage(\''. $array["ecobrick_full_photo_url"] .\',\'Test\')"><img src="'. $array["ecobrick_full_photo_url"] .'"  alt="Ecobrick '. $array["serial_no"] .' was made in '. $array["location_full"] .' and authenticated on ' . $array["last_validation_ts"] .'"
 		title="Ecobrick Serial '. $array["serial_no"] .' was made in '. $array["location_full"] .' and authenticated on ' . $array["last_validation_ts"] .'"></a>
 		</div>	
 	</div>
