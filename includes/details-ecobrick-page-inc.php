@@ -100,6 +100,14 @@
 	}
 }
 
+.splash-image img {
+	border-width: 10px;
+	border-color: #97C4E3;
+	width: 85%;
+	margin-top:-20px;
+	box-shadow: 0 0px 10px rgba(85, 84, 84, 0.8);
+	border-style: solid;
+}
 
 #splash-bar {
     background-color: #2A91DA;

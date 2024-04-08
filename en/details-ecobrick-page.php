@@ -31,13 +31,8 @@
 		</div>
 		
 		<div class="splash-image">
-			<a href="ecobrick_full_photo_url"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
-		border-color: #97C4E3;
-		width: 85%;
-		margin-top:-20px;
-		box-shadow: 0 0px 10px rgba(85, 84, 84, 0.8);
-		border-style: solid;" alt="Ecobrick Serial '. $array["serial_no"] .' was made in '. $array["location_full"] .' and authenticated on ' . $array["last_validation_ts"] .'"
-		title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>
+			<a href="ecobrick_full_photo_url"><img src="'. $array["ecobrick_full_photo_url"] .'"  alt="Ecobrick Serial '. $array["serial_no"] .' was made in '. $array["location_full"] .' and authenticated on ' . $array["last_validation_ts"] .'"
+		title="Ecobrick Serial '. $array["serial_no"] .' was made in '. $array["location_full"] .' and authenticated on ' . $array["last_validation_ts"] .'"></a>
 		</div>	
 	</div>
 
