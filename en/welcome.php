@@ -261,24 +261,57 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
-   function ecobrickPreview(brik_serial, weight, owner, location) {
-        // Construct the image source URL
-        var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
+//    function ecobrickPreview(brik_serial, weight, owner, location) {
+//         // Construct the image source URL
+//         var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
         
-        // Open a modal with the ecobrick image and link to details-ecobrick-page
-        var modal = document.createElement('div');
-        modal.className = 'ecobrick-modal';
-        modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-                          '<img src="' + imageUrl + '" alt="Ecobrick ' + brik_serial + '" />' +
-                          '<div class="ecobrick-details">' +
-                          '   <p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
-                          '</div>' +
-                          '<a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-ecobrick-page.php?serial_no=' + brik_serial + '">ℹ️ View Full Details</a>';
+//         // Open a modal with the ecobrick image and link to details-ecobrick-page
+//         var modal = document.createElement('div');
+//         modal.className = 'ecobrick-modal';
+//         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
+//                           '<img src="' + imageUrl + '" alt="Ecobrick ' + brik_serial + '" />' +
+//                           '<div class="ecobrick-details">' +
+//                           '   <p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
+//                           '</div>' +
+//                           '<a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-ecobrick-page.php?serial_no=' + brik_serial + '">ℹ️ View Full Details</a>';
         
-        // Append the modal to the body
-        document.body.appendChild(modal);
-    }
+//         // Append the modal to the body
+//         document.body.appendChild(modal);
+//     }
 
+
+function ecobrickPreview(brik_serial, weight, owner, location) {
+    // Construct the image source URL
+    var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
+
+    // Fetch the existing modal elements
+    var modal = document.getElementById('form-modal-message');
+    var photoContainer = modal.querySelector('.modal-photo');
+
+    // Clear any existing content in the photo container
+    photoContainer.innerHTML = '';
+
+    // Create and append the ecobrick image to the photo container
+    var img = document.createElement('img');
+    img.src = imageUrl;
+    img.alt = "Ecobrick " + brik_serial;
+    img.style.width = '100%'; // Adjust this as needed to fit your modal's design
+    photoContainer.appendChild(img);
+
+    // Add ecobrick details and view details button inside photo container
+    var details = document.createElement('div');
+    details.className = 'ecobrick-details';
+    details.innerHTML = '<p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
+                        '<a href="details-ecobrick-page.php?serial_no=' + brik_serial + '" class="btn featured-gallery-button" style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;">ℹ️ View Full Details</a>';
+    photoContainer.appendChild(details);
+
+    // Hide other parts of the modal that are not used for this preview
+    modal.querySelector('.modal-content-box').style.display = 'none'; // Assuming this contains elements not needed for this preview
+
+    // Show the modal
+    modal.style.display = 'flex';
+
+}
 
 
    function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {

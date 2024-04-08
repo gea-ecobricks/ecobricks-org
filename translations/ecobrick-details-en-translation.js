@@ -70,7 +70,7 @@ const en_Page_Translations = {
 '158': 'The live chain of transactions and ecobricks.',
 '104-side-authenticated-text': 'Authenticated!',
 '105-side-authenticated-text': 'This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.',
-'106-side-authenticated-button': 'Ecobrick Standards'
+'106-side-authenticated-button': 'GEA Standards'
 
      
 }
