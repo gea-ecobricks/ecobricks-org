@@ -313,7 +313,15 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
     // Show the modal
     modal.style.display = 'flex';
 
+    //Blur out background
+    document.getElementById('page-content')?.classList.add('blurred');
+    document.getElementById('footer-full')?.classList.add('blurred');
+    document.body.classList.add('modal-open');
+
 }
+
+
+
 
 function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
     // Construct the image source URL
@@ -349,7 +357,10 @@ function projectPreview(project_id, name, description, location_full, ecobricks_
     // Hide other parts of the modal not used for this preview
     modal.querySelector('.modal-content-box').style.display = 'none';
 
-    // Ensure closeEcobrickModal() or a similar function is implemented to close and reset the modal appropriately
+   //Blur out background
+   document.getElementById('page-content')?.classList.add('blurred');
+    document.getElementById('footer-full')?.classList.add('blurred');
+    document.body.classList.add('modal-open');
 }
 
 
