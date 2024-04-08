@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='3.1';?>
+<?php $version='3.11';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -301,8 +301,11 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
     img.src = imageUrl;
     img.alt = "Ecobrick " + brik_serial;
     img.style.maxWidth = '90%';
-    img.style.maxHeight = '80vh';
+    img.style.maxHeight = '75vh';
+    img.style.minHeight ="400px";
+    img.style.minWidth ="400px";
     img.style.margin = 'auto';
+    img.style.backgroundColor ='grey';
     photoContainer.appendChild(img);
 
     // Add ecobrick details and view details button inside photo container
