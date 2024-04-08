@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='3.01';?>
+<?php $version='3.02';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -315,22 +315,61 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
 
 }
 
+function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
+    // Construct the image source URL
+    var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
 
-   function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
-        // Construct the image source URL
-        var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
+    // Fetch the existing modal elements
+    var modal = document.getElementById('form-modal-message');
+    var photoContainer = modal.querySelector('.modal-photo');
+
+    // Clear any existing content in the photo container
+    photoContainer.innerHTML = '';
+
+    // Create and append the project image to the photo container with specified styling
+    const img = document.createElement('img');
+    img.src = imageUrl;
+    img.alt = "Ecobrick Project: " + name;
+    img.title = "Project " + project_id + ": " + name;
+    img.style.maxWidth = '90%';
+    img.style.maxHeight = '80vh';
+    img.style.margin = 'auto';
+    photoContainer.appendChild(img);
+
+    // Add project details inside photo container
+    var details = document.createElement('div');
+    details.className = 'ecobrick-details';
+    details.style.margin = '20px 10% auto 10%'; // Adjust the margin as per your design
+    details.innerHTML = `<p>${description} | Ecobricks used: ${ecobricks_used} | Project completed: ${start} | ${location_full}</p>`;
+    photoContainer.appendChild(details);
+
+    // Show the modal
+    modal.style.display = 'flex';
+
+    // Hide other parts of the modal not used for this preview
+    modal.querySelector('.modal-content-box').style.display = 'none';
+
+    // Ensure closeEcobrickModal() or a similar function is implemented to close and reset the modal appropriately
+}
+
+
+
+
+//    function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
+//         // Construct the image source URL
+//         var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
         
-        // Open a modal with the ecobrick image and link to details-ecobrick-page
-        var modal = document.createElement('div');
-        modal.className = 'ecobrick-modal';
-        modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-                          '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
-                          '<div class="ecobrick-details" style="margin: 20px 10% auto 10%;">' +
-                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div>';
+//         // Open a modal with the ecobrick image and link to details-ecobrick-page
+//         var modal = document.createElement('div');
+//         modal.className = 'ecobrick-modal';
+//         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
+//                           '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
+//                           '<div class="ecobrick-details" style="margin: 20px 10% auto 10%;">' +
+//                           '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div>';
         
-        // Append the modal to the body
-        document.body.appendChild(modal);
-    }
+//         // Append the modal to the body
+//         document.body.appendChild(modal);
+//     }
 
 
     //WITH BUTTON
