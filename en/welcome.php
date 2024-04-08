@@ -305,7 +305,7 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
     img.style.minHeight ="400px";
     img.style.minWidth ="400px";
     img.style.margin = 'auto';
-    img.style.backgroundColor ='#8080802e';
+    // img.style.backgroundColor ='#8080802e';
     photoContainer.appendChild(img);
 
     // Add ecobrick details and view details button inside photo container
@@ -351,7 +351,7 @@ function projectPreview(project_id, name, description, location_full, ecobricks_
     img.style.maxHeight = '80vh';
     img.style.minHeight ="400px";
     img.style.minWidth ="400px";
-    img.style.backgroundColor ='#8080802e';
+    // img.style.backgroundColor ='#8080802e';
     img.style.margin = 'auto';
     photoContainer.appendChild(img);
 

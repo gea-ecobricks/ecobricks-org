@@ -26,8 +26,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.4771888"
-     inkscape:cx="158.74748"
-     inkscape:cy="63.295902"
+     inkscape:cx="174.99455"
+     inkscape:cy="202.74998"
      inkscape:window-width="1503"
      inkscape:window-height="933"
      inkscape:window-x="0"
@@ -36,14 +36,19 @@
      inkscape:current-layer="layer1"
      showguides="true">
     <sodipodi:guide
-       position="43.445964,35.842596"
+       position="32.736353,54.294467"
        orientation="1,0"
        id="guide1"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="51.773323,54.112123"
+       position="87.566543,61.615001"
        orientation="1,0"
        id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="39.76303,32.595237"
+       orientation="0,-1"
+       id="guide3"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <g
@@ -55,14 +60,14 @@
        fill="none"
        stop-color="#000000" />
     <circle
-       style="opacity:0.1;fill:#ffffff;stroke:none;stroke-width:6.54864"
+       style="opacity:0.1;fill:#e6e6e6;stroke:none;stroke-width:6.54864"
        id="path1"
        cx="192.92068"
        cy="-89.780861"
        r="32.50732" />
     <g
        id="g14-2"
-       transform="matrix(-0.44505225,-0.05626571,-0.05626571,0.44505225,399.06076,-37.074603)"
+       transform="matrix(-0.44505225,-0.05626571,-0.05626571,0.44505225,370.89528,20.054664)"
        fill="#999"
        stroke="#ffffff"
        style="fill:#cccccc">
@@ -83,7 +88,7 @@
     </g>
     <g
        id="g4"
-       transform="matrix(0.44505225,-0.05626571,0.05626571,0.44505225,-13.402981,-37.11121)"
+       transform="matrix(0.44505225,-0.05626571,0.05626571,0.44505225,-41.568459,20.018057)"
        fill="#999"
        stroke="#ffffff"
        style="fill:#cccccc">
@@ -101,6 +106,23 @@
            stroke-width="206.64"
            style="fill:#cccccc;paint-order:markers stroke fill" />
       </g>
+    </g>
+    <g
+       id="g120457"
+       transform="matrix(0.49004797,-0.53315352,0.53315352,0.49004797,94.94287,-108.23226)"
+       fill="#f2f2f2"
+       stroke="#333333"
+       stroke-linecap="round"
+       stroke-width="5.1701"
+       style="fill:#b3b3b3;stroke:#cccccc">
+      <path
+         id="path120443"
+         d="m 40.19,115.8 65.027,2.3227"
+         style="fill:#b3b3b3;stroke:#cccccc" />
+      <path
+         id="path1407"
+         d="M 71.127,149.46 74.2815,84.468"
+         style="fill:#b3b3b3;stroke:#cccccc" />
     </g>
   </g>
   <g

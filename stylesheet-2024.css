@@ -638,6 +638,7 @@ border-color: #00a112 !important;
   color: var(--text-color);
   width: 80%;
   margin: auto;
+  text-decoration: none;
 }
 
 
