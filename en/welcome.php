@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='3.02';?>
+<?php $version='3.1';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -284,11 +284,16 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
     // Construct the image source URL
     var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
 
-    // Fetch the existing modal elements
-    var modal = document.getElementById('form-modal-message');
-    var photoContainer = modal.querySelector('.modal-photo');
+    const modal = document.getElementById('form-modal-message');
+    const contentBox = modal.querySelector('.modal-content-box'); // This is the part we want to hide
+    const photoBox = modal.querySelector('.modal-photo-box'); // This is where we'll show the image
+    const photoContainer = modal.querySelector('.modal-photo'); // The container for the image
 
-    // Clear any existing content in the photo container
+    // Hide the content box and show the photo box
+    contentBox.style.display = 'none'; // Hide the content box
+    photoBox.style.display = 'block'; // Make sure the photo box is visible
+
+    // Clear previous images from the photo container
     photoContainer.innerHTML = '';
 
     // Create and append the ecobrick image to the photo container
