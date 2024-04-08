@@ -232,6 +232,27 @@ function goBack() {
 }
 
 
+
+
+document.querySelectorAll('.x-button').forEach(button => {
+    button.addEventListener('transitionend', (e) => {
+        // Ensure the transitioned property is the transform to avoid catching other transitions
+        if (e.propertyName === 'transform') {
+            // Check if the button is still being hovered over
+            if (button.matches(':hover')) {
+                button.style.backgroundImage = "url('svgs/x-button-night-over.svg?v=3')";
+            }
+        }
+    });
+
+    // Optionally, revert to the original background image when not hovering anymore
+    button.addEventListener('mouseleave', () => {
+        button.style.backgroundImage = "url('svgs/x-button-night.svg?v=3')";
+    });
+});
+
+
+
 /*
 
 

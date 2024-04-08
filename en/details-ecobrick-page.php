@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.05';?>
+<?php $version='2.06';?>
 <?php $page='ecobrick-details';?>
  
 <?php 
