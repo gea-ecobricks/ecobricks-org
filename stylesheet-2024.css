@@ -633,6 +633,13 @@ border-color: #00a112 !important;
   
 }
 
+.featured-gallery-button {
+  font-family: 'Mulish', sans-serif;
+  color: var(--text-color);
+  width: 80%;
+  margin: auto;
+}
+
 
 
 .menu-page-item {
