@@ -270,14 +270,14 @@
 
 
 .x-button {
-  background: url('svgs/x-button-day.svg?v=3') no-repeat center;
+  background: url('svgs/x-button-day.svg?v=4') no-repeat center;
   background-size: contain;
 
 }
 
 
 .x-button:hover {
-  background: url('svgs/x-button-day-over.svg?v=3s') no-repeat center;
+  background: url('svgs/x-button-day-over.svg?v=4') no-repeat center;
   background-size: contain;
 
 }
