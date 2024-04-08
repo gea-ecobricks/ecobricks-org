@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.04';?>
+<?php $version='2.05';?>
 <?php $page='ecobrick-details';?>
  
 <?php 
@@ -145,7 +145,7 @@ echo '
 					<img src="../pngs/authenticated-ecobrick.png" width="90%" alt="Following the Earths example through eco bricking">
 					<br><h4 data-lang-id="104-side-authenticated-text">Authenticated!</h4>
 					<h5 data-lang-id="105-side-authenticated-text">This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</h5><br>
-					<a class="module-btn" href="about.php" data-lang-id="106-side-authenticated-button">Ecobrick Standards</a>
+					<a class="module-btn" href="about.php" data-lang-id="106-side-authenticated-button">GEA Standards</a>
 					<br><br>
 				</div>   ';
 

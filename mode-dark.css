@@ -325,16 +325,15 @@
 
 
 .x-button {
-  background: url('svgs/x-button-night.svg') no-repeat center;
+  background: url('svgs/x-button-night.svg?v=2') no-repeat center;
   background-size: contain;
 
 }
 
 
 .x-button:hover {
-  background: url('svgs/x-button-night-over.svg') no-repeat center;
+  background: url('svgs/x-button-night-over.svg?v=2') no-repeat center;
   background-size: contain;
-
 }
 
 

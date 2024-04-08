@@ -605,14 +605,14 @@ border-color: #00a112 !important;
 .x-button {
 
   position: absolute;
-  transition: .3s;
+  transition: .5s;
   left: 0;
   top: 0;
-  margin-left: 8%;
+  margin-right: 8%;
   margin-top: 30px;
   border:none;
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   border-radius: 40px;
   justify-content: center;
   display: flex;
