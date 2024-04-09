@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
+<?php $lang='fr';?>
 <?php $version='1.974';?>
 <?php $page='submit-project';?>
 
