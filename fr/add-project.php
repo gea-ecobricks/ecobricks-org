@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.978';?>
+<?php $version='1.9777';?>
 <?php $page='add-project';?>
 
 
@@ -22,10 +22,10 @@
 
  <!-- PAGE CONTENT-->
 
- <div id="form-submission-box" style="margin-top: 100px">
+ <div id="form-submission-box">
     <div class="form-container">
         <div class="step-graphic" style="width:fit-content;margin:auto;">
-            <img src="../svgs/step1-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 1: Enter data">>
+            <img src="../svgs/step1-log-project.svg" style="height:25px;">
         </div>
 
         <div class="splash-form-content-block">  
@@ -78,7 +78,7 @@
         <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
         <select id="project_type" name="project_type" aria-label="Project Type" required>
             <option value="" disabled="" selected="" data-lang-id="011-select">Select project type...  </option>
-            <option value="single module" data-lang-id="011-single-module">A Module</option>
+            <option value="single module" data-lang-id="011-single-module">Single Module</option>
             <option value="furniture" data-lang-id="011-modular-furniture">Furniture</option>
             <option value="garden" data-lang-id="011-outdoor-garden">Outdoor Garden</option>
             <option value="structure" data-lang-id="011-structure">Structure</option>
@@ -118,7 +118,9 @@
     <input type="hidden" id="lat" name="latitude">
     <input type="hidden" id="lon" name="longitude">
     
-    <input type="submit" value="Next ➡️" aria-label="Submit Form" data-lang-id="017-submit-button">
+    <div data-lang-id="017-submit-button">
+        <input type="submit" value="Next: Upload Photos ➡️" aria-label="Submit Form">
+    </div>
 
 </form>
 
