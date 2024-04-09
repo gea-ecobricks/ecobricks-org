@@ -1,4 +1,3 @@
-<?php require_once ("../add_project_images.php");?>
 
 
 <!DOCTYPE html>
