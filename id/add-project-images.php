@@ -241,6 +241,9 @@ function uploadSuccess(data) {
 
     // Hide the form after upload success
     document.getElementById('upload-photo-form').style.display = 'none';
+
+        // Scroll to the top of the page
+        window.scrollTo(0, 0);
 }
 
 
