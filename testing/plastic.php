@@ -95,6 +95,18 @@
 
 			<p data-lang-id="007-page-paragraph">As humans extracted and refined more and more raw fossil fuels, there was always that little bit that couldn’t be processed.  This lead to  more and more cheap and abundant plastic.  And as petro-capital economies grew, so too did the use and application of plastic to cover and package products.</p>
 
+			<p data-lang-id="007-page-paragraph">Soon plastic was everywhere!</p>
+
+			<p data-lang-id="007-page-paragraph">As plastic was bought, used and thrown away, the dynamic of carbon decompaction continued.  With surfaces areas often thousands of times expanded from the orginal compacted carbon, the plastics were easily degraded by the elements.  Soon microplastics could be found everywhere in the ocean, earth and air.</p>
+
+			<p data-lang-id="007-page-paragraph">The more petro-capital economies grew, the more industry produced, the more it burned the more plastic was made. This made cheap plastic so abundant that it began to spill out into the biosphere. Humans tried their best to their plastic by putting it back into Industry. But the petro-economy already had so much cheap new plastic, that there was no-profit in recycling the old, and it was easier to burn it, dump it or send it somewhere else.</p>
+
+			<p data-lang-id="007-page-paragraph">Soon humans came to see that industrial recycling wasn’t working. It became clear that dumpling, burning and exporting created more problems than they solved. In order for the petro-capital economy to continue growing, industry tried harder to convince itself and humans there was a solution just around the corner.</p>
+
+			<p data-lang-id="007-page-paragraph">Yet, after turning many corner, there was still no solution. Meanwhile, there as so much burning, dumping, so much Co2 and so much plastic, that everyone knew that there was a problem with an economy and lifestyle that had to be powered by ‘fossil fuels’.</p>
+
+			<p data-lang-id="007-page-paragraph">It became clear to the humans in these petro-capital economies that that they had much to learn from the planet’s way of relentlessly enriching the biosphere. Looking at indigenous peoples who had lived for centuries in ecological harmony with their surroundings, it was clear that they had much to learn from them also…</p>
+				
 			<div class="full-image" data-lang-id="008-image" style="width:100%; padding:15px; margin-top:10px;margin-bottom:10px;">
                             <img src="../pngs/plastic-history.png"  alt="The primordial concentration of carbon into sequestered deposits." style="width:100%;">
                         </div>
