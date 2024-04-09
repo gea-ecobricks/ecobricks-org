@@ -21,7 +21,7 @@ const es_Page_Translations = {
   "011-project-type": "¿Qué tipo de proyecto es este?",
   "011-select": "Selecciona el tipo de proyecto...  ",
   "011-single-module": "Módulo Único",
-  "011-modular-furniture": "Muebles Modulares",
+  "011-modular-furniture": "Muebles",
   "011-outdoor-garden": "Jardín Exterior",
   "011-structure": "Estructura",
   "011-other": "Otro",

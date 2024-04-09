@@ -21,7 +21,7 @@ const id_Page_Translations = {
   "011-project-type": "Apa jenis proyek ini?",
   "011-select": "Pilih jenis proyek...  ",
   "011-single-module": "Modul Tunggal",
-  "011-modular-furniture": "Furnitur Modular",
+  "011-modular-furniture": "Furnitur",
   "011-outdoor-garden": "Taman Luar Ruangan",
   "011-structure": "Struktur",
   "011-other": "Lainnya",
