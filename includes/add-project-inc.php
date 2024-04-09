@@ -180,6 +180,7 @@ input[type="submit"]:hover {
   margin: 0 auto;
   max-width: 1000px;
   z-index: 20;
+  font-family: "Mulish", sans-serif;
 
 }
 

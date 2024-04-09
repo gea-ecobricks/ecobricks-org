@@ -23,7 +23,7 @@
  <!-- PAGE CONTENT--> 
 
 
- <div id="form-submission-box" style="margin-top: 140px;display:flex;flex-flow:column;">
+ <div id="photos-submission-box" style="margin-top: 140px;display:flex;flex-flow:column;">
 
  
     
