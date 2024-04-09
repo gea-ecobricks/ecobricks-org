@@ -5,12 +5,11 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='2.11';?>
+<?php $version='2.12';?>
 <?php $page='add-project-images';?>
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
-
 
 <div class="splash-content-block"></div>
 <div id="splash-bar"></div>
@@ -30,7 +29,7 @@
         <br><hr>
         <br>
         
-        <form id="photoform" action="../add_project_images.php" method="post" enctype="multipart/form-data">
+        <form id="photoform" action="add_project_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
       <!-- Photo 1 Main & Thumbnail -->
 <div class="form-item">
