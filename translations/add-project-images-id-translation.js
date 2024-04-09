@@ -21,7 +21,7 @@ const id_Page_Translations = {
     "011-another-photo": "Pilih foto lain:",
     "012-another-photo-optional": "Opsional",
     "013-submit-upload-button": '<input type="submit" value="⬆️ Unggah Gambar " id="upload-progress-button" aria-label="Kirim foto untuk diunggah">',
-    "014-go-back-link": "↩ Kembali ke Langkah 1",
+    "014-go-back-link": '<a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Kembali" >↩ Kembali ke Langkah 1</a>',
 
 };
 

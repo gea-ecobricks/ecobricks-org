@@ -85,7 +85,7 @@
 </div>
 
   
-<p style="width:100%; text-align: center;"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" data-lang-id="014-go-back-link">↩ Back to Step 1</a></p>
+<p style="width:100%; text-align: center;" data-lang-id="014-go-back-link"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" >↩ Back to Step 1</a></p>
 <br><br>test
 
 
