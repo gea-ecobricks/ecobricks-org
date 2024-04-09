@@ -102,7 +102,7 @@
     <div class="form-item">
         <label for="project_admins" data-lang-id="014-project-admins">Who's project is this?</label><br>
         <input type="text" id="project_admins" name="project_admins" aria-label="Project Admins (optional)">
-        <p class="form-caption" data-lang-id="014b-optional">Provide the name(s) of the project principals. Optional</p>
+        <p class="form-caption" data-lang-id="014b-optional">Provide the name(s) of the project's principals. Optional</p>
     </div>
 
     <div class="form-item">
@@ -113,7 +113,8 @@
     <input type="hidden" id="lat" name="latitude">
     <input type="hidden" id="lon" name="longitude">
     
-    <input type="submit" value="Next ➡️" aria-label="Submit Form" data-lang-id="017-submit-button">Test</input>
+    <input type="submit" value="Next ➡️" aria-label="Submit Form" data-lang-id="017-submit-button">
+    
 </form>
 
 

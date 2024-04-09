@@ -15,9 +15,9 @@
         height: 20vh !important;
 	}
 
-  .splash-image {width:100%;}
+  .splash-image {display: none !important;}
 
-  .splash-image img  {height: 200px;}
+  /* .splash-image img  {height: 200px;} */
 }
 
 
