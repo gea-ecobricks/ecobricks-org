@@ -226,7 +226,7 @@ input[type="submit"]:hover {
     margin-top: auto;
     margin-bottom: auto;
     padding: 30px;
-    margin-top: 60px;
+    margin-top: 100px;
 
   }
 }
