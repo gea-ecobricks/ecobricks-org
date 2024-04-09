@@ -2,7 +2,7 @@
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-include 'ecobricks_env.php';
+include '../ecobricks_env.php';
 
 $error_message = '';
 $full_urls = []; // Initialize array to store main image URLs
@@ -11,8 +11,8 @@ $thumbnail_paths = []; // Initialize array to store thumbnail URLs
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['project_id'])) {
         $project_id = $_POST['project_id'];
-        $upload_dir = 'projects/featured/';
-        $thumbnail_dir = 'projects/featured_tmbs/';
+        $upload_dir = '../projects/featured/';
+        $thumbnail_dir = '../projects/featured_tmbs/';
 
         $db_fields = []; // For storing database field names
         $db_values = []; // For storing corresponding values
