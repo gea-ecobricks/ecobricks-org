@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.975';?>
+<?php $version='1.976';?>
 <?php $page='add-project';?>
 
 
@@ -122,8 +122,17 @@
 
 
     </div>
+    test1
 </div>
 
+
+
+<br><br>test2
+</div> <!--closes main-->
+       
+	<!--FOOTER STARTS HERE-->
+
+	<?php require_once ("../footer-2024.php");?>
 
 
 
@@ -167,14 +176,6 @@ $(function() {
 </script>
 
 
-
-
-<br><br>
-</div> <!--closes main-->
-       
-	<!--FOOTER STARTS HERE-->
-
-	<?php require_once ("../footer-2024.php");?>
 
 </div>
 
