@@ -39,7 +39,7 @@
         <br><hr>
         <br>
         
-        <form id="photoform" action="" method="post" enctype="multipart/form-data">
+        <form id="photoform" action="../add_project_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
       <!-- Photo 1 Main & Thumbnail -->
 <div class="form-item">
@@ -259,8 +259,10 @@ function uploadSuccess(data) {
     function showFormModal(message) {
         var modal = document.getElementById('form-modal-message');
         var modalMessage = modal.querySelector('.modal-message');
+        var modalPhoto = modal.querySelector('.modal-photo-box');
         modalMessage.innerHTML = message;
         modal.style.display = 'flex';
+        modalPhoto.style.display = 'none';
 
         // Add blur effect and hide overflow on page-content and footer-full
         document.getElementById('page-content').classList.add('blurred');
