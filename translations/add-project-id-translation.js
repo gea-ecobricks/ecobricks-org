@@ -6,6 +6,7 @@ Indonesian SNIPPETS FOR add-projectphp page on ECOBRICKS.ORG
 -----------------------------------*/
 
 const id_Page_Translations = {
+  
     "001-splash-title": "Pasang sebuah Proyek",
     "003-splash-image-alt": `<img src="../svgs/building-methods.svg" style="width:65%" alt="Ada banyak cara untuk membangun dengan ecobrick">`,
     "002-form-description": `Bagikan proyek ecobrick Anda dengan dunia. Gunakan formulir ini untuk memposting proyek ecobrick Anda yang telah selesai ke ecobricks.org. Proyek akan ditampilkan di halaman utama kami dan diarsipkan dalam database kami."`,

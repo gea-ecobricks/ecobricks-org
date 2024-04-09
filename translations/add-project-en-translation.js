@@ -7,6 +7,7 @@ English SNIPPETS FOR add-projectphp page on ECOBRICKS.ORG
 
 
 const en_Page_Translations = {
+  
     "001-splash-title": "Post a Project",
     "003-splash-image-alt": `<img src="../svgs/building-methods.svg" style="width:65%" alt="There are many ways to build with ecobricks">`,
     "002-form-description": `Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."`,

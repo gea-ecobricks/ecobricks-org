@@ -6,6 +6,7 @@ Spanish SNIPPETS FOR add-projectphp page on ECOBRICKS.ORG
 -----------------------------------*/
 
 const es_Page_Translations = {
+  
     "001-splash-title": "Publicar un Proyecto",
     "003-splash-image-alt": `<img src="../svgs/building-methods.svg" style="width:65%" alt="Hay muchas maneras de construir con ecoladrillos">`,
     "002-form-description": `Comparte tu proyecto de ecoladrillo con el mundo. Usa este formulario para publicar tu proyecto de ecoladrillos completado en ecobricks.org. Los proyectos se destacarán en nuestra página principal y se archivarán en nuestra base de datos."`,

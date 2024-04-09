@@ -7,6 +7,7 @@ French SNIPPETS FOR add-projectphp page on ECOBRICKS.ORG
 
 
 const fr_Page_Translations = {
+  
     "001-splash-title": "Publier un Projet",
     "003-splash-image-alt": `<img src="../svgs/building-methods.svg" style="width:65%" alt="Il y a de nombreuses manières de construire avec des écobriques">`,
     "002-form-description": `Partagez votre projet d'écobrique avec le monde. Utilisez ce formulaire pour publier votre projet d'écobriques terminé sur ecobricks.org. Les projets seront mis en avant sur notre page principale et archivés dans notre base de données."`,

@@ -3,8 +3,8 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.974';?>
-<?php $page='submit-project';?>
+<?php $version='1.975';?>
+<?php $page='add-project';?>
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
@@ -43,7 +43,7 @@
                -->
                <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
          
-            <form id="submit-form" method="post" action="submit_project.php" enctype="multipart/form-data">
+            <form id="submit-form" method="post" action="add_project.php" enctype="multipart/form-data">
     <div class="form-item" style="margin-top: 25px;">
         <label for="name" data-lang-id="003-project-name">Project Name:</label><br>
         <input type="text" id="name" name="name" aria-label="Project Name" title="Required. Max 255 characters." required>
