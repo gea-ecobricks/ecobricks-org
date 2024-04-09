@@ -23,7 +23,7 @@
  <!-- PAGE CONTENT--> 
 
 
- <div id="photos-submission-box" style="margin-top: 50px;display:flex;flex-flow:column;">
+ <div id="photos-submission-box" style="margin-top: 60px;display:flex;flex-flow:column;">
 
  
     
@@ -32,7 +32,7 @@
         <div class="step-graphic" style="width:fit-content;margin:auto;">
             <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:30px;" alt="Step 2: Upload images">
         </div>
-        <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
+        <div class="splash-heading">Now Upload Your Images</div>
         <p data-lang-id="002-form-description">Show the world your project!  Upload one to five images showing your construction from different angles or times.</p>
         <br><hr>
         <br>
