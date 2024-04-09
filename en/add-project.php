@@ -56,28 +56,28 @@
     <div class="form-item">
         <label for="briks_used" data-lang-id="009-bricks-used">Bricks Used:</label><br>
         <input type="number" id="briks_used" name="briks_used" aria-label="Bricks Used" title="Maximum value allowed" required>
-        <p class="form-caption" data-lang-id="010-bricks-used-caption">How many briks did the project use?</p>
+        <p class="form-caption" data-lang-id="010-bricks-used-caption">How many briks did the project use?  Enter a number between 1-5000.</p>
     </div>
 
     <div class="form-item">
         <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
         <select id="project_type" name="project_type" aria-label="Project Type" required>
-            <option value="module">Module</option>
-            <option value="furniture">Furniture</option>
-            <option value="garden">Garden</option>
-            <option value="structure">Structure</option>
-            <option value="other">Other</option>
+            <option value="single module" data-lang-id="011-single-module">Single Module</option>
+            <option value="modular furniture" data-lang-id="011-modular-furniture">Modular Furniture</option>
+            <option value="garden" data-lang-id="011-outdoor-garden">Outdoor Garden</option>
+            <option value="structure" data-lang-id="011-structure">Structure</option>
+            <option value="other" data-lang-id="011-other">Other</option>
         </select>
     </div>
     
     <div class="form-item">
         <label for="construction_type" data-lang-id="012-construction-type">What type of construction is this?</label><br>
         <select id="construction_type" name="construction_type" aria-label="Construction Type" required>
-            <option value="silicone">Silicone</option>
-            <option value="banding">Banding</option>
-            <option value="ecojoiner">Ecojoiner</option>
-            <option value="earth/cob">Earth/Cob</option>
-            <option value="other">Other</option>
+            <option value="silicone" data-lang-id="012-construction-silicone" >Silicone</option>
+            <option value="banding" data-lang-id="012-construction-tire-banding">Tire Banding</option>
+            <option value="ecojoiner" data-lang-id="012-construction-ecojoiner">Ecojoiner</option>
+            <option value="earth/cob" data-lang-id="012-construction-earth">Earth/Cob</option>
+            <option value="other" data-lang-id="012-other">Other</option>
         </select>
     </div>
     
@@ -90,18 +90,18 @@
     <div class="form-item">
         <label for="project_admins" data-lang-id="014-project-admins">Who's project is this?</label><br>
         <input type="text" id="project_admins" name="project_admins" aria-label="Project Admins (optional)">
-        <p class="form-caption" data-lang-id="013b-optional">Optional</p>
+        <p class="form-caption" data-lang-id="014b-optional">Provide the name(s) of the project principals. Optional</p>
     </div>
 
     <div class="form-item">
-        <label for="location_full" data-lang-id="015-location">What is the location of your project?</label><br>
+        <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
         <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Enter project's general location..." required>
         <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
     </div>
     <input type="hidden" id="lat" name="latitude">
     <input type="hidden" id="lon" name="longitude">
     
-    <input type="submit" value="Next ➡️" aria-label="Submit Form" data-lang-id="017-submit-button">
+    <input type="submit" value="Next ➡️" aria-label="Submit Form" data-lang-id="017-submit-button">Test</input>
 </form>
 
 
