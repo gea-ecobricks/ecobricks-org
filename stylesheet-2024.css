@@ -1435,13 +1435,14 @@ body.modal-open {
 .browser-back-text-button {
   display: inline-block; /* Allows for text alignment and width/height properties */
   text-align: center;
-  text-decoration: none; /* Removes underline */
+  text-decoration: underline; /* Removes underline */
   cursor: pointer; /* Changes cursor to indicate clickable */
   color: inherit; /* Inherits text color from parent, or specify your own */
   margin-top: 30px;
   margin-bottom: 20px;
+  font-size: 1.1em;
 }
 
 .browser-back-text-button:hover {
-  text-decoration: underline; /* Adds underline on hover */
+  text-decoration: none; /* Adds underline on hover */
 }
