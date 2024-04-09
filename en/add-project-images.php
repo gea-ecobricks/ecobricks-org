@@ -41,10 +41,10 @@
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
     <!-- Photo 1 Main & Thumbnail -->
-<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0002;">
+<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#00000015;">
     <div>
         <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px;">Feature image:</label><br>
-        <input type="file" id="photo1_main" name="photo1_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff0d;margin-top:10px;" required>
+        <input type="file" id="photo1_main" name="photo1_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff35;margin-top:10px;" required>
         <p class="form-caption" data-lang-id="004-feature-desc" style="padding:10px">Please choose a featured photo for this project. Required.</p>
     </div>
 </div>
@@ -98,7 +98,7 @@
 <p style="width:100%; text-align: center;"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" data-lang-id="014-go-back-link">↩ Back to Step 1</a></p>
 <br><br>
 
-</div> <!--closes main-->
+
        
 	<!--FOOTER STARTS HERE-->
 
