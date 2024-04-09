@@ -19,7 +19,7 @@ const en_Page_Translations = {
     "010-another-photo-optional": "Optional",
     "011-another-photo": "Choose another photo:",
     "012-another-photo-optional": "Optional",
-    "013-submit-upload-button": "⬆️ Upload Images",
+    "013-submit-upload-button": '<input type="submit" value="⬆️ Upload Images " id="upload-progress-button" aria-lable="Submit photos for upload">',
     "014-go-back-link": "↩ Back to Step 1"
 };
         
