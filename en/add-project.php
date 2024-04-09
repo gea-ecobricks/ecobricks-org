@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.95';?>
+<?php $version='1.96';?>
 <?php $page='submit-project';?>
 
 
@@ -28,7 +28,7 @@
             <img src="../svgs/step1-log-project.svg">
         </div>
 
-        <div class="">  
+        <div class="splash-form-content-block">  
             <div class="splash-box">
         
                 <div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>

@@ -238,6 +238,24 @@ SPLASH TOP
       display: flex;
       flex-flow: column;
   }
+
+  .splash-form-content-block {
+		text-align: left;
+		height: 73vh;
+		padding: 50px 5% 25px 5%;
+		margin-bottom: 0px;
+		z-index: 5;
+    background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: 45px;
+		width: 100%;
+		display: flex;
+ 		box-sizing: border-box;
+		flex-direction: column;
+	position: relative;
+
+	}
+
 }
 
 
@@ -248,17 +266,15 @@ SPLASH TOP
 		padding: 100px 7% 0px 7%;
 		z-index: 5;
 		position: relative;
-       
-    	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 		margin: -3px 0 -20px 0;
 		display: flex;
- 		 flex-wrap: wrap;
- 		 box-sizing: border-box;
-		  flex-direction: row;
-		  width: 100%;
-		  background-size: cover;
-
-	position: relative;
+ 		flex-wrap: wrap;
+ 		box-sizing: border-box;
+	  flex-direction: row;
+		width: 100%;
+		background-size: cover;
+	  position: relative;
     margin: auto;
 }
 
@@ -281,6 +297,25 @@ SPLASH TOP
 	text-align: right;
     margin: auto;
 }
+
+.splash-form-content-block {
+  text-align: left;
+  min-height: 77vh;
+  padding: 100px 7% 0px 7%;
+  z-index: 5;
+  position: relative;
+  background-repeat: no-repeat;
+  margin: -3px 0 -20px 0;
+  display: flex;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+  flex-direction: row;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+}
+
 } 
 
 
