@@ -3,6 +3,8 @@
 // Include necessary environment setup 
 include 'ecobricks_env.php';
 
+include 'lang.php';
+
 
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -40,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conn->close();
 
         // Redirect to the next page with project_id as a query parameter. Adjust the redirect path if necessary.
-        echo "<script>window.location.href = 'en/add-project-images.php?project_id=" . $project_id . "';</script>";
+        echo "<script>window.location.href = '" . $lang . "/add-project-images.php?project_id=" . $project_id . "';</script>";
         exit();
     } else {
         // Handle errors

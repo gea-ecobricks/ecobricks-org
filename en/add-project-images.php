@@ -1,3 +1,6 @@
+<?php require_once ("../add_project_images.php");?>
+
+
 <!DOCTYPE html>
 <HTML lang="en"> 
 <HEAD>
@@ -37,7 +40,7 @@
         <br><hr>
         <br>
         
-        <form id="photoform" action="../add_project_images.php" method="post" enctype="multipart/form-data">
+        <form id="photoform" action="" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
       <!-- Photo 1 Main & Thumbnail -->
 <div class="form-item">
