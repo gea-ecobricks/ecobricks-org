@@ -61,11 +61,10 @@
   background-color: #0003 !important;
 }
 
- 
+/*  
 #form-submission-box {
   font-family: "Mulish", sans-serif;
-  /* background-color: var(--main-background); */
-}
+} */
 
 /* h2 {
   font-family: "Arvo", serif;
@@ -215,12 +214,12 @@ input[type="submit"]:hover {
 
 /* Centering the form vertically on larger screens */
 @media screen and (min-width: 701px) {
-  #form-submission-box {
+  /* #form-submission-box {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 100vh; */
-  }
+
+  } */
 
   .form-container {
     margin-top: auto;
@@ -279,7 +278,7 @@ input[type="submit"]:hover {
     padding: 10px;
 }
 
-.form-item input {
+#photos-submission-box .form-item input {
     font-size: 1.2em;
     color: var(--text-color);
     border-radius: 5px;

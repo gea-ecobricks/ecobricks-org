@@ -436,3 +436,8 @@ light.css
   background: url(svgs/up-reg-arrow-light.svg?v=3) center no-repeat;
   background-size: contain;
 }
+
+.form-container .splash-heading {
+  color: var(--text-color)!important;
+  text-shadow: none !important;
+}
