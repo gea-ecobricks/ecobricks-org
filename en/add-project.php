@@ -24,11 +24,11 @@
 
  <div id="form-submission-box" style="margin-top: 100px">
     <div class="form-container">
-        <div class="step-graphic" style="width:100%;height: 25px;margin:auto;">
+        <div class="step-graphic" style="width:fit-content;height: 22px;margin:auto;">
             <img src="../svgs/step1-log-project.svg">
         </div>
 
-        <div class="splash-content-block">  
+        <div class="">  
             <div class="splash-box">
         
                 <div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
