@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.971';?>
+<?php $version='1.972';?>
 <?php $page='submit-project';?>
 
 
@@ -31,11 +31,11 @@
         <div class="splash-form-content-block">  
             <div class="splash-box">
         
-                <div class="splash-heading" data-lang-id="001-splash-title" style="font-size:small">Post a Project</div>
+                <div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
                 <!-- <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div> -->
             </div>
             <div class="splash-image" data-lang-id="003-splash-image-alt">
-                <img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
+                <img src="../svgs/building-methods.svg" style="width:65%" alt="There are many ways to build with ecobricks">
             </div>
         </div>
 
