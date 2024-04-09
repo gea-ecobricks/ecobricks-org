@@ -31,8 +31,8 @@
         <div class="splash-form-content-block">  
             <div class="splash-box">
         
-                <div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
-                <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div>
+                <div class="splash-heading" data-lang-id="001-splash-title" style="font-size:small">Post a Project</div>
+                <!-- <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div> -->
             </div>
             <div class="splash-image" data-lang-id="003-splash-image-alt">
                 <img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
@@ -41,9 +41,9 @@
 
   
     <!-- <h1 data-lang-id="001-form-title">Post your Project</h1>
-            <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
-             -->
-            
+               -->
+               <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
+         
             <form id="submit-form" method="post" action="submit_project.php" enctype="multipart/form-data">
     <div class="form-item" style="margin-top: 25px;">
         <label for="name" data-lang-id="003-project-name">Project Name:</label><br>
