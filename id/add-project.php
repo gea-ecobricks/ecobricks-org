@@ -106,13 +106,17 @@
 
     <div class="form-item">
         <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
-        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Enter project's general location..." required>
+        <span data-lang-id="015-location-input" style="margin-top:10px">
+             <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Enter project's general location..." required>
+        </span>
         <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
     </div>
     <input type="hidden" id="lat" name="latitude">
     <input type="hidden" id="lon" name="longitude">
     
-    <input type="submit" value="Next ➡️" aria-label="Submit Form" data-lang-id="017-submit-button">
+    <div data-lang-id="017-submit-button">
+        <input type="submit" value="Next: Upload Photos ➡️" aria-label="Submit Form">
+    </div>
 
 </form>
 
