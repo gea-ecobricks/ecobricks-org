@@ -37,11 +37,10 @@ const id_Page_Translations = {
     "014-project-admins": "Proyek siapa ini?",
     "014b-optional": "Sediakan nama-nama prinsipal proyek. Opsional",
     "015-location": "Di mana proyek ini berlokasi?",
-    "015-location-input":'<input type="text" id="projectLocation" name="location_full" aria-label="Lokasi proyek" placeholder="Daftar lokasi proyek..." required>',
-    "016-location-caption": "Untuk privasi, tolong jangan gunakan alamat tepat Anda, pilih lokasi umum Anda atau kota. Lokasi proyek akan ditampilkan di peta proyek kami.",
-    "017-submit-button": '<input type="submit" value="Berikutnya ➡️" aria-label="Submit Form">',
-
-    
+  "015-location-input": `<input type="text" id="projectLocation" name="location_full" aria-label="Lokasi Proyek" placeholder="Masukkan lokasi umum proyek..." required>`,
+  "016-location-caption": "Demi privasi, tolong jangan gunakan alamat tepat Anda, pilih lingkungan umum atau kota Anda. Lokasi proyek akan ditampilkan di peta proyek kami.",
+  "017-submit-button": `<input type="submit" value="Selanjutnya: Unggah Foto ➡️" aria-label="Kirim Formulir">`
+  
   };
   
       

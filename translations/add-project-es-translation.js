@@ -37,8 +37,9 @@ const es_Page_Translations = {
     "014-project-admins": "¿De quién es este proyecto?",
     "014b-optional": "Proporciona el(los) nombre(s) de los principales responsables del proyecto. Opcional",
     "015-location": "¿Dónde está ubicado el proyecto?",
-    "016-location-caption": "Por privacidad, por favor no uses tu dirección exacta, elige tu vecindario general o ciudad. Las ubicaciones de los proyectos se mostrarán en nuestro mapa de proyectos.",
-    "017-submit-button": "Siguiente ➡️"
+  "015-location-input": `<input type="text" id="projectLocation" name="location_full" aria-label="Ubicación del Proyecto" placeholder="Ingresa la ubicación general del proyecto..." required>`,
+  "016-location-caption": "Por privacidad, por favor no uses tu dirección exacta, elige tu vecindario general o ciudad. Las ubicaciones de los proyectos se mostrarán en nuestro mapa de proyectos.",
+  "017-submit-button": `<input type="submit" value="Siguiente: Subir Fotos ➡️" aria-label="Enviar Formulario">`
   };
   
       

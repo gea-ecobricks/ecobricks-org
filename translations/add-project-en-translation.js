@@ -38,8 +38,10 @@ const en_Page_Translations = {
     "014-project-admins": "Who's project is this?",
     "014b-optional": "Provide the name(s) of the project's principals. Optional",
     "015-location": "Where is the project located?",
+    "015-location-input": `<input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Enter project's general location..." required>`,
     "016-location-caption": "For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.",
-    "017-submit-button": "Next ➡️"
+    "017-submit-button": `<input type="submit" value="Next: Upload Photos ➡️" aria-label="Submit Form">`
+  
   };
   
       

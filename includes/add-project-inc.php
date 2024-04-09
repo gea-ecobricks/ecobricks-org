@@ -38,6 +38,12 @@
 }
 }
 
+@media screen and (min-width: 700px) {
+.splash-heading {
+	font-size: 3.1em !important;
+}
+}
+
 #splash-bar {
 
     background-color: var(--top-header);
