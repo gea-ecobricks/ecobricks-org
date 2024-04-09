@@ -3,8 +3,8 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.05';?>
-<?php $page='upload-images';?>
+<?php $version='2.06';?>
+<?php $page='add-project-images';?>
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
