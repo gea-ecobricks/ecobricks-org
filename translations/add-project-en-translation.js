@@ -21,7 +21,7 @@ const en_Page_Translations = {
   "010-est-avg-weight-range": "Must be a number between 100 and 2000.",
   "011-project-type": "What type of project is this?",
   "011-select": "Select project type...  ",
-  "011-single-module": "A Module",
+  "011-single-module": "Single Module",
   "011-modular-furniture": "Furniture",
   "011-outdoor-garden": "Outdoor Garden",
   "011-structure": "Structure",
@@ -41,6 +41,8 @@ const en_Page_Translations = {
   "016-location-caption": "For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.",
   "017-submit-button": `<input type="submit" value="Next: Upload Photos ➡️" aria-label="Submit Form">`
 };
+
+
 
   
       

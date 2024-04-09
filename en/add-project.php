@@ -78,7 +78,7 @@
         <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
         <select id="project_type" name="project_type" aria-label="Project Type" required>
             <option value="" disabled="" selected="" data-lang-id="011-select">Select project type...  </option>
-            <option value="single module" data-lang-id="011-single-module">A Module</option>
+            <option value="single module" data-lang-id="011-single-module">Single Module</option>
             <option value="furniture" data-lang-id="011-modular-furniture">Furniture</option>
             <option value="garden" data-lang-id="011-outdoor-garden">Outdoor Garden</option>
             <option value="structure" data-lang-id="011-structure">Structure</option>
