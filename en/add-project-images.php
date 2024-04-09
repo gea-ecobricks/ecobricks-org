@@ -44,7 +44,7 @@
 <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#00000015;">
     <div>
         <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px;">Feature image:</label><br>
-        <input type="file" id="photo1_main" name="photo1_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff35;margin-top:10px;" required>
+        <input type="file" id="photo1_main" name="photo1_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff35;margin-top:10px;cursor:pointer;" required>
         <p class="form-caption" data-lang-id="004-feature-desc" style="padding:10px">Please choose a featured photo for this project. Required.</p>
     </div>
 </div>
@@ -52,7 +52,7 @@
 <!-- Photo 2 Main & Thumbnail -->
 <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#00000015;">
     <label for="photo2_main" data-lang-id="005-another-photo" style="padding:10px;">Choose another photo:</label><br>
-    <input type="file" id="photo2_main" name="photo2_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff35;margin-top:10px;">
+    <input type="file" id="photo2_main" name="photo2_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff35;margin-top:10px; cursor:pointer;">
     <p class="form-caption" data-lang-id="006-another-photo-optional" style="padding:10px">Optional</p>
 </div>
 
@@ -169,12 +169,39 @@ function handleFormResponse(response) {
         console.error(error);
     }
 }
-
 // Updated function to handle upload success with multiple images
 function uploadSuccess(data) {
-    // Start by constructing the heading and paragraph text
-    var successMessage = '<h1>Upload Successful!</h1>';
-    successMessage += '<p>Nice. Your project has now been added to the database.</p><br>';
+    // Define messages for different languages
+    var messages = {
+        en: {
+            heading: "Upload Successful!",
+            description: "Nice. Your project has now been added to the database.",
+            button: "➕ Add Next Project"
+        },
+        es: {
+            heading: "Carga Exitosa!",
+            description: "Genial. Tu proyecto ha sido agregado a la base de datos.",
+            button: "➕ Agregar Siguiente Proyecto"
+        },
+        fr: {
+            heading: "Téléchargement Réussi!",
+            description: "Super. Votre projet a été ajouté à la base de données.",
+            button: "➕ Ajouter le Projet Suivant"
+        },
+        id: {
+            heading: "Berhasil Diunggah!",
+            description: "Bagus. Proyek Anda telah ditambahkan ke dalam basis data.",
+            button: "➕ Tambah Proyek Berikutnya"
+        }
+    };
+
+    // Check the current language and select the appropriate message; default to English
+    var currentLang = window.currentLanguage || 'en';
+    var selectedMessage = messages[currentLang] || messages.en;
+
+    // Start by constructing the heading and paragraph text using the selected language
+    var successMessage = '<h1>' + selectedMessage.heading + '</h1>';
+    successMessage += '<p>' + selectedMessage.description + '</p><br>';
     
     // Add the gallery HTML
     var galleryHTML = '<div id="three-column-gal" class="three-column-gal">';
@@ -194,17 +221,18 @@ function uploadSuccess(data) {
     galleryHTML += '</div>';
     successMessage += galleryHTML;
 
-    // Append the button at the end
-    successMessage += '<a class="confirm-button" href="add-project.php">➕ Add Next Project</a>';
+    // Append the button at the end using the selected language
+    successMessage += '<a class="confirm-button" href="add-project.php">' + selectedMessage.button + '</a>';
 
     // Display the upload-success div and populate with the success message
     var uploadSuccessDiv = document.getElementById('upload-success');
     uploadSuccessDiv.innerHTML = successMessage;
     uploadSuccessDiv.style.display = 'block';
 
-    // hide the form after upload success
+    // Hide the form after upload success
     document.getElementById('upload-photo-form').style.display = 'none';
 }
+
 
 
     // Function to show form modal
