@@ -4,7 +4,7 @@
 <META charset="UTF-8">
 <?php $lang='en';?>
 <?php $version='1.974';?>
-<?php $page='submit-project';?>
+<?php $page='add-project';?>
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
