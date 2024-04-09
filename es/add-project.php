@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='1.975';?>
+<?php $version='1.977';?>
 <?php $page='add-project';?>
 
 
@@ -22,7 +22,7 @@
 
  <!-- PAGE CONTENT-->
 
- <div id="form-submission-box" style="margin-top: 100px">
+ <div id="form-submission-box">
     <div class="form-container">
         <div class="step-graphic" style="width:fit-content;margin:auto;">
             <img src="../svgs/step1-log-project.svg" style="height:25px;">
@@ -43,7 +43,7 @@
                -->
                <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
          
-            <form id="submit-form" method="post" action="add_project.php" enctype="multipart/form-data">
+            <form id="submit-form" method="post" action="../add_project.php" enctype="multipart/form-data">
     <div class="form-item" style="margin-top: 25px;">
         <label for="name" data-lang-id="003-project-name">Project Name:</label><br>
         <input type="text" id="name" name="name" aria-label="Project Name" title="Required. Max 255 characters." required>
@@ -65,7 +65,13 @@
     <div class="form-item">
         <label for="briks_used" data-lang-id="009-bricks-used">Bricks Used:</label><br>
         <input type="number" id="briks_used" name="briks_used" aria-label="Bricks Used" title="Maximum value allowed" required>
-        <p class="form-caption" data-lang-id="010-bricks-used-caption">How many briks did the project use?  Enter a number between 1-5000.</p>
+        <p class="form-caption" data-lang-id="009-bricks-used-caption">How many briks does your project use?  Enter a number between 1-5000.</p>
+    </div>
+
+    <div class="form-item">
+        <label for="est_avg_brik_weight" data-lang-id="010-est-avg-weight">Please estimate the average weight of the ecobricks used in your project in grams?</label><br>
+        <input type="number" id="est_avg_brik_weight" name="est_avg_brik_weight" aria-label="Estimate Brik Weight" title="Maximum value allowed" required>
+        <p class="form-caption" data-lang-id="010-est-avg-weight-range">Must be a number between 100 and 2000.</p>
     </div>
 
     <div class="form-item">
@@ -73,7 +79,7 @@
         <select id="project_type" name="project_type" aria-label="Project Type" required>
             <option value="" disabled="" selected="" data-lang-id="011-select">Select project type...  </option>
             <option value="single module" data-lang-id="011-single-module">Single Module</option>
-            <option value="modular furniture" data-lang-id="011-modular-furniture">Modular Furniture</option>
+            <option value="furniture" data-lang-id="011-modular-furniture">Furniture</option>
             <option value="garden" data-lang-id="011-outdoor-garden">Outdoor Garden</option>
             <option value="structure" data-lang-id="011-structure">Structure</option>
             <option value="other" data-lang-id="011-other">Other</option>
@@ -101,7 +107,7 @@
     <div class="form-item">
         <label for="project_admins" data-lang-id="014-project-admins">Who's project is this?</label><br>
         <input type="text" id="project_admins" name="project_admins" aria-label="Project Admins (optional)">
-        <p class="form-caption" data-lang-id="014b-optional">Provide the name(s) of the project's principals. Optional</p>
+        <p class="form-caption" data-lang-id="014b-optional">Optional: Provide the name(s) of the project's principals. If you wish to link this to a GoBrik user account be sure to spell the name accordingly.</p>
     </div>
 
     <div class="form-item">
@@ -112,7 +118,9 @@
     <input type="hidden" id="lat" name="latitude">
     <input type="hidden" id="lon" name="longitude">
     
-    <input type="submit" value="Next ➡️" aria-label="Submit Form" data-lang-id="017-submit-button">
+    <div data-lang-id="017-submit-button">
+        <input type="submit" value="Next: Upload Photos ➡️" aria-label="Submit Form">
+    </div>
 
 </form>
 
