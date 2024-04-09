@@ -39,42 +39,41 @@
         
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
-            
- <!-- Photo 1 Main & Thumbnail -->
-<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#00000015;">
+      <!-- Photo 1 Main & Thumbnail -->
+<div class="form-item">
     <div>
-        <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px;">Feature image:</label><br>
-        <input type="file" id="photo1_main" name="photo1_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff35;margin-top:10px;cursor:pointer;" required>
-        <p class="form-caption" data-lang-id="004-feature-desc" style="padding:10px">Please choose a featured photo for this project. Required.</p>
+        <label for="photo1_main" data-lang-id="003-feature-photo">Feature image:</label><br>
+        <input type="file" id="photo1_main" name="photo1_main" required>
+        <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this project. Required.</p>
     </div>
 </div>
 
 <!-- Photo 2 Main & Thumbnail -->
-<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#00000015;">
-    <label for="photo2_main" data-lang-id="005-another-photo" style="padding:10px;">Choose another photo:</label><br>
-    <input type="file" id="photo2_main" name="photo2_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff35;margin-top:10px; cursor:pointer;">
-    <p class="form-caption" data-lang-id="006-another-photo-optional" style="padding:10px">Optional</p>
+<div class="form-item">
+    <label for="photo2_main" data-lang-id="005-another-photo">Choose another photo:</label><br>
+    <input type="file" id="photo2_main" name="photo2_main">
+    <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
 </div>
 
 <!-- Photo 3 Main & Thumbnail -->
-<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#00000015;">
-    <label for="photo3_main" data-lang-id="007-another-photo" style="padding:10px;">Choose another photo:</label><br>
-    <input type="file" id="photo3_main" name="photo3_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff35;margin-top:10px;">
-    <p class="form-caption" data-lang-id="008-another-photo-optional" style="padding:10px">Optional</p>
+<div class="form-item">
+    <label for="photo3_main" data-lang-id="007-another-photo">Choose another photo:</label><br>
+    <input type="file" id="photo3_main" name="photo3_main">
+    <p class="form-caption" data-lang-id="008-another-photo-optional">Optional</p>
 </div>
 
 <!-- Photo 4 Main & Thumbnail -->
-<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#00000015;">
-    <label for="photo4_main" data-lang-id="009-another-photo" style="padding:10px;">Choose another photo:</label><br>
-    <input type="file" id="photo4_main" name="photo4_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff35;margin-top:10px;">
-    <p class="form-caption" data-lang-id="010-another-photo-optional" style="padding:10px">Optional</p>
+<div class="form-item">
+    <label for="photo4_main" data-lang-id="009-another-photo">Choose another photo:</label><br>
+    <input type="file" id="photo4_main" name="photo4_main">
+    <p class="form-caption" data-lang-id="010-another-photo-optional">Optional</p>
 </div>
 
 <!-- Photo 5 Main & Thumbnail -->
-<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#00000015;">
-    <label for="photo5_main" data-lang-id="011-another-photo" style="padding:10px;">Choose another photo:</label><br>
-    <input type="file" id="photo5_main" name="photo5_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff35;margin-top:10px;">
-    <p class="form-caption" data-lang-id="012-another-photo-optional" style="padding:10px">Optional</p>
+<div class="form-item">
+    <label for="photo5_main" data-lang-id="011-another-photo">Choose another photo:</label><br>
+    <input type="file" id="photo5_main" name="photo5_main">
+    <p class="form-caption" data-lang-id="012-another-photo-optional">Optional</p>
 </div>
 
 
@@ -107,16 +106,27 @@
 
 
 <script>
-
 document.querySelector('#photoform').addEventListener('submit', function(event) {
     // Prevent default form submission
     event.preventDefault();
 
+    // Translations for the "Please choose a file" message
+    var filePromptMessages = {
+        en: "Please choose a file.",
+        es: "Por favor elige un archivo.",
+        fr: "Veuillez choisir un fichier.",
+        id: "Silakan pilih file."
+    };
+
+    // Determine the current language, defaulting to 'en' if undefined
+    var currentLang = window.currentLanguage || 'en';
+    var filePromptMessage = filePromptMessages[currentLang] || filePromptMessages.en;
+
     // Check if file input is empty
     var fileInput = document.getElementById('photo1_main');
     if (fileInput.files.length === 0) {
-        // If file input is empty, display modal message
-        showFormModal('Please choose a file.');
+        // If file input is empty, display modal message in the selected language
+        showFormModal(filePromptMessage);
         return; // Stop form submission
     }
 
@@ -137,6 +147,10 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
             document.getElementById('upload-progress-button').classList.add('progress-bar');
         }
     };
+});
+
+
+
 
     xhr.onreadystatechange = function() {
         if (xhr.readyState == XMLHttpRequest.DONE) {
@@ -169,6 +183,9 @@ function handleFormResponse(response) {
         console.error(error);
     }
 }
+
+
+
 // Updated function to handle upload success with multiple images
 function uploadSuccess(data) {
     // Define messages for different languages

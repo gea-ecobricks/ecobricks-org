@@ -262,7 +262,35 @@ input[type="submit"]:hover {
 }
 
 
-	
+/*upload*/
+
+.form-item {
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: #00000015;
+}
+
+.form-item label,
+.form-item input,
+.form-item .form-caption {
+    padding: 10px;
+}
+
+.form-item input {
+    font-size: 1.2em;
+    color: var(--text-color);
+    border-radius: 5px;
+    background-color: #ffffff35;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form-item .form-caption {
+    font-size: small;
+}
+
 </style>	
 
 <?php require_once ("../header-2024.php");?>
