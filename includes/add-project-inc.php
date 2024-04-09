@@ -12,6 +12,7 @@
         background-color: var(--top-header);
         filter: none !important;
         min-height: 20vh !important;
+        height: 20vh !important;
 	}
 }
 

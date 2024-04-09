@@ -24,8 +24,8 @@
 
  <div id="form-submission-box" style="margin-top: 100px">
     <div class="form-container">
-        <div class="step-graphic" style="width:fit-content;height: 22px;margin:auto;">
-            <img src="../svgs/step1-log-project.svg">
+        <div class="step-graphic" style="width:fit-content;margin:auto;">
+            <img src="../svgs/step1-log-project.svg" style="height:25px;">
         </div>
 
         <div class="splash-form-content-block">  
