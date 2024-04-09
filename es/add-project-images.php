@@ -40,7 +40,7 @@
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
-     <!-- Photo 1 Main & Thumbnail -->
+    <!-- Photo 1 Main & Thumbnail -->
 <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
     <div>
         <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px;">Feature image:</label><br>
@@ -51,35 +51,32 @@
 
 <!-- Photo 2 Main & Thumbnail -->
 <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
-    <label for="photo2_main" data-lang-id="005-another-photo">Choose another photo:</label>
-    <br>
-    <input type="file" id="photo2_main" name="photo2_main">
-    <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
+    <label for="photo2_main" data-lang-id="005-another-photo" style="padding:10px;">Choose another photo:</label><br>
+    <input type="file" id="photo2_main" name="photo2_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff0d;margin-top:10px;">
+    <p class="form-caption" data-lang-id="006-another-photo-optional" style="padding:10px">Optional</p>
 </div>
 
 <!-- Photo 3 Main & Thumbnail -->
 <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
-    <label for="photo3_main" data-lang-id="007-another-photo">Choose another photo:</label>
-    <br>
-    <input type="file" id="photo3_main" name="photo3_main">
-    <p class="form-caption" data-lang-id="008-another-photo-optional">Optional</p>
+    <label for="photo3_main" data-lang-id="007-another-photo" style="padding:10px;">Choose another photo:</label><br>
+    <input type="file" id="photo3_main" name="photo3_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff0d;margin-top:10px;">
+    <p class="form-caption" data-lang-id="008-another-photo-optional" style="padding:10px">Optional</p>
 </div>
 
 <!-- Photo 4 Main & Thumbnail -->
 <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
-    <label for="photo4_main" data-lang-id="009-another-photo">Choose another photo:</label>
-    <br>
-    <input type="file" id="photo4_main" name="photo4_main">
-    <p class="form-caption" data-lang-id="010-another-photo-optional">Optional</p>
+    <label for="photo4_main" data-lang-id="009-another-photo" style="padding:10px;">Choose another photo:</label><br>
+    <input type="file" id="photo4_main" name="photo4_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff0d;margin-top:10px;">
+    <p class="form-caption" data-lang-id="010-another-photo-optional" style="padding:10px">Optional</p>
 </div>
 
 <!-- Photo 5 Main & Thumbnail -->
 <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
-    <label for="photo5_main" data-lang-id="011-another-photo">Choose another photo:</label>
-    <br>
-    <input type="file" id="photo5_main" name="photo5_main">
-    <p class="form-caption" data-lang-id="012-another-photo-optional">Optional</p>
+    <label for="photo5_main" data-lang-id="011-another-photo" style="padding:10px;">Choose another photo:</label><br>
+    <input type="file" id="photo5_main" name="photo5_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff0d;margin-top:10px;">
+    <p class="form-caption" data-lang-id="012-another-photo-optional" style="padding:10px">Optional</p>
 </div>
+
 
 
 
