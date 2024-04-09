@@ -39,6 +39,8 @@
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
+             <!-- Photo 1 Main & Thumbnail -->
+
             <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
                 <div>
                     <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px;">Feature image:</label><br>
@@ -58,29 +60,30 @@
 
         <!-- Photo 3 Main & Thumbnail -->
             <div class="form-item">
-                <label for="photo3_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <label for="photo3_main" data-lang-id="007-another-photo">Choose another photo:</label>
                 <br>
                 <input type="file" id="photo3_main" name="photo3_main">
-                <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
+                <p class="form-caption" data-lang-id="008-another-photo-optional">Optional</p>
             </div>
 
         <!-- Photo 4 Main & Thumbnail -->
         <div class="form-item">
-                <label for="photo4_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <label for="photo4_main" data-lang-id="009-another-photo">Choose another photo:</label>
                 <br>
                 <input type="file" id="photo4_main" name="photo4_main">
-                <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
+                <p class="form-caption" data-lang-id="010-another-photo-optional">Optional</p>
             </div>
 
         <!-- Photo 5 Main & Thumbnail -->
             <div class="form-item">
-                <label for="photo5_main" data-lang-id="005-another-photo">Choose another photo:</label>
+                <label for="photo5_main" data-lang-id="011-another-photo">Choose another photo:</label>
                 <br>
                 <input type="file" id="photo5_main" name="photo5_main">
-                <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
+                <p class="form-caption" data-lang-id="012-another-photo-optional">Optional</p>
             </div>
-
-            <input type="submit" value="⬆️ Upload Images " id="upload-progress-button">
+            <div data-lang-id="013-submit-upload-button">
+                <input type="submit" value="⬆️ Upload Images " id="upload-progress-button" aria-lable="Submit photos for upload">
+            </div>
         </form>
     </div>
 
@@ -93,7 +96,7 @@
 </div>
 
   
-<p style="width:100%; text-align: center;"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data">Go Back to re-enter Data</a></p>
+<p style="width:100%; text-align: center;"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" data-lang-id="014-go-back-link">↩ Back to Step 1</a></p>
 <br><br>
 
 </div> <!--closes main-->
