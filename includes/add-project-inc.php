@@ -194,7 +194,7 @@ input[type="submit"]:hover {
     max-width: 600px;
     padding: 20px;
     position: relative;
-
+    margin-top: 60px;
 
   }
 }
@@ -226,6 +226,7 @@ input[type="submit"]:hover {
     margin-top: auto;
     margin-bottom: auto;
     padding: 30px;
+    margin-top: 60px;
 
   }
 }
