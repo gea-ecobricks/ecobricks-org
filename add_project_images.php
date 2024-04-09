@@ -72,3 +72,80 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
+
+
+
+//FUNCTIONS
+
+
+// Function to create a thumbnail using GD library
+function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
+    list($source_width, $source_height, $source_type) = getimagesize($source_path);
+    switch ($source_type) {
+        case IMAGETYPE_JPEG:
+            $source_image = imagecreatefromjpeg($source_path);
+            break;
+        case IMAGETYPE_PNG:
+            $source_image = imagecreatefrompng($source_path);
+            break;
+        case IMAGETYPE_WEBP:
+            $source_image = imagecreatefromwebp($source_path);
+            break;
+        default:
+            return false;
+    }
+    $thumbnail = imagecreatetruecolor($width, $height);
+    imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $width, $height, $source_width, $source_height);
+    imagedestroy($source_image);
+    imagejpeg($thumbnail, $destination_path, $quality);
+    imagedestroy($thumbnail);
+    return true;
+}
+
+// Function to convert image to WebP format
+function convertToWebP($source_path, $destination_path) {
+    $image = imagecreatefromstring(file_get_contents($source_path));
+    if ($image !== false) {
+        imagepalettetotruecolor($image);
+        imagewebp($image, $destination_path, 85);
+        imagedestroy($image);
+        return true;
+    }
+    return false;
+}
+
+
+// Function to resize original image if any of its dimensions are larger than 1500px.
+
+function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQuality) {
+    list($width, $height, $type, $attr) = getimagesize($sourcePath);
+    $scale = min($maxDim/$width, $maxDim/$height);
+    $newWidth = $width > $maxDim ? ceil($scale * $width) : $width;
+    $newHeight = $height > $maxDim ? ceil($scale * $height) : $height;
+
+    // Depending on the original image type, create a new image
+    switch ($type) {
+        case IMAGETYPE_JPEG:
+            $src = imagecreatefromjpeg($sourcePath);
+            break;
+        case IMAGETYPE_PNG:
+            $src = imagecreatefrompng($sourcePath);
+            break;
+        default:
+            // Unsupported type for conversion
+            return false;
+    }
+
+    $dst = imagecreatetruecolor($newWidth, $newHeight);
+    imagecopyresampled($dst, $src, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
+    imagewebp($dst, $targetPath, $compressionQuality); // Save the image as WebP with specified compression quality
+
+    imagedestroy($src);
+    imagedestroy($dst);
+    return true;
+}
+
+
+
+?>
