@@ -29,8 +29,14 @@
 }
 } 
 
-
-
+@media screen and (max-width: 700px) {
+.splash-heading {
+	font-size: 2.5em !important;
+	line-height: 1.1;
+	margin: 10px 0px;
+	text-align: center;
+}
+}
 
 #splash-bar {
 
