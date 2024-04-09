@@ -14,6 +14,10 @@
         min-height: 20vh !important;
         height: 20vh !important;
 	}
+
+  .splash-image {width:100%;}
+
+  .splash-image img  {height: 200px;}
 }
 
 
