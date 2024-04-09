@@ -11,8 +11,8 @@ $thumbnail_paths = []; // Initialize array to store thumbnail URLs
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['project_id'])) {
         $project_id = $_POST['project_id'];
-        $upload_dir = '../projects/featured/';
-        $thumbnail_dir = '../projects/featured_tmbs/';
+        $upload_dir = 'projects/featured/';
+        $thumbnail_dir = 'projects/featured_tmbs/';
 
         $db_fields = []; // For storing database field names
         $db_values = []; // For storing corresponding values
