@@ -23,16 +23,19 @@
  <!-- PAGE CONTENT-->
 
  <div id="form-submission-box" style="margin-top: 100px">
-    <div class="splash-content-block">
-        <div class="form-container">
-                <div class="step-graphic" style="width:100%;height: 25px;margin:auto;"><img src="../svgs/step1-log-project.svg"></div>
-                <div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
-            <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div>
-        </div>
-        <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
-</div>
+    <div class="form-container">
+        <div class="step-graphic" style="width:100%;height: 25px;margin:auto;"><img src="../svgs/step1-log-project.svg"></div>
 
-</div>
+        <div class="splash-content-block">
+            <div class="splash-box">
+        
+                <div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
+                <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div>
+            </div>
+            <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
+        </div>
+
+  
     <!-- <h1 data-lang-id="001-form-title">Post your Project</h1>
             <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
              -->
@@ -65,7 +68,7 @@
     <div class="form-item">
         <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
         <select id="project_type" name="project_type" aria-label="Project Type" required>
-            <option value="" disabled data-lang-id="011-select">Select project type...</option>
+            <option value="" disabled selected data-lang-id="011-select">Select project type...</option>
             <option value="single module" data-lang-id="011-single-module">Single Module</option>
             <option value="modular furniture" data-lang-id="011-modular-furniture">Modular Furniture</option>
             <option value="garden" data-lang-id="011-outdoor-garden">Outdoor Garden</option>
