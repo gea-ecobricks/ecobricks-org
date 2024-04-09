@@ -3,7 +3,6 @@
 // Include necessary environment setup 
 include 'ecobricks_env.php';
 
-include 'lang.php';
 
 
 // Check if the form has been submitted

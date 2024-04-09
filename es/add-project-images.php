@@ -12,6 +12,8 @@
 <?php require_once ("../includes/add-project-inc.php");?>
 
 
+
+
 <div class="splash-content-block"></div>
 <div id="splash-bar"></div>
 
