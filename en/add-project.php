@@ -24,9 +24,15 @@
 
  <div id="form-submission-box" style="margin-top: 100px">
         <div class="form-container">
-            <h1 data-lang-id="001-form-title">Post your Project</h1>
+            <div class="step-graphic" style="width:100%;height: 25px;margin:auto;"><img src="../svgs/step1-log-project.svg"></div>
+            <div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
+    </div>
+    <!-- <h1 data-lang-id="001-form-title">Post your Project</h1>
             <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
-            
+             -->
             
             <form id="submit-form" method="post" action="submit_project.php" enctype="multipart/form-data">
     <div class="form-item" style="margin-top: 25px;">

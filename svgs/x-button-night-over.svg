@@ -181,15 +181,15 @@
        stroke="#333333"
        stroke-linecap="round"
        stroke-width="5.1701"
-       style="fill:#f2f2f2;stroke:#f9f9f9">
+       style="fill:#f2f2f2;stroke:#f9f9f9;stroke-width:6.07605175;stroke-dasharray:none">
       <path
          id="path120443-3"
          d="m 40.19,115.8 65.027,2.3227"
-         style="fill:#f2f2f2;stroke:#f9f9f9" />
+         style="fill:#f2f2f2;stroke:#f9f9f9;stroke-width:6.07605175;stroke-dasharray:none" />
       <path
          id="path1407-6"
          d="M 71.127,149.46 74.2815,84.468"
-         style="fill:#f2f2f2;stroke:#f9f9f9" />
+         style="fill:#f2f2f2;stroke:#f9f9f9;stroke-width:6.07605175;stroke-dasharray:none" />
     </g>
   </g>
 </svg>
