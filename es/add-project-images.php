@@ -30,57 +30,59 @@
     <div class="form-container" id="upload-photo-form">
 
         <div class="step-graphic" style="width:fit-content;margin:auto;">
-            <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:10px;" alt="Step 2: Upload images">
+            <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:30px;" alt="Step 2: Upload images">
         </div>
         <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
         <p data-lang-id="002-form-description">Show the world your project!  Upload one to five images showing your construction from different angles or times.</p>
-        <br><br>
-
+        <br><hr>
+        <br>
+        
         <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
             
-             <!-- Photo 1 Main & Thumbnail -->
+     <!-- Photo 1 Main & Thumbnail -->
+<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
+    <div>
+        <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px;">Feature image:</label><br>
+        <input type="file" id="photo1_main" name="photo1_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff0d;margin-top:10px;" required>
+        <p class="form-caption" data-lang-id="004-feature-desc" style="padding:10px">Please choose a featured photo for this project. Required.</p>
+    </div>
+</div>
 
-            <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
-                <div>
-                    <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px;">Feature image:</label><br>
-                    <input type="file" id="photo1_main" name="photo1_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff0d;margin-top:10px;" required>
-                    <p class="form-caption" data-lang-id="004-feature-desc" style="padding:10px">Please choose a featured photo for this project.  Required.</p>
-                </div>
+<!-- Photo 2 Main & Thumbnail -->
+<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
+    <label for="photo2_main" data-lang-id="005-another-photo">Choose another photo:</label>
+    <br>
+    <input type="file" id="photo2_main" name="photo2_main">
+    <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
+</div>
 
-            </div>
+<!-- Photo 3 Main & Thumbnail -->
+<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
+    <label for="photo3_main" data-lang-id="007-another-photo">Choose another photo:</label>
+    <br>
+    <input type="file" id="photo3_main" name="photo3_main">
+    <p class="form-caption" data-lang-id="008-another-photo-optional">Optional</p>
+</div>
 
-        <!-- Photo 2 Main & Thumbnail -->
-            <div class="form-item">
-                <label for="photo2_main" data-lang-id="005-another-photo">Choose another photo:</label>
-                <br>
-                <input type="file" id="photo2_main" name="photo2_main">
-                <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
-            </div>
+<!-- Photo 4 Main & Thumbnail -->
+<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
+    <label for="photo4_main" data-lang-id="009-another-photo">Choose another photo:</label>
+    <br>
+    <input type="file" id="photo4_main" name="photo4_main">
+    <p class="form-caption" data-lang-id="010-another-photo-optional">Optional</p>
+</div>
 
-        <!-- Photo 3 Main & Thumbnail -->
-            <div class="form-item">
-                <label for="photo3_main" data-lang-id="007-another-photo">Choose another photo:</label>
-                <br>
-                <input type="file" id="photo3_main" name="photo3_main">
-                <p class="form-caption" data-lang-id="008-another-photo-optional">Optional</p>
-            </div>
+<!-- Photo 5 Main & Thumbnail -->
+<div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
+    <label for="photo5_main" data-lang-id="011-another-photo">Choose another photo:</label>
+    <br>
+    <input type="file" id="photo5_main" name="photo5_main">
+    <p class="form-caption" data-lang-id="012-another-photo-optional">Optional</p>
+</div>
 
-        <!-- Photo 4 Main & Thumbnail -->
-        <div class="form-item">
-                <label for="photo4_main" data-lang-id="009-another-photo">Choose another photo:</label>
-                <br>
-                <input type="file" id="photo4_main" name="photo4_main">
-                <p class="form-caption" data-lang-id="010-another-photo-optional">Optional</p>
-            </div>
 
-        <!-- Photo 5 Main & Thumbnail -->
-            <div class="form-item">
-                <label for="photo5_main" data-lang-id="011-another-photo">Choose another photo:</label>
-                <br>
-                <input type="file" id="photo5_main" name="photo5_main">
-                <p class="form-caption" data-lang-id="012-another-photo-optional">Optional</p>
-            </div>
+
             <div data-lang-id="013-submit-upload-button">
                 <input type="submit" value="⬆️ Upload Images " id="upload-progress-button" aria-lable="Submit photos for upload">
             </div>
