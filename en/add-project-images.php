@@ -24,6 +24,10 @@
 
 
  <div id="form-submission-box" style="margin-top: 140px;display:flex;flex-flow:column;">
+
+ <div class="step-graphic" style="width:fit-content;margin:auto;">
+            <img src="../svgs/step2-log-project.svg" style="height:25px;">
+        </div>
     
     <div class="form-container" id="upload-photo-form">
         <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>

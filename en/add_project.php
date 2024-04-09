@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conn->close();
 
         // Redirect to the next page with project_id as a query parameter
-        echo "<script>window.location.href = 'upload-images.php?project_id=" . $project_id . "';</script>";
+        echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
         exit();
     } else {
         // Handle errors
