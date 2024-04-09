@@ -108,27 +108,30 @@
 
 
 <script>
-document.querySelector('#photoform').addEventListener('submit', function(event) {
+    
+
+
+    document.querySelector('#photoform').addEventListener('submit', function(event) {
     // Prevent default form submission
     event.preventDefault();
 
-    // Translations for the "Please choose a file" message
-    var filePromptMessages = {
+    // Define messages for different languages
+    var messages = {
         en: "Please choose a file.",
-        es: "Por favor elige un archivo.",
+        es: "Por favor, elige un archivo.",
         fr: "Veuillez choisir un fichier.",
-        id: "Silakan pilih file."
+        id: "Silakan pilih sebuah berkas."
     };
 
-    // Determine the current language, defaulting to 'en' if undefined
+    // Check the current language and select the appropriate message; default to English
     var currentLang = window.currentLanguage || 'en';
-    var filePromptMessage = filePromptMessages[currentLang] || filePromptMessages.en;
+    var chooseFileMessage = messages[currentLang] || messages.en;
 
     // Check if file input is empty
     var fileInput = document.getElementById('photo1_main');
     if (fileInput.files.length === 0) {
-        // If file input is empty, display modal message in the selected language
-        showFormModal(filePromptMessage);
+        // If file input is empty, display modal message
+        showFormModal(chooseFileMessage);
         return; // Stop form submission
     }
 
@@ -149,10 +152,6 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
             document.getElementById('upload-progress-button').classList.add('progress-bar');
         }
     };
-});
-
-
-
 
     xhr.onreadystatechange = function() {
         if (xhr.readyState == XMLHttpRequest.DONE) {
@@ -167,6 +166,8 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
     xhr.open(form.method, form.action, true);
     xhr.send(formData);
 });
+
+
 
 
 // Function to handle form submission response
