@@ -5,7 +5,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='2.17';?>
+<?php $version='2.18';?>
 <?php $page='add-project-images';?>
 
 
@@ -26,7 +26,7 @@
         </div>
         <div class="splash-heading" data-lang-id="001-form-title">Now Upload Your Images</div>
         <p data-lang-id="002-form-description">Show the world your project!  Upload one to five images showing your construction from different angles or times.</p>
-        <br><hr>
+        <br>
         <br>
         
         <form id="photoform" action="add_project_images.php" method="post" enctype="multipart/form-data">
@@ -86,7 +86,7 @@
 
   
 <p style="width:100%; text-align: center;"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" data-lang-id="014-go-back-link">↩ Back to Step 1</a></p>
-<br><br>
+<br><br>test
 
 
        
