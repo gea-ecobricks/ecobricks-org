@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.977';?>
+<?php $version='1.978';?>
 <?php $page='add-project';?>
 
 

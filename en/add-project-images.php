@@ -23,7 +23,7 @@
  <!-- PAGE CONTENT--> 
 
 
- <div id="photos-submission-box" style="margin-top: 140px;display:flex;flex-flow:column;">
+ <div id="photos-submission-box" style="margin-top: 50px;display:flex;flex-flow:column;">
 
  
     
@@ -37,7 +37,7 @@
         <br><hr>
         <br>
         
-        <form id="photoform" action="upload_images.php" method="post" enctype="multipart/form-data">
+        <form id="photoform" action="add-project-images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
       <!-- Photo 1 Main & Thumbnail -->
 <div class="form-item">
