@@ -2,19 +2,17 @@
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-
-include 'ecobricks_env.php';
+include '../ecobricks_env.php';
 
 $error_message = '';
 $full_urls = []; // Initialize array to store main image URLs
 $thumbnail_paths = []; // Initialize array to store thumbnail URLs
-$hasError = false; // Flag to track if there's an error
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['project_id'])) {
         $project_id = $_POST['project_id'];
-        $upload_dir = 'projects/featured/';
-        $thumbnail_dir = 'projects/featured_tmbs/';
+        $upload_dir = '../projects/featured/';
+        $thumbnail_dir = '../projects/featured_tmbs/';
 
         $db_fields = []; // For storing database field names
         $db_values = []; // For storing corresponding values
@@ -38,12 +36,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $db_types .= "ss"; // Add two string types
                 } else {
                     $error_message .= "Error processing image {$i}.<br>";
-                    $hasError = true; // Set error flag
                 }
             }
         }
 
-        if (!empty($db_fields) && !$hasError) { // Check if there's something to update and no error occurred
+        if (!empty($db_fields)) {
             $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
             $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
             $db_values[] = $project_id; // Add project_id to the end of the array
@@ -53,25 +50,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $update_stmt->bind_param($db_types, ...$db_values);
             if (!$update_stmt->execute()) {
                 $error_message .= "Database update failed: " . $update_stmt->error;
-                $hasError = true; // Set error flag
             }
             $update_stmt->close();
         }
 
-        if ($hasError) {
-            // If you have AJAX handling, you might return a JSON response here
-            // For now, redirect back to the form with an error message
-            header('Location: /en/add-project-photos.php?error=' . urlencode($error_message));
-            exit;
+        if (!empty($error_message)) {
+            http_response_code(400);
+            echo json_encode(['error' => $error_message]);
         } else {
-            // Redirect to the form page with a success message
-            header('Location: /en/add-project-photos.php?status=success');
-            exit;
+            // Prepare the response array with all image URLs included
+            $response = array(
+                'project_id' => $project_id,
+                'project_name' => $_POST['project_name'] ?? null,
+                'description' => $_POST['description'] ?? null,
+                'start' => $_POST['start'] ?? null,
+                'briks_used' => $_POST['briks_used'] ?? null,
+                'full_urls' => $full_urls, // Array of main image URLs
+                'thumbnail_paths' => $thumbnail_paths, // Array of thumbnail URLs
+                'location_full' => $_POST['location_full'] ?? null
+            );
+            echo json_encode($response);
         }
     }
 }
-
-
 
 
 

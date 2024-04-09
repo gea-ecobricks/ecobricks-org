@@ -1,10 +1,10 @@
 
 
 <!DOCTYPE html>
-<HTML lang="fr"> 
+<HTML lang="id"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='fr';?>
+<?php $lang='id';?>
 <?php $version='2.1';?>
 <?php $page='add-project-images';?>
 

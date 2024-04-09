@@ -5,21 +5,14 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.09';?>
+<?php $version='2.1';?>
 <?php $page='add-project-images';?>
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
 
 
-<div class="splash-content-block">
-	<!-- <div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div>
-	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
-    </div>	     -->
-</div>
+<div class="splash-content-block"></div>
 <div id="splash-bar"></div>
 
  <!-- PAGE CONTENT--> 
@@ -27,8 +20,6 @@
 
  <div id="photos-submission-box" style="display:flex;flex-flow:column;">
 
- 
-    
     <div class="form-container" id="upload-photo-form">
 
         <div class="step-graphic" style="width:fit-content;margin:auto;">
@@ -39,7 +30,7 @@
         <br><hr>
         <br>
         
-        <form id="photoform" action="add_project_images.php" method="post" enctype="multipart/form-data">
+        <form id="photoform" action="../add_project_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
       <!-- Photo 1 Main & Thumbnail -->
 <div class="form-item">
