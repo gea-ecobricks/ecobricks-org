@@ -5,10 +5,9 @@
 
 -----------------------------------*/
 
-
 const fr_Page_Translations = {
-    "001-form-title": "Téléchargez maintenant vos images",
-    "002-form-description": "Montrez votre projet au monde ! Téléchargez de une à cinq images montrant votre construction sous différents angles ou à différents moments.",
+    "001-form-title": "Téléchargez Maintenant Vos Images",
+    "002-form-description": "Montrez votre projet au monde ! Téléchargez une à cinq images montrant votre construction sous différents angles ou à différents moments.",
     "003-feature-photo": "Image vedette :",
     "004-feature-desc": "Veuillez choisir une photo vedette pour ce projet. Obligatoire.",
     "005-another-photo": "Choisissez une autre photo :",
@@ -19,8 +18,8 @@ const fr_Page_Translations = {
     "010-another-photo-optional": "Facultatif",
     "011-another-photo": "Choisissez une autre photo :",
     "012-another-photo-optional": "Facultatif",
-    "013-submit-upload-button": "⬆️ Téléchargez les images",
-    "014-go-back-link": "↩ Retour à l'étape 1"
+    "013-submit-upload-button": '<input type="submit" value="⬆️ Télécharger les Images " id="upload-progress-button" aria-label="Soumettre les photos pour téléchargement">',
+    "014-go-back-link": "↩ Retour à l'Étape 1"
 };
 
         
