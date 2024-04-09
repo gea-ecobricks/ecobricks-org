@@ -172,10 +172,11 @@ input[type="submit"]:hover {
   .form-container {
     width: calc(100% - 40px);
     margin: 0;
-    border: none;
+    /* border: none; */
     padding: 20px 20px 0 20px;
     max-width: 600px;
     padding: 20px;
+    position: relative;
 
 
   }

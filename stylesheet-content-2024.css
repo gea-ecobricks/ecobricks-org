@@ -245,6 +245,7 @@ SPLASH TOP
 		display: flex;
  		box-sizing: border-box;
 		flex-direction: column;
+    position: relative;
 
 	}
 
@@ -299,6 +300,7 @@ SPLASH TOP
    box-sizing: border-box;
   flex-direction: row;
   width: 100%;
+  position: relative;
 }
 
 } 
