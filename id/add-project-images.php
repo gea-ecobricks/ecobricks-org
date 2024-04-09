@@ -5,7 +5,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='2.12';?>
+<?php $version='2.17';?>
 <?php $page='add-project-images';?>
 
 
