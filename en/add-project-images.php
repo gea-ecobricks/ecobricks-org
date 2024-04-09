@@ -25,11 +25,13 @@
 
  <div id="form-submission-box" style="margin-top: 140px;display:flex;flex-flow:column;">
 
- <div class="step-graphic" style="width:fit-content;margin:auto;">
-            <img src="../svgs/step2-log-project.svg" style="height:25px;">
-        </div>
+ 
     
     <div class="form-container" id="upload-photo-form">
+
+        <div class="step-graphic" style="width:fit-content;margin:auto;">
+            <img src="../svgs/step2-log-project.svg" style="height:25px;">
+        </div>
         <h2 data-lang-id="001-form-title">Now Upload Your Images</h2>
         <p data-lang-id="002-form-description">Show the world your project!  Upload one to five images showing your construction from different angles or times.</p>
         <br><br>
@@ -39,8 +41,8 @@
             
             <div class="form-item" style="border-radius:5px;padding-left:10px;padding-right:10px;padding-top:10px;background-color:#0003;">
                 <div>
-                    <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px;margin-bottom:10px;">Feature image:</label><br>
-                    <input type="file" id="photo1_main" name="photo1_main" style=" padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;" required>
+                    <label for="photo1_main" data-lang-id="003-feature-photo" style="padding:10px;">Feature image:</label><br>
+                    <input type="file" id="photo1_main" name="photo1_main" style="padding:10px;font-size:1.2em;color:var(--text-color);border-radius:5px;background-color:#ffffff0d;margin-top:10px;" required>
                     <p class="form-caption" data-lang-id="004-feature-desc" style="padding:10px">Please choose a featured photo for this project.  Required.</p>
                 </div>
 
