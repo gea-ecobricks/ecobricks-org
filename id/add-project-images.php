@@ -37,6 +37,7 @@
 
 
         <p data-lang-id="002-form-description">Show the world your project!  Upload one to five images showing your construction from different angles or times.</p>
+        
         <p data-lang-id="002b-square-photo" style="color:red">Please upload only square photos.  Be sure photos are under 8MB.</p>
         
         <br>
