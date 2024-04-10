@@ -37,7 +37,7 @@
 
 
         <p data-lang-id="002-form-description">Show the world your project!  Upload one to five images showing your construction from different angles or times.</p>
-        
+
         <p data-lang-id="002b-square-photo" style="color:red">Please upload only square photos.  Be sure photos are under 8MB.</p>
         
         <br>
@@ -91,7 +91,11 @@
 
 
 
-    <div id="upload-success" class="form-container" style="display:none;" id="upload-progress-button">
+    <div id="upload-success" class="form-container" style="display:none;">
+    <div class="step-graphic" style="width:fit-content;margin:auto;">
+            <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 2: Upload images">
+        </div>
+        <div id="upload-success-message"></div>
            
     </div>
 
@@ -249,7 +253,8 @@ function uploadSuccess(data) {
 
     // Display the upload-success div and populate with the success message
     var uploadSuccessDiv = document.getElementById('upload-success');
-    uploadSuccessDiv.innerHTML = successMessage;
+    var uploadSuccessMessageDiv = document.getElementById('upload-success-message');
+    uploadSuccessMessageDiv.innerHTML = successMessage;
     uploadSuccessDiv.style.display = 'block';
 
     // Hide the form after upload success
