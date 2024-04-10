@@ -5,6 +5,9 @@
   
 <STYLE>
 
+.splash-image {display:flex;}
+
+.splash-image img {margin-right: auto; margin-left: 0px;}
 
 
 @media screen and (max-width: 700px) { 
