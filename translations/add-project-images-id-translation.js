@@ -12,7 +12,7 @@ const id_Page_Translations = {
     "002-form-description": "Perlihatkan proyek Anda kepada dunia! Unggah satu sampai lima gambar yang menunjukkan konstruksi Anda dari berbagai sudut atau waktu.",
     "003-feature-photo": "Gambar utama:",
     "004-feature-desc": "Silakan pilih foto utama untuk proyek ini. Diperlukan.",
-    "005-another-photo": "Pilih foto lain:",
+    "005-another-photo": "Pilih foto lain:", 
     "006-another-photo-optional": "Opsional",
     "007-another-photo": "Pilih foto lain:",
     "008-another-photo-optional": "Opsional",

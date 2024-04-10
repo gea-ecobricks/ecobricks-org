@@ -14,8 +14,8 @@ const id_Page_Translations = {
   "006-project-desc-caption": "Sediakan deskripsi singkat tentang proyek ini. Maksimal 150 kata.",
   "007-start-date": "Tanggal Mulai:",
   "008-start-date-caption": "Kapan proyek ini dimulai?",
-  "009-bricks-used": "Bata yang Digunakan:",
-  "009-bricks-used-caption": "Berapa banyak bata yang digunakan dalam proyek Anda? Masukkan angka antara 1-5000.",
+  "009-bricks-used": "Ecobrick yang Digunakan:",
+  "009-bricks-used-caption": "Berapa banyak ecobrick yang digunakan dalam proyek Anda? Masukkan angka antara 1-5000.",
   "010-est-avg-weight": "Silakan perkirakan berat rata-rata ecobrick yang digunakan dalam proyek Anda dalam gram?",
   "010-est-avg-weight-range": "Harus berupa angka antara 100 dan 2000.",
   "011-project-type": "Apa jenis proyek ini?",
@@ -37,6 +37,7 @@ const id_Page_Translations = {
   "014-project-admins": "Proyek milik siapa ini?",
   "014b-optional": "Opsional: Berikan nama-nama pemimpin proyek. Jika Anda ingin menghubungkannya dengan akun GoBrik, pastikan mengeja nama dengan benar.",
   "015-location": "Di mana proyek ini berlokasi?",
+  "015-location-field-placeholder":'<input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Daftar kota..." required>',
   "016-location-caption": "Demi privasi, tolong jangan gunakan alamat Anda yang sebenarnya, pilih wilayah atau kota umum Anda. Lokasi proyek akan ditampilkan di peta proyek kami.",
   "017-submit-button": `<input type="submit" value="Selanjutnya: Unggah Foto ➡️" aria-label="Kirim Formulir">`
 };
