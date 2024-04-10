@@ -93,10 +93,10 @@
 
     <div id="upload-success" class="form-container" style="display:none;">
     <div class="step-graphic" style="width:fit-content;margin:auto;">
-            <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 2: Upload images">
+            <img src="../svgs/step3-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
         </div>
         <div id="upload-success-message"></div>
-           
+        <a class="confirm-button" href="project-details.php#<?php echo $_GET['project_id']; ?>">🎉 View Project Post</a>
     </div>
 
 </div>
