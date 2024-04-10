@@ -5,7 +5,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='2.2';?>
+<?php $version='2.23';?>
 <?php $page='add-project-images';?>
 
 
@@ -31,7 +31,7 @@
                 <div class="splash-heading" data-lang-id="001-form-title">Now Upload Your Images</div>
             </div>
             <div class="splash-image" data-lang-id="003-splash-image-alt">
-                <img src="../svgs/square-photo.svg" style="width:65%" alt="Please take a square photo">
+                <img src="../svgs/square-photo.svg?v=2" style="width:65%" alt="Please take a square photo">
             </div>
         </div>
 
