@@ -15,7 +15,7 @@ ini_set('display_errors', 1);?>
 	include '../ecobricks_env.php';
 	include '../ssp.class.php';
 
-
+?>
 
 
 </div>
