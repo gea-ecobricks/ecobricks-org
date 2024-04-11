@@ -100,45 +100,41 @@ ini_set('display_errors', 1);?>
 			
 			</div>
 			<div id="data-chunk">
-				<div class="ecobrick-data">
-					<p style="margin-left: -32px;font-weight: bold;" data-lang-id="125"> +++ Raw  Data Record</p><br>
-					<p>--------------------</p>
-					<p data-lang-id="126">BEGIN PROJECT RECORD ></p>';
+    <div class="ecobrick-data">
+        <p style="margin-left: -32px;font-weight: bold;" data-lang-id="125"> +++ Raw  Data Record</p><br>
+        <p>--------------------</p>
+        <p data-lang-id="126">BEGIN PROJECT RECORD ></p>';
 
-                    echo ' <p><b data-lang-id="128">Project name:</b> <var>'. $array["name"] .' </var></p>' ;
-                    echo ' <p><b data-lang-id="127">Started:</b> ' . $array["start"] .'</p>' ;
-			
-			echo ' <p><b data-lang-id="129">Short Description:</b> <var>' . $array["description"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="130">End:</b> <var>' . $array["project_end"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="131">Briks Required</b><var>' . $array["briks_required"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="132">Project Phase:</b> <var>' . $array["project_phase"] .'</var></p>' ;
+      
+            echo ' <p><b data-lang-id="128">Project name:</b> ' . $array["name"] . '</p>';
+            echo ' <p><b data-lang-id="127">Started:</b> ' . $array["start"] . '</p>';
+            echo ' <p><b data-lang-id="129">Short Description:</b> ' . $array["description"] . '</p>';
+            echo ' <p><b data-lang-id="130">End:</b> ' . $array["project_end"] . '</p>';
+            echo ' <p><b data-lang-id="131">Briks Required:</b> ' . $array["briks_required"] . '</p>';
+            echo ' <p><b data-lang-id="132">Project Phase:</b> ' . $array["project_phase"] . '</p>';
+            echo ' <p><b data-lang-id="133">Percent Complete:</b> <i>' . $array["project_perc_complete"] . '</i>&#8202;%</p>';
+            echo ' <p><b data-lang-id="134">Community:</b> ' . $array["community"] . '</p>';
+            echo ' <p><b data-lang-id="135">Project type:</b> ' . $array["project_type"] . '</p>';
+            echo ' <p><b data-lang-id="136">Construction Type:</b> ' . $array["construction_type"] . '</p>';
+            echo ' <p><b data-lang-id="137">Ecobricks Used:</b> ' . $array["briks_used"] . '</p>';
+            echo ' <p><b data-lang-id="138">Average Brik Weight:</b> ' . $array["est_avg_brik_weight"] . '&#8202;g</p>';
+            echo ' <p><b data-lang-id="139">Location:</b> ' . $array["location_full"] . '</p>';
+            // echo ' <p><b data-lang-id="140">Geo:</b> ' . $array["location_geo"] . '</p>';
+            echo ' <p><b data-lang-id="141">Project URL:</b> ' . $array["project_url"] . '</p>';
+            echo ' <p><b data-lang-id="142">Admins:</b> ' . $array["project_admins"] . '</p>';
+            echo ' <p><b data-lang-id="143">Feature Photo URL:</b> ' . $array["photo1_main"] . '</p>';
+            echo ' <p><b data-lang-id="144">Photo 2:</b> ' . $array["photo2_main"] . '</p>';
+            echo ' <p><b data-lang-id="145">Photo 3:</b> ' . $array["photo3_main"] . '</p>';
+            echo ' <p><b data-lang-id="146">Photo 4:</b> ' . $array["photo4_main"] . '</p>';
+            echo ' <p><b data-lang-id="147">Photo 5:</b> ' . $array["photo5_main"] . '</p>';
+            echo ' <p><b data-lang-id="148">Estimate Total Weight:</b> ' . $array["est_total_weight"] . '&#8202;kg</p>';
+            echo ' <p><b data-lang-id="149">Logged:</b> ' . $array["date_logged_ts"] . '</p>';
+            echo ' <p><b data-lang-id="149b">Ready to Show:</b> ' . $array["ready_to_show"] . '</p>';
+            echo ' <p data-lang-id="150"> ||| END RECORD.</p>
+    
+    </div>
+</div>
 
-			echo ' <p><b data-lang-id="133">Percent Complete:</b> <var><i>' . $array["project_perc_complete"] .'</i>&#8202;%</var> </p>' ;
-			echo ' <p><b data-lang-id="134">Community:</b> <var>' . $array["community"].'</var></p>' ;
-			echo ' <p><b data-lang-id="135">Project type:</b> <var>' . $array["project_type"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="136">Construction Type:</b> ' . $array["construction_type"] .'</p>' ;
-
-			echo ' <p><b data-lang-id="137">Ecobricks Used:</b>  ' . $array["briks_used"] .'</p>' ;
-
-			echo ' <p><b data-lang-id="138">Average Brik Weight:</b> <var>' . $array["est_avg_brik_weight"] .'&#8202;g</var></p>' ;
-			echo ' <p><b data-lang-id="139">Location:</b> <var>' . $array["location_full"] .'</var></p>' ;
-			// echo ' <p><b data-lang-id="140">Geo:</b> <var>' . $array["location_geo"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="141">Project URL:</b> ' . $array["project_url"] .'</p>' ;
-			echo ' <p><b data-lang-id="142">Admins:</b> <var>' . $array["project_admins"] .'</var></p>' ;
-
-
-			echo ' <p><b data-lang-id="143">Feature Photo URL:</b> ' . $array["photo1_main"] .'</var></p>' ;
-			echo ' <p><b data-lang-id="144">Photo 2:</b> <var>' . $array["photo2_main"] .'</var> </p>' ;
-			echo ' <p><b data-lang-id="145">Photo 3:</b> <var>' . $array["photo3_main"] .'</var> </p>' ;
-			echo ' <p><b data-lang-id="146">Photo 4:</b> <var>' . $array["photo4_main"] .'</var> </p>' ;
-			echo ' <p><b data-lang-id="147">Photo 5:</b> <var>' . $array["photo5_main"] .'</var></p>' ;
-
-			echo ' <p><b data-lang-id="148">Estimate Total Weight:</b> <var>' . $array["est_total_weight"] .'&#8202;kg</var></p>' ;
-			echo ' <p><b data-lang-id="149">Logged</b> <var> ' . $array["date_logged_ts"] .'</p>' ;
-            echo ' <p><b data-lang-id="149b">Ready to Show:</b> <var> ' . $array["ready_to_show"] .'</p>
-			<p data-lang-id="150"> ||| END RECORD.</p>
-				</div>
-			</div>
 			' ;
 
 			echo '
