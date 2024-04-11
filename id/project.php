@@ -11,7 +11,6 @@
 	include '../ecobricks_env.php';
 	include '../ssp.class.php';
 
-	// Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.  See: https://www.w3schools.com/php/php_mysql_select_where.asp1
 	$projectId = $_GET['project_id'];
 
 	$sql = "SELECT * FROM tb_projects WHERE project_id = '" . $projectId . "'";
@@ -88,20 +87,11 @@ echo '
 					
 					
 					
-		// 			<div class="page-paragraph">
-		// 				<p>'. $array["description"] .'</p>
-		// 				<br>
-		// 			</div>
-		// 		</div>';
-
-			
-
-		// 	if ( isset($array["selfie_photo_url"]) && $array["selfie_photo_url"] != '' ) {
-		// 		echo '<div class="side-details">
-		// 		<img src="'. $array["selfie_photo_url"] .'" width="100%">
-		// 	</div>
-		// ';
-		// 	}
+					<div class="page-paragraph">
+						<p>'. $array["description"] .'</p>
+						<br>
+					</div>
+				</div>';
 				
 
 			echo '
