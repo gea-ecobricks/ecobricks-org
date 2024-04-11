@@ -11,8 +11,6 @@ ini_set('display_errors', 1);?>
  
 <?php 
 
-
-
 	require_once ("../includes/project-inc.php");
 	include '../ecobricks_env.php';
 	include '../ssp.class.php';
@@ -20,6 +18,8 @@ ini_set('display_errors', 1);?>
 	$projectId = $_GET['project_id'];
 
 	$sql = "SELECT * FROM tb_projects WHERE project_id = '" . $projectId . "'";
+
+    
 
 	$result = $conn->query($sql);
 	if ($result->num_rows > 0) {
