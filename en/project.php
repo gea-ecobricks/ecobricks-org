@@ -16,32 +16,9 @@ ini_set('display_errors', 1);?>
 	require_once ("../includes/project-inc.php");
 	?>
 		
-
-            <?php require_once ("side-modules/good-use.php");?>
-
-            <?php require_once ("side-modules/sequest-module.php");?>
-
-            <?php require_once ("side-modules/signup-now.php");?>
-                
-            <?php require_once ("side-modules/transition-module.php");?>
-
-            <?php require_once ("side-modules/earthen-ethics.php");?>
-
-
 		</div>
 
-	</div>
-</div>
-
-
-
-	<!--FOOTER STARTS HERE-->
-
-	<?php require_once ("../footer-2024.php");?>
-
-
-
-
+hello
 
 </div>
 </body>
