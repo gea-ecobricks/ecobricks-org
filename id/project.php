@@ -36,47 +36,41 @@
 		</div>
 	
 		<div id="splash-bar"></div>
-		';
-	
+		
+        <div id="main-content">
+            <div class="row">
+                <div class="main">
+                    <div class="row-details">
 
-echo '
-<div id="main-content">
-	<div class="row">
-		<div class="main">
-			<div class="row-details">';
-
- 
-            
-	
-			
-			echo '<div class="lead-page-paragraph">
-						<p><b>'. $array["name"] .' <span data-lang-id="110">is a</span>'. $array["project_type"].' project using</span>'. $array["construction_type"] .' in '. $array["location_full"] .'<span data-lang-id="112"> The project is made from '. $array["briks_used"] .' resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'&#8202;kf of plastic. </p>
-					</div>
+			            <div class="lead-page-paragraph">
+                            <p><b>'. $array["name"] .' <span data-lang-id="110">is a</span>'. $array["project_type"].' project using</span>'. $array["construction_type"] .' in '. $array["location_full"] .'<span data-lang-id="112"> The project is made from '. $array["briks_used"] .' resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'&#8202;kg of plastic. </p>
+                        </div>
                     
-                    <div id="three-column-gal" class="three-column-gal">
-                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali\')">
-                            <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
-                            <p>Mud Mosque in Djene, Mali</p>
-                        </div>
-                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth2.jpg', '16th Century Tudor Cob Home, England\')">
-                            <img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England">
-                            <p>16th Century Tudor Cob Home, England</p>
-                        </div>
-                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth3.jpg', 'Ancient Navajo Dwelling\')">
-                            <img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling">
-                            <p>Ancient Navajo Dwelling, New Mexico, America</p>
-                        </div>
-                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-garden.jpeg?v=2', 'A simple raised bed garden bench.\')">
-                            <img src="../photos/earth-garden.jpeg?v=2" alt="A simple raised bed garden bench.">
-                            <p>A simple raised bed garden bench -- Indonesia</p>
-                        </div>
-                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-well.jpeg', 'A circular cob and ecobrick construction.\')">
-                            <img src="../photos/earth-well.jpeg" alt="A circular cob and ecobrick construction.">
-                            <p>A spiral cob and ecobrick construction -- UK</p>
-                        </div>
-                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-snake.jpeg', 'An ecobrick snake play-bench for a public park.\')">
-                            <img src="../photos/earth-snake.jpeg" alt="An ecobrick snake play-bench for a public park.">
-                            <p>An ecobrick snake play-bench for a public park -- Philippines</p>
+                        <div id="three-column-gal" class="three-column-gal">
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali\')">
+                                <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
+                                <p>Mud Mosque in Djene, Mali</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth2.jpg', '16th Century Tudor Cob Home, England\')">
+                                <img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England">
+                                <p>16th Century Tudor Cob Home, England</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth3.jpg', 'Ancient Navajo Dwelling\')">
+                                <img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling">
+                                <p>Ancient Navajo Dwelling, New Mexico, America</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-garden.jpeg?v=2', 'A simple raised bed garden bench.\')">
+                                <img src="../photos/earth-garden.jpeg?v=2" alt="A simple raised bed garden bench.">
+                                <p>A simple raised bed garden bench -- Indonesia</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-well.jpeg', 'A circular cob and ecobrick construction.\')">
+                                <img src="../photos/earth-well.jpeg" alt="A circular cob and ecobrick construction.">
+                                <p>A spiral cob and ecobrick construction -- UK</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-snake.jpeg', 'An ecobrick snake play-bench for a public park.\')">
+                                <img src="../photos/earth-snake.jpeg" alt="An ecobrick snake play-bench for a public park.">
+                                <p>An ecobrick snake play-bench for a public park -- Philippines</p>
+                            </div>
                         </div>;'
 
 	
@@ -88,7 +82,7 @@ echo '
 					
 					
 					<div class="page-paragraph">
-						<p>'. $array["description"] .'</p>
+						<p>'. $array["long_description"] .'</p>
 						<br>
 					</div>
 				</div>';
@@ -145,7 +139,7 @@ echo '
 			
 				<p data-lang-id="152">There are all sorts of ways to build with ecobricks!  We invite you to get inspired by our searchable arcive of ecobrick projects.  Search by location, project type, construction type and location.</p>
 
-			<p data-lang-id="153">Then, when you\'re ready to go, check out our ecobrick building guidelines.  We\'ve got in-depth resources on general building, modules, open space, earth building and earth building techniques.</p>
+			    <p data-lang-id="153">Then, when you\'re ready to go, check out our ecobrick building guidelines.  We\'ve got in-depth resources on general building, modules, open space, earth building and earth building techniques.</p>
 				<br>
 				<p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Browse the Archive</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">The live archive of ecobrick projects around the worl.</a></p>
@@ -159,13 +153,8 @@ echo '
 			
 			echo '	<div class="side">
 
-			<div class="side-module-desktop-mobile">
-					<img src="../pngs/authenticated-ecobrick.png" width="90%" alt="Following the Earths example through eco bricking">
-					<br><h4 data-lang-id="104-side-authenticated-text">Authenticated!</h4>
-					<h5 data-lang-id="105-side-authenticated-text">This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</h5><br>
-					<a class="module-btn" href="about.php" data-lang-id="106-side-authenticated-button">GEA Standards</a>
-					<br><br>
-				</div>   ';
+	
+                  ';
 
 	}
 
