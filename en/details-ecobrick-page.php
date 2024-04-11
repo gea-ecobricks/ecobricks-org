@@ -162,7 +162,7 @@ echo '
 			<div class="splash-heading">';
 	
 			echo 'Sorry! :-(</div>
-			<div class="splash-sub" data-lang-id="151">No results for ecobrick '. $serialNo .' in the Brikchain.  Most likely this is because the Brikchain data is still in migration.</div>
+			<div class="splash-sub" data-lang-id="151x">No results for ecobrick '. $serialNo .' in the Brikchain.  Most likely this is because the Brikchain data is still in migration.</div>
 		</div>
 		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
 	</div>
@@ -178,7 +178,7 @@ echo '
 				
 			
 			<div class="ecobrick-data">
-			<p data-lang-id="152">🚧 The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.  This could be because of transfer delay.  Normally publishing occurs within 30 seconds of authentication.  If more than 24hrs has passed, an error has occurred or this ecobrick was not authenticated.
+			<p data-lang-id="152x">🚧 The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.  This could be because of transfer delay.  Normally publishing occurs within 30 seconds of authentication.  If more than 24hrs has passed, an error has occurred or this ecobrick was not authenticated.
 				</p></div><br><br><br><br>
 				
 				<div class="page-paragraph">
