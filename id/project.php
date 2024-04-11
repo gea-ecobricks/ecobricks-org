@@ -44,30 +44,52 @@ echo '
 <div id="main-content">
 	<div class="row">
 		<div class="main">
-		// 	<div class="row-details">';
+			<div class="row-details">';
 
-        //     if (isset($array["vision"]) && $array["vision"] != '' && $array["vision"] != '""') {
-        //         echo '<p><div class="vision-quote"> "'. str_replace('"', "", $array["vision"]) . '"  </div></p>';
-        //     }
+ 
             
 	
 			
-		// 	echo '<div class="lead-page-paragraph">
-		// 				<p><b>'. $array["owner"] .' <span data-lang-id="110">has ecobricked </span> '. $array["weight_g"] .'&#8202;g<span data-lang-id="111"> of community plastic in </span>'. $array["location_city"] .', '. $array["location_country"] .'<span data-lang-id="112"> using a </span>'. $array["volume_ml"] .'ml <span data-lang-id="113"> bottle to make a </span>'. $array["sequestration_type"].'.</b></p>
-		// 			</div>';
+			echo '<div class="lead-page-paragraph">
+						<p><b>'. $array["name"] .' <span data-lang-id="110">is a</span>'. $array["project_type"].' project using</span>'. $array["construction_type"] .' in '. $array["location_full"] .'<span data-lang-id="112"> The project is made from '. $array["briks_used"] .' resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'&#8202;kf of plastic. </p>
+					</div>
+                    
+                    <div id="three-column-gal" class="three-column-gal">
+                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali\')">
+                            <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
+                            <p>Mud Mosque in Djene, Mali</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth2.jpg', '16th Century Tudor Cob Home, England\')">
+                            <img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England">
+                            <p>16th Century Tudor Cob Home, England</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth3.jpg', 'Ancient Navajo Dwelling\')">
+                            <img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling">
+                            <p>Ancient Navajo Dwelling, New Mexico, America</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-garden.jpeg?v=2', 'A simple raised bed garden bench.\')">
+                            <img src="../photos/earth-garden.jpeg?v=2" alt="A simple raised bed garden bench.">
+                            <p>A simple raised bed garden bench -- Indonesia</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-well.jpeg', 'A circular cob and ecobrick construction.\')">
+                            <img src="../photos/earth-well.jpeg" alt="A circular cob and ecobrick construction.">
+                            <p>A spiral cob and ecobrick construction -- UK</p>
+                        </div>
+                        <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-snake.jpeg', 'An ecobrick snake play-bench for a public park.\')">
+                            <img src="../photos/earth-snake.jpeg" alt="An ecobrick snake play-bench for a public park.">
+                            <p>An ecobrick snake play-bench for a public park -- Philippines</p>
+                        </div>;'
 
 	
 
 				
 
-		// 	echo ' <div class="main-details">
+		 echo ' <div class="main-details">
 					
 					
 					
 		// 			<div class="page-paragraph">
-		// 				<p><span data-lang-id="114">This ecobrick was with a density of </span>'. $array["density"] .'&#8202;g/ml <span data-lang-id="115">and represents </span>'. $array["CO2_kg"] .'&#8202;kg <span data-lang-id="116">of sequestered C02. The ecobrick is permanently marked with Serial Number </span>'. $array["serial_no"] .'<span data-lang-id="117"> and on </span>'. $array["date_logged_ts"] .'<span data-lang-id="118"> was automatically added to the validation queue.  Based in </span>'. $array["location_region"] .', '. $array["owner"] .'<span data-lang-id="119"> and their community </span>'. $array["community_name"] .', <span data-lang-id="120"> are working hard to keep plastic out of the biosphere in </span>'. $array["location_country"] .'. </p>
-
-		// 				<p><span data-lang-id="121">On </span>'. $array["date_logged_ts"] .'<span data-lang-id="122"> the ecobrick was authenticated with an average validation score of </span>'. $array["final_validation_score"] .'.<span data-lang-id="123"> The ecobrick’s authentication generated </span>'. $array["ecobrick_dec_brk_val"] .'&#8202;ß. <span data-lang-id="124">The ecobrick was ranked with the score of </span>'. $array["validation_score_avg"] .'.</p>
+		// 				<p>'. $array["description"] .'</p>
 		// 				<br>
 		// 			</div>
 		// 		</div>';
