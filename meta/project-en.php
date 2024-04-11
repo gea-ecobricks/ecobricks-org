@@ -8,7 +8,7 @@ include '../ecobricks_env.php';
 $serialNo = $_GET['serial_no'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = " . $serialNo;
+$sql = "SELECT * FROM tb_ecobricks WHERE project_id = " . $projectId;
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -16,22 +16,18 @@ if ($result->num_rows > 0) {
     //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row 
     while($array = $result->fetch_assoc()) {
 
-		echo '<title>Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .'g of plastic sequestered by '. $array["owner"] .' in '. $array["location_full"] .'.</title>';
+		echo '<title>Project '. $array["project_id"] .' | '. $array["name"] .' in '. $array["location_full"] .'.</title>';
 
-        echo '<meta name="description" content="An authenticated ecobrick that was published and archived on the brikcoin manual blockchain on ' . $array["last_validation_ts"] .'">';
+        echo '<meta name="description" content="' . $array["description"] .'">';
 
-        if ( isset($array["vision"]) && $array["vision"] != '' ) {
-            echo '<meta name="description" content="'. $array["vision"] .'">';
-    
-        }
 
-		echo '<meta name="keywords" content="ecobrick, serial '. $array["owner"] .', '. $array["owner"] .', brikchain, brikcoin, brik record, plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["location_full"] .'">';
+		echo '<meta name="keywords" content="ecobrick, serial '. $array["project_admin"] .', '. $array["construction_type"] .','. $array["project_type"] .', plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["location_full"] .'">';
 
-        echo '<meta property="og:url"           content="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='. $array["serial_no"] .'"/>' ;
-        echo '<meta property="og:title"         content="Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .'g of plastic sequestered by '. $array["owner"] .' in '. $array["location_full"] .'.">';
-        echo '<meta property="og:description"   content="An authenticated ecobrick that was published and archived on the brikcoin manual blockchain on ' . $array["last_validation_ts"] .'"/>';
-        echo '<meta property="og:image"         content="'. $array["ecobrick_full_photo_url"] .'"/>';
-        echo '<meta property="og:image:alt"     content="The brikchain record of an authenticated ecobrick on the brikchain"/>';
+        echo '<meta property="og:url"           content="https://ecobricks.org/en/project.php?project_id='. $array["project_id"] .'"/>' ;
+        echo '<meta property="og:title"         content="Project '. $array["project_id"] .' | '. $array["est_total_weight"] .'kg of plastic sequestered by ecobrickers '. $array["project_admins"] .' in '. $array["location_full"] .'.">';
+        echo '<meta property="og:description"   content="' . $array["description"] .'"/>';
+        echo '<meta property="og:image"         content="'. $array["photo1_main"] .'"/>';
+        echo '<meta property="og:image:alt"     content="A photo of our ecobrick project"/>';
         echo '<meta property="og:locale" content="en_GB" />';
         echo '<meta property="og:type"          content="website">';
  	   
@@ -39,7 +35,7 @@ if ($result->num_rows > 0) {
         echo '<meta property="og:type" content="article" />
         <meta property="og:site_name" content="Ecobricks.org" />
         <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
-        <meta property="article:modified_time" content="'. $array["last_validation_ts"] .'" />
+        <meta property="article:modified_time" content="'. $array["date_logged_ts"] .'" />
         <meta property="og:image:type" content="image/png" />
         <meta name="author" content="Global Ecobrick Alliance" />
         <meta name="twitter:card" content="summary" />

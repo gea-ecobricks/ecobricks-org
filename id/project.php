@@ -25,7 +25,7 @@
 		'<div class="splash-content-block">
 			<div class="splash-box">
 	
-				<div class="splash-heading"><span data-lang-id="001-splash-title">Ecobrick</span> ' . htmlspecialchars($array["project_name"], ENT_QUOTES, 'UTF-8') . '</div>
+				<div class="splash-heading"><span data-lang-id="001-splash-title">Project</span> ' . htmlspecialchars($array["name"], ENT_QUOTES, 'UTF-8') . '</div>
 				
 				<div class="splash-sub">' . htmlspecialchars($array["description"], ENT_QUOTES, 'UTF-8') . '</div>
 			</div>
@@ -163,7 +163,7 @@ echo '
 			<div class="splash-heading">';
 	
 			echo 'Sorry! :-(</div>
-			<div class="splash-sub" data-lang-id="151">No results for project '. $project_id .' in our database.</div>
+			<div class="splash-sub" data-lang-id="151">No results for project '. $projectId .' in our database.</div>
 		</div>
 		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
 	</div>
@@ -179,7 +179,7 @@ echo '
 				
 			
 			<div class="ecobrick-data">
-			<p data-lang-id="152">🚧 The data for project '. $project_id .' has not yet been migrated to the blockchain.  This could be because of transfer delay.  Normally publishing occurs within 30 seconds of authentication.  If more than 24hrs has passed, an error has occurred or this ecobrick was not authenticated.
+			<p data-lang-id="152">🚧 The data for project '. $projectId .' has not yet been migrated to the blockchain.  This could be because of transfer delay.  Normally publishing occurs within 30 seconds of authentication.  If more than 24hrs has passed, an error has occurred or this ecobrick was not authenticated.
 				</p></div><br><br><br><br>
 				
 				<div class="page-paragraph">
