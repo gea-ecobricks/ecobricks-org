@@ -52,7 +52,7 @@ ini_set('display_errors', 1);?>
 			            <div class="lead-page-paragraph">
                             <p>'. $array["name"] .' <span data-lang-id="110">is a</span>'. $array["project_type"].' project using</span>'. $array["construction_type"] .' in '. $array["location_full"] .'<span data-lang-id="112"> The project is made from '. $array["briks_used"] .' ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'kg of plastic. </p>
                         </div>
-                   
+                   <br><br>
                     <div id="three-column-gal" class="three-column-gal">';
  
     // Loop through the available photos (up to 5)
@@ -70,14 +70,7 @@ ini_set('display_errors', 1);?>
   echo '
 </div>';
 
-
-	
-
-				
-
 		 echo ' <div class="main-details">
-					
-					
 					
 					<div class="page-paragraph">
 						<p>'. $array["long_description"] .'</p>

@@ -1,16 +1,15 @@
 
 
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="id"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='2.1';?>
+<?php $lang='id';?>
+<?php $version='2.23';?>
 <?php $page='add-project-images';?>
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
-
 
 <div class="splash-content-block"></div>
 <div id="splash-bar"></div>
@@ -25,12 +24,25 @@
         <div class="step-graphic" style="width:fit-content;margin:auto;">
             <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 2: Upload images">
         </div>
-        <div class="splash-heading" data-lang-id="001-form-title">Now Upload Your Images</div>
+
+        <div class="splash-form-content-block">  
+            <div class="splash-box">
+        
+                <div class="splash-heading" data-lang-id="001-form-title">Now Upload Your Images</div>
+            </div>
+            <div class="splash-image" data-lang-id="003-splash-image-alt">
+                <img src="../svgs/square-photo.svg?v=2" style="width:65%" alt="Please take a square photo">
+            </div>
+        </div>
+
+
         <p data-lang-id="002-form-description">Show the world your project!  Upload one to five images showing your construction from different angles or times.</p>
-        <br><hr>
+
+        <p data-lang-id="002b-square-photo" style="color:red">Please upload only square photos.  Be sure photos are under 8MB.</p>
+        
         <br>
         
-        <form id="photoform" action="../add_project_images.php" method="post" enctype="multipart/form-data">
+        <form id="photoform" action="add_project_images.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
       <!-- Photo 1 Main & Thumbnail -->
 <div class="form-item">
@@ -79,15 +91,19 @@
 
 
 
-    <div id="upload-success" class="form-container" style="display:none;" id="upload-progress-button">
-           
+    <div id="upload-success" class="form-container" style="display:none;">
+    <div class="step-graphic" style="width:fit-content;margin:auto;">
+            <img src="../svgs/step3-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
+        </div>
+        <div id="upload-success-message"></div>
+        <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">🎉 View Project Post</a>
     </div>
 
 </div>
 
   
-<p style="width:100%; text-align: center;"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" data-lang-id="014-go-back-link">↩ Back to Step 1</a></p>
-<br><br>
+<p style="width:100%; text-align: center;" data-lang-id="014-go-back-link"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" >↩ Back to Step 1</a></p>
+<br><br>test
 
 
        
@@ -237,11 +253,15 @@ function uploadSuccess(data) {
 
     // Display the upload-success div and populate with the success message
     var uploadSuccessDiv = document.getElementById('upload-success');
-    uploadSuccessDiv.innerHTML = successMessage;
+    var uploadSuccessMessageDiv = document.getElementById('upload-success-message');
+    uploadSuccessMessageDiv.innerHTML = successMessage;
     uploadSuccessDiv.style.display = 'block';
 
     // Hide the form after upload success
     document.getElementById('upload-photo-form').style.display = 'none';
+
+        // Scroll to the top of the page
+        window.scrollTo(0, 0);
 }
 
 
