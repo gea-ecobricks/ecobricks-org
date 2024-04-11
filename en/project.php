@@ -159,10 +159,6 @@ ini_set('display_errors', 1);?>
 				</div>
 			</div>';
 			
-			echo '	<div class="side">
-
-	
-                  ';
 
 	}
 
@@ -177,13 +173,11 @@ echo '
 			<div class="splash-heading">';
 	
 			echo 'Sorry! :-(</div>
-			<div class="splash-sub" data-lang-id="151">No results for project '. $projectId .' in our database.</div>
+			<div class="splash-sub" data-lang-id="151">There are no results for project '. $projectId .' in our database.</div>
 		</div>
 		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
 	</div>
 	<div id="splash-bar"></div>
-
-	<a name="top"></a>
 
 	<div id="main-content">
 		<div class="row">
@@ -192,31 +186,34 @@ echo '
 
 				
 			
-			<div class="ecobrick-data">
-			<p data-lang-id="152">🚧 The data for project '. $projectId .' has not yet been migrated to the blockchain.  This could be because of transfer delay.  Normally publishing occurs within 30 seconds of authentication.  If more than 24hrs has passed, an error has occurred or this ecobrick was not authenticated.
+			<div class="lead-page-paragraph">
+			<p data-lang-id="152">🚧 The data for project '. $projectId .' has not yet been publsihed to the ecobricks.org database.  Most likely, the project ID is mis-entered in the URL.
 				</p></div><br><br><br><br>
 				
 				<div class="page-paragraph">
-				<p><h3 data-lang-id="154">The Brikchain</h3></p>
+				<h3><p data-lang-id="151">Ecobrick Applications</p></h3>
 			
-				<p data-lang-id="155">When an ecobrick is authenticated, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find authenticated ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
+				<p data-lang-id="152">There are all sorts of ways to build with ecobricks!  We invite you to get inspired by our searchable arcive of ecobrick projects.  Search by location, project type, construction type and location.</p>
 
-			<p data-lang-id="156">As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+			    <p data-lang-id="153">Then, when you\'re ready to go, check out our ecobrick building guidelines.  We\'ve got in-depth resources on general building, modules, open space, earth building and earth building techniques.</p>
 				<br>
-				<p><a class="action-btn-blue" href="brikchain.php" data-lang-id="157">🔎 Browse the Brikchain</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="158">The live chain of transactions and ecobricks.</a></p>
-				</div>
-			</div>
+				<p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Browse the Archive</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">The live archive of ecobrick projects around the worl.</a></p>
 
-			<div class="side">
-		  
-		';
+                <p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Ecobrick Applications</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">An overview of ecobrick applications.</a></p>
+
+
+				</div>
+			</div>';
+
+	
 		}
 		$conn->close();
 
 		?>
 		
-
+        <div class="side">
             <?php require_once ("side-modules/good-use.php");?>
 
             <?php require_once ("side-modules/sequest-module.php");?>
