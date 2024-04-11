@@ -13,7 +13,6 @@ $sql = "SELECT * FROM tb_projects WHERE project_id = " . $projectId;
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 	
-    //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row 
     while($array = $result->fetch_assoc()) {
 
 		echo '<title>Project '. $array["project_id"] .' | '. $array["name"] .' in '. $array["location_full"] .'.</title>';
