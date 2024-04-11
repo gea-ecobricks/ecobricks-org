@@ -1,5 +1,9 @@
 <?php
 
+
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 // Include necessary environment setup 
 include '../ecobricks_env.php';
 
@@ -21,6 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Set parameters from the form, including the new field
     $name = $_POST['name'];
     $description = $_POST['description'];
+    $long_description = $_POST['long_description'];
     $start = $_POST['start'];
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight']; // New field
