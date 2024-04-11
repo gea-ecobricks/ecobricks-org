@@ -29,7 +29,7 @@ ini_set('display_errors', 1);?>
 		'<div class="splash-content-block">
 			<div class="splash-box">
 	
-				<div class="splash-heading"><span data-lang-id="001-splash-title">Project</span> ' . htmlspecialchars($array["name"], ENT_QUOTES, 'UTF-8') . '</div>
+				<div class="splash-heading">' . htmlspecialchars($array["name"], ENT_QUOTES, 'UTF-8') . '</div>
 				
 				<div class="splash-sub">' . htmlspecialchars($array["description"], ENT_QUOTES, 'UTF-8') . '</div>
 			</div>
@@ -52,21 +52,21 @@ ini_set('display_errors', 1);?>
 			            <div class="lead-page-paragraph">
                             <p>'. $array["name"] .' <span data-lang-id="110">is a</span>'. $array["project_type"].' project using</span>'. $array["construction_type"] .' in '. $array["location_full"] .'<span data-lang-id="112"> The project is made from '. $array["briks_used"] .' ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'kg of plastic. </p>
                         </div>
-                   <br><br>
-                    <div id="three-column-gal" class="three-column-gal">';
+                   
+                        <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
  
-    // Loop through the available photos (up to 5)
-    for ($i = 1; $i <= 5; $i++) {
-        $photo_main = $array["photo{$i}_main"];
-        $photo_tmb = $array["photo{$i}_tmb"];
-        
-        // Check if the photo exists
-        if (!empty($photo_main) && !empty($photo_tmb)) {
-            echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . $photo_main . '\', \'Project photo ' . $i . '\')">
-                    <img src="../' . $photo_tmb . '">
-                  </div>';
-        }
-    }
+                        // Loop through the available photos (up to 5)
+                        for ($i = 1; $i <= 5; $i++) {
+                            $photo_main = $array["photo{$i}_main"];
+                            $photo_tmb = $array["photo{$i}_tmb"];
+                            
+                            // Check if the photo exists
+                            if (!empty($photo_main) && !empty($photo_tmb)) {
+                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . $photo_main . '\', \'Project photo ' . $i . ' | '. $array["name"] .' \')">
+                                        <img src="../' . $photo_tmb . '">
+                                    </div>';
+                            }
+                        }
   echo '
 </div>';
 

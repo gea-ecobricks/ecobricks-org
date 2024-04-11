@@ -1,13 +1,10 @@
 <?php
 
-
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 // Include necessary environment setup 
 include '../ecobricks_env.php';
-
-
 
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -41,6 +38,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the last inserted project_id
         $project_id = $conn->insert_id;
 
+        // Update `date_logged_ts` to current date and time
+        $current_datetime = date("Y-m-d H:i:s");
+        $update_date_sql = "UPDATE tb_projects SET date_logged_ts = ? WHERE project_id = ?";
+        $update_date_stmt = $conn->prepare($update_date_sql);
+        $update_date_stmt->bind_param("si", $current_datetime, $project_id);
+        $update_date_stmt->execute();
+        $update_date_stmt->close();
+
+        // Calculate `est_total_weight`
+        $est_total_weight = ($briks_used * $est_avg_brik_weight) / 1000;
+
+        // Update `est_total_weight`
+        $update_weight_sql = "UPDATE tb_projects SET est_total_weight = ? WHERE project_id = ?";
+        $update_weight_stmt = $conn->prepare($update_weight_sql);
+        $update_weight_stmt->bind_param("di", $est_total_weight, $project_id);
+        $update_weight_stmt->execute();
+        $update_weight_stmt->close();
+
         // Statement and connection closing
         $stmt->close();
         $conn->close();
@@ -54,7 +69,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Ideally, implement error handling or logging here
     }
 }
-?>
+?> 
+
 
 
 <!DOCTYPE html>
@@ -62,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.978';?>
+<?php $version='1.979';?>
 <?php $page='add-project';?>
 
 
