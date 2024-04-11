@@ -55,30 +55,28 @@ ini_set('display_errors', 1);?>
                     
                     
                         <div id="three-column-gal" class="three-column-gal">
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali\')">
-                                <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
-                                <p>Mud Mosque in Djene, Mali</p>
+
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo1_main"] . '', 'Project feature photo\')">
+                                <img src="../' . $array["photo1_tmb"] . '" alt="Project feature photo">
+
                             </div>
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth2.jpg', '16th Century Tudor Cob Home, England\')">
-                                <img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England">
-                                <p>16th Century Tudor Cob Home, England</p>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo2_main"] . '', 'Project photo 2\')">
+                                <img src="' . $array["photo2_tmb"] . '" alt="Project photo 2">
+                                
                             </div>
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth3.jpg', 'Ancient Navajo Dwelling\')">
-                                <img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling">
-                                <p>Ancient Navajo Dwelling, New Mexico, America</p>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo3_main"] . '', 'Project photo 3\')">
+                                <img src="../' . $array["photo3_tmb"] . '" alt="Project photo 3">
                             </div>
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-garden.jpeg?v=2', 'A simple raised bed garden bench.\')">
-                                <img src="../photos/earth-garden.jpeg?v=2" alt="A simple raised bed garden bench.">
-                                <p>A simple raised bed garden bench -- Indonesia</p>
+
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo4_main"] . '', 'Project photo 4\')">
+                            <img src="../' . $array["photo4_tmb"] . '" alt="Project photo 4">
                             </div>
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-well.jpeg', 'A circular cob and ecobrick construction.\')">
-                                <img src="../photos/earth-well.jpeg" alt="A circular cob and ecobrick construction.">
-                                <p>A spiral cob and ecobrick construction -- UK</p>
+
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo5_main"] . '', 'Project photo 5\')">
+                                <img src="../' . $array["photo5_tmb"] . '" alt="Project photo 5">
+
                             </div>
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-snake.jpeg', 'An ecobrick snake play-bench for a public park.\')">
-                                <img src="../photos/earth-snake.jpeg" alt="An ecobrick snake play-bench for a public park.">
-                                <p>An ecobrick snake play-bench for a public park -- Philippines</p>
-                            </div>
+
                         </div>';
 
 	
