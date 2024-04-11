@@ -5,7 +5,7 @@
 include '../ecobricks_env.php';
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
-$serialNo = $_GET['project_id'];
+$projectId = $_GET['project_id'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
 $sql = "SELECT * FROM tb_ecobricks WHERE project_id = " . $projectId;
