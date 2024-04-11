@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <HTML lang="en"> 
 <HEAD>
-<title>test</title>
 <META charset="UTF-8">
 <?php $lang='en';
 error_reporting(E_ALL);
@@ -43,7 +42,20 @@ ini_set('display_errors', 1);?>
 	
 		<div id="splash-bar"></div>';
 
-     
+        echo'
+		
+        <div id="main-content">
+            <div class="row">
+                <div class="main">
+                    <div class="row-details">
+
+			            <div class="lead-page-paragraph">
+                            <p><b>'. $array["name"] .' <span data-lang-id="110">is a</span>'. $array["project_type"].' project using</span>'. $array["construction_type"] .' in '. $array["location_full"] .'<span data-lang-id="112"> The project is made from '. $array["briks_used"] .' ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'kg of plastic. </p>
+                        </div>
+                    
+                       ;'
+
+	
 
 				
 
