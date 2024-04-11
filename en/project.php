@@ -56,23 +56,23 @@ ini_set('display_errors', 1);?>
                     
                         <div id="three-column-gal" class="three-column-gal">
 
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo1_main"] . '', 'Project feature photo\')">
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo1_main"] . '", 'Project feature photo\')">
                                 <img src="../' . $array["photo1_tmb"] . '">
 
                             </div>
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo2_main"] . '', 'Project photo 2\')">
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo2_main"] . '", 'Project photo 2\')">
                                 <img src="' . $array["photo2_tmb"] . '">
                                 
                             </div>
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo3_main"] . '', 'Project photo 3\')">
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo3_main"] . '", 'Project photo 3\')">
                                 <img src="../' . $array["photo3_tmb"] . '" >
                             </div>
 
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo4_main"] . '', 'Project photo 4\')">
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo4_main"] . '", 'Project photo 4\')">
                             <img src="../' . $array["photo4_tmb"] . '">
                             </div>
 
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo5_main"] . '', 'Project photo 5\')">
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo5_main"] . '", 'Project photo 5\')">
                                 <img src="../' . $array["photo5_tmb"] . '">
 
                             </div>
