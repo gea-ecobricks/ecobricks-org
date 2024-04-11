@@ -12,9 +12,9 @@
 	include '../ssp.class.php';
 
 	// Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.  See: https://www.w3schools.com/php/php_mysql_select_where.asp1
-	$serialNo = $_GET['serial_no'];
+	$projectId = $_GET['project_id'];
 
-	$sql = "SELECT * FROM tb_project WHERE project_id = '" . $projectId . "'";
+	$sql = "SELECT * FROM tb_projects WHERE project_id = '" . $projectId . "'";
 
 	$result = $conn->query($sql);
 	if ($result->num_rows > 0) {

@@ -8,7 +8,7 @@ include '../ecobricks_env.php';
 $projectId = $_GET['project_id'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM tb_ecobricks WHERE project_id = " . $projectId;
+$sql = "SELECT * FROM tb_projects WHERE project_id = " . $projectId;
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
