@@ -53,6 +53,7 @@ ini_set('display_errors', 1);?>
                             <p><b>'. $array["name"] .' <span data-lang-id="110">is a</span>'. $array["project_type"].' project using</span>'. $array["construction_type"] .' in '. $array["location_full"] .'<span data-lang-id="112"> The project is made from '. $array["briks_used"] .' ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'kg of plastic. </p>
                         </div>
                     
+                    
                         <div id="three-column-gal" class="three-column-gal">
                             <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali\')">
                                 <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
@@ -97,7 +98,7 @@ ini_set('display_errors', 1);?>
 
 			echo '
 			
-			// </div>
+			</div>
 			<div id="data-chunk">
 				<div class="ecobrick-data">
 					<p style="margin-left: -32px;font-weight: bold;" data-lang-id="125"> +++ Raw  Data Record</p><br>
@@ -175,7 +176,7 @@ echo '
 			echo 'Sorry! :-(</div>
 			<div class="splash-sub" data-lang-id="151">There are no results for project '. $projectId .' in our database.</div>
 		</div>
-		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;border:none;" alt="empty ecobrick"></div>	
+		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;border:none;box-shadow:none;" alt="empty ecobrick"></div>	
 	</div>
 	<div id="splash-bar"></div>
 
