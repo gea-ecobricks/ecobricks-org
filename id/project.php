@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <HTML lang="id"> 
 <HEAD>
+<title>test</title>
 <META charset="UTF-8">
-<?php $lang='id';?>
+<?php $lang='id';
+error_reporting(E_ALL);
+ini_set('display_errors', 1);?>
 <?php $version='2.09';?>
 <?php $page='project';?>
  
 <?php 
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 
 
 	require_once ("../includes/project-inc.php");
