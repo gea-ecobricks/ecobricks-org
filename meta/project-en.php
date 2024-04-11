@@ -4,11 +4,11 @@
 
 include '../ecobricks_env.php';
 
-// Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
+
 $projectId = $_GET['project_id'];
 
-// Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM tb_projects WHERE project_id = " . $projectId;
+$sql = "SELECT * FROM tb_projects WHERE project_id = '" . $projectId . "'";
+
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -17,7 +17,20 @@ if ($result->num_rows > 0) {
 
 		echo '<title>Project '. $array["project_id"] .' | '. $array["name"] .' in '. $array["location_full"] .'.</title>';
 
-   
+        echo '<meta name="description" content="' . $array["description"] .'">';
+
+
+		echo '<meta name="keywords" content="ecobrick, serial '. $array["project_admins"] .', '. $array["construction_type"] .','. $array["project_type"] .', plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["location_full"] .'">';
+
+        echo '<meta property="og:url"           content="https://ecobricks.org/en/project.php?project_id='. $array["project_id"] .'"/>' ;
+        echo '<meta property="og:title"         content="Project '. $array["project_id"] .' | '. $array["est_total_weight"] .'kg of plastic sequestered by ecobrickers '. $array["project_admins"] .' in '. $array["location_full"] .'.">';
+        echo '<meta property="og:description"   content="' . $array["description"] .'"/>';
+        echo '<meta property="og:image"         content="'. $array["photo1_main"] .'"/>';
+        echo '<meta property="og:image:alt"     content="A photo of our ecobrick project"/>';
+        echo '<meta property="og:locale" content="en_GB" />';
+        echo '<meta property="og:type"          content="website">';
+ 	   
+
         echo '<meta property="og:type" content="article" />
         <meta property="og:site_name" content="Ecobricks.org" />
         <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
