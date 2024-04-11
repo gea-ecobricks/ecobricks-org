@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.9778';?>
+<?php $version='1.978';?>
 <?php $page='add-project';?>
 
 
@@ -112,15 +112,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     
     <div class="form-item">
-        <label for="description" data-lang-id="004-project-desc">Short project description:</label><br>
+        <label for="description" data-lang-id="004-short-project-desc">Short project description:</label><br>
         <textarea id="description" name="description" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
-        <p class="form-caption" data-lang-id="006-project-desc-caption">Provide a once sentence description of this project. Max 150 words.</p>
+        <p class="form-caption" data-lang-id="004-short-project-desc-caption">Provide a once sentence description of this project. Max 150 words.</p>
     </div>
 
     <div class="form-item">
-        <label for="long_description" data-lang-id="004-project-desc">Full project description:</label><br>
+        <label for="long_description" data-lang-id="005-long-project-desc">Full project description:</label><br>
         <textarea id="long_description" name="long_description" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
-        <p class="form-caption" data-lang-id="006-project-desc-caption">Take as much space as you need as share the full details of your project. Max 1000 words.</p>
+        <p class="form-caption" data-lang-id="005-long-project-desc-caption">Take as much space as you need as share the full details of your project. Max 1000 words.</p>
     </div>
     
     <div class="form-item">
