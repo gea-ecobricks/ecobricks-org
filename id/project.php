@@ -129,14 +129,19 @@ echo '
 			echo '
 			<br><hr><br> 
 			<div class="page-paragraph">
-				<h3><p data-lang-id="151">The Brikchain</p></h3>
+				<h3><p data-lang-id="151">Ecobrick Applications</p></h3>
 			
-				<p data-lang-id="152">When an ecobrick is authenticated (like the one above!) it is published to the brikcoin manual blockchain and brikcoins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick as well as all the other ecobricks, blocks and transactions that underpin the Brickoin currency.</p>
+				<p data-lang-id="152">There are all sorts of ways to build with ecobricks!  We invite you to get inspired by our searchable arcive of ecobrick projects.  Search by location, project type, construction type and location.</p>
 
-			<p data-lang-id="153">As a non-capital, manual process, brikcoin generation favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+			<p data-lang-id="153">Then, when you\'re ready to go, check out our ecobrick building guidelines.  We\'ve got in-depth resources on general building, modules, open space, earth building and earth building techniques.</p>
 				<br>
-				<p ><a class="action-btn-blue" href="brikchain.php" data-lang-id="154">🔎 Browse the Brikchain</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">The live chain of transactions and ecobricks.</a></p>
+				<p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Browse the Archive</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">The live archive of ecobrick projects around the worl.</a></p>
+
+                <p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Ecobrick Applications</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">An overview of ecobrick applications.</a></p>
+
+
 				</div>
 			</div>';
 			
@@ -201,31 +206,18 @@ echo '
 		$conn->close();
 
 		?>
-
-
-
-				
-	
-
-			
-			
-
 		
-	
 
-            <div class="side-module-desktop-mobile">
-				<img src="../webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
-				<!--<h4>AES Plastic</h4>-->
-				<h5 data-lang-id="100-side-aes-text">The weight of the plastic inside an authenticated ecobrick is what we call Authenticated Ecobricked Plastic (AES plastic) for short.</h5><br>
-				<a class="module-btn" href="/aes" target="_blank" data-lang-id="101-side-aes-button">About AES</a><br><br>
-			</div>
+            <?php require_once ("side-modules/good-use.php");?>
 
-			<div class="side-module-desktop-mobile">
-				<img src="../webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
-				<h4 >Brikcoins</h4>
-				<h5 data-lang-id="102-side-brikcoins-text">When an ecobrick is authenticated, brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
-				<a class="module-btn" href="brikcoins.php" data-lang-id="103-side-brikcoins-button">About Brikcoins</a><br><br>
-			</div>
+            <?php require_once ("side-modules/sequest-module.php");?>
+
+            <?php require_once ("side-modules/signup-now.php");?>
+                
+            <?php require_once ("side-modules/transition-module.php");?>
+
+            <?php require_once ("side-modules/earthen-ethics.php");?>
+
 
 		</div>
 
