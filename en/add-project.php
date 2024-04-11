@@ -15,8 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Prepare the SQL statement
     $stmt = $conn->prepare($sql);
 
-    // Updated bind_param to include 'est_avg_brik_weight'. Assuming 'est_avg_brik_weight' is a number, use 'i' for integer.
-    $stmt->bind_param("sssisssssss", $name, $description, $start, $briks_used, $est_avg_brik_weight, $location_full, $location_geo, $project_type, $construction_type, $community, $project_admins);
+    $stmt->bind_param("ssssiissssss", $name, $description, $long_description, $start, $briks_used, $est_avg_brik_weight, $location_full, $location_geo, $project_type, $construction_type, $community, $project_admins);
 
     // Set parameters from the form, including the new field
     $name = $_POST['name'];
