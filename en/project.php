@@ -26,8 +26,55 @@ ini_set('display_errors', 1);?>
 	
     while($array = $result->fetch_assoc()) {
 
+		echo 
+		'<div class="splash-content-block">
+			<div class="splash-box">
 	
+				<div class="splash-heading"><span data-lang-id="001-splash-title">Project</span> ' . htmlspecialchars($array["name"], ENT_QUOTES, 'UTF-8') . '</div>
+				
+				<div class="splash-sub">' . htmlspecialchars($array["description"], ENT_QUOTES, 'UTF-8') . '</div>
+			</div>
+			 
+		</div>
 	
+		<div id="splash-bar"></div>
+		
+        <div id="main-content">
+            <div class="row">
+                <div class="main">
+                    <div class="row-details">
+
+			            <div class="lead-page-paragraph">
+                            <p><b>'. $array["name"] .' <span data-lang-id="110">is a</span>'. $array["project_type"].' project using</span>'. $array["construction_type"] .' in '. $array["location_full"] .'<span data-lang-id="112"> The project is made from '. $array["briks_used"] .' resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'&#8202;kg of plastic. </p>
+                        </div>
+                    
+                        <div id="three-column-gal" class="three-column-gal">
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali\')">
+                                <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
+                                <p>Mud Mosque in Djene, Mali</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth2.jpg', '16th Century Tudor Cob Home, England\')">
+                                <img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England">
+                                <p>16th Century Tudor Cob Home, England</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth3.jpg', 'Ancient Navajo Dwelling\')">
+                                <img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling">
+                                <p>Ancient Navajo Dwelling, New Mexico, America</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-garden.jpeg?v=2', 'A simple raised bed garden bench.\')">
+                                <img src="../photos/earth-garden.jpeg?v=2" alt="A simple raised bed garden bench.">
+                                <p>A simple raised bed garden bench -- Indonesia</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-well.jpeg', 'A circular cob and ecobrick construction.\')">
+                                <img src="../photos/earth-well.jpeg" alt="A circular cob and ecobrick construction.">
+                                <p>A spiral cob and ecobrick construction -- UK</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-snake.jpeg', 'An ecobrick snake play-bench for a public park.\')">
+                                <img src="../photos/earth-snake.jpeg" alt="An ecobrick snake play-bench for a public park.">
+                                <p>An ecobrick snake play-bench for a public park -- Philippines</p>
+                            </div>
+                        </div>;'
+
 	
 
 				
@@ -59,7 +106,7 @@ ini_set('display_errors', 1);?>
 			echo ' <p><b data-lang-id="131">Briks Required</b><var>' . $array["briks_required"] .' &#8202;kg</var></p>' ;
 			echo ' <p><b data-lang-id="132">Project Phase:</b> <var>' . $array["project_phase"] .'&#8202;ß</var></p>' ;
 
-			echo ' <p><b data-lang-id="133">Percent Complete:</b> <var><i>' . $array["project_per_complete"] .'</i>&#8202;%</var> </p>' ;
+			echo ' <p><b data-lang-id="133">Percent Complete:</b> <var><i>' . $array["project_perc_complete"] .'</i>&#8202;%</var> </p>' ;
 			echo ' <p><b data-lang-id="134">Community:</b> <var>' . $array["community"].'</var></p>' ;
 			echo ' <p><b data-lang-id="135">Project type:</b> <var>' . $array["project_type"] .'</var></p>' ;
 			echo ' <p><b data-lang-id="136">Construction Type</b> ' . $array["construction_type"] .'</p>' ;
