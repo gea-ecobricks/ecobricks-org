@@ -118,8 +118,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <div class="form-item">
-        <label for="description" data-lang-id="004-project-desc">Full project description:</label><br>
-        <textarea id="description" name="description" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
+        <label for="long_description" data-lang-id="004-project-desc">Full project description:</label><br>
+        <textarea id="long_description" name="long_description" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
         <p class="form-caption" data-lang-id="006-project-desc-caption">Take as much space as you need as share the full details of your project. Max 1000 words.</p>
     </div>
     
