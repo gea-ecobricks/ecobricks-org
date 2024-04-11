@@ -42,7 +42,7 @@ ini_set('display_errors', 1);?>
 	
 		<div id="splash-bar"></div>';
 
-        echo'
+        echo '
 		
         <div id="main-content">
             <div class="row">
