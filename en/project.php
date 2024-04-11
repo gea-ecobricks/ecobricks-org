@@ -52,32 +52,24 @@ ini_set('display_errors', 1);?>
 			            <div class="lead-page-paragraph">
                             <p>'. $array["name"] .' <span data-lang-id="110">is a</span>'. $array["project_type"].' project using</span>'. $array["construction_type"] .' in '. $array["location_full"] .'<span data-lang-id="112"> The project is made from '. $array["briks_used"] .' ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'kg of plastic. </p>
                         </div>
-                    
-                    
-                        <div id="three-column-gal" class="three-column-gal">
+                   
+                    <div id="three-column-gal" class="three-column-gal">';
+ 
+    // Loop through the available photos (up to 5)
+    for ($i = 1; $i <= 5; $i++) {
+        $photo_main = $array["photo{$i}_main"];
+        $photo_tmb = $array["photo{$i}_tmb"];
+        
+        // Check if the photo exists
+        if (!empty($photo_main) && !empty($photo_tmb)) {
+            echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . $photo_main . '\', \'Project photo ' . $i . '\')">
+                    <img src="../' . $photo_tmb . '">
+                  </div>';
+        }
+    }
+  echo '
+</div>';
 
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo1_main"] . '", 'Project feature photo\')">
-                                <img src="../' . $array["photo1_tmb"] . '">
-
-                            </div>
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo2_main"] . '", 'Project photo 2\')">
-                                <img src="' . $array["photo2_tmb"] . '">
-                                
-                            </div>
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo3_main"] . '", 'Project photo 3\')">
-                                <img src="../' . $array["photo3_tmb"] . '" >
-                            </div>
-
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo4_main"] . '", 'Project photo 4\')">
-                            <img src="../' . $array["photo4_tmb"] . '">
-                            </div>
-
-                            <div class="gal-photo" onclick="viewGalleryImage(\'../' . $array["photo5_main"] . '", 'Project photo 5\')">
-                                <img src="../' . $array["photo5_tmb"] . '">
-
-                            </div>
-
-                        </div>';
 
 	
 
