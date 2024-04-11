@@ -175,7 +175,7 @@ echo '
 			echo 'Sorry! :-(</div>
 			<div class="splash-sub" data-lang-id="151">There are no results for project '. $projectId .' in our database.</div>
 		</div>
-		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
+		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;border:none;" alt="empty ecobrick"></div>	
 	</div>
 	<div id="splash-bar"></div>
 
@@ -199,7 +199,7 @@ echo '
 				<br>
 				<p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Browse the Archive</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">The live archive of ecobrick projects around the world.</a></p>
-                <br><br>
+                <br>
                 <p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Ecobrick Applications</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">An overview of ecobrick applications.</a></p>
 
