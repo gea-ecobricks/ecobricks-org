@@ -9,9 +9,8 @@ include '../ecobricks_env.php';
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    // Updated SQL statement to include the new field `est_avg_brik_weight`
-    $sql = "INSERT INTO tb_projects (name, description, start, briks_used, est_avg_brik_weight, location_full, location_geo, project_type, construction_type, community, project_admins) 
-            VALUES (?, ?, ?, ?, ?, ?, ST_GeomFromText(?), ?, ?, ?, ?)";
+    $sql = "INSERT INTO tb_projects (name, description, long_description, start, briks_used, est_avg_brik_weight, location_full, location_geo, project_type, construction_type, community, project_admins) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ST_GeomFromText(?), ?, ?, ?, ?)";
 
     // Prepare the SQL statement
     $stmt = $conn->prepare($sql);
@@ -55,6 +54,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $update_weight_stmt->bind_param("di", $est_total_weight, $project_id);
         $update_weight_stmt->execute();
         $update_weight_stmt->close();
+
+        // Update `project_url`
+        $project_url = "https://ecobricks.org/en/project.php?id=" . $project_id;
+        $update_url_sql = "UPDATE tb_projects SET project_url = ? WHERE project_id = ?";
+        $update_url_stmt = $conn->prepare($update_url_sql);
+        $update_url_stmt->bind_param("si", $project_url, $project_id);
+        $update_url_stmt->execute();
+        $update_url_stmt->close();
 
         // Statement and connection closing
         $stmt->close();
