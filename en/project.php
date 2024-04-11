@@ -49,11 +49,34 @@ ini_set('display_errors', 1);?>
                 <div class="main">
                     <div class="row-details">
 
-			            <div class="lead-page-paragraph">
-                            <p><b>'. $array["name"] .' <span data-lang-id="110">is a</span>'. $array["project_type"].' project using</span>'. $array["construction_type"] .' in '. $array["location_full"] .'<span data-lang-id="112"> The project is made from '. $array["briks_used"] .' ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'kg of plastic. </p>
-                        </div>
+			           
                     
-                       ;'
+                        <div id="three-column-gal" class="three-column-gal">
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali\')">
+                                <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
+                                <p>Mud Mosque in Djene, Mali</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth2.jpg', '16th Century Tudor Cob Home, England\')">
+                                <img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England">
+                                <p>16th Century Tudor Cob Home, England</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth3.jpg', 'Ancient Navajo Dwelling\')">
+                                <img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling">
+                                <p>Ancient Navajo Dwelling, New Mexico, America</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-garden.jpeg?v=2', 'A simple raised bed garden bench.\')">
+                                <img src="../photos/earth-garden.jpeg?v=2" alt="A simple raised bed garden bench.">
+                                <p>A simple raised bed garden bench -- Indonesia</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-well.jpeg', 'A circular cob and ecobrick construction.\')">
+                                <img src="../photos/earth-well.jpeg" alt="A circular cob and ecobrick construction.">
+                                <p>A spiral cob and ecobrick construction -- UK</p>
+                            </div>
+                            <div class="gal-photo" onclick="viewGalleryImage(\'../photos/earth-snake.jpeg', 'An ecobrick snake play-bench for a public park.\')">
+                                <img src="../photos/earth-snake.jpeg" alt="An ecobrick snake play-bench for a public park.">
+                                <p>An ecobrick snake play-bench for a public park -- Philippines</p>
+                            </div>
+                        </div>;'
 
 	
 
