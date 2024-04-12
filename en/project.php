@@ -73,48 +73,51 @@ ini_set('display_errors', 1);?>
                             }
                         }
   echo '
-</div>';
-
-		 echo ' <div class="main-details">
+</div>
+<div class="main-details">
 					
 					<div class="page-paragraph">
 						<p>'. $array["description_long"] .'</p>
 						<br>
-					</div>
-                    <div id="map" style="width: 100%; height: 300px;"></div>
-
-				</div>';
+					</div>';
 
 
-                echo ' <div class="main-details">
-    <div class="page-paragraph">
-        <p>' . $array["description_long"] . '</p>
-        <br>
-    </div>';
-
+                    // Assuming earlier in the script
+$projectId = $_GET['project_id'] ?? 0; // Default to 0 if not set
+if ($projectId) {
+    $sql = "SELECT *, ST_Y(location_geo) AS latitude, ST_X(location_geo) AS longitude, description_long, project_name FROM tb_projects WHERE project_id = ?";
     $stmt = $conn->prepare($sql);
-$stmt->bind_param('i', $projectId);
-$stmt->execute();
-$result = $stmt->get_result();
-$array = $result->fetch_assoc();
+    $stmt->bind_param('i', $projectId);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $array = $result->fetch_assoc();
 
-if ($array) {
-    echo '
-        <div id="map" style="width: 100%; height: 300px;"></div>
-        <script>
-            var map = L.map("map").setView([' . $array['latitude'] . ', ' . $array['longitude'] . '], 13);
-            L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-                maxZoom: 19,
-                attribution: "© OpenStreetMap"
-            }).addTo(map);
-            L.marker([' . $array['latitude'] . ', ' . $array['longitude'] . ']).addTo(map)
-                .bindPopup("' . htmlspecialchars($array['project_name'], ENT_QUOTES, 'UTF-8') . '")
-                .openPopup();
-        </script>
-    </div>';
+    if ($array) {
+        echo '
+        <div class="main-details">
+            <div class="page-paragraph">
+                <p>' . htmlspecialchars($array["description_long"], ENT_QUOTES, 'UTF-8') . '</p>
+                <br>
+            </div>
+            <div id="map" style="width: 100%; height: 300px;"></div>
+            <script>
+                var map = L.map("map").setView([' . $array['latitude'] . ', ' . $array['longitude'] . '], 13);
+                L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                    maxZoom: 19,
+                    attribution: "© OpenStreetMap"
+                }).addTo(map);
+                L.marker([' . $array['latitude'] . ', ' . $array['longitude'] . ']).addTo(map)
+                    .bindPopup("' . htmlspecialchars($array['project_name'], ENT_QUOTES, 'UTF-8') . '")
+                    .openPopup();
+            </script>
+        </div>';
+    } else {
+        echo 'Project not found or no location data available.';
+    }
 } else {
-    echo 'Project not found or no location data available.';
+    echo 'Invalid project ID.';
 }
+
 
 
 				
