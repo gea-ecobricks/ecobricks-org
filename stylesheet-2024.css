@@ -1455,10 +1455,15 @@ body.modal-open {
 }
 
 
-.back-link {
+.back-link a {
   width:100%; 
   text-align: center;
   margin: 50px auto 20px auto;
   font-size: small;
   cursor: pointer;
+  color: var(--subdued-text);
+  text-decoration: underline;
 }
+
+.back-link a:hover {
+  text-decoration: none;}

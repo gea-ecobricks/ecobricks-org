@@ -165,7 +165,7 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='2.26';?>
+<?php $version='2.27';?>
 <?php $page='add-project-images';?>
 
 
@@ -265,6 +265,8 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
 
   
 <br><br>
+
+</div>
 
 
        
