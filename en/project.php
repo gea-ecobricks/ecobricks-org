@@ -7,6 +7,10 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);?>
 <?php $version='2.09';?>
 <?php $page='project';?>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
  
 <?php 
 
@@ -76,6 +80,8 @@ ini_set('display_errors', 1);?>
 						<p>'. $array["description_long"] .'</p>
 						<br>
 					</div>
+                    <div id="map" style="width: 100%; height: 300px;"></div>
+
 				</div>';
 				
 
@@ -220,5 +226,24 @@ echo '
 
 
 </div>
+
+<script>
+    // Assuming latitude and longitude are fetched and stored in PHP variables
+    var lat = <?php echo json_encode($array['latitude']); ?>;
+    var lon = <?php echo json_encode($array['longitude']); ?>;
+
+    var map = L.map('map').setView([lat, lon], 13); // '13' is the zoom level
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap'
+    }).addTo(map);
+
+    var marker = L.marker([lat, lon]).addTo(map)
+        .bindPopup('<?php echo htmlspecialchars($array["project_name"], ENT_QUOTES, 'UTF-8'); ?>')
+        .openPopup();
+</script>
+
+
 </body>
 </html>
