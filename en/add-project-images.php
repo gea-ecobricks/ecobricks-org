@@ -40,15 +40,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 } else {
                     $error_message .= "Error processing image. Please try again.<br>";
                 }
-            } elseif (!isset($_FILES[$file_input_name]) || $_FILES[$file_input_name]['error'] != UPLOAD_ERR_OK) {
-                if ($i == 1) { // Photo1 is obligatory
-                    $error_message .= "The main photo (photo1_main) is required and was not uploaded.<br>";
-                    break;
-                }
             }
         }
 
         if (!empty($db_fields) && empty($error_message)) {
+            // Additional fields to update
+            array_push($db_fields, "ready_to_show", "logged_ts");
+            array_push($db_values, 1, date("Y-m-d H:i:s")); // Set 'ready_to_show' to 1 and current timestamp
+            $db_types .= "is"; // 'i' for integer and 's' for string (timestamp)
+
             $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
             $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
             $db_values[] = $project_id;
