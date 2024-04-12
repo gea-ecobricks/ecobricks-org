@@ -630,10 +630,14 @@ border-color: #00a112 !important;
       background: url('https://gobrik.com/svgs/bottle-loader-day-7.svg') center no-repeat;
         box-sizing: border-box;
      background-size: 100px;
-     min-height: 400px;
-     min-width: 400px;
-     transition: 0.5s;
+
   
+}
+
+.modal-photo img {
+  min-height: 400px;
+  min-width: 400px;
+  transition: 0.5s;
 }
 
 .featured-gallery-button {

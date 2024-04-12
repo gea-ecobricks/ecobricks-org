@@ -165,7 +165,7 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='2.24';?>
+<?php $version='2.25';?>
 <?php $page='add-project-images';?>
 
 
@@ -394,8 +394,8 @@ function uploadSuccess(data) {
         var captionText = directoryPathText + ' | ' + data.thumbnail_file_sizes[i].toFixed(1) + ' KB | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
         var fullUrlText = data.full_urls[i] + ' | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
 
-        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + fullUrlText + '\', \'' + directoryPathText + '\')">';
-        galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
+        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + fullUrlText + '\',  \'' + directoryPathText + '\')">';
+        galleryHTML += '<img src="' + data.thumbnail_paths[i] + '"';
         galleryHTML += '<p style="font-size:small;">' + captionText + '</p>';
         galleryHTML += '</div>';
     }
