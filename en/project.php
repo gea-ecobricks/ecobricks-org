@@ -11,6 +11,27 @@ ini_set('display_errors', 1);?>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
 
 <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
+
+<?php 
+
+$projectId = $conn->real_escape_string($_GET['project_id']); // Protect against SQL injection
+
+$sql = "SELECT *, ST_X(location_geo) AS longitude, ST_Y(location_geo) AS latitude FROM tb_projects WHERE project_id = ?";
+
+$stmt = $conn->prepare($sql);
+$stmt->bind_param('i', $projectId); // 'i' for integer
+$stmt->execute();
+$result = $stmt->get_result();
+$array = $result->fetch_assoc();
+
+if (!$array) {
+    echo "No project found with ID $projectId";
+    exit;
+}
+
+
+?>
  
 <?php 
 
@@ -22,7 +43,7 @@ ini_set('display_errors', 1);?>
 
 	$sql = "SELECT * FROM tb_projects WHERE project_id = '" . $projectId . "'";
 
-    
+
 
 	$result = $conn->query($sql);
 	if ($result->num_rows > 0) {
@@ -228,21 +249,18 @@ echo '
 </div>
 
 <script>
-    // Assuming latitude and longitude are fetched and stored in PHP variables
-    var lat = <?php echo json_encode($array['latitude']); ?>;
-    var lon = <?php echo json_encode($array['longitude']); ?>;
+var map = L.map('map').setView([<?php echo $array['latitude']; ?>, <?php echo $array['longitude']; ?>], 13);
 
-    var map = L.map('map').setView([lat, lon], 13); // '13' is the zoom level
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© OpenStreetMap'
+}).addTo(map);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '© OpenStreetMap'
-    }).addTo(map);
-
-    var marker = L.marker([lat, lon]).addTo(map)
-        .bindPopup('<?php echo htmlspecialchars($array["project_name"], ENT_QUOTES, 'UTF-8'); ?>')
-        .openPopup();
+L.marker([<?php echo $array['latitude']; ?>, <?php echo $array['longitude']; ?>]).addTo(map)
+    .bindPopup("<?php echo htmlspecialchars($array['project_name'], ENT_QUOTES, 'UTF-8'); ?>")
+    .openPopup();
 </script>
+
 
 
 </body>
