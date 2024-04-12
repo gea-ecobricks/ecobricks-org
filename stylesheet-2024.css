@@ -1453,3 +1453,11 @@ body.modal-open {
 .browser-back-text-button:hover {
   text-decoration: none; /* Adds underline on hover */
 }
+
+
+.back-link {
+  width:100%; 
+  text-align: center;
+  margin: 50px auto 20px auto;
+  font-size: small;
+}

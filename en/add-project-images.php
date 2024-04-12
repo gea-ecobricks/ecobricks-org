@@ -165,7 +165,7 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='2.25';?>
+<?php $version='2.26';?>
 <?php $page='add-project-images';?>
 
 
@@ -261,7 +261,7 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
 </div>
 
   
-<p style="width:100%; text-align: center;" data-lang-id="014-go-back-link"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" >↩ Back to Step 1</a></p>
+<p class="back-link" data-lang-id="014-go-back-link"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" >↩ Back to Step 1</a></p>
 <br><br>
 
 
