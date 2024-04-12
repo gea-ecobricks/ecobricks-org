@@ -18,10 +18,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("ssssiissssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $location_geo, $project_type, $construction_type, $community, $project_admins);
 
     // Set parameters from the form, including the new field
-    $name = $_POST['project_name'];
-    $description = $_POST['description_short'];
-    $long_description = $_POST['description_long'];
-    $start = $_POST['start_dt'];
+    $project_name = $_POST['project_name'];
+    $description_short = $_POST['description_short'];
+    $description_long = $_POST['description_long'];
+    $start_dt = $_POST['start_dt'];
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight']; // New field
     $location_full = $_POST['location_full'];
