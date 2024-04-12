@@ -2,11 +2,12 @@
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
+
 include '../ecobricks_env.php';
 
 $error_message = '';
 $full_urls = [];
-thumbnail_paths = [];
+$thumbnail_paths = [];
 $main_file_sizes = [];
 $thumbnail_file_sizes = [];
 
