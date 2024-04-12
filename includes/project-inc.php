@@ -10,7 +10,11 @@
 
 <STYLE>
 
-
+.modal-photo img{
+    min-height: 400px;
+    min-width: 400px;
+    transition: 0.3s;
+}
 .vision-quote {
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: var(--h1);

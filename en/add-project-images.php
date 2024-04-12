@@ -28,8 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
                 $targetPath = $upload_dir . $new_file_name_webp;
 
-                if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 77)) {
-                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 88);
+                if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
+                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
                     $full_urls[] = $targetPath;
                     $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
 
