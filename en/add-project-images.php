@@ -8,6 +8,8 @@ include '../ecobricks_env.php';
 $error_message = '';
 $full_urls = []; // Initialize array to store main image URLs
 $thumbnail_paths = []; // Initialize array to store thumbnail URLs
+$main_file_sizes = []; // Initialize array to store file sizes of main images in KB
+$thumbnail_file_sizes = []; // Initialize array to store file sizes of thumbnails in KB
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['project_id'])) {
@@ -15,9 +17,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $upload_dir = '../projects/photos/';
         $thumbnail_dir = '../projects/tmbs/';
 
-        $db_fields = []; // For storing database field names
-        $db_values = []; // For storing corresponding values
-        $db_types = ""; // For storing the types of the values for the prepared statement
+        $db_fields = [];
+        $db_values = [];
+        $db_types = "";
 
         for ($i = 1; $i <= 5; $i++) {
             $file_input_name = "photo{$i}_main";
@@ -28,13 +30,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 77)) {
                     createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
-                    $full_urls[] = $targetPath; // Add main image URL to array
-                    $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp; // Add thumbnail URL to array
+                    $full_urls[] = $targetPath;
+                    $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
 
-                    // Update arrays for database query
+                    // Capture file sizes in KB and add them to the arrays
+                    $main_file_sizes[] = filesize($targetPath) / 1024; // Convert bytes to KB
+                    $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024; // Convert bytes to KB
+
                     array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
                     array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
-                    $db_types .= "ss"; // Add two string types
+                    $db_types .= "ss";
                 } else {
                     $error_message .= "Error processing image {$i}.<br>";
                 }
@@ -44,8 +49,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (!empty($db_fields)) {
             $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
             $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
-            $db_values[] = $project_id; // Add project_id to the end of the array
-            $db_types .= "i"; // Add integer type for project_id
+            $db_values[] = $project_id;
+            $db_types .= "i";
 
             $update_stmt = $conn->prepare($update_sql);
             $update_stmt->bind_param($db_types, ...$db_values);
@@ -57,24 +62,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if (!empty($error_message)) {
             http_response_code(400);
-            header('Content-Type: application/json'); // Set Content-Type to application/json
-            // Adding custom text around the error message
+            header('Content-Type: application/json');
             echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
-            exit; // Ensure no further output is sent
+            exit;
         } else {
-            // Prepare the response array with only the necessary image URLs
+            // Prepare the response array with image URLs and sizes in KB
             $response = array(
                 'project_id' => $project_id,
-                'full_urls' => $full_urls, // Array of main image URLs
-                'thumbnail_paths' => $thumbnail_paths, // Array of thumbnail URLs
+                'full_urls' => $full_urls,
+                'thumbnail_paths' => $thumbnail_paths,
+                'main_file_sizes' => $main_file_sizes, // Array of file sizes for main images in KB
+                'thumbnail_file_sizes' => $thumbnail_file_sizes // Array of file sizes for thumbnails in KB
             );
-            header('Content-Type: application/json'); // Set Content-Type to application/json
+            header('Content-Type: application/json');
             echo json_encode($response);
-            exit; // Ensure no further output is sent
+            exit;
         }
-        
     }
 }
+
+
+
 
 
 
@@ -386,18 +394,17 @@ function uploadSuccess(data) {
     // Add the gallery HTML
     var galleryHTML = '<div id="three-column-gal" class="three-column-gal">';
 
-    // Iterate over the thumbnail_paths and full_urls to build the gallery items
+    // Iterate over the thumbnail_paths and full_urls to build the gallery items with added file size details
     for (var i = 0; i < data.thumbnail_paths.length; i++) {
-        // Construct directory path text from the thumbnail path for the caption
         var directoryPathText = data.thumbnail_paths[i].substring(data.thumbnail_paths[i].lastIndexOf('/') + 1);
+        var captionText = directoryPathText + ' | Thumbnail: ' + data.thumbnail_file_sizes[i].toFixed(1) + ' KB | Photo:  ' + data.main_file_sizes[i].toFixed(1) + ' KB';
 
         galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + data.full_urls[i] + '\', \'' + directoryPathText + '\')">';
         galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
-        galleryHTML += '<p style="font-size:small;">' + directoryPathText + '</p>';
+        galleryHTML += '<p style="font-size:small;">' + captionText + '</p>';
         galleryHTML += '</div>';
     }
 
-    // Close the gallery HTML and append it to the success message
     galleryHTML += '</div>';
     successMessage += galleryHTML;
 
