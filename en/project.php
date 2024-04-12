@@ -37,18 +37,16 @@ if (!$array) {
 
 	require_once ("../includes/project-inc.php");
 	include '../ecobricks_env.php';
-	// include '../ssp.class.php';
 
-	$projectId = $_GET['project_id'];
+	$projectId = isset($_GET['project_id']) ? (int) $_GET['project_id'] : 0;
+if ($projectId > 0) {
+    $stmt = $conn->prepare("SELECT *, ST_Y(location_geo) AS latitude, ST_X(location_geo) AS longitude FROM tb_projects WHERE project_id = ?");
+    $stmt->bind_param('i', $projectId);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $array = $result->fetch_assoc();
 
-	$sql = "SELECT * FROM tb_projects WHERE project_id = '" . $projectId . "'";
-
-
-
-	$result = $conn->query($sql);
-	if ($result->num_rows > 0) {
-	
-    while($array = $result->fetch_assoc()) {
+    if ($array) {
 
 		echo 
 		'<div class="splash-content-block">
