@@ -259,7 +259,7 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
     </div>
 
 
-<a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" class="back-link" data-lang-id="014-go-back-link" >↩ Back to Step 1</a>
+<a href="#" onclick="goBack()"  aria-label="Go back to re-enter data" class="back-link" data-lang-id="014-go-back-link" >↩ Back to Step 1</a>
 
 </div>
 
