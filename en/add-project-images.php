@@ -156,6 +156,8 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
     return true;
 }
 
+
+
 ?>
 
 <!DOCTYPE html>
