@@ -1,10 +1,7 @@
-
 <?php
-
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 include '../ecobricks_env.php';
-
 $error_message = '';
 $full_urls = []; // Initialize array to store main image URLs
 $thumbnail_paths = []; // Initialize array to store thumbnail URLs
@@ -82,12 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 
-
-
-
-
 //FUNCTIONS
-
 
 // Function to create a thumbnail using GD library
 function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
@@ -155,11 +147,7 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
     imagedestroy($dst);
     return true;
 }
-
-
-
 ?>
-
 <!DOCTYPE html>
 <HTML lang="id"> 
 <HEAD>
