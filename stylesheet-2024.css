@@ -1460,4 +1460,5 @@ body.modal-open {
   text-align: center;
   margin: 50px auto 20px auto;
   font-size: small;
+  cursor: pointer;
 }

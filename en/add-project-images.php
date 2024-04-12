@@ -258,10 +258,12 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
         <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">🎉 View Project Post</a>
     </div>
 
+
+<a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" class="back-link" data-lang-id="014-go-back-link" >↩ Back to Step 1</a>
+
 </div>
 
   
-<p class="back-link" data-lang-id="014-go-back-link"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" >↩ Back to Step 1</a></p>
 <br><br>
 
 
@@ -393,8 +395,9 @@ function uploadSuccess(data) {
         var directoryPathText = data.thumbnail_paths[i].substring(data.thumbnail_paths[i].lastIndexOf('/') + 1);
         var captionText = directoryPathText + ' | ' + data.thumbnail_file_sizes[i].toFixed(1) + ' KB | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
         var fullUrlText = data.full_urls[i];
+        var modalCaption = captionText = directoryPathText + ' | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
 
-        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'../projects/photos/' + fullUrlText + '\', \'' + captionText + '\')">';
+        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + fullUrlText + '\', \'' + modalCaption + '\')">';
         galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
         galleryHTML += '<p style="font-size:small;">' + captionText + '</p>';
         galleryHTML += '</div>';
