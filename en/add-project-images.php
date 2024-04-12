@@ -6,7 +6,7 @@ include '../ecobricks_env.php';
 
 $error_message = '';
 $full_urls = [];
-thumbnail_paths = [];
+$thumbnail_paths = [];
 $main_file_sizes = [];
 $thumbnail_file_sizes = [];
 
