@@ -54,7 +54,7 @@ https://github/globalecobrickalliance/ecobricks.org
         while ($row = $result->fetch_assoc()) {
             echo '<div class="gal-project-photo">
                     <div class="photo-box">
-                        <img src="' . $row["photo1_tmb"] . '?v=1" alt="Ecobrick Project ' . $row["project_id"] . ' by ' . $row["name"] . ' in ' . $row["location_full"] . '" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["name"] . '\', \'' . $row["description"] . '\', \'' . $row["location_full"] . '\', \'' . $row["ecobricks_used"] . '\', \'' . $row["start"] . '\')"> 
+                        <img src="' . $row["photo1_tmb"] . '?v=1" alt="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_tototal_weight"] . ' using ' . $row["briks_used"] . '" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["project_name"] . '\', \'' . $row["description_short"] . '\', \'' . $row["location_full"] . '\', \'' . $row["ecobricks_used"] . '\', \'' . $row["start_dt"] . '\')"> 
                     </div>
                 </div>';
         }
