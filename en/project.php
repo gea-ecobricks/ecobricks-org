@@ -94,11 +94,7 @@ if ($projectId) {
 
     if ($array) {
         echo '
-        <div class="main-details">
-            <div class="page-paragraph">
-                <p>' . htmlspecialchars($array["description_long"], ENT_QUOTES, 'UTF-8') . '</p>
-                <br>
-            </div>
+        
             <div id="map" style="width: 100%; height: 300px;"></div>
             <script>
                 var map = L.map("map").setView([' . $array['latitude'] . ', ' . $array['longitude'] . '], 13);
@@ -109,18 +105,13 @@ if ($projectId) {
                 L.marker([' . $array['latitude'] . ', ' . $array['longitude'] . ']).addTo(map)
                     .bindPopup("' . htmlspecialchars($array['project_name'], ENT_QUOTES, 'UTF-8') . '")
                     .openPopup();
-            </script>
-        </div>';
+            </script>';
     } else {
         echo 'Project not found or no location data available.';
     }
 } else {
     echo 'Invalid project ID.';
 }
-
-
-
-				
 
 			echo '
 			
