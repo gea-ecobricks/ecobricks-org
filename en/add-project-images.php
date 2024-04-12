@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $targetPath = $upload_dir . $new_file_name_webp;
 
                 if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 77)) {
-                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
+                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 88);
                     $full_urls[] = $targetPath;
                     $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
 
@@ -356,7 +356,6 @@ function handleFormResponse(response) {
 }
 
 
-
 // Updated function to handle upload success with multiple images
 function uploadSuccess(data) {
     // Define messages for different languages
@@ -383,23 +382,21 @@ function uploadSuccess(data) {
         }
     };
 
-    // Check the current language and select the appropriate message; default to English
     var currentLang = window.currentLanguage || 'en';
     var selectedMessage = messages[currentLang] || messages.en;
 
-    // Start by constructing the heading and paragraph text using the selected language
     var successMessage = '<h1>' + selectedMessage.heading + '</h1>';
     successMessage += '<p>' + selectedMessage.description + '</p><br>';
     
-    // Add the gallery HTML
     var galleryHTML = '<div id="three-column-gal" class="three-column-gal">';
 
     // Iterate over the thumbnail_paths and full_urls to build the gallery items with added file size details
     for (var i = 0; i < data.thumbnail_paths.length; i++) {
         var directoryPathText = data.thumbnail_paths[i].substring(data.thumbnail_paths[i].lastIndexOf('/') + 1);
-        var captionText = directoryPathText + ' | Thumbnail: ' + data.thumbnail_file_sizes[i].toFixed(1) + ' KB | Photo:  ' + data.main_file_sizes[i].toFixed(1) + ' KB';
+        var captionText = directoryPathText + ' | ' + data.thumbnail_file_sizes[i].toFixed(1) + ' KB | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
+        var fullUrlText = data.full_urls[i] + ' | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
 
-        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + data.full_urls[i] + '\', \'' + directoryPathText + '\')">';
+        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + fullUrlText + '\', \'' + directoryPathText + '\')">';
         galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
         galleryHTML += '<p style="font-size:small;">' + captionText + '</p>';
         galleryHTML += '</div>';
@@ -408,20 +405,15 @@ function uploadSuccess(data) {
     galleryHTML += '</div>';
     successMessage += galleryHTML;
 
-    // Append the button at the end using the selected language
     successMessage += '<a class="confirm-button" href="add-project.php">' + selectedMessage.button + '</a>';
 
-    // Display the upload-success div and populate with the success message
     var uploadSuccessDiv = document.getElementById('upload-success');
     var uploadSuccessMessageDiv = document.getElementById('upload-success-message');
     uploadSuccessMessageDiv.innerHTML = successMessage;
     uploadSuccessDiv.style.display = 'block';
 
-    // Hide the form after upload success
     document.getElementById('upload-photo-form').style.display = 'none';
-
-        // Scroll to the top of the page
-        window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 }
 
 
