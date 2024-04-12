@@ -6,7 +6,7 @@ include '../ecobricks_env.php';
 
 $error_message = '';
 $full_urls = [];
-$thumbnail_paths = [];
+thumbnail_paths = [];
 $main_file_sizes = [];
 $thumbnail_file_sizes = [];
 
@@ -39,10 +39,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
                         $db_types .= "ss";
                     } else {
-                        $error_message .= "Error processing image {$i}.<br>";
+                        $error_message .= "Error processing image. Please try again.<br>";
                     }
                 } else {
-                    $error_message .= handleFileUploadError($_FILES[$file_input_name]['error'], $i);
+                    $error_message .= handleFileUploadError($_FILES[$file_input_name]['error']);
                 }
             }
         }
@@ -81,24 +81,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-
-//FUNCTIONS
-
-function handleFileUploadError($errorCode, $index) {
+// Simplified error handling function
+function handleFileUploadError($errorCode) {
     switch ($errorCode) {
         case UPLOAD_ERR_INI_SIZE:
         case UPLOAD_ERR_FORM_SIZE:
-            return "File {$index} exceeds the maximum file size allowed.<br>";
+            return "One or more files exceed the maximum file size allowed.";
         case UPLOAD_ERR_PARTIAL:
-            return "File {$index} was only partially uploaded.<br>";
+            return "One or more files were only partially uploaded.";
+        case UPLOAD_ERR_NO_FILE:
+            return "One or more required files were not uploaded.";
         case UPLOAD_ERR_NO_TMP_DIR:
-            return "Missing a temporary folder on server.<br>";
+            return "Missing a temporary folder on the server.";
         case UPLOAD_ERR_CANT_WRITE:
-            return "Failed to write file to disk for file {$index}.<br>";
+            return "Failed to write one or more files to disk.";
         case UPLOAD_ERR_EXTENSION:
-            return "A PHP extension stopped the file upload.<br>";
+            return "A PHP extension stopped the file upload.";
         default:
-            return "Unknown error with file {$index}.<br>";
+            return "An unknown error occurred during file upload.";
     }
 }
 
