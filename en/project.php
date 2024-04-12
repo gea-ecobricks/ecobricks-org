@@ -9,7 +9,7 @@ ini_set('display_errors', 1);?>
 <?php $page='project';?>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet-src.js"></script>
 
  
 <?php 
