@@ -75,23 +75,47 @@ ini_set('display_errors', 1);?>
   echo '
 </div>';
 
-echo ' <div class="main-details">
-<div class="page-paragraph">
-    <p>' . $array["description_long"] . '</p>
-    <br>
-</div>
-<div id="map" style="width: 100%; height: 300px;"></div>
-<script>
-    var map = L.map("map").setView([' . $array['latitude'] . ', ' . $array['longitude'] . '], 13);
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 19,
-        attribution: "© OpenStreetMap"
-    }).addTo(map);
-    L.marker([' . $array['latitude'] . ', ' . $array['longitude'] . ']).addTo(map)
-        .bindPopup("' . htmlspecialchars($array['project_name'], ENT_QUOTES, 'UTF-8') . '")
-        .openPopup();
-</script>
-</div>';
+		 echo ' <div class="main-details">
+					
+					<div class="page-paragraph">
+						<p>'. $array["description_long"] .'</p>
+						<br>
+					</div>
+                    <div id="map" style="width: 100%; height: 300px;"></div>
+
+				</div>';
+
+
+                echo ' <div class="main-details">
+    <div class="page-paragraph">
+        <p>' . $array["description_long"] . '</p>
+        <br>
+    </div>';
+
+    $stmt = $conn->prepare($sql);
+$stmt->bind_param('i', $projectId);
+$stmt->execute();
+$result = $stmt->get_result();
+$array = $result->fetch_assoc();
+
+if ($array) {
+    echo '
+        <div id="map" style="width: 100%; height: 300px;"></div>
+        <script>
+            var map = L.map("map").setView([' . $array['latitude'] . ', ' . $array['longitude'] . '], 13);
+            L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                maxZoom: 19,
+                attribution: "© OpenStreetMap"
+            }).addTo(map);
+            L.marker([' . $array['latitude'] . ', ' . $array['longitude'] . ']).addTo(map)
+                .bindPopup("' . htmlspecialchars($array['project_name'], ENT_QUOTES, 'UTF-8') . '")
+                .openPopup();
+        </script>
+    </div>';
+} else {
+    echo 'Project not found or no location data available.';
+}
+
 
 				
 
@@ -237,22 +261,6 @@ echo '
 
 </div>
 
-<script>
-    // Assuming latitude and longitude are fetched and stored in PHP variables
-    var lat = <?php echo json_encode($array['latitude']); ?>;
-    var lon = <?php echo json_encode($array['longitude']); ?>;
-
-    var map = L.map('map').setView([lat, lon], 13); // '13' is the zoom level
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '© OpenStreetMap'
-    }).addTo(map);
-
-    var marker = L.marker([lat, lon]).addTo(map)
-        .bindPopup('<?php echo htmlspecialchars($array["project_name"], ENT_QUOTES, 'UTF-8'); ?>')
-        .openPopup();
-</script>
 
 
 </body>
