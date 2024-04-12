@@ -1,4 +1,3 @@
-
 <?php
 
 ini_set('display_errors', 1);
@@ -83,9 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 
-
 //FUNCTIONS
-
 
 function handleFileUploadError($errorCode, $index) {
     switch ($errorCode) {
@@ -174,9 +171,7 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
     imagedestroy($dst);
     return true;
 }
-
 ?>
-
 <!DOCTYPE html>
 <HTML lang="id"> 
 <HEAD>
