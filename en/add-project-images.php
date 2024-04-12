@@ -12,8 +12,8 @@ $thumbnail_paths = []; // Initialize array to store thumbnail URLs
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['project_id'])) {
         $project_id = $_POST['project_id'];
-        $upload_dir = '../projects/featured/';
-        $thumbnail_dir = '../projects/featured_tmbs/';
+        $upload_dir = '../projects/photos/';
+        $thumbnail_dir = '../projects/tmbs/';
 
         $db_fields = []; // For storing database field names
         $db_values = []; // For storing corresponding values
@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $file_input_name = "photo{$i}_main";
             if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] === UPLOAD_ERR_OK) {
                 $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
-                $new_file_name_webp = 'featured-img-project-' . $project_id . '-' . $i . '.webp';
+                $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
                 $targetPath = $upload_dir . $new_file_name_webp;
 
                 if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 77)) {
