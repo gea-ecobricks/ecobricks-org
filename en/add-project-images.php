@@ -91,8 +91,6 @@ function handleFileUploadError($errorCode, $index) {
             return "File {$index} exceeds the maximum file size allowed.<br>";
         case UPLOAD_ERR_PARTIAL:
             return "File {$index} was only partially uploaded.<br>";
-        case UPLOAD_ERR_NO_FILE:
-            return "No file was uploaded for position {$index}.<br>";
         case UPLOAD_ERR_NO_TMP_DIR:
             return "Missing a temporary folder on server.<br>";
         case UPLOAD_ERR_CANT_WRITE:
