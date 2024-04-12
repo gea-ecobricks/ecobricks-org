@@ -1455,7 +1455,7 @@ body.modal-open {
 }
 
 
-.back-link a {
+.back-link  {
   width:100%; 
   text-align: center;
   margin: 50px auto 20px auto;
@@ -1463,7 +1463,8 @@ body.modal-open {
   cursor: pointer;
   color: var(--subdued-text);
   text-decoration: underline;
+  font-family: 'Mulish', sans-serif;
 }
 
-.back-link a:hover {
+.back-link:hover {
   text-decoration: none;}
