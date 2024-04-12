@@ -1,12 +1,14 @@
 <?php
-ini_set('display_errors', 0);
+
+ini_set('display_errors', 1);
 error_reporting(E_ALL);
 include '../ecobricks_env.php';
+
 $error_message = '';
-$full_urls = []; // Initialize array to store main image URLs
-$thumbnail_paths = []; // Initialize array to store thumbnail URLs
-$main_file_sizes = []; // Initialize array to store file sizes of main images in KB
-$thumbnail_file_sizes = []; // Initialize array to store file sizes of thumbnails in KB
+$full_urls = [];
+$thumbnail_paths = [];
+$main_file_sizes = [];
+$thumbnail_file_sizes = [];
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['project_id'])) {
@@ -20,30 +22,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         for ($i = 1; $i <= 5; $i++) {
             $file_input_name = "photo{$i}_main";
-            if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] === UPLOAD_ERR_OK) {
-                $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
-                $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
-                $targetPath = $upload_dir . $new_file_name_webp;
+            if (isset($_FILES[$file_input_name])) {
+                if ($_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
+                    $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
+                    $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
+                    $targetPath = $upload_dir . $new_file_name_webp;
 
-                if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
-                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
-                    $full_urls[] = $targetPath;
-                    $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
+                    if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
+                        createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
+                        $full_urls[] = $targetPath;
+                        $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
+                        $main_file_sizes[] = filesize($targetPath) / 1024;
+                        $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
 
-                    // Capture file sizes in KB and add them to the arrays
-                    $main_file_sizes[] = filesize($targetPath) / 1024; // Convert bytes to KB
-                    $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024; // Convert bytes to KB
-
-                    array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
-                    array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
-                    $db_types .= "ss";
+                        array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
+                        array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
+                        $db_types .= "ss";
+                    } else {
+                        $error_message .= "Error processing image {$i}.<br>";
+                    }
                 } else {
-                    $error_message .= "Error processing image {$i}.<br>";
+                    $error_message .= handleFileUploadError($_FILES[$file_input_name]['error'], $i);
                 }
             }
         }
 
-        if (!empty($db_fields)) {
+        if (!empty($db_fields) && empty($error_message)) {
             $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
             $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
             $db_values[] = $project_id;
@@ -63,13 +67,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
             exit;
         } else {
-            // Prepare the response array with image URLs and sizes in KB
             $response = array(
                 'project_id' => $project_id,
                 'full_urls' => $full_urls,
                 'thumbnail_paths' => $thumbnail_paths,
-                'main_file_sizes' => $main_file_sizes, // Array of file sizes for main images in KB
-                'thumbnail_file_sizes' => $thumbnail_file_sizes // Array of file sizes for thumbnails in KB
+                'main_file_sizes' => $main_file_sizes,
+                'thumbnail_file_sizes' => $thumbnail_file_sizes
             );
             header('Content-Type: application/json');
             echo json_encode($response);
@@ -79,7 +82,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 
+
+
+
+
+
 //FUNCTIONS
+
+function handleFileUploadError($errorCode, $index) {
+    switch ($errorCode) {
+        case UPLOAD_ERR_INI_SIZE:
+        case UPLOAD_ERR_FORM_SIZE:
+            return "File {$index} exceeds the maximum file size allowed.<br>";
+        case UPLOAD_ERR_PARTIAL:
+            return "File {$index} was only partially uploaded.<br>";
+        case UPLOAD_ERR_NO_FILE:
+            return "No file was uploaded for position {$index}.<br>";
+        case UPLOAD_ERR_NO_TMP_DIR:
+            return "Missing a temporary folder on server.<br>";
+        case UPLOAD_ERR_CANT_WRITE:
+            return "Failed to write file to disk for file {$index}.<br>";
+        case UPLOAD_ERR_EXTENSION:
+            return "A PHP extension stopped the file upload.<br>";
+        default:
+            return "Unknown error with file {$index}.<br>";
+    }
+}
 
 // Function to create a thumbnail using GD library
 function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
