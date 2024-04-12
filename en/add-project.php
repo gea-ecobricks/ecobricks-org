@@ -122,14 +122,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="form-item" style="margin-top: 25px;">
                 <label for="project_name" data-lang-id="003-project-name">Project Name:</label><br>
                 <input type="text" id="project_name" name="project_name" aria-label="Project Name" title="Required. Max 255 characters." required>
-                <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.</p>
+                <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.  Avoid apostrpphes and other characters.</p>
                 <span id="project_name_error" style="color: red;"></span>
             </div>
     
     <div class="form-item">
         <label for="description_short" data-lang-id="004-short-project-desc">Short project description:</label><br>
         <textarea id="description_short" name="description_short" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
-        <p class="form-caption" data-lang-id="004-short-project-desc-caption">Provide a once sentence description of this project. Max 150 words.</p>
+        <p class="form-caption" data-lang-id="004-short-project-desc-caption">Provide a one sentence description of this project. Max 150 words.  Avoid apostrophes and other characters.</p>
         <span id="description_short_error" style="color: red;"></span>
         
     </div>
@@ -147,9 +147,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     
     <div class="form-item">
-    <label for="briks_used" data-lang-id="009-bricks-used">Bricks Used:</label><br>
+    <label for="briks_used" data-lang-id="009-bricks-used">Ecobricks Used:</label><br>
     <input type="number" id="briks_used" name="briks_used" aria-label="Bricks Used" min="1" max="5000" required>
-    <p class="form-caption" data-lang-id="009-bricks-used-caption">How many briks does your project use? Enter a number between 1-5000.</p>
+    <p class="form-caption" data-lang-id="009-bricks-used-caption">How many ecobricks does your project use? Enter a number between 1-5000.</p>
     <span id="briks_used_error" style="color: red;"></span>
 </div>
 
@@ -233,6 +233,10 @@ document.getElementById('submit-form').onsubmit = function(e) {
     var briksUsedError = document.getElementById('briks_used_error');
     var estAvgBrikWeight = document.getElementById('est_avg_brik_weight');
     var estAvgBrikWeightError = document.getElementById('est_avg_brik_weight_error');
+    var projectName = document.getElementById('project_name');
+    var projectNameError = document.getElementById('project_name_error');
+    var descriptionShort = document.getElementById('description_short');
+    var descriptionShortError = document.getElementById('description_short_error');
 
     // Validate briks_used
     if (briksUsed.value < 1 || briksUsed.value > 5000 || briksUsed.value % 1 !== 0) {
@@ -252,11 +256,30 @@ document.getElementById('submit-form').onsubmit = function(e) {
         estAvgBrikWeightError.textContent = "";
     }
 
+    // Validate project_name for invalid characters
+    if (/['"\/\>]/.test(projectName.value)) {
+        projectNameError.textContent = "Project name contains invalid characters. Avoid quotes, slashes, and greater-than signs.";
+        projectName.focus();
+        isValid = false;
+    } else {
+        projectNameError.textContent = "";
+    }
+
+    // Validate description_short for invalid characters
+    if (/['"\/\>]/.test(descriptionShort.value)) {
+        descriptionShortError.textContent = "Description contains invalid characters. Avoid quotes, slashes, and greater-than signs.";
+        descriptionShort.focus();
+        isValid = false;
+    } else {
+        descriptionShortError.textContent = "";
+    }
+
     if (!isValid) {
         e.preventDefault(); // Prevent form submission
     }
 };
 </script>
+
 
 
 <script>
