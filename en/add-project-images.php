@@ -394,8 +394,8 @@ function uploadSuccess(data) {
         var captionText = directoryPathText + ' | ' + data.thumbnail_file_sizes[i].toFixed(1) + ' KB | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
         var fullUrlText = data.full_urls[i] + ' | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
 
-        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + directoryPathText + '\', \'' + fullUrlText + '\')">';
-        galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" ="' + directoryPathText + '">';
+        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'../projects/photos/' + directoryPathText + '\', \'' + fullUrlText + '\')">';
+        galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
         galleryHTML += '<p style="font-size:small;">' + captionText + '</p>';
         galleryHTML += '</div>';
     }

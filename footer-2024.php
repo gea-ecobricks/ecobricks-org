@@ -280,6 +280,8 @@ function viewGalleryImage(imageSrc, altText) {
     img.style.maxWidth = '90%';
     img.style.maxHeight = '80vh';
     img.style.margin = 'auto';
+    img.style.minHeight = '400px';
+    img.style.minWidth = '400px';
 
     // Create and append the caption
     const caption = document.createElement('p');
