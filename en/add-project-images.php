@@ -57,21 +57,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if (!empty($error_message)) {
             http_response_code(400);
-            echo json_encode(['error' => $error_message]);
+            header('Content-Type: application/json'); // Set Content-Type to application/json
+            // Adding custom text around the error message
+            echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
+            exit; // Ensure no further output is sent
         } else {
-            // Prepare the response array with all image URLs included
+            // Prepare the response array with only the necessary image URLs
             $response = array(
                 'project_id' => $project_id,
-                'project_name' => $_POST['project_name'] ?? null,
-                'description' => $_POST['description'] ?? null,
-                'start' => $_POST['start'] ?? null,
-                'briks_used' => $_POST['briks_used'] ?? null,
                 'full_urls' => $full_urls, // Array of main image URLs
                 'thumbnail_paths' => $thumbnail_paths, // Array of thumbnail URLs
-                'location_full' => $_POST['location_full'] ?? null
             );
+            header('Content-Type: application/json'); // Set Content-Type to application/json
             echo json_encode($response);
+            exit; // Ensure no further output is sent
         }
+        
     }
 }
 
@@ -189,7 +190,7 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
 
         <p data-lang-id="002-form-description">Show the world your project!  Upload one to five images showing your construction from different angles or times. <span style="color:red">Please upload only square photos.  Be sure photos are under 8MB.</span></p>
 
-        <p><a class="module-btn" title="The molar mass" onclick="showFormModal(Testing the modal)">Test Modal</a></p>
+        <p><a class="module-btn" title="The molar mass" onclick="showFormModal(this.title)">Test Modal</a></p>
 
         
         <br>
