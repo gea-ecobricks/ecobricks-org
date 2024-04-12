@@ -1,3 +1,4 @@
+
 <?php
 
 ini_set('display_errors', 1);
@@ -80,26 +81,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-// Simplified error handling function
-function handleFileUploadError($errorCode) {
-    switch ($errorCode) {
-        case UPLOAD_ERR_INI_SIZE:
-        case UPLOAD_ERR_FORM_SIZE:
-            return "One or more files exceed the maximum file size allowed.";
-        case UPLOAD_ERR_PARTIAL:
-            return "One or more files were only partially uploaded.";
-        case UPLOAD_ERR_NO_FILE:
-            return "One or more required files were not uploaded.";
-        case UPLOAD_ERR_NO_TMP_DIR:
-            return "Missing a temporary folder on the server.";
-        case UPLOAD_ERR_CANT_WRITE:
-            return "Failed to write one or more files to disk.";
-        case UPLOAD_ERR_EXTENSION:
-            return "A PHP extension stopped the file upload.";
-        default:
-            return "An unknown error occurred during file upload.";
-    }
-}
+
+
+
+
+
+//FUNCTIONS
 
 
 // Function to create a thumbnail using GD library
@@ -168,7 +155,9 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
     imagedestroy($dst);
     return true;
 }
+
 ?>
+
 <!DOCTYPE html>
 <HTML lang="id"> 
 <HEAD>
