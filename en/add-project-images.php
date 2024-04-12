@@ -62,8 +62,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Prepare the response array with all image URLs included
             $response = array(
                 'project_id' => $project_id,
+                'project_name' => $_POST['project_name'] ?? null,
+                'description' => $_POST['description'] ?? null,
+                'start' => $_POST['start'] ?? null,
+                'briks_used' => $_POST['briks_used'] ?? null,
                 'full_urls' => $full_urls, // Array of main image URLs
                 'thumbnail_paths' => $thumbnail_paths, // Array of thumbnail URLs
+                'location_full' => $_POST['location_full'] ?? null
             );
             echo json_encode($response);
         }
@@ -145,7 +150,6 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
 
 
 ?>
-
 
 <!DOCTYPE html>
 <HTML lang="id"> 
