@@ -29,14 +29,14 @@ ini_set('display_errors', 1);?>
 		'<div class="splash-content-block">
 			<div class="splash-box">
 	
-				<div class="splash-heading">' . htmlspecialchars($array["name"], ENT_QUOTES, 'UTF-8') . '</div>
+				<div class="splash-heading">' . htmlspecialchars($array["project_name"], ENT_QUOTES, 'UTF-8') . '</div>
 				
-				<div class="splash-sub">' . htmlspecialchars($array["description"], ENT_QUOTES, 'UTF-8') . '</div>
+				<div class="splash-sub">' . htmlspecialchars($array["description_short"], ENT_QUOTES, 'UTF-8') . '</div>
 			</div>
 			
 			<div class="splash-image">
-				<a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '\', \'Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start"], ENT_QUOTES, 'UTF-8') . '\')"><img src="../' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start"], ENT_QUOTES, 'UTF-8') . '"
-			title="Project' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["start"], ENT_QUOTES, 'UTF-8') . '"></a>
+				<a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '\', \'Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '\')"><img src="../' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"
+			title="Project' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"></a>
 			</div>    
 		</div>
 	
@@ -50,7 +50,7 @@ ini_set('display_errors', 1);?>
                     <div class="row-details">
 
 			            <div class="lead-page-paragraph">
-                            <p>'. $array["name"] .'<span data-lang-id="110"> is a</span>'. $array["construction_type"] .' '. $array["project_type"].' project in </span>'. $array["location_full"] .'<span data-lang-id="112">.  The project is made from '. $array["briks_used"] .' ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'&#8202;kg of plastic. </p>
+                            <p>'. $array["project_name"] .'<span data-lang-id="110"> is a</span>'. $array["construction_type"] .' '. $array["project_type"].' project in </span>'. $array["location_full"] .'<span data-lang-id="112">.  The project is made from '. $array["briks_used"] .' ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'&#8202;kg of plastic. </p>
                         </div>
                    
                         <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
@@ -62,7 +62,7 @@ ini_set('display_errors', 1);?>
                             
                             // Check if the photo exists
                             if (!empty($photo_main) && !empty($photo_tmb)) {
-                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . $photo_main . '\', \'Project photo ' . $i . ' | '. $array["name"] .' \')">
+                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . $photo_main . '\', \'Project photo ' . $i . ' | '. $array["project_name"] .' \')">
                                         <img src="../' . $photo_tmb . '">
                                     </div>';
                             }
@@ -73,7 +73,7 @@ ini_set('display_errors', 1);?>
 		 echo ' <div class="main-details">
 					
 					<div class="page-paragraph">
-						<p>'. $array["long_description"] .'</p>
+						<p>'. $array["description_long"] .'</p>
 						<br>
 					</div>
 				</div>';
@@ -89,10 +89,10 @@ ini_set('display_errors', 1);?>
         <p data-lang-id="126">BEGIN PROJECT RECORD ></p>';
 
       
-            echo ' <p><b data-lang-id="128">Project name:</b> ' . $array["name"] . '</p>';
-            echo ' <p><b data-lang-id="127">Started:</b> ' . $array["start"] . '</p>';
-            echo ' <p><b data-lang-id="129">Short Description:</b> ' . $array["description"] . '</p>';
-            echo ' <p><b data-lang-id="130">End:</b> ' . $array["project_end"] . '</p>';
+            echo ' <p><b data-lang-id="128">Project name:</b> ' . $array["project_name"] . '</p>';
+            echo ' <p><b data-lang-id="127">Started:</b> ' . $array["start_dt"] . '</p>';
+            echo ' <p><b data-lang-id="129">Short Description:</b> ' . $array["description_short"] . '</p>';
+            echo ' <p><b data-lang-id="130">End:</b> ' . $array["end_dt"] . '</p>';
             echo ' <p><b data-lang-id="131">Briks Required:</b> ' . $array["briks_required"] . '</p>';
             echo ' <p><b data-lang-id="132">Project Phase:</b> ' . $array["project_phase"] . '</p>';
             echo ' <p><b data-lang-id="133">Percent Complete:</b> <i>' . $array["project_perc_complete"] . '</i>&#8202;%</p>';
@@ -111,7 +111,7 @@ ini_set('display_errors', 1);?>
             echo ' <p><b data-lang-id="146">Photo 4:</b> ' . $array["photo4_main"] . '</p>';
             echo ' <p><b data-lang-id="147">Photo 5:</b> ' . $array["photo5_main"] . '</p>';
             echo ' <p><b data-lang-id="148">Estimate Total Weight:</b> ' . $array["est_total_weight"] . '&#8202;kg</p>';
-            echo ' <p><b data-lang-id="149">Logged:</b> ' . $array["date_logged_ts"] . '</p>';
+            echo ' <p><b data-lang-id="149">Logged:</b> ' . $array["logged_ts"] . '</p>';
             echo ' <p><b data-lang-id="149b">Ready to Show:</b> ' . $array["ready_to_show"] . '</p>';
             echo ' <p data-lang-id="150"> ||| END RECORD.</p>
     
