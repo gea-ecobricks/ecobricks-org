@@ -50,7 +50,7 @@ ini_set('display_errors', 1);?>
                     <div class="row-details">
 
 			            <div class="lead-page-paragraph">
-                            <p>'. $array["name"] .' <span data-lang-id="110">is a</span>'. $array["project_type"].' project using</span>'. $array["construction_type"] .' in '. $array["location_full"] .'<span data-lang-id="112"> The project is made from '. $array["briks_used"] .' ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'kg of plastic. </p>
+                            <p>'. $array["name"] .'<span data-lang-id="110"> is a</span>'. $array["construction_type"] .' '. $array["project_type"].' project in </span>'. $array["location_full"] .'<span data-lang-id="112">.  The project is made from '. $array["briks_used"] .' ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'&#8202;kg of plastic. </p>
                         </div>
                    
                         <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
@@ -131,7 +131,7 @@ ini_set('display_errors', 1);?>
 				<br>
 				<p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Browse the Archive</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">The live archive of ecobrick projects around the world.</a></p>
-
+                <br>
                 <p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Ecobrick Applications</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">An overview of ecobrick applications.</a></p>
 

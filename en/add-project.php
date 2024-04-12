@@ -9,19 +9,19 @@ include '../ecobricks_env.php';
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $sql = "INSERT INTO tb_projects (name, description, long_description, start, briks_used, est_avg_brik_weight, location_full, location_geo, project_type, construction_type, community, project_admins) 
+    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_geo, project_type, construction_type, community, project_admins) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ST_GeomFromText(?), ?, ?, ?, ?)";
 
     // Prepare the SQL statement
     $stmt = $conn->prepare($sql);
 
-    $stmt->bind_param("ssssiissssss", $name, $description, $long_description, $start, $briks_used, $est_avg_brik_weight, $location_full, $location_geo, $project_type, $construction_type, $community, $project_admins);
+    $stmt->bind_param("ssssiissssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $location_geo, $project_type, $construction_type, $community, $project_admins);
 
     // Set parameters from the form, including the new field
-    $name = $_POST['name'];
-    $description = $_POST['description'];
-    $long_description = $_POST['long_description'];
-    $start = $_POST['start'];
+    $name = $_POST['project_name'];
+    $description = $_POST['description_short'];
+    $long_description = $_POST['description_long'];
+    $start = $_POST['start_dt'];
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight']; // New field
     $location_full = $_POST['location_full'];
@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Update `date_logged_ts` to current date and time
         $current_datetime = date("Y-m-d H:i:s");
-        $update_date_sql = "UPDATE tb_projects SET date_logged_ts = ? WHERE project_id = ?";
+        $update_date_sql = "UPDATE tb_projects SET logged_ts = ? WHERE project_id = ?";
         $update_date_stmt = $conn->prepare($update_date_sql);
         $update_date_stmt->bind_param("si", $current_datetime, $project_id);
         $update_date_stmt->execute();
@@ -93,14 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php require_once ("../includes/add-project-inc.php");?>
 
 
-<div class="splash-content-block">
-	<!-- <div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div>
-	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
-    </div>	     -->
-</div>
+<div class="splash-content-block"></div>
 <div id="splash-bar"></div>
 
  <!-- PAGE CONTENT-->
@@ -122,46 +115,51 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
 
   
-    <!-- <h1 data-lang-id="001-form-title">Post your Project</h1>
-               -->
-               <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
+        <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
          
-            <form id="submit-form" method="post" action="" enctype="multipart/form-data">
-    <div class="form-item" style="margin-top: 25px;">
-        <label for="name" data-lang-id="003-project-name">Project Name:</label><br>
-        <input type="text" id="name" name="name" aria-label="Project Name" title="Required. Max 255 characters." required>
-        <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.</p>
-    </div>
+        <form id="submit-form" method="post" action="" enctype="multipart/form-data">
+
+            <div class="form-item" style="margin-top: 25px;">
+                <label for="project_name" data-lang-id="003-project-name">Project Name:</label><br>
+                <input type="text" id="project_name" name="project_name" aria-label="Project Name" title="Required. Max 255 characters." required>
+                <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.</p>
+                <span id="project_name_error" style="color: red;"></span>
+            </div>
     
     <div class="form-item">
-        <label for="description" data-lang-id="004-short-project-desc">Short project description:</label><br>
-        <textarea id="description" name="description" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
+        <label for="description_short" data-lang-id="004-short-project-desc">Short project description:</label><br>
+        <textarea id="description_short" name="description_short" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
         <p class="form-caption" data-lang-id="004-short-project-desc-caption">Provide a once sentence description of this project. Max 150 words.</p>
+        <span id="description_short_error" style="color: red;"></span>
+        
     </div>
 
     <div class="form-item">
-        <label for="long_description" data-lang-id="005-long-project-desc">Full project description:</label><br>
-        <textarea id="long_description" name="long_description" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
+        <label for="description_long" data-lang-id="005-long-project-desc">Full project description:</label><br>
+        <textarea id="description_long" name="description_long" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
         <p class="form-caption" data-lang-id="005-long-project-desc-caption">Take as much space as you need as share the full details of your project. Max 1000 words.</p>
     </div>
     
     <div class="form-item">
-        <label for="start" data-lang-id="007-start-date">Start Date:</label><br>
-        <input type="date" id="start" name="start" aria-label="Start Date" required>
+        <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
+        <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
         <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
     </div>
     
     <div class="form-item">
-        <label for="briks_used" data-lang-id="009-bricks-used">Bricks Used:</label><br>
-        <input type="number" id="briks_used" name="briks_used" aria-label="Bricks Used" title="Maximum value allowed" required>
-        <p class="form-caption" data-lang-id="009-bricks-used-caption">How many briks does your project use?  Enter a number between 1-5000.</p>
-    </div>
+    <label for="briks_used" data-lang-id="009-bricks-used">Bricks Used:</label><br>
+    <input type="number" id="briks_used" name="briks_used" aria-label="Bricks Used" min="1" max="5000" required>
+    <p class="form-caption" data-lang-id="009-bricks-used-caption">How many briks does your project use? Enter a number between 1-5000.</p>
+    <span id="briks_used_error" style="color: red;"></span>
+</div>
 
-    <div class="form-item">
-        <label for="est_avg_brik_weight" data-lang-id="010-est-avg-weight">Please estimate the average weight of the ecobricks used in your project in grams?</label><br>
-        <input type="number" id="est_avg_brik_weight" name="est_avg_brik_weight" aria-label="Estimate Brik Weight" title="Maximum value allowed" required>
-        <p class="form-caption" data-lang-id="010-est-avg-weight-range">Must be a number between 100 and 2000.</p>
-    </div>
+<div class="form-item">
+    <label for="est_avg_brik_weight" data-lang-id="010-est-avg-weight">Please estimate the average weight of the ecobricks used in your project in grams?</label><br>
+    <input type="number" id="est_avg_brik_weight" name="est_avg_brik_weight" aria-label="Estimate Brik Weight" min="100" max="2000" required>
+    <p class="form-caption" data-lang-id="010-est-avg-weight-range">Must be a number between 100 and 2000.</p>
+    <span id="est_avg_brik_weight_error" style="color: red;"></span>
+</div>
+
 
     <div class="form-item">
         <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
@@ -182,7 +180,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <option value="silicone" data-lang-id="012-construction-silicone" >Silicone</option>
             <option value="banding" data-lang-id="012-construction-tire-banding">Tire Banding</option>
             <option value="ecojoiner" data-lang-id="012-construction-ecojoiner">Ecojoiner</option>
-            <option value="earth/cob" data-lang-id="012-construction-earth">Earth/Cob</option>
+            <option value="earth" data-lang-id="012-construction-earth">Earth/Cob</option>
             <option value="other" data-lang-id="012-other">Other</option>
         </select>
     </div>
@@ -201,18 +199,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div class="form-item">
         <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
-        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Enter project's general location..." required>
+        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Start typing..." required>
         <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
     </div>
-
-    <!-- <div class="form-item">
-        <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
-        <span data-lang-id="015-location-field-placeholder">
-            <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Enter project's general location..." required>
-        </span>
-        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Daftar kota..." required>
-        <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
-    </div> -->
 
     <input type="hidden" id="lat" name="latitude">
     <input type="hidden" id="lon" name="longitude">
@@ -235,6 +224,40 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script>
+document.getElementById('submit-form').onsubmit = function(e) {
+    var isValid = true;
+
+    var briksUsed = document.getElementById('briks_used');
+    var briksUsedError = document.getElementById('briks_used_error');
+    var estAvgBrikWeight = document.getElementById('est_avg_brik_weight');
+    var estAvgBrikWeightError = document.getElementById('est_avg_brik_weight_error');
+
+    // Validate briks_used
+    if (briksUsed.value < 1 || briksUsed.value > 5000 || briksUsed.value % 1 !== 0) {
+        briksUsedError.textContent = "Please enter a non-decimal number between 1 and 5000 for briks used.";
+        briksUsed.focus();
+        isValid = false;
+    } else {
+        briksUsedError.textContent = "";
+    }
+
+    // Validate est_avg_brik_weight
+    if (estAvgBrikWeight.value < 100 || estAvgBrikWeight.value > 2000 || estAvgBrikWeight.value % 1 !== 0) {
+        estAvgBrikWeightError.textContent = "Please enter a non-decimal number between 100 and 2000 for the average weight.";
+        estAvgBrikWeight.focus();
+        isValid = false;
+    } else {
+        estAvgBrikWeightError.textContent = "";
+    }
+
+    if (!isValid) {
+        e.preventDefault(); // Prevent form submission
+    }
+};
+</script>
+
 
 <script>
 $(function() {
