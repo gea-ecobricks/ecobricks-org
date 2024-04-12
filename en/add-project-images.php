@@ -2,7 +2,6 @@
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-
 include '../ecobricks_env.php';
 
 $error_message = '';
@@ -23,27 +22,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         for ($i = 1; $i <= 5; $i++) {
             $file_input_name = "photo{$i}_main";
-            if (isset($_FILES[$file_input_name])) {
-                if ($_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
-                    $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
-                    $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
-                    $targetPath = $upload_dir . $new_file_name_webp;
+            if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
+                $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
+                $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
+                $targetPath = $upload_dir . $new_file_name_webp;
 
-                    if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
-                        createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
-                        $full_urls[] = $targetPath;
-                        $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
-                        $main_file_sizes[] = filesize($targetPath) / 1024;
-                        $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
+                if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
+                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
+                    $full_urls[] = $targetPath;
+                    $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
+                    $main_file_sizes[] = filesize($targetPath) / 1024;
+                    $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
 
-                        array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
-                        array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
-                        $db_types .= "ss";
-                    } else {
-                        $error_message .= "Error processing image. Please try again.<br>";
-                    }
+                    array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
+                    array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
+                    $db_types .= "ss";
                 } else {
-                    $error_message .= handleFileUploadError($_FILES[$file_input_name]['error']);
+                    $error_message .= "Error processing image. Please try again.<br>";
+                }
+            } elseif (!isset($_FILES[$file_input_name]) || $_FILES[$file_input_name]['error'] != UPLOAD_ERR_OK) {
+                if ($i == 1) { // Photo1 is obligatory
+                    $error_message .= "The main photo (photo1_main) is required and was not uploaded.<br>";
+                    break;
                 }
             }
         }
@@ -83,29 +83,40 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 
+
 //FUNCTIONS
 
+function handleFileUploadError($errorCode, $index) {
+    $isRequired = ($index == 1); // Assuming photo1_main is index 1
+    $errorType = "Photo " . $index;
+    
+    if (!$isRequired) {
+        $errorType .= " (optional)"; // Marking the photo as optional in the error message
+    }
 
-// Simplified error handling function
-function handleFileUploadError($errorCode) {
     switch ($errorCode) {
         case UPLOAD_ERR_INI_SIZE:
         case UPLOAD_ERR_FORM_SIZE:
-            return "One or more files exceed the maximum file size allowed.";
+            return "{$errorType} exceeds the maximum file size allowed.<br>";
         case UPLOAD_ERR_PARTIAL:
-            return "One or more files were only partially uploaded.";
+            return "{$errorType} was only partially uploaded.<br>";
         case UPLOAD_ERR_NO_FILE:
-            return "One or more required files were not uploaded.";
+            // Only report missing file for required photo
+            if ($isRequired) {
+                return "{$errorType} was not uploaded but is required.<br>";
+            }
+            break; // Optionally, you could ignore this error for optional photos
         case UPLOAD_ERR_NO_TMP_DIR:
-            return "Missing a temporary folder on the server.";
+            return "Missing a temporary folder on server.<br>";
         case UPLOAD_ERR_CANT_WRITE:
-            return "Failed to write one or more files to disk.";
+            return "{$errorType} could not be written to disk.<br>";
         case UPLOAD_ERR_EXTENSION:
-            return "A PHP extension stopped the file upload.";
+            return "A PHP extension stopped the upload of {$errorType}.<br>";
         default:
-            return "An unknown error occurred during file upload.";
+            return "An unknown error occurred with {$errorType}.<br>";
     }
 }
+
 
 // Function to create a thumbnail using GD library
 function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
