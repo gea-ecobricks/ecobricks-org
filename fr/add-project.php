@@ -83,11 +83,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 <!DOCTYPE html>
-<HTML lang="id"> 
+<HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='id';?>
-<?php $version='1.979';?>
+<?php $lang='fr';?>
+<?php $version='1.98';?>
 <?php $page='add-project';?>
 
 
