@@ -9,46 +9,30 @@ include '../ecobricks_env.php';
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
+    // Updated SQL statement without location_geo
     $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_lat, location_long, project_type, construction_type, community, project_admins) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
-// Prepare the SQL statement
-$stmt = $conn->prepare($sql);
+    // Prepare the SQL statement
+    $stmt = $conn->prepare($sql);
 
-// Bind parameters including latitude and longitude
-// Make sure to match the correct data types
-$stmt->bind_param(
-    "ssssisddssss", // Updated specifiers: all 's' except for integer 'i' and double 'd'
-    $project_name, 
-    $description_short, 
-    $description_long, 
-    $start_dt, 
-    $briks_used, 
-    $est_avg_brik_weight, 
-    $location_full, 
-    $latitude, 
-    $longitude, 
-    $project_type, 
-    $construction_type, 
-    $community, 
-    $project_admins
-);
+    // Bind parameters
+    $stmt->bind_param("ssssisddsssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
 
-
-   // Set parameters from the form
-   $project_name = $_POST['project_name'];
-   $description_short = $_POST['description_short'];
-   $description_long = $_POST['description_long'];
-   $start_dt = $_POST['start_dt'];
-   $briks_used = $_POST['briks_used'];
-   $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
-   $location_full = $_POST['location_full'];
-   $latitude = (double)$_POST['latitude'];
-   $longitude = (double)$_POST['longitude'];
-   $project_type = $_POST['project_type'];
-   $construction_type = $_POST['construction_type'];
-   $community = $_POST['community'];
-   $project_admins = $_POST['project_admins'];
+    // Set parameters from the form
+    $project_name = $_POST['project_name'];
+    $description_short = $_POST['description_short'];
+    $description_long = $_POST['description_long'];
+    $start_dt = $_POST['start_dt'];
+    $briks_used = $_POST['briks_used'];
+    $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
+    $location_full = $_POST['location_full'];
+    $latitude = (double)$_POST['latitude'];
+    $longitude = (double)$_POST['longitude'];
+    $project_type = $_POST['project_type'];
+    $construction_type = $_POST['construction_type'];
+    $community = $_POST['community'];
+    $project_admins = $_POST['project_admins'];
 
 
     // Execute the SQL statement
