@@ -10,29 +10,31 @@ include '../ecobricks_env.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_geo, location_lat, location_long, project_type, construction_type, community, project_admins) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ST_GeomFromText(?), ?, ?, ?, ?, ?, ?)";
+VALUES (?, ?, ?, ?, ?, ?, ?, ST_GeomFromText(?), ?, ?, ?, ?, ?, ?)";
 
-    // Prepare the SQL statement
-    $stmt = $conn->prepare($sql);
+// Prepare the SQL statement
+$stmt = $conn->prepare($sql);
 
-    // Bind parameters including latitude and longitude
-    $stmt->bind_param("ssssiisddsssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $location_geo, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
+// Bind parameters including latitude and longitude
+// Make sure to match the correct data types
+$stmt->bind_param("ssssiisddsssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $location_geo, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
 
-    // Set parameters from the form
-    $project_name = $_POST['project_name'];
-    $description_short = $_POST['description_short'];
-    $description_long = $_POST['description_long'];
-    $start_dt = $_POST['start_dt'];
-    $briks_used = $_POST['briks_used'];
-    $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
-    $location_full = $_POST['location_full'];
-    $location_geo = "POINT(" . $_POST['latitude'] . " " . $_POST['longitude'] . ")";
-    $latitude = $_POST['latitude']; // Capturing latitude
-    $longitude = $_POST['longitude']; // Capturing longitude
-    $project_type = $_POST['project_type'];
-    $construction_type = $_POST['construction_type'];
-    $community = $_POST['community'];
-    $project_admins = $_POST['project_admins'];
+// Set parameters from the form, ensuring strings for ST_GeomFromText
+$project_name = $_POST['project_name'];
+$description_short = $_POST['description_short'];
+$description_long = $_POST['description_long'];
+$start_dt = $_POST['start_dt'];
+$briks_used = $_POST['briks_used'];
+$est_avg_brik_weight = $_POST['est_avg_brik_weight'];
+$location_full = $_POST['location_full'];
+$location_geo = "POINT(" . $_POST['latitude'] . " " . $_POST['longitude'] . ")";
+$latitude = (double)$_POST['latitude']; // Ensure type casting if necessary
+$longitude = (double)$_POST['longitude']; // Ensure type casting if necessary
+$project_type = $_POST['project_type'];
+$construction_type = $_POST['construction_type'];
+$community = $_POST['community'];
+$project_admins = $_POST['project_admins'];
+
 
     // Execute the SQL statement
     if ($stmt->execute()) {
