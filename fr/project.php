@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';
+<?php $lang='fr';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);?>
 <?php $version='2.09';?>
