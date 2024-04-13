@@ -126,7 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="form-item" style="margin-top: 25px;">
                 <label for="project_name" data-lang-id="003-project-name">Project Name:</label><br>
                 <input type="text" id="project_name" name="project_name" aria-label="Project Name" title="Required. Max 255 characters." required>
-                <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.  Avoid apostrpphes and other characters.</p>
+                <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.  Avoid apostrophes and other characters.</p>
                 <span id="project_name_error" style="color: red;"></span>
             </div>
     
@@ -203,7 +203,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div class="form-item">
         <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
-        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="..." required>
+        <input type="text" id="location_full" name="location_full" aria-label="Project Location" placeholder="..." required>
         <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
     </div>
 
