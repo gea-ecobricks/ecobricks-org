@@ -85,15 +85,7 @@ ini_set('display_errors', 1);?>
 				</div>';
                 
 				
-				$projectId = $_GET['project_id'] ?? 0; // Default to 0 if not set
-				if ($projectId) {
-					// Updated SQL to directly use location_lat and location_long
-					$sql = "SELECT project_name, description_long, location_lat AS latitude, location_long AS longitude FROM tb_projects WHERE project_id = ?";
-					$stmt = $conn->prepare($sql);
-					$stmt->bind_param('i', $projectId);
-					$stmt->execute();
-					$result = $stmt->get_result();
-					$array = $result->fetch_assoc();
+		
 				
 					if ($array && $array['latitude'] && $array['longitude']) {
 						echo '
@@ -112,9 +104,7 @@ ini_set('display_errors', 1);?>
 					} else {
 						echo 'Project not found or no location data available.';
 					}
-				} else {
-					echo 'Invalid project ID.';
-				}
+	
 				
 
 			echo '
