@@ -13,39 +13,35 @@ ini_set('display_errors', 1);?>
 <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 
 
- 
 <?php 
 
-	require_once ("../includes/project-inc.php");
-	include '../ecobricks_env.php';
+require_once("../includes/project-inc.php");
+include '../ecobricks_env.php';
 
-	$projectId = $_GET['project_id'];
+$projectId = $_GET['project_id'] ?? 0; // Safer default, preventing SQL injection
 
-	$sql = "SELECT * FROM tb_projects WHERE project_id = '" . $projectId . "'";
+if ($projectId) {
+    // Safely prepare and execute SQL query
+    $sql = "SELECT project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_lat AS latitude, location_long AS longitude, photo1_main, photo1_tmb, photo2_main, photo2_tmb, photo3_main, photo3_tmb, photo4_main, photo4_tmb, photo5_main, photo5_tmb, construction_type, project_type, est_total_weight FROM tb_projects WHERE project_id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param('i', $projectId);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if ($array = $result->fetch_assoc()) {
 
-
-
-	$result = $conn->query($sql);
-	if ($result->num_rows > 0) {
-	
-    while($array = $result->fetch_assoc()) {
-
-		echo 
-		'<div class="splash-content-block">
-			<div class="splash-box">
-	
-				<div class="splash-heading">' . htmlspecialchars($array["project_name"], ENT_QUOTES, 'UTF-8') . '</div>
-				
-				<div class="splash-sub">' . htmlspecialchars($array["descrattitudeiption_short"], ENT_QUOTES, 'UTF-8') . '</div>
-			</div>
-			
-			<div class="splash-image">
-				<a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '\', \'Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '\')"><img src="../' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"
-			title="Project' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"></a>
-			</div>    
-		</div>
-	
-		<div id="splash-bar"></div>';
+        echo 
+        '<div class="splash-content-block">
+            <div class="splash-box">
+                <div class="splash-heading">' . htmlspecialchars($array["project_name"], ENT_QUOTES, 'UTF-8') . '</div>
+                <div class="splash-sub">' . htmlspecialchars($array["description_short"], ENT_QUOTES, 'UTF-8') . '</div>
+            </div>
+            
+            <div class="splash-image">
+                <a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '\', \'Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '\')"><img src="../' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"
+            title="Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"></a>
+            </div>    
+        </div>
+        <div id="splash-bar"></div>';
 
         echo '
 		
@@ -86,24 +82,22 @@ ini_set('display_errors', 1);?>
                 
 				
 		
-				
-					if ($array && $array['latitude'] && $array['longitude']) {
-						echo '
-						
-							<div id="map" style="width: 100%; height: 300px;"></div>
-							<script>
-								var map = L.map("map").setView([' . $array['latitude'] . ', ' . $array['longitude'] . '], 13);
-								L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-									maxZoom: 19,
-									attribution: "© OpenStreetMap"
-								}).addTo(map);
-								L.marker([' . $array['latitude'] . ', ' . $array['longitude'] . ']).addTo(map)
-									.bindPopup("' . htmlspecialchars($array['project_name'], ENT_QUOTES, 'UTF-8') . '")
-									.openPopup();
-							</script>';
-					} else {
-						echo 'Project not found or no location data available.';
-					}
+			    if ($array['latitude'] && $array['longitude']) {
+					echo '
+					<div id="map" style="width: 100%; height: 300px;"></div>
+					<script>
+						var map = L.map("map").setView([' . $array['latitude'] . ', ' . $array['longitude'] . '], 13);
+						L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+							maxZoom: 19,
+							attribution: "© OpenStreetMap"
+						}).addTo(map);
+						L.marker([' . $array['latitude'] . ', ' . $array['longitude'] . ']).addTo(map)
+							.bindPopup("' . htmlspecialchars($array['project_name'], ENT_QUOTES, 'UTF-8') . '")
+							.openPopup();
+					</script>';
+				} else {
+					echo 'Project not found or no location data available.';
+				}
 	
 				
 
