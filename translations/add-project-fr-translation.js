@@ -34,5 +34,6 @@ const fr_Page_Translations = {
   "014b-optional": "Facultatif : Fournissez le ou les noms des principaux responsables du projet. Si vous souhaitez lier ceci à un compte utilisateur GoBrik, assurez-vous d'épeler correctement le nom.",
   "015-location": "Où se trouve le projet ?",
   "016-location-caption": "Pour des raisons de confidentialité, veuillez ne pas utiliser votre adresse exacte, choisissez votre quartier général ou votre ville. Les emplacements des projets seront affichés sur notre carte des projets.",
-  "017-submit-button": "Suivant : Télécharger les photos ➡️"
+  "017-submit-button": '<input type="submit" value="Suivant : Télécharger les photos ➡️" aria-label="Soumettre le formulaire">'
+
 };

@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.98';?>
+<?php $version='1.981';?>
 <?php $page='add-project';?>
 
 
@@ -202,7 +202,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div class="form-item">
         <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
-        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Start typing..." required>
+        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="..." required>
         <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
     </div>
 

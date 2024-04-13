@@ -42,7 +42,7 @@ const en_Page_Translations = {
     "014b-optional": "Optional: Provide the name(s) of the project's principals. If you wish to link this to a GoBrik user account be sure to spell the name accordingly.",
     "015-location": "Where is the project located?",
     "016-location-caption": "For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.",
-    "017-submit-button": "Next: Upload Photos ➡️"
+    "017-submit-button": '<input type="submit" value="Next: Upload Photos ➡️" aria-label="Submit Form">'
 
 
 
