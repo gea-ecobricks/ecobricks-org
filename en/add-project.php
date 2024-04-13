@@ -9,27 +9,30 @@ include '../ecobricks_env.php';
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_geo, project_type, construction_type, community, project_admins) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ST_GeomFromText(?), ?, ?, ?, ?)";
+    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_geo, location_lat, location_long, project_type, construction_type, community, project_admins) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ST_GeomFromText(?), ?, ?, ?, ?, ?, ?)";
 
     // Prepare the SQL statement
     $stmt = $conn->prepare($sql);
 
-    $stmt->bind_param("ssssiissssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $location_geo, $project_type, $construction_type, $community, $project_admins);
+    // Bind parameters including latitude and longitude
+    $stmt->bind_param("ssssiisddsssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $location_geo, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
 
-    // Set parameters from the form, including the new field
+    // Set parameters from the form
     $project_name = $_POST['project_name'];
     $description_short = $_POST['description_short'];
     $description_long = $_POST['description_long'];
     $start_dt = $_POST['start_dt'];
     $briks_used = $_POST['briks_used'];
-    $est_avg_brik_weight = $_POST['est_avg_brik_weight']; // New field
+    $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
     $location_full = $_POST['location_full'];
+    $location_geo = "POINT(" . $_POST['latitude'] . " " . $_POST['longitude'] . ")";
+    $latitude = $_POST['latitude']; // Capturing latitude
+    $longitude = $_POST['longitude']; // Capturing longitude
     $project_type = $_POST['project_type'];
     $construction_type = $_POST['construction_type'];
     $community = $_POST['community'];
     $project_admins = $_POST['project_admins'];
-    $location_geo = "POINT(" . $_POST['latitude'] . " " . $_POST['longitude'] . ")";
 
     // Execute the SQL statement
     if ($stmt->execute()) {
@@ -226,6 +229,34 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 <script>
+// Define the error messages for all languages
+var errorMessages = {
+    en: {
+        briksUsed: "Please enter a non-decimal number between 1 and 5000 for briks used.",
+        avgBrikWeight: "Please enter a non-decimal number between 100 and 2000 for the average weight.",
+        projectName: "Project name contains invalid characters. Avoid quotes, slashes, and greater-than signs.",
+        description: "Description contains invalid characters. Avoid quotes, slashes, and greater-than signs."
+    },
+    fr: {
+        briksUsed: "Veuillez entrer un nombre entier entre 1 et 5000 pour les briques utilisées.",
+        avgBrikWeight: "Veuillez entrer un nombre entier entre 100 et 2000 pour le poids moyen.",
+        projectName: "Le nom du projet contient des caractères invalides. Évitez les guillemets, les barres obliques et les signes supérieurs.",
+        description: "La description contient des caractères invalides. Évitez les guillemets, les barres obliques et les signes supérieurs."
+    },
+    es: {
+        briksUsed: "Ingrese un número entero entre 1 y 5000 para los ladrillos utilizados.",
+        avgBrikWeight: "Ingrese un número entero entre 100 y 2000 para el peso promedio.",
+        projectName: "El nombre del proyecto contiene caracteres inválidos. Evite comillas, barras y signos de mayor que.",
+        description: "La descripción contiene caracteres inválidos. Evite comillas, barras y signos de mayor que."
+    },
+    id: {
+        briksUsed: "Masukkan angka bulat antara 1 dan 5000 untuk bata yang digunakan.",
+        avgBrikWeight: "Masukkan angka bulat antara 100 dan 2000 untuk berat rata-rata.",
+        projectName: "Nama proyek mengandung karakter yang tidak valid. Hindari tanda kutip, garis miring, dan tanda lebih besar.",
+        description: "Deskripsi mengandung karakter yang tidak valid. Hindari tanda kutip, garis miring, dan tanda lebih besar."
+    }
+};
+
 document.getElementById('submit-form').onsubmit = function(e) {
     var isValid = true;
 
@@ -238,9 +269,11 @@ document.getElementById('submit-form').onsubmit = function(e) {
     var descriptionShort = document.getElementById('description_short');
     var descriptionShortError = document.getElementById('description_short_error');
 
+    var lang = window.currentLanguage || 'en'; // Default to English if currentLanguage is not set
+
     // Validate briks_used
     if (briksUsed.value < 1 || briksUsed.value > 5000 || briksUsed.value % 1 !== 0) {
-        briksUsedError.textContent = "Please enter a non-decimal number between 1 and 5000 for briks used.";
+        briksUsedError.textContent = errorMessages[lang].briksUsed;
         briksUsed.focus();
         isValid = false;
     } else {
@@ -249,7 +282,7 @@ document.getElementById('submit-form').onsubmit = function(e) {
 
     // Validate est_avg_brik_weight
     if (estAvgBrikWeight.value < 100 || estAvgBrikWeight.value > 2000 || estAvgBrikWeight.value % 1 !== 0) {
-        estAvgBrikWeightError.textContent = "Please enter a non-decimal number between 100 and 2000 for the average weight.";
+        estAvgBrikWeightError.textContent = errorMessages[lang].avgBrikWeight;
         estAvgBrikWeight.focus();
         isValid = false;
     } else {
@@ -258,7 +291,7 @@ document.getElementById('submit-form').onsubmit = function(e) {
 
     // Validate project_name for invalid characters
     if (/['"\/\>]/.test(projectName.value)) {
-        projectNameError.textContent = "Project name contains invalid characters. Avoid quotes, slashes, and greater-than signs.";
+        projectNameError.textContent = errorMessages[lang].projectName;
         projectName.focus();
         isValid = false;
     } else {
@@ -267,7 +300,7 @@ document.getElementById('submit-form').onsubmit = function(e) {
 
     // Validate description_short for invalid characters
     if (/['"\/\>]/.test(descriptionShort.value)) {
-        descriptionShortError.textContent = "Description contains invalid characters. Avoid quotes, slashes, and greater-than signs.";
+        descriptionShortError.textContent = errorMessages[lang].description;
         descriptionShort.focus();
         isValid = false;
     } else {
@@ -279,6 +312,7 @@ document.getElementById('submit-form').onsubmit = function(e) {
     }
 };
 </script>
+
 
 
 
