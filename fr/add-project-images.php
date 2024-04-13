@@ -1,16 +1,200 @@
+<?php
+
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+include '../ecobricks_env.php';
+
+$error_message = '';
+$full_urls = [];
+$thumbnail_paths = [];
+$main_file_sizes = [];
+$thumbnail_file_sizes = [];
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (isset($_POST['project_id'])) {
+        $project_id = $_POST['project_id'];
+        $upload_dir = '../projects/photos/';
+        $thumbnail_dir = '../projects/tmbs/';
+
+        $db_fields = [];
+        $db_values = [];
+        $db_types = "";
+
+        for ($i = 1; $i <= 5; $i++) {
+            $file_input_name = "photo{$i}_main";
+            if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
+                $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
+                $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
+                $targetPath = $upload_dir . $new_file_name_webp;
+
+                if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
+                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
+                    $full_urls[] = $targetPath;
+                    $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
+                    $main_file_sizes[] = filesize($targetPath) / 1024;
+                    $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
+
+                    array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
+                    array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
+                    $db_types .= "ss";
+                } else {
+                    $error_message .= "Error processing image. Please try again.<br>";
+                }
+            }
+        }
+
+        if (!empty($db_fields) && empty($error_message)) {
+            // Additional fields to update
+            array_push($db_fields, "ready_to_show", "logged_ts");
+            array_push($db_values, 1, date("Y-m-d H:i:s")); // Set 'ready_to_show' to 1 and current timestamp
+            $db_types .= "is"; // 'i' for integer and 's' for string (timestamp)
+
+            $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
+            $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
+            $db_values[] = $project_id;
+            $db_types .= "i";
+
+            $update_stmt = $conn->prepare($update_sql);
+            $update_stmt->bind_param($db_types, ...$db_values);
+            if (!$update_stmt->execute()) {
+                $error_message .= "Database update failed: " . $update_stmt->error;
+            }
+            $update_stmt->close();
+        }
+
+        if (!empty($error_message)) {
+            http_response_code(400);
+            header('Content-Type: application/json');
+            echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
+            exit;
+        } else {
+            $response = array(
+                'project_id' => $project_id,
+                'full_urls' => $full_urls,
+                'thumbnail_paths' => $thumbnail_paths,
+                'main_file_sizes' => $main_file_sizes,
+                'thumbnail_file_sizes' => $thumbnail_file_sizes
+            );
+            header('Content-Type: application/json');
+            echo json_encode($response);
+            exit;
+        }
+    }
+}
 
 
+
+//FUNCTIONS
+
+function handleFileUploadError($errorCode, $index) {
+    $isRequired = ($index == 1); // Assuming photo1_main is index 1
+    $errorType = "Photo " . $index;
+    
+    if (!$isRequired) {
+        $errorType .= " (optional)"; // Marking the photo as optional in the error message
+    }
+
+    switch ($errorCode) {
+        case UPLOAD_ERR_INI_SIZE:
+        case UPLOAD_ERR_FORM_SIZE:
+            return "{$errorType} exceeds the maximum file size allowed.<br>";
+        case UPLOAD_ERR_PARTIAL:
+            return "{$errorType} was only partially uploaded.<br>";
+        case UPLOAD_ERR_NO_FILE:
+            // Only report missing file for required photo
+            if ($isRequired) {
+                return "{$errorType} was not uploaded but is required.<br>";
+            }
+            break; // Optionally, you could ignore this error for optional photos
+        case UPLOAD_ERR_NO_TMP_DIR:
+            return "Missing a temporary folder on server.<br>";
+        case UPLOAD_ERR_CANT_WRITE:
+            return "{$errorType} could not be written to disk.<br>";
+        case UPLOAD_ERR_EXTENSION:
+            return "A PHP extension stopped the upload of {$errorType}.<br>";
+        default:
+            return "An unknown error occurred with {$errorType}.<br>";
+    }
+}
+
+
+// Function to create a thumbnail using GD library
+function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
+    list($source_width, $source_height, $source_type) = getimagesize($source_path);
+    switch ($source_type) {
+        case IMAGETYPE_JPEG:
+            $source_image = imagecreatefromjpeg($source_path);
+            break;
+        case IMAGETYPE_PNG:
+            $source_image = imagecreatefrompng($source_path);
+            break;
+        case IMAGETYPE_WEBP:
+            $source_image = imagecreatefromwebp($source_path);
+            break;
+        default:
+            return false;
+    }
+    $thumbnail = imagecreatetruecolor($width, $height);
+    imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $width, $height, $source_width, $source_height);
+    imagedestroy($source_image);
+    imagejpeg($thumbnail, $destination_path, $quality);
+    imagedestroy($thumbnail);
+    return true;
+}
+
+// Function to convert image to WebP format
+function convertToWebP($source_path, $destination_path) {
+    $image = imagecreatefromstring(file_get_contents($source_path));
+    if ($image !== false) {
+        imagepalettetotruecolor($image);
+        imagewebp($image, $destination_path, 85);
+        imagedestroy($image);
+        return true;
+    }
+    return false;
+}
+
+
+// Function to resize original image if any of its dimensions are larger than 1500px.
+
+function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQuality) {
+    list($width, $height, $type, $attr) = getimagesize($sourcePath);
+    $scale = min($maxDim/$width, $maxDim/$height);
+    $newWidth = $width > $maxDim ? ceil($scale * $width) : $width;
+    $newHeight = $height > $maxDim ? ceil($scale * $height) : $height;
+
+    // Depending on the original image type, create a new image
+    switch ($type) {
+        case IMAGETYPE_JPEG:
+            $src = imagecreatefromjpeg($sourcePath);
+            break;
+        case IMAGETYPE_PNG:
+            $src = imagecreatefrompng($sourcePath);
+            break;
+        default:
+            // Unsupported type for conversion
+            return false;
+    }
+
+    $dst = imagecreatetruecolor($newWidth, $newHeight);
+    imagecopyresampled($dst, $src, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
+    imagewebp($dst, $targetPath, $compressionQuality); // Save the image as WebP with specified compression quality
+
+    imagedestroy($src);
+    imagedestroy($dst);
+    return true;
+}
+?>
 <!DOCTYPE html>
 <HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='2.1';?>
+<?php $version='2.31';?>
 <?php $page='add-project-images';?>
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
-
 
 <div class="splash-content-block"></div>
 <div id="splash-bar"></div>
@@ -25,12 +209,24 @@
         <div class="step-graphic" style="width:fit-content;margin:auto;">
             <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 2: Upload images">
         </div>
-        <div class="splash-heading">Now Upload Your Images</div>
-        <p data-lang-id="002-form-description">Show the world your project!  Upload one to five images showing your construction from different angles or times.</p>
-        <br><hr>
+
+        <div class="splash-form-content-block">  
+            <div class="splash-box">
+        
+                <div class="splash-heading" data-lang-id="001-form-title">Now Upload Your Images</div>
+            </div>
+            <div class="splash-image" data-lang-id="003-splash-image-alt">
+                <img src="../svgs/square-photo.svg?v=2" style="width:65%" alt="Please take a square photo">
+            </div>
+        </div>
+
+
+        <p data-lang-id="002-form-description2">Show the world your project!  Upload one to five images showing your construction from different angles or times. <span style="color:red">Please upload only square photos.  Be sure photos are under 8MB.</span></p>
+
+        
         <br>
         
-        <form id="photoform" action="../add_project_images.php" method="post" enctype="multipart/form-data">
+        <form id="photoform" action="" method="post" enctype="multipart/form-data">
             <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
       <!-- Photo 1 Main & Thumbnail -->
 <div class="form-item">
@@ -79,15 +275,23 @@
 
 
 
-    <div id="upload-success" class="form-container" style="display:none;" id="upload-progress-button">
-           
+    <div id="upload-success" class="form-container" style="display:none;">
+    <div class="step-graphic" style="width:fit-content;margin:auto;">
+            <img src="../svgs/step3-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
+        </div>
+        <div id="upload-success-message"></div>
+        <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">🎉 View Project Post</a>
     </div>
+
+
+<a href="#" onclick="goBack()"  aria-label="Go back to re-enter data" class="back-link" data-lang-id="014-go-back-link">↩ Back to Step 1</a>
 
 </div>
 
   
-<p style="width:100%; text-align: center;"><a href="#" onclick="goBack()" class="browser-back-text-button" aria-label="Go back to re-enter data" data-lang-id="014-go-back-link">↩ Back to Step 1</a></p>
 <br><br>
+
+</div>
 
 
        
@@ -179,7 +383,6 @@ function handleFormResponse(response) {
 }
 
 
-
 // Updated function to handle upload success with multiple images
 function uploadSuccess(data) {
     // Define messages for different languages
@@ -206,42 +409,39 @@ function uploadSuccess(data) {
         }
     };
 
-    // Check the current language and select the appropriate message; default to English
     var currentLang = window.currentLanguage || 'en';
     var selectedMessage = messages[currentLang] || messages.en;
 
-    // Start by constructing the heading and paragraph text using the selected language
     var successMessage = '<h1>' + selectedMessage.heading + '</h1>';
     successMessage += '<p>' + selectedMessage.description + '</p><br>';
     
-    // Add the gallery HTML
     var galleryHTML = '<div id="three-column-gal" class="three-column-gal">';
 
-    // Iterate over the thumbnail_paths and full_urls to build the gallery items
+    // Iterate over the thumbnail_paths and full_urls to build the gallery items with added file size details
     for (var i = 0; i < data.thumbnail_paths.length; i++) {
-        // Construct directory path text from the thumbnail path for the caption
         var directoryPathText = data.thumbnail_paths[i].substring(data.thumbnail_paths[i].lastIndexOf('/') + 1);
+        var captionText = directoryPathText + ' | ' + data.thumbnail_file_sizes[i].toFixed(1) + ' KB | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
+        var fullUrlText = data.full_urls[i];
+        var modalCaption = captionText = directoryPathText + ' | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
 
-        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + data.full_urls[i] + '\', \'' + directoryPathText + '\')">';
+        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + fullUrlText + '\', \'' + modalCaption + '\')">';
         galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
-        galleryHTML += '<p style="font-size:small;">' + directoryPathText + '</p>';
+        galleryHTML += '<p style="font-size:small;">' + captionText + '</p>';
         galleryHTML += '</div>';
     }
 
-    // Close the gallery HTML and append it to the success message
     galleryHTML += '</div>';
     successMessage += galleryHTML;
 
-    // Append the button at the end using the selected language
     successMessage += '<a class="confirm-button" href="add-project.php">' + selectedMessage.button + '</a>';
 
-    // Display the upload-success div and populate with the success message
     var uploadSuccessDiv = document.getElementById('upload-success');
-    uploadSuccessDiv.innerHTML = successMessage;
+    var uploadSuccessMessageDiv = document.getElementById('upload-success-message');
+    uploadSuccessMessageDiv.innerHTML = successMessage;
     uploadSuccessDiv.style.display = 'block';
 
-    // Hide the form after upload success
     document.getElementById('upload-photo-form').style.display = 'none';
+    window.scrollTo(0, 0);
 }
 
 
