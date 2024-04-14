@@ -9,21 +9,21 @@ $conn->set_charset("utf8mb4");
 
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Log the received value of location_full to the PHP error log
-    error_log('Received location_full: ' . (isset($_POST['location_full']) ? $_POST['location_full'] : 'Not set'));
+    // Log the received value of location_address to the PHP error log
+    error_log('Received location_address: ' . (isset($_POST['location_address']) ? $_POST['location_address'] : 'Not set'));
 
     // Debugging: Output all POST data to error log to review what is being received
     error_log('POST data: ' . print_r($_POST, true));
 
-    // Updated SQL statement with location_address
-    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_address, location_lat, location_long, project_type, construction_type, community, project_admins) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    // Updated SQL statement without location_geo
+    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_lat, location_long, project_type, construction_type, community, project_admins) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     // Prepare the SQL statement
     $stmt = $conn->prepare($sql);
 
-    // Bind parameters including location_address
-    $stmt->bind_param("ssssdsddssssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $location_address, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
+    // Bind parameters
+    $stmt->bind_param("ssssdsddsssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
 
     // Set parameters from the form
     $project_name = $_POST['project_name'];
@@ -32,8 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $start_dt = $_POST['start_dt'];
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
-    $location_full = $_POST['location_full']; // Assign location_full from POST data
-    $location_address = $location_full; // Directly assign location_full to location_address
+    $location_full = $_POST['location_address']; // Fetching value from 'location_address' form field
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
     $project_type = $_POST['project_type'];
@@ -216,9 +215,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <div class="form-item">
-    <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
+    <label for="location_address" data-lang-id="015-location">Where is the project located?</label><br>
     <div class="input-container">
-        <input type="text" id="location_full" name="location_full" aria-label="Project Location" placeholder="..." required>
+        <input type="text" id="location_address" name="location_address" aria-label="Project Location" placeholder="..." required>
         <div id="loading-spinner" class="spinner" style="display: none;"></div>
     </div>
     <p class="form-caption" data-lang-id="016-location-caption">For privacy, please don't use your exact address. Choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
@@ -338,7 +337,7 @@ document.getElementById('submit-form').onsubmit = function(e) {
 
 $(function() {
     let debounceTimer;
-    $("#location_full").autocomplete({
+    $("#location_address").autocomplete({
         source: function(request, response) {
             $("#loading-spinner").show();
             clearTimeout(debounceTimer);
@@ -380,8 +379,8 @@ $(function() {
     });
 
     $('#submit-form').on('submit', function() {
-    console.log('Location Full:', $('#location_full').val()); // Correct way to log
-    // alert('Location Full: ' + $('#location_full').val()); // Correct way to use alert
+    console.log('Location Full:', $('#location_address').val()); // Correct way to log
+    alert('Location Full: ' + $('#location_address').val()); // Correct way to use alert
 });
 
 });

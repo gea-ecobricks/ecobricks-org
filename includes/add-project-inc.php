@@ -303,7 +303,7 @@ input[type="submit"]:hover {
     width: 100%
 }
 
-#location_full {
+#location_address {
     width: 100%;
     padding-right: 30px; /* Make space for the spinner */
 }
