@@ -407,7 +407,10 @@ RedirectMatch "^/ecobrickable/" "/en/brickable.php"
 
 RedirectMatch "^/id/earth.php" "/id/tanah.php"
 
+RedirectMatch "^/tanah/" "/id/tanah.php"
+
 RedirectMatch "^/earth/" "/en/earth.php"
+RedirectMatch "^/earth.php" "/en/earth.php"
 
 
 RedirectMatch "^/modules-beta" "/en/modules.php"
