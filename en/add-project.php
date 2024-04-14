@@ -89,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.983';?>
+<?php $version='1.99';?>
 <?php $page='add-project';?>
 
 
@@ -203,10 +203,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <div class="form-item">
-        <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
-        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="..." required>
-        <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
-    </div>
+    <div id="loading-spinner" class="spinner" style="display: none;"></div>
+    <label for="projectLocation" data-lang-id="015-location">Where is the project located?</label><br>
+    <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="..." required>
+    <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
+</div>
+
 
     <input type="hidden" id="lat" name="latitude">
     <input type="hidden" id="lon" name="longitude">
@@ -352,45 +354,52 @@ document.getElementById('submit-form').onsubmit = function(e) {
 
 $(function() {
     let debounceTimer;
-    $("#projectLocation").autocomplete({
+    $("#location_full").autocomplete({
         source: function(request, response) {
+            $("#loading-spinner").show();
             clearTimeout(debounceTimer);
             debounceTimer = setTimeout(() => {
                 $.ajax({
                     url: "https://nominatim.openstreetmap.org/search",
                     dataType: "json",
                     headers: {
-                        'User-Agent': 'ecobricks.org' // A custom User-Agent to comply with policy
+                        'User-Agent': 'ecobricks.org'
                     },
                     data: {
                         q: request.term,
                         format: "json"
                     },
                     success: function(data) {
+                        $("#loading-spinner").hide();
                         response($.map(data, function(item) {
                             return {
-                                label: item.display_name, // Label for each autocomplete option
-                                value: item.display_name, // Value for each autocomplete option
+                                label: item.display_name,
+                                value: item.display_name,
                                 lat: item.lat,
                                 lon: item.lon
                             };
                         }));
                     },
                     error: function(xhr, status, error) {
+                        $("#loading-spinner").hide();
                         console.error("Autocomplete error:", error);
-                        response([]); // Provide an empty array to response in case of error
+                        response([]);
                     }
                 });
-            }, 300); // Debounce delay of 300 milliseconds
+            }, 300);
         },
         select: function(event, ui) {
-            // Optionally, set hidden form fields for the lat and lon values
             $('#lat').val(ui.item.lat);
             $('#lon').val(ui.item.lon);
         },
-        minLength: 3 // Minimum length of query string to start search
+        minLength: 3
+    });
+
+    $('#submit-form').on('submit', function() {
+        console.log('Location Full:', $('#location_full').val());
     });
 });
+
 </script>
 
 
