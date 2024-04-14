@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_lat, location_long, project_type, construction_type, community, project_admins) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
-echo "Location Full before insert: " . $location_full . "<br>";
+    echo "Location Full before insert: " . $location_full . "<br>";
 
     // Prepare the SQL statement
     $stmt = $conn->prepare($sql);
@@ -45,10 +45,22 @@ echo "Location Full before insert: " . $location_full . "<br>";
     $community = $_POST['community'];
     $project_admins = $_POST['project_admins'];
 
-    // Execute the SQL statement
+    // Execute the SQL statement only once
     if ($stmt->execute()) {
         // Get the last inserted project_id
         $project_id = $conn->insert_id;
+        
+        // Immediately fetch to verify insertion
+        $check_sql = "SELECT location_full FROM tb_projects WHERE project_id = ?";
+        if ($check_stmt = $conn->prepare($check_sql)) {
+            $check_stmt->bind_param("i", $project_id);
+            $check_stmt->execute();
+            $check_stmt->bind_result($location_full_fetched);
+            $check_stmt->fetch();
+            echo "Location Full fetched from DB: " . $location_full_fetched . "<br>";
+            $check_stmt->close();
+        }
+
 
         // Calculate `est_total_weight`
         $est_total_weight = ($briks_used * $est_avg_brik_weight) / 1000;
@@ -74,7 +86,7 @@ echo "Location Full before insert: " . $location_full . "<br>";
         $stmt->close();
         $conn->close();
         // Redirect to the next page with project_id as a query parameter
-        echo "<script>window.location.href = 'FAil.php?project_id=" . $project_id . "';</script>";
+        echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
         exit();
     } else {
         // Handle errors by displaying them
