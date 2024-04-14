@@ -317,41 +317,39 @@ document.getElementById('submit-form').onsubmit = function(e) {
 };
 
 
-$(function() {
-    $("#projectLocation").autocomplete({
-        source: function(request, response) {
-            $.ajax({
-                url: "https://nominatim.openstreetmap.org/search",
-                dataType: "json",
-                data: {
-                    q: request.term,
-                    format: "json"
-                },
-                success: function(data) {
-                    response($.map(data, function(item) {
-                        return {
-                            label: item.display_name, // Label for each autocomplete option
-                            value: item.display_name, // Value for each autocomplete option
-                            lat: item.lat,
-                            lon: item.lon
-                        };
-                    }));
-                }
-            });
-        },
-        select: function(event, ui) {
-            // Optionally, set hidden form fields for the lat and lon values
-            $('#lat').val(ui.item.lat);
-            $('#lon').val(ui.item.lon);
-        },
-        minLength: 3 // Minimum length of query string to start search
-    });
-});
-</script>
+// $(function() {
+//     $("#projectLocation").autocomplete({
+//         source: function(request, response) {
+//             $.ajax({
+//                 url: "https://nominatim.openstreetmap.org/search",
+//                 dataType: "json",
+//                 data: {
+//                     q: request.term,
+//                     format: "json"
+//                 },
+//                 success: function(data) {
+//                     response($.map(data, function(item) {
+//                         return {
+//                             label: item.display_name, // Label for each autocomplete option
+//                             value: item.display_name, // Value for each autocomplete option
+//                             lat: item.lat,
+//                             lon: item.lon
+//                         };
+//                     }));
+//                 }
+//             });
+//         },
+//         select: function(event, ui) {
+//             // Optionally, set hidden form fields for the lat and lon values
+//             $('#lat').val(ui.item.lat);
+//             $('#lon').val(ui.item.lon);
+//         },
+//         minLength: 3 // Minimum length of query string to start search
+//     });
+// });
+// 
 
 
-<!-- 
-<script>
 $(function() {
     let debounceTimer;
     $("#projectLocation").autocomplete({
@@ -393,7 +391,7 @@ $(function() {
         minLength: 3 // Minimum length of query string to start search
     });
 });
-</script> -->
+</script>
 
 
 
