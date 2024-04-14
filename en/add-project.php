@@ -180,6 +180,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <option value="furniture" data-lang-id="011-modular-furniture">Furniture</option>
             <option value="garden" data-lang-id="011-outdoor-garden">Outdoor Garden</option>
             <option value="structure" data-lang-id="011-structure">Structure</option>
+            <option value="art" data-lang-id="011-structure">Art</option>
+
             <option value="other" data-lang-id="011-other">Other</option>
         </select>
     </div>
@@ -192,6 +194,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <option value="banding" data-lang-id="012-construction-tire-banding">Tire Banding</option>
             <option value="ecojoiner" data-lang-id="012-construction-ecojoiner">Ecojoiner</option>
             <option value="earth" data-lang-id="012-construction-earth">Earth/Cob</option>
+
+            <option value="installation" data-lang-id="012-construction-earth">Installation</option>
+
             <option value="other" data-lang-id="012-other">Other</option>
         </select>
     </div>
@@ -374,7 +379,7 @@ $(function() {
 
     $('#submit-form').on('submit', function() {
     console.log('Location Full:', $('#location_full').val()); // Correct way to log
-    alert('Location Full: ' + $('#location_full').val()); // Correct way to use alert
+    // alert('Location Full: ' + $('#location_full').val()); // Correct way to use alert
 });
 
 });
