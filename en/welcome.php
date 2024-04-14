@@ -53,7 +53,7 @@ https://github/globalecobrickalliance/ecobricks.org
         while ($row = $result->fetch_assoc()) {
             echo '<div class="gal-project-photo">
                     <div class="photo-box">
-                        <img src="' . $row["photo1_tmb"] . '?v=1" alt="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["project_name"] . '\', \'' . $row["description_short"] . '\', \'' . $row["location_full"] . '\', \'' . $row["briks_used"] . '\', \'' . $row["start_dt"] . '\')" title="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' using ' . $row["briks_used"] . ' ecobricks."> 
+                        <img src="' . $row["photo1_tmb"] . '?v=1" alt="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["project_name"] . '\', \'' . $row["description_short"] . '\', \'' . $row["location_full"] . '\', \'' . $row["briks_used"] . '\', \'' . $row["start_dt"] . '\')" title="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks"> 
                     </div>
                 </div>';
         }
@@ -359,7 +359,7 @@ function projectPreview(project_id, name, description, location_full, ecobricks_
     var details = document.createElement('div');
     details.className = 'ecobrick-details';
     details.style.margin = '20px 10% auto 10%'; // Adjust the margin as per your design
-    details.innerHTML = `<p>${description} | Ecobricks used: ${ecobricks_used} | Project completed: ${start} | ${location_full}</p>`;
+    details.innerHTML = `<p>${description} | Ecobricks: ${ecobricks_used} | Completed: ${start} | ${location_full}</p>`;
     photoContainer.appendChild(details);
 
     // Show the modal

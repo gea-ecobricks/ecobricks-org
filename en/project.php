@@ -242,6 +242,13 @@ echo '
             <?php require_once ("side-modules/sequest-module.php");?>
 
             <?php require_once ("side-modules/signup-now.php");?>
+
+			<div class="side-module-desktop-mobile">
+
+				<a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
+			<div class="feature-reference-links">Share your ecobrick application</div>
+
+			</div>
                 
    
 
