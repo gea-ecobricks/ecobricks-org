@@ -11,7 +11,7 @@ $conn->set_charset("utf8mb4");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Ensure default values to prevent undefined variable errors
     $location_full = isset($_POST['location_address']) ? $_POST['location_address'] : 'Default Location';
-    
+
     // Log the received value of location_address to the PHP error log
     error_log('Received location_address: ' . $location_full);
 
@@ -45,7 +45,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $community = $_POST['community'];
     $project_admins = $_POST['project_admins'];
 
-   
     // Execute the SQL statement only once
     if (!$stmt->execute()) {
         echo "SQL Error: " . $stmt->error;
