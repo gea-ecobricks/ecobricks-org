@@ -135,7 +135,7 @@ ini_set('display_errors', 1);?>
 			$projectId = $_GET['project_id'] ?? 0; // Default to 0 if not set
 			if ($projectId) {
 				// Updated SQL to directly use location_lat and location_long
-				$sql = "SELECT project_name, description_long, location_lat AS latitude, location_long AS longitude FROM tb_projects WHERE project_id = ?";
+				$sql = "SELECT project_name, location_full, description_long, location_lat AS latitude, location_long AS longitude FROM tb_projects WHERE project_id = ?";
 				$stmt = $conn->prepare($sql);
 				$stmt->bind_param('i', $projectId);
 				$stmt->execute();
@@ -165,7 +165,7 @@ ini_set('display_errors', 1);?>
 
 
 			echo '
-			<p>' . $array["location_address"] . '</p><br>
+			<p>' . $array["location_full"] . '</p><br>
 			<br><hr><br> 
 			<div class="page-paragraph">
 				<h3><p data-lang-id="151">Ecobrick Applications</p></h3>
