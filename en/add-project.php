@@ -204,7 +204,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div class="form-item">
         <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
-        <input type="text" id="location_full" name="location_full" aria-label="Project Location" placeholder="..." required>
+        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="..." required>
         <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
     </div>
 
@@ -317,44 +317,44 @@ document.getElementById('submit-form').onsubmit = function(e) {
 };
 
 
-// $(function() {
-//     $("#projectLocation").autocomplete({
-//         source: function(request, response) {
-//             $.ajax({
-//                 url: "https://nominatim.openstreetmap.org/search",
-//                 dataType: "json",
-//                 data: {
-//                     q: request.term,
-//                     format: "json"
-//                 },
-//                 success: function(data) {
-//                     response($.map(data, function(item) {
-//                         return {
-//                             label: item.display_name, // Label for each autocomplete option
-//                             value: item.display_name, // Value for each autocomplete option
-//                             lat: item.lat,
-//                             lon: item.lon
-//                         };
-//                     }));
-//                 }
-//             });
-//         },
-//         select: function(event, ui) {
-//             // Optionally, set hidden form fields for the lat and lon values
-//             $('#lat').val(ui.item.lat);
-//             $('#lon').val(ui.item.lon);
-//         },
-//         minLength: 3 // Minimum length of query string to start search
-//     });
-// });
-// </script>
+$(function() {
+    $("#projectLocation").autocomplete({
+        source: function(request, response) {
+            $.ajax({
+                url: "https://nominatim.openstreetmap.org/search",
+                dataType: "json",
+                data: {
+                    q: request.term,
+                    format: "json"
+                },
+                success: function(data) {
+                    response($.map(data, function(item) {
+                        return {
+                            label: item.display_name, // Label for each autocomplete option
+                            value: item.display_name, // Value for each autocomplete option
+                            lat: item.lat,
+                            lon: item.lon
+                        };
+                    }));
+                }
+            });
+        },
+        select: function(event, ui) {
+            // Optionally, set hidden form fields for the lat and lon values
+            $('#lat').val(ui.item.lat);
+            $('#lon').val(ui.item.lon);
+        },
+        minLength: 3 // Minimum length of query string to start search
+    });
+});
+</script>
 
 
-
+<!-- 
 <script>
 $(function() {
     let debounceTimer;
-    $("#location_full").autocomplete({
+    $("#projectLocation").autocomplete({
         source: function(request, response) {
             clearTimeout(debounceTimer);
             debounceTimer = setTimeout(() => {
@@ -393,7 +393,7 @@ $(function() {
         minLength: 3 // Minimum length of query string to start search
     });
 });
-</script>
+</script> -->
 
 
 
