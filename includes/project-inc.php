@@ -2,8 +2,8 @@
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="../webp/brikmarket-400px.webp?v1.3">
-<link rel="preload" as="image" href="../svgs/brik-market-banner3.svg">
+<!-- <link rel="preload" as="image" href="../webp/brikmarket-400px.webp?v1.3"> -->
+<link rel="preload" as="image" href="../svgs/project-details-banner.svg">
 
 <?php require_once ("../meta/project-en.php");?>
 
@@ -92,15 +92,15 @@
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-		background: url(../svgs/brik-market-banner3.svg) bottom;
-        background-color: #2A91DA;
+		background: url(../svgs/project-details-banner.svg) bottom;
+        background-color: a05a2cff;
 	}
 }
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-		background: url(../svgs/brik-market-banner3.svg) bottom;
-        background-color: #2A91DA;
+		background: url(../svgs/project-details-banner.svg) bottom;
+        background-color: a05a2cff;
 	}
 }
 
@@ -114,7 +114,7 @@
 }
 
 #splash-bar {
-    background-color: #2A91DA;
+    background-color: a05a2cff;
 }
 
 /* hr {border: gray;
@@ -126,11 +126,11 @@ margin-bottom: 31px;}
 
 
 .module-btn {
-  background: var(--emblem-blue);
+  background: var(--emblem-orange);
 }
 	
 .module-btn:hover {
-  background: var(--emblem-blue-over);
+  background: var(--emblem-orange-over);
 }
 	
 
