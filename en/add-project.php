@@ -50,7 +50,6 @@ echo "Location Full before insert: " . $location_full . "<br>";
         // Get the last inserted project_id
         $project_id = $conn->insert_id;
 
-        echo "Location Full after all PHP: " . $location_full . "<br>"; // Added echo statement
         // Calculate `est_total_weight`
         $est_total_weight = ($briks_used * $est_avg_brik_weight) / 1000;
 
@@ -70,6 +69,8 @@ echo "Location Full before insert: " . $location_full . "<br>";
         $update_url_stmt->close();
 
         // Statement and connection closing
+        echo "Location Full after all PHP: " . $location_full . "<br>"; // Added echo statement
+
         $stmt->close();
         $conn->close();
         // Redirect to the next page with project_id as a query parameter

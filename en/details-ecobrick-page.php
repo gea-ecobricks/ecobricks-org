@@ -9,7 +9,6 @@
 <?php 
 	require_once ("../includes/details-ecobrick-page-inc.php");
 	include '../ecobricks_env.php';
-	include '../ssp.class.php';
 
 	// Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.  See: https://www.w3schools.com/php/php_mysql_select_where.asp1
 	$serialNo = $_GET['serial_no'];
