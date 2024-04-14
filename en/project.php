@@ -111,7 +111,6 @@ ini_set('display_errors', 1);?>
             echo ' <p><b data-lang-id="138">Average Brik Weight:</b> ' . $array["est_avg_brik_weight"] . '&#8202;g</p>';
             echo ' <p><b data-lang-id="139">Location:</b> ' . $array["location_full"] . '</p>';
 
-            echo ' <p><b data-lang-id="139">Location:</b> ' . $array["location_address"] . '</p>';
 			echo ' <p><b data-lang-id="140">Lattitude:</b> ' . $array["location_lat"] . '</p>';
 			echo ' <p><b data-lang-id="140b">Longitude:</b> ' . $array["location_long"] . '</p>';
 			echo ' <p><b data-lang-id="141">Project URL:</b> ' . $array["project_url"] . '</p>';
