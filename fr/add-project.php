@@ -316,30 +316,39 @@ document.getElementById('submit-form').onsubmit = function(e) {
 </script>
 
 
-
-
 <script>
 $(function() {
+    let debounceTimer;
     $("#projectLocation").autocomplete({
         source: function(request, response) {
-            $.ajax({
-                url: "https://nominatim.openstreetmap.org/search",
-                dataType: "json",
-                data: {
-                    q: request.term,
-                    format: "json"
-                },
-                success: function(data) {
-                    response($.map(data, function(item) {
-                        return {
-                            label: item.display_name, // Label for each autocomplete option
-                            value: item.display_name, // Value for each autocomplete option
-                            lat: item.lat,
-                            lon: item.lon
-                        };
-                    }));
-                }
-            });
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+                $.ajax({
+                    url: "https://nominatim.openstreetmap.org/search",
+                    dataType: "json",
+                    headers: {
+                        'User-Agent': 'ecobricks.org' // A custom User-Agent to comply with policy
+                    },
+                    data: {
+                        q: request.term,
+                        format: "json"
+                    },
+                    success: function(data) {
+                        response($.map(data, function(item) {
+                            return {
+                                label: item.display_name, // Label for each autocomplete option
+                                value: item.display_name, // Value for each autocomplete option
+                                lat: item.lat,
+                                lon: item.lon
+                            };
+                        }));
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Autocomplete error:", error);
+                        response([]); // Provide an empty array to response in case of error
+                    }
+                });
+            }, 300); // Debounce delay of 300 milliseconds
         },
         select: function(event, ui) {
             // Optionally, set hidden form fields for the lat and lon values
@@ -350,6 +359,8 @@ $(function() {
     });
 });
 </script>
+
+
 
 
 
