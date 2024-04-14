@@ -45,14 +45,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $community = $_POST['community'];
     $project_admins = $_POST['project_admins'];
 
+   
     // Execute the SQL statement only once
-
-
-        if ($stmt->execute()) {
-            // Success
-        } else {
-            echo "SQL Error: " . $stmt->error;
-        }
+    if (!$stmt->execute()) {
+        echo "SQL Error: " . $stmt->error;
+    } else {
         // Get the last inserted project_id
         $project_id = $conn->insert_id;
         
@@ -66,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Location Full fetched from DB: " . $location_full_fetched . "<br>";
             $check_stmt->close();
         }
-
+    }
 
         // Calculate `est_total_weight`
         $est_total_weight = ($briks_used * $est_avg_brik_weight) / 1000;
