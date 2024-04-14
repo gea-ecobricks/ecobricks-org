@@ -232,130 +232,129 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <script>
 
+    
+// Define the error messages for all languages
+var errorMessages = {
+    en: {
+        briksUsed: "Please enter a non-decimal number between 1 and 5000 for briks used.",
+        avgBrikWeight: "Please enter a non-decimal number between 100 and 2000 for the average weight.",
+        projectName: "Project name contains invalid characters. Avoid quotes, slashes, and greater-than signs.",
+        description: "Description contains invalid characters. Avoid quotes, slashes, and greater-than signs."
+    },
+    fr: {
+        briksUsed: "Veuillez entrer un nombre entier entre 1 et 5000 pour les briques utilisées.",
+        avgBrikWeight: "Veuillez entrer un nombre entier entre 100 et 2000 pour le poids moyen.",
+        projectName: "Le nom du projet contient des caractères invalides. Évitez les guillemets, les barres obliques et les signes supérieurs.",
+        description: "La description contient des caractères invalides. Évitez les guillemets, les barres obliques et les signes supérieurs."
+    },
+    es: {
+        briksUsed: "Ingrese un número entero entre 1 y 5000 para los ladrillos utilizados.",
+        avgBrikWeight: "Ingrese un número entero entre 100 y 2000 para el peso promedio.",
+        projectName: "El nombre del proyecto contiene caracteres inválidos. Evite comillas, barras y signos de mayor que.",
+        description: "La descripción contiene caracteres inválidos. Evite comillas, barras y signos de mayor que."
+    },
+    id: {
+        briksUsed: "Masukkan angka bulat antara 1 dan 5000 untuk bata yang digunakan.",
+        avgBrikWeight: "Masukkan angka bulat antara 100 dan 2000 untuk berat rata-rata.",
+        projectName: "Nama proyek mengandung karakter yang tidak valid. Hindari tanda kutip, garis miring, dan tanda lebih besar.",
+        description: "Deskripsi mengandung karakter yang tidak valid. Hindari tanda kutip, garis miring, dan tanda lebih besar."
+    }
+};
 
-// // Define the error messages for all languages
-// var errorMessages = {
-//     en: {
-//         briksUsed: "Please enter a non-decimal number between 1 and 5000 for briks used.",
-//         avgBrikWeight: "Please enter a non-decimal number between 100 and 2000 for the average weight.",
-//         projectName: "Project name contains invalid characters. Avoid quotes, slashes, and greater-than signs.",
-//         description: "Description contains invalid characters. Avoid quotes, slashes, and greater-than signs."
-//     },
-//     fr: {
-//         briksUsed: "Veuillez entrer un nombre entier entre 1 et 5000 pour les briques utilisées.",
-//         avgBrikWeight: "Veuillez entrer un nombre entier entre 100 et 2000 pour le poids moyen.",
-//         projectName: "Le nom du projet contient des caractères invalides. Évitez les guillemets, les barres obliques et les signes supérieurs.",
-//         description: "La description contient des caractères invalides. Évitez les guillemets, les barres obliques et les signes supérieurs."
-//     },
-//     es: {
-//         briksUsed: "Ingrese un número entero entre 1 y 5000 para los ladrillos utilizados.",
-//         avgBrikWeight: "Ingrese un número entero entre 100 y 2000 para el peso promedio.",
-//         projectName: "El nombre del proyecto contiene caracteres inválidos. Evite comillas, barras y signos de mayor que.",
-//         description: "La descripción contiene caracteres inválidos. Evite comillas, barras y signos de mayor que."
-//     },
-//     id: {
-//         briksUsed: "Masukkan angka bulat antara 1 dan 5000 untuk bata yang digunakan.",
-//         avgBrikWeight: "Masukkan angka bulat antara 100 dan 2000 untuk berat rata-rata.",
-//         projectName: "Nama proyek mengandung karakter yang tidak valid. Hindari tanda kutip, garis miring, dan tanda lebih besar.",
-//         description: "Deskripsi mengandung karakter yang tidak valid. Hindari tanda kutip, garis miring, dan tanda lebih besar."
-//     }
-// };
+document.getElementById('submit-form').onsubmit = function(e) {
+    var isValid = true;
 
-// document.getElementById('submit-form').onsubmit = function(e) {
-//     var isValid = true;
+    var briksUsed = document.getElementById('briks_used');
+    var briksUsedError = document.getElementById('briks_used_error');
+    var estAvgBrikWeight = document.getElementById('est_avg_brik_weight');
+    var estAvgBrikWeightError = document.getElementById('est_avg_brik_weight_error');
+    var projectName = document.getElementById('project_name');
+    var projectNameError = document.getElementById('project_name_error');
+    var descriptionShort = document.getElementById('description_short');
+    var descriptionShortError = document.getElementById('description_short_error');
 
-//     var briksUsed = document.getElementById('briks_used');
-//     var briksUsedError = document.getElementById('briks_used_error');
-//     var estAvgBrikWeight = document.getElementById('est_avg_brik_weight');
-//     var estAvgBrikWeightError = document.getElementById('est_avg_brik_weight_error');
-//     var projectName = document.getElementById('project_name');
-//     var projectNameError = document.getElementById('project_name_error');
-//     var descriptionShort = document.getElementById('description_short');
-//     var descriptionShortError = document.getElementById('description_short_error');
+    var lang = window.currentLanguage || 'en'; // Default to English if currentLanguage is not set
 
-//     var lang = window.currentLanguage || 'en'; // Default to English if currentLanguage is not set
+    // Validate briks_used
+    if (briksUsed.value < 1 || briksUsed.value > 5000 || briksUsed.value % 1 !== 0) {
+        briksUsedError.textContent = errorMessages[lang].briksUsed;
+        briksUsed.focus();
+        isValid = false;
+    } else {
+        briksUsedError.textContent = "";
+    }
 
-//     // Validate briks_used
-//     if (briksUsed.value < 1 || briksUsed.value > 5000 || briksUsed.value % 1 !== 0) {
-//         briksUsedError.textContent = errorMessages[lang].briksUsed;
-//         briksUsed.focus();
-//         isValid = false;
-//     } else {
-//         briksUsedError.textContent = "";
-//     }
+    // Validate est_avg_brik_weight
+    if (estAvgBrikWeight.value < 100 || estAvgBrikWeight.value > 2000 || estAvgBrikWeight.value % 1 !== 0) {
+        estAvgBrikWeightError.textContent = errorMessages[lang].avgBrikWeight;
+        estAvgBrikWeight.focus();
+        isValid = false;
+    } else {
+        estAvgBrikWeightError.textContent = "";
+    }
 
-//     // Validate est_avg_brik_weight
-//     if (estAvgBrikWeight.value < 100 || estAvgBrikWeight.value > 2000 || estAvgBrikWeight.value % 1 !== 0) {
-//         estAvgBrikWeightError.textContent = errorMessages[lang].avgBrikWeight;
-//         estAvgBrikWeight.focus();
-//         isValid = false;
-//     } else {
-//         estAvgBrikWeightError.textContent = "";
-//     }
+    // Validate project_name for invalid characters
+    if (/['"\/\>]/.test(projectName.value)) {
+        projectNameError.textContent = errorMessages[lang].projectName;
+        projectName.focus();
+        isValid = false;
+    } else {
+        projectNameError.textContent = "";
+    }
 
-//     // Validate project_name for invalid characters
-//     if (/['"\/\>]/.test(projectName.value)) {
-//         projectNameError.textContent = errorMessages[lang].projectName;
-//         projectName.focus();
-//         isValid = false;
-//     } else {
-//         projectNameError.textContent = "";
-//     }
+    // Validate description_short for invalid characters
+    if (/['"\/\>]/.test(descriptionShort.value)) {
+        descriptionShortError.textContent = errorMessages[lang].description;
+        descriptionShort.focus();
+        isValid = false;
+    } else {
+        descriptionShortError.textContent = "";
+    }
 
-//     // Validate description_short for invalid characters
-//     if (/['"\/\>]/.test(descriptionShort.value)) {
-//         descriptionShortError.textContent = errorMessages[lang].description;
-//         descriptionShort.focus();
-//         isValid = false;
-//     } else {
-//         descriptionShortError.textContent = "";
-//     }
-
-//     if (!isValid) {
-//         e.preventDefault(); // Prevent form submission
-//     }
-// };
-
-
-$(function() {
-    $("#projectLocation").autocomplete({
-        source: function(request, response) {
-            $.ajax({
-                url: "https://nominatim.openstreetmap.org/search",
-                dataType: "json",
-                data: {
-                    q: request.term,
-                    format: "json"
-                },
-                success: function(data) {
-                    response($.map(data, function(item) {
-                        return {
-                            label: item.display_name, // Label for each autocomplete option
-                            value: item.display_name, // Value for each autocomplete option
-                            lat: item.lat,
-                            lon: item.lon
-                        };
-                    }));
-                }
-            });
-        },
-        select: function(event, ui) {
-            // Optionally, set hidden form fields for the lat and lon values
-            $('#lat').val(ui.item.lat);
-            $('#lon').val(ui.item.lon);
-        },
-        minLength: 3 // Minimum length of query string to start search
-    });
-});
-</script>
+    if (!isValid) {
+        e.preventDefault(); // Prevent form submission
+    }
+};
 
 
+// $(function() {
+//     $("#projectLocation").autocomplete({
+//         source: function(request, response) {
+//             $.ajax({
+//                 url: "https://nominatim.openstreetmap.org/search",
+//                 dataType: "json",
+//                 data: {
+//                     q: request.term,
+//                     format: "json"
+//                 },
+//                 success: function(data) {
+//                     response($.map(data, function(item) {
+//                         return {
+//                             label: item.display_name, // Label for each autocomplete option
+//                             value: item.display_name, // Value for each autocomplete option
+//                             lat: item.lat,
+//                             lon: item.lon
+//                         };
+//                     }));
+//                 }
+//             });
+//         },
+//         select: function(event, ui) {
+//             // Optionally, set hidden form fields for the lat and lon values
+//             $('#lat').val(ui.item.lat);
+//             $('#lon').val(ui.item.lon);
+//         },
+//         minLength: 3 // Minimum length of query string to start search
+//     });
+// });
+// </script>
 
-<!-- 
+
+
 <script>
 $(function() {
     let debounceTimer;
-    $("#projectLocation").autocomplete({
+    $("#location_full").autocomplete({
         source: function(request, response) {
             clearTimeout(debounceTimer);
             debounceTimer = setTimeout(() => {
@@ -394,7 +393,7 @@ $(function() {
         minLength: 3 // Minimum length of query string to start search
     });
 });
-</script> -->
+</script>
 
 
 
