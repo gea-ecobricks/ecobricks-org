@@ -31,23 +31,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // $stmt->bind_param("sssssssssssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
 
 
-    $stmt->bind_param("sssssssssiidd", $project_name, $description_short, $description_long, $location_full,  $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude);
+    $stmt->bind_param("sssssssssiddd", $project_name, $description_short, $description_long, $location_full,  $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude);
 
 
     // Set parameters from the form
     $project_name = $_POST['project_name'];
     $description_short = $_POST['description_short'];
     $description_long = $_POST['description_long'];
-    $start_dt = $_POST['start_dt'];
-    $briks_used = $_POST['briks_used'];
-    $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
-    $location_full = $_POST['location_address']; // Fetching value from 'location_address' form field
-    $latitude = (double)$_POST['latitude'];
-    $longitude = (double)$_POST['longitude'];
+    $location_full = $_POST['location_address']; 
     $project_type = $_POST['project_type'];
     $construction_type = $_POST['construction_type'];
     $community = $_POST['community'];
     $project_admins = $_POST['project_admins'];
+    $start_dt = $_POST['start_dt'];
+    $briks_used = $_POST['briks_used'];
+    $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
+    $latitude = (double)$_POST['latitude'];
+    $longitude = (double)$_POST['longitude'];
 
     // Execute the SQL statement only once
     if ($stmt->execute()) {
