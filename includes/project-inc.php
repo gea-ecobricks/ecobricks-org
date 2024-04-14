@@ -3,7 +3,7 @@
 <!--Image files to preload that are unique to this page-->
 
 <!-- <link rel="preload" as="image" href="../webp/brikmarket-400px.webp?v1.3"> -->
-<link rel="preload" as="image" href="../svgs/project-details-banner.svg">
+<link rel="preload" as="image" href="../svgs/project-banner.svg">
 
 <?php require_once ("../meta/project-en.php");?>
 
@@ -92,15 +92,15 @@
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-		background: url(../svgs/project-details-banner.svg) bottom;
-        background-color: a05a2cff;
+		background: url(../svgs/project-banner.svg) bottom;
+        background-color: #a05a2cff;
 	}
 }
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-		background: url(../svgs/project-details-banner.svg) bottom;
-        background-color: a05a2cff;
+		background: url(../svgs/project-banner.svg) bottom;
+        background-color: #a05a2cff;
 	}
 }
 
@@ -114,7 +114,7 @@
 }
 
 #splash-bar {
-    background-color: a05a2cff;
+    background-color: #a05a2cff;
 }
 
 /* hr {border: gray;
