@@ -5,7 +5,7 @@
 <?php $lang='id';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);?>
-<?php $version='2.09';?>
+<?php $version='2.1';?>
 <?php $page='project';?>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
