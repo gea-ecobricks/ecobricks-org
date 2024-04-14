@@ -24,7 +24,7 @@ if ($result->num_rows > 0) {
 
         echo '<meta property="og:url"           content="https://ecobricks.org/'. $lang .'/project.php?project_id='. $array["project_id"] .'"/>' ;
         echo '<meta property="og:title"         content="Project '. $array["project_id"] .' | '. $array["est_total_weight"] .'kg of plastic sequestered by ecobrickers '. $array["project_admins"] .' in '. $array["location_full"] .'.">';
-        echo '<meta property="og:description"   content="' . $array["description"] .'"/>';
+        echo '<meta property="og:description"   content="' . $array["description_short"] .'"/>';
         echo '<meta property="og:image"         content="'. $array["photo1_main"] .'"/>';
         echo '<meta property="og:image:alt"     content="A photo of our ecobrick project"/>';
         echo '<meta property="og:locale" content="en_GB" />';
