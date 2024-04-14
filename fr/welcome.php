@@ -37,31 +37,33 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
+
 <!-- PROJECT GALLERY -->
 
-    <div class="featured-project-gallery" style="overflow-x:clip;">
+<div class="featured-project-gallery" style="overflow-x:clip;">
         <div class="feed-live">
             <p data-lang-id="403-featured-live-brikchain"><span class="blink">⬤  </span>Live projects feed.  Click to preview.</p>
         </div>
         <div class="gallery-flex-container">
-            <?php
-                $sql = "SELECT * FROM tb_projects ;";
-                $result = $conn->query($sql);
+        <?php
+    // Updated SQL query to include a WHERE clause and a LIMIT
+    $sql = "SELECT * FROM tb_projects WHERE ready_to_show = 1 ORDER BY project_id DESC LIMIT 25;";
+    $result = $conn->query($sql);
 
-                if ($result->num_rows > 0) {
-                    // output data of each row
-                    while ($row = $result->fetch_assoc()) {
-                        echo '<div class="gal-project-photo">
-                        <div class="photo-box">
-                            <img src="' . $row["tmb_featured_img"] . '?v=1" alt="Ecobrick Project ' . $row["project_id"] . ' by ' . $row["name"] . ' in ' . $row["location_full"] . '" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["name"] . '\', \'' . $row["description"] . '\', \'' . $row["location_full"] . '\', \'' . $row["ecobricks_used"] . '\', \'' . $row["start"] . '\')">
-                        </div>
-                    </div>';
+    if ($result->num_rows > 0) {
+        // Output data of each row
+        while ($row = $result->fetch_assoc()) {
+            echo '<div class="gal-project-photo">
+                    <div class="photo-box">
+                        <img src="' . $row["photo1_tmb"] . '?v=1" alt="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["project_name"] . '\', \'' . $row["description_short"] . '\', \'' . $row["location_full"] . '\', \'' . $row["briks_used"] . '\', \'' . $row["start_dt"] . '\')" title="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks"> 
+                    </div>
+                </div>';
+        }
+    } else {
+        echo "No projects available to display.";
+    }
+?>
 
-                    }
-                } else {
-                    echo "Failed to connect to Project's database";
-                }
-            ?>
             <div class="project-photo-box-end" href="add-project.php"></div>
 
         </div>
@@ -70,8 +72,8 @@ https://github/globalecobrickalliance/ecobricks.org
             
             <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
         </div>
-        <!-- <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
-        <div class="feature-reference-links">Share your ecobrick application</div> -->
+        <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
+        <div class="feature-reference-links">Share your ecobrick application</div>
     </div>
 
 
@@ -89,7 +91,11 @@ https://github/globalecobrickalliance/ecobricks.org
            Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
             <button type="button" class="feature-button" data-lang-id="310-featured-2-button" aria-label="A quick intro" onclick="guidedTour()">Quick Intro</button>
 
-            <div class="feature-reference-links" data-lang-id="311-featured-2-references">Five slides. 45 seconds.</div>
+            <!-- <div class="feature-reference-links" data-lang-id="311-featured-2-references">
+                <h6>
+                <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
+            </div> -->
+            <div class="feature-reference-links">Five slides. 45 seconds.</div>
         </div>
     </div>
 
@@ -257,61 +263,118 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
-   function ecobrickPreview(brik_serial, weight, owner, location) {
-        // Construct the image source URL
-        var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
-        
-        // Open a modal with the ecobrick image and link to details-ecobrick-page
-        var modal = document.createElement('div');
-        modal.className = 'ecobrick-modal';
-        modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-                          '<img src="' + imageUrl + '" alt="Ecobrick ' + brik_serial + '" />' +
-                          '<div class="ecobrick-details">' +
-                          '   <p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
-                          '</div>' +
-                          '<a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-ecobrick-page.php?serial_no=' + brik_serial + '">ℹ️ View Full Details</a>';
-        
-        // Append the modal to the body
-        document.body.appendChild(modal);
-    }
-
-
-
-   function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
-        // Construct the image source URL
-        var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
-        
-        // Open a modal with the ecobrick image and link to details-ecobrick-page
-        var modal = document.createElement('div');
-        modal.className = 'ecobrick-modal';
-        modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-                          '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
-                          '<div class="ecobrick-details" style="margin: 20px 10% auto 10%;">' +
-                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div>';
-        
-        // Append the modal to the body
-        document.body.appendChild(modal);
-    }
-
-
-    //WITH BUTTON
-
-
-//    function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
+//    function ecobrickPreview(brik_serial, weight, owner, location) {
 //         // Construct the image source URL
-//         var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
+//         var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
         
 //         // Open a modal with the ecobrick image and link to details-ecobrick-page
 //         var modal = document.createElement('div');
 //         modal.className = 'ecobrick-modal';
 //         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-//                           '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
+//                           '<img src="' + imageUrl + '" alt="Ecobrick ' + brik_serial + '" />' +
 //                           '<div class="ecobrick-details">' +
-//                           '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-project-page.php?serial_no=' + project_id + '">ℹ️ View Full Details</a>';
+//                           '   <p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
+//                           '</div>' +
+//                           '<a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-ecobrick-page.php?serial_no=' + brik_serial + '">ℹ️ View Full Details</a>';
         
 //         // Append the modal to the body
 //         document.body.appendChild(modal);
 //     }
+
+
+function ecobrickPreview(brik_serial, weight, owner, location) {
+    // Construct the image source URL
+    var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
+
+    const modal = document.getElementById('form-modal-message');
+    const contentBox = modal.querySelector('.modal-content-box'); // This is the part we want to hide
+    const photoBox = modal.querySelector('.modal-photo-box'); // This is where we'll show the image
+    const photoContainer = modal.querySelector('.modal-photo'); // The container for the image
+
+    // Hide the content box and show the photo box
+    contentBox.style.display = 'none'; // Hide the content box
+    photoBox.style.display = 'block'; // Make sure the photo box is visible
+
+    // Clear previous images from the photo container
+    photoContainer.innerHTML = '';
+
+    // Create and append the ecobrick image to the photo container
+    var img = document.createElement('img');
+    img.src = imageUrl;
+    img.alt = "Ecobrick " + brik_serial;
+    img.style.maxWidth = '90%';
+    img.style.maxHeight = '75vh';
+    img.style.minHeight ="400px";
+    img.style.minWidth ="400px";
+    img.style.margin = 'auto';
+    // img.style.backgroundColor ='#8080802e';
+    photoContainer.appendChild(img);
+
+    // Add ecobrick details and view details button inside photo container
+    var details = document.createElement('div');
+    details.className = 'ecobrick-details';
+    details.innerHTML = '<p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
+                        '<a href="details-ecobrick-page.php?serial_no=' + brik_serial + '" class="btn featured-gallery-button" style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;">ℹ️ View Full Details</a>';
+    photoContainer.appendChild(details);
+
+    // Hide other parts of the modal that are not used for this preview
+    modal.querySelector('.modal-content-box').style.display = 'none'; // Assuming this contains elements not needed for this preview
+
+    // Show the modal
+    modal.style.display = 'flex';
+
+    //Blur out background
+    document.getElementById('page-content')?.classList.add('blurred');
+    document.getElementById('footer-full')?.classList.add('blurred');
+    document.body.classList.add('modal-open');
+
+}
+
+
+
+
+function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
+    // Construct the image source URL
+    var imageUrl = 'https://ecobricks.org/projects/photos/project-' + project_id + '-1.webp';
+
+    // Fetch the existing modal elements
+    var modal = document.getElementById('form-modal-message');
+    var photoContainer = modal.querySelector('.modal-photo');
+
+    // Clear any existing content in the photo container
+    photoContainer.innerHTML = '';
+
+    // Create and append the project image to the photo container with specified styling
+    const img = document.createElement('img');
+    img.src = imageUrl;
+    img.alt = "Ecobrick Project: " + name;
+    img.title = "Project " + project_id + ": " + name;
+    img.style.maxWidth = '90%';
+    img.style.maxHeight = '80vh';
+    img.style.minHeight ="400px";
+    img.style.minWidth ="400px";
+    // img.style.backgroundColor ='#8080802e';
+    img.style.margin = 'auto';
+    photoContainer.appendChild(img);
+
+    // Add project details inside photo container
+    var details = document.createElement('div');
+    details.className = 'ecobrick-details';
+    details.style.margin = '20px 10% auto 10%'; // Adjust the margin as per your design
+    details.innerHTML = `<p>${description} | Ecobricks: ${ecobricks_used} | Completed: ${start} | ${location_full}</p>`;
+    photoContainer.appendChild(details);
+
+    // Show the modal
+    modal.style.display = 'flex';
+
+    // Hide other parts of the modal not used for this preview
+    modal.querySelector('.modal-content-box').style.display = 'none';
+
+   //Blur out background
+   document.getElementById('page-content')?.classList.add('blurred');
+    document.getElementById('footer-full')?.classList.add('blurred');
+    document.body.classList.add('modal-open');
+}
 
 
 
