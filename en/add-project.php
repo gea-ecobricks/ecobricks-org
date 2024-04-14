@@ -3,10 +3,8 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-// Include necessary environment setup 
 include '../ecobricks_env.php';
 
-// Set the character set to handle UTF-8 characters correctly
 $conn->set_charset("utf8mb4");
 
 // Check if the form has been submitted
@@ -34,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $start_dt = $_POST['start_dt'];
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
-    $location_full = $_POST['location_full'];
+    $location_full = "Testing some text";
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
     $project_type = $_POST['project_type'];
@@ -329,38 +327,6 @@ document.getElementById('submit-form').onsubmit = function(e) {
     }
 };
 
-
-// $(function() {
-//     $("#projectLocation").autocomplete({
-//         source: function(request, response) {
-//             $.ajax({
-//                 url: "https://nominatim.openstreetmap.org/search",
-//                 dataType: "json",
-//                 data: {
-//                     q: request.term,
-//                     format: "json"
-//                 },
-//                 success: function(data) {
-//                     response($.map(data, function(item) {
-//                         return {
-//                             label: item.display_name, // Label for each autocomplete option
-//                             value: item.display_name, // Value for each autocomplete option
-//                             lat: item.lat,
-//                             lon: item.lon
-//                         };
-//                     }));
-//                 }
-//             });
-//         },
-//         select: function(event, ui) {
-//             // Optionally, set hidden form fields for the lat and lon values
-//             $('#lat').val(ui.item.lat);
-//             $('#lon').val(ui.item.lon);
-//         },
-//         minLength: 3 // Minimum length of query string to start search
-//     });
-// });
-// 
 
 
 $(function() {
