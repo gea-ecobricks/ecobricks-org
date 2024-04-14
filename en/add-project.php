@@ -30,6 +30,45 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bind_param("sssssssssiidd", $project_name, $description_short, $description_long, $location_full, $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude);
         if ($stmt->execute()) {
             $project_id = $conn->insert_id;
+
+                 // Get the last inserted project_id
+        $project_id = $conn->insert_id;
+        
+        // Immediately fetch to verify insertion
+        $check_sql = "SELECT location_full FROM tb_projects WHERE project_id = ?";
+        if ($check_stmt = $conn->prepare($check_sql)) {
+            $check_stmt->bind_param("i", $project_id);
+            $check_stmt->execute();
+            $check_stmt->bind_result($location_full_fetched);
+            $check_stmt->fetch();
+            echo "Location Full fetched from DB: " . $location_full_fetched . "<br>";
+            $check_stmt->close();
+        }
+
+
+        // Calculate `est_total_weight`
+        $est_total_weight = ($briks_used * $est_avg_brik_weight) / 1000;
+
+        // Update `est_total_weight`
+        $update_weight_sql = "UPDATE tb_projects SET est_total_weight = ? WHERE project_id = ?";
+        $update_weight_stmt = $conn->prepare($update_weight_sql);
+        $update_weight_stmt->bind_param("di", $est_total_weight, $project_id);
+        $update_weight_stmt->execute();
+        $update_weight_stmt->close();
+
+        // Update `project_url`
+        $project_url = "https://ecobricks.org/en/project.php?id=" . $project_id;
+        $update_url_sql = "UPDATE tb_projects SET project_url = ? WHERE project_id = ?";
+        $update_url_stmt = $conn->prepare($update_url_sql);
+        $update_url_stmt->bind_param("si", $project_url, $project_id);
+        $update_url_stmt->execute();
+        $update_url_stmt->close();
+
+
+        $stmt->close();
+        $conn->close();
+
+     
             echo "Location Full after all PHP: " . $location_full . "<br>";
             echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
         } else {
@@ -42,7 +81,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn->close();
 }
 ?>
-
 
 
 
