@@ -9,14 +9,16 @@ include '../ecobricks_env.php';
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_geo, location_lat, location_long, project_type, construction_type, community, project_admins) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ST_GeomFromText(?), ?, ?, ?, ?, ?, ?)";
+    // Updated SQL statement without location_geo
+    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_lat, location_long, project_type, construction_type, community, project_admins) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     // Prepare the SQL statement
     $stmt = $conn->prepare($sql);
 
-    // Bind parameters including latitude and longitude
-    $stmt->bind_param("ssssiisddsssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $location_geo, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
+    // Bind parameters
+    $stmt->bind_param("ssssdsddsssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
+
 
     // Set parameters from the form
     $project_name = $_POST['project_name'];
@@ -26,13 +28,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
     $location_full = $_POST['location_full'];
-    $location_geo = "POINT(" . $_POST['latitude'] . " " . $_POST['longitude'] . ")";
-    $latitude = $_POST['latitude']; // Capturing latitude
-    $longitude = $_POST['longitude']; // Capturing longitude
+    $latitude = (double)$_POST['latitude'];
+    $longitude = (double)$_POST['longitude'];
     $project_type = $_POST['project_type'];
     $construction_type = $_POST['construction_type'];
     $community = $_POST['community'];
     $project_admins = $_POST['project_admins'];
+
 
     // Execute the SQL statement
     if ($stmt->execute()) {
@@ -83,11 +85,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 <!DOCTYPE html>
-<HTML lang="id"> 
+<HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='id';?>
-<?php $version='1.979';?>
+<?php $lang='en';?>
+<?php $version='1.982';?>
 <?php $page='add-project';?>
 
 
@@ -125,7 +127,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="form-item" style="margin-top: 25px;">
                 <label for="project_name" data-lang-id="003-project-name">Project Name:</label><br>
                 <input type="text" id="project_name" name="project_name" aria-label="Project Name" title="Required. Max 255 characters." required>
-                <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.  Avoid apostrpphes and other characters.</p>
+                <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.  Avoid apostrophes and other characters.</p>
                 <span id="project_name_error" style="color: red;"></span>
             </div>
     
@@ -202,7 +204,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div class="form-item">
         <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
-        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Start typing..." required>
+        <input type="text" id="location_full" name="location_full" aria-label="Project Location" placeholder="..." required>
         <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
     </div>
 
@@ -314,30 +316,39 @@ document.getElementById('submit-form').onsubmit = function(e) {
 </script>
 
 
-
-
 <script>
 $(function() {
+    let debounceTimer;
     $("#projectLocation").autocomplete({
         source: function(request, response) {
-            $.ajax({
-                url: "https://nominatim.openstreetmap.org/search",
-                dataType: "json",
-                data: {
-                    q: request.term,
-                    format: "json"
-                },
-                success: function(data) {
-                    response($.map(data, function(item) {
-                        return {
-                            label: item.display_name, // Label for each autocomplete option
-                            value: item.display_name, // Value for each autocomplete option
-                            lat: item.lat,
-                            lon: item.lon
-                        };
-                    }));
-                }
-            });
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+                $.ajax({
+                    url: "https://nominatim.openstreetmap.org/search",
+                    dataType: "json",
+                    headers: {
+                        'User-Agent': 'ecobricks.org' // A custom User-Agent to comply with policy
+                    },
+                    data: {
+                        q: request.term,
+                        format: "json"
+                    },
+                    success: function(data) {
+                        response($.map(data, function(item) {
+                            return {
+                                label: item.display_name, // Label for each autocomplete option
+                                value: item.display_name, // Value for each autocomplete option
+                                lat: item.lat,
+                                lon: item.lon
+                            };
+                        }));
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Autocomplete error:", error);
+                        response([]); // Provide an empty array to response in case of error
+                    }
+                });
+            }, 300); // Debounce delay of 300 milliseconds
         },
         select: function(event, ui) {
             // Optionally, set hidden form fields for the lat and lon values
@@ -348,6 +359,8 @@ $(function() {
     });
 });
 </script>
+
+
 
 
 
