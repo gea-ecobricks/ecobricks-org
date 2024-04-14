@@ -32,7 +32,6 @@ https://github/globalecobrickalliance/ecobricks.org
                  </div>
              </div>
          </div>
-        <!-- <div class="buffer" style="height:90px;width:100%"></div> -->
     </div>
 
 
@@ -44,24 +43,25 @@ https://github/globalecobrickalliance/ecobricks.org
             <p data-lang-id="403-featured-live-brikchain"><span class="blink">⬤  </span>Live projects feed.  Click to preview.</p>
         </div>
         <div class="gallery-flex-container">
-            <?php
-                $sql = "SELECT * FROM tb_projects ;";
-                $result = $conn->query($sql);
+        <?php
+    // Updated SQL query to include a WHERE clause and a LIMIT
+    $sql = "SELECT * FROM tb_projects WHERE ready_to_show = 1 ORDER BY project_id DESC LIMIT 25;";
+    $result = $conn->query($sql);
 
-                if ($result->num_rows > 0) {
-                    // output data of each row
-                    while ($row = $result->fetch_assoc()) {
-                        echo '<div class="gal-project-photo">
-                        <div class="photo-box">
-                            <img src="' . $row["tmb_featured_img"] . '?v=1" alt="Ecobrick Project ' . $row["project_id"] . ' by ' . $row["name"] . ' in ' . $row["location_full"] . '" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["name"] . '\', \'' . $row["description"] . '\', \'' . $row["location_full"] . '\', \'' . $row["ecobricks_used"] . '\', \'' . $row["start"] . '\')">
-                        </div>
-                    </div>';
+    if ($result->num_rows > 0) {
+        // Output data of each row
+        while ($row = $result->fetch_assoc()) {
+            echo '<div class="gal-project-photo">
+                    <div class="photo-box">
+                        <img src="' . $row["photo1_tmb"] . '?v=1" alt="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["project_name"] . '\', \'' . $row["description_short"] . '\', \'' . $row["location_full"] . '\', \'' . $row["briks_used"] . '\', \'' . $row["start_dt"] . '\')" title="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' using ' . $row["briks_used"] . ' ecobricks."> 
+                    </div>
+                </div>';
+        }
+    } else {
+        echo "No projects available to display.";
+    }
+?>
 
-                    }
-                } else {
-                    echo "Failed to connect to Project's database";
-                }
-            ?>
             <div class="project-photo-box-end" href="add-project.php"></div>
 
         </div>
@@ -70,8 +70,8 @@ https://github/globalecobrickalliance/ecobricks.org
             
             <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
         </div>
-        <!-- <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
-        <div class="feature-reference-links">Share your ecobrick application</div> -->
+        <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
+        <div class="feature-reference-links">Share your ecobrick application</div>
     </div>
 
 
@@ -333,7 +333,7 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
 
 function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
     // Construct the image source URL
-    var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
+    var imageUrl = 'https://ecobricks.org/projects/photos/project-' + project_id + '-1.webp';
 
     // Fetch the existing modal elements
     var modal = document.getElementById('form-modal-message');
