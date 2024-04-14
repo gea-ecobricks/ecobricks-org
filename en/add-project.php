@@ -18,13 +18,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Debugging: Output all POST data to error log to review what is being received
     error_log('POST data: ' . print_r($_POST, true));
 
-    // Updated SQL statement without location_geo
+    // Prepare the SQL statement
     $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_lat, location_long, project_type, construction_type, community, project_admins) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-
-    echo "Location Full before insert: " . $location_full . "<br>";
-
-    // Prepare the SQL statement
+    
     $stmt = $conn->prepare($sql);
 
     // Bind parameters
@@ -37,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $start_dt = $_POST['start_dt'];
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
-    $location_full = $_POST['location_address']; // Fetching value from 'location_address' form field
+    $location_full = $_POST['location_address'];  // Using the location_address from the form
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
     $project_type = $_POST['project_type'];
@@ -45,31 +42,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $community = $_POST['community'];
     $project_admins = $_POST['project_admins'];
 
-    // Execute the SQL statement only once
-    if (!$stmt->execute()) {
-        echo "SQL Error: " . $stmt->error;
-    } else {
+    if ($stmt->execute()) {
         // Get the last inserted project_id
         $project_id = $conn->insert_id;
-        
-        // Immediately fetch to verify insertion
-        $check_sql = "SELECT location_full FROM tb_projects WHERE project_id = ?";
-        if ($check_stmt = $conn->prepare($check_sql)) {
-            $check_stmt->bind_param("i", $project_id);
-            $check_stmt->execute();
-            $check_stmt->bind_result($location_full_fetched);
-            $check_stmt->fetch();
-            echo "Location Full fetched from DB: " . $location_full_fetched . "<br>";
-            $check_stmt->close();
-        }
-    }
 
-    $stmt->close();
-    $conn->close();
+        echo "Location Full after all PHP: " . $location_full . "<br>"; // Added echo statement
+
+        $stmt->close();
+        $conn->close();
+
+        // Redirect to the next page with project_id as a query parameter
+        echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
+    } else {
+        echo "Error: " . $stmt->error . "<br>" . $conn->error;
+        $stmt->close();
+        $conn->close();
+    }
 }
 ?>
-
-
 
 
 
