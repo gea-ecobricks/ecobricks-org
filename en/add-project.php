@@ -15,15 +15,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Debugging: Output all POST data to error log to review what is being received
     error_log('POST data: ' . print_r($_POST, true));
 
-    // Updated SQL statement without location_geo
-    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_lat, location_long, project_type, construction_type, community, project_admins) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    // Updated SQL statement with location_address
+    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_address, location_lat, location_long, project_type, construction_type, community, project_admins) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     // Prepare the SQL statement
     $stmt = $conn->prepare($sql);
 
-    // Bind parameters
-    $stmt->bind_param("ssssdsddsssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
+    // Bind parameters including location_address
+    $stmt->bind_param("ssssdsddssssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $location_address, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
 
     // Set parameters from the form
     $project_name = $_POST['project_name'];
@@ -32,7 +32,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $start_dt = $_POST['start_dt'];
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
-    $location_full = "Testing some text";
+    $location_full = $_POST['location_full']; // Assign location_full from POST data
+    $location_address = $location_full; // Directly assign location_full to location_address
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
     $project_type = $_POST['project_type'];
@@ -85,6 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
 
 
 
