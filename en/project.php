@@ -5,7 +5,7 @@
 <?php $lang='en';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);?>
-<?php $version='2.1';?>
+<?php $version='2.12';?>
 <?php $page='project';?>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
@@ -245,8 +245,8 @@ echo '
 
 			<div class="side-module-desktop-mobile">
 
-				<a href="add-project.php" class="feature-button" data-lang-id="200-post-project-button" aria-label="Post your project">➕ Post your project</a>
-			<div class="feature-reference-links">Share your ecobrick application</div>
+			<a class="module-btn" href="add-project.php">Post your project</a>
+				<h6 style="font-size:smaller">Share your ecobrick application</h6>
 
 			</div>
                 
