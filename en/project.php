@@ -245,7 +245,7 @@ echo '
 
 			<div class="side-module-desktop-mobile">
 
-				<a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
+				<a href="add-project.php" class="feature-button" data-lang-id="200-post-project-button" aria-label="Post your project">➕ Post your project</a>
 			<div class="feature-reference-links">Share your ecobrick application</div>
 
 			</div>
