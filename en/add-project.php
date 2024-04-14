@@ -8,6 +8,8 @@ include '../ecobricks_env.php';
 
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Log the received value of location_full to the PHP error log
+    error_log('Received location_full: ' . (isset($_POST['location_full']) ? $_POST['location_full'] : 'Not set'));
 
     // Updated SQL statement without location_geo
     $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_lat, location_long, project_type, construction_type, community, project_admins) 
@@ -18,7 +20,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Bind parameters
     $stmt->bind_param("ssssdsddsssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
-
 
     // Set parameters from the form
     $project_name = $_POST['project_name'];
@@ -34,7 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $construction_type = $_POST['construction_type'];
     $community = $_POST['community'];
     $project_admins = $_POST['project_admins'];
-
 
     // Execute the SQL statement
     if ($stmt->execute()) {
@@ -76,11 +76,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     } else {
         // Handle errors
-        $response_message = "Error: " . $sql . "<br>" . $conn->error;
+        $response_message = "Error: " . $stmt->error . "<br>" . $conn->error;
         // Ideally, implement error handling or logging here
     }
 }
-?> 
+?>
+
 
 
 
