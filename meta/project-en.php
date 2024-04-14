@@ -22,24 +22,24 @@ if ($result->num_rows > 0) {
 
 		echo '<meta name="keywords" content="ecobrick, serial '. $array["project_admins"] .', '. $array["construction_type"] .','. $array["project_type"] .', plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["location_full"] .'">';
 
-        echo '<meta property="og:url"           content="https://ecobricks.org/'. $lang .'/project.php?project_id='. $array["project_id"] .'"/>' ;
+        echo '<meta property="og:url"           content="https://ecobricks.org/'. $lang .'/project.php?project_id='. $array["project_id"] .'">' ;
         echo '<meta property="og:title"         content="Project '. $array["project_id"] .' | '. $array["est_total_weight"] .'kg of plastic sequestered by ecobrickers '. $array["project_admins"] .' in '. $array["location_full"] .'.">';
-        echo '<meta property="og:description"   content="' . $array["description_short"] .'"/>';
-        echo '<meta property="og:image"         content="'. $array["photo1_main"] .'"/>';
-        echo '<meta property="og:image:alt"     content="A photo of our ecobrick project"/>';
-        echo '<meta property="og:locale" content="en_GB" />';
+        echo '<meta property="og:description"   content="' . $array["description_short"] .'">';
+        echo '<meta property="og:image"         content="https://ecobricks.org/projects/photos/project-'. $array["project_id"] .'-1.webp">';
+        echo '<meta property="og:image:alt"     content="A photo of our ecobrick project">';
+        echo '<meta property="og:locale" content="en_GB" >';
         echo '<meta property="og:type"          content="website">';
  	   
 
-        echo '<meta property="og:type" content="article" />
-        <meta property="og:site_name" content="Ecobricks.org" />
-        <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
-        <meta property="article:modified_time" content="'. $array["date_logged_ts"] .'" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="author" content="Global Ecobrick Alliance" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:label1" content="Est. reading time" />
-        <meta name="twitter:data1" content="15 minutes" /> ';
+        echo '<meta property="og:type" content="article" >
+        <meta property="og:site_name" content="Ecobricks.org" >
+        <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" >
+        <meta property="article:modified_time" content="'. $array["date_logged_ts"] .'" >
+        <meta property="og:image:type" content="image/png" >
+        <meta name="author" content="Global Ecobrick Alliance" >
+        <meta name="twitter:card" content="summary" >
+        <meta name="twitter:label1" content="Est. reading time" >
+        <meta name="twitter:data1" content="15 minutes" > ';
 
     }
 
