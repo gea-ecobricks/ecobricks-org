@@ -313,10 +313,7 @@ document.getElementById('submit-form').onsubmit = function(e) {
         e.preventDefault(); // Prevent form submission
     }
 };
-</script>
 
-
-<script>
 
 $(function() {
     $("#projectLocation").autocomplete({
@@ -349,6 +346,8 @@ $(function() {
     });
 });
 </script>
+
+
 
 <!-- 
 <script>
