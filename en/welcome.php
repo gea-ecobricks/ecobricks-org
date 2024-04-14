@@ -377,45 +377,6 @@ function projectPreview(project_id, name, description, location_full, ecobricks_
 
 
 
-//    function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
-//         // Construct the image source URL
-//         var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
-        
-//         // Open a modal with the ecobrick image and link to details-ecobrick-page
-//         var modal = document.createElement('div');
-//         modal.className = 'ecobrick-modal';
-//         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-//                           '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
-//                           '<div class="ecobrick-details" style="margin: 20px 10% auto 10%;">' +
-//                           '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div>';
-        
-//         // Append the modal to the body
-//         document.body.appendChild(modal);
-//     }
-
-
-    //WITH BUTTON
-
-
-//    function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
-//         // Construct the image source URL
-//         var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
-        
-//         // Open a modal with the ecobrick image and link to details-ecobrick-page
-//         var modal = document.createElement('div');
-//         modal.className = 'ecobrick-modal';
-//         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-//                           '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
-//                           '<div class="ecobrick-details">' +
-//                           '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-project-page.php?serial_no=' + project_id + '">ℹ️ View Full Details</a>';
-        
-//         // Append the modal to the body
-//         document.body.appendChild(modal);
-//     }
-
-
-
-
     function closeEcobrickModal() {
         // Close the modal by removing it from the DOM
         var modal = document.querySelector('.ecobrick-modal');

@@ -6,10 +6,16 @@ error_reporting(E_ALL);
 // Include necessary environment setup 
 include '../ecobricks_env.php';
 
+// Set the character set to handle UTF-8 characters correctly
+$conn->set_charset("utf8mb4");
+
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Log the received value of location_full to the PHP error log
     error_log('Received location_full: ' . (isset($_POST['location_full']) ? $_POST['location_full'] : 'Not set'));
+
+    // Debugging: Output all POST data to error log to review what is being received
+    error_log('POST data: ' . print_r($_POST, true));
 
     // Updated SQL statement without location_geo
     $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_lat, location_long, project_type, construction_type, community, project_admins) 
@@ -75,12 +81,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
         exit();
     } else {
-        // Handle errors
-        $response_message = "Error: " . $stmt->error . "<br>" . $conn->error;
-        // Ideally, implement error handling or logging here
+        // Handle errors by displaying them
+        echo "Error: " . $stmt->error . "<br>" . $conn->error;
+        // Stop the script to avoid redirecting
     }
 }
 ?>
+
 
 
 
