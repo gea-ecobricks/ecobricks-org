@@ -305,7 +305,7 @@
 
 			<?php include 'side-modules/for-earth-principle.php';?>
 
-			<?php include 'side-modules/concentraction-principle.php';?>
+			<?php include 'side-modules/concentration-principle.php';?>
 
 
 			<?php include 'side-modules/spiral-design-principle.php';?>

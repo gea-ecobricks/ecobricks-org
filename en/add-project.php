@@ -46,7 +46,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $project_admins = $_POST['project_admins'];
 
     // Execute the SQL statement only once
-    if ($stmt->execute()) {
+
+
+        if ($stmt->execute()) {
+            // Success
+        } else {
+            echo "SQL Error: " . $stmt->error;
+        }
         // Get the last inserted project_id
         $project_id = $conn->insert_id;
         
