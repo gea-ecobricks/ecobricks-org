@@ -67,7 +67,7 @@ ini_set('display_errors', 1);?>
                             
                             // Check if the photo exists
                             if (!empty($photo_main) && !empty($photo_tmb)) {
-                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . $photo_main . '\', '. $array["project_name"] .' \')  |  \'Project photo ' . $i . ' |  '. $array["project_phase"] .'">
+                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . $photo_main . '\', '. $array["project_name"] .' \')  |  \'Project photo ' . $i . ' |  '. $array["project_phase"] .'\'>
                                         <img src="../' . $photo_tmb . '">
                                     </div>';
                             }

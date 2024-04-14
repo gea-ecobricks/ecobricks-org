@@ -247,7 +247,7 @@ echo '
 
 			<img src="../svgs/building-methods.svg" width="300" style="width:80%" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
 
-			<br>
+			<br><br>
 			<a class="module-btn" href="add-project.php">Post your project</a>
 				<h6 style="font-size:smaller">Share your ecobrick application</h6>
 
