@@ -399,7 +399,7 @@ $(function() {
     });
 
     $('#submit-form').on('submit', function() {
-        console.log('Location Full:', $('#location_full').val());
+        alert('Location Full:', $('#location_full').val());
     });
 });
 

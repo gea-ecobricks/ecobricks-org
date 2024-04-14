@@ -300,6 +300,7 @@ input[type="submit"]:hover {
 .input-container {
     position: relative;
     display: inline-block;
+    width: 100%
 }
 
 #location_full {
@@ -310,13 +311,13 @@ input[type="submit"]:hover {
 .spinner {
     display: none;
     position: absolute;
-    top: 50%;  /* Center vertically in the input field */
-    right: 10px; /* Distance from the right edge of the input field */
+    top: 30%;  /* Center vertically in the input field */
+    right: 15px; /* Distance from the right edge of the input field */
     transform: translateY(-50%); /* Ensures the spinner is exactly centered vertically */
     width: 20px;
     height: 20px;
     border: 4px solid rgba(0,0,0,0.1);
-    border-top: 4px solid blue;
+    border-top: 4px solid var(--emblem-pink);
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }
