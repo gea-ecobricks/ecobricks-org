@@ -110,7 +110,9 @@ ini_set('display_errors', 1);?>
             echo ' <p><b data-lang-id="137">Ecobricks Used:</b> ' . $array["briks_used"] . '</p>';
             echo ' <p><b data-lang-id="138">Average Brik Weight:</b> ' . $array["est_avg_brik_weight"] . '&#8202;g</p>';
             echo ' <p><b data-lang-id="139">Location:</b> ' . $array["location_full"] . '</p>';
-            echo ' <p><b data-lang-id="140">Lattitude:</b> ' . $array["location_lat"] . '</p>';
+
+            echo ' <p><b data-lang-id="139">Location:</b> ' . $array["location_address"] . '</p>';
+			echo ' <p><b data-lang-id="140">Lattitude:</b> ' . $array["location_lat"] . '</p>';
 			echo ' <p><b data-lang-id="140b">Longitude:</b> ' . $array["location_long"] . '</p>';
 			echo ' <p><b data-lang-id="141">Project URL:</b> ' . $array["project_url"] . '</p>';
             echo ' <p><b data-lang-id="142">Admins:</b> ' . $array["project_admins"] . '</p>';
@@ -163,6 +165,7 @@ ini_set('display_errors', 1);?>
 
 
 			echo '
+			<p>' . $array["location_address"] . '</p><br>
 			<br><hr><br> 
 			<div class="page-paragraph">
 				<h3><p data-lang-id="151">Ecobrick Applications</p></h3>
