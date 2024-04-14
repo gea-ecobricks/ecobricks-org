@@ -4,19 +4,13 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 include '../ecobricks_env.php';
-
 $conn->set_charset("utf8mb4");
 
-// Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Log the received value of location_address to the PHP error log
     $location_full = isset($_POST['location_address']) ? $_POST['location_address'] : 'Default Location';
     error_log('Received location_address: ' . $location_full);
-
-    // Debugging: Output all POST data to error log to review what is being received
     error_log('POST data: ' . print_r($_POST, true));
 
-    // Prepare parameters before binding
     $project_name = $_POST['project_name'];
     $description_short = $_POST['description_short'];
     $description_long = $_POST['description_long'];
@@ -30,67 +24,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
 
-    // Updated SQL statement without location_geo and corrected syntax
     $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, location_full, project_type, construction_type, community, project_admins, start_dt, briks_used, est_avg_brik_weight, location_lat, location_long) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-
-    // Prepare the SQL statement
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
     if ($stmt = $conn->prepare($sql)) {
-        $stmt->bind_param("sssssssssiidd", $project_name, $description_short, $description_long, $location_full,  $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude);
-
-
-    // Execute the SQL statement only once
-    if ($stmt->execute()) {
-
-        
-        // Get the last inserted project_id
-        $project_id = $conn->insert_id;
-        
-        // Immediately fetch to verify insertion
-        $check_sql = "SELECT location_full FROM tb_projects WHERE project_id = ?";
-        if ($check_stmt = $conn->prepare($check_sql)) {
-            $check_stmt->bind_param("i", $project_id);
-            $check_stmt->execute();
-            $check_stmt->bind_result($location_full_fetched);
-            $check_stmt->fetch();
-            echo "Location Full fetched from DB: " . $location_full_fetched . "<br>";
-            $check_stmt->close();
+        $stmt->bind_param("sssssssssiidd", $project_name, $description_short, $description_long, $location_full, $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude);
+        if ($stmt->execute()) {
+            $project_id = $conn->insert_id;
+            echo "Location Full after all PHP: " . $location_full . "<br>";
+            echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
+        } else {
+            echo "Error: " . $stmt->error . "<br>";
         }
-
-
-        // Calculate `est_total_weight`
-        $est_total_weight = ($briks_used * $est_avg_brik_weight) / 1000;
-
-        // Update `est_total_weight`
-        $update_weight_sql = "UPDATE tb_projects SET est_total_weight = ? WHERE project_id = ?";
-        $update_weight_stmt = $conn->prepare($update_weight_sql);
-        $update_weight_stmt->bind_param("di", $est_total_weight, $project_id);
-        $update_weight_stmt->execute();
-        $update_weight_stmt->close();
-
-        // Update `project_url`
-        $project_url = "https://ecobricks.org/en/project.php?id=" . $project_id;
-        $update_url_sql = "UPDATE tb_projects SET project_url = ? WHERE project_id = ?";
-        $update_url_stmt = $conn->prepare($update_url_sql);
-        $update_url_stmt->bind_param("si", $project_url, $project_id);
-        $update_url_stmt->execute();
-        $update_url_stmt->close();
-
-        // Statement and connection closing
-        echo "Location Full after all PHP: " . $location_full . "<br>"; // Added echo statement
-
         $stmt->close();
-        $conn->close();
-        // Redirect to the next page with project_id as a query parameter
-        echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
-        exit();
     } else {
-        // Handle errors by displaying them
-        echo "Error: " . $stmt->error . "<br>" . $conn->error;
-        // Stop the script to avoid redirecting
+        echo "Prepare failed: " . $conn->error;
     }
+    $conn->close();
 }
 ?>
+
+
 
 
 
