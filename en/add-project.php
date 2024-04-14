@@ -33,18 +33,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                  // Get the last inserted project_id
         $project_id = $conn->insert_id;
-        
-        // Immediately fetch to verify insertion
-        $check_sql = "SELECT location_full FROM tb_projects WHERE project_id = ?";
-        if ($check_stmt = $conn->prepare($check_sql)) {
-            $check_stmt->bind_param("i", $project_id);
-            $check_stmt->execute();
-            $check_stmt->bind_result($location_full_fetched);
-            $check_stmt->fetch();
-            echo "Location Full fetched from DB: " . $location_full_fetched . "<br>";
-            $check_stmt->close();
-        }
-
 
         // Calculate `est_total_weight`
         $est_total_weight = ($briks_used * $est_avg_brik_weight) / 1000;
@@ -84,10 +72,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
-
-
-
-
 <!DOCTYPE html>
 <HTML lang="en"> 
 <HEAD>
@@ -95,8 +79,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php $lang='en';?>
 <?php $version='1.991';?>
 <?php $page='add-project';?>
-
-
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
@@ -377,7 +359,7 @@ $(function() {
 
     $('#submit-form').on('submit', function() {
     console.log('Location Full:', $('#location_address').val()); // Correct way to log
-    alert('Location Full: ' + $('#location_address').val()); // Correct way to use alert
+    // alert('Location Full: ' + $('#location_address').val()); // Correct way to use alert
 });
 
 });
