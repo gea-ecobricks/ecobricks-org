@@ -36,7 +36,7 @@ ini_set('display_errors', 1);?>
 	
 				<div class="splash-heading">' . htmlspecialchars($array["project_name"], ENT_QUOTES, 'UTF-8') . '</div>
 				
-				<div class="splash-sub">' . htmlspecialchars($array["descrattitudeiption_short"], ENT_QUOTES, 'UTF-8') . '</div>
+				<div class="splash-sub">' . htmlspecialchars($array["description_short"], ENT_QUOTES, 'UTF-8') . '</div>
 			</div>
 			
 			<div class="splash-image">
@@ -160,7 +160,7 @@ ini_set('display_errors', 1);?>
 			} else {
 				echo 'Invalid project ID.';
 			}
-			
+
 
 			echo '
 			<br><hr><br> 
