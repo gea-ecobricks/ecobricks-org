@@ -399,8 +399,10 @@ $(function() {
     });
 
     $('#submit-form').on('submit', function() {
-        alert('Location Full:', $('#location_full').val());
-    });
+    console.log('Location Full:', $('#location_full').val()); // Correct way to log
+    alert('Location Full: ' + $('#location_full').val()); // Correct way to use alert
+});
+
 });
 
 </script>

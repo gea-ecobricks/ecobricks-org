@@ -143,7 +143,7 @@ ini_set('display_errors', 1);?>
 				if ($array && $array['latitude'] && $array['longitude']) {
 					echo '
 					
-						<div id="map" style="width: 100%; height: 300px;"></div>
+						<div id="map" style="width: 100%; height: 300px;padding:10px;"></div>
 						<script>
 							var map = L.map("map").setView([' . $array['latitude'] . ', ' . $array['longitude'] . '], 13);
 							L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
