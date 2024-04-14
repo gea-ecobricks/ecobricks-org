@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     error_log('POST data: ' . print_r($_POST, true));
 
     // Updated SQL statement without location_geo
-    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, start_dt, briks_used, est_avg_brik_weight, location_full, location_lat, location_long, project_type, construction_type, community, project_admins) 
+    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, location_full, project_type, construction_type, community, project_admins, start_dt, briks_used, est_avg_brik_weight,  location_lat, location_long, ) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     echo "Location Full before insert: " . $location_full . "<br>";
@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // $stmt->bind_param("sssssssssssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
 
 
-    $stmt->bind_param("sssssssssiddd", $project_name, $description_short, $description_long, $location_full,  $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude);
+    $stmt->bind_param("sssssssssiidd", $project_name, $description_short, $description_long, $location_full,  $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude);
 
 
     // Set parameters from the form
