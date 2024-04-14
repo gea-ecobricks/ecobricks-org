@@ -74,7 +74,7 @@ echo "Location Full before insert: " . $location_full . "<br>";
         $stmt->close();
         $conn->close();
         // Redirect to the next page with project_id as a query parameter
-        echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
+        echo "<script>window.location.href = 'FAil.php?project_id=" . $project_id . "';</script>";
         exit();
     } else {
         // Handle errors by displaying them

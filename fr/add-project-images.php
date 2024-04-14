@@ -15,7 +15,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $project_id = $_POST['project_id'];
         $upload_dir = '../projects/photos/';
         $thumbnail_dir = '../projects/tmbs/';
-
         $db_fields = [];
         $db_values = [];
         $db_types = "";
