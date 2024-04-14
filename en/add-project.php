@@ -9,36 +9,17 @@ $conn->set_charset("utf8mb4");
 
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Ensure default values to prevent undefined variable errors
-    $location_full = isset($_POST['location_address']) ? $_POST['location_address'] : 'Default Location';
-    
     // Log the received value of location_address to the PHP error log
+    $location_full = isset($_POST['location_address']) ? $_POST['location_address'] : 'Default Location';
     error_log('Received location_address: ' . $location_full);
 
     // Debugging: Output all POST data to error log to review what is being received
     error_log('POST data: ' . print_r($_POST, true));
 
-    // Updated SQL statement without location_geo
-    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, location_full, project_type, construction_type, community, project_admins, start_dt, briks_used, est_avg_brik_weight,  location_lat, location_long, ) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-
-    echo "Location Full before insert: " . $location_full . "<br>";
-
-    // Prepare the SQL statement
-    $stmt = $conn->prepare($sql);
-
-    // Bind parameters
-    // $stmt->bind_param("sssssssssssss", $project_name, $description_short, $description_long, $start_dt, $briks_used, $est_avg_brik_weight, $location_full, $latitude, $longitude, $project_type, $construction_type, $community, $project_admins);
-
-
-    $stmt->bind_param("sssssssssiidd", $project_name, $description_short, $description_long, $location_full,  $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude);
-
-
-    // Set parameters from the form
+    // Prepare parameters before binding
     $project_name = $_POST['project_name'];
     $description_short = $_POST['description_short'];
     $description_long = $_POST['description_long'];
-    $location_full = $_POST['location_address']; 
     $project_type = $_POST['project_type'];
     $construction_type = $_POST['construction_type'];
     $community = $_POST['community'];
@@ -48,6 +29,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
+
+    // Updated SQL statement without location_geo and corrected syntax
+    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, location_full, project_type, construction_type, community, project_admins, start_dt, briks_used, est_avg_brik_weight, location_lat, location_long) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
+    // Prepare the SQL statement
+    if ($stmt = $conn->prepare($sql)) {
+        $stmt->bind_param("sssssssssiidd", $project_name, $description_short, $description_long, $location_full,  $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude);
+
 
     // Execute the SQL statement only once
     if ($stmt->execute()) {
