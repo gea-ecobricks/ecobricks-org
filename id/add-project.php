@@ -1,60 +1,75 @@
 <?php
 
-
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-// Include necessary environment setup 
 include '../ecobricks_env.php';
+$conn->set_charset("utf8mb4");
 
-
-
-// Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $location_full = isset($_POST['location_address']) ? $_POST['location_address'] : 'Default Location';
+    error_log('Received location_address: ' . $location_full);
+    error_log('POST data: ' . print_r($_POST, true));
 
-    // Updated SQL statement to include the new field `est_avg_brik_weight`
-    $sql = "INSERT INTO tb_projects (name, description, start, briks_used, est_avg_brik_weight, location_full, location_geo, project_type, construction_type, community, project_admins) 
-            VALUES (?, ?, ?, ?, ?, ?, ST_GeomFromText(?), ?, ?, ?, ?)";
-
-    // Prepare the SQL statement
-    $stmt = $conn->prepare($sql);
-
-    // Updated bind_param to include 'est_avg_brik_weight'. Assuming 'est_avg_brik_weight' is a number, use 'i' for integer.
-    $stmt->bind_param("sssisssssss", $name, $description, $start, $briks_used, $est_avg_brik_weight, $location_full, $location_geo, $project_type, $construction_type, $community, $project_admins);
-
-    // Set parameters from the form, including the new field
-    $name = $_POST['name'];
-    $description = $_POST['description'];
-    $long_description = $_POST['long_description'];
-    $start = $_POST['start'];
-    $briks_used = $_POST['briks_used'];
-    $est_avg_brik_weight = $_POST['est_avg_brik_weight']; // New field
-    $location_full = $_POST['location_full'];
+    $project_name = $_POST['project_name'];
+    $description_short = $_POST['description_short'];
+    $description_long = $_POST['description_long'];
     $project_type = $_POST['project_type'];
     $construction_type = $_POST['construction_type'];
     $community = $_POST['community'];
     $project_admins = $_POST['project_admins'];
-    $location_geo = "POINT(" . $_POST['latitude'] . " " . $_POST['longitude'] . ")";
+    $start_dt = $_POST['start_dt'];
+    $briks_used = $_POST['briks_used'];
+    $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
+    $latitude = (double)$_POST['latitude'];
+    $longitude = (double)$_POST['longitude'];
 
-    // Execute the SQL statement
-    if ($stmt->execute()) {
-        // Get the last inserted project_id
+    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, location_full, project_type, construction_type, community, project_admins, start_dt, briks_used, est_avg_brik_weight, location_lat, location_long) 
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    if ($stmt = $conn->prepare($sql)) {
+        $stmt->bind_param("sssssssssiidd", $project_name, $description_short, $description_long, $location_full, $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude);
+        if ($stmt->execute()) {
+            $project_id = $conn->insert_id;
+
+                 // Get the last inserted project_id
         $project_id = $conn->insert_id;
 
-        // Statement and connection closing
+        // Calculate `est_total_weight`
+        $est_total_weight = ($briks_used * $est_avg_brik_weight) / 1000;
+
+        // Update `est_total_weight`
+        $update_weight_sql = "UPDATE tb_projects SET est_total_weight = ? WHERE project_id = ?";
+        $update_weight_stmt = $conn->prepare($update_weight_sql);
+        $update_weight_stmt->bind_param("di", $est_total_weight, $project_id);
+        $update_weight_stmt->execute();
+        $update_weight_stmt->close();
+
+        // Update `project_url`
+        $project_url = "https://ecobricks.org/en/project.php?id=" . $project_id;
+        $update_url_sql = "UPDATE tb_projects SET project_url = ? WHERE project_id = ?";
+        $update_url_stmt = $conn->prepare($update_url_sql);
+        $update_url_stmt->bind_param("si", $project_url, $project_id);
+        $update_url_stmt->execute();
+        $update_url_stmt->close();
+
+
         $stmt->close();
         $conn->close();
 
-        // Redirect to the next page with project_id as a query parameter
-        echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
-        exit();
+     
+            echo "Location Full after all PHP: " . $location_full . "<br>";
+            echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
+        } else {
+            echo "Error: " . $stmt->error . "<br>";
+        }
+        $stmt->close();
     } else {
-        // Handle errors
-        $response_message = "Error: " . $sql . "<br>" . $conn->error;
-        // Ideally, implement error handling or logging here
+        echo "Prepare failed: " . $conn->error;
     }
+    $conn->close();
 }
 ?>
+
 
 
 <!DOCTYPE html>
@@ -62,23 +77,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.978';?>
+<?php $version='1.991';?>
 <?php $page='add-project';?>
-
-
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
 
 
-<div class="splash-content-block">
-	<!-- <div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Post a Project</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Share your ecobrick project with the world.</div>
-	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="There are many ways to build with ecobricks">
-    </div>	     -->
-</div>
+<div class="splash-content-block"></div>
 <div id="splash-bar"></div>
 
  <!-- PAGE CONTENT-->
@@ -100,46 +106,51 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
 
   
-    <!-- <h1 data-lang-id="001-form-title">Post your Project</h1>
-               -->
-               <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
+        <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
          
-            <form id="submit-form" method="post" action="" enctype="multipart/form-data">
-    <div class="form-item" style="margin-top: 25px;">
-        <label for="name" data-lang-id="003-project-name">Project Name:</label><br>
-        <input type="text" id="name" name="name" aria-label="Project Name" title="Required. Max 255 characters." required>
-        <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.</p>
-    </div>
+        <form id="submit-form" method="post" action="" enctype="multipart/form-data">
+
+            <div class="form-item" style="margin-top: 25px;">
+                <label for="project_name" data-lang-id="003-project-name">Project Name:</label><br>
+                <input type="text" id="project_name" name="project_name" aria-label="Project Name" title="Required. Max 255 characters." required>
+                <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.  Avoid apostrophes and other characters.</p>
+                <span id="project_name_error" style="color: red;"></span>
+            </div>
     
     <div class="form-item">
-        <label for="description" data-lang-id="004-short-project-desc">Short project description:</label><br>
-        <textarea id="description" name="description" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
-        <p class="form-caption" data-lang-id="004-short-project-desc-caption">Provide a once sentence description of this project. Max 150 words.</p>
+        <label for="description_short" data-lang-id="004-short-project-desc">Short project description:</label><br>
+        <textarea id="description_short" name="description_short" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
+        <p class="form-caption" data-lang-id="004-short-project-desc-caption">Provide a one sentence description of this project. Max 150 words.  Avoid apostrophes and other characters.</p>
+        <span id="description_short_error" style="color: red;"></span>
+        
     </div>
 
     <div class="form-item">
-        <label for="long_description" data-lang-id="005-long-project-desc">Full project description:</label><br>
-        <textarea id="long_description" name="long_description" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
+        <label for="description_long" data-lang-id="005-long-project-desc">Full project description:</label><br>
+        <textarea id="description_long" name="description_long" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
         <p class="form-caption" data-lang-id="005-long-project-desc-caption">Take as much space as you need as share the full details of your project. Max 1000 words.</p>
     </div>
     
     <div class="form-item">
-        <label for="start" data-lang-id="007-start-date">Start Date:</label><br>
-        <input type="date" id="start" name="start" aria-label="Start Date" required>
+        <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
+        <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
         <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
     </div>
     
     <div class="form-item">
-        <label for="briks_used" data-lang-id="009-bricks-used">Bricks Used:</label><br>
-        <input type="number" id="briks_used" name="briks_used" aria-label="Bricks Used" title="Maximum value allowed" required>
-        <p class="form-caption" data-lang-id="009-bricks-used-caption">How many briks does your project use?  Enter a number between 1-5000.</p>
-    </div>
+    <label for="briks_used" data-lang-id="009-bricks-used">Ecobricks Used:</label><br>
+    <input type="number" id="briks_used" name="briks_used" aria-label="Bricks Used" min="1" max="5000" required>
+    <p class="form-caption" data-lang-id="009-bricks-used-caption">How many ecobricks does your project use? Enter a number between 1-5000.</p>
+    <span id="briks_used_error" style="color: red;"></span>
+</div>
 
-    <div class="form-item">
-        <label for="est_avg_brik_weight" data-lang-id="010-est-avg-weight">Please estimate the average weight of the ecobricks used in your project in grams?</label><br>
-        <input type="number" id="est_avg_brik_weight" name="est_avg_brik_weight" aria-label="Estimate Brik Weight" title="Maximum value allowed" required>
-        <p class="form-caption" data-lang-id="010-est-avg-weight-range">Must be a number between 100 and 2000.</p>
-    </div>
+<div class="form-item">
+    <label for="est_avg_brik_weight" data-lang-id="010-est-avg-weight">Please estimate the average weight of the ecobricks used in your project in grams?</label><br>
+    <input type="number" id="est_avg_brik_weight" name="est_avg_brik_weight" aria-label="Estimate Brik Weight" min="100" max="2000" required>
+    <p class="form-caption" data-lang-id="010-est-avg-weight-range">Must be a number between 100 and 2000.</p>
+    <span id="est_avg_brik_weight_error" style="color: red;"></span>
+</div>
+
 
     <div class="form-item">
         <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
@@ -149,6 +160,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <option value="furniture" data-lang-id="011-modular-furniture">Furniture</option>
             <option value="garden" data-lang-id="011-outdoor-garden">Outdoor Garden</option>
             <option value="structure" data-lang-id="011-structure">Structure</option>
+            <option value="art" data-lang-id="011-art">Art</option>
+
             <option value="other" data-lang-id="011-other">Other</option>
         </select>
     </div>
@@ -160,7 +173,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <option value="silicone" data-lang-id="012-construction-silicone" >Silicone</option>
             <option value="banding" data-lang-id="012-construction-tire-banding">Tire Banding</option>
             <option value="ecojoiner" data-lang-id="012-construction-ecojoiner">Ecojoiner</option>
-            <option value="earth/cob" data-lang-id="012-construction-earth">Earth/Cob</option>
+            <option value="earth" data-lang-id="012-construction-earth">Earth/Cob</option>
+
+            <option value="installation" data-lang-id="012-construction-installation">Installation</option>
+
             <option value="other" data-lang-id="012-other">Other</option>
         </select>
     </div>
@@ -178,19 +194,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <div class="form-item">
-        <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
-        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Enter project's general location..." required>
-        <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
+    <label for="location_address" data-lang-id="015-location">Where is the project located?</label><br>
+    <div class="input-container">
+        <input type="text" id="location_address" name="location_address" aria-label="Project Location" placeholder="..." required>
+        <div id="loading-spinner" class="spinner" style="display: none;"></div>
     </div>
+    <p class="form-caption" data-lang-id="016-location-caption">For privacy, please don't use your exact address. Choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
+</div>
 
-    <!-- <div class="form-item">
-        <label for="location_full" data-lang-id="015-location">Where is the project located?</label><br>
-        <span data-lang-id="015-location-field-placeholder">
-            <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Enter project's general location..." required>
-        </span>
-        <input type="text" id="projectLocation" name="location_full" aria-label="Project Location" placeholder="Daftar kota..." required>
-        <p class="form-caption" data-lang-id="016-location-caption">For privacy please don't use your exact address, choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
-    </div> -->
+
 
     <input type="hidden" id="lat" name="latitude">
     <input type="hidden" id="lon" name="longitude">
@@ -215,37 +227,146 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 <script>
+
+    
+// Define the error messages for all languages
+var errorMessages = {
+    en: {
+        briksUsed: "Please enter a non-decimal number between 1 and 5000 for briks used.",
+        avgBrikWeight: "Please enter a non-decimal number between 100 and 2000 for the average weight.",
+        projectName: "Project name contains invalid characters. Avoid quotes, slashes, and greater-than signs.",
+        description: "Description contains invalid characters. Avoid quotes, slashes, and greater-than signs."
+    },
+    fr: {
+        briksUsed: "Veuillez entrer un nombre entier entre 1 et 5000 pour les briques utilisées.",
+        avgBrikWeight: "Veuillez entrer un nombre entier entre 100 et 2000 pour le poids moyen.",
+        projectName: "Le nom du projet contient des caractères invalides. Évitez les guillemets, les barres obliques et les signes supérieurs.",
+        description: "La description contient des caractères invalides. Évitez les guillemets, les barres obliques et les signes supérieurs."
+    },
+    es: {
+        briksUsed: "Ingrese un número entero entre 1 y 5000 para los ladrillos utilizados.",
+        avgBrikWeight: "Ingrese un número entero entre 100 y 2000 para el peso promedio.",
+        projectName: "El nombre del proyecto contiene caracteres inválidos. Evite comillas, barras y signos de mayor que.",
+        description: "La descripción contiene caracteres inválidos. Evite comillas, barras y signos de mayor que."
+    },
+    id: {
+        briksUsed: "Masukkan angka bulat antara 1 dan 5000 untuk bata yang digunakan.",
+        avgBrikWeight: "Masukkan angka bulat antara 100 dan 2000 untuk berat rata-rata.",
+        projectName: "Nama proyek mengandung karakter yang tidak valid. Hindari tanda kutip, garis miring, dan tanda lebih besar.",
+        description: "Deskripsi mengandung karakter yang tidak valid. Hindari tanda kutip, garis miring, dan tanda lebih besar."
+    }
+};
+
+document.getElementById('submit-form').onsubmit = function(e) {
+    var isValid = true;
+
+    var briksUsed = document.getElementById('briks_used');
+    var briksUsedError = document.getElementById('briks_used_error');
+    var estAvgBrikWeight = document.getElementById('est_avg_brik_weight');
+    var estAvgBrikWeightError = document.getElementById('est_avg_brik_weight_error');
+    var projectName = document.getElementById('project_name');
+    var projectNameError = document.getElementById('project_name_error');
+    var descriptionShort = document.getElementById('description_short');
+    var descriptionShortError = document.getElementById('description_short_error');
+
+    var lang = window.currentLanguage || 'en'; // Default to English if currentLanguage is not set
+
+    // Validate briks_used
+    if (briksUsed.value < 1 || briksUsed.value > 5000 || briksUsed.value % 1 !== 0) {
+        briksUsedError.textContent = errorMessages[lang].briksUsed;
+        briksUsed.focus();
+        isValid = false;
+    } else {
+        briksUsedError.textContent = "";
+    }
+
+    // Validate est_avg_brik_weight
+    if (estAvgBrikWeight.value < 100 || estAvgBrikWeight.value > 2000 || estAvgBrikWeight.value % 1 !== 0) {
+        estAvgBrikWeightError.textContent = errorMessages[lang].avgBrikWeight;
+        estAvgBrikWeight.focus();
+        isValid = false;
+    } else {
+        estAvgBrikWeightError.textContent = "";
+    }
+
+    // Validate project_name for invalid characters
+    if (/['"\/\>]/.test(projectName.value)) {
+        projectNameError.textContent = errorMessages[lang].projectName;
+        projectName.focus();
+        isValid = false;
+    } else {
+        projectNameError.textContent = "";
+    }
+
+    // Validate description_short for invalid characters
+    if (/['"\/\>]/.test(descriptionShort.value)) {
+        descriptionShortError.textContent = errorMessages[lang].description;
+        descriptionShort.focus();
+        isValid = false;
+    } else {
+        descriptionShortError.textContent = "";
+    }
+
+    if (!isValid) {
+        e.preventDefault(); // Prevent form submission
+    }
+};
+
+
+
 $(function() {
-    $("#projectLocation").autocomplete({
+    let debounceTimer;
+    $("#location_address").autocomplete({
         source: function(request, response) {
-            $.ajax({
-                url: "https://nominatim.openstreetmap.org/search",
-                dataType: "json",
-                data: {
-                    q: request.term,
-                    format: "json"
-                },
-                success: function(data) {
-                    response($.map(data, function(item) {
-                        return {
-                            label: item.display_name, // Label for each autocomplete option
-                            value: item.display_name, // Value for each autocomplete option
-                            lat: item.lat,
-                            lon: item.lon
-                        };
-                    }));
-                }
-            });
+            $("#loading-spinner").show();
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+                $.ajax({
+                    url: "https://nominatim.openstreetmap.org/search",
+                    dataType: "json",
+                    headers: {
+                        'User-Agent': 'ecobricks.org'
+                    },
+                    data: {
+                        q: request.term,
+                        format: "json"
+                    },
+                    success: function(data) {
+                        $("#loading-spinner").hide();
+                        response($.map(data, function(item) {
+                            return {
+                                label: item.display_name,
+                                value: item.display_name,
+                                lat: item.lat,
+                                lon: item.lon
+                            };
+                        }));
+                    },
+                    error: function(xhr, status, error) {
+                        $("#loading-spinner").hide();
+                        console.error("Autocomplete error:", error);
+                        response([]);
+                    }
+                });
+            }, 300);
         },
         select: function(event, ui) {
-            // Optionally, set hidden form fields for the lat and lon values
             $('#lat').val(ui.item.lat);
             $('#lon').val(ui.item.lon);
         },
-        minLength: 3 // Minimum length of query string to start search
+        minLength: 3
     });
+
+    $('#submit-form').on('submit', function() {
+    console.log('Location Full:', $('#location_address').val()); // Correct way to log
+    // alert('Location Full: ' + $('#location_address').val()); // Correct way to use alert
 });
+
+});
+
 </script>
+
+
 
 
 

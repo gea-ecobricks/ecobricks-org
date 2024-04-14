@@ -15,6 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $project_id = $_POST['project_id'];
         $upload_dir = '../projects/photos/';
         $thumbnail_dir = '../projects/tmbs/';
+
         $db_fields = [];
         $db_values = [];
         $db_types = "";
@@ -80,7 +81,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
-
 
 
 
@@ -420,9 +420,9 @@ function uploadSuccess(data) {
     // Iterate over the thumbnail_paths and full_urls to build the gallery items with added file size details
     for (var i = 0; i < data.thumbnail_paths.length; i++) {
         var directoryPathText = data.thumbnail_paths[i].substring(data.thumbnail_paths[i].lastIndexOf('/') + 1);
-        var captionText = directoryPathText + ' | ' + data.thumbnail_file_sizes[i].toFixed(1) + ' KB hi? | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
+        var captionText = directoryPathText + ' | ' + data.thumbnail_file_sizes[i].toFixed(1) + ' KB | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
         var fullUrlText = data.full_urls[i];
-        var modalCaption = captionText = directoryPathText + ' | ' + data.main_file_sizes[i].toFixed(1) + ' KB hello';
+        var modalCaption = captionText = directoryPathText + ' | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
 
         galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + fullUrlText + '\', \'' + modalCaption + '\')">';
         galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';

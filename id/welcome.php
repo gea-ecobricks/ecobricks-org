@@ -289,7 +289,7 @@ https://github/globalecobrickalliance/ecobricks.org
         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
                           '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
                           '<div class="ecobrick-details" style="margin: 20px 10% auto 10%;">' +
-                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div>';
+                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p></div><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="project.php?project_id=' + project_id + '">ℹ️ View Project</a>';    
         
         // Append the modal to the body
         document.body.appendChild(modal);

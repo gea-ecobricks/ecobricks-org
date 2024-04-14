@@ -186,11 +186,11 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
 }
 ?>
 <!DOCTYPE html>
-<HTML lang="id"> 
+<HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='id';?>
-<?php $version='2.3';?>
+<?php $lang='en';?>
+<?php $version='2.31';?>
 <?php $page='add-project-images';?>
 
 

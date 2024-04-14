@@ -5,7 +5,7 @@
 <?php $lang='id';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);?>
-<?php $version='2.1';?>
+<?php $version='2.12';?>
 <?php $page='project';?>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
@@ -40,7 +40,7 @@ ini_set('display_errors', 1);?>
 			</div>
 			
 			<div class="splash-image">
-				<a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '\', \'Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '\')"><img src="../' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"
+				<a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '\', \'Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '\')"><img src="../' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"
 			title="Project' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"></a>
 			</div>    
 		</div>
@@ -55,13 +55,13 @@ ini_set('display_errors', 1);?>
                     <div class="row-details">
 
 			            <div class="lead-page-paragraph">
-                            <p>'. $array["project_name"] .'<span data-lang-id="110"> is a</span>'. $array["construction_type"] .' '. $array["project_type"].' project in </span>'. $array["location_full"] .'<span data-lang-id="112">.  The project is made from '. $array["briks_used"] .' ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'&#8202;kg of plastic. </p>
+                            <p>'. $array["project_name"] .'<span data-lang-id="110"> is a </span>'. $array["construction_type"] .' '. $array["project_type"].' <span data-lang-id="111">project in </span>'. $array["location_full"] .'<span data-lang-id="112">.  The project is made from </span>'. $array["briks_used"] .'<span data-lang-id="113"> ecobricks, resulting in the sequestration of approxamitely </span>'. $array["est_total_weight"] .'&#8202;kg <span data-lang-id="114">of plastic. </p>
                         </div>
                    
                         <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
  
-                        // Loop through the available photos (up to 5)
-                        for ($i = 1; $i <= 5; $i++) {
+                         // Loop through the available photos (up to 5)
+						 for ($i = 1; $i <= 5; $i++) {
                             $photo_main = $array["photo{$i}_main"];
                             $photo_tmb = $array["photo{$i}_tmb"];
                             
@@ -85,36 +85,7 @@ ini_set('display_errors', 1);?>
 				</div>';
                 
 				
-                    // Assuming earlier in the script
-// $projectId = $_GET['project_id'] ?? 0; // Default to 0 if not set
-// if ($projectId) {
-//     $sql = "SELECT *, ST_Y(location_geo) AS latitude, ST_X(location_geo) AS longitude, description_long, project_name FROM tb_projects WHERE project_id = ?";
-//     $stmt = $conn->prepare($sql);
-//     $stmt->bind_param('i', $projectId);
-//     $stmt->execute();
-//     $result = $stmt->get_result();
-//     $array = $result->fetch_assoc();
-
-//     if ($array) {
-//         echo '
-        
-//             <div id="map" style="width: 100%; height: 300px;"></div>
-//             <script>
-//                 var map = L.map("map").setView([' . $array['latitude'] . ', ' . $array['longitude'] . '], 13);
-//                 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-//                     maxZoom: 19,
-//                     attribution: "© OpenStreetMap"
-//                 }).addTo(map);
-//                 L.marker([' . $array['latitude'] . ', ' . $array['longitude'] . ']).addTo(map)
-//                     .bindPopup("' . htmlspecialchars($array['project_name'], ENT_QUOTES, 'UTF-8') . '")
-//                     .openPopup();
-//             </script>';
-//     } else {
-//         echo 'Project not found or no location data available.';
-//     }
-// } else {
-//     echo 'Invalid project ID.';
-// }
+				
 
 			echo '
 			
@@ -129,8 +100,8 @@ ini_set('display_errors', 1);?>
             echo ' <p><b data-lang-id="128">Project name:</b> ' . $array["project_name"] . '</p>';
             echo ' <p><b data-lang-id="127">Started:</b> ' . $array["start_dt"] . '</p>';
             echo ' <p><b data-lang-id="129">Short Description:</b> ' . $array["description_short"] . '</p>';
-            echo ' <p><b data-lang-id="130">End:</b> ' . $array["end_dt"] . '</p>';
-            echo ' <p><b data-lang-id="131">Briks Required:</b> ' . $array["briks_required"] . '</p>';
+            // echo ' <p><b data-lang-id="130">End:</b> ' . $array["end_dt"] . '</p>';
+            // echo ' <p><b data-lang-id="131">Briks Required:</b> ' . $array["briks_required"] . '</p>';
             echo ' <p><b data-lang-id="132">Project Phase:</b> ' . $array["project_phase"] . '</p>';
             echo ' <p><b data-lang-id="133">Percent Complete:</b> <i>' . $array["project_perc_complete"] . '</i>&#8202;%</p>';
             echo ' <p><b data-lang-id="134">Community:</b> ' . $array["community"] . '</p>';
@@ -139,15 +110,17 @@ ini_set('display_errors', 1);?>
             echo ' <p><b data-lang-id="137">Ecobricks Used:</b> ' . $array["briks_used"] . '</p>';
             echo ' <p><b data-lang-id="138">Average Brik Weight:</b> ' . $array["est_avg_brik_weight"] . '&#8202;g</p>';
             echo ' <p><b data-lang-id="139">Location:</b> ' . $array["location_full"] . '</p>';
-            // echo ' <p><b data-lang-id="140">Geo:</b> ' . $array["location_geo"] . '</p>';
-            echo ' <p><b data-lang-id="141">Project URL:</b> ' . $array["project_url"] . '</p>';
+
+			echo ' <p><b data-lang-id="140">Lattitude:</b> ' . $array["location_lat"] . '</p>';
+			echo ' <p><b data-lang-id="140b">Longitude:</b> ' . $array["location_long"] . '</p>';
+			echo ' <p><b data-lang-id="141">Project URL:</b> ' . $array["project_url"] . '</p>';
             echo ' <p><b data-lang-id="142">Admins:</b> ' . $array["project_admins"] . '</p>';
             echo ' <p><b data-lang-id="143">Feature Photo URL:</b> ' . $array["photo1_main"] . '</p>';
             echo ' <p><b data-lang-id="144">Photo 2:</b> ' . $array["photo2_main"] . '</p>';
             echo ' <p><b data-lang-id="145">Photo 3:</b> ' . $array["photo3_main"] . '</p>';
             echo ' <p><b data-lang-id="146">Photo 4:</b> ' . $array["photo4_main"] . '</p>';
             echo ' <p><b data-lang-id="147">Photo 5:</b> ' . $array["photo5_main"] . '</p>';
-            echo ' <p><b data-lang-id="148">Estimate Total Weight:</b> ' . $array["est_total_weight"] . '&#8202;kg</p>';
+            echo ' <p><b data-lang-id="148">Plastic Sequestered:</b> ' . $array["est_total_weight"] . '&#8202;kg</p>';
             echo ' <p><b data-lang-id="149">Logged:</b> ' . $array["logged_ts"] . '</p>';
             echo ' <p><b data-lang-id="149b">Ready to Show:</b> ' . $array["ready_to_show"] . '</p>';
             echo ' <p data-lang-id="150"> ||| END RECORD.</p>
@@ -157,7 +130,41 @@ ini_set('display_errors', 1);?>
 
 			' ;
 
+
+			$projectId = $_GET['project_id'] ?? 0; // Default to 0 if not set
+			if ($projectId) {
+				// Updated SQL to directly use location_lat and location_long
+				$sql = "SELECT project_name, location_full, description_long, location_lat AS latitude, location_long AS longitude FROM tb_projects WHERE project_id = ?";
+				$stmt = $conn->prepare($sql);
+				$stmt->bind_param('i', $projectId);
+				$stmt->execute();
+				$result = $stmt->get_result();
+				$array = $result->fetch_assoc();
+			
+				if ($array && $array['latitude'] && $array['longitude']) {
+					echo '
+					
+						<div id="map" style="width: 100%; height: 300px;padding:10px;"></div>
+						<script>
+							var map = L.map("map").setView([' . $array['latitude'] . ', ' . $array['longitude'] . '], 13);
+							L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+								maxZoom: 19,
+								attribution: "© OpenStreetMap"
+							}).addTo(map);
+							L.marker([' . $array['latitude'] . ', ' . $array['longitude'] . ']).addTo(map)
+								.bindPopup("' . htmlspecialchars($array['project_name'], ENT_QUOTES, 'UTF-8') . '")
+								.openPopup();
+						</script>';
+				} else {
+					echo 'Project not found or no location data available.';
+				}
+			} else {
+				echo 'Invalid project ID.';
+			}
+
+
 			echo '
+			<p>' . $array["location_full"] . '</p><br>
 			<br><hr><br> 
 			<div class="page-paragraph">
 				<h3><p data-lang-id="151">Ecobrick Applications</p></h3>
@@ -237,6 +244,16 @@ echo '
             <?php require_once ("side-modules/sequest-module.php");?>
 
             <?php require_once ("side-modules/signup-now.php");?>
+
+			<div class="side-module-desktop-mobile">
+
+			<img src="../svgs/building-methods.svg" width="300" style="width:80%" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
+
+			<br><br>
+			<a class="module-btn" href="add-project.php">Post your project</a>
+				<h6 style="font-size:smaller">Share your ecobrick application</h6>
+
+			</div>
                 
    
 

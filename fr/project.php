@@ -40,7 +40,7 @@ ini_set('display_errors', 1);?>
 			</div>
 			
 			<div class="splash-image">
-				<a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '\', \'Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '\')"><img src="../' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and logged on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"
+				<a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '\', \'Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '\')"><img src="../' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"
 			title="Project' . htmlspecialchars($array["project_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["location_full"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["start_dt"], ENT_QUOTES, 'UTF-8') . '"></a>
 			</div>    
 		</div>
@@ -60,14 +60,14 @@ ini_set('display_errors', 1);?>
                    
                         <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
  
-                        // Loop through the available photos (up to 5)
-                        for ($i = 1; $i <= 5; $i++) {
+                         // Loop through the available photos (up to 5)
+						 for ($i = 1; $i <= 5; $i++) {
                             $photo_main = $array["photo{$i}_main"];
                             $photo_tmb = $array["photo{$i}_tmb"];
                             
                             // Check if the photo exists
                             if (!empty($photo_main) && !empty($photo_tmb)) {
-                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . $photo_main . '\', '. $array["project_name"] .' \')  |  \'Project photo ' . $i . ' |  '. $array["project_phase"] .'">
+                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . $photo_main . '\', \'Project photo ' . $i . ' | '. $array["project_name"] .' \')">
                                         <img src="../' . $photo_tmb . '">
                                     </div>';
                             }
@@ -110,7 +110,8 @@ ini_set('display_errors', 1);?>
             echo ' <p><b data-lang-id="137">Ecobricks Used:</b> ' . $array["briks_used"] . '</p>';
             echo ' <p><b data-lang-id="138">Average Brik Weight:</b> ' . $array["est_avg_brik_weight"] . '&#8202;g</p>';
             echo ' <p><b data-lang-id="139">Location:</b> ' . $array["location_full"] . '</p>';
-            echo ' <p><b data-lang-id="140">Lattitude:</b> ' . $array["location_lat"] . '</p>';
+
+			echo ' <p><b data-lang-id="140">Lattitude:</b> ' . $array["location_lat"] . '</p>';
 			echo ' <p><b data-lang-id="140b">Longitude:</b> ' . $array["location_long"] . '</p>';
 			echo ' <p><b data-lang-id="141">Project URL:</b> ' . $array["project_url"] . '</p>';
             echo ' <p><b data-lang-id="142">Admins:</b> ' . $array["project_admins"] . '</p>';
@@ -133,7 +134,7 @@ ini_set('display_errors', 1);?>
 			$projectId = $_GET['project_id'] ?? 0; // Default to 0 if not set
 			if ($projectId) {
 				// Updated SQL to directly use location_lat and location_long
-				$sql = "SELECT project_name, description_long, location_lat AS latitude, location_long AS longitude FROM tb_projects WHERE project_id = ?";
+				$sql = "SELECT project_name, location_full, description_long, location_lat AS latitude, location_long AS longitude FROM tb_projects WHERE project_id = ?";
 				$stmt = $conn->prepare($sql);
 				$stmt->bind_param('i', $projectId);
 				$stmt->execute();
@@ -163,6 +164,7 @@ ini_set('display_errors', 1);?>
 
 
 			echo '
+			<p>' . $array["location_full"] . '</p><br>
 			<br><hr><br> 
 			<div class="page-paragraph">
 				<h3><p data-lang-id="151">Ecobrick Applications</p></h3>
