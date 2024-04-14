@@ -9,8 +9,11 @@ $conn->set_charset("utf8mb4");
 
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Ensure default values to prevent undefined variable errors
+    $location_full = isset($_POST['location_address']) ? $_POST['location_address'] : 'Default Location';
+    
     // Log the received value of location_address to the PHP error log
-    error_log('Received location_address: ' . (isset($_POST['location_address']) ? $_POST['location_address'] : 'Not set'));
+    error_log('Received location_address: ' . $location_full);
 
     // Debugging: Output all POST data to error log to review what is being received
     error_log('POST data: ' . print_r($_POST, true));
@@ -46,14 +49,6 @@ echo "Location Full before insert: " . $location_full . "<br>";
     if ($stmt->execute()) {
         // Get the last inserted project_id
         $project_id = $conn->insert_id;
-
-        // Update `date_logged_ts` to current date and time
-        $current_datetime = date("Y-m-d H:i:s");
-        $update_date_sql = "UPDATE tb_projects SET logged_ts = ? WHERE project_id = ?";
-        $update_date_stmt = $conn->prepare($update_date_sql);
-        $update_date_stmt->bind_param("si", $current_datetime, $project_id);
-        $update_date_stmt->execute();
-        $update_date_stmt->close();
 
         // Calculate `est_total_weight`
         $est_total_weight = ($briks_used * $est_avg_brik_weight) / 1000;
