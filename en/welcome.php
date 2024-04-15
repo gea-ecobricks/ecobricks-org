@@ -230,7 +230,7 @@ https://github/globalecobrickalliance/ecobricks.org
  <!-- </div>  ends page content-->
 
 
- <script src="../2024-landing-scripts.js" defer></script>
+ <script src="../2024-landing-scripts.js"></script>
 
 
 
