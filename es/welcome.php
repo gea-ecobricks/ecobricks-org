@@ -232,107 +232,14 @@ https://github/globalecobrickalliance/ecobricks.org
  <!-- </div>  ends page content-->
 
 
-<script>
-    function slowScrollLeft(element, distance, duration) {
-        const start = element.scrollLeft;
-        const galleryWidth = element.scrollWidth; // Get the total width of the gallery
-        let startTime = performance.now();
 
-        function scroll(timestamp) {
-            const elapsed = timestamp - startTime;
-            const progress = Math.min(elapsed / duration, 1);
-            element.scrollLeft = start + distance * progress;
+ <script src="../2024-landing-scripts.js"></script>
 
-            if (progress < 1) {
-                requestAnimationFrame(scroll);
-            } else {
-                // Reset scroll position to the beginning when it reaches the end
-                element.scrollLeft = 0;
-                startTime = performance.now();
-                requestAnimationFrame(scroll);
-            }
-        }
-
-        requestAnimationFrame(scroll);
-    }
-
-    const galleryBlock = document.querySelector('.gallery10-content-block');
-    const galleryWidth = galleryBlock.scrollWidth; // Get the total width of the gallery
-    slowScrollLeft(galleryBlock, galleryWidth, 45000); // Scroll the full width over 15000 milliseconds
-
-
-
-
-   function ecobrickPreview(brik_serial, weight, owner, location) {
-        // Construct the image source URL
-        var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
-        
-        // Open a modal with the ecobrick image and link to details-ecobrick-page
-        var modal = document.createElement('div');
-        modal.className = 'ecobrick-modal';
-        modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-                          '<img src="' + imageUrl + '" alt="Ecobrick ' + brik_serial + '" />' +
-                          '<div class="ecobrick-details">' +
-                          '   <p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
-                          '</div>' +
-                          '<a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-ecobrick-page.php?serial_no=' + brik_serial + '">ℹ️ View Full Details</a>';
-        
-        // Append the modal to the body
-        document.body.appendChild(modal);
-    }
-
-
-
-   function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
-        // Construct the image source URL
-        var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
-        
-        // Open a modal with the ecobrick image and link to details-ecobrick-page
-        var modal = document.createElement('div');
-        modal.className = 'ecobrick-modal';
-        modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-                          '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
-                          '<div class="ecobrick-details" style="margin: 20px 10% auto 10%;">' +
-                          '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div>';
-        
-        // Append the modal to the body
-        document.body.appendChild(modal);
-    }
-
-
-    //WITH BUTTON
-
-
-//    function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
-//         // Construct the image source URL
-//         var imageUrl = 'https://ecobricks.org/projects/featured/featured-img-project-' + project_id + '.webp';
-        
-//         // Open a modal with the ecobrick image and link to details-ecobrick-page
-//         var modal = document.createElement('div');
-//         modal.className = 'ecobrick-modal';
-//         modal.innerHTML = '<span class="close-modal" onclick="closeEcobrickModal()">&times;</span>' +
-//                           '<img src="' + imageUrl + '" alt="Ecobrick Project: ' + name + '" title="Project ' + project_id + ': ' + name + '" >' +
-//                           '<div class="ecobrick-details">' +
-//                           '   <p>' + description + ' | Ecobricks used: ' + ecobricks_used + ' | Project completed: ' + start + ' | ' + location_full + '</p>                          </div><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="details-project-page.php?serial_no=' + project_id + '">ℹ️ View Full Details</a>';
-        
-//         // Append the modal to the body
-//         document.body.appendChild(modal);
-//     }
-
-
-
-
-    function closeEcobrickModal() {
-        // Close the modal by removing it from the DOM
-        var modal = document.querySelector('.ecobrick-modal');
-        if (modal) {
-            modal.parentNode.removeChild(modal);
-        }
-    }
-</script>
 
 
 </body>
+
+
 
 
 </html>
