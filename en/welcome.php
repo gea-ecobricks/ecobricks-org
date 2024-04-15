@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='3.2';?>
+<?php $version='3.3';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -14,6 +14,7 @@ Developed and made open source by the Global Ecobrick Alliance
 See our git hub repository for the full code and to help out:
 https://github/globalecobrickalliance/ecobricks.org
 -->
+<script src="../2024-landing-scripts.js"></script>
 
 
 <?php require_once ("../includes/welcome-inc.php");?>
@@ -230,7 +231,6 @@ https://github/globalecobrickalliance/ecobricks.org
  <!-- </div>  ends page content-->
 
 
- <script src="../2024-landing-scripts.js"></script>
 
 
 
