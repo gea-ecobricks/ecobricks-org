@@ -35,7 +35,7 @@ if ($result->num_rows > 0) {
         <meta property="og:site_name" content="Ecobricks.org" >
         <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" >
         <meta property="article:modified_time" content="'. $array["date_logged_ts"] .'" >
-        <meta property="og:image:type" content="image/png" >
+        <meta property="og:image:type" content="image/webp" >
         <meta name="author" content="Global Ecobrick Alliance" >
         <meta name="twitter:card" content="summary" >
         <meta name="twitter:label1" content="Est. reading time" >
