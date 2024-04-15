@@ -1,4 +1,8 @@
-   function slowScrollLeft(element, distance, duration) {
+  
+  
+  
+  
+  function slowScrollLeft(element, distance, duration) {
         const start = element.scrollLeft;
         const galleryWidth = element.scrollWidth; // Get the total width of the gallery
         let startTime = performance.now();
