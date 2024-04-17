@@ -114,7 +114,21 @@
                 <p data-lang-id="030-page-paragraph">Yet, after turning many corner, there was still no solution. Meanwhile, there as so much burning, dumping, so much Co2 and so much plastic, that everyone knew that there was a problem with an economy and lifestyle that had to be powered by ‘fossil fuels’.</p>
 
                 <p data-lang-id="031-page-paragraph">It became clear to the humans in these petro-capital economies that that they had much to learn from the planet’s way of relentlessly enriching the biosphere. Looking at indigenous peoples who had lived for centuries in ecological harmony with their surroundings, it was clear that they had much to learn from them also…</p>
-				
+
+		<div class="et_pb_text_inner"><h3><strong>Learning from the Earth<br/></strong></h3>
+			<p data-lang-id="032-page-paragraph">Over the last few billion years we can learn much from the way the Earth transformed from a barren rock to a green, abundant, biodiverse, stable and conscious biosphere.  A key part of this process has been the processing of carbon!  By looking closely at the Earth’s example we see the way that…</p>
+			<ul data-lang-id="033-page-paragraph"><li>the Earth used carbon in the short-term as an indefinite building block.</li>
+			<li>the Earth compacted and secured carbon into long-term storage out of the biosphere.</li>
+			<li>all of the Earth’s procesess subtracted more carbon into storage than they added back to the atmosphere.</li>
+			<li>all of the Earth’s processes move towards the increase in consciousness of those organisms involved</li>
+			<li>all of the Earth’s processes moved towards the increase in biodiversity</li>
+			<li>all of the Earth’s processes benefit the biosphere over the biome, the biome over its ecologies, the whole over the parts.</li>
+			</ul>
+			<p data-lang-id="034-page-paragraph">We can also draw some important conclusions from our modern experience…</p>
+			<ul data-lang-id="035-page-paragraph"><li>Keeping the carbon that is already under the ground is the easiest way to prevent it from getting into the atmosphere</li>
+			<li>There is a direct connection between the running of the petro-capital economy and the decompaction of carbon deposits</li>
+			</ul>
+		</div>
             </div>
 
         </div>
