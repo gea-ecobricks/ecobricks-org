@@ -4,6 +4,29 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 include '../ecobricks_env.php';
 
+
+
+$projectId = isset($_GET['project_id']) ? intval($_GET['project_id']) : 0;
+$projectData = null;
+
+if ($projectId > 0) {
+    $stmt = $conn->prepare("SELECT * FROM tb_projects WHERE project_id = ?");
+    $stmt->bind_param("i", $projectId);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($result->num_rows > 0) {
+        $projectData = $result->fetch_assoc();
+    } else {
+        echo "Project not found.";
+        exit;
+    }
+} else {
+    echo "Invalid project ID.";
+    exit;
+}
+
+
 $error_message = '';
 $full_urls = [];
 $thumbnail_paths = [];
@@ -50,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
     }
 
 
-    
+
     if (!empty($db_fields)) {
         $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
         $update_sql = "UPDATE tb_projects SET {$fields_for_update}, ready_to_show = 1, logged_ts = NOW() WHERE project_id = ?";
