@@ -49,6 +49,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
         }
     }
 
+
+    
     if (!empty($db_fields)) {
         $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
         $update_sql = "UPDATE tb_projects SET {$fields_for_update}, ready_to_show = 1, logged_ts = NOW() WHERE project_id = ?";
