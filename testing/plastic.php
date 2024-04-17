@@ -129,6 +129,19 @@
 			<li>There is a direct connection between the running of the petro-capital economy and the decompaction of carbon deposits</li>
 			</ul>
 		</div>
+		<div class="et_pb_text_inner"><h3><strong>Seeing Plastic Anew<br/></strong></h3>
+			<p data-lang-id="036-page-paragraph">In light of the Earth’s ancient history, we can see the modern of history of plastic differently…</p>
+			<ul data-lang-id="037-page-paragraph"><li>There is a direction connection between the running of the petro-capital economy and the production and dispersal of plastic</li>
+			<li>Plastic is the one form of processed fuels that remains densely compacted</li>
+			<li>Processing plastic in the petro-capital system perpetuates the decompaction of stored carbon, the release of CO2, and the dispersal of plastic</li>
+			<li>Plastics loose in the biosphere quickly degrade into greenhouse gases, micro-plastics and toxins.</li>
+			</ul>
+		</div>
+		<div class="et_pb_text_inner"><h3><strong>Learning from Indigenous Peoples<br/></strong></h3>
+			<p data-lang-id="038-page-paragraph">Many economies throughout human history have thrived in harmony with their surrounding ecologies. The way their looked at the world, what they valued and how they used money (capital) is something that we can learn much from.</p>
+			<p data-lang-id="039-page-paragraph">The Igorot people have lived in ecological abundance in what is now the Northern Philippines for the last centuries. In their world view they have a virtue for making a place ever greener.  Someone who successfully transforming barren land into a field, or a field into a garden, or a garden into a forest is called "<a href="/ayyew">Ayyew</a>".  The virtue ranks with Courageous, Honor, and Loyalty in their way of seeing the world.  The underlying idea of Ayyew is syncing with cycles into ever greater harmony. It is an idea that can help us make sense of the way the Earth has been working for the last few billion years. In fact, this is probably what inspired the Igorots in the first place.</p>
+		</div>
+		</div>
             </div>
 
         </div>
