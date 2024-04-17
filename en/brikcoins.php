@@ -253,7 +253,7 @@
 
 			<?php include 'side-modules/for-earth.php';?> 
 
-			<?php include 'side-modules/earthen-ethics-principles.php';?> 
+			<?php include 'side-modules/earthen-ethics-principle.php';?> 
 			
 		</div>
 

@@ -158,12 +158,14 @@ function convertToWebP($source_path, $destination_path) {
 // Function to resize original image if any of its dimensions are larger than 1500px.
 
 function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQuality) {
+    // Correct orientation based on EXIF data
+    correctImageOrientation($sourcePath);
+
     list($width, $height, $type, $attr) = getimagesize($sourcePath);
     $scale = min($maxDim/$width, $maxDim/$height);
     $newWidth = $width > $maxDim ? ceil($scale * $width) : $width;
     $newHeight = $height > $maxDim ? ceil($scale * $height) : $height;
 
-    // Depending on the original image type, create a new image
     switch ($type) {
         case IMAGETYPE_JPEG:
             $src = imagecreatefromjpeg($sourcePath);
@@ -172,18 +174,40 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
             $src = imagecreatefrompng($sourcePath);
             break;
         default:
-            // Unsupported type for conversion
-            return false;
+            return false; // Handle other types as needed
     }
 
     $dst = imagecreatetruecolor($newWidth, $newHeight);
     imagecopyresampled($dst, $src, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
-    imagewebp($dst, $targetPath, $compressionQuality); // Save the image as WebP with specified compression quality
+    imagewebp($dst, $targetPath, $compressionQuality); // Save the image as WebP
 
     imagedestroy($src);
     imagedestroy($dst);
     return true;
 }
+
+
+
+function correctImageOrientation($filepath) {
+    $exif = exif_read_data($filepath);
+    if (!empty($exif['Orientation'])) {
+        $image = imagecreatefromjpeg($filepath);
+        switch ($exif['Orientation']) {
+            case 3:
+                $image = imagerotate($image, 180, 0);
+                break;
+            case 6:
+                $image = imagerotate($image, -90, 0);
+                break;
+            case 8:
+                $image = imagerotate($image, 90, 0);
+                break;
+        }
+        imagejpeg($image, $filepath, 90); // Save corrected image
+        imagedestroy($image);
+    }
+}
+
 ?>
 <!DOCTYPE html>
 <HTML lang="en"> 
