@@ -269,16 +269,22 @@ document.getElementById('submit-form').addEventListener('submit', function(event
     event.preventDefault(); // Prevent the form from submitting until validation is complete
     var isValid = true; // Flag to determine if the form should be submitted
 
-    // Helper function to display error messages
-    function displayError(elementId, showError) {
-        var errorDiv = document.getElementById(elementId);
-        if (showError) {
-            errorDiv.style.display = 'block';
-            isValid = false;
-        } else {
-            errorDiv.style.display = 'none';
-        }
+// Helper function to display error messages
+function displayError(elementId, showError) {
+    var errorDiv = document.getElementById(elementId);
+    if (showError) {
+        errorDiv.style.display = 'block'; // Show the error message
+        isValid = false; // Set form validity flag
+    } else {
+        errorDiv.style.display = 'none'; // Hide the error message
     }
+}
+
+if (!isValid) {
+    document.querySelector('.form-field-error[style="display: block;"]').scrollIntoView();
+    document.querySelector('input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="true"]').focus();
+}
+
 
     // Helper function to check for invalid characters
     function hasInvalidChars(value) {
