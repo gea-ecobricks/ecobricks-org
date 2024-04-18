@@ -24,7 +24,7 @@ if ($projectId > 0) {
     exit;
 }
 
-include 'project-photo-functions.php'; // Ensure this path is correct
+include '../project-photo-functions.php'; // Ensure this path is correct
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
     $upload_dir = '../projects/photos/';
