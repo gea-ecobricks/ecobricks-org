@@ -24,34 +24,62 @@ if ($projectId > 0) {
     exit;
 }
 
-include '../project-photo-functions.php'; // Assuming your functions are in this file
+include 'project-photo-functions.php'; // Ensure this path is correct
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    for ($i = 1; $i <= 6; $i++) { // Handling up to six photos
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
+    $upload_dir = '../projects/photos/';
+    $thumbnail_dir = '../projects/tmbs/';
+
+    $db_fields = [];
+    $db_values = [];
+    $db_types = "";
+    $error_messages = [];
+
+    for ($i = 1; $i <= 6; $i++) {
         $fileInputName = "photo{$i}_main";
         if (isset($_FILES[$fileInputName]) && $_FILES[$fileInputName]['error'] === UPLOAD_ERR_OK) {
-            $fileExtension = pathinfo($_FILES[$fileInputName]['name'], PATHINFO_EXTENSION);
             $newFileNameWebP = "project-{$projectId}-{$i}.webp";
             $targetPath = $upload_dir . $newFileNameWebP;
 
-            // Delete existing file if it exists to replace it
             if (file_exists($targetPath)) {
-                unlink($targetPath);
+                unlink($targetPath); // Delete existing file
             }
 
             if (resizeAndConvertToWebP($_FILES[$fileInputName]['tmp_name'], $targetPath, 1000, 88)) {
                 createThumbnail($targetPath, $thumbnail_dir . $newFileNameWebP, 160, 160, 77);
-                // Update database with new file paths if needed
+                $db_fields[] = "photo{$i}_main";
+                $db_values[] = $targetPath;
+                $db_types .= 's';
             } else {
-                echo "Error processing image {$i}. Please try again.<br>";
+                $error_messages[] = "Error processing image {$i}. Please try again.";
             }
         }
     }
-    // Redirect or notify of success
-    echo "<script>alert('Photos updated successfully.'); window.location.href='edit-project.php?project_id={$projectId}';</script>";
+
+    if (empty($error_messages)) {
+        // Update the database
+        $fields_for_update = implode(', ', array_map(function($field) { return "{$field} = ?"; }, $db_fields));
+        $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
+        $db_values[] = $projectId;
+        $db_types .= 'i';
+
+        $update_stmt = $conn->prepare($update_sql);
+        $update_stmt->bind_param($db_types, ...$db_values);
+        if ($update_stmt->execute()) {
+            echo "<script>alert('Photos updated successfully.'); window.location.href='edit-project.php?project_id={$projectId}';</script>";
+        } else {
+            echo "Database update failed: " . $update_stmt->error;
+        }
+        $update_stmt->close();
+    } else {
+        foreach ($error_messages as $msg) {
+            echo $msg . "<br>";
+        }
+    }
 }
 
 ?>
+
 
 <!DOCTYPE html>
 <HTML lang="en">
