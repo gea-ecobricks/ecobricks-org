@@ -60,16 +60,16 @@ function createThumbnail($source_path, $destination_path, $width, $height, $qual
 }
 
 // Function to convert image to WebP format
-function convertToWebP($source_path, $destination_path) {
-    $image = imagecreatefromstring(file_get_contents($source_path));
-    if ($image !== false) {
-        imagepalettetotruecolor($image);
-        imagewebp($image, $destination_path, 85);
-        imagedestroy($image);
-        return true;
-    }
-    return false;
-}
+// function convertToWebP($source_path, $destination_path) {
+//     $image = imagecreatefromstring(file_get_contents($source_path));
+//     if ($image !== false) {
+//         imagepalettetotruecolor($image);
+//         imagewebp($image, $destination_path, 85);
+//         imagedestroy($image);
+//         return true;
+//     }
+//     return false;
+// }
 
 
 // Function to resize original image if any of its dimensions are larger than 1500px.
