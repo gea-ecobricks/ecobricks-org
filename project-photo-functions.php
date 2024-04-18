@@ -103,12 +103,18 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
     return true;
 }
 
-
-
 function correctImageOrientation($filepath) {
-    $exif = exif_read_data($filepath);
+    $fileType = strtolower(pathinfo($filepath, PATHINFO_EXTENSION));
+    if ($fileType !== 'jpeg' && $fileType !== 'jpg') {
+        // Skip EXIF processing for non-JPEG files
+        return;
+    }
+
+    $exif = @exif_read_data($filepath);  // Using error control operator to suppress errors
     if (!empty($exif['Orientation'])) {
         $image = imagecreatefromjpeg($filepath);
+        if (!$image) return;  // Ensure the image was successfully created
+
         switch ($exif['Orientation']) {
             case 3:
                 $image = imagerotate($image, 180, 0);
@@ -124,5 +130,6 @@ function correctImageOrientation($filepath) {
         imagedestroy($image);
     }
 }
+
 
 ?>
