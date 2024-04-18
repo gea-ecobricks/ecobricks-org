@@ -114,14 +114,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <label for="project_name" data-lang-id="003-project-name">Project Name:</label><br>
                 <input type="text" id="project_name" name="project_name" aria-label="Project Name" title="Required. Max 255 characters." required>
                 <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.  Avoid special characters.</p>
-                <div id="project_name_error" class="form-field-error" data-lang-id="005b-project-name-error">Project name contains invalid characters. Avoid quotes, slashes, and greater-than signs.</span>
+                <div id="project_name_error" class="form-field-error" data-lang-id="005b-project-name-error">Project name contains invalid characters. Avoid quotes, slashes, and greater-than signs.</div>
             </div>
     
     <div class="form-item">
         <label for="description_short" data-lang-id="004-short-project-desc">Short project description:</label><br>
         <textarea id="description_short" name="description_short" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
         <p class="form-caption" data-lang-id="004-short-project-desc-caption">Provide a one sentence description of this project. Max 150 words.  Avoid special characters.</p>
-        <div id="project_name_error" class="form-field-error" data-lang-id="004b-project-description-error">Project description contains invalid characters. Avoid quotes, slashes, and greater-than signs please.</span>
+        <div id="project_name_error" class="form-field-error" data-lang-id="004b-project-description-error">Project description contains invalid characters. Avoid quotes, slashes, and greater-than signs please.</div>
         
     </div>
 

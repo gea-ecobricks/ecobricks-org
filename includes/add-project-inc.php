@@ -174,6 +174,13 @@ input[type="submit"]:hover {
   background-color: green;
 } 
 
+
+.form-field-error {
+  color: red;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
 .form-container {
   width: 80%;
   background-color: var(--form-background);
