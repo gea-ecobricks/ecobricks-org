@@ -73,16 +73,28 @@ function convertToWebP($source_path, $destination_path) {
 
 
 // Function to resize original image if any of its dimensions are larger than 1500px.
-
 function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQuality) {
-    // Correct orientation based on EXIF data
-    correctImageOrientation($sourcePath);
+    // First check if the source is already a webp and simply copy if it is
+    $fileType = strtolower(pathinfo($sourcePath, PATHINFO_EXTENSION));
+    if ($fileType === 'webp') {
+        // If already webp and no resizing is needed, just copy the file over.
+        if (!file_exists($targetPath)) {
+            copy($sourcePath, $targetPath);
+        }
+        return true;
+    }
+
+    // Correct orientation based on EXIF data for JPEGs only
+    if ($fileType === 'jpeg' || $fileType === 'jpg') {
+        correctImageOrientation($sourcePath);
+    }
 
     list($width, $height, $type, $attr) = getimagesize($sourcePath);
-    $scale = min($maxDim/$width, $maxDim/$height);
+    $scale = min($maxDim / $width, $maxDim / $height);
     $newWidth = $width > $maxDim ? ceil($scale * $width) : $width;
     $newHeight = $height > $maxDim ? ceil($scale * $height) : $height;
 
+    $src = null;
     switch ($type) {
         case IMAGETYPE_JPEG:
             $src = imagecreatefromjpeg($sourcePath);
@@ -91,15 +103,18 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
             $src = imagecreatefrompng($sourcePath);
             break;
         default:
-            return false; // Handle other types as needed
+            // Optionally handle other image types or skip unsupported ones
+            return false;
     }
 
-    $dst = imagecreatetruecolor($newWidth, $newHeight);
-    imagecopyresampled($dst, $src, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
-    imagewebp($dst, $targetPath, $compressionQuality); // Save the image as WebP
+    if ($src) {
+        $dst = imagecreatetruecolor($newWidth, $newHeight);
+        imagecopyresampled($dst, $src, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
+        imagewebp($dst, $targetPath, $compressionQuality); // Save the image as WebP
 
-    imagedestroy($src);
-    imagedestroy($dst);
+        imagedestroy($src);
+        imagedestroy($dst);
+    }
     return true;
 }
 
