@@ -264,38 +264,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 <script>
-
 document.getElementById('submit-form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the form from submitting until validation is complete
     var isValid = true; // Flag to determine if the form should be submitted
 
-// Helper function to display error messages
-function displayError(elementId, showError) {
-    var errorDiv = document.getElementById(elementId);
-    if (showError) {
-        errorDiv.style.display = 'block'; // Show the error message
-        isValid = false; // Set form validity flag
-    } else {
-        errorDiv.style.display = 'none'; // Hide the error message
-    }
-}
-
-if (!isValid) {
-        // Scroll to the first error message and center it in the viewport
-        var firstError = document.querySelector('.form-field-error[style="display: block;"]');
-        if (firstError) {
-            firstError.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
-            // Optionally, find the related input and focus it
-            var relatedInput = firstError.closest('.form-item').querySelector('input, select, textarea');
-            if (relatedInput) {
-                relatedInput.focus();
-            }
+    // Helper function to display error messages
+    function displayError(elementId, showError) {
+        var errorDiv = document.getElementById(elementId);
+        if (showError) {
+            errorDiv.style.display = 'block'; // Show the error message
+            isValid = false; // Set form validity flag
+        } else {
+            errorDiv.style.display = 'none'; // Hide the error message
         }
-    } else {
-        this.submit();
     }
-});
-
 
     // Helper function to check for invalid characters
     function hasInvalidChars(value) {
@@ -312,7 +294,7 @@ if (!isValid) {
     // 2. Project Short Description Validation
     var descriptionShort = document.getElementById('description_short').value.trim();
     displayError('description-error-required', descriptionShort === '');
-    // displayError('description-error-long', descriptionShort.length > 255);
+    displayError('description-error-long', descriptionShort.length > 255);
     displayError('description-error-invalid', hasInvalidChars(descriptionShort));
 
     // 3. Project Long Description Validation
@@ -357,8 +339,16 @@ if (!isValid) {
     if (isValid) {
         this.submit();
     } else {
-        // Scroll to the first error message
-        document.querySelector('.form-field-error[style="display: block;"]').scrollIntoView();
+        // Scroll to the first error message and center it in the viewport
+        var firstError = document.querySelector('.form-field-error[style="display: block;"]');
+        if (firstError) {
+            firstError.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
+            // Optionally, find the related input and focus it
+            var relatedInput = firstError.closest('.form-item').querySelector('input, select, textarea');
+            if (relatedInput) {
+                relatedInput.focus();
+            }
+        }
     }
 });
 
