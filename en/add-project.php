@@ -281,9 +281,20 @@ function displayError(elementId, showError) {
 }
 
 if (!isValid) {
-    document.querySelector('.form-field-error[style="display: block;"]').scrollIntoView();
-    document.querySelector('input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="true"]').focus();
-}
+        // Scroll to the first error message and center it in the viewport
+        var firstError = document.querySelector('.form-field-error[style="display: block;"]');
+        if (firstError) {
+            firstError.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
+            // Optionally, find the related input and focus it
+            var relatedInput = firstError.closest('.form-item').querySelector('input, select, textarea');
+            if (relatedInput) {
+                relatedInput.focus();
+            }
+        }
+    } else {
+        this.submit();
+    }
+});
 
 
     // Helper function to check for invalid characters
