@@ -181,9 +181,11 @@ input[type="submit"]:hover {
   margin-bottom: 20px;
   padding-left: 10px;
   padding-bottom: 15px;
+  display: none;
 }
 
 .form-container {
+
   width: 80%;
   background-color: var(--form-background);
   border: 1px solid var(--divider-line);
