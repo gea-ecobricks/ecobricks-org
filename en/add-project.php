@@ -107,8 +107,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   
         <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
-        <form id="submit-form" method="post" action="" enctype="multipart/form-data" novalidate>
-        <!-- <form id="submit-form" method="post" action="" enctype="multipart/form-data"> -->
+        <!-- <form id="submit-form" method="post" action="" enctype="multipart/form-data" novalidate> -->
+        <form id="submit-form" method="post" action="" enctype="multipart/form-data">
 
             <div class="form-item" style="margin-top: 25px;">
                 <label for="project_name" data-lang-id="003-project-name">Project Name:</label><br>
@@ -139,8 +139,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div class="form-item">
         <label for="description_long" data-lang-id="005-long-project-desc">Full project description:</label><br>
-        <textarea id="description_long" name="description_long" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
-        <p class="form-caption" data-lang-id="005-long-project-desc-caption">Take as much space as you need as share the full details of your project. Max 1000 words.</p>
+        <textarea id="description_long" name="description_long" aria-label="Project Description" title="Required. Max 150 words"></textarea>
+        <p class="form-caption" data-lang-id="005-long-project-desc-caption">Optional. Take as much space as you need as share the full details of your project. Max 1000 words.</p>
 
          <!--ERRORS-->
 
@@ -301,7 +301,7 @@ if (!isValid) {
     // 2. Project Short Description Validation
     var descriptionShort = document.getElementById('description_short').value.trim();
     displayError('description-error-required', descriptionShort === '');
-    displayError('description-error-long', descriptionShort.length > 255);
+    // displayError('description-error-long', descriptionShort.length > 255);
     displayError('description-error-invalid', hasInvalidChars(descriptionShort));
 
     // 3. Project Long Description Validation
