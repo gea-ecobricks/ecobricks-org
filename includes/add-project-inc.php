@@ -179,6 +179,8 @@ input[type="submit"]:hover {
   color: red;
   margin-top: -15px;
   margin-bottom: 20px;
+  padding-left: 10px;
+  padding-bottom: 15px;
 }
 
 .form-container {

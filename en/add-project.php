@@ -114,14 +114,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <label for="project_name" data-lang-id="003-project-name">Project Name:</label><br>
                 <input type="text" id="project_name" name="project_name" aria-label="Project Name" title="Required. Max 255 characters." required>
                 <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.  Avoid special characters.</p>
-                <div id="project_name_error" class="form-field-error" data-lang-id="005b-project-name-error">Project name contains invalid characters. Avoid quotes, slashes, and greater-than signs.</div>
+                
+                <!--ERRORS-->
+                <div id="name-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+
+                <div id="name-error-long" class="form-field-error" data-lang-id="000-name-field-too-long-error">Your project name is too long.  Max 50 characters.</div>
+                
+                <div id="name-error-invalid" class="form-field-error" data-lang-id="005b-project-name-error">Your entry contains invalid characters. Avoid quotes, slashes, and greater-than signs please.</div>
             </div>
     
     <div class="form-item">
         <label for="description_short" data-lang-id="004-short-project-desc">Short project description:</label><br>
         <textarea id="description_short" name="description_short" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
         <p class="form-caption" data-lang-id="004-short-project-desc-caption">Provide a one sentence description of this project. Max 150 words.  Avoid special characters.</p>
-        <div id="project_name_error" class="form-field-error" data-lang-id="004b-project-description-error">Project description contains invalid characters. Avoid quotes, slashes, and greater-than signs please.</div>
+
+         <!--ERRORS-->
+         <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+
+        <div id="description-error-long" class="form-field-error" data-lang-id="000-field-description-too-long-error">Your project description is too long.  Max 255 characters.</div>
+
+        <div id="description-error-invalid" class="form-field-error" data-lang-id="000-field-invalid-characters">Your entry contains invalid characters. Avoid quotes, slashes, and greater-than signs.</div>
         
     </div>
 
@@ -129,26 +141,40 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="description_long" data-lang-id="005-long-project-desc">Full project description:</label><br>
         <textarea id="description_long" name="description_long" aria-label="Project Description" title="Required. Max 150 words" required></textarea>
         <p class="form-caption" data-lang-id="005-long-project-desc-caption">Take as much space as you need as share the full details of your project. Max 1000 words.</p>
+
+         <!--ERRORS-->
+
+        <div id="description2-error-long" class="form-field-error" data-lang-id="000-long-field-too-long-error">Your long project description is too long.  Maximum 2000 characters.</div>
+
     </div>
     
     <div class="form-item">
         <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
         <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
         <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
+
+         <!--ERRORS-->
+         <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+         <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
+
     </div>
     
     <div class="form-item">
     <label for="briks_used" data-lang-id="009-bricks-used">Ecobricks Used:</label><br>
     <input type="number" id="briks_used" name="briks_used" aria-label="Bricks Used" min="1" max="5000" required>
     <p class="form-caption" data-lang-id="009-bricks-used-caption">How many ecobricks does your project use? Enter a number between 1-5000.</p>
-    <span id="briks_used_error" style="color: red;"></span>
+     <!--ERRORS-->
+     <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+     <div id="briks-error-range" class="form-field-error" data-lang-id="000-field-brik-number-error">Number must be between 1 and 5000.</div>
 </div>
 
 <div class="form-item">
     <label for="est_avg_brik_weight" data-lang-id="010-est-avg-weight">Please estimate the average weight of the ecobricks used in your project in grams?</label><br>
     <input type="number" id="est_avg_brik_weight" name="est_avg_brik_weight" aria-label="Estimate Brik Weight" min="100" max="2000" required>
     <p class="form-caption" data-lang-id="010-est-avg-weight-range">Must be a number between 100 and 2000.</p>
-    <span id="est_avg_brik_weight_error" style="color: red;"></span>
+     <!--ERRORS-->
+     <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+     <div id="weight-error-range" class="form-field-error" data-lang-id="000-field-required-error">Your estimated ecobrick average weight (in grams) must a number between 100 and 2000.</div>
 </div>
 
 
@@ -164,6 +190,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <option value="other" data-lang-id="011-other">Other</option>
         </select>
+        <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
     </div>
     
     <div class="form-item">
@@ -185,13 +212,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="community" data-lang-id="013-community">If this was a community project, what community is responsible?</label><br>
         <input type="text" id="community" name="community" aria-label="Community (optional)">
         <p class="form-caption" data-lang-id="013b-optional">Optional</p>
+
+        <!--ERRORS-->
+        <div id="community-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
     </div>
     
     <div class="form-item">
         <label for="project_admins" data-lang-id="014-project-admins">Who's project is this?</label><br>
         <input type="text" id="project_admins" name="project_admins" aria-label="Project Admins (optional)">
         <p class="form-caption" data-lang-id="014b-optional">Optional: Provide the name(s) of the project's principals. If you wish to link this to a GoBrik user account be sure to spell the name accordingly.</p>
+    <!--ERRORS-->
+        <div id="admins-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
     </div>
+
 
     <div class="form-item">
     <label for="location_address" data-lang-id="015-location">Where is the project located?</label><br>
@@ -200,6 +233,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div id="loading-spinner" class="spinner" style="display: none;"></div>
     </div>
     <p class="form-caption" data-lang-id="016-location-caption">For privacy, please don't use your exact address. Choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
+    <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
 </div>
 
 
@@ -228,89 +262,86 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <script>
 
-    
-// Define the error messages for all languages
-var errorMessages = {
-    en: {
-        briksUsed: "Please enter a non-decimal number between 1 and 5000 for briks used.",
-        avgBrikWeight: "Please enter a non-decimal number between 100 and 2000 for the average weight.",
-        projectName: "Project name contains invalid characters. Avoid quotes, slashes, and greater-than signs.",
-        description: "Description contains invalid characters. Avoid quotes, slashes, and greater-than signs."
-    },
-    fr: {
-        briksUsed: "Veuillez entrer un nombre entier entre 1 et 5000 pour les briques utilisées.",
-        avgBrikWeight: "Veuillez entrer un nombre entier entre 100 et 2000 pour le poids moyen.",
-        projectName: "Le nom du projet contient des caractères invalides. Évitez les guillemets, les barres obliques et les signes supérieurs.",
-        description: "La description contient des caractères invalides. Évitez les guillemets, les barres obliques et les signes supérieurs."
-    },
-    es: {
-        briksUsed: "Ingrese un número entero entre 1 y 5000 para los ladrillos utilizados.",
-        avgBrikWeight: "Ingrese un número entero entre 100 y 2000 para el peso promedio.",
-        projectName: "El nombre del proyecto contiene caracteres inválidos. Evite comillas, barras y signos de mayor que.",
-        description: "La descripción contiene caracteres inválidos. Evite comillas, barras y signos de mayor que."
-    },
-    id: {
-        briksUsed: "Masukkan angka bulat antara 1 dan 5000 untuk bata yang digunakan.",
-        avgBrikWeight: "Masukkan angka bulat antara 100 dan 2000 untuk berat rata-rata.",
-        projectName: "Nama proyek mengandung karakter yang tidak valid. Hindari tanda kutip, garis miring, dan tanda lebih besar.",
-        description: "Deskripsi mengandung karakter yang tidak valid. Hindari tanda kutip, garis miring, dan tanda lebih besar."
+document.getElementById('submit-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting until validation is complete
+    var isValid = true; // Flag to determine if the form should be submitted
+
+    // Helper function to display error messages
+    function displayError(elementId, showError) {
+        var errorDiv = document.getElementById(elementId);
+        if (showError) {
+            errorDiv.style.display = 'block';
+            isValid = false;
+        } else {
+            errorDiv.style.display = 'none';
+        }
     }
-};
 
-document.getElementById('submit-form').onsubmit = function(e) {
-    var isValid = true;
+    // Helper function to check for invalid characters
+    function hasInvalidChars(value) {
+        const invalidChars = /[\'\"><]/; // Regex for invalid characters
+        return invalidChars.test(value);
+    }
 
-    var briksUsed = document.getElementById('briks_used');
-    var briksUsedError = document.getElementById('briks_used_error');
-    var estAvgBrikWeight = document.getElementById('est_avg_brik_weight');
-    var estAvgBrikWeightError = document.getElementById('est_avg_brik_weight_error');
-    var projectName = document.getElementById('project_name');
-    var projectNameError = document.getElementById('project_name_error');
-    var descriptionShort = document.getElementById('description_short');
-    var descriptionShortError = document.getElementById('description_short_error');
+    // 1. Project Name Validation
+    var projectName = document.getElementById('project_name').value.trim();
+    displayError('name-error-required', projectName === '');
+    displayError('name-error-long', projectName.length > 50);
+    displayError('name-error-invalid', hasInvalidChars(projectName));
 
-    var lang = window.currentLanguage || 'en'; // Default to English if currentLanguage is not set
+    // 2. Project Short Description Validation
+    var descriptionShort = document.getElementById('description_short').value.trim();
+    displayError('description-error-required', descriptionShort === '');
+    displayError('description-error-long', descriptionShort.length > 255);
+    displayError('description-error-invalid', hasInvalidChars(descriptionShort));
 
-    // Validate briks_used
-    if (briksUsed.value < 1 || briksUsed.value > 5000 || briksUsed.value % 1 !== 0) {
-        briksUsedError.textContent = errorMessages[lang].briksUsed;
-        briksUsed.focus();
-        isValid = false;
+    // 3. Project Long Description Validation
+    var descriptionLong = document.getElementById('description_long').value.trim();
+    displayError('description2-error-long', descriptionLong.length > 2000);
+
+    // 4. Project Start Date Validation
+    var startDate = new Date(document.getElementById('start_dt').value);
+    var now = new Date();
+    var earlyDate = new Date('2000-01-01');
+    displayError('start-error-reasonable', startDate > now || startDate < earlyDate);
+
+    // 5. Ecobricks Used Validation
+    var briksUsed = parseInt(document.getElementById('briks_used').value, 10);
+    displayError('briks-error-range', isNaN(briksUsed) || briksUsed < 1 || briksUsed > 2000);
+
+    // 6. Estimated Weight Validation
+    var estimatedWeight = parseInt(document.getElementById('est_avg_brik_weight').value, 10);
+    displayError('weight-error-range', isNaN(estimatedWeight) || estimatedWeight < 100 || estimatedWeight > 2000);
+
+    // 7. Project Type Validation
+    var projectType = document.getElementById('project_type').value;
+    displayError('description-error-required', projectType === '');
+
+    // 8. Construction Type Validation
+    var constructionType = document.getElementById('construction_type').value;
+    displayError('description-error-required', constructionType === '');
+
+    // 9. Community Project (just check length)
+    var community = document.getElementById('community').value.trim();
+    displayError('community-error-long', community.length > 255);
+
+    // 10. Project Admins (just check length)
+    var admins = document.getElementById('project_admins').value.trim();
+    displayError('admins-error-long', admins.length > 255);
+
+    // 11. Location Validation
+    var location = document.getElementById('location_address').value.trim();
+    displayError('description-error-required', location === '');
+
+    // If all validations pass, submit the form
+    if (isValid) {
+        this.submit();
     } else {
-        briksUsedError.textContent = "";
+        // Scroll to the first error message
+        document.querySelector('.form-field-error[style="display: block;"]').scrollIntoView();
     }
+});
 
-    // Validate est_avg_brik_weight
-    if (estAvgBrikWeight.value < 100 || estAvgBrikWeight.value > 2000 || estAvgBrikWeight.value % 1 !== 0) {
-        estAvgBrikWeightError.textContent = errorMessages[lang].avgBrikWeight;
-        estAvgBrikWeight.focus();
-        isValid = false;
-    } else {
-        estAvgBrikWeightError.textContent = "";
-    }
-
-    // Validate project_name for invalid characters
-    if (/['"\/\>]/.test(projectName.value)) {
-        projectNameError.textContent = errorMessages[lang].projectName;
-        projectName.focus();
-        isValid = false;
-    } else {
-        projectNameError.textContent = "";
-    }
-
-    // Validate description_short for invalid characters
-    if (/['"\/\>]/.test(descriptionShort.value)) {
-        descriptionShortError.textContent = errorMessages[lang].description;
-        descriptionShort.focus();
-        isValid = false;
-    } else {
-        descriptionShortError.textContent = "";
-    }
-
-    if (!isValid) {
-        e.preventDefault(); // Prevent form submission
-    }
-};
 
 
 
