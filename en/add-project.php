@@ -190,6 +190,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <option value="other" data-lang-id="011-other">Other</option>
         </select>
+        <br>
         <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
     </div>
     
@@ -206,6 +207,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <option value="other" data-lang-id="012-other">Other</option>
         </select>
+        <br>
+        <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
     </div>
     
     <div class="form-item">
