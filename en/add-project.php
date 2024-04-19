@@ -7,28 +7,31 @@ include '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $location_full = isset($_POST['location_address']) ? $_POST['location_address'] : 'Default Location';
-    error_log('Received location_address: ' . $location_full);
-    error_log('POST data: ' . print_r($_POST, true));
+    // $location_full = isset($_POST['location_address']) ? $_POST['location_address'] : 'Default Location';
+    // error_log('Received location_address: ' . $location_full);
+    // error_log('POST data: ' . print_r($_POST, true));
 
+    $location_full = $_POST['location_address'] ?? 'Default Location';
     $project_name = $_POST['project_name'];
     $description_short = $_POST['description_short'];
     $description_long = $_POST['description_long'];
     $project_type = $_POST['project_type'];
     $construction_type = $_POST['construction_type'];
-    $community = $_POST['community'];
-    $project_admins = $_POST['project_admins'];
+    $community = $_POST['community'] ?? '';
+    $project_admins = $_POST['project_admins'] ?? '';
     $start_dt = $_POST['start_dt'];
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
+    $connected_ecobricks = $_POST['connected_ecobricks'] ?? '';
 
-    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, location_full, project_type, construction_type, community, project_admins, start_dt, briks_used, est_avg_brik_weight, location_lat, location_long) 
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-    if ($stmt = $conn->prepare($sql)) {
-        $stmt->bind_param("sssssssssiidd", $project_name, $description_short, $description_long, $location_full, $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude);
-        if ($stmt->execute()) {
+
+    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, location_full, project_type, construction_type, community, project_admins, start_dt, briks_used, est_avg_brik_weight, location_lat, location_long, connected_ecobricks) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+if ($stmt = $conn->prepare($sql)) {
+$stmt->bind_param("sssssssssiidds", $project_name, $description_short, $description_long, $location_full, $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude, $connected_ecobricks);
+if ($stmt->execute()) {
             $project_id = $conn->insert_id;
 
                  // Get the last inserted project_id
