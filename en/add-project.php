@@ -232,10 +232,12 @@ if ($stmt->execute()) {
     </div>
 
     <div class="form-item">
-    <label for="connected_ecobricks" data-lang-id="018-connected-ecobricks">Connected Ecobricks Serial Numbers:</label><br>
+    <label for="connected_ecobricks">Connected Ecobricks Serial Numbers:</label><br>
     <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serial numbers separated by commas">
-    <p class="form-caption" data-lang-id="018-connected-ecobricks-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
+    <ul id="autocomplete-results"></ul>
+    <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
 </div>
+
 
 
     <div class="form-item">
@@ -426,6 +428,40 @@ $(function() {
 
 </script>
 
+<script>
+$(document).ready(function() {
+    var $serialInput = $('#connected_ecobricks');
+    var $autocompleteResults = $('#autocomplete-results'); // You need to add this element to HTML
+
+    $serialInput.on('input', function() {
+        var inputVal = $(this).val();
+        if (inputVal.length >= 4) {
+            $.ajax({
+                url: 'get_serial_numbers.php',
+                type: 'GET',
+                data: { search: inputVal },
+                success: function(data) {
+                    $autocompleteResults.empty();
+                    if (!data.error) {
+                        data.forEach(function(item) {
+                            $autocompleteResults.append($('<li>').text(item.serial_no));
+                        });
+                    } else {
+                        $autocompleteResults.append($('<li>').text(data.error));
+                    }
+                }
+            });
+        } else {
+            $autocompleteResults.empty();
+        }
+    });
+
+    $autocompleteResults.on('click', 'li', function() {
+        $serialInput.val($(this).text());
+        $autocompleteResults.empty();
+    });
+});
+</script>
 
 
 
