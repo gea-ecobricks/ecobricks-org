@@ -437,7 +437,7 @@ $(document).ready(function() {
         var inputVal = $(this).val();
         if (inputVal.length >= 4) {
             $.ajax({
-                url: 'get_serial_numbers.php',
+                url: '../get_serial_numbers.php',
                 type: 'GET',
                 data: { search: inputVal },
                 success: function(data) {
