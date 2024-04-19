@@ -228,6 +228,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div id="admins-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
     </div>
 
+    <div class="form-item">
+    <label for="connected_ecobricks" data-lang-id="018-connected-ecobricks">Connected Ecobricks Serial Numbers:</label><br>
+    <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serial numbers separated by commas">
+    <p class="form-caption" data-lang-id="018-connected-ecobricks-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
+</div>
+
 
     <div class="form-item">
     <label for="location_address" data-lang-id="015-location">Where is the project located?</label><br>
@@ -263,6 +269,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
+
+<!--Please help me to modify the php and html below so that instead of being a form for adding a new project (its current purpose) instead it is a form for editing a previously submitted project.  The page will contain in its url of the project_id to be edited.  
+
+For example  https://mysite.com/en/project.php?id=205 
+
+In this case 205 is the project_id.
+
+Here is my php and my html to modify accordingly.  We will keep all the texts and validation rules the same, so no need to modify the javascript or data-lang-ids:
+
+-->
 <script>
 document.getElementById('submit-form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the form from submitting until validation is complete
