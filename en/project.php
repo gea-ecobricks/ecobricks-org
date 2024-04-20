@@ -121,7 +121,7 @@ if ($result->num_rows > 0) {
 						while ($row = $result_ecobricks->fetch_assoc()) {
 							echo '<div class="gal-photo">
 									<div class="photo-box">
-										<img src="' . $row["ecobrick_thumb_photo_url "] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . '">
+										<img src="' . htmlspecialchars($row["ecobrick_thumb_photo_url"], ENT_QUOTES, 'UTF-8') . '?v=1" alt="Ecobrick ' . htmlspecialchars($row["ecobrick_unique_id"], ENT_QUOTES, 'UTF-8') . ' by ' . htmlspecialchars($row["ecobrick_owner"], ENT_QUOTES, 'UTF-8') . '" title="Ecobrick ' . htmlspecialchars($row["ecobrick_unique_id"], ENT_QUOTES, 'UTF-8') . ' by ' . htmlspecialchars($row["ecobrick_owner"], ENT_QUOTES, 'UTF-8') . '" loading="lazy" onclick="ecobrickPreview(\'' . htmlspecialchars($row["ecobrick_unique_id"], ENT_QUOTES, 'UTF-8') . '\', \'' . htmlspecialchars($row["weight_in_g"], ENT_QUOTES, 'UTF-8') . '\', \'' . htmlspecialchars($row["ecobrick_owner"], ENT_QUOTES, 'UTF-8') . '\', \'' . htmlspecialchars($row["location"], ENT_QUOTES, 'UTF-8') . '\')"/>
 									</div>
 								</div>';
 						}
