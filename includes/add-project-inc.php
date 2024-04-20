@@ -5,6 +5,10 @@
   
 <STYLE>
 
+.form-item li:hover {
+  background: var(--emblem-blue);
+}
+
 .splash-image {display:flex;}
 
 .splash-image img {margin-right: auto; margin-left: 0px;}
