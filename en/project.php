@@ -46,7 +46,7 @@ if ($result->num_rows > 0) {
 		<div id="splash-bar"></div>';
 
         echo '
-		
+		<div id="main-content">
             <div class="row">
                 <div class="main">
                     <div class="row-details">
