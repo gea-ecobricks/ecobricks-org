@@ -86,32 +86,7 @@ ini_set('display_errors', 1);?>
 
 
 
-				echo '
 
-		<div class="featured-content-gallery" style="overflow-x:clip;">
-        <div class="feed-live">
-            <p data-lang-id="303-featured-live-brikchain">Ecobricks used in project.  Click to view.</p>
-        </div>
-        <div class="gallery-flex-container">
-            <?php
-                $sql = "SELECT * FROM tb_ecobricks ;";
-                $result = $conn->query($sql);
-
-                if ($result->num_rows > 0) {
-                    // output data of each row
-                    while ($row = $result->fetch_assoc()) {
-                        echo '<div class="gal-photo">
-                                <div class="photo-box">
-                                    <img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\', \'' . $row["weight_in_g"] . '\', \'' . $row["ecobrick_owner"] . '\', \'' . $row["location"] . '\')"/>
-                                </div>
-                            </div>';
-                    }
-                } else {
-                    echo "Failed to connect to the Brikchain database";
-                }
-             ?>
-        
-        </div>'
                 
 				
 				
