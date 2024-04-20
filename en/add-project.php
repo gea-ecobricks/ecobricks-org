@@ -163,9 +163,9 @@ if ($stmt->execute()) {
     </div>
     
     <div class="form-item">
-    <label for="briks_used" data-lang-id="009-bricks-used">Ecobricks Used:</label><br>
+    <label for="briks_used" data-lang-id="009-bricks-used">How many ecobricks does your project use?</label><br>
     <input type="number" id="briks_used" name="briks_used" aria-label="Bricks Used" min="1" max="5000" required>
-    <p class="form-caption" data-lang-id="009-bricks-used-caption">How many ecobricks does your project use? Enter a number between 1-5000.</p>
+    <p class="form-caption" data-lang-id="009-bricks-used-caption">Please enter a number of ecobricks between 1-5000.</p>
      <!--ERRORS-->
      <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
      <div id="briks-error-range" class="form-field-error" data-lang-id="000-field-brik-number-error">Number must be between 1 and 5000.</div>
@@ -232,8 +232,8 @@ if ($stmt->execute()) {
     </div>
 
     <div class="form-item">
-    <label for="connected_ecobricks">Connected Ecobricks Serial Numbers:</label><br>
-    <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serial numbers separated by commas">
+    <label for="connected_ecobricks">Ecobricks Used in your project:</label><br>
+    <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serials...">
     <div id="serial-select"><ul id="autocomplete-results" ></ul></div>
     <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
 </div>
