@@ -15,17 +15,17 @@ if ($result->num_rows > 0) {
 	
     while($array = $result->fetch_assoc()) {
 
-		echo '<title>Project '. $array["project_id"] .' | '. $array["project_name"] .' in '. $array["location_full"] .'.</title>';
+		echo '<title>'. $array["project_name"] .' |  '. $array["briks_used"] .' ecobricks</title>';
 
-        echo '<meta name="description" content="' . $array["description_short"] .'">';
+        echo '<meta name="description" content="'. $array["est_total_weight"] .' has been sequestered in '. $array["location_full"] .' in a '. $array["project_type"] .' project.">';
 
 
 		echo '<meta name="keywords" content="ecobrick, serial '. $array["project_admins"] .', '. $array["construction_type"] .','. $array["project_type"] .', plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["location_full"] .'">';
 
         echo '<meta property="og:url"           content="https://ecobricks.org/'. $lang .'/project.php?project_id='. $array["project_id"] .'">' ;
-        echo '<meta property="og:title"         content="Project '. $array["project_id"] .' | '. $array["est_total_weight"] .'kg of plastic sequestered by ecobrickers '. $array["project_admins"] .' in '. $array["location_full"] .'.">';
-        echo '<meta property="og:description"   content="' . $array["description_short"] .'">';
-        echo '<meta property="og:image"         content="https://ecobricks.org/projects/photos/project-'. $array["project_id"] .'-1.webp">';
+        echo '<meta property="og:title"         content="'. $array["project_name"] .' |  '. $array["briks_used"] .' ecobricks">';
+        echo '<meta property="og:description"   content="'. $array["est_total_weigh"] .' has been sequestered in '. $array["location_full"] .' in a '. $array["project_type"] .' project.">';
+        echo '<meta property="og:image"         content="https://ecobricks.org/projects/photos/project-'. $array["project_id"] .'-1.webp?v=2">';
         echo '<meta property="og:image:alt"     content="A photo of our ecobrick project">';
         echo '<meta property="og:locale" content="en_GB" >';
         echo '<meta property="og:type"          content="website">';

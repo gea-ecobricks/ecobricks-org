@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-include '../ecobricks_env.php';
+include 'ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
 $search = $_GET['search'] ?? '';
