@@ -426,41 +426,55 @@ $(function() {
 
 });
 
-</script>
-
-<script>
 $(document).ready(function() {
     var $serialInput = $('#connected_ecobricks');
-    var $autocompleteResults = $('#autocomplete-results'); // You need to add this element to HTML
+    var $autocompleteResults = $('#autocomplete-results'); // Ensure this UL exists in your HTML
+
+    function performSearch(inputVal) {
+        $.ajax({
+            url: '../get-serials.php',
+            type: 'GET',
+            data: { search: inputVal },
+            success: function(data) {
+                $autocompleteResults.empty();
+                if (!data.error) {
+                    data.forEach(function(item) {
+                        $autocompleteResults.append($('<li>').text(item.serial_no));
+                    });
+                } else {
+                    $autocompleteResults.append($('<li>').text(data.error));
+                }
+            }
+        });
+    }
 
     $serialInput.on('input', function() {
-        var inputVal = $(this).val();
-        if (inputVal.length >= 4) {
-            $.ajax({
-                url: '../get-serials.php',
-                type: 'GET',
-                data: { search: inputVal },
-                success: function(data) {
-                    $autocompleteResults.empty();
-                    if (!data.error) {
-                        data.forEach(function(item) {
-                            $autocompleteResults.append($('<li>').text(item.serial_no));
-                        });
-                    } else {
-                        $autocompleteResults.append($('<li>').text(data.error));
-                    }
-                }
-            });
+        var currentValue = $(this).val();
+        var lastTerm = currentValue.split(',').pop().trim(); // Get the last term after a comma
+
+        if (lastTerm.length >= 4) {
+            performSearch(lastTerm);
         } else {
             $autocompleteResults.empty();
         }
     });
 
     $autocompleteResults.on('click', 'li', function() {
-        $serialInput.val($(this).text());
+        var currentInput = $serialInput.val();
+        var lastCommaIndex = currentInput.lastIndexOf(',');
+
+        // Check if there's content after the last comma or if this is the first entry
+        if (lastCommaIndex === -1 || lastCommaIndex === currentInput.length - 1) {
+            $serialInput.val(currentInput + $(this).text() + ', ');
+        } else {
+            // Replace the content after the last comma with the selected serial number
+            $serialInput.val(currentInput.substring(0, lastCommaIndex + 1) + $(this).text() + ', ');
+        }
+        
         $autocompleteResults.empty();
     });
 });
+
 </script>
 
 

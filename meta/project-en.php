@@ -24,7 +24,7 @@ if ($result->num_rows > 0) {
 
         echo '<meta property="og:url"           content="https://ecobricks.org/'. $lang .'/project.php?project_id='. $array["project_id"] .'">' ;
         echo '<meta property="og:title"         content="'. $array["project_name"] .' |  '. $array["briks_used"] .' ecobricks">';
-        echo '<meta property="og:description"   content="'. $array["est_total_weigh"] .' has been sequestered in '. $array["location_full"] .' in a '. $array["project_type"] .' project.">';
+        echo '<meta property="og:description"   content="'. $array["est_total_weight"] .'&#8202;kg of plastic has been sequestered in '. $array["location_full"] .' in a '. $array["project_type"] .' project.">';
         echo '<meta property="og:image"         content="https://ecobricks.org/projects/photos/project-'. $array["project_id"] .'-1.webp?v=2">';
         echo '<meta property="og:image:alt"     content="A photo of our ecobrick project">';
         echo '<meta property="og:locale" content="en_GB" >';

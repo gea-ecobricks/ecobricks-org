@@ -107,7 +107,8 @@ ini_set('display_errors', 1);?>
             echo ' <p><b data-lang-id="134">Community:</b> ' . $array["community"] . '</p>';
             echo ' <p><b data-lang-id="135">Project type:</b> ' . $array["project_type"] . '</p>';
             echo ' <p><b data-lang-id="136">Construction Type:</b> ' . $array["construction_type"] . '</p>';
-            echo ' <p><b data-lang-id="137">Ecobricks Used:</b> ' . $array["briks_used"] . '</p>';
+            echo ' <p><b data-lang-id="137">No. of Ecobricks Used:</b> ' . $array["briks_used"] . '</p>';
+			echo ' <p><b data-lang-id="137">Ecobricks Used:</b> ' . $array["connected_ecobricks"] . '</p>';
             echo ' <p><b data-lang-id="138">Average Brik Weight:</b> ' . $array["est_avg_brik_weight"] . '&#8202;g</p>';
             echo ' <p><b data-lang-id="139">Location:</b> ' . $array["location_full"] . '</p>';
 
