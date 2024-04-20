@@ -99,7 +99,7 @@ if ($result->num_rows > 0) {
 				
 				
 				
-					echo '<div class="featured-content-gallery" style="overflow-x:clip;width:100%;">
+					echo '<div class="featured-content-gallery">
 							<div class="feed-live">
 								<p>Ecobricks used in project. Click to view.</p>
 							</div>
