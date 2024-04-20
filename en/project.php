@@ -47,7 +47,6 @@ if ($result->num_rows > 0) {
 
         echo '
 		
-        <div id="main-content">
             <div class="row">
                 <div class="main">
                     <div class="row-details">
@@ -100,7 +99,7 @@ if ($result->num_rows > 0) {
 				
 				
 				
-					echo '<div class="featured-content-gallery" style="overflow-x:clip;">
+					echo '<div class="featured-content-gallery" style="overflow-x:clip;width:100%;">
 							<div class="feed-live">
 								<p>Ecobricks used in project. Click to view.</p>
 							</div>
@@ -328,6 +327,57 @@ echo '
 </div>
 
 
+
+<script>
+
+function ecobrickPreview(brik_serial, weight, owner, location) {
+    // Construct the image source URL
+    var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
+
+    const modal = document.getElementById('form-modal-message');
+    const contentBox = modal.querySelector('.modal-content-box'); // This is the part we want to hide
+    const photoBox = modal.querySelector('.modal-photo-box'); // This is where we'll show the image
+    const photoContainer = modal.querySelector('.modal-photo'); // The container for the image
+
+    // Hide the content box and show the photo box
+    contentBox.style.display = 'none'; // Hide the content box
+    photoBox.style.display = 'block'; // Make sure the photo box is visible
+
+    // Clear previous images from the photo container
+    photoContainer.innerHTML = '';
+
+    // Create and append the ecobrick image to the photo container
+    var img = document.createElement('img');
+    img.src = imageUrl;
+    img.alt = "Ecobrick " + brik_serial;
+    img.style.maxWidth = '90%';
+    img.style.maxHeight = '75vh';
+    img.style.minHeight ="400px";
+    img.style.minWidth ="400px";
+    img.style.margin = 'auto';
+    // img.style.backgroundColor ='#8080802e';
+    photoContainer.appendChild(img);
+
+    // Add ecobrick details and view details button inside photo container
+    var details = document.createElement('div');
+    details.className = 'ecobrick-details';
+    details.innerHTML = '<p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
+                        '<a href="details-ecobrick-page.php?serial_no=' + brik_serial + '" class="btn featured-gallery-button" style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;">ℹ️ View Full Details</a>';
+    photoContainer.appendChild(details);
+
+    // Hide other parts of the modal that are not used for this preview
+    modal.querySelector('.modal-content-box').style.display = 'none'; // Assuming this contains elements not needed for this preview
+
+    // Show the modal
+    modal.style.display = 'flex';
+
+    //Blur out background
+    document.getElementById('page-content')?.classList.add('blurred');
+    document.getElementById('footer-full')?.classList.add('blurred');
+    document.body.classList.add('modal-open');
+
+}
+</script>
 
 
 </body>
