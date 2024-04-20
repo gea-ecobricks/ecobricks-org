@@ -103,7 +103,7 @@ if ($result->num_rows > 0) {
 							<div class="feed-live">
 								<p>Ecobricks used in project. Click to view.</p>
 							</div>
-							<div class="gallery-flex-container">';
+								<div class="gallery-flex-container">';
 				
 					$connected_ecobricks = $array['connected_ecobricks'];
 					$serial_numbers = explode(',', $connected_ecobricks);
@@ -139,7 +139,6 @@ if ($result->num_rows > 0) {
 
 			echo '
 			
-			</div>
 			<div id="data-chunk">
     <div class="ecobrick-data">
         <p style="margin-left: -32px;font-weight: bold;" data-lang-id="125"> +++ Raw  Data Record</p><br>
