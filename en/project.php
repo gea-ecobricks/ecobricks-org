@@ -82,44 +82,67 @@ if ($result->num_rows > 0) {
 
 				</div>';
 
-				echo '<div class="featured-content-gallery" style="overflow-x:clip;">
-        <div class="feed-live">
-            <p data-lang-id="303-featured-live-brikchain">Ecobricks used in project. Click to view.</p>
-        </div>
-        <div class="gallery-flex-container">';
-
-    // Extract and prepare the connected ecobricks for querying
-    $connected_ecobricks = $array['connected_ecobricks'];
-    $serial_numbers = explode(',', $connected_ecobricks);
-    $serial_numbers = array_map('trim', $serial_numbers);
-    $placeholders = implode(',', array_fill(0, count($serial_numbers), '?'));
-
-    // SQL to fetch ecobrick details
-    $sql_ecobricks = "SELECT * FROM tb_ecobricks WHERE ecobrick_unique_id IN (" . str_repeat('?,', count($serial_numbers) - 1) . "?)";
-    $stmt_ecobricks = $conn->prepare($sql_ecobricks);
-    $stmt_ecobricks->bind_param(str_repeat('s', count($serial_numbers)), ...$serial_numbers);
-    $stmt_ecobricks->execute();
-    $result_ecobricks = $stmt_ecobricks->get_result();
-
-    if ($result_ecobricks->num_rows > 0) {
-        // output data of each row
-        while ($row = $result_ecobricks->fetch_assoc()) {
-            echo '<div class="gal-photo">
-                    <div class="photo-box">
-                        <img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\', \'' . $row["weight_in_g"] . '\', \'' . $row["ecobrick_owner"] . '\', \'' . $row["location"] . '\')"/>
-                    </div>
-                </div>';
-        }
-    } else {
-        echo "<p>No ecobricks found for this project.</p>";
-    }
-    $stmt_ecobricks->close();
-
-    echo '</div></div>';
-} else {
-    echo "<p>Project not found.</p>";
-}
-
+				
+				require_once ("../includes/project-inc.php");
+				include '../ecobricks_env.php';
+				
+				$projectId = $_GET['project_id'];
+				
+				$sql = "SELECT * FROM tb_projects WHERE project_id = ?";
+				$stmt = $conn->prepare($sql);
+				$stmt->bind_param("i", $projectId);
+				$stmt->execute();
+				$result = $stmt->get_result();
+				
+				if ($result->num_rows > 0) {
+					$array = $result->fetch_assoc();
+				
+					echo '<div class="splash-content-block">
+							<div class="splash-box">
+								<div class="splash-heading">' . htmlspecialchars($array["project_name"], ENT_QUOTES, 'UTF-8') . '</div>
+								<div class="splash-sub">' . htmlspecialchars($array["description_short"], ENT_QUOTES, 'UTF-8') . '</div>
+							</div>
+							<div class="splash-image">
+								<img src="../' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project Image">
+							</div>
+						</div>';
+				
+					echo '<div class="featured-content-gallery" style="overflow-x:clip;">
+							<div class="feed-live">
+								<p>Ecobricks used in project. Click to view.</p>
+							</div>
+							<div class="gallery-flex-container">';
+				
+					$connected_ecobricks = $array['connected_ecobricks'];
+					$serial_numbers = explode(',', $connected_ecobricks);
+					$serial_numbers = array_map('trim', $serial_numbers);
+					$placeholders = implode(',', array_fill(0, count($serial_numbers), '?'));
+				
+					$sql_ecobricks = "SELECT * FROM tb_ecobricks WHERE ecobrick_unique_id IN (" . str_repeat('?,', count($serial_numbers) - 1) . "?)";
+					$stmt_ecobricks = $conn->prepare($sql_ecobricks);
+					$stmt_ecobricks->bind_param(str_repeat('s', count($serial_numbers)), ...$serial_numbers);
+					$stmt_ecobricks->execute();
+					$result_ecobricks = $stmt_ecobricks->get_result();
+				
+					if ($result_ecobricks->num_rows > 0) {
+						while ($row = $result_ecobricks->fetch_assoc()) {
+							echo '<div class="gal-photo">
+									<div class="photo-box">
+										<img src="' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . '">
+									</div>
+								</div>';
+						}
+					} else {
+						echo "<p>No ecobricks found for this project.</p>";
+					}
+					$stmt_ecobricks->close();
+					echo '</div></div>';
+				} else {
+					echo "<p>Project not found.</p>";
+				}
+				
+				$stmt->close();
+				$conn->close();
 
                 
 				
@@ -220,13 +243,13 @@ if ($result->num_rows > 0) {
 
 
 				</div>
-			</div>';
+			</div>';	
 			
 
 	}
 
 
-} else {
+else {
    
 
 
