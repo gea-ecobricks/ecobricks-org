@@ -243,7 +243,7 @@ if ($stmt->execute()) {
     <div class="form-item">
     <label for="location_address" data-lang-id="015-location">Where is the project located?</label><br>
     <div class="input-container">
-        <input type="text" id="location_address" name="location_address" aria-label="Project Location" placeholder="..." required>
+        <input type="text" id="location_address" name="location_address" aria-label="Project Location" placeholder="Start typing your town..." required>
         <div id="loading-spinner" class="spinner" style="display: none;"></div>
     </div>
     <p class="form-caption" data-lang-id="016-location-caption">For privacy, please don't use your exact address. Choose your general neighbourhood or town. Project locations will be shown on our project map.</p>

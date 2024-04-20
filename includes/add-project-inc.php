@@ -18,7 +18,7 @@
 }
 
 #serial-select {
-  background: var(--same);
+  background: var(--advanced-background);
   width: 130px;
   margin-top: -10px;
   padding: 10px 10px 10px 20px;
