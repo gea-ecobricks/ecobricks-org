@@ -99,7 +99,7 @@ if ($result->num_rows > 0) {
 				
 				
 				
-					echo '<div class="featured-content-gallery">
+					echo '<div class="featured-content-gallery" style="width: 100%;">
 							<div class="feed-live">
 								<p>Ecobricks used in project. Click to view.</p>
 							</div>
@@ -122,7 +122,8 @@ if ($result->num_rows > 0) {
 									<div class="photo-box">
 										<img src="' . htmlspecialchars($row["ecobrick_thumb_photo_url"], ENT_QUOTES, 'UTF-8') . '?v=1" alt="Ecobrick ' . htmlspecialchars($row["ecobrick_unique_id"], ENT_QUOTES, 'UTF-8') . ' by ' . htmlspecialchars($row["owner"], ENT_QUOTES, 'UTF-8') . '" title="Ecobrick ' . htmlspecialchars($row["ecobrick_unique_id"], ENT_QUOTES, 'UTF-8') . ' by ' . htmlspecialchars($row["owner"], ENT_QUOTES, 'UTF-8') . '" loading="lazy" onclick="ecobrickPreview(\'' . htmlspecialchars($row["ecobrick_unique_id"], ENT_QUOTES, 'UTF-8') . '\', \'' . htmlspecialchars($row["weight_g"], ENT_QUOTES, 'UTF-8') . '\', \'' . htmlspecialchars($row["owner"], ENT_QUOTES, 'UTF-8') . '\', \'' . htmlspecialchars($row["location_full"], ENT_QUOTES, 'UTF-8') . '\')"/>
 									</div>
-								</div>';
+								</div>
+							</div>';
 						}
 					} else {
 						echo "<p>No ecobricks found for this project.</p>";
@@ -139,6 +140,7 @@ if ($result->num_rows > 0) {
 
 			echo '
 			
+
 			<div id="data-chunk">
     <div class="ecobrick-data">
         <p style="margin-left: -32px;font-weight: bold;" data-lang-id="125"> +++ Raw  Data Record</p><br>
