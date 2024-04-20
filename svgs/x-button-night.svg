@@ -26,7 +26,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.4771888"
-     inkscape:cx="174.99455"
+     inkscape:cx="174.99456"
      inkscape:cy="202.74998"
      inkscape:window-width="1503"
      inkscape:window-height="933"
@@ -54,17 +54,17 @@
   <g
      id="layer1"
      transform="translate(-160.22745,122.19192)">
+    <circle
+       style="opacity:0.2;fill:#999999;stroke:none;stroke-width:6.54864"
+       id="path1"
+       cx="192.92068"
+       cy="-89.780861"
+       r="32.50732" />
     <path
        id="path79185"
        d="m 16.417,-146.59 v 128.35 h 144.61 v -0.14445 c 34.884,-0.36274 62.977,-28.914 62.989,-64.017 -0.003,-35.109 -28.098,-63.671 -62.989,-64.034 v -0.15819 z"
        fill="none"
        stop-color="#000000" />
-    <circle
-       style="opacity:0.1;fill:#e6e6e6;stroke:none;stroke-width:6.54864"
-       id="path1"
-       cx="192.92068"
-       cy="-89.780861"
-       r="32.50732" />
     <g
        id="g14-2"
        transform="matrix(-0.44505225,-0.05626571,-0.05626571,0.44505225,370.89528,20.054664)"
@@ -114,15 +114,15 @@
        stroke="#333333"
        stroke-linecap="round"
        stroke-width="5.1701"
-       style="fill:#b3b3b3;stroke:#cccccc">
+       style="fill:#e9e9e9;stroke:#ffffff;fill-opacity:1">
       <path
          id="path120443"
          d="m 40.19,115.8 65.027,2.3227"
-         style="fill:#b3b3b3;stroke:#cccccc" />
+         style="fill:#e9e9e9;stroke:#ffffff;fill-opacity:1" />
       <path
          id="path1407"
          d="M 71.127,149.46 74.2815,84.468"
-         style="fill:#b3b3b3;stroke:#cccccc" />
+         style="fill:#e9e9e9;stroke:#ffffff;fill-opacity:1" />
     </g>
   </g>
   <g

@@ -5,13 +5,19 @@
   
 <STYLE>
 
+#serial-select ul {
+  list-style: none;
+  padding: 0;
+}
+
+
 .form-item li:hover {
   background: var(--emblem-blue);
   cursor: pointer;
   padding:3px;
 }
 
-.form-item .serial-select {
+#serial-select {
   background: var(--same);
   width: 150px;
   margin-top: -10px;
@@ -20,6 +26,7 @@
   position: absolute;
   z-index: 100;
   margin-left: 20px;
+  display: none;
 }
 
 .splash-image {display:flex;}

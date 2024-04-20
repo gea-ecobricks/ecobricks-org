@@ -19,9 +19,9 @@
     background-position: center;
     position: relative;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: -20px;
     margin-bottom: 10px;
-    margin-right: 16px;
+    margin-right: 5px;
     margin-left: 16px;
     border-radius: 15px;
     background-color: var(--gallery);

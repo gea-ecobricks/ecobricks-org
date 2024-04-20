@@ -234,7 +234,7 @@ if ($stmt->execute()) {
     <div class="form-item">
     <label for="connected_ecobricks">Connected Ecobricks Serial Numbers:</label><br>
     <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serial numbers separated by commas">
-    <div class="serial-select"><ul id="autocomplete-results" ></ul></div>
+    <div id="serial-select"><ul id="autocomplete-results" ></ul></div>
     <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
 </div>
 
@@ -431,38 +431,40 @@ $(function() {
 
 //Autocomplete serials of ecobricks entered in form
 
-
 $(document).ready(function() {
     var $serialInput = $('#connected_ecobricks');
     var $autocompleteResults = $('#autocomplete-results'); // Ensure this UL exists in your HTML
+    var $serialSelect = $('#serial-select'); // Div that contains the autocomplete results
 
     function performSearch(inputVal) {
-        $.ajax({
-            url: '../get-serials.php',
-            type: 'GET',
-            data: { search: inputVal },
-            success: function(data) {
-                $autocompleteResults.empty();
-                if (data.length) {
-                    data.forEach(function(item) {
-                        $autocompleteResults.append($('<li>').text(item.serial_no));
-                    });
-                } else {
-                    $autocompleteResults.append($('<li>').text("No results found"));
+        if (inputVal.length >= 4) { // Ensure there are at least 4 characters to start search
+            $.ajax({
+                url: '../get-serials.php',
+                type: 'GET',
+                data: { search: inputVal },
+                success: function(data) {
+                    $autocompleteResults.empty();
+                    if (data.length) {
+                        data.forEach(function(item) {
+                            $autocompleteResults.append($('<li>').text(item.serial_no));
+                        });
+                        $serialSelect.show(); // Show the suggestions box if there are results
+                    } else {
+                        $autocompleteResults.append($('<li>').text("No results found"));
+                        $serialSelect.hide(); // Hide if no results
+                    }
                 }
-            }
-        });
+            });
+        } else {
+            $autocompleteResults.empty();
+            $serialSelect.hide(); // Hide suggestions if less than 4 characters
+        }
     }
 
     $serialInput.on('input', function() {
         var currentValue = $(this).val();
         var lastTerm = currentValue.split(',').pop().trim(); // Get the last term after a comma
-
-        if (lastTerm.length >= 4) {
-            performSearch(lastTerm);
-        } else {
-            $autocompleteResults.empty();
-        }
+        performSearch(lastTerm);
     });
 
     $autocompleteResults.on('click', 'li', function() {
@@ -481,6 +483,14 @@ $(document).ready(function() {
         
         $autocompleteResults.empty();
         $serialInput.focus(); // Set focus back to input for further entries
+        $serialSelect.hide(); // Hide the autocomplete suggestions box after selection
+    });
+
+    // Optionally hide the autocomplete box when the input loses focus
+    $serialInput.blur(function() {
+        setTimeout(function() { // Timeout to allow click event on suggestions to occur
+            $serialSelect.hide();
+        }, 200);
     });
 });
 
