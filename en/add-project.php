@@ -426,6 +426,12 @@ $(function() {
 
 });
 
+
+
+
+//Autocomplete serials of ecobricks entered in form
+
+
 $(document).ready(function() {
     var $serialInput = $('#connected_ecobricks');
     var $autocompleteResults = $('#autocomplete-results'); // Ensure this UL exists in your HTML
@@ -437,12 +443,12 @@ $(document).ready(function() {
             data: { search: inputVal },
             success: function(data) {
                 $autocompleteResults.empty();
-                if (!data.error) {
+                if (data.length) {
                     data.forEach(function(item) {
                         $autocompleteResults.append($('<li>').text(item.serial_no));
                     });
                 } else {
-                    $autocompleteResults.append($('<li>').text(data.error));
+                    $autocompleteResults.append($('<li>').text("No results found"));
                 }
             }
         });
@@ -460,20 +466,24 @@ $(document).ready(function() {
     });
 
     $autocompleteResults.on('click', 'li', function() {
+        var selectedSerial = $(this).text();
         var currentInput = $serialInput.val();
         var lastCommaIndex = currentInput.lastIndexOf(',');
 
-        // Check if there's content after the last comma or if this is the first entry
-        if (lastCommaIndex === -1 || lastCommaIndex === currentInput.length - 1) {
-            $serialInput.val(currentInput + $(this).text() + ', ');
+        if (lastCommaIndex === -1) {
+            // This is the first serial number entry
+            $serialInput.val(selectedSerial + ', ');
         } else {
-            // Replace the content after the last comma with the selected serial number
-            $serialInput.val(currentInput.substring(0, lastCommaIndex + 1) + $(this).text() + ', ');
+            // Replace the last term after the last comma with the selected serial number
+            var base = currentInput.substring(0, lastCommaIndex + 1);
+            $serialInput.val(base + ' ' + selectedSerial + ', ');
         }
         
         $autocompleteResults.empty();
+        $serialInput.focus(); // Set focus back to input for further entries
     });
 });
+
 
 </script>
 
