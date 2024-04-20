@@ -234,7 +234,7 @@ if ($stmt->execute()) {
     <div class="form-item">
     <label for="connected_ecobricks">Connected Ecobricks Serial Numbers:</label><br>
     <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serial numbers separated by commas">
-    <div style="background:var(--top-header);width:120px;"><ul id="autocomplete-results" ></ul></div>
+    <div class="serial-select"><ul id="autocomplete-results" ></ul></div>
     <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
 </div>
 

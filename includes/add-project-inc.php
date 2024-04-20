@@ -11,6 +11,17 @@
   padding:3px;
 }
 
+.form-item .serial-select {
+  background: var(--same);
+  width: 150px;
+  margin-top: -10px;
+  padding: 10px 10px 10px 0px;
+  border-radius: 0px 0px 10px 10px;
+  position: absolute;
+  z-index: 100;
+  margin-left: 20px;
+}
+
 .splash-image {display:flex;}
 
 .splash-image img {margin-right: auto; margin-left: 0px;}
