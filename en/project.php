@@ -97,15 +97,7 @@ if ($result->num_rows > 0) {
 				if ($result->num_rows > 0) {
 					$array = $result->fetch_assoc();
 				
-					echo '<div class="splash-content-block">
-							<div class="splash-box">
-								<div class="splash-heading">' . htmlspecialchars($array["project_name"], ENT_QUOTES, 'UTF-8') . '</div>
-								<div class="splash-sub">' . htmlspecialchars($array["description_short"], ENT_QUOTES, 'UTF-8') . '</div>
-							</div>
-							<div class="splash-image">
-								<img src="../' . htmlspecialchars($array["photo1_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project Image">
-							</div>
-						</div>';
+				
 				
 					echo '<div class="featured-content-gallery" style="overflow-x:clip;">
 							<div class="feed-live">
