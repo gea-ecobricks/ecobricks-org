@@ -80,7 +80,8 @@ if ($result->num_rows > 0) {
 						<br>
 					</div>
 
-				</div>';
+				</div>
+				<br>';
 
 				
 				require_once ("../includes/project-inc.php");
@@ -133,10 +134,7 @@ if ($result->num_rows > 0) {
 					echo "<p>Project not found.</p>";
 				}
 				
-				$stmt->close();
-				$conn->close();
-
-                
+	
 				
 				
 
