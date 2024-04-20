@@ -19,13 +19,13 @@
 
 #serial-select {
   background: var(--same);
-  width: 150px;
+  width: 130px;
   margin-top: -10px;
-  padding: 10px 10px 10px 0px;
+  padding: 10px 10px 10px 20px;
   border-radius: 0px 0px 10px 10px;
   position: absolute;
   z-index: 100;
-  margin-left: 20px;
+  margin-left: 15px;
   display: none;
 }
 
