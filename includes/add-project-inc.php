@@ -7,6 +7,8 @@
 
 .form-item li:hover {
   background: var(--emblem-blue);
+  cursor: pointer;
+  padding:3px;
 }
 
 .splash-image {display:flex;}
