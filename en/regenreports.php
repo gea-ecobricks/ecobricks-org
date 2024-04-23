@@ -32,8 +32,8 @@
 			<div class="row">
 				<div class="main2">
 					<div class="page-paragraph">
-						<p data-lang-id="005-first-page-paragraph_1">Our 2022 Regen Report of our enterprise's previous year of ecological impacts is now published and publicly available! This includes an accounting of our carbon, plastic and biodiversity impacts.</p>
-						<p data-lang-id="006-second-page-paragraph">Over 2021, the GEA's UK and Indonesian household bases increased their spacial support of biodiversity by 32% (268 m2) while hosting 152 species. We directly removed 1,472 kg of plastic through our trainer ecobricking. We also removed 4,448kg of CO2 from the biosphere through our trees, carbon offsetting and ecobricking carbon equivalency.</p>
+						<p data-lang-id="005-first-page-paragraph_1">Our 2023 Regen Report of our enterprise's previous year of ecological impacts is now published and publicly available! This includes an accounting of our carbon, plastic and biodiversity impacts.</p>
+						<!-- <p data-lang-id="006-second-page-paragraph">Over the last year, the GEA's UK and Indonesian household bases increased their spacial support of biodiversity by 32% (268 m2) while hosting 152 species. We directly removed 1,472 kg of plastic through our trainer ecobricking. We also removed 4,448kg of CO2 from the biosphere through our trees, carbon offsetting and ecobricking carbon equivalency.</p> -->
 						<p data-lang-id="007-download-link">📥 Download our latest <a href="https://nextcloud.ecobricks.org/index.php/s/cQ8LWw99JAYAZ7p" target="_blank"> Regenerativity Report (PDF 1.2MB).</a></p>
 					</div>	
 				</div>
