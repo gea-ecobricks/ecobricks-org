@@ -62,6 +62,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $update_stmt->close();
         }
 
+        if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'delete_project') {
+            $deleteStmt = $conn->prepare("DELETE FROM tb_projects WHERE project_id = ?");
+            $deleteStmt->bind_param("i", $projectId);
+            if ($deleteStmt->execute()) {
+                echo "<script>alert('Project has been successfully deleted.'); window.location.href='projects_list.php';</script>";
+            } else {
+                echo "<script>alert('Error deleting project: " . $deleteStmt->error . "');</script>";
+            }
+            $deleteStmt->close();
+        }
+        
+
         if (!empty($error_message)) {
             http_response_code(400);
             header('Content-Type: application/json');
@@ -305,6 +317,10 @@ function correctImageOrientation($filepath) {
         </div>
         <div id="upload-success-message"></div>
         <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">🎉 View Project Post</a>
+        <a class="confirm-button" href="edit-project.php?project_id=<?php echo $_GET['project_id']; ?>">Edit Project Post</a>
+        <a class="confirm-button" style="background:red" id="deleteButton">"❌ Delete project</a>
+
+
     </div>
 
 
@@ -328,6 +344,21 @@ function correctImageOrientation($filepath) {
 
 <script>
     
+//DELETE BUTTON
+
+document.getElementById('deleteButton').addEventListener('click', function() {
+    if (confirm('Are you sure you want to delete this project? This action cannot be undone.')) {
+        var form = this.closest('form');
+        var input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = 'action';
+        input.value = 'delete_project';
+        form.appendChild(input);
+        form.submit();
+    }
+});
+
+
 
 
     document.querySelector('#photoform').addEventListener('submit', function(event) {

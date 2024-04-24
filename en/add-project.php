@@ -55,9 +55,6 @@ if ($stmt->execute()) {
 
         $stmt->close();
         $conn->close();
-
-     
-            echo "Location Full after all PHP: " . $location_full . "<br>";
             echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
         } else {
             echo "Error: " . $stmt->error . "<br>";
@@ -229,7 +226,7 @@ if ($stmt->execute()) {
     </div>
 
     <div class="form-item">
-    <label for="connected_ecobricks">Ecobricks Used in your project:</label><br>
+    <label for="connected_ecobricks">The serials of ecobricks used in your project:</label><br>
     <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serials...">
     <div id="serial-select"><ul id="autocomplete-results" ></ul></div>
     <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
@@ -417,8 +414,8 @@ $(function() {
     });
 
     $('#submit-form').on('submit', function() {
-    console.log('Location Full:', $('#location_address').val()); // Correct way to log
-    // alert('Location Full: ' + $('#location_address').val()); // Correct way to use alert
+    // console.log('Location Full:', $('#location_address').val());
+    // alert('Location Full: ' + $('#location_address').val()); 
 });
 
 });
