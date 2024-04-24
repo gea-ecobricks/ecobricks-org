@@ -18,7 +18,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 const es_Page_Translations = {
 
     
-        '001-splash-title': 'La larga historia del plástico',
+        '001-splash-title': 'La largas historia del plástico',
         '002-splash-subtitle': 'Comprender la historia antigua del plástico es esencial para volver a usarlo adecuadamente hoy.',
         '003-splash-image-alt': '<img src="../webp/plastic-origins.webp" style="width: 85%" alt="El plástico proviene de lo profundo de la tierra.">',
         

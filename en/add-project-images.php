@@ -318,7 +318,7 @@ function correctImageOrientation($filepath) {
         <div id="upload-success-message"></div>
         <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">🎉 View Project Post</a>
         <a class="confirm-button" href="edit-project.php?project_id=<?php echo $_GET['project_id']; ?>">Edit Project Post</a>
-        <a class="confirm-button" style="background:red" id="deleteButton">"❌ Delete project</a>
+        <a class="confirm-button" style="background:red" id="deleteButton">❌ Delete Project</a>
 
 
     </div>
