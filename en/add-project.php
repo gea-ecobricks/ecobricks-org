@@ -7,9 +7,6 @@ include '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // $location_full = isset($_POST['location_address']) ? $_POST['location_address'] : 'Default Location';
-    // error_log('Received location_address: ' . $location_full);
-    // error_log('POST data: ' . print_r($_POST, true));
 
     $location_full = $_POST['location_address'] ?? 'Default Location';
     $project_name = $_POST['project_name'];
@@ -34,7 +31,7 @@ $stmt->bind_param("sssssssssiidds", $project_name, $description_short, $descript
 if ($stmt->execute()) {
             $project_id = $conn->insert_id;
 
-                 // Get the last inserted project_id
+        // Get the last inserted project_id
         $project_id = $conn->insert_id;
 
         // Calculate `est_total_weight`

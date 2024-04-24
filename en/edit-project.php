@@ -7,6 +7,18 @@ require_once '../ecobricks_env.php';
 $projectId = isset($_GET['project_id']) ? intval($_GET['project_id']) : 0;
 $projectData = null;
 
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'delete_project') {
+    $deleteStmt = $conn->prepare("DELETE FROM tb_projects WHERE project_id = ?");
+    $deleteStmt->bind_param("i", $projectId);
+    if ($deleteStmt->execute()) {
+        echo "<script>alert('Project has been successfully deleted.'); window.location.href='projects_list.php';</script>";
+    } else {
+        echo "<script>alert('Error deleting project: " . $deleteStmt->error . "');</script>";
+    }
+    $deleteStmt->close();
+}
+
+
 if ($projectId > 0) {
     $stmt = $conn->prepare("SELECT * FROM tb_projects WHERE project_id = ?");
     $stmt->bind_param("i", $projectId);
@@ -109,6 +121,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
                     </div>
                 <?php endfor; ?>
                 <button type="submit">Upload Photos</button>
+                <button type="button" id="deleteButton">Delete Project</button>
             </form>
         <?php else: ?>
             <p>Project not found.</p>
@@ -172,6 +185,22 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+
+//DELETE FUNCTION
+
+document.getElementById('deleteButton').addEventListener('click', function() {
+    if (confirm('Are you sure you want to delete this project? This action cannot be undone.')) {
+        var form = this.closest('form');
+        var input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = 'action';
+        input.value = 'delete_project';
+        form.appendChild(input);
+        form.submit();
+    }
+});
+
 </script>
 
 
