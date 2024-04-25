@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'delete_project') {
             $deleteStmt = $conn->prepare("DELETE FROM tb_projects WHERE project_id = ?");
-            $deleteStmt->bind_param("i", $projectId);
+            $deleteStmt->bind_param("i", $project_Id);
             if ($deleteStmt->execute()) {
                 echo "<script>alert('Project has been successfully deleted.'); window.location.href='projects_list.php';</script>";
             } else {
