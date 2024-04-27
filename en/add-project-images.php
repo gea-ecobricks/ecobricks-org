@@ -12,6 +12,8 @@ $thumbnail_file_sizes = [];
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
     $project_id = $_POST['project_id'];
+    include '../project-photo-functions.php';
+
 
     // Handle project deletion
     if (isset($_POST['action']) && $_POST['action'] == 'delete_project') {
@@ -25,7 +27,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
         }
     }
 
-    include '../project-photo-functions.php';
     $upload_dir = '../projects/photos/';
     $thumbnail_dir = '../projects/tmbs/';
 
@@ -92,6 +93,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
         exit;
     }
 }
+
+
 
 ?>
 
