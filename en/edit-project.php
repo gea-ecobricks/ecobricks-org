@@ -185,7 +185,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="form-item">
         <div>
             <label for="photo1_main" data-lang-id="003-feature-photo">Edit Feature image:</label><br>
-            <input type="file" id="photo1_main" name="photo1_main" required>
+            <input type="file" id="photo1_main" name="photo1_main">
             <p class="form-caption" data-lang-id="004-feature-desc">Select a new featured photo for this project.</p>
         </div>
     </div>
