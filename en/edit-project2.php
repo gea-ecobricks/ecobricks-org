@@ -168,23 +168,40 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <form id="submit-form" method="post" action="" enctype="multipart/form-data">
 
-    <?php if (isset($project)): ?>
-        <div>
-            <p>Your current project photos:</p>
-            <?php for ($i = 1; $i <= 6; $i++): ?>
-                <?php $photoKey = "photo{$i}_main"; ?>
-                <?php if (!empty($project[$photoKey])): ?>
-                    <img src="../<?= htmlspecialchars($project[$photoKey]) ?>" alt="Photo <?= $i ?>" style="max-width: 200px;">
-                <?php endif; ?>
-            <?php endfor; ?>
-        </div>
+        
+
+        <?php if (isset($project)): ?>
+    <div>
+        <p>Your current project photos:</p>
         <?php for ($i = 1; $i <= 6; $i++): ?>
-            <div>
-                <label for="photo<?= $i ?>_main">Upload Photo <?= $i ?>:</label>
-                <input type="file" id="photo<?= $i ?>_main" name="photo<?= $i ?>_main">
-            </div>
+            <?php $photoKey = "photo{$i}_main"; ?>
+            <?php if (!empty($project[$photoKey])): ?>
+                <img src="../<?= htmlspecialchars($project[$photoKey]) ?>" alt="Photo <?= $i ?>" style="max-width: 200px;">
+            <?php endif; ?>
         <?php endfor; ?>
-    <?php endif; ?>
+    </div>
+
+    <!-- Photo 1 Main & Thumbnail -->
+    <div class="form-item">
+        <div>
+            <label for="photo1_main" data-lang-id="003-feature-photo">Edit Feature image:</label><br>
+            <input type="file" id="photo1_main" name="photo1_main" required>
+            <p class="form-caption" data-lang-id="004-feature-desc">Select a new featured photo for this project.</p>
+        </div>
+    </div>
+
+    <?php for ($i = 2; $i <= 6; $i++): ?>
+        <!-- Photo X Main & Thumbnail -->
+        <div class="form-item">
+            <label for="photo<?= $i ?>_main" data-lang-id="00<?= 3 + ($i - 1) * 2 ?>-another-photo">Edit photo:</label><br>
+            <input type="file" id="photo<?= $i ?>_main" name="photo<?= $i ?>_main">
+            <p class="form-caption" data-lang-id="00<?= 4 + ($i - 1) * 2 ?>-another-photo-optional">Optional</p>
+        </div>
+    <?php endfor; ?>
+
+<?php endif; ?>
+
+
 
     
 

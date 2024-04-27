@@ -7,6 +7,8 @@ include '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    include '../project-photo-functions.php'; // Ensure this path is correct
+
 
     $location_full = $_POST['location_address'] ?? 'Default Location';
     $project_name = $_POST['project_name'];
