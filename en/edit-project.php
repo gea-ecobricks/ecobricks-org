@@ -93,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $update_stmt->bind_param($db_types, ...$db_values);
     
         if ($update_stmt->execute()) {
-            echo "<script>alert('Project details and photos updated successfully.'); window.location.href='project.php?project_id={$project_id}';</script>";
+            echo "<script>alert('Your Projec has been successfully updated!'); window.location.href='project.php?project_id={$project_id}';</script>";
         } else {
             echo "Database update failed: " . $update_stmt->error;
         }
@@ -157,14 +157,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <div class="splash-form-content-block">  
             <div class="splash-box">
-                <div class="splash-heading" data-lang-id="001-splash-title" style="text-align:center">Edit Your Project Post</div>
+                <div class="splash-heading" data-lang-id="001-splash-title" style="text-align:left">Edit Your Project Post</div>
             </div>
             <!-- <div class="splash-image" data-lang-id="003-splash-image-alt">
                 <img src="../svgs/building-methods.svg" style="width:65%" alt="There are many ways to build with ecobricks">
             </div> -->
         </div>
 
-        <h4 data-lang-id="002-edit-form-description" style="text-align:center">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database."</h4>
+        <h5 data-lang-id="002-edit-form-description" style="text-align:left">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database."</h5>
         
         <form id="submit-form" method="post" action="" enctype="multipart/form-data">
 
@@ -301,11 +301,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="hidden" id="lon" name="longitude" value="<?php echo htmlspecialchars($project['location_long'] ?? ''); ?>">
 
             <div data-lang-id="017-update-button">
-                <input type="submit" value="Update Project ➡️" aria-label="Submit Form">
+                <input type="submit" value="☑️ Update Project" aria-label="Submit Form">
             </div>
-            <!-- <div data-lang-id="018-delete-button">
-            <button type="button" id="deleteButton">Delete Project</button>                
-            </div> -->
+            <div data-lang-id="018-delete-button">
+            <a class="confirm-button" style="background:red" id="deleteButton">❌ Delete Project</a>              
+            </div>
            
 
         </form>
