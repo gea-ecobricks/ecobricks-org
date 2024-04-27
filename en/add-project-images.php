@@ -10,69 +10,71 @@ $thumbnail_paths = [];
 $main_file_sizes = [];
 $thumbnail_file_sizes = [];
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (isset($_POST['project_id'])) {
-        include '../project-photo-functions.php'; 
-        $project_id = $_POST['project_id'];
-        $upload_dir = '../projects/photos/';
-        $thumbnail_dir = '../projects/tmbs/';
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
+    $project_id = $_POST['project_id'];
 
-        $db_fields = [];
-        $db_values = [];
-        $db_types = "";
-
-        for ($i = 1; $i <= 5; $i++) {
-            $file_input_name = "photo{$i}_main";
-            if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
-                $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
-                $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
-                $targetPath = $upload_dir . $new_file_name_webp;
-
-                if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
-                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
-                    $full_urls[] = $targetPath;
-                    $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
-                    $main_file_sizes[] = filesize($targetPath) / 1024;
-                    $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
-
-                    array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
-                    array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
-                    $db_types .= "ss";
-                } else {
-                    $error_message .= "Error processing image. Please try again.<br>";
-                }
-            }
+    // Handle project deletion
+    if (isset($_POST['action']) && $_POST['action'] == 'delete_project') {
+        $deleteResult = deleteProject($project_id, $conn);
+        if ($deleteResult === true) {
+            echo "<script>alert('Project has been successfully deleted.'); window.location.href='projects_list.php';</script>";
+            exit;
+        } else {
+            echo "<script>alert('" . $deleteResult . "');</script>";
+            exit;
         }
+    }
 
-        if (!empty($db_fields) && empty($error_message)) {
-            // Additional fields to update
-            array_push($db_fields, "ready_to_show", "logged_ts");
-            array_push($db_values, 1, date("Y-m-d H:i:s")); // Set 'ready_to_show' to 1 and current timestamp
-            $db_types .= "is"; // 'i' for integer and 's' for string (timestamp)
+    include '../project-photo-functions.php';
+    $upload_dir = '../projects/photos/';
+    $thumbnail_dir = '../projects/tmbs/';
 
-            $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
-            $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
-            $db_values[] = $project_id;
-            $db_types .= "i";
+    $db_fields = [];
+    $db_values = [];
+    $db_types = "";
 
-            $update_stmt = $conn->prepare($update_sql);
-            $update_stmt->bind_param($db_types, ...$db_values);
-            if (!$update_stmt->execute()) {
-                $error_message .= "Database update failed: " . $update_stmt->error;
-            }
-            $update_stmt->close();
-        }
+    for ($i = 1; $i <= 5; $i++) {
+        $file_input_name = "photo{$i}_main";
+        if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
+            $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
+            $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
+            $targetPath = $upload_dir . $new_file_name_webp;
 
-        if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'delete_project') {
-            $deleteStmt = $conn->prepare("DELETE FROM tb_projects WHERE project_id = ?");
-            $deleteStmt->bind_param("i", $project_Id);
-            if ($deleteStmt->execute()) {
-                echo "<script>alert('Project has been successfully deleted.'); window.location.href='projects_list.php';</script>";
+            if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
+                createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
+                $full_urls[] = $targetPath;
+                $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
+                $main_file_sizes[] = filesize($targetPath) / 1024;
+                $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
+
+                array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
+                array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
+                $db_types .= "ss";
             } else {
-                echo "<script>alert('Error deleting project: " . $deleteStmt->error . "');</script>";
+                $error_message .= "Error processing image. Please try again.<br>";
             }
-            $deleteStmt->close();
         }
+    }
+
+    if (!empty($db_fields) && empty($error_message)) {
+        array_push($db_fields, "ready_to_show", "logged_ts");
+        array_push($db_values, 1, date("Y-m-d H:i:s"));
+        $db_types .= "is";
+
+        $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
+        $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
+        $db_values[] = $project_id;
+        $db_types .= "i";
+
+        $update_stmt = $conn->prepare($update_sql);
+        $update_stmt->bind_param($db_types, ...$db_values);
+        if (!$update_stmt->execute()) {
+            $error_message .= "Database update failed: " . $update_stmt->error;
+        }
+        $update_stmt->close();
+    }
+
+    
         
 
         if (!empty($error_message)) {
@@ -93,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit;
         }
     }
-}
+
 
 
 ?>

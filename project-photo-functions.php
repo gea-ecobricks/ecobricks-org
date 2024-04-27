@@ -147,6 +147,19 @@ function correctImageOrientation($filepath) {
 }
 
 
+function deleteProject($projectId, $conn) {
+    if ($conn->connect_error) {
+        return "Connection failed: " . $conn->connect_error;
+    }
+
+    $deleteStmt = $conn->prepare("DELETE FROM tb_projects WHERE project_id = ?");
+    $deleteStmt->bind_param("i", $projectId);
+    if (!$deleteStmt->execute()) {
+        return "Error deleting project: " . $deleteStmt->error;
+    }
+    $deleteStmt->close();
+    return true;
+}
 
 
 

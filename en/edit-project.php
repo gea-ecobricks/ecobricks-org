@@ -175,33 +175,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
 
         <?php if (isset($project)): ?>
-    <div>
-        <p>Your current project photos:</p>
-        <?php for ($i = 1; $i <= 6; $i++): ?>
-            <?php $photoKey = "photo{$i}_main"; ?>
-            <?php if (!empty($project[$photoKey])): ?>
-                <img src="../<?= htmlspecialchars($project[$photoKey]) ?>" alt="Photo <?= $i ?>" style="max-width: 200px;">
-            <?php endif; ?>
-        <?php endfor; ?>
-    </div>
-
-    <!-- Photo 1 Main & Thumbnail -->
-    <div class="form-item">
-        <div>
-            <label for="photo1_main" data-lang-id="003-feature-photo">Edit Feature image:</label><br>
-            <input type="file" id="photo1_main" name="photo1_main">
-            <p class="form-caption" data-lang-id="004-feature-desc">Select a new featured photo for this project.</p>
-        </div>
-    </div>
-
-    <?php for ($i = 2; $i <= 6; $i++): ?>
-        <!-- Photo X Main & Thumbnail -->
-        <div class="form-item">
-            <label for="photo<?= $i ?>_main" data-lang-id="00<?= 3 + ($i - 1) * 2 ?>-another-photo">Edit photo:</label><br>
-            <input type="file" id="photo<?= $i ?>_main" name="photo<?= $i ?>_main">
-            <p class="form-caption" data-lang-id="00<?= 4 + ($i - 1) * 2 ?>-another-photo-optional">Optional</p>
-        </div>
+<div>
+    <p>Your current project photos:</p>
+    <?php for ($i = 1; $i <= 6; $i++): ?>
+        <?php $photoKey = "photo{$i}_main"; ?>
+        <?php if (!empty($project[$photoKey])): ?>
+            <img src="../<?= htmlspecialchars($project[$photoKey]) ?>" alt="Photo <?= $i ?>" title="Photo <?= $i ?>" style="max-width: 200px;">
+        <?php endif; ?>
     <?php endfor; ?>
+</div>
+
+<!-- Photo 1 Main & Thumbnail -->
+<div class="form-item">
+    <div>
+        <label for="photo1_main" data-lang-id="003-feature-photo">Replace photo 1 (your project's featured image) with:</label><br>
+        <input type="file" id="photo1_main" name="photo1_main">
+        <p class="form-caption" data-lang-id="004-feature-desc">Select a new featured photo for this project.</p>
+    </div>
+</div>
+
+<?php for ($i = 2; $i <= 6; $i++): ?>
+    <!-- Photo X Main & Thumbnail -->
+    <div class="form-item">
+        <label for="photo<?= $i ?>_main" data-lang-id="00<?= 3 + ($i - 1) * 2 ?>-another-photo">Replace photo <?= $i ?> with:</label><br>
+        <input type="file" id="photo<?= $i ?>_main" name="photo<?= $i ?>_main">
+        <p class="form-caption" data-lang-id="00<?= 4 + ($i - 1) * 2 ?>-another-photo-optional">Optional</p>
+    </div>
+<?php endfor; ?>
 
 <?php endif; ?>
 

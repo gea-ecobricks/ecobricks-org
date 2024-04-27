@@ -216,7 +216,7 @@ if ($result->num_rows > 0) {
 
 			echo '
 			<p style="font-size:smaller">Project Location:</p>
-			<p style="font-size:small">' . $array["location_full"] . '</p><br>
+			<p style="font-size:normal">' . $array["location_full"] . '</p><br>
 			<br><hr><br> 
 			<div class="page-paragraph">
 				<h3><p data-lang-id="151">Ecobrick Applications</p></h3>
