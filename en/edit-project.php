@@ -303,12 +303,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div data-lang-id="017-update-button">
                 <input type="submit" value="☑️ Update Project" aria-label="Submit Form">
             </div>
-            <div data-lang-id="018-delete-button">
-                <a class="confirm-button" style="background:red" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">Cancel: Return to Project</a>        
+            <div data-lang-id="018-cancel-button">
+                <a class="confirm-button" style="background:grey" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">↩️ Cancel</a>        
             </div>
 
-            <div data-lang-id="018-delete-button">
-                <a class="confirm-button" style="background:red" id="deleteButton">❌ Delete Project</a>              
+            <div data-lang-id="019-delete-button">
+                <a class="confirm-button" style="background:organge" id="deleteButton">❌ Delete This Project</a>              
             </div>
            
 
