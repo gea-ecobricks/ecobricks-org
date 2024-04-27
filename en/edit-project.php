@@ -151,20 +151,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
  <div id="form-submission-box">
     <div class="form-container">
-        <div class="step-graphic" style="width:fit-content;margin:auto;">
+        <!-- <div class="step-graphic" style="width:fit-content;margin:auto;">
             <img src="../svgs/step1-log-project.svg" style="height:25px;">
-        </div>
+        </div> -->
 
         <div class="splash-form-content-block">  
             <div class="splash-box">
-                <div class="splash-heading" data-lang-id="001-splash-title">Edit Project</div>
+                <div class="splash-heading" data-lang-id="001-splash-title" style="text-align:center">Edit Your Project Post</div>
             </div>
             <!-- <div class="splash-image" data-lang-id="003-splash-image-alt">
                 <img src="../svgs/building-methods.svg" style="width:65%" alt="There are many ways to build with ecobricks">
             </div> -->
         </div>
 
-        <h5 data-lang-id="002-edit-form-description" style="text-align:center">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database."</h5>
+        <h4 data-lang-id="002-edit-form-description" style="text-align:center">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database."</h4>
         
         <form id="submit-form" method="post" action="" enctype="multipart/form-data">
 
