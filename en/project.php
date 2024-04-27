@@ -173,7 +173,7 @@ if ($result->num_rows > 0) {
             echo ' <p><b data-lang-id="147">Photo 5:</b> ' . $array["photo5_main"] . '</p>';
             echo ' <p><b data-lang-id="148">Plastic Sequestered:</b> ' . $array["est_total_weight"] . '&#8202;kg</p>';
             echo ' <p><b data-lang-id="149">Logged:</b> ' . $array["logged_ts"] . '</p>';
-            echo ' <p><b data-lang-id="149b">Ready to Show:</b> ' . $array["ready_to_show"] . ' | <href="edit-project.php?project_id=' . $array["project_id"] . '">e</a></p>';
+            echo ' <p><b data-lang-id="149b">Ready to Show:</b> ' . $array["ready_to_show"] . ' | <a href="edit-project.php?project_id=' . $array["project_id"] . '">e</a></p>';
             echo ' <p data-lang-id="150">|||  END RECORD.</p>
     
     </div>
@@ -215,7 +215,8 @@ if ($result->num_rows > 0) {
 
 
 			echo '
-			<p>' . $array["location_full"] . '</p><br>
+			<p style="font-size:smaller">Project Location:</p>
+			<p style="font-size:small">' . $array["location_full"] . '</p><br>
 			<br><hr><br> 
 			<div class="page-paragraph">
 				<h3><p data-lang-id="151">Ecobrick Applications</p></h3>
