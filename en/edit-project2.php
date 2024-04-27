@@ -103,7 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <META charset="UTF-8">
 <?php $lang='en';?>
 <?php $version='1.991';?>
-<?php $page='add-project';?>
+<?php $page='edit-project';?>
 
 
 <?php require_once ("../includes/add-project-inc.php");?>
@@ -129,7 +129,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
         </div>
 
-        <p data-lang-id="002-form-description">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
+        <p data-lang-id="002-edit-form-description">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
         
         
 
@@ -242,13 +242,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="hidden" id="lat" name="latitude" value="<?php echo htmlspecialchars($project['location_lat'] ?? ''); ?>">
             <input type="hidden" id="lon" name="longitude" value="<?php echo htmlspecialchars($project['location_long'] ?? ''); ?>">
 
-            <div data-lang-id="017-submit-button">
+            <div data-lang-id="017-update-button">
                 <input type="submit" value="Update Project ➡️" aria-label="Submit Form">
-                
             </div>
-            <div data-lang-id="018-delete-button">
+            <!-- <div data-lang-id="018-delete-button">
             <button type="button" id="deleteButton">Delete Project</button>                
-            </div>
+            </div> -->
            
 
         </form>
