@@ -30,6 +30,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $upload_dir = '../projects/photos/';
     $thumbnail_dir = '../projects/tmbs/';
 
+     // Handle project deletion
+     if (isset($_POST['action']) && $_POST['action'] == 'delete_project') {
+        $deleteResult = deleteProject($project_id, $conn);
+        if ($deleteResult === true) {
+            echo "<script>alert('Project has been successfully deleted.'); window.location.href='projects_list.php';</script>";
+            exit;
+        } else {
+            echo "<script>alert('" . $deleteResult . "');</script>";
+            exit;
+        }
+    }
+
     $location_full = $_POST['location_address'] ?? 'Default Location';
     $project_name = $_POST['project_name'];
     $description_short = $_POST['description_short'];
@@ -49,6 +61,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $db_values = [];
     $db_types = "";
     $error_messages = [];
+
+
+
 
     
     // Loop through possible file inputs.
