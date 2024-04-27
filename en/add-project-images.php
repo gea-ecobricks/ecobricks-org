@@ -12,9 +12,7 @@ $thumbnail_file_sizes = [];
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['project_id'])) {
-
-        include '../project-photo-functions.php'; // Resiszing functions
-
+        include '../project-photo-functions.php'; 
         $project_id = $_POST['project_id'];
         $upload_dir = '../projects/photos/';
         $thumbnail_dir = '../projects/tmbs/';
@@ -23,8 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $db_values = [];
         $db_types = "";
 
-        // Update the loop to handle up to 6 images
-        for ($i = 1; $i <= 6; $i++) {
+        for ($i = 1; $i <= 5; $i++) {
             $file_input_name = "photo{$i}_main";
             if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
                 $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
@@ -66,6 +63,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $update_stmt->close();
         }
 
+        if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'delete_project') {
+            $deleteStmt = $conn->prepare("DELETE FROM tb_projects WHERE project_id = ?");
+            $deleteStmt->bind_param("i", $project_Id);
+            if ($deleteStmt->execute()) {
+                echo "<script>alert('Project has been successfully deleted.'); window.location.href='projects_list.php';</script>";
+            } else {
+                echo "<script>alert('Error deleting project: " . $deleteStmt->error . "');</script>";
+            }
+            $deleteStmt->close();
+        }
+        
+
         if (!empty($error_message)) {
             http_response_code(400);
             header('Content-Type: application/json');
@@ -85,11 +94,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
+
+
 ?>
-
-
-
-
 <!DOCTYPE html>
 <HTML lang="en"> 
 <HEAD>
