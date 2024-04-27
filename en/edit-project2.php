@@ -136,11 +136,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <form id="submit-form" method="post" action="" enctype="multipart/form-data">
     <?php if (isset($project)): ?>
         <div>
-            <p>Your current project photos:</h2>
+            <p>Your current project photos:</p>
             <?php for ($i = 1; $i <= 6; $i++): ?>
                 <?php $photoKey = "photo{$i}_main"; ?>
                 <?php if (!empty($project[$photoKey])): ?>
-                    <img src="../projects/photos/<?= htmlspecialchars($project[$photoKey]) ?>" alt="Photo <?= $i ?>" style="max-width: 200px;">
+                    <img src="../<?= htmlspecialchars($project[$photoKey]) ?>" alt="Photo <?= $i ?>" style="max-width: 200px;">
                 <?php endif; ?>
             <?php endfor; ?>
         </div>
