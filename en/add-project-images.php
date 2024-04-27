@@ -201,6 +201,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div id="upload-success-message"></div>
         <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">🎉 View Project Post</a>
         <a class="confirm-button" href="edit-project.php?project_id=<?php echo $_GET['project_id']; ?>">Edit Project Post</a>
+        <a class="confirm-button" href="add-project.php">Add another Project</a>
+
         <a class="confirm-button" style="background:red" id="deleteButton">❌ Delete Project</a>
 
 
