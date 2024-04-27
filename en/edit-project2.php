@@ -131,17 +131,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <p data-lang-id="002-edit-form-description">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
         
-        
-
-
-        <form id="submit-form" method="post" action="" enctype="multipart/form-data">
-
+    
 
         <form id="submit-form" method="post" action="" enctype="multipart/form-data">
-    <h1>Edit Project Photos</h1>
     <?php if (isset($project)): ?>
         <div>
-            <h2>Current Photos</h2>
+            <p>Your current project photos:</h2>
             <?php for ($i = 1; $i <= 6; $i++): ?>
                 <?php $photoKey = "photo{$i}_main"; ?>
                 <?php if (!empty($project[$photoKey])): ?>
