@@ -1,3 +1,263 @@
+<?php
+
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+require_once '../ecobricks_env.php';
+$conn->set_charset("utf8mb4");
+
+$project_id = $_GET['id'] ?? 0; // Using 'id' parameter to keep consistency
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (isset($_POST['action']) && $_POST['action'] == 'delete_project') {
+        $deleteStmt = $conn->prepare("DELETE FROM tb_projects WHERE project_id = ?");
+        $deleteStmt->bind_param("i", $project_id);
+        if ($deleteStmt->execute()) {
+            echo "<script>alert('Project has been successfully deleted.'); window.location.href='projects_list.php';</script>";
+            exit;
+        } else {
+            echo "<script>alert('Error deleting project: " . $deleteStmt->error . "');</script>";
+        }
+        $deleteStmt->close();
+    } else {
+        // Process updating project details and images
+        include '../project-photo-functions.php'; // Ensure this path is correct
+        $upload_dir = '../projects/photos/';
+        $thumbnail_dir = '../projects/tmbs/';
+
+        $location_full = $_POST['location_address'] ?? 'Default Location';
+        $project_name = $_POST['project_name'];
+        $description_short = $_POST['description_short'];
+        $description_long = $_POST['description_long'];
+        $project_type = $_POST['project_type'];
+        $construction_type = $_POST['construction_type'];
+        $community = $_POST['community'] ?? '';
+        $project_admins = $_POST['project_admins'] ?? '';
+        $start_dt = $_POST['start_dt'];
+        $briks_used = $_POST['briks_used'];
+        $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
+        $latitude = (double)$_POST['latitude'];
+        $longitude = (double)$_POST['longitude'];
+        $connected_ecobricks = $_POST['connected_ecobricks'] ?? '';
+
+        // Handle file uploads
+        $db_fields = [];
+        $db_values = [];
+        $db_types = "";
+        $error_messages = [];
+
+        for ($i = 1; $i <= 6; $i++) {
+            $fileInputName = "photo{$i}_main";
+            if (isset($_FILES[$fileInputName]) && $_FILES[$fileInputName]['error'] === UPLOAD_ERR_OK) {
+                $newFileNameWebP = "project-{$project_id}-{$i}.webp";
+                $targetPath = $upload_dir . $newFileNameWebP;
+
+                if (file_exists($targetPath)) {
+                    unlink($targetPath); // Delete existing file
+                }
+
+                if (resizeAndConvertToWebP($_FILES[$fileInputName]['tmp_name'], $targetPath, 1000, 88)) {
+                    createThumbnail($targetPath, $thumbnail_dir . $newFileNameWebP, 160, 160, 77);
+                    $db_fields[] = "photo{$i}_main";
+                    $db_values[] = $newFileNameWebP;
+                    $db_types .= 's';
+                } else {
+                    $error_messages[] = "Error processing image {$i}. Please try again.";
+                }
+            }
+        }
+
+        $sql = "UPDATE tb_projects SET project_name=?, description_short=?, description_long=?, location_full=?, project_type=?, construction_type=?, community=?, project_admins=?, start_dt=?, briks_used=?, est_avg_brik_weight=?, location_lat=?, location_long=?, connected_ecobricks=?, " . implode(', ', array_map(function($field) { return "{$field} = ?"; }, $db_fields)) . " WHERE project_id=?";
+        array_push($db_values, $project_name, $description_short, $description_long, $location_full, $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude, $connected_ecobricks, $project_id);
+        $db_types .= 'sssssssssiiddsi';
+
+        if (empty($error_messages)) {
+            $update_stmt = $conn->prepare($sql);
+            $update_stmt->bind_param($db_types, ...$db_values);
+            if ($update_stmt->execute()) {
+                echo "<script>alert('Project details and photos updated successfully.'); window.location.href='edit-project.php?project_id={$project_id}';</script>";
+            } else {
+                echo "Database update failed: " . $update_stmt->error;
+            }
+            $update_stmt->close();
+        } else {
+            foreach ($error_messages as $msg) {
+                echo $msg . "<br>";
+            }
+        }
+    }
+}
+
+if ($project_id > 0) {
+    $stmt = $conn->prepare("SELECT * FROM tb_projects WHERE project_id = ?");
+    $stmt->bind_param("i", $project_id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($result->num_rows > 0) {
+        $project = $result->fetch_assoc();
+    } else {
+        echo "Project not found.";
+        exit;
+    }
+    $stmt->close();
+} else {
+    echo "Invalid project ID.";
+    exit;
+}
+?>
+
+
+
+
+
+<body>
+<div class="splash-content-block"></div>
+<div id="splash-bar"></div>
+
+ <!-- PAGE CONTENT-->
+
+<div id="form-submission-box">
+    <div class="form-container">
+        <div class="step-graphic" style="width:fit-content;margin:auto;">
+            <img src="../svgs/step1-log-project.svg" style="height:25px;">
+        </div>
+
+        <div class="splash-form-content-block">  
+            <div class="splash-box">
+                <div class="splash-heading" data-lang-id="001-splash-title">Edit Project</div>
+            </div>
+            <div class="splash-image" data-lang-id="003-splash-image-alt">
+                <img src="../svgs/building-methods.svg" style="width:65%" alt="There are many ways to build with ecobricks">
+            </div>
+        </div>
+
+        <p data-lang-id="002-form-description">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
+        
+        
+
+
+        <form id="submit-form" method="post" action="" enctype="multipart/form-data">
+
+
+        <form id="submit-form" method="post" action="" enctype="multipart/form-data">
+    <h1>Edit Project Photos</h1>
+    <?php if (isset($project)): ?>
+        <div>
+            <h2>Current Photos</h2>
+            <?php for ($i = 1; $i <= 6; $i++): ?>
+                <?php $photoKey = "photo{$i}_main"; ?>
+                <?php if (!empty($project[$photoKey])): ?>
+                    <img src="../projects/photos/<?= htmlspecialchars($project[$photoKey]) ?>" alt="Photo <?= $i ?>" style="max-width: 200px;">
+                <?php endif; ?>
+            <?php endfor; ?>
+        </div>
+        <?php for ($i = 1; $i <= 6; $i++): ?>
+            <div>
+                <label for="photo<?= $i ?>_main">Upload Photo <?= $i ?>:</label>
+                <input type="file" id="photo<?= $i ?>_main" name="photo<?= $i ?>_main">
+            </div>
+        <?php endfor; ?>
+    <?php endif; ?>
+
+    
+
+            <div class="form-item">
+                <label for="project_name" data-lang-id="003-project-name">Project Name:</label><br>
+                <input type="text" id="project_name" name="project_name" value="<?php echo htmlspecialchars($project['project_name'] ?? ''); ?>" aria-label="Project Name" title="Required. Max 255 characters." required>
+                <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post. Avoid special characters.</p>
+            </div>
+
+            <div class="form-item">
+                <label for="description_short" data-lang-id="004-short-project-desc">Short project description:</label><br>
+                <textarea id="description_short" name="description_short" aria-label="Project Description" title="Required. Max 150 words" required><?php echo htmlspecialchars($project['description_short'] ?? ''); ?></textarea>
+                <p class="form-caption" data-lang-id="004-short-project-desc-caption">Provide a one sentence description of this project. Max 150 words. Avoid special characters.</p>
+            </div>
+
+            <div class="form-item">
+                <label for="description_long" data-lang-id="005-long-project-desc">Full project description:</label><br>
+                <textarea id="description_long" name="description_long" aria-label="Project Description" title="Required. Max 150 words"><?php echo htmlspecialchars($project['description_long'] ?? ''); ?></textarea>
+                <p class="form-caption" data-lang-id="005-long-project-desc-caption">Optional. Take as much space as you need as share the full details of your project. Max 1000 words.</p>
+            </div>
+
+            <div class="form-item">
+                <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
+                <input type="date" id="start_dt" name="start_dt" value="<?php echo htmlspecialchars($project['start_dt'] ?? ''); ?>" aria-label="Start Date" required>
+                <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
+            </div>
+
+            <div class="form-item">
+                <label for="briks_used" data-lang-id="009-bricks-used">How many ecobricks does your project use?</label><br>
+                <input type="number" id="briks_used" name="briks_used" value="<?php echo htmlspecialchars($project['briks_used'] ?? 0); ?>" aria-label="Bricks Used" min="1" max="5000" required>
+                <p class="form-caption" data-lang-id="009-bricks-used-caption">Please enter a number of ecobricks between 1-5000.</p>
+            </div>
+
+            <div class="form-item">
+                <label for="est_avg_brik_weight" data-lang-id="010-est-avg-weight">Please estimate the average weight of the ecobricks used in your project in grams?</label><br>
+                <input type="number" id="est_avg_brik_weight" name="est_avg_brik_weight" value="<?php echo htmlspecialchars($project['est_avg_brik_weight'] ?? 0); ?>" aria-label="Estimate Brik Weight" min="100" max="2000" required>
+                <p class="form-caption" data-lang-id="010-est-avg-weight-range">Must be a number between 100 and 2000.</p>
+            </div>
+
+            <div class="form-item">
+                <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
+                <select id="project_type" name="project_type" aria-label="Project Type" required>
+                    <option value="">Select project type...</option>
+                    <option value="single module" <?php echo ($project['project_type'] ?? '') == 'single module' ? 'selected' : ''; ?>>Single Module</option>
+                    <option value="furniture" <?php echo ($project['project_type'] ?? '') == 'furniture' ? 'selected' : ''; ?>>Furniture</option>
+                    <option value="garden" <?php echo ($project['project_type'] ?? '') == 'garden' ? 'selected' : ''; ?>>Outdoor Garden</option>
+                    <option value="structure" <?php echo ($project['project_type'] ?? '') == 'structure' ? 'selected' : ''; ?>>Structure</option>
+                    <option value="art" <?php echo ($project['project_type'] ?? '') == 'art' ? 'selected' : ''; ?>>Art</option>
+                    <option value="other" <?php echo ($project['project_type'] ?? '') == 'other' ? 'selected' : ''; ?>>Other</option>
+                </select>
+            </div>
+
+            <div class="form-item">
+                <label for="construction_type" data-lang-id="012-construction-type">What type of construction is this?</label><br>
+                <select id="construction_type" name="construction_type" aria-label="Construction Type" required>
+                    <option value="">Select construction type...</option>
+                    <option value="silicone" <?php echo ($project['construction_type'] ?? '') == 'silicone' ? 'selected' : ''; ?>>Silicone</option>
+                    <option value="banding" <?php echo ($project['construction_type'] ?? '') == 'banding' ? 'selected' : ''; ?>>Tire Banding</option>
+                    <option value="ecojoiner" <?php echo ($project['construction_type'] ?? '') == 'ecojoiner' ? 'selected' : ''; ?>>Ecojoiner</option>
+                    <option value="earth" <?php echo ($project['construction_type'] ?? '') == 'earth' ? 'selected' : ''; ?>>Earth/Cob</option>
+                    <option value="installation" <?php echo ($project['construction_type'] ?? '') == 'installation' ? 'selected' : ''; ?>>Installation</option>
+                    <option value="other" <?php echo ($project['construction_type'] ?? '') == 'other' ? 'selected' : ''; ?>>Other</option>
+                </select>
+            </div>
+
+            <div class="form-item">
+                <label for="community" data-lang-id="013-community">If this was a community project, what community is responsible?</label><br>
+                <input type="text" id="community" name="community" value="<?php echo htmlspecialchars($project['community'] ?? ''); ?>" aria-label="Community (optional)">
+                <p class="form-caption" data-lang-id="013b-optional">Optional</p>
+            </div>
+
+            <div class="form-item">
+                <label for="project_admins" data-lang-id="014-project-admins">Who's project is this?</label><br>
+                <input type="text" id="project_admins" name="project_admins" value="<?php echo htmlspecialchars($project['project_admins'] ?? ''); ?>" aria-label="Project Admins (optional)">
+                <p class="form-caption" data-lang-id="014b-optional">Optional: Provide the name(s) of the project's principals. If you wish to link this to a GoBrik user account be sure to spell the name accordingly.</p>
+            </div>
+
+            <div class="form-item">
+                <label for="location_address" data-lang-id="015-location">Where is the project located?</label><br>
+                <input type="text" id="location_address" name="location_address" value="<?php echo htmlspecialchars($project['location_full'] ?? ''); ?>" aria-label="Project Location" required>
+                <p class="form-caption" data-lang-id="016-location-caption">For privacy, please don't use your exact address. Choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
+            </div>
+
+            <input type="hidden" id="lat" name="latitude" value="<?php echo htmlspecialchars($project['location_lat'] ?? ''); ?>">
+            <input type="hidden" id="lon" name="longitude" value="<?php echo htmlspecialchars($project['location_long'] ?? ''); ?>">
+
+            <div data-lang-id="017-submit-button">
+                <input type="submit" value="Update Project ➡️" aria-label="Submit Form">
+                
+            </div>
+            <div data-lang-id="018-delete-button">
+            <button type="button" id="deleteButton">Delete Project</button>                
+            </div>
+           
+
+        </form>
+    </div>
+</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -74,8 +334,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
-
-
 
 
 
