@@ -159,15 +159,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="splash-box">
                 <div class="splash-heading" data-lang-id="001-splash-title">Edit Project</div>
             </div>
-            <div class="splash-image" data-lang-id="003-splash-image-alt">
+            <!-- <div class="splash-image" data-lang-id="003-splash-image-alt">
                 <img src="../svgs/building-methods.svg" style="width:65%" alt="There are many ways to build with ecobricks">
-            </div>
+            </div> -->
         </div>
 
-        <p data-lang-id="002-edit-form-description">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
+        <h5 data-lang-id="002-edit-form-description" style="text-align:center">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database."</h5>
         
-    
-
         <form id="submit-form" method="post" action="" enctype="multipart/form-data">
 
     <?php if (isset($project)): ?>
@@ -191,43 +189,43 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
 
             <div class="form-item">
-                <label for="project_name" data-lang-id="003-project-name">Project Name:</label><br>
+                <label for="project_name" data-lang-id="003-project-name">Edit your project's name:</label><br>
                 <input type="text" id="project_name" name="project_name" value="<?php echo htmlspecialchars($project['project_name'] ?? ''); ?>" aria-label="Project Name" title="Required. Max 255 characters." required>
                 <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post. Avoid special characters.</p>
             </div>
 
             <div class="form-item">
-                <label for="description_short" data-lang-id="004-short-project-desc">Short project description:</label><br>
+                <label for="description_short" data-lang-id="004-short-project-desc">Edit your project's short description:</label><br>
                 <textarea id="description_short" name="description_short" aria-label="Project Description" title="Required. Max 150 words" required><?php echo htmlspecialchars($project['description_short'] ?? ''); ?></textarea>
                 <p class="form-caption" data-lang-id="004-short-project-desc-caption">Provide a one sentence description of this project. Max 150 words. Avoid special characters.</p>
             </div>
 
             <div class="form-item">
-                <label for="description_long" data-lang-id="005-long-project-desc">Full project description:</label><br>
+                <label for="description_long" data-lang-id="005-long-project-desc">Edit full project description:</label><br>
                 <textarea id="description_long" name="description_long" aria-label="Project Description" title="Required. Max 150 words"><?php echo htmlspecialchars($project['description_long'] ?? ''); ?></textarea>
                 <p class="form-caption" data-lang-id="005-long-project-desc-caption">Optional. Take as much space as you need as share the full details of your project. Max 1000 words.</p>
             </div>
 
             <div class="form-item">
-                <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
+                <label for="start_dt" data-lang-id="007-start-date">Edit project start date:</label><br>
                 <input type="date" id="start_dt" name="start_dt" value="<?php echo htmlspecialchars($project['start_dt'] ?? ''); ?>" aria-label="Start Date" required>
                 <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
             </div>
 
             <div class="form-item">
-                <label for="briks_used" data-lang-id="009-bricks-used">How many ecobricks does your project use?</label><br>
+                <label for="briks_used" data-lang-id="009-bricks-used">Edit how many ecobricks your project uses:</label><br>
                 <input type="number" id="briks_used" name="briks_used" value="<?php echo htmlspecialchars($project['briks_used'] ?? 0); ?>" aria-label="Bricks Used" min="1" max="5000" required>
                 <p class="form-caption" data-lang-id="009-bricks-used-caption">Please enter a number of ecobricks between 1-5000.</p>
             </div>
 
             <div class="form-item">
-                <label for="est_avg_brik_weight" data-lang-id="010-est-avg-weight">Please estimate the average weight of the ecobricks used in your project in grams?</label><br>
+                <label for="est_avg_brik_weight" data-lang-id="010-est-avg-weight">Edit your estimate on the average weight of the ecobricks used in your project (in grams):</label><br>
                 <input type="number" id="est_avg_brik_weight" name="est_avg_brik_weight" value="<?php echo htmlspecialchars($project['est_avg_brik_weight'] ?? 0); ?>" aria-label="Estimate Brik Weight" min="100" max="2000" required>
                 <p class="form-caption" data-lang-id="010-est-avg-weight-range">Must be a number between 100 and 2000.</p>
             </div>
 
             <div class="form-item">
-                <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
+                <label for="project_type" data-lang-id="011-project-type">Edit your project's type:</label><br>
                 <select id="project_type" name="project_type" aria-label="Project Type" required>
                     <option value="">Select project type...</option>
                     <option value="single module" <?php echo ($project['project_type'] ?? '') == 'single module' ? 'selected' : ''; ?>>Single Module</option>
@@ -240,7 +238,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
 
             <div class="form-item">
-                <label for="construction_type" data-lang-id="012-construction-type">What type of construction is this?</label><br>
+                <label for="construction_type" data-lang-id="012-construction-type">Edit project construction type:</label><br>
                 <select id="construction_type" name="construction_type" aria-label="Construction Type" required>
                     <option value="">Select construction type...</option>
                     <option value="silicone" <?php echo ($project['construction_type'] ?? '') == 'silicone' ? 'selected' : ''; ?>>Silicone</option>
@@ -253,19 +251,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
 
             <div class="form-item">
-                <label for="community" data-lang-id="013-community">If this was a community project, what community is responsible?</label><br>
+                <label for="community" data-lang-id="013-community">Edit project's community:</label><br>
                 <input type="text" id="community" name="community" value="<?php echo htmlspecialchars($project['community'] ?? ''); ?>" aria-label="Community (optional)">
                 <p class="form-caption" data-lang-id="013b-optional">Optional</p>
             </div>
 
             <div class="form-item">
-                <label for="project_admins" data-lang-id="014-project-admins">Who's project is this?</label><br>
+                <label for="project_admins" data-lang-id="014-project-admins">Edit project leader(s):</label><br>
                 <input type="text" id="project_admins" name="project_admins" value="<?php echo htmlspecialchars($project['project_admins'] ?? ''); ?>" aria-label="Project Admins (optional)">
                 <p class="form-caption" data-lang-id="014b-optional">Optional: Provide the name(s) of the project's principals. If you wish to link this to a GoBrik user account be sure to spell the name accordingly.</p>
             </div>
 
+
+
+    <div class="form-item">
+    <label for="connected_ecobricks">The serials of ecobricks used in your project:</label><br>
+    <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serials..." value="<?php echo htmlspecialchars($project['connected_ecobricks'] ?? ''); ?>">
+    <div id="serial-select"><ul id="autocomplete-results" ></ul></div>
+    <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
+</div>
+
+
+
+
             <div class="form-item">
-                <label for="location_address" data-lang-id="015-location">Where is the project located?</label><br>
+                <label for="location_address" data-lang-id="015-location">Edit project location:</label><br>
                 <input type="text" id="location_address" name="location_address" value="<?php echo htmlspecialchars($project['location_full'] ?? ''); ?>" aria-label="Project Location" required>
                 <p class="form-caption" data-lang-id="016-location-caption">For privacy, please don't use your exact address. Choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
             </div>
