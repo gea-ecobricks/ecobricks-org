@@ -201,8 +201,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
         <a class="confirm-button" href="edit-project.php?project_id=<?php echo $_GET['project_id']; ?>">Edit Project Post</a>
         <a class="confirm-button" href="add-project.php">Add another Project</a>
 
-        <a class="confirm-button" style="background:red" id="deleteButton">❌ Delete Project</a>
-
+        <form id="deleteForm" action="" method="POST">
+    <input type="hidden" name="project_id" value="<?php echo htmlspecialchars($_GET['project_id']); ?>">
+    <input type="hidden" name="action" value="delete_project">
+    <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton">❌ Delete Project</a>
+</form>
 
     </div>
 
@@ -228,16 +231,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
 <script>
     
 //DELETE BUTTON
-
-document.getElementById('deleteButton').addEventListener('click', function() {
+document.getElementById('deleteButton').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent navigation
     if (confirm('Are you sure you want to delete this project? This action cannot be undone.')) {
-        var form = this.closest('form');
-        var input = document.createElement('input');
-        input.type = 'hidden';
-        input.name = 'action';
-        input.value = 'delete_project';
-        form.appendChild(input);
-        form.submit();
+        document.getElementById('deleteForm').submit();
     }
 });
 
