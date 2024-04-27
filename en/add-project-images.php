@@ -205,10 +205,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
         <a class="confirm-button" href="add-project.php">Add another Project</a>
 
         <form id="deleteForm" action="" method="POST">
-    <input type="hidden" name="project_id" value="<?php echo htmlspecialchars($_GET['project_id']); ?>">
-    <input type="hidden" name="action" value="delete_project">
-    <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton">❌ Delete Project</a>
-</form>
+            <input type="hidden" name="project_id" value="<?php echo htmlspecialchars($_GET['project_id']); ?>">
+            <input type="hidden" name="action" value="delete_project">
+            <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton">❌ Delete Project</a>
+        </form>
 
     </div>
 

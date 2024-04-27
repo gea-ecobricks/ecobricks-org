@@ -326,11 +326,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <a class="confirm-button" style="background:grey" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">↩️ Cancel</a>        
             </div>
 
-            <div data-lang-id="019-delete-button">
+            <!-- <div data-lang-id="019-delete-button">
                 <a class="confirm-button" style="background:organge" id="deleteButton">❌ Delete This Project</a>              
-            </div>
+            </div> -->
            
 
+        </form>
+
+        <form id="deleteForm" action="" method="POST">
+            <input type="hidden" name="project_id" value="<?php echo htmlspecialchars($_GET['project_id']); ?>">
+            <input type="hidden" name="action" value="delete_project">
+            <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton">❌ Delete Project</a>
         </form>
     </div>
 </div>
