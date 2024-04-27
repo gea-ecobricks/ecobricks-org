@@ -173,8 +173,8 @@ if ($result->num_rows > 0) {
             echo ' <p><b data-lang-id="147">Photo 5:</b> ' . $array["photo5_main"] . '</p>';
             echo ' <p><b data-lang-id="148">Plastic Sequestered:</b> ' . $array["est_total_weight"] . '&#8202;kg</p>';
             echo ' <p><b data-lang-id="149">Logged:</b> ' . $array["logged_ts"] . '</p>';
-            echo ' <p><b data-lang-id="149b">Ready to Show:</b> ' . $array["ready_to_show"] . '</p>';
-            echo ' <p data-lang-id="150"> <href="edit-project.php?project_id=' . $array["project_id"] . '">e |||</a> END RECORD.</p>
+            echo ' <p><b data-lang-id="149b">Ready to Show:</b> ' . $array["ready_to_show"] . ' | <href="edit-project.php?project_id=' . $array["project_id"] . '">e</a></p>';
+            echo ' <p data-lang-id="150">|||  END RECORD.</p>
     
     </div>
 </div>
