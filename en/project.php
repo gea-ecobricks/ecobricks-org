@@ -58,7 +58,7 @@ if ($result->num_rows > 0) {
                         <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
  
                          // Loop through the available photos (up to 5)
-						 for ($i = 1; $i <= 5; $i++) {
+						 for ($i = 1; $i <= 6; $i++) {
                             $photo_main = $array["photo{$i}_main"];
                             $photo_tmb = $array["photo{$i}_tmb"];
                             
