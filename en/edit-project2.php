@@ -97,13 +97,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
-<body>
+<!DOCTYPE html>
+<HTML lang="en"> 
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='en';?>
+<?php $version='1.991';?>
+<?php $page='add-project';?>
+
+
+<?php require_once ("../includes/add-project-inc.php");?>
+
+
 <div class="splash-content-block"></div>
 <div id="splash-bar"></div>
 
  <!-- PAGE CONTENT-->
 
-<div id="form-submission-box">
+ <div id="form-submission-box">
     <div class="form-container">
         <div class="step-graphic" style="width:fit-content;margin:auto;">
             <img src="../svgs/step1-log-project.svg" style="height:25px;">
