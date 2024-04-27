@@ -163,8 +163,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <img src="../svgs/building-methods.svg" style="width:65%" alt="There are many ways to build with ecobricks">
             </div> -->
         </div>
-
-        <h5 data-lang-id="002-edit-form-description" style="text-align:left">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database."</h5>
+        <div class="lead-page-paragraph">
+            <p data-lang-id="002-edit-form-description" style="text-align:left">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database.</p>
+        </div>
         
         <form id="submit-form" method="post" action="" enctype="multipart/form-data">
 
