@@ -165,6 +165,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
         <div class="lead-page-paragraph">
             <p data-lang-id="002-edit-form-description" style="text-align:left">Update your ecobrick project details on ecobricks.org. Projects will be featured on our main page and archived in our database.</p>
+            <br>
+            <hr>
+            <br><br>
         </div>
         
         <form id="submit-form" method="post" action="" enctype="multipart/form-data">
