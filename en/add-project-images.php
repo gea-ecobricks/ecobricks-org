@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
     $db_values = [];
     $db_types = "";
 
-    for ($i = 1; $i <= 5; $i++) {
+    for ($i = 1; $i <= 6; $i++) { // Changed from 5 to 6 to accommodate six images
         $file_input_name = "photo{$i}_main";
         if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
             $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
@@ -74,31 +74,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
         $update_stmt->close();
     }
 
-    
-        
-
-        if (!empty($error_message)) {
-            http_response_code(400);
-            header('Content-Type: application/json');
-            echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
-            exit;
-        } else {
-            $response = array(
-                'project_id' => $project_id,
-                'full_urls' => $full_urls,
-                'thumbnail_paths' => $thumbnail_paths,
-                'main_file_sizes' => $main_file_sizes,
-                'thumbnail_file_sizes' => $thumbnail_file_sizes
-            );
-            header('Content-Type: application/json');
-            echo json_encode($response);
-            exit;
-        }
+    if (!empty($error_message)) {
+        http_response_code(400);
+        header('Content-Type: application/json');
+        echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
+        exit;
+    } else {
+        $response = array(
+            'project_id' => $project_id,
+            'full_urls' => $full_urls,
+            'thumbnail_paths' => $thumbnail_paths,
+            'main_file_sizes' => $main_file_sizes,
+            'thumbnail_file_sizes' => $thumbnail_file_sizes
+        );
+        header('Content-Type: application/json');
+        echo json_encode($response);
+        exit;
     }
-
-
+}
 
 ?>
+
 <!DOCTYPE html>
 <HTML lang="en"> 
 <HEAD>
