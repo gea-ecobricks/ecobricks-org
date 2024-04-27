@@ -6,94 +6,13 @@ error_reporting(E_ALL);
 require_once '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
-$project_id = $_GET['id'] ?? 0; // Using 'id' parameter to keep consistency
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (isset($_POST['action']) && $_POST['action'] == 'delete_project') {
-        $deleteStmt = $conn->prepare("DELETE FROM tb_projects WHERE project_id = ?");
-        $deleteStmt->bind_param("i", $project_id);
-        if ($deleteStmt->execute()) {
-            echo "<script>alert('Project has been successfully deleted.'); window.location.href='projects_list.php';</script>";
-            exit;
-        } else {
-            echo "<script>alert('Error deleting project: " . $deleteStmt->error . "');</script>";
-        }
-        $deleteStmt->close();
-    } else {
-        // Process updating project details and images
-        include '../project-photo-functions.php'; // Ensure this path is correct
-        $upload_dir = '../projects/photos/';
-        $thumbnail_dir = '../projects/tmbs/';
-
-        $location_full = $_POST['location_address'] ?? 'Default Location';
-        $project_name = $_POST['project_name'];
-        $description_short = $_POST['description_short'];
-        $description_long = $_POST['description_long'];
-        $project_type = $_POST['project_type'];
-        $construction_type = $_POST['construction_type'];
-        $community = $_POST['community'] ?? '';
-        $project_admins = $_POST['project_admins'] ?? '';
-        $start_dt = $_POST['start_dt'];
-        $briks_used = $_POST['briks_used'];
-        $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
-        $latitude = (double)$_POST['latitude'];
-        $longitude = (double)$_POST['longitude'];
-        $connected_ecobricks = $_POST['connected_ecobricks'] ?? '';
-
-        // Handle file uploads
-        $db_fields = [];
-        $db_values = [];
-        $db_types = "";
-        $error_messages = [];
-
-        for ($i = 1; $i <= 6; $i++) {
-            $fileInputName = "photo{$i}_main";
-            if (isset($_FILES[$fileInputName]) && $_FILES[$fileInputName]['error'] === UPLOAD_ERR_OK) {
-                $newFileNameWebP = "project-{$project_id}-{$i}.webp";
-                $targetPath = $upload_dir . $newFileNameWebP;
-
-                if (file_exists($targetPath)) {
-                    unlink($targetPath); // Delete existing file
-                }
-
-                if (resizeAndConvertToWebP($_FILES[$fileInputName]['tmp_name'], $targetPath, 1000, 88)) {
-                    createThumbnail($targetPath, $thumbnail_dir . $newFileNameWebP, 160, 160, 77);
-                    $db_fields[] = "photo{$i}_main";
-                    $db_values[] = $newFileNameWebP;
-                    $db_types .= 's';
-                } else {
-                    $error_messages[] = "Error processing image {$i}. Please try again.";
-                }
-            }
-        }
-
-        $sql = "UPDATE tb_projects SET project_name=?, description_short=?, description_long=?, location_full=?, project_type=?, construction_type=?, community=?, project_admins=?, start_dt=?, briks_used=?, est_avg_brik_weight=?, location_lat=?, location_long=?, connected_ecobricks=?, " . implode(', ', array_map(function($field) { return "{$field} = ?"; }, $db_fields)) . " WHERE project_id=?";
-        array_push($db_values, $project_name, $description_short, $description_long, $location_full, $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude, $connected_ecobricks, $project_id);
-        $db_types .= 'sssssssssiiddsi';
-
-        if (empty($error_messages)) {
-            $update_stmt = $conn->prepare($sql);
-            $update_stmt->bind_param($db_types, ...$db_values);
-            if ($update_stmt->execute()) {
-                echo "<script>alert('Project details and photos updated successfully.'); window.location.href='edit-project.php?project_id={$project_id}';</script>";
-            } else {
-                echo "Database update failed: " . $update_stmt->error;
-            }
-            $update_stmt->close();
-        } else {
-            foreach ($error_messages as $msg) {
-                echo $msg . "<br>";
-            }
-        }
-    }
-}
+$project_id = $_GET['project_id'] ?? 0; // Ensure this matches the URL parameter
 
 if ($project_id > 0) {
     $stmt = $conn->prepare("SELECT * FROM tb_projects WHERE project_id = ?");
     $stmt->bind_param("i", $project_id);
     $stmt->execute();
     $result = $stmt->get_result();
-
     if ($result->num_rows > 0) {
         $project = $result->fetch_assoc();
     } else {
@@ -105,7 +24,74 @@ if ($project_id > 0) {
     echo "Invalid project ID.";
     exit;
 }
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    include '../project-photo-functions.php'; // Ensure this path is correct
+    $upload_dir = '../projects/photos/';
+    $thumbnail_dir = '../projects/tmbs/';
+
+    $location_full = $_POST['location_address'] ?? 'Default Location';
+    $project_name = $_POST['project_name'];
+    $description_short = $_POST['description_short'];
+    $description_long = $_POST['description_long'];
+    $project_type = $_POST['project_type'];
+    $construction_type = $_POST['construction_type'];
+    $community = $_POST['community'] ?? '';
+    $project_admins = $_POST['project_admins'] ?? '';
+    $start_dt = $_POST['start_dt'];
+    $briks_used = $_POST['briks_used'];
+    $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
+    $latitude = (double)$_POST['latitude'];
+    $longitude = (double)$_POST['longitude'];
+    $connected_ecobricks = $_POST['connected_ecobricks'] ?? '';
+
+    $db_fields = [];
+    $db_values = [];
+    $db_types = "";
+    $error_messages = [];
+
+    for ($i = 1; $i <= 6; $i++) {
+        $fileInputName = "photo{$i}_main";
+        if (isset($_FILES[$fileInputName]) && $_FILES[$fileInputName]['error'] === UPLOAD_ERR_OK) {
+            $newFileNameWebP = "project-{$project_id}-{$i}.webp";
+            $targetPath = $upload_dir . $newFileNameWebP;
+
+            if (file_exists($targetPath)) {
+                unlink($targetPath); // Delete existing file
+            }
+
+            if (resizeAndConvertToWebP($_FILES[$fileInputName]['tmp_name'], $targetPath, 1000, 88)) {
+                createThumbnail($targetPath, $thumbnail_dir . $newFileNameWebP, 160, 160, 77);
+                $db_fields[] = "photo{$i}_main";
+                $db_values[] = $newFileNameWebP;
+                $db_types .= 's';
+            } else {
+                $error_messages[] = "Error processing image {$i}. Please try again.";
+            }
+        }
+    }
+
+    if (empty($error_messages)) {
+        $sql = "UPDATE tb_projects SET project_name=?, description_short=?, description_long=?, location_full=?, project_type=?, construction_type=?, community=?, project_admins=?, start_dt=?, briks_used=?, est_avg_brik_weight=?, location_lat=?, location_long=?, connected_ecobricks=? " . (count($db_fields) ? ", " . implode(', ', array_map(function($field) { return "{$field} = ?"; }, $db_fields)) : "") . " WHERE project_id=?";
+        array_push($db_values, $project_name, $description_short, $description_long, $location_full, $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude, $connected_ecobricks, $project_id);
+        $db_types .= 'sssssssssiiddsi';
+
+        $update_stmt = $conn->prepare($sql);
+        $update_stmt->bind_param($db_types, ...$db_values);
+        if ($update_stmt->execute()) {
+            echo "<script>alert('Project details and photos updated successfully.'); window.location.href='edit-project.php?project_id={$project_id}';</script>";
+        } else {
+            echo "Database update failed: " . $update_stmt->error;
+        }
+        $update_stmt->close();
+    } else {
+        foreach ($error_messages as $msg) {
+            echo $msg . "<br>";
+        }
+    }
+}
 ?>
+
 
 
 
