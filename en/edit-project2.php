@@ -50,26 +50,62 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $db_types = "";
     $error_messages = [];
 
+    
+    // Loop through possible file inputs.
     for ($i = 1; $i <= 6; $i++) {
         $fileInputName = "photo{$i}_main";
+        
+        // Check if a file has been uploaded in the current file input.
         if (isset($_FILES[$fileInputName]) && $_FILES[$fileInputName]['error'] === UPLOAD_ERR_OK) {
             $newFileNameWebP = "project-{$project_id}-{$i}.webp";
             $targetPath = $upload_dir . $newFileNameWebP;
-
+    
+            // Delete existing file if it exists.
             if (file_exists($targetPath)) {
-                unlink($targetPath); // Delete existing file
+                unlink($targetPath);
             }
-
+    
+            // Attempt to resize and convert the uploaded image to WebP format.
             if (resizeAndConvertToWebP($_FILES[$fileInputName]['tmp_name'], $targetPath, 1000, 88)) {
+                // If successful, create a thumbnail of the image.
                 createThumbnail($targetPath, $thumbnail_dir . $newFileNameWebP, 160, 160, 77);
+    
+                // Collect the database field and new file name to be updated.
                 $db_fields[] = "photo{$i}_main";
                 $db_values[] = $newFileNameWebP;
-                $db_types .= 's';
+                $db_types .= 's'; // Append 's' for string type in the parameter binding.
             } else {
+                // Collect error message if the image processing fails.
                 $error_messages[] = "Error processing image {$i}. Please try again.";
             }
         }
     }
+    
+    // Check if there were any new files processed and if there were no errors.
+    if (!empty($db_fields) && empty($error_messages)) {
+        $fields_for_update = implode(', ', array_map(function($field) { return "{$field} = ?"; }, $db_fields));
+        $sql = "UPDATE tb_projects SET $fields_for_update WHERE project_id=?";
+        $update_stmt = $conn->prepare($sql);
+        // Merge all new values and append the project_id at the end for the WHERE clause.
+        $db_values[] = $project_id;
+        $db_types .= 'i'; // Append 'i' for integer type for the project ID.
+    
+        $update_stmt->bind_param($db_types, ...$db_values);
+    
+        if ($update_stmt->execute()) {
+            echo "<script>alert('Project details and photos updated successfully.'); window.location.href='edit-project.php?project_id={$project_id}';</script>";
+        } else {
+            echo "Database update failed: " . $update_stmt->error;
+        }
+        $update_stmt->close();
+    } else {
+        // Output any error messages if present.
+        foreach ($error_messages as $msg) {
+            echo $msg . "<br>";
+        }
+    }
+
+    
 
     if (empty($error_messages)) {
         $sql = "UPDATE tb_projects SET project_name=?, description_short=?, description_long=?, location_full=?, project_type=?, construction_type=?, community=?, project_admins=?, start_dt=?, briks_used=?, est_avg_brik_weight=?, location_lat=?, location_long=?, connected_ecobricks=? " . (count($db_fields) ? ", " . implode(', ', array_map(function($field) { return "{$field} = ?"; }, $db_fields)) : "") . " WHERE project_id=?";
@@ -134,6 +170,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
 
         <form id="submit-form" method="post" action="" enctype="multipart/form-data">
+
     <?php if (isset($project)): ?>
         <div>
             <p>Your current project photos:</p>
