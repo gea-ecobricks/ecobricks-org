@@ -106,7 +106,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     
-
     if (empty($error_messages)) {
         $sql = "UPDATE tb_projects SET project_name=?, description_short=?, description_long=?, location_full=?, project_type=?, construction_type=?, community=?, project_admins=?, start_dt=?, briks_used=?, est_avg_brik_weight=?, location_lat=?, location_long=?, connected_ecobricks=? " . (count($db_fields) ? ", " . implode(', ', array_map(function($field) { return "{$field} = ?"; }, $db_fields)) : "") . " WHERE project_id=?";
         array_push($db_values, $project_name, $description_short, $description_long, $location_full, $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude, $connected_ecobricks, $project_id);
@@ -301,11 +300,11 @@ document.addEventListener('DOMContentLoaded', function() {
         clearErrorMessages();
 
         // Validate the required photo1_main field if exists
-        var photo1Input = document.getElementById('photo1_main');
-        if (photo1Input && !photo1Input.files.length) {
-            showError('photo1_main', 'The main photo (Photo 1) is required.');
-            return;
-        }
+        // var photo1Input = document.getElementById('photo1_main');
+        // if (photo1Input && !photo1Input.files.length) {
+        //     showError('photo1_main', 'The main photo (Photo 1) is required.');
+        //     return;
+        // }
 
         // Optional: Validate file sizes here before sending to the server
         var valid = true;
