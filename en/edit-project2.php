@@ -93,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $update_stmt->bind_param($db_types, ...$db_values);
     
         if ($update_stmt->execute()) {
-            echo "<script>alert('Project details and photos updated successfully.'); window.location.href='edit-project.php?project_id={$project_id}';</script>";
+            echo "<script>alert('Project details and photos updated successfully.'); window.location.href='project.php?project_id={$project_id}';</script>";
         } else {
             echo "Database update failed: " . $update_stmt->error;
         }
