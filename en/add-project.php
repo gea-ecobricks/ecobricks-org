@@ -177,38 +177,38 @@ if ($stmt->execute()) {
 </div>
 
 
-    <div class="form-item">
-        <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
-        <select id="project_type" name="project_type" aria-label="Project Type" required>
-            <option value="" disabled="" selected="" data-lang-id="011-select">Select project type...  </option>
-            <option value="single module" data-lang-id="011-single-module">Single Module</option>
-            <option value="furniture" data-lang-id="011-modular-furniture">Furniture</option>
-            <option value="garden" data-lang-id="011-outdoor-garden">Outdoor Garden</option>
-            <option value="structure" data-lang-id="011-structure">Structure</option>
-            <option value="art" data-lang-id="011-art">Art</option>
+<div class="form-item">
+    <label for="project_type" data-lang-id="011-project-type">What type of project is this?</label><br>
+    <select id="project_type" name="project_type" aria-label="Project Type" required>
+        <option value="" disabled="" selected="" data-lang-id="011-select">Select project type...</option>
+        <option value="single module" data-lang-id="011-single-module">Single Module</option>
+        <option value="furniture" data-lang-id="011-modular-furniture">Furniture</option>
+        <option value="garden" data-lang-id="011-outdoor-garden">Outdoor Garden</option>
+        <option value="structure" data-lang-id="011-structure">Structure</option>
+        <option value="art" data-lang-id="011-art">Art</option>
+        <option value="other" data-lang-id="011-other">Other</option>
+    </select>
+    <br>
+    <!--ERROR-->
+    <div id="project-type-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+</div>
 
-            <option value="other" data-lang-id="011-other">Other</option>
-        </select>
-        <br>
-        <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-    </div>
-    
-    <div class="form-item">
-        <label for="construction_type" data-lang-id="012-construction-type">What type of construction is this?</label><br>
-        <select id="construction_type" name="construction_type" aria-label="Construction Type" required>
-            <option value="" disabled="" selected="" data-lang-id="012-select">Select construction type...  </option>
-            <option value="silicone" data-lang-id="012-construction-silicone" >Silicone</option>
-            <option value="banding" data-lang-id="012-construction-tire-banding">Tire Banding</option>
-            <option value="ecojoiner" data-lang-id="012-construction-ecojoiner">Ecojoiner</option>
-            <option value="earth" data-lang-id="012-construction-earth">Earth/Cob</option>
+<div class="form-item">
+    <label for="construction_type" data-lang-id="012-construction-type">What type of construction is this?</label><br>
+    <select id="construction_type" name="construction_type" aria-label="Construction Type" required>
+        <option value="" disabled="" selected="" data-lang-id="012-select">Select construction type...</option>
+        <option value="silicone" data-lang-id="012-construction-silicone">Silicone</option>
+        <option value="banding" data-lang-id="012-construction-tire-banding">Tire Banding</option>
+        <option value="ecojoiner" data-lang-id="012-construction-ecojoiner">Ecojoiner</option>
+        <option value="earth" data-lang-id="012-construction-earth">Earth/Cob</option>
+        <option value="installation" data-lang-id="012-construction-installation">Installation</option>
+        <option value="other" data-lang-id="012-other">Other</option>
+    </select>
+    <br>
+        <!--ERROR-->
+    <div id="construction-type-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+</div>
 
-            <option value="installation" data-lang-id="012-construction-installation">Installation</option>
-
-            <option value="other" data-lang-id="012-other">Other</option>
-        </select>
-        <br>
-        <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-    </div>
     
     <div class="form-item">
         <label for="community" data-lang-id="013-community">If this was a community project, what community is responsible?</label><br>
@@ -243,6 +243,8 @@ if ($stmt->execute()) {
         <div id="loading-spinner" class="spinner" style="display: none;"></div>
     </div>
     <p class="form-caption" data-lang-id="016-location-caption">For privacy, please don't use your exact address. Choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
+
+        <!--ERRORS-->
     <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
 </div>
 
@@ -270,17 +272,9 @@ if ($stmt->execute()) {
 
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
-
-<!--Please help me to modify the php and html below so that instead of being a form for adding a new project (its current purpose) instead it is a form for editing a previously submitted project.  The page will contain in its url of the project_id to be edited.  
-
-For example  https://mysite.com/en/project.php?id=205 
-
-In this case 205 is the project_id.
-
-Here is my php and my html to modify accordingly.  We will keep all the texts and validation rules the same, so no need to modify the javascript or data-lang-ids:
-
--->
 <script>
+
+
 document.getElementById('submit-form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the form from submitting until validation is complete
     var isValid = true; // Flag to determine if the form should be submitted
@@ -332,13 +326,13 @@ document.getElementById('submit-form').addEventListener('submit', function(event
     var estimatedWeight = parseInt(document.getElementById('est_avg_brik_weight').value, 10);
     displayError('weight-error-range', isNaN(estimatedWeight) || estimatedWeight < 100 || estimatedWeight > 2000);
 
-    // 7. Project Type Validation
+   // 7. Project Type Validation
     var projectType = document.getElementById('project_type').value;
-    displayError('description-error-required', projectType === '');
+    displayError('project-type-error-required', projectType === '');
 
     // 8. Construction Type Validation
     var constructionType = document.getElementById('construction_type').value;
-    displayError('description-error-required', constructionType === '');
+    displayError('construction-type-error-required', constructionType === '');
 
     // 9. Community Project (just check length)
     var community = document.getElementById('community').value.trim();

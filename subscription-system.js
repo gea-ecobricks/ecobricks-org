@@ -141,10 +141,7 @@ function checkRegistrationStatus() {
   
 
   
-  
-  
-  
-  
+
   function saveRegData2Cache(emailInput, nameInput, form) {
     console.log("subSource in saveRegData2Cache:", window.subSource);
 
@@ -198,7 +195,6 @@ function checkRegistrationStatus() {
         name: nameInput.value,
         source: window.subSource, // Use the global value
         language: window.currentLanguage
-
     };
     console.log('subSource before sending:', window.subSource);
       // Log the data to be sent
