@@ -188,7 +188,7 @@ if ($stmt->execute()) {
         <option value="art" data-lang-id="011-art">Art</option>
         <option value="other" data-lang-id="011-other">Other</option>
     </select>
-    <br>
+    <br><br>
     <!--ERROR-->
     <div id="project-type-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
 </div>
@@ -204,7 +204,7 @@ if ($stmt->execute()) {
         <option value="installation" data-lang-id="012-construction-installation">Installation</option>
         <option value="other" data-lang-id="012-other">Other</option>
     </select>
-    <br>
+    <br><br>
         <!--ERROR-->
     <div id="construction-type-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
 </div>
@@ -245,7 +245,7 @@ if ($stmt->execute()) {
     <p class="form-caption" data-lang-id="016-location-caption">For privacy, please don't use your exact address. Choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
 
         <!--ERRORS-->
-    <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+    <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
 </div>
 
 
@@ -344,7 +344,7 @@ document.getElementById('submit-form').addEventListener('submit', function(event
 
     // 11. Location Validation
     var location = document.getElementById('location_address').value.trim();
-    displayError('description-error-required', location === '');
+    displayError('location-error-required', location === '');
 
     // If all validations pass, submit the form
     if (isValid) {

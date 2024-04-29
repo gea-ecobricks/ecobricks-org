@@ -195,6 +195,7 @@ function checkRegistrationStatus() {
         name: nameInput.value,
         source: window.subSource, // Use the global value
         language: window.currentLanguage
+
     };
     console.log('subSource before sending:', window.subSource);
       // Log the data to be sent
@@ -202,6 +203,7 @@ function checkRegistrationStatus() {
   
       // Send data to the webhook
       fetch('https://hook.eu1.make.com/ou5swqynssfg1o64sjwjgywpcoymg4m1', {
+        
           method: 'POST',
           headers: {
               'Content-Type': 'application/json',

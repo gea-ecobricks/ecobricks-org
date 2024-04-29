@@ -185,7 +185,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <br><br>
         </div>
         
-        <form id="submit-form" method="post" action="" enctype="multipart/form-data">
+        <form id="submit-form" method="post" action="" enctype="multipart/form-data" novalidate>
 
         
 
@@ -366,7 +366,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
         <!--ERRORS-->
-    <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+    <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
             </div>
 
             <input type="hidden" id="lat" name="latitude" value="<?php echo htmlspecialchars($project['location_lat'] ?? ''); ?>">
@@ -544,7 +544,7 @@ document.getElementById('submit-form').addEventListener('submit', function(event
 
     // 11. Location Validation
     var location = document.getElementById('location_address').value.trim();
-    displayError('description-error-required', location === '');
+    displayError('location-error-required', location === '');
 
     // If all validations pass, submit the form
     if (isValid) {
