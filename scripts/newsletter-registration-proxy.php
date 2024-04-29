@@ -21,10 +21,11 @@ list($id, $secret) = explode(':', $apiKey);
 
 // Prepare the header and payload
 $header = json_encode(['typ' => 'JWT', 'alg' => 'HS256', 'kid' => $id]);
+$now = time();
 $payload = json_encode([
-    'exp' => time() + 300, // Token valid for 5 minutes
-    'iat' => time(),
-    'aud' => '/admin/'
+    'iat' => $now,
+    'exp' => $now + 300, // Token valid for 5 minutes
+    'aud' => '/v3/admin/' // Adjusted audience to match the error message suggestion
 ]);
 
 // Base64Url Encode function
