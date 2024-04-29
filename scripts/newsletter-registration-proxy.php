@@ -8,6 +8,23 @@ header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Allow-Headers: Content-Type, Authorization');
 header('Content-Type: application/json');
 
+
+// Respond to preflight requests
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    // Return only headers and not the content besides headers
+    if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD'])) {
+        header('Access-Control-Allow-Methods: POST');
+    }
+
+    if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS'])) {
+        header('Access-Control-Allow-Headers: ' . $_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']);
+    }
+
+    // End preflight and return only headers
+    exit(0);
+}
+
+
 // Specify the URL of your Ghost Admin API
 $ghostApiUrl = 'https://earthen.io/ghost/api/v3/admin/members/';
 
