@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 $ghostApiUrl = 'https://earthen.io/ghost/api/v3/admin/members/';
 
 // Your Ghost Admin API Key
-$apiKey = '662e2789d27acf008a250c99:cd1a8de113c3e3d984c6926727b2a7c1ed671b425f616119b3b37a377254634a';
+$apiKey = '616d3cf891ca79bb9271f5d9:d63c7b6054157050b6382a4f325a9795ae8ef38e3933ea77d7dee56d1680d3ac';
 
 // Collect POST data from the incoming request
 $data = file_get_contents('php://input');
