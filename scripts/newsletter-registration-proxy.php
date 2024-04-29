@@ -1,11 +1,20 @@
 
-
 <?php
-// Enable error reporting for development
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+// List of allowed origins
+$allowed_origins = ['https://book.earthen.io', 'https://www.ecobricks.org', 'https://earthen.io',];
 
-header('Access-Control-Allow-Origin: https://ecobricks.org');
+// Check if the request's origin is in the allowed list and set the header accordingly
+if (isset($_SERVER['HTTP_ORIGIN']) && in_array($_SERVER['HTTP_ORIGIN'], $allowed_origins)) {
+    header('Access-Control-Allow-Origin: ' . $_SERVER['HTTP_ORIGIN']);
+    header('Access-Control-Allow-Credentials: true');
+} else {
+    // Optionally handle the disallowed origin
+    header('HTTP/1.1 403 Origin Denied');
+    echo 'Origin is not allowed';
+    exit;
+}
+
+
 header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Allow-Headers: Content-Type, Authorization');
 header('Content-Type: application/json');
