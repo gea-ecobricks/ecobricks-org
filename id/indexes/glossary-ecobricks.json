@@ -1,115 +1,96 @@
 [
+  [
+    {
+      "id": "26",
+      "title": "bioma",
+      "keywords": "bioma, biomas, ekosistem, biosfer",
+      "description": "Sebuah ekosistem dari ekosistem: komponen inti dari biosfer.",
+      "language": "Indonesia",
+      "lang_key": "id",
+      "section": "Glosarium",
+      "image_url": "../icons/glossary-day.svg",
+      "image_url_night": "../icons/glossary-night.svg",
+      "url": "glossary.php"
+    },
+    {
+      "id": "25",
+      "title": "ayyew",
+      "keywords": "ayyew, ayyews, ayyewed, ayew",
+      "description": "Kebajikan orang Igorot yang terus meningkatkan keselarasan mereka dengan siklus ekologis.",
+      "language": "Indonesia",
+      "lang_key": "id",
+      "section": "Glosarium",
+      "image_url": "../icons/glossary-day.svg",
+      "image_url_night": "../icons/glossary-night.svg",
+      "url": "glossary.php"
+    },
+    {
+      "id": "27",
+      "title": "biosfer",
+      "keywords": "biosfer, biosfera, ekosistem, bioma",
+      "description": "Ekologi yang meliputi seluruh planet (biasanya Bumi).",
+      "language": "Indonesia",
+      "lang_key": "id",
+      "section": "Glosarium",
+      "image_url": "../icons/glossary-day.svg",
+      "image_url_night": "../icons/glossary-night.svg",
+      "url": "glossary.php"
+    },
   
-  {
-    "id": "26",
-    "title": "biome",
-    "keywords": "biome, biomes, ecosystem, biosphere",
-    "description": "An ecosystem of ecosystems: a core component of a biosphere.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
-
-},
-
   
-  {
-    "id": "25",
-    "title": "Ayyew",
-    "keywords": "ayyew, ayyews, ayyewed, ayew",
-    "description": "The Igorot virtue of ever increasing one’s sync with ecological cycles.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
-},
+    [
+      {
+        "id": "28",
+        "title": "biodiversitas",
+        "keywords": "biodiversitas, ekologi, spesies, ekosistem",
+        "description": "Keanekaragaman dan pluralitas spesies dalam sebuah sistem biologis.",
+        "language": "Indonesia",
+        "lang_key": "id",
+        "section": "Glosarium",
+        "image_url": "../icons/glossary-day.svg",
+        "image_url_night": "../icons/glossary-night.svg",
+        "url": "glossary.php"
+      },
+      {
+        "id": "29",
+        "title": "karakter kosmologis",
+        "keywords": "karakter kosmologis",
+        "description": "Sejarah, konfigurasi, dan komposisi unik dari setiap planet yang memberikan pola proses karakteristiknya.",
+        "language": "Indonesia",
+        "lang_key": "id",
+        "section": "Glosarium",
+        "image_url": "../icons/glossary-day.svg",
+        "image_url_night": "../icons/glossary-night.svg",
+        "url": "glossary.php"
+      },
+      {
+        "id": "30",
+        "title": "dap'ay",
+        "keywords": "dapay, dap'ay, stone henge, mandala, stonehenge",
+        "description": "Plaza batu pusat dari setiap desa Igorot yang digunakan untuk upacara, pesta, dan bercerita.",
+        "language": "Indonesia",
+        "lang_key": "id",
+        "section": "Glosarium",
+        "image_url": "../icons/glossary-day.svg",
+        "image_url_night": "../icons/glossary-night.svg",
+        "url": "glossary.php"
+      },
 
-  
-
-
-{
-  "id": "27",
-  "title": "biosphere",
-  "keywords": "biosphere, biospheres, ecosystem, biome",
-  "description": "The all-encompassing ecology of a planet (usually that of Earth).",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-{
-  "id": "28",
-  "title": "biodiversity",
-  "keywords": "biodiversity, ecology, species, ecosystem",
-  "description": "The variety and plurality of species in a biological system.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
- 
-
-
-
-
-{
-  "id": "29",
-  "title": "cosmological character",
-  "keywords": "cosmological character",
-  "description": "The unique history, configuration, and composition of each planet that gives it its characteristic pattern of processes.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-  "id": "30",
-  "title": "dap'ay",
-  "keywords": "dapay, dap'ay, stone henge, mandala, stonehenge",
-  "description": "The central stone plaza of every Igorot village that is used for ceremonies, feasts, and storytelling.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-    "id": "31",
-    "title": "earth",
-    "keywords": "earth, Earth, earthen",
-    "description": "Soil, ground [lowercase ‘e’]. Used with an article (i.e. “the”)",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
+      
+      {
+        "id": "31",
+        "title": "bumi",
+        "keywords": "bumi, Bumi, bumi",
+        "description": "Tanah, tanah [huruf kecil 'e']. Digunakan dengan artikel (mis. 'the')",
+        "language": "Indonesia",
+        "lang_key": "id",
+        "section": "Glosarium",
+        "image_url": "../icons/glossary-day.svg",
+        "image_url_night": "../icons/glossary-night.svg",
+        "url": "glossary.php"
+      }
+    
+    
 
 
   {

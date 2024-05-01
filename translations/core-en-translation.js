@@ -180,8 +180,8 @@ const en_Translations = {
         '214-tour-5-header': 'Build Green and Great',
         '215-tour-5-description': 'Ecobricks are put to use in all sorts of ways by the global community.  In the Philippines we build food forest play parks with them.  In the UK, we build earthen round houses.  In Indonesia, we make modular furniture for homes and cafes.  Be sure to check out the building sections of our site for ideas.',
         '216-tour-5-reference': 'Our page on building methods: <a href="build">ecobricks.org/build</a>',
-        '217-tour-6-header': 'Got questions?',
-        '218-tour-6-description': 'We\'re here to help! The Global Ecobrick Alliance is an Earth enterprise that global plastic transition movement by maintaining the philosophical and technological of the movement.  We\'re not at this for profit. Nor are we sponsored by any governments or corporations.  We\'re at this for people and planet.',
+        '217-tour-6-header': 'We\'re here to help!',
+        '218-tour-6-description': ' The Global Ecobrick Alliance is an Earth enterprise that supports the local and global plastic transition movements.  We maintain the philosophical and technological infrastructure of the movement.  We\'re not at this for profit. Nor are we sponsored by any governments or corporations.  We\'re at this for the planet and for the wellbeing of all of us living on it.',
         '219-tour-done-button': '✓ Done',
         '220-tour-6-reference': 'Learn more about us <a href="/about">ecobricks.org/about</a>',
     

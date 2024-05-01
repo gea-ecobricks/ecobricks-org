@@ -1,534 +1,426 @@
-[
-  
-  {
-    "id": "26",
-    "title": "biome",
-    "keywords": "biome, biomes, ecosystem, biosphere",
-    "description": "An ecosystem of ecosystems: a core component of a biosphere.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
 
-},
-
-  
-  {
-    "id": "25",
-    "title": "Ayyew",
-    "keywords": "ayyew, ayyews, ayyewed, ayew",
-    "description": "The Igorot virtue of ever increasing one’s sync with ecological cycles.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
-},
-
-  
-
-
-{
-  "id": "27",
-  "title": "biosphere",
-  "keywords": "biosphere, biospheres, ecosystem, biome",
-  "description": "The all-encompassing ecology of a planet (usually that of Earth).",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-{
-  "id": "28",
-  "title": "biodiversity",
-  "keywords": "biodiversity, ecology, species, ecosystem",
-  "description": "The variety and plurality of species in a biological system.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
- 
-
-
-
-
-{
-  "id": "29",
-  "title": "cosmological character",
-  "keywords": "cosmological character",
-  "description": "The unique history, configuration, and composition of each planet that gives it its characteristic pattern of processes.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-  "id": "30",
-  "title": "dap'ay",
-  "keywords": "dapay, dap'ay, stone henge, mandala, stonehenge",
-  "description": "The central stone plaza of every Igorot village that is used for ceremonies, feasts, and storytelling.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-    "id": "31",
-    "title": "earth",
-    "keywords": "earth, Earth, earthen",
-    "description": "Soil, ground [lowercase ‘e’]. Used with an article (i.e. “the”)",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-  {
-    "id": "32",
-    "title": "Earth",
-    "keywords": "Earth, earth, earthen,",
-    "description": "The third planet orbiting the sun [uppercase ‘E’]. Used without an article.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
-
-
-
-},
-
-
-
-  {
-    "id": "33",
-    "title": "Earthen",
-    "keywords": "Earthen, earthen",
-    "description": "Of the character of the Earth. [Capital ‘E’]",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-  {
-    "id": "34",
-    "title": "earthen",
-    "keywords": "earthen, Earthen",
-    "description": "Of the earth (i.e. soil, ground) [lowercase ‘e’]",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-  {
-    "id": "35",
-    "title": "Earthen ethics",
-    "keywords": "Earthen Ethics,",
-    "description": "An ethical framework for discerning the ecological color of an act, process, or enterprise based on the example of Earth.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-  {
-    "id": "36",
-    "title": "Earth Enterprise",
-    "keywords": "Earth Enterprise,",
-    "description": "An enterprise that strives first and foremost to enrich the biosphere by following Earth’s example.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-{
-  "id": "36.1",
-  "title": "Earthling",
-  "keywords": "earth, earthling,",
-  "description": "An inhabitant of planet Earth.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
- "url": "glossary.php"
-}, 
-
-
-
-
-  {
-    "id": "37",
-    "title": "ecological contribution",
-    "keywords": "Ecological Contribution, ecological contributions,",
-    "description": "A process that fully embodies the principles of Earthen ethics. A green ecological impact.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-  {
-    "id": "38",
-    "title": "ecological consciousness",
-    "keywords": "Ecological Consciousness,",
-    "description": "An awareness of one’s interconnection to the cycles of life near and far, old and new, local and global.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-  {
-    "id": "39",
-    "title": "ecology",
-    "keywords": "ecology, ecologies, ecological",
-    "description": "A biological system; a part of a biome.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
-
-
-
-},
-
-
-
-  {
-    "id": "40",
-    "title": "green",
-    "keywords": "green, greens",
-    "description": "An ecological contribution: a process that follows Earth’s example by embodying all the Earthen principles.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
-
-},
-
-
-
-  {
-    "id": "41",
-    "title": "grey",
-    "keywords": "grey, greys",
-    "description": "A depleting ecological impact: a process that fails to embody all the Earthen principles.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
-
-
-
-},
-
-
-
-  
-{
-  "id": "41",
-  "title": "fossil fuels",
-  "keywords": "fossil fuels, ancient carbon stores",
-  "description": "A modern term to describe the Earth’s ancient compacted carbon stores.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-{
-  "id": "42",
-  "title": "Igorots",
-  "keywords": "Igorot, igorots, highlands, northern Luzon, West Philippines Sea",
-  "description": "The people of the highlands of northern Luzon, in the West Philippines Sea.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-{
-  "id": "43",
-  "title": "humancentric",
-  "keywords": "humancentric, anthropocentric, humans, natural environment",
-  "description": "A view of the world in which humans are central and separate from the natural environment around them. Also, 'anthropocentric'.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-{
-  "id": "44",
-  "title": "cyclocentric",
-  "keywords": "cyclocentric, cycle, kincentric, ecocentric, biocentric, synchony, William Henry Scott, Igorot Ayyew culture",
-  "description": "From the Greek Κύκλος for 'Cycle', we introduce the term 'cyclocentric' to describe kincentric cultures and their propensity to self organize around the sync and celebration of Earthen cycles.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-  "id": "45",
-  "title": "kincentric",
-  "keywords": "kincentric, humancentric, anthropocentric, kin, kincentricism",
-  "description": "In opposition to humancentric; a view of the world in which plants, humans, animals and all Earthen organisms share ancestry and origins, cycles and ecosystems.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-{
-  "id": "46",
-  "title": "petro-capital economy",
-  "keywords": "petro-capital economy, petroleum energy, fossil fuels, flow of capital, capitalism,capital",
-  "description": "An economy whose flow and generation of capital is powered by petroleum energy.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-{
-  "id": "47",
-  "title": "plastic sequestration",
-  "keywords": "plastic sequestration, concentrating, compacting, building blocks, long-term storage, not-for-profit, consciousness, biodiversity, net-subtractive",
-  "description": "The process of concentrating and compacting plastic to create short term building blocks that secure and store plastic over the long-term, in a not-for-profit process that raises consciousness, supports biodiversity and is net-subtractive.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-{
-  "id": "48",
-  "title": "plastic’s stellar story",
-  "keywords": "plastic, carbon sequestration, Earth, de-compacted",
-  "description": "The four billion year view of plastic as carbon sequestered by the Earth, and de-compacted by humans.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-  "id": "49",
-  "title": "plastic 1.0",
-  "keywords": "plastic 1.0, plastic as human-made, managed",
-  "description": "The paradigm of plastic as human made and managed.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-  "id": "50",
-  "title": "plastic 2.0",
-  "keywords": "plastic 2.0, Earth's process, cultivating biosphere, petro-capital economy",
-  "description": "The paradigm of plastic as a part of the Earth’s billion year process of cultivating the biosphere and as representation of our petro-capital economy.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-{
-  "id": "51",
-  "title": "regenerative",
-  "keywords": "regenerative, greening process, subtractive impact, additive impact",
-  "description": "A greening process whose subtractive impact is over twice that of its additive impact.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-  "id": "52",
-  "title": "Wetʼsuwetʼen",
-  "keywords": "Wet'suwet'en, Wet'suwet'en Nation, First Nations, Bulkley River",
-  "description": "Wetʼsuwetʼen are a First Nations people who live on the Bulkley River in the northwestern region of the Canadian province of British Columbia. The Wet'suwet'en Nation is composed of five clans, each of which has its own traditional territory and hereditary leaders.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-  "id": "54",
-  "title": "Spiral Design",
-  "keywords": "cycles, spiral, circular, cyclical, regenerative,design, principles",
-  "description": "The Earthen principle of crafting indefinite cycles that ever enriching, both socially and ecologically.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-  "id": "53",
-  "title": "for-Earth",
-  "keywords": "Earth Enterprise, for-Earth, not-for-profit, for-profit, nfp, mcclurahan",
-  "description": "The intention of an enterprise to strive first and foremost to enrich the biosphere by following Earth’s example.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-{
-  "id": "53",
-  "title": "mandala",
-  "keywords": "mandalas, mandalic, mandala",
-  "description": "Mandalas are an ancient and sacred, circular and geometric art that can be found in cultures around the world.  From the sanskrit, meaning 'circle'",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-  "id": "54",
-  "title": "ecobrick",
-  "keywords": "ecobrick, eco, eco-brique, ecobrique, ecoladrillo, Ecobrick, eco-brick, brik, ecobrik",
-  "description": "An ecobrick is a plastic bottle densely packed with used plastic to create a reusable building block that achieves plastic sequestration. ",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-  "url": "glossary.php"
-}
-]
+  [
+    {
+      "id": "26",
+      "title": "bioma",
+      "keywords": "bioma, biomas, ecosistema, biosfera",
+      "description": "Un ecosistema de ecosistemas: un componente central de una biosfera.",
+      "language": "Español",
+      "lang_key": "es",
+      "section": "glosario",
+      "image_url": "../icons/glossary-day.svg",
+      "image_url_night": "../icons/glossary-night.svg",
+      "url": "glossary.php"
+    },
+
+    {
+      "id": "25",
+      "title": "Ayyew",
+      "keywords": "ayyew, ayyews, ayyewed, ayew",
+      "description": "La virtud Igorot de aumentar continuamente la sincronización con los ciclos ecológicos.",
+      "language": "Español",
+      "lang_key": "es",
+      "section": "glosario",
+      "image_url": "../icons/glossary-day.svg",
+      "image_url_night": "../icons/glossary-night.svg",
+      "url": "glossary.php"
+    },
+    {
+      "id": "27",
+      "title": "biosfera",
+      "keywords": "biosfera, biosferas, ecosistema, bioma",
+      "description": "La ecología que abarca todo de un planeta (usualmente la de la Tierra).",
+      "language": "Español",
+      "lang_key": "es",
+      "section": "glosario",
+      "image_url": "../icons/glossary-day.svg",
+      "image_url_night": "../icons/glossary-night.svg",
+      "url": "glossary.php"
+    },
+
+    
+      {
+        "id": "28",
+        "title": "biodiversidad",
+        "keywords": "biodiversidad, ecología, especies, ecosistema",
+        "description": "La variedad y pluralidad de especies en un sistema biológico.",
+        "language": "Español",
+        "lang_key": "es",
+        "section": "glosario",
+        "image_url": "../icons/glossary-day.svg",
+        "image_url_night": "../icons/glossary-night.svg",
+        "url": "glossary.php"
+      },
+      {
+        "id": "29",
+        "title": "carácter cosmológico",
+        "keywords": "carácter cosmológico",
+        "description": "La historia única, configuración y composición de cada planeta que le otorga su patrón característico de procesos.",
+        "language": "Español",
+        "lang_key": "es",
+        "section": "glosario",
+        "image_url": "../icons/glossary-day.svg",
+        "image_url_night": "../icons/glossary-night.svg",
+        "url": "glossary.php"
+      },
+      {
+        "id": "30",
+        "title": "dap'ay",
+        "keywords": "dapay, dap'ay, henge de piedras, mandala, Stonehenge",
+        "description": "La plaza central de piedra de cada aldea Igorot que se utiliza para ceremonias, festines y narración de cuentos.",
+        "language": "Español",
+        "lang_key": "es",
+        "section": "glosario",
+        "image_url": "../icons/glossary-day.svg",
+        "image_url_night": "../icons/glossary-night.svg",
+        "url": "glossary.php"
+      },
+      {
+        "id": "31",
+        "title": "tierra",
+        "keywords": "tierra, Tierra, terrestre",
+        "description": "Suelo, terreno [con ‘t’ minúscula]. Se utiliza con un artículo (p. ej., 'la').",
+        "language": "Español",
+        "lang_key": "es",
+        "section": "glosario",
+        "image_url": "../icons/glossary-day.svg",
+        "image_url_night": "../icons/glossary-night.svg",
+        "url": "glossary.php"
+      },
+
+        {
+          "id": "32",
+          "title": "Tierra",
+          "keywords": "Tierra, tierra, terrestre",
+          "description": "El tercer planeta que orbita al sol [con 'T' mayúscula]. Se usa sin artículo.",
+          "language": "Español",
+          "lang_key": "es",
+          "section": "glosario",
+          "image_url": "../icons/glossary-day.svg",
+          "image_url_night": "../icons/glossary-night.svg",
+          "url": "glossary.php"
+        },
+        {
+          "id": "33",
+          "title": "Terrestre",
+          "keywords": "Terrestre, terrestre",
+          "description": "Del carácter de la Tierra. [Con 'T' mayúscula]",
+          "language": "Español",
+          "lang_key": "es",
+          "section": "glosario",
+          "image_url": "../icons/glossary-day.svg",
+          "image_url_night": "../icons/glossary-night.svg",
+          "url": "glossary.php"
+        },
+        {
+          "id": "34",
+          "title": "terrestre",
+          "keywords": "terrestre, Terrestre",
+          "description": "De la tierra (es decir, suelo, terreno) [con 't' minúscula]",
+          "language": "Español",
+          "lang_key": "es",
+          "section": "glosario",
+          "image_url": "../icons/glossary-day.svg",
+          "image_url_night": "../icons/glossary-night.svg",
+          "url": "glossary.php"
+        },
+        {
+          "id": "35",
+          "title": "Ética Terrestre",
+          "keywords": "Ética Terrestre",
+          "description": "Un marco ético para discernir el color ecológico de un acto, proceso o empresa basado en el ejemplo de la Tierra.",
+          "language": "Español",
+          "lang_key": "es",
+          "section": "glosario",
+          "image_url": "../icons/glossary-day.svg",
+          "image_url_night": "../icons/glossary-night.svg",
+          "url": "glossary.php"
+        },
+        {
+          "id": "36",
+          "title": "Empresa Terrestre",
+          "keywords": "Empresa Terrestre",
+          "description": "Una empresa que se esfuerza ante todo por enriquecer la biosfera siguiendo el ejemplo de la Tierra.",
+          "language": "Español",
+          "lang_key": "es",
+          "section": "glosario",
+          "image_url": "../icons/glossary-day.svg",
+          "image_url_night": "../icons/glossary-night.svg",
+          "url": "glossary.php"
+        },
+      
+      
+      
+          {
+            "id": "36.1",
+            "title": "Terrícola",
+            "keywords": "tierra, terrícola",
+            "description": "Un habitante del planeta Tierra.",
+            "language": "Español",
+            "lang_key": "es",
+            "section": "glosario",
+            "image_url": "../icons/glossary-day.svg",
+            "image_url_night": "../icons/glossary-night.svg",
+            "url": "glossary.php"
+          },
+          {
+            "id": "37",
+            "title": "contribución ecológica",
+            "keywords": "Contribución Ecológica, contribuciones ecológicas",
+            "description": "Un proceso que encarna completamente los principios de la ética Terrestre. Un impacto ecológico verde.",
+            "language": "Español",
+            "lang_key": "es",
+            "section": "glosario",
+            "image_url": "../icons/glossary-day.svg",
+            "image_url_night": "../icons/glossary-night.svg",
+            "url": "glossary.php"
+          },
+          {
+            "id": "38",
+            "title": "conciencia ecológica",
+            "keywords": "Conciencia Ecológica",
+            "description": "Una conciencia de la interconexión de uno con los ciclos de vida cercanos y lejanos, antiguos y nuevos, locales y globales.",
+            "language": "Español",
+            "lang_key": "es",
+            "section": "glosario",
+            "image_url": "../icons/glossary-day.svg",
+            "image_url_night": "../icons/glossary-night.svg",
+            "url": "glossary.php"
+          },
+          {
+            "id": "39",
+            "title": "ecología",
+            "keywords": "ecología, ecologías, ecológico",
+            "description": "Un sistema biológico; una parte de un bioma.",
+            "language": "Español",
+            "lang_key": "es",
+            "section": "glosario",
+            "image_url": "../icons/glossary-day.svg",
+            "image_url_night": "../icons/glossary-night.svg",
+            "url": "glossary.php"
+          },
+          {
+            "id": "40",
+            "title": "verde",
+            "keywords": "verde, verdes",
+            "description": "Una contribución ecológica: un proceso que sigue el ejemplo de la Tierra encarnando todos los principios Terrestres.",
+            "language": "Español",
+            "lang_key": "es",
+            "section": "glosario",
+            "image_url": "../icons/glossary-day.svg",
+            "image_url_night": "../icons/glossary-night.svg",
+            "url": "glossary.php"
+          },
+        
+      
+            {
+              "id": "41",
+              "title": "gris",
+              "keywords": "gris, grises",
+              "description": "Un impacto ecológico agotador: un proceso que no logra encarnar todos los principios Terrestres.",
+              "language": "Español",
+              "lang_key": "es",
+              "section": "glosario",
+              "image_url": "../icons/glossary-day.svg",
+              "image_url_night": "../icons/glossary-night.svg",
+              "url": "glossary.php"
+            },
+            {
+              "id": "41",
+              "title": "combustibles fósiles",
+              "keywords": "combustibles fósiles, reservas de carbono antiguas",
+              "description": "Un término moderno para describir las reservas de carbono compactado antiguo de la Tierra.",
+              "language": "Español",
+              "lang_key": "es",
+              "section": "glosario",
+              "image_url": "../icons/glossary-day.svg",
+              "image_url_night": "../icons/glossary-night.svg",
+              "url": "glossary.php"
+            },
+            {
+              "id": "42",
+              "title": "Igorots",
+              "keywords": "Igorot, igorots, tierras altas, norte de Luzón, mar de Filipinas Occidental",
+              "description": "La gente de las tierras altas del norte de Luzón, en el mar de Filipinas Occidental.",
+              "language": "Español",
+              "lang_key": "es",
+              "section": "glosario",
+              "image_url": "../icons/glossary-day.svg",
+              "image_url_night": "../icons/glossary-night.svg",
+              "url": "glossary.php"
+            },
+            {
+              "id": "43",
+              "title": "antropocéntrico",
+              "keywords": "antropocéntrico, humano, entorno natural",
+              "description": "Una visión del mundo en la que los humanos son centrales y están separados del entorno natural que los rodea. También, 'antropocéntrico'.",
+              "language": "Español",
+              "lang_key": "es",
+              "section": "glosario",
+              "image_url": "../icons/glossary-day.svg",
+              "image_url_night": "../icons/glossary-night.svg",
+              "url": "glossary.php"
+            },
+            {
+              "id": "44",
+              "title": "ciclocéntrico",
+              "keywords": "ciclocéntrico, ciclo, quincentrico, ecocéntrico, biocéntrico, sincronía, William Henry Scott, cultura Ayyew Igorot",
+              "description": "Del griego Κύκλος que significa 'Ciclo', introducimos el término 'ciclocéntrico' para describir las culturas quincentricas y su propensión a autoorganizarse en torno a la sincronización y celebración de los ciclos Terrestres.",
+              "language": "Español",
+              "lang_key": "es",
+              "section": "glosario",
+              "image_url": "../icons/glossary-day.svg",
+              "image_url_night": "../icons/glossary-night.svg",
+              "url": "glossary.php"
+            },
+            {
+              "id": "45",
+              "title": "kincéntrico",
+              "keywords": "kincéntrico, antropocéntrico, humano, kincéntricsim",
+              "description": "En oposición a antropocéntrico; una visión del mundo en la que plantas, humanos, animales y todos los organismos Terrestres comparten ascendencia y orígenes, ciclos y ecosistemas.",
+              "language": "Español",
+              "lang_key": "es",
+              "section": "glosario",
+              "image_url": "../icons/glossary-day.svg",
+              "image_url_night": "../icons/glossary-night.svg",
+              "url": "glossary.php"
+            },
+          
+              {
+                "id": "46",
+                "title": "economía del petrocapital",
+                "keywords": "economía del petrocapital, energía de petróleo, combustibles fósiles, flujo de capital, capitalismo, capital",
+                "description": "Una economía cuyo flujo y generación de capital está impulsado por la energía del petróleo.",
+                "language": "Español",
+                "lang_key": "es",
+                "section": "glosario",
+                "image_url": "../icons/glossary-day.svg",
+                "image_url_night": "../icons/glossary-night.svg",
+                "url": "glossary.php"
+              },
+              {
+                "id": "47",
+                "title": "secuestro de plástico",
+                "keywords": "secuestro de plástico, concentrando, compactando, bloques de construcción, almacenamiento a largo plazo, sin fines de lucro, conciencia, biodiversidad, neto sustractivo",
+                "description": "El proceso de concentrar y compactar plástico para crear bloques de construcción a corto plazo que aseguran y almacenan el plástico a largo plazo, en un proceso sin fines de lucro que eleva la conciencia, apoya la biodiversidad y es netamente sustractivo.",
+                "language": "Español",
+                "lang_key": "es",
+                "section": "glosario",
+                "image_url": "../icons/glossary-day.svg",
+                "image_url_night": "../icons/glossary-night.svg",
+                "url": "glossary.php"
+              },
+              {
+                "id": "48",
+                "title": "la historia estelar del plástico",
+                "keywords": "plástico, secuestro de carbono, Tierra, descompactado",
+                "description": "La visión de cuatro mil millones de años del plástico como carbono secuestrado por la Tierra y descompactado por los humanos.",
+                "language": "Español",
+                "lang_key": "es",
+                "section": "glosario",
+                "image_url": "../icons/glossary-day.svg",
+                "image_url_night": "../icons/glossary-night.svg",
+                "url": "glossary.php"
+              },
+              {
+                "id": "49",
+                "title": "plástico 1.0",
+                "keywords": "plástico 1.0, plástico como hecho por humanos, gestionado",
+                "description": "El paradigma del plástico como hecho y gestionado por humanos.",
+                "language": "Español",
+                "lang_key": "es",
+                "section": "glosario",
+                "image_url": "../icons/glossary-day.svg",
+                "image_url_night": "../icons/glossary-night.svg",
+                "url": "glossary.php"
+              },
+              {
+                "id": "50",
+                "title": "plástico 2.0",
+                "keywords": "plástico 2.0, proceso de la Tierra, cultivando biosfera, economía del petrocapital",
+                "description": "El paradigma del plástico como parte del proceso de mil millones de años de la Tierra de cultivar la biosfera y como representación de nuestra economía del petrocapital.",
+                "language": "Español",
+                "lang_key": "es",
+                "section": "glosario",
+                "image_url": "../icons/glossary-day.svg",
+                "image_url_night": "../icons/glossary-night.svg",
+                "url": "glossary.php"
+              },
+              {
+                "id": "51",
+                "title": "regenerativo",
+                "keywords": "regenerativo, proceso de reverdecimiento, impacto sustractivo, impacto aditivo",
+                "description": "Un proceso de reverdecimiento cuyo impacto sustractivo es más del doble que su impacto aditivo.",
+                "language": "Español",
+                "lang_key": "es",
+                "section": "glosario",
+                "image_url": "../icons/glossary-day.svg",
+                "image_url_night": "../icons/glossary-night.svg",
+                "url": "glossary.php"
+              },
+            
+        
+                {
+                  "id": "52",
+                  "title": "Wetʼsuwetʼen",
+                  "keywords": "Wet'suwet'en, Nación Wet'suwet'en, Primeras Naciones, Río Bulkley",
+                  "description": "Los Wetʼsuwetʼen son un pueblo de las Primeras Naciones que vive en el río Bulkley en la región noroeste de la provincia canadiense de Columbia Británica. La Nación Wet'suwet'en está compuesta por cinco clanes, cada uno de los cuales tiene su propio territorio tradicional y líderes hereditarios.",
+                  "language": "Español",
+                  "lang_key": "es",
+                  "section": "glosario",
+                  "image_url": "../icons/glossary-day.svg",
+                  "image_url_night": "../icons/glossary-night.svg",
+                  "url": "glossary.php"
+                },
+                {
+                  "id": "54",
+                  "title": "Diseño Espiral",
+                  "keywords": "ciclos, espiral, circular, cíclico, regenerativo, diseño, principios",
+                  "description": "El principio Terrestre de diseñar ciclos indefinidos que son enriquecedores, tanto social como ecológicamente.",
+                  "language": "Español",
+                  "lang_key": "es",
+                  "section": "glosario",
+                  "image_url": "../icons/glossary-day.svg",
+                  "image_url_night": "../icons/glossary-night.svg",
+                  "url": "glossary.php"
+                },
+                {
+                  "id": "53",
+                  "title": "pro-Tierra",
+                  "keywords": "Empresa Terrestre, pro-Tierra, sin ánimo de lucro, con ánimo de lucro, nfp, mcclurahan",
+                  "description": "La intención de una empresa de esforzarse ante todo por enriquecer la biosfera siguiendo el ejemplo de la Tierra.",
+                  "language": "Español",
+                  "lang_key": "es",
+                  "section": "glosario",
+                  "image_url": "../icons/glossary-day.svg",
+                  "image_url_night": "../icons/glossary-night.svg",
+                  "url": "glossary.php"
+                },
+                {
+                  "id": "53",
+                  "title": "mandala",
+                  "keywords": "mandalas, mandálico, mandala",
+                  "description": "Los mandalas son un arte antiguo y sagrado, circular y geométrico que se encuentra en culturas de todo el mundo. Del sánscrito, que significa 'círculo'.",
+                  "language": "Español",
+                  "lang_key": "es",
+                  "section": "glosario",
+                  "image_url": "../icons/glossary-day.svg",
+                  "image_url_night": "../icons/glossary-night.svg",
+                  "url": "glossary.php"
+                },
+                {
+                  "id": "54",
+                  "title": "ecoladrillo",
+                  "keywords": "ecoladrillo, eco, eco-brique, ecobrique, ecoladrillo, Ecobrick, eco-ladrillo, brik, ecobrik",
+                  "description": "Un ecoladrillo es una botella de plástico densamente compactada con plástico usado para crear un bloque de construcción reutilizable que logra el secuestro de plástico.",
+                  "language": "Español",
+                  "lang_key": "es",
+                  "section": "glosario",
+                  "image_url": "../icons/glossary-day.svg",
+                  "image_url_night": "../icons/glossary-night.svg",
+                  "url": "glossary.php"
+                }
+
+
+              ]
+              
