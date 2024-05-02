@@ -1,4 +1,4 @@
-[
+
   [
     {
       "id": "26",
@@ -38,7 +38,7 @@
     },
   
   
-    [
+  
       {
         "id": "28",
         "title": "biodiversitas",
@@ -76,7 +76,7 @@
         "url": "glossary.php"
       },
 
-      
+
       {
         "id": "31",
         "title": "bumi",
@@ -88,7 +88,7 @@
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
         "url": "glossary.php"
-      }
+      },
     
     
 

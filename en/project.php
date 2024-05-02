@@ -74,10 +74,10 @@ if ($result->num_rows > 0) {
 
 		 echo ' <div class="main-details">
 					
-					<div class="page-paragraph">
-						<p>'. $array["description_long"] .'</p>
-						<br>
-					</div>
+		 <div class="page-paragraph">
+		 <p>'. nl2br(htmlspecialchars($array["description_long"], ENT_QUOTES, 'UTF-8')) .'</p>
+		 <br>
+	 </div>
 
 				</div>
 				<br>';
