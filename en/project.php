@@ -17,6 +17,9 @@ ini_set('display_errors', 1);?>
 require_once ("../includes/project-inc.php");
 include '../ecobricks_env.php';
 
+$conn->set_charset("utf8mb4");
+
+
 $projectId = $_GET['project_id'];
 
 $sql = "SELECT * FROM tb_projects WHERE project_id = ?";
@@ -84,8 +87,8 @@ if ($result->num_rows > 0) {
 
 				echo ' <div class="main-details">
 					
-				<div class="page-paragraph">
-					<p>'. $array["description_long"] .'2</p>
+				<div class="page-paragraph">	
+					<p><pre>'. $array["description_long"] .'</pre></p>
 					<br>
 				</div>
 
