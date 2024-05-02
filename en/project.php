@@ -85,16 +85,6 @@ if ($result->num_rows > 0) {
 				</div>
 				<br>';
 
-				echo ' <div class="main-details">
-					
-				<div class="page-paragraph">	
-					<p>'. $array["description_long"] .'</p>
-					<br>
-				</div>
-
-			</div>
-			<br>';
-
 				
 				require_once ("../includes/project-inc.php");
 				include '../ecobricks_env.php';
