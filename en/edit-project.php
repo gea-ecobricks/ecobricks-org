@@ -156,7 +156,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php $page='edit-project';?>
 
 
-<?php require_once ("../includes/add-project-inc.php");?>
+<?php require_once ("../includes/edit-project-inc.php");?>
 
 
 <div class="splash-content-block"></div>
