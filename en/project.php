@@ -88,7 +88,7 @@ if ($result->num_rows > 0) {
 				echo ' <div class="main-details">
 					
 				<div class="page-paragraph">	
-					<p><pre>'. $array["description_long"] .'</pre></p>
+					<p>'. $array["description_long"] .'</p>
 					<br>
 				</div>
 
