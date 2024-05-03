@@ -10,7 +10,7 @@
 
 <?php require_once ("../includes/plastic-inc.php");?>
 
-<!-- <article id="the-long-story-of-plastic"> -->
+<article id="the-long-story-of-plastic">
 
 
 <!--PAGE BANNER-->
@@ -113,131 +113,126 @@
                 <p data-lang-id="030-page-paragraph">Yet, after turning many corner, there was still no solution. Meanwhile, there as so much burning, dumping, so much Co2 and so much plastic, that everyone knew that there was a problem with an economy and lifestyle that had to be powered by ‘fossil fuels’.</p>
 
                 <p data-lang-id="031-page-paragraph">It became clear to the humans in these petro-capital economies that that they had much to learn from the planet’s way of relentlessly enriching the biosphere. Looking at indigenous peoples who had lived for centuries in ecological harmony with their surroundings, it was clear that they had much to learn from them also…</p>
+            </div> <!--Closes Page Paragraoh Reg-->
 
 
 
-	<div class="reg-content-block" id="block1">
+	        <div class="reg-content-block" id="block1">
 
-		<div class="opener-header">
+		        <div class="opener-header">
 	
-			<div class="opener-header-text" data-lang-id="006-opener-header-text">
-			<h4>Learning from the Earth</h4>
-			<h5>Over the last few billion years we can learn much from the way the Earth transformed from a barren rock to a green, abundant, biodiverse, stable and conscious biosphere. </h5>   
-			<br>
-			</div>
+                    <div class="opener-header-text" data-lang-id="006-opener-header-text">
+                    <h4>Learning from the Earth</h4>
+                    <h5>Over the last few billion years we can learn much from the way the Earth transformed from a barren rock to a green, abundant, biodiverse, stable and conscious biosphere. </h5>   
+                    <br>
+                    </div>
 
-			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-		</div>
+                    <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+                </div>
 
-		<div id="preclosed1">
+                <div id="preclosed1">
 
-			<br>
-			<p data-lang-id="032-page-paragraph">A key part of this process has been the processing of carbon!  By looking closely at the Earth’s example we see the way that…</p>
-			<ul>
-				<li data-lang-id="034a-list-paragraph">the Earth used carbon in the short-term as an indefinite building block.</li>
-				<li data-lang-id="034b-list-paragraph">the Earth compacted and secured carbon into long-term storage out of the biosphere.</li>
-				<li data-lang-id="034c-list-paragraph">all of the Earth’s procesess subtracted more carbon into storage than they added back to the atmosphere.</li>
-				<li data-lang-id="034d-list-paragraph">all of the Earth’s processes move towards the increase in consciousness of those organisms involved</li>
-				<li data-lang-id="034e-list-paragraph">all of the Earth’s processes moved towards the increase in biodiversity</li>
-				<li data-lang-id="034f-list-paragraph">all of the Earth’s processes benefit the biosphere over the biome, the biome over its ecologies, the whole over the parts.</li>
-				</ul>
-				<p data-lang-id="035-page-paragraph">We can also draw some important conclusions from our modern experience…</p>
-				<ul><li data-lang-id="036-list-paragraph">Keeping the carbon that is already under the ground is the easiest way to prevent it from getting into the atmosphere</li>
-				<li data-lang-id="036-list-paragraph">There is a direct connection between the running of the petro-capital economy and the decompaction of carbon deposits</li>
-			</ul>
+                    <br>
+                    <p data-lang-id="032-page-paragraph">A key part of this process has been the processing of carbon!  By looking closely at the Earth’s example we see the way that…</p>
+                    <ul>
+                        <li data-lang-id="034a-list-paragraph">the Earth used carbon in the short-term as an indefinite building block.</li>
+                        <li data-lang-id="034b-list-paragraph">the Earth compacted and secured carbon into long-term storage out of the biosphere.</li>
+                        <li data-lang-id="034c-list-paragraph">all of the Earth’s procesess subtracted more carbon into storage than they added back to the atmosphere.</li>
+                        <li data-lang-id="034d-list-paragraph">all of the Earth’s processes move towards the increase in consciousness of those organisms involved</li>
+                        <li data-lang-id="034e-list-paragraph">all of the Earth’s processes moved towards the increase in biodiversity</li>
+                        <li data-lang-id="034f-list-paragraph">all of the Earth’s processes benefit the biosphere over the biome, the biome over its ecologies, the whole over the parts.</li>
+                        </ul>
+                        <p data-lang-id="035-page-paragraph">We can also draw some important conclusions from our modern experience…</p>
+                        <ul><li data-lang-id="036-list-paragraph">Keeping the carbon that is already under the ground is the easiest way to prevent it from getting into the atmosphere</li>
+                        <li data-lang-id="036-list-paragraph">There is a direct connection between the running of the petro-capital economy and the decompaction of carbon deposits</li>
+                    </ul>
 
-			<a href="../svgs/Plastic-Mellenium-Paths.pdf" target="_blank" data-lang-id="014-millenium-img-alt"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy" data-lang-id="014-image-mellenium-paths"></a>
+                    <a href="../svgs/Plastic-Mellenium-Paths.pdf" target="_blank" data-lang-id="014-millenium-img-alt"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy" data-lang-id="014-image-mellenium-paths"></a>
 
-			<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="015-link to-chart">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
-		</div>
-	</div>
-
-
-    <div class="reg-content-block" id="block2">
-
-		<div class="opener-header">
-	
-			<div class="opener-header-text" data-lang-id="006-opener-header-text">
-			<h4 data-lang-id="037-page-paragraph">Seeing Plastic Anew</h4>
-			<h5 data-lang-id="038-page-paragraph">In light of Earth’s ancient history, we can see the modern of history of plastic differently…</h5>   
-			<br>
-			</div>
-
-			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-		</div>
-
-		<div id="preclosed2">
-
-			<p data-lang-id="038-page-paragraph">In light of the Earth’s ancient history, we can see the modern of history of plastic differently…</p>
-
-			<ul>
-                <li data-lang-id="039a-list-paragraph">There is a direction connection between the running of the petro-capital economy and the production and dispersal of plastic</li>
-                <li data-lang-id="039b-list-paragraph">Plastic is the one form of processed fuels that remains densely compacted</li>
-                <li data-lang-id="039c-list-paragraph">Processing plastic in the petro-capital system perpetuates the decompaction of stored carbon, the release of CO2, and the dispersal of plastic</li>
-                <li data-lang-id="039d-list-paragraph">Plastics loose in the biosphere quickly degrade into greenhouse gases, micro-plastics and toxins.</li>
-            </ul>
-		</div>
-    </div>
-
-
-
-<div class="reg-content-block" id="block3">
-
-    <div class="opener-header">
-
-        <div class="opener-header-text" data-lang-id="006-opener-header-text">
-        <h4 data-lang-id="040-page-paragraph">Learning from Indigenous Peoples</h4>
-        <h5 data-lang-id="041-page-paragraph">In light of Earth’s ancient history, we can see the modern of history of plastic differently…</h5>   
-        <br>
-        </div>
-
-        <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
-    </div>
-
-    <div id="preclosed3">
-
-			<p data-lang-id="041-page-paragraph">Many great civilizations and nations throughout human history have thrived in harmony with their surrounding ecologies. The way their looked at the world, what they valued and how they used money (capital) is something that we can learn much from.</p>
-
-			<p data-lang-id="042-page-paragraph">The Igorot people have lived in ecological abundance in what is now the Northern Philippines for the last centuries. In their world view they have a virtue for making a place ever greener.  Someone who successfully transforming barren land into a field, or a field into a garden, or a garden into a forest is called "<a href="../ayyew">Ayyew</a>".  The virtue ranks with Courageous, Honor, and Loyalty in their way of seeing the world.  The underlying idea of Ayyew is syncing with cycles into ever greater harmony. It is an idea that can help us make sense of the way the Earth has been working for the last few billion years. In fact, this is probably what inspired the Igorots in the first place.</p>
-
-		</div>
-    </div>
-
-
-    <div class="reg-content-block" id="block4">
-
-        <div class="opener-header">
-
-            <div class="opener-header-text" data-lang-id="006-opener-header-text">
-            <h4 data-lang-id="040-page-paragraph">Learning from Indigenous Peoples</h4>
-            <h5 data-lang-id="041-page-paragraph">In light of Earth’s ancient history, we can see the modern of history of plastic differently…</h5>   
-            <br>
+                    <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="015-link to-chart">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
+                </div>
             </div>
 
-            <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
-        </div>
 
-    <div id="preclosed4">
+            <div class="reg-content-block" id="block2">
+
+                <div class="opener-header">
+            
+                    <div class="opener-header-text" data-lang-id="006-opener-header-text">
+                    <h4 data-lang-id="037-page-paragraph">Seeing Plastic Anew</h4>
+                    <h5 data-lang-id="038-page-paragraph">In light of Earth’s ancient history, we can see the modern of history of plastic differently…</h5>   
+                    <br>
+                    </div>
+
+                    <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+                </div>
+
+                <div id="preclosed2">
+
+                    <p data-lang-id="038-page-paragraph">In light of the Earth’s ancient history, we can see the modern of history of plastic differently…</p>
+
+                    <ul>
+                        <li data-lang-id="039a-list-paragraph">There is a direction connection between the running of the petro-capital economy and the production and dispersal of plastic</li>
+                        <li data-lang-id="039b-list-paragraph">Plastic is the one form of processed fuels that remains densely compacted</li>
+                        <li data-lang-id="039c-list-paragraph">Processing plastic in the petro-capital system perpetuates the decompaction of stored carbon, the release of CO2, and the dispersal of plastic</li>
+                        <li data-lang-id="039d-list-paragraph">Plastics loose in the biosphere quickly degrade into greenhouse gases, micro-plastics and toxins.</li>
+                    </ul>
+                </div>
+            </div>
 
 
 
-		<h3 data-lang-id="043-page-paragraph">Plastic Sequestration</h3>
+        <div class="reg-content-block" id="block3">
 
-            <p data-lang-id="044-page-paragraph">Plastic is also the one fossil fuel by-product that doesn’t get immediately released into the atmosphere.  As a form of concentrated carbon, it is has direct connection to Earth’s ancient past. Our daily usage of plastic connects us  to the petro-capital economy at the root of modern carbon decompaction.</p>
+            <div class="opener-header">
 
-            <p data-lang-id="045-page-paragraph">Earth’s example of short short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.  Learn more…</p>
+                <div class="opener-header-text" data-lang-id="006-opener-header-text">
+                <h4 data-lang-id="040-page-paragraph">Learning from Indigenous Peoples</h4>
+                <h5 data-lang-id="041-page-paragraph">In light of Earth’s ancient history, we can see the modern of history of plastic differently…</h5>   
+                <br>
+                </div>
 
-            <a class="action-btn" href="sequest.php" data-lang-id="046-button">🚀 Plastic Sequestration</a>
-            <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">Go deep into the concept of plastic sequestration</p>
+                <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+            </div>
 
-        
-			<h2>References &amp; Recommended Readings</h2>
-            <p>For a more extensive version of this page, with full footnotes, please see the <a href="https://files.mandala.team/s/QsiDZMty23kHdps">Global Ecobrick Alliance Ecobrick &amp; Brikcoin whitepaper.</a></p><p>We also highly recommend the <a href="https://www.ecobricks.org/wp-content/uploads/2020/07/THE-STORY-OF-PLASTIC-_-Research-Guide.pdf">research bibliography of the Story of Stuff project.</a></p>
-			
-			</div>
-		</div>
-    </div> <!--Closes Page Paragraoh Reg-->
-</div>
+            <div id="preclosed3">
+
+                    <p data-lang-id="041-page-paragraph">Many great civilizations and nations throughout human history have thrived in harmony with their surrounding ecologies. The way their looked at the world, what they valued and how they used money (capital) is something that we can learn much from.</p>
+
+                    <p data-lang-id="042-page-paragraph">The Igorot people have lived in ecological abundance in what is now the Northern Philippines for the last centuries. In their world view they have a virtue for making a place ever greener.  Someone who successfully transforming barren land into a field, or a field into a garden, or a garden into a forest is called "<a href="../ayyew">Ayyew</a>".  The virtue ranks with Courageous, Honor, and Loyalty in their way of seeing the world.  The underlying idea of Ayyew is syncing with cycles into ever greater harmony. It is an idea that can help us make sense of the way the Earth has been working for the last few billion years. In fact, this is probably what inspired the Igorots in the first place.</p>
+
+                </div>
+            </div>
+
+
+            <div class="reg-content-block" id="block4">
+
+                <div class="opener-header">
+
+                    <div class="opener-header-text" data-lang-id="006-opener-header-text">
+                    <h4 data-lang-id="043-page-paragraph">Plastic Sequestration</h4>
+                    <h5 data-lang-id="044-page-paragraph">Plastic is also the one fossil fuel by-product that doesn’t get immediately released into the atmosphere.  </h5>   
+                    <br>
+                    </div>
+
+                    <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+                </div>
+
+                <div id="preclosed4">
+
+                    <p data-lang-id="045-page-paragraph">Earth’s example of short short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.  Learn more…</p>
+
+                    <a class="action-btn" href="sequest.php" data-lang-id="046-button">🚀 Plastic Sequestration</a>
+                    <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">Go deep into the concept of plastic sequestration</p>
+
+                
+                    <h2>References &amp; Recommended Readings</h2>
+                    <p>For a more extensive version of this page, with full footnotes, please see the <a href="https://files.mandala.team/s/QsiDZMty23kHdps">Global Ecobrick Alliance Ecobrick &amp; Brikcoin whitepaper.</a></p><p>We also highly recommend the <a href="https://www.ecobricks.org/wp-content/uploads/2020/07/THE-STORY-OF-PLASTIC-_-Research-Guide.pdf">research bibliography of the Story of Stuff project.</a></p>
+                    
+                </div>
+            </div>
+        </div> <!--Closes Main-->
+
 
 	<div class="side">
         
@@ -265,7 +260,7 @@
 
 
 <!-- This script is for pages that use the accordion content system-->
-<!-- <script src="../accordion-scripts.js?v=2" defer></script> -->
+<script src="../accordion-scripts.js?v=2" defer></script>
 
 </div>
 </body>
