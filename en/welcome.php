@@ -55,7 +55,8 @@ https://github/globalecobrickalliance/ecobricks.org
                     <div class="photo-box">
                         <img src="' . $row["photo1_tmb"] . '?v=1" alt="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["project_name"] . '\', \'' . $row["description_short"] . '\', \'' . $row["location_full"] . '\', \'' . $row["briks_used"] . '\', \'' . $row["start_dt"] . '\')" title="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks"> 
                     </div>
-                </div>';
+                </div>'; 
+                //when photo is clicked the projectPreview function defined in 2024 landing scripts is called
         }
     } else {
         echo "No projects available to display.";

@@ -112,7 +112,7 @@ function projectPreview(project_id, name, description, location_full, ecobricks_
     var details = document.createElement('div');
     details.className = 'ecobrick-details';
     details.style.margin = '20px 10% auto 10%'; // Adjust the margin as per your design
-    details.innerHTML = `<p>${description} | Ecobricks: ${ecobricks_used} | Completed: ${start} | ${location_full}</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="project.php?project_id=${project_id}">ℹ️ View Project</a>';    `;
+    details.innerHTML = `<p style="font-size:small">${description} | ${ecobricks_used} ecobricks | ${location_full}</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="project.php?project_id=${project_id}">ℹ️ View Project</a>';    `;
     photoContainer.appendChild(details);
 
     // Show the modal
