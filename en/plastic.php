@@ -19,7 +19,7 @@
  <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">The Long Story of Plastic</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Understanding plastic's primordial story is essential to putting it's carbon back to good use today.</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Understanding plastic's primordial story is essential to solving the plastic that passes through our hand's today.</div>
 	</div>
 	<div class="splash-image" data-lang-id="x003-splash-image-alt"><img src="../svgs/the-biosphere.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	
    
@@ -37,30 +37,30 @@
         <div class="main">
 
             <div class="lead-page-paragraph">
-                <p data-lang-id="005-first-page-paragraph">What is plastic exactly?  Where does it come from?  And, where is it going? In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the ‘long story of plastic’. </p>
+                <p data-lang-id="005-first-page-paragraph">What is plastic exactly?  Where does it come from?  And, where is it going?  </p>
             </div>
         
             <div class="page-paragraph">
-                <p data-lang-id="006-second-page-paragraph">More and more we’re learning that the story of plastic doesn’t end when we throw it away.  According to scientists, an increasing amount of plastic is being manufactured, thrown away and reaching the biosphere, where it harms creatures large and small.</p>
+                <p data-lang-id="006-second-page-paragraph">In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the ‘long story of plastic’.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution-- rather than just more pollution.</p>
             </div>
 
 
             <div class="page-paragraph-reg">
                 
-                <p data-lang-id="007-page-paragraph">However, its just as important to understand that the story of plastic doesn’t begin in a factory.  Instead, plastic finds its origins millions of years ago on an ancient, barren Earth we would barely recognize.  In fact, the carbon molecules of our modern plastic played a key role in making our common home the thriving and diverse biosphere that we know today.</p>
+                <!-- <p data-lang-id="007-page-paragraph">However, its just as important to understand that the story of plastic doesn’t begin in a factory.  Instead, plastic finds its origins millions of years ago on an ancient, barren Earth we would barely recognize.  In fact, the carbon molecules of our modern plastic played a key role in making our common home the thriving and diverse biosphere that we know today.</p>
 
                 <p data-lang-id="008-page-paragraph">As you will see, we have much to learn from the way that our once barren planet has slow and steady compacted carbon, stored it, and cultivated ever-richer ecological cycles.  From this long-view vantage point, we will see that plastic isn’t the problem.  Rather, it’s our starting point to follow the Earth’s ancient example in our modern lives…</p>
 
-                <img src="../pngs/plastic-source-1000px.png" width="400px">
+                <img src="../pngs/plastic-source-1000px.png" width="400px"> -->
                 
 
-                <p data-lang-id="009-header-title"><h4>Once upon a time…</h4></p>
+                <p data-lang-id="009-header-title"><h1>Once upon a time…</h1></p>
 
-                <p data-lang-id="010-page-paragraph">About 3.2 billion years ago, multicellular organisms figured out how to turn the light of the sun into life-force energy.  Using photosynthesis organisms transformed sunlight by sucking in carbon dioxide and making sugars from the carbon to store energy.  It was a big breakthrough.  Plants grew bigger and spread across the planet.  Slow and steady they began to remove the carbon in the early Earth air.</p>
+                <p data-lang-id="010-page-paragraph">FOUR BILLION YEARS AGO, life began to emerge on planet Earth.  Slow and steady, the first organism figured out how to turn the light of the sun into life-force.  Using photosynthesis organisms transformed sunlight by sucking in carbon dioxide and making sugars from the carbon to store energy.  It was a big breakthrough.  Plants grew bigger and spread across the planet.  Slow and steady they began to remove the carbon in the early Earth air.</p>
 
                 <p data-lang-id="011-page-paragraph">Two hundred million years ago, when the dinosaurs roamed the Earth, plants had gotten really good at transforming carbon.  Immense forests covered the continents, and massive blooms of algae filled low lying seas.  As plants and creatures died they would fall to the ground or to the bottom of the sea.  As time passed, all this carbon-rich organic matter was covered with sediment.</p>
 
-                <p data-lang-id="012-page-paragraph">With all this carbon out of the air, the Earth’s atmosphere calmed and cooled down.  A combination of pressure and time transformed the buried biomass into densely packed carbon storage deposits.</p>
+                <p data-lang-id="012-page-paragraph">With all this carbon out of the air, Earth’s atmosphere calmed and cooled down.  A combination of pressure and time transformed the buried biomass into densely packed carbon storage deposits.</p>
 
                 <img src="../pngs/plastic-source-1000px.png" width="400px">
 
@@ -72,7 +72,7 @@
 
                 <p data-lang-id="016-page-paragraph">Humans became better and better at extracting compacted carbon and turning it into energy.  They discovered other types too– like petroleum and natural gas. Humans gave the stuff a name: “fossil fuels”.</p>
 
-                <p data-lang-id="017-page-paragraph">As modern countries flourished their economies began to rely more on more on the easy energy gained from burning fossil fuels.  Factories could be built and powered and all sorts of new products made.  As more products were consumed, more factories needed to be made.  As more factories needed to be powered, more and more fossil fuels were extracted and refined. Petroleum and capital flowed while economies grew.</p>
+                <p data-lang-id="017-page-paragraph">As modern nations flourished, their economies began to rely more on more on the easy energy gained from burning fossil fuels.  Factories could be built and powered and all sorts of new products made.  As more products were consumed, more factories needed to be made.  As more factories needed to be powered, more and more fossil fuels were extracted and refined. Petroleum and capital flowed while economies grew.</p>
 
                 <img src="../pngs/plastic-source3-1000px.png" width="400px">
 
@@ -92,9 +92,9 @@
                 <img src="../pngs/plastic-source4-chart.png" width="400px">
 
                     
-                <p data-lang-id="023-page-paragraph">All the hard work that the earth had been doing for the last few million years, was being undone faster and faster by the humans.  While burning some logs created a little smoke and some CO2, the Earth’s plants and oceans could manage to suck it back down.  However, as the humans began powering their economies with fossil fuels alot more CO2 was being released– more than the earth could manage.</p>
+                <p data-lang-id="023-page-paragraph">All the hard work that Earth had been doing for the last few million years, was being undone faster and faster.  While burning some logs created a little CO2 smoke , plants and oceans could manage to suck it back down.  However, as humans began powering their economies with fossil fuels, alot more CO2 was being released– more than the earth could manage.</p>
                     
-                <p data-lang-id="024-page-paragraph">And since the capital in the economies was based on this burning, it created a self-perpetuating loop.  The more fuels were burned, the more were extracted, and the more were burned.  With so much carbon out of storage and in the air, it began to disrupt the harmony of the earth’s ecological cycles.</p>
+                <p data-lang-id="024-page-paragraph">And since the capital in the economies was based on this burning, it created a self-perpetuating loop.  The more fuels were burned, the more were extracted, and the more were burned.  With so much carbon out of storage and in the air, it began to disrupt the harmony of Earth’s ecological cycles.</p>
 
                 
                     
@@ -122,7 +122,7 @@
 		        <div class="opener-header">
 	
                     <div class="opener-header-text" data-lang-id="006-opener-header-text">
-                    <h4>Learning from the Earth</h4>
+                    <h4>Learning from Earth</h4>
                     <h5>Over the last few billion years we can learn much from the way the Earth transformed from a barren rock to a green, abundant, biodiverse, stable and conscious biosphere. </h5>   
                     <br>
                     </div>
@@ -133,17 +133,22 @@
                 <div id="preclosed1">
 
                     <br>
-                    <p data-lang-id="032-page-paragraph">A key part of this process has been the processing of carbon!  By looking closely at the Earth’s example we see the way that…</p>
+                    <p data-lang-id="032-page-paragraph">A key part of this process has been the processing of carbon!  By looking closely at Earth’s example we see the way that…</p>
                     <ul>
-                        <li data-lang-id="034a-list-paragraph">the Earth used carbon in the short-term as an indefinite building block.</li>
-                        <li data-lang-id="034b-list-paragraph">the Earth compacted and secured carbon into long-term storage out of the biosphere.</li>
-                        <li data-lang-id="034c-list-paragraph">all of the Earth’s procesess subtracted more carbon into storage than they added back to the atmosphere.</li>
-                        <li data-lang-id="034d-list-paragraph">all of the Earth’s processes move towards the increase in consciousness of those organisms involved</li>
-                        <li data-lang-id="034e-list-paragraph">all of the Earth’s processes moved towards the increase in biodiversity</li>
-                        <li data-lang-id="034f-list-paragraph">all of the Earth’s processes benefit the biosphere over the biome, the biome over its ecologies, the whole over the parts.</li>
-                        </ul>
-                        <p data-lang-id="035-page-paragraph">We can also draw some important conclusions from our modern experience…</p>
-                        <ul><li data-lang-id="036-list-paragraph">Keeping the carbon that is already under the ground is the easiest way to prevent it from getting into the atmosphere</li>
+                        <li data-lang-id="034a-list-paragraph"> Earth used carbon in the short-term as an indefinite building block.</li>
+                        <li data-lang-id="034b-list-paragraph"> Earth concentrated, secured and sequestered carbon into long-term storage out of the biosphere.</li>
+                        <li data-lang-id="034c-list-paragraph">Earth’s procesess tended to subtract more carbon into storage than they added back to the atmosphere.</li>
+                        <li data-lang-id="034d-list-paragraph">Earth’s processes distributed energy out across its surface and systems ever more broadly and beneficially.</li>
+                        <li data-lang-id="034d-list-paragraph">Earth’s processes tended towards more and more diverse systmes, organisms and ecosystems.</li>
+                        <li data-lang-id="034e-list-paragraph">Earth’s organisms and ecosystems tended towards more and more conscious of themselves and their interconnection</li>
+                        
+                        <p data-lang-id="035-page-paragraph">From the observation of these principles and our modern experience of plastic and pollution We can draw some important conclusions…</p>
+                        <ul>
+                        <li data-lang-id="036-list-paragraph">By following these principles we can follow Earth's example and be sure that the results will also be ecologically enriching. </li>
+
+                        <li data-lang-id="036-list-paragraph">It is important to keep the carbon that is already under the ground in the ground.  This is the easiest way to prevent it from getting loose into the atmosphere</li>
+
+                        <li data-lang-id="036-list-paragraph">We can secure our plastic (a form of carbon) out of systems that would otherwise disperse it.  Instead, we can concentrate and secure out plastic too.</li>
                         <li data-lang-id="036-list-paragraph">There is a direct connection between the running of the petro-capital economy and the decompaction of carbon deposits</li>
                     </ul>
 
@@ -224,10 +229,10 @@
 
                     <a class="action-btn" href="sequest.php" data-lang-id="046-button">🚀 Plastic Sequestration</a>
                     <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">Go deep into the concept of plastic sequestration</p>
-
+<!-- 
                 
                     <h2>References &amp; Recommended Readings</h2>
-                    <p>For a more extensive version of this page, with full footnotes, please see the <a href="https://files.mandala.team/s/QsiDZMty23kHdps">Global Ecobrick Alliance Ecobrick &amp; Brikcoin whitepaper.</a></p><p>We also highly recommend the <a href="https://www.ecobricks.org/wp-content/uploads/2020/07/THE-STORY-OF-PLASTIC-_-Research-Guide.pdf">research bibliography of the Story of Stuff project.</a></p>
+                    <p>For a more extensive version of this page, with full footnotes, please see the <a href="https://files.mandala.team/s/QsiDZMty23kHdps">Global Ecobrick Alliance Ecobrick &amp; Brikcoin whitepaper.</a></p><p>We also highly recommend the <a href="https://www.ecobricks.org/wp-content/uploads/2020/07/THE-STORY-OF-PLASTIC-_-Research-Guide.pdf">research bibliography of the Story of Stuff project.</a></p> -->
                     
                 </div>
             </div>
