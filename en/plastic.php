@@ -79,8 +79,6 @@
 
                 <p data-lang-id="017-page-paragraph">As modern nations flourished, their economies began to rely more on more on the easy energy gained from burning fossil fuels.  Factories could be built and powered and all sorts of new products made.  As more products were consumed, more factories needed to be made.  As more factories needed to be powered, more and more fossil fuels were extracted and refined. Petroleum and capital flowed while economies grew.</p>
 
-                <img src="../pngs/plastic-source3-1000px.png" width="400px">
-
 
                 <p data-lang-id="018-page-paragraph">However, organic compacted carbon deposits were never ideal for being ‘fossil fuels’.  In the process of refining petroleum, there was a left over residue (5-15% depending on the crude being used) that just couldn’t be turned into fuels.  This left over ‘naphtha’ began to accumulate as it had no where to go.</p>
 
@@ -95,7 +93,7 @@
                 <p data-lang-id="022-page-paragraph">Ever since the first human bond fire, the burning of compacted carbon had been releasing that pesky smoke–  mainly CO2.   As the easy energy of fossil fuels enabled more and more economy, more and more capital encouraged more and more extraction and industry and carbon decompaction– the reduction in carbon density of the original deposits.</p>
 
                 <div style="width: 100%; overflow: hidden;">
-                    <img src="../webp/rise-in-co2.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+                    <img src="../webp/rise-in-co2.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;filter:invert();">
                 </div>
 
                     
