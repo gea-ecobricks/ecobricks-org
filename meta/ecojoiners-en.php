@@ -10,7 +10,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/<?php include 'lang.php';?>/add-project.php">
+	<meta property="og:url"           content="https://ecobricks.org/en/ecojoiners.php">
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Introducing Ecojoiners">
   	<meta property="og:description"   content="A revolutionary system to construct versatile, practical and stunning geometric matrixes using bottles and reclaimed plastic.">
