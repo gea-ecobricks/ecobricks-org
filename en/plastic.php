@@ -65,7 +65,7 @@
                 <p data-lang-id="012-page-paragraph">With all this carbon out of the air, Earth’s atmosphere calmed and cooled down.  A combination of pressure and time transformed the buried biomass into densely packed carbon storage deposits.</p>
 
                 <div style="width: 100%; overflow: hidden;">
-                    <img src="../webp/webp/long-story-of-plastic.webp" alt="the long story of plastic - part 1" style="width: 100%; height: auto;">
+                    <img src="../webp/long-story-of-plastic.webp" alt="the long story of plastic - part 1" style="width: 100%; height: auto;">
                 </div>
 
 
