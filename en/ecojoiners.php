@@ -25,18 +25,16 @@
 
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.2.1/build/spline-viewer.js"></script>
 
-<!-- <div id="viewer" style="padding: 20px;
+<div id="viewer" style="padding: 20px;
   background: #2d2e32;
   border-radius: 20px;
   margin-bottom: 15px;
   height: 500px;
   display:flex; flex-flow:column;"><div>
-</div>
+<spline-viewer url="https://prod.spline.design/IHSMbi56bMqgyJxV/scene.splinecode"></spline-viewer></div>
 <div id="spline-instructions" style="font-size:smaller; color:grey;font-family:'Mulish',sans-serif;width: 100%; text-align:left;padding: 5px;margin-top: auto;
   margin-bottom: 5px;">Double touch or drag to interact</div>
-</div> -->
-
-<spline-viewer url="https://prod.spline.design/IHSMbi56bMqgyJxV/scene.splinecode"></spline-viewer>
+</div>
 
         
 
