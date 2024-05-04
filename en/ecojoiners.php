@@ -90,14 +90,19 @@ if ($stmt->execute()) {
 
  <div id="form-submission-box">
     <div class="form-container">
-        <div class="step-graphic" style="width:fit-content;margin:auto;">
-            <img src="../logos/ecojoiner-logo.svg" style="height:100pxpx;">
-        </div>
+
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.2.1/build/spline-viewer.js"></script>
+
+<div id="viewer">
+<spline-viewer url="https://prod.spline.design/IHSMbi56bMqgyJxV/scene.splinecode"></spline-viewer></div>
+
+        
 
         <div class="splash-form-content-block">  
             <div class="splash-box">
         
-                <div class="splash-heading" data-lang-id="001-splash-title" style="text-align: center;">A whole new way to connect ecobricks.</div>
+                <div class="splash-heading" data-lang-id="001-splash-title" style="text-align: center;">Ecojoiners: A whole new way to connect ecobricks.</div>
             </div>
             <!-- <div class="splash-image" data-lang-id="003-splash-image-alt">
                 <img src="../svgs/building-methods.svg" style="width:65%" alt="There are many ways to build with ecobricks">
@@ -105,18 +110,15 @@ if ($stmt->execute()) {
         </div>
 
   
-        <p data-lang-id="002-form-description" class="lead-page-paragraph">Remolded from locally-sourced, reclaimed-plastic, ecoJoiners enable ecobricks to be interconnected in a wide variety of ways.  Simple ecoJoiners (green) enable  vertices of any length.  Hex and penta hubs (red and pink)  enable lattices with the help of pupJoiners (orange).  All are held fast with sliders (yellow) that takes advantage of an ecobrick's slight compressibility to lock constructions rigidly in place-- all the while ensuring any construction can be easily taken apart and each piece can be used again and again.</p>
+        <p data-lang-id="002-form-description" class="lead-page-paragraph">Remolded from locally-sourced, reclaimed-plastic, ecoJoiners enable ecobricks to be interconnected in a wide variety of ways.  Simple ecoJoiners (green) enable  vertices of any length and are held fast with sliders (orange) that take advantage of an ecobrick's slight compressibility to lock constructions rigidly in place-- all the while ensuring any construction can be easily taken apart and each piece can be used again and again.</p>
 
+        
 
+        <div class="step-graphic" style="width:fit-content;margin:auto;">
+            <img src="../logos/ecojoiner-logo.svg" style="height:40px;">
+        </div>
 
-
-        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.2.1/build/spline-viewer.js"></script>
-
-        <div id="viewer">
-        <spline-viewer url="https://prod.spline.design/IHSMbi56bMqgyJxV/scene.splinecode"></spline-viewer></div>
-
-
-        <p>A revolutionary system to construct versatile, practical and stunning geometric matrixes using bottles and reclaimed plastic.</p>
+        <p class="page-paragraph">A revolutionary system to construct versatile, practical and stunning geometric matrixes using bottles and reclaimed plastic.</p>
         
 
 
