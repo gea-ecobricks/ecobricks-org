@@ -55,7 +55,7 @@
 
                 <img src="../pngs/plastic-source-1000px.png" width="400px"> -->
                 
-
+<br><br>
                 <p data-lang-id="009-header-title"><h2>Once upon a time…</h2></p>
 
                 <p data-lang-id="010-page-paragraph">FOUR BILLION YEARS AGO, life began to emerge on planet Earth.  Slow and steady, the first organism figured out how to turn the light of the sun into life-force.  Using photosynthesis organisms transformed sunlight by sucking in carbon dioxide and making sugars from the carbon to store energy.  It was a big breakthrough.  Plants grew bigger and spread across the planet.  Slow and steady they began to remove the carbon in the early Earth air.</p>
