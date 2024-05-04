@@ -104,7 +104,7 @@
     <p data-lang-id="022-page-paragraph">Ever since the first human bond fire, the burning of compacted carbon had been releasing that pesky smoke–  mainly CO2.   As the easy energy of fossil fuels enabled more and more economy, more and more capital encouraged more and more extraction and industry and carbon decompaction– the reduction in carbon density of the original deposits.</p>
 
     <div style="width: 100%; overflow: hidden;">
-        <img src="../webp/rise-in-co2-dark.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;filter:invert();">
+        <img src="../webp/rise-in-co2-dark.webp?v=2" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;filter:invert();">
     </div>
 
         
@@ -118,7 +118,7 @@
     <p data-lang-id="026-page-paragraph">Soon plastic was everywhere!</p>
 
     <div style="width: 100%; overflow: hidden;">
-        <img src="../webp/oil-2-plastic-dark.webp" alt="the long story of plastic - part 2" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+        <img src="../webp/oil-2-plastic-dark.webp?v=2" alt="the long story of plastic - part 2" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
     </div>
 
     <p data-lang-id="027-page-paragraph">As plastic was bought, used and thrown away, the dynamic of carbon decompaction continued.  With surfaces areas often thousands of times expanded from the orginal compacted carbon, the plastics were easily degraded by the elements.  Soon microplastics could be found everywhere in the ocean, earth and air.</p>
