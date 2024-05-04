@@ -19,7 +19,7 @@
  <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">The Long Story of Plastic</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Knowing the ancient story of plastic is essential to securing its green fate today.</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Knowing the ancient story of plastic is the key to securing its green fate today.</div>
 	</div>
 	<div class="splash-image" data-lang-id="x003-splash-image-alt"><img src="../svgs/the-biosphere.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	
    
