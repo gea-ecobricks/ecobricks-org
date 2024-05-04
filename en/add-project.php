@@ -105,7 +105,7 @@ if ($stmt->execute()) {
         </div>
 
   
-        <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database."</p>
+        <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database.</p>
         <form id="submit-form" method="post" action="" enctype="multipart/form-data" novalidate>
         <!-- <form id="submit-form" method="post" action="" enctype="multipart/form-data"> -->
 
