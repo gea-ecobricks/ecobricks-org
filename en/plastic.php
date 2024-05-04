@@ -104,16 +104,16 @@
                 <p data-lang-id="024-page-paragraph">And since the capital in the economies was based on this burning, it created a self-perpetuating loop.  The more fuels were burned, the more were extracted, and the more were burned.  With so much carbon out of storage and in the air, it began to disrupt the harmony of Earth’s ecological cycles.</p>
 
                 
-                <div style="width: 100%; overflow: hidden;">
-                    <img src="../webp/rise-in-co2.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
-                </div>
+               
 
-                
-                <img src="../pngs/plastic-source5-1000px.png" width="400px">
 
                 <p data-lang-id="025-page-paragraph">As humans extracted and refined more and more raw fossil fuels, there was always that little bit that couldn’t be processed.  This lead to  more and more cheap and abundant plastic.  And as petro-capital economies grew, so too did the use and application of plastic to cover and package products.</p>
 
                 <p data-lang-id="026-page-paragraph">Soon plastic was everywhere!</p>
+
+                <div style="width: 100%; overflow: hidden;">
+                    <img src="../webp/oil-2-plastic.webp" alt="the long story of plastic - part 2" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+                </div>
 
                 <p data-lang-id="027-page-paragraph">As plastic was bought, used and thrown away, the dynamic of carbon decompaction continued.  With surfaces areas often thousands of times expanded from the orginal compacted carbon, the plastics were easily degraded by the elements.  Soon microplastics could be found everywhere in the ocean, earth and air.</p>
 
@@ -122,8 +122,8 @@
                 <p data-lang-id="029-page-paragraph">Soon humans came to see that industrial recycling wasn’t working. It became clear that dumpling, burning and exporting created more problems than they solved. In order for the petro-capital economy to continue growing, industry tried harder to convince itself and humans there was a solution just around the corner.</p>
 
                 <p data-lang-id="030-page-paragraph">Yet, after turning many corner, there was still no solution. Meanwhile, there as so much burning, dumping, so much Co2 and so much plastic, that everyone knew that there was a problem with an economy and lifestyle that had to be powered by ‘fossil fuels’.</p>
-
-                <p data-lang-id="031-page-paragraph">It became clear to the humans in these petro-capital economies that that they had much to learn from the planet’s way of relentlessly enriching the biosphere. Looking at indigenous peoples who had lived for centuries in ecological harmony with their surroundings, it was clear that they had much to learn from them also…</p>
+<!-- 
+                <p data-lang-id="031-page-paragraph">It became clear to the humans in these petro-capital economies that that they had much to learn from the planet’s way of relentlessly enriching the biosphere. Looking at indigenous peoples who had lived for centuries in ecological harmony with their surroundings, it was clear that they had much to learn from them also…</p> -->
             </div> <!--Closes Page Paragraoh Reg-->
 
 
