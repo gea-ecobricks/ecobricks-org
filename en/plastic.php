@@ -63,9 +63,7 @@
     
     <!-- <p data-lang-id="007-page-paragraph">However, its just as important to understand that the story of plastic doesn’t begin in a factory.  Instead, plastic finds its origins millions of years ago on an ancient, barren Earth we would barely recognize.  In fact, the carbon molecules of our modern plastic played a key role in making our common home the thriving and diverse biosphere that we know today.</p>
 
-    <p data-lang-id="008-page-paragraph">As you will see, we have much to learn from the way that our once barren planet has slow and steady compacted carbon, stored it, and cultivated ever-richer ecological cycles.  From this long-view vantage point, we will see that plastic isn’t the problem.  Rather, it’s our starting point to follow the Earth’s ancient example in our modern lives…</p>
-
-    <img src="../pngs/plastic-source-1000px.png" width="400px"> -->
+    <p data-lang-id="008-page-paragraph">As you will see, we have much to learn from the way that our once barren planet has slow and steady compacted carbon, stored it, and cultivated ever-richer ecological cycles.  From this long-view vantage point, we will see that plastic isn’t the problem.  Rather, it’s our starting point to follow the Earth’s ancient example in our modern lives…</p>-->
     
     <p data-lang-id="009-header-title"><h2>Once upon a time…</h2></p>
 
@@ -76,7 +74,7 @@
     <p data-lang-id="012-page-paragraph">With all this carbon out of the air, Earth’s atmosphere calmed and cooled down.  A combination of pressure and time transformed the buried biomass into densely packed carbon storage deposits.</p>
 
     <div style="width: 100%; overflow: hidden;">
-        <img src="../webp/long-story-of-plastic.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+        <img src="../webp/long-story-of-plastic-dark.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
     </div>
 
 
@@ -255,7 +253,7 @@
 </div>
 
 
-
+<br><br>
 
 
         
