@@ -112,16 +112,13 @@
         
     <p data-lang-id="024-page-paragraph">And since the capital in the economies was based on this burning, it created a self-perpetuating loop.  The more fuels were burned, the more were extracted, and the more were burned.  With so much carbon out of storage and in the air, it began to disrupt the harmony of Earth’s ecological cycles.</p>
 
-    
-   
-
 
     <p data-lang-id="025-page-paragraph">As humans extracted and refined more and more raw fossil fuels, there was always that little bit that couldn’t be processed.  This lead to  more and more cheap and abundant plastic.  And as petro-capital economies grew, so too did the use and application of plastic to cover and package products.</p>
 
     <p data-lang-id="026-page-paragraph">Soon plastic was everywhere!</p>
 
     <div style="width: 100%; overflow: hidden;">
-        <img src="../webp/oil-2-plastic.webp" alt="the long story of plastic - part 2" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+        <img src="../webp/oil-2-plastic-dark.webp" alt="the long story of plastic - part 2" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
     </div>
 
     <p data-lang-id="027-page-paragraph">As plastic was bought, used and thrown away, the dynamic of carbon decompaction continued.  With surfaces areas often thousands of times expanded from the orginal compacted carbon, the plastics were easily degraded by the elements.  Soon microplastics could be found everywhere in the ocean, earth and air.</p>
