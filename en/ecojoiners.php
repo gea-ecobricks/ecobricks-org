@@ -117,19 +117,19 @@ if ($stmt->execute()) {
   
         <h3 data-lang-id="002-form-description" style="text-align: center;">A revolutionary new way to connect ecobricks and construct versatile, practical and stunning geometric matrixes using bottles and reclaimed plastic.</h3>
 
-            <div class="step-graphic" style="width:90%;margin:auto;">
-            <img src="../webp/ecojoiners-examples.webp">
+            <div class="step-graphic" style="margin:auto;">
+            <img src="../webp/ecojoiners-examples.webp" style="width:90%;">
         </div>
 
         
 
         <p class="lead-page-paragraph" style="text-align: center;">Remolded from locally-sourced, reclaimed-plastic, ecoJoiners enable ecobricks to be interconnected in a wide variety of ways.  Simple ecoJoiners (green) enable  vertices of any length and are held fast with sliders (orange) that take advantage of an ecobrick's slight compressibility to lock constructions rigidly in place— all the while ensuring any construction can be easily taken apart and each piece can be used again and again.</p>
         
-        <div class="step-graphic" style="width:fit-content;margin:auto;">
+        <div class="step-graphic" style="width:fit-content;margin:auto;margin-top:30px">
             <img src="../logos/ecojoiner-logo.svg" style="height:70px;">
         </div>
 
-        <p>Coming soon to ecobricks.org!</p>
+        <p style="text-align: center;">Coming soon to ecobricks.org!</p>
 
     </div>
 </div>
