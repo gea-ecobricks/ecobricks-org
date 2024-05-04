@@ -50,6 +50,27 @@
 	
 
 
+
+<!--MAIN STYLE SHEETS -->
+
+<link rel="stylesheet" type="text/css" href="https://ecobricks.org/mode-slider.css?v=3">
+<link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=<?php echo ($version); ;?>2"> 
+
+<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=<?php echo ($version); ;?>">
+
+<!--Default Light Styles to load first-->
+<link rel="preload" href="../mode-light.css?v=<?php echo ($version); ;?>" as="style" onload="this.rel='stylesheet'">
+ <!--Stylesheets for light and dark mode.  They need to be called here-->
+<link rel="stylesheet" href="../mode-light.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../mode-dark.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: dark)">
+
+
+
+<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=<?php echo ($version); ;?>">
+<link rel="stylesheet" type="text/css" href="../subscription-stylesheet.css?v=<?php echo ($version); ;?>">
+
+
+
 <script>
 
 /*ROLL CALL*/
@@ -91,9 +112,6 @@ window.onload = function() {
 <script src="../subscription-system.js?v=<?php echo ($version); ;?>" defer></script>
 <!-- <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>  -->
 
-<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=<?php echo ($version); ;?>">
-<link rel="stylesheet" type="text/css" href="../subscription-stylesheet.css?v=<?php echo ($version); ;?>">
-
 <!-- <script>
     function loadStylesheet(url) {
         var link = document.createElement('link');
@@ -134,20 +152,6 @@ window.onload = function() {
 <link rel="preload" as="image" href="../icons/settings-icon-dark.svg" media="(prefers-color-scheme: dark)">
 <link rel="preload" as="image" href="../icons/settings-icon-over-dark2.svg" media="(prefers-color-scheme: dark)">
 
-
-
-<!--MAIN STYLE SHEETS -->
-
-<link rel="stylesheet" type="text/css" href="https://ecobricks.org/mode-slider.css?v=3">
-<link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=<?php echo ($version); ;?>2"> 
-
-<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=<?php echo ($version); ;?>">
-
-<!--Default Light Styles to load first-->
-<link rel="preload" href="../mode-light.css?v=<?php echo ($version); ;?>" as="style" onload="this.rel='stylesheet'">
- <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../mode-light.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../mode-dark.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: dark)">
 
 
 <!-- 

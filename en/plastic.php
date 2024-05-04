@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.77';?>
+<?php $version='1.771';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
@@ -19,7 +19,7 @@
  <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">The Long Story of Plastic</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Plastic's primordial story is essential to solving the plastic that passes through our hand's today.</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Knowing the ancient story of plastic is essential to securing its green fate today.</div>
 	</div>
 	<div class="splash-image" data-lang-id="x003-splash-image-alt"><img src="../svgs/the-biosphere.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	
    
@@ -102,7 +102,7 @@
     <p data-lang-id="022-page-paragraph">Ever since the first human bond fire, the burning of compacted carbon had been releasing that pesky smoke–  mainly CO2.   As the easy energy of fossil fuels enabled more and more economy, more and more capital encouraged more and more extraction and industry and carbon decompaction– the reduction in carbon density of the original deposits.</p>
 
     <div style="width: 100%; overflow: hidden;">
-        <img src="../webp/rise-in-co2-dark.webp?v=2" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;filter:invert();">
+        <img src="../webp/rise-in-co2-dark.webp?v=3" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
     </div>
 
         
