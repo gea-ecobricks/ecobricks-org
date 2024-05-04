@@ -91,13 +91,13 @@ if ($stmt->execute()) {
  <div id="form-submission-box">
     <div class="form-container">
         <div class="step-graphic" style="width:fit-content;margin:auto;">
-            <img src="../logos/ecojoiners-logo.svg" style="height:100pxpx;">
+            <img src="../logos/ecojoiner-logo.svg" style="height:100pxpx;">
         </div>
 
         <div class="splash-form-content-block">  
             <div class="splash-box">
         
-                <div class="splash-heading" data-lang-id="001-splash-title">Introducting Ecojoiners</div>
+                <div class="splash-heading" data-lang-id="001-splash-title" style="text-align: center;">A whole new way to connect ecobricks.</div>
             </div>
             <!-- <div class="splash-image" data-lang-id="003-splash-image-alt">
                 <img src="../svgs/building-methods.svg" style="width:65%" alt="There are many ways to build with ecobricks">
