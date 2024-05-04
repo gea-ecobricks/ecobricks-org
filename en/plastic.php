@@ -52,8 +52,8 @@
         
                 <?php require_once ("side-modules/plastic-from-oil.php");?>
 
-        </div>
-    </div> <!--Closes row-->       
+    </div>
+</div> <!--Closes row-->       
 
 
 
