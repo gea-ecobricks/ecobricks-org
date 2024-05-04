@@ -61,6 +61,11 @@
         <p class="lead-page-paragraph" style="text-align: center;">Remolded from locally-sourced, reclaimed-plastic, ecoJoiners enable ecobricks to be interconnected in a wide variety of ways.  Simple ecoJoiners (green) enable  vertices of any length and are held fast with sliders (orange) that take advantage of an ecobrick's slight compressibility to lock constructions rigidly in place— all the while ensuring any construction can be easily taken apart and each piece can be used again and again.</p>
         
         <div class="step-graphic" style="width:fit-content;margin:auto;margin-top:30px">
+            <img src="../webp/ecojoiner-sphere.webp" style="height:300px;width:300px">
+        </div>
+        
+        
+        <div class="step-graphic" style="width:fit-content;margin:auto;margin-top:30px">
             <img src="../logos/ecojoiner-logo.svg" style="height:70px;">
         </div>
 
