@@ -52,17 +52,11 @@
         
                 <?php require_once ("side-modules/plastic-from-oil.php");?>
 
-                <!-- <?php require_once ("side-modules/petro-capital-economy.php");?>
-
-                <?php require_once ("side-modules/earthen-ethics-principle.php");?>
-
-                <?php require_once ("side-modules/stellar-story.php");?> -->
-
         </div>
     </div> <!--Closes row-->       
 
 
-    <hr>
+
 
 
 <div class="page-paragraph-reg">
@@ -73,7 +67,6 @@
 
     <img src="../pngs/plastic-source-1000px.png" width="400px"> -->
     
-<br><br>
     <p data-lang-id="009-header-title"><h2>Once upon a time…</h2></p>
 
     <p data-lang-id="010-page-paragraph">FOUR BILLION YEARS AGO, life began to emerge on planet Earth.  Slow and steady, the first organism figured out how to turn the light of the sun into life-force.  Using photosynthesis organisms transformed sunlight by sucking in carbon dioxide and making sugars from the carbon to store energy.  It was a big breakthrough.  Plants grew bigger and spread across the planet.  Slow and steady they began to remove the carbon in the early Earth air.</p>
@@ -111,7 +104,7 @@
     <p data-lang-id="022-page-paragraph">Ever since the first human bond fire, the burning of compacted carbon had been releasing that pesky smoke–  mainly CO2.   As the easy energy of fossil fuels enabled more and more economy, more and more capital encouraged more and more extraction and industry and carbon decompaction– the reduction in carbon density of the original deposits.</p>
 
     <div style="width: 100%; overflow: hidden;">
-        <img src="../webp/rise-in-co2.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;filter:invert();">
+        <img src="../webp/rise-in-co2-dark.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;filter:invert();">
     </div>
 
         
