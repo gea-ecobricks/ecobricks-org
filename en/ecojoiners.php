@@ -64,7 +64,8 @@
             <img src="../webp/ecojoiner-sphere.webp" style="height:300px;width:300px">
         </div>
         
-        <h4 style="text-align: center;">A world of possibilities await.  Coming soon to ecobricks.org!</h4>
+        <h4 style="text-align: center; color:#2667DC">A world of possibilities await.</h4>
+        <p style="text-align: center;">  Coming soon to ecobricks.org!</p>
 
         <div class="step-graphic" style="width:fit-content;margin:auto;margin-top:30px">
             <img src="../logos/ecojoiner-logo.svg" style="height:70px;">
