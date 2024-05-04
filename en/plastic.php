@@ -44,6 +44,8 @@
                 <p data-lang-id="006-second-page-paragraph">In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the ‘long story of plastic’.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution-- rather than just more pollution.</p>
             </div>
 
+            <hr>
+
 
             <div class="page-paragraph-reg">
                 
@@ -54,7 +56,7 @@
                 <img src="../pngs/plastic-source-1000px.png" width="400px"> -->
                 
 
-                <p data-lang-id="009-header-title"><h1>Once upon a time…</h1></p>
+                <p data-lang-id="009-header-title"><h2>Once upon a time…</h2></p>
 
                 <p data-lang-id="010-page-paragraph">FOUR BILLION YEARS AGO, life began to emerge on planet Earth.  Slow and steady, the first organism figured out how to turn the light of the sun into life-force.  Using photosynthesis organisms transformed sunlight by sucking in carbon dioxide and making sugars from the carbon to store energy.  It was a big breakthrough.  Plants grew bigger and spread across the planet.  Slow and steady they began to remove the carbon in the early Earth air.</p>
 
@@ -62,7 +64,10 @@
 
                 <p data-lang-id="012-page-paragraph">With all this carbon out of the air, Earth’s atmosphere calmed and cooled down.  A combination of pressure and time transformed the buried biomass into densely packed carbon storage deposits.</p>
 
-                <img src="../pngs/plastic-source-1000px.png" width="400px">
+                <div style="width: 100%; overflow: hidden;">
+                    <img src="../webp/webp/long-story-of-plastic.webp" alt="the long story of plastic - part 1" style="width: 100%; height: auto;">
+                </div>
+
 
                 <p data-lang-id="013-page-paragraph">Life-cycles on the planet continued to become richer and more diverse.  Thanks to a combination of plants, climate and geography, one particular primate emerged two million years ago.  It manged to do pretty well for itself!</p>
 
