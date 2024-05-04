@@ -51,7 +51,8 @@
   
         <h3 data-lang-id="002-form-description" style="text-align: center;">A revolutionary new way to connect ecobricks and construct versatile, practical and stunning geometric matrixes using bottles and reclaimed plastic.</h3>
 
-            <div class="step-graphic" style="margin:auto;">
+            <div class="step-graphic" style="margin:auto;display: flex;
+  justify-content: center;">
             <img src="../webp/ecojoiners-examples.webp" style="width:90%;">
         </div>
 
@@ -83,6 +84,15 @@
 	<?php require_once ("../footer-2024.php");?>
 
 </div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var div = document.getElementById("spline-instructions");
+        div.style.display = "none";
+        setTimeout(function() {
+            div.style.display = "block";
+        }, 10000); // 10 seconds
+    });
+</script>
 
 
 </body>
