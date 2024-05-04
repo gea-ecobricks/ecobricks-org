@@ -65,7 +65,7 @@
                 <p data-lang-id="012-page-paragraph">With all this carbon out of the air, Earth’s atmosphere calmed and cooled down.  A combination of pressure and time transformed the buried biomass into densely packed carbon storage deposits.</p>
 
                 <div style="width: 100%; overflow: hidden;">
-                    <img src="../webp/long-story-of-plastic.webp" alt="the long story of plastic - part 1" style="width: 100%; height: auto;">
+                    <img src="../webp/long-story-of-plastic.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
                 </div>
 
 
@@ -94,7 +94,9 @@
 
                 <p data-lang-id="022-page-paragraph">Ever since the first human bond fire, the burning of compacted carbon had been releasing that pesky smoke–  mainly CO2.   As the easy energy of fossil fuels enabled more and more economy, more and more capital encouraged more and more extraction and industry and carbon decompaction– the reduction in carbon density of the original deposits.</p>
 
-                <img src="../pngs/plastic-source4-chart.png" width="400px">
+                <div style="width: 100%; overflow: hidden;">
+                    <img src="../webp/rise-in-co2.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+                </div>
 
                     
                 <p data-lang-id="023-page-paragraph">All the hard work that Earth had been doing for the last few million years, was being undone faster and faster.  While burning some logs created a little CO2 smoke , plants and oceans could manage to suck it back down.  However, as humans began powering their economies with fossil fuels, alot more CO2 was being released– more than the earth could manage.</p>
@@ -102,7 +104,11 @@
                 <p data-lang-id="024-page-paragraph">And since the capital in the economies was based on this burning, it created a self-perpetuating loop.  The more fuels were burned, the more were extracted, and the more were burned.  With so much carbon out of storage and in the air, it began to disrupt the harmony of Earth’s ecological cycles.</p>
 
                 
-                    
+                <div style="width: 100%; overflow: hidden;">
+                    <img src="../webp/rise-in-co2.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+                </div>
+
+                
                 <img src="../pngs/plastic-source5-1000px.png" width="400px">
 
                 <p data-lang-id="025-page-paragraph">As humans extracted and refined more and more raw fossil fuels, there was always that little bit that couldn’t be processed.  This lead to  more and more cheap and abundant plastic.  And as petro-capital economies grew, so too did the use and application of plastic to cover and package products.</p>
