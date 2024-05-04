@@ -29,9 +29,10 @@
   background: #2d2e32;
   border-radius: 20px;
   margin-bottom: 15px;
-  height: 500px">
-<spline-viewer url="https://prod.spline.design/IHSMbi56bMqgyJxV/scene.splinecode"></spline-viewer>
-<div style="font-size:smaller; color:grey;font-family:'Mulish',sans-serif;width: 100%; text-align:left;padding: 5px;margin-top: auto;
+  height: 500px;
+  display:flex; flex-flow:column;"><div>
+<spline-viewer url="https://prod.spline.design/IHSMbi56bMqgyJxV/scene.splinecode"></spline-viewer></div>
+<div id="bottom-instructions" style="font-size:smaller; color:grey;font-family:'Mulish',sans-serif;width: 100%; text-align:left;padding: 5px;margin-top: auto;
   margin-bottom: 5px;">Double touch or drag to interact</div>
 </div>
 
