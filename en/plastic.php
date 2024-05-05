@@ -41,9 +41,9 @@
             </div>
         
             <div class="page-paragraph" style="line-height:1.4">
-                <p data-lang-id="006-second-page-paragraph">In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution...</p>
+                <p data-lang-id="006-second-page-paragraph">In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution.</p>
 
-                <p>Settle in and read on...</p>
+                <p>Settle in and return with us to our planet's primordial past...</p>
             </div>
           
 
@@ -63,6 +63,7 @@
 
 
 
+<div style="text-align:justify;font-size:1.3em">
 
     <div style="width: 100%; overflow: hidden;margin-top: 30px;margin-bottom:10px;">
             <img src="../webp/hurricane-space.webp" alt="a view of earth's spiralling matter and energy" style="width: 100%;height: auto;">
@@ -73,12 +74,16 @@
 
     <div class="page-paragraph-reg">
     
-    <p>However, as the sun shone down, things began to change.  Steadily, the unique character of our planet began to unfold.  Volcanoes spewed, rivers ran, and ocean currents and tectonic plates collided.  As the surface of the earth dispersed the sun's shine, Earth's atoms began to spiral into more and more complex configurations. Slow and steady, tiny molecular systems figured out how to turn the light of the sun into life.</p>
+    <p>However, as the Sun shone down, things began to change.  Steadily, the unique character of our planet began to unfold.  Volcanoes spewed, rivers ran, and ocean currents and tectonic plates collided.  As the surface of the earth dispersed the sun's shine, Earth's atoms began to spiral into more and more complex configurations. Slow and steady, tiny molecular systems figured out how to turn the light of the Sun into life.</p>
 
-    <p>As cells and photosynthesis emerged; plants followed.  By sucking in carbon dioxide nutrients could be made. Plants and trees grew bigger and spread across the planet.</p>
+    <p>As cells and photosynthesis emerged; plants followed.  By sucking in carbon dioxide nutrients could be made.</p>
+    
+    <p>Plants grew bigger and trees began to spread across the planet's surface.</p>
 
 
-    <p data-lang-id="011-page-paragraph">Made from the carbon that they collected, soon vast forests covered the continents, and massive blooms of algae filled low lying seas.  As the plants and animals within these ecosystems lived and died, each fallen generation was covered up by the next. Whether on a forest floor or the floor of the ocean, layers of life and the carbon they contained were buried one upon the other.  Over hundreds of millions of years, hundreds of millions of tons of carbon were steadily concentrated, compacted and secured into the earth.</p>
+    <p data-lang-id="011-page-paragraph">Made from the carbon that they collected, soon vast forests covered the continents and massive blooms of algae filled low lying seas.</p>
+        
+    <p>As the plants and animals within these ecosystems lived and died, each fallen generation was covered up by the next. Whether on a forest floor or the floor of the ocean, layers of life and the carbon they contained were buried one upon the other.  Over hundreds of millions of years, countless tons of carbon were steadily concentrated, compacted and secured under the earth.</p>
 
 
     <p data-lang-id="012-page-paragraph">With all this carbon removed out of the air, Earth’s atmosphere calmed and cooled down. Steadily, life flourished!  Ecosystems and biomes all became more vibrant, diverse and abundant.</p>
@@ -154,7 +159,7 @@
         
     <p>How could we make sure that our ways were not grey and harmful in the first place, but in fact helped make ecosystems vibrant and verdant, diverse and abundant?</p>
 
-
+</div>
 <!-- 
 
     <p data-lang-id="021-header-title">
@@ -210,7 +215,7 @@
 
         <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
     </div>
-
+</div>
 
 
 <div class="reg-content-block" id="block2">
@@ -351,7 +356,7 @@
 
 <div class="paragraph-reg">
 
-<h4 data-lang-id="043-page-paragraph">Plastic Sequestration</h4>
+<h2 data-lang-id="043-page-paragraph">Plastic Sequestration</h2>
 <p data-lang-id="045-page-paragraph">Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.</p>
 
 <p>Earth’s example of short short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.</p>
@@ -362,11 +367,13 @@
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">The criteria of plastic sequestration</p>
 
         <br><br>
+        <hr>
+        <br><br>
+<p style="font-size:small">>Our account of <i>Plastic's Long Story</i> is based on "Plastic's Interstellar Story" from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier.  See this original account to go much deeper into plastic's story!  The orginal version's scientific and social references are extensively footnoted.</p>
        
 </div>
 
-<br><br>
-<p>Our account of <i>Plastic's Long Story</i> is based on "Plastic's Interstellar Story" from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier.  See this original account to go much deeper into plastic's story!  The orginal version's scientific and social references are extensively footnoted.</p>
+
 
 
         
