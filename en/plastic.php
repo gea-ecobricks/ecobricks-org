@@ -67,7 +67,7 @@
         </div>
     
 
-    <p data-lang-id="010-page-paragraph" class="lead-page-paragraph"><span class="drop-cap">O</span>VER FOUR BILLION YEARS AGO, like the other planets in our solar system, Earth was a barren and desolate place.  For our planet's first two billion years, its atmosphere was full of carbon dioxide, making its climate hot, harsh and unstable.</p></div>
+    <div class="lead-page-paragraph"><p data-lang-id="010-page-paragraph" ><span class="drop-cap">O</span>VER FOUR BILLION YEARS AGO, like the other planets in our solar system, Earth was a barren and desolate place.  For our planet's first two billion years, its atmosphere was full of carbon dioxide, making its climate hot, harsh and unstable.</p></div>
 
     <div class="page-paragraph-reg">
     
@@ -272,7 +272,7 @@
 
     <div class="opener-header-text" data-lang-id="006-opener-header-text">
     <h4 data-lang-id="040-page-paragraph">Learning from Indigenous Peoples</h4>
-    <h5 data-lang-id="041-page-paragraph">In light of Earth’s ancient history, we can see the modern of history of plastic differently…</h5>   
+    <h5 data-lang-id="041-page-paragraph">We have much to learn from those great green civilizations that have already figured out how to contribute ecologically.</h5>   
     <br>
     </div>
 
