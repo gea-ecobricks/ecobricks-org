@@ -364,7 +364,7 @@
 <h2 data-lang-id="043-page-paragraph">Plastic Sequestration</h2>
 <p data-lang-id="045-page-paragraph" style="font-size: 1.2">Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.</p>
 
-<p style="font-size: 1.2">Earth’s example of short short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.</p>
+<p style="font-size: 1.2">Earth’s example of short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.</p>
 
 <p>Learn more…</p>
 <br>
