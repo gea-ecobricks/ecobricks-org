@@ -209,17 +209,56 @@
         <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
     </div>
 
+
+
+<div class="reg-content-block" id="block2">
+
+<div class="opener-header">
+
+    <div class="opener-header-text" data-lang-id="006-opener-header-text">
+    <h4 data-lang-id="037-page-paragraph">Seeing Plastic Anew</h4>
+    <h5 data-lang-id="038-page-paragraph">In light of Earth’s ancient history, we can see our modern plastic differently…</h5>   
+    <br>
+    </div>
+
+    <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+</div>
+
+<div id="preclosed2">
+
+    <p data-lang-id="038-page-paragraph">See our plastic through the lens of Earth's primordial story, we can see that…</p>
+
+    <ul>
+
+        <li data-lang-id="039a-list-paragraph">Our plastic is made from the very carbon and the very process that Earth used to green planet's surface!</li>
+
+        <li data-lang-id="039a-list-paragraph">There is a direction connection between burning fossil fuels and the production and dispersal of plastic.</li>
+
+        <li data-lang-id="039b-list-paragraph">Plastic is the one form of processed fuels that remains densely compacted.</li>
+
+        <li data-lang-id="039c-list-paragraph">There's no industrial or economic solution for plastic, because industry and our economies are at the root of plastic's continued production!</li>
+        
+    </ul>
+</div>
+</div>
+
     <div id="preclosed1">
 
         <br>
         <p data-lang-id="032-page-paragraph">By looking closely at Earth’s primordial past we see the way that…</p>
         <ul>
             <li data-lang-id="034a-list-paragraph"> Earth used carbon in the short-term as an indefinite building block.</li>
+
             <li data-lang-id="034b-list-paragraph"> Earth concentrated, secured and sequestered carbon into long-term storage out of the biosphere.</li>
+
             <li data-lang-id="034c-list-paragraph">Earth’s procesess tended to subtract more carbon into storage than they added back to the atmosphere.</li>
+
             <li data-lang-id="034d-list-paragraph">Earth’s processes distributed energy out across its surface and systems ever more broadly and beneficially.</li>
+
             <li data-lang-id="034d-list-paragraph">Earth’s processes tended towards more and more diverse systems, organisms and ecosystems.</li>
+
             <li data-lang-id="034e-list-paragraph">Earth’s organisms and ecosystems tended towards more and more awareness of themselves and their interconnection.</li>
+
         </ul>
         
             <p data-lang-id="036-list-paragraph">By following these dynamics of  Earth's example, we can be sure that the results will also be ecologically enriching!</p>
@@ -239,38 +278,19 @@
 
         </ul>
 
-        <a href="../svgs/Plastic-Mellenium-Paths.pdf" target="_blank" data-lang-id="014-millenium-img-alt"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy" data-lang-id="014-image-mellenium-paths"></a>
+        <p>These Earthen principles are articulated in the ecological theory of Earthen ethics.</p>
 
-        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="015-link to-chart">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p>
+        <a class="action-btn" href="https://book.earthen.io" data-lang-id="046-button">Earthen Ethics</a>
+        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">The Tracatus Ayyew theory of Green & Grey</p>
+
+
+        <!-- <a href="../svgs/Plastic-Mellenium-Paths.pdf" target="_blank" data-lang-id="014-millenium-img-alt"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy" data-lang-id="014-image-mellenium-paths"></a>
+
+        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="015-link to-chart">View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.</p> -->
     </div>
 </div>
 
 
-<div class="reg-content-block" id="block2">
-
-    <div class="opener-header">
-
-        <div class="opener-header-text" data-lang-id="006-opener-header-text">
-        <h4 data-lang-id="037-page-paragraph">Seeing Plastic Anew</h4>
-        <h5 data-lang-id="038-page-paragraph">In light of Earth’s ancient history, we can see the modern of history of plastic differently…</h5>   
-        <br>
-        </div>
-
-        <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-    </div>
-
-    <div id="preclosed2">
-
-        <p data-lang-id="038-page-paragraph">In light of the Earth’s ancient history, we can see the modern of history of plastic differently…</p>
-
-        <ul>
-            <li data-lang-id="039a-list-paragraph">There is a direction connection between the running of the petro-capital economy and the production and dispersal of plastic</li>
-            <li data-lang-id="039b-list-paragraph">Plastic is the one form of processed fuels that remains densely compacted</li>
-            <li data-lang-id="039c-list-paragraph">Processing plastic in the petro-capital system perpetuates the decompaction of stored carbon, the release of CO2, and the dispersal of plastic</li>
-            <li data-lang-id="039d-list-paragraph">Plastics loose in the biosphere quickly degrade into greenhouse gases, micro-plastics and toxins.</li>
-        </ul>
-    </div>
-</div>
 
 
 
@@ -280,7 +300,7 @@
 
     <div class="opener-header-text" data-lang-id="006-opener-header-text">
     <h4 data-lang-id="040-page-paragraph">Learning from Indigenous Peoples</h4>
-    <h5 data-lang-id="041-page-paragraph">We have much to learn from those great green civilizations that have already figured out how to contribute ecologically.</h5>   
+    <h5 data-lang-id="041-page-paragraph">We have much to learn from those great green civilizations that have already figured out how to contribute ecologically.  </h5>   
     <br>
     </div>
 
@@ -291,7 +311,14 @@
 
         <p data-lang-id="041-page-paragraph">Many great civilizations and nations throughout human history have thrived in harmony with their surrounding ecologies. The way their looked at the world, what they valued and how they used money (capital) is something that we can learn much from.</p>
 
-        <p data-lang-id="042-page-paragraph">The Igorot people have lived in ecological abundance in what is now the Northern Philippines for the last centuries. In their world view they have a virtue for making a place ever greener.  Someone who successfully transforming barren land into a field, or a field into a garden, or a garden into a forest is called "<a href="../ayyew">Ayyew</a>".  The virtue ranks with Courageous, Honor, and Loyalty in their way of seeing the world.  The underlying idea of Ayyew is syncing with cycles into ever greater harmony. It is an idea that can help us make sense of the way the Earth has been working for the last few billion years. In fact, this is probably what inspired the Igorots in the first place.</p>
+        <p data-lang-id="042-page-paragraph">The Igorot people have lived in ecological abundance in what is now the Northern Philippines for the last centuries. In their world view they have a virtue for making a place ever greener.  Someone who successfully transforming barren land into a field, or a field into a garden, or a garden into a forest is called "<a href="../ayyew">Ayyew</a>".</p>
+        
+        <p>In Igorot society, the virtue of Ayyew ranks with Courageous, Honor, and Loyalty in their way of seeing the world.</p>
+        
+        <p>The underlying idea of Ayyew is syncing with cycles into ever greater harmony. It is an idea that can help us make sense of the way the Earth has been working for the last few billion years. In fact, this is probably what inspired the Igorots in the first place.</p>
+
+        <a class="action-btn" href="sequest.php" data-lang-id="046-button">🚀 The Ayyew Ethos</a>
+        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">Learn about the Igorot ecological paradigm</p>
 
     </div>
 </div>
@@ -332,9 +359,12 @@
         <a class="action-btn" href="sequest.php" data-lang-id="046-button">🚀 Plastic Sequestration</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">The criteria of plastic sequestration</p>
 
+        <br><br>
+       
 </div>
 
 <br><br>
+<p>Our account of <i>Plastic's Long Story</i> is based on "Plastic's Interstellar Story" from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier.  See this original account to go much deeper into plastic's story!  The orginal version's scientific and social references are extensively footnoted.</p>
 
 
         
