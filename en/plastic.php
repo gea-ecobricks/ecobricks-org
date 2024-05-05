@@ -159,6 +159,8 @@
         
     <p>How could we make sure that our ways were not grey and harmful in the first place, but in fact helped make ecosystems vibrant and verdant, diverse and abundant?</p>
 
+    <br><br>
+
 </div>
 <!-- 
 
@@ -367,13 +369,13 @@
 <p>Learn more…</p>
 <br>
 
-        <a class="action-btn" href="sequest.php" data-lang-id="046-button">🚀 Plastic Sequestration</a>
+        <a class="action-btn" href="sequest.php" data-lang-id="046-button">🍃 Plastic Sequestration</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">The criteria of plastic sequestration</p>
 
         <br><br>
         <hr>
        
-<p >Our account of <i>Plastic's Long Story</i> is based on "Plastic's Interstellar Story" from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier.  See this original account to go much deeper into plastic's story!  The orginal version's scientific and social references are extensively footnoted.</p>
+<p >Our account of <i>Plastic's Long Story</i> is based on <a href="https://book.earthen.io/en/stellar.html" target="_blank">Plastic's Interstellar Story</a> from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier.  See this original account to go much deeper into plastic's story!  The orginal version's scientific and social references are extensively footnoted.</p>
        
 </div>
 
