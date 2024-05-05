@@ -288,8 +288,9 @@
         </ul>
 
         <p>These Earthen principles are articulated in the ecological theory of Earthen ethics.</p>
+        <br>
 
-        <a class="action-btn" href="https://book.earthen.io" data-lang-id="046-button">Earthen Ethics</a>
+        <a class="action-btn" href="https://book.earthen.io" data-lang-id="046-button">🍃 Earthen Ethics</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">The Tracatus Ayyew theory of Green & Grey</p>
 
 
@@ -325,8 +326,8 @@
         <p>In Igorot society, the virtue of Ayyew ranks with Courageous, Honor, and Loyalty in their way of seeing the world.</p>
         
         <p>The underlying idea of Ayyew is syncing with cycles into ever greater harmony. It is an idea that can help us make sense of the way the Earth has been working for the last few billion years. In fact, this is probably what inspired the Igorots in the first place.</p>
-
-        <a class="action-btn" href="sequest.php" data-lang-id="046-button">🚀 The Ayyew Ethos</a>
+<br>
+        <a class="action-btn" href="sequest.php" data-lang-id="046-button">🍃 The Ayyew Ethos</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">Learn about the Igorot ecological paradigm</p>
 
     </div>
@@ -355,7 +356,7 @@
 
     </div>
 </div> -->
-
+<br><br>
 <div class="paragraph-reg" >
 
 <h2 data-lang-id="043-page-paragraph">Plastic Sequestration</h2>
@@ -377,7 +378,7 @@
 </div>
 
 
-
+<br><br>
 
         
 </div>  <!--closes main-->
