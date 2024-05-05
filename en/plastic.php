@@ -359,7 +359,7 @@
     </div>
 </div> -->
 <br><br>
-<div class="paragraph-reg" >
+<div class="page-paragraph-reg" >
 
 <h2 data-lang-id="043-page-paragraph">Plastic Sequestration</h2>
 <p data-lang-id="045-page-paragraph" style="font-size: 1.2">Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.</p>
