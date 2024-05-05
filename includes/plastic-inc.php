@@ -19,8 +19,8 @@
     float: left;
     font-size: 4em;
     line-height: 0.8em;
-    margin-top: 0.1em;
-    margin-right: 0.1em;
+    margin-top: 0em;
+    margin-right: 0.05em;
 }
 
 @media screen and (max-width: 700px) { 

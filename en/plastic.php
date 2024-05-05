@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.772';?>
+<?php $version='1.773';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
@@ -62,7 +62,7 @@
 
 
 
-    <div style="width: 100%; overflow: hidden;">
+    <div style="width: 100%; overflow: hidden;margin-top: 30px;">
             <img src="../webp/hurricane-space.webp" alt="the long story of plastic - part 1" style="width: 100%;height: auto;">
         </div>
     
@@ -288,7 +288,7 @@
     </div>
 </div>
 
-
+<!-- 
 <div class="reg-content-block" id="block4">
 
     <div class="opener-header">
@@ -308,14 +308,23 @@
 
         <a class="action-btn" href="sequest.php" data-lang-id="046-button">🚀 Plastic Sequestration</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">Go deep into the concept of plastic sequestration</p>
-<!-- 
-    
-        <h2>References &amp; Recommended Readings</h2>
-        <p>For a more extensive version of this page, with full footnotes, please see the <a href="https://files.mandala.team/s/QsiDZMty23kHdps">Global Ecobrick Alliance Ecobrick &amp; Brikcoin whitepaper.</a></p><p>We also highly recommend the <a href="https://www.ecobricks.org/wp-content/uploads/2020/07/THE-STORY-OF-PLASTIC-_-Research-Guide.pdf">research bibliography of the Story of Stuff project.</a></p> -->
-        
-    </div>
-</div>
 
+    </div>
+</div> -->
+
+<div class="paragraph-reg">
+
+<h4 data-lang-id="043-page-paragraph">Plastic Sequestration</h4>
+<p data-lang-id="045-page-paragraph">Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.</p>
+
+<p>Earth’s example of short short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.</p>
+
+<p>Learn more…</p>
+
+        <a class="action-btn" href="sequest.php" data-lang-id="046-button">🚀 Plastic Sequestration</a>
+        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">The criteria of plastic sequestration</p>
+
+</div>
 
 <br><br>
 
