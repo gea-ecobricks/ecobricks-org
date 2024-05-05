@@ -43,8 +43,7 @@
             <div class="page-paragraph" style="line-height:1.4">
                 <p data-lang-id="006-second-page-paragraph">In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution.</p>
             </div>
-            <br>
-            <hr>
+          
 
            
         </div> <!--Closes Main-->
@@ -61,14 +60,16 @@
 
 
 
-<div class="page-paragraph-reg">
-    
-    <!-- <p data-lang-id="007-page-paragraph">However, its just as important to understand that the story of plastic doesn’t begin in a factory.  Instead, plastic finds its origins millions of years ago on an ancient, barren Earth we would barely recognize.  In fact, the carbon molecules of our modern plastic played a key role in making our common home the thriving and diverse biosphere that we know today.</p>
 
-    <p data-lang-id="008-page-paragraph">As you will see, we have much to learn from the way that our once barren planet has slow and steady compacted carbon, stored it, and cultivated ever-richer ecological cycles.  From this long-view vantage point, we will see that plastic isn’t the problem.  Rather, it’s our starting point to follow the Earth’s ancient example in our modern lives…</p>-->
+
+    <div style="width: 100%; overflow: hidden;">
+            <img src="../webp/hurricane-space.webp" alt="the long story of plastic - part 1" style="width: 100%;height: auto;">
+        </div>
     
 
-    <p data-lang-id="010-page-paragraph"><span class="drop-cap">O</span>VER FOUR BILLION YEARS AGO, like the other planets in our solar system, Earth was a barren and desolate place.  For our planet's first two billion years, its atmosphere was full of carbon dioxide, making its climate hot, harsh and unstable.</p>
+    <p data-lang-id="010-page-paragraph" class="lead-page-paragraph"><span class="drop-cap">O</span>VER FOUR BILLION YEARS AGO, like the other planets in our solar system, Earth was a barren and desolate place.  For our planet's first two billion years, its atmosphere was full of carbon dioxide, making its climate hot, harsh and unstable.</p></div>
+
+    <div class="page-paragraph-reg">
     
     <p>However, as the sun shone down, things began to change.  Steadily, the unique character of our planet began to unfold.  Volcanoes spewed, rivers ran, ocean currents and tectonic plates collided.  As the surface of the earth dispersed the sun's shine, Earth's atoms began to spiral into more and more complex configurations. Slow and steady, tiny molecular systems figured out how to turn the light of the sun into life.</p>
 
