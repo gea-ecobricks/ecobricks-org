@@ -90,7 +90,9 @@
     --facebook: #1d2e53;
  }
 
+.dark-only {display:block;}
 
+.light-only {display:none;}
 
 
 .top-emblem-button {

@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.771';?>
+<?php $version='1.772';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
@@ -85,7 +85,7 @@
     </div>
 
     <div style="width: 100%; overflow: hidden;" class="light-only">
-        <img src="../webp/long-story-of-plastic-light.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+        <img src="../webp/long-story-of-plastic.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
     </div>
 
 

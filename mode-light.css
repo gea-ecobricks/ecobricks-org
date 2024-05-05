@@ -91,6 +91,10 @@
     --facebook: #728398;
 
    }
+
+   .dark-only {display:none;}
+
+.light-only {display:block;}
    
 .top-emblem-button {
     /*background: url(../svgs/settings-icon-dark.svg) no-repeat;*/
