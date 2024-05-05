@@ -40,9 +40,11 @@
                 <p data-lang-id="005-first-page-paragraph">What is plastic exactly?  Where does it come from?  And, where is it going?  </p>
             </div>
         
-            <div class="page-paragraph">
-                <p data-lang-id="006-second-page-paragraph">In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution-- rather than just more pollution.</p>
+            <div class="page-paragraph" style="line-height:1.4">
+                <p data-lang-id="006-second-page-paragraph">In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution.</p>
             </div>
+            <br>
+            <hr>
 
            
         </div> <!--Closes Main-->
