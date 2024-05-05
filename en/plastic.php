@@ -203,19 +203,7 @@
 
 
 
-<div class="reg-content-block" id="block1">
 
-    <div class="opener-header">
-
-        <div class="opener-header-text" data-lang-id="006-opener-header-text">
-        <h4>Learning from Earth</h4>
-        <h5>We can learn much from the way Earth transformed from a barren rock to a green, abundant, biodiverse, stable and conscious biosphere. </h5>   
-        <br>
-        </div>
-
-        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-    </div>
-</div>
 
 
 <div class="reg-content-block" id="block2">
@@ -248,6 +236,20 @@
     </ul>
 </div>
 </div>
+
+
+<div class="reg-content-block" id="block1">
+
+    <div class="opener-header">
+
+        <div class="opener-header-text" data-lang-id="006-opener-header-text">
+        <h4>Learning from Earth</h4>
+        <h5>We can learn much from the way Earth transformed from a barren rock to a green, abundant, biodiverse, stable and conscious biosphere. </h5>   
+        <br>
+        </div>
+
+        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+    </div>
 
     <div id="preclosed1">
 
@@ -354,22 +356,23 @@
     </div>
 </div> -->
 
-<div class="paragraph-reg">
+<div class="paragraph-reg" >
 
 <h2 data-lang-id="043-page-paragraph">Plastic Sequestration</h2>
-<p data-lang-id="045-page-paragraph">Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.</p>
+<p data-lang-id="045-page-paragraph" style="font-size: 1.3">Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.</p>
 
-<p>Earth’s example of short short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.</p>
+<p style="font-size: 1.3">Earth’s example of short short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.</p>
 
 <p>Learn more…</p>
+<br>
 
         <a class="action-btn" href="sequest.php" data-lang-id="046-button">🚀 Plastic Sequestration</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="032-modules-info">The criteria of plastic sequestration</p>
 
         <br><br>
         <hr>
-        <br><br>
-<p style="font-size:small">>Our account of <i>Plastic's Long Story</i> is based on "Plastic's Interstellar Story" from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier.  See this original account to go much deeper into plastic's story!  The orginal version's scientific and social references are extensively footnoted.</p>
+       
+<p >Our account of <i>Plastic's Long Story</i> is based on "Plastic's Interstellar Story" from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier.  See this original account to go much deeper into plastic's story!  The orginal version's scientific and social references are extensively footnoted.</p>
        
 </div>
 
