@@ -19,7 +19,7 @@
  <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">The Long Story of Plastic</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Knowing the ancient story of plastic is the key to securing its green fate today.</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Knowing plastic's primordial past is the key to securing its green future today.</div>
 	</div>
 	<div class="splash-image" data-lang-id="x003-splash-image-alt"><img src="../svgs/the-biosphere.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	
    
@@ -202,7 +202,7 @@
 
         <div class="opener-header-text" data-lang-id="006-opener-header-text">
         <h4>Learning from Earth</h4>
-        <h5>Over the last few billion years we can learn much from the way the Earth transformed from a barren rock to a green, abundant, biodiverse, stable and conscious biosphere. </h5>   
+        <h5>We can learn much from the way Earth transformed from a barren rock to a green, abundant, biodiverse, stable and conscious biosphere. </h5>   
         <br>
         </div>
 
@@ -212,23 +212,31 @@
     <div id="preclosed1">
 
         <br>
-        <p data-lang-id="032-page-paragraph">A key part of this process has been the processing of carbon!  By looking closely at Earth’s example we see the way that…</p>
+        <p data-lang-id="032-page-paragraph">By looking closely at Earth’s primordial past we see the way that…</p>
         <ul>
             <li data-lang-id="034a-list-paragraph"> Earth used carbon in the short-term as an indefinite building block.</li>
             <li data-lang-id="034b-list-paragraph"> Earth concentrated, secured and sequestered carbon into long-term storage out of the biosphere.</li>
             <li data-lang-id="034c-list-paragraph">Earth’s procesess tended to subtract more carbon into storage than they added back to the atmosphere.</li>
             <li data-lang-id="034d-list-paragraph">Earth’s processes distributed energy out across its surface and systems ever more broadly and beneficially.</li>
-            <li data-lang-id="034d-list-paragraph">Earth’s processes tended towards more and more diverse systmes, organisms and ecosystems.</li>
-            <li data-lang-id="034e-list-paragraph">Earth’s organisms and ecosystems tended towards more and more conscious of themselves and their interconnection</li>
+            <li data-lang-id="034d-list-paragraph">Earth’s processes tended towards more and more diverse systems, organisms and ecosystems.</li>
+            <li data-lang-id="034e-list-paragraph">Earth’s organisms and ecosystems tended towards more and more awareness of themselves and their interconnection.</li>
+        </ul>
+        
+            <p data-lang-id="036-list-paragraph">By following these dynamics of  Earth's example, we can be sure that the results will also be ecologically enriching!</p>
             
-            <p data-lang-id="035-page-paragraph">From the observation of these principles and our modern experience of plastic and pollution We can draw some important conclusions…</p>
-            <ul>
-            <li data-lang-id="036-list-paragraph">By following these principles we can follow Earth's example and be sure that the results will also be ecologically enriching. </li>
+            <p>In fact, we can apply Earth's example directly to the management of our modern plastic…</p>
+
+        <ul>
+            <li data-lang-id="036-list-paragraph">The less we participate in the petro-capital econoy, the less fossil fuels will be extracted and refined, and the less plasti will be produced.</li>
 
             <li data-lang-id="036-list-paragraph">It is important to keep the carbon that is already under the ground in the ground.  This is the easiest way to prevent it from getting loose into the atmosphere</li>
 
-            <li data-lang-id="036-list-paragraph">We can secure our plastic (a form of carbon) out of systems that would otherwise disperse it.  Instead, we can concentrate and secure out plastic too.</li>
-            <li data-lang-id="036-list-paragraph">There is a direct connection between the running of the petro-capital economy and the decompaction of carbon deposits</li>
+            <li data-lang-id="036-list-paragraph">We can secure our plastic (a form of carbon) out of inudustrial systems that would otherwise disperse it.  </li>
+
+            <li>The plastic that passes through our hands we can compact, secure and sequester ourselves</li>
+
+            <li data-lang-id="036-list-paragraph">We should be sure that only enterprises that operate for-Earth (rather than for profit) are the ones that oversee plastic management.</li>
+
         </ul>
 
         <a href="../svgs/Plastic-Mellenium-Paths.pdf" target="_blank" data-lang-id="014-millenium-img-alt"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy" data-lang-id="014-image-mellenium-paths"></a>
