@@ -15,6 +15,14 @@
 
 <STYLE>
 
+.drop-cap {
+    float: left;
+    font-size: 4em;
+    line-height: 0.8em;
+    margin-top: 0.1em;
+    margin-right: 0.1em;
+}
+
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		
