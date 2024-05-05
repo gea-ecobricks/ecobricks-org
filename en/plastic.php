@@ -63,7 +63,7 @@
 
 
 
-<div style="text-align:justify;font-size:1.3em">
+<div style="text-align:justify;font-size:1.2em">
 
     <div style="width: 100%; overflow: hidden;margin-top: 30px;margin-bottom:10px;">
             <img src="../webp/hurricane-space.webp" alt="a view of earth's spiralling matter and energy" style="width: 100%;height: auto;">
@@ -362,9 +362,9 @@
 <div class="paragraph-reg" >
 
 <h2 data-lang-id="043-page-paragraph">Plastic Sequestration</h2>
-<p data-lang-id="045-page-paragraph" style="font-size: 1.3">Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.</p>
+<p data-lang-id="045-page-paragraph" style="font-size: 1.2">Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.</p>
 
-<p style="font-size: 1.3">Earth’s example of short short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.</p>
+<p style="font-size: 1.2">Earth’s example of short short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.</p>
 
 <p>Learn more…</p>
 <br>
