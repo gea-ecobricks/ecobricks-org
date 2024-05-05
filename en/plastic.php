@@ -63,7 +63,7 @@
 
 
 
-<div style="text-align:justify;font-size:1.2em">
+<div style="text-align:justify;font-size:1.2em; padding:7px;line-heigh:1.3em;">
 
     <div style="width: 100%; overflow: hidden;margin-top: 30px;margin-bottom:10px;">
             <img src="../webp/hurricane-space.webp" alt="a view of earth's spiralling matter and energy" style="width: 100%;height: auto;">
