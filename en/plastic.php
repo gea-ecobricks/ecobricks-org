@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.773';?>
+<?php $version='1.774';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
@@ -41,7 +41,9 @@
             </div>
         
             <div class="page-paragraph" style="line-height:1.4">
-                <p data-lang-id="006-second-page-paragraph">In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution.</p>
+                <p data-lang-id="006-second-page-paragraph">In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution...</p>
+
+                <p>Settle in and read on...</p>
             </div>
           
 
@@ -62,8 +64,8 @@
 
 
 
-    <div style="width: 100%; overflow: hidden;margin-top: 30px;">
-            <img src="../webp/hurricane-space.webp" alt="the long story of plastic - part 1" style="width: 100%;height: auto;">
+    <div style="width: 100%; overflow: hidden;margin-top: 30px;margin-bottom:10px;">
+            <img src="../webp/hurricane-space.webp" alt="a view of earth's spiralling matter and energy" style="width: 100%;height: auto;">
         </div>
     
 
@@ -71,15 +73,15 @@
 
     <div class="page-paragraph-reg">
     
-    <p>However, as the sun shone down, things began to change.  Steadily, the unique character of our planet began to unfold.  Volcanoes spewed, rivers ran, ocean currents and tectonic plates collided.  As the surface of the earth dispersed the sun's shine, Earth's atoms began to spiral into more and more complex configurations. Slow and steady, tiny molecular systems figured out how to turn the light of the sun into life.</p>
+    <p>However, as the sun shone down, things began to change.  Steadily, the unique character of our planet began to unfold.  Volcanoes spewed, rivers ran, and ocean currents and tectonic plates collided.  As the surface of the earth dispersed the sun's shine, Earth's atoms began to spiral into more and more complex configurations. Slow and steady, tiny molecular systems figured out how to turn the light of the sun into life.</p>
 
-    <p>As cells and photosynthesis emerged; plants folled.  By sucking in carbon dioxide nutrients could be made. Plants and trees grew bigger and spread across the planet.</p>
+    <p>As cells and photosynthesis emerged; plants followed.  By sucking in carbon dioxide nutrients could be made. Plants and trees grew bigger and spread across the planet.</p>
 
 
     <p data-lang-id="011-page-paragraph">Made from the carbon that they collected, soon vast forests covered the continents, and massive blooms of algae filled low lying seas.  As the plants and animals within these ecosystems lived and died, each fallen generation was covered up by the next. Whether on a forest floor or the floor of the ocean, layers of life and the carbon they contained were buried one upon the other.  Over hundreds of millions of years, hundreds of millions of tons of carbon were steadily concentrated, compacted and secured into the earth.</p>
 
 
-    <p data-lang-id="012-page-paragraph">With all this carbon out of the air, Earth’s atmosphere calmed and cooled down. Steadily, life flourished!  Ecosystems and biomes all became more vibrant, diverse and abundant.</p>
+    <p data-lang-id="012-page-paragraph">With all this carbon removed out of the air, Earth’s atmosphere calmed and cooled down. Steadily, life flourished!  Ecosystems and biomes all became more vibrant, diverse and abundant.</p>
 
 
 
@@ -100,17 +102,17 @@
     
     <p>Over the mellenia, we got better and better at making our fires.</p>
     
-    <p>It wasn't long til we dicovered black rocks that were even more dense in carbon than the heaviest wood.  And they burned even better!  Little did we know, but these stones were made from the very plants that had long ago taken the carbon out of Earth's air so long ago.</p>
+    <p>It wasn't long til we dicovered black rocks that were even more dense in carbon than the heaviest wood.  And they burned even better!  Little did we know that these stones were made from the very plants that had long ago removed the carbon from Earth's air.</p>
 
     <p data-lang-id="016-page-paragraph">Over the next centuries, certain groups of humans (but not all) got better and better at extracting and burning, what became know as 'coal'.  They discovered other types of ancient compacted carbon too.  Soon they were extracting petroleum and natural gas too. Humans gave the stuff a name: “fossil fuels”.</p>
 
-    <p data-lang-id="017-page-paragraph">As modern nations flourished, their economies began to rely more on more on the easy energy gained from burning these fossil fuels.</p>
+    <p data-lang-id="017-page-paragraph">As modern nations flourished, their economies began to rely more and more on the easy energy gained from burning these fossil fuels.</p>
         
     
 
-    <p data-lang-id="018-page-paragraph">However, despite the nifty name, these fossil deposits were never at first fuels!  In the process of refining them into fuel, there was a left over residue (5-15% depending on the source) that just couldn’t be used.  This left sludge over began to pile up.</p>
+    <p data-lang-id="018-page-paragraph">However, despite the nifty name, these fossil deposits were never fuels at first!  In the process of refining them into fuel, there was a left over residue (5-15% depending on the source) that just couldn’t be used.  This left sludge over began to pile up.</p>
 
-    <p data-lang-id="019-page-paragraph">We soon realized that the residuals of refinement could be used too!  With a little chemistry, polymers could be produced—and with a little more; an endless array of marvellous materials.</p>
+    <p data-lang-id="019-page-paragraph">We soon realized that the residues of refinement could be used too!  With a little chemistry, polymers could be produced—and with a little more; an endless array of marvellous materials.</p>
         
     <p>Plastics had arrived!</p>
 

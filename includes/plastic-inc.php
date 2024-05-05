@@ -15,6 +15,18 @@
 
 <STYLE>
 
+
+@media screen and (max-width: 1300px) {
+  .main {   
+    width:100%;
+  }
+
+  .side {
+    display:none;
+    }
+
+  }
+
 .drop-cap {
     float: left;
     font-size: 4em;
