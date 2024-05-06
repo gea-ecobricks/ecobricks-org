@@ -31,12 +31,12 @@
   margin-bottom: 15px;
   height: 500px;
   display:flex; flex-flow:column;"><div>
-<!-- <spline-viewer url="https://prod.spline.design/IHSMbi56bMqgyJxV/scene.splinecode"></spline-viewer> -->
-
+<spline-viewer url="https://prod.spline.design/IHSMbi56bMqgyJxV/scene.splinecode"></spline-viewer>
+<!-- 
 <iframe src='https://my.spline.design/joinersjoining-652f02d873b295b9fdfe5388c4756aba/' frameborder='0' width='100%' height='100%' style="height:100%"></iframe>
-</div>
-<div id="spline-instructions" style="font-size:smaller; color:grey;font-family:'Mulish',sans-serif;width: 100%; text-align:left;padding: 5px;margin-top: auto;
-  margin-bottom: 5px;">Double touch or drag to interact</div>
+</div> -->
+<!-- <div id="spline-instructions" style="font-size:smaller; color:grey;font-family:'Mulish',sans-serif;width: 100%; text-align:left;padding: 5px;margin-top: auto;
+  margin-bottom: 5px;">Double touch or drag to interact</div> -->
 </div>
 
 
