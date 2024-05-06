@@ -36,6 +36,8 @@
   margin-bottom: 5px;">Double touch or drag to interact</div>
 </div>
 
+<iframe src='https://my.spline.design/joinersjoining-652f02d873b295b9fdfe5388c4756aba/' frameborder='0' width='100%' height='100%'></iframe>
+
         
 
         <div class="splash-form-content-block">  
