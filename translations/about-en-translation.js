@@ -100,7 +100,7 @@ const en_Page_Translations = {
     '086-page-paragraph-p3': '<b>Our Mission</b>',
     '087-page-paragraph-p4': 'To raise Ecological Consciousness through the spread of Ecobricking and the transformation of global plastic into local solutions.',
     '088-page-paragraph-p5': '<b>Dedication</b>',
-    '089-page-paragraph-p6': 'Our work is dedicated to our Children, our Children’s Children… and the children of all species, for all time.',
+    '089-page-paragraph-p6': 'Our work is dedicated to our Children, our Children’s Children… and the Children of all species, for all time.',
     '090-page-paragraph-p7': '<i>Together we can be the transition to ever increasing harmony with the cycles of life.</i>',
 
 

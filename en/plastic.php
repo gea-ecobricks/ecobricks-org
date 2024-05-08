@@ -70,7 +70,7 @@
         </div>
     
 
-    <div class="lead-page-paragraph"><p data-lang-id="010-page-paragraph" ><span class="drop-cap">O</span>VER FOUR BILLION YEARS AGO, like the other planets in our solar system, Earth was a barren and desolate place.  For our planet's first two billion years, its atmosphere was full of carbon dioxide, making its climate hot, harsh and unstable.</p></div>
+    <div class="lead-page-paragraph"><p data-lang-id="010-page-paragraph" ><span class="drop-cap">O</span>VER FOUR BILLION YEARS AGO, cosmic dustic and debris swirled together to form our planet.  Like the other planets in our solar system, Earth was barren and desolate place.  For our planet's first two billion years, its atmosphere was full of carbon dioxide, making its climate hot, harsh and unstable.</p></div>
 
     <div class="page-paragraph-reg">
     
@@ -375,7 +375,7 @@
         <br><br>
         <hr>
        
-<p >Our account of <i>Plastic's Long Story</i> is based on <a href="https://book.earthen.io/en/stellar.html" target="_blank">Plastic's Interstellar Story</a> from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier.  See this original account to go much deeper into plastic's story!  The orginal version's scientific and social references are extensively footnoted.</p>
+<p>Our account of <i>Plastic's Long Story</i> is based on <a href="https://book.earthen.io/en/stellar.html" target="_blank">Plastic's Interstellar Story</a> from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier.  See this original account to go much deeper into plastic's story!  The orginal version's scientific and social references are extensively footnoted.</p>
        
 </div>
 
