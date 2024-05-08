@@ -18,7 +18,7 @@
 
  <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">The Long Story of Plastic</div>
+		<div class="splash-heading" data-lang-id="001-splash-title"><h1>The Long Story of Plastic</h1></div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Knowing plastic's primordial past is the key to securing its green future today.</div>
 	</div>
 	<div class="splash-image" data-lang-id="x003-splash-image-alt"><img src="../svgs/the-biosphere.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	
@@ -66,7 +66,7 @@
 <div style="text-align:justify;font-size:1.2em; padding:7px;line-heigh:1.3em;">
 
     <div style="width: 100%; overflow: hidden;margin-top: 30px;margin-bottom:10px;">
-            <img src="../webp/hurricane-space.webp" alt="a view of earth's spiralling matter and energy" style="width: 100%;height: auto;">
+            <img src="../webp/hurricane-space.webp" alt="a view of earth's spiralling matter and energy" style="width: 100%;height: auto;" loading="lazy">
         </div>
     
 
@@ -132,11 +132,11 @@
 	    <p data-lang-id="028-page-paragraph">Howewver, soon there was so much plastic that it began to spill out of our homes, enterprises and industries. With growing alarm and anxiety we watched as our plastic clogged rivers, littered beaches and piled into great smoking mountains. The particles of plastic were everywhere— inside the bodies of fish and animals— and us.</p>
 	
 	    <div style="width: 100%; overflow: hidden;" class="dark-only">
-	        <img src="../webp/oil-2-plastic-dark.webp?v=2" alt="the journey of oil to plastic" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+	        <img src="../webp/oil-2-plastic-dark.webp?v=2" alt="the journey of oil to plastic" style="width: 100%; loading="lazy"; margin-bottom: 20px; margin-top:20px; height: auto;">
 	    </div>
 	
 	    <div style="width: 100%; overflow: hidden;" class="light-only">
-	        <img src="../webp/oil-2-plastic-light.webp?v=2" alt="the journey of oil to plastic" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+	        <img src="../webp/oil-2-plastic-light.webp?v=2" alt="the journey of oil to plastic" style="width: 100%; loading="lazy"; margin-bottom: 20px; margin-top:20px; height: auto;">
 	    </div>
 		
 	    <p data-lang-id="029-page-paragraph">Shocked, shamed and determined, our industries and our companies promised to do better!  And they tried. They did their best to convince everyone that there was a solution just around the corner. Companies, scientists, businesspeople and politicians strove valiantly to our processes, products and packaging less harmful, less polluting and less damaging.</p>
