@@ -11,7 +11,7 @@
         "section": "Glossary",
         "image_url": "..\/icons\/glossary-day.svg",
         "image_url_night": "..\/icons\/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "what.php"
       },
 
       {
@@ -24,7 +24,7 @@
         "section": "Glossary",
         "image_url": "..\/icons\/glossary-day.svg",
         "image_url_night": "..\/icons\/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "how.php"
       },
 
 
@@ -38,7 +38,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "plastic.php"
     },
     {
         "id": "25",
@@ -50,7 +50,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "/ayyew"
     },
     {
         "id": "27",
@@ -62,7 +62,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "plastic.php"
     },
     {
         "id": "28",
@@ -74,7 +74,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "plastic.php"
     },
     {
         "id": "29",
@@ -86,7 +86,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "plastic.php"
     },
     {
         "id": "30",
@@ -98,7 +98,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "/ayyew"
     },
     {
         "id": "31",
@@ -110,7 +110,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "earth.php"
     },
     {
         "id": "32",
@@ -122,7 +122,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "plastic.php"
     },
     {
         "id": "33",
@@ -134,7 +134,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "principles.php"
     },
     {
         "id": "34",
@@ -146,7 +146,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": ""
     },
     {
         "id": "35",
@@ -158,7 +158,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "plastic.php"
     },
     {
         "id": "36",
@@ -170,7 +170,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "principles.php"
     },
     {
         "id": "37",
@@ -182,7 +182,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "principles.php"
     },
     {
         "id": "38",
@@ -194,7 +194,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "about.php"
     },
     {
         "id": "39",
@@ -206,7 +206,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "plastic.php"
     },
     {
         "id": "40",
@@ -218,7 +218,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "principles.php"
     },
     {
         "id": "41",
@@ -230,7 +230,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "principles.php"
     },
     {
         "id": "42",
@@ -242,7 +242,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "/ayyew"
     },
     
     {
@@ -255,7 +255,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "https://book.earthen.io/fr/la-nature.html"
     },
     {
         "id": "44",
@@ -267,7 +267,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "https://book.earthen.io/fr/cyclocentrique.html"
     },
     
     
@@ -281,7 +281,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "https://book.earthen.io/fr/cyclocentrique.html"
     },
 
     {
@@ -294,7 +294,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "plastic.php"
     },
 
     {
@@ -307,7 +307,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "sequestration.php"
     },
 
     
@@ -321,7 +321,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "plastic.php"
     },
     {
         "id": "49",
@@ -333,7 +333,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "https://book.earthen.io/fr/plastique1.html"
     },
     {
         "id": "50",
@@ -345,7 +345,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "sequestration.php"
     },
     
 
@@ -359,7 +359,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "principles.php"
     },
     
     {
@@ -372,7 +372,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "https://book.earthen.io/en/energy.html"
     },
 
     {
@@ -385,7 +385,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "https://book.earthen.io/en/energy.html"
     },
     {
         "id": "54",
@@ -397,7 +397,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "spiral.php"
     },
 
 
@@ -411,22 +411,10 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-     "url": "glossary.php"
-  }, 
+     "url": "/mandalas"
+  }
 
 
-  {
-    "id": "53",
-    "title": "pour-Terre",
-    "keywords": "Entreprise Terrestre, pour-Terre, à but non lucratif, à but lucratif, nfp, mcclurahan",
-    "description": "L'intention d'une entreprise de s'efforcer avant tout d'enrichir la biosphère en suivant l'exemple de la Terre.",
-    "language": "Français",
-    "lang_key": "fr",
-    "section": "Glossaire",
-    "image_url": "../icons/glossary-day.svg",
-    "image_url_night": "../icons/glossary-night.svg",
-    "url": "glossary.php"
-}
 
   
 

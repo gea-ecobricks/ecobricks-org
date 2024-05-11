@@ -973,7 +973,7 @@ display: none;
         <div class="search-box">
             <div class="search-section">
             <input id="search_input" type="text" placeholder="Enter search term..." aria-label="Enter search..." onkeypress="handleKeyPress(event)">   
-            <button class="btn main-search-button" onclick="siteSearch(['indexes/glossary.json', 'indexes/page-index.json'])" aria-label="Search Button"></button> 
+            <button class="btn main-search-button" onclick="siteSearch(['indexes/glossary.json?v=2', 'indexes/page-index.json?v=2'])" aria-label="Search Button"></button> 
             </div>  
             <!-- Checkbox options -->
             <div class="search-options">
@@ -986,8 +986,8 @@ display: none;
             <div class="search-row"> <!-- Second row -->
                 <label><b data-lang-id="103-search-index3">Glossaries:</b><input type="checkbox" name="searchIndex" value="en_glossary" checked>EN  </label>
                 <label><input type="checkbox" name="searchIndex" value="fr_glossary" >FR  </label>
-                <label><input type="checkbox" name="searchIndex" value="es_glossary" disabled>ES  </label>
-                <label><input type="checkbox" name="searchIndex" value="id_glossary" disabled>IN</label>
+                <label><input type="checkbox" name="searchIndex" value="es_glossary" >ES  </label>
+                <label><input type="checkbox" name="searchIndex" value="id_glossary" >IN</label>
             </div>
             </div>
 
