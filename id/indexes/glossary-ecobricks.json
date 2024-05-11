@@ -63,6 +63,8 @@
         "image_url_night": "../icons/glossary-night.svg",
         "url": "glossary.php"
       },
+
+
       {
         "id": "30",
         "title": "dap'ay",
@@ -80,8 +82,8 @@
       {
         "id": "31",
         "title": "tanah",
-        "keywords": "bumi, Bumi, bumi",
-        "description": "Tanah, tanah [huruf kecil 't']. Digunakan dengan artikel (mis. 'the')",
+        "keywords": "tanah, tanah liat",
+        "description": "Dari tanah, zat yang menjadi permukaannya (yaitu pasir, kerikil, tanah, dll.)",
         "language": "Indonesia",
         "lang_key": "id",
         "section": "Glosarium",
@@ -91,127 +93,96 @@
       },
     
     
-
-
-  {
+{
     "id": "32",
-    "title": "Earth",
-    "keywords": "Earth, earth, earthen,",
-    "description": "The third planet orbiting the sun [uppercase ‘E’]. Used without an article.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
+    "title": "Bumi",
+    "keywords": "Bumi, bumi, terestrial",
+    "description": "Planet ketiga yang mengorbit matahari [huruf 'B' besar]. Digunakan tanpa artikel.",
+    "language": "Bahasa Indonesia",
+    "lang_key": "id",
+    "section": "Glosarium",
+    "image_url": "../icons/glossary-day.svg",
+    "image_url_night": "../icons/glossary-night.svg",
     "url": "glossary.php"
+},
 
-
-
+{
+    "id": "33",
+    "title": "Terestrial",
+    "keywords": "Terestrial, terestrial",
+    "description": "Berkarakter Bumi. [Huruf 'T' besar]",
+    "language": "Bahasa Indonesia",
+    "lang_key": "id",
+    "section": "Glosarium",
+    "image_url": "../icons/glossary-day.svg",
+    "image_url_night": "../icons/glossary-night.svg",
+    "url": "glossary.php"
 },
 
 
-
-  {
-    "id": "33",
-    "title": "Earthen",
-    "keywords": "Earthen, earthen",
-    "description": "Of the character of the Earth. [Capital ‘E’]",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-  {
-    "id": "34",
-    "title": "earthen",
-    "keywords": "earthen, Earthen",
-    "description": "Of the earth (i.e. soil, ground) [lowercase ‘e’]",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-  {
+{
     "id": "35",
-    "title": "Earthen ethics",
-    "keywords": "Earthen Ethics,",
-    "description": "An ethical framework for discerning the ecological color of an act, process, or enterprise based on the example of Earth.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-  {
-    "id": "36",
-    "title": "Earth Enterprise",
-    "keywords": "Earth Enterprise,",
-    "description": "An enterprise that strives first and foremost to enrich the biosphere by following Earth’s example.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
+    "title": "Etika Terestrial",
+    "keywords": "Etika Terestrial",
+    "description": "Kerangka etika untuk menilai warna ekologis suatu tindakan, proses, atau usaha berdasarkan contoh Bumi.",
+    "language": "Bahasa Indonesia",
+    "lang_key": "id",
+    "section": "Glosarium",
+    "image_url": "../icons/glossary-day.svg",
+    "image_url_night": "../icons/glossary-night.svg",
+    "url": "glossary.php"
+},
 
 {
-  "title": "Earthling",
-  "keywords": "earth, earthling,",
-  "description": "An inhabitant of planet Earth.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
- "url": "glossary.php"
-}, 
+  "id": "36",
+  "title": "Perusahaan Bumi",
+  "keywords": "Perusahaan Bumi",
+  "description": "Sebuah perusahaan yang berupaya pertama dan terutama untuk memperkaya biosfer dengan mengikuti contoh Bumi.",
+  "language": "Bahasa Indonesia",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "glossary.php"
+},
 
+{
+  "title": "Penghuni Bumi",
+  "keywords": "bumi, penghuni bumi",
+  "description": "Seorang penghuni planet Bumi.",
+  "language": "Bahasa Indonesia",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "glossary.php"
+},
 
+{
+  "id": "37",
+  "title": "kontribusi ekologis",
+  "keywords": "Kontribusi Ekologis, kontribusi ekologis",
+  "description": "Proses yang sepenuhnya mewujudkan prinsip-prinsip etika Terestrial. Dampak ekologis yang hijau.",
+  "language": "Bahasa Indonesia",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "glossary.php"
+},
 
-
-  {
-    "id": "37",
-    "title": "ecological contribution",
-    "keywords": "Ecological Contribution, ecological contributions,",
-    "description": "A process that fully embodies the principles of Earthen ethics. A green ecological impact.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-  {
-    "id": "38",
-    "title": "ecological consciousness",
-    "keywords": "Ecological Consciousness,",
-    "description": "An awareness of one’s interconnection to the cycles of life near and far, old and new, local and global.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
+{
+  "id": "38",
+  "title": "kesadaran ekologis",
+  "keywords": "Kesadaran Ekologis",
+  "description": "Kesadaran akan keterhubungan seseorang dengan siklus kehidupan dekat dan jauh, lama dan baru, lokal dan global.",
+  "language": "Bahasa Indonesia",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "glossary.php"
+},
 
 
 

@@ -5,6 +5,12 @@
   
 <STYLE>
 
+
+#registration-footer {
+
+  display:none;
+}
+
 #serial-select ul {
   list-style: none;
   padding: 0;
@@ -105,8 +111,8 @@
 .form-caption {
   font-family: "Mulish", sans-serif;
   font-weight: 300;
-  color: grey;
-  font-size: small;
+  color: var(--text-color);
+  font-size: 1.0em;
   margin-top: -5px;
 }
 
@@ -116,6 +122,7 @@ label {
   font-family: "Mulish", sans-serif;
   font-weight: 500;
   color: var(--text-color);
+  font-size: 1.3em;
 }
 
 
