@@ -1,4 +1,33 @@
 [
+
+
+    {
+        "id": "55",
+        "title": "écobrique",
+        "keywords": "écobrique, éco brique, ecobrique, Écobriques, Écobrique, écobrique, écobriques",
+        "description": "Un écobrique est une bouteille en plastique densément remplie de plastique usagé pour créer un élément de construction réutilisable qui permet la séquestration du plastique.",
+        "language": "Français",
+        "lang_key": "fr",
+        "section": "Glossary",
+        "image_url": "..\/icons\/glossary-day.svg",
+        "image_url_night": "..\/icons\/glossary-night.svg",
+        "url": "glossary.php"
+      },
+
+      {
+        "id": "56",
+        "title": "écobriquage",
+        "keywords": "écobrique, ecobricking, éco-brique, ecobrique",
+        "description": "L'acte de fabriquer une écobrique: le processus de séparation, de nettoyage, de séchage et de compactage du plastique usagé dans une bouteille afin de fabriquer une écobrique.",
+        "language": "Français",
+        "lang_key": "fr",
+        "section": "Glossary",
+        "image_url": "..\/icons\/glossary-day.svg",
+        "image_url_night": "..\/icons\/glossary-night.svg",
+        "url": "glossary.php"
+      },
+
+
     {
         "id": "26",
         "title": "biome",
@@ -13,7 +42,7 @@
     },
     {
         "id": "25",
-        "title": "Ayyew",
+        "title": "ayyew",
         "keywords": "ayyew, ayyews, ayyewed, ayew, igorots",
         "description": "La vertu Igorot d'augmenter continuellement sa synchronisation avec les cycles écologiques.",
         "language": "Français",
@@ -397,21 +426,10 @@
     "image_url": "../icons/glossary-day.svg",
     "image_url_night": "../icons/glossary-night.svg",
     "url": "glossary.php"
-},
+}
 
   
-{
-    "id": "54",
-    "title": "ecobrick",
-    "keywords": "ecobrick, eco, eco-brique, ecobrique, ecoladrillo, Ecobrick, eco-brick, brik, ecobrik",
-    "description": "Un ecobrick est une bouteille en plastique densément remplie de plastique usagé pour créer un élément de construction réutilisable qui permet la séquestration du plastique.",
-    "language": "Français",
-    "lang_key": "fr",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
-  }
+
   
   
     

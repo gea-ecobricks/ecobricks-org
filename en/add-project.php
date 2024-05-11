@@ -19,6 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $community = $_POST['community'] ?? '';
     $project_admins = $_POST['project_admins'] ?? '';
     $start_dt = $_POST['start_dt'];
+    $end_dt = $_POST['end_dt'];
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
     $latitude = (double)$_POST['latitude'];
