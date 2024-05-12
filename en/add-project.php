@@ -19,7 +19,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $community = $_POST['community'] ?? '';
     $project_admins = $_POST['project_admins'] ?? '';
     $start_dt = $_POST['start_dt'];
-    
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
     $latitude = (double)$_POST['latitude'];
@@ -163,13 +162,13 @@ if ($stmt->execute()) {
     <p class="form-caption" data-lang-id="009-bricks-used-caption">Please enter a number of ecobricks between 1-5000.</p>
      <!--ERRORS-->
      <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-     <div id="briks-error-range" class="form-field-error" data-lang-id="000-field-brik-number-error">Number must be between 1 and 5000.</div>
+     <div id="briks-error-range" class="form-field-error" data-lang-id="000-field-brik-number-error">Just a number (between 1 and 5000)</div>
 </div>
 
 <div class="form-item">
     <label for="est_avg_brik_weight" data-lang-id="010-est-avg-weight">Please estimate the average weight of the ecobricks used in your project in grams?</label><br>
     <input type="number" id="est_avg_brik_weight" name="est_avg_brik_weight" aria-label="Estimate Brik Weight" min="100" max="2000" required>
-    <p class="form-caption" data-lang-id="010-est-avg-weight-range">Must be a number between 100 and 2000.</p>
+    <p class="form-caption" data-lang-id="010-est-avg-weight-range">Just a number (between 100 and 2000).</p>
      <!--ERRORS-->
      <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
      <div id="weight-error-range" class="form-field-error" data-lang-id="000-field-required-error">Your estimated ecobrick average weight (in grams) must a number between 100 and 2000.</div>
