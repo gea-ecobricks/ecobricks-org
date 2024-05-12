@@ -103,7 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='2.35';?>
+<?php $version='2.36';?>
 <?php $page='add-project-images';?>
 
 
@@ -200,20 +200,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
             <img src="../svgs/step3-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
         </div>
         <div id="upload-success-message"></div>
-        <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">🎉 View Project Post</a>
-        <a class="confirm-button" href="edit-project.php?project_id=<?php echo $_GET['project_id']; ?>">Edit Project Post</a>
-        <a class="confirm-button" href="add-project.php">Add another Project</a>
+        <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>" data-lang-id="013-view-project-post">🎉 View Project Post</a>
+        <a class="confirm-button" data-lang-id="014-edit-project" href="edit-project.php?project_id=<?php echo $_GET['project_id']; ?>">Edit Project Post</a>
+      
 
         <form id="deleteForm" action="" method="POST">
             <input type="hidden" name="project_id" value="<?php echo htmlspecialchars($_GET['project_id']); ?>">
             <input type="hidden" name="action" value="delete_project">
-            <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton">❌ Delete Project</a>
+            <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton" data-lang-id="014-delete-project">❌ Delete Project</a>
         </form>
 
     </div>
 
 
-<a href="#" onclick="goBack()"  aria-label="Go back to re-enter data" class="back-link" data-lang-id="014-go-back-link">↩ Back to Step 1</a>
+<a href="#" onclick="goBack()"  aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
 
 </div>
 

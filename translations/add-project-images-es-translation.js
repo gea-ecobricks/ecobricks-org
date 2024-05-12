@@ -20,5 +20,8 @@ const es_Page_Translations = {
     "011-another-photo": "Elige otra foto:",
     "012-another-photo-optional": "Opcional",
     "013-submit-upload-button": "<input type='submit' value='⬆️ Subir Imágenes ' id='upload-progress-button' aria-label='Enviar fotos para subir'>",
-    "014-go-back-link": "↩ Volver al Paso 1"
+    "013-view-project-post": "🎉 Ver Publicación del Proyecto",
+    "014-edit-project": "Editar Publicación del Proyecto",
+    "014-delete-project": "❌ Eliminar Proyecto",
+    "015-go-back-link": "↩ Volver al Paso 1"
 };

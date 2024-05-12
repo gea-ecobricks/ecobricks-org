@@ -23,7 +23,10 @@ const en_Page_Translations = {
     "011-another-photo": "Choose another photo:",
     "012-another-photo-optional": "Optional",
     "013-submit-upload-button": "<input type='submit' value='⬆️ Upload Images ' id='upload-progress-button' aria-label='Submit photos for upload'>",
-    "014-go-back-link": "↩ Back to Step 1"
+    "013-view-project-post": "🎉 View Project Post",
+    "014-edit-project": "Edit Project Post",
+    "014-delete-project": "❌ Delete Project",
+    "015-go-back-link": "↩ Back to Step 1"
 
 };
 

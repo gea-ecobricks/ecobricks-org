@@ -20,7 +20,10 @@ const fr_Page_Translations = {
     "011-another-photo": "Choisissez une autre photo :",
     "012-another-photo-optional": "Facultatif",
     "013-submit-upload-button": "<input type='submit' value='⬆️ Télécharger les images ' id='upload-progress-button' aria-label='Soumettre les photos pour téléchargement'>",
-    "014-go-back-link": "↩ Retour à l'Étape 1"
+    "013-view-project-post": "🎉 Voir la Publication du Projet",
+    "014-edit-project": "Modifier la Publication du Projet",
+    "014-delete-project": "❌ Supprimer le Projet",
+    "015-go-back-link": "↩ Retour à l'Étape 1"
 };
 
         

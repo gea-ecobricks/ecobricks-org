@@ -21,7 +21,10 @@ const id_Page_Translations = {
     "011-another-photo": "Pilih foto lain:",
     "012-another-photo-optional": "Opsional",
     "013-submit-upload-button": "<input type='submit' value='⬆️ Unggah Gambar ' id='upload-progress-button' aria-label='Kirim foto untuk diunggah'>",
-    "014-go-back-link": "↩ Kembali ke Langkah 1"
+    "013-view-project-post": "🎉 Lihat Postingan Proyek",
+    "014-edit-project": "Edit Postingan Proyek",
+    "014-delete-project": "❌ Hapus Proyek",
+    "015-go-back-link": "↩ Kembali ke Langkah 1"
     
 };
 
