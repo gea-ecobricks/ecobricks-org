@@ -250,16 +250,7 @@ if ($stmt->execute()) {
 </div>
 
 
-
-    <input type="hidden" id="lat" name="latitude">
-    <input type="hidden" id="lon" name="longitude">
-    
-    <div data-lang-id="017-submit-button">
-        <input type="submit" value="Next: Upload Photos ➡️" aria-label="Submit Form">
-    </div>
-
-</form>
-
+<!--Advanced Fields-->
 <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1"> 
 	<div class="advanced-box-header"  id="advancedBoxLabel-1">
         <div class="advanced-title" data-lang-id="012-block-1-advanced">Additional Data</div>
@@ -281,7 +272,19 @@ if ($stmt->execute()) {
 
         </div>
     </div>
-						</div>
+</div> <!--close advanced box-->
+
+
+
+    <input type="hidden" id="lat" name="latitude">
+    <input type="hidden" id="lon" name="longitude">
+    
+    <div data-lang-id="017-submit-button">
+        <input type="submit" value="Next: Upload Photos ➡️" aria-label="Submit Form">
+    </div>
+
+</form>
+
     </div>
 </div>
 
@@ -295,6 +298,43 @@ if ($stmt->execute()) {
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 <script>
+
+
+function toggleAdvancedBox(event) {
+    // Get the current advanced box based on the clicked header
+    let currentAdvancedBox = event.currentTarget.parentElement;
+
+    // Assuming the element that will have the `aria-expanded` attribute is the header itself
+    let header = currentAdvancedBox.querySelector('.advanced-box-header');
+
+    // Find the content and icon specific to this advanced box
+    let content = currentAdvancedBox.querySelector('.advanced-box-content');
+    let icon = currentAdvancedBox.querySelector('.advanced-open-icon');
+    
+    // Check if the content is currently expanded or not
+    let isExpanded = header.getAttribute('aria-expanded') === 'true';
+
+    if (!isExpanded) {
+        content.style.maxHeight = content.scrollHeight + 'px';  // Set to its full height
+        icon.textContent = '−';  // Consider using a minus symbol for an open state for clarity
+        header.setAttribute('aria-expanded', 'true'); // Update aria-expanded to true
+    } else {
+        content.style.maxHeight = '0px';  // Collapse it
+        icon.textContent = '+';  // Set to plus symbol
+        header.setAttribute('aria-expanded', 'false'); // Update aria-expanded to false
+    }
+}
+
+
+// Attach the function to all header div's click events
+document.addEventListener("DOMContentLoaded", function() {
+    let headers = document.querySelectorAll('.advanced-box-header');
+    headers.forEach(header => {
+        header.addEventListener('click', toggleAdvancedBox);
+    });
+});
+
+
 
 
 document.getElementById('submit-form').addEventListener('submit', function(event) {
