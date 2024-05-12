@@ -19,18 +19,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $community = $_POST['community'] ?? '';
     $project_admins = $_POST['project_admins'] ?? '';
     $start_dt = $_POST['start_dt'];
-    $end_dt = $_POST['end_dt'];
+    
     $briks_used = $_POST['briks_used'];
     $est_avg_brik_weight = $_POST['est_avg_brik_weight'];
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
     $connected_ecobricks = $_POST['connected_ecobricks'] ?? '';
+    $end_dt = $_POST['end_dt'];
+    $construction_type = $_POST['project_sort'];
 
 
-    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, location_full, project_type, construction_type, community, project_admins, start_dt, briks_used, est_avg_brik_weight, location_lat, location_long, connected_ecobricks) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
+    $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, location_full, project_type, construction_type, community, project_admins, start_dt, briks_used, est_avg_brik_weight, location_lat, location_long, connected_ecobricks, end_dt, project_sort) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 if ($stmt = $conn->prepare($sql)) {
-$stmt->bind_param("sssssssssiidds", $project_name, $description_short, $description_long, $location_full, $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude, $connected_ecobricks);
+$stmt->bind_param("sssssssssiiddsss", $project_name, $description_short, $description_long, $location_full, $project_type, $construction_type, $community, $project_admins, $start_dt, $briks_used, $est_avg_brik_weight, $latitude, $longitude, $connected_ecobricks, $end_dt, $project_sort);
 if ($stmt->execute()) {
             $project_id = $conn->insert_id;
 
@@ -218,6 +221,8 @@ if ($stmt->execute()) {
 
 
 <!--Advanced Fields-->
+
+
 <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1"> 
 	<div class="advanced-box-header"  id="advancedBoxLabel-1">
         <div class="advanced-title" data-lang-id="012-block-1-advanced">Advanced Options</div>
@@ -225,9 +230,20 @@ if ($stmt->execute()) {
 	</div>
     <div class="advanced-box-content">
             
-    
+
+
     <div class="form-item">
-        <label for="community" data-lang-id="013-community">If this was a community project, what community is responsible?</label><br>
+    <label for="construction_type" data-lang-id="012b-project-sort">What sort of project is this?</label><br>
+    <select id="project_sort" name="project_sort" aria-label="Community or Personal Project">
+        <option value="" disabled="" selected="" data-lang-id="012-select">Select sort...</option>
+        <option value="silicone" data-lang-id="012-construction-silicone">Community Project</option>
+        <option value="banding" data-lang-id="012-construction-tire-banding">Personal Project</option>
+    </select>
+</div>
+
+
+    <div class="form-item">
+        <label for="community" data-lang-id="013-community">What community is responsible for this project?</label><br>
         <input type="text" id="community" name="community" aria-label="Community (optional)">
         <p class="form-caption" data-lang-id="013b-optional">Optional</p>
 
@@ -251,7 +267,7 @@ if ($stmt->execute()) {
 </div>
 
 <div class="form-item">
-        <h5 data-lang-id="007-project-duration">Project Duration</h5>
+        <p data-lang-id="007-project-duration">Project Duration</p>
         <!--START DATE-->
         <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
         <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
@@ -261,9 +277,9 @@ if ($stmt->execute()) {
          <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
 
          <!--END DATE-->
-         <label for="start_dt" data-lang-id="007-start-date">End Date:</label><br>
+         <label for="start_dt" data-lang-id="007b-end-date">End Date:</label><br>
         <input type="date" id="end_dt" name="end_dt" aria-label="End Date" required>
-        <p class="form-caption" data-lang-id="008-start-date-caption">When did this project end?</p>
+        <p class="form-caption" data-lang-id="008b-end-date-caption">When did this project end?</p>
          <!--errors-->
          <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
          <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
@@ -301,7 +317,34 @@ if ($stmt->execute()) {
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 <script>
+//TOGGLE COMMUNITY OR PERSONAL PROJECT SORT FIELDS
 
+document.addEventListener("DOMContentLoaded", function() {
+    // Initially hide the community and personal project fields
+    document.getElementById("community").parentNode.style.display = 'none';
+    document.getElementById("project_admins").parentNode.style.display = 'none';
+
+    // Function to show or hide fields based on the dropdown selection
+    function toggleFields() {
+        var projectSort = document.getElementById("project_sort").value;
+        
+        // Toggle visibility based on project sort
+        if (projectSort === "silicone") {
+            document.getElementById("community").parentNode.style.display = '';
+            document.getElementById("project_admins").parentNode.style.display = 'none';
+        } else if (projectSort === "banding") {
+            document.getElementById("community").parentNode.style.display = 'none';
+            document.getElementById("project_admins").parentNode.style.display = '';
+        }
+    }
+
+    // Add change event listener to the project sort dropdown
+    document.getElementById("project_sort").addEventListener("change", toggleFields);
+});
+
+
+
+//SHOW HIDE THE ADVANCED BOX
 
 function toggleAdvancedBox(event) {
     // Get the current advanced box based on the clicked header

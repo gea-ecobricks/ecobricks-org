@@ -635,6 +635,10 @@ border-left-width: 1px;
   color: var(--text-color);
 }
 
+.advanced-box-header:hover {
+  color:var(--h1);
+}
+
 .advanced-open-icon {
   width:50px; 
   text-align:right;

@@ -17,10 +17,6 @@
 }
 
 
-.advanced-box-header:hover {
-	color:white;
-}
-
 .dropdown {
   float: right;
   overflow: hidden;
