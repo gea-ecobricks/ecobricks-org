@@ -635,7 +635,7 @@ border-left-width: 1px;
   color: var(--text-color);
 }
 
-.advanced-box-header:hover {
+.advanced-title:hover {
   color:var(--h1);
 }
 

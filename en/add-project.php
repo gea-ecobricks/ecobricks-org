@@ -80,7 +80,7 @@ if ($stmt->execute()) {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.993';?>
+<?php $version='1.994';?>
 <?php $page='add-project';?>
 
 
@@ -235,9 +235,9 @@ if ($stmt->execute()) {
     <div class="form-item">
     <label for="construction_type" data-lang-id="012b-project-sort">What sort of project is this?</label><br>
     <select id="project_sort" name="project_sort" aria-label="Community or Personal Project">
-        <option value="" disabled="" selected="" data-lang-id="012-select">Select sort...</option>
-        <option value="silicone" data-lang-id="012-construction-silicone">Community Project</option>
-        <option value="banding" data-lang-id="012-construction-tire-banding">Personal Project</option>
+        <option value="" disabled="" selected="" data-lang-id="012b-select">Select sort...</option>
+        <option value="community" data-lang-id="012b-community-project">Community Project</option>
+        <option value="personal" data-lang-id="012b-personal-project">Personal Project</option>
     </select>
 </div>
 
@@ -321,21 +321,27 @@ if ($stmt->execute()) {
 
 document.addEventListener("DOMContentLoaded", function() {
     // Initially hide the community and personal project fields
-    document.getElementById("community").parentNode.style.display = 'none';
-    document.getElementById("project_admins").parentNode.style.display = 'none';
+    const communityField = document.getElementById("community").parentNode;
+    const personalField = document.getElementById("project_admins").parentNode;
+    const advancedBoxContent = document.querySelector('.advanced-box-content');
 
-    // Function to show or hide fields based on the dropdown selection
+    communityField.style.display = 'none';
+    adminsField.style.display = 'none';
+
+    // Function to show or hide fields and adjust container size
     function toggleFields() {
         var projectSort = document.getElementById("project_sort").value;
-        
-        // Toggle visibility based on project sort
-        if (projectSort === "silicone") {
-            document.getElementById("community").parentNode.style.display = '';
-            document.getElementById("project_admins").parentNode.style.display = 'none';
-        } else if (projectSort === "banding") {
-            document.getElementById("community").parentNode.style.display = 'none';
-            document.getElementById("project_admins").parentNode.style.display = '';
+
+        if (projectSort === "community") {
+            communityField.style.display = '';
+            personalField.style.display = 'none';
+        } else if (projectSort === "personal") {
+            communityField.style.display = 'none';
+            personalField.style.display = '';
         }
+
+        // Adjust the max-height of the container
+        advancedBoxContent.style.maxHeight = advancedBoxContent.scrollHeight + "px";
     }
 
     // Add change event listener to the project sort dropdown
@@ -361,7 +367,7 @@ function toggleAdvancedBox(event) {
     let isExpanded = header.getAttribute('aria-expanded') === 'true';
 
     if (!isExpanded) {
-        content.style.maxHeight = 100%;  // content.scrollHeight + 'px'  Set to its full height
+        content.style.maxHeight = content.scrollHeight + 'px'  //   Set to its full height
         icon.textContent = '−';  // witch to minus symbol for an open state
         header.setAttribute('aria-expanded', 'true'); // Update aria-expanded to true
     } else {
