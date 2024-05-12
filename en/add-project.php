@@ -80,7 +80,7 @@ if ($stmt->execute()) {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.994';?>
+<?php $version='1.995';?>
 <?php $page='add-project';?>
 
 
@@ -230,63 +230,61 @@ if ($stmt->execute()) {
 	</div>
     <div class="advanced-box-content">
             
+        <div class="form-item">
+            <label for="project_sort" data-lang-id="012b-project-sort">What sort of project is this?</label><br>
+            <select id="project_sort" name="project_sort" aria-label="Community or Personal Project">
+                <option value="" disabled="" selected="" data-lang-id="012b-select">Select sort...</option>
+                <option value="community" data-lang-id="012b-community-project">Community Project</option>
+                <option value="personal" data-lang-id="012b-personal-project">Personal Project</option>
+            </select>
+        </div>
 
 
-    <div class="form-item">
-    <label for="construction_type" data-lang-id="012b-project-sort">What sort of project is this?</label><br>
-    <select id="project_sort" name="project_sort" aria-label="Community or Personal Project">
-        <option value="" disabled="" selected="" data-lang-id="012b-select">Select sort...</option>
-        <option value="community" data-lang-id="012b-community-project">Community Project</option>
-        <option value="personal" data-lang-id="012b-personal-project">Personal Project</option>
-    </select>
-</div>
+        <div class="form-item">
+            <label for="community" data-lang-id="013-community">What community is responsible for this project?</label><br>
+            <input type="text" id="community" name="community" aria-label="Community (optional)">
+            <p class="form-caption" data-lang-id="013b-optional">Optional</p>
 
-
-    <div class="form-item">
-        <label for="community" data-lang-id="013-community">What community is responsible for this project?</label><br>
-        <input type="text" id="community" name="community" aria-label="Community (optional)">
-        <p class="form-caption" data-lang-id="013b-optional">Optional</p>
-
+            <!--ERRORS-->
+            <div id="community-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
+        </div>
+        
+        <div class="form-item">
+            <label for="project_admins" data-lang-id="014-project-admins">Who's project is this?</label><br>
+            <input type="text" id="project_admins" name="project_admins" aria-label="Project Admins (optional)">
+            <p class="form-caption" data-lang-id="014b-optional">Optional: Provide the name(s) of the project's principals. If you wish to link this to a GoBrik user account be sure to spell the name accordingly.</p>
         <!--ERRORS-->
-        <div id="community-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
+            <div id="admins-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
+        </div>
+
+        <div class="form-item">
+        <label for="connected_ecobricks">The serials of ecobricks used in your project:</label><br>
+        <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serials...">
+        <div id="serial-select"><ul id="autocomplete-results" ></ul></div>
+        <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
     </div>
-    
+
     <div class="form-item">
-        <label for="project_admins" data-lang-id="014-project-admins">Who's project is this?</label><br>
-        <input type="text" id="project_admins" name="project_admins" aria-label="Project Admins (optional)">
-        <p class="form-caption" data-lang-id="014b-optional">Optional: Provide the name(s) of the project's principals. If you wish to link this to a GoBrik user account be sure to spell the name accordingly.</p>
-    <!--ERRORS-->
-        <div id="admins-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
-    </div>
+            <p data-lang-id="007-project-duration">Project Duration</p>
+            <!--START DATE-->
+            <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
+            <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
+            <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
+            <!--errors-->
+            <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+            <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
 
-    <div class="form-item">
-    <label for="connected_ecobricks">The serials of ecobricks used in your project:</label><br>
-    <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serials...">
-    <div id="serial-select"><ul id="autocomplete-results" ></ul></div>
-    <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
-</div>
+            <!--END DATE-->
+            <label for="start_dt" data-lang-id="007b-end-date">End Date:</label><br>
+            <input type="date" id="end_dt" name="end_dt" aria-label="End Date" required>
+            <p class="form-caption" data-lang-id="008b-end-date-caption">When did this project end?</p>
+            <!--errors-->
+            <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+            <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
 
-<div class="form-item">
-        <p data-lang-id="007-project-duration">Project Duration</p>
-        <!--START DATE-->
-        <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
-        <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
-        <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
-         <!--errors-->
-         <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-         <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
+            
 
-         <!--END DATE-->
-         <label for="start_dt" data-lang-id="007b-end-date">End Date:</label><br>
-        <input type="date" id="end_dt" name="end_dt" aria-label="End Date" required>
-        <p class="form-caption" data-lang-id="008b-end-date-caption">When did this project end?</p>
-         <!--errors-->
-         <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-         <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
-
-         
-
-    </div>
+        </div>
 
 
 
@@ -318,35 +316,49 @@ if ($stmt->execute()) {
 
 <script>
 //TOGGLE COMMUNITY OR PERSONAL PROJECT SORT FIELDS
-
 document.addEventListener("DOMContentLoaded", function() {
-    // Initially hide the community and personal project fields
+    // Initially hide all additional fields
     const communityField = document.getElementById("community").parentNode;
-    const personalField = document.getElementById("project_admins").parentNode;
-    const advancedBoxContent = document.querySelector('.advanced-box-content');
+    const adminsField = document.getElementById("project_admins").parentNode;
+    const connectedEcoBricksField = document.getElementById("connected_ecobricks").parentNode;
+    const projectDurationField = document.getElementById("start_dt").parentNode.parentNode; // Parent of start_dt also includes end_dt
 
     communityField.style.display = 'none';
     adminsField.style.display = 'none';
+    connectedEcoBricksField.style.display = 'none';
+    projectDurationField.style.display = 'none';
 
-    // Function to show or hide fields and adjust container size
+    // Function to show or hide fields based on the dropdown selection
     function toggleFields() {
         var projectSort = document.getElementById("project_sort").value;
 
+        // Reset visibility
+        communityField.style.display = 'none';
+        adminsField.style.display = 'none';
+        connectedEcoBricksField.style.display = 'none';
+        projectDurationField.style.display = 'none';
+
         if (projectSort === "community") {
             communityField.style.display = '';
-            personalField.style.display = 'none';
         } else if (projectSort === "personal") {
-            communityField.style.display = 'none';
-            personalField.style.display = '';
+            adminsField.style.display = '';
         }
 
-        // Adjust the max-height of the container
+        // Show connected ecobricks and project duration fields if a project sort is selected
+        if (projectSort === "community" || projectSort === "personal") {
+            connectedEcoBricksField.style.display = '';
+            projectDurationField.style.display = '';
+        }
+
+        // Dynamically adjust the max-height for the advanced box content
+        const advancedBoxContent = document.querySelector('.advanced-box-content');
         advancedBoxContent.style.maxHeight = advancedBoxContent.scrollHeight + "px";
     }
 
     // Add change event listener to the project sort dropdown
     document.getElementById("project_sort").addEventListener("change", toggleFields);
 });
+
 
 
 
