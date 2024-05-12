@@ -1,5 +1,33 @@
 
   [
+
+    {
+      "id": "54",
+      "title": "ecobrick",
+      "keywords": "ecobrick, eco, eco-brique, ecobrique, ecoladrillo, Ecobrick, eco-brick, brik, ecobrik",
+      "description": "Ecobrick adalah botol plastik yang dipadatkan dengan plastik bekas untuk menciptakan blok bangunan yang dapat digunakan kembali yang mencapai sekuestrasi plastik.",
+      "language": "Indonesian",
+      "lang_key": "id",
+      "section": "Glosarium",
+      "image_url": "../icons/glossary-day.svg",
+      "image_url_night": "../icons/glossary-night.svg",
+      "url": "what.php"
+    },
+
+    {
+      "id": "55",
+      "title": "berecobrick",
+      "keywords": "berecobrick, ecobricking",
+      "description": "Pembuatan ecobrick: proses pemisahan, pembersihan, pengeringan, dan pemadatan plastik bekas ke dalam botol untuk dijadikan ecobrick.",
+      "language": "Indonesian",
+      "lang_key": "id",
+      "section": "Glosarium",
+      "image_url": "../icons/glossary-day.svg",
+      "image_url_night": "../icons/glossary-night.svg",
+      "url": "what.php"
+    },
+
+
     {
       "id": "26",
       "title": "bioma",
@@ -10,7 +38,7 @@
       "section": "Glosarium",
       "image_url": "../icons/glossary-day.svg",
       "image_url_night": "../icons/glossary-night.svg",
-      "url": "glossary.php"
+      "url": "plastic.php"
     },
     {
       "id": "25",
@@ -22,7 +50,7 @@
       "section": "Glosarium",
       "image_url": "../icons/glossary-day.svg",
       "image_url_night": "../icons/glossary-night.svg",
-      "url": "glossary.php"
+      "url": "/ayyew"
     },
     {
       "id": "27",
@@ -34,7 +62,7 @@
       "section": "Glosarium",
       "image_url": "../icons/glossary-day.svg",
       "image_url_night": "../icons/glossary-night.svg",
-      "url": "glossary.php"
+      "url": "plastic.php"
     },
   
   
@@ -49,7 +77,7 @@
         "section": "Glosarium",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "plastic.php"
       },
       {
         "id": "29",
@@ -61,7 +89,7 @@
         "section": "Glosarium",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "plastic.php"
       },
 
 
@@ -75,7 +103,7 @@
         "section": "Glosarium",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "/ayyew"
       },
 
 
@@ -89,7 +117,7 @@
         "section": "Glosarium",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "glossary.php"
+        "url": "earth.php"
       },
     
     
@@ -103,7 +131,7 @@
     "section": "Glosarium",
     "image_url": "../icons/glossary-day.svg",
     "image_url_night": "../icons/glossary-night.svg",
-    "url": "glossary.php"
+    "url": "plastic.php"
 },
 
 {
@@ -116,7 +144,7 @@
     "section": "Glosarium",
     "image_url": "../icons/glossary-day.svg",
     "image_url_night": "../icons/glossary-night.svg",
-    "url": "glossary.php"
+    "url": "plastic.php"
 },
 
 
@@ -130,7 +158,7 @@
     "section": "Glosarium",
     "image_url": "../icons/glossary-day.svg",
     "image_url_night": "../icons/glossary-night.svg",
-    "url": "glossary.php"
+    "url": "plastic.php"
 },
 
 {
@@ -143,7 +171,7 @@
   "section": "Glosarium",
   "image_url": "../icons/glossary-day.svg",
   "image_url_night": "../icons/glossary-night.svg",
-  "url": "glossary.php"
+  "url": "principles.php"
 },
 
 {
@@ -155,7 +183,7 @@
   "section": "Glosarium",
   "image_url": "../icons/glossary-day.svg",
   "image_url_night": "../icons/glossary-night.svg",
-  "url": "glossary.php"
+  "url": "plastic.php"
 },
 
 {
@@ -168,7 +196,7 @@
   "section": "Glosarium",
   "image_url": "../icons/glossary-day.svg",
   "image_url_night": "../icons/glossary-night.svg",
-  "url": "glossary.php"
+  "url": "principles.php"
 },
 
 {
@@ -181,305 +209,248 @@
   "section": "Glosarium",
   "image_url": "../icons/glossary-day.svg",
   "image_url_night": "../icons/glossary-night.svg",
-  "url": "glossary.php"
+  "url": "plastic.php"
 },
 
 
-
-  {
-    "id": "39",
-    "title": "ecology",
-    "keywords": "ecology, ecologies, ecological",
-    "description": "A biological system; a part of a biome.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
-
-
-
+{
+  "id": "39",
+  "title": "ekologi",
+  "keywords": "ekologi, ekologis",
+  "description": "Sistem biologi; bagian dari biome.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "plastic.php"
 },
 
-
-
-  {
-    "id": "40",
-    "title": "green",
-    "keywords": "green, greens",
-    "description": "An ecological contribution: a process that follows Earth’s example by embodying all the Earthen principles.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
-
+{
+  "id": "40",
+  "title": "hijau",
+  "keywords": "hijau, hijau-hijau",
+  "description": "Kontribusi ekologis: proses yang mengikuti contoh Bumi dengan mewujudkan semua prinsip Terestrial.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "principles.php"
 },
 
-
-
-  {
-    "id": "41",
-    "title": "grey",
-    "keywords": "grey, greys",
-    "description": "A depleting ecological impact: a process that fails to embody all the Earthen principles.",
-    "language": "English",
-    "lang_key": "en",
-    "section": "Glossary",
-    "image_url": "..\/icons\/glossary-day.svg",
-    "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
-
-
-
-},
-
-
-
-  
 {
   "id": "41",
-  "title": "fossil fuels",
-  "keywords": "fossil fuels, ancient carbon stores",
-  "description": "A modern term to describe the Earth’s ancient compacted carbon stores.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
+  "title": "abu-abu",
+  "keywords": "abu-abu, abu-abu-abu",
+  "description": "Dampak ekologis yang menipis: proses yang gagal mewujudkan semua prinsip Terestrial.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "principles.php"
+},
 
-
+{
+  "id": "41",
+  "title": "bahan bakar fosil",
+  "keywords": "bahan bakar fosil, simpanan karbon kuno",
+  "description": "Istilah modern untuk menggambarkan simpanan karbon kuno yang terkompaksi Bumi.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "plastic.php"
+},
 
 {
   "id": "42",
-  "title": "Igorots",
-  "keywords": "Igorot, igorots, highlands, northern Luzon, West Philippines Sea",
-  "description": "The people of the highlands of northern Luzon, in the West Philippines Sea.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
+  "title": "Igorot",
+  "keywords": "Igorot, Igorots, dataran tinggi, Luzon utara, Laut Filipina Barat",
+  "description": "Orang-orang dari dataran tinggi Luzon utara, di Laut Filipina Barat.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "/ayyew"
+},
 
 
 {
   "id": "43",
-  "title": "humancentric",
-  "keywords": "humancentric, anthropocentric, humans, natural environment",
-  "description": "A view of the world in which humans are central and separate from the natural environment around them. Also, 'anthropocentric'.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
+  "title": "sentris manusia",
+  "keywords": "sentris manusia, antroposentris, manusia, lingkungan alam",
+  "description": "Pandangan dunia di mana manusia menjadi pusat dan terpisah dari lingkungan alam sekitarnya. Juga dikenal sebagai 'antroposentris'.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "https://book.earthen.io/en/nature.html"
+},
 
 {
   "id": "44",
-  "title": "cyclocentric",
-  "keywords": "cyclocentric, cycle, kincentric, ecocentric, biocentric, synchony, William Henry Scott, Igorot Ayyew culture",
-  "description": "From the Greek Κύκλος for 'Cycle', we introduce the term 'cyclocentric' to describe kincentric cultures and their propensity to self organize around the sync and celebration of Earthen cycles.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
+  "title": "sentris siklus",
+  "keywords": "sentris siklus, siklus, sentris kerabat, ekosentris, biosentris, sinkroni, William Henry Scott, budaya Ayyew Igorot",
+  "description": "Dari bahasa Yunani Κύκλος yang berarti 'Siklus', kami memperkenalkan istilah 'sentris siklus' untuk menggambarkan budaya yang berpusat pada kerabat dan kecenderungan mereka untuk mengatur diri seputar sinkronisasi dan perayaan siklus Bumi.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "https://book.earthen.io/en/kincentric.html"
+},
 
 {
   "id": "45",
-  "title": "kincentric",
-  "keywords": "kincentric, humancentric, anthropocentric, kin, kincentricism",
-  "description": "In opposition to humancentric; a view of the world in which plants, humans, animals and all Earthen organisms share ancestry and origins, cycles and ecosystems.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
+  "title": "sentris kerabat",
+  "keywords": "sentris kerabat, sentris manusia, antroposentris, kerabat, sentrisisme kerabat",
+  "description": "Berlawanan dengan sentris manusia; pandangan dunia di mana tumbuhan, manusia, hewan, dan semua organisme Bumi memiliki leluhur dan asal-usul yang sama, siklus dan ekosistem.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "https://book.earthen.io/en/nature.html"
+},
 
 {
   "id": "46",
-  "title": "petro-capital economy",
-  "keywords": "petro-capital economy, petroleum energy, fossil fuels, flow of capital, capitalism,capital",
-  "description": "An economy whose flow and generation of capital is powered by petroleum energy.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
+  "title": "ekonomi kapital minyak bumi",
+  "keywords": "ekonomi kapital minyak bumi, energi minyak bumi, bahan bakar fosil, arus modal, kapitalisme, modal",
+  "description": "Ekonomi yang arus dan generasi kapitalnya didukung oleh energi minyak bumi.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "plastic.php"
+},
 
 {
   "id": "47",
-  "title": "plastic sequestration",
-  "keywords": "plastic sequestration, concentrating, compacting, building blocks, long-term storage, not-for-profit, consciousness, biodiversity, net-subtractive",
-  "description": "The process of concentrating and compacting plastic to create short term building blocks that secure and store plastic over the long-term, in a not-for-profit process that raises consciousness, supports biodiversity and is net-subtractive.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
+  "title": "sekuestrasi plastik",
+  "keywords": "sekuestrasi plastik, mengonsentrasikan, memadatkan, bahan bangunan, penyimpanan jangka panjang, nirlaba, kesadaran, keanekaragaman hayati, net-subtraktif",
+  "description": "Proses mengonsentrasikan dan memadatkan plastik untuk menciptakan blok bangunan jangka pendek yang mengamankan dan menyimpan plastik dalam jangka panjang, dalam proses nirlaba yang meningkatkan kesadaran, mendukung keanekaragaman hayati, dan bersifat net-subtraktif.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "sequest.php"
+},
 
 {
   "id": "48",
-  "title": "plastic’s stellar story",
-  "keywords": "plastic, carbon sequestration, Earth, de-compacted",
-  "description": "The four billion year view of plastic as carbon sequestered by the Earth, and de-compacted by humans.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
+  "title": "kisah bintang plastik",
+  "keywords": "plastik, sekuestrasi karbon, Bumi, dekompak",
+  "description": "Pandangan empat miliar tahun tentang plastik sebagai karbon yang disekuestrasi oleh Bumi, dan didekompak oleh manusia.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "plastic.php"
+},
 
 
 {
   "id": "49",
-  "title": "plastic 1.0",
-  "keywords": "plastic 1.0, plastic as human-made, managed",
-  "description": "The paradigm of plastic as human made and managed.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
+  "title": "plastik 1.0",
+  "keywords": "plastik 1.0, plastik buatan manusia, dikelola",
+  "description": "Paradigma plastik sebagai buatan dan dikelola oleh manusia.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "https://book.earthen.io/en/plastic1.html"
+},
 
 {
   "id": "50",
-  "title": "plastic 2.0",
-  "keywords": "plastic 2.0, Earth's process, cultivating biosphere, petro-capital economy",
-  "description": "The paradigm of plastic as a part of the Earth’s billion year process of cultivating the biosphere and as representation of our petro-capital economy.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
+  "title": "plastik 2.0",
+  "keywords": "plastik 2.0, proses Bumi, membudidayakan biosfer, ekonomi kapital minyak",
+  "description": "Paradigma plastik sebagai bagian dari proses miliaran tahun Bumi dalam membudidayakan biosfer dan sebagai representasi dari ekonomi kapital minyak kita.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "plastic.php"
+},
 
 {
   "id": "51",
-  "title": "regenerative",
-  "keywords": "regenerative, greening process, subtractive impact, additive impact",
-  "description": "A greening process whose subtractive impact is over twice that of its additive impact.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
+  "title": "regeneratif",
+  "keywords": "regeneratif, proses penghijauan, dampak subtraktif, dampak aditif",
+  "description": "Proses penghijauan yang dampak subtraktifnya lebih dari dua kali dari dampak aditifnya.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "principles.php"
+},
 
 {
   "id": "52",
   "title": "Wetʼsuwetʼen",
-  "keywords": "Wet'suwet'en, Wet'suwet'en Nation, First Nations, Bulkley River",
-  "description": "Wetʼsuwetʼen are a First Nations people who live on the Bulkley River in the northwestern region of the Canadian province of British Columbia. The Wet'suwet'en Nation is composed of five clans, each of which has its own traditional territory and hereditary leaders.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
+  "keywords": "Wet'suwet'en, Bangsa Wet'suwet'en, Suku Bangsa Pertama, Sungai Bulkley",
+  "description": "Wetʼsuwetʼen adalah suku Bangsa Pertama yang tinggal di Sungai Bulkley di bagian barat laut provinsi British Columbia, Kanada. Bangsa Wet'suwet'en terdiri dari lima klan, masing-masing memiliki wilayah tradisional dan pemimpin warisan mereka.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "https://book.earthen.io/en/energy.html"
+},
 
 {
   "id": "54",
-  "title": "Spiral Design",
-  "keywords": "cycles, spiral, circular, cyclical, regenerative,design, principles",
-  "description": "The Earthen principle of crafting indefinite cycles that ever enriching, both socially and ecologically.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
+  "title": "Desain Spiral",
+  "keywords": "siklus, spiral, sirkular, siklikal, regeneratif, desain, prinsip",
+  "description": "Prinsip Bumi untuk menciptakan siklus tanpa batas yang terus memperkaya, baik secara sosial maupun ekologis.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "spiral.php"
+},
 
 
 
 {
   "id": "53",
-  "title": "for-Earth",
-  "keywords": "Earth Enterprise, for-Earth, not-for-profit, for-profit, nfp, mcclurahan",
-  "description": "The intention of an enterprise to strive first and foremost to enrich the biosphere by following Earth’s example.",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
+  "title": "untuk-Bumi",
+  "keywords": "Perusahaan Bumi, untuk-Bumi, nirlaba, untung, nfp, mcclurahan",
+  "description": "Niat sebuah perusahaan untuk berusaha pertama-tama memperkaya biosfer dengan mengikuti contoh Bumi.",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "principles.php"
+},
 
 {
   "id": "53",
   "title": "mandala",
-  "keywords": "mandalas, mandalic, mandala",
-  "description": "Mandalas are an ancient and sacred, circular and geometric art that can be found in cultures around the world.  From the sanskrit, meaning 'circle'",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-  "id": "54",
-  "title": "ecobrick",
-  "keywords": "ecobrick, eco, eco-brique, ecobrique, ecoladrillo, Ecobrick, eco-brick, brik, ecobrik",
-  "description": "An ecobrick is a plastic bottle densely packed with used plastic to create a reusable building block that achieves plastic sequestration. ",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-  "url": "glossary.php"
+  "keywords": "mandala, mandalik, mandala",
+  "description": "Mandala adalah seni kuno dan sakral, sirkular dan geometris yang dapat ditemukan di berbagai budaya di seluruh dunia. Dari bahasa Sanskerta, berarti 'lingkaran'",
+  "language": "Indonesian",
+  "lang_key": "id",
+  "section": "Glosarium",
+  "image_url": "../icons/glossary-day.svg",
+  "image_url_night": "../icons/glossary-night.svg",
+  "url": "/mandala"
 }
-]
+
+  ]
+
+

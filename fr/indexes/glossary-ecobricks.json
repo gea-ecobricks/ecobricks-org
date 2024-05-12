@@ -307,7 +307,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "sequestration.php"
+        "url": "sequest.php"
     },
 
     
@@ -345,7 +345,7 @@
         "section": "Glossary",
         "image_url": "../icons/glossary-day.svg",
         "image_url_night": "../icons/glossary-night.svg",
-        "url": "sequestration.php"
+        "url": "sequest.php"
     },
     
 

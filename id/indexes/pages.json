@@ -1,431 +1,408 @@
 [
   
-
-{
-"id":"001",
-"title":"How to Make an Ecobrick",
-"description": "10 Step Guide to Making an Ecobrick",
-"keywords":"how, guide, guidelines, packing, methods, how to, ten step guide, making, packing, ecobrick, how to make an ecobrick, eco brick, eco, brick, brik, method, ecobricking method, technique, advanced, guide, best practice, clean, plastic, density, minimum bottle, PET, bottle brick",
-"language":"English",
-"lang_key":"en",
-"section":"Basics",
-"image_url":"..\/webp\/eb-sky-400px.webp",
-"url":"how.php"
-},
-
-
-
-{
-"id":"002",
-"title":"What is an Ecobrick?",
-"description": "Ecobricks are a plastic transition solution to make reusable buidling blocks of sequestered plastic.",
-"keywords":"ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste",
-"language":"English",
-"lang_key":"en",
-"section":"Basics",
-"image_url":"..\/webp\/faqs-400px.webp",
-"url":"what.php" 
-},
-
-{
-    "id":"003",
-    "title":"Why Make Ecobricks?",
-    "description": "Plastic is an amazing material with incredible properties — it is a shame for it go to waste.",
-    "keywords":"ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste,why",
-    "language":"English",
-"lang_key":"en",
-    "section":"Basics",
-    "image_url":"..\/svgs\/question.svg",
-    "url":"/why" 
-
-},
-
-
-{
-    "id":"005",
-    "title":"Plastic Sequestration",
-    "description": "The theory, criteria and standards of plastic sequestration.",
-    "keywords":"plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"..\/webp\/earth-service-700px.webp",
-    "url":"sequest.php" 
-},
-
-{
-    "id":"006",
-    "title":"The Long Story of Plastic",
-    "description": "Understanding the ancient history of plastic is essential to putting it back to good use today.",
-    "keywords":"primordial, stellar story, earth, planet, dinosaurs, algae, ancient, carbon, billion years, multicellular organisms, oil, natural gas, left-overs, refinement, fossil fuels, CO2, coal",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"..\/webp\/earth-service-700px.webp",
-    "url":"/plastic" 
-},
-
-
-{
-    "id":"008",
-    "title":"Brickable Designator Kit",
-    "description": "Make your plastic product or packaging spiral using the Brickable Designator Icon",
-    "keywords":"brikable, brickable design, ecobrickable, designator icon, ecobrickable product, ecobrickable packaging, packaging icon, brik, brick, company plastic tracking, ecological accounting, green accounting, regenerative reporting, carbon accounting, biodiversity tracking, disclosure, track, carbon, plastic, tracking, disclose, ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"..\/svgs\/brickable-icon-from-ecobricks-org.svg",
-    "url":"brickable.php" 
-},
-
-
-{
-    "id":"010",
-    "title":"Ecobricks & Flamability",
-    "description": "Ensuring Ecobrick Fire Safety",
-    "keywords":"fire, safety, flames, flamability, density, danger, hazard,",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"..\/webp\/fire.webp" ,
-    "url":"/fire" 
-},
-
-{
-    "id":"011",
-    "title":"Ecobrick Applications",
-    "description": "Practical & Principled Ecobrick Building",
-    "keywords":"fire, safety, flames, flamability, density, danger, hazard,",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"..\/webp\/build-blue-450px.webp",
-    "url":"build.php" 
-},
-
-
-
-{
-    "id":"013",
-    "title":"Ecobrick Modules",
-    "description": "Build simple, easy and awesome modular ecobrick furniture.",
-    "keywords":"ecobricks, building, plastic sequestration, Global Ecobrick Alliance (GEA), short-term applications, long-term applications, silicone, inner-tube-bands, UV photodegradation, Earth and Ecobrick building techniques, Cob material, Wattle and daub, adobe, principles of Earth building, maintenance, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, building, guide, applications, constructions, modules, earth building, food forest play parks, planters, earth benches, garden walls, earthen structures, plastic sequestration, silicone modules, milstein modules, open spaces, dieleman modules",
-    "language":"English",
-"lang_key":"en",
-    "section":"Building",
-    "image_url":"..\/pngs\/Feature-Floating-Module-500px.png",
-    "url":"modules.php" 
-},
-
-{
-    "id":"014",
-    "title":"Earth & Ecobrick Building",
-    "description": "Build beautiful, strong, circular, resilient and regenerative structures",
-    "keywords":"eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, building, earth, cob, adobe, mud, building, construction, earth & ecobricks, earth and ecobrick buidling, plastic sequestration, sequestration building, sponge homes, green building, green construction, net-green building, net-zero building, techniques, regenerative, principles",
-    "language":"English",
-"lang_key":"en",
-    "section":"Building",
-    "image_url":"..\/webp\/earth-build.webp",
-    "url":"earth.php" 
-},
-
-{
-    "id":"015",
-    "title":"Ecobrick Open Spaces",
-    "description": "Create immersive interactive spaces that engage visitors with their imaginations.",
-    "keywords":"build, applications, modules, milstein, dieleman, cafe, public space, space, open, lego, modular, examples",
-    "language":"English",
-"lang_key":"en",
-    "section":"Building",
-    "image_url":"..\/webp\/openspace.webp",
-    "url":"/openspace" 
-},
-
-
-
-{
-    "id":"017",
-    "title":"About Us",
-    "description": "The Global Ecobrick Alliance is an Earth Enterprise accelerating local and global plastic transition. ",
-    "keywords":"global ecobrick alliance, Russell, Maier, ani, Himawait, Lucie Mann, Irene, Angway, GEA, gea, ecobricks.org, earth enterprise, about us, ecobrick company, ecobrick organization, ecobrick NGO, earthen, principled.",
-    "language":"English",
-"lang_key":"en",
-    "section":"About",
-    "image_url":"..\/icons\/gea-emblem-2024.svg",
-    "url":"about.php" 
-},
-
-
-{
-    "id":"018",
-    "title":"Principles",
-    "description": "Ecobricking is guided by regenerative principles that point us towards ever increasing harmony with Earth's cycles.",
-    "keywords" : "regenerative principles, biosphere, ecological ethics, transcaste, for-earth, ecological accounting, circular design, spiral design, biodiversity accounting, cyclical design, earthen ethics, vitalizing biodiversity, plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration.",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"..\/icons\/earthen-ethics-icon-ecobricks-org.svg",
-    "url":"principles.php" 
-},
-
-
-{
-    "id":"019",
-    "title":"Brikchain Explorer",
-    "description": "Search and explore the full chain of authenticated ecobricks, blocks and transactions that make up the brikcoin manual blockchain.",
-    "keywords" : "brikcoins, authentication, transactions, Brikchain Explorer, Ecobricks, Blockchain, Authentication, Transactions, AES Plastic, Sequestration, GoBrik platform, brikcoins, Environmental accounting, CO2e (Carbon Dioxide Equivalent), Sustainability, Plastic valuation, Earthen Ethics, Regenerative principles",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"..\/webp\/brikchain-450px.webp",
-    "url":"brikchain.php" 
-},
-
-
-{
-    "id":"020",
-    "title":"Open Books",
-    "description": "A full disclosure of the Global Ecobrick Alliances Not-for-profit Financial Accounting",
-    "keywords" : "GEA open books, openbooks, accounting, not-for-profit, earth enterprise, for-Earth, ecobricks, eco-brick, eco, brik, brikcoins, carbon sequestration, plastic sequestration, ecological value, block chain, brikcoins, manual blockchain, blockchain, proof of value, ecobricks, plastic, plastic sequestration, BRK, ecological value, commodification, ecological service, aes plastic, logged ecobricks, ecological NFTs",
-    "language":"English",
-"lang_key":"en",
-    "section":"Operations",
-    "image_url":"..\/pngs\/openbooks.png",
-    "url":"open-books.php" 
-},
-
-
-{
-    "id":"021",
-    "title":"Ayyew Ecological Ethos",
-    "description": "Ancient wisdom with modern meaning.",
-    "keywords" : "ayyew, irene, angway, russell, maier, history, gea, co-founders, Asian, igorot, ancestral, indigenous, kincentric, ecological, ethics, virtue, principle, northern philippines, ancestral wisdom",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"\/wp-content\/uploads\/2020\/05\/maligcong-rice-terraces.jpg",
-    "url":"/ayyew" 
-},
-
-{
-    "id":"022",
-    "title":"Mandalic Collaboration",
-    "description": "Ancient wisdom with modern meaning.",
-    "keywords" : "mandalas, mandala, russell, maier, collaboration, art, working together, india, collab, theory",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"\/webp\/mandalic.webp",
-    "url":"/mandalas" 
-},
-
-
-
-{
-    "id":"024",
-    "title":"The Movement",
-    "description": "Ecobricking is not just a technology, it’s a movement.  Hundreds of thousands of people around the world have turned to ecobricks as a way to take personal responsibility for their plastic..",
-    "keywords" : "mandalas, mandala, collaboration, art, working together, india, collab, theory, movement, ecobricks, people power, england, america, usa, indonesia",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"\/webp\/mandalic.webp",
-    "url":"/movement" 
-},
-
-{
-    "id":"025",
-    "title":"Plastic Transition",
-    "description": "Plastic transition is the key to our shift from petro-capital participation to the regeneration of the biosphere",
-    "keywords" : "plastic transition, petro-capital transition, moving on, recycling, sustainability, green, grey",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"\/pngs/\floating-dial-1000px.png",
-    "url":"transition.php" 
-},
-
-
-{
-    "id":"026",
-    "title":"Frequently Asked Questions",
-    "description": "Our team's answers to the common questions about all aspects of ecobricking",
-    "language":"English",
-"lang_key":"en",
-    "section":"Basics",
-    "keywords": "ecobricks, eco-bricks, eco bricks, eco briks, briks, plastic, plastic management, carbon sequestration, earthen ethics, plastic, recycling alternatives, incineration, plastic offsets, plastic solutions, upcycling, plastic sequestration, recycling alternative, incineration alternative, preventing plastic pollution, plastic pollution, regenerative plastic solution, waste, waste management, plastic waste",
-    "image_url":"\/svgs\/question.svg",
-    "url":"faqs.php" 
+    {
+        "id": "001",
+        "title": "Cara Membuat Ecobrick",
+        "description": "Panduan 10 Langkah Membuat Ecobrick",
+        "keywords": "cara, panduan, pedoman, mengemas, metode, bagaimana, panduan sepuluh langkah, membuat, mengemas, ecobrick, cara membuat ecobrick, eco brick, eco, brick, brik, metode, metode ecobricking, teknik, lanjutan, panduan, praktik terbaik, bersih, plastik, kepadatan, botol minimal, PET, bata botol",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Dasar",
+        "image_url": "../webp/eb-sky-400px.webp",
+        "url": "how.php"
+      },
+      
+      {
+        "id": "002",
+        "title": "Apa itu Ecobrick?",
+        "description": "Ecobricks adalah solusi transisi plastik untuk membuat blok bangunan yang dapat digunakan kembali dari plastik yang disekuestrasikan.",
+        "keywords": "ecobricks, eco-bricks, eco bricks, eco briks, briks, plastik, pengelolaan plastik, sekuestrasi karbon, etika bumi, plastik, alternatif daur ulang, insinerasi, offset plastik, solusi plastik, upcycling, sekuestrasi plastik, alternatif daur ulang, alternatif insinerasi, mencegah polusi plastik, polusi plastik, solusi plastik regeneratif, limbah, pengelolaan limbah, limbah plastik",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Dasar",
+        "image_url": "../webp/faqs-400px.webp",
+        "url": "what.php"
+      },
+      
+      {
+        "id": "003",
+        "title": "Mengapa Membuat Ecobrick?",
+        "description": "Plastik adalah bahan yang luar biasa dengan sifat-sifat yang luar biasa — sayang sekali jika bahan ini terbuang sia-sia.",
+        "keywords": "ecobricks, eco-bricks, eco bricks, eco briks, briks, plastik, pengelolaan plastik, sekuestrasi karbon, etika bumi, plastik, alternatif daur ulang, insinerasi, offset plastik, solusi plastik, upcycling, sekuestrasi plastik, alternatif daur ulang, alternatif insinerasi, mencegah polusi plastik, polusi plastik, solusi plastik regeneratif, limbah, pengelolaan limbah, limbah plastik, mengapa",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Dasar",
+        "image_url": "../svgs/question.svg",
+        "url": "/why"
+      },
+      
+      {
+        "id": "005",
+        "title": "Sekuestrasi Plastik",
+        "description": "Teori, kriteria dan standar dari sekuestrasi plastik.",
+        "keywords": "sekuestrasi plastik, daur ulang, alternatif, sekuestrasi plastik, offset plastik, aes plastik, sekuestrasi karbon.",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "../webp/earth-service-700px.webp",
+        "url": "sequest.php"
+      },
+      {
+        "id": "006",
+        "title": "Kisah Panjang Plastik",
+        "description": "Memahami sejarah kuno plastik adalah esensial untuk memanfaatkannya kembali dengan baik hari ini.",
+        "keywords": "primordial, cerita bintang, bumi, planet, dinosaurus, alga, kuno, karbon, miliaran tahun, organisme multiseluler, minyak, gas alam, sisa, penyempurnaan, bahan bakar fosil, CO2, batu bara",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "../webp/earth-service-700px.webp",
+        "url": "/plastic"
+      },
+      
+      {
+        "id": "008",
+        "title": "Kit Penunjuk Brikable",
+        "description": "Jadikan produk atau kemasan plastik Anda spiral menggunakan Ikon Penunjuk Brikable",
+        "keywords": "brikable, desain brikable, produk ecobrickable, kemasan ecobrickable, ikon kemasan, brik, batu bata, pelacakan plastik perusahaan, akuntansi ekologis, akuntansi hijau, pelaporan regeneratif, akuntansi karbon, pelacakan keanekaragaman hayati, pengungkapan, melacak, karbon, plastik, pelacakan, mengungkapkan, ecobricks, eco-bricks, eco bricks, eco briks, briks, pengelolaan plastik, sekuestrasi karbon, etika bumi, plastik, alternatif daur ulang, insinerasi, offset plastik, solusi plastik, upcycling, sekuestrasi plastik, alternatif daur ulang, alternatif insinerasi, mencegah polusi plastik, polusi plastik, solusi plastik regeneratif, limbah, pengelolaan limbah, limbah plastik",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "../svgs/brickable-icon-from-ecobricks-org.svg",
+        "url": "brickable.php"
+      },
+      
+      {
+        "id": "010",
+        "title": "Ecobricks & Keflamabilitasan",
+        "description": "Memastikan Keselamatan Api Ecobrick",
+        "keywords": "api, keselamatan, nyala, keflamabilitasan, kepadatan, bahaya, risiko",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "../webp/fire.webp",
+        "url": "/fire"
+      },
+      
+      {
+        "id": "011",
+        "title": "Aplikasi Ecobrick",
+        "description": "Pembangunan Ecobrick yang Praktis & Berprinsip",
+        "keywords": "api, keselamatan, nyala, keflamabilitasan, kepadatan, bahaya, risiko",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "../webp/build-blue-450px.webp",
+        "url": "build.php"
+      },
+      
+      {
+        "id": "013",
+        "title": "Modul Ecobrick",
+        "description": "Buat perabot modular ecobrick yang sederhana, mudah, dan mengagumkan.",
+        "keywords": "ecobricks, bangunan, sekuestrasi plastik, Aliansi Ecobrick Global (GEA), aplikasi jangka pendek, aplikasi jangka panjang, silikon, ban dalam, degradasi fotodegradasi UV, teknik bangunan Bumi dan Ecobrick, material Cob, Wattle dan daub, adobe, prinsip bangunan Bumi, pemeliharaan, eco, bata, eco brick, ecobrick, eco-brick, eco, batu bata, eco brick, ecobricks, eco-bricks, brik, briks, plastik, bangunan, panduan, aplikasi, konstruksi, modul, bangunan bumi, taman bermain hutan makanan, penanam, bangku taman, dinding taman, struktur bumi, sekuestrasi plastik, modul silikon, modul milstein, ruang terbuka, modul dieleman",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Bangunan",
+        "image_url": "../pngs/Feature-Floating-Module-500px.png",
+        "url": "modules.php"
+      },
+      
+      {
+        "id": "014",
+        "title": "Bangunan Bumi & Ecobrick",
+        "description": "Bangun struktur yang indah, kuat, sirkular, tangguh dan regeneratif",
+        "keywords": "eco, bata, eco brick, ecobrick, eco-brick, eco, batu bata, eco brick, ecobricks, eco-bricks, brik, briks, plastik, bangunan, bumi, cob, adobe, lumpur, konstruksi, bangunan bumi & ecobricks, bangunan bumi dan ecobrick, sekuestrasi plastik, bangunan sekuestrasi, rumah spons, bangunan hijau, konstruksi hijau, bangunan net-hijau, bangunan net-nol, teknik, regeneratif, prinsip",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Bangunan",
+        "image_url": "../webp/earth-build.webp",
+        "url": "earth.php"
+      },
+      
+      {
+        "id": "015",
+        "title": "Ruang Terbuka Ecobrick",
+        "description": "Ciptakan ruang interaktif yang mendalam yang melibatkan pengunjung dengan imajinasi mereka.",
+        "keywords": "bangun, aplikasi, modul, milstein, dieleman, kafe, ruang publik, ruang, terbuka, lego, modular, contoh",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Bangunan",
+        "image_url": "../webp/openspace.webp",
+        "url": "/openspace"
+      },
+      
+      {
+        "id": "017",
+        "title": "Tentang Kami",
+        "description": "Aliansi Ecobrick Global adalah Perusahaan Bumi yang mempercepat transisi plastik lokal dan global.",
+        "keywords": "alianse ecobrick global, Russell, Maier, ani, Himawait, Lucie Mann, Irene, Angway, GEA, gea, ecobricks.org, perusahaan bumi, tentang kami, perusahaan ecobrick, organisasi ecobrick, NGO ecobrick, bumi, berprinsip.",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Tentang",
+        "image_url": "../icons/gea-emblem-2024.svg",
+        "url": "about.php"
+      },
+      
+      {
+        "id": "018",
+        "title": "Prinsip",
+        "description": "Ecobricking dipandu oleh prinsip regeneratif yang mengarahkan kita menuju harmoni yang semakin meningkat dengan siklus Bumi.",
+        "keywords": "prinsip regeneratif, biosfer, etika ekologis, transcaste, untuk-Bumi, akuntansi ekologis, desain sirkular, desain spiral, akuntansi keanekaragaman hayati, desain siklik, etika bumi, vitalisasi keanekaragaman hayati, sekuestrasi plastik, daur ulang, alternatif, sekuestrasi plastik, offset plastik, aes plastik, sekuestrasi karbon.",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "../icons/earthen-ethics-icon-ecobricks-org.svg",
+        "url": "principles.php"
+      },
+      
+      {
+        "id": "019",
+        "title": "Eksplorer Brikchain",
+        "description": "Telusuri dan jelajahi rantai penuh ecobricks terotentikasi, blok dan transaksi yang membentuk blockchain manual brikcoin.",
+        "keywords": "brikcoins, otentikasi, transaksi, Eksplorer Brikchain, Ecobricks, Blockchain, Otentikasi, Transaksi, AES Plastik, Sekuestrasi, Platform GoBrik, brikcoins, Akuntansi Lingkungan, CO2e (Setara Karbon Dioksida), Keberlanjutan, Valuasi Plastik, Etika Bumi, Prinsip Regeneratif",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "../webp/brikchain-450px.webp",
+        "url": "brikchain.php"
+      },
+      
+      {
+        "id": "020",
+        "title": "Buku Terbuka",
+        "description": "Pengungkapan penuh tentang Akuntansi Keuangan Nirlaba dari Aliansi Ecobrick Global",
+        "keywords": "GEA buku terbuka, openbooks, akuntansi, nirlaba, perusahaan bumi, untuk-Bumi, ecobricks, eco-brick, eco, brik, brikcoins, sekuestrasi karbon, sekuestrasi plastik, nilai ekologis, blockchain, brikcoins, blockchain manual, blockchain, bukti nilai, ecobricks, plastik, sekuestrasi plastik, BRK, nilai ekologis, komodifikasi, layanan ekologis, aes plastik, ecobricks tercatat, NFT ekologis",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Operasi",
+        "image_url": "../pngs/openbooks.png",
+        "url": "open-books.php"
+      },
+      
+      {
+        "id": "021",
+        "title": "Etos Ekologis Ayyew",
+        "description": "Kebijaksanaan kuno dengan makna modern.",
+        "keywords": "ayyew, irene, angway, russell, maier, sejarah, gea, pendiri bersama, Asia, igorot, leluhur, asli, kincentrik, ekologis, etika, kebajikan, prinsip, filipina utara, kebijaksanaan leluhur",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "/wp-content/uploads/2020/05/maligcong-rice-terraces.jpg",
+        "url": "/ayyew"
+      },
+      {
+        "id": "022",
+        "title": "Kolaborasi Mandalik",
+        "description": "Kebijaksanaan kuno dengan makna modern.",
+        "keywords": "mandala, mandalas, russell, maier, kolaborasi, seni, bekerja bersama, india, kolab, teori",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "/webp/mandalic.webp",
+        "url": "/mandalas"
+      },
+      
+      {
+        "id": "024",
+        "title": "Gerakan",
+        "description": "Ecobricking bukan hanya teknologi, tetapi sebuah gerakan. Ratusan ribu orang di seluruh dunia telah beralih ke ecobricks sebagai cara untuk mengambil tanggung jawab pribadi atas plastik mereka.",
+        "keywords": "mandalas, mandala, kolaborasi, seni, bekerja bersama, india, kolab, teori, gerakan, ecobricks, kekuatan orang, inggris, amerika, usa, indonesia",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "/webp/mandalic.webp",
+        "url": "/movement"
+      },
+      
+      {
+        "id": "025",
+        "title": "Transisi Plastik",
+        "description": "Transisi plastik adalah kunci untuk pergeseran kita dari partisipasi kapital-petro ke regenerasi biosfer.",
+        "keywords": "transisi plastik, transisi kapital-petro, berpindah, daur ulang, keberlanjutan, hijau, abu-abu",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "/pngs/floating-dial-1000px.png",
+        "url": "transition.php"
+      },
+      
+      {
+        "id": "026",
+        "title": "Pertanyaan yang Sering Diajukan",
+        "description": "Jawaban tim kami untuk pertanyaan umum tentang semua aspek ecobricking",
+        "keywords": "ecobricks, eco-bricks, eco bricks, eco briks, briks, plastik, pengelolaan plastik, sekuestrasi karbon, etika bumi, plastik, alternatif daur ulang, insinerasi, offset plastik, solusi plastik, upcycling, sekuestrasi plastik, alternatif daur ulang, alternatif insinerasi, mencegah polusi plastik, polusi plastik, solusi plastik regeneratif, limbah, pengelolaan limbah, limbah plastik",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Dasar",
+        "image_url": "/svgs/question.svg",
+        "url": "faqs.php"
+      },
+      {
+        "id": "027",
+        "title": "Ecobrick Lautan",
+        "description": "Solusi sekuestrasi untuk plastik kotor yang ditemukan di pantai, sungai, dan lautan.",
+        "keywords": "lautan, laut, sampah, pantai, sungai, bersih-bersih, pahlawan sampah, limbah, plastik laut, kotor, pasir, terkontaminasi",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "/webp/oeb-400px.webp",
+        "url": "/ocean"
+      },
+      
+      {
+        "id": "028",
+        "title": "Cigbricks",
+        "description": "Solusi ecobrick sederhana untuk polusi rokok",
+        "keywords": "asetat, rokok, filter, cig, cibrik, cigbrick, tanjung pinang, merokok, limbah, tembakau",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "/svgs/cigbrick.svg",
+        "url": "/cigbriks"
+      },
+      
+      {
+        "id": "029",
+        "title": "Koefisien Plastik Global untuk Akuntansi Ekologis",
+        "description": "Pelaporan Regenerativitas Perusahaan",
+        "keywords": "koefisien, akuntansi, akuntansi ekologis, perhitungan, standar",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "/webp/gea-perspective-400px.webp",
+        "url": "coefficients.php"
+      },
+      
+      {
+        "id": "030",
+        "title": "Akuntansi Ekologis Kami",
+        "description": "Pengungkapan publik tentang dampak plastik, karbon & keanekaragaman hayati tahunan Aliansi Ecobrick Global",
+        "keywords": "koefisien, akuntansi, akuntansi ekologis, perhitungan, standar",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Laporan",
+        "image_url": "/icons/eco-accounting-icon-from-ecobricks-org.svg",
+        "url": "regenreports.php"
+      },
+      {
+        "id": "031",
+        "title": "Richard Goldsmith",
+        "description": "Pelatih GEA dalam memorandum",
+        "keywords": "Richard, Goldsmith, memorandum",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Khusus",
+        "image_url": "/photos/richard-goldsmith.webp",
+        "url": "richard.php"
+      },
+      
+      {
+        "id": "032",
+        "title": "GoBrik",
+        "description": "Aplikasi ecobrick untuk mencatat, mengelola, dan melacak ecobricking Anda.",
+        "keywords": "gobrik, app, aplikasi web, catat, proyek, aksi sosial, aplikasi",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Proyek",
+        "image_url": "/icons/gobrik-icon.svg",
+        "url": "/gobrik"
+      },
+      
+      {
+        "id": "033",
+        "title": "Plastik AES",
+        "description": "Plastik Tersimpan yang Diautentikasi Ecobrick",
+        "keywords": "aes, gobrik, tersimpan, plastik, offset, beli, pembelian, saldo, konsumsi plastik",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Teori",
+        "image_url": "/icons/aes-logo.svg",
+        "url": "/aes"
+      },
+      
+      {
+        "id": "034",
+        "title": "Earthwands",
+        "description": "EarthWand adalah alat ecobricking yang sederhana namun sangat praktis. Dikembangkan selama tiga tahun ecobricking dan prototyping, alat ini tidak hanya dirancang untuk memadatkan plastik, tetapi juga untuk mendukung gerakan ecobrick lokal dan global secara finansial.",
+        "keywords": "tongkat, earthwand, Earthwand, bambu, tongkat, tonkat, dowel, alat",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Produk",
+        "image_url": "/icons/earthwand-shadow.svg",
+        "url": "earthwand.php"
+      },
+      
+      {
+        "id": "035",
+        "title": "Ecobricks & Sejarah GEA",
+        "description": "GEA dimulai di lembah hijau Sungai Chico di tanah orang Igorot– penduduk asli dari Cordilleras Filipina.",
+        "keywords": "sejarah, filipina, russell, banayan, igorot, bata botol, ayyew",
+        "language": "Indonesian",
+        "lang_key": "id",
+        "section": "Sejarah",
+        "image_url": "/photos/newspaper-article-on-bottle-bricks.jpg",
+        "url": "/story"
+      },
+      
     
-},
-
-{
-    "id":"027",
-    "title":"Ocean Ecobricks",
-    "description": "A sequestration solution for dirty plastics recovered from beaches, rivers and oceans.",
-    "keywords" : "ocean, marine, debris, beaches, river, clean up, trash hero, waste, ocean plastic, dirty, sand, contaminated",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"\/webp\/oeb-400px.webp",
-    "url":"/ocean" 
-},
-
-{
-    "id":"028",
-    "title":"Cigbricks",
-    "description": "A simple ecobrick solution for cigarette pollution",
-    "keywords" : "acetate, cigarettes, filter, cig, cibrik, cigbrick, tanjung pinang, smoking, waste, tobacco,",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"\/svgs\/cigbrick.svg",
-    "url":"/cigbriks" 
-},
-
-{
-    "id":"029",
-    "title":"Global Plastic Coefficients for Ecological Accounting",
-    "description": "Enterprise Regenerativity Reporting",
-    "keywords" : "coeffecients, accounting, eco-accounting, calcuations, standards",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"\/webp\/gea-perspective-400px.webp",
-    "url":"coefficients.php" 
-},
-
-{
-    "id":"030",
-    "title":"Our Ecological Accounting",
-    "description": "Public disclosure of the Global Ecobrick Alliance's annual plastic, carbon & biodiversity impacts",
-    "keywords" : "coeffecients, accounting, eco-accounting, calcuations, standards",
-    "language":"English",
-"lang_key":"en",
-    "section":"Reports",
-    "image_url":"\/icons\/eco-accounting-icon-from-ecobricks-org.svg",
-    "url":"regenreports.php" 
-},
-
-{
-    "id":"031",
-    "title":"Richard Goldsmith",
-    "description": "GEA Trainer in memorandum",
-    "keywords" : "Richard, Goldsmith, memorandum",
-    "language":"English",
-"lang_key":"en",
-    "section":"Special",
-    "image_url":"\/photos\/richard-goldsmith.webp",
-    "url":"richard.php" 
-},
-
-{
-    "id":"032",
-    "title":"GoBrik",
-    "description": "An ecobrick app to log, manage and track your ecobricking.",
-    "keywords" : "gobrik, app, web app, log, project, social action, application",
-    "language":"English",
-"lang_key":"en",
-    "section":"Projects",
-    "image_url":"\/icons\/gobrik-icon.svg",
-    "url":"/gobrik" 
-},
-
-{
-    "id":"033",
-    "title":"AES Plastic",
-    "description": "Authenticated Ecobrick Sequestered Plastic",
-    "keywords" : "aes, gobrik, sequestered, plastic, offsets, buy, purchase, balance, plastic consumption",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"\/icons\/aes-logo.svg",
-    "url":"/aes" 
-},
-
-{
-    "id":"034",
-    "title":"Earthwands",
-    "description": "The EarthWand, is a simple, yet super practical ecobricking tool. Developed over three years of ecobricking and prototyping, it is designed to not only pack plastic, but to support the local and global ecobrick movement financially. ",
-    "keywords" : "stick, earthwand, Earthwand, bamboo, tongkat, tonkat, dowel, tool",
-    "language":"English",
-"lang_key":"en",
-    "section":"Products",
-    "image_url":"\/icons\/earthwand-shadow.svg",
-    "url":"earthwand.php" 
-},
-
-
-{
-    "id":"035",
-    "title":"Ecobricks & GEA History",
-    "description": "The GEA began in the green valley of the Chico River in the land of Igorot people– the indigenous people of the Filipino Cordilleras. ",
-    "keywords" : "history, philippines, russell, banayan, igorot, bottle bricks, ayyew",
-    "language":"English",
-"lang_key":"en",
-    "section":"History",
-    "image_url":"\/photos\/newspaper-article-on-bottle-bricks.jpg",
-    "url":"/story" 
-},
-
-{
-    "id":"036",
-    "title":"Workshops",
-    "description": "A live flow of GEA Trainings from around the world!  As trainers from around the world log and post their ecobrick workshops, you can see them here! Y",
-    "keywords" : "workshops, trainings, ToTs, education, learning, trainers",
-    "language":"English",
-"lang_key":"en",
-    "section":"Our Work",
-    "image_url":"\/photos\/workshop-image.webp",
-    "url":"/trainings" 
-},
-
-{
-    "id":"037",
-    "title":"Brikcoins",
-    "description": "BRK, Brikcoins a digital currency representing the ecological value of sequestered plastic",
-    "keywords" : "brikcoin, brikcoins, authentication, transactions, Brikchain Explorer, Ecobricks, Blockchain, Authentication, Transactions, AES Plastic, Sequestration, GoBrik platform, brikcoins, Environmental accounting, CO2e (Carbon Dioxide Equivalent), Sustainability, Plastic valuation, Earthen Ethics, Regenerative principles",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"..\/webp\/brikcoins-450px.webp",
-    "url":"brikcoins.php" 
-},
-
-{
-    "id":"037",
-    "title":"Brikcoin Whitepaper",
-    "description": "The Commodification of Sequestered Plastic",
-    "keywords" : "BRK, brikcoin, brikcoins, authentication, transactions, Brikchain Explorer, Ecobricks, Blockchain, Authentication, Transactions, AES Plastic, Sequestration, GoBrik platform, brikcoins, Environmental accounting, CO2e (Carbon Dioxide Equivalent), Sustainability, Plastic valuation, Earthen Ethics, Regenerative principles",
-    "language":"English",
-"lang_key":"en",
-    "section":"PDF Download - 500k",
-    "image_url":"..\/pngs\/White-Paper-Icon2-400px.png",
-    "url":"https:\/\/nextcloud.ecobricks.org\/index.php\/s\/fNNYjG7A3gxco9n" 
-},
-
-{
-    "id":"038",
-    "title":"Media Kit",
-    "description": "A handy summary of our core principles for journalists keen to get the facts straight",
-    "keywords" : "media, journalist, coverage, kit, press, press release, movement, ecobricks, people power, england, america, usa, indonesia",
-    "language":"English",
-"lang_key":"en",
-    "section":"Theory",
-    "image_url":"\/webp\/mandalic.webp",
-    "url":"media.php" 
-},
-
-{
-    "id":"039",
-    "title":"Plastic Offsetting",
-    "description": "Balance your grey plastic impacts with green.",
-    "keywords" : "aes, gobrik, sequestered, plastic, offsets, buy, purchase, balance, plastic consumption",
-    "language":"English",
-"lang_key":"en",
-    "section":"Service",
-    "image_url":"\/icons\/aes-logo.svg",
-    "url":"offsets.php" 
-}
-
-]
+    {
+        "id":"036",
+        "title":"Workshops",
+        "description": "A live flow of GEA Trainings from around the world!  As trainers from around the world log and post their ecobrick workshops, you can see them here! Y",
+        "keywords" : "workshops, trainings, ToTs, education, learning, trainers",
+        "language":"English",
+    "lang_key":"en",
+        "section":"Our Work",
+        "image_url":"\/photos\/workshop-image.webp",
+        "url":"/trainings" 
+    },
+    
+    {
+        "id":"037",
+        "title":"Brikcoins",
+        "description": "BRK, Brikcoins a digital currency representing the ecological value of sequestered plastic",
+        "keywords" : "brikcoin, brikcoins, authentication, transactions, Brikchain Explorer, Ecobricks, Blockchain, Authentication, Transactions, AES Plastic, Sequestration, GoBrik platform, brikcoins, Environmental accounting, CO2e (Carbon Dioxide Equivalent), Sustainability, Plastic valuation, Earthen Ethics, Regenerative principles",
+        "language":"English",
+    "lang_key":"en",
+        "section":"Theory",
+        "image_url":"..\/webp\/brikcoins-450px.webp",
+        "url":"brikcoins.php" 
+    },
+    
+    {
+        "id":"037",
+        "title":"Brikcoin Whitepaper",
+        "description": "The Commodification of Sequestered Plastic",
+        "keywords" : "BRK, brikcoin, brikcoins, authentication, transactions, Brikchain Explorer, Ecobricks, Blockchain, Authentication, Transactions, AES Plastic, Sequestration, GoBrik platform, brikcoins, Environmental accounting, CO2e (Carbon Dioxide Equivalent), Sustainability, Plastic valuation, Earthen Ethics, Regenerative principles",
+        "language":"English",
+    "lang_key":"en",
+        "section":"PDF Download - 500k",
+        "image_url":"..\/pngs\/White-Paper-Icon2-400px.png",
+        "url":"https:\/\/nextcloud.ecobricks.org\/index.php\/s\/fNNYjG7A3gxco9n" 
+    },
+    
+    {
+        "id":"038",
+        "title":"Media Kit",
+        "description": "A handy summary of our core principles for journalists keen to get the facts straight",
+        "keywords" : "media, journalist, coverage, kit, press, press release, movement, ecobricks, people power, england, america, usa, indonesia",
+        "language":"English",
+    "lang_key":"en",
+        "section":"Theory",
+        "image_url":"\/webp\/mandalic.webp",
+        "url":"media.php" 
+    },
+    
+    {
+        "id":"039",
+        "title":"Plastic Offsetting",
+        "description": "Balance your grey plastic impacts with green.",
+        "keywords" : "aes, gobrik, sequestered, plastic, offsets, buy, purchase, balance, plastic consumption",
+        "language":"English",
+    "lang_key":"en",
+        "section":"Service",
+        "image_url":"\/icons\/aes-logo.svg",
+        "url":"offsets.php" 
+    }
+    
+    ]

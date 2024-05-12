@@ -1,6 +1,38 @@
 [
   
-  {
+
+
+
+{
+  "id": "54",
+  "title": "ecobrick",
+  "keywords": "ecobrick, eco, eco-brique, ecobrique, ecoladrillo, Ecobrick, eco-brick, brik, ecobrik",
+  "description": "An ecobrick is a plastic bottle densely packed with used plastic to create a reusable building block that achieves plastic sequestration. ",
+  "language": "English",
+  "lang_key": "en",
+  "section": "Glossary",
+  "image_url": "..\/icons\/glossary-day.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
+  "url": "what.php"
+},
+
+
+{
+  "id": "54",
+  "title": "ecobricking",
+  "keywords": "ecobricking, ecobrick, ecobriking, briking, making, packing, eco, eco, ecobrique, ecoladrillo, Ecobrick, eco-brick, brik, ecobrik",
+  "description": "The act of making an ecobrick: the process of separating, cleaning, drying, and compacting used plastic into a bottle in order to make an ecobrick.",
+  "language": "English",
+  "lang_key": "en",
+  "section": "Glossary",
+  "image_url": "..\/icons\/glossary-day.svg",
+  "image_url_night": "..\/icons\/glossary-night.svg",
+  "url": "how.php"
+},
+
+
+{
+
     "id": "26",
     "title": "biome",
     "keywords": "biome, biomes, ecosystem, biosphere",
@@ -10,7 +42,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
+    "url": "plastic.php"
 
 },
 
@@ -25,7 +57,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
+    "url": "/ayyew"
 },
 
   
@@ -41,7 +73,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "plastic.php"
 }, 
 
 
@@ -56,7 +88,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "principles.php"
 }, 
 
 
@@ -75,7 +107,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "plastic.php"
 }, 
 
 
@@ -91,7 +123,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "https://book.earthen.io/en/preface.html"
 }, 
 
 
@@ -107,7 +139,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "plastic.php"
 }, 
 
 
@@ -122,7 +154,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
+    "url": "plastic.php"
 
 
 
@@ -140,7 +172,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "plastic.php"
 }, 
 
 
@@ -156,7 +188,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "plastic.php"
 }, 
 
 
@@ -171,7 +203,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "https://book.earthen.io/en/"
 }, 
 
 
@@ -186,7 +218,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "about.php"
 }, 
 
 {
@@ -199,7 +231,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
- "url": "glossary.php"
+ "url": "plastic.php"
 }, 
 
 
@@ -215,7 +247,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "principles.php"
 }, 
 
 
@@ -230,7 +262,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "principles.php"
 }, 
 
 
@@ -245,7 +277,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
+    "url": "plastic.php"
 
 
 
@@ -263,7 +295,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
+    "url": "principles.php"
 
 },
 
@@ -279,7 +311,7 @@
     "section": "Glossary",
     "image_url": "..\/icons\/glossary-day.svg",
     "image_url_night": "..\/icons\/glossary-night.svg",
-    "url": "glossary.php"
+    "url": "principles.php"
 
 
 
@@ -298,7 +330,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "plastic.php"
 }, 
 
 
@@ -313,7 +345,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "/ayyew"
 }, 
 
 
@@ -328,7 +360,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "https://book.earthen.io/en/nature.html"
 }, 
 
 
@@ -343,7 +375,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "https://book.earthen.io/en/kincentric.html"
 }, 
 
 
@@ -359,7 +391,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "https://book.earthen.io/en/kincentric.html"
 }, 
 
 
@@ -374,7 +406,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "plastic.php"
 }, 
 
 
@@ -389,7 +421,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "sequest.php"
 }, 
 
 
@@ -404,7 +436,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "plastic.php"
 }, 
 
 
@@ -420,7 +452,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "https://book.earthen.io/en/plastic1.html"
 }, 
 
 
@@ -436,7 +468,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "sequest.php"
 }, 
 
 
@@ -451,7 +483,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "principles.php"
 }, 
 
 
@@ -467,7 +499,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "https://book.earthen.io/en/energy.html"
 }, 
 
 
@@ -483,7 +515,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "spiral.php"
 }, 
 
 
@@ -499,7 +531,7 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
+   "url": "https://book.earthen.io/en/energy.html"
 }, 
 
 
@@ -513,22 +545,8 @@
   "section": "Glossary",
   "image_url": "..\/icons\/glossary-day.svg",
   "image_url_night": "..\/icons\/glossary-night.svg",
-   "url": "glossary.php"
-}, 
-
-
-
-
-{
-  "id": "54",
-  "title": "ecobrick",
-  "keywords": "ecobrick, eco, eco-brique, ecobrique, ecoladrillo, Ecobrick, eco-brick, brik, ecobrik",
-  "description": "An ecobrick is a plastic bottle densely packed with used plastic to create a reusable building block that achieves plastic sequestration. ",
-  "language": "English",
-  "lang_key": "en",
-  "section": "Glossary",
-  "image_url": "..\/icons\/glossary-day.svg",
-  "image_url_night": "..\/icons\/glossary-night.svg",
-  "url": "glossary.php"
+   "url": "/mandalas"
 }
+
+
 ]
