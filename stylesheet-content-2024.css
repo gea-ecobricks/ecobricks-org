@@ -200,6 +200,8 @@ SPLASH TOP
   font-size: 1.1em;
   padding: 5px;
   cursor: pointer;
+  border-radius: 5px;
+  background: var(--input-background);
 
 }
 
