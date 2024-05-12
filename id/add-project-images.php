@@ -234,12 +234,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
 <script>
     
 //DELETE BUTTON
+
+// Define messages for different languages
+var messages = {
+    en: 'Are you sure you want to delete this project? This action cannot be undone.',
+    id: 'Apakah Anda yakin ingin menghapus proyek ini? Tindakan ini tidak dapat dibatalkan.',
+    es: '¿Estás seguro de que deseas eliminar este proyecto? Esta acción no se puede deshacer.',
+    fr: 'Êtes-vous sûr de vouloir supprimer ce projet ? Cette action est irréversible.'
+};
+
+// Detect the current language, defaulting to English if not set or unsupported
+var currentLang = window.currentLanguage || 'en';
+var confirmationMessage = messages[currentLang] || messages.en;
+
+// Set up the event listener
 document.getElementById('deleteButton').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent navigation
-    if (confirm('Are you sure you want to delete this project? This action cannot be undone.')) {
+    if (confirm(confirmationMessage)) {
         document.getElementById('deleteForm').submit();
     }
 });
+
+
 
 
 

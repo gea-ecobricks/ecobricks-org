@@ -10,187 +10,100 @@ $thumbnail_paths = [];
 $main_file_sizes = [];
 $thumbnail_file_sizes = [];
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (isset($_POST['project_id'])) {
-        $project_id = $_POST['project_id'];
-        $upload_dir = '../projects/photos/';
-        $thumbnail_dir = '../projects/tmbs/';
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
+    $project_id = $_POST['project_id'];
+    include '../project-photo-functions.php';
 
-        $db_fields = [];
-        $db_values = [];
-        $db_types = "";
 
-        for ($i = 1; $i <= 5; $i++) {
-            $file_input_name = "photo{$i}_main";
-            if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
-                $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
-                $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
-                $targetPath = $upload_dir . $new_file_name_webp;
-
-                if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
-                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
-                    $full_urls[] = $targetPath;
-                    $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
-                    $main_file_sizes[] = filesize($targetPath) / 1024;
-                    $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
-
-                    array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
-                    array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
-                    $db_types .= "ss";
-                } else {
-                    $error_message .= "Error processing image. Please try again.<br>";
-                }
-            }
-        }
-
-        if (!empty($db_fields) && empty($error_message)) {
-            // Additional fields to update
-            array_push($db_fields, "ready_to_show", "logged_ts");
-            array_push($db_values, 1, date("Y-m-d H:i:s")); // Set 'ready_to_show' to 1 and current timestamp
-            $db_types .= "is"; // 'i' for integer and 's' for string (timestamp)
-
-            $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
-            $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
-            $db_values[] = $project_id;
-            $db_types .= "i";
-
-            $update_stmt = $conn->prepare($update_sql);
-            $update_stmt->bind_param($db_types, ...$db_values);
-            if (!$update_stmt->execute()) {
-                $error_message .= "Database update failed: " . $update_stmt->error;
-            }
-            $update_stmt->close();
-        }
-
-        if (!empty($error_message)) {
-            http_response_code(400);
-            header('Content-Type: application/json');
-            echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
+    // Handle project deletion
+    if (isset($_POST['action']) && $_POST['action'] == 'delete_project') {
+        $deleteResult = deleteProject($project_id, $conn);
+        if ($deleteResult === true) {
+            echo "<script>alert('Project has been successfully deleted.'); window.location.href='add-project.php';</script>";
             exit;
-        } else {
-            $response = array(
-                'project_id' => $project_id,
-                'full_urls' => $full_urls,
-                'thumbnail_paths' => $thumbnail_paths,
-                'main_file_sizes' => $main_file_sizes,
-                'thumbnail_file_sizes' => $thumbnail_file_sizes
-            );
-            header('Content-Type: application/json');
-            echo json_encode($response);
+        } else {    
+            echo "<script>alert('" . $deleteResult . "');</script>";
             exit;
         }
     }
-}
 
+    $upload_dir = '../projects/photos/';
+    $thumbnail_dir = '../projects/tmbs/';
 
+    $db_fields = [];
+    $db_values = [];
+    $db_types = "";
 
-//FUNCTIONS
+    for ($i = 1; $i <= 6; $i++) { // Changed from 5 to 6 to accommodate six images
+        $file_input_name = "photo{$i}_main";
+        if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
+            $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
+            $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
+            $targetPath = $upload_dir . $new_file_name_webp;
 
-function handleFileUploadError($errorCode, $index) {
-    $isRequired = ($index == 1); // Assuming photo1_main is index 1
-    $errorType = "Photo " . $index;
-    
-    if (!$isRequired) {
-        $errorType .= " (optional)"; // Marking the photo as optional in the error message
-    }
+            if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
+                createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
+                $full_urls[] = $targetPath;
+                $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
+                $main_file_sizes[] = filesize($targetPath) / 1024;
+                $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
 
-    switch ($errorCode) {
-        case UPLOAD_ERR_INI_SIZE:
-        case UPLOAD_ERR_FORM_SIZE:
-            return "{$errorType} exceeds the maximum file size allowed.<br>";
-        case UPLOAD_ERR_PARTIAL:
-            return "{$errorType} was only partially uploaded.<br>";
-        case UPLOAD_ERR_NO_FILE:
-            // Only report missing file for required photo
-            if ($isRequired) {
-                return "{$errorType} was not uploaded but is required.<br>";
+                array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
+                array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
+                $db_types .= "ss";
+            } else {
+                $error_message .= "Error processing image. Please try again.<br>";
             }
-            break; // Optionally, you could ignore this error for optional photos
-        case UPLOAD_ERR_NO_TMP_DIR:
-            return "Missing a temporary folder on server.<br>";
-        case UPLOAD_ERR_CANT_WRITE:
-            return "{$errorType} could not be written to disk.<br>";
-        case UPLOAD_ERR_EXTENSION:
-            return "A PHP extension stopped the upload of {$errorType}.<br>";
-        default:
-            return "An unknown error occurred with {$errorType}.<br>";
+        }
+    }
+
+    if (!empty($db_fields) && empty($error_message)) {
+        array_push($db_fields, "ready_to_show", "logged_ts");
+        array_push($db_values, 1, date("Y-m-d H:i:s"));
+        $db_types .= "is";
+
+        $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
+        $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
+        $db_values[] = $project_id;
+        $db_types .= "i";
+
+        $update_stmt = $conn->prepare($update_sql);
+        $update_stmt->bind_param($db_types, ...$db_values);
+        if (!$update_stmt->execute()) {
+            $error_message .= "Database update failed: " . $update_stmt->error;
+        }
+        $update_stmt->close();
+    }
+
+    if (!empty($error_message)) {
+        http_response_code(400);
+        header('Content-Type: application/json');
+        echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
+        exit;
+    } else {
+        $response = array(
+            'project_id' => $project_id,
+            'full_urls' => $full_urls,
+            'thumbnail_paths' => $thumbnail_paths,
+            'main_file_sizes' => $main_file_sizes,
+            'thumbnail_file_sizes' => $thumbnail_file_sizes
+        );
+        header('Content-Type: application/json');
+        echo json_encode($response);
+        exit;
     }
 }
 
 
-// Function to create a thumbnail using GD library
-function createThumbnail($source_path, $destination_path, $width, $height, $quality) {
-    list($source_width, $source_height, $source_type) = getimagesize($source_path);
-    switch ($source_type) {
-        case IMAGETYPE_JPEG:
-            $source_image = imagecreatefromjpeg($source_path);
-            break;
-        case IMAGETYPE_PNG:
-            $source_image = imagecreatefrompng($source_path);
-            break;
-        case IMAGETYPE_WEBP:
-            $source_image = imagecreatefromwebp($source_path);
-            break;
-        default:
-            return false;
-    }
-    $thumbnail = imagecreatetruecolor($width, $height);
-    imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $width, $height, $source_width, $source_height);
-    imagedestroy($source_image);
-    imagejpeg($thumbnail, $destination_path, $quality);
-    imagedestroy($thumbnail);
-    return true;
-}
 
-// Function to convert image to WebP format
-function convertToWebP($source_path, $destination_path) {
-    $image = imagecreatefromstring(file_get_contents($source_path));
-    if ($image !== false) {
-        imagepalettetotruecolor($image);
-        imagewebp($image, $destination_path, 85);
-        imagedestroy($image);
-        return true;
-    }
-    return false;
-}
-
-
-// Function to resize original image if any of its dimensions are larger than 1500px.
-
-function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQuality) {
-    list($width, $height, $type, $attr) = getimagesize($sourcePath);
-    $scale = min($maxDim/$width, $maxDim/$height);
-    $newWidth = $width > $maxDim ? ceil($scale * $width) : $width;
-    $newHeight = $height > $maxDim ? ceil($scale * $height) : $height;
-
-    // Depending on the original image type, create a new image
-    switch ($type) {
-        case IMAGETYPE_JPEG:
-            $src = imagecreatefromjpeg($sourcePath);
-            break;
-        case IMAGETYPE_PNG:
-            $src = imagecreatefrompng($sourcePath);
-            break;
-        default:
-            // Unsupported type for conversion
-            return false;
-    }
-
-    $dst = imagecreatetruecolor($newWidth, $newHeight);
-    imagecopyresampled($dst, $src, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
-    imagewebp($dst, $targetPath, $compressionQuality); // Save the image as WebP with specified compression quality
-
-    imagedestroy($src);
-    imagedestroy($dst);
-    return true;
-}
 ?>
+
 <!DOCTYPE html>
 <HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='fr';?>
-<?php $version='2.31';?>
+<?php $lang='en';?>
+<?php $version='2.37';?>
 <?php $page='add-project-images';?>
 
 
@@ -265,6 +178,13 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
     <p class="form-caption" data-lang-id="012-another-photo-optional">Optional</p>
 </div>
 
+<!-- Photo 5 Main & Thumbnail -->
+<div class="form-item">
+    <label for="photo6_main" data-lang-id="011-another-photo">Choose another photo:</label><br>
+    <input type="file" id="photo6_main" name="photo6_main">
+    <p class="form-caption" data-lang-id="012-another-photo-optional">Optional</p>
+</div>
+
 
 
             <div data-lang-id="013-submit-upload-button">
@@ -280,11 +200,20 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
             <img src="../svgs/step3-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
         </div>
         <div id="upload-success-message"></div>
-        <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">🎉 View Project Post</a>
+        <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>" data-lang-id="013-view-project-post">🎉 View Project Post</a>
+        <a class="confirm-button" data-lang-id="014-edit-project" href="edit-project.php?project_id=<?php echo $_GET['project_id']; ?>">Edit Project Post</a>
+      
+
+        <form id="deleteForm" action="" method="POST">
+            <input type="hidden" name="project_id" value="<?php echo htmlspecialchars($_GET['project_id']); ?>">
+            <input type="hidden" name="action" value="delete_project">
+            <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton" data-lang-id="014-delete-project">❌ Delete Project</a>
+        </form>
+
     </div>
 
 
-<a href="#" onclick="goBack()"  aria-label="Go back to re-enter data" class="back-link" data-lang-id="014-go-back-link">↩ Back to Step 1</a>
+<a href="#" onclick="goBack()"  aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
 
 </div>
 
@@ -304,13 +233,42 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
 
 <script>
     
+//DELETE BUTTON
+
+// Define messages for different languages
+var messages = {
+    en: 'Are you sure you want to delete this project? This action cannot be undone.',
+    id: 'Apakah Anda yakin ingin menghapus proyek ini? Tindakan ini tidak dapat dibatalkan.',
+    es: '¿Estás seguro de que deseas eliminar este proyecto? Esta acción no se puede deshacer.',
+    fr: 'Êtes-vous sûr de vouloir supprimer ce projet ? Cette action est irréversible.'
+};
+
+// Detect the current language, defaulting to English if not set or unsupported
+var currentLang = window.currentLanguage || 'en';
+var confirmationMessage = messages[currentLang] || messages.en;
+
+// Set up the event listener
+document.getElementById('deleteButton').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent navigation
+    if (confirm(confirmationMessage)) {
+        document.getElementById('deleteForm').submit();
+    }
+});
 
 
-    document.querySelector('#photoform').addEventListener('submit', function(event) {
-    // Prevent default form submission
+
+
+
+//UPLOAD SUBMIT ACTION AND BUTTON
+
+document.querySelector('#photoform').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    // Define messages for different languages
+    var button = document.getElementById('upload-progress-button');
+    var originalButtonText = button.value; // Save the original button text
+    button.innerHTML = '<div class="spinner-photo-loading"></div>'; // Replace button text with spinner
+    button.disabled = true; // Disable button to prevent multiple submissions
+
     var messages = {
         en: "Please choose a file.",
         es: "Por favor, elige un archivo.",
@@ -318,49 +276,41 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
         id: "Silakan pilih sebuah berkas."
     };
 
-    // Check the current language and select the appropriate message; default to English
     var currentLang = window.currentLanguage || 'en';
     var chooseFileMessage = messages[currentLang] || messages.en;
 
-    // Check if file input is empty
     var fileInput = document.getElementById('photo1_main');
     if (fileInput.files.length === 0) {
-        // If file input is empty, display modal message
         showFormModal(chooseFileMessage);
-        return; // Stop form submission
+        button.innerHTML = originalButtonText; // Restore button text if no file chosen
+        button.disabled = false; // Enable button
+        return;
     }
 
-    // Proceed with form submission and upload progress tracking
     var form = event.target;
     var formData = new FormData(form);
-
     var xhr = new XMLHttpRequest();
 
-    // Track upload progress
     xhr.upload.onprogress = function(event) {
         if (event.lengthComputable) {
-            // Calculate and update the background size of the input button based on upload progress
             var progress = (event.loaded / event.total) * 100;
             document.getElementById('upload-progress-button').style.backgroundSize = progress + '%';
-
-            // Add progress-bar class to change background color to green
             document.getElementById('upload-progress-button').classList.add('progress-bar');
         }
     };
 
     xhr.onreadystatechange = function() {
         if (xhr.readyState == XMLHttpRequest.DONE) {
-            if (xhr.status == 200) {
-                handleFormResponse(xhr.responseText);
-            } else {
-                handleFormResponse(xhr.responseText);
-            }
+            button.innerHTML = originalButtonText; // Restore button text after upload
+            button.disabled = false; // Enable button
+            handleFormResponse(xhr.responseText);
         }
     };
 
     xhr.open(form.method, form.action, true);
     xhr.send(formData);
 });
+
 
 
 
@@ -422,7 +372,7 @@ function uploadSuccess(data) {
         var directoryPathText = data.thumbnail_paths[i].substring(data.thumbnail_paths[i].lastIndexOf('/') + 1);
         var captionText = directoryPathText + ' | ' + data.thumbnail_file_sizes[i].toFixed(1) + ' KB | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
         var fullUrlText = data.full_urls[i];
-        var modalCaption = captionText = directoryPathText + ' | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
+        var modalCaption = captionText = directoryPathText + ' | ' + data.main_file_sizes[i].toFixed(1) + ' Kb | ' + data.thumbnail_file_sizes[i].toFixed(1) + ' Kb';
 
         galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + fullUrlText + '\', \'' + modalCaption + '\')">';
         galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';

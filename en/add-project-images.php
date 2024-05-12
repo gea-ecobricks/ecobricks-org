@@ -103,7 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.34';?>
+<?php $version='2.37';?>
 <?php $page='add-project-images';?>
 
 
@@ -200,20 +200,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
             <img src="../svgs/step3-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
         </div>
         <div id="upload-success-message"></div>
-        <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>">🎉 View Project Post</a>
-        <a class="confirm-button" href="edit-project.php?project_id=<?php echo $_GET['project_id']; ?>">Edit Project Post</a>
-        <a class="confirm-button" href="add-project.php">Add another Project</a>
+        <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>" data-lang-id="013-view-project-post">🎉 View Project Post</a>
+        <a class="confirm-button" data-lang-id="014-edit-project" href="edit-project.php?project_id=<?php echo $_GET['project_id']; ?>">Edit Project Post</a>
+      
 
         <form id="deleteForm" action="" method="POST">
             <input type="hidden" name="project_id" value="<?php echo htmlspecialchars($_GET['project_id']); ?>">
             <input type="hidden" name="action" value="delete_project">
-            <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton">❌ Delete Project</a>
+            <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton" data-lang-id="014-delete-project">❌ Delete Project</a>
         </form>
 
     </div>
 
 
-<a href="#" onclick="goBack()"  aria-label="Go back to re-enter data" class="back-link" data-lang-id="014-go-back-link">↩ Back to Step 1</a>
+<a href="#" onclick="goBack()"  aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
 
 </div>
 
@@ -234,12 +234,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
 <script>
     
 //DELETE BUTTON
+
+// Define messages for different languages
+var messages = {
+    en: 'Are you sure you want to delete this project? This action cannot be undone.',
+    id: 'Apakah Anda yakin ingin menghapus proyek ini? Tindakan ini tidak dapat dibatalkan.',
+    es: '¿Estás seguro de que deseas eliminar este proyecto? Esta acción no se puede deshacer.',
+    fr: 'Êtes-vous sûr de vouloir supprimer ce projet ? Cette action est irréversible.'
+};
+
+// Detect the current language, defaulting to English if not set or unsupported
+var currentLang = window.currentLanguage || 'en';
+var confirmationMessage = messages[currentLang] || messages.en;
+
+// Set up the event listener
 document.getElementById('deleteButton').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent navigation
-    if (confirm('Are you sure you want to delete this project? This action cannot be undone.')) {
+    if (confirm(confirmationMessage)) {
         document.getElementById('deleteForm').submit();
     }
 });
+
+
 
 
 
