@@ -80,7 +80,7 @@ if ($stmt->execute()) {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.992';?>
+<?php $version='1.993';?>
 <?php $page='add-project';?>
 
 
@@ -361,8 +361,8 @@ function toggleAdvancedBox(event) {
     let isExpanded = header.getAttribute('aria-expanded') === 'true';
 
     if (!isExpanded) {
-        content.style.maxHeight = content.scrollHeight + 'px';  // Set to its full height
-        icon.textContent = '−';  // Consider using a minus symbol for an open state for clarity
+        content.style.maxHeight = 100%;  // content.scrollHeight + 'px'  Set to its full height
+        icon.textContent = '−';  // witch to minus symbol for an open state
         header.setAttribute('aria-expanded', 'true'); // Update aria-expanded to true
     } else {
         content.style.maxHeight = '0px';  // Collapse it
