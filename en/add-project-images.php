@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
             $targetPath = $upload_dir . $new_file_name_webp;
 
             if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
-                createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 160, 160, 77);
+                createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
                 $full_urls[] = $targetPath;
                 $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
                 $main_file_sizes[] = filesize($targetPath) / 1024;
@@ -103,7 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.31';?>
+<?php $version='2.32';?>
 <?php $page='add-project-images';?>
 
 
@@ -243,12 +243,16 @@ document.getElementById('deleteButton').addEventListener('click', function(event
 
 
 
+//UPLOAD SUBMIT ACTION AND BUTTON
 
-    document.querySelector('#photoform').addEventListener('submit', function(event) {
-    // Prevent default form submission
+document.querySelector('#photoform').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    // Define messages for different languages
+    var button = document.getElementById('upload-progress-button');
+    var originalButtonText = button.value; // Save the original button text
+    button.innerHTML = '<div class="spinner"></div>'; // Replace button text with spinner
+    button.disabled = true; // Disable button to prevent multiple submissions
+
     var messages = {
         en: "Please choose a file.",
         es: "Por favor, elige un archivo.",
@@ -256,49 +260,41 @@ document.getElementById('deleteButton').addEventListener('click', function(event
         id: "Silakan pilih sebuah berkas."
     };
 
-    // Check the current language and select the appropriate message; default to English
     var currentLang = window.currentLanguage || 'en';
     var chooseFileMessage = messages[currentLang] || messages.en;
 
-    // Check if file input is empty
     var fileInput = document.getElementById('photo1_main');
     if (fileInput.files.length === 0) {
-        // If file input is empty, display modal message
         showFormModal(chooseFileMessage);
-        return; // Stop form submission
+        button.innerHTML = originalButtonText; // Restore button text if no file chosen
+        button.disabled = false; // Enable button
+        return;
     }
 
-    // Proceed with form submission and upload progress tracking
     var form = event.target;
     var formData = new FormData(form);
-
     var xhr = new XMLHttpRequest();
 
-    // Track upload progress
     xhr.upload.onprogress = function(event) {
         if (event.lengthComputable) {
-            // Calculate and update the background size of the input button based on upload progress
             var progress = (event.loaded / event.total) * 100;
             document.getElementById('upload-progress-button').style.backgroundSize = progress + '%';
-
-            // Add progress-bar class to change background color to green
             document.getElementById('upload-progress-button').classList.add('progress-bar');
         }
     };
 
     xhr.onreadystatechange = function() {
         if (xhr.readyState == XMLHttpRequest.DONE) {
-            if (xhr.status == 200) {
-                handleFormResponse(xhr.responseText);
-            } else {
-                handleFormResponse(xhr.responseText);
-            }
+            button.innerHTML = originalButtonText; // Restore button text after upload
+            button.disabled = false; // Enable button
+            handleFormResponse(xhr.responseText);
         }
     };
 
     xhr.open(form.method, form.action, true);
     xhr.send(formData);
 });
+
 
 
 
