@@ -251,14 +251,18 @@ if ($stmt->execute()) {
 </div>
 
 <div class="form-item">
-        <!--START DATE--><label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
+        <h5 data-lang-id="007-project-duration">Project Duration</h5>
+        <!--START DATE-->
+        <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
         <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
         <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
          <!--errors-->
          <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
          <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
-         <!--END DATE--><label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
-        <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
+
+         <!--END DATE-->
+         <label for="start_dt" data-lang-id="007-start-date">End Date:</label><br>
+        <input type="date" id="end_dt" name="end_dt" aria-label="End Date" required>
         <p class="form-caption" data-lang-id="008-start-date-caption">When did this project end?</p>
          <!--errors-->
          <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
