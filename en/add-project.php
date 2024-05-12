@@ -148,16 +148,7 @@ if ($stmt->execute()) {
 
     </div>
     
-    <div class="form-item">
-        <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
-        <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
-        <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
-
-         <!--ERRORS-->
-         <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-         <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
-
-    </div>
+    
     
     <div class="form-item">
     <label for="briks_used" data-lang-id="009-bricks-used">How many ecobricks does your project use?</label><br>
@@ -211,6 +202,30 @@ if ($stmt->execute()) {
 </div>
 
     
+
+
+    <div class="form-item">
+    <label for="location_address" data-lang-id="015-location">Where is the project located?</label><br>
+    <div class="input-container">
+        <input type="text" id="location_address" name="location_address" aria-label="Project Location" placeholder="Start typing your town..." required>
+        <div id="loading-spinner" class="spinner" style="display: none;"></div>
+    </div>
+    <p class="form-caption" data-lang-id="016-location-caption">For privacy, please don't use your exact address. Choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
+
+        <!--ERRORS-->
+    <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+</div>
+
+
+<!--Advanced Fields-->
+<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1"> 
+	<div class="advanced-box-header"  id="advancedBoxLabel-1">
+        <div class="advanced-title" data-lang-id="012-block-1-advanced">Advanced Options</div>
+        <div class="advanced-open-icon" >+</div>
+	</div>
+    <div class="advanced-box-content">
+            
+    
     <div class="form-item">
         <label for="community" data-lang-id="013-community">If this was a community project, what community is responsible?</label><br>
         <input type="text" id="community" name="community" aria-label="Community (optional)">
@@ -235,29 +250,19 @@ if ($stmt->execute()) {
     <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
 </div>
 
+<div class="form-item">
+        <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
+        <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
+        <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
 
+         <!--ERRORS-->
+         <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+         <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
 
-    <div class="form-item">
-    <label for="location_address" data-lang-id="015-location">Where is the project located?</label><br>
-    <div class="input-container">
-        <input type="text" id="location_address" name="location_address" aria-label="Project Location" placeholder="Start typing your town..." required>
-        <div id="loading-spinner" class="spinner" style="display: none;"></div>
     </div>
-    <p class="form-caption" data-lang-id="016-location-caption">For privacy, please don't use your exact address. Choose your general neighbourhood or town. Project locations will be shown on our project map.</p>
-
-        <!--ERRORS-->
-    <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-</div>
 
 
-<!--Advanced Fields-->
-<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1"> 
-	<div class="advanced-box-header"  id="advancedBoxLabel-1">
-        <div class="advanced-title" data-lang-id="012-block-1-advanced">Additional Data</div>
-        <div class="advanced-open-icon" >+</div>
-	</div>
-    <div class="advanced-box-content">
-            <p data-lang-id="013-block-1-advanced-paragraph">💡 Optional fields.</p>
+
     </div>
 </div> <!--close advanced box-->
 
