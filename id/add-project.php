@@ -94,7 +94,7 @@ if ($stmt->execute()) {
             <div class="step-graphic" style="width:fit-content;margin:auto;margin-left:0px">
                 <img src="../svgs/step1-log-project.svg" style="height:25px;">
             </div>
-            <div id="language-code" onclick="showLangSelector()" aria-label="Switch languages" data-lang-id="000-language-code"></div>
+            <div id="language-code" onclick="showLangSelector()" aria-label="Switch languages"><span data-lang-id="000-language-code"></span></div>
         </div>
 
         <div class="splash-form-content-block">  
