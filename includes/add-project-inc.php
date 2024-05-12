@@ -63,7 +63,7 @@
         filter: none !important;
         min-height: 20vh !important;
         height: 20vh !important;
-        margin-top: 30px;
+        
 	}
 
   .splash-image {display: none !important;}
@@ -77,7 +77,6 @@
         background-color: var(--top-header);
         filter: none !important;
         min-height: 20vh !important;
-        margin-top: 30px;
 }
 } 
 

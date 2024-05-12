@@ -196,12 +196,12 @@ SPLASH TOP
 ---------------------------------------------------------------------*/
 
 #language-code {
-  color: var(--accordion-background);
+  color: var(--subdued-text);
   font-size: 1.1em;
   padding: 5px;
   cursor: pointer;
   border-radius: 5px;
-  background: var(--input-background);
+  background: var(--accordion-background);
 
 }
 
@@ -258,6 +258,7 @@ SPLASH TOP
  		box-sizing: border-box;
 		flex-direction: column;
     position: relative;
+    margin-top: 30px;
 
 	}
 
@@ -313,6 +314,7 @@ SPLASH TOP
   flex-direction: row;
   width: 100%;
   position: relative;
+  margin-top: 30px;
 }
 
 } 
