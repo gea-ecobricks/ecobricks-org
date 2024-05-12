@@ -257,20 +257,7 @@ if ($stmt->execute()) {
         <div class="advanced-open-icon" >+</div>
 	</div>
     <div class="advanced-box-content">
-        <div class="row">
-    
-            <div class="main2">
-                <p data-lang-id="013-block-1-advanced-paragraph">💡 Optional fields.</p>
-            </div>
-
-            <div class="side2">
-                <p data-lang-id="014-block-1-advanced-image-alt"><img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="weighed plastic">
-                </p>
-            </div>
-
-            <p data-lang-id="015-block-1-advanced-paragraph">They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!</p>
-
-        </div>
+            <p data-lang-id="013-block-1-advanced-paragraph">💡 Optional fields.</p>
     </div>
 </div> <!--close advanced box-->
 
