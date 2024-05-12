@@ -10,18 +10,28 @@ const en_Page_Translations = {
     "001-splash-title": "Post a Project",
     "002-form-description": "Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database.",
     "003-splash-image-alt": '<img src="../svgs/building-methods.svg" style="width:65%" alt="There are many ways to build with ecobricks">',
-    "004-short-project-desc": "Short project description:",
-    "004-short-project-desc-caption": "Provide a one sentence description of this project. Max 150 words.  Avoid special characters.",
+
+    "004-form-description": "Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database.",
     "005-project-name": "Project Name:",
-    "005b-project-name-caption": "Give a name or title to your project post.  Avoid special characters.",
+    "005b-project-name-caption": "Give a name or title to your project post. Avoid special characters.",
+    "000-field-required-error": "This field is required.",
+    "000-name-field-too-long-error": "Your project name is too long. Max 50 characters.",
     "005b-project-name-error": "Your entry contains invalid characters. Avoid quotes, slashes, and greater-than signs please.",
+    "004-short-project-desc": "Short project description:",
+    "004-short-project-desc-caption": "Provide a one sentence description of this project. Max 150 words. Avoid special characters.",
+    "000-field-description-too-long-error": "Your project description is too long. Max 255 characters.",
+    "000-field-invalid-characters": "Your entry contains invalid characters. Avoid quotes, slashes, and greater-than signs.",
+
+
+
+
     "005-long-project-desc": "Full project description:",
     "005-long-project-desc-caption": "Optional. Take as much space as you need as share the full details of your project. Max 1000 words.",
     "000-field-required-error": "This field is required.",
     "000-name-field-too-long-error": "Your project name is too long.  Max 50 characters.",
 
 
-    
+
     "000-field-description-too-long-error": "Your project description is too long.  Max 255 characters.",
     "000-field-invalid-characters": "Your entry contains invalid characters. Avoid quotes, slashes, and greater-than signs.",
     "000-long-field-too-long-error": "Your long project description is too long.  Maximum 2000 characters.",

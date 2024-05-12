@@ -1,9 +1,31 @@
-
+ 
 
 <?php require_once ("../meta/edit-project-en.php");?>
 
   
 <STYLE>
+/* Same styles add Project page!!*/
+
+.advanced-box-content {
+    padding: 2px 15px 15px 15px;
+    max-height: 0;  /* Initially set to 0 */
+    overflow: hidden;  /* Hide any overflowing content */
+    transition: max-height 0.5s ease-in-out;  /* Transition effect */
+	font-size:smaller;
+	margin-top:-10px;
+}
+
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  margin-bottom: -10px;
+}
+
+#registration-footer {
+
+  display:none !important;
+}
 
 #serial-select ul {
   list-style: none;
@@ -40,6 +62,7 @@
         filter: none !important;
         min-height: 20vh !important;
         height: 20vh !important;
+        
 	}
 
   .splash-image {display: none !important;}
@@ -105,8 +128,8 @@
 .form-caption {
   font-family: "Mulish", sans-serif;
   font-weight: 300;
-  color: grey;
-  font-size: small;
+  color: var(--text-color);
+  font-size: 1.0em;
   margin-top: -5px;
 }
 
@@ -116,6 +139,7 @@ label {
   font-family: "Mulish", sans-serif;
   font-weight: 500;
   color: var(--text-color);
+  font-size: 1.3em;
 }
 
 
@@ -153,25 +177,6 @@ input[type="date"] {
   margin-top: 8px;
 
 }
-/* 
-input[type="submit"] {
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  background-color: gray; 
-  background-size: 0% 100%; 
-  transition: background-size 0.5s ease;
-  font-size: 1.3em
-}
-
-input[type="submit"].progress-bar {
-  background: url(../svgs/background-upload-progress.svg) left;
-  background-size: contain;
-} */
-/* 
-*/
 
 input[type="submit"] {
   color: white;
@@ -197,6 +202,21 @@ input[type="submit"].progress-bar {
 input[type="submit"]:hover {
   background-color: green;
 } 
+
+.spinner-photo-loading {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #ffffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 
 
 .form-field-error {
@@ -328,7 +348,7 @@ input[type="submit"]:hover {
 }
 
 .form-item .form-caption {
-    font-size: small;
+    font-size: 1.0;
 
 
 }

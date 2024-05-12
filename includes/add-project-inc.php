@@ -178,25 +178,6 @@ input[type="date"] {
   margin-top: 8px;
 
 }
-/* 
-input[type="submit"] {
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  background-color: gray; 
-  background-size: 0% 100%; 
-  transition: background-size 0.5s ease;
-  font-size: 1.3em
-}
-
-input[type="submit"].progress-bar {
-  background: url(../svgs/background-upload-progress.svg) left;
-  background-size: contain;
-} */
-/* 
-*/
 
 input[type="submit"] {
   color: white;
