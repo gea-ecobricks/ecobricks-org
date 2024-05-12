@@ -94,7 +94,7 @@ if ($stmt->execute()) {
 
  <div id="form-submission-box">
     <div class="form-container">
-        <div class="form-top-header" style="display:flex;flex-flow:row;>
+        <div class="form-top-header" style="display:flex;flex-flow:row;">
             <div class="step-graphic" style="width:fit-content;margin:auto;">
                 <img src="../svgs/step1-log-project.svg" style="height:25px;">
             </div>
