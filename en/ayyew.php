@@ -14,9 +14,9 @@
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Ayyew</div>
-		<div class="splash-sub" data-lang-id="002-splash-subtitle">The ecological ethos of the Igorot people</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">An ancient ecological ethos with modern meaning.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt" ><img src="../svgs/earth-home-animated-v4.svg" style="width:90%;" alt=" Our Earthen Principles embodied in an Earthen home construction"></div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt" ><img src="../icons/igorot-ayyew.svg" style="width:90%;" alt="An Igorot Ayyew symbol"></div>	
 </div>
 <div id="splash-bar"></div>
 
