@@ -196,7 +196,7 @@ SPLASH TOP
 ---------------------------------------------------------------------*/
 
 #language-code {
-  color: var(--subdued-text);
+  color: var(--accordion-background);
   font-size: 1.1em;
   padding: 5px;
   cursor: pointer;
