@@ -76,7 +76,7 @@ if ($stmt->execute()) {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.02';?>
+<?php $version='2.03';?>
 <?php $page='add-project';?>
 
 
@@ -108,15 +108,15 @@ if ($stmt->execute()) {
         </div>
 
         <div class="lead-page-paragraph">
-            <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database.</p>
+            <p data-lang-id="004-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database.</p>
         </div>
         <form id="submit-form" method="post" action="" enctype="multipart/form-data" novalidate>
         <!-- <form id="submit-form" method="post" action="" enctype="multipart/form-data"> -->
 
             <div class="form-item" style="margin-top: 25px;">
-                <label for="project_name" data-lang-id="003-project-name">Project Name:</label><br>
+                <label for="project_name" data-lang-id="005-project-name">Project Name:</label><br>
                 <input type="text" id="project_name" name="project_name" aria-label="Project Name" title="Required. Max 255 characters." required>
-                <p class="form-caption" data-lang-id="005-project-name-caption">Give a name or title to your project post.  Avoid special characters.</p>
+                <p class="form-caption" data-lang-id="005b-project-name-caption">Give a name or title to your project post.  Avoid special characters.</p>
                 
                 <!--ERRORS-->
                 <div id="name-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
