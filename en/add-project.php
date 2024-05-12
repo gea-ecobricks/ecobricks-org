@@ -77,7 +77,7 @@ if ($stmt->execute()) {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.991';?>
+<?php $version='1.992';?>
 <?php $page='add-project';?>
 
 
