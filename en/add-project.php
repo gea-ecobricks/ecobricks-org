@@ -80,7 +80,7 @@ if ($stmt->execute()) {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.995';?>
+<?php $version='1.996';?>
 <?php $page='add-project';?>
 
 
@@ -257,36 +257,36 @@ if ($stmt->execute()) {
             <div id="admins-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
         </div>
 
-        <div class="form-item">
-        <label for="connected_ecobricks">The serials of ecobricks used in your project:</label><br>
-        <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serials...">
-        <div id="serial-select"><ul id="autocomplete-results" ></ul></div>
-        <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
-    </div>
+    
+        <div id="other-advanced-fields">
+        
+            <div class="form-item">
+                <label for="connected_ecobricks">The serials of ecobricks used in your project:</label><br>
+                <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serials...">
+                <div id="serial-select"><ul id="autocomplete-results" ></ul></div>
+                <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
+            </div>
 
-    <div class="form-item">
-            <p data-lang-id="007-project-duration">Project Duration</p>
-            <!--START DATE-->
-            <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
-            <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
-            <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
-            <!--errors-->
-            <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-            <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
+            <div class="form-item">
+                <p data-lang-id="007-project-duration">Project Duration</p>
+                <!--START DATE-->
+                <label for="start_dt" data-lang-id="007-start-date">Start Date:</label><br>
+                <input type="date" id="start_dt" name="start_dt" aria-label="Start Date" required>
+                <p class="form-caption" data-lang-id="008-start-date-caption">When did this project begin?</p>
+                <!--errors-->
+                <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
 
-            <!--END DATE-->
-            <label for="start_dt" data-lang-id="007b-end-date">End Date:</label><br>
-            <input type="date" id="end_dt" name="end_dt" aria-label="End Date" required>
-            <p class="form-caption" data-lang-id="008b-end-date-caption">When did this project end?</p>
-            <!--errors-->
-            <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-            <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
+                <!--END DATE-->
+                <label for="start_dt" data-lang-id="007b-end-date">End Date:</label><br>
+                <input type="date" id="end_dt" name="end_dt" aria-label="End Date" required>
+                <p class="form-caption" data-lang-id="008b-end-date-caption">When did this project end?</p>
+                <!--errors-->
+                <div id="description-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                <div id="start-error-reasonable" class="form-field-error" data-lang-id="000-field-reasonable-date">A reasonable date is required.  Must be after 2000 and before today.</div>
 
-            
-
-        </div>
-
-
+            </div>
+        </div> <!--closes other advanced fields-->
 
     </div>
 </div> <!--close advanced box-->
@@ -316,6 +316,8 @@ if ($stmt->execute()) {
 
 <script>
 //TOGGLE COMMUNITY OR PERSONAL PROJECT SORT FIELDS
+
+
 document.addEventListener("DOMContentLoaded", function() {
     // Initially hide all additional fields
     const communityField = document.getElementById("community").parentNode;
