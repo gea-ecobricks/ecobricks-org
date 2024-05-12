@@ -9,13 +9,12 @@ $conn->set_charset("utf8mb4");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     include '../project-photo-functions.php'; // Ensure this path is correct
 
-
     $location_full = $_POST['location_address'] ?? 'Default Location';
     $project_name = $_POST['project_name'];
     $description_short = $_POST['description_short'];
     $description_long = $_POST['description_long'];
     $project_type = $_POST['project_type'];
-    $construction_type = $_POST['construction_type'];
+    $construction_type = $_POST['construction_type'];  // keep this as it is
     $community = $_POST['community'] ?? '';
     $project_admins = $_POST['project_admins'] ?? '';
     $start_dt = $_POST['start_dt'];
@@ -25,9 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $longitude = (double)$_POST['longitude'];
     $connected_ecobricks = $_POST['connected_ecobricks'] ?? '';
     $end_dt = $_POST['end_dt'];
-    $construction_type = $_POST['project_sort'];
-
-
+    $project_sort = $_POST['project_sort'] ?? '';
 
     $sql = "INSERT INTO tb_projects (project_name, description_short, description_long, location_full, project_type, construction_type, community, project_admins, start_dt, briks_used, est_avg_brik_weight, location_lat, location_long, connected_ecobricks, end_dt, project_sort) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
