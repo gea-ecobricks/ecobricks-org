@@ -631,11 +631,12 @@ border-left-width: 1px;
   font-family: 'Arvo', serif;
   font-size:1.3em;
   margin:auto;
-  width:fit-content;
+  width:100%t;
+  color: var(--text-color);
 }
 
 .advanced-open-icon {
-  width:100%;
+  /* width:100%; */
   text-align:right;
   padding-right:25px;
   font-size:1.7em;
