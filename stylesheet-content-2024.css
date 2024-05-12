@@ -195,7 +195,17 @@ SPLASH TOP
 
 ---------------------------------------------------------------------*/
 
+#language-code {
+  color: var(--subdued-text);
+  font-size: 1.3em;
+  padding: 5px;
+  cursor: pointer;
 
+}
+
+#language-code:hover {
+  color: var(--h1);
+}
 
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
