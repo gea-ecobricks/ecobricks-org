@@ -80,7 +80,7 @@ if ($stmt->execute()) {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.01';?>
+<?php $version='2.02';?>
 <?php $page='add-project';?>
 
 
@@ -111,8 +111,9 @@ if ($stmt->execute()) {
             </div>
         </div>
 
-  
-        <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database.</p>
+        <div class="lead-page-paragraph">
+            <p data-lang-id="002-form-description">Share your ecobrick project with the world. Use this form to post your completed ecobricks project onto ecobricks.org. Projects will be featured on our main page and archived in our database.</p>
+        </div>
         <form id="submit-form" method="post" action="" enctype="multipart/form-data" novalidate>
         <!-- <form id="submit-form" method="post" action="" enctype="multipart/form-data"> -->
 
