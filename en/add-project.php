@@ -94,8 +94,11 @@ if ($stmt->execute()) {
 
  <div id="form-submission-box">
     <div class="form-container">
-        <div class="step-graphic" style="width:fit-content;margin:auto;">
-            <img src="../svgs/step1-log-project.svg" style="height:25px;">
+        <div class="form-top-header" style="display:flex;flex-flow:row;>
+            <div class="step-graphic" style="width:fit-content;margin:auto;">
+                <img src="../svgs/step1-log-project.svg" style="height:25px;">
+            </div>
+            <div id="lang-code" data-lang-id="000-language-code">EN</div>
         </div>
 
         <div class="splash-form-content-block">  
