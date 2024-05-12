@@ -19,9 +19,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
     if (isset($_POST['action']) && $_POST['action'] == 'delete_project') {
         $deleteResult = deleteProject($project_id, $conn);
         if ($deleteResult === true) {
-            echo "<script>alert('Project has been successfully deleted.'); window.location.href='projects_list.php';</script>";
+            echo "<script>alert('Project has been successfully deleted.'); window.location.href='add-project.php';</script>";
             exit;
-        } else {
+        } else {    
             echo "<script>alert('" . $deleteResult . "');</script>";
             exit;
         }
@@ -103,7 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.32';?>
+<?php $version='2.33';?>
 <?php $page='add-project-images';?>
 
 
@@ -250,7 +250,7 @@ document.querySelector('#photoform').addEventListener('submit', function(event) 
 
     var button = document.getElementById('upload-progress-button');
     var originalButtonText = button.value; // Save the original button text
-    button.innerHTML = '<div class="spinner"></div>'; // Replace button text with spinner
+    button.innerHTML = '<div class="spinner-photo-loading"></div>'; // Replace button text with spinner
     button.disabled = true; // Disable button to prevent multiple submissions
 
     var messages = {

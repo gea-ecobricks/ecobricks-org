@@ -223,7 +223,7 @@ input[type="submit"]:hover {
   background-color: green;
 } 
 
-.spinner {
+.spinner-photo-loading {
     border: 4px solid rgba(0, 0, 0, 0.1);
     border-left-color: #ffffff;
     border-radius: 50%;
