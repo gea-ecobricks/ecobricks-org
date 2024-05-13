@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<HTML lang="id"> 
+<HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);?>
-<?php $version='2.12';?>
+<?php $version='2.13';?>
 <?php $page='project';?>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
@@ -13,22 +13,23 @@ ini_set('display_errors', 1);?>
 <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 
 
- 
 <?php 
+require_once ("../includes/project-inc.php");
+include '../ecobricks_env.php';
 
-	require_once ("../includes/project-inc.php");
-	include '../ecobricks_env.php';
-
-	$projectId = $_GET['project_id'];
-
-	$sql = "SELECT * FROM tb_projects WHERE project_id = '" . $projectId . "'";
+$conn->set_charset("utf8mb4");
 
 
+$projectId = $_GET['project_id'];
 
-	$result = $conn->query($sql);
-	if ($result->num_rows > 0) {
-	
-    while($array = $result->fetch_assoc()) {
+$sql = "SELECT * FROM tb_projects WHERE project_id = ?";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("i", $projectId);
+$stmt->execute();
+$result = $stmt->get_result();
+
+if ($result->num_rows > 0) {
+    $array = $result->fetch_assoc();
 
 		echo 
 		'<div class="splash-content-block">
@@ -48,8 +49,7 @@ ini_set('display_errors', 1);?>
 		<div id="splash-bar"></div>';
 
         echo '
-		
-        <div id="main-content">
+		<div id="main-content">
             <div class="row">
                 <div class="main">
                     <div class="row-details">
@@ -61,7 +61,7 @@ ini_set('display_errors', 1);?>
                         <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
  
                          // Loop through the available photos (up to 5)
-						 for ($i = 1; $i <= 5; $i++) {
+						 for ($i = 1; $i <= 6; $i++) {
                             $photo_main = $array["photo{$i}_main"];
                             $photo_tmb = $array["photo{$i}_tmb"];
                             
@@ -77,19 +77,72 @@ ini_set('display_errors', 1);?>
 
 		 echo ' <div class="main-details">
 					
-					<div class="page-paragraph">
-						<p>'. $array["description_long"] .'</p>
-						<br>
-					</div>
+		 <div class="page-paragraph">
+		 <p>'. nl2br(htmlspecialchars($array["description_long"], ENT_QUOTES, 'UTF-8')) .'</p>
+		 <br>
+	 </div>
 
-				</div>';
-                
+				</div>
+				<br>';
+
+				
+				require_once ("../includes/project-inc.php");
+				include '../ecobricks_env.php';
+				
+				$projectId = $_GET['project_id'];
+				
+				$sql = "SELECT * FROM tb_projects WHERE project_id = ?";
+				$stmt = $conn->prepare($sql);
+				$stmt->bind_param("i", $projectId);
+				$stmt->execute();
+				$result = $stmt->get_result();
+				
+				if ($result->num_rows > 0) {
+					$array = $result->fetch_assoc();
+				
+				
+				
+					echo '<div class="featured-content-gallery" style="width:100%;">
+							<div class="feed-live">
+								<p>Ecobricks used in project. Click to view.</p>
+							</div>
+								<div class="gallery-flex-container">';
+				
+					$connected_ecobricks = $array['connected_ecobricks'];
+					$serial_numbers = explode(',', $connected_ecobricks);
+					$serial_numbers = array_map('trim', $serial_numbers);
+					$placeholders = implode(',', array_fill(0, count($serial_numbers), '?'));
+				
+					$sql_ecobricks = "SELECT * FROM tb_ecobricks WHERE ecobrick_unique_id IN (" . str_repeat('?,', count($serial_numbers) - 1) . "?)";
+					$stmt_ecobricks = $conn->prepare($sql_ecobricks);
+					$stmt_ecobricks->bind_param(str_repeat('s', count($serial_numbers)), ...$serial_numbers);
+					$stmt_ecobricks->execute();
+					$result_ecobricks = $stmt_ecobricks->get_result();
+				
+					if ($result_ecobricks->num_rows > 0) {
+						while ($row = $result_ecobricks->fetch_assoc()) {
+							echo '<div class="gal-photo">
+									<div class="photo-box">
+										<img src="' . htmlspecialchars($row["ecobrick_thumb_photo_url"], ENT_QUOTES, 'UTF-8') . '?v=1" alt="Ecobrick ' . htmlspecialchars($row["ecobrick_unique_id"], ENT_QUOTES, 'UTF-8') . ' by ' . htmlspecialchars($row["owner"], ENT_QUOTES, 'UTF-8') . '" title="Ecobrick ' . htmlspecialchars($row["ecobrick_unique_id"], ENT_QUOTES, 'UTF-8') . ' by ' . htmlspecialchars($row["owner"], ENT_QUOTES, 'UTF-8') . '" loading="lazy" onclick="ecobrickPreview(\'' . htmlspecialchars($row["ecobrick_unique_id"], ENT_QUOTES, 'UTF-8') . '\', \'' . htmlspecialchars($row["weight_g"], ENT_QUOTES, 'UTF-8') . '\', \'' . htmlspecialchars($row["owner"], ENT_QUOTES, 'UTF-8') . '\', \'' . htmlspecialchars($row["location_full"], ENT_QUOTES, 'UTF-8') . '\')"/>
+									</div>
+								</div>';
+						}
+					} else {
+						echo "<p>No ecobricks found for this project.</p>";
+					}
+					$stmt_ecobricks->close();
+					echo '</div></div></div>';
+				} else {
+					echo "<p>Project not found.</p>";
+				}
+				
+	
 				
 				
 
 			echo '
 			
-			</div>
+
 			<div id="data-chunk">
     <div class="ecobrick-data">
         <p style="margin-left: -32px;font-weight: bold;" data-lang-id="125"> +++ Raw  Data Record</p><br>
@@ -107,7 +160,8 @@ ini_set('display_errors', 1);?>
             echo ' <p><b data-lang-id="134">Community:</b> ' . $array["community"] . '</p>';
             echo ' <p><b data-lang-id="135">Project type:</b> ' . $array["project_type"] . '</p>';
             echo ' <p><b data-lang-id="136">Construction Type:</b> ' . $array["construction_type"] . '</p>';
-            echo ' <p><b data-lang-id="137">Ecobricks Used:</b> ' . $array["briks_used"] . '</p>';
+            echo ' <p><b data-lang-id="137">No. of Ecobricks Used:</b> ' . $array["briks_used"] . '</p>';
+			echo ' <p><b data-lang-id="137">Ecobricks Used:</b> ' . $array["connected_ecobricks"] . '</p>';
             echo ' <p><b data-lang-id="138">Average Brik Weight:</b> ' . $array["est_avg_brik_weight"] . '&#8202;g</p>';
             echo ' <p><b data-lang-id="139">Location:</b> ' . $array["location_full"] . '</p>';
 
@@ -122,8 +176,8 @@ ini_set('display_errors', 1);?>
             echo ' <p><b data-lang-id="147">Photo 5:</b> ' . $array["photo5_main"] . '</p>';
             echo ' <p><b data-lang-id="148">Plastic Sequestered:</b> ' . $array["est_total_weight"] . '&#8202;kg</p>';
             echo ' <p><b data-lang-id="149">Logged:</b> ' . $array["logged_ts"] . '</p>';
-            echo ' <p><b data-lang-id="149b">Ready to Show:</b> ' . $array["ready_to_show"] . '</p>';
-            echo ' <p data-lang-id="150"> ||| END RECORD.</p>
+            echo ' <p><b data-lang-id="149b">Ready to Show:</b> ' . $array["ready_to_show"] . ' | <a href="edit-project.php?project_id=' . $array["project_id"] . '">e</a></p>';
+            echo ' <p data-lang-id="150">|||  END RECORD.</p>
     
     </div>
 </div>
@@ -164,7 +218,8 @@ ini_set('display_errors', 1);?>
 
 
 			echo '
-			<p>' . $array["location_full"] . '</p><br>
+			<p style="font-size:smaller">Project Location:</p>
+			<p style="font-size:normal">' . $array["location_full"] . '</p><br>
 			<br><hr><br> 
 			<div class="page-paragraph">
 				<h3><p data-lang-id="151">Ecobrick Applications</p></h3>
@@ -181,13 +236,13 @@ ini_set('display_errors', 1);?>
 
 
 				</div>
-			</div>';
+			</div>';	
 			
 
 	}
 
 
-} else {
+else {
    
 
 
@@ -276,6 +331,57 @@ echo '
 </div>
 
 
+
+<script>
+
+function ecobrickPreview(brik_serial, weight, owner, location) {
+    // Construct the image source URL
+    var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
+
+    const modal = document.getElementById('form-modal-message');
+    const contentBox = modal.querySelector('.modal-content-box'); // This is the part we want to hide
+    const photoBox = modal.querySelector('.modal-photo-box'); // This is where we'll show the image
+    const photoContainer = modal.querySelector('.modal-photo'); // The container for the image
+
+    // Hide the content box and show the photo box
+    contentBox.style.display = 'none'; // Hide the content box
+    photoBox.style.display = 'block'; // Make sure the photo box is visible
+
+    // Clear previous images from the photo container
+    photoContainer.innerHTML = '';
+
+    // Create and append the ecobrick image to the photo container
+    var img = document.createElement('img');
+    img.src = imageUrl;
+    img.alt = "Ecobrick " + brik_serial;
+    img.style.maxWidth = '90%';
+    img.style.maxHeight = '75vh';
+    img.style.minHeight ="400px";
+    img.style.minWidth ="400px";
+    img.style.margin = 'auto';
+    // img.style.backgroundColor ='#8080802e';
+    photoContainer.appendChild(img);
+
+    // Add ecobrick details and view details button inside photo container
+    var details = document.createElement('div');
+    details.className = 'ecobrick-details';
+    details.innerHTML = '<p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
+                        '<a href="details-ecobrick-page.php?serial_no=' + brik_serial + '" class="btn featured-gallery-button" style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;">ℹ️ View Full Details</a>';
+    photoContainer.appendChild(details);
+
+    // Hide other parts of the modal that are not used for this preview
+    modal.querySelector('.modal-content-box').style.display = 'none'; // Assuming this contains elements not needed for this preview
+
+    // Show the modal
+    modal.style.display = 'flex';
+
+    //Blur out background
+    document.getElementById('page-content')?.classList.add('blurred');
+    document.getElementById('footer-full')?.classList.add('blurred');
+    document.body.classList.add('modal-open');
+
+}
+</script>
 
 
 </body>
