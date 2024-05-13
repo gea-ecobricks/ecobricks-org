@@ -1,6 +1,7 @@
 
 
-<?php require_once ("../meta/add-project-$lang.php");?>
+<?php require_once ("../meta/add-project-en.php");?>
+
   
 <STYLE>
 

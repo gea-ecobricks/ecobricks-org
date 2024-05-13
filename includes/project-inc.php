@@ -5,7 +5,7 @@
 <!-- <link rel="preload" as="image" href="../webp/brikmarket-400px.webp?v1.3"> -->
 <link rel="preload" as="image" href="../svgs/project-banner.svg">
 
-<?php require_once ("../meta/project-en.php");?>
+<?php require_once ("../meta/project-$lang.php");?>
 
 
 <STYLE>
