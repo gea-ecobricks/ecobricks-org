@@ -12,30 +12,54 @@
  Triggers the right search panel*/
  
  function openSearch() {
-
    document.body.style.overflow = 'hidden';
    document.body.style.maxHeight = '100vh';
    document.getElementById("right-search-overlay").style.width = "100%";
    document.body.style.overflowY = "clip";
-  /* document.body.style.maxHeight = "101vh";*/
- 
-  var modal = document.getElementById('right-search-overlay');
- 
- function modalShow () {
-    modal.setAttribute('tabindex', '0');
-    modal.focus();
- }
- 
- function focusRestrict ( event ) {
-   document.addEventListener('focus', function( event ) {
-     if ( modalOpen && !modal.contains( event.target ) ) {
-       event.stopPropagation();
+
+   var modal = document.getElementById('right-search-overlay');
+
+   function modalShow() {
+       modal.setAttribute('tabindex', '0');
        modal.focus();
-     }
-   }, true);
- }
- 
- }
+   }
+
+   function focusRestrict(event) {
+       document.addEventListener('focus', function(event) {
+           if (modalOpen && !modal.contains(event.target)) {
+               event.stopPropagation();
+               modal.focus();
+           }
+       }, true);
+   }
+
+   // Update checkbox states based on currentLanguage
+   var currentLanguage = window.currentLanguage;
+   var checkboxes = document.querySelectorAll('.search-row input[type="checkbox"]');
+   checkboxes.forEach(function(checkbox) {
+       checkbox.checked = false; // Reset all checkboxes
+   });
+
+   if (['en', 'es', 'fr', 'id'].includes(currentLanguage)) {
+       document.querySelectorAll(`input[name='searchIndex'][value='${currentLanguage}_site']`).forEach(function(checkbox) {
+           checkbox.checked = true;
+       });
+       document.querySelectorAll(`input[name='searchIndex'][value='${currentLanguage}_glossary']`).forEach(function(checkbox) {
+           checkbox.checked = true;
+       });
+   } else {
+       // Default to English if currentLanguage is not set or is invalid
+       document.querySelectorAll(`input[name='searchIndex'][value='en_site']`).forEach(function(checkbox) {
+           checkbox.checked = true;
+       });
+       document.querySelectorAll(`input[name='searchIndex'][value='en_glossary']`).forEach(function(checkbox) {
+           checkbox.checked = true;
+       });
+   }
+
+   modalShow(); // Ensure the modal is shown correctly
+}
+
  
  /* Close when someone clicks on the "x" symbol inside the overlay */
  function closeSearch() {
