@@ -3,9 +3,12 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='3.3';?>
+<?php $version='2.01';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
+
+
+<title>Bienvenida a ecoladrillos.org</title>
 
 
 <!-- 
@@ -16,7 +19,7 @@ https://github/globalecobrickalliance/ecobricks.org
 -->
 
 
-<?php require_once ("../includes/welcome-inc.php");?>
+<?php require_once ("../includes/welcome-inc2.php");?>
 
 
 <!-- FEATURED HEADLINE CONTENT -->
@@ -25,20 +28,22 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
                  <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Updated Guidelines</div>
-                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Our ecobricking guide is updated for 2024.</div>
+                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Guía Ecoladrillo 2024</div>
+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">10 pasos para hacer una ecoladrillo</div>
 
-                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">New 10-step Guide</a>
+                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">Como hacer</a>
                  </div>
              </div>
          </div>
+        <!-- <div class="buffer" style="height:90px;width:100%"></div> -->
     </div>
+
 
 
 
 <!-- PROJECT GALLERY -->
 
-    <div class="featured-project-gallery" style="overflow-x:clip;">
+<div class="featured-project-gallery" style="overflow-x:clip;">
         <div class="feed-live">
             <p data-lang-id="403-featured-live-brikchain"><span class="blink">⬤  </span>Live projects feed.  Click to preview.</p>
         </div>
@@ -55,8 +60,7 @@ https://github/globalecobrickalliance/ecobricks.org
                     <div class="photo-box">
                         <img src="' . $row["photo1_tmb"] . '?v=1" alt="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["project_name"] . '\', \'' . $row["description_short"] . '\', \'' . $row["location_full"] . '\', \'' . $row["briks_used"] . '\', \'' . $row["start_dt"] . '\')" title="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks"> 
                     </div>
-                </div>'; 
-                //when photo is clicked the projectPreview function defined in 2024 landing scripts is called
+                </div>';
         }
     } else {
         echo "No projects available to display.";
@@ -75,6 +79,7 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="feature-reference-links">Share your ecobrick application</div>
     </div>
 
+    
 
     <!--FEATURE BOX ONE: HAPPY DOLPHIN-->
 
@@ -90,11 +95,7 @@ https://github/globalecobrickalliance/ecobricks.org
            Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
             <button type="button" class="feature-button" data-lang-id="310-featured-2-button" aria-label="A quick intro" onclick="guidedTour()">Quick Intro</button>
 
-            <!-- <div class="feature-reference-links" data-lang-id="311-featured-2-references">
-                <h6>
-                <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
-            </div> -->
-            <div class="feature-reference-links">Five slides. 45 seconds.</div>
+            <div class="feature-reference-links" data-lang-id="311-featured-2-references">Five slides. 45 seconds.</div>
         </div>
     </div>
 
@@ -235,8 +236,10 @@ https://github/globalecobrickalliance/ecobricks.org
  <script src="../2024-landing-scripts.js"></script>
 
 
+
 </body>
 
 
-</html>
 
+
+</html>
