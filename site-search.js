@@ -33,32 +33,38 @@
        }, true);
    }
 
+   // Define placeholders for different languages
+   var placeholders = {
+       'en': 'Enter search term...',
+       'es': 'Introduzca el término de búsqueda...',
+       'fr': 'Entrez le terme de recherche...',
+       'id': 'Masukkan istilah pencarian...'
+   };
+
    // Update checkbox states based on currentLanguage
-   var currentLanguage = window.currentLanguage;
+   var currentLanguage = window.currentLanguage || 'en';  // Default to English if undefined
    var checkboxes = document.querySelectorAll('.search-row input[type="checkbox"]');
    checkboxes.forEach(function(checkbox) {
        checkbox.checked = false; // Reset all checkboxes
    });
 
-   if (['en', 'es', 'fr', 'id'].includes(currentLanguage)) {
-       document.querySelectorAll(`input[name='searchIndex'][value='${currentLanguage}_site']`).forEach(function(checkbox) {
-           checkbox.checked = true;
+   ['en', 'es', 'fr', 'id'].forEach(function(lang) {
+       var isChecked = (currentLanguage === lang);
+       document.querySelectorAll(`input[name='searchIndex'][value='${lang}_site']`).forEach(function(checkbox) {
+           checkbox.checked = isChecked;
        });
-       document.querySelectorAll(`input[name='searchIndex'][value='${currentLanguage}_glossary']`).forEach(function(checkbox) {
-           checkbox.checked = true;
+       document.querySelectorAll(`input[name='searchIndex'][value='${lang}_glossary']`).forEach(function(checkbox) {
+           checkbox.checked = isChecked;
        });
-   } else {
-       // Default to English if currentLanguage is not set or is invalid
-       document.querySelectorAll(`input[name='searchIndex'][value='en_site']`).forEach(function(checkbox) {
-           checkbox.checked = true;
-       });
-       document.querySelectorAll(`input[name='searchIndex'][value='en_glossary']`).forEach(function(checkbox) {
-           checkbox.checked = true;
-       });
-   }
+   });
+
+   // Update placeholder text based on currentLanguage
+   var searchInput = document.getElementById('search_input');
+   searchInput.placeholder = placeholders[currentLanguage];
 
    modalShow(); // Ensure the modal is shown correctly
 }
+
 
  
  /* Close when someone clicks on the "x" symbol inside the overlay */
