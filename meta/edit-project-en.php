@@ -10,7 +10,7 @@
 	
 	<!-- Facebook Open Graph Tags for social sharing-->
 
-	<meta property="og:url"           content="https://ecobricks.org/<?php include 'lang.php';?>/edit-project.php">
+	<meta property="og:url"           content="https://ecobricks.org<?php include 'lang.php';?>/edit-project.php">
 	<meta property="og:type"          content="website">
  	<meta property="og:title"         content="Edit your ecobrick project">
   	<meta property="og:description"   content="Update your ecobrick project post on ecobricks.org">
