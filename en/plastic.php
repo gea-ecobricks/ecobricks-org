@@ -43,7 +43,7 @@
             <div class="page-paragraph" style="line-height:1.4">
                 <p data-lang-id="005-second-page-paragraph">In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution.</p>
 
-                <p>Settle in and return with us to our planet's primordial past...</p>
+                <p>Ready for a deep dive?  Settle in and return with us to our planet's primordial past...</p>
             </div>
           
 
@@ -65,28 +65,28 @@
 
 <div style="text-align:justify;font-size:1.2em; padding:7px;line-heigh:1.3em;">
 
-    <div style="width: 100%; overflow: hidden;margin-top: 30px;margin-bottom:10px;">
+    <div style="width: 100%; overflow: hidden;margin-top: 30px;margin-bottom:10px;border-radius:25px;">
             <img src="../webp/hurricane-space.webp" alt="a view of earth's spiralling matter and energy" style="width: 100%;height: auto;" loading="lazy">
         </div>
     
 
-    <div class="lead-page-paragraph"><p data-lang-id="006-page-paragraph" ><span class="drop-cap">O</span>VER FOUR BILLION YEARS AGO, cosmic dustic and debris swirled together to form our planet.  Like the other planets in our solar system, Earth was barren and desolate place.  For our planet's first two billion years, its atmosphere was full of carbon dioxide, making its climate hot, harsh and unstable.</p></div>
+    <div class="lead-page-paragraph"><p data-lang-id="006-page-paragraph" ><span class="drop-cap">O</span>VER FOUR BILLION YEARS AGO, cosmic dustic and debris swirled together to form our planet.  Like the other planets in our solar system, Earth was at first a barren and desolate place.  For our planet's first two billion years, its atmosphere was full of carbon dioxide, making its climate hot, harsh and unstable.</p></div>
 
 	    <div class="page-paragraph-reg">
 	    
 	    <p data-lang-id="007-page-paragraph">However, as the Sun shone down, things began to change.  Steadily, the unique character of our planet began to unfold.  Volcanoes spewed, rivers ran, and ocean currents and tectonic plates collided.  As the surface of the earth dispersed the sun's shine, Earth's atoms began to spiral into more and more complex configurations. Slow and steady, tiny molecular systems figured out how to turn the light of the Sun into life.</p>
 	
-	    <p data-lang-id="008-page-paragraph">As cells and photosynthesis emerged; plants followed.  By sucking in carbon dioxide nutrients could be made.</p>
+	    <p data-lang-id="008-page-paragraph">As cells and photosynthesis emerged; plants followed.  By sucking in carbon dioxide nutrients could be made and bodies built.</p>
 	    
-	    <p data-lang-id="009-page-paragraph">Plants grew bigger and trees began to spread across the planet's surface.</p>
+	    <p data-lang-id="009-page-paragraph">Steadily, plants and trees spread across the planet's surface.</p>
 	
 	
 	    <p data-lang-id="010-page-paragraph">Made from the carbon that they collected, soon vast forests covered the continents and massive blooms of algae filled low lying seas.</p>
 	        
-	    <p data-lang-id="011-page-paragraph">As the plants and animals within these ecosystems lived and died, each fallen generation was covered up by the next. Whether on a forest floor or the floor of the ocean, layers of life and the carbon they contained were buried one upon the other.  Over hundreds of millions of years, countless tons of carbon were steadily concentrated, compacted and secured under the earth.</p>
+	    <p data-lang-id="011-page-paragraph">As the plants and animals within these ecosystems lived and died, each fallen generation was covered up by the next. Whether on a forest floor or the floor of the ocean, layers of life were buried one upon the other.  Over hundreds of millions of years, the countless tons of the carbon they contained were concentrated, compacted and secured under the earth.</p>
 	
 	
-	    <p data-lang-id="012-page-paragraph">With all this carbon removed out of the air, Earth’s atmosphere calmed and cooled down. Steadily, life flourished!  Ecosystems and biomes all became more vibrant, diverse and abundant.</p>
+	    <p data-lang-id="012-page-paragraph">With all this carbon sequestered out of the air, Earth’s atmosphere calmed and cooled down. Steadily, life flourished!  Ecosystems and biomes all became more vibrant, diverse and abundant.</p>
 	
 	
 	
@@ -99,17 +99,17 @@
 	    </div>
 	
 	
-	    <p data-lang-id="013-page-paragraph">Nurtured by the planet's lush and bountiful ecosystems, one particular two legged ape emerged from the forests about 30 million years ago— and we sapiens shuffled onto the scene.</p>
+	    <p data-lang-id="013-page-paragraph">Nurtured by the planet's now lush and bountiful ecosystems, one particular two legged ape emerged from the forests about 30 million years ago— and we sapiens shuffled onto the scene!</p>
 	
-	    <p data-lang-id="014-page-paragraph">Then, on a cold, dark Ice Age night, our early ancestors figured out fire.</p>
+	    <p data-lang-id="014-page-paragraph">Then, on a cold, dark Ice Age night, one of our early ancestors figured out fire.</p>
 	
-	    <p data-lang-id="015-page-paragraph">Despite the pesky smoke, our caves were warmed as the carbon of twigs and sticks turned into flames.</p>
+	    <p data-lang-id="015-page-paragraph">Despite the pesky smoke, our caves were warmed as the carbon of twigs and sticks flickered into flames.</p>
 	    
 	    <p data-lang-id="016-page-paragraph">Over the mellenia, we got better and better at making our fires.</p>
 	    
-	    <p data-lang-id="017-page-paragraph">It wasn't long til we dicovered black rocks that were even more dense in carbon than the heaviest wood.  And they burned even better!  Little did we know that these stones were made from the very plants that had long ago removed the carbon from Earth's air.</p>
+	    <p data-lang-id="017-page-paragraph">It wasn't long til we dicovered black rocks that were even more dense in carbon than the heaviest wood.  And they burned even better!  Little did we know, these stones were made from the very plants that had long ago removed the carbon from Earth's air, to make our living possible.</p>
 	
-	    <p data-lang-id="018-page-paragraph">Over the next centuries, certain groups of humans (but not all) got better and better at extracting and burning, what became know as 'coal'.  They discovered other types of ancient compacted carbon too.  Soon they were extracting petroleum and natural gas too. Humans gave the stuff a name: “fossil fuels”.</p>
+	    <p data-lang-id="018-page-paragraph">Over the next centuries, certain groups of humans (but not all) got better and better at extracting and burning the black rocks.  Other types of ancient compacted carbon were discovered too.  Soon we were extracting coal, petroleum and natural gas in great quantities. We gave the stuff a name: “fossil fuels”.</p>
 	
 	    <p data-lang-id="019-page-paragraph">As modern nations flourished, their economies began to rely more and more on the easy energy gained from burning these fossil fuels.</p>
 	        
@@ -121,13 +121,13 @@
 	        
 	    <p data-lang-id="022-page-paragraph">Plastics had arrived!</p>
 	
-	    <p data-lang-id="023-page-paragraph">Soon humans were solving all sorts of their problems by making all sorts of amazing things from plastic.  No longer did elephants need to be killed for their ivory to make billiard balls.  No longer did you need expensive silver plates to take a photograph.  No longer did food need to go bad in a few days.</p>
+	    <p data-lang-id="023-page-paragraph">Soon humans were solving all sorts of problems by making all sorts of amazing plastic things.  No longer did elephants need to be killed for their ivory to make billiard balls.  No longer did you need expensive silver plates to take a photograph.  No longer did food need to go bad in a few days.</p>
 	
 	    <p data-lang-id="024-page-paragraph">As more products were consumed, more and more factories needed to be made.  As more factories needed to be powered, more and more fossil fuels were extracted and refined. Petroleum and capital flowed while economies grew.</p>	
 
 	    <p data-lang-id="025-page-paragraph">As it all spun faster and faster, there was always that little bit that couldn’t be processed.  This led to industry producing more and more plastic at lesser and lesser cost. And just as burning fuels led to more and more smoke, so too did refining fuels lead to more and more plastic.</p>
 	
-	    <p data-lang-id="026-page-paragraph">As we consumed one plastic product after another, we tried our best to reuse and recycle.  However, since there was so much left-overs from refining fuelds, it was much easier and cheaper to just make new plastic from scratch.</p>
+	    <p data-lang-id="026-page-paragraph">As we consumed one plastic product after another, we tried our best to reuse and recycle.  However, since there was so much left-overs from refining fuels, it was much easier and cheaper to just make new plastic from scratch.</p>
 	
 	    <p data-lang-id="028-page-paragraph">Howewver, soon there was so much plastic that it began to spill out of our homes, enterprises and industries. With growing alarm and anxiety we watched as our plastic clogged rivers, littered beaches and piled into great smoking mountains. The particles of plastic were everywhere— inside the bodies of fish and animals— and us.</p>
 	
@@ -154,6 +154,8 @@
 	    <p data-lang-id="035-page-paragraph">How could we make sure our products and processes, packing and enterprises were not causing pollution?</p>
 	        
 	    <p data-lang-id="036-page-paragraph">How could we make sure that our ways were not grey and harmful in the first place, but in fact helped make ecosystems vibrant and verdant, diverse and abundant?</p>
+
+		<h3>It turns out, that the answers are in the story itself.</h3>
 	
 	    <br><br>
 	
@@ -180,17 +182,17 @@
 
 	<div id="preclosed2">
 	
-	    <p data-lang-id="039-page-paragraph">See our plastic through the lens of Earth's primordial story, we can see that…</p>
+	    <p data-lang-id="039-page-paragraph">Seeing our plastic through the lens of Earth's story, we can observe…</p>
 	
 	    <ul>
 	
 	        <li data-lang-id="040a-list-paragraph">Our plastic is made from the very carbon and the very process that Earth used to green planet's surface!</li>
 	
-	        <li data-lang-id="040b-list-paragraph">There is a direction connection between burning fossil fuels and the production and dispersal of plastic.</li>
+	        <li data-lang-id="040b-list-paragraph">There is a direct connection between burning fossil fuels and the production and dispersal of plastic.</li>
 	
-	        <li data-lang-id="040c-list-paragraph">Plastic is the one form of processed fuels that remains densely compacted.</li>
+	        <li data-lang-id="040c-list-paragraph">Plastic is the one form of refined fossil fuels that remains densely compacted.</li>
 	
-	        <li data-lang-id="040d-list-paragraph">There's no industrial or economic solution for plastic, because industry and our economies are at the root of plastic's continued production!</li>
+	        <li data-lang-id="040d-list-paragraph">There's no industrial or economic solution for plastic, because industry and our economies are at the root of plastic's subsidized low cost and vast availability.</li>
 	        
 	    </ul>
 	</div>
@@ -203,7 +205,7 @@
 
         <div class="opener-header-text" data-lang-id="041-opener-header-text">
         <h4>Learning from Earth</h4>
-        <h5>We can learn much from the way Earth transformed from a barren rock to a green, abundant, biodiverse, stable and conscious biosphere. </h5>   
+        <h5>We can learn much from the way Earth transformed from barren to biosphere.</h5>   
         <br>
         </div>
 
@@ -213,15 +215,15 @@
     <div id="preclosed1">
 
         <br>
-        <p data-lang-id="042-page-paragraph">By looking closely at Earth’s primordial past we see the way that…</p>
+        <p data-lang-id="042-page-paragraph">By looking closely at Earth’s primordial past we can observe…</p>
         <ul>
-            <li data-lang-id="043a-list-paragraph"> Earth used carbon in the short-term as an indefinite building block.</li>
+            <li data-lang-id="043a-list-paragraph">Earth used carbon in the short-term as an indefinite building block.</li>
 
-            <li data-lang-id="043b-list-paragraph"> Earth concentrated, secured and sequestered carbon into long-term storage out of the biosphere.</li>
+            <li data-lang-id="043b-list-paragraph"> Earth steadily concentrated, secured and sequestered carbon into long-term storage out of the biosphere.</li>
 
             <li data-lang-id="043c-list-paragraph">Earth’s procesess tended to subtract more carbon into storage than they added back to the atmosphere.</li>
 
-            <li data-lang-id="043d-list-paragraph">Earth’s processes distributed energy out across its surface and systems ever more broadly and beneficially.</li>
+            <li data-lang-id="043d-list-paragraph">Earth’s processes distributed nutrient out across its surface and systems ever more broadly and beneficially.</li>
 
             <li data-lang-id="043e-list-paragraph">Earth’s processes tended towards more and more diverse systems, organisms and ecosystems.</li>
 
@@ -229,20 +231,20 @@
 
         </ul>
         
-        <p data-lang-id="044-page-paragraph">By following these dynamics of  Earth's example, we can be sure that the results will also be ecologically enriching!</p>
+        <p data-lang-id="044-page-paragraph">These Earthen dynamics provide a powerful example of what green means.  Following Earth's example, we can be sure that the results will also be ecologically enriching.</p>
             
         <p data-lang-id="045-page-paragraph">In fact, we can apply Earth's example directly to the management of our modern plastic…</p>
 
         <ul>
-            <li data-lang-id="046a-list-paragraph">The less we participate in the petro-capital econoy, the less fossil fuels will be extracted and refined, and the less plasti will be produced.</li>
+            <li data-lang-id="046a-list-paragraph">The less we participate in the petro-capital economy, the less fossil fuels will be extracted and refined, and the less plastic will be produced.</li>
 
             <li data-lang-id="046b-list-paragraph">It is important to keep the carbon that is already under the ground in the ground.  This is the easiest way to prevent it from getting loose into the atmosphere</li>
 
-            <li data-lang-id="046c-list-paragraph">We can secure our plastic (a form of carbon) out of inudustrial systems that would otherwise disperse it.  </li>
+            <li data-lang-id="046c-list-paragraph">For plastic that is already produced, can secure it out of inudustrial systems that would otherwise disperse it.  </li>
 
             <li data-lang-id="046d-list-paragraph">The plastic that passes through our hands we can compact, secure and sequester ourselves</li>
 
-            <li data-lang-id="046e-list-paragraph">We should be sure that only enterprises that operate for-Earth (rather than for profit) are the ones that oversee plastic management.</li>
+            <li data-lang-id="046e-list-paragraph">We can be sure that only enterprises that operate for-Earth (rather than for profit) are the ones that oversee plastic management.</li>
 
         </ul>
 
@@ -264,7 +266,7 @@
 
     <div class="opener-header-text" data-lang-id="050-opener-header-text">
     <h4 data-lang-id="051-page-paragraph">Learning from Indigenous Peoples</h4>
-    <h5 data-lang-id="052-page-paragraph">We have much to learn from those great green civilizations that have already figured out how to contribute ecologically.  </h5>   
+    <h5 data-lang-id="052-page-paragraph">We can learn from those great civilizations that presided over the enrichment of the ecosystems of which they were part.</h5>   
     <br>
     </div>
 
@@ -279,7 +281,7 @@
         
         <p data-lang-id="055-page-paragraph">In Igorot society, the virtue of Ayyew ranks with Courageous, Honor, and Loyalty in their way of seeing the world.</p>
         
-        <p data-lang-id="056-page-paragraph">The underlying idea of Ayyew is syncing with cycles into ever greater harmony. It is an idea that can help us make sense of the way the Earth has been working for the last few billion years. In fact, this is probably what inspired the Igorots in the first place.</p>
+        <p data-lang-id="056-page-paragraph">The underlying idea of Ayyew is syncing with cycles into ever greater harmony. It is an idea that can help us make sense of the way the Earth has been working for the last few billion years. In fact, this is what inspired the Igorots in the first place!</p>
 <br>
         <a class="action-btn" href="sequest.php" data-lang-id="057-button">🍃 The Ayyew Ethos</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="058-modules-info">Learn about the Igorot ecological paradigm</p>
