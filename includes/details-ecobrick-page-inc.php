@@ -5,7 +5,7 @@
 <link rel="preload" as="image" href="../webp/brikmarket-400px.webp?v1.3">
 <link rel="preload" as="image" href="../svgs/brik-market-banner3.svg">
 
-<?php require_once ("../meta/details-ecobrick-en.php");?>
+<?php require_once ("../meta/details-ecobrick-$lang.php");?>
 
 
 <STYLE>

@@ -16,9 +16,9 @@ if ($result->num_rows > 0) {
     //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row 
     while($array = $result->fetch_assoc()) {
 
-		echo '<title>Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .'g de plástico secuestrado por '. $array["owner"] .' in '. $array["location_full"] .'.</title>';
+		echo '<title>Ecoladrillo '. $array["serial_no"] .' | '. $array["weight_g"] .'g de plástico secuestrado por '. $array["owner"] .' in '. $array["location_full"] .'.</title>';
 
-        echo '<meta name="description" content="Un ecobrick autenticado que fue publicado y archivado en la cadena de bloques manual de brikcoin el ' . $array["last_validation_ts"] .'">';
+        echo '<meta name="description" content="Un ecoladrillo autenticado que fue publicado y archivado en la cadena de bloques manual de brikcoin el ' . $array["last_validation_ts"] .'">';
 
    
 
@@ -29,10 +29,10 @@ if ($result->num_rows > 0) {
 		echo '<meta name="keywords" content="ecobrick, ecoladrillo, serial '. $array["owner"] .', '. $array["owner"] .', ecobrick, brik, brikchain, brikcoin, eco brik record, plastic sequestration, plastic, ecological service, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["location_full"] .'">';
 
         echo '<meta property="og:url"           content="https://ecobricks.org/es/details-ecobrick-page.php?serial_no='. $array["serial_no"] .'"/>' ;
-        echo '<meta property="og:title"         content="Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .'g de plástico secuestrado por '. $array["owner"] .' in '. $array["location_full"] .'.">';
-        echo '<meta property="og:description"   content="Un ecobrick autenticado que fue publicado y archivado en la cadena de bloques manual de brikcoin en ' . $array["last_validation_ts"] .'"/>';
+        echo '<meta property="og:title"         content="Ecoladrillo '. $array["serial_no"] .' | '. $array["weight_g"] .'g de plástico secuestrado por '. $array["owner"] .' de '. $array["location_full"] .'.">';
+        echo '<meta property="og:description"   content="Un ecoladrillo autenticado que fue publicado y archivado en la cadena de bloques manual de brikcoin en ' . $array["last_validation_ts"] .'"/>';
         echo '<meta property="og:image"         content="'. $array["ecobrick_full_photo_url"] .'"/>';
-        echo '<meta property="og:image:alt"     content="TEl registro de brikchain de un ecobrick autenticado en brikchain"/>';
+        echo '<meta property="og:image:alt"     content="El registro de brikchain de un ecoladrillo autenticado en brikchain"/>';
         echo '<meta property="og:locale" content="es_ES" />';
         echo '<meta property="og:type"          content="website">';
  	   
@@ -52,7 +52,7 @@ if ($result->num_rows > 0) {
 } else {
     echo '<META NAME="robots" CONTENT="noindex">';
     echo '<title>No se encontró ningún ecoladrillo | Ecobricks.org</title>';
-    echo '<meta name="description" content="No se encontraron datos para este número de serie de ecobrick. Lo más probable es que esto se deba a que los datos de brikchain todavía están en proceso de migración."> ';
+    echo '<meta name="description" content="No se encontraron datos para este número de serie de ecoladrillo. Lo más probable es que esto se deba a que los datos de brikchain todavía están en proceso de migración."> ';
 }
 $conn->close();
 
