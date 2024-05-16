@@ -7,7 +7,7 @@
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
-<title>Bienvenue à Ecobricks.org</div>
+<title>Bienvenue à Ecobricks.org</title>
 
 
 <!-- 
