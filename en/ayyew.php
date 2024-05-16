@@ -49,6 +49,20 @@
 </div>
 
 <div class="page-paragraph">    
+
+
+<div class="row">           
+        <div class="main2">
+        <p data-lang-id="059-regenerative-definition">Phenomena such as ‘pollution’, ‘poverty’ and ‘exploitation’ also did not exist in their world prior to the arrival of Spanish and American empiralists. Never  dominated by Spanish, Japanese or American colonialists, their fierce and wise ‘Ayyew’ culture directly inspires and guides the ecobrick movement sweeping the globe. We consciously adapt the term to summarize and qualify the principles of the ecobrick movement. We feel it fills a pressing linguistic gap and helps us articulate our way forward.</p>           
+        </div>
+
+        <div class="side2" data-lang-id="078-side2-comparison">
+            <br><a href=""><img src="maligcong-rice-terraces-300x300.jpg" width="300" style="width:100%" alt="green igorot rice terraces" loading="lazy" data-lang-id="079-sustaining-vs-regenerative-alt"></a>
+            <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="080-ecobricking-thousand-years">Maligcong Rice Terraces – Bontoc, Philippines</p>
+        </div>
+    </div>
+
+
     <p data-lang-id="059-regenerative-definition">Phenomena such as ‘pollution’, ‘poverty’ and ‘exploitation’ also did not exist in their world prior to the arrival of Spanish and American empiralists. Never  dominated by Spanish, Japanese or American colonialists, their fierce and wise ‘Ayyew’ culture directly inspires and guides the ecobrick movement sweeping the globe. We consciously adapt the term to summarize and qualify the principles of the ecobrick movement. We feel it fills a pressing linguistic gap and helps us articulate our way forward.</p>
 
     <p data-lang-id="060-chief-virtue-description">As one of the chief virtues of the Igorot people, the concept of Ayyew guides the Igorot way of life.   In the Igorot culture, Ayyew ranked just as high as other virtues such as Courage, Honor or Loyalty.  When someone is ayyew, it means that they are striving towards ever increasing harmony with the cycles of life.   A farmer who turns a barren hillside into a  fertile field is being ayyew.  A gardener who transforms a fertile field into a biodiverse food forest is being ayyew.</p> 
@@ -75,26 +89,14 @@
 
     <p data-lang-id="071-motorcycle-description">The latest innovation for using ecobricks uses old motorcycle inner tubes– which syncs with the local cycle of consumed and disposed tires, using them to everyone’s advantage. This is what the Igorots would call ‘nagagut‘ (“being industrious”, or “reflecting of Ayyew”).</p>
 
-    <p data-lang-id="072-strive-and-sync-description">Of course, its possible to strive and sync even better with the surrounding ecological cycles.  An ayyew ecobricker strives to move from modules to gardens to <a href = "https://www.ecobricks.org/earth">earth and ecobrick</a> green space structures that <a href = "https://www.ecobricks.org/sequest">sequester plastic</a> and CO2.
+    <p data-lang-id="072-strive-and-sync-description">Of course, its possible to strive and sync even better with the surrounding ecological cycles.  An ayyew ecobricker strives to move from modules to gardens to <a href = "earth.php">earth and ecobrick</a> green space structures that <a href = "sequest.php">sequester plastic</a> and CO2.
 
-    <p data-lang-id="073-deep-and-powerful-description">Inspired by this deep and powerful Igorot concept, the Global Ecobrick Alliance has developed our principles, techniques and applications around the concept of Ayyew. Ayyew fits in closely with regenerative philosophy and guided our development of the <a href = "https://www.ecobricks.org/principles">regenerative guiding principles</a>. that underlie the work of the <a href = "https://www.ecobricks.org/about">Global Ecobrick Alliance</a> and the <a href = "https://www.ecobricks.org/movement">global ecobrick movement</a>.</p>
+    <p data-lang-id="073-deep-and-powerful-description">Inspired by this deep and powerful Igorot concept, the Global Ecobrick Alliance has developed our principles, techniques and applications around the concept of Ayyew. Ayyew fits in closely with regenerative philosophy and guided our development of the <a href = "https://www.ecobricks.org/principles">regenerative guiding principles</a>. that underlie the work of the <a href = "habout.php">Global Ecobrick Alliance</a> and the <a href = "/movement">global ecobrick movement</a>.</p>
     
-    <p data-lang-id="074-principles-acknowledgement">In this way, our principles are not anti-industry, nor anti-petro-capital. Without them, we would not have come to the principles we now hold. We acknowledge that yesterday’s use of Earth gifted carbon has been an important formative phase that sets us on our current course-correction.</p>
+    <p><a class="action-btn" href="principles.php" data-lang-id="076-principles-button">🍃 Our GEA Principles</a></p>
+            <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="077-learn-indigenous-wisdom">The full ayyew inspired principles of the ecobrick movement</p>
     
-    <div class="row">           
-        <div class="main2">
-            <p data-lang-id="075-moving-on-from-sustaining">With this, we move on from 'sustaining'. Insofar as our modern enterprises work in ways that conflict with Earth’s example of carbon care, we strive to transition from them. We also strive to heal and ‘regenerate’ any past damage that we are responsible for. Finally, in contrast to the sustainability’s focus on minimizing grey impacts, instead we strive in the ayyew spirit of syncing with Earth’s cycles to ever increase our green impacts.</p>
 
-            <br><br>
-            <p><a class="action-btn" href="/ayyew" data-lang-id="076-about-ayyew-action">🍃 About Ayyew</a></p>
-            <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="077-learn-indigenous-wisdom">Learn about the indigenous wisdom tradition that underlies the regenerative ecobrick movement.</p>
-        </div>
-
-        <div class="side2" data-lang-id="078-side2-comparison">
-            <br><a href=""><img src="../webp/mellenium-450px.webp" width="300" style="width:100%" alt="sustaining vs. regenerative" loading="lazy" data-lang-id="079-sustaining-vs-regenerative-alt"></a>
-            <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="080-ecobricking-thousand-years">How does ecobricking compare over a thousand years with other plastic management options?</p>
-        </div>
-    </div>
 </div>
 
 
