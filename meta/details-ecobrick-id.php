@@ -28,7 +28,7 @@ if ($result->num_rows > 0) {
 		echo '<meta name="keywords" content="ecobrick, serial '. $array["owner"] .', '. $array["owner"] .', brikchain, brikcoin, catatan brik, sekuestrasi plastik, daur ulang, alternatif, sekuestrasi plastik, offset plastik, plastik aes, sekuestrasi karbon. '. $array["location_full"] .'">';
 
         echo '<meta property="og:url"           content="https://ecobricks.org/id/details-ecobrick-page.php?serial_no='. $array["serial_no"] .'"/>' ;
-        echo '<meta property="og:title"         content="Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .'g of plastic sequestered by '. $array["owner"] .' in '. $array["location_full"] .'.">';
+        echo '<meta property="og:title"         content="Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .'gplastik yang diasingkan oleh '. $array["owner"] .' di '. $array["location_full"] .'.">';
         echo '<meta property="og:description"   content="Ecobrick terautentikasi yang diterbitkan dan diarsipkan pada blockchain manual brikcoin' . $array["last_validation_ts"] .'"/>';
         echo '<meta property="og:image"         content="'. $array["ecobrick_full_photo_url"] .'"/>';
         echo '<meta property="og:image:alt"     content="Catatan brikchain dari ecobrick yang diautentikasi pada brikchain"/>';
