@@ -127,9 +127,8 @@
 
 	    <p data-lang-id="025-page-paragraph">As it all spun faster and faster, there was always that little bit that couldn’t be processed.  This led to industry producing more and more plastic at lesser and lesser cost. And just as burning fuels led to more and more smoke, so too did refining fuels lead to more and more plastic.</p>  
 	
-	    <p data-lang-id="026-page-paragraph">As we consumed one plastic product after another, we tried our best to reuse and recycle.  However, due to the abundance of leftover material from fuel refining, it was easier and cheaper to produce new plastic from scratch.</p>
+	    <p data-lang-id="026-page-paragraph">As we consumed more and more, we tried our best to reuse and recycle our plastic when we were done with it.  Of course, we were refining so much fossil carbon into fuel that there was now an over-abundance of leftovers perfect to make polymers!  In the end, it was much easier (and cheaper!) to just produce more new plastic from scratch.</p>
 
-		As we consumed plastic products, we tried to reuse and recycle. 
 	
 	    <p data-lang-id="028-page-paragraph">However, soon there was so much plastic that it began to spill out of our homes, enterprises and industries. With growing alarm and anxiety we watched as our plastic clogged rivers, littered beaches and piled into great smoking mountains. The particles of plastic were everywhere— inside the bodies of fish and animals— and us.</p>
 	
