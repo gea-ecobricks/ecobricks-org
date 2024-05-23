@@ -6,7 +6,7 @@
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("../meta/sequest-$lang.php");?>
+<?php require_once ("../meta/plastic-$lang.php");?>
 
 
 
