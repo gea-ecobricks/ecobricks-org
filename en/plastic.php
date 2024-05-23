@@ -21,7 +21,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">The Long Story of Plastic</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Knowing plastic's primordial past is the key to securing its green future today.</div>
 	</div>
-	<div class="splash-image" data-lang-id="x003-splash-image-alt"><img src="../svgs/the-biosphere.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/the-biosphere.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	
    
 </div>
 
@@ -43,7 +43,7 @@
             <div class="page-paragraph" style="line-height:1.4">
                 <p data-lang-id="005-second-page-paragraph">To manage our plastic wisely and to make safe decisions about its future, knowing its full, science-based history is essential— what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution.</p>
 
-                <p>Ready for a deep dive?  Settle in and return with us to our planet's primordial past...</p>
+                <p data-lang-id="005b-second-page-paragraph">Ready for a deep dive?  Settle in and return with us to our planet's primordial past...</p>
             </div>
           
 
@@ -266,7 +266,7 @@
 
 <div class="opener-header">
 
-    <div class="opener-header-text" data-lang-id="050-opener-header-text">
+    <div class="opener-header-text">
     <h4 data-lang-id="051-page-paragraph">Learning from Indigenous Peoples</h4>
     <h5 data-lang-id="052-page-paragraph">We can learn from those great civilizations that presided over the enrichment of the ecosystems of which they were part.</h5>   
     <br>
@@ -308,7 +308,7 @@
         <br><br>
         <hr>
        
-<p data-lang-id="063-page-paragraph">Our account of <i>Plastic's Long Story</i> is based on <a href="https://book.earthen.io/en/stellar.html" target="_blank">Plastic's Interstellar Story</a> from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier.  See this original account to go much deeper into plastic's story!  The orginal version's scientific and social references are extensively footnoted.</p>
+<p data-lang-id="063-page-paragraph">Our account of Plastic's Long Story is based on <a href="https://book.earthen.io/en/stellar.html" target="_blank">Plastic's Interstellar Story</a> from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier.  See this original account to go much deeper into plastic's story!  The orginal version's scientific and social references are extensively footnoted.</p>
        
 </div>
 
