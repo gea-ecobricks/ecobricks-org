@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.774';?>
+<?php $version='2.0';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
