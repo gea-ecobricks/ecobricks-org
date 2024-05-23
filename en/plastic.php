@@ -41,7 +41,7 @@
             </div>
         
             <div class="page-paragraph" style="line-height:1.4">
-                <p data-lang-id="005-second-page-paragraph">To use plastic wisely and to make safe decisions about its future, knowing its full, science-based history is essential— what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution.</p>
+                <p data-lang-id="005-second-page-paragraph">To manage our plastic wisely and to make safe decisions about its future, knowing its full, science-based history is essential— what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution.</p>
 
                 <p>Ready for a deep dive?  Settle in and return with us to our planet's primordial past...</p>
             </div>
