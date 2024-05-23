@@ -41,7 +41,7 @@
             </div>
         
             <div class="page-paragraph" style="line-height:1.4">
-                <p data-lang-id="005-second-page-paragraph">In order to use plastic wisely and make safe decisions about its future, knowing its full, science-based history is essential– what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution.</p>
+                <p data-lang-id="005-second-page-paragraph">To use plastic wisely and to make safe decisions about its future, knowing its full, science-based history is essential— what we call the <i>long story of plastic</i>.  Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution–  rather than just more pollution.</p>
 
                 <p>Ready for a deep dive?  Settle in and return with us to our planet's primordial past...</p>
             </div>
@@ -70,7 +70,7 @@
         </div>
     
 
-    <div class="lead-page-paragraph"><p data-lang-id="006-page-paragraph" ><span class="drop-cap">O</span>VER FOUR BILLION YEARS AGO, cosmic dustic and debris swirled together to form our planet.  Like the other planets in our solar system, Earth was at first a barren and desolate place.  For our planet's first two billion years, its atmosphere was full of carbon dioxide, making its climate hot, harsh and unstable.</p></div>
+    <div class="lead-page-paragraph"><p data-lang-id="006-page-paragraph" ><span class="drop-cap">O</span>VER FOUR BILLION YEARS AGO, cosmic dust and debris swirled together to form our planet.  Like the other planets in our solar system, Earth was at first a barren and desolate place.  For our planet's first two billion years, its atmosphere was full of carbon dioxide, making its climate hot, harsh and unstable.</p></div>
 
 	    <div class="page-paragraph-reg">
 	    
@@ -105,9 +105,9 @@
 	
 	    <p data-lang-id="015-page-paragraph">Despite the pesky smoke, our caves were warmed as the carbon of twigs and sticks flickered into flames.</p>
 	    
-	    <p data-lang-id="016-page-paragraph">Over the mellenia, we got better and better at making our fires.</p>
+	    <p data-lang-id="016-page-paragraph">Over the millennia, we got better and better at making our fires.</p>
 	    
-	    <p data-lang-id="017-page-paragraph">It wasn't long til we dicovered black rocks that were even more dense in carbon than the heaviest wood.  And they burned even better!  Little did we know, these stones were made from the very plants that had long ago removed the carbon from Earth's air, to make our living possible.</p>
+	    <p data-lang-id="017-page-paragraph">It wasn't long until we dicovered black rocks that were even more dense in carbon than the heaviest wood.  And they burned even better!  Little did we know, these stones were made from the very plants that had long ago removed the carbon from Earth's air, to make our living possible.</p>
 	
 	    <p data-lang-id="018-page-paragraph">Over the next centuries, certain groups of humans (but not all) got better and better at extracting and burning the black rocks.  Other types of ancient compacted carbon were discovered too.  Soon we were extracting coal, petroleum and natural gas in great quantities. We gave the stuff a name: “fossil fuels”.</p>
 	
@@ -125,11 +125,13 @@
 	
 	    <p data-lang-id="024-page-paragraph">As more products were consumed, more and more factories needed to be made.  As more factories needed to be powered, more and more fossil fuels were extracted and refined. Petroleum and capital flowed while economies grew.</p>	
 
-	    <p data-lang-id="025-page-paragraph">As it all spun faster and faster, there was always that little bit that couldn’t be processed.  This led to industry producing more and more plastic at lesser and lesser cost. And just as burning fuels led to more and more smoke, so too did refining fuels lead to more and more plastic.</p>
+	    <p data-lang-id="025-page-paragraph">As it all spun faster and faster, there was always that little bit that couldn’t be processed.  This led to industry producing more and more plastic at lesser and lesser cost. And just as burning fuels led to more and more smoke, so too did refining fuels lead to more and more plastic.</p>  
 	
-	    <p data-lang-id="026-page-paragraph">As we consumed one plastic product after another, we tried our best to reuse and recycle.  However, since there was so much left-overs from refining fuels, it was much easier and cheaper to just make new plastic from scratch.</p>
+	    <p data-lang-id="026-page-paragraph">As we consumed one plastic product after another, we tried our best to reuse and recycle.  However, due to the abundance of leftover material from fuel refining, it was easier and cheaper to produce new plastic from scratch.</p>
+
+		As we consumed plastic products, we tried to reuse and recycle. 
 	
-	    <p data-lang-id="028-page-paragraph">Howewver, soon there was so much plastic that it began to spill out of our homes, enterprises and industries. With growing alarm and anxiety we watched as our plastic clogged rivers, littered beaches and piled into great smoking mountains. The particles of plastic were everywhere— inside the bodies of fish and animals— and us.</p>
+	    <p data-lang-id="028-page-paragraph">However, soon there was so much plastic that it began to spill out of our homes, enterprises and industries. With growing alarm and anxiety we watched as our plastic clogged rivers, littered beaches and piled into great smoking mountains. The particles of plastic were everywhere— inside the bodies of fish and animals— and us.</p>
 	
 	    <div style="width: 100%; overflow: hidden;" class="dark-only">
 	        <img src="../webp/oil-2-plastic-dark.webp?v=2" alt="the journey of oil to plastic" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;"loading="lazy";>
@@ -148,14 +150,14 @@
 	    <p data-lang-id="032-page-paragraph">And with it, our despair.</p>
 	
 	    <p data-lang-id="033-page-paragraph">It was clear that reducing harm wasn't enough.<p>
-	        
-	    <p data-lang-id="034-page-paragraph">How could we manage our plastic in a truly green way?</p>
 	
-	    <p data-lang-id="035-page-paragraph">How could we make sure our products and processes, packing and enterprises were not causing pollution?</p>
+	    <p data-lang-id="035-page-paragraph">How could we ensure our products, processes, packaging, and enterprises did not cause pollution?</p>
 	        
 	    <p data-lang-id="036-page-paragraph">How could we make sure that our ways were not grey and harmful in the first place, but in fact helped make ecosystems vibrant and verdant, diverse and abundant?</p>
 
-		<h3>It turns out, that the answers are in the story itself.</h3>
+		<p data-lang-id="037-page-paragraph">How could we manage our plastic in a truly green way?</p>
+		<br><br>
+		<h3 data-lang-id="038-page-conclusion">It turns out, that the answers could be found in the story itself.</h3>
 	
 	    <br><br>
 	
@@ -172,8 +174,8 @@
 	<div class="opener-header">
 	
 	    <div class="opener-header-text" data-lang-id="006-opener-header-text">
-	    <h4 data-lang-id="037-header-paragraph">Seeing Plastic Anew</h4>
-	    <h5 data-lang-id="038-header-paragraph">In light of Earth’s ancient history, we can see our modern plastic differently…</h5>   
+	    <h4 data-lang-id="039-header-paragraph">Seeing Plastic Anew</h4>
+	    <h5 data-lang-id="039b-header-paragraph">In light of Earth’s ancient history, we can see our modern plastic differently…</h5>   
 	    <br>
 	    </div>
 	
@@ -182,7 +184,7 @@
 
 	<div id="preclosed2">
 	
-	    <p data-lang-id="039-page-paragraph">Seeing our plastic through the lens of Earth's story, we can observe…</p>
+	    <p data-lang-id="039c-page-paragraph">Seeing our plastic through the lens of Earth's story, we can observe that…</p>
 	
 	    <ul>
 	
