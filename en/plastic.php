@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.0';?>
+<?php $version='2.01';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
@@ -184,9 +184,9 @@
 
 	<div id="preclosed2">
 
-	<!-- <div style="width: 100%; overflow: hidden;">
+	<div style="width: 100%; overflow: hidden;">
 	        <img src="../photos/plastic-bag.jpg" alt="American Beauty Plastic Bag floating" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
-	    </div> -->
+	    </div>
 	
 	    <p data-lang-id="039c-page-paragraph">Seeing our plastic through the lens of Earth's story, we can observe that…</p>
 	
