@@ -90,11 +90,11 @@
 	
 	
 	    <div style="width: 100%; overflow: hidden;" class="dark-only">
-	        <img src="../webp/long-story-of-plastic-dark.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+	        <img src="../webp/long-story-of-plastic-dark.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy">
 	    </div>
 	
 	    <div style="width: 100%; overflow: hidden;" class="light-only">
-	        <img src="../webp/long-story-of-plastic.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+	        <img src="../webp/long-story-of-plastic.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy">
 	    </div>
 	
 	
@@ -132,7 +132,7 @@
 	    <p data-lang-id="028-page-paragraph">However, soon there was so much plastic that it began to spill out of our homes, enterprises and industries. With growing alarm and anxiety we watched as our plastic clogged rivers, littered beaches and piled into great smoking mountains. Microscopic particles of plastic were soon everywhere.  Inside the bodies of fish and animals. And our bodies too.</p>
 	
 	    <div style="width: 100%; overflow: hidden;" class="dark-only">
-	        <img src="../webp/oil-2-plastic-dark.webp?v=2" alt="the journey of oil to plastic" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;"loading="lazy";>
+	        <img src="../webp/oil-2-plastic-dark.webp?v=2" alt="the journey of oil to plastic" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy";>
 	    </div>
 	
 	    <div style="width: 100%; overflow: hidden;" class="light-only">
@@ -185,7 +185,7 @@
 	<div id="preclosed2">
 
 	<div style="width: 100%; overflow: hidden;">
-	        <img src="../photos/plastic-bag.jpg" alt="American Beauty Plastic Bag floating" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+	        <img src="../photos/plastic-bag.jpg" alt="American Beauty Plastic Bag floating" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy">
 	    </div>
 	
 	    <p data-lang-id="039c-page-paragraph">Seeing our plastic through the lens of Earth's story, we can observe that…</p>
@@ -221,7 +221,7 @@
     <div id="preclosed1">
 
 	<div style="width: 100%; overflow: hidden;">
-	        <img src="../photos/earth-rise.webp" alt="Earth Rise Photo" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+	        <img src="../photos/earth-rise.webp" alt="Earth Rise Photo" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy">
 	    </div>
 
         <br>
@@ -286,7 +286,7 @@
 <div id="preclosed3">
 
 <div style="width: 100%; overflow: hidden;">
-	        <img src="../photos/rice-terraces.webp" alt="Banue Rice Terraces" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+	        <img src="../photos/rice-terraces.webp" alt="Banue Rice Terraces" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy">
 	    </div>
 
 
