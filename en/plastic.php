@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.774';?>
+<?php $version='2.0';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
@@ -37,7 +37,7 @@
         <div class="main">
 
             <div class="lead-page-paragraph">
-                <p data-lang-id="004-first-page-paragraph">What is plastic exactly?  Where does it come from?  And, of concern to us all, where our plastic go?</p>
+                <p data-lang-id="004-first-page-paragraph">What is plastic exactly?  Where does it come from?  And, of concern to us all, where should our plastic go?</p>
             </div>
         
             <div class="page-paragraph" style="line-height:1.4">
@@ -184,9 +184,9 @@
 
 	<div id="preclosed2">
 
-	<div style="width: 100%; overflow: hidden;">
+	<!-- <div style="width: 100%; overflow: hidden;">
 	        <img src="../photos/plastic-bag.jpg" alt="American Beauty Plastic Bag floating" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
-	    </div>
+	    </div> -->
 	
 	    <p data-lang-id="039c-page-paragraph">Seeing our plastic through the lens of Earth's story, we can observe that…</p>
 	

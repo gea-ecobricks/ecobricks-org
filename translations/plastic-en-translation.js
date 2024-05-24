@@ -22,7 +22,7 @@ const en_Page_Translations = {
         "001-splash-title": "The Long Story of Plastic",
         "002-splash-subtitle": "Knowing plastic's primordial past is the key to securing its green future today.",
         "003-splash-image-alt": "<img src=\"../svgs/the-biosphere.svg\" style=\"width: 85%\" alt=\"Plastic comes from deep under the earth.\">",
-        "004-first-page-paragraph": "What is plastic exactly?  Where does it come from?  And, of concern to us all, where our plastic go?",
+        "004-first-page-paragraph": "What is plastic exactly?  Where does it come from?  And, of concern to us all, where should our plastic go?",
         "005-second-page-paragraph": "To manage our plastic wisely and to make safe decisions about its future, knowing its full, science-based history is essential— what we call the <i>long story of plastic</i>. Only by knowing plastic's ancient origins can we ensure its future is an ecological contribution– rather than just more pollution.",
 
 
