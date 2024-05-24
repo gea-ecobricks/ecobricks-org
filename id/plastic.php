@@ -6,7 +6,6 @@
 <?php $version='2.0';?>
 <?php $page='plastic';?>
 
-<title>The Long Story of Plastic</title>
 
 <?php require_once ("../includes/plastic-inc.php");?>
 

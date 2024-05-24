@@ -4,6 +4,20 @@
 <link rel="preload" as="image" href="../svgs/the-biosphere.svg">
 <link rel="preload" as="image" href="../webp/plastic-long-story-1200px.webp?v=2">
 
+
+
+
+<!--BOOKNOTES PLUGIN-->
+
+<script src="https://api.earthen.io/booknotes/booknotes-curtain.js" defer></script>
+
+<script src="https://api.earthen.io/booknotes/booknotes-scripts.js" defer></script>
+
+<link rel="stylesheet" href="https://api.earthen.io/includes/booknotes-styles.css">
+
+
+
+
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
 <?php require_once ("../meta/plastic-$lang.php");?>
