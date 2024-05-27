@@ -75,7 +75,38 @@ const es_Page_Translations = {
                 "043f-list-paragraph": "Los organismos y ecosistemas de la Tierra tendían hacia una mayor conciencia de sí mismos y de su interconexión.",
                 "044-page-paragraph": "Estas dinámicas terrestres proporcionan un poderoso ejemplo de lo que significa ser ecológico. Siguiendo el ejemplo de la Tierra, podemos estar seguros de que los resultados también serán enriquecedores ecológicamente.",
                 "045-page-paragraph": "De hecho, podemos aplicar el ejemplo de la Tierra directamente a la gestión de nuestro plástico moderno…",
-                "046a-list-paragraph": "Cuanto menos participemos en la economía petrocapitalista, menos combustibles fósiles serán extraídos y refinados, y menos plástico será producido."
+                "046a-list-paragraph": "Cuanto menos participemos en la economía petrocapitalista, menos combustibles fósiles serán extraídos y refinados, y menos plástico será producido.",
+
+
+                "046b-list-paragraph": "Es importante mantener el carbono que ya está bajo tierra en el suelo. Esta es la manera más fácil de evitar que se libere en la atmósfera.",
+                "046c-list-paragraph": "Para el plástico que ya se ha producido, podemos asegurarlo fuera de los sistemas industriales que de otro modo lo dispersarían.",
+                "046d-list-paragraph": "El plástico que pasa por nuestras manos podemos compactarlo, asegurarlo y secuestrarlo nosotros mismos.",
+                "046e-list-paragraph": "Podemos estar seguros de que solo las empresas que operan para la Tierra (en lugar de para el lucro) son las que supervisan la gestión del plástico.",
+                "047-page-paragraph": "Estos principios terrenales están articulados en la teoría ecológica de la ética terrenal.",
+                "048-button": "🍃 Ética Terrestre",
+                "049-modules-info": "El Tracatus Ayyew, Una teoría de Verde y Gris",
+                "051-page-paragraph": "Aprendiendo de los Pueblos Indígenas",
+                "052-page-paragraph": "Podemos aprender de esas grandes civilizaciones que presidieron el enriquecimiento de los ecosistemas de los que formaban parte.",
+                "053-page-paragraph": "Muchas grandes civilizaciones y naciones a lo largo de la historia humana han prosperado en armonía con sus ecologías circundantes. La forma en que miraban el mundo, lo que valoraban y cómo usaban el dinero (capital) es algo de lo que podemos aprender mucho.",
+                "054-page-paragraph": "El pueblo Igorot ha vivido en abundancia ecológica en lo que ahora es el norte de Filipinas durante los últimos siglos. En su visión del mundo tienen una virtud para hacer que un lugar sea cada vez más verde. Alguien que transforma con éxito una tierra estéril en un campo, o un campo en un jardín, o un jardín en un bosque se llama \"<a href=\"../ayyew\">Ayyew</a>\".",
+                "055-page-paragraph": "En la sociedad Igorot, la virtud del Ayyew está al mismo nivel que el Valor, el Honor y la Lealtad en su forma de ver el mundo.",
+                "056-page-paragraph": "La idea subyacente del Ayyew es sincronizarse con los ciclos para alcanzar una armonía cada vez mayor. Es una idea que puede ayudarnos a entender cómo ha funcionado la Tierra durante los últimos miles de millones de años. ¡De hecho, esto es lo que inspiró a los Igorot en primer lugar!",
+                "057-button": "🍃 El Ethos de Ayyew",
+                "058-modules-info": "Aprende sobre el paradigma ecológico de los Igorot",
+                "059-header-paragraph": "Secuestro de Plástico",
+                "060-page-paragraph": "Aprendiendo del ejemplo de la Tierra y de los pueblos indígenas, el camino a seguir para gestionar nuestro plástico como una contribución ecológica está claro.",
+                "061-page-paragraph": "El ejemplo de la Tierra de ciclado de carbono a corto plazo y almacenamiento de carbono a largo plazo se puede aplicar a nuestro plástico. La GEA ha desarrollado el concepto y los criterios de secuestro de plástico como un medio de servicio ecológico regenerativo.",
+                "062-page-paragraph": "Aprende más…",
+                "063-button": "🍃 Secuestro de Plástico",
+                "064-modules-info": "Los criterios de secuestro de plástico",
+                "065-page-paragraph": "Nuestro relato de la Larga Historia del Plástico se basa en <a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">La Historia Interestelar del Plástico</a> del <i>Tractatus Ayyew: Una teoría de la Ética Terrestre</i>, Capítulo 4, por Banayan Angway y Russell Maier. ¡Consulta este relato original para profundizar mucho más en la historia del plástico! Las referencias científicas y sociales de la versión original están ampliamente anotadas.",
+                "039d-photo-caption": "Plástico que ha sido segregado, limpiado y secado para ecobricking.",
+                "041b-photo-caption": "Earth Rise - la primera foto de la Tierra desde la luna. Vernos a nosotros mismos y a nuestro plástico desde una perspectiva planetaria es clave.",
+                "052b-photo-caption": "Las terrazas de arroz de Banue en la tierra del pueblo Igorot - Luzón Norte, Mar de Filipinas Occidental."
+            
+
+
+
             
     
 
