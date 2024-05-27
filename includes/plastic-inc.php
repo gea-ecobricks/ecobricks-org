@@ -20,6 +20,16 @@
 <STYLE>
 
 
+.gal-photo {
+  padding: 10px;
+}
+
+.gal-photo p {font-size: 0.8em;
+  margin-bottom: 0px;
+  
+}
+
+
 @media screen and (max-width: 1300px) {
   .main {   
     width:100%;

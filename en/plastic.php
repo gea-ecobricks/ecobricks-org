@@ -297,7 +297,7 @@
 									<p data-lang-id="039d-page-paragraph">The Banue Rice Terraces in the land of the Igorot people - Northen Luzon, West Philippines Sea.</p>
 								</div>
 
-
+								<hr><br><br>
 
         <p data-lang-id="053-page-paragraph">Many great civilizations and nations throughout human history have thrived in harmony with their surrounding ecologies. The way they looked at the world, what they valued and how they used money (capital) is something that we can learn much from.</p>
 
@@ -318,6 +318,7 @@
 
 <h2 data-lang-id="057-header-paragraph">Plastic Sequestration</h2>
 <p data-lang-id="058-page-paragraph" style="font-size: 1.2">Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.</p>
+
 
 <p data-lang-id="059-page-paragraph" style="font-size: 1.2">Earth’s example of short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.</p>
 
