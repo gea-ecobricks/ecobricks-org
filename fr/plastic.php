@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<HTML lang="id"> 
+<HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='id';?>
+<?php $lang='fr';?>
 <?php $version='2.02';?>
 <?php $page='plastic';?>
 
@@ -18,8 +18,8 @@
 
  <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Kisah Panjang Plastik</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Mengetahui masa lalu primordial plastik adalah kunci untuk memastikan masa depannya yang hijau hari ini.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">La Longue Histoire du Plastique</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Connaître le passé primordial du plastique est la clé pour assurer son avenir vert aujourd'hui.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/the-biosphere.svg" style="width: 85%" alt="Plastic comes from deep under the earth.">  </div>	
    
