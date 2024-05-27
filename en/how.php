@@ -64,6 +64,27 @@
 
 						<p data-lang-id="011-block-1-opener-subheader">Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
 
+						<div id="three-column-gal" class="three-column-gal">
+
+								<!--photo1-->
+								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpg', 'Cleaning plastic before ecobricking is important')">
+									<img src="../how/clean1.jpeg" alt="Cleaning plastic before ecobricking is important">
+									<p>Cleaning plastic before ecobricking is important</p>
+								</div>
+
+								<!--photo2-->
+								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clearn2.jpeg', 'Hang dry plastic in the sun')">
+									<img src="../photos/how/clean2.jpeg" alt="Hang dry plastic in the sun">
+									<p>Hang dry plastic in the sun</p>
+								</div>
+
+								<!--photo3-->
+								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean3.jpeg', 'Ensure plastic is dry befor packing')">
+									<img src="../photos/how/clean3.jpeg" alt="Ensure plastic is dry befor packing">
+									<p>Ensure plastic is dry befor packing</p>
+								</div>
+
+							</div><!--closes gallery-->
 
 						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1"> 
 							<div class="advanced-box-header"  id="advancedBoxLabel-1">
@@ -72,27 +93,7 @@
 								</div>
 							</div>
 
-							<div id="three-column-gal" class="three-column-gal">
-
-								<!--photo1-->
-								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpg', 'Cleaning plastic before ecobricking is important')">
-									<img src="../photos/earth1.jpeg?v=2" alt="Cleaning plastic before ecobricking is important">
-									<p>Cleaning plastic before ecobricking is important</p>
-								</div>
-
-								<!--photo2-->
-								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clearn2.jpeg', 'Hang dry plastic in the sun')">
-									<img src="../photos/earth2.jpg" alt="Hang dry plastic in the sun">
-									<p>Hang dry plastic in the sun</p>
-								</div>
-
-								<!--photo3-->
-								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean3.jpeg', 'Ensure plastic is dry befor packing')">
-									<img src="../photos/earth3.jpg" alt="Ensure plastic is dry befor packing">
-									<p>Ensure plastic is dry befor packing</p>
-								</div>
-
-							</div><!--closes gallery-->
+							
 
 
 							<div class="advanced-box-content">
