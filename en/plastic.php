@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.01';?>
+<?php $version='2.02';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
@@ -155,7 +155,7 @@
 	        
 	    <p data-lang-id="037-page-paragraph">How could we make sure that our ways were not grey and harmful in the first place, but in fact helped make ecosystems vibrant and verdant, diverse and abundant?</p>
 
-		
+		<div id="plastic-conclusion"></div>
 		<br><br>
 		<h3 data-lang-id="038-page-conclusion">It turns out, that the answers could be found in the story itself.</h3>
 	
@@ -187,7 +187,7 @@
 
 		<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
 									<img src="../photos/how/clean1.jpeg" alt="Cleaning plastic before ecobricking is important" loading="lazy">
-									<p data-lang-id="039d-page-paragraph">Plastic that has been segregated, cleaned and dried for ecobricking.</p>
+									<p data-lang-id="039d-photo-caption">Plastic that has been segregated, cleaned and dried for ecobricking.</p>
 								</div>
 	
 	    <p data-lang-id="039c-page-paragraph">Seeing our plastic through the lens of Earth's story, we can observe that…</p>
@@ -225,7 +225,7 @@
 
 	<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
 									<img src="../photos/earth-rise.webp" alt="Cleaning plastic before ecobricking is important" loading="lazy">
-									<p data-lang-id="039d-page-paragraph">Earth Rise - the first photo of Earth from the moon.  Seeing ourselves and our plastic from a planetary perspective is key.</p>
+									<p data-lang-id="041b-photo-caption">Earth Rise - the first photo of Earth from the moon.  Seeing ourselves and our plastic from a planetary perspective is key.</p>
 								</div>
 
 
@@ -294,7 +294,7 @@
 
 <div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
 									<img src="../photos/rice-terraces.webp" alt="Cleaning plastic before ecobricking is important" loading="lazy">
-									<p data-lang-id="039d-page-paragraph">The Banue Rice Terraces in the land of the Igorot people - Northen Luzon, West Philippines Sea.</p>
+									<p data-lang-id="052b-photo-caption">The Banue Rice Terraces in the land of the Igorot people - Northen Luzon, West Philippines Sea.</p>
 								</div>
 
 								<hr><br><br>
@@ -307,7 +307,7 @@
         
         <p data-lang-id="056-page-paragraph">The underlying idea of Ayyew is syncing with cycles into ever greater harmony. It is an idea that can help us make sense of the way the Earth has been working for the last few billion years. In fact, this is what inspired the Igorots in the first place!</p>
 <br>
-        <a class="action-btn" href="sequest.php" data-lang-id="057-button">🍃 The Ayyew Ethos</a>
+        <a class="action-btn" href="../ayyew" data-lang-id="057-button">🍃 The Ayyew Ethos</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="058-modules-info">Learn about the Igorot ecological paradigm</p>
 
     </div>

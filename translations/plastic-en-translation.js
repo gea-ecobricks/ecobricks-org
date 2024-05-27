@@ -107,10 +107,13 @@ const en_Page_Translations = {
         "062-page-paragraph": "Learn more…",
         "063-button": "🍃 Plastic Sequestration",
         "064-modules-info": "The criteria of plastic sequestration",
-        "065-page-paragraph": "Our account of Plastic's Long Story is based on <a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">Plastic's Interstellar Story</a> from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier. See this original account to go much deeper into plastic's story! The original version's scientific and social references are extensively footnoted."
+        "065-page-paragraph": "Our account of Plastic's Long Story is based on <a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">Plastic's Interstellar Story</a> from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier. See this original account to go much deeper into plastic's story! The original version's scientific and social references are extensively footnoted.",
     
     
-
+        "039d-photo-caption": "Plastic that has been segregated, cleaned and dried for ecobricking.",
+        "041b-photo-caption": "Earth Rise - the first photo of Earth from the moon.  Seeing ourselves and our plastic from a planetary perspective is key.",
+        "052b-photo-caption": "The Banue Rice Terraces in the land of the Igorot people - Northern Luzon, West Philippines Sea."
+    
 
     
     

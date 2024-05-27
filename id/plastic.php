@@ -3,9 +3,10 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='2.0';?>
+<?php $version='2.02';?>
 <?php $page='plastic';?>
 
+<title>The Long Story of Plastic</title>
 
 <?php require_once ("../includes/plastic-inc.php");?>
 
@@ -36,7 +37,7 @@
         <div class="main">
 
             <div class="lead-page-paragraph">
-                <p data-lang-id="004-first-page-paragraph">What is plastic exactly?  Where does it come from?  And, where is it going?  </p>
+                <p data-lang-id="004-first-page-paragraph">What is plastic exactly?  Where does it come from?  And, of concern to us all, where should our plastic go?</p>
             </div>
         
             <div class="page-paragraph" style="line-height:1.4">
@@ -48,7 +49,7 @@
 
            
         </div> <!--Closes Main-->
-
+ 
 
 	<div class="side">
         
@@ -79,7 +80,6 @@
 	    
 	    <p data-lang-id="009-page-paragraph">Steadily, plants and trees spread across the planet's surface.</p>
 	
-	
 	    <p data-lang-id="010-page-paragraph">Made from the carbon that they collected, soon vast forests covered the continents and massive blooms of algae filled low lying seas.</p>
 	        
 	    <p data-lang-id="011-page-paragraph">As the plants and animals within these ecosystems lived and died, each fallen generation was covered up by the next. Whether on a forest floor or the floor of the ocean, layers of life were buried one upon the other.  Over hundreds of millions of years, the countless tons of the carbon they contained were concentrated, compacted and secured under the earth.</p>
@@ -90,11 +90,11 @@
 	
 	
 	    <div style="width: 100%; overflow: hidden;" class="dark-only">
-	        <img src="../webp/long-story-of-plastic-dark.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+	        <img src="../webp/long-story-of-plastic-dark.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy">
 	    </div>
 	
 	    <div style="width: 100%; overflow: hidden;" class="light-only">
-	        <img src="../webp/long-story-of-plastic.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;">
+	        <img src="../webp/long-story-of-plastic.webp" alt="the long story of plastic - part 1" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy">
 	    </div>
 	
 	
@@ -108,13 +108,13 @@
 	    
 	    <p data-lang-id="017-page-paragraph">It wasn't long until we dicovered black rocks that were even more dense in carbon than the heaviest wood.  And they burned even better!  Little did we know, these stones were made from the very plants that had long ago removed the carbon from Earth's air, to make our living possible.</p>
 	
-	    <p data-lang-id="018-page-paragraph">Over the next centuries, certain groups of humans (but not all) got better and better at extracting and burning the black rocks.  Other types of ancient compacted carbon were discovered too.  Soon we were extracting coal, petroleum and natural gas in great quantities. We gave the stuff a name: “fossil fuels”.</p>
+	    <p data-lang-id="018-page-paragraph">Over the next centuries, certain groups of humans (but not all) got better and better at extracting and burning the black rocks.  Other types of ancient compacted carbon were discovered too.  Soon we were extracting coal, petroleum and natural gas in great quantities. </p>
 	
-	    <p data-lang-id="019-page-paragraph">As modern nations flourished, their economies began to rely more and more on the easy energy gained from burning these fossil fuels.</p>
+	    <p data-lang-id="019-page-paragraph">As modern nations flourished, their economies began to rely more and more on the easy energy gained from burning these "fossil fuels".</p>
 	        
 	    
 	
-	    <p data-lang-id="020-page-paragraph">However, despite the nifty name, these fossil deposits were never fuels at first!  In the process of refining them into fuel, there was a left over residue (5-15% depending on the source) that just couldn’t be used.  This left sludge over began to pile up.</p>
+	    <p data-lang-id="020-page-paragraph">However, despite the nifty name, these fossil deposits were never fuels at first!  In the process of refining them into fuel, there was a left over residue (5-15% depending on the source) that just couldn’t be used.  This left-over sludge began to pile up.</p>
 	
 	    <p data-lang-id="021-page-paragraph">We soon realized that the residues of refinement could be used too!  With a little chemistry, polymers could be produced—and with a little more; an endless array of marvellous materials.</p>
 	        
@@ -129,31 +129,33 @@
 	    <p data-lang-id="026-page-paragraph">As we consumed more and more, we tried our best to reuse and recycle our plastic when we were done with it.  Of course, we were refining so much fossil carbon into fuel that there was now an over-abundance of leftovers perfect to make polymers!  In the end, it was much easier (and cheaper!) to just produce more new plastic from scratch.</p>
 
 	
-	    <p data-lang-id="028-page-paragraph">However, soon there was so much plastic that it began to spill out of our homes, enterprises and industries. With growing alarm and anxiety we watched as our plastic clogged rivers, littered beaches and piled into great smoking mountains. The particles of plastic were everywhere— inside the bodies of fish and animals— and us.</p>
+	    <p data-lang-id="028-page-paragraph">However, soon there was so much plastic that it began to spill out of our homes, enterprises and industries. With growing alarm and anxiety we watched as our plastic clogged rivers, littered beaches and piled into great smoking mountains. Microscopic particles of plastic were soon everywhere.  Inside the bodies of fish and animals. And our bodies too.</p>
 	
 	    <div style="width: 100%; overflow: hidden;" class="dark-only">
-	        <img src="../webp/oil-2-plastic-dark.webp?v=2" alt="the journey of oil to plastic" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;"loading="lazy";>
+	        <img src="../webp/oil-2-plastic-dark.webp?v=2" alt="the journey of oil to plastic" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy";>
 	    </div>
 	
 	    <div style="width: 100%; overflow: hidden;" class="light-only">
 	        <img src="../webp/oil-2-plastic-light.webp?v=2" alt="the journey of oil to plastic" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy";>
 	    </div>
 		
-	    <p data-lang-id="029-page-paragraph">Shocked, shamed and determined, our industries and our companies promised to do better!  And they tried. They did their best to convince everyone that there was a solution just around the corner. Companies, scientists, businesspeople and politicians strove valiantly to our processes, products and packaging less harmful, less polluting and less damaging.</p>
+	    <p data-lang-id="029-page-paragraph">Shocked and shamed, our industries and our companies promised to do better!  And they tried. They did their best to convince everyone that there was a solution just around the corner. Companies, scientists, businesspeople and politicians strove valiantly to make our processes, products and packaging less harmful, less polluting and lvaliantess damaging.</p>
 	
 	    <p data-lang-id="030-page-paragraph">Yet after turning countless corners, despite being less harmful and less polluting— polluting and harmful their processes remained.</p>
 	
-	    <p data-lang-id="031-page-paragraph">And year by year, the pollution of the rivers and the oceans continued to increase.</p>
+	    <p data-lang-id="031-page-paragraph">Year by year, the pollution of the rivers and the oceans continued to increase.</p>
 	
 	    <p data-lang-id="032-page-paragraph">And with it, our despair.</p>
 	
 	    <p data-lang-id="033-page-paragraph">It was clear that reducing harm wasn't enough.<p>
 	
 	    <p data-lang-id="035-page-paragraph">How could we ensure our products, processes, packaging, and enterprises did not cause pollution?</p>
-	        
-	    <p data-lang-id="036-page-paragraph">How could we make sure that our ways were not grey and harmful in the first place, but in fact helped make ecosystems vibrant and verdant, diverse and abundant?</p>
 
-		<p data-lang-id="037-page-paragraph">How could we manage our plastic in a truly green way?</p>
+		<p data-lang-id="036-page-paragraph">How could we manage our plastic in a truly green way?</p>
+	        
+	    <p data-lang-id="037-page-paragraph">How could we make sure that our ways were not grey and harmful in the first place, but in fact helped make ecosystems vibrant and verdant, diverse and abundant?</p>
+
+		<div id="plastic-conclusion"></div>
 		<br><br>
 		<h3 data-lang-id="038-page-conclusion">It turns out, that the answers could be found in the story itself.</h3>
 	
@@ -171,7 +173,7 @@
 
 	<div class="opener-header">
 	
-	    <div class="opener-header-text" data-lang-id="006-opener-header-text">
+	    <div class="opener-header-text">
 	    <h4 data-lang-id="039-header-paragraph">Seeing Plastic Anew</h4>
 	    <h5 data-lang-id="039b-header-paragraph">In light of Earth’s ancient history, we can see our modern plastic differently…</h5>   
 	    <br>
@@ -181,12 +183,18 @@
 	</div>
 
 	<div id="preclosed2">
+
+
+		<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
+									<img src="../photos/how/clean1.jpeg" alt="Cleaning plastic before ecobricking is important" loading="lazy">
+									<p data-lang-id="039d-photo-caption">Plastic that has been segregated, cleaned and dried for ecobricking.</p>
+								</div>
 	
 	    <p data-lang-id="039c-page-paragraph">Seeing our plastic through the lens of Earth's story, we can observe that…</p>
 	
 	    <ul>
 	
-	        <li data-lang-id="040a-list-paragraph">Our plastic is made from the very carbon and the very process that Earth used to green planet's surface!</li>
+	        <li data-lang-id="040a-list-paragraph">Our plastic is made from the very carbon and the very process that Earth used to green our planet's surface!</li>
 	
 	        <li data-lang-id="040b-list-paragraph">There is a direct connection between burning fossil fuels and the production and dispersal of plastic.</li>
 	
@@ -214,6 +222,14 @@
 
     <div id="preclosed1">
 
+
+	<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
+									<img src="../photos/earth-rise.webp" alt="Cleaning plastic before ecobricking is important" loading="lazy">
+									<p data-lang-id="041b-photo-caption">Earth Rise - the first photo of Earth from the moon.  Seeing ourselves and our plastic from a planetary perspective is key.</p>
+								</div>
+
+
+
         <br>
         <p data-lang-id="042-page-paragraph">By looking closely at Earth’s primordial past we can observe…</p>
         <ul>
@@ -223,7 +239,7 @@
 
             <li data-lang-id="043c-list-paragraph">Earth’s procesess tended to subtract more carbon into storage than they added back to the atmosphere.</li>
 
-            <li data-lang-id="043d-list-paragraph">Earth’s processes distributed nutrient out across its surface and systems ever more broadly and beneficially.</li>
+            <li data-lang-id="043d-list-paragraph">Earth’s processes distributed nutrients out across its surface and systems ever more broadly and beneficially.</li>
 
             <li data-lang-id="043e-list-paragraph">Earth’s processes tended towards more and more diverse systems, organisms and ecosystems.</li>
 
@@ -275,7 +291,15 @@
 
 <div id="preclosed3">
 
-        <p data-lang-id="053-page-paragraph">Many great civilizations and nations throughout human history have thrived in harmony with their surrounding ecologies. The way their looked at the world, what they valued and how they used money (capital) is something that we can learn much from.</p>
+
+<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
+									<img src="../photos/rice-terraces.webp" alt="Cleaning plastic before ecobricking is important" loading="lazy">
+									<p data-lang-id="052b-photo-caption">The Banue Rice Terraces in the land of the Igorot people - Northen Luzon, West Philippines Sea.</p>
+								</div>
+
+								<hr><br><br>
+
+        <p data-lang-id="053-page-paragraph">Many great civilizations and nations throughout human history have thrived in harmony with their surrounding ecologies. The way they looked at the world, what they valued and how they used money (capital) is something that we can learn much from.</p>
 
         <p data-lang-id="054-page-paragraph">The Igorot people have lived in ecological abundance in what is now the Northern Philippines for the last centuries. In their world view they have a virtue for making a place ever greener.  Someone who successfully transforming barren land into a field, or a field into a garden, or a garden into a forest is called "<a href="../ayyew">Ayyew</a>".</p>
         
@@ -283,7 +307,7 @@
         
         <p data-lang-id="056-page-paragraph">The underlying idea of Ayyew is syncing with cycles into ever greater harmony. It is an idea that can help us make sense of the way the Earth has been working for the last few billion years. In fact, this is what inspired the Igorots in the first place!</p>
 <br>
-        <a class="action-btn" href="sequest.php" data-lang-id="057-button">🍃 The Ayyew Ethos</a>
+        <a class="action-btn" href="../ayyew" data-lang-id="057-button">🍃 The Ayyew Ethos</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="058-modules-info">Learn about the Igorot ecological paradigm</p>
 
     </div>
@@ -294,6 +318,7 @@
 
 <h2 data-lang-id="057-header-paragraph">Plastic Sequestration</h2>
 <p data-lang-id="058-page-paragraph" style="font-size: 1.2">Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.</p>
+
 
 <p data-lang-id="059-page-paragraph" style="font-size: 1.2">Earth’s example of short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.</p>
 
@@ -318,8 +343,6 @@
                      
 </article>
 
-
-	<!--FOOTER STARTS HERE-->
 
 	<?php require_once ("../footer-2024.php");?>
 
