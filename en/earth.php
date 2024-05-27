@@ -3,12 +3,12 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.82';?>
+<?php $version='2.01';?>
 <?php $page='earth';?>
  
 <title>Earth & Ecobrick Building</title>
 
-<?php require_once ("../includes/earth2-inc.php");?>
+<?php require_once ("../includes/earth-inc.php");?>
 
     	
 <div class="splash-content-block">

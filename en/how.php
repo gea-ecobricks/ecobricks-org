@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.54';?>
+<?php $version='2.01';?>
 <?php $page='how';?>
 
 <?php require_once ("../includes/how-inc2.php");?>
@@ -73,7 +73,7 @@
 								</div>
 
 								<!--photo2-->
-								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clearn2.jpeg', 'Hang dry plastic in the sun')">
+								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean2.jpeg', 'Hang dry plastic in the sun')">
 									<img src="../photos/how/clean2.jpeg" alt="Hang dry plastic in the sun">
 									<p>Hang dry plastic in the sun</p>
 								</div>

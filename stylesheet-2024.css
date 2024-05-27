@@ -665,7 +665,14 @@ border-color: #00a112 !important;
 
 
 
+.gal-photo {
+  padding: 10px;
+}
 
+.gal-photo p {font-size: 0.9em;
+  margin-bottom: 0px;
+  
+}
 
 
 
