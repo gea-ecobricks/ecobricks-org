@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='2.05';?>
+<?php $version='2.1';?>
 <?php $page='plastic';?>
 
 <?php require_once ("../includes/plastic-inc.php");?>
