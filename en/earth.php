@@ -61,31 +61,43 @@
 
                     <br>
                     <div id="three-column-gal" class="three-column-gal">
+
+                        <!--photo1-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali')">
                             <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
                             <p>Mud Mosque in Djene, Mali</p>
                         </div>
+
+                        <!--photo2-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth2.jpg', '16th Century Tudor Cob Home, England')">
                             <img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England">
-                            <p>16th Century Tudor Cob Home, England</p>
+                            <p>16th Century Tudor Cob Home - England</p>
                         </div>
+
+                        <!--photo3-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth3.jpg', 'Ancient Navajo Dwelling')">
                             <img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling">
-                            <p>Ancient Navajo Dwelling, New Mexico, America</p>
+                            <p>Ancient Navajo Dwelling -New Mexico, America</p>
                         </div>
+
+                        <!--photo4-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-garden.jpeg?v=2', 'A simple raised bed garden bench.')">
                             <img src="../photos/earth-garden.jpeg?v=2" alt="A simple raised bed garden bench.">
-                            <p>A simple raised bed garden bench -- Indonesia</p>
+                            <p>A simple raised bed garden bench - Indonesia</p>
                         </div>
+
+                        <!--photo5-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-well.jpeg', 'A circular cob and ecobrick construction.')">
                             <img src="../photos/earth-well.jpeg" alt="A circular cob and ecobrick construction.">
-                            <p>A spiral cob and ecobrick construction -- UK</p>
+                            <p>A spiral cob and ecobrick construction - UK</p>
                         </div>
+
+                        <!--photo6-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-snake.jpeg', 'An ecobrick snake play-bench for a public park.')">
                             <img src="../photos/earth-snake.jpeg" alt="An ecobrick snake play-bench for a public park.">
-                            <p>An ecobrick snake play-bench for a public park -- Philippines</p>
+                            <p>An ecobrick snake play-bench for a public park - Philippines</p>
                         </div>
-</div>
+                    </div><!--closes gallery-->
 
 
                     

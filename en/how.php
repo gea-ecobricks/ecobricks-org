@@ -71,6 +71,30 @@
 								<div class="advanced-open-icon" >+
 								</div>
 							</div>
+
+							<div id="three-column-gal" class="three-column-gal">
+
+								<!--photo1-->
+								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpg', 'Cleaning plastic before ecobricking is important')">
+									<img src="../photos/earth1.jpeg?v=2" alt="Cleaning plastic before ecobricking is important">
+									<p>Cleaning plastic before ecobricking is important</p>
+								</div>
+
+								<!--photo2-->
+								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clearn2.jpeg', 'Hang dry plastic in the sun')">
+									<img src="../photos/earth2.jpg" alt="Hang dry plastic in the sun">
+									<p>Hang dry plastic in the sun</p>
+								</div>
+
+								<!--photo3-->
+								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean3.jpeg', 'Ensure plastic is dry befor packing')">
+									<img src="../photos/earth3.jpg" alt="Ensure plastic is dry befor packing">
+									<p>Ensure plastic is dry befor packing</p>
+								</div>
+
+							</div><!--closes gallery-->
+
+
 							<div class="advanced-box-content">
 								<div class="row">
 							
