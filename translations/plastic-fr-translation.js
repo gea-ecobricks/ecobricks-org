@@ -16,16 +16,26 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 
 const fr_Page_Translations = {
+    "001-splash-title": "La Longue Histoire du Plastique",
+    "002-splash-subtitle": "Connaître le passé primordial du plastique est la clé pour assurer son avenir vert aujourd'hui.",
+    "003-splash-image-alt": "<img src=\"../svgs/the-biosphere.svg\" style=\"width: 85%\" alt=\"Le plastique vient des profondeurs de la terre.\">",
+    "004-first-page-paragraph": "Qu'est-ce que le plastique exactement ? D'où vient-il ? Et, ce qui nous concerne tous, où devrait aller notre plastique ?",
+    "005-second-page-paragraph": "Pour gérer notre plastique avec sagesse et prendre des décisions sûres concernant son avenir, connaître son histoire complète basée sur la science est essentiel— ce que nous appelons la <i>longue histoire du plastique</i>. Ce n'est qu'en connaissant les origines anciennes du plastique que nous pouvons assurer que son avenir soit une contribution écologique– plutôt que juste plus de pollution.",
+    "005b-second-page-paragraph": "Prêt pour une plongée en profondeur ? Installez-vous et retournez avec nous dans le passé primordial de notre planète...",
+    "006-page-paragraph": "<span class=\"drop-cap\">I</span>l y a PLUS DE QUATRE MILLIARDS D'ANNÉES, la poussière cosmique et les débris se sont assemblés pour former notre planète. Comme les autres planètes de notre système solaire, la Terre était au début un endroit stérile et désolé. Pendant les deux premiers milliards d'années de notre planète, son atmosphère était pleine de dioxyde de carbone, rendant son climat chaud, rude et instable.",
+    "007-page-paragraph": "Cependant, alors que le Soleil brillait, les choses ont commencé à changer. Peu à peu, le caractère unique de notre planète a commencé à se dévoiler. Les volcans crachaient, les rivières coulaient, et les courants océaniques et les plaques tectoniques entraient en collision. Au fur et à mesure que la surface de la Terre dissipait l'éclat incessant du soleil, les atomes de la Terre ont commencé à s'enrouler en configurations de plus en plus complexes. Lentement mais sûrement, de minuscules systèmes moléculaires ont trouvé comment transformer l'énergie du Soleil en vie.",
+    "008-page-paragraph": "Avec l'émergence des cellules et de la photosynthèse, les plantes ont suivi. En aspirant du dioxyde de carbone, des nutriments pouvaient être produits et des corps construits.",
+    "009-page-paragraph": "Peu à peu, les plantes et les arbres se sont répandus sur la surface de la planète.",
+    "010-page-paragraph": "Faites du carbone qu'ils ont collecté, bientôt d'immenses forêts ont couvert les continents et d'énormes floraisons d'algues ont rempli les mers basses.",
+    "011-page-paragraph": "Au fur et à mesure que les plantes et les animaux de ces écosystèmes vivaient et mouraient, chaque génération tombée était recouverte par la suivante. Que ce soit sur un sol forestier ou au fond de l'océan, les couches de vie étaient enterrées les unes sur les autres. Sur des centaines de millions d'années, les tonnes innombrables de carbone qu'elles contenaient ont été concentrées, compactées et sécurisées sous la terre.",
+    "012-page-paragraph": "Avec tout ce carbone séquestré hors de l'air, l'atmosphère de la Terre s'est calmée et refroidie. Peu à peu, la vie a prospéré ! Les écosystèmes et les biomes sont devenus plus vibrants, diversifiés et abondants.",
+    "013-page-paragraph": "Nourri par les écosystèmes désormais luxuriants et abondants de la planète, un mammifère particulier à deux pattes est apparu des forêts il y a environ 30 millions d'années— et nous, sapiens, avons fait notre apparition !",
+    "014-page-paragraph": "Puis, lors d'une nuit froide et sombre de l'ère glaciaire, l'un de nos premiers ancêtres a découvert le feu.",
+    "015-page-paragraph": "Malgré la fumée gênante, nos grottes étaient réchauffées alors que le carbone des brindilles et des bâtons s'enflammait.",
+    "016-page-paragraph": "Au fil des millénaires, nous sommes devenus de plus en plus habiles à faire nos feux.",
 
-    '001-splash-title': 'L\'histoire longue du plastique',
-    '002-splash-subtitle': 'Comprendre l\'histoire ancienne du plastique est essentiel pour le remettre en bon usage aujourd\'hui.',
-    '003-splash-image-alt': '<img src="../webp/plastic-origins.webp" style="width: 85%" alt="Le plastique vient de loin sous la terre.">',
     
-    '004-lead-page-paragraph': 'Qu\'est-ce que le plastique exactement? D\'où vient-il? Et, où va-t-il? Pour utiliser le plastique de manière avisée et prendre des décisions sûres quant à son avenir, il est essentiel de connaître son histoire complète, basée sur la science - ce que nous appelons la \'longue histoire du plastique\'.',
-    
-    '005-first-page-paragraph': 'De plus en plus, nous apprenons que l\'histoire du plastique ne se termine pas lorsque nous le jetons. Selon les scientifiques, une quantité croissante de plastique est fabriquée, jetée et atteint la biosphère, où elle nuit aux créatures grandes et petites.',
-    
-    '006-second-page-paragraph': 'Cependant, il est tout aussi important de comprendre que l\'histoire du plastique ne commence pas dans une usine. Au contraire, le plastique trouve ses origines il y a des millions d\'années sur une Terre ancienne et stérile que nous reconnaîtrions à peine. En fait, les molécules de carbone de notre plastique moderne ont joué un rôle clé dans la création de notre maison commune, la biosphère florissante et diversifiée que nous connaissons aujourd\'hui.'
-}
+};
+
   
       
