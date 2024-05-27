@@ -14,7 +14,7 @@
 
 <script src="https://api.earthen.io/booknotes/booknotes-scripts.js"></script>
 
-<link rel="stylesheet" href="https://api.earthen.io/booknotes/booknotes-styles.css">
+<link rel="stylesheet" type="text/css" href="https://api.earthen.io/booknotes/booknotes-styles.css">
 
 
 

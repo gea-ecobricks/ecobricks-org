@@ -24,6 +24,7 @@
 <!-- PAGE CONTENT-->
 
 <div id="main-content">
+<div id="ct-main">
 <!-- The flexible grid (content) -->
 	<div class="row">
 		<div class="main">
@@ -130,7 +131,7 @@
 
 	</div>
 </div>
-
+</div> <!-- ctmain close-->
 
 
     <!--BOOKNOTES-CURTAIN-->
