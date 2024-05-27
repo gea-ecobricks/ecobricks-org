@@ -13,7 +13,7 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title"><h1 style="font-size:3em">Ayyew</h1></div>
+		<div class="splash-heading" data-lang-id="001-splash-title"><h1>Ayyew</h1></div>
 		<div class="splash-sub" data-lang-id="002-splash-subtitle">The ecological ethos of the Igorot people</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt" ><img src="../icons/igorot-ayyew.svg" style="width:80%;" alt="An Igorot Ayyew symbol"></div>	
@@ -131,6 +131,10 @@
 	</div>
 </div>
 
+
+
+    <!--BOOKNOTES-CURTAIN-->
+    <booknotes-curtain></booknotes-curtain>
 
 	<!--FOOTER STARTS HERE-->
 

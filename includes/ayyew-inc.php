@@ -7,6 +7,17 @@
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
+
+<!--BOOKNOTES PLUGIN-->
+
+<script src="https://api.earthen.io/booknotes/booknotes-curtain.js"></script>
+
+<script src="https://api.earthen.io/booknotes/booknotes-scripts.js"></script>
+
+<link rel="stylesheet" href="https://api.earthen.io/booknotes/booknotes-styles.css">
+
+
+
 <?php require_once ("../meta/ayyew-$lang.php");?>
 
 
@@ -35,7 +46,7 @@ ul {
 
 	}
 
-  .splash-heading {
+  .splash-heading h1{
     font-size: 2.5em  !important;
 }
 
@@ -53,7 +64,7 @@ ul {
 		background-color: #088408;
     	
 }
-.splash-heading {
+.splash-heading h1 {
     font-size: 3.4em  !important;
 }
 

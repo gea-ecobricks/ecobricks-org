@@ -343,10 +343,6 @@
 </article>
 
 
-    <!--BOOKNOTES-CURTAIN-->
-    <booknotes-curtain></booknotes-curtain>
-	<!--FOOTER STARTS HERE-->
-
 	<?php require_once ("../footer-2024.php");?>
 
 

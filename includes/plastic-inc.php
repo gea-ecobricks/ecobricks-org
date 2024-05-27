@@ -7,16 +7,6 @@
 
 
 
-<!--BOOKNOTES PLUGIN-->
-
-<script src="https://api.earthen.io/booknotes/booknotes-curtain.js" defer></script>
-
-<script src="https://api.earthen.io/booknotes/booknotes-scripts.js" defer></script>
-
-<link rel="stylesheet" href="https://api.earthen.io/includes/booknotes-styles.css">
-
-
-
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
