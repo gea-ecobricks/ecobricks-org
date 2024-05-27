@@ -108,7 +108,7 @@
                     <a href="what.php">Apa itu Ecobricks</a>
                     <a href="/how">Bagaimana membuat?</a>
                     <a href="/why">Mangapa Ecobricks?</a>
-                    <a href="/plastic">Cerita Plastik</a>
+                    <a href="plastic.php>Cerita Plastik</a>
                     <a href="principles.php">Princip</a>    
                     <a href="brickable.php">Brickable Design</a>
                     <a href="/fire">Awas Api</a>

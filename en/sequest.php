@@ -37,7 +37,7 @@
                      </div>
                 
                     <div class="page-paragraph">
-                         <p data-lang-id="006-second-page-paragraph">It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="/plastic">Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The <a href="/about">Global Ecobrick Alliance</a> maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
+                         <p data-lang-id="006-second-page-paragraph">It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="plastic.php>Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The <a href="/about">Global Ecobrick Alliance</a> maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
 
                         <!--<p>
                             
@@ -59,7 +59,7 @@
             <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
         </div>
         <div id="preclosed1">
-            <p data-lang-id="009-paragraph1">Just as Earth sequestered carbon deep into secure geologic storage to cultivate and green the biosphere, so too can we compact, secure, and sequester our plastic (which itself is mostly carbon). By following the <a href="/plastic" data-lang-id="010-link1">Earth’s example</a> we can be confident our enterprise of plastic management is making a valuable ecological contribution.</p>
+            <p data-lang-id="009-paragraph1">Just as Earth sequestered carbon deep into secure geologic storage to cultivate and green the biosphere, so too can we compact, secure, and sequester our plastic (which itself is mostly carbon). By following the <a href="plastic.php data-lang-id="010-link1">Earth’s example</a> we can be confident our enterprise of plastic management is making a valuable ecological contribution.</p>
             <p data-lang-id="011-paragraph2">We call this prevention of plastic degradation and dispersal, <i>plastic sequestration.</i></p>
             <p data-lang-id="012-paragraph3">Plastic degradation occurs physically (such as cracking, embrittlement, and flaking) and chemically (such as leaching). Emissions and dispersal occur when plastic is industrially processed through recycling, incineration, and land-filling. In order to prevent these outcomes, plastic sequestration diverts plastic from industry and prevents the chemical and physical degradation of plastic from the effects of light, heat, acids, friction, microbial action, etc.</p>
             <br>
@@ -78,7 +78,7 @@
             <br>
             <p data-lang-id="022-paragraph13"><b>5. Earthen Enclosure</b></p>
             <p data-lang-id="023-paragraph14">Research has shown that enclosing plastic in earth prevents abiotic plastic degradation. By enclosing the outputs of plastic sequestration in inert, net-zero earthen building materials such as cob and adobe, the outputs of plastic sequestration can be secured.</p>
-            <p data-lang-id="024-learn-about-plastic">ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></p>
+            <p data-lang-id="024-learn-about-plastic">ℹ️ Learn about: <a href="plastic.php>The Long Story of Plastic</a></p>
             <p data-lang-id="025-source-earthen-ethics">ℹ️ Source: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></p>
         </div>
     </div>
@@ -99,7 +99,7 @@
         <div id="preclosed10">
             <br>
             <p data-lang-id="028-context">The <a href="about.php" data-lang-id="029-ga-link">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide for methodologies and technologies aspiring to plastic sequestration.</p>
-            <p data-lang-id="030-earth-process">The Earth's billion year <a href="/plastic" data-lang-id="031-earth-process-link">process of carbon sequestration</a> helped green the planet. To ensure that our process of plastic sequestration does the same, we follow <a href="https://book.earthen.io/en/earthen.html" data-lang-id="032-principles-link">the principles of Earth's example.</a> Using them we've established six criteria and associated standards for plastic sequestration.</p>
+            <p data-lang-id="030-earth-process">The Earth's billion year <a href="plastic.php data-lang-id="031-earth-process-link">process of carbon sequestration</a> helped green the planet. To ensure that our process of plastic sequestration does the same, we follow <a href="https://book.earthen.io/en/earthen.html" data-lang-id="032-principles-link">the principles of Earth's example.</a> Using them we've established six criteria and associated standards for plastic sequestration.</p>
             <p data-lang-id="033-authentic-contribution">Our criteria help us all ensure that the enterprise, outputs, and processes of plastic sequestration are in fact an authentic ecological contribution.</p>
             <p data-lang-id="034-standards-assist">Our standards assist enterprises to measure the calibre and quality of their plastic sequestration outputs and processes.</p>
             <p data-lang-id="035-independent-authentication">In order for plastic to be considered sequestered, it must not only meet these six criteria and their respective standards, it must also be independently authenticated to have done so.</p>

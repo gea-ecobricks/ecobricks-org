@@ -33,7 +33,7 @@ const id_Translations = {
         
         "004-menu-1-sub-item-3": '<a href="/ocean">Ecobricks Lautan</a><span class="circle" title="Halaman ini belum diterjemahkan dan dalam format non-git kami. Menunggu migrasi." style="color:red">●</span>',
         "005-menu-1-trans-text-3": "🏴 /ocean belum diterjemahkan | menunggu migrasi ke situs baru git",
-        "006-menu-1-sub-item-4": '<a href="/plastic">Kisah Panjang Plastik</a><span class="circle" title="Halaman ini belum diterjemahkan dan dalam format non-git kami. Migrasi sedang berlangsung" style="color:red;  ">●</span>',
+        "006-menu-1-sub-item-4": '<a href="plastic.php>Kisah Panjang Plastik</a><span class="circle" title="Halaman ini belum diterjemahkan dan dalam format non-git kami. Migrasi sedang berlangsung" style="color:red;  ">●</span>',
         "005-menu-1-trans-text-4": "🏴 /plastic belum diterjemahkan | migrasi ke situs baru git sedang berlangsung !",
 
         /*BUILD*/

@@ -158,7 +158,7 @@ dan diberi upah secara profesional untuk layanan ini oleh kelompok-kelompok masy
                         <div class="main2">
 						<p><b>1. Layanan Untuk-Bumi</b></p>
 
-					<p>Perusahaan kami mengikuti <a href="/plastic">contoh Bumi</a> dalam menghasilkan nilai ekologis. Untuk melakukannya, kami berusaha untuk mengikuti prinsip <a href="https://book.earthen.io/en/earthen.php" target="_blank">etika Earthen</a>: melayani Bumi terlebih dahulu dengan mendukung keanekaragaman hayati, meningkatkan kesadaran ekologis, dan menjaga pengurangan bersih karbon dan plastik dari biosfer oleh perusahaan kami.</p><br>
+					<p>Perusahaan kami mengikuti <a href="plastic.php>contoh Bumi</a> dalam menghasilkan nilai ekologis. Untuk melakukannya, kami berusaha untuk mengikuti prinsip <a href="https://book.earthen.io/en/earthen.php" target="_blank">etika Earthen</a>: melayani Bumi terlebih dahulu dengan mendukung keanekaragaman hayati, meningkatkan kesadaran ekologis, dan menjaga pengurangan bersih karbon dan plastik dari biosfer oleh perusahaan kami.</p><br>
 
                         </div>
 							<div class="side2"><img src="../webp/earthservice-400px.webp" width="95%" alt="eco bricks are a form of earth service"></div>

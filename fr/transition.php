@@ -321,7 +321,7 @@
 
     <ul>
         <li data-lang-id="089-follow-earthen-example">Following the <a href="https://book.earthen.io/en/summaries" target="_blank">Earth’s example</a> to be certain our processes are green</li>
-        <li data-lang-id="090-understand-earth-carbon-sequestering">Understanding the way that <a href="/plastic">Earth sequestered its carbon to green the biosphere</a></li>
+        <li data-lang-id="090-understand-earth-carbon-sequestering">Understanding the way that <a href="plastic.php>Earth sequestered its carbon to green the biosphere</a></li>
         <li data-lang-id="091-concept-of-plastic-sequestration">The concept of <a href="sequest.php">plastic sequestration</a></li>
         <li data-lang-id="092-follow-regenerative-principles">Following <a href="principles.php">regenerative principles</a>.</li>
         <li data-lang-id="093-concept-of-ayyew">The regenerative <a href="/ayyew">concept of Ayyew</a></li>

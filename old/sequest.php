@@ -250,7 +250,7 @@ _END;?>
 			
 			
 			<div class="page-paragraph">
-                        <p>It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="/plastic">Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The Global Ecobrick Alliance maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
+                        <p>It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="plastic.php>Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The Global Ecobrick Alliance maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
 
                         <!--<p>
                             
@@ -330,7 +330,7 @@ _END;?>
 
             <p>The <a href="about.php">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide for methodologies and technologies aspiring to plastic sequestration.</p>
 
-            <p>The Earth's billion year <a href="/plastic">process of carbon sequestration</a> helped green the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">the six principles of the Earth's example.</a>  Using them we've established six criteria and associated standards for plastic sequestration.</p>
+            <p>The Earth's billion year <a href="plastic.php>process of carbon sequestration</a> helped green the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27">the six principles of the Earth's example.</a>  Using them we've established six criteria and associated standards for plastic sequestration.</p>
 
             <p>Our criteria help us all ensure that the enterprise, outputs and processes of plastic sequestration are in fact an authentic ecological contribution.</p>
               
@@ -775,7 +775,7 @@ _END;?>
 				<img src="../webp/earthen-story-400px.webp" width="90%" alt="Eco bricks follow the Earth's ancient example">
 				<br><h4>Following the Earth's Example</h4>
 				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
-				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
+				<a class="module-btn" href="plastic.php>Plastic's Long Story</a>
                 <br>
 			</div>  
 

@@ -76,7 +76,7 @@ const en_Page_Translations =
     "067-general-questions": "General Questions",
     "068-what-is-plastic-exactly": "What is plastic exactly?",
     "069-plastic-description": "Plastic. That convenient, colorful and ever so troublesome material that we all use every day is very easy to take for granted. Fact is, it's incredibly unique and valuable— you literally can't find anything like it in elsewhere in our solar system! Plastic is a petroleum by-product. That means it is made from the carbon of ancient organisms— algae, forest, dinosaurs that lived and died hundreds of millions of years ago. As their bodies were buried, the Earth compacted and secured their carbon underground. Over time, this process of carbon sequestration removed more and more carbon from the atmosphere and greened the biosphere. Today, we dig up these deposits as 'fossil fuels'. But, this ancient carbon was never meant to be fuel! Refining fossil fuels leads to lots of leftover chemicals— which are perfect for making plastic and dangerous when let loose into the environment.",
-    "070-learn-more-the-long-story-of-plastic": '<h5 >Learn more: <a href="/plastic">The Long Story of Plastic</a></h5>',
+    "070-learn-more-the-long-story-of-plastic": '<h5 >Learn more: <a href="plastic.php>The Long Story of Plastic</a></h5>',
     "071-back-to-general-questions": 'Back to <a href="#general" >General Questions</a>',
     "072-faq-image-compacted-carbon": '<img src="../webp/compacted-carbon.webp" alt="compacted plastic eco brick sequestration" loading="lazy"></div>',
 

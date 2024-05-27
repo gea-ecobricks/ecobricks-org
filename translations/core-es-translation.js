@@ -38,7 +38,7 @@ const es_Translations = {
 
     "004-menu-1-sub-item-3": '<a href="/ocean">Ecobricks Oceánicos</a><span class="circle" title="Esta página está traducida al 0% y está en nuestro formato no-git. En espera de migración." style="color:red">●</span>',
 "005-menu-1-trans-text-3": "🇪🇸 /ocean ha sido traducido al 0% | migración al nuevo sitio git en espera",
-"006-menu-1-sub-item-4": '<a href="/plastic">La Larga Historia del Plástico</a><span class="circle" title="Esta página está traducida al 0% y está en nuestro formato no-git. Migración en curso" style="color:red;  ">●</span>',
+"006-menu-1-sub-item-4": '<a href="plastic.php>La Larga Historia del Plástico</a><span class="circle" title="Esta página está traducida al 0% y está en nuestro formato no-git. Migración en curso" style="color:red;  ">●</span>',
 "005-menu-1-trans-text-4": "🇪🇸 /plastic ha sido traducido al 0% | migración al nuevo sitio git en curso !",
 
 

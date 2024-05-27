@@ -32,7 +32,7 @@ const en_Page_Translations = {
     "023-side-image-eco-enrichment-sm": "<img src=\"../svgs/eco-enrichment.svg\" width=\"150px\">",
     "024-plastic-reuse-paragraph": "In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.",
     "025-learn-plastic-story": "ℹ️ Learn about: <a href=\"/plastic\">The Long Story of Plastic</a>",
-    "026-learn-plastic-link": "/plastic",
+    "026-learn-plastic-link": "plastic.php,
     "027-learn-earthen-ethics": "ℹ️ Learn about: <a href=\"https://book.earthen.io/en/summaries.html\" target=\"_blank\">Earthen Ethics</a>",
     "028-learn-earthen-ethics-link": "https://book.earthen.io/en/summaries.html",
 

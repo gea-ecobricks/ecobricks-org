@@ -234,7 +234,7 @@ Content Page template: v.1.0.0-->
 				</div>
 					
              </div>
-			<div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
+			<div class="faq-link"><h5>Learn more: <a href="plastic.php>The Long Story of Plastic</h5></a></div>
 			<div id="top-link">Back to <a href="#general">General Questions</a>
 			</div>		
          </div>
@@ -245,7 +245,7 @@ Content Page template: v.1.0.0-->
 						   <div class="faq-texts">
 							   <div class="faq-header"><h4>Why should I be concerned about my plastic?</h4></div>
 							   <p>Your plastic is an incredible opportunity! With your everyday plastic you can make tiny ripples that over time will turn into giant waves of ecological enrichment.  Plastic is the tip of the iceberg of a massive system based on the extraction of fossil fuels at the expense of ecosystems. Nobody wants to see an animal suffer.  Nor a rich ecosystem die.  Unfortunately, there is a direct correlation between what we consume today and these consequences tomorrow.  Concern about our plastic, ripples into tiny choices that takes our plastic, and us, out of the petrocapital system.  Such choices today reduce the system's momentum into the future and compounds into great greening consequences: the acceleration of a whole different kind of system! Ways of life with a lot less plastic and a lot richer ecosystems.   </p>
-							   <div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
+							   <div class="faq-link"><h5>Learn more: <a href="plastic.php>The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
 						   <div class="faq-image"><img src="../webp/plastic-origins.webp"></div>
@@ -260,7 +260,7 @@ Content Page template: v.1.0.0-->
 						   <div class="faq-texts">
 							   <div class="faq-header"><h4>But aren't there bigger issues to worry about?</h4></div>
 							   <p>Climate change.  Ocean acidification.  Species extinction.  These are big issues!  And they all have one thing in common:  <i>The way we humans are living on Earth.</i>  From brash billionaires to poisonous pollution... indeed, the way our world is working makes it easy to worry!   However, no matter how much we despair, there's no more powerful way to manifest change than by living it first ourselves.  As a petro-capital by-product, plastic is the penultimate representation of the Old Way we've been residing on Earth.  By changing the way we see plastic and what we do with it, we can shift our attitude from worry and despair to love and care.  By loving and caring for our plastic, we can begin to heal the roots of relationship with it and the Earth.  The very same roots that all the other big issues happen to share.</p>
-							   <div class="faq-link"><h5>Learn more: <a href="/plastic">The Long Story of Plastic</h5></a></div>
+							   <div class="faq-link"><h5>Learn more: <a href="plastic.php>The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
 						   <div class="faq-image"><img src="../webp/petro-capital-age.webp"></div>

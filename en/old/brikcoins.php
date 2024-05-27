@@ -65,7 +65,7 @@
 				<div class="row">
 						<div class="main2">
 
-						<p>Two billion years ago, Earth's atmosphere was full of carbon dioxide.  The planet's climate was unstable and its surface barren.  However, steadily the atmosphere's CO2 was cycled into carbon-based life, which, generation after fallen generation, was buried and secured into the ground.  As more and more <a href="/plastic">carbon ended up sequestered</a>, there was less and less CO2 in the atmosphere.  Steadily the climate stabilized and Earth's biosphere blossomed.</p>
+						<p>Two billion years ago, Earth's atmosphere was full of carbon dioxide.  The planet's climate was unstable and its surface barren.  However, steadily the atmosphere's CO2 was cycled into carbon-based life, which, generation after fallen generation, was buried and secured into the ground.  As more and more <a href="plastic.php>carbon ended up sequestered</a>, there was less and less CO2 in the atmosphere.  Steadily the climate stabilized and Earth's biosphere blossomed.</p>
 
 						</div>
 						<div class="side2"><img src="../webp/earth-floating-500px.webp" style="width:100%" loading="lazy" alt="Earth service">
@@ -99,7 +99,7 @@
 						
 						<h5>ℹ️ <a href="sequest.php">The GEA's criteria for plastic sequestration.</a></h5>
 
-						<h5>ℹ️ <a href="/plastic">The Long Story of Plastic.</a></h5>
+						<h5>ℹ️ <a href="plastic.php>The Long Story of Plastic.</a></h5>
 
 						<h5>ℹ️ More on: <a href="/aes">AES Plastic.</a></h5>
 
@@ -127,7 +127,7 @@
 
 					<div class="row">
 						<div class="main2">
-							<p>Brikcoins are based on the ecological value of <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank" >sequestered plastic</a>— a concept which is based on following <a href="/plastic">Earth's example</a> of carbon care (the principles of <a href="https://earthen.io/imagine">Earthen ethics</a>).  Ecobricked plastic, in order to be considered sequestered must meet the <a href="sequest">criteria of plastic sequestration</a> developed by the <a href="about.php">Global Ecobrick Alliance.</a>  </p>
+							<p>Brikcoins are based on the ecological value of <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank" >sequestered plastic</a>— a concept which is based on following <a href="plastic.php>Earth's example</a> of carbon care (the principles of <a href="https://earthen.io/imagine">Earthen ethics</a>).  Ecobricked plastic, in order to be considered sequestered must meet the <a href="sequest">criteria of plastic sequestration</a> developed by the <a href="about.php">Global Ecobrick Alliance.</a>  </p>
 							
 							<p>The final criteria of plastic sequestration, is that of <a href="sequest.php/#auth">independent authentication:</a> confirmation that that all the other criteria have been met.  In order to authenticate ecobricks that have been made around the world as sequestered plastic, the GEA maintains the <a href="/gobrik">GoBrik platform</a>.  There every ecobrick logged is peer reviewed by the ecobricker community to confirm whether it meets <a href="what.php">GEA ecobrick standards</a>.</p>
 

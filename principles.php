@@ -40,7 +40,7 @@ Content Page template: v.1.0.1-->
 
 		<div class="page-paragraph">
 	
-		<p>The South East Asian ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines.  Inspired by their <a href="/ayyew">ayyew ecological ethos</a>, the work of the Global Ecobrick Alliance has come to be guided by regenerative principles to rise above the old paradigm of plastic 'waste'.  Instead, through ecobricking, our daily plastic becomes a valuable opportunity to follow the <a href="/plastic">the Earth's example</a> of care.</p>
+		<p>The South East Asian ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines.  Inspired by their <a href="/ayyew">ayyew ecological ethos</a>, the work of the Global Ecobrick Alliance has come to be guided by regenerative principles to rise above the old paradigm of plastic 'waste'.  Instead, through ecobricking, our daily plastic becomes a valuable opportunity to follow the <a href="plastic.php>the Earth's example</a> of care.</p>
         
 		</div>
 
@@ -98,7 +98,7 @@ Content Page template: v.1.0.1-->
 				<br><br><hr>
 
 			
-				<h5>ℹ️ Learn about: <a href="/plastic">The Long Story of Plastic</a></h5>
+				<h5>ℹ️ Learn about: <a href="plastic.php>The Long Story of Plastic</a></h5>
 				<h5>ℹ️ Learn about: <a href="https://earthen.io/imagine" target="_blank">Earthen Ethics</a></h5>
 
 
@@ -373,7 +373,7 @@ Content Page template: v.1.0.1-->
 				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Towards Concentration</h4>
 				<h5>Just as the Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
-				<a class="module-btn" href="/plastic">Plastic's Long Story</a>
+				<a class="module-btn" href="plastic.php>Plastic's Long Story</a>
                 <br>
 			</div>   
 

@@ -41,7 +41,7 @@ Content Page template: v.1.0.1-->
                     </div>
                 
                     <div class="page-paragraph">
-                        <p>It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="/plastic">Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The <a href="/about">Global Ecobrick Alliance</a> maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
+                        <p>It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="plastic.php>Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The <a href="/about">Global Ecobrick Alliance</a> maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
 
                         <!--<p>
                             
@@ -69,7 +69,7 @@ Content Page template: v.1.0.1-->
 
                         <div id="preclosed1">
                         
-                        <p>Just as the Earth sequestered carbon deep into secure geologic storage to cultivate and green the biosphere, so too can we compact, secure, and sequester our plastic (which itself is mostly carbon). By following the <a href="/plastic">Earth’s example</a> we can be confident our enterprise of plastic management is making a valuable ecological contribution.</p>
+                        <p>Just as the Earth sequestered carbon deep into secure geologic storage to cultivate and green the biosphere, so too can we compact, secure, and sequester our plastic (which itself is mostly carbon). By following the <a href="plastic.php>Earth’s example</a> we can be confident our enterprise of plastic management is making a valuable ecological contribution.</p>
 
                         <p>We call this prevention of plastic degradation and despersal, <i>plastic sequestration.</i></p>
 
@@ -120,7 +120,7 @@ Content Page template: v.1.0.1-->
 
                             <br><p>The <a href="about.php">Global Ecobrick Alliance</a>, as a third-party Earth enterprise with a mandate of biosphere benefit, has developed a system of criteria and standards for the sequestration of plastic. Our criteria provide a guide for methodologies and technologies aspiring to plastic sequestration.</p>
 
-                            <p>The Earth's billion year <a href="/plastic">process of carbon sequestration</a> helped green the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://earthen.io/ways/">the principles of the Earth's example.</a>  Using them we've established six criteria and associated standards for plastic sequestration.</p>
+                            <p>The Earth's billion year <a href="plastic.php>process of carbon sequestration</a> helped green the planet.  To ensure that our process of plastic sequestration does the same, we follow <a href="https://earthen.io/ways/">the principles of the Earth's example.</a>  Using them we've established six criteria and associated standards for plastic sequestration.</p>
 
                             <p>Our criteria help us all ensure that the enterprise, outputs and processes of plastic sequestration are in fact an authentic ecological contribution.</p>
                             
@@ -554,7 +554,7 @@ Content Page template: v.1.0.1-->
 				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
 				<br><h4>Towards Concentration</h4>
 				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
-				<a class="module-btn" href="/plastic">Earth's Example</a>
+				<a class="module-btn" href="plastic.php>Earth's Example</a>
                 <br>
 			</div>   
         

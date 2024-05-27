@@ -90,7 +90,7 @@
                     <a href="what.php">Que sont les Ecobricks</a>
                     <a href="/how">Comment faire?</a>
                     <a href="/why">Pourquoi les Ecobricks?</a>
-                    <a href="/plastic">L'histoire du plastique</a>
+                    <a href="plastic.php>L'histoire du plastique</a>
                     <a href="principles.php">Des principes</a>
                 </div>
             </div> 

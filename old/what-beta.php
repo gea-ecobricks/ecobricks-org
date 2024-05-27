@@ -648,7 +648,7 @@ text-decoration: none;
 					<h6>
 					Learn more about the <a href="https://www.ecobricks.org/sequest"><strong>criteria of plastic sequestration.</strong></a>
 
-					Learn more about the<a href="https://www.ecobricks.org/plastic"><strong> Earth’s Example</strong></a>
+					Learn more about the<a href="https://www.ecobricks.orgplastic.php><strong> Earth’s Example</strong></a>
 					</h6>
 				</div>	
 			</div>

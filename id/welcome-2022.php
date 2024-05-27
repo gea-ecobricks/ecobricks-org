@@ -66,7 +66,7 @@
 			<p>Ecobrick mengikuti contoh bumi dalam memusatkan dan mengamankan karbon dari biosfer. Mengikuti ilmu degradasi plastik dan prinsip-prinsip tanah liat, ecobrick adalah cara tanpa modal dan tanpa modal untuk penyerapan plastik.</p>
 			</div>
 			<a href="sequest.php" button class="main-button">Sekuestrasi Plastik</a>
-			<h6><a href="/ayyew">Terinspirasi dari Ayyew</a> | <a href="/circular">Desain Melingkar</a> | <a href="/plastic">Menuju Transisi </a> | <a href="/principles">Prinsip Regeneratif</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
+			<h6><a href="/ayyew">Terinspirasi dari Ayyew</a> | <a href="/circular">Desain Melingkar</a> | <a href="plastic.php>Menuju Transisi </a> | <a href="/principles">Prinsip Regeneratif</a> <!--| <a href="/reports">Reports & Whitepapers</a>--></h6>
 		</div>
 	</div>	
 		

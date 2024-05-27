@@ -112,7 +112,7 @@
         <p data-lang-id="024-plastic-reuse-paragraph">In the same way that Earth tends its carbon towards cycles of indefinite reuse, so too can we with our plastic.  By packing our plastic into ecobricks and using our ecobricks properly, we can make sure our plastic can be used over and over indefinitely.</p>
         
         <br><br><hr>
-        <h5 data-lang-id="025-learn-plastic-story">ℹ️ Learn about: <a href="/plastic" data-lang-id="026-learn-plastic-link">The Long Story of Plastic</a></h5>
+        <h5 data-lang-id="025-learn-plastic-story">ℹ️ Learn about: <a href="plastic.php data-lang-id="026-learn-plastic-link">The Long Story of Plastic</a></h5>
         <h5 data-lang-id="027-learn-earthen-ethics">ℹ️ Learn about: <a href="https://book.earthen.io/en/summaries.html" target="_blank" data-lang-id="028-learn-earthen-ethics-link">Earthen Ethics</a></h5>
     </div>
 </div>

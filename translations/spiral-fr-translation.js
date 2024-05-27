@@ -33,7 +33,7 @@ const fr_Page_Translations = {
         "023-side-image-eco-enrichment-sm": "<img src=\"../svgs/eco-enrichment.svg\" width=\"150px\">",
         "024-plastic-reuse-paragraph": "De la même manière que la Terre oriente son carbone vers des cycles de réutilisation indéfinie, nous pouvons aussi le faire avec notre plastique. En emballant notre plastique dans des écobriques et en utilisant correctement nos écobriques, nous pouvons nous assurer que notre plastique peut être utilisé encore et encore indéfiniment.",
         "025-learn-plastic-story": "ℹ️ Découvrez : <a href=\"/plastic\">La longue histoire du plastique</a>",
-        "026-learn-plastic-link": "/plastic",
+        "026-learn-plastic-link": "plastic.php,
         "027-learn-earthen-ethics": "ℹ️ Découvrez : <a href=\"https://book.earthen.io/en/summaries.html\" target=\"_blank\">L'Éthique Terrestre</a>",
         "028-learn-earthen-ethics-link": "https://book.earthen.io/en/summaries.html",
 

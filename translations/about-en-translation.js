@@ -57,7 +57,7 @@ const en_Page_Translations = {
     '041-block3-header': 'Principled Practice',
     '042-block3-subheader': 'As an Earth Enterprise the GEA follows seven principles that ensure our goals, operations and our results are deeply in line with our vision and mission in both the short and long-term.',
     '043-block3-main2-p1': '<b>1. For-Earth Service</b>',
-    '044-block3-main2-p2': 'Our enterprise follows the <a href="/plastic">Earth\'s example</a> in generating ecological value. To do so we strive to follow the principles of <a href="https://book.earthen.io/en/summaries.html" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.',
+    '044-block3-main2-p2': 'Our enterprise follows the <a href="plastic.php>Earth\'s example</a> in generating ecological value. To do so we strive to follow the principles of <a href="https://book.earthen.io/en/summaries.html" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.',
     '045-block3-p1': '<b>2. Leading by Example</b>',
     '046-block3-p2': 'We strive to ensure that the processes, methods, products and services of our enterprise are fully in line with our principles. We track and disclose our ecological impacts to ensure that the net result of our enterprise is the subtraction of CO2 and plastic from the biosphere and the support of biodiversification. We work to raise ecological consciousness and empower others to follow our example.',
     '047-block3-p3': '<b>3. Open Source</b>',

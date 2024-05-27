@@ -35,7 +35,7 @@ const id_Page_Translations = {
     "023-side-image-eco-enrichment-sm": "<img src=\"../svgs/eco-enrichment.svg\" width=\"150px\">",
     "024-plastic-reuse-paragraph": "Sama seperti Bumi mengarahkan karbonnya ke siklus penggunaan kembali yang tidak terbatas, kita juga bisa melakukannya dengan plastik kita. Dengan memasukkan plastik kita ke dalam ecobricks dan menggunakan ecobricks dengan benar, kita dapat memastikan plastik kita dapat digunakan berulang kali tanpa batas.",
     "025-learn-plastic-story": "ℹ️ Pelajari tentang: <a href=\"/plastic\">Kisah Panjang Plastik</a>",
-    "026-learn-plastic-link": "/plastic",
+    "026-learn-plastic-link": "plastic.php,
     "027-learn-earthen-ethics": "ℹ️ Pelajari tentang: <a href=\"https://book.earthen.io/en/summaries.html\" target=\"_blank\">Etika Bumi</a>",
     "028-learn-earthen-ethics-link": "https://book.earthen.io/en/summaries.html",
 

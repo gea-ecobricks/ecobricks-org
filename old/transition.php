@@ -560,7 +560,7 @@ _END;?>
 
                 <ul>
 						<li>Following the <a href="https://medium.com/earthen/the-six-earthen-ways-1b2db3d2b27" target="_blank">Earth’s example</a> to be certain our processes are green</li>
-						<li>Understanding the way that <a href="/plastic">Earth sequestered its carbon to green the biosphere</a></li>
+						<li>Understanding the way that <a href="plastic.php>Earth sequestered its carbon to green the biosphere</a></li>
 						<li>The concept of <a href="sequest.php">plastic sequestration</a></li>
 						<li>Following <a href="/principles">regenerative principles</a>.</li>
                         <li> The regenerative <a href="/ayyew">concept of Ayyew</a> </li>
