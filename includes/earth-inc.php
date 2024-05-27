@@ -16,6 +16,16 @@
 <STYLE>
 
 
+
+.gal-photo {
+  padding: 10px;
+}
+
+.gal-photo p {font-size: 0.9em;
+  margin-bottom: 0px;
+  
+}
+
 @media screen and (min-width: 700px) { 
 .flex-gallery {
     display: flex;

@@ -67,8 +67,8 @@
 						<div id="three-column-gal" class="three-column-gal">
 
 								<!--photo1-->
-								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpg', 'Cleaning plastic before ecobricking is important')">
-									<img src="../how/clean1.jpeg" alt="Cleaning plastic before ecobricking is important">
+								<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
+									<img src="../photos/how/clean1.jpeg" alt="Cleaning plastic before ecobricking is important">
 									<p>Cleaning plastic before ecobricking is important</p>
 								</div>
 

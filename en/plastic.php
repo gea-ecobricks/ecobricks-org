@@ -187,6 +187,11 @@
 	<div style="width: 100%; overflow: hidden;">
 	        <img src="../photos/plastic-bag.jpg" alt="American Beauty Plastic Bag floating" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy">
 	    </div>
+
+		<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
+									<img src="../photos/how/clean1.jpeg" alt="Cleaning plastic before ecobricking is important">
+									<p>Cleaning plastic before ecobricking is important</p>
+								</div>
 	
 	    <p data-lang-id="039c-page-paragraph">Seeing our plastic through the lens of Earth's story, we can observe that…</p>
 	
