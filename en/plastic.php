@@ -173,7 +173,7 @@
 
 	<div class="opener-header">
 	
-	    <div class="opener-header-text" data-lang-id="006-opener-header-text">
+	    <div class="opener-header-text">
 	    <h4 data-lang-id="039-header-paragraph">Seeing Plastic Anew</h4>
 	    <h5 data-lang-id="039b-header-paragraph">In light of Earth’s ancient history, we can see our modern plastic differently…</h5>   
 	    <br>
@@ -184,13 +184,10 @@
 
 	<div id="preclosed2">
 
-	<div style="width: 100%; overflow: hidden;">
-	        <img src="../photos/plastic-bag.jpg" alt="American Beauty Plastic Bag floating" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy">
-	    </div>
 
 		<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
-									<img src="../photos/how/clean1.jpeg" alt="Cleaning plastic before ecobricking is important">
-									<p>Cleaning plastic before ecobricking is important</p>
+									<img src="../photos/how/clean1.jpeg" alt="Cleaning plastic before ecobricking is important" loading="lazy">
+									<p data-lang-id="039d-page-paragraph">Plastic that has been segregated, cleaned and dried for ecobricking.</p>
 								</div>
 	
 	    <p data-lang-id="039c-page-paragraph">Seeing our plastic through the lens of Earth's story, we can observe that…</p>
@@ -225,9 +222,13 @@
 
     <div id="preclosed1">
 
-	<div style="width: 100%; overflow: hidden;">
-	        <img src="../photos/earth-rise.webp" alt="Earth Rise Photo" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy">
-	    </div>
+
+	<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
+									<img src="../photos/earth-rise.webp" alt="Cleaning plastic before ecobricking is important" loading="lazy">
+									<p data-lang-id="039d-page-paragraph">Earth Rise - the first photo of Earth from the moon.  Seeing ourselves and our plastic from a planetary perspective is key.</p>
+								</div>
+
+
 
         <br>
         <p data-lang-id="042-page-paragraph">By looking closely at Earth’s primordial past we can observe…</p>
@@ -290,9 +291,12 @@
 
 <div id="preclosed3">
 
-<div style="width: 100%; overflow: hidden;">
-	        <img src="../photos/rice-terraces.webp" alt="Banue Rice Terraces" style="width: 100%; margin-bottom: 20px; margin-top:20px; height: auto;" loading="lazy">
-	    </div>
+
+<div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
+									<img src="../photos/rice-terraces.webp" alt="Cleaning plastic before ecobricking is important" loading="lazy">
+									<p data-lang-id="039d-page-paragraph">The Banue Rice Terraces in the land of the Igorot people - Northen Luzon, West Philippines Sea.</p>
+								</div>
+
 
 
         <p data-lang-id="053-page-paragraph">Many great civilizations and nations throughout human history have thrived in harmony with their surrounding ecologies. The way they looked at the world, what they valued and how they used money (capital) is something that we can learn much from.</p>
