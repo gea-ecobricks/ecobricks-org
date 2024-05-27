@@ -112,7 +112,18 @@ const en_Page_Translations = {
     
         "039d-photo-caption": "Plastic that has been segregated, cleaned and dried for ecobricking.",
         "041b-photo-caption": "Earth Rise - the first photo of Earth from the moon.  Seeing ourselves and our plastic from a planetary perspective is key.",
-        "052b-photo-caption": "The Banue Rice Terraces in the land of the Igorot people - Northern Luzon, West Philippines Sea."
+        "052b-photo-caption": "The Banue Rice Terraces in the land of the Igorot people - Northern Luzon, West Philippines Sea.",
+
+
+
+        "057-header-paragraph": "Plastic Sequestration",
+        "058-page-paragraph": "Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.",
+        "059-page-paragraph": "Earth’s example of short-term carbon cycling and long-term carbon storage can be applied to our plastic. The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.",
+        "060-page-paragraph": "Learn more…",
+        "061-button": "🍃 Plastic Sequestration",
+        "062-modules-info": "The criteria of plastic sequestration",
+        "063-page-paragraph": "Our account of Plastic's Long Story is based on <a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">Plastic's Interstellar Story</a> from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier. See this original account to go much deeper into plastic's story! The original version's scientific and social references are extensively footnoted."
+    
     
 
     

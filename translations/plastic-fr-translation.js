@@ -100,6 +100,19 @@ const fr_Page_Translations = {
         "065-page-paragraph": "Notre récit de la Longue Histoire du Plastique est basé sur <a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">L'Histoire Interstellaire du Plastique</a> du <i>Tractatus Ayyew : Une théorie de l'Éthique Terrestre</i>, Chapitre 4, par Banayan Angway et Russell Maier. Consultez ce récit original pour approfondir l'histoire du plastique ! Les références scientifiques et sociales de la version originale sont largement annotées.",
         "039d-photo-caption": "Plastique qui a été trié, nettoyé et séché pour l'écobricage.",
         "041b-photo-caption": "Earth Rise - la première photo de la Terre depuis la lune. Se voir nous-mêmes et notre plastique d'une perspective planétaire est essentiel.",
-        "052b-photo-caption": "Les rizières en terrasse de Banue dans la terre du peuple Igorot - Luzon Nord, Mer des Philippines Occidentale."
+        "052b-photo-caption": "Les rizières en terrasse de Banue dans la terre du peuple Igorot - Luzon Nord, Mer des Philippines Occidentale.",
+
+        "057-header-paragraph": "Séquestration du Plastique",
+        "058-page-paragraph": "En apprenant de l'exemple de la Terre et des peuples indigènes, la voie à suivre pour gérer notre plastique en tant que contribution écologique est claire.",
+        "059-page-paragraph": "L'exemple de la Terre en matière de cycle du carbone à court terme et de stockage du carbone à long terme peut être appliqué à notre plastique. La GEA a développé le concept et les critères de séquestration du plastique comme moyen de service écologique régénératif.",
+        "060-page-paragraph": "En savoir plus…",
+        "061-button": "🍃 Séquestration du Plastique",
+        "062-modules-info": "Les critères de séquestration du plastique",
+        "063-page-paragraph": "Notre récit de la Longue Histoire du Plastique est basé sur <a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">L'Histoire Interstellaire du Plastique</a> du <i>Tractatus Ayyew : Une théorie de l'Éthique Terrestre</i>, Chapitre 4, par Banayan Angway et Russell Maier. Consultez ce récit original pour approfondir beaucoup plus l'histoire du plastique ! Les références scientifiques et sociales de la version originale sont largement annotées."
+    
+    
+    
+    
+    
     };
     

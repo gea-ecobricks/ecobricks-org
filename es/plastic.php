@@ -3,10 +3,8 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='2.04';?>
+<?php $version='2.05';?>
 <?php $page='plastic';?>
-
-<title>The Long Story of Plastic</title>
 
 <?php require_once ("../includes/plastic-inc.php");?>
 

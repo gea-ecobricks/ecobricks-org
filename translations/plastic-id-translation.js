@@ -101,7 +101,16 @@ const id_Page_Translations = {
     "065-page-paragraph": "Cerita panjang kami tentang Plastik didasarkan pada <a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">Cerita Antarbintang Plastik</a> dari <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Bab 4, oleh Banayan Angway dan Russell Maier. Lihat akun asli ini untuk menggali lebih dalam cerita plastik! Referensi ilmiah dan sosial dari versi asli sangat diperlengkapi dengan catatan kaki.",
     "039d-photo-caption": "Plastik yang telah dipisahkan, dibersihkan, dan dikeringkan untuk ecobricking.",
     "041b-photo-caption": "Earth Rise - foto pertama Bumi dari bulan. Melihat diri kita dan plastik kita dari perspektif planet sangat penting.",
-    "052b-photo-caption": "Terraza Sawah Banue di tanah orang Igorot - Luzon Utara, Laut Filipina Barat."
+    "052b-photo-caption": "Terraza Sawah Banue di tanah orang Igorot - Luzon Utara, Laut Filipina Barat.",
+
+    "057-header-paragraph": "Sekuestrasi Plastik",
+    "058-page-paragraph": "Belajar dari contoh Bumi dan masyarakat adat, cara ke depan untuk mengelola plastik kita sebagai kontribusi ekologis sudah jelas.",
+    "059-page-paragraph": "Contoh siklus karbon jangka pendek dan penyimpanan karbon jangka panjang dari Bumi dapat diterapkan pada plastik kita. GEA telah mengembangkan konsep dan kriteria sekuestrasi plastik sebagai sarana layanan ekologi yang regeneratif.",
+    "060-page-paragraph": "Pelajari lebih lanjut…",
+    "061-button": "🍃 Sekuestrasi Plastik",
+    "062-modules-info": "Kriteria sekuestrasi plastik",
+    "063-page-paragraph": "Cerita panjang kami tentang Plastik didasarkan pada <a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">Cerita Antarbintang Plastik</a> dari <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Bab 4, oleh Banayan Angway dan Russell Maier. Lihat akun asli ini untuk menggali lebih dalam cerita plastik! Referensi ilmiah dan sosial dari versi asli sangat diperlengkapi dengan catatan kaki."
+
 
 
 }; 

@@ -102,7 +102,16 @@ const es_Page_Translations = {
                 "065-page-paragraph": "Nuestro relato de la Larga Historia del Plástico se basa en <a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">La Historia Interestelar del Plástico</a> del <i>Tractatus Ayyew: Una teoría de la Ética Terrestre</i>, Capítulo 4, por Banayan Angway y Russell Maier. ¡Consulta este relato original para profundizar mucho más en la historia del plástico! Las referencias científicas y sociales de la versión original están ampliamente anotadas.",
                 "039d-photo-caption": "Plástico que ha sido segregado, limpiado y secado para ecobricking.",
                 "041b-photo-caption": "Earth Rise - la primera foto de la Tierra desde la luna. Vernos a nosotros mismos y a nuestro plástico desde una perspectiva planetaria es clave.",
-                "052b-photo-caption": "Las terrazas de arroz de Banue en la tierra del pueblo Igorot - Luzón Norte, Mar de Filipinas Occidental."
+                "052b-photo-caption": "Las terrazas de arroz de Banue en la tierra del pueblo Igorot - Luzón Norte, Mar de Filipinas Occidental.",
+
+                "057-header-paragraph": "Secuestro de Plástico",
+                "058-page-paragraph": "Aprendiendo del ejemplo de la Tierra y de los pueblos indígenas, el camino a seguir para gestionar nuestro plástico como una contribución ecológica está claro.",
+                "059-page-paragraph": "El ejemplo de la Tierra de ciclado de carbono a corto plazo y almacenamiento de carbono a largo plazo se puede aplicar a nuestro plástico. La GEA ha desarrollado el concepto y los criterios de secuestro de plástico como un medio de servicio ecológico regenerativo.",
+                "060-page-paragraph": "Aprende más…",
+                "061-button": "🍃 Secuestro de Plástico",
+                "062-modules-info": "Los criterios de secuestro de plástico",
+                "063-page-paragraph": "Nuestro relato de la Larga Historia del Plástico se basa en <a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">La Historia Interestelar del Plástico</a> del <i>Tractatus Ayyew: Una teoría de la Ética Terrestre</i>, Capítulo 4, por Banayan Angway y Russell Maier. ¡Consulta este relato original para profundizar mucho más en la historia del plástico! Las referencias científicas y sociales de la versión original están ampliamente anotadas."
+            
             
 
 
