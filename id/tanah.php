@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="id"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
+<?php $lang='id';?>
 <?php $version='2.01';?>
 <?php $page='earth';?>
  
-<title>Earth & Ecobrick Building</title>
+<title>Bangunan Tanah & Ecobrick</title>
 
-<?php require_once ("../includes/earth-inc.php");?>
+<?php require_once ("../includes/earth2-inc.php");?>
 
-    	
+	
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick & Earth Building</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Build beautiful, strong, spiral, resilient and regenerative structures.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Bangunan Tanah & Ecobrick</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Bangun struktur yang indah dan kuat, resilien, dan regeneratif</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../svgs/tree-bench.svg" style="width: 85%">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Bangun struktur yang indah dan kuat, resilien, dan regeneratif">
     </div>	
 </div>
 <div id="splash-bar"></div>
