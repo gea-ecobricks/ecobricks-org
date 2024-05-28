@@ -10,7 +10,7 @@
 
 <?php require_once ("../includes/earth-inc.php");?>
 
-    	
+    	 
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick & Earth Building</div>

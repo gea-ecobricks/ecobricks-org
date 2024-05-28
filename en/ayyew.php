@@ -30,12 +30,17 @@
 		<div class="main">
 
 		<div class="lead-page-paragraph">				
-			<p data-lang-id="004-lead-page-paragraph">The Asian ecobrick movement emerged from the land of the Igorot people in the Northern Philippines and is deeply inspired by their ancient ancestral wisdom.</p>
+			<p data-lang-id="004-lead-page-paragraph">The Asian ecobrick movement emerged from the land of the Igorot people  and is deeply inspired by their ancestral ecological ethos.</p>
 		</div>
 
 		<div class="page-paragraph">
 	
-		<p data-lang-id="005-first-page-paragraph">The Igorots, one of the few unconquered indigenous people of the South East Asia, have thrived in ecological harmony for centuries in the remote mountains of the Northern Philippines. Like many other indigenous peoples around the world, the concept of waste does not exist in their language— and consequently in the world around them. Instead their culture was guided by a virtue and concept known as ‘Ayyew’.
+		<p data-lang-id="005-first-page-paragraph">The Igorots, one of the few unconquered indigenous people of the South East Asia, have thrived for centuries in the remote mountains of Northern Luzon in the Werst Philippines Sea. While Spanish, Japanese and Americans colonized the remainder of Philippines achipelogo, they struggled in vain to dominate the various Igorot tribes that lived in the fertile valleys and mountain tops of the region.  However, lone explorers and anthropologists who reached the region were made welcome.  They documented a tapestry of fierce cultures that spun in profound sync with the ecological cycles of the region. To this day, the region is a hot bed of resistance to attempts to industrial projects that would tame ecological forces of the land.<p>
+            
+        <p>While other cultures prided themselves on their paintings and sculpture, arms and archetecture, the Igorots had their own art.
+            
+        
+        Like many other indigenous peoples around the world, the concept of waste does not exist in their language— and consequently in the world around them. Instead their culture was guided by a virtue and concept known as <i>‘ayyew’</i>.
 		</div>
 
 
@@ -50,6 +55,8 @@
 </div>
 
 <div class="page-paragraph">    
+
+All aspects of Igorot life and culture are guided by the virtue of ayyew³. Men, women, households and communities are admired and respected to the degree in which they embody the principle. Ayyew means to not just to be in sync with a cycle, but to tend to its spin.
 
 
 <div class="row">           
