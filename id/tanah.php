@@ -3,12 +3,12 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='2.01';?>
+<?php $version='1.83';?>
 <?php $page='earth';?>
- 
+
 <title>Bangunan Tanah & Ecobrick</title>
 
-<?php require_once ("../includes/earth2-inc.php");?>
+<?php require_once ("../includes/earth-inc.php");?>
 
 	
 <div class="splash-content-block">
@@ -20,6 +20,17 @@
     </div>	
 </div>
 <div id="splash-bar"></div>
+
+<!--     	
+<div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">Bangunan Tanah & Ecobrick</div>
+	    <div class="splash-sub" data-lang-id="001-splash-title>Bangun struktur yang indah dan kuat, resilien, dan regeneratif</div>
+	</div>
+	<div class="splash-image"><img src="../svgs/tree-bench.svg" style="width: 85%">
+    </div>	
+</div>
+<div id="splash-bar"></div> -->
 
 
 
@@ -61,43 +72,31 @@
 
                     <br>
                     <div id="three-column-gal" class="three-column-gal">
-
-                        <!--photo1-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali')">
                             <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
                             <p>Mud Mosque in Djene, Mali</p>
                         </div>
-
-                        <!--photo2-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth2.jpg', '16th Century Tudor Cob Home, England')">
                             <img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England">
-                            <p>16th Century Tudor Cob Home - England</p>
+                            <p>16th Century Tudor Cob Home, England</p>
                         </div>
-
-                        <!--photo3-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth3.jpg', 'Ancient Navajo Dwelling')">
                             <img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling">
-                            <p>Ancient Navajo Dwelling -New Mexico, America</p>
+                            <p>Ancient Navajo Dwelling, New Mexico, America</p>
                         </div>
-
-                        <!--photo4-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-garden.jpeg?v=2', 'A simple raised bed garden bench.')">
                             <img src="../photos/earth-garden.jpeg?v=2" alt="A simple raised bed garden bench.">
-                            <p>A simple raised bed garden bench - Indonesia</p>
+                            <p>A simple raised bed garden bench -- Indonesia</p>
                         </div>
-
-                        <!--photo5-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-well.jpeg', 'A circular cob and ecobrick construction.')">
                             <img src="../photos/earth-well.jpeg" alt="A circular cob and ecobrick construction.">
-                            <p>A spiral cob and ecobrick construction - UK</p>
+                            <p>A spiral cob and ecobrick construction -- UK</p>
                         </div>
-
-                        <!--photo6-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-snake.jpeg', 'An ecobrick snake play-bench for a public park.')">
                             <img src="../photos/earth-snake.jpeg" alt="An ecobrick snake play-bench for a public park.">
-                            <p>An ecobrick snake play-bench for a public park - Philippines</p>
+                            <p>An ecobrick snake play-bench for a public park -- Philippines</p>
                         </div>
-                    </div><!--closes gallery-->
+</div>
 
 
                     
@@ -461,6 +460,134 @@
 
 <!-- CUSTOM PAGE SCRIPTS-->
 <script>
+
+function viewGalleryImage(imageSrc, altText) {
+    // Modal background
+    const modalBackground = document.createElement('div');
+    modalBackground.style.position = 'fixed';
+    modalBackground.style.top = '0';
+    modalBackground.style.left = '0';
+    modalBackground.style.width = '100%';
+    modalBackground.style.height = '100%';
+    modalBackground.style.backgroundColor = 'var(--show-hide)';
+    modalBackground.style.display = 'flex';
+    modalBackground.style.justifyContent = 'center';
+    modalBackground.style.alignItems = 'center';
+    modalBackground.style.zIndex = '1000';
+
+    // Modal content
+    const modalContent = document.createElement('div');
+    modalContent.style.position = 'relative';
+    modalContent.style.padding = '20px';
+
+    // Image
+    const img = document.createElement('img');
+    img.src = imageSrc;
+    img.alt = altText;
+    img.style.maxWidth = '90%';
+    img.style.maxHeight = '80vh'; // Adjusted for viewport height
+    img.style.minWidth = '70%';
+
+    // Caption
+    const caption = document.createElement('p');
+    caption.textContent = altText;
+    caption.style.color = 'var(--h1)';
+    caption.style.textAlign = 'center';
+    caption.style.paddingTop = '10px';
+
+    // Close button
+    const closeButton = document.createElement('div');
+    closeButton.innerHTML = 'X';
+    closeButton.style.position = 'absolute';
+    closeButton.style.top = '10px';
+    closeButton.style.right = '15px';
+    closeButton.style.cursor = 'pointer';
+    closeButton.style.color = 'var(--h1)';
+
+    closeButton.onclick = function() {
+        document.body.removeChild(modalBackground);
+    };
+
+    modalContent.appendChild(img);
+    modalContent.appendChild(caption);
+    modalContent.appendChild(closeButton);
+    modalBackground.appendChild(modalContent);
+
+    modalBackground.onclick = function(event) {
+        if (event.target === modalBackground) {
+            document.body.removeChild(modalBackground);
+        }
+    };
+
+    document.body.appendChild(modalBackground);
+
+}
+
+
+    function createInfoModal(infoText) {
+    // Modal background
+    const modalBackground = document.createElement('div');
+    modalBackground.style.position = 'fixed';
+    modalBackground.style.top = '0';
+    modalBackground.style.left = '0';
+    modalBackground.style.width = '100%';
+    modalBackground.style.height = '100%';
+    modalBackground.style.backgroundColor = 'var(--show-hide)';
+    modalBackground.style.display = 'flex';
+    modalBackground.style.justifyContent = 'center';
+    modalBackground.style.alignItems = 'center';
+    modalBackground.style.zIndex = '1000';
+
+    // Modal content
+    const modalContent = document.createElement('div');
+    modalContent.style.position = 'relative';
+    modalContent.style.padding = '20px';
+    modalContent.style.backgroundColor = 'var(--emblem-pink)';
+    modalContent.style.borderRadius = '10px';
+    modalContent.style.maxWidth = '90%';
+    modalContent.style.maxHeight = '80vh'; // Adjusted for viewport height
+    modalContent.style.minWidth = '70%';
+    modalContent.style.width = '50%';
+    modalContent.style.color = 'var(--slide-overlays)';
+    
+
+
+    // Close button
+    const closeButton = document.createElement('div');
+    closeButton.innerHTML = 'x';
+    closeButton.style.position = 'absolute';
+    closeButton.style.top = '10px';
+    closeButton.style.right = '15px';
+    closeButton.style.cursor = 'pointer';
+    closeButton.style.color = 'black';
+
+    closeButton.onclick = function() {
+        document.body.removeChild(modalBackground);
+    };
+
+    // Header
+    const header = document.createElement('h4');
+    header.textContent = 'A quick fact';
+    header.style.marginBottom = '15px';
+
+    // Info text
+    const infoParagraph = document.createElement('p');
+    infoParagraph.textContent = infoText;
+    infoParagraph.style.textAlign = 'justify';
+
+    modalContent.appendChild(closeButton);
+    modalContent.appendChild(header);
+    modalContent.appendChild(infoParagraph);
+    modalBackground.appendChild(modalContent);
+
+    modalBackground.onclick = function(event) {
+        if (event.target === modalBackground) {
+            document.body.removeChild(modalBackground);
+        }
+    };
+
+    document.body.appendChild(modalBackground);
+}
 
 
 </script>
