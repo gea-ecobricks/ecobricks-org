@@ -27,10 +27,10 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
                  <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Nouvelle Guide</div>
-                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Notre guide sur les écobriques est mis à jour pour 2024.</div>
+                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">L'histoire planétaire du plastique</div>
+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">D'où vient vraiment le plastique?</div>
 
-                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">Guide en 10 Étapes</a>
+                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">Allez en profondeur!</a>
                  </div>
              </div>
          </div>
