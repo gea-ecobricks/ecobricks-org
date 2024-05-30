@@ -6,9 +6,9 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 -----------------------------------*/
 
 const fr_Page_Translations = {
-    "300-featured-content-1-title": "Nouvelle Guide",
-    "301-featured-content-1-subtitle": "Notre guide sur les écobriques est mis à jour pour 2024.",
-    "302-featured-content-1-button": "Guide en 10 étapes",
+  "300-featured-content-1-title": "L'histoire planétaire du plastique",
+  "301-featured-content-1-subtitle": "D'où vient vraiment le plastique?",
+  "302-featured-content-1-button": "Allez en profondeur!",
     "403-featured-live-brikchain": "<span class=\"blink\">⬤  </span>Flux de projets en direct. Cliquez pour prévisualiser.",
     "404-featured-live-heading": "Écobriques Appliquées",
     "405-featured-live-subheading": "Projets d'écobriques enregistrés par des écobriqueurs du monde entier.",

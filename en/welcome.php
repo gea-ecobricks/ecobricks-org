@@ -25,10 +25,10 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
                  <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Updated Guidelines</div>
-                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Our ecobricking guide is updated for 2024.</div>
+                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">The Long Story of Plastic</div>
+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Where does plastic really come from?</div>
 
-                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">New 10-step Guide</a>
+                     <a class="content1-button" href="how.php" data-lang-id="302-featured-content-1-button">Go deep!</a>
                  </div>
              </div>
          </div>

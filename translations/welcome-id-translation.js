@@ -15,9 +15,9 @@ INDONESIAN SNIPPETS FOR ECOBRICKS.ORG
 // Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
 
 const id_Page_Translations = {
-    "300-featured-content-1-title": "Pedoman Terbaru",
-    "301-featured-content-1-subtitle": "Panduan ecobrick kami telah diperbarui untuk tahun 2024.",
-    "302-featured-content-1-button": "Panduan Baru 10 Langkah",
+  "300-featured-content-1-title": "Kisah Plastik dan Planet",
+  "301-featured-content-1-subtitle": "Dari mana sebenarnya plastik berasal?",
+  "302-featured-content-1-button": "Jelajahi lebih dalam!",
     "403-featured-live-brikchain": "<span class=\"blink\">⬤  </span>Feed proyek langsung. Klik untuk pratinjau.",
     "404-featured-live-heading": "Ecobrick yang Diterapkan",
     "405-featured-live-subheading": "Proyek ecobrick yang dicatat oleh penggiat ecobrick dari seluruh dunia.",

@@ -15,9 +15,9 @@ ENGLISH SNIPPETS FOR ECOBRICKS.ORG
 // Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
 
 const en_Page_Translations = {
-  "300-featured-content-1-title": "Updated Guidelines",
-  "301-featured-content-1-subtitle": "Our ecobricking guide is updated for 2024.",
-  "302-featured-content-1-button": "New 10-step Guide",
+  "300-featured-content-1-title": "The Planetary Story of Plastic",
+  "301-featured-content-1-subtitle": "Where does plastic really come from?",
+  "302-featured-content-1-button": "Go deep!",
   "403-featured-live-brikchain": "<span class=\"blink\">⬤  </span>Live projects feed.  Click to preview.",
   "404-featured-live-heading": "Ecobricks Applied",
   "405-featured-live-subheading": "Ecobricks projects logged by ecobrickers from around the world.",
