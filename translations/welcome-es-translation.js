@@ -23,7 +23,7 @@ const es_Page_Translations = {
 
        "300-featured-content-1-title": "La historia planetaria del plástico",
        "301-featured-content-1-subtitle": "¿De dónde viene realmente el plástico?",
-       "302-featured-content-1-button": "¡Ir a fondo!",
+       "302-featured-content-1-button": "🌎 ¡Ir a fondo!",
       
        '302-featured-2-heading': 'Mantén Tu Plástico Seguro',
        '303-featured-live-brikchain': 'Alimentación en vivo de brikchain de ecobricks autenticados. Haz clic para previsualizar.',

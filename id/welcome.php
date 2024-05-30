@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='3.02';?>
+<?php $version='3.41';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
