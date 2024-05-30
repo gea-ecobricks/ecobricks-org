@@ -146,7 +146,7 @@ margin: auto 10px auto 18px;
   }
 
   .featured-content-1 {
-    background-image: url('../photos/photo3-mobile.webp');
+    background-image: url('../photos/photo3-mobile.webp?v=2');
   }
 
   .featured-content-shaded-box {
@@ -157,7 +157,7 @@ margin: auto 10px auto 18px;
 
 @media (min-width: 701px) and (max-width: 1200px) {
   .featured-content-1 {
-    background-image: url('../photos/photo3-tablet.webp');
+    background-image: url('../photos/photo3-tablet.webp?v=2');
   }
 
   .featured-content-shaded-box {
@@ -174,7 +174,7 @@ margin: auto 10px auto 18px;
 
 @media (min-width: 1201px) {
   .featured-content-1 {
-    background-image: url('../photos/photo3-desktop.webp');
+    background-image: url('../photos/photo3-desktop.webp?v=2');
   }
 
   .featured-content-shaded-box {
