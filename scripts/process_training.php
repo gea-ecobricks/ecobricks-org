@@ -17,10 +17,16 @@ if ($conn->connect_error) {
 }
 
 // Prepare the API request to retrieve training data
-$url = "https://api.knack.com/v1/objects/object_48/records?filters=field_1361=" . $training_id; // Use the correct field key for the training ID
+$filters = json_encode([[
+    "field" => "field_1361",
+    "operator" => "is",
+    "value" => $training_id
+]]);
+
+$url = "https://api.knack.com/v1/objects/object_48/records?filters=" . urlencode($filters);
 $options = [
     "http" => [
-        "header" => "Authorization: " . $api_key . "\r\nX-Knack-Application-Id: " . $app_id . "\r\n",
+        "header" => "Authorization: $api_key\r\nX-Knack-Application-Id: $app_id\r\n",
         "method" => "GET"
     ]
 ];
