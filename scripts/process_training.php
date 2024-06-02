@@ -16,8 +16,20 @@ if ($conn->connect_error) {
     die("<script>alert('Connection failed: " . $conn->connect_error . "');</script>");
 }
 
+// Prepare filters
+$filters = [
+    'match' => 'and',
+    'rules' => [
+        [
+            'field' => 'field_1361',
+            'operator' => 'is',
+            'value' => $training_id
+        ]
+    ]
+];
+
 // Prepare the API request to retrieve multiple training records
-$url = "https://api.knack.com/v1/objects/object_48/records";
+$url = "https://api.knack.com/v1/objects/object_48/records?filters=" . urlencode(json_encode($filters));
 
 // Initialize cURL session
 $ch = curl_init($url);
