@@ -16,79 +16,79 @@ if ($conn->connect_error) {
     die("<script>alert('Connection failed: " . $conn->connect_error . "');</script>");
 }
 
-// Prepare the API request to retrieve multiple training records
-$url = "https://api.knack.com/v1/objects/object_48/records";
+$base_url = "https://api.knack.com/v1/objects/object_48/records";
+$page = 1;
+$record_found = false;
+$success = true;
+$errors = [];
 
-// Initialize cURL session
-$ch = curl_init($url);
+do {
+    // Prepare the API request to retrieve multiple training records with pagination
+    $url = $base_url . "?page=" . $page;
 
-// Set cURL options
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_HTTPHEADER, [
-    "X-Knack-Application-Id: $app_id",
-    "X-Knack-REST-API-Key: $api_key"
-]);
+    // Initialize cURL session
+    $ch = curl_init($url);
 
-// Execute cURL request
-$response = curl_exec($ch);
+    // Set cURL options
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        "X-Knack-Application-Id: $app_id",
+        "X-Knack-REST-API-Key: $api_key"
+    ]);
 
-// Check for cURL errors
-if ($response === false) {
-    $error = curl_error($ch);
-    echo "<script>alert('Error fetching data from Knack API: " . addslashes($error) . "');</script>";
+    // Execute cURL request
+    $response = curl_exec($ch);
+
+    // Check for cURL errors
+    if ($response === false) {
+        $error = curl_error($ch);
+        echo "<script>alert('Error fetching data from Knack API: " . addslashes($error) . "');</script>";
+        curl_close($ch);
+        exit;
+    }
+
+    // Close cURL session
     curl_close($ch);
-    exit;
-}
 
-// Close cURL session
-curl_close($ch);
+    $data = json_decode($response, true);
 
-// Add console logging to confirm API access and response
-echo "<script>console.log('Knack API Request URL: " . addslashes($url) . "');</script>";
-echo "<script>console.log('Knack API Response: " . addslashes($response) . "');</script>";
+    // Check if records were retrieved
+    if (isset($data['records']) && count($data['records']) > 0) {
+        foreach ($data['records'] as $record) {
+            if (isset($record['field_1361']) && $record['field_1361'] == $training_id) {
+                $record_found = true;
+                // Extract the necessary data from the Knack payload
+                $training_id = $record['field_1361'];
+                $training_title = $record['field_1084'];
 
-$data = json_decode($response, true);
+                // Prepare and bind
+                $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title) VALUES (?, ?)");
+                $stmt->bind_param("ss", $training_id, $training_title);
 
-// Check if records were retrieved
-if (isset($data['records']) && count($data['records']) > 0) {
-    $success = true;
-    $errors = [];
-    $record_found = false;
+                // Execute statement
+                if (!$stmt->execute()) {
+                    $success = false;
+                    $errors[] = $stmt->error;
+                }
 
-    foreach ($data['records'] as $record) {
-        if (isset($record['field_1361']) && $record['field_1361'] == $training_id) {
-            $record_found = true;
-            // Extract the necessary data from the Knack payload
-            $training_id = $record['field_1361']; // The ID of the training
-            $training_title = $record['field_1084']; // The title of the training
-
-            // Prepare and bind
-            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title) VALUES (?, ?)");
-            $stmt->bind_param("ss", $training_id, $training_title);
-
-            // Execute statement
-            if (!$stmt->execute()) {
-                $success = false;
-                $errors[] = $stmt->error;
+                // Close the statement
+                $stmt->close();
+                break;
             }
-            
-            // Close the statement
-            $stmt->close();
-            break;
         }
     }
 
-    if ($record_found) {
-        if ($success) {
-            echo "<script>alert('Record added successfully.');</script>";
-        } else {
-            echo "<script>alert('Error: " . implode(", ", $errors) . "');</script>";
-        }
+    $page++;
+} while (!$record_found && $page <= $data['total_pages']);
+
+if ($record_found) {
+    if ($success) {
+        echo "<script>alert('Record added successfully.');</script>";
     } else {
-        echo "<script>alert('No records found for the given Training ID.');</script>";
+        echo "<script>alert('Error: " . implode(", ", $errors) . "');</script>";
     }
 } else {
-    echo "<script>alert('No records found in the Knack database.');</script>";
+    echo "<script>alert('No records found for the given Training ID.');</script>";
 }
 
 // Close the database connection
