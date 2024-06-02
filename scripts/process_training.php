@@ -17,16 +17,10 @@ if ($conn->connect_error) {
 }
 
 // Prepare the API request to retrieve training data
-$filters = json_encode([[
-    "field" => "field_1361",
-    "operator" => "is",
-    "value" => $training_id
-]]);
-
-$url = "https://api.knack.com/v1/objects/object_48/records?filters=" . urlencode($filters);
+$url = "https://api.knack.com/v1/objects/object_48/records/" . $training_id;
 $options = [
     "http" => [
-        "header" => "Authorization: $api_key\r\nX-Knack-Application-Id: $app_id\r\nContent-Type: application/json\r\n",
+        "header" => "X-Knack-Application-Id: $app_id\r\nX-Knack-REST-API-Key: $api_key\r\n",
         "method" => "GET"
     ]
 ];
@@ -47,27 +41,27 @@ if ($response === FALSE) {
 $data = json_decode($response, true);
 
 // Check if records were retrieved
-if (isset($data['records']) && count($data['records']) > 0) {
+if (isset($data['id'])) {
     $success = true;
     $errors = [];
-    foreach ($data['records'] as $record) {
-        // Extract the necessary data from the Knack payload
-        $training_id = $record['field_1361']; // The ID of the training
-        $training_title = $record['field_1084']; // The title of the training
 
-        // Prepare and bind
-        $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title) VALUES (?, ?)");
-        $stmt->bind_param("ss", $training_id, $training_title);
+    // Extract the necessary data from the Knack payload
+    $training_id = $data['field_1361']; // The ID of the training
+    $training_title = $data['field_1084']; // The title of the training
 
-        // Execute statement
-        if (!$stmt->execute()) {
-            $success = false;
-            $errors[] = $stmt->error;
-        }
-        
-        // Close the statement
-        $stmt->close();
+    // Prepare and bind
+    $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title) VALUES (?, ?)");
+    $stmt->bind_param("ss", $training_id, $training_title);
+
+    // Execute statement
+    if (!$stmt->execute()) {
+        $success = false;
+        $errors[] = $stmt->error;
     }
+    
+    // Close the statement
+    $stmt->close();
+
     if ($success) {
         echo "<script>alert('Record added successfully.');</script>";
     } else {
