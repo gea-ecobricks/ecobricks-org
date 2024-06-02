@@ -26,18 +26,25 @@ $filters = json_encode([[
 $url = "https://api.knack.com/v1/objects/object_48/records?filters=" . urlencode($filters);
 $options = [
     "http" => [
-        "header" => "Authorization: $api_key\r\nX-Knack-Application-Id: $app_id\r\n",
+        "header" => "Authorization: $api_key\r\nX-Knack-Application-Id: $app_id\r\nContent-Type: application/json\r\n",
         "method" => "GET"
     ]
 ];
 
 $context = stream_context_create($options);
 $response = file_get_contents($url, false, $context);
-$data = json_decode($response, true);
 
 // Add console logging to confirm API access and response
 echo "<script>console.log('Knack API Request URL: " . addslashes($url) . "');</script>";
-echo "<script>console.log('Knack API Response: " . addslashes(json_encode($data)) . "');</script>";
+echo "<script>console.log('Knack API Response: " . addslashes($response) . "');</script>";
+
+if ($response === FALSE) {
+    $error = error_get_last();
+    echo "<script>alert('Error fetching data from Knack API: " . addslashes($error['message']) . "');</script>";
+    exit;
+}
+
+$data = json_decode($response, true);
 
 // Check if records were retrieved
 if (isset($data['records']) && count($data['records']) > 0) {
