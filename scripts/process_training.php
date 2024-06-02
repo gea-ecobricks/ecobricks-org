@@ -71,12 +71,17 @@ if (isset($data['records']) && count($data['records']) > 0) {
         if (isset($record['field_1361']) && $record['field_1361'] == $training_id) {
             $record_found = true;
             // Extract the necessary data from the Knack payload
-            $training_id = $record['field_1361']; // The ID of the training
-            $training_title = $record['field_1084']; // The title of the training
+            $training_id = $record['field_1361'];
+            $training_title = $record['field_1084'];
+            $training_logged = $record['field_1805'];
+            $training_date = $record['field_1806'];
+            $no_participants = $record['field_1091'];
+            $lead_trainer = $record['field_1093'];
+            $training_photo1_main = $record['field_1327'];
 
             // Prepare and bind
-            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title) VALUES (?, ?)");
-            $stmt->bind_param("ss", $training_id, $training_title);
+            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, training_date, no_participants, lead_trainer, training_photo1_main) VALUES (?, ?, ?, ?, ?, ?, ?)");
+            $stmt->bind_param("sssssss", $training_id, $training_title, $training_logged, $training_date, $no_participants, $lead_trainer, $training_photo1_main);
 
             // Execute statement
             if (!$stmt->execute()) {
