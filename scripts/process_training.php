@@ -18,25 +18,34 @@ if ($conn->connect_error) {
 
 // Prepare the API request to retrieve multiple training records
 $url = "https://api.knack.com/v1/objects/object_48/records";
-$options = [
-    "http" => [
-        "header" => "Authorization: $api_key\r\nX-Knack-Application-Id: $app_id\r\nContent-Type: application/json\r\n",
-        "method" => "GET"
-    ]
-];
 
-$context = stream_context_create($options);
-$response = file_get_contents($url, false, $context);
+// Initialize cURL session
+$ch = curl_init($url);
+
+// Set cURL options
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    "X-Knack-Application-Id: $app_id",
+    "X-Knack-REST-API-Key: $api_key"
+]);
+
+// Execute cURL request
+$response = curl_exec($ch);
+
+// Check for cURL errors
+if ($response === false) {
+    $error = curl_error($ch);
+    echo "<script>alert('Error fetching data from Knack API: " . addslashes($error) . "');</script>";
+    curl_close($ch);
+    exit;
+}
+
+// Close cURL session
+curl_close($ch);
 
 // Add console logging to confirm API access and response
 echo "<script>console.log('Knack API Request URL: " . addslashes($url) . "');</script>";
 echo "<script>console.log('Knack API Response: " . addslashes($response) . "');</script>";
-
-if ($response === FALSE) {
-    $error = error_get_last();
-    echo "<script>alert('Error fetching data from Knack API: " . addslashes($error['message']) . "');</script>";
-    exit;
-}
 
 $data = json_decode($response, true);
 
