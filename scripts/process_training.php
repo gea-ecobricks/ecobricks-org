@@ -29,6 +29,10 @@ $context = stream_context_create($options);
 $response = file_get_contents($url, false, $context);
 $data = json_decode($response, true);
 
+// Add console logging to confirm API access and response
+echo "<script>console.log('Knack API Request URL: " . addslashes($url) . "');</script>";
+echo "<script>console.log('Knack API Response: " . addslashes(json_encode($data)) . "');</script>";
+
 // Check if records were retrieved
 if (isset($data['records']) && count($data['records']) > 0) {
     $success = true;
