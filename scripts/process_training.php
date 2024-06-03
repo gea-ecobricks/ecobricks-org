@@ -70,6 +70,8 @@ $record_details = "";
 
 // PART 2
 
+// PART 2
+
 $data = json_decode($response, true);
 
 $record_found = false;
@@ -171,6 +173,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
 } else {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
+
 
 
 //PART 3
