@@ -68,7 +68,6 @@ $record_details = "";
 
 
 
-
 // PART 2
 
 $data = json_decode($response, true);
@@ -101,16 +100,12 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_challenges = $record['field_1378'];
             $training_lessons_learned = $record['field_1379'];
 
-            // Extract additional image URLs
-            $training_photo1_main = isset($record['field_1328_raw']) ? $record['field_1328_raw']['url'] : null;
-            $training_photo6_main = isset($record['field_2181_raw']) ? $record['field_2181_raw']['url'] : null;
-
             // Prepare and bind
-            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo1_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned, training_photo6_main) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo0_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
             if ($stmt === false) {
                 die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
             }
-            $stmt->bind_param("ssssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo1_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned, $training_photo6_main);
+            $stmt->bind_param("sssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo0_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
 
             // Execute statement
             if (!$stmt->execute()) {
@@ -123,6 +118,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
             // Collect record details for displaying in HTML
             $record_details = "
+                <p><img src='$training_photo0_main' alt='Training Photo' style='max-width: 450px;' /></p>
                 <p>Training ID: $training_id</p>
                 <p>Training Title: $training_title</p>
                 <p>Training Logged: $training_logged</p>
@@ -137,8 +133,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 <p>Training Success: $training_success</p>
                 <p>Training Challenges: $training_challenges</p>
                 <p>Training Lessons Learned: $training_lessons_learned</p>
-                <p>Training Photo 1: <img src='$training_photo1_main' alt='Training Photo 1' style='max-width: 350px;' /></p>
-                <p>Training Photo 6: <img src='$training_photo6_main' alt='Training Photo 6' style='max-width: 350px;' /></p>
             ";
             break;
         }
