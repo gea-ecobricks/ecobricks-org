@@ -84,25 +84,25 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
             $record_found = true;
             // Extract the necessary data from the Knack payload
-            $training_id = isset($record['field_1361']) ? $record['field_1361'] : '';
-            $training_title = isset($record['field_1084']) ? $record['field_1084'] : '';
-            $training_logged = isset($record['field_1085']) ? $record['field_1085'] : '';
-            $no_participants = isset($record['field_1091']) ? $record['field_1091'] : '';
-            $lead_trainer = isset($record['field_1093_raw']) && is_array($record['field_1093_raw']) ? $record['field_1093_raw'][0]['identifier'] : '';
-            $training_photo0_main = isset($record['field_1327_raw']) ? $record['field_1327_raw']['url'] : '';
-            $training_type = isset($record['field_1087']) ? $record['field_1087'] : '';
-            $briks_made = isset($record['field_1896']) ? $record['field_1896'] : '';
-            $est_plastic_packed = isset($record['field_1897']) ? $record['field_1897'] : '';
-            $location_full = isset($record['field_1114_raw']) && is_array($record['field_1114_raw']) ? $record['field_1114_raw'][0]['identifier'] : '';
-            $training_summary = isset($record['field_1362']) ? $record['field_1362'] : '';
-            $training_agenda = isset($record['field_1376']) ? $record['field_1376'] : '';
-            $training_success = isset($record['field_1377']) ? $record['field_1377'] : '';
-            $training_challenges = isset($record['field_1378']) ? $record['field_1378'] : '';
-            $training_lessons_learned = isset($record['field_1379']) ? $record['field_1379'] : '';
-            $training_photo1_main = isset($record['field_1328_raw']) ? $record['field_1328_raw']['url'] : '';
-            $training_photo2_main = isset($record['field_1329_raw']) ? $record['field_1329_raw']['url'] : '';
-            $training_photo3_main = isset($record['field_2179_raw']) ? $record['field_2179_raw']['url'] : '';
-            $training_photo4_main = isset($record['field_2178_raw']) ? $record['field_2178_raw']['url'] : 'nothing';
+            $training_id = isset($record['field_1361']) ? $record['field_1361'] : 'no link found';
+            $training_title = isset($record['field_1084']) ? $record['field_1084'] : 'no link found';
+            $training_logged = isset($record['field_1085']) ? $record['field_1085'] : 'no link found';
+            $no_participants = isset($record['field_1091']) ? $record['field_1091'] : 'no link found';
+            $lead_trainer = isset($record['field_1093_raw']) && is_array($record['field_1093_raw']) ? $record['field_1093_raw'][0]['identifier'] : 'no link found';
+            $training_photo0_main = isset($record['field_1327_raw']) ? $record['field_1327_raw']['url'] : 'no link found';
+            $training_type = isset($record['field_1087']) ? $record['field_1087'] : 'no link found';
+            $briks_made = isset($record['field_1896']) ? $record['field_1896'] : 'no link found';
+            $est_plastic_packed = isset($record['field_1897']) ? $record['field_1897'] : 'no link found';
+            $location_full = isset($record['field_1114_raw']) && is_array($record['field_1114_raw']) ? $record['field_1114_raw'][0]['identifier'] : 'no link found';
+            $training_summary = isset($record['field_1362']) ? $record['field_1362'] : 'no link found';
+            $training_agenda = isset($record['field_1376']) ? $record['field_1376'] : 'no link found';
+            $training_success = isset($record['field_1377']) ? $record['field_1377'] : 'no link found';
+            $training_challenges = isset($record['field_1378']) ? $record['field_1378'] : 'no link found';
+            $training_lessons_learned = isset($record['field_1379']) ? $record['field_1379'] : 'no link found';
+            $training_photo1_main = isset($record['field_1328_raw']) ? $record['field_1328_raw']['url'] : 'no link found';
+            $training_photo2_main = isset($record['field_1329_raw']) ? $record['field_1329_raw']['url'] : 'no link found';
+            $training_photo3_main = isset($record['field_2179_raw']) ? $record['field_2179_raw']['url'] : 'no link found';
+            $training_photo4_main = isset($record['field_2178_raw']) ? $record['field_2178_raw']['url'] : 'no link found';
 
             // Check if the training ID already exists in the database
             $check_stmt = $conn->prepare("SELECT training_id FROM tb_trainings WHERE training_id = ?");
@@ -172,6 +172,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
 } else {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
+
 
 
 //PART 3
