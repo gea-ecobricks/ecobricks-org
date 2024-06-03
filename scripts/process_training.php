@@ -121,7 +121,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 if ($stmt === false) {
                     die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
                 }
-                $stmt->bind_param("ssssssssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo0_main, $training_photo1_main, $training_photo2_main, $training_photo3_main, $training_photo4_main, $training_photo5_main, $training_photo6_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
+                $stmt->bind_param("sssssssssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo0_main, $training_photo1_main, $training_photo2_main, $training_photo3_main, $training_photo4_main, $training_photo5_main, $training_photo6_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
 
                 // Execute statement
                 if (!$stmt->execute()) {
