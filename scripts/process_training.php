@@ -106,7 +106,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             if ($stmt === false) {
                 die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
             }
-            $stmt->bind_param("sssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo1_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
+            $stmt->bind_param("sssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo0_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
 
             // Execute statement
             if (!$stmt->execute()) {
@@ -124,7 +124,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 <p>Training Logged: $training_logged</p>
                 <p>Number of Participants: $no_participants</p>
                 <p>Lead Trainer: $lead_trainer</p>
-                <p>Training Photo: <img src='$training_photo1_main' alt='Training Photo' /></p>
+                <p>Training Photo: <img src='$training_photo0_main' alt='Training Photo' /></p>
                 <p>Training Type: $training_type</p>
                 <p>Briks Made: $briks_made</p>
                 <p>Estimated Plastic Packed: $est_plastic_packed</p>
