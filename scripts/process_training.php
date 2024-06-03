@@ -1,5 +1,7 @@
 <?php
+//PART 1 of the code
 // process_training.php
+
 
 include '../ecobricks_env.php';
 
@@ -64,6 +66,14 @@ $data = json_decode($response, true);
 $record_found = false;
 $record_details = "";
 
+
+// PART 2
+
+$data = json_decode($response, true);
+
+$record_found = false;
+$record_details = "";
+
 // Check if records were retrieved
 if (isset($data['records']) && count($data['records']) > 0) {
     $success = true;
@@ -75,13 +85,15 @@ if (isset($data['records']) && count($data['records']) > 0) {
             // Extract the necessary data from the Knack payload
             $training_id = $record['field_1361'];
             $training_title = $record['field_1084'];
+            $no_participants = $record['field_1091'];
+            $lead_trainer = is_array($record['field_1093_raw']) ? $record['field_1093_raw'][0]['identifier'] : null;
 
             // Prepare and bind
-            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title) VALUES (?, ?)");
+            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, no_participants, lead_trainer) VALUES (?, ?, ?, ?)");
             if ($stmt === false) {
                 die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
             }
-            $stmt->bind_param("ss", $training_id, $training_title);
+            $stmt->bind_param("ssss", $training_id, $training_title, $no_participants, $lead_trainer);
 
             // Execute statement
             if (!$stmt->execute()) {
@@ -96,6 +108,8 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $record_details = "
                 <p>Training ID: $training_id</p>
                 <p>Training Title: $training_title</p>
+                <p>Number of Participants: $no_participants</p>
+                <p>Lead Trainer: $lead_trainer</p>
             ";
             break;
         }
