@@ -68,8 +68,6 @@ $record_found = false;
 $record_details = "";
 
 
-
-// PART 2
 // PART 2
 
 $data = json_decode($response, true);
@@ -84,6 +82,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
     foreach ($data['records'] as $record) {
         if (isset($record['field_1361']) && $record['field_1361'] == $training_id) {
+
             $record_found = true;
             // Extract the necessary data from the Knack payload
             $training_id = $record['field_1361'];
@@ -95,7 +94,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_type = $record['field_1087'];
             $briks_made = $record['field_1896'];
             $est_plastic_packed = $record['field_1897'];
-            $location_full = $record['field_1114_raw'];
+            $location_full = is_array($record['field_1114_raw']) ? $record['field_1114_raw'][0]['identifier'] : null;
             $training_summary = $record['field_1362'];
             $training_agenda = $record['field_1376'];
             $training_success = $record['field_1377'];
@@ -120,7 +119,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
             // Collect record details for displaying in HTML
             $record_details = "
-                <p><img src='$training_photo0_main' alt='Training Photo' style='max-width: 450px;' /></p>
+                <p><img src='$training_photo0_main' alt='Feature Photo 0' style='max-width: 450px;' title='Feature Photo 0' /></p>
                 <p><strong>Training ID:</strong> $training_id</p>
                 <p><strong>Training Title:</strong> $training_title</p>
                 <p><strong>Training Logged:</strong> $training_logged</p>
