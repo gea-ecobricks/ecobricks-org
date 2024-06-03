@@ -87,13 +87,14 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $no_participants = $record['field_1091'];
             $lead_trainer = is_array($record['field_1093_raw']) ? $record['field_1093_raw'][0]['identifier'] : null;
             $training_photo1_main = isset($record['field_1327_raw']) ? $record['field_1327_raw']['url'] : null;
+            $training_logged = $record['field_1805'];
 
             // Prepare and bind
-            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, no_participants, lead_trainer, training_photo1_main) VALUES (?, ?, ?, ?, ?)");
+            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, no_participants, lead_trainer, training_photo1_main, training_logged) VALUES (?, ?, ?, ?, ?, ?)");
             if ($stmt === false) {
                 die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
             }
-            $stmt->bind_param("sssss", $training_id, $training_title, $no_participants, $lead_trainer, $training_photo1_main);
+            $stmt->bind_param("ssssss", $training_id, $training_title, $no_participants, $lead_trainer, $training_photo1_main, $training_logged);
 
             // Execute statement
             if (!$stmt->execute()) {
@@ -110,7 +111,8 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 <p>Training Title: $training_title</p>
                 <p>Number of Participants: $no_participants</p>
                 <p>Lead Trainer: $lead_trainer</p>
-                <p>Training Photo: <img src='$training_photo1_main' alt='Training Photo' /></p>
+                <p>Training Logged: $training_logged</p>
+                <p>Training Photo: <img src='$training_photo1_main' alt='Training Photo' width='300px' /></p>
             ";
             break;
         }
