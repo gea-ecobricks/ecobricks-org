@@ -119,7 +119,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
             // Collect record details for displaying in HTML
             $record_details = "
-                <p><img src='$training_photo0_main' alt='Feature Photo 0' style='max-width: 400px;' title='$training_photo0_main' /></p>
                 <p><strong>Training ID:</strong> $training_id</p>
                 <p><strong>Training Title:</strong> $training_title</p>
                 <p><strong>Training Logged:</strong> $training_logged</p>
