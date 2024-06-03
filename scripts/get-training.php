@@ -9,10 +9,10 @@ ini_set('display_errors', 1);?>
 <?php $page='project';?>
 <html>
 <head>
-    <title>Retrieve Training Information v1</title>
+    <title>Retrieve Training Information</title>
 </head>
 <body>
-    <h1>Retrieve Training Information</h1>
+    <h1>Retrieve Training Information v1.1</h1>
     <form method="POST" action="process_training.php">
         <label for="training_id">Training ID:</label>
         <input type="text" id="training_id" name="training_id" required>
