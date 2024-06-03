@@ -1,3 +1,4 @@
+
 <?php
 //PART 1 of the code
 // process_training.php
@@ -69,6 +70,7 @@ $record_details = "";
 
 
 // PART 2
+// PART 2
 
 $data = json_decode($response, true);
 
@@ -93,7 +95,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_type = $record['field_1087'];
             $briks_made = $record['field_1896'];
             $est_plastic_packed = $record['field_1897'];
-            $location_full = is_array($record['field_1114_raw']) ? $record['field_1114_raw'][0]['identifier'] : null;
+            $location_full = $record['field_1114'];
             $training_summary = $record['field_1362'];
             $training_agenda = $record['field_1376'];
             $training_success = $record['field_1377'];
@@ -101,7 +103,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_lessons_learned = $record['field_1379'];
 
             // Prepare and bind
-            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo0_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo1_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
             if ($stmt === false) {
                 die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
             }
@@ -118,12 +120,12 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
             // Collect record details for displaying in HTML
             $record_details = "
-                <p><img src='$training_photo0_main' alt='Training Photo' style='max-width: 450px;' /></p>
                 <p>Training ID: $training_id</p>
                 <p>Training Title: $training_title</p>
                 <p>Training Logged: $training_logged</p>
                 <p>Number of Participants: $no_participants</p>
                 <p>Lead Trainer: $lead_trainer</p>
+                <p>Training Photo: <img src='$training_photo0_main' alt='Training Photo' /></p>
                 <p>Training Type: $training_type</p>
                 <p>Briks Made: $briks_made</p>
                 <p>Estimated Plastic Packed: $est_plastic_packed</p>
