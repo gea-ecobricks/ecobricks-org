@@ -67,9 +67,6 @@ $data = json_decode($response, true);
 $record_found = false;
 $record_details = "";
 
-
-// PART 2
-
 // PART 2
 
 $data = json_decode($response, true);
@@ -104,7 +101,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_lessons_learned = $record['field_1379'];
             $training_photo1_main = isset($record['field_1328_raw']) ? $record['field_1328_raw']['url'] : null;
             $training_photo2_main = isset($record['field_1329_raw']) ? $record['field_1329_raw']['url'] : null;
-            $training_photo3_main = isset($record['field_2179_raw']) ? $record['field_2179_raw']['url'] : null;
 
             // Check if the training ID already exists in the database
             $check_stmt = $conn->prepare("SELECT training_id FROM tb_trainings WHERE training_id = ?");
@@ -117,11 +113,11 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 $errors[] = "A record with Training ID $training_id already exists.";
             } else {
                 // Prepare and bind
-                $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo0_main, training_photo1_main, training_photo2_main, training_photo3_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo0_main, training_photo1_main, training_photo2_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
                     die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
                 }
-                $stmt->bind_param("ssssssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo0_main, $training_photo1_main, $training_photo2_main, $training_photo3_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
+                $stmt->bind_param("sssssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo0_main, $training_photo1_main, $training_photo2_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
 
                 // Execute statement
                 if (!$stmt->execute()) {
@@ -155,7 +151,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 <p><strong>Training Lessons Learned:</strong> $training_lessons_learned</p>
                 <p><img src='$training_photo1_main' alt='Feature Photo 1' style='max-width: 400px;' title='$training_photo1_main' /></p>
                 <p><img src='$training_photo2_main' alt='Feature Photo 2' style='max-width: 400px;' title='$training_photo2_main' /></p>
-                <p><img src='$training_photo3_main' alt='Feature Photo 3' style='max-width: 400px;' title='$training_photo3_main' /></p>
             ";
             break;
         }
@@ -173,7 +168,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
 } else {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
-
 
 
 //PART 3
