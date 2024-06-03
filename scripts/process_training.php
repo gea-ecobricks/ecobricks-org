@@ -114,7 +114,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 $errors[] = "A record with Training ID $training_id already exists.";
             } else {
                 // Prepare and bind
-                $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo0_main, training_photo1_main, training_photo2_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo0_main, training_photo1_main, training_photo2_main, training_photo3_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
                     die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
                 }
@@ -152,7 +152,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 <p><strong>Training Lessons Learned:</strong> $training_lessons_learned</p>
                 <p><img src='$training_photo1_main' alt='Feature Photo 1' style='max-width: 400px;' title='$training_photo1_main' /></p>
                 <p><img src='$training_photo2_main' alt='Feature Photo 2' style='max-width: 400px;' title='$training_photo2_main' /></p>
-           
+                <p><img src='$training_photo3_main' alt='Feature Photo 2' style='max-width: 400px;' title='$training_photo3_main' /></p>
             ";
             break;
         }
