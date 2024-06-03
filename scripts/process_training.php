@@ -61,11 +61,13 @@ echo "<script>console.log('Knack API Response: " . addslashes($response) . "');<
 
 $data = json_decode($response, true);
 
+$record_found = false;
+$record_details = "";
+
 // Check if records were retrieved
 if (isset($data['records']) && count($data['records']) > 0) {
     $success = true;
     $errors = [];
-    $record_found = false;
 
     foreach ($data['records'] as $record) {
         if (isset($record['field_1361']) && $record['field_1361'] == $training_id) {
@@ -91,6 +93,17 @@ if (isset($data['records']) && count($data['records']) > 0) {
             
             // Close the statement
             $stmt->close();
+            
+            // Collect record details for displaying in HTML
+            $record_details = "
+                <p>Training ID: $training_id</p>
+                <p>Training Title: $training_title</p>
+                <p>Training Logged: $training_logged</p>
+                <p>Training Date: $training_date</p>
+                <p>Number of Participants: $no_participants</p>
+                <p>Lead Trainer: $lead_trainer</p>
+                <p>Training Photo 1 Main: $training_photo1_main</p>
+            ";
             break;
         }
     }
@@ -111,3 +124,20 @@ if (isset($data['records']) && count($data['records']) > 0) {
 // Close the database connection
 $conn->close();
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Training Record Details</title>
+</head>
+<body>
+    <h1>Training Record Details</h1>
+    <?php
+    if ($record_found) {
+        echo $record_details;
+    } else {
+        echo "<p>No record details to display.</p>";
+    }
+    ?>
+</body>
+</html>
