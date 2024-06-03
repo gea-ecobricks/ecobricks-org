@@ -99,9 +99,9 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_success = isset($record['field_1377']) ? $record['field_1377'] : '';
             $training_challenges = isset($record['field_1378']) ? $record['field_1378'] : '';
             $training_lessons_learned = isset($record['field_1379']) ? $record['field_1379'] : '';
-            $training_photo1_main = isset($record['field_1328_raw']) ? $record['field_1328_raw']['url'] : '';
-            $training_photo2_main = isset($record['field_1329_raw']) ? $record['field_1329_raw']['url'] : '';
-            $training_photo3_main = isset($record['field_2179_raw']) ? $record['field_2179_raw']['url'] : '';
+            $training_photo1_main = isset($record['field_1328_raw']) ;
+            $training_photo2_main = isset($record['field_1329_raw']);
+            $training_photo3_main = isset($record['field_2179_raw']);
             $training_photo4_main = isset($record['field_2178_raw']);
             $training_photo5_main = isset($record['field_2180_raw']);
             $training_photo6_main = isset($record['field_2181_raw']);
@@ -160,7 +160,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 <p><img src='$training_photo3_main' alt='Feature Photo 3' style='max-width: 400px;' title='$training_photo3_main' /></p>
                 <p><img src='$training_photo4_main' alt='Feature Photo 4' style='max-width: 400px;' title='$training_photo4_main' /></p>
                 <p><img src='$training_photo5_main' alt='Feature Photo 5' style='max-width: 400px;' title='$training_photo5_main' /></p>
-                <p><img src='$training_photo6_main' alt='Feature Photo 5' style='max-width: 400px;' title='$training_photo6_main' /></p>
+                <p><img src='$training_photo6_main' alt='Feature Photo 6' style='max-width: 400px;' title='$training_photo6_main' /></p>
             ";
             break;
         }
