@@ -106,6 +106,9 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
             // Check if the training ID already exists in the database
             $check_stmt = $conn->prepare("SELECT training_id FROM tb_trainings WHERE training_id = ?");
+            if ($check_stmt === false) {
+                die("<script>alert('Prepare check failed: " . htmlspecialchars($conn->error) . "');</script>");
+            }
             $check_stmt->bind_param("s", $training_id);
             $check_stmt->execute();
             $check_stmt->store_result();
@@ -117,7 +120,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 // Prepare and bind
                 $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo0_main, training_photo1_main, training_photo2_main, training_photo3_main, training_photo4_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
-                    die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
+                    die("<script>alert('Prepare insert failed: " . htmlspecialchars($conn->error) . "');</script>");
                 }
                 $stmt->bind_param("sssssssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo0_main, $training_photo1_main, $training_photo2_main, $training_photo3_main, $training_photo4_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
 
