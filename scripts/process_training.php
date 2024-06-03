@@ -94,7 +94,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_type = $record['field_1087'];
             $briks_made = $record['field_1896'];
             $est_plastic_packed = $record['field_1897'];
-            $location_full = is_array($record['field_1114_raw']) ? $record['field_1114_raw'][0]['identifier'] : null;
+            $location_full = $record['field_1114'];
             $training_summary = $record['field_1362'];
             $training_agenda = $record['field_1376'];
             $training_success = $record['field_1377'];
