@@ -99,9 +99,9 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_success = isset($record['field_1377']) ? $record['field_1377'] : '';
             $training_challenges = isset($record['field_1378']) ? $record['field_1378'] : '';
             $training_lessons_learned = isset($record['field_1379']) ? $record['field_1379'] : '';
-            $training_photo1_main = isset($record['field_1328_raw']) ;
-            $training_photo2_main = isset($record['field_1329_raw']);
-            $training_photo3_main = isset($record['field_2179_raw']);
+            $training_photo1_main = isset($record['field_1328_raw']) ? $record['field_1328_raw']['url'] : '';
+            $training_photo2_main = isset($record['field_1329_raw']) ? $record['field_1329_raw']['url'] : '';
+            $training_photo3_main = isset($record['field_2179_raw']) ? $record['field_2179_raw']['url'] : '';
             $training_photo4_main = isset($record['field_2178_raw']);
             $training_photo5_main = isset($record['field_2180_raw']);
             $training_photo6_main = isset($record['field_2181_raw']);
