@@ -102,7 +102,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_photo1_main = isset($record['field_1328_raw']) ? $record['field_1328_raw']['url'] : '';
             $training_photo2_main = isset($record['field_1329_raw']) ? $record['field_1329_raw']['url'] : '';
             $training_photo3_main = isset($record['field_2179_raw']) ? $record['field_2179_raw']['url'] : '';
-            $training_photo4_main = isset($record['field_2179_raw']) ? $record['field_2179_raw']['url'] : '';
+            $training_photo4_main = isset($record['field_2178_raw']) ? $record['field_2178_raw']['url'] : 'nothing';
 
             // Check if the training ID already exists in the database
             $check_stmt = $conn->prepare("SELECT training_id FROM tb_trainings WHERE training_id = ?");
