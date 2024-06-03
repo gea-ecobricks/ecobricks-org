@@ -83,17 +83,20 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
             // Prepare and bind
             $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, training_date, no_participants, lead_trainer, training_photo1_main) VALUES (?, ?, ?, ?, ?, ?, ?)");
+            if ($stmt === false) {
+                die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
+            }
             $stmt->bind_param("sssssss", $training_id, $training_title, $training_logged, $training_date, $no_participants, $lead_trainer, $training_photo1_main);
 
             // Execute statement
             if (!$stmt->execute()) {
                 $success = false;
-                $errors[] = $stmt->error;
+                $errors[] = "Execute failed: " . htmlspecialchars($stmt->error);
             }
             
             // Close the statement
             $stmt->close();
-            
+
             // Collect record details for displaying in HTML
             $record_details = "
                 <p>Training ID: $training_id</p>

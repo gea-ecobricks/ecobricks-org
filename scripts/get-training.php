@@ -9,7 +9,7 @@ ini_set('display_errors', 1);?>
 <?php $page='project';?>
 <html>
 <head>
-    <title>Retrieve Training Information</title>
+    <title>Retrieve Training Information v1</title>
 </head>
 <body>
     <h1>Retrieve Training Information</h1>
