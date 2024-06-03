@@ -69,6 +69,7 @@ $record_details = "";
 
 
 // PART 2
+// PART 2
 
 $data = json_decode($response, true);
 
@@ -91,12 +92,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $no_participants = $record['field_1091'];
             $lead_trainer = is_array($record['field_1093_raw']) ? $record['field_1093_raw'][0]['identifier'] : null;
             $training_photo0_main = isset($record['field_1327_raw']) ? $record['field_1327_raw']['url'] : null;
-            $training_photo1_main = isset($record['field_1328_raw']) ? $record['field_1328_raw']['url'] : null;
-            $training_photo2_main = isset($record['field_1329_raw']) ? $record['field_1329_raw']['url'] : null;
-            $training_photo3_main = isset($record['field_2179_raw']) ? $record['field_2179_raw']['url'] : null;
-            $training_photo4_main = isset($record['field_2178_raw']) ? $record['field_2178_raw']['url'] : null;
-            $training_photo5_main = isset($record['field_2180_raw']) ? $record['field_2180_raw']['url'] : null;
-            $training_photo6_main = isset($record['field_2181_raw']) ? $record['field_2181_raw']['url'] : null;
             $training_type = $record['field_1087'];
             $briks_made = $record['field_1896'];
             $est_plastic_packed = $record['field_1897'];
@@ -106,13 +101,14 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_success = $record['field_1377'];
             $training_challenges = $record['field_1378'];
             $training_lessons_learned = $record['field_1379'];
+            $training_photo1_main = isset($record['field_1328_raw']) ? $record['field_1328_raw']['url'] : null;
 
             // Prepare and bind
-            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo0_main, training_photo1_main, training_photo2_main, training_photo3_main, training_photo4_main, training_photo5_main, training_photo6_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo0_main, training_photo1_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
             if ($stmt === false) {
                 die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
             }
-            $stmt->bind_param("sssssssssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo0_main, $training_photo1_main, $training_photo2_main, $training_photo3_main, $training_photo4_main, $training_photo5_main, $training_photo6_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
+            $stmt->bind_param("ssssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo0_main, $training_photo1_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
 
             // Execute statement
             if (!$stmt->execute()) {
@@ -140,12 +136,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 <p><strong>Training Success:</strong> $training_success</p>
                 <p><strong>Training Challenges:</strong> $training_challenges</p>
                 <p><strong>Training Lessons Learned:</strong> $training_lessons_learned</p>
-                <p><strong>Training Photo 1 URL:</strong> $training_photo1_main</p>
-                <p><strong>Training Photo 2 URL:</strong> $training_photo2_main</p>
-                <p><strong>Training Photo 3 URL:</strong> $training_photo3_main</p>
-                <p><strong>Training Photo 4 URL:</strong> $training_photo4_main</p>
-                <p><strong>Training Photo 5 URL:</strong> $training_photo5_main</p>
-                <p><strong>Training Photo 6 URL:</strong> $training_photo6_main</p>
+                <p><img src='$training_photo1_main' alt='Feature Photo 1' style='max-width: 400px;' title='$training_photo1_main' /></p>
             ";
             break;
         }
