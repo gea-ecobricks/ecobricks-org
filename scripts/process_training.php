@@ -75,23 +75,13 @@ if (isset($data['records']) && count($data['records']) > 0) {
             // Extract the necessary data from the Knack payload
             $training_id = $record['field_1361'];
             $training_title = $record['field_1084'];
-            $training_logged = $record['field_1805'] ?? null;
-            $training_date = $record['field_1806'] ?? null;
-            $no_participants = $record['field_1091'] ?? null;
-            $lead_trainer = is_array($record['field_1093_raw']) ? $record['field_1093_raw'][0]['identifier'] : null;
-            $training_photo1_main = is_array($record['field_1327_raw']) ? $record['field_1327_raw']['url'] : null;
-
-            // Convert date fields to the correct format if necessary
-            if ($training_date) {
-                $training_date = date('Y-m-d', strtotime($training_date));
-            }
 
             // Prepare and bind
-            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, training_date, no_participants, lead_trainer, training_photo1_main) VALUES (?, ?, ?, ?, ?, ?, ?)");
+            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title) VALUES (?, ?)");
             if ($stmt === false) {
                 die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
             }
-            $stmt->bind_param("sssssss", $training_id, $training_title, $training_logged, $training_date, $no_participants, $lead_trainer, $training_photo1_main);
+            $stmt->bind_param("ss", $training_id, $training_title);
 
             // Execute statement
             if (!$stmt->execute()) {
@@ -106,11 +96,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $record_details = "
                 <p>Training ID: $training_id</p>
                 <p>Training Title: $training_title</p>
-                <p>Training Logged: $training_logged</p>
-                <p>Training Date: $training_date</p>
-                <p>Number of Participants: $no_participants</p>
-                <p>Lead Trainer: $lead_trainer</p>
-                <p>Training Photo 1 Main: <img src='$training_photo1_main' alt='Training Photo' /></p>
             ";
             break;
         }
