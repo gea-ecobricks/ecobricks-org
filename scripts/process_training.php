@@ -92,7 +92,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_logged = $record['field_1085'];
             $no_participants = $record['field_1091'];
             $lead_trainer = is_array($record['field_1093_raw']) ? $record['field_1093_raw'][0]['identifier'] : null;
-            $training_photo1_main = isset($record['field_1327_raw']) ? $record['field_1327_raw']['url'] : null;
             $training_type = $record['field_1087'];
             $briks_made = $record['field_1896'];
             $est_plastic_packed = $record['field_1897'];
@@ -104,6 +103,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_lessons_learned = $record['field_1379'];
 
             // Extract image URLs
+            $training_photo0_main = isset($record['field_1327_raw']) ? $record['field_1327_raw']['url'] : null;
             $training_photo1_main = isset($record['field_1328_raw']) ? $record['field_1328_raw']['url'] : null;
             $training_photo2_main = isset($record['field_1329_raw']) ? $record['field_1329_raw']['url'] : null;
             $training_photo3_main = isset($record['field_2179_raw']) ? $record['field_2179_raw']['url'] : null;
