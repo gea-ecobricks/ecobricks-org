@@ -87,13 +87,14 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_title = $record['field_1084'];
             $no_participants = $record['field_1091'];
             $lead_trainer = is_array($record['field_1093_raw']) ? $record['field_1093_raw'][0]['identifier'] : null;
+            $training_photo1_main = $record['field_1327'];
 
             // Prepare and bind
-            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, no_participants, lead_trainer) VALUES (?, ?, ?, ?)");
+            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, no_participants, lead_trainer, training_photo1_main) VALUES (?, ?, ?, ?, ?)");
             if ($stmt === false) {
                 die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
             }
-            $stmt->bind_param("ssss", $training_id, $training_title, $no_participants, $lead_trainer);
+            $stmt->bind_param("sssss", $training_id, $training_title, $no_participants, $lead_trainer, $training_photo1_main);
 
             // Execute statement
             if (!$stmt->execute()) {
@@ -110,6 +111,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 <p>Training Title: $training_title</p>
                 <p>Number of Participants: $no_participants</p>
                 <p>Lead Trainer: $lead_trainer</p>
+                <p>Training Photo: $training_photo1_main</p>
             ";
             break;
         }
@@ -128,6 +130,8 @@ if (isset($data['records']) && count($data['records']) > 0) {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
 
+
+//PART 3
 // Close the database connection
 $conn->close();
 ?>
