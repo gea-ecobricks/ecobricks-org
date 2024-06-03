@@ -153,7 +153,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 <p><strong>Training Challenges:</strong> $training_challenges</p>
                 <p><strong>Training Lessons Learned:</strong> $training_lessons_learned</p>
                 <p><img src='$training_photo1_main' alt='Feature Photo 1' style='max-width: 400px;' title='$training_photo1_main' /></p>
-              
+                <p><img src='$training_photo2_main' alt='Feature Photo 2' style='max-width: 400px;' title='$training_photo2_main' /></p>
             ";
             break;
         }
