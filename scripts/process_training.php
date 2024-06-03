@@ -66,6 +66,8 @@ $data = json_decode($response, true);
 $record_found = false;
 $record_details = "";
 
+
+
 // PART 2
 
 $data = json_decode($response, true);
@@ -84,18 +86,26 @@ if (isset($data['records']) && count($data['records']) > 0) {
             // Extract the necessary data from the Knack payload
             $training_id = $record['field_1361'];
             $training_title = $record['field_1084'];
+            $training_logged = $record['field_1085'];
             $no_participants = $record['field_1091'];
             $lead_trainer = is_array($record['field_1093_raw']) ? $record['field_1093_raw'][0]['identifier'] : null;
             $training_photo1_main = isset($record['field_1327_raw']) ? $record['field_1327_raw']['url'] : null;
-            $training_logged = $record['field_1085'];
-            
+            $training_type = $record['field_1087'];
+            $briks_made = $record['field_1896'];
+            $est_plastic_packed = $record['field_1897'];
+            $location_full = $record['field_1114'];
+            $training_summary = $record['field_1362'];
+            $training_agenda = $record['field_1376'];
+            $training_success = $record['field_1377'];
+            $training_challenges = $record['field_1378'];
+            $training_lessons_learned = $record['field_1379'];
 
             // Prepare and bind
-            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, no_participants, lead_trainer, training_photo1_main, training_logged) VALUES (?, ?, ?, ?, ?, ?)");
+            $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo1_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
             if ($stmt === false) {
                 die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
             }
-            $stmt->bind_param("ssssss", $training_id, $training_title, $no_participants, $lead_trainer, $training_photo1_main, $training_logged);
+            $stmt->bind_param("sssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo1_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
 
             // Execute statement
             if (!$stmt->execute()) {
@@ -110,10 +120,19 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $record_details = "
                 <p>Training ID: $training_id</p>
                 <p>Training Title: $training_title</p>
+                <p>Training Logged: $training_logged</p>
                 <p>Number of Participants: $no_participants</p>
                 <p>Lead Trainer: $lead_trainer</p>
-                <p>Training Logged: $training_logged</p>
-                <p>Training Photo: <img src='$training_photo1_main' alt='Training Photo' width='300px' /></p>
+                <p>Training Photo: <img src='$training_photo1_main' alt='Training Photo' /></p>
+                <p>Training Type: $training_type</p>
+                <p>Briks Made: $briks_made</p>
+                <p>Estimated Plastic Packed: $est_plastic_packed</p>
+                <p>Location: $location_full</p>
+                <p>Training Summary: $training_summary</p>
+                <p>Training Agenda: $training_agenda</p>
+                <p>Training Success: $training_success</p>
+                <p>Training Challenges: $training_challenges</p>
+                <p>Training Lessons Learned: $training_lessons_learned</p>
             ";
             break;
         }
