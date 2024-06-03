@@ -87,7 +87,8 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $no_participants = $record['field_1091'];
             $lead_trainer = is_array($record['field_1093_raw']) ? $record['field_1093_raw'][0]['identifier'] : null;
             $training_photo1_main = isset($record['field_1327_raw']) ? $record['field_1327_raw']['url'] : null;
-            $training_logged = $record['field_1805'];
+            $training_logged = $record['field_1085'];
+            
 
             // Prepare and bind
             $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, no_participants, lead_trainer, training_photo1_main, training_logged) VALUES (?, ?, ?, ?, ?, ?)");
