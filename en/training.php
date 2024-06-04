@@ -79,15 +79,7 @@ if ($result->num_rows > 0) {
   echo '
 </div>';
 
-		 echo ' <div class="main-details">
-					
-		 <div class="page-paragraph">
-		 <p>'. nl2br(htmlspecialchars($array["training_summary"], ENT_QUOTES, 'UTF-8')) .'</p>
-		 <br>
-	 </div>
-
-				</div>
-				<br>';
+		
 	
 				
 				
@@ -121,7 +113,6 @@ if ($result->num_rows > 0) {
 
             echo ' <p data-lang-id="150">|||  END RECORD.</p>
     
-    </div>
 
 			' ;
 

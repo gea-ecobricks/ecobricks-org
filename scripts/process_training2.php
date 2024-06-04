@@ -81,13 +81,15 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_title = $record['field_1084'] ?? '';
             $training_logged = $record['field_1085'] ?? '';
             $no_participants = $record['field_1091'] ?? '';
-            $lead_trainer = $record['field_1093_raw'] ?? '';
+            $lead_trainer = $record['field_1093_raw'][0]['identifier'] ?? '';
 
             $training_photo0_main = $record['field_1327_raw']['url'] ?? '';
             $training_type = $record['field_1087'] ?? '';
             $briks_made = $record['field_1896'] ?? '';
             $est_plastic_packed = $record['field_1897'] ?? '';
-            $location_full = $record['field_1114_raw'][0]['identifier'] ?? '';
+            
+            $training_location = $record['field_1124_raw'][0]['identifier'] ?? '';
+            $training_country = $record['field_1114_raw'][0]['identifier'] ?? '';
             $training_summary = $record['field_1362'] ?? '';
             $training_agenda = $record['field_1376'] ?? '';
             $training_success = $record['field_1377'] ?? '';
