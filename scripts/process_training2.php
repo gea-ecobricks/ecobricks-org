@@ -143,7 +143,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
 
-
 // PART 3: Image Processing
 $error_message = '';
 $full_urls = [];
@@ -178,8 +177,18 @@ for ($i = 0; $i < 7; $i++) {
         $new_file_name_webp = 'training-' . $training_id . '-' . ($i + 1) . '.webp';
         $targetPath = $upload_dir . $new_file_name_webp;
 
-        // Download the image
-        $img = file_get_contents($photo_url);
+        // Encode the URL to handle special characters
+        $encoded_url = str_replace(' ', '%20', $photo_url);
+
+        // Download the image using cURL
+        $ch = curl_init($encoded_url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // Follow redirects
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Disable SSL certificate verification (useful for testing)
+        $img = curl_exec($ch);
+        $curl_error = curl_error($ch);
+        curl_close($ch);
+
         if ($img !== false) {
             file_put_contents($targetPath, $img);
 
@@ -237,6 +246,7 @@ if (!empty($error_message)) {
     echo json_encode($response);
     exit;
 }
+
 
 
 
