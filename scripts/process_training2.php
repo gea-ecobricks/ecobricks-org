@@ -66,10 +66,7 @@ $data = json_decode($response, true);
 $record_found = false;
 $record_details = "";
 
-
 // PART 2: Data Retrieval and Database Insertion
-
-
 
 if (isset($data['records']) && count($data['records']) > 0) {
     $success = true;
@@ -136,7 +133,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
     }
 
     if ($record_found && $success) {
-        echo "<script>alert('Record added successfully.');</script>";
+        // Removed the alert for successful post
     } elseif (!$record_found) {
         echo "<script>alert('No records found for the given Training ID.');</script>";
     } else {
@@ -145,7 +142,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
 } else {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
-
 
 
 
@@ -198,7 +194,7 @@ for ($i = 0; $i < 7; $i++) {
         if ($img !== false) {
             file_put_contents($targetPath, $img);
 
-            if (resizeAndConvertToWebP($targetPath, $targetPath, 1000, 88)) {
+            if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 88)) { // Resize to 1020px across
                 createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
                 $full_urls[] = $targetPath;
                 $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
