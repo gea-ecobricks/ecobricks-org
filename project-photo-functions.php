@@ -152,7 +152,6 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
     return true;
 }
 
-
 // Function to resize original image to 1020px width and convert to WebP format
 function resizeAndConvertTrainingToWebP($sourcePath, $targetPath, $maxWidth, $compressionQuality) {
     $fileType = strtolower(pathinfo($sourcePath, PATHINFO_EXTENSION));
@@ -188,7 +187,12 @@ function resizeAndConvertTrainingToWebP($sourcePath, $targetPath, $maxWidth, $co
     if ($src) {
         $dst = imagecreatetruecolor($newWidth, $newHeight);
         imagecopyresampled($dst, $src, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
-        imagewebp($dst, $targetPath, $compressionQuality); // Save the image as WebP
+        if (imagewebp($dst, $targetPath, $compressionQuality)) { // Save the image as WebP
+            // Log the new dimensions of the resized image
+            echo "<script>console.log('Image resized to: {$newWidth}px x {$newHeight}px');</script>";
+        } else {
+            echo "<script>console.log('Failed to save image as WebP');</script>";
+        }
 
         imagedestroy($src);
         imagedestroy($dst);
@@ -198,6 +202,7 @@ function resizeAndConvertTrainingToWebP($sourcePath, $targetPath, $maxWidth, $co
 
     return true;
 }
+
 
 
 
