@@ -55,7 +55,7 @@ if ($result->num_rows > 0) {
                     <div class="row-details">
 
 			            <div class="lead-page-paragraph">
-                            <p>'. $array["training_title"] .'<span data-lang-id="110"> was a </span>'. $array["training_type"] .' '. $array["project_type"].' <span data-lang-id="111">workshop run in </span>'. $array["location_full"] .'<span data-lang-id="112">.  The workshop involved </span>'. $array["no_participants"] .'<span data-lang-id="113"> and was run by GEA trainer </span>'. $array["lead_trainer"] .'  The workshop resulted in the sequestration of '. $array["est_plastic_packed"] .'&#8202;kg <span data-lang-id="114">of plastic. </p>
+                            <p>'. $array["training_title"] .'<span data-lang-id="110"> was a </span>'. $array["training_type"] .' <span data-lang-id="111">workshop run in </span>'. $array["location_full"] .'<span data-lang-id="112">.  The workshop involved </span>'. $array["no_participants"] .'<span data-lang-id="113"> and was run by GEA trainer </span>'. $array["lead_trainer"] .'  The workshop resulted in the sequestration of '. $array["est_plastic_packed"] .'&#8202;kg <span data-lang-id="114">of plastic. </p>
                         </div>
                    
                         <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
@@ -67,7 +67,7 @@ if ($result->num_rows > 0) {
                             
                             // Check if the photo exists
                             if (!empty($photo_main) && !empty($photo_tmb)) {
-                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . $photo_main . '\', \'Project photo ' . $i . ' | '. $array["project_name"] .' \')">
+                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . $photo_main . '\', \'Training photo ' . $i . ' | '. $array["training_title"] .' \')">
                                         <img src="../' . $photo_tmb . '">
                                     </div>';
                             }
@@ -78,7 +78,7 @@ if ($result->num_rows > 0) {
 		 echo ' <div class="main-details">
 					
 		 <div class="page-paragraph">
-		 <p>'. nl2br(htmlspecialchars($array["description_long"], ENT_QUOTES, 'UTF-8')) .'</p>
+		 <p>'. nl2br(htmlspecialchars($array["training_summary"], ENT_QUOTES, 'UTF-8')) .'</p>
 		 <br>
 	 </div>
 
@@ -89,7 +89,7 @@ if ($result->num_rows > 0) {
 				require_once ("../includes/training-inc.php");
 				include '../ecobricks_env.php';
 				
-				$projectId = $_GET['training_id'];
+				$trainingId = $_GET['training_id'];
 				
 				$sql = "SELECT * FROM tb_training WHERE training_id = ?";
 				$stmt = $conn->prepare($sql);
@@ -128,12 +128,12 @@ if ($result->num_rows > 0) {
 								</div>';
 						}
 					} else {
-						echo "<p>No ecobricks found for this project.</p>";
+						echo "<p>No ecobricks found for this training.</p>";
 					}
 					$stmt_ecobricks->close();
 					echo '</div></div></div>';
 				} else {
-					echo "<p>Project not found.</p>";
+					echo "<p>Training not found.</p>";
 				}
 				
 	
@@ -179,7 +179,7 @@ if ($result->num_rows > 0) {
 				// Updated SQL to directly use location_lat and location_long
 				$sql = "SELECT training_title, location_full, training_summary, location_lat AS latitude, location_long AS longitude FROM tb_trainings WHERE training_id = ?";
 				$stmt = $conn->prepare($sql);
-				$stmt->bind_param('i', $projectId);
+				$stmt->bind_param('i', $trainingId);
 				$stmt->execute();
 				$result = $stmt->get_result();
 				$array = $result->fetch_assoc();
@@ -199,15 +199,15 @@ if ($result->num_rows > 0) {
 								.openPopup();
 						</script>';
 				} else {
-					echo 'Project not found or no location data available.';
+					echo 'Training not found or no location data available.';
 				}
 			} else {
-				echo 'Invalid project ID.';
+				echo 'Invalid training ID.';
 			}
 
 
 			echo '
-			<p style="font-size:smaller">Project Location:</p>
+			<p style="font-size:smaller">Training Location:</p>
 			<p style="font-size:normal">' . $array["location_full"] . '</p><br>
 			<br><hr><br> 
 			<div class="page-paragraph">
