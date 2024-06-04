@@ -156,14 +156,6 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
 // Function to resize original image to 1020px width and convert to WebP format
 function resizeAndConvertTrainingToWebP($sourcePath, $targetPath, $maxWidth, $compressionQuality) {
     $fileType = strtolower(pathinfo($sourcePath, PATHINFO_EXTENSION));
-    
-    if ($fileType === 'webp') {
-        // If already webp and no resizing is needed, just copy the file over.
-        if (!file_exists($targetPath)) {
-            copy($sourcePath, $targetPath);
-        }
-        return true;
-    }
 
     // Correct orientation based on EXIF data for JPEGs only
     if ($fileType === 'jpeg' || $fileType === 'jpg') {
