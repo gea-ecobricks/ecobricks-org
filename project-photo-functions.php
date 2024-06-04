@@ -152,6 +152,64 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
     return true;
 }
 
+
+// Function to resize original image to 1020px width and convert to WebP format
+function resizeAndConvertTrainingToWebP($sourcePath, $targetPath, $maxWidth, $compressionQuality) {
+    $fileType = strtolower(pathinfo($sourcePath, PATHINFO_EXTENSION));
+    
+    if ($fileType === 'webp') {
+        // If already webp and no resizing is needed, just copy the file over.
+        if (!file_exists($targetPath)) {
+            copy($sourcePath, $targetPath);
+        }
+        return true;
+    }
+
+    // Correct orientation based on EXIF data for JPEGs only
+    if ($fileType === 'jpeg' || $fileType === 'jpg') {
+        correctImageOrientation($sourcePath);
+    }
+
+    list($width, $height, $type) = getimagesize($sourcePath);
+    
+    // Calculate new dimensions while maintaining aspect ratio
+    if ($width > $maxWidth) {
+        $newWidth = $maxWidth;
+        $newHeight = intval(($height / $width) * $newWidth);
+    } else {
+        $newWidth = $width;
+        $newHeight = $height;
+    }
+
+    $src = null;
+    switch ($type) {
+        case IMAGETYPE_JPEG:
+            $src = imagecreatefromjpeg($sourcePath);
+            break;
+        case IMAGETYPE_PNG:
+            $src = imagecreatefrompng($sourcePath);
+            break;
+        default:
+            return false;
+    }
+
+    if ($src) {
+        $dst = imagecreatetruecolor($newWidth, $newHeight);
+        imagecopyresampled($dst, $src, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
+        imagewebp($dst, $targetPath, $compressionQuality); // Save the image as WebP
+
+        imagedestroy($src);
+        imagedestroy($dst);
+    } else {
+        return false;
+    }
+
+    return true;
+}
+
+
+
+
 function correctImageOrientation($filepath) {
     $fileType = strtolower(pathinfo($filepath, PATHINFO_EXTENSION));
     if ($fileType !== 'jpeg' && $fileType !== 'jpg') {
