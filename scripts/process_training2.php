@@ -132,17 +132,14 @@ if (isset($data['records']) && count($data['records']) > 0) {
         }
     }
 
-    if ($record_found && $success) {
-        // Removed the alert for successful post
-    } elseif (!$record_found) {
+    if (!$record_found) {
         echo "<script>alert('No records found for the given Training ID.');</script>";
-    } else {
+    } elseif (!$success) {
         echo "<script>alert('Error: " . implode(", ", $errors) . "');</script>";
     }
 } else {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
-
 
 
 // PART 3: Image Processing
