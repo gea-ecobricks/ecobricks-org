@@ -1,6 +1,6 @@
 <?php
 
-
+  
 //FUNCTIONS
 
 function handleFileUploadError($errorCode, $index) {
@@ -156,6 +156,37 @@ function deleteProject($projectId, $conn) {
     $deleteStmt->bind_param("i", $projectId);
     if (!$deleteStmt->execute()) {
         return "Error deleting project: " . $deleteStmt->error;
+    }
+    $deleteStmt->close();
+    return true;
+}
+
+
+
+
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'delete_training') {
+    $training_id = $_POST['training_id'];
+    $deleteResult = deleteTraining($training_id, $conn);
+    if ($deleteResult === true) {
+        echo "<script>alert('Training has been successfully deleted.'); window.location.href='add-training.php';</script>";
+        exit;
+    } else {
+        echo "<script>alert('" . $deleteResult . "');</script>";
+        exit;
+    }
+}
+
+
+
+function deleteTraining($trainingId, $conn) {
+    if ($conn->connect_error) {
+        return "Connection failed: " . $conn->connect_error;
+    }
+
+    $deleteStmt = $conn->prepare("DELETE FROM tb_trainings WHERE training_id = ?");
+    $deleteStmt->bind_param("i", $trainingId);
+    if (!$deleteStmt->execute()) {
+        return "Error deleting training: " . $deleteStmt->error;
     }
     $deleteStmt->close();
     return true;
