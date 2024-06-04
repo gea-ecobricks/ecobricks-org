@@ -144,7 +144,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
 }
 
 
-
 // PART 3: Image Processing
 $error_message = '';
 $full_urls = [];
@@ -242,8 +241,6 @@ if (!empty($error_message)) {
 }
 
 
-
-
 // PART 4
 // Show the results of the data transfer
 
@@ -287,20 +284,15 @@ if ($record_found) {
     echo "<script>alert('No records found for the given Training ID.');</script>";
 }
 
-
-
-//PART 5
-// Close the database connection and show the HTML
-$conn->close();
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Training Record Details</title>
+    <title>Training Record Details 2</title>
 </head>
 <body>
-    <h1>Training Record Details</h1>
+    <h1>Training Record Details 2</h1>
     <?php
     if ($record_found) {
         echo $record_details;
