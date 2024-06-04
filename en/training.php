@@ -6,7 +6,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);?>
 <?php $version='2.12';?>
-<?php $page='project';?>
+<?php $page='training-details';?>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
 
@@ -137,7 +137,9 @@ if ($result->num_rows > 0) {
 			<p style="font-size:smaller">Training Location:</p>
 			<p style="font-size:normal">' . $array["location_full"] . '</p><br>
 			<br><hr><br> 
-			<div class="page-paragraph">
+			
+            
+            <div class="page-paragraph">
 				<h3><p data-lang-id="151">Global Ecobrick Alliance Workshops & Trainings</p></h3>
 			
 				<p data-lang-id="152">Check out our currently available ecobrick, earthen and regenerative courses on our GoBrik app:</p>
