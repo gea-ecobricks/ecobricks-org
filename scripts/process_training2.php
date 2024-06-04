@@ -191,7 +191,7 @@ for ($i = 0; $i < 7; $i++) {
         if ($img !== false) {
             file_put_contents($targetPath, $img);
 
-            if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 88)) { // Resize to 1020px across
+            if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) { // Resize to 1020px across
                 // Adjust createThumbnail function call based on aspect ratio
                 list($width, $height) = getimagesize($targetPath);
                 if ($width > $height) {
@@ -199,7 +199,7 @@ for ($i = 0; $i < 7; $i++) {
                 } else {
                     createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 300, 300, 77);
                 }
-                
+
             
                 $full_urls[] = $targetPath;
                 $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
