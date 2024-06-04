@@ -45,6 +45,7 @@ if ($result->num_rows > 0) {
     $no_participants = $record['no_participants'];
     $lead_trainer = $record['lead_trainer'];
     $training_photo0_main = $record['training_photo0_main'];
+    $training_photo0_tmb = $record['training_photo0_tmb'];
     $training_type = $record['training_type'];
     $briks_made = $record['briks_made'];
     $est_plastic_packed = $record['est_plastic_packed'];
@@ -55,11 +56,17 @@ if ($result->num_rows > 0) {
     $training_challenges = $record['training_challenges'];
     $training_lessons_learned = $record['training_lessons_learned'];
     $training_photo1_main = $record['training_photo1_main'];
+    $training_photo1_tmb = $record['training_photo1_tmb'];
     $training_photo2_main = $record['training_photo2_main'];
+    $training_photo2_tmb = $record['training_photo2_tmb'];
     $training_photo3_main = $record['training_photo3_main'];
+    $training_photo3_tmb = $record['training_photo3_tmb'];
     $training_photo4_main = $record['training_photo4_main'];
+    $training_photo4_tmb = $record['training_photo4_tmb'];
     $training_photo5_main = $record['training_photo5_main'];
+    $training_photo5_tmb = $record['training_photo5_tmb'];
     $training_photo6_main = $record['training_photo6_main'];
+    $training_photo6_tmb = $record['training_photo6_tmb'];
 
     // Collect record details for displaying in HTML
     $record_details = "
@@ -89,6 +96,14 @@ if ($result->num_rows > 0) {
             <input type='hidden' name='action' value='delete_training'>
             <button type='submit'>Delete Training</button>
         </form>
+        <h2>Thumbnail Previews</h2>
+        <p><img src='$training_photo0_tmb' alt='Thumbnail Photo 0' /></p>
+        <p><img src='$training_photo1_tmb' alt='Thumbnail Photo 1' /></p>
+        <p><img src='$training_photo2_tmb' alt='Thumbnail Photo 2' /></p>
+        <p><img src='$training_photo3_tmb' alt='Thumbnail Photo 3' /></p>
+        <p><img src='$training_photo4_tmb' alt='Thumbnail Photo 4' /></p>
+        <p><img src='$training_photo5_tmb' alt='Thumbnail Photo 5' /></p>
+        <p><img src='$training_photo6_tmb' alt='Thumbnail Photo 6' /></p>
     ";
 } else {
     $record_details = "<p>No record details to display.</p>";
@@ -104,7 +119,7 @@ $conn->close();
     <title>Training Record Details</title>
 </head>
 <body>
-    <h1>Training Record Details 2</h1>
+    <h1>Training Record Details</h1>
     <?php
     echo $record_details;
     ?>
