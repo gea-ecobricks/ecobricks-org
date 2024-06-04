@@ -142,6 +142,9 @@ if (isset($data['records']) && count($data['records']) > 0) {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
 
+
+
+
 // PART 3: Image Processing
 $error_message = '';
 $full_urls = [];
@@ -191,16 +194,15 @@ for ($i = 0; $i < 7; $i++) {
         if ($img !== false) {
             file_put_contents($targetPath, $img);
 
-            if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) { // Resize to 1020px across
+            if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 800, 88)) { // Resize to 1020px across
                 // Adjust createThumbnail function call based on aspect ratio
                 list($width, $height) = getimagesize($targetPath);
-                if ($width > $height) {
-                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
+                if ($height > 300) {
+                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, intval($width * (300 / $height)), 300, 77);
                 } else {
-                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 300, 300, 77);
+                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, intval($height * (250 / $width)), 77);
                 }
 
-            
                 $full_urls[] = $targetPath;
                 $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
                 $main_file_sizes[] = filesize($targetPath) / 1024;
