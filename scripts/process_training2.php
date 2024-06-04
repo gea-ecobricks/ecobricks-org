@@ -1,7 +1,7 @@
 
 <?php
 // PART 1 of the code
-// process_training.php
+// process_training2.php
 
 include '../ecobricks_env.php';
 
@@ -239,10 +239,9 @@ if (!empty($error_message)) {
     echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
     exit;
 } else {
-    echo "<script>alert('Images processed and database updated successfully.'); window.location.href = 'process_training.php?training_id=$training_id';</script>";
+    echo "<script>alert('Images processed and database updated successfully.'); window.location.href = 'process_training2.php?training_id=$training_id';</script>";
     exit;
 }
-
 
 // PART 4
 // Show the results of the data transfer
@@ -302,7 +301,7 @@ if ($result->num_rows > 0) {
         <p><img src='$training_photo4_main' alt='Feature Photo 4' style='max-width: 400px;' title='$training_photo4_main' /></p>
         <p><img src='$training_photo5_main' alt='Feature Photo 5' style='max-width: 400px;' title='$training_photo5_main' /></p>
         <p><img src='$training_photo6_main' alt='Feature Photo 6' style='max-width: 400px;' title='$training_photo6_main' /></p>
-        <form method='post' action='process_training.php'>
+        <form method='post' action='process_training2.php'>
             <input type='hidden' name='training_id' value='$training_id'>
             <input type='hidden' name='action' value='delete_training'>
             <button type='submit'>Delete Training</button>
@@ -318,15 +317,13 @@ if ($result->num_rows > 0) {
 $fetch_stmt->close();
 ?>
 
-
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Training Record Details 2</title>
+    <title>Training Record Details</title>
 </head>
 <body>
-    <h1>Training Record Details 2</h1>
+    <h1>Training Record Details</h1>
     <?php
     if ($record_found) {
         echo $record_details;
