@@ -281,9 +281,7 @@ if ($record_found) {
 } else {
     echo "<script>alert('No records found for the given Training ID.');</script>";
 }
-} else {
-    echo "<script>alert('No records found in the Knack database.');</script>";
-}
+
 
 
 //PART 5
