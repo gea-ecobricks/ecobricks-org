@@ -77,44 +77,28 @@ if ($result->num_rows > 0) {
                             }
                         }
   echo '
-</div>';
-
-		
-	
-				
-				
-
-			echo '
+</div>
 			<div class="page-paragraph"> 
             <h3>Training Summary</h3>
             <p> ' . $array["training_summary"] . '</p>
-            </div>';
-            echo '
-			<div class="page-paragraph"> 
+     
             <h3>Training Agenda</h3>
             <p> ' . $array["training_agenda"] . '</p>
-            </div>';
-            echo '
-			<div class="page-paragraph"> 
+       
+			
             <h3>Success Story</h3>
             <p> ' . $array["training_success"] . '</p>
-            </div>';
-            echo '
-			<div class="page-paragraph"> 
+            </div>
+          
             <h3>Challenges</h3>
             <p> ' . $array["training_challenges"] . '</p>
-            </div>';
-            echo '
-			<div class="page-paragraph"> 
+        
             <h3>Lessons Learned</h3>
             <p> ' . $array["training_lessons_learned"] . '</p>
             </div>';
             
 
-            echo ' <p data-lang-id="150">|||  END RECORD.</p>
-    
-
-			' ;
+            
 
 
 			$trainingId = $_GET['training_id'] ?? 0; // Default to 0 if not set
@@ -154,17 +138,13 @@ if ($result->num_rows > 0) {
 			<p style="font-size:normal">' . $array["location_full"] . '</p><br>
 			<br><hr><br> 
 			<div class="page-paragraph">
-				<h3><p data-lang-id="151">Ecobrick Trainings</p></h3>
+				<h3><p data-lang-id="151">Global Ecobrick Alliance Workshops & Trainings</p></h3>
 			
-				<p data-lang-id="152">There are all sorts of ways to build with ecobricks!  We invite you to get inspired by our searchable arcive of ecobrick projects.  Search by location, project type, construction type and location.</p>
+				<p data-lang-id="152">Check out our currently available ecobrick, earthen and regenerative courses on our GoBrik app:</p>
 
-			    <p data-lang-id="153">Then, when you\'re ready to go, check out our ecobrick building guidelines.  We\'ve got in-depth resources on general building, modules, open space, earth building and earth building techniques.</p>
-				<br>
-				<p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Browse the Archive</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">The live archive of ecobrick projects around the world.</a></p>
-                <br>
-                <p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Ecobrick Applications</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">An overview of ecobrick applications.</a></p>
+	
+                <p><a class="action-btn-blue" href="https://gobrik.com/courses.php" data-lang-id="154">🔎 Find a Course</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">A listing of our current course options</a></p>
 
 
 				</div>
@@ -186,7 +166,7 @@ echo '
 			echo 'Sorry! :-(</div>
 			<div class="splash-sub" data-lang-id="151">There are no results for a training with the id of '. $trainingId .' in our database.</div>
 		</div>
-		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;border:none;box-shadow:none;" alt="empty ecobrick"></div>	
+		<div class="splash-image"><img src="../svgs/shanti.svg?v2" style="width: 80%; margin-top:20px;border:none;box-shadow:none;" alt="empty ecobrick"></div>	
 	</div>
 	<div id="splash-bar"></div>
 
@@ -202,21 +182,21 @@ echo '
 				</p></div><br><hr><br>
 				
 				<div class="page-paragraph">
-				<h4 data-lang-id="151">Ecobrick Trainings</h4>
-			
-				<p data-lang-id="152">There are all sorts of ways to build with ecobricks!  We invite you to get inspired by our searchable arcive of ecobrick projects.  Search by location, project type, construction type and location.</p>
-
-			    <p data-lang-id="153">Then, when you\'re ready to go, check out our ecobrick building guidelines.  We\'ve got in-depth resources on general building, modules, open space, earth building and earth building techniques.</p>
-				<br>
-				<p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Browse the Archive</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">The live archive of ecobrick projects around the world.</a></p>
-                <br>
-                <p><a class="action-btn-blue" href="build.php" data-lang-id="154">🔎 Ecobrick Applications</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">An overview of ecobrick applications.</a></p>
-
-
-				</div>
-			</div>';
+                <p style="font-size:smaller">Training Location:</p>
+                <p style="font-size:normal">' . $array["location_full"] . '</p><br>
+                <br><hr><br> 
+                <div class="page-paragraph">
+                    <h3><p data-lang-id="151">Global Ecobrick Alliance Workshops & Trainings</p></h3>
+                
+                    <p data-lang-id="152">Check out our currently available ecobrick, earthen and regenerative courses on our GoBrik app:</p>
+    
+        
+                    <p><a class="action-btn-blue" href="https://gobrik.com/courses.php" data-lang-id="154">🔎 Find a Course</a></p>
+                    <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">A listing of our current course options</a></p>
+    
+    
+                    </div>
+                </div>';	
 
 	
 		}
