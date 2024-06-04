@@ -81,7 +81,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_title = $record['field_1084'] ?? '';
             $training_logged = $record['field_1085'] ?? '';
             $no_participants = $record['field_1091'] ?? '';
-            $lead_trainer = $record['field_1093_raw'][0]['identifier'] ?? '';
+            $lead_trainer = $record['field_1093_raw']['identifier'] ?? '';
             $training_photo0_main = $record['field_1327_raw']['url'] ?? '';
             $training_type = $record['field_1087'] ?? '';
             $briks_made = $record['field_1896'] ?? '';
