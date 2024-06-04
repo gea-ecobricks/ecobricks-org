@@ -68,7 +68,7 @@ if ($result->num_rows > 0) {
         <p><img src='$training_photo4_main' alt='Feature Photo 4' style='max-width: 400px;' title='$training_photo4_main' /></p>
         <p><img src='$training_photo5_main' alt='Feature Photo 5' style='max-width: 400px;' title='$training_photo5_main' /></p>
         <p><img src='$training_photo6_main' alt='Feature Photo 6' style='max-width: 400px;' title='$training_photo6_main' /></p>
-        <form method='post' action='process_training.php'>
+        <form method='post' action='process_training.php' id='deleteForm'>
             <input type='hidden' name='training_id' value='$training_id'>
             <input type='hidden' name='action' value='delete_training'>
             <button type='submit'>Delete Training</button>
@@ -89,6 +89,14 @@ $conn->close();
 <html>
 <head>
     <title>Training Record Details</title>
+    <script>
+        function confirmDelete(event) {
+            event.preventDefault();
+            if (confirm('Are you sure you want to delete this training?')) {
+                document.getElementById('deleteForm').submit();
+            }
+        }
+    </script>
 </head>
 <body>
     <h1>Training Record Details</h1>
