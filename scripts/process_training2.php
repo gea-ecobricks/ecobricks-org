@@ -81,7 +81,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_title = $record['field_1084'] ?? '';
             $training_logged = $record['field_1085'] ?? '';
             $no_participants = $record['field_1091'] ?? '';
-            $lead_trainer = $record['field_1093_raw']['identifier'] ?? '';
+            $lead_trainer = $record['field_1093'] ?? '';
             $training_photo0_main = $record['field_1327_raw']['url'] ?? '';
             $training_type = $record['field_1087'] ?? '';
             $briks_made = $record['field_1896'] ?? '';
@@ -142,6 +142,10 @@ if (isset($data['records']) && count($data['records']) > 0) {
 } else {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
+
+
+
+
 
 // PART 3: Image Processing
 $error_message = '';
@@ -235,9 +239,10 @@ if (!empty($error_message)) {
     echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
     exit;
 } else {
-    header("Location: process_training.php?training_id=$training_id");
+    echo "<script>alert('Images processed and database updated successfully.'); window.location.href = 'process_training.php?training_id=$training_id';</script>";
     exit;
 }
+
 
 // PART 4
 // Show the results of the data transfer
