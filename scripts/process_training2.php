@@ -192,7 +192,7 @@ for ($i = 0; $i < 7; $i++) {
             file_put_contents($targetPath, $img);
 
             // Resize to 1020px across and replace the old version
-            if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1000, 88)) {
+            if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 88)) {
                 // Create thumbnail with specific dimensions
                 createThumbnailWithDimensions($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 300, 77);
                 $full_urls[] = $targetPath;
