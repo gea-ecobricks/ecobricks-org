@@ -53,7 +53,7 @@
 
 	<div class="side">
         
-                <?php require_once ("side-modules/plastic-from-oil.php");?>
+                <?php require_once ("side-modules/signup-now");?>
 
     </div>
 </div> <!--Closes row-->       
