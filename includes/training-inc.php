@@ -265,14 +265,14 @@ overflow: hidden;
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
 		background: url(../svgs/module-banner.svg) bottom;
-        background-color: #1C1E28;
+        background-color: #005388;
 	}
 }
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
 		background: url(../svgs/module-banner.svg) bottom;
-        background-color: #1C1E28;
+        background-color: #005388;
 	}
 }
 
@@ -286,7 +286,7 @@ overflow: hidden;
 }
 
 #splash-bar {
-    background-color: #1C1E28;
+    background-color: #005388;
 }
 
 /* hr {border: gray;

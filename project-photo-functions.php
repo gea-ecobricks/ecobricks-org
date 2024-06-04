@@ -59,17 +59,51 @@ function createThumbnail($source_path, $destination_path, $width, $height, $qual
     return true;
 }
 
-// Function to convert image to WebP format
-// function convertToWebP($source_path, $destination_path) {
-//     $image = imagecreatefromstring(file_get_contents($source_path));
-//     if ($image !== false) {
-//         imagepalettetotruecolor($image);
-//         imagewebp($image, $destination_path, 85);
-//         imagedestroy($image);
-//         return true;
-//     }
-//     return false;
-// }
+
+// Function to create a thumbnail with specific dimensions
+function createThumbnailWithDimensions($source_path, $destination_path, $max_width, $max_height, $quality) {
+    list($source_width, $source_height, $source_type) = getimagesize($source_path);
+    switch ($source_type) {
+        case IMAGETYPE_JPEG:
+            $source_image = imagecreatefromjpeg($source_path);
+            break;
+        case IMAGETYPE_PNG:
+            $source_image = imagecreatefrompng($source_path);
+            break;
+        case IMAGETYPE_WEBP:
+            $source_image = imagecreatefromwebp($source_path);
+            break;
+        default:
+            return false;
+    }
+
+    $aspect_ratio = $source_width / $source_height;
+    if ($source_width > $source_height) {
+        $new_width = $max_width;
+        $new_height = $max_width / $aspect_ratio;
+    } else {
+        $new_height = $max_height;
+        $new_width = $max_height * $aspect_ratio;
+    }
+
+    // Ensure new dimensions are within the max width and height
+    if ($new_width > $max_width) {
+        $new_width = $max_width;
+        $new_height = $new_width / $aspect_ratio;
+    }
+
+    if ($new_height > $max_height) {
+        $new_height = $max_height;
+        $new_width = $new_height * $aspect_ratio;
+    }
+
+    $thumbnail = imagecreatetruecolor($new_width, $new_height);
+    imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $new_width, $new_height, $source_width, $source_height);
+    imagedestroy($source_image);
+    imagewebp($thumbnail, $destination_path, $quality);
+    imagedestroy($thumbnail);
+    return true;
+}
 
 
 // Function to resize original image if any of its dimensions are larger than 1500px.

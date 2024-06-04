@@ -141,7 +141,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
 
-
 // PART 3: Image Processing
 $error_message = '';
 $full_urls = [];
@@ -191,8 +190,10 @@ for ($i = 0; $i < 7; $i++) {
         if ($img !== false) {
             file_put_contents($targetPath, $img);
 
-            if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 88)) { // Resize to 1020px across
-                createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
+            // Resize to 1020px across and replace the old version
+            if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 88)) {
+                // Create thumbnail with specific dimensions
+                createThumbnailWithDimensions($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 300, 77);
                 $full_urls[] = $targetPath;
                 $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
                 $main_file_sizes[] = filesize($targetPath) / 1024;
@@ -234,7 +235,7 @@ if (!empty($error_message)) {
     echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
     exit;
 } else {
-    header("Location: training.php?training_id=$training_id");
+    echo "<script>alert('Images processed and database updated successfully.'); window.location.href='training.php?training_id=$training_id';</script>";
     exit;
 }
 ?>
