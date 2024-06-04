@@ -2,7 +2,7 @@
 
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="../svgs/module-banner.svg">
+<link rel="preload" as="image" href="../svgs/brik-market-banner3.svg">
 <link rel="preload" as="image" href="../svgs/shanti.svg">
 
 <?php require_once ("../meta/training-$lang.php");?>
@@ -264,15 +264,15 @@ overflow: hidden;
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-		background: url(../svgs/module-banner.svg) bottom;
-        background-color: #005388;
+		background: url(../svgs/brik-market-banner3.svg) bottom;
+        background-color: #2A91DA;
 	}
 }
 
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
-		background: url(../svgs/module-banner.svg) bottom;
-        background-color: #005388;
+		background: url(../svgs/brik-market-banner3.svg) bottom;
+        background-color: #2A91DA;
 	}
 }
 
@@ -286,7 +286,7 @@ overflow: hidden;
 }
 
 #splash-bar {
-    background-color: #005388;
+    background-color: #2A91DA;
 }
 
 /* hr {border: gray;
