@@ -242,6 +242,8 @@ if (!empty($error_message)) {
 }
 
 
+
+
 // PART 4
 // Show the results of the data transfer
 
@@ -284,7 +286,6 @@ if ($record_found) {
 } else {
     echo "<script>alert('No records found for the given Training ID.');</script>";
 }
-?>
 
 
 
