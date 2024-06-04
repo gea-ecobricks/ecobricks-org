@@ -75,32 +75,35 @@ if (isset($data['records']) && count($data['records']) > 0) {
     foreach ($data['records'] as $record) {
         if (isset($record['field_1361']) && $record['field_1361'] == $training_id) {
             $record_found = true;
-
+    
             // Extract the necessary data from the Knack payload
             $training_id = $record['field_1361'] ?? '';
             $training_title = $record['field_1084'] ?? '';
             $training_logged = $record['field_1085'] ?? '';
             $no_participants = $record['field_1091'] ?? '';
-            $lead_trainer = $record['field_1093_raw'][0]['identifier'] ?? '';
-
-            $training_photo0_main = $record['field_1327_raw']['url'] ?? '';
+            $lead_trainer = isset($record['field_1093_raw'][0]['identifier']) ? $record['field_1093_raw'][0]['identifier'] : '';
+    
+            $training_photo0_main = isset($record['field_1327_raw']['url']) ? $record['field_1327_raw']['url'] : '';
             $training_type = $record['field_1087'] ?? '';
             $briks_made = $record['field_1896'] ?? '';
             $est_plastic_packed = $record['field_1897'] ?? '';
             
-            $training_location = $record['field_1124_raw'][0]['identifier'] ?? '';
-            $training_country = $record['field_1114_raw'][0]['identifier'] ?? '';
+            $training_location = isset($record['field_1124_raw'][0]['identifier']) ? $record['field_1124_raw'][0]['identifier'] : '';
+            $training_country = isset($record['field_1114_raw'][0]['identifier']) ? $record['field_1114_raw'][0]['identifier'] : '';
             $training_summary = $record['field_1362'] ?? '';
             $training_agenda = $record['field_1376'] ?? '';
             $training_success = $record['field_1377'] ?? '';
             $training_challenges = $record['field_1378'] ?? '';
             $training_lessons_learned = $record['field_1379'] ?? '';
-            $training_photo1_main = $record['field_1328_raw']['url'] ?? '';
-            $training_photo2_main = $record['field_1329_raw']['url'] ?? '';
-            $training_photo3_main = $record['field_2179_raw']['url'] ?? '';
-            $training_photo4_main = $record['field_2178_raw']['url'] ?? '';
-            $training_photo5_main = $record['field_2180_raw']['url'] ?? '';
-            $training_photo6_main = $record['field_2181_raw']['url'] ?? '';
+            $training_photo1_main = isset($record['field_1328_raw']['url']) ? $record['field_1328_raw']['url'] : '';
+            $training_photo2_main = isset($record['field_1329_raw']['url']) ? $record['field_1329_raw']['url'] : '';
+            $training_photo3_main = isset($record['field_2179_raw']['url']) ? $record['field_2179_raw']['url'] : '';
+            $training_photo4_main = isset($record['field_2178_raw']['url']) ? $record['field_2178_raw']['url'] : '';
+            $training_photo5_main = isset($record['field_2180_raw']['url']) ? $record['field_2180_raw']['url'] : '';
+            $training_photo6_main = isset($record['field_2181_raw']['url']) ? $record['field_2181_raw']['url'] : '';
+        }
+    }
+    
 
             // Check if the training ID already exists in the database
             $check_stmt = $conn->prepare("SELECT training_id FROM tb_trainings WHERE training_id = ?");
