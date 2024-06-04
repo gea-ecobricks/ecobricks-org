@@ -53,7 +53,7 @@
 
 	<div class="side">
         
-                <?php require_once ("side-modules/signup-now");?>
+                <?php require_once ("side-modules/signup-now.php");?>
 
     </div>
 </div> <!--Closes row-->       
