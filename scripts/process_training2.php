@@ -1,8 +1,7 @@
 
 <?php
-//PART 1 of the code
+// PART 1 of the code
 // process_training.php
-
 
 include '../ecobricks_env.php';
 
@@ -132,6 +131,16 @@ if (isset($data['records']) && count($data['records']) > 0) {
         }
     }
 
+    if ($record_found && $success) {
+        echo "<script>alert('Record added successfully.');</script>";
+    } elseif (!$record_found) {
+        echo "<script>alert('No records found for the given Training ID.');</script>";
+    } else {
+        echo "<script>alert('Error: " . implode(", ", $errors) . "');</script>";
+    }
+} else {
+    echo "<script>alert('No records found in the Knack database.');</script>";
+}
 
 
 // PART 3: Image Processing
@@ -262,21 +271,20 @@ $record_details = "
         <button type='submit'>Delete Training</button>
     </form>
 ";
-break;
-}
 
 if ($record_found) {
-if ($success) {
-    echo "<script>alert('Record added successfully.');</script>";
+    if ($success) {
+        echo "<script>alert('Record added successfully.');</script>";
+    } else {
+        echo "<script>alert('Error: " . implode(", ", $errors) . "');</script>";
+    }
 } else {
-    echo "<script>alert('Error: " . implode(", ", $errors) . "');</script>";
+    echo "<script>alert('No records found for the given Training ID.');</script>";
 }
 } else {
-echo "<script>alert('No records found for the given Training ID.');</script>";
+    echo "<script>alert('No records found in the Knack database.');</script>";
 }
-else {
-echo "<script>alert('No records found in the Knack database.');</script>";
-}
+
 
 //PART 5
 // Close the database connection and show the HTML
