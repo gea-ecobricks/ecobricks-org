@@ -132,16 +132,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
         }
     }
 
-    if ($record_found && $success) {
-        echo "<script>alert('Record added successfully.');</script>";
-    } elseif (!$record_found) {
-        echo "<script>alert('No records found for the given Training ID.');</script>";
-    } else {
-        echo "<script>alert('Error: " . implode(", ", $errors) . "');</script>";
-    }
-} else {
-    echo "<script>alert('No records found in the Knack database.');</script>";
-}
+
 
 // PART 3: Image Processing
 $error_message = '';
@@ -283,7 +274,7 @@ if ($success) {
 } else {
 echo "<script>alert('No records found for the given Training ID.');</script>";
 }
-} else {
+else {
 echo "<script>alert('No records found in the Knack database.');</script>";
 }
 
