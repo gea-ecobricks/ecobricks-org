@@ -191,10 +191,16 @@ for ($i = 0; $i < 7; $i++) {
         if ($img !== false) {
             file_put_contents($targetPath, $img);
 
-            // Resize to 1020px across and replace the old version
-            if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) {
-                // Create thumbnail with specific dimensions
-                createThumbnailWithDimensions($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 300, 77);
+            if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 88)) { // Resize to 1020px across
+                // Adjust createThumbnail function call based on aspect ratio
+                list($width, $height) = getimagesize($targetPath);
+                if ($width > $height) {
+                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
+                } else {
+                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 300, 300, 77);
+                }
+                
+            
                 $full_urls[] = $targetPath;
                 $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
                 $main_file_sizes[] = filesize($targetPath) / 1024;
