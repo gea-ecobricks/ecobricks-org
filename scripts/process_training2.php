@@ -66,6 +66,7 @@ $data = json_decode($response, true);
 $record_found = false;
 $record_details = "";
 
+
 // PART 2: Data Retrieval and Database Insertion
 if (isset($data['records']) && count($data['records']) > 0) {
     $success = true;
