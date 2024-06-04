@@ -66,32 +66,10 @@ $data = json_decode($response, true);
 $record_found = false;
 $record_details = "";
 
+
 // PART 2: Data Retrieval and Database Insertion
 
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'delete_training') {
-    $training_id = $_POST['training_id'];
 
-    // Create connection to the database
-    $conn = new mysqli($servername, $username, $password, $dbname);
-
-    // Check connection
-    if ($conn->connect_error) {
-        die("<script>alert('Connection failed: " . $conn->connect_error . "');</script>");
-    }
-
-    // Delete the training record
-    $delete_stmt = $conn->prepare("DELETE FROM tb_trainings WHERE training_id = ?");
-    $delete_stmt->bind_param("s", $training_id);
-    if ($delete_stmt->execute()) {
-        echo "<script>alert('Training deleted successfully.'); window.location.href='get-training.php';</script>";
-    } else {
-        echo "<script>alert('Error deleting training: " . $delete_stmt->error . "');</script>";
-    }
-
-    $delete_stmt->close();
-    $conn->close();
-    exit;
-}
 
 if (isset($data['records']) && count($data['records']) > 0) {
     $success = true;
@@ -106,7 +84,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $training_title = $record['field_1084'] ?? '';
             $training_logged = $record['field_1085'] ?? '';
             $no_participants = $record['field_1091'] ?? '';
-            $lead_trainer = $record['field_1093_raw'][0]['identifier'] ?? '';
+            $lead_trainer = $record['field_1093'] ?? '';
             $training_photo0_main = $record['field_1327_raw']['url'] ?? '';
             $training_type = $record['field_1087'] ?? '';
             $briks_made = $record['field_1896'] ?? '';

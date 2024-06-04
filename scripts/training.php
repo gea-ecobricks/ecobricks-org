@@ -11,9 +11,25 @@ if ($conn->connect_error) {
     die("<script>alert('Connection failed: " . $conn->connect_error . "');</script>");
 }
 
-// PART 4: Show the Record Details
+// Check if the form is submitted to delete the training
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['action'] == 'delete_training') {
+    $training_id = $_POST['training_id'];
 
-// Re-fetch the data to display updated results
+    // Delete the training record
+    $delete_stmt = $conn->prepare("DELETE FROM tb_trainings WHERE training_id = ?");
+    $delete_stmt->bind_param("s", $training_id);
+    if ($delete_stmt->execute()) {
+        echo "<script>alert('Training deleted successfully.'); window.location.href='get-training.php';</script>";
+    } else {
+        echo "<script>alert('Error deleting training: " . $delete_stmt->error . "');</script>";
+    }
+
+    $delete_stmt->close();
+    $conn->close();
+    exit;
+}
+
+// Fetch the training record to display
 $fetch_sql = "SELECT * FROM tb_trainings WHERE training_id = ?";
 $fetch_stmt = $conn->prepare($fetch_sql);
 $fetch_stmt->bind_param("s", $training_id);
@@ -68,16 +84,13 @@ if ($result->num_rows > 0) {
         <p><img src='$training_photo4_main' alt='Feature Photo 4' style='max-width: 400px;' title='$training_photo4_main' /></p>
         <p><img src='$training_photo5_main' alt='Feature Photo 5' style='max-width: 400px;' title='$training_photo5_main' /></p>
         <p><img src='$training_photo6_main' alt='Feature Photo 6' style='max-width: 400px;' title='$training_photo6_main' /></p>
-        <form method='post' action='process_training.php' id='deleteForm'>
+        <form method='post' action='training.php?training_id=$training_id'>
             <input type='hidden' name='training_id' value='$training_id'>
             <input type='hidden' name='action' value='delete_training'>
             <button type='submit'>Delete Training</button>
         </form>
     ";
-
-    $record_found = true;
 } else {
-    $record_found = false;
     $record_details = "<p>No record details to display.</p>";
 }
 
@@ -89,23 +102,11 @@ $conn->close();
 <html>
 <head>
     <title>Training Record Details</title>
-    <script>
-        function confirmDelete(event) {
-            event.preventDefault();
-            if (confirm('Are you sure you want to delete this training?')) {
-                document.getElementById('deleteForm').submit();
-            }
-        }
-    </script>
 </head>
 <body>
-    <h1>Training Record Details</h1>
+    <h1>Training Record Details 2</h1>
     <?php
-    if ($record_found) {
-        echo $record_details;
-    } else {
-        echo "<p>No record details to display.</p>";
-    }
+    echo $record_details;
     ?>
 </body>
 </html>
