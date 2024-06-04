@@ -143,6 +143,8 @@ if (isset($data['records']) && count($data['records']) > 0) {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
 
+
+
 // PART 3: Image Processing
 $error_message = '';
 $full_urls = [];
@@ -174,7 +176,7 @@ for ($i = 0; $i < 7; $i++) {
     $photo_url = $training_photos[$i];
     if (!empty($photo_url)) {
         $file_extension = strtolower(pathinfo($photo_url, PATHINFO_EXTENSION));
-        $new_file_name_webp = 'training-' . $training_id . '-' . ($i + 1) . '.webp';
+        $new_file_name_webp = 'training-' . $training_id . '-' . $i . '.webp';
         $targetPath = $upload_dir . $new_file_name_webp;
 
         // Encode the URL to handle special characters
@@ -199,7 +201,7 @@ for ($i = 0; $i < 7; $i++) {
                 $main_file_sizes[] = filesize($targetPath) / 1024;
                 $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
 
-                array_push($db_fields, "training_photo" . ($i + 1) . "_main", "training_photo" . ($i + 1) . "_tmb");
+                array_push($db_fields, "training_photo" . $i . "_main", "training_photo" . $i . "_tmb");
                 array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
                 $db_types .= "ss";
             } else {
@@ -235,19 +237,9 @@ if (!empty($error_message)) {
     echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
     exit;
 } else {
-    $response = array(
-        'training_id' => $training_id,
-        'full_urls' => $full_urls,
-        'thumbnail_paths' => $thumbnail_paths,
-        'main_file_sizes' => $main_file_sizes,
-        'thumbnail_file_sizes' => $thumbnail_file_sizes
-    );
-    header('Content-Type: application/json');
-    echo json_encode($response);
+    header("Location: process_training.php?training_id=$training_id");
     exit;
 }
-
-
 
 
 // PART 4
@@ -292,6 +284,7 @@ if ($record_found) {
 } else {
     echo "<script>alert('No records found for the given Training ID.');</script>";
 }
+?>
 
 
 
