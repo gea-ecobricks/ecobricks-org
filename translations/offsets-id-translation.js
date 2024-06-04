@@ -42,7 +42,7 @@ const id_Page_Translations = {
     "022-block-1-header": "Bagaimana harga offset ditentukan?",
     "023-block-1-subheader": "Harga 1kg plastik AES ditentukan oleh biaya autentikasinya",
     "024-block-1-paragraph": "Untuk menghitung harga 1kg plastik yang diautentikasi, Aliansi Ecobrick Global membagi biaya operasional dan pemeliharaan blockchain dengan jumlah plastik yang telah diautentikasi.",
-    "025-block-1-paragraph": "Sebagai contoh: Pada tahun 2023, Aliansi Ecobrick Global mengeluarkan biaya sebesar 7,207.14 USD untuk mengautentikasi 2,228.96 Kg AES plastik ecobrick. Hal ini menghasilkan biaya sebesar 3.23 USD per Kg dalam memelihara blockchain dan sistem autentikasi. Ini menetapkan penilaian kami atas harga per Kg offset plastik AES untuk tahun berikutnya (2024).",
+    "025-block-1-paragraph": "Sebagai contoh: Pada tahun 2023, Aliansi Ecobrick Global mengeluarkan biaya sebesar 7,207.14 USD untuk mengautentikasi 2,228.96 Kg AES plastik ecobrick. Hal ini menghasilkan biaya sebesar 2.40 USD per Kg dalam memelihara blockchain dan sistem autentikasi. Ini menetapkan penilaian kami atas harga per Kg offset plastik AES untuk tahun berikutnya (2024).",
     "026-block-1-info-1": "ℹ️ Lihat <a href=\"open-books.php\">Buku Terbuka GEA</a> kami",
     "027-block-1-info-2": "ℹ️ Pelajari lebih lanjut tentang <a href=\"sequest.php\">Penyimpanan Plastik</a>",
 
