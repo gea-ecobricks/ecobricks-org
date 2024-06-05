@@ -136,6 +136,8 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
     return true;
 }
 
+
+
 // Function to resize original image to 1020px width and convert to WebP format
 function resizeAndConvertTrainingToWebP($sourcePath, $targetPath, $maxWidth, $compressionQuality) {
     $fileType = strtolower(pathinfo($sourcePath, PATHINFO_EXTENSION));
@@ -194,6 +196,7 @@ function resizeAndConvertTrainingToWebP($sourcePath, $targetPath, $maxWidth, $co
 
     return true;
 }
+
 
 
 
