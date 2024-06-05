@@ -81,7 +81,7 @@ if ($result->num_rows > 0) {
                     
                     if (!empty($array["training_summary"])) {
                         echo '<h3>Training Summary</h3>
-                              <p>' . htmlspecialchars($array["training_summary"], ENT_QUOTES, 'UTF-8') . '</p>
+                              <p>'. $array["training_summary"] .'</p>
                               <br><br>';
                     }
                     
