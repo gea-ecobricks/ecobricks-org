@@ -59,8 +59,7 @@ function createThumbnail($source_path, $destination_path, $width, $height, $qual
     return true;
 }
 
-
-// Function to create a thumbnail using GD library with height 200px
+// Function to create a thumbnail with height 200px while maintaining aspect ratio
 function createTrainingThumbnail($source_path, $destination_path, $height, $quality) {
     list($source_width, $source_height, $source_type) = getimagesize($source_path);
     switch ($source_type) {
@@ -74,20 +73,39 @@ function createTrainingThumbnail($source_path, $destination_path, $height, $qual
             $source_image = imagecreatefromwebp($source_path);
             break;
         default:
+            echo "<script>console.log('Unsupported image type for $source_path');</script>";
             return false;
     }
 
-    // Calculate new width while maintaining aspect ratio
     $new_height = $height;
-    $new_width = intval(($source_width / $source_height) * $new_height);
+    $new_width = intval(($new_height / $source_height) * $source_width);
 
     $thumbnail = imagecreatetruecolor($new_width, $new_height);
-    imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $new_width, $new_height, $source_width, $source_height);
+    if ($thumbnail === false) {
+        echo "<script>console.log('Failed to create thumbnail resource');</script>";
+        return false;
+    }
+
+    if (!imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $new_width, $new_height, $source_width, $source_height)) {
+        echo "<script>console.log('Failed to resample the image for thumbnail');</script>";
+        imagedestroy($source_image);
+        imagedestroy($thumbnail);
+        return false;
+    }
     imagedestroy($source_image);
-    imagewebp($thumbnail, $destination_path, $quality);
+
+    // Save the thumbnail
+    if (!imagewebp($thumbnail, $destination_path, $quality)) {
+        echo "<script>console.log('Failed to create thumbnail: $destination_path');</script>";
+        imagedestroy($thumbnail);
+        return false;
+    }
+
+    echo "<script>console.log('Thumbnail created with dimensions: {$new_width}px x {$new_height}px');</script>";
     imagedestroy($thumbnail);
     return true;
 }
+
 
 
 // Function to resize original image if any of its dimensions are larger than 1500px.
