@@ -108,7 +108,6 @@ https://github/globalecobrickalliance/ecobricks.org
             echo "No trainings available to display.";
         }
         ?>
-    </div>
     <div class="project-photo-box-end" href="add-project.php"></div>
 </div>
 <div class="feature-content-box">
@@ -311,7 +310,7 @@ function trainingPreview(training_id, title, description, location, no_participa
     var details = document.createElement('div');
     details.className = 'training-details';
     details.style.margin = '20px 10% auto 10%'; // Adjust the margin as per your design
-    details.innerHTML = `<p style="font-size:small">${description} | ${no_participants} participants | ${location} | Lead Trainer: ${lead_trainer}</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="training.php?training_id=${training_id}">ℹ️ View Training</a>`;
+    details.innerHTML = `<p style="font-size:small">${training_title} | ${no_participants} participants</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="training.php?training_id=${training_id}">ℹ️ View Training</a>`;
     photoContainer.appendChild(details);
 
     // Show the modal
