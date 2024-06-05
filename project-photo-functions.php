@@ -61,9 +61,6 @@ function createThumbnail($source_path, $destination_path, $width, $height, $qual
 
 
 
-
-
-
 // Function to create a thumbnail with height 200px while maintaining aspect ratio
 function createTrainingThumbnail($source_path, $destination_path, $target_height, $quality) {
     list($source_width, $source_height, $source_type) = getimagesize($source_path);
@@ -101,7 +98,6 @@ function createTrainingThumbnail($source_path, $destination_path, $target_height
     imagedestroy($thumbnail);
     return false;
 }
-
 
 
 
