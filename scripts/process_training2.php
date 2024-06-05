@@ -202,9 +202,9 @@ for ($i = 0; $i < 7; $i++) {
                 // Adjust createThumbnail function call based on aspect ratio
                 list($width, $height) = getimagesize($targetPath);
                 if ($width > $height) {
-                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
+                    createThumbnailWithDimensions($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
                 } else {
-                    createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 300, 300, 77);
+                    createThumbnailWithDimensions($targetPath, $thumbnail_dir . $new_file_name_webp, 300, 300, 77);
                 }
 
                 echo "<script>console.log('Image $i resized and thumbnail created');</script>";
