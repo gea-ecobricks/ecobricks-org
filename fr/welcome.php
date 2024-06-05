@@ -79,6 +79,52 @@ https://github/globalecobrickalliance/ecobricks.org
     </div>
 
 
+
+
+
+
+
+<!-- TRAININGS GALLERY -->
+
+<div class="featured-project-gallery" style="overflow-x:clip;">
+        <div class="feed-live">
+            <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Live trainings feed.  Click to view.</p>
+        </div>
+        <div class="gallery-flex-container">
+        <?php
+    // Updated SQL query to include a WHERE clause and a LIMIT
+    $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 ORDER BY training_id DESC LIMIT 25;";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        // Output data of each row
+        while ($row = $result->fetch_assoc()) {
+            echo '<div class="gal-project-photo">
+                    <div class="photo-box">
+                        <img src="' . $row["photo1_tmb"] . '?v=1" alt="' . $row["training_title"] . ' in ' . $row["training_location"] . ', ' . $row["training_country"] . ' had ' . $row["no_participants"] . '" onclick="projectPreview(\'' . $row["training_id"] . '\', \'' . $row["training_title"] . '\'" title="' . $row["training_title"] . ' in ' . $row["training_location"] . ', ' . $row["training_country"] . ' had ' . $row["no_participants"] . '"> 
+                    </div>
+                </div>';
+        }
+    } else {
+        echo "No trainings available to display.";
+    }
+?>
+
+            <div class="project-photo-box-end" href="add-project.php"></div>
+
+        </div>
+        <div class="feature-content-box">
+        <div class="feature-big-header"><h4 data-lang-id="500-featured-training-heading">GEA Trainings</h4></div>
+            
+            <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Our team of 600+ trainers are conducting trainings all around the world.</div>
+        </div>
+        <a href="https://gobrik.com/courses.php" target="_blank" class="feature-button" data-lang-id="500-training-join-button" aria-label="Post your project">➕ Join a workshop</div>
+    </div>
+
+
+
+
+
     <!--FEATURE BOX ONE: HAPPY DOLPHIN-->
 
     <div class="featured-content-2">
