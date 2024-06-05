@@ -198,6 +198,8 @@ for ($i = 0; $i < 7; $i++) {
         if ($img !== false) {
             echo "<script>console.log('Image $i downloaded successfully');</script>";
             file_put_contents($targetPath, $img);
+            echo "<script>console.log('Image $i ready');</script>";
+
 
             if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) {
                 // Create thumbnail with height 200px while maintaining aspect ratio
