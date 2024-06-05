@@ -55,7 +55,7 @@ if ($result->num_rows > 0) {
                     <div class="row-details">
 
 			            <div class="lead-page-paragraph">
-                            <p>'. $array["training_title"] .'<span data-lang-id="110"> was a </span>'. $array["training_type"] .' <span data-lang-id="111">workshop run in </span>'. $array["location_full"] .'<span data-lang-id="112">.  The workshop involved </span>'. $array["no_participants"] .'<span data-lang-id="113"> and was run by GEA trainer </span>'. $array["lead_trainer"] .'</p>
+                            <p>'. $array["training_title"] .'<span data-lang-id="110"> was a </span>'. $array["training_type"] .' <span data-lang-id="111">workshop run in </span>'. $array["training_location"] .', '. $array["training_country"] .'<span data-lang-id="112">.  The workshop involved </span>'. $array["no_participants"] .'<span data-lang-id="113"> and was run by GEA trainer </span>'. $array["lead_trainer"] .'</p>
                         </div>
                    
                         <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
@@ -81,18 +81,21 @@ if ($result->num_rows > 0) {
 			<div class="page-paragraph"> 
             <h3>Training Summary</h3>
             <p> ' . $array["training_summary"] . '</p>
-     
+
+                        <br><br>
             <h3>Training Agenda</h3>
             <p> ' . $array["training_agenda"] . '</p>
        
-			
+			<br><br>
             <h3>Success Story</h3>
             <p> ' . $array["training_success"] . '</p>
             </div>
           
+            <br><br>
             <h3>Challenges</h3>
             <p> ' . $array["training_challenges"] . '</p>
         
+            <br><br>
             <h3>Lessons Learned</h3>
             <p> ' . $array["training_lessons_learned"] . '</p>
             </div>';
@@ -142,7 +145,7 @@ if ($result->num_rows > 0) {
             <div class="page-paragraph">
 				<h3><p data-lang-id="151">Global Ecobrick Alliance Workshops & Trainings</p></h3>
 			
-				<p data-lang-id="152">Check out our currently available ecobrick, earthen and regenerative courses on our GoBrik app:</p>
+				<p data-lang-id="152">Check out our currently available ecobrick, earthen and regenerative courses on our GoBrik app:</p><br>
 
 	
                 <p><a class="action-btn-blue" href="https://gobrik.com/courses.php" data-lang-id="154">🔎 Find a Course</a></p>
