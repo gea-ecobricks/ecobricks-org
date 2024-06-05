@@ -83,32 +83,32 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
-
 <!-- TRAININGS GALLERY -->
 
 <div class="featured-project-gallery" style="overflow-x:clip;">
-        <div class="feed-live">
-            <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Live trainings feed.  Click to view.</p>
-        </div>
-        <div class="gallery-flex-container">
+    <div class="feed-live">
+        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Live trainings feed.  Click to view.</p>
+    </div>
+    <div class="gallery-flex-container">
         <?php
-    // Updated SQL query to include a WHERE clause and a LIMIT
-    $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 ORDER BY training_id DESC LIMIT 25;";
-    $result = $conn->query($sql);
+        // Updated SQL query to include a WHERE clause and a LIMIT
+        $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 ORDER BY training_id DESC LIMIT 25;";
+        $result = $conn->query($sql);
 
-    if ($result->num_rows > 0) {
-        // Output data of each row
-        while ($row = $result->fetch_assoc()) {
-            echo '<div class="gal-project-photo">
-                    <div class="photo-box">
-                        <img src="' . $row["photo1_tmb"] . '?v=1" alt="' . $row["training_title"] . ' in ' . $row["training_location"] . ', ' . $row["training_country"] . ' had ' . $row["no_participants"] . '" onclick="projectPreview(\'' . $row["training_id"] . '\', \'' . $row["training_title"] . '\'" title="' . $row["training_title"] . ' in ' . $row["training_location"] . ', ' . $row["training_country"] . ' had ' . $row["no_participants"] . '"> 
-                    </div>
-                </div>';
+        if ($result->num_rows > 0) {
+            // Output data of each row
+            while ($row = $result->fetch_assoc()) {
+                echo '<div class="gal-project-photo">
+                        <div class="photo-box">
+                            <img src="' . htmlspecialchars($row["training_photo1_tmb"]) . '?v=1" alt="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_location"]) . ', ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . '" onclick="projectPreview(\'' . htmlspecialchars($row["training_id"]) . '\', \'' . htmlspecialchars($row["training_title"]) . '\')" title="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_location"]) . ', ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . '"> 
+                        </div>
+                    </div>';
+            }
+        } else {
+            echo "No trainings available to display.";
         }
-    } else {
-        echo "No trainings available to display.";
-    }
-?>
+        ?>
+
 
             <div class="project-photo-box-end" href="add-project.php"></div>
 
