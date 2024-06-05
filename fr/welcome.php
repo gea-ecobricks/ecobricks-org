@@ -87,7 +87,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <div class="featured-content-gallery" style="overflow-x:clip;">
     <div class="feed-live">
-        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Live trainings feed.  Click to view.</p>
+        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Live trainings feed. Click to view.</p>
     </div>
     <div class="gallery-flex-container">
         <?php
@@ -100,7 +100,7 @@ https://github/globalecobrickalliance/ecobricks.org
             while ($row = $result->fetch_assoc()) {
                 echo '<div class="gal-project-photo">
                         <div class="photo-box">
-                            <img src="' . htmlspecialchars($row["training_photo1_tmb"]) . '?v=1" alt="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_location"]) . ', ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . '" onclick="trainingPreview(\'' . htmlspecialchars($row["training_id"]) . '\', \'' . htmlspecialchars($row["training_title"]) . '\')" title="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_location"]) . ', ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . '">  
+                            <img src="' . htmlspecialchars($row["training_photo1_tmb"]) . '?v=1" alt="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants" onclick="trainingPreview(\'' . htmlspecialchars($row["training_id"]) . '\', \'' . htmlspecialchars($row["training_title"]) . '\', \'' . htmlspecialchars($row["training_description"]) . '\', \'' . htmlspecialchars($row["training_country"]) . '\', \'' . htmlspecialchars($row["no_participants"]) . '\', \'' . htmlspecialchars($row["lead_trainer"]) . '\')" title="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants">  
                         </div>
                     </div>';
             }
@@ -108,13 +108,13 @@ https://github/globalecobrickalliance/ecobricks.org
             echo "No trainings available to display.";
         }
         ?>
+    </div>
+    <div class="project-photo-box-end" href="add-project.php"></div>
+</div>
+<div class="feature-content-box">
+    <div class="feature-big-header"><h4 data-lang-id="500-featured-training-heading">GEA Trainings</h4></div>
+</div>
 
-
-            <div class="project-photo-box-end" href="add-project.php"></div>
-
-        </div>
-        <div class="feature-content-box">
-        <div class="feature-big-header"><h4 data-lang-id="500-featured-training-heading">GEA Trainings</h4></div>
             
             <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Our team of 600+ trainers are conducting trainings all around the world.</div>
         </div>
@@ -284,49 +284,49 @@ https://github/globalecobrickalliance/ecobricks.org
  <script src="../2024-landing-scripts.js"></script>
 
 <script>
-
 function trainingPreview(training_id, title, description, location, no_participants, lead_trainer) {
-        // Construct the image source URL
-        var imageUrl = 'https://ecobricks.org/trainings/photos/training-' + training_id + '-0.webp';
-    
-        // Fetch the existing modal elements
-        var modal = document.getElementById('form-modal-message');
-        var photoContainer = modal.querySelector('.modal-photo');
-    
-        // Clear any existing content in the photo container
-        photoContainer.innerHTML = '';
-    
-        // Create and append the training image to the photo container with specified styling
-        const img = document.createElement('img');
-        img.src = imageUrl;
-        img.alt = "Training: " + title;
-        img.title = "Training " + training_id + ": " + title;
-        img.style.maxWidth = '90%';
-        img.style.maxHeight = '80vh'; 
-        img.style.minHeight = "400px";
-        img.style.minWidth = "400px";
-        img.style.margin = 'auto';
-        photoContainer.appendChild(img);
-    
-        // Add training details inside photo container
-        var details = document.createElement('div');
-        details.className = 'training-details';
-        details.style.margin = '20px 10% auto 10%'; // Adjust the margin as per your design
-        details.innerHTML = `<p style="font-size:small">${description} | ${no_participants} participants | ${location} | Lead Trainer: ${lead_trainer}</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="training.php?training_id=${training_id}">ℹ️ View Training</a>`;
-        photoContainer.appendChild(details);
-    
-        // Show the modal
-        modal.style.display = 'flex';
-    
-        // Hide other parts of the modal not used for this preview
-        modal.querySelector('.modal-content-box').style.display = 'none';
-    
-       // Blur out background
-       document.getElementById('page-content')?.classList.add('blurred');
-        document.getElementById('footer-full')?.classList.add('blurred');
-        document.body.classList.add('modal-open');
-    }
-    </script>
+    // Construct the image source URL
+    var imageUrl = 'https://ecobricks.org/trainings/photos/training-' + training_id + '-0.webp';
+
+    // Fetch the existing modal elements
+    var modal = document.getElementById('form-modal-message');
+    var photoContainer = modal.querySelector('.modal-photo');
+
+    // Clear any existing content in the photo container
+    photoContainer.innerHTML = '';
+
+    // Create and append the training image to the photo container with specified styling
+    const img = document.createElement('img');
+    img.src = imageUrl;
+    img.alt = "Training: " + title;
+    img.title = title + " in " + location;
+    img.style.maxWidth = '90%';
+    img.style.maxHeight = '80vh'; 
+    img.style.minHeight = "400px";
+    img.style.minWidth = "400px";
+    img.style.margin = 'auto';
+    photoContainer.appendChild(img);
+
+    // Add training details inside photo container
+    var details = document.createElement('div');
+    details.className = 'training-details';
+    details.style.margin = '20px 10% auto 10%'; // Adjust the margin as per your design
+    details.innerHTML = `<p style="font-size:small">${description} | ${no_participants} participants | ${location} | Lead Trainer: ${lead_trainer}</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="training.php?training_id=${training_id}">ℹ️ View Training</a>`;
+    photoContainer.appendChild(details);
+
+    // Show the modal
+    modal.style.display = 'flex';
+
+    // Hide other parts of the modal not used for this preview
+    modal.querySelector('.modal-content-box').style.display = 'none';
+
+    // Blur out background
+    document.getElementById('page-content')?.classList.add('blurred');
+    document.getElementById('footer-full')?.classList.add('blurred');
+    document.body.classList.add('modal-open');
+}
+</script>
+
 
 </body>
 
