@@ -249,15 +249,28 @@ if (!empty($db_fields) && empty($error_message)) {
     $db_values[] = $training_id;
     $db_types .= "s";
 
+    echo "<script>console.log('SQL Query: " . addslashes($update_sql) . "');</script>";
+    echo "<script>console.log('Values: " . json_encode($db_values) . "');</script>";
+    echo "<script>console.log('Types: " . addslashes($db_types) . "');</script>";
+
     $update_stmt = $conn->prepare($update_sql);
-    $update_stmt->bind_param($db_types, ...$db_values);
-    if (!$update_stmt->execute()) {
-        $error_message .= "Database update failed: " . $update_stmt->error;
-        echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
+    if (!$update_stmt) {
+        $error_message .= "Prepare failed: " . $conn->error;
+        echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
     } else {
-        echo "<script>console.log('Database updated successfully');</script>";
+        if (!$update_stmt->bind_param($db_types, ...$db_values)) {
+            $error_message .= "Bind param failed: " . $update_stmt->error;
+            echo "<script>console.log('Bind param failed: " . addslashes($update_stmt->error) . "');</script>";
+        } else {
+            if (!$update_stmt->execute()) {
+                $error_message .= "Database update failed: " . $update_stmt->error;
+                echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
+            } else {
+                echo "<script>console.log('Database updated successfully');</script>";
+            }
+        }
+        $update_stmt->close();
     }
-    $update_stmt->close();
 }
 
 if (!empty($error_message)) {

@@ -87,25 +87,25 @@ if ($result->num_rows > 0) {
                     
                     if (!empty($array["training_agenda"])) {
                         echo '<h3>Training Agenda</h3>
-                              <p>. $array["training_agenda"] .</p>
+                              <p>'. $array["training_agenda"] .'</p>
                               <br><br>';
                     }
                     
                     if (!empty($array["training_success"])) {
                         echo '<h3>Success Story</h3>
-                              <p>. $array["training_success"] .</p>
+                              <p>'. $array["training_success"] .'</p>
                               <br><br>';
                     }
                     
                     if (!empty($array["training_challenges"])) {
                         echo '<h3>Challenges</h3>
-                              <p>. $array["training_challenges"] .</p>
+                              <p>'. $array["training_challenges"] .'</p>
                               <br><br>';
                     }
                     
                     if (!empty($array["training_lessons_learned"])) {
                         echo '<h3>Lessons Learned</h3>
-                              <p>. $array["training_lessons_learned"] .</p>
+                              <p>'. $array["training_lessons_learned"] .'</p>
                               <br><br>';
                     }
                     
