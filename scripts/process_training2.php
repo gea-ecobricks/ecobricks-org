@@ -197,27 +197,31 @@ for ($i = 0; $i < 7; $i++) {
 
         if ($img !== false) {
             echo "<script>console.log('Image $i downloaded successfully');</script>";
-            file_put_contents($targetPath, $img);
-            echo "<script>console.log('Image $i ready');</script>";
-
-
-            if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) {
-                // Create thumbnail with height 200px while maintaining aspect ratio
-                echo "<script>console.log('Image $i saved successfully, $bytes_written bytes written');</script>";
-                createTrainingThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 200, 77);
-
-                echo "<script>console.log('Image $i resized and thumbnail created');</script>";
-                $full_urls[] = $targetPath;
-                $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
-                $main_file_sizes[] = filesize($targetPath) / 1024;
-                $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
-
-                array_push($db_fields, "training_photo" . $i . "_main", "training_photo" . $i . "_tmb");
-                array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
-                $db_types .= "ss";
+            $bytes_written = @file_put_contents($targetPath, $img);
+            if ($bytes_written !== false) {
+                $kb_written = $bytes_written / 1024;
+                echo "<script>console.log('Image $i saved successfully, {$kb_written} KB written to {$targetPath} and thumbnail to {$thumbnail_dir}{$new_file_name_webp}');</script>";
+        
+                if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) {
+                    // Create thumbnail with height 200px while maintaining aspect ratio
+                    createTrainingThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 200, 77);
+        
+                    echo "<script>console.log('Image $i resized and thumbnail created');</script>";
+                    $full_urls[] = $targetPath;
+                    $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
+                    $main_file_sizes[] = filesize($targetPath) / 1024;
+                    $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
+        
+                    array_push($db_fields, "training_photo" . $i . "_main", "training_photo" . $i . "_tmb");
+                    array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
+                    $db_types .= "ss";
+                } else {
+                    $error_message .= "Error processing training image $i. Please try again.<br>";
+                    echo "<script>console.log('Error processing training image $i');</script>";
+                }
             } else {
-                $error_message .= "Error processing training image $i. Please try again.<br>";
-                echo "<script>console.log('Error processing training image $i');</script>";
+                $error_message .= "Failed to save image $i to $targetPath.<br>";
+                echo "<script>console.log('Failed to save image $i to $targetPath. Error: " . error_get_last()['message'] . "');</script>";
             }
         } else {
             $error_message .= "Failed to download image from URL: $photo_url.<br>";
