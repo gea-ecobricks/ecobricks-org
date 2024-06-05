@@ -79,7 +79,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             // Extract the necessary data from the Knack payload
             $training_id = $record['field_1361'] ?? '';
             $training_title = $record['field_1084'] ?? '';
-            $training_logged = $record['field_1085'] ?? '';
+            $training_date = $record['field_1085'] ?? '';
             $no_participants = $record['field_1091'] ?? '';
             $lead_trainer = isset($record['field_1093_raw'][0]['identifier']) ? $record['field_1093_raw'][0]['identifier'] : '';
     
