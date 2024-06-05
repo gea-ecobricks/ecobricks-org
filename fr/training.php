@@ -109,44 +109,10 @@ if ($result->num_rows > 0) {
                               <br><br>';
                     }
                     
-                    echo '</div>';
+                    echo '</div>
 
 
-			$trainingId = $_GET['training_id'] ?? 0; // Default to 0 if not set
-			if ($trainingId) {
-				// Updated SQL to directly use location_lat and location_long
-				$sql = "SELECT training_title, location_full, training_summary, location_lat AS latitude, location_long AS longitude FROM tb_trainings WHERE training_id = ?";
-				$stmt = $conn->prepare($sql);
-				$stmt->bind_param('i', $trainingId);
-				$stmt->execute();
-				$result = $stmt->get_result();
-				$array = $result->fetch_assoc();
 			
-				if ($array && $array['latitude'] && $array['longitude']) {
-					echo '
-					
-						<div id="map" style="width: 100%; height: 300px;padding:10px;"></div>
-						<script>
-							var map = L.map("map").setView([' . $array['latitude'] . ', ' . $array['longitude'] . '], 13);
-							L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-								maxZoom: 19,
-								attribution: "© OpenStreetMap"
-							}).addTo(map);
-							L.marker([' . $array['latitude'] . ', ' . $array['longitude'] . ']).addTo(map)
-								.bindPopup("' . htmlspecialchars($array['training_id'], ENT_QUOTES, 'UTF-8') . '")
-								.openPopup();
-						</script>';
-				} else {
-					echo 'Training not found or no location data available.';
-				}
-			} else {
-				echo 'Invalid training ID.';
-			}
-
-
-			echo '
-			<p style="font-size:smaller">Training Location:</p>
-			<p style="font-size:normal">' . $array["location_full"] . '</p><br>
 			<br><hr><br> 
 			
             
