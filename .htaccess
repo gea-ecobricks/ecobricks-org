@@ -335,6 +335,9 @@ Redirect /coefficients/ /en/coefficients.php
 Redirect /coeffecients /en/coefficients.php
 Redirect /coeffecients /en/coefficients.php
 
+Redirect /plastic /en/plastic.php
+
+
 
 Redirect /richard /en/richard.php
 
