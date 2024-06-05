@@ -188,20 +188,10 @@ echo '
 
             <?php require_once ("side-modules/good-use.php");?>
 
-            <?php require_once ("side-modules/sequest-module.php");?>
 
             <?php require_once ("side-modules/signup-now.php");?>
 
-			<div class="side-module-desktop-mobile">
-
-			<img src="../svgs/building-methods.svg" width="300" style="width:80%" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
-
-			<br><br>
-			<a class="module-btn" href="add-project.php">Post your project</a>
-				<h6 style="font-size:smaller">Share your ecobrick application</h6>
-
-			</div>
-                
+		
    
 
 
