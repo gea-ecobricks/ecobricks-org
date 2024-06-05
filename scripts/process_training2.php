@@ -89,7 +89,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $est_plastic_packed = $record['field_1897'] ?? '';
             
             $training_location = isset($record['field_1124_raw'][0]['identifier']) ? $record['field_1124_raw'][0]['identifier'] : '';
-            $training_country = isset($record['field_1114_raw'][0]['identifier']) ? $record['field_1114_raw'][0]['identifier'] : '';
+            $training_country = isset($record['field_1114_raw']) && is_array($record['field_1114_raw']) && !empty($record['field_1114_raw']) ? $record['field_1114_raw'][0]['identifier'] : '';
             $training_summary = $record['field_1362'] ?? '';
             $training_agenda = $record['field_1376'] ?? '';
             $training_success = $record['field_1377'] ?? '';

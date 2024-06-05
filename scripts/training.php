@@ -50,6 +50,8 @@ if ($result->num_rows > 0) {
     $briks_made = $record['briks_made'];
     $est_plastic_packed = $record['est_plastic_packed'];
     $location_full = $record['location_full'];
+    $training_country = $record['training_country'];
+    $training_location = $record['training_location'];
     $training_summary = $record['training_summary'];
     $training_agenda = $record['training_agenda'];
     $training_success = $record['training_success'];
@@ -80,6 +82,8 @@ if ($result->num_rows > 0) {
         <p><strong>Briks Made:</strong> $briks_made</p>
         <p><strong>Estimated Plastic Packed:</strong> $est_plastic_packed</p>
         <p><strong>Location:</strong> $location_full</p>
+        <p><strong>Country:</strong> $training_country</p>
+        <p><strong>Specific Location:</strong> $training_location</p>
         <p><strong>Training Summary:</strong> $training_summary</p>
         <p><strong>Training Agenda:</strong> $training_agenda</p>
         <p><strong>Training Success:</strong> $training_success</p>
@@ -120,6 +124,7 @@ $conn->close();
 </head>
 <body>
     <h1>Training Record Details</h1>
+    <a href="get-training.php"><button>Transfer another training</button></a>
     <?php
     echo $record_details;
     ?>
