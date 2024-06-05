@@ -85,7 +85,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <!-- TRAININGS GALLERY -->
 
-<div class="eatured-content-gallery" style="overflow-x:clip;">
+<div class="featured-content-gallery" style="overflow-x:clip;">
     <div class="feed-live">
         <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Live trainings feed.  Click to view.</p>
     </div>
@@ -118,7 +118,8 @@ https://github/globalecobrickalliance/ecobricks.org
             
             <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Our team of 600+ trainers are conducting trainings all around the world.</div>
         </div>
-        <a href="https://gobrik.com/courses.php" target="_blank" class="feature-button" data-lang-id="500-training-join-button" aria-label="Post your project">➕ Join a workshop</div>
+        <a href="https://gobrik.com/courses.php" target="_blank" class="feature-button" data-lang-id="500-training-join-button" aria-label="View workshops">➕ Join a workshop</a>
+        <div class="feature-reference-links">View our current courses</div>
     </div>
 
 
