@@ -117,9 +117,8 @@ https://github/globalecobrickalliance/ecobricks.org
 
             
             <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Our team of 600+ trainers are conducting trainings all around the world.</div>
-        </div>
-        <a href="https://gobrik.com/courses.php" target="_blank" class="feature-button" data-lang-id="500-training-join-button" aria-label="View workshops">➕ Join a workshop</a>
-        <div class="feature-reference-links">View our current courses</div>
+        <!-- <a href="https://gobrik.com/courses.php" target="_blank" class="feature-button" data-lang-id="500-training-join-button" aria-label="View workshops">➕ Join a workshop</a>
+        <div class="feature-reference-links">View our current courses</div> -->
     </div>
 
 
@@ -284,8 +283,7 @@ https://github/globalecobrickalliance/ecobricks.org
  <script src="../2024-landing-scripts.js"></script>
 
 <script>
-    
-    function trainingPreview(training_id, title, location, no_participants, lead_trainer) {
+   function trainingPreview(training_id, title, country, no_participants, lead_trainer) {
     // Construct the image source URL
     var imageUrl = 'https://ecobricks.org/trainings/photos/training-' + training_id + '-0.webp';
 
@@ -300,7 +298,7 @@ https://github/globalecobrickalliance/ecobricks.org
     const img = document.createElement('img');
     img.src = imageUrl;
     img.alt = "Training: " + title;
-    img.title = title + " in " + location;
+    img.title = title + " in " + country;
     img.style.maxWidth = '90%';
     img.style.maxHeight = '80vh'; 
     img.style.minHeight = "400px";
@@ -312,7 +310,7 @@ https://github/globalecobrickalliance/ecobricks.org
     var details = document.createElement('div');
     details.className = 'training-details';
     details.style.margin = '20px 10% auto 10%'; // Adjust the margin as per your design
-    details.innerHTML = `<p style="font-size:small">${title} | ${no_participants} participants | Lead Trainer: ${lead_trainer}</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="training.php?training_id=${training_id}">ℹ️ View Training</a>`;
+    details.innerHTML = `<p style="font-size:small">${title} in ${country} | ${no_participants} participants | Lead Trainer: ${lead_trainer}</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="training.php?training_id=${training_id}">ℹ️ View Training</a>`;
     photoContainer.appendChild(details);
 
     // Show the modal
@@ -326,8 +324,8 @@ https://github/globalecobrickalliance/ecobricks.org
     document.getElementById('footer-full')?.classList.add('blurred');
     document.body.classList.add('modal-open');
 }
-
 </script>
+
 
 
 </body>
