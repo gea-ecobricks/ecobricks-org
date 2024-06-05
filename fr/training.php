@@ -76,32 +76,40 @@ if ($result->num_rows > 0) {
                                       </div>';
                             }
                         }
-  echo '
-</div>
-			<div class="page-paragraph"> 
-            <h3>Training Summary</h3>
-            <p> ' . $array["training_summary"] . '</p>
-
-                        <br><br>
-            <h3>Training Agenda</h3>
-            <p> ' . $array["training_agenda"] . '</p>
-       
-			<br><br>
-            <h3>Success Story</h3>
-            <p> ' . $array["training_success"] . '</p>
-            </div>
-          
-            <br><br>
-            <h3>Challenges</h3>
-            <p> ' . $array["training_challenges"] . '</p>
-        
-            <br><br>
-            <h3>Lessons Learned</h3>
-            <p> ' . $array["training_lessons_learned"] . '</p>
-            </div>';
-            
-
-            
+                        echo '</div>
+                        <div class="page-paragraph">';
+                    
+                    if (!empty($array["training_summary"])) {
+                        echo '<h3>Training Summary</h3>
+                              <p>' . htmlspecialchars($array["training_summary"], ENT_QUOTES, 'UTF-8') . '</p>
+                              <br><br>';
+                    }
+                    
+                    if (!empty($array["training_agenda"])) {
+                        echo '<h3>Training Agenda</h3>
+                              <p>' . htmlspecialchars($array["training_agenda"], ENT_QUOTES, 'UTF-8') . '</p>
+                              <br><br>';
+                    }
+                    
+                    if (!empty($array["training_success"])) {
+                        echo '<h3>Success Story</h3>
+                              <p>' . htmlspecialchars($array["training_success"], ENT_QUOTES, 'UTF-8') . '</p>
+                              <br><br>';
+                    }
+                    
+                    if (!empty($array["training_challenges"])) {
+                        echo '<h3>Challenges</h3>
+                              <p>' . htmlspecialchars($array["training_challenges"], ENT_QUOTES, 'UTF-8') . '</p>
+                              <br><br>';
+                    }
+                    
+                    if (!empty($array["training_lessons_learned"])) {
+                        echo '<h3>Lessons Learned</h3>
+                              <p>' . htmlspecialchars($array["training_lessons_learned"], ENT_QUOTES, 'UTF-8') . '</p>
+                              <br><br>';
+                    }
+                    
+                    echo '</div>';
 
 
 			$trainingId = $_GET['training_id'] ?? 0; // Default to 0 if not set
