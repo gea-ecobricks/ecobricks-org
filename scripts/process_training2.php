@@ -145,8 +145,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
 
-
-
 // PART 3: Image Processing
 $error_message = '';
 $full_urls = [];
@@ -200,17 +198,17 @@ for ($i = 0; $i < 7; $i++) {
         if ($img !== false) {
             echo "<script>console.log('Image $i downloaded successfully');</script>";
             file_put_contents($targetPath, $img);
-        
+
             if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) {
                 // Create thumbnail with height 200px while maintaining aspect ratio
                 createTrainingThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 200, 77);
-        
+
                 echo "<script>console.log('Image $i resized and thumbnail created');</script>";
                 $full_urls[] = $targetPath;
                 $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
                 $main_file_sizes[] = filesize($targetPath) / 1024;
                 $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
-        
+
                 array_push($db_fields, "training_photo" . $i . "_main", "training_photo" . $i . "_tmb");
                 array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
                 $db_types .= "ss";
@@ -222,7 +220,10 @@ for ($i = 0; $i < 7; $i++) {
             $error_message .= "Failed to download image from URL: $photo_url.<br>";
             echo "<script>console.log('Failed to download image $i from URL: $photo_url. Error: $curl_error');</script>";
         }
-        
+    } else {
+        echo "<script>console.log('No URL provided for image $i');</script>";
+    }
+}
 
 if (!empty($db_fields) && empty($error_message)) {
     echo "<script>console.log('Updating database with new image data');</script>";
@@ -256,5 +257,6 @@ if (!empty($error_message)) {
     echo "<script>alert('Images processed and database updated successfully.'); window.location.href='training.php?training_id=$training_id';</script>";
     exit;
 }
+
 
 ?>
