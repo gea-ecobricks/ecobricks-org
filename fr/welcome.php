@@ -92,7 +92,7 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="gallery-flex-container">
         <?php
         // Updated SQL query to include a WHERE clause and a LIMIT
-        $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 ORDER BY training_id DESC LIMIT 25;";
+        $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 ORDER BY training_id DESC LIMIT 55;";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
@@ -100,7 +100,7 @@ https://github/globalecobrickalliance/ecobricks.org
             while ($row = $result->fetch_assoc()) {
                 echo '<div class="gal-project-photo">
                         <div class="photo-box">
-                            <img src="' . htmlspecialchars($row["training_photo1_tmb"]) . '?v=1" alt="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants" onclick="trainingPreview(\'' . htmlspecialchars($row["training_id"]) . '\', \'' . htmlspecialchars($row["training_title"]) . '\', \'' . htmlspecialchars($row["training_country"]) . '\', \'' . htmlspecialchars($row["no_participants"]) . '\', \'' . htmlspecialchars($row["lead_trainer"]) . '\')" title="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants">  
+                            <img src="' . htmlspecialchars($row["training_photo0_tmb"]) . '?v=1" alt="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants" onclick="trainingPreview(\'' . htmlspecialchars($row["training_id"]) . '\', \'' . htmlspecialchars($row["training_title"]) . '\', \'' . htmlspecialchars($row["training_country"]) . '\', \'' . htmlspecialchars($row["no_participants"]) . '\', \'' . htmlspecialchars($row["lead_trainer"]) . '\')" title="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants">  
                         </div>
                     </div>';
             }
