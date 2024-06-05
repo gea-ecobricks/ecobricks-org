@@ -100,7 +100,7 @@ https://github/globalecobrickalliance/ecobricks.org
             while ($row = $result->fetch_assoc()) {
                 echo '<div class="gal-project-photo">
                         <div class="photo-box">
-                            <img src="' . htmlspecialchars($row["training_photo1_tmb"]) . '?v=1" alt="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants" onclick="trainingPreview(\'' . htmlspecialchars($row["training_id"]) . '\', \'' . htmlspecialchars($row["training_title"]) . '\', \'' . htmlspecialchars($row["training_description"]) . '\', \'' . htmlspecialchars($row["training_country"]) . '\', \'' . htmlspecialchars($row["no_participants"]) . '\', \'' . htmlspecialchars($row["lead_trainer"]) . '\')" title="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants">  
+                            <img src="' . htmlspecialchars($row["training_photo1_tmb"]) . '?v=1" alt="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants" onclick="trainingPreview(\'' . htmlspecialchars($row["training_id"]) . '\', \'' . htmlspecialchars($row["training_title"]) . '\', \'' . htmlspecialchars($row["training_country"]) . '\', \'' . htmlspecialchars($row["no_participants"]) . '\', \'' . htmlspecialchars($row["lead_trainer"]) . '\')" title="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants">  
                         </div>
                     </div>';
             }
@@ -113,6 +113,7 @@ https://github/globalecobrickalliance/ecobricks.org
 <div class="feature-content-box">
     <div class="feature-big-header"><h4 data-lang-id="500-featured-training-heading">GEA Trainings</h4></div>
 </div>
+
 
             
             <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Our team of 600+ trainers are conducting trainings all around the world.</div>
@@ -283,7 +284,8 @@ https://github/globalecobrickalliance/ecobricks.org
  <script src="../2024-landing-scripts.js"></script>
 
 <script>
-function trainingPreview(training_id, title, description, location, no_participants, lead_trainer) {
+    
+    function trainingPreview(training_id, title, location, no_participants, lead_trainer) {
     // Construct the image source URL
     var imageUrl = 'https://ecobricks.org/trainings/photos/training-' + training_id + '-0.webp';
 
@@ -310,7 +312,7 @@ function trainingPreview(training_id, title, description, location, no_participa
     var details = document.createElement('div');
     details.className = 'training-details';
     details.style.margin = '20px 10% auto 10%'; // Adjust the margin as per your design
-    details.innerHTML = `<p style="font-size:small">${training_title} | ${no_participants} participants</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="training.php?training_id=${training_id}">ℹ️ View Training</a>`;
+    details.innerHTML = `<p style="font-size:small">${title} | ${no_participants} participants | Lead Trainer: ${lead_trainer}</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="training.php?training_id=${training_id}">ℹ️ View Training</a>`;
     photoContainer.appendChild(details);
 
     // Show the modal
@@ -324,6 +326,7 @@ function trainingPreview(training_id, title, description, location, no_participa
     document.getElementById('footer-full')?.classList.add('blurred');
     document.body.classList.add('modal-open');
 }
+
 </script>
 
 
