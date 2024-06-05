@@ -5,7 +5,7 @@
 
 -----------------------------------*/
 
-const en_Page_Translations = {
+const es_Page_Translations = {
    
 };
 
