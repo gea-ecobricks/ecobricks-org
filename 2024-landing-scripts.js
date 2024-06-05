@@ -139,7 +139,7 @@ function projectPreview(project_id, name, description, location_full, ecobricks_
     }
 
 
-
+ 
     function trainingPreview(training_id, title, description, location, no_participants, lead_trainer) {
         // Construct the image source URL
         var imageUrl = 'https://ecobricks.org/trainings/photos/training-' + training_id + '-0.webp';
@@ -157,7 +157,7 @@ function projectPreview(project_id, name, description, location_full, ecobricks_
         img.alt = "Training: " + title;
         img.title = "Training " + training_id + ": " + title;
         img.style.maxWidth = '90%';
-        img.style.maxHeight = '80vh';
+        img.style.maxHeight = '80vh'; 
         img.style.minHeight = "400px";
         img.style.minWidth = "400px";
         img.style.margin = 'auto';

@@ -144,7 +144,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
 } else {
     echo "<script>alert('No records found in the Knack database.');</script>";
 }
-
 // PART 3: Image Processing
 $error_message = '';
 $full_urls = [];
@@ -172,8 +171,12 @@ $training_photos = [
     $training_photo6_main
 ];
 
+echo "<script>console.log('Starting image processing');</script>";
+
 for ($i = 0; $i < 7; $i++) {
     $photo_url = $training_photos[$i];
+    echo "<script>console.log('Processing photo $i: $photo_url');</script>";
+
     if (!empty($photo_url)) {
         $file_extension = strtolower(pathinfo($photo_url, PATHINFO_EXTENSION));
         $new_file_name_webp = 'training-' . $training_id . '-' . $i . '.webp';
@@ -192,9 +195,10 @@ for ($i = 0; $i < 7; $i++) {
         curl_close($ch);
 
         if ($img !== false) {
+            echo "<script>console.log('Image $i downloaded successfully');</script>";
             file_put_contents($targetPath, $img);
 
-            if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 700, 88)) { // Resize to 1020px across
+            if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) { // Resize to 1020px across
                 // Adjust createThumbnail function call based on aspect ratio
                 list($width, $height) = getimagesize($targetPath);
                 if ($width > $height) {
@@ -203,7 +207,7 @@ for ($i = 0; $i < 7; $i++) {
                     createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 300, 300, 77);
                 }
 
-            
+                echo "<script>console.log('Image $i resized and thumbnail created');</script>";
                 $full_urls[] = $targetPath;
                 $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
                 $main_file_sizes[] = filesize($targetPath) / 1024;
@@ -213,15 +217,21 @@ for ($i = 0; $i < 7; $i++) {
                 array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
                 $db_types .= "ss";
             } else {
-                $error_message .= "Error processing training image. Please try again.<br>";
+                $error_message .= "Error processing training image $i. Please try again.<br>";
+                echo "<script>console.log('Error processing training image $i');</script>";
             }
         } else {
             $error_message .= "Failed to download image from URL: $photo_url.<br>";
+            echo "<script>console.log('Failed to download image $i from URL: $photo_url. Error: $curl_error');</script>";
         }
+    } else {
+        echo "<script>console.log('No URL provided for image $i');</script>";
     }
 }
 
 if (!empty($db_fields) && empty($error_message)) {
+    echo "<script>console.log('Updating database with new image data');</script>";
+
     array_push($db_fields, "ready_to_show", "training_logged");
     array_push($db_values, 1, date("Y-m-d H:i:s"));
     $db_types .= "is";
@@ -235,6 +245,9 @@ if (!empty($db_fields) && empty($error_message)) {
     $update_stmt->bind_param($db_types, ...$db_values);
     if (!$update_stmt->execute()) {
         $error_message .= "Database update failed: " . $update_stmt->error;
+        echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
+    } else {
+        echo "<script>console.log('Database updated successfully');</script>";
     }
     $update_stmt->close();
 }
@@ -248,4 +261,5 @@ if (!empty($error_message)) {
     echo "<script>alert('Images processed and database updated successfully.'); window.location.href='training.php?training_id=$training_id';</script>";
     exit;
 }
+
 ?>
