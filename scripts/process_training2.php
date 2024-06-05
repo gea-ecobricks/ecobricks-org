@@ -198,14 +198,10 @@ for ($i = 0; $i < 7; $i++) {
             echo "<script>console.log('Image $i downloaded successfully');</script>";
             file_put_contents($targetPath, $img);
 
-            if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) { // Resize to 1020px across
-                // Adjust createThumbnail function call based on aspect ratio
-                list($width, $height) = getimagesize($targetPath);
-                if ($width > $height) {
-                    createThumbnailWithDimensions($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
-                } else {
-                    createThumbnailWithDimensions($targetPath, $thumbnail_dir . $new_file_name_webp, 300, 300, 77);
-                }
+            if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) {
+                // Create thumbnail with height 200px while maintaining aspect ratio
+                createTrainingThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 200, 77);
+            }
 
                 echo "<script>console.log('Image $i resized and thumbnail created');</script>";
                 $full_urls[] = $targetPath;

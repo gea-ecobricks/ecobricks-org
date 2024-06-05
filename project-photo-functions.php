@@ -60,8 +60,8 @@ function createThumbnail($source_path, $destination_path, $width, $height, $qual
 }
 
 
-// Function to create a thumbnail with specific dimensions
-function createThumbnailWithDimensions($source_path, $destination_path, $max_width, $max_height, $quality) {
+// Function to create a thumbnail using GD library with height 200px
+function createTrainingThumbnail($source_path, $destination_path, $height, $quality) {
     list($source_width, $source_height, $source_type) = getimagesize($source_path);
     switch ($source_type) {
         case IMAGETYPE_JPEG:
@@ -77,25 +77,9 @@ function createThumbnailWithDimensions($source_path, $destination_path, $max_wid
             return false;
     }
 
-    $aspect_ratio = $source_width / $source_height;
-    if ($source_width > $source_height) {
-        $new_width = $max_width;
-        $new_height = $max_width / $aspect_ratio;
-    } else {
-        $new_height = $max_height;
-        $new_width = $max_height * $aspect_ratio;
-    }
-
-    // Ensure new dimensions are within the max width and height
-    if ($new_width > $max_width) {
-        $new_width = $max_width;
-        $new_height = $new_width / $aspect_ratio;
-    }
-
-    if ($new_height > $max_height) {
-        $new_height = $max_height;
-        $new_width = $new_height * $aspect_ratio;
-    }
+    // Calculate new width while maintaining aspect ratio
+    $new_height = $height;
+    $new_width = intval(($source_width / $source_height) * $new_height);
 
     $thumbnail = imagecreatetruecolor($new_width, $new_height);
     imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $new_width, $new_height, $source_width, $source_height);
