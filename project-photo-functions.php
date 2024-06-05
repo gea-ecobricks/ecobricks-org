@@ -59,8 +59,13 @@ function createThumbnail($source_path, $destination_path, $width, $height, $qual
     return true;
 }
 
+
+
+
+
+
 // Function to create a thumbnail with height 200px while maintaining aspect ratio
-function createTrainingThumbnail($source_path, $destination_path, $height, $quality) {
+function createTrainingThumbnail($source_path, $destination_path, $target_height, $quality) {
     list($source_width, $source_height, $source_type) = getimagesize($source_path);
     switch ($source_type) {
         case IMAGETYPE_JPEG:
@@ -77,34 +82,30 @@ function createTrainingThumbnail($source_path, $destination_path, $height, $qual
             return false;
     }
 
-    $new_height = $height;
-    $new_width = intval(($new_height / $source_height) * $source_width);
+    $aspect_ratio = $source_width / $source_height;
+    $target_width = $target_height * $aspect_ratio;
 
-    $thumbnail = imagecreatetruecolor($new_width, $new_height);
-    if ($thumbnail === false) {
-        echo "<script>console.log('Failed to create thumbnail resource');</script>";
-        return false;
-    }
-
-    if (!imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $new_width, $new_height, $source_width, $source_height)) {
-        echo "<script>console.log('Failed to resample the image for thumbnail');</script>";
-        imagedestroy($source_image);
-        imagedestroy($thumbnail);
-        return false;
+    $thumbnail = imagecreatetruecolor($target_width, $target_height);
+    if (imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $target_width, $target_height, $source_width, $source_height)) {
+        if (imagewebp($thumbnail, $destination_path, $quality)) {
+            imagedestroy($source_image);
+            imagedestroy($thumbnail);
+            return true;
+        } else {
+            echo "<script>console.log('Failed to save thumbnail to $destination_path');</script>";
+        }
+    } else {
+        echo "<script>console.log('Failed to create thumbnail for $source_path');</script>";
     }
     imagedestroy($source_image);
-
-    // Save the thumbnail
-    if (!imagewebp($thumbnail, $destination_path, $quality)) {
-        echo "<script>console.log('Failed to create thumbnail: $destination_path');</script>";
-        imagedestroy($thumbnail);
-        return false;
-    }
-
-    echo "<script>console.log('Thumbnail created with dimensions: {$new_width}px x {$new_height}px');</script>";
     imagedestroy($thumbnail);
-    return true;
+    return false;
 }
+
+
+
+
+
 
 
 
