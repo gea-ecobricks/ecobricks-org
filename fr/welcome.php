@@ -77,8 +77,7 @@ https://github/globalecobrickalliance/ecobricks.org
         <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
         <div class="feature-reference-links">Share your ecobrick application</div>
     </div>
-</div>
-</div>
+
 
 
 
@@ -86,7 +85,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <!-- TRAININGS GALLERY -->
 
-<div class="featured-project-gallery" style="overflow-x:clip;">
+<div class="eatured-content-gallery" style="overflow-x:clip;">
     <div class="feed-live">
         <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Live trainings feed.  Click to view.</p>
     </div>
