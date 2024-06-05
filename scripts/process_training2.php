@@ -203,7 +203,7 @@ for ($i = 0; $i < 7; $i++) {
 
             if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) {
                 // Create thumbnail with height 200px while maintaining aspect ratio
-                echo "<script>console.log('Image $i about to create thumbnail');</script>";
+                echo "<script>console.log('Image $i saved successfully, $bytes_written bytes written');</script>";
                 createTrainingThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 200, 77);
 
                 echo "<script>console.log('Image $i resized and thumbnail created');</script>";
