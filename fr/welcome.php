@@ -78,6 +78,7 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="feature-reference-links">Share your ecobrick application</div>
     </div>
 </div>
+</div>
 
 
 
