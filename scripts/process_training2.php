@@ -237,6 +237,7 @@ for ($i = 0; $i < 7; $i++) {
     }
 }
 
+
 if (!empty($db_fields) && empty($error_message)) {
     echo "<script>console.log('Updating database with new image data');</script>";
 
@@ -253,24 +254,28 @@ if (!empty($db_fields) && empty($error_message)) {
     echo "<script>console.log('Values: " . json_encode($db_values) . "');</script>";
     echo "<script>console.log('Types: " . addslashes($db_types) . "');</script>";
 
-    $update_stmt = $conn->prepare($update_sql);
-    if (!$update_stmt) {
-        $error_message .= "Prepare failed: " . $conn->error;
-        echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
+    // Check if the connection is still alive
+    if ($conn->ping()) {
+        echo "<script>console.log('Database connection is alive');</script>";
     } else {
-        if (!$update_stmt->bind_param($db_types, ...$db_values)) {
-            $error_message .= "Bind param failed: " . $update_stmt->error;
-            echo "<script>console.log('Bind param failed: " . addslashes($update_stmt->error) . "');</script>";
-        } else {
-            if (!$update_stmt->execute()) {
-                $error_message .= "Database update failed: " . $update_stmt->error;
-                echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
-            } else {
-                echo "<script>console.log('Database updated successfully');</script>";
-            }
-        }
-        $update_stmt->close();
+        echo "<script>console.log('Database connection is not alive');</script>";
+        die("Database connection lost.");
     }
+
+    $update_stmt = $conn->prepare($update_sql);
+    if ($update_stmt === false) {
+        echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
+        die("Prepare failed: " . $conn->error);
+    }
+    $update_stmt->bind_param($db_types, ...$db_values);
+
+    if (!$update_stmt->execute()) {
+        $error_message .= "Database update failed: " . $update_stmt->error;
+        echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
+    } else {
+        echo "<script>console.log('Database updated successfully');</script>";
+    }
+    $update_stmt->close();
 }
 
 if (!empty($error_message)) {
