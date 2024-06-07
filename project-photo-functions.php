@@ -60,7 +60,6 @@ function createThumbnail($source_path, $destination_path, $width, $height, $qual
 }
 
 
-
 // Function to create a thumbnail with height 200px while maintaining aspect ratio
 function createTrainingThumbnail($source_path, $destination_path, $target_height, $quality) {
     list($source_width, $source_height, $source_type) = getimagesize($source_path);
@@ -80,9 +79,9 @@ function createTrainingThumbnail($source_path, $destination_path, $target_height
     }
 
     $aspect_ratio = $source_width / $source_height;
-    $target_width = $target_height * $aspect_ratio;
+    $target_width = intval($target_height * $aspect_ratio); // Cast to integer
 
-    $thumbnail = imagecreatetruecolor($target_width, $target_height);
+    $thumbnail = imagecreatetruecolor($target_width, intval($target_height)); // Cast to integer
     if (imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $target_width, $target_height, $source_width, $source_height)) {
         if (imagewebp($thumbnail, $destination_path, $quality)) {
             imagedestroy($source_image);
@@ -98,6 +97,7 @@ function createTrainingThumbnail($source_path, $destination_path, $target_height
     imagedestroy($thumbnail);
     return false;
 }
+
 
 
 
