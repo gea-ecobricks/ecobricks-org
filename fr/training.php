@@ -124,7 +124,7 @@ if ($result->num_rows > 0) {
 				<p data-lang-id="152">Check out our currently available ecobrick, earthen and regenerative courses on our GoBrik app:</p>
 
 	
-                <p><a class="action-btn-blue" href="https://gobrik.com/courses.php" data-lang-id="154">🔎 Find a Course</a></p>
+                <p><a class="action-btn-blue" href="https://gobrik.com/courses.php" data-lang-id="154" style="margin-top:10px;>🔎 Find a Course</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">A listing of our current course options</a></p>
 
 

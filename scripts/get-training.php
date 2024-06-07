@@ -9,14 +9,16 @@ ini_set('display_errors', 1);?>
 <?php $page='project';?>
 <html>
 <head>
-    <title>Retrieve Training Information</title>
+    <title>Retrieve Training from GoBrik</title>
 </head>
 <body>
-    <h1>Retrieve Training Information v1.2</h1>
+    <h1>Retrieve Training from GoBrik</h1>
+    <h4>Enter the training ID number your GoBrik posted workshop (see you trainer dashboard and list of completed training).  This tool will fetch the information from GoBrik and post your training to the Ecobricks.org main page gallery.  It will also generate a feature page for your training.</h4>
     <form method="POST" action="process_training2.php">
         <label for="training_id">Training ID:</label>
         <input type="text" id="training_id" name="training_id" required>
         <input type="submit" value="Retrieve">
     </form>
+    <p>Note, this tool is still in development.  10% of training transfers are failing and we still can't figure out why!</p>
 </body>
 </html>
