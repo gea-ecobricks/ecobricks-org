@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="fr"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';
+<?php $lang='fr';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);?>
 <?php $version='2.12';?>
@@ -82,44 +82,46 @@ if ($result->num_rows > 0) {
                     if (!empty($array["training_summary"])) {
                         echo '<h3><p>Training Summary</p></h3>
                               <p>'. $array["training_summary"] .'</p>
-                              <br><br>';
+                              <br>';
                     }
                     
                     if (!empty($array["training_agenda"])) {
                         echo '<h3><p>Training Agenda</p></h3>
                               <p>'. $array["training_agenda"] .'</p>
-                              <br><br>';
+                              <br>';
                     }
                     
                     if (!empty($array["training_success"])) {
                         echo '<h3><p>Success Story</p></h3>
                               <p>'. $array["training_success"] .'</p>
-                              <br><br>';
+                              <br>';
                     }
                     
                     if (!empty($array["training_challenges"])) {
                         echo '<h3><p>Challenges</p></h3>
                               <p>'. $array["training_challenges"] .'</p>
-                              <br><br>';
+                              <br>';
                     }
                     
                     if (!empty($array["training_lessons_learned"])) {
                         echo '<h3><p>Lessons Learned</p></h3>
                               <p>'. $array["training_lessons_learned"] .'</p>
-                              <br><br>';
+                              <br>';
                     }
                     
                     echo '</div>
 
 
 			
-			<br><hr><br> 
+			
 			
             
             <div class="page-paragraph">
+
+            <br><hr><br> 
 				<h3><p data-lang-id="151">Global Ecobrick Alliance Workshops & Trainings</p></h3>
 			
-				<p data-lang-id="152">Check out our currently available ecobrick, earthen and regenerative courses on our GoBrik app:</p><br>
+				<p data-lang-id="152">Check out our currently available ecobrick, earthen and regenerative courses on our GoBrik app:</p>
 
 	
                 <p><a class="action-btn-blue" href="https://gobrik.com/courses.php" data-lang-id="154">🔎 Find a Course</a></p>
