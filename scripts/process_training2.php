@@ -238,7 +238,6 @@ for ($i = 0; $i < 7; $i++) {
 }
 
 
-
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -301,6 +300,7 @@ if (!empty($error_message)) {
     echo "<script>alert('Images processed and database updated successfully.'); window.location.href='training.php?training_id=$training_id';</script>";
     exit;
 }
+
 
 ?>
 
