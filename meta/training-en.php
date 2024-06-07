@@ -20,7 +20,7 @@ if ($result->num_rows > 0) {
         echo '<meta name="description" content="'. $array["no_participants"] .' have been training in '. $array["location_full"] .' in a '. $array["training_type"] .' GEA training.">';
 
 
-		echo '<meta name="keywords" content="training, workshop, plastic eduction, ecobrick, '. $array["lead_trainer"] .', '. $array["training_type"] .','. $array["training_description"] .', plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["location_full"] .'">';
+		echo '<meta name="keywords" content="training, workshop, plastic eduction, ecobrick, '. $array["lead_trainer"] .', '. $array["training_type"] .',plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["training_country"] .','. $array["training_location"] .'">';
 
         echo '<meta property="og:url" content="https://ecobricks.org/'. $lang .'/training.php?training_id='. $array["training_id"] .'">' ;
         echo '<meta property="og:title" content="'. $array["training_title"] .' |  '. $array["no_participants"] .' participants">';

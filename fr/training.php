@@ -80,7 +80,7 @@ if ($result->num_rows > 0) {
                         <div class="page-paragraph">';
                     
                     if (!empty($array["training_summary"])) {
-                        echo '<p><h3>Training Summary</h3></p>
+                        echo '<h3><p>Training Summary</p></h3>
                               <p>'. $array["training_summary"] .'</p>
                               <br><br>';
                     }
