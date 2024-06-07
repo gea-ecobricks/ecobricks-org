@@ -238,6 +238,10 @@ for ($i = 0; $i < 7; $i++) {
 }
 
 
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 if (!empty($db_fields) && empty($error_message)) {
     echo "<script>console.log('Updating database with new image data');</script>";
 
@@ -255,6 +259,7 @@ if (!empty($db_fields) && empty($error_message)) {
     echo "<script>console.log('Types: " . addslashes($db_types) . "');</script>";
 
     // Check if the connection is still alive
+    echo "<script>console.log('Checking database connection');</script>";
     if ($conn->ping()) {
         echo "<script>console.log('Database connection is alive');</script>";
     } else {
@@ -287,4 +292,5 @@ if (!empty($error_message)) {
     echo "<script>alert('Images processed and database updated successfully.'); window.location.href='training.php?training_id=$training_id';</script>";
     exit;
 }
+
 ?>
