@@ -23,7 +23,7 @@ if ($result->num_rows > 0) {
 		echo '<meta name="keywords" content="training, workshop, plastic eduction, ecobrick, '. $array["lead_trainer"] .', '. $array["training_type"] .','. $array["training_description"] .', plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["location_full"] .'">';
 
         echo '<meta property="og:url" content="https://ecobricks.org/'. $lang .'/training.php?training_id='. $array["training_id"] .'">' ;
-        echo '<meta property="og:title" content="'. $array["training_name"] .' |  '. $array["briks_used"] .' ecobricks">';
+        echo '<meta property="og:title" content="'. $array["training_title"] .' |  '. $array["no_participants"] .' participants">';
         echo '<meta property="og:description"   content="'. $array["no_participants"] .' have been training in '. $array["location_full"] .' in a '. $array["training_type"] .' GEA training.">';
         echo '<meta property="og:image" content="https://ecobricks.org/trainings/photos/training-'. $array["training_id"] .'-1.webp?v=2">';
         echo '<meta property="og:image:alt"     content="A photo of our ecobrick training workshop">';

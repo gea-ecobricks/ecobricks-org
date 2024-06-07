@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
 
     $upload_dir = '../projects/photos/';
     $thumbnail_dir = '../projects/tmbs/';
-
+ 
     $db_fields = [];
     $db_values = [];
     $db_types = "";
@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
             $targetPath = $upload_dir . $new_file_name_webp;
 
             if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
-                createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
+                createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 77);
                 $full_urls[] = $targetPath;
                 $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
                 $main_file_sizes[] = filesize($targetPath) / 1024;

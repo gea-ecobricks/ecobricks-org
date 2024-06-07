@@ -310,7 +310,7 @@ background-color: var(--emblem-green);
   overflow: hidden;
 }
 
-
+ 
 .gal-photo img {
   margin: 4px;
   width:60px;
