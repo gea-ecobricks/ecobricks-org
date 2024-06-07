@@ -237,8 +237,6 @@ for ($i = 0; $i < 7; $i++) {
     }
 }
 
-
-
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -263,8 +261,17 @@ if (!empty($db_fields) && empty($error_message)) {
     if ($conn->ping()) {
         echo "<script>console.log('Database connection is alive');</script>";
     } else {
-        echo "<script>console.log('Database connection is not alive');</script>";
-        die("Database connection lost.");
+        echo "<script>console.log('Database connection is not alive, attempting to reconnect');</script>";
+        $conn->close();
+        // Re-establish the database connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+
+        // Check connection again
+        if ($conn->connect_error) {
+            die("<script>alert('Reconnection failed: " . $conn->connect_error . "');</script>");
+        } else {
+            echo "<script>console.log('Reconnected to the database');</script>";
+        }
     }
 
     $update_stmt = $conn->prepare($update_sql);
@@ -294,3 +301,4 @@ if (!empty($error_message)) {
 }
 
 ?>
+
