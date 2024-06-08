@@ -78,7 +78,7 @@ if ($result->num_rows > 0) {
                         }
                         echo '</div>
                         <div class="page-paragraph">';
-                    
+                     
                     if (!empty($array["training_summary"])) {
                         echo '<h3><p>Training Summary</p></h3>
                               <p>'. $array["training_summary"] .'</p>
