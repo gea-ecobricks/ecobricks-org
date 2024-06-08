@@ -184,63 +184,64 @@ for ($i = 0; $i < 7; $i++) {
         $new_file_name_webp = 'training-' . $training_id . '-' . $i . '.webp';
         $targetPath = $upload_dir . $new_file_name_webp;
 
-       // Encode the URL to handle special characters
-$encoded_url = str_replace(' ', '%20', $photo_url);
+        // Encode the URL to handle special characters
+        $encoded_url = str_replace(' ', '%20', $photo_url);
 
-// Download the image using cURL
-$ch = curl_init($encoded_url);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // Follow redirects
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Disable SSL certificate verification (useful for testing)
-$img = curl_exec($ch);
-$curl_error = curl_error($ch);
-curl_close($ch);
+        // Download the image using cURL
+        $ch = curl_init($encoded_url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // Follow redirects
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Disable SSL certificate verification (useful for testing)
+        $img = curl_exec($ch);
+        $curl_error = curl_error($ch);
+        curl_close($ch);
 
-if ($img !== false) {
-    echo "<div class='message'>Image $i downloaded successfully</div>";
-    ob_flush(); flush();
-    $bytes_written = @file_put_contents($targetPath, $img);
-    if ($bytes_written !== false) {
-        $kb_written = $bytes_written / 1024;
-        echo "<div class='message'>Image $i saved successfully, {$kb_written} KB written to {$targetPath}</div>";
-        ob_flush(); flush();
-
-        if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) {
-            // Create thumbnail with height 200px while maintaining aspect ratio
-            if (createTrainingThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 200, 77)) {
-                echo "<div class='message'>Image $i resized and thumbnail created</div>";
+        if ($img !== false) {
+            echo "<div class='message'>Image $i downloaded successfully</div>";
+            ob_flush(); flush();
+            $bytes_written = @file_put_contents($targetPath, $img);
+            if ($bytes_written !== false) {
+                $kb_written = $bytes_written / 1024;
+                echo "<div class='message'>Image $i saved successfully, {$kb_written} KB written to {$targetPath}</div>";
                 ob_flush(); flush();
-                $full_urls[] = $targetPath;
-                $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
-                $main_file_sizes[] = filesize($targetPath) / 1024;
-                $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
 
-                array_push($db_fields, "training_photo" . $i . "_main", "training_photo" . $i . "_tmb");
-                array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
-                $db_types .= "ss";
+                if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) {
+                    // Create thumbnail with height 200px while maintaining aspect ratio
+                    if (createTrainingThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 200, 77)) {
+                        echo "<div class='message'>Image $i resized and thumbnail created</div>";
+                        ob_flush(); flush();
+                        $full_urls[] = $targetPath;
+                        $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
+                        $main_file_sizes[] = filesize($targetPath) / 1024;
+                        $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
+
+                        array_push($db_fields, "training_photo" . $i . "_main", "training_photo" . $i . "_tmb");
+                        array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
+                        $db_types .= "ss";
+                    } else {
+                        $error_message .= "Failed to create thumbnail for image $i.<br>";
+                        echo "<div class='alert'>Failed to create thumbnail for image $i</div>";
+                        ob_flush(); flush();
+                    }
+                } else {
+                    $error_message .= "Error processing training image $i. Please try again.<br>";
+                    echo "<div class='alert'>Error processing training image $i</div>";
+                    ob_flush(); flush();
+                }
             } else {
-                $error_message .= "Failed to create thumbnail for image $i.<br>";
-                echo "<div class='alert'>Failed to create thumbnail for image $i</div>";
+                $error_message .= "Failed to save image $i to $targetPath.<br>";
+                echo "<div class='alert'>Failed to save image $i to $targetPath. Error: " . error_get_last()['message'] . "</div>";
                 ob_flush(); flush();
             }
         } else {
-            $error_message .= "Error processing training image $i. Please try again.<br>";
-            echo "<div class='alert'>Error processing training image $i</div>";
+            $error_message .= "Failed to download image from URL: $photo_url.<br>";
+            echo "<div class='alert'>Failed to download image $i from URL: $photo_url. Error: $curl_error</div>";
             ob_flush(); flush();
         }
     } else {
-        $error_message .= "Failed to save image $i to $targetPath.<br>";
-        echo "<div class='alert'>Failed to save image $i to $targetPath. Error: " . error_get_last()['message'] . "</div>";
+        echo "<div class='message'>No URL provided for image $i</div>";
         ob_flush(); flush();
     }
-} else {
-    $error_message .= "Failed to download image from URL: $photo_url.<br>";
-    echo "<div class='alert'>Failed to download image $i from URL: $photo_url. Error: $curl_error</div>";
-    ob_flush(); flush();
-}
-} else {
-    echo "<div class='message'>No URL provided for image $i</div>";
-    ob_flush(); flush();
 }
 
 // Redirect to the next part for database update
@@ -250,3 +251,4 @@ exit;
 </div>
 </body>
 </html>
+
