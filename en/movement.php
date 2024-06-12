@@ -34,10 +34,14 @@
 
 		<div class="page-paragraph">
 	
-		<p data-lang-id="005-first-page-paragraph">Plastic.  It’s everywhere.  And it unites us.  Taking personal responsibility for one’s waste is the embodiment of Ghandi’s famous words “Be the change you want to see in the world“.
-        
+		<p data-lang-id="005-first-page-paragraph">Plastic.  It’s everywhere.  And it unites us.  Taking personal responsibility for one’s waste is the embodiment of Ghandi’s famous words “Be the change you want to see in the world“.</p>
+
+		<p data-lang-id="006-first-page-paragraph">United by plastic, ecobrickers around the world are now not just solving plastic for themselves, but for their neighbourhood, community, and cities.  In cases like Indonesia and the Philippines, they are fast on their way to solving plastic for their countries."</p>
+
+		<p data-lang-id="007-first-page-paragraph">The grassroots, people powered, Ecobrick movement is spreading around the world.  Hundreds of thousands of everyday folks, having seen through the illusions of Industrial ‘Recycling’, the failure of governments and corporations to solve solid ‘waste’, have turned to the abundance of plastic bottles for their personal solution.  Ecobricking has allowed them to take personal responsibility for their plastic, to keep it out of the failing systems and thus their local biosphere, and instead put the plastic to use locally.  The joy and pride from Ecobrickers who have made this transition is what propels the viral spread of Ecobricks around the world.</p>	
 		</div>
 
+		<div class="links">
 
 		<!--FOLLOWING EARTH'S EXAMPLE--->
 		
