@@ -42,6 +42,23 @@
 
 		<div class="links">
 			<h1 data-lang-id="008-header">Ecobrick Groups around the world:</h1>
+
+			<ul>
+	
+			        <li data-lang-id="009a-list-link"><a href="https://www.facebook.com/ecobricks.org">Plastic Solved Facebook Page</a> (GEA offcial page)</li>
+				<li data-lang-id="009b-list-link"><a href="https://www.instagram.com/ecobricks.plastic.solved/">Ecobricks Plastic Solved Instagram page</a> (GEA Official)</li>
+				<li data-lang-id="009c-list-link"><a href="https://www.facebook.com/groups/ecobricksUK/">UK Ecobricks Facebook Page</a></li>
+				<li data-lang-id="009d-list-link"><a href="https://www.facebook.com/Ecobricks-Indonesia-112129303527411/">Indonesia Ecobricks Facebook Page</a></li>
+				<li data-lang-id="009e-list-link"><a href="https://www.facebook.com/EcobricksUSA/">USA Ecobricks Facebook Page</a></li>
+				<li data-lang-id="009f-list-link"><a href="https://web.facebook.com/theplasticsolution/">The Plastic Solution (Philippines)</a></li>
+				<li data-lang-id="009g-list-link"><a href="https://web.facebook.com/EcoBrickExchange/">The Ecobrick Exchange (South Africa)</a></li>
+				<li data-lang-id="009h-list-link"><a href="https://web.facebook.com/groups/242330276319852/">Sri Lankan Ecobrick Movement Facebook page</a></li>
+				<li data-lang-id="009i-list-link"><a href="https://www.facebook.com/ecobricks.cavite/">Ecobricks Cavite (Philippines) Facebook page</a></li>
+				<li data-lang-id="009j-list-link"><a href="https://www.facebook.com/ecobricksg">Singapore Ecobricks Community</a></li>
+			</ul>
+	
+	    </ul>
+
 		</div>
 
 		<!--FOLLOWING EARTH'S EXAMPLE--->
