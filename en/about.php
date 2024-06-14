@@ -143,7 +143,7 @@
         <div class="row">
             <div class="main2">
                 <p data-lang-id="043-block3-main2-p1"><b>1. For-Earth Service</b></p>
-                <p data-lang-id="044-block3-main2-p2">Our enterprise follows the <a href="plastic.php>Earth's example</a> in generating ecological value. To do so we strive to follow the principles of <a href="https://book.earthen.io/en/summaries.html" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p>
+                <p data-lang-id="044-block3-main2-p2">Our enterprise follows the <a href="plastic.php">Earth's example</a> in generating ecological value. To do so we strive to follow the principles of <a href="https://book.earthen.io/en/summaries.html" target="_blank">Earthen ethics</a>: to serve the Earth first by supporting biodiversity, raising ecological awareness and maintaining a net-subtraction of carbon and plastic out of the biosphere by our enterprise.</p>
             </div>
             <div class="side2"><img src="../webp/earthservice-400px.webp" width="300" style="width:95%" alt="eco bricks are a form of earth service"></div>
             <div class="side3"><img src="../webp/earthservice-400px.webp" width="120" style="width:95%" alt="an eco brick is a form of earth service"></div>

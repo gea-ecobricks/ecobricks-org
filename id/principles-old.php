@@ -92,7 +92,7 @@ Content Page template: v.1.0.1-->
 				<br><br><hr>
 
 			
-				<h5>ℹ️Belajar tentang: <a href="plastic.php>Cerita Panjang Plastik</a></h5>
+				<h5>ℹ️Belajar tentang: <a href="plastic.php">Cerita Panjang Plastik</a></h5>
 				<h5>ℹ️ Belajar tentang:: <a href="https://book.earthen.io" target="_blank">Silat Bumi</a></h5>
 
 
@@ -369,7 +369,7 @@ Content Page template: v.1.0.1-->
 			<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Mengikuti contoh Bumi melalui ecobrick">
 			<br><h4>Menuju Konsentrasi</h4>
 			<h5>Seperti halnya Bumi mengkonsentrasikan dan mengamankan karbon untuk menghijaukan biosfer, demikian juga kita dapat melakukan hal yang sama dengan plastik melalui ecobricking.</h5><br>
-			<a class="module-btn" href="plastic.php>Contoh Bumi</a>
+			<a class="module-btn" href="plastic.php">Contoh Bumi</a>
 			<h6 style="font-size:smaller">Pelajari bagaimana Bumi melakukannya</h6>
 
             <br>

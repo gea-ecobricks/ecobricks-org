@@ -40,7 +40,7 @@
                      </div>
                 
                     <div class="page-paragraph">
-                         <p data-lang-id="006-second-page-paragraph">It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="plastic.php>Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The <a href="/about">Global Ecobrick Alliance</a> maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
+                         <p data-lang-id="006-second-page-paragraph">It has never been more important to take care of our plastic.  <a href="https://en.wikipedia.org/wiki/Plastic_sequestration" target="_blank">Plastic sequestration</a> provides a <a href="/principles">regenerative</a> alternative to industrial plastic management.  Following the <a href="plastic.php">Earth's example of carbon sequestration</a>, we have a proven path to not only secure our plastic out of the biosphere and out of industry, but also to  accelerate our <a href="transition.php">plastic transition</a>. The <a href="/about">Global Ecobrick Alliance</a> maintains criteria and standards for plastic sequestration to ensure that it is an authentic ecological service.</p>
 
                         <!--<p>
                             
@@ -81,7 +81,7 @@
             <br>
             <p data-lang-id="022-paragraph13"><b>5. Earthen Enclosure</b></p>
             <p data-lang-id="023-paragraph14">Research has shown that enclosing plastic in earth prevents abiotic plastic degradation. By enclosing the outputs of plastic sequestration in inert, net-zero earthen building materials such as cob and adobe, the outputs of plastic sequestration can be secured.</p>
-            <p data-lang-id="024-learn-about-plastic">ℹ️ Learn about: <a href="plastic.php>The Long Story of Plastic</a></p>
+            <p data-lang-id="024-learn-about-plastic">ℹ️ Learn about: <a href="plastic.php">The Long Story of Plastic</a></p>
             <p data-lang-id="025-source-earthen-ethics">ℹ️ Source: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></p>
         </div>
     </div>

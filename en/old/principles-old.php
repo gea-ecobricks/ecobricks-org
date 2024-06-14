@@ -93,7 +93,7 @@ Content Page template: v.1.0.1-->
 				<br><br><hr>
 
 			
-				<h5>ℹ️ Learn about: <a href="plastic.php>The Long Story of Plastic</a></h5>
+				<h5>ℹ️ Learn about: <a href="plastic.php">The Long Story of Plastic</a></h5>
 				<h5>ℹ️ Source: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></h5>
 
 
@@ -364,7 +364,7 @@ Content Page template: v.1.0.1-->
 				<img src="../icons/ecobrickable-icon-from-ecobricks-org.svg" width="70%" alt="Following Earth's example through eco bricking">
 				<br><h4>Towards Concentration</h4>
 				<h5>Just as Earth concentrated and secured carbon to green the biosphere, so too can we do the same with our plastic through ecobricking.</h5><br>
-				<a class="module-btn" href="plastic.php>Earth's Example</a>
+				<a class="module-btn" href="plastic.php">Earth's Example</a>
 				<h6 style="font-size:smaller">↗️ Learn how Earth does it</h6>
 			</div>   
 

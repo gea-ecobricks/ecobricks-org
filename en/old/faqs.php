@@ -230,7 +230,7 @@ Content Page template: v.1.0.0-->
                     <div class="faq-texts">
                         <div class="faq-header"><h4>What is plastic exactly?</h4></div>
                         <p>Plastic.  That convenient, colorful and ever so troublesome material that we all use every day is very easy to take for granted.  Fact is, it's incredibly unique and valuable— you literally can't find anything like it in elsewhere in our solar system!  Plastic is a petroleum by-product.  That means it is made from the carbon of ancient organisms— algae, forest, dinosaurs that lived and died hundreds of millions of years ago.  As their bodies were buried, the Earth compacted and secured their carbon underground. Over time, this process of carbon sequestration removed more and more carbon from the atmosphere and greened the biosphere.  Today, we dig up these deposits as 'fossil fuels'.  But, this ancient carbon was never meant to be fuel!  Refining fossil carbon into fuel leads to lots of leftover chemicals— which are perfect for making plastic, yet are dangerous when let loose into the environment.</p>
-						<div class="faq-link"><h5>Learn more: <a href="plastic.php>The Long Story of Plastic</h5></a></div>
+						<div class="faq-link"><h5>Learn more: <a href="plastic.php">The Long Story of Plastic</h5></a></div>
 						<div id="top-link">Back to <a href="#general">General Questions</a></div>
 					</div>
 					<div class="faq-image"><img src="../webp/compacted-carbon.webp" alt="compacted plastic eco brick sequestration" loading="lazy">
@@ -244,7 +244,7 @@ Content Page template: v.1.0.0-->
 						   <div class="faq-texts">
 							   <div class="faq-header"><h4>Why should I be concerned about my plastic?</h4></div>
 							   <p>Your plastic represents an incredible opportunity! With your everyday plastic you can make tiny ripples that over time will turn into giant waves of ecological enrichment.  Plastic is the tip of the iceberg of a massive system powered by the extraction and burning of ancient carbon deposits.  As this carbon gets loose in the atmosphere and oceans, it adversely effects the biosphere. While no one wants to see a rich ecosystem deplete or an animal suffer, unfortunately there is a direct correlation between the plastic that we consume today and these consequences tomorrow.  Small adjustments in our relationship with plastic can thus point us out of the petro-capital system.  Small choices today can reduce the system's momentum into the future and compounds into great greening consequences: the acceleration of a whole different kind of system with a lot less plastic and a lot richer ecosystems.   </p>
-							   <div class="faq-link"><h5>Learn more: <a href="plastic.php>The Long Story of Plastic</h5></a></div>
+							   <div class="faq-link"><h5>Learn more: <a href="plastic.php">The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
 						   <div class="faq-image"><img src="../webp/plastic-origins.webp" alt="eco bricks and the orgins of plastic" loading="lazy"></div>
@@ -259,7 +259,7 @@ Content Page template: v.1.0.0-->
 						   <div class="faq-texts">
 							   <div class="faq-header"><h4>But aren't there bigger issues to worry about?</h4></div>
 							   <p>Climate change.  Ocean acidification.  Species extinction.  These are big issues!  And they all have one thing in common:  <i>The way we humans relate to planet Earth.</i>  From brash billionaires to poisonous pollution... indeed, the way we currently relate, makes it easy to worry!   However, there's no more powerful way to manifest change than by living it first ourselves.  As a product of both the earth and the petro-capital economy, plastic is the ultimate representation of the old way we've been relating to Earth.  By changing the way we see plastic and what we do with it, we can shift our attitude from worry and despair to love and care.  By loving and caring for our plastic, we can begin to heal the roots of our relationship with it and Earth:  The very same roots that all the other big issues happen to share.</p>
-							   <div class="faq-link"><h5>Learn more: <a href="plastic.php>The Long Story of Plastic</h5></a></div>
+							   <div class="faq-link"><h5>Learn more: <a href="plastic.php">The Long Story of Plastic</h5></a></div>
 								<div id="top-link">Back to <a href="#general">General Questions</a></div>
 						   </div>
 						   <div class="faq-image"><img src="../webp/petro-capital-age.webp" alt="petro capital transition" loading="lazy"></div>

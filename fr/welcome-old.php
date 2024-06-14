@@ -98,7 +98,7 @@
 		<p>L'écobrique suit l'exemple de la Terre en ce qui concerne la concentration et la sécurisation du carbone hors de la biosphère. Conformément à la science de la dégradation du plastique et aux principes de la terre, l'écobrique est un moyen de séquestration du plastique non capital et net zéro.</p>
 		</div>
 		<a href="sequest.php" button class="main-button">Séquestration du plastique</a>
-		<h6><a href="/ayyew">Inspiré d'Ayyew</a> | <a href="/circular">Circulaire par conception</a> | <a href="plastic.php>Vers la transition</a> | <a href="/principles">Régénératif</a> <!--| <a href="/reports">Rapports et livres blancs</a>--></h6></div>
+		<h6><a href="/ayyew">Inspiré d'Ayyew</a> | <a href="/circular">Circulaire par conception</a> | <a href="plastic.php">Vers la transition</a> | <a href="/principles">Régénératif</a> <!--| <a href="/reports">Rapports et livres blancs</a>--></h6></div>
 	</div>	
 		
 	<!--THIRD CONTENT SECTION-->

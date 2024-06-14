@@ -97,7 +97,7 @@
                     <a href="what.php">What are Ecobricks</a>
                     <a href="/how">How to Make?</a>
                     <a href="/why">Why Ecobricks?</a>
-                    <a href="plastic.php>Plastic's Story</a>
+                    <a href="plastic.php">Plastic's Story</a>
                 </div>
             </div> 
         

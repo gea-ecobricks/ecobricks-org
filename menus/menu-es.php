@@ -111,7 +111,7 @@
                     <a href="what.php">¿Qué es?</a>
                     <a href="/how">¿Cómo hacer?</a>
                     <a href="/why">¿Por qué ecoladrillos?</a>
-                    <a href="plastic.php>Historia del plástico</a>
+                    <a href="plastic.php">Historia del plástico</a>
                     <a href="principles.php">Principios</a>
                     <a href="sequest.php">Secustro Plastico</a>
                     <a href="/fire">Seguridad contra incendios</a>

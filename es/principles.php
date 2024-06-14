@@ -79,7 +79,7 @@
             <li><p data-lang-id="017-towards-awareness"><b><a href="https://book.earthen.io/en/awareness.html" target="_blank">Towards Awareness:</a></b> In the same way that Earth cultivated higher levels of consciousness, so too can we manage our plastic! Rather than just throwing it away, we can count how much we use each month, how much we ecobrick and track our transition from plastic and the petro-capital system that it represents.</p></li>
         </ol>
         <br><br><hr>
-        <h5 data-lang-id="018-learn-about-plastic">ℹ️ Learn about: <a href="plastic.php>The Long Story of Plastic</a></h5>
+        <h5 data-lang-id="018-learn-about-plastic">ℹ️ Learn about: <a href="plastic.php">The Long Story of Plastic</a></h5>
         <h5 data-lang-id="019-source-earthen-ethics">ℹ️ Source: <a href="https://book.earthen.io" target="_blank">Earthen Ethics</a></h5>
     </div>
 </div>

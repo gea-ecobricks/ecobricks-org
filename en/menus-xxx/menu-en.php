@@ -108,7 +108,7 @@
                     <a href="/how">How to Make?</a>
                     <a href="/why">Why Ecobricks?</a>
                     <a href="sequest.php">Sequestration</a>
-                    <a href="plastic.php>Plastic's Story</a>
+                    <a href="plastic.php">Plastic's Story</a>
                     <a href="brickable.php">Brickable Design</a>
                     <a href="/fire">Fire Safety</a>
 
