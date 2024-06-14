@@ -57,7 +57,42 @@ const id_Page_Translations = {
   "043-mandalic-collaboration": "Dengan cara ini, daripada membutuhkan mesin dan proses serta bahan yang memakan banyak energi, bangunan tanah dan ecobrick idealnya dibangun oleh komunitas yang datang bersama menggunakan prinsip kolaborasi mandala.",
   "044-learn-more-mandalic": "ℹ️ Pelajari lebih lanjut tentang <a href=\"/mandalic\">Kolaborasi Mandala</a>",
 
+  "045-safe-journey": "Perjalanan aman melalui waktu.",
+  "046-secure-plastic": "Plastik berpotensi menjadi bahan beracun. Membuat ecobrick dan bangunan tanah adalah cara untuk mengamankan plastik dan menempatkannya pada jalur jangka panjang yang aman dan terjamin.",
+  "047-supporting-biodiversity": "<b>Mendukung keanekaragaman hayati: Foto sebelum dan sesudah kolam tanah dan ecobrick, dibuat dengan 200 ecobrick di Inggris.</b>",
+  "048-danger-of-plastic": "Bahaya plastik berasal dari area permukaannya yang terbuka. Sejauh permukaan plastik terpapar elemen, ia akan terus-menerus terurai menjadi bagian yang lebih kecil (mikroplastik) dan mengeluarkan racun. Dengan mengemas dan menutup ecobrick, kita menjaga plastik tetap aman dan terjamin.",
+  "049-packing-plastic": "Mengemas plastik ke dalam ecobrick mengakibatkan pengurangan terminal dari area permukaan bersih. Ecobrick pada dasarnya adalah banyak meter persegi plastik yang dikompresi ke dalam ruang yang sangat kecil! Menggunakan tanah untuk membangun dengan ecobrick adalah cara untuk lebih mengamankan plastik.",
+  "050-earth-mortar": "Pembangunan tanah melibatkan pembuatan mortar (dikenal sebagai 'cob', 'adobe', 'daub', dll.) untuk sepenuhnya membungkus ecobrick. Dengan cara ini tidak ada satu sentimeter persegi plastik yang terbuka! Tanpa paparan sinar matahari, gesekan, atau panas, plastik di dalam ecobrick tidak dapat lagi terurai dengan cara apapun.",
+  "051-abandonment-of-projects": "Penting juga untuk mempertimbangkan pengabaian proyek. Cob, berbeda dengan semen, lebih mudah dihuni oleh tanaman. Bahkan jika struktur jangka panjang runtuh, ecobrick yang ditutupi tanah tidak dapat terurai dan akan tetap utuh selamanya. Tanah yang hancur secara bertahap menjadi tanah subur untuk tanaman, pohon, dan hutan untuk menutupinya.",
+  "052-long-term-journey": "Dengan membangun dengan tanah, menggunakan prinsip melingkar dan spiral, kita mengarahkan ecobrick kita menuju perjalanan jangka panjang yang aman melalui waktu.",
+  "053-plastic-sequestration": "Kami menyebut jalur ini sebagai ‘sekuester plastik’.",
+  "054-learn-more-sequestration": "ℹ️ Pelajari lebih lanjut tentang <a href=\"/sequest.php\">sekuester plastik kami</a>",
+
+  "055-ecobrick-custodial": "Pengaturan Kustodian Konstruksi Ecobrick",
+  "056-gea-recommendation": "Global Ecobrick Alliance sangat merekomendasikan agar rencana akhir masa pakai disusun dengan kustodian situs dan konstruksi.",
+  "057-secured-plastic": "Konstruksi Tanah dan Ecobrick mengandung jumlah besar plastik yang terjamin. Saat membangun di atas tanah pemerintah atau komunitas, sangat penting untuk membuat kesepakatan kustodian jangka panjang dengan pemilik properti. Kesepakatan ini harus mencakup pemeriksaan dan perbaikan tahunan serta rencana untuk penghancuran konstruksi untuk memastikan integritas ecobrick yang tidak terbatas. Kesepakatan ini juga harus memperhitungkan pengangkatan, kepemilikan, dan penggunaan kembali ecobrick yang terkandung pada akhirnya.",
+  "058-gea-template": "GEA telah mengembangkan contoh dan template penggunaan gratis dari Perjanjian Pembangunan & Kustodian Ecobrick kami. Unduh versi PDF dan ODG di sini:",
+  "059-sample-custodial-arrangements": "📄 <b>Contoh Pengaturan Kustodian Konstruksi Ecobrick</b>",
+  "060-sample-pdf": "Contoh – PDF – 500kb",
+  "061-download-eng-ind": "Unduh: <a href=\"https://nextcloud.ecobricks.org/index.php/s/kBr64X5XkiqQWSz\" target=\"_blank\">🇬🇧 ENG</a> | <a href=\"https://nextcloud.ecobricks.org/index.php/s/DjCKx9CHeG7Zb2A\" target=\"_blank\">🇮🇩 IND</a>",
+  "062-template-agreement": "📄 <b>Template Perjanjian Pembangunan Tanah & Ecobrick GEA</b>",
+  "063-editable-template": "Template yang Dapat Diedit – ODT – 1MB",
+  "064-download-eng-ind": "Unduh: <a href=\"https://nextcloud.ecobricks.org/index.php/s/DjCKx9CHeG7Zb2A\" target=\"_blank\">🇬🇧 ENG</a> | <a href=\"https://nextcloud.ecobricks.org/index.php/s/qgX3oZ8RJEJGGc5\" target=\"_blank\">🇮🇩 IND</a>",
+  "065-creative-commons": "Kontrak Pengaturan Kustodian Konstruksi Ecobrick GEA dilisensikan di bawah <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Lisensi Creative Commons Attribution 4.0 International</a>.",
+
+  "076-featured-projects": "Proyek Tanah & Ecobrick Unggulan",
+  "077-gea-trainings": "GEA memimpin pelatihan dan pembangunan di seluruh dunia. Lihat proyek unggulan kami.",
+  "078-jabung-mandala": "Taman Jabung Mandala - 2000 ecobrick, Jawa, Indonesia",
+  "079-view-project": "Lihat proyek",
+  "080-bathroom-wall": "Dinding kamar mandi sederhana dengan ecobrick - 250 ecobrick, Bali, Indonesia",
+  "081-view-project": "Lihat proyek",
+  "082-roundhouse": "Rumah bundar sederhana dengan tanah dan ecobrick - 2000 ecobrick, Wales, Inggris",
+  "083-view-project": "Lihat proyek",
+  "084-safe-passage": "Perjalanan Aman Melalui Waktu",
+  "085-significant-responsibility": "Membangun dengan ecobrick adalah tanggung jawab yang signifikan. Ecobrick mewakili sejumlah besar plastik yang terjamin yang akan bertahan lama. Untuk alasan ini, lebih penting dari sebelumnya untuk membangun menggunakan metode yang mewujudkan prinsip regeneratif.",
+  "086-earth-methods": "🚀 Metode Tanah & Ecobrick",
+  "087-overview-methods": "Ikhtisar prinsip dan metode pembangunan tanah."
 
 
 
-    };
+};

@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.02';?>
+<?php $version='2.03';?>
 <?php $page='earth';?>
  
 <title>Earth & Ecobrick Building</title>
@@ -343,17 +343,17 @@
 				<div class="gal-photo">
 					<img src="../photos/jabung1.jpg" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java" onclick="viewGalleryImage('../photos/jabung1.jpg', 'Jabung Mandala Park - 2000 ecobricks, Java, Indonesia')">
 					<p data-lang-id="078-jabung-mandala">Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p>
-					<p><a class="module-btn" href="https://ecobricks.org/jabung/" target="_blank" data-lang-id="079-view-project">View project</a></p>
+					<p><a class="module-btn" href="https://ecobricks.org/jabung/" data-lang-id="079-view-project">View project</a></p>
 				</div>
 				<div class="gal-photo" >
-					<img src="../photos/ubudraw1.jpg" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia" onclick="viewGalleryImage('../photos/ubudraw1.jpg', 'A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia')">
-					<p data-lang-id="080-bathroom-wall">A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p>
-					<p><a class="module-btn" href="https://ecobricks.org/training336/" target="_blank" data-lang-id="081-view-project">View project</a></p>
+					<img src="../photos/ubudraw1.jpg" alt="A simple ecobrick bathroom wall - 1560 ecobricks, Bali, Indonesia" onclick="viewGalleryImage('../photos/ubudraw1.jpg', 'A simple ecobrick bathroom wall - 156 ecobricks, Ubud, Bali, Indonesia')">
+					<p data-lang-id="080-bathroom-wall">A simple ecobrick bathroom wall - 156 ecobricks, Ubud, Bali, Indonesia</p>
+					<p><a class="module-btn" href="training.php?training_id=336" data-lang-id="081-view-project">View project</a></p>
 				</div>
 				<div class="gal-photo" >
-					<img src="../photos/prtmadog-500px.webp" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK" onclick="viewGalleryImage('../photos/prtmadog-500px.webp', 'A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK')">
-					<p data-lang-id="082-roundhouse">A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK</p>
-					<p><a class="module-btn" href="photos/prtmadog-500px.webp" target="_blank" data-lang-id="083-view-project">View project</a></p>
+					<img src="../projects/photos/project-1056-1.webp" alt="Ecobrick nature pond West Berkshire, England, UK" onclick="viewGalleryImage('../projects/photos/project-1056-1.webp', 'A nature pond - 250 ecobricks, West Berkshire, England, UK')">
+					<p data-lang-id="082-roundhouse">A wildlife pond built with ecobricks - 250 ecobricks, England, UK</p>
+					<p><a class="module-btn" href="project.php?project_id=1056" data-lang-id="083-view-project">View project</a></p>
 				</div>
 			</div>
 		</div>
